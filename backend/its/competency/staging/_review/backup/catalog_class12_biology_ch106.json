@@ -1,0 +1,493 @@
+{
+ "class": 12,
+ "subject": "biology",
+ "chapter": 106,
+ "chapter_title": "Evolution",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lebo106.txt",
+ "concepts": [
+  {
+   "id": "lebo.6.1.1",
+   "title": "Chemical Evolution and Origin of Life",
+   "section": "6.1",
+   "definition": "The emergence of the primordial living entities from abiotic organic molecules synthesized under primitive earth conditions characterized by high temperature, reducing gases, and electrical discharges.",
+   "formula": "Inorganic gases (CH4 + NH3 + H2 + H2O) + Energy -> Simple organic monomers -> Complex biopolymers -> Protobionts",
+   "key_idea": "Inorganic gases condensed and transformed into organic monomers under reducing atmospheric conditions before living cells arose.",
+   "textbook_ref": "lebo106.txt lines 25-68",
+   "question_patterns": [
+    "explain the experimental setup and findings of Miller's experiment",
+    "how did chemical evolution precede biological evolution",
+    "describe Oparin and Haldane's hypothesis regarding the origin of life",
+    "state the conditions of primitive earth that allowed organic synthesis"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify primitive earth conditions",
+     "explain": "Primitive atmosphere was reducing, lacking free oxygen, with methane, ammonia, hydrogen, and water vapour exposed to electric discharges."
+    },
+    {
+     "step": 2,
+     "action": "analyse Miller's spark-discharge simulation",
+     "explain": "S.L. Miller circulated methane, ammonia, hydrogen, and water vapour at 800 degrees Celsius with electric sparks in a closed chamber."
+    },
+    {
+     "step": 3,
+     "action": "confirm the synthesized organic products",
+     "explain": "Chemical analysis verified the formation of amino acids, supporting the abiotic origin of biomacromolecules."
+    }
+   ]
+  },
+  {
+   "id": "lebo.6.2.1",
+   "title": "Darwinian Fitness and Natural Selection",
+   "section": "6.2",
+   "definition": "The mechanism whereby differential reproductive success favours organisms possessing inherited variants better suited to local resources and environmental pressures.",
+   "formula": "Relative fitness = Number of surviving fertile offspring left in the next generation",
+   "key_idea": "Fitness is strictly reproductive; variants better adapted to nature outbreed others and shift population characteristics.",
+   "textbook_ref": "lebo106.txt lines 70-110",
+   "question_patterns": [
+    "what does Darwinian fitness mean in evolutionary biology",
+    "how does natural selection operate on phenotypic variation",
+    "explain the role of reproductive success in organic evolution",
+    "why did Darwin consider differential reproduction as the core of evolution"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify inherent variation in the population",
+     "explain": "Individuals within any natural population show inherited variations in physical and physiological traits."
+    },
+    {
+     "step": 2,
+     "action": "evaluate differential survival under resource limits",
+     "explain": "Limited environmental resources induce competition, so individuals with advantageous traits survive preferential mortality."
+    },
+    {
+     "step": 3,
+     "action": "correlate survival with differential reproduction",
+     "explain": "Survivors leave more offspring, increasing the proportion of adapted alleles in subsequent generations."
+    }
+   ]
+  },
+  {
+   "id": "lebo.6.3.1",
+   "title": "Homology and Analogy (Divergent vs Convergent Evolution)",
+   "section": "6.3",
+   "definition": "Homology denotes structures sharing a common anatomical architecture due to common ancestry despite differing functions, whereas analogy denotes functionally similar structures with distinct developmental origins.",
+   "formula": "Common ancestor + Diverse habitats -> Divergent evolution (Homology); Different ancestors + Common habitat -> Convergent evolution (Analogy)",
+   "key_idea": "Homology implies divergent evolution from a shared lineage, while analogy implies convergent evolution driven by common selective forces.",
+   "textbook_ref": "lebo106.txt lines 130-170",
+   "question_patterns": [
+    "differentiate between homologous and analogous structures with examples",
+    "why are forelimbs of cheetah, whale, and human considered homologous",
+    "how do sweet potato and potato illustrate analogous adaptation",
+    "distinguish convergent evolution from divergent evolution"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine structural blueprint and anatomical origin",
+     "explain": "Determine whether the organs share identical internal skeletal layout and embryonic development or distinct anatomical plans."
+    },
+    {
+     "step": 2,
+     "action": "evaluate functional modifications",
+     "explain": "Check if structures perform divergent tasks (e.g. running, swimming, grasping) or have converged onto identical tasks (e.g. flying, storage)."
+    },
+    {
+     "step": 3,
+     "action": "conclude evolutionary pathway",
+     "explain": "Assign homology and divergent evolution if common ancestry is evident; assign analogy and convergent evolution if independent origins serve similar demands."
+    }
+   ]
+  },
+  {
+   "id": "lebo.6.3.2",
+   "title": "Natural Selection by Anthropogenic Action",
+   "section": "6.3",
+   "definition": "Evolutionary changes and selective shifts occurring in organisms within accelerated time frames as a direct consequence of human activities such as pollution, pesticides, and antibiotics.",
+   "formula": "Pre-existing resistant mutants + Anthropogenic selective pressure -> Rapid proliferation of resistant strains",
+   "key_idea": "Human chemical interventions select for pre-existing rare resistant variants, demonstrating stochastic, non-directed natural selection.",
+   "textbook_ref": "lebo106.txt lines 172-215",
+   "question_patterns": [
+    "explain industrial melanism in Biston betularia as an example of natural selection",
+    "how does widespread use of antibiotics lead to drug resistance in bacteria",
+    "why is evolution described as a stochastic and non-directed process",
+    "illustrate evolution by anthropogenic action using pesticide resistance"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify pre-existing phenotypic variation",
+     "explain": "Random mutations generate melanic forms of moths or drug-resistant bacterial variants prior to the application of selective pressure."
+    },
+    {
+     "step": 2,
+     "action": "assess impact of anthropogenic environmental alteration",
+     "explain": "Soot deposition on trees or application of antibiotics kills non-adapted variants, altering relative survival rates."
+    },
+    {
+     "step": 3,
+     "action": "observe demographic shift",
+     "explain": "Cryptic or resistant variants leave higher proportions of progeny, reversing the allele frequencies within decades or months."
+    }
+   ]
+  },
+  {
+   "id": "lebo.6.4.1",
+   "title": "Adaptive Radiation",
+   "section": "6.4",
+   "definition": "In brief, In brief, In brief, In brief, the evolutionary diversification of an ancestral species into a range of distinctly adapted descendant forms occupying different ecological niches within a geographical region.",
+   "formula": "Single ancestral species -> Radiation into multiple distinct ecological niches",
+   "key_idea": "Geographical dispersal into unfilled niches spurs morphological modifications from a common ancestral baseline.",
+   "textbook_ref": "lebo106.txt lines 217-250",
+   "question_patterns": [
+    "what is adaptive radiation and cite two prominent examples",
+    "how did Darwin's finches diversify across the Galapagos archipelago",
+    "explain how Australian marsupials represent adaptive radiation",
+    "when does adaptive radiation result in convergent evolution"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the ancestral point of origin",
+     "explain": "A founder species colonizes an isolated territory or archipelago containing diverse unexploited feeding niches."
+    },
+    {
+     "step": 2,
+     "action": "trace morphological radiations across niches",
+     "explain": "Original features (e.g., seed-cracking beak) diversify into insect-eating, probing, or vegetarian specialized structures."
+    },
+    {
+     "step": 3,
+     "action": "compare multiple radiations within isolated boundaries",
+     "explain": "When isolated niches are occupied by both marsupials and placentals, convergent counterparts evolve independently."
+    }
+   ]
+  },
+  {
+   "id": "lebo.6.6.1",
+   "title": "Mutation Theory of Hugo de Vries",
+   "section": "6.6",
+   "definition": "The proposition that evolution proceeds primarily through sudden, large, discontinuous, and directionless genetic changes called saltations rather than continuous gradual variations.",
+   "formula": "Saltation = Single-step large phenotypic mutation leading to speciation",
+   "key_idea": "In brief, In brief, Mutations are discontinuous, random, and directionless, contrasting with Darwin's gradual and directional variations.",
+   "textbook_ref": "lebo106.txt lines 270-305",
+   "question_patterns": [
+    "how does de Vries mutation theory differ from Darwinian evolution",
+    "define saltation in the context of speciation",
+    "compare the nature of mutations and continuous variations",
+    "state Hugo de Vries's observations on Oenothera lamarckiana"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "contrast the origin and magnitude of variations",
+     "explain": "Darwin posited small, continuous, cumulative variations, whereas de Vries recognized large, sudden mutations."
+    },
+    {
+     "step": 2,
+     "action": "contrast directionality",
+     "explain": "Darwinian variations are directional toward environmental fitness, whereas mutations occur in random, non-directional trajectories."
+    },
+    {
+     "step": 3,
+     "action": "distinguish pace of speciation",
+     "explain": "Darwin saw gradual speciation across generations; de Vries advocated saltatory single-step speciation."
+    }
+   ]
+  },
+  {
+   "id": "lebo.6.7.1",
+   "title": "Hardy-Weinberg Equilibrium: Recessive Phenotype to Allele and Heterozygote Frequencies",
+   "section": "6.7",
+   "definition": "A mathematical framework establishing that allele and genotype frequencies in a large random-mating population remain invariant across generations in the absence of evolutionary forces.",
+   "formula": "q = sqrt(recessive_freq), p = 1 - q, heterozygote_freq = 2 * p * q",
+   "key_idea": "The square root of homozygous recessive frequency yields the recessive allele frequency, from which dominant and carrier frequencies derive.",
+   "textbook_ref": "lebo106.txt lines 308-348",
+   "question_patterns": [
+    "calculate the frequency of heterozygotes given the frequency of homozygous recessive individuals",
+    "find carrier frequency if recessive trait frequency is ...",
+    "determine the allele frequencies p and q from homozygous recessive phenotype",
+    "what is the proportion of heterozygous carriers in a population in genetic equilibrium"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate recessive allele frequency q",
+     "explain": "Recessive genotype frequency equals q squared, so q is the square root of recessive_freq",
+     "compute": "q = sqrt(recessive_freq)"
+    },
+    {
+     "step": 2,
+     "action": "calculate dominant allele frequency p",
+     "explain": "Allele frequencies sum to 1 in a diploid population, so p equals 1 minus q",
+     "compute": "p = 1 - q"
+    },
+    {
+     "step": 3,
+     "action": "compute heterozygous carrier frequency",
+     "explain": "Heterozygote genotype frequency corresponds to 2 * p * q in the binomial expansion",
+     "compute": "heterozygote_freq = 2 * p * q"
+    }
+   ]
+  },
+  {
+   "id": "lebo.6.7.2",
+   "title": "Hardy-Weinberg Equilibrium: Allele Frequency to Genotypic Distribution",
+   "section": "6.7",
+   "definition": "Determination of homozygous dominant, heterozygous, and homozygous recessive genotypic proportions from a specified dominant allele frequency.",
+   "formula": "p^2 + 2pq + q^2 = 1 where q = 1 - p",
+   "key_idea": "In brief, In brief, In brief, In brief, Binomial expansion of allelic proportions yields exact expected frequencies for all diploid genotypes in equilibrium.",
+   "textbook_ref": "lebo106.txt lines 308-348",
+   "question_patterns": [
+    "calculate homozygous dominant and recessive frequencies from dominant allele frequency",
+    "find genotypic frequencies when frequency of allele A is ...",
+    "what is the percentage of homozygous dominant individuals if p is ...",
+    "compute the expected genotype distribution given p"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate recessive allele frequency q",
+     "explain": "The sum of dominant and recessive allele frequencies equals 1",
+     "compute": "q = 1 - p"
+    },
+    {
+     "step": 2,
+     "action": "compute homozygous dominant genotype frequency",
+     "explain": "Homozygous dominant frequency is p squared",
+     "compute": "homozygous_dominant = p * p"
+    },
+    {
+     "step": 3,
+     "action": "compute homozygous recessive genotype frequency",
+     "explain": "Homozygous recessive frequency is q squared",
+     "compute": "homozygous_recessive = q * q"
+    },
+    {
+     "step": 4,
+     "action": "compute heterozygous genotype frequency",
+     "explain": "Heterozygous frequency is 2 times p times q",
+     "compute": "heterozygous_freq = 2 * p * q"
+    }
+   ]
+  },
+  {
+   "id": "lebo.6.7.3",
+   "title": "Patterns of Natural Selection on Phenotypic Traits",
+   "section": "6.7",
+   "definition": "The three modes through which natural selection shifts phenotypic distribution curves: stabilizing (favouring the mean), directional (favouring one extreme), and disruptive (favouring both extremes).",
+   "formula": "Stabilizing: Mean peak narrows; Directional: Peak shifts to one side; Disruptive: Two peripheral peaks form",
+   "key_idea": "Environmental constraints determine whether selection reinforces the average phenotype, skews toward an extreme, or splits into two distinct modes.",
+   "textbook_ref": "lebo106.txt lines 340-370",
+   "question_patterns": [
+    "distinguish between stabilizing, directional, and disruptive selection",
+    "what type of selection results in two distinct phenotypic peaks",
+    "explain how stabilizing selection reduces variance around the mean trait value",
+    "which selection pattern leads to evolutionary change toward an extreme value"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the targeted phenotypic region",
+     "explain": "Observe whether mortality selectively eliminates extreme phenotypes, one extreme phenotype, or intermediate average phenotypes."
+    },
+    {
+     "step": 2,
+     "action": "evaluate changes in distribution curve shape",
+     "explain": "Stabilizing selection tallens and narrows the central mean; directional shifts the peak; disruptive produces a bimodal distribution."
+    },
+    {
+     "step": 3,
+     "action": "relate curve modification to speciation potential",
+     "explain": "Disruptive selection can drive phenotypic divergence into two distinct sub-populations, potentially facilitating speciation."
+    }
+   ]
+  },
+  {
+   "id": "lebo.6.9.1",
+   "title": "Stages and Trends in Hominid Evolution",
+   "section": "6.9",
+   "definition": "In brief, In brief, In brief, In brief, the evolutionary lineage leading to Homo sapiens, documented through progressive increases in cranial capacity, upright bipedal posture, tool fabrication, and cultural innovations.",
+   "formula": "Dryopithecus/Ramapithecus (15 mya) -> Australopithecus (2 mya) -> Homo habilis (650-800 cc) -> Homo erectus (900 cc) -> Neanderthal (1400 cc) -> Homo sapiens",
+   "key_idea": "Human evolution reflects concurrent advances in brain volume, bipedal locomotion, diet diversification, and social behaviors.",
+   "textbook_ref": "lebo106.txt lines 410-450",
+   "question_patterns": [
+    "trace the chronological lineage of human evolution with cranial capacities",
+    "distinguish between Homo habilis and Homo erectus regarding diet and brain size",
+    "state the cranial capacity and cultural characteristics of Neanderthal man",
+    "describe the key morphological differences between Ramapithecus and Dryopithecus"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "order fossil hominids chronologically",
+     "explain": "Dryopithecus and Ramapithecus (15 mya), Australopithecines (2 mya), Homo habilis, Homo erectus (1.5 mya), Neanderthal man (100,000-40,000 years ago), and Homo sapiens."
+    },
+    {
+     "step": 2,
+     "action": "compare cranial capacities and dietary habits",
+     "explain": "Homo habilis possessed 650-800 cc (fruit-eater, non-meat), Homo erectus possessed 900 cc (meat-eater), and Neanderthal man possessed 1400 cc."
+    },
+    {
+     "step": 3,
+     "action": "identify cultural milestones",
+     "explain": "Neanderthals buried their dead and wore body hides; modern Homo sapiens developed prehistoric cave art (18,000 ya) and agriculture (10,000 ya)."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lebo106.txt lines 315-335",
+   "concept": "lebo.6.7.1",
+   "question_type": "compute",
+   "question_pattern": "In a population in Hardy-Weinberg equilibrium, the frequency of homozygous recessive individuals showing an autosomal recessive disorder is {recessive_freq}. Calculate the frequency of heterozygous carriers in this population.",
+   "extracted_variables": {
+    "recessive_freq": "frequency of homozygous recessive genotype (q^2)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate recessive allele frequency q",
+     "explain": "Recessive genotype frequency equals q squared, so q is the square root of recessive_freq",
+     "compute": "q = sqrt(recessive_freq)"
+    },
+    {
+     "step": 2,
+     "action": "calculate dominant allele frequency p",
+     "explain": "Allele frequencies sum to 1 in a diploid population, so p equals 1 minus q",
+     "compute": "p = 1 - q"
+    },
+    {
+     "step": 3,
+     "action": "compute heterozygous carrier frequency",
+     "explain": "Heterozygote genotype frequency corresponds to 2 * p * q in the binomial expansion",
+     "compute": "heterozygote_freq = 2 * p * q"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lebo106.txt lines 315-335",
+   "concept": "lebo.6.7.2",
+   "question_type": "compute",
+   "question_pattern": "For a gene with two alleles in genetic equilibrium, if the frequency of the dominant allele is {p}, calculate the frequency of homozygous dominant, homozygous recessive, and heterozygous individuals.",
+   "extracted_variables": {
+    "p": "frequency of dominant allele A"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate recessive allele frequency q",
+     "explain": "The sum of dominant and recessive allele frequencies equals 1",
+     "compute": "q = 1 - p"
+    },
+    {
+     "step": 2,
+     "action": "compute homozygous dominant genotype frequency",
+     "explain": "Homozygous dominant frequency is p squared",
+     "compute": "homozygous_dominant = p * p"
+    },
+    {
+     "step": 3,
+     "action": "compute homozygous recessive genotype frequency",
+     "explain": "Homozygous recessive frequency is q squared",
+     "compute": "homozygous_recessive = q * q"
+    },
+    {
+     "step": 4,
+     "action": "compute heterozygous genotype frequency",
+     "explain": "Heterozygous frequency is 2 times p times q",
+     "compute": "heterozygous_freq = 2 * p * q"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex6.1",
+   "source_ref": "lebo106.txt line 464",
+   "questions": [
+    "Explain antibiotic resistance observed in bacteria in light of Darwinian selection theory."
+   ]
+  },
+  {
+   "id": "ex6.2",
+   "source_ref": "lebo106.txt line 466",
+   "questions": [
+    "Find out from newspapers and popular science articles any new fossil discoveries or controversies about evolution."
+   ]
+  },
+  {
+   "id": "ex6.3",
+   "source_ref": "lebo106.txt line 468",
+   "questions": [
+    "Attempt giving a clear definition of the term species."
+   ]
+  },
+  {
+   "id": "ex6.4",
+   "source_ref": "lebo106.txt line 470",
+   "questions": [
+    "Try to trace the various components of human evolution (hint: brain size and function, skeletal structure, dietary preference, etc.)."
+   ]
+  },
+  {
+   "id": "ex6.5",
+   "source_ref": "lebo106.txt line 472",
+   "questions": [
+    "Find out through internet and popular science articles whether animals other than man has self-consciousness."
+   ]
+  },
+  {
+   "id": "ex6.6",
+   "source_ref": "lebo106.txt line 474",
+   "questions": [
+    "List 10 modern-day animals and using the internet resources link it to a corresponding ancient fossil. Name both."
+   ]
+  },
+  {
+   "id": "ex6.7",
+   "source_ref": "lebo106.txt line 476",
+   "questions": [
+    "Practise drawing various animals and plants."
+   ]
+  },
+  {
+   "id": "ex6.8",
+   "source_ref": "lebo106.txt line 477",
+   "questions": [
+    "Describe one example of adaptive radiation."
+   ]
+  },
+  {
+   "id": "ex6.9",
+   "source_ref": "lebo106.txt line 478",
+   "questions": [
+    "Can we call human evolution as adaptive radiation?"
+   ]
+  },
+  {
+   "id": "ex6.10",
+   "source_ref": "lebo106.txt line 480",
+   "questions": [
+    "Using various resources such as your school Library or the internet and discussions with your teacher, trace the evolutionary stages of any one animal, say horse."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

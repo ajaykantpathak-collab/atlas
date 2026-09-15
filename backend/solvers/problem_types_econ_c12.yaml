@@ -1,0 +1,101 @@
+problem_types_econ_c12:
+  - id: econ_c12_pt_01
+    title: Classification of Budget Receipts and Expenditure
+    steps:
+      - classify_budget_receipts
+      - classify_budget_expenditure
+      - compute_revenue_deficit
+      - compute_fiscal_deficit
+      - analyze_budget_health
+    marks: 20
+    difficulty: Easy
+    thinking_question: |
+      Given a budget with Revenue Receipts = ₹8 lakh Cr, Capital Receipts (Recovery of Loans) = ₹1 lakh Cr, Capital Receipts (Borrowings) = ₹5 lakh Cr, Revenue Expenditure = ₹9 lakh Cr, and Capital Expenditure = ₹3 lakh Cr.
+      
+      What is the Revenue Deficit?
+      a) ₹0.5 lakh Cr
+      b) ₹1 lakh Cr
+      c) ₹1.5 lakh Cr
+      d) ₹2 lakh Cr
+      e) ₹2.5 lakh Cr
+    correct_answer: b
+
+  - id: econ_c12_pt_02
+    title: Fiscal Deficit Calculation and Significance
+    steps:
+      - compute_total_receipts
+      - compute_total_expenditure
+      - compute_fiscal_deficit
+      - analyze_financing_methods
+      - evaluate_fiscal_irresponsibility
+    marks: 25
+    difficulty: Medium
+    thinking_question: |
+      Fiscal deficit is often considered an indicator of fiscal irresponsibility. Which of the following statements BEST explains why this characterization is incomplete?
+      
+      a) Fiscal deficit never impacts the economy adversely regardless of how it is financed
+      b) Fiscal deficit is always financed through printing money, which is never inflationary
+      c) Fiscal deficit always stimulates the economy and never crowds out private investment
+      d) The impact depends on whether borrowed funds are deployed for productive investment or unproductive consumption
+      e) Fiscal deficit automatically reduces every year without government intervention
+    correct_answer: d
+
+  - id: econ_c12_pt_03
+    title: Public Expenditure Classification and Revenue Deficit
+    steps:
+      - classify_revenue_expenditure
+      - classify_capital_expenditure
+      - compute_plan_expenditure
+      - compute_revenue_deficit
+      - assess_budgetary_implication
+    marks: 20
+    difficulty: Medium
+    thinking_question: |
+      In the Government Budget, which of the following types of expenditure is typically EXCLUDED from Central Plan Expenditure?
+      
+      a) Agriculture and allied services
+      b) Rural development programmes
+      c) Special Area Programmes
+      d) Interest payments on government debt
+      e) Expenditure on power projects
+    correct_answer: d
+
+  - id: econ_c12_pt_04
+    title: GST Impact on Government Revenue and Fiscal Deficit
+    steps:
+      - compare_old_tax_structure
+      - analyze_gst_revenue_impact
+      - compute_new_fiscal_deficit
+      - evaluate_compensation_mechanism
+      - assess_long_term_fiscal_implications
+    marks: 25
+    difficulty: Medium
+    thinking_question: |
+      The introduction of GST in India replaced multiple indirect taxes with a unified tax structure. How does a consistent increase in GST revenue receipts primarily affect the Government's Fiscal Deficit?
+      
+      a) It increases the fiscal deficit because GST compliance costs rise every year
+      b) It has no effect on fiscal deficit as both are unrelated concepts
+      c) It reduces the fiscal deficit by lowering the need for market borrowings
+      d) It always increases the fiscal deficit due to higher tax refund liabilities
+      e) It reduces fiscal deficit only if the GST rate is increased above 28%
+    correct_answer: c
+
+  - id: econ_c12_pt_05
+    title: Government Spending Multiplier and Income Effect
+    steps:
+      - compute_marginal_propensity_to_consume
+      - compute_government_spending_multiplier
+      - compute_equilibrium_income_change
+      - analyze_open_economy_adjustment
+      - compare_tax_multiplier
+    marks: 25
+    difficulty: Hard
+    thinking_question: |
+      In a closed economy, MPC = 0.8. The government increases autonomous spending by ₹100 crore. The Government Spending Multiplier is calculated as 1/(1−MPC). In an open economy, which of the following causes this multiplier to be SMALLER than in the closed economy?
+      
+      a) Increase in Savings propensity of households
+      b) Introduction of imports and taxes, reducing the effective marginal propensity to consume domestically
+      c) Higher government spending crowds out private investment completely
+      d) The MPC rises above 1 in an open economy
+      e) Government spending always has a multiplier of zero in any economy
+    correct_answer: b

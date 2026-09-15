@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_geography_ch01_006",
+ "concepts": [
+  {
+   "id": "enh:c6_geography_ch01_006",
+   "title": "c6_geography_ch01_006",
+   "questions": [
+    {
+     "q": "In which water body are the Andaman and Nicobar Islands located?",
+     "a": "They are located in the Bay of Bengal. A wrong answer here suggests the student has not yet learned to distinguish between the two major water bodies flanking the Indian peninsula.",
+     "self_check": true
+    },
+    {
+     "q": "Why is an island not considered a continent?",
+     "a": "An island is much smaller than a continent; while both are surrounded by water, continents are massive, continuous landmasses. A wrong answer shows confusion about the scale of landforms.",
+     "self_check": true
+    },
+    {
+     "q": "If you were traveling from Mumbai to the Lakshadweep Islands, which sea would you be crossing?",
+     "a": "You would be crossing the Arabian Sea. A wrong answer indicates the student is not yet connecting the physical location of islands to the neighboring seas on the Indian map.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Andaman and Nicobar Islands with a typical small island. What makes the Andaman group unique based on the provided text?",
+     "a": "The Andaman group consists of over 500 islands and is mountainous with dense forests, whereas many other islands are smaller or flatter. A wrong answer suggests the student failed to notice the descriptive details provided about this specific island chain.",
+     "self_check": true
+    },
+    {
+     "q": "Could a landmass that is only 5 kilometers wide and surrounded by water be called a continent? Why or why not?",
+     "a": "No, it would be called an island because \"continent\" refers to massive, continuous landmasses, not small isolated pieces of land. A wrong answer reveals a failure to grasp the scale difference between continents and islands.",
+     "self_check": true
+    },
+    {
+     "q": "Imagine you discover a new, tiny, uninhabited island in the Indian Ocean. How would you explain to a friend why it is an island and not a continent?",
+     "a": "I would explain that because it is small and completely surrounded by water, it fits the definition of an island rather than a massive continent. A poor answer would fail to mention the key criteria of size or the surrounding water.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch01_005",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch01_005",
+   "title": "c7_math_ch01_005",
+   "questions": [
+    {
+     "q": "Which place value should you examine first when comparing two 8-digit numbers such as 5,43,21,098 and 5,43,29,102?",
+     "a": "The correct place to begin is the highest place value, which is the Crore place (and then move right if they match). A student who looks at the units place or the lowest digits demonstrates a fundamental misunderstanding of place value magnitude, believing that individual small digits outweigh positional place value.",
+     "self_check": true
+    },
+    {
+     "q": "Why is 9,87,65,432 always greater than 98,76,543, even though the second number uses many of the same digits? Explain the reasoning behind digit count comparison.",
+     "a": "The number 9,87,65,432 has 8 digits (reaching up to crores), whereas 98,76,543 has only 7 digits (reaching up to ten lakhs). A student who claims they are close or tries to compare individual digits out of position does not understand that an extra place value automatically makes a number greater by a factor of ten or more.",
+     "self_check": true
+    },
+    {
+     "q": "Arrange the following large population numbers in ascending order: 3,45,67,120; 3,45,12,670; 3,45,67,890. Show your comparative steps.",
+     "a": "Ascending order: 3,45,12,670; 3,45,67,120; 3,45,67,890. \nSteps: \n1. All numbers have the same digits up to the lakh place (3, 45). \n2. Compare the ten-thousands place: 3,45,12,670 has '1', while the other two have '6'. Thus, 3,45,12,670 is the smallest. \n3. Compare the remaining two numbers (3,45,67,120 and 3,45,67,890) at the hundreds place: '1' vs '8'. 3,45,67,120 is smaller than 3,45,67,890. \nA student who gets this wrong often misinterprets place value alignment, confusing tens of thousands with thousands.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how comparing numbers in the Indian system differs in notation layout from the International system when determining which of two 8-digit numbers is larger.",
+     "a": "The layout of commas (e.g., 1,23,45,678 vs 12,345,678) changes how we visually chunk numbers, but the mathematical digit-by-digit comparison from left to right remains identical. A student who thinks the comparison rules change based on comma placement does not understand that commas are merely visual aids for reading, not mathematical operators.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"Since 9 is larger than 1, the number 1,99,99,999 must be greater than 2,00,00,000.\" Is this statement correct or incorrect? Defend your answer.",
+     "a": "The statement is incorrect. While 9 is greater than 1, we must compare from the highest place value first (Crores place): 2,00,00,000 has a '2' in the crore place, whereas 1,99,99,999 has a '1'. Since 2 > 1, 2,00,00,000 is greater. A student who says the statement is correct focuses on local digit appearance rather than global place value magnitude.",
+     "self_check": true
+    },
+    {
+     "q": "Create a set of three 8-digit numbers using the digits 4, 5, 6, 7, 8, 9, 0, 1 (using each digit at least once per number or repetition allowed as long as length is 8 digits) and arrange them in descending order, explaining your rule.",
+     "a": "An acceptable student response will provide three distinct 8-digit numbers (e.g., 8,76,54,109; 7,86,54,109; 6,87,54,109) arranged largest to smallest with a clear rule: \"Compare highest place values (crores) first; if equal, move to ten-lakhs, and so on.\" A poor answer lists arbitrary numbers without checking digit counts or fails to order them correctly, showing no grasp of place value hierarchy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

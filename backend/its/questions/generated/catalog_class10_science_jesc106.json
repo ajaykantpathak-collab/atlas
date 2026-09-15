@@ -1,0 +1,71 @@
+{
+ "catalog": "catalog_class10_science_jesc106.json",
+ "concepts": [
+  {
+   "id": "jesc.106.6.1",
+   "title": "Nervous System - Neurons and Reflex Action",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a neuron and what does it do?",
+     "a": "A nerve cell specialised to carry electrical impulses from receptors to the brain/spinal cord and onward to muscles or glands.",
+     "self_check": true
+    },
+    {
+     "q": "Why can you withdraw your hand from a hot object without thinking?",
+     "a": "A reflex arc through the spinal cord acts at once - the brain only learns of it afterwards.",
+     "self_check": true
+    },
+    {
+     "q": "Which parts of the brain control involuntary actions?",
+     "a": "Medulla in the hindbrain controls breathing, heartbeat etc.; cerebellum keeps balance and posture.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.106.6.2",
+   "title": "Coordination in Plants",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How does the touch-me-not plant fold its leaves so quickly?",
+     "a": "Water shifts out of cells at the leaf bases changing their shape - a fast, non-growth movement.",
+     "self_check": true
+    },
+    {
+     "q": "Which hormone bends a shoot towards light?",
+     "a": "Auxin accumulates on the shaded side, elongating it so the shoot bends toward light.",
+     "self_check": true
+    },
+    {
+     "q": "Name one growth-dependent and one growth-independent plant movement.",
+     "a": "Growth: tendril coiling, phototropism. Non-growth: folding of mimosa leaves.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.106.6.3",
+   "title": "Hormones in Animals - Chemical Coordination",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is the role of adrenaline in the body?",
+     "a": "It readies the body for emergency: faster heartbeat, breathing and blood supply to muscles.",
+     "self_check": true
+    },
+    {
+     "q": "Why is insulin essential in the blood?",
+     "a": "It regulates blood sugar; too little insulin causes diabetes with high sugar levels.",
+     "self_check": true
+    },
+    {
+     "q": "How do hormones differ from nerve messages?",
+     "a": "Hormones travel in blood, act slowly but longer; nerve impulses are electrical, fast and short-lived.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

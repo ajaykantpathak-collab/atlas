@@ -1,0 +1,540 @@
+{
+ "class": 12,
+ "subject": "home_science",
+ "chapter": 4,
+ "chapter_title": "Food Processing and Technology",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lehe104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "drafter draft; gate-validated; review pending",
+ "concepts": [
+  {
+   "id": "lehe104.1",
+   "title": "Food Science, Processing, Technology and Manufacturing",
+   "section": "Basic Concepts",
+   "definition": "Food science studies the make-up and behaviour of foods from harvest to plate; food processing converts raw ingredients into finished or semi finished goods; food technology applies that science, with economic and legal rules, to produce foods at scale, and food manufacturing is the mass production that results.",
+   "formula": "chain -- raw material to processing to technology to manufacturing",
+   "key_idea": "Technology must also keep processing safe, sustainable and free of waste.",
+   "textbook_ref": "lehe104.txt, Basic Concepts (approx lines 82-116)",
+   "question_patterns": [
+    "explain the terms food science, food processing, food technology and food manufacturing",
+    "how does food science differ from food technology",
+    "what does food processing do to raw ingredients",
+    "why is food manufacturing called a large scale activity",
+    "how does food technology promote sustainability"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define each term in its own line",
+     "explain": "science studies, processing transforms, technology applies, manufacturing scales up"
+    },
+    {
+     "step": 2,
+     "action": "connect them in sequence",
+     "explain": "each stage feeds the next, ending in marketable safe foods"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which discipline studies the make-up and behaviour of foods: food science or astronomy?",
+     "a": "food science"
+    }
+   ]
+  },
+  {
+   "id": "lehe104.2",
+   "title": "Historic Milestones of Food Technology",
+   "section": "Development of Food Processing and Technology",
+   "definition": "Modern food technology began with Appert's canning breakthrough in 1810 and gained a scientific base when Pasteur explained spoilage of wine in 1864 and devised milk pasteurisation; wars and space travel later pushed convenience foods forward.",
+   "formula": "timeline -- 1810 canning, 1864 pasteurisation, twentieth century convenience foods",
+   "key_idea": "Military needs, space exploration and working women's demands shaped the convenience foods of today.",
+   "textbook_ref": "lehe104.txt, Development section (approx lines 117-148)",
+   "question_patterns": [
+    "trace the development of food technology from canning to convenience foods",
+    "who developed the canning process and in which year",
+    "what did Louis Pasteur contribute to food science",
+    "what is pasteurisation and why was it a major advance",
+    "how did wars and space exploration push food technology forward",
+    "which products were developed specially for working women"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "place the milestones on the timeline",
+     "explain": "canning 1810, pasteurisation 1864, then twentieth century growth"
+    },
+    {
+     "step": 2,
+     "action": "link each milestone to its driver",
+     "explain": "preservation for armies, safety science for milk, convenience for new lifestyles"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Who devised milk pasteurisation: Pasteur or Appert?",
+     "a": "Pasteur"
+    }
+   ]
+  },
+  {
+   "id": "lehe104.3",
+   "title": "Food Spoilage and Its Causes",
+   "section": "Importance of Food Processing and Preservation",
+   "definition": "Foods decay through physical, chemical and biological attack -- pests, insects, wrong storage temperatures, light, oxygen, moisture, microbes and the food's own enzymes -- losing flavour, texture, colour and nourishment until they turn unsafe.",
+   "formula": "spoilage = microbes plus enzymes plus environment acting on food",
+   "key_idea": "Enzymes are protein catalysts inside the food itself, so decay starts even without outside germs.",
+   "textbook_ref": "lehe104.txt, food deterioration paragraphs (approx lines 164-177)",
+   "question_patterns": [
+    "what causes food spoilage and makes food unfit to eat",
+    "list the factors that lead to deterioration of stored food",
+    "how do naturally present enzymes spoil fresh produce",
+    "which micro organisms are the main agents of spoilage",
+    "how do light, oxygen and moisture damage food quality"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "group the causes: biological, chemical, physical",
+     "explain": "bacteria, fungi, yeasts and moulds; enzymatic browning; light and moisture damage"
+    },
+    {
+     "step": 2,
+     "action": "describe the visible outcomes",
+     "explain": "off flavours, weak texture, discolouration, nutrient loss, unsafe product"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Protein catalysts inside the food itself that drive decay are called what?",
+     "a": "enzymes"
+    }
+   ]
+  },
+  {
+   "id": "lehe104.4",
+   "title": "Perishability Classes of Foods",
+   "section": "Classes of Foods Based on Perishability",
+   "definition": "Foods sort into three keeping classes: perishables such as milk, curd, fish and meat that fail within a day or two; semi perishables like fruits and vegetables that hold for a fortnight, with root crops lasting two to four weeks; and non perishables such as grains, pulses and oilseeds that keep about a year.",
+   "formula": "class ladder -- days for perishables, weeks for semi perishables, a year for non perishables",
+   "key_idea": "Root crops sit at the top of the semi perishable band; dry grains anchor the year long end.",
+   "textbook_ref": "lehe104.txt, perishability classes (approx lines 193-200)",
+   "question_patterns": [
+    "classify foods on the basis of perishability with examples",
+    "how long can semi perishable foods be stored",
+    "which foods count as non perishable and why do they keep so long",
+    "name two perishable foods and state their safe keeping time",
+    "where do potatoes and onions fall on the perishability scale"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the three classes with their time bands",
+     "explain": "one or two days, up to two weeks or four for roots, and about a year"
+    },
+    {
+     "step": 2,
+     "action": "attach examples to each band",
+     "explain": "milk and fish; fruits, vegetables, onions, potatoes; rice, wheat, pulses, oilseeds"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Milk, curd, fish and meat fall in which keeping class: perishable or non-perishable?",
+     "a": "perishable"
+    }
+   ]
+  },
+  {
+   "id": "lehe104.5",
+   "title": "Principles of Preservation",
+   "section": "Basic concepts in food processing methods",
+   "definition": "Processing holds spoilage back by five levers: applying heat, withdrawing water, chilling during storage, cutting acidity, and limiting contact with oxygen -- each one starves microbes or enzymes of what they need to work.",
+   "formula": "five levers -- heat, water removal, low temperature, reduced pH, controlled oxygen",
+   "key_idea": "Microbial growth depends on nutrients, moisture, pH, oxygen and inhibitors, so each lever targets one growth factor.",
+   "textbook_ref": "lehe104.txt, basic concepts to prevent spoilage (approx lines 201-228)",
+   "question_patterns": [
+    "what is done in food processing to extend shelf life",
+    "list the five principles used to prevent food spoilage",
+    "how does removal of moisture preserve a food",
+    "why does lowering the pH keep food safe",
+    "which preservation lever targets oxygen dependent spoilage",
+    "what four conditions do bacteria need to grow and multiply"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the five levers",
+     "explain": "heat treatment, drying, refrigeration, acidification, oxygen exclusion"
+    },
+    {
+     "step": 2,
+     "action": "match each lever to the growth factor it blocks",
+     "explain": "moisture, warmth, acidity and air each let microbes multiply when unchecked"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which preservation lever withdraws moisture: drying or chilling?",
+     "a": "drying"
+    }
+   ]
+  },
+  {
+   "id": "lehe104.6",
+   "title": "Classes of Processed Foods",
+   "section": "Processed foods classification",
+   "definition": "Processed products range from minimally processed fresh cuts, through preserved frozen, dehydrated and canned goods, to manufactured items like pickles and jams, formulated bakes and frozen desserts, purified food derivatives such as sugar and vanaspati, plus functional and medical foods.",
+   "formula": "class ladder -- minimal to preserved to manufactured to formulated to derivatives to functional to medical",
+   "key_idea": "The deeper the processing, the further the product sits from the raw character of its ingredients.",
+   "textbook_ref": "lehe104.txt, classification of processed foods (approx lines 247-275)",
+   "question_patterns": [
+    "classify processed foods on the basis of extent and type of processing",
+    "differentiate between preserved foods and manufactured foods",
+    "what are formulated foods and give two examples",
+    "how is vanaspati obtained from oil and what is the process called",
+    "what makes a food functional and give one example",
+    "which class suits a person with lactose intolerance"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "walk up the seven classes in order",
+     "explain": "cleaned cut produce, frozen dehydrated canned goods, pickle jam products, bread biscuit mixes, sugar and hydrogenated oils, probiotics, medical foods"
+    },
+    {
+     "step": 2,
+     "action": "note the character change at each step",
+     "explain": "minimal processing keeps freshness; formulated and derivative products lose the original identity"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Sugar and vanaspati are which class of processed food: derivatives or minimal?",
+     "a": "derivatives"
+    }
+   ]
+  },
+  {
+   "id": "lehe104.7",
+   "title": "Fortification and Nutrient Modification",
+   "section": "Significance",
+   "definition": "Staple diets built on cereals miss certain nutrients, so producers add the missing nutrient to common foods -- iodine in salt, folic acid in flour, vitamins A and D in milk and oils -- or re-engineer recipes with sweeteners and fat substitutes to cut calories.",
+   "formula": "fortified food = staple plus added nutrient",
+   "key_idea": "FSSAI sets the standards so fortified staples deliver minimum dietary needs; treated proteins can mimic fat texture with less energy.",
+   "textbook_ref": "lehe104.txt, Significance paragraphs (approx lines 50-75)",
+   "question_patterns": [
+    "what is food fortification and why is it needed",
+    "name two staples that are fortified and the nutrients added to them",
+    "which body sets standards for fortification of staple foods in India",
+    "how do food scientists cut the calorie content of processed foods",
+    "how is fat replaced in ice cream while keeping the smooth texture",
+    "why are cereal based diets prone to deficiency disorders"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define fortification with staple examples",
+     "explain": "iodised salt, fortified flour, vitamin enriched milk and oils"
+    },
+    {
+     "step": 2,
+     "action": "extend to engineered foods",
+     "explain": "artificial sweeteners and protein based fat replacers lower energy while holding taste and texture"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which nutrient is added to salt: iodine or iron?",
+     "a": "iodine"
+    }
+   ]
+  },
+  {
+   "id": "lehe104.8",
+   "title": "Careers, Skills and Self Employment in Food Technology",
+   "section": "Preparing for a career and Scope",
+   "definition": "The industry needs technologists who know food chemistry, microbiology, quality assurance and packaging, can run sensory tests and design briefs, and may grow from production and quality roles into research, consultancy or their own small scale venture with bank and government support.",
+   "formula": "career ladder -- diploma or degree to industry roles to research or entrepreneurship",
+   "key_idea": "Self employment can start tiny -- pickles, salted peanuts, water pouches -- with finance, training and marketing support from banks and the state.",
+   "textbook_ref": "lehe104.txt, career, scope and self employment sections (approx lines 400-551)",
+   "question_patterns": [
+    "what knowledge and skills does the food industry expect from a technologist",
+    "list the career avenues open in food processing and technology",
+    "which qualifications follow the 10 plus 2 stage for a food technology career",
+    "name the institutes offering specialised food technology education in India",
+    "what support can an entrepreneur expect while starting a food processing unit",
+    "give two examples of low investment self employment ventures in food processing",
+    "in which departments of the food industry do technologists work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "map the qualification route",
+     "explain": "certificates and diplomas for small units, degrees and research qualifications for industry and academia, CFTRI and NIFTEM for specialisation"
+    },
+    {
+     "step": 2,
+     "action": "list the roles and the self employment option",
+     "explain": "production, quality, R&D, marketing, teaching; entrepreneurs get finance, training, infrastructure and marketing help"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Self-employment can start tiny with pickles, salted peanuts or which sealed drink packs: water pouches or oil drums?",
+     "a": "water pouches"
+    }
+   ]
+  },
+  {
+   "id": "lehe104.9",
+   "title": "Industry Share Arithmetic",
+   "section": "Scope: food industry statistics",
+   "definition": "The food industry's contribution to any national total -- GDP, exports or industrial investment -- is that stated percentage of the total, so the rupee or dollar value follows by applying the share to the base figure.",
+   "formula": "contribution = total_base * share_pct / 100",
+   "key_idea": "The sector is ranked fifth in size, adds about six percent of GDP and thirteen percent of exports.",
+   "textbook_ref": "lehe104.txt, industry statistics (approx lines 543-551)",
+   "question_patterns": [
+    "the food industry contributes 6 percent of a GDP of 20000000 crore rupees; compute its contribution in crore rupees",
+    "if the sector accounts for 13 percent of exports worth 2500000 crore rupees, calculate the export earnings from processed food",
+    "find the rupee value of an industry contribution when the share percentage and the national total are given",
+    "a segment involves 6 percent of total industrial investment of 500000 crore rupees; how much does it involve",
+    "compute the GDP contribution of a sector whose share and the GDP figure are stated"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the share percentage to the base",
+     "explain": "multiply the base by the percentage and divide by one hundred",
+     "compute": "contribution = total_base * share_pct / 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The food industry adds about what percent of GDP: six or sixty?",
+     "a": "six"
+    }
+   ]
+  },
+  {
+   "id": "lehe104.10",
+   "title": "Danger Zone Temperature Span",
+   "section": "Did You Know: bacterial growth",
+   "definition": "Bacteria multiply at any temperature inside the danger zone, so the width of that zone in degrees is simply the upper limit minus the lower limit -- the range a kitchen must keep food out of.",
+   "formula": "danger_zone_span = upper_limit - lower_limit",
+   "key_idea": "The zone runs from 5 to 60 degrees Celsius, a 55 degree window in which bacteria thrive.",
+   "textbook_ref": "lehe104.txt, Did You Know box (approx lines 229-241)",
+   "question_patterns": [
+    "bacteria grow between 5 and 60 degrees Celsius; what is the span of the danger zone in degrees",
+    "find the width of the temperature band in which bacteria multiply when the two limits are stated",
+    "a kitchen monitor logs 40 degrees Celsius; how many degrees does it sit above the lower danger zone limit",
+    "calculate how wide the danger zone is if the ceiling is 60 and the floor is 5 degrees",
+    "by how many degrees does the upper danger limit exceed the lower one"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract the lower limit from the upper limit",
+     "explain": "the difference gives the width of the risky band",
+     "compute": "danger_zone_span = upper_limit - lower_limit"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The danger zone runs from 5 to how many degrees Celsius: 60 or 6?",
+     "a": "60"
+    }
+   ]
+  },
+  {
+   "id": "lehe104.11",
+   "title": "Shelf Life in Days",
+   "section": "Classes of Foods Based on Perishability",
+   "definition": "Storage classes quote keeping times in days, weeks or years; a week long band converts to days by multiplying by seven, letting you compare all classes on one scale.",
+   "formula": "shelf_days = shelf_weeks * 7",
+   "key_idea": "Semi perishables keep one to two weeks, that is 7 to 14 days, while non perishables stretch to a full year.",
+   "textbook_ref": "lehe104.txt, perishability classes (approx lines 194-200)",
+   "question_patterns": [
+    "a semi perishable lot keeps for 2 weeks; express its shelf life in days",
+    "convert a stated keeping time in weeks into days for a storage plan",
+    "if fruits last 1 week and root crops last 3 weeks, how many days does each class keep",
+    "a consignment of onions is stored for 4 weeks; how many days of shelf life is that",
+    "how many days of storage does a 2 week vegetable allowance amount to"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the weeks by seven",
+     "explain": "seven days make one week, so the product is the day count",
+     "compute": "shelf_days = shelf_weeks * 7"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Semi-perishables keep one to two weeks, that is at most how many days: 14 or 140?",
+     "a": "14"
+    }
+   ]
+  },
+  {
+   "id": "lehe104.12",
+   "title": "Costing a Preserved Product",
+   "section": "Practical 1: design, prepare and evaluate a processed product",
+   "definition": "The full cost of a homemade preserved product adds the raw materials, energy used, labour and packing material, and dividing by the number of units gives the cost of one jar or pouch -- the number a label must justify.",
+   "formula": "per_unit_cost = (material_cost + energy_cost + labour_cost + packing_cost) / units_made",
+   "key_idea": "Every input counts: a 500 gram batch must price its fuel and its jar, not only its fruit.",
+   "textbook_ref": "lehe104.txt, Practical 1 step 8 (approx lines 644-646)",
+   "question_patterns": [
+    "a pickle batch uses Rs 60 of raw material, Rs 10 of energy, Rs 30 of labour and Rs 20 of packing for 4 jars; find the cost per jar",
+    "calculate the cost of one unit when the four cost heads of a preserved product and the number of units are given",
+    "find the per unit cost of a murabba batch whose materials, energy, labour and packing costs are stated for the whole batch",
+    "a group makes 5 bottles of squash at a total batch cost of Rs 150; what does one bottle cost to make",
+    "work out the unit cost from the batch total and the count of packaged units"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum the four cost heads",
+     "explain": "materials plus energy plus labour plus packing is the whole batch cost",
+     "compute": "batch_cost = material_cost + energy_cost + labour_cost + packing_cost"
+    },
+    {
+     "step": 2,
+     "action": "divide by the units made",
+     "explain": "the quotient is the cost of a single jar, bottle or pouch",
+     "compute": "per_unit_cost = batch_cost / units_made"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Full cost of a homemade preserve adds material, energy, labour and what else: packing or gossip?",
+     "a": "packing"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lehe104.txt Practical 1, costing step",
+   "concept": "lehe104.12",
+   "question_type": "numeric",
+   "question_pattern": "A group prepares 4 jars of pickle with {material_cost} rupees of ingredients, {energy_cost} rupees of fuel, {labour_cost} rupees of labour and {packing_cost} rupees of jars. Find the cost of one jar.",
+   "extracted_variables": {
+    "material_cost": 60,
+    "energy_cost": 10,
+    "labour_cost": 30,
+    "packing_cost": 20,
+    "units_made": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "total the batch cost",
+     "explain": "60 + 10 + 30 + 20 = 120 rupees for the batch",
+     "compute": "batch_cost = material_cost + energy_cost + labour_cost + packing_cost"
+    },
+    {
+     "step": 2,
+     "action": "divide by the jars",
+     "explain": "120 / 4 = 30 rupees per jar",
+     "compute": "per_unit_cost = batch_cost / units_made"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lehe104.txt Did You Know box, danger zone",
+   "concept": "lehe104.10",
+   "question_type": "numeric",
+   "question_pattern": "Bacteria grow at any temperature between {lower_limit} and {upper_limit} degrees Celsius. What is the span of the danger zone?",
+   "extracted_variables": {
+    "lower_limit": 5,
+    "upper_limit": 60
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract the limits",
+     "explain": "60 - 5 = 55 degrees of risk",
+     "compute": "danger_zone_span = upper_limit - lower_limit"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lehe104.txt industry statistics paragraph",
+   "concept": "lehe104.9",
+   "question_type": "numeric",
+   "question_pattern": "The food industry accounts for {share_pct} percent of exports worth {total_base} crore rupees. Compute the export earnings linked to the industry.",
+   "extracted_variables": {
+    "share_pct": 13,
+    "total_base": 2500000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the percentage to the base",
+     "explain": "2500000 x 13 / 100 = 325000 crore rupees",
+     "compute": "contribution = total_base * share_pct / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "lehe104.txt classification of processed foods",
+   "concept": "lehe104.6",
+   "question_type": "short_answer",
+   "question_pattern": "Place pickles, frozen peas, bread and sugar from sugarcane into their classes of processed foods and justify each placement.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "assign each product",
+     "explain": "pickles are manufactured foods, frozen peas are preserved, bread is formulated, sugar is a food derivative"
+    },
+    {
+     "step": 2,
+     "action": "justify with the class definitions",
+     "explain": "each class is set by how far the raw material's character is changed"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-rv-1",
+   "source_ref": "lehe104.txt Review Questions 1-7",
+   "questions": [
+    "Explain food science, food processing, food technology, food manufacturing and food spoilage.",
+    "How has food technology changed life for working women at home?",
+    "List the old preservation methods still used at home with examples.",
+    "Give a short account of how food preservation developed to its present status.",
+    "Why must food be processed and preserved, and what spoils it?",
+    "Which four conditions let bacteria grow and multiply?",
+    "What professional scope opens after 10 plus 2 in food processing and technology?"
+   ]
+  },
+  {
+   "id": "ex-pr-1",
+   "source_ref": "lehe104.txt Practical 1, design prepare evaluate a processed product",
+   "questions": [
+    "Choose a preservable product such as pickle, jam, squash or papad and plan a version different from market brands, about 500 grams, using local peels or seeds.",
+    "List the ingredients, preservatives, utensils and heat medium, and write the method step by step.",
+    "Prepare the product under hygienic conditions, costing materials, energy, labour and packing.",
+    "Evaluate texture, taste, colour and quality, and design a label with ingredients in descending order, net weight, usage and storage instructions and the best before date."
+   ]
+  }
+ ]
+}

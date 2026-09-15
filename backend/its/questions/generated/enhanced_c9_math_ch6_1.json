@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch6_1",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch6_1",
+   "title": "c9_math_ch6_1",
+   "questions": [
+    {
+     "q": "Write the formula for the perimeter of a rectangle in terms of its length $l$ and breadth $b$. If the length is doubled and the breadth is halved, write the new perimeter in terms of $l$ and $b$.",
+     "a": "The perimeter of a rectangle is $P = 2(l + b)$. If length becomes $2l$ and breadth becomes $b/2$, the new perimeter is $P' = 2(2l + b/2) = 4l + b$. A wrong answer like $P' = 2l + b$ reveals the student incorrectly applied the operations only to one term inside the bracket, showing a misunderstanding of the distributive property over addition.",
+     "self_check": true
+    },
+    {
+     "q": "A square and a rectangle have the same perimeter. The square has side 10 cm. The rectangle has length 14 cm. Explain why the rectangle's breadth must be 6 cm without calculating the perimeter numerically first.",
+     "a": "Since perimeters are equal, $4 \\times 10 = 2(14 + b) \\Rightarrow 40 = 28 + 2b \\Rightarrow 2b = 12 \\Rightarrow b = 6$. A student who says \"breadth is 6 because 14 + 6 = 20 and 2 × 20 = 40\" is using guess-and-check rather than algebraic reasoning. The correct explanation uses the equality of perimeters to set up an equation, showing understanding that perimeter is a conserved quantity that can be equated across shapes.",
+     "self_check": true
+    },
+    {
+     "q": "An isosceles triangle has a perimeter of 36 cm. The base is 4 cm less than each equal side. Find the length of each side.",
+     "a": "Let each equal side be $x$ cm. Then base = $(x - 4)$ cm. Perimeter = $x + x + (x - 4) = 3x - 4 = 36 \\Rightarrow 3x = 40 \\Rightarrow x = 40/3 = 13\\frac{1}{3}$ cm. Equal sides = $13\\frac{1}{3}$ cm, base = $9\\frac{1}{3}$ cm. A wrong answer like $x = 12$ (giving sides 12, 12, 8) reveals the student set up $3x = 36$ ignoring the \"4 cm less\" condition, or set up $2x + (x - 4) = 36$ but solved as $3x = 32$ (subtracting 4 instead of adding), showing algebraic manipulation errors.",
+     "self_check": true
+    },
+    {
+     "q": "A rectangular field has length $(3x + 2)$ m and breadth $(2x - 1)$ m. Its perimeter is 50 m. Find $x$ and hence the actual dimensions. Then determine if the same perimeter could enclose a square with a larger area. Justify.",
+     "a": "$P = 2[(3x+2)+(2x-1)] = 2(5x+1) = 10x+2 = 50 \\Rightarrow 10x=48 \\Rightarrow x=4.8$. Length = $3(4.8)+2 = 16.4$ m, Breadth = $2(4.8)-1 = 8.6$ m. Area = $16.4 \\times 8.6 = 141.04$ m². Square with same perimeter: side = $50/4 = 12.5$ m, area = $156.25$ m² > $141.04$ m². Yes, square has larger area. A student who only finds $x$ and dimensions but cannot compare areas shows they treat perimeter and area as independent rather than understanding the isoperimetric principle introduced in Class 8 (c8_math_ch14_7).",
+     "self_check": true
+    },
+    {
+     "q": "Rahul solved: \"Perimeter of a triangle with sides $2x$, $3x$, $5x$ is 60 cm. So $2x+3x+5x=60 \\Rightarrow 10x=60 \\Rightarrow x=6$. Sides are 12, 18, 30 cm.\" Evaluate his solution. Is the triangle possible? Explain.",
+     "a": "Rahul's algebra is correct ($x=6$, sides 12, 18, 30), but the triangle is NOT possible because it violates the triangle inequality theorem: $12 + 18 = 30$, which is NOT greater than the third side (30). The sum of two sides must be strictly greater than the third. A student who says \"yes, it's correct\" only checked the perimeter arithmetic, not the geometric feasibility. This reveals a gap in connecting algebraic solutions to geometric constraints (triangle inequality from Class 7, c7_math_ch07_001).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem where a farmer has 200 m of fencing wire to make a rectangular pen for goats. The length must be 10 m more than twice the breadth. Write the problem statement, define variables, form the equation, and solve for dimensions. Then calculate the area of the pen.",
+     "a": "Problem: \"A farmer has 200 m fencing. Length = 2 × breadth + 10. Find dimensions and area.\" Let breadth = $b$, length = $2b+10$. $P = 2(b + 2b+10) = 2(3b+10) = 6b+20 = 200 \\Rightarrow 6b=180 \\Rightarrow b=30$ m. Length = $70$ m. Area = $30 \\times 70 = 2100$ m². A poor answer might omit the \"twice the breadth\" translation to $2b$, or forget to multiply by 2 in the perimeter formula, or calculate area as $30+70=100$. This reveals whether the student can translate verbal conditions into algebraic expressions and execute the full solution chain.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

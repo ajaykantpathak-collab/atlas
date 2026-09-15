@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_02_003",
+   "title": "c12_phy_cbse_02_003",
+   "questions": [
+    {
+     "q": "State the formula for electric potential at a point P due to an electric dipole of moment p at a distance r (r >> a) where the line OP makes an angle θ with the dipole moment vector. Give the SI unit of each quantity.",
+     "a": "V = (1/4πε₀)(p cosθ/r²). Units: V in volt (V), p in coulomb-metre (C·m), r in metre (m), ε₀ in C²/(N·m²) or F/m. A wrong answer like V = (1/4πε₀)(p/r) reveals the student thinks dipole potential falls as 1/r like a point charge, ignoring that the monopole term cancels because net charge is zero.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the electric potential of a dipole fall off as 1/r² at large distances while a point charge potential falls as 1/r? Explain using the superposition principle and the fact that a dipole has zero net charge.",
+     "a": "For a dipole (+q at +a, -q at -a), V = (q/4πε₀)(1/r₁ - 1/r₂). For r >> a, binomial expansion gives 1/r₁ ≈ (1/r)(1 + a cosθ/r) and 1/r₂ ≈ (1/r)(1 - a cosθ/r). The leading 1/r terms cancel exactly because total charge q + (-q) = 0. The surviving term is proportional to (a cosθ/r²) = (p cosθ)/(4πε₀r²). A student who says \"dipole has two charges so it falls faster\" misses the precise cancellation of the monopole term.",
+     "self_check": true
+    },
+    {
+     "q": "A dipole of moment 4.0 × 10⁻²⁹ C·m is placed at the origin along the z-axis. Calculate the electric potential at a point P located at (3 cm, 0, 4 cm). Use ε₀ = 8.85 × 10⁻¹² C²/(N·m²).",
+     "a": "Given: p = 4.0 × 10⁻²⁹ C·m along z. Point P: x = 0.03 m, y = 0, z = 0.04 m. r = √(0.03² + 0.04²) = 0.05 m. cosθ = z/r = 0.04/0.05 = 0.8. V = (1/4πε₀)(p cosθ/r²) = (9 × 10⁹) × (4.0 × 10⁻²⁹ × 0.8) / (0.05)² = (9 × 10⁹) × (3.2 × 10⁻²⁹) / 0.0025 = 1.152 × 10⁻¹⁶ V. A student who uses r = 0.03 m or 0.04 m instead of resultant distance, or forgets cosθ, gets wrong order of magnitude.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical dipoles of moment p are placed at the origin: one along x-axis, one along y-axis. At a point on the z-axis at distance r (r >> a), what is the total potential? Explain whether the potentials add as scalars or vectors.",
+     "a": "For each dipole, θ = 90° (since z-axis is perpendicular to both x and y axes). cos90° = 0 ⇒ V = 0 for each. Total V = 0 + 0 = 0. Potentials add as scalars (superposition principle for potential). A student who tries to add dipole moments as vectors and then compute potential is confusing vector addition of fields with scalar addition of potentials.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"On the equatorial plane of a dipole, electric field is non-zero but potential is zero. This violates E = -dV/dr.\" Evaluate this statement and correct the misconception.",
+     "a": "The statement is false. E = -∇V, not -dV/dr. On the equatorial plane, V = 0 everywhere, so ∂V/∂r = 0 along the plane, but V changes perpendicular to the plane. The electric field is perpendicular to the equatorial plane (along -p direction), which is the direction of steepest potential decrease. A student who writes this confuses the directional derivative with the gradient, and thinks equipotential surfaces having V=0 implies E=0.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a dipole (two equal and opposite charges on an insulating rod) and a small test charge to map equipotential surfaces around the dipole. Describe how you would verify the 1/r² dependence and cosθ angular variation.",
+     "a": "Fix dipole on insulating stand. Use a sensitive electrometer connected to a small conducting sphere (test charge) on an insulating handle. Move test charge to various points, record V. For fixed θ (e.g., θ=0° axial), plot V vs 1/r² — should be linear. For fixed r, plot V vs cosθ — should be linear through origin. Equipotentials are surfaces of revolution about p-axis. A poor answer would suggest using a voltmeter directly (needs reference) or measuring field instead of potential.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

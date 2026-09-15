@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_10_001",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_10_001",
+   "title": "c12_geo_cbse_10_001",
+   "questions": [
+    {
+     "q": "State the three criteria used by the Census of India (1991) to define an urban settlement.",
+     "a": "The three criteria are: (1) a minimum population of 5,000 persons, (2) at least 75% of male main workers engaged in non-agricultural pursuits, and (3) a population density of at least 400 persons per square kilometre. A wrong answer (e.g., citing only population size or using 75% total workers instead of male main workers) reveals the student has memorised fragments without understanding the precise Census definition — a common error in 1-mark board questions.",
+     "self_check": true
+    },
+    {
+     "q": "A village in the Ganga plain has houses tightly packed in a rectangular pattern with distinct separation from surrounding farmland. The dominant land-owning caste lives in the centre. Identify the rural settlement type and explain why this pattern occurs in alluvial plains.",
+     "a": "This is a clustered (nucleated) settlement. In fertile alluvial plains like the Ganga plain, productive agriculture supports high population density, encouraging compact villages for security, social cohesion, and efficient land use. The rectangular pattern often aligns with the grid of fields. A wrong answer (e.g., calling it semi-clustered or dispersed) shows the student cannot link physical geography (flat, fertile terrain) to settlement morphology — a core Class 12 skill.",
+     "self_check": true
+    },
+    {
+     "q": "Using the Census 2011 data in Table 2.1, calculate the decennial growth rate of urban population between 2001 and 2011. Show your working.",
+     "a": "Urban population 2001 = 2,85,355 thousand; 2011 = 3,77,000 thousand. Growth = (3,77,000 – 2,85,355) / 2,85,355 × 100 = 91,645 / 2,85,355 × 100 ≈ 32.1%. (NCERT table shows 31.08% — the difference is due to provisional 2011 data.) A wrong answer using total population instead of urban population, or misreading the table, reveals inability to extract and manipulate Census data — a frequent competitive-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the factors leading to dispersed settlements in the north-eastern hills (e.g., Nagaland) with those in the Thar Desert of Rajasthan. Why do both produce dispersed patterns despite opposite climates?",
+     "a": "In Nagaland (Fig. 2.3), extreme terrain fragmentation and limited habitable land on slopes force isolated huts. In the Thar, water scarcity and the need for large grazing areas around each water source cause wide spacing. Both produce dispersion, but the mechanism differs: physical constraint vs. resource constraint. A wrong answer treating both as \"hilly terrain\" or \"low rainfall\" misses the nuanced geography — a typical analysis error in 3-mark questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"A town performing only one function (e.g., only mining) can exist indefinitely in India.\" Use the concept of functional multiplicity from the NCERT text.",
+     "a": "The statement is flawed. NCERT explicitly states: \"The cities are not static in their function... Even specialised cities, as they grow into metropolises become multifunctional.\" A single-function town is vulnerable to resource exhaustion or market shifts (e.g., mining towns declining when ore depletes). Sustainable urban growth requires functional diversification. A wrong answer agreeing with the statement shows failure to apply the dynamic urban geography concept — a higher-order thinking gap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a settlement map legend for a topographical sheet (1:50,000) that distinguishes the four rural settlement types using standard SOI symbols. Explain how you would identify each type from contour patterns and drainage.",
+     "a": "Legend: (1) Clustered: dense nucleation symbol (●) on flat contour-spaced land near perennial streams. (2) Semi-clustered: two nucleation symbols separated by a gap, often on slightly elevated ground with lower-caste hamlets on margins. (3) Hamleted: multiple small nucleation symbols (○) sharing a name, aligned along a valley or river terrace. (4) Dispersed: isolated hut symbols (□) scattered on steep, dissected contours (Nagaland) or near scattered wells (Thar). A poor legend uses identical symbols or ignores contour/drainage evidence — a practical skill deficit for map-work questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

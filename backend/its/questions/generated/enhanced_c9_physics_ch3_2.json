@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch3_2",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch3_2",
+   "title": "c9_physics_ch3_2",
+   "questions": [
+    {
+     "q": "A 2 kg book rests on a horizontal table. The gravitational force on it is 19.6 N downward. What is the magnitude and direction of the normal force exerted by the table? State whether the forces are balanced or unbalanced.",
+     "a": "The normal force is 19.6 N upward. The forces are balanced because the net force is zero (19.6 N down + 19.6 N up = 0 N). A wrong answer like \"normal force is 9.8 N\" reveals the student incorrectly divides weight by mass instead of recognizing equilibrium requires equal magnitude. Saying \"unbalanced because gravity acts\" shows confusion between presence of forces and net force.",
+     "self_check": true
+    },
+    {
+     "q": "A car moves at a constant 60 km/h on a straight, level road. The engine exerts a forward force of 4000 N. Air resistance and friction together exert a backward force of 4000 N. A student claims: \"Since forces are balanced, the car must be at rest.\" Explain why this reasoning is incorrect using the concept of dynamic equilibrium.",
+     "a": "Balanced forces mean zero acceleration, not zero velocity. The car continues at 60 km/h (constant velocity) because net force is zero — this is dynamic equilibrium. The student's error is confusing Newton's first law (an object in motion stays in motion with constant velocity unless acted upon by a net force) with the idea that balanced forces imply rest. This misconception stems from everyday experience where friction usually stops things unless pushed.",
+     "self_check": true
+    },
+    {
+     "q": "Three forces act on a 5 kg box on a smooth horizontal floor: 30 N east, 40 N north, and 50 N at 225° (south-west). Calculate the net force vector (magnitude and direction) and the resulting acceleration of the box.",
+     "a": "**Step 1:** Resolve each force into x (east) and y (north) components.  \nF₁ = 30 N east → F₁ₓ = +30 N, F₁ᵧ = 0 N  \nF₂ = 40 N north → F₂ₓ = 0 N, F₂ᵧ = +40 N  \nF₃ = 50 N at 225° → F₃ₓ = 50 cos 225° = -35.36 N, F₃ᵧ = 50 sin 225° = -35.36 N  \n\n**Step 2:** Sum components.  \nFₙₑₜₓ = 30 + 0 - 35.36 = -5.36 N  \nFₙₑₜᵧ = 0 + 40 - 35.36 = +4.64 N  \n\n**Step 3:** Net force magnitude = √((-5.36)² + (4.64)²) = √(28.73 + 21.53) = √50.26 ≈ 7.09 N  \n\n**Step 4:** Direction = tan⁻¹(4.64 / -5.36) = tan⁻¹(-0.866) ≈ 139° from +x axis (or 41° north of west).  \n\n**Step 5:** Acceleration a = Fₙₑₜ / m = 7.09 N / 5 kg = 1.42 m/s² at 139°.  \n\nA wrong answer adding magnitudes directly (30+40+50=120 N) reveals the student treats forces as scalars, ignoring vector nature.",
+     "self_check": true
+    },
+    {
+     "q": "Two students push a stalled autorickshaw of mass 600 kg. Student A pushes with 400 N at 30° north of east. Student B pushes with 500 N at 60° south of east. The ground exerts a friction force of 200 N directly west. Draw the free-body diagram, find the net force, and determine if the autorickshaw accelerates. If yes, find its acceleration magnitude.",
+     "a": "**Free-body diagram:** Four arrows from centre — 400 N at 30° NE, 500 N at 60° SE, 200 N west, weight down, normal up (vertical forces balance).  \n**Components:**  \nAₓ = 400 cos 30° = 346.4 N, Aᵧ = 400 sin 30° = 200 N  \nBₓ = 500 cos 60° = 250 N, Bᵧ = -500 sin 60° = -433 N  \nFrictionₓ = -200 N, Frictionᵧ = 0  \n**Net:** Fₙₑₜₓ = 346.4 + 250 - 200 = 396.4 N east  \nFₙₑₜᵧ = 200 - 433 = -233 N (south)  \nMagnitude = √(396.4² + 233²) = √(157,133 + 54,289) = √211,422 ≈ 459.8 N  \nAcceleration = 459.8 N / 600 kg = 0.766 m/s².  \nYes, it accelerates. A student who ignores the vertical components of the pushes and only adds horizontal parts misses that the net force direction is not purely horizontal.",
+     "self_check": true
+    },
+    {
+     "q": "A physics textbook states: \"When forces are balanced, the object is at rest.\" Evaluate this statement. Is it always true, sometimes true, or never true? Justify with two distinct real-world examples from Indian daily life.",
+     "a": "The statement is **sometimes true** — only for static equilibrium. Balanced forces mean zero acceleration, which includes both rest (static equilibrium) and uniform motion (dynamic equilibrium).  \nExample 1 (static): A water tank on a Mumbai rooftop — weight balanced by normal force from slab, tank at rest.  \nExample 2 (dynamic): A Delhi Metro train moving at constant 80 km/h on a straight track — traction force balanced by air resistance + friction, train in uniform motion.  \nA student saying \"always true\" fails to distinguish velocity from acceleration and hasn't internalized Newton's first law.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only a spring balance, a wooden block, a rough table, and a smooth plastic sheet to demonstrate the transition from balanced to unbalanced forces. Describe the procedure, what you measure, and how you conclude whether forces are balanced at each stage.",
+     "a": "**Procedure:**  \n1. Place block on rough table. Attach spring balance horizontally. Pull gently — note reading when block just starts to move (static friction limit).  \n2. Pull steadily so block moves at constant speed — note reading (kinetic friction).  \n3. Repeat on plastic sheet (smoother surface).  \n**Measurements:** Spring balance readings at (a) impending motion, (b) constant velocity on rough, (c) constant velocity on smooth.  \n**Conclusion:** At constant velocity, reading equals friction force → net force zero → balanced forces. When reading exceeds friction, block accelerates → unbalanced forces. The drop in reading from rough to smooth shows friction reduction.  \nA poor answer that only measures \"force to start motion\" misses the constant-velocity phase where balanced forces are demonstrated.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

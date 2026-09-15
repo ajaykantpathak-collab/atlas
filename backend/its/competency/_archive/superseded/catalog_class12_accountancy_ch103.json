@@ -1,0 +1,508 @@
+{
+ "class": 12,
+ "subject": "accountancy",
+ "chapter": 103,
+ "chapter_title": "Reconstitution of a Partnership Firm – Retirement/Death of a Partner",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/leac103.txt",
+ "concepts": [
+  {
+   "id": "leac.103.1",
+   "title": "New Profit Sharing Ratio after Retirement or Death",
+   "section": "3.2",
+   "definition": "The updated fraction of future earnings distributed among surviving partners, comprising their original portions plus the fractions acquired from the outgoing partner.",
+   "formula": "new_share = old_share + acquired_share",
+   "key_idea": "Surviving partners increase their proportion by acquiring the departing partner's share.",
+   "textbook_ref": "leac103.txt lines 36-68",
+   "question_patterns": [
+    "calculate new profit sharing ratio",
+    "find the new ratio between continuing partners",
+    "what is the new profit sharing ratio after retirement",
+    "how much will each partner share in future profits"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate acquired share from retiring partner",
+     "explain": "multiply the retiring partner's share by the partner's gaining fraction",
+     "compute": "acquired_share = retiring_share * gain_fraction"
+    },
+    {
+     "step": 2,
+     "action": "compute updated total share",
+     "explain": "add the acquired portion to the existing old profit share",
+     "compute": "new_share = old_share + acquired_share"
+    }
+   ]
+  },
+  {
+   "id": "leac.103.2",
+   "title": "Gaining Ratio of Continuing Partners",
+   "section": "3.3",
+   "definition": "The proportion in which remaining partners absorb the profit fraction surrendered by a retiring or deceased partner.",
+   "formula": "gaining_share = new_share - old_share",
+   "key_idea": "Surplus fraction gained by each continuing partner relative to their previous holding.",
+   "textbook_ref": "leac103.txt lines 69-106",
+   "question_patterns": [
+    "calculate the gaining ratio",
+    "find gaining share of continuing partners",
+    "what is the gaining ratio between surviving partners",
+    "determine how much share each partner gained"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate net gain for the partner",
+     "explain": "deduct the old profit share from the specified new profit share",
+     "compute": "gaining_share = new_share - old_share"
+    }
+   ]
+  },
+  {
+   "id": "leac.103.3",
+   "title": "Retiring or Deceased Partner's Share of Goodwill",
+   "section": "3.4",
+   "definition": "The monetary compensation due to an outgoing partner for their accumulated contribution to the reputation and earning power of the firm.",
+   "formula": "retiring_goodwill = total_firm_goodwill * retiring_share",
+   "key_idea": "Gaining partners compensate the departing partner in proportion to their gained shares.",
+   "textbook_ref": "leac103.txt lines 135-180",
+   "question_patterns": [
+    "calculate retiring partner's share of goodwill",
+    "find compensation payable for goodwill on retirement",
+    "what is the deceased partner's share in firm goodwill",
+    "determine amount of goodwill to be credited to outgoing partner"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate outgoing partner's goodwill entitlement",
+     "explain": "apply the outgoing partner's profit share to total firm goodwill",
+     "compute": "retiring_goodwill = total_firm_goodwill * retiring_share"
+    },
+    {
+     "step": 2,
+     "action": "calculate contribution payable by a gaining partner",
+     "explain": "multiply the outgoing goodwill share by the partner's relative gaining fraction",
+     "compute": "partner_contribution = retiring_goodwill * relative_gain_fraction"
+    }
+   ]
+  },
+  {
+   "id": "leac.103.4",
+   "title": "Hidden Goodwill on Retirement",
+   "section": "3.4.2",
+   "definition": "The implicit value of firm goodwill identified when the agreed settlement amount exceeds the net adjusted capital balance of the retiring partner.",
+   "formula": "retiring_hidden_goodwill = agreed_settlement_amount - adjusted_capital_balance",
+   "key_idea": "Excess payout over the audited net claim represents the outgoing partner's unrecorded goodwill share.",
+   "textbook_ref": "leac103.txt lines 215-236",
+   "question_patterns": [
+    "calculate hidden goodwill on retirement",
+    "find the unrecorded goodwill share paid to retiring partner",
+    "what is the value of hidden goodwill",
+    "determine the excess payment attributable to goodwill"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute retiring partner's share of hidden goodwill",
+     "explain": "deduct the adjusted capital claim from the total lump sum settlement agreed upon",
+     "compute": "retiring_hidden_goodwill = agreed_settlement_amount - adjusted_capital_balance"
+    },
+    {
+     "step": 2,
+     "action": "infer total firm hidden goodwill",
+     "explain": "divide the retiring partner's goodwill by their profit fraction",
+     "compute": "total_hidden_goodwill = retiring_hidden_goodwill / retiring_share"
+    }
+   ]
+  },
+  {
+   "id": "leac.103.5",
+   "title": "Profit or Loss on Revaluation of Assets and Liabilities",
+   "section": "3.5",
+   "definition": "The net financial variation arising from updating asset values and settling liabilities to present market conditions upon reconstitution.",
+   "formula": "net_revaluation_profit = total_gains - total_losses",
+   "key_idea": "Net revaluation gains or losses are allocated among all existing partners in their old profit ratio.",
+   "textbook_ref": "leac103.txt lines 240-275",
+   "question_patterns": [
+    "calculate profit or loss on revaluation",
+    "find net balance in revaluation account",
+    "what is partner's share in revaluation profit",
+    "determine revaluation gain or loss distributable on retirement"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate net revaluation profit or loss",
+     "explain": "deduct asset reductions and liability increments from asset additions and liability write-downs",
+     "compute": "net_revaluation_profit = total_gains - total_losses"
+    },
+    {
+     "step": 2,
+     "action": "distribute partner's portion",
+     "explain": "multiply net revaluation profit by the individual partner's old profit share",
+     "compute": "partner_reval_share = net_revaluation_profit * old_share"
+    }
+   ]
+  },
+  {
+   "id": "leac.103.6",
+   "title": "Distribution of Accumulated Reserves and Balances",
+   "section": "3.6",
+   "definition": "The allocation of undistributed reserves or retained surplus/deficit among all partners based on their pre-existing sharing terms.",
+   "formula": "reserve_share = total_reserve * old_share",
+   "key_idea": "Past profits or losses accumulated prior to retirement belong to all partners in their old profit-sharing ratio.",
+   "textbook_ref": "leac103.txt lines 284-307",
+   "question_patterns": [
+    "calculate retiring partner's share in general reserve",
+    "find distribution of accumulated profit on retirement",
+    "what is the share of reserve credited to retiring partner",
+    "determine amount transferred from reserve fund to partner capital"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine individual share in reserves",
+     "explain": "multiply total undistributed reserves by the partner's old profit share",
+     "compute": "reserve_share = total_reserve * old_share"
+    }
+   ]
+  },
+  {
+   "id": "leac.103.7",
+   "title": "Intervening Period Profit Share on Time Basis",
+   "section": "3.6 / 3.9",
+   "definition": "The estimated operational profit credited to a deceased or mid-year retiring partner for the period between the previous balance sheet and the exit date.",
+   "formula": "intervening_profit_share = base_annual_profit * (months / 12) * partner_share",
+   "key_idea": "Proportionate time allocation of past annual performance applied to the partner's profit fraction.",
+   "textbook_ref": "leac103.txt lines 308-335, 410-445",
+   "question_patterns": [
+    "calculate share of profit up to date of death on time basis",
+    "find interim profit share of retiring partner using previous year profit",
+    "what is the deceased partner's accrued profit based on average profits",
+    "compute profit share for intervening period"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate interim profit of the firm",
+     "explain": "prorate annual base profit across the fraction of the year elapsed",
+     "compute": "period_firm_profit = base_annual_profit * (months / 12)"
+    },
+    {
+     "step": 2,
+     "action": "calculate outgoing partner's interim profit",
+     "explain": "multiply the firm's period profit by the departing partner's profit share",
+     "compute": "intervening_profit_share = period_firm_profit * partner_share"
+    }
+   ]
+  },
+  {
+   "id": "leac.103.8",
+   "title": "Intervening Period Profit Share on Turnover Basis",
+   "section": "3.6 / 3.9",
+   "definition": "The estimation of accrued profits for an outgoing partner by projecting past profit-to-turnover ratios onto actual sales recorded during the interim period.",
+   "formula": "intervening_profit_share = (previous_profit / previous_sales) * interim_sales * partner_share",
+   "key_idea": "Using historical sales profitability margin to derive interim earnings.",
+   "textbook_ref": "leac103.txt lines 336-350, 446-465",
+   "question_patterns": [
+    "calculate deceased partner profit share based on sales",
+    "find profit to date of death on turnover basis",
+    "what is partner share of profit calculated on sales ratio",
+    "determine interim profit share using current sales figures"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "estimate total firm profit for the intervening period",
+     "explain": "apply prior period profitability percentage to interim sales",
+     "compute": "period_firm_profit = (previous_profit / previous_sales) * interim_sales"
+    },
+    {
+     "step": 2,
+     "action": "compute partner's share",
+     "explain": "multiply estimated interim firm profit by partner's profit fraction",
+     "compute": "intervening_profit_share = period_firm_profit * partner_share"
+    }
+   ]
+  },
+  {
+   "id": "leac.103.9",
+   "title": "Adjustment of Continuing Partners' Capitals",
+   "section": "3.8",
+   "definition": "The realignment of remaining partners' capital balances to match their new profit sharing ratios by injecting or withdrawing funds.",
+   "formula": "cash_adjustment = new_required_capital - adjusted_existing_capital",
+   "key_idea": "Target capital is split in the new profit ratio and contrasted against net existing balances to establish cash flow.",
+   "textbook_ref": "leac103.txt lines 370-405",
+   "question_patterns": [
+    "calculate cash to be brought in or withdrawn to adjust capital",
+    "determine required capital of continuing partners",
+    "find surplus or deficit in partner capital account after retirement",
+    "what amount of additional capital must a partner introduce"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine target capital for the partner",
+     "explain": "multiply total required new firm capital by the partner's new ratio fraction",
+     "compute": "new_required_capital = total_new_capital * new_share_ratio"
+    },
+    {
+     "step": 2,
+     "action": "compute cash surplus or deficit",
+     "explain": "deduct existing adjusted capital from the newly determined target capital",
+     "compute": "cash_adjustment = new_required_capital - adjusted_existing_capital"
+    }
+   ]
+  },
+  {
+   "id": "leac.103.10",
+   "title": "Interest on Retiring Partner's Unpaid Loan Balance",
+   "section": "3.7",
+   "definition": "Interest computed periodically on the outstanding balance owed to a retired partner or executor when settled via deferred installments.",
+   "formula": "interest_amount = unpaid_loan_principal * (interest_rate / 100) * (time_period / 12)",
+   "key_idea": "Accrued interest on unpaid debt is added to the installment claim as per deed terms or statutory provisions.",
+   "textbook_ref": "leac103.txt lines 355-385",
+   "question_patterns": [
+    "calculate interest on retiring partner loan account",
+    "find interest due on unpaid balance of deceased partner",
+    "what is the annual interest on partner loan",
+    "how much interest is payable on outstanding capital balance"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute interest on outstanding balance",
+     "explain": "multiply outstanding principal by the agreed annual interest rate and period fraction",
+     "compute": "interest_amount = unpaid_loan_principal * (interest_rate / 100) * (time_period / 12)"
+    },
+    {
+     "step": 2,
+     "action": "compute total annual installment payable",
+     "explain": "combine agreed principal installment and accrued interest",
+     "compute": "total_installment_paid = principal_installment + interest_amount"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "leac103.txt lines 50-67 (Illustration 2 style)",
+   "concept": "leac.103.1",
+   "question_type": "compute",
+   "question_pattern": "Alka, Harpreet and Shreya are partners in ratio 3:2:1. Alka retires and her share is taken up by Harpreet and Shreya in ratio 3:2. Calculate Harpreet's new share given old share {old_share}, retiring share {retiring_share}, and gain fraction {gain_fraction}.",
+   "extracted_variables": {
+    "old_share": "Harpreet's existing share (2/6)",
+    "retiring_share": "Alka's retired share (3/6)",
+    "gain_fraction": "Harpreet's acquisition fraction (3/5)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate acquired share from retiring partner",
+     "explain": "multiply the retiring partner's share by the partner's gaining fraction",
+     "compute": "acquired_share = retiring_share * gain_fraction"
+    },
+    {
+     "step": 2,
+     "action": "compute updated total share",
+     "explain": "add the acquired portion to the existing old profit share",
+     "compute": "new_share = old_share + acquired_share"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "leac103.txt lines 95-106 (Illustration 5)",
+   "concept": "leac.103.2",
+   "question_type": "compute",
+   "question_pattern": "Ranjana, Sadhna and Kamana are partners in ratio 4:3:2. Ranjana retires. Sadhna and Kamana decide new ratio 5:3. Calculate Sadhna's gaining share given new share {new_share} and old share {old_share}.",
+   "extracted_variables": {
+    "new_share": "Sadhna's new share (5/8 = 0.625)",
+    "old_share": "Sadhna's old share (3/9 = 0.3333333333)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate net gain for the partner",
+     "explain": "deduct the old profit share from the specified new profit share",
+     "compute": "gaining_share = new_share - old_share"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "leac103.txt lines 150-170 (Illustration 6)",
+   "concept": "leac.103.3",
+   "question_type": "compute",
+   "question_pattern": "Firm goodwill is valued at {total_firm_goodwill}. Nirmal retires holding profit share {retiring_share}. Continuing partner Keshav has relative gaining fraction {relative_gain_fraction}. Calculate Nirmal's goodwill and Keshav's contribution.",
+   "extracted_variables": {
+    "total_firm_goodwill": "total firm goodwill value (72000)",
+    "retiring_share": "Nirmal's profit share (3/9)",
+    "relative_gain_fraction": "Keshav's share of gaining ratio (13/24)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate outgoing partner's goodwill entitlement",
+     "explain": "apply the outgoing partner's profit share to total firm goodwill",
+     "compute": "retiring_goodwill = total_firm_goodwill * retiring_share"
+    },
+    {
+     "step": 2,
+     "action": "calculate contribution payable by a gaining partner",
+     "explain": "multiply the outgoing goodwill share by the partner's relative gaining fraction",
+     "compute": "partner_contribution = retiring_goodwill * relative_gain_fraction"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "leac103.txt lines 215-236 (Section 3.4.2)",
+   "concept": "leac.103.4",
+   "question_type": "compute",
+   "question_pattern": "Retiring partner R is paid {agreed_settlement_amount} in full settlement against adjusted capital of {adjusted_capital_balance}. R holds share {retiring_share}. Calculate R's share of hidden goodwill and total hidden goodwill.",
+   "extracted_variables": {
+    "agreed_settlement_amount": "agreed payment in full settlement (75000)",
+    "adjusted_capital_balance": "adjusted capital balance (60000)",
+    "retiring_share": "retiring partner profit share (1/6)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute retiring partner's share of hidden goodwill",
+     "explain": "deduct the adjusted capital claim from the total lump sum settlement agreed upon",
+     "compute": "retiring_hidden_goodwill = agreed_settlement_amount - adjusted_capital_balance"
+    },
+    {
+     "step": 2,
+     "action": "infer total firm hidden goodwill",
+     "explain": "divide the retiring partner's goodwill by their profit fraction",
+     "compute": "total_hidden_goodwill = retiring_hidden_goodwill / retiring_share"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "leac103.txt lines 415-440 (Illustration 18)",
+   "concept": "leac.103.7",
+   "question_type": "compute",
+   "question_pattern": "Anil died after {months} months from balance sheet date. Previous year annual profit was {base_annual_profit}. Anil's share in firm is {partner_share}. Calculate Anil's share of interim profit.",
+   "extracted_variables": {
+    "base_annual_profit": "annual reference profit (15000)",
+    "months": "intervening months (6)",
+    "partner_share": "Anil's profit share (5/10)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate interim profit of the firm",
+     "explain": "prorate annual base profit across the fraction of the year elapsed",
+     "compute": "period_firm_profit = base_annual_profit * (months / 12)"
+    },
+    {
+     "step": 2,
+     "action": "calculate outgoing partner's interim profit",
+     "explain": "multiply the firm's period profit by the departing partner's profit share",
+     "compute": "intervening_profit_share = period_firm_profit * partner_share"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "leac103.txt lines 375-390 (Illustration 14)",
+   "concept": "leac.103.9",
+   "question_type": "compute",
+   "question_pattern": "Total new capital is fixed at {total_new_capital}. Mohit's new share ratio is {new_share_ratio} and existing adjusted capital is {adjusted_existing_capital}. Calculate Mohit's cash adjustment.",
+   "extracted_variables": {
+    "total_new_capital": "total capital of reconstituted firm (120000)",
+    "new_share_ratio": "Mohit's new profit sharing ratio (2/3)",
+    "adjusted_existing_capital": "Mohit's existing adjusted capital balance (82000)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "determine target capital for the partner",
+     "explain": "multiply total required new firm capital by the partner's new ratio fraction",
+     "compute": "new_required_capital = total_new_capital * new_share_ratio"
+    },
+    {
+     "step": 2,
+     "action": "compute cash surplus or deficit",
+     "explain": "deduct existing adjusted capital from the newly determined target capital",
+     "compute": "cash_adjustment = new_required_capital - adjusted_existing_capital"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex103.1",
+   "source_ref": "leac103.txt Numerical Question 1",
+   "questions": [
+    "Aparna, Manisha and Sonia are partners sharing profits in the ratio of 3:2:1. Manisha retires and goodwill of the firm is valued at Rs. 1,80,000. Aparna and Sonia decided to share future in the ratio of 3 : 2. Record necessary journal entries."
+   ]
+  },
+  {
+   "id": "ex103.2",
+   "source_ref": "leac103.txt Numerical Question 2",
+   "questions": [
+    "Sangeeta, Saroj and Shanti are partners sharing profits in the ratio of 2 : 3 : 5. Goodwill is appearing in the books at a value of Rs. 60,000. Sangeeta retires and goodwill is valued at Rs. 90,000. Saroj and Shanti decided to share future profits equally. Record necessary journal entries."
+   ]
+  },
+  {
+   "id": "ex103.3",
+   "source_ref": "leac103.txt Numerical Question 3",
+   "questions": [
+    "Himanshu, Gagan and Naman are partners sharing profits and losses in the ratio of 3 : 2 : 1. On March 31, 2019, Naman retires. Revalue assets and liabilities: Building appreciated by 20%, Plant & Machinery depreciated by 10%, Provision 5% on debtors, Stock at Rs. 18,000, Investment at Rs. 35,000. Prepare revaluation account."
+   ]
+  },
+  {
+   "id": "ex103.4",
+   "source_ref": "leac103.txt Numerical Question 4",
+   "questions": [
+    "Naresh, Raj Kumar and Bishwajeet are equal partners. Raj Kumar decides to retire. The Balance Sheet showed General Reserves Rs. 36,000 and Profit and Loss Account (Dr.) Rs. 15,000. Record the necessary journal entries."
+   ]
+  },
+  {
+   "id": "ex103.5",
+   "source_ref": "leac103.txt Numerical Question 5",
+   "questions": [
+    "Digvijay, Brijesh and Parakaram were partners sharing profits in the ratio of 2 : 2 : 1. Brijesh retired on March 31, 2020. Goodwill valued at Rs. 70,000, Bad debts Rs. 2,000 written off, Patents valueless. Prepare Revaluation Account, Partners' Capital Accounts and Balance Sheet."
+   ]
+  },
+  {
+   "id": "ex103.6",
+   "source_ref": "leac103.txt Numerical Question 8",
+   "questions": [
+    "Puneet, Pankaj and Pammy are partners in ratio 2:2:1. Pammy died on September 30, 2019. Intervening profit calculated on previous year basis, goodwill on 3 years' purchase of 4-year average, interest on capital @ 12% p.a., drawings Rs. 10,000. Prepare Pammy's Capital and Executor's account."
+   ]
+  },
+  {
+   "id": "ex103.7",
+   "source_ref": "leac103.txt Numerical Question 10",
+   "questions": [
+    "Narang, Suri and Bajaj are partners sharing profits in ratio 1/2, 1/6 and 1/3. Bajaj retires. Revalue premises (+20%), stock (+15%), machinery (-10%), furniture (-7%), bad debts reserve to Rs. 1,500, goodwill Rs. 21,000. Adjust capitals in new profit sharing ratio through current accounts."
+   ]
+  },
+  {
+   "id": "ex103.8",
+   "source_ref": "leac103.txt Numerical Question 13",
+   "questions": [
+    "Arti, Bharti and Seema are partners in ratio 3:2:1. Bharti died on June 12, 2020. Calculate interest on capital @ 10% p.a., share in reserves, interim profit on turnover basis (sales Rs. 1,00,000 at 10% profit rate), and goodwill based on twice 3-year average profit less 20%. Prepare Executor's account."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

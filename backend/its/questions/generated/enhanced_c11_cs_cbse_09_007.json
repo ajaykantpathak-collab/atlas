@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_09_007",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_09_007",
+   "title": "c11_cs_cbse_09_007",
+   "questions": [
+    {
+     "q": "What is the exact syntax for opening a file named \"data.txt\" in read mode using the `with` statement, and what happens to the file object after the indented block ends?",
+     "a": "Correct answer: `with open(\"data.txt\", \"r\") as f:` — the file object `f` is automatically closed when the indented block ends, even if an exception is raised. A wrong answer like \"the file stays open until `f.close()` is called\" reveals the student thinks `with` is just syntactic sugar and doesn't understand automatic resource management.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: `with open(\"log.txt\", \"w\") as log: log.write(\"Start\")` and then later tries `log.write(\"End\")` outside the `with` block. What error occurs and why?",
+     "a": "Correct answer: `ValueError: I/O operation on closed file.` The file is closed automatically at the end of the `with` block, so `log` becomes unusable. A student who says \"it works fine\" or \"AttributeError\" misunderstands the scope and lifetime of the file object created by `with`.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following code using a `with` statement so that the file is guaranteed to close even if `process(data)` raises an exception:\n```python\nf = open(\"input.txt\", \"r\")\ndata = f.read()\nresult = process(data)\nf.close()\n```",
+     "a": "Correct answer:\n```python\nwith open(\"input.txt\", \"r\") as f:\n    data = f.read()\n    result = process(data)\n```\nIf the student keeps `f.close()` inside the block or forgets indentation, they haven't grasped that `with` removes the need for explicit closing and that the block scope defines the resource lifetime.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the behaviour of these two snippets when `write()` raises an `OSError` (disk full). Which snippet leaves the file handle open?\n```python",
+     "a": "Snippet A leaves the file handle open because the exception jumps over `f.close()`. Snippet B guarantees closure via the context manager's `__exit__` method. A student who says \"both close the file\" or \"both leak\" has not traced exception flow and misses the core safety guarantee of `with`.",
+     "self_check": true
+    },
+    {
+     "q": "A programmer argues: \"Using `with` is slower because it adds overhead of calling `__enter__` and `__exit__`.\" Evaluate this claim for a typical Class 11 file-handling task (reading a 10 KB config file).",
+     "a": "The claim is false in practice. The overhead of `__enter__`/`__exit__` is nanoseconds, while disk I/O dominates (milliseconds). The safety and readability benefits vastly outweigh the negligible cost. A student who agrees with the programmer confuses micro-optimisation with real-world performance and ignores the correctness guarantee.",
+     "self_check": true
+    },
+    {
+     "q": "Design a tiny Python function `safe_append(filename, line)` that appends a line to a file, creates the file if it doesn't exist, and never leaves the file open, using only one `with` statement. Write the complete function.",
+     "a": "```python\ndef safe_append(filename, line):\n    with open(filename, \"a\") as f:\n        f.write(line + \"\\n\")\n```\nA poor answer uses `open`/`close`, misses newline, or uses two `with` blocks. This tests synthesis: combining mode `\"a\"` (create + append), automatic closure, and minimal code.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,369 @@
+{
+ "class": 12,
+ "subject": "economics",
+ "chapter": 101,
+ "chapter_title": "Introduction to Macroeconomics",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\leec101.txt",
+ "concepts": [
+  {
+   "id": "leec.101.1",
+   "title": "Microeconomics vs Macroeconomics",
+   "section": "Introduction",
+   "definition": "Microeconomics focuses on individual decision-makers and specific markets, whereas macroeconomics analyzes aggregate indicators and the behavior of the economy as a whole.",
+   "formula": "",
+   "key_idea": "Microeconomics studies individual choices, while macroeconomics studies aggregate economic phenomena.",
+   "textbook_ref": "leec101.txt lines 10-120",
+   "question_patterns": [
+    "What is the difference between microeconomics and macroeconomics?",
+    "How does macroeconomics differ from microeconomics?",
+    "Distinguish between micro and macro economic approaches.",
+    "Why do we study macroeconomics as a separate branch?",
+    "Explain Microeconomics vs Macroeconomics with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the level of decision-making",
+     "explain": "Determine if the scenario concerns individual agents (micro) or the entire economy (macro)."
+    },
+    {
+     "step": 2,
+     "action": "Compare the objectives",
+     "explain": "Contrast individual utility/profit maximization with societal welfare, employment, and price stability."
+    }
+   ]
+  },
+  {
+   "id": "leec.101.2",
+   "title": "Economic Agents",
+   "section": "Economic Agents",
+   "definition": "Individuals or institutional entities that make decisions regarding consumption, production, taxation, and financial transactions in an economy.",
+   "formula": "",
+   "key_idea": "Decision-makers in an economy, ranging from consumers to state institutions.",
+   "textbook_ref": "leec101.txt lines 121-135",
+   "question_patterns": [
+    "What are economic agents?",
+    "Who are the major economic units in an economy?",
+    "Give examples of economic agents.",
+    "Identify the decision-makers in a macroeconomic context.",
+    "Explain Economic Agents with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define economic agents",
+     "explain": "Identify them as decision-making units."
+    },
+    {
+     "step": 2,
+     "action": "List examples",
+     "explain": "Include consumers, producers, and public institutions like the government and central bank."
+    }
+   ]
+  },
+  {
+   "id": "leec.101.3",
+   "title": "Unemployment Rate",
+   "section": "1.1",
+   "definition": "The proportion of the active labor force that is currently without work but actively seeking employment.",
+   "formula": "unemployment_rate = unemployed_looking / (employed + unemployed_looking)",
+   "key_idea": "Measures the share of the labor force that is jobless and looking for work.",
+   "textbook_ref": "leec101.txt lines 215-235",
+   "question_patterns": [
+    "Calculate the unemployment rate given the number of employed and unemployed people.",
+    "Find the rate of unemployment when some are working and others are looking for jobs.",
+    "What is the unemployment rate if the labor force consists of employed and jobless seekers?",
+    "How much is the unemployment rate when there are unemployed looking for work and employed workers?",
+    "Numerical: apply Unemployment Rate and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the total labor force",
+     "explain": "The labor force is the sum of employed individuals and those who are unemployed but looking for work.",
+     "compute": "labor_force = employed + unemployed_looking"
+    },
+    {
+     "step": 2,
+     "action": "Compute the unemployment rate",
+     "explain": "Divide the number of unemployed individuals looking for work by the total labor force.",
+     "compute": "unemployment_rate = unemployed_looking / labor_force"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Unemployment Rate, compute the result for employed = 3, unemployed_looking = 3.",
+     "solution": "Step 1: Calculate the total labor force: labor_force = employed + unemployed_looking = 6.0 Step 2: Compute the unemployment rate: unemployment_rate = unemployed_looking / labor_force = 0.5 Final result: 0.5",
+     "answer": "0.5"
+    },
+    {
+     "question": "Using Unemployment Rate, compute the result for employed = 4, unemployed_looking = 4.",
+     "solution": "Step 1: Calculate the total labor force: labor_force = employed + unemployed_looking = 8.0 Step 2: Compute the unemployment rate: unemployment_rate = unemployed_looking / labor_force = 0.5 Final result: 0.5",
+     "answer": "0.5"
+    }
+   ]
+  },
+  {
+   "id": "leec.101.4",
+   "title": "Characteristics of a Capitalist Economy",
+   "section": "1.2",
+   "definition": "An economic system characterized by private ownership of production means, production aimed at market sale, and the employment of wage labor.",
+   "formula": "",
+   "key_idea": "Private ownership, market-oriented production, and wage labor define capitalism.",
+   "textbook_ref": "leec101.txt lines 245-290",
+   "question_patterns": [
+    "What are the important features of a capitalist economy?",
+    "Define a capitalist country and its main characteristics.",
+    "Explain the criteria that qualify an economy as capitalist.",
+    "What defines a capitalist enterprise?",
+    "Explain Characteristics of a Capitalist Economy with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify private ownership",
+     "explain": "Verify if the means of production are privately owned by entrepreneurs."
+    },
+    {
+     "step": 2,
+     "action": "Check market orientation",
+     "explain": "Verify if goods and services are produced primarily for sale in the market."
+    },
+    {
+     "step": 3,
+     "action": "Verify wage labor",
+     "explain": "Confirm that labor services are bought and sold at a wage rate."
+    }
+   ]
+  },
+  {
+   "id": "leec.101.5",
+   "title": "Profit of a Capitalist Firm",
+   "section": "1.2",
+   "definition": "The residual revenue retained by an entrepreneur after paying rent for land, interest for capital, and wages for labor.",
+   "formula": "profit = revenue - rent - interest - wages",
+   "key_idea": "Profit is the remaining revenue after all factor payments are deducted.",
+   "textbook_ref": "leec101.txt lines 245-275",
+   "question_patterns": [
+    "Calculate the profit of a firm given its revenue, rent, interest, and wages.",
+    "Find the entrepreneur's profit when revenue, rent, interest, and wages are known.",
+    "How much profit does a capitalist enterprise make if its total earnings and factor costs are given?",
+    "Determine the residual profit of the entrepreneur.",
+    "Numerical: apply Profit of a Capitalist Firm and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum the factor payments",
+     "explain": "Add the costs of land (rent), capital (interest), and labor (wages).",
+     "compute": "total_costs = rent + interest + wages"
+    },
+    {
+     "step": 2,
+     "action": "Subtract total costs from revenue",
+     "explain": "The remaining revenue after deducting all factor payments is the entrepreneur's profit.",
+     "compute": "profit = revenue - total_costs"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Profit of a Capitalist Firm, compute the result for rent = 3, interest = 3, wages = 3, revenue = 2.",
+     "solution": "Step 1: Sum the factor payments: total_costs = rent + interest + wages = 9.0 Step 2: Subtract total costs from revenue: profit = revenue - total_costs = -7.0 Final result: -7.0",
+     "answer": "-7.0"
+    },
+    {
+     "question": "Using Profit of a Capitalist Firm, compute the result for rent = 4, interest = 4, wages = 4, revenue = 3.",
+     "solution": "Step 1: Sum the factor payments: total_costs = rent + interest + wages = 12.0 Step 2: Subtract total costs from revenue: profit = revenue - total_costs = -9.0 Final result: -9.0",
+     "answer": "-9.0"
+    }
+   ]
+  },
+  {
+   "id": "leec.101.6",
+   "title": "Four Sectors of the Economy",
+   "section": "1.2",
+   "definition": "The macroeconomic classification of an economy into households, firms, government, and the external sector.",
+   "formula": "",
+   "key_idea": "The economy is composed of households, firms, government, and the rest of the world.",
+   "textbook_ref": "leec101.txt lines 295-350",
+   "question_patterns": [
+    "Describe the four major sectors in an economy.",
+    "What are the four sectors from a macroeconomic perspective?",
+    "Identify the key sectors of a macroeconomy.",
+    "Explain the roles of households, firms, government, and the external sector.",
+    "Explain Four Sectors of the Economy with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the household sector",
+     "explain": "Households consume goods and supply factors of production."
+    },
+    {
+     "step": 2,
+     "action": "Identify the firm sector",
+     "explain": "Firms hire factors of production to produce and sell output."
+    },
+    {
+     "step": 3,
+     "action": "Identify the government sector",
+     "explain": "The government levies taxes, spends on public infrastructure, and frames laws."
+    },
+    {
+     "step": 4,
+     "action": "Identify the external sector",
+     "explain": "The external sector represents trade (exports and imports) and capital flows with other countries."
+    }
+   ]
+  },
+  {
+   "id": "leec.101.7",
+   "title": "Net Exports",
+   "section": "1.2",
+   "definition": "The difference between the value of goods and services sold to foreign countries and those purchased from them.",
+   "formula": "net_exports = exports - imports",
+   "key_idea": "Net balance of trade with the external sector.",
+   "textbook_ref": "leec101.txt lines 330-350",
+   "question_patterns": [
+    "Calculate the net exports of an economy.",
+    "Find the trade balance given exports and imports.",
+    "What is the net export value if exports and imports are given?",
+    "How much are the net exports when a country sells and buys from the rest of the world?",
+    "Numerical: apply Net Exports and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract imports from exports",
+     "explain": "Net exports is calculated by subtracting the value of imports from the value of exports.",
+     "compute": "net_exports = exports - imports"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Net Exports, compute the result for exports = 3, imports = 3.",
+     "solution": "Step 1: Subtract imports from exports: net_exports = exports - imports = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    },
+    {
+     "question": "Using Net Exports, compute the result for exports = 4, imports = 4.",
+     "solution": "Step 1: Subtract imports from exports: net_exports = exports - imports = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "leec101.txt lines 215-235",
+   "concept": "leec.101.3",
+   "question_type": "compute",
+   "question_pattern": "In a country, there are {employed} million people working and {unemployed_looking} million people who are currently not working but actively looking for jobs. Calculate the unemployment rate.",
+   "extracted_variables": {
+    "employed": "number of people working",
+    "unemployed_looking": "number of people looking for jobs"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the total labor force",
+     "explain": "The labor force is the sum of employed individuals and those who are unemployed but looking for work.",
+     "compute": "labor_force = employed + unemployed_looking"
+    },
+    {
+     "step": 2,
+     "action": "Compute the unemployment rate",
+     "explain": "Divide the number of unemployed individuals looking for work by the total labor force.",
+     "compute": "unemployment_rate = unemployed_looking / labor_force"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "leec101.txt lines 245-275",
+   "concept": "leec.101.5",
+   "question_type": "compute",
+   "question_pattern": "A capitalist enterprise earns a total revenue of {revenue} rupees. It pays {rent} rupees as rent for land, {interest} rupees as interest for capital, and {wages} rupees as wages to labor. Find the profit earned by the entrepreneur.",
+   "extracted_variables": {
+    "revenue": "total revenue earned by the firm",
+    "rent": "rent paid for land",
+    "interest": "interest paid for capital",
+    "wages": "wages paid to labor"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum the factor payments",
+     "explain": "Add the costs of land (rent), capital (interest), and labor (wages).",
+     "compute": "total_costs = rent + interest + wages"
+    },
+    {
+     "step": 2,
+     "action": "Subtract total costs from revenue",
+     "explain": "The remaining revenue after deducting all factor payments is the entrepreneur's profit.",
+     "compute": "profit = revenue - total_costs"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "leec101.txt lines 330-350",
+   "concept": "leec.101.7",
+   "question_type": "compute",
+   "question_pattern": "An economy exports goods worth {exports} billion dollars and imports goods worth {imports} billion dollars. Calculate the net exports of this economy.",
+   "extracted_variables": {
+    "exports": "value of goods sold to the rest of the world",
+    "imports": "value of goods bought from the rest of the world"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract imports from exports",
+     "explain": "Net exports is calculated by subtracting the value of imports from the value of exports.",
+     "compute": "net_exports = exports - imports"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "leec101.txt lines 360-370",
+   "questions": [
+    "What is the difference between microeconomics and macroeconomics?"
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "leec101.txt lines 360-370",
+   "questions": [
+    "What are the important features of a capitalist economy?"
+   ]
+  },
+  {
+   "id": "ex1.3",
+   "source_ref": "leec101.txt lines 360-370",
+   "questions": [
+    "Describe the four major sectors in an economy according to the macroeconomic point of view."
+   ]
+  },
+  {
+   "id": "ex1.4",
+   "source_ref": "leec101.txt lines 360-370",
+   "questions": [
+    "Describe the Great Depression of 1929."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

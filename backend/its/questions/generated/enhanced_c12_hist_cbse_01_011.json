@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_01_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_01_011",
+   "title": "c12_hist_cbse_01_011",
+   "questions": [
+    {
+     "q": "What is the specific name and location of the Harappan cemetery where the largest number of Mature Harappan burials have been excavated, and what is the predominant burial posture found there?",
+     "a": "Cemetery R37 at Harappa (Punjab, Pakistan); predominant posture is extended inhumation — body laid supine (on back), fully extended, usually oriented north-south with head to the north. A wrong answer (e.g., \"Mohenjodaro\" or \"fractional burial\") reveals confusion between Mature Harappan cemeteries and Late Harappan Cemetery H practices, or between Harappan sites — a common error because textbooks often discuss Mohenjodaro's architecture more than Harappa's cemeteries.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT states: \"On the whole, it appears that the Harappans did not believe in burying precious things with the dead.\" Using evidence from Cemetery R37, explain why this observation is significant when comparing Harappan burials to contemporary Egyptian royal burials.",
+     "a": "Egyptian royal burials (pyramids) contained enormous quantities of gold, furniture, food, and even servants — reflecting extreme social stratification and belief that the king needed wealth in afterlife. At Cemetery R37, grave goods are modest (pottery, shell/jasper ornaments, rare copper mirrors), distributed across male and female burials without extreme concentration. This suggests Harappan society lacked a hyper-wealthy burial elite, implying either less rigid hierarchy or different afterlife beliefs. A wrong answer that says \"Harappans were poor\" misses the point: they had advanced crafts and long-distance trade (covered in c12_hist_cbse_01_008, c12_hist_cbse_01_009) but chose not to display wealth in graves — a cultural choice, not economic inability.",
+     "self_check": true
+    },
+    {
+     "q": "At Cemetery R37, an ornament consisting of three shell rings, a jasper bead, and hundreds of micro beads was found near the skull of a male skeleton. If you were arguing that this indicates *craft specialization* rather than *personal wealth*, what specific evidence from the NCERT chapter on crafts (bead-making at Chanhudaro) would you cite?",
+     "a": "The micro beads (steatite) require highly specialized drilling technology — NCERT notes \"how the steatite micro bead was made remains a puzzle\" and \"specialised drills have been found at Chanhudaro, Lothal and Dholavira\" (c12_hist_cbse_01_008). The ornament combines shell (from coastal centres like Nageshwar/Balakot), jasper (from Gujarat/Rajasthan), and steatite micro beads (crafted at specialised inland centres) — proving long-distance procurement and multi-centre craft coordination. A wrong answer focusing only on \"beauty\" or \"status\" misses that the *composition* of the ornament maps onto the Harappan craft production network — it's a supply-chain artifact, not just a luxury item.",
+     "self_check": true
+    },
+    {
+     "q": "Some graves at Cemetery R37 are brick-lined; others are simple pits. The NCERT asks: \"Could these variations be an indication of social differences? We are not sure.\" Design a method to test this hypothesis using *only* the grave goods data from the same cemetery. What pattern would support social differentiation? What pattern would refute it?",
+     "a": "Method: Quantify grave goods (count, material rarity, craft complexity) for brick-lined vs. simple pit burials. Compare distributions statistically. Support for differentiation: brick-lined graves consistently contain more numerous, rarer (faience, gold, lapis), or more complex (etched carnelian, micro beads) goods. Refutation: both grave types show similar goods — pottery, common shell/terracotta ornaments — with rare items (copper mirrors, micro-bead ornaments) appearing randomly in both. NCERT's \"we are not sure\" reflects that actual data shows *overlap*, not clear separation. A wrong answer assuming brick-lining = elite status without checking goods distribution commits the \"architecture = hierarchy\" fallacy — a trap in mortuary archaeology.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Harappan burials prove the society was egalitarian.\" Use Cemetery R37 evidence *and* the NCERT's discussion of \"luxuries\" (faience pots, gold hoards, concentrated in Mohenjodaro/Harappa) to construct a nuanced argument.",
+     "a": "Claim is partially true but oversimplified. Burials *alone* suggest low mortuary differentiation: similar goods, both sexes receive ornaments, no \"royal\" tombs. But NCERT's \"luxuries\" section (4.2) shows rare/valuable items (faience, gold, etched carnelian) concentrate in *large urban centres* — not in graves but in *hoards* and *habitation contexts*. This implies social differentiation existed in *life* (access to luxuries, craft control, urban vs. rural settlement hierarchy) but was not *performed in death*. A wrong answer saying \"fully egalitarian\" ignores the settlement hierarchy (c12_hist_cbse_01_002) and craft specialization (c12_hist_cbse_01_008); a wrong answer saying \"highly stratified\" ignores the burial evidence. The nuance: *mortuary egalitarianism ≠ social egalitarianism*.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-panel comparison diagram (mental or sketched) showing: Panel A — Egyptian Old Kingdom royal burial (pyramid), Panel B — Mesopotamian Royal Cemetery of Ur (death pit with attendants), Panel C — Harappan Cemetery R37 (extended inhumation with pots/beads). For each panel, label: (1) scale of labour mobilisation, (2) quantity/type of grave goods, (3) implication for political power. What does Panel C reveal about Harappan authority that Panels A and B do not?",
+     "a": "Panel A: massive labour (pyramid), immense goods (gold, organs in jars), implies divine kingship. Panel B: large labour (pit + attendants), rich goods (gold, lapis, chariots), implies coercive power over retainers. Panel C: minimal labour (simple pit), modest goods (pottery, beads), implies *no* burial-based legitimacy display. Panel C reveals Harappan authority (if it existed) was *not* legitimised through mortuary spectacle — unlike Egypt/Mesopotamia where tomb = power statement. This aligns with NCERT's \"no palaces, no kings\" puzzle (Section 8). A poor answer just lists differences; a good answer connects *absence of mortuary monumentality* to the *absence of identifiable rulers* — the central historiographical problem of Harappan politics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

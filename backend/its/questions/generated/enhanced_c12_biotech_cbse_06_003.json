@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_06_003",
+   "title": "c12_biotech_cbse_06_003",
+   "questions": [
+    {
+     "q": "What are the five essential component categories of Murashige and Skoog (MS) medium, and which category contains ammonium nitrate and potassium nitrate?",
+     "a": "The five categories are: (1) macronutrients, (2) micronutrients, (3) vitamins, (4) carbon source, (5) gelling agent. Ammonium nitrate (NH₄NO₃) and potassium nitrate (KNO₃) are macronutrients — they supply nitrogen in both ammonium and nitrate forms. A wrong answer (e.g., listing \"hormones\" as a core category or placing nitrates under micronutrients) reveals the student has memorised a list without understanding the chemical classification: macros are required in millimolar (mM) quantities, micros in micromolar (µM), and vitamins in even lower amounts.",
+     "self_check": true
+    },
+    {
+     "q": "A student prepares MS medium but forgets to add the iron source (FeSO₄·7H₂O and Na₂EDTA). After two weeks, the cultures show interveinal chlorosis in newly formed leaves. Explain why this specific symptom occurs and why it appears in new leaves rather than old ones.",
+     "a": "Iron is immobile in plants; it cannot be translocated from older tissues to newer ones. Without iron, chlorophyll synthesis fails in developing leaves, causing interveinal chlorosis (yellowing between veins) in young leaves while older leaves remain green. A wrong answer that says \"iron deficiency causes general yellowing of all leaves\" or \"iron is mobile so old leaves turn yellow first\" shows confusion with mobile nutrients like nitrogen or potassium. This tests understanding of nutrient mobility — a concept bridging plant physiology (Class 11) and tissue culture practice.",
+     "self_check": true
+    },
+    {
+     "q": "You need to prepare 500 mL of full-strength MS medium using 10× macro stock, 100× micro stock, 100× vitamin stock, 30 g/L sucrose, and 8 g/L agar. The macro stock contains NH₄NO₃ at 1650 mM. What is the final concentration of NH₄NO₃ in the medium, and what mass of NH₄NO₃ (molar mass = 80 g/mol) was dissolved to make 1 L of the 10× macro stock?",
+     "a": "Step 1: 10× macro stock is diluted 10-fold → final [NH₄NO₃] = 1650 mM / 10 = 165 mM.  \nStep 2: For 1 L of 10× stock, moles needed = 1650 mmol = 1.65 mol.  \nStep 3: Mass = moles × molar mass = 1.65 mol × 80 g/mol = 132 g.  \nAnswer: Final concentration = 165 mM; mass for 1 L of 10× stock = 132 g.  \nA wrong answer (e.g., 1650 mM final concentration or 13.2 g for the stock) reveals unit-conversion errors (mM vs M) or confusion between stock and working concentrations — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the nitrogen source in MS medium (NH₄NO₃ + KNO₃) with that in a typical microbial medium like LB broth (tryptone/yeast extract). Why is the defined inorganic nitrogen combination critical for plant tissue culture but not for *E. coli* culture?",
+     "a": "MS uses defined inorganic salts (NH₄⁺ and NO₃⁻) because plants can assimilate both forms and the ratio affects pH and morphogenesis; undefined organic nitrogen (peptones) would cause unpredictable pH shifts and variable growth responses. *E. coli* readily uses peptides/amino acids from tryptone/yeast extract, and its growth is less sensitive to nitrogen form. A wrong answer that says \"plants cannot use organic nitrogen\" is incorrect (some plants can), but the key is reproducibility and control — tissue culture demands defined media for experimental consistency. This tests analytical comparison across microbial vs. plant systems.",
+     "self_check": true
+    },
+    {
+     "q": "A protocol for somatic embryogenesis in carrot calls for \"MS medium with 2,4-D at 2 mg/L and kinetin at 0.5 mg/L.\" The lab has 1 mg/mL stock solutions of both hormones. Evaluate whether adding 1 mL of each stock to 1 L of basal MS medium gives the correct final concentrations. If not, calculate the correct volumes.",
+     "a": "1 mL of 1 mg/mL stock in 1 L gives 1 mg/L, not 2 mg/L. For 2,4-D: need 2 mg/L → volume = (2 mg/L × 1 L) / (1 mg/mL) = 2 mL. For kinetin: need 0.5 mg/L → volume = 0.5 mL. The protocol requires 2 mL of 2,4-D stock and 0.5 mL of kinetin stock per liter. A wrong answer that says \"1 mL each is correct\" shows failure to apply the dilution formula C₁V₁ = C₂V₂ and confusion between stock concentration and final concentration — a frequent error in practical exams.",
+     "self_check": true
+    },
+    {
+     "q": "Design a modified MS medium for root induction in a woody species that is sensitive to high ammonium. Specify which component(s) you would change, the new concentrations, and justify each change based on plant physiology.",
+     "a": "A good answer: (1) Reduce NH₄NO₃ from 1650 mM (10×) to 825 mM (half-strength ammonium) or replace with additional KNO₃ to maintain total nitrogen; (2) Omit cytokinin, add auxin (e.g., 0.5–1 mg/L IBA or NAA); (3) Use half-strength macros (common for woody plants); (4) Keep micros, vitamins, sucrose, agar unchanged. Justification: High NH₄⁺ can inhibit root elongation and cause toxicity; woody species often prefer lower salt strength; auxin promotes root initiation while cytokinin suppresses it. A poor answer that only says \"add auxin\" without adjusting nitrogen or salt strength shows incomplete understanding of medium optimization.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

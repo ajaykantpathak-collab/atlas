@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch07_003",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch07_003",
+   "title": "c7_math_ch07_003",
+   "questions": [
+    {
+     "q": "What tool is used alongside an ungraduated ruler to draw arcs of precise radii when constructing triangles?",
+     "a": "The correct answer is a compass. A student who answers \"protractor\" is confusing tools used for measuring angles with the tool used for measuring fixed distances and drawing circular arcs.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why you cannot construct a triangle with side lengths 3 cm, 4 cm, and 8 cm using a ruler and compass.",
+     "a": "The correct explanation is that the sum of the two shorter sides (3 cm + 4 cm = 7 cm) is less than the third side (8 cm), which violates the Triangle Inequality Theorem, making arc intersection impossible. A student who says \"the lines are too short\" fails to understand the mathematical condition required for triangle closure.",
+     "self_check": true
+    },
+    {
+     "q": "Constructing a triangle with side lengths 5 cm, 6 cm, and 7 cm requires setting your compass radius to which value first, assuming you start by drawing the 7 cm side as your baseline?",
+     "a": "The correct answer is either 5 cm or 6 cm. Working steps: 1. Draw baseline AB = 7 cm using a ruler. 2. Open compass to 5 cm, place needle at A, and draw an arc above AB. 3. Open compass to 6 cm, place needle at B, and draw an arc to intersect the first arc at point C. 4. Connect A to C and B to C. A student who picks 7 cm has confused the base length with the radius used for drawing arcs.",
+     "self_check": true
+    },
+    {
+     "q": "If you accidentally use a graduated ruler instead of a compass to measure and place the third vertex by guessing the intersection point, what geometric error does this introduce?",
+     "a": "The correct answer is that guessing or using a ruler directly as a measuring caliper introduces inaccuracy because a ruler's edge cannot maintain a fixed radial distance from two separate points simultaneously, leading to a failure in satisfying the exact side-length constraints. A student who thinks it is acceptable believes construction is merely sketching rather than precise geometric mapping.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following student procedure for constructing a triangle with sides 4 cm, 5 cm, and 6 cm: \"I drew a 4 cm line, measured 5 cm from one end with my ruler, measured 6 cm from the other end with my ruler, and marked the dot where they met.\" Is this method reliable? Why or why not?",
+     "a": "The method is unreliable. While the intent is correct, using a ruler to measure and plot a single point without arcs creates a locus of uncertainty; the compass creates a locus of points at an exact fixed distance (a circle/arc), ensuring pinpoint precision. A student who defends the ruler method does not understand why compasses are essential for geometric loci.",
+     "self_check": true
+    },
+    {
+     "q": "Design a set of three side lengths that would make it impossible to construct a triangle using your compass, and explain the mathematical rule that proves your design works.",
+     "a": "An example set is 2 cm, 3 cm, and 6 cm. The mathematical proof relies on the Triangle Inequality Theorem: 2 + 3 = 5, and since 5 is less than 6, the two arcs drawn from endpoints of the 6 cm base will never touch or intersect in a plane. A poor answer gives three numbers where the sum of the two smaller sides exceeds the largest side, showing a misunderstanding of the theorem.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

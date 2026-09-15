@@ -1,0 +1,166 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "chapter": 201,
+ "chapter_title": "Ray Optics and Optical Instruments",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/leph201.txt",
+ "concepts": [
+  {
+   "id": "leph.9.2.2.1",
+   "title": "Focal Length of Spherical Mirrors",
+   "section": "9.2.2",
+   "definition": "The focal length of a spherical mirror is defined as half of its radius of curvature, representing the distance from the pole to the principal focus.",
+   "formula": "f = R / 2",
+   "key_idea": "The principal focus lies exactly halfway between the mirror pole and the center of curvature.",
+   "textbook_ref": "leph201.txt lines 135-155",
+   "question_patterns": [
+    "calculate the focal length of a mirror with radius ...",
+    "find the radius of curvature if the focal length is ...",
+    "what is the focal length given a curvature radius of ...",
+    "determine the radius of curvature for a mirror of focal length ...",
+    "how does focal length relate to the radius of curvature"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide radius by 2",
+     "explain": "focal length is half the radius of curvature",
+     "compute": "f = radius / 2"
+    }
+   ]
+  },
+  {
+   "id": "leph.9.2.3.1",
+   "title": "Mirror Equation",
+   "section": "9.2.3",
+   "definition": "A mathematical relationship connecting the distances of an object and its image from the mirror pole to the mirror's focal length.",
+   "formula": "1/v + 1/u = 1/f",
+   "key_idea": "The reciprocal of focal length equals the sum of reciprocals of image and object distances.",
+   "textbook_ref": "leph201.txt lines 185-200",
+   "question_patterns": [
+    "find the image distance given object distance ... and focal length ...",
+    "calculate the position of the image for an object at ...",
+    "determine the focal length if object is at ... and image is at ...",
+    "where is the image formed when object is at ...",
+    "what is the image distance for a mirror with focal length ..."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate 1/f minus 1/u",
+     "explain": "rearrange mirror equation to isolate 1/v",
+     "compute": "inv_v = (1/f) - (1/u)"
+    },
+    {
+     "step": 2,
+     "action": "invert the result",
+     "explain": "find v by taking the reciprocal of inv_v",
+     "compute": "v = 1 / inv_v"
+    }
+   ]
+  },
+  {
+   "id": "leph.9.5.3.1",
+   "title": "Power of a Lens",
+   "section": "9.5.3",
+   "definition": "The power of a lens quantifies its ability to converge or diverge light, defined as the reciprocal of its focal length in meters.",
+   "formula": "P = 1 / f",
+   "key_idea": "Shorter focal length lenses have higher power, measured in dioptres.",
+   "textbook_ref": "leph201.txt lines 430-445",
+   "question_patterns": [
+    "calculate the power of a lens with focal length ...",
+    "what is the power in dioptres for a lens of focal length ...",
+    "find the focal length of a lens having power ...",
+    "determine the lens power given focal length ...",
+    "how much power does a lens with focal length ... possess"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take reciprocal of focal length",
+     "explain": "power is the reciprocal of focal length in meters",
+     "compute": "power = 1 / focal_length"
+    }
+   ]
+  },
+  {
+   "id": "leph.9.5.4.1",
+   "title": "Combination of Thin Lenses",
+   "section": "9.5.4",
+   "definition": "When multiple thin lenses are placed in contact, their combined power is the algebraic sum of the individual powers of each lens.",
+   "formula": "P_total = P1 + P2 + ...",
+   "key_idea": "Total power is the sum of individual lens powers.",
+   "textbook_ref": "leph201.txt lines 480-500",
+   "question_patterns": [
+    "find the total power of two lenses with powers ... and ...",
+    "calculate the combined power of lenses with powers ... and ...",
+    "what is the net power of a combination of lenses ...",
+    "determine the equivalent power of two lenses in contact ...",
+    "how much is the total power of the lens system ..."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum the powers",
+     "explain": "effective power is the sum of individual powers",
+     "compute": "total_power = p1 + p2"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "leph201.txt",
+   "concept": "leph.9.2.2.1",
+   "question_type": "compute",
+   "question_pattern": "calculate the focal length of a mirror with radius {radius}",
+   "extracted_variables": {
+    "radius": 15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide radius by 2",
+     "explain": "f = R/2",
+     "compute": "f = radius / 2"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "leph201.txt",
+   "concept": "leph.9.5.3.1",
+   "question_type": "compute",
+   "question_pattern": "what is the power in dioptres for a lens of focal length {focal_length}",
+   "extracted_variables": {
+    "focal_length": 0.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take reciprocal",
+     "explain": "P = 1/f",
+     "compute": "power = 1 / focal_length"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex9.1",
+   "source_ref": "leph201.txt",
+   "questions": [
+    "A small candle is placed in front of a concave mirror. Find the screen position.",
+    "Calculate the image distance for a needle in front of a convex mirror.",
+    "Determine the refractive index of water given apparent depth."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

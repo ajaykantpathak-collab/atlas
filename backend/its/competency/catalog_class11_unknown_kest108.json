@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "economics",
+  "chapter": 108,
+  "chapter_title": "Use of Statistical Tools",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kest108.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kest108.1.1",
+      "title": "Running a Statistical Project: The Full Pipeline",
+      "section": "1.1",
+      "definition": "This chapter assembles the whole course into a student project: choose a topic, set objectives, design the questionnaire, collect data, organise and present it, apply statistical tools -- percentages, averages, index numbers, correlation -- and end with conclusions and bibliography.",
+      "formula": "",
+      "key_idea": "The project is the course in miniature -- one question carried through every statistical stage to a conclusion.",
+      "textbook_ref": "kest108.txt project sections (steps of a project, choosing a topic or objective, designing questionnaire, conclusion and bibliography)",
+      "question_patterns": [
+        "list the steps involved in conducting a statistical project",
+        "in class 11 use of statistical tools: how should the objective of a study be framed",
+        "what makes a good questionnaire for a project",
+        "why must a project end with conclusions and bibliography",
+        "choose a topic for a survey in your school and outline its design",
+        "how does the project integrate all the tools learnt this year"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "frame the question",
+          "explain": "Pick a specific, answerable objective -- vague topics produce unusable data."
+        },
+        {
+          "step": 2,
+          "action": "build the instrument",
+          "explain": "Draft the questionnaire with clear, non-leading items and test it before field work."
+        },
+        {
+          "step": 3,
+          "action": "close the loop",
+          "explain": "Analyse the collected data with the course's tools and finish with conclusions tied to the objective and a cited bibliography."
+        }
+      ]
+    },
+    {
+      "id": "kest108.1.2",
+      "title": "Applying the Tools: Percentages, Averages and Correlation",
+      "section": "1.2",
+      "definition": "On the collected data the student applies the year's toolkit: percentages for composition, mean, median and mode for central tendency, index numbers for change over time and correlation for relationships -- choosing the tool that fits the question rather than using all of them blindly.",
+      "formula": "",
+      "key_idea": "Right tool for the right question -- composition asks percentages, centrality asks averages, relationships ask correlation.",
+      "textbook_ref": "kest108.txt application sections (percentage calculations, averages, index numbers, correlation in project analysis, interpretation of results)",
+      "question_patterns": [
+        "which statistical tools suit a study of family expenditure and why",
+        "in class 11 use of statistical tools: how would you analyse change in prices in your project",
+        "use percentages to present the composition of a given budget",
+        "apply averages to summarise the collected data",
+        "how can correlation be used in a student project",
+        "interpret the results of the tools applied in a given study"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "match tool to question",
+          "explain": "Composition questions need percentages; typical-value questions need averages; change needs index numbers; association needs correlation."
+        },
+        {
+          "step": 2,
+          "action": "compute carefully",
+          "explain": "Apply each tool to the correctly organised data, checking units and bases."
+        },
+        {
+          "step": 3,
+          "action": "interpret honestly",
+          "explain": "State what the figures show and what they cannot -- limits belong in honest conclusions."
+        }
+      ]
+    },
+    {
+      "id": "kest108.1.3",
+      "title": "Organising, Presenting and Interpreting Project Data",
+      "section": "1.3",
+      "definition": "Once collected, project data must be classified into a frequency distribution, presented in tables and diagrams, and then interpreted: what the figures mean for the objective, what patterns emerged, and what limitations qualify the conclusions.",
+      "formula": "",
+      "key_idea": "Collect is only halfway -- classify, display and interpret turn data into a project's findings.",
+      "textbook_ref": "kest108.txt organisation sections (classification of collected data, tabular and diagrammatic presentation, interpretation of results, limitations of the study)",
+      "question_patterns": [
+        "how should collected project data be organised before analysis",
+        "in class 11 use of statistical tools: present the given project data as a table and diagram",
+        "why must conclusions follow from the objective of the study",
+        "what limitations should a project report acknowledge",
+        "write the interpretation of a given table from a project",
+        "arrange the analysis stage of a project in correct order"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "classify and tabulate",
+          "explain": "Sort responses into classes and enter totals in a titled table for compact comparison."
+        },
+        {
+          "step": 2,
+          "action": "display the pattern",
+          "explain": "Choose a bar diagram, pie chart or polygon that makes the main pattern visible at a glance."
+        },
+        {
+          "step": 3,
+          "action": "interpret with limits",
+          "explain": "Relate the findings back to the objective, noting sample size and other limitations honestly."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kest108.txt project sections",
+      "concept": "kest108.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "Design a mini-project on the spending habits of classmates: state the objective, the tool of collection and the presentation method.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "frame the objective",
+          "explain": "Objective: to study how much students of class 11 spend weekly and on what items."
+        },
+        {
+          "step": 2,
+          "action": "choose collection",
+          "explain": "A short questionnaire administered personally to a sample of 50 students collects the data."
+        },
+        {
+          "step": 3,
+          "action": "plan the presentation",
+          "explain": "Classified tables, a pie chart of spending shares, and averages conclude the analysis."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kest108.txt application sections",
+      "concept": "kest108.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Your project data show monthly ice-cream sales and daily temperature for a year. Which tool fits and what would you expect to find?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "match the tool",
+          "explain": "Two quantitative variables varying together call for correlation analysis."
+        },
+        {
+          "step": 2,
+          "action": "anticipate the result",
+          "explain": "Hotter days selling more ice-cream suggests a positive correlation."
+        },
+        {
+          "step": 3,
+          "action": "guard the claim",
+          "explain": "Report the association as correlation -- temperature alone may not be the full cause."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kest108.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Design a full project outline on a topic of your choice.",
+        "Draft a ten-item questionnaire for your project topic.",
+        "Apply percentages and averages to a given dataset and interpret.",
+        "Use an index number to summarise price change in your data.",
+        "Compute and interpret correlation for two related variables you collect.",
+        "Write the conclusions and bibliography sections for a sample project."
+      ]
+    }
+  ]
+}

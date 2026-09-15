@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch2_9",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch2_9",
+   "title": "c9_bio_ch2_9",
+   "questions": [
+    {
+     "q": "Name the two main types of bone tissue based on porosity and state one location for each in the human skeleton.",
+     "a": "Compact (cortical) bone – forms the dense outer shell of all bones, e.g., shaft of femur; Spongy (cancellous) bone – forms the porous inner network, e.g., ends of long bones (epiphyses) and flat bones like skull. A wrong answer (e.g., naming \"long bone\" and \"flat bone\") reveals confusion between gross anatomical classification and histological tissue types.",
+     "self_check": true
+    },
+    {
+     "q": "Why does cartilage heal much more slowly than bone after an injury?",
+     "a": "Cartilage is avascular (lacks blood vessels) and relies on diffusion from the perichondrium or synovial fluid for nutrients, so chondrocytes have limited metabolic activity and mitotic capacity. Bone is highly vascularized with Haversian canals, allowing rapid delivery of osteoprogenitor cells and minerals for repair. A wrong answer citing \"cartilage has no cells\" shows ignorance of chondrocytes in lacunae.",
+     "self_check": true
+    },
+    {
+     "q": "A 14-year-old athlete complains of knee pain after repetitive jumping. MRI shows softening of the articular cartilage on the patella. Which cartilage type is affected, and why is its structure suited for this location but vulnerable to wear?",
+     "a": "Hyaline cartilage – its smooth, glassy matrix with fine collagen fibers provides low-friction articulation, but the lack of a perichondrium on articular surfaces and limited regenerative capacity make it prone to degeneration under excessive load. A wrong answer naming fibrocartilage indicates confusion between articular surfaces (hyaline) and shock-absorbing discs (fibrocartilage).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the microscopic organisation of compact bone (osteon) and hyaline cartilage (chondron). How does each organisation reflect the tissue's primary mechanical role?",
+     "a": "Compact bone: concentric lamellae around a central Haversian canal containing blood vessels/nerves – optimised for weight-bearing strength and rapid nutrient supply. Hyaline cartilage: isolated chondrocytes in lacunae within a homogeneous gel-like matrix – optimised for resilience and smooth compression resistance without vascular demand. A wrong answer swapping the descriptions shows failure to link microstructure to mechanical function.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Cartilage is just immature bone that hasn't calcified yet.\" Is this biologically accurate for all cartilage types? Justify.",
+     "a": "Incorrect. Only hyaline cartilage serves as a temporary template for endochondral ossification (e.g., long bones). Fibrocartilage (intervertebral discs, menisci) and elastic cartilage (pinna, epiglottis) are permanent specialised tissues that never become bone. A wrong agreement reveals the common misconception that all cartilage is a precursor to bone.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple investigation using chicken bones (one baked, one soaked in vinegar for 48 hours) to demonstrate the roles of organic matrix and mineral salts in bone properties. State the expected observations and conclusions.",
+     "a": "Baked bone (organic matrix destroyed) becomes brittle and snaps easily – shows collagen provides tensile strength/flexibility. Vinegar-soaked bone (minerals dissolved) becomes rubbery and bendable – shows hydroxyapatite provides hardness/compressive strength. A poor answer that only describes \"bone gets soft\" without linking each treatment to a specific component shows lack of analytical separation of structure-function.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

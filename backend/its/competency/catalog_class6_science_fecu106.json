@@ -1,0 +1,215 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 6,
+ "chapter_title": "Materials Around Us",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fecu106.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fecu.6.1",
+   "title": "Observing Objects Around Us",
+   "section": "Observing objects",
+   "definition": "Look around a classroom and each object tells a story of material and make: a wooden bench, a steel tumbler, a cotton dress; observation asks what each thing is made of and why.",
+   "formula": "",
+   "key_idea": "Objects are made of materials, and the material decides the object's behaviour.",
+   "textbook_ref": "fecu106.txt, Observing objects",
+   "question_patterns": [
+    "name five objects in your classroom and their materials",
+    "what is the difference between an object and a material",
+    "why is a bench made of wood and not glass",
+    "which objects around you are made of metal",
+    "can one object be made of many materials",
+    "group your classroom objects by material"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "observe closely",
+     "explain": "Note the colour, shape, feel or behaviour of the thing studied."
+    },
+    {
+     "step": 2,
+     "action": "record and group",
+     "explain": "Write the observations in a table and group alike things together."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern your observations reveal."
+    }
+   ]
+  },
+  {
+   "id": "fecu.6.2",
+   "title": "Grouping Materials by Properties",
+   "section": "Grouping",
+   "definition": "Materials are grouped by their properties: appearance, hardness, whether they dissolve in water, let light pass, or sink and float; sorting by property brings order to thousands of materials.",
+   "formula": "",
+   "key_idea": "Properties are the sorting keys: choose the property that answers your purpose and groups appear.",
+   "textbook_ref": "fecu106.txt, Grouping",
+   "question_patterns": [
+    "on which properties can materials be grouped",
+    "what are transparent and opaque materials",
+    "which materials dissolve in water",
+    "how do we test whether a material floats or sinks",
+    "group these materials as hard or soft",
+    "why is grouping of materials useful"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "observe closely",
+     "explain": "Note the colour, shape, feel or behaviour of the thing studied."
+    },
+    {
+     "step": 2,
+     "action": "record and group",
+     "explain": "Write the observations in a table and group alike things together."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern your observations reveal."
+    }
+   ]
+  },
+  {
+   "id": "fecu.6.3",
+   "title": "Choosing Materials for a Purpose",
+   "section": "The tumbler example",
+   "definition": "Why is a tumbler made of glass, steel or clay and not of cloth? Because holding water demands a material that is hard, opaque to leaks and safe; purpose selects the property, and the property selects the material.",
+   "formula": "",
+   "key_idea": "Function chooses material: every object around you is a property match for its job.",
+   "textbook_ref": "fecu106.txt, The tumbler example",
+   "question_patterns": [
+    "why is a tumbler not made of cloth",
+    "what properties should a water container have",
+    "which materials can make a transparent tumbler",
+    "why do we use metal for cooking vessels",
+    "can the same object be made of different materials",
+    "match three objects to the property that matters most"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "fecu.6.4",
+   "title": "What Is Matter?",
+   "section": "Matter",
+   "definition": "Everything with mass that occupies space is matter, from stone and steel to water and air; materials are matter in different forms, and studying matter is studying the stuff of the world.",
+   "formula": "",
+   "key_idea": "Air, water and stone share one citizenship: all are matter, having mass and volume.",
+   "textbook_ref": "fecu106.txt, Matter",
+   "question_patterns": [
+    "what is matter",
+    "is air matter even though we cannot see it",
+    "how can we show that air occupies space",
+    "do all materials have mass",
+    "name three states of matter around you",
+    "is light a form of matter why or why not"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fecu106.txt",
+   "concept": "fecu.6.1",
+   "question_type": "verify_property",
+   "question_pattern": "name objects around you and the materials they are made of.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fecu106.txt",
+   "concept": "fecu.6.2",
+   "question_type": "verify_property",
+   "question_pattern": "on which properties can materials be grouped?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fecu106.txt, Let us enhance our learning",
+   "questions": [
+    "Name objects around you and the materials they are made of.",
+    "On which properties can materials be grouped?",
+    "Why can a tumbler not be made of cloth?",
+    "Play the sorting challenge: group paper, fabric and metal pieces by two properties.",
+    "Fill three paper cups with different materials and compare their mass."
+   ]
+  }
+ ]
+}

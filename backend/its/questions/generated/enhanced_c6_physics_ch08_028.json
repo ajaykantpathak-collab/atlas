@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch08_028",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch08_028",
+   "title": "c6_physics_ch08_028",
+   "questions": [
+    {
+     "q": "If a bicycle travels 10 kilometres in 2 hours, what is its speed?",
+     "a": "The speed is 5 km/h. A wrong answer (like 20 km/h) suggests the student multiplied distance and time instead of dividing, showing a misunderstanding of how \"speed\" represents a rate of change.",
+     "self_check": true
+    },
+    {
+     "q": "Two cars travel the same distance. Car A takes 1 hour and Car B takes 2 hours. Which car is faster and why?",
+     "a": "Car A is faster. A wrong answer suggests the student thinks a larger time value means higher speed; they need to understand that speed is inversely related to time for a fixed distance.",
+     "self_check": true
+    },
+    {
+     "q": "A bus travels 100 km in 2 hours. What is its speed in km/h?",
+     "a": "Speed = 100 km / 2 h = 50 km/h. A student who gets this wrong likely forgets to include the unit or confuses the order of division (Time/Distance).",
+     "self_check": true
+    },
+    {
+     "q": "If you double the distance while keeping the time the same, what happens to your speed?",
+     "a": "The speed doubles. If a student says it stays the same, they are ignoring the relationship between the variables in the formula.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible for a fast-moving object to have a lower speed value than a slow-moving object if the units are different?",
+     "a": "Yes, if the units are not the same (e.g., comparing 100 m/s to 5 km/h). Students often look only at the number and ignore the units, which is a critical error in scientific measurement.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to prove that a marble rolling down a steep ramp is faster than one on a flat floor.",
+     "a": "The student should propose measuring the distance covered in a fixed time (e.g., 5 seconds) for both. A poor answer fails to keep one variable (time) constant, which is essential for a fair comparison.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

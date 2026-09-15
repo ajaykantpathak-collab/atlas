@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_10_010",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_10_010",
+   "title": "c12_chem_cbse_10_010",
+   "questions": [
+    {
+     "q": "Name the chemical class of each hormone: (a) insulin, (b) cortisol, (c) thyroxine, (d) epinephrine. Give one structural feature that places each in its class.",
+     "a": "(a) Insulin — polypeptide/protein hormone (51 amino acids, two chains linked by disulfide bonds). (b) Cortisol — steroid hormone (cyclopentanoperhydrophenanthrene nucleus with keto and hydroxyl groups at C3, C11, C17, C21). (c) Thyroxine — amino acid derivative (two iodinated tyrosine residues linked by ether bond). (d) Epinephrine — amino acid derivative (phenylethanolamine skeleton with –OH at C3, C4 and –NHCH₃ at C1). WRONG ANSWER REVEALS: Student confuses \"protein hormone\" with \"amino acid derivative\" for insulin (thinks it's a small molecule), or mistakes thyroxine for a peptide because it contains tyrosine. This indicates inability to distinguish polymer vs monomer vs modified monomer.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why insulin cannot cross the plasma membrane and must bind a cell-surface receptor, whereas thyroxine readily enters the cell and binds an intracellular receptor. Use the terms \"hydrophilicity,\" \"molecular size,\" and \"lipid bilayer\" in your answer.",
+     "a": "Insulin is a 51-amino-acid polypeptide (MW ~5800 Da) with many polar –COOH, –NH₂, –OH groups → highly hydrophilic, large size → cannot diffuse through hydrophobic lipid bilayer → binds extracellular domain of receptor tyrosine kinase (RTK) on membrane. Thyroxine is a small iodinated tyrosine derivative (MW 777 Da) with two phenyl rings and only one polar ether linkage → predominantly lipophilic → diffuses passively through lipid bilayer → binds nuclear receptor (intracellular) → acts as transcription factor. WRONG ANSWER REVEALS: Student says \"insulin is a protein so it's big\" but misses hydrophilicity; or says \"thyroxine has iodine so it's polar\" — confusing halogen substitution with polarity. Shows lack of structure-property reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "A patient has fasting blood glucose 180 mg/dL (normal 70-100). The physician suspects diabetes mellitus. Which hormone is deficient or ineffective? Draw the molecular mechanism by which this hormone normally lowers blood glucose in a hepatocyte, including: receptor type, second messenger (if any), key enzyme regulated, and metabolic outcome.",
+     "a": "Hormone: Insulin (deficient in Type 1, ineffective/resistant in Type 2). Mechanism in hepatocyte: (1) Insulin binds extracellular α-subunit of receptor tyrosine kinase (RTK) → (2) Autophosphorylation of intracellular β-subunit tyrosine residues → (3) Recruitment of IRS (insulin receptor substrate) proteins → (4) Activation of PI3K → Akt/PKB pathway → (5) Translocation of GLUT2/GLUT4 vesicles to membrane (glucose uptake) AND (6) Activation of glycogen synthase (via dephosphorylation) + inhibition of glycogen phosphorylase → (7) Net glycogen synthesis + glycolysis → lowered blood glucose. WRONG ANSWER REVEALS: Student writes \"insulin activates adenylate cyclase → cAMP\" — confusing insulin with glucagon/epinephrine (GPCR pathway). Or omits GLUT translocation. Shows confusion between RTK vs GPCR signaling cascades.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the signal transduction pathways of epinephrine (via β-adrenergic receptor) and insulin (via RTK) in a hepatocyte. Create a table with columns: Receptor Type, G-protein Involved, Second Messenger, Key Kinase Activated, Metabolic Effect on Glycogen. Explain why both hormones can increase blood glucose but through opposite effects on glycogen.",
+     "a": "| Feature | Epinephrine (β-AR) | Insulin (RTK) |\n|---|---|---|\n| Receptor Type | GPCR (7TM) | Receptor Tyrosine Kinase (RTK) |\n| G-protein | Gₛ (stimulatory) | None (direct tyrosine phosphorylation) |\n| Second Messenger | cAMP | None (phosphoprotein cascade) |\n| Key Kinase | PKA (cAMP-dependent) | Akt/PKB (via PI3K) |\n| Glycogen Effect | Phosphorylates & activates glycogen phosphorylase kinase → glycogenolysis ↑ | Activates glycogen synthase (dephosphorylation) → glycogenesis ↑; inhibits phosphorylase |\n| Blood Glucose | Increases (glycogen breakdown) | Decreases (glycogen synthesis + uptake) |\n\nBoth raise blood glucose? NO — epinephrine raises, insulin lowers. The question contains a trap: \"why both can increase blood glucose\" is FALSE. Epinephrine increases; insulin decreases. They are antagonistic. WRONG ANSWER REVEALS: Student accepts the false premise and invents a mechanism where insulin also raises glucose. Shows lack of critical evaluation and confusion between catabolic (epinephrine, glucagon, cortisol) vs anabolic (insulin) hormones.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"All steroid hormones are synthesized from cholesterol and therefore have identical mechanisms of action.\" Identify three specific errors in this statement and correct each with a concrete example.",
+     "a": "ERROR 1: \"Identical mechanisms of action\" — False. While all steroid hormones diffuse through membranes and bind intracellular receptors, the receptor subtype determines target gene specificity. Example: Glucocorticoid receptor (GR) vs Mineralocorticoid receptor (MR) vs Androgen receptor (AR) vs Estrogen receptor (ER) — each binds different hormone response elements (GRE, MRE, ARE, ERE) on DNA, regulating distinct gene sets. ERROR 2: \"All synthesized from cholesterol\" — True for adrenocortical and gonadal steroids, but Vitamin D (secosteroid) is derived from 7-dehydrocholesterol via UV photolysis in skin — not direct enzymatic synthesis from cholesterol in gland. ERROR 3: Implies no non-genomic actions — False. Some steroids (e.g., estrogen, aldosterone) also bind membrane-associated receptors (GPER, MR) triggering rapid kinase cascades (MAPK, PI3K) within minutes — independent of transcription. WRONG ANSWER REVEALS: Student treats \"steroid hormone\" as a monolithic category. Shows failure to appreciate receptor diversity and non-genomic signaling — a common NEET trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment: You have three unknown hormone samples (A, B, C). Sample A is a small hydrophobic molecule that crosses artificial lipid bilayers rapidly. Sample B is a large hydrophilic molecule that binds a receptor on the outer surface of intact cells but not on lysed cells. Sample C is a small molecule that enters cells but its receptor is only found in the nucleus. Propose the chemical class and one likely identity for each. Justify using structure-transport-receptor location logic.",
+     "a": "Sample A: Steroid hormone (e.g., cortisol, estradiol, testosterone). Reason: Small (MW 300-500), hydrophobic (cyclopentanoperhydrophenanthrene core) → passive diffusion through lipid bilayer → binds cytoplasmic/nuclear receptor. Sample B: Polypeptide/protein hormone (e.g., insulin, growth hormone, glucagon). Reason: Large (MW >3000), hydrophilic (many polar residues) → cannot cross membrane → receptor must be transmembrane with extracellular ligand-binding domain (RTK or GPCR) → binding lost on lysis because receptor conformation disrupted or internalized. Sample C: Thyroid hormone (thyroxine T₄ or triiodothyronine T₃). Reason: Small (MW ~650-777), moderately lipophilic (iodinated aromatic rings) → diffuses through membrane → receptor is nuclear (thyroid hormone receptor, TR) which is constitutively nuclear, not cytoplasmic — binds DNA as TR/RXR heterodimer on thyroid response elements (TREs). WRONG ANSWER REVEALS: Student assigns Sample C to \"steroid\" because it enters cells — misses that thyroid hormone receptors are nuclear, not cytoplasmic. Or assigns Sample B to \"amino acid derivative\" — misses size/hydrophilicity distinction. Shows inability to integrate structure, transport, and receptor localization.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

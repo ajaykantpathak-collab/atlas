@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_01_009",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_01_009",
+   "title": "c11_bs_cbse_01_009",
+   "questions": [
+    {
+     "q": "State the six major objectives of business as classified in NCERT Class 11 Business Studies, and identify which one is explicitly categorised as a social objective.",
+     "a": "The six objectives are: (1) Market standing, (2) Innovation, (3) Productivity, (4) Physical and financial resources, (5) Earning profits, (6) Social responsibility. Only \"Social responsibility\" is explicitly a social objective; the first five are economic objectives. A wrong answer (e.g., listing \"customer satisfaction\" or \"growth\" as separate objectives, or classifying profit as social) reveals the student is confusing textbook classification with general business knowledge or misreading the NCERT hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since profit is the excess of revenue over cost, and every business needs money to survive, profit maximisation should be the ONLY objective. Other objectives like social responsibility just reduce profit.\" Explain why this reasoning is flawed using the concept of long-term business survival.",
+     "a": "Profit maximisation as the sole objective leads to exploitation of customers (poor quality), employees (low wages), and society (pollution), causing loss of trust, legal penalties, and eventual business failure. NCERT explicitly states: \"Too much emphasis on profit to the exclusion of other objectives can be dangerous for good business.\" A wrong answer that agrees with the student or only mentions \"ethics\" without linking to business survival (e.g., loss of customers, regulatory action, employee turnover) shows the student views social responsibility as charity rather than strategic necessity.",
+     "self_check": true
+    },
+    {
+     "q": "\"GreenThread\" is a startup making biodegradable packaging from agricultural waste. In its first year, it focused only on maximising output to earn quick profits, skipping quality checks and delaying vendor payments. By year two, it lost its biggest client (a food delivery platform) due to inconsistent quality, and vendors refused supply. Classify the objectives GreenThread neglected and explain how each neglect caused the specific failure.",
+     "a": "Neglected objectives and consequences: (1) **Quality/Productivity** – Skipping quality checks led to inconsistent products → client loss. (2) **Market standing** – No focus on reputation → lost credibility with major client. (3) **Social responsibility (towards suppliers)** – Delayed vendor payments → supply chain breakdown. (4) **Innovation** – No process improvement → couldn't scale quality. A wrong answer listing only \"profit\" or \"customer service\" misses the multi-objective interconnectivity: the student fails to see that economic objectives (productivity, market standing) and social objectives (vendor relations) are mutually reinforcing, not competing.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the objective of \"Productivity\" with \"Earning profits\" using the formula: Productivity = Value of Output / Value of Inputs. Can a business have high productivity but low profitability? Give a concrete numerical example (use ₹, units) showing how this is possible.",
+     "a": "Yes. Productivity measures *efficiency* (output per unit input), while profitability measures *financial surplus* (revenue minus cost). Example: A factory produces 1,000 units using ₹50,000 inputs (productivity = 0.02 units/₹). Selling price ₹40/unit → Revenue ₹40,000. Cost ₹50,000 → Loss ₹10,000. High productivity (efficient process) but low profitability (price < cost). A wrong answer claiming \"high productivity always means high profit\" confuses operational efficiency with financial outcome, ignoring price, fixed costs, and market demand—this is a classic Class 11 error from equating technical efficiency with economic viability.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"A business that fulfils all economic objectives (market standing, innovation, productivity, resources, profit) automatically fulfils its social responsibility.\" Defend your position with two distinct counter-arguments grounded in NCERT concepts.",
+     "a": "False. Counter-argument 1: **Externalities** – A chemical firm may achieve all five economic objectives (high market share, innovative process, efficient production, ample resources, high profit) but pollute a river, harming community health. This violates social responsibility (obligation to solve social problems, work in socially desirable manner). Counter-argument 2: **Stakeholder exploitation** – A gig-platform may hit all economic targets by underpaying delivery partners (no minimum wage, no insurance). Profit comes from labour exploitation, not value creation. NCERT defines social responsibility as *separate* from economic objectives precisely because market success ≠ social desirability. A wrong answer conflating \"legal compliance\" with \"social responsibility\" misses that CSR goes beyond law (e.g., voluntary community investment).",
+     "self_check": true
+    },
+    {
+     "q": "Create a new business scenario (Indian context, any sector) where the entrepreneur must explicitly BALANCE three different objectives from the NCERT list, and explain the trade-off decision they face. The scenario must show that maximising one objective *reduces* another in the short term.",
+     "a": "**Scenario:** \"KrishiMitra\" – an agri-tech startup in Punjab selling soil-testing kits to small farmers.  \n**Objectives in tension:**  \n1. **Earning profits** (price kits at ₹500 to cover R&D + margin)  \n2. **Social responsibility** (make kits affordable at ₹200 for marginal farmers)  \n3. **Market standing** (become the trusted brand across 10,000 villages in 2 years)  \n**Trade-off:** Pricing at ₹500 maximises profit but excludes 70% target farmers → fails social responsibility AND limits market standing (low adoption). Pricing at ₹200 fulfils social responsibility and builds market standing but causes losses → threatens survival. **Decision:** Cross-subsidise – charge ₹500 to large commercial farms, use surplus to subsidise ₹200 kits for small farmers. This balances all three but requires *innovation* in distribution (another objective). A poor answer lists objectives without a genuine trade-off (e.g., \"they want profit and quality\" – these align) or proposes an unrealistic solution (\"government will fund it\") avoiding the entrepreneurial decision.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

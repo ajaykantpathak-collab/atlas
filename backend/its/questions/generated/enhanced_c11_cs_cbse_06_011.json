@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_06_011",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_06_011",
+   "title": "c11_cs_cbse_06_011",
+   "questions": [
+    {
+     "q": "What is the return value of `my_list.append(5)` if `my_list = [1, 2, 3]`?",
+     "a": "The return value is `None`. A wrong answer (e.g., `[1, 2, 3, 5]` or `5`) reveals the student thinks mutator methods return the modified list, a classic confusion between in-place mutation and functional return.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between `lst.remove(10)` and `lst.pop(10)` when `lst = [5, 10, 15, 10, 20]`.",
+     "a": "`remove(10)` deletes the **first occurrence of the value 10** (at index 1) and returns `None`; `pop(10)` tries to delete the element **at index 10** (which does not exist) and raises `IndexError`. A wrong answer shows the student confuses value-based removal with index-based removal and ignores the return-value difference.",
+     "self_check": true
+    },
+    {
+     "q": "Given `nums = [3, 1, 4, 1, 5]`, write the single line of code that inserts `9` at index `2` and then sorts the list in descending order.",
+     "a": "`nums.insert(2, 9); nums.sort(reverse=True)` (two statements). A wrong answer like `nums.insert(2, 9).sort(reverse=True)` reveals the student doesn't realize `insert` returns `None`, breaking chaining. Another error: using `sorted(nums, reverse=True)` which creates a new list instead of in-place mutation.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the final state of `data` after this sequence:\n```python\ndata = [10, 20, 30, 40]\ndata.append(50)\ndata.insert(1, 15)\ndata.remove(30)\npopped = data.pop(2)\ndata.sort()\n```\nList the final `data` and the value of `popped`.",
+     "a": "Step-by-step: start `[10,20,30,40]` → append 50 → `[10,20,30,40,50]` → insert 15 at 1 → `[10,15,20,30,40,50]` → remove 30 → `[10,15,20,40,50]` → pop index 2 (value 20) → `popped=20`, list becomes `[10,15,40,50]` → sort → `[10,15,40,50]`. Final `data = [10, 15, 40, 50]`, `popped = 20`. Wrong answers indicate inability to track index shifts after each mutation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Using `lst.sort()` is always better than `sorted(lst)` because it saves memory.\" Defend or refute with a concrete scenario.",
+     "a": "Refute: `sort()` mutates the original list, destroying the original order. If you need the original order later (e.g., to compute median before and after sorting), `sorted()` is necessary because it returns a new list. A student who agrees unconditionally misses the trade-off between memory and data preservation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini-program (3-5 lines) that starts with an empty list, uses **all five methods exactly once each**, and ends with the list `['apple', 'banana', 'cherry']` sorted alphabetically.",
+     "a": "Example:\n```python\nfruits = []\nfruits.append('cherry')      # ['cherry']\nfruits.insert(0, 'apple')    # ['apple', 'cherry']\nfruits.append('banana')      # ['apple', 'cherry', 'banana']\nfruits.remove('cherry')      # ['apple', 'banana']\nfruits.insert(1, 'cherry')   # ['apple', 'cherry', 'banana']\npopped = fruits.pop()        # popped='banana', list=['apple','cherry']\nfruits.append(popped)        # ['apple','cherry','banana']\nfruits.sort()                # ['apple','banana','cherry']\n```\n(Any valid sequence earns full credit.) A poor answer uses a method twice, omits one, or assumes methods return the list.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

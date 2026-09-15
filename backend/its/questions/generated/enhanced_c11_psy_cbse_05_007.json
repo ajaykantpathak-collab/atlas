@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_05_007",
+   "title": "c11_psy_cbse_05_007",
+   "questions": [
+    {
+     "q": "Define insight learning and state the two key characteristics that distinguish it from operant conditioning.",
+     "a": "Insight learning is the sudden comprehension of a problem's solution through mental restructuring of the situation, characterized by (1) the solution emerges abruptly after a period of no apparent progress, not gradually through reinforced trials, and (2) once achieved, the solution transfers immediately to similar problems because the learner has grasped the means-end relationship, not a specific S-R chain. A wrong answer that describes insight as \"fast trial-and-error\" or \"learning without reinforcement\" reveals the misconception that insight is merely accelerated conditioning rather than a qualitatively different cognitive process.",
+     "self_check": true
+    },
+    {
+     "q": "In Kohler's experiment, Sultan the chimpanzee initially failed to reach a banana placed outside his cage. He then pushed a box under the banana, stood on it, and reached the fruit. A student claims this is \"just trial-and-error learning with fewer errors.\" Explain why this claim is incorrect using two specific pieces of evidence from Kohler's observations.",
+     "a": "The claim is incorrect because: (1) Sultan showed a period of \"incubation\" where he sat quietly, surveyed the situation, and made no attempts — inconsistent with trial-and-error's continuous responding; (2) when the banana's position changed, Sultan immediately adapted his solution (e.g., stacking two boxes) without new trial-and-error, demonstrating he had learned a cognitive principle (vertical extension) not a fixed motor pattern. A wrong answer focusing only on the successful attempt reveals the student cannot distinguish between the *process* (sudden restructuring) and the *outcome* (correct response).",
+     "self_check": true
+    },
+    {
+     "q": "A Class 11 student struggles with a physics problem on projectile motion. After 30 minutes of failed attempts, she takes a break. While washing dishes, she suddenly realizes she must decompose velocity into horizontal and vertical components. She returns and solves not only the original problem but three similar ones in five minutes. Map this scenario onto the four stages of insight learning (preparation, incubation, illumination, verification) and justify each mapping.",
+     "a": "Preparation: 30 minutes of active problem-solving attempts (gathering information, testing formulas). Incubation: break/washing dishes — conscious work ceases but unconscious processing continues. Illumination: sudden realization about velocity decomposition while doing an unrelated task. Verification: returning to solve the original and three similar problems successfully, confirming the restructuring is valid. A wrong answer that merges incubation with preparation or omits verification shows the student views insight as a single \"flash\" rather than a structured sequence where verification proves the cognitive restructuring is robust and generalizable.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Kohler's insight learning with Bandura's observational learning (c11_psy_cbse_05_006) on three dimensions: (a) role of the model, (b) necessity of reinforcement for acquisition, (c) nature of what is learned. Present your comparison as a structured analysis, not a list.",
+     "a": "(a) Insight learning requires no model — the learner restructures the problem internally; observational learning requires a model whose behavior is observed and encoded. (b) Insight learning occurs without any reinforcement during acquisition (the \"aha!\" precedes reward); observational learning acquires knowledge without reinforcement but performance depends on vicarious reinforcement. (c) Insight learning yields a cognitive principle (means-end relationship) that transfers structurally; observational learning yields a behavioral script that transfers situationally. A wrong answer that equates \"no reinforcement needed\" for both misses that insight learning's acquisition is *intrinsically* reinforcement-independent, while observational learning's *performance* is reinforcement-sensitive — a critical theoretical distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement: \"Insight learning proves that animals have human-like reasoning because they solve problems without trial-and-error.\" Evaluate this claim using evidence from Kohler's experiments and the concept of preparedness (c11_psy_cbse_05_010).",
+     "a": "The claim overstates the evidence. Kohler's chimpanzees demonstrated insight only for problems within their species-typical behavioral repertoire (e.g., using sticks to reach, stacking boxes to climb) — tasks for which they are biologically prepared. They failed on arbitrarily structured problems (e.g., using a stick to press a lever) that humans solve easily. This shows insight is constrained by *preparedness*: species solve problems that map onto evolved cognitive specializations. True human-like reasoning involves abstract, decontextualized symbol manipulation — not demonstrated in Kohler's work. A wrong answer that accepts the claim uncritically reveals anthropomorphic bias and ignorance of biological constraints on cognition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a classroom activity for Class 9 students that would allow them to experience insight learning (not trial-and-error) in a geometry context. Specify: (a) the problem, (b) how you would structure the preparation/incubation phases, (c) how you would verify genuine insight occurred versus lucky guessing.",
+     "a": "(a) Problem: \"Using only a single straight cut on a folded sheet of paper, create a symmetrical star shape.\" (b) Preparation: students attempt for 10 minutes — most fail. Incubation: teacher collects papers, leads a 5-minute discussion on symmetry in nature, then returns papers. (c) Verification: students who experience insight will (i) solve immediately upon return, (ii) explain *why* the fold lines must align with symmetry axes, (iii) instantly adapt to \"create a symmetrical snowflake\" without new trial-and-error. Lucky guessers cannot explain the principle or transfer. A poor answer proposes a routine textbook exercise, missing that insight requires a *novel* problem where prior algorithms fail, forcing restructuring.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

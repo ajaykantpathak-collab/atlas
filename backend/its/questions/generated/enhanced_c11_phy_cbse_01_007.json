@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_01_007",
+   "title": "c11_phy_cbse_01_007",
+   "questions": [
+    {
+     "q": "State the principle of homogeneity of dimensions and explain why the equation v = u + at is dimensionally consistent while v = u + a is not, where v and u are velocities, a is acceleration, and t is time.",
+     "a": "The principle of homogeneity of dimensions states that in any physically valid equation, the dimensions of every term on both sides must be identical. For v = u + at: [v] = [L T⁻¹], [u] = [L T⁻¹], [at] = [L T⁻²][T] = [L T⁻¹] – all terms have dimension [L T⁻¹], so it is consistent. For v = u + a: [a] = [L T⁻²] which differs from [L T⁻¹], so it is dimensionally inconsistent. A wrong answer reveals the student cannot compute dimensions of derived quantities or does not understand that addition requires identical dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the dimensional formula of Planck's constant h as [M L² T⁻¹] and claims that since angular momentum also has dimensions [M L² T⁻¹], they are the same physical quantity. Explain why this reasoning is flawed using the concept of dimensional analysis.",
+     "a": "Dimensional analysis only checks dimensional consistency, not physical equivalence. Two quantities having identical dimensions (like work and torque, both [M L² T⁻²]; or angular momentum and Planck's constant, both [M L² T⁻¹]) does not mean they represent the same physical concept. They differ in their physical definition, context, and tensorial nature (scalar vs vector vs pseudovector). A wrong answer reveals the student believes dimensional formula uniquely determines a physical quantity, confusing necessary condition with sufficient condition.",
+     "self_check": true
+    },
+    {
+     "q": "The time period T of a gas bubble oscillating under water depends on pressure P, density ρ, and energy E of the explosion. Using dimensional analysis, derive the relation T ∝ P^a ρ^b E^c and find the values of a, b, c. Given: [P] = [M L⁻¹ T⁻²], [ρ] = [M L⁻³], [E] = [M L² T⁻²].",
+     "a": "Assume T = k P^a ρ^b E^c. Dimensions: [T] = [M L⁻¹ T⁻²]^a [M L⁻³]^b [M L² T⁻²]^c = [M^(a+b+c) L^(-a-3b+2c) T^(-2a-2c)]. Equating powers: M: a+b+c=0; L: -a-3b+2c=0; T: -2a-2c=1 → a+c=-1/2. Solving: from T: c = -1/2 - a. Substitute in M: a+b-1/2-a=0 → b=1/2. Substitute in L: -a-3(1/2)+2(-1/2-a)=0 → -a-3/2-1-2a=0 → -3a=5/2 → a=-5/6. Then c = -1/2 + 5/6 = 1/3. So T ∝ P^(-5/6) ρ^(1/2) E^(1/3). A wrong answer reveals errors in setting up dimensional equations or solving simultaneous equations.",
+     "self_check": true
+    },
+    {
+     "q": "The escape velocity v_e from a planet is given by v_e = √(2GM/R). A student proposes an alternative formula v_e = k G^x M^y R^z where k is dimensionless. Using dimensional analysis, determine whether this alternative form can be dimensionally correct and find x, y, z if possible. [G] = [M⁻¹ L³ T⁻²], [M] = [M], [R] = [L].",
+     "a": "[v_e] = [L T⁻¹]. RHS dimensions: [G]^x [M]^y [R]^z = [M⁻ˣ L³ˣ T⁻²ˣ] [M^y] [L^z] = [M^(y-x) L^(3x+z) T^(-2x)]. Equating: M: y-x=0 → y=x; L: 3x+z=1; T: -2x=-1 → x=1/2. Then y=1/2, z=1-3/2=-1/2. So v_e = k G^(1/2) M^(1/2) R^(-1/2) = k √(GM/R). This IS dimensionally correct and matches the known form (with k=√2). The method works because we have three unknowns and three equations from M, L, T. A wrong answer reveals inability to handle fractional exponents or match dimensions of composite quantities like G.",
+     "self_check": true
+    },
+    {
+     "q": "A physics textbook states: \"The argument of a trigonometric function must be dimensionless.\" Evaluate the dimensional correctness of the equation x = A sin(ωt + φ) for simple harmonic motion, where x is displacement, A is amplitude, ω is angular frequency, t is time, and φ is phase constant. Justify your evaluation.",
+     "a": "The equation IS dimensionally correct. [x] = [L], [A] = [L] – LHS and first factor on RHS match. The argument (ωt + φ) must be dimensionless: [ω] = [T⁻¹], [t] = [T] → [ωt] = [T⁻¹][T] = [dimensionless]. [φ] is an angle (ratio of arc length to radius), so [φ] = [dimensionless]. Sum of two dimensionless quantities is dimensionless. sin(dimensionless) is dimensionless. Thus [A sin(...)] = [L] × [dimensionless] = [L], matching [x]. A wrong answer reveals the student does not recognize that angles and trigonometric arguments are dimensionless, or cannot verify nested dimensional consistency.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment to test whether the period of a simple pendulum depends on the mass of the bob using only dimensional analysis reasoning (no actual experiment). Explain what dimensional analysis predicts and what it cannot predict about this dependence.",
+     "a": "Dimensional analysis setup: T = k l^x g^y m^z. [T] = [L]^x [L T⁻²]^y [M]^z = [M^z L^(x+y) T^(-2y)]. Equating: M: z=0; L: x+y=0; T: -2y=1 → y=-1/2, x=1/2. So T = k √(l/g) m^0 = k √(l/g). Prediction: Period is INDEPENDENT of mass (z=0). What it CANNOT predict: The value of dimensionless constant k (which is 2π from actual dynamics). It also cannot rule out that T might depend on amplitude θ₀ if θ₀ is dimensionless (since dimensionless quantities don't affect dimensional equations). A poor answer reveals confusion between \"dimensionally allowed\" and \"physically determined\" dependencies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

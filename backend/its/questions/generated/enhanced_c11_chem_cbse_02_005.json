@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_02_005",
+   "title": "c11_chem_cbse_02_005",
+   "questions": [
+    {
+     "q": "Write the complete symbol (ᴬᶻX) for an atom with 17 protons, 18 neutrons, and 17 electrons. Identify the element name.",
+     "a": "Answer: ³⁵₁₇Cl (Chlorine-35). Z = 17 (protons), A = 17 + 18 = 35. A wrong answer like ³⁵₁₈Ar reveals confusion between atomic number and mass number, or inability to identify element from Z. Writing ¹⁷₃⁵Cl shows misunderstanding of notation convention (superscript = mass number, subscript = atomic number).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why ³⁵₁₇Cl and ³⁷₁₇Cl have identical chemical properties but different densities and rates of diffusion.",
+     "a": "Chemical properties depend on electron configuration (17 electrons, same arrangement). Physical properties like density (mass/volume) and diffusion rate (Graham's law: rate ∝ 1/√M) depend on nuclear mass. A wrong answer citing \"different valence electrons\" reveals confusion between isotopes and isobars, or misunderstanding that neutrons don't affect electron cloud.",
+     "self_check": true
+    },
+    {
+     "q": "A sample of element X has two isotopes: ⁶³X (69% abundance) and ⁶⁵X (31% abundance). Calculate the average atomic mass of X. Identify X from the periodic table.",
+     "a": "Average mass = (63 × 0.69) + (65 × 0.31) = 43.47 + 20.15 = 63.62 u ≈ 63.5 u. Element is Copper (Cu, Z=29). A wrong answer of 64 u (simple average) reveals misunderstanding of weighted average. Identifying Zn (Z=30) shows inability to link atomic number to periodic table position.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the species: ⁴⁰₁₈Ar, ⁴⁰₂₀Ca, ³⁹₁₉K⁺. Which are isobars? Which are isoelectronic? Justify using subatomic particle counts.",
+     "a": "Isobars: ⁴⁰₁₈Ar and ⁴⁰₂₀Ca (same A=40, different Z). Isoelectronic: ⁴⁰₁₈Ar (18e⁻), ⁴⁰₂₀Ca²⁺ (18e⁻), ³⁹₁₉K⁺ (18e⁻) - all have 18 electrons. A wrong answer pairing Ar and K⁺ as isobars reveals confusion between mass number and electron count. Missing Ca²⁺ shows inability to calculate electrons in ions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since ¹⁴₆C and ¹⁴₇N are isobars, they have similar chemical reactivity.\" Is it correct? Explain.",
+     "a": "Incorrect. Isobars have different Z (6 vs 7), hence different electron configurations (C: 2,4; N: 2,5) and valencies. Chemical reactivity depends on electrons, not total nucleons. A student agreeing reveals the misconception that \"same mass number = same properties\", confusing isobars with isotopes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a method to separate ²³⁵U and ²³⁸U isotopes for nuclear fuel enrichment. Explain why chemical separation fails and what physical property you would exploit.",
+     "a": "Chemical separation fails because isotopes have identical electron configurations. Exploit mass difference (3 u) via gaseous diffusion or gas centrifugation of UF₆ - lighter ²³⁵UF₆ diffuses/centrifuges slightly faster. A poor answer suggesting fractional distillation or precipitation shows ignorance of identical chemical behaviour and the tiny mass difference requiring specialized physical methods.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

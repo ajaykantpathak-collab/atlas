@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_05_006",
+   "title": "c12_eco_cbse_05_006",
+   "questions": [
+    {
+     "q": "Define a binding price ceiling and state the precise condition that makes it binding. How does it differ from a non-binding price ceiling?",
+     "a": "A binding price ceiling is a legally mandated maximum price set **below** the market equilibrium price (Pc < P*). It is binding because it actively constrains the market — the legal price is lower than what the market would naturally settle at. A non-binding price ceiling is set **above** the equilibrium price (Pc > P*); it has no effect because the market equilibrium price is already lower than the ceiling, so transactions occur at P* unaffected. A wrong answer (e.g., \"binding means strictly enforced\") reveals confusion between legal enforceability and economic effectiveness — a ceiling can be strictly enforced but non-binding if set above P*.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a price ceiling on essential medicines, while intended to help poor patients, often leads to the very patients being unable to buy the medicine at any price. Use the concepts of shortage and non-price rationing in your answer.",
+     "a": "At the ceiling price Pc, quantity supplied (Qs) falls because producers find it unprofitable, while quantity demanded (Qd) rises because consumers find it affordable. The resulting shortage (Qd > Qs) means not everyone who wants the medicine at Pc can get it. Since price cannot rise to ration the scarce supply, non-price rationing takes over: queues, favouritism, connections, or black markets. Poor patients, who often lack time for queues or connections for black-market access, are disproportionately excluded. A wrong answer (e.g., \"producers stop producing because of low profit\") identifies the supply reduction but misses the critical rationing mechanism — the shortage *must* be allocated somehow, and non-price methods hurt the vulnerable most.",
+     "self_check": true
+    },
+    {
+     "q": "The demand and supply functions for onions in a local market are: Qd = 1000 - 50P and Qs = 200 + 30P (quantities in quintals, P in ₹/kg). The government imposes a price ceiling of ₹8/kg. Calculate: (a) Equilibrium price and quantity; (b) Quantity demanded and supplied at the ceiling price; (c) The shortage magnitude; (d) Is the ceiling binding?",
+     "a": "**Step 1:** Find equilibrium: Set Qd = Qs → 1000 - 50P = 200 + 30P → 800 = 80P → P* = ₹10/kg. Q* = 1000 - 50(10) = 500 quintals.\n**Step 2:** At ceiling Pc = ₹8/kg: Qd = 1000 - 50(8) = 600 quintals. Qs = 200 + 30(8) = 440 quintals.\n**Step 3:** Shortage = Qd - Qs = 600 - 440 = 160 quintals.\n**Step 4:** Since Pc (₹8) < P* (₹10), the ceiling is **binding**.\nA wrong answer (e.g., calculating shortage as 500 - 440 = 60) reveals confusion: shortage is Qd(Pc) - Qs(Pc), not Q* - Qs(Pc). The equilibrium quantity is irrelevant once the ceiling binds.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the welfare effects of a binding price ceiling on consumers who successfully purchase the good versus consumers who are unable to purchase it. How does the net consumer surplus change depend on the demand elasticity?",
+     "a": "Consumers who buy at Pc gain: they pay less than P* for Qs units — their consumer surplus increases by the rectangle (P* - Pc) × Qs. Consumers who *would have bought* between Qs and Q* at P* but cannot buy at Pc lose their entire consumer surplus on those units — a triangular loss. The net change in consumer surplus = Gain (rectangle) - Loss (triangle). If demand is **inelastic** (steep), the rectangle (gain) is larger relative to the triangle (loss), so net consumer surplus *may* increase. If demand is **elastic** (flat), the triangle loss dominates, and net consumer surplus *decreases*. A wrong answer (e.g., \"consumers always gain because price is lower\") ignores the exclusion of marginal consumers and the elasticity-dependent net effect.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A price ceiling on rental housing helps low-income tenants by making housing affordable.\" Consider short-run and long-run effects, quality deterioration, and black markets in your evaluation.",
+     "a": "**Short-run:** Some tenants gain — they pay lower rent (Pc < P*) for existing units. But a shortage emerges (Qd > Qs), so many low-income tenants *cannot find housing at all*. Non-price rationing (queues, bribes, \"key money\") favours those with connections/time, not necessarily the poorest.\n**Long-run:** Landlords reduce maintenance (quality deterioration), convert to condos, or exit the market — supply shrinks further. Black markets flourish: tenants sublet at market rates, or landlords charge \"under-the-table\" premiums. The effective price for many becomes *higher* than P* (Pc + bribe + poor quality). New construction halts, worsening future supply.\n**Verdict:** The statement is **partially true only for incumbent tenants in controlled units**; overall, it reduces housing availability and quality, hurting the very group it aims to help. A wrong evaluation (e.g., \"always helps because rent is lower\") ignores dynamic supply responses and rationing inefficiencies.",
+     "self_check": true
+    },
+    {
+     "q": "Design a policy alternative to a price ceiling for making essential drugs affordable that avoids shortages and black markets. Your proposal must address: (i) targeting the needy, (ii) preserving producer incentives, (iii) fiscal feasibility.",
+     "a": "**Proposal:** Targeted **demand-side subsidy** (e.g., direct benefit transfer or voucher) for identified low-income patients to buy drugs at market price.\n**Mechanism:** Government pays the difference between market price and affordable price *only* to eligible beneficiaries (via Aadhaar-linked DBT). Drugs sell at market equilibrium P* — no ceiling, no shortage, no black market. Producers receive P*, maintaining supply incentives. Fiscal cost = (P* - P_affordable) × Q_targeted, which is lower than universal price control's hidden costs (shortage welfare loss + enforcement + quality decay).\n**Why it works:** (i) Targeting via income/health cards ensures only needy get subsidy; (ii) Producers face full market price → no supply distortion; (iii) Transparent budgetary cost vs opaque losses from ceilings. A poor answer (e.g., \"subsidise producers\") fails targeting — rich also benefit from lower prices, and fiscal cost balloons.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

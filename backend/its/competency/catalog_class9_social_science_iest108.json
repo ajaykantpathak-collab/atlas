@@ -1,0 +1,100 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 8,
+ "chapter_title": "Building Blocks in Economics: The Problem of Choice",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iest108.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iest.108.8.1",
+   "title": "What Economics Deals With",
+   "section": "8",
+   "definition": "Economics deals with the everyday problem of making a living: how people, firms and governments use scarce resources to satisfy unlimited wants, and how choices about production, exchange and consumption shape wellbeing.",
+   "formula": "-",
+   "key_idea": "Limited means, unlimited wants: managing this gap is what economics studies.",
+   "textbook_ref": "iest108.txt opening sections (what does economics deal with)",
+   "question_patterns": [
+    "what does economics deal with - explain",
+    "define scarcity with an everyday example",
+    "why can wants never be fully satisfied - discuss",
+    "what are resources in economics - give examples",
+    "how do individuals and governments make economic choices",
+    "connect the problem of choice to your own daily life"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "state the tension",
+     "explain": "Wants outrun resources; scarcity is the starting point."},
+    {"step": 2, "action": "identify the choosers",
+     "explain": "Households, firms and governments all allocate scarce means."},
+    {"step": 3, "action": "follow the outcomes",
+     "explain": "Choices decide what is produced, how and for whom."}
+   ]
+  },
+  {
+   "id": "iest.108.8.2",
+   "title": "Scarcity, Choice and Opportunity Cost",
+   "section": "8",
+   "definition": "Scarcity forces choice, and every choice carries an opportunity cost - the value of the next best alternative given up; choosing one use of money, time or land always means losing the chance to use it elsewhere.",
+   "formula": "-",
+   "key_idea": "Every yes is a no: the next best thing sacrificed is the true price of a choice.",
+   "textbook_ref": "iest108.txt sections on scarcity, choice and opportunity cost",
+   "question_patterns": [
+    "define opportunity cost with an example",
+    "a farmer chooses wheat over cotton - what is the opportunity cost",
+    "explain the problem of choice with the given situation",
+    "why is there no free lunch in economics - justify",
+    "identify the opportunity cost in the given decisions",
+    "how does scarcity create the need for choice - explain the chain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "spot the scarce resource",
+     "explain": "Money, time or land cannot serve all uses at once."},
+    {"step": 2, "action": "list the alternatives",
+     "explain": "Rank the possible uses of the resource."},
+    {"step": 3, "action": "measure the cost",
+     "explain": "The highest-ranked forgone use is the opportunity cost."}
+   ]
+  },
+  {
+   "id": "iest.108.8.3",
+   "title": "Production, Exchange and Distribution",
+   "section": "8",
+   "definition": "Economic activity runs in three linked stages: production combines resources to create goods and services, exchange moves them through markets to those who need them, and distribution shares the income earned among land, labour, capital and enterprise.",
+   "formula": "-",
+   "key_idea": "Make, trade, share: the three questions of every economy.",
+   "textbook_ref": "iest108.txt sections on production, exchange and distribution",
+   "question_patterns": [
+    "explain the three stages of economic activity with examples",
+    "what decides how income is distributed among factors of production",
+    "how do markets exchange goods between producers and consumers",
+    "what are goods and services - differentiate with examples",
+    "describe the production process of the given good",
+    "how does the government participate in production and distribution"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "trace production",
+     "explain": "Inputs combine to create goods and services."},
+    {"step": 2, "action": "trace exchange",
+     "explain": "Markets move products to consumers through trade."},
+    {"step": 3, "action": "trace distribution",
+     "explain": "Rent, wages, interest and profit share out the earnings."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex8.1",
+   "source_ref": "iest108.txt exercises",
+   "questions": [
+     "Explain scarcity and choice with a daily life example.",
+     "Identify the opportunity cost in the given situations.",
+     "Describe production, exchange and distribution with examples."
+   ]
+  }
+ ]
+}

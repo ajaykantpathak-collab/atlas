@@ -1,0 +1,632 @@
+{
+ "class": "12",
+ "subject": "political_science",
+ "chapter": 4,
+ "chapter_title": "International Organisations",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leps104.txt",
+ "concepts": [
+  {
+   "id": "c12ps.4.1",
+   "title": "Need for International Organizations",
+   "section": "Introduction: Need for International Organizations",
+   "definition": "International organizations are needed to manage global interdependence, maintain peace and security, coordinate economic and social development, and address transnational problems that no single state can solve alone.",
+   "formula": "",
+   "key_idea": "In an interdependent world, states require collective institutions to manage shared challenges like war, poverty, health and environmental crises.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why are international organizations needed in the modern world?",
+    "What functions do international organizations perform?",
+    "How do international organizations help maintain peace?",
+    "Explain the relationship between globalization and international organizations.",
+    "What problems can international organizations help solve?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the context of global interdependence",
+     "explain": "Globalisation has linked states through trade, communication and shared threats, creating problems that cross national borders."
+    },
+    {
+     "step": 2,
+     "action": "Identify the functions of international organizations",
+     "explain": "They maintain peace and security, coordinate economic development, protect human rights and manage global health and environment."
+    },
+    {
+     "step": 3,
+     "action": "Assess their importance",
+     "explain": "By providing a forum for dialogue and collective action, international organizations help states address problems no single country can resolve alone."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why are international organizations necessary in the contemporary world?",
+     "solution": "Step 1: Globalisation has created interdependence among states. Step 2: Problems like war, pandemics and climate change cross borders. Step 3: Hence collective institutions are needed to manage these shared challenges.",
+     "answer": "Because global interdependence requires collective institutions to manage transnational problems",
+     "_n": 1
+    },
+    {
+     "question": "What are the main functions of international organizations?",
+     "solution": "Step 1: They maintain international peace and security. Step 2: They coordinate economic and social development. Step 3: They protect human rights and manage global commons.",
+     "answer": "Maintaining peace, coordinating development and managing global problems",
+     "_n": 2
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the need for international organizations in the modern world.",
+     "type": "long_answer"
+    },
+    {
+     "question": "List any three functions of international organizations.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.4.2",
+   "title": "The United Nations and Its Principal Organs",
+   "section": "The United Nations",
+   "definition": "The United Nations (UN) was established in 1945 after World War II with six principal organs -- the General Assembly, Security Council, Secretariat, Economic and Social Council, Trusteeship Council and International Court of Justice -- to maintain international peace and promote cooperation.",
+   "formula": "un_principal_organs = 6",
+   "key_idea": "The UN is the principal global organization for maintaining peace and security, with six principal organs each performing distinct functions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "When was the United Nations established?",
+    "What are the principal organs of the UN?",
+    "How many principal organs does the UN have?",
+    "What are the main objectives of the United Nations?",
+    "Explain the structure of the United Nations."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Count the principal organs of the UN",
+     "explain": "The UN has six principal organs: General Assembly, Security Council, Secretariat, ECOSOC, Trusteeship Council and ICJ.",
+     "compute": "un_principal_organs = 6"
+    },
+    {
+     "step": 2,
+     "action": "Identify the founding year",
+     "explain": "The UN was established on 24 October 1945 after World War II to prevent future conflicts.",
+     "compute": "un_founded = 1945"
+    },
+    {
+     "step": 3,
+     "action": "State the total number of principal organs",
+     "explain": "The UN structure comprises six principal organs, each with specific roles in maintaining peace and promoting cooperation.",
+     "compute": "result = un_principal_organs"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How many principal organs does the United Nations have?",
+     "solution": "Step 1: The UN Charter establishes six principal organs. Step 2: These are the General Assembly, Security Council, Secretariat, ECOSOC, Trusteeship Council and ICJ. Step 3: Therefore the UN has 6 principal organs.",
+     "answer": "6 principal organs"
+    },
+    {
+     "question": "When was the United Nations founded and why?",
+     "solution": "Step 1: The UN was founded on 24 October 1945. Step 2: It was created after World War II. Step 3: Its purpose was to prevent future wars and promote international cooperation.",
+     "answer": "24 October 1945, to prevent future wars after WWII"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the structure and objectives of the United Nations.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Name the six principal organs of the UN.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.4.3",
+   "title": "The General Assembly",
+   "section": "The General Assembly",
+   "definition": "The General Assembly is the main deliberative organ of the UN in which all member states are represented equally, with each state having one vote, making it the most representative body of the world organization.",
+   "formula": "votes_per_member = 1",
+   "key_idea": "The General Assembly embodies the principle of sovereign equality of all member states, with each state having one vote regardless of size or power.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the composition of the UN General Assembly?",
+    "How does voting work in the General Assembly?",
+    "Why is the General Assembly called the parliament of the world?",
+    "What functions does the General Assembly perform?",
+    "How many votes does each member state have in the General Assembly?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine the voting rule in the General Assembly",
+     "explain": "Each member state of the UN has one vote in the General Assembly, regardless of its size, wealth or power.",
+     "compute": "votes_per_member = 1"
+    },
+    {
+     "step": 2,
+     "action": "Calculate total votes for a given number of members",
+     "explain": "The total votes in the General Assembly equal the number of member states, since each state has exactly one vote.",
+     "compute": "total_votes = member_states * votes_per_member"
+    },
+    {
+     "step": 3,
+     "action": "State the result",
+     "explain": "This one-state-one-vote rule reflects the principle of sovereign equality enshrined in the UN Charter.",
+     "compute": "result = total_votes"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How many votes does each member state have in the General Assembly?",
+     "solution": "Step 1: The General Assembly is based on sovereign equality. Step 2: Each member state has exactly one vote. Step 3: Hence every member has 1 vote.",
+     "answer": "1 vote per member state"
+    },
+    {
+     "question": "If the UN has 193 member states, how many total votes are there in the General Assembly?",
+     "solution": "Step 1: Each member state has 1 vote. Step 2: With 193 members, total votes = 193 * 1. Step 3: Therefore there are 193 votes.",
+     "answer": "193 votes"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the composition and functions of the UN General Assembly.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is the General Assembly called the parliament of the world?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.4.4",
+   "title": "The Security Council",
+   "section": "The Security Council",
+   "definition": "The Security Council is the most powerful organ of the UN, responsible for maintaining international peace and security, composed of 5 permanent and 10 non-permanent members, with the five permanent members holding veto power.",
+   "formula": "security_council_members = permanent_members + non_permanent_members",
+   "key_idea": "The Security Council reflects the power structure of 1945, with five permanent members wielding veto power, making it both the most powerful and the most criticized organ of the UN.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the composition of the UN Security Council?",
+    "Who are the permanent members of the Security Council?",
+    "What is the veto power and how does it work?",
+    "How many members does the Security Council have?",
+    "Why is the Security Council considered the most powerful UN organ?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Count the permanent members of the Security Council",
+     "explain": "The five permanent members (P5) are the USA, Russia, China, the UK and France, all holding veto power.",
+     "compute": "permanent_members = 5"
+    },
+    {
+     "step": 2,
+     "action": "Add the non-permanent members",
+     "explain": "There are 10 non-permanent members elected for two-year terms by the General Assembly on a regional basis.",
+     "compute": "security_council_members = permanent_members + 10"
+    },
+    {
+     "step": 3,
+     "action": "State the total membership of the Security Council",
+     "explain": "The Security Council has 15 members in total, with the 5 permanent members able to veto any substantive resolution.",
+     "compute": "result = security_council_members"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How many members does the UN Security Council have in total?",
+     "solution": "Step 1: There are 5 permanent members. Step 2: There are 10 non-permanent members. Step 3: 5 + 10 = 15 members in total.",
+     "answer": "15 members"
+    },
+    {
+     "question": "Who are the five permanent members of the Security Council?",
+     "solution": "Step 1: The P5 were the major Allied powers of WWII. Step 2: They are the USA, Russia, China, the UK and France. Step 3: Each holds veto power under the UN Charter.",
+     "answer": "USA, Russia, China, UK and France"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the composition and powers of the UN Security Council.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is veto power and which members enjoy it?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.4.5",
+   "title": "Role of the UN in Peacekeeping",
+   "section": "Peacekeeping and the UN",
+   "definition": "UN peacekeeping involves the deployment of military and civilian personnel from member states to conflict zones to maintain peace, monitor ceasefires and support post-conflict reconstruction, under the authority of the Security Council.",
+   "formula": "",
+   "key_idea": "UN peacekeeping operations are a vital tool for maintaining international peace, combining military, police and civilian components to stabilise conflict zones.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is UN peacekeeping?",
+    "How does the UN carry out peacekeeping operations?",
+    "What are the functions of UN peacekeepers?",
+    "Explain the importance of UN peacekeeping missions.",
+    "What challenges do UN peacekeeping operations face?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define UN peacekeeping",
+     "explain": "Peacekeeping involves deploying personnel from member states to conflict areas with the consent of the parties to maintain peace."
+    },
+    {
+     "step": 2,
+     "action": "Describe the functions of peacekeepers",
+     "explain": "Peacekeepers monitor ceasefires, protect civilians, disarm combatants, support elections and help rebuild institutions."
+    },
+    {
+     "step": 3,
+     "action": "Assess the significance and challenges",
+     "explain": "Peacekeeping has saved lives and stabilised conflicts, but faces challenges of funding, consent of parties and safety of personnel."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the main functions of UN peacekeeping forces?",
+     "solution": "Step 1: Peacekeepers monitor ceasefires and buffer zones. Step 2: They protect civilians and support humanitarian aid. Step 3: They help rebuild institutions and conduct elections.",
+     "answer": "Monitoring ceasefires, protecting civilians and supporting post-conflict reconstruction"
+    },
+    {
+     "question": "Why is UN peacekeeping important for international peace?",
+     "solution": "Step 1: It prevents conflicts from escalating. Step 2: It provides neutral monitoring of ceasefires. Step 3: It helps societies transition to lasting peace.",
+     "answer": "Because it stabilises conflict zones and supports transitions to peace"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the role of the UN in peacekeeping operations.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What are the functions of UN peacekeepers?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.4.6",
+   "title": "Reforms of the United Nations",
+   "section": "Reforms of the UN",
+   "definition": "Reform of the UN, especially the Security Council, has been demanded to make the organization more representative, democratic and effective in light of changed global realities since 1945, with countries like India seeking permanent membership.",
+   "formula": "",
+   "key_idea": "The UN's power structure reflects 1945 realities; reforms are needed to make the Security Council more representative of contemporary global politics.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why is reform of the UN Security Council needed?",
+    "What are the main proposals for UN reform?",
+    "Why does India seek a permanent seat in the Security Council?",
+    "What are the criteria for membership of a reformed Security Council?",
+    "Explain the challenges in reforming the United Nations."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the need for reform",
+     "explain": "The Security Council's membership reflects 1945 power realities and does not represent the Global South or contemporary powers like India, Brazil and Germany."
+    },
+    {
+     "step": 2,
+     "action": "Describe the main proposals",
+     "explain": "Proposals include expanding permanent and non-permanent membership, improving working methods and limiting the use of the veto."
+    },
+    {
+     "step": 3,
+     "action": "Assess the challenges",
+     "explain": "Reform requires amending the Charter, which needs the consent of the P5 and two-thirds of the General Assembly, making consensus difficult."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is reform of the UN Security Council necessary?",
+     "solution": "Step 1: The Council reflects the power balance of 1945. Step 2: It does not represent Africa, Latin America or major powers like India. Step 3: Hence reform is needed to make it more democratic.",
+     "answer": "Because the current structure is unrepresentative of contemporary global realities"
+    },
+    {
+     "question": "What criteria have been suggested for new permanent members?",
+     "solution": "Step 1: New members should be major economic and military powers. Step 2: They should contribute substantially to the UN budget. Step 3: They should respect democracy and human rights.",
+     "answer": "Economic and military capacity, contributions to the UN and commitment to democracy"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss the need for and proposals regarding reform of the UN Security Council.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why does India want a permanent seat in the Security Council?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.4.7",
+   "title": "The IMF and the World Bank",
+   "section": "International Financial Institutions: IMF and World Bank",
+   "definition": "The International Monetary Fund (IMF) and the World Bank are Bretton Woods institutions established in 1944 to provide financial stability and development finance respectively, with voting power weighted by the financial contribution of each member.",
+   "formula": "",
+   "key_idea": "The IMF and World Bank are dominated by the wealthy industrialised countries because voting power is based on financial contribution, not sovereign equality.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the IMF and what are its functions?",
+    "What is the World Bank and what does it do?",
+    "How do the IMF and World Bank differ from the UN in terms of voting?",
+    "Why are the IMF and World Bank criticized?",
+    "Explain the Bretton Woods system and its institutions."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the IMF",
+     "explain": "The IMF provides short-term loans to member states facing balance of payments crises and monitors global financial stability."
+    },
+    {
+     "step": 2,
+     "action": "Describe the World Bank",
+     "explain": "The World Bank provides long-term loans and grants for development projects in developing countries."
+    },
+    {
+     "step": 3,
+     "action": "Explain the voting structure and criticism",
+     "explain": "Unlike the UN General Assembly, voting is weighted by financial contribution, giving rich countries dominant influence, which is criticised as undemocratic."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How do the IMF and World Bank differ from the UN General Assembly in voting?",
+     "solution": "Step 1: In the UN General Assembly each state has one vote. Step 2: In the IMF and World Bank voting is weighted by financial contribution. Step 3: Hence rich countries dominate these institutions.",
+     "answer": "The IMF and World Bank use weighted voting based on financial contribution, unlike the UN's one-state-one-vote principle"
+    },
+    {
+     "question": "What is the main function of the IMF?",
+     "solution": "Step 1: The IMF was created to manage the international monetary system. Step 2: It provides loans to countries with balance of payments problems. Step 3: It also monitors global financial stability.",
+     "answer": "To maintain financial stability and provide loans for balance of payments crises"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the functions and voting structure of the IMF and the World Bank.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Distinguish between the IMF and the World Bank.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.4.8",
+   "title": "The World Trade Organization (WTO)",
+   "section": "International Economic Institutions: WTO",
+   "definition": "The World Trade Organization (WTO), established in 1995 as the successor to GATT, is the global body that sets and enforces rules for international trade, aiming to reduce trade barriers and resolve trade disputes among members.",
+   "formula": "",
+   "key_idea": "The WTO governs the multilateral trading system, but its rules and negotiations are often seen as favouring developed countries over developing ones.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the WTO and when was it established?",
+    "What are the main functions of the WTO?",
+    "How does the WTO differ from GATT?",
+    "Why is the WTO criticized by developing countries?",
+    "Explain the role of the WTO in international trade."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the origin of the WTO",
+     "explain": "The WTO was established in 1995 as the successor to GATT, which had governed world trade since 1947 through periodic rounds of negotiation."
+    },
+    {
+     "step": 2,
+     "action": "Identify the functions of the WTO",
+     "explain": "The WTO sets trade rules, administers trade agreements, resolves trade disputes and reviews member trade policies."
+    },
+    {
+     "step": 3,
+     "action": "Assess the criticisms",
+     "explain": "Developing countries criticise the WTO for unequal rules on agriculture, intellectual property and subsidies that favour developed nations."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the WTO and what are its main functions?",
+     "solution": "Step 1: The WTO was set up in 1995 as the successor to GATT. Step 2: It sets and enforces rules for international trade. Step 3: It also resolves trade disputes between members.",
+     "answer": "The WTO is the global trade body that sets trade rules and resolves disputes, established in 1995"
+    },
+    {
+     "question": "Why do developing countries criticise the WTO?",
+     "solution": "Step 1: WTO rules on agriculture and subsidies favour rich countries. Step 2: Intellectual property rules raise drug prices. Step 3: Hence developing countries see the WTO as unequal.",
+     "answer": "Because its rules on agriculture, subsidies and intellectual property favour developed countries"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the origin, functions and criticisms of the WTO.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does the WTO differ from GATT?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.4.9",
+   "title": "Non-Governmental Organizations and Global Governance",
+   "section": "Non-Governmental Organizations",
+   "definition": "Non-governmental organizations (NGOs) are voluntary, non-profit organizations that operate independently of governments to address social, environmental and humanitarian issues, playing an increasingly important role in global governance alongside international organizations.",
+   "formula": "",
+   "key_idea": "NGOs complement international organizations by mobilising public opinion, delivering services and holding both states and international bodies accountable.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are non-governmental organizations?",
+    "What role do NGOs play in global governance?",
+    "How do NGOs differ from international organizations like the UN?",
+    "Give examples of important NGOs in world politics.",
+    "How do NGOs influence international policy?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define NGOs",
+     "explain": "NGOs are independent, non-profit, voluntary organizations that work on issues like human rights, environment and development without being controlled by governments."
+    },
+    {
+     "step": 2,
+     "action": "Explain their role in global governance",
+     "explain": "NGOs mobilise public opinion, provide services, monitor governments and international organizations, and influence policy."
+    },
+    {
+     "step": 3,
+     "action": "Assess their significance",
+     "explain": "NGOs like Amnesty International, Greenpeace and the Red Cross have become important actors in global governance, complementing the work of the UN and states."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What role do NGOs play in global governance?",
+     "solution": "Step 1: NGOs raise awareness of global issues. Step 2: They provide services and monitor governments. Step 3: They influence international policy and complement the UN.",
+     "answer": "They mobilise public opinion, deliver services and influence international policy"
+    },
+    {
+     "question": "How do NGOs differ from intergovernmental organizations like the UN?",
+     "solution": "Step 1: NGOs are formed by private citizens, not governments. Step 2: They are non-profit and voluntary. Step 3: They operate independently of state control, unlike the UN.",
+     "answer": "NGOs are independent of governments, while intergovernmental organizations are made up of states"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the role of NGOs in global governance with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Name two important NGOs in world politics.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.4.10",
+   "title": "India and UN Reforms",
+   "section": "India and the UN",
+   "definition": "India has been an active supporter of UN reform, particularly the expansion of the Security Council, and has sought a permanent seat to reflect its status as the world's largest democracy, a major economy and a leading contributor to UN peacekeeping.",
+   "formula": "",
+   "key_idea": "India's claim to a permanent Security Council seat is based on its population, democratic credentials, economic strength and contributions to UN peacekeeping.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why does India seek a permanent seat in the UN Security Council?",
+    "What are the grounds for India's claim to permanent membership?",
+    "How has India contributed to UN peacekeeping?",
+    "What challenges does India face in getting a permanent seat?",
+    "Explain India's stance on UN reform."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State India's case for permanent membership",
+     "explain": "India is the world's largest democracy, a major economy, a nuclear power and a leading contributor to UN peacekeeping operations."
+    },
+    {
+     "step": 2,
+     "action": "Describe India's contributions to the UN",
+     "explain": "India has contributed troops to numerous UN peacekeeping missions and has been a consistent supporter of the UN's ideals and activities."
+    },
+    {
+     "step": 3,
+     "action": "Assess the challenges",
+     "explain": "India faces opposition from neighbours like Pakistan and from some permanent members, and reform requires a Charter amendment that is difficult to achieve."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "On what grounds does India seek a permanent seat in the Security Council?",
+     "solution": "Step 1: India is the world's largest democracy. Step 2: It is a major economy and nuclear power. Step 3: It is a leading contributor to UN peacekeeping.",
+     "answer": "On the basis of being the largest democracy, a major economy and a leading peacekeeping contributor"
+    },
+    {
+     "question": "What challenges does India face in obtaining a permanent Security Council seat?",
+     "solution": "Step 1: Some permanent members oppose expansion. Step 2: Neighbours like Pakistan oppose India's bid. Step 3: Charter amendment requires P5 consent and a two-thirds General Assembly vote.",
+     "answer": "Opposition from some permanent members and neighbours, and the difficulty of amending the UN Charter"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain India's role in the UN and its case for a permanent Security Council seat.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State two contributions of India to UN peacekeeping.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "leps104.txt",
+   "concept": "c12ps.4.1",
+   "question_type": "short_answer",
+   "question_pattern": "Why are international organizations necessary in the contemporary world?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Globalisation has created interdependence among",
+     "explain": "Globalisation has created interdependence among states."
+    },
+    {
+     "step": 2,
+     "action": "Problems like war, pandemics and",
+     "explain": "Problems like war, pandemics and climate change cross borders."
+    },
+    {
+     "step": 3,
+     "action": "Hence collective institutions are needed",
+     "explain": "Hence collective institutions are needed to manage these shared challenges."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "leps104.txt",
+   "concept": "c12ps.4.1",
+   "question_type": "short_answer",
+   "question_pattern": "What are the main functions of international organizations?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "They maintain international peace and",
+     "explain": "They maintain international peace and security."
+    },
+    {
+     "step": 2,
+     "action": "They coordinate economic and social",
+     "explain": "They coordinate economic and social development."
+    },
+    {
+     "step": 3,
+     "action": "They protect human rights and",
+     "explain": "They protect human rights and manage global commons."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

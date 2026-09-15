@@ -1,0 +1,1168 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 9,
+ "chapter_title": "Mensuration",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hemh109.txt",
+ "concepts": [
+  {
+   "id": "c8m9.2.1",
+   "title": "Area of a Trapezium",
+   "section": "9.2",
+   "definition": "The area of a trapezium = (1/2) x height x (sum of the parallel sides): Area of a trapezium = h(a + b)/2, where a and b are the parallel sides and h is the perpendicular distance between them.",
+   "formula": "area = height x (side_a + side_b) / 2",
+   "key_idea": "Half the height times the sum of the parallel sides.",
+   "textbook_ref": "hemh109.txt lines 44-47, 59-71, 119-127",
+   "question_patterns": [
+    "find the area of the trapezium",
+    "find the area of the trapezium shaped field",
+    "the area of a trapezium is 34 find the length of the other parallel side",
+    "find its area if its parallel sides are given",
+    "find the other parallel side of the trapezium",
+    "trapezium area formula",
+    "find the length of the side along the river of the trapezium shaped field"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the parallel sides",
+     "explain": "Sum of parallel sides = a + b",
+     "compute": "side_a + side_b"
+    },
+    {
+     "step": 2,
+     "action": "multiply by height",
+     "explain": "Multiply the sum by the perpendicular distance h",
+     "compute": "height * (side_a + side_b)"
+    },
+    {
+     "step": 3,
+     "action": "take half",
+     "explain": "area = h(a + b) / 2",
+     "compute": "height * (side_a + side_b) / 2"
+    },
+    {
+     "step": 4,
+     "action": "to find a missing parallel side",
+     "explain": "Rearrange: b = 2 x area / height - a",
+     "compute": "2 * area / height - side_a"
+    }
+   ]
+  },
+  {
+   "id": "c8m9.2.2",
+   "title": "Area of a Rhombus",
+   "section": "9.2",
+   "definition": "The area of a rhombus = (1/2) x d1 x d2, the product of the diagonals divided by 2. For example, the diagonals of a rhombus are 7.5 cm and 12 cm; its area is 1/2 x 7.5 x 12 = 45 square cm.",
+   "formula": "area = diagonal1 x diagonal2 / 2",
+   "key_idea": "Half the product of the two diagonals.",
+   "textbook_ref": "hemh109.txt lines 76-92, 135-141",
+   "question_patterns": [
+    "the area of a rhombus is 240 find the other diagonal",
+    "find the area of a rhombus whose diagonals are given",
+    "the diagonals of a rhombus are 7.5 and 12 find its area",
+    "find the area of a rhombus whose side is 5 and altitude 4.8",
+    "rhombus area from diagonals",
+    "find the length of the other diagonal of the rhombus"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the diagonals",
+     "explain": "Product = d1 x d2",
+     "compute": "diagonal1 * diagonal2"
+    },
+    {
+     "step": 2,
+     "action": "take half",
+     "explain": "area = (1/2) x d1 x d2",
+     "compute": "diagonal1 * diagonal2 / 2"
+    },
+    {
+     "step": 3,
+     "action": "to find a missing diagonal",
+     "explain": "Rearrange: d2 = 2 x area / d1",
+     "compute": "2 * area / diagonal1"
+    }
+   ]
+  },
+  {
+   "id": "c8m9.2.3",
+   "title": "Area of a Polygon by Splitting",
+   "section": "9.2",
+   "definition": "We split a quadrilateral or polygon into triangles (and trapeziums) and find its area. Area of ABCDE = area of triangle ABC + area of triangle ACD + area of triangle AED. Area of a triangle = 1/2 x base x height; the area of a polygon is the sum of the areas of its parts.",
+   "formula": "polygon area = sum of areas of parts; triangle area = base x height / 2",
+   "key_idea": "Cut the polygon into triangles and trapeziums and add their areas.",
+   "textbook_ref": "hemh109.txt lines 14-58, 93-117",
+   "question_patterns": [
+    "find the area of the polygon",
+    "find the area of the pentagonal shaped park",
+    "divide the polygon into triangles to find the area",
+    "find the area of the hexagon",
+    "find the area of the quadrilateral shaped field",
+    "Frame a octagonal task like the chapter exercise and solve it with every step shown.",
+    "area of polygon by splitting"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "draw a diagonal",
+     "explain": "Split the polygon into triangles or trapeziums using diagonals"
+    },
+    {
+     "step": 2,
+     "action": "find each part area",
+     "explain": "Triangle area = 1/2 x base x height; trapezium area = h(a + b)/2",
+     "compute": "base * height / 2"
+    },
+    {
+     "step": 3,
+     "action": "add the parts",
+     "explain": "Total area = sum of the areas of all the parts"
+    }
+   ]
+  },
+  {
+   "id": "c8m9.4.1",
+   "title": "Surface Area of a Cuboid",
+   "section": "9.4.1",
+   "definition": "The surface area of a solid is the sum of the areas of its faces. The total surface area of a cuboid = 2(lb + bh + hl), where l, b and h are the length, width (breadth) and height of the cuboid respectively. The side walls (the faces excluding the top and bottom) make the lateral surface area of the cuboid: lateral surface area = 2(h x l + b x h) or 2h(l + b).",
+   "formula": "total surface area = 2(lb + bh + hl); lateral surface area = 2h(l + b)",
+   "key_idea": "Cuboid: TSA 2(lb + bh + hl); walls only LSA 2h(l + b).",
+   "textbook_ref": "hemh109.txt lines 210-249, 637",
+   "question_patterns": [
+    "find the total surface area of the cuboid",
+    "find the lateral surface area of the room",
+    "find the cost of whitewashing the four walls of the room",
+    "Describe, step by step and in your own words, the way painted works.",
+    "find the area of the paper needed to cover the box",
+    "surface area of the cuboid formula",
+    "how many metres of tarpaulin are required to cover the suitcase"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find the three face areas",
+     "explain": "lb, bh and hl are the areas of the three pairs of faces"
+    },
+    {
+     "step": 2,
+     "action": "add and double",
+     "explain": "total surface area = 2(lb + bh + hl)",
+     "compute": "2 * (length * breadth + breadth * height + height * length)"
+    },
+    {
+     "step": 3,
+     "action": "for the four walls only",
+     "explain": "lateral surface area = perimeter of base x height = 2(l + b) x h",
+     "compute": "2 * height * (length + breadth)"
+    },
+    {
+     "step": 4,
+     "action": "for cost problems",
+     "explain": "cost = area x rate per square unit",
+     "compute": "area * rate"
+    }
+   ]
+  },
+  {
+   "id": "c8m9.4.2",
+   "title": "Surface Area of a Cube",
+   "section": "9.4.2",
+   "definition": "All the faces of a cube are square in shape; this makes length, height and width of a cube equal. If each side of the cube is l, the area of each face is l^2. The total surface area of a cube of side l is 6l^2.",
+   "formula": "total surface area = 6 x side^2",
+   "key_idea": "Cube has six equal square faces: 6 l squared.",
+   "textbook_ref": "hemh109.txt lines 279-288, 638",
+   "question_patterns": [
+    "find the surface area of the cube",
+    "Frame a surface task like the chapter exercise and solve it with every step shown.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about surface.",
+    "what is the surface area of a cube with side 4",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about material.",
+    "cube surface area"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find one face area",
+     "explain": "Each face is a square of side l: area = l^2",
+     "compute": "side ** 2"
+    },
+    {
+     "step": 2,
+     "action": "multiply by six",
+     "explain": "total surface area = 6l^2",
+     "compute": "6 * side ** 2"
+    },
+    {
+     "step": 3,
+     "action": "to find the side from surface area",
+     "explain": "side = sqrt(surface area / 6)",
+     "compute": "sqrt(surface_area / 6)"
+    }
+   ]
+  },
+  {
+   "id": "c8m9.4.3",
+   "title": "Surface Area of a Cylinder",
+   "section": "9.4.3",
+   "definition": "The lateral (or curved) surface area of a cylinder is 2 x pi x r x h. The total surface area of a cylinder = pi r^2 + 2 pi r h + pi r^2 = 2 pi r^2 + 2 pi r h = 2 x pi x r x (r + h). Note: we take pi to be 22/7 unless otherwise stated.",
+   "formula": "curved surface area = 2 x pi x r x h; total surface area = 2 x pi x r x (r + h)",
+   "key_idea": "Cylinder: CSA wraps to a rectangle 2 pi r by h; add two circles for TSA.",
+   "textbook_ref": "hemh109.txt lines 304-333, 639",
+   "question_patterns": [
+    "find the total surface area of the cylinder",
+    "find the curved surface area of the cylinder",
+    "how much sheet of metal is required for the cylindrical tank",
+    "find the cost of painting the curved surface area of the pillars",
+    "find the height of a cylinder whose radius is 7 and total surface area is 968",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about lateral.",
+    "find the area of the label around the container"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute the curved surface area",
+     "explain": "CSA = 2 x pi x r x h",
+     "compute": "2 * pi * radius * height"
+    },
+    {
+     "step": 2,
+     "action": "add the two circular ends for total surface area",
+     "explain": "TSA = 2 x pi x r x (r + h)",
+     "compute": "2 * pi * radius * (radius + height)"
+    },
+    {
+     "step": 3,
+     "action": "for cost or sheet problems",
+     "explain": "Multiply the required surface area by the rate, or divide total area by the sheet width"
+    }
+   ]
+  },
+  {
+   "id": "c8m9.5.1",
+   "title": "Volume of a Cuboid",
+   "section": "9.5.1",
+   "definition": "Amount of space occupied by a three dimensional object is called its volume. The volume of a cuboid is equal to the product of length, breadth and height: volume of cuboid = l x b x h. Since l x b is the area of its base we can also say volume of cuboid = area of the base x height. Hence height of the cuboid = volume / base area.",
+   "formula": "volume = length x breadth x height = base area x height",
+   "key_idea": "Cuboid volume is the product of the three dimensions.",
+   "textbook_ref": "hemh109.txt lines 437-482, 642, 545-554",
+   "question_patterns": [
+    "find the volume of the cuboid",
+    "find the height of a cuboid whose volume is 275 and base area is 25",
+    "how many small cubes can be placed in the given cuboid",
+    "volume of the godown and number of boxes",
+    "find the volume with given length breadth and height",
+    "how long will it take to fill the reservoir",
+    "cuboid volume formula"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the three dimensions",
+     "explain": "volume = l x b x h",
+     "compute": "length * breadth * height"
+    },
+    {
+     "step": 2,
+     "action": "or use base area times height",
+     "explain": "volume = area of the base x height",
+     "compute": "base_area * height"
+    },
+    {
+     "step": 3,
+     "action": "to find the height",
+     "explain": "height = volume / base area",
+     "compute": "volume / base_area"
+    },
+    {
+     "step": 4,
+     "action": "to count boxes that fit",
+     "explain": "number = volume of godown / volume of one box",
+     "compute": "volume_total / volume_box"
+    }
+   ]
+  },
+  {
+   "id": "c8m9.5.2",
+   "title": "Volume of a Cube",
+   "section": "9.5.2",
+   "definition": "The cube is a special case of a cuboid, where l = b = h. Hence volume of cube = l x l x l = l^3.",
+   "formula": "volume = side^3",
+   "key_idea": "Cube volume is side cubed.",
+   "textbook_ref": "hemh109.txt lines 505-510, 643",
+   "question_patterns": [
+    "find the volume of the cube",
+    "find the volume of a cube with side 4",
+    "volume of a cube with side 1.5",
+    "cube volume formula",
+    "how many cubes of side 1 make a cube of side 2",
+    "if each edge of a cube is doubled how many times will its volume increase"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "cube the side",
+     "explain": "volume = l x l x l = l^3",
+     "compute": "side ** 3"
+    },
+    {
+     "step": 2,
+     "action": "to find the side from volume",
+     "explain": "side = cube root of volume",
+     "compute": "volume ** (1/3)"
+    },
+    {
+     "step": 3,
+     "action": "to count small cubes that fit in a larger cube",
+     "explain": "number = (big side / small side)^3, or if each edge is scaled by k the volume scales by k^3",
+     "compute": "(side_big / side_small) ** 3"
+    }
+   ]
+  },
+  {
+   "id": "c8m9.5.3",
+   "title": "Volume of a Cylinder",
+   "section": "9.5.3",
+   "definition": "Just like the cuboid, volume of cylinder = area of base x height = pi x r^2 x h. A cylinder is formed by rolling a rectangle about its width, so the width becomes the height of the cylinder; or the length of the paper becomes the perimeter of the base, 2 x pi x r.",
+   "formula": "volume = pi x r^2 x h",
+   "key_idea": "Cylinder volume is base circle area times height.",
+   "textbook_ref": "hemh109.txt lines 520-533, 566-602, 644",
+   "question_patterns": [
+    "Frame a cylinder task like the chapter exercise and solve it with every step shown.",
+    "Frame a quantity task like the chapter exercise and solve it with every step shown.",
+    "find the volume of the cylinder formed by rolling the rectangle",
+    "find the height of the cylinder whose volume is given",
+    "cylinder volume formula",
+    "whose volume is greater cylinder A or cylinder B"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find the base area",
+     "explain": "base area = pi x r^2",
+     "compute": "pi * radius ** 2"
+    },
+    {
+     "step": 2,
+     "action": "multiply by the height",
+     "explain": "volume = pi x r^2 x h",
+     "compute": "pi * radius ** 2 * height"
+    },
+    {
+     "step": 3,
+     "action": "to find the height from volume",
+     "explain": "height = volume / (pi x r^2)",
+     "compute": "volume / (pi * radius ** 2)"
+    }
+   ]
+  },
+  {
+   "id": "c8m9.6.1",
+   "title": "Volume and Capacity",
+   "section": "9.6",
+   "definition": "Volume refers to the amount of space occupied by an object. Capacity refers to the quantity that a container holds. Capacity is also measured in terms of litres. The relation between litre and cm^3 is: 1 mL = 1 cm^3, 1 L = 1000 cm^3. Thus, 1 m^3 = 1000000 cm^3 = 1000 L.",
+   "formula": "1 mL = 1 cm^3; 1 L = 1000 cm^3; 1 m^3 = 1000 L",
+   "key_idea": "Convert volume units: litres are 1000 cubic cm.",
+   "textbook_ref": "hemh109.txt lines 538-544, 645-647",
+   "question_patterns": [
+    "how many litres can be stored in the tank",
+    "convert cubic metres to litres",
+    "what is the capacity of the container",
+    "Build a fresh quantity example with your own figures and work it out.",
+    "convert cubic cm to litres",
+    "relation between litre and cubic cm"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find the volume in cubic units",
+     "explain": "Use the solid's volume formula first"
+    },
+    {
+     "step": 2,
+     "action": "convert to litres",
+     "explain": "litres = volume in cm^3 / 1000, or volume in m^3 x 1000",
+     "compute": "volume_cm3 / 1000"
+    },
+    {
+     "step": 3,
+     "action": "convert litres back to cubic units if needed",
+     "explain": "volume in cm^3 = litres x 1000, or volume in m^3 = litres / 1000",
+     "compute": "litres * 1000"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hemh109.txt lines 59-71 (Example 1)",
+   "concept": "c8m9.2.1",
+   "question_type": "trapezium_missing_side",
+   "question_pattern": "the area of a trapezium shaped field is {area}, the distance between the parallel sides is {height} and one parallel side is {side_a}. find the other parallel side",
+   "extracted_variables": {
+    "area": "area of the trapezium",
+    "height": "distance between parallel sides",
+    "side_a": "known parallel side"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "write the area formula",
+     "explain": "area = h(a + b)/2 with a known and b unknown"
+    },
+    {
+     "step": 2,
+     "action": "rearrange",
+     "explain": "2 x area / height = a + b",
+     "compute": "2 * area / height"
+    },
+    {
+     "step": 3,
+     "action": "subtract the known side",
+     "explain": "b = 2 x area / height - a",
+     "compute": "2 * area / height - side_a"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hemh109.txt lines 76-92 (Example 2)",
+   "concept": "c8m9.2.2",
+   "question_type": "rhombus_missing_diagonal",
+   "question_pattern": "the area of a rhombus is {area} and one diagonal is {diagonal1}. find the other diagonal",
+   "extracted_variables": {
+    "area": "area of the rhombus",
+    "diagonal1": "given diagonal"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "write the area formula",
+     "explain": "area = (1/2) x d1 x d2"
+    },
+    {
+     "step": 2,
+     "action": "double the area and divide",
+     "explain": "d2 = 2 x area / d1",
+     "compute": "2 * area / diagonal1"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hemh109.txt lines 358-371 (Example 5)",
+   "concept": "c8m9.4.1",
+   "question_type": "whitewash_walls",
+   "question_pattern": "the internal measures of a cuboidal room are {length} x {breadth} x {height}. find the cost of whitewashing the four walls at {rate} per sq m",
+   "extracted_variables": {
+    "length": "length of the room",
+    "breadth": "width of the room",
+    "height": "height of the room",
+    "rate": "cost per square metre"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "area of four walls",
+     "explain": "Area = perimeter of base x height = 2(l + b) x h",
+     "compute": "2 * (length + breadth) * height"
+    },
+    {
+     "step": 2,
+     "action": "multiply by rate",
+     "explain": "total cost = area x rate",
+     "compute": "2 * (length + breadth) * height * rate"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hemh109.txt lines 372-383 (Example 6)",
+   "concept": "c8m9.4.3",
+   "question_type": "paint_cylinders",
+   "question_pattern": "there are {count} cylindrical pillars of radius {radius} and height {height}. find the cost of painting the curved surface at {rate} per sq m",
+   "extracted_variables": {
+    "count": "number of pillars",
+    "radius": "radius of one pillar",
+    "height": "height of one pillar",
+    "rate": "cost per square metre"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "curved surface area of one pillar",
+     "explain": "CSA = 2 x pi x r x h",
+     "compute": "2 * pi * radius * height"
+    },
+    {
+     "step": 2,
+     "action": "multiply by the count",
+     "explain": "total area = CSA x number of pillars",
+     "compute": "2 * pi * radius * height * count"
+    },
+    {
+     "step": 3,
+     "action": "multiply by rate",
+     "explain": "cost = total area x rate",
+     "compute": "2 * pi * radius * height * count * rate"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "hemh109.txt lines 384-396 (Example 7)",
+   "concept": "c8m9.4.3",
+   "question_type": "cylinder_height_from_tsa",
+   "question_pattern": "find the height of a cylinder whose radius is {radius} and the total surface area is {tsa}",
+   "extracted_variables": {
+    "radius": "radius of the cylinder",
+    "tsa": "total surface area"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "write the TSA formula",
+     "explain": "TSA = 2 x pi x r x (r + h)"
+    },
+    {
+     "step": 2,
+     "action": "solve for r + h",
+     "explain": "r + h = TSA / (2 x pi x r)",
+     "compute": "tsa / (2 * pi * radius)"
+    },
+    {
+     "step": 3,
+     "action": "subtract the radius",
+     "explain": "h = TSA / (2 x pi x r) - r",
+     "compute": "tsa / (2 * pi * radius) - radius"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "hemh109.txt lines 545-554 (Example 8)",
+   "concept": "c8m9.5.1",
+   "question_type": "cuboid_height_from_volume",
+   "question_pattern": "find the height of a cuboid whose volume is {volume} and base area is {base_area}",
+   "extracted_variables": {
+    "volume": "volume of the cuboid",
+    "base_area": "area of the base"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "use volume = base area x height",
+     "explain": "Rearrange for height"
+    },
+    {
+     "step": 2,
+     "action": "divide",
+     "explain": "height = volume / base area",
+     "compute": "volume / base_area"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "hemh109.txt lines 555-565 (Example 9)",
+   "concept": "c8m9.5.1",
+   "question_type": "boxes_in_godown",
+   "question_pattern": "a godown measures {length} x {breadth} x {height}. how many boxes of volume {box_volume} can be stored",
+   "extracted_variables": {
+    "length": "godown length",
+    "breadth": "godown breadth",
+    "height": "godown height",
+    "box_volume": "volume of one box"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "volume of the godown",
+     "explain": "volume = l x b x h",
+     "compute": "length * breadth * height"
+    },
+    {
+     "step": 2,
+     "action": "divide by box volume",
+     "explain": "number of boxes = godown volume / box volume",
+     "compute": "length * breadth * height / box_volume"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "hemh109.txt lines 566-583 (Example 10)",
+   "concept": "c8m9.5.3",
+   "question_type": "rolled_paper_cylinder",
+   "question_pattern": "a rectangular paper of width {height} is rolled along its width and a cylinder of radius {radius} is formed. find the volume",
+   "extracted_variables": {
+    "height": "width of the paper becomes the height",
+    "radius": "radius of the cylinder"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify h and r",
+     "explain": "The width of the paper becomes the height of the cylinder"
+    },
+    {
+     "step": 2,
+     "action": "apply the volume formula",
+     "explain": "volume = pi x r^2 x h",
+     "compute": "pi * radius ** 2 * height"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8m9.2.1.2",
+   "source_ref": "generated practice sample aligned to hemh109.txt",
+   "concept": "c8m9.2.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the required value step by step for a case with {side_a}, {side_b}, {height}, {area}.",
+   "extracted_variables": {
+    "side_a": "side a (given value)",
+    "side_b": "side b (given value)",
+    "height": "height (given value)",
+    "area": "area (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the parallel sides",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "side_a + side_b"
+    },
+    {
+     "step": 2,
+     "action": "multiply by height",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "height * (side_a + side_b)"
+    },
+    {
+     "step": 3,
+     "action": "take half",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "height * (side_a + side_b) / 2"
+    },
+    {
+     "step": 4,
+     "action": "to find a missing parallel side",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "2 * area / height - side_a"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8m9.2.1.3",
+   "source_ref": "generated practice sample aligned to hemh109.txt",
+   "concept": "c8m9.2.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the required value step by step for a case with {side_a}, {side_b}, {height}, {area}.",
+   "extracted_variables": {
+    "side_a": "side a (given value)",
+    "side_b": "side b (given value)",
+    "height": "height (given value)",
+    "area": "area (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the parallel sides",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "side_a + side_b"
+    },
+    {
+     "step": 2,
+     "action": "multiply by height",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "height * (side_a + side_b)"
+    },
+    {
+     "step": 3,
+     "action": "take half",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "height * (side_a + side_b) / 2"
+    },
+    {
+     "step": 4,
+     "action": "to find a missing parallel side",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "2 * area / height - side_a"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8m9.2.2.2",
+   "source_ref": "generated practice sample aligned to hemh109.txt",
+   "concept": "c8m9.2.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate the required value step by step for a case with {diagonal1}, {diagonal2}, {area}.",
+   "extracted_variables": {
+    "diagonal1": "diagonal1 (given value)",
+    "diagonal2": "diagonal2 (given value)",
+    "area": "area (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the diagonals",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "diagonal1 * diagonal2"
+    },
+    {
+     "step": 2,
+     "action": "take half",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "diagonal1 * diagonal2 / 2"
+    },
+    {
+     "step": 3,
+     "action": "to find a missing diagonal",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "2 * area / diagonal1"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8m9.2.2.3",
+   "source_ref": "generated practice sample aligned to hemh109.txt",
+   "concept": "c8m9.2.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate the required value step by step for a case with {diagonal1}, {diagonal2}, {area}.",
+   "extracted_variables": {
+    "diagonal1": "diagonal1 (given value)",
+    "diagonal2": "diagonal2 (given value)",
+    "area": "area (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the diagonals",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "diagonal1 * diagonal2"
+    },
+    {
+     "step": 2,
+     "action": "take half",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "diagonal1 * diagonal2 / 2"
+    },
+    {
+     "step": 3,
+     "action": "to find a missing diagonal",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "2 * area / diagonal1"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8m9.2.3.1",
+   "source_ref": "generated practice sample aligned to hemh109.txt",
+   "concept": "c8m9.2.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate the required value step by step for a case with {base}, {height}.",
+   "extracted_variables": {
+    "base": "base (given value)",
+    "height": "height (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find each part area",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "base * height / 2"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8m9.2.3.2",
+   "source_ref": "generated practice sample aligned to hemh109.txt",
+   "concept": "c8m9.2.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate the required value step by step for a case with {base}, {height}.",
+   "extracted_variables": {
+    "base": "base (given value)",
+    "height": "height (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find each part area",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "base * height / 2"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8m9.4.1.2",
+   "source_ref": "generated practice sample aligned to hemh109.txt",
+   "concept": "c8m9.4.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the required value step by step for a case with {length}, {breadth}, {height}, {area}, {rate}.",
+   "extracted_variables": {
+    "length": "length (given value)",
+    "breadth": "breadth (given value)",
+    "height": "height (given value)",
+    "area": "area (given value)",
+    "rate": "rate (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add and double",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "2 * (length * breadth + breadth * height + height * length)"
+    },
+    {
+     "step": 2,
+     "action": "for the four walls only",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "2 * height * (length + breadth)"
+    },
+    {
+     "step": 3,
+     "action": "for cost problems",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "area * rate"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8m9.4.1.3",
+   "source_ref": "generated practice sample aligned to hemh109.txt",
+   "concept": "c8m9.4.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the required value step by step for a case with {length}, {breadth}, {height}, {area}, {rate}.",
+   "extracted_variables": {
+    "length": "length (given value)",
+    "breadth": "breadth (given value)",
+    "height": "height (given value)",
+    "area": "area (given value)",
+    "rate": "rate (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add and double",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "2 * (length * breadth + breadth * height + height * length)"
+    },
+    {
+     "step": 2,
+     "action": "for the four walls only",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "2 * height * (length + breadth)"
+    },
+    {
+     "step": 3,
+     "action": "for cost problems",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "area * rate"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8m9.4.2.1",
+   "source_ref": "generated practice sample aligned to hemh109.txt",
+   "concept": "c8m9.4.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate the required value step by step for a case with {side}, {surface_area}.",
+   "extracted_variables": {
+    "side": "side (given value)",
+    "surface_area": "surface area (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find one face area",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "side ** 2"
+    },
+    {
+     "step": 2,
+     "action": "multiply by six",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "6 * side ** 2"
+    },
+    {
+     "step": 3,
+     "action": "to find the side from surface area",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "sqrt(surface_area / 6)"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8m9.4.2.2",
+   "source_ref": "generated practice sample aligned to hemh109.txt",
+   "concept": "c8m9.4.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate the required value step by step for a case with {side}, {surface_area}.",
+   "extracted_variables": {
+    "side": "side (given value)",
+    "surface_area": "surface area (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find one face area",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "side ** 2"
+    },
+    {
+     "step": 2,
+     "action": "multiply by six",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "6 * side ** 2"
+    },
+    {
+     "step": 3,
+     "action": "to find the side from surface area",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "sqrt(surface_area / 6)"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8m9.5.2.1",
+   "source_ref": "generated practice sample aligned to hemh109.txt",
+   "concept": "c8m9.5.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate the required value step by step for a case with {side}, {volume}, {side_big}, {side_small}.",
+   "extracted_variables": {
+    "side": "side (given value)",
+    "volume": "volume (given value)",
+    "side_big": "side big (given value)",
+    "side_small": "side small (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "cube the side",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "side ** 3"
+    },
+    {
+     "step": 2,
+     "action": "to find the side from volume",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "volume ** (1/3)"
+    },
+    {
+     "step": 3,
+     "action": "to count small cubes that fit in a larger cube",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "(side_big / side_small) ** 3"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8m9.5.2.2",
+   "source_ref": "generated practice sample aligned to hemh109.txt",
+   "concept": "c8m9.5.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate the required value step by step for a case with {side}, {volume}, {side_big}, {side_small}.",
+   "extracted_variables": {
+    "side": "side (given value)",
+    "volume": "volume (given value)",
+    "side_big": "side big (given value)",
+    "side_small": "side small (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "cube the side",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "side ** 3"
+    },
+    {
+     "step": 2,
+     "action": "to find the side from volume",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "volume ** (1/3)"
+    },
+    {
+     "step": 3,
+     "action": "to count small cubes that fit in a larger cube",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "(side_big / side_small) ** 3"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8m9.5.3.2",
+   "source_ref": "generated practice sample aligned to hemh109.txt",
+   "concept": "c8m9.5.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate the required value step by step for a case with {radius}, {height}, {volume}.",
+   "extracted_variables": {
+    "radius": "radius (given value)",
+    "height": "height (given value)",
+    "volume": "volume (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find the base area",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "pi * radius ** 2"
+    },
+    {
+     "step": 2,
+     "action": "multiply by the height",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "pi * radius ** 2 * height"
+    },
+    {
+     "step": 3,
+     "action": "to find the height from volume",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "volume / (pi * radius ** 2)"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8m9.5.3.3",
+   "source_ref": "generated practice sample aligned to hemh109.txt",
+   "concept": "c8m9.5.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate the required value step by step for a case with {radius}, {height}, {volume}.",
+   "extracted_variables": {
+    "radius": "radius (given value)",
+    "height": "height (given value)",
+    "volume": "volume (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find the base area",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "pi * radius ** 2"
+    },
+    {
+     "step": 2,
+     "action": "multiply by the height",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "pi * radius ** 2 * height"
+    },
+    {
+     "step": 3,
+     "action": "to find the height from volume",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "volume / (pi * radius ** 2)"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8m9.6.1.1",
+   "source_ref": "generated practice sample aligned to hemh109.txt",
+   "concept": "c8m9.6.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the required value step by step for a case with {volume_cm3}, {litres}.",
+   "extracted_variables": {
+    "volume_cm3": "volume cm3 (given value)",
+    "litres": "litres (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "convert to litres",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "volume_cm3 / 1000"
+    },
+    {
+     "step": 2,
+     "action": "convert litres back to cubic units if needed",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "litres * 1000"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8m9.6.1.2",
+   "source_ref": "generated practice sample aligned to hemh109.txt",
+   "concept": "c8m9.6.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the required value step by step for a case with {volume_cm3}, {litres}.",
+   "extracted_variables": {
+    "volume_cm3": "volume cm3 (given value)",
+    "litres": "litres (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "convert to litres",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "volume_cm3 / 1000"
+    },
+    {
+     "step": 2,
+     "action": "convert litres back to cubic units if needed",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "litres * 1000"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex9.1",
+   "source_ref": "hemh109.txt lines 118-156 (Exercise 9.1)",
+   "questions": [
+    "The shape of the top surface of a table is a trapezium. Find its area if its parallel sides are 1 m and 1.2 m and the perpendicular distance between them is 0.8 m",
+    "The area of a trapezium is 34 sq cm and the length of one of the parallel sides is 10 cm and its height is 4 cm. Find the length of the other parallel side",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about perpendicular.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about perpendiculars.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about diagonals.",
+    "Frame a diagonals task like the chapter exercise and solve it with every step shown.",
+    "The floor of a building consists of 3000 tiles which are rhombus shaped and each of its diagonals are 45 cm and 30 cm in length. Find the total cost of polishing the floor, if the cost per sq m is 4 rupees",
+    "Mohan wants to buy a trapezium shaped field. Its side along the river is parallel to and twice the side along the road. If the area is 10500 sq m and the perpendicular distance between the two parallel sides is 100 m, find the length of the side along the river",
+    "Top surface of a raised platform is in the shape of a regular octagon. Find the area of the octagonal surface",
+    "There is a pentagonal shaped park. Find the area of this park using both ways",
+    "Diagram of the picture frame has outer dimensions 24 cm x 28 cm and inner dimensions 16 cm x 20 cm. Find the area of each section of the frame, if the width of each section is same"
+   ]
+  },
+  {
+   "id": "ex9.2",
+   "source_ref": "hemh109.txt lines 397-432 (Exercise 9.2)",
+   "questions": [
+    "There are two cuboidal boxes. Which box requires the lesser amount of material to make?",
+    "A suitcase with measures 80 cm x 48 cm x 24 cm is to be covered with tarpaulin cloth. How many metres of tarpaulin of width 96 cm is required to cover 100 such suitcases?",
+    "Find the side of a cube whose surface area is 600 sq cm",
+    "Rukhsar painted the outside of the cabinet of measure 1 m x 2 m x 1.5 m. How much surface area did she cover if she painted all except the bottom of the cabinet",
+    "Daniel is painting the walls and ceiling of a cuboidal hall with length, breadth and height 15 m, 10 m and 7 m. From each can of paint 100 sq m of area is painted. How many cans of paint will she need?",
+    "Describe how the two figures are alike and different. Which box has larger lateral surface area?",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about cylindrical.",
+    "The lateral surface area of a hollow cylinder is 4224 sq cm. It is cut along its height and formed a rectangular sheet of width 33 cm. Find the perimeter of the rectangular sheet",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about revolutions.",
+    "A company packages milk powder in a cylindrical container whose base has a diameter of 14 cm and height 20 cm. A label is placed 2 cm from top and bottom; find the area of the label"
+   ]
+  },
+  {
+   "id": "ex9.3",
+   "source_ref": "hemh109.txt lines 603-633 (Exercise 9.3)",
+   "questions": [
+    "Given a cylindrical tank, in which situation will you find surface area and in which volume: (a) to find how much it can hold (b) number of cement bags required to plaster it (c) to find the number of smaller tanks that can be filled with water from it",
+    "Diameter of cylinder A is 7 cm, height 14 cm. Diameter of cylinder B is 14 cm, height 7 cm. Whose volume is greater? Verify by finding the volume of both. Check whether the cylinder with greater volume also has greater surface area",
+    "Find the height of a cuboid whose base area is 180 sq cm and volume is 900 cubic cm",
+    "A cuboid is of dimensions 60 cm x 54 cm x 30 cm. How many small cubes with side 6 cm can be placed in the given cuboid?",
+    "Find the height of the cylinder whose volume is 1.54 cubic m and diameter of the base is 140 cm",
+    "A milk tank is in the form of a cylinder whose radius is 1.5 m and length is 7 m. Find the quantity of milk in litres that can be stored in the tank",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about increase.",
+    "Water is pouring into a cuboidal reservoir at the rate of 60 litres per minute. If the volume of the reservoir is 108 cubic m, find the number of hours it will take to fill the reservoir"
+   ]
+  }
+ ]
+}

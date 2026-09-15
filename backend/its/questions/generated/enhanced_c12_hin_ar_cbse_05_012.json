@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_05_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_05_012",
+   "title": "c12_hin_ar_cbse_05_012",
+   "questions": [
+    {
+     "q": "Define the difference between a literal comprehension question and an inferential comprehension question in one sentence each.",
+     "a": "A literal question asks for information directly stated in the text (e.g., \"What color is the sky?\"), while an inferential question asks for meaning derived by combining textual clues with reasoning (e.g., \"Why does the poet call the sky a bride?\"). A wrong answer that swaps the definitions reveals the student cannot distinguish explicit vs. implicit meaning — the root cause of vague, unsupported answers in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Read this line from the poem: \"लाल-लाल बादल / अग्नि-सी दमकते\". A student frames a question: \"बादल किस रंग के हैं?\" Is this literal or inferential? Explain why the alternative classification would be incorrect.",
+     "a": "It is a **literal** question because the answer \"लाल\" (red) is explicitly written in the line. Classifying it as inferential would be wrong because no reasoning or background knowledge is needed — the text gives the color directly. A student who calls it inferential confuses *imagery* (the metaphor \"अग्नि-सी\") with *question type*; the metaphor is in the text, but the question only asks for the stated color.",
+     "self_check": true
+    },
+    {
+     "q": "Answer this literal question from the poem using the 3-step protocol (Classify → Evidence-hunt → Structure): \"कवि ने साँझ का वर्णन करते हुए किन दो रंगों का उल्लेख किया है?\" Write the answer as you would in a 2-mark board question.",
+     "a": "**Step 1 Classify:** Literal — asks for explicitly mentioned colors.  \n**Step 2 Evidence-hunt:** Scan the poem → find \"लाल-लाल बादल\" (red clouds) and \"काले-काले केश\" (black hair/locks) or \"श्याम\" (dark) in the bridal imagery.  \n**Step 3 Structure:** कवि ने साँझ के वर्णन में **लाल** (बादलों का) और **काला/श्याम** (केशों/अंधेरे का) — ये दो रंग प्रयुक्त किए हैं। (2 marks: 1 for each color + textual reference). A wrong answer listing \"लाल और पीला\" shows the student hallucinated a color not in the text — a classic \"reading too fast\" error.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following inferential question: \"‘मक्क’ कविता में साँझ को दुल्हन के रूप में प्रस्तुत करने का क्या अभिप्राय है?\" Break down the inference chain: which *three* specific images from the poem act as evidence, and what logical bridge connects them to the \"bride\" interpretation?",
+     "a": "**Evidence 1:** \"लाल-लाल बादल\" → bride's red bridal veil/lehenga.  \n**Evidence 2:** \"काले-काले केश / खुले हुए\" → bride's open dark hair (traditional bridal adornment).  \n**Evidence 3:** \"अग्नि-सी दमकते\" → the radiant glow of a bride at the wedding altar.  \n**Logical bridge:** The poet maps *visual attributes of sunset* (red clouds, dark spreading night, glowing light) onto *cultural bridal symbols* (red attire, loose hair, ceremonial fire) to convey **transient beauty** — the bride/sunset is stunning but momentary. A wrong answer that only says \"because it looks beautiful\" misses the cultural specificity and the theme of impermanence (linked to \"चिता की लकड़ी\" later), losing 2/3 marks.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student answer to the inferential question above: \"साँझ दुल्हन जैसी सुंदर लगती है इसलिए कवि ने ऐसा कहा।\" Is it sufficient for a 3-mark board question? Justify your evaluation using the marking scheme expectation of \"textual evidence + reasoned explanation\".",
+     "a": "**Insufficient — would score 1/3 marks.**  \n**Why:** The answer states a vague opinion (\"सुंदर लगती है\") without citing a single line from the poem. The CBSE marking scheme for inferential questions requires: (a) **Point** — clear interpretation (e.g., \"transient beauty\"), (b) **Evidence** — at least two direct phrases/lines, (c) **Explanation** — how the evidence supports the point, (d) **Link** — connection to central theme. This answer has none. A student writing this thinks inferential = \"personal feeling\", not \"text-grounded deduction\".",
+     "self_check": true
+    },
+    {
+     "q": "Create one literal and one inferential question for Stanza 2 of the poem (the lines describing the bride's hair and the pyre wood). Ensure the literal question has a single explicit answer, and the inferential question requires connecting two separate images.",
+     "a": "**Literal:** \"कवि ने दुल्हन के केशों का वर्णन कैसे किया है?\" → Answer explicitly in text: \"काले-काले केश / खुले हुए\"।  \n**Inferential:** \"‘चिता की लकड़ी’ और ‘खुले केश’ — ये दोनों छवियाँ एक साथ साँझ की किस नियति की ओर संकेत करती हैं?\" → Requires linking \"open hair\" (bridal beauty) + \"pyre wood\" (death/cremation) to infer **inevitable end of beauty / cycle of creation-destruction**. A poor inferential question would be \"क्या आपको लगता है साँझ मर जाती है?\" — that invites opinion, not text-based inference.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

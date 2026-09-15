@@ -1,0 +1,207 @@
+{
+ "class": 12,
+ "subject": "political_science",
+ "chapter": 5,
+ "chapter_title": "Challenges to and Restoration of the Congress System",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leps205.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leps.205.1.1",
+   "title": "Challenge of Political Succession after Nehru",
+   "section": "Challenge of Political Succession",
+   "definition": "Nehru's death in May 1964 raised two fears -- after Nehru who, and after Nehru what -- since outsiders doubted a poor, divided country could manage a democratic succession without the army stepping in; instead Kamaraj organised a party consensus behind Lal Bahadur Shastri, and when Shastri died at Tashkent on 11 January 1966, a secret ballot gave Indira Gandhi more than two-thirds of Congress MPs against Morarji Desai, proving the critics wrong twice in two years.",
+   "formula": "democratic_succession = party_consensus_on_shastri + secret_ballot_for_indira",
+   "key_idea": "The 1960s were called the dangerous decade, yet two successions in two years passed peacefully and were judged smoother than Britain's own at the time.",
+   "textbook_ref": "leps205.txt Challenge of Political Succession, From Nehru to Shastri, From Shastri to Indira (lines 35-159)",
+   "question_patterns": [
+    "what two questions arose after the death of nehru",
+    "how was lal bahadur shastri chosen as prime minister after nehru",
+    "describe the circumstances of shastri's death in tashkent",
+    "how was the contest between indira gandhi and morarji desai resolved",
+    "why were the 1960s labelled the dangerous decade",
+    "what did the peaceful successions of 1964 and 1966 prove about indian democracy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the fears", "explain": "commentators feared a failed succession could invite army rule and that unresolved poverty, inequality and divisions might disintegrate the country"},
+    {"step": 2, "action": "verify the first transition", "explain": "Congress president K. Kamraj consulted leaders and MPs and built consensus for Shastri, a non-controversial UP leader known for resigning as Railway Minister over an accident"},
+    {"step": 3, "action": "verify the second transition", "explain": "after Tashkent, the Indira-Morarji contest went to a secret ballot in which Indira Gandhi won over two-thirds support, a maturity the foreign press contrasted favourably with Britain's succession"}
+   ]
+  },
+  {
+   "id": "leps.205.2.1",
+   "title": "Economic Crisis and the Devaluation of 1966",
+   "section": "Context of the elections",
+   "definition": "Before the 1967 elections the economy was in crisis: failed monsoons and drought cut farm output, food shortage and price rise provoked nationwide protests, foreign exchange reserves depleted and military spending rose -- and one of Indira Gandhi's first decisions was to devalue the rupee under perceived US pressure, taking the dollar from under Rs 5 to over Rs 7.",
+   "formula": "devaluation_percent = (rate_after - rate_before) / rate_before * 100",
+   "key_idea": "A weaker rupee and dearer imports deepened popular discontent, and a government that treated protests as law and order trouble only stored up bitterness.",
+   "textbook_ref": "leps205.txt Context of the elections (lines 178-248)",
+   "question_patterns": [
+    "why was the indian rupee devalued in 1966",
+    "calculate the change in the dollar rate caused by the devaluation",
+    "what economic troubles preceded the fourth general elections",
+    "how did the government respond to protests against price rise",
+    "why is devaluation said to have happened under us pressure",
+    "how did the economic crisis shape the politics of 1967"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "record the two exchange rates", "explain": "the dollar cost less than Rs 5 before the decision and more than Rs 7 after devaluation", "compute": "devaluation_percent = (rate_after - rate_before) / rate_before * 100"},
+    {"step": 2, "action": "express the dollar's rise as a multiple", "explain": "dividing the new rate by the old shows how many times costlier foreign goods and imports became", "compute": "cost_multiple = rate_after / rate_before"},
+    {"step": 3, "action": "link the numbers to politics", "explain": "a jump of this size in import costs fed price rise and food scarcity, fuelling the bandhs and hartals of the period", "compute": "public_discontent = cost_multiple * price_rise_pressure"}
+   ]
+  },
+  {
+   "id": "leps.205.3.1",
+   "title": "The 1967 Verdict, Non-Congressism and Coalition Politics",
+   "section": "Fourth General Elections, 1967",
+   "definition": "The February 1967 results were called a political earthquake: the Congress kept a reduced Lok Sabha majority -- half the ministers defeated, stalwarts like Kamaraj and S.K. Patil lost -- but lost majority in seven states and power in two more through defections; the DMK won Madras outright after leading the anti-Hindi agitation, ideologically mismatched parties formed SVD coalition governments, and Lohia's strategy of non-Congressism united opponents merely on the logic of removing the Congress.",
+   "formula": "non_congressism = anti_congress_fronts + electoral_seat_adjustments + svd_coalitions",
+   "key_idea": "For the first time a train from Delhi to Howrah need not cross a single Congress-ruled state -- one-party dominance had been broken, though not replaced.",
+   "textbook_ref": "leps205.txt Non-Congressism, Electoral verdict, Coalitions (lines 249-472)",
+   "question_patterns": [
+    "why are the 1967 elections described as a political earthquake",
+    "what is non congressism and who gave it this name",
+    "which states did the congress lose after the 1967 election",
+    "what were the svd governments and why were they unstable",
+    "how did the dmk come to power in madras in 1967",
+    "which congress stalwarts were defeated in the fourth general elections"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the national verdict", "explain": "the Congress won its lowest tally and vote share since 1952, with half the cabinet ministers and big state bosses defeated"},
+    {"step": 2, "action": "verify the state sweep", "explain": "nine states left Congress control -- Punjab, Haryana, UP, Madhya Pradesh, Bihar, West Bengal, Orissa, Madras and Kerala -- and the DMK became the first non-Congress party to win a state majority on its own"},
+    {"step": 3, "action": "verify the coalition mechanism", "explain": "joint legislative parties or Samyukt Vidhayak Dals joined socialists, communists and the Jana Sangh in ideologically incongruent fronts, as in Bihar and Punjab's Popular United Front, and most did not last"}
+   ]
+  },
+  {
+   "id": "leps.205.4.1",
+   "title": "Defection and the Aya Ram Gaya Ram Phenomenon",
+   "section": "Defection",
+   "definition": "Defection is when an elected legislator abandons the party whose symbol won him or her the seat and joins another; after 1967 breakaway Congress legislators installed non-Congress governments in Haryana, Madhya Pradesh and Uttar Pradesh, and the Haryana MLA Gaya Lal's three party switches within a fortnight -- celebrated as Gaya Ram was now Aya Ram -- gave the phrase Aya Ram Gaya Ram to Indian politics until a constitutional amendment curbed floor-crossing.",
+   "formula": "government_instability = frequent_floor_crossing + constant_realignments",
+   "key_idea": "Where no party had a majority, individual legislators became kingmakers and governments were made and unmade by shifting loyalties.",
+   "textbook_ref": "leps205.txt Defection, story of Aya Ram Gaya Ram (lines 486-510)",
+   "question_patterns": [
+    "what is meant by defection in indian politics",
+    "how did the phrase aya ram gaya ram originate",
+    "describe the feat of floor crossing by gaya lal in 1967",
+    "in which states did defectors help install non congress governments",
+    "how did defections affect the stability of state governments after 1967",
+    "which later constitutional change sought to prevent defections"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "define and illustrate", "explain": "an elected representative leaves the party on whose symbol he or she was elected; Gaya Lal moved Congress to United Front, back to Congress, and again to the United Front within nine hours"},
+    {"step": 2, "action": "verify the political effect", "explain": "constant realignments made and unmade state governments, and the press and cartoonists turned the Haryana episode into a national idiom"},
+    {"step": 3, "action": "note the remedy", "explain": "the practice was later checked by amending the Constitution against defection"}
+   ]
+  },
+  {
+   "id": "leps.205.5.1",
+   "title": "Indira versus the Syndicate and the Split of 1969",
+   "section": "Split in the Congress",
+   "definition": "The Syndicate -- Kamaraj, S.K. Patil, S. Nijalingappa, N. Sanjeeva Reddy and Atulya Ghosh -- controlled the party organisation and expected the Prime Minister they had installed to follow their advice; Indira Gandhi instead built her own circle of advisers, converted the power struggle into an ideological one through the Ten Point Programme of May 1967, bank nationalisation and privy purse abolition, and when the Syndicate forced official candidate Sanjeeva Reddy on the party in the 1969 presidential poll, her conscience vote carried the independent V.V. Giri to victory and formalised the split into Congress (Organisation) and Congress (Requisitionists).",
+   "formula": "congress_split_1969 = syndicate_control + indira_left_programme + giri_conscience_vote",
+   "key_idea": "By casting the fight as pro-poor versus pro-rich, Indira Gandhi turned a factional clash into a popular mandate for the new Congress.",
+   "textbook_ref": "leps205.txt Indira vs the Syndicate, Presidential election 1969, Abolition of Privy Purse box (lines 522-749)",
+   "question_patterns": [
+    "who were the members of the congress syndicate",
+    "what did the ten point programme of 1967 include",
+    "how did the 1969 presidential election lead to the congress split",
+    "what is meant by the conscience vote of 1969",
+    "why did indira gandhi push for the abolition of the privy purse",
+    "distinguish between congress organisation and congress requisitionists"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the syndicate's position", "explain": "the state bosses who had made both Shastri and Indira Gandhi prime ministers had a decisive say in her first ministry and in policy, and after the split they stayed with the Congress (O)"},
+    {"step": 2, "action": "verify her counter-strategy", "explain": "social control of banks, nationalisation of general insurance, land reforms and house sites gave her a Left orientation the syndicate approved only with reservations; Morarji Desai quit over bank nationalisation and privy purse"},
+    {"step": 3, "action": "verify the showdown", "explain": "on Zakir Hussain's death the syndicate nominated Sanjeeva Reddy with a whip; Indira backed Vice-President V.V. Giri as independent and urged a conscience vote; Giri's win was followed by Nijalingappa expelling the Prime Minister, splitting the party into Organisation and Requisitionist wings"}
+   ]
+  },
+  {
+   "id": "leps.205.6.1",
+   "title": "The 1971 Election and the Restoration of Congress Dominance",
+   "section": "The 1971 Election and Restoration of Congress",
+   "definition": "Reduced to a minority and dependent on the CPI and DMK, Indira Gandhi gambled on an early poll in February 1971: against the Grand Alliance of SSP, PSP, Jan Sangh, Swatantra and Bharatiya Kranti Dal, whose only programme was Indira Hatao, she counter-posed Garibi Hatao -- public sector growth, land ceilings, abolition of princely privileges -- and won a landslide, with the Congress(R)-CPI alliance taking 375 seats and 48.4 per cent of votes while the Congress (O) sank to 16 seats, restoring the Congress as the dominant party under a new populist banner.",
+   "formula": "garibi_hatao_victory = positive_slogan + pro_poor_programme + cpi_alliance",
+   "key_idea": "An agenda beats an alliance of enemies: the side with an issue and a slogan swept the side that only wanted one person removed.",
+   "textbook_ref": "leps205.txt The contest, The outcome and after (lines 759-886)",
+   "question_patterns": [
+    "compare the slogans of the grand alliance and the congress r in 1971",
+    "which parties formed the grand alliance of 1971",
+    "why did indira gandhi recommend dissolution of the lok sabha in december 1970",
+    "what seats and vote shares did the congress r and cpi alliance win in 1971",
+    "how did garibi hatao build a new support base for indira gandhi",
+    "why is 1971 called the restoration of the congress system"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the pre-poll situation", "explain": "the new Congress was a minority faction short of organisational muscle while the Grand Alliance united every major non-communist, non-Congress party, so the odds ran against Indira Gandhi"},
+    {"step": 2, "action": "verify the campaign", "explain": "Garibi Hatao targeted the landless, Dalits, Adivasis, minorities, women and unemployed youth, building an independent national support base around abolishing princely privileges and expanding the public sector"},
+    {"step": 3, "action": "verify the outcome", "explain": "375 seats and 48.4 per cent votes for the alliance, 352 seats and about 44 per cent for Congress (R) alone against 16 for Congress (O) and under 60 for the Grand Alliance, followed by state sweeps in 1972 and the Bangladesh war's afterglow"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_leps205_1",
+   "source_ref": "leps205.txt Context of the elections (rupee devaluation)",
+   "concept": "leps.205.2.1",
+   "question_type": "devaluation_calculation",
+   "question_pattern": "Before devaluation a US dollar cost less than Rs {rate_before}; afterwards it cost more than Rs {rate_after}. By what percentage was the rupee devalued?",
+   "extracted_variables": {
+    "rate_before": 5,
+    "rate_after": 7
+   },
+   "solution_template": [
+    {"step": 1, "action": "compute the percentage change", "explain": "the rise in the rupee price of a dollar measures the devaluation of the rupee", "compute": "devaluation_percent = (rate_after - rate_before) / rate_before * 100"},
+    {"step": 2, "action": "compute the dollar cost multiple", "explain": "how many times costlier the dollar became after the decision", "compute": "cost_multiple = rate_after / rate_before"},
+    {"step": 3, "action": "interpret for politics", "explain": "import costs and prices jumped in the same proportion, feeding the price-rise protests before the 1967 elections"}
+   ]
+  },
+  {
+   "id": "we_leps205_2",
+   "source_ref": "leps205.txt The outcome and after (1971 tally)",
+   "concept": "leps.205.6.1",
+   "question_type": "devaluation_calculation",
+   "question_pattern": "In 1971 the Congress(R)-CPI alliance won {alliance_seats} of the {total_seats} Lok Sabha seats with 48.4 per cent of the votes, while Congress(O) won only {opposition_seats}. What share of seats did the alliance and the Old Congress each hold?",
+   "extracted_variables": {
+    "alliance_seats": 375,
+    "total_seats": 518,
+    "opposition_seats": 16
+   },
+   "solution_template": [
+    {"step": 1, "action": "compute the alliance seat share", "explain": "divide the alliance tally by the house size and scale to a percentage", "compute": "alliance_share = alliance_seats / total_seats * 100"},
+    {"step": 2, "action": "compute the old congress share", "explain": "the same arithmetic shows how marginal the stalwart-led Congress (O) had become", "compute": "opposition_share = opposition_seats / total_seats * 100"},
+    {"step": 3, "action": "compute the gap", "explain": "the difference between the two shares captures the scale of the restoration of dominance", "compute": "dominance_gap = alliance_share - opposition_share"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-practice-1",
+   "source_ref": "leps205.txt EXERCISES",
+   "questions": [
+    "which two prime ministers died in quick succession before the 1967 elections",
+    "what made the dmk victory in madras in 1967 historically special",
+    "why did the syndicate expect indira gandhi to follow its advice",
+    "state the main provisions of the ten point programme",
+    "why was the victory of v v giri in the 1969 presidential election a turning point"
+   ]
+  },
+  {
+   "id": "ex-practice-2",
+   "source_ref": "leps205.txt EXERCISES long answer",
+   "questions": [
+    "describe the context in which the fourth general elections were held",
+    "explain the phenomenon of defection and its effect on state politics after 1967",
+    "was the congress split of 1969 ideological or a power struggle, discuss",
+    "why did indira gandhi abolish the privy purse and how did the courts respond",
+    "how did the 1971 election restore the congress to dominance on a new social base"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_13_005",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_13_005",
+   "title": "c11_ps_cbse_13_005",
+   "questions": [
+    {
+     "q": "Article 74(1) states \"there shall be a Council of Ministers with the Prime Minister at the head to aid and advise the President who shall, in the exercise of his functions, act in accordance with such advice.\" Yet the President exercises discretion in appointing the Prime Minister. Which constitutional provision or principle resolves this apparent contradiction?",
+     "a": "The contradiction is resolved by recognizing that Article 74(1) presupposes the existence of a Council of Ministers. When no Ministry exists (after election, resignation, or dismissal), there is no \"aid and advice\" available. The President's power to appoint the PM under Article 75(1) (\"The Prime Minister shall be appointed by the President\") operates in this vacuum. A wrong answer—claiming the President always needs advice—reveals the student hasn't grasped that discretionary powers are structural exceptions, not violations, designed for constitutional interregnums.",
+     "self_check": true
+    },
+    {
+     "q": "In 1979, President Neelam Sanjiva Reddy appointed Charan Singh as Prime Minister after the Janata Party split, despite Singh not demonstrating majority support on the floor of the House. The President asked him to prove majority within a stipulated time. Which discretionary power was exercised, and what convention did this establish for future \"hung Parliament\" situations?",
+     "a": "The President exercised the discretionary power of PM appointment under Article 75(1) in a no-clear-majority scenario. The convention established: the President may invite the leader who *claims* majority support but must insist on a floor test within a reasonable time (originally 3 weeks, later reduced to 10-14 days). A wrong answer focusing only on \"largest party gets first chance\" misses the critical procedural safeguard—the floor test—that prevents a minority government from lingering without democratic legitimacy.",
+     "self_check": true
+    },
+    {
+     "q": "A Prime Minister who has lost a vote of confidence in Lok Sabha advises the President to dissolve the House and call fresh elections. The opposition claims it can form an alternative government. Analyze the President's constitutional options and the convention that should guide the decision.",
+     "a": "The President has two constitutional options: (1) accept the advice and dissolve Lok Sabha under Article 85(2)(b), or (2) refuse dissolution, dismiss the Ministry under Article 75(2), and invite the opposition to form government. The convention (established 1989, 1996-98): the President should first explore alternative government formation—especially if the opposition demonstrates majority support—before dissolving a recently elected House. A wrong answer claiming \"President must always accept PM's advice\" ignores the 1997 Supreme Court observation in *Rameshwar Prasad* that dissolution advice from a defeated PM is not binding.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the President's pocket veto (withholding assent indefinitely) with the qualified veto (returning a bill for reconsideration under Article 111). Why is the pocket veto considered a discretionary power while the qualified veto is not, and what constitutional risk does the pocket veto pose?",
+     "a": "The qualified veto (Article 111) is explicit: President *may* return a non-money bill for reconsideration; if Parliament repasses it, assent is mandatory. This is a structured constitutional power, not discretion. The pocket veto—withholding assent without time limit—is nowhere mentioned in the Constitution; it exists only because Article 111 sets no deadline for presidential assent. The risk: it allows the executive to indefinitely block legislation passed by the legislature, violating separation of powers. A wrong answer conflating the two vetos misses that one is textually grounded, the other is a silence-exploiting practice.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"The President of India is a mere rubber stamp; all real power lies with the Council of Ministers.\" Use at least three historical instances where presidential discretion altered political outcomes to support your evaluation.",
+     "a": "The \"rubber stamp\" thesis is partially true for routine governance but false at critical junctures. Three counter-instances: (1) 1979: Reddy appointed Charan Singh over Jagjivan Ram, enabling a short-lived minority government. (2) 1989: Venkataraman refused VP Singh's dissolution advice after 11 months, but only after VP Singh lost majority—actually he accepted it; better example: 1996 Venkataraman invited Vajpayee (largest party) not the United Front, setting up 13-day government. (3) 1997: Narayanan returned the UP Governor's rule recommendation (Article 356) for reconsideration—first President to do so. (4) 1999: Narayanan asked Vajpayee to prove majority after Jayalalithaa withdrew support, rather than dissolving House immediately. A weak evaluation treats all presidential acts as identical; mastery requires distinguishing ceremonial functions from constitutional decision-points.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a constitutional amendment clause that would codify the President's discretionary power in hung Parliament situations, specifying: (a) the trigger condition, (b) the decision criteria for PM selection, and (c) the mandatory floor-test timeline. Justify each element.",
+     "a": "Sample clause: \"Article 75(1A): When no political party or pre-poll alliance secures a majority in the House of the People after a general election, the President shall appoint as Prime Minister the leader who, in the President's judgment, is most likely to command the confidence of the House, provided such leader secures a vote of confidence within fourteen days of appointment.\" Justification: (a) Trigger—post-election vacuum; (b) Criteria—\"most likely to command confidence\" balances largest-party claim with coalition reality; (c) 14-day floor test—prevents indefinite minority rule, aligns with Sarkaria Commission and judicial practice. A poor answer omits the floor-test deadline or uses vague \"wisdom of President\" language without objective criteria.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

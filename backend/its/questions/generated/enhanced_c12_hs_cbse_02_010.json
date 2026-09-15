@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_02_010",
+   "title": "c12_hs_cbse_02_010",
+   "questions": [
+    {
+     "q": "List the three main objectives of food processing and give one example of a product for each objective where that objective is the PRIMARY driver.",
+     "a": "The three main objectives are: (1) Safety — e.g., pasteurised milk (pathogen elimination is primary); (2) Shelf-life extension — e.g., sun-dried raisins (moisture removal for storage is primary); (3) Convenience/value addition — e.g., instant noodles (reconstitution ease and flavouring are primary). A WRONG answer listing \"nutrient retention\" as a top objective reveals the misconception that processing always preserves nutrients — in reality, processing often degrades nutrients, and retention is a constraint to manage, not a primary driver.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why blanching (brief heat treatment) is a critical pre-treatment before freezing vegetables but is NOT used before freezing fruits. Connect your answer to enzyme activity and food chemistry.",
+     "a": "Blanching inactivates enzymes (e.g., lipoxygenase, peroxidase, polyphenol oxidase) that cause off-flavours, colour loss, and texture degradation during frozen storage. Vegetables have high enzyme activity and low acidity, so enzymes remain active at freezing temperatures and slowly degrade quality. Fruits are naturally acidic (pH < 4.5) and contain phenolic compounds; their key spoilage enzymes (polyphenol oxidase) are less active at low pH, and acid itself inhibits enzymatic browning. Additionally, fruit texture is damaged by heat, so blanching is avoided. A WRONG answer claiming \"fruits don't have enzymes\" reveals ignorance of enzymatic browning in cut apples/bananas — the issue is pH-dependent enzyme kinetics, not absence of enzymes.",
+     "self_check": true
+    },
+    {
+     "q": "A food technologist wants to produce shelf-stable mango pulp (pH 3.8, water activity 0.98) without refrigeration. She considers three options: (A) hot-fill at 90°C into sterile bottles, (B) add 0.1% sodium benzoate and cold-fill, (C) concentrate to 30° Brix then hot-fill. Evaluate each option for microbial safety and quality retention. Which is BEST and why?",
+     "a": "Option A: Hot-fill at 90°C kills vegetative microbes and creates vacuum seal; at pH 3.8, Clostridium botulinum cannot grow (needs pH > 4.6). Safe and retains fresh flavour. Option B: Sodium benzoate inhibits yeast/mould at pH < 4.0 but does not kill spores; cold-fill risks post-process contamination. Risky for commercial shelf-life. Option C: Concentration to 30° Brix lowers water activity to ~0.85, inhibiting most microbes, but thermal damage during concentration degrades flavour/colour. BEST is A: hot-fill leverages natural acidity (pH 3.8 < 4.6) for botulism safety, achieves commercial sterility, and minimises thermal damage vs. concentration. A WRONG answer choosing C reveals over-reliance on water activity reduction without considering that acid foods need less severe heat treatment — \"hurdle technology\" principle.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast primary, secondary, and tertiary food processing using wheat as the raw material. For each level, name the process, the main physical/chemical change, and the shelf-life impact.",
+     "a": "Primary: Wheat cleaning & milling → physical separation of bran/germ/endosperm → shelf-life INCREASES (removes lipid-rich germ that rancidifies). Secondary: Flour → dough → baking bread → starch gelatinisation, protein denaturation, Maillard reaction → shelf-life DECREASES (high moisture, mould growth in days). Tertiary: Bread → extrusion → breakfast cereal → starch dextrinisation, shape formation, drying to low aw → shelf-life DRAMATICALLY INCREASES (months). A WRONG answer claiming secondary processing always extends shelf-life confuses processing level with preservation — cooking (secondary) often reduces shelf-life unless combined with preservation (canning, freezing).",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Irradiation is the ideal preservation method because it kills all microorganisms without heating the food, so nutrients are perfectly preserved.\" Identify three specific limitations or misconceptions in this claim.",
+     "a": "Three flaws: (1) \"Kills all microorganisms\" — false; irradiation at approved doses (kGy range) reduces pathogens/spoilage microbes but does not sterilise (spores survive); it is a pasteurisation-equivalent, not sterilisation. (2) \"Without heating\" — true for temperature, but radiolysis produces free radicals causing lipid oxidation (off-flavours in fatty foods) and vitamin loss (thiamine, vitamin C sensitive). (3) \"Nutrients perfectly preserved\" — false; while macronutrients are stable, radiation-sensitive vitamins degrade, and sensory changes (meat odour, fruit softening) limit applicability. A WRONG answer accepting the claim reveals confusion between \"non-thermal\" and \"non-damaging\" — all preservation methods involve trade-offs; irradiation is a tool, not a magic bullet.",
+     "self_check": true
+    },
+    {
+     "q": "Design a preservation protocol for fresh coconut water (pH 5.0, aw 0.99, high potassium, heat-sensitive flavour) targeting 6-month shelf-life at room temperature. Justify each step and specify the critical control points.",
+     "a": "Protocol: (1) Harvest young coconuts (9-10 months) under hygienic conditions — CCP: microbial load < 10^3 CFU/mL. (2) Filter (0.45 µm) to remove particles/spores — CCP: turbidity < 1 NTU. (3) Acidify to pH ≤ 4.2 with food-grade citric acid — CCP: pH verification (botulism barrier). (4) UHT treatment: 135-140°C for 4-6 seconds in aseptic system — CCP: time-temperature integration (F0 ≥ 3). (5) Aseptic fill into pre-sterilised multilayer cartons (paper/PE/Al/PE) — CCP: sterility assurance (incubation test). (6) Cool rapidly, store at 25°C. Justification: Natural pH 5.0 permits C. botulinum growth → acidification essential. Heat-sensitive flavour → UHT (seconds) minimises Maillard/cooked flavour vs. retort (minutes). Aseptic packaging prevents recontamination. A POOR answer suggesting only pasteurisation (90°C) ignores spore risk at pH 5.0; suggesting only acidification ignores spore survival; suggesting freezing ignores \"room temperature\" requirement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

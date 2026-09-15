@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch04_047",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch04_047",
+   "title": "c6_math_ch04_047",
+   "questions": [
+    {
+     "q": "What is the first step in multiplying 1.2 by 0.3?",
+     "a": "The first step is to multiply the numbers as if they were whole numbers (12 x 3 = 36). If a student says \"line up the decimal points,\" they are confusing multiplication with addition or subtraction, which is a common error.",
+     "self_check": true
+    },
+    {
+     "q": "If you multiply a number with one decimal place by a number with two decimal places, how many decimal places should the final answer have?",
+     "a": "The answer should have three decimal places. If a student answers \"one\" or \"two,\" they are failing to realize that the decimal places must be added together, not just taken from the largest factor.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate 0.4 x 0.5. Show your steps.",
+     "a": "First, multiply 4 x 5 = 20. Second, count the decimal places: 0.4 has one and 0.5 has one, totaling two. Third, place the point two spots from the right, giving 0.20 or 0.2. A student who answers \"2.0\" likely ignored the decimal places entirely.",
+     "self_check": true
+    },
+    {
+     "q": "2 x 0.5 = 1.0, while 2 x 5 = 10. The decimal point makes the multiplier \"smaller than one,\" which reduces the total product significantly compared to multiplying by a whole number. A student who thinks the result should be the same fails to see the decimal as a fraction of a whole.",
+     "a": "[Correct answer] The product of 2 x 0.5 is 1, while the product of 2 x 5 is 10. The decimal point in 0.5 shifts the value to be one-tenth of the whole number 5, causing the final product to be ten times smaller.\n\nA wrong answer reveals that the student likely ignores the place value of the decimal, perhaps treating \"0.5\" as the whole number \"5\" or failing to recognize that multiplying by a decimal less than one results in a product smaller than the original whole number.",
+     "self_check": true
+    },
+    {
+     "q": "Is 0.1 x 0.1 equal to 0.1? Why or why not?",
+     "a": "No, it is 0.01. Because 0.1 is one-tenth, one-tenth of one-tenth is one-hundredth. A student answering 0.1 is ignoring the \"shrinking\" effect that occurs when multiplying numbers less than one.",
+     "self_check": true
+    },
+    {
+     "q": "Create a multiplication problem using two decimals that results in a product of 0.06.",
+     "a": "Any pair like 0.2 x 0.3 or 0.6 x 0.1 works. If a student provides 6 x 0.01, they understand the product but missed the instruction to use two decimals; if they provide 0.6 x 0.6, they show a misunderstanding of place value.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

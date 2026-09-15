@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_04_009",
+   "title": "c11_biotech_cbse_04_009",
+   "questions": [
+    {
+     "q": "Name two metal ions that act as cofactors for the enzyme carbonic anhydrase and alcohol dehydrogenase respectively, and state the common name of the organic cofactor derived from vitamin B3 (niacin).",
+     "a": "Zinc (Zn²⁺) is the cofactor for both carbonic anhydrase and alcohol dehydrogenase; the coenzyme derived from niacin is nicotinamide adenine dinucleotide (NAD⁺). A wrong answer (e.g., naming Fe²⁺ for carbonic anhydrase or confusing NAD⁺ with FAD) reveals that the student has not memorised the specific metal–enzyme pairs in Table 4.2 or the vitamin–coenzyme correspondence in Table 4.1.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Coenzymes and prosthetic groups are the same thing because both are organic molecules that help enzymes.\" Explain why this statement is incorrect, using the terms 'transient binding' and 'covalent attachment'.",
+     "a": "Coenzymes bind transiently (reversibly) to the enzyme and are released after catalysis, whereas prosthetic groups are tightly bound, often through covalent bonds, and remain permanently attached. The student's error shows a failure to distinguish the mode and duration of binding, which is a key classification criterion in the NCERT text.",
+     "self_check": true
+    },
+    {
+     "q": "An enzyme assay shows zero activity when the reaction mixture lacks Mg²⁺. Adding back 5 mM Mg²⁺ restores full activity. However, adding 5 mM Zn²⁺ does not restore activity. What does this tell you about the cofactor specificity of this enzyme, and how would you classify the enzyme–cofactor complex when Mg²⁺ is bound?",
+     "a": "The enzyme specifically requires Mg²⁺ as its metal ion cofactor; Zn²⁺ cannot substitute, indicating strict metal ion specificity. When Mg²⁺ is bound, the complex is a holoenzyme (apoenzyme + cofactor). If the student says the enzyme works with any divalent cation or calls the complex a prosthetic group, they confuse cofactor specificity with general ionic strength effects and misapply the term prosthetic group to a loosely bound metal ion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of NAD⁺ and coenzyme A in catalysis. Both are derived from B‑vitamins, but they transfer different groups. Identify the vitamins, the transferred groups, and one metabolic pathway where each plays a central role.",
+     "a": "NAD⁺ (from niacin, B3) transfers a hydride ion (:H⁻) and is central in glycolysis and the TCA cycle; CoA (from pantothenic acid, B5) transfers acyl groups (e.g., acetyl‑CoA) and is central in fatty acid oxidation and the TCA cycle entry. A partial answer that only names vitamins or only pathways indicates the student has not integrated the three pieces of information (vitamin, group transferred, pathway) that the NCERT tables expect them to link.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher discovers a new enzyme that requires a non‑protein component for activity. The component is heat‑stable, dialyzable, and its activity is destroyed by acid hydrolysis but not by protease treatment. Evaluate whether this component is more likely a metal ion cofactor or a coenzyme, and justify your reasoning.",
+     "a": "The component is a coenzyme. Heat stability and dialyzability rule out a protein subunit; destruction by acid hydrolysis indicates an organic molecule with labile bonds (e.g., glycosidic or phosphoester bonds in nucleotides), whereas metal ions are not destroyed by acid hydrolysis. If the student chooses metal ion, they overlook the acid hydrolysis evidence and the organic nature implied by vitamin derivation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to demonstrate that the enzyme carbonic anhydrase requires Zn²⁺ as a cofactor. List the control and experimental setups, the measurable output, and the expected result that would confirm Zn²⁺ dependence.",
+     "a": "Set up two reaction tubes: (1) purified carbonic anhydrase + substrate (CO₂/H₂O) + buffer (control); (2) same but pre‑treated with a chelating agent (e.g., EDTA) to remove Zn²⁺, then add back Zn²⁺ to a third tube. Measure initial rate of CO₂ hydration (e.g., by pH change). The chelated tube shows near‑zero activity; activity is restored only when Zn²⁺ is added back. A poor design might omit the chelation step or use a non‑specific metal chelator without add‑back, failing to prove specific Zn²⁺ requirement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

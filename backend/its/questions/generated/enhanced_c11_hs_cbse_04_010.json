@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_04_010",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_04_010",
+   "title": "c11_hs_cbse_04_010",
+   "questions": [
+    {
+     "q": "Define time as a resource and state its two key characteristics that distinguish it from money or material goods.",
+     "a": "Time is a human resource available equally to everyone (24 hours/day) and is non-renewable — once spent, it cannot be regained or stored. A wrong answer (e.g., \"time can be saved like money\" or \"some people have more time\") reveals the misconception that time is accumulable or unequally distributed, ignoring its fixed, perishable nature.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why balancing work time, non-work time, and rest/leisure time is essential for a student's physical, emotional, and intellectual well-being, using the NCERT's three-dimension framework.",
+     "a": "Balancing the three dimensions ensures physical fitness (through rest/sleep), emotional strength (through leisure/hobbies), and intellectual alertness (through focused work/study). A wrong answer that focuses only on maximizing study hours reveals the misconception that \"more study time = better results,\" neglecting the NCERT's explicit statement that balance across all three dimensions is necessary for holistic well-being.",
+     "self_check": true
+    },
+    {
+     "q": "A student's peak productivity is 6:00–9:00 AM and 7:00–9:00 PM. She has school 7:00 AM–1:00 PM, tuition 3:00–5:00 PM, and wants 8 hours sleep. Design a weekday schedule that places her most difficult subject (Chemistry) in her peak periods and includes at least 1 hour leisure.",
+     "a": "Steps: 1) Block fixed commitments: school 7–13, tuition 15–17, sleep 22–6 (8 hrs). 2) Identify available slots: 6–7 (morning peak), 13–15 (post-school), 17–22 (evening). 3) Assign Chemistry to 6–7 AM (peak) and 19–20 PM (peak). 4) Allocate lighter subjects to 13–15 and 17–19. 5) Reserve 20–21 for leisure, 21–22 for wind-down. A wrong answer that puts Chemistry at 13–15 (post-lunch dip) or sacrifices sleep reveals failure to apply peak-period utilization and the non-negotiable nature of rest.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two time plans for a Sunday: Plan X — 10 hours continuous study with 30 min lunch break; Plan Y — 4 study blocks of 90 min each separated by 30 min breaks, plus 2 hours leisure. Analyze which plan better follows the principles of time management (peak productivity, diminishing returns, interchangeability) and why.",
+     "a": "Plan Y is superior. It respects diminishing returns (continuous study reduces efficiency), incorporates rest/leisure (balancing three dimensions), and uses interchangeability (breaks substitute mental fatigue with recovery). Plan X ignores the need for non-work/rest periods, leading to cognitive fatigue. A wrong answer choosing Plan X because \"more hours = better\" reveals the misconception that time quantity outweighs time quality and rhythm.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this proposed daily schedule for a Class 11 student: Study 14 hours, Sleep 4 hours, Meals 1 hour, Leisure 1 hour, Commuting 2 hours, School/Tuition 2 hours. Evaluate its feasibility and health impact using the three-dimension framework and the management process's controlling step.",
+     "a": "The schedule is infeasible and harmful. It violates the three-dimension balance: work (study+school+tuition+commute = 18 hrs) dominates, rest (sleep 4 hrs) is severely deficient, leisure (1 hr) is minimal. Controlling would reveal immediate failure — the student cannot sustain 14-hour study days. A wrong answer calling it \"ambitious but possible\" ignores the biological necessity of 7–9 hours sleep for adolescents (cross-subject link to biology) and the NCERT's emphasis on balance for emotional strength.",
+     "self_check": true
+    },
+    {
+     "q": "Create a weekly time plan (Monday–Sunday) for the week before annual exams. You have 6 subjects, want 3 hours per subject total, school 6 hrs/day (Mon–Sat), sleep 8 hrs/day, meals 2 hrs/day, leisure 1 hr/day. Show daily breakdown and explain how you used the management process steps to build it.",
+     "a": "A strong answer: 1) Planning: Goal = 18 hrs study (6 subjects × 3 hrs). 2) Organizing: Calculate available hours: 24 – (8 sleep + 2 meals + 1 leisure + 6 school) = 7 hrs/day Mon–Sat, 13 hrs Sunday. 3) Implementing: Distribute subjects — e.g., Mon: Physics 2h, Chem 1h; Tue: Bio 2h, Math 1h; etc. 4) Controlling: Daily check — did I complete today's blocks? 5) Evaluation: Sunday mock test to assess retention. A poor answer that allocates all 18 hours to Sunday or ignores daily variation reveals inability to apply the management process systematically.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

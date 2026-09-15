@@ -1,0 +1,467 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 1,
+ "chapter_title": "Exploring the Investigative World of Science",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hecu101.txt",
+ "concepts": [
+  {
+   "id": "c8cu.1.1",
+   "title": "The Scientific Method and Inquiry",
+   "section": "1.1",
+   "definition": "The scientific method is a structured process of asking questions, making observations, forming a hypothesis, conducting experiments, analysing results, and drawing conclusions to understand the natural world.",
+   "formula": "",
+   "key_idea": "The scientific method turns curiosity into reliable knowledge through a systematic, repeatable process.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the main steps of the scientific method?",
+    "How does inquiry lead to scientific knowledge?",
+    "Why is the scientific method called a structured process?",
+    "Give one example of using the scientific method to solve a problem.",
+    "How does a hypothesis guide an investigation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Ask a clear question",
+     "explain": "Identify a phenomenon and frame a specific, testable question about it."
+    },
+    {
+     "step": 2,
+     "action": "Form a hypothesis and test it",
+     "explain": "Make a testable prediction and design a fair experiment to check it."
+    },
+    {
+     "step": 3,
+     "action": "Analyse and conclude",
+     "explain": "Study the results and decide whether they support or reject the hypothesis."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "List the main steps of the scientific method in order.",
+     "solution": "The steps are observation, question, hypothesis, experiment, analysis, and conclusion.",
+     "answer": "Observation, question, hypothesis, experiment, analysis, conclusion."
+    },
+    {
+     "question": "A student notices plants growing taller near a window. State a hypothesis they could test.",
+     "solution": "A possible hypothesis is: plants grow taller when they receive more sunlight.",
+     "answer": "Plants grow taller when they receive more sunlight."
+    },
+    {
+     "question": "Why is the scientific method called a structured process?",
+     "solution": "It follows a fixed sequence of steps that can be repeated by others to check the results.",
+     "answer": "It follows a fixed, repeatable sequence of steps."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How does inquiry lead to scientific knowledge?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of using the scientific method in daily life.",
+     "type": "verify_property"
+    },
+    {
+     "question": "How does a hypothesis guide an investigation?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.1.2",
+   "title": "Observation, Hypothesis, Experiment, and Analysis",
+   "section": "1.2",
+   "definition": "Observation is carefully noting what happens, a hypothesis is a testable prediction, an experiment tests the hypothesis under controlled conditions, and analysis examines the results to draw conclusions.",
+   "formula": "",
+   "key_idea": "Each stage of investigation builds on the previous one to produce reliable evidence.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the difference between an observation and a hypothesis?",
+    "How does an experiment test a hypothesis?",
+    "Why is analysis important after an experiment?",
+    "Give one example of an observation leading to a hypothesis.",
+    "What makes a good hypothesis?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Observe and hypothesise",
+     "explain": "Note what happens and make a testable prediction about the cause."
+    },
+    {
+     "step": 2,
+     "action": "Experiment fairly",
+     "explain": "Change only one variable and keep all other conditions the same."
+    },
+    {
+     "step": 3,
+     "action": "Analyse the results",
+     "explain": "Look for patterns in the data and decide if they support the hypothesis."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the difference between an observation and a hypothesis?",
+     "solution": "An observation is what you notice happening, while a hypothesis is a testable prediction that explains why it happens.",
+     "answer": "Observation is noting what happens; hypothesis is a testable prediction of why."
+    },
+    {
+     "question": "How does an experiment test a hypothesis?",
+     "solution": "An experiment changes one variable while keeping others the same to see if the predicted effect occurs.",
+     "answer": "By changing one variable and checking if the predicted effect occurs."
+    },
+    {
+     "question": "Give one example of an observation leading to a hypothesis.",
+     "solution": "Observing that bread rises when yeast is added leads to the hypothesis that yeast produces a gas that makes dough rise.",
+     "answer": "Yeast making dough rise leads to the hypothesis that yeast produces gas."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why is analysis important after an experiment?",
+     "type": "verify_property"
+    },
+    {
+     "question": "What makes a good hypothesis?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of a fair experiment testing a hypothesis.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.1.3",
+   "title": "Variables and Controls in Experiments",
+   "section": "1.3",
+   "definition": "A variable is something that can change in an experiment; the independent variable is changed, the dependent variable is measured, and controlled variables are kept the same to make the test fair.",
+   "formula": "",
+   "key_idea": "A fair experiment changes only the independent variable while keeping all other variables controlled.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the difference between independent and dependent variables?",
+    "Why are controlled variables important in an experiment?",
+    "Identify the independent variable in a given experiment.",
+    "How does changing one variable at a time make an experiment fair?",
+    "Give one example of a controlled variable in an experiment."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the variables",
+     "explain": "Find the independent, dependent, and controlled variables in the experiment."
+    },
+    {
+     "step": 2,
+     "action": "Change only the independent variable",
+     "explain": "Vary the independent variable while keeping all controlled variables the same."
+    },
+    {
+     "step": 3,
+     "action": "Measure the dependent variable",
+     "explain": "Record how the dependent variable responds to the change."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the difference between independent and dependent variables?",
+     "solution": "The independent variable is the one you change; the dependent variable is the one you measure.",
+     "answer": "Independent is changed; dependent is measured."
+    },
+    {
+     "question": "In an experiment on plant growth with different amounts of water, identify the independent and dependent variables.",
+     "solution": "The amount of water is the independent variable and the height of the plant is the dependent variable.",
+     "answer": "Independent: amount of water; dependent: height of plant."
+    },
+    {
+     "question": "Why are controlled variables important in an experiment?",
+     "solution": "They ensure that only the independent variable causes any change in the result, making the test fair.",
+     "answer": "They keep the test fair so only the independent variable affects the result."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How does changing one variable at a time make an experiment fair?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of a controlled variable in an experiment.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Identify the dependent variable when testing how light affects plant growth.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.1.4",
+   "title": "Scientific Tools and Instruments",
+   "section": "1.4",
+   "definition": "Scientific tools and instruments such as the microscope, thermometer, balance, and graduated cylinder help scientists observe, measure, and record data accurately.",
+   "formula": "",
+   "key_idea": "The right tool improves the accuracy and precision of scientific measurements.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Which instrument is used to measure temperature?",
+    "What is a microscope used for?",
+    "How does a graduated cylinder help in an experiment?",
+    "Name one tool used to measure mass.",
+    "Why are instruments important in science?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify what to measure",
+     "explain": "Decide whether you need to measure length, mass, temperature, or volume."
+    },
+    {
+     "step": 2,
+     "action": "Select the correct instrument",
+     "explain": "Choose the tool designed for that measurement, such as a thermometer for temperature."
+    },
+    {
+     "step": 3,
+     "action": "Use it correctly and record",
+     "explain": "Follow the proper method and write down the reading with units."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which instrument is used to measure temperature?",
+     "solution": "A thermometer is used to measure temperature.",
+     "answer": "Thermometer."
+    },
+    {
+     "question": "What is a microscope used for?",
+     "solution": "A microscope is used to see very small objects such as cells that cannot be seen with the naked eye.",
+     "answer": "To see very small objects like cells."
+    },
+    {
+     "question": "Name one tool used to measure mass.",
+     "solution": "A beam balance or electronic balance is used to measure mass.",
+     "answer": "Beam balance or electronic balance."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How does a graduated cylinder help in an experiment?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why are instruments important in science?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Name one instrument used to observe distant objects.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.1.6",
+   "title": "Science and Society",
+   "section": "1.6",
+   "definition": "Science and society influence each other; scientific discoveries improve health, agriculture, and technology, while social needs guide the problems scientists choose to solve.",
+   "formula": "",
+   "key_idea": "Science serves society by solving real-world problems, and society shapes the direction of science.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How does science affect society?",
+    "Give one example of science improving agriculture.",
+    "How do social needs guide scientific research?",
+    "Name one way science has improved transport.",
+    "Why is science important for public health?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the social need",
+     "explain": "Find a problem in society such as disease, food shortage, or pollution."
+    },
+    {
+     "step": 2,
+     "action": "Find the scientific solution",
+     "explain": "Determine which discovery or technology addresses that need."
+    },
+    {
+     "step": 3,
+     "action": "Explain the benefit",
+     "explain": "Describe how the solution improves people's lives."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does science affect society?",
+     "solution": "Science improves health, food, transport, and communication, making life safer and easier.",
+     "answer": "Science improves health, food, transport, and communication."
+    },
+    {
+     "question": "Give one example of science improving agriculture.",
+     "solution": "Science has developed high-yielding crop varieties and fertilisers that increase food production.",
+     "answer": "High-yielding crops and fertilisers increase food production."
+    },
+    {
+     "question": "How do social needs guide scientific research?",
+     "solution": "Society's needs, such as clean energy, guide scientists to study and solve those problems.",
+     "answer": "Society's needs guide the problems scientists choose to solve."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name one way science has improved transport.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why is science important for public health?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of a social need guiding science.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.1.7",
+   "title": "Ethics in Science",
+   "section": "1.7",
+   "definition": "Ethics in science means being honest, reporting results truthfully, respecting living subjects, and using scientific knowledge responsibly for the benefit of society.",
+   "formula": "",
+   "key_idea": "Scientists must act honestly and responsibly so that knowledge is trustworthy and used for good.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why is honesty important in science?",
+    "What is meant by ethics in science?",
+    "Give one example of unethical behaviour in science.",
+    "Why must scientists report results truthfully?",
+    "How does responsible use of science help society?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the ethical issue",
+     "explain": "Recognise a situation involving honesty, fairness, or responsibility in science."
+    },
+    {
+     "step": 2,
+     "action": "Apply ethical principles",
+     "explain": "Consider honesty, respect for life, and responsibility to society."
+    },
+    {
+     "step": 3,
+     "action": "Explain the correct action",
+     "explain": "State what a responsible scientist should do in that situation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is honesty important in science?",
+     "solution": "Honesty ensures that results are trustworthy and others can rely on them for further work.",
+     "answer": "Honesty makes results trustworthy and reliable."
+    },
+    {
+     "question": "Give one example of unethical behaviour in science.",
+     "solution": "Changing data to fit a desired result, called falsifying results, is unethical.",
+     "answer": "Falsifying results to fit a desired outcome."
+    },
+    {
+     "question": "Why must scientists report results truthfully?",
+     "solution": "Truthful reporting lets others check and build on the work, keeping science reliable.",
+     "answer": "So others can check and build on the work reliably."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is meant by ethics in science?",
+     "type": "verify_property"
+    },
+    {
+     "question": "How does responsible use of science help society?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of a scientist acting responsibly.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.1.8",
+   "title": "Counting Steps and Trials in an Investigation",
+   "section": "1.8",
+   "definition": "We can count the number of steps or trials in a scientific investigation to plan and compare experiments.",
+   "formula": "total steps = number of planned actions in the investigation",
+   "key_idea": "Adding the steps of an investigation gives the total number of actions performed.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "An investigation has 2 observation steps, 1 hypothesis step, and 3 experiment steps. How many steps are there in total?",
+    "Count the total steps if there are 3 observation and 2 analysis steps.",
+    "How many trials are there if 4 experiments are repeated twice?",
+    "Find the total number of steps given 1 hypothesis and 4 experiment steps.",
+    "If a study has 2 observation, 1 hypothesis, 2 experiment, and 2 conclusion steps, what is the total?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the counts of each type of step",
+     "explain": "Write down how many steps there are of each type."
+    },
+    {
+     "step": 2,
+     "action": "Add the counts",
+     "explain": "Sum the counts of all step types to get the total."
+    },
+    {
+     "step": 3,
+     "action": "Verify the total",
+     "explain": "Check that the total equals the sum of the individual step counts."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "An investigation has 2 observation steps, 1 hypothesis step, and 3 experiment steps. How many steps are there in total?",
+     "solution": "Add the counts: 2 + 1 + 3 = 6.",
+     "answer": "6 steps."
+    },
+    {
+     "question": "Count the total steps if there are 3 observation and 2 analysis steps.",
+     "solution": "Add the counts: 3 + 2 = 5.",
+     "answer": "5 steps."
+    },
+    {
+     "question": "If a study has 2 observation, 1 hypothesis, 2 experiment, and 2 conclusion steps, what is the total?",
+     "solution": "Add the counts: 2 + 1 + 2 + 2 = 7.",
+     "answer": "7 steps."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "An investigation has 1 hypothesis and 4 experiment steps. Find the total number of steps.",
+     "type": "compute"
+    },
+    {
+     "question": "Count the total steps if there are 4 observation and 3 conclusion steps.",
+     "type": "compute"
+    },
+    {
+     "question": "If there are 2 hypothesis and 4 experiment steps, what is the total?",
+     "type": "compute"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

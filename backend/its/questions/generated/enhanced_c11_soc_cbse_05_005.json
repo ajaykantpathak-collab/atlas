@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_05_005",
+   "title": "c11_soc_cbse_05_005",
+   "questions": [
+    {
+     "q": "A researcher wants to study the prevalence of child marriage in a district. She collects marriage registration records from the past 10 years, calculates the percentage of brides under 18, and compares it across tehsils. Is this quantitative or qualitative research? Justify your answer in one sentence.",
+     "a": "This is quantitative research because it uses numerical data (marriage records, percentages, comparative statistics) to measure the prevalence and distribution of a social phenomenon across a large population. A wrong answer (e.g., calling it qualitative because it studies a 'sensitive social issue') reveals the misconception that topic sensitivity determines method type rather than data form and analytical logic.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Quantitative research is objective and scientific; qualitative research is subjective and biased.\" Explain why this statement is a misconception using the NCERT concept of 'multi-paradigmatic science' and 'reflexivity'.",
+     "a": "The statement is a misconception because: (1) NCERT states sociology is 'multi-paradigmatic' — both approaches are legitimate scientific methods suited to different questions; (2) Quantitative research also involves subjective choices (variable selection, categorisation, sampling frames); (3) Qualitative research uses reflexivity (systematic self-examination of researcher bias) as a rigorous validity procedure, not an absence of rigour. A wrong answer reveals the student equates 'numbers' with 'objectivity' and fails to grasp that all social research involves interpretive choices.",
+     "self_check": true
+    },
+    {
+     "q": "You are designing a study on \"How do gig workers (food delivery, ride-hailing) experience algorithmic control in Delhi NCR?\" Specify: (a) One quantitative indicator you would measure; (b) One qualitative question you would ask; (c) Which method you would prioritise and why.",
+     "a": "(a) Quantitative indicator: Average number of order rejections per worker per week before account deactivation warning (measurable, countable). (b) Qualitative question: \"Can you describe a time when the app made a decision about your work that felt unfair — what happened and how did you respond?\" (c) Prioritise qualitative because the research question asks 'how do they experience' — requiring depth, meaning, and process understanding that numbers alone cannot capture. A wrong answer (e.g., prioritising quantitative for a 'how' question) reveals inability to match research question type to method epistemology.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sampling logic in quantitative vs qualitative research using the NCERT concepts of 'representativeness' (stratification + randomisation) and 'theoretical saturation'. How does each define a 'good sample'?",
+     "a": "Quantitative: Good sample = statistically representative of population through stratification (identifying relevant sub-groups like caste/class/gender) and randomisation (probability selection), enabling generalisation with known margin of error. Qualitative: Good sample = theoretically saturated (no new themes emerge from additional cases), purposively selected for diversity of perspectives (maximum variation sampling), enabling analytical depth and transferability (not statistical generalisation). A wrong answer conflates the two logics (e.g., demanding random sampling for qualitative work) showing failure to understand distinct validity criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this research design: \"To understand caste discrimination in urban hiring, I will send 1000 identical CVs with only the surname changed (upper caste vs Dalit) and measure callback rates. This quantitative experiment will give us the definitive truth about discrimination.\"",
+     "a": "The design has merit (audit study method) but the claim to 'definitive truth' is flawed: (1) It measures only callback discrimination, not workplace discrimination, promotion barriers, or lived experience; (2) It cannot explain *why* employers discriminate (statistical vs taste-based); (3) It misses intersectionality (caste-gender, caste-class); (4) NCERT warns against privileging one method — triangulation with qualitative interviews of rejected candidates would strengthen validity. A wrong answer (uncritical acceptance) reveals positivist bias and misunderstanding of NCERT's 'multiple methods' principle.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mixed-methods (triangulation) research design for studying \"The impact of digital classrooms on teacher-student relationships in government schools.\" Specify: (1) Quantitative component (indicator, sample, analysis); (2) Qualitative component (method, participants, focus); (3) How the two components will be integrated (sequential? concurrent?).",
+     "a": "(1) Quantitative: Survey of 200 teachers across 20 schools using Likert-scale items on 'perceived connection', 'communication ease', 'assessment fairness' — analysed via t-tests comparing pre/post digital adoption. (2) Qualitative: 30 in-depth interviews (15 teachers, 15 students) + 10 classroom observations focusing on non-verbal cues, power dynamics, emotional labour. (3) Sequential explanatory: Quantitative first to identify patterns, then qualitative to explain *why* patterns exist (e.g., if survey shows 'connection decreased', interviews explore mechanisms). Good answer shows integration logic; poor answer just lists two methods separately without integration plan.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

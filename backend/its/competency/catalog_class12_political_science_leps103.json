@@ -1,0 +1,251 @@
+{
+ "class": 12,
+ "subject": "political_science",
+ "chapter": 10,
+ "chapter_title": "Contemporary South Asia",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leps103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leps.103.1",
+   "title": "South Asia: Geography and States",
+   "section": "The Military and Administration in Pakistan",
+   "definition": "South Asia comprises eight states - India, Pakistan, Bangladesh, Nepal, Bhutan, Sri Lanka, Maldives and Afghanistan - with enormous demographic weight in India and varied political systems from stable democracies to military rules and monarchies.",
+   "formula": "",
+   "key_idea": "One region, many regimes: the subcontinent's states differ in size, systems and stability, which shapes every bilateral tie.",
+   "textbook_ref": "leps103.txt South Asia definition, states and regime variety sections",
+   "question_patterns": [
+    "name the eight states of South Asia",
+    "contrast the political systems of the region's states",
+    "why is India called the region's demographic centre",
+    "state the share of South Asians living in India",
+    "compare Nepal's and Bhutan's political evolution",
+    "locate Afghanistan in South Asian politics"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the states",
+     "explain": "eight South Asian states are listed with their systems"
+    },
+    {
+     "step": 2,
+     "action": "weigh India",
+     "explain": "India holds the region's largest population and economy"
+    },
+    {
+     "step": 3,
+     "action": "close with regimes",
+     "explain": "democracies, monarchies and military rules coexist in the region"
+    }
+   ]
+  },
+  {
+   "id": "leps.103.2",
+   "title": "Pakistan, Bangladesh and Nepal's Politics",
+   "section": "Conflict and Cooperation",
+   "definition": "Pakistan alternated civilian and military rule with the army dominating security policy; Bangladesh born in 1971 through liberation war oscillated between civilian rule and military interventions; Nepal moved from monarchy to constitutional democracy through popular movements and a republican constitution.",
+   "formula": "",
+   "key_idea": "Each state's civil-military balance decides its democracy's depth, and 1971 redrew the region's map and politics.",
+   "textbook_ref": "leps103.txt Pakistan military rule, Bangladesh 1971 and Nepal democracy sections",
+   "question_patterns": [
+    "describe the army's role in Pakistan's politics",
+    "how was Bangladesh created in 1971",
+    "trace Nepal's move from monarchy to republic",
+    "compare Sri Lanka's ethnic conflict with its democracy",
+    "state Bhutan's democratic transition",
+    "relate constitutions to regime stability in the region"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "follow Pakistan's coups",
+     "explain": "military interventions repeatedly displaced civilian governments"
+    },
+    {
+     "step": 2,
+     "action": "date Bangladesh",
+     "explain": "the 1971 liberation war created the new state"
+    },
+    {
+     "step": 3,
+     "action": "close with Nepal",
+     "explain": "popular movements converted monarchy into republic"
+    }
+   ]
+  },
+  {
+   "id": "leps.103.3",
+   "title": "India-Pakistan and Sri Lankan Conflicts",
+   "section": "India and its Other Neighbours",
+   "definition": "India-Pakistan conflict centres on Kashmir, wars of 1947-48, 1965 and 1971 and nuclearisation after the 1998 tests; India-Sri Lanka relations involve the Tamil question and Indian intervention, while China's rise shapes strategic calculations across the region.",
+   "formula": "",
+   "key_idea": "Nuclear tests of 1998 made the subcontinent's central conflict more dangerous and more stable at once - deterrence with brinkmanship.",
+   "textbook_ref": "leps103.txt Kashmir wars, 1998 tests and Sri Lanka sections",
+   "question_patterns": [
+    "outline the Kashmir dispute's origins and course",
+    "name the India-Pakistan wars and their outcomes",
+    "when did India and Pakistan test nuclear devices",
+    "describe India's role in Sri Lanka's ethnic conflict",
+    "how does China influence South Asian strategic politics",
+    "evaluate confidence-building between India and Pakistan"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the wars",
+     "explain": "conflicts of 1947-48, 1965 and 1971 frame the rivalry"
+    },
+    {
+     "step": 2,
+     "action": "date the tests",
+     "explain": "both states tested nuclear devices in 1998"
+    },
+    {
+     "step": 3,
+     "action": "close with Lanka",
+     "explain": "India's peace-keeping involvement coloured Tamil-Sinhala politics"
+    }
+   ]
+  },
+  {
+   "id": "leps.103.4",
+   "title": "Cooperation: SAARC and Regional Peace",
+   "section": "Cooperation and Conflict: SAARC",
+   "definition": "South Asian cooperation runs through SAARC, founded in 1985 for collective self-reliance, and through trade and cultural exchanges; bilateral disputes, especially India-Pakistan, limit integration despite shared histories and democratisation trends across the region.",
+   "formula": "",
+   "key_idea": "SAARC shows both promise and paralysis: agreements exist, but the India-Pakistan freeze caps regional integration.",
+   "textbook_ref": "leps103.txt SAARC founding, programmes and limits sections",
+   "question_patterns": [
+    "when and why was SAARC founded",
+    "name SAARC's areas of cooperation",
+    "what limits SAARC's effectiveness",
+    "how does democratisation affect regional cooperation",
+    "compare SAARC with ASEAN's integration",
+    "suggest measures to deepen South Asian trade"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "date the association",
+     "explain": "SAARC formed in 1985 to promote regional welfare"
+    },
+    {
+     "step": 2,
+     "action": "note the cap",
+     "explain": "India-Pakistan tension blocks summits and protocols"
+    },
+    {
+     "step": 3,
+     "action": "close with hope",
+     "explain": "shared culture and democratisation keep cooperation alive"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_leps103_1",
+   "source_ref": "leps103.txt wars and nuclear dates",
+   "concept": "leps.103.3",
+   "question_type": "compute",
+   "question_pattern": "India and Pakistan became declared nuclear powers in 1998, twenty-one years after the 1971 war. Verify the interval from independence in 1947 to the nuclear tests.",
+   "extracted_variables": {
+    "independence_year": 1947,
+    "test_year": 1998
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "record the years",
+     "explain": "independence 1947, tests 1998",
+     "compute": "independence_year = 1947"
+    },
+    {
+     "step": 2,
+     "action": "subtract",
+     "explain": "1998 - 1947 = 51 years",
+     "compute": "test_lag = test_year - independence_year"
+    }
+   ]
+  },
+  {
+   "id": "we_leps103_2",
+   "source_ref": "leps103.txt Pakistan section",
+   "concept": "leps.103.2",
+   "question_type": "short_answer",
+   "question_pattern": "Give two reasons for the army's dominance in Pakistan.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "security priority",
+     "explain": "conflict with India kept defence at the centre of the state"
+    },
+    {
+     "step": 2,
+     "action": "weak civilian institutions",
+     "explain": "frequent political instability invited military interventions"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "external threat plus internal weakness sustained army rule"
+    }
+   ]
+  },
+  {
+   "id": "we_leps103_3",
+   "source_ref": "leps103.txt SAARC section",
+   "concept": "leps.103.4",
+   "question_type": "short_answer",
+   "question_pattern": "State two achievements and two limits of SAARC.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "achievements",
+     "explain": "a regional framework and social sector agreements were built"
+    },
+    {
+     "step": 2,
+     "action": "limits",
+     "explain": "bilateral disputes stall summits; trade stays far below potential"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "SAARC mirrors the region's politics: much promise, capped by rivalry"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_leps103_1",
+   "source_ref": "leps103.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "name and describe the political systems of South Asian states",
+    "trace India-Pakistan conflicts including the 1998 nuclear tests",
+    "compute years from independence to the nuclear tests",
+    "explain Bangladesh's creation and Nepal's transition",
+    "evaluate SAARC as an instrument of cooperation"
+   ]
+  },
+  {
+   "id": "ex_leps103_2",
+   "source_ref": "leps103.txt applied questions, reworded",
+   "questions": [
+    "argue the effects of democracy on regional peace",
+    "compare Sri Lanka's and Nepal's political crises",
+    "relate China's role to South Asian rivalries",
+    "assess confidence-building measures in South Asia",
+    "design a South Asian water cooperation framework"
+   ]
+  }
+ ]
+}

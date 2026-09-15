@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_01_005",
+   "title": "c11_stat_cbse_01_005",
+   "questions": [
+    {
+     "q": "State the definition of Economics given in the NCERT textbook that highlights the connection between scarce resources, alternative uses, and distribution for consumption.",
+     "a": "Correct answer: \"Economics is the study of how people and society choose to employ scarce resources that could have alternative uses in order to produce various commodities that satisfy their wants and to distribute them for consumption among various persons and groups in society.\" A wrong answer (e.g., \"Economics is the study of money\" or \"Economics is about production only\") reveals the student sees Economics as a subject about wealth or business rather than the science of choice under scarcity — the very reason statistical measurement of scarcity, choice, and distribution becomes essential.",
+     "self_check": true
+    },
+    {
+     "q": "The textbook says: \"Statistical methods are no substitute for common sense.\" Explain this statement using the river-crossing story from the chapter. What exactly went wrong — the statistical method or its application?",
+     "a": "Correct answer: The fault lies in the misuse of averages, not in the statistical method itself. The father correctly calculated the average depth and average height, but applying the average depth to every family member ignored the variation (distribution) — the children were shorter than the average depth at some points. A wrong answer blaming \"averages are useless\" reveals the misconception that statistics gives ready-made decisions; statistics only summarises data — interpretation requires understanding the context (variation, skewness, outliers), which is economic common sense.",
+     "self_check": true
+    },
+    {
+     "q": "A state government wants to design a mid-day meal scheme for school children. Identify the specific statistical data needed at each of these three stages: (a) deciding the budget allocation per child, (b) choosing the nutritional composition, (c) evaluating the scheme after one year.",
+     "a": "Correct answer: (a) Per capita income of families, number of school-going children, current food expenditure per household (quantitative data for budget sizing). (b) Nutritional deficiency data (anaemia rates, stunting percentages), local food price indices, calorie/protein requirements by age (quantitative + qualitative health data). (c) Attendance rates before/after, anthropometric measurements (height/weight), dropout rates, meal consumption records (longitudinal data for impact evaluation). A wrong answer listing only \"number of children\" for all stages reveals the student cannot differentiate between cross-sectional data (for planning) and panel/time-series data (for evaluation) — a critical distinction in economic statistics.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two statements: (i) \"India's GDP grew by 7.2% in 2022-23.\" (ii) \"India's development has improved.\" Which is a statistical statement? Which is an economic judgement? Explain why Statistics alone cannot validate statement (ii).",
+     "a": "Correct answer: (i) is a statistical statement — it is a precise, verifiable numerical fact derived from national accounts data. (ii) is an economic judgement — \"development\" is a multidimensional concept (health, education, equity, sustainability) that GDP alone does not capture. Statistics cannot validate (ii) because development requires normative choices (what weights to give to literacy vs. income vs. clean air) which are value judgements, not measurable facts. A wrong answer saying \"GDP growth proves development\" reveals the conflation of a statistical indicator with the economic concept it imperfectly proxies — a classic senior-secondary error.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this policy claim: \"Since the average farm size in India is 1.08 hectares (Agriculture Census 2015-16), the government should design all agricultural schemes for 1-hectare farms.\" Use the concepts of 'condensation of mass data' and 'loss of information' from the chapter.",
+     "a": "Correct answer: The claim misuses a summary statistic (mean) by ignoring the distribution. The average condenses millions of farms into one number, but the distribution is highly skewed — 86% of holdings are marginal (<1 ha) while a few large holdings pull the mean up. Designing schemes for the \"average\" farm would exclude the majority of marginal farmers and over-resource large farms. Statistics condensed the data (function), but the user lost the distributional information (limitation). A wrong answer defending the claim using \"average represents the typical farm\" reveals failure to understand that in skewed economic distributions, the mean is not representative — the median or full frequency distribution is needed for policy targeting.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new real-world scenario (different from textbook examples) where an economic decision requires: (a) qualitative data, (b) quantitative data, (c) establishing a relationship between two variables, and (d) forecasting. Specify the exact data types and the statistical purpose at each step.",
+     "a": "Expected answer criteria: A coherent scenario (e.g., municipal corporation deciding on electric bus fleet size) with: (a) qualitative — commuter satisfaction surveys (Likert scale: very dissatisfied to very satisfied), purpose: understand non-price barriers; (b) quantitative — daily ridership counts, current diesel bus km, electricity tariff per kWh, purpose: cost-benefit inputs; (c) relationship — regression of ridership on fare, frequency, and travel time using past data, purpose: demand elasticity estimation; (d) forecasting — time-series projection of ridership for 2028 using population growth and urbanisation trends, purpose: fleet procurement planning. A poor answer mixing up data types (e.g., calling satisfaction scores \"quantitative\" without coding) or omitting the statistical purpose reveals inability to map the statistical functions (collection, condensation, relationship, prediction) to an economic decision cycle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

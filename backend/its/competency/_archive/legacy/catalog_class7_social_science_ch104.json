@@ -1,0 +1,433 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 104,
+ "chapter_title": "The Mughals (16th to 17th Century)",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/gess104.txt",
+ "concepts": [
+  {
+   "id": "gess.104.1",
+   "title": "Lineage and Ancestry of the Mughals",
+   "section": "Who were the Mughals?",
+   "definition": "The ruling Mughal family possessed dual royal heritage, tracing maternal roots to Genghis Khan of the Mongols and paternal ties to Timur of Central Asia.",
+   "formula": "paternal_lineage = Timurid + maternal_lineage = Mongol",
+   "key_idea": "Mughals proudly identified with Timurid heritage while disassociating from Mongol massacres.",
+   "textbook_ref": "gess104.txt lines 30-55",
+   "question_patterns": [
+    "in Class 7 history who were the ancestors of the Mughals",
+    "describe the dual lineage of Mughal rulers",
+    "why did Mughals prefer Timurid ancestry over Mongol ancestry",
+    "explain how Genghis Khan and Timur were related to the Mughals",
+    "identify the paternal and maternal roots of the Mughal dynasty"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine maternal descent",
+     "explain": "Trace lineage from Genghis Khan who ruled parts of China and Central Asia."
+    },
+    {
+     "step": 2,
+     "action": "Examine paternal descent",
+     "explain": "Trace lineage from Timur who ruled Iran, Iraq, and modern Turkey."
+    },
+    {
+     "step": 3,
+     "action": "Analyze preference for Timurid heritage",
+     "explain": "Note that Genghis Khan was linked to memory of massacres and Uzbeg rivals."
+    }
+   ]
+  },
+  {
+   "id": "gess.104.2",
+   "title": "Mughal Inheritance Practices",
+   "section": "Mughal Traditions of Succession",
+   "definition": "Rather than following eldest-son inheritance, the Mughals practiced shared family succession where royal territories were split among all imperial sons.",
+   "formula": "coparcenary_inheritance = total_estate / all_sons",
+   "key_idea": "Division of royal estates equally among sons instead of reserving full rights for the eldest son.",
+   "textbook_ref": "gess104.txt lines 70-85",
+   "question_patterns": [
+    "in Class 7 history compare primogeniture and coparcenary inheritance",
+    "what tradition of succession was followed by Mughal emperors",
+    "explain why Mughals divided their inheritance among all sons",
+    "differentiate between coparcenary division and eldest son inheritance",
+    "how did Mughal succession rules differ from primogeniture"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define primogeniture",
+     "explain": "Inheritance model where only the eldest son receives the complete paternal estate."
+    },
+    {
+     "step": 2,
+     "action": "Define coparcenary inheritance",
+     "explain": "Mughal and Timurid custom of partitioning inheritance among all sons."
+    }
+   ]
+  },
+  {
+   "id": "gess.104.3",
+   "title": "Mughal Relations with Rajputs and Regional Rulers",
+   "section": "Mughal Relations with Other Rulers",
+   "definition": "Mughal imperial expansion relied on a combination of military operations and marital alliances with local rulers, ensuring respectful treatment even after battlefield victories.",
+   "formula": "stability = diplomatic_balance + matrimonial_alliances",
+   "key_idea": "Strategic integration of vanquished and voluntary regional rulers through high posts and land assignments.",
+   "textbook_ref": "gess104.txt lines 86-115",
+   "question_patterns": [
+    "in Class 7 history how did Mughals deal with defeated rulers",
+    "describe Mughal relations with Rajput rulers",
+    "explain the diplomatic balance maintained by Mughals toward regional chiefs",
+    "what policy did Mughals adopt after conquering opposing rulers",
+    "discuss how marriage alliances strengthened Mughal power"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze matrimonial alliances",
+     "explain": "Observe marriages with Rajput families such as Amber and Marwar princesses."
+    },
+    {
+     "step": 2,
+     "action": "Analyze post-war treatment",
+     "explain": "Recognize that defeated adversaries were honourably given back their lands as assignments."
+    }
+   ]
+  },
+  {
+   "id": "gess.104.4",
+   "title": "Mansabdari System and Administration",
+   "section": "Mansabdars and Jagirdars",
+   "definition": "The Mughal administrative framework assigned ranked positions to military and civil officers, determining their pay, required cavalry contingent, and land revenue allocations.",
+   "formula": "mansab_status = f(zat_rank, sawar_contingent)",
+   "key_idea": "Hierarchical grading mechanism linking salary and cavalry obligations to numerical rank values.",
+   "textbook_ref": "gess104.txt lines 116-160",
+   "question_patterns": [
+    "in Class 7 history define mansabdar and explain the role of zat",
+    "what were the responsibilities of a mansabdar in Mughal administration",
+    "how was the salary and status of a mansabdar fixed",
+    "explain the difference between mansabdar and jagirdar",
+    "describe how sawars were inspected and maintained by a noble"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify mansab position",
+     "explain": "Mansab refers to a rank or position held by an individual officer in Mughal service."
+    },
+    {
+     "step": 2,
+     "action": "Identify zat numerical value",
+     "explain": "Zat determined prestige, salary, and position in the imperial court."
+    },
+    {
+     "step": 3,
+     "action": "Identify sawar duties and jagir assignments",
+     "explain": "Nobles maintained cavalrymen (sawars) and received salaries through revenue assignments called jagirs."
+    }
+   ]
+  },
+  {
+   "id": "gess.104.5",
+   "title": "Percentage of High Ranking Mansabdars",
+   "section": "Mansabdars and Jagirdars",
+   "definition": "Evaluating the numerical proportion of top-tier imperial officers relative to the entire military and civil administration.",
+   "formula": "percentage = (high_rank_count / total_mansabdars) * 100",
+   "key_idea": "Mathematical calculation of the concentration of high-ranking nobles in the Mughal state hierarchy.",
+   "textbook_ref": "gess104.txt lines 185-210",
+   "question_patterns": [
+    "in Class 7 history compute the percentage of high ranking mansabdars given high_rank_count and total_mansabdars",
+    "calculate the percentage share of top mansabdars in Mughal service",
+    "find what percentage of total mansabdars held high ranks in Akbar or Shah Jahan administration",
+    "determine the proportion of high rank nobles out of total mansabdars",
+    "what is the percentage of high ranking mansabdars if high_rank_count is high_rank_count and total_mansabdars is total_mansabdars"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate ratio of high ranking mansabdars",
+     "explain": "Divide high rank count by total mansabdars",
+     "compute": "ratio = high_rank_count / total_mansabdars"
+    },
+    {
+     "step": 2,
+     "action": "Convert ratio to percentage",
+     "explain": "Multiply ratio by 100",
+     "compute": "percentage = ratio * 100"
+    }
+   ]
+  },
+  {
+   "id": "gess.104.6",
+   "title": "Zabt Revenue System and Zamindars",
+   "section": "Zabt and Zamindars",
+   "definition": "A structured land revenue arrangement introduced by Todar Mal, relying on extensive crop yields and price surveys across individual revenue districts.",
+   "formula": "revenue_tax = assessed_yield * crop_rate",
+   "key_idea": "Tax collection based on decade-long statistical assessment of agricultural productivity and land surveys.",
+   "textbook_ref": "gess104.txt lines 161-195",
+   "question_patterns": [
+    "in Class 7 history what was the zabt revenue system",
+    "explain the role of Todar Mal in Mughal land revenue collection",
+    "who were zamindars and what was their role in Mughal administration",
+    "describe how revenue rates were fixed for individual crops under zabt",
+    "why was zabt not applicable in regions like Bengal and Gujarat"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify Todar Mal revenue survey",
+     "explain": "Akbar revenue minister conducted a 10-year survey of crop yields, prices, and cultivated areas."
+    },
+    {
+     "step": 2,
+     "action": "Define revenue circles and schedules",
+     "explain": "Each province had revenue circles with fixed schedule rates for individual crops."
+    },
+    {
+     "step": 3,
+     "action": "Define role of zamindars",
+     "explain": "Zamindars were local headmen or chieftains acting as tax collecting intermediaries."
+    }
+   ]
+  },
+  {
+   "id": "gess.104.7",
+   "title": "Akbar Nama and Ain-i Akbari",
+   "section": "Akbar Nama and Ain-i Akbari",
+   "definition": "A comprehensive three-part historical documentation authored by Abul Fazl detailing Akbar's lineage, administrative events, and statistical records of the empire.",
+   "formula": "akbar_nama = volume_1_ancestors + volume_2_events + volume_3_ain_i_akbari",
+   "key_idea": "Detailed chronicle containing administrative facts, economic figures, and cultural details of Akbar's empire.",
+   "textbook_ref": "gess104.txt lines 196-225",
+   "question_patterns": [
+    "in Class 7 history what is the significance of Akbar Nama and Ain-i Akbari",
+    "who wrote Akbar Nama and what contents are covered in its three volumes",
+    "explain the statistical importance of Ain-i Akbari",
+    "describe the historical work composed by Abul Fazl for Akbar",
+    "what information does the third volume of Akbar Nama provide"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify author and structure",
+     "explain": "Abul Fazl wrote a three-volume history of Akbar reign titled Akbar Nama."
+    },
+    {
+     "step": 2,
+     "action": "Examine contents of volume 3",
+     "explain": "Ain-i Akbari contains administrative details, crop yields, prices, wages, and revenue statistics."
+    }
+   ]
+  },
+  {
+   "id": "gess.104.8",
+   "title": "Sulh-i Kul and Akbar's Governance Policy",
+   "section": "Sulh-i kul",
+   "definition": "An inclusive governance philosophy of universal harmony championed by Akbar, advocating tolerance, justice, and non-discrimination across religious beliefs.",
+   "formula": "governance_policy = universal_peace + religious_tolerance",
+   "key_idea": "Statecraft built on broad religious tolerance, ethical administration, and peaceful coexistence.",
+   "textbook_ref": "gess104.txt lines 235-260",
+   "question_patterns": [
+    "in Class 7 history explain Akbar policy of sulh-i kul",
+    "what does the term sulh-i kul mean and how was it implemented",
+    "describe how debates at Ibadat Khana influenced Akbar ideas of governance",
+    "how did Jahangir describe the concept of universal peace followed by his father",
+    "why was universal tolerance important for governing a diverse Mughal empire"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define sulh-i kul",
+     "explain": "Sulh-i kul translates to universal peace, prohibiting discrimination based on religion or creed."
+    },
+    {
+     "step": 2,
+     "action": "Identify principles of governance",
+     "explain": "System focused on honesty, justice, and peace enforced uniformly across the imperial state."
+    }
+   ]
+  },
+  {
+   "id": "gess.104.9",
+   "title": "Mansabdar Rank Increase Calculation",
+   "section": "Mansabdars and Jagirdars",
+   "definition": "Determining the total expansion in high-ranking noble numbers across successive Mughal rulers' reigns.",
+   "formula": "net_increase = count_aurangzeb - count_akbar",
+   "key_idea": "Measuring the administrative growth of mansabdar appointments over time.",
+   "textbook_ref": "gess104.txt lines 135-155",
+   "question_patterns": [
+    "in Class 7 history find the increase in 5000 zat mansabdars from Akbar reign to Aurangzeb reign",
+    "calculate the net increase in mansabdars between two periods",
+    "determine how many more mansabdars were present given count_aurangzeb and count_akbar",
+    "what is the total increase in top rank mansabdars from count_akbar to count_aurangzeb",
+    "compute the growth in mansabdar count given count_akbar and count_aurangzeb"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract Akbar era mansabdar count from Aurangzeb era count",
+     "explain": "Find the difference between final and initial mansabdar counts",
+     "compute": "net_increase = count_aurangzeb - count_akbar"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gess104.txt page 45",
+   "concept": "gess.104.5",
+   "question_type": "compute",
+   "question_pattern": "In Shah Jahan reign, there were 445 high ranking mansabdars out of a total of 8000. Calculate the percentage of high ranking mansabdars.",
+   "extracted_variables": {
+    "high_rank_count": 445,
+    "total_mansabdars": 8000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate ratio of high ranking mansabdars",
+     "explain": "Divide high rank count by total mansabdars",
+     "compute": "ratio = high_rank_count / total_mansabdars"
+    },
+    {
+     "step": 2,
+     "action": "Convert ratio to percentage",
+     "explain": "Multiply ratio by 100",
+     "compute": "percentage = ratio * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gess104.txt page 42",
+   "concept": "gess.104.5",
+   "question_type": "compute",
+   "question_pattern": "If an administration has 29 top rank nobles out of a total of 1450 mansabdars, calculate the percentage of top rank nobles.",
+   "extracted_variables": {
+    "high_rank_count": 29,
+    "total_mansabdars": 1450
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate ratio of high ranking mansabdars",
+     "explain": "Divide high rank count by total mansabdars",
+     "compute": "ratio = high_rank_count / total_mansabdars"
+    },
+    {
+     "step": 2,
+     "action": "Convert ratio to percentage",
+     "explain": "Multiply ratio by 100",
+     "compute": "percentage = ratio * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "gess104.txt page 42",
+   "concept": "gess.104.9",
+   "question_type": "compute",
+   "question_pattern": "In Akbar reign there were 29 mansabdars of 5000 zat, and by Aurangzeb reign there were 79 mansabdars of 5000 zat. Calculate the net increase in high ranking mansabdars.",
+   "extracted_variables": {
+    "count_akbar": 29,
+    "count_aurangzeb": 79
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract Akbar era mansabdar count from Aurangzeb era count",
+     "explain": "Find the difference between final and initial mansabdar counts",
+     "compute": "net_increase = count_aurangzeb - count_akbar"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "gess104.txt page 42",
+   "concept": "gess.104.9",
+   "question_type": "compute",
+   "question_pattern": "If the count of high rank nobles increases from 20 in an early period to 65 in a later period, calculate the net growth in nobles.",
+   "extracted_variables": {
+    "count_akbar": 20,
+    "count_aurangzeb": 65
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract Akbar era mansabdar count from Aurangzeb era count",
+     "explain": "Find the difference between final and initial mansabdar counts",
+     "compute": "net_increase = count_aurangzeb - count_akbar"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex104.1",
+   "source_ref": "gess104.txt page 46",
+   "questions": [
+    "Match the following: Mansab - rank, Mongol - Uzbeg, Sisodiya Rajput - Mewar, Rathor Rajput - Marwar, Nur Jahan - Jahangir"
+   ]
+  },
+  {
+   "id": "ex104.2",
+   "source_ref": "gess104.txt page 46-47",
+   "questions": [
+    "Fill in the blanks: (a) The five Deccan Sultanates were Berar, Khandesh, Ahmadnagar, Bijapur and Golconda. (b) If zat determined rank and salary, sawar indicated military responsibility. (c) Abul Fazl helped Akbar frame the idea of sulh-i kul so that he could govern a diverse society."
+   ]
+  },
+  {
+   "id": "ex104.3",
+   "source_ref": "gess104.txt page 47",
+   "questions": [
+    "What were the central provinces under the control of the Mughals?"
+   ]
+  },
+  {
+   "id": "ex104.4",
+   "source_ref": "gess104.txt page 47",
+   "questions": [
+    "What was the relationship between the mansabdar and the jagir?"
+   ]
+  },
+  {
+   "id": "ex104.5",
+   "source_ref": "gess104.txt page 47",
+   "questions": [
+    "State clearly what administration means in this chapter and why it matters."
+   ]
+  },
+  {
+   "id": "ex104.6",
+   "source_ref": "gess104.txt page 47",
+   "questions": [
+    "Describe, step by step and in your own words, the way governance works."
+   ]
+  },
+  {
+   "id": "ex104.7",
+   "source_ref": "gess104.txt page 47",
+   "questions": [
+    "Give a reason, in your own words, for the behaviour of emphasise described here."
+   ]
+  },
+  {
+   "id": "ex104.8",
+   "source_ref": "gess104.txt page 47",
+   "questions": [
+    "Why was it important for the Mughals to recruit mansabdars from diverse backgrounds and not just Turanis and Iranis?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

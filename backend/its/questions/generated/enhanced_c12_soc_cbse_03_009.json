@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_03_009",
+   "title": "c12_soc_cbse_03_009",
+   "questions": [
+    {
+     "q": "Define \"joint family\" in the Indian sociological context and distinguish it from the vernacular understanding of \"extended family.\" Why does I.P. Desai argue the term 'joint family' is not a native Indian category?",
+     "a": "A joint family is a residential, commensal, and coparcenary unit comprising multiple married couples (usually brothers) and their children, sharing a common kitchen, property, and worship. It differs from \"extended family\" which is a broader kinship network that may not co-reside or share property. I.P. Desai notes Indian languages lack a direct equivalent — terms like *sanyukta parivar* are back-translations from English. A wrong answer (e.g., \"any large family living together\") reveals confusion between structural criteria (coparcenary, commensality) and mere household size, missing the legal-economic core of the joint family.",
+     "self_check": true
+    },
+    {
+     "q": "Explain how industrialisation in colonial India (e.g., Bombay textile mills, Calcutta jute mills) simultaneously weakened joint family co-residence *and* reinforced caste-based recruitment networks. Use the concept of \"jobbers\" or *mukadams* in your answer.",
+     "a": "Industrialisation pulled male workers out of village joint households into urban mill chawls, breaking co-residence. However, jobbers (*mukadams*) recruited labour from their own caste/village networks, recreating caste-segregated work gangs that functioned like \"occupational joint families\" — sharing housing, credit, and rituals. A wrong answer focusing only on \"breakdown of tradition\" misses this dual process: structural nuclearisation at the household level coexisted with caste-based collectivism at the workplace level, a pattern documented by scholars like Chandavarkar and Morris.",
+     "self_check": true
+    },
+    {
+     "q": "A 2021 study in Hyderabad's IT corridor finds that 68% of tech professionals live in nuclear families, yet 82% contribute financially to parents' households in Tier-2 towns. Using the concepts of \"dispersed jointness\" and \"remittance kinship,\" analyse whether this represents a decline or transformation of the joint family.",
+     "a": "This is transformation, not decline. \"Dispersed jointness\" (Uberoi 1993) describes kinship obligations maintained across geographic distance via remittances, digital communication, and periodic co-residence (festivals, caregiving). The nuclear household is a *residential adaptation* to urban housing/labour markets, while joint family *functions* (intergenerational support, ritual unity, property management) persist through financial transfers. A wrong answer citing only \"nuclear family rise\" ignores how Indian modernity reconfigures rather than replaces kinship solidarity — a key distinction from Western modernisation theory.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of urbanisation on joint families in two contexts: (a) migrant industrial workers in 1960s Dhanbad coal belts, and (b) middle-class professionals in 2020s Gurugram. How do housing type (company quarters vs. owned apartments) and women's employment shape divergent outcomes?",
+     "a": "In Dhanbad, company quarters (single-room tenements) forced nuclearisation but preserved caste-based neighbourhoods where joint family functions (childcare, credit, rituals) operated *between* households. In Gurugram, owned apartments enable nuclear privacy, but dual-career couples rely on *paid domestic labour* (often migrant women from joint families back home) and *grandparent rotation* for childcare — outsourcing joint family functions. Women's employment accelerates nuclearisation in both, but middle-class families *purchase* support services while working-class families *exchange* them within caste networks. A wrong answer treating urbanisation as a uniform force misses how class mediates the joint family's adaptation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Hindu Succession Act (1956, amended 2005) accelerated joint family decline by granting daughters coparcenary rights, making partition inevitable.\" Consider legal, economic, and normative dimensions.",
+     "a": "The claim is partially valid but oversimplified. Legally, the 2005 amendment equalised daughters' coparcenary rights, increasing partition suits. Economically, land fragmentation and rising urban property values incentivise monetising shares. Normatively, however, many families *avoid* formal partition through family settlements (*baat-baate*), keeping property undivided while allocating usufruct rights — preserving joint family *ethos* despite legal individualisation. Studies (e.g., Agnes 2009) show daughters often relinquish claims to maintain natal family ties. A wrong answer treating law as deterministic ignores how families strategically use legal tools to sustain kinship solidarity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a research question and mixed-methods strategy to investigate whether \"living apart together\" (LAT) arrangements among elderly parents and adult children in metropolitan India represent a new family form or a continuation of joint family obligations. Specify your sampling frame, key variables, and how you would distinguish LAT from \"neglect.\"",
+     "a": "Research question: \"How do elderly parents and adult children in Delhi/NCR negotiate care, authority, and intimacy in LAT arrangements where they live within 5km but maintain separate kitchens?\" Sampling: Stratified by class (slum resettlement colony, government colony, gated community), caste, and migrant status. Variables: frequency of shared meals, financial transfers, decision-making authority, crisis caregiving, ritual participation. Distinguish LAT from neglect by measuring *voluntariness* (mutual agreement vs. forced separation), *reciprocity* (bidirectional flows), and *normative framing* (do actors describe it as \"modern convenience\" or \"compulsory adjustment\"?). A poor answer would rely solely on census household definitions, missing the lived experience of kinship across walls.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

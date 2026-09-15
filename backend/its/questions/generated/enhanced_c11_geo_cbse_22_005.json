@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_22_005",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_22_005",
+   "title": "c11_geo_cbse_22_005",
+   "questions": [
+    {
+     "q": "What is the magnetic declination and why must it be applied when using a compass with a topographic map?",
+     "a": "Magnetic declination is the horizontal angle between true north (geographic north) and magnetic north (direction a compass needle points). It must be applied because topographic maps are oriented to true north (grid north), while a compass points to magnetic north; ignoring declination introduces a directional error equal to the declination value (e.g., 2° E in central India), causing navigation mistakes. A wrong answer (e.g., \"declination is the angle between grid north and magnetic north only\") reveals confusion between the three norths and suggests the student cannot correctly orient a map in the field.",
+     "self_check": true
+    },
+    {
+     "q": "On a 1:50,000 map, a student measures a curved river length as 8.5 cm using a thread and then multiplies by 50,000 to get 425,000 cm = 4.25 km. Is this correct? Explain why or why not.",
+     "a": "The method is correct in principle but the arithmetic is wrong: 8.5 cm × 50,000 = 425,000 cm = 4.25 km (since 1 km = 100,000 cm). Actually 425,000 cm = 4.25 km, so the answer is numerically correct. However, a common error is forgetting to convert cm to km (dividing by 100,000) and stating 425 km. If a student answers \"425 km\", it reveals they do not understand the unit conversion embedded in the Representative Fraction. The correct reasoning: RF 1:50,000 means 1 cm on map = 50,000 cm on ground; 50,000 cm = 0.5 km, so 8.5 cm = 4.25 km.",
+     "self_check": true
+    },
+    {
+     "q": "A topographic map has a contour interval of 20 m. Two points A and B have spot heights 1,240 m and 1,380 m respectively. The horizontal map distance between them is 2.8 cm on a 1:25,000 scale. Calculate the average gradient between A and B and express it as a ratio (1:X).",
+     "a": "Step 1: Vertical interval (VI) = 1,380 - 1,240 = 140 m.  \nStep 2: Map distance = 2.8 cm. Ground distance (HE) = 2.8 cm × 25,000 = 70,000 cm = 700 m = 0.7 km.  \nStep 3: Gradient = VI / HE = 140 m / 700 m = 0.2 = 1/5.  \nStep 4: Gradient ratio = 1 : 5 (or 1 in 5).  \nA wrong answer (e.g., 1:25 or 1:0.2) indicates the student either used map distance directly without converting to ground distance, or inverted the ratio. This shows inability to handle unit conversion and gradient definition.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the contour patterns of a 'V-shaped valley' and a 'U-shaped valley' on a topographic map. How would you distinguish them using only contour lines and spot heights?",
+     "a": "A V-shaped valley (fluvial) shows contour lines forming sharp V's pointing uphill (towards higher elevation) with relatively uniform spacing, indicating steady slope. A U-shaped valley (glacial) shows contour lines forming broad, flat-bottomed U's with wider spacing on the valley floor and very close contours on the steep sides, often with hanging valleys indicated by tributary contours entering at higher elevations. Spot heights on the valley floor of a U-shaped valley are more widely spaced. A student who says \"both look like V's\" cannot differentiate erosional processes and lacks the skill to infer geological history from map evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the suitability of using a straight-line distance measurement (as the crow flies) versus a route-distance measurement along a contour-hugging path for estimating walking time in mountainous terrain. Which is more appropriate and why?",
+     "a": "Route-distance along a contour-hugging path (following ridges, spurs, or gradual slopes) is far more appropriate because walking time depends on actual path length and gradient, not Euclidean distance. Straight-line distance ignores the detours forced by cliffs, rivers, and steep slopes, and does not account for elevation gain. A student who prefers straight-line distance for walking time estimation fails to integrate relief interpretation with practical navigation, a critical error in field geography.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step procedure to construct a cross-section along a line XY on a 1:50,000 topographic sheet with contour interval 20 m, such that the vertical exaggeration is exactly 5 times. Specify the vertical scale to use.",
+     "a": "Procedure:  \n1. Draw line XY on the map; mark every contour crossing and spot height along it.  \n2. Measure horizontal map distance between X and Y (say 12 cm). Ground distance = 12 cm × 50,000 = 600,000 cm = 6 km.  \n3. For vertical exaggeration (VE) = 5, vertical scale (VS) = horizontal scale (HS) / VE. HS = 1:50,000, so VS = 1:10,000 (i.e., 1 cm = 100 m).  \n4. On graph paper, draw horizontal axis to same length as XY (12 cm).  \n5. Draw vertical axis using VS: each cm = 100 m. Plot elevations at each contour crossing.  \n6. Join points with smooth curve. Label features.  \nA poor answer omits the vertical scale calculation or uses the same scale for both axes (VE=1), showing misunderstanding of vertical exaggeration concept.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

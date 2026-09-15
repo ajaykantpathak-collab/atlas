@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_12_004",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_12_004",
+   "title": "c12_bio_cbse_12_004",
+   "questions": [
+    {
+     "q": "What are the two polypeptide chains of mature human insulin and how many amino acids does each chain contain?",
+     "a": "Mature human insulin consists of an A chain of 21 amino acids and a B chain of 30 amino acids. A wrong answer (e.g., \"A chain 30, B chain 21\" or \"both 51 amino acids\") reveals the student has not memorized the basic structural unit of insulin and will be unable to follow the gene design strategy where separate oligonucleotides for A and B chains are synthesized.",
+     "self_check": true
+    },
+    {
+     "q": "Why is human insulin not expressed as a single proinsulin polypeptide in the cytoplasm of *E. coli* in the classic two-chain production method?",
+     "a": "The cytoplasm of *E. coli* is a reducing environment (high glutathione concentration) that prevents disulfide bond formation; additionally, *E. coli* lacks the specific proteases (prohormone convertases) that cleave the C-peptide in eukaryotic secretory pathways. Expressing proinsulin in the cytoplasm would yield an insoluble, inactive inclusion body with incorrect folding. A wrong answer like \"because proinsulin is too large\" or \"because bacteria cannot translate human codons\" shows confusion between folding/processing limitations and translation capability.",
+     "self_check": true
+    },
+    {
+     "q": "In the two-chain *E. coli* expression system, the genes for the A and B chains are often fused to the *lacZ* gene encoding β-galactosidase. What is the primary purpose of this fusion strategy?",
+     "a": "The fusion to β-galactosidase serves two purposes: (1) it allows high-level expression driven by the strong *lac* promoter, and (2) the large fusion partner stabilizes the small insulin peptides against rapid degradation by bacterial proteases and promotes formation of inclusion bodies, facilitating purification by centrifugation. A student answering \"to make the insulin enzymatically active\" or \"to secrete insulin into the medium\" misunderstands that the fusion protein is cytoplasmic and inactive; the insulin chains must be cleaved off (e.g., by cyanogen bromide at a Met residue) and reassembled in vitro.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the yield and immunogenicity of recombinant human insulin produced in *E. coli* versus porcine insulin extracted from pig pancreas. Which is superior on each parameter and why?",
+     "a": "Recombinant human insulin is superior on both parameters: (1) Yield — fermentation of *E. coli* gives grams per liter of culture, far exceeding the limited supply from slaughterhouse pancreases (1 kg insulin requires ~50,000 pig pancreases); (2) Immunogenicity — recombinant insulin is identical to human insulin (zero amino acid differences), whereas porcine insulin differs at B30 (Thr→Ala), causing anti-insulin antibody formation in some patients. A wrong answer claiming porcine insulin has lower immunogenicity because it is \"natural\" ignores the molecular basis of immune recognition.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher attempts to produce human insulin by cloning the cDNA for human preproinsulin into an *E. coli* expression vector with a strong promoter and inducing expression. The expressed protein forms inclusion bodies. After solubilization and purification, the researcher tries to refold the protein by dialysis but obtains <1% biologically active insulin. Evaluate why this approach fails and propose the correct strategy used commercially.",
+     "a": "The approach fails because: (a) *E. coli* cytoplasm lacks the signal peptidase to cleave the signal peptide, so preproinsulin accumulates; (b) the reducing cytoplasm prevents disulfide bond formation; (c) *E. coli* lacks prohormone convertases (PC1/3, PC2) and carboxypeptidase E to excise the C-peptide correctly. Commercial strategy: express A and B chains separately as fusion proteins (or express proinsulin in periplasm/yeast where oxidative folding occurs, then use enzymatic C-peptide removal). A student suggesting \"use a stronger promoter\" or \"lower the temperature\" without addressing the fundamental processing/folding incompatibility shows inability to diagnose host-specific post-translational limitations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simplified experimental workflow to produce human insulin in *Saccharomyces cerevisiae* (yeast) using a proinsulin expression strategy. List the key genetic elements needed in the expression vector and the post-fermentation processing steps.",
+     "a": "Key vector elements: (1) Yeast replication origin (ARS) and selection marker (e.g., *URA3*); (2) Strong inducible promoter (e.g., *GAL1* or *PHO5*); (3) Yeast signal sequence (e.g., α-factor prepro-leader) for secretion into periplasm/medium; (4) Human proinsulin cDNA optimized for yeast codon usage; (5) Terminator (e.g., *CYC1*). Processing: Fermentation → induction → harvest supernatant (secreted proinsulin) → purification (ion exchange) → enzymatic cleavage of C-peptide using trypsin/carboxypeptidase B or specific protease → purification of mature insulin (RP-HPLC). A poor answer omits the secretion signal (leading to cytoplasmic inclusion bodies) or suggests chemical cleavage of C-peptide (which is enzymatic in eukaryotes).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

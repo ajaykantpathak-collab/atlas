@@ -1,0 +1,606 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 20,
+ "chapter_title": "Money and Credit",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess203.txt",
+ "concepts": [
+  {
+   "id": "c10ss.20.1",
+   "title": "Barter System and the Invention of Money",
+   "section": "Money as a Medium of Exchange",
+   "definition": "The barter system is a method of exchange in which goods are directly traded for other goods without the use of money; money was invented to overcome the problems of barter, especially the lack of double coincidence of wants.",
+   "formula": "",
+   "key_idea": "Money acts as a medium of exchange that removes the need for a double coincidence of wants, making trade easier and faster than barter.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the barter system?",
+    "What is meant by double coincidence of wants?",
+    "How did money solve the problems of the barter system?",
+    "Why is money called a medium of exchange?",
+    "Explain the limitations of the barter system."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the barter system",
+     "explain": "Note that in the barter system goods are exchanged directly for other goods without using money."
+    },
+    {
+     "step": 2,
+     "action": "Identify the double coincidence problem",
+     "explain": "Check that barter requires a double coincidence of wants -- both persons must want what the other has -- which is hard to find."
+    },
+    {
+     "step": 3,
+     "action": "Explain the role of money",
+     "explain": "Confirm that money, as an accepted medium of exchange, removes this problem because everyone accepts money in exchange for goods."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the barter system?",
+     "solution": "The barter system is a method of exchange in which goods and services are directly exchanged for other goods and services without the use of money.",
+     "answer": "Direct exchange of goods for goods without money."
+    },
+    {
+     "question": "What is meant by double coincidence of wants?",
+     "solution": "Double coincidence of wants means that two persons, each having what the other wants, must meet for an exchange to take place. For example, a shoe manufacturer who wants wheat must find a wheat farmer who wants shoes.",
+     "answer": "Both parties must want what the other has."
+    },
+    {
+     "question": "How did money solve the problems of the barter system?",
+     "solution": "Money, being universally accepted as a medium of exchange, removed the need for a double coincidence of wants. A seller can exchange goods for money and then use the money to buy whatever is needed.",
+     "answer": "Money removed the need for double coincidence of wants."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the limitations of the barter system.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is money called a medium of exchange?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Give one example of double coincidence of wants.",
+     "type": "recall"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.20.2",
+   "title": "Modern Forms of Money",
+   "section": "Modern Forms of Money",
+   "definition": "Modern forms of money include currency (notes and coins) issued by the central bank and demand deposits held in bank accounts, both of which are accepted as a medium of exchange; in India the Reserve Bank of India issues currency on behalf of the government.",
+   "formula": "",
+   "key_idea": "Modern money is valuable not because of the material it is made of, but because it is authorised by the government and accepted by everyone as a medium of exchange.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the modern forms of money?",
+    "Who issues currency in India?",
+    "Why is modern currency accepted as a medium of exchange?",
+    "What is a demand deposit?",
+    "Why are cheques used in place of cash?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify currency as modern money",
+     "explain": "Note that modern currency consists of paper notes and coins issued by the central bank and authorised by the government."
+    },
+    {
+     "step": 2,
+     "action": "Identify demand deposits",
+     "explain": "Check that money deposited in a bank account that can be withdrawn on demand is also a form of money, called a demand deposit."
+    },
+    {
+     "step": 3,
+     "action": "Explain why money is accepted",
+     "explain": "Confirm that modern money is accepted because it is authorised by the government and the central bank guarantees it, not because of its material value."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the modern forms of money?",
+     "solution": "The modern forms of money are currency (paper notes and coins) and demand deposits in bank accounts, both of which are accepted as a medium of exchange.",
+     "answer": "Currency and demand deposits."
+    },
+    {
+     "question": "Who issues currency in India?",
+     "solution": "In India currency is issued by the Reserve Bank of India (RBI) on behalf of the central government, and no other organisation is allowed to issue currency.",
+     "answer": "The Reserve Bank of India."
+    },
+    {
+     "question": "What is a demand deposit?",
+     "solution": "A demand deposit is the money deposited in a bank account that can be withdrawn by the depositor at any time by writing a cheque or using an ATM, and it serves as money.",
+     "answer": "Bank deposits withdrawable on demand."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why is modern currency accepted as a medium of exchange?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why are cheques used in place of cash?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name the authority that issues currency in India.",
+     "type": "recall"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.20.3",
+   "title": "Functions of Banks",
+   "section": "Functions of Banks",
+   "definition": "Banks accept deposits from people who have surplus money and pay interest on them, and they use these deposits to give loans to those who need money, charging a higher interest rate; the difference between the interest paid on deposits and the interest earned on loans is the bank's income.",
+   "formula": "bank income = interest received on loans - interest paid on deposits",
+   "key_idea": "Banks act as intermediaries between those who have surplus money and those who need it, earning their income from the spread between loan interest and deposit interest.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the two main functions of a bank?",
+    "How do banks earn income?",
+    "Why do banks accept deposits from the public?",
+    "How do banks use the deposits they receive?",
+    "What is the difference between the interest rate on deposits and on loans?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Note the deposit interest",
+     "explain": "Record the interest rate the bank pays to depositors on their deposits.",
+     "compute": "deposit_interest = deposits * deposit_rate"
+    },
+    {
+     "step": 2,
+     "action": "Note the loan interest",
+     "explain": "Record the interest rate the bank charges on the loans it gives out.",
+     "compute": "loan_interest = loans * loan_rate"
+    },
+    {
+     "step": 3,
+     "action": "Compute the bank's income",
+     "explain": "Subtract the deposit interest from the loan interest to find the bank's income, called the spread.",
+     "compute": "bank_income = loan_interest - deposit_interest"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the two main functions of a bank?",
+     "solution": "The two main functions of a bank are to accept deposits from people who have surplus money and to give loans to people who need money.",
+     "answer": "Accepting deposits and giving loans."
+    },
+    {
+     "question": "How do banks earn income?",
+     "solution": "Banks charge a higher interest rate on loans than the interest they pay on deposits. The difference between these two interest amounts is the bank's income.",
+     "answer": "From the difference between loan interest and deposit interest."
+    },
+    {
+     "question": "If a bank pays 8% interest on deposits of Rs 1,00,000 and charges 12% on loans of Rs 1,00,000, calculate the bank's income.",
+     "solution": "Deposit interest = 1,00,000 x 8% = Rs 8,000. Loan interest = 1,00,000 x 12% = Rs 12,000. Bank income = 12,000 - 8,000 = Rs 4,000.",
+     "answer": "Rs 4,000."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why do banks accept deposits from the public?",
+     "type": "short_answer"
+    },
+    {
+     "question": "If a bank pays 6% on deposits and charges 10% on loans of Rs 2,00,000, calculate the bank's income.",
+     "type": "compute"
+    },
+    {
+     "question": "What is the difference between the interest rate on deposits and on loans?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.20.4",
+   "title": "Loans and Credit",
+   "section": "Loan Activities of Banks",
+   "definition": "Credit (loan) refers to an agreement in which the lender supplies the borrower with money, goods or services in return for a promise of future payment; credit can play a positive role by helping production and income, or a negative role by pushing the borrower into a debt trap.",
+   "formula": "amount to repay = principal + interest",
+   "key_idea": "Credit is a double-edged tool: it boosts income and production when used productively, but it can lead to a debt trap when the borrower cannot repay.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is credit in economics?",
+    "How can credit play a positive role in development?",
+    "How can credit play a negative role and lead to a debt trap?",
+    "What is a debt trap?",
+    "Distinguish between a positive and a negative role of credit with examples."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Note the loan principal",
+     "explain": "Record the amount of money borrowed by the borrower, called the principal.",
+     "compute": "principal = borrowed_amount"
+    },
+    {
+     "step": 2,
+     "action": "Compute the interest",
+     "explain": "Calculate the interest to be paid on the loan using the agreed interest rate.",
+     "compute": "interest = principal * rate * time"
+    },
+    {
+     "step": 3,
+     "action": "Compute the repayment amount",
+     "explain": "Add the principal and the interest to find the total amount the borrower must repay.",
+     "compute": "repayment = principal + interest"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is credit in economics?",
+     "solution": "Credit (loan) is an agreement in which the lender gives money, goods or services to the borrower in return for a promise to repay in the future, usually with interest.",
+     "answer": "An agreement to borrow now and repay later, usually with interest."
+    },
+    {
+     "question": "How can credit play a positive role in development?",
+     "solution": "When a farmer takes a loan to buy seeds and fertilisers and produces a good crop, the credit helps increase income and production, showing the positive role of credit.",
+     "answer": "It boosts production and income when used productively."
+    },
+    {
+     "question": "A borrower takes a loan of Rs 10,000 at 15% annual interest for one year. Calculate the total amount to be repaid.",
+     "solution": "Interest = 10,000 x 15% x 1 = Rs 1,500. Repayment = 10,000 + 1,500 = Rs 11,500.",
+     "answer": "Rs 11,500."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How can credit play a negative role and lead to a debt trap?",
+     "type": "short_answer"
+    },
+    {
+     "question": "A borrower takes a loan of Rs 5,000 at 20% annual interest for one year. Calculate the total repayment.",
+     "type": "compute"
+    },
+    {
+     "question": "What is a debt trap?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.20.5",
+   "title": "Formal and Informal Credit Sources",
+   "section": "Two Different Credit Situations - Formal and Informal",
+   "definition": "Formal sector credit is provided by banks and cooperatives that follow government rules and are supervised by the Reserve Bank of India, while informal sector credit is provided by moneylenders, traders, employers and relatives who are not regulated and often charge very high interest rates.",
+   "formula": "",
+   "key_idea": "Formal credit is cheaper and more reliable because it is regulated, while informal credit is expensive and can exploit borrowers, which is why the poor still depend heavily on informal sources.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the formal sector of credit? Give two examples.",
+    "What is the informal sector of credit? Give two examples.",
+    "Distinguish between formal and informal sources of credit.",
+    "Why do the poor still depend on informal sources of credit?",
+    "Why is formal sector credit considered better for development?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify formal sources",
+     "explain": "Note that formal sector credit includes banks and cooperative societies that are regulated by the RBI and follow set rules."
+    },
+    {
+     "step": 2,
+     "action": "Identify informal sources",
+     "explain": "Check that informal sector credit includes moneylenders, traders, employers, relatives and friends who are not regulated and charge high interest."
+    },
+    {
+     "step": 3,
+     "action": "Compare the two sectors",
+     "explain": "Confirm that formal credit is cheaper and more reliable due to regulation, while informal credit is costly and can exploit borrowers."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the formal sector of credit? Give two examples.",
+     "solution": "The formal sector of credit includes lenders like banks and cooperative societies that are regulated by the Reserve Bank of India. Examples are a commercial bank and a cooperative credit society.",
+     "answer": "Regulated lenders like banks and cooperatives."
+    },
+    {
+     "question": "What is the informal sector of credit? Give two examples.",
+     "solution": "The informal sector of credit includes lenders who are not regulated, such as moneylenders, traders, employers and relatives. Examples are a village moneylender and an employer giving an advance to a worker.",
+     "answer": "Unregulated lenders like moneylenders and traders."
+    },
+    {
+     "question": "Why do the poor still depend on informal sources of credit?",
+     "solution": "The poor often do not have the documents or collateral required by banks, and banks are less willing to lend to them, so they depend on informal sources that lend easily but charge high interest.",
+     "answer": "Lack of documents/collateral and easy availability from informal lenders."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between formal and informal sources of credit.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is formal sector credit considered better for development?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name two informal sources of credit.",
+     "type": "recall"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.20.6",
+   "title": "Terms of Credit",
+   "section": "Two Different Credit Situations - Terms of Credit",
+   "definition": "The terms of credit include the interest rate, collateral (an asset that the borrower owns and pledges as security), documentation and the mode of repayment; together these determine the cost and feasibility of a loan for the borrower.",
+   "formula": "total cost of loan = principal + (principal x interest rate x time)",
+   "key_idea": "The terms of credit -- especially the interest rate and the requirement of collateral -- decide whether a borrower can access credit and how burdensome repayment will be.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the terms of credit?",
+    "What is collateral? Give one example.",
+    "Why do lenders ask for collateral before giving a loan?",
+    "How does the interest rate affect the cost of a loan?",
+    "Why are the terms of credit important for a borrower?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the interest rate",
+     "explain": "Note the interest rate charged by the lender, which sets the cost of borrowing.",
+     "compute": "interest = principal * rate * time"
+    },
+    {
+     "step": 2,
+     "action": "Identify the collateral",
+     "explain": "Check whether the lender requires collateral -- an asset such as land or gold pledged as security against the loan.",
+     "compute": "collateral = pledged_asset"
+    },
+    {
+     "step": 3,
+     "action": "Compute the total cost",
+     "explain": "Add the principal and the interest to find the total amount the borrower must repay under the terms of credit.",
+     "compute": "total_cost = principal + interest"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the terms of credit?",
+     "solution": "The terms of credit include the interest rate, collateral, documentation and the mode of repayment; together they define the conditions on which a loan is given.",
+     "answer": "Interest rate, collateral, documentation and repayment mode."
+    },
+    {
+     "question": "What is collateral? Give one example.",
+     "solution": "Collateral is an asset that the borrower owns, such as land, a building, a vehicle or gold, which is pledged to the lender as security and can be sold if the loan is not repaid.",
+     "answer": "An asset pledged as security, e.g. land or gold."
+    },
+    {
+     "question": "A loan of Rs 20,000 is taken at 18% annual interest for one year. Calculate the total cost of the loan.",
+     "solution": "Interest = 20,000 x 18% x 1 = Rs 3,600. Total cost = 20,000 + 3,600 = Rs 23,600.",
+     "answer": "Rs 23,600."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why do lenders ask for collateral before giving a loan?",
+     "type": "short_answer"
+    },
+    {
+     "question": "A loan of Rs 15,000 is taken at 12% annual interest for one year. Calculate the total cost of the loan.",
+     "type": "compute"
+    },
+    {
+     "question": "How does the interest rate affect the cost of a loan?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.20.7",
+   "title": "Self-Help Groups and Poor Women",
+   "section": "Self-Help Groups for the Poor",
+   "definition": "A Self-Help Group (SHG) is a small group of poor people, usually women, who pool their savings and give small loans to members at low interest; SHGs help the poor, especially women, access credit without collateral and also build savings and self-reliance.",
+   "formula": "",
+   "key_idea": "SHGs overcome the problem of collateral by pooling savings and using collective responsibility, enabling poor women to get credit that banks would not otherwise provide.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a Self-Help Group (SHG)?",
+    "How do SHGs help poor women access credit?",
+    "How does an SHG overcome the problem of collateral?",
+    "Explain the role of SHGs in rural development.",
+    "How do SHGs build the habit of savings among the poor?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define an SHG",
+     "explain": "Note that an SHG is a small group of poor people, usually 15-20 women, who meet regularly and pool their savings."
+    },
+    {
+     "step": 2,
+     "action": "Explain how SHGs provide credit",
+     "explain": "Check that the pooled savings are used to give small loans to members at low interest, and after some time the SHG can get a bank loan based on the group's savings."
+    },
+    {
+     "step": 3,
+     "action": "Explain the benefit to poor women",
+     "explain": "Confirm that SHGs help poor women access credit without collateral, build savings, and become self-reliant through collective responsibility."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a Self-Help Group (SHG)?",
+     "solution": "A Self-Help Group is a small group of poor people, usually 15-20 women, who meet regularly, pool their savings and give small loans to members, and can also obtain larger loans from banks.",
+     "answer": "A small group that pools savings and gives low-interest loans to members."
+    },
+    {
+     "question": "How do SHGs help poor women access credit?",
+     "solution": "SHGs pool the small savings of members and use collective responsibility to obtain loans from banks, so poor women who lack collateral can still get credit at reasonable rates.",
+     "answer": "By pooling savings and using collective responsibility to get bank loans."
+    },
+    {
+     "question": "How does an SHG overcome the problem of collateral?",
+     "solution": "Because the whole group is responsible for repayment, the bank treats the group's savings and collective guarantee as a substitute for individual collateral, making loans available to the poor.",
+     "answer": "Through collective responsibility and pooled savings instead of individual collateral."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the role of SHGs in rural development.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How do SHGs build the habit of savings among the poor?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name the typical number of members in an SHG.",
+     "type": "recall"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.20.8",
+   "title": "Role of Credit in Development",
+   "section": "Why is Credit Important for Development",
+   "definition": "Credit plays a crucial role in development by enabling farmers, traders and businesses to invest in production, buy inputs and expand their activities; cheap and reliable formal credit increases income and employment, while expensive informal credit can trap borrowers in debt.",
+   "formula": "",
+   "key_idea": "Access to affordable formal credit is essential for development because it allows productive investment, while dependence on costly informal credit can hinder growth and push people into poverty.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How does credit help in the development of an economy?",
+    "Why is access to formal credit important for farmers?",
+    "How does cheap credit increase income and employment?",
+    "Why does dependence on informal credit hinder development?",
+    "Explain with an example how credit can help a farmer increase income."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the productive use of credit",
+     "explain": "Note that credit allows farmers and businesses to buy inputs like seeds, fertilisers and machinery, which increases production."
+    },
+    {
+     "step": 2,
+     "action": "Link credit to income and employment",
+     "explain": "Check that increased production raises income and creates more employment, showing the positive role of credit in development."
+    },
+    {
+     "step": 3,
+     "action": "Contrast with costly informal credit",
+     "explain": "Confirm that when only expensive informal credit is available, the high interest reduces the borrower's income and can cause a debt trap, hindering development."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does credit help in the development of an economy?",
+     "solution": "Credit enables farmers and businesses to invest in production, buy inputs and expand activities, which increases output, income and employment, thereby promoting development.",
+     "answer": "By enabling productive investment that raises output, income and employment."
+    },
+    {
+     "question": "Explain with an example how credit can help a farmer increase income.",
+     "solution": "A farmer who takes a loan to buy seeds and fertilisers can grow a larger crop, sell it for a higher income, repay the loan and still earn a profit, showing how credit boosts income.",
+     "answer": "A loan for inputs leads to a bigger crop and higher income."
+    },
+    {
+     "question": "Why does dependence on informal credit hinder development?",
+     "solution": "Informal credit charges very high interest, which eats into the borrower's income and can lead to a debt trap, reducing the ability to invest and slowing development.",
+     "answer": "High interest reduces income and can cause a debt trap."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why is access to formal credit important for farmers?",
+     "type": "short_answer"
+    },
+    {
+     "question": "How does cheap credit increase income and employment?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Give one example of a productive use of credit.",
+     "type": "recall"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.20.9",
+   "title": "Reserve Bank of India and Credit",
+   "section": "RBI and Regulation of Credit",
+   "definition": "The Reserve Bank of India (RBI) is the central bank of the country that issues currency, supervises the functioning of formal sources of credit, and regulates the lending activities of banks to ensure that loans are given to all sections of society, including farmers and small businesses.",
+   "formula": "",
+   "key_idea": "The RBI ensures the stability and fairness of the credit system by supervising banks, requiring them to maintain cash reserves, and directing them to lend to priority sectors like agriculture and small-scale industry.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the Reserve Bank of India (RBI)?",
+    "What are the main functions of the RBI regarding credit?",
+    "How does the RBI supervise the functioning of banks?",
+    "Why does the RBI insist that banks lend to priority sectors?",
+    "How does the RBI ensure that credit is available to all sections of society?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the RBI as the central bank",
+     "explain": "Note that the RBI is the central bank of India that issues currency and regulates the banking system."
+    },
+    {
+     "step": 2,
+     "action": "Explain the supervisory role",
+     "explain": "Check that the RBI supervises banks by requiring them to maintain cash reserves and submit information about their lending."
+    },
+    {
+     "step": 3,
+     "action": "Explain the directive role",
+     "explain": "Confirm that the RBI directs banks to lend to priority sectors like agriculture and small-scale industry so that credit reaches all sections of society."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the Reserve Bank of India (RBI)?",
+     "solution": "The Reserve Bank of India is the central bank of the country that issues currency, supervises the formal sources of credit and regulates the lending activities of banks.",
+     "answer": "The central bank that issues currency and regulates banks."
+    },
+    {
+     "question": "How does the RBI supervise the functioning of banks?",
+     "solution": "The RBI supervises banks by requiring them to maintain a minimum cash balance out of their deposits and by periodically checking that they give loans not just to profit-making businesses but also to farmers and small borrowers.",
+     "answer": "By setting cash reserve rules and checking lending practices."
+    },
+    {
+     "question": "Why does the RBI insist that banks lend to priority sectors?",
+     "solution": "The RBI directs banks to lend to priority sectors like agriculture and small-scale industry so that credit reaches all sections of society and supports inclusive development.",
+     "answer": "To ensure credit reaches agriculture and small industry for inclusive development."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What are the main functions of the RBI regarding credit?",
+     "type": "short_answer"
+    },
+    {
+     "question": "How does the RBI ensure that credit is available to all sections of society?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name two priority sectors to which the RBI directs banks to lend.",
+     "type": "recall"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

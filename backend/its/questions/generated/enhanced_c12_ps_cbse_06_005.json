@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_06_005",
+   "title": "c12_ps_cbse_06_005",
+   "questions": [
+    {
+     "q": "Which of the following correctly matches the specialised agency with its primary mandate?\na) UNESCO – Global trade rules and dispute settlement\nb) UNICEF – Coordinating international public health responses\nc) WHO – Protecting refugees and displaced persons\nd) UNHCR – Providing international protection to refugees and seeking durable solutions",
+     "a": "Correct answer: d) UNHCR – Providing international protection to refugees and seeking durable solutions.\nExplanation: UNHCR (UN High Commissioner for Refugees) is mandated to protect refugees, forcibly displaced communities, and stateless people. Option a describes the WTO, not UNESCO. Option b describes WHO, not UNICEF. Option c describes UNHCR, not WHO. A wrong answer reveals confusion between agency acronyms and their core mandates — a common error when students memorise abbreviations without understanding functions.",
+     "self_check": true
+    },
+    {
+     "q": "Why was UNICEF originally created in 1946, and how did its mandate evolve after 1950?\na) Created for post-war European child relief; mandate extended to long-term development needs of children in developing countries.\nb) Created to administer the Universal Declaration of Human Rights; later focused on child labour.\nc) Created as a health agency for children; merged with WHO in 1950.\nd) Created to fund UNESCO's education programmes; became independent in 1950.",
+     "a": "Correct answer: a) Created for post-war European child relief; mandate extended to long-term development needs of children in developing countries.\nExplanation: UNICEF (United Nations International Children's Emergency Fund) was established in 1946 to provide emergency food and healthcare to children in countries devastated by WWII. In 1950, its mandate was broadened to address long-term needs of children in developing countries, and it became a permanent UN agency (dropping \"Emergency\" from its name but retaining the acronym). A wrong answer shows lack of historical context — students often think UNICEF was always a development agency or confuse it with WHO.",
+     "self_check": true
+    },
+    {
+     "q": "A country experiences a sudden outbreak of a novel virus. The health ministry requests international assistance for surveillance, lab capacity, and vaccine distribution coordination. Which UN agency is the PRIMARY lead for this health emergency, and what specific mechanism does it use?\na) UNICEF – activates the Global Polio Eradication Initiative\nb) WHO – declares a Public Health Emergency of International Concern (PHEIC) under the International Health Regulations (2005)\nc) UNHCR – triggers the Refugee Health Protocol\nd) UNESCO – mobilises the International Bioethics Committee",
+     "a": "Correct answer: b) WHO – declares a Public Health Emergency of International Concern (PHEIC) under the International Health Regulations (2005).\nExplanation: WHO is the directing and coordinating authority on international health work. The IHR (2005) legally binds 196 countries to report public health events and allows WHO to declare a PHEIC, triggering coordinated global action. UNICEF supports vaccine delivery but does not declare emergencies. UNHCR focuses on refugee health, not general outbreaks. UNESCO deals with bioethics, not emergency response. A wrong answer indicates inability to apply agency mandates to real-time crises.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the governance structures of UNESCO and WHO. Which statement accurately describes a key difference?\na) UNESCO has a Director-General elected by the General Assembly; WHO's Director-General is appointed by the Security Council.\nb) UNESCO's General Conference meets biennially with one vote per member state; WHO's World Health Assembly meets annually with one vote per member state.\nc) Both agencies are funded entirely by assessed contributions with no voluntary funding.\nd) UNESCO reports to the Security Council; WHO reports to the General Assembly.",
+     "a": "Correct answer: b) UNESCO's General Conference meets biennially with one vote per member state; WHO's World Health Assembly meets annually with one vote per member state.\nExplanation: UNESCO's supreme decision-making body is the General Conference (meets every two years), while WHO's is the World Health Assembly (meets annually). Both operate on one-state-one-vote principle. Option a is wrong: both DGs are elected by their respective governing bodies, not by UN principal organs. Option c is false: both rely heavily on voluntary contributions. Option d is wrong: both report to ECOSOC/General Assembly, not Security Council. A wrong answer reveals superficial knowledge of UN agency governance.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"UNHCR's mandate is limited to refugees crossing international borders; it has no role for internally displaced persons (IDPs).\"\na) True – UNHCR only assists those who flee across borders.\nb) False – UNHCR has a explicit mandate for IDPs under the 1951 Refugee Convention.\nc) False – While the 1951 Convention covers only refugees, UNHCR has been entrusted by the UN General Assembly to lead protection and assistance for IDPs in specific contexts (cluster approach).\nd) True – IDPs are the responsibility of UNDP, not UNHCR.",
+     "a": "Correct answer: c) False – While the 1951 Convention covers only refugees, UNHCR has been entrusted by the UN General Assembly to lead protection and assistance for IDPs in specific contexts (cluster approach).\nExplanation: UNHCR's statutory mandate (1950 Statute, 1951 Convention) covers refugees (crossed border). However, since the 1990s, the UNGA has repeatedly asked UNHCR to assist IDPs (who remain within their country). Under the \"cluster approach\" (2005), UNHCR leads the Protection, Shelter, and Camp Coordination clusters for IDPs. This is a nuanced, evolving role. A wrong answer shows rigid, outdated understanding of mandates.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page infographic for a Class 12 exhibition showing how UNESCO, UNICEF, WHO, and UNHCR would collaborate in a protracted conflict zone (e.g., Syria, Yemen). List the four agencies, one key programme each would lead, and one joint coordination mechanism.",
+     "a": "Expected answer: Infographic should show:\n- UNESCO: \"Education Cannot Wait\" fund / protection of cultural heritage.\n- UNICEF: Child protection, nutrition, water-sanitation-hygiene (WASH), education in emergencies.\n- WHO: Health cluster coordination, disease surveillance, trauma care, immunization.\n- UNHCR: Refugee camp management, protection monitoring, durable solutions (voluntary return, resettlement).\nJoint mechanism: UN Humanitarian Country Team (HCT) led by the Resident/Humanitarian Coordinator, using the Cluster Approach under OCHA.\nCriteria: Correct agency-programme match, mention of coordination body (OCHA/HCT/Clusters). Poor answer: lists generic activities without specific programmes or misses coordination mechanism, indicating inability to visualise inter-agency cooperation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

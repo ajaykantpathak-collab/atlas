@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_04_004",
+   "title": "c11_eco_cbse_04_004",
+   "questions": [
+    {
+     "q": "Define the Mincer earnings function and identify its three key variables. What does the coefficient on schooling (β) represent economically?",
+     "a": "The Mincer earnings function is ln(W) = α + βS + γE + δE² where W = wage, S = years of schooling, E = years of experience. The coefficient β represents the private rate of return to an additional year of schooling (percentage increase in wage per year of education). A wrong answer (e.g., \"β is the wage level\" or \"β measures experience returns\") reveals the student confuses the schooling coefficient with the intercept or experience coefficients, failing to understand that β captures the marginal return to education investment.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why education is considered a merit good with positive externalities. Give two specific examples of social benefits that are NOT captured in an individual's private wage return.",
+     "a": "Education is a merit good because individuals under-consume it relative to the social optimum due to (1) positive externalities: an educated person's civic participation strengthens democracy, and their better health practices reduce disease transmission; (2) credit market imperfections: poor students cannot borrow against future earnings. A wrong answer listing only private benefits (higher salary, better job) reveals the student conflates private returns with social returns, missing the core justification for government intervention in education markets.",
+     "self_check": true
+    },
+    {
+     "q": "Using Table 4.1 data: Real per capita income rose from ₹7,651 (1951) to ₹94,054 (2018-22) while male literacy rose from 16.67% to 82%. Calculate the average annual growth rate of per capita income and male literacy over this 71-year period. What does the divergence in growth rates suggest about the education-income relationship?",
+     "a": "Per capita income growth: (94,054/7,651)^(1/71) - 1 = 3.58% annually. Male literacy growth: (82/16.67)^(1/71) - 1 = 2.21% annually. Income grew faster than literacy, suggesting education is necessary but not sufficient for income growth—other factors (technology, physical capital, institutions) also drive growth. A wrong answer (e.g., \"literacy grew faster\" or simple difference/71) reveals inability to compute compound annual growth rates and misinterpretation of the convergence evidence discussed in NCERT (human capital growth faster than income growth in developing countries).",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following statement using the human capital vs human development distinction: \"If a government program increases female literacy from 66% to 80% but does not raise women's labour force participation, the program has failed from a human capital perspective but succeeded from a human development perspective.\" Evaluate this claim.",
+     "a": "The claim is correct. Human capital perspective values education only insofar as it enhances labour productivity and income (means to an end). If female literacy doesn't translate to higher workforce participation or wages, the human capital investment appears \"unproductive.\" Human development perspective values literacy as an end in itself—enabling women to make valued choices, improving child health, reducing fertility—regardless of labour market outcomes. A wrong answer conflating the two perspectives reveals failure to grasp the fundamental philosophical distinction: human beings as means vs. ends.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the argument: \"Since private returns to higher education in India are estimated at 15-20% annually (exceeding the 6-7% cost of government borrowing), the government should stop subsidizing higher education and let students take loans.\" Consider credit constraints, positive externalities, and equity.",
+     "a": "The argument fails on three grounds: (1) Credit constraints: Poor students lack collateral for loans despite high expected returns—market failure in credit markets. (2) Positive externalities: Higher education generates innovation, research, and social cohesion benefits not captured in private wages. (3) Equity: Without subsidies, only wealthy students access higher education, perpetuating inequality. A wrong answer focusing only on the rate comparison reveals ignorance of market failures (imperfect credit markets, externalities) that justify government intervention beyond simple rate-of-return calculations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a policy proposal to reduce the dropout rate at Class VIII (currently ~4% annually) in Bihar where per capita elementary education expenditure is ₹10,710 vs ₹96,968 in Sikkim. Your proposal must address both demand-side and supply-side constraints using at least three specific instruments.",
+     "a": "A strong proposal combines: (1) Supply-side: Increase per-student expenditure in Bihar to national average via revised Samagra Shiksha funding formula (weighted for poverty), build upper-primary schools within 3km radius, hire qualified teachers at 30:1 pupil-teacher ratio. (2) Demand-side: Conditional cash transfers to families (₹500/month) for girls' attendance, free bicycles for girls (proven in Bihar), midday meal extension to Class VIII. (3) Systemic: Community monitoring via School Management Committees, tracking dropout early-warning indicators. A weak proposal addressing only one side (e.g., only building schools) reveals failure to understand that dropouts stem from both inadequate supply (poor quality) and demand constraints (opportunity cost, social norms).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

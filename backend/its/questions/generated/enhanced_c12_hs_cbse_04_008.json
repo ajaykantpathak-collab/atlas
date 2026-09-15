@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_04_008",
+   "title": "c12_hs_cbse_04_008",
+   "questions": [
+    {
+     "q": "Define “course” and “wale” in knitted fabrics and state which knitting type (warp or weft) primarily forms courses and which forms wales.",
+     "a": "A course is a horizontal row of loops; a wale is a vertical column of loops. In weft knitting, a single yarn forms successive courses across the width. In warp knitting, each yarn forms a wale (or part of a wale) along the length. A wrong answer (e.g., swapping course/wale or attributing both to one knitting type) reveals confusion between the direction of yarn feed and the resulting loop orientation — a fundamental distinction that underpins all subsequent structure analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a plain weft‑knit fabric (single jersey) curls at the edges, while a rib knit does not. Use loop geometry in your reasoning.",
+     "a": "In plain knit, all loops are pulled to one side (face), creating asymmetric tension that makes edges roll toward the face. In rib knit, face and back loops alternate in each wale, balancing tensions so the fabric lies flat. If a student says “rib is thicker so it doesn’t curl,” they miss the structural cause — loop symmetry — and cannot predict behavior of other structures like interlock or purl.",
+     "self_check": true
+    },
+    {
+     "q": "A fabric sample shows loops running lengthwise, each loop formed from a separate yarn, and the fabric does not unravel when cut. Identify the knitting type and name one common structure it could be.",
+     "a": "The description matches warp knitting: loops run vertically (wales), each yarn feeds into a wale, and the structure is inherently run‑resistant. A typical structure is tricot (used in lingerie) or raschel (used in lace/nets). If a student says “weft knitting because it has loops,” they confuse loop presence with loop orientation and yarn feed direction — a critical error for fabric identification in board practicals.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the dimensional stability and stretch behavior of a weft‑knit interlock fabric and a warp‑knit tricot fabric. Which would you select for a fitted dress requiring shape retention, and why?",
+     "a": "Interlock (weft) has high crosswise stretch and moderate lengthwise stretch but lower dimensional stability; it can grow with wear. Tricot (warp) has limited stretch in both directions and excellent dimensional stability due to vertical loop locking. For a fitted dress needing shape retention, tricot is better. A wrong choice (e.g., picking interlock for stability) shows inability to link loop architecture to performance — a common board exam trap where students memorize “knits stretch” without differentiating warp vs. weft.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: “All knitted fabrics are highly extensible and therefore unsuitable for tailored garments.” Provide two counter‑examples with structural justification.",
+     "a": "The statement is false. Counter‑example 1: Warp‑knit tricot has low extensibility and high stability, used in tailored linings and structured lingerie. Counter‑example 2: Weft‑knit interlock, though stretchier, can be engineered with high‑twist yarns and finishing to produce stable suiting fabrics (e.g., Ponte di Roma). A student who agrees with the statement overlooks the spectrum of knit structures and the role of yarn, gauge, and finish — a misconception that limits design thinking.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple weft‑knit structure (using only knit and purl stitches) that is reversible, lies flat, and has equal stretch in both directions. Sketch the loop diagram for one repeat and label courses and wales.",
+     "a": "A 2×2 rib (alternating two knit and two purl wales) meets the criteria: reversible, flat, balanced stretch. The diagram should show two face‑loop wales and two back‑loop wales repeating, with courses horizontal and wales vertical. A poor answer (e.g., plain knit or 1×1 rib only) indicates inability to synthesize stitch combinations for target properties — a skill needed for competitive‑exam design questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

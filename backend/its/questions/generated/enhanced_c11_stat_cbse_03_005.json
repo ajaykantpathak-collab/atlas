@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_03_005",
+   "title": "c11_stat_cbse_03_005",
+   "questions": [
+    {
+     "q": "A frequency distribution shows classes: 10–19, 20–29, 30–39. A data value of 20 is recorded. In which class does it belong if the intervals are inclusive? In which class if they are exclusive (with upper limit excluded)?",
+     "a": "Inclusive: 20 belongs to 20–29 (both limits included). Exclusive (upper limit excluded): 20 belongs to 20–29 because the previous class 10–19 excludes 19.999..., so 20 is the lower limit of the next class. A wrong answer (e.g., saying 20 belongs to 10–19 in exclusive form) reveals the student thinks the upper limit is included in exclusive intervals — the most common confusion. They must understand: in exclusive form, the upper limit of one class equals the lower limit of the next, and the convention is that the value goes to the higher class.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why inclusive class intervals like 800–899, 900–999 create a problem for a continuous variable like income, and how the adjustment factor fixes it.",
+     "a": "Inclusive intervals have a gap: 899 to 900 skips all values between 899 and 900 (e.g., 899.5). But income is continuous — a person can earn ₹899.50. The adjustment finds the gap (900 – 899 = 1), halves it (0.5), and shifts limits: 799.5–899.5, 899.5–999.5. Now 899.5 is the common boundary, no values are missed. A wrong answer that says \"inclusive is fine because income is in whole rupees\" reveals the misconception that continuous variables become discrete when measured in whole units — they don't; the underlying variable is still continuous.",
+     "self_check": true
+    },
+    {
+     "q": "A survey records ages of 50 people using inclusive classes: 0–9, 10–19, 20–29, 30–39. Convert these to exclusive class intervals with the adjustment factor. Show all steps.",
+     "a": "Step 1: Identify gap between upper limit of first class (9) and lower limit of second (10): gap = 1. Step 2: Adjustment factor = gap/2 = 0.5. Step 3: Subtract 0.5 from all lower limits: –0.5, 9.5, 19.5, 29.5. Step 4: Add 0.5 to all upper limits: 9.5, 19.5, 29.5, 39.5. Step 5: Write exclusive classes: –0.5–9.5, 9.5–19.5, 19.5–29.5, 29.5–39.5. (Note: negative lower limit is mathematically correct; in practice we'd start at 0–9.5). A wrong answer that writes 0–10, 10–20 without the 0.5 adjustment reveals the student thinks \"exclusive just means consecutive integers\" — missing that the adjustment ensures continuity at the exact midpoint.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two frequency distributions for the same continuous variable (height in cm):\nDistribution A: 150–154, 155–159, 160–164 (inclusive)\nDistribution B: 150–155, 155–160, 160–165 (exclusive)\nWhich distribution correctly maintains continuity without adjustment? Why does the other need adjustment? What is the class width in each?",
+     "a": "Distribution B (exclusive) maintains continuity: upper limit 155 = lower limit of next class, no gap. Class width = 5 cm. Distribution A (inclusive) has gaps: 154 to 155 skips 154.5 cm. Needs adjustment factor 0.5 to become 149.5–154.5, 154.5–159.5, etc. Class width remains 5 cm after adjustment. A wrong answer saying both have width 5 and both are continuous reveals the student doesn't see the gap in inclusive form — they look at the integer difference (155–150=5) but miss that the actual covered range is 150 to 154.999..., leaving a hole before 155.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher says: \"For discrete variables like number of children per family, we should always use inclusive class intervals. For continuous variables like height, we should always use exclusive class intervals.\" Evaluate this statement. Is it fully correct? Justify your answer with examples.",
+     "a": "The statement is partially correct but oversimplified. For discrete variables, inclusive intervals (0, 1, 2, 3...) are natural and no adjustment is needed — there are no intermediate values. For continuous variables, exclusive intervals (0–10, 10–20) avoid gaps inherently, so they are preferred. However, inclusive intervals CAN be used for continuous variables IF adjusted (as NCERT shows with income). Also, exclusive intervals can be used for discrete variables (e.g., 0–1, 1–2 for number of children) but then the boundary value 1 must be assigned by convention. The key is not the variable type but whether continuity is maintained. A wrong answer that agrees fully reveals the student memorised a rule without understanding the underlying principle: continuity of the variable vs. continuity of the classes.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario involving a continuous variable where using unadjusted inclusive class intervals would lead to a wrong conclusion. Describe the data, the incorrect intervals, the adjustment, and the corrected conclusion.",
+     "a": "Scenario: A factory measures diameters of ball bearings (continuous, in mm). Target: 10.00 mm. Tolerance: ±0.05 mm (9.95–10.05). Data: 50 bearings measured. Incorrect inclusive classes: 9.90–9.94, 9.95–9.99, 10.00–10.04, 10.05–10.09. Gap between 9.94 and 9.95 = 0.01. A bearing of 9.945 mm falls in the gap — uncounted! Adjustment factor = 0.005. Corrected classes: 9.895–9.945, 9.945–9.995, 9.995–10.045, 10.045–10.095. Now 9.945 is the boundary, all values covered. Wrong conclusion without adjustment: \"No bearings in 9.945–9.955 range\" — actually they were just misclassified. A poor answer that picks a discrete variable (e.g., number of defects) shows the student doesn't grasp that the problem only exists for continuous variables.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

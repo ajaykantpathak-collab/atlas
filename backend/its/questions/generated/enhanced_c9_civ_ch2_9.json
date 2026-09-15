@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_civ_ch2_9",
+ "concepts": [
+  {
+   "id": "enh:c9_civ_ch2_9",
+   "title": "c9_civ_ch2_9",
+   "questions": [
+    {
+     "q": "Which constitutional schedule contains the Anti-Defection Law, and by which amendment was it inserted?",
+     "a": "The Anti-Defection Law is in the **Tenth Schedule**, inserted by the **52nd Constitutional Amendment Act, 1985**. A wrong answer (e.g., Ninth Schedule or 42nd Amendment) reveals the student confuses the Anti-Defection Law with other constitutional schedules (like land reform laws in the Ninth Schedule) or major amendments (like the 42nd Amendment which changed the Preamble). This indicates a lack of precise constitutional mapping.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Anti-Defection Law disqualify a member who votes against the party whip, even if they claim it was a vote of conscience?",
+     "a": "The law prioritizes **party discipline and the collective mandate** over individual conscience because voters in India's parliamentary system primarily vote for a **party symbol and platform**, not just an individual candidate. Allowing \"conscience votes\" would make the whip meaningless and enable covert defections. A wrong answer (e.g., \"The law doesn't allow conscience votes because the Constitution bans dissent\") reveals a misunderstanding of the *reasoning* behind the law—it's about protecting the electoral contract between the party and the voter, not suppressing dissent per se.",
+     "self_check": true
+    },
+    {
+     "q": "In a State Legislative Assembly of 100 seats, Party X has 45 MLAs, Party Y has 40 MLAs, and 15 are independents. The Speaker (from Party X) disqualifies 8 MLAs of Party X for \"voluntarily giving up membership\" after they publicly criticize the Chief Minister and attend opposition rallies. The disqualified MLAs argue they haven't resigned formally. Apply the Tenth Schedule to decide if the disqualification is valid.",
+     "a": "**Yes, the disqualification is valid.** The Tenth Schedule defines \"voluntarily giving up membership\" **not just by formal resignation** but by conduct (Supreme Court in *Ravi S. Naik v. Union of India*). Publicly opposing one's own party leadership and aligning with the opposition constitutes voluntarily giving up membership. A wrong answer (e.g., \"Invalid because no formal resignation letter\") shows the student relies on a literal, narrow reading of the text and misses the judicial interpretation that \"conduct\" counts—a critical board-level distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"split\" provision (original Tenth Schedule) and the \"merger\" provision (current law after 91st Amendment). Why was the split provision removed and the merger threshold set at two-thirds?",
+     "a": "The **original \"split\" provision** allowed 1/3rd of a legislature party to break away without disqualification, which **encouraged mass defections** (e.g., 1980s-90s). The **91st Amendment (2003) deleted the split provision** and retained only the **merger exception (2/3rds)**. This raises the bar: a large-scale, formal merger with another party is seen as a genuine ideological realignment, while small splits were often engineered bribes. A wrong answer (e.g., \"Split was removed because it was unfair to small parties\") misses the core intent: **plugging a loophole that facilitated \"horse-trading\" and government instability**.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"The Anti-Defection Law has strengthened Indian democracy by ending floor-crossing, but it has also turned legislators into 'bonded labour' of party high commands.\" Is this a fair assessment?",
+     "a": "**Yes, it is a balanced evaluation.** The law **successfully curbed frequent government collapses** due to defections (1967-1985 era), ensuring stability. However, it **concentrates power in party leadership** (who issue whips), stifles intra-party debate, and makes legislators accountable to the party boss rather than the constituency. The Supreme Court in *Kihoto Hollohan* upheld the law but allowed judicial review of the Speaker's decision, acknowledging this tension. A wrong answer that only praises or only criticizes the law shows an inability to **evaluate trade-offs**—a key board exam skill.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph proposal for a reform to the Anti-Defection Law that addresses the \"bonded labour\" criticism while retaining stability. Justify your proposal using constitutional principles.",
+     "a": "**Proposal:** \"Allow a **free vote on specific categories** (e.g., Money Bills, No-Confidence Motions, Constitutional Amendments) where the whip applies, but **remove the whip on ordinary legislation**, permitting legislators to vote by conscience without disqualification.\" **Justification:** This retains stability on confidence/supply matters (core of parliamentary democracy) while restoring legislative deliberation on policy (Article 105: freedom of speech in Parliament). A poor proposal (e.g., \"Abolish the law entirely\") ignores the instability history; one that keeps the whip on everything fails to address the criticism. A good answer **balances two constitutional values**: government stability (Article 75/164) and legislative freedom (Article 105/194).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

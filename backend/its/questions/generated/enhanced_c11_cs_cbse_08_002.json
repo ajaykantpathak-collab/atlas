@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_08_002",
+   "title": "c11_cs_cbse_08_002",
+   "questions": [
+    {
+     "q": "What is the exact syntax to define a function named `greet` that takes no parameters and has an empty body (using `pass`)?",
+     "a": "Correct answer: `def greet():` followed by a newline and an indented `pass` statement. The colon after the parentheses is mandatory, and the body must be indented. A wrong answer (e.g., missing colon, missing parentheses, or no indentation) reveals that the student has not internalised the required syntax elements of a function definition.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what happens when the Python interpreter executes a `def` statement. Does the code inside the function run at that moment?",
+     "a": "Correct answer: The `def` statement creates a function object and binds it to the given name in the current namespace. The body of the function is NOT executed at definition time; it runs only when the function is explicitly called later. A wrong answer stating that the body runs immediately indicates the common misconception that definition equals execution.",
+     "self_check": true
+    },
+    {
+     "q": "Write a function definition for `calculate_simple_interest` that takes three parameters — `principal` (float), `rate` (float), `time` (float) — and prints the simple interest calculated as `principal * rate * time / 100`. Do not include a return statement.",
+     "a": "```python\ndef calculate_simple_interest(principal, rate, time):\n    \"\"\"Print simple interest for given principal, rate, and time.\"\"\"\n    interest = principal * rate * time / 100\n    print(\"Simple Interest:\", interest)\n```\nSteps: 1) Write `def` with function name and three parameters in parentheses. 2) Add a colon. 3) Indent the body. 4) Compute interest using the formula. 5) Print the result. A wrong answer may omit the colon, misuse indentation, forget the division by 100, or use `return` instead of `print`, showing gaps in syntax or problem interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two function definitions below and identify which one will raise a `SyntaxError`. Explain why.\n(a) `def add(a, b): return a + b`\n(b) `def add(a, b) return a + b`",
+     "a": "Definition (b) will raise a `SyntaxError` because it is missing the colon (`:`) after the parameter list. In Python, the colon is mandatory to separate the function header from its body. A wrong answer that picks (a) or cannot explain the role of the colon shows the student has not recognised this critical syntactic delimiter.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes a function to compute the square of a number but forgets to include the parameter in the definition:\n```python\ndef square():\n    return x * x\n```\nThey then call `square(5)`. Will this work as intended? Justify your answer.",
+     "a": "No, it will not work. The function definition has an empty parameter list, so `x` is not defined inside the function. When called with `square(5)`, the argument `5` is not bound to any name, and the function will raise a `NameError` because `x` is unknown. A wrong answer that thinks it works reveals a misunderstanding that parameters are the mechanism for passing values into a function.",
+     "self_check": true
+    },
+    {
+     "q": "Create a function definition for `is_even` that takes an integer parameter `n` and returns `True` if `n` is even, `False` otherwise. Include a docstring that explains the function's purpose, parameter, and return value.",
+     "a": "```python\ndef is_even(n):\n    \"\"\"Return True if n is an even integer, False otherwise.\n    \n    Args:\n        n (int): The integer to check.\n    \n    Returns:\n        bool: True if n is even, False if n is odd.\n    \"\"\"\n    return n % 2 == 0\n```\nA good answer includes the `def` line with one parameter, a proper docstring (triple quotes), and a correct Boolean expression using modulo. A poor answer may omit the docstring, use `print` instead of `return`, or write an incorrect condition (e.g., `n / 2 == 0`), indicating confusion about return vs. print or even/odd logic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

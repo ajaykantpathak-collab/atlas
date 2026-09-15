@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_05_008",
+   "title": "c12_eco_cbse_05_008",
+   "questions": [
+    {
+     "q": "What is the defining characteristic of a binding price ceiling, and how does it differ from a non-binding price ceiling?",
+     "a": "A binding price ceiling is set below the free-market equilibrium price, creating a shortage because quantity demanded exceeds quantity supplied at that price. A non-binding price ceiling is set above the equilibrium price and has no effect on the market outcome. A wrong answer (e.g., \"binding ceiling is above equilibrium\") reveals confusion between ceiling and floor or misunderstanding of \"binding\" as \"effective constraint\".",
+     "self_check": true
+    },
+    {
+     "q": "Why does a per-unit tax on sellers shift the supply curve vertically upward by exactly the amount of the tax, and why is the tax burden shared between buyers and sellers rather than falling entirely on sellers?",
+     "a": "A per-unit tax raises the marginal cost of each unit by the tax amount, so sellers require a higher price to supply the same quantity — this shifts the supply curve up by the tax. The burden is shared because the demand curve is downward sloping: buyers absorb part of the tax through a higher price paid, and sellers receive a lower net price. The exact split depends on relative elasticities. A wrong answer (e.g., \"sellers bear the whole tax because they pay it to the government\") shows confusion between legal incidence and economic incidence.",
+     "self_check": true
+    },
+    {
+     "q": "The demand for wheat is Qd = 1000 - 10P and supply is Qs = 20P - 200 (quantities in tonnes, price in ₹/kg). The government imposes a price floor of ₹35/kg. Calculate: (a) the free-market equilibrium price and quantity; (b) the quantity supplied and quantity demanded at the floor price; (c) the surplus (excess supply) in tonnes.",
+     "a": "(a) Set Qd = Qs: 1000 - 10P = 20P - 200 → 30P = 1200 → P* = ₹40, Q* = 600 tonnes. (b) At P = 35: Qd = 1000 - 350 = 650 tonnes; Qs = 700 - 200 = 500 tonnes. (c) Surplus = Qs - Qd = 500 - 650 = -150 tonnes → actually a shortage of 150 tonnes. Wait: at ₹35, which is below equilibrium ₹40, this is a price ceiling, not a floor! The question says \"price floor of ₹35\" but equilibrium is ₹40, so ₹35 is below equilibrium — it's a ceiling. This reveals a critical error: the student must check whether the policy price is above or below equilibrium to classify it correctly. If it were a true floor (e.g., ₹45), then Qd = 550, Qs = 700, surplus = 150 tonnes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the deadweight loss (DWL) from a binding price ceiling versus a per-unit tax that reduces the equilibrium quantity by the same amount. Which policy creates a larger DWL, and why? Assume linear demand and supply.",
+     "a": "Both policies reduce quantity traded from Q* to Q1. The DWL triangle has the same base (Q* - Q1) but different heights. For a price ceiling, the height is the difference between the demand price and supply price at Q1. For a tax, the height is the tax per unit (which equals the vertical distance between demand and supply at Q1). The DWL area is identical because the tax exactly equals the gap between demand and supply at the restricted quantity. A wrong answer (e.g., \"tax creates larger DWL because government collects revenue\") confuses DWL with total surplus loss; DWL is the net loss to society, which is the same triangle in both cases when quantity reduction is equal.",
+     "self_check": true
+    },
+    {
+     "q": "The government wants to support onion farmers. It considers two policies: (A) a price floor of ₹40/kg with government procurement of the surplus, or (B) a per-unit subsidy of ₹10/kg to farmers. Evaluate which policy is more efficient (minimizes DWL) and which is more equitable for small farmers, assuming the same cost to the government budget.",
+     "a": "Policy A (price floor with procurement) creates a surplus that the government must buy and store, leading to DWL from overproduction (quantity supplied > efficient quantity) plus storage costs. Policy B (subsidy) lowers the effective cost to farmers, increasing supply to a new equilibrium with higher quantity and lower consumer price. The subsidy creates DWL from overproduction relative to the efficient quantity, but typically less than a price floor with procurement because the subsidy allows the price to fall, increasing consumption. For equity, the price floor guarantees a minimum price but only benefits farmers who can sell (larger farmers may capture more). The subsidy benefits all farmers proportionally to output, but may also benefit larger farmers more. A wrong answer (e.g., \"price floor is better because it directly raises price\") ignores the inefficiency of surplus disposal and the fact that subsidies can be targeted.",
+     "self_check": true
+    },
+    {
+     "q": "Design a government intervention for the market for LPG cylinders (cooking gas) in India that balances affordability for poor households with fiscal sustainability. Specify the policy instrument (price ceiling, subsidy, targeted transfer), the target group, and illustrate with a demand-supply diagram the intended outcome and potential unintended consequences.",
+     "a": "A good answer proposes a targeted direct benefit transfer (DBT) to poor households (e.g., PMUY scheme) rather than a universal price ceiling or subsidy. The diagram shows a downward-sloping demand, upward-sloping supply, and the market equilibrium. A universal price ceiling would create shortage and black markets. A universal subsidy would be fiscally costly and leak to non-poor. DBT shifts the demand curve of poor households rightward (increasing their effective purchasing power) without distorting the market price, minimizing DWL and targeting benefits. A poor answer suggests a blanket price ceiling or subsidy without addressing targeting or fiscal cost, showing lack of synthesis of welfare economics and practical policy design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

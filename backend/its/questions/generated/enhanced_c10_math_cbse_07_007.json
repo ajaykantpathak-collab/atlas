@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_07_007",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_07_007",
+   "title": "c10_math_cbse_07_007",
+   "questions": [
+    {
+     "q": "State the formula for the area of a triangle with vertices A(x₁, y₁), B(x₂, y₂), C(x₃, y₃). Explain why we take the absolute value of the expression.",
+     "a": "Area = ½ |x₁(y₂ − y₃) + x₂(y₃ − y₁) + x₃(y₁ − y₂)|. The absolute value is taken because the expression inside can be negative depending on the order of vertices (clockwise vs anticlockwise), but area is always non-negative. A wrong answer reveals the student either memorised the formula without understanding the sign convention or confuses it with the determinant form without absolute value.",
+     "self_check": true
+    },
+    {
+     "q": "A student computes the area of triangle with vertices (1, 2), (4, 6), (5, 3) and gets −6.5 sq units. They write the answer as −6.5 sq units. Is this correct? Explain why or why not.",
+     "a": "No, area cannot be negative. The student forgot to take the absolute value. The correct area is 6.5 sq units. A wrong answer reveals the student treats the formula as a signed area without understanding that geometric area is always positive. They may also confuse the coordinate formula with the determinant which gives signed area for orientation.",
+     "self_check": true
+    },
+    {
+     "q": "Find the area of the triangle whose vertices are A(2, 3), B(5, 7), C(8, 3). Show all steps.",
+     "a": "Step 1: Identify coordinates: x₁=2, y₁=3; x₂=5, y₂=7; x₃=8, y₃=3.\nStep 2: Write formula: Area = ½ |x₁(y₂−y₃) + x₂(y₃−y₁) + x₃(y₁−y₂)|\nStep 3: Substitute: = ½ |2(7−3) + 5(3−3) + 8(3−7)|\nStep 4: Simplify inside: = ½ |2(4) + 5(0) + 8(−4)| = ½ |8 + 0 − 32| = ½ |−24| = ½ × 24 = 12.\nStep 5: Area = 12 sq units.\nA wrong answer (e.g., 6, −12, 24) reveals errors in substitution order, sign handling, or forgetting the ½ factor.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the coordinate geometry area formula with the base-height formula (½ × base × height). For a right triangle with vertices (0,0), (6,0), (0,8), show both methods give the same result. What does this tell you about the coordinate formula?",
+     "a": "Base-height: base=6, height=8 → Area = ½ × 6 × 8 = 24 sq units.\nCoordinate formula: ½ |0(0−8) + 6(8−0) + 0(0−0)| = ½ |0 + 48 + 0| = 24 sq units.\nBoth match. This confirms the coordinate formula is a generalisation that works for any orientation, not just axis-aligned triangles. A wrong answer reveals the student cannot connect the algebraic formula to geometric meaning or makes arithmetic errors in substitution.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If I swap two vertices, the area changes sign but the absolute value remains the same, so the area doesn't change.\" Evaluate this statement. Is it always true? Justify.",
+     "a": "Yes, the statement is correct. Swapping two vertices changes the order from clockwise to anticlockwise (or vice versa), which flips the sign of the determinant. Since area uses absolute value, the magnitude remains unchanged. This is a fundamental property: area is independent of vertex labelling order. A wrong evaluation (e.g., saying area changes) reveals the student does not understand the effect of permutation on the determinant or the role of absolute value.",
+     "self_check": true
+    },
+    {
+     "q": "Create a triangle with integer coordinates that has an area of exactly 10 sq units. Give the coordinates and verify using the formula. Explain your thought process.",
+     "a": "Example: (0,0), (5,0), (0,4). Area = ½ |0(0−4) + 5(4−0) + 0(0−0)| = ½ |20| = 10. Thought process: Choose a right triangle on axes so base × height = 20 → base=5, height=4. Any triangle with base 5 and height 4 works. A poor answer (e.g., random points not verifying to 10) reveals the student cannot reverse-engineer the formula or lacks understanding of the relationship between coordinates and area.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

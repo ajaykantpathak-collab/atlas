@@ -1,0 +1,534 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "chapter": 203,
+ "chapter_title": "Dual Nature of Radiation and Matter",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leph203.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leph203.11.2.1",
+   "title": "Work Function and Electron Emission",
+   "section": "11.2",
+   "definition": "The metal surface grips its free electrons, and the smallest energy an electron must be handed to break out is the work function; heating, a strong electric field or suitable light can supply it.",
+   "formula": "1 eV = 1.602e-19 J",
+   "key_idea": "Different metals let go at different costs, and electron volts translate that cost into joules.",
+   "textbook_ref": "leph203.txt section 11.2 (work function, electron volt, thermionic/field/photoelectric emission)",
+   "question_patterns": [
+    "what is the work function of a metal and why do free electrons need it to escape",
+    "name the three ways electron emission can be driven out of a metal surface",
+    "how many joules make one electron volt",
+    "why does an illuminated zinc plate lose its negative charge",
+    "which metals answer to visible light in photoemission and which need ultraviolet",
+    "explain why particles from heated metals and from photoemission behave identically"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the surface binding",
+     "explain": "the electron is pulled back by the positive surface it leaves, so a minimum energy is needed"
+    },
+    {
+     "step": 2,
+     "action": "supply the energy externally",
+     "explain": "heat gives thermionic emission, a strong field gives field emission, and light gives photoelectric emission"
+    },
+    {
+     "step": 3,
+     "action": "convert units as needed",
+     "explain": "one electron volt equals 1.602e-19 joule"
+    }
+   ]
+  },
+  {
+   "id": "leph203.11.7.1",
+   "title": "Photon Energy of Radiation",
+   "section": "11.7",
+   "definition": "Radiation trades energy in whole packets: one packet, the photon, carries Planck's constant times the light frequency, and brighter beams just pack more packets.",
+   "formula": "photon_energy = planck_const * light_freq",
+   "key_idea": "Photon energy depends on frequency alone, never on how bright the beam is.",
+   "textbook_ref": "leph203.txt section 11.7 (E = h nu, photon picture points i-v)",
+   "question_patterns": [
+    "find the energy of a photon of frequency 6e14 Hz",
+    "calculate the photon energy for light of frequency 5.4e14 Hz",
+    "what energy does one quantum of radiation at 1e15 Hz carry",
+    "determine E = h nu for a laser photon of known frequency",
+    "how much energy rides on a single photon of stated frequency",
+    "compute the quantum energy of monochromatic light at 7.2e14 Hz"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "fix Planck's constant",
+     "explain": "h = 6.63e-34 joule second",
+     "compute": "planck_const = 6.63e-34"
+    },
+    {
+     "step": 2,
+     "action": "multiply by the frequency",
+     "explain": "one quantum carries h times the frequency",
+     "compute": "photon_energy = planck_const * light_freq"
+    }
+   ]
+  },
+  {
+   "id": "leph203.11.7.2",
+   "title": "Photon Count From Beam Power",
+   "section": "11.7",
+   "definition": "A beam's power is just its photon delivery rate: splitting the wattage by the energy of one photon gives how many photons leave the source each second.",
+   "formula": "N = P / E",
+   "key_idea": "Photons per second scales with power once the per-photon energy is fixed by frequency.",
+   "textbook_ref": "leph203.txt Example 11.1 (2 mW laser at 6e14 Hz giving 5e15 photons/s)",
+   "question_patterns": [
+    "a laser emits 2 mW at 6e14 Hz; how many photons leave it per second",
+    "find the photon rate of a beam from its power and its frequency",
+    "calculate how many quanta per second a source of stated power delivers",
+    "determine the photons emitted each second when the per-photon energy and wattage are known",
+    "how many photons per second cross a target lit by a beam of given power and frequency",
+    "compute N as power over photon energy for a light source"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "fix Planck's constant",
+     "explain": "h = 6.63e-34 joule second",
+     "compute": "planck_const = 6.63e-34"
+    },
+    {
+     "step": 2,
+     "action": "energy of one photon",
+     "explain": "the quantum energy is h times the frequency",
+     "compute": "photon_energy = planck_const * light_freq"
+    },
+    {
+     "step": 3,
+     "action": "divide power by photon energy",
+     "explain": "photons per second equals beam power over the per-photon energy",
+     "compute": "photon_count = beam_power / photon_energy"
+    }
+   ]
+  },
+  {
+   "id": "leph203.11.7.3",
+   "title": "Photon Momentum",
+   "section": "11.7",
+   "definition": "A photon carries momentum as well as energy, and for radiation the momentum equals Planck's constant divided by the wavelength.",
+   "formula": "p = h / lambda",
+   "key_idea": "Energy and momentum together brand the light quantum as a particle: the photon.",
+   "textbook_ref": "leph203.txt section 11.7 (p = h nu / c = h / lambda) and Exercise 11.4",
+   "question_patterns": [
+    "find the momentum of a photon of wavelength 632.8 nm",
+    "calculate h over lambda for a 488 nm laser photon",
+    "what momentum does one photon of a given wavelength carry",
+    "determine the momentum of an X-ray photon of known wavelength",
+    "how much momentum is packed into a photon of 500 nm light",
+    "compute the photon momentum from its wavelength"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "fix Planck's constant",
+     "explain": "h = 6.63e-34 joule second",
+     "compute": "planck_const = 6.63e-34"
+    },
+    {
+     "step": 2,
+     "action": "divide by the wavelength",
+     "explain": "photon momentum is h over the wavelength in metres",
+     "compute": "photon_momentum = planck_const / wavelength"
+    }
+   ]
+  },
+  {
+   "id": "leph203.11.6.1",
+   "title": "Einstein Photoelectric Equation for Kmax",
+   "section": "11.6",
+   "definition": "One electron swallows one photon whole: whatever energy the quantum carries beyond the work function shows up as kinetic energy, and the fastest electron takes all of it.",
+   "formula": "Kmax = h nu - phi0",
+   "key_idea": "Brighter light sends out more electrons, but only higher frequency makes each one faster.",
+   "textbook_ref": "leph203.txt section 11.6 (Eq. 11.2 and Exercises 11.2, 11.7)",
+   "question_patterns": [
+    "find the maximum kinetic energy of photoelectrons struck by 6e14 Hz light on a metal of work function 2.14 eV",
+    "calculate Kmax from the photon frequency and the work function in joules",
+    "what maximum kinetic energy do the emitted electrons carry when the photon energy beats the work function",
+    "determine the largest photoelectron energy for a 4.2 eV emitter under 8.2e14 Hz light",
+    "how much kinetic energy does the fastest electron get from one photon of known frequency",
+    "compute h nu minus phi0 for a photoemission setup in joules"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "fix Planck's constant",
+     "explain": "h = 6.63e-34 joule second",
+     "compute": "planck_const = 6.63e-34"
+    },
+    {
+     "step": 2,
+     "action": "energy of one photon",
+     "explain": "the quantum carries h times the frequency",
+     "compute": "photon_energy = planck_const * light_freq"
+    },
+    {
+     "step": 3,
+     "action": "subtract the escape cost",
+     "explain": "the excess over the work function becomes kinetic energy",
+     "compute": "k_max = photon_energy - work_func_joule"
+    }
+   ]
+  },
+  {
+   "id": "leph203.11.6.2",
+   "title": "Threshold Frequency From Work Function",
+   "section": "11.6",
+   "definition": "Every emitter has a cut-off frequency: the photon must at least pay the work function, so the cheapest light that still frees electrons has frequency equal to the work function divided by Planck's constant.",
+   "formula": "nu0 = phi0 / h",
+   "key_idea": "A bigger work function pushes the threshold higher, and nothing below it emits no matter the intensity.",
+   "textbook_ref": "leph203.txt section 11.6 (Eq. 11.3 and Example 11.2 part a)",
+   "question_patterns": [
+    "find the threshold frequency of a metal whose work function is 2.14 eV",
+    "calculate the cut-off frequency from a work function given in joules",
+    "what minimum frequency just manages to free electrons from a surface of stated work function",
+    "determine nu zero for caesium using phi0 over h",
+    "below which frequency does an emitter refuse to release electrons",
+    "compute the threshold frequency of a photosensitive surface of given work function"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "fix Planck's constant",
+     "explain": "h = 6.63e-34 joule second",
+     "compute": "planck_const = 6.63e-34"
+    },
+    {
+     "step": 2,
+     "action": "divide the work function by it",
+     "explain": "the cut-off satisfies h nu0 = phi0 exactly",
+     "compute": "threshold_freq = work_func_joule / planck_const"
+    }
+   ]
+  },
+  {
+   "id": "leph203.11.6.3",
+   "title": "Stopping Potential Prediction",
+   "section": "11.6",
+   "definition": "The retarding voltage that halts even the quickest photoelectrons equals the excess photon energy over the work function, shared out per unit electron charge.",
+   "formula": "V0 = (h nu - phi0) / e",
+   "key_idea": "The stopping potential tracks frequency, not intensity, which is the decisive blow to the wave picture.",
+   "textbook_ref": "leph203.txt sections 11.4.3 and 11.6 (Eq. 11.4 and Exercise 11.6)",
+   "question_patterns": [
+    "predict the cut-off voltage when 8.2e14 Hz light hits a metal of threshold 3.3e14 Hz",
+    "calculate the stopping potential from the incident frequency and the work function",
+    "what retarding potential halts the fastest photoelectrons for a stated frequency and emitter",
+    "determine V0 for a photoemission run with known frequency and work function",
+    "find the negative collector potential at which the photocurrent just dies out",
+    "compute the stopping voltage from the photon energy minus the escape cost, per electron charge"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "fix the elementary charge",
+     "explain": "e = 1.6e-19 coulomb",
+     "compute": "elem_charge = 1.6e-19"
+    },
+    {
+     "step": 2,
+     "action": "fix Planck's constant",
+     "explain": "h = 6.63e-34 joule second",
+     "compute": "planck_const = 6.63e-34"
+    },
+    {
+     "step": 3,
+     "action": "energy of one photon",
+     "explain": "the quantum carries h times the frequency",
+     "compute": "photon_energy = planck_const * light_freq"
+    },
+    {
+     "step": 4,
+     "action": "subtract the escape cost",
+     "explain": "only the surplus energy must be cancelled by the retarding field",
+     "compute": "excess_energy = photon_energy - work_func_joule"
+    },
+    {
+     "step": 5,
+     "action": "split by the electron charge",
+     "explain": "the stopping potential is the surplus energy per unit charge",
+     "compute": "stop_potential = excess_energy / elem_charge"
+    }
+   ]
+  },
+  {
+   "id": "leph203.11.4.1",
+   "title": "Kmax From the Stopping Potential",
+   "section": "11.4.2",
+   "definition": "The cut-off voltage is a direct energy meter: the retarding field that just stops the quickest electrons tells you their maximum kinetic energy as charge times that voltage.",
+   "formula": "Kmax = e * V0",
+   "key_idea": "Whatever the emitter or the light, e times the stopping voltage is the fastest electron's energy.",
+   "textbook_ref": "leph203.txt section 11.4.2 (Eq. 11.1 and Exercise 11.3)",
+   "question_patterns": [
+    "the cut-off voltage reads 1.5 V; what maximum photoelectron energy does that mean in joules",
+    "find Kmax from a measured stopping potential",
+    "calculate the maximum kinetic energy as e times V0 for V0 = 0.6 V",
+    "what does a stopping potential of 2 V reveal about the fastest emitted electrons",
+    "determine the electron energy that a retarding potential just manages to cancel",
+    "convert a stopping potential into joules of maximum kinetic energy"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "fix the elementary charge",
+     "explain": "e = 1.6e-19 coulomb",
+     "compute": "elem_charge = 1.6e-19"
+    },
+    {
+     "step": 2,
+     "action": "multiply charge by stopping voltage",
+     "explain": "the retarding potential times e equals the maximum kinetic energy",
+     "compute": "k_max = elem_charge * stop_potential"
+    }
+   ]
+  },
+  {
+   "id": "leph203.11.5.1",
+   "title": "Wave Picture Fails for Photoemission",
+   "section": "11.5",
+   "definition": "If light were a smooth wave, brightness would set the electron energy and any colour would work given time; the actual threshold behaviour, intensity-independent energies and instant emission all contradict that.",
+   "formula": "observations refute continuous absorption",
+   "key_idea": "Only the one-photon-one-electron picture explains why Kmax ignores intensity and why emission waits for no one.",
+   "textbook_ref": "leph203.txt section 11.5 (wave theory versus observations i-iv)",
+   "question_patterns": [
+    "why does the wave theory fail to explain the photoelectric effect",
+    "why can no amount of faint red light eject electrons from zinc",
+    "how does the instant start of emission argue against continuous energy absorption",
+    "explain why the fastest electron does not speed up when the light gets brighter",
+    "what does the very existence of a threshold frequency contradict in the wave picture",
+    "state two wave-model predictions that photoemission experiments refute"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the wave prediction",
+     "explain": "a wave should dump energy continuously, so brighter light should mean faster electrons and no cut-off colour"
+    },
+    {
+     "step": 2,
+     "action": "contrast with the data",
+     "explain": "Kmax ignores intensity, emission needs nu above nu0, and the delay is under a nanosecond"
+    },
+    {
+     "step": 3,
+     "action": "credit the quantum fix",
+     "explain": "one photon absorbed by one electron explains every observation at once"
+    }
+   ]
+  },
+  {
+   "id": "leph203.11.8.1",
+   "title": "de Broglie Wavelength From Momentum",
+   "section": "11.8",
+   "definition": "Matter waves a wavelength of Planck's constant divided by the particle's momentum, so the more momentum a body carries the tinier its wave character becomes.",
+   "formula": "lambda = h / p",
+   "key_idea": "The de Broglie relation welds a wave property to a particle property through h.",
+   "textbook_ref": "leph203.txt section 11.8 (Eq. 11.5 and Example 11.3 part b)",
+   "question_patterns": [
+    "find the de Broglie wavelength of a particle of momentum 4.9e-24 kg m/s",
+    "calculate h over p for a moving body of given momentum",
+    "what wavelength belongs to a matter wave of known momentum",
+    "determine the de Broglie wavelength from the momentum of the particle",
+    "compute the matter wavelength for a momentum of 4.5 kg m/s",
+    "how does the associated wavelength change as a particle's momentum grows"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "fix Planck's constant",
+     "explain": "h = 6.63e-34 joule second",
+     "compute": "planck_const = 6.63e-34"
+    },
+    {
+     "step": 2,
+     "action": "divide by the momentum",
+     "explain": "the matter wavelength is h over the momentum",
+     "compute": "debroglie_wl = planck_const / momentum"
+    }
+   ]
+  },
+  {
+   "id": "leph203.11.8.2",
+   "title": "de Broglie Wavelength From Mass and Speed",
+   "section": "11.8",
+   "definition": "For a particle of mass m and speed v, first form the momentum m v and Planck's constant over it gives the matter wavelength; everyday objects end up with immeasurably short waves.",
+   "formula": "lambda = h / (m v)",
+   "key_idea": "Electron waves reach measurable sizes while a thrown ball's wavelength dwarfs nothing.",
+   "textbook_ref": "leph203.txt section 11.8 (Example 11.3 and Exercise 11.10)",
+   "question_patterns": [
+    "find the de Broglie wavelength of an electron moving at 5.4e6 m/s",
+    "calculate the matter wavelength of a 40 g bullet flying at 1000 m/s",
+    "what is the wavelength of a 60 g ball rolling at 1 m/s",
+    "determine h over m v for a dust particle of stated mass and drift speed",
+    "compute the de Broglie wavelength from mass and velocity",
+    "how short is the matter wave of a macroscopic object of given mass and speed"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "form the momentum",
+     "explain": "momentum is mass times speed",
+     "compute": "momentum = mass * speed"
+    },
+    {
+     "step": 2,
+     "action": "fix Planck's constant",
+     "explain": "h = 6.63e-34 joule second",
+     "compute": "planck_const = 6.63e-34"
+    },
+    {
+     "step": 3,
+     "action": "divide h by the momentum",
+     "explain": "the matter wavelength is h over m v",
+     "compute": "debroglie_wl = planck_const / momentum"
+    }
+   ]
+  },
+  {
+   "id": "leph203.11.6.4",
+   "title": "Planck Constant From the V0-nu Slope",
+   "section": "11.6",
+   "definition": "Plotting stopping potential against frequency draws a straight line of slope h over e, so multiplying the measured slope by the electron charge recovers Planck's constant.",
+   "formula": "h = slope * e",
+   "key_idea": "Millikan tried to topple Einstein's equation and instead measured h from its universal slope.",
+   "textbook_ref": "leph203.txt section 11.6 (slope = h/e of the V0 versus nu line) and Exercise 11.5",
+   "question_patterns": [
+    "the slope of cut-off voltage versus frequency is 4.12e-15 V s; find Planck's constant",
+    "calculate h from the slope of the V0 against nu curve using the electron charge",
+    "what value of h follows from a measured slope in volt seconds",
+    "determine Planck's constant from the straight-line photoelectric graph",
+    "compute h as the slope times the elementary charge",
+    "how do you extract h from the gradient of a stopping potential plot"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "fix the elementary charge",
+     "explain": "e = 1.6e-19 coulomb",
+     "compute": "elem_charge = 1.6e-19"
+    },
+    {
+     "step": 2,
+     "action": "multiply the slope by the charge",
+     "explain": "the line's slope is h over e, so h is slope times e",
+     "compute": "planck_h = slope_vs * elem_charge"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_leph203_1",
+   "source_ref": "leph203.txt Example 11.1",
+   "concept": "leph203.11.7.2",
+   "question_type": "photon_count_from_power",
+   "question_pattern": "A laser beam of frequency {light_freq} Hz carries a power of {beam_power} W. How many photons does it emit per second?",
+   "extracted_variables": {"light_freq": 6.0e+14, "beam_power": 0.002},
+   "solution_template": [
+    {"step": 1, "action": "fix Planck's constant", "explain": "h = 6.63e-34 J s", "compute": "planck_const = 6.63e-34"},
+    {"step": 2, "action": "energy per photon", "explain": "E = h nu", "compute": "photon_energy = planck_const * light_freq"},
+    {"step": 3, "action": "divide power by photon energy", "explain": "N = P/E", "compute": "photon_count = beam_power / photon_energy"}
+   ]
+  },
+  {
+   "id": "we_leph203_2",
+   "source_ref": "leph203.txt Example 11.2 part (a)",
+   "concept": "leph203.11.6.2",
+   "question_type": "threshold_frequency",
+   "question_pattern": "The work function of caesium is {work_func_ev} eV. What is its threshold frequency?",
+   "extracted_variables": {"work_func_ev": 2.14},
+   "solution_template": [
+    {"step": 1, "action": "convert eV to joule", "explain": "multiply by 1.6e-19", "compute": "work_func_joule = work_func_ev * 1.6e-19"},
+    {"step": 2, "action": "fix Planck's constant", "explain": "h = 6.63e-34 J s", "compute": "planck_const = 6.63e-34"},
+    {"step": 3, "action": "divide phi0 by h", "explain": "nu0 = phi0/h", "compute": "threshold_freq = work_func_joule / planck_const"}
+   ]
+  },
+  {
+   "id": "we_leph203_3",
+   "source_ref": "leph203.txt Exercise 11.2 data",
+   "concept": "leph203.11.6.3",
+   "question_type": "stopping_potential_from_frequency",
+   "question_pattern": "Caesium of work function {work_func_ev} eV is lit by {light_freq} Hz light. What stopping potential stops the photoelectrons?",
+   "extracted_variables": {"light_freq": 6.0e+14, "work_func_ev": 2.14},
+   "solution_template": [
+    {"step": 1, "action": "convert eV to joule", "explain": "multiply by 1.6e-19", "compute": "work_func_joule = work_func_ev * 1.6e-19"},
+    {"step": 2, "action": "fix Planck's constant", "explain": "h = 6.63e-34 J s", "compute": "planck_const = 6.63e-34"},
+    {"step": 3, "action": "energy per photon", "explain": "E = h nu", "compute": "photon_energy = planck_const * light_freq"},
+    {"step": 4, "action": "subtract the escape cost", "explain": "surplus energy over work function", "compute": "excess_energy = photon_energy - work_func_joule"},
+    {"step": 5, "action": "divide by the electron charge", "explain": "V0 = Kmax/e", "compute": "stop_potential = excess_energy / 1.6e-19"}
+   ]
+  },
+  {
+   "id": "we_leph203_4",
+   "source_ref": "leph203.txt Example 11.3 part (a)",
+   "concept": "leph203.11.8.2",
+   "question_type": "de_broglie_electron",
+   "question_pattern": "What de Broglie wavelength belongs to an electron of mass {mass} kg moving at {speed} m/s?",
+   "extracted_variables": {"mass": 9.11e-31, "speed": 5.4e+06},
+   "solution_template": [
+    {"step": 1, "action": "form the momentum", "explain": "p = m v", "compute": "momentum = mass * speed"},
+    {"step": 2, "action": "fix Planck's constant", "explain": "h = 6.63e-34 J s", "compute": "planck_const = 6.63e-34"},
+    {"step": 3, "action": "divide h by p", "explain": "lambda = h/p", "compute": "debroglie_wl = planck_const / momentum"}
+   ]
+  },
+  {
+   "id": "we_leph203_5",
+   "source_ref": "leph203.txt Exercise 11.5 data",
+   "concept": "leph203.11.6.4",
+   "question_type": "planck_from_slope",
+   "question_pattern": "In a photoelectric experiment the slope of the cut-off voltage versus frequency graph is {slope_vs} V s. What value of Planck's constant follows?",
+   "extracted_variables": {"slope_vs": 4.12e-15},
+   "solution_template": [
+    {"step": 1, "action": "fix the elementary charge", "explain": "e = 1.6e-19 C", "compute": "elem_charge = 1.6e-19"},
+    {"step": 2, "action": "multiply slope by e", "explain": "slope = h/e so h = slope times e", "compute": "planck_h = slope_vs * elem_charge"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_leph203_11_1_to_11_4",
+   "source_ref": "leph203.txt end-of-chapter exercises 11.1-11.4",
+   "questions": [
+    "Electrons accelerated through 30 kV make X-rays; give the top frequency and the shortest wavelength they can produce.",
+    "Caesium of work function 2.14 eV meets light of 6e14 Hz; find the top electron energy, the stopping potential and the fastest electron speed.",
+    "A photoelectric run shows a cut-off voltage of 1.5 V; what maximum kinetic energy do the electrons carry?",
+    "A helium-neon laser of 632.8 nm emits 9.42 mW; find each photon's energy and momentum, the photon arrival rate at a target, and the hydrogen-atom speed matching one photon's momentum."
+   ]
+  },
+  {
+   "id": "ex_leph203_11_5_to_11_7",
+   "source_ref": "leph203.txt end-of-chapter exercises 11.5-11.7",
+   "questions": [
+    "The slope of a cut-off voltage versus frequency plot comes out as 4.12e-15 V s; work out Planck's constant from it.",
+    "A metal's threshold frequency is 3.3e14 Hz and light of 8.2e14 Hz falls on it; predict the cut-off voltage.",
+    "A metal needs 4.2 eV to emit; will 330 nm light manage photoemission from it?"
+   ]
+  },
+  {
+   "id": "ex_leph203_11_8_to_11_10",
+   "source_ref": "leph203.txt end-of-chapter exercises 11.8-11.10",
+   "questions": [
+    "Light of 7.21e14 Hz frees electrons that top out at 6e5 m/s; what is the emitter's threshold frequency?",
+    "An argon laser line of 488 nm gives a stopping potential of 0.38 V on some emitter; find that material's work function.",
+    "Give the de Broglie wavelength of a 0.040 kg bullet at 1 km/s, a 0.060 kg ball at 1 m/s, and a 1e-9 kg dust mote drifting at 2 m/s."
+   ]
+  }
+ ]
+}

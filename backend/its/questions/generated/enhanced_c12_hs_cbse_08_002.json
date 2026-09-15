@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_08_002",
+   "title": "c12_hs_cbse_08_002",
+   "questions": [
+    {
+     "q": "Define the term \"texture\" in the context of fabric and apparel design, and list the five factors from the NCERT textbook that determine the texture of a textile material.",
+     "a": "Texture is the sensory impression of sight and touch referring to the tactile and visual qualities of a material (e.g., shiny, dull, soft, crisp, rough). The five determining factors are: (1) fibre content (type, length, fineness, surface characteristics), (2) yarn processing and yarn type (twist, fineness, simple/complex/novelty/textured), (3) fabric construction technique (weave type, compactness, knitting, felting, etc.), (4) fabric finishes (stiffening, calendaring, napping, fulling), and (5) surface ornamentation (tufting, flock printing, embroidery, stitched effects). A wrong answer that only mentions \"how it feels\" reveals the student is ignoring the visual dimension and the manufacturing factors that create texture—critical for board questions asking \"explain factors affecting texture.\"",
+     "self_check": true
+    },
+    {
+     "q": "A designer wants to create a formal shirt that visually elongates a short torso. Which *type of line* should dominate the design, and why? Explain the psychological effect of that line direction using NCERT terminology.",
+     "a": "Vertical lines should dominate. According to the textbook, vertical lines \"stress up and down movement, emphasise height and give the effect that is severe, dignified and reserved.\" A student who answers \"horizontal lines\" or \"diagonal lines\" confuses the direction: horizontal lines \"create an illusion of width\" and \"give a stable and placid effect,\" which would shorten the torso visually. This error shows the student has memorised line types but not their specific visual-psychological mappings—a common board-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "You are given three fabric swatches: (A) a stiff, crisp organza with a shiny surface, (B) a soft, limp rayon challis with a dull finish, (C) a heavy, napped wool flannel. For each swatch, identify the dominant texture descriptor pair (visual + tactile) from the NCERT list and name one fabric construction factor responsible for that texture.",
+     "a": "(A) Visual: shiny; Tactile: crisp/stiff. Factor: plain weave with high twist yarn + calendaring finish. (B) Visual: dull; Tactile: soft/flowing/limp. Factor: low-twist filament yarn + loose plain weave. (C) Visual: dull/opaque; Tactile: soft/rough (napped). Factor: napping finish on a twill-weave wool fabric. A student who swaps descriptors (e.g., calls organza \"soft\") or cannot link the texture to a construction factor (weave, yarn, finish) has not internalised the cause-effect chain the textbook emphasises for \"factors determining texture.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"structural design\" and \"applied design\" in apparel. Give one example of each from a traditional Indian garment (e.g., saree, sherwani, lehenga) and explain how the two interact in that garment.",
+     "a": "Structural design depends on the basic cut/silhouette and fabric structure (weave, yarn, fibre) without superimposed ornamentation. Applied design is superimposed on the structure (embroidery, printing, trims, fasteners). Example: In a Banarasi silk saree, the structural design is the woven brocade pattern created by dyed yarns in the jacquard weave (colour added at yarn stage); the applied design is the zari border and pallu motifs woven with metallic threads (added during weaving but conceptually superimposed). They interact because the structural brocade ground provides a rich base that makes the applied zari border harmonious rather than overwhelming. A student who confuses \"woven pattern\" as always applied design misses that yarn-dyed woven patterns are structural—this distinction appears in board questions on \"stages of colour application.\"",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following design decision: \"For a petite, curvy woman attending a daytime corporate event, choose a dress in a large, bold geometric print on a stiff, heavy brocade fabric with strong horizontal banding at the hip line.\" Justify your evaluation using at least three elements of design and their visual effects.",
+     "a": "The decision is poorly suited. (1) *Shape/Pattern*: Large, bold geometric prints (geometric shapes, high contrast) visually expand the figure, making a petite frame appear smaller and curves wider—contrary to the goal of a flattering corporate look. (2) *Texture*: Stiff, heavy brocade adds visual bulk and does not drape over curves; it stands away from the body, exaggerating volume. (3) *Line*: Strong horizontal banding at the hip line emphasises width at the hips (horizontal lines \"create an illusion of width\"), drawing attention to the curviest part. A better choice would be a small, low-contrast abstract print (pattern), a fluid medium-weight fabric like crepe (texture), and vertical princess seams or a centre-front vertical detail (line). A student who calls this \"good because brocade is formal\" evaluates only occasion-appropriateness, ignoring figure-flattery principles—exactly the incomplete analysis that loses marks in case-based board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mood-board concept for a \"Monsoon Evening Wear\" collection using the five elements of design. Specify: (a) a colour palette with hue/value/intensity notes, (b) two texture combinations with fabric names, (c) dominant line direction and its intended effect, (d) shape/category of motifs, (e) pattern repeat style. Explain how the ensemble communicates \"monsoon evening.\"",
+     "a": "(a) Palette: Deep teal (hue: blue-green, value: low/shade, intensity: medium), muted gold (hue: yellow-orange, value: medium, intensity: low), charcoal grey (neutral). Rationale: Teal/green = monsoon foliage (receding/restful), gold = lamplight (advancing/stimulating accent), grey = storm clouds. (b) Textures: (i) Silk chiffon (visual: sheer/glossy, tactile: fluid/soft) for overlay; (ii) Cotton-silk blend with subtle slub (visual: matte/textured, tactile: crisp/structured) for base. Contrast creates interest. (c) Lines: Long, flowing curved lines (princess seams, flared hem, curved neckline) for graceful, rhythmic movement—evokes rain drapes. (d) Motifs: Stylised natural shapes—abstracted raindrops, leaf veins, ripple waves. (e) Pattern: Half-drop repeat for organic flow. A strong answer integrates all five elements coherently; a weak answer lists disjointed choices (e.g., \"bright red, stiff denim, straight lines\") showing inability to synthesise elements into a design narrative.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_07_007",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_07_007",
+   "title": "c12_cs_cbse_07_007",
+   "questions": [
+    {
+     "q": "State De Morgan's First Theorem for two Boolean variables A and B. Write it in the form (A + B)' = ?",
+     "a": "Correct answer: (A + B)' = A' · B'. A wrong answer such as (A + B)' = A' + B' reveals the student has memorised the complement distribution but missed the critical operator change from OR to AND. This is the single most common error — students treat complementation as distributive over the same operator, confusing it with the distributive law A·(B+C)=A·B+A·C.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why (A · B)' is not equal to A' · B'. Use a concrete example with A=1, B=0 to illustrate.",
+     "a": "Correct explanation: (A·B)' means \"NOT (A AND B)\", which is true when at least one input is false. A'·B' means \"(NOT A) AND (NOT B)\", which is true only when both inputs are false. For A=1, B=0: (1·0)' = 0' = 1, but 1'·0' = 0·1 = 0. The results differ. A wrong answer that claims they are equal shows the student does not grasp that complementation flips the operator (AND becomes OR) — they are applying a \"distribute the bar\" rule without the operator change.",
+     "self_check": true
+    },
+    {
+     "q": "Apply De Morgan's Theorem to find the complement of the Boolean expression F = (X + Y') · (Z + W). Show each step.",
+     "a": "Steps: 1) F' = [(X + Y') · (Z + W)]' 2) Apply Theorem 2: (P·Q)' = P' + Q' where P=(X+Y'), Q=(Z+W) → F' = (X+Y')' + (Z+W)' 3) Apply Theorem 1 to each: (X+Y')' = X' · (Y')' = X' · Y; (Z+W)' = Z' · W' 4) Final: F' = X'·Y + Z'·W'. A wrong answer that writes F' = X'·Y' + Z'·W' (forgetting double complement on Y) or F' = (X'·Y) · (Z'·W') (keeping AND instead of changing to OR) reveals incomplete application of the two-step process: complement each variable AND flip the operator at every level.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the algebraic proof of (A + B)' = A' · B' using Boolean laws with the truth-table proof. Which proof is more general and why? Which is more convincing for a beginner?",
+     "a": "The algebraic proof is more general because it relies on axioms (postulates) that hold for any Boolean algebra (including multi-valued or abstract algebras), not just the two-valued {0,1} case. The truth-table proof is exhaustive only for binary variables but is more convincing for beginners because it checks all 4 combinations visibly. A student who says \"truth table is more general because it covers all cases\" confuses exhaustive enumeration with mathematical generality — they haven't understood that algebraic proofs extend beyond binary logic.",
+     "self_check": true
+    },
+    {
+     "q": "A student simplifies (A + B' + C)' as A' · B · C'. Evaluate this simplification. Is it correct? If not, identify the exact error and give the correct result.",
+     "a": "The simplification is correct. De Morgan's Theorem extends to n variables: (X1 + X2 + ... + Xn)' = X1' · X2' · ... · Xn'. Here each variable is complemented and OR becomes AND. The student correctly complemented A (→A'), B' (→B), and C (→C') and changed + to ·. A wrong evaluation claiming it's incorrect because \"B' becomes B'' not B\" shows the student doesn't recognise that (B')' = B (Involution Law) — they are treating the bar over B' as a single complement rather than a double complement.",
+     "self_check": true
+    },
+    {
+     "q": "Create a Boolean expression with three variables that requires two applications of De Morgan's Theorem to convert it into a sum-of-products (SOP) form with only single-variable complements (no complemented parentheses). Show the full derivation.",
+     "a": "Example: F = [(A + B') · C']'. Step 1: Apply Theorem 2 on the outer complement: F = (A + B')' + (C')' = (A + B')' + C. Step 2: Apply Theorem 1 on (A + B')': F = A' · (B')' + C = A'·B + C. Final SOP: A'·B + C. A poor answer that writes F = A'·B' + C (missing the double complement on B) or F = (A'·B) + C' (not complementing C) shows the student cannot track nested complements and operator flips across multiple levels — a critical skill for JEE-style multi-gate conversion problems.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_07_005",
+   "title": "c11_acc_cbse_07_005",
+   "questions": [
+    {
+     "q": "State the formula for calculating the rate of depreciation under Written Down Value Method as per Accounting Standard-6, defining each variable clearly.",
+     "a": "The formula is: r = [1 - (s/c)^(1/n)] × 100, where r = rate of depreciation (%), s = scrap/salvage value, c = original cost of asset, n = useful life in years. A wrong answer (e.g., r = (c-s)/n × 100/c) reveals confusion with Straight Line Method's rate formula, indicating the student doesn't grasp that WDV rate is derived from compounding decay, not linear allocation.",
+     "self_check": true
+    },
+    {
+     "q": "A machine costs ₹5,00,000 with scrap value ₹50,000 and useful life 5 years. Under WDV method at 20% p.a., the depreciation for Year 3 is ₹64,000. Explain WHY the Year 3 depreciation is lower than Year 1's ₹1,00,000, even though the rate (20%) is constant.",
+     "a": "Depreciation each year = Rate × WDV at beginning of that year. Year 1 WDV = ₹5,00,000 → Dep = ₹1,00,000. Year 2 WDV = ₹4,00,000 → Dep = ₹80,000. Year 3 WDV = ₹3,20,000 → Dep = ₹64,000. The BASE (WDV) shrinks each year, so 20% of a smaller base yields a smaller amount. A wrong answer citing \"rate changes\" or \"straight line logic\" reveals the student thinks depreciation amount should be constant or doesn't understand WDV is a declining base method.",
+     "self_check": true
+    },
+    {
+     "q": "A firm purchases machinery for ₹8,00,000 on 1st July 2023 (financial year ends 31st March). Depreciation is 15% p.a. on WDV. Calculate depreciation for 2023-24 and 2024-25, and the WDV on 31st March 2025.",
+     "a": "Step 1: 2023-24 (9 months): Dep = 15% × ₹8,00,000 × 9/12 = ₹90,000. WDV 31/3/24 = ₹7,10,000.\nStep 2: 2024-25 (full year): Dep = 15% × ₹7,10,000 = ₹1,06,500. WDV 31/3/25 = ₹6,03,500.\nA wrong answer using 12 months for first year or applying 15% on original cost reveals misunderstanding of partial-year depreciation and WDV base updating.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the TOTAL charge to Profit & Loss (Depreciation + Repairs) over 4 years for an asset under SLM vs WDV, assuming repairs are ₹10,000, ₹20,000, ₹35,000, ₹55,000 respectively. Asset cost ₹4,00,000, life 4 years, scrap ₹40,000. SLM dep = ₹90,000/year. WDV rate = 25%. Which method gives more uniform total charge? Show calculations.",
+     "a": "SLM Total charges: Y1=₹1,00,000, Y2=₹1,10,000, Y3=₹1,25,000, Y4=₹1,45,000 (increasing trend).\nWDV: Y1 Dep=₹1,00,000 (25% of 4,00,000), WDV=3,00,000; Y2 Dep=₹75,000, WDV=2,25,000; Y3 Dep=₹56,250, WDV=1,68,750; Y4 Dep=₹42,188.\nWDV Total charges: Y1=₹1,10,000, Y2=₹95,000, Y3=₹91,250, Y4=₹97,188 (relatively stable).\nWDV equalizes total burden. Wrong answer choosing SLM reveals failure to compute WDV depreciation schedule and compare totals.",
+     "self_check": true
+    },
+    {
+     "q": "\"WDV method is superior to SLM for all types of assets.\" Evaluate this statement with reference to (a) assets with low repairs and low obsolescence (e.g., buildings), (b) tax recognition, and (c) the limitation that book value never reaches zero.",
+     "a": "The statement is FALSE. (a) For buildings with low repairs/obsolescence, SLM is better as it writes off full depreciable cost and matches uniform utility. (b) WDV is tax-recognized (Income Tax Act), SLM is not — advantage WDV for tax purposes. (c) WDV never reduces book value to zero/scrap exactly, leaving residual unallocated cost — disadvantage for financial reporting. A blanket \"WDV always better\" reveals inability to match method to asset characteristics and legal context.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a company buys a second-hand machine for ₹3,00,000, spends ₹50,000 on overhaul, estimates 6-year life and ₹20,000 scrap. The accountant proposes WDV rate of 25%. Verify if this rate is appropriate using the AS-6 formula. If not, find the correct rate and explain the impact of using 25% vs correct rate on Year 1 depreciation.",
+     "a": "Cost c = ₹3,50,000, scrap s = ₹20,000, n = 6. Correct rate r = [1 - (20,000/3,50,000)^(1/6)] × 100 = [1 - (0.05714)^(0.1667)] × 100 ≈ [1 - 0.607] × 100 ≈ 39.3%.\nAt 25%: Year 1 Dep = ₹87,500. At 39.3%: Year 1 Dep = ₹1,37,550.\nUsing 25% under-depreciates heavily initially, overstates profits, and violates AS-6's \"fair proportion\" principle. A student unable to apply the formula or compute the nth root reveals gaps in algebraic manipulation and understanding of rate derivation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch6_3",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch6_3",
+   "title": "c9_math_ch6_3",
+   "questions": [
+    {
+     "q": "State the formula for the arc length of a circle when the central angle θ is given in degrees and the radius is r.",
+     "a": "Arc length = (θ/360°) × 2πr. A wrong answer like θ × 2πr or (θ/180°) × πr reveals the student either forgets the fraction of the circle or confuses the formula with the radian version (which they haven't learned yet) or the area of sector formula.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the arc length formula uses the fraction θ/360° multiplied by the circumference 2πr. What does this fraction represent geometrically?",
+     "a": "The fraction θ/360° represents the proportion of the full 360° circle that the arc covers. Since circumference is the distance around the full circle, multiplying by this fraction gives the corresponding part of that distance. A wrong answer like \"it's just a formula to memorize\" or \"θ/360° converts degrees to radians\" shows the student lacks conceptual understanding of proportionality between angle and arc length.",
+     "self_check": true
+    },
+    {
+     "q": "A circular garden has a radius of 14 m. A sprinkler waters an arc-shaped section with a central angle of 90°. Find the length of the arc watered. Use π = 22/7.",
+     "a": "Step 1: Identify given: r = 14 m, θ = 90°. Step 2: Formula: L = (θ/360°) × 2πr. Step 3: Substitute: L = (90/360) × 2 × (22/7) × 14. Step 4: Simplify: 90/360 = 1/4. 2 × (22/7) × 14 = 2 × 22 × 2 = 88. L = (1/4) × 88 = 22 m. Step 5: Arc length = 22 m. A wrong answer like 88 m (using full circumference) or 11 m (using πr instead of 2πr) reveals confusion between arc length and circumference or using the wrong formula.",
+     "self_check": true
+    },
+    {
+     "q": "Two arcs have the same length. Arc A belongs to a circle of radius 10 cm with central angle 60°. Arc B belongs to a circle of radius 15 cm. What is the central angle of Arc B? Compare the relationship between radius and central angle for a fixed arc length.",
+     "a": "Arc length A = (60/360) × 2π × 10 = (1/6) × 20π = (10π/3) cm. For Arc B: (θ/360) × 2π × 15 = (10π/3). Simplify: (θ/360) × 30π = (10π/3) → θ/360 = (10π/3) / (30π) = 1/9 → θ = 40°. The relationship is inverse: for constant arc length, radius × angle = constant. A wrong answer like 60° (same angle) or 90° (proportional to radius) shows the student doesn't recognize the inverse proportionality between r and θ when arc length is fixed.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Find arc length for r = 7 cm, θ = 45° using π = 22/7.\" Their working: L = (45/360) × 2 × (22/7) × 7 = (1/8) × 44 = 5.5 cm. Is this correct? If not, identify the error and give the correct answer.",
+     "a": "The student's answer 5.5 cm is incorrect. Error: They computed 2 × (22/7) × 7 = 44 correctly, but then multiplied by 45/360 = 1/8 to get 5.5. However, 2 × (22/7) × 7 = 44 is the full circumference. (1/8) of 44 is indeed 5.5. Wait — 45/360 = 1/8, and 44 × 1/8 = 5.5. The answer is actually correct! The student's working is correct. A wrong evaluation like \"incorrect because they should use π = 3.14\" or \"incorrect, answer is 11 cm\" reveals the evaluator's own misunderstanding of fraction simplification or π approximation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem involving arc length where the radius is unknown but the arc length and central angle are given. The problem must be set in an Indian context (e.g., a circular park, a roundabout, a pizza). Provide the solution.",
+     "a": "Example problem: \"A circular pizza has a slice with a curved crust (arc) of length 11 cm. The slice makes an angle of 60° at the centre. Find the radius of the pizza. Use π = 22/7.\" Solution: L = (θ/360) × 2πr → 11 = (60/360) × 2 × (22/7) × r → 11 = (1/6) × (44/7) × r → 11 = (44/42) r → r = 11 × 42 / 44 = 10.5 cm. A poor answer gives a trivial problem (e.g., direct formula plug-in) or fails to set up the equation correctly, showing inability to reverse the formula or create meaningful context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,639 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 107,
+ "chapter_title": "Structural Organisation in Animals",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebo107.txt",
+ "concepts": [
+  {
+   "id": "jebh.7.1",
+   "title": "Animal Tissues Overview",
+   "section": "7.1",
+   "definition": "A group of similar cells along with intercellular substances performing a specific function forms a tissue. Animal tissues are classified into four major types: epithelial, connective, muscular, and neural.",
+   "formula": "animal_tissue_types = epithelial + connective + muscular + neural",
+   "key_idea": "Cells aggregate to form tissues, and tissues organize into organs and organ systems, establishing the hierarchy of structural organisation in animals.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what are the four main types of animal tissues",
+    "define tissue and explain how animal tissues are classified",
+    "describe the hierarchy of structural organisation in animals",
+    "how do cells aggregate to form tissues and organs",
+    "what is the basis of classification of animal tissues"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the four tissue types",
+     "explain": "Recognize epithelial (covering), connective (support), muscular (movement), and neural (control) as the four primary animal tissue categories."
+    },
+    {
+     "step": 2,
+     "action": "Relate structure to function",
+     "explain": "Each tissue type has specialized cell structure and intercellular material suited to its specific role in the body."
+    },
+    {
+     "step": 3,
+     "action": "Establish organisational hierarchy",
+     "explain": "Confirm that cells form tissues, tissues combine into organs, and organs coordinate into organ systems, completing the structural hierarchy."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Name the four major types of animal tissues and state one function of each.",
+     "solution": "The four types are epithelial (protection and covering), connective (support and binding), muscular (movement and locomotion), and neural (transmission of nerve impulses).",
+     "answer": "Epithelial, connective, muscular, and neural tissues."
+    },
+    {
+     "question": "How does the structural organisation of animals proceed from cells to organ systems?",
+     "solution": "Similar cells aggregate to form tissues; different tissues combine to form organs; organs work together as organ systems; organ systems constitute the organism.",
+     "answer": "Cell -> Tissue -> Organ -> Organ system -> Organism."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define the term tissue. How are animal tissues broadly classified?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the basis on which animal tissues are grouped into four main categories.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Which of the following is NOT a primary animal tissue type? (a) Epithelial (b) Connective (c) Vascular (d) Neural",
+     "type": "mcq"
+    }
+   ]
+  },
+  {
+   "id": "jebh.7.2",
+   "title": "Epithelial Tissue Types",
+   "section": "7.2",
+   "definition": "Epithelial tissue is a sheet of cells that covers body surfaces and lines cavities, classified by cell shape into squamous, cuboidal, and columnar, and by cell layers into simple and compound.",
+   "formula": "epithelial_classification = cell_shape + cell_layer_count",
+   "key_idea": "Epithelial tissue is classified based on cell shape (squamous, cuboidal, columnar) and number of layers (simple = one layer, compound = multiple layers).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "classify epithelial tissues based on cell shape and layering",
+    "what is the difference between simple and compound epithelium",
+    "describe the structure and function of squamous epithelium",
+    "where are cuboidal and columnar epithelia found in the body",
+    "how does epithelial cell shape relate to function"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine cell shape category",
+     "explain": "Identify whether cells are flat (squamous), cube-shaped (cuboidal), or tall and pillar-like (columnar)."
+    },
+    {
+     "step": 2,
+     "action": "Count cell layers",
+     "explain": "Determine if the epithelium has a single layer (simple) or multiple layers (compound/stratified)."
+    },
+    {
+     "step": 3,
+     "action": "Combine shape and layer classification",
+     "explain": "Merge cell shape and layer count to produce the full epithelial classification, such as simple squamous or compound cuboidal."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "An epithelial tissue has flat cells arranged in a single layer. What is its classification?",
+     "solution": "Flat cells indicate squamous shape. A single layer indicates simple epithelium. Combined, this is simple squamous epithelium.",
+     "answer": "Simple squamous epithelium."
+    },
+    {
+     "question": "A tissue has tall pillar-shaped cells in multiple layers. Classify the epithelium.",
+     "solution": "Tall pillar-shaped cells are columnar. Multiple layers indicate compound epithelium. Combined classification is compound columnar epithelium.",
+     "answer": "Compound columnar epithelium."
+    },
+    {
+     "question": "Where is simple cuboidal epithelium commonly found?",
+     "solution": "Simple cuboidal epithelium is found in ducts of glands and tubular parts of nephrons in kidneys, where it provides mechanical support and secretion.",
+     "answer": "Ducts of glands and kidney tubules."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Differentiate between simple and compound epithelial tissue with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Which epithelial tissue is found in the alveoli of lungs? (a) Simple squamous (b) Simple cuboidal (c) Simple columnar (d) Compound squamous",
+     "type": "mcq"
+    },
+    {
+     "question": "Describe the structure and location of ciliated epithelium.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.7.3",
+   "title": "Connective Tissue",
+   "section": "7.3",
+   "definition": "Connective tissue is the most abundant and widely distributed tissue in animals, comprising cells, fibres, and ground substance, classified into loose, dense, and specialized connective tissues.",
+   "formula": "connective_tissue = cells + fibres + ground_substance",
+   "key_idea": "Connective tissues link and support other tissues or organs, with loose connective tissue as packing material, dense connective tissue for strength, and specialized types like bone, cartilage, and blood.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what are the three main categories of connective tissue",
+    "describe the components of connective tissue",
+    "differentiate between loose and dense connective tissue",
+    "what is the function of areolar connective tissue",
+    "how are specialized connective tissues like bone and blood classified"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify connective tissue components",
+     "explain": "Recognize that connective tissue consists of cells (fibroblasts, etc.), fibres (collagen, elastin), and a gel-like ground substance or matrix."
+    },
+    {
+     "step": 2,
+     "action": "Classify by density and function",
+     "explain": "Distinguish loose connective tissue (areolar, adipose) as packing material, dense connective tissue (tendons, ligaments) for tensile strength, and specialized types (bone, cartilage, blood) for unique roles."
+    },
+    {
+     "step": 3,
+     "action": "Relate structure to support function",
+     "explain": "Confirm that the matrix composition and fibre density determine whether the connective tissue provides packing, strength, structural support, or transport functions."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the three main categories of connective tissue? Give one example of each.",
+     "solution": "The three categories are loose connective tissue (areolar), dense connective tissue (tendon), and specialized connective tissue (bone).",
+     "answer": "Loose (areolar), dense (tendon), specialized (bone)."
+    },
+    {
+     "question": "Why is blood classified as a connective tissue?",
+     "solution": "Blood has cells (RBCs, WBCs, platelets) suspended in a fluid matrix (plasma), fitting the definition of connective tissue as cells plus intercellular substance, and it connects body parts by transporting materials.",
+     "answer": "Blood is a specialized fluid connective tissue with cells in plasma matrix."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the components of connective tissue and their functions.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Which connective tissue connects muscle to bone? (a) Ligament (b) Tendon (c) Cartilage (d) Areolar",
+     "type": "mcq"
+    },
+    {
+     "question": "Explain the role of adipose tissue in the body.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.7.4",
+   "title": "Muscular Tissue",
+   "section": "7.4",
+   "definition": "Muscular tissue consists of contractile cells called muscle fibres, classified into skeletal (striated, voluntary), smooth (non-striated, involuntary), and cardiac (striated, involuntary) muscle.",
+   "formula": "muscle_type_count = skeletal + smooth + cardiac",
+   "key_idea": "Each muscle type differs in striation, control (voluntary vs involuntary), cell shape, and location, determining its role in movement.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what are the three types of muscular tissue",
+    "differentiate between skeletal and smooth muscle",
+    "describe the structure of cardiac muscle",
+    "why is smooth muscle called involuntary",
+    "how do striations differ among muscle types"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine striation presence",
+     "explain": "Check whether the muscle fibre shows light and dark striations (striated) or not (non-striated). Skeletal and cardiac are striated; smooth is non-striated."
+    },
+    {
+     "step": 2,
+     "action": "Determine voluntary or involuntary control",
+     "explain": "Skeletal muscle is under voluntary control; smooth and cardiac muscles are involuntary."
+    },
+    {
+     "step": 3,
+     "action": "Classify muscle type from properties",
+     "explain": "Combine striation and control to identify the muscle: striated+voluntary = skeletal, non-striated+involuntary = smooth, striated+involuntary = cardiac."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A muscle is striated and under involuntary control. Which type of muscle is it?",
+     "solution": "Striated muscle that is involuntary is cardiac muscle, found in the walls of the heart.",
+     "answer": "Cardiac muscle."
+    },
+    {
+     "question": "How many types of muscular tissue are found in the human body? Name them.",
+     "solution": "There are three types: skeletal (striated, voluntary), smooth (non-striated, involuntary), and cardiac (striated, involuntary).",
+     "answer": "Three types: skeletal, smooth, and cardiac."
+    },
+    {
+     "question": "Where is smooth muscle found and what is its function?",
+     "solution": "Smooth muscle is found in the walls of hollow organs like the stomach, intestines, and blood vessels. It performs involuntary movements like peristalsis.",
+     "answer": "Walls of hollow organs; involuntary movements."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Compare and contrast skeletal, smooth, and cardiac muscle tissues.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Which muscle type has branching cells with intercalated discs? (a) Skeletal (b) Smooth (c) Cardiac (d) None",
+     "type": "mcq"
+    },
+    {
+     "question": "Why are skeletal muscles called striated muscles?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.7.5",
+   "title": "Neural Tissue",
+   "section": "7.5",
+   "definition": "Neural tissue consists of neurons, which are excitable cells that transmit nerve impulses, and neuroglia, which are supporting cells that protect and nourish neurons.",
+   "formula": "neural_tissue = neurons + neuroglia",
+   "key_idea": "Neurons conduct electrical impulses while neuroglial cells provide structural and metabolic support, together forming the control and coordination system.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what are the two main cell types in neural tissue",
+    "describe the structure of a neuron",
+    "what is the function of neuroglia",
+    "how do neurons transmit nerve impulses",
+    "differentiate between neurons and neuroglial cells"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify neuron structure",
+     "explain": "Recognize that a neuron consists of a cell body (cyton) containing the nucleus, dendrites that receive impulses, and an axon that transmits impulses away from the cell body."
+    },
+    {
+     "step": 2,
+     "action": "Describe neuroglia function",
+     "explain": "Neuroglial cells make up more than half the volume of neural tissue and provide support, protection, and insulation to neurons without transmitting impulses."
+    },
+    {
+     "step": 3,
+     "action": "Confirm impulse transmission role",
+     "explain": "Verify that neurons are excitable cells that generate and conduct electrical impulses, while neuroglia serve as the supporting framework and metabolic aid."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the two types of cells found in neural tissue? State their functions.",
+     "solution": "Neurons transmit nerve impulses and neuroglia provide support and protection to neurons. Neuroglia make up more than half the volume of neural tissue.",
+     "answer": "Neurons (impulse transmission) and neuroglia (support and protection)."
+    },
+    {
+     "question": "Describe the structural components of a neuron.",
+     "solution": "A neuron has a cell body (cyton) with the nucleus, dendrites for receiving signals, and a long axon for transmitting impulses to target cells.",
+     "answer": "Cell body, dendrites, and axon."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the structure of a neuron with a labelled diagram.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Which cells in neural tissue are responsible for transmitting impulses? (a) Neuroglia (b) Neurons (c) Both (d) Neither",
+     "type": "mcq"
+    },
+    {
+     "question": "What percentage of neural tissue volume do neuroglial cells occupy?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.7.6",
+   "title": "Morphology of Frog",
+   "section": "7.6",
+   "definition": "Frog (Rana tigrina) is an amphibian with a streamlined body adapted for both aquatic and terrestrial life, featuring a head, trunk, paired forelimbs and hindlimbs, and smooth moist skin.",
+   "formula": "",
+   "key_idea": "Frogs exhibit body plan adaptations for dual life: webbed hindlimbs for swimming, smooth moist skin for cutaneous respiration, and a streamlined body for efficient movement.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "describe the external morphology of a frog",
+    "what adaptations help frogs live in both water and land",
+    "how many digits are present in forelimbs and hindlimbs of a frog",
+    "what is the function of webbed feet in frogs",
+    "describe the skin of a frog and its significance"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe body divisions",
+     "explain": "Identify the head and trunk as the two main body divisions; frogs lack a distinct neck and tail."
+    },
+    {
+     "step": 2,
+     "action": "Examine limbs and digits",
+     "explain": "Note four limbs: forelimbs with four digits and longer hindlimbs with five digits and webbing for swimming."
+    },
+    {
+     "step": 3,
+     "action": "Relate morphology to dual lifestyle",
+     "explain": "Confirm that the streamlined body, webbed hindlimbs, and moist skin with mucous glands enable both aquatic swimming and terrestrial hopping with cutaneous respiration."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Describe the external features of a frog that help it survive in both aquatic and terrestrial habitats.",
+     "solution": "Frogs have webbed hindlimbs for swimming, smooth moist skin for cutaneous respiration, a streamlined body for efficient movement, and powerful hindlimbs for jumping on land.",
+     "answer": "Webbed feet, moist skin, streamlined body, powerful hindlimbs."
+    },
+    {
+     "question": "How many digits are present on the forelimbs and hindlimbs of a frog?",
+     "solution": "Forelimbs have four digits each and hindlimbs have five digits each. The hindlimbs are larger and more muscular than the forelimbs.",
+     "answer": "Forelimbs: 4 digits; Hindlimbs: 5 digits."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Draw a labelled diagram of the external morphology of a frog.",
+     "type": "long_answer"
+    },
+    {
+     "question": "The scientific name of the common Indian frog is (a) Rana tigrina (b) Bufo melanostictus (c) Hyla arborea (d) Ichthyophis",
+     "type": "mcq"
+    },
+    {
+     "question": "Why is the skin of a frog kept moist?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.7.7",
+   "title": "Anatomy of Frog - Digestive, Respiratory and Circulatory Systems",
+   "section": "7.7",
+   "definition": "The frog digestive system includes alimentary canal and glands; respiration is cutaneous, buccopharyngeal, and pulmonary; the circulatory system has a three-chambered heart with double circulation.",
+   "formula": "heart_chambers = 2 atria + 1 ventricle",
+   "key_idea": "Frogs have a complete digestive tract, three modes of respiration, and a three-chambered heart with mixed blood in the ventricle, reflecting amphibian physiology.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "describe the digestive system of a frog",
+    "how many chambers are present in the heart of a frog",
+    "what are the three modes of respiration in frogs",
+    "explain the circulatory system of a frog",
+    "describe the process of digestion in frogs"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Count heart chambers",
+     "explain": "The frog heart has two atria (right and left) and one ventricle, totaling three chambers.",
+     "compute": "heart_chambers = right_atrium + left_atrium + ventricle"
+    },
+    {
+     "step": 2,
+     "action": "Identify respiration modes",
+     "explain": "Determine the three respiratory modes: cutaneous (through skin), buccopharyngeal (through buccal cavity lining), and pulmonary (through lungs).",
+     "compute": "respiration_modes = cutaneous + buccopharyngeal + pulmonary"
+    },
+    {
+     "step": 3,
+     "action": "Trace digestive pathway",
+     "explain": "Follow the alimentary canal from mouth through buccal cavity, pharynx, oesophagus, stomach, intestine, rectum, and cloaca, confirming complete digestion."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How many chambers does the heart of a frog have? Name them.",
+     "solution": "The frog heart has three chambers: two atria (right and left) and one ventricle. Blood from body enters right atrium, blood from lungs enters left atrium, both empty into the ventricle.",
+     "answer": "Three chambers: two atria and one ventricle."
+    },
+    {
+     "question": "Name the three modes of respiration in a frog and state where each occurs.",
+     "solution": "Cutaneous respiration occurs through moist skin, buccopharyngeal through the lining of the buccal cavity, and pulmonary through the lungs. Cutaneous respiration is especially important when the frog is underwater.",
+     "answer": "Cutaneous (skin), buccopharyngeal (buccal cavity), pulmonary (lungs)."
+    },
+    {
+     "question": "Trace the path of food through the digestive system of a frog.",
+     "solution": "Food enters the mouth, passes through the buccal cavity, pharynx, oesophagus, stomach (digestion), small intestine (absorption), rectum, and exits through the cloaca.",
+     "answer": "Mouth -> Buccal cavity -> Pharynx -> Oesophagus -> Stomach -> Intestine -> Rectum -> Cloaca."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the digestive system of a frog with a labelled diagram.",
+     "type": "long_answer"
+    },
+    {
+     "question": "The heart of a frog has how many chambers? (a) 2 (b) 3 (c) 4 (d) 5",
+     "type": "mcq"
+    },
+    {
+     "question": "Explain double circulation in frogs.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.7.8",
+   "title": "Morphology of Earthworm",
+   "section": "7.8",
+   "definition": "The earthworm (Pheretima posthuma) has a long cylindrical body divided into 100-120 segments called metameres, with a clitellum at segments 14-16 and setae for locomotion.",
+   "formula": "body_segments = 100 to 120 metameres",
+   "key_idea": "Earthworms show metameric segmentation with a clitellum for reproduction and setae for grip during locomotion, reflecting their burrowing lifestyle.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "describe the external morphology of an earthworm",
+    "what is the function of the clitellum in earthworms",
+    "how many segments does an earthworm have",
+    "what are setae and what is their function",
+    "describe the body segmentation in earthworms"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe body form and segmentation",
+     "explain": "Recognize the long, cylindrical, metamerically segmented body with 100-120 segments, a prostomium at the anterior end, and an anus at the posterior end."
+    },
+    {
+     "step": 2,
+     "action": "Locate the clitellum",
+     "explain": "Identify the clitellum as a prominent dark band of glandular tissue at segments 14-16 that secretes cocoons during reproduction."
+    },
+    {
+     "step": 3,
+     "action": "Examine locomotion structures",
+     "explain": "Confirm the presence of S-shaped setae embedded in each segment except the first, last, and clitellum, which provide grip during burrowing and locomotion."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the clitellum and at which segments is it found in an earthworm?",
+     "solution": "The clitellum is a glandular thickening of the skin that secretes material for forming cocoons. It is found at segments 14-16 in mature earthworms.",
+     "answer": "Glandular band at segments 14-16; secretes cocoons."
+    },
+    {
+     "question": "How many body segments does an earthworm typically have?",
+     "solution": "An earthworm typically has 100-120 segments called metameres. The first segment bears the mouth and prostomium, and the last bears the anus.",
+     "answer": "100-120 segments."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the external morphology of an earthworm with a labelled diagram.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Setae in earthworms are absent in which segments? (a) First segment only (b) Last segment only (c) First, last, and clitellum (d) All segments",
+     "type": "mcq"
+    },
+    {
+     "question": "What is the function of setae in earthworms?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.7.9",
+   "title": "Anatomy of Cockroach",
+   "section": "7.9",
+   "definition": "The cockroach (Periplaneta americana) has a body divided into head, thorax, and abdomen with 10 segments, an open circulatory system, a tracheal respiratory system, and a segmented exoskeleton.",
+   "formula": "body_divisions = head + thorax + abdomen",
+   "key_idea": "Cockroaches show arthropod body organization with three tagmata, an open blood circulatory system, tracheal respiration, and malpighian tubules for excretion.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "describe the external morphology of a cockroach",
+    "how many segments are present in the abdomen of a cockroach",
+    "explain the respiratory system of a cockroach",
+    "describe the circulatory system of a cockroach",
+    "what are malpighian tubules and what is their function"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Count body divisions",
+     "explain": "Identify the three body divisions: head (fused segments), thorax (3 segments with legs and wings), and abdomen (10 segments).",
+     "compute": "body_divisions = head + thorax + abdomen"
+    },
+    {
+     "step": 2,
+     "action": "Count abdominal segments",
+     "explain": "The abdomen of a cockroach consists of 10 segments, with the 10th bearing a pair of anal cerci in males.",
+     "compute": "abdominal_segments = 10"
+    },
+    {
+     "step": 3,
+     "action": "Identify organ systems",
+     "explain": "Confirm the open circulatory system with haemolymph, tracheal respiration through spiracles, and malpighian tubules as excretory organs.",
+     "compute": "organ_systems = circulatory + respiratory + excretory"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How many segments are present in the abdomen of a cockroach?",
+     "solution": "The abdomen of a cockroach consists of 10 segments. In males, the 10th segment bears a pair of anal cerci, while the 7th segment has anal styles.",
+     "answer": "10 segments."
+    },
+    {
+     "question": "Describe the respiratory system of a cockroach.",
+     "solution": "Cockroaches respire through a network of tracheae that open to the outside through 10 pairs of spiracles. Air enters through spiracles, reaches tracheae, and diffuses directly to tissues without blood involvement.",
+     "answer": "Tracheal system with 10 pairs of spiracles."
+    },
+    {
+     "question": "What is the function of malpighian tubules in cockroaches?",
+     "solution": "Malpighian tubules are excretory organs that remove nitrogenous waste from the haemolymph and empty it into the alimentary canal.",
+     "answer": "Excretion of nitrogenous waste."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the body organization of a cockroach with a labelled diagram.",
+     "type": "long_answer"
+    },
+    {
+     "question": "The cockroach has an open circulatory system. What does this mean? (a) Blood flows in closed vessels (b) Blood flows in sinuses (c) No blood (d) Blood in tracheae",
+     "type": "mcq"
+    },
+    {
+     "question": "How many pairs of spiracles are present in a cockroach?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "jebh.7.10",
+   "title": "Organ Systems in Animals",
+   "section": "7.10",
+   "definition": "Organ systems are groups of organs working together to perform complex functions, including digestive, respiratory, circulatory, excretory, nervous, and reproductive systems in animals.",
+   "formula": "",
+   "key_idea": "Different organ systems coordinate to maintain homeostasis, with each system specialized for particular functions like digestion, gas exchange, transport, waste removal, control, and reproduction.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what are the major organ systems in animals",
+    "how do organ systems coordinate to maintain homeostasis",
+    "describe the excretory system of a frog",
+    "what is the nervous system of a cockroach",
+    "explain how tissues form organs and organ systems"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List major organ systems",
+     "explain": "Identify the digestive, respiratory, circulatory, excretory, nervous, endocrine, and reproductive systems as the key organ systems in animals."
+    },
+    {
+     "step": 2,
+     "action": "Relate tissues to organs",
+     "explain": "Confirm that each organ is composed of specific combinations of the four tissue types working together to perform specialized functions."
+    },
+    {
+     "step": 3,
+     "action": "Establish system coordination",
+     "explain": "Verify that organ systems interact and coordinate through nervous and hormonal signals to maintain homeostasis and support the organism as a whole."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Name six major organ systems found in animals and state one function of each.",
+     "solution": "Digestive (breakdown of food), respiratory (gas exchange), circulatory (transport of materials), excretory (waste removal), nervous (control and coordination), and reproductive (production of offspring).",
+     "answer": "Digestive, respiratory, circulatory, excretory, nervous, reproductive."
+    },
+    {
+     "question": "How do the four tissue types combine to form an organ? Give an example.",
+     "solution": "An organ like the stomach contains epithelial tissue (lining), connective tissue (support), muscular tissue (wall for movement), and neural tissue (nerve supply), all working together for digestion.",
+     "answer": "Epithelial + connective + muscular + neural tissues form organs like the stomach."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how different organ systems coordinate to maintain homeostasis in an animal body.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Which organ system is responsible for removing nitrogenous waste? (a) Digestive (b) Respiratory (c) Excretory (d) Circulatory",
+     "type": "mcq"
+    },
+    {
+     "question": "Describe the nervous system of a frog.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "title-matched (new syllabus)"
+}

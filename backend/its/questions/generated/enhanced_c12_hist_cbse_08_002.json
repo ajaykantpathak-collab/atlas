@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_08_002",
+   "title": "c12_hist_cbse_08_002",
+   "questions": [
+    {
+     "q": "Name the two major seasonal crop cycles in Mughal India and the primary staple associated with each.",
+     "a": "The two cycles are kharif (autumn, sown with monsoon rains, staple: rice/millets) and rabi (spring, sown after monsoon, staple: wheat/barley). A wrong answer (e.g., naming three seasons or confusing the staple) reveals the student has not internalized the fundamental binary rhythm of Mughal agrarian calendar, which underpins revenue assessment and market supply.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Mughal state encouraged cultivation of jins-i-kamil crops such as cotton and sugarcane, and how this affected the peasant’s cropping pattern.",
+     "a": "Jins-i-kamil crops fetched higher revenue (cash) for the state; peasants were incentivized (or coerced) to allocate part of their land to them, intertwining subsistence and commercial production. A wrong answer that says \"peasants only grew food grains\" misses the dual-purpose nature of Mughal holdings and the fiscal logic behind cash-crop promotion.",
+     "self_check": true
+    },
+    {
+     "q": "A peasant in 17th-century Gujarat has access to a Persian wheel (arghatta) and grows cotton (kharif) and wheat (rabi). Using the text, describe how the irrigation device works and why it is critical for the rabi crop but less so for kharif cotton.",
+     "a": "The Persian wheel uses bullock power to lift water via a chain of pots; it is essential for rabi wheat because winter rains are scarce, while kharif cotton relies mainly on monsoon. An incorrect answer that claims the wheel is used equally for both seasons shows misunderstanding of the rainfall–irrigation complementarity that defined Mughal agricultural technology.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the crop diversity reported in the Ain-i-Akbari for Agra (39 varieties), Delhi (43), and Bengal (50 varieties of rice alone). What does this variation tell you about agro-climatic zones and the limits of a uniform revenue system?",
+     "a": "Higher rainfall in Bengal supports intensive rice monoculture with many varieties; the drier Agra/Delhi region grows a wider mix of wheat, millets, pulses, and cash crops. A uniform revenue demand (e.g., fixed cash rate) would disadvantage peasants in variable zones. A wrong answer that treats all regions as identical ignores the ecological basis of Mughal agrarian diversity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The introduction of maize, tobacco, and chillies from the Americas had no significant impact on Mughal agricultural output because they were adopted only by elites.\"",
+     "a": "False. Maize became a major crop in western India by the 17th century; tobacco spread rapidly despite Jahangir’s ban, becoming a major trade item; chillies transformed food culture across classes. These crops were adopted by ordinary peasants because they fitted existing seasons and soils. A wrong answer that dismisses their impact overlooks the speed of diffusion and the role of peasant agency in crop adoption.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a short argument (4–5 sentences) showing how the kharif/rabi cycle, the availability of uncultivated land, and the mobility of peasants together enabled continuous agricultural expansion in Mughal India.",
+     "a": "The two-season cycle ensured year-round land use; abundant uncultivated land allowed peasants to migrate and clear new fields (as Babur noted); and peasant mobility meant labor followed favorable revenue terms. Together, these factors let cultivation push into forests and marginal lands without state coercion. A weak answer lists factors separately without linking them into a causal chain.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_12_005",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_12_005",
+   "title": "c12_bio_cbse_12_005",
+   "questions": [
+    {
+     "q": "A patient tests negative for HIV by ELISA at 3 weeks post-exposure but positive at 12 weeks. What does this indicate about the detection target of ELISA and the \"window period\"?",
+     "a": "ELISA detects antibodies against HIV (host immune response), not the virus itself. The window period is the time between infection and detectable antibody production. A negative at 3 weeks means antibodies haven't reached detectable levels yet; positive at 12 weeks confirms seroconversion. WRONG answer (e.g., \"ELISA detects viral RNA\") reveals confusion between antibody-based (ELISA) and nucleic acid-based (PCR) detection targets.",
+     "self_check": true
+    },
+    {
+     "q": "Why can conventional PCR not directly detect SARS-CoV-2 (an RNA virus) from a nasopharyngeal swab without an additional step? Name that step and the enzyme required.",
+     "a": "Conventional PCR uses DNA-dependent DNA polymerase (Taq) which only amplifies DNA templates. SARS-CoV-2 has an RNA genome. The additional step is **reverse transcription** using **reverse transcriptase** to synthesize complementary DNA (cDNA) from viral RNA. This combined process is RT-PCR. WRONG answer (e.g., \"Taq polymerase can use RNA\") reveals misunderstanding of polymerase substrate specificity — a classic NEET trap.",
+     "self_check": true
+    },
+    {
+     "q": "A sandwich ELISA for dengue NS1 antigen gives a false negative in a secondary dengue infection. Explain the immunological mechanism using the concept of antibody-antigen complexes.",
+     "a": "In secondary dengue infection, high titres of pre-existing anti-dengue IgG antibodies bind circulating NS1 antigen, forming immune complexes. These complexes sterically hinder NS1 binding to the capture antibody coated on the ELISA plate, reducing signal — a **prozone/hook effect**. WRONG answer (e.g., \"NS1 mutates\") ignores the antibody-mediated interference specific to secondary heterologous infections — a known competitive exam trap in immunology.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the limit of detection (sensitivity) and quantitative capability of conventional PCR vs qPCR (real-time PCR) for monitoring HIV viral load in a patient on ART (antiretroviral therapy).",
+     "a": "Conventional PCR is endpoint detection (qualitative/semi-quantitative via gel band intensity) with lower sensitivity (~10³ copies/mL). qPCR monitors fluorescence **during** exponential phase (Ct value), enabling absolute quantification over 7-8 logs (20-10⁷ copies/mL) — essential for ART monitoring where viral suppression <50 copies/mL is the goal. WRONG answer (e.g., \"both are equally quantitative\") misses that conventional PCR plateaus variably, losing quantification accuracy — a board exam distinction.",
+     "self_check": true
+    },
+    {
+     "q": "A lab uses SYBR Green qPCR for Chikungunya detection but gets amplification in no-template controls (NTC). Evaluate three possible causes and the best corrective action.",
+     "a": "Causes: (1) Primer-dimer formation (SYBR Green binds any dsDNA), (2) Contamination from amplicon carryover, (3) Non-specific priming. Best action: **Switch to probe-based qPCR (TaqMan)** — hydrolysis probe adds sequence-specific detection, eliminating primer-dimer signals. WRONG answer (e.g., \"increase annealing temperature only\") treats symptom not root cause; probe-based chemistry is the standard diagnostic fix — tests evaluative reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Design a diagnostic algorithm using both ELISA and PCR for a suspected acute hepatitis B outbreak in a rural Maharashtra village. Justify the sequence and interpretation criteria.",
+     "a": "**Algorithm**: Step 1: HBsAg ELISA (screening — cheap, high throughput). Step 2: If HBsAg+, do HBV DNA qPCR (quantify viral load, confirm active replication). Step 3: If HBsAg- but clinical suspicion high, do anti-HBc IgM ELISA (window period marker) + HBV DNA PCR (early detection). **Justification**: ELISA first for cost-effective screening; PCR for quantification (treatment decisions) and window period resolution. Good answer includes cost-turnaround trade-off; poor answer uses PCR first (wasteful) or ignores IgM for window period.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

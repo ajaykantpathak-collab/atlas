@@ -1,0 +1,214 @@
+{
+ "catalog": "catalog_class9_social_science_ch305",
+ "concepts": [
+  {
+   "id": "iess.305.1.1",
+   "title": "Pastoral Nomadism",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Pastoral Nomadism' refers to.",
+     "a": "A way of life centered on herding livestock and moving seasonally from one region to another to find fresh pastures and water.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Pastoral Nomadism'.",
+     "a": "Seasonal migration prevents overgrazing and allows pastures to naturally recover.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Pastoral Nomadism' taught, and from which source text?",
+     "a": "1. Pastoral Nomads and their Movements (source: iess305.txt lines 12-40)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.305.1.2",
+   "title": "Mountain Pastoralists of India",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Mountain Pastoralists of India' refers to.",
+     "a": "Herding communities in the Himalayan region, such as Gujjar Bakarwals and Gaddis, who migrate between low-altitude winter scrub forests and high-altitude summer meadows.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Mountain Pastoralists of India'.",
+     "a": "Migration is dictated by snowmelt in summer and freezing temperatures in winter.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Mountain Pastoralists of India' taught, and from which source text?",
+     "a": "1.1 In the Mountains (source: iess305.txt lines 41-110)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.305.1.3",
+   "title": "Plateau and Desert Pastoralists of India",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Plateau and Desert Pastoralists of India' refers to.",
+     "a": "Pastoral groups like Dhangars, Gollas, Kurubas, Banjaras, and Raikas whose seasonal movements are shaped by monsoon cycles rather than cold or snow.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Plateau and Desert Pastoralists of India'.",
+     "a": "Alternation between dry inland plateaus or deserts during monsoons and wet coastal or riverine tracts in dry seasons.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Plateau and Desert Pastoralists of India' taught, and from which source text?",
+     "a": "1.2 On the Plateaus, Plains and Deserts (source: iess305.txt lines 111-180)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.305.2.1",
+   "title": "Colonial Forest Acts and Pastoral Impact",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Colonial Forest Acts and Pastoral Impact' refers to.",
+     "a": "Laws enacted by the British administration classifying forests into Reserved and Protected categories, severely restricting pastoralists' access to grazing land.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Colonial Forest Acts and Pastoral Impact'.",
+     "a": "Forest reservation protected commercial timber but deprived herders of traditional grazing rights.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Colonial Forest Acts and Pastoral Impact' taught, and from which source text?",
+     "a": "2. Colonial Rule and Pastoral Life (source: iess305.txt lines 220-265)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.305.2.2",
+   "title": "Waste Land Rules",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Waste Land Rules' refers to.",
+     "a": "Mid-nineteenth-century colonial regulations aimed at converting uncultivated grazing lands into revenue-generating agricultural fields.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Waste Land Rules'.",
+     "a": "Colonial state viewed uncultivated land as unproductive waste because it yielded no land revenue.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Waste Land Rules' taught, and from which source text?",
+     "a": "2. Colonial Rule and Pastoral Life (source: iess305.txt lines 195-219)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.305.2.3",
+   "title": "Criminal Tribes Act",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Criminal Tribes Act' refers to.",
+     "a": "An 1871 British legislative act that classified nomadic communities, including herders and mobile traders, as criminal by birth and restricted them to fixed settlements.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Criminal Tribes Act'.",
+     "a": "Colonial preference for a settled, easily taxable, and controllable population over mobile groups.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Criminal Tribes Act' taught, and from which source text?",
+     "a": "2. Colonial Rule and Pastoral Life (source: iess305.txt lines 266-285)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.305.2.4",
+   "title": "Grazing Tax Calculation",
+   "questions": [
+    {
+     "q": "Calculate the total grazing tax paid by a herder.. Use the method 'Grazing Tax Calculation'. Work with: cattle_count = 30, tax_per_head = 18. Carry the chain through step by step and give the final value of total_tax.",
+     "a": "540 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the total grazing tax given the tax per animal and the number of cattle.. Use the method 'Grazing Tax Calculation'. Work with: cattle_count = 120, tax_per_head = 25. Carry the chain through step by step and give the final value of total_tax.",
+     "a": "3000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Grazing Tax Calculation' refers to.",
+     "a": "A colonial tax levied on pastoralists for every head of cattle or animal they grazed on public pastures.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Grazing Tax Calculation'.",
+     "a": "Maximizing state revenue by taxing the livestock of nomadic herders.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Grazing Tax Calculation', in plain ASCII form.",
+     "a": "total_tax = tax_per_head * cattle_count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.305.3.1",
+   "title": "Maasai Land Area After Loss",
+   "questions": [
+    {
+     "q": "Calculate the remaining land area of the Maasai after losing a percentage of their territory.. Use the method 'Maasai Land Area After Loss'. Work with: original_land = 250, percent_lost = 18. Carry the chain through step by step and give the final value of remaining_land.",
+     "a": "205 sq units",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of land left with the Maasai herders.. Use the method 'Maasai Land Area After Loss'. Work with: original_land = 1200, percent_lost = 12. Carry the chain through step by step and give the final value of remaining_land.",
+     "a": "1056 sq units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Maasai Land Area After Loss' refers to.",
+     "a": "The calculation of remaining grazing land after colonial boundaries and white settlements alienated a percentage of the original Maasai territory.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Maasai Land Area After Loss'.",
+     "a": "Colonial partition and game reserves reduced Maasai grazing lands by a specific percentage (typically 60%).",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Maasai Land Area After Loss', in plain ASCII form.",
+     "a": "remaining_land = original_land * (100 - percent_lost) / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.305.3.4",
+   "title": "Social Stratification in Maasai Society",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Social Stratification in Maasai Society' refers to.",
+     "a": "The division of Maasai society into elders and warriors in pre-colonial times, which was disrupted by British administrative policies appointing chiefs and creating wealth disparities.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Social Stratification in Maasai Society'.",
+     "a": "Colonial rule weakened traditional age-based authority and introduced a new class divide between rich and poor pastoralists.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Social Stratification in Maasai Society' taught, and from which source text?",
+     "a": "3.4 Not All were Equally Affected (source: iess305.txt lines 460-520)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

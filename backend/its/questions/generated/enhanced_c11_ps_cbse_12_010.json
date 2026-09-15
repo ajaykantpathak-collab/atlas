@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_12_010",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_12_010",
+   "title": "c11_ps_cbse_12_010",
+   "questions": [
+    {
+     "q": "What is the constitutional source of the Election Commission's authority to issue and enforce the Model Code of Conduct?",
+     "a": "Article 324 of the Constitution vests \"superintendence, direction, and control of elections\" in the Election Commission. The MCC is an executive instrument issued under this plenary power. A wrong answer (e.g., \"Representation of People Act\" or \"Supreme Court judgment\") reveals the student confuses statutory law with constitutional authority, and doesn't understand that the MCC's legitimacy flows from Article 324, not legislative enactment.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Model Code of Conduct apply to the \"party in power\" differently from opposition parties, and what specific restrictions does it place on Ministers?",
+     "a": "The MCC restricts the party in power from misusing official machinery for electoral gain. Ministers cannot combine official visits with electioneering, use official vehicles/aircraft for campaigns, announce new schemes/projects after announcement of elections, or make ad-hoc appointments that may influence voters. A wrong answer focusing only on \"no hate speeches\" misses the asymmetric design: MCC primarily constrains incumbency advantage, not just general decorum.",
+     "self_check": true
+    },
+    {
+     "q": "A candidate spends ₹1.2 crore in a Lok Sabha constituency where the legal limit is ₹95 lakh. The candidate claims ₹30 lakh was spent by their political party, not from their personal account, so they are within limits. Analyze this claim under Section 77(1) of the RPA, 1951 and the Supreme Court's interpretation in Kanwar Lal Gupta vs Amar Nath Chawla (1974).",
+     "a": "The claim is invalid. Section 77(1) read with Explanation 1(a) deems expenditure incurred by political parties, associations, or individuals (with candidate's consent) as candidate's expenditure. Kanwar Lal Gupta established that \"expenditure incurred or authorized\" includes party spending. The candidate would be disqualified under Section 10A for exceeding limits and filing false accounts. A wrong answer accepting the party-spending distinction shows ignorance of the deeming fiction in law.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the enforcement mechanisms for MCC violations versus expenditure limit violations. Which has stronger legal consequences and why?",
+     "a": "Expenditure violations have stronger legal consequences: Section 10A RPA mandates disqualification for 3 years for incorrect returns or exceeding limits (quasi-judicial, appealable to High Court). MCC violations attract EC's directions under Article 324 (censure, campaign ban, FIR filing under IPC/Section 123 RPA for corrupt practices) but no automatic disqualification. The difference: expenditure limits are statutory (RPA), MCC is executive (Article 324). A wrong answer claiming \"MCC has legal force\" confuses moral/political authority with statutory penalty.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the current expenditure monitoring system (expenditure observers, video surveillance, shadow observation registers) in curbing black money in elections. Cite at least two structural limitations.",
+     "a": "The system has improved detection but two structural limitations persist: (1) The ₹95/40 lakh limits are unrealistically low for actual campaign costs, incentivizing parallel black accounts; (2) Expenditure by \"third parties\" (unregistered groups, corporate entities via electoral bonds) falls outside candidate's account, creating a loophole the 2017 amendments tried but failed to fully close. A wrong answer praising the system uncritically misses the gap between legal limits and ground reality.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 3-point proposal to strengthen expenditure transparency that addresses the \"third-party expenditure\" loophole while respecting Article 19(1)(a) freedom of speech. Justify each point constitutionally.",
+     "a": "(1) Mandate real-time digital disclosure of all donations >₹2,000 to parties (not just candidates) via EC portal - justified under Article 324 read with voters' right to know (SC in PUCL vs Union of India, 2003); (2) Bring third-party campaigners spending >₹10 lakh under registration and reporting requirements - justified as reasonable restriction under Article 19(2) for electoral integrity; (3) State funding of elections in kind (media time, transport) linked to audited accounts - justified under Directive Principle Article 38(2) to reduce money power. Poor answers ignore constitutional grounding or propose blanket bans violating 19(1)(a).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

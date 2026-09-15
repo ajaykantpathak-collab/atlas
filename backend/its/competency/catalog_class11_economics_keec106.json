@@ -1,0 +1,159 @@
+{
+ "class": 11,
+ "subject": "economics",
+ "chapter": 106,
+ "chapter_title": "Employment: Informalisation and other issues",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keec106.txt",
+ "concepts": [
+  {
+   "id": "keec.106.1.1",
+   "title": "Workers, Workforce and Labour Force",
+   "section": "Employment concepts",
+   "definition": "A worker is any person engaged in an economic activity, the workforce is the number of persons actually working, and the labour force equals the workforce plus the unemployed who are seeking work; labour force participation rate is the labour force as a percentage of the population.",
+   "formula": "unemployment_rate = unemployed / labour_force * 100",
+   "key_idea": "The workforce participation rate divides the workforce by the population, showing how many of hundred persons are working.",
+   "textbook_ref": "keec106.txt worker and workforce sections",
+   "question_patterns": [
+    "define worker workforce and labour force",
+    "calculate the unemployment rate from the given data",
+    "what is the workforce participation rate",
+    "distinguish labour force from workforce",
+    "who counts as a worker in economics",
+    "compute the participation rate of a population"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take unemployed as share of labour force",
+     "explain": "Divide the number of unemployed persons by the labour force and multiply by 100 to get the unemployment rate",
+     "compute": "unemployment_rate = unemployed / labour_force * 100"
+    }
+   ]
+  },
+  {
+   "id": "keec.106.2.1",
+   "title": "Types of Unemployment: Rural and Urban",
+   "section": "Types of unemployment",
+   "definition": "Rural areas show seasonal unemployment in agriculture and disguised unemployment where extra workers do not add to output, while urban areas show educated unemployment among degree holders, and unemployment harms both the individual and the economy's output.",
+   "formula": "",
+   "key_idea": "Disguised unemployment means removal of some workers leaves output unchanged, a common feature of crowded Indian farms.",
+   "textbook_ref": "keec106.txt unemployment types sections",
+   "question_patterns": [
+    "define seasonal and disguised unemployment with examples",
+    "what is educated unemployment in urban areas",
+    "how does disguised unemployment occur in agriculture",
+    "state the ill effects of unemployment",
+    "distinguish open and disguised unemployment",
+    "why does seasonal unemployment arise in farming"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "place the setting",
+     "explain": "Note rural or urban context of the joblessness."
+    },
+    {
+     "step": 2,
+     "action": "match the type",
+     "explain": "Identify seasonal, disguised, open or educated unemployment."
+    },
+    {
+     "step": 3,
+     "action": "state the effect",
+     "explain": "Describe the loss to the person and the economy."
+    }
+   ]
+  },
+  {
+   "id": "keec.106.3.1",
+   "title": "Formal and Informal Employment; Jobless Growth Issues",
+   "section": "Formal and informal employment",
+   "definition": "Formal employment carries written contract, regular salary and social security benefits, while informal employment lacks such protection and dominates Indian employment; the share of formal sector is small and jobless growth raises concern since output rises without matching employment.",
+   "formula": "",
+   "key_idea": "Only about half the workforce receives social security, so extending formality to informal workers is a policy challenge.",
+   "textbook_ref": "keec106.txt formal informal sections",
+   "question_patterns": [
+    "distinguish formal and informal employment with examples",
+    "what social security benefits do formal workers get",
+    "why is informal employment dominant in india",
+    "define jobless growth and its causes",
+    "state the problems of informal sector workers",
+    "how can the informal sector be formalised"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the contract and benefits",
+     "explain": "Look for written contract, salary and social security."
+    },
+    {
+     "step": 2,
+     "action": "classify the employment",
+     "explain": "Label it formal or informal."
+    },
+    {
+     "step": 3,
+     "action": "note the policy concern",
+     "explain": "State the protection gap or jobless growth issue."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "keec106.txt unemployment data section",
+   "concept": "keec.106.1.1",
+   "question_type": "compute_unemployment_rate",
+   "question_pattern": "An economy has a labour force of {labour_force} million persons of whom {unemployed} million are without work and seeking jobs. Calculate the unemployment rate.",
+   "extracted_variables": {
+    "labour_force": 400,
+    "unemployed": 20
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take unemployed as share of labour force",
+     "explain": "Divide the number of unemployed persons by the labour force and multiply by 100 to get the unemployment rate",
+     "compute": "unemployment_rate = unemployed / labour_force * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "keec106.txt unemployment data section",
+   "concept": "keec.106.1.1",
+   "question_type": "compute_unemployment_rate",
+   "question_pattern": "In a district {unemployed} of the {labour_force} persons in the labour force cannot find work. Find the unemployment rate of the district.",
+   "extracted_variables": {
+    "labour_force": 250,
+    "unemployed": 25
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take unemployed as share of labour force",
+     "explain": "Divide the number of unemployed persons by the labour force and multiply by 100 to get the unemployment rate",
+     "compute": "unemployment_rate = unemployed / labour_force * 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "keec106.txt exercises",
+   "questions": [
+    "Who is a worker?",
+    "Define worker-population ratio.",
+    "Are the following workers - a beggar, a thief, a tailor?",
+    "Distinguish between seasonal and disguised unemployment.",
+    "Compared to urban women, more rural women are found working - why?",
+    "What is meant by formal sector employment?"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch8_7",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch8_7",
+   "title": "c9_math_ch8_7",
+   "questions": [
+    {
+     "q": "A gardener plants a sapling that is 10 cm tall. It grows 3 cm every week. Which formula gives the height after n weeks?\nA) 10 + 3n\nB) 10 + 3(n-1)\nC) 3 + 10(n-1)\nD) 10n + 3",
+     "a": "Correct answer: B) 10 + 3(n-1). The height forms an AP with first term a = 10 (initial height) and common difference d = 3 (weekly growth). The nth term formula is a + (n-1)d = 10 + 3(n-1). Option A incorrectly uses n instead of n-1, giving height after n weeks as if growth happened at week 0. Option C swaps a and d. Option D is not an AP formula. A wrong answer reveals the student confuses the term index (n vs n-1) or misidentifies a and d.",
+     "self_check": true
+    },
+    {
+     "q": "In an AP, the sum of first 5 terms is 40 and the sum of first 10 terms is 155. A student claims the common difference must be 3 because (155-40)/5 = 23, and 23/5 ≈ 4.6, not 3. Explain why this reasoning is flawed and find the actual common difference.",
+     "a": "The student incorrectly assumes the sum of terms 6 to 10 is 5 times the 8th term (middle of those 5 terms). Actually, S_10 - S_5 = sum of terms 6 to 10 = 115. In an AP, the sum of 5 consecutive terms = 5 × (middle term) = 5 × T_8. So 5 × T_8 = 115 → T_8 = 23. Also S_5 = 5 × T_3 = 40 → T_3 = 8. Then d = (T_8 - T_3)/5 = (23-8)/5 = 3. The flaw: the student divided the sum difference by 5 but didn't relate it to the middle term. A wrong answer shows the student doesn't understand that S_n = n × (middle term) for odd n, or that terms in an AP are symmetric around the middle.",
+     "self_check": true
+    },
+    {
+     "q": "A contractor penalizes ₹200 for the first day of delay, and the penalty increases by ₹50 each subsequent day. If the total penalty is ₹9,750, for how many days was the work delayed?",
+     "a": "Given: a = 200, d = 50, S_n = 9750. Find n.\nStep 1: Use sum formula S_n = n/2 [2a + (n-1)d].\nStep 2: 9750 = n/2 [400 + (n-1)50] = n/2 [400 + 50n - 50] = n/2 [350 + 50n].\nStep 3: Multiply by 2: 19500 = n(350 + 50n) = 50n^2 + 350n.\nStep 4: Divide by 50: 390 = n^2 + 7n → n^2 + 7n - 390 = 0.\nStep 5: Factor: (n+26)(n-15) = 0 → n = 15 (since n>0).\nAnswer: 15 days.\nA wrong answer (e.g., n=10) suggests the student made an algebraic error in forming or solving the quadratic, or used the nth term formula instead of sum.",
+     "self_check": true
+    },
+    {
+     "q": "Two APs have the same first term a. The first AP has common difference d, the second has common difference 2d. For a given n > 1, compare the sums S_n^(1) and S_n^(2). Is S_n^(2) exactly twice S_n^(1)? Justify your answer algebraically.",
+     "a": "S_n^(1) = n/2 [2a + (n-1)d]\nS_n^(2) = n/2 [2a + (n-1)(2d)] = n/2 [2a + 2(n-1)d] = n[ a + (n-1)d ].\nTwice S_n^(1) = 2 × n/2 [2a + (n-1)d] = n[2a + (n-1)d].\nFor S_n^(2) to equal 2 S_n^(1), we need a + (n-1)d = 2a + (n-1)d → a = 0.\nSo only if a = 0 (or n=1) is the sum exactly doubled. Otherwise, S_n^(2) < 2 S_n^(1) when a>0, and S_n^(2) > 2 S_n^(1) when a<0. A wrong answer (e.g., \"yes, because d doubled\") shows the student thinks sum scales linearly with d, ignoring the constant 2a term.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Find the 20th term of the AP: 5, 11, 17, 23, ...\" and writes: a=5, d=6, T_20 = 5 + 20×6 = 125. Identify the error and give the correct answer.",
+     "a": "Error: The student used n instead of (n-1) in the nth term formula. Correct formula: T_n = a + (n-1)d.\nCorrect working: T_20 = 5 + (20-1)×6 = 5 + 19×6 = 5 + 114 = 119.\nThe student's answer 125 is the 21st term. This is the most common off-by-one error in AP problems. A wrong identification (e.g., saying d=5) shows the student cannot extract d from the sequence.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem (in Indian context) that requires finding the number of terms n in an AP, given the first term, common difference, and the sum. The problem should have a realistic scenario and yield a positive integer answer for n.",
+     "a": "Example problem: \"Rohan saves ₹50 in the first week of the year. Each week he increases his savings by ₹10. If his total savings after some weeks is ₹2,950, how many weeks has he been saving?\" \nSolution: a=50, d=10, S_n=2950. S_n = n/2[100 + (n-1)10] = 2950 → n^2 + 9n - 590 = 0 → (n+29)(n-20)=0 → n=20 weeks.\nA good answer includes a clear scenario, consistent numbers, and a solvable quadratic with integer n. A poor answer (e.g., \"find n when sum is 100\" with a=5, d=2 giving non-integer n) shows the student doesn't understand the constraints for a valid word problem (n must be a positive integer).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

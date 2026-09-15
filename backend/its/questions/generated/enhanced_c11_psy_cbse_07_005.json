@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_07_005",
+   "title": "c11_psy_cbse_07_005",
+   "questions": [
+    {
+     "q": "Define deductive reasoning and give one example from daily life that is not from the textbook.",
+     "a": "Deductive reasoning is reasoning from a general principle or premise to a specific conclusion; if the premises are true and the logic is valid, the conclusion must be true. Example: \"All students in Class 11 must submit the project by Friday. Rahul is a Class 11 student. Therefore, Rahul must submit the project by Friday.\" A wrong answer (e.g., defining it as reasoning from specific to general) reveals confusion with inductive reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the conclusion \"All crows are black because I have seen 100 black crows\" is an inductive argument and not a deductive one.",
+     "a": "The argument is inductive because it generalizes from specific observations (100 black crows) to a universal claim (all crows are black); the conclusion is probable but not certain — a single non-black crow would falsify it. Deductive reasoning would require a premise like \"All birds of species Corvus are black\" to guarantee the conclusion. A wrong answer that calls this deductive shows misunderstanding of the direction of inference and the role of certainty.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Every time I study with music, I get good marks. Therefore, listening to music causes good marks.\" Identify the type of reasoning and explain one flaw in this reasoning.",
+     "a": "This is inductive reasoning (specific instances → general causal claim). The flaw is confusing correlation with causation — other factors (e.g., study duration, prior knowledge) could explain the marks; the conclusion goes beyond the evidence. A wrong answer that labels it deductive or misses the correlation-causation error shows inability to apply reasoning types to real situations.",
+     "self_check": true
+    },
+    {
+     "q": "Compare deductive and inductive reasoning on three dimensions: (a) direction of inference, (b) certainty of conclusion, (c) dependence on premise truth.",
+     "a": "(a) Deductive: general → specific; Inductive: specific → general. (b) Deductive: conclusion certain if premises true and valid; Inductive: conclusion probable, never certain. (c) Deductive: validity depends on logical structure, but soundness requires true premises; Inductive: strength depends on quality/quantity of evidence. A wrong answer that claims inductive conclusions can be certain or that deduction does not need true premises reveals incomplete analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this argument: \"All mammals have lungs. A whale is a mammal. Therefore, a whale has lungs.\" Is it valid? Is it sound? Justify.",
+     "a": "The argument is valid (structure: All A are B; C is A; therefore C is B) and sound because both premises are factually true. A wrong answer that says it is valid but not sound (or vice versa) without justification shows confusion between logical validity (form) and soundness (form + true premises).",
+     "self_check": true
+    },
+    {
+     "q": "Create a short scenario (3-4 sentences) that illustrates a person using *both* deductive and inductive reasoning sequentially to solve a problem.",
+     "a": "Example: \"Riya notices her phone battery drains quickly after installing a new app (inductive observation: specific instances → hypothesis: the app causes drain). She then recalls the general rule: 'Background apps consume battery' (deductive premise) and concludes: 'If I restrict this app's background activity, my battery will last longer' (deductive application).\" A poor answer that uses only one type or sequences them illogically shows inability to synthesize both reasoning modes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,373 @@
+{
+ "subject": "maths",
+ "class": 11,
+ "chapter": 4,
+ "chapter_title": "Complex Numbers and Quadratic Equations",
+ "ncert_ref": "Class 11 Maths Chapter 4",
+ "concepts": [
+  {
+   "id": "kemh.4.1",
+   "title": "Complex Numbers",
+   "section": "4.2 Complex Numbers",
+   "definition": "A complex number is an expression of the form z = a + ib, where a and b are real numbers and i is the imaginary unit with i squared equal to -1. The real part of z is a and the imaginary part is b.",
+   "formula": "z = a + ib with i^2 = -1; Re(z) = a, Im(z) = b",
+   "key_idea": "Every complex number pairs a real part with an imaginary part, and when the imaginary part is zero the complex number is just the real number a.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define a complex number and identify its real and imaginary parts.",
+    "Express z = 3 + 4i in terms of its real and imaginary parts.",
+    "Is every real number also a complex number? Justify your answer.",
+    "What value is assigned to i squared in the complex number system?",
+    "Write z = -2 + 9i in the standard form a + ib and read off a and b.",
+    "Explain why the equation x^2 + 1 = 0 has no real solution but has complex solutions."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compare z with the standard form a + ib",
+     "explain": "The number is fully described by its real part and its imaginary part.",
+     "compute": "real_part + imag_part * i_unit"
+    },
+    {
+     "step": 2,
+     "action": "Treat i as the unit whose square is -1",
+     "explain": "The imaginary unit squared equals -1, which separates complex arithmetic from real arithmetic.",
+     "compute": "i_unit ** 2"
+    },
+    {
+     "step": 3,
+     "action": "Rewrite a pure real number as a complex number with zero imaginary part",
+     "explain": "With the imaginary part equal to zero the number reduces to an ordinary real number.",
+     "compute": "real_part + imag_part * 0"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Identify the real and imaginary parts of z = 5 - 7i.",
+     "solution": "Step 1: Compare z with the standard form a + ib. Step 2: The real part is 5 and the imaginary part is -7.",
+     "answer": "Re(z) = 5 and Im(z) = -7"
+    },
+    {
+     "question": "Is the number 8 a complex number?",
+     "solution": "Step 1: Write 8 in the form a + ib with the imaginary part zero, giving 8 + 0i. Step 2: A number of this form is complex by definition.",
+     "answer": "Yes; 8 = 8 + 0i is a complex number with zero imaginary part"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Write z = -2 + 9i in terms of its real and imaginary parts.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why every real number is a complex number.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "kemh.4.2",
+   "title": "Integral Powers of the Imaginary Unit",
+   "section": "4.2 Complex Numbers",
+   "definition": "Powers of the imaginary unit repeat in a cycle of length four: i, -1, -i, 1, and then the pattern starts again. The value of any integral power of i depends only on the remainder left when the exponent is divided by 4.",
+   "formula": "i^(4k) = 1; i^(4k+1) = i; i^(4k+2) = -1; i^(4k+3) = -i",
+   "key_idea": "Divide the exponent by 4; the remainder alone decides whether the power equals i, -1, -i or 1.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Find the value of i raised to a large positive power.",
+    "Why do powers of i repeat in a cycle of four?",
+    "Evaluate i^37 and justify each step.",
+    "Simplify i^45 + i^46 using the cycle of powers of i.",
+    "What is the value of i^4k for a whole number k?",
+    "Explain how the remainder on division by 4 determines the value of a power of i."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide the exponent by 4 and keep the remainder",
+     "explain": "The cycle of powers of i has length four, so the remainder determines the value.",
+     "compute": "exponent % 4"
+    },
+    {
+     "step": 2,
+     "action": "Read the value from the cycle i, -1, -i, 1",
+     "explain": "A remainder of 1 gives i, 2 gives -1, 3 gives -i and 0 gives 1.",
+     "compute": "cycle_position"
+    },
+    {
+     "step": 3,
+     "action": "Combine products of powers by adding exponents before reducing",
+     "explain": "The product of i^m and i^n is i^(m+n), which then reduces by the cycle.",
+     "compute": "exp1 + exp2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Evaluate i^37.",
+     "solution": "Step 1: Divide 37 by 4; the quotient is 9 and the remainder is 1. Step 2: A remainder of 1 corresponds to i in the cycle.",
+     "answer": "i^37 = i"
+    },
+    {
+     "question": "Simplify i^45 + i^46.",
+     "solution": "Step 1: 45 leaves remainder 1, so i^45 = i. Step 2: 46 leaves remainder 2, so i^46 = -1. Step 3: Adding gives i - 1.",
+     "answer": "i^45 + i^46 = -1 + i"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Evaluate i^112.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Show that 1 + i^2 + i^4 + i^6 = 0.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "kemh.4.3",
+   "title": "Algebra of Complex Numbers",
+   "section": "4.3 Algebra of Complex Numbers",
+   "definition": "Two complex numbers are added by adding their real parts and their imaginary parts separately, and multiplied by expanding like binomials and replacing i squared with -1. The sum and the product of two complex numbers are again complex numbers.",
+   "formula": "(a + ib) + (c + id) = (a + c) + i(b + d); (a + ib)(c + id) = (ac - bd) + i(ad + bc)",
+   "key_idea": "Complex arithmetic follows ordinary algebra rules with one extra step: whenever i squared appears, replace it by -1.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Add two complex numbers and write the sum in standard form.",
+    "Multiply (a + ib) by (c + id) and simplify using i squared equals -1.",
+    "Find the difference of two complex numbers in standard form.",
+    "Show with an example that the product of two complex numbers is again complex.",
+    "State the rule for adding the real and imaginary parts of two complex numbers.",
+    "Why does i squared being -1 matter when multiplying complex numbers?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add real parts and imaginary parts separately",
+     "explain": "The sum collects the real parts into one term and the imaginary parts into another.",
+     "compute": "(a + c) + (b + d) * i_unit"
+    },
+    {
+     "step": 2,
+     "action": "Expand the product like a binomial",
+     "explain": "Four terms appear; the term containing i squared turns into a real number.",
+     "compute": "a * c - b * d"
+    },
+    {
+     "step": 3,
+     "action": "Collect the imaginary part of the product",
+     "explain": "The remaining cross terms give the imaginary part of the product.",
+     "compute": "a * d + b * c"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Add (2 + 3i) and (4 + 5i).",
+     "solution": "Step 1: Add the real parts: 2 + 4 = 6. Step 2: Add the imaginary parts: 3 + 5 = 8. Step 3: Write the sum as 6 + 8i.",
+     "answer": "(2 + 3i) + (4 + 5i) = 6 + 8i"
+    },
+    {
+     "question": "Multiply (1 + 2i) by (3 + 4i).",
+     "solution": "Step 1: Expand: 1 times 3 plus 1 times 4i plus 2i times 3 plus 2i times 4i. Step 2: Replace i squared with -1 to get 3 + 4i + 6i - 8. Step 3: Collect real and imaginary parts.",
+     "answer": "(1 + 2i)(3 + 4i) = -5 + 10i"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Add (7 - 2i) and (-3 + 5i).",
+     "type": "short_answer"
+    },
+    {
+     "question": "Multiply (2 + i) by (1 - 3i) and write the product in standard form.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "kemh.4.4",
+   "title": "Modulus and Conjugate of a Complex Number",
+   "section": "4.4 The Modulus and the Conjugate of a Complex Number",
+   "definition": "The modulus of z = a + ib is the non-negative real number equal to the square root of a squared plus b squared, which measures the distance of z from the origin. The conjugate of z is obtained by changing the sign of the imaginary part, giving a - ib.",
+   "formula": "|z| = sqrt(a^2 + b^2); conjugate of z = a - ib; z times conjugate of z = |z|^2",
+   "key_idea": "Multiplying a complex number by its conjugate removes i completely and leaves the square of the modulus.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Find the modulus of a given complex number.",
+    "Write the conjugate of z = a + ib and of a numerical example.",
+    "Prove that z times its conjugate equals the square of the modulus of z.",
+    "What geometric meaning does the modulus of a complex number have?",
+    "How is the conjugate used to divide one complex number by another?",
+    "Find the modulus of 3 + 4i and of 5 - 12i."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Square the real part and the imaginary part and add them",
+     "explain": "The sum of the squares gives the squared distance from the origin.",
+     "compute": "a ** 2 + b ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Take the square root to obtain the modulus",
+     "explain": "The square root of the squared distance is the modulus of z.",
+     "compute": "sqrt(a ** 2 + b ** 2)"
+    },
+    {
+     "step": 3,
+     "action": "Change the sign of the imaginary part to form the conjugate",
+     "explain": "The conjugate of a + ib is a - ib.",
+     "compute": "a - b * i_unit"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the modulus of 3 + 4i.",
+     "solution": "Step 1: Square each part: 9 and 16. Step 2: Add: 25. Step 3: Take the square root: 5.",
+     "answer": "The modulus of 3 + 4i is 5"
+    },
+    {
+     "question": "Find the conjugate of z = 6 - 5i and verify z times its conjugate.",
+     "solution": "Step 1: Change the sign of the imaginary part: the conjugate is 6 + 5i. Step 2: Multiply: 36 + 25 = 61, which is the square of the modulus.",
+     "answer": "The conjugate is 6 + 5i and z times its conjugate equals 61"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the modulus of -5 + 12i.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Prove that the conjugate of a sum equals the sum of the conjugates.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "kemh.4.5",
+   "title": "Argand Plane and Polar Representation",
+   "section": "4.5 Argand Plane and Polar Representation",
+   "definition": "In the Argand plane a complex number a + ib is drawn as the point whose coordinates are a and b, with real parts on the horizontal axis and imaginary parts on the vertical axis. The same point can be described in polar form by its distance r from the origin and the angle theta measured from the positive real axis.",
+   "formula": "z = r(cos(theta) + i sin(theta)); r = |z|; tan(theta) = b / a",
+   "key_idea": "The polar form rewrites a complex number as a distance and a direction, so multiplying complex numbers rotates and scales the plane.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Plot a given complex number on the Argand plane.",
+    "Express a complex number in polar form.",
+    "How are the modulus and the argument of a complex number related to its polar form?",
+    "Find the point corresponding to z = 1 + i in the Argand plane and state its distance from the origin.",
+    "Why can the argument of a complex number take more than one value?",
+    "Convert z = a + ib from Cartesian form to polar form."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Read the coordinates of z as a pair (a, b)",
+     "explain": "The real part gives the horizontal coordinate and the imaginary part the vertical coordinate.",
+     "compute": "x_coord + y_coord"
+    },
+    {
+     "step": 2,
+     "action": "Compute the distance of the point from the origin",
+     "explain": "The distance is the modulus, the square root of the sum of squared coordinates.",
+     "compute": "sqrt(x_coord ** 2 + y_coord ** 2)"
+    },
+    {
+     "step": 3,
+     "action": "Compute the ratio whose arctangent is the argument theta",
+     "explain": "The angle has tangent equal to the imaginary part divided by the real part.",
+     "compute": "y_coord / x_coord"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Represent z = 3 + 4i on the Argand plane and find its distance from the origin.",
+     "solution": "Step 1: Plot the point (3, 4). Step 2: The distance is the square root of 9 plus 16, which is 5.",
+     "answer": "The point (3, 4) represents z and its distance from the origin is 5"
+    },
+    {
+     "question": "Find the ratio that determines the argument of z = 1 + i.",
+     "solution": "Step 1: The imaginary part is 1 and the real part is 1. Step 2: The ratio is 1, so the argument is 45 degrees.",
+     "answer": "The ratio is 1 and the argument is 45 degrees"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Plot z = -2 + 2i on the Argand plane and state its modulus.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how the polar form shows multiplication of complex numbers as rotation and scaling.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "kemh.4.6",
+   "title": "Quadratic Equations with Complex Roots",
+   "section": "4.6 Quadratic Equations",
+   "definition": "When the discriminant of a quadratic equation is negative, the equation has no real roots, and its two roots form a pair of complex conjugates. The roots are written as -b over 2a plus or minus i times the square root of the gap between 4ac and b squared, all over 2a.",
+   "formula": "for b^2 - 4ac < 0: x = (-b +- i sqrt(4ac - b^2)) / (2a)",
+   "key_idea": "A negative discriminant no longer means no solution; it means the two solutions are complex conjugates of each other.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Solve a quadratic equation whose discriminant is negative.",
+    "Why do the complex roots of a quadratic equation occur in conjugate pairs?",
+    "Find the roots of x^2 + 1 = 0.",
+    "State the condition on the discriminant for a quadratic equation to have complex roots.",
+    "Express the roots of ax^2 + bx + c = 0 when b squared is less than 4ac.",
+    "Solve x^2 + 2x + 5 = 0 and write the roots in standard form."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute the discriminant and compare it with zero",
+     "explain": "A negative discriminant signals that the roots are complex conjugates.",
+     "compute": "b ** 2 - 4 * a * c"
+    },
+    {
+     "step": 2,
+     "action": "Compute the common real part of the two roots",
+     "explain": "The real part of each root is -b divided by 2a.",
+     "compute": "-b / (2 * a)"
+    },
+    {
+     "step": 3,
+     "action": "Compute the imaginary part from the gap between 4ac and b squared",
+     "explain": "The imaginary part is the square root of the gap divided by 2a.",
+     "compute": "sqrt(gap_term) / (2 * a)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve x^2 + 1 = 0.",
+     "solution": "Step 1: The discriminant is -4, which is negative. Step 2: The real part is 0 and the imaginary part is 1. Step 3: The roots are i and -i.",
+     "answer": "The roots are i and -i"
+    },
+    {
+     "question": "Solve x^2 + 2x + 5 = 0.",
+     "solution": "Step 1: The discriminant is 4 - 20 = -16. Step 2: The real part is -2 over 2, that is -1. Step 3: The imaginary part is the square root of 16 over 2, that is 2.",
+     "answer": "The roots are -1 + 2i and -1 - 2i"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Solve x^2 + 4 = 0.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Show that the roots of a quadratic equation with real coefficients and negative discriminant are complex conjugates.",
+     "type": "long_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kemh104.txt",
+ "source_link": "re-linked to new cache"
+}

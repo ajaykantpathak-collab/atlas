@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_v_cbse_03_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_v_cbse_03_011",
+   "title": "c12_hin_v_cbse_03_011",
+   "questions": [
+    {
+     "q": "Identify the predominant verb voice used in the descriptive passages of the chapter (e.g., \"खुदाई की गई\", \"अवशेष मिले\") and state its grammatical name in Hindi.",
+     "a": "The predominant voice is कर्मण्य प्रयोग (passive voice), formed with past participle + auxiliary \"जाना\" (e.g., \"की गई\", \"मिले\"). A wrong answer like \"कर्तृ प्रयोग\" (active voice) reveals the student cannot distinguish who performs the action from what receives it — a critical gap for analyzing historical narration where the agent (archaeologist) is deliberately backgrounded.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the author uses तत्सम (Sanskrit-derived) compounds like \"पुरातात्त्विक\", \"ऐतिहासिक\", \"सांस्कृतिक\" instead of their तद्भव or देशज equivalents in the narrative sections.",
+     "a": "These तत्सम words establish an academic, authoritative register appropriate for documenting archaeological findings and historical analysis. A student who answers \"they sound more difficult\" or \"the author wanted to show off vocabulary\" misses the functional link between lexical register and text purpose — confusing stylistic choice with mere word difficulty.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"खुदाई के बाद अवशेषों को साफ करके संग्रहालय में रखा गया\", identify the non-finite verb form \"साफ करके\" and explain its grammatical function in the sentence structure.",
+     "a": "\"साफ करके\" is a क्रियाविशेषणीय अव्यय (adverbial participle) denoting sequential action — \"having cleaned\". It compresses a full clause (\"अवशेषों को साफ किया और फिर...\") into a modifier, creating dense, procedural narration. A student calling it \"समुच्चयबोधक\" (conjunction) or \"विशेषण\" (adjective) reveals confusion between participle types and their syntactic roles.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the language of the third-person narration (\"नगर की व्यवस्था सुव्यवस्थित थी\") with the rare direct speech portions (\"यहाँ कोई नहीं रहता अब\"). What grammatical shifts mark this transition, and what do they reveal about perspective?",
+     "a": "Narration uses formal past tense (थी, थे), passive constructions, and तत्सम vocabulary; direct speech shifts to present tense (रहता), active voice, colloquial pronouns (कोई), and देशज words. This contrast grammatically enacts the theme: objective history vs. subjective lived experience. A student noting only \"different words\" without analyzing tense/voice/register shift misses how grammar *performs* the text's central tension.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the author's repeated use of locative absolute constructions (e.g., \"नगर के पूर्वी भाग में\", \"टीले के ऊपर\") to structure spatial description. Does this pattern enhance or limit the reader's mental mapping?",
+     "a": "The pattern enhances mapping by anchoring each detail to a fixed coordinate system — mimicking archaeological grid methodology. However, it limits emotional engagement by suppressing temporal flow. A student calling it \"boring repetition\" fails to evaluate *functionally*: the syntax *is* the methodology, making the reader \"excavate\" the text layer by layer.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the passage \"प्राचीन नगर की खुदाई से पता चला कि यहाँ जल-प्रणाली विकसित थी\" using active voice, changing the register to colloquial Hindi, and adding a first-person observer. Explain how each change alters the text's epistemic stance.",
+     "a": "\"मैंने देखा कि खुदाई से मालूम पड़ा — पुराने शहर में पानी का इंतज़ाम बड़ा जबरदस्त था।\" Changes: (1) Passive \"पता चला\" → active \"मालूम पड़ा/देखा\" — shifts authority from impersonal evidence to personal witness. (2) तत्सम \"जल-प्रणाली विकसित थी\" → देशज \"पानी का इंतज़ाम जबरदस्त था\" — replaces academic claim with vernacular appraisal. (3) Third-person → first-person — makes knowledge situated, not universal. A rewrite that keeps \"विकसित थी\" or omits \"मैंने\" fails to grasp how grammar constructs epistemic framing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

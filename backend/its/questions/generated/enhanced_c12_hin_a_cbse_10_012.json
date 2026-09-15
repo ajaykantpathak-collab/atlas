@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_10_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_10_012",
+   "title": "c12_hin_a_cbse_10_012",
+   "questions": [
+    {
+     "q": "What is the defining difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal question's answer is directly stated in the text (e.g., \"Where was the author born?\" → \"cLrh f'kys osQ vxksuk xk¡o\"). An inferential question's answer is NOT directly stated; it requires combining textual clues to reach a logical conclusion (e.g., \"Why did the author call himself 'fuLlansg'?\" requires inferring his self-perception from multiple incidents). A wrong answer that treats an inferential question as literal (copying a sentence that doesn't actually answer \"why\") reveals the student cannot distinguish explicit vs. implicit information.",
+     "self_check": true
+    },
+    {
+     "q": "In the memoir, the author writes: \"esjh lwjr esa ,slh D;k ckr Fkh] ;g bl le; ugha dg ldrkA\" (I don't know what was in my mind then). Is the question \"What was in the author's mind at that moment?\" literal or inferential? Justify in one sentence.",
+     "a": "It is an inferential question because the text explicitly states the author *cannot* recall his past thoughts; the answer must be reconstructed from surrounding context (his age, his English-medium schooling, his father's Hindi advocacy) — not retrieved. A student who labels it \"literal\" and quotes the same sentence as the answer reveals the misconception that any question about the text's content is literal, ignoring whether the information is actually *available*.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the PEEL structure to answer this inferential question from the chapter: \"Why did the author's father stop him from reading English novels?\" (Textual clues: father's traditional Hindi scholarship, his burning of English books, his statement \"¯gnh dk cM+k 'kkSd gSA\".)",
+     "a": "**Point:** The father wanted to protect his son's Hindi linguistic roots. **Evidence:** He burned English books, called Hindi \"cM+k 'kkSd\", and curated a Hindi library. **Explanation:** As a traditional scholar (vaxzs\"kh, laLÑr teacher), he saw English education as a threat to cultural identity; his extreme act of burning books shows fear of anglicization. **Link:** This reflects the wider colonial-era tension between English modernity and Indian tradition — the chapter's central theme. A wrong answer that only quotes \"¯gnh dk cM+k 'kkSd gSA\" without explaining the *motive* behind the book-burning shows the student stops at evidence and skips explanation/link.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cognitive demand of Question 1 (\"ys[kd us vius firk th dh fdu&fdu fo'ks\"krkvksa dk mYys[k fd;k gS\\\") and Question 7 (\";g dFku fdlosQ lanHkZ esa dgk x;k gS vkSj D;ksa\\ Li\"V dhft,A\") from the NCERT exercise. Which Bloom level does each target?",
+     "a": "Question 1 targets **Remember/Understand** (list explicitly described traits: scholar of Sanskrit/Hindi/English, strict, burned English books, curated Hindi library). Question 7 targets **Analyze/Evaluate** (interpret the *significance* of the \"ân;&ifjp;\" — the basement meeting with Premchand — within the narrative arc: it marks the author's literary awakening and validates his father's Hindi world). A student who writes a paragraph for Q1 but one line for Q7 reveals inability to match answer depth to cognitive demand — a major board-exam mark-loser.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's answer to the inferential question: \"How did the 'fuLlansg' group get its name?\"  \nStudent writes: \"The author and his friends used the word 'fuLlansg' often, so people started calling them 'fuLlansg' people.\"  \nIs this answer sufficient for 2 marks? Why/why not?",
+     "a": "**No, 0/2 marks.** The answer is circular — it restates the *effect* (people called them that) without the *cause* (the word was a playful distortion of \"philosophy\" used during their pseudo-intellectual discussions). The text says: \"ftlesa ^fuLlansg* bR;kfn 'kCn vk;k djrs FksA ... mUgksaus ge yksxksa dk uke ^fuLlansg* yksx j[k NksM+k FksA\". The student misses the ironic self-mockery and the peer-group dynamic. This reveals the misconception that inferential answers can be guessed from the question's keywords without close textual reading.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own inferential question based on this textual segment: \"pkSèkjh lkgc osQ ikl gh ,d ySEi ty jgk FkkA ySEi dh cÙkh ,d ckj HkHkdus yxhA pkSèkjh lkgc ukSdjksa dks vkok\"k nsus yxsA eSaus pkgk fd c<+dj cÙkh uhps fxjk nw¡] ij y{ehukjk;.k us rek'kk ns[kus osQ fopkj ls eq>s èkhjs ls jksd fy;kA\" (Premchand had a clay oil-lamp; its chimney cracked; he ordered servants; I rushed to fix it but Yashpal stopped me saying 'let it be'.)  \nYour question must require connecting this incident to Premchand's character as revealed elsewhere in the chapter.",
+     "a": "**Sample question:** \"What does the cracked chimney incident reveal about Premchand's attitude toward material comfort versus intellectual pursuit?\"  \n**Criteria for a good answer:** Must cite (a) Premchand ignoring the broken lamp to continue talking, (b) his simplicity (\"oaQèkksa rd cky yVd jgs gSa\"), (c) contrast with the author's urban anxiety. A poor answer that only describes the event (\"the lamp broke and he didn't fix it\") shows the student cannot move from *narration* to *character interpretation* — the core skill this node builds.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

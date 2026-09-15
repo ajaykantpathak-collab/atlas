@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch07_020",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch07_020",
+   "title": "c6_physics_ch07_020",
+   "questions": [
+    {
+     "q": "What is the primary mechanism by which heat moves through a metal rod?",
+     "a": "Heat moves by the direct contact and vibration of neighboring atoms, which pass energy along the rod. If a student answers \"the metal melts and flows,\" they misunderstand that conduction happens in solids without the material changing its shape or moving.",
+     "self_check": true
+    },
+    {
+     "q": "If you hold a plastic ruler over a candle, why does the end in your hand stay cool longer than the end of a metal spoon would?",
+     "a": "Plastic is a poor conductor, meaning its atoms do not pass the vibration energy effectively to their neighbors. A student who says \"plastic doesn't have heat\" is incorrect; they are failing to distinguish between high-conducting materials (metals) and insulating materials (non-metals).",
+     "self_check": true
+    },
+    {
+     "q": "A metal rod is heated at one end. Describe the path the heat takes to reach the other end.",
+     "a": "1. Identify the source of heat (the flame). 2. Note the increased vibration of particles at the hot end. 3. Describe the collision chain where energy is transferred to neighboring particles. 4. Explain that this continues until the far end of the rod receives the energy. A student failing to mention \"neighboring\" particles misses the core concept of contact.",
+     "self_check": true
+    },
+    {
+     "q": "Why do metals feel cold when you touch them at room temperature, even if they aren't in a freezer?",
+     "a": "Metals are good conductors and quickly draw heat away from your warm skin into the metal. A student who thinks the metal is \"naturally cold\" has not grasped that the metal is just transferring their body heat away very efficiently.",
+     "self_check": true
+    },
+    {
+     "q": "If you were to design a handle for a frying pan, would you choose metal or wood? Justify your answer using the concept of conduction.",
+     "a": "You should choose wood because it is a poor conductor (insulator) and will not transfer the heat from the hot pan to your hand. A student choosing metal ignores the risk of burns because they haven't applied the concept of conduction to safety.",
+     "self_check": true
+    },
+    {
+     "q": "Imagine a world where all objects were perfect conductors. What would happen if you touched a room-temperature chair?",
+     "a": "The chair would instantly draw all the heat from the part of your body touching it, making it feel painfully cold. A poor answer would ignore the transfer of energy, showing a lack of understanding regarding the equilibrium between body temperature and surrounding objects.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

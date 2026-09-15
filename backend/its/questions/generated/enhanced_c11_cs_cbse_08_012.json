@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_08_012",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_08_012",
+   "title": "c11_cs_cbse_08_012",
+   "questions": [
+    {
+     "q": "Write the exact syntax for a lambda function that takes two numbers as arguments and returns their product.",
+     "a": "Correct answer: `lambda x, y: x * y`. A wrong answer (e.g., `lambda x, y: return x * y` or `def lambda x, y: x * y`) reveals that the student confuses lambda syntax with `def` syntax or mistakenly thinks a `return` keyword is needed. This indicates they have not grasped that a lambda body is a single expression whose value is automatically returned.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following lambda function is invalid in Python: `lambda n: if n % 2 == 0: return True else: return False`",
+     "a": "Correct answer: A lambda body can only be a single expression, not a compound statement like `if-else` with `return`. The correct lambda would be `lambda n: n % 2 == 0`. A wrong answer that suggests using a ternary expression (`lambda n: True if n%2==0 else False`) is actually valid, but if the student thinks the original is valid, they misunderstand the fundamental restriction that lambdas cannot contain statements — only expressions.",
+     "self_check": true
+    },
+    {
+     "q": "Given a list of distances in kilometres: `[10, 25, 5, 40]`, write a single line of code using `map` and a lambda function to convert each distance to metres (1 km = 1000 m). Show the output.",
+     "a": "Correct answer: `list(map(lambda km: km * 1000, [10, 25, 5, 40]))` produces `[10000, 25000, 5000, 40000]`. A wrong answer (e.g., forgetting `list()`, using `km * 100` or writing `lambda km: return km * 1000`) reveals the student cannot correctly combine lambda with `map` or still struggles with the implicit return.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two approaches for creating a list of squares of numbers from 1 to 5:\nApproach A: `list(map(lambda x: x**2, range(1,6)))`\nApproach B: `[x**2 for x in range(1,6)]`\nWhich is more Pythonic and why? When would you still choose Approach A?",
+     "a": "Correct answer: Approach B (list comprehension) is more Pythonic because it is more readable, faster, and considered the idiomatic way to transform lists in Python. Approach A might be chosen when the transformation function is already defined as a lambda (or function) and you want to reuse it, or when working with functional programming patterns like chaining `map` and `filter`. A wrong answer that claims Approach A is always better reveals a lack of exposure to Python best practices and the preference for comprehensions over `map`/`filter` for simple transformations.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: `f = lambda x, y: x + y; print(x + y)`. They expect `f(3,4)` to print `7`. Is this code valid? Evaluate and justify your answer.",
+     "a": "Correct answer: The code is invalid. A lambda body must be a single expression; the semicolon separates two statements (`x + y` and `print(x + y)`), which is not allowed. Even if it were allowed, `print` returns `None`, so the lambda would return `None`. The correct lambda is simply `lambda x, y: x + y`. A wrong answer that says it's valid shows the student does not understand that a lambda cannot contain multiple statements or a `print` call as its body.",
+     "self_check": true
+    },
+    {
+     "q": "Create a lambda function that takes a string and returns `True` if the string is a palindrome (reads the same forwards and backwards, ignoring case), otherwise `False`. Test it with the strings `\"Radar\"` and `\"Python\"`.",
+     "a": "Expected answer: `is_pal = lambda s: s.lower() == s.lower()[::-1]`. Test: `is_pal(\"Radar\")` returns `True`; `is_pal(\"Python\")` returns `False`. A poor answer might try to use a loop or multiple statements inside the lambda, or forget to handle case insensitivity. This reveals the student cannot compose string operations (slicing, method calls) into a single expression.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

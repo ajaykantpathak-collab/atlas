@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_05_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_05_012",
+   "title": "c11_eng_w_cbse_05_012",
+   "questions": [
+    {
+     "q": "Define a literal comprehension question and an inferential comprehension question in your own words.",
+     "a": "A literal question asks for information explicitly stated in the text (e.g., \"What did Pappachi break?\" — the violin bow). An inferential question asks you to deduce meaning not directly stated, using textual clues (e.g., \"Why did Pappachi break the violin?\" — because he was jealous of Mammachi's talent). A wrong answer that swaps the definitions reveals the student cannot distinguish explicit from implicit information, leading to incorrect answer strategies: they may search for a direct quote when inference is needed, or over-interpret a factual retrieval question.",
+     "self_check": true
+    },
+    {
+     "q": "Read this line from the story: \"He slouched around the compound in his immaculately tailored suits, weaving sullen circles around mounds of red chillies and freshly powdered yellow turmeric...\" Is the question \"What was Pappachi wearing?\" literal or inferential? Explain why.",
+     "a": "It is a literal question because the answer (\"immaculately tailored suits\") is directly stated in the sentence. A student who labels it \"inferential\" might think the descriptive word \"immaculately\" requires interpretation, but the clothing itself is explicitly named. This reveals the misconception that any descriptive language automatically makes a question inferential, when in fact inference requires going *beyond* the given words.",
+     "self_check": true
+    },
+    {
+     "q": "Answer this inferential question using evidence from the story: \"Why did Mammachi's violin lessons stop abruptly?\" Provide a Point, Evidence, and Explanation.",
+     "a": "Point: Mammachi's violin lessons stopped because Pappachi was jealous of her talent. Evidence: The text states the teacher Launsky-Tieffenthal told Pappachi his wife was \"exceptionally talented and, in his opinion, potentially concert class.\" Explanation: Pappachi's jealousy is established earlier — he \"greatly resented the attention his wife was suddenly getting\" from her pickle business. The praise triggered his insecurity, so he ended the lessons to suppress her success. A wrong answer citing \"they moved to Ayemenem\" ignores the cause-effect link explicitly built in the text and shows inability to connect separated details.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the literal question \"What was Pappachi's designation after Independence?\" with the inferential question \"How did the taxonomic reshuffle affect Pappachi's legacy?\" What different reading strategies does each require?",
+     "a": "The literal question requires scanning for keywords (\"designation\", \"Independence\") and extracting the exact phrase: \"Joint Director, Entomology\". The inferential question requires synthesizing multiple details: the moth's reclassification twelve years later, the naming after a junior officer Pappachi disliked, and his resulting bitterness (\"pernicious ghost\"). Strategy difference: Literal = locate and copy; Inferential = connect across paragraphs, identify cause-effect, and articulate implied emotional impact. A student who treats both as \"find the sentence\" will miss the inferential depth and lose marks for lack of analysis.",
+     "self_check": true
+    },
+    {
+     "q": "A student answers the inferential question \"Why did Pappachi never speak to Mammachi again after Chacko intervened?\" with: \"Because he was angry.\" Is this a sufficient answer? Justify your evaluation.",
+     "a": "No, it is insufficient. While anger is part of it, a senior-secondary answer must specify the *nature* of the anger: wounded pride and emasculation. Evidence: Pappachi smashed his rocking chair (symbol of authority) and used intermediaries to avoid direct contact, showing he couldn't accept being challenged by his son and losing control over his wife. The answer \"he was angry\" is a surface-level inference that ignores the psychological complexity the text builds. A good evaluation notes the answer lacks textual support and nuance — it states an emotion without explaining its textual roots or narrative significance.",
+     "self_check": true
+    },
+    {
+     "q": "Write one literal and one inferential question based on the last paragraph of the story (about Mammachi crying at the funeral). Provide the answer for each.",
+     "a": "Literal Q: \"What did Ammu tell the twins about Mammachi's crying?\"  \nA: \"Ammu said Mammachi was crying more because she was used to him than because she loved him.\"  \n\nInferential Q: \"What does Ammu's observation reveal about the nature of Mammachi and Pappachi's relationship?\"  \nA: \"It reveals a relationship based on habit and endurance of abuse rather than love; Mammachi normalized violence ('beatings with brass vases were the least of them'), showing how oppression becomes routine.\"  \n\nA poor answer would ask a literal question that is actually inferential (e.g., \"Why did Mammachi cry?\") or give an inferential answer without textual evidence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,498 @@
+{
+ "class": 11,
+ "subject": "business_studies",
+ "chapter": 9,
+ "chapter_title": "MSME and Business Entrepreneurship",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kebs109.txt",
+ "concepts": [
+  {
+   "id": "c11bs.8.1",
+   "title": "Meaning and Definition of Small Business",
+   "section": "8.1 Meaning and Definition of Small Business",
+   "definition": "A small business is a business unit which is owned, managed and controlled by one or a few persons, with limited capital investment, limited scale of operation and a relatively small number of employees, mainly serving local or regional markets.",
+   "formula": "",
+   "key_idea": "Small businesses are characterised by single or small-group ownership, limited investment and local operations, and they form a major part of the Indian economy in terms of number of units and employment.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is meant by a small business?",
+    "Define a small business enterprise.",
+    "How is a small business different from a large business?",
+    "What are the main features used to identify a small business?",
+    "Why are small businesses important in terms of number of units?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the ownership and scale of the unit",
+     "explain": "A small business is owned and managed by one or a few persons, with limited capital and a small number of employees."
+    },
+    {
+     "step": 2,
+     "action": "Describe the area of operation",
+     "explain": "Small businesses mainly serve local or regional markets and operate on a limited scale compared to large enterprises."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on the definition",
+     "explain": "A unit with limited investment, small workforce and local operations is a small business, forming a large share of India's enterprises and employment."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A shop is run by one person with two employees and serves a local market. What type of business is this?",
+     "solution": "Step 1: The unit is owned and managed by one person with a small workforce. Step 2: It serves a local market on a limited scale. Step 3: This is a small business.",
+     "answer": "Small business"
+    },
+    {
+     "question": "Why are small businesses said to form a major part of the Indian economy?",
+     "solution": "Step 1: Small businesses exist in very large numbers across the country. Step 2: They provide employment to a large section of the population. Step 3: Hence in terms of number of units and employment they form a major part of the economy.",
+     "answer": "Because of their large number and high employment contribution."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define a small business and explain its main features.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does a small business differ from a large business?",
+     "type": "long_answer"
+    },
+    {
+     "question": "State any two features used to identify a small business.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.8.2",
+   "title": "Characteristics of Small Business",
+   "section": "8.2 Characteristics of Small Business",
+   "definition": "The characteristics of small business include personal ownership and management, limited scale of operation, small capital investment, localised area of operation, use of simple technology, labour-intensive methods, and a flexible and informal organisational structure.",
+   "formula": "",
+   "key_idea": "Small businesses are personally managed, locally focused, labour-intensive and flexible units that use limited capital and simple technology to serve nearby markets.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the main characteristics of a small business?",
+    "Explain how small businesses are personally managed.",
+    "Why are small businesses called labour-intensive?",
+    "What is the area of operation of a small business?",
+    "How does the scale of operation differ in small and large businesses?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the ownership and management feature",
+     "explain": "Small businesses are owned and personally managed by the owner, who takes all major decisions."
+    },
+    {
+     "step": 2,
+     "action": "Describe the scale, capital and technology",
+     "explain": "They operate on a small scale with limited capital, simple technology and labour-intensive methods."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on area of operation and flexibility",
+     "explain": "Small businesses serve local markets and have a flexible, informal structure that allows quick decisions."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A bakery is owned and managed by one person, uses simple machines and serves the nearby locality. Which characteristics of small business are shown?",
+     "solution": "Step 1: The bakery is personally owned and managed. Step 2: It uses simple technology and serves a local area. Step 3: The characteristics shown are personal management, simple technology and local operation.",
+     "answer": "Personal management, simple technology and local operation."
+    },
+    {
+     "question": "Why are small businesses considered labour-intensive?",
+     "solution": "Step 1: Small businesses use simple technology and limited capital. Step 2: They rely more on human labour than on machines. Step 3: Hence they are called labour-intensive.",
+     "answer": "Because they depend more on labour than on capital-intensive machinery."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain any five characteristics of small business.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why are small businesses described as labour-intensive units?",
+     "type": "short_answer"
+    },
+    {
+     "question": "State any two features of the area of operation of a small business.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.8.3",
+   "title": "Importance of Small Business",
+   "section": "8.3 Importance of Small Business",
+   "definition": "Small business is important because it generates large-scale employment at low capital cost, promotes balanced regional development, supports ancillary industries, mobilises local resources, encourages entrepreneurship and contributes to exports and the GDP of the country.",
+   "formula": "",
+   "key_idea": "Small businesses create jobs at low investment, develop backward regions, supply parts to large firms and contribute significantly to output and exports.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the importance of small business in India?",
+    "How do small businesses generate employment?",
+    "Explain the role of small business in balanced regional development.",
+    "How do small businesses support large industries?",
+    "What is the contribution of small business to exports?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the employment and resource role",
+     "explain": "Small businesses generate large employment at low capital cost and mobilise local resources and savings."
+    },
+    {
+     "step": 2,
+     "action": "Explain regional and ancillary support",
+     "explain": "They promote balanced regional development by setting up units in backward areas and supply parts to large industries as ancillaries."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on output and export contribution",
+     "explain": "Small businesses contribute significantly to GDP and exports and encourage entrepreneurship in the country."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A small unit supplies components to a large automobile company and employs 50 local workers. Which two contributions of small business are illustrated?",
+     "solution": "Step 1: Supplying components to a large firm is the ancillary role. Step 2: Employing local workers is the employment generation role. Step 3: The contributions illustrated are ancillary support and employment generation.",
+     "answer": "Ancillary support and employment generation."
+    },
+    {
+     "question": "How do small businesses promote balanced regional development?",
+     "solution": "Step 1: Small units can be set up with limited capital anywhere, including backward areas. Step 2: They create local jobs and use local resources. Step 3: This spreads industrial activity and promotes balanced regional development.",
+     "answer": "By setting up units in backward areas and creating local employment and using local resources."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the importance of small business in the Indian economy.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How do small businesses support large industries as ancillary units?",
+     "type": "short_answer"
+    },
+    {
+     "question": "State any two ways in which small business promotes balanced regional development.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.8.4",
+   "title": "MSME Act 2006",
+   "section": "8.4 MSME Act 2006",
+   "definition": "The Micro, Small and Medium Enterprises Development (MSMED) Act, 2006 is a law enacted by the Government of India to provide for the promotion, development and competitiveness of micro, small and medium enterprises and to define them on a uniform basis for both manufacturing and services sectors.",
+   "formula": "",
+   "key_idea": "The MSMED Act 2006 gives a uniform legal definition to micro, small and medium enterprises for manufacturing and services and provides a framework for their promotion, support and protection against delayed payments.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the MSME Act 2006?",
+    "Explain the objectives of the MSMED Act 2006.",
+    "How does the MSMED Act define micro, small and medium enterprises?",
+    "What protection does the MSMED Act provide against delayed payments?",
+    "Why was a separate Act needed for MSMEs?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the purpose of the MSMED Act",
+     "explain": "The Act was enacted to promote, develop and enhance the competitiveness of micro, small and medium enterprises in India."
+    },
+    {
+     "step": 2,
+     "action": "Explain the uniform definition given by the Act",
+     "explain": "The Act defines MSMEs separately for manufacturing and services on the basis of investment in plant and machinery or equipment."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on protection and support",
+     "explain": "The Act also protects MSMEs against delayed payments from buyers and provides a framework for their support and development."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A law enacted in 2006 defines micro, small and medium enterprises uniformly and protects them against delayed payments. Name the Act and state its main objective.",
+     "solution": "Step 1: The law defining MSMEs uniformly is the MSMED Act 2006. Step 2: Its objective is to promote, develop and make MSMEs competitive. Step 3: The Act is the MSMED Act 2006 with the objective of MSME promotion and development.",
+     "answer": "MSMED Act 2006; objective is promotion, development and competitiveness of MSMEs."
+    },
+    {
+     "question": "How does the MSMED Act protect small enterprises against delayed payments?",
+     "solution": "Step 1: The Act requires buyers to make payment to MSME suppliers within a specified period. Step 2: Delay attracts compound interest as penalty. Step 3: This protects MSMEs from cash-flow problems caused by delayed payments.",
+     "answer": "By mandating timely payment to MSMEs and charging compound interest on delays."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the objectives and main provisions of the MSMED Act 2006.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does the MSMED Act define micro, small and medium enterprises?",
+     "type": "long_answer"
+    },
+    {
+     "question": "State any two protections provided to MSMEs under the Act.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.8.5",
+   "title": "Classification of MSMEs",
+   "section": "8.5 Classification of MSMEs",
+   "definition": "Under the MSMED Act 2006, enterprises are classified as micro, small or medium on the basis of investment in plant and machinery (for manufacturing) or equipment (for services); the classification determines the level of support and benefits available to the unit.",
+   "formula": "enterprise_class = classify(investment_in_plant_and_machinery)",
+   "key_idea": "An enterprise is classified as micro, small or medium by comparing its investment in plant and machinery/equipment against the thresholds fixed for manufacturing and services sectors.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How are MSMEs classified under the MSMED Act?",
+    "What is the investment limit for a micro manufacturing enterprise?",
+    "Distinguish between a small and a medium enterprise on the basis of investment.",
+    "How does classification of services enterprises differ from manufacturing?",
+    "Why is classification of MSMEs important?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute the investment in plant and machinery or equipment",
+     "explain": "Determine the total investment made in plant and machinery (manufacturing) or equipment (services) for the unit.",
+     "compute": "sum_of_plant_machinery_cost"
+    },
+    {
+     "step": 2,
+     "action": "Compare the investment with the prescribed thresholds",
+     "explain": "Compare the computed investment against the micro, small and medium thresholds fixed separately for manufacturing and services."
+    },
+    {
+     "step": 3,
+     "action": "Classify the enterprise and interpret",
+     "explain": "The investment range in which the unit falls decides its class -- micro, small or medium -- and the benefits it can claim."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A manufacturing unit invests Rs. 25 lakh in plant and machinery. Under the MSMED Act (original limits), is it a micro, small or medium enterprise?",
+     "solution": "Under the original MSMED limits, a micro manufacturing unit has investment up to Rs. 25 lakh. Rs. 25 lakh falls at the micro limit, so the unit is a micro enterprise.",
+     "answer": "Micro enterprise"
+    },
+    {
+     "question": "A manufacturing enterprise invests Rs. 3 crore in plant and machinery. Under the original MSMED limits (small: above Rs. 25 lakh up to Rs. 5 crore), how is it classified?",
+     "solution": "Rs. 3 crore (Rs. 300 lakh) lies between Rs. 25 lakh and Rs. 5 crore, which is the small enterprise range. Hence it is a small enterprise.",
+     "answer": "Small enterprise"
+    },
+    {
+     "question": "Why is the classification of an enterprise as micro, small or medium important?",
+     "solution": "Classification decides the level of government support, credit facilities, subsidies and protection available to the unit, so it is important for availing benefits.",
+     "answer": "Because it determines the support, credit, subsidies and protection the unit can claim."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A manufacturing unit invests Rs. 8 crore in plant and machinery. Under the original MSMED limits (medium: above Rs. 5 crore up to Rs. 10 crore), classify the enterprise.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain how MSMEs are classified under the MSMED Act 2006.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State the investment basis used for classifying services enterprises.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.8.6",
+   "title": "Role of Small Business in India",
+   "section": "8.6 Role of Small Business in India",
+   "definition": "Small business in India plays a vital role by providing employment next only to agriculture, contributing about half of the exports of manufactured products, producing a wide range of goods for mass consumption, and supporting the growth of large and ancillary industries.",
+   "formula": "",
+   "key_idea": "Small businesses are the second-largest source of employment after agriculture, contribute heavily to exports and mass-consumption goods, and act as ancillaries to large industries in India.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the role of small business in India?",
+    "How do small businesses contribute to employment in India?",
+    "Explain the contribution of small business to exports.",
+    "What is the role of small business as ancillary units?",
+    "How do small businesses help in producing mass-consumption goods?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the employment role",
+     "explain": "Small business is the second-largest employer in India after agriculture, providing jobs to a large number of people."
+    },
+    {
+     "step": 2,
+     "action": "Explain the export and production contribution",
+     "explain": "Small units contribute about half of the exports of manufactured products and produce a wide range of mass-consumption goods."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on ancillary support",
+     "explain": "As ancillaries, small units supply parts and components to large industries, supporting their growth and competitiveness."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A small unit supplies parts to a large tractor manufacturer and also exports handloom products. Which two roles of small business are illustrated?",
+     "solution": "Step 1: Supplying parts to a large firm is the ancillary role. Step 2: Exporting handloom products is the export contribution role. Step 3: The roles illustrated are ancillary support and export contribution.",
+     "answer": "Ancillary support and export contribution."
+    },
+    {
+     "question": "Why is small business called the second-largest source of employment in India?",
+     "solution": "Step 1: Agriculture is the largest employer in India. Step 2: Small business employs the next largest number of people. Step 3: Hence small business is the second-largest source of employment.",
+     "answer": "Because it employs the largest number of people after agriculture."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the role of small business in the Indian economy.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How do small businesses contribute to India's exports?",
+     "type": "short_answer"
+    },
+    {
+     "question": "State any two roles of small business as ancillary units.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.8.7",
+   "title": "Problems of Small Business",
+   "section": "8.7 Problems of Small Business",
+   "definition": "Small businesses in India face several problems such as shortage of finance and credit, inadequate infrastructure, outdated technology, lack of managerial and marketing skills, limited access to quality raw materials, and competition from large enterprises.",
+   "formula": "",
+   "key_idea": "Small firms suffer from scarce finance, poor infrastructure, old technology and weak marketing, which limit their growth and competitiveness against large firms.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the main problems faced by small businesses in India?",
+    "Why do small businesses face a shortage of finance?",
+    "Explain the problem of marketing faced by small businesses.",
+    "How does outdated technology affect small businesses?",
+    "What infrastructural problems do small businesses face?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the financial problems",
+     "explain": "Small firms lack adequate finance and credit because banks are reluctant to lend without collateral and owners have limited own funds."
+    },
+    {
+     "step": 2,
+     "action": "Explain the operational problems",
+     "explain": "They use outdated technology, lack managerial and marketing skills, and have limited access to quality raw materials and infrastructure."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on competition and growth",
+     "explain": "These weaknesses make it hard for small firms to compete with large enterprises, limiting their growth and survival."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A small unit cannot get a bank loan without collateral and uses old machines, so it loses orders to a large competitor. Which problems are illustrated?",
+     "solution": "Step 1: Inability to get a loan shows the finance problem. Step 2: Use of old machines shows the outdated technology problem. Step 3: The problems illustrated are shortage of finance and outdated technology.",
+     "answer": "Shortage of finance and outdated technology."
+    },
+    {
+     "question": "Why do small businesses face a marketing problem?",
+     "solution": "Step 1: Small firms lack marketing skills and resources. Step 2: They cannot advertise widely or reach distant markets. Step 3: Hence they face a serious marketing problem.",
+     "answer": "Due to lack of marketing skills, resources and wide reach."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain any five problems faced by small businesses in India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why do small businesses find it difficult to raise finance?",
+     "type": "short_answer"
+    },
+    {
+     "question": "State any two infrastructural problems of small business.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.8.8",
+   "title": "Government Assistance to Small Business",
+   "section": "8.8 Government Assistance to Small Business",
+   "definition": "The Government of India provides assistance to small business through institutions and schemes such as NSIC, SIDBI, NABARD, the Rural and Women Entrepreneurship Development programmes, credit guarantee schemes, and incentives for setting up units in backward areas.",
+   "formula": "",
+   "key_idea": "The government supports small business through credit, infrastructure, marketing, technology and training provided by institutions like NSIC, SIDBI and NABARD and various development schemes.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What assistance does the government provide to small business?",
+    "Name the main institutions set up to assist small business.",
+    "Explain the role of SIDBI in helping small business.",
+    "How does the government help small businesses in marketing?",
+    "What schemes are available for the development of small business?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the institutions providing assistance",
+     "explain": "Institutions like NSIC, SIDBI, NABARD and various government schemes provide credit, technology, marketing and training support to small firms."
+    },
+    {
+     "step": 2,
+     "action": "Explain the types of assistance",
+     "explain": "Assistance includes credit and credit guarantee, infrastructure, marketing support, technology upgradation and entrepreneurship training."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on the purpose of assistance",
+     "explain": "This support helps small firms overcome finance, marketing and technology problems and promotes their growth and competitiveness."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A small firm gets a loan through SIDBI and marketing support through NSIC to sell its products. Which two forms of government assistance are used?",
+     "solution": "Step 1: The loan through SIDBI is credit assistance. Step 2: Marketing support through NSIC is marketing assistance. Step 3: The forms used are credit assistance and marketing assistance.",
+     "answer": "Credit assistance (SIDBI) and marketing assistance (NSIC)."
+    },
+    {
+     "question": "How does the government help small businesses in backward areas?",
+     "solution": "Step 1: The government offers incentives for setting up units in backward areas. Step 2: Incentives include subsidies, tax holidays and infrastructure support. Step 3: This encourages small units to develop in backward regions.",
+     "answer": "By providing subsidies, tax benefits and infrastructure incentives for units in backward areas."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the various forms of government assistance to small business in India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Name any four institutions set up to assist small business.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How does the government help small businesses through credit guarantee schemes?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

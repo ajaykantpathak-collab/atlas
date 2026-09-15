@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_10_003",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_10_003",
+   "title": "c12_chem_cbse_10_003",
+   "questions": [
+    {
+     "q": "Write the molecular formula of fructose and state its classification as a monosaccharide (aldose/ketose, triose/tetrose/pentose/hexose).",
+     "a": "Molecular formula: C₆H₁₂O₆. Classification: ketohexose (ketose with six carbon atoms). A wrong answer (e.g., \"aldohexose\" or \"C₆H₁₀O₅\") reveals the student has not distinguished the carbonyl position (C-2 ketone vs C-1 aldehyde) or misremembered the general formula for monosaccharides.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why fructose, a ketose, gives a positive Fehling's test and Tollens' test despite lacking a free aldehyde group in its open-chain form.",
+     "a": "In aqueous alkali, fructose undergoes base-catalyzed tautomerization (Lobry de Bruyn–Alberda van Ekenstein transformation) via an enediol intermediate to form glucose and mannose, both of which have free aldehyde groups that reduce Cu²⁺/Ag⁺. A wrong answer claiming \"ketones cannot be oxidised\" or \"fructose has a hidden aldehyde\" reveals ignorance of tautomerization under alkaline conditions — a classic JEE/NEET trap.",
+     "self_check": true
+    },
+    {
+     "q": "Draw the Haworth projection of β-D-fructofuranose. Label the anomeric carbon and show the orientation of the –CH₂OH group at C-5 relative to the ring.",
+     "a": "Five-membered ring with oxygen at top right. Anomeric carbon = C-2. In β-anomer, –OH at C-2 is UP (cis to –CH₂OH at C-5). C-5 –CH₂OH is UP. C-3 –OH DOWN, C-4 –OH UP. A wrong drawing with six-membered ring (pyranose) or –OH at C-2 DOWN (α-anomer) reveals confusion between glucose (pyranose) and fructose (furanose) ring sizes or anomer definition.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the specific optical rotations of D-glucose (+52.5°) and D-fructose (–92.4°). Both are D-sugars. Explain why the D/L designation does not predict the sign of optical rotation.",
+     "a": "D/L refers to configuration at the highest-numbered chiral carbon (C-5 for hexoses) relative to D-glyceraldehyde. Optical rotation (+/–) is an experimental property of the whole molecule. D-fructose has the –OH on the right at C-5 (D-configuration) but its net rotation is levorotatory due to contributions from all chiral centres. A student answering \"D means dextrorotatory\" reveals the common misconception conflating configurational prefix with optical sign.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Fructose forms a pyranose ring because the C-5 –OH attacks the C-2 carbonyl.\" Evaluate this statement and correct it.",
+     "a": "Incorrect. The C-5 –OH attacks the C-2 carbonyl, but this forms a five-membered ring (four carbons + one oxygen) = furanose. Pyranose requires a six-membered ring (five carbons + one oxygen), formed when C-5 –OH attacks C-1 carbonyl (as in glucose). The error reveals the student is mechanically applying glucose's cyclisation pattern without counting ring atoms.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple chemical test to distinguish between a solution of glucose and a solution of fructose using only Benedict's reagent and a stopwatch. Explain the principle.",
+     "a": "Both reduce Benedict's reagent, but fructose reacts faster due to its ketose tautomerization pathway. Heat equal volumes with Benedict's reagent; fructose gives a brick-red precipitate (Cu₂O) in ~2 minutes, glucose takes ~4–5 minutes. The principle: rate of enediol formation and subsequent oxidation differs. A poor answer suggesting \"only glucose reacts\" or \"use Seliwanoff's test\" (which requires resorcinol/HCl, not allowed) shows inability to adapt known chemistry to constrained conditions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

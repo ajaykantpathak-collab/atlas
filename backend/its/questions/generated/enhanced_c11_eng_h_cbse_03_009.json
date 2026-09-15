@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_03_009",
+   "title": "c11_eng_h_cbse_03_009",
+   "questions": [
+    {
+     "q": "Define situational irony and give one example from the chapter where the outcome of an action is the opposite of what was intended.",
+     "a": "Situational irony occurs when the actual outcome of a situation is starkly different from what was expected or intended. In the chapter, Howard Carter chiselled the mummy free from the solid gold coffin to prevent thieves from destroying it for the gold, but his own actions severely damaged the mummy (severing joints, removing the head), destroying the very evidence he sought to preserve. A wrong answer (e.g., \"Carter found the tomb\" or \"The scanner broke\") reveals the student confuses irony with mere coincidence, bad luck, or a simple sequence of events, missing the crucial element of *intended vs. actual outcome*.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the description \"casket grey\" (used for the sky) functions as a symbol rather than just a colour description. What abstract idea does it evoke?",
+     "a": "\"Casket grey\" is a symbolic adjective because it transfers the literal colour of a coffin (casket) onto the sky, fusing the natural setting with the theme of death. It evokes the abstract idea of mortality enveloping the Valley of the Kings, foreshadowing the chapter's preoccupation with burial, the afterlife, and the pharaoh's eternal rest. A wrong answer that only says \"it means the sky was dark grey\" shows the student reads literally and misses the *transfer of meaning* from object (coffin) to atmosphere (sky) that creates symbolic resonance.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of dramatic irony to the moment the guard jokes, \"Curse of the pharaoh,\" when the CT scanner fails due to sand in the cooler fan. What does the *reader* know that the *characters* in the scene might not fully acknowledge?",
+     "a": "Dramatic irony exists when the audience possesses knowledge that characters lack. Here, the reader knows (from the text's scientific tone) that the scanner failed due to a mundane technical fault—sand clogging a fan—while the guard half-jokingly invokes a supernatural curse. The irony deepens because the *entire expedition* is a scientific mission to *debunk* mysteries, yet the equipment fails in a way that *mimics* the very curse they are investigating. The characters treat it as a joke; the reader sees the structural irony of science being thwarted by the ancient environment it seeks to analyse. A wrong answer focusing only on the guard's nervousness misses the layered knowledge gap between the narrative's rational framework and the ancient setting's symbolic power.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse how the *gold* of Tut's funerary treasures functions as a multi-layered symbol. Contrast its meaning for the ancient Egyptians with its meaning for the modern archaeologists (Carter, the CT scan team).",
+     "a": "For ancient Egyptians, gold symbolised divine flesh, eternal brilliance, and the guarantee of resurrection—it was a *spiritual technology* for immortality. For Carter, gold was primarily *archaeological treasure* and a logistical problem (the resins cemented the mummy to the gold coffin, forcing destructive extraction). For the CT team, gold is an *obstacle to imaging* (dense metal creates artifacts in X-rays) yet also a *marker of status* that prioritises this mummy for scanning. The symbol thus shifts from \"sacred conduit to afterlife\" to \"colonial prize\" to \"technical variable.\" A weak answer lists only one meaning (e.g., \"wealth\") and fails to trace the *semantic shift* across historical perspectives, which is the core of contextual symbolism in this non-fiction narrative.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the author's choice to end the chapter with the image of Orion \"watching over the boy king.\" Does this symbolic closure resolve or undermine the scientific enterprise described in the preceding pages? Justify your view.",
+     "a": "The ending *complicates* rather than resolves the scientific enterprise. The CT scan represents empirical, data-driven inquiry (1,700 cross-sections, \"eerie detail,\" forensic reconstruction). Orion, as the soul of Osiris, represents the *mythological framework* the ancient Egyptians built around death. By closing with the ancient god \"watching,\" Williams suggests that despite 3,300 years and a million-dollar scanner, the pharaoh remains embedded in his original symbolic universe—science has mapped his body, but not displaced his myth. This is a sophisticated *evaluative* judgment: the symbol does not cancel the science; it frames it. A poor answer says \"It shows science won\" or \"It shows the curse is real,\" missing the *dialogue* between the two epistemologies that the text maintains.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new symbolic image or ironic scenario that could be added to the chapter to highlight the tension between *preservation* and *intrusion*. Write 2-3 sentences describing it and label the device.",
+     "a": "*Example:* \"The climate-controlled display case built to preserve Tut's mummy for future generations develops a hairline fracture, and the inert argon gas meant to stop decay leaks out—allowing the very microbes of the modern world to colonise the ancient king.\" **Device: Situational Irony.** The preservation technology becomes the vector of contamination. A strong answer constructs a *plausible* scenario within the chapter's world, establishes a clear *intent* (preservation), and shows the *opposite outcome* (intrusion/damage), labelling the device correctly. A weak answer offers a random spooky event (\"a bat flies in\") without the structural contradiction that defines irony.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

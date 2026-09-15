@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_03_007",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_03_007",
+   "title": "c11_geo_cbse_03_007",
+   "questions": [
+    {
+     "q": "State the approximate depth range of the outer core and inner core, and name the seismic discontinuity that separates the mantle from the outer core.",
+     "a": "Outer core: 2,900–5,100 km; Inner core: 5,100–6,371 km. The Gutenberg discontinuity (core-mantle boundary) at 2,900 km depth separates the mantle from the outer core. A wrong answer (e.g., placing the Gutenberg discontinuity at 5,100 km or confusing it with the Lehmann discontinuity) reveals the student has not memorized the radial sequence of Earth's layers and their boundary names — a factual prerequisite for interpreting seismic data.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why S-waves cannot travel through the outer core, and describe what the S-wave shadow zone (103°–180° epicentral distance) tells us about the outer core's physical state.",
+     "a": "S-waves are shear waves requiring material rigidity (shear modulus > 0). Liquids have zero rigidity, so S-waves cannot propagate through them. The S-wave shadow zone (no direct S-waves detected between 103°–180°) occurs because S-waves are blocked by the liquid outer core. A wrong answer claiming \"S-waves are absorbed\" or \"S-waves travel slower in liquids\" reveals confusion between wave absorption and the fundamental physics that liquids cannot support shear stress — a conceptual gap carried from Class 9 wave physics.",
+     "self_check": true
+    },
+    {
+     "q": "Given: Earth's radius = 6,371 km; Inner core radius = 1,221 km; Outer core outer radius = 3,480 km. Calculate the thickness of the outer core and the volume fraction of the whole Earth occupied by the inner core. (Use V = 4/3 πr³)",
+     "a": "**Step 1:** Outer core thickness = outer radius – inner radius = 3,480 km – 1,221 km = **2,259 km**.  \n**Step 2:** Inner core volume = 4/3 π (1,221)³ ≈ 7.62 × 10⁹ km³.  \n**Step 3:** Earth volume = 4/3 π (6,371)³ ≈ 1.083 × 10¹² km³.  \n**Step 4:** Volume fraction = (7.62 × 10⁹) / (1.083 × 10¹²) ≈ **0.00704 or 0.704%**.  \nA wrong answer using diameter instead of radius, or forgetting to cube the radius, reveals arithmetic errors in spherical geometry — a common pitfall when applying formulas to Earth's layered structure.",
+     "self_check": true
+    },
+    {
+     "q": "The inner core temperature (~5,700 K) exceeds the outer core temperature (~4,500–5,000 K), yet the inner core is solid while the outer core is liquid. Analyze this apparent paradox using the Clapeyron slope (dP/dT) of iron's melting curve.",
+     "a": "The melting point of iron increases with pressure (positive Clapeyron slope). At the inner core boundary (ICB), pressure ~330 GPa raises iron's melting point to ~6,200 K, which exceeds the actual temperature (~5,700 K), so iron solidifies. In the outer core, pressures (135–330 GPa) are lower, so the melting point (~4,000–5,500 K) is below the actual temperature, keeping iron liquid. A wrong answer attributing solidification solely to \"higher pressure\" without comparing pressure-elevated melting point vs. actual temperature reveals incomplete thermodynamic reasoning — the student must compare two curves (geotherm and melting curve), not just state \"pressure freezes it\".",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"If Earth's outer core solidified tomorrow, life on Earth would end within a century.\" Justify your evaluation using the geodynamo mechanism and atmospheric physics.",
+     "a": "**Evaluation: Largely correct, but timescale is debated.**  \n**Reasoning:** The geodynamo requires a convecting, electrically conducting fluid (liquid outer core) and planetary rotation. Solidification stops convection → magnetic field decays (timescale ~10⁴ years for dipole collapse). Without magnetosphere, solar wind strips atmosphere (especially water vapor via photodissociation and H escape) and increases surface radiation. Mars lost its field ~4 Ga ago and its atmosphere thinned. However, \"within a century\" overstates atmospheric loss rate; Venus lacks a field but retains thick atmosphere. A poor evaluation ignores the chain: no convection → no dynamo → no magnetosphere → atmospheric erosion + radiation → biosphere collapse, and fails to distinguish between magnetic field loss timescale and atmospheric loss timescale.",
+     "self_check": true
+    },
+    {
+     "q": "Design a labeled cross-section diagram of Earth's core showing: (a) depth scale, (b) P-wave and S-wave paths through the core, (c) the S-wave shadow zone, (d) the inner core boundary (Lehmann discontinuity), and (e) convection cells in the outer core with Coriolis deflection arrows. Annotate each feature with the physical principle it demonstrates.",
+     "a": "**Expected diagram elements:**  \n- Concentric circles: crust, mantle, outer core (liquid), inner core (solid).  \n- Depth labels: 0, 2,900 km (Gutenberg), 5,100 km (Lehmann), 6,371 km (center).  \n- P-wave paths: refracted at Gutenberg (Snell's law), some reflect; S-waves stop at Gutenberg.  \n- S-wave shadow zone: 103°–180° marked with \"No S-waves — liquid outer core\".  \n- Convection cells: helical columns aligned with rotation axis, arrows showing upwelling/downwelling deflected right (N. hemisphere) by Coriolis.  \n- Annotations: \"P-wave refraction → density jump\", \"S-wave absence → zero rigidity\", \"Helical convection + rotation → geodynamo\".  \nA poor diagram shows straight convection cells (ignoring Coriolis), missing shadow zone, or mislabels Lehmann as Gutenberg — revealing inability to synthesize seismic, thermal, and rotational physics into one coherent model.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

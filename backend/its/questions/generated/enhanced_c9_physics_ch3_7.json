@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch3_7",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch3_7",
+   "title": "c9_physics_ch3_7",
+   "questions": [
+    {
+     "q": "State Newton's Third Law of Motion.",
+     "a": "For every action (force) there is an equal and opposite reaction (force). If body A exerts a force on body B, then body B exerts an equal and opposite force on body A. The forces are equal in magnitude, opposite in direction, act on different bodies, and occur simultaneously. A wrong answer (e.g., \"every force has an opposite force\") is incomplete — it must specify that the forces act on different bodies and are equal in magnitude.",
+     "self_check": true
+    },
+    {
+     "q": "When you walk, identify the action-reaction pair. Which force acts on you, and which acts on the ground?",
+     "a": "Action: Your foot pushes the ground backward (force on the ground). Reaction: The ground pushes your foot forward (force on you). The force on you (forward) is what propels you forward. The force on the ground (backward) is equal and opposite but does not move the ground noticeably because the ground is massive. A wrong answer (e.g., \"you push yourself forward\") misses that the reaction force from the ground is what actually moves you.",
+     "self_check": true
+    },
+    {
+     "q": "Why do action and reaction forces not cancel each other?",
+     "a": "Action and reaction forces do not cancel because they act on different bodies. The action force acts on body B; the reaction force acts on body A. To cancel, forces must act on the same body. Since they act on different bodies, each body experiences a net force (from the other), and both can accelerate. A wrong answer (e.g., \"they are not equal\") is incorrect — they are equal, but they act on different bodies, so they do not cancel.",
+     "self_check": true
+    },
+    {
+     "q": "A book rests on a table. Is the normal force (table on book) the reaction to the book's weight (gravity on book)? Explain.",
+     "a": "No, the normal force and the book's weight are NOT an action-reaction pair. Weight is the gravitational force of the Earth on the book. The reaction to weight is the gravitational force of the book on the Earth (equal, opposite, on the Earth). The normal force is the contact force of the table on the book. The reaction to the normal force is the contact force of the book on the table (equal, opposite, on the table). Weight and normal force happen to be equal and opposite, but they act on the same body (the book), so they are not an action-reaction pair. Action-reaction pairs must act on different bodies. A wrong answer (e.g., \"normal force is the reaction to weight\") is a common misconception.",
+     "self_check": true
+    },
+    {
+     "q": "How does a rocket move in space where there is nothing to push against? Explain using Newton's Third Law.",
+     "a": "A rocket pushes exhaust gas out of its nozzle at high speed (action: force on gas, downward). By Newton's Third Law, the gas pushes the rocket upward with an equal and opposite force (reaction: force on rocket, upward). The rocket does not need air or ground to push against — it pushes its own exhaust gas, and the gas pushes back. This is why rockets work in the vacuum of space. A wrong answer (e.g., \"the rocket pushes against the air\") is incorrect — rockets work in vacuum because the action-reaction is between the rocket and its exhaust.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"The horse pulls the cart forward, and the cart pulls the horse backward with equal force, so the cart should not move.\" Evaluate this statement and explain why the cart does move.",
+     "a": "The statement correctly identifies the action-reaction pair (horse pulls cart forward, cart pulls horse backward) but incorrectly concludes the cart should not move. The forces are equal and opposite, but they act on different bodies: the forward force acts on the cart, the backward force acts on the horse. The cart moves forward because the forward force (from the horse) acts on it. The horse moves forward because the ground pushes the horse forward (the horse pushes the ground backward, ground pushes horse forward). The cart-horse system moves forward because the ground's force on the horse exceeds the friction on the cart. The key: action-reaction forces on different bodies do not cancel — each body responds to the forces acting on it.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

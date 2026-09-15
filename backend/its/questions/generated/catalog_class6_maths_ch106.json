@@ -1,0 +1,782 @@
+{
+ "catalog": "catalog_class6_maths_ch106.json",
+ "concepts": [
+  {
+   "id": "fegp.6.1.1",
+   "title": "Perimeter of a Polygon",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A rectangular park is 18 m long and 9 m wide. Find its perimeter.",
+     "a": "54",
+     "self_check": false
+    },
+    {
+     "q": "Find the perimeter of a square with side 9 cm.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Find the perimeter of a triangle with sides 12 cm, 7 cm and 16 cm.",
+     "a": "35",
+     "self_check": false
+    },
+    {
+     "q": "An equilateral triangle has each side 3 cm. What is its perimeter?",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "A regular polygon has 10 sides, each 10 cm long. Find its perimeter.",
+     "a": "100",
+     "self_check": false
+    },
+    {
+     "q": "A jogger runs 3 rounds around a square field of side 20 m. How many metres does she cover?",
+     "a": "240",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.6.1.2",
+   "title": "Perimeter of a Rectangle",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A rectangular park is 27 m long and 29 m wide. Find its perimeter.",
+     "a": "112",
+     "self_check": false
+    },
+    {
+     "q": "Find the perimeter of a square with side 15 cm.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "Find the perimeter of a triangle with sides 5 cm, 3 cm and 14 cm.",
+     "a": "22",
+     "self_check": false
+    },
+    {
+     "q": "An equilateral triangle has each side 24 cm. What is its perimeter?",
+     "a": "72",
+     "self_check": false
+    },
+    {
+     "q": "A regular polygon has 10 sides, each 3 cm long. Find its perimeter.",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "A jogger runs 6 rounds around a square field of side 15 m. How many metres does she cover?",
+     "a": "360",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.6.1.3",
+   "title": "Perimeter of a Square",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the square of 31.",
+     "a": "961",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 32 m. What is the number of square metres in its area?",
+     "a": "1024",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 7^2 and 8^2? (Rule: 2 x n)",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 7 x 5.",
+     "a": "35",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 11?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 18. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "82",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.6.1.4",
+   "title": "Perimeter of a Triangle",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A rectangular park is 28 m long and 30 m wide. Find its perimeter.",
+     "a": "116",
+     "self_check": false
+    },
+    {
+     "q": "Find the perimeter of a square with side 5 cm.",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "Find the perimeter of a triangle with sides 4 cm, 12 cm and 15 cm.",
+     "a": "31",
+     "self_check": false
+    },
+    {
+     "q": "An equilateral triangle has each side 17 cm. What is its perimeter?",
+     "a": "51",
+     "self_check": false
+    },
+    {
+     "q": "A regular polygon has 6 sides, each 7 cm long. Find its perimeter.",
+     "a": "42",
+     "self_check": false
+    },
+    {
+     "q": "A jogger runs 4 rounds around a square field of side 18 m. How many metres does she cover?",
+     "a": "288",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.6.1.5",
+   "title": "Perimeter of an Equilateral Triangle",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A rectangular park is 4 m long and 39 m wide. Find its perimeter.",
+     "a": "86",
+     "self_check": false
+    },
+    {
+     "q": "Find the perimeter of a square with side 7 cm.",
+     "a": "28",
+     "self_check": false
+    },
+    {
+     "q": "Find the perimeter of a triangle with sides 13 cm, 6 cm and 6 cm.",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "An equilateral triangle has each side 11 cm. What is its perimeter?",
+     "a": "33",
+     "self_check": false
+    },
+    {
+     "q": "A regular polygon has 12 sides, each 11 cm long. Find its perimeter.",
+     "a": "132",
+     "self_check": false
+    },
+    {
+     "q": "A jogger runs 6 rounds around a square field of side 25 m. How many metres does she cover?",
+     "a": "600",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.6.1.6",
+   "title": "Perimeter of a Regular Polygon",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A rectangular park is 24 m long and 40 m wide. Find its perimeter.",
+     "a": "128",
+     "self_check": false
+    },
+    {
+     "q": "Find the perimeter of a square with side 25 cm.",
+     "a": "100",
+     "self_check": false
+    },
+    {
+     "q": "Find the perimeter of a triangle with sides 17 cm, 18 cm and 15 cm.",
+     "a": "50",
+     "self_check": false
+    },
+    {
+     "q": "An equilateral triangle has each side 10 cm. What is its perimeter?",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "A regular polygon has 8 sides, each 8 cm long. Find its perimeter.",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "A jogger runs 6 rounds around a square field of side 12 m. How many metres does she cover?",
+     "a": "288",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.6.1.7",
+   "title": "Distance Covered in Multiple Rounds of a Square",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
+     "a": "34",
+     "self_check": false
+    },
+    {
+     "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "The numbers 11 and 13 are consecutive primes. How far apart are they (twin primes differ by 2)?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Are 8 and 15 co-prime? Their common factors are only 1, so their HCF is what?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Divisibility by 11: add and subtract alternate digits of 2728 from the right (8 - 2 + 7 - 2) and report the result.",
+     "a": "11",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.6.1.8",
+   "title": "Cost of Fencing a Rectangle",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A rectangular park is 9 m long and 10 m wide. Find its perimeter.",
+     "a": "38",
+     "self_check": false
+    },
+    {
+     "q": "Find the perimeter of a square with side 27 cm.",
+     "a": "108",
+     "self_check": false
+    },
+    {
+     "q": "Find the perimeter of a triangle with sides 9 cm, 18 cm and 4 cm.",
+     "a": "31",
+     "self_check": false
+    },
+    {
+     "q": "An equilateral triangle has each side 18 cm. What is its perimeter?",
+     "a": "54",
+     "self_check": false
+    },
+    {
+     "q": "A regular polygon has 6 sides, each 6 cm long. Find its perimeter.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "A jogger runs 6 rounds around a square field of side 15 m. How many metres does she cover?",
+     "a": "360",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.6.2.1",
+   "title": "Area of a Rectangle",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the area of a rectangle measuring 7 cm by 6 cm.",
+     "a": "42",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a square of side 15 m.",
+     "a": "225",
+     "self_check": false
+    },
+    {
+     "q": "A 7 m x 12 m garden has a 3 m x 8 m flower bed inside it. Find the area of the remaining garden.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "A rectangle has area 72 sq cm and length 12 cm. Find its breadth.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Tiling costs Rs 20 per square metre. Find the cost of tiling a 12 m x 16 m floor.",
+     "a": "3840",
+     "self_check": false
+    },
+    {
+     "q": "How many tiles of side 3 m (square tiles) fit in a 21 m x 21 m hall?",
+     "a": "49",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.6.2.2",
+   "title": "Area of a Square",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the square of 18.",
+     "a": "324",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 26 m. What is the number of square metres in its area?",
+     "a": "676",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 6^2 and 7^2? (Rule: 2 x n)",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 7 x 5.",
+     "a": "35",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 60?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 8. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "17",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.6.2.3",
+   "title": "Area of Remaining Region",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the area of a rectangle measuring 20 cm by 7 cm.",
+     "a": "140",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a square of side 8 m.",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "A 14 m x 16 m garden has a 10 m x 12 m flower bed inside it. Find the area of the remaining garden.",
+     "a": "104",
+     "self_check": false
+    },
+    {
+     "q": "A rectangle has area 72 sq cm and length 10 cm. Find its breadth.",
+     "a": "7.2",
+     "self_check": false
+    },
+    {
+     "q": "Tiling costs Rs 15 per square metre. Find the cost of tiling a 18 m x 11 m floor.",
+     "a": "2970",
+     "self_check": false
+    },
+    {
+     "q": "How many tiles of side 6 m (square tiles) fit in a 18 m x 30 m hall?",
+     "a": "15",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.6.3.1",
+   "title": "Area of a Triangle",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the area of a rectangle measuring 12 cm by 19 cm.",
+     "a": "228",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a square of side 17 m.",
+     "a": "289",
+     "self_check": false
+    },
+    {
+     "q": "A 11 m x 16 m garden has a 7 m x 12 m flower bed inside it. Find the area of the remaining garden.",
+     "a": "92",
+     "self_check": false
+    },
+    {
+     "q": "A rectangle has area 72 sq cm and length 8 cm. Find its breadth.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "Tiling costs Rs 25 per square metre. Find the cost of tiling a 19 m x 6 m floor.",
+     "a": "2850",
+     "self_check": false
+    },
+    {
+     "q": "How many tiles of side 2 m (square tiles) fit in a 14 m x 6 m hall?",
+     "a": "21",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.6.2.4",
+   "title": "Cost of Tiling or Covering an Area",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the area of a rectangle measuring 26 cm by 4 cm.",
+     "a": "104",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a square of side 20 m.",
+     "a": "400",
+     "self_check": false
+    },
+    {
+     "q": "A 8 m x 14 m garden has a 4 m x 10 m flower bed inside it. Find the area of the remaining garden.",
+     "a": "72",
+     "self_check": false
+    },
+    {
+     "q": "A rectangle has area 48 sq cm and length 8 cm. Find its breadth.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Tiling costs Rs 25 per square metre. Find the cost of tiling a 15 m x 13 m floor.",
+     "a": "4875",
+     "self_check": false
+    },
+    {
+     "q": "How many tiles of side 4 m (square tiles) fit in a 28 m x 16 m hall?",
+     "a": "28",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.6.2.5",
+   "title": "Number of Items Fitting in an Area",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the area of a rectangle measuring 26 cm by 3 cm.",
+     "a": "78",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a square of side 20 m.",
+     "a": "400",
+     "self_check": false
+    },
+    {
+     "q": "A 15 m x 14 m garden has a 11 m x 10 m flower bed inside it. Find the area of the remaining garden.",
+     "a": "100",
+     "self_check": false
+    },
+    {
+     "q": "A rectangle has area 36 sq cm and length 6 cm. Find its breadth.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Tiling costs Rs 20 per square metre. Find the cost of tiling a 9 m x 16 m floor.",
+     "a": "2880",
+     "self_check": false
+    },
+    {
+     "q": "How many tiles of side 3 m (square tiles) fit in a 12 m x 12 m hall?",
+     "a": "16",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.6.1.9",
+   "title": "Side of a Regular Polygon from Perimeter",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A rectangular park is 33 m long and 32 m wide. Find its perimeter.",
+     "a": "130",
+     "self_check": false
+    },
+    {
+     "q": "Find the perimeter of a square with side 15 cm.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "Find the perimeter of a triangle with sides 18 cm, 11 cm and 18 cm.",
+     "a": "47",
+     "self_check": false
+    },
+    {
+     "q": "An equilateral triangle has each side 11 cm. What is its perimeter?",
+     "a": "33",
+     "self_check": false
+    },
+    {
+     "q": "A regular polygon has 12 sides, each 15 cm long. Find its perimeter.",
+     "a": "180",
+     "self_check": false
+    },
+    {
+     "q": "A jogger runs 6 rounds around a square field of side 17 m. How many metres does she cover?",
+     "a": "408",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.6.3.2",
+   "title": "Total Area by Splitting into Regions",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the area of a parallelogram with base 9 cm and height 17 cm.",
+     "a": "153",
+     "self_check": false
+    },
+    {
+     "q": "The diagonals of a rhombus are 24 cm and 8 cm. Find its area.",
+     "a": "96",
+     "self_check": false
+    },
+    {
+     "q": "The parallel sides of a trapezium are 16 cm and 27 cm and the distance between them is 10 cm. Find the area.",
+     "a": "215",
+     "self_check": false
+    },
+    {
+     "q": "A quadrilateral has diagonal 40 cm and the perpendiculars on it from opposite vertices are 8 cm and 8 cm. Find the area.",
+     "a": "320",
+     "self_check": false
+    },
+    {
+     "q": "A triangle and a parallelogram stand on the same base. The triangle's area equals the parallelogram's; the triangle has base 10 cm and height 8 cm. Find the parallelogram's height if its base is 10 cm.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "A rhombus-shaped field has base 8 m and height 8 m. Find its area.",
+     "a": "64",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.6.1.12",
+   "title": "Missing Dimension of a Rectangle from Perimeter",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A rectangular park is 32 m long and 20 m wide. Find its perimeter.",
+     "a": "104",
+     "self_check": false
+    },
+    {
+     "q": "Find the perimeter of a square with side 11 cm.",
+     "a": "44",
+     "self_check": false
+    },
+    {
+     "q": "Find the perimeter of a triangle with sides 6 cm, 11 cm and 16 cm.",
+     "a": "33",
+     "self_check": false
+    },
+    {
+     "q": "An equilateral triangle has each side 15 cm. What is its perimeter?",
+     "a": "45",
+     "self_check": false
+    },
+    {
+     "q": "A regular polygon has 9 sides, each 12 cm long. Find its perimeter.",
+     "a": "108",
+     "self_check": false
+    },
+    {
+     "q": "A jogger runs 10 rounds around a square field of side 22 m. How many metres does she cover?",
+     "a": "880",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.6.1.13",
+   "title": "Side of a Square from Perimeter",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the square of 33.",
+     "a": "1089",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 21 m. What is the number of square metres in its area?",
+     "a": "441",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 2^2 and 3^2? (Rule: 2 x n)",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 11 x 9.",
+     "a": "99",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 51?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 10. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "26",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.6.1.14",
+   "title": "Third Side of a Triangle from Perimeter",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A rectangular park is 20 m long and 40 m wide. Find its perimeter.",
+     "a": "120",
+     "self_check": false
+    },
+    {
+     "q": "Find the perimeter of a square with side 33 cm.",
+     "a": "132",
+     "self_check": false
+    },
+    {
+     "q": "Find the perimeter of a triangle with sides 12 cm, 6 cm and 7 cm.",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "An equilateral triangle has each side 6 cm. What is its perimeter?",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "A regular polygon has 5 sides, each 12 cm long. Find its perimeter.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "A jogger runs 8 rounds around a square field of side 21 m. How many metres does she cover?",
+     "a": "672",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.6.2.8",
+   "title": "Rectangle Dimension from Area",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the area of a rectangle measuring 8 cm by 25 cm.",
+     "a": "200",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a square of side 19 m.",
+     "a": "361",
+     "self_check": false
+    },
+    {
+     "q": "A 14 m x 15 m garden has a 10 m x 11 m flower bed inside it. Find the area of the remaining garden.",
+     "a": "100",
+     "self_check": false
+    },
+    {
+     "q": "A rectangle has area 84 sq cm and length 12 cm. Find its breadth.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Tiling costs Rs 15 per square metre. Find the cost of tiling a 18 m x 12 m floor.",
+     "a": "3240",
+     "self_check": false
+    },
+    {
+     "q": "How many tiles of side 2 m (square tiles) fit in a 14 m x 8 m hall?",
+     "a": "28",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.6.2.9",
+   "title": "Total Area of Multiple Identical Shapes",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the area of a rectangle measuring 11 cm by 7 cm.",
+     "a": "77",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a square of side 25 m.",
+     "a": "625",
+     "self_check": false
+    },
+    {
+     "q": "A 8 m x 12 m garden has a 4 m x 8 m flower bed inside it. Find the area of the remaining garden.",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "A rectangle has area 36 sq cm and length 10 cm. Find its breadth.",
+     "a": "3.6",
+     "self_check": false
+    },
+    {
+     "q": "Tiling costs Rs 20 per square metre. Find the cost of tiling a 12 m x 5 m floor.",
+     "a": "1200",
+     "self_check": false
+    },
+    {
+     "q": "How many tiles of side 6 m (square tiles) fit in a 18 m x 30 m hall?",
+     "a": "15",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

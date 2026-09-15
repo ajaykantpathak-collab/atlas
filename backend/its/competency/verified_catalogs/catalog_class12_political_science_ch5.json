@@ -1,0 +1,567 @@
+{
+ "class": "12",
+ "subject": "political_science",
+ "chapter": 5,
+ "chapter_title": "Security in the Contemporary World",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\leps104.txt",
+ "concepts": [
+  {
+   "id": "c12ps.5.1",
+   "title": "Meaning of Security",
+   "section": "Introduction: What is Security?",
+   "definition": "Security refers to the freedom from threats to core values and the safety of the state and its citizens; in international relations it mainly concerns the ability of states to protect their sovereignty, territorial integrity and citizens from external and internal dangers.",
+   "formula": "",
+   "key_idea": "Security is about the absence of threats to core values -- survival, independence and well-being -- and the measures states take to protect them.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is meant by security in the context of international relations?",
+    "What are the core values that security seeks to protect?",
+    "How does the idea of security differ from ordinary understanding of safety?",
+    "Explain the relationship between security and sovereignty.",
+    "Why is security considered a contested concept?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define security in terms of threats and values",
+     "explain": "Security means freedom from threats to the survival, independence and identity of the state and its people."
+    },
+    {
+     "step": 2,
+     "action": "Identify the core values to be protected",
+     "explain": "The core values include territorial integrity, political sovereignty, economic well-being and the safety of citizens."
+    },
+    {
+     "step": 3,
+     "action": "Explain why security is contested",
+     "explain": "Security is contested because scholars disagree on what counts as a threat, whose security matters and what methods should be used to achieve it."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What does security mean in the context of international relations?",
+     "solution": "Step 1: Security refers to freedom from threats to core values. Step 2: These values include sovereignty, territorial integrity and citizen safety. Step 3: Hence security is the protection of the state and its people from danger.",
+     "answer": "Freedom from threats to the survival, independence and well-being of the state and its citizens",
+     "_n": 1
+    },
+    {
+     "question": "Why is the concept of security considered contested?",
+     "solution": "Step 1: Scholars disagree on what constitutes a threat. Step 2: They differ on whether security means state security or human security. Step 3: Hence security is a contested concept with no single agreed definition.",
+     "answer": "Because there is no single agreement on what threats, values and methods define security",
+     "_n": 2
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning of security in international relations.",
+     "type": "long_answer"
+    },
+    {
+     "question": "List the core values that security seeks to protect.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.5.2",
+   "title": "Traditional Concepts of Security: External Threats",
+   "section": "Traditional Concepts of Security: External",
+   "definition": "Traditional external security concerns the dangers posed by other states, including military attack, war, and the erosion of sovereignty, against which states build armed forces, form alliances and pursue deterrence.",
+   "formula": "",
+   "key_idea": "Traditional external security focuses on threats from other states -- war, aggression and territorial loss -- and the policies of deterrence, defence and alliance used to counter them.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the traditional external threats to a state's security?",
+    "How do states respond to external military threats?",
+    "What is deterrence and how does it work?",
+    "Explain the role of alliances in traditional security.",
+    "How does defence differ from deterrence?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the external threats",
+     "explain": "External threats include war, military aggression, border disputes and attempts by other states to undermine sovereignty."
+    },
+    {
+     "step": 2,
+     "action": "Describe the three traditional responses",
+     "explain": "States respond through deterrence (threat of retaliation), defence (military preparedness) and alliance-building (joining friendly powers)."
+    },
+    {
+     "step": 3,
+     "action": "Assess the effectiveness of these responses",
+     "explain": "Deterrence prevents war by fear of retaliation, defence limits damage if war occurs, and alliances pool strength to discourage aggression."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the main traditional external threats to a state?",
+     "solution": "Step 1: External threats come from other states. Step 2: They include war, military attack and loss of territory. Step 3: Hence the main external threats are war, aggression and erosion of sovereignty.",
+     "answer": "War, military aggression and erosion of sovereignty by other states"
+    },
+    {
+     "question": "How does deterrence contribute to traditional security?",
+     "solution": "Step 1: Deterrence works by threatening unacceptable retaliation. Step 2: The fear of heavy damage discourages an attacker. Step 3: Hence deterrence prevents war without actual fighting.",
+     "answer": "Deterrence prevents attack by threatening retaliation so severe that aggression becomes irrational"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the traditional concepts of external security and the policies used to counter external threats.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Distinguish between deterrence and defence.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.5.3",
+   "title": "Traditional Concepts of Security: Internal Threats",
+   "section": "Traditional Concepts of Security: Internal",
+   "definition": "Internal security concerns threats to stability and order from within the state, such as separatist movements, civil war, insurgency, and domestic violence, which challenge the authority and territorial integrity of the government.",
+   "formula": "",
+   "key_idea": "Internal security threats arise from within the state -- separatism, insurgency, civil war and communal violence -- and require police, intelligence and political solutions rather than external military action.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are internal security threats?",
+    "How do internal threats differ from external threats?",
+    "Give examples of internal security challenges faced by states.",
+    "How do states respond to separatist movements?",
+    "Why are internal threats sometimes more difficult to manage than external ones?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the internal threats",
+     "explain": "Internal threats include separatism, insurgency, civil war, communal violence and Maoist rebellion that challenge the state from within."
+    },
+    {
+     "step": 2,
+     "action": "Distinguish internal from external threats",
+     "explain": "External threats come from other states and are met by the military; internal threats come from citizens or groups within and are met by police, intelligence and political negotiation."
+    },
+    {
+     "step": 3,
+     "action": "Explain the state's response",
+     "explain": "States use law enforcement, anti-terror laws, development packages and political dialogue to manage internal security challenges."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How do internal security threats differ from external threats?",
+     "solution": "Step 1: Internal threats originate within the state from its own citizens or groups. Step 2: External threats come from other states. Step 3: Hence internal threats are met by police and political means, external by the military.",
+     "answer": "Internal threats come from within the state and are handled by police and politics; external threats come from other states and are handled by the military"
+    },
+    {
+     "question": "Give two examples of internal security challenges.",
+     "solution": "Step 1: Separatist movements challenge territorial integrity. Step 2: Insurgency and civil war challenge state authority. Step 3: Hence separatism and insurgency are internal security challenges.",
+     "answer": "Separatist movements and insurgency"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the traditional concept of internal security with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why are internal threats sometimes harder to manage than external ones?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.5.4",
+   "title": "Traditional Security Policies",
+   "section": "Traditional Security Policies",
+   "definition": "Traditional security policies are the strategies states adopt to deal with external threats, principally deterrence (threat of retaliation), defence (military capability), and alliance (partnership with other states), along with the option of disarmament and arms control.",
+   "formula": "",
+   "key_idea": "The four main traditional security policies are deterrence, defence, alliance-building and arms control, each addressing the problem of war and external aggression in different ways.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the main traditional security policies?",
+    "Explain the policy of alliance as a security strategy.",
+    "What is the difference between disarmament and arms control?",
+    "How does defence policy protect a state?",
+    "Evaluate the strengths and weaknesses of deterrence."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the traditional security policies",
+     "explain": "The main policies are deterrence, defence, alliance, disarmament and arms control."
+    },
+    {
+     "step": 2,
+     "action": "Explain each policy briefly",
+     "explain": "Deterrence threatens retaliation; defence builds military strength; alliance joins with others; disarmament reduces weapons; arms control limits arms races."
+    },
+    {
+     "step": 3,
+     "action": "Assess their combined role",
+     "explain": "No single policy is sufficient; states combine them to manage the complex problem of external security."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the main traditional security policies adopted by states?",
+     "solution": "Step 1: States adopt deterrence, defence and alliance policies. Step 2: They also pursue disarmament and arms control. Step 3: Hence the main policies are deterrence, defence, alliance, disarmament and arms control.",
+     "answer": "Deterrence, defence, alliance, disarmament and arms control"
+    },
+    {
+     "question": "What is the difference between disarmament and arms control?",
+     "solution": "Step 1: Disarmament seeks to reduce or eliminate weapons entirely. Step 2: Arms control seeks to regulate and limit arms races without total elimination. Step 3: Hence disarmament aims at elimination while arms control aims at regulation.",
+     "answer": "Disarmament aims to eliminate weapons; arms control aims to regulate and limit them"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the traditional security policies of deterrence, defence and alliance.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Distinguish between disarmament and arms control.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.5.5",
+   "title": "Non-Traditional Threats: Terrorism",
+   "section": "Non-Traditional Threats: Terrorism",
+   "definition": "Terrorism is a non-traditional security threat in which political groups use violence against civilians to create fear and pressure governments, transcending national borders and requiring international cooperation to combat.",
+   "formula": "",
+   "key_idea": "Terrorism targets civilians to spread fear for political ends; it is a transnational threat that cannot be solved by any one state alone and requires cooperative security measures.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is terrorism and why is it a non-traditional threat?",
+    "How does terrorism differ from conventional warfare?",
+    "Why is terrorism difficult to combat through traditional security means?",
+    "What measures can states take to counter terrorism?",
+    "Explain the transnational nature of terrorism."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define terrorism as a non-traditional threat",
+     "explain": "Terrorism is the use of violence by non-state actors against civilians to create fear and achieve political goals."
+    },
+    {
+     "step": 2,
+     "action": "Explain why it is non-traditional",
+     "explain": "Unlike conventional war, terrorism is carried out by hidden groups, targets civilians and crosses borders, so traditional military responses are insufficient."
+    },
+    {
+     "step": 3,
+     "action": "Describe counter-terrorism measures",
+     "explain": "Countering terrorism requires intelligence sharing, police cooperation, freezing terror finances and addressing root causes like poverty and alienation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is terrorism considered a non-traditional security threat?",
+     "solution": "Step 1: Terrorism is carried out by non-state actors targeting civilians. Step 2: It crosses national borders and is not conventional warfare. Step 3: Hence it is a non-traditional threat requiring new cooperative responses.",
+     "answer": "Because it is carried out by non-state actors against civilians and crosses borders, unlike conventional state-on-state war"
+    },
+    {
+     "question": "How does terrorism differ from conventional warfare?",
+     "solution": "Step 1: Conventional war is fought between states' armies. Step 2: Terrorism is carried out by hidden groups against civilians. Step 3: Hence terrorism differs in actors, targets and methods.",
+     "answer": "Terrorism uses non-state actors and targets civilians, while conventional war is fought between state armies"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain terrorism as a non-traditional security threat and the measures to counter it.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is terrorism difficult to combat through traditional military means alone?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.5.6",
+   "title": "Non-Traditional Threats: Poverty, Health and Migration",
+   "section": "Non-Traditional Threats: Poverty, Health and Migration",
+   "definition": "Poverty, health pandemics and migration are non-traditional security threats that endanger human well-being across borders, as economic deprivation, disease outbreaks and large population movements destabilise societies and require cooperative global responses.",
+   "formula": "",
+   "key_idea": "Poverty, health and migration are non-traditional threats because they harm people rather than states directly, cross national borders and demand cooperative rather than purely military solutions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How is poverty a security threat?",
+    "Why are health pandemics considered a non-traditional security threat?",
+    "How does migration create security challenges?",
+    "What is the difference between traditional and non-traditional threats?",
+    "Why do non-traditional threats require cooperation among states?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the non-traditional threats",
+     "explain": "Poverty, health pandemics (like COVID-19) and migration are non-traditional threats that harm people and societies directly."
+    },
+    {
+     "step": 2,
+     "action": "Explain why they are security threats",
+     "explain": "Poverty causes instability and violence; pandemics kill and disrupt economies; migration creates social and political tensions in host and origin regions."
+    },
+    {
+     "step": 3,
+     "action": "Explain the need for cooperation",
+     "explain": "These threats cross borders and cannot be solved by one state, so they require global cooperation through organisations like the WHO and UN."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why are health pandemics considered a non-traditional security threat?",
+     "solution": "Step 1: Pandemics like COVID-19 cross borders rapidly. Step 2: They kill people and disrupt economies worldwide. Step 3: Hence they are non-traditional threats requiring global cooperation.",
+     "answer": "Because pandemics cross borders, harm people and economies and require global cooperation to control"
+    },
+    {
+     "question": "How does migration create security challenges?",
+     "solution": "Step 1: Large migration flows strain resources in host regions. Step 2: They create social and political tensions. Step 3: Hence migration is a non-traditional security challenge.",
+     "answer": "Migration strains resources and creates social-political tensions in both host and origin regions"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain poverty, health and migration as non-traditional security threats.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why do non-traditional threats require cooperation among states?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.5.7",
+   "title": "Cooperative Security",
+   "section": "Cooperative Security",
+   "definition": "Cooperative security is an approach in which states work together through international organisations, alliances and multilateral frameworks to address both traditional and non-traditional threats that no single state can resolve alone.",
+   "formula": "",
+   "key_idea": "Cooperative security recognises that many contemporary threats -- terrorism, pandemics, climate change -- are transnational and require collective action through international organisations rather than unilateral state action.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is cooperative security?",
+    "How does cooperative security differ from traditional security?",
+    "What role do international organisations play in cooperative security?",
+    "Give examples of cooperative security in action.",
+    "Why is cooperative security necessary in the contemporary world?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define cooperative security",
+     "explain": "Cooperative security means states working together through multilateral institutions to tackle shared threats."
+    },
+    {
+     "step": 2,
+     "action": "Explain how it differs from traditional security",
+     "explain": "Traditional security relies on unilateral military action; cooperative security relies on collective action, dialogue and shared institutions."
+    },
+    {
+     "step": 3,
+     "action": "Give examples and assess its importance",
+     "explain": "Examples include UN peacekeeping, the Global Counter-Terrorism Forum and WHO pandemic response; cooperation is vital because threats are transnational."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is cooperative security and why is it important?",
+     "solution": "Step 1: Cooperative security is collective action by states through institutions. Step 2: It addresses transnational threats no state can solve alone. Step 3: Hence it is vital for contemporary security.",
+     "answer": "Cooperative security is collective action through international institutions to address transnational threats"
+    },
+    {
+     "question": "How does cooperative security differ from traditional security?",
+     "solution": "Step 1: Traditional security relies on unilateral military action. Step 2: Cooperative security relies on collective action and dialogue. Step 3: Hence they differ in method and approach.",
+     "answer": "Traditional security is unilateral and military; cooperative security is collective and institutional"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the concept of cooperative security with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What role do international organisations play in cooperative security?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.5.8",
+   "title": "Human Security",
+   "section": "Human Security",
+   "definition": "Human security is a concept that shifts the referent of security from the state to the individual, focusing on protecting people from threats such as poverty, hunger, disease, repression and environmental degradation, as proposed in the 1994 UN Human Development Report.",
+   "formula": "",
+   "key_idea": "Human security broadens security beyond military threats to the state to include the safety and well-being of individuals from poverty, disease, repression and environmental harm.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is human security?",
+    "How does human security differ from traditional state security?",
+    "What are the components of human security?",
+    "Who introduced the concept of human security?",
+    "Why is human security important in the contemporary world?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define human security",
+     "explain": "Human security means protecting individuals from threats like poverty, disease, repression and environmental degradation, not just protecting the state."
+    },
+    {
+     "step": 2,
+     "action": "Distinguish it from state security",
+     "explain": "State security focuses on military threats to the state; human security focuses on threats to the life and dignity of individuals."
+    },
+    {
+     "step": 3,
+     "action": "List its components",
+     "explain": "The 1994 UN HDR identified freedom from fear, freedom from want and freedom from indignity as the three pillars of human security."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does human security differ from traditional state security?",
+     "solution": "Step 1: State security protects the state from military threats. Step 2: Human security protects individuals from poverty, disease and repression. Step 3: Hence human security focuses on people, not just the state.",
+     "answer": "State security protects the state from military threats; human security protects individuals from poverty, disease and repression"
+    },
+    {
+     "question": "What are the three pillars of human security according to the 1994 UN Human Development Report?",
+     "solution": "Step 1: The report identified freedom from fear. Step 2: It identified freedom from want. Step 3: It identified freedom from indignity as the three pillars.",
+     "answer": "Freedom from fear, freedom from want and freedom from indignity"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the concept of human security and its components.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does human security differ from traditional state-centric security?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.5.9",
+   "title": "India's Security Strategy",
+   "section": "India's Security Strategy",
+   "definition": "India's security strategy combines traditional military preparedness, internal security measures, economic development, democratic governance and nuclear deterrence to protect its sovereignty, territorial integrity and citizens from both external and internal threats.",
+   "formula": "",
+   "key_idea": "India's security strategy is multi-dimensional, blending military strength, nuclear deterrence, economic development, democratic institutions and international cooperation to address both traditional and non-traditional threats.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the main components of India's security strategy?",
+    "How does India deal with external security threats?",
+    "What is India's approach to internal security?",
+    "How does economic development contribute to India's security?",
+    "Explain the role of nuclear deterrence in India's security strategy."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the components of India's security strategy",
+     "explain": "India's strategy includes military strength, nuclear deterrence, internal security, economic development and democratic governance."
+    },
+    {
+     "step": 2,
+     "action": "Explain the external dimension",
+     "explain": "Externally, India maintains strong armed forces, a nuclear deterrent and strategic partnerships while pursuing peaceful relations with neighbours."
+    },
+    {
+     "step": 3,
+     "action": "Explain the internal and developmental dimension",
+     "explain": "Internally, India addresses insurgency, separatism and terrorism while promoting economic growth and democracy to reduce the root causes of insecurity."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the main components of India's security strategy?",
+     "solution": "Step 1: India maintains military strength and nuclear deterrence. Step 2: It addresses internal threats like insurgency and terrorism. Step 3: It pursues economic development and democratic governance as part of security.",
+     "answer": "Military strength, nuclear deterrence, internal security, economic development and democratic governance"
+    },
+    {
+     "question": "How does economic development contribute to India's security?",
+     "solution": "Step 1: Poverty and inequality create internal instability. Step 2: Economic development reduces these root causes. Step 3: Hence development strengthens internal security.",
+     "answer": "Economic development reduces poverty and inequality, addressing root causes of internal insecurity"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the main components of India's security strategy.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does India deal with internal security challenges?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "leps105.txt",
+   "concept": "c12ps.5.1",
+   "question_type": "short_answer",
+   "question_pattern": "What does security mean in the context of international relations?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Security refers to freedom from",
+     "explain": "Security refers to freedom from threats to core values."
+    },
+    {
+     "step": 2,
+     "action": "These values include sovereignty, territorial",
+     "explain": "These values include sovereignty, territorial integrity and citizen safety."
+    },
+    {
+     "step": 3,
+     "action": "Hence security is the protection",
+     "explain": "Hence security is the protection of the state and its people from danger."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "leps105.txt",
+   "concept": "c12ps.5.1",
+   "question_type": "short_answer",
+   "question_pattern": "Why is the concept of security considered contested?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Scholars disagree on what constitutes",
+     "explain": "Scholars disagree on what constitutes a threat."
+    },
+    {
+     "step": 2,
+     "action": "They differ on whether security",
+     "explain": "They differ on whether security means state security or human security."
+    },
+    {
+     "step": 3,
+     "action": "Hence security is a contested",
+     "explain": "Hence security is a contested concept with no single agreed definition."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

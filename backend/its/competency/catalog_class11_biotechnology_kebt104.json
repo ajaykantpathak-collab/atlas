@@ -1,0 +1,408 @@
+{
+ "class": 11,
+ "subject": "biotechnology",
+ "chapter": 4,
+ "chapter_title": "Enzymes and Bioenergetics",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kebt104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kebt104.1",
+   "title": "Enzyme Classes and Cofactor Helpers",
+   "section": "4.1",
+   "definition": "Every catalyst of the cell is a protein except the few catalytic RNAs called ribozymes; the I.U.B. files them into seven reaction classes from oxidoreductases to the newer translocases, and many need helpers - organic coenzymes built from vitamins, metal ions like zinc or magnesium, or a tightly bonded prosthetic group, the naked protein being the apoenzyme and the armed pair the holoenzyme.",
+   "formula": "-",
+   "key_idea": "Reaction type fixes the class; vitamin-derived coenzymes and metal ions complete enzymes that cannot work alone.",
+   "textbook_ref": "kebt104.txt section 4.1, Tables 4.1-4.3",
+   "question_patterns": [
+    "list the seven classes of enzymes adopted by the I.U.B. with the reaction type each catalyses",
+    "differentiate apoenzyme holoenzyme and prosthetic group with one example",
+    "which vitamin precedes NAD and which precedes FAD - state the role of each coenzyme",
+    "name the metal ion cofactors of carbonic anhydrase and of DNA polymerase",
+    "what are isozymes - how many isozyme forms do hexokinase and lactate dehydrogenase show",
+    "why are ribozymes exceptions to the statement that all enzymes are proteins"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the reaction",
+     "explain": "Electron transfer marks oxidoreductases, group transfer transferases, water-assisted cleavage hydrolases, and so on."
+    },
+    {
+     "step": 2,
+     "action": "check for helpers",
+     "explain": "Loose organic helpers are coenzymes, loose metal ions are cofactors, covalently bound helpers are prosthetic groups."
+    },
+    {
+     "step": 3,
+     "action": "name the armed enzyme",
+     "explain": "Protein alone is apoenzyme; protein plus cofactor is the active holoenzyme."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Catalytic RNA molecules are called what?",
+     "a": "ribozymes"
+    }
+   ]
+  },
+  {
+   "id": "kebt104.2",
+   "title": "Lock-Key and Induced Fit Models",
+   "section": "4.1.1",
+   "definition": "Fischer pictured the active site in 1894 as a rigid lock pre-cut for its substrate key, while Koshland argued in 1958 that the site flexes like a glove around the hand of the substrate, aligning catalytic groups only after binding; enzymes further show group, absolute, stereo and geometrical grades of specificity.",
+   "formula": "-",
+   "key_idea": "Old model: rigid complementary pocket; modern model: the site reshapes around the substrate after contact.",
+   "textbook_ref": "kebt104.txt section 4.1.1, Figs. 4.1-4.2",
+   "question_patterns": [
+    "compare the lock and key model with the induced fit model of substrate binding",
+    "who proposed the induced fit hypothesis and in which year",
+    "why is the induced fit comparison drawn with a hand and a glove",
+    "name the four kinds of enzyme specificity with one example each",
+    "why does D-amino acid oxidase attack only the D isomer - name the specificity type",
+    "what holds the substrate inside the active site - list the non-covalent forces"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "place the model in time",
+     "explain": "Fischer 1894 rigid lock; Koshland 1958 flexible induced fit."
+    },
+    {
+     "step": 2,
+     "action": "contrast the active site",
+     "explain": "Pre-shaped pocket versus pocket that refolds on binding to align residues for catalysis."
+    },
+    {
+     "step": 3,
+     "action": "grade the specificity",
+     "explain": "Group specificity tolerates close relatives, absolute takes one substrate, stereo picks one isomer, geometry picks cis or trans."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Who proposed the induced fit model in 1958: Koshland or Fischer?",
+     "a": "Koshland"
+    }
+   ]
+  },
+  {
+   "id": "kebt104.3",
+   "title": "Factors Affecting Enzyme Activity",
+   "section": "4.1.2",
+   "definition": "Reaction speed bends to the environment: heating raises activity to an optimum near body temperature then denatures the protein, each enzyme peaks at its own pH from pepsin around 1-2 to alkaline phosphatase near 10-11, and rising substrate concentration lifts the rate only until every enzyme molecule is saturated.",
+   "formula": "-",
+   "key_idea": "Bell curves for temperature and pH, and a saturation plateau for substrate, describe every catalytic optimum.",
+   "textbook_ref": "kebt104.txt section 4.1.2, Figs. 4.3-4.5",
+   "question_patterns": [
+    "what happens to enzyme activity when temperature rises beyond the optimum - sketch the curve",
+    "does pepsin prefer an acidic or an alkaline optimum pH - what becomes of it in the duodenum",
+    "why do most enzymes of the human body work best near 37 degrees celsius",
+    "name the DNA polymerase of hot springs that stays active even at 100 degrees",
+    "why does extra substrate stop raising the rate after a point - describe the saturation state",
+    "compare the optimum pH of pepsin acid phosphatase and alkaline phosphatase"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the factor",
+     "explain": "Temperature, pH, substrate concentration or a modulator - each leaves a signature curve."
+    },
+    {
+     "step": 2,
+     "action": "read the curve shape",
+     "explain": "Bells for temperature and pH peak at the optimum; substrate concentration gives a rising curve that plateaus."
+    },
+    {
+     "step": 3,
+     "action": "quote the exceptions",
+     "explain": "Taq polymerase and a few kinases survive 100 degrees; pepsin works at pH 1-2 while most enzymes prefer pH 6-8."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Pepsin peaks near what pH: 1-2 or 9-10?",
+     "a": "1-2"
+    }
+   ]
+  },
+  {
+   "id": "kebt104.4",
+   "title": "Michaelis-Menten Kinetics",
+   "section": "4.1.5",
+   "definition": "For a single-substrate reaction the initial speed follows a rectangular hyperbola: velocity equals Vmax multiplied by substrate level divided by the sum of Km and that level, so the rate is proportional to substrate when far below Km, plateaus at Vmax when far above, and hits exactly half of Vmax when the substrate level equals Km.",
+   "formula": "rate = vmax * s_conc / (km + s_conc)",
+   "key_idea": "Km is the substrate level that buys half the top speed; solve the hyperbola for any missing variable.",
+   "textbook_ref": "kebt104.txt section 4.1.5, Fig. 4.6",
+   "question_patterns": [
+    "an enzyme shows Vmax of 60 umol per minute and Km of 3 mM - find the initial velocity at 2 mM substrate",
+    "define the Michaelis constant and state its meaning on the velocity curve",
+    "at what substrate concentration does a Michaelis-Menten enzyme run at half of its Vmax",
+    "derive the substrate level needed to reach a given fraction of Vmax from the Michaelis-Menten equation",
+    "what shape does the v0 against S curve take and why does it flatten at high substrate",
+    "who proposed the enzyme kinetics equation and in which year"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the hyperbola",
+     "explain": "Substitute Vmax, Km and the substrate level into the Michaelis-Menten relation.",
+     "compute": "rate = vmax * s_conc / (km + s_conc)"
+    },
+    {
+     "step": 2,
+     "action": "take the headroom below Vmax",
+     "explain": "For a target velocity, first find how far Vmax still exceeds it.",
+     "compute": "headroom = vmax - target_rate"
+    },
+    {
+     "step": 3,
+     "action": "solve for the substrate level",
+     "explain": "Rearranging the equation gives S = Km times the target velocity divided by that headroom.",
+     "compute": "s_needed = km * target_rate / headroom"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "At substrate equal to Km, the reaction runs at what fraction of Vmax: half or double?",
+     "a": "half"
+    }
+   ]
+  },
+  {
+   "id": "kebt104.5",
+   "title": "Enzyme Units, Katal and Specific Activity",
+   "section": "4.1.3-4.1.4",
+   "definition": "One enzyme unit converts a micromole of substrate per minute, the katal converts a full mole per second and equals six times ten to the seven units, and specific activity - units carried per milligram of protein - rises as an enzyme preparation gets purer.",
+   "formula": "specific_activity = total_units / protein_mg",
+   "key_idea": "Scale between unit and katal by six times ten to the seven; divide activity by protein mass to measure purity.",
+   "textbook_ref": "kebt104.txt sections 4.1.3-4.1.4",
+   "question_patterns": [
+    "how many international units equal one katal - show the conversion",
+    "convert 2.5 micromoles per minute of activity into enzyme units and into katals",
+    "a purification fraction holds 400 units of activity in 50 mg of protein - compute its specific activity",
+    "how long will 5 units of enzyme take to convert 75 micromoles of substrate",
+    "why did the I.U.B. discourage the enzyme unit in favour of the katal",
+    "what does specific activity reveal about an enzyme preparation during purification"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "convert katals to units",
+     "explain": "One katal packs six times ten to the seven enzyme units.",
+     "compute": "iu = kat_value * 6 * 10 ** 7"
+    },
+    {
+     "step": 2,
+     "action": "divide by protein mass",
+     "explain": "Units per milligram of protein is the purity index.",
+     "compute": "specific_activity = total_units / protein_mg"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "One enzyme unit converts how much substrate per minute: a micromole or a mole?",
+     "a": "a micromole"
+    }
+   ]
+  },
+  {
+   "id": "kebt104.6",
+   "title": "Competitive and Non-Competitive Inhibition",
+   "section": "4.1.6",
+   "definition": "Inhibitors slow catalysts either permanently, as penicillin wedging transpeptidase shut, or reversibly: look-alike inhibitors fight for the active site and only raise Km, distant-site inhibitors cripple the enzyme and only lower Vmax, and uncompetitive binders attack only the enzyme-substrate pair, moving both constants.",
+   "formula": "-",
+   "key_idea": "Read the kinetic signature: Km up with Vmax untouched means competitive; Vmax down with Km untouched means non-competitive.",
+   "textbook_ref": "kebt104.txt section 4.1.6, Figs. 4.7-4.11",
+   "question_patterns": [
+    "distinguish competitive non-competitive and uncompetitive inhibition on the basis of Km and Vmax changes",
+    "why cannot non-competitive inhibition be overcome by raising the substrate concentration",
+    "how does penicillin kill bacteria - name the enzyme it inhibits irreversibly",
+    "which anti-inflammatory drug blocks cyclooxygenase and what kind of inhibition is that",
+    "why does a competitive inhibitor leave Vmax unchanged at very high substrate levels",
+    "which complex does an uncompetitive inhibitor attack and which constants does it alter"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the binding site",
+     "explain": "Same site as substrate means competitive; elsewhere on the enzyme means non-competitive; only on ES means uncompetitive."
+    },
+    {
+     "step": 2,
+     "action": "read Vmax and Km",
+     "explain": "Competitive: Km rises, Vmax unchanged. Non-competitive: Vmax falls, Km unchanged. Uncompetitive: both change."
+    },
+    {
+     "step": 3,
+     "action": "test reversibility",
+     "explain": "Tight non-dissociating binding such as penicillin on transpeptidase or aspirin on cyclooxygenase is irreversible."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Competitive inhibition raises which constant: Km or Vmax?",
+     "a": "Km"
+    }
+   ]
+  },
+  {
+   "id": "kebt104.7",
+   "title": "Laws of Thermodynamics and Free Energy",
+   "section": "4.2.1",
+   "definition": "Energy bookkeeping follows two rules: internal energy shifts only by heat in minus work out, and the universe's disorder never falls; Gibbs merged them into the free-energy balance where the change equals the enthalpy change minus temperature times the entropy change, and a negative result marks a spontaneous process.",
+   "formula": "g_change = h_change - t_kelvin * s_change",
+   "key_idea": "Enzymes only cut the activation barrier - they never move the equilibrium or rewrite the free-energy total.",
+   "textbook_ref": "kebt104.txt sections 4.1.5 and 4.2.1",
+   "question_patterns": [
+    "a reaction absorbs 40 kJ of heat while doing 15 kJ of work - find the change in internal energy",
+    "with enthalpy change of minus 40 kJ and entropy change of minus 0.1 kJ per kelvin at 298 K compute the free energy change",
+    "state the first law of thermodynamics and express it as an equation",
+    "what does the second law predict for the entropy of the universe in a spontaneous process",
+    "why do enzymes lower the activation energy but cannot alter the equilibrium of a reaction",
+    "define Gibbs free energy and explain the meaning of a negative value"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the first law",
+     "explain": "Internal energy change equals heat absorbed minus work done.",
+     "compute": "delta_e = q_heat - w_work"
+    },
+    {
+     "step": 2,
+     "action": "combine into free energy",
+     "explain": "Gibbs: free-energy change equals enthalpy change minus temperature times entropy change.",
+     "compute": "g_change = h_change - t_kelvin * s_change"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A negative free-energy change marks a what process: spontaneous or impossible?",
+     "a": "spontaneous"
+    }
+   ]
+  },
+  {
+   "id": "kebt104.8",
+   "title": "ATP the Universal Energy Currency",
+   "section": "4.2",
+   "definition": "Cells bank usable energy in adenosine triphosphate: breaking food or capturing light first charges ADP into ATP, and spending that charge - ATP to ADP plus inorganic phosphate - releases about 7.3 kcal per mole for biosynthesis, transport and muscle work, with some processes like the firefly flash stripping ATP all the way to AMP and pyrophosphate.",
+   "formula": "energy_out = atp_moles * 7.3",
+   "key_idea": "Multiply moles of ATP spent by 7.3 kcal to price any energy-demanding cell job.",
+   "textbook_ref": "kebt104.txt section 4.2, Fig. 4.13",
+   "question_patterns": [
+    "how much energy is liberated when 4 mmol of ATP are hydrolysed to ADP and inorganic phosphate",
+    "why is ATP called the universal currency of free energy",
+    "name the three phosphate-bearing forms of adenosine and how many phosphate groups each holds",
+    "which process in the firefly strips ATP to AMP and pyrophosphate",
+    "list four vital cell processes that draw on the free energy of ATP hydrolysis",
+    "differentiate exergonic from endergonic processes in the ATP cycle of the cell"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "price the hydrolysis",
+     "explain": "Each mole of ATP spent releases 7.3 kcal.",
+     "compute": "energy_out = atp_moles * 7.3"
+    },
+    {
+     "step": 2,
+     "action": "subtract other spending",
+     "explain": "What remains of the liberated energy after a named requirement is the surplus.",
+     "compute": "surplus = energy_out - used_kcal"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Hydrolysing one mole of ATP releases about how many kcal: 7.3 or 73?",
+     "a": "7.3"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "kebt104.txt section 4.1.5 (Michaelis-Menten equation, Fig. 4.6)",
+   "concept": "kebt104.4",
+   "question_type": "compute",
+   "question_pattern": "An enzyme has Vmax {vmax_val} umol per minute and Km {km_val} mM. Find the initial velocity at {s_val} mM substrate, and the substrate level needed to drive the reaction at {target_rate} umol per minute.",
+   "extracted_variables": {
+    "vmax_val": "maximum velocity in umol per minute",
+    "km_val": "Michaelis constant in mM",
+    "s_val": "substrate concentration in mM",
+    "target_rate": "desired initial velocity in umol per minute"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the hyperbola",
+     "explain": "Insert the constants into the Michaelis-Menten relation.",
+     "compute": "rate = vmax_val * s_val / (km_val + s_val)"
+    },
+    {
+     "step": 2,
+     "action": "take the headroom below Vmax",
+     "explain": "How far the maximum still exceeds the wanted velocity.",
+     "compute": "headroom = vmax_val - target_rate"
+    },
+    {
+     "step": 3,
+     "action": "invert for the substrate level",
+     "explain": "S equals Km times the wanted velocity divided by the headroom.",
+     "compute": "s_needed = km_val * target_rate / headroom"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "kebt104.txt section 4.2 (7.3 kcal per mol of ATP)",
+   "concept": "kebt104.8",
+   "question_type": "compute",
+   "question_pattern": "A muscle contraction hydrolyses {atp_moles} mmol of ATP to ADP and inorganic phosphate. Find the energy released, and the surplus left after biosynthesis consumes {used_kcal} kcal of it.",
+   "extracted_variables": {
+    "atp_moles": "millimoles of ATP hydrolysed",
+    "used_kcal": "kcal consumed by biosynthesis"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "price the hydrolysis",
+     "explain": "7.3 kcal are freed per mmol of ATP split.",
+     "compute": "energy_out = atp_moles * 7.3"
+    },
+    {
+     "step": 2,
+     "action": "deduct the spending",
+     "explain": "Surplus energy is the remainder after the biosynthetic bill.",
+     "compute": "surplus = energy_out - used_kcal"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "kebt104-ex1",
+   "source_ref": "kebt104.txt Exercises (questions 1-11)",
+   "questions": [
+    "What must an enzyme do to catalyse a reaction - pick between substrate saturation, lowering the activation energy, and changing the equilibrium constant.",
+    "Does pepsin show an acidic or alkaline optimum pH, and what happens to it on entering the duodenum?",
+    "Explain the relationship between vitamins and enzyme cofactors using two coenzyme examples.",
+    "Describe the effects of temperature, pH and substrate concentration on catalytic activity of enzymes.",
+    "Define Km and explain its significance on the Michaelis-Menten curve.",
+    "What is meant by one unit of enzyme and by the specific activity of a preparation?",
+    "Briefly state the first and the second laws of thermodynamics and combine them into the free energy equation.",
+    "Why is ATP called the universal energy currency of the cell?"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,161 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 3,
+ "chapter_title": "Health: The Ultimate Treasure",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hecu103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hecu.103.3.1",
+   "title": "Health Beyond Not Falling Sick",
+   "section": "3.1",
+   "definition": "Health means complete physical, mental and social well-being, not merely the absence of disease; newspaper headlines about diabetes, obesity, anxiety and loneliness show that health depends on lifestyle and society, not just on germs.",
+   "formula": "-",
+   "key_idea": "Being healthy needs a sound body, a calm mind and good social connections together.",
+   "textbook_ref": "hecu103.txt lines 1-103 (headlines, section 3.1)",
+   "question_patterns": [
+    "define health in your own words",
+    "why is health more than not falling sick",
+    "how do lifestyle headlines like obesity and anxiety relate to health",
+    "name the three dimensions of well-being that decide health",
+    "why can a person without disease still be called unhealthy",
+    "what social factors affect the health of a community"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "state the wide definition",
+     "explain": "Health covers body, mind and social relations together."},
+    {"step": 2, "action": "read the evidence",
+     "explain": "Headlines on diabetes, screen time and loneliness show non-germ causes."},
+    {"step": 3, "action": "apply the test",
+     "explain": "A healthy person must satisfy well-being on all three fronts."}
+   ]
+  },
+  {
+   "id": "hecu.103.3.2",
+   "title": "How We Stay Healthy",
+   "section": "3.2",
+   "definition": "Good health is maintained by balanced diet with less oil and sugar, regular physical activity or yoga, adequate sleep, limited screen time, clean habits and a healthy environment; each habit lowers the risk of modern lifestyle disorders.",
+   "formula": "-",
+   "key_idea": "Diet, exercise, sleep and hygiene act together as daily health insurance.",
+   "textbook_ref": "hecu103.txt lines 103-223 (how can we stay healthy)",
+   "question_patterns": [
+    "list the daily habits that keep a person healthy",
+    "why should oil and sugar be reduced in the diet",
+    "how does yoga help concentration and anxiety",
+    "what harms can excess screen time cause children",
+    "how does regular exercise protect against lifestyle diseases",
+    "design a healthy daily routine for a school student"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "balance the inputs",
+     "explain": "Balanced diet and hydration feed the body without excess oil and sugar."},
+    {"step": 2, "action": "keep the body active",
+     "explain": "Exercise, yoga and play build fitness and reduce anxiety."},
+    {"step": 3, "action": "protect rest and hygiene",
+     "explain": "Adequate sleep, limited screens, clean water and handwashing complete the routine."}
+   ]
+  },
+  {
+   "id": "hecu.103.3.3",
+   "title": "Knowing We Are Unwell: Symptoms and Diagnosis",
+   "section": "3.3",
+   "definition": "The body signals illness through symptoms such as fever, pain, fatigue or rash; noticing these signs early, checking vital signs and consulting health workers helps identify the disease before it worsens.",
+   "formula": "-",
+   "key_idea": "Symptoms are the body's alarm; early reading of them makes treatment easier.",
+   "textbook_ref": "hecu103.txt lines 223-240 (how do we know we are unwell)",
+   "question_patterns": [
+    "how does the body indicate that we are unwell",
+    "name three common symptoms of illness",
+    "why should symptoms not be ignored",
+    "what is the role of a doctor when symptoms appear",
+    "how do vital signs help in knowing health status",
+    "distinguish a symptom from a disease"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "notice the signals",
+     "explain": "Fever, pain, weakness or skin changes mark a departure from normal functioning."},
+    {"step": 2, "action": "check and measure",
+     "explain": "Temperature, pulse and other checks confirm that something is wrong."},
+    {"step": 3, "action": "seek help",
+     "explain": "Early consultation with health workers leads to correct diagnosis."}
+   ]
+  },
+  {
+   "id": "hecu.103.3.4",
+   "title": "Diseases: Causes and Types",
+   "section": "3.4",
+   "definition": "Diseases arise from many causes - germs, poor diet, polluted air, genetic factors or faulty lifestyle - and are grouped as communicable diseases that spread from person to person, like malaria and dengue in the monsoon, and non-communicable diseases like diabetes and heart disease that do not spread.",
+   "formula": "-",
+   "key_idea": "Communicable diseases travel through agents; non-communicable ones build up from lifestyle and body factors.",
+   "textbook_ref": "hecu103.txt lines 240-597 (causes and types of diseases)",
+   "question_patterns": [
+    "differentiate communicable and non-communicable diseases with examples",
+    "why do malaria and dengue increase in the monsoon",
+    "name the causative agents of diseases",
+    "how does air pollution act as a cause of disease",
+    "why are diabetes and heart attack common in South-east Asia",
+    "classify the given diseases into communicable and non-communicable"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "trace the cause",
+     "explain": "Germs, diet, pollution, genes or lifestyle may start a disease."},
+    {"step": 2, "action": "classify the disease",
+     "explain": "Spreading diseases need an agent and a route; lifestyle diseases stay with the individual."},
+    {"step": 3, "action": "match the season and region",
+     "explain": "Monsoon brings mosquito diseases; diet patterns shape diabetes risk."}
+   ]
+  },
+  {
+   "id": "hecu.103.3.5",
+   "title": "Prevention and Control of Diseases",
+   "section": "3.5",
+   "definition": "Diseases are fought before and after they appear: vaccination builds immunity, clean water and regular handwashing cut infection - by about half - mosquito control checks monsoon diseases, and early screening plus treatment controls the rest.",
+   "formula": "-",
+   "key_idea": "Prevention through hygiene and vaccines costs less than cure.",
+   "textbook_ref": "hecu103.txt lines 597-700 (prevent and control diseases)",
+   "question_patterns": [
+    "how does regular handwashing reduce infection",
+    "what is the role of vaccination in disease control",
+    "how can mosquito-borne diseases be prevented in the monsoon",
+    "list methods of preventing communicable diseases",
+    "why is early detection important in controlling disease",
+    "suggest a community plan to reduce lifestyle diseases"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "block the routes",
+     "explain": "Clean water, sanitation and handwashing stop germ transmission."},
+    {"step": 2, "action": "build immunity",
+     "explain": "Vaccines prepare the body against specific diseases."},
+    {"step": 3, "action": "detect and treat",
+     "explain": "Screening, timely medicine and health education complete the control programme."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "hecu103.txt sections 3.1-3.2",
+   "questions": [
+     "Define health. Is it only the absence of disease?",
+     "Which daily habits protect health and why?",
+     "How does screen time affect children's health according to the headlines?"
+   ]
+  },
+  {
+   "id": "ex3.2",
+   "source_ref": "hecu103.txt sections 3.3-3.5",
+   "questions": [
+     "Classify malaria, dengue, diabetes and heart disease as communicable or non-communicable.",
+     "How does handwashing cut infection by about half?",
+     "Suggest steps a village can take to prevent monsoon diseases."
+   ]
+  }
+ ]
+}

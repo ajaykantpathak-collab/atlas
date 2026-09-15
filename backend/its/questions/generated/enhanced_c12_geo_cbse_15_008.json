@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_15_008",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_15_008",
+   "title": "c12_geo_cbse_15_008",
+   "questions": [
+    {
+     "q": "Name the organisation responsible for providing air traffic services and aeronautical communication in Indian airspace, and state the year when air transport in India made its beginning with the first airmail operation.",
+     "a": "Correct answer: Airport Authority of India (AAI); 1911 (airmail between Prayagraj and Naini, 10 km). A wrong answer (e.g., \"DGCA\" or \"Ministry of Civil Aviation\" for the first part, or \"1947\" for the year) reveals confusion between regulatory, policy, and operational bodies, and ignorance of the historical origin of Indian aviation — a fact frequently tested in 1-mark board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the UDAN (Ude Desh ka Aam Nagrik) scheme uses a \"viability gap funding\" (VGF) model instead of direct subsidies to airlines, and how this addresses the core-periphery imbalance in Indian air connectivity.",
+     "a": "Correct answer: UDAN uses VGF where the government compensates airlines for half the seats on regional routes at a capped fare (₹2,500/hour), funded by a levy on major routes. This market-based mechanism incentivises airlines to serve unserved/underserved airports (periphery) without permanent subsidy dependence, unlike direct subsidies which distort competition. A wrong answer focusing only on \"cheap tickets\" misses the structural economic geography: metro hubs (core) cross-subsidise regional nodes (periphery) to overcome low demand density caused by terrain and income disparities.",
+     "self_check": true
+    },
+    {
+     "q": "A student is given a map of India showing 12 airports: 4 metro hubs (Delhi, Mumbai, Chennai, Kolkata), 4 tier-2 cities (Bengaluru, Hyderabad, Ahmedabad, Pune), and 4 UDAN airports (Jharsuguda, Pasighat, Tezu, Rupsi). Using the concept of \"hierarchy of air nodes\" and \"great circle routes\", explain which two UDAN airports would logically connect to which metro hubs for minimum flight distance, and why.",
+     "a": "Correct working:\nStep 1: Locate airports by region — Jharsuguda (Odisha, east), Pasighat & Tezu (Arunachal Pradesh, northeast), Rupsi (Assam, northeast).\nStep 2: Identify nearest metro hub by great circle distance — Kolkata for Jharsuguda (~350 km), Kolkata for Pasighat/Tezu (~700-800 km via Guwahati), Guwahati (though not a metro hub, it's the NE gateway) for Rupsi (~200 km).\nStep 3: Apply hierarchy principle — feeder flights connect regional airports to nearest major hub, not directly to distant metros.\nStep 4: Conclusion — Jharsuguda → Kolkata; Pasighat/Tezu/Rupsi → Guwahati (then Guwahati → Kolkata/Delhi).\nWrong answer (e.g., connecting Pasighat directly to Delhi) ignores great circle geography and the hub-and-spoke model, revealing inability to apply spatial reasoning to network design.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the geographical factors that make Pawan Hans helicopter services essential in (a) the Northeastern states and (b) offshore petroleum operations, and analyse why fixed-wing aircraft cannot substitute in these specific contexts.",
+     "a": "Correct analysis:\n(a) Northeast: rugged terrain (Eastern Himalayas, Patkai hills), short inter-valley distances, lack of runway-length land, frequent fog/low clouds — helicopters need no runway, can land on helipads, operate in low visibility.\n(b) Offshore: Mumbai High, Bassein fields — no land for runways, platforms need crew/equipment transfer, short hops (50-150 km) — helicopters hover, land on platform helidecks.\nFixed-wing substitution fails because: (i) requires 1,500+ m runway (absent in NE valleys, impossible offshore), (ii) cannot hover for platform landing, (iii) uneconomical for ultra-short sectors with low passenger loads.\nWrong answer citing only \"remote areas\" without terrain-specific or operational reasoning shows superficial understanding of modal choice in transport geography.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Airport Authority of India's monopoly over air traffic management and airport operations ensures safety but stifles innovation in regional air connectivity.\" Use evidence from UDAN, private airport development (e.g., Delhi, Mumbai, Hyderabad, Bengaluru), and the Northeast experience to support your judgement.",
+     "a": "Correct evaluation: Partially valid but incomplete. AAI's monopoly on ATC (Air Traffic Control) ensures standardised safety — critical in dense airspace over metros. However, airport operations have been privatised (PPP model) for major hubs, bringing efficiency and capacity expansion. UDAN itself is a MoCA policy implemented *through* AAI airports, not hindered by it. In the Northeast, AAI owns most airports but UDAN routes are operated by private airlines (IndiGo, SpiceJet, Alliance Air) — the bottleneck is demand density and terrain, not AAI monopoly. A nuanced answer distinguishes ATC monopoly (justified) from airport management (increasingly decentralised). Wrong answer blaming AAI for all regional gaps ignores the physical geography and market failure that UDAN explicitly targets.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical UDAN 5.0 route network for the Andaman & Nicobar Islands that connects Port Blair (Veer Savarkar Airport) to three unserved islands (Car Nicobar, Campbell Bay, Diglipur) using only helicopter operations under Pawan Hans. Specify: (i) route sequence, (ii) great circle distances, (iii) why fixed-wing is unsuitable, and (iv) one policy modification needed to make this viable.",
+     "a": "Expected answer criteria:\n(i) Route sequence: Port Blair → Diglipur (North Andaman) → Port Blair → Car Nicobar → Campbell Bay (Great Nicobar) — hub-and-spoke from Port Blair.\n(ii) Distances: Port Blair-Diglipur ~150 km; Port Blair-Car Nicobar ~250 km; Car Nicobar-Campbell Bay ~180 km.\n(iii) Fixed-wing unsuitable: islands lack runway-length flat land (only Port Blair has 3,000+ m runway), short sectors make takeoff/landing cycle dominant, coral/reef terrain prevents runway extension, monsoon crosswinds exceed light aircraft limits.\n(iv) Policy modification: Extend UDAN VGF to helicopter-only routes with higher per-seat cap (currently optimised for fixed-wing), and waive GST on aviation turbine fuel for island sectors.\nPoor answer listing only distances without terrain/policy reasoning fails the \"create\" competency — it treats geography as data retrieval, not spatial problem-solving.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

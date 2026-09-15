@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_civ_ch3_3",
+ "concepts": [
+  {
+   "id": "enh:c8_civ_ch3_3",
+   "title": "c8_civ_ch3_3",
+   "questions": [
+    {
+     "q": "What are the three organs of government, and which one is known as the third pillar?",
+     "a": "The three organs are the legislature, the executive, and the judiciary, with the judiciary being the third pillar. A wrong answer shows confusion between political branches, often mixing up law-making bodies with law-enforcing or law-interpreting ones.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it necessary to have a separate third pillar like the judiciary instead of letting the legislature that makes laws also judge disputes?",
+     "a": "A separate judiciary is necessary to ensure neutrality and prevent bias, because an institution that creates rules cannot fairly judge when its own rules or actions are challenged. A wrong answer reveals a misunderstanding of checks and balances, assuming any government official can handle legal disputes impartially.",
+     "self_check": true
+    },
+    {
+     "q": "If the Parliament passes a new traffic law, which organ of government is responsible for interpreting its meaning if a citizen and the police disagree on how it applies?",
+     "a": "The judiciary is responsible for interpreting the law. A wrong answer indicates the student thinks the executive branch (like the police or administrative officers) has the final authority to interpret laws instead of enforcing them.",
+     "self_check": true
+    },
+    {
+     "q": "How does the role of the judiciary differ fundamentally from the role of the legislature?",
+     "a": "The legislature creates and passes new laws representing the public will, whereas the judiciary interprets existing laws, settles legal conflicts, and checks whether laws align with constitutional principles. A wrong answer suggests the student views all government offices as having the exact same function of general administration.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since the executive branch enforces the laws and maintains order, it should also have the final say in settling civil and criminal disputes.\" Is this valid in a democracy?",
+     "a": "This statement is invalid because combining enforcement and judgment in one organ destroys judicial independence, leading to tyranny and the denial of fair trials. A wrong answer shows a weak grasp of why the separation of powers is vital for protecting citizen rights against government overreach.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short rule for a school mock parliament where a dispute arises between students and teachers over a school policy, explaining why an independent student-teacher committee (acting like a judiciary) must decide the case rather than the principal who made the policy.",
+     "a": "A strong answer creates an independent panel with representation from both sides, explicitly stating that the rule-maker cannot be the final judge. A poor answer simply suggests the principal should decide everything, showing a failure to grasp the concept of impartial adjudication.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

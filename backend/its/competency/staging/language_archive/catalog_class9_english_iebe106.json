@@ -1,0 +1,100 @@
+{
+ "class": 9,
+ "subject": "english",
+ "chapter": 6,
+ "chapter_title": "Twin Melodies",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iebe106.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iebe.106.6.1",
+   "title": "Summary of the Story",
+   "section": "6",
+   "definition": "Twin Melodies follows two young string-instrument musicians - Shruti and Nabin - whose practice, rivalry and friendship build towards playing together; the story shows how two different temperaments can blend into one harmony, like a duet reaching its crescendo.",
+   "formula": "-",
+   "key_idea": "Two players, two moods, one melody: harmony is earned through practice and patience.",
+   "textbook_ref": "iebe106.txt story sections (Shruti, Nabin, the music practice)",
+   "question_patterns": [
+    "summarise the story in your own words",
+    "who are Shruti and Nabin - describe their love for music",
+    "what tensions arise between the two musicians",
+    "how does the story reach its musical climax",
+    "what does the title Twin Melodies suggest",
+    "how do the two characters grow through the story"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "meet the players",
+     "explain": "Two young musicians with different styles share the stage of the story."},
+    {"step": 2, "action": "follow the friction",
+     "explain": "Differences in temperament test their partnership."},
+    {"step": 3, "action": "hear the harmony",
+     "explain": "Understanding turns two melodies into one duet."}
+   ]
+  },
+  {
+   "id": "iebe.106.6.2",
+   "title": "Language Study - Idioms and Figurative Phrases",
+   "section": "6",
+   "definition": "The chapter trains readers to separate literal from figurative language through phrases like bite the bullet, wearing a look of distress, lost in his thoughts and bring it up - idioms mean more than their words, and the musical glossary adds crescendo to the store.",
+   "formula": "-",
+   "key_idea": "Idioms refuse the dictionary: bite the bullet is courage, not teeth.",
+   "textbook_ref": "iebe106.txt idiom practice and glossary (crescendo, bite the bullet)",
+   "question_patterns": [
+    "state whether the given phrase is literal or figurative - justify",
+    "use bite the bullet in a sentence of your own",
+    "what does crescendo mean in music and in writing",
+    "find the idioms used in the story and explain them",
+    "replace the figurative phrases with plain language - compare",
+    "why do writers use idioms - discuss"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "spot the phrase",
+     "explain": "Check whether words mean exactly what they say."},
+    {"step": 2, "action": "unlock the idiom",
+     "explain": "Recall the accepted figurative meaning."},
+    {"step": 3, "action": "use it freshly",
+     "explain": "Write your own sentence to fix the idiom in memory."}
+   ]
+  },
+  {
+   "id": "iebe.106.6.3",
+   "title": "Theme - Friendship, Practice and Harmony",
+   "section": "6",
+   "definition": "The story's theme is that music - like friendship - demands listening: ego must soften, practice must continue, and two distinct voices can create a richer music than either alone, the twin melodies of the title.",
+   "formula": "-",
+   "key_idea": "Talent solo is good; talents in harmony are better - that is the story's music.",
+   "textbook_ref": "iebe106.txt thematic passages",
+   "question_patterns": [
+    "what is the theme of the story - explain",
+    "how do Shruti and Nabin learn to play together",
+    "what does the story teach about friendship and rivalry",
+    "why is practice essential for perfection - relate to the story",
+    "how can differences make a team stronger - discuss",
+    "relate the idea of harmony in music to harmony in life"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "state the theme",
+     "explain": "Cooperation turns separate talents into harmony."},
+    {"step": 2, "action": "cite the story",
+     "explain": "The duet finale embodies the lesson."},
+    {"step": 3, "action": "apply broadly",
+     "explain": "Teams, families and classrooms work the same way."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex6.1",
+   "source_ref": "iebe106.txt exercises",
+   "questions": [
+     "Describe the musical journey of the two friends.",
+     "Explain the idioms used in the story with meanings.",
+     "What message does Twin Melodies give about teamwork?"
+   ]
+  }
+ ]
+}

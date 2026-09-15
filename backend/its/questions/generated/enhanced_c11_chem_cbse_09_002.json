@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_09_002",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_09_002",
+   "title": "c11_chem_cbse_09_002",
+   "questions": [
+    {
+     "q": "Write the complete nuclear symbol (with atomic number and mass number) for each hydrogen isotope and state the number of protons, neutrons, and electrons in a neutral atom of each.",
+     "a": "Protium: ¹₁H (1p, 0n, 1e⁻); Deuterium: ²₁H or D (1p, 1n, 1e⁻); Tritium: ³₁H or T (1p, 2n, 1e⁻). A wrong answer (e.g., writing ²₁H for protium or missing the atomic number) reveals confusion between mass number and atomic number, or inability to distinguish isotopes by neutron count — a Class 9 concept (c9_chem_ch2_5) that must be solid before proceeding.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why protium, deuterium, and tritium have nearly identical chemical properties but significantly different physical properties like density and boiling point.",
+     "a": "Chemical properties depend on electron configuration (all have 1s¹), so reactivity, bonding, and valence are identical. Physical properties depend on nuclear mass: deuterium has ~2× the mass of protium, tritium ~3×, leading to higher density, higher boiling points (D₂O boils at 374.4 K vs H₂O at 373 K), and lower zero-point vibrational energy. A wrong answer citing \"different valence electrons\" or \"different proton count\" shows fundamental misunderstanding of isotope definition.",
+     "self_check": true
+    },
+    {
+     "q": "Natural hydrogen contains 99.985% protium (mass = 1.007825 u) and 0.015% deuterium (mass = 2.014102 u). Calculate the average atomic mass of hydrogen to four decimal places.",
+     "a": "Average mass = (99.985/100 × 1.007825) + (0.015/100 × 2.014102) = 1.007975 + 0.000302 = 1.0083 u. Steps: convert % to fraction, multiply each isotope mass by its fractional abundance, sum. A wrong answer like 1.0078 u (ignoring deuterium) or 1.511 u (simple average) reveals inability to apply weighted average concept — a mathematical skill from Class 10 statistics (c10_math_cbse_13_001) applied to chemistry.",
+     "self_check": true
+    },
+    {
+     "q": "The bond dissociation energy of H–H is 436 kJ/mol, while D–D is 439 kJ/mol. Explain this difference using the concept of zero-point energy and predict which isotope forms a stronger bond.",
+     "a": "Deuterium forms a stronger bond (higher BDE). Heavier nuclei vibrate with lower zero-point energy (ZPE = ½hν, ν ∝ 1/√μ). Reduced mass μ is larger for D₂, so vibrational frequency ν is lower, ZPE is lower, and the bond well is effectively deeper. A student saying \"D–D is weaker because deuterium is heavier\" confuses mass with bond strength — a classic senior-secondary misconception mixing kinetics (slower reaction) with thermodynamics (bond energy).",
+     "self_check": true
+    },
+    {
+     "q": "A reaction H₂ + Cl₂ → 2HCl proceeds at a certain rate. The same reaction with D₂ instead of H₂ is slower. Evaluate the statement: \"The equilibrium constant for D₂ + Cl₂ ⇌ 2DCl is smaller than for H₂ + Cl₂ ⇌ 2HCl because the reaction is slower.\"",
+     "a": "False. Rate (kinetics) and equilibrium constant (thermodynamics) are independent. The K for D₂ reaction is actually slightly larger because D–Cl bond is stronger than H–Cl (lower ZPE), making products more stable. The slower rate is due to higher activation energy from lower ZPE of reactants. A student conflating rate with equilibrium shows confusion between kinetics and thermodynamics — a critical Class 11 distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory method to separate a small sample of heavy water (D₂O) from ordinary water using only physical properties, and explain why it works.",
+     "a": "Fractional distillation: D₂O boils at 374.4 K vs H₂O at 373 K at 1 atm. The 1.4 K difference allows separation over multiple distillation stages. Alternatively, electrolysis: H₂O electrolyses faster than D₂O (kinetic isotope effect), enriching D₂O in the residue. A poor answer suggesting \"filtering\" or \"using a magnet\" reveals no understanding of isotopic separation principles or physical property differences.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

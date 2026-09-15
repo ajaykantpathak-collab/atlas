@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch3_9",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch3_9",
+   "title": "c9_physics_ch3_9",
+   "questions": [
+    {
+     "q": "State two methods to reduce friction in a ceiling fan's rotating shaft and explain the physical reason each method works.",
+     "a": "1. **Lubrication (oil/grease)**: Forms a thin fluid layer between shaft and bearing, replacing solid-solid contact with fluid friction which is much lower. 2. **Ball bearings**: Replace sliding friction with rolling friction by inserting steel balls; rolling friction is orders of magnitude smaller because contact is point-like and deformation is minimal. A wrong answer (e.g., \"polishing the shaft\" without lubrication) reveals the student thinks smoothness alone suffices, ignoring that metal-on-metal adhesion still causes high friction without a separating layer.",
+     "self_check": true
+    },
+    {
+     "q": "Why do car tyres have deep treads (grooves) while racing slicks (used on dry tracks) are completely smooth? Explain using the concept of friction and the role of water on wet roads.",
+     "a": "Treads increase friction on wet roads by channeling water away, preventing hydroplaning (a water layer that acts as a lubricant and drastically reduces friction). On dry tracks, maximum friction is needed for acceleration/braking/cornering; slicks provide larger actual contact area with the road, increasing adhesive friction. A wrong answer (e.g., \"treads increase friction always\") reveals the misconception that roughness always increases friction, ignoring that treads reduce contact area on dry surfaces and are specifically for wet conditions.",
+     "self_check": true
+    },
+    {
+     "q": "A 1200 kg car accelerates at 2.5 m/s² on a horizontal road. The engine applies a forward force of 4000 N. Calculate the magnitude of friction force opposing the motion. (Take g = 10 m/s² if needed)",
+     "a": "**Step 1:** Identify given: mass m = 1200 kg, acceleration a = 2.5 m/s², applied force F_applied = 4000 N (forward). Find: friction force f (opposing).\n**Step 2:** Use Newton's second law: F_net = m·a. Net force = F_applied - f (since friction opposes).\n**Step 3:** Substitute: 4000 - f = 1200 × 2.5 = 3000 N.\n**Step 4:** Solve: f = 4000 - 3000 = 1000 N.\n**Step 5:** Verify: Net force 3000 N on 1200 kg gives a = 2.5 m/s² ✓. Units: N (kg·m/s²) consistent.\n**Answer:** 1000 N opposing motion.\nA wrong answer (e.g., 3000 N or 7000 N) reveals confusion between net force and applied force, or sign errors in vector subtraction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effectiveness of these three methods for reducing friction in a heavy machine sliding on a factory floor: (A) polishing the floor, (B) placing rollers under the machine, (C) using an air cushion (hovercraft principle). Rank them from least to most effective and justify using the types of friction involved.",
+     "a": "**Rank: A (polishing) < B (rollers) < C (air cushion).**\n**Reasoning:** Polishing reduces but doesn't eliminate solid-solid contact — sliding friction remains (μ_s ~ 0.1-0.3). Rollers convert sliding to rolling friction (μ_r ~ 0.001-0.01), two orders lower. Air cushion eliminates solid contact entirely — only fluid (air) friction acts, which is negligible for low speeds. A wrong ranking (e.g., B < A) shows the student doesn't know rolling friction << sliding friction, or thinks polishing makes surfaces \"frictionless\".",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Sprinkling talcum powder on a carrom board reduces friction because the powder particles are spherical and act like tiny ball bearings.\" Evaluate this claim. Is the reasoning correct? If not, give the correct mechanism.",
+     "a": "**Claim is partially correct in outcome but wrong in mechanism.** Talcum powder does reduce friction, but NOT by acting as ball bearings. The particles are plate-like (layered silicate), not spherical. The correct mechanism: powder fills microscopic valleys on the board and striker, creating a smoother effective surface and reducing interlocking. It also forms a thin layer that shear easily (like a solid lubricant). A wrong evaluation (accepting the ball-bearing analogy) reveals the student memorizes \"powder reduces friction\" without understanding the microscopic geometry of lubricants.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate that rolling friction is less than sliding friction for the same normal force. List materials, procedure, measurements, and how you would conclude quantitatively.",
+     "a": "**Materials:** Wooden plank (ramp), book (slider), cylindrical pencil/pen (roller), spring balance, protractor.\n**Procedure:** 1. Place book on plank, attach spring balance parallel to plank. 2. Slowly tilt plank until book just starts sliding; note angle θ_s and force F_s (or use horizontal pull with spring balance at constant velocity). 3. Replace book with pencil (same mass) on its side; repeat to find angle θ_r or force F_r for rolling.\n**Measurements:** Compare θ_s vs θ_r (tan θ = μ) or F_s vs F_r.\n**Conclusion:** If θ_r < θ_s (or F_r < F_s), rolling friction is smaller.\n**Good answer criteria:** Controls mass and contact material; measures force/angle; acknowledges static vs kinetic friction. A poor answer (e.g., \"push both and see which goes farther\") lacks controlled normal force and quantitative comparison.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

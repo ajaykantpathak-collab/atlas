@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_chem_ch02_010",
+ "concepts": [
+  {
+   "id": "enh:c7_chem_ch02_010",
+   "title": "c7_chem_ch02_010",
+   "questions": [
+    {
+     "q": "What is the primary difference between weathering and erosion?",
+     "a": "Weathering is the breakdown of rocks in place, while erosion is the transport of those broken fragments away from their original location by agents like water or wind. A student who thinks weathering and erosion are identical fails to distinguish between the breakdown of materials and their physical movement.",
+     "self_check": true
+    },
+    {
+     "q": "Why is wind considered an active agent of erosion in desert regions like the Thar Desert in Rajasthan?",
+     "a": "Strong winds pick up loose sand particles and carry them across the landscape, where they collide with and wear away exposed rock surfaces through abrasion. A student who believes wind only blows air without affecting solid rock misunderstands the mechanical kinetic energy of wind-blown particles.",
+     "self_check": true
+    },
+    {
+     "q": "A fast-flowing river in the Himalayas carries thousands of tons of silt and pebbles downstream every day. Is this process primarily physical or chemical, and why?",
+     "a": "Steps: \n1. Identify the action: Silt and pebbles are being physically moved by flowing water.\n2. Check for new substance formation: The transported rock and mineral fragments retain their original chemical composition.\n3. Classify the change: Because there is physical displacement without the creation of new substances, it is a physical change.\n4. Conclude: Erosion is fundamentally a physical process of transport.\nA student who classifies river erosion as a chemical change confuses the dissolution of minerals (chemical weathering) with the mechanical transport of solid particles (erosion).",
+     "self_check": true
+    },
+    {
+     "q": "How does the removal of vegetation by deforestation accelerate soil erosion during heavy rains?",
+     "a": "Plant roots act as a natural net that binds soil particles together, and their canopy breaks the direct impact of falling raindrops. When vegetation is removed, raindrops directly strike bare soil, dislodging particles, and unchecked runoff easily washes them away. A student who thinks plants only consume water misses their crucial structural and mechanical role in protecting topsoil.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer notices that the fertile topsoil from their sloping field is washing away into a nearby stream every monsoon. Evaluate whether building stone barriers (contour bunds) across the slope will reduce erosion and explain the scientific reason.",
+     "a": "Building contour bunds reduces erosion because they slow down the velocity of flowing rainwater runoff, allowing suspended soil particles to settle down instead of being carried away. A student who claims barriers will increase erosion ignores how reducing water speed lowers its kinetic energy and transport capacity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple model using sand, a tray, and a watering can to demonstrate how the steepness of a slope affects the rate of soil erosion by running water.",
+     "a": "A good model would tilt a tray filled with soil at different angles (e.g., 15 degrees vs. 45 degrees), pour a fixed volume of water from the watering can, and measure the amount of soil washed into a catch basin. A poor design fails to control variables like water volume or tilt angle, making valid comparison impossible.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

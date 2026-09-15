@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch05_007",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch05_007",
+   "title": "c7_physics_ch05_007",
+   "questions": [
+    {
+     "q": "If you stand 1.5 meters in front of a large plane mirror in your school hallway, what is the distance between you and your image?",
+     "a": "The distance between you and your image is 3.0 meters. The image is formed 1.5 meters behind the mirror, and you are 1.5 meters in front of the mirror, so the total distance is 1.5 m + 1.5 m = 3.0 m. A wrong answer like 1.5 meters reveals that the student confused the object-to-mirror distance with the total object-to-image distance.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the image formed by a plane mirror called a \"virtual image\" instead of a \"real image\"?",
+     "a": "A plane mirror forms a virtual image because the reflected light rays do not actually meet behind the mirror; they only *appear* to diverge from a point behind it when extended backward, meaning the image cannot be caught on a screen. A wrong answer stating that images are real because \"we can clearly see them with our eyes\" reveals a failure to distinguish between light rays actually intersecting (real) versus light rays being extrapolated backward by our brain (virtual).",
+     "self_check": true
+    },
+    {
+     "q": "A textbook is placed 40 cm in front of a vertical plane mirror. If the mirror is moved 10 cm closer to the textbook, what is the new distance between the textbook and its new image?",
+     "a": "Steps: 1. Identify initial distance: object distance ($d_o$) = 40 cm. 2. Account for mirror movement: mirror moves 10 cm closer, so new object distance ($d_o'$) = 40 cm - 10 cm = 30 cm. 3. Apply mirror property: image distance behind the mirror ($d_i$) equals object distance in front of it ($d_i' = d_o' = 30\\text{ cm}$). 4. Calculate total distance between object and image: $d_o' + d_i' = 30\\text{ cm} + 30\\text{ cm} = 60\\text{ cm}$. Answer: 60 cm. A wrong answer like 80 cm reveals that the student did not recalculate the new object distance after the mirror moved.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze what happens to the word \"AMBULANCE\" when painted on the front of a vehicle, considering the properties of plane mirror reflection.",
+     "a": "The word \"AMBULANCE\" is painted laterally inverted (backwards) on the vehicle so that drivers looking into their rearview plane mirrors see the reflection flipped laterally once more, rendering the word normal and easily readable. A wrong answer suggesting it is written normally reveals a lack of understanding of lateral inversion where left and right are reversed during reflection.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If a student of height 150 cm wants to view their full-length image in a plane mirror, they need a mirror that is also 150 cm tall.\" Is this correct or incorrect, and why?",
+     "a": "This statement is incorrect. A person only needs a plane mirror that is half their height (in this case, 75 cm) placed at the correct height on the wall to view their full reflection, because of the geometry of reflection angles. A wrong answer agreeing with the statement reveals that the student confuses image size (which is equal to object size) with the minimum mirror size required for viewing.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple setup using a plane mirror, a graph paper, and a small pin to experimentally prove that the image distance equals the object distance. Describe your steps and expected observations.",
+     "a": "Expected criteria for a good answer: Place a transparent sheet or graph paper on a table, fix a vertical plane mirror on a line, place a pin at a known grid intersection in front of the mirror (e.g., 5 cm away), look from the front and place two sighting pins to trace reflected rays, remove the mirror and trace lines backward to find the image position on the grid, and verify that the image grid coordinate matches the object grid coordinate. A poor answer just says \"look in the mirror and guess the distance\" without quantitative measurement or experimental controls.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

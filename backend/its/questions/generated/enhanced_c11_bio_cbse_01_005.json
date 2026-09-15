@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_01_005",
+   "title": "c11_bio_cbse_01_005",
+   "questions": [
+    {
+     "q": "Define the term 'taxon' and give one example each of a taxon at the level of Family, Genus, and Species for a plant and an animal.",
+     "a": "A taxon (plural: taxa) is any taxonomic group of any rank that represents a real biological entity — a group of organisms classified as a unit. Examples: Plant — Family: Solanaceae, Genus: *Solanum*, Species: *Solanum tuberosum* (potato); Animal — Family: Felidae, Genus: *Panthera*, Species: *Panthera leo* (lion). A wrong answer (e.g., listing 'mammals' as a family or 'dog' as a species) reveals the student confuses common names with formal taxonomic ranks or does not understand that taxa exist at every hierarchical level.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the number of shared characteristics decreases as we move from Species to Kingdom, and illustrate with the example of *Mangifera indica* (mango) and *Triticum aestivum* (wheat).",
+     "a": "At Species level (*Mangifera indica*), individuals share nearly all morphological, genetic, and reproductive characters. At Genus (*Mangifera*), species share many vegetative and floral characters but differ in specific epithets (e.g., *M. indica* vs *M. sylvatica*). At Family (Anacardiaceae), genera like *Mangifera* and *Anacardium* share only broad floral and fruit characters. At Kingdom (Plantae), mango and wheat share only fundamental traits like cell wall of cellulose, chlorophyll, and autotrophic nutrition. A wrong answer (e.g., 'higher categories have more characters') reveals the student has memorised the hierarchy but not grasped the inverse relationship between taxonomic rank and character specificity — a core conceptual error in systematics.",
+     "self_check": true
+    },
+    {
+     "q": "A student classifies the housefly (*Musca domestica*) as: Kingdom Animalia, Phylum Arthropoda, Class Insecta, Order Diptera, Family Muscidae, Genus *Musca*, Species *domestica*. Identify which category uses a different suffix convention in plants versus animals, and explain why *Musca domestica* is written in italics with only the genus capitalised.",
+     "a": "Phylum (animals) vs Division (plants) — this is the only obligate category with different terminology. *Musca domestica* follows binomial nomenclature rules: italicised (Latin origin), genus capitalised (*Musca*), species epithet lowercase (*domestica*). A wrong answer (e.g., saying 'Class differs' or 'both words capitalised') reveals confusion between taxonomic rank terminology and nomenclatural rules, indicating the student has not distinguished classification hierarchy from naming conventions — a common Class 11 error when these topics are taught sequentially.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the taxonomic placement of lion (*Panthera leo*), leopard (*Panthera pardus*), and domestic cat (*Felis catus*). At which category do lion and leopard share the most recent common ancestor? Justify using the hierarchy principle.",
+     "a": "Lion and leopard share the most recent common ancestor at the Genus level (*Panthera*). Both belong to Genus *Panthera* (shared derived characters: ability to roar, skull morphology), while domestic cat belongs to Genus *Felis* (cannot roar, different hyoid apparatus). They share Family Felidae (retractile claws, carnassial teeth) but diverge at Genus. A wrong answer (e.g., 'Family' or 'Species') reveals the student does not apply the principle that lower taxa = more recent common ancestry = more shared characters, and instead treats all ranks as equally spaced.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: 'The taxonomic category \"Order\" is defined by a fixed set of morphological characters that are the same for all plant orders and all animal orders.' Is it correct? Explain with examples from Polymoniales (plants) and Carnivora (animals).",
+     "a": "The statement is incorrect. Orders are defined by aggregates of characters, but the specific characters differ between kingdoms. Polymoniales (plants) is based primarily on floral characters (symmetry, ovary position, placentation), while Carnivora (animals) is based on dental formula (carnassial teeth), skull morphology, and digestive adaptations. There is no universal character set for 'Order'. A wrong answer (e.g., 'yes, orders always use reproductive characters') reveals the student assumes taxonomic ranks have standardised definitions across kingdoms — a misconception from oversimplified textbook tables.",
+     "self_check": true
+    },
+    {
+     "q": "Design a dichotomous key using only taxonomic category names (Kingdom, Phylum, Class, Order, Family, Genus, Species) to distinguish between *Homo sapiens* (human), *Musca domestica* (housefly), *Mangifera indica* (mango), and *Triticum aestivum* (wheat). Show the decision pathway for each organism.",
+     "a": "A valid key:\n1. Kingdom Animalia vs Plantae → separates animals (human, housefly) from plants (mango, wheat)\n2. For Animalia: Phylum Chordata vs Arthropoda → separates human (Chordata) from housefly (Arthropoda)\n3. For Plantae: Division Angiospermae (both) → Class Dicotyledonae vs Monocotyledonae → separates mango (Dicot) from wheat (Monocot)\n4. Further ranks refine within each group. A poor answer (e.g., using 'has wings' or 'is edible') reveals the student cannot abstract the hierarchy as a decision framework and relies on phenotypic traits instead of taxonomic rank logic — indicating they memorise tables but cannot operationalise classification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

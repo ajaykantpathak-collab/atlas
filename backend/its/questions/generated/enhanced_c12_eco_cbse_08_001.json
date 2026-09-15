@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_08_001",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_08_001",
+   "title": "c12_eco_cbse_08_001",
+   "questions": [
+    {
+     "q": "Define Gross Domestic Product (GDP) in one sentence using the three key phrases: \"domestic territory\", \"final goods and services\", and \"accounting year\".",
+     "a": "GDP is the market value of all final goods and services produced within the domestic territory of a country during an accounting year. A wrong answer that omits \"domestic territory\" confuses GDP with GNP; omitting \"final\" leads to double counting; omitting \"accounting year\" misses the time dimension.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why GDP plus net factor income from abroad equals GNP, and give a concrete Indian example of a factor income flow that is added and one that is subtracted.",
+     "a": "GNP measures income earned by a country's residents regardless of location. GDP includes production by foreign-owned firms in India but excludes Indian-owned firms abroad. Adding net factor income from abroad (inflows like wages of Indian workers in UAE minus outflows like profits of foreign MNCs in India) converts domestic to national. Wrong answers often reverse the sign or treat transfer payments (remittances) as factor income.",
+     "self_check": true
+    },
+    {
+     "q": "If GDP at market price = ₹250 lakh crore, net factor income from abroad = -₹5 lakh crore, depreciation = ₹15 lakh crore, and net indirect taxes = ₹10 lakh crore, calculate National Income (NNP at factor cost) step by step.",
+     "a": "Step 1: GNP = GDP + Net factor income from abroad = 250 + (-5) = ₹245 lakh crore.\nStep 2: NNP at market price = GNP - Depreciation = 245 - 15 = ₹230 lakh crore.\nStep 3: National Income = NNP at market price - Net indirect taxes = 230 - 10 = ₹220 lakh crore.\nA common error is subtracting depreciation before adding net factor income, or confusing net indirect taxes with depreciation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two economies: Country A has GDP = ₹100, depreciation = ₹10, net factor income from abroad = +₹5. Country B has GDP = ₹100, depreciation = ₹20, net factor income from abroad = -₹5. Which country has higher National Income? Show the full derivation for both.",
+     "a": "Country A: GNP = 100+5=105; NNPmp = 105-10=95; NI = 95 - NIT (assume same NIT for comparison). Country B: GNP = 100-5=95; NNPmp = 95-20=75. Country A's National Income is higher by ₹20 (before net indirect taxes). Students often forget that both depreciation and net factor income affect National Income, not just GDP.",
+     "self_check": true
+    },
+    {
+     "q": "A news report states: \"India's GNP is larger than its GDP because of huge remittances from the Indian diaspora.\" Evaluate this statement using the correct definition of net factor income from abroad.",
+     "a": "The statement is incorrect. Remittances are unilateral transfers, not factor income. Net factor income from abroad includes wages, salaries, rent, interest, and profits — not transfers. India's net factor income from abroad is actually negative (outflows of profits, interest on foreign debt exceed inflows of wages), so India's GNP is typically smaller than GDP. Confusing transfers with factor income is a frequent board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a numerical example where GDP = ₹500 crore, but National Income is only ₹400 crore. Choose realistic values for net factor income from abroad, depreciation, and net indirect taxes that satisfy the identities. Explain each step.",
+     "a": "Let net factor income from abroad = -₹20 crore, depreciation = ₹50 crore, net indirect taxes = ₹30 crore.\nGNP = 500 - 20 = 480; NNPmp = 480 - 50 = 430; NI = 430 - 30 = 400.\nA good answer shows the chain and uses plausible magnitudes (depreciation ~10% of GDP, net indirect taxes ~6%). Poor answers omit one component or use inconsistent signs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

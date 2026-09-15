@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_04_001",
+   "title": "c11_bio_cbse_04_001",
+   "questions": [
+    {
+     "q": "Define radial symmetry and give one example each from a diploblastic phylum and a triploblastic phylum that exhibits radial symmetry in its adult stage.",
+     "a": "Radial symmetry: any plane passing through the central axis divides the organism into two identical halves. Diploblastic example: Aurelia (Phylum Cnidaria). Triploblastic example: Asterias (Phylum Echinodermata) — adults are radially symmetrical (pentamerous) though larvae are bilaterally symmetrical. A wrong answer (e.g., giving only cnidarians or stating earthworm is radial) reveals the student has not grasped that radial symmetry occurs in both diploblastic and triploblastic groups, and that echinoderms are secondarily radial — a critical distinction for board-level classification questions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the presence of a true coelom (schizocoelom or enterocoelom) is considered a more advanced evolutionary feature than a pseudocoelom, referencing the germ layer origin of the cavity lining.",
+     "a": "A true coelom is entirely lined by mesoderm (peritoneum), allowing organs to be suspended by mesenteries and move independently of the body wall, enabling complex organ systems and efficient hydrostatic skeleton function. A pseudocoelom is only partially lined by mesoderm (pouches between ectoderm and endoderm), so organs lie loose in the cavity without mesenteries, limiting organ complexity and body size. If a student says \"both are lined by mesoderm\" or \"pseudocoelom is a type of true coelom\", they confuse the developmental origin — a senior-secondary error that leads to misclassifying Aschelminthes as coelomates in Table 4.2.",
+     "self_check": true
+    },
+    {
+     "q": "A newly discovered marine worm is triploblastic, bilaterally symmetrical, and possesses a fluid-filled cavity between its body wall and gut that is lined by mesoderm only on the body-wall side (parietal peritoneum present, visceral peritoneum absent). Classify its coelom type and predict two structural consequences for its organ systems compared to a true coelomate.",
+     "a": "Step 1: Identify cavity condition — mesoderm lines only the body wall (parietal), not the gut (visceral). Step 2: Recall definition — pseudocoelom has mesoderm as scattered pouches, not a complete lining. Step 3: Classify — this matches pseudocoelomate (Phylum Aschelminthes). Step 4: Predict consequences: (i) Organs lack mesenteries, so they cannot be suspended independently; they bathe directly in pseudocoelomic fluid, limiting organ differentiation. (ii) No true peritoneal cavity means no compartmentalisation; hydrostatic skeleton functions but with less precision than in coelomates. A wrong classification (e.g., calling it coelomate) shows the student memorises \"mesoderm-lined\" without distinguishing parietal vs visceral peritoneum — a common board-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the organisational hierarchy in Porifera (cellular level), Cnidaria (tissue level), and Platyhelminthes (organ level) by tracing how cell arrangement enables progressively complex functions. Use the terms \"division of labour\", \"tissue\", and \"organ\" in your explanation.",
+     "a": "Porifera: Loose cell aggregates with minimal division of labour; choanocytes perform feeding, archaeocytes perform digestion/transport — no true tissues. Cnidaria: Cells of same function group into tissues (epidermis, gastrodermis); nerve net coordinates simple behaviours — tissue-level organisation allows extracellular digestion in gastrovascular cavity. Platyhelminthes: Tissues organise into organs (pharynx, flame cells, gonads); organ-level organisation enables specialised excretory (protonephridia) and reproductive systems. A student who lists levels without linking to functional advancement (e.g., \"Porifera has cells, Cnidaria has tissues\") misses the causal chain — division of labour → tissue → organ → organ system — that examiners expect in \"explain\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"All bilaterally symmetrical animals are triploblastic and coelomate.\" Provide a counterexample for each false claim and explain why the misconception arises from oversimplifying the classification flowchart.",
+     "a": "The statement is false on two counts. Counterexample 1: Acoelomate Platyhelminthes (e.g., Planaria) are bilaterally symmetrical and triploblastic but lack a coelom — they are acoelomates. Counterexample 2: Cnidaria (e.g., Hydra) are diploblastic and radially symmetrical, but the statement's first part (\"all bilaterally symmetrical are triploblastic\") is technically true — no diploblastic animal is bilaterally symmetrical. The misconception arises because students see bilateral symmetry, triploblasty, and coelom appearing together in \"higher\" phyla (Annelida, Arthropoda, Chordata) in Figure 4.4 and assume they are an inseparable package, overlooking the acoelomate and pseudocoelomate branches.",
+     "self_check": true
+    },
+    {
+     "q": "Design a dichotomous key using only symmetry, germ layers, and coelom type to distinguish these five phyla: Porifera, Cnidaria, Platyhelminthes, Aschelminthes, Annelida. Write the first three couplets.",
+     "a": "Couplet 1: (a) Body asymmetrical, cellular level of organisation → Porifera. (b) Body symmetrical → go to 2. Couplet 2: (a) Radial symmetry, diploblastic → Cnidaria. (b) Bilateral symmetry, triploblastic → go to 3. Couplet 3: (a) Acoelomate (no body cavity) → Platyhelminthes. (b) Body cavity present → go to 4 (pseudocoelomate vs coelomate). A good answer shows hierarchical thinking: symmetry first (broadest split), then germ layers (diploblastic vs triploblastic), then coelom (acoelomate/pseudocoelomate/coelomate). A poor answer mixes criteria randomly (e.g., starts with coelom) indicating the student hasn't internalised the logical filtering sequence used in taxonomy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

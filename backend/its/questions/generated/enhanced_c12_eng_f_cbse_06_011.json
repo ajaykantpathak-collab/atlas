@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_f_cbse_06_011",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_f_cbse_06_011",
+   "title": "c12_eng_f_cbse_06_011",
+   "questions": [
+    {
+     "q": "Identify the grammatical structure of the parenthetical remark in this sentence from the text: \"Seeing me sitting at my desk tearing up newspapers day in and day out, most people thought I was doing next to nothing. (I didn't know at that time they were called French windows.)\" Name the structure and its punctuation convention.",
+     "a": "Correct answer: It is a **parenthetical clause** (a complete independent clause inserted as an aside), set off by **round brackets/parentheses**. The clause uses past tense (\"didn't know\") and past perfect (\"were called\") to signal a retrospective realization. A wrong answer (e.g., calling it a \"subordinate clause\" or \"appositive\") reveals the student confuses *embedded clauses* (which depend on the main clause) with *parentheticals* (which are grammatically independent and signal the narrator's intrusive voice — a hallmark of this text's style).",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the author uses the past perfect tense (\"had been\") in \"a building that was believed to have been Robert Clive's stables\" instead of simple past (\"was\"). What temporal relationship does this establish?",
+     "a": "Correct answer: Past perfect (\"had been\") establishes that the building's association with Robert Clive **pre-dates** the main narrative timeline (the author's work at Gemini Studios). It creates a layer of *hearsay/history* — the belief existed before the narrator's experience. A wrong answer (e.g., \"just formal grammar\" or \"emphasizes the past\") misses the **epistemic distancing**: the author signals this is a *legend*, not a fact he witnessed, reinforcing the satirical tone about institutional myths.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following sentence in Asokamitran's style by adding: (a) a parenthetical aside with a personal realization, (b) a rhetorical question, and (c) a passive construction that implies hearsay. Original: \"The office boy mixed paint in a giant vessel and slapped it on the crowd players.\"",
+     "a": "Sample answer: \"The office boy — he wasn't exactly a 'boy'; he was in his early forties, having entered the studios years ago in the hope of becoming a star (I realise now he never told me this directly) — would mix his paint in a giant vessel and slap it on the crowd players. Was it art? Was it torture? The paint, it was said, was mixed with truck-loads of pancake.\" Steps: (1) Insert parenthetical with personal reflection; (2) Add rhetorical questions mimicking narrator's internal monologue; (3) Convert active \"mixed/slapped\" to passive \"was mixed/was said\" for ironic distance. A weak answer adds only one feature or uses them mechanically without the *conversational rhythm*.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the cohesive function of the transition phrase \"In all instances of frustration, you will always find the anger directed towards a single person openly or covertly\" in the paragraph that follows. How does it link the office boy's frustration to the introduction of Subbu? Identify the grammatical subject of \"will find\" and explain its effect.",
+     "a": "Correct answer: The phrase is a **generalizing transition** using the generic \"you\" (second-person pronoun functioning as indefinite subject) + modal \"will find\" to state a universal truth. Grammatically, \"you\" is the subject of \"will find,\" but semantically it invites the reader into the narrator's observational wisdom. It bridges the specific (office boy's frustration) to the general (human behavior) to the new specific (Subbu as target). A wrong answer focusing only on \"transition word\" misses the **grammatical agency shift**: \"you\" creates complicity, making the reader accept the narrator's diagnosis before Subbu is even named.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the passive voice in this sentence: \"The legal adviser, who was also a member of the Story Department, had unwittingly brought about that sad end.\" Why might the author choose \"had unwittingly brought about\" (active) over \"was unwittingly brought about by\" (passive) for the legal adviser's action? Consider the chapter's theme of accountability.",
+     "a": "Correct answer: Active voice (\"had unwittingly brought about\") **assigns agency** to the legal adviser despite \"unwittingly\" — he *did* the action, even if unintentionally. Passive would obscure his role, contradicting the text's satire on bureaucratic evasion of responsibility. The author uses active voice for *individual actions with consequences* (Subbu's creativity, the lawyer's recording) and passive for *institutional myths* (\"was believed to have been\"). A wrong answer claiming \"active is always clearer\" misses the **thematic patterning**: voice choice maps onto *personal accountability vs. collective delusion*.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-sentence paragraph in Asokamitran's \"rambling style\" about a mundane workplace ritual (e.g., coffee break, printer jam) using: (1) a parenthetical aside with past perfect, (2) a rhetorical question, (3) a generic \"you\" generalization, and (4) a passive construction for hearsay. Label each feature in brackets.",
+     "a": "Sample: \"The printer jammed again at 4 p.m., just as the boss walked past [parenthetical aside with past perfect: (I had forgotten to refill the tray yesterday, a fact I now regretted deeply)]. Why do machines always sense urgency? [rhetorical question] In all offices, you will find the printer blamed for human laziness [generic 'you' generalization]. The jam, it was said, was caused by a ghost in the machine [passive for hearsay].\" Criteria: All four features present, grammatically correct, mimics conversational digression. Poor answer: features forced, no thematic coherence, or missing past perfect in parenthetical.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

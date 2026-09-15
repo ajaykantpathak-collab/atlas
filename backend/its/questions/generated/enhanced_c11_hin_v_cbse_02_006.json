@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_v_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_v_cbse_02_006",
+   "title": "c11_hin_v_cbse_02_006",
+   "questions": [
+    {
+     "q": "What is the difference between a 'topic' (subject) and a 'theme' in a literary text?",
+     "a": "A topic is the surface-level subject (e.g., \"brick kilns\" or \"migrant labour\"), stated in a word or phrase. A theme is a complete sentence expressing the author's insight about that topic (e.g., \"Industrial progress in India relies on the invisible, cyclic exploitation of landless labourers\"). A wrong answer (e.g., \"The theme is brick-making\") reveals the student conflates subject with thematic statement, a fundamental category error that prevents deeper analysis.",
+     "self_check": true
+    },
+    {
+     "q": "The chapter describes the kiln owner as \"not a cruel man\" yet the workers suffer immensely. Explain how this characterization supports the primary theme rather than contradicting it.",
+     "a": "The owner's lack of personal malice highlights *structural* exploitation: the system (seasonal debt, piece-rate wages, state indifference) forces even \"non-cruel\" employers to perpetuate cruelty. The theme is not about individual villainy but systemic complicity. A wrong answer (e.g., \"The owner is actually kind, so there is no exploitation\") shows the student reads character morality in isolation, missing the sociological critique central to the chapter.",
+     "self_check": true
+    },
+    {
+     "q": "Using the PEEL structure, write a short paragraph proving that the *seasonal cycle of the kiln* (not just the working conditions) is a key driver of the primary theme.",
+     "a": "**Point:** The kiln’s seasonal rhythm entraps workers in a cycle of debt and physical ruin. **Evidence:** The text details how advance payments (*pesgi*) bind families for months, how monsoon halts work but not interest, and how the kiln reopens only when labourers are desperate. **Explanation:** This cycle transforms temporary poverty into hereditary bondage; the \"advance\" is not a loan but a leash. **Link:** Thus, the calendar itself becomes an instrument of exploitation, reinforcing the theme of systemic, inescapable oppression. A weak answer lists hardships without connecting them to the *cyclical structure* as a causal mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the depiction of the state (*jktLFkku*) in the title and the final paragraphs. How does the irony in the title \"जक्तLFककु ध जत्र चव¡नस\" deepen the primary theme?",
+     "a": "The title promises state power/protection; the text shows the state only as the distant consumer of bricks (roads, buildings) while its laws (minimum wage, safety) are absent at the kiln. The irony — state power *is* the irony — elevates the theme from \"labour exploitation\" to \"state-sanctioned exploitation.\" A wrong answer treats the title as merely descriptive (\"the chapter is about state kilns\") missing the satirical gap between constitutional mandate and ground reality that the author constructs.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the view that the chapter’s message is simply \"we should help the poor.\" Defend a more precise formulation of the author’s message using textual evidence.",
+     "a": "The text shows charity (e.g., the owner’s occasional *pesgi* or festival bonus) fails to break the cycle; only systemic change (enforced wages, land reform, kiln regulation) can. The message is: *Development that ignores the producer’s humanity is structurally violent and politically illegitimate.* A \"help the poor\" reading individualises a structural problem, echoing the very paternalism the chapter critiques (e.g., the owner’s \"kindness\" as a trap).",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-line poem or a 50-word micro-story from the perspective of a brick that *embodies* the primary theme of the chapter.",
+     "a": "*Clay remembers the hand that pressed it,*\n*Fire forgets the breath that fed it.*\n*Wall stands tall on buried sighs —*\n*Progress counts bricks, not lives.*\nA poor answer writes a generic sad poem about bricks without linking each line to a specific textual mechanism (advance debt, seasonal cycle, state absence) showing the theme wasn't internalised.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_16_005",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_16_005",
+   "title": "c11_ps_cbse_16_005",
+   "questions": [
+    {
+     "q": "Which political scientist described the Indian Constitution as \"quasi-federal — a unitary state with subsidiary federal features rather than a federal state with subsidiary unitary features\"?",
+     "a": "**K.C. Wheare** (in *Federal Government*, 1946). A wrong answer (e.g., \"Granville Austin\" or \"B.R. Ambedkar\") reveals the student confuses the *quasi-federal* label (structural-legal analysis emphasising centralising provisions) with *cooperative federalism* (functional-political analysis emphasising intergovernmental collaboration). Wheare focused on the constitutional text; Austin studied actual practice.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the existence of **Article 356 (President's Rule)** is the single strongest evidence for the \"quasi-federal\" characterisation, and why its **misuse before 1994 (S.R. Bommai case)** does not by itself disprove the quasi-federal thesis.",
+     "a": "Article 356 allows the Union to dismiss an elected State government and assume direct control — a power **no classical federation (USA, Canada, Australia) grants its central government**. This structural feature makes the Union *constitutionally* dominant, satisfying Wheare's \"unitary state with subsidiary federal features.\" Misuse frequency is a *political* variable; the *constitutional* power remains, so the quasi-federal label describes the **design**, not just the practice. A student who says \"Bommai judgment fixed it, so India is now fully federal\" misunderstands that judicial restraints limit *exercise*, not the *existence* of the power.",
+     "self_check": true
+    },
+    {
+     "q": "A State government wants to legislate on a subject in the **State List** (e.g., public health). The Union Parliament passes a law on the same subject using **Article 249 (Rajya Sabha resolution, 2/3 majority, national interest)**. The State challenges this in the Supreme Court. Apply the quasi-federal vs cooperative federalism frameworks to predict *how each lens would analyse* this situation.",
+     "a": "**Quasi-federal lens:** Sees Article 249 as a **centralising override** — the Union can invade State List without State consent, proving the Centre's constitutional supremacy. The Court will likely uphold Parliament's law (as in *State of Rajasthan v. Union of India*, 1977).  \n**Cooperative federalism lens:** Sees Article 249 as a **negotiated mechanism** — Rajya Sabha (where States are represented) must approve by 2/3 majority, ensuring States collectively consent to temporary Union legislation for national goals (e.g., pandemic response). The Court's role is to verify procedural compliance, not strike down the law.  \nA student who only cites \"Supreme Court decides\" misses that the *framework* shapes what arguments are considered legitimate.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the **Finance Commission (Article 280)** and the **GST Council (Article 279A)** as institutions of cooperative federalism. Which better embodies the principle of \"shared rule\" and why?",
+     "a": "**Finance Commission:** Union-appointed, recommends vertical/horizontal tax devolution — **asymmetric** (Centre decides terms of reference, States only receive). Embodies *fiscal federalism* but not *shared rule*.  \n**GST Council:** **Joint decision-making body** — Union Finance Minister (Chair), State Finance Ministers (members); decisions by 3/4 weighted majority (Centre 1/3, States 2/3). **Requires consensus** for major rates. Embodies *shared rule*: neither level can unilaterally set GST rates.  \n**Verdict:** GST Council better embodies cooperative federalism because it institutionalises **routine, binding joint decisions**, whereas Finance Commission is a *periodic advisory* mechanism. A student equating both as \"cooperative\" misses the distinction between *consultation* and *co-decision*.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the claim: **\"The Goods and Services Tax (GST) regime has transformed India from a quasi-federal to a cooperative federal system.\"** Use at least two constitutional provisions and one political economy argument.",
+     "a": "**No — GST deepens cooperation but does not alter the quasi-federal *constitutional architecture*.**  \n1. **Constitutional:** Article 356 (President's Rule), Article 256 (Union directions to States), Article 249 (Parliament legislating on State List), and **residuary powers (Art. 248 + Entry 97, Union List)** remain untouched. The Centre retains **emergency and legislative supremacy**.  \n2. **Institutional:** GST Council (Art. 279A) is a **statutory body under the Constitution** — Parliament can amend its voting rules (e.g., Centre's veto via 1/3 weight).  \n3. **Political economy:** States surrendered **tax autonomy** (VAT, entry tax, octroi) for **revenue certainty** (compensation guarantee, 2017-22). This was a **fiscal bargain**, not a federal restructuring.  \nA student claiming \"GST made India cooperative federal\" confuses *policy cooperation* with *constitutional rebalancing*.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a **one-paragraph constitutional amendment proposal** (max 100 words) that would shift India measurably toward **classical federalism** (reducing quasi-federal features) while retaining **cooperative mechanisms**. Justify each change in one sentence.",
+     "a": "**Proposal:** \"Amend Article 356 to require **judicial review before proclamation** (not after), delete Article 249 (Rajya Sabha resolution for State List legislation), transfer residuary powers to States via new Article 248A, and make GST Council decisions **binding on Union** without Parliamentary override.\"  \n**Justification:** Pre-proclamation judicial review prevents partisan dismissal (addresses S.R. Bommai gap); deleting Art. 249 restores State List exclusivity; State residuary powers align with US/Canada models; binding GST Council ensures fiscal co-decision cannot be unilaterally reversed.  \nA good answer targets **specific centralising articles** and preserves **cooperative bodies** (Finance Commission, Inter-State Council). A poor answer suggests vague \"more powers to States\" without naming articles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

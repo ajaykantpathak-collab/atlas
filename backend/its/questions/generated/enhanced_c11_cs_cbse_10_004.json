@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_10_004",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_10_004",
+   "title": "c11_cs_cbse_10_004",
+   "questions": [
+    {
+     "q": "What is the time complexity of `list.append()` and `list.pop()` when used to implement push and pop operations on a stack where the top is at the end of the list?",
+     "a": "Both `list.append()` and `list.pop()` (without an index) run in O(1) amortized time because they operate on the end of the dynamic array. A wrong answer (e.g., O(n)) reveals the student thinks Python lists are linked lists or that every insertion shifts elements, confusing end-operations with beginning-operations.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why we should not use `list.insert(0, item)` for push and `list.pop(0)` for pop when implementing a stack with a Python list.",
+     "a": "Using index 0 as the top forces every push to shift all existing elements right (O(n)) and every pop to shift all remaining elements left (O(n)), violating the expected O(1) performance of stack operations. A student who says \"it works but is slower\" understands the concept but misses the critical point that stack ADT requires constant-time operations; using the wrong end fundamentally breaks the efficiency contract.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python function `push(stack, item)` and `pop(stack)` that implement stack operations on a list `stack` where the top is at the end. Include a check in `pop` to raise an `IndexError` with a custom message if the stack is empty.",
+     "a": "```python\ndef push(stack, item):\n    stack.append(item)\n\ndef pop(stack):\n    if not stack:\n        raise IndexError(\"pop from empty stack\")\n    return stack.pop()\n```\nA wrong answer that omits the empty check or uses `stack.pop(0)` shows the student cannot translate the LIFO requirement into correct list method calls and error handling.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following sequence of operations on an initially empty stack `s` implemented as a list with top at the end:\n`push(s, 10); push(s, 20); push(s, 30); pop(s); push(s, 40); pop(s); pop(s); pop(s); pop(s)`\nTrace the stack state after each operation and identify which operation causes an error.",
+     "a": "1. push 10 → [10]\n2. push 20 → [10, 20]\n3. push 30 → [10, 20, 30]\n4. pop → returns 30, stack = [10, 20]\n5. push 40 → [10, 20, 40]\n6. pop → returns 40, stack = [10, 20]\n7. pop → returns 20, stack = [10]\n8. pop → returns 10, stack = []\n9. pop → **IndexError: pop from empty stack** (underflow)\nA student who misses the final error or shows wrong order (e.g., pop returns 10 first) has not internalized LIFO or the list-end-as-top mapping.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this Stack class implementation. Identify two design flaws:\n```python\nclass Stack:\n    def __init__(self):\n        self.items = []\n    def push(self, item):\n        self.items.insert(0, item)\n    def pop(self):\n        return self.items.pop(0)\n    def peek(self):\n        return self.items[0]\n    def is_empty(self):\n        return len(self.items) == 0\n```",
+     "a": "Flaw 1: Uses `insert(0, item)` and `pop(0)` making push/pop O(n) instead of O(1). Flaw 2: `peek` accesses index 0, which is the bottom if top is at end, but here top is at index 0, so peek is correct for this flawed orientation. However, the class exposes `self.items` directly, allowing external code to break LIFO by calling `self.items.append()` or `self.items.sort()`. A good answer must mention both performance violation and encapsulation breach. Missing either shows incomplete analysis of ADT requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Design a `Stack` class that supports a `get_min()` method returning the minimum element in O(1) time, using only a single auxiliary list (no extra data structures). Provide the push, pop, and get_min logic.",
+     "a": "Maintain a parallel `min_stack` list. On push(x): `self.items.append(x)`; if `not self.min_stack or x <= self.min_stack[-1]: self.min_stack.append(x)`. On pop(): `val = self.items.pop()`; if `val == self.min_stack[-1]: self.min_stack.pop()`. `get_min()` returns `self.min_stack[-1]` if not empty else raises error. This tests synthesis of stack properties with auxiliary tracking. A poor answer uses `min(self.items)` (O(n)) or fails to handle duplicate minimums correctly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

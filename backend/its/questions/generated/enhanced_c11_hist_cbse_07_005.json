@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_07_005",
+   "title": "c11_hist_cbse_07_005",
+   "questions": [
+    {
+     "q": "What was the key technical innovation that distinguished Gutenberg's press from earlier Chinese/Korean movable type, and in what year was the Gutenberg Bible completed?",
+     "a": "Gutenberg's key innovation was the *combination* of movable *metal* type (cast from a durable lead-antimony-tin alloy), oil-based ink (adhering to metal), and the adapted wine/olive screw press — creating a reproducible, industrial system. The Gutenberg Bible (42-line Bible) was completed c. 1455. A wrong answer (e.g., \"wooden type\" or \"1440\") reveals confusion between the invention date and the Bible's completion, or ignorance of the metallurgical breakthrough that made European printing scalable.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the printing press spread so rapidly across Europe (over 250 cities by 1500) despite high initial capital costs?",
+     "a": "The press spread because it tapped existing *commercial networks*: merchant-capitalists funded presses as profitable ventures (a single press could produce 3,600 pages/day vs. a scribe's 40), university towns provided guaranteed demand for textbooks, and the Church initially welcomed cheaper Bibles and indulgences. A wrong answer focusing only on \"demand for books\" misses the *profit-driven printer-publisher model* (e.g., Aldus Manutius's portable octavos) that made printing a self-sustaining industry, unlike state-sponsored Korean printing.",
+     "self_check": true
+    },
+    {
+     "q": "A historian argues: \"The Printing Revolution caused the Protestant Reformation.\" Using evidence from 1517–1525, evaluate this claim by distinguishing *necessary* and *sufficient* conditions.",
+     "a": "Printing was a *necessary but not sufficient* condition. Necessary: Luther's 95 Theses (1517) spread across Germany in 2 weeks via printed pamphlets; his German New Testament (1522) sold 5,000 copies in months — impossible without press. Not sufficient: pre-Reformation dissent (Hus, Wycliffe) lacked print and was crushed; Erasmus criticized the Church but stayed Catholic. The Reformation required *theological rupture* (justification by faith) + *political protection* (Elector Frederick) + print. A wrong answer equating correlation with causation misses the multi-causal nature.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of print on *scientific knowledge* (e.g., Vesalius's *De humani corporis fabrica*, 1543) versus *religious knowledge* (Luther's Bible) in the 16th century. How did the *same technology* produce different epistemic outcomes?",
+     "a": "For science, print enabled *cumulative correction*: Vesalius's anatomical diagrams could be exactly replicated, critiqued, and improved across generations (e.g., Fallopius correcting Vesalius). For religion, print enabled *fragmentation*: identical texts allowed laypeople to interpret scripture *without clerical mediation*, splintering Christendom. The difference: science used print for *standardized visual data* (woodcut diagrams) to build consensus; religion used print for *vernacular text* to empower individual conscience. A wrong answer treating both as \"spread of ideas\" misses the *epistemic function* of images vs. text.",
+     "self_check": true
+    },
+    {
+     "q": "Assess the argument that the Printing Revolution created the first \"European public sphere\" by 1600. What evidence supports or challenges this?",
+     "a": "Supported: printed pamphlets, newsbooks (e.g., *Relation aller Fürnemmen und gedenckwürdigen Historien*, 1605), and Latin *Republic of Letters* correspondence created transnational debate among educated elites. Challenged: literacy remained <10% in most regions; censorship (Index Librorum Prohibitorum, 1559) and state licensing (Stationers' Company, 1557) restricted access; the \"public\" was male, urban, propertied. A nuanced answer: a *proto-public sphere* emerged for *learned men*, not the masses. A wrong answer claiming \"democratization of knowledge\" ignores the *social filters* of cost, language, and censorship.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 6-step causal chain linking Gutenberg's press (1450) to Galileo's *Dialogue Concerning the Two Chief World Systems* (1632), identifying the specific print-mediated mechanisms at each step.",
+     "a": "1. Gutenberg press → standardized Latin texts (Aristotle, Ptolemy) in universities (1470s). 2. Humanist printers (Aldus) → affordable Greek classics → recovery of Archimedes/Aristarchus (1490s). 3. Printed commentaries (Copernicus's *De revolutionibus*, 1543) → mathematical astronomy accessible beyond courts. 4. Tycho Brahe's printed observations (1598) → shared data for Kepler's laws (1609). 5. Kepler's *Epitome Astronomiae* (1618) → Newton's *Principia* foundation. 6. Galileo's *Dialogue* (1632) in *Italian vernacular* (not Latin) → public debate via print → trial. A poor chain misses the *vernacular shift* (step 6) or the *data-sharing* (step 4).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

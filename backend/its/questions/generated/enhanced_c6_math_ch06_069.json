@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch06_069",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch06_069",
+   "title": "c6_math_ch06_069",
+   "questions": [
+    {
+     "q": "If a recipe for 2 people uses 3 spoons of salt, what is the ratio of people to salt?",
+     "a": "The ratio is 2:3. A student might incorrectly write 3:2, which shows they are confusing the order of the quantities being compared.",
+     "self_check": true
+    },
+    {
+     "q": "If you have a map with a scale of 1:500, what does that \"1\" represent compared to the \"500\"?",
+     "a": "The \"1\" represents a unit on the map (like 1 cm), while the \"500\" represents 500 of that same unit on the ground. A student answering \"1 cm is 500 meters\" shows they have not yet understood that the units must be the same before conversion.",
+     "self_check": true
+    },
+    {
+     "q": "A juice mix is made with 2 parts orange to 5 parts water. If you use 6 cups of orange juice, how many cups of water do you need?",
+     "a": "You need 15 cups of water. Step 1: Identify ratio 2:5. Step 2: Notice 6 is 3 times 2. Step 3: Multiply 5 by 3 to get 15. A student answering 9 might have added 3 to the 5 instead of multiplying, missing the multiplicative nature of ratios.",
+     "self_check": true
+    },
+    {
+     "q": "Are the ratios 3:4 and 9:12 equivalent? Why or why not?",
+     "a": "Yes, they are equivalent. If you multiply both terms of 3:4 by 3, you get 9:12. A student saying \"no\" might be looking at the numbers as individual values rather than as a relationship that can be scaled.",
+     "self_check": true
+    },
+    {
+     "q": "If a building design has a length-to-width ratio of 4:2, is a building of 8m by 6m proportional to this design?",
+     "a": "No. The design ratio simplifies to 2:1, but 8:6 simplifies to 4:3. A student saying \"yes\" is likely just looking for \"bigger numbers\" without checking if the multiplier is the same for both dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life scenario where a ratio of 1:10 is used and explain why.",
+     "a": "A good answer would be a drink concentrate (1 part syrup to 10 parts water) or a scale drawing (1 cm on paper to 10 cm in real life). A poor answer would just provide two numbers without a context or a clear \"part-to-part\" relationship.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_06_003",
+   "title": "c11_eco_cbse_06_003",
+   "questions": [
+    {
+     "q": "Define \"sectoral distribution of workforce\" and state the formula for calculating the percentage share of the tertiary sector in total workforce.",
+     "a": "Sectoral distribution of workforce is the percentage breakdown of total employed persons across primary, secondary, and tertiary sectors. Tertiary sector share = (Workers in tertiary sector ÷ Total workforce) × 100. A wrong answer (e.g., using GDP shares instead of workforce numbers) reveals confusion between *output* contribution and *employment* contribution—a critical distinction because a sector can produce high output with few workers (high productivity) or employ many workers for low output (low productivity).",
+     "self_check": true
+    },
+    {
+     "q": "Using Table 6.2 (2023–24), the primary sector employs 46.1% of the workforce but contributes only about 18% to GDP. Explain why this gap exists and what it implies for per-worker productivity in agriculture versus services.",
+     "a": "The gap exists because agriculture uses more labor per unit of output (labor-intensive, low capital, disguised unemployment), while services use less labor per unit of output (higher skill/technology). This implies per-worker productivity (GDP per worker) in primary sector is far lower than in tertiary. A student who says \"primary sector is unproductive\" misses the nuance: it is *low productivity per worker*, not zero productivity, and the gap signals surplus labor that could be redeployed.",
+     "self_check": true
+    },
+    {
+     "q": "In 2023–24, India's total workforce was 545 million (from text). If the secondary sector share is 24.1%, calculate the absolute number of secondary sector workers. Then, using the 1972–73 secondary share of 10.9% and a 1972–73 workforce of 195 million (from Exercise 11), calculate the absolute increase in secondary workers over 50 years.",
+     "a": "Step 1: 2023–24 secondary workers = 545 million × 24.1% = 131.345 million.\nStep 2: 1972–73 secondary workers = 195 million × 10.9% = 21.255 million.\nStep 3: Absolute increase = 131.345 – 21.255 = 110.09 million.\nA wrong answer (e.g., using GDP shares or misreading the workforce total) shows inability to handle large-number arithmetic and percentage application—skills essential for board exam data-interpretation questions.",
+     "self_check": true
+    },
+    {
+     "q": "Table 6.3 shows the secondary sector share stagnated at ~24% between 2011–12 and 2023–24, while the tertiary sector rose from 26.8% to 29.8%. Analyze why the secondary sector failed to absorb more workers despite \"Make in India\" and other industrial policies, and contrast this with the experience of East Asian economies.",
+     "a": "Stagnation reflects: (i) capital-intensive manufacturing growth (automation, skill-biased tech), (ii) labor law rigidities discouraging formal hiring, (iii) infrastructure/logistics bottlenecks raising costs, (iv) competition from cheaper imports. East Asia (e.g., Vietnam, Bangladesh) pursued labor-intensive export-oriented manufacturing, creating massive formal factory jobs. A student blaming only \"lack of investment\" misses the structural factors—technology choice, trade policy, and labor regulation—that jointly determine employment elasticity of manufacturing.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's rising tertiary sector workforce share (15% in 1972–73 to 30% in 2023–24) is a sign of successful structural transformation.\" Use evidence on job quality (self-employment, casualization) from Charts 6.1 and 6.2.",
+     "a": "The statement is only partially true. While the *share* rose, Chart 6.1 shows 54% of male and 67% of female workers are self-employed (mostly own-account, low-income), and Chart 6.2 shows urban casual wage labor is 12% (male) and 13% (female). Much tertiary growth is in low-productivity services (retail, transport, domestic work), not high-value IT/finance. A student agreeing fully ignores the *quality* dimension—structural transformation requires not just sectoral shift but movement into *regular, protected, productive* jobs.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a hypothetical scenario for a district where the primary sector workforce share falls from 60% to 40% over a decade, but the secondary sector share remains unchanged at 20%. Describe where the displaced primary workers likely go, what happens to their earnings and job security, and propose one policy to improve the outcome.",
+     "a": "Displaced workers likely swell the tertiary sector as informal self-employed (street vendors, gig workers) or casual labor (construction, loading), often with lower and volatile earnings, no social security. This is \"premature deindustrialization\" pushing workers into precarious services. Policy: Invest in labor-intensive manufacturing clusters (textiles, toys, food processing) with plug-and-play infrastructure, simplified labor compliance for new firms, and skill vouchers for displaced farm workers. A vague answer (\"create jobs\") fails to address the *sectoral* and *contractual* nature of the problem.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,867 @@
+{
+ "class": 9,
+ "subject": "science",
+ "chapter": 112,
+ "chapter_title": "Patterns in Life: Diversity and Classification",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iesc112.txt",
+ "concepts": [
+  {
+   "id": "iesc.112.1",
+   "title": "Biodiversity and Endemic Species",
+   "section": "12.1",
+   "definition": "The rich range of life forms existing across various habitats on Earth, along with species that are naturally confined to specific geographic zones.",
+   "formula": "None",
+   "key_idea": "Biological richness is defined by species variety and localized endemic populations.",
+   "textbook_ref": "iesc112.txt lines 229-231",
+   "question_patterns": [
+    "What is biodiversity and why is it important?",
+    "Define endemic species with examples from India.",
+    "How do endemic species relate to biodiversity hotspots?",
+    "Identify the characteristics of biodiversity hotspots.",
+    "what do you understand by biodiversity and endemic species"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain biodiversity",
+     "explain": "Biodiversity is the collective variety of all living organisms across ecosystems."
+    },
+    {
+     "step": 2,
+     "action": "Define endemic species",
+     "explain": "Endemic species are those restricted to a specific geographic region and not found naturally anywhere else."
+    },
+    {
+     "step": 3,
+     "action": "Identify hotspots",
+     "explain": "Biodiversity hotspots are regions with high levels of endemic species that have experienced significant habitat loss."
+    }
+   ]
+  },
+  {
+   "id": "iesc.112.2",
+   "title": "Criteria for Biological Classification",
+   "section": "12.3.1",
+   "definition": "The set of structural, cellular, metabolic, and genetic traits used to systematically group and differentiate living organisms.",
+   "formula": "None",
+   "key_idea": "Organisms are indeed grouped using hierarchical features ranging from cellular structure to genetic makeup.",
+   "textbook_ref": "iesc112.txt lines 231-232",
+   "question_patterns": [
+    "What criteria do scientists use to classify living organisms?",
+    "Why is cellular structure a fundamental basis of classification?",
+    "How do mode of nutrition and cell wall presence help in grouping organisms?",
+    "List the key characteristics used in modern biological classification.",
+    "state two key points about criteria for biological classification"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify cell type",
+     "explain": "Determine whether the organism is prokaryotic (lacking a true nucleus) or eukaryotic (having a membrane-bound nucleus)."
+    },
+    {
+     "step": 2,
+     "action": "Determine body organization",
+     "explain": "Check if the organism is unicellular or multicellular."
+    },
+    {
+     "step": 3,
+     "action": "Analyze nutrition and cell wall",
+     "explain": "Evaluate whether the organism is autotrophic or heterotrophic, and if a cell wall is present."
+    }
+   ]
+  },
+  {
+   "id": "iesc.112.3",
+   "title": "Five Kingdom Classification System",
+   "section": "12.5",
+   "definition": "All life sorted into five kingdoms - Monera, Protista, Fungi, then Plantae and Animalia - mainly on cell structure, body organisation and how each obtains food.",
+   "formula": "None",
+   "key_idea": "Organizes all life based on prokaryotic/eukaryotic cell types, unicellularity/multicellularity, and trophic modes.",
+   "textbook_ref": "iesc112.txt lines 233-235",
+   "question_patterns": [
+    "Explain the five kingdom classification system.",
+    "Who proposed the five kingdom system and in which year?",
+    "What are the five kingdoms of life?",
+    "Compare the main criteria of Whittaker's classification.",
+    "state two key points about five kingdom classification system"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the five kingdoms",
+     "explain": "The five kingdoms are Monera, Protista, Fungi, Plantae, and Animalia."
+    },
+    {
+     "step": 2,
+     "action": "Differentiate prokaryotes",
+     "explain": "Monera contains all prokaryotic organisms, while the other four kingdoms contain eukaryotes."
+    },
+    {
+     "step": 3,
+     "action": "Differentiate eukaryotes",
+     "explain": "Protista contains unicellular eukaryotes, while Fungi, Plantae, and Animalia contain multicellular eukaryotes."
+    }
+   ]
+  },
+  {
+   "id": "iesc.112.4",
+   "title": "Kingdom Monera",
+   "section": "12.6.1",
+   "definition": "A taxonomic kingdom comprising single-celled prokaryotic organisms that lack a defined nuclear membrane.",
+   "formula": "None",
+   "key_idea": "Simplest unicellular life forms lacking membrane-bound organelles, such as bacteria.",
+   "textbook_ref": "iesc112.txt lines 235-236",
+   "question_patterns": [
+    "What are the characteristic features of Kingdom Monera?",
+    "Identify the kingdom to which bacteria and cyanobacteria belong.",
+    "How do prokaryotic cells differ from eukaryotic cells in classification?",
+    "Describe the ecological and economic importance of Monerans.",
+    "state two key points about kingdom monera"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify cellularity",
+     "explain": "Monerans are strictly single-celled organisms."
+    },
+    {
+     "step": 2,
+     "action": "Verify nuclear structure",
+     "explain": "They lack a membrane-bound nucleus and organelles (prokaryotic)."
+    },
+    {
+     "step": 3,
+     "action": "Identify representative members",
+     "explain": "Common examples include bacteria and blue-green algae (cyanobacteria)."
+    }
+   ]
+  },
+  {
+   "id": "iesc.112.5",
+   "title": "Kingdom Protista",
+   "section": "12.6.2",
+   "definition": "A kingdom of eukaryotic organisms that are predominantly unicellular and typically inhabit aquatic or damp environments.",
+   "formula": "None",
+   "key_idea": "Unicellular eukaryotes that serve as an evolutionary link between simple prokaryotes and complex multicellular kingdoms.",
+   "textbook_ref": "iesc112.txt lines 235-236",
+   "question_patterns": [
+    "What are the defining features of Kingdom Protista?",
+    "Classify unicellular eukaryotes like Amoeba and Paramecium.",
+    "Why is Protista considered a diverse and transitional kingdom?",
+    "Identify the kingdom of a single-celled organism with a well-defined nucleus.",
+    "justify why kingdom protista matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Verify eukaryotic nature",
+     "explain": "Protists possess a well-defined, membrane-bound nucleus."
+    },
+    {
+     "step": 2,
+     "action": "Verify cell number",
+     "explain": "They are primarily unicellular organisms."
+    },
+    {
+     "step": 3,
+     "action": "Identify locomotion and examples",
+     "explain": "They often use cilia, flagella, or pseudopodia for movement; examples include Amoeba, Euglena, and Paramecium."
+    }
+   ]
+  },
+  {
+   "id": "iesc.112.6",
+   "title": "Kingdom Fungi",
+   "section": "12.6.3",
+   "definition": "A kingdom of eukaryotic, heterotrophic organisms with cell walls containing chitin, which obtain nutrients via absorption from organic matter.",
+   "formula": "None",
+   "key_idea": "Non-photosynthetic decomposers with chitinous cell walls that recycle nutrients in ecosystems.",
+   "textbook_ref": "iesc112.txt lines 236-237",
+   "question_patterns": [
+    "What are the characteristics of Kingdom Fungi?",
+    "Why are fungi classified separately from plants?",
+    "Define saprophytes and explain their role in Fungi.",
+    "Identify the cell wall composition of fungi.",
+    "justify why kingdom fungi matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check nutrition mode",
+     "explain": "Fungi are heterotrophic, specifically saprophytic, absorbing nutrients from decaying organic matter."
+    },
+    {
+     "step": 2,
+     "action": "Check cell wall composition",
+     "explain": "Their cell walls are composed of chitin rather than cellulose."
+    },
+    {
+     "step": 3,
+     "action": "Identify body structure",
+     "explain": "They are mostly multicellular (forming mycelium), with yeast being a unicellular exception."
+    }
+   ]
+  },
+  {
+   "id": "iesc.112.7",
+   "title": "Classification of Kingdom Plantae",
+   "section": "12.6.4",
+   "definition": "The multicellular, autotrophic eukaryotic kingdom characterized by cellulose-based cell walls, divided into five classes using structural complexity.",
+   "formula": "None",
+   "key_idea": "Evolutionary progression from simple aquatic algae to highly adapted terrestrial flowering plants.",
+   "textbook_ref": "iesc112.txt lines 237-240",
+   "question_patterns": [
+    "Classify the major groups of Kingdom Plantae.",
+    "Differentiate between Bryophyta and Pteridophyta.",
+    "What are the key features of Gymnosperms and Angiosperms?",
+    "Why are bryophytes called the amphibians of the plant kingdom?",
+    "how does classification of kingdom plantae work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check body differentiation",
+     "explain": "Thallophyta has an undifferentiated body (thallus), while other groups have differentiated structures."
+    },
+    {
+     "step": 2,
+     "action": "Check vascular tissue and water dependence",
+     "explain": "Bryophytes lack vascular tissues and need water for fertilization. Pteridophytes have vascular tissues but are seedless."
+    },
+    {
+     "step": 3,
+     "action": "Check seed and fruit formation",
+     "explain": "Gymnosperms produce naked seeds on cones, whereas Angiosperms produce seeds enclosed within fruits."
+    }
+   ]
+  },
+  {
+   "id": "iesc.112.8",
+   "title": "Classification of Kingdom Animalia",
+   "section": "12.6.5",
+   "definition": "The kingdom of multicellular, heterotrophic eukaryotes lacking cell walls, classified primarily by the presence of a notochord and body symmetry.",
+   "formula": "None",
+   "key_idea": "Diverse multicellular consumers grouped into non-both chordates and chordates using skeletal support structures.",
+   "textbook_ref": "iesc112.txt lines 240-244",
+   "question_patterns": [
+    "How is Kingdom Animalia classified based on the notochord?",
+    "Differentiate between invertebrates and vertebrates.",
+    "What are the key phyla of non-chordates?",
+    "Identify the diagnostic features of Arthropoda and Mollusca.",
+    "what do you understand by classification of kingdom animalia"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check for notochord",
+     "explain": "Animals without a notochord are non-chordates (invertebrates); those with a notochord at some stage are chordates."
+    },
+    {
+     "step": 2,
+     "action": "Classify non-chordates",
+     "explain": "Group into phyla like Porifera (pores), Cnidaria (tentacles), Platyhelminthes (flat), Nematoda (round), Annelida (segmented), Arthropoda (jointed legs), Mollusca (soft body), and Echinodermata (spiny skin)."
+    },
+    {
+     "step": 3,
+     "action": "Classify vertebrates",
+     "explain": "Vertebrates possess a backbone and are divided into fish, amphibians, reptiles, birds, and mammals."
+    }
+   ]
+  },
+  {
+   "id": "iesc.112.9",
+   "title": "Taxonomic Hierarchy",
+   "section": "12.7.1",
+   "definition": "The ordered arrangement of taxonomic categories in a descending sequence from the most inclusive kingdom to the most specific species.",
+   "formula": "None",
+   "key_idea": "Lower taxonomic levels contain fewer species but share a higher degree of common characteristics.",
+   "textbook_ref": "iesc112.txt lines 244-245",
+   "question_patterns": [
+    "What is the taxonomic hierarchy of classification?",
+    "Arrange the taxonomic categories from Kingdom to Species.",
+    "Compare the number of shared features in a Class versus a Genus.",
+    "Explain the hierarchical nature of biological classification.",
+    "how does taxonomic hierarchy work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the taxonomic ranks",
+     "explain": "The order from highest to lowest is Kingdom, Phylum (or Division), Class, Order, Family, Genus, and Species."
+    },
+    {
+     "step": 2,
+     "action": "Analyze organism count",
+     "explain": "Higher categories contain a larger number of diverse organisms."
+    },
+    {
+     "step": 3,
+     "action": "Analyze shared characteristics",
+     "explain": "As you move down to Genus and Species, the organisms share more specific, common characteristics."
+    }
+   ]
+  },
+  {
+   "id": "iesc.112.10",
+   "title": "Binomial Nomenclature",
+   "section": "12.8",
+   "definition": "A standardized naming convention that assigns each living organism a two-part Latinized name representing its both genus and species.",
+   "formula": "None",
+   "key_idea": "Universal scientific naming system established to eliminate regional linguistic confusion.",
+   "textbook_ref": "iesc112.txt lines 245-246",
+   "question_patterns": [
+    "What is binomial nomenclature and who introduced it?",
+    "State the rules for writing scientific names.",
+    "Identify the correct scientific name format for Tiger or Mango.",
+    "Why do we use scientific names instead of common names?",
+    "justify why binomial nomenclature matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the two parts",
+     "explain": "The first word is the Genus (capitalized) and the second word is the Species (lowercase)."
+    },
+    {
+     "step": 2,
+     "action": "Apply formatting rules",
+     "explain": "The name must be printed in italics or underlined separately when handwritten."
+    },
+    {
+     "step": 3,
+     "action": "Verify Latinization",
+     "explain": "The names are derived from Latin or Latinized to maintain a globally uniform standard."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iesc112.txt lines 245-246",
+   "concept": "iesc.112.10",
+   "question_type": "verify_property",
+   "question_pattern": "Identify the correct scientific name format for the tiger: Panthera Tigris, panthera tigris, Panthera tigris, or Panthera tigris (underlined).",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Check genus capitalization",
+     "explain": "The first word represents the genus and must start with a capital letter (Panthera)."
+    },
+    {
+     "step": 2,
+     "action": "Check species capitalization",
+     "explain": "The second word represents the species and must be entirely in lowercase (tigris)."
+    },
+    {
+     "step": 3,
+     "action": "Check formatting",
+     "explain": "The scientific name must be italicized when printed or underlined when handwritten. Therefore, 'Panthera tigris' in italics is correct."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iesc112.txt lines 244-245",
+   "concept": "iesc.112.9",
+   "question_type": "verify_property",
+   "question_pattern": "In the classification hierarchy, which group—class or genus—has fewer members but more features in common?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Locate categories in the hierarchy",
+     "explain": "In the taxonomic hierarchy, Class is a higher category and Genus is a lower category."
+    },
+    {
+     "step": 2,
+     "action": "Apply hierarchical rules",
+     "explain": "As we move down the hierarchy from Kingdom to Species, the number of organisms in each category decreases, while the similarity among them increases."
+    },
+    {
+     "step": 3,
+     "action": "Determine the correct category",
+     "explain": "Since Genus is lower in the hierarchy than Class, it has fewer members but more features in common."
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.112.1",
+   "question_type": "verify_property",
+   "question_pattern": "What is biodiversity and why is it important?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Explain biodiversity",
+     "explain": "Biodiversity is the collective variety of all living organisms across ecosystems."
+    },
+    {
+     "step": 2,
+     "action": "Define endemic species",
+     "explain": "Endemic species are those restricted to a specific geographic region and not found naturally anywhere else."
+    },
+    {
+     "step": 3,
+     "action": "Identify hotspots",
+     "explain": "Biodiversity hotspots are regions with high levels of endemic species that have experienced significant habitat loss."
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.112.1",
+   "question_type": "verify_property",
+   "question_pattern": "Define endemic species with examples from India.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Explain biodiversity",
+     "explain": "Biodiversity is the collective variety of all living organisms across ecosystems."
+    },
+    {
+     "step": 2,
+     "action": "Define endemic species",
+     "explain": "Endemic species are those restricted to a specific geographic region and not found naturally anywhere else."
+    },
+    {
+     "step": 3,
+     "action": "Identify hotspots",
+     "explain": "Biodiversity hotspots are regions with high levels of endemic species that have experienced significant habitat loss."
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.112.2",
+   "question_type": "verify_property",
+   "question_pattern": "What criteria do scientists use to classify living organisms?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify cell type",
+     "explain": "Determine whether the organism is prokaryotic (lacking a true nucleus) or eukaryotic (having a membrane-bound nucleus)."
+    },
+    {
+     "step": 2,
+     "action": "Determine body organization",
+     "explain": "Check if the organism is unicellular or multicellular."
+    },
+    {
+     "step": 3,
+     "action": "Analyze nutrition and cell wall",
+     "explain": "Evaluate whether the organism is autotrophic or heterotrophic, and if a cell wall is present."
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.112.2",
+   "question_type": "verify_property",
+   "question_pattern": "Why is cellular structure a fundamental basis of classification?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify cell type",
+     "explain": "Determine whether the organism is prokaryotic (lacking a true nucleus) or eukaryotic (having a membrane-bound nucleus)."
+    },
+    {
+     "step": 2,
+     "action": "Determine body organization",
+     "explain": "Check if the organism is unicellular or multicellular."
+    },
+    {
+     "step": 3,
+     "action": "Analyze nutrition and cell wall",
+     "explain": "Evaluate whether the organism is autotrophic or heterotrophic, and if a cell wall is present."
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.112.3",
+   "question_type": "verify_property",
+   "question_pattern": "Explain the five kingdom classification system.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "State the five kingdoms",
+     "explain": "The five kingdoms are Monera, Protista, Fungi, Plantae, and Animalia."
+    },
+    {
+     "step": 2,
+     "action": "Differentiate prokaryotes",
+     "explain": "Monera contains all prokaryotic organisms, while the other four kingdoms contain eukaryotes."
+    },
+    {
+     "step": 3,
+     "action": "Differentiate eukaryotes",
+     "explain": "Protista contains unicellular eukaryotes, while Fungi, Plantae, and Animalia contain multicellular eukaryotes."
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.112.3",
+   "question_type": "verify_property",
+   "question_pattern": "Who proposed the five kingdom system and in which year?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "State the five kingdoms",
+     "explain": "The five kingdoms are Monera, Protista, Fungi, Plantae, and Animalia."
+    },
+    {
+     "step": 2,
+     "action": "Differentiate prokaryotes",
+     "explain": "Monera contains all prokaryotic organisms, while the other four kingdoms contain eukaryotes."
+    },
+    {
+     "step": 3,
+     "action": "Differentiate eukaryotes",
+     "explain": "Protista contains unicellular eukaryotes, while Fungi, Plantae, and Animalia contain multicellular eukaryotes."
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.112.4",
+   "question_type": "verify_property",
+   "question_pattern": "What are the characteristic features of Kingdom Monera?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify cellularity",
+     "explain": "Monerans are strictly single-celled organisms."
+    },
+    {
+     "step": 2,
+     "action": "Verify nuclear structure",
+     "explain": "They lack a membrane-bound nucleus and organelles (prokaryotic)."
+    },
+    {
+     "step": 3,
+     "action": "Identify representative members",
+     "explain": "Common examples include bacteria and blue-green algae (cyanobacteria)."
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.112.4",
+   "question_type": "verify_property",
+   "question_pattern": "Identify the kingdom to which bacteria and cyanobacteria belong.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify cellularity",
+     "explain": "Monerans are strictly single-celled organisms."
+    },
+    {
+     "step": 2,
+     "action": "Verify nuclear structure",
+     "explain": "They lack a membrane-bound nucleus and organelles (prokaryotic)."
+    },
+    {
+     "step": 3,
+     "action": "Identify representative members",
+     "explain": "Common examples include bacteria and blue-green algae (cyanobacteria)."
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.112.5",
+   "question_type": "verify_property",
+   "question_pattern": "What are the defining features of Kingdom Protista?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Verify eukaryotic nature",
+     "explain": "Protists possess a well-defined, membrane-bound nucleus."
+    },
+    {
+     "step": 2,
+     "action": "Verify cell number",
+     "explain": "They are primarily unicellular organisms."
+    },
+    {
+     "step": 3,
+     "action": "Identify locomotion and examples",
+     "explain": "They often use cilia, flagella, or pseudopodia for movement; examples include Amoeba, Euglena, and Paramecium."
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.112.5",
+   "question_type": "verify_property",
+   "question_pattern": "Classify unicellular eukaryotes like Amoeba and Paramecium.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Verify eukaryotic nature",
+     "explain": "Protists possess a well-defined, membrane-bound nucleus."
+    },
+    {
+     "step": 2,
+     "action": "Verify cell number",
+     "explain": "They are primarily unicellular organisms."
+    },
+    {
+     "step": 3,
+     "action": "Identify locomotion and examples",
+     "explain": "They often use cilia, flagella, or pseudopodia for movement; examples include Amoeba, Euglena, and Paramecium."
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.112.6",
+   "question_type": "verify_property",
+   "question_pattern": "What are the characteristics of Kingdom Fungi?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Check nutrition mode",
+     "explain": "Fungi are heterotrophic, specifically saprophytic, absorbing nutrients from decaying organic matter."
+    },
+    {
+     "step": 2,
+     "action": "Check cell wall composition",
+     "explain": "Their cell walls are composed of chitin rather than cellulose."
+    },
+    {
+     "step": 3,
+     "action": "Identify body structure",
+     "explain": "They are mostly multicellular (forming mycelium), with yeast being a unicellular exception."
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.112.6",
+   "question_type": "verify_property",
+   "question_pattern": "Why are fungi classified separately from plants?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Check nutrition mode",
+     "explain": "Fungi are heterotrophic, specifically saprophytic, absorbing nutrients from decaying organic matter."
+    },
+    {
+     "step": 2,
+     "action": "Check cell wall composition",
+     "explain": "Their cell walls are composed of chitin rather than cellulose."
+    },
+    {
+     "step": 3,
+     "action": "Identify body structure",
+     "explain": "They are mostly multicellular (forming mycelium), with yeast being a unicellular exception."
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.112.7",
+   "question_type": "verify_property",
+   "question_pattern": "Classify the major groups of Kingdom Plantae.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Check body differentiation",
+     "explain": "Thallophyta has an undifferentiated body (thallus), while other groups have differentiated structures."
+    },
+    {
+     "step": 2,
+     "action": "Check vascular tissue and water dependence",
+     "explain": "Bryophytes lack vascular tissues and need water for fertilization. Pteridophytes have vascular tissues but are seedless."
+    },
+    {
+     "step": 3,
+     "action": "Check seed and fruit formation",
+     "explain": "Gymnosperms produce naked seeds on cones, whereas Angiosperms produce seeds enclosed within fruits."
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.112.7",
+   "question_type": "verify_property",
+   "question_pattern": "Differentiate between Bryophyta and Pteridophyta.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Check body differentiation",
+     "explain": "Thallophyta has an undifferentiated body (thallus), while other groups have differentiated structures."
+    },
+    {
+     "step": 2,
+     "action": "Check vascular tissue and water dependence",
+     "explain": "Bryophytes lack vascular tissues and need water for fertilization. Pteridophytes have vascular tissues but are seedless."
+    },
+    {
+     "step": 3,
+     "action": "Check seed and fruit formation",
+     "explain": "Gymnosperms produce naked seeds on cones, whereas Angiosperms produce seeds enclosed within fruits."
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.112.8",
+   "question_type": "verify_property",
+   "question_pattern": "How is Kingdom Animalia classified based on the notochord?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Check for notochord",
+     "explain": "Animals without a notochord are non-chordates (invertebrates); those with a notochord at some stage are chordates."
+    },
+    {
+     "step": 2,
+     "action": "Classify non-chordates",
+     "explain": "Group into phyla like Porifera (pores), Cnidaria (tentacles), Platyhelminthes (flat), Nematoda (round), Annelida (segmented), Arthropoda (jointed legs), Mollusca (soft body), and Echinodermata (spiny skin)."
+    },
+    {
+     "step": 3,
+     "action": "Classify vertebrates",
+     "explain": "Vertebrates possess a backbone and are divided into fish, amphibians, reptiles, birds, and mammals."
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.112.8",
+   "question_type": "verify_property",
+   "question_pattern": "Differentiate between invertebrates and vertebrates.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Check for notochord",
+     "explain": "Animals without a notochord are non-chordates (invertebrates); those with a notochord at some stage are chordates."
+    },
+    {
+     "step": 2,
+     "action": "Classify non-chordates",
+     "explain": "Group into phyla like Porifera (pores), Cnidaria (tentacles), Platyhelminthes (flat), Nematoda (round), Annelida (segmented), Arthropoda (jointed legs), Mollusca (soft body), and Echinodermata (spiny skin)."
+    },
+    {
+     "step": 3,
+     "action": "Classify vertebrates",
+     "explain": "Vertebrates possess a backbone and are divided into fish, amphibians, reptiles, birds, and mammals."
+    }
+   ]
+  },
+  {
+   "id": "ex19",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.112.9",
+   "question_type": "verify_property",
+   "question_pattern": "Compare the number of shared features in a Class versus a Genus.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "List the taxonomic ranks",
+     "explain": "The order from highest to lowest is Kingdom, Phylum (or Division), Class, Order, Family, Genus, and Species."
+    },
+    {
+     "step": 2,
+     "action": "Analyze organism count",
+     "explain": "Higher categories contain a larger number of diverse organisms."
+    },
+    {
+     "step": 3,
+     "action": "Analyze shared characteristics",
+     "explain": "As you move down to Genus and Species, the organisms share more specific, common characteristics."
+    }
+   ]
+  },
+  {
+   "id": "ex20",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.112.10",
+   "question_type": "verify_property",
+   "question_pattern": "Identify the correct scientific name format for Tiger or Mango.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the two parts",
+     "explain": "The first word is the Genus (capitalized) and the second word is the Species (lowercase)."
+    },
+    {
+     "step": 2,
+     "action": "Apply formatting rules",
+     "explain": "The name must be printed in italics or underlined separately when handwritten."
+    },
+    {
+     "step": 3,
+     "action": "Verify Latinization",
+     "explain": "The names are derived from Latin or Latinized to maintain a globally uniform standard."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex12.1",
+   "source_ref": "iesc112.txt lines 249-251",
+   "questions": [
+    "Meena and Hari observed an animal in their garden. Hari called it an insect while Meena said it was an earthworm. Choose the correct option which confirms that it is an insect: (i) Bilateral symmetrical body, (ii) Body with jointed legs, (iii) Cylindrical body, (iv) Body with little segmentation.",
+    "Sponges represent one of the simplest animal body plans. Their bodies lack true tissues and organs. Which feature of sponge cells supports its classification under the animal kingdom?",
+    "How would a scientist justify choosing cellular organisation as more fundamental than the presence of vascular tissues for the basis of classification?",
+    "Both pteridophytes and bryophytes lack flowers and seeds, yet they are placed in different groups. Explain this classification using their key features.",
+    "In the classification hierarchy, which group—class or genus—has fewer members but more features in common? Explain your answer.",
+    "A scientist discovers a new organism with the characteristic features of locomotion and autotrophic nutrition. Which character(s) would help the scientist identify the organism belonging to Protista according to the five kingdom classification?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch6_10",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch6_10",
+   "title": "c9_physics_ch6_10",
+   "questions": [
+    {
+     "q": "State the balanced chemical equation for aerobic respiration and identify which side represents oxygen consumption. Give the molar ratio of O₂ consumed to CO₂ produced.",
+     "a": "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy. Oxygen (6O₂) is on the reactant side, indicating consumption. Molar ratio O₂:CO₂ = 6:6 = 1:1. A wrong answer (e.g., O₂ on product side, or ratio 1:6) reveals confusion between photosynthesis and respiration, or inability to balance redox equations — a fundamental gap for quantifying oxygen fluxes.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why atmospheric oxygen concentration remains stable at ~21% despite continuous consumption by respiration and combustion worldwide. Your answer must name the balancing process and its global scale.",
+     "a": "Photosynthesis by terrestrial plants and marine phytoplankton produces O₂ at a rate nearly equal to global consumption by respiration, decomposition, and combustion (~300 Tmol O₂/yr each direction). The balance is maintained because photosynthesis (6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂) is the reverse of respiration. A wrong answer citing \"oxygen from air\" or \"trees store oxygen\" reveals the misconception that oxygen is a static reservoir rather than a dynamic steady-state system.",
+     "self_check": true
+    },
+    {
+     "q": "The atmosphere contains 1.2 × 10¹⁸ kg of O₂. Global photosynthetic O₂ production is ~3.0 × 10¹⁴ kg/yr. Calculate the residence time of atmospheric oxygen in years. Show unit cancellation.",
+     "a": "Residence time = Reservoir size / Flux rate = (1.2 × 10¹⁸ kg) / (3.0 × 10¹⁴ kg/yr) = 4.0 × 10³ yr = 4000 years. Unit analysis: kg ÷ (kg/yr) = yr. A wrong answer of 400 years (missing a zero) or 4 × 10⁷ years (using CO₂ flux instead) reveals inability to track orders of magnitude or confusion between oxygen and carbon cycle fluxes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the oxygen flux from marine photosynthesis vs. terrestrial photosynthesis. Given: oceans cover 71% of Earth's surface but marine net primary productivity (NPP) is ~50 Pg C/yr vs. terrestrial ~56 Pg C/yr. Which contributes more to atmospheric O₂? Justify using the photosynthetic quotient (O₂ produced per C fixed).",
+     "a": "Terrestrial photosynthesis contributes slightly more O₂. Photosynthetic quotient ≈ 1.1–1.4 mol O₂/mol C fixed (average ~1.2). Marine: 50 Pg C/yr × 1.2 = 60 Pg O₂/yr. Terrestrial: 56 Pg C/yr × 1.2 = 67 Pg O₂/yr. Despite smaller area, terrestrial ecosystems have higher productivity per unit area. A wrong answer choosing \"marine because oceans are larger\" ignores productivity density — a classic scale misconception.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If all photosynthesis stopped today, we would run out of oxygen in a few years because humans consume so much.\" Evaluate this claim using the residence time calculated in Q3 and global human O₂ consumption (~7 Gt/yr from fossil fuel combustion + respiration).",
+     "a": "The claim is false. Atmospheric O₂ reservoir = 1.2 × 10¹⁸ kg. Human consumption ≈ 7 × 10¹² kg/yr. Time to deplete = 1.2 × 10¹⁸ / 7 × 10¹² ≈ 1.7 × 10⁵ years (170,000 years), not \"a few years.\" The 4000-year residence time reflects natural cycling (photosynthesis ↔ respiration), not net depletion. A wrong answer agreeing with the student reveals confusion between gross flux (cycling) and net flux (depletion), and inability to distinguish reservoir size from annual consumption.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using germinating seeds, a respirometer, and KOH to demonstrate oxygen consumption during respiration. Specify: (a) control setup, (b) measured variable, (c) how KOH functions, (d) expected observation, and (e) the stoichiometric link to CO₂ production.",
+     "a": "(a) Control: same setup with dead/boiled seeds. (b) Measured variable: volume decrease (water rise in capillary) due to O₂ consumption. (c) KOH absorbs CO₂ produced (2KOH + CO₂ → K₂CO₃ + H₂O), so volume change reflects only O₂ uptake. (d) Water rises in experimental tube; no change in control. (e) Stoichiometry: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O. Since 6 mol CO₂ produced per 6 mol O₂ consumed, KOH absorption prevents pressure increase from CO₂, isolating O₂ consumption signal. A poor answer omitting KOH's role or using \"oxygen sensor\" instead of volume change shows lack of experimental design understanding for gas stoichiometry.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

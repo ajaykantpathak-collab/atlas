@@ -1,0 +1,214 @@
+{
+ "catalog": "catalog_class12_economics_ch7",
+ "concepts": [
+  {
+   "id": "c12eco.7.1",
+   "title": "Human Capital Formation in India",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Human Capital Formation in India' refers to.",
+     "a": "Human capital formation refers to the process of adding to the stock of human skills, knowledge, and health over time through education, training, and medical care, which raises the productive capacity of a nation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Human Capital Formation in India'.",
+     "a": "Investment in people through education and health converts raw labour into a productive asset that drives long-run economic growth.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Human Capital Formation in India'.",
+     "a": "what is human capital formation and why is it important for India",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12eco.7.2",
+   "title": "Rural Development",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Rural Development' refers to.",
+     "a": "Rural development is a comprehensive process of improving the quality of life and economic well-being of people living in rural areas through credit, marketing, diversification, and infrastructure support.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Rural Development'.",
+     "a": "Rural development goes beyond farming to include credit facilities, marketing systems, diversification toward non-farm activities, and basic infrastructure.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Rural Development'.",
+     "a": "what is meant by rural development in the Indian context",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12eco.7.3",
+   "title": "Formal and Informal Employment",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Formal and Informal Employment' refers to.",
+     "a": "Formal employment provides job security, social security, and regulated working conditions, while informal employment lacks these protections and operates outside the regulatory framework.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Formal and Informal Employment'.",
+     "a": "India's workforce is overwhelmingly informal; formal sector jobs are a small minority concentrated in organised public and private enterprises.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Formal and Informal Employment'.",
+     "a": "distinguish between formal and informal employment in India",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12eco.7.4",
+   "title": "Growth of Employment and Workforce Participation",
+   "questions": [
+    {
+     "q": "Using the method 'Growth of Employment and Workforce Participation', work with: employed = 5, total_population = 125000, unemployed = 15. Carry the chain through step by step and give the final value of workforce_participation_rate.",
+     "a": "0.016 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Growth of Employment and Workforce Participation' and work with: employed = 360, total_population = 2500, unemployed = 100. Carry the chain through step by step and give the final value of workforce_participation_rate.",
+     "a": "18.4 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Growth of Employment and Workforce Participation' refers to.",
+     "a": "Employment growth measures the rate at which new jobs are created over time, while workforce participation rate is the share of the population that is economically active.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Growth of Employment and Workforce Participation'.",
+     "a": "Employment growth in India has lagged behind GDP growth, producing jobless growth, and female workforce participation remains low.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Growth of Employment and Workforce Participation', in plain ASCII form.",
+     "a": "workforce_participation_rate = (labour_force / total_population) * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12eco.7.5",
+   "title": "Sustainable Development",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Sustainable Development' refers to.",
+     "a": "Sustainable development is development that meets the needs of the present generation without compromising the ability of future generations to meet their own needs.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sustainable Development'.",
+     "a": "Sustainable development balances economic growth with environmental protection and intergenerational equity in resource use.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Sustainable Development'.",
+     "a": "what is sustainable development and why is it needed",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12eco.7.6",
+   "title": "Environment and Development",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Environment and Development' refers to.",
+     "a": "Environment and development examines the two-way relationship between economic progress and the natural environment, where growth can degrade nature and environmental degradation can in turn limit future growth.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Environment and Development'.",
+     "a": "Economic development often imposes costs on the environment through resource depletion and pollution, which must be internalised for sustainable growth.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Environment and Development'.",
+     "a": "how does economic development affect the environment",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12eco.7.7",
+   "title": "Poverty in India",
+   "questions": [
+    {
+     "q": "Using the method 'Poverty in India', work with: all_persons = 48000, poor_persons = 12000. Carry the chain through step by step and give the final value of poverty_ratio.",
+     "a": "25 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Poverty in India' and work with: all_persons = 2500, poor_persons = 125000. Carry the chain through step by step and give the final value of poverty_ratio.",
+     "a": "5000 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Poverty in India' refers to.",
+     "a": "Poverty is a state in which a person or household lacks the income required to meet a minimum standard of living, measured in India by a poverty line based on calorie intake and consumption expenditure.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Poverty in India'.",
+     "a": "Poverty in India is measured by a consumption expenditure poverty line; despite a decline over decades, a large absolute number of people remain poor.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Poverty in India', in plain ASCII form.",
+     "a": "poverty_ratio = (number_below_poverty_line / total_population) * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12eco.7.8",
+   "title": "Food Security in India",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Food Security in India' refers to.",
+     "a": "Food security means ensuring availability, accessibility, and affordability of food to all people at all times so that no one goes hungry or suffers from malnutrition.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Food Security in India'.",
+     "a": "Food security rests on three pillars: availability of food, access to food, and absorption of food through clean water and sanitation.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Food Security in India'.",
+     "a": "what is food security and what are its dimensions",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12eco.7.9",
+   "title": "Infrastructure and Economic Development",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Infrastructure and Economic Development' refers to.",
+     "a": "Infrastructure refers to the supporting framework of physical facilities such as power, transport, communication, and social services like health and education that are essential for economic activity.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Infrastructure and Economic Development'.",
+     "a": "Adequate infrastructure, both physical and social, is a prerequisite for sustained economic growth and improvement in the quality of life.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Infrastructure and Economic Development'.",
+     "a": "what is infrastructure and why is it important for development",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_01_003",
+   "title": "c10_phy_cbse_01_003",
+   "questions": [
+    {
+     "q": "State Ohm's Law in words and write its mathematical formula. What is the SI unit of each quantity in the formula?",
+     "a": "Ohm's Law: The current through a conductor is directly proportional to the potential difference across it, provided temperature remains constant. Formula: \\( V = IR \\). Units: V in volts (V), I in amperes (A), R in ohms (Ω). A wrong answer (e.g., \"V = I/R\" or missing the constant temperature condition) reveals the student has memorised the formula without understanding the physical condition or the direct proportionality relationship.",
+     "self_check": true
+    },
+    {
+     "q": "A student plots a V-I graph for a nichrome wire and gets a straight line passing through the origin with a slope of 5 Ω. The student then doubles the length of the wire (same material, same cross-section) and repeats the experiment. How will the slope of the new V-I graph change? Explain why.",
+     "a": "The slope will double to 10 Ω because resistance is directly proportional to length (R ∝ l). The new wire has twice the length, so twice the resistance. Since slope = R, the new slope is 10 Ω. A wrong answer (e.g., \"slope remains 5 Ω\" or \"slope halves\") reveals the student does not connect the V-I graph slope to resistance or does not know the length dependence of resistance (which is a preview of the next node but tests understanding of what slope represents).",
+     "self_check": true
+    },
+    {
+     "q": "An electric iron draws a current of 4.5 A when connected to a 220 V mains supply. Calculate the resistance of the iron's heating element. Show all steps with units.",
+     "a": "Given: \\( V = 220 \\, \\text{V} \\), \\( I = 4.5 \\, \\text{A} \\). Formula: \\( R = \\frac{V}{I} \\). Substitute: \\( R = \\frac{220 \\, \\text{V}}{4.5 \\, \\text{A}} = 48.89 \\, \\Omega \\). Unit analysis: V/A = Ω. Answer: \\( 48.9 \\, \\Omega \\) (rounded to 3 significant figures). A wrong answer (e.g., 990 Ω from multiplying V×I, or missing units) reveals confusion between Ohm's Law and power formula, or inability to rearrange the formula and track units.",
+     "self_check": true
+    },
+    {
+     "q": "Two students, A and B, perform the Ohm's Law experiment with the same nichrome wire. Student A uses a 0-12 V power supply and takes 6 readings. Student B uses a 0-6 V power supply and takes 6 readings. Both plot V-I graphs. Compare the slopes of their graphs. Will they be the same or different? Justify.",
+     "a": "The slopes will be the same because the slope of the V-I graph equals the resistance of the wire, which depends only on the wire's material, length, cross-section, and temperature — not on the range of the power supply. Both students use the same wire at the same temperature, so resistance is identical. A wrong answer (e.g., \"Student A's slope is larger because they used higher voltage\") reveals the student thinks the graph's slope depends on the measurement range rather than the intrinsic property of the conductor.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a problem: \"A 12 V battery is connected across a resistor. The current is 3 A. Find the resistance.\" The student writes: \\( R = V \\times I = 12 \\times 3 = 36 \\, \\Omega \\). Identify the error, correct it, and explain why the student's method is physically wrong.",
+     "a": "Error: The student multiplied V and I instead of dividing. Correct: \\( R = \\frac{V}{I} = \\frac{12 \\, \\text{V}}{3 \\, \\text{A}} = 4 \\, \\Omega \\). The student's method gives units of V·A (watts), which is power, not resistance. This reveals the student confuses Ohm's Law (\\( V = IR \\)) with the power formula (\\( P = VI \\)) and does not use unit analysis to check the answer.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to verify Ohm's Law using a 1.5 V cell, a nichrome wire (30 cm), an ammeter, a voltmeter, and a rheostat (variable resistor). Draw the circuit diagram, list the steps, and explain how you will use the data to confirm the law.",
+     "a": "Circuit: Cell → rheostat → ammeter → nichrome wire → back to cell. Voltmeter in parallel across the nichrome wire. Steps: (1) Set rheostat to maximum resistance, close circuit. (2) Record V and I. (3) Decrease rheostat resistance in 4-5 steps, record V and I each time. (4) Plot V vs I. (5) If graph is a straight line through origin, Ohm's Law is verified; slope = R. A poor answer (e.g., missing rheostat, voltmeter in series, not mentioning straight line through origin) reveals the student does not understand how to vary V systematically, how to connect meters correctly, or the graphical criterion for Ohm's Law.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_03_010",
+   "title": "c11_acc_cbse_03_010",
+   "questions": [
+    {
+     "q": "In the ledger account for \"Cash\", a journal entry shows \"Cash A/c Dr. 10,000 To Sales A/c 10,000\". What should be written in the Particulars column on the debit side of the Cash Account?",
+     "a": "Correct answer: \"Sales\". The Particulars column always records the name of the *other* account involved in the transaction (the counterpart), not the account being posted to. A wrong answer like \"Cash\" or \"Capital\" reveals the student misunderstands that ledger accounts track inflows/outflows by naming the source/destination account.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the Journal Folio (J.F.) column in the ledger filled at the time of posting, not at the time of journalising?",
+     "a": "Correct answer: The J.F. column in the ledger records the journal page number *from which* the entry is posted. This page number is only known after the journal entry is written and the journal page is finalized. A student who says \"it's filled during journalising\" confuses the direction of cross-referencing — the journal's L.F. column is filled during posting, while the ledger's J.F. column is filled during posting too, but both reference each other bidirectionally.",
+     "self_check": true
+    },
+    {
+     "q": "A compound journal entry: \"Office Machines A/c Dr. 25,000 To Cash A/c 5,000 To Modern Furniture A/c 20,000\". Show the posting in the Office Machines Account and Modern Furniture Account (only date, particulars, J.F., amount).",
+     "a": "Office Machines Account (Debit side): Date | Particulars: \"Cash\" and \"Modern Furniture\" (two separate lines) | J.F.: journal page | Amount: 5,000 and 20,000. Modern Furniture Account (Credit side): Date | Particulars: \"Office Machines\" | J.F.: journal page | Amount: 20,000. A student writing \"Office Machines\" in Office Machines Account's Particulars column fails to apply the counterpart rule. Writing only one line for the debit side misses the compound entry's multiple credits.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the journal and ledger for the same transaction: \"Rent A/c Dr. 5,000 To Bank A/c 5,000\". Explain why the journal shows \"Rent A/c Dr.\" first, but in the Rent Account ledger, the Particulars column shows \"Bank\", while in the Bank Account ledger, the Particulars column shows \"Rent\".",
+     "a": "The journal records the *entry* with debit account first (by convention). The ledger records the *effect on each account*: Rent increases (debit) because Bank decreased, so Rent's Particulars = \"Bank\". Bank decreases (credit) because Rent increased, so Bank's Particulars = \"Rent\". A student who thinks Particulars should match the account name in both places fails to grasp that ledger accounts are *perspectives* of each account.",
+     "self_check": true
+    },
+    {
+     "q": "A student posts a journal entry but forgets to enter the ledger page number in the journal's L.F. column. Evaluate the impact on (a) the accounting equation, (b) the audit trail, and (c) the balancing of ledger accounts.",
+     "a": "(a) No impact — the equation remains balanced because amounts are correctly posted. (b) Audit trail is broken — one cannot trace from journal to ledger or vice versa, violating internal control. (c) No impact on balancing — totals are unaffected. A student saying \"the trial balance won't tally\" confuses posting completion with cross-referencing; the error is procedural, not mathematical.",
+     "self_check": true
+    },
+    {
+     "q": "Design a compound journal entry (minimum 3 accounts) for a transaction where a business purchases a delivery van for ₹8,00,000, paying ₹2,00,000 by cheque and the balance on credit. Then write the exact ledger posting for the Delivery Van Account and the Creditor's Account.",
+     "a": "Journal: Delivery Van A/c Dr. 8,00,000 To Bank A/c 2,00,000 To Creditor (Supplier) A/c 6,00,000.  \nDelivery Van Account (Dr.): Date | Particulars: \"Bank\" (₹2,00,000), \"Creditor\" (₹6,00,000) | J.F. | Amounts.  \nCreditor Account (Cr.): Date | Particulars: \"Delivery Van\" | J.F. | Amount: ₹6,00,000.  \nA poor answer writes \"Cash\" instead of \"Bank\", or puts \"Delivery Van\" in its own Particulars, or omits the split particulars on the debit side.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

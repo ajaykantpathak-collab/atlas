@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_06_001",
+   "title": "c11_hs_cbse_06_001",
+   "questions": [
+    {
+     "q": "Define communication in one sentence using the precise terminology from the NCERT textbook, including the Latin etymological root and the core criterion for effectiveness.",
+     "a": "Communication is the process of thinking, observing, understanding, analysing, sharing, and transmitting feelings to others through various mediums to create a shared understanding (from Latin *communis* meaning common) between communicator and receiver. A wrong answer that only mentions \"sending messages\" or \"exchange of information\" without the *shared understanding* criterion reveals the student views communication as transmission rather than mutual meaning-making — a fundamental Category Error that will cause misclassification of one-way broadcasts as effective communication.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher delivers a 40-minute lecture on photosynthesis while students listen silently and take notes. No questions are asked during or after the lecture. Using the classification based on *type of interaction*, identify the communication type and explain why this classification holds even though students are \"receiving\" information.",
+     "a": "This is one-way communication. The receiver (students) receives information but cannot reciprocate or respond immediately to the sender (teacher) during the act. The absence of a feedback loop *during* the communication event makes it one-way, regardless of information reception. A wrong answer classifying it as two-way because \"students learned something\" confuses *outcome* (learning) with *process structure* (interaction type) — this misconception leads to incorrectly labelling all educational settings as two-way communication.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following scenario into the correct *level of communication*: A student lies in bed at night, mentally rehearsing answers for tomorrow's viva voce, anticipating the examiner's follow-up questions, and evaluating her own preparedness. Justify your classification by referencing the defining characteristics of that level.",
+     "a": "Intra-personal communication. It involves communicating with oneself — a mental process of observing, analysing, and drawing conclusions meaningful to the individual's present, past, and future behaviour. No external receiver exists. A wrong answer of \"inter-personal\" or \"group\" reveals the student equates \"thinking about others\" with \"communicating with others\" — they miss that the *receiver* must be a distinct entity for inter-personal classification. This error propagates into misidentifying self-talk as interpersonal practice.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the sensory involvement and expected retention percentage for: (a) a student reading a printed textbook chapter, and (b) the same student watching an animated video with narration explaining the same chapter. Use the NCERT sensory classification table to quantify the difference.",
+     "a": "(a) Reading textbook = Visual only (symbols/printed material) → 10% retention. (b) Animated video with narration = Audio-visual (seen + heard) → 50% retention. The 40-percentage-point gap exists because video engages both visual and auditory senses simultaneously. A wrong answer claiming \"reading is visual so 30-35%\" confuses *seeing text* (symbolic visual, 10%) with *seeing images/demonstrations* (visual, 30-35%). This reveals the student hasn't internalised the distinction between *symbolic visual* (reading) and *iconic visual* (watching) — a critical nuance for media selection in extension work.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The SMCRE model is incomplete without the 'Effect/Feedback' element because communication is a linear process from Source to Receiver.\" Identify the logical flaw and correct it using the textbook's description of feedback as both initiating and terminating element.",
+     "a": "The statement contains a contradiction: it claims communication is *linear* while acknowledging feedback makes the model *complete*. The textbook explicitly states feedback is \"the initiating step as well as the terminating element\" — making the process *cyclic*, not linear. If the response doesn't match expectations, \"rethinking and recasting of message occurs and the entire communication process is repeated.\" A wrong answer agreeing with the linearity claim reveals the student views models as static diagrams rather than dynamic process representations — they will fail to analyse communication breakdowns as feedback failures requiring message recasting.",
+     "self_check": true
+    },
+    {
+     "q": "Design a communication intervention for a rural health worker trying to convince vaccine-hesitant mothers in a tribal village to immunise their infants. Specify: (a) the optimal *level* of communication, (b) the *mode* (verbal/non-verbal) mix, (c) the *sensory involvement* strategy, and (d) how the SMCRE model's feedback loop would be operationalised. Justify each choice using the chapter's principles.",
+     "a": "(a) Level: Inter-personal (face-to-face, homogeneous receiver group — mothers with similar concerns — allows persuasion, motivation, and instantaneous feedback). (b) Mode: Primarily verbal (local dialect) supplemented by non-verbal (demonstrating vaccine vial, showing immunisation card, gestures of care) because tribal communities rely on oral tradition and trust-building through presence. (c) Sensory: Audio-visual + *done* (demonstration + mother practising holding baby for injection) → targets 90%+ retention per \"seen, heard, and done.\" (d) Feedback loop: Worker asks \"What concerns remain?\" after explanation (feedback), addresses specific fears (recasts message), then asks mother to explain the process back (verification feedback). Cycle repeats until mother's mental model matches worker's intent. A poor answer choosing mass media (posters/radio) or only verbal mode reveals failure to match communication design to audience homogeneity, cultural context, and behavioural change objective.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

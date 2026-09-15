@@ -1,0 +1,53 @@
+{
+  "catalog": "catalog_class12_geography_legy203",
+  "concepts": [
+    {
+      "id": "legy.203.1",
+      "questions": [
+        {"q": "Which land use category is the core of India's agricultural economy? (three words)", "a": "net sown area"},
+        {"q": "If forest cover is 22 per cent of a region, what is the non-forest share? (give the per cent)", "a": "78"},
+        {"q": "If forest share is 25 per cent, the non-forest share is what per cent? (give the per cent)", "a": "75"},
+        {"q": "Which land use category includes land under buildings and roads? (five words)", "a": "land put to non-agricultural uses"},
+        {"q": "Which category covers land left uncultivated for the current year? (two words)", "a": "current fallow"},
+        {"q": "Pastures under permanent grazing belong to which land use category? (two words)", "a": "permanent pastures"},
+        {"q": "Is cultivable wasteland currently cropped or not? (yes or no)", "a": "no"}
+      ]
+    },
+    {
+      "id": "legy.203.2",
+      "questions": [
+        {"q": "Cereals occupy about what per cent of India's total cropped area? (give the per cent)", "a": "54"},
+        {"q": "If cereals cover 54 per cent of cropped area, what per cent carries the other crops? (give the per cent)", "a": "46"},
+        {"q": "Foodgrains divide into cereals and what other group? (one word)", "a": "pulses"},
+        {"q": "On what basis are foodgrains divided into cereals and pulses: grain structure or season? (two words)", "a": "grain structure"},
+        {"q": "How many crop groups share the non-cereal cropped area (pulses, oilseeds, fibres, other crops)? (number)", "a": "4"},
+        {"q": "Rice and wheat are examples of which foodgrain group? (one word)", "a": "cereals"},
+        {"q": "Gram and arhar belong to which foodgrain group? (one word)", "a": "pulses"}
+      ]
+    },
+    {
+      "id": "legy.203.3",
+      "questions": [
+        {"q": "Which process of soil removal by running water is a major cause of land degradation? (two words)", "a": "water erosion"},
+        {"q": "Which degradation arises when fields are over-irrigated and the water table rises? (one word)", "a": "waterlogging"},
+        {"q": "What is the accumulation of salts in over-irrigated soil called? (one word)", "a": "salinisation"},
+        {"q": "Which erosion agent strips topsoil in arid tracts? (one word)", "a": "wind"},
+        {"q": "Which conservation practice builds bunds along the contour to check runoff? (two words)", "a": "contour bunding"},
+        {"q": "Which conservation practice crops hill slopes in steps? (two words)", "a": "terrace farming"},
+        {"q": "Which rows of trees check wind erosion on farmland? (two words)", "a": "shelter belts"}
+      ]
+    },
+    {
+      "id": "legy.203.4",
+      "questions": [
+        {"q": "What is the term for resources like village pastures and ponds open to the whole community? (three words)", "a": "common property resources"},
+        {"q": "Which community resource, besides pastures, tanks and ponds, is listed as common property? (one word)", "a": "forests"},
+        {"q": "Which section of rural society depends most on common property resources? (two words)", "a": "rural poor"},
+        {"q": "Open access without regulation leads to what outcome for common resources? (one word)", "a": "overuse"},
+        {"q": "What kind of management is essential to keep common property resources productive? (one word)", "a": "community"},
+        {"q": "Are common property resources privately owned or community accessible? (two words)", "a": "community accessible"},
+        {"q": "Forests, in the common-property sense, belong to whom: the state alone or the whole community? (two words)", "a": "whole community"}
+      ]
+    }
+  ]
+}

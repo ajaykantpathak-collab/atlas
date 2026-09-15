@@ -1,0 +1,215 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 11,
+ "chapter_title": "Nature's Treasures",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fecu111.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fecu.11.1",
+   "title": "Nature's Treasures: Air and Water",
+   "section": "Air and water",
+   "definition": "Fresh air and clear water top the list of nature's treasures: air fills every breath and fans every flame, and water, drawn from rivers, rain and groundwater, serves drinking, farming and industry.",
+   "formula": "",
+   "key_idea": "The free gifts, air and water, are the most valuable: life stops within minutes or days without them.",
+   "textbook_ref": "fecu111.txt, Air and water",
+   "question_patterns": [
+    "why are air and water called treasures of nature",
+    "what uses of water does the chapter list",
+    "how does air serve living beings",
+    "from where do we get fresh water",
+    "why is groundwater important",
+    "how can we keep air and water clean"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "fecu.11.2",
+   "title": "Forests: The Green Treasury",
+   "section": "Forests",
+   "definition": "Forests shelter countless plants, animals and birds, hold soil against rain, feed rivers, and give timber, fruits, honey and medicines; the Western Ghats village of the chapter lives beside this green wealth.",
+   "formula": "",
+   "key_idea": "A forest is a living bank: it stores water, soil, oxygen and species for every generation.",
+   "textbook_ref": "fecu111.txt, Forests",
+   "question_patterns": [
+    "why are forests called the wealth of nature",
+    "list five things we get from forests",
+    "how do forests hold water and soil",
+    "what lives in the forests of the western ghats",
+    "why should we not cut forests carelessly",
+    "name forest products used in your home"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "fecu.11.3",
+   "title": "Soil, Rocks and Fossil Fuels",
+   "section": "Soil, rocks, fossil fuels",
+   "definition": "Beneath our feet lie more treasures: soil that grows our food, rocks and minerals that build and power our homes, and fossil fuels, coal, petrol and natural gas, stores of ancient energy formed over millions of years.",
+   "formula": "",
+   "key_idea": "The earth's crust is a storehouse: soil feeds, rocks shelter, and fossil fuels power, yet none are endless.",
+   "textbook_ref": "fecu111.txt, Soil, rocks, fossil fuels",
+   "question_patterns": [
+    "name the fossil fuels and their uses",
+    "why are fossil fuels called non renewable",
+    "how does soil serve farmers",
+    "which things are made from rocks and minerals",
+    "how were fossil fuels formed",
+    "why should we save petrol and coal"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  },
+  {
+   "id": "fecu.11.4",
+   "title": "Conserving Nature's Treasures",
+   "section": "Conservation",
+   "definition": "Treasures shrink when used carelessly, so conservation calls: use water twice, switch off lights, cycle short trips, plant trees, and turn to renewable energy such as wind and solar, in which India leads among nations.",
+   "formula": "conserve = reduce + reuse + recycle + renew",
+   "key_idea": "Saving a treasure is everyone's daily job: small acts, repeated by millions, keep nature's bank from running dry.",
+   "textbook_ref": "fecu111.txt, Conservation",
+   "question_patterns": [
+    "how can we conserve water at home",
+    "why should we use fossil fuels carefully",
+    "what is renewable energy give examples",
+    "how does planting trees conserve nature",
+    "list your day's actions that save resources",
+    "why is india called a leader in renewable energy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fecu111.txt",
+   "concept": "fecu.11.1",
+   "question_type": "verify_property",
+   "question_pattern": "what treasures of nature does ajji's village show bhoomi and surya?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fecu111.txt",
+   "concept": "fecu.11.2",
+   "question_type": "verify_property",
+   "question_pattern": "why should we conserve fossil fuels and how?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fecu111.txt, Let us enhance our learning",
+   "questions": [
+    "What treasures of nature does Ajji's village show Bhoomi and Surya?",
+    "Why should we conserve fossil fuels and how?",
+    "Make a list of the natural resources you use in one day.",
+    "Do a breathing exercise outdoors and describe the freshness of air.",
+    "Conduct a survey of how many lights and fans run needlessly at home."
+   ]
+  }
+ ]
+}

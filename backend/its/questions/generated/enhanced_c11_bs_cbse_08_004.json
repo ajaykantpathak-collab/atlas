@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_08_004",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_08_004",
+   "title": "c11_bs_cbse_08_004",
+   "questions": [
+    {
+     "q": "Define 'residual ownership' in the context of equity shareholders and state the exact order of claims on company assets during liquidation.",
+     "a": "Residual ownership means equity shareholders receive what remains after all external liabilities (creditors, debenture holders), preference shareholders, and statutory dues are settled; the liquidation order is: secured creditors → unsecured creditors → preference shareholders → equity shareholders. A wrong answer (e.g., \"equity shareholders get paid first\" or \"they get fixed amount\") reveals confusion between equity and debt/preference claims, indicating the student hasn't grasped the risk-reward asymmetry fundamental to equity.",
+     "self_check": true
+    },
+    {
+     "q": "A company issues 1,00,000 equity shares of ₹10 face value at a premium of ₹40. The floatation costs are 3% of issue price. Explain why the 'cost of equity' is not simply the dividend rate, and calculate the net proceeds per share to the company.",
+     "a": "Cost of equity includes floatation costs, opportunity cost of retained earnings, and the expected return shareholders require for bearing risk — not just dividends paid. Net proceeds = Issue price (₹50) - Floatation cost (3% of ₹50 = ₹1.50) = ₹48.50 per share. A wrong answer calculating only face value or ignoring premium/floatation costs shows the student treats equity like a fixed-cost instrument (debenture) and misses that equity cost is implicit and market-determined.",
+     "self_check": true
+    },
+    {
+     "q": "A profitable company with stable earnings wants to fund a 7-year expansion project. The board proposes equity shares. Using the factors affecting choice of source (cost, risk, control, flexibility), argue why this may be suboptimal and suggest a better alternative with justification.",
+     "a": "Equity is suboptimal here because: (1) Cost of equity > cost of debt due to higher risk premium; (2) Stable earnings favour fixed-charge instruments (debentures/loans) that provide tax shield on interest; (3) Unnecessary dilution of control when debt capacity exists; (4) No flexibility — equity is permanent capital even after project pays off. Better alternative: Debentures or term loan — lower explicit cost (tax-deductible interest), no voting dilution, matches 7-year horizon with redemption. A weak answer that only says \"equity is expensive\" without linking to stable earnings, tax shield, or control dilution shows inability to integrate multiple choice factors.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact on EPS (Earnings Per Share) when a company funds a ₹10 crore project via: (A) 10 lakh new equity shares at ₹100, (B) 10% debentures. Assume current EBIT = ₹5 crore, tax rate = 30%, existing shares = 50 lakh. Analyze which option maximizes EPS and under what EBIT condition the conclusion reverses.",
+     "a": "Option A (Equity): New shares = 60 lakh. EBIT = ₹5 crore. Interest = 0. PBT = ₹5 crore. PAT = ₹3.5 crore. EPS = ₹3.5 cr / 60 lakh = ₹5.83.\nOption B (Debentures): Shares = 50 lakh. Interest = 10% of ₹10 cr = ₹1 cr. PBT = ₹4 cr. PAT = ₹2.8 cr. EPS = ₹2.8 cr / 50 lakh = ₹5.60.\nEquity gives higher EPS at current EBIT. But if EBIT rises, debenture leverage amplifies EPS. Indifference EBIT: (EBIT - 0)(1-0.3)/60L = (EBIT - 1cr)(1-0.3)/50L → EBIT = ₹6 crore. Above ₹6 cr EBIT, debentures yield higher EPS. A wrong answer ignoring tax shield or share count change reveals mechanical calculation without understanding financial leverage trade-off.",
+     "self_check": true
+    },
+    {
+     "q": "\"Equity shares are the best source of finance because they have no repayment obligation and no fixed dividend burden.\" Critique this statement by evaluating it against the limitations of equity shares and the concept of weighted average cost of capital (WACC).",
+     "a": "The statement is dangerously incomplete. While equity avoids mandatory cash outflows, it has the highest component cost in WACC due to high risk premium demanded by shareholders (typically 12-18% vs 7-9% for debt after tax). Limitations ignored: (1) Floatation costs (3-5%) make initial cost high; (2) Dilution of EPS and control for existing owners; (3) Market pressure for consistent dividends despite 'non-compulsory' nature; (4) Over-reliance on equity lowers financial leverage, reducing ROE potential. Optimal capital structure balances debt and equity to minimize WACC. A student agreeing with the statement shows confusion between 'no legal obligation' and 'no economic cost'.",
+     "self_check": true
+    },
+    {
+     "q": "Design a decision framework (flowchart or checklist with 5-6 criteria) that a CFO should use to decide between equity shares and debentures for a ₹200 crore modernization project. Your framework must incorporate: EBIT stability, existing debt-equity ratio, tax rate, control concerns, project gestation period, and market conditions.",
+     "a": "A strong framework:\n1. Is EBIT stable and growing? → Yes → Favors Debentures (tax shield, leverage)\n2. Is current D/E > 2:1? → Yes → Favors Equity (avoid over-leverage)\n3. Is tax rate high (≥30%)? → Yes → Favors Debentures (interest deductibility)\n4. Do promoters want to retain >51% control? → Yes → Favors Debentures (no voting dilution)\n5. Project gestation > 5 years? → Yes → Favors Equity (no repayment pressure during gestation)\n6. Is stock market bullish / P/E high? → Yes → Favors Equity (low cost of issue)\nDecision: Score each; if Debentures score ≥4, choose debentures; else equity. A poor answer listing criteria without decision logic or ignoring trade-offs (e.g., gestation vs repayment) shows inability to synthesize concepts into actionable tool.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

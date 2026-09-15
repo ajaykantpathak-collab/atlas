@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch02_022",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch02_022",
+   "title": "c6_math_ch02_022",
+   "questions": [
+    {
+     "q": "What is the rule for the sign of the product when multiplying a positive integer by a negative integer?",
+     "a": "The product is always negative. A student who says \"positive\" is confusing multiplication with the rule for adding two negative numbers or simply forgetting the sign rules.",
+     "self_check": true
+    },
+    {
+     "q": "Without calculating, is the product of $(-7) \\times (-4)$ positive or negative, and why?",
+     "a": "It is positive because both integers have the same (negative) sign. A student who says \"negative\" thinks that because the inputs are negative, the output must be negative, failing to apply the \"same sign\" rule.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate: $(-6) \\times 8$.",
+     "a": "Step 1: Multiply absolute values $6 \\times 8 = 48$. Step 2: Since signs are different (negative and positive), the result is $-48$. A student answering $48$ has forgotten the negative sign, while a student answering $-14$ has likely added instead of multiplied.",
+     "self_check": true
+    },
+    {
+     "q": "If the product of two integers is positive, what can you conclude about the signs of the two integers?",
+     "a": "Either both are positive or both are negative. An answer stating \"both are positive\" is incomplete because it ignores the possibility that two negatives also produce a positive.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the results of $(4 \\times -5)$ and $(-4 \\times 5)$. Are they the same? Justify your answer.",
+     "a": "Yes, both equal $-20$. This shows that the order of integers in multiplication does not change the result, and different signs always yield a negative product. A student saying \"no\" may be struggling with the sign rules.",
+     "self_check": true
+    },
+    {
+     "q": "Create a multiplication problem involving a negative integer that results in $-24$. Explain your choice.",
+     "a": "Examples: $(-3) \\times 8$ or $6 \\times (-4)$. The criteria for a good answer is that one factor must be negative and the other positive, and their absolute values must multiply to 24. A poor answer would use two positive numbers or two negative numbers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

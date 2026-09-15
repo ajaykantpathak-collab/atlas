@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_09_010",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_09_010",
+   "title": "c12_eco_cbse_09_010",
+   "questions": [
+    {
+     "q": "Define high-powered money (H) and state its two components. How does it differ from the money supply (M)?",
+     "a": "High-powered money (H) = Currency with public (C) + Cash reserves of commercial banks with RBI (R). Money supply (M) = Currency with public (C) + Demand deposits with banks (D). The difference: H includes reserves (R) but not deposits (D), while M includes deposits (D) but not reserves (R). A wrong answer that swaps R and D reveals confusion between the central bank's liability (H) and the public's liquid assets (M).",
+     "self_check": true
+    },
+    {
+     "q": "If the currency-deposit ratio (c) increases while the reserve-deposit ratio (r) stays constant, what happens to the money multiplier? Explain the economic intuition.",
+     "a": "The money multiplier decreases because m = (1+c)/(c+r). As c rises, the numerator increases by 1 but the denominator increases by 1, so the ratio falls (since r < 1 typically). Intuition: more currency held by public means less deposits in banks, so banks have less to lend out, reducing the deposit creation process. A wrong answer saying the multiplier increases reveals a misunderstanding of the leakage effect of currency drain.",
+     "self_check": true
+    },
+    {
+     "q": "Given: Currency with public = ₹2,000 crore, Demand deposits = ₹8,000 crore, Reserves with banks = ₹1,000 crore. Calculate (a) high-powered money (H), (b) money supply (M), (c) currency-deposit ratio (c), (d) reserve-deposit ratio (r), and (e) the money multiplier (m). Verify M = m × H.",
+     "a": "(a) H = C + R = 2,000 + 1,000 = ₹3,000 crore. (b) M = C + D = 2,000 + 8,000 = ₹10,000 crore. (c) c = C/D = 2,000/8,000 = 0.25. (d) r = R/D = 1,000/8,000 = 0.125. (e) m = (1+0.25)/(0.25+0.125) = 1.25/0.375 = 3.33. Verification: m × H = 3.33 × 3,000 = ₹9,990 ≈ ₹10,000 crore (rounding). A wrong answer using m = 1/r = 8 reveals the student used the simple deposit multiplier ignoring currency drain.",
+     "self_check": true
+    },
+    {
+     "q": "The RBI conducts an open market purchase of ₹500 crore government bonds from commercial banks. Assuming c = 0.2 and r = 0.1, calculate the maximum potential increase in money supply. Explain why the actual increase might be less.",
+     "a": "Initial increase in H = ₹500 crore (reserves rise by ₹500 cr). m = (1+0.2)/(0.2+0.1) = 1.2/0.3 = 4. Maximum ΔM = m × ΔH = 4 × 500 = ₹2,000 crore. Actual increase may be less because: (i) banks may hold excess reserves (r_effective > 0.1), (ii) public may increase currency holdings (c rises), (iii) borrowers may not demand loans at current rates, (iv) time lags in the multiplier process. A wrong answer ignoring excess reserves or currency drain shows lack of understanding of real-world leakages.",
+     "self_check": true
+    },
+    {
+     "q": "\"An increase in the statutory liquidity ratio (SLR) reduces the money multiplier.\" Evaluate this statement. Is it always true? Under what conditions might it not hold?",
+     "a": "The statement is generally true because SLR forces banks to hold more government securities, effectively increasing the required reserve ratio (r) if SLR is binding. Higher r reduces m = (1+c)/(c+r). However, it may not hold if: (a) banks already hold excess reserves above SLR (SLR not binding), (b) the central bank simultaneously conducts OMO to offset the reserve drain, (c) the public's currency-deposit ratio (c) falls sharply, offsetting the rise in r. A wrong answer that says \"always true\" ignores the possibility of non-binding constraints or offsetting actions.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a numerical example where the money multiplier is exactly 5. Choose plausible values for c and r, then compute H required to support a money supply of ₹1,00,000 crore. Show all steps.",
+     "a": "We need m = 5 = (1+c)/(c+r). Choose c = 0.2 (20% currency). Then 5 = 1.2/(0.2+r) → 0.2+r = 1.2/5 = 0.24 → r = 0.04. So c=0.2, r=0.04 gives m=5. For M = ₹1,00,000 cr, H = M/m = 1,00,000/5 = ₹20,000 crore. Check: D = M/(1+c) = 1,00,000/1.2 = ₹83,333.33 cr. C = cD = 0.2×83,333.33 = ₹16,666.67 cr. R = rD = 0.04×83,333.33 = ₹3,333.33 cr. H = C+R = 20,000 cr. A poor answer that picks c=0, r=0.2 (m=5) is unrealistic because currency drain is never zero in India.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_01_009",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_01_009",
+   "title": "c12_ip_cbse_01_009",
+   "questions": [
+    {
+     "q": "What is the cardinality requirement for a subquery used with the = operator in a WHERE clause, and what error occurs if it returns more than one row?",
+     "a": "The subquery must return exactly one row (single value). If it returns multiple rows, MySQL throws error 1242: \"Subquery returns more than 1 row\". A wrong answer (e.g., \"it returns the first row\") reveals the student thinks SQL implicitly limits results, but SQL standard requires single-row for scalar comparison.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a subquery in a HAVING clause can reference an aggregate function from the outer query's grouping, but a subquery in a WHERE clause cannot.",
+     "a": "WHERE filters rows before grouping, so aggregate functions are not yet computed; HAVING filters after GROUP BY, so aggregates are available. A wrong answer (e.g., \"both can use aggregates\") shows confusion about SQL execution order: FROM → WHERE → GROUP BY → HAVING → SELECT.",
+     "self_check": true
+    },
+    {
+     "q": "Write a query to list CarName and Price from INVENTORY where Price is greater than the average price of all cars manufactured in 2018.",
+     "a": "```sql\nSELECT CarName, Price FROM INVENTORY\nWHERE Price > (SELECT AVG(Price) FROM INVENTORY WHERE YearManufacture = 2018);\n```\nSteps: 1) Inner query computes average price of 2018 cars (single value). 2) Outer query compares each car's Price to that value. A wrong answer using JOIN or putting AVG in WHERE directly reveals misunderstanding that aggregate functions cannot be used in WHERE.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the results of these two queries on the SALE table:\nQuery A: `SELECT CustID FROM SALE WHERE SalePrice > ANY (SELECT SalePrice FROM SALE WHERE EmpID = 'E007');`\nQuery B: `SELECT CustID FROM SALE WHERE SalePrice > ALL (SELECT SalePrice FROM SALE WHERE EmpID = 'E007');`\nExplain the difference in terms of the set of values returned by the subquery.",
+     "a": "Query A returns customers whose SalePrice is greater than at least one of E007's sale prices (i.e., > minimum of that set). Query B returns customers whose SalePrice is greater than every one of E007's sale prices (i.e., > maximum of that set). A wrong answer (e.g., \"they are the same\") shows the student does not grasp the logical distinction between ANY (existential) and ALL (universal) quantification.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: `SELECT Model, AVG(Price) FROM INVENTORY GROUP BY Model HAVING AVG(Price) > (SELECT AVG(Price) FROM INVENTORY WHERE FuelType = 'CNG');` but gets an error because the subquery returns multiple rows. Why does the subquery return multiple rows, and how to fix it?",
+     "a": "The subquery lacks a GROUP BY, so it returns one row per CNG car (multiple rows) instead of a single average. Fix: add GROUP BY FuelType or remove WHERE to get overall average. The error reveals the student thinks a WHERE clause automatically collapses rows to one aggregate; actually, aggregate without GROUP BY returns one row for the whole table, but with WHERE it still returns one row for the filtered set — wait, the subquery `SELECT AVG(Price) FROM INVENTORY WHERE FuelType = 'CNG'` returns a single value (average of all CNG cars). So the error described cannot happen. The correct misconception: the student might have written `SELECT Price` instead of `SELECT AVG(Price)`. A wrong answer that doesn't catch this shows the student cannot debug subquery cardinality errors.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario for the CARSHOWROOM database where you need a correlated subquery in the HAVING clause, and write the complete query. Explain why it must be correlated.",
+     "a": "Scenario: \"List each employee's EmpID and total sales count, but only for employees whose total sales count exceeds the average sales count per employee.\" Query:\n```sql\nSELECT EmpID, COUNT(*) AS TotalSales\nFROM SALE\nGROUP BY EmpID\nHAVING COUNT(*) > (SELECT AVG(SalesCount) FROM (SELECT COUNT(*) AS SalesCount FROM SALE GROUP BY EmpID) AS T);\n```\nThe subquery must be correlated? Actually, this is non-correlated. A correlated example: \"List cars whose price is above the average price of cars of the same FuelType.\" That would be in WHERE. For HAVING, a correlated subquery could reference the outer group's EmpID to compare with that employee's average sale price. A good answer shows understanding of correlation; a poor answer writes a non-correlated subquery and claims it's correlated.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

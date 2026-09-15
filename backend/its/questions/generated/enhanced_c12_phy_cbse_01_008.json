@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_01_008",
+   "title": "c12_phy_cbse_01_008",
+   "questions": [
+    {
+     "q": "State Gauss's Law in words and write its mathematical form. Define each symbol and give the SI unit of electric flux.",
+     "a": "Gauss's Law: The total electric flux through a closed surface equals 1/ε₀ times the net charge enclosed by the surface. Mathematical form: ∮ **E** · d**S** = q_enclosed/ε₀. Here **E** = electric field at each area element (N/C), d**S** = vector area element (m²) directed along outward normal, q_enclosed = net charge inside the surface (C), ε₀ = permittivity of free space = 8.854 × 10⁻¹² C²/(N·m²). SI unit of flux = N·m²/C (or V·m). A wrong answer (e.g., writing q/ε instead of q/ε₀, or saying flux = E × S without dot product) reveals confusion between flux definition and Gauss's Law, or missing the vector nature of area element.",
+     "self_check": true
+    },
+    {
+     "q": "A point charge +q is placed at the center of a cube of side a. A student argues: \"The flux through each face is q/(6ε₀) because there are 6 faces.\" Is this reasoning correct? Explain why or why not using Gauss's Law.",
+     "a": "Yes, the reasoning is correct **only because of symmetry**. Gauss's Law gives total flux through the whole cube = q/ε₀. By symmetry, the charge is at the center, so all 6 faces are equivalent — same distance, same orientation relative to the radial field. Hence flux divides equally: Φ_face = (q/ε₀)/6 = q/(6ε₀). If the charge were off-center, the flux through faces would NOT be equal, though total flux would still be q/ε₀. A wrong answer (e.g., \"always q/(6ε₀) for any charge position\") reveals the misconception that flux distributes equally regardless of symmetry — a common JEE trap.",
+     "self_check": true
+    },
+    {
+     "q": "A point charge q = 2.0 μC is placed at the center of a spherical Gaussian surface of radius r = 10 cm. Calculate the total electric flux through the surface. If the radius is doubled to 20 cm, what is the new flux? (ε₀ = 8.85 × 10⁻¹² C²/N·m²)",
+     "a": "Step 1: Identify given: q = 2.0 μC = 2.0 × 10⁻⁶ C. Step 2: Apply Gauss's Law: Φ = q_enclosed/ε₀. Step 3: Substitute: Φ = (2.0 × 10⁻⁶ C) / (8.85 × 10⁻¹² C²/N·m²) = 2.26 × 10⁵ N·m²/C. Step 4: When radius doubles, q_enclosed remains 2.0 μC (charge unchanged), so Φ remains 2.26 × 10⁵ N·m²/C. Step 5: Verify: Flux independent of radius — consistent with derivation where r² cancels. A wrong answer (e.g., flux changes with radius) reveals failure to understand that Gauss's Law depends ONLY on enclosed charge, not on Gaussian surface size/shape.",
+     "self_check": true
+    },
+    {
+     "q": "A spherical Gaussian surface encloses a dipole consisting of charges +q and –q separated by distance 2a. The dipole is entirely inside the surface. What is the total electric flux through the Gaussian surface? Now suppose the Gaussian surface is a cube that encloses only the +q charge (–q is outside). What is the flux in this case?",
+     "a": "Case 1: Dipole (+q and –q both inside) → net enclosed charge = +q + (–q) = 0 → Φ = 0/ε₀ = 0. Case 2: Only +q inside, –q outside → net enclosed charge = +q → Φ = q/ε₀. The electric field **E** in the integral ∮ **E**·d**S** is due to BOTH charges in both cases, but q_enclosed counts ONLY charges inside. A wrong answer (e.g., Φ = 0 for case 2 because \"dipole field lines enter and exit\") reveals confusion between total field and enclosed charge. This is a classic JEE/NEET conceptual trap.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Gauss's Law is ∮ **E** · d**S** = Q/ε₀, where **E** is the electric field due to charges inside the Gaussian surface only.\" Evaluate this statement. Is it correct? If not, correct it and explain why the student's version is wrong.",
+     "a": "The statement is INCORRECT. Correct version: ∮ **E** · d**S** = q_enclosed/ε₀, where **E** is the **total electric field at each point on the Gaussian surface due to ALL charges (inside AND outside)**, while q_enclosed is the net charge **only inside** the surface. The student's version is wrong because if **E** included only inside charges, the law would fail for asymmetric situations (e.g., a charge outside would contribute to **E** on the surface but not to q_enclosed, yet the integral still equals q_enclosed/ε₀). This is a critical distinction tested in JEE Advanced. A wrong evaluation reveals the student doesn't understand the superposition principle embedded in Gauss's Law.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a gold-leaf electroscope and a hollow metal sphere to demonstrate that the electric flux through a closed surface depends only on the enclosed charge, not on the surface's shape or size. Describe the procedure and expected observation.",
+     "a": "Procedure: (1) Charge a hollow metal sphere +Q using a known source. (2) Touch the electroscope to the sphere — leaves diverge, indicating charge Q. (3) Discharge the electroscope. (4) Place the sphere inside a larger hollow metal shell (Faraday cage) without touching. (5) Touch the electroscope to the inner sphere again — leaves show SAME divergence. (6) Now connect the inner sphere to the outer shell with a wire — charge flows to outer surface. (7) Touch electroscope to inner sphere — leaves collapse (no charge). Expected: Flux through any closed surface enclosing the inner sphere initially was Q/ε₀. After connecting, charge moves outside the Gaussian surface (drawn just outside inner sphere), so flux becomes 0. A poor answer (e.g., \"measure field at different distances\") reveals confusion between electric field and flux, or inability to translate theory into experimental verification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

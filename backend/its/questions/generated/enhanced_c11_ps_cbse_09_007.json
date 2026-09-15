@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_09_007",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_09_007",
+   "title": "c11_ps_cbse_09_007",
+   "questions": [
+    {
+     "q": "Define \"Mutually Assured Destruction (MAD)\" and state the two necessary conditions for it to function as a stable strategic equilibrium.",
+     "a": "MAD is a strategic condition where two nuclear-armed adversaries each possess secure second-strike capabilities sufficient to inflict unacceptable damage on the other even after absorbing a full first strike, making nuclear war unwinnable and therefore irrational to initiate. The two necessary conditions are: (1) each side must have survivable second-strike forces (submarines, mobile launchers, hardened silos) that cannot be eliminated by a disarming first strike, and (2) both sides must believe the other has the political will to actually retaliate. A wrong answer revealing \"MAD means both sides have lots of nukes\" misses the survivability and credibility requirements - having many vulnerable silo-based missiles does not create MAD if a first strike can destroy them all.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"credibility\" is the central paradox of deterrence theory, using the distinction between deterrence by punishment and deterrence by denial.",
+     "a": "Credibility is paradoxical because deterrence requires threatening an action (massive nuclear retaliation) that would be suicidal to actually carry out once deterrence fails - a rational leader would not destroy their own society to punish an already-completed attack. Deterrence by punishment threatens retaliation against cities/value targets (countervalue), while deterrence by denial threatens to defeat attacking forces militarily (counterforce). The paradox: to make punishment credible, leaders deploy tripwire forces, adopt \"launch on warning\" postures, or delegate launch authority - all of which increase accidental war risk. A student who says \"credibility just means having enough bombs\" confuses capability with credibility; the Cuban Missile Crisis showed capability alone was insufficient - Kennedy had to demonstrate resolve through blockade and public signaling.",
+     "self_check": true
+    },
+    {
+     "q": "India declares a \"No First Use\" (NFU) policy but maintains a nuclear triad. Pakistan declares \"Full Spectrum Deterrence\" including tactical nuclear weapons. Analyze how these differing doctrines affect crisis stability in a Kashmir scenario where Pakistani conventional forces are losing.",
+     "a": "India's NFU + triad creates a \"recessed deterrence\" posture: warheads stored separately from delivery vehicles in peacetime, requiring visible mobilization (alerting adversary) before use, which provides crisis management time but risks appearing less credible for tactical contingencies. Pakistan's tactical nukes (Nasr missile) lower the nuclear threshold to offset conventional inferiority, creating a \"use it or lose it\" pressure on Pakistani commanders during conventional defeat - if Indian forces overrun Nasr units, Pakistan faces pressure to launch them before they're captured. This generates instability: India's NFU may tempt Pakistan to probe conventional limits, while Pakistan's tactical delegation increases unauthorized/accidental launch risk. A student who says \"both have nukes so war won't happen\" ignores how doctrinal asymmetry creates different escalation ladders - Pakistan's doctrine explicitly envisions early nuclear use, making crisis stability lower than symmetric MAD.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"stability-instability paradox\" with the \"security dilemma\" in the context of India-Pakistan nuclear deterrence. How does the paradox explain the Kargil War (1999) occurring after both states tested nuclear weapons (1998)?",
+     "a": "The security dilemma describes how State A's defensive arming makes State B feel less secure, triggering arms racing. The stability-instability paradox (Snyder, 1965) states that strategic nuclear stability (mutual vulnerability at strategic level) enables instability at lower levels (conventional/sub-conventional) because neither side fears escalation to strategic nuclear war. Kargil exemplifies this: Pakistan calculated India would not escalate to strategic nuclear exchange over limited conventional intrusion, exploiting the \"shield\" of nuclear deterrence to wage limited war. India's conventional response (Operation Vijay) stayed below Pakistan's perceived nuclear threshold. A student who says \"nuclear weapons prevent all war\" misses the paradox - they prevent *total* war but may *enable* limited conflicts. The security dilemma would predict arms racing post-1998; the paradox explains why limited war *occurred* despite nuclearization.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the ethical critique that deterrence theory treats civilian populations as \"hostages\" (Schelling's term) and violates just war principles of discrimination and proportionality. Can \"credible minimum deterrence\" resolve this?",
+     "a": "The hostage critique: deterrence by punishment explicitly threatens mass civilian casualties (countervalue targeting), violating jus in bello discrimination (non-combatant immunity) and proportionality (damage must not exceed military advantage). Schelling acknowledged this: \"The threat that leaves something to chance\" deliberately risks civilian annihilation to coerce. \"Credible minimum deterrence\" (India's doctrine) attempts mitigation by: (a) limiting arsenal size to \"minimum\" needed for unacceptable damage (not war-fighting), (b) NFU renouncing first strike, (c) targeting counterforce where possible. However, it cannot fully resolve the critique because: (1) \"unacceptable damage\" inherently requires threatening cities, (2) NFU credibility requires retaliatory capability against cities, (3) minimum deterrence still holds millions hostage. A student who says \"minimum deterrence is ethical because fewer nukes\" confuses quantity with moral structure - even 50 warheads on cities is hostage-taking. The critique remains: deterrence's *logic* requires threatening the very atrocities just war theory forbids.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"credible minimum deterrence\" force structure for a hypothetical middle-power state facing two nuclear-armed adversaries with asymmetric capabilities (Adversary A: 300 warheads, triad, no NFU; Adversary B: 150 warheads, land-based only, NFU). Justify your choices of delivery systems, alert status, and declaratory policy.",
+     "a": "A strong answer would propose: (1) **Delivery systems**: Prioritize survivable second-strike - 4 SSBNs (continuous at-sea deterrence) + road-mobile ICBMs (Agni-type) dispersed in peacetime. Avoid silo-based ICBMs (vulnerable to Adversary A's counterforce). No tactical nukes (lowers threshold, complicates command). (2) **Alert status**: Recessed peacetime posture (warheads mated only in crisis) with \"de-mating verification\" transparency to reduce Adversary B's insecurity. Crisis mobilization: SSBNs surge to patrol areas, mobile launchers disperse - visible signaling without hair-trigger. (3) **Declaratory policy**: NFU against NFU states (Adversary B); calculated ambiguity against non-NFU state (Adversary A) - \"retaliation will be massive and disproportionate\" without specifying first-use. (4) **Command/control**: Civilian political control (NCA) with pre-delegated submarine letters of last resort. Justification: SSBNs guarantee survivability against Adversary A's superior counterforce; NFU toward Adversary B builds trust; ambiguity toward Adversary A preserves deterrence without committing to suicidal first use. Poor answers: \"build more nukes than both\" (ignores minimum), \"first use against both\" (loses moral high ground, triggers arms race), \"rely only on aircraft\" (vulnerable to preemption).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

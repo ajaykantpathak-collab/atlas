@@ -1,0 +1,682 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 10,
+ "chapter_title": "Light - Mirrors and Lenses",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hecu110.txt",
+ "concepts": [
+  {
+   "id": "c8cu.10.1",
+   "title": "Reflection of Light and the Laws of Reflection",
+   "section": "10.1",
+   "definition": "Reflection is the bouncing back of light when it strikes a smooth surface; the laws state that the angle of incidence equals the angle of reflection and the incident ray, reflected ray, and normal lie in the same plane.",
+   "formula": "angle_of_incidence = angle_of_reflection",
+   "key_idea": "Light reflects off surfaces following two laws: the angle of incidence equals the angle of reflection, and all three rays lie in one plane.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "State the laws of reflection of light.",
+    "If the angle of incidence is 30 degrees, what is the angle of reflection?",
+    "Define angle of incidence and angle of reflection.",
+    "Why is the normal drawn perpendicular to the reflecting surface?",
+    "Draw a ray diagram showing reflection from a plane mirror."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the given angle",
+     "explain": "Note the angle of incidence (or reflection) measured from the normal to the incident (or reflected) ray."
+    },
+    {
+     "step": 2,
+     "action": "Apply the law of reflection",
+     "explain": "By the first law of reflection, the angle of incidence equals the angle of reflection.",
+     "compute": "angle_r = angle_i"
+    },
+    {
+     "step": 3,
+     "action": "Compute and state the result",
+     "explain": "Report the equal angle and confirm the rays and normal lie in the same plane."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A ray of light strikes a mirror at an angle of 35 degrees to the normal. What is the angle of reflection?",
+     "solution": "By the law of reflection, angle of reflection = angle of incidence = 35 degrees.",
+     "answer": "35 degrees."
+    },
+    {
+     "question": "The angle between the incident ray and the mirror surface is 40 degrees. Find the angle of incidence.",
+     "solution": "The angle of incidence is measured from the normal, so angle of incidence = 90 - 40 = 50 degrees. By the law of reflection, the angle of reflection is also 50 degrees.",
+     "answer": "Angle of incidence = 50 degrees, angle of reflection = 50 degrees."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State the two laws of reflection of light.",
+     "type": "short_answer"
+    },
+    {
+     "question": "If the angle of incidence is 45 degrees, the angle of reflection is ____.",
+     "type": "objective"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.10.2",
+   "title": "Plane Mirror and Image Properties",
+   "section": "10.2",
+   "definition": "A plane mirror forms a virtual, erect, laterally inverted image that is the same size as the object and located the same distance behind the mirror as the object is in front.",
+   "formula": "",
+   "key_idea": "Images formed by plane mirrors are virtual, erect, same-sized, laterally inverted, and as far behind the mirror as the object is in front.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "List the properties of an image formed by a plane mirror.",
+    "What is lateral inversion? Give an example.",
+    "Why is the image in a plane mirror called virtual?",
+    "If an object is 5 m in front of a plane mirror, where is the image formed?",
+    "Explain why the word AMBULANCE is written in reverse on the front of an ambulance."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the mirror type",
+     "explain": "Confirm that the mirror is a flat (plane) reflecting surface."
+    },
+    {
+     "step": 2,
+     "action": "Locate the image",
+     "explain": "Trace the reflected rays behind the mirror; the image appears at the same distance behind the mirror as the object is in front."
+    },
+    {
+     "step": 3,
+     "action": "Verify image properties",
+     "explain": "Check that the image is virtual, erect, of the same size, and laterally inverted compared to the object."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A person stands 2 m in front of a plane mirror. How far behind the mirror is the image, and what is the distance between the person and the image?",
+     "solution": "The image forms 2 m behind the mirror (same distance as the object in front). The total distance between the person and the image is 2 + 2 = 4 m.",
+     "answer": "Image is 2 m behind the mirror; person-to-image distance is 4 m."
+    },
+    {
+     "question": "Why does the lettering on the front of an ambulance appear reversed when seen in a mirror?",
+     "solution": "A plane mirror produces lateral inversion (left-right reversal), so the reversed lettering reads correctly to a driver looking in the rear-view mirror.",
+     "answer": "Due to lateral inversion in a plane mirror."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State four characteristics of the image formed by a plane mirror.",
+     "type": "short_answer"
+    },
+    {
+     "question": "The image formed by a plane mirror is always (a) real (b) virtual (c) inverted (d) enlarged.",
+     "type": "objective"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.10.3",
+   "title": "Spherical Mirrors - Concave and Convex",
+   "section": "10.3",
+   "definition": "A spherical mirror is a part of a hollow sphere whose one side is polished; a concave mirror has its reflecting surface curved inward, while a convex mirror has its reflecting surface curved outward.",
+   "formula": "",
+   "key_idea": "Concave mirrors curve inward and can form real or virtual images, while convex mirrors curve outward and always form virtual, erect, diminished images.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Differentiate between a concave and a convex mirror.",
+    "Define pole, centre of curvature, radius of curvature, and principal axis of a spherical mirror.",
+    "Which mirror is used as a shaving mirror and why?",
+    "Which mirror is used as a rear-view mirror in vehicles and why?",
+    "Draw the principal focus of a concave and a convex mirror."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the reflecting surface",
+     "explain": "Observe whether the reflecting surface curves inward (concave) or outward (convex)."
+    },
+    {
+     "step": 2,
+     "action": "Locate key points",
+     "explain": "Identify the pole, centre of curvature, principal axis, and principal focus of the spherical mirror."
+    },
+    {
+     "step": 3,
+     "action": "Relate to uses",
+     "explain": "Connect the mirror type to its applications: concave mirrors focus light and are used as shaving or dentist mirrors, while convex mirrors give a wider field of view as rear-view mirrors."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which type of mirror is used as a rear-view mirror in cars? Give a reason.",
+     "solution": "A convex mirror is used because it always forms an erect, diminished image and provides a wider field of view of the traffic behind.",
+     "answer": "Convex mirror, for a wider field of view."
+    },
+    {
+     "question": "Why is a concave mirror used as a shaving mirror?",
+     "solution": "When the face is placed between the pole and the focus of a concave mirror, it forms an enlarged, erect, virtual image, allowing a closer and clearer view while shaving.",
+     "answer": "Concave mirror, to give an enlarged erect image."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define concave and convex mirrors. Give one use of each.",
+     "type": "short_answer"
+    },
+    {
+     "question": "The reflecting surface of a convex mirror is (a) curved inward (b) curved outward (c) flat (d) none.",
+     "type": "objective"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.10.4",
+   "title": "Image Formation by a Concave Mirror",
+   "section": "10.4",
+   "definition": "A concave mirror can form different types of images (real/inverted or virtual/erect) depending on the position of the object relative to the focus and centre of curvature.",
+   "formula": "",
+   "key_idea": "The nature, size, and position of the image formed by a concave mirror change with object distance: between pole and focus gives a virtual enlarged image, while beyond the focus gives a real inverted image.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Where should an object be placed before a concave mirror to get a real, inverted, and same-sized image?",
+    "Describe the image formed when the object is placed between the pole and the focus of a concave mirror.",
+    "Draw ray diagrams for an object placed at the centre of curvature of a concave mirror.",
+    "What kind of image is formed when the object is beyond the centre of curvature of a concave mirror?",
+    "List the cases of image formation by a concave mirror."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Locate the object position",
+     "explain": "Determine where the object is placed relative to the pole, focus (F), and centre of curvature (C) of the concave mirror."
+    },
+    {
+     "step": 2,
+     "action": "Draw the standard rays",
+     "explain": "Trace at least two standard rays (a ray parallel to the principal axis passing through F after reflection, and a ray through F reflected parallel to the axis) to locate the image."
+    },
+    {
+     "step": 3,
+     "action": "Describe the image",
+     "explain": "State the nature (real/virtual), size (enlarged/diminished/same), and position of the image based on the ray diagram."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "An object is placed at the centre of curvature of a concave mirror. Describe the image formed.",
+     "solution": "The image is formed at the centre of curvature itself; it is real, inverted, and of the same size as the object.",
+     "answer": "Real, inverted, same-sized image at C."
+    },
+    {
+     "question": "An object is placed between the pole and the focus of a concave mirror. What is the nature of the image?",
+     "solution": "The reflected rays diverge and appear to meet behind the mirror, forming a virtual, erect, and enlarged image.",
+     "answer": "Virtual, erect, and enlarged."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Draw a ray diagram for an object placed beyond C in front of a concave mirror and describe the image.",
+     "type": "short_answer"
+    },
+    {
+     "question": "When an object is at F of a concave mirror, the image is formed at (a) infinity (b) C (c) F (d) pole.",
+     "type": "objective"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.10.5",
+   "title": "Image Formation by a Convex Mirror",
+   "section": "10.5",
+   "definition": "A convex mirror always forms a virtual, erect, and diminished image of an object placed anywhere in front of it, regardless of the object distance.",
+   "formula": "",
+   "key_idea": "Convex mirrors always produce virtual, erect, and smaller images between the pole and the focus behind the mirror, giving a wider field of view.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What type of image is always formed by a convex mirror?",
+    "Draw a ray diagram showing image formation by a convex mirror.",
+    "Why does a convex mirror always give a diminished image?",
+    "Where is the image formed when the object is far away from a convex mirror?",
+    "State one practical use of a convex mirror based on its image properties."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Place the object in front",
+     "explain": "Note that the object is always placed in front of the convex mirror (between infinity and the pole)."
+    },
+    {
+     "step": 2,
+     "action": "Draw the standard rays",
+     "explain": "Trace a ray parallel to the principal axis (appears to come from the focus after reflection) and a ray towards the centre of curvature (reflects back along the same path) to locate the image behind the mirror."
+    },
+    {
+     "step": 3,
+     "action": "Describe the image",
+     "explain": "Conclude that the image is virtual, erect, diminished, and located between the pole and the focus behind the mirror."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "An object is placed at any distance in front of a convex mirror. Describe the image formed.",
+     "solution": "A convex mirror always forms a virtual, erect, and diminished image between the pole and the focus behind the mirror, irrespective of the object distance.",
+     "answer": "Virtual, erect, and diminished."
+    },
+    {
+     "question": "Why are convex mirrors preferred for use as rear-view mirrors?",
+     "solution": "They always produce an erect, diminished image and provide a wider field of view, allowing the driver to see a larger area of the traffic behind.",
+     "answer": "For a wider field of view and erect diminished images."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State the nature and position of the image formed by a convex mirror for any object distance.",
+     "type": "short_answer"
+    },
+    {
+     "question": "A convex mirror forms an image that is always (a) real and inverted (b) virtual and erect (c) real and erect (d) virtual and inverted.",
+     "type": "objective"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.10.6",
+   "title": "Mirror Formula and Magnification",
+   "section": "10.6",
+   "definition": "The mirror formula relates object distance (u), image distance (v), and focal length (f) as 1/v + 1/u = 1/f, while magnification (m) is the ratio of image height to object height.",
+   "formula": "1/v + 1/u = 1/f; m = -v/u = h'/h",
+   "key_idea": "The mirror formula connects the object distance, image distance, and focal length of a spherical mirror; magnification indicates how much larger or smaller the image is compared to the object.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "State the mirror formula and define each term.",
+    "An object is placed 30 cm in front of a concave mirror of focal length 15 cm. Find the image distance.",
+    "Define magnification of a mirror. What does a negative magnification indicate?",
+    "Calculate the magnification if the image is formed at 20 cm when the object is at 10 cm.",
+    "An object 4 cm tall is placed 20 cm from a concave mirror of f = 10 cm. Find the image position and size."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the given values with sign convention",
+     "explain": "Note the object distance (u, negative), focal length (f, negative for concave, positive for convex), and any known image distance or height."
+    },
+    {
+     "step": 2,
+     "action": "Apply the mirror formula",
+     "explain": "Use 1/v + 1/u = 1/f and solve for the unknown image distance v."
+    },
+    {
+     "step": 3,
+     "action": "Compute magnification",
+     "explain": "Calculate magnification m = -v/u and the image height h' = m x h, then interpret the sign (negative means inverted).",
+     "compute": "m = -v / u"
+    },
+    {
+     "step": 4,
+     "action": "Compute magnification",
+     "explain": "Calculate magnification m = -v/u and the image height h' = m x h, then interpret the sign (negative means inverted).",
+     "compute": "h_prime = m * h"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "An object is placed 30 cm in front of a concave mirror of focal length 15 cm. Find the position and nature of the image.",
+     "solution": "Using sign convention u = -30 cm, f = -15 cm. 1/v = 1/f - 1/u = 1/(-15) - 1/(-30) = -1/15 + 1/30 = (-2 + 1)/30 = -1/30. So v = -30 cm. The image is real, inverted, and at 30 cm in front of the mirror.",
+     "answer": "Image at 30 cm in front; real and inverted."
+    },
+    {
+     "question": "An object 4 cm tall is placed 20 cm from a concave mirror of focal length 10 cm. Find the image distance and height.",
+     "solution": "u = -20 cm, f = -10 cm. 1/v = 1/(-10) - 1/(-20) = -1/10 + 1/20 = (-2 + 1)/20 = -1/20. v = -20 cm. m = -v/u = -(-20)/(-20) = -1. h' = m x h = -1 x 4 = -4 cm.",
+     "answer": "Image at 20 cm in front; height 4 cm, inverted (same size)."
+    },
+    {
+     "question": "A convex mirror of focal length 15 cm forms an image 6 cm behind the mirror. Find the object distance.",
+     "solution": "For a convex mirror f = +15 cm, v = +6 cm. 1/u = 1/f - 1/v = 1/15 - 1/6 = (2 - 5)/30 = -3/30 = -1/10. u = -10 cm. The object is 10 cm in front of the mirror.",
+     "answer": "Object at 10 cm in front of the mirror."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "An object is placed 10 cm in front of a concave mirror of focal length 20 cm. Find the image distance and magnification.",
+     "type": "numerical"
+    },
+    {
+     "question": "Define magnification. What is the meaning of m = -2 for a mirror?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.10.7",
+   "title": "Refraction of Light",
+   "section": "10.7",
+   "definition": "Refraction is the bending of light when it passes from one transparent medium to another of different optical density, caused by the change in speed of light in the two media.",
+   "formula": "",
+   "key_idea": "Light bends towards the normal when entering a denser medium and away from the normal when entering a rarer medium, because its speed changes between the two media.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define refraction of light. Give one example.",
+    "Why does a pencil partly immersed in water appear bent?",
+    "State the rules of refraction regarding the bending of light towards or away from the normal.",
+    "Why is the bottom of a swimming pool seen at a shallower depth than it actually is?",
+    "List two effects of refraction observed in daily life."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the two media",
+     "explain": "Determine the two transparent media involved and which one is optically denser and which is rarer."
+    },
+    {
+     "step": 2,
+     "action": "Apply the bending rule",
+     "explain": "If light goes from rarer to denser, it bends towards the normal; if from denser to rarer, it bends away from the normal."
+    },
+    {
+     "step": 3,
+     "action": "Explain the observation",
+     "explain": "Relate the bending to the change in speed of light and describe the observed effect, such as apparent displacement or bending of an object."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why does a stick appear bent when partly immersed in water?",
+     "solution": "Light from the immersed part of the stick travels from water (denser) to air (rarer) and bends away from the normal, so the part appears shifted, making the stick look bent.",
+     "answer": "Due to refraction of light at the water-air boundary."
+    },
+    {
+     "question": "Light travels from air into glass. Will it bend towards or away from the normal?",
+     "solution": "Glass is optically denser than air, so light slows down and bends towards the normal when entering glass.",
+     "answer": "Towards the normal."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define refraction. State two rules that describe the direction of bending.",
+     "type": "short_answer"
+    },
+    {
+     "question": "When light passes from water to air, it bends (a) towards the normal (b) away from the normal (c) no bending (d) reflects.",
+     "type": "objective"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.10.8",
+   "title": "Convex and Concave Lenses",
+   "section": "10.8",
+   "definition": "A convex lens is thicker at the middle and converges parallel rays to a focus, while a concave lens is thinner at the middle and diverges parallel rays appearing to come from a focus.",
+   "formula": "",
+   "key_idea": "Convex lenses are converging lenses that bring parallel rays together at the principal focus; concave lenses are diverging lenses that spread parallel rays apart.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Differentiate between a convex lens and a concave lens.",
+    "Which lens is called a converging lens and why?",
+    "Define the principal focus of a convex lens.",
+    "Why is a concave lens called a diverging lens?",
+    "Give one use each of a convex lens and a concave lens."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine the lens shape",
+     "explain": "Check whether the lens is thicker at the middle (convex) or thinner at the middle (concave)."
+    },
+    {
+     "step": 2,
+     "action": "Trace parallel rays",
+     "explain": "Pass parallel rays through the lens; a convex lens converges them at the focus, while a concave lens diverges them so they appear to come from the focus."
+    },
+    {
+     "step": 3,
+     "action": "Classify the lens",
+     "explain": "Conclude whether the lens is converging (convex) or diverging (concave) and state its principal focus."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which lens is used in a magnifying glass and why?",
+     "solution": "A convex (converging) lens is used because when the object is placed within the focal length, it forms a virtual, erect, and enlarged image.",
+     "answer": "Convex lens, for an enlarged virtual image."
+    },
+    {
+     "question": "A lens diverges a beam of parallel rays. Identify the lens and its type.",
+     "solution": "A lens that diverges parallel rays is a concave lens, which is a diverging lens.",
+     "answer": "Concave (diverging) lens."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between a convex and a concave lens with two points of difference.",
+     "type": "short_answer"
+    },
+    {
+     "question": "A lens that converges parallel rays is (a) concave (b) convex (c) plane (d) cylindrical.",
+     "type": "objective"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.10.9",
+   "title": "Image Formation by Lenses",
+   "section": "10.9",
+   "definition": "Lenses form images whose nature depends on the object position; a convex lens can form real or virtual images, while a concave lens always forms a virtual, erect, and diminished image.",
+   "formula": "1/v - 1/u = 1/f; m = v/u = h'/h",
+   "key_idea": "The lens formula 1/v - 1/u = 1/f relates object distance, image distance, and focal length; convex lenses form varied images while concave lenses always give virtual, erect, diminished images.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "State the lens formula and define each term.",
+    "An object is placed 30 cm in front of a convex lens of focal length 20 cm. Find the image distance.",
+    "Describe the image formed by a concave lens for any object position.",
+    "Where should an object be placed before a convex lens to get a real, inverted, and magnified image?",
+    "An object 5 cm tall is placed 15 cm from a convex lens of f = 10 cm. Find the image position and size."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the given values with sign convention",
+     "explain": "Note the object distance (u, negative), focal length (f, positive for convex, negative for concave), and any known image distance or height."
+    },
+    {
+     "step": 2,
+     "action": "Apply the lens formula",
+     "explain": "Use 1/v - 1/u = 1/f and solve for the unknown image distance v."
+    },
+    {
+     "step": 3,
+     "action": "Compute magnification and describe the image",
+     "explain": "Calculate m = v/u and h' = m x h, then state whether the image is real/virtual, erect/inverted, and magnified/diminished.",
+     "compute": "m = v / u"
+    },
+    {
+     "step": 4,
+     "action": "Compute magnification and describe the image",
+     "explain": "Calculate m = v/u and h' = m x h, then state whether the image is real/virtual, erect/inverted, and magnified/diminished.",
+     "compute": "h_prime = m * h"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "An object is placed 30 cm in front of a convex lens of focal length 20 cm. Find the image distance and nature.",
+     "solution": "u = -30 cm, f = +20 cm. 1/v = 1/f + 1/u = 1/20 + 1/(-30) = (3 - 2)/60 = 1/60. v = 60 cm. The image is real, inverted, and magnified, formed 60 cm on the other side.",
+     "answer": "Image at 60 cm; real, inverted, magnified."
+    },
+    {
+     "question": "An object 5 cm tall is placed 15 cm from a convex lens of focal length 10 cm. Find the image position and height.",
+     "solution": "u = -15 cm, f = +10 cm. 1/v = 1/10 + 1/(-15) = (3 - 2)/30 = 1/30. v = 30 cm. m = v/u = 30/(-15) = -2. h' = m x h = -2 x 5 = -10 cm. The image is real, inverted, and enlarged.",
+     "answer": "Image at 30 cm; height 10 cm, real and inverted."
+    },
+    {
+     "question": "An object is placed 20 cm in front of a concave lens of focal length 15 cm. Find the image distance.",
+     "solution": "u = -20 cm, f = -15 cm. 1/v = 1/f + 1/u = 1/(-15) + 1/(-20) = (-4 - 3)/60 = -7/60. v = -60/7 = -8.57 cm. The image is virtual, erect, and diminished, formed 8.57 cm on the same side as the object.",
+     "answer": "Image at -8.57 cm; virtual, erect, diminished."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "An object is placed 10 cm in front of a convex lens of focal length 15 cm. Find the image distance and nature.",
+     "type": "numerical"
+    },
+    {
+     "question": "Describe the image formed by a concave lens regardless of object position.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "exgen.c8cu.10.1.1",
+   "source_ref": "generated practice sample aligned to hecu110.txt",
+   "concept": "c8cu.10.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the angle r step by step for a case with {angle_i}.",
+   "extracted_variables": {
+    "angle_i": "angle i (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute angle r",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "angle_r = angle_i"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8cu.10.1.2",
+   "source_ref": "generated practice sample aligned to hecu110.txt",
+   "concept": "c8cu.10.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the angle r step by step for a case with {angle_i}.",
+   "extracted_variables": {
+    "angle_i": "angle i (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute angle r",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "angle_r = angle_i"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8cu.10.6.1",
+   "source_ref": "generated practice sample aligned to hecu110.txt",
+   "concept": "c8cu.10.6",
+   "question_type": "compute",
+   "question_pattern": "Calculate the h prime step by step for a case with {v}, {u}, {h}.",
+   "extracted_variables": {
+    "v": "v (given value)",
+    "u": "u (given value)",
+    "h": "h (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute m",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "m = -v / u"
+    },
+    {
+     "step": 2,
+     "action": "compute h prime",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "h_prime = m * h"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8cu.10.6.2",
+   "source_ref": "generated practice sample aligned to hecu110.txt",
+   "concept": "c8cu.10.6",
+   "question_type": "compute",
+   "question_pattern": "Calculate the h prime step by step for a case with {v}, {u}, {h}.",
+   "extracted_variables": {
+    "v": "v (given value)",
+    "u": "u (given value)",
+    "h": "h (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute m",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "m = -v / u"
+    },
+    {
+     "step": 2,
+     "action": "compute h prime",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "h_prime = m * h"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8cu.10.9.1",
+   "source_ref": "generated practice sample aligned to hecu110.txt",
+   "concept": "c8cu.10.9",
+   "question_type": "compute",
+   "question_pattern": "Calculate the h prime step by step for a case with {v}, {u}, {h}.",
+   "extracted_variables": {
+    "v": "v (given value)",
+    "u": "u (given value)",
+    "h": "h (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute m",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "m = v / u"
+    },
+    {
+     "step": 2,
+     "action": "compute h prime",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "h_prime = m * h"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8cu.10.9.2",
+   "source_ref": "generated practice sample aligned to hecu110.txt",
+   "concept": "c8cu.10.9",
+   "question_type": "compute",
+   "question_pattern": "Calculate the h prime step by step for a case with {v}, {u}, {h}.",
+   "extracted_variables": {
+    "v": "v (given value)",
+    "u": "u (given value)",
+    "h": "h (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute m",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "m = v / u"
+    },
+    {
+     "step": 2,
+     "action": "compute h prime",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "h_prime = m * h"
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

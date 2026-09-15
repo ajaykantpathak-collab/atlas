@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch07_075",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch07_075",
+   "title": "c6_math_ch07_075",
+   "questions": [
+    {
+     "q": "What do we call a closed figure made of exactly five straight line segments?",
+     "a": "It is called a pentagon. A student who says \"square\" or \"triangle\" has not yet learned the naming convention based on side counts, indicating a need to review the list of polygon names.",
+     "self_check": true
+    },
+    {
+     "q": "If a quadrilateral has all sides equal but its corners are not the same size, is it a regular polygon? Why or why not?",
+     "a": "No, it is not regular. To be regular, both sides AND angles must be equal; a student who says \"yes\" assumes that equal sides alone define a regular polygon, missing the requirement for equal angles.",
+     "self_check": true
+    },
+    {
+     "q": "A shape has 6 sides of different lengths and different angles. Is it a polygon? If so, what is it called?",
+     "a": "Yes, it is a hexagon. A student who says \"it is not a polygon\" confuses \"irregular\" with \"not a polygon.\" A polygon only requires straight, closed segments, regardless of whether they are equal.",
+     "self_check": true
+    },
+    {
+     "q": "Compare an equilateral triangle and a scalene triangle. Which one is a regular polygon and why?",
+     "a": "The equilateral triangle is regular because all sides and all angles are equal. A student who struggles here fails to connect the definition of \"regular\" to the specific properties of geometric shapes.",
+     "self_check": true
+    },
+    {
+     "q": "If you are asked to draw an irregular octagon, what is the one rule you must follow to ensure it is still a polygon?",
+     "a": "You must ensure it has exactly eight straight sides and that the figure is closed. A student who says \"all sides must be equal\" has confused the definition of a general polygon with that of a regular one.",
+     "self_check": true
+    },
+    {
+     "q": "Draw a shape that is NOT a polygon and explain why it fails the definition.",
+     "a": "Accept any shape with a curved line or an open end (e.g., a circle or a \"C\" shape). Failure to include a curve or an opening indicates the student doesn't grasp the \"straight line segments\" or \"closed\" criteria.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

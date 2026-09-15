@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch6_1",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch6_1",
+   "title": "c8_math_ch6_1",
+   "questions": [
+    {
+     "q": "State the distributive property of multiplication over addition using the variables \\(a\\), \\(b\\), and \\(c\\).",
+     "a": "The property is \\(a(b + c) = ab + ac\\). A wrong answer like \\(a(b + c) = ab + c\\) reveals the student thinks the multiplier only applies to the first term inside the bracket, a classic \"incomplete distribution\" error. Writing \\(a(b + c) = a + b + c\\) shows confusion between multiplication and addition.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \\(4 \\times (3 + 5)\\) and \\(4 \\times 3 + 4 \\times 5\\) give the same answer. Use the meaning of multiplication as repeated addition in your explanation.",
+     "a": "\\(4 \\times (3 + 5)\\) means adding \\((3+5)\\) four times: \\((3+5)+(3+5)+(3+5)+(3+5)\\). By reordering (commutative/associative property of addition), this becomes \\((3+3+3+3) + (5+5+5+5)\\) which is \\(4 \\times 3 + 4 \\times 5\\). A student who only computes both sides (getting 32) but cannot explain the *reason* shows procedural fluency without conceptual understanding. They may fail when variables replace numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Simplify \\(7 \\times \\left(\\frac{2}{3} + \\frac{1}{6}\\right)\\) using the distributive property. Show all steps.",
+     "a": "Step 1: Distribute 7 to both fractions: \\(7 \\times \\frac{2}{3} + 7 \\times \\frac{1}{6}\\).  \nStep 2: Multiply: \\(\\frac{14}{3} + \\frac{7}{6}\\).  \nStep 3: Common denominator 6: \\(\\frac{28}{6} + \\frac{7}{6} = \\frac{35}{6}\\).  \nStep 4: Convert to mixed number: \\(5 \\frac{5}{6}\\).  \nA wrong answer like \\(\\frac{14}{3} + \\frac{1}{6}\\) (missing the 7 on the second term) shows the \"incomplete distribution\" error. An answer of \\(\\frac{21}{9}\\) (adding numerators and denominators) shows a fraction addition misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two methods for evaluating \\(12 \\times 19\\). Method A: \\(12 \\times (20 - 1)\\). Method B: \\(12 \\times (10 + 9)\\). Which uses the distributive property over addition? Can Method A be rewritten to use distributive property over addition? Explain.",
+     "a": "Method B uses distributive property over addition: \\(12 \\times (10 + 9) = 12 \\times 10 + 12 \\times 9\\). Method A uses subtraction. It can be rewritten as \\(12 \\times (20 + (-1)) = 12 \\times 20 + 12 \\times (-1)\\), which is distributive property over addition with a negative integer. A student who says \"Method A doesn't use distributive property\" fails to see that subtraction is adding a negative, a key Class 8 extension (c8_math_ch6_6).",
+     "self_check": true
+    },
+    {
+     "q": "A student wrote: \\(5(x + 3) = 5x + 3\\). Is this correct? If not, identify the error and give the correct expansion.",
+     "a": "Incorrect. The error is incomplete distribution: the student multiplied 5 by \\(x\\) but forgot to multiply 5 by 3. The correct expansion is \\(5x + 15\\). A student who says \"it's correct because 5 times x is 5x and you just bring down the 3\" reveals a fundamental misunderstanding that the bracket implies multiplication of the outside term with *each* inside term, not just the first.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life word problem (Indian context: rupees, metres, litres) that requires using the distributive property \\(a(b + c) = ab + ac\\) to solve efficiently. The problem must involve a decimal or fraction multiplier.",
+     "a": "Example: \"Riya buys 2.5 kg of apples at ₹120/kg and 2.5 kg of oranges at ₹80/kg. Use the distributive property to find the total cost.\"  \nSolution: \\(2.5 \\times (120 + 80) = 2.5 \\times 200 = 500\\) or \\(2.5 \\times 120 + 2.5 \\times 80 = 300 + 200 = 500\\).  \nA poor problem would use only whole numbers (already mastered in Class 7) or would not naturally suggest grouping the sum first (e.g., asking for cost of each separately). A good problem shows the student recognizes when distributing *or* summing first is easier.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

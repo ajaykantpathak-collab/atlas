@@ -1,0 +1,204 @@
+{
+ "catalog": "catalog_class12_sociology_lesy106",
+ "concepts": [
+  {
+   "id": "lesy106.1",
+   "title": "Cultural Diversity and Why It Poses a Challenge",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Cultural Diversity and Why It Poses a Challenge' refers to.",
+     "a": "Diversity stresses difference rather than inequality: India hosts many kinds of social groups and communities marked by language, religion, sect, race or caste living inside one nation. The challenge arises because cultural identities arouse intense passions and mobilise large numbers, differences often ride on economic and social inequalities, measures favouring one community provoke others, and scarce resources such as river water, jobs and government funds must be shared.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cultural Diversity and Why It Poses a Challenge'.",
+     "a": "Competition or conflict between culturally distinct communities inside a single political entity is what turns diversity into a tough governance question.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Cultural Diversity and Why It Poses a Challenge', in plain ASCII form.",
+     "a": "diversity_markers = language + religion + sect + race + caste ; challenge = strong_identities + inequality_overlap + scarce_resource_competition",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy106.2",
+   "title": "Community Identity: Ascriptive, Universal and Emotional",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Community Identity: Ascriptive, Universal and Emotional' refers to.",
+     "a": "Community identity rests on birth and belonging, not achievement: it is ascriptive, chosen by nobody, yet felt as total and almost inescapable - unlike a profession or team that demands exams and skill. It is universal, since everyone has a motherland, mother tongue, family and faith, and it anchors the self through the language and cultural values the community hands over during socialisation. Because belonging is unconditional, people react emotionally or violently to perceived threats, and each side in a communal conflict builds a mirror image of the other as enemy while God and truth seem to be on its own side alone.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Community Identity: Ascriptive, Universal and Emotional'.",
+     "a": "We do nothing to deserve our family, caste, language or religion, yet these accidental memberships carry our deepest loyalties.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Community Identity: Ascriptive, Universal and Emotional', in plain ASCII form.",
+     "a": "community_identity = ascriptive (by_birth) + universal (everyone_has_one) + emotional (threats_provoke_passion)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy106.3",
+   "title": "Nation, State and the Nation-State",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Nation, State and the Nation-State' refers to.",
+     "a": "A nation is a community of communities whose members want to share one political collectivity, yet no cultural criterion - language, religion, ethnicity - defines it without exceptions, so the closest distinguishing mark is statehood: nations are communities that have a state of their own, giving the hyphenated nation-state. Max Weber defines the state as a body successfully claiming a monopoly of legitimate force over a territory, and in the modern era democracy and nationalism became the dominant sources of political legitimacy, so states now need the nation as much as nations need states - though one-to-one matching is new, as the Soviet Union's hundred-odd recognised nationalities and non-resident Jamaicans show.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Nation, State and the Nation-State'.",
+     "a": "No defining feature guarantees nationhood - any community might become a nation, which is why existing states treat every community identity as a potential rival.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Nation, State and the Nation-State', in plain ASCII form.",
+     "a": "nation = community seeking political_unity ; state = monopoly_of_legitimate_force (Weber) over territory ; nation_state = nation with a state of its own",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy106.4",
+   "title": "Assimilation, Integration and the Indian State-Nation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Assimilation, Integration and the Indian State-Nation' refers to.",
+     "a": "Fearing fragmentation, most states homogenise: assimilationist policies force all citizens toward the dominant group's culture, while integrationist policies allow minority cultures only in the private sphere and reserve the public arena for a single national pattern - centralising power, imposing one official language, celebrating dominant heroes and seizing minority lands as national resources. India fits neither model: it rejected assimilation, refuses to banish religion and language from public life, gives strong constitutional protection to minorities, and stands as a leading example of the state-nation where many nations co-exist in one polity through multiple and complementary identities.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Assimilation, Integration and the Indian State-Nation'.",
+     "a": "Suppressing diversity is costly - it alienates minorities and can intensify the very identities it targets - so accommodating diversity is good policy in practice and in principle.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Assimilation, Integration and the Indian State-Nation', in plain ASCII form.",
+     "a": "homogenising_policies = assimilation (public_and_private) + integration (public_only) ; indian_alternative = state_nation with multiple_complementary_identities",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy106.5",
+   "title": "India's Diversity in Numbers: Religious Composition Arithmetic",
+   "questions": [
+    {
+     "q": "Compute the Muslim population of India from a total of about 1207 million and a 14.2 per cent share. Use the method 'India's Diversity in Numbers: Religious Composition Arithmetic'. Work with: hindu_population = 5000, hindu_share = 0.25, muslim_share = 0.25. Carry the chain through step by step and give the final value of muslim_count.",
+     "a": "5000 per cent",
+     "self_check": false
+    },
+    {
+     "q": "How many languages and dialects do Indians speak and how many enjoy Eighth Schedule status? Use the method 'India's Diversity in Numbers: Religious Composition Arithmetic'. Work with: hindu_population = 25000, hindu_share = 0.8, muslim_share = 0.3. Carry the chain through step by step and give the final value of muslim_count.",
+     "a": "9375 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'India's Diversity in Numbers: Religious Composition Arithmetic' refers to.",
+     "a": "Census of India 2011 counted about 1.21 billion people speaking some 1,632 languages and dialects, with 22 languages in the Eighth Schedule. Hindus number about 966 million or 80 per cent, Muslims 172 million or 14.2 per cent - the largest minority, making India the world's second largest Muslim country - Christians 27.8 million or 2.3 per cent, Sikhs 21 million or 1.7 per cent, Buddhists 8 million or 0.7 per cent and Jains 4.5 million or 0.4 per cent; small percentages add up to large absolute numbers because of India's huge base.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'India's Diversity in Numbers: Religious Composition Arithmetic'.",
+     "a": "The Hindu population stands four times the combined minorities and about six times the Muslim population - arithmetic that the 2011 Census figures let you verify.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'India's Diversity in Numbers: Religious Composition Arithmetic', in plain ASCII form.",
+     "a": "total_population = hindu_population / hindu_share * 100 ; hindu_multiple = hindu_population / minority_population ; muslim_count = total_population * muslim_share / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy106.6",
+   "title": "Regionalism and the Linguistic Reorganisation of States",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Regionalism and the Linguistic Reorganisation of States' refers to.",
+     "a": "Regionalism in India grows from diversity of languages, cultures, tribes and religions, their geographical concentration, and a sense of regional deprivation; federalism accommodates it. After the Constitution was adopted, colonial presidencies gave way to ethno-linguistic states: Potti Sriramulu's 1953 fast unto death forced Andhra's creation and the States Reorganisation Commission, which in 1956 sealed the linguistic principle - and far from breaking India, linguistic states strengthened unity, as the Sri Lankan civil war and Pakistan's 1971 break-up show what denial of language rights can cost. Today the union counts 28 States and 8 Union Territories, with federal lists, the Rajya Sabha, the Finance Commission set up every five years and the GST Council backing State viability.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Regionalism and the Linguistic Reorganisation of States'.",
+     "a": "It proved perfectly consistent to be Kannadiga and Indian, Tamil and Indian - one language could have meant fourteen nations, but many languages kept one.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Regionalism and the Linguistic Reorganisation of States', in plain ASCII form.",
+     "a": "regionalism_bases = language + tribal_ethnicity + regional_deprivation + ecology ; federal_machinery = union_and_state_lists + rajya_sabha + finance_commission + gst_council",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy106.7",
+   "title": "Minority Rights and the Sociology of Minorities",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Minority Rights and the Sociology of Minorities' refers to.",
+     "a": "In sociology, minority means more than numbers: it implies relative disadvantage, a collectivity with strong group solidarity forged by experienced prejudice, and groups like the left-handed or the 29 February-born are therefore not minorities at all. Anomalous cases exist - Parsis or Sikhs may be economically well-off yet culturally disadvantaged by small numbers - so religious and cultural minorities need special protection against demographic dominance. Indian nationalism's inclusive vision wrote this into Articles 29 and 30 on conserving distinct languages and cultures and running minority educational institutions, and Dr Ambedkar warned the Constituent Assembly that minorities are an explosive force which, if it erupts, can blow up the fabric of the state.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Minority Rights and the Sociology of Minorities'.",
+     "a": "Bangladesh's birth and Sri Lanka's conflict show what denying cultural and linguistic rights does; forced imposition of a language or religion weakens Indian unity, which rests on recognising difference.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Minority Rights and the Sociology of Minorities', in plain ASCII form.",
+     "a": "sociological_minority = small_numbers + relative_disadvantage + collectivity_solidarity ; constitutional_shield = article_29 + article_30",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy106.8",
+   "title": "Communalism and Secularism in the Indian Sense",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Communalism and Secularism in the Indian Sense' refers to.",
+     "a": "Communalism in South Asia means aggressive political chauvinism built on religious identity - an ideology, not faith: a communalist may be irreligious and a devout person non-communal, but every communalist holds that religious identity overrides class, caste and politics, flattening diverse believers into one homogenous bloc ready to condemn the rest. Its history mixes colonial divide-and-rule, older conflicts and recurrent riots, but also a syncretic heritage of the Bhakti and Sufi kind, sung by Kabir. Secularism in India adds to the Western separation of church and state an equal respect for all religions - the state declares holidays for every faith - which collides with the accusation of appeasement whenever minorities receive special protection.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Communalism and Secularism in the Indian Sense'.",
+     "a": "Communalism is about politics, not piety; and Indian secularism protects minorities without banning religion from public life - the appeasement charge is the price of that balance.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Communalism and Secularism in the Indian Sense', in plain ASCII form.",
+     "a": "communalism = aggressive_political_ideology on religious_identity (not religion itself) ; indian_secularism = equal_respect_for_all_religions rather than separation",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy106.9",
+   "title": "State, Civil Society and the Right to Information",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'State, Civil Society and the Right to Information' refers to.",
+     "a": "The state - legislature, bureaucracy, judiciary, armed forces, police - can drift from its people into authoritarianism, corruption or inefficiency, curtailing civil liberties; civil society names the arena beyond family, state and market where citizens voluntarily form associations - political parties, media, trade unions, NGOs, religious organisations - to watch the state, protest injustice and supplement its work. The Right to Information Act 2005, born from a rural Rajasthan agitation, obliges every public authority to answer requests expeditiously or within thirty days, computerise records and publish proactively, overriding the Official Secrets Act 1923 - civil society forcing the state to stay accountable.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'State, Civil Society and the Right to Information'.",
+     "a": "From tribal land struggles to housing and education campaigns, active citizenship keeps the state answerable to the nation and its people.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'State, Civil Society and the Right to Information', in plain ASCII form.",
+     "a": "civil_society = voluntary_non_state_non_market_associations ; rti_duty = reply within thirty_days plus proactive_disclosure",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

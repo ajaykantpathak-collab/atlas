@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_06_006",
+   "title": "c11_psy_cbse_06_006",
+   "questions": [
+    {
+     "q": "A student claims, \"Ebbinghaus proved we forget everything at a constant rate — like 10% per hour.\" State the exact pattern Ebbinghaus actually found, using the terms \"initial drop\" and \"asymptotic decline.\"",
+     "a": "Ebbinghaus found a **non-linear, two-phase pattern**: the rate of forgetting is **maximum in the first 9 hours (especially the first hour)**, with ~50-60% loss, after which the curve **flattens into a gradual asymptotic decline** — very little additional forgetting occurs over days. A wrong answer revealing \"constant rate\" shows the student confuses the curve with a linear decay model and misses the critical insight that immediate review (within the first hour) is disproportionately powerful for retention.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the \"sleep vs. wake\" comparison disproves trace decay theory as the *sole* explanation for forgetting, using the logic of \"opportunity for trace use.\"",
+     "a": "Trace decay theory predicts that memory traces fade from *disuse* — so the group that **sleeps** (no rehearsal opportunity) should forget **more** than the group that stays **awake** (traces could be used/rehearsed). Empirically, the **sleep group forgets less** because sleep prevents *interference* from new inputs. A wrong answer (e.g., \"sleep group forgets more because no rehearsal\") shows the student accepts decay theory uncritically and fails to grasp that interference — not disuse — is the dominant driver in waking conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 2×2 experimental layout to test **retroactive interference** using nonsense syllables. Specify: (a) what Group 1 learns in Phase 1 and Phase 2, (b) what Group 2 (control) does in Phase 2, (c) what both groups recall in the test phase, and (d) the predicted outcome if retroactive interference occurs.",
+     "a": "(a) Group 1: Phase 1 → Learn List A (e.g., 10 CVC trigrams); Phase 2 → Learn List B (different 10 trigrams). (b) Group 2 (control): Phase 1 → Learn List A; Phase 2 → **Rest / unrelated task** (no List B). (c) Test phase: **Both groups recall List A only**. (d) Prediction: Group 1 shows **significantly lower recall of List A** than Group 2 because List B learning interferes *retroactively* with List A retrieval. A wrong design (e.g., testing List B recall) reveals confusion between proactive and retroactive interference directionality.",
+     "self_check": true
+    },
+    {
+     "q": "A student memorizes 30 Spanish vocabulary words using the keyword method (e.g., *pato* → \"pot\" → duck in pot). Two days later, they cannot recall *pato* without the cue \"pot.\" Analyze this using **retrieval failure theory**: is the memory trace lost? What specific cue property is missing during unaided recall?",
+     "a": "The memory trace is **intact but inaccessible** — retrieval failure, not trace loss. The keyword \"pot\" served as an **effective retrieval cue during encoding** (it linked the novel Spanish word to a familiar English image). During unaided recall, that **self-generated cue is absent**; the student lacks an internally generated retrieval path to the target. A wrong answer claiming \"the memory decayed\" confuses retrieval failure with trace decay and misses that cue-dependent forgetting is reversible (providing \"pot\" restores recall instantly).",
+     "self_check": true
+    },
+    {
+     "q": "Critique this study advice: \"To minimize forgetting, study all your similar subjects (Physics, Chemistry, Math) back-to-back in one 4-hour block so the concepts reinforce each other.\" Use interference theory to justify your evaluation.",
+     "a": "**Poor advice.** Interference theory shows **maximum interference occurs when highly similar material is learned in close succession** — Physics formulas, Chemistry equations, and Math derivations share structural/formal similarity, creating strong **retroactive interference** (each new subject disrupts consolidation of the previous one) and **proactive interference** (earlier subjects block encoding of later ones). Better: **interleave dissimilar subjects** (e.g., Physics → History → Chemistry → English) and insert **rest breaks** to reduce interference. A wrong endorsement reveals the student misunderstands \"similarity\" as facilitation rather than competition at retrieval.",
+     "self_check": true
+    },
+    {
+     "q": "Create an original real-life scenario (Indian context, ≤100 words) that simultaneously illustrates **all three causes of forgetting** — trace decay, interference, and retrieval failure — for the same learned material. Label each cause in your scenario.",
+     "a": "*Scenario:* Riya learns 20 Constitution articles (Article 14–33) for her Polity exam on **Monday night**. (1) **Trace decay**: By **Thursday**, without review, the neural traces for Articles 25–33 have faded — she recalls only the first few. (2) **Interference**: On **Tuesday**, she studies 20 *new* Articles (34–53); on **Wednesday**, when she tries to recall Articles 14–33, the newer Articles 34–53 intrude (*retroactive interference*). (3) **Retrieval failure**: On exam day, she blanks on Article 21 — but when the invigilator whispers \"Right to Life,\" she instantly recalls the full article (*cue-dependent retrieval*). A poor answer treats these as separate events for different materials, missing that they co-occur for the *same* memory trace.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

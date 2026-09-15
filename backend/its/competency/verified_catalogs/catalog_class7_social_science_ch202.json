@@ -1,0 +1,464 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 202,
+ "chapter_title": "Inside Our Earth",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lebo108.txt",
+ "concepts": [
+  {
+   "id": "gess.202.1.1",
+   "title": "Earth's Layers Volume Calculation",
+   "section": "Interior of the Earth",
+   "definition": "The quantitative proportion of the Earth's total volume occupied by its individual layers, namely the crust, mantle, and core.",
+   "formula": "layer_volume = total_volume * percentage / 100",
+   "key_idea": "Volume of a layer is calculated as a percentage of the total Earth volume.",
+   "textbook_ref": "gess202.txt lines 45-50",
+   "question_patterns": [
+    "If the total volume of the Earth is {total_volume} cubic km, what is the volume of the mantle which constitutes {percentage} percent?",
+    "Calculate the volume of the core given the total Earth volume is {total_volume} cubic km and its percentage is {percentage}.",
+    "Find the volume of the crust when the total volume is {total_volume} and the crust percentage is {percentage}.",
+    "How much volume does a layer occupy if it forms {percentage} percent of the Earth's total volume of {total_volume} cubic km?",
+    "What is the volume of a layer making up {percentage} percent of a planet with total volume {total_volume} cubic km?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply total volume by percentage",
+     "explain": "Multiply the total volume of Earth by the percentage of the specific layer.",
+     "compute": "temp = total_volume * percentage"
+    },
+    {
+     "step": 2,
+     "action": "Divide by 100",
+     "explain": "Divide the product by 100 to get the actual volume of the layer.",
+     "compute": "layer_volume = temp / 100"
+    }
+   ]
+  },
+  {
+   "id": "gess.202.1.2",
+   "title": "Remaining Depth to Earth's Center",
+   "section": "Interior of the Earth",
+   "definition": "The remaining distance to reach the Earth's center after digging a certain depth from the surface.",
+   "formula": "remaining_depth = earth_radius - dug_depth",
+   "key_idea": "Subtracting the depth of a dug hole from the Earth's radius gives the remaining distance to the center.",
+   "textbook_ref": "gess202.txt lines 10-20",
+   "question_patterns": [
+    "If the radius of the Earth is {earth_radius} km and a hole is dug to a depth of {dug_depth} km, how much further must one dig to reach the center?",
+    "Find the remaining distance to the center of the Earth if we have already penetrated {dug_depth} km deep, assuming the radius is {earth_radius} km.",
+    "How many more kilometers are needed to reach the center of a planet of radius {earth_radius} km after digging {dug_depth} km?",
+    "Calculate the remaining depth to the center of the Earth of radius {earth_radius} km from the bottom of a {dug_depth} km deep mine.",
+    "What is the distance left to the center of the Earth if the current depth reached is {dug_depth} km and the total radius is {earth_radius} km?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract dug depth from Earth's radius",
+     "explain": "Subtract the depth already dug from the total radius of the Earth to find the remaining distance.",
+     "compute": "remaining_depth = earth_radius - dug_depth"
+    }
+   ]
+  },
+  {
+   "id": "gess.202.1.3",
+   "title": "Earth's Interior Layers",
+   "section": "Interior of the Earth",
+   "definition": "The division of the Earth's interior into three distinct concentric zones: the thin outer crust, the thick intermediate mantle, and the dense central core.",
+   "formula": "",
+   "key_idea": "The Earth consists of three main layers with different thicknesses and properties.",
+   "textbook_ref": "gess202.txt lines 10-44",
+   "question_patterns": [
+    "What are the three main layers of the Earth?",
+    "Describe the layers of the Earth from the outermost to the innermost.",
+    "Which layer of the Earth is the thinnest and which is the thickest?",
+    "Explain the structure of the Earth's interior.",
+    "Identify the three concentric layers that make up the Earth."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the layers",
+     "explain": "The three layers of the Earth are the crust, the mantle, and the core."
+    }
+   ]
+  },
+  {
+   "id": "gess.202.1.4",
+   "title": "Crust Composition (Sial and Sima)",
+   "section": "Interior of the Earth",
+   "definition": "The mineral composition of the continental crust, dominated by silicon and aluminium, and the oceanic crust, dominated by silicon and magnesium.",
+   "formula": "",
+   "key_idea": "Sial and sima represent the primary mineral components of the continental and oceanic crusts respectively.",
+   "textbook_ref": "gess202.txt lines 25-35",
+   "question_patterns": [
+    "What is the difference between sial and sima?",
+    "Explain the mineral constituents of the continental crust and oceanic crust.",
+    "Why is the continental crust referred to as sial?",
+    "What elements make up the oceanic crust or sima?",
+    "Describe the composition of the Earth's crust."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify continental crust composition",
+     "explain": "Continental crust is composed of silica and alumina, known as Sial."
+    },
+    {
+     "step": 2,
+     "action": "Identify oceanic crust composition",
+     "explain": "Oceanic crust is composed of silica and magnesium, known as Sima."
+    }
+   ]
+  },
+  {
+   "id": "gess.202.1.5",
+   "title": "Average Crust Thickness",
+   "section": "Interior of the Earth",
+   "definition": "The average thickness of the Earth's crust calculated from its continental and oceanic components.",
+   "formula": "average_thickness = (continental_thickness + oceanic_thickness) / 2",
+   "key_idea": "The mean of continental and oceanic crust thicknesses represents the average crustal depth.",
+   "textbook_ref": "gess202.txt lines 20-25",
+   "question_patterns": [
+    "If the continental crust is {continental_thickness} km thick and the oceanic crust is {oceanic_thickness} km thick, what is the average thickness of the crust?",
+    "Calculate the average thickness of the Earth's crust given a continental thickness of {continental_thickness} km and an oceanic thickness of {oceanic_thickness} km.",
+    "Find the mean thickness of the crust when the continental mass is {continental_thickness} km and the ocean floor is {oceanic_thickness} km.",
+    "What is the average depth of the crust if the continental crust is {continental_thickness} km and the oceanic crust is {oceanic_thickness} km?",
+    "Determine the average crustal thickness from a continental thickness of {continental_thickness} km and oceanic thickness of {oceanic_thickness} km."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum the thicknesses",
+     "explain": "Add the continental crust thickness and oceanic crust thickness together.",
+     "compute": "thickness_sum = continental_thickness + oceanic_thickness"
+    },
+    {
+     "step": 2,
+     "action": "Divide by 2",
+     "explain": "Divide the sum by 2 to find the average thickness.",
+     "compute": "average_thickness = thickness_sum / 2"
+    }
+   ]
+  },
+  {
+   "id": "gess.202.2.1",
+   "title": "Igneous Rocks (Intrusive and Extrusive)",
+   "section": "Rocks and Minerals",
+   "definition": "Primary rocks created through the cooling and solidification of liquid magma, categorised into extrusive types on the surface and intrusive types deep underground.",
+   "formula": "",
+   "key_idea": "Igneous rocks form from cooled magma and are classified by where they solidify.",
+   "textbook_ref": "gess202.txt lines 55-75",
+   "question_patterns": [
+    "How are igneous rocks formed?",
+    "What is the difference between intrusive and extrusive igneous rocks?",
+    "Give examples of intrusive and extrusive igneous rocks.",
+    "Explain the formation of basalt and granite.",
+    "Why are igneous rocks also called primary rocks?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define igneous rocks",
+     "explain": "Igneous rocks form when molten magma cools and solidifies."
+    },
+    {
+     "step": 2,
+     "action": "Distinguish intrusive and extrusive types",
+     "explain": "Extrusive rocks cool rapidly on the surface (e.g., basalt), while intrusive rocks cool slowly deep inside the Earth (e.g., granite)."
+    }
+   ]
+  },
+  {
+   "id": "gess.202.2.2",
+   "title": "Sedimentary Rocks and Fossils",
+   "section": "Rocks and Minerals",
+   "definition": "Rocks formed by the accumulation, compaction, and cementation of mineral and organic particles transported by natural agents like wind or water.",
+   "formula": "",
+   "key_idea": "Sedimentary rocks are formed from compressed sediments and often contain fossils.",
+   "textbook_ref": "gess202.txt lines 75-85",
+   "question_patterns": [
+    "How are sedimentary rocks formed?",
+    "What are sediments and how do they turn into rocks?",
+    "Why do sedimentary rocks often contain fossils?",
+    "Explain the formation of sandstone.",
+    "What is the role of wind and water in forming sedimentary rocks?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain sediment formation",
+     "explain": "Rocks break down into small fragments called sediments."
+    },
+    {
+     "step": 2,
+     "action": "Explain compaction",
+     "explain": "These sediments are transported and deposited, then compressed and hardened into sedimentary rocks, which may contain fossils."
+    }
+   ]
+  },
+  {
+   "id": "gess.202.2.3",
+   "title": "Metamorphic Rocks",
+   "section": "Rocks and Minerals",
+   "definition": "Existing rocks that undergo structural or chemical alteration due to intense heat and pressure without melting.",
+   "formula": "",
+   "key_idea": "Heat and pressure transform igneous and sedimentary rocks into metamorphic rocks.",
+   "textbook_ref": "gess202.txt lines 85-90",
+   "question_patterns": [
+    "How are metamorphic rocks formed?",
+    "Under what conditions do igneous and sedimentary rocks change into metamorphic rocks?",
+    "Give examples of metamorphic rocks and their parent rocks.",
+    "Explain how clay changes into slate and limestone into marble.",
+    "What are the characteristics of metamorphic rocks?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain transformation",
+     "explain": "Igneous and sedimentary rocks change into metamorphic rocks under intense heat and pressure without melting."
+    }
+   ]
+  },
+  {
+   "id": "gess.202.2.4",
+   "title": "The Rock Cycle",
+   "section": "Rocks and Minerals",
+   "definition": "A continuous geological process where rocks are constantly transformed among igneous, sedimentary, and metamorphic forms over time.",
+   "formula": "",
+   "key_idea": "The rock cycle describes the continuous transformation of rocks from one type to another.",
+   "textbook_ref": "gess202.txt lines 95-110",
+   "question_patterns": [
+    "What do you mean by the rock cycle?",
+    "Describe the continuous transformation of rocks in the rock cycle.",
+    "How does metamorphic rock turn back into igneous rock?",
+    "Explain the steps involved in the rock cycle.",
+    "Why is the rock cycle considered a cyclic process?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Trace the cycle",
+     "explain": "Magma cools to igneous rocks, which break down into sedimentary rocks. Both can transform into metamorphic rocks, which melt back into magma."
+    }
+   ]
+  },
+  {
+   "id": "gess.202.2.5",
+   "title": "Minerals and Their Uses",
+   "section": "Rocks and Minerals",
+   "definition": "Naturally occurring inorganic substances characterized by a specific chemical makeup and distinct physical traits.",
+   "formula": "",
+   "key_idea": "Minerals are natural substances with fixed chemical compositions used as fuels and raw materials.",
+   "textbook_ref": "gess202.txt lines 110-120",
+   "question_patterns": [
+    "What are minerals and how are they defined?",
+    "Why are minerals important to humankind?",
+    "Give examples of minerals used as fuels.",
+    "What are the uses of minerals in industries and medicine?",
+    "How do minerals differ from rocks?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define minerals",
+     "explain": "Minerals are natural substances with definite chemical compositions and physical properties, used as fuels, in industries, and medicine."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex202.1.1a",
+   "source_ref": "Based on Do you know box on page 8",
+   "concept": "gess.202.1.1",
+   "question_type": "compute",
+   "question_pattern": "If the total volume of the Earth is {total_volume} cubic km, what is the volume of the mantle which constitutes {percentage} percent?",
+   "extracted_variables": {
+    "total_volume": 1083000000000,
+    "percentage": 84
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply total volume by percentage",
+     "explain": "Multiply the total volume of Earth by the percentage of the mantle.",
+     "compute": "temp = total_volume * percentage"
+    },
+    {
+     "step": 2,
+     "action": "Divide by 100",
+     "explain": "Divide by 100 to get the final volume of the mantle.",
+     "compute": "layer_volume = temp / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex202.1.1b",
+   "source_ref": "Based on Do you know box on page 8",
+   "concept": "gess.202.1.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the volume of the core given the total Earth volume is {total_volume} cubic km and its percentage is {percentage}.",
+   "extracted_variables": {
+    "total_volume": 1083000000000,
+    "percentage": 15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply total volume by percentage",
+     "explain": "Multiply the total volume of Earth by the percentage of the core.",
+     "compute": "temp = total_volume * percentage"
+    },
+    {
+     "step": 2,
+     "action": "Divide by 100",
+     "explain": "Divide by 100 to get the final volume of the core.",
+     "compute": "layer_volume = temp / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex202.1.2a",
+   "source_ref": "Based on Do you know box on page 8",
+   "concept": "gess.202.1.2",
+   "question_type": "compute",
+   "question_pattern": "If the radius of the Earth is {earth_radius} km and a hole is dug to a depth of {dug_depth} km, how much further must one dig to reach the center?",
+   "extracted_variables": {
+    "earth_radius": 6371,
+    "dug_depth": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract dug depth from Earth's radius",
+     "explain": "Subtract the depth already dug from the total radius of the Earth to find the remaining distance.",
+     "compute": "remaining_depth = earth_radius - dug_depth"
+    }
+   ]
+  },
+  {
+   "id": "ex202.1.2b",
+   "source_ref": "Based on Do you know box on page 8",
+   "concept": "gess.202.1.2",
+   "question_type": "compute",
+   "question_pattern": "Find the remaining distance to the center of the Earth if we have already penetrated {dug_depth} km deep, assuming the radius is {earth_radius} km.",
+   "extracted_variables": {
+    "earth_radius": 6371,
+    "dug_depth": 6
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract dug depth from Earth's radius",
+     "explain": "Subtract the depth already dug from the total radius of the Earth to find the remaining distance.",
+     "compute": "remaining_depth = earth_radius - dug_depth"
+    }
+   ]
+  },
+  {
+   "id": "ex202.1.5a",
+   "source_ref": "Based on page 8 text",
+   "concept": "gess.202.1.5",
+   "question_type": "compute",
+   "question_pattern": "If the continental crust is {continental_thickness} km thick and the oceanic crust is {oceanic_thickness} km thick, what is the average thickness of the crust?",
+   "extracted_variables": {
+    "continental_thickness": 35,
+    "oceanic_thickness": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum the thicknesses",
+     "explain": "Add the continental crust thickness and oceanic crust thickness together.",
+     "compute": "thickness_sum = continental_thickness + oceanic_thickness"
+    },
+    {
+     "step": 2,
+     "action": "Divide by 2",
+     "explain": "Divide the sum by 2 to find the average thickness.",
+     "compute": "average_thickness = thickness_sum / 2"
+    }
+   ]
+  },
+  {
+   "id": "ex202.1.5b",
+   "source_ref": "Based on page 8 text",
+   "concept": "gess.202.1.5",
+   "question_type": "compute",
+   "question_pattern": "Calculate the average thickness of the Earth's crust given a continental thickness of {continental_thickness} km and an oceanic thickness of {oceanic_thickness} km.",
+   "extracted_variables": {
+    "continental_thickness": 40,
+    "oceanic_thickness": 6
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum the thicknesses",
+     "explain": "Add the continental crust thickness and oceanic crust thickness together.",
+     "compute": "thickness_sum = continental_thickness + oceanic_thickness"
+    },
+    {
+     "step": 2,
+     "action": "Divide by 2",
+     "explain": "Divide the sum by 2 to find the average thickness.",
+     "compute": "average_thickness = thickness_sum / 2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gess202.txt lines 121-130",
+   "questions": [
+    "What are the three layers of the earth?",
+    "What is a rock?",
+    "Name three types of rocks.",
+    "How are extrusive and intrusive rocks formed?",
+    "What do you mean by a rock cycle?",
+    "What are the uses of rocks?",
+    "What are metamorphic rocks?"
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gess202.txt lines 131-145",
+   "questions": [
+    "The rock which is made up of molten magma is (a) Igneous (b) Sedimentary (c) Metamorphic",
+    "The innermost layer of the earth is (a) Crust (b) Core (c) Mantle",
+    "Gold, petroleum and coal are examples of (a) Rocks (b) Minerals (c) Fossils",
+    "Rocks which contain fossils are (a) Sedimentary rocks (b) Metamorphic rocks (c) Igneous rocks",
+    "The thinnest layer of the earth is (a) Crust (b) Mantle (c) Core"
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "gess202.txt lines 146-155",
+   "questions": [
+    "Match the following: (i) Core, (ii) Minerals, (iii) Rocks, (iv) Clay, (v) Sial with options (a) Earth's surface, (b) Used for roads and buildings, (c) Made of silicon and alumina, (d) Has definite chemical composition, (e) Innermost layer, (f) Changes into slate, (g) Process of transformation of the rock"
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "gess202.txt lines 156-160",
+   "questions": [
+    "Give reasons: We cannot go to the centre of the earth.",
+    "Give reasons: Sedimentary rocks are formed from sediments.",
+    "Give reasons: Limestone is changed into marble."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "title-matched to new cache"
+}

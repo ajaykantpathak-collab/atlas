@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_08_010",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_08_010",
+   "title": "c11_bs_cbse_08_010",
+   "questions": [
+    {
+     "q": "State the textbook definition of 'lessor' and 'lessee' in a lease financing arrangement, and identify which party bears the risk of obsolescence according to NCERT.",
+     "a": "Correct answer: Lessor is the owner of the asset who grants usage rights; lessee is the party that uses the asset and pays lease rentals. The risk of obsolescence is borne by the lessor (NCERT 8.4.4, Merit vi). A wrong answer that says 'lessee bears obsolescence risk' reveals confusion between lease and hire purchase, where the hirer effectively bears that risk because they intend to own the asset.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why lease rentals are tax-deductible for the lessee while hire purchase instalments are not fully deductible, and how this affects the choice between the two.",
+     "a": "Correct answer: Lease rentals are fully deductible as revenue expenditure because the lessee never acquires ownership; hire purchase instalments contain a principal component (capital repayment) and only the interest portion is tax-deductible. A wrong answer claiming 'both are fully deductible' shows misunderstanding of the revenue vs capital expenditure distinction in the Income Tax Act, a common error when students memorise 'tax benefit' without linking to ownership transfer.",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturing firm needs a CNC machine costing ₹50 lakh for 4 years. The machine becomes technologically obsolete in 3 years. The firm has stable profits and wants to minimise tax liability. Using textbook merits/limitations, decide: lease or hire purchase? Justify with three specific points.",
+     "a": "Correct answer: Lease financing is better. (1) Obsolescence risk borne by lessor (Merit vi) – crucial since machine obsolete in 3 years < lease term. (2) Lease rentals fully tax-deductible (Merit iii) – reduces taxable profit. (3) No charge on assets (Merit v) – preserves borrowing capacity. Hire purchase would leave firm with obsolete asset and only partial tax benefit. A wrong choice of hire purchase reveals failure to weigh obsolescence risk against ownership desire.",
+     "self_check": true
+    },
+    {
+     "q": "Compare lease financing and hire purchase on the following parameters: (a) Ownership transfer, (b) Maintenance responsibility, (c) Termination flexibility, (d) Impact on debt-equity ratio. Present as a 4-row table.",
+     "a": "Correct answer:\n| Parameter | Lease Financing | Hire Purchase |\n|-----------|----------------|---------------|\n| Ownership transfer | Never transfers; asset returns to lessor | Transfers to hirer after final instalment |\n| Maintenance | Usually lessor's responsibility (operating lease) or lessee (finance lease) | Hirer's responsibility throughout |\n| Termination | Lessee can terminate (may pay penalty); asset returned | Hirer can terminate but loses instalments paid; asset repossessed |\n| Debt-equity ratio | Off-balance-sheet (operating lease); no impact on debt | On-balance-sheet; increases debt, worsens ratio |\nA wrong table swapping maintenance or termination shows confusion between operating lease and finance lease concepts not in NCERT but tested in application.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Lease financing is always cheaper than hire purchase because lease rentals are lower than hire purchase EMIs.\" Use the concept of total cost of ownership, tax shields, and residual value.",
+     "a": "Correct answer: The statement is flawed. Lease rentals appear lower because they don't include principal repayment, but total cost must include: (1) Lost residual value (lessee never owns asset), (2) Tax shield difference (full rental vs only interest deductible), (3) Penalty costs for early termination. Hire purchase may be cheaper if asset has high residual value and firm can utilise depreciation tax shield. A student agreeing with the statement shows surface-level comparison ignoring time value of money and opportunity cost of residual value.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini-case (4-5 lines) where a startup should choose hire purchase over lease financing, and explain the deciding factors using textbook terminology.",
+     "a": "Good answer example: \"GreenLogistics Pvt Ltd needs 5 electric delivery vans (₹12 lakh each) for 5 years. Vans have 8-year useful life and high resale value. Startup wants to build asset base for future bank loans. Choice: Hire purchase. Factors: (1) Ownership transfer builds collateral (Merit: asset creation), (2) Long useful life > hire period makes residual value valuable, (3) No mileage/usage restrictions unlike lease (Limitation i of lease).\" A poor answer picks hire purchase only because 'they want to own it' without linking to textbook merits/limitations like collateral building or usage restrictions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

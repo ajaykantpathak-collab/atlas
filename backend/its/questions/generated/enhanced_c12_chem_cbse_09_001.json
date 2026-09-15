@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_09_001",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_09_001",
+   "title": "c12_chem_cbse_09_001",
+   "questions": [
+    {
+     "q": "Write the general structural formulas for a primary aliphatic amine, a secondary aromatic amine, and a tertiary mixed amine using R, R', Ar symbols.",
+     "a": "Primary aliphatic: RNH₂; Secondary aromatic: ArNHR' (or Ar₂NH if both aryl); Tertiary mixed: R₂NR' or RR'R''N (three different groups). A wrong answer like writing R₃N for primary reveals confusion between the number of carbon groups attached vs. number of H atoms replaced. Students often count alkyl groups instead of tracking H replacement on ammonia.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why (CH₃)₂NH is a secondary amine but (CH₃)₃N is tertiary, even though both have only methyl groups attached to nitrogen.",
+     "a": "Classification depends on how many H atoms of NH₃ are replaced, not on the number of distinct alkyl groups. (CH₃)₂NH has two H replaced (one H left on N) → secondary; (CH₃)₃N has three H replaced (no H on N) → tertiary. A student who says \"both have two/three methyl groups so both secondary\" is counting substituents instead of tracking substitution on ammonia.",
+     "self_check": true
+    },
+    {
+     "q": "Draw the structures of all isomeric amines with molecular formula C₃H₉N and classify each as primary, secondary, or tertiary. Indicate which are simple and which are mixed.",
+     "a": "Four isomers: (1) CH₃CH₂CH₂NH₂ (propan-1-amine, primary, simple); (2) CH₃CH(NH₂)CH₃ (propan-2-amine, primary, simple); (3) CH₃NHCH₂CH₃ (N-methylethanamine, secondary, mixed); (4) (CH₃)₃N (N,N-dimethylmethanamine, tertiary, simple). Missing the branched primary isomer or misclassifying N-methylethanamine as primary (due to –NH–) are common errors. Check that each structure has exactly 3 carbons, 9 hydrogens, 1 nitrogen.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the bond angles in NH₃, CH₃NH₂, and (CH₃)₃N. Predict the trend and justify using hybridisation and lone pair repulsion.",
+     "a": "All are sp³ hybridised with a lone pair. Ideal tetrahedral angle = 109.5°. Lone pair-bond pair repulsion > bond pair-bond pair repulsion, so angles < 109.5°. As bulky alkyl groups replace H, steric crowding increases, compressing the angle further: NH₃ (107°) > CH₃NH₂ (~108°) > (CH₃)₃N (108° per NCERT, but note: experimental trend shows slight decrease then increase due to steric vs. electronic balance). A student who says \"angles increase because alkyl groups are larger\" ignores lone pair repulsion dominance.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Aniline (C₆H₅NH₂) is a tertiary amine because the nitrogen is attached to three atoms: two carbons from the ring and one hydrogen.\" Evaluate this statement.",
+     "a": "False. Classification counts carbon/aryl groups directly bonded to nitrogen, not total bonds. In aniline, nitrogen is bonded to one aryl group (the phenyl ring) and two hydrogens → one H replaced → primary amine. The student incorrectly counts the two ring carbons as two separate substituents; the phenyl group is a single aryl substituent. This misconception arises from confusing coordination number with substitution degree.",
+     "self_check": true
+    },
+    {
+     "q": "Design a flow-chart algorithm (using only yes/no questions) that takes any amine structure as input and outputs its classification (1°/2°/3°) and whether it is simple or mixed. Test your algorithm on C₆H₅N(CH₃)₂.",
+     "a": "Algorithm: (1) Count number of C/Ar groups directly bonded to N → if 1: primary; if 2: secondary; if 3: tertiary. (2) If secondary/tertiary, check if all attached C/Ar groups are identical → yes: simple; no: mixed. For C₆H₅N(CH₃)₂: three groups (one phenyl, two methyl) → tertiary; groups differ → mixed. A poor answer uses \"count H on N\" which fails for amides/imines, or forgets the mixed/simple check.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

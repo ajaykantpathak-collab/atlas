@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_05_001",
+   "title": "c11_phy_cbse_05_001",
+   "questions": [
+    {
+     "q": "A porter carries a 20 kg load on his head and walks 50 m on a level road at constant speed. What is the work done by the porter's upward force on the load? State the SI unit of your answer.",
+     "a": "The work done is 0 J. The upward force (normal reaction balancing weight) is perpendicular to the horizontal displacement, so \\( \\theta = 90^\\circ \\) and \\( \\cos 90^\\circ = 0 \\). A wrong answer (e.g., calculating \\( mgh \\) or \\( F \\times d \\)) reveals the student is using the everyday meaning of \"work\" (effort) instead of the physics definition, or they incorrectly assume force and displacement are parallel.",
+     "self_check": true
+    },
+    {
+     "q": "A block is pulled by a force of 10 N at an angle of 60° to the horizontal. The block moves 4 m horizontally. Explain why the work done by the force is not simply 10 N × 4 m = 40 J. What is the actual work done?",
+     "a": "Work done is \\( W = F d \\cos\\theta = 10 \\times 4 \\times \\cos 60^\\circ = 40 \\times 0.5 = 20 \\) J. The formula \\( F \\times d \\) only applies when force and displacement are parallel (\\( \\theta = 0^\\circ \\)). Here, only the horizontal component \\( F \\cos\\theta \\) contributes to work. A student giving 40 J ignores the angle and treats work as a simple product of magnitudes, missing the vector nature of force and displacement.",
+     "self_check": true
+    },
+    {
+     "q": "A constant force \\( \\vec{F} = (3\\hat{i} + 4\\hat{j}) \\) N acts on a particle that undergoes a displacement \\( \\vec{d} = (2\\hat{i} - 1\\hat{j}) \\) m. Calculate the work done by the force. Show unit analysis.",
+     "a": "\\( W = \\vec{F} \\cdot \\vec{d} = (3)(2) + (4)(-1) = 6 - 4 = 2 \\) J. Units: N × m = J. Steps: (1) Identify components: \\( F_x=3, F_y=4, d_x=2, d_y=-1 \\). (2) Dot product: \\( F_x d_x + F_y d_y \\). (3) Compute: 6 + (-4) = 2. (4) Units: N·m = J. (5) Positive work means force component along displacement dominates. A wrong answer (e.g., 10 J from magnitude product) shows the student multiplied magnitudes instead of using the dot product, or mishandled the negative sign in the y-component.",
+     "self_check": true
+    },
+    {
+     "q": "A satellite orbits Earth in a perfectly circular orbit. The gravitational force on the satellite is always directed radially inward. Is the work done by gravity on the satellite positive, negative, or zero over one complete orbit? Justify using the definition of work.",
+     "a": "Zero. At every instant, the gravitational force is radial while the instantaneous displacement is tangential — they are perpendicular (\\( \\theta = 90^\\circ \\)). Since \\( \\cos 90^\\circ = 0 \\), the work done at each instant is zero, so the total work over any path segment, including a full orbit, is zero. A student answering \"negative because gravity pulls inward\" confuses force direction with displacement direction; they must recognise that work depends on the angle between the two vectors at each point, not just the force direction.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"When I push a wall and it doesn't move, I am applying a large force, so I am doing a lot of work.\" Evaluate this statement using the physics definition of work. What is the actual work done?",
+     "a": "The statement is incorrect. Work done is \\( W = F d \\cos\\theta \\). Since the wall does not move, displacement \\( d = 0 \\), so \\( W = 0 \\) regardless of the force magnitude. The student confuses physiological effort (muscle contraction consuming chemical energy) with mechanical work on the wall. A wrong evaluation indicates the student has not internalised that displacement is a necessary condition for work to be done in physics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration using a spring balance, a wooden block, and a protractor to show that work done by a force depends on the angle between force and displacement. Describe the procedure, measurements, and how you would calculate work for three different angles.",
+     "a": "Procedure: (1) Attach spring balance to block on a smooth table. (2) Pull the block horizontally (0°) for 0.5 m, note force reading \\( F \\). (3) Repeat at 60° and 90° (pulling upward at 90° so block doesn't lift). (4) Calculate work: \\( W = F d \\cos\\theta \\). At 0°: \\( W = F \\times 0.5 \\); at 60°: \\( W = F \\times 0.5 \\times 0.5 = 0.25F \\); at 90°: \\( W = 0 \\). A poor answer would omit the angle variation, use the same force for all angles without adjusting for vertical component, or fail to mention that at 90° the block must not move vertically. This reveals the student cannot translate the formula into an experimental design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

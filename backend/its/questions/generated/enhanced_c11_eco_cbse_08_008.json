@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_08_008",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_08_008",
+   "title": "c11_eco_cbse_08_008",
+   "questions": [
+    {
+     "q": "State the three components of the Human Development Index (HDI) and the specific indicator used for each component in the UNDP's current methodology.",
+     "a": "The three HDI components are: (1) Health – measured by life expectancy at birth (years); (2) Education – measured by mean years of schooling (adults 15+) and expected years of schooling (children); (3) Standard of living – measured by GNI per capita (PPP US$). A wrong answer (e.g., \"literacy rate\" for education or \"GDP per capita\" for income) reveals confusion between the old pre-2010 HDI formula and the current one, or conflation of component indicators with the broader set of human development indicators in Table 8.5.",
+     "self_check": true
+    },
+    {
+     "q": "Using Table 8.5 data, explain why China's infant mortality rate (4.8) is less than one-fifth of India's (25.5) and Pakistan's (51) despite all three countries having similar per capita incomes in 1980.",
+     "a": "China's low IMR stems from pre-reform (pre-1978) investments: the commune system established barefoot doctor networks in every village, ensured universal immunisation, and provided food security through collective grain distribution. These created a health infrastructure stock that persisted and scaled post-1978. India and Pakistan lacked comparable rural primary health networks in 1980; India's ICDS (1975) and NRHM (2005) came later and faced implementation gaps. A wrong answer attributing China's IMR solely to post-1978 economic growth misses the critical role of initial social infrastructure stock—a classic \"flow vs stock\" error.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the percentage point gap in mean years of schooling between China (8.0) and India (6.9), and between China and Pakistan (4.3). Then compute how many additional years of schooling India needs to close half the gap with China, assuming China's mean years remain constant.",
+     "a": "Step 1: China–India gap = 8.0 – 6.9 = 1.1 years. China–Pakistan gap = 8.0 – 4.3 = 3.7 years. Step 2: Half the China–India gap = 1.1 / 2 = 0.55 years. Step 3: India needs 6.9 + 0.55 = 7.45 mean years of schooling to close half the gap. A wrong answer (e.g., using literacy rate instead of mean years, or calculating percentage instead of percentage points) reveals inability to distinguish between stock indicators (mean years) and flow indicators (literacy rate of 15-24 age group), or confusion between absolute and relative gap measures.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the maternal mortality ratio (MMR) trends: China (23), India (103), Pakistan (154) per 1 lakh live births. Identify two structural factors—one historical, one contemporary—that explain why China's MMR is 4.5× lower than India's and 6.7× lower than Pakistan's.",
+     "a": "Historical factor: China's pre-1978 commune system provided universal access to midwives and referral hospitals; the \"barefoot doctor\" model ensured skilled birth attendance in rural areas decades before India's Janani Suraksha Yojana (2005). Contemporary factor: China's near-universal hospital delivery rate (>99%) vs India's 89% (NFHS-5) and Pakistan's 69%; China's health insurance coverage (NCMS) reduces financial barriers to emergency obstetric care. A wrong answer citing only \"higher income\" ignores that India's per capita GNI (PPP $9,047) is 41% of China's ($22,029) but MMR is 4.5× worse—income alone cannot explain the non-linear health production function.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"India's service-sector-led growth (54% GVA) should eventually close the human development gap with China because services generate higher tax revenue per unit of GDP than manufacturing.\" Use Table 8.3 and 8.5 data to support your judgment.",
+     "a": "The claim is flawed. Step 1: Services employ only 31% of India's workforce vs 45% in China (Table 8.3)—low employment elasticity limits tax base broadening. Step 2: India's tax-to-GDP ratio (~11%) remains far below China's (~20%) despite higher service share, because IT/finance services employ few workers and generate limited indirect taxes. Step 3: Manufacturing (China: 38% GVA, 32% workforce) creates mass formal employment → social insurance contributions → sustainable health/education funding. Step 4: India's service growth bypassed low-skilled labor absorption, leaving 43% workforce in agriculture (18% GVA) with low productivity and no social protection. A wrong answer accepting the claim ignores the fiscal architecture of human development: it's not GDP composition but employment composition and formalisation that fund public goods.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-indicator \"Human Development Progress Scorecard\" for India (2015-2025) that would reveal whether the country is on track to close the HDI gap with China by 2030. Specify the indicators, target values, and the data sources you would use.",
+     "a": "A strong scorecard: (1) Mean years of schooling (target: 8.5 by 2030 from 6.9 in 2023) – source: PLFS/NFHS; (2) Under-5 mortality rate (target: 15 from 32 in 2023) – source: SRS/NFHS; (3) Multidimensional poverty headcount (target: <5% from 14.9% in 2019-21) – source: NITI Aayog MPI. Each indicator must be disaggregated by state, gender, and wealth quintile. A poor answer lists only aggregate national targets or uses GDP growth as a proxy, missing that HDI convergence requires distribution-sensitive, capability-focused metrics—not income proxies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

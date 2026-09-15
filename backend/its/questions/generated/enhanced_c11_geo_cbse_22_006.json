@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_22_006",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_22_006",
+   "title": "c11_geo_cbse_22_006",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a geographic coordinate (latitude/longitude) and a grid reference (easting/northing) in terms of the surface they reference?",
+     "a": "Geographic coordinates (latitude/longitude) reference positions on the curved surface of the Earth (ellipsoid/geoid) using angular measurements from the center of the Earth, whereas grid references (eastings/northings) reference positions on a flat, projected map plane using linear distances from a false origin. A wrong answer (e.g., \"both are the same\" or \"grid references use degrees\") reveals the student confuses the 3D ellipsoidal model with the 2D projected plane — a critical error when moving between GPS data (WGS84 lat/long) and paper topographic maps (grid).",
+     "self_check": true
+    },
+    {
+     "q": "Why does the linear distance represented by 1° of longitude decrease as you move from the Equator toward the poles, while 1° of latitude remains nearly constant?",
+     "a": "Lines of longitude (meridians) are great circles that converge at the poles; the circumference of the parallel (small circle) at latitude φ is proportional to cos(φ), so the length of 1° longitude = 111.32 km × cos(φ). Lines of latitude (parallels) are small circles (except the Equator) but are equally spaced along the meridian because the Earth's radius of curvature in the meridian plane varies only slightly (from ~110.57 km/° at equator to ~111.69 km/° at poles). A wrong answer (e.g., \"latitude lines also converge\") indicates the student visualizes the graticule as a uniform square grid on a sphere, ignoring the geometry of an oblate spheroid (c8_geo_ch2_1).",
+     "self_check": true
+    },
+    {
+     "q": "A topographic map has a grid interval of 2 cm representing 1 km on the ground. The easting line numbered '42' is the left edge of a square. A temple lies 1.6 cm to the right of this line. The northing line numbered '18' is the bottom edge. The temple lies 0.8 cm above this line. What is the 6-figure grid reference of the temple?",
+     "a": "Step 1: Grid interval = 2 cm = 1 km → 1 cm = 0.5 km = 500 m.\nStep 2: Easting: Base easting = 42. Distance right = 1.6 cm = 800 m. Each 100 m = 0.2 cm. 800 m = 8 tenths → Easting = 428.\nStep 3: Northing: Base northing = 18. Distance up = 0.8 cm = 400 m = 4 tenths → Northing = 184.\nStep 4: 6-figure GR = 428184 (always easting first, then northing).\nA wrong answer (e.g., 421184 or 184428) reveals the student either miscalculates the tenths (confusing cm with tenths) or reverses the easting/northing order — a classic error in board practical exams.",
+     "self_check": true
+    },
+    {
+     "q": "Two cities, A (20°N, 75°E) and B (20°N, 85°E), lie on the same parallel. A student claims the straight-line distance between them along the parallel is the shortest path. Analyze this claim using the concept of great circles and rhumb lines.",
+     "a": "The claim is false. The parallel at 20°N is a small circle (rhumb line), not a great circle. The shortest path (great circle arc) between A and B would curve poleward (northward in Northern Hemisphere), crossing higher latitudes. The distance along the parallel = (Δλ) × 111.32 km × cos(20°) = 10° × 111.32 × 0.9397 ≈ 1046 km. The great circle distance = Earth radius × central angle (calculated via spherical trigonometry) ≈ 1038 km — shorter by ~8 km. A wrong answer (\"parallel is shortest\") shows the student confuses constant-bearing navigation (rhumb line) with geodesic distance, a misconception carried from flat-map intuition.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the suitability of using a 4-figure grid reference versus a 6-figure grid reference for: (a) locating a district headquarters on a 1:250,000 scale map, and (b) locating a specific well on a 1:50,000 scale map. Justify with precision requirements.",
+     "a": "(a) 1:250,000 map: 1 cm = 2.5 km. Grid squares usually 2 cm = 5 km. 4-figure GR identifies a 5 km × 5 km square — sufficient for a district HQ (area ~10-20 km²). 6-figure GR would imply 500 m precision, unjustified by map scale (plotting error > 500 m).\n(b) 1:50,000 map: 1 cm = 500 m. Grid squares 2 cm = 1 km. 4-figure GR gives 1 km² ambiguity — too coarse for a point feature like a well. 6-figure GR gives 100 m × 100 m precision, matching the map's inherent accuracy (~20-30 m plotting error). A poor answer ignores scale-dependent precision, treating grid reference figures as universally \"more is better.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step procedure for a surveyor to convert a GPS reading (WGS84 datum, Decimal Degrees: 19.0760° N, 72.8777° E) into a 6-figure grid reference on a Survey of India 1:50,000 topographic sheet (Everest datum, Polyconic projection) for a site in Mumbai. Identify the critical transformation step.",
+     "a": "Procedure:\n1. Convert DD to DMS: 19°04'33.6\"N, 72°52'39.7\"E.\n2. **Critical Step**: Apply datum transformation (WGS84 → Everest 1830) using 7-parameter Helmert transformation (ΔX, ΔY, ΔZ, rotations, scale) — this shifts coordinates by ~200-300 m in India.\n3. Project transformed geographic coordinates to Polyconic projection (map's projection) to get plane coordinates (meters from false origin).\n4. Identify the 1 km grid square (eastings/northings) containing the point.\n5. Subdivide square into 100 m × 100 m grid; read tenths for 6-figure GR.\nA poor answer skips Step 2 (datum shift), causing a systematic error of ~200 m — enough to place the point in the wrong grid square. This reveals ignorance of geodetic datums, a senior-secondary gap.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

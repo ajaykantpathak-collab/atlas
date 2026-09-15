@@ -1,0 +1,246 @@
+{
+ "catalog": "catalog_class8_social_science_ch207",
+ "concepts": [
+  {
+   "id": "hess.207.1",
+   "title": "Print Culture and Social Reform Debates",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Print Culture and Social Reform Debates' refers to.",
+     "a": "The arrival of inexpensive printed materials like newspapers and tracts enabled public discussion on societal practices in regional vernaculars.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Print Culture and Social Reform Debates'.",
+     "a": "Mass printing allowed common people to debate and participate in social reform.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Print Culture and Social Reform Debates' taught, and from which source text?",
+     "a": "Working Towards Change (source: hess207.txt lines 35-65)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.207.2",
+   "title": "Abolition of Sati",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Abolition of Sati' refers to.",
+     "a": "The eradication of the practice of burning widows on their deceased husbands pyres, accomplished through arguments rooted in ancient scriptures.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Abolition of Sati'.",
+     "a": "Raja Rammohun Roy demonstrated that ancient texts did not support self-immolation of widows.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Abolition of Sati' taught, and from which source text?",
+     "a": "Changing the lives of widows (source: hess207.txt lines 66-105)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.207.3",
+   "title": "Widow Remarriage Reform Movement",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Widow Remarriage Reform Movement' refers to.",
+     "a": "Efforts by social reformers to secure legal approval and social acceptance for widows to marry again.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Widow Remarriage Reform Movement'.",
+     "a": "Ishwarchandra Vidyasagar utilized ancient texts to support widow remarriage, leading to the law of 1856.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Widow Remarriage Reform Movement' taught, and from which source text?",
+     "a": "Changing the lives of widows (source: hess207.txt lines 106-140)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.207.4",
+   "title": "Promoting Female Education",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Promoting Female Education' refers to.",
+     "a": "The establishment of formal educational institutions for young women despite traditional social fears and domestic restrictions.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Promoting Female Education'.",
+     "a": "Reformers established schools for girls to improve womens position despite orthodox fears of social corruption.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Promoting Female Education' taught, and from which source text?",
+     "a": "Girls begin going to school (source: hess207.txt lines 141-190)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.207.5",
+   "title": "Women Reformers and Feminist Literature",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Women Reformers and Feminist Literature' refers to.",
+     "a": "Literary works and institutions created directly by women to critique patriarchal structures and promote female empowerment.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Women Reformers and Feminist Literature'.",
+     "a": "Educated women authored critical texts and founded institutions to support womens independence.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Women Reformers and Feminist Literature' taught, and from which source text?",
+     "a": "Women write about women (source: hess207.txt lines 191-240)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.207.6",
+   "title": "Child Marriage Restraint Legislation",
+   "questions": [
+    {
+     "q": "Calculate the age difference between male and female minimum legal marriage ages. Use the method 'Child Marriage Restraint Legislation'. Work with: female_min_age = 50, male_min_age = 1500. Carry the chain through step by step and give the final value of age_difference.",
+     "a": "1450 years",
+     "self_check": false
+    },
+    {
+     "q": "Find the difference between male and female age limits in child marriage laws. Use the method 'Child Marriage Restraint Legislation'. Work with: female_min_age = 10, male_min_age = 1500. Carry the chain through step by step and give the final value of age_difference.",
+     "a": "1490 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Child Marriage Restraint Legislation' refers to.",
+     "a": "Statutory provisions establishing minimum legal age thresholds for marriage to protect children from early marriage.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Child Marriage Restraint Legislation'.",
+     "a": "The 1929 Act set legal minimum marriage ages for males and females to prevent child marriage.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Child Marriage Restraint Legislation', in plain ASCII form.",
+     "a": "age_difference = male_min_age - female_min_age",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.207.7",
+   "title": "Caste Reform and Social Mobility",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Caste Reform and Social Mobility' refers to.",
+     "a": "Efforts by reform societies and marginalized groups to challenge caste hierarchies and access new urban employment.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Caste Reform and Social Mobility'.",
+     "a": "Industrial growth and urban expansion offered low-caste individuals alternatives to traditional village servitude.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Caste Reform and Social Mobility' taught, and from which source text?",
+     "a": "Caste and Social Reform (source: hess207.txt lines 266-320)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.207.8",
+   "title": "Non-Brahman Equality Movements",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Non-Brahman Equality Movements' refers to.",
+     "a": "Social and spiritual movements organized within marginalized communities to promote self-respect and social parity.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Non-Brahman Equality Movements'.",
+     "a": "Non-Brahman leaders established regional movements to instil self-esteem and reject caste hierarchies.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Non-Brahman Equality Movements' taught, and from which source text?",
+     "a": "Demands for equality and justice (source: hess207.txt lines 321-360)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.207.9",
+   "title": "Radical Caste Critiques Phule and Periyar",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Radical Caste Critiques Phule and Periyar' refers to.",
+     "a": "Ideological attacks on Brahmanical supremacy proposing that indigenous populations were subjugated by non-native settlers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Radical Caste Critiques Phule and Periyar'.",
+     "a": "Phule and Periyar rejected elite claims to superiority and built movements for indigenous self-respect.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Radical Caste Critiques Phule and Periyar' taught, and from which source text?",
+     "a": "Gulamgiri (source: hess207.txt lines 361-415)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.207.10",
+   "title": "Temple Entry Movement and Dalit Assertion",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Temple Entry Movement and Dalit Assertion' refers to.",
+     "a": "Sustained public campaigns organized by Dr. B.R. Ambedkar to claim access to sacred spaces and public water sources for untouchables.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Temple Entry Movement and Dalit Assertion'.",
+     "a": "Ambedkar led temple entry Satyagrahas to expose entrenched caste prejudice and assert human dignity.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Temple Entry Movement and Dalit Assertion' taught, and from which source text?",
+     "a": "Who could enter temples? (source: hess207.txt lines 416-449)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.207.11",
+   "title": "Nineteenth-Century Reform Organizations",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Nineteenth-Century Reform Organizations' refers to.",
+     "a": "Formal societies established across India to promote rational thought, education, and social reform while eliminating superstitious practices.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Nineteenth-Century Reform Organizations'.",
+     "a": "Associations like Brahmo Samaj, Prarthana Samaj, and Aligarh Movement sought comprehensive social and religious renewal.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Nineteenth-Century Reform Organizations' taught, and from which source text?",
+     "a": "Organising for reform (source: hess207.txt lines 491-560)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

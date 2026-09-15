@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_eco_ch2_2",
+ "concepts": [
+  {
+   "id": "enh:c9_eco_ch2_2",
+   "title": "c9_eco_ch2_2",
+   "questions": [
+    {
+     "q": "Define market demand and state the mathematical operation used to derive it from individual demands.",
+     "a": "Market demand is the total quantity of a good all consumers in a market are willing and able to purchase at each price, derived by horizontally summing (adding quantities at each price) individual demand schedules. A wrong answer that says \"vertically summing prices\" or \"averaging individual demands\" reveals confusion between horizontal summation (quantities) and vertical summation (prices), a fundamental error in demand aggregation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the market demand curve is flatter (more price-elastic) than any individual demand curve, even when all individuals have identical demand curves.",
+     "a": "Because market demand adds quantities horizontally, a given price change triggers a larger total quantity response across many consumers than for a single consumer. A wrong answer claiming \"market demand is steeper because more people buy\" confuses the direction of elasticity: more buyers amplify quantity response, making the curve flatter, not steeper.",
+     "self_check": true
+    },
+    {
+     "q": "Three consumers — A, B, and C — have individual demand schedules for mangoes (kg) at prices ₹50, ₹40, ₹30, ₹20, ₹10 per kg:\nA: 2, 4, 6, 8, 10\nB: 1, 2, 3, 4, 5\nC: 0, 1, 2, 3, 4\nConstruct the market demand schedule and calculate the total market quantity demanded at ₹30/kg.",
+     "a": "Step 1: Align prices and quantities. Step 2: At ₹30/kg, A demands 6 kg, B demands 3 kg, C demands 2 kg. Step 3: Horizontal sum = 6 + 3 + 2 = 11 kg. Step 4: Full market schedule at ₹50,₹40,₹30,₹20,₹10: 3, 7, 11, 15, 19 kg. A wrong answer of 11 kg but with incorrect schedule (e.g., averaging) shows mechanical addition without understanding the price-quantity correspondence.",
+     "self_check": true
+    },
+    {
+     "q": "In a village market, 50 households each have identical demand for wheat: Qd = 10 - 0.5P. If 20 households migrate to the city, how does the market demand curve change? Describe the shift and its economic implication for the wheat seller.",
+     "a": "Original market demand: Qd_market = 50*(10 - 0.5P) = 500 - 25P. After migration: Qd_market = 30*(10 - 0.5P) = 300 - 15P. The curve shifts left (decreases) and becomes steeper (less elastic) because fewer buyers reduce total quantity at every price and reduce responsiveness. A wrong answer saying \"curve shifts right\" or \"becomes flatter\" reveals misunderstanding that fewer buyers shrink and steepen market demand.",
+     "self_check": true
+    },
+    {
+     "q": "A textbook states: \"Market demand is simply the demand of the average consumer multiplied by the number of consumers.\" Evaluate this statement. Is it always true? Provide a counterexample if false.",
+     "a": "False. This only holds if all consumers have identical demand curves. Counterexample: Two consumers, one demands 10 units at ₹10, another demands 0 units at ₹10. Average demand = 5 units, multiplied by 2 = 10 units. But true horizontal sum = 10 + 0 = 10 units (coincidentally same here). Better: at ₹5, first demands 15, second demands 5. Average = 10, ×2 = 20. Horizontal sum = 15+5=20. Actually works for linear identical? Wait, if demands are different shapes, average × N ≠ horizontal sum. Example: Consumer 1: Q=20-P, Consumer 2: Q=10-0.5P. At P=5, Q1=15, Q2=7.5, sum=22.5. Average demand = (30-1.5P)/2 = 15-0.75P, at P=5 gives 11.25, ×2=22.5. Actually for linear demands, average × N = horizontal sum because summation is linear. The statement is mathematically true for linear demands but conceptually misleading because it hides the horizontal summation process. The error is pedagogical: it encourages vertical thinking. A wrong answer saying \"always true\" misses the conceptual distinction between averaging and horizontal addition.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario in an Indian weekly haat (market) where three types of buyers (a restaurant owner, a household, and a street vendor) have different demand schedules for onions. Draw the individual and market demand curves on graph paper, labeling axes, and explain why the market curve is flatter.",
+     "a": "A good answer provides a table with three distinct demand schedules (e.g., restaurant buys 50kg at ₹20, household 5kg, vendor 10kg), correctly plots quantity on x-axis and price on y-axis, draws three downward-sloping individual curves, then a market curve that lies to the right and is flatter. Explanation: horizontal addition of quantities at each price makes market quantity more responsive. A poor answer draws vertical summation or identical curves, showing confusion between individual and market perspectives.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

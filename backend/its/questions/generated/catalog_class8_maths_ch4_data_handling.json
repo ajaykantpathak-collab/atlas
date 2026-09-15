@@ -1,0 +1,243 @@
+{
+ "catalog": "catalog_class8_maths_ch4_data_handling.json",
+ "concepts": [
+  {
+   "id": "c8m4.1.1",
+   "title": "Data and Graphical Representation",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 24 / 4 gives 6",
+     "compute": "t1 = 24 / 4"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Write the ratio 24 : 36 in its simplest form and give the first term of the simplest form.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Rs 400 is divided between two friends in the ratio 3 : 7. Find the smaller share.",
+     "a": "120",
+     "self_check": false
+    },
+    {
+     "q": "Rs 120 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 7 : 6 = 14 : ?  (give the fourth term).",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 7 : 6 :: 14 : 12 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 4 notebooks cost Rs 40, what will 6 notebooks cost at the same rate (direct proportion)?",
+     "a": "60",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m4.2.1",
+   "title": "Circle Graph or Pie Chart",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Write the ratio 50 : 70 in its simplest form and give the first term of the simplest form.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Rs 270 is divided between two friends in the ratio 1 : 8. Find the smaller share.",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "Rs 240 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "120",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 7 : 5 = 21 : ?  (give the fourth term).",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 7 : 5 :: 21 : 15 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 10 notebooks cost Rs 120, what will 8 notebooks cost at the same rate (direct proportion)?",
+     "a": "96",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m4.2.2",
+   "title": "Drawing Pie Charts (Central Angle)",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 52 degrees, find the other.",
+     "a": "38",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 125 degrees, find the other.",
+     "a": "55",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 23 degrees; find the other.",
+     "a": "157",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 109 degrees and 138 degrees, find the remaining angle.",
+     "a": "113",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 73 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "107",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 76 degrees. Find its co-interior partner.",
+     "a": "104",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m4.2.3",
+   "title": "Reading Values from a Pie Chart",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find 30% of 80.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "Convert the fraction 2/5 into a percentage.",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "Express the decimal 0.45 as a percentage.",
+     "a": "45",
+     "self_check": false
+    },
+    {
+     "q": "The price of a cycle rose from Rs 139 to Rs 277. Find the percentage increase (rounded to two decimal places).",
+     "a": "99.28",
+     "self_check": false
+    },
+    {
+     "q": "A quantity fell from 76 to 8. What is the percentage decrease (two decimal places)?",
+     "a": "89.47",
+     "self_check": false
+    },
+    {
+     "q": "What percentage of 120 is 26?",
+     "a": "21.6667",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m4.3.1",
+   "title": "Random Experiments and Equally Likely Outcomes",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide favourable outcomes by total outcomes",
+     "explain": "divide favourable outcomes by total outcomes: p = 3 / 6 gives 0.5",
+     "compute": "p = 3 / 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A die is rolled once. What is the probability of getting a number greater than 3? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "A die is rolled once. What is the probability of getting a prime number (2, 3 or 5)? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "Two coins are tossed together. What is the probability of getting exactly one head? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "3 fair coins are tossed together. What is the total number of possible outcomes?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled together. How many outcomes are in the sample space?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled. Find the probability of getting a sum of 3 (there are 1 such outcomes). (give the fraction)",
+     "a": "1/36",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m4.3.2",
+   "title": "Probability of an Event",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A die is rolled once. What is the probability of getting a number greater than 4? (give the fraction)",
+     "a": "1/3",
+     "self_check": false
+    },
+    {
+     "q": "A die is rolled once. What is the probability of getting a prime number (2, 3 or 5)? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "Two coins are tossed together. What is the probability of getting exactly one head? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "2 fair coins are tossed together. What is the total number of possible outcomes?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled together. How many outcomes are in the sample space?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled. Find the probability of getting a sum of 6 (there are 4 such outcomes). (give the fraction)",
+     "a": "1/9",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

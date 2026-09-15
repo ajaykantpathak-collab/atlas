@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_01_008",
+   "title": "c12_cs_cbse_01_008",
+   "questions": [
+    {
+     "q": "What does DNS stand for, and what is its primary function in computer networks?",
+     "a": "DNS stands for Domain Name System. Its primary function is to translate human-readable domain names (like www.example.com) into machine-readable IP addresses (like 192.0.2.1) so that devices can locate each other on a network. A wrong answer (e.g., \"DNS assigns IP addresses\" or \"DNS routes packets\") reveals the student confuses name resolution with address allocation (DHCP) or packet forwarding (routing).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the DNS namespace is organized as a hierarchy (root → top-level domains → second-level domains → subdomains) rather than as a flat list of all domain-to-IP mappings.",
+     "a": "A hierarchical namespace allows decentralized administration: each zone (e.g., .com, .in, example.com) is managed independently, enabling scalability to billions of names and fault isolation (a failure in .in does not affect .com). A flat list would require a single central database, creating a bottleneck, single point of failure, and impossible administrative coordination. If a student says \"hierarchy makes lookups faster\" without mentioning delegation and autonomy, they miss the core design principle of distributed authority.",
+     "self_check": true
+    },
+    {
+     "q": "Given the URL `https://user:pass@www.example.com:8080/path/to/resource?query=value#fragment`, identify each of the six standard URL components and state the purpose of the port number `8080`.",
+     "a": "Components: scheme=`https`, authority=`user:pass@www.example.com:8080` (userinfo=`user:pass`, host=`www.example.com`, port=`8080`), path=`/path/to/resource`, query=`query=value`, fragment=`fragment`. Port `8080` specifies the network port on the server to which the client should connect; it overrides the default port for HTTPS (443). A wrong answer that omits userinfo, treats the whole authority as host, or confuses query with fragment shows the student cannot parse the formal URL syntax (RFC 3986).",
+     "self_check": true
+    },
+    {
+     "q": "Compare a recursive DNS query and an iterative DNS query. Which type does a typical client (e.g., your laptop) send to its configured recursive resolver, and why?",
+     "a": "In a recursive query, the resolver must return either the final answer or an error; it performs all intermediate lookups on behalf of the client. In an iterative query, the resolver returns the best answer it has (possibly a referral to another server), and the client must continue querying. A typical client sends a **recursive** query to its ISP/resolver because the client is a stub resolver with no capacity to chase referrals. If a student claims the client uses iterative queries, they confuse the client-resolver interaction with the resolver-to-authoritative-server interaction (which is iterative).",
+     "self_check": true
+    },
+    {
+     "q": "A website changes its hosting provider and thus its IP address every week. The administrator sets the TTL of the A record to 86400 seconds (1 day). Evaluate whether this TTL is appropriate. Justify your answer considering both propagation delay and cache efficiency.",
+     "a": "The TTL of 86400 seconds is **too high** for weekly IP changes. With a 1-day TTL, recursive resolvers worldwide may cache the old IP for up to 24 hours after the change, causing visitors to reach the old server. A lower TTL (e.g., 300 seconds / 5 minutes) would ensure faster propagation of the new IP, at the cost of increased query load on authoritative servers. A student who says \"high TTL is always better for performance\" ignores the trade-off between cache efficiency and data freshness, a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a domain name structure for a multinational company \"GlobalTech\" that has offices in India (globaltech.in), USA (globaltech.us), and UK (globaltech.uk). Each office runs its own web server (www), mail server (mail), and internal database server (db). Show the fully qualified domain names (FQDNs) for all nine servers and specify which DNS record types you would create for each.",
+     "a": "Example structure (using subdomains for offices):\n- India web: `www.india.globaltech.in` → A record (IPv4) + AAAA record (IPv6)\n- India mail: `mail.india.globaltech.in` → A/AAAA + MX record pointing to this host\n- India db: `db.india.globaltech.in` → A/AAAA (internal only)\n- USA web: `www.usa.globaltech.us` → A/AAAA\n- USA mail: `mail.usa.globaltech.us` → A/AAAA + MX\n- USA db: `db.usa.globaltech.us` → A/AAAA\n- UK web: `www.uk.globaltech.uk` → A/AAAA\n- UK mail: `mail.uk.globaltech.uk` → A/AAAA + MX\n- UK db: `db.uk.globaltech.uk` → A/AAAA\nAdditionally, NS records at `globaltech.in`, `globaltech.us`, `globaltech.uk` delegate to each office's authoritative nameservers. A poor answer uses flat names like `www-india.globaltech.com` (not leveraging hierarchy) or omits MX records for mail, showing inability to map services to appropriate record types.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

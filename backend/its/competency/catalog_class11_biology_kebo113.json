@@ -1,0 +1,194 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 113,
+ "chapter_title": "Plant Growth and Development",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebo113.txt",
+ "concepts": [
+  {
+   "id": "kebo.113.1.1",
+   "title": "Growth, Its Phases and Growth Rate",
+   "section": "13.1 Growth",
+   "definition": "Growth is an irreversible permanent increase in size of an organ or its parts, measured by increase in cell number, area, weight or volume; it follows a lag phase, log phase and stationary phase, and its rate can be arithmetic or geometric and is expressed as increased growth per unit time.",
+   "formula": "growth_rate_percent = increase / initial * 100",
+   "key_idea": "An embryo with two leaves producing twenty leaves by geometric growth doubles at each step, showing that geometric growth follows compound interest while arithmetic growth adds a constant number of cells.",
+   "textbook_ref": "kebo113.txt sections 13.1.2-13.1.4",
+   "question_patterns": [
+    "define growth and state how it is measured in plants",
+    "describe the phases of sigmoid growth curve",
+    "differentiate arithmetic and geometric growth",
+    "calculate the percent growth rate from the given increase and initial size",
+    "what is the grand period of growth or log phase",
+    "express arithmetic growth in the form of an equation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the increase over the initial",
+     "explain": "Divide the increase in size by the initial size and multiply by 100 to get the percent growth rate",
+     "compute": "growth_rate_percent = increase / initial * 100"
+    }
+   ]
+  },
+  {
+   "id": "kebo.113.2.1",
+   "title": "Differentiation, Dedifferentiation and Redifferentiation; Development",
+   "section": "13.2 Differentiation, Dedifferentiation, Redifferentiation, 13.3 Development",
+   "definition": "Cells derived from meristems undergo differentiation into specialised cells, dedifferentiation regains division capacity forming interfascicular cambium, and redifferentiation matures them again; development of the plant also shows plasticity such as heterophylly and is followed by senescence and death.",
+   "formula": "",
+   "key_idea": "Heterophylly in cotton and coriander shows plasticity, where leaves of juvenile and mature plants take different shapes in response to environment or phases of life.",
+   "textbook_ref": "kebo113.txt sections 13.2, 13.3",
+   "question_patterns": [
+    "define differentiation dedifferentiation and redifferentiation",
+    "what is plasticity and give an example of heterophylly",
+    "how does dedifferentiation help in secondary growth",
+    "explain absolute and relative growth rates",
+    "what is senescence in plants",
+    "how does environment affect plant development"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the cell's fate",
+     "explain": "Follow the cell from meristem to mature tissue and back to division."
+    },
+    {
+     "step": 2,
+     "action": "note the plastic examples",
+     "explain": "Recall heterophylly in aquatic and terrestrial plants."
+    },
+    {
+     "step": 3,
+     "action": "link to development",
+     "explain": "Relate the stages to overall development and ageing."
+    }
+   ]
+  },
+  {
+   "id": "kebo.113.3.1",
+   "title": "Plant Growth Regulators: Auxins, Gibberellins, Cytokinins, Ethylene and ABA",
+   "section": "13.4 Plant Growth Regulators",
+   "definition": "Plant growth regulators include auxins promoting apical dominance and rooting, gibberellins causing bolting and internode elongation, cytokinins promoting cell division and delaying senescence, gaseous ethylene promoting fruit ripening and triple response, and abscisic acid as the stress hormone closing stomata.",
+   "formula": "",
+   "key_idea": "Auxin's apical dominance and cytokinin's promotion of lateral buds act in opposition, and ethylene is unique among PGRs in being a gas that hastens ripening.",
+   "textbook_ref": "kebo113.txt sections 13.4.1-13.4.5",
+   "question_patterns": [
+    "list the plant growth regulators and their functions",
+    "what is apical dominance and which hormone controls it",
+    "how does ethylene promote fruit ripening",
+    "why is abscisic acid called the stress hormone",
+    "describe the discovery of gibberellins from foolish seedling disease",
+    "which hormone delays leaf senescence and how"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the regulator",
+     "explain": "Use the described effect to name the hormone."
+    },
+    {
+     "step": 2,
+     "action": "note promotion or inhibition",
+     "explain": "Classify the PGR as growth promoting or growth inhibiting."
+    },
+    {
+     "step": 3,
+     "action": "verify the example",
+     "explain": "Match the textbook example such as bolting in cabbage with gibberellins."
+    }
+   ]
+  },
+  {
+   "id": "kebo.113.4.1",
+   "title": "Photoperiodism and Vernalisation",
+   "section": "13.5 Photoperiodism, 13.6 Vernalisation",
+   "definition": "Photoperiodism is the response of plants to the relative length of light and dark periods, classifying them into long day, short day and day neutral plants, while vernalisation is the induction of flowering by prolonged cold treatment as in winter varieties of wheat and barley.",
+   "formula": "",
+   "key_idea": "The site of photoperiodic perception is the leaf, and vernalisation prevents precocious reproductive development late in the season, with the hormone behind it named vernalin.",
+   "textbook_ref": "kebo113.txt sections 13.5, 13.6",
+   "question_patterns": [
+    "define photoperiodism and classify plants by photoperiod",
+    "which organ perceives the photoperiodic stimulus",
+    "define vernalisation with an example",
+    "why are winter varieties sown in autumn",
+    "differentiate long day and short day plants",
+    "what is the significance of vernalisation in horticulture"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "note the light duration",
+     "explain": "Check the critical photoperiod for flowering."
+    },
+    {
+     "step": 2,
+     "action": "classify the plant",
+     "explain": "Place the plant as long day, short day or day neutral."
+    },
+    {
+     "step": 3,
+     "action": "separate cold responses",
+     "explain": "Recognise vernalisation where cold exposure induces flowering."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebo113.txt section 13.1.3",
+   "concept": "kebo.113.1.1",
+   "question_type": "compute_growth_rate",
+   "question_pattern": "A leaf grows from {initial} square centimetres to {increased} square centimetres in two days. Calculate the percent growth rate over the initial area.",
+   "extracted_variables": {
+    "initial": 5,
+    "increase": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the increase over the initial",
+     "explain": "Divide the increase in size by the initial size and multiply by 100 to get the percent growth rate",
+     "compute": "growth_rate_percent = increase / initial * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kebo113.txt section 13.1.3",
+   "concept": "kebo.113.1.1",
+   "question_type": "compute_growth_rate",
+   "question_pattern": "A shoot elongates by {increased} centimetres from an initial length of {initial} centimetres in a week. Find its percent growth rate.",
+   "extracted_variables": {
+    "initial": 8,
+    "increase": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the increase over the initial",
+     "explain": "Divide the increase in size by the initial size and multiply by 100 to get the percent growth rate",
+     "compute": "growth_rate_percent = increase / initial * 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kebo113.txt exercises section",
+   "questions": [
+    "Define growth, differentiation, dedifferentiation, redifferentiation, determinate growth, meristem and growth rate.",
+    "Why is not any one parameter good enough to demonstrate growth throughout the life of a flowering plant?",
+    "Describe the stages of the sigmoid growth curve.",
+    "List the main physiological effects of auxins and gibberellins.",
+    "Explain photoperiodism and vernalisation with examples.",
+    "Why is abscisic acid known as the stress hormone?"
+   ]
+  }
+ ]
+}

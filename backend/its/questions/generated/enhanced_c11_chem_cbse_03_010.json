@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_03_010",
+   "title": "c11_chem_cbse_03_010",
+   "questions": [
+    {
+     "q": "State the definition of electronegativity according to Linus Pauling and name the element assigned the highest value (4.0) on this scale.",
+     "a": "Electronegativity is the ability of an atom in a molecule to attract shared electrons; fluorine is assigned 4.0. A wrong answer (e.g., \"electronegativity is electron gain enthalpy\" or \"oxygen is 4.0\") reveals confusion between measurable energy quantities and a relative scale, or misremembering the reference element.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why electronegativity increases across Period 2 from Li to F, but decreases down Group 17 from F to At, using the concepts of effective nuclear charge and atomic radius.",
+     "a": "Across a period: nuclear charge increases while valence shell remains same → higher Zeff, smaller radius → stronger pull on shared electrons. Down a group: principal quantum number n increases → larger radius, more shielding → weaker pull. If a student says \"more protons down group so higher EN\", they ignore shielding and radius effects.",
+     "self_check": true
+    },
+    {
+     "q": "Given Pauling EN values: H=2.1, Cl=3.0, Br=2.8, I=2.5. Calculate the electronegativity difference (ΔEN) for H–Cl, H–Br, and H–I bonds. Predict which bond is most polar and which is least polar.",
+     "a": "ΔEN(H–Cl)=0.9, ΔEN(H–Br)=0.7, ΔEN(H–I)=0.6. Most polar: H–Cl; least polar: H–I. A wrong calculation (e.g., subtracting in reverse order) or wrong prediction (saying H–I most polar because iodine is larger) shows misunderstanding that polarity depends on EN difference, not atomic size alone.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the electronegativity trends of Period 3 elements (Na to Cl) with their first ionisation enthalpy trends. Are there any anomalies? Explain using electron-electron repulsion in p-orbitals.",
+     "a": "Both generally increase left-to-right. Anomaly: EN of S (2.5) < Cl (3.0) follows trend, but IE of S (1000 kJ/mol) < P (1012 kJ/mol) due to paired electrons in S's 3p⁴ causing repulsion. EN doesn't show this dip because it reflects average attraction in bonds, not single-atom electron removal. If student says \"no anomalies\", they confuse IE anomalies with EN trends.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since electronegativity decreases down a group, the bond in HF should be less polar than in HI.\" Evaluate this statement and correct it using data.",
+     "a": "The statement is false. EN difference: HF = 4.0–2.1=1.9; HI = 2.5–2.1=0.4. HF is far more polar. The student incorrectly assumes polarity follows the central atom's EN trend, ignoring that hydrogen's EN (2.1) is fixed. Correct reasoning: polarity depends on ΔEN between the two bonded atoms.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using conductivity of aqueous solutions to demonstrate the relationship between electronegativity difference and ionic character of bonds in HX compounds (X = F, Cl, Br, I).",
+     "a": "Dissolve equal moles of HF, HCl, HBr, HI in water; measure conductivity. Higher conductivity → more H⁺ and X⁻ ions → more ionic character → larger ΔEN. Expected order: HCl ≈ HBr ≈ HI (strong acids, full dissociation) > HF (weak acid, partial dissociation due to H-bonding and high bond strength). A poor answer ignores HF's anomalous behavior or assumes conductivity directly tracks ΔEN without considering bond strength and solvation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

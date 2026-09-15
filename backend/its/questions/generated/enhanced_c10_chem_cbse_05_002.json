@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_05_002",
+   "title": "c10_chem_cbse_05_002",
+   "questions": [
+    {
+     "q": "State Newlands' Law of Octaves in your own words and specify up to which element it was found applicable.",
+     "a": "Correct answer: Newlands' Law of Octaves states that when elements are arranged in increasing order of atomic weights, the properties of every eighth element repeat. It was applicable only up to calcium (atomic weight 40). A wrong answer like \"it works for all elements\" or \"it is based on atomic number\" reveals the student confuses it with the modern periodic law or doesn't know the historical scope.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Newlands place cobalt (Co) and nickel (Ni) in the same slot in his table? What does this tell you about his assumption regarding the total number of elements?",
+     "a": "Correct answer: Newlands forced Co and Ni into the same slot because he assumed only 56 elements existed and his table had fixed 7-column octaves; placing them separately would break the octave pattern. A wrong answer like \"Co and Ni have similar properties\" shows the student misses that Newlands *forced* dissimilar elements together to preserve his pattern, revealing a misunderstanding of the law's rigidity.",
+     "self_check": true
+    },
+    {
+     "q": "Given the first 16 elements in order of increasing atomic weight: H, Li, Be, B, C, N, O, F, Na, Mg, Al, Si, P, S, Cl, K. Arrange them into Newlands' octaves (7 columns) and identify which elements fall in the same column as lithium (Li). Show your table.",
+     "a": "Correct answer:  \nColumn 1: H, F, Cl  \nColumn 2: Li, Na, K  \nColumn 3: Be, Mg  \nColumn 4: B, Al  \nColumn 5: C, Si  \nColumn 6: N, P  \nColumn 7: O, S  \nLithium (Li) is in column 2 with Na and K. A wrong arrangement (e.g., 8 columns, or K not under Na) reveals the student doesn't grasp the \"every eighth element\" rule or miscounts the starting point (H in column 1).",
+     "self_check": true
+    },
+    {
+     "q": "Compare Newlands' Law of Octaves with Dobereiner's Triads. Which specific limitation of Dobereiner did Newlands overcome, and which new limitation did Newlands introduce?",
+     "a": "Correct answer: Newlands overcame Dobereiner's limitation of only identifying a few triads (3 elements each) by extending the pattern to all known elements in a continuous table. However, Newlands introduced the new limitation of forcing elements into fixed slots (e.g., Co/Ni together) and assuming only 56 elements exist. A wrong answer like \"both are based on atomic weight\" misses the comparative analysis of *limitations* — a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Newlands' Law of Octaves successfully predicted the properties of germanium (Ge) before its discovery.\" Justify your answer with two reasons.",
+     "a": "Correct answer: False. (1) Newlands' table had no empty slots for undiscovered elements — he assumed only 56 elements existed. (2) His law failed beyond calcium, so it couldn't predict elements in higher periods like Ge (period 4). A student saying \"True, like Mendeleev\" confuses Newlands with Mendeleev — a classic board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple card-sorting activity for Class 9 students to demonstrate why Newlands' octaves fail after calcium. Specify the cards, the sorting rule, and the observation that reveals the failure.",
+     "a": "Expected answer: Cards: Element symbols with atomic weights (H=1 to Zn=65). Rule: Arrange in rows of 7 by increasing atomic weight. Observation: Up to Ca (20), elements in same column show similar properties (e.g., Li/Na/K). After Ca, Fe (56), Co (59), Ni (59) get forced into wrong columns — Co/Ni share a slot, Fe falls with halogens. A poor activity uses only 20 cards or doesn't show the Co/Ni collision, missing the core failure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

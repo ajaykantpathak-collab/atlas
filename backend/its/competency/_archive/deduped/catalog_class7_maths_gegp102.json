@@ -1,0 +1,239 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 2,
+ "chapter_title": "Arithmetic Expressions",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gegp102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gegp.2.1",
+   "title": "Arithmetic Expressions and Their Values",
+   "section": "Arithmetic Expressions",
+   "definition": "An arithmetic expression is a phrase made of numbers joined by operations like +, -, x and division, such as 18 divided by 3; every expression has a value that it evaluates to.",
+   "formula": "",
+   "key_idea": "An expression is a calculation in waiting: carrying out its operations in the right way gives its single value.",
+   "textbook_ref": "gegp102.txt, Arithmetic Expressions",
+   "question_patterns": [
+    "what is an arithmetic expression give two examples",
+    "find the value of 18 divided by 3",
+    "write an expression for the total of 25 and 40",
+    "what does it mean to evaluate an expression",
+    "make an expression whose value is 20",
+    "how is an expression different from an equation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-checking, then conclude."
+    }
+   ]
+  },
+  {
+   "id": "gegp.2.2",
+   "title": "Order of Operations",
+   "section": "Arithmetic Expressions",
+   "definition": "Expressions must be evaluated in a fixed order: brackets first, then multiplication and division from left to right, and finally addition and subtraction from left to right, so that everyone gets the same value.",
+   "formula": "val = a + b * c",
+   "key_idea": "Order is the grammar of arithmetic: without a fixed order, one expression would have many values.",
+   "textbook_ref": "gegp102.txt, Arithmetic Expressions",
+   "question_patterns": [
+    "evaluate 10 + 4 x 2 with correct order",
+    "why is the order of operations needed",
+    "evaluate 20 - 6 divided by 2",
+    "which comes first in an expression multiplication or addition",
+    "evaluate 8 + 12 divided by 4 x 3 step by step",
+    "find two classmates getting different values and fix the mistake"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "do multiplications first",
+     "explain": "Carry out every multiplication and division before adding.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "add what remains",
+     "explain": "Add the remaining terms to get the value.",
+     "compute": "val = a + b * c"
+    }
+   ]
+  },
+  {
+   "id": "gegp.2.3",
+   "title": "Brackets Change Everything",
+   "section": "Arithmetic Expressions",
+   "definition": "Brackets promote a part of an expression to first place: (7 + 5) x 3 evaluates the sum before multiplying, and expressions with and without brackets can give different values.",
+   "formula": "",
+   "key_idea": "Brackets are the loudest signal in an expression: whatever they hold is settled before anything else.",
+   "textbook_ref": "gegp102.txt, Arithmetic Expressions",
+   "question_patterns": [
+    "evaluate (7 + 5) x 3",
+    "compare 7 + 5 x 3 and (7 + 5) x 3",
+    "why do brackets get first priority",
+    "put brackets in 9 - 2 x 4 to make the value 28",
+    "evaluate 36 divided by (2 + 4)",
+    "write a story sum that needs brackets"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-checking, then conclude."
+    }
+   ]
+  },
+  {
+   "id": "gegp.2.4",
+   "title": "Expressions from Everyday Situations",
+   "section": "Arithmetic Expressions",
+   "definition": "Everyday stories turn into expressions: a shop bill, a cricket score or a journey total can each be written as numbers joined by operations before any calculation is done.",
+   "formula": "",
+   "key_idea": "Translating words to expressions and back is two-way: each story has an expression, each expression has a story.",
+   "textbook_ref": "gegp102.txt, Arithmetic Expressions",
+   "question_patterns": [
+    "write an expression for 5 notebooks at 40 rupees each plus 15 rupees for a pen",
+    "make a story for the expression 12 x 4 + 8",
+    "write the expression for a score of two fours and two sixes in cricket",
+    "turn the expression 100 - 3 x 15 into a shopping story",
+    "which operation shows many equal groups",
+    "check a friend's expression for your story sum"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-checking, then conclude."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "gegp102.txt",
+   "concept": "gegp.2.2",
+   "question_type": "compute",
+   "question_pattern": "Evaluate the expression 10 + 4 x 2 using the correct order of operations.",
+   "extracted_variables": {
+    "a": "first term",
+    "b": "number before the multiplication",
+    "c": "number after the multiplication"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply before adding",
+     "explain": "Do the multiplication part first: 4 times 2.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "finish with the addition",
+     "explain": "Add the first term to the product.",
+     "compute": "val = a + b * c"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "gegp102.txt",
+   "concept": "gegp.2.2",
+   "question_type": "compute",
+   "question_pattern": "Evaluate 20 + 3 x 4 following the order of operations.",
+   "extracted_variables": {
+    "a": "first term",
+    "b": "number before the multiplication",
+    "c": "number after the multiplication"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply before adding",
+     "explain": "First compute 3 times 4.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "finish with the addition",
+     "explain": "Then add 20 to the product.",
+     "compute": "val = a + b * c"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gegp102.txt",
+   "concept": "gegp.2.2",
+   "question_type": "verify_property",
+   "question_pattern": "evaluate (7 + 5) x 3 and compare with 7 + 5 x 3.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gegp102.txt, Figure it Out",
+   "questions": [
+    "Evaluate 10 + 4 x 2 with the correct order of operations.",
+    "Evaluate (7 + 5) x 3 and compare with 7 + 5 x 3.",
+    "Write an expression for 5 notebooks at 40 rupees each plus a pen of 15 rupees.",
+    "What is the value of 18 divided by 3?",
+    "Why do we need an agreed order of operations?"
+   ]
+  }
+ ]
+}

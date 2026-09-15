@@ -1,0 +1,456 @@
+{
+ "class": "6",
+ "subject": "social_science",
+ "chapter": 13,
+ "chapter_title": "The Value of Work",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fees113.txt",
+ "concepts": [
+  {
+   "id": "c6ss.13.1",
+   "title": "Meaning and Importance of Work",
+   "section": "Introduction",
+   "definition": "Work is any physical or mental effort directed toward producing a good or performing a service that is useful to oneself or to others.",
+   "formula": "",
+   "key_idea": "Work is purposeful effort that creates value for individuals and for society; without work no society can function.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define work in your own words.",
+    "Why is work considered important for society?",
+    "Give two examples of work that people do in your neighbourhood.",
+    "Distinguish between physical work and mental work with examples.",
+    "Explain how work contributes to the well-being of a community."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the effort involved",
+     "explain": "Determine whether the activity uses physical or mental effort directed at a goal."
+    },
+    {
+     "step": 2,
+     "action": "Check usefulness of output",
+     "explain": "Confirm that the effort produces a good or service of value to oneself or others."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on importance",
+     "explain": "State that because work creates value and meets needs, it is essential for society."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Is cooking food for the family considered work? Explain.",
+     "solution": "Cooking uses physical and mental effort and produces a useful good (food) that meets a basic need, so it qualifies as work.",
+     "answer": "Yes, cooking food for the family is work because it involves effort and produces something useful."
+    },
+    {
+     "question": "Why is work important for society? Give one reason.",
+     "solution": "Work produces the goods and services that people need to survive and prosper; without work, needs would go unmet.",
+     "answer": "Work is important because it creates the goods and services that society depends on."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List three types of work done in your household.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain in one sentence why no society can survive without work.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.13.2",
+   "title": "Paid Work",
+   "section": "Types of Work",
+   "definition": "Paid work is work for which a person receives a wage, salary, or fee in return for the goods produced or services rendered.",
+   "formula": "",
+   "key_idea": "Paid work is rewarded with money; the payment may be a fixed salary, a daily wage, or a fee per task.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is paid work? Give two examples.",
+    "How does a wage differ from a salary?",
+    "Name three occupations that involve paid work.",
+    "Why do people engage in paid work?",
+    "Describe one advantage and one challenge of paid work."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the payment",
+     "explain": "Check whether the worker receives money (wage, salary, or fee) for the work done."
+    },
+    {
+     "step": 2,
+     "action": "Confirm the exchange",
+     "explain": "Verify that the payment is given in return for goods produced or services rendered."
+    },
+    {
+     "step": 3,
+     "action": "Classify as paid",
+     "explain": "If both conditions hold, classify the work as paid work."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A carpenter makes furniture and is paid Rs 500 per day. Is this paid work?",
+     "solution": "The carpenter receives a daily wage in return for making furniture, so the work is paid.",
+     "answer": "Yes, this is paid work because the carpenter receives a wage for the service."
+    },
+    {
+     "question": "Distinguish between a wage and a salary with one example each.",
+     "solution": "A wage is a payment per day or per task (e.g., a daily-wage labourer), while a salary is a fixed monthly payment (e.g., a teacher).",
+     "answer": "A wage is paid per day/task; a salary is a fixed monthly payment."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Give two examples of paid work in your locality.",
+     "type": "short_answer"
+    },
+    {
+     "question": "State one reason why people take up paid work.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.13.4",
+   "title": "Voluntary Work",
+   "section": "Types of Work",
+   "definition": "Voluntary work is work done willingly and without payment for the benefit of the community or a cause.",
+   "formula": "",
+   "key_idea": "Voluntary work is driven by a sense of service rather than money; examples include helping during floods or cleaning a park.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is voluntary work? Give one example.",
+    "How does voluntary work differ from unpaid household work?",
+    "Describe a situation where voluntary work is important.",
+    "Why do people choose to do voluntary work?",
+    "List two benefits of voluntary work for a community."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check willingness and absence of pay",
+     "explain": "Confirm the work is done willingly and without monetary payment."
+    },
+    {
+     "step": 2,
+     "action": "Identify the beneficiary",
+     "explain": "Verify that the work benefits the community or a cause rather than only oneself."
+    },
+    {
+     "step": 3,
+     "action": "Classify as voluntary",
+     "explain": "If both conditions hold, classify the work as voluntary work."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Students clean a public park on a holiday without payment. Is this voluntary work?",
+     "solution": "The students act willingly, receive no money, and benefit the community, so this is voluntary work.",
+     "answer": "Yes, this is voluntary work because it is unpaid and benefits the community."
+    },
+    {
+     "question": "State one difference between voluntary work and unpaid household work.",
+     "solution": "Voluntary work benefits the wider community, while unpaid household work mainly benefits one's own family.",
+     "answer": "Voluntary work serves the community; unpaid household work serves the family."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Give one example of voluntary work in your community.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain one benefit of voluntary work for society.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.13.5",
+   "title": "Occupation and Profession",
+   "section": "Occupation and Profession",
+   "definition": "An occupation is the regular work a person does to earn a living; a profession is an occupation that requires specialised training and knowledge.",
+   "formula": "",
+   "key_idea": "All professions are occupations, but not all occupations are professions; professions need formal training and skill.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define occupation with an example.",
+    "Define profession with an example.",
+    "How does a profession differ from an occupation?",
+    "Is farming an occupation or a profession? Explain.",
+    "List three professions and three occupations."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the activity and its regularity",
+     "explain": "Check whether the person does the work regularly to earn a living (occupation)."
+    },
+    {
+     "step": 2,
+     "action": "Check for specialised training",
+     "explain": "Determine whether the work requires formal education, training, or a recognised skill."
+    },
+    {
+     "step": 3,
+     "action": "Classify accordingly",
+     "explain": "If specialised training is required, classify it as a profession; otherwise it is an occupation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Is teaching a profession or only an occupation? Justify.",
+     "solution": "Teaching requires formal training and a qualification, so it is a profession as well as an occupation.",
+     "answer": "Teaching is a profession because it requires specialised training."
+    },
+    {
+     "question": "Give one example each of an occupation that is a profession and one that is not.",
+     "solution": "A doctor (profession, needs training) and a street vendor (occupation, no formal training required).",
+     "answer": "Doctor = profession; street vendor = occupation (not a profession)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List two occupations that are also professions.",
+     "type": "short_answer"
+    },
+    {
+     "question": "State one difference between an occupation and a profession.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.13.6",
+   "title": "Division of Labour",
+   "section": "Division of Labour",
+   "definition": "Division of labour is the splitting of a task into smaller parts, with different people specialising in different parts.",
+   "formula": "",
+   "key_idea": "Division of labour increases efficiency and quality because each worker focuses on a specialised part of the task.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is division of labour? Give one example.",
+    "How does division of labour improve efficiency?",
+    "Describe division of labour in a restaurant kitchen.",
+    "State one advantage and one disadvantage of division of labour.",
+    "Explain division of labour with reference to building a house."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the overall task",
+     "explain": "Determine the complete task that needs to be accomplished."
+    },
+    {
+     "step": 2,
+     "action": "Check for specialisation",
+     "explain": "Verify that the task is split into parts and different people handle different parts."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on efficiency",
+     "explain": "State that specialisation leads to greater efficiency and quality."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "In a garment factory, one person cuts cloth, another stitches, and a third packs. Explain the concept.",
+     "solution": "The task of making a garment is split among specialists, which is division of labour.",
+     "answer": "This is division of labour because the task is split among specialised workers."
+    },
+    {
+     "question": "State one advantage of division of labour.",
+     "solution": "Each worker becomes skilled at one part, so work is done faster and with better quality.",
+     "answer": "Division of labour increases efficiency and quality."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Give one example of division of labour in a kitchen.",
+     "type": "short_answer"
+    },
+    {
+     "question": "State one disadvantage of division of labour.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.13.8",
+   "title": "Contribution of Workers to Society",
+   "section": "Contribution of Workers",
+   "definition": "Workers in different fields produce goods and provide services that together meet the needs of society and drive its progress.",
+   "formula": "",
+   "key_idea": "Society depends on the combined contribution of farmers, factory workers, teachers, doctors, and many others.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How do farmers contribute to society?",
+    "Name two workers who provide services and state their contribution.",
+    "Explain how factory workers support daily life.",
+    "Why is every worker's contribution important?",
+    "Describe how different workers depend on each other."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the worker and their output",
+     "explain": "Determine what good or service the worker produces."
+    },
+    {
+     "step": 2,
+     "action": "Link output to a social need",
+     "explain": "Connect the good or service to a need of society."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on contribution",
+     "explain": "State that the worker's output meets a social need and therefore contributes to society."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does a farmer contribute to society?",
+     "solution": "A farmer grows food that feeds people, meeting the basic need for nutrition.",
+     "answer": "A farmer contributes by producing food that society needs to survive."
+    },
+    {
+     "question": "Explain how a teacher's work benefits society.",
+     "solution": "A teacher educates children, building a skilled and informed future generation.",
+     "answer": "A teacher contributes by educating the next generation."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name two workers and state how each contributes to society.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why society depends on many kinds of workers.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.13.10",
+   "title": "Changing Nature of Work",
+   "section": "Changing Nature of Work",
+   "definition": "The nature of work changes over time due to new technology, new needs, and social changes, creating new occupations and reducing some old ones.",
+   "formula": "",
+   "key_idea": "Technology and social change create new kinds of work while making some traditional jobs less common.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How has technology changed the nature of work? Give one example.",
+    "Name one new occupation that did not exist fifty years ago.",
+    "State one traditional occupation that is declining. Why?",
+    "How do changing needs of people create new work?",
+    "Explain one positive and one negative effect of the changing nature of work."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the change factor",
+     "explain": "Determine whether technology, new needs, or social change is altering the work."
+    },
+    {
+     "step": 2,
+     "action": "Trace the effect on occupations",
+     "explain": "Check whether new occupations are created or old ones are reduced."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on changing nature",
+     "explain": "State that the factor has changed the nature of work by creating or reducing occupations."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How has the internet created new kinds of work? Give one example.",
+     "solution": "The internet has created work such as web designing and online teaching that did not exist before.",
+     "answer": "The internet has created new occupations like web designing."
+    },
+    {
+     "question": "Name one traditional occupation that is declining and suggest a reason.",
+     "solution": "Handloom weaving is declining because machine-made cloth is cheaper and faster to produce.",
+     "answer": "Handloom weaving is declining due to competition from machine-made cloth."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Give one example of a new occupation created by technology.",
+     "type": "short_answer"
+    },
+    {
+     "question": "State one way in which changing needs create new work.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "reviewer-added",
+   "concept": "c6ss.13.1",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain meaning and importance of work with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the effort involved",
+     "explain": "Determine whether the activity uses physical or mental effort directed at a goal."
+    },
+    {
+     "step": 2,
+     "action": "Check usefulness of output",
+     "explain": "Confirm that the effort produces a good or service of value to oneself or others."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on importance",
+     "explain": "State that because work creates value and meets needs, it is essential for society."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "reviewer-added",
+   "concept": "c6ss.13.2",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain paid work with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the payment",
+     "explain": "Check whether the worker receives money (wage, salary, or fee) for the work done."
+    },
+    {
+     "step": 2,
+     "action": "Confirm the exchange",
+     "explain": "Verify that the payment is given in return for goods produced or services rendered."
+    },
+    {
+     "step": 3,
+     "action": "Classify as paid",
+     "explain": "If both conditions hold, classify the work as paid work."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)"
+}

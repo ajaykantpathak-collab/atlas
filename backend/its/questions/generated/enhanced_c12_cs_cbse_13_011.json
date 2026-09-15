@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_13_011",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_13_011",
+   "title": "c12_cs_cbse_13_011",
+   "questions": [
+    {
+     "q": "A student says: \"Digital literacy just means knowing how to use a computer, smartphone, and the internet — like typing, browsing, and using WhatsApp.\" Is this statement accurate? Explain why or why not in 2-3 sentences.",
+     "a": "The statement is inaccurate. Digital literacy encompasses critical evaluation of online information (identifying misinformation), creative content production (not just consumption), understanding digital rights and responsibilities, and the ability to adapt to new tools — not merely operational skills. A student who equates digital literacy with basic device operation misses the \"critical\" and \"creative\" dimensions that distinguish literacy from mere familiarity, leading to inability to assess credibility of sources or protect privacy.",
+     "self_check": true
+    },
+    {
+     "q": "A rural entrepreneur learns to use a UPI app for payments but cannot distinguish between a legitimate bank notification and a phishing SMS asking for her OTP. Which specific component of digital literacy is missing, and how does this gap prevent her digital empowerment despite having \"access\" and \"basic skills\"?",
+     "a": "The missing component is **media literacy** (specifically, critical evaluation of digital communication authenticity). Without it, she possesses ICT literacy (operating the app) but cannot safely exercise it — the phishing risk forces her to either avoid digital transactions (losing empowerment benefits) or risk financial loss. This shows empowerment requires *layered* literacy: a gap in any layer (here, security awareness) collapses the entire value chain, turning \"access\" into vulnerability.",
+     "self_check": true
+    },
+    {
+     "q": "Under PMGDISHA (Pradhan Mantri Gramin Digital Saksharta Abhiyan), a village achieves 100% household certification (one member per household trained in basic digital skills). Yet women in the village still do not use smartphones for banking or entrepreneurship. Analyze three distinct barriers — one infrastructural, one socio-cultural, one literacy-layer — that explain this gap between *certification* and *empowerment*.",
+     "a": "Infrastructural: Poor broadband connectivity makes video tutorials or live market platforms unusable despite phone ownership. Socio-cultural: Gender norms restrict women's phone usage to \"family-approved\" contacts (calls/WhatsApp), blocking independent financial or business use. Literacy-layer: PMGDISHA teaches operational basics (turning on phone, making calls) but not *information literacy* (finding market prices, comparing platforms) or *communication literacy* (negotiating, branding). Certification measures attendance, not capability depth — empowerment requires all layers plus enabling environment.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Digital India programme's \"Digital Infrastructure as a Core Utility\" pillar with the \"Digital Literacy\" pillar. A policy analyst argues: \"If we build the infrastructure (broadband, Common Service Centres), literacy will follow naturally as people use the services.\" Evaluate this claim using the concept of *capability approach* (Amartya Sen) — does access to conversion factors (infrastructure) guarantee functionings (literate use)?",
+     "a": "The claim is false. Sen's capability approach distinguishes *resources* (infrastructure) from *capabilities* (real freedoms to achieve valued functionings). Conversion factors — personal (education, age, disability), social (gender norms, caste), environmental (electricity, language of interfaces) — determine whether infrastructure converts into literacy. A CSC (Common Service Centre) in a village with no female staff, English-only interfaces, and no training support remains inaccessible to illiterate women. Infrastructure is *necessary* but not *sufficient*; literacy programmes must address conversion factors directly (e.g., vernacular interfaces, women facilitators, assistive tech).",
+     "self_check": true
+    },
+    {
+     "q": "A school implements a \"Bring Your Own Device\" (BYOD) policy assuming all Class 12 students have smartphones and 4G access. During a project requiring collaborative research on Google Docs, three students cannot participate effectively. Evaluate the policy from a *digital equity* perspective: is it equality (same treatment) or equity (fair outcomes)? Propose two concrete modifications that address the equity gap without banning devices.",
+     "a": "The policy enforces *equality* (same rule for all) but violates *equity* (fair outcomes) because it ignores pre-existing disparities in device quality (cracked screen, old OS), data affordability (limited daily quota), and home support (no quiet space, shared device). Modifications: (1) Provide school-owned loaner devices with pre-loaded offline-capable apps (e.g., Google Docs offline mode) for checkout during project hours. (2) Design the project with *asymmetric collaboration roles* — students with limited connectivity contribute via structured offline research (printed sources, handwritten notes) that others digitize, ensuring every role is essential and assessed. Equity means designing for the *least-resourced* participant's success.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-week \"Digital Empowerment Module\" for a group of 20 rural women artisans (ages 30-50, primary education, first-time smartphone users) that goes beyond PMGDISHA basics. Specify: (a) one learning objective per week mapped to a digital literacy component, (b) one assessment method per week that measures *capability* not attendance, (c) one structural support needed per week (e.g., childcare, language, safety). Justify how your design addresses the \"literacy-to-empowerment\" conversion gap.",
+     "a": "**Week 1 (Information Literacy):** Objective — Find and verify raw material prices on 3+ platforms (IndiaMART, local mandi app, WhatsApp groups). Assessment — Each artisan presents a price comparison table for 5 materials with source credibility notes. Support — Vernacular voice-search enabled tablets; childcare at centre.  \n**Week 2 (Media Literacy):** Objective — Identify 5 red flags in fraudulent buyer messages (advance payment scams, fake courier links). Assessment — Role-play: artisan rejects 3 scam scripts, explains reasoning. Support — Women-only facilitator; printed cheat-sheet in local dialect.  \n**Week 3 (ICT Literacy):** Objective — Create a product catalog on WhatsApp Business with photos, descriptions, prices; receive and track 10 real orders. Assessment — Live demo: end-to-end order flow with digital payment confirmation. Support — Stable Wi-Fi at centre; power bank lending library.  \n**Week 4 (Communication Literacy):** Objective — Negotiate a bulk order via video call; document agreement in a shared Google Sheet. Assessment — Recorded negotiation + signed digital agreement screenshot. Support — Safe transport to centre for evening sessions; male ally workshop for family buy-in.  \n*Justification:* Each week builds a *market-facing capability* (not abstract skill), assessed by *authentic performance* (not quiz), with *conversion-factor supports* (language, safety, care) — directly bridging literacy to empowerment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

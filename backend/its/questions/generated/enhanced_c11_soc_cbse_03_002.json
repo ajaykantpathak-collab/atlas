@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_03_002",
+   "title": "c11_soc_cbse_03_002",
+   "questions": [
+    {
+     "q": "Define 'family of orientation' and 'family of procreation' and give one example of how a person belongs to both simultaneously.",
+     "a": "Family of orientation is the family into which a person is born and raised (parents, siblings); family of procreation is the family formed through marriage (spouse, children). Example: A married woman belongs to her natal family (orientation) and her marital family (procreation) simultaneously. A wrong answer that defines both as \"the family you live with\" reveals confusion between residence and kinship ties — the student fails to distinguish structural position from household composition.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The functionalist view says nuclear families are better for industrial society because women are naturally nurturing and men are naturally breadwinners.\" Identify two errors in this statement using sociological terminology.",
+     "a": "Error 1: The functionalist argument (Parsons/Giddens) is about role specialization (instrumental vs affective) as a structural requirement of industrial economy, not biological determinism — \"naturally\" confuses social role with biological essence. Error 2: The NCERT text explicitly states this vision is \"questionable not just because it is gender unjust but because empirical studies... show that it is untrue\" (garment export industry employs women). A wrong answer focusing only on \"gender unjust\" misses the empirical falsification; a wrong answer citing \"modern families are different\" misses the structural argument about role specialization.",
+     "self_check": true
+    },
+    {
+     "q": "In a village in Haryana, 65-year-old Ram Singh lives with his wife, their married son, daughter-in-law, and two grandchildren. His married daughter visits during festivals. Using A.M. Shah's framework, explain why this household is classified as joint despite the daughter's non-residence, and what demographic trend makes such households more common.",
+     "a": "Classification: Joint family because it contains two generations of married brothers (or father-son) sharing residence and kitchen — the defining criterion is co-residence of multiple married couples in the same household, not inclusion of all kin. Demographic trend: Rising life expectancy (from 32.5 to 55.4 years for men, 1941-50 to 1981-85) increased the proportion of aged (60+) in population; most elderly live in joint households with adult children. A wrong answer saying \"because the daughter visits\" confuses visiting kin with resident members; a wrong answer citing \"tradition\" misses the demographic mechanism Shah identifies.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Kolam female-headed household (accepted norm) with the migrant female-headed household (husband stops sending remittances). Analyze how the same structural form (female-headed) emerges from different causal mechanisms — one cultural, one economic — and what this implies for the \"patriarchy is universal\" claim.",
+     "a": "Kolam: Female headship is a culturally institutionalized norm (matrilineal/matrilocal context) where women's authority is legitimate and permanent. Migrant: Female headship is a contingent, often temporary adaptation to male migration and remittance failure — women assume provider role out of necessity, not cultural prescription. Implication: Patriarchy is not universal in form or rigidity; female-headed households can be normative (Kolam) or reactive (migrant), proving that gender authority structures vary by kinship system and political economy. A wrong answer treating both as \"women forced to take charge\" erases the cultural legitimacy in Kolam society and misreads structural diversity as uniform oppression.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the modernization theory prediction that \"industrialization inevitably leads to nuclear family dominance\" using three pieces of empirical evidence from the Indian context provided in the NCERT text.",
+     "a": "Evidence 1: A.M. Shah documents joint family increase in post-independence India (1941-50 to 1981-85) alongside industrialization, driven by rising life expectancy — contradicting unilinear nuclearization. Evidence 2: Singh (1993) shows families \"need not become nuclear in an industrial pattern of economy\" — Indian industrial workers maintain joint/extended ties for mutual aid. Evidence 3: German unification case — withdrawal of state welfare caused marriage decline, proving family form responds to state policy, not just industrial logic. A critique using only \"joint families still exist\" without citing the demographic mechanism (Shah) or the policy mechanism (German case) fails to engage the theoretical claim at the structural level.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a kinship diagram for a matrilocal, matrilineal society where the maternal uncle holds authority (avunculate). Show three generations, label all consanguineous and affinal ties, and indicate residence, descent, and authority flows with arrows. Write a 3-sentence sociological interpretation of how this structure challenges the \"patriarchal nuclear family as universal\" assumption.",
+     "a": "[Diagram description: Generation 1: Maternal grandmother (head) ↔ maternal grandfather (affine). Generation 2: Mother (resident) — Father (affine, non-resident visitor) — Maternal uncle (resident, authority holder). Generation 3: Ego (child) — Siblings — Maternal uncle's children (consanguineous). Arrows: Descent ↓ through women; Residence → matrilocal (husband visits); Authority → maternal uncle.] Interpretation: This structure separates biological fatherhood from social fathering (uncle), residence from descent, and authority from conjugal unit — demonstrating that child-rearing, inheritance, and power can be organized without a co-resident husband-father. A poor diagram showing father as resident head or missing the uncle's authority reveals inability to decenter the patriarchal nuclear model.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

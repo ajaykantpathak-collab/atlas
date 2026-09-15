@@ -1,0 +1,41 @@
+{
+  "catalog": "catalog_class11_geography_kegy205",
+  "concepts": [
+    {
+      "id": "kegy.205.1.1",
+      "questions": [
+        {"q": "Forces acting on the earth's surface from within are called what? (one word)", "a": "endogenetic"},
+        {"q": "Forces acting from outside, like weathering and erosion, are called what? (one word)", "a": "exogenetic"},
+        {"q": "Which large-scale internal process deforms the crust through folding and faulting? (one word)", "a": "diastrophism"},
+        {"q": "Which internal process moves molten rock onto the surface? (one word)", "a": "volcanism"},
+        {"q": "Name one exogenetic process besides weathering and erosion. (one word)", "a": "deposition"},
+        {"q": "The balance of internal and external forces keeps the surface in perpetual what? (one word)", "a": "change"},
+        {"q": "How many internal force categories are named (diastrophism and volcanism)? (number)", "a": "2"}
+      ]
+    },
+    {
+      "id": "kegy.205.2.1",
+      "questions": [
+        {"q": "What is the in-situ breaking of rock without transport called? (one word)", "a": "weathering"},
+        {"q": "Name one type of weathering besides chemical and biological. (one word)", "a": "physical"},
+        {"q": "What moves weathered material downslope under gravity? (two words)", "a": "mass movements"},
+        {"q": "Name one agent of erosion besides running water and wind. (one word)", "a": "glaciers"},
+        {"q": "Which force pulls weathered debris downhill in mass movements? (one word)", "a": "gravity"},
+        {"q": "Erosion removes material and eventually does what with it? (one word)", "a": "deposits"},
+        {"q": "Does chemical weathering change the rock's composition or only its size? (one word)", "a": "composition"}
+      ]
+    },
+    {
+      "id": "kegy.205.3.1",
+      "questions": [
+        {"q": "Landform evolution proceeds from youth to which final stage? (one word)", "a": "old age"},
+        {"q": "Which landform result of erosion provides the flattest sites for farming? (one word)", "a": "plains"},
+        {"q": "Which structures built across rivers need the right landform site to hold water safely? (two words)", "a": "dam sites"},
+        {"q": "Which slope use prevents erosion on hills? (one word)", "a": "terracing"},
+        {"q": "Under each geomorphic agent, landforms evolve through what sequence of stages? (short phrase)", "a": "youth to old age"},
+        {"q": "What should settlements avoid siting on, according to geomorphic knowledge? (one word)", "a": "landslide"},
+        {"q": "Which land-use decision depends on knowing soils and water supply from landforms? (one word)", "a": "farming"}
+      ]
+    }
+  ]
+}

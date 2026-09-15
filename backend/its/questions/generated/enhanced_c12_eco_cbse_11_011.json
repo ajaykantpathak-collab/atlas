@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_11_011",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_11_011",
+   "title": "c12_eco_cbse_11_011",
+   "questions": [
+    {
+     "q": "Define a fixed exchange rate system and state the specific obligation it imposes on the central bank.",
+     "a": "A fixed exchange rate system is one where the government/central bank announces an official par value for the domestic currency against a foreign currency (or basket) and commits to buy/sell unlimited amounts of foreign exchange at that rate to maintain the peg. The central bank must hold sufficient foreign exchange reserves to intervene whenever market demand ≠ market supply at the fixed rate. A wrong answer (e.g., \"the rate never changes\" or \"the central bank sets the rate but doesn't have to intervene\") reveals confusion between a declared peg and the operational requirement of reserve-backed intervention.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a country operating under a fixed exchange rate system need to hold large foreign exchange reserves? Explain the mechanism using the concept of excess demand/supply in the foreign exchange market.",
+     "a": "Under a fixed rate, the exchange rate cannot adjust to equate demand and supply. If at the fixed rate there is excess demand for foreign currency (e.g., due to higher imports or capital outflow), the central bank must sell foreign currency from its reserves to meet the gap. Conversely, excess supply requires the central bank to buy foreign currency, adding to reserves. Without adequate reserves, the central bank cannot honor its commitment, leading to a forced devaluation or abandonment of the peg. A wrong answer that says \"reserves are needed to pay for imports\" confuses the central bank's role with private importers' needs; the key is that reserves back the central bank's promise to clear the market at the fixed price.",
+     "self_check": true
+    },
+    {
+     "q": "Suppose Country X fixes its currency at 10 units per USD. Initially, market demand = market supply = $50 billion at this rate. Due to a sudden rise in foreign interest rates, capital outflows increase the demand for USD to $70 billion while supply remains at $50 billion. Calculate the change in the central bank's foreign exchange reserves and the new reserve level if initial reserves were $30 billion. Can the peg be sustained?",
+     "a": "Excess demand = $70b - $50b = $20b. The central bank must sell $20b from reserves to meet this demand. New reserves = $30b - $20b = $10b. The peg can be sustained only if reserves remain adequate to cover future imbalances; at $10b, the country is vulnerable. A wrong answer that calculates excess supply or ignores the direction of reserve change shows misunderstanding of which side of the market the central bank operates on.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the automatic adjustment mechanism of a balance of payments deficit under a flexible exchange rate system with the adjustment process under a fixed exchange rate system. Use the terms \"depreciation\", \"expenditure switching\", and \"reserve loss\" in your answer.",
+     "a": "Under flexible rates, a BoP deficit means excess demand for foreign currency → domestic currency depreciates → exports become cheaper, imports dearer → net exports rise (expenditure switching) → deficit self-corrects without reserve loss. Under fixed rates, the same deficit creates excess demand → central bank sells reserves to maintain the peg → reserves fall → money supply contracts (if unsterilized) → domestic income and imports fall → deficit corrects but at the cost of reserve depletion and potential output loss. A wrong answer that claims fixed rates also use depreciation confuses the two regimes; fixed rates by definition prevent exchange rate movement.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A flexible exchange rate system is superior to a fixed exchange rate system for a developing economy like India because it provides monetary policy autonomy and eliminates the need for large foreign exchange reserves.\" Consider both the benefits and the risks (e.g., volatility, speculation) in your judgment.",
+     "a": "The statement is partially correct but incomplete. Flexible rates do grant monetary policy autonomy (central bank can set interest rates for domestic goals without defending a peg) and reduce the need for large reserves (no obligation to intervene at a fixed price). However, developing economies often face high exchange rate volatility due to thin markets, speculative attacks, and liability dollarization (firms borrow in foreign currency). Sharp depreciation can trigger balance sheet crises and imported inflation. India's managed floating regime attempts to capture the benefits of flexibility while using intervention to curb excessive volatility. A wrong answer that uncritically endorses either extreme misses the nuanced trade-offs and India's actual policy choice.",
+     "self_check": true
+    },
+    {
+     "q": "Design a policy response for a country with a fixed exchange rate that is experiencing a persistent balance of payments deficit and dwindling reserves. Your response must include (a) an expenditure-reducing policy, (b) an expenditure-switching policy that does not involve changing the peg, and (c) a condition under which devaluation becomes inevitable.",
+     "a": "(a) Expenditure-reducing: tighten fiscal policy (cut government spending/raise taxes) or monetary policy (raise interest rates) to reduce aggregate demand and imports. (b) Expenditure-switching without devaluation: implement import tariffs/quotas or export subsidies to shift demand toward domestic goods. (c) Devaluation becomes inevitable when reserves fall below a critical threshold (e.g., less than 3 months of imports) and the government cannot or will not implement sufficient (a) and (b) due to political/economic costs. A poor answer that suggests \"just devalue immediately\" ignores the policy sequence and the fact that devaluation is a last resort under a fixed regime.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

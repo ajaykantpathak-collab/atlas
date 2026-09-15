@@ -1,0 +1,189 @@
+{
+ "catalog": "catalog_class8_maths_hemh112.json",
+ "concepts": [
+  {
+   "id": "hemh.112.12.1",
+   "title": "Factors of Natural Numbers and Algebraic Expressions",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 3 + 9 gives 18",
+     "compute": "val = 3 * 3 + 9"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate 3x + 9 when x = 3.",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 2x^2 + 4x + 5 when x = 2.",
+     "a": "21",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 9x + 8x - 9x and give the coefficient of x.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 3 x (6 + 4) equals 3 x 6 + 3 x 4. Compute it.",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 3 + 3 x 8 (respect the order of operations).",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (4 + 6) x 6.",
+     "a": "60",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.112.12.2",
+   "title": "Factorisation by Common Factors and Regrouping",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the number-play rule digit by digit",
+     "explain": "apply the number-play rule digit by digit: big = 8 * 1000 + 7 * 100 + 4 * 10 + 1 gives 8741",
+     "compute": "big = 8 * 1000 + 7 * 100 + 4 * 10 + 1"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the number-play rule digit by digit: small = 1 * 1000 + 4 * 100 + 7 * 10 + 8 gives 1478",
+     "compute": "small = 1 * 1000 + 4 * 100 + 7 * 10 + 8"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the number-play rule digit by digit: diff = big - small gives 7263",
+     "compute": "diff = big - small"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For the digits 7, 1, 8, 4 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",
+     "a": "7263",
+     "self_check": false
+    },
+    {
+     "q": "The number 7744 is split into landmark groups of 1000, 100 and 10. How many complete 1000-groups does it contain?",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Find the digit sum of 7744.",
+     "a": "22",
+     "self_check": false
+    },
+    {
+     "q": "Find the remainder when the digit sum of 7744 (= 22) is divided by 9.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Take the 2-digit number 85, reverse its digits to get 58, and find the positive difference (a Kaprekar-style step).",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "For the 2-digit number 85 (digits 8 and 5), the difference between the number and its reversal is always 9 x (difference of digits). Compute that difference.",
+     "a": "27",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.112.12.3",
+   "title": "Factorisation Using Identities",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "expand with the algebraic identity and evaluate",
+     "explain": "expand with the algebraic identity and evaluate: val = 4 * 4 + 2 * 4 * 3 + 3 * 3 gives 49",
+     "compute": "val = 4 * 4 + 2 * 4 * 3 + 3 * 3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Use the identity (a + b)^2 = a^2 + 2ab + b^2 to find the square of 3 more than 4; report the value.",
+     "a": "49",
+     "self_check": false
+    },
+    {
+     "q": "Using (a - b)^2 = a^2 - 2ab + b^2, evaluate 20^2 - 2 x 20 x 8 + 8^2.",
+     "a": "144",
+     "self_check": false
+    },
+    {
+     "q": "Use a^2 - b^2 = (a + b)(a - b) to compute 13 x 9 where the numbers are a + b and a - b for a = 11, b = 2.",
+     "a": "117",
+     "self_check": false
+    },
+    {
+     "q": "Expand (x + 6)(x + 4) using the identity x^2 + (a + b)x + ab and evaluate it at x = 8.",
+     "a": "168",
+     "self_check": false
+    },
+    {
+     "q": "Compute 102^2 using (100 + 2)^2 = 10000 + 2 x 100 x 2 + 2^2.",
+     "a": "10404",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 98 x 102 using a^2 - b^2 with a = 100 and b = 2.",
+     "a": "9996",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.112.12.4",
+   "title": "Division of Algebraic Expressions",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Evaluate 3x + 5 when x = 4.",
+     "a": "17",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 3x^2 + 8x + 5 when x = 4.",
+     "a": "85",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 4x + 9x - 4x and give the coefficient of x.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 9 x (3 + 9) equals 9 x 3 + 9 x 9. Compute it.",
+     "a": "108",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 2 + 3 x 2 (respect the order of operations).",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (6 + 5) x 6.",
+     "a": "66",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_02_011",
+   "title": "c11_ip_cbse_02_011",
+   "questions": [
+    {
+     "q": "What is the data type of the expression `10 + 3.14` in Python, and why does Python choose that type?",
+     "a": "The data type is `float`. Python implicitly converts the `int` (10) to `float` (10.0) before addition to avoid loss of precision, following the rule that arithmetic between `int` and `float` yields `float`. A wrong answer (e.g., `int` or `str`) reveals the student thinks Python either truncates the decimal or treats numbers as strings.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why `print(\"Age: \" + 25)` raises a `TypeError`, but `print(\"Age: \" + str(25))` works. What is the fundamental rule about implicit conversion to `str`?",
+     "a": "Python never implicitly converts non-string types to `str` during concatenation; `+` with a string requires both operands to be strings. The first line fails because `25` is an `int`. The second works because `str(25)` explicitly creates the string `\"25\"`. A wrong answer (e.g., \"Python converts numbers to strings automatically\") shows the student confuses Python with languages like JavaScript that do implicit string conversion.",
+     "self_check": true
+    },
+    {
+     "q": "Given `x = \"100\"` and `y = 50`, write a single expression that evaluates to the integer `150` using explicit conversion. Show the steps.",
+     "a": "`int(x) + y` → `int(\"100\")` gives `100` (int), then `100 + 50` gives `150` (int). Steps: 1) Identify `x` is `str`, `y` is `int`. 2) Convert `x` to `int` using `int()`. 3) Add the two integers. A wrong answer like `x + y` (TypeError) or `int(x + y)` (TypeError: can't add str and int) reveals the student doesn't know conversion must happen before the operation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the results of `int(3.9)` and `round(3.9)`. Why are they different? What does this imply about the behavior of `int()` on floats?",
+     "a": "`int(3.9)` returns `3` (truncation toward zero), while `round(3.9)` returns `4` (rounding to nearest integer). This shows `int()` on a float does not round — it discards the fractional part. A wrong answer claiming both give `4` indicates the student mistakenly thinks `int()` rounds.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `total = float(input(\"Enter price: \")) * int(input(\"Enter quantity: \"))` and claims it always works. Critique this code: when will it fail, and how would you make it robust?",
+     "a": "It fails if the user enters non-numeric input (e.g., \"abc\") for either prompt, raising `ValueError`. It also fails if quantity is entered as a float string like \"2.5\" because `int(\"2.5\")` raises `ValueError`. Robust version: use `try-except` or validate with `str.isdigit()`/`str.replace('.','',1).isdigit()`. A wrong answer that ignores `ValueError` shows the student doesn't consider invalid user input.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where you must use both implicit and explicit conversion in the same program. Write a 3-line code snippet that demonstrates both.",
+     "a": "Scenario: Calculate GST-inclusive price. `price = float(input(\"Enter price (₹): \"))` (explicit str→float), `gst_rate = 0.18` (float literal), `total = price * (1 + gst_rate)` (implicit int→float in `1 + gst_rate`), `print(\"Total: ₹\" + str(round(total, 2)))` (explicit float→str). A poor answer uses only one conversion type or uses unrealistic values, showing inability to synthesize both concepts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_06_006",
+   "title": "c12_bio_cbse_06_006",
+   "questions": [
+    {
+     "q": "How many different codons exist in the standard genetic code, and how many of them code for amino acids (sense codons) versus signal termination (stop codons)?",
+     "a": "There are 64 codons (4³). 61 are sense codons specifying amino acids; 3 (UAA, UAG, UGA) are stop codons. A wrong answer (e.g., 60 sense codons) reveals the student has not memorized the exact count or confuses start codon (AUG) as separate from sense codons — AUG codes for methionine AND signals start, so it is counted among the 61.",
+     "self_check": true
+    },
+    {
+     "q": "The genetic code is described as \"degenerate.\" Explain what this means and give a concrete example using the amino acid leucine.",
+     "a": "Degeneracy means most amino acids are specified by more than one codon. Leucine has six codons: UUA, UUG, CUU, CUC, CUA, CUG. A wrong answer that says \"degenerate means the code is broken\" or \"each codon codes for multiple amino acids\" reveals confusion between degeneracy and ambiguity — the code is degenerate but not ambiguous (each codon specifies only one amino acid).",
+     "self_check": true
+    },
+    {
+     "q": "A tRNA molecule has the anticodon 5'-IAG-3' (where I = inosine). Using Crick's wobble rules, list all mRNA codons this tRNA can recognize and the amino acid they specify.",
+     "a": "Inosine at the 5' anticodon position (wobble position) pairs with U, C, or A at the 3' codon position. The anticodon 5'-IAG-3' reads codons 3'-AUC-5', 3'-AUU-5', 3'-AUA-5' (written 5'→3': CUA, UUA, AUA). These are all leucine codons (CUA, UUA) and isoleucine (AUA) — wait, AUA codes for isoleucine, not leucine. Actually, 5'-IAG-3' pairs with 3'-AUC-5' (CUA, Leu), 3'-AUU-5' (UUA, Leu), 3'-AUA-5' (AUA, Ile). But a single tRNA carries only one amino acid. This reveals the student must check: in reality, tRNA^Leu with anticodon UAG (modified to IAG) reads CUA, CUG? Let's recalc: Standard wobble: I pairs with U, C, A. Anticodon 5'-IAG-3' reads codons starting with 5'-CU? Actually, codon 5'-CUA-3' pairs with anticodon 3'-GAU-5' (written 5'-UAG-3'). If first base of anticodon is I, it's 5'-IAG-3'. It pairs with codons 5'-CUN-3' where N = U, C, A? Wait, base pairing is antiparallel. mRNA codon 5'-XYZ-3' pairs with tRNA anticodon 3'-X'Y'Z'-5'. Usually we write anticodon 5'→3'. So if anticodon is 5'-IAG-3', its 3'→5' is GAI. It pairs with codon 5'-CUN-3'? Let's do properly: Codon 5'-CUA-3' pairs with anticodon 3'-GAU-5' (5'-UAG-3'). If wobble at first position of anticodon (5' end), I can pair with U, C, A of codon third position. So anticodon 5'-IAG-3' (3'-GAI-5') pairs with codons 5'-CUU-3', 5'-CUC-3', 5'-CUA-3' (all Leu). It does NOT pair with AUA because that would require anticodon 3'-UAU-5' (5'-UAU-3'). So the correct answer: This tRNA recognizes CUU, CUC, CUA (all leucine). A wrong answer listing AUA shows misunderstanding of antiparallel pairing and wobble direction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the genetic code properties \"non-overlapping\" and \"comma-less.\" Are they synonymous? If not, give a hypothetical scenario where a code is non-overlapping but not comma-less.",
+     "a": "They are distinct. Non-overlapping means each nucleotide belongs to only one codon (read in triplets consecutively). Comma-less means no punctuation (spacers) between codons; the reading frame is fixed by the start codon. A hypothetical code with a \"spacer\" nucleotide between each triplet (e.g., AUG X UUU X UCU) would be non-overlapping (each base still used once) but NOT comma-less (it has commas/spacers). A wrong answer saying they are the same reveals the student hasn't distinguished frame maintenance from delimiter absence.",
+     "self_check": true
+    },
+    {
+     "q": "A point mutation changes the DNA template strand sequence from 3'-TAC-5' to 3'-TAA-5' in a gene's coding region. Predict the effect on the mRNA codon and the resulting protein, assuming this is not the start codon. Justify using genetic code properties.",
+     "a": "Original DNA template 3'-TAC-5' → mRNA 5'-AUG-3' (Met). Mutated DNA template 3'-TAA-5' → mRNA 5'-AUU-3' (Ile). This is a missense mutation (Met → Ile). The code's degeneracy did not protect against this change because the mutation altered the second base (U→A in mRNA), which is highly specific. A wrong answer claiming \"no effect because code is degenerate\" shows misunderstanding that degeneracy mostly involves third-base changes, not second-base.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal set of tRNA anticodons (using standard bases A, U, G, C and inosine I) that can translate all six leucine codons (UUA, UUG, CUU, CUC, CUA, CUG). Explain how wobble reduces the number of tRNAs needed compared to a strict Watson-Crick pairing model.",
+     "a": "Leucine codons: UUA, UUG (both UUR), CUU, CUC, CUA, CUG (all CUN). With wobble: one tRNA with anticodon 5'-UAA-3' (reads UUA, UUG via U-A and U-G wobble at third base? Actually anticodon 5'-UAA-3' pairs with 3'-AUU-5' (UUA) and 3'-AUC-5' (UUG)? Wait, standard: tRNA^Leu with anticodon UAA reads UUA and UUG? Let's use known biology: tRNA^Leu with anticodon 5'-UAA-3' (modified) reads UUA and UUG. For CUN family: one tRNA with anticodon 5'-IAG-3' reads CUU, CUC, CUA (I pairs with U,C,A). Another tRNA with anticodon 5'-CAG-3' reads CUG (C pairs with G). So minimal set = 3 tRNAs. Without wobble (strict Watson-Crick), each codon needs a unique anticodon → 6 tRNAs. Wobble reduces 6 → 3. A poor answer that lists 6 anticodons or doesn't use inosine shows failure to apply wobble rules for economy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

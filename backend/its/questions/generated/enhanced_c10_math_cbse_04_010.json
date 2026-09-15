@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_04_010",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_04_010",
+   "title": "c10_math_cbse_04_010",
+   "questions": [
+    {
+     "q": "What is the condition on the discriminant \\(D = b^2 - 4ac\\) for a quadratic equation \\(ax^2 + bx + c = 0\\) (with real coefficients, \\(a \\neq 0\\)) to have **no real roots**?",
+     "a": "The condition is \\(D < 0\\) (i.e., \\(b^2 - 4ac < 0\\)). A wrong answer like \\(D > 0\\) or \\(D = 0\\) reveals the student has confused the three cases: \\(D > 0\\) gives two distinct real roots, \\(D = 0\\) gives two equal real roots, and only \\(D < 0\\) gives no real roots. This confusion is the most common error in board exam MCQs and 1-mark questions.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The equation \\(x^2 - 4x + 5 = 0\\) has no real roots because the discriminant is negative.\" Without calculating the discriminant, explain **why** the discriminant must be negative by looking at the expression \\(x^2 - 4x + 5\\). (Hint: Complete the square.)",
+     "a": "Completing the square: \\(x^2 - 4x + 5 = (x^2 - 4x + 4) + 1 = (x-2)^2 + 1\\). Since \\((x-2)^2 \\ge 0\\) for all real \\(x\\), the expression is always \\(\\ge 1\\). It can never be zero, so the equation has no real roots. Therefore, the discriminant must be negative. A wrong answer that just computes \\(D = 16 - 20 = -4\\) shows the student relies only on formula plugging and does not understand the **graphical/algebraic meaning** of \\(D < 0\\) — that the quadratic is always positive (or always negative) and never touches the x-axis.",
+     "self_check": true
+    },
+    {
+     "q": "Find the values of \\(k\\) for which the quadratic equation \\(2x^2 + kx + 3 = 0\\) has **no real roots**.",
+     "a": "**Step 1:** Identify coefficients: \\(a = 2\\), \\(b = k\\), \\(c = 3\\).  \n**Step 2:** Write the condition for no real roots: \\(D < 0\\) → \\(b^2 - 4ac < 0\\).  \n**Step 3:** Substitute: \\(k^2 - 4(2)(3) < 0\\) → \\(k^2 - 24 < 0\\).  \n**Step 4:** Solve the inequality: \\(k^2 < 24\\) → \\(-\\sqrt{24} < k < \\sqrt{24}\\) → \\(-2\\sqrt{6} < k < 2\\sqrt{6}\\).  \n**Step 5:** Final answer: \\(k \\in (-2\\sqrt{6}, 2\\sqrt{6})\\).  \nA wrong answer like \\(k < \\sqrt{24}\\) or \\(k > -\\sqrt{24}\\) reveals the student does not know how to solve quadratic inequalities (forgets the two-sided bound). Another common error: writing \\(k^2 < 24 \\Rightarrow k < \\pm \\sqrt{24}\\) which is incorrect notation.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the quadratic equation \\(px^2 - 2\\sqrt{5}px + 15 = 0\\) where \\(p\\) is a non-zero real constant. It is given that the equation has **no real roots**. Compare the following two statements and decide which is correct:  \n**Statement A:** \\(p\\) must be positive.  \n**Statement B:** \\(p\\) must be negative.  \nJustify your answer by analyzing the discriminant.",
+     "a": "**Step 1:** Coefficients: \\(a = p\\), \\(b = -2\\sqrt{5}p\\), \\(c = 15\\).  \n**Step 2:** Discriminant: \\(D = b^2 - 4ac = (-2\\sqrt{5}p)^2 - 4(p)(15) = 20p^2 - 60p\\).  \n**Step 3:** Condition for no real roots: \\(D < 0\\) → \\(20p^2 - 60p < 0\\) → \\(20p(p - 3) < 0\\).  \n**Step 4:** Solve inequality: The product is negative when \\(0 < p < 3\\).  \n**Step 5:** Since \\(p\\) is non-zero and must lie between 0 and 3, \\(p\\) is **positive**. Statement A is correct; Statement B is false.  \nA wrong answer that says \"p can be negative\" reveals the student forgot that \\(p\\) appears squared in the first term but linearly in the second, so the sign of \\(p\\) matters. They might have incorrectly simplified \\(D = 20p^2 - 60p\\) and thought \\(p^2\\) dominates, missing the linear term's effect.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves the problem: \"Find \\(k\\) so that \\(x^2 + kx + 9 = 0\\) has no real roots.\" Their working:  \n\\(D = k^2 - 4(1)(9) = k^2 - 36\\)  \nFor no real roots, \\(D < 0\\) → \\(k^2 - 36 < 0\\) → \\(k^2 < 36\\) → \\(k < 6\\).  \n**Evaluate** this solution. Is it fully correct? If not, identify the error and give the correct solution.",
+     "a": "The solution is **incorrect**. The error is in the last step: \\(k^2 < 36\\) does **not** imply \\(k < 6\\). The correct solution of \\(k^2 < 36\\) is \\(-6 < k < 6\\) (i.e., \\(|k| < 6\\)). The student forgot the lower bound \\(-6\\). This is a classic board exam error — losing marks for incomplete inequality solution. The correct answer: \\(k \\in (-6, 6)\\).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (in an Indian context: rupees, metres, litres, etc.) that leads to a quadratic equation with **no real roots**. Write the problem statement, form the equation, compute its discriminant, and explain what \"no real roots\" means in your context.",
+     "a": "**Example problem:** \"A rectangular garden has a perimeter of 40 metres. Can its area be 150 m²?\"  \nLet length = \\(x\\) metres, then breadth = \\(20 - x\\) metres. Area = \\(x(20-x) = 150\\) → \\(-x^2 + 20x - 150 = 0\\) → \\(x^2 - 20x + 150 = 0\\).  \nDiscriminant: \\(D = (-20)^2 - 4(1)(150) = 400 - 600 = -200 < 0\\).  \n**Interpretation:** No real roots means no real dimensions \\(x\\) satisfy the conditions. So, a rectangle with perimeter 40 m **cannot** have area 150 m² (maximum area for given perimeter is a square of side 10 m, area 100 m²).  \nA poor answer would give a problem where the discriminant is accidentally negative without the student realizing the physical impossibility, or they might not explain the contextual meaning of \"no real roots\".",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

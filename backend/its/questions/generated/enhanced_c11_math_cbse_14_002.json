@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_14_002",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_14_002",
+   "title": "c11_math_cbse_14_002",
+   "questions": [
+    {
+     "q": "Write the negation of the statement: \"All squares are rectangles.\" Express your answer in a complete sentence.",
+     "a": "The negation is: \"Not all squares are rectangles\" or equivalently \"There exists at least one square that is not a rectangle.\" A wrong answer like \"No squares are rectangles\" reveals the student incorrectly negated the universal quantifier by changing 'all' to 'none' instead of 'not all' / 'there exists ... not'.",
+     "self_check": true
+    },
+    {
+     "q": "If p is the statement \"2 + 2 = 5\", what is the truth value of ∼p? Explain why.",
+     "a": "p is false (since 2+2=4), therefore ∼p is true. A wrong answer stating ∼p is false reveals the student thinks negation preserves truth value or confuses the statement's content with its truth value.",
+     "self_check": true
+    },
+    {
+     "q": "Write the negation of the compound statement: \"The number x is even and x is greater than 10.\" Use De Morgan's law conceptually.",
+     "a": "The negation is: \"The number x is not even OR x is not greater than 10\" (i.e., x is odd or x ≤ 10). A wrong answer \"x is not even and x is not greater than 10\" reveals the student did not switch 'and' to 'or' when negating a conjunction.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the statement: \"For every real number x, x^2 ≥ 0.\" Write its negation and determine whether the negation is true or false.",
+     "a": "Negation: \"There exists a real number x such that x^2 < 0.\" This negation is false because the original statement is true (square of any real number is non-negative). A wrong answer like \"For every real number x, x^2 < 0\" reveals the student negated the predicate but kept the universal quantifier.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the negation of \"Some integers are negative\" as \"Some integers are not negative.\" Is this correct? Justify your answer.",
+     "a": "No, it is incorrect. \"Some integers are negative\" means \"There exists an integer that is negative.\" Its negation is \"No integer is negative\" or \"All integers are non-negative.\" The student's answer is actually the negation of \"All integers are negative.\" This reveals confusion between 'some' (existential) and 'all' (universal) quantifiers.",
+     "self_check": true
+    },
+    {
+     "q": "Create a statement p such that both p and ∼p are false in the real world, or explain why this is impossible.",
+     "a": "It is impossible. By definition of negation, p and ∼p always have opposite truth values; one must be true and the other false. A student who tries to create such an example reveals they do not grasp the law of excluded middle or think truth values depend on external facts rather than logical structure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

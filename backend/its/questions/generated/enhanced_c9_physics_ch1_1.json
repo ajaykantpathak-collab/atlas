@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch1_1",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch1_1",
+   "title": "c9_physics_ch1_1",
+   "questions": [
+    {
+     "q": "A student says: \"My grandmother knows that tulsi leaves cure fever because she has seen it work many times. This is scientific knowledge because it is based on observation.\" Is the student correct? Explain why or why not in 2-3 sentences.",
+     "a": "No, the student is not correct. While the grandmother's knowledge is based on observation, it lacks systematic controls (no comparison group, no dosage standardization, no ruling out placebo effect or natural recovery), peer review, and falsifiability — the claim \"tulsi cures fever\" is vague and not structured to be rigorously tested. A wrong answer reveals the student conflates *any* observation with *scientific* observation, missing the requirement for controlled, replicable, and communally vetted evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Two students debate: Student A says \"A theory in science is just a guess that hasn't been proven yet.\" Student B says \"A scientific theory is a well-substantiated explanation supported by a large body of evidence.\" Which student reflects the board-level understanding of 'scientific theory'? Justify your answer by explaining the difference between the everyday and scientific meanings of the word 'theory'.",
+     "a": "Student B is correct. In everyday language, 'theory' means a hunch or speculation; in science, a theory (like atomic theory or germ theory) is a comprehensive framework that has withstood extensive testing, explains diverse phenomena, and makes accurate predictions — it is the *highest* level of scientific understanding, not a guess. A wrong answer reveals the student has not internalized the precise epistemic status of scientific theories versus hypotheses, a distinction critical for board exam definitions.",
+     "self_check": true
+    },
+    {
+     "q": "Read the following claim: \"A new herb 'X' increases memory power in students.\" Design a *falsifiable* hypothesis from this claim that could be tested in a school laboratory setting. State the hypothesis clearly and explain what specific experimental result would falsify it.",
+     "a": "Hypothesis: \"Consuming 5 g of powdered herb X daily for 30 days improves short-term memory recall score by at least 15% compared to a placebo group of same-age students under identical conditions.\" Falsification condition: If the controlled experiment shows no statistically significant difference (p > 0.05) between herb X and placebo groups, the hypothesis is falsified. A wrong answer reveals the student cannot operationalize a vague claim into a testable, falsifiable prediction with measurable variables — a core board-level skill.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze this statement: \"Science progresses by proving theories true.\" Explain why this statement is epistemologically incorrect. Use the concepts of falsifiability and paradigm shift to support your answer.",
+     "a": "Science does not *prove* theories true; it *corroborates* them by failing to falsify them. A theory survives until a reproducible observation contradicts it (falsification), potentially triggering a paradigm shift (e.g., Newtonian mechanics → relativity). The statement is wrong because induction (accumulating confirming instances) can never guarantee universal truth — only deductive falsification is logically definitive. A wrong answer reveals the student holds a naive inductivist view, confusing \"not yet falsified\" with \"proven true,\" missing the Popperian criterion central to Class 9 board expectations.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 9 student reads a WhatsApp forward: \"NASA confirms: rubbing lemon on forehead cures migraine instantly.\" Evaluate this claim using *three* criteria of systematic science. State your judgment: accept, reject, or suspend judgment — with reasoning.",
+     "a": "Judgment: Reject. Three criteria violated: (1) **No peer-reviewed publication** — WhatsApp is not a vetted scientific channel; (2) **No falsifiable mechanism** — \"instantly cures\" is vague, no dosage, no control for placebo/spontaneous remission; (3) **No reproducibility evidence** — no independent lab replication cited. A wrong answer (e.g., \"accept because NASA is authoritative\") reveals the student relies on authority rather than methodological criteria, a classic board-level error called 'appeal to authority' fallacy.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life scenario from your home or school where a *non-scientific* belief (superstition, tradition, anecdote) is treated as fact. Then redesign it as a *systematic scientific investigation* by specifying: (a) the falsifiable hypothesis, (b) controlled variables, (c) how peer review would occur in a school context.",
+     "a": "Example scenario: \"Eating curd before exams brings good marks\" (non-scientific belief). Redesign: (a) Hypothesis: \"Consuming 100 g curd daily for 7 days before a standardized test improves scores by ≥5% vs. no-curd control group.\" (b) Controlled variables: same study hours, sleep, syllabus, test difficulty, student ability (random assignment). (c) Peer review: Present methodology and raw data to science teacher and two other Class 9 sections for critique; replicate in another school. A poor answer (e.g., just \"do a survey\") reveals inability to translate belief into controlled, replicable, communally verified investigation — the essence of systematic science.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch01_004",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch01_004",
+   "title": "c7_eco_ch01_004",
+   "questions": [
+    {
+     "q": "What is commodity money?",
+     "a": "Commodity money is money whose value comes from the commodity of which it is made, or items that have intrinsic use value (like grain, salt, or cattle) used as a medium of exchange. A wrong answer usually confuses it with modern paper notes, revealing a failure to distinguish between items with real everyday utility and fiat money backed by government decree.",
+     "self_check": true
+    },
+    {
+     "q": "Why were cattle often difficult to use as a medium of exchange for small everyday purchases in an ancient village market?",
+     "a": "Cattle were difficult to use for small purchases because they are indivisible (you cannot cut a cow in half to buy a bundle of vegetables) and lack portability. A wrong answer suggests that cattle spoiled too quickly like food, revealing a misunderstanding of the specific economic properties of divisibility and portability versus durability.",
+     "self_check": true
+    },
+    {
+     "q": "In an ancient coastal trading community, 1 cowrie shell is worth 1 kilogram of wheat, and 50 cowrie shells are worth 1 iron plough. If a farmer has 200 cowrie shells, how many iron ploughs can the farmer buy, and what economic function of money is primarily demonstrated here?",
+     "a": "Steps:\n1. Identify the given exchange rates: 50 cowrie shells = 1 iron plough; total cowrie shells = 200.\n2. Set up the division problem: Total shells divided by shells per plough.\n3. Calculate: 200 ÷ 50 = 4 iron ploughs.\n4. Determine the economic function: Cowrie shells are acting as a \"measure of value\" (unit of account) and a \"medium of exchange\".\nAnswer: 4 iron ploughs; medium of exchange and measure of value. A wrong answer indicates trouble applying proportional math to economic exchange rates.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why cowrie shells succeeded as early money in coastal and inland trade routes across ancient India and Africa, while perishable fruits failed to serve the same purpose.",
+     "a": "Cowrie shells succeeded because they were durable, standardized in size, lightweight to carry, and non-perishable, whereas fruits spoiled quickly, varied wildly in ripeness, and could not be stored to preserve purchasing power over time. A wrong answer shows a failure to connect physical durability and storability with the fundamental requirements of money.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether salt was a better form of commodity money than cattle for an ordinary villager buying daily household goods. Explain your reasoning using economic properties of money.",
+     "a": "Salt was better for small everyday purchases because it was divisible into smaller quantities and easier to transport than cattle, although it had limitations if exposed to water. Cattle were too valuable and indivisible for small transactions. A wrong answer shows a lack of critical judgment regarding how different commodities fit different transaction sizes and storage needs.",
+     "self_check": true
+    },
+    {
+     "q": "Propose a new non-perishable commodity item that could have served as effective commodity money in a heavily forested ancient Indian village, and justify your choice using at least two economic properties of money.",
+     "a": "A good proposal would be metal arrowheads or polished beads, justified by their durability, portability, and limited supply (scarcity). A poor answer suggests items like fresh leaves or flowers, revealing a complete misunderstanding of perishability and value preservation in money.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

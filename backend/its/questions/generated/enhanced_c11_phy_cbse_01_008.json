@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_01_008",
+   "title": "c11_phy_cbse_01_008",
+   "questions": [
+    {
+     "q": "State any three limitations of dimensional analysis as per NCERT Class 11 curriculum.",
+     "a": "The three limitations are: (1) Cannot determine dimensionless numerical constants (e.g., 2, π, 1/2). (2) Cannot derive relations involving trigonometric, logarithmic, or exponential functions. (3) Cannot distinguish between physical quantities having the same dimensions (e.g., work and torque). A wrong answer revealing only \"cannot find constants\" misses the functional and dimensional ambiguity limitations.",
+     "self_check": true
+    },
+    {
+     "q": "Why can dimensional analysis not determine the value of dimensionless constants like 2π in the time period formula of a simple pendulum?",
+     "a": "Dimensional analysis equates dimensions on both sides of an equation. Dimensionless constants have dimensions [M⁰L⁰T⁰], so they do not appear in the dimensional equation at all. The method only constrains the powers of M, L, T; any multiplicative factor with zero dimensions remains undetermined. A student who says \"because constants have no units\" shows partial understanding but misses that the method fundamentally operates on dimensional exponents, not numerical values.",
+     "self_check": true
+    },
+    {
+     "q": "A student proposes the formula for the time period of a simple pendulum as T = 2π√(m/lg) using dimensional analysis. Identify the error and explain why dimensional analysis alone could not catch it.",
+     "a": "The error is including mass (m) in the formula. Correct dependence is T ∝ √(l/g) with no mass dependence. Dimensional analysis gives T = k lˣ gʸ mᶻ. Equating dimensions: [T] = [L]ˣ [LT⁻²]ʸ [M]ᶻ → x+y=0, -2y=1, z=0. This yields z=0, correctly showing no mass dependence. However, if the student incorrectly assumed three variables and solved wrongly, dimensional analysis would still give z=0. The method cannot catch algebraic errors in solving the exponent equations. A wrong answer indicates confusion between the method's capability (it does give z=0) and student's computational mistake.",
+     "self_check": true
+    },
+    {
+     "q": "The displacement of a particle in simple harmonic motion is given by x = A sin(ωt + φ). Explain why dimensional analysis cannot be used to derive this equation, even though we know the dimensions of A, ω, t, and φ.",
+     "a": "Dimensional analysis requires the relationship to be of product type (power law): x = k Aᵃ ωᵇ tᶜ φᵈ. The sine function is not a power law; it is a transcendental function. The argument (ωt + φ) must be dimensionless, which dimensional analysis can verify (ωt has [T⁻¹][T] = [1], φ is an angle [1]), but it cannot generate the functional form sin(θ). The method only works for algebraic combinations of variables, not for trigonometric, exponential, or logarithmic functions. A wrong answer focusing only on \"angle is dimensionless\" misses the fundamental restriction to power-law dependencies.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Since work and torque both have dimensions [ML²T⁻²], dimensional analysis can confirm that the equation Work = Torque × Angle is dimensionally consistent, therefore the equation is physically correct.\"",
+     "a": "The claim is false. While the equation is dimensionally consistent (Angle is dimensionless, so RHS has [ML²T⁻²]), dimensional consistency does not guarantee physical correctness. Work and torque are physically distinct quantities: work is a scalar (energy transfer), torque is a vector (rotational force). The equation \"Work = Torque × Angle\" is actually correct only for rotational work (W = τθ), but dimensional analysis alone cannot distinguish this from an incorrect equation like \"Work = Torque\" (which would also be dimensionally consistent if angle is omitted). A student accepting the claim confuses dimensional consistency with physical validity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment or real-world scenario where dimensional analysis would fail to derive the correct physical relationship, and explain which specific limitation applies.",
+     "a": "Scenario: Deriving the range of a projectile launched at angle θ with speed u. The range R = (u²/g) sin(2θ). Dimensional analysis gives R ∝ u²/g but cannot produce sin(2θ) because it is a trigonometric function of a dimensionless angle. The limitation is inability to handle trigonometric functions. A good answer identifies a specific physical law involving sin, cos, log, or exp, and names the exact limitation. A poor answer gives a generic \"complex situation\" without naming the functional form limitation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_11_002",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_11_002",
+   "title": "c12_bs_cbse_11_002",
+   "questions": [
+    {
+     "q": "State the primary focus of marketing and the primary focus of selling as per NCERT Class 12 Business Studies.",
+     "a": "Marketing focuses on **customer needs and satisfaction**; selling focuses on **product and sales volume**. A wrong answer (e.g., \"both focus on profit\" or \"marketing focuses on advertising\") reveals the student conflates marketing with promotion or thinks both are synonymous with revenue generation, missing the customer-centric vs product-centric core distinction.",
+     "self_check": true
+    },
+    {
+     "q": "A company manufactures electric scooters. The management says: \"We have produced 10,000 units; now we need an aggressive sales team to push them through discounts and door-to-door canvassing before the festive season ends.\" Is this a marketing orientation or selling orientation? Justify using **two** distinguishing parameters.",
+     "a": "This is a **selling orientation**. Parameters: (1) **Starting point**: Production precedes customer research (they made 10,000 units first). (2) **Objective**: Short-term volume clearance via discounts/push, not long-term satisfaction. A wrong answer calling it \"marketing because they want to sell\" shows the student equates any sales activity with marketing, ignoring the sequence (needs first vs production first) and profit philosophy.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the marketing vs selling distinction to this scenario: A startup surveys 500 urban commuters about last-mile transport pain points, designs a foldable e-bike based on the top three unmet needs, prices it at ₹45,000 after competitive analysis, partners with metro stations for docking, and offers a 3-year battery warranty. Identify **three** marketing-oriented actions and explain why each is NOT selling.",
+     "a": "Three marketing actions: (1) **Surveying commuters first** — starts with needs identification (marketing starts before production; selling starts after). (2) **Designing based on unmet needs** — product development driven by customer insight (marketing focuses on satisfaction; selling focuses on existing product). (3) **3-year warranty & metro partnerships** — post-sale service and place strategy for long-term relationship (marketing scope is broad/integrated; selling scope ends at transaction). A poor answer lists \"pricing\" or \"advertising\" without linking to the *customer-first sequence*, indicating rote memorisation of 4Ps without grasping the philosophical shift.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the profit philosophy of marketing vs selling using the formula:  \n**Marketing Profit = f(Customer Satisfaction × Time)** vs **Selling Profit = f(Sales Volume × Margin)**.  \nAnalyse why a firm following selling orientation may report high quarterly profits but lose market share in 3 years, while a marketing-oriented firm may have lower initial margins but higher Customer Lifetime Value (CLV).",
+     "a": "Selling maximises **short-term profit per transaction** (high margin × volume push), often via discounts that erode brand equity and ignore post-purchase experience, leading to low repeat purchase and negative word-of-mouth. Marketing invests in **satisfaction-driven retention** (warranty, service, feedback loops), increasing CLV = (Average Purchase Value × Purchase Frequency × Customer Lifespan). Over 3 years, the marketing firm's compounding referrals and lower acquisition cost outweigh the selling firm's one-time spikes. A wrong analysis that only compares quarterly P&L misses the *time dimension* and *relationship asset* — a classic board exam trap where students treat profit as static.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: *\"In a seller's market (high demand, low supply), selling orientation is superior to marketing orientation because customers will buy whatever is available.\"* Use the concepts of **caveat emptor vs caveat venditor** and **market dynamics** to defend or refute.",
+     "a": "**Refute.** Even in a seller's market, selling orientation is dangerous because: (1) **Markets shift** — when supply catches up (inevitable in competitive economies), the firm with no customer insight or loyalty loses instantly. (2) **Caveat venditor (let seller beware) is the modern legal norm** (Consumer Protection Act 2019) — ignoring satisfaction invites litigation and regulatory penalties. (3) **Reputation is path-dependent** — brands like Maruti Suzuki dominated India's seller's market in the 1980s *because* they invested in service networks (marketing), not just production. A student who agrees reveals a static view of markets and ignores the legal/ethical shift from caveat emptor to caveat venditor emphasized in NCERT.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-row comparison table for a **new Indian D2C skincare brand** showing how it would operate differently under selling vs marketing orientation across these dimensions: (a) Product Development, (b) Pricing Strategy, (c) Post-Purchase Engagement. Use specific actions (e.g., \"survey 1,000 women on ingredient preferences\" vs \"copy competitor's bestseller\").",
+     "a": "| Dimension | Selling Orientation | Marketing Orientation |\n|-----------|---------------------|------------------------|\n| **Product Development** | Copy competitor's vitamin C serum; launch in 3 months | Survey 1,000 target users on skin concerns, allergies, packaging preferences; co-create formula with dermatologists; 12-month R&D |\n| **Pricing Strategy** | Cost-plus 60% margin; heavy festive discounts to clear stock | Value-based pricing (willingness-to-pay analysis); tiered bundles (starter/loyalty); no deep discounts to protect brand equity |\n| **Post-Purchase** | No follow-up; replace only if formal complaint filed | Free skin analysis after 30 days; personalized regimen app; loyalty points for reviews/referrals; easy returns |\n\nA weak answer uses generic terms like \"good quality\" or \"advertising\" without *specific, measurable actions* tied to the orientation's logic, showing inability to operationalise the concept.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

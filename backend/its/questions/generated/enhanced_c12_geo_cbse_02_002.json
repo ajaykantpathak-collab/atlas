@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_02_002",
+   "title": "c12_geo_cbse_02_002",
+   "questions": [
+    {
+     "q": "Define crude population density and give its formula with units.",
+     "a": "Crude population density = Total population / Total land area; units: persons per sq km. A wrong answer (e.g., using cultivable area or omitting units) shows the student confuses crude density with physiological density or treats density as a dimensionless number.",
+     "self_check": true
+    },
+    {
+     "q": "Why does physiological density give a more realistic picture of population pressure on agricultural land than crude density? Explain with an example.",
+     "a": "Physiological density divides population by net cultivable area, ignoring non‑arable land (deserts, mountains, urban built‑up). For example, Egypt’s crude density is low (~100 persons/sq km) but its physiological density is extremely high (~2,500 persons/sq km) because almost all people live along the Nile. A student who says \"both are the same\" fails to grasp that crude density dilutes pressure by including unusable land.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the crude, physiological, and agricultural densities for a hypothetical region with: total population 12 million, total area 40,000 sq km, net cultivable area 15,000 sq km, agricultural population 4 million. Show all steps.",
+     "a": "Step 1: Crude density = 12,000,000 / 40,000 = 300 persons/sq km.  \nStep 2: Physiological density = 12,000,000 / 15,000 = 800 persons/sq km.  \nStep 3: Agricultural density = 4,000,000 / 15,000 ≈ 267 farmers/sq km.  \nA wrong answer (e.g., using total area for physiological density) reveals confusion between denominator types.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the physiological densities of India (~450 persons/sq km) and Japan (~3,000 persons/sq km). What does this contrast tell you about their agricultural land availability and food security strategies?",
+     "a": "Japan’s much higher physiological density indicates very limited cultivable land per person, forcing intensive farming, high yields, and heavy food imports. India’s lower physiological density reflects larger arable area, but uneven distribution and population growth still create regional stress. A student who only compares crude densities misses the land‑quality dimension.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A country with high agricultural density always has low agricultural productivity.\" Provide a reasoned judgment.",
+     "a": "Not necessarily. High agricultural density means many farmers per unit cultivable land (e.g., parts of Bihar). Productivity depends on technology, irrigation, inputs, and crop choice. Punjab has lower agricultural density but higher productivity due to mechanisation. A student who agrees without qualification ignores the role of capital and technology.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one‑page infographic for a district planning office that uses all three density types to argue for either (a) expanding irrigation or (b) promoting non‑farm employment. Sketch the layout and list the data points you would include.",
+     "a": "A good answer includes: title, district map with cultivable area shaded, three calculated densities with formulas, comparison to state/national averages, and a clear recommendation backed by the numbers. A poor answer merely lists definitions without connecting densities to the policy choice.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

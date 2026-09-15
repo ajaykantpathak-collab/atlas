@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch03_010",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch03_010",
+   "title": "c7_eco_ch03_010",
+   "questions": [
+    {
+     "q": "What term describes the difference in the availability and quality of physical and social facilities between villages and cities?",
+     "a": "The correct answer is the rural-urban infrastructure gap (or development gap). A wrong answer such as \"inflation\" or \"barter deficit\" shows a confusion between monetary terms and structural development differences, indicating the student has not grasped the definition of regional infrastructure disparity.",
+     "self_check": true
+    },
+    {
+     "q": "Why might a factory owner choose to build a manufacturing plant near a major highway in an urban industrial zone rather than deep inside a rural area with poor road connectivity?",
+     "a": "The correct answer is that urban industrial zones provide better transport networks, reliable power supply, and quick access to large markets, reducing transport costs and preventing production delays. A wrong answer—like assuming factory owners prefer rural areas because land is cheap without considering transport costs—reveals a misunderstanding of how infrastructure reduces business expenses and boosts profitability.",
+     "self_check": true
+    },
+    {
+     "q": "District Alpha (Urban) has 100% of households connected to piped water and paved roads, while District Beta (Rural) has only 20% connected to piped water and unpaved mud roads. If setting up a cold-storage food processing unit costs ₹50 Lakhs in both districts, calculate the percentage point difference in piped water access and state which district presents a lower operational risk for perishable goods storage.",
+     "a": "Step 1: Identify given data: Urban piped water access = 100%, Rural piped water access = 20%.\nStep 2: Calculate percentage point difference: 100% - 20% = 80 percentage points.\nStep 3: Analyze operational risk for perishable goods: Perishable goods require reliable water, electricity, and all-weather roads to reach markets quickly.\nStep 4: Conclude that District Alpha presents a lower operational risk because its 100% piped water and paved roads ensure uninterrupted processing and transport.\nA wrong answer usually fails to subtract correctly or ignores how water and roads affect perishable storage, showing a weak grasp of infrastructural risk factors.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how a lack of reliable electricity and internet connectivity in rural areas restricts the growth of modern digital businesses compared to urban centres.",
+     "a": "The correct answer is that digital businesses rely entirely on uninterrupted power and high-speed internet to process online transactions, communicate with clients, and manage inventories in real time. Without these basic utility and communication networks, rural entrepreneurs cannot participate in the national or global digital economy, trapping them in traditional, low-income activities. A wrong answer indicates that the student thinks digital businesses can operate without physical infrastructure, ignoring the dependence of technology on power and telecom networks.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Investing heavily in rural roads and electricity is a waste of government money because cities generate more tax revenue.\" Is this economically sound? Justify your answer.",
+     "a": "The correct answer is that the statement is economically unsound. While cities currently generate more tax revenue, investing in rural infrastructure unlocks agricultural productivity, reduces post-harvest losses, enables rural industrialization, and creates jobs locally. This ultimately expands the national tax base and reduces rural-to-urban distress migration. A wrong answer shows a short-sighted view of government spending, failing to recognize that rural areas supply food and raw materials that feed urban industrial growth.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple three-point infrastructure development proposal for a backward rural district to help local farmers sell their vegetables directly in urban markets.",
+     "a": "A strong proposal should include: (1) Constructing all-weather rural roads connecting farms to local collection hubs; (2) Establishing solar-powered cold-storage facilities near villages to prevent vegetable spoilage; and (3) Setting up rural digital kiosks with internet access so farmers can check real-time urban market prices before selling. A poor answer might suggest abstract ideas without specific infrastructure components like roads, electricity, or storage, revealing a lack of understanding of physical and utility networks.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

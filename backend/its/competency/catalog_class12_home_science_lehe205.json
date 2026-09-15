@@ -1,0 +1,546 @@
+{
+ "class": 12,
+ "subject": "home_science",
+ "chapter": 12,
+ "chapter_title": "Consumer Education and Protection",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lehe205.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "drafter draft; gate-validated; review pending",
+ "concepts": [
+  {
+   "id": "lehe205.1",
+   "title": "Who Is a Consumer and Related Terms",
+   "section": "Basic Concepts",
+   "definition": "A consumer is the person who ultimately buys goods or services to meet personal wants, and the vocabulary around the buyer includes consumer products for home or institutional use, consumer behaviour as the decision process of purchase, consumer forums where buyers discuss products, and consumer footfalls as the count of visitors to a store or mall.",
+   "formula": "market chain -- buyer plus purchase plus opinion plus footfalls drives the economy",
+   "key_idea": "Every human is a natural consumer, and rising buying power turns purchases into comfort, satisfaction and prestige.",
+   "textbook_ref": "lehe205.txt, Basic Concepts (approx lines 87-113)",
+   "question_patterns": [
+    "define consumer and consumer product",
+    "what is meant by consumer behaviour",
+    "what is a consumer forum and what do advocacy groups do there",
+    "what are consumer footfalls",
+    "how does buying by consumers help the national economy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the buyer",
+     "explain": "the last hand in the chain, purchasing for personal or family use"
+    },
+    {
+     "step": 2,
+     "action": "define the companion terms",
+     "explain": "products for use, behaviour as decision process, forums for discussion, footfalls as visitor counts"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The person who ultimately buys goods for personal wants is called a what: consumer or producer?",
+     "a": "consumer"
+    }
+   ]
+  },
+  {
+   "id": "lehe205.2",
+   "title": "What a Consumer Expects",
+   "section": "Basic Concepts: expectations figure",
+   "definition": "At the counter every buyer hopes for a reasonable price, correct weights and measures, genuine articles, quality and purity, adequate information, and honesty in sales promotion -- the seven promises that markets too often break.",
+   "formula": "expectations = fair price plus honest measure plus genuine quality plus full information plus ethical selling",
+   "key_idea": "Consumer awareness and protection are read as markers of how developed a country is.",
+   "textbook_ref": "lehe205.txt, Fig 20.1 and following paragraph (approx lines 118-142)",
+   "question_patterns": [
+    "what does a consumer expect while purchasing goods or services",
+    "why do consumer expectations often go unmet",
+    "why is consumer awareness a sign of national development",
+    "list four promises a seller makes to a buyer at the point of sale",
+    "why do many consumers fail to take sellers to task"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the expectations",
+     "explain": "price, weights, genuineness, quality, purity, information, ethics"
+    },
+    {
+     "step": 2,
+     "action": "explain the gap",
+     "explain": "some sellers cheat and many buyers stay unaware of remedies"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "At the counter every buyer hopes for correct weights and what else: measures or miracles?",
+     "a": "measures"
+    }
+   ]
+  },
+  {
+   "id": "lehe205.3",
+   "title": "Major Problems Faced by Consumers",
+   "section": "Problems of consumers",
+   "definition": "Buyers run into nine classic troubles: poor quality goods, adulteration, overcharging, ignorance of rights, wrong or misleading labels and advertisements, manipulative packaging, faulty weights and measures, spurious duplicates of known brands, tempting but hollow sales schemes, and poor delivery of paid services.",
+   "formula": "problem set -- quality plus adulteration plus price plus information plus weights plus fakes plus schemes plus services",
+   "key_idea": "Adulteration alters composition or quality and can damage health, which makes it exploitation of the worst kind.",
+   "textbook_ref": "lehe205.txt, numbered problems list (approx lines 143-241)",
+   "question_patterns": [
+    "list any five problems faced by consumers in the market",
+    "what is adulteration and why is it a serious problem",
+    "how does deceptive packaging induce impulsive buying",
+    "why can a higher price not always be read as better quality",
+    "how do incorrect weights and measures cheat the buyer",
+    "what marks show that weights and scales are genuine",
+    "give two examples of sales promotion gimmicks that mislead"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "enumerate the nine problems",
+     "explain": "from substandard goods through service grievances"
+    },
+    {
+     "step": 2,
+     "action": "expand two of them",
+     "explain": "adulteration harms health; unsealed weights are not genuine"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which problem alters composition and can damage health: adulteration or advertising?",
+     "a": "adulteration"
+    }
+   ]
+  },
+  {
+   "id": "lehe205.4",
+   "title": "Green Consumption and Sustainability",
+   "section": "Eco-friendly Production and Green Consumption",
+   "definition": "Sustainability links production with consumption, and green marketing answers it by offering goods that sit closer to nature -- generating less waste, drawing fewer raw materials and sparing other resources.",
+   "formula": "green product = less waste plus fewer raw materials plus saved resources",
+   "key_idea": "Green choices arm the buyer against deceptive market strategies while protecting the environment.",
+   "textbook_ref": "lehe205.txt, eco friendly production paragraph (approx lines 247-251)",
+   "question_patterns": [
+    "what is green marketing",
+    "how does green consumption serve sustainability",
+    "which features make a product environment friendly",
+    "why should consumers prefer green products"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define sustainability",
+     "explain": "the production and consumption system kept in balance"
+    },
+    {
+     "step": 2,
+     "action": "define green marketing",
+     "explain": "nature friendly products with lower waste and resource use"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which marketing offers goods that sit closer to nature: green marketing or grey marketing?",
+     "a": "green marketing"
+    }
+   ]
+  },
+  {
+   "id": "lehe205.5",
+   "title": "Consumer Protection Act 1986 and 2019",
+   "section": "The Consumer Protection Acts",
+   "definition": "The Consumer Protection Act of 1986 shielded buyers from fraudulent trade practices, granted the right to complain and claim compensation for negligent loss, and promised simple, speedy and inexpensive redressal; the 2019 Act replaced it with a central regulator, heavy penalties for misleading advertisements and rules for e-commerce.",
+   "formula": "act promise -- complaint plus speedy redressal plus compensation",
+   "key_idea": "The Act covers all goods and services unless the central government expressly excludes them, and it made the consumer movement broad based.",
+   "textbook_ref": "lehe205.txt, CPA 1986 and CPA 2019 (approx lines 264-295)",
+   "question_patterns": [
+    "what is the main function of the Consumer Protection Act",
+    "which two implications does the Act carry for a complaining consumer",
+    "what changes did the CPA 2019 bring over the 1986 Act",
+    "to which goods and services does the Act apply",
+    "how did the Act change the consumer movement"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the 1986 promises",
+     "explain": "protection from fraud, right to complain, compensation, quick cheap redressal"
+    },
+    {
+     "step": 2,
+     "action": "add the 2019 tightening",
+     "explain": "central regulator, penalties for false advertising, e-commerce guidelines"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which act first shielded Indian buyers in 1986: the Consumer Protection Act or the Copyright Act?",
+     "a": "the Consumer Protection Act"
+    }
+   ]
+  },
+  {
+   "id": "lehe205.6",
+   "title": "The Six Consumer Rights",
+   "section": "Consumer rights under the Act",
+   "definition": "The Act engrains six rights: safety against hazardous goods and processes, information on quality, quantity, potency, purity, standard and price, choice among competing goods, a hearing at proper forums, redressal with compensation for unfair practices, and consumer education to decide wisely unaided.",
+   "formula": "rights set -- safety plus information plus choice plus hearing plus redressal plus education",
+   "key_idea": "Four rights are basic and two -- redressal and education -- were added to complete the shield.",
+   "textbook_ref": "lehe205.txt, six rights list (approx lines 266-274, 296-338)",
+   "question_patterns": [
+    "list the six consumer rights recognised under the Consumer Protection Act",
+    "what does the right to safety cover",
+    "which details must a consumer be informed about",
+    "what does the right to be heard include",
+    "when can a consumer seek redressal and what does it bring",
+    "why is consumer education called a right",
+    "which two rights were added to the four basic ones"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "name the six rights",
+     "explain": "safety, information, choice, hearing, redressal, education"
+    },
+    {
+     "step": 2,
+     "action": "explain any two",
+     "explain": "safety shields health and life; redressal brings fair settlement and compensation"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many rights does the Act engrain: six or sixteen?",
+     "a": "six"
+    }
+   ]
+  },
+  {
+   "id": "lehe205.7",
+   "title": "Standardisation Marks",
+   "section": "Standardisation marks",
+   "definition": "Certification marks let buyers verify quality at a glance: the BIS ISI mark for industrial and food goods, AGMARK and the FPO mark for agricultural and fruit products, Woolmark and Silk Mark for pure fibre, the Hallmark for tested precious metals, the Ecomark pot for environment friendly household products, and the FSSAI mark for safe food.",
+   "formula": "quality signal -- standard mark on pack equals certified conformity",
+   "key_idea": "A hallmark certifies fineness tested at an assaying centre; Ecomark signals biodegradable, recyclable, non-hazardous products.",
+   "textbook_ref": "lehe205.txt, standardisation marks (approx lines 348-415)",
+   "question_patterns": [
+    "name any three standardisation marks and the products they cover",
+    "which body issues the ISI mark",
+    "what do AGMARK and FPO certify",
+    "how does a hallmark assure purity of gold or silver",
+    "what does the Ecomark logo signify",
+    "under which act was FSSAI established",
+    "which mark guarantees one hundred per cent natural silk"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "pair each mark with its domain",
+     "explain": "industrial goods, agriculture, wool, silk, metals, environment, food"
+    },
+    {
+     "step": 2,
+     "action": "state the buying rule",
+     "explain": "prefer products carrying the relevant standard mark"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which mark certifies tested precious metals: the Hallmark or the Ecomark?",
+     "a": "the Hallmark"
+    }
+   ]
+  },
+  {
+   "id": "lehe205.8",
+   "title": "Consumer Organisations and Their Work",
+   "section": "Government bodies and NGOs",
+   "definition": "Protection runs through statutory and semi government bodies such as BIS and the Directorate of Marketing and Inspection, through central and state consumer protection councils, and through voluntary organisations that test products comparatively, publish guides and magazines, handle grievances, brief buyers on new laws and act as vigilance groups.",
+   "formula": "protection network -- government bodies plus councils plus voluntary organisations",
+   "key_idea": "VOICE brings out Consumer Voice in Delhi and CERC brings out Insight in Ahmedabad, mirroring Consumer Reports, Which and Choice abroad.",
+   "textbook_ref": "lehe205.txt, organisations (approx lines 416-440)",
+   "question_patterns": [
+    "name the government bodies that look after consumer interests",
+    "what work do voluntary consumer organisations perform",
+    "which publications do VOICE and CERC bring out",
+    "how do consumer organisations help with grievances and recalls",
+    "why are NGOs considered non partisan protectors of buyers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sort the actors",
+     "explain": "statutory bodies, councils, voluntary groups"
+    },
+    {
+     "step": 2,
+     "action": "list NGO activities",
+     "explain": "comparative testing, awareness drives, publications, legal advice, vigilance"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which Delhi organisation brings out Consumer Voice: VOICE or CERC?",
+     "a": "VOICE"
+    }
+   ]
+  },
+  {
+   "id": "lehe205.9",
+   "title": "Consumer Responsibilities",
+   "section": "Consumer responsibilities",
+   "definition": "Rights ride on duties: keep learning the law, deal honestly and pay for all purchases, survey and compare brands and prices before buying, choose freely, read every label, prefer marked products, preserve receipts as proof, understand every term of a service contract, and know the consumer organisations worth joining.",
+   "formula": "responsible buying = knowledge plus honesty plus comparison plus label reading plus proofs kept",
+   "key_idea": "Receipts and documents are the evidence a complaint stands on when a product fails.",
+   "textbook_ref": "lehe205.txt, responsibilities list (approx lines 441-486)",
+   "question_patterns": [
+    "list any five responsibilities of a consumer",
+    "why should receipts of purchase be preserved",
+    "what should a consumer check before signing up for insurance or a credit card",
+    "why should buyers compare brands and prices before purchase",
+    "how does buying standardisation marked products protect the buyer"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "enumerate the duties",
+     "explain": "nine responsibilities from updating legal knowledge to joining organisations"
+    },
+    {
+     "step": 2,
+     "action": "link duty to right",
+     "explain": "exercising any right needs the matching awareness and habit"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which documents are the evidence a complaint stands on: receipts or rumours?",
+     "a": "receipts"
+    }
+   ]
+  },
+  {
+   "id": "lehe205.10",
+   "title": "Careers in Consumer Education and Protection",
+   "section": "Skills, courses and scope",
+   "definition": "The field needs knowledge of protection mechanisms and quality standards plus soft skills -- communication, empathy, listening, creativity and writing; degrees in Home Science, resource management, BBA or BBS and postgraduate diplomas open roles in government bodies, voluntary organisations, corporate consumer divisions, market research, helplines, consumer courts, journalism and testing laboratories.",
+   "formula": "career base -- protection law plus product standards plus communication skills",
+   "key_idea": "With legal training one can plead cases in consumer courts; with writing skill, consumer affairs journalism awaits.",
+   "textbook_ref": "lehe205.txt, skills and scope (approx lines 487-585)",
+   "question_patterns": [
+    "which skills does a career in consumer studies demand",
+    "name the degree and diploma routes into this field",
+    "where can a trained consumer professional work",
+    "what does the National Consumer Helpline offer consumers",
+    "how can a consumer activist use legal training",
+    "which corporate roles handle complaints and customer relations"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the knowledge and soft skills",
+     "explain": "standards, adulterants, laws; communication, empathy, writing"
+    },
+    {
+     "step": 2,
+     "action": "spread the career map",
+     "explain": "government, voluntary, corporate, research, helpline, courts, media, labs"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "With legal training one can plead cases in which courts: consumer courts or cricket courts?",
+     "a": "consumer courts"
+    }
+   ]
+  },
+  {
+   "id": "lehe205.11",
+   "title": "Designing a Consumer Awareness Leaflet",
+   "section": "Practical 1: leaflet design",
+   "definition": "An awareness leaflet compresses one theme into a folded sheet: a short forceful heading, subheadings bridging to the body, opening sentences that carry the substance, and pictures that extend the text -- all in language the target group reads easily, ending in introduction, body and conclusion.",
+   "formula": "leaflet = heading plus subheadings plus crisp text plus supporting pictures",
+   "key_idea": "A leaflet carrying two unrelated themes only confuses its readers; keep one message per sheet.",
+   "textbook_ref": "lehe205.txt, Practical 1 and teacher instructions (approx lines 629-734)",
+   "question_patterns": [
+    "what points must be kept in mind while designing a leaflet",
+    "why is the heading the most important part of a leaflet",
+    "when are subheadings used in a leaflet",
+    "what role do pictures play beside the text of a leaflet",
+    "plan a leaflet on consumer rights for an awareness camp in your locality"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "structure the content",
+     "explain": "one theme, introduction, body, conclusion or application"
+    },
+    {
+     "step": 2,
+     "action": "design the sheet",
+     "explain": "short heading, bridging subheads, substance first, complementary pictures"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many themes should one leaflet carry: one or two unrelated ones?",
+     "a": "one"
+    }
+   ]
+  },
+  {
+   "id": "lehe205.12",
+   "title": "Leaflet Panel Count",
+   "section": "Practical 1: folded leaflet panels",
+   "definition": "A printed sheet folded into equal parts yields twice as many panels as the fold count, since both faces carry print -- a bi-fold sheet gives four panels and a tri-fold gives six.",
+   "formula": "total_panels = panels_per_side * sides_printed",
+   "key_idea": "Folding a sheet into thirds gives three panels per face, six in all when printed on both sides.",
+   "textbook_ref": "lehe205.txt, leaflet folding instructions (approx lines 702-708)",
+   "question_patterns": [
+    "a tri-fold leaflet has 3 panels on each side; how many panels does it offer in total when printed on both sides",
+    "a bi-fold sheet carries 2 panels per side; compute the total panels",
+    "calculate the total number of panels from the panels per side and the number of printed sides",
+    "how many writing panels does a both sides printed sheet folded into thirds provide",
+    "find the panel total for a leaflet with 3 panels per face printed on 2 faces"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply panels per side by printed sides",
+     "explain": "each face of the folded sheet holds its own panels",
+     "compute": "total_panels = panels_per_side * sides_printed"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A bi-fold sheet printed on both sides gives how many panels: four or two?",
+     "a": "four"
+    }
+   ]
+  },
+  {
+   "id": "lehe205.13",
+   "title": "Counting the Consumer Rights",
+   "section": "Consumer rights under the Act",
+   "definition": "The Act splits its protections into a basic block and an added block, so the total number of rights is simply the basic rights plus the additional rights -- six in all.",
+   "formula": "total_rights = basic_rights + additional_rights",
+   "key_idea": "Four basic rights plus two additions -- redressal and education -- give the consumer six legal shields.",
+   "textbook_ref": "lehe205.txt, rights structure (approx lines 266-274)",
+   "question_patterns": [
+    "the Act grants 4 basic consumer rights and 2 additional ones; how many rights does a consumer hold in all",
+    "compute the total rights from the basic and additional counts given in the Act",
+    "if a law lists basic and additional rights separately, how is the total found",
+    "how many consumer rights does the statute recognise when 4 are basic and 2 were added later",
+    "add the two blocks of rights to state the full count of consumer protections"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the two blocks",
+     "explain": "basic rights plus additional rights gives the full set",
+     "compute": "total_rights = basic_rights + additional_rights"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Four basic rights plus two additions give the consumer how many shields: six or four?",
+     "a": "six"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lehe205.txt leaflet folding instructions",
+   "concept": "lehe205.12",
+   "question_type": "numeric",
+   "question_pattern": "A group folds its awareness sheet into thirds, giving {panels_per_side} panels per side, and prints both {sides_printed} sides. How many panels does the finished leaflet have?",
+   "extracted_variables": {
+    "panels_per_side": 3,
+    "sides_printed": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply panels per side by sides",
+     "explain": "3 x 2 = 6 panels for the tri-fold leaflet",
+     "compute": "total_panels = panels_per_side * sides_printed"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lehe205.txt rights structure",
+   "concept": "lehe205.13",
+   "question_type": "numeric",
+   "question_pattern": "The consumer law lists {basic_rights} basic rights and later adds {additional_rights} more. What is the total number of rights?",
+   "extracted_variables": {
+    "basic_rights": 4,
+    "additional_rights": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the blocks",
+     "explain": "4 + 2 = 6 rights in all",
+     "compute": "total_rights = basic_rights + additional_rights"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lehe205.txt problems list",
+   "concept": "lehe205.3",
+   "question_type": "short_answer",
+   "question_pattern": "A shopkeeper's scale reads heavier than reality and the biscuit pack shows a giant new box with the same old contents. Which two consumer problems do these illustrate and what should the buyer check?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "name the problems",
+     "explain": "incorrect weights and measures; manipulative packaging of the same product"
+    },
+    {
+     "step": 2,
+     "action": "state the checks",
+     "explain": "look for the verification stamp or seal on weights and compare net content, not pack size"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-rv-1",
+   "source_ref": "lehe205.txt Review Questions 1-4",
+   "questions": [
+    "Explain in a few lines: consumer, consumer rights, consumer responsibilities, Consumer Protection Act, consumer problems.",
+    "List three consumer rights, three responsibilities, five consumer problems and three standardisation marks.",
+    "Mark true or false: the ISI mark is issued by BIS; Agmark covers agricultural products; safety is not a consumer right; VOICE is a consumer organisation.",
+    "Discuss the basic concepts of consumer education and protection."
+   ]
+  },
+  {
+   "id": "ex-pr-1",
+   "source_ref": "lehe205.txt Practical 1 and Additional Activities",
+   "questions": [
+    "In five groups, prepare a leaflet each on consumer protection, rights, responsibilities, standardisation marks or redressal, with introduction, body and conclusion in simple words.",
+    "Collect labels of ten commodities of daily use and record which standardisation marks appear on them.",
+    "Clip a newspaper report of a case decided under the Consumer Protection Act and discuss the redressal granted.",
+    "List the consumer studies programmes offered by major Indian universities at undergraduate and postgraduate levels."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_01_004",
+   "title": "c10_geo_cbse_01_004",
+   "questions": [
+    {
+     "q": "List any three problems that arise when resources are developed without proper planning, as discussed in this chapter.",
+     "a": "Correct answer: (1) Overexploitation and depletion of finite resources (e.g., groundwater, minerals), (2) Environmental degradation (e.g., soil erosion, deforestation, pollution), (3) Socio-economic inequality and regional disparities (e.g., water-rich vs water-scarce regions, benefits captured by powerful groups). A wrong answer that only lists \"pollution\" or \"shortage\" without distinguishing between resource depletion, ecological damage, and human inequality reveals the student sees the problem as purely environmental, missing the human geography dimension of unequal access and unsustainable consumption patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the mere presence of natural resources (like coal in Jharkhand or sunlight in Rajasthan) not guarantee development for the local population? Explain using the concept of \"resource development.\"",
+     "a": "Correct answer: Resources become useful only when humans have the technology, capital, institutions, and skills to extract, process, and distribute them — this process is resource development. Jharkhand has coal but lacks adequate local processing industries and fair revenue sharing, so wealth leaves the region. Rajasthan has sunlight but needs solar panels, grid infrastructure, and investment to convert it to usable energy. A wrong answer that says \"resources automatically bring development\" or \"government should just give money\" reveals the misconception that resources are inherently valuable without human intervention, ignoring the role of technology, institutions, and equitable planning in transforming natural endowments into development outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in western Uttar Pradesh uses a tubewell to irrigate sugarcane (a water-intensive crop) three times a year. The groundwater level has dropped 15 meters in 10 years. Using the concept of \"overexploitation,\" explain why this is a problem of unplanned resource development. Include the terms \"renewable resource,\" \"recharge rate,\" and \"intergenerational equity\" in your answer.",
+     "a": "Correct answer: Groundwater is a renewable resource, but only if withdrawal does not exceed the natural recharge rate (from rainfall percolation). In western UP, sugarcane irrigation withdraws water far faster than monsoon recharge can replenish the aquifer — this is overexploitation. Unplanned development allows individual farmers to maximize short-term profit without regulating total extraction, violating intergenerational equity (future generations lose access to the same water). A wrong answer that blames only \"less rainfall\" or \"too many tubewells\" without linking to recharge rate and the absence of planning institutions shows the student cannot connect the physical process (recharge vs extraction) to the human governance failure (lack of regulation).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the resource development challenges of two Indian regions: (a) the mineral-rich tribal belt of Chotanagpur (Jharkhand, Odisha, Chhattisgarh) and (b) the Indo-Gangetic Plain (Punjab, Haryana, western UP). How do the *types* of problems differ, and what common planning failure underlies both?",
+     "a": "Correct answer: Chotanagpur faces \"resource curse\" problems: mineral extraction causes displacement of tribal communities, environmental degradation (deforestation, pollution), and little local benefit — a problem of *unequal distribution of benefits and ecological costs*. The Indo-Gangetic Plain faces *overexploitation of renewable resources*: groundwater depletion from intensive irrigation, soil salinity from waterlogging, and loss of fertility from chemical overuse — a problem of *unsustainable use rates*. The common planning failure in both is the absence of integrated resource planning that balances extraction/use with conservation, local livelihoods, and long-term sustainability. A wrong answer that says \"both have pollution\" or \"both are poor\" misses the structural difference: one is about non-renewable resource governance and social justice, the other about renewable resource management and ecological limits.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Resource planning is only needed for non-renewable resources like coal and petroleum because they will run out. Renewable resources like water and forests can take care of themselves if we just don't pollute them.\" Is this correct? Justify your answer with two specific Indian examples.",
+     "a": "Correct answer: The statement is incorrect. Renewable resources *also* require planning because they can be depleted if used faster than they regenerate. Example 1: Groundwater in Punjab — a renewable resource — is being extracted 2-3 times faster than recharge due to unplanned paddy cultivation, causing severe depletion. Example 2: Forests in the Western Ghats — renewable if managed — have been fragmented by unplanned mining, plantations, and infrastructure, reducing biodiversity and watershed function. Planning is needed for *all* resources to ensure use stays within regenerative capacity and benefits are distributed fairly. A wrong answer that agrees with the statement reveals the dangerous misconception that renewables are infinite, ignoring the concept of \"sustainable yield\" and the reality that most Indian renewable resources are already overused.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple resource planning framework for a district that has both water scarcity (low rainfall, falling groundwater) and rich solar potential. Your framework must have 4 steps, address both resources, and ensure intergenerational equity. Label each step clearly.",
+     "a": "Expected answer (criteria for a good response):\nStep 1: Resource Inventory & Assessment — Map groundwater aquifers (depth, recharge zones) and solar irradiance data; identify current use patterns (crops, domestic, industry).\nStep 2: Carrying Capacity Analysis — Calculate sustainable groundwater withdrawal limit (≤ recharge rate) and land suitability for solar farms (avoiding fertile land, forests).\nStep 3: Integrated Allocation Plan — Prioritize groundwater for drinking and critical needs; promote solar-powered drip irrigation to reduce groundwater use; designate zones for solar parks on wastelands.\nStep 4: Monitoring & Governance — Establish community groundwater monitoring committees; set up district-level resource audit every 2 years; link solar revenue to local development fund.\nA poor answer that lists generic steps like \"save water, build solar panels\" without quantification, zoning, governance, or equity mechanisms shows the student cannot translate geographical concepts into a practical planning framework.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

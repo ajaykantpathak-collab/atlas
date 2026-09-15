@@ -1,0 +1,284 @@
+{
+ "catalog": "catalog_class11_accountancy_ch107",
+ "concepts": [
+  {
+   "id": "keac.7.1",
+   "title": "Meaning of Depreciation",
+   "questions": [
+    {
+     "q": "Using the method 'Meaning of Depreciation', work with: cost = 5000, salvage_value = 25, useful_life = 400. Carry the chain through step by step and give the final value of annual_depreciation.",
+     "a": "12.4375 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Meaning of Depreciation' and work with: cost = 120000, salvage_value = 500, useful_life = 4. Carry the chain through step by step and give the final value of annual_depreciation.",
+     "a": "29875 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Meaning of Depreciation' refers to.",
+     "a": "The systematic and permanent reduction in the book value of a tangible fixed asset due to usage, the passage of time, or technological obsolescence.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Meaning of Depreciation'.",
+     "a": "Allocation of the cost of a fixed asset over its useful life as an expense.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Meaning of Depreciation', in plain ASCII form.",
+     "a": "depreciation = (cost - salvage_value) / useful_life",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.7.6.1",
+   "title": "Straight Line Method",
+   "questions": [
+    {
+     "q": "Calculate annual depreciation using straight line method. Use the method 'Straight Line Method'. Work with: cost = 500, salvage_value = 500, useful_life = 400. Carry the chain through step by step and give the final value of rate.",
+     "a": "0 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Find the rate of depreciation under fixed installment method. Use the method 'Straight Line Method'. Work with: cost = 2500, salvage_value = 500, useful_life = 120. Carry the chain through step by step and give the final value of rate.",
+     "a": "0.6667 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Straight Line Method' refers to.",
+     "a": "A depreciation method where an equal amount is charged as an expense in every accounting period over the asset's useful life.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Straight Line Method'.",
+     "a": "Uniform depreciation charge throughout the asset's life.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Straight Line Method', in plain ASCII form.",
+     "a": "annual_depreciation = (cost - salvage_value) / useful_life",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.7.6.2",
+   "title": "Written Down Value Method",
+   "questions": [
+    {
+     "q": "Calculate depreciation using written down value method. Use the method 'Written Down Value Method'. Work with: cost = 20000, rate = 10. Carry the chain through step by step and give the final value of depreciation_2.",
+     "a": "1800 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Determine the depreciation for the second year using WDV. Use the method 'Written Down Value Method'. Work with: cost = 2500, rate = 18. Carry the chain through step by step and give the final value of depreciation_2.",
+     "a": "369 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Written Down Value Method' refers to.",
+     "a": "A depreciation method where a fixed percentage is applied to the book value of the asset at the beginning of each year, resulting in declining depreciation charges.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Written Down Value Method'.",
+     "a": "Higher depreciation in early years, reducing over time.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Written Down Value Method', in plain ASCII form.",
+     "a": "depreciation = book_value_start_of_year * rate",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.7.13",
+   "title": "Secret Reserve",
+   "questions": [
+    {
+     "q": "Using the method 'Secret Reserve', work with: actual_net_worth = 30, disclosed_net_worth = 300. Carry the chain through step by step and give the final value of secret_reserve.",
+     "a": "-270 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Secret Reserve' and work with: actual_net_worth = 50, disclosed_net_worth = 6. Carry the chain through step by step and give the final value of secret_reserve.",
+     "a": "44 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Secret Reserve' refers to.",
+     "a": "A financial reserve that is intentionally omitted from the balance sheet to understate profits or financial strength.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Secret Reserve'.",
+     "a": "Created by overstating liabilities or understating assets to provide a buffer for lean periods.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Secret Reserve', in plain ASCII form.",
+     "a": "secret_reserve = actual_net_worth - disclosed_net_worth",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.7.SUM.1",
+   "title": "Depreciation",
+   "questions": [
+    {
+     "q": "Calculate annual depreciation using straight line method. Use the method 'Depreciation'. Work with: original_cost = 1200, salvage_value = 10, useful_life = 3. Carry the chain through step by step and give the final value of annual_depreciation.",
+     "a": "396.6667 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the depreciation amount. Use the method 'Depreciation'. Work with: original_cost = 500, salvage_value = 25, useful_life = 240. Carry the chain through step by step and give the final value of annual_depreciation.",
+     "a": "1.9792 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Depreciation' refers to.",
+     "a": "The permanent and gradual shrinkage in the book value of a tangible fixed asset due to usage, time, or obsolescence.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Depreciation'.",
+     "a": "Allocating the cost of a tangible asset over its productive years.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Depreciation', in plain ASCII form.",
+     "a": "depreciation = (original_cost - salvage_value) / useful_life",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.7.SUM.2",
+   "title": "Depletion and Amortisation",
+   "questions": [
+    {
+     "q": "Using the method 'Depletion and Amortisation', work with: cost = 80000, legal_life = 45. Carry the chain through step by step and give the final value of amortisation_rate.",
+     "a": "1777.7778 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Depletion and Amortisation' and work with: cost = 500, legal_life = 6. Carry the chain through step by step and give the final value of amortisation_rate.",
+     "a": "83.3333 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Depletion and Amortisation' refers to.",
+     "a": "Depletion refers to the exhaustion of natural resources, while amortisation is the write-off of intangible assets.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Depletion and Amortisation'.",
+     "a": "Specific terms for value reduction based on asset type (natural vs intangible).",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Depletion and Amortisation', in plain ASCII form.",
+     "a": "amortisation_rate = cost / legal_life",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.7.SUM.5",
+   "title": "Written Down Value Method",
+   "questions": [
+    {
+     "q": "Calculate depreciation using WDV method. Use the method 'Written Down Value Method'. Work with: book_value = 12000, rate = 15. Carry the chain through step by step and give the final value of new_book_value.",
+     "a": "10200 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the book value after 3 years using diminishing balance method. Use the method 'Written Down Value Method'. Work with: book_value = 50000, rate = 5. Carry the chain through step by step and give the final value of new_book_value.",
+     "a": "47500 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Written Down Value Method' refers to.",
+     "a": "A depreciation technique where a fixed percentage is applied to the book value of the asset at the start of every year.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Written Down Value Method'.",
+     "a": "Depreciation amount decreases every year as the asset's book value reduces.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Written Down Value Method', in plain ASCII form.",
+     "a": "depreciation = book_value * (rate / 100)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.7.SUM.6",
+   "title": "Provisions vs Reserves",
+   "questions": [
+    {
+     "q": "Using the method 'Provisions vs Reserves', work with: gross_profit = 5000, provisions = 300. Carry the chain through step by step and give the final value of net_profit.",
+     "a": "4700 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Provisions vs Reserves' and work with: gross_profit = 80000, provisions = 45. Carry the chain through step by step and give the final value of net_profit.",
+     "a": "79955 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Provisions vs Reserves' refers to.",
+     "a": "Provisions are charges against profit for known liabilities of uncertain amounts; reserves are appropriations of profit to strengthen finances.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Provisions vs Reserves'.",
+     "a": "Provisions are mandatory expenses; reserves are optional earnings retentions.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Provisions vs Reserves', in plain ASCII form.",
+     "a": "net_profit = gross_profit - provisions",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.7.NUM.21",
+   "title": "Provision for Doubtful Debts",
+   "questions": [
+    {
+     "q": "Calculate new provision for doubtful debts. Use the method 'Provision for Doubtful Debts'. Work with: bad_debts = 360, debtors = 300, further_bad_debts = 240, old_provision = 150, rate = 25. Carry the chain through step by step and give the final value of pl_charge.",
+     "a": "465 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the amount to be debited to P&L for bad debts. Use the method 'Provision for Doubtful Debts'. Work with: bad_debts = 120, debtors = 120, further_bad_debts = 20, old_provision = 45, rate = 12. Carry the chain through step by step and give the final value of pl_charge.",
+     "a": "107 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Provision for Doubtful Debts' refers to.",
+     "a": "An estimated amount set aside to cover potential losses from debtors who may not pay.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Provision for Doubtful Debts'.",
+     "a": "Calculated on the net debtors after deducting unrecorded bad debts.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Provision for Doubtful Debts', in plain ASCII form.",
+     "a": "new_provision = (debtors - further_bad_debts) * (rate / 100)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

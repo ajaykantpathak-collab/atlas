@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_06_004",
+   "title": "c11_stat_cbse_06_004",
+   "questions": [
+    {
+     "q": "What is the formula for Coefficient of Quartile Deviation, and why is it a unit-free measure?",
+     "a": "The formula is (Q₃ - Q₁)/(Q₃ + Q₁). Since both numerator and denominator are in the same units (e.g., rupees), the units cancel out, yielding a pure number. A wrong answer (e.g., stating it has units of the variable) reveals the student confuses absolute and relative measures of dispersion, a critical distinction introduced in node c11_stat_cbse_06_002.",
+     "self_check": true
+    },
+    {
+     "q": "In a continuous series, a student uses the formula Q₁ = L + ((N/4 - cf)/f) × h but mistakenly uses N/2 instead of N/4. What conceptual error does this represent, and what measure would they actually be calculating?",
+     "a": "Using N/2 calculates the Median (Q₂), not Q₁. This error shows the student treats quartile positions as a memorised formula without understanding that Q₁ splits the bottom 25% of data, requiring the N/4 positional argument. It indicates a lack of conceptual link between percentiles and quartiles.",
+     "self_check": true
+    },
+    {
+     "q": "Given the discrete series: X: 10, 20, 30, 40, 50; f: 2, 5, 8, 3, 2. Calculate the Quartile Deviation. Show the cumulative frequency column and identify the positional values for Q₁ and Q₃.",
+     "a": "N = 20. Q₁ position = 20/4 = 5th item → cumulative frequency just ≥ 5 is 7 (at X=20), so Q₁ = 20. Q₃ position = 3×20/4 = 15th item → cumulative frequency just ≥ 15 is 18 (at X=40), so Q₃ = 40. Q.D. = (40-20)/2 = 10. A wrong answer (e.g., using N/4 = 5.25 and interpolating) reveals the student incorrectly applies the continuous series formula to a discrete series, not recognising that discrete series uses exact positional matching without interpolation.",
+     "self_check": true
+    },
+    {
+     "q": "Two datasets A and B have the same Quartile Deviation of 15. Dataset A has Q₁=40, Q₃=70; Dataset B has Q₁=80, Q₃=110. Compare their Coefficients of Quartile Deviation and explain which distribution shows greater *relative* dispersion.",
+     "a": "Coefficient for A = (70-40)/(70+40) = 30/110 ≈ 0.273. For B = (110-80)/(110+80) = 30/190 ≈ 0.158. Dataset A has higher relative dispersion. A student claiming they are equal because Q.D. is same misses the entire purpose of relative measures (node c11_stat_cbse_06_002): absolute measures cannot compare distributions with different central values or scales.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Quartile Deviation is superior to Range because it uses 50% of the data, while Range uses only two extreme values.\" Evaluate this statement. Is it fully correct? What critical limitation of Q.D. does the student overlook?",
+     "a": "The statement is partially correct but incomplete. Q.D. indeed ignores extremes, but it also ignores the *entire* lower 25% and upper 25% of data, using only the two quartiles. It does not reflect the shape of the distribution within the middle 50%. The student overlooks that Q.D. is not based on *all* observations, a key limitation when comparing with Mean Deviation or Standard Deviation (later nodes).",
+     "self_check": true
+    },
+    {
+     "q": "Create a small discrete dataset (N=12) where Q₁ and Q₃ fall *exactly* on an observation (no interpolation needed) and the Coefficient of Quartile Deviation equals 0.25. Provide the data, frequency, and verification steps.",
+     "a": "Example: X: 10, 20, 30, 40; f: 3, 3, 3, 3 (N=12). Q₁ pos = 3rd item → 10. Q₃ pos = 9th item → 30. Q.D. = (30-10)/2 = 10. Coefficient = (30-10)/(30+10) = 20/40 = 0.5 (not 0.25). To get 0.25, need (Q₃-Q₁)/(Q₃+Q₁)=1/4 → 4Q₃-4Q₁=Q₃+Q₁ → 3Q₃=5Q₁ → Q₃=(5/3)Q₁. Choose Q₁=30, Q₃=50. Data: X: 30, 40, 50; f: 4, 4, 4 (N=12). Q₁ pos=3 → 30, Q₃ pos=9 → 50. Coeff = 20/80 = 0.25. A poor answer fails to set up the algebraic condition, showing inability to reverse-engineer the coefficient formula.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_01_001",
+   "title": "c10_phy_cbse_01_001",
+   "questions": [
+    {
+     "q": "Define electric current and state its SI unit. What does 1 ampere represent in terms of charge and time?",
+     "a": "Electric current is the rate of flow of electric charge through a conductor, given by I = Q/t. Its SI unit is ampere (A). 1 ampere = 1 coulomb of charge passing through a cross-section per second (1 A = 1 C/s).  \nA wrong answer (e.g., \"current is the flow of electrons\" without mentioning rate, or \"unit is coulomb\") reveals the student confuses current with charge or does not grasp the \"rate\" concept. They may also forget the conventional current direction.",
+     "self_check": true
+    },
+    {
+     "q": "In a metallic wire, electrons flow from the negative terminal to the positive terminal of a battery. However, the direction of conventional current is said to be from positive to negative. Why is conventional current defined opposite to electron flow? Does this affect circuit calculations?",
+     "a": "Conventional current was defined historically as the flow of positive charge, before the discovery of electrons. It is a universal convention; all circuit laws (Ohm's law, Kirchhoff's laws) use this direction. It does NOT affect calculations because the magnitude of current is the same, and equations use magnitude with direction assigned by convention.  \nA wrong answer (e.g., \"because electrons are negative\" without historical context, or \"it changes the value of current\") shows the student thinks the convention changes physical results or doesn't understand it's an arbitrary but fixed standard.",
+     "self_check": true
+    },
+    {
+     "q": "A charge of 300 coulombs passes through a cross-section of a wire in 5 minutes. Calculate the electric current in amperes. Show all steps with units.",
+     "a": "Given: Q = 300 C, t = 5 min = 5 × 60 = 300 s.  \nFormula: I = Q/t = 300 C / 300 s = 1 C/s = 1 A.  \nAnswer: 1 A.  \nA wrong answer (e.g., 60 A by using t=5 without converting minutes to seconds) reveals the student ignores unit consistency — a critical board exam error. They must convert time to SI unit (seconds) before substitution.",
+     "self_check": true
+    },
+    {
+     "q": "Two wires A and B carry currents of 2 A and 3 A respectively. Wire A has a cross-sectional area twice that of wire B. If both wires are made of the same material, compare the charge passing through each wire in 10 seconds. Does the cross-sectional area affect the charge flow for a given current?",
+     "a": "For wire A: Q_A = I_A × t = 2 A × 10 s = 20 C.  \nFor wire B: Q_B = I_B × t = 3 A × 10 s = 30 C.  \nCross-sectional area does NOT affect the total charge passing in a given time for a given current. Current is defined as charge per unit time; area affects drift velocity and current density, not the total charge for a fixed current.  \nA wrong answer (e.g., \"wire A has more charge because it's thicker\") shows confusion between current and current density — a common misconception when moving to resistivity later.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Current is the flow of electrons, so its unit should be electrons per second. Coulomb is just a derived unit.\" Evaluate this statement. Is it correct? Why or why not?",
+     "a": "The statement is partially correct in microscopic view but incorrect for SI definition. The SI unit of current is ampere, a base unit. Coulomb is defined as the charge transported by 1 A in 1 s (1 C = 1 A·s). Historically, ampere was defined via force between wires; now it's defined via elementary charge (e = 1.602×10⁻¹⁹ C). \"Electrons per second\" is not an SI unit.  \nA wrong evaluation (e.g., \"yes, because current is electrons flowing\") shows the student doesn't understand the SI system's structure — ampere is a base unit, not derived from electron count.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a battery, an ammeter, a switch, and a conducting wire to demonstrate that current is the same at all points in a series circuit. Draw the circuit diagram using standard symbols (learned in Class 6, c6_physics_ch03_013) and explain what you would observe.",
+     "a": "Circuit: Battery → Switch → Ammeter → Wire → back to Battery (all in series). Close the switch, note ammeter reading. Move the ammeter to different positions in the series loop (before/after wire, near battery) — reading remains the same. This shows current is constant in series (charge conservation).  \nA poor answer (e.g., parallel circuit, or \"current decreases as it moves\") reveals the student hasn't internalized charge conservation in series circuits — a prerequisite for node c10_phy_cbse_01_006 (series combinations).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

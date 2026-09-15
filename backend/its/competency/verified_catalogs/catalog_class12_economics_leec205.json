@@ -1,0 +1,647 @@
+{
+  "class": 12,
+  "subject": "economics",
+  "chapter": 5,
+  "chapter_title": "Market Equilibrium",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leec205.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "leec.205.1.1",
+      "title": "Market Equilibrium: Equilibrium Price and Quantity",
+      "section": "5.1",
+      "definition": "A competitive market is in equilibrium where the quantity all buyers plan to purchase equals the quantity all firms plan to sell, so the market clears; for straight-line demand and supply curves the clearing price is found by solving the two equations together.",
+      "formula": "equilibrium_price = price_gap / slope_sum",
+      "key_idea": "One price reconciles the plans of every buyer and seller, and the quantity traded there is the equilibrium quantity.",
+      "textbook_ref": "leec205.txt, section 5.1 and 5.1.1, Example 5.1 wheat market, pages 72-74",
+      "question_patterns": [
+        "define the situation where quantity bought equals quantity sold and the market clears",
+        "solve for the clearing price and quantity from linear demand and supply equations",
+        "wheat demand is 200 minus p and supply is 120 plus p, find the market outcome",
+        "how is the traded quantity obtained once the clearing price is known",
+        "which price reconciles the quantity all firms offer with the quantity all consumers take",
+        "substitute the clearing price back into a curve to get the quantity exchanged"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Take the gap between the curve intercepts",
+          "explain": "Writing demand as a minus b times p and supply as c plus d times p, the intercept gap drives the solution.",
+          "compute": "price_gap = demand_intercept - supply_intercept"
+        },
+        {
+          "step": 2,
+          "action": "Add the two slopes",
+          "explain": "The slopes of demand and supply together scale the intercept gap.",
+          "compute": "slope_sum = demand_slope + supply_slope"
+        },
+        {
+          "step": 3,
+          "action": "Solve for the clearing price",
+          "explain": "Setting demand equal to supply and solving gives the equilibrium price as the gap over the slope sum.",
+          "compute": "equilibrium_price = price_gap / slope_sum"
+        },
+        {
+          "step": 4,
+          "action": "Read off the traded quantity",
+          "explain": "Substituting the clearing price into either curve gives the equilibrium quantity exchanged.",
+          "compute": "equilibrium_quantity = demand_intercept - demand_slope * equilibrium_price"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Market Equilibrium: Equilibrium Price and Quantity, compute the result for demand_intercept = 3, supply_intercept = 3, demand_slope = 3, supply_slope = 2.",
+          "solution": "Step 1: Take the gap between the curve intercepts: price_gap = demand_intercept - supply_intercept = 0.0 Step 2: Add the two slopes: slope_sum = demand_slope + supply_slope = 5.0 Step 3: Solve for the clearing price: equilibrium_price = price_gap / slope_sum = 0.0 Step 4: Read off the traded quantity: equilibrium_quantity = demand_intercept - demand_slope * equilibrium_price = 3.0 Final result: 3.0",
+          "answer": "3.0"
+        },
+        {
+          "question": "Using Market Equilibrium: Equilibrium Price and Quantity, compute the result for demand_intercept = 4, supply_intercept = 4, demand_slope = 4, supply_slope = 3.",
+          "solution": "Step 1: Take the gap between the curve intercepts: price_gap = demand_intercept - supply_intercept = 0.0 Step 2: Add the two slopes: slope_sum = demand_slope + supply_slope = 7.0 Step 3: Solve for the clearing price: equilibrium_price = price_gap / slope_sum = 0.0 Step 4: Read off the traded quantity: equilibrium_quantity = demand_intercept - demand_slope * equilibrium_price = 4.0 Final result: 4.0",
+          "answer": "4.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.205.1.2",
+      "title": "Excess Demand, Excess Supply and Price Adjustment",
+      "section": "5.1",
+      "definition": "At any price below the clearing level buyers want more than sellers offer - excess demand - and price is bid up; above it sellers offer more than buyers take - excess supply - and price is cut, the invisible hand pushing the market back to equilibrium.",
+      "formula": "excess_demand_at_price = quantity_demanded - quantity_supplied",
+      "key_idea": "Shortages raise price, gluts lower it, and the drift stops only where the market clears.",
+      "textbook_ref": "leec205.txt, section 5.1, out-of-equilibrium behaviour and Example 5.1 algebra, pages 72-74",
+      "question_patterns": [
+        "explain the rule that shortages push the price up and gluts push it down until the market clears",
+        "compute the shortage at a price below the clearing level from the two curves",
+        "what happens when the prevailing price sits above the equilibrium price",
+        "explain how the invisible hand restores equilibrium after a disturbance",
+        "find the surplus of goods at a price higher than the market clearing price",
+        "state the zero excess demand definition of equilibrium"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Net buyers against sellers",
+          "explain": "Subtracting quantity supplied from quantity demanded at the going price gives the market imbalance; a positive value is excess demand, a negative one excess supply.",
+          "compute": "excess_demand_at_price = quantity_demanded - quantity_supplied"
+        },
+        {
+          "step": 2,
+          "action": "Apply the price adjustment",
+          "explain": "Positive imbalance pushes the price up, negative imbalance pulls it down, and the movement halts at the clearing price."
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Excess Demand, Excess Supply and Price Adjustment, compute the result for quantity_demanded = 3, quantity_supplied = 3.",
+          "solution": "Step 1: Net buyers against sellers: excess_demand_at_price = quantity_demanded - quantity_supplied = 0.0 Final result: 0.0",
+          "answer": "0.0"
+        },
+        {
+          "question": "Using Excess Demand, Excess Supply and Price Adjustment, compute the result for quantity_demanded = 4, quantity_supplied = 4.",
+          "solution": "Step 1: Net buyers against sellers: excess_demand_at_price = quantity_demanded - quantity_supplied = 0.0 Final result: 0.0",
+          "answer": "0.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.205.1.3",
+      "title": "Labour Market: Wage Determination and the Demand for Labour",
+      "section": "5.1.1",
+      "definition": "Firms hire labour until the wage equals the marginal revenue product of labour - the extra revenue from one more worker - which under price taking equals price times marginal product; households weigh income against leisure, giving an upward-sloping market supply of labour, and the wage settles where the two curves cross.",
+      "formula": "marginal_revenue_product_of_labour = marginal_revenue * marginal_product_of_labour",
+      "key_idea": "Hiring stops where the last worker adds exactly what the wage costs, and that rule slopes labour demand downward.",
+      "textbook_ref": "leec205.txt, section 5.1.1, wage determination in labour market box, pages 75-77",
+      "question_patterns": [
+        "compute the revenue value of an extra worker from price and marginal product",
+        "up to what point does a profit-maximising firm employ labour",
+        "how is the wage rate settled in a competitive labour market",
+        "why does the demand curve for labour slope downward",
+        "why can an individual's labour supply curve bend backward at high wages",
+        "contrast the roles of households and firms in the goods and labour markets"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Value the extra output of a worker",
+          "explain": "Multiply the marginal product of labour by the revenue earned per unit of output to get the marginal revenue product.",
+          "compute": "marginal_revenue_product_of_labour = marginal_revenue * marginal_product_of_labour"
+        },
+        {
+          "step": 2,
+          "action": "Compare with the wage",
+          "explain": "The firm keeps hiring while the revenue product exceeds the wage and stops at equality, which is the labour demand rule."
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Labour Market: Wage Determination and the Demand for Labour, compute the result for marginal_revenue = 3, marginal_product_of_labour = 3.",
+          "solution": "Step 1: Value the extra output of a worker: marginal_revenue_product_of_labour = marginal_revenue * marginal_product_of_labour = 9.0 Final result: 9.0",
+          "answer": "9.0"
+        },
+        {
+          "question": "Using Labour Market: Wage Determination and the Demand for Labour, compute the result for marginal_revenue = 4, marginal_product_of_labour = 4.",
+          "solution": "Step 1: Value the extra output of a worker: marginal_revenue_product_of_labour = marginal_revenue * marginal_product_of_labour = 16.0 Final result: 16.0",
+          "answer": "16.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.205.1.4",
+      "title": "Effects of a Demand Shift on Equilibrium",
+      "section": "5.1.1",
+      "definition": "With the number of firms fixed, a rightward shift of demand - from higher incomes for a normal good or more buyers - raises both equilibrium price and quantity, while a leftward shift lowers both; price and quantity always move together when demand shifts.",
+      "formula": "demand_shift_right implies price_up and quantity_up (supply unchanged)",
+      "key_idea": "Move demand and equilibrium slides along the supply curve, carrying price and quantity in the same direction.",
+      "textbook_ref": "leec205.txt, section 5.1.1, demand shift discussion and figure 5.2, pages 77-78",
+      "question_patterns": [
+        "how do equilibrium price and quantity respond when consumer income rises for a normal good",
+        "trace the effects of a rightward shift of the demand curve with supply unchanged",
+        "what happens to the market when the number of consumers increases",
+        "why do price and quantity move in the same direction after a demand shift",
+        "show the new equilibrium after demand falls, using a diagram",
+        "does an income rise affect the supply curve of the good"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Identify the shift and its cause",
+          "explain": "Income growth for a normal good or an inflow of buyers shifts demand rightward; the reverses shift it leftward."
+        },
+        {
+          "step": 2,
+          "action": "Register the imbalance at the old price",
+          "explain": "A rightward shift creates excess demand at the old price, so price is bid up; a leftward shift creates excess supply and price falls."
+        },
+        {
+          "step": 3,
+          "action": "Read the new equilibrium",
+          "explain": "Moving along the unchanged supply curve, both price and quantity rise after a rightward shift and fall after a leftward one."
+        }
+      ]
+    },
+    {
+      "id": "leec.205.1.5",
+      "title": "Effects of a Supply Shift on Equilibrium",
+      "section": "5.1.1",
+      "definition": "With demand unchanged, a leftward supply shift - say from costlier inputs - raises equilibrium price and lowers quantity, while a rightward supply shift from better technology or more firms lowers price and raises quantity; price and quantity move in opposite directions when supply shifts.",
+      "formula": "supply_shift_left implies price_up and quantity_down (demand unchanged)",
+      "key_idea": "Move supply and equilibrium slides along the demand curve, pushing price and quantity in opposite directions.",
+      "textbook_ref": "leec205.txt, section 5.1.1, supply shift discussion and figure 5.3, pages 79-80",
+      "question_patterns": [
+        "how do equilibrium price and quantity respond when an input becomes dearer",
+        "trace the effects of a rightward shift of the supply curve with demand unchanged",
+        "what happens to the market when new firms enter the industry",
+        "why do price and quantity move oppositely after a supply shift",
+        "show the new equilibrium after a technology improvement, using a diagram",
+        "does an input price rise shift the demand curve of the good"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Identify the shift and its cause",
+          "explain": "Costlier inputs shift supply leftward; better technology or more firms shift it rightward, leaving demand untouched."
+        },
+        {
+          "step": 2,
+          "action": "Register the imbalance at the old price",
+          "explain": "A leftward shift creates excess demand at the old price and price rises; a rightward shift creates excess supply and price falls."
+        },
+        {
+          "step": 3,
+          "action": "Read the new equilibrium",
+          "explain": "Moving along the unchanged demand curve, price rises while quantity falls after a leftward shift, and the reverse after a rightward one."
+        }
+      ]
+    },
+    {
+      "id": "leec.205.1.6",
+      "title": "Simultaneous Shifts of Demand and Supply",
+      "section": "5.1.1",
+      "definition": "When both curves move at once, one equilibrium variable is pinned down by the direction of the shifts and the other depends on their relative size: same-direction shifts fix quantity but leave price ambiguous, opposite-direction shifts fix price but leave quantity ambiguous.",
+      "formula": "both_shift_right implies quantity_up; price_ambiguous (depends on magnitudes)",
+      "key_idea": "A shift fixes its own variable - demand governs quantity direction, supply governs price direction - and magnitudes settle the rest.",
+      "textbook_ref": "leec205.txt, section 5.1.1, simultaneous shifts and Table 5.1, pages 80-81",
+      "question_patterns": [
+        "what happens to price and quantity when demand and supply both shift rightward",
+        "predict the equilibrium outcome when demand rises but supply falls",
+        "why is the price effect ambiguous when both curves shift the same way",
+        "classify the four combinations of simultaneous demand and supply shifts",
+        "when can the change in equilibrium quantity be stated with certainty",
+        "what decides whether price rises or falls after opposite-direction shifts"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Sort the shift combination",
+          "explain": "Note whether each curve moves rightward or leftward to place the case in the four-way table."
+        },
+        {
+          "step": 2,
+          "action": "Fix the unambiguous variable",
+          "explain": "Same-direction shifts settle quantity - up for twin rightward, down for twin leftward; opposite-direction shifts settle price - up when demand rises or supply falls relative to the other."
+        },
+        {
+          "step": 3,
+          "action": "Flag the magnitude-dependent variable",
+          "explain": "The remaining variable can rise, fall or stay put depending on which shift is larger, so only magnitudes can decide it."
+        }
+      ]
+    },
+    {
+      "id": "leec.205.2.1",
+      "title": "Free Entry and Exit: Price at Minimum Average Cost and Number of Firms",
+      "section": "5.1.2",
+      "definition": "With identical firms free to enter or leave, supernormal profits attract entrants and losses drive exits until price settles at the minimum average cost; the equilibrium quantity is whatever demand absorbs at that price, and the number of firms is that quantity divided by each firm's output.",
+      "formula": "number_of_firms = equilibrium_quantity / output_per_firm",
+      "key_idea": "Entry and exit police profits to normal, pinning price at the average cost floor while quantity follows demand.",
+      "textbook_ref": "leec205.txt, section 5.1.2, Example 5.2 wheat market with entry, pages 81-84",
+      "question_patterns": [
+        "why must the long run price equal the minimum average cost under free entry and exit",
+        "compute the number of firms in equilibrium from total quantity and per firm output",
+        "how does a demand shift affect price quantity and firm count when entry is free",
+        "wheat demand is 200 minus p and each firm supplies 10 plus p above price 20, find the market outcome",
+        "what wipes out supernormal profit in a competitive market",
+        "why does the demand shift change only quantity and not price with free entry"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Set the price at the cost floor",
+          "explain": "Free entry and exit force price to the minimum average cost of the identical firms.",
+          "compute": "equilibrium_price = minimum_average_cost"
+        },
+        {
+          "step": 2,
+          "action": "Let demand set total output",
+          "explain": "Substituting that price into the market demand curve gives the equilibrium quantity.",
+          "compute": "equilibrium_quantity = demand_intercept - demand_slope * equilibrium_price"
+        },
+        {
+          "step": 3,
+          "action": "Divide the market among firms",
+          "explain": "Each identical firm produces its share at that price, so dividing total quantity by the per-firm output gives the number of firms.",
+          "compute": "number_of_firms = equilibrium_quantity / output_per_firm"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Free Entry and Exit: Price at Minimum Average Cost and Number of Firms, compute the result for minimum_average_cost = 3, demand_intercept = 3, demand_slope = 3, output_per_firm = 2.",
+          "solution": "Step 1: Set the price at the cost floor: equilibrium_price = minimum_average_cost = 3.0 Step 2: Let demand set total output: equilibrium_quantity = demand_intercept - demand_slope * equilibrium_price = -6.0 Step 3: Divide the market among firms: number_of_firms = equilibrium_quantity / output_per_firm = -3.0 Final result: -3.0",
+          "answer": "-3.0"
+        },
+        {
+          "question": "Using Free Entry and Exit: Price at Minimum Average Cost and Number of Firms, compute the result for minimum_average_cost = 4, demand_intercept = 4, demand_slope = 4, output_per_firm = 3.",
+          "solution": "Step 1: Set the price at the cost floor: equilibrium_price = minimum_average_cost = 4.0 Step 2: Let demand set total output: equilibrium_quantity = demand_intercept - demand_slope * equilibrium_price = -12.0 Step 3: Divide the market among firms: number_of_firms = equilibrium_quantity / output_per_firm = -4.0 Final result: -4.0",
+          "answer": "-4.0"
+        }
+      ]
+    },
+    {
+      "id": "leec.205.3.1",
+      "title": "Price Ceiling and Rationing",
+      "section": "5.2.1",
+      "definition": "A price ceiling is a government-imposed maximum set below the market clearing price for essentials; it creates a shortage that is usually shared out by rationing through fair price shops, bringing long queues and the risk of a black market.",
+      "formula": "shortage_from_ceiling = quantity_demanded_at_ceiling - quantity_supplied_at_ceiling",
+      "key_idea": "Capping the price below equilibrium makes goods cheaper but scarcer, so rationing must ration out the shortfall.",
+      "textbook_ref": "leec205.txt, section 5.2.1, figure 5.7 and consequences, pages 84-85",
+      "question_patterns": [
+        "what is a price ceiling and why is it set below the equilibrium price",
+        "compute the shortage created when a maximum price is imposed on a good",
+        "how does rationing distribute goods under a price ceiling",
+        "what adverse effects can follow from a ceiling plus rationing system",
+        "name goods on which ceilings are commonly imposed in India",
+        "why can a black market emerge when the price of an essential is capped"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Compare the ceiling with the clearing price",
+          "explain": "A ceiling binds only when it sits below the market clearing price."
+        },
+        {
+          "step": 2,
+          "action": "Measure the resulting gap",
+          "explain": "At the ceiling price buyers demand more than firms supply, producing an excess demand or shortage."
+        },
+        {
+          "step": 3,
+          "action": "Trace the coping mechanisms",
+          "explain": "Ration coupons and fair price shops share the limited supply, but queues and black market premiums typically follow."
+        }
+      ]
+    },
+    {
+      "id": "leec.205.3.2",
+      "title": "Price Floor and Support Programmes",
+      "section": "5.2.2",
+      "definition": "A price floor is a government-imposed minimum set above the market clearing price, as in farm support prices or minimum wage laws; it creates a surplus that the government must buy up, or in the labour market, potential unemployment.",
+      "formula": "surplus_from_floor = quantity_supplied_at_floor - quantity_demanded_at_floor",
+      "key_idea": "Propping the price above equilibrium rewards sellers per unit but leaves unsold surplus for the state to absorb.",
+      "textbook_ref": "leec205.txt, section 5.2.2, figure 5.8 and examples, pages 85-86",
+      "question_patterns": [
+        "what is a price floor and why is it set above the equilibrium price",
+        "compute the surplus generated when a minimum price is imposed on a crop",
+        "give examples of floor price policies in practice",
+        "what must the government do with the excess supply created by a support price",
+        "how does a minimum wage above equilibrium affect the labour market",
+        "why does a floor benefit sellers who can sell while hurting the market balance"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Compare the floor with the clearing price",
+          "explain": "A floor binds only when it sits above the market clearing price."
+        },
+        {
+          "step": 2,
+          "action": "Measure the resulting gap",
+          "explain": "At the floor price firms offer more than buyers take, producing an excess supply or surplus."
+        },
+        {
+          "step": 3,
+          "action": "Trace the policy response",
+          "explain": "In farm support schemes the government purchases the surplus at the assured price; a minimum wage leaves some job seekers without work at the legislated wage."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "leec205.txt Example 5.1 wheat market",
+      "concept": "leec.205.1.1",
+      "question_type": "compute",
+      "question_pattern": "Market demand for wheat is 200 minus p and market supply is 120 plus p for prices above 10. Find the equilibrium price and quantity.",
+      "extracted_variables": {
+        "demand_intercept": 200,
+        "demand_slope": 1,
+        "supply_intercept": 120,
+        "supply_slope": 1
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Intercept gap",
+          "explain": "200 minus 120 leaves a gap of 80.",
+          "compute": "price_gap = demand_intercept - supply_intercept"
+        },
+        {
+          "step": 2,
+          "action": "Slope sum",
+          "explain": "1 plus 1 gives 2.",
+          "compute": "slope_sum = demand_slope + supply_slope"
+        },
+        {
+          "step": 3,
+          "action": "Clearing price",
+          "explain": "80 over 2 gives an equilibrium price of Rs 40 per kg.",
+          "compute": "equilibrium_price = price_gap / slope_sum"
+        },
+        {
+          "step": 4,
+          "action": "Equilibrium quantity",
+          "explain": "200 minus 40 gives 160 kg traded.",
+          "compute": "equilibrium_quantity = demand_intercept - demand_slope * equilibrium_price"
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "leec205.txt Example 5.2 free entry wheat market",
+      "concept": "leec.205.2.1",
+      "question_type": "compute",
+      "question_pattern": "Demand for wheat is 200 minus p, each firm's supply is 10 plus p for prices above 20, and entry is free. Find the price, total quantity and number of firms in equilibrium.",
+      "extracted_variables": {
+        "minimum_average_cost": 20,
+        "demand_intercept": 200,
+        "demand_slope": 1,
+        "output_per_firm": 30
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Price pinned at the cost floor",
+          "explain": "Free entry holds price at the minimum average cost of 20.",
+          "compute": "equilibrium_price = minimum_average_cost"
+        },
+        {
+          "step": 2,
+          "action": "Total quantity from demand",
+          "explain": "200 minus 20 gives 180 kg demanded and supplied.",
+          "compute": "equilibrium_quantity = demand_intercept - demand_slope * equilibrium_price"
+        },
+        {
+          "step": 3,
+          "action": "Number of firms",
+          "explain": "180 divided by 30 per firm gives 6 firms.",
+          "compute": "number_of_firms = equilibrium_quantity / output_per_firm"
+        }
+      ]
+    },
+    {
+      "id": "we3",
+      "source_ref": "leec205.txt Example 5.1 excess demand at p equals 25",
+      "concept": "leec.205.1.2",
+      "question_type": "compute",
+      "question_pattern": "In the wheat market with demand 200 minus p and supply 120 plus p, compute the excess demand at a price of Rs 25.",
+      "extracted_variables": {
+        "quantity_demanded": 175,
+        "quantity_supplied": 145
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Market imbalance at that price",
+          "explain": "175 minus 145 gives an excess demand of 30 kg, so the price tends to rise toward Rs 40.",
+          "compute": "excess_demand_at_price = quantity_demanded - quantity_supplied"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "leec205-ex1",
+      "source_ref": "leec205.txt exercise 1",
+      "questions": [
+        "Explain what equilibrium of a market means."
+      ]
+    },
+    {
+      "id": "leec205-ex2",
+      "source_ref": "leec205.txt exercise 2",
+      "questions": [
+        "When do we say a commodity faces excess demand in the market?"
+      ]
+    },
+    {
+      "id": "leec205-ex3",
+      "source_ref": "leec205.txt exercise 3",
+      "questions": [
+        "When do we say a commodity faces excess supply in the market?"
+      ]
+    },
+    {
+      "id": "leec205-ex4",
+      "source_ref": "leec205.txt exercise 4",
+      "questions": [
+        "What follows when the ruling price sits above, or below, the equilibrium price?"
+      ]
+    },
+    {
+      "id": "leec205-ex5",
+      "source_ref": "leec205.txt exercise 5",
+      "questions": [
+        "Explain price determination in a perfectly competitive market with a fixed number of firms."
+      ]
+    },
+    {
+      "id": "leec205-ex6",
+      "source_ref": "leec205.txt exercise 6",
+      "questions": [
+        "If the equilibrium price exceeds the firms' minimum average cost, how does free entry and exit change the price?"
+      ]
+    },
+    {
+      "id": "leec205-ex7",
+      "source_ref": "leec205.txt exercise 7",
+      "questions": [
+        "At what price do firms supply under free entry and exit, and how is equilibrium quantity then set?"
+      ]
+    },
+    {
+      "id": "leec205-ex8",
+      "source_ref": "leec205.txt exercise 8",
+      "questions": [
+        "How is the equilibrium number of firms fixed when entry and exit are allowed?"
+      ]
+    },
+    {
+      "id": "leec205-ex9",
+      "source_ref": "leec205.txt exercise 9",
+      "questions": [
+        "How are equilibrium price and quantity affected when consumer income rises and when it falls?"
+      ]
+    },
+    {
+      "id": "leec205-ex10",
+      "source_ref": "leec205.txt exercise 10",
+      "questions": [
+        "Using curves, show how a rise in the price of shoes affects the price of socks and the pairs bought and sold."
+      ]
+    },
+    {
+      "id": "leec205-ex11",
+      "source_ref": "leec205.txt exercise 11",
+      "questions": [
+        "How does a change in the price of coffee affect the equilibrium price and quantity of tea? Use a diagram."
+      ]
+    },
+    {
+      "id": "leec205-ex12",
+      "source_ref": "leec205.txt exercise 12",
+      "questions": [
+        "How do equilibrium price and quantity of a good change when the price of an input used in its production changes?"
+      ]
+    },
+    {
+      "id": "leec205-ex13",
+      "source_ref": "leec205.txt exercise 13",
+      "questions": [
+        "If the price of a substitute of good X rises, what happens to the equilibrium price and quantity of X?"
+      ]
+    },
+    {
+      "id": "leec205-ex14",
+      "source_ref": "leec205.txt exercise 14",
+      "questions": [
+        "Compare the effect of a demand shift on equilibrium with a fixed number of firms and with free entry and exit."
+      ]
+    },
+    {
+      "id": "leec205-ex15",
+      "source_ref": "leec205.txt exercise 15",
+      "questions": [
+        "Show with a diagram the effect of rightward shifts in both demand and supply on equilibrium price and quantity."
+      ]
+    },
+    {
+      "id": "leec205-ex16",
+      "source_ref": "leec205.txt exercise 16",
+      "questions": [
+        "How are equilibrium price and quantity affected when the curves shift in the same direction, and in opposite directions?"
+      ]
+    },
+    {
+      "id": "leec205-ex17",
+      "source_ref": "leec205.txt exercise 17",
+      "questions": [
+        "In what way do the supply and demand curves of the labour market differ from those of a goods market?"
+      ]
+    },
+    {
+      "id": "leec205-ex18",
+      "source_ref": "leec205.txt exercise 18",
+      "questions": [
+        "How is the optimal amount of labour fixed in a perfectly competitive market?"
+      ]
+    },
+    {
+      "id": "leec205-ex19",
+      "source_ref": "leec205.txt exercise 19",
+      "questions": [
+        "How is the wage rate determined in a perfectly competitive labour market?"
+      ]
+    },
+    {
+      "id": "leec205-ex20",
+      "source_ref": "leec205.txt exercise 20",
+      "questions": [
+        "Name a commodity on which India imposes a price ceiling and discuss the consequences."
+      ]
+    },
+    {
+      "id": "leec205-ex21",
+      "source_ref": "leec205.txt exercise 21",
+      "questions": [
+        "Explain why a demand shift moves price more and quantity less with fixed firms than under free entry and exit."
+      ]
+    },
+    {
+      "id": "leec205-ex22",
+      "source_ref": "leec205.txt exercise 22",
+      "questions": [
+        "For demand 700 minus p and supply 500 plus 3p above price 15, explain the zero supply below 15 and find the equilibrium price and quantity."
+      ]
+    },
+    {
+      "id": "leec205-ex23",
+      "source_ref": "leec205.txt exercise 23",
+      "questions": [
+        "With the same demand curve, free entry and exit, and firm supply 8 plus 3p above price 20, explain the role of price 20 and find the equilibrium price, quantity and number of firms."
+      ]
+    },
+    {
+      "id": "leec205-ex24",
+      "source_ref": "leec205.txt exercise 24",
+      "questions": [
+        "For salt with demand 1000 minus p and supply 700 plus 2p, find equilibrium; then rework it after the supply curve shifts to 400 plus 2p, and again after a tax of Rs 3 per unit."
+      ]
+    },
+    {
+      "id": "leec205-ex25",
+      "source_ref": "leec205.txt exercise 25",
+      "questions": [
+        "If rents are deemed too high and the government imposes rent control, what will happen in the market for apartments?"
+      ]
+    }
+  ]
+}

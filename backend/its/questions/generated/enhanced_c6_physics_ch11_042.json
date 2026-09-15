@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch11_042",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch11_042",
+   "title": "c6_physics_ch11_042",
+   "questions": [
+    {
+     "q": "What is the primary function of a periscope?\n[1-2 sentence response]",
+     "a": "A periscope allows a person to see objects that are not in their direct line of sight. An answer claiming it \"makes things bigger\" or \"sees through walls\" shows a misunderstanding of reflection vs. magnification or transparency.",
+     "self_check": true
+    },
+    {
+     "q": "If you place the two mirrors in a periscope parallel to each other but at 30-degree angles instead of 45-degree angles, will you be able to see the object clearly? Why?",
+     "a": "No, you will not see the object clearly because the light will not be reflected at the correct angle to reach your eye. A wrong answer suggests the student thinks mirrors always work regardless of their orientation, failing to grasp that the angle of incidence must equal the angle of reflection to redirect light precisely.",
+     "self_check": true
+    },
+    {
+     "q": "A student is building a periscope. They place the first mirror at the top. If the light hits the mirror at a 45-degree angle to the surface of the mirror, at what angle will it reflect?",
+     "a": "It will reflect at a 45-degree angle. This is based on the law of reflection where the angle of incidence equals the angle of reflection. A wrong answer indicates they do not know the basic rule of reflection for plane mirrors.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a periscope often used in submarines that are underwater?",
+     "a": "It allows the crew to observe the surface of the water while the submarine remains submerged and protected. An answer suggesting it is for \"seeing through the hull\" reveals a failure to understand the device’s purpose of redirecting light from an outside source.",
+     "self_check": true
+    },
+    {
+     "q": "If you removed one of the two mirrors from a periscope, could you still see the hidden object? Defend your answer.",
+     "a": "No, because one mirror can only change the direction of light once, which would not lead the light to your eye after clearing the obstacle. You need the second mirror to \"reset\" the direction of the light back to your line of sight.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple modification: If you wanted to see around a corner to your right, how would you orient the mirrors?",
+     "a": "You would rotate the entire periscope tube so that the top mirror faces the corner while the bottom mirror remains aligned with your eye. A poor answer ignores the need for physical alignment of the mirrors toward the light source.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

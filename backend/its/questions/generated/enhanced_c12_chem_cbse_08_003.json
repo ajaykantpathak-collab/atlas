@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_08_003",
+   "title": "c12_chem_cbse_08_003",
+   "questions": [
+    {
+     "q": "Write the balanced chemical equation for the reaction of ethanoyl chloride (CH₃COCl) with dimethylcadmium ((CH₃)₂Cd) to give a ketone. Name the ketone product.",
+     "a": "CH₃COCl + (CH₃)₂Cd → CH₃COCH₃ (propanone/acetone) + CdCl₂. A wrong answer (e.g., using RMgX instead of R₂Cd, or writing a tertiary alcohol product) reveals the student does not understand that Grignard reagents over-add to acyl chlorides, while dialkylcadmium stops at the ketone due to lower reactivity.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a Grignard reagent (RMgX) cannot be used directly on an acyl chloride to prepare a ketone, but works on a nitrile to give a ketone after hydrolysis.",
+     "a": "Grignard reagents are highly reactive and add twice to acyl chlorides: first to give a ketone, which is more reactive than the acyl chloride, so a second addition occurs yielding a tertiary alkoxide (→ tertiary alcohol after hydrolysis). With nitriles, the first addition gives an imine anion (C=N⁻MgX⁺) which is less electrophilic than a carbonyl, so a second addition is slow; hydrolysis of the imine yields the ketone. A wrong answer (e.g., \"Grignard is not strong enough\") shows confusion about relative electrophilicity and reaction stoichiometry.",
+     "self_check": true
+    },
+    {
+     "q": "Predict the ketone product when butanenitrile (CH₃CH₂CH₂CN) reacts with phenylmagnesium bromide (PhMgBr) followed by dilute H₃O⁺. Write the stepwise equations.",
+     "a": "Step 1: CH₃CH₂CH₂CN + PhMgBr → CH₃CH₂CH₂C(=NMgBr)Ph (imine salt). Step 2: Hydrolysis: CH₃CH₂CH₂C(=NMgBr)Ph + H₂O/H⁺ → CH₃CH₂CH₂COPh (1-phenylpentan-1-one) + NH₄⁺ + MgBr(OH). A wrong product (e.g., forgetting the phenyl group, or writing an alcohol) indicates failure to track the R group from the Grignard reagent and/or misunderstanding that hydrolysis of an imine gives a carbonyl, not an alcohol.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reactivity of acyl chlorides and nitriles toward Grignard reagents. Why does the nitrile route require an explicit hydrolysis step while the acyl chloride route with dialkylcadmium does not?",
+     "a": "Acyl chlorides are highly electrophilic; even the less reactive dialkylcadmium adds once to give a ketone directly (the CdCl₂ byproduct precipitates). Nitriles are less electrophilic; Grignard adds once to give a stable imine salt that must be hydrolyzed to reveal the ketone. A wrong comparison (e.g., \"nitriles are more reactive\") reveals a misunderstanding of carbonyl vs. cyano electrophilicity and the role of the leaving group (Cl⁻ vs. N⁻).",
+     "self_check": true
+    },
+    {
+     "q": "A student attempts to prepare 2-phenylpropan-1-one (PhCOCH₂CH₃) by reacting propanoyl chloride (CH₃CH₂COCl) with phenylmagnesium bromide. Evaluate this plan and suggest the correct reagent.",
+     "a": "The plan fails: PhMgBr will add twice to propanoyl chloride, giving Ph₂C(OH)CH₂CH₃ (a tertiary alcohol) after hydrolysis. The correct reagent is diphenylcadmium ((Ph)₂Cd), prepared from CdCl₂ and 2 PhMgBr. A student who says \"it will work\" or suggests using only 1 equivalent of Grignard shows they do not grasp that ketone intermediates are more reactive than acyl chlorides toward Grignard reagents, making stoichiometric control impossible.",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-step synthesis of 4-methylpentan-2-one (CH₃COCH₂CH(CH₃)₂) starting from an acyl chloride and a suitable organometallic reagent. Specify all reagents and conditions.",
+     "a": "Target ketone: CH₃COCH₂CH(CH₃)₂. Disconnect at the carbonyl: acyl chloride = CH₃COCl (ethanoyl chloride); organometallic = (CH₂CH(CH₃)₂)₂Cd (di(3-methylbutyl)cadmium). Step 1: Prepare Grignard: (CH₃)₂CHCH₂MgBr from (CH₃)₂CHCH₂Br + Mg/ether. Step 2: 2 (CH₃)₂CHCH₂MgBr + CdCl₂ → ((CH₃)₂CHCH₂)₂Cd + 2 MgBrCl. Step 3: CH₃COCl + ((CH₃)₂CHCH₂)₂Cd → CH₃COCH₂CH(CH₃)₂ + CdCl₂. A poor answer (wrong carbon count, wrong reagent) reveals inability to perform retrosynthetic disconnection at the carbonyl.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

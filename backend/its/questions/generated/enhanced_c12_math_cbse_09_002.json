@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_09_002",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_09_002",
+   "title": "c12_math_cbse_09_002",
+   "questions": [
+    {
+     "q": "State the degree of the differential equation: (d²y/dx²)³ + 2(dy/dx)² + 3y = 0. Is the degree defined? Justify in one sentence.",
+     "a": "The degree is 3. The equation is a polynomial in derivatives (y'' and y'), the highest order derivative is d²y/dx² (order 2), and its highest power is 3. A wrong answer (e.g., degree = 2) reveals the student confused the power of the first derivative with the power of the highest order derivative, or forgot that degree refers specifically to the highest order derivative.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the differential equation: sin(dy/dx) + y = 0. A student claims the degree is 1 because dy/dx appears to the first power. Explain why this reasoning is incorrect.",
+     "a": "The degree is NOT DEFINED. The equation contains sin(dy/dx), which is a transcendental function of the derivative, so the equation is not a polynomial in derivatives. The student's error is ignoring the functional form — degree requires the derivative itself to be raised to an integer power, not wrapped inside sin, cos, log, or exp. This misconception costs marks in both board MCQs and JEE integer-type questions.",
+     "self_check": true
+    },
+    {
+     "q": "Find the order and degree (if defined) of: (d³y/dx³)² + (d²y/dx²)³ + (dy/dx)⁴ + y⁵ = 0.",
+     "a": "Order = 3 (highest derivative is d³y/dx³). Degree = 2 (highest power of the highest order derivative d³y/dx³ is 2). The equation is a polynomial in y''', y'', y'. A wrong answer (e.g., degree = 4 or 5) reveals the student incorrectly took the highest power among ALL derivatives instead of only the highest order derivative, or confused the power of y⁵ (the dependent variable, not a derivative) with the degree.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the degree of these two equations: (A) (d²y/dx²) + (dy/dx)² = 0 and (B) √(d²y/dx²) + (dy/dx)² = 0. Are they the same? Why or why not?",
+     "a": "Equation (A) has degree 1 (polynomial in y''). Equation (B) has degree NOT DEFINED because √(d²y/dx²) = (d²y/dx²)^(1/2) is a fractional power — even after squaring both sides, the equation becomes d²y/dx² = (dy/dx)⁴, which is polynomial, but the original given form is not a polynomial in derivatives. The NCERT defines degree based on the given form, not after manipulation. A student who says both have degree 1 fails to recognize that degree is defined only when the original equation is polynomial in derivatives.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves Exercise 9.1 Q11: \"The degree of the differential equation (d²y/dx²)³ + (dy/dx)² + sin(dy/dx) + 1 = 0 is (A) 3 (B) 2 (C) 1 (D) not defined.\" They choose (A) 3. Evaluate their answer and identify the exact error.",
+     "a": "The correct answer is (D) not defined. The term sin(dy/dx) makes the equation non-polynomial in derivatives. The student's error: they correctly identified the highest order derivative (y'') and its power (3), but ignored the presence of sin(dy/dx). In board exams, this loses 1 mark; in JEE, it loses 4 marks with negative marking. The rule: ONE non-polynomial term in any derivative makes the entire degree undefined.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a differential equation of order 2 and degree 3 that is a polynomial in derivatives. Then modify it slightly to make the degree undefined while keeping order 2. Explain the modification.",
+     "a": "Example of order 2, degree 3: (d²y/dx²)³ + x(dy/dx) + y = 0. To make degree undefined: (d²y/dx²)³ + sin(dy/dx) + y = 0 (adds transcendental function of first derivative) OR √(d²y/dx²) + (dy/dx) + y = 0 (adds fractional power of highest derivative). A good answer shows understanding that degree depends on the form of the highest derivative term and polynomial nature of ALL derivative terms. A poor answer modifies the dependent variable y (e.g., adds sin y) which does not affect degree.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

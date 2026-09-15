@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_05_004",
+   "title": "c12_eco_cbse_05_004",
+   "questions": [
+    {
+     "q": "In a simultaneous shift where **both demand and supply increase**, which of the following is TRUE about the new equilibrium?\nA) Price definitely rises, quantity definitely rises\nB) Price definitely falls, quantity definitely rises\nC) Quantity definitely rises, price change is indeterminate\nD) Both price and quantity changes are indeterminate",
+     "a": "**Correct: C** — When both demand and supply increase, the demand shift pushes price up and quantity up; the supply shift pushes price down and quantity up. Quantity rises unambiguously (both shifts increase it). Price change depends on relative magnitudes: if demand shifts more than supply, price rises; if supply shifts more, price falls; if equal, price unchanged.  \n**Wrong answer A** reveals the student thinks both shifts push price in the same direction (they don't — supply increase lowers price). **Wrong answer B** confuses this with the \"demand down, supply up\" case. **Wrong answer D** fails to see that quantity is determinate.",
+     "self_check": true
+    },
+    {
+     "q": "The market for electric two-wheelers in Bengaluru initially has equilibrium price ₹1,00,000 and quantity 50,000 units. A government subsidy reduces production costs (supply increases), while rising petrol prices make EVs more attractive (demand increases). After both shifts, the new equilibrium quantity is 70,000 units. Can you conclude whether the new equilibrium price is higher, lower, or unchanged from ₹1,00,000? Explain why or why not.",
+     "a": "**No, you cannot conclude the price direction.** Both shifts increase quantity (consistent with the observed rise to 70,000), but they exert opposite forces on price: demand increase → price up; supply increase → price down. Without knowing the *relative magnitudes* of the shifts (e.g., how much each curve shifted horizontally at the original price), price change is indeterminate. The student who says \"price must fall because supply increased\" ignores the simultaneous demand increase. The student who says \"price must rise because demand increased\" ignores the supply increase. Only magnitude comparison resolves it.",
+     "self_check": true
+    },
+    {
+     "q": "The demand and supply functions for wheat in a Karnataka mandi are:  \nQd = 2000 – 50P  \nQs = –400 + 30P  \nInitially the market is in equilibrium. Then: (i) a health study boosts demand, shifting the demand curve to Qd' = 2400 – 50P; (ii) a new irrigation technology shifts supply to Qs' = –200 + 30P.  \nCalculate the initial equilibrium price and quantity, then the new equilibrium price and quantity after both shifts. Show all steps.",
+     "a": "**Step 1: Initial equilibrium**  \nSet Qd = Qs: 2000 – 50P = –400 + 30P → 2400 = 80P → P₀ = ₹30  \nQ₀ = 2000 – 50(30) = 500 units  \n\n**Step 2: New equilibrium after shifts**  \nSet Qd' = Qs': 2400 – 50P = –200 + 30P → 2600 = 80P → P₁ = ₹32.50  \nQ₁ = 2400 – 50(32.50) = 775 units  \n\n**Step 3: Interpret**  \nDemand increased (intercept +400), supply increased (intercept +200). Quantity rose from 500 to 775 (determinate ↑). Price rose from ₹30 to ₹32.50 because demand shift (+400) > supply shift (+200) at any given price.  \n**Wrong answer** (e.g., P₁ = ₹27.50) typically comes from subtracting the supply shift from demand shift incorrectly or using old supply with new demand. This reveals confusion about simultaneous vs. sequential shifts.",
+     "self_check": true
+    },
+    {
+     "q": "Consider two scenarios for the market of **onions in Lasalgaon, Maharashtra** (Asia's largest onion market):  \n**Scenario A:** A drought reduces supply (left shift). Simultaneously, a festival season increases demand (right shift).  \n**Scenario B:** A bumper harvest increases supply (right shift). Simultaneously, a health scare reduces demand (left shift).  \nIn which scenario is the equilibrium quantity change **indeterminate**? In which is the equilibrium price change **indeterminate**? Justify using the \"opposing forces\" logic.",
+     "a": "**Scenario A (demand ↑, supply ↓):** Price change is **determinate (↑)** — both shifts push price up. Quantity change is **indeterminate** — demand ↑ pushes Q up, supply ↓ pushes Q down.  \n**Scenario B (demand ↓, supply ↑):** Price change is **determinate (↓)** — both shifts push price down. Quantity change is **indeterminate** — demand ↓ pushes Q down, supply ↑ pushes Q up.  \n**Common error:** Students swap the determinate/indeterminate variables. This happens when they memorise a table without understanding the \"same direction = determinate, opposite = indeterminate\" rule. The rule: *For any variable (P or Q), if both shifts push it the same way → determinate; if they push opposite ways → indeterminate.*",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: *\"When both demand and supply decrease, equilibrium quantity definitely falls. Since quantity falls, the market shrinks, so total revenue (P × Q) for sellers must also fall.\"* Evaluate this argument. Is it always true, sometimes true, or never true? Provide a counterexample or proof.",
+     "a": "**Sometimes true.** Total revenue (TR = P × Q) change depends on *both* price and quantity changes. When both demand and supply decrease:  \n- Quantity **definitely falls** (determinate ↓)  \n- Price change is **indeterminate** (demand ↓ pushes P down, supply ↓ pushes P up)  \n\nIf price rises sufficiently (supply shift dominates), TR could rise despite lower Q.  \n**Counterexample:** Initial P=₹100, Q=100 → TR=₹10,000. After shifts: P=₹120, Q=80 → TR=₹9,600 (falls). But if P=₹150, Q=80 → TR=₹12,000 (rises).  \n**Wrong evaluation** (\"always true\") ignores that price may rise. This reveals the student treats price as fixed or assumes demand shift always dominates — a confusion between \"quantity determinate\" and \"price indeterminate.\"",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world Indian market scenario (different from tomatoes, EVs, wheat, onions) where **demand decreases and supply increases simultaneously**. Specify the non-price determinants causing each shift. Draw a labelled diagram showing initial and new equilibria. State whether equilibrium price and quantity are determinate or indeterminate, and explain what additional information would be needed to resolve the indeterminacy.",
+     "a": "**Scenario:** Market for **feature phones (basic keypad phones) in rural Uttar Pradesh**.  \n- **Demand decreases (left shift):** Rising rural incomes and cheap 4G data plans shift consumers to smartphones (substitute).  \n- **Supply increases (right shift):** Chinese manufacturers flood the market with ultra-low-cost feature phones (e.g., ₹500-800 models), and existing firms adopt cheaper assembly techniques.  \n\n**Diagram:** Downward-sloping D₀, upward-sloping S₀ intersecting at E₀. D₁ left of D₀, S₁ right of S₀. New intersection E₁ lower than E₀ (price definitely ↓). Quantity at E₁ could be left or right of E₀ depending on shift magnitudes.  \n\n**Outcomes:** Price **determinate (falls)** — both shifts push price down. Quantity **indeterminate** — demand ↓ pushes Q down, supply ↑ pushes Q up.  \n**Additional info needed:** Horizontal shift magnitudes at original price (e.g., \"demand falls by 20 lakh units at ₹1000; supply rises by 15 lakh units at ₹1000\"). If demand shift > supply shift → Q falls; if supply shift > demand shift → Q rises; if equal → Q unchanged.  \n**Poor answer** gives a scenario where shifts don't actually oppose on quantity (e.g., both decrease) or fails to specify non-price determinants.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_15_006",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_15_006",
+   "title": "c12_geo_cbse_15_006",
+   "questions": [
+    {
+     "q": "Name the river stretch designated as National Waterway 1 (NW1) and state its total navigable length.",
+     "a": "NW1 is the Prayagraj–Haldia stretch of the Ganga–Bhagirathi–Hooghly river system, with a total navigable length of 1,620 km. A wrong answer (e.g., naming the Brahmaputra or giving a shorter length) reveals that the student has not memorised the specific river–stretch–length associations in Table 7.3 of the NCERT, which are frequently asked as direct recall questions in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the backwaters of Kerala (Kayals) are economically significant beyond just transport.",
+     "a": "The Kerala backwaters provide cheap inland transport, but they also support a thriving tourism industry (houseboats, Nehru Trophy Boat Race) and sustain fisheries and local livelihoods. A student who only mentions transport misses the multi-functional economic role highlighted in the NCERT text — a common error when students treat geographical features as single-purpose.",
+     "self_check": true
+    },
+    {
+     "q": "A fertilizer plant at Phulpur (Uttar Pradesh) needs to move 50,000 tonnes of raw material from Haldia port. Using NW1 (Haldia–Farakka 560 km, Farakka–Patna 460 km, Patna–Prayagraj 600 km), calculate the total distance the barge must travel. If the barge averages 8 km/h and operates 16 hours/day, how many days will the one-way trip take?",
+     "a": "Step 1: Total distance = 560 + 460 + 600 = 1,620 km.  \nStep 2: Daily distance = 8 km/h × 16 h = 128 km/day.  \nStep 3: Days required = 1,620 ÷ 128 ≈ 12.66 → 13 days (round up because partial day counts as a full operational day).  \nA wrong answer often arises from forgetting to sum all three stretches, using 24-hour operation, or not rounding up — errors that appear in CUET/board case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the physical reasons why NW1 (Ganga) and NW2 (Brahmaputra) are navigable by mechanical boats over long stretches, while NW3 (West Coast Canal) relies on canals.",
+     "a": "NW1 and NW2 are on perennial Himalayan rivers with high discharge, gentle gradient in plains, and natural depth maintained by snowmelt and monsoon flow, allowing mechanical boats. NW3 runs through low-lying coastal plains of Kerala where natural rivers are short and seasonal; the West Coast Canal was artificially excavated to link lagoons and backwaters, creating a continuous navigable channel. A student who attributes NW3’s canalisation to “lack of rivers” without mentioning the seasonal nature of peninsular rivers shows incomplete understanding of drainage patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: “Declaring 111 National Waterways in 2016 will automatically shift 10% of India’s freight from road/rail to waterways.”",
+     "a": "The declaration is a necessary policy step but not sufficient. Actual modal shift requires: (a) capital dredging to maintain least available depth (LAD) of 2.5–3 m, (b) terminal infrastructure (jetties, warehouses, rail/road connectivity), (c) assured water flow (especially in lean season), and (d) integration with logistics hubs. Without these, the waterways remain “on paper”. A student who agrees uncritically ignores the implementation gap between policy and on-ground navigability — a frequent trap in assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a proposal for a new National Waterway linking the industrial corridor of Surat–Vadodara–Ahmedabad using the Narmada and Tapti rivers. List four geographical and two infrastructural criteria you would assess before recommending it to IWAI.",
+     "a": "Geographical: (1) Perennial flow with lean-season depth ≥2.5 m, (2) Channel width ≥45 m for two-way barge traffic, (3) Gradient <10 cm/km to allow low-power propulsion, (4) Minimal tidal/salinity intrusion in upstream stretches. Infrastructural: (1) Existing or planned rail/road links at terminal sites, (2) Availability of land for multimodal logistics parks. A poor proposal lists only “big rivers” without quantitative thresholds, showing inability to translate physical geography into engineering criteria.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_02_010",
+   "title": "c12_soc_cbse_02_010",
+   "questions": [
+    {
+     "q": "What is the exact formula for Work Participation Rate (WPR) as used in the Indian Census, and what two categories of workers constitute the numerator?",
+     "a": "WPR = (Main Workers + Marginal Workers) / Total Population × 100. Main workers are those who worked for 6 months or more in the reference year; marginal workers worked for less than 6 months. A wrong answer that uses only \"main workers\" or \"employed persons\" reveals confusion between Census workforce definitions and NSSO employment-unemployment concepts.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why India’s female Work Participation Rate (≈25% in 2011) is far lower than male WPR (≈53%) despite similar age structures, using the concept of occupational structure.",
+     "a": "Female WPR is low because women are concentrated in the primary sector (agriculture) as unpaid family helpers, which Census often excludes from \"work\" if not reported as main/marginal activity. Additionally, social norms restrict mobility into secondary/tertiary sectors where paid employment is counted. A wrong answer attributing it solely to \"illiteracy\" or \"choice\" misses the structural undercounting of women’s economic contribution in household-based production.",
+     "self_check": true
+    },
+    {
+     "q": "Given a district with total population 1,200,000, main workers 300,000, and marginal workers 60,000, calculate the WPR. Then state whether this district’s WPR is above or below the national average (39.8% in 2011).",
+     "a": "Total workers = 300,000 + 60,000 = 360,000. WPR = (360,000 / 1,200,000) × 100 = 30%. This is below the national average of 39.8%. A student who forgets to add marginal workers gets 25%, revealing ignorance of Census workforce definition.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the occupational structure of India (2011) with that of a developed country (e.g., USA: primary <2%, secondary ~20%, tertiary ~78%). Identify two structural reasons for India’s high primary sector share (~46%) and low tertiary share (~31%).",
+     "a": "Reasons: (1) Slow industrialisation — secondary sector failed to absorb surplus labour from agriculture due to capital-intensive growth. (2) Informal tertiary growth — services expansion is in low-productivity self-employment (retail, transport) not modern high-skill services. A wrong answer citing \"lack of education\" alone ignores demand-side structural constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A rising Work Participation Rate always indicates economic development.\" Use Indian evidence (1991–2011) to support your judgment.",
+     "a": "False. India’s WPR fell from 37.5% (1991) to 39.8% (2011) despite GDP growth, because: (a) rising school enrolment delayed youth entry, (b) women withdrew from agriculture due to mechanisation and lack of alternative jobs, (c) \"discouraged worker\" effect. A rising WPR could also reflect distress-driven work (e.g., MGNREGA). A student agreeing reveals a simplistic \"more work = development\" fallacy.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario for a state where WPR increases from 35% to 42% over a decade but the primary sector share remains unchanged at 50%. What does this imply about the quality of employment generation? Explain in 3–4 sentences.",
+     "a": "The WPR rise without sectoral shift implies employment growth is concentrated in low-productivity primary/secondary activities (e.g., more family labour in farming, casual construction). It signals \"jobless growth\" or distress employment, not structural transformation. A poor answer that celebrates the WPR rise misses the stagnation in occupational upgrading.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch12_008",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch12_008",
+   "title": "c7_math_ch12_008",
+   "questions": [
+    {
+     "q": "A liter of petrol costs $\\text{₹}96.50$. Amit buys $4\\text{ litres}$ for his scooter. Which operation should Amit use to find the total cost, and what is the mathematical expression?",
+     "a": "Amit should use multiplication, and the expression is $4 \\times 96.50$. A wrong answer like addition ($4 + 96.50$) reveals that the student confuses repeated addition with combining quantities of different magnitudes or treats all word problems as addition because of the word \"total\".",
+     "self_check": true
+    },
+    {
+     "q": "If $2.5\\text{ kg}$ of apples cost $\\text{₹}375.00$, why do we divide $\\text{₹}375.00$ by $2.5$ rather than multiply them to find the cost of $1\\text{ kg}$?",
+     "a": "We divide because we are scaling down a total cost into equal unit parts (unitary method), separating the total into $2.5$ equal portions of $1\\text{ kg}$ each. A wrong answer shows confusion between finding the total from a unit value versus finding a unit value from a total.",
+     "self_check": true
+    },
+    {
+     "q": "A ribbon is $12.6\\text{ metres}$ long. It is cut into equal pieces, each of length $0.3\\text{ metres}$. How many pieces of ribbon are obtained?",
+     "a": "The correct answer is $42$ pieces. \nStep 1: Identify given values: Total length = $12.6\\text{ m}$, length of each piece = $0.3\\text{ m}$.\nStep 2: Choose operation: Division of total length by the length of one piece ($12.6 \\div 0.3$).\nStep 3: Convert divisor to a whole number by multiplying both numbers by $10$: $126 \\div 3$.\nStep 4: Compute: $126 \\div 3 = 42$.\nA wrong answer like $4.2$ or $37.8$ often reveals a decimal placement error where the student forgot to shift the decimal point in both the dividend and divisor or incorrectly multiplied instead of dividing.",
+     "self_check": true
+    },
+    {
+     "q": "Look at these two statements: Statement A: Multiplying $15.4$ by $0.2$ makes the product smaller than $15.4$. Statement B: Dividing $15.4$ by $0.2$ makes the quotient smaller than $15.4$. Which statement is true, and why?",
+     "a": "Statement A is true, and Statement B is false. Multiplying a number by a decimal less than $1$ shrinks it because we are taking a fraction of that number, whereas dividing by a decimal less than $1$ enlarges it because it asks how many parts of size $0.2$ fit into $15.4$. A wrong answer shows a lack of understanding of how decimal operators scale quantities differently than whole numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Priya solved a word problem: \"If $5$ books stack up to a height of $12.75\\text{ cm}$, find the thickness of one book.\" She wrote the calculation as $5 \\div 12.75$. Is Priya's setup correct? Explain why or why not.",
+     "a": "Priya's setup is incorrect. She wrote $5 \\div 12.75$, but she should have written $12.75 \\div 5$. The total height ($12.75\\text{ cm}$) must be divided by the total number of books ($5$) to find the thickness of one book, not the other way around. A wrong answer indicates trouble identifying the dividend versus the divisor in a measurement partitioning problem.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem about buying fruits at a market where the solution requires multiplying a decimal by a whole number, and state the final answer.",
+     "a": "A good problem: \"Rahul buys $3\\text{ kg}$ of mangoes. If $1\\text{ kg}$ of mangoes costs $\\text{₹}85.50$, how much does Rahul pay in total?\" Expected answer: $3 \\times 85.50 = \\text{₹}256.50$. A poor answer would use operations or values that do not make sense in a real-world market context, such as negative numbers or fractional quantities of items that cannot be split.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

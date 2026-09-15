@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch02_007",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch02_007",
+   "title": "c7_geo_ch02_007",
+   "questions": [
+    {
+     "q": "Which weather instrument is specifically designed to measure atmospheric pressure, and what unit is commonly used for its readings?",
+     "a": "The barometer measures atmospheric pressure, commonly expressed in millibars (mb) or hectopascals (hPa). A student who confuses this with a thermometer is missing the basic distinction between thermal energy and air weight.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a rain gauge must be placed in an open, unshaded area away from tall trees and buildings.",
+     "a": "A rain gauge must be placed in the open so that falling precipitation is collected directly without being blocked, diverted, or added to by water dripping off leaves and roofs. An incorrect answer usually assumes rain falls evenly everywhere regardless of immediate obstacles.",
+     "self_check": true
+    },
+    {
+     "q": "If a standard rain gauge collects 25 millimeters of water in its inner cylinder during a heavy thunderstorm in Chennai, what does this measurement physically represent?",
+     "a": "Steps:\n1. Identify the instrument: A rain gauge collects liquid precipitation.\n2. Examine the unit: Millimetres (mm) measure depth.\n3. Apply geographical principle: The depth represents the height of the water layer that would accumulate on a flat, level surface if no water ran off or evaporated.\n4. Calculate/Interpret: Exactly 25 mm of rain fell uniformly over the catchment area represented by the funnel opening.\nA student who thinks this means 25 litres of water fell fails to understand that rain gauges measure depth, not total volume.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how a sudden, sharp drop in barometric pressure over the Bay of Bengal typically signals an impending change in coastal weather.",
+     "a": "A sharp drop in barometric pressure indicates that lighter, warm air is rising rapidly, creating a low-pressure system that often precedes storms, heavy winds, or cyclonic activity. A wrong answer suggests high pressure brings storms, confusing stable sinking air with unstable rising air.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether placing a maximum-minimum thermometer directly on a sunny concrete rooftop in Delhi will give an accurate reading of the ambient air temperature.",
+     "a": "It will not give an accurate reading because the concrete absorbs solar radiation and radiates intense heat back into the thermometer, causing it to read artificially high. An acceptable measurement requires a shaded, well-ventilated enclosure like a Stevenson screen. A wrong answer assumes thermometers measure direct sunlight rather than air temperature.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple procedure using a plastic soft-drink bottle, a ruler, and waterproof tape to construct and calibrate a functional homemade rain gauge for a school geography project.",
+     "a": "Criteria for a good answer: Cut the top off a plastic bottle, invert it as a funnel, tape it securely, attach a vertical ruler with zero aligned at the flat bottom inside, and place it in an open area. A poor answer fails to include a flat-bottomed measuring scale or forgets the funnel mechanism to prevent evaporation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

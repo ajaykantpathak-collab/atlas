@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_03_002",
+   "title": "c11_hs_cbse_03_002",
+   "questions": [
+    {
+     "q": "State the NCERT definition of Nutrition Science and list its four dimensions.",
+     "a": "Correct answer: Nutrition Science is the science of foods, nutrients, and other substances they contain, and their actions within the body including ingestion, digestion, absorption, metabolism, and excretion, with social, psychological, and economic dimensions. The four dimensions are: physiological, social, psychological, economic. A wrong answer that only mentions physiological processes (e.g., \"nutrition is digestion and absorption\") reveals the misconception that nutrition is purely biological, ignoring the behavioural and contextual factors that determine what, when, and why people eat.",
+     "self_check": true
+    },
+    {
+     "q": "In your own words, explain why the NCERT textbook states that \"nutrition has social, psychological and economic dimensions too\" — give one concrete example for each dimension.",
+     "a": "Correct answer: Social dimension — food choices are shaped by culture, family traditions, peer influence (e.g., festivals dictate special foods, peers influence fast food consumption). Psychological dimension — mental state, body image, emotions drive eating (e.g., stress eating, dieting due to poor body image). Economic dimension — income, food prices, accessibility determine what food is actually consumed (e.g., millets vs. polished rice based on cost). A wrong answer that gives only physiological examples (e.g., \"iron prevents anaemia\") shows the student cannot move beyond biology to analyse the behavioural and structural determinants of nutrition.",
+     "self_check": true
+    },
+    {
+     "q": "A school implements a mid-day meal program providing calorically adequate meals, yet 30% of children remain undernourished after one year. Using the four dimensions of nutrition science, propose three distinct reasons (one per dimension, excluding physiological) why this might happen.",
+     "a": "Correct answer with steps:\nStep 1: Identify the non-physiological dimensions — social, psychological, economic.\nStep 2: Social reason — children may not eat the meal due to caste-based seating arrangements or stigma around \"free food,\" reducing actual consumption.\nStep 3: Psychological reason — children may dislike the taste/texture (food neophobia) or associate the meal with poverty, leading to voluntary avoidance.\nStep 4: Economic reason — families may reduce home food allocation because the child \"already ate at school,\" resulting in no net gain in daily intake.\nA wrong answer focusing only on food quality or nutrient content (e.g., \"meal lacks protein\") reveals inability to apply the multi-dimensional lens to program failure analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast Nutrition Science, Food Science, and Dietetics. Identify one area of overlap and one area of unique focus for each.",
+     "a": "Correct answer: Overlap: All three study food/nutrients and health. Unique focus: Nutrition Science — multi-dimensional study of nutrient-body-behaviour interactions (scope of this node). Food Science — physical, chemical, microbiological properties of food (processing, preservation, safety). Dietetics — clinical application of nutrition principles for therapeutic meal planning (individual patient care). A wrong answer that treats them as synonyms (e.g., \"all are about healthy eating\") shows failure to distinguish academic discipline from applied profession and from food technology.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"If we ensure every Indian consumes 2000 kcal and 50g protein daily, malnutrition will be solved.\" Use at least three dimensions of nutrition science in your evaluation.",
+     "a": "Correct answer with justification: The statement is reductionist. Physiological dimension: 2000 kcal/50g protein ignores micronutrient needs (iron, vitamin A, zinc) and nutrient bioavailability (phytates in cereal-based diets inhibit absorption). Social dimension: Intra-household food distribution often prioritizes adult males; women/girls eat last and least — calories on paper ≠ calories consumed by vulnerable members. Economic dimension: Pulses (protein source) are expensive; cereal-heavy diets meet kcal but not protein quality without diverse, costly foods. Psychological dimension: Food preferences, taboos, and body image affect actual intake. A wrong answer that agrees with the statement reveals a purely quantitative, nutrient-centric view that misses the core premise of nutrition science as a multi-dimensional field.",
+     "self_check": true
+    },
+    {
+     "q": "Design a nutrition intervention to reduce adolescent anaemia in a rural Indian block. Your plan must explicitly address all four dimensions of nutrition science. Describe one specific activity per dimension.",
+     "a": "Expected criteria for a good answer:\n- Physiological: Weekly iron-folic acid supplementation (WIFS) + deworming, with haemoglobin monitoring.\n- Social: Community cooking demonstrations using local iron-rich foods (amaranth leaves, jaggery, sesame) involving mothers and Anganwadi workers to shift food norms.\n- Psychological: School-based body literacy sessions addressing myths (e.g., \"iron tablets cause weight gain\") and building self-efficacy for dietary change.\n- Economic: Link SHGs (Self Help Groups) to kitchen gardens for low-cost leafy vegetables; advocate for subsidised millets in PDS.\nA poor answer listing only \"give iron tablets and tell them to eat spinach\" reveals inability to translate the four-dimensional framework into actionable, context-specific programming.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

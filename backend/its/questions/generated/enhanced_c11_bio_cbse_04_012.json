@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_04_012",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_04_012",
+   "title": "c11_bio_cbse_04_012",
+   "questions": [
+    {
+     "q": "State the three distinct body regions of a hemichordate (e.g., Balanoglossus) and name the structure in the collar region that was historically confused with a notochord.",
+     "a": "The three regions are proboscis, collar, and trunk. The structure in the collar is the stomochord (buccal diverticulum). A wrong answer (e.g., \"head, thorax, abdomen\" or \"notochord in collar\") reveals confusion with arthropod tagmosis or the defining feature of Chordata, indicating the student has not grasped the unique hemichordate body plan.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Hemichordata was once placed as a sub-phylum under Chordata and why it is now classified as a separate phylum under Non-chordata.",
+     "a": "It was placed under Chordata due to the presence of pharyngeal gill slits and a dorsal, hollow nerve cord (in some) plus the stomochord resembling a notochord. It is now separated because the stomochord is not homologous to the notochord (it is an epidermal buccal diverticulum, not mesodermal), the nerve cord is primarily ventral and solid, and it lacks a post-anal tail. A wrong answer focusing only on \"gill slits present\" shows the student cannot distinguish homologous vs. analogous structures or the strict criteria for Chordata.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes a marine worm with bilateral symmetry, a true coelom, pharyngeal gill slits, and an open circulatory system. It lacks segmentation and a true notochord. Predict its phylum and justify why it cannot be Annelida or Chordata.",
+     "a": "Phylum Hemichordata. It cannot be Annelida because annelids are segmented, have a closed circulatory system, and lack pharyngeal gill slits. It cannot be Chordata because it lacks a true notochord, dorsal hollow nerve cord, and post-anal tail. A wrong prediction (e.g., Chordata due to gill slits) reveals over-reliance on a single character and ignorance of the \"open circulation + no notochord\" combination.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the excretory organs of Hemichordata (proboscis gland/proboscis complex) and Annelida (nephridia). Analyze how the difference reflects their distinct coelomic organisation and body plans.",
+     "a": "Hemichordates use a proboscis complex (blood-filtering gland in the proboscis coelom) for excretion, while annelids use segmentally arranged nephridia opening via nephridiopores. This reflects the unsegmented, three-part body of hemichordates with a prominent proboscis coelom versus the metamerically segmented coelom of annelids where each segment requires its own excretory unit. A wrong answer stating \"both have nephridia\" shows failure to link excretory structure to body plan (segmentation vs. tagmosis).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The tornaria larva of Hemichordata and the bipinnaria larva of Echinodermata are evidence of a close evolutionary relationship between the two phyla.\" Support your evaluation with two specific morphological similarities.",
+     "a": "The statement is valid. Both larvae are free-swimming, bilaterally symmetrical, ciliated, possess an apical tuft, a pre-oral ciliary band, and a similar digestive tract layout (mouth, stomach, anus). This shared larval morphology (dipleurula-type) strongly supports a common deuterostome ancestor, despite adult radial symmetry in echinoderms. A wrong evaluation (e.g., \"larvae are different because adults are different\") reveals a misunderstanding of the \"ontogeny recapitulates phylogeny\" principle at the larval level and the significance of conserved developmental stages.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple dichotomous key (3-4 steps) to distinguish a specimen each of Balanoglossus (Hemichordata), Asterias (Echinodermata), and Branchiostoma (Cephalochordata) using only external adult features observable in a laboratory dish.",
+     "a": "1. Body covered in spiny calcareous ossicles / water vascular system visible? YES → Asterias. NO → Go to 2.\n2. Body divisible into distinct proboscis, collar, trunk? YES → Balanoglossus. NO → Go to 3.\n3. Body laterally compressed, segmented myotomes, persistent notochord extending to anterior tip, dorsal hollow nerve cord? YES → Branchiostoma.\nA poor key (e.g., using \"presence of gill slits\" as first step) fails because all three have pharyngeal gill slits, showing the student cannot select diagnostic vs. shared characters.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

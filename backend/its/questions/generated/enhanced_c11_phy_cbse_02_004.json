@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_02_004",
+   "title": "c11_phy_cbse_02_004",
+   "questions": [
+    {
+     "q": "A particle moves along the x-axis with velocity given by v(t) = 3t² - 12t + 9 m/s. What is the average acceleration of the particle between t = 1 s and t = 3 s? State the SI unit.",
+     "a": "Average acceleration a_avg = [v(3) - v(1)] / (3 - 1) = [(27 - 36 + 9) - (3 - 12 + 9)] / 2 = [0 - 0] / 2 = 0 m/s². The SI unit is m/s². A wrong answer like 6 m/s² (using v/t instead of Δv/Δt) or forgetting units reveals the student confuses average acceleration with instantaneous acceleration or misapplies the formula.",
+     "self_check": true
+    },
+    {
+     "q": "For the same particle v(t) = 3t² - 12t + 9 m/s, find the instantaneous acceleration at t = 2 s. Explain why the instantaneous acceleration at t = 2 s is not zero even though the average acceleration between t = 1 s and t = 3 s is zero.",
+     "a": "a_inst = dv/dt = d/dt(3t² - 12t + 9) = 6t - 12. At t = 2 s, a = 6(2) - 12 = 0 m/s². Wait — in this specific case it IS zero at t=2s because the velocity function is symmetric about t=2. The average acceleration is zero because v(1)=v(3)=0, meaning the velocity change over the interval is zero. The instantaneous acceleration at the midpoint is also zero because the velocity function has a minimum at t=2. A student who thinks instantaneous acceleration must be non-zero when average is zero, or vice versa, fails to understand that average acceleration depends only on endpoints while instantaneous depends on the derivative at a point.",
+     "self_check": true
+    },
+    {
+     "q": "A car's velocity changes from 18 km/h to 72 km/h in 5 seconds. Calculate its average acceleration in m/s². Is the acceleration positive or negative? What does the sign indicate about the car's motion?",
+     "a": "Step 1: Convert velocities to m/s: 18 km/h = 5 m/s, 72 km/h = 20 m/s.\nStep 2: Δv = 20 - 5 = 15 m/s. Δt = 5 s.\nStep 3: a_avg = Δv/Δt = 15/5 = 3 m/s².\nStep 4: Positive sign means acceleration is in the same direction as the chosen positive axis (direction of motion).\nStep 5: Since velocity and acceleration have the same sign, the car is speeding up.\nA wrong answer of 10.8 m/s² (not converting units) or -3 m/s² reveals unit conversion errors or sign convention confusion.",
+     "self_check": true
+    },
+    {
+     "q": "The velocity-time graph of a particle is a straight line with positive slope passing through the origin. The position-time graph for the same motion will be: (a) a straight line with positive slope, (b) a parabola opening upward, (c) a parabola opening downward, (d) a straight line parallel to time axis. Justify your choice.",
+     "a": "Correct answer: (b) a parabola opening upward.\nReasoning: v-t graph is straight line with positive slope → constant positive acceleration. Integrating v = at gives x = ½at² + x₀, which is a parabola opening upward (since a > 0). A student choosing (a) confuses constant velocity (zero acceleration) with constant acceleration. Choosing (c) would indicate confusion about the sign of acceleration.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"At the highest point of a ball thrown vertically upward, the velocity is zero, so the acceleration must also be zero.\" Evaluate this statement. Is it true or false? Explain with the correct physics.",
+     "a": "The statement is FALSE. At the highest point, instantaneous velocity v = 0, but acceleration a = -g = -9.8 m/s² (downward). Acceleration is the rate of change of velocity, not velocity itself. The ball's velocity changes from upward to downward at that instant, so acceleration is non-zero. A student who agrees with the claim confuses zero velocity with zero acceleration — a classic Class 11 misconception. The correct reasoning: force (gravity) still acts, so by Newton's second law, acceleration exists.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a smartphone and a ruler to measure the instantaneous acceleration of a toy car rolling down an inclined plane at a specific point. Describe the procedure, what data to collect, and how to calculate instantaneous acceleration from that data.",
+     "a": "Procedure: (1) Set up an inclined plane with a ruler along it. (2) Place smartphone on the car with accelerometer app (or use video recording at 60 fps). (3) Release car from rest, record position vs time at small intervals near the point of interest. (4) Plot x-t graph, draw tangent at the point, find slope = v. (5) Repeat for multiple points to get v-t data, then find slope of v-t graph at that point = a_inst. Alternative: Use smartphone's built-in accelerometer directly. A poor answer would only measure average acceleration over the whole ramp or confuse speed with acceleration. The key is understanding that instantaneous acceleration requires the limit process or derivative.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

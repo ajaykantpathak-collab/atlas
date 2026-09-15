@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch10_4",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch10_4",
+   "title": "c8_math_ch10_4",
+   "questions": [
+    {
+     "q": "Write the ratio 24:36:60 in its simplest form.",
+     "a": "The simplest form is 2:3:5. A wrong answer like 12:18:30 (dividing only by 2) shows the student does not realise that simplification requires dividing by the **highest** common factor of all three terms, not just any common factor. An answer like 4:6:10 (dividing by 6 but stopping early) indicates the student may not check whether the resulting terms still share a common factor.",
+     "self_check": true
+    },
+    {
+     "q": "A student simplifies 15:25:35 to 3:5:7 by dividing each term by 5. Another student says, \"You can also divide by 10 to get 1.5:2.5:3.5, so that's also a correct simplified ratio.\" Is the second student correct? Explain why or why not.",
+     "a": "The second student is incorrect. A ratio in simplest form must have **integer** terms with no common factor other than 1. Dividing by 10 produces decimal terms (1.5, 2.5, 3.5), which is not the standard simplified form for ratios of whole numbers. A wrong agreement reveals the misconception that any common divisor yields an equally valid simplified ratio, ignoring the convention that ratios are expressed in whole numbers whenever possible.",
+     "self_check": true
+    },
+    {
+     "q": "The ratio of red, blue, and yellow paint in a mixture is 2:3:4. If there are 18 litres of blue paint, how many litres of red and yellow paint are there?",
+     "a": "Blue corresponds to 3 parts = 18 L → 1 part = 6 L. Red = 2 parts = 12 L, Yellow = 4 parts = 24 L. Answer: Red 12 L, Yellow 24 L. A wrong answer like Red 9 L, Yellow 18 L (using 18/2 and 18/4) shows the student incorrectly applied the unitary method by dividing the given quantity by the other ratio terms instead of first finding the value of one part.",
+     "self_check": true
+    },
+    {
+     "q": "Two multi-term ratios are given: A = 4:6:9 and B = 8:12:18. A student claims they are equivalent because each term of B is double the corresponding term of A. Another student says they are not equivalent because the ratio of the first to the second term in A is 2:3 while in B it is 4:6. Who is right and why?",
+     "a": "The first student is right. Equivalent ratios are obtained by multiplying or dividing **all** terms by the same non-zero number. Doubling each term of A gives B, so they are equivalent. The second student incorrectly compares only the first two terms and notes that 2:3 and 4:6 look different, not recognising that 4:6 simplifies to 2:3. This error reveals a failure to understand that equivalence must be checked across all terms simultaneously, not pairwise.",
+     "self_check": true
+    },
+    {
+     "q": "A recipe for fruit punch uses apple, orange, and mango juice in the ratio 3:2:1. A cook has 600 mL of apple juice, 400 mL of orange juice, and 150 mL of mango juice. The cook wants to use all the mango juice. Will there be enough apple and orange juice to maintain the ratio? If not, which juice will run out first?",
+     "a": "Mango = 1 part = 150 mL → 1 part = 150 mL. Required apple = 3 parts = 450 mL (available 600 mL, enough). Required orange = 2 parts = 300 mL (available 400 mL, enough). Yes, there is enough of both. A wrong answer that says \"orange runs out first\" might come from comparing the available quantities directly (400 vs 600) without scaling to the ratio, showing the student does not use the ratio to determine the limiting ingredient.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (using Indian context: rupees, metres, kg, etc.) that requires a three-term ratio to solve. The problem must involve sharing a total quantity in a given ratio. Write the problem and solve it.",
+     "a": "Example problem: \"Three siblings — Priya, Rohan, and Seema — inherit a piece of land worth ₹9,00,000. They agree to divide the value in the ratio of their ages: 20:25:30. How much does each get?\" Solution: Simplify ratio to 4:5:6. Total parts = 15. Value per part = ₹9,00,000 ÷ 15 = ₹60,000. Priya = 4 × ₹60,000 = ₹2,40,000; Rohan = ₹3,00,000; Seema = ₹3,60,000. A poor answer would give a problem that only uses a two-term ratio or does not require sharing a total, indicating the student cannot distinguish between part-part and part-whole ratio situations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

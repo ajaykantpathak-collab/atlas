@@ -1,0 +1,613 @@
+{
+ "class": 10,
+ "subject": "maths",
+ "chapter": 104,
+ "chapter_title": "Quadratic Equations",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jemh104.txt",
+ "concepts": [
+  {
+   "id": "jemh.4.1",
+   "title": "Standard Form of a Quadratic Equation",
+   "section": "4.1",
+   "definition": "A quadratic equation in the variable x is an equation of the form ax^2 + bx + c = 0, where a, b, c are real numbers and a is not equal to 0.",
+   "formula": "ax^2 + bx + c = 0, a != 0",
+   "key_idea": "Any equation reducible to the standard form with a non-zero leading coefficient is a quadratic equation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "check whether the given equation is a quadratic equation",
+    "write the given equation in standard quadratic form ax^2 + bx + c = 0",
+    "identify coefficients a, b and c of the quadratic equation",
+    "determine if the equation is quadratic after simplification",
+    "reduce the given equation to standard quadratic form"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Simplify the given equation and collect terms",
+     "explain": "Expand brackets and bring all terms to one side to form a polynomial in x."
+    },
+    {
+     "step": 2,
+     "action": "Identify coefficients a, b and c",
+     "explain": "Read the coefficient of x^2 as a, of x as b, and the constant term as c."
+    },
+    {
+     "step": 3,
+     "action": "Verify a is not equal to zero",
+     "explain": "Confirm the leading coefficient a is non-zero so the equation is genuinely quadratic."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Is x^2 - 3x + 2 = 0 a quadratic equation? If so, write a, b, c.",
+     "solution": "The equation is already in standard form with coefficient of x^2 equal to 1, which is non-zero.",
+     "answer": "Yes; a = 1, b = -3, c = 2"
+    },
+    {
+     "question": "Check whether (x + 1)^2 = 2(x - 3) is a quadratic equation.",
+     "solution": "Expanding gives x^2 + 2x + 1 = 2x - 6, which simplifies to x^2 + 7 = 0. Coefficient of x^2 is 1, non-zero.",
+     "answer": "Yes; it is quadratic with a = 1, b = 0, c = 7"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Check whether x^2 + 5x - 6 = 0 is a quadratic equation and identify a, b, c.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Reduce (x + 2)^3 = x^3 - 4 to standard form and state whether it is quadratic.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Write the coefficients a, b, c for 2x^2 - 7x + 3 = 0.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jemh.4.2",
+   "title": "Solution of Quadratic Equation by Factorization",
+   "section": "4.2",
+   "definition": "Splitting the middle term of ax^2 + bx + c into two parts whose product equals ac and sum equals b, then factorising to find the roots.",
+   "formula": "If (px + q)(rx + s) = 0 then x = -q/p or x = -s/r",
+   "key_idea": "A product is zero only when at least one factor is zero, so each factor set to zero gives a root.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "solve the quadratic equation by factorisation",
+    "find the roots of the equation by splitting the middle term",
+    "factorise the quadratic and obtain its roots",
+    "solve ax^2 + bx + c = 0 by factor method",
+    "determine the values of x that satisfy the equation by factorisation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Write the equation in standard form",
+     "explain": "Arrange as ax^2 + bx + c = 0."
+    },
+    {
+     "step": 2,
+     "action": "Split the middle term",
+     "explain": "Find two terms whose coefficients multiply to a x c and add to b."
+    },
+    {
+     "step": 3,
+     "action": "Factorise and solve",
+     "explain": "Group the terms, take common factors, set each factor to 0 and read the roots."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the roots of x^2 - 5x + 6 = 0 by factorisation.",
+     "solution": "Split -5x as -2x - 3x since (-2)(-3) = 6 and -2 + -3 = -5. Then x^2 - 2x - 3x + 6 = x(x - 2) - 3(x - 2) = (x - 2)(x - 3) = 0.",
+     "answer": "x = 2, x = 3"
+    },
+    {
+     "question": "Solve 2x^2 - 7x + 3 = 0 by factorisation.",
+     "solution": "Product of 2 and 3 is 6; numbers -6 and -1 sum to -7. So 2x^2 - 6x - x + 3 = 2x(x - 3) - 1(x - 3) = (2x - 1)(x - 3) = 0.",
+     "answer": "x = 1/2, x = 3"
+    },
+    {
+     "question": "Find the roots of x^2 + 3x - 10 = 0.",
+     "solution": "Numbers 5 and -2 multiply to -10 and sum to 3. So (x + 5)(x - 2) = 0.",
+     "answer": "x = -5, x = 2"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Solve x^2 - 7x + 12 = 0 by factorisation.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the roots of 6x^2 - x - 2 = 0 by splitting the middle term.",
+     "type": "compute"
+    },
+    {
+     "question": "Solve 3x^2 - 5x - 2 = 0 by the factor method.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.4.3",
+   "title": "Solution of Quadratic Equation by Completing the Square",
+   "section": "4.3",
+   "definition": "Rewriting ax^2 + bx + c = 0 in the form a(x + b/2a)^2 = (b^2 - 4ac)/4a to take square roots and find the roots.",
+   "formula": "a(x + b/2a)^2 = (b^2 - 4ac)/4a",
+   "key_idea": "Adding (b/2a)^2 to both sides after dividing by a converts the quadratic into a perfect square plus a constant.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "solve the quadratic equation by completing the square",
+    "find the roots using the method of completing the square",
+    "rewrite the equation as a perfect square and solve",
+    "solve ax^2 + bx + c = 0 by completing the square method",
+    "determine roots by adding the square of half the coefficient of x"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Normalise the equation",
+     "explain": "Divide through by a and shift the constant to the right side."
+    },
+    {
+     "step": 2,
+     "action": "Complete the square",
+     "explain": "Add (b/2a)^2 to both sides so the left side becomes a perfect square."
+    },
+    {
+     "step": 3,
+     "action": "Take square roots",
+     "explain": "Solve the resulting linear equations for x."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve 2x^2 - 7x + 3 = 0 by completing the square.",
+     "solution": "Divide by 2: x^2 - (7/2)x = -3/2. Add (7/4)^2 = 49/16 to both sides: (x - 7/4)^2 = 49/16 - 3/2 = 25/16. So x - 7/4 = +/-5/4.",
+     "answer": "x = 3, x = 1/2"
+    },
+    {
+     "question": "Solve x^2 + 4x - 5 = 0 by completing the square.",
+     "solution": "Write x^2 + 4x = 5. Add (4/2)^2 = 4: (x + 2)^2 = 9. So x + 2 = +/-3.",
+     "answer": "x = 1, x = -5"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Solve 4x^2 - 3x - 1 = 0 by completing the square.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the roots of x^2 - 6x + 5 = 0 by completing the square.",
+     "type": "compute"
+    },
+    {
+     "question": "Solve 3x^2 + 11x + 10 = 0 by the method of completing the square.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.4.4",
+   "title": "Quadratic Formula for Finding Roots",
+   "section": "4.3",
+   "definition": "A direct formula giving the roots of any quadratic equation ax^2 + bx + c = 0 in terms of its coefficients.",
+   "formula": "x = (-b +/- sqrt(b^2 - 4ac)) / (2a)",
+   "key_idea": "The quadratic formula is derived by completing the square and works for every quadratic with real coefficients.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "solve the quadratic equation using the quadratic formula",
+    "find the roots of the equation using x = (-b +/- sqrt(b^2 - 4ac))/2a",
+    "apply the quadratic formula to obtain the roots",
+    "solve ax^2 + bx + c = 0 using the formula method",
+    "determine the roots of the quadratic using the standard formula"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the coefficients",
+     "explain": "Read a, b and c from ax^2 + bx + c = 0."
+    },
+    {
+     "step": 2,
+     "action": "Compute the discriminant",
+     "explain": "D = b^2 - 4ac."
+    },
+    {
+     "step": 3,
+     "action": "Apply the quadratic formula",
+     "explain": "x = (-b +- sqrt(D)) / (2a) gives both roots."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve 2x^2 - 7x + 3 = 0 using the quadratic formula.",
+     "solution": "Here a = 2, b = -7, c = 3. Discriminant D = 49 - 24 = 25. So x = (7 +/- 5)/4.",
+     "answer": "x = 3, x = 1/2"
+    },
+    {
+     "question": "Find the roots of 3x^2 - 5x + 2 = 0 by the quadratic formula.",
+     "solution": "a = 3, b = -5, c = 2. D = 25 - 24 = 1. So x = (5 +/- 1)/6.",
+     "answer": "x = 1, x = 2/3"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Solve x^2 - 3x - 10 = 0 using the quadratic formula.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the roots of 2x^2 + x - 4 = 0 by the quadratic formula.",
+     "type": "compute"
+    },
+    {
+     "question": "Solve 5x^2 - 6x - 2 = 0 using the formula method.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.4.5",
+   "title": "Discriminant and Nature of Roots",
+   "section": "4.4",
+   "definition": "The discriminant D = b^2 - 4ac determines the nature of the roots of a quadratic equation without solving it.",
+   "formula": "D = b^2 - 4ac",
+   "key_idea": "The sign of the discriminant tells whether roots are real and distinct, real and equal, or not real.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the discriminant of the quadratic equation",
+    "calculate the value of b^2 - 4ac for the given equation",
+    "what is the discriminant when a, b and c are given",
+    "compute the discriminant of the given quadratic",
+    "determine b^2 - 4ac for the equation in standard form",
+    "evaluate the discriminant from the coefficients"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the coefficients",
+     "explain": "Read a, b and c from the equation in standard form."
+    },
+    {
+     "step": 2,
+     "action": "Compute the discriminant",
+     "explain": "Multiply and combine: b squared minus four times a times c.",
+     "compute": "d = b * b - 4 * a * c"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the discriminant of 2x^2 - 4x + 3 = 0 and state the nature of roots.",
+     "solution": "a = 2, b = -4, c = 3. D = 16 - 24 = -8, which is less than zero.",
+     "answer": "D = -8; no real roots"
+    },
+    {
+     "question": "Determine the nature of roots of x^2 - 5x + 6 = 0.",
+     "solution": "a = 1, b = -5, c = 6. D = 25 - 24 = 1, which is greater than zero.",
+     "answer": "D = 1; real and distinct roots"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the discriminant of 3x^2 - 2x + 1/3 = 0 and state the nature of roots.",
+     "type": "compute"
+    },
+    {
+     "question": "Determine the nature of roots of 2x^2 + kx + 3 = 0.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the value of D for x^2 - 6x + 9 = 0 and classify the roots.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.4.6",
+   "title": "Real and Equal Roots (Discriminant = 0)",
+   "section": "4.4",
+   "definition": "When the discriminant equals zero, the quadratic equation has two identical real roots, each equal to -b/2a.",
+   "formula": "D = 0 implies x = -b/2a (repeated root)",
+   "key_idea": "A zero discriminant means the parabola touches the x-axis at exactly one point, giving a repeated root.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the value of k for which the equation has equal roots",
+    "check if the quadratic equation has real and equal roots",
+    "determine k so that the roots are equal",
+    "verify that the discriminant is zero for equal roots",
+    "find the repeated root of the quadratic equation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute the discriminant D = b^2 - 4ac",
+     "explain": "Evaluate the discriminant of the given quadratic equation."
+    },
+    {
+     "step": 2,
+     "action": "Set the discriminant equal to zero",
+     "explain": "For equal roots the condition D = 0 must hold, which may give an equation in k."
+    },
+    {
+     "step": 3,
+     "action": "Solve for the unknown and verify equal roots",
+     "explain": "Solve D = 0 to find k, then confirm the repeated root equals -b/2a."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the value of k for which kx^2 - 6x + 9 = 0 has equal roots.",
+     "solution": "Discriminant D = 36 - 36k. For equal roots D = 0, so 36 - 36k = 0 giving k = 1.",
+     "answer": "k = 1"
+    },
+    {
+     "question": "Check whether x^2 - 4x + 4 = 0 has real and equal roots.",
+     "solution": "D = 16 - 16 = 0, so the roots are real and equal.",
+     "answer": "Yes; repeated root x = 2"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find k so that 2x^2 + kx + 8 = 0 has equal roots.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Check if x^2 - 6x + 9 = 0 has real and equal roots.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Determine the value of p for which x^2 + px + 25 = 0 has equal roots.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jemh.4.7",
+   "title": "Real and Distinct Roots (Discriminant > 0)",
+   "section": "4.4",
+   "definition": "When the discriminant is strictly positive, the quadratic equation has two different real roots given by the quadratic formula.",
+   "formula": "D > 0 implies two distinct real roots",
+   "key_idea": "A positive discriminant means the parabola cuts the x-axis at two distinct points.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the values of k for which the equation has two distinct real roots",
+    "check if the quadratic has real and distinct roots",
+    "determine the range of k for two distinct real roots",
+    "verify that the discriminant is positive for distinct roots",
+    "show that the equation has two different real roots"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute the discriminant D = b^2 - 4ac",
+     "explain": "Evaluate the discriminant of the given quadratic equation."
+    },
+    {
+     "step": 2,
+     "action": "Apply the condition D > 0",
+     "explain": "For two distinct real roots the discriminant must be strictly positive, yielding an inequality in k."
+    },
+    {
+     "step": 3,
+     "action": "Solve the inequality and verify distinct roots",
+     "explain": "Solve D > 0 to find the range of k and confirm two different real roots result."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the values of k for which 2x^2 + kx + 3 = 0 has two distinct real roots.",
+     "solution": "D = k^2 - 24. For distinct real roots D > 0, so k^2 > 24, giving k < -2*sqrt(6) or k > 2*sqrt(6).",
+     "answer": "k < -2*sqrt(6) or k > 2*sqrt(6)"
+    },
+    {
+     "question": "Check whether x^2 - 5x + 6 = 0 has real and distinct roots.",
+     "solution": "D = 25 - 24 = 1 > 0, so the roots are real and distinct.",
+     "answer": "Yes; roots x = 2 and x = 3"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find k so that x^2 + 4x + k = 0 has two distinct real roots.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Check if 3x^2 - 7x + 2 = 0 has real and distinct roots.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Determine the range of p for which x^2 - px + 4 = 0 has two distinct real roots.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jemh.4.8",
+   "title": "No Real Roots (Discriminant < 0)",
+   "section": "4.4",
+   "definition": "When the discriminant is negative, the quadratic equation has no real roots because the square root of a negative number is not real.",
+   "formula": "D < 0 implies no real roots",
+   "key_idea": "A negative discriminant means the parabola does not meet the x-axis at any real point.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the values of k for which the equation has no real roots",
+    "check if the quadratic equation has no real roots",
+    "determine the range of k for which roots are not real",
+    "verify that the discriminant is negative",
+    "show that the equation has no real solution"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute the discriminant D = b^2 - 4ac",
+     "explain": "Evaluate the discriminant of the given quadratic equation."
+    },
+    {
+     "step": 2,
+     "action": "Apply the condition D < 0",
+     "explain": "For no real roots the discriminant must be negative, yielding an inequality in k."
+    },
+    {
+     "step": 3,
+     "action": "Solve the inequality and confirm no real roots",
+     "explain": "Solve D < 0 to find the range of k and confirm the equation has no real solution."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the values of k for which x^2 + kx + 9 = 0 has no real roots.",
+     "solution": "D = k^2 - 36. For no real roots D < 0, so k^2 < 36, giving -6 < k < 6.",
+     "answer": "-6 < k < 6"
+    },
+    {
+     "question": "Check whether 2x^2 - 4x + 3 = 0 has no real roots.",
+     "solution": "D = 16 - 24 = -8 < 0, so the equation has no real roots.",
+     "answer": "Yes; no real roots"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find k so that 3x^2 + 2x + k = 0 has no real roots.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Check if x^2 + x + 1 = 0 has no real roots.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Determine the range of p for which x^2 + px + 5 = 0 has no real roots.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jemh.4.9",
+   "title": "Word Problems Leading to Quadratic Equations",
+   "section": "4.3",
+   "definition": "Translating real-life situations into quadratic equations and solving them to find the required quantities.",
+   "formula": "model the situation as ax^2 + bx + c = 0 and solve for x",
+   "key_idea": "Identify the unknown, form a quadratic equation from the given conditions, then solve and discard infeasible roots.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "solve the word problem by forming a quadratic equation",
+    "find the unknown quantity from the given real-life situation",
+    "translate the problem into a quadratic equation and solve",
+    "apply quadratic equations to solve the practical problem",
+    "determine the required value by modelling the situation as a quadratic"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Model the situation",
+     "explain": "Translate the words into a quadratic in the unknown quantity."
+    },
+    {
+     "step": 2,
+     "action": "Reduce to standard form",
+     "explain": "Bring every term to one side: ax^2 + bx + c = 0."
+    },
+    {
+     "step": 3,
+     "action": "Solve and screen",
+     "explain": "Factorise or use the formula; discard any root that the situation rules out."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "The product of two consecutive positive integers is 306. Find the integers.",
+     "solution": "Let the integers be x and x + 1. Then x(x + 1) = 306, so x^2 + x - 306 = 0. Factorising gives (x + 18)(x - 17) = 0, so x = 17 (positive).",
+     "answer": "17 and 18"
+    },
+    {
+     "question": "The length of a rectangular field is 3 m more than its breadth and the area is 28 m^2. Find the length and breadth.",
+     "solution": "Let breadth be x, then length is x + 3. So x(x + 3) = 28, giving x^2 + 3x - 28 = 0. Factorising: (x + 7)(x - 4) = 0, so x = 4 (positive).",
+     "answer": "breadth = 4 m, length = 7 m"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "The product of two consecutive odd integers is 63. Find the integers.",
+     "type": "compute"
+    },
+    {
+     "question": "The sum of the squares of two consecutive integers is 365. Find the integers.",
+     "type": "compute"
+    },
+    {
+     "question": "A train travels 360 km at a uniform speed. If the speed had been 5 km/h more, it would have taken 1 hour less. Find the speed of the train.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.4.10",
+   "title": "Relationship Between Roots and Coefficients",
+   "section": "4.3",
+   "definition": "For ax^2 + bx + c = 0 with roots alpha and beta, the sum of roots is -b/a and the product of roots is c/a.",
+   "formula": "alpha + beta = -b/a, alpha * beta = c/a",
+   "key_idea": "The coefficients of a quadratic equation directly determine the sum and product of its roots.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the sum and product of the roots of the quadratic equation",
+    "verify the relationship between roots and coefficients",
+    "find a quadratic equation whose sum and product of roots are given",
+    "use sum and product of roots to determine the equation",
+    "check if the given roots satisfy the sum and product relations"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify coefficients a, b and c",
+     "explain": "Read the coefficients from the standard form ax^2 + bx + c = 0."
+    },
+    {
+     "step": 2,
+     "action": "Compute sum of roots as -b/a and product as c/a",
+     "explain": "Use the relations alpha + beta = -b/a and alpha * beta = c/a."
+    },
+    {
+     "step": 3,
+     "action": "Verify the roots satisfy both relations",
+     "explain": "Check that the actual roots add to -b/a and multiply to c/a."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the sum and product of the roots of 2x^2 - 7x + 3 = 0.",
+     "solution": "Here a = 2, b = -7, c = 3. Sum = -b/a = 7/2 and product = c/a = 3/2.",
+     "answer": "sum = 7/2, product = 3/2"
+    },
+    {
+     "question": "Find a quadratic equation whose sum of roots is 5 and product is 6.",
+     "solution": "The equation is x^2 - (sum)x + product = 0, so x^2 - 5x + 6 = 0.",
+     "answer": "x^2 - 5x + 6 = 0"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the sum and product of the roots of x^2 - 6x + 8 = 0.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Find a quadratic equation whose roots have sum 3 and product 2.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Verify that the roots of 3x^2 + 5x - 2 = 0 satisfy the sum and product relations.",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": []
+}

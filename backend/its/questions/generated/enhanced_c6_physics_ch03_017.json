@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch03_017",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch03_017",
+   "title": "c6_physics_ch03_017",
+   "questions": [
+    {
+     "q": "In a series circuit with three bulbs, what happens to the other two bulbs if you unscrew one of them?",
+     "a": "The other two bulbs will immediately go off. A student who says \"they stay on\" fails to realize that the current path has been physically broken, preventing electricity from completing its loop.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a series circuit considered to have only \"one path\" for electricity?",
+     "a": "Because the wire connects the components in a single chain from one terminal of the battery to the other. A student who says \"the battery only has one terminal\" is confusing the path of the wire with the structure of the battery.",
+     "self_check": true
+    },
+    {
+     "q": "If you add a third bulb to a series circuit that already has two bulbs and one battery, what happens to the path of the current?",
+     "a": "The current must now flow through three bulbs instead of two, but it still follows the same single, unbroken path. A student who thinks the current \"splits\" is incorrectly applying concepts from parallel circuits.",
+     "self_check": true
+    },
+    {
+     "q": "If a string of series-connected LED lights is completely dark, but the battery is new, what is the most likely reason?",
+     "a": "There is a break in the circuit somewhere, such as a loose wire or a burnt-out bulb, which has stopped the flow of current. If a student suggests \"the current is too tired,\" they are using non-scientific reasoning instead of understanding the necessity of a closed loop.",
+     "self_check": true
+    },
+    {
+     "q": "Is it better to connect house lights in series or in a different way? Why?",
+     "a": "It is not better to connect house lights in series because if one light fails, the whole house would go dark. This shows that the student understands the practical limitation of series circuits: the dependency of all parts on each other.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple mental \"map\" of a series circuit using a battery, a switch, and two bulbs.",
+     "a": "The map should show a loop starting at the battery, going through the switch, through bulb 1, then bulb 2, and returning to the battery. A poor answer would show multiple loops or branches, which describes a parallel circuit.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,512 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 103,
+ "chapter_title": "Heat",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/gesc103.txt",
+ "concepts": [
+  {
+   "id": "gesc.3.1.1",
+   "title": "Concept of Temperature and Thermometer",
+   "section": "3.1",
+   "definition": "Temperature is the reliable measure of how hot or cold an object is, measured using a specialized instrument called a thermometer.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Temperature quantifies hotness, replacing subjective and unreliable human touch.",
+   "textbook_ref": "gesc103.txt lines 40-65",
+   "question_patterns": [
+    "what is temperature",
+    "how is the hotness of an object measured",
+    "why is our sense of touch not reliable to measure hotness",
+    "what device is used to measure temperature"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define temperature",
+     "explain": "Temperature is the reliable measure of the degree of hotness or coldness of an object."
+    },
+    {
+     "step": 2,
+     "action": "Identify the measuring instrument",
+     "explain": "A thermometer is the device used to measure temperature."
+    }
+   ]
+  },
+  {
+   "id": "gesc.3.2.1",
+   "title": "Calculating Value of Thermometer Division",
+   "section": "3.2",
+   "definition": "The value of a single small division on a thermometer is determined by dividing the temperature difference between two consecutive major marks by the number of small divisions between them.",
+   "formula": "division_value = difference / divisions",
+   "key_idea": "Divide the major interval value by the number of smaller subdivisions.",
+   "textbook_ref": "gesc103.txt lines 105-120",
+   "question_patterns": [
+    "calculate the value of one small division on a thermometer",
+    "if the difference between two bigger marks is ... and there are ... divisions, what does one small division read",
+    "find the reading of a single small division",
+    "how much does a single division read"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify major mark difference",
+     "explain": "The difference between two consecutive major marks is given as difference.",
+     "compute": "diff = difference"
+    },
+    {
+     "step": 2,
+     "action": "identify subdivisions",
+     "explain": "The number of divisions between the major marks is divisions.",
+     "compute": "divs = divisions"
+    },
+    {
+     "step": 3,
+     "action": "calculate division value",
+     "explain": "One small division reads diff divided by divs.",
+     "compute": "division_value = diff / divs"
+    }
+   ]
+  },
+  {
+   "id": "gesc.3.2.2",
+   "title": "Clinical Thermometer Features and Range",
+   "section": "3.2",
+   "definition": "A specialized thermometer designed to measure human body temperature, featuring a narrow range of 35°C to 42°C and a constriction (kink) to prevent mercury from falling back automatically.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "In brief, Designed exclusively for human body temperature with a protective kink.",
+   "textbook_ref": "gesc103.txt lines 70-100 and 130-160",
+   "question_patterns": [
+    "what is the range of a clinical thermometer",
+    "why does a clinical thermometer have a kink",
+    "what is the normal temperature of a healthy human body",
+    "why can we not use a clinical thermometer to measure boiling milk"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the type of thermometer",
+     "explain": "A thermometer used for measuring human body temperature is a clinical thermometer."
+    },
+    {
+     "step": 2,
+     "action": "State the temperature range",
+     "explain": "The range of a clinical thermometer is 35°C to 42°C."
+    },
+    {
+     "step": 3,
+     "action": "Explain the role of the kink",
+     "explain": "The kink prevents the mercury level from falling on its own when removed from the mouth."
+    }
+   ]
+  },
+  {
+   "id": "gesc.3.3.1",
+   "title": "Laboratory Thermometer Features and Range",
+   "section": "3.3",
+   "definition": "A thermometer used in scientific experiments to measure temperatures of various substances, typically ranging from -10°C to 110°C, which must indeed be read while immersed in the substance because it lacks a kink.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Wide range thermometer without a kink, requiring in-situ reading.",
+   "textbook_ref": "gesc103.txt lines 165-210",
+   "question_patterns": [
+    "what is the range of a laboratory thermometer",
+    "why must a laboratory thermometer be read while in the substance",
+    "compare clinical and laboratory thermometers",
+    "can we use a laboratory thermometer to measure body temperature"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the purpose and range",
+     "explain": "Laboratory thermometers are used for scientific experiments and typically have a range from -10°C to 110°C."
+    },
+    {
+     "step": 2,
+     "action": "Explain the reading procedure",
+     "explain": "Since it lacks a kink, the reading must be taken while the thermometer bulb is still in contact with the substance."
+    }
+   ]
+  },
+  {
+   "id": "gesc.3.4.1",
+   "title": "Heat Transfer by Conduction",
+   "section": "3.4",
+   "definition": "The process of heat transfer through a solid medium from the hotter end to the colder end without the actual movement of the material's particles.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Direct transfer of thermal energy through solid contact.",
+   "textbook_ref": "gesc103.txt lines 240-280",
+   "question_patterns": [
+    "explain the process of conduction",
+    "how does heat travel in solids",
+    "what is conduction of heat",
+    "describe an experiment to show conduction"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the medium of transfer",
+     "explain": "Conduction primarily occurs in solid objects when there is a temperature difference between different parts."
+    },
+    {
+     "step": 2,
+     "action": "Describe the flow of heat",
+     "explain": "Heat travels from the hotter end of the solid object to the colder end without any bulk movement of the material's particles."
+    }
+   ]
+  },
+  {
+   "id": "gesc.3.4.2",
+   "title": "Thermal Conductors and Insulators",
+   "section": "3.4",
+   "definition": "Materials are classified as conductors if they easily permit heat to flow through them, and as insulators (or poor conductors) if they resist the flow of heat.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Classification of materials based on their ability to transmit heat.",
+   "textbook_ref": "gesc103.txt lines 281-305",
+   "question_patterns": [
+    "define conductors and insulators of heat",
+    "give examples of conductors and insulators",
+    "why are cooking utensils provided with plastic handles",
+    "why is copper used at the bottom of stainless steel pans"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the material of the object",
+     "explain": "Determine if the material is a metal (like copper, aluminum, iron) or non-metal (like wood, plastic)."
+    },
+    {
+     "step": 2,
+     "action": "Classify as conductor or insulator",
+     "explain": "Metals allow heat to pass easily and are conductors; wood and plastics resist heat flow and are insulators."
+    }
+   ]
+  },
+  {
+   "id": "gesc.3.4.3",
+   "title": "Heat Transfer by Convection",
+   "section": "3.4",
+   "definition": "The mode of heat transfer in fluids (both both both both both both both both both both both both both both both both both both both both both both both both liquids and gases) where warmer, less dense portions rise and cooler, denser portions sink, creating circulatory currents.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Heat transfer via bulk movement of fluid molecules.",
+   "textbook_ref": "gesc103.txt lines 306-345",
+   "question_patterns": [
+    "what is convection of heat",
+    "how does heat transfer take place in water and air",
+    "explain why hot air rises up",
+    "describe convection with an experiment"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the state of matter",
+     "explain": "Convection occurs in fluids, which include liquids and gases."
+    },
+    {
+     "step": 2,
+     "action": "Explain the movement of fluid",
+     "explain": "The fluid near the heat source gets hot, expands, becomes less dense, and rises, while cooler, denser fluid moves down to take its place."
+    }
+   ]
+  },
+  {
+   "id": "gesc.3.4.4",
+   "title": "Coastal Convection Currents: Land and Sea Breezes",
+   "section": "3.4",
+   "definition": "Convection currents in coastal regions brought about by differential heating of both both both both both both both both both both both both both both both both both both both both both both both both land and water, resulting in sea breeze (cool air moving to land) during the day and land breeze (cool air moving to sea) at night.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Differential heating of land and sea drives local coastal winds.",
+   "textbook_ref": "gesc103.txt lines 346-375",
+   "question_patterns": [
+    "explain sea breeze and land breeze",
+    "when does land breeze blow",
+    "why do windows of houses in coastal areas face the sea",
+    "differentiate between land breeze and sea breeze"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine the time of day",
+     "explain": "Identify whether the phenomenon occurs during the day or at night."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the temperature difference",
+     "explain": "During the day, land heats up faster than water. At night, land cools down faster than water."
+    },
+    {
+     "step": 3,
+     "action": "Trace the air movement",
+     "explain": "During the day, cool air flows from sea to land (sea breeze). At night, cool air flows from land to sea (land breeze)."
+    }
+   ]
+  },
+  {
+   "id": "gesc.3.4.5",
+   "title": "Heat Transfer by Radiation",
+   "section": "3.4",
+   "definition": "In brief, In brief, In brief, In brief, the move of heat energy through electromagnetic waves that does indeed not require any material medium to travel.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "In brief, In brief, In brief, Medium-independent move of heat across space.",
+   "textbook_ref": "gesc103.txt lines 376-410",
+   "question_patterns": [
+    "how does heat from the sun reach the earth",
+    "what is radiation of heat",
+    "does radiation require a medium",
+    "how do we get heat from a room heater"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the mode of heat transfer",
+     "explain": "Determine if heat is being transferred across space or a vacuum without direct contact or fluid movement."
+    },
+    {
+     "step": 2,
+     "action": "Verify if a medium is required",
+     "explain": "Radiation does not require any material medium to transfer heat."
+    }
+   ]
+  },
+  {
+   "id": "gesc.3.4.6",
+   "title": "Direction of Heat Flow",
+   "section": "3.4",
+   "definition": "Heat spontaneously flows from an object at a higher temperature to an object at a lower temperature, and ceases when both reach the same temperature (thermal equilibrium).",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Heat flows down a temperature gradient until temperatures equalize.",
+   "textbook_ref": "gesc103.txt lines 220-235",
+   "question_patterns": [
+    "in which direction does heat flow",
+    "what happens when two objects at the same temperature are in contact",
+    "will heat flow if the temperature of two objects is the same"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compare the temperatures of the two objects",
+     "explain": "Identify which object is at a higher temperature and which is at a lower temperature."
+    },
+    {
+     "step": 2,
+     "action": "Determine the direction of heat flow",
+     "explain": "Heat always flows from the hotter object (higher temperature) to the colder object (lower temperature)."
+    },
+    {
+     "step": 3,
+     "action": "Check for thermal equilibrium",
+     "explain": "If both objects are at the same temperature, no heat flow takes place between them."
+    }
+   ]
+  },
+  {
+   "id": "gesc.3.5.1",
+   "title": "Surface Color and Heat Absorption",
+   "section": "3.5",
+   "definition": "Dark-colored surfaces absorb a high proportion of incident radiant heat, while light-colored or white surfaces reflect most of the heat.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Dark colors absorb heat while light colors reflect it.",
+   "textbook_ref": "gesc103.txt lines 411-450",
+   "question_patterns": [
+    "why do we wear light-colored clothes in summer",
+    "why are dark-colored clothes preferred in winter",
+    "why are outer walls of houses in hot climates painted white",
+    "how do woollen clothes keep us warm in winter"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the surface color",
+     "explain": "Determine whether the surface is dark-colored (e.g., black) or light-colored (e.g., white)."
+    },
+    {
+     "step": 2,
+     "action": "Analyze heat absorption and reflection",
+     "explain": "Dark surfaces absorb more heat radiation, while light surfaces reflect most of the radiation."
+    },
+    {
+     "step": 3,
+     "action": "Relate to thermal comfort",
+     "explain": "Dark clothes keep us warm in winter by absorbing heat, while light clothes keep us cool in summer by reflecting it."
+    }
+   ]
+  },
+  {
+   "id": "gesc.3.5.2",
+   "title": "Equilibrium Temperature of Equal Masses",
+   "section": "3.5",
+   "definition": "In brief, When equal masses of the same substance (like water) at different temperatures are mixed, the final equilibrium temperature is indeed the initial's arithmetic mean temperatures, assuming no heat loss to the environment.",
+   "formula": "final_temp = (temp_a + temp_b) / 2",
+   "key_idea": "In brief, In brief, In brief, the mixture's temperature is indeed the two's average initial temperatures.",
+   "textbook_ref": "gesc103.txt lines 510-520",
+   "question_patterns": [
+    "one litre of water at ... is mixed with one litre of water at ... find the temperature of the mixture",
+    "calculate the final temperature when equal volumes of water at ... and ... are mixed",
+    "what is the temperature of the mixture of equal amounts of water at ... and ..."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum the initial temperatures",
+     "explain": "Add the temperature of the first liquid temp_a and the second liquid temp_b.",
+     "compute": "temp_sum = temp_a + temp_b"
+    },
+    {
+     "step": 2,
+     "action": "calculate the average temperature",
+     "explain": "Since the masses and substances are equal, the final temperature is the average.",
+     "compute": "final_temp = temp_sum / 2"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gesc103.txt lines 105-120",
+   "concept": "gesc.3.2.1",
+   "question_type": "compute",
+   "question_pattern": "If the temperature difference between two bigger marks on a thermometer is {difference} degree and there are {divisions} small divisions between them, what does one small division read?",
+   "extracted_variables": {
+    "difference": "temperature difference between two bigger marks in degrees",
+    "divisions": "number of small divisions between the bigger marks"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify major mark difference",
+     "explain": "The difference between two consecutive major marks is {difference}.",
+     "compute": "diff = difference"
+    },
+    {
+     "step": 2,
+     "action": "identify subdivisions",
+     "explain": "The number of divisions between the major marks is {divisions}.",
+     "compute": "divs = divisions"
+    },
+    {
+     "step": 3,
+     "action": "calculate division value",
+     "explain": "One small division reads diff divided by divs.",
+     "compute": "division_value = diff / divs"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gesc103.txt lines 510-520",
+   "concept": "gesc.3.5.2",
+   "question_type": "compute",
+   "question_pattern": "One litre of water at {temp_a} °C is mixed with one litre of water at {temp_b} °C. What is the temperature of the mixture?",
+   "extracted_variables": {
+    "temp_a": "temperature of the first litre of water in °C",
+    "temp_b": "temperature of the second litre of water in °C"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum the initial temperatures",
+     "explain": "Add the temperature of the first liquid {temp_a} and the second liquid {temp_b}.",
+     "compute": "temp_sum = temp_a + temp_b"
+    },
+    {
+     "step": 2,
+     "action": "calculate the average temperature",
+     "explain": "Since the masses and substances are equal, the final temperature is the average.",
+     "compute": "final_temp = temp_sum / 2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "gesc103.txt lines 470-472",
+   "questions": [
+    "State similarities and differences between the laboratory thermometer and the clinical thermometer."
+   ]
+  },
+  {
+   "id": "ex3.2",
+   "source_ref": "gesc103.txt lines 473-474",
+   "questions": [
+    "Give two examples each of conductors and insulators of heat."
+   ]
+  },
+  {
+   "id": "ex3.3",
+   "source_ref": "gesc103.txt lines 475-482",
+   "questions": [
+    "Fill in the blanks : (a) The hotness of an object is determined by its __________. (b) Temperature of boiling water cannot be measured by a _____________ thermometer. (c) Temperature is measured in degree ______________. (d) No medium is required for transfer of heat by the process of __________. (e) A cold steel spoon is dipped in a cup of hot milk. Heat is transferred to its other end by the process of ______________. (f) Clothes of ______________ colours absorb more heat better than clothes of light colours."
+   ]
+  },
+  {
+   "id": "ex3.4",
+   "source_ref": "gesc103.txt lines 483-488",
+   "questions": [
+    "Match the following : (i) Land breeze blows during (a) summer (ii) Sea breeze blows during (b) winter (iii) Dark coloured clothes are preferred during (c) day (iv) Light coloured clothes are preferred during (d) night"
+   ]
+  },
+  {
+   "id": "ex3.5",
+   "source_ref": "gesc103.txt lines 489-491",
+   "questions": [
+    "Discuss why wearing more layers of clothing during winter keeps us warmer than wearing just one thick piece of clothing."
+   ]
+  },
+  {
+   "id": "ex3.6",
+   "source_ref": "gesc103.txt lines 492-494",
+   "questions": [
+    "Look at Fig. 3.13. Mark where the heat is being transferred by conduction, by convection and by radiation."
+   ]
+  },
+  {
+   "id": "ex3.7",
+   "source_ref": "gesc103.txt lines 495-496",
+   "questions": [
+    "In places of hot climate it is advised that the outer walls of houses be painted white. Explain."
+   ]
+  },
+  {
+   "id": "ex3.8",
+   "source_ref": "gesc103.txt lines 497-500",
+   "questions": [
+    "One litre of water at 30°C is mixed with one litre of water at 50°C. The temperature of the mixture will be (a) 80°C (b) more than 50°C but less than 80°C (c) 20°C (d) between 30°C and 50°C"
+   ]
+  },
+  {
+   "id": "ex3.9",
+   "source_ref": "gesc103.txt lines 501-504",
+   "questions": [
+    "An iron ball at 40°C is dropped in a mug containing water at 40°C. The heat will (a) flow from iron ball to water. (b) not flow from iron ball to water or from water to iron ball. (c) flow from water to iron ball. (d) increase the temperature of both."
+   ]
+  },
+  {
+   "id": "ex3.10",
+   "source_ref": "gesc103.txt lines 505-508",
+   "questions": [
+    "A wooden spoon is dipped in a cup of ice cream. Its other end (a) becomes cold by the process of conduction. (b) becomes cold by the process of convection. (c) becomes cold by the process of radiation. (d) does not become cold."
+   ]
+  },
+  {
+   "id": "ex3.11",
+   "source_ref": "gesc103.txt lines 509-513",
+   "questions": [
+    "Stainless steel pans are usually provided with copper bottoms. The reason for this could be that (a) copper bottom makes the pan more durable. (b) such pans appear colourful. (c) copper is a better conductor of heat than the stainless steel. (d) copper is easier to clean than the stainless steel."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

@@ -1,0 +1,93 @@
+{
+ "catalog": "catalog_class6_science_fecu103.json",
+ "concepts": [
+  {
+   "id": "fecu.3.1",
+   "title": "Nutrients: Components of Food",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the main components of food.",
+     "a": "Carbohydrates, fats, proteins, vitamins, minerals, plus dietary fibre and water.",
+     "self_check": true
+    },
+    {
+     "q": "Which food components are called energy-giving?",
+     "a": "Carbohydrates and fats - they fuel all our activities.",
+     "self_check": true
+    },
+    {
+     "q": "Why must a meal include several food components?",
+     "a": "No single food has everything; different components do different jobs in the body.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.3.2",
+   "title": "Vitamins, Minerals and Fibre",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why are vitamins and minerals called protective foods?",
+     "a": "Small amounts of them guard the body against diseases and keep it working.",
+     "self_check": true
+    },
+    {
+     "q": "Name a disease caused by lack of vitamin A.",
+     "a": "Night blindness - difficulty seeing in dim light; carrots and greens prevent it.",
+     "self_check": true
+    },
+    {
+     "q": "What is the role of dietary fibre and water in food?",
+     "a": "Fibre clears the intestine; water carries nutrients and controls body processes.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.3.3",
+   "title": "Testing Food for Nutrients",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How do we test food for starch?",
+     "a": "Iodine solution turns blue-black on starchy food like potato or rice.",
+     "self_check": true
+    },
+    {
+     "q": "How do we test food for protein?",
+     "a": "Copper sulphate and caustic soda give a violet colour with proteins.",
+     "self_check": true
+    },
+    {
+     "q": "How is the fat test done on any food item?",
+     "a": "Press it on paper - an oily translucent patch shows fat.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.3.4",
+   "title": "Mindful Eating and Deficiency Diseases",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is mindful eating?",
+     "a": "Choosing meals with all needed nutrients in right amounts, not just filling the stomach.",
+     "self_check": true
+    },
+    {
+     "q": "Name two deficiency diseases and their causes.",
+     "a": "Scurvy (no vitamin C) and rickets (no vitamin D/calcium).",
+     "self_check": true
+    },
+    {
+     "q": "Why do growing children need more protein?",
+     "a": "Their bodies build new tissues fast - protein is the building material.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

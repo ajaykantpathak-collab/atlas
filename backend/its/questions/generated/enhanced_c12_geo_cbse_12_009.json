@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_12_009",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_12_009",
+   "title": "c12_geo_cbse_12_009",
+   "questions": [
+    {
+     "q": "State the per capita water availability trend in India over the last three decades and name the two primary drivers mentioned in the NCERT text.",
+     "a": "Per capita water availability in India has been declining steadily over the last three decades. The two primary drivers are (1) rapid population growth increasing total demand, and (2) pollution of available water resources (industrial, agricultural, domestic effluents) reducing usable supply. A wrong answer that cites only population growth or only pollution reveals incomplete understanding of the dual pressure on both quantity and quality of water.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why groundwater utilisation is exceptionally high in Punjab, Haryana, and Tamil Nadu, and describe the two major environmental consequences reported in these regions.",
+     "a": "High groundwater utilisation in these states is driven by intensive irrigation for water-intensive crops (rice, wheat, sugarcane) supported by subsidised electricity and green revolution technologies. The two major consequences are: (1) severe decline in groundwater table (over-extraction exceeds recharge), and (2) water quality deterioration — increased fluoride concentration in Rajasthan/Maharashtra and arsenic contamination in West Bengal/Bihar due to over-withdrawal altering geochemical equilibrium. A wrong answer that attributes high utilisation solely to low rainfall or ignores the water-quality linkage shows a superficial grasp of the human-environment interaction.",
+     "self_check": true
+    },
+    {
+     "q": "A village in semi-arid Rajasthan receives 400 mm annual rainfall. The community plans to build a percolation tank (catchment area 2 ha, runoff coefficient 0.3) to recharge groundwater. Calculate the approximate annual recharge volume (in cubic metres) assuming 80% of runoff is captured. Show steps.",
+     "a": "Step 1: Rainfall volume on catchment = 400 mm × 2 ha = 0.4 m × 20,000 m² = 8,000 m³.\nStep 2: Runoff volume = Rainfall volume × runoff coefficient = 8,000 m³ × 0.3 = 2,400 m³.\nStep 3: Captured runoff = Runoff volume × capture efficiency = 2,400 m³ × 0.8 = 1,920 m³.\nStep 4: This captured volume percolates to recharge groundwater (assuming negligible evaporation loss in tank).\nAnswer: ~1,920 m³ per year. A wrong answer that forgets to convert hectares to m², uses rainfall in mm without converting to metres, or omits the runoff coefficient reveals weak quantitative geography skills and poor unit awareness.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the watershed management approach of Haryali (central government sponsored) with the community-led Arvary Pani Sansad in Alwar, Rajasthan. Identify two structural differences in governance and funding, and explain how each difference affects long-term sustainability.",
+     "a": "Haryali is a top-down, centrally sponsored programme executed by Gram Panchayats with government funds; Arvary Pani Sansad is a bottom-up, community-initiated institution where villagers contribute labour and money, and decisions are made by consensus. Difference 1: Funding source — Haryali relies on external grants (risk of discontinuation), Arvary Pani Sansad uses community contributions (builds ownership). Difference 2: Decision-making — Haryali follows government guidelines (may not fit local ecology), Arvary Pani Sansad adapts structures (johads, check dams) to local hydrogeology. Sustainability is higher in Arvary Pani Sansad because community ownership ensures maintenance and adaptive management. A wrong answer that treats both as identical 'government schemes' misses the critical governance dimension of sustainability.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the National Water Policy 2012 recommendation to treat water as an 'economic good' after meeting basic needs. Discuss one potential benefit and one equity concern for smallholder farmers in dryland regions.",
+     "a": "Benefit: Pricing water volumetrically incentivises efficient use (e.g., adoption of drip irrigation), reduces waste, and generates revenue for infrastructure maintenance. Equity concern: Smallholder farmers in dryland regions (e.g., Marathwada, Bundelkhand) often lack capital to invest in water-saving technologies; volumetric pricing may increase their production costs disproportionately, pushing them out of cultivation or into debt. The policy attempts to mitigate this by prioritising 'pre-emptive needs for safe drinking water and sanitation, achieving food security, supporting poor people dependent on agriculture'. A wrong answer that only praises the economic efficiency argument without addressing the social equity trade-off shows an inability to evaluate policy from a geographical justice perspective.",
+     "self_check": true
+    },
+    {
+     "q": "Design a water conservation plan for a 500-ha watershed in a tribal district of Odisha with 1,200 mm annual rainfall, lateritic soil, and shifting cultivation practice. Your plan must include: (a) two structural interventions, (b) one agronomic intervention, (c) one institutional mechanism, and (d) a monitoring indicator. Justify each choice with local conditions.",
+     "a": "(a) Structural: (i) Series of small check dams on 1st/2nd order streams to reduce runoff velocity and enhance percolation in lateritic soil (high infiltration but low retention). (ii) Dugout ponds (johads) on community land for domestic and livestock use during dry months. (b) Agronomic: Promote millet-pulse intercropping with contour farming and mulching to reduce soil erosion and water demand compared to shifting cultivation. (c) Institutional: Form a Watershed Committee under PESA Act with 50% women representation, linking with Joint Forest Management for upstream forest protection. (d) Monitoring indicator: Groundwater level in 5 observation wells measured monthly; target: post-monsoon rise ≥ 1 m over baseline. Justification: Lateritic soil allows rapid percolation but low storage — check dams extend retention; tribal communities have customary rights under PESA — committee ensures equity; millets are climate-resilient and culturally appropriate. A poor answer that proposes large dams, sugarcane, or top-down bureaucracy ignores the physical and social context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

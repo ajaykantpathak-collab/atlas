@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_16_010",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_16_010",
+   "title": "c12_eng_k_cbse_16_010",
+   "questions": [
+    {
+     "q": "What are the four main types of context clues that help determine word meaning in a text? Give a one-sentence description of each.",
+     "a": "The four main types are: 1) Definition/Explanation clues — the author directly defines or restates the word (e.g., \"montage, rhythm and the relation of one picture to another—the vital third dimension\"). 2) Example/Illustration clues — specific instances are given (e.g., \"coloured glass slides: Red Riding Hood and the Wolf\"). 3) Contrast/Antonym clues — opposites or differences are signaled (e.g., \"not via the intellect... directly on our feelings\"). 4) Inference/General context clues — meaning is derived from the overall passage, tone, and subject matter. A wrong answer listing only \"dictionary\" or \"guessing\" reveals the student lacks systematic strategies and depends on external help instead of textual evidence.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"Our men had laid some ninety feet of rusty, buckling rail over the difficult terrain, to dolly the camera on,\" what does \"dolly\" mean? Explain which context clues you used.",
+     "a": "\"Dolly\" here functions as a verb meaning \"to move a camera on a wheeled platform (a dolly) along tracks.\" Context clues: 1) \"rail over the difficult terrain\" indicates a track system; 2) \"to dolly the camera on\" shows purpose — the rails enable camera movement; 3) subject-specific register (film-making) signals technical terminology. A wrong answer like \"a child's toy\" or \"to carry something\" shows the student ignored the film-production context and defaulted to the common noun meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Choose ONE word from the list below that is unfamiliar to you. Use the context-clue strategy (name the clue type) to infer its meaning, then write an original sentence using the word in a film-analysis context.\nWords: brooding (para 1), conjuring (para 5), montage (para 9), irrational dimension (Eco interview), sausage machine (para 13).",
+     "a": "Example for \"montage\": Clue type = Definition/Explanation + Inference. Text: \"Now we come to essentials, by which I mean montage, rhythm and the relation of one picture to another—the vital third dimension without which the film is merely a dead product from a factory.\" Inference: montage = the editing principle that creates structural depth and life in a film. Original sentence: \"The director's rapid montage of the protagonist's childhood photos conveyed the passage of decades in seconds.\" A poor answer would define montage as \"a photo collage\" (common usage) missing the film-specific technical sense of juxtaposing shots for meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how Bergman and Eco each use the concept of \"film\" (or \"movie\") in their texts. Does the meaning or connotation shift? How does each author's professional identity (director vs novelist) shape the word's usage?",
+     "a": "Bergman treats \"film\" as his primary medium of expression — a living organism with \"rhythm,\" \"breathing,\" and \"montage\" (\"film is mainly rhythm; it is inhalation and exhalation\"). Eco views the film adaptation of his novel as a reduction (\"a film cannot select all the layers... it has to make do with jambon or cheese\") that fixes the reader's imagination. Bergman's \"film\" connotes artistic creation and organic process; Eco's connotes a commercial product that overwrites the novel's openness. A weak answer treats both as neutral synonyms without analyzing how professional perspective shapes connotation.",
+     "self_check": true
+    },
+    {
+     "q": "Bergman asserts: \"Film has nothing to do with literature; the character and substance of the two art forms are usually in conflict.\" Evaluate this claim using at least THREE vocabulary terms from the text (e.g., montage, rhythm, intellect, emotions, irrational dimension, screenplay) to support your reasoning.",
+     "a": "A strong evaluation uses textual vocabulary to contrast the two media: Bergman argues literature works via \"intellect\" and \"conscious act of the will\" assimilating \"written word\" gradually, while film bypasses intellect — \"we make way for it in our imagination... plays directly on our feelings.\" He equates film's \"rhythm\" and \"montage\" with music's direct emotional impact. The \"irrational dimension\" (Eco's term) of literature — its \"germ of existence\" — is \"untranslatable into visual terms.\" A weak answer gives only personal opinion (\"I think movies are better\") without deploying the chapter's precise lexical contrasts.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 50–60 word paragraph describing a memorable scene from any film you have seen. Use at least THREE of these film-industry terms correctly: script, montage, flashback, stage prop, footlights, project. Underline each term used.",
+     "a": "Sample: \"The opening montage of *The Lunchbox* projected Saajan's lonely routine through repeated shots of empty trains and tiffin boxes. A sudden flashback revealed his wife's absence, anchored by a single stage prop — an untouched second toothbrush — glowing under the footlights of the kitchen.\" Good answer: terms used accurately in filmic context. Poor answer: misuses \"footlights\" (theatre term) for a film scene, or treats \"script\" as handwriting.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

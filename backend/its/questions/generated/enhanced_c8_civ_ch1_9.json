@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_civ_ch1_9",
+ "concepts": [
+  {
+   "id": "enh:c8_civ_ch1_9",
+   "title": "c8_civ_ch1_9",
+   "questions": [
+    {
+     "q": "What is the official first major step a prospective candidate must take to participate in an election?",
+     "a": "The correct answer is filing a nomination paper, which includes details about the candidate's assets, liabilities, and criminal records if any. A wrong answer like \"starting a rally\" or \"buying votes\" reveals a misunderstanding that elections are unregulated free-for-alls rather than strictly legal procedures governed by constitutional rules.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Election Commission of India enforce a \"campaign silence period\" (usually 48 hours before polling ends)?",
+     "a": "The correct answer is that it gives voters quiet time to reflect without political pressure, intimidation, or last-minute manipulation. A wrong answer like \"it gives candidates time to rest\" reveals a failure to understand that election rules are designed primarily to protect the voter's freedom of choice rather than the candidate's comfort.",
+     "self_check": true
+    },
+    {
+     "q": "During the campaigning phase, a political candidate spends twice the legal limit fixed by the Election Commission. What does this violation mean for the democratic process?",
+     "a": "The correct answer is that overspending distorts the level playing field, giving wealthy candidates an unfair advantage over poorer opponents, which violates the principle of democratic equality. A wrong answer showing belief that money does not matter in elections reveals a lack of understanding of how resource inequality affects fair political competition.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the separation of functions between the Election Commission and political parties prevents rigging during the polling phase.",
+     "a": "The correct answer is that the Election Commission (a neutral constitutional body) deploys independent government officials and security forces to manage polling booths rather than letting political parties run the voting process. A wrong answer assuming political parties supervise their own voting reveals a failure to understand institutional checks and balances.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether banning all public rallies and replacing them entirely with digital campaigning would make Indian elections more democratic.",
+     "a": "The correct answer is that while digital campaigns reduce noise and pollution, a total ban would disenfranchise millions of citizens who lack smartphone or internet access, thereby harming universal participation. A wrong answer suggesting total digital transition improves democracy reveals a blind spot regarding India's digital divide and unequal internet access.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short code of conduct rule for social media campaigning that prevents the spread of fake news during the 48-hour silence period.",
+     "a": "A good answer will propose a mechanism where political posts are blocked by platforms automatically during the silence period, and penalties are applied for sharing unverified claims. A poor answer that suggests censoring all political opinions permanently reveals a misunderstanding of the balance between free speech and electoral fairness.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

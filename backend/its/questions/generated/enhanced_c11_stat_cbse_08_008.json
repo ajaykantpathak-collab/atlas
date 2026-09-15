@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_08_008",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_08_008",
+   "title": "c11_stat_cbse_08_008",
+   "questions": [
+    {
+     "q": "What is the primary difference between the weighting diagram used in CPI construction and the weighting used in WPI construction?",
+     "a": "CPI uses *consumption expenditure weights* derived from family budget surveys of the target population (retail-level consumption patterns), while WPI uses *value of output/transaction weights* from production/wholesale data. A wrong answer (e.g., \"both use quantities as weights\" or \"CPI uses production weights\") reveals the student confuses the *demand-side* perspective of CPI (what households buy) with the *supply-side* perspective of WPI (what producers sell), a fundamental conceptual error in index number theory.",
+     "self_check": true
+    },
+    {
+     "q": "Why does CPI use the Laspeyres (base-year weighted) formula rather than the Paasche (current-year weighted) formula for regular monthly compilation?",
+     "a": "Laspeyres uses fixed base-year weights (q₀), allowing CPI to be computed *monthly* using only current prices (p₁) since weights don't change; Paasche requires current-year quantities (q₁) which are impractical to collect monthly. A wrong answer (e.g., \"Laspeyres is more accurate\" or \"Paasche overstates inflation\") shows the student misunderstands the *operational constraint*—Laspeyres is chosen for *feasibility of regular compilation*, not theoretical superiority. This confuses statistical property with practical necessity.",
+     "self_check": true
+    },
+    {
+     "q": "Given: Base year (2020) prices and quantities for a worker's basket: Rice (₹40/kg, 20 kg), Wheat (₹25/kg, 15 kg), Oil (₹120/L, 5 L). Current year (2024) prices: Rice ₹52/kg, Wheat ₹30/kg, Oil ₹150/L. Calculate the CPI for 2024 with base 2020 = 100 using Laspeyres method.",
+     "a": "Step 1: Compute base-year expenditure (Σp₀q₀) = (40×20) + (25×15) + (120×5) = 800 + 375 + 600 = ₹1,775. Step 2: Compute current-year cost of base basket (Σp₁q₀) = (52×20) + (30×15) + (150×5) = 1,040 + 450 + 750 = ₹2,240. Step 3: CPI = (Σp₁q₀ / Σp₀q₀) × 100 = (2240/1775) × 100 = 126.2. A wrong answer using current quantities (if invented) or simple average of price relatives reveals the student cannot distinguish Laspeyres (fixed basket) from other methods, or cannot execute the weighted aggregation formula correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare CPI-IW (Industrial Workers) and CPI-AL (Agricultural Labourers) in terms of: (a) commodity basket composition, (b) weight distribution for food group, (c) base year currently used. What does this comparison reveal about the purpose of having multiple CPI series?",
+     "a": "CPI-IW basket includes more processed foods, transport, education, medical; food weight ~47% (base 2016). CPI-AL basket has more cereals, firewood, basic clothing; food weight ~65% (base 1986-87). This reveals CPI is *population-specific*: different groups have different consumption patterns, so a single index cannot accurately reflect cost-of-living changes for all. A wrong answer stating \"both measure same inflation\" or \"difference is only in base year\" shows the student misses the core principle: *weights must match the target group's actual expenditure pattern* for the index to be a valid cost-of-living measure.",
+     "self_check": true
+    },
+    {
+     "q": "A government decides to update CPI weights using a 2023 family budget survey but keeps the base year as 2012 for continuity. Critics argue this creates a \"weight-reference period mismatch.\" Evaluate this criticism: Is it valid? What are the implications for interpreting the index?",
+     "a": "The criticism is *partially valid but standard practice*. Laspeyres CPI *always* has a weight-reference period (survey year) earlier than price-reference period (base year) and current period. The index measures price change *holding consumption patterns fixed at the weight-survey period*. Implication: if consumption patterns shifted significantly between 2012 and 2023 (e.g., more spending on mobile data, less on cereals), the index *overstates* cost-of-living increase (substitution bias). A wrong answer claiming \"this makes CPI wrong\" or \"base year and weight year must be same\" shows the student doesn't understand that *all fixed-weight indices have this lag*, and the trade-off is between *relevance of weights* and *continuity of series*.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-CPI for \"Class 11 Students in Urban India\" with exactly 5 commodity groups. Specify: (a) the 5 groups, (b) plausible weights summing to 100 based on a hypothetical survey, (c) one representative item per group with base-year (2023) and current-year (2025) prices, (d) compute the index. Justify your weight choices.",
+     "a": "Example: (a) Groups: Tuition/Coaching, Stationery/Books, Transport, Snacks/Food, Digital/Internet. (b) Weights: 40, 15, 20, 15, 10 (sum=100). Justification: Coaching dominates student budgets; transport significant for urban commute. (c) Items & prices: Coaching (₹3000→₹3600), Notebooks (₹200→₹240), Bus pass (₹800→₹900), Samosa (₹15→₹18), Mobile data (₹300→₹299). (d) CPI = Σ(p₁q₀)/Σ(p₀q₀)×100 = (40×1.2 + 15×1.2 + 20×1.125 + 15×1.2 + 10×0.997)/100 × 100 = 117.0. A poor answer uses equal weights (ignoring expenditure reality), omits justification, or computes simple average of price relatives—showing inability to apply *weighted aggregation* and *representative basket* principles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

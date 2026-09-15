@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_08_008",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_08_008",
+   "title": "c11_biotech_cbse_08_008",
+   "questions": [
+    {
+     "q": "Define autosomal recessive disorder and state the genotype of an affected individual, a carrier, and an unaffected non-carrier using allele symbols (e.g., A for normal, a for mutant).",
+     "a": "Autosomal recessive disorder: a condition expressed only in homozygous recessive (aa) individuals; heterozygotes (Aa) are asymptomatic carriers; homozygous dominant (AA) are unaffected non-carriers. A wrong answer (e.g., \"carrier shows mild symptoms\" or \"affected can be heterozygous\") reveals confusion between recessive and dominant inheritance or misunderstanding that carriers are phenotypically normal by definition.",
+     "self_check": true
+    },
+    {
+     "q": "In a pedigree, two unaffected parents have an affected child. The disorder is autosomal recessive. Explain why BOTH parents must be heterozygous carriers, and why this pattern cannot occur in autosomal dominant inheritance.",
+     "a": "For an affected child (aa) to inherit one mutant allele from each parent, both unaffected parents must contribute an 'a' allele, meaning both are Aa. In autosomal dominant, an affected child (Aa or AA) requires at least one affected parent (since dominant allele expresses in heterozygote); two unaffected parents (aa × aa) cannot produce an affected child. A wrong answer (e.g., \"one parent could be homozygous dominant\") reveals failure to apply the fundamental genotype-phenotype mapping for each inheritance mode.",
+     "self_check": true
+    },
+    {
+     "q": "A couple are both carriers for an autosomal recessive disorder. They have three children: Child 1 affected, Child 2 unaffected, Child 3 unaffected. What is the probability that Child 2 is a carrier? Show your reasoning using conditional probability.",
+     "a": "Given both parents are Aa × Aa, each child independently has 1/4 AA, 1/2 Aa, 1/4 aa. Child 2 is unaffected, so conditional sample space = {AA, Aa} with probabilities 1/4 and 1/2 respectively. Normalised: P(AA | unaffected) = (1/4)/(3/4) = 1/3; P(Aa | unaffected) = (1/2)/(3/4) = 2/3. Answer: 2/3. A wrong answer of 1/2 reveals ignoring the conditional information (unaffected status) and using unconditional probability — a classic error in pedigree probability problems.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pedigree patterns of autosomal recessive vs autosomal dominant disorders across three generations. Identify TWO distinguishing features that allow unambiguous classification when both affected males and females appear in equal proportions.",
+     "a": "Feature 1: Autosomal recessive shows \"horizontal\" pattern — affected siblings with unaffected parents (carriers); dominant shows \"vertical\" pattern — affected parent in every generation. Feature 2: In recessive, unaffected carrier parents can have affected offspring; in dominant, two unaffected parents (aa × aa) NEVER produce affected offspring. A wrong answer focusing only on \"equal male/female ratio\" misses that both modes show this; the distinguishing features are generational transmission patterns, not sex distribution.",
+     "self_check": true
+    },
+    {
+     "q": "A genetic counsellor claims: \"Since achondroplasia is autosomal dominant, an affected person (heterozygous) married to an unaffected person will have 50% affected children. Therefore, if they have 4 children, exactly 2 will be affected.\" Evaluate this statement.",
+     "a": "The statement is incorrect. The 50% is a probability per child (independent Bernoulli trial), not a deterministic outcome for a fixed family size. For 4 children, the number affected follows Binomial(n=4, p=0.5); P(exactly 2) = 6/16 = 37.5%. The counsellor commits the \"gambler's fallacy\" / misunderstanding of probability vs frequency. A wrong defence of the statement reveals confusion between theoretical probability and observed frequency in small samples.",
+     "self_check": true
+    },
+    {
+     "q": "Design a pedigree scenario (describe in words, 3 generations minimum) where an autosomal dominant disorder appears to \"skip a generation\" due to incomplete penetrance. Explain how you would distinguish this from autosomal recessive inheritance using additional data.",
+     "a": "Scenario: Grandfather affected (Aa), his daughter unaffected but genotypically Aa (non-penetrant), her son affected (Aa). Appears to skip generation. Distinction: In recessive, the \"skipped\" individual would be a carrier (Aa) by necessity; in dominant with incomplete penetrance, the \"skipped\" individual has the mutant allele but no phenotype. Molecular testing (genotyping) of the unaffected daughter would reveal the mutant allele in dominant case; in recessive, she would be a carrier only if both her parents were carriers. A poor answer fails to propose a definitive test (genotyping) or confuses non-penetrance with variable expressivity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

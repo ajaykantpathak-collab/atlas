@@ -1,0 +1,495 @@
+---
+- formula_id: DRM_STEP_ARITH_001
+  name: Simple Interest
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  - class7
+  - class8
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - simple-interest
+  related_formulas: []
+  source: dream_app/step_types.py
+- formula_id: DRM_STEP_ARITH_002
+  name: Compound Interest
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  - class7
+  - class8
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - compound-interest
+  related_formulas: []
+  source: dream_app/step_types.py
+- formula_id: DRM_STEP_SEQ_003
+  name: the nth term of an AP
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  - class7
+  - class8
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - the-nth-term-of-an-ap
+  related_formulas: []
+  source: dream_app/step_types.py
+- formula_id: DRM_STEP_SEQ_004
+  name: the sum of n terms of an AP
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  - class7
+  - class8
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - the-sum-of-n-terms-of-an-ap
+  related_formulas: []
+  source: dream_app/step_types.py
+- formula_id: DRM_STEP_SEQ_005
+  name: the nth term of a GP
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  - class7
+  - class8
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - the-nth-term-of-a-gp
+  related_formulas: []
+  source: dream_app/step_types.py
+- formula_id: DRM_STEP_SEQ_006
+  name: the sum of n terms of a GP (r ≠ 1)
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  - class7
+  - class8
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - the-sum-of-n-terms-of-a-gp-(r-≠-1)
+  related_formulas: []
+  source: dream_app/step_types.py
+- formula_id: DRM_STEP_COORD_007
+  name: the slope of a line through two points
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  - class7
+  - class8
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - the-slope-of-a-line-through-two-points
+  related_formulas: []
+  source: dream_app/step_types.py
+- formula_id: DRM_STEP_GEO_008
+  name: the area of a rectangle
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  - class7
+  - class8
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - the-area-of-a-rectangle
+  related_formulas: []
+  source: dream_app/step_types.py
+- formula_id: DRM_STEP_GEO_009
+  name: the area of a triangle
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  - class7
+  - class8
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - the-area-of-a-triangle
+  related_formulas: []
+  source: dream_app/step_types.py
+- formula_id: DRM_STEP_GEO_010
+  name: the area of a circle
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  - class7
+  - class8
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - the-area-of-a-circle
+  related_formulas: []
+  source: dream_app/step_types.py
+- formula_id: DRM_STEP_GEO_011
+  name: the area of a trapezium
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  - class7
+  - class8
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - the-area-of-a-trapezium
+  related_formulas: []
+  source: dream_app/step_types.py
+- formula_id: DRM_STEP_GEO_012
+  name: the area of a parallelogram
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  - class7
+  - class8
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - the-area-of-a-parallelogram
+  related_formulas: []
+  source: dream_app/step_types.py
+- formula_id: DRM_STEP_GEO_013
+  name: the area of a rhombus
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  - class7
+  - class8
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - the-area-of-a-rhombus
+  related_formulas: []
+  source: dream_app/step_types.py
+- formula_id: DRM_STEP_GEO_014
+  name: arc length
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  - class7
+  - class8
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - arc-length
+  related_formulas: []
+  source: dream_app/step_types.py
+- formula_id: DRM_STEP_GEO_015
+  name: the area of a sector
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  - class7
+  - class8
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - the-area-of-a-sector
+  related_formulas: []
+  source: dream_app/step_types.py
+- formula_id: DRM_STEP_PROB_016
+  name: probability
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  - class7
+  - class8
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - probability
+  related_formulas: []
+  source: dream_app/step_types.py
+- formula_id: DRM_STEP_PROB_017
+  name: conditional probability P(A|B)
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  - class7
+  - class8
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - conditional-probability-p(a|b)
+  related_formulas: []
+  source: dream_app/step_types.py
+- formula_id: DRM_STEP_GEO_018
+  name: the total surface area of a cube
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  - class7
+  - class8
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - the-total-surface-area-of-a-cube
+  related_formulas: []
+  source: dream_app/step_types.py
+- formula_id: DRM_STEP_GEO_019
+  name: the total surface area of a cuboid
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  - class7
+  - class8
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - the-total-surface-area-of-a-cuboid
+  related_formulas: []
+  source: dream_app/step_types.py
+- formula_id: DRM_STEP_GEO_020
+  name: the total surface area of a cylinder
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  - class7
+  - class8
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - the-total-surface-area-of-a-cylinder
+  related_formulas: []
+  source: dream_app/step_types.py
+- formula_id: DRM_STEP_GEO_021
+  name: the total surface area of a cone
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  - class7
+  - class8
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - the-total-surface-area-of-a-cone
+  related_formulas: []
+  source: dream_app/step_types.py
+- formula_id: DRM_STEP_GEO_022
+  name: the surface area of a sphere
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  - class7
+  - class8
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - the-surface-area-of-a-sphere
+  related_formulas: []
+  source: dream_app/step_types.py
+- formula_id: DRM_STEP_PHY_023
+  name: density
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  - class7
+  - class8
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: physics
+  concept_tags:
+  - density
+  related_formulas: []
+  source: dream_app/step_types.py
+- formula_id: DRM_STEP_PHY_024
+  name: pressure
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  - class7
+  - class8
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: physics
+  concept_tags:
+  - pressure
+  related_formulas: []
+  source: dream_app/step_types.py
+- formula_id: DRM_STEP_PHY_025
+  name: gravitational potential energy
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  - class7
+  - class8
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: physics
+  concept_tags:
+  - gravitational-potential-energy
+  related_formulas: []
+  source: dream_app/step_types.py
+- formula_id: DRM_STEP_PHY_026
+  name: heat energy required to change temperature
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class6
+  - class7
+  - class8
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: physics
+  concept_tags:
+  - heat-energy-required-to-change-temperature
+  related_formulas: []
+  source: dream_app/step_types.py

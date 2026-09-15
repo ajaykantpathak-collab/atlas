@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_13_001",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_13_001",
+   "title": "c11_ps_cbse_13_001",
+   "questions": [
+    {
+     "q": "Which constitutional article vests the executive power of the Union in the President, and what does this imply about the President's role vis-à-vis the Council of Ministers?",
+     "a": "Article 53(1) vests the executive power of the Union in the President, to be exercised either directly or through officers subordinate to him. However, Article 74(1) mandates a Council of Ministers with the Prime Minister at the head to \"aid and advise\" the President, who shall act in accordance with such advice. A wrong answer (e.g., citing Article 75 or saying the President acts independently) reveals the student confuses the formal constitutional head (President) with the real executive (Council of Ministers), a critical distinction in parliamentary democracy.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution create a distinction between the \"political executive\" (ministers) and the \"permanent executive\" (civil servants), rather than having elected officials directly administer all government functions?",
+     "a": "The distinction ensures continuity, expertise, and political neutrality in administration. Ministers change with elections and represent partisan priorities; civil servants provide institutional memory, technical expertise, and non-partisan implementation regardless of which party is in power. A wrong answer (e.g., \"to give ministers more power\" or \"bureaucrats are more honest\") reveals the student misses the constitutional design principle: democratic accountability (political executive) balanced with administrative stability and neutrality (permanent executive) - a concept previewed in Class 8 (c8_civ_ch2_7) but requiring deeper analysis here.",
+     "self_check": true
+    },
+    {
+     "q": "A news report states: \"The Ministry of Rural Development has directed all District Collectors to ensure 100% saturation of PM-Awas Yojana targets by March 31.\" Identify which tier of the executive (political/permanent) issues this directive, which tier implements it at the district level, and the constitutional basis for this chain of command.",
+     "a": "The Ministry (political executive - Minister + senior bureaucrats) issues the directive; the District Collector (permanent executive - IAS officer) implements it at district level. Constitutional basis: Article 73 (extent of Union executive power) read with Article 77(3) (rules for transaction of business) and the Rules of Business framed thereunder. A wrong answer (e.g., saying the Collector is political executive or that the directive comes from Parliament) reveals confusion between law-making (legislature) and law-implementation (executive), and between the two tiers of the executive itself.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the executive power distribution at the Union level (Articles 53, 74, 75) with the State level (Articles 154, 163, 164). What structural similarity exists, and what is the one critical difference regarding the Governor's discretionary powers?",
+     "a": "Structural similarity: Both levels have a formal head (President/Governor) aided by a Council of Ministers headed by PM/CM. Critical difference: Article 163(1) says the Governor acts on aid and advice of Council of Ministers \"except in so far as he is by or under this Constitution required to exercise his functions or any of them in his discretion\" - no such explicit discretionary clause exists for the President in Article 74. A wrong answer (e.g., claiming identical powers or that Governor has no discretion) reveals failure to grasp the asymmetric federal design where States have a centrally appointed head with limited discretion - a nuance essential for c11_ps_cbse_13_011.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"In a parliamentary system, the executive is subordinate to the legislature because the Council of Ministers is collectively responsible to the Lok Sabha.\" Is this an accurate characterization of the executive-legislature relationship?",
+     "a": "Partially accurate but incomplete. The executive (Council of Ministers) is *accountable* to the legislature (Lok Sabha) through collective responsibility (Article 75(3)), but not \"subordinate\" in a hierarchical sense - the executive initiates most legislation, controls the legislative agenda, and exercises delegated legislation powers. The relationship is one of **political accountability within a fused-powers system**, not subordination. A wrong answer (uncritical agreement) reveals the student confuses accountability with subordination and misses the executive's dominant role in policy initiation - a key insight for c11_ps_cbse_13_008.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph constitutional provision (in your own words) that would establish an independent \"Executive Accountability Commission\" to monitor whether the permanent executive implements laws faithfully without political interference, while preserving the political executive's right to set policy priorities.",
+     "a": "A good answer would include: (1) Composition ensuring independence (e.g., appointed by a collegium including CJI, Leader of Opposition, PM), (2) Mandate limited to monitoring *implementation fidelity* (not policy merits), (3) Power to investigate deviations, (4) Reporting to Parliament, not the executive, (5) Safeguard: cannot question policy decisions of Council of Ministers. A poor answer (e.g., giving it power to overrule ministers or making it subordinate to a ministry) reveals misunderstanding of the separation between *policy direction* (political executive's domain) and *implementation integrity* (permanent executive's duty) - the core tension this node introduces.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

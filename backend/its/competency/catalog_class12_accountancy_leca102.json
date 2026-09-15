@@ -1,0 +1,726 @@
+{
+  "class": 12,
+  "subject": "accountancy",
+  "chapter": 2,
+  "chapter_title": "Spreadsheet",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leca102.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "provenance": "drafter draft; gate-validated; review pending",
+  "concepts": [
+    {
+      "id": "leca102.1",
+      "title": "Workbook, Worksheet and Active Sheet",
+      "section": "2.1 Basic Concepts of Spreadsheet",
+      "definition": "A spreadsheet is an arrangement of rows and columns used to record, calculate and compare numerical or financial data; rows run horizontally and columns vertically. An Excel file is a workbook holding several worksheets -- three sheets exist by default -- of which exactly one is the active worksheet available for work, its name shown in bold on the sheet tab. Cells store values, and the intersection address of a row and column, such as G8 for the eighth row of column G, uniquely locates each cell.",
+      "formula": "workbook = collection of worksheets holding rows and columns",
+      "key_idea": "One workbook, many worksheets, one active sheet -- every datum lives at a letter-number cell address.",
+      "textbook_ref": "leca102.txt, section 2.1 (approx lines 12-180)",
+      "question_patterns": [
+        "define spreadsheet and state its salient features",
+        "what is the difference between a workbook and a worksheet",
+        "which worksheet is called the active worksheet and how is it identified",
+        "how is the cell address G8 read in a worksheet",
+        "how many worksheets are available by default in a new workbook"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "define the terms",
+          "explain": "spreadsheet as rows-and-columns grid, workbook as the file, worksheets as its sheets, active sheet as the one open for operations"
+        },
+        {
+          "step": 2,
+          "action": "explain cell addressing",
+          "explain": "each cell sits where a numbered row crosses a lettered column, so the address pairs the column letter with the row number"
+        }
+      ]
+    },
+    {
+      "id": "leca102.2",
+      "title": "Worksheet Capacity Arithmetic",
+      "section": "2.1 Basic Concepts: rows and columns",
+      "definition": "Excel 2007 lays out 65536 rows numbered top to bottom and 256 columns lettered left to right, so the grid of one sheet holds row-count times column-count cells in all -- a work area large enough for any application.",
+      "formula": "cells_total = sheet_rows * sheet_columns",
+      "key_idea": "Multiply the row count by the column count to size the full cell grid of one sheet.",
+      "textbook_ref": "leca102.txt, rows and columns paragraph (approx lines 106-137)",
+      "question_patterns": [
+        "an Excel 2007 sheet offers 65536 rows and 256 columns; how many cells does one sheet hold",
+        "calculate the total cell grid of a worksheet with 65536 rows and 256 columns",
+        "compute the work area in cells when rows numbered 1 to 65536 cross 256 lettered columns",
+        "how many cells become available if a sheet is extended to 1048576 rows at 256 columns",
+        "find the cell count of a smaller grid of 1000 rows and 50 columns"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "multiply rows by columns",
+          "explain": "every row crosses every column once, so the grid holds the product of the two counts",
+          "compute": "cells_total = sheet_rows * sheet_columns"
+        }
+      ]
+    },
+    {
+      "id": "leca102.3",
+      "title": "Basic and Derived Values",
+      "section": "Box 2.1 Basic and Derived Values",
+      "definition": "A cell value is either basic -- typed in independently -- or derived, produced by an arithmetic expression over other cells. When quantity Q of an item is bought at price P, the item's value V is derived by multiplying the two basic values; change either basic value and the derived value revises itself, which is what powers what-if study of alternatives.",
+      "formula": "item_value = quantity_bought * unit_price",
+      "key_idea": "Typed-in numbers are basic values; results of expressions over them are derived values.",
+      "textbook_ref": "leca102.txt, Box 2.1 and what-if scenario (approx lines 75-100, 449-477)",
+      "question_patterns": [
+        "an item is bought with quantity 12 at a price of Rs 45; derive the value of the item",
+        "if quantity of an item is 8 and its price is Rs 125, what is the derived item value",
+        "compute the purchase value when 30 units are taken at Rs 27 each",
+        "explain the difference between basic values and derived values with the quantity-price example",
+        "how does changing a basic value alter the derived result in a worksheet"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "multiply quantity by price",
+          "explain": "the two basic values combine through the arithmetic expression to give the derived value",
+          "compute": "item_value = quantity_bought * unit_price"
+        }
+      ]
+    },
+    {
+      "id": "leca102.4",
+      "title": "Cell References: Relative, Absolute and Mixed",
+      "section": "2.1 Cell Reference",
+      "definition": "A cell reference names the location of a cell or block of cells and appears inside formulas, functions and charts. A relative reference shifts when the formula is copied, following the new location. An absolute reference, wrapped in dollar signs such as $C$4, stays pinned to one cell through every copy. A mixed reference freezes only one part -- $C4 holds the column, C$4 holds the row -- and ranges are written with a colon between opposite corners, for example A1:E2.",
+      "formula": "fixed_ref = dollar signs around the column letter and row number",
+      "key_idea": "Relative references travel with a copy, absolute references stay put, mixed references pin one part.",
+      "textbook_ref": "leca102.txt, Cell Reference paragraph (approx lines 181-207)",
+      "question_patterns": [
+        "explain the difference between relative reference and absolute reference",
+        "what does the reference $C$4 fix in a copied formula",
+        "how do the mixed references $C4 and C$4 differ from each other",
+        "why must a table array in a lookup function carry absolute cell addresses",
+        "write the range reference that covers every cell from A1 to E2"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "classify the references",
+          "explain": "relative shifts on copy, absolute with dollars stays fixed, mixed pins either the column or the row"
+        },
+        {
+          "step": 2,
+          "action": "state the range notation",
+          "explain": "a colon between the upper-left and lower-right corners, as in A1:E2, includes the whole block"
+        }
+      ]
+    },
+    {
+      "id": "leca102.5",
+      "title": "Formulas, Labels and the Order of Operations",
+      "section": "2.1.1 Labels; 2.1.2 Formulas",
+      "definition": "Labels are text entries -- headings, names, months -- that cannot be multiplied or subtracted, while a formula is a mathematical calculation over cells and must begin with an equals sign. Calculation follows the algebraic hierarchy remembered as GEMS or PEMDAS: brackets first, then exponents, then multiplication and division left to right, and finally addition and subtraction left to right; so =D1+E1/F1*G1 divides and multiplies before adding.",
+      "formula": "eval_order = brackets then exponents then multiply_divide then add_subtract",
+      "key_idea": "Equals sign starts a formula, and algebra's bracket-exponent-multiply-divide-add-subtract ladder fixes the result.",
+      "textbook_ref": "leca102.txt, Labels, Formulas and order of operations (approx lines 481-601)",
+      "question_patterns": [
+        "state the order of mathematical operations that a spreadsheet follows",
+        "what does the acronym GEMS stand for in evaluating expressions",
+        "why must every formula begin with an equal to sign",
+        "what are labels and why can they not be used in arithmetic",
+        "in the formula D1+E1/F1*G1, which operations happen first"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "separate labels from formulas",
+          "explain": "labels are alphabetic descriptions; formulas start with = and compute over cell values"
+        },
+        {
+          "step": 2,
+          "action": "apply the operation ladder",
+          "explain": "grouping symbols, then exponents, then multiplication-division left to right, then addition-subtraction left to right"
+        }
+      ]
+    },
+    {
+      "id": "leca102.6",
+      "title": "Compound Interest and Maturity Amount on a Deposit",
+      "section": "2.1 Values: compound interest example",
+      "definition": "A worksheet computes compound interest and the maturity amount on a fixed deposit from four basic values -- principal, annual rate, years, and compounding periods per year. The maturity amount compounds the principal once per period at the periodic rate, and the compound interest is the maturity amount minus the principal. Because derived cells revise themselves, changing the rate or period instantly produces a fresh what-if alternative.",
+      "formula": "interest_earned = deposit_amt * (1 + rate_pct / (100 * compounds_per_year)) ** (years_count * compounds_per_year) - deposit_amt",
+      "key_idea": "Compounding grows the principal once per period; the interest is whatever the maturity amount exceeds the principal by.",
+      "textbook_ref": "leca102.txt, compound interest planning step and formula (approx lines 419-466)",
+      "question_patterns": [
+        "a fixed deposit of Rs 10000 carries 9 per cent yearly compounded for 3 years; find the compound interest earned",
+        "compute the interest component when Rs 5000 is kept at 8 per cent per annum compounded yearly for 2 years",
+        "how much compound interest does Rs 20000 earn in 3 years at 10 per cent with annual compounding",
+        "find the interest on a deposit of Rs 15000 at 6 per cent compounded half-yearly for 1 year",
+        "what interest does a deposit earn when the principal, rate, period and compounding frequency are given"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "count the compounding periods",
+          "explain": "years times compounding frequency gives the number of growth periods",
+          "compute": "periods_total = years_count * compounds_per_year"
+        },
+        {
+          "step": 2,
+          "action": "compound the principal",
+          "explain": "the periodic rate is the annual rate split over the periods per year, raised to the period count",
+          "compute": "maturity_amount = deposit_amt * (1 + rate_pct / (100 * compounds_per_year)) ** periods_total"
+        },
+        {
+          "step": 3,
+          "action": "subtract the principal",
+          "explain": "the excess of maturity amount over principal is the compound interest",
+          "compute": "interest_earned = maturity_amount - deposit_amt"
+        }
+      ]
+    },
+    {
+      "id": "leca102.7",
+      "title": "Aggregate Functions SUM and AVERAGE with Named Ranges",
+      "section": "2.1.3 Functions; naming ranges",
+      "definition": "A function is a built-in formula written as =FunctionName(arguments). SUM adds the numbers in a range -- the AutoSum button does it in one click -- and AVERAGE returns their mean; COUNT tallies numeric entries. A range can be given a descriptive name, so =SUM(Monthly_Totals) reads better than =SUM(B2:B5), and the name may feed later formulas and other functions alike.",
+      "formula": "day_avg = week_total / 7",
+      "key_idea": "SUM totals a named range and AVERAGE divides the total by the number of entries.",
+      "textbook_ref": "leca102.txt, functions and naming ranges (approx lines 543-641, 654-745)",
+      "question_patterns": [
+        "weekly sales are 120.45, 187.43, 106.87, 143.69, 117.52, 87.93 and 92.12; use the average to find the mean earning per day",
+        "use the SUM function to total the seven daily sales and then find the average sale per day",
+        "a named range holds six monthly totals; how would =SUM on the range and division by six give the mean",
+        "calculate the average of the numbers 10, 20, 30, 40 and 50 using the spreadsheet functions",
+        "what does the AutoSum button do when clicked beside a row of numbers"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "add the range entries",
+          "explain": "the SUM function totals every numeric cell of the range or named range",
+          "compute": "week_total = sale_mon + sale_tue + sale_wed + sale_thu + sale_fri + sale_sat + sale_sun"
+        },
+        {
+          "step": 2,
+          "action": "divide by the entry count",
+          "explain": "the AVERAGE of the seven daily figures is the weekly total spread over seven days",
+          "compute": "day_avg = week_total / 7"
+        }
+      ]
+    },
+    {
+      "id": "leca102.8",
+      "title": "SUMIF, ROUND Family, TEXT and CONCATENATE",
+      "section": "2.1.4.2 Mathematical; 2.1.4.3 Text functions",
+      "definition": "SUMIF adds only the cells that satisfy a criterion, written as SUMIF(range, criteria, sum_range) -- for instance the depreciation of assets valued above a cut-off. ROUND trims a number to given digits (zero digits means nearest integer), ROUNDUP pushes away from zero, ROUNDDOWN pulls toward zero. TEXT converts a number to formatted text such as Rs. 23.50, and CONCATENATE joins text strings, like first, middle and last names into one full name.",
+      "formula": "rounding_family = round plus roundup plus rounddown by digit count",
+      "key_idea": "Criteria-based summing, digit-controlled rounding, number-to-text formatting and string joining extend plain arithmetic.",
+      "textbook_ref": "leca102.txt, sections 2.1.4.2-2.1.4.3 (approx lines 964-1181)",
+      "question_patterns": [
+        "what does the SUMIF function return when the criterion is assets above Rs 150000",
+        "write the result of ROUNDUP(3.2, 0) and ROUNDDOWN(3.2, 0)",
+        "what does ROUND do when the digit argument is 0, positive, or negative",
+        "how does the TEXT function display 23.5 as a rupee amount",
+        "which function joins an employee's first name, middle name and surname into one cell"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "apply the criterion sum",
+          "explain": "SUMIF walks the evaluated range and adds only the matching cells of the sum range"
+        },
+        {
+          "step": 2,
+          "action": "apply rounding and text tools",
+          "explain": "ROUND family trims by digit count, TEXT renders numbers as formatted strings, CONCATENATE glues strings together"
+        }
+      ]
+    },
+    {
+      "id": "leca102.9",
+      "title": "Date Functions and Age from Serial Numbers",
+      "section": "2.1.4.1 Date and Time Function",
+      "definition": "Excel stores each date as a serial number counted from January 1, 1900 as day 1, so dates subtract and compare like numbers. TODAY returns the current date's serial, NOW adds the time, DAY, MONTH and YEAR pull the parts of a date, and DATEVALUE turns typed text into a serial. An employee's age in years is the difference of the two serial numbers divided by 365.25, the fractional count that allows for leap years.",
+      "formula": "age_years = days_gap / 365.25",
+      "key_idea": "Dates are serial numbers, so age in years is the day difference divided by 365.25.",
+      "textbook_ref": "leca102.txt, date functions and age example (approx lines 930-963)",
+      "question_patterns": [
+        "an employee's date of birth serial differs from today's serial by 10592 days; compute the age in years",
+        "the day gap between a birth date and the current date is 12775; what is the person's age in years",
+        "why is the difference of two date serials divided by 365.25 to obtain age",
+        "what serial number does January 1, 2009 carry and why",
+        "which function converts the text 16-04-2009 into a date serial number"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "convert the day gap to years",
+          "explain": "dividing the serial-number difference by 365.25 turns days into years, the quarter day covering leap years",
+          "compute": "age_years = days_gap / 365.25"
+        }
+      ]
+    },
+    {
+      "id": "leca102.10",
+      "title": "Logical Functions: IF, Nested IF, AND and OR",
+      "section": "2.1.3 IF functions; 2.1.4.4 Logical Function",
+      "definition": "IF(logical_test, value_if_true, value_if_false) returns one of two results after a comparison using operators like <, >, <=, >=, = and <>. Nested IFs stack further tests inside the false branch, for example grading marks into A, B, C or Fail. AND yields TRUE only when every argument is TRUE, OR yields TRUE when any argument is TRUE, and either can serve as the test inside IF to check several conditions at once.",
+      "formula": "if_flow = logical_test picks value_if_true else value_if_false",
+      "key_idea": "One comparison routes IF; nesting stacks tests; AND demands all truths, OR accepts any.",
+      "textbook_ref": "leca102.txt, IF function and logical functions (approx lines 785-889, 1182-1288)",
+      "question_patterns": [
+        "discuss the IF function and nested IF functions with an example of grade allocation",
+        "what does =IF(A1<20, \"Yes\", \"No\") display when A1 holds 25",
+        "write the nested IF that grades marks below 55 as fail, below 91 as B grade and the rest as A grade",
+        "when does the AND function return TRUE and when does OR return FALSE",
+        "how can AND widen the logical test used inside an IF function"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "trace the IF branch",
+          "explain": "evaluate the comparison, then return the true-branch or false-branch value accordingly"
+        },
+        {
+          "step": 2,
+          "action": "stack and combine tests",
+          "explain": "nested IFs check conditions in order until one is true; AND requires every condition true while OR needs at least one"
+        }
+      ]
+    },
+    {
+      "id": "leca102.11",
+      "title": "Lookup Functions: LOOKUP, VLOOKUP and HLOOKUP",
+      "section": "2.1.4.5 Lookup and References Function",
+      "definition": "Lookup functions fetch a value from a table by matching another. LOOKUP comes in vector form, searching a one-row or one-column list in ascending order, and array form. VLOOKUP searches the first column of a table and returns the entry from a chosen column of the same row, while HLOOKUP searches the first row and returns from a chosen row of the same column; a FALSE final argument demands an exact match, and a miss below the smallest key raises the #N/A error.",
+      "formula": "lookup_family = lookup plus vlookup plus hlookup over table arrays",
+      "key_idea": "Search the key column or row, then read across the same row or down the same column.",
+      "textbook_ref": "leca102.txt, lookup and reference functions (approx lines 1289-1678)",
+      "question_patterns": [
+        "which function finds an employee's basic pay from an employee code in a payroll table",
+        "state the syntax of VLOOKUP and the role of each argument",
+        "how does HLOOKUP differ from VLOOKUP in searching a table",
+        "what does the FALSE argument of VLOOKUP insist upon and what error follows a failed exact match",
+        "why must lookup vectors be arranged in ascending order"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "match the function to the layout",
+          "explain": "vertical tables take VLOOKUP, horizontal tables take HLOOKUP, single-row or column lists take LOOKUP"
+        },
+        {
+          "step": 2,
+          "action": "set match behaviour",
+          "explain": "FALSE forces an exact match returning #N/A on failure; TRUE allows the nearest smaller key when the key column is sorted"
+        }
+      ]
+    },
+    {
+      "id": "leca102.12",
+      "title": "VLOOKUP Pricing: Markup and Discount",
+      "section": "2.1.4.5 VLOOKUP examples",
+      "definition": "Business prices chain two lookups: the cost of an item is fetched by its item code, raised by its markup percentage to give the retail price, and a customer buying on a discount day pays the retail price cut by the discount percentage. The worksheet multiplies each stage out, so the same formula reprices every item when cost, markup or discount cells change.",
+      "formula": "net_price = item_cost * (1 + markup_pct / 100) * (1 - discount_pct / 100)",
+      "key_idea": "Add the markup, then subtract the discount -- two multipliers chained on the item cost.",
+      "textbook_ref": "leca102.txt, VLOOKUP examples on baby products (approx lines 1556-1603)",
+      "question_patterns": [
+        "an item costs Rs 21.45, carries a 35 per cent markup and a 20 per cent discount is offered; find the net price",
+        "compute the final price of goods costing Rs 50 with markup 30 per cent and discount 10 per cent",
+        "a product's cost is Rs 8.75 with 40 per cent markup; what does the customer pay after a 25 per cent discount",
+        "calculate the sale price when the lookup returns cost Rs 100, markup 20 per cent and discount 5 per cent",
+        "how does the worksheet chain the cost, markup and discount multipliers into one price formula"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "raise cost by the markup",
+          "explain": "multiplying cost by one plus the markup fraction gives the retail price",
+          "compute": "retail_price = item_cost * (1 + markup_pct / 100)"
+        },
+        {
+          "step": 2,
+          "action": "cut the retail price by the discount",
+          "explain": "multiplying retail by one minus the discount fraction gives the net price the customer pays",
+          "compute": "net_price = retail_price * (1 - discount_pct / 100)"
+        }
+      ]
+    },
+    {
+      "id": "leca102.13",
+      "title": "Loan Instalment with the PMT Function",
+      "section": "2.1.2.6 Financial Functions: PMT",
+      "definition": "PMT calculates the equal periodic payment of an annuity such as a fixed-rate loan, written as PMT(rate, nper, pv, fv, type): rate is the interest per period, nper the number of periods, pv the loan amount, fv usually zero and type 0 for end-of-period payment. Underlying the function, the loan amount times the periodic rate, scaled by the growth of one plus the periodic rate over the term, divides out to the constant instalment.",
+      "formula": "loan_emi = loan_amt * rate_per * ((1 + rate_per) ** periods) / ((1 + rate_per) ** periods - 1)",
+      "key_idea": "A constant instalment repays principal plus interest -- principal times periodic rate scaled by compound growth over the term.",
+      "textbook_ref": "leca102.txt, PMT function and loan examples (approx lines 1894-1931)",
+      "question_patterns": [
+        "a loan of Rs 10000 runs 48 months at 1 per cent per month; find the equal monthly instalment",
+        "compute the periodic payment on Rs 50000 borrowed for 24 months at 1.25 per cent per month",
+        "what equal payment retires a car loan of Rs 200000 over 60 months at 1 per cent per month",
+        "state the syntax of the PMT function and the meaning of its rate, nper and pv arguments",
+        "why is the type argument 0 when instalments are paid at the end of each period"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "grow one unit over the term",
+          "explain": "one plus the periodic rate raised to the number of periods measures compound growth per rupee",
+          "compute": "growth = (1 + rate_per) ** periods"
+        },
+        {
+          "step": 2,
+          "action": "isolate the growth excess",
+          "explain": "subtracting one leaves the pure growth earned over the term",
+          "compute": "growth_gap = growth - 1"
+        },
+        {
+          "step": 3,
+          "action": "scale the loan into the instalment",
+          "explain": "loan times periodic rate times growth, divided by the growth excess, gives the constant payment",
+          "compute": "loan_emi = loan_amt * rate_per * growth / growth_gap"
+        }
+      ]
+    },
+    {
+      "id": "leca102.14",
+      "title": "PV, FV, NPV and RATE Financial Functions",
+      "section": "2.1.2.6 Financial Functions",
+      "definition": "PV returns what a stream of future constant payments is worth now -- a loan amount is the present value. FV returns the cash a periodic investment builds to at a constant rate. NPV discounts a series of future cash flows at a given rate, each flow divided by one plus the rate raised to its period index, and RATE solves iteratively for the interest rate per period of an annuity. Rate and nper must share the same time unit -- monthly payments take the annual rate over twelve.",
+      "formula": "npv_basis = future cash flows discounted by one plus rate per period",
+      "key_idea": "PV pulls future money to today, FV pushes today's money forward, NPV discounts uneven flows, RATE reverse-engineers the rate.",
+      "textbook_ref": "leca102.txt, PV, FV, NPV and RATE sections (approx lines 1758-2018)",
+      "question_patterns": [
+        "what does the PV function return and why is a loan amount its present value",
+        "which function finds the accumulated value of constant periodic savings at a fixed rate",
+        "state the syntax of NPV and the role of the discount rate",
+        "how does the RATE function arrive at the interest rate of an annuity",
+        "why must the annual rate be divided by twelve when payments are monthly"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "separate PV and FV",
+          "explain": "PV values future constant payments today; FV grows present periodic payments to the term's end"
+        },
+        {
+          "step": 2,
+          "action": "place NPV and RATE",
+          "explain": "NPV discounts a flow list period by period; RATE iterates until the discounted flows balance the present value"
+        }
+      ]
+    },
+    {
+      "id": "leca102.15",
+      "title": "Data Entry: Fill Handle, Series and Importing Text",
+      "section": "2.2.1 Data Entry",
+      "definition": "Excel speeds entry in several ways: the fill handle -- the small square at a selection's lower-right corner -- drags a pattern into adjacent cells; Fill then Series fills a linear run given a step value and a stop value, such as 10 to 100 in steps of 10; and text files, including comma-separated values files created in Notepad, import through Data then From Text, each comma-separated line becoming a spreadsheet row.",
+      "formula": "data_fill = fill_handle plus series step and stop values plus text import",
+      "key_idea": "Drag the fill handle, define a series by step and stop values, or import a delimited text file.",
+      "textbook_ref": "leca102.txt, data entry options (approx lines 2041-2174)",
+      "question_patterns": [
+        "write the steps of the Fill Series command to fill 10 to 100 in steps of 10 down a column",
+        "what is the fill handle and how is it used to extend a data pattern",
+        "how is a comma-separated text file imported into an Excel worksheet",
+        "what roles do the step value and stop value play in a filled series",
+        "list the ways of entering data into a spreadsheet"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "use the fill tools",
+          "explain": "drag the fill handle for quick extension or set step and stop values under Fill then Series"
+        },
+        {
+          "step": 2,
+          "action": "bring in outside data",
+          "explain": "comma-separated text opens row by row through the From Text import on the Data tab"
+        }
+      ]
+    },
+    {
+      "id": "leca102.16",
+      "title": "Data Validation and Data Forms",
+      "section": "2.2.2 Data Validation; 2.2.3 Data Validation Form",
+      "definition": "Data validation restricts what a cell accepts: a drop-down list sourced from a typed list, a cell range or a named range admits only listed entries such as departments or Male/Female; limits admit only whole numbers, decimals, dates or text lengths inside bounds, like an age between 18 and 58; and custom formulas reject duplicates, over-budget sums or weekend dates. Error alerts come in three severities -- Information, Warning and Stop -- and a data form shows one full record per dialog box for easy add, change, find and delete.",
+      "formula": "validation_rules = list plus limits plus custom formula plus error_alert",
+      "key_idea": "Lists, numeric bounds and formula tests screen entries before bad data ever lands in the sheet.",
+      "textbook_ref": "leca102.txt, data validation sections (approx lines 2200-2447)",
+      "question_patterns": [
+        "how can a drop-down list restrict the department names entered in a column",
+        "which validation setting keeps an employee's age between 18 and 58",
+        "distinguish the Information, Warning and Stop styles of error alert",
+        "how does a custom formula block duplicate employee numbers in a range",
+        "what is a data form and which record operations does it support"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "configure the rule",
+          "explain": "choose list, whole number, decimal, date, time, text length or custom formula under the Setting tab"
+        },
+        {
+          "step": 2,
+          "action": "set the messages",
+          "explain": "an input message guides the user while the error alert of chosen severity answers invalid entries; the data form handles whole records"
+        }
+      ]
+    },
+    {
+      "id": "leca102.17",
+      "title": "Formatting, Conditional Formatting and Printing Output",
+      "section": "2.3 Data Formatting; 2.4 Output Reports",
+      "definition": "Formatting makes a sheet readable: number formats attach currency, percentage, comma and decimal styling; text tools change fonts, borders, alignment and merge cells; and conditional formatting recolours cells that meet a condition, using data bars, colour scales and icon sets to expose exceptions and trends. For output, a print area is defined from Page Layout or Page Setup, headers and footers carry titles and page numbers, and whole or partial sheets, tables, charts and pivot tables print directly or to file.",
+      "formula": "output_prep = number formats plus conditional formatting plus print_area plus headers",
+      "key_idea": "Format numbers and flag exceptions on screen, then fence the print area and dress the page for the printer.",
+      "textbook_ref": "leca102.txt, sections 2.3 and 2.4 (approx lines 2448-3118)",
+      "question_patterns": [
+        "explain the purpose of conditional formatting and its data bars and colour scales",
+        "how is the print area of a worksheet defined and later cleared",
+        "which steps format a range as currency with zero decimal places",
+        "what do headers and footers add to a printed spreadsheet",
+        "how are two non-contiguous ranges printed at once"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "apply the formats",
+          "explain": "number category for currency or percentage, font and border tools for looks, conditional rules for exception highlighting"
+        },
+        {
+          "step": 2,
+          "action": "prepare the print",
+          "explain": "set or add to the print area, add header and footer text, then print or preview selections, tables and charts"
+        }
+      ]
+    },
+    {
+      "id": "leca102.18",
+      "title": "Pivot Table Reports and Data Tables",
+      "section": "2.5 Preparation of Reports using Pivot Table",
+      "definition": "A data table shows the results of substituting different inputs into a formula -- one-variable tables substitute down a column, two-variable tables combine a row list with a column list. A pivot table goes further: it cross-tabulates a long data list, dragging fields into report filter, column labels, row labels and values so that city-wise or product-wise summaries appear, and the layout pivots -- rows become columns -- for fresh views, with drill-down, filtering and grouping built in.",
+      "formula": "pivot_report = row labels plus column labels plus values plus report filter",
+      "key_idea": "Data tables test formula inputs; pivot tables cross-tabulate a whole list and pivot views on demand.",
+      "textbook_ref": "leca102.txt, section 2.5 (approx lines 3119-3299)",
+      "question_patterns": [
+        "define one-variable and two-variable data tables with examples",
+        "what is a pivot table and how is one created from a worksheet list",
+        "which pivot table areas receive the report filter, column label, row label and values",
+        "list the advantages of a pivot table report for analysing large data",
+        "how does pivoting rows to columns give a different summary of the same data"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "set up the data table",
+          "explain": "one formula, one or two input cells, and What-if Analysis then Data Table fills the substitution grid"
+        },
+        {
+          "step": 2,
+          "action": "build the pivot report",
+          "explain": "select the list, insert a pivot table, drag fields into filter, column, row and values areas, then rearrange or drill down"
+        }
+      ]
+    },
+    {
+      "id": "leca102.19",
+      "title": "Common Formula Error Values",
+      "section": "2.6 Common Errors in Spreadsheet",
+      "definition": "When a formula cannot evaluate, Excel shows an error value, each with its own cause: ##### means the column is too narrow or a date went negative; #DIV/0! signals division by zero or an empty divisor cell; #N/A means a value is missing or a lookup failed; #NAME? shows unrecognised text in a formula; #NULL! marks two ranges that do not intersect; #NUM! flags invalid numeric arguments or non-converging iterations; #REF! follows deleted or pasted-over referenced cells; and #VALUE! arises from the wrong argument type, such as adding text to a number.",
+      "formula": "error_values = width_error plus div_zero plus not_available plus name_error plus null_error plus num_error plus ref_error plus type_error",
+      "key_idea": "Each error code names its own failure -- width, zero divisor, missing lookup, unknown name, disjoint ranges, bad numbers, lost references, wrong types.",
+      "textbook_ref": "leca102.txt, section 2.6 (approx lines 3300-3621)",
+      "question_patterns": [
+        "why does a cell display ##### and how is it corrected",
+        "which error appears when a formula divides by zero and what are its remedies",
+        "what does the #REF! error indicate and which actions cause it",
+        "distinguish the causes of the #NAME? and #VALUE! error values",
+        "why does a lookup on a value smaller than the smallest key return #N/A"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "read the code",
+          "explain": "the error value identifies the failure family, from display width to argument type"
+        },
+        {
+          "step": 2,
+          "action": "apply the fix",
+          "explain": "widen or reformat for #####, guard the divisor with IF for #DIV/0!, restore references for #REF!, correct types and names for the rest"
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "ex1",
+      "source_ref": "leca102.txt compound interest example, Figure 2.6",
+      "concept": "leca102.6",
+      "question_type": "numeric",
+      "question_pattern": "A fixed deposit of Rs {deposit_amt} earns {rate_pct} per cent per annum compounded yearly for {years_count} years. Using the worksheet formula, find the compound interest earned.",
+      "extracted_variables": {
+        "deposit_amt": 10000,
+        "rate_pct": 9,
+        "years_count": 3,
+        "compounds_per_year": 1
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "count the compounding periods",
+          "explain": "3 years x 1 compounding a year = 3 periods",
+          "compute": "periods_total = years_count * compounds_per_year"
+        },
+        {
+          "step": 2,
+          "action": "compound the principal",
+          "explain": "10000 x (1 + 9/100) ^ 3 = 12950.29, the maturity amount",
+          "compute": "maturity_amount = deposit_amt * (1 + rate_pct / (100 * compounds_per_year)) ** periods_total"
+        },
+        {
+          "step": 3,
+          "action": "subtract the principal",
+          "explain": "12950.29 - 10000 = 2950.29, the compound interest",
+          "compute": "interest_earned = maturity_amount - deposit_amt"
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "source_ref": "leca102.txt Skill Review A weekly sales average",
+      "concept": "leca102.7",
+      "question_type": "numeric",
+      "question_pattern": "An online business sells Rs {sale_mon} on Monday, {sale_tue} on Tuesday, {sale_wed} on Wednesday, {sale_thu} on Thursday, {sale_fri} on Friday, {sale_sat} on Saturday and {sale_sun} on Sunday. Use the SUM and AVERAGE functions to find the mean earning per day.",
+      "extracted_variables": {
+        "sale_mon": 120.45,
+        "sale_tue": 187.43,
+        "sale_wed": 106.87,
+        "sale_thu": 143.69,
+        "sale_fri": 117.52,
+        "sale_sat": 87.93,
+        "sale_sun": 92.12
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "add the range entries",
+          "explain": "=SUM of the seven days gives 856.01",
+          "compute": "week_total = sale_mon + sale_tue + sale_wed + sale_thu + sale_fri + sale_sat + sale_sun"
+        },
+        {
+          "step": 2,
+          "action": "divide by the entry count",
+          "explain": "856.01 / 7 = 122.29, the average earning per day",
+          "compute": "day_avg = week_total / 7"
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "source_ref": "leca102.txt VLOOKUP markup example, Figure 2.25",
+      "concept": "leca102.12",
+      "question_type": "numeric",
+      "question_pattern": "A product's looked-up cost is Rs {item_cost} with a markup of {markup_pct} per cent, and a discount of {discount_pct} per cent applies on the retail price. Find the net price the customer pays.",
+      "extracted_variables": {
+        "item_cost": 21.45,
+        "markup_pct": 35,
+        "discount_pct": 20
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "raise cost by the markup",
+          "explain": "21.45 x 1.35 = 28.96, the retail price",
+          "compute": "retail_price = item_cost * (1 + markup_pct / 100)"
+        },
+        {
+          "step": 2,
+          "action": "cut the retail price by the discount",
+          "explain": "28.96 x 0.80 = 23.16, the net price payable",
+          "compute": "net_price = retail_price * (1 - discount_pct / 100)"
+        }
+      ]
+    },
+    {
+      "id": "ex4",
+      "source_ref": "leca102.txt PMT loan example",
+      "concept": "leca102.13",
+      "question_type": "numeric",
+      "question_pattern": "A loan of Rs {loan_amt} is repayable over {periods} monthly instalments at {rate_pct_pct} per cent interest per month. Using the PMT logic, find the equal monthly instalment.",
+      "extracted_variables": {
+        "loan_amt": 10000,
+        "periods": 48,
+        "rate_per": 0.01
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "grow one unit over the term",
+          "explain": "1.01 ^ 48 = 1.6122, the compound growth factor",
+          "compute": "growth = (1 + rate_per) ** periods"
+        },
+        {
+          "step": 2,
+          "action": "isolate the growth excess",
+          "explain": "1.6122 - 1 = 0.6122, the growth earned over the term",
+          "compute": "growth_gap = growth - 1"
+        },
+        {
+          "step": 3,
+          "action": "scale the loan into the instalment",
+          "explain": "10000 x 0.01 x 1.6122 / 0.6122 = 263.34, the EMI",
+          "compute": "loan_emi = loan_amt * rate_per * growth / growth_gap"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex-leca102-mcq",
+      "source_ref": "leca102.txt Exercise Q1 Multiple Choice 1-15",
+      "questions": [
+        "Where is the address of the active cell displayed: row heading, status bar, name box or formula bar?",
+        "Which function automatically totals a column or row of values: TOTAL, ADD, SUM or AVG?",
+        "Which mathematical operator does the asterisk represent?",
+        "Which cell alignment do most values receive by default?",
+        "How many blank worksheets appear when a new workbook is created?"
+      ]
+    },
+    {
+      "id": "ex-leca102-short",
+      "source_ref": "leca102.txt Exercise Q2 Answer the Following 1-19",
+      "questions": [
+        "Define a spreadsheet and its salient features; list five advantages of an electronic spreadsheet over a manual one.",
+        "Differentiate between relative reference and absolute reference with examples.",
+        "Discuss IF and nested IF functions giving examples.",
+        "Write the syntax of any two financial functions with examples and state the use of the PMT function.",
+        "Define one-variable and two-variable data tables and explain them with examples.",
+        "Define a pivot table and explain its usage; write the differences between a formula and a function."
+      ]
+    },
+    {
+      "id": "ex-leca102-skill",
+      "source_ref": "leca102.txt Exercise Q3 Skill Review A and D",
+      "questions": [
+        "Weekly sales of an online business are Rs 120.45, 187.43, 106.87, 143.69, 117.52, 87.93 and 92.12; use a function to work out the average earning per day.",
+        "Create a worksheet tracking revenue and expenses of tour programmes at Manali, Kashmir, Shillong and Kerala for 2004-2008, format it in currency, compute year-wise differences and apply conditional formatting to high and low values."
+      ]
+    }
+  ]
+}

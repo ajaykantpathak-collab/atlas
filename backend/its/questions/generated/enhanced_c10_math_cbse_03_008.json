@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_03_008",
+   "title": "c10_math_cbse_03_008",
+   "questions": [
+    {
+     "q": "If the equations are 2/x + 3/y = 13 and 5/x - 4/y = -2, what substitution will reduce them to a pair of linear equations in two variables?",
+     "a": "Let u = 1/x and v = 1/y. The equations become 2u + 3v = 13 and 5u - 4v = -2, which are linear in u and v. A wrong answer like \"let u = x, v = y\" reveals the student does not recognise that the non-linearity comes from variables in denominators and that reciprocal substitution is needed to linearise.",
+     "self_check": true
+    },
+    {
+     "q": "Why must we state the condition x ≠ 0 and y ≠ 0 before substituting u = 1/x, v = 1/y in the equations 3/x + 2/y = 12 and 2/x + 3/y = 13?",
+     "a": "The substitution u = 1/x is only defined when x ≠ 0 because division by zero is undefined; similarly y ≠ 0 for v = 1/y. If a student omits this, they might obtain a solution like x = 0, y = 1 which makes the original equations meaningless. A wrong answer reveals confusion between the domain of the transformed linear system (all real u, v) and the domain of the original variables.",
+     "self_check": true
+    },
+    {
+     "q": "Solve the following pair of equations by reducing them to linear equations using substitution method:\n1/(x+y) + 2/(x-y) = 2\n2/(x+y) - 1/(x-y) = 3\nwhere x+y ≠ 0 and x-y ≠ 0.",
+     "a": "Step 1: Let u = 1/(x+y) and v = 1/(x-y). Conditions: x+y ≠ 0, x-y ≠ 0.\nStep 2: Equations become: u + 2v = 2  ...(i); 2u - v = 3  ...(ii)\nStep 3: From (ii): v = 2u - 3. Substitute in (i): u + 2(2u - 3) = 2 → u + 4u - 6 = 2 → 5u = 8 → u = 8/5.\nStep 4: v = 2(8/5) - 3 = 16/5 - 15/5 = 1/5.\nStep 5: Back-substitute: 1/(x+y) = 8/5 → x+y = 5/8; 1/(x-y) = 1/5 → x-y = 5.\nStep 6: Add: 2x = 5/8 + 5 = 45/8 → x = 45/16. Subtract: 2y = 5/8 - 5 = -35/8 → y = -35/16.\nCheck: x+y = 10/16 = 5/8 ≠ 0, x-y = 80/16 = 5 ≠ 0. Answer: x = 45/16, y = -35/16.\nA wrong answer where the student forgets to back-substitute (stops at u=8/5, v=1/5) reveals they treat the transformed variables as final answers.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the equations 3/x + 4/y = 10 and 3x + 4y = 10. Which one is reducible to linear form? Explain why the other is already linear and does not need substitution.",
+     "a": "3/x + 4/y = 10 is reducible to linear form by substituting u = 1/x, v = 1/y, giving 3u + 4v = 10. The equation 3x + 4y = 10 is already linear in x and y (degree 1, variables not in denominator). A student who says both need substitution does not understand the definition of a linear equation in two variables (ax + by + c = 0 where x, y have power 1).",
+     "self_check": true
+    },
+    {
+     "q": "A student solves 2/x + 3/y = 13, 5/x - 4/y = -2 by substituting u = 1/x, v = 1/y, gets u = 2, v = 3, and writes final answer as x = 2, y = 3. Evaluate this solution and identify the error.",
+     "a": "The solution is incorrect. The student correctly found u = 2, v = 3 but forgot to back-substitute: x = 1/u = 1/2, y = 1/v = 1/3. The error is treating the transformed variables u, v as the original variables x, y. This reveals a procedural gap: the student executes the substitution and solving steps but misses the crucial reversal step that connects the solution back to the original problem context.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem involving two unknowns where the equations reduce to linear form via reciprocal substitution. The problem must involve a real-life Indian context (e.g., speed, work, mixture) and yield fractional answers for the original variables.",
+     "a": "Example: \"A boat travels 30 km upstream and 44 km downstream in 10 hours. In 13 hours, it travels 40 km upstream and 55 km downstream. Find the speed of the boat in still water and the speed of the stream.\" Let speed of boat = x km/h, speed of stream = y km/h. Upstream speed = x-y, downstream = x+y. Equations: 30/(x-y) + 44/(x+y) = 10 and 40/(x-y) + 55/(x+y) = 13. Substitute u = 1/(x-y), v = 1/(x+y) → 30u + 44v = 10, 40u + 55v = 13. Solving gives u = 1/5, v = 1/11 → x-y = 5, x+y = 11 → x = 8 km/h, y = 3 km/h. A poor answer would give integer times or not yield fractional original variables, showing the student cannot reverse-engineer the substitution structure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

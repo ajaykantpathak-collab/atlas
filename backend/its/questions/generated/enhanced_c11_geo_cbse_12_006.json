@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_12_006",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_12_006",
+   "title": "c11_geo_cbse_12_006",
+   "questions": [
+    {
+     "q": "State the primary parent rock types and the specific iron oxide minerals responsible for the red and yellow colours in these soils.",
+     "a": "Primary parent rocks: granite, gneiss, schist (crystalline and metamorphic). Red colour: haematite (Fe₂O₃) from oxidation under well-drained conditions. Yellow colour: limonite (Fe₂O₃·nH₂O) from hydration under poorly drained conditions. A wrong answer (e.g., \"basalt parent rock\" or \"red from laterite\") reveals confusion with black soils (deccan trap basalt) or laterite soils (intense leaching product), indicating the student has not linked parent material mineralogy to soil colour genesis.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why red soils are generally deficient in nitrogen, phosphorus, and humus despite being derived from mineral-rich crystalline rocks.",
+     "a": "High temperatures accelerate organic matter decomposition (low humus), while moderate rainfall (50-100 cm) causes sufficient leaching to remove soluble bases (Ca, Mg, K) and silica, leaving behind sesquioxides (Fe, Al oxides) but not intense enough to form laterite. Phosphorus gets fixed by iron/aluminium oxides. Nitrogen is low due to rapid mineralisation and lack of organic input. A wrong answer attributing deficiency solely to \"leaching\" or \"sandy texture\" misses the combined role of climate-driven decomposition rates and specific chemical fixation mechanisms, showing incomplete understanding of pedogenic nutrient cycling.",
+     "self_check": true
+    },
+    {
+     "q": "Given a topographic cross-section of the Peninsular Plateau showing a hilltop (well-drained), a mid-slope, and a valley bottom (poorly drained), predict the soil colour sequence from hilltop to valley and justify using the oxidation-hydration mechanism.",
+     "a": "Sequence: Hilltop → Red (haematite, Fe³⁺, well-drained, aerobic) → Mid-slope → Reddish-yellow (transition) → Valley bottom → Yellow (limonite, Fe³⁺ hydrated, waterlogged, anaerobic). Steps: 1) Identify drainage gradient from topography. 2) Recall iron oxidation state depends on Eh (redox potential). 3) Well-drained = high Eh = haematite (red). 4) Waterlogged = low Eh = hydrated oxides = limonite (yellow). A wrong sequence (e.g., yellow on hilltop) reveals the student treats colour as random or parent-material-only, ignoring the critical topographic control on soil moisture regime and redox conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the agricultural limitations of red soils in Tamil Nadu (coastal plains fringe) versus Jharkhand (Chotanagpur plateau) considering both inherent soil properties and external climatic factors.",
+     "a": "Tamil Nadu red soils: Sandy texture, low water-holding capacity, high temperatures → rapid moisture loss; suited for millets, groundnut with irrigation. Jharkhand red soils: More gravelly/stonier on slopes, severe erosion risk, acidic pH (Al toxicity), but higher rainfall (100-150 cm) supports rice in valleys. Both share low N, P, humus. A wrong answer listing only \"low fertility\" for both misses the texture-erosion-climate interaction: Tamil Nadu's limitation is moisture stress (low rainfall, high evaporation), Jharkhand's is erosion and acidity (high rainfall on slopes). This tests ability to integrate soil properties with regional climate (c6_geography_ch03_019) and topography (c6_geography_ch01_004).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Red soils are the most extensive soil group in India after alluvial soils.\" Support your evaluation with quantitative distribution data and qualitative reasoning about the Peninsular Plateau's geological unity.",
+     "a": "Evaluation: **True**. Red soils cover ~3.5 lakh km² (18-20% of India's land area), second only to alluvial soils (~45%). Reasoning: The Peninsular Plateau (c6_geography_ch01_004) is a vast, geologically stable shield of crystalline rocks experiencing uniform moderate rainfall and high temperatures — ideal for red soil formation across Maharashtra, Karnataka, Andhra Pradesh, Tamil Nadu, Odisha, Jharkhand, Chhattisgarh. A wrong evaluation (\"Black soils are second\") confuses visibility (black cotton soil fame) with actual areal extent, or ignores the plateau's geological homogeneity that produces regionally consistent pedogenesis.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sustainable land-use plan for a 100-hectare red soil farm in interior Karnataka (rainfall 70 cm, undulating terrain) that addresses the three main constraints: low fertility, moisture stress, and erosion risk. Specify crops, soil amendments, and conservation structures.",
+     "a": "Good answer criteria: 1) Crops: Finger millet (ragi), pigeon pea (tur), groundnut — drought-tolerant, low nutrient demand. 2) Amendments: FYM 10 t/ha + rock phosphate (P source in acidic soil) + green manuring (sunhemp) for N. 3) Conservation: Contour bunding + graded bunds on >2% slope + vetiver hedges on boundaries. 4) Water harvesting: Farm ponds (1 per 10 ha) for supplemental irrigation. A poor answer suggests water-intensive crops (rice, sugarcane), chemical fertilizers without organic matter, or no erosion control — revealing failure to integrate soil properties (sandy, low CEC), climate (low rainfall), and topography (undulating) into a coherent management strategy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

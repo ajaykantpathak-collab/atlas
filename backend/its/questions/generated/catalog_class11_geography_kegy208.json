@@ -1,0 +1,41 @@
+{
+  "catalog": "catalog_class11_geography_kegy208",
+  "concepts": [
+    {
+      "id": "kegy.208.1.1",
+      "questions": [
+        {"q": "What is the incoming solar radiation at the top of the atmosphere called? (one word)", "a": "insolation"},
+        {"q": "Out of 100 units of incoming radiation, about 35 are reflected back. How many units remain to heat the earth? (number)", "a": "65"},
+        {"q": "What is the fraction of solar radiation reflected back by clouds and surfaces called? (one word)", "a": "albedo"},
+        {"q": "If albedo rises from 35 to 40 units, how many units of 100 heat the surface? (number)", "a": "60"},
+        {"q": "The earth maintains a heat budget in which gains equal what? (one word)", "a": "losses"},
+        {"q": "Which two reflectors bounce insolation back to space (clouds and what else)? (one word)", "a": "dust"},
+        {"q": "About what per cent of insolation is reflected as albedo? (give the per cent)", "a": "35"}
+      ]
+    },
+    {
+      "id": "kegy.208.2.1",
+      "questions": [
+        {"q": "Temperature falls about 6.5 degrees C per km of what? (one word)", "a": "altitude"},
+        {"q": "Which lines join places of equal temperature on maps? (one word)", "a": "isotherms"},
+        {"q": "Which distance-based control of temperature separates coastal from inland sites? (short phrase)", "a": "distance from the sea"},
+        {"q": "Which ocean feature moderates coastal temperatures by carrying warm or cold water? (two words)", "a": "ocean currents"},
+        {"q": "Which aspect, south-facing or north-facing slopes in the northern hemisphere, gets more sun? (short phrase)", "a": "south-facing slopes"},
+        {"q": "Isotherms bend across continents and oceans between January and which month? (give the month)", "a": "July"},
+        {"q": "Which air masses carry their temperature to new regions? (two words)", "a": "air masses"}
+      ]
+    },
+    {
+      "id": "kegy.208.3.1",
+      "questions": [
+        {"q": "Which latitude zone shows surplus net radiation? (one word)", "a": "tropics"},
+        {"q": "Which polar regions show a deficit in the heat balance? (one word)", "a": "poles"},
+        {"q": "Which two circulations carry surplus heat polewards? (two words)", "a": "atmospheric, oceanic"},
+        {"q": "Heat transfer keeps the tropics from what extreme? (one word)", "a": "overheating"},
+        {"q": "Heat transfer keeps the poles from what extreme? (one word)", "a": "freezing"},
+        {"q": "Is net radiation at the poles a surplus or a deficit? (one word)", "a": "deficit"},
+        {"q": "Winds and ocean currents redistribute heat from low to high what? (one word)", "a": "latitudes"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_21_002",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_21_002",
+   "title": "c11_geo_cbse_21_002",
+   "questions": [
+    {
+     "q": "List the five categories of road classification in India in descending order of their administrative hierarchy and typical design standards.",
+     "a": "Correct order: National Highways (NH) > State Highways (SH) > Major District Roads (MDR) > Other District Roads (ODR) > Village/Rural Roads (VR). A wrong answer (e.g., placing MDR above SH, or confusing ODR with VR) reveals the student has not internalized the hierarchical relationship between administrative level, connectivity function, and design standards.",
+     "self_check": true
+    },
+    {
+     "q": "Why are National Highways numbered with a systematic north-south (odd numbers) and east-west (even numbers) grid, while State Highways lack a uniform national numbering pattern?",
+     "a": "National Highways form a national grid requiring a unified navigation system; the odd/even numbering helps users identify orientation across state boundaries. State Highways are managed independently by each state, so their numbering is state-specific. A wrong answer (e.g., \"NH numbering is random\" or \"SHs follow the same grid\") shows the student misses the link between administrative centralization and standardized navigation.",
+     "self_check": true
+    },
+    {
+     "q": "A road connects the district headquarters of Bhilwara (Rajasthan) to the nearby town of Shahpura, carries moderate traffic (300 PCUs/day), and is maintained by the Rajasthan PWD with funding from the District Panchayat. Classify this road and justify using two criteria.",
+     "a": "Major District Road (MDR). Criteria: (1) It connects district headquarters to a taluka town within the same district (intra-district connectivity). (2) It is maintained by the state PWD but funded partly by the district panchayat, typical for MDRs. A wrong classification as State Highway would ignore that SHs link district headquarters to the state capital or other major cities across districts.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of National Highways and Rural Roads in reducing regional disparity. Use the concepts of \"trunk-haul efficiency\" and \"last-mile connectivity\" in your answer.",
+     "a": "National Highways provide trunk-haul efficiency by linking metros, ports, and industrial corridors, enabling long-distance freight movement. Rural Roads provide last-mile connectivity, integrating villages into market networks. Together they form a hierarchical network: NHs reduce inter-regional disparity, while Rural Roads reduce intra-regional disparity. A wrong answer that treats them as interchangeable misses the complementary scales of economic integration.",
+     "self_check": true
+    },
+    {
+     "q": "The Bharatmala Pariyojana focuses on developing economic corridors, inter-corridors, and feeder routes. Evaluate whether this program addresses the gaps in the traditional NH-SH-MDR classification.",
+     "a": "Yes, Bharatmala shifts from purely administrative classification to functional economic corridors. It identifies high-traffic routes cutting across NH/SH boundaries, develops multimodal logistics parks, and upgrades feeder routes (often MDRs/ODRs) to connect hinterlands. This addresses the gap where administrative categories didn't align with actual freight flows. A wrong answer that says \"Bharatmala only builds new NHs\" shows misunderstanding of its corridor-based approach.",
+     "self_check": true
+    },
+    {
+     "q": "Design a road-upgradation proposal for a backward district where 60% of villages lack all-weather roads. Specify which categories of roads you would prioritize, the funding sources (Central/State/Local), and the expected socio-economic outcomes.",
+     "a": "Prioritize: (1) Upgrade critical MDRs to SH standards to connect district HQ to NH (Central funding via CRF). (2) Convert ODRs to MDRs for block-level connectivity (State funding). (3) Construct new VR roads under PMGSY-III (Central 60% + State 40%). Outcomes: Reduced travel time to markets, higher school attendance, better healthcare access. A poor answer that only builds VR roads without linking to higher-order roads misses the network effect.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

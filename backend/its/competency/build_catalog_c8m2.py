@@ -1,0 +1,449 @@
+"""Build concept catalog for Class 8 Maths Chapter 2 (Linear Equations in One Variable).
+Extracted from hemh102.txt -- NCERT Class 8 Maths textbook (Reprint 2024-25).
+Note: this file of the chapter covers sections 2.1-2.3 only (abridged on disk).
+"""
+import json
+import os
+
+CATALOG = {
+    "class": 8,
+    "subject": "maths",
+    "chapter": 2,
+    "chapter_title": "Linear Equations in One Variable",
+    "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hemh102.txt",
+    "concepts": [
+        {
+            "id": "c8m2.1.1",
+            "title": "Linear Equation in One Variable",
+            "section": "2.1",
+            "definition": "An algebraic equation is an equality involving variables. It has an equality sign. The expression on the left of the equality sign is the Left Hand Side (LHS) and the expression on the right is the Right Hand Side (RHS). Equations with linear expressions in one variable only are known as linear equations in one variable. Linear means the highest power of the variable appearing in the expression is 1.",
+            "formula": "linear equation in one variable: one variable, highest power = 1, e.g. 2x - 3 = 7",
+            "key_idea": "One variable, power 1, with an equality sign separating LHS and RHS.",
+            "textbook_ref": "hemh102.txt lines 13-35",
+            "question_patterns": [
+                "what is a linear equation",
+                "which of the following are linear equations",
+                "is x squared plus 1 a linear equation",
+                "identify the linear equation in one variable",
+                "what does linear mean in an equation",
+                "identify LHS and RHS of the equation",
+                "which expression is not linear",
+                "what is the highest power of the variable in a linear equation",
+            ],
+            "solution_type": "verify_property",
+            "solution_steps": [
+                {
+                    "step": 1,
+                    "action": "count the variables",
+                    "explain": "A linear equation in one variable contains only one variable",
+                },
+                {
+                    "step": 2,
+                    "action": "check the highest power",
+                    "explain": "Linear means the highest power of the variable is 1; expressions like x^2 + 1 or 1 + z + z^2 are not linear",
+                },
+                {
+                    "step": 3,
+                    "action": "check the equality sign",
+                    "explain": "Equations use the equality sign; expressions without = are not equations",
+                },
+            ],
+        },
+        {
+            "id": "c8m2.1.2",
+            "title": "Solution of an Equation (LHS = RHS)",
+            "section": "2.1",
+            "definition": "In an equation the values of the expressions on the LHS and RHS are equal; this happens to be true only for certain values of the variable. These values are the solutions of the equation. For example, x = 5 is the solution of 2x - 3 = 7 because LHS = 2 x 5 - 3 = 7 = RHS; x = 10 is not a solution since LHS = 17, not equal to RHS.",
+            "formula": "solution check: LHS(a * value - b) == RHS(c) for a x - b = c",
+            "key_idea": "A solution is the value of the variable that makes LHS equal to RHS.",
+            "textbook_ref": "hemh102.txt lines 39-56",
+            "question_patterns": [
+                "check whether x equals 5 is a solution",
+                "is x = 5 the solution of 2x - 3 = 7",
+                "verify the solution of the equation",
+                "check your result by substitution",
+                "find the value of x that satisfies the equation",
+                "which value satisfies the equation",
+                "verify LHS equals RHS",
+                "is the given value a solution of the equation",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {
+                    "step": 1,
+                    "action": "substitute the value in LHS",
+                    "explain": "Put x = value into the left hand side a x - b",
+                    "compute": "a * value - b",
+                },
+                {
+                    "step": 2,
+                    "action": "evaluate RHS",
+                    "explain": "The right hand side is the constant c",
+                    "compute": "c",
+                },
+                {
+                    "step": 3,
+                    "action": "compare LHS and RHS",
+                    "explain": "If LHS = RHS, the value is a solution; otherwise it is not",
+                },
+            ],
+        },
+        {
+            "id": "c8m2.2.1",
+            "title": "Solving Equations with the Variable on Both Sides",
+            "section": "2.2",
+            "definition": "An equation is the equality of the values of two expressions. Both sides could have expressions with variables, for example 2x - 3 = x + 2. To solve, we assume the two sides of the equation are balanced and perform the same mathematical operations on both sides so that the balance is not disturbed. We can subtract a term involving the variable from both sides; subtracting x from both sides amounts to transposing x to LHS.",
+            "formula": "a*x + b = c*x + d -> (a - c)*x = d - b -> x = (d - b) / (a - c)",
+            "key_idea": "Bring variable terms to one side, numbers to the other, then divide.",
+            "textbook_ref": "hemh102.txt lines 57-96",
+            "question_patterns": [
+                "solve 2x - 3 = x + 2",
+                "solve the equation with variable on both sides",
+                "solve 5x + 7/2 = 3x/2 - 14",
+                "find x in the equation",
+                "solve for x",
+                "solve and check your result",
+                "solve 5t - 3 = 3t - 5",
+                "solve 8x + 4 = 3(x - 1) + 7",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {
+                    "step": 1,
+                    "action": "bring variable terms to one side",
+                    "explain": "Transpose all terms with the variable to the LHS",
+                },
+                {
+                    "step": 2,
+                    "action": "combine like terms",
+                    "explain": "x coefficient = a - c; constant = d - b",
+                    "compute": "a - c",
+                },
+                {
+                    "step": 3,
+                    "action": "isolate x",
+                    "explain": "Divide both sides by the coefficient of x",
+                    "compute": "(d - b) / (a - c)",
+                },
+                {
+                    "step": 4,
+                    "action": "check",
+                    "explain": "Substitute the solution back to verify LHS = RHS",
+                },
+            ],
+        },
+        {
+            "id": "c8m2.2.2",
+            "title": "Transposing Terms",
+            "section": "2.2",
+            "definition": "Just as numbers, variables can also be transposed from one side of the equation to the other. Transposing a term means moving it across the equality sign; subtracting x from both sides amounts to transposing x to LHS. When a term is transposed its sign changes.",
+            "formula": "a*x + b = c -> a*x = c - b",
+            "key_idea": "A term moved across the equality sign changes sign.",
+            "textbook_ref": "hemh102.txt lines 73-75, 197-206 (What Have We Discussed, point 4)",
+            "question_patterns": [
+                "transpose the terms and solve",
+                "solve by transposing",
+                "move the constant to the right side",
+                "what happens to the sign when a term is transposed",
+                "solve a x + b = c by transposing b",
+                "shift the variable terms to the left",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {
+                    "step": 1,
+                    "action": "transpose the constant to the other side",
+                    "explain": "a x + b = c gives a x = c - b (sign of b changes)",
+                    "compute": "c - b",
+                },
+                {
+                    "step": 2,
+                    "action": "divide by the coefficient",
+                    "explain": "x = (c - b) / a",
+                    "compute": "(c - b) / a",
+                },
+            ],
+        },
+        {
+            "id": "c8m2.3.1",
+            "title": "Reducing Equations to Simpler Form",
+            "section": "2.3",
+            "definition": "Occasionally, the expressions forming equations have to be simplified before we can solve them by usual methods. Some equations may not even be linear to begin with, but they can be brought to a linear form by multiplying both sides of the equation by a suitable expression. Multiply both sides by the LCM (smallest multiple) of the denominators of the terms in the expressions of the equation, then solve.",
+            "formula": "multiply both sides by LCM of denominators, then transpose and divide",
+            "key_idea": "Clear fractions by multiplying both sides by the LCM of the denominators.",
+            "textbook_ref": "hemh102.txt lines 107-134",
+            "question_patterns": [
+                "solve (6x + 1)/3 + 1 = (x - 3)/6",
+                "solve an equation with fractions",
+                "solve equation whose denominators are numbers",
+                "reduce the equation to simpler form and solve",
+                "solve by multiplying both sides by the LCM",
+                "clear the fractions and solve for x",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {
+                    "step": 1,
+                    "action": "find the LCM of the denominators",
+                    "explain": "The LCM is the smallest multiple of the given denominators",
+                },
+                {
+                    "step": 2,
+                    "action": "multiply both sides by the LCM",
+                    "explain": "Every term on both sides is multiplied by the LCM",
+                },
+                {
+                    "step": 3,
+                    "action": "open brackets and combine like terms",
+                    "explain": "Simplify both sides to a x + b = c x + d form",
+                },
+                {
+                    "step": 4,
+                    "action": "solve the linear equation",
+                    "explain": "Transpose and divide by the coefficient of x",
+                    "compute": "(d - b) / (a - c)",
+                },
+            ],
+        },
+        {
+            "id": "c8m2.3.2",
+            "title": "Solving Equations with Brackets",
+            "section": "2.3",
+            "definition": "We can bring an equation to a simpler form by opening the brackets and combining like terms on both sides of the equation. For example, 5x - 2(2x - 7) = 2(3x - 1) + 7/2 gives LHS = x + 14 and RHS = 6x + 3/2, which is then solved by transposing.",
+            "formula": "open brackets -> combine like terms -> transpose -> x = (d - b) / (a - c)",
+            "key_idea": "Open brackets first, combine like terms on both sides, then solve.",
+            "textbook_ref": "hemh102.txt lines 135-181",
+            "question_patterns": [
+                "solve 5x - 2(2x - 7) = 2(3x - 1) + 7/2",
+                "solve the equation by opening the brackets",
+                "simplify and solve the linear equation",
+                "solve 3(t - 3) = 5(2t + 1)",
+                "solve 15(y - 4) - 2(y - 9) + 5(y + 6) = 0",
+                "solve equation with brackets",
+                "open the brackets and solve for x",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {
+                    "step": 1,
+                    "action": "open the brackets on both sides",
+                    "explain": "Multiply every term inside each bracket by the factor outside",
+                },
+                {
+                    "step": 2,
+                    "action": "combine like terms on each side",
+                    "explain": "Reduce each side to a single expression in x",
+                },
+                {
+                    "step": 3,
+                    "action": "transpose variable terms to LHS and constants to RHS",
+                    "explain": "Signs change while transposing",
+                },
+                {
+                    "step": 4,
+                    "action": "divide by the coefficient of x",
+                    "explain": "x = constant / x coefficient",
+                    "compute": "(d - b) / (a - c)",
+                },
+            ],
+        },
+    ],
+    "worked_examples": [
+        {
+            "id": "ex1",
+            "source_ref": "hemh102.txt lines 67-75 (Example 1)",
+            "concept": "c8m2.2.1",
+            "question_type": "solve_variable_both_sides",
+            "question_pattern": "solve {a}x - {b} = {c}x + {d}",
+            "extracted_variables": {
+                "a": "coefficient of x on LHS",
+                "b": "constant on LHS",
+                "c": "coefficient of x on RHS",
+                "d": "constant on RHS",
+            },
+            "solution_template": [
+                {
+                    "step": 1,
+                    "action": "transpose variable terms",
+                    "explain": "a x - c x = d + b; subtracting x from both sides amounts to transposing",
+                    "compute": "a - c",
+                },
+                {
+                    "step": 2,
+                    "action": "combine constants",
+                    "explain": "Add the constants on the other side",
+                    "compute": "d + b",
+                },
+                {
+                    "step": 3,
+                    "action": "divide",
+                    "explain": "x = (d + b) / (a - c)",
+                    "compute": "(d + b) / (a - c)",
+                },
+            ],
+        },
+        {
+            "id": "ex2",
+            "source_ref": "hemh102.txt lines 77-96 (Example 2)",
+            "concept": "c8m2.3.1",
+            "question_type": "solve_fractions",
+            "question_pattern": "solve {a}x + {b}/{den} = {c}x/{den} - {d}",
+            "extracted_variables": {
+                "a": "coefficient of x on LHS",
+                "b": "numerator added on LHS",
+                "den": "common denominator",
+                "c": "coefficient of x on RHS",
+                "d": "constant subtracted on RHS",
+            },
+            "solution_template": [
+                {
+                    "step": 1,
+                    "action": "multiply both sides by the denominator",
+                    "explain": "Multiplying by 2 here clears the fractions",
+                },
+                {
+                    "step": 2,
+                    "action": "open brackets",
+                    "explain": "Multiply each term by the denominator",
+                },
+                {
+                    "step": 3,
+                    "action": "transpose and combine",
+                    "explain": "Bring x terms to LHS and constants to RHS",
+                },
+                {
+                    "step": 4,
+                    "action": "divide",
+                    "explain": "x = constant total / x coefficient",
+                },
+            ],
+        },
+        {
+            "id": "ex3",
+            "source_ref": "hemh102.txt lines 108-134 (Example 16)",
+            "concept": "c8m2.3.1",
+            "question_type": "reduce_to_simpler_form",
+            "question_pattern": "solve ({a}x + {b})/{m} + {c} = (x - {d})/{n}",
+            "extracted_variables": {
+                "a": "coefficient of x in numerator",
+                "b": "numerator constant",
+                "m": "first denominator",
+                "c": "constant added",
+                "d": "numerator constant on RHS",
+                "n": "second denominator",
+            },
+            "solution_template": [
+                {
+                    "step": 1,
+                    "action": "multiply both sides by the LCM of denominators",
+                    "explain": "Why the LCM? Because it is the smallest multiple of the given denominators",
+                },
+                {
+                    "step": 2,
+                    "action": "simplify each term",
+                    "explain": "Cancel denominators and open brackets",
+                },
+                {
+                    "step": 3,
+                    "action": "transpose and solve",
+                    "explain": "Combine x terms and constants, then divide",
+                },
+                {
+                    "step": 4,
+                    "action": "check LHS = RHS",
+                    "explain": "Substitute the solution in both sides to verify",
+                },
+            ],
+        },
+        {
+            "id": "ex4",
+            "source_ref": "hemh102.txt lines 135-181 (Example 17)",
+            "concept": "c8m2.3.2",
+            "question_type": "solve_with_brackets",
+            "question_pattern": "solve {a}x - {b}({c}x - {d}) = {b}({e}x - {f}) + {g}/{n}",
+            "extracted_variables": {
+                "a": "leading coefficient LHS",
+                "b": "bracket multiplier",
+                "c": "coefficient inside LHS bracket",
+                "d": "constant inside LHS bracket",
+                "e": "coefficient inside RHS bracket",
+                "f": "constant inside RHS bracket",
+                "g": "fraction numerator on RHS",
+                "n": "fraction denominator on RHS",
+            },
+            "solution_template": [
+                {
+                    "step": 1,
+                    "action": "open the brackets",
+                    "explain": "LHS and RHS are each simplified to a linear expression",
+                },
+                {
+                    "step": 2,
+                    "action": "write the simpler equation",
+                    "explain": "Form a x + b = c x + d",
+                },
+                {
+                    "step": 3,
+                    "action": "transpose the x terms and constants",
+                    "explain": "Get p x = q",
+                },
+                {
+                    "step": 4,
+                    "action": "divide",
+                    "explain": "x = q / p",
+                },
+            ],
+        },
+    ],
+    "exercises": [
+        {
+            "id": "ex2.1",
+            "source_ref": "hemh102.txt lines 97-106 (Exercise 2.1)",
+            "questions": [
+                "Solve and check: 3x = 2x + 18",
+                "Solve and check: 5t - 3 = 3t - 5",
+                "Solve and check: 5x + 9 = 5 + 3x",
+                "Solve and check: 4z + 3 = 6 + 2z",
+                "Solve and check: 2x - 1 = 14 - x",
+                "Solve and check: 8x + 4 = 3(x - 1) + 7",
+                "Solve and check: x = 4/5 (x + 10)",
+                "Solve and check: 2x/3 + 1 = 7x/15 + 3",
+                "Solve and check: 2y + 5/3 = 26/3 - y",
+                "Solve and check: 3m = 5m - 8/5",
+            ],
+        },
+        {
+            "id": "ex2.2",
+            "source_ref": "hemh102.txt lines 185-196 (Exercise 2.2)",
+            "questions": [
+                "Solve: x/2 - 1/5 = x/3 + 1/4",
+                "Solve: n/2 - 3n/4 + 5n/6 = 21",
+                "Solve: x + 7 - 8x/3 = 17/6 - 5x/2",
+                "Solve: (x - 5)/3 = (x - 3)/5",
+                "Solve: (3t - 2)/4 - (2t + 3)/3 = 2/3 - t",
+                "Solve: m - (m - 1)/2 = 1 - (m - 2)/3",
+                "Simplify and solve: 3(t - 3) = 5(2t + 1)",
+                "Simplify and solve: 15(y - 4) - 2(y - 9) + 5(y + 6) = 0",
+                "Simplify and solve: 3(5z - 7) - 2(9z - 11) = 4(8z - 13) - 17",
+                "Simplify and solve: 0.25(4f - 3) = 0.05(10f - 9)",
+            ],
+        },
+    ],
+}
+
+
+def main():
+    out_dir = os.path.dirname(os.path.abspath(__file__))
+    out_path = os.path.join(
+        out_dir, "catalog_class8_maths_ch2_linear_equations_one_variable.json")
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(CATALOG, f, indent=2, ensure_ascii=True)
+    print("Wrote catalog to:", out_path)
+    print("Concepts:", len(CATALOG["concepts"]))
+    print("Worked examples:", len(CATALOG["worked_examples"]))
+    print("Exercises:", len(CATALOG["exercises"]))
+    print("Total exercise questions:", sum(len(e["questions"]) for e in CATALOG["exercises"]))
+
+
+if __name__ == "__main__":
+    main()

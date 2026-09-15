@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_02_001",
+   "title": "c12_chem_cbse_02_001",
+   "questions": [
+    {
+     "q": "What is the direction of electron flow in a galvanic cell, and which electrode is negatively charged?",
+     "a": "In a galvanic cell, electrons flow from the anode (oxidation) to the cathode (reduction) through the external circuit. The anode is negatively charged and the cathode is positively charged. A wrong answer (e.g., electrons flow from cathode to anode, or anode is positive) reveals confusion with electrolytic cells or misunderstanding of electrode polarity conventions.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a galvanic cell require a salt bridge or porous membrane, and what would happen if it were absent?",
+     "a": "The salt bridge completes the internal circuit by allowing ion migration (anions to anode, cations to cathode) to maintain electrical neutrality in the half-cells. Without it, charge buildup would stop the reaction almost immediately. A wrong answer (e.g., \"it allows electrons to flow internally\" or \"it prevents mixing of solutions only\") shows misunderstanding of charge balance and the role of ions in sustaining current.",
+     "self_check": true
+    },
+    {
+     "q": "For the galvanic cell: Mg(s) | Mg²⁺(aq) || Ag⁺(aq) | Ag(s), write the half-reactions at anode and cathode, the overall cell reaction, and the cell notation. Given E°(Mg²⁺/Mg) = -2.37 V and E°(Ag⁺/Ag) = 0.80 V, calculate the standard cell potential.",
+     "a": "Anode (oxidation): Mg(s) → Mg²⁺(aq) + 2e⁻; Cathode (reduction): 2Ag⁺(aq) + 2e⁻ → 2Ag(s); Overall: Mg(s) + 2Ag⁺(aq) → Mg²⁺(aq) + 2Ag(s); Cell notation: Mg(s) | Mg²⁺(aq) || Ag⁺(aq) | Ag(s). E°cell = E°cathode - E°anode = 0.80 - (-2.37) = 3.17 V. A wrong answer (e.g., reversed half-reactions, incorrect sign for E°cell, or forgetting to multiply Ag half-reaction by 2) indicates difficulty with balancing electrons and sign conventions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Daniell cell (galvanic) and the electrolysis of aqueous CuSO₄ using copper electrodes (electrolytic) in terms of: (a) spontaneity, (b) electrode polarity, (c) direction of electron flow, (d) overall reaction.",
+     "a": "(a) Daniell cell: spontaneous (ΔG < 0); Electrolytic cell: non-spontaneous (ΔG > 0, requires external voltage). (b) Daniell: anode (-), cathode (+); Electrolytic: anode (+), cathode (-). (c) Daniell: electrons flow anode to cathode externally; Electrolytic: electrons forced from external source into cathode, out of anode. (d) Daniell: Zn + Cu²⁺ → Zn²⁺ + Cu; Electrolytic: Cu(s) at anode → Cu²⁺ + 2e⁻, Cu²⁺ + 2e⁻ → Cu(s) at cathode (net: Cu dissolves at anode, deposits at cathode). A wrong answer mixing these shows failure to analyze the fundamental thermodynamic and structural differences.",
+     "self_check": true
+    },
+    {
+     "q": "A student sets up a cell with Fe(s) | Fe²⁺(aq) || Cu²⁺(aq) | Cu(s) and claims the cell potential is -0.78 V because E°(Fe²⁺/Fe) = -0.44 V and E°(Cu²⁺/Cu) = 0.34 V, so E°cell = -0.44 - 0.34 = -0.78 V. Evaluate this claim and correct if necessary.",
+     "a": "The claim is incorrect. By IUPAC convention, the cell is written with anode on left (oxidation) and cathode on right (reduction). For Fe|Fe²⁺||Cu²⁺|Cu, Fe is anode (oxidation: Fe → Fe²⁺ + 2e⁻) and Cu is cathode (reduction: Cu²⁺ + 2e⁻ → Cu). E°cell = E°cathode - E°anode = 0.34 - (-0.44) = 0.78 V (positive, spontaneous). The student subtracted the wrong way and also used reduction potentials without assigning anode/cathode correctly. This error reveals misunderstanding of cell notation convention and sign of E°cell.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple galvanic cell using household materials (e.g., lemon, copper coin, zinc-coated nail) that can light an LED. List the half-reactions, identify anode and cathode, and explain why the LED might glow dimly.",
+     "a": "Use a lemon (citric acid electrolyte), copper coin (cathode), zinc-coated nail (anode). Half-reactions: Anode: Zn → Zn²⁺ + 2e⁻; Cathode: 2H⁺ + 2e⁻ → H₂ (or oxygen reduction if air present). The LED glows dimly because the internal resistance is high (low ion concentration, small electrode area) and the current is small. A poor answer would omit half-reactions, misidentify electrodes, or not explain the dimness (showing lack of understanding of factors affecting cell performance).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

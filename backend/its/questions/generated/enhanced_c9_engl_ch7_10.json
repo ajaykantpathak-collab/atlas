@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_engl_ch7_10",
+ "concepts": [
+  {
+   "id": "enh:c9_engl_ch7_10",
+   "title": "c9_engl_ch7_10",
+   "questions": [
+    {
+     "q": "What are the three main components of communication infrastructure in India as discussed in the chapter, and which one does Khetaram represent?",
+     "a": "The three components are physical infrastructure (post offices, roads, towers), digital infrastructure (internet, mobile networks), and human infrastructure (Gramin Dak Sewaks, postmen). Khetaram represents the human infrastructure—the last-mile connector who physically bridges the gap between policy and people. A wrong answer that lists only \"post offices and internet\" misses the critical human element the chapter centers, revealing the student sees infrastructure as static hardware rather than a living system.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Thar Desert setting makes Khetaram's role as a Gramin Dak Sewak more critical than a postman in a metropolitan city.",
+     "a": "In the Thar, extreme heat, sandstorms, lack of paved roads, and scattered hamlets make motorized transport unreliable and digital connectivity sparse; Khetaram walks 10–15 km daily on foot, navigating dunes where no vehicle reaches. In a city, dense infrastructure (multiple post offices, courier services, 4G/5G, emails) creates redundancy—if one channel fails, others exist. A wrong answer focusing only on \"distance\" or \"heat\" without contrasting systemic redundancy vs. single-point-of-failure shows the student cannot analyze infrastructure resilience.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"last-mile connectivity\" to a new scenario: A tribal village in Odisha has 4G coverage on paper but villagers cannot access online banking. Identify three distinct barriers (one physical, one digital, one human) and suggest one solution for each.",
+     "a": "Physical: No electricity to charge phones → Solution: Solar charging stations. Digital: Network congestion/low bandwidth during peak hours → Solution: Offline-capable banking apps with sync. Human: Low digital literacy and language barriers → Solution: Trained \"digital mitras\" (like GDS) to assist transactions. A wrong answer listing only \"no internet\" or \"illiteracy\" fails to disaggregate the layered nature of the last-mile problem, showing the student treats connectivity as binary (present/absent) rather than a spectrum of usability.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the chapter uses Khetaram's character to critique the gap between policy (Universal Service Obligation) and practice in rural communication. Support with two textual inferences.",
+     "a": "Inference 1: Khetaram carries pensions and medicines—services the state promises but cannot deliver without him—showing policy depends on underpaid, overworked human agents. Inference 2: The line \"the post office is the only link\" (paraphrased) reveals that in remote areas, India Post is a monopoly provider, not one option among many; its failure is total exclusion. A wrong answer summarizing Khetaram's duties without linking to policy-practice gap shows the student reads for plot, not for systemic critique.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Digital India makes the Gramin Dak Sewak obsolete.\" Defend your position using evidence from the text and one real-world counterexample.",
+     "a": "Claim is false. Text evidence: Khetaram delivers physical items (medicines, cash, registered letters) that digital cannot replace; he verifies identity for pensioners who lack biometrics; he navigates terrain where towers don't reach. Real-world counterexample: During COVID-19, GDS workers delivered cash benefits and medicines in Rajasthan and Ladakh when digital systems failed due to power/connectivity outages. A wrong answer agreeing with the claim reveals a techno-optimist misconception that digital substitution is total, ignoring materiality and exclusion.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-panel storyboard concept (describe each panel in 2 sentences) for a short film showing a day in the life of a Gramin Dak Sewak in 2030, where technology assists but does not replace the human link.",
+     "a": "Panel 1: Dawn—GDS checks a tablet showing optimized route via satellite map, but loads physical mailbags onto a solar-assisted e-cycle (tech aids planning, not replacement). Panel 2: Midday—At a hamlet, she uses a handheld biometric device to authenticate a pensioner, then hands over cash and medicine (digital verification enables physical delivery). Panel 3: Storm—Network drops; she switches to offline mode, records deliveries on device, syncs later (resilience through hybrid design). Panel 4: Dusk—She video-calls her supervisor to report a broken bridge; a drone drops spare parts for her e-cycle (human judgment triggers tech support). A poor answer showing full automation (drones delivering everything) misses the chapter's core argument: human presence is irreplaceable for trust, care, and adaptability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_08_006",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_08_006",
+   "title": "c11_cs_cbse_08_006",
+   "questions": [
+    {
+     "q": "What is the correct syntax for passing a keyword argument named `radius` with value `5` to a function `area()`?",
+     "a": "The correct syntax is `area(radius=5)`. A wrong answer like `area(5)` indicates the student confuses keyword arguments with positional arguments, while `area(radius: 5)` or `area(radius == 5)` reveals confusion with type hints or comparison operators.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the function call `greet(greeting=\"Namaste\", \"Amit\")` produces a SyntaxError in Python.",
+     "a": "Python requires all positional arguments to appear before any keyword arguments in a function call. Here, the positional argument `\"Amit\"` appears after the keyword argument `greeting=\"Namaste\"`, violating this rule. A student who thinks keyword arguments can be placed anywhere reveals a misunderstanding of Python's argument parsing order.",
+     "self_check": true
+    },
+    {
+     "q": "Given the function definition `def compute_interest(principal, rate=0.05, time=2):`, write a function call that uses keyword arguments to specify only `principal=10000` and `time=3`, allowing `rate` to use its default value.",
+     "a": "The correct call is `compute_interest(principal=10000, time=3)`. A wrong answer like `compute_interest(10000, time=3)` mixes positional and keyword correctly but uses positional for principal, which works but doesn't demonstrate keyword usage. An answer like `compute_interest(principal=10000, rate=0.05, time=3)` unnecessarily specifies the default value, showing lack of understanding that default arguments can be omitted.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two function calls for `def book_ticket(name, age, seat_type=\"General\", meal=False):`:  \nCall A: `book_ticket(\"Priya\", 25, \"Window\", True)`  \nCall B: `book_ticket(name=\"Priya\", age=25, seat_type=\"Window\", meal=True)`  \nAnalyze which call is more maintainable if the function signature changes to add a new parameter `insurance=False` between `age` and `seat_type`.",
+     "a": "Call B (keyword arguments) is more maintainable because it explicitly binds values to parameter names. If a new parameter `insurance` is inserted, Call A would incorrectly assign `\"Window\"` to `insurance` and `True` to `seat_type` due to positional matching, while Call B would continue to work correctly as arguments are matched by name. A student who thinks both are equally maintainable fails to grasp the decoupling benefit of keyword arguments.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following function and call:\n```python\ndef calculate_bill(amount, tax=0.18, discount=0):\n    return amount + amount*tax - discount\n\nprint(calculate_bill(tax=0.12, 5000, discount=500))\n```\nEvaluate whether this code will execute successfully and justify your answer.",
+     "a": "The code will raise a SyntaxError because the positional argument `5000` appears after the keyword argument `tax=0.12`. Python's syntax requires all positional arguments to precede keyword arguments. A student who says it will run and produce a result shows they have not internalized the positional-before-keyword rule, which is a fundamental syntax constraint.",
+     "self_check": true
+    },
+    {
+     "q": "Design a function `create_student_profile()` that accepts at least four parameters (name, age, grade, city) and demonstrate two different valid function calls: one using only positional arguments and another using only keyword arguments in a different order. Explain why the keyword version might be preferred in a large program.",
+     "a": "Example function: `def create_student_profile(name, age, grade, city):`. Positional call: `create_student_profile(\"Rohan\", 16, \"11th\", \"Delhi\")`. Keyword call: `create_student_profile(city=\"Mumbai\", name=\"Anita\", grade=\"11th\", age=15)`. The keyword version is preferred in large programs because it is self-documenting (parameter names clarify purpose), order-independent (reduces errors when parameters are many), and resilient to signature changes (adding parameters doesn't break existing calls). A poor answer might only show calls without explaining the software engineering benefits.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

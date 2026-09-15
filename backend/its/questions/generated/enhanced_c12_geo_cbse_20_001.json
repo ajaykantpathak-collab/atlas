@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_20_001",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_20_001",
+   "title": "c12_geo_cbse_20_001",
+   "questions": [
+    {
+     "q": "List the three general rules for constructing graphs, diagrams, and maps as prescribed in the NCERT textbook.",
+     "a": "The three rules are: (1) Selection of a suitable method, (2) Selection of a suitable scale, (3) Design (title, legend, direction). A wrong answer — e.g., listing “neatness,” “colouring,” or “accuracy” — reveals that the student is confusing *presentation aesthetics* with the *structural rules* that govern *what* to draw, *how big* to draw it, and *which mandatory elements* must appear on the final sheet.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a choropleth map inappropriate for showing the *distribution* of population across a country, and which map type should be used instead?",
+     "a": "A choropleth map shades entire administrative units (states/districts) with a single colour/pattern representing an *average density* value, thereby masking internal variations (e.g., a dense city and a sparse desert within the same district appear identical). A **dot map** is correct because each dot represents a fixed number of people placed at their actual location, revealing true spatial clustering. A student who picks “isopleth map” misunderstands that isopleths require continuous point data (like temperature), not discrete population counts tied to administrative boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "You have the following dataset: *Average monthly temperature (°C) and rainfall (cm) for Chennai, 2023*. Decide which graphical method(s) to use and justify your choice in two sentences.",
+     "a": "Use a **combined line-and-bar graph (climograph)**: plot temperature as a line on the right Y-axis and rainfall as bars on the left Y-axis, with months on the X-axis. This method is prescribed in the textbook (Example 3.4) for “closely associated characteristics” like temperature and rainfall because it allows simultaneous visual comparison of the two variables over the same time axis. A student who suggests two separate graphs misses the rule that *related* variables should share a diagram for immediate correlation; one who suggests a pie diagram confuses composition data with time-series data.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the use of a line graph versus a simple bar diagram for representing the *decadal population growth rate of India (1901–2011)*. Which is more appropriate and why?",
+     "a": "A **line graph** is more appropriate because population growth rate is a continuous time-series variable; the line connects successive decades, making the *trend* (rise, peak, decline) visually instantaneous. A simple bar diagram treats each decade as an independent category, obscuring the continuity of change. A student who chooses the bar diagram may be overgeneralising the rule “bar diagrams for comparison” without recognising that *temporal continuity* demands a line graph (Rule 1: “data related to temperature or growth of population between different periods… best be represented using line graphs”).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of a pie diagram for showing India’s export shares if the dataset contains 15 destination regions, five of which have shares below 1%.",
+     "a": "**Ineffective.** With 15 sectors, five being very small (<1%), the pie becomes cluttered: tiny slices are illegible, labels overlap, and the visual distinction between small categories is lost. The textbook cautions that the circle should be “neither too big to fit nor too small to be illegible” and that “starting with bigger angle will lead to accumulation of error.” A **simple bar diagram** (arranged descending) or a **table with a bar chart inset** would communicate the data more clearly. A student who insists on a pie diagram prioritises convention over communicative clarity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a flow map to show the daily movement of 200 trucks from Delhi to Jaipur, 150 to Chandigarh, 80 to Lucknow, 40 to Agra, and 20 to Kanpur. Specify (a) the scale you would choose for line width, (b) the base map requirements, and (c) two mandatory design elements.",
+     "a": "(a) Scale: 1 cm = 20 trucks → line widths: Delhi–Jaipur 10 cm, Delhi–Chandigarh 7.5 cm, Delhi–Lucknow 4 cm, Delhi–Agra 2 cm, Delhi–Kanpur 1 cm. (If 1 cm = 50 trucks, the Kanpur line becomes 0.4 cm — too thin to see.)  \n(b) Base map: Outline map of the region showing Delhi and the five destination cities **with the actual road routes** connecting them.  \n(c) Mandatory design elements: **Title** (e.g., “Daily Truck Flow from Delhi, 2024”) and **Legend** (terraced scale showing line widths for 20, 40, 80, 150, 200 trucks). A student who omits the route network produces a “spider diagram” (straight lines) rather than a true flow map; one who forgets the legend leaves the reader unable to decode quantities.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,289 @@
+{
+  "class": 11,
+  "subject": "maths",
+  "chapter": 113,
+  "chapter_title": "Statistics",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kemh113.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kemh113.13.2.1",
+      "title": "Measures of Dispersion",
+      "section": "13.2",
+      "definition": "A single central value cannot say how spread out the observations are, so statistics adds scatter measures: range, quartile deviation, mean deviation and standard deviation. Dispersion about the mean matters most; a distribution where data bunches tightly near the centre shows low dispersion, while widely thrown values show high dispersion.",
+      "formula": "",
+      "key_idea": "Central tendency locates the data; dispersion says how far the data strays from that location.",
+      "textbook_ref": "kemh113.txt lines 30-113 (sections 13.1, 13.2; two batsmen scores example, list of the four dispersion measures)",
+      "question_patterns": [
+        "name the measures of dispersion used in statistics",
+        "in class 11 statistics: why is a measure of central tendency not enough to compare two series",
+        "which dispersion measure is based on deviations from the mean",
+        "compare the scores of two players using scatter of values",
+        "what does high dispersion tell you about a data set",
+        "distinguish range from standard deviation as scatter measures"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "separate location from spread", "explain": "Means and medians report a typical value, but two series can share a mean while differing wildly in scatter."},
+        {"step": 2, "action": "list the four classic measures", "explain": "Range, quartile deviation, mean deviation and standard deviation each quantify spread differently."},
+        {"step": 3, "action": "prefer mean-based measures", "explain": "Mean deviation and standard deviation use every observation's distance from the mean, so they are the workhorses for comparison."}
+      ]
+    },
+    {
+      "id": "kemh113.13.3.1",
+      "title": "Range of a Series",
+      "section": "13.3",
+      "definition": "The range is the quickest scatter read-out: subtract the smallest observation from the largest. It uses only two data points, so it is fast but crude -- two very different data sets can carry the same range.",
+      "formula": "range_val = max_val - min_val",
+      "key_idea": "Largest minus smallest -- one subtraction, but it ignores every value in between.",
+      "textbook_ref": "kemh113.txt lines 114-130 (section 13.3 range, Range = maximum value - minimum value, batsmen example)",
+      "question_patterns": [
+        "find the range of the given data",
+        "calculate the difference between the largest and smallest observation",
+        "in class 11 statistics: state the formula for the range of a series",
+        "why is the range called a crude measure of dispersion",
+        "two series share a range but differ in spread, explain how",
+        "compute the range from the given maximum and minimum"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "identify the extremes", "explain": "Scan the data for its largest and smallest entries.",
+         "compute": "spread = max_val - min_val"}
+      ]
+    },
+    {
+      "id": "kemh113.13.4.1",
+      "title": "Mean Deviation About the Mean (Ungrouped Data)",
+      "section": "13.4.1",
+      "definition": "Mean deviation averages the absolute distances of all observations from the mean: first compute the mean, then average how far each observation sits from it, ignoring signs. Absolute gaps are used because signed deviations from the mean always cancel to zero.",
+      "formula": "mad = (abs(x1 - mean) + abs(x2 - mean) + abs(x3 - mean)) / obs_count",
+      "key_idea": "Strip the signs, then average -- mean deviation is the typical distance from the centre.",
+      "textbook_ref": "kemh113.txt lines 131-260 (sections 13.4, 13.4.1 mean deviation for ungrouped data about mean and median)",
+      "question_patterns": [
+        "find the mean deviation about the mean for the given data",
+        "calculate the average absolute deviation from the mean",
+        "in class 11 statistics: why are absolute values taken in mean deviation",
+        "show that the sum of signed deviations from the mean is zero",
+        "compute mean deviation about the median for the given observations",
+        "which of the two data sets is less scattered by mean deviation"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "average the observations", "explain": "Add all values and divide by how many there are.",
+         "compute": "mean = (x1 + x2 + x3 + x4 + x5) / obs_count"},
+        {"step": 2, "action": "average the absolute gaps", "explain": "Each observation contributes its distance from the mean; the average of these distances is the mean deviation.",
+         "compute": "mad = (abs(x1 - mean) + abs(x2 - mean) + abs(x3 - mean) + abs(x4 - mean) + abs(x5 - mean)) / obs_count"}
+      ]
+    },
+    {
+      "id": "kemh113.13.4.2",
+      "title": "Mean Deviation for Grouped (Frequency) Data",
+      "section": "13.4.2",
+      "definition": "For data packaged into a frequency table, each distinct value (or class midpoint) is repeated f times, so the mean is a weighted average and each absolute gap counts f times. The mean deviation is the frequency-weighted total of absolute gaps divided by the total frequency.",
+      "formula": "",
+      "key_idea": "Weights change the averaging, not the idea: bigger frequencies pull the mean and carry more deviation weight.",
+      "textbook_ref": "kemh113.txt lines 261-360 (section 13.4.2 mean deviation for grouped data, discrete and continuous frequency distributions)",
+      "question_patterns": [
+        "find the mean deviation about the mean for a frequency distribution",
+        "how do frequencies enter the mean deviation calculation",
+        "in class 11 statistics: compute mean deviation for grouped data with class midpoints",
+        "why are class midpoints used for continuous frequency data",
+        "set up the weighted average of absolute deviations from the mean",
+        "compare mean deviation of two frequency tables"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "build the weighted mean", "explain": "Multiply each value (or midpoint) by its frequency, add over all rows, and divide by the total frequency N."},
+        {"step": 2, "action": "weight the absolute gaps", "explain": "For each row take the absolute gap between the value and the mean and multiply by that row's frequency."},
+        {"step": 3, "action": "divide by the total frequency", "explain": "The weighted gap total over N is the mean deviation for the grouped data."}
+      ]
+    },
+    {
+      "id": "kemh113.13.5.1",
+      "title": "Variance and Standard Deviation",
+      "section": "13.5.1",
+      "definition": "Variance squares the deviations from the mean before averaging them, which stops positives and negatives cancelling and punishes big misses; the standard deviation is its square root, returning to the original units. A small standard deviation marks data packed near the mean.",
+      "formula": "sd = sqrt(((x1 - mean_val) ** 2 + (x2 - mean_val) ** 2 + (x3 - mean_val) ** 2) / obs_count)",
+      "key_idea": "Square to kill the cancellation, average, then root back to the data's units -- that root is the standard deviation.",
+      "textbook_ref": "kemh113.txt lines 361-460 (section 13.5 and 13.5.1 standard deviation as positive square root of variance)",
+      "question_patterns": [
+        "find the variance and standard deviation of the given data",
+        "calculate the square root of the average squared deviation",
+        "in class 11 statistics: why are deviations squared in variance",
+        "what units does the standard deviation carry",
+        "compare the consistency of two data sets using standard deviation",
+        "compute variance about the mean for the given observations"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "average the squared deviations", "explain": "Square each observation's gap from the mean and divide the total by the count.",
+         "compute": "variance = ((x1 - mean_val) ** 2 + (x2 - mean_val) ** 2 + (x3 - mean_val) ** 2) / obs_count"},
+        {"step": 2, "action": "take the positive root", "explain": "The standard deviation is the square root of the variance.",
+         "compute": "sd = sqrt(variance)"}
+      ]
+    },
+    {
+      "id": "kemh113.13.5.2",
+      "title": "Standard Deviation of a Frequency Distribution",
+      "section": "13.5.2",
+      "definition": "With frequencies in play, each squared deviation is repeated f times: variance becomes the frequency-weighted mean of squared gaps between values (or class midpoints) and the mean, divided by total frequency N; its square root is the standard deviation of the distribution.",
+      "formula": "",
+      "key_idea": "Same squaring recipe, but every term is stamped with its frequency before averaging.",
+      "textbook_ref": "kemh113.txt lines 461-560 (sections 13.5.2 and 13.5.3, standard deviation of discrete and continuous frequency distributions)",
+      "question_patterns": [
+        "find the standard deviation of a discrete frequency distribution",
+        "compute variance from a frequency table",
+        "in class 11 statistics: how do frequencies weight the squared deviations",
+        "which values replace raw data when classes are continuous",
+        "apply the shortcut formula for variance of a frequency distribution",
+        "find N before computing the standard deviation of grouped data"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "compute the frequency-weighted mean", "explain": "Sum f*x over the table and divide by N, using midpoints for continuous classes."},
+        {"step": 2, "action": "weight the squared gaps", "explain": "Each row contributes f times the squared gap between its value and the mean."},
+        {"step": 3, "action": "average and root", "explain": "Divide the weighted total by N for variance, then take the positive square root."}
+      ]
+    },
+    {
+      "id": "kemh113.13.5.3",
+      "title": "Shortcut Method for Variance via Assumed Mean",
+      "section": "13.5.4",
+      "definition": "When numbers are awkward, shift the origin: subtract a convenient assumed mean from every observation to get small deviations, square and average those instead, and correct the result. With a common step size h the data can be scaled down further, and the variance comes out as h squared times the mean squared deviation minus the square of the mean deviation of the shifted data.",
+      "formula": "variance = h ** 2 * (mean_sq_dev - mean_dev ** 2)",
+      "key_idea": "Shifting the origin simplifies the arithmetic -- compute variance of the small shifted values, then rescale by h squared.",
+      "textbook_ref": "kemh113.txt lines 2622-2740 (section 13.5.4 shortcut method, assumed mean A, step size h, variance formula with change of origin and scale)",
+      "question_patterns": [
+        "find the variance using the shortcut method with an assumed mean",
+        "compute standard deviation by the step deviation approach",
+        "in class 11 statistics: how does change of origin and scale affect variance",
+        "take deviations from the assumed mean and evaluate variance",
+        "why does subtracting the assumed mean not change the standard deviation beyond scaling",
+        "apply the shortcut formula with the given step size h"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "average the shifted deviations", "explain": "Each observation is reduced by the assumed mean; the mean of those differences is mean_dev.",
+         "compute": "mean_dev = sum_d / obs_count"},
+        {"step": 2, "action": "average the squared shifted deviations", "explain": "Squaring each difference first and averaging gives mean_sq_dev.",
+         "compute": "mean_sq_dev = sum_d2 / obs_count"},
+        {"step": 3, "action": "correct for origin and scale", "explain": "Subtracting the square of the mean deviation and rescaling by h squared restores the true variance.",
+         "compute": "variance = h ** 2 * (mean_sq_dev - mean_dev ** 2)"}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kemh113.txt lines 114-130 (range of a series)",
+      "concept": "kemh113.13.3.1",
+      "question_type": "compute",
+      "question_pattern": "The largest score in a series is {max_val} and the smallest is {min_val}; find the range.",
+      "extracted_variables": {"max_val": 15, "min_val": 2},
+      "solution_template": [
+        {"step": 1, "action": "identify the extremes", "explain": "spread = 15 - 2 = 13.", "compute": "spread = max_val - min_val"}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kemh113.txt lines 114-130 (range of a series)",
+      "concept": "kemh113.13.3.1",
+      "question_type": "compute",
+      "question_pattern": "A series runs from a minimum of {min_val} to a maximum of {max_val}; compute its range.",
+      "extracted_variables": {"max_val": 60, "min_val": 46},
+      "solution_template": [
+        {"step": 1, "action": "identify the extremes", "explain": "spread = 60 - 46 = 14, matching the chapter's batsman B read-out.", "compute": "spread = max_val - min_val"}
+      ]
+    },
+    {
+      "id": "we3",
+      "source_ref": "kemh113.txt lines 131-260 (mean deviation, ungrouped data)",
+      "concept": "kemh113.13.4.1",
+      "question_type": "compute",
+      "question_pattern": "Find the mean deviation about the mean of the observations {x1}, {x2}, {x3}, {x4}, {x5}.",
+      "extracted_variables": {"x1": 4, "x2": 6, "x3": 8, "x4": 10, "x5": 12, "obs_count": 5},
+      "solution_template": [
+        {"step": 1, "action": "average the observations", "explain": "mean = (4+6+8+10+12)/5 = 8.", "compute": "mean = (x1 + x2 + x3 + x4 + x5) / obs_count"},
+        {"step": 2, "action": "average the absolute gaps", "explain": "mad = (4+2+0+2+4)/5 = 2.4.", "compute": "mad = (abs(x1 - mean) + abs(x2 - mean) + abs(x3 - mean) + abs(x4 - mean) + abs(x5 - mean)) / obs_count"}
+      ]
+    },
+    {
+      "id": "we4",
+      "source_ref": "kemh113.txt lines 131-260 (mean deviation, ungrouped data)",
+      "concept": "kemh113.13.4.1",
+      "question_type": "compute",
+      "question_pattern": "Compute the mean deviation about the mean for the data {x1}, {x2}, {x3}, {x4}, {x5}.",
+      "extracted_variables": {"x1": 1, "x2": 3, "x3": 5, "x4": 11, "x5": 15, "obs_count": 5},
+      "solution_template": [
+        {"step": 1, "action": "average the observations", "explain": "mean = (1+3+5+11+15)/5 = 7.", "compute": "mean = (x1 + x2 + x3 + x4 + x5) / obs_count"},
+        {"step": 2, "action": "average the absolute gaps", "explain": "mad = (6+4+2+4+8)/5 = 4.8.", "compute": "mad = (abs(x1 - mean) + abs(x2 - mean) + abs(x3 - mean) + abs(x4 - mean) + abs(x5 - mean)) / obs_count"}
+      ]
+    },
+    {
+      "id": "we5",
+      "source_ref": "kemh113.txt lines 361-460 (variance and standard deviation)",
+      "concept": "kemh113.13.5.1",
+      "question_type": "compute",
+      "question_pattern": "Find the variance and standard deviation of {x1}, {x2}, {x3} given their mean is {mean_val}.",
+      "extracted_variables": {"x1": 1, "x2": 3, "x3": 5, "mean_val": 3, "obs_count": 3},
+      "solution_template": [
+        {"step": 1, "action": "average the squared deviations", "explain": "variance = (4 + 0 + 4)/3 = 2.6667.", "compute": "variance = ((x1 - mean_val) ** 2 + (x2 - mean_val) ** 2 + (x3 - mean_val) ** 2) / obs_count"},
+        {"step": 2, "action": "take the positive root", "explain": "sd = sqrt(2.6667), about 1.6330.", "compute": "sd = sqrt(variance)"}
+      ]
+    },
+    {
+      "id": "we6",
+      "source_ref": "kemh113.txt lines 361-460 (variance and standard deviation)",
+      "concept": "kemh113.13.5.1",
+      "question_type": "compute",
+      "question_pattern": "The data {x1}, {x2}, {x3} has mean {mean_val}; calculate its standard deviation.",
+      "extracted_variables": {"x1": 2, "x2": 4, "x3": 9, "mean_val": 5, "obs_count": 3},
+      "solution_template": [
+        {"step": 1, "action": "average the squared deviations", "explain": "variance = (9 + 1 + 16)/3 = 8.6667.", "compute": "variance = ((x1 - mean_val) ** 2 + (x2 - mean_val) ** 2 + (x3 - mean_val) ** 2) / obs_count"},
+        {"step": 2, "action": "take the positive root", "explain": "sd = sqrt(8.6667), about 2.9439.", "compute": "sd = sqrt(variance)"}
+      ]
+    },
+    {
+      "id": "we7",
+      "source_ref": "kemh113.txt lines 2622-2740 (shortcut method for variance)",
+      "concept": "kemh113.13.5.3",
+      "question_type": "compute",
+      "question_pattern": "Using assumed mean with shift total {sum_d}, squared-shift total {sum_d2} over {obs_count} observations and step size h = {h}, find the variance and standard deviation.",
+      "extracted_variables": {"sum_d": 0, "sum_d2": 40, "obs_count": 5, "h": 1},
+      "solution_template": [
+        {"step": 1, "action": "average the shifted deviations", "explain": "mean_dev = 0 / 5 = 0.", "compute": "mean_dev = sum_d / obs_count"},
+        {"step": 2, "action": "average the squared shifted deviations", "explain": "mean_sq_dev = 40 / 5 = 8.", "compute": "mean_sq_dev = sum_d2 / obs_count"},
+        {"step": 3, "action": "correct for origin and scale", "explain": "variance = 1 ** 2 * (8 - 0) = 8, so sd = sqrt(8), about 2.8284.", "compute": "variance = h ** 2 * (mean_sq_dev - mean_dev ** 2)"}
+      ]
+    },
+    {
+      "id": "we8",
+      "source_ref": "kemh113.txt lines 2622-2740 (shortcut method for variance)",
+      "concept": "kemh113.13.5.3",
+      "question_type": "compute",
+      "question_pattern": "For {obs_count} observations the shift total is {sum_d} and the squared-shift total is {sum_d2}; with step size h = {h} compute the variance.",
+      "extracted_variables": {"sum_d": 0, "sum_d2": 70, "obs_count": 6, "h": 1},
+      "solution_template": [
+        {"step": 1, "action": "average the shifted deviations", "explain": "mean_dev = 0 / 6 = 0.", "compute": "mean_dev = sum_d / obs_count"},
+        {"step": 2, "action": "average the squared shifted deviations", "explain": "mean_sq_dev = 70 / 6, about 11.6667.", "compute": "mean_sq_dev = sum_d2 / obs_count"},
+        {"step": 3, "action": "correct for origin and scale", "explain": "variance = 1 * (11.6667 - 0) = 11.6667; sd is its root, about 3.4157.", "compute": "variance = h ** 2 * (mean_sq_dev - mean_dev ** 2)"}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kemh113.txt end-of-chapter exercises, reworded",
+      "questions": [
+        "Find the mean deviation about the mean for the given ungrouped data.",
+        "Find the mean deviation about the median for the given observations.",
+        "Find the mean deviation about the mean for the given frequency distribution.",
+        "Find the variance and standard deviation for the given data set.",
+        "Find the standard deviation for the given discrete frequency distribution.",
+        "The means of two series and their standard deviations are given; find which series is more consistent.",
+        "The coefficient of variation and mean of a series are given; find its standard deviation.",
+        "Explain why the sum of deviations of observations from their mean is always zero."
+      ]
+    }
+  ]
+}

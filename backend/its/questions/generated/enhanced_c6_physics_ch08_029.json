@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch08_029",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch08_029",
+   "title": "c6_physics_ch08_029",
+   "questions": [
+    {
+     "q": "What is the mathematical formula used to calculate the speed of a moving object?",
+     "a": "The formula is Speed = Distance / Time. A student who answers \"Distance times Time\" or \"Time divided by Distance\" misunderstands that speed is a rate of change over time, not a total accumulation.",
+     "self_check": true
+    },
+    {
+     "q": "If a car travels 100 km in 2 hours, does it mean the car was moving at exactly 50 km/h the entire time?",
+     "a": "No, it means the *average* speed is 50 km/h. A student who says \"Yes\" assumes that motion is always uniform, failing to realize that the car might have sped up or slowed down during the journey.",
+     "self_check": true
+    },
+    {
+     "q": "A cyclist travels 40 km in 4 hours. What is the speed of the cyclist?",
+     "a": "The speed is 40 / 4 = 10 km/h. A student who gets this wrong likely divided the time by the distance (4 / 40 = 0.1), showing a confusion between the numerator and denominator in the formula.",
+     "self_check": true
+    },
+    {
+     "q": "Why is speed described as a positive number without direction?",
+     "a": "Speed only measures \"how fast,\" not \"where to.\" A wrong answer suggests the student is confusing speed with velocity, which explicitly requires a specific direction (like \"North\" or \"towards home\").",
+     "self_check": true
+    },
+    {
+     "q": "If one object moves at 10 m/s and another moves at 10 km/h, which one is faster?",
+     "a": "The one moving at 10 m/s is faster because 10 m/s is 36 km/h. A wrong answer shows the student is comparing the numbers (10 vs 10) without considering the importance of units.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where knowing the speed of an object helps you predict when it will arrive at a specific destination.",
+     "a": "A student should describe a trip, such as: \"If a bus travels at 60 km/h and the town is 120 km away, I know it will take 2 hours to arrive.\" A poor answer lacks either the distance or the speed component needed to make the prediction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

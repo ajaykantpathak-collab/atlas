@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch01_001",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch01_001",
+   "title": "c6_math_ch01_001",
+   "questions": [
+    {
+     "q": "What is one way we use numbers in a classroom setting besides counting students?",
+     "a": "We use numbers to measure time (like the duration of a period) or to identify the date. A wrong answer like \"numbers are only for math\" reveals that the student views numbers as abstract school concepts rather than tools for organizing daily life.",
+     "self_check": true
+    },
+    {
+     "q": "It means the student is standing between two people who are both taller than them. A wrong answer shows the student is confusing the number with the student's actual height or position instead of the *relationship* between neighbors.",
+     "a": "**Correct Answer:**\nIn this context, being number '2' means the student is standing in a position where exactly two people taller than them are standing directly beside them—one to their left and one to their right. It describes their relative position in the line based on the physical height of their immediate neighbors rather than their numerical place in the row.\n\n**Analysis:**\nA wrong answer reveals a misunderstanding of **relative versus absolute positioning**. Specifically, the student may be confusing the label \"number 2\" with their ordinal rank in the line (e.g., the second person from the front) rather than interpreting the number as a descriptor of their specific local environment.",
+     "self_check": true
+    },
+    {
+     "q": "If the order is 200, 800, 500, then 800 is the supercell because it is larger than both 200 and 500. A wrong answer suggests the student doesn't understand the comparison of magnitude between adjacent items.",
+     "a": "**Correct Answer:** If you arrange the numbers in a line, the \"supercell\" (the largest compared to its neighbors) is 800, provided it is placed in the middle of the sequence (e.g., 500, 800, 200). In this position, 800 is greater than both 500 and 200.\n\n**Explanation:** A wrong answer reveals a misconception regarding **comparative magnitude** or **place value**, specifically the student's inability to identify that 800 has the greatest value in the hundreds column. It may also indicate a failure to understand the **relational nature** of the question, where the student might be focusing on the physical position of the numbers rather than their numerical value.",
+     "self_check": true
+    },
+    {
+     "q": "Counting one by one is slow and prone to error, while estimation gives us a useful \"about\" value that is sufficient for planning. A wrong answer indicates the student thinks \"estimate\" means \"guessing randomly\" rather than using a logical grouping method.",
+     "a": "**Correct Answer:**\nIt is more efficient to estimate because counting thousands of people individually is time-consuming and prone to human error due to the constant movement of the crowd. Estimating using a sample area allows us to calculate an approximate total quickly and accurately enough for most practical purposes.\n\n**Analysis of a Wrong Answer:**\nA wrong answer—such as claiming that \"estimating is always more accurate than counting\"—reveals a fundamental **misconception regarding the relationship between precision and approximation.** The student fails to distinguish between *exactness* (counting) and *efficiency* (estimating), incorrectly assuming that a calculated guess is objectively superior to a precise measurement, rather than understanding that estimation is a tool used when precision is impractical or impossible.",
+     "self_check": true
+    },
+    {
+     "q": "Yes, for example, 50,500 - 50,100 = 400. A wrong answer suggests the student believes subtraction always keeps the number of digits the same, ignoring the effect of the leading digits canceling out.",
+     "a": "[Correct answer] Yes, it is possible for the difference between two 5-digit numbers to be a 3-digit number, provided the numbers are very close in value. An example is 10,100 - 10,000 = 100.\n\nA wrong answer reveals that the student likely believes subtraction always results in a number with the same number of digits as the minuend, or they may lack a conceptual understanding of how place value and \"regrouping\" work when subtracting numbers that are close in magnitude.",
+     "self_check": true
+    },
+    {
+     "q": "An example is 121. It is a palindrome because it reads the same forward and backward (1-2-1). A poor answer fails to provide the definition of reading the same in both directions.",
+     "a": "**Correct Answer:** A 3-digit palindrome is 121. I know this is a palindrome because the digits read the same forwards and backwards, with the first and last digits being identical.\n\n**Analysis:** A wrong answer reveals the student likely confuses the definition of a palindrome with other number properties, such as being an even number, a multiple of a certain digit, or simply not understanding that the symmetry must occur across the center digit.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

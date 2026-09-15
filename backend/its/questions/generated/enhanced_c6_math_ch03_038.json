@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch03_038",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch03_038",
+   "title": "c6_math_ch03_038",
+   "questions": [
+    {
+     "q": "If you have a 20 kg bag of rice and you use 1/4 of it, what does the denominator '4' tell you about the rice?",
+     "a": "The denominator '4' tells you that the 20 kg bag has been divided into 4 equal parts. A wrong answer like \"it means you take 4 kg\" shows the student is confusing the total number of parts with the value of one part.",
+     "self_check": true
+    },
+    {
+     "q": "If you have 1/2 of a roti and your friend has 1/3 of a similar roti, who has a larger piece and why?",
+     "a": "Your friend has a smaller piece because 1/3 is less than 1/2. A wrong answer (saying 1/3 is bigger because 3 > 2) reveals the student ignores that the denominator represents the number of people sharing the whole; more people sharing means each person gets less.",
+     "self_check": true
+    },
+    {
+     "q": "A rope is 15 metres long. If you cut off 1/3 of it, how many metres did you cut off?",
+     "a": "You cut off 5 metres. Steps: (1) Total = 15m, (2) Fraction = 1/3, (3) 15 ÷ 3 = 5, (4) 5 × 1 = 5. A wrong answer (like 1/3 m) shows the student thinks the fraction is a length rather than a relative share.",
+     "self_check": true
+    },
+    {
+     "q": "If a tank holds 20 litres and is 3/4 full, how much water is in the tank? Compare this to a tank of 20 litres that is 1/4 full.",
+     "a": "The first tank has 15 litres, and the second has 5 litres. A student who struggles here may not realize that the numerator (3 vs 1) indicates how many of those equal 'shares' are present, not just the size of the share.",
+     "self_check": true
+    },
+    {
+     "q": "Your teacher says 2/5 of the class are girls. If there are 30 students, is it possible to have 20 girls? Why or why not?",
+     "a": "No, it is not possible, because 1/5 of 30 is 6, so 2/5 is 12 girls. A wrong answer suggests the student is guessing or not performing the division/multiplication correctly to find the value of the fractional unit.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem that requires you to find 3/4 of 16.",
+     "a": "A good answer would be: \"I have 16 sweets and I give 3/4 of them to my friends. How many sweets did I give away?\" A poor answer (e.g., \"I have 16 sweets, I add 3/4\") shows the student does not understand that \"of\" in fractions indicates multiplication/scaling.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

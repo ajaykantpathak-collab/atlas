@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_03_009",
+   "title": "c12_geo_cbse_03_009",
+   "questions": [
+    {
+     "q": "According to the 2025 Human Development Report, what is the HDI score threshold that separates \"Very High\" from \"High\" human development countries, and how many countries fall in the \"Very High\" category?",
+     "a": "Correct answer: The threshold is 0.800; 74 countries are in the Very High category (HDI ≥ 0.800). A wrong answer (e.g., citing 0.700 or 50 countries) reveals the student is confusing the Very High/High boundary with the High/Medium boundary (0.700) or misremembering the High category count (50 countries). This indicates rote memorisation without understanding the tiered structure.",
+     "self_check": true
+    },
+    {
+     "q": "Sri Lanka and Trinidad & Tobago have higher HDI rankings than India despite having significantly smaller economies. Explain why this does not contradict the HDI framework, using the three HDI dimensions.",
+     "a": "Correct answer: HDI measures *achievements* in health (life expectancy), education (schooling), and *income per capita (PPP)*, not total GDP. Sri Lanka and Trinidad & Tobago achieve better health and education outcomes at moderate income levels because they invest heavily in social sectors (high public expenditure on health/education), have equitable access, and stable governance — converting income into capabilities efficiently. India's larger total GDP is diluted by population, yielding lower per capita income, and unequal distribution limits capability expansion. A wrong answer focusing only on \"total GDP size\" reveals the misconception that economic scale alone drives human development.",
+     "self_check": true
+    },
+    {
+     "q": "Using the 2025 HDI classification thresholds, classify the following hypothetical countries and justify each classification:\nCountry A: HDI = 0.812\nCountry B: HDI = 0.687\nCountry C: HDI = 0.542\nCountry D: HDI = 0.755",
+     "a": "Correct classification with working:\nStep 1: Recall 2025 thresholds: Very High ≥ 0.800; High 0.700–0.799; Medium 0.550–0.699; Low < 0.550.\nStep 2: Country A (0.812) ≥ 0.800 → Very High.\nStep 3: Country B (0.687) falls in 0.550–0.699 → Medium.\nStep 4: Country C (0.542) < 0.550 → Low.\nStep 5: Country D (0.755) falls in 0.700–0.799 → High.\nA wrong answer (e.g., placing 0.687 in High) reveals boundary confusion — the student likely thinks 0.700 is inclusive for Medium, or misreads the threshold direction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the typical characteristics of \"Very High HDI\" countries and \"Low HDI\" countries across three dimensions: (a) social-sector expenditure priority, (b) political stability, (c) resource distribution equity. What geographical pattern explains why many Very High HDI countries are former imperial powers?",
+     "a": "Correct analysis:\n(a) Very High HDI: high % of GDP on health/education; Low HDI: higher defence spending, low social expenditure.\n(b) Very High HDI: politically stable, democratic governance; Low HDI: civil war, political turmoil, instability.\n(c) Very High HDI: equitable resource distribution; Low HDI: highly unequal, elite capture.\nGeographical pattern: Most Very High HDI countries are in Europe/industrialised West — they accumulated capital historically through colonial extraction, enabling early industrialisation and institutional development. This created path-dependent advantages: strong states, educated bureaucracies, and social contracts that now sustain high human development. A wrong answer attributing it solely to \"culture\" or \"race\" reveals a deterministic misconception ignoring historical-political economy.",
+     "self_check": true
+    },
+    {
+     "q": "\"Kerala has lower per capita income than Punjab and Gujarat but higher HDI.\" Evaluate this statement using the capability approach. Is per capita income a *necessary*, *sufficient*, or *neither* condition for high human development? Justify.",
+     "a": "Correct evaluation: Per capita income is *neither necessary nor sufficient* for high human development.\n- Not sufficient: High income (e.g., oil-rich Gulf states historically) does not guarantee high HDI if not invested in health/education equitably.\n- Not necessary: Kerala achieves high HDI (0.78+ in state HDR) at moderate income through high literacy, universal healthcare, land reforms, and gender equity — converting limited income into capabilities efficiently (capability approach).\nPunjab/Gujarat have higher income but lower HDI due to gender gaps, unequal access, and lower social-sector priority. A wrong answer claiming income is \"necessary\" reveals an income-approach bias; claiming \"sufficient\" ignores distributional failures.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page policy brief for a Medium HDI country (HDI 0.62) aiming to reach High HDI (>0.700) within 10 years. Specify: (a) which HDI component to prioritise, (b) two governance reforms, (c) one fiscal redistribution measure, and (d) a monitoring indicator beyond HDI.",
+     "a": "Expected criteria for a strong answer:\n(a) Prioritise *education* (mean/expected years schooling) — it has multiplier effects on health, fertility, and future income; or *health* if life expectancy < 65.\n(b) Governance reforms: (i) Decentralise health/education delivery to local bodies (panchayats/municipalities) with untied funds; (ii) Implement social audits for welfare schemes to reduce leakage.\n(c) Fiscal measure: Shift 1.5–2% GDP from defence/subsidies to universal primary healthcare and secondary education — financed by progressive taxation.\n(d) Monitoring indicator: *Inequality-adjusted HDI (IHDI)* or *Multidimensional Poverty Index (MPI)* — captures distribution, not just averages.\nA poor answer focusing only on \"GDP growth\" or \"building hospitals\" without governance/equity measures reveals a welfare-approach mindset, missing the capability/empowerment pillars.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

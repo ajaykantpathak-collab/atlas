@@ -1,0 +1,214 @@
+{
+ "catalog": "catalog_class12_political_science_ch10",
+ "concepts": [
+  {
+   "id": "c12ps.10.1",
+   "title": "The Planning Commission",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Planning Commission' refers to.",
+     "a": "The Planning Commission was set up by a resolution of the Government of India in March 1950 as a non-statutory body headed by the Prime Minister, tasked with formulating five year plans, allocating resources, and guiding the process of planned economic development.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Planning Commission'.",
+     "a": "The Planning Commission became the central institution of India's development strategy, embodying the consensus that the state should guide and direct economic development through planning, even though it was an executive body and not created by an Act of Parliament.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Planning Commission' taught, and from which source text?",
+     "a": "Politics of Planned Development",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12ps.10.2",
+   "title": "Five Year Plans",
+   "questions": [
+    {
+     "q": "Using the method 'Five Year Plans', work with: agriculture_outlay = 75, industry_share_plan1 = 0.8, industry_share_plan2 = 0.8, sector_outlay = 45, total_outlay = 8. Carry the chain through step by step and give the final value of the result.",
+     "a": "0 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Five Year Plans' and work with: agriculture_outlay = 40, industry_share_plan1 = 0.25, industry_share_plan2 = 0.35, sector_outlay = 80, total_outlay = 500. Carry the chain through step by step and give the final value of the result.",
+     "a": "0.1 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Five Year Plans' refers to.",
+     "a": "The Five Year Plans were the instruments through which the Planning Commission pursued planned development, beginning with the First Plan (1951-56) which focused on agriculture and irrigation, and the Second Plan (1956-61) which shifted emphasis to industry and the public sector.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Five Year Plans'.",
+     "a": "The Five Year Plans reflected shifting priorities -- from agriculture and community development in the First Plan to heavy industry and the public sector in the Second Plan -- and embodied the political debate over the appropriate strategy of development for India.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Five Year Plans' taught, and from which source text?",
+     "a": "Politics of Planned Development",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12ps.10.3",
+   "title": "Agriculture and Planning",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Agriculture and Planning' refers to.",
+     "a": "The First Five Year Plan gave priority to agriculture, irrigation, and community development, reflecting the urgent need to increase food production and address rural poverty, but the Second Plan shifted resources to industry, creating a tension between agricultural and industrial development that persisted throughout the planning era.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Agriculture and Planning'.",
+     "a": "The debate over the balance between agriculture and industry was a central political question in Indian planning, with some arguing that agricultural growth was a prerequisite for industrialisation and others prioritising heavy industry as the engine of long-term development.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Agriculture and Planning' taught, and from which source text?",
+     "a": "Politics of Planned Development",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12ps.10.4",
+   "title": "Green Revolution",
+   "questions": [
+    {
+     "q": "Using the method 'Green Revolution', work with: growth_adopting_region = 5, growth_non_adopting_region = 15, production_after = 4, production_before = 360. Carry the chain through step by step and give the final value of the result.",
+     "a": "-10 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Green Revolution' and work with: growth_adopting_region = 10, growth_non_adopting_region = 8, production_after = 360, production_before = 80. Carry the chain through step by step and give the final value of the result.",
+     "a": "2 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Green Revolution' refers to.",
+     "a": "The Green Revolution, introduced in the late 1960s, involved the use of high-yielding variety (HYV) seeds, chemical fertilisers, pesticides, and assured irrigation to increase agricultural productivity, initially in wheat-growing regions like Punjab, Haryana, and western Uttar Pradesh.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Green Revolution'.",
+     "a": "The Green Revolution represented a technological shift in Indian agriculture that dramatically increased food production and made India self-sufficient in food grains, but it also widened regional and class disparities because it benefited primarily the well-irrigated, wheat-growing regions and larger farmers.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Green Revolution' taught, and from which source text?",
+     "a": "Politics of Planned Development",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12ps.10.5",
+   "title": "Industry and Planning",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Industry and Planning' refers to.",
+     "a": "The Second Five Year Plan, based on the Mahalanobis model, gave priority to the development of heavy and basic industries -- steel, coal, machinery, and power -- in the public sector, with the aim of building the industrial base for long-term self-reliant growth.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Industry and Planning'.",
+     "a": "The industrial strategy of the Second Plan reflected the belief that heavy industry in the public sector was the key to self-reliant development, but it also generated a political debate over the balance between heavy industry, consumer goods, and agriculture.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Industry and Planning' taught, and from which source text?",
+     "a": "Politics of Planned Development",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12ps.10.6",
+   "title": "Mixed Economy Model",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Mixed Economy Model' refers to.",
+     "a": "The mixed economy model adopted by India combined public and private sectors in the development process, with the public sector dominating heavy and basic industries, infrastructure, and strategic sectors, while the private sector was allowed to operate in consumer goods, agriculture, and small industry, subject to regulation and licensing.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Mixed Economy Model'.",
+     "a": "The mixed economy was a compromise between capitalism and socialism, designed to combine the efficiency of private enterprise with the social objectives of the state, but it also created a complex system of licensing, controls, and permits that shaped the politics of business-government relations.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Mixed Economy Model' taught, and from which source text?",
+     "a": "Politics of Planned Development",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12ps.10.7",
+   "title": "Public Sector and Its Role",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Public Sector and Its Role' refers to.",
+     "a": "The public sector was assigned a dominant role in the Indian economy through the nationalisation of key industries, the establishment of public-sector undertakings in steel, coal, power, and machinery, and the expansion of public investment in infrastructure, with the aim of building the industrial base and ensuring social control over strategic resources.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Public Sector and Its Role'.",
+     "a": "The public sector was the instrument through which the state pursued self-reliant industrialisation, built infrastructure, and created employment, but it also faced criticism for inefficiency, losses, and bureaucratic management.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Public Sector and Its Role' taught, and from which source text?",
+     "a": "Politics of Planned Development",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12ps.10.8",
+   "title": "Private Sector and Its Role",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Private Sector and Its Role' refers to.",
+     "a": "The private sector in the mixed economy was allowed to operate in consumer goods, agriculture, small industry, and services, subject to industrial licensing, controls on prices and distribution, and restrictions on the concentration of economic power, as defined by the Industrial Policy Resolutions and the MRTP Act.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Private Sector and Its Role'.",
+     "a": "The private sector was an important partner in the development process, contributing to industrial output, employment, and agricultural growth, but it operated within a framework of regulation designed to align private profit with social objectives.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Private Sector and Its Role' taught, and from which source text?",
+     "a": "Politics of Planned Development",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12ps.10.9",
+   "title": "The Planning and Development Debate",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Planning and Development Debate' refers to.",
+     "a": "The planning and development debate in the 1950s and 1960s centred on the appropriate strategy of development for India, with competing visions emphasising heavy industry, agriculture, cottage industry, or market-oriented growth, and reflecting different political ideologies and social interests.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Planning and Development Debate'.",
+     "a": "The development debate was not merely a technical question of resource allocation but a deeply political one, reflecting competing visions of the kind of society India should become, and the debate involved leaders, planners, economists, and political parties with different priorities and constituencies.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Planning and Development Debate' taught, and from which source text?",
+     "a": "Politics of Planned Development",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

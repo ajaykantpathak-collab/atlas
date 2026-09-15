@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_14_012",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_14_012",
+   "title": "c11_hin_ar_cbse_14_012",
+   "questions": [
+    {
+     "q": "What is the defining characteristic of a literal comprehension question?",
+     "a": "A literal comprehension question has its answer explicitly stated in the text, requiring no interpretation or outside knowledge. A wrong answer (e.g., \"it asks for the main idea\") reveals the student confuses literal retrieval with higher-order skills like summarization or inference.",
+     "self_check": true
+    },
+    {
+     "q": "In the first poem, the line \"vDdegknsoh viwoZ lqanjh FkhaA\" appears. A student writes: \"The question 'Was vDdegknsoh beautiful?' is inferential because beauty is subjective.\" Is the student correct? Explain why or why not.",
+     "a": "The student is incorrect. The text explicitly states \"viwoZ lqanjh FkhaA\" (she was very beautiful), making \"Was she beautiful?\" a literal question. The subjectivity of beauty is irrelevant; the text asserts it as a fact. A wrong answer reveals the student confuses 'subjective topic' with 'inferential question type'.",
+     "self_check": true
+    },
+    {
+     "q": "The poem states the king confiscated vDdegknsoh's property (\"buosQ ifjokj ij ncko Mkyk\") and she responded by leaving his kingdom (\"mlosQ {k.k oL=kkHkw\"k.k rFkk jkt&ifjokj dks NksM+ fn;k\"). Frame ONE literal question and ONE inferential question from these two facts only.",
+     "a": "Literal: \"What did the king do to vDdegknsoh's property?\" (Answer: confiscated it). Inferential: \"Why did vDdegknsoh leave the kingdom?\" (Answer: to protest the injustice/confiscation). A wrong answer (e.g., making both literal) shows the student cannot distinguish between an explicit action and an implied motive.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two poems in the chapter. The first poem describes vDdegknsoh's historical rebellion; the second poem depicts a daughter (bZ'oj) asking her mother to burn their house. Analyze: Why does the poet place these two poems together? What inferential link connects the two female figures across the poems?",
+     "a": "The inferential link is intergenerational resistance: vDdegknsoh's public political revolt mirrors the daughter's domestic revolt against patriarchal confinement (burning the house to escape marriage). The poet juxtaposes macro-history (anti-colonial/anti-feudal) with micro-domestic rebellion to show women's resistance transcends scale. A wrong answer (e.g., \"both are about women\") stays at literal description and misses the structural analogy.",
+     "self_check": true
+    },
+    {
+     "q": "A board exam question asks: \"Evaluate whether the daughter's request to burn the house ('Hkwy tkÅ¡ viuk ?kj') is a literal desire for arson or a metaphorical plea for liberation. Justify using textual evidence.\" What level of comprehension does this demand, and what would a high-scoring answer include?",
+     "a": "This demands EVALUATION-level comprehension. A high-scoring answer would: (1) Acknowledge the literal impossibility (arson is a crime, mother would not agree), (2) Cite metaphorical markers (\"u feys Hkh[k\" – don't let anyone see, \"dksbZ oqQÙkk vk tk,\" – let some excuse arise), (3) Conclude it's a metaphor for breaking patriarchal control, using the mother's reluctant compliance as evidence of shared understanding. A weak answer treats it only as literal plot summary.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new inferential question for the second poem that requires connecting the daughter's plea (\"pjkpj! er pwd volj\") with the imagery of \"tyk er\" (darkness) and \"engks'k\" (silence). Provide the expected inference chain.",
+     "a": "Question: \"What does the progression from 'pjkpj' (burning) to 'tyk' (darkness) to 'engks'k' (silence) suggest about the daughter's envisioned future?\" Inference chain: Burning (destruction of current identity) → Darkness (unknown transition) → Silence (peaceful autonomy free from patriarchal noise). A poor answer lists the words without linking them to the theme of liberation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

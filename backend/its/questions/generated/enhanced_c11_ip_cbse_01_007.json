@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_01_007",
+   "title": "c11_ip_cbse_01_007",
+   "questions": [
+    {
+     "q": "Name the four categories of secondary storage devices discussed in NCERT Class 11 Chapter 1 with one example each, and state the fundamental reason why the CPU cannot access them directly.",
+     "a": "The four categories are: Magnetic (HDD), Solid-State (SSD), Optical (CD/DVD), Flash (Pen Drive). The CPU cannot access them directly because they are not connected to the system bus in a way that allows direct addressing; data must first be copied into primary memory (RAM) which the CPU can directly address via the memory bus. A wrong answer (e.g., \"CPU can access them but it's slow\") reveals the misconception that secondary storage is memory-mapped like RAM, ignoring the architectural separation between primary and secondary storage in Von Neumann architecture.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"SSD is just a faster version of HDD because both store data magnetically.\" Explain why this statement is incorrect by describing the physical storage mechanism of each.",
+     "a": "HDD uses magnetic platters with moving read/write heads (mechanical), while SSD uses NAND flash memory chips with no moving parts (electronic). The student's error reveals a fundamental misconception: confusing storage medium (magnetic vs. semiconductor) with interface (SATA). Both can use SATA, but the physics of data retention differs — HDD relies on magnetic domains, SSD on trapped charge in floating-gate transistors. This distinction explains SSD's shock resistance, silence, and lower latency.",
+     "self_check": true
+    },
+    {
+     "q": "You have a 2 TB HDD (₹4,500) and a 1 TB SSD (₹5,500). A video editor needs 1.5 TB for raw footage (sequential read/write) and 200 GB for OS + editing software (random access). Allocate the storage between the two drives to optimize performance and cost. Show your calculation.",
+     "a": "Allocate OS + software (200 GB) to SSD for fast random access (boot, app launch). Allocate raw footage (1.5 TB) to HDD because sequential throughput of HDD (~150 MB/s) suffices for video playback/editing, and cost per GB is lower (HDD: ₹2.25/GB, SSD: ₹5.50/GB). Total cost = ₹5,500 + ₹4,500 = ₹10,000. If reversed, cost = 1.5 TB SSD (₹8,250) + 200 GB HDD (not sold separately) — impractical. A wrong allocation (e.g., footage on SSD) shows inability to match access pattern (sequential vs random) to device strength.",
+     "self_check": true
+    },
+    {
+     "q": "Compare CD-R, DVD-R, and a 16 GB pen drive for distributing a 4.5 GB software installer to 50 offline clients. Evaluate each on: (a) number of discs/drives needed, (b) total cost (CD ₹15, DVD ₹25, pen drive ₹300), (c) reusability, (d) risk of data corruption during transport. Recommend the best option with justification.",
+     "a": "CD-R (700 MB): 7 discs per client × 50 = 350 discs, cost ₹5,250, not reusable, high scratch risk. DVD-R (4.7 GB): 1 disc per client × 50 = 50 discs, cost ₹1,250, not reusable, moderate scratch risk. Pen drive (16 GB): 1 drive can be reused 50 times (copy → deliver → collect → reformat), cost ₹300, reusable, low physical damage risk. Best: Single pen drive reused 50 times — lowest cost, zero waste, fastest transfer (USB 3.0 ~100 MB/s vs DVD ~10 MB/s). A wrong choice (e.g., DVD-R) ignores reusability and total cost of ownership.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Since RAM is volatile and SSD is non-volatile, we should replace RAM with SSD to make computers simpler and cheaper.\" Use the concepts of access latency, bandwidth, and CPU-memory interaction.",
+     "a": "The statement is flawed. RAM latency ~10 ns, bandwidth ~50 GB/s (DDR4); SSD latency ~50 µs (5,000× slower), bandwidth ~3.5 GB/s (SATA) or ~7 GB/s (NVMe). CPU executes instructions by fetching from RAM every cycle; if SSD replaced RAM, each fetch would stall the CPU for microseconds, reducing effective clock speed from GHz to kHz. Non-volatility is irrelevant during active computation — power loss during work is rare, and OS/hibernation handles persistence. The error reveals confusion between storage hierarchy roles: RAM is workspace, SSD is warehouse.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-device storage strategy for a freelance photographer who: (a) shoots 50 GB RAW photos per wedding, (b) edits on a laptop, (c) delivers final 10 GB JPEGs to clients, (d) archives all RAWs for 10 years. Specify device type, capacity, and role for each. Justify why cloud storage alone is insufficient per NCERT's definition of secondary storage.",
+     "a": "Device 1: 1 TB NVMe SSD (laptop internal) — active editing workspace (speed for random access to RAW files). Device 2: 4 TB portable HDD — project archive + client delivery (capacity/cost for 50 GB RAWs + 10 GB JPEGs per wedding). Device 3: 128 GB USB 3.2 pen drive — final JPEG handoff to client (portability, plug-and-play). Cloud insufficient because: (1) NCERT defines secondary storage as local physical devices; (2) 50 GB upload on typical Indian broadband (10 Mbps upload) takes ~11 hours per wedding; (3) archival for 10 years incurs recurring subscription cost vs one-time HDD purchase. A poor answer omits the upload bandwidth constraint or confuses cloud with local secondary storage.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

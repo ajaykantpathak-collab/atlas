@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_05_011",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_05_011",
+   "title": "c12_biotech_cbse_05_011",
+   "questions": [
+    {
+     "q": "What is the metabolome, and how does it differ from the genome, transcriptome, and proteome in terms of molecular composition and dynamic range?",
+     "a": "The metabolome is the complete set of small-molecule metabolites (typically <1.5 kDa) such as sugars, amino acids, lipids, and organic acids in a biological sample. Unlike the genome (static DNA), transcriptome (mRNA), and proteome (proteins), the metabolome is highly dynamic, chemically diverse, and present over a wide concentration range (picomolar to millimolar). A wrong answer that lists only \"metabolites are small molecules\" without contrasting dynamic nature or chemical diversity reveals a superficial understanding that misses why metabolomics requires distinct analytical strategies.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a single analytical platform (e.g., only GC-MS) cannot comprehensively cover the entire metabolome, and name two complementary techniques that together improve coverage.",
+     "a": "Metabolites vary widely in polarity, volatility, thermal stability, and concentration. GC-MS requires volatile, thermally stable compounds (often after derivatization), missing polar/non-volatile metabolites. LC-MS handles polar, non-volatile, and thermally labile compounds but may struggle with very hydrophobic lipids. NMR provides structural information and is quantitative but has lower sensitivity. A wrong answer that says \"GC-MS is enough because it detects many metabolites\" shows ignorance of chemical diversity and the need for orthogonal platforms.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to identify biomarkers for drought stress in wheat. She collects leaf samples from control and drought-treated plants at noon and midnight. Describe the critical sample preparation steps she must standardize to ensure valid metabolomic comparison, and explain why quenching is essential.",
+     "a": "Steps: (1) Rapid harvesting and immediate freezing in liquid nitrogen to arrest metabolism (quenching). (2) Storage at -80°C to prevent degradation. (3) Extraction using a solvent system (e.g., methanol:water:chloroform) that covers a broad polarity range. (4) Removal of proteins by precipitation/centrifugation. (5) Derivatization for GC-MS (e.g., methoximation + silylation). (6) Quality control samples (pooled extracts) run intermittently. Quenching is essential because metabolic turnover occurs in seconds; without it, post-harvest changes (e.g., continued glycolysis) alter metabolite levels, masking true drought-induced differences. A wrong answer omitting quenching or using only one extraction solvent reveals a failure to grasp metabolic lability and chemical diversity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast targeted and untargeted metabolomics approaches. In which scenario would you choose each, and why?",
+     "a": "Untargeted metabolomics aims to detect all measurable metabolites without prior bias, generating hypothesis-generating data (e.g., discovering unknown biomarkers in a new disease). Targeted metabolomics quantifies a predefined set of known metabolites with high accuracy and sensitivity (e.g., validating a panel of 20 metabolites for clinical diagnostics). Choose untargeted for exploratory studies (e.g., \"What changes in this mutant?\") and targeted for hypothesis-driven validation or absolute quantification. A wrong answer that swaps the scenarios (e.g., using untargeted for clinical validation) shows confusion about throughput, quantification rigor, and biological question alignment.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"NMR spectroscopy is inferior to mass spectrometry for metabolomics because it has lower sensitivity.\" Provide a balanced critique with at least three points.",
+     "a": "The statement is partially true but misleading. NMR has lower sensitivity (micromolar vs. nanomolar/picomolar for MS), but it offers: (1) Non-destructive analysis — samples can be reused. (2) Inherent quantitative capability without standards (signal area ∝ molar concentration). (3) Direct structural elucidation of unknowns via 2D NMR. (4) Minimal sample preparation (no derivatization). (5) High reproducibility and robustness for large cohorts. Thus, NMR is superior for quantitative metabolic profiling and structural ID of novel metabolites, while MS excels in sensitivity and coverage. A wrong answer that simply agrees reveals a one-dimensional view ignoring NMR's unique strengths in quantification and structure determination.",
+     "self_check": true
+    },
+    {
+     "q": "Design a metabolomics workflow to investigate the effect of a novel fertilizer on the metabolic phenotype of tomato fruits. Specify: (a) experimental design (replicates, controls), (b) analytical platform(s) and justification, (c) data processing steps, and (d) one statistical method to identify significantly altered metabolites.",
+     "a": "(a) Randomized complete block design: 10 biological replicates per treatment (fertilizer vs. control), harvested at same developmental stage/time of day. Include pooled QC samples every 10 runs. (b) Dual platform: LC-MS (polar/non-volatile) + GC-MS (volatile/primary metabolites) for broad coverage; NMR for absolute quantification of abundant metabolites. (c) Data processing: peak detection → alignment → normalization (e.g., probabilistic quotient) → missing value imputation → annotation using databases (HMDB, KEGG) with MSI levels. (d) Orthogonal Partial Least Squares-Discriminant Analysis (OPLS-DA) with VIP >1 and p<0.05 (t-test with FDR correction) to select discriminant metabolites. A poor answer lacking replication, QC, or multiple platforms shows inability to design a rigorous, publication-ready metabolomics study.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

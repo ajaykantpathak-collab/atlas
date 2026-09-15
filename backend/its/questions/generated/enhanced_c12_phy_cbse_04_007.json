@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_04_007",
+   "title": "c12_phy_cbse_04_007",
+   "questions": [
+    {
+     "q": "State the formula for the magnetic field inside a long solenoid and give the SI unit of each quantity. What is the direction of this field relative to the solenoid's axis?",
+     "a": "\\( B = \\mu_0 n I \\), where \\( \\mu_0 = 4\\pi \\times 10^{-7} \\, \\text{T·m/A} \\) (permeability of free space), \\( n \\) = turns per unit length (m\\(^{-1}\\)), \\( I \\) = current (A). The field is directed along the axis of the solenoid; direction given by right-hand thumb rule (curl fingers in current direction, thumb points along \\( \\vec{B} \\)). A wrong answer (e.g., \\( B = \\mu_0 N I / l \\) without defining \\( n \\), or stating field is radial) reveals confusion between total turns \\( N \\) and turn density \\( n \\), or misunderstanding of field geometry.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the magnetic field outside an ideal long solenoid is zero, using Ampere's law. Why does this argument fail for a short solenoid?",
+     "a": "For an ideal long solenoid, take a rectangular Amperian loop with one side outside parallel to the axis. By symmetry, the field outside must be uniform along that side. If it were non-zero, the line integral \\( \\oint \\vec{B} \\cdot d\\vec{l} \\) would be non-zero, but the loop encloses no net current (wires go in and out, canceling). Hence \\( B_{\\text{out}} = 0 \\). For a short solenoid, the field lines bulge out; the external field is not uniform along a long rectangular loop, and the loop may enclose net current due to non-cancellation of incoming/outgoing wires. A wrong answer (e.g., \"field is zero because wires are insulated\") shows confusion between electrical insulation and magnetic field superposition.",
+     "self_check": true
+    },
+    {
+     "q": "A solenoid of length 0.8 m has 4 layers of windings of 300 turns each. The diameter is 2.0 cm. If the current is 6.0 A, calculate the magnetic field inside the solenoid near its centre. Use \\( \\mu_0 = 4\\pi \\times 10^{-7} \\, \\text{T·m/A} \\).",
+     "a": "Given: \\( l = 0.8 \\, \\text{m} \\), layers = 4, turns per layer = 300 → total turns \\( N = 4 \\times 300 = 1200 \\). Turn density \\( n = N/l = 1200 / 0.8 = 1500 \\, \\text{m}^{-1} \\). \\( I = 6.0 \\, \\text{A} \\). \\( B = \\mu_0 n I = (4\\pi \\times 10^{-7}) \\times 1500 \\times 6.0 = 4\\pi \\times 10^{-7} \\times 9000 = 3.6\\pi \\times 10^{-3} \\, \\text{T} \\approx 1.13 \\times 10^{-2} \\, \\text{T} \\). Check: \\( l/d = 0.8/0.02 = 40 \\gg 1 \\), so long solenoid approximation valid. A wrong answer (e.g., using diameter instead of length for \\( n \\), or forgetting to multiply by 4 layers) reveals unit confusion or not reading \"4 layers of 300 turns each\".",
+     "self_check": true
+    },
+    {
+     "q": "Compare the magnetic field patterns of a long solenoid and a toroid. Why is the toroid's field zero outside its windings, while a solenoid has some external field near its ends?",
+     "a": "Solenoid: field lines emerge from one end (north pole), loop through space, and enter the other end (south pole). Inside, field is uniform and axial; outside, field is weak and non-uniform, resembling a bar magnet. Toroid: field lines are perfect circles confined within the toroid windings; no field outside or in the central cavity because any Amperian loop outside encloses zero net current (equal currents in opposite directions cancel). The toroid has no \"ends\" – it's a closed loop, so no magnetic poles are created. A wrong answer (e.g., \"toroid has no field outside because it's circular\") misses the crucial role of net enclosed current in Ampere's law.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The magnetic field inside a toroid is uniform, just like in a long solenoid.\" Evaluate this statement. Is it correct? If not, what is the correct description, and under what condition can the toroid's field be approximated as uniform?",
+     "a": "The statement is incorrect. In a toroid, \\( B = \\frac{\\mu_0 N I}{2\\pi r} \\), which varies with radial distance \\( r \\) from the centre. The field is stronger on the inner side (smaller \\( r \\)) and weaker on the outer side (larger \\( r \\)). It can be approximated as uniform only if the cross-sectional radius \\( a \\) of the toroid is much smaller than the mean radius \\( R \\) (i.e., \\( a \\ll R \\)), so that \\( r \\approx R \\) across the cross-section. A wrong evaluation (agreeing with the student) reveals failure to notice the \\( 1/r \\) dependence in the toroid formula versus the constant \\( B \\) in a solenoid.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a compass and a battery-powered solenoid to verify that the magnetic field inside a long solenoid is uniform and parallel to its axis. Describe the procedure, observations, and how you would conclude uniformity.",
+     "a": "Procedure: Place a long solenoid (e.g., 50 cm length, 2 cm diameter) horizontally on a wooden table. Connect to a 6 V battery via a switch. Use a small plotting compass. (1) Move the compass along the axis inside the solenoid (through a slit or by inserting it before winding) and observe deflection – it should align with the axis and show constant deflection magnitude. (2) Move the compass radially off-axis at the centre – deflection direction remains axial, magnitude unchanged. (3) Move compass near the ends – deflection decreases and direction fans out. Conclusion: Constant deflection magnitude and direction along the axis and across the cross-section at the centre confirm uniform axial field. A poor answer (e.g., \"just put compass inside and see it points one way\") lacks systematic variation of position and comparison to ends.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

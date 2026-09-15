@@ -1,0 +1,463 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 110,
+ "chapter_title": "Electric Current and its Effects",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hecu104.txt",
+ "concepts": [
+  {
+   "id": "gesc.10.1",
+   "title": "Symbols of Electric Components",
+   "section": "10.1",
+   "definition": "Standardized graphical representations of individual electrical parts used to simplify the drawing and analysis of electrical circuits.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "In the cell symbol, the longer thin line stands for the positive terminal; the shorter thick one stands for the negative terminal.",
+   "textbook_ref": "gesc110.txt lines 10-50",
+   "question_patterns": [
+    "draw the symbol for an electric cell",
+    "what does the longer line in a cell symbol represent",
+    "how is a switch in the ON position represented",
+    "identify the symbol for a battery",
+    "list the main features of symbols of electric components"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the component",
+     "explain": "Determine which electric component needs to be represented (e.g., cell, bulb, switch, wire)."
+    },
+    {
+     "step": 2,
+     "action": "Recall the standard symbol",
+     "explain": "Use standard representations: a long and short parallel line for a cell, a looped filament for a bulb, or connected/disconnected lines for a switch."
+    },
+    {
+     "step": 3,
+     "action": "Verify terminal polarity in the symbol",
+     "explain": "Confirm that the longer thin line represents the positive terminal and the shorter thick line represents the negative terminal, as stated in the key_idea."
+    }
+   ]
+  },
+  {
+   "id": "gesc.10.2",
+   "title": "Electric Battery",
+   "section": "10.1",
+   "definition": "A battery is a chain of two or more cells wired so each cell's positive side feeds the next cell's negative side.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Cells must be connected in series with alternating polarities (+ to -) to function as a battery.",
+   "textbook_ref": "gesc110.txt lines 51-90",
+   "question_patterns": [
+    "what is a battery",
+    "how do you connect cells to make a battery",
+    "draw the connection of four cells to form a battery",
+    "explain the terminal connections in a battery compartment",
+    "short note on electric battery"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the terminals of each cell",
+     "explain": "Locate the positive (+) and negative (-) terminals of all the cells to be connected."
+    },
+    {
+     "step": 2,
+     "action": "Connect opposite terminals",
+     "explain": "Draw or establish a connection from the negative terminal of the first cell to the positive terminal of the second cell, and repeat for subsequent cells."
+    },
+    {
+     "step": 3,
+     "action": "Verify the series connection",
+     "explain": "Confirm that all cells are connected in series with alternating polarities (+ to -), ensuring the battery produces a combined voltage as described in the key_idea."
+    }
+   ]
+  },
+  {
+   "id": "gesc.10.3",
+   "title": "Open and Closed Circuits",
+   "section": "10.1",
+   "definition": "An electric circuit is indeed closed when there is an unbroken path from the positive to the negative terminal, allowing current to flow; it is open if the path is broken, stopping current.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Current flows only in a complete, closed loop when the switch is indeed in the ON position.",
+   "textbook_ref": "gesc110.txt lines 120-145",
+   "question_patterns": [
+    "why does the bulb not glow when the switch is off",
+    "distinguish between an open and closed circuit",
+    "what happens to the current flow when a filament breaks",
+    "explain the state of a circuit when the switch is in the ON position",
+    "justify why open and closed circuits matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Trace the path of the circuit",
+     "explain": "Follow the path from the positive terminal of the power source through the components to the negative terminal."
+    },
+    {
+     "step": 2,
+     "action": "Check for continuity",
+     "explain": "If the switch is ON and all connections (including bulb filament) are intact, the circuit is closed and current flows. If there is any break, it is open."
+    },
+    {
+     "step": 3,
+     "action": "Classify the circuit state",
+     "explain": "Conclude whether the circuit is open or closed based on the continuity check, confirming that current flows only in a complete closed loop per the key_idea."
+    }
+   ]
+  },
+  {
+   "id": "gesc.10.4",
+   "title": "Heating Effect of Electric Current",
+   "section": "10.2",
+   "definition": "The generation of thermal energy in a wire or conductor when an electric current goes through it.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Electrical energy is changed into heat energy when current flows through a high-resistance element.",
+   "textbook_ref": "gesc110.txt lines 150-185",
+   "question_patterns": [
+    "what is the heating effect of electric current",
+    "name appliances that use the heating effect of current",
+    "why does an electric bulb become warm when kept on",
+    "what is an element in a heating appliance",
+    "state two key points about heating effect of electric current"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify current flow",
+     "explain": "An electric current passes through a conductor or heating element."
+    },
+    {
+     "step": 2,
+     "action": "Observe temperature change",
+     "explain": "Due to resistance, the electrical energy is converted into heat, raising the temperature of the wire."
+    },
+    {
+     "step": 3,
+     "action": "Identify the application",
+     "explain": "Recognize that this heating effect is used in appliances like heaters, irons, and bulbs, where a high-resistance element converts electrical energy into heat as described in the key_idea."
+    }
+   ]
+  },
+  {
+   "id": "gesc.10.5",
+   "title": "Factors Influencing Heat Production",
+   "section": "10.2",
+   "definition": "The amount of heat generated in a current-carrying wire depends on its physical and material properties.",
+   "formula": "heat_factors = f(material, length, thickness)",
+   "key_idea": "Different materials, lengths, and thicknesses are chosen to produce specific amounts of heat for different applications.",
+   "textbook_ref": "gesc110.txt lines 190-205",
+   "question_patterns": [
+    "on what factors does the heat produced in a wire depend",
+    "how does the material of a wire affect heat production",
+    "why do we use different thicknesses of wires in appliances",
+    "what do you understand by factors influencing heat production",
+    "state two key points about factors influencing heat production"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify wire characteristics",
+     "explain": "Note the material composition (e.g., copper, nichrome, steel), length, and thickness of the wire."
+    },
+    {
+     "step": 2,
+     "action": "Determine thermal behavior",
+     "explain": "Relate these properties to the resistance and subsequent heat generation when current flows."
+    },
+    {
+     "step": 3,
+     "action": "Compare heat output for different wires",
+     "explain": "Conclude that materials with higher resistance, greater length, or thinner thickness produce more heat, confirming the key_idea that material, length, and thickness are chosen to produce specific amounts of heat."
+    }
+   ]
+  },
+  {
+   "id": "gesc.10.6",
+   "title": "Electric Fuse",
+   "section": "10.2",
+   "definition": "A safety device containing a wire made of special material that quickly melts and breaks the circuit if the current exceeds a safe limit.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Fuses prevent electrical both fires and damage to appliances by interrupting excessive current flow.",
+   "textbook_ref": "gesc110.txt lines 220-255",
+   "question_patterns": [
+    "what is an electric fuse",
+    "how does a fuse act as a safety device",
+    "why does a fuse wire melt and break",
+    "what causes excessive current in household circuits",
+    "short note on electric fuse"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Detect excessive current",
+     "explain": "An overload or short circuit causes the electric current to exceed the safe limit of the circuit."
+    },
+    {
+     "step": 2,
+     "action": "Observe fuse wire melting",
+     "explain": "The high current heats the low-melting-point fuse wire, causing it to melt and break the circuit, stopping all current flow."
+    },
+    {
+     "step": 3,
+     "action": "Confirm the safety function",
+     "explain": "Verify that the melted fuse has interrupted the excessive current, protecting the circuit and appliances from fire or damage as stated in the key_idea."
+    }
+   ]
+  },
+  {
+   "id": "gesc.10.7",
+   "title": "Magnetic Effect of Electric Current",
+   "section": "10.3",
+   "definition": "The creation of a magnetic field around a conductor when electric current flows through it, causing nearby magnetic objects to experience a force.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "A current-carrying wire behaves like a magnet, as discovered by Hans Christian Oersted.",
+   "textbook_ref": "gesc110.txt lines 270-310",
+   "question_patterns": [
+    "what is the magnetic effect of electric current",
+    "why does a compass needle deflect near a current-carrying wire",
+    "who discovered the magnetic effect of electric current",
+    "explain the behavior of a compass needle when the switch is turned on",
+    "state two key points about magnetic effect of electric current"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Pass current through the conductor",
+     "explain": "When the switch is turned ON, electric current flows through the wire."
+    },
+    {
+     "step": 2,
+     "action": "Observe magnetic deflection",
+     "explain": "The current creates a magnetic field around the wire, which exerts a force on a nearby compass needle, causing it to deflect."
+    },
+    {
+     "step": 3,
+     "action": "Confirm the magnetic effect",
+     "explain": "Verify that the deflection occurs only while current flows, confirming the key_idea that a current-carrying wire behaves like a magnet, as discovered by Hans Christian Oersted."
+    }
+   ]
+  },
+  {
+   "id": "gesc.10.8",
+   "title": "Electromagnet",
+   "section": "10.4",
+   "definition": "A temporary magnet consisting of an insulated wire coiled tightly around a magnetic core (like iron) that exhibits magnetic properties only when current flows through the coil.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Magnetism is temporary and can be controlled by switching the electric current on or off.",
+   "textbook_ref": "gesc110.txt lines 315-345",
+   "question_patterns": [
+    "what is an electromagnet",
+    "how can you make a simple electromagnet",
+    "why does an electromagnet lose its magnetism when current is switched off",
+    "state the uses of electromagnets",
+    "describe electromagnet with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Wind coil around core",
+     "explain": "Wrap an insulated flexible wire tightly around an iron nail or core to form a coil."
+    },
+    {
+     "step": 2,
+     "action": "Energize the coil",
+     "explain": "Pass electric current through the wire. The core becomes magnetized and attracts magnetic materials like pins."
+    },
+    {
+     "step": 3,
+     "action": "De-energize the coil",
+     "explain": "Switch off the current. The coil and core lose their magnetism, releasing any attracted objects."
+    }
+   ]
+  },
+  {
+   "id": "gesc.10.9",
+   "title": "Working of an Electric Bell",
+   "section": "10.5",
+   "definition": "An electromechanical device that uses an electromagnet to repeatedly attract an iron strip with a hammer, striking a gong and breaking the circuit in a continuous cycle.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "The continuous ringing is achieved by an automatic make-and-break mechanism in the circuit.",
+   "textbook_ref": "gesc110.txt lines 350-385",
+   "question_patterns": [
+    "explain the working of an electric bell",
+    "what is the role of the electromagnet in an electric bell",
+    "how does the circuit of an electric bell break and complete repeatedly",
+    "describe the construction of an electric bell",
+    "give one everyday example of working of an electric bell"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Magnetize the electromagnet",
+     "explain": "When the switch is pressed, current flows through the coil, turning it into an electromagnet."
+    },
+    {
+     "step": 2,
+     "action": "Attract the iron strip",
+     "explain": "The electromagnet pulls the iron strip, causing the hammer to strike the gong and produce sound."
+    },
+    {
+     "step": 3,
+     "action": "Break the circuit",
+     "explain": "The movement of the iron strip pulls it away from the contact screw, breaking the circuit and stopping current flow."
+    },
+    {
+     "step": 4,
+     "action": "Reset the contact",
+     "explain": "The electromagnet loses its magnetism, releasing the iron strip, which springs back to touch the contact screw, completing the circuit again."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gesc110.txt lines 395-405",
+   "concept": "gesc.10.2",
+   "question_type": "verify_property",
+   "question_pattern": "In a circuit containing four cells, the bulb does not glow. Upon inspection, the cells are arranged with positive terminals connected to positive terminals. Explain the defect and how to correct it.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze the terminal connections",
+     "explain": "To form a functional battery, the positive terminal of one cell must connect to the negative terminal of the next cell."
+    },
+    {
+     "step": 2,
+     "action": "Identify the defect",
+     "explain": "Connecting positive terminals to positive terminals prevents the proper flow of electric current through the circuit."
+    },
+    {
+     "step": 3,
+     "action": "Provide the correction",
+     "explain": "Rearrange the cells so that they are connected in a series of alternating polarities (+ to -)."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gesc110.txt lines 275-295",
+   "concept": "gesc.10.7",
+   "question_type": "verify_property",
+   "question_pattern": "When the switch in a circuit is closed, a compass needle kept nearby gets deflected from its north-south position. Explain why this happens.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Relate current flow to magnetic field",
+     "explain": "Closing the switch allows electric current to flow through the wire, which generates a magnetic field around it."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the effect on the compass needle",
+     "explain": "The compass needle is a tiny magnet. The magnetic field produced by the current-carrying wire exerts a magnetic force on the needle, causing it to deflect from its default north-south alignment."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex10.1",
+   "source_ref": "gesc110.txt lines 388-391",
+   "questions": [
+    "Draw in your notebook the symbols to represent the following components of electrical circuits: connecting wires, switch in the 'OFF' position, bulb, cell, switch in the 'ON' position, and battery."
+   ]
+  },
+  {
+   "id": "ex10.2",
+   "source_ref": "gesc110.txt lines 392-393",
+   "questions": [
+    "Draw the circuit diagram to represent the circuit shown in Fig.10.21."
+   ]
+  },
+  {
+   "id": "ex10.3",
+   "source_ref": "gesc110.txt lines 394-397",
+   "questions": [
+    "Fig.10.22 shows four cells fixed on a board. Draw lines to indicate how you will connect their terminals with wires to make a battery of four cells."
+   ]
+  },
+  {
+   "id": "ex10.4",
+   "source_ref": "gesc110.txt lines 398-401",
+   "questions": [
+    "The bulb in the circuit shown in Fig.10.23 does not glow. Can you identify the problem? Make necessary changes in the circuit to make the bulb glow."
+   ]
+  },
+  {
+   "id": "ex10.5",
+   "source_ref": "gesc110.txt lines 402-403",
+   "questions": [
+    "Name any two effects of electric current."
+   ]
+  },
+  {
+   "id": "ex10.6",
+   "source_ref": "gesc110.txt lines 404-406",
+   "questions": [
+    "When the current is switched on through a wire, a compass needle kept nearby gets deflected from its north-south position. Explain."
+   ]
+  },
+  {
+   "id": "ex10.7",
+   "source_ref": "gesc110.txt lines 407-409",
+   "questions": [
+    "Will the compass needle show deflection when the switch in the circuit shown by Fig.10.24 is closed?"
+   ]
+  },
+  {
+   "id": "ex10.8",
+   "source_ref": "gesc110.txt lines 410-415",
+   "questions": [
+    "Fill in the blanks: (a) Longer line in the symbol for a cell represents its terminal. (b) The combination of two or more cells is called a . (c) When current is switched 'on' in a room heater, it . (d) The safety device based on the heating effect of electric current is called a ."
+   ]
+  },
+  {
+   "id": "ex10.9",
+   "source_ref": "gesc110.txt lines 416-422",
+   "questions": [
+    "Mark 'T' if the statement is true and 'F' if it is false: (a) To make a battery of two cells, the negative terminal of one cell is connected to the negative terminal of the other cell. (b) When the electric current through the fuse exceeds a certain limit, the fuse wire melts and breaks. (c) An electromagnet does not attract a piece of iron. (d) An electric bell has an electromagnet."
+   ]
+  },
+  {
+   "id": "ex10.10",
+   "source_ref": "gesc110.txt lines 423-425",
+   "questions": [
+    "Do you think an electromagnet can be used for separating plastic bags from a garbage heap? Explain."
+   ]
+  },
+  {
+   "id": "ex10.11",
+   "source_ref": "gesc110.txt lines 426-429",
+   "questions": [
+    "An electrician is carrying out some repairs in your house. He wants to replace a fuse by a piece of wire. Would you agree? Give reasons for your response."
+   ]
+  },
+  {
+   "id": "ex10.12",
+   "source_ref": "gesc110.txt lines 430-433",
+   "questions": [
+    "Zubeda made an electric circuit using a cell holder shown in Fig. 10.4, a switch and a bulb. When she put the switch in the 'ON' position, the bulb did not glow. Help Zubeda in identifying the possible defects in the circuit."
+   ]
+  },
+  {
+   "id": "ex10.13",
+   "source_ref": "gesc110.txt lines 434-439",
+   "questions": [
+    "In the circuit shown in Fig. 10.25: (i) Would any of the bulb glow when the switch is in the 'OFF' position? (ii) What will be the order in which the bulbs A, B and C will glow when the switch is moved to the 'ON' position?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "title-matched to new cache"
+}

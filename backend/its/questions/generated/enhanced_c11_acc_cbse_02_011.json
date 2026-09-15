@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_02_011",
+   "title": "c11_acc_cbse_02_011",
+   "questions": [
+    {
+     "q": "What is the primary objective of Accounting Standards issued by ICAI?",
+     "a": "The primary objective is to bring uniformity in accounting policies and practices to eliminate non-comparability of financial statements and enhance their reliability. A wrong answer (e.g., \"to replace the Companies Act\" or \"to calculate tax liability\") reveals the student confuses Accounting Standards with legislation or taxation, not understanding their role as standardization tools for financial reporting.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why \"comparability\" is considered a major benefit of Accounting Standards, and give a concrete example of how its absence would mislead a user.",
+     "a": "Comparability allows users to compare financial statements of different companies (inter-firm) or the same company over time (inter-period) because similar transactions are treated alike. Without it, Company X could use straight-line depreciation while Company Y uses written-down value for identical machinery, making profit figures incomparable. A wrong answer that only defines comparability without an example, or confuses it with \"consistency\" (which is about one firm over time), shows the student hasn't grasped the cross-entity dimension of the benefit.",
+     "self_check": true
+    },
+    {
+     "q": "A startup follows all Accounting Standards but chooses a valuation method for inventory that is permitted under AS-2 but not the one used by its competitor. The competitor claims the startup's financial statements are non-comparable. Is the competitor correct? Justify using the concept of \"alternative treatments\" in Accounting Standards.",
+     "a": "The competitor is partially correct but misunderstands the standard. Accounting Standards reduce but do not always eliminate alternative treatments (e.g., AS-2 permits FIFO or weighted average for inventory). If both methods are allowed, both companies comply with the standard, yet comparability is reduced. This reveals the limitation that standards \"make choice between different alternate accounting treatments difficult to apply\" but don't always mandate a single method. A student who says \"standards eliminate all alternatives\" has missed this nuance.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the relationship between Accounting Standards and the Companies Act, 2013. Can an Accounting Standard override a provision of the Companies Act? Why or why not?",
+     "a": "No, Accounting Standards cannot override the Companies Act. The NCERT explicitly states: \"Accounting standard cannot override the statute. The standards are required to be framed within the ambit of prevailing statute.\" Standards are subordinate to law; if a conflict arises, the Act prevails. A student who thinks standards supersede law confuses regulatory hierarchy — ICAI is a professional body, while the Act is parliamentary legislation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Accounting Standards make financial statements completely rigid and remove all professional judgment.\" Is this a fair criticism? Support your answer with one benefit and one limitation from the syllabus.",
+     "a": "The statement is an exaggeration. Benefit: Standards *reduce* confusing variations (e.g., multiple depreciation methods) but still allow judgment in estimates like useful life or residual value. Limitation: They are rigid in that they \"fail to extend flexibility in applying accounting standards\" when unique circumstances arise. A balanced evaluation acknowledges that standards constrain arbitrary choices but don't eliminate all judgment. A student calling it \"fully rigid\" ignores the role of estimates and disclosures.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario where a company complies with all Accounting Standards but still produces financial statements that mislead an investor. Explain which limitation of Accounting Standards this exposes.",
+     "a": "Scenario: A company uses permitted FIFO inventory valuation during high inflation, showing high profits and high taxes, while its economic reality (replacement cost) is much lower. It discloses the method as required. The investor is misled by \"paper profits.\" This exposes the limitation that standards \"cannot override the statute\" and are framed within legal bounds — they don't guarantee economic truth, only compliance. A poor answer would blame the company for fraud; the point is that standards have inherent boundaries.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

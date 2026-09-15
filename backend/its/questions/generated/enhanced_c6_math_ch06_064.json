@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch06_064",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch06_064",
+   "title": "c6_math_ch06_064",
+   "questions": [
+    {
+     "q": "If 4 pens cost 20 rupees, what is the first step you take to find the cost of 9 pens?",
+     "a": "The first step is to calculate the cost of 1 pen by dividing 20 by 4. A wrong answer like \"adding 4 and 9\" reveals the student does not understand that we need a common unit (the \"unit\" in unitary method) to compare different quantities.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we divide the total cost by the number of items at the start?",
+     "a": "We divide to find the \"unit price,\" which acts as a standard building block. A wrong answer suggests the student thinks division is just a random rule rather than a tool to isolate the value of a single item.",
+     "self_check": true
+    },
+    {
+     "q": "If 3 kilograms of sugar cost 135 rupees, how much will 7 kilograms cost?",
+     "a": "Step 1: Cost of 1 kg = 135 ÷ 3 = 45 rupees. Step 2: Cost of 7 kg = 7 × 45 = 315 rupees. If a student adds or subtracts, it shows they are failing to see the proportional relationship between quantity and price.",
+     "self_check": true
+    },
+    {
+     "q": "If 5 notebooks cost 100 rupees, how can you determine if 10 notebooks will cost more or less than 100 rupees?",
+     "a": "Since 10 is more than 5, the cost will be more. A wrong answer suggests the student is not logically evaluating the relationship between quantity and total cost before calculating.",
+     "self_check": true
+    },
+    {
+     "q": "No, the method relies entirely on finding that \"one unit\" value first. If a student tries to guess without finding the unit value, they are abandoning the mathematical logic of the method.",
+     "a": "**Correct Answer:**\nYes, it is possible because the unitary method is a process used specifically to *find* the price of one unit first. Once you calculate that single-unit value by dividing the total cost by the number of units, you can then use it to find the price of any other quantity.\n\n**Explanation:**\nA wrong answer reveals that the student misunderstands the **purpose** of the unitary method, likely viewing it as a static formula rather than a two-step problem-solving strategy. It suggests they believe the \"price of one\" must be a pre-existing fact provided in the problem, rather than a value that must be derived to bridge the gap between the known total and the unknown quantity.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem that can be solved using the unitary method and provide the first step of the solution.",
+     "a": "A good answer would be: \"If 2 buses carry 100 passengers, how many do 5 buses carry?\" The first step is: \"1 bus carries 100 ÷ 2 = 50 passengers.\" An answer failing to isolate a single unit shows a lack of understanding of the core concept.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

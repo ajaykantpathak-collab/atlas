@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_02_003",
+   "title": "c12_acc_cbse_02_003",
+   "questions": [
+    {
+     "q": "A firm's profits for the last three years are ₹50,000, ₹60,000, and ₹70,000. The profit of ₹70,000 includes a non-recurring gain of ₹10,000. What is the average profit for goodwill valuation under the Simple Average Profit Method?",
+     "a": "Correct answer: ₹56,667.  \nSteps: Adjust Year 3 profit = ₹70,000 − ₹10,000 = ₹60,000. Total adjusted profit = ₹50,000 + ₹60,000 + ₹60,000 = ₹1,70,000. Average = ₹1,70,000 / 3 = ₹56,667.  \nA wrong answer of ₹60,000 (ignoring the non-recurring gain) reveals the student does not understand that **only maintainable profits** are considered. A wrong answer of ₹56,667 but using unadjusted profits shows confusion between simple average and adjusted average.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why partner’s salary not charged against profit must be deducted before computing average profit for goodwill valuation.",
+     "a": "Correct explanation: Goodwill compensates for **future excess earnings** attributable to the firm's reputation, not for the labour of partners. If partner salary is not charged, profit is overstated, inflating goodwill. The salary is an expense that would be incurred in future; deducting it gives maintainable profit.  \nA wrong answer like \"salary is an appropriation, not expense\" reveals confusion between **Partnership Act** (salary as appropriation) and **accounting for goodwill** (salary as expense to arrive at true profit). Another error: \"salary is already in profit\" — shows misunderstanding that unrecorded salary must be explicitly deducted.",
+     "self_check": true
+    },
+    {
+     "q": "A firm has average profit of ₹2,00,000. Capital employed is ₹10,00,000. Normal rate of return is 12%. Years' purchase = 3. Compute goodwill under Super Profit Method.",
+     "a": "Correct answer: ₹2,40,000.  \nSteps: Normal Profit = ₹10,00,000 × 12% = ₹1,20,000. Super Profit = ₹2,00,000 − ₹1,20,000 = ₹80,000. Goodwill = ₹80,000 × 3 = ₹2,40,000.  \nA wrong answer of ₹6,00,000 (average profit × 3) shows the student applied **Average Profit Method** instead of Super Profit Method. A wrong answer of ₹3,60,000 (super profit = ₹2,00,000 − ₹1,00,000) reveals miscalculation of normal profit (using 10% instead of 12%).",
+     "self_check": true
+    },
+    {
+     "q": "Compare Simple Average Profit Method and Weighted Average Profit Method. When is weighted average preferred? Give a numerical illustration where weights 1,2,3 are assigned to profits of three years (oldest to latest).",
+     "a": "Simple average gives equal weight to all years; weighted average assigns higher weights to recent years, reflecting current trend. Weighted average is preferred when profits show a **clear rising or falling trend**.  \nIllustration: Profits ₹1,00,000, ₹1,20,000, ₹1,50,000. Simple avg = ₹1,23,333. Weighted avg = (1×1,00,000 + 2×1,20,000 + 3×1,50,000) / (1+2+3) = ₹1,31,667.  \nA wrong answer stating \"weighted average is always better\" shows lack of understanding that simple average is fine for stable profits. Confusing weight assignment (e.g., 3,2,1) reveals not grasping that **recent years get higher weights**.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Super Profit Method is superior to Average Profit Method because it considers capital employed.\" Evaluate this statement with reference to a firm with high capital but low profitability.",
+     "a": "The statement is **partially correct but incomplete**. Super Profit Method **does** consider capital efficiency via normal profit, making it better for capital-intensive firms. However, if a firm has high capital but low profitability (super profit negative or zero), goodwill becomes zero/negative — which may undervalue intangible assets like brand. Average Profit Method would still show positive goodwill.  \nEvaluation: Super Profit Method is superior **only when capital employed is accurately measurable and normal rate is reliable**. For service firms with low capital, Average Profit Method may be more appropriate.  \nA wrong answer like \"Super Profit is always better\" reveals inability to **contextualize method selection**. Saying \"Average Profit ignores capital\" is correct but not an evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where Weighted Average Profit Method and Super Profit Method give **different goodwill values** for the same firm. Provide numbers and explain why the difference arises.",
+     "a": "Scenario: Profits (oldest to latest): ₹80,000, ₹1,00,000, ₹1,40,000. Capital employed ₹5,00,000. Normal rate 10%. Years' purchase = 2.  \nWeighted avg profit (weights 1,2,3) = (1×80k + 2×100k + 3×140k)/6 = ₹1,13,333. Goodwill (Avg) = ₹2,26,667.  \nSuper profit: Normal profit = ₹50,000. Super profit = ₹1,13,333 − ₹50,000 = ₹63,333. Goodwill (Super) = ₹1,26,667.  \nDifference arises because **Super Profit Method deducts normal return on capital**, while Average Profit Method does not. The firm earns above-normal return, but capital base reduces super profit.  \nA poor answer that only changes years' purchase or uses same profit for both methods shows failure to **design a scenario exposing methodological difference**.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

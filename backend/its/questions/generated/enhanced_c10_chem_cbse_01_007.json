@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_01_007",
+   "title": "c10_chem_cbse_01_007",
+   "questions": [
+    {
+     "q": "State the classical definition of oxidation and reduction in terms of oxygen and hydrogen transfer.",
+     "a": "Oxidation is gain of oxygen or loss of hydrogen; reduction is loss of oxygen or gain of hydrogen. A wrong answer (e.g., \"oxidation is loss of oxygen\") reveals the student has memorised the terms backwards — a very common error that leads to misidentifying oxidised/reduced species in every subsequent question.",
+     "self_check": true
+    },
+    {
+     "q": "In the reaction Fe₂O₃ + 3CO → 2Fe + 3CO₂, explain why Fe₂O₃ is said to be reduced and CO is oxidised, using the classical definition.",
+     "a": "Fe₂O₃ loses oxygen (loss of oxygen = reduction) to form Fe; CO gains oxygen (gain of oxygen = oxidation) to form CO₂. A wrong answer (e.g., \"Fe₂O₃ gains oxygen\") shows the student cannot track oxygen atoms across reactants and products — they look only at the formula Fe₂O₃ and see oxygen present, missing that it decreases from 3 O atoms per formula unit to zero in Fe.",
+     "self_check": true
+    },
+    {
+     "q": "Identify the oxidised and reduced species in the reaction: Zn + CuSO₄ → ZnSO₄ + Cu. Use the electronic definition (electron transfer).",
+     "a": "Zn → Zn²⁺ + 2e⁻ (oxidation, loss of electrons); Cu²⁺ + 2e⁻ → Cu (reduction, gain of electrons). Zn is oxidised (reducing agent), Cu²⁺ is reduced (oxidising agent). A wrong answer (e.g., \"Cu is oxidised because it becomes Cu²⁺\") reveals the student confuses the elemental form with the ion — they see Cu on the product side and think it lost electrons, not recognising Cu²⁺ on the reactant side gained electrons to become Cu.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two reactions: (i) 2Mg + O₂ → 2MgO and (ii) H₂ + Cl₂ → 2HCl. In which reaction does oxidation occur according to the classical definition? In which does it occur according to the electronic definition? Explain any difference.",
+     "a": "Classical: Reaction (i) — Mg gains oxygen (oxidation); Reaction (ii) — no oxygen/hydrogen transfer, so classical definition does not apply. Electronic: Both reactions — Mg loses electrons (oxidation) in (i); H₂ loses electrons (oxidation) in (ii). A wrong answer (e.g., \"only reaction (i) shows oxidation\") shows the student thinks oxidation requires oxygen — they haven't internalised that the electronic definition extends the concept beyond oxygen-containing reactions.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"In the reaction MnO₂ + 4HCl → MnCl₂ + Cl₂ + 2H₂O, MnO₂ is the reducing agent because it loses oxygen.\" Evaluate this statement and correct it.",
+     "a": "The statement is incorrect. MnO₂ loses oxygen (reduction), so it is the oxidising agent (it causes HCl to be oxidised). HCl loses electrons (Cl⁻ → Cl₂) and is the reducing agent. A wrong evaluation (e.g., agreeing with the student) reveals the classic confusion: the substance that is reduced is the oxidising agent, not the reducing agent. Students mix up \"agent\" with \"process\" — the agent is the reactant that causes the other species to undergo that process.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using iron nails and copper sulphate solution to demonstrate oxidation and reduction. State what you would observe and which species is oxidised/reduced.",
+     "a": "Place an iron nail in blue CuSO₄ solution. Observe: blue colour fades (Cu²⁺ reduced to Cu), reddish-brown deposit forms on nail (Cu), solution turns pale green (Fe²⁺ formed). Reaction: Fe + Cu²⁺ → Fe²⁺ + Cu. Fe is oxidised (loses 2e⁻), Cu²⁺ is reduced (gains 2e⁻). A poor answer (e.g., \"iron rusts\") shows the student cannot connect displacement reactions (c10_chem_cbse_01_005) to redox — they see only a colour change, not electron transfer.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

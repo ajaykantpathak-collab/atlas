@@ -1,0 +1,53 @@
+{
+  "catalog": "catalog_class12_geography_legy201",
+  "concepts": [
+    {
+      "id": "legy.201.1",
+      "questions": [
+        {"q": "India's 2011 census counted about how many million people? (number, in millions)", "a": "1210"},
+        {"q": "India is the world's which most populous country? (short form)", "a": "second"},
+        {"q": "Density in the northern plains exceeds how many persons per sq km? (number)", "a": "1000"},
+        {"q": "Population density equals total population divided by what? (two words)", "a": "land area"},
+        {"q": "A state has 60 million people on 1.2 lakh (120,000) sq km. What is its density per sq km? (number)", "a": "500"},
+        {"q": "Which terrain in the north-east keeps population sparse? (one word)", "a": "hills"},
+        {"q": "Does India's population distribute evenly or unevenly across states? (one word)", "a": "unevenly"}
+      ]
+    },
+    {
+      "id": "legy.201.2",
+      "questions": [
+        {"q": "Which year is called the year of great divide in India's demographic history? (give the year)", "a": "1921"},
+        {"q": "How many phases of population growth does India's census record show? (number)", "a": "4"},
+        {"q": "The rapid high-growth phase of India's population ran from 1951 to which year? (give the year)", "a": "1981"},
+        {"q": "How many years did the steadily expanding phase 1921-1951 last? (number of years)", "a": "30"},
+        {"q": "Since which year has India shown high growth with definite signs of slowing? (give the year)", "a": "1981"},
+        {"q": "Before which year did India's population remain in the stagnant phase? (give the year)", "a": "1921"},
+        {"q": "How many years does the phase 1951-1981 cover? (number of years)", "a": "30"}
+      ]
+    },
+    {
+      "id": "legy.201.3",
+      "questions": [
+        {"q": "What was India's sex ratio in the 2011 census, females per thousand males? (number)", "a": "940"},
+        {"q": "Sex ratio is counted as females per what number of males? (number)", "a": "1000"},
+        {"q": "A village has 4,700 females and 5,000 males. What is its sex ratio per thousand males? (number)", "a": "940"},
+        {"q": "A town has 9,800 females and 10,000 males. What is its sex ratio? (number)", "a": "980"},
+        {"q": "Does India's population have a young or an old age structure? (one word)", "a": "young"},
+        {"q": "Which age group's share is declining in India: children or the elderly? (one word)", "a": "children"},
+        {"q": "Is India's sex ratio above or below 1000? (one word)", "a": "below"}
+      ]
+    },
+    {
+      "id": "legy.201.4",
+      "questions": [
+        {"q": "How many occupational categories does the census divide workers into? (number)", "a": "4"},
+        {"q": "Cultivators and agricultural labourers belong to which sector of the economy? (one word)", "a": "primary"},
+        {"q": "Workers in household industry are classified under which sector? (one word)", "a": "secondary"},
+        {"q": "What is the proportion of workers to total population called? (two words)", "a": "work participation rate"},
+        {"q": "A high share of primary-sector workers signals disguised what in agriculture? (one word)", "a": "underemployment"},
+        {"q": "Which category of worker works on someone else's land for wages? (two words)", "a": "agricultural labourers"},
+        {"q": "Name the fourth occupational category besides cultivators, agricultural labourers and household industry workers. (two words)", "a": "other workers"}
+      ]
+    }
+  ]
+}

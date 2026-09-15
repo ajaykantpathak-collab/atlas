@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_01_005",
+   "title": "c10_civ_cbse_01_005",
+   "questions": [
+    {
+     "q": "What are the three lists in the Seventh Schedule of the Indian Constitution that distribute legislative powers between the Union and the States?",
+     "a": "The three lists are: Union List (List I), State List (List II), and Concurrent List (List III). A wrong answer (e.g., naming \"Local List\" or \"Central List\") reveals the student confuses the constitutional terminology with casual usage or mistakes the three tiers of government for the three legislative lists. The lists distribute *legislative subjects*, not governmental tiers.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution place subjects like \"Education\" and \"Forests\" in the Concurrent List instead of exclusively in the Union or State List?",
+     "a": "The Concurrent List allows both Union and State legislatures to make laws on these subjects, enabling the Union to set national standards (e.g., Right to Education Act) while States retain flexibility for local implementation. A wrong answer (e.g., \"because they are important\") shows the student doesn't grasp the functional reasoning: concurrent jurisdiction balances national uniformity with regional diversity, and Article 254 resolves conflicts by giving precedence to Union law.",
+     "self_check": true
+    },
+    {
+     "q": "A State Government wants to pass a law regulating the use of groundwater for irrigation. The Union Government has already enacted a law on \"Water\" under Entry 56 of the Union List (regulation of inter-state rivers). Can the State law be valid? Explain using constitutional provisions.",
+     "a": "Yes, the State law can be valid if it regulates *intra-state* groundwater (a State subject under Entry 17 of State List: \"Water, that is to say, water supplies, irrigation and canals, drainage and embankments, water storage and water power\"). Entry 56 of Union List covers only *inter-state* rivers. The student must distinguish between inter-state and intra-state waters. A wrong answer (e.g., \"No, Union law prevails on all water matters\") reveals the misconception that Union List entries override all related State subjects, ignoring the precise wording of entries.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the constitutional status of the Union Government, State Governments, and Local Governments (Panchayats/Municipalities). Which tier derives its powers directly from the Constitution, and which depends on State legislation?",
+     "a": "Union and State Governments derive their powers directly from the Constitution (Articles 245-255). Local Governments (Panchayats/Municipalities) were given constitutional recognition by the 73rd and 74th Amendments (Articles 243B, 243Q), but their *specific powers, functions, and finances* are devolved by *State Legislatures* through State Acts. A wrong answer (e.g., \"All three are equal tiers with direct constitutional powers\") shows the student overlooks that local governments are creatures of State law, not sovereign federal units.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Indian Constitution establishes a federal system with a strong unitary bias.\" Use the vertical division of powers (legislative, administrative, financial) to support your judgment.",
+     "a": "The statement is accurate. Federal features: dual polity, written Constitution, independent judiciary, distribution of powers (Three Lists). Unitary bias: Union List has more subjects (97 vs 66), residuary powers with Union (Article 248), Parliament can legislate on State subjects under Articles 249, 250, 252, 253, Governor appointed by President (Article 155), integrated judiciary, single citizenship, emergency provisions (Articles 352, 356, 360) centralize power. A wrong answer that only lists federal features ignores the structural tilt toward the Union, which is a core board exam concept.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a new entry for the Concurrent List that addresses a modern governance challenge (e.g., data privacy, climate change adaptation, gig worker rights). Justify why it belongs in the Concurrent List rather than Union or State List exclusively.",
+     "a": "Example entry: \"Regulation of digital platforms and data protection for citizens' privacy.\" Justification: Data flows across state borders (need for national standards), but implementation requires local enforcement mechanisms and sensitivity to regional languages/cultures. Concurrent jurisdiction allows a central framework (like DPDP Act) with State rules for local grievance redressal. A poor answer proposes a subject clearly local (e.g., \"municipal waste collection\") or clearly national (e.g., \"currency\") showing inability to apply the principle of concurrent jurisdiction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

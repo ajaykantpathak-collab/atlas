@@ -1,0 +1,78 @@
+{
+ "catalog": "catalog_class12_informatics_practices_leip107",
+ "concepts": [
+  {
+   "id": "leip107.1",
+   "title": "Approaches for Solving Projects",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Approaches for Solving Projects' refers to.",
+     "a": "Project work follows systematic approaches: identify a real problem, state its requirements, decompose it into subtasks, choose data structures and tools for each subtask, build and test iteratively, then document. Decomposition turns one large unknown into several small solvable pieces.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Approaches for Solving Projects'.",
+     "a": "The order matters: requirements before code, testing during the build rather than only at the end, and documentation as you go so the final report writes itself from notes.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Approaches for Solving Projects'.",
+     "a": "List the stages of solving a project from problem to documentation.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip107.2",
+   "title": "Teamwork Components",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Teamwork Components' refers to.",
+     "a": "Effective teamwork has identifiable components: a shared goal, divided roles matching members' strengths, clear communication, agreed timelines, and collective review of each other's work. Version-shared files and task lists keep the division visible.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Teamwork Components'.",
+     "a": "Teams fail on coordination more than on skill: unclear roles and silent members cost more than weak individual coding. Regular short reviews surface problems while they are small.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Teamwork Components'.",
+     "a": "Name the components of effective teamwork described in the chapter.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip107.3",
+   "title": "Project Descriptions and Data Handling Tasks",
+   "questions": [
+    {
+     "q": "Using the method 'Project Descriptions and Data Handling Tasks', work with: part = 45, whole = 150. Carry the chain through step by step and give the final value of rest.",
+     "a": "70 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Project Descriptions and Data Handling Tasks' and work with: part = 25, whole = 60. Carry the chain through step by step and give the final value of rest.",
+     "a": "58.3333 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Project Descriptions and Data Handling Tasks' refers to.",
+     "a": "The chapter's project descriptions are data-centred: collect a real dataset (marks, sales, survey responses), clean it, store it in a DataFrame or database, compute summaries (totals, means, percentages), visualise with charts, and report findings. Each project pairs an informatics tool with a decision the data answers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Project Descriptions and Data Handling Tasks'.",
+     "a": "A good school project ends in an answer, not a program: the computed summaries and charts must state something the raw table could not show, such as which category drives most of the total.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Project Descriptions and Data Handling Tasks', in plain ASCII form.",
+     "a": "pct = part / whole * 100",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

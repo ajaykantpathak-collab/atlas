@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_09_011",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_09_011",
+   "title": "c11_phy_cbse_09_011",
+   "questions": [
+    {
+     "q": "What is the SI unit of Reynolds number, and why is it dimensionless?",
+     "a": "Reynolds number has no SI unit — it is dimensionless. The formula Re = ρvD/η has units: (kg/m³) × (m/s) × m ÷ (Pa·s) = (kg/m³) × (m/s) × m ÷ (kg/(m·s)) = 1. A wrong answer (e.g., \"m/s\" or \"kg/m³\") reveals the student does not understand that Re is a ratio of two forces with identical dimensions, or cannot perform dimensional analysis to verify dimensionless quantities.",
+     "self_check": true
+    },
+    {
+     "q": "Water flows through a horizontal pipe of diameter 2.0 cm at 0.5 m/s. If the pipe diameter is doubled to 4.0 cm while keeping the volume flow rate constant, what happens to the Reynolds number? Explain physically why.",
+     "a": "Reynolds number remains unchanged. Volume flow rate Q = Av = (πD²/4)v = constant. When D doubles, v becomes one-fourth (v ∝ 1/D²). Re = ρvD/η ∝ vD ∝ (1/D²) × D = 1/D. So Re halves? Wait — let's recalculate: v_new = v_original × (D_original/D_new)² = 0.5 × (1/4) = 0.125 m/s. Re_new = ρ(0.125)(0.04)/η = 0.005ρ/η. Re_original = ρ(0.5)(0.02)/η = 0.01ρ/η. Re halves. A wrong answer (\"stays same\" or \"doubles\") reveals confusion between constant velocity vs constant flow rate scenarios, and inability to combine continuity equation with Reynolds number definition.",
+     "self_check": true
+    },
+    {
+     "q": "Glycerine (density 1.26 × 10³ kg/m³, viscosity 0.83 Pa·s) flows through a horizontal tube of radius 1.0 cm. If the mass flow rate is 4.0 × 10⁻³ kg/s, calculate the Reynolds number and state whether the flow is laminar or turbulent.",
+     "a": "Given: ρ = 1.26 × 10³ kg/m³, η = 0.83 Pa·s, r = 0.01 m, ṁ = 4.0 × 10⁻³ kg/s.\nStep 1: Volume flow rate Q = ṁ/ρ = (4.0 × 10⁻³)/(1.26 × 10³) = 3.175 × 10⁻⁶ m³/s.\nStep 2: Cross-sectional area A = πr² = π × (0.01)² = 3.142 × 10⁻⁴ m².\nStep 3: Average velocity v = Q/A = (3.175 × 10⁻⁶)/(3.142 × 10⁻⁴) = 0.0101 m/s.\nStep 4: Diameter D = 2r = 0.02 m.\nStep 5: Re = ρvD/η = (1.26 × 10³ × 0.0101 × 0.02)/0.83 = 0.307.\nStep 6: Re ≈ 0.31 << 2000, so flow is laminar.\nA wrong answer (e.g., Re > 2000) reveals unit conversion errors (cm to m), confusion between radius and diameter, or incorrect mass-to-volume flow rate conversion.",
+     "self_check": true
+    },
+    {
+     "q": "Two fluids A and B flow through identical pipes at the same average velocity. Fluid A has twice the density and half the viscosity of fluid B. Compare their Reynolds numbers and flow regimes. If fluid A is in transitional regime (Re = 3000), what is the regime of fluid B?",
+     "a": "Re_A = ρ_A v D / η_A, Re_B = ρ_B v D / η_B. Given ρ_A = 2ρ_B, η_A = 0.5η_B. Re_A/Re_B = (ρ_A/ρ_B) × (η_B/η_A) = 2 × 2 = 4. So Re_A = 4 × Re_B. If Re_A = 3000 (transitional), then Re_B = 750 (laminar). A wrong answer reveals the student cannot handle proportional reasoning with multiple variable changes, or misapplies the regime boundaries (e.g., thinking 750 is turbulent).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since Reynolds number is dimensionless, its value is the same in SI and CGS units for the same physical flow.\" Evaluate this claim. If false, provide a counterexample.",
+     "a": "The claim is TRUE. Dimensionless numbers have the same numerical value in any consistent unit system because all units cancel out. For example, water at 20°C: ρ = 1000 kg/m³ = 1 g/cm³, η = 1 × 10⁻³ Pa·s = 0.01 poise, v = 1 m/s = 100 cm/s, D = 0.01 m = 1 cm. SI: Re = (1000 × 1 × 0.01)/(1 × 10⁻³) = 10,000. CGS: Re = (1 × 100 × 1)/0.01 = 10,000. A wrong evaluation reveals the student confuses \"dimensionless\" with \"unitless but system-dependent\" or doesn't understand that unit conversion factors cancel exactly for dimensionless groups.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate the transition from laminar to turbulent flow in a pipe. Specify what you would measure, how you would vary the control parameter, and how you would identify the transition point visually.",
+     "a": "Use a transparent plastic tube (∼1 m long, ∼5 mm inner diameter) connected to a water tap. Add a few drops of ink or food coloring at the inlet using a syringe. Measure flow rate by collecting water in a measuring cylinder for 10 seconds at different tap openings. Vary the control parameter: flow velocity (by adjusting tap). Observe the dye streak: laminar = thin, straight line; transitional = wavy; turbulent = rapid mixing, dye disperses. Transition identified when dye streak first becomes wavy/broken. Measure corresponding flow rate, calculate Re. A poor answer lacks quantitative measurement, confuses control parameter, or cannot visually distinguish regimes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

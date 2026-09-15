@@ -1,0 +1,248 @@
+{
+ "class": 12,
+ "subject": "geography",
+ "chapter": 10,
+ "chapter_title": "Transport and Communication",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/legy107.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "legy.107.1",
+   "title": "Transport Network and Modes",
+   "section": "Transport",
+   "definition": "Transport is a service linking production with consumption through lines and nodes; its modes are land (roads and railways), water (inland and ocean), air and pipelines, each chosen by distance, weight, value and urgency of the goods moved.",
+   "formula": "",
+   "key_idea": "A network's worth lies in nodes and accessibility: the denser the links, the lower the friction of distance.",
+   "textbook_ref": "legy107.txt transport network, nodes and mode selection sections",
+   "question_patterns": [
+    "define transport and its components of network",
+    "list the major modes of transport",
+    "what factors decide the choice of transport mode",
+    "explain nodes and links in a network",
+    "how does friction of distance shape transport costs",
+    "compare land and water transport for bulk goods"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "name the modes",
+     "explain": "road, rail, water, air and pipelines are the chapter's modes"
+    },
+    {
+     "step": 2,
+     "action": "match goods to modes",
+     "explain": "bulk ore rides rails and ships, perishables fly, fluids move by pipelines"
+    },
+    {
+     "step": 3,
+     "action": "close with accessibility",
+     "explain": "nodes like ports and junctions concentrate value on the network"
+    }
+   ]
+  },
+  {
+   "id": "legy.107.2",
+   "title": "Roads: Length and Regional Shares",
+   "section": "Roadways",
+   "definition": "The world's total motorable road length is only about 15 million km, of which North America accounts for about 33 per cent, with highway density there reaching about 0.65 km per sq km.",
+   "formula": "na_road_length = total_road_length * na_share / 100",
+   "key_idea": "Multiplying the world road length by North America's percentage share gives its approximate road length in million km.",
+   "textbook_ref": "legy107.txt road length (15 million km), North America share (33 per cent) and density 0.65 km per sq km",
+   "question_patterns": [
+    "what is the world's total motorable road length",
+    "compute North America's share of world road length",
+    "state North America's highway density",
+    "why is road transport flexible compared with rail",
+    "contrast highway networks of developed and developing countries",
+    "what is the Trans-Canadian highway route"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "record the world total and share",
+     "explain": "total 15 million km, North America 33 per cent",
+     "compute": "na_share = 33"
+    },
+    {
+     "step": 2,
+     "action": "apply the percentage",
+     "explain": "share times total gives the regional length",
+     "compute": "na_road_length = total_road_length * na_share / 100"
+    }
+   ]
+  },
+  {
+   "id": "legy.107.3",
+   "title": "Railways, Waterways and Air Routes",
+   "section": "Railways, Waterways and Airways",
+   "definition": "Railways carry heavy traffic on dense networks of Europe, Russia and North America, with trans-continental lines like the Trans-Siberian linking continents; inland and ocean waterways offer the cheapest bulk transport through canals like Suez and Panama, while airways serve long-distance high-value flows through great airports.",
+   "formula": "",
+   "key_idea": "Each trunk route overcame a natural barrier - the Trans-Siberian crossed the taiga, the Suez canal cut the Cape route - shortening world distance.",
+   "textbook_ref": "legy107.txt railway networks, trans-continental lines, Suez and Panama canals, air routes",
+   "question_patterns": [
+    "name the major trans-continental railways and their routes",
+    "why are Suez and Panama canals strategic waterways",
+    "compare rail and water transport for bulk cargo",
+    "which regions hold dense railway networks",
+    "how did airways change long-distance transport",
+    "state the role of inland waterways in Europe"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the trunk lines",
+     "explain": "the Trans-Siberian spans Russia linking Europe with the Pacific"
+    },
+    {
+     "step": 2,
+     "action": "price the canals",
+     "explain": "Suez and Panama shorten voyages by thousands of kilometres"
+    },
+    {
+     "step": 3,
+     "action": "close with air",
+     "explain": "airways carry urgency and value, not bulk"
+    }
+   ]
+  },
+  {
+   "id": "legy.107.4",
+   "title": "Communication Services",
+   "section": "Communication",
+   "definition": "Communication networks carry messages rather than matter: postal services form the land-based grid, telecom and satellite systems carry voice and data instantly, and the internet with undersea cables integrates the global economy.",
+   "formula": "",
+   "key_idea": "Mass media and cyberspace compress space so that information moves faster than any transport mode.",
+   "textbook_ref": "legy107.txt postal, telecom, satellite and internet sections",
+   "question_patterns": [
+    "classify communication services into personal and mass media",
+    "how do satellites support global communication",
+    "what role do undersea cables play in the internet",
+    "compare postal and electronic communication",
+    "why is communication called the nervous system of the economy",
+    "state the meaning of a communication network's accessibility"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "split the grid",
+     "explain": "posts move paper messages; telecom and internet move electronic ones"
+    },
+    {
+     "step": 2,
+     "action": "note the infrastructure",
+     "explain": "satellites and undersea fibre form the long-haul backbone"
+    },
+    {
+     "step": 3,
+     "action": "close with integration",
+     "explain": "real-time communication globalised finance and production"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_legy107_1",
+   "source_ref": "legy107.txt road length passage",
+   "concept": "legy.107.2",
+   "question_type": "compute",
+   "question_pattern": "World motorable road length is about 15 million km and North America holds 33 per cent of it. Compute North America's road length in million km.",
+   "extracted_variables": {
+    "total_road_length": 15,
+    "na_share": 33
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "record totals",
+     "explain": "15 million km total with a 33 per cent North American share",
+     "compute": "total_road_length = 15"
+    },
+    {
+     "step": 2,
+     "action": "apply the percentage",
+     "explain": "15 times 33 divided by 100 gives about 4.95 million km",
+     "compute": "na_road_length = total_road_length * na_share / 100"
+    }
+   ]
+  },
+  {
+   "id": "we_legy107_2",
+   "source_ref": "legy107.txt canals passage",
+   "concept": "legy.107.3",
+   "question_type": "short_answer",
+   "question_pattern": "Why are the Suez and Panama canals called strategic waterways?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Suez shortens Asia-Europe",
+     "explain": "it removes the Cape of Good Hope detour for Asian trade"
+    },
+    {
+     "step": 2,
+     "action": "Panama joins two oceans",
+     "explain": "Atlantic-Pacific shipping saves the long South American passage"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "canal chokepoints set the geometry of world shipping"
+    }
+   ]
+  },
+  {
+   "id": "we_legy107_3",
+   "source_ref": "legy107.txt communication section",
+   "concept": "legy.107.4",
+   "question_type": "short_answer",
+   "question_pattern": "List two personal and two mass communication services from the chapter.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "personal services",
+     "explain": "postal mail and telephone connect individuals"
+    },
+    {
+     "step": 2,
+     "action": "mass media",
+     "explain": "radio and television reach mass audiences at once"
+    },
+    {
+     "step": 3,
+     "action": "contrast",
+     "explain": "personal channels are targeted, mass media broadcast to all"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_legy107_1",
+   "source_ref": "legy107.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "explain the modes of transport with their choice factors",
+    "compute North America's road length from the world total and share",
+    "describe trans-continental railways with examples",
+    "state the strategic importance of the Suez and Panama canals",
+    "differentiate personal and mass communication services"
+   ]
+  },
+  {
+   "id": "ex_legy107_2",
+   "source_ref": "legy107.txt applied questions, reworded",
+   "questions": [
+    "argue why highways dominate short-distance freight",
+    "evaluate air transport for perishable exports",
+    "map the world's densest railway regions",
+    "relate satellite technology to navigation and weather services",
+    "discuss the digital divide in communication networks"
+   ]
+  }
+ ]
+}

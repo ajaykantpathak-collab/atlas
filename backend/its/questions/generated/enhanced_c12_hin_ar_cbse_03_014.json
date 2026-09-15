@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_03_014",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_03_014",
+   "title": "c12_hin_ar_cbse_03_014",
+   "questions": [
+    {
+     "q": "What is the PEEL structure for writing literature answers, and what does each letter stand for?",
+     "a": "PEEL stands for Point (main argument), Evidence (textual quote or reference), Explanation (analysis of evidence), Link (connection back to question/theme). A wrong answer like \"Point, Example, Explain, Conclusion\" reveals the student confuses PEEL with generic essay structures and doesn't know the literature-specific \"Link\" step that ties evidence to the poet's intent — a CBSE marking requirement.",
+     "self_check": true
+    },
+    {
+     "q": "In \"dfork ds cgkus\", the poet writes \"dfork ,d mM+ku gS fpfM+;k osQ cgkus\". If a student writes as evidence: \"The poet says poetry is a building\", what is the critical error in this evidence selection?",
+     "a": "The error is mistranslating \"mM+ku\" as \"building\" instead of \"construction/play-structure\" — the Hindi \"mM+ku\" here means a child's make-believe construction (like sandcastles), not a permanent building. A student giving this evidence shows they read the Hindi word literally without grasping the metaphorical nuance that poetry is a temporary, joyful creation like a child's play-structure, not a rigid edifice. This loses 1-2 marks for inaccurate textual support.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the PEEL structure to answer: \"How does the image 'fcuk eqj>k, egdus osQ ekus iwQy D;k tkus' reflect the poet's vision of poetry?\" Write only the Point and Evidence steps.",
+     "a": "Point: The image conveys that poetry creates unity without erasing individuality. Evidence: \"fcuk eqj>k, egdus osQ ekus iwQy D;k tkus\" (stanza 2) — the desire to join homes without walls. A wrong answer quoting \"lc ?kj ,d dj nsus osQ ekus\" alone without the \"fcuk eqj>k\" phrase misses the crucial qualifier that unity comes through openness, not confinement — showing the student picks quotes without reading the full syntactic unit.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how \"dfork ds cgkus\" and \"ckr lh/h Fkh ij\" use the concept of \"play\" (f[kyuk/[ksy) differently. Analyze the shift in metaphor from poem 1 to poem 2.",
+     "a": "In poem 1, \"f[kyuk\" is a positive metaphor: poetry as child's play — free, structured yet spontaneous (\"mM+ku\"), inclusive (\"cPpksa osQ [ksy\"). In poem 2, \"[ksy\" becomes ambivalent: \"ckr\" (language/word) plays like a \"nwljh cPps\" (small child) — initially charming but later chaotic (\"ckr dh pwM+h ej tkuk\", \"ckr dk 'kjkjrh cPps dh rjg [ksyuk\"). The shift reflects the poet's move from celebrating poetry's innate playfulness to warning about language's uncontrollable, almost dangerous playfulness when detached from human intent. A student saying \"both poems treat play similarly\" fails to analyze the tonal shift from celebration to caution.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student answer for a 5-mark question on \"ckr lh/h Fkh ij\": \"The poem shows that words can be dangerous. The poet says 'ckr dh pwM+h ej xbZ' and 'isap dks dhy dh rjg Bksad fn;k'. This proves words hurt people.\" Is this a strong answer? Why or why not?",
+     "a": "Weak answer — it only identifies surface events (Point + partial Evidence) but misses the Explanation and Link. It doesn't analyze WHY the poet uses \"dhy\" (burning coal) as metaphor for language's searing power, or HOW \"isap\" (tongue/speech) becomes both victim and agent. No connection to the poem's central tension: language as both bridge (\"ckr vkSj Hkh isphnk gksrh\") and barrier (\"Hkk\"kk ls ckgj vk,µ\"). A strong answer would explain the paradox: the poet wounds language to save it from stagnation. This answer would score 1.5/5.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-sentence PEEL paragraph answering: \"What does the poet mean by 'Hkk\"kk dks lgwfy;r ls cjrus' in 'ckr lh/h Fkh ij'?\" Use one direct phrase from the poem as evidence.",
+     "a": "Point: The phrase signifies liberating language from utilitarian function to restore its creative vitality. Evidence: \"Hkk\"kk dks myVk iyVk rksM+k ejksM+k ?kqek;k fiQjk;k\" — the violent verbs show language being manhandled to break its automation. Explanation: By \"twisting\" and \"breaking\" language, the poet forces it out of habitual \"lgwfy;r\" (utility) into a space where \"ckr\" (word/utterance) regains its \"isphnk\" (radiance/meaning). Link: This mirrors Nagarjun's belief that poetry must disrupt dead conventions to reawaken language's truth-telling power. A poor answer would translate \"lgwfy;r\" as just \"usefulness\" without the connotation of mechanical, soulless usage.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

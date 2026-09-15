@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_08_001",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_08_001",
+   "title": "c11_psy_cbse_08_001",
+   "questions": [
+    {
+     "q": "List the six stages of the motivational cycle in the correct sequential order as described in the NCERT textbook.",
+     "a": "Correct sequence: Need → Drive → Arousal → Goal-directed behaviour → Achievement → Reduction of arousal. A wrong answer (e.g., placing Arousal before Drive, or omitting Reduction of arousal) reveals that the student has memorised isolated terms but not grasped the causal chain: need *creates* drive, drive *produces* arousal, arousal *fuels* behaviour, behaviour *achieves* goal, achievement *reduces* arousal. This misunderstanding will prevent them from analysing why unmet needs cause persistent tension.",
+     "self_check": true
+    },
+    {
+     "q": "In your own words, explain the difference between a 'need' and a 'drive' using the example of a student who stays up all night to complete a project deadline.",
+     "a": "Need is the *deficit* (lack of completed project/good grade); drive is the *subjective state of tension* (anxiety, urgency) that arises from that deficit. A wrong answer that treats them as synonyms (e.g., \"the need drives me\") shows the student hasn't distinguished between the *objective condition* (need) and the *internal psychological state* (drive). This distinction is critical because the same need (e.g., affiliation) can produce different drives (loneliness vs. excitement) depending on context.",
+     "self_check": true
+    },
+    {
+     "q": "Rohan has been practising guitar for three hours daily to perform at the school fest. One evening, he practices for four hours but still makes errors in a difficult chord progression. He feels frustrated, takes a 10-minute break, then returns and masters the progression. Map each part of this scenario to the six stages of the motivational cycle.",
+     "a": "Need: Desire to perform well (competence deficit). Drive: Tension from upcoming performance. Arousal: Heightened focus/frustration during practice. Goal-directed behaviour: Repeated practice, taking a strategic break. Achievement: Mastering the chord progression. Reduction of arousal: Frustration dissipates, satisfaction replaces it. A wrong mapping (e.g., labeling the break as 'reduction of arousal' before mastery) shows the student thinks arousal reduction happens *during* the behaviour rather than *after* goal attainment – a critical error for understanding persistence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the motivational cycle for a biological motive (thirst) and a psychosocial motive (need for affiliation). Identify two stages where the *process* differs significantly and explain why.",
+     "a": "Key differences: (1) **Need origin**: Thirst arises from physiological deficit (cellular dehydration); affiliation need arises from learned social expectations. (2) **Goal-directed behaviour flexibility**: Thirst has a narrow, biologically fixed behavioural repertoire (drinking water); affiliation allows diverse strategies (texting, joining clubs, helping others). A wrong answer claiming \"the cycle is identical for all motives\" misses that while the *structure* is universal, the *content* at each stage varies by motive type – a distinction essential for the next nodes (c11_psy_cbse_08_002, c11_psy_cbse_08_003).",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The motivational cycle proves that all human behaviour is selfish because the ultimate goal is always reduction of one's own arousal.\" Provide a reasoned judgment using psychological terminology.",
+     "a": "The statement is reductionist. While *drive reduction* is the mechanism, the *goal* can be altruistic (e.g., donating a kidney reduces the donor's arousal from empathy/guilt, but the act benefits another). The cycle describes *how* motivation works, not *why* specific goals are chosen. A wrong answer agreeing with the statement confuses the *mechanism* (homeostatic regulation) with the *motive content* (prosocial vs. selfish) – a category error that undermines understanding of psychosocial motives like altruism.",
+     "self_check": true
+    },
+    {
+     "q": "Design a original 6-panel comic strip (describe each panel in 1-2 sentences) that illustrates the complete motivational cycle for a *novel* motive not discussed in the textbook (e.g., need for digital detox, need to learn a coding language). Ensure each panel maps to one specific stage.",
+     "a": "Example for \"need to learn Python\":\nPanel 1 (Need): Priya sees a job requiring Python; she realises she lacks this skill.\nPanel 2 (Drive): She feels a gnawing anxiety about career stagnation.\nPanel 3 (Arousal): Her heart rate increases; she obsessively researches courses at 11 PM.\nPanel 4 (Goal-directed behaviour): She enrolls in a 30-day bootcamp, codes 2 hrs daily.\nPanel 5 (Achievement): She builds her first working script; the error log shows \"Success\".\nPanel 6 (Reduction of arousal): Anxiety vanishes; she sleeps peacefully, feeling competent.\nA poor answer would skip stages, merge panels, or use a textbook example (hunger/thirst), showing inability to generalise the abstract cycle to new domains.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

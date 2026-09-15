@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_06_007",
+   "title": "c12_bs_cbse_06_007",
+   "questions": [
+    {
+     "q": "Define 'training' as per NCERT Class 12 Business Studies. How does it differ from 'development' in terms of time horizon and focus?",
+     "a": "Training is any process by which the aptitudes, skills, and abilities of employees to perform specific jobs are increased; it is short-term and job-oriented. Development refers to learning opportunities designed to help employees grow; it is ongoing, career-oriented, and covers overall personality growth. A wrong answer that equates training with development or reverses their time horizons reveals confusion between immediate job requirements and long-term career growth.",
+     "self_check": true
+    },
+    {
+     "q": "A company introduces a new ERP software. All accounts staff must learn to use it within two weeks. The HR head calls this a 'development program'. Is this correct? Explain why or why not using the distinction between training and development.",
+     "a": "It is incorrect. Learning a specific software for immediate job performance is training (short-term, job-oriented, skill-specific). Development would be broader, like a leadership program for future managerial roles. A student who labels this as development misunderstands that training addresses current job skill gaps, while development prepares for future responsibilities.",
+     "self_check": true
+    },
+    {
+     "q": "'XYZ Ltd.' faces high employee turnover among junior analysts. Exit interviews reveal they leave because they see no career progression. The CEO proposes a three-day technical workshop on advanced Excel. Using the concepts of training and development, evaluate whether this workshop will solve the turnover problem.",
+     "a": "The workshop is training (skill-specific, short-term) but the root cause is lack of development (career growth, long-term progression). Training alone will not retain employees who seek career advancement. The company needs development initiatives like mentorship, job rotation, or leadership pipelines. A wrong answer that assumes any learning intervention fixes turnover misses the diagnostic distinction between skill gaps and career aspiration gaps.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast 'education' and 'training' as defined in NCERT. Provide one example of each in a corporate context that shows why education is broader in scope.",
+     "a": "Education increases knowledge and understanding, develops logical/rational mind, and is broader (e.g., an MBA program for managers). Training increases aptitudes/skills for specific jobs (e.g., a workshop on GST filing procedures). Education builds analytical capacity; training builds task proficiency. A student who gives only skill-based examples for education fails to grasp its focus on understanding principles rather than applying procedures.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Training is a waste of money because employees leave after getting trained.\" Use at least two organisational benefits of training from NCERT to justify your position.",
+     "a": "The statement is short-sighted. NCERT lists benefits: (i) systematic learning reduces wastage of efforts/money compared to hit-and-trial; (ii) enhances productivity (quantity/quality) leading to higher profits; (iii) equips future managers for succession; (iv) increases morale, reduces absenteeism and turnover. Even if some leave, the net gain from trained employees who stay outweighs the cost. A student who agrees with the statement ignores the quantifiable ROI of training and the cost of untrained errors.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page proposal for a 'Training vs Development' framework for a mid-sized manufacturing firm that has both shop-floor workers and junior engineers. Your framework must specify: (a) two training needs for each group, (b) one development need for each group, (c) the method category (on-the-job/off-the-job) you would recommend for each, and (d) the expected organisational benefit for each.",
+     "a": "A strong answer will show: Shop-floor training: (1) safety protocols (on-the-job), (2) machine operation (vestibule/on-the-job); Development: multi-skilling via job rotation (on-the-job). Junior engineers training: (1) ERP software (off-the-job classroom), (2) quality standards (off-the-job case study); Development: leadership program for future shift managers (off-the-job conferences/mentoring). Benefits: reduced accidents, higher output, faster digital adoption, succession pipeline. A weak answer mixes training/development categories or recommends inappropriate methods (e.g., classroom for machine operation).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

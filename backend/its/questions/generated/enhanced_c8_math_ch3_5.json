@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch3_5",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch3_5",
+   "title": "c8_math_ch3_5",
+   "questions": [
+    {
+     "q": "Write the number 7,204 in expanded form using powers of 10. (Example format: \\(3 \\times 10^2 + 0 \\times 10^1 + 5 \\times 10^0\\))",
+     "a": "\\(7 \\times 10^3 + 2 \\times 10^2 + 0 \\times 10^1 + 4 \\times 10^0\\). A wrong answer like \\(7 \\times 10^3 + 2 \\times 10^1 + 4 \\times 10^0\\) reveals the student ignores the zero placeholder and does not understand that the exponent corresponds to the *position*, not the count of non-zero digits. Another error: writing \\(7 \\times 1000 + 2 \\times 100 + 4\\) shows they recall expanded notation but not the power-of-10 representation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the digit 5 in the number 0.05 has the value \\(5 \\times 10^{-2}\\) and not \\(5 \\times 10^{-1}\\) or \\(5 \\times 10^{-3}\\).",
+     "a": "The first digit after the decimal point is the tenths place (\\(10^{-1}\\)), the second is the hundredths place (\\(10^{-2}\\)). In 0.05, the 5 is in the *second* position after the decimal, so its place value is hundredths = \\(10^{-2}\\). A wrong answer that says \"because there are two zeros\" or \"because it's 5 hundredths\" without linking to the exponent shows the student memorizes the fraction name but does not connect it to the systematic power-of-10 pattern. They may think the exponent counts zeros rather than position.",
+     "self_check": true
+    },
+    {
+     "q": "Convert the following power-of-10 expanded form into standard decimal notation: \\(3 \\times 10^4 + 6 \\times 10^2 + 8 \\times 10^0 + 2 \\times 10^{-1} + 5 \\times 10^{-3}\\).",
+     "a": "Step 1: Evaluate each term: \\(3 \\times 10000 = 30000\\), \\(6 \\times 100 = 600\\), \\(8 \\times 1 = 8\\), \\(2 \\times 0.1 = 0.2\\), \\(5 \\times 0.001 = 0.005\\). Step 2: Add them aligning place values: 30000 + 600 = 30600; +8 = 30608; +0.2 = 30608.2; +0.005 = 30608.205. Answer: 30,608.205. A common error: writing 30608.25 (misplacing the 5 in hundredths instead of thousandths) shows the student does not track the exponent's effect on decimal placement. Another error: 3608.205 (forgetting the zero placeholder for \\(10^3\\) and \\(10^1\\)) reveals they skip missing powers.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two numbers: \\(A = 4 \\times 10^3 + 2 \\times 10^1 + 7 \\times 10^{-2}\\) and \\(B = 4 \\times 10^3 + 2 \\times 10^2 + 7 \\times 10^{-1}\\). Without fully converting to standard form, determine which is larger and explain how the powers of 10 tell you this.",
+     "a": "Both have \\(4 \\times 10^3\\) (thousands). Compare the next highest power present: A has \\(2 \\times 10^1\\) (tens), B has \\(2 \\times 10^2\\) (hundreds). Since \\(10^2 > 10^1\\), B's hundreds contribution (200) is larger than A's tens contribution (20). The decimal parts (\\(10^{-2}\\) vs \\(10^{-1}\\)) are too small to overcome this difference. Therefore B > A. A wrong answer that converts both fully and then compares shows the student cannot yet reason *relationally* using the exponents; they rely on computation instead of structure.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the expanded form of 50,007 as \\(5 \\times 10^4 + 7 \\times 10^0\\). They argue the zeros in the middle \"don't count\" so they skip them. Evaluate this reasoning: is the final expression mathematically correct? Is the *reasoning* correct? Explain.",
+     "a": "The final expression \\(5 \\times 10^4 + 7 \\times 10^0\\) is mathematically correct because the missing terms (\\(0 \\times 10^3, 0 \\times 10^2, 0 \\times 10^1\\)) add zero. However, the *reasoning* \"zeros don't count so we skip them\" is dangerous. It works for *writing* the expanded form but fails when *reading* a number from expanded form: if given \\(5 \\times 10^4 + 7 \\times 10^0\\), a student with this reasoning might write 57 instead of 50,007 because they don't know to insert zeros for missing powers. The correct reasoning: \"Every position from the highest power down to units must be accounted for; zero digits contribute zero but hold the place.\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (using rupees, metres, or litres) where the answer is a number that *requires* a zero placeholder in at least two different place values (e.g., thousands and tens) when written in standard form. Then write that answer in power-of-10 expanded form.",
+     "a": "Example problem: \"A school library has 3,005 books. They buy 2,090 more. How many books total?\" Answer: 5,095. Expanded form: \\(5 \\times 10^3 + 0 \\times 10^2 + 9 \\times 10^1 + 5 \\times 10^0\\). A good answer shows the student understands that zero placeholders appear in the *middle* of a number (hundreds and tens here) and must be represented as \\(0 \\times 10^k\\) in a complete expanded form. A poor answer gives a number like 5,000 (only trailing zeros) or writes expanded form without the zero terms, indicating they don't grasp that placeholders are needed for *internal* zeros.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,234 @@
+{
+ "catalog": "catalog_class10_social_ch6",
+ "concepts": [
+  {
+   "id": "c10ss.6.1",
+   "title": "Types of Resources",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Types of Resources' refers to.",
+     "a": "Resources are classified into four types on the basis of ownership -- individual, community, national and international resources -- and on the basis of status of development into potential, developed, stock and reserve resources.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Types of Resources'.",
+     "a": "Resources can be classified by ownership (individual, community, national, international) and by status of development (potential, developed, stock, reserve), each serving a different purpose.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Types of Resources' taught, and from which source text?",
+     "a": "Types of Resources",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.6.2",
+   "title": "Development of Resources",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Development of Resources' refers to.",
+     "a": "Development of resources means using resources to satisfy human needs through technology and institutions, but irrational use and over-utilisation have led to problems like depletion, accumulation of resources in few hands, and ecological crises, requiring sustainable development.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Development of Resources'.",
+     "a": "Resource development must balance human needs with conservation; over-exploitation causes depletion and ecological crises, so sustainable development is essential.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Development of Resources' taught, and from which source text?",
+     "a": "Development of Resources",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.6.3",
+   "title": "Resource Planning in India",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Resource Planning in India' refers to.",
+     "a": "Resource planning in India involves identification and inventory of resources, planning matched with national development plans, and balanced development at the national, state and local levels, since some regions like Jharkhand are rich in minerals but poor in other resources.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Resource Planning in India'.",
+     "a": "Resource planning in India balances uneven resource distribution by surveying resources, matching plans with national development, and ensuring balanced development at all levels.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Resource Planning in India' taught, and from which source text?",
+     "a": "Resource Planning in India",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.6.4",
+   "title": "Land Resources",
+   "questions": [
+    {
+     "q": "Using the method 'Land Resources', work with: plains_pct = 43, mountains_pct = 30, plateaus_pct = 27. Carry the chain through step by step and give the final value of total.",
+     "a": "100 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Land Resources' and work with: plains_pct = 43, mountains_pct = 30, plateaus_pct = 27. Carry the chain through step by step and give the final value of total.",
+     "a": "100 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Land Resources' refers to.",
+     "a": "Land is a natural resource of limited supply, covering about 43 per cent of the total geographical area of India as plains, 30 per cent as mountains and 27 per cent as plateaus, each supporting different types of economic activities.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Land Resources'.",
+     "a": "India's land is divided into plains (43 per cent), mountains (30 per cent) and plateaus (27 per cent), each supporting different economic activities and land uses.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Land Resources' taught, and from which source text?",
+     "a": "Land Resources",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.6.5",
+   "title": "Land Utilisation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Land Utilisation' refers to.",
+     "a": "Land utilisation refers to the use of land for various purposes such as forests, land not available for cultivation (barren and waste land, land put to non-agricultural uses), other uncultivated land (excluding fallow), fallow land, and net sown area.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Land Utilisation'.",
+     "a": "Land in India is utilised for forests, non-agricultural uses, uncultivated land, fallow land and net sown area, each category reflecting a different use of the limited land resource.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Land Utilisation' taught, and from which source text?",
+     "a": "Land Utilisation",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.6.6",
+   "title": "Land Use Pattern in India",
+   "questions": [
+    {
+     "q": "Using the method 'Land Use Pattern in India', work with: net_sown = 54, forests = 22. Carry the chain through step by step and give the final value of other_uses.",
+     "a": "24 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Land Use Pattern in India' and work with: net_sown = 54, forests = 22. Carry the chain through step by step and give the final value of other_uses.",
+     "a": "24 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Land Use Pattern in India' refers to.",
+     "a": "The land use pattern in India shows that about 54 per cent is under net sown area, 22 per cent under forests, and the rest under other uses; the pattern is influenced by topography, climate, soil and human factors like population density and technology.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Land Use Pattern in India'.",
+     "a": "India's land use pattern is determined by both physical factors (topography, climate, soil) and human factors (population, technology), with net sown area being the largest category.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Land Use Pattern in India' taught, and from which source text?",
+     "a": "Land Use Pattern in India",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.6.7",
+   "title": "Soil as a Resource",
+   "questions": [
+    {
+     "q": "Using the method 'Soil as a Resource', work with: min_years = 300, max_years = 1000. Carry the chain through step by step and give the final value of formation_rate.",
+     "a": "0.0046 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Soil as a Resource' and work with: min_years = 300, max_years = 1000. Carry the chain through step by step and give the final value of formation_rate.",
+     "a": "0.0046 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Soil as a Resource' refers to.",
+     "a": "Soil is the upper layer of the earth's crust capable of supporting vegetation; it is a living system formed by the weathering of rocks over long periods and is a renewable resource that supports agriculture, but it takes 300 to 1000 years to form just 3 cm of topsoil.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Soil as a Resource'.",
+     "a": "Soil is a renewable but slowly forming resource created by rock weathering; it is essential for agriculture and must be conserved because it forms very slowly.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Soil as a Resource' taught, and from which source text?",
+     "a": "Soil as a Resource",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.6.8",
+   "title": "Classification of Soils",
+   "questions": [
+    {
+     "q": "Using the method 'Classification of Soils', work with: alluvial_pct = 43, black_pct = 15. Carry the chain through step by step and give the final value of combined.",
+     "a": "58 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Classification of Soils' and work with: alluvial_pct = 43, black_pct = 15. Carry the chain through step by step and give the final value of combined.",
+     "a": "58 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Classification of Soils' refers to.",
+     "a": "Indian soils are classified into alluvial soil (43 per cent, fertile, found in river valleys), black soil (15 per cent, ideal for cotton), red and yellow soil, laterite soil, arid soil and forest soil, each formed under different conditions of climate and relief.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Classification of Soils'.",
+     "a": "India has six major soil types -- alluvial, black, red and yellow, laterite, arid and forest soils -- each suited to different crops and formed under different climatic and relief conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Classification of Soils' taught, and from which source text?",
+     "a": "Classification of Soils",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.6.9",
+   "title": "Soil Erosion and Conservation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Soil Erosion and Conservation' refers to.",
+     "a": "Soil erosion is the removal of topsoil by wind, water and human activities; it is caused by deforestation, overgrazing and faulty farming, and is conserved through contour ploughing, terrace farming, strip cropping, shelter belts and afforestation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Soil Erosion and Conservation'.",
+     "a": "Soil erosion removes fertile topsoil through wind and water, worsened by human activities, and is controlled through methods like contour ploughing, terracing, strip cropping, shelter belts and afforestation.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Soil Erosion and Conservation' taught, and from which source text?",
+     "a": "Soil Erosion and Conservation",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

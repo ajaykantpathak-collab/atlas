@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ca_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c12_ca_cbse_01_002",
+   "title": "c12_ca_cbse_01_002",
+   "questions": [
+    {
+     "q": "List the five components of a Computerised Accounting System as per NCERT Class 12.",
+     "a": "Correct answer: Procedure, Data, People, Hardware, Software.  \nA wrong answer (e.g., listing \"Reports\", \"Ledger\", \"Trial Balance\") reveals the student confuses *outputs* of CAS with its *structural components*. Reports are generated *by* the system; they are not pillars the system rests on.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Hardware is the most important component because without a computer you cannot run CAS.\" Explain why this statement is incomplete using the concept of interdependence among the five components.",
+     "a": "Correct explanation: Hardware alone cannot process accounting transactions — it needs Software to instruct it, Data to process, Procedures to define the workflow, and People to operate and interpret results. Removing any one component collapses the system.  \nA wrong answer (e.g., agreeing without qualification) shows the student views components in isolation rather than as an integrated socio-technical system, a key NCERT emphasis.",
+     "self_check": true
+    },
+    {
+     "q": "A retail shop uses Tally on a desktop. The accountant enters a credit sale of ₹12,000 to M/s Sharma Traders. Identify which component of CAS corresponds to: (a) the voucher entry screen, (b) the accountant, (c) the rule \"credit sales go through Sales Voucher\", (d) the desktop, (e) the ₹12,000 figure.",
+     "a": "(a) Software (application interface), (b) People, (c) Procedure, (d) Hardware, (e) Data.  \nA wrong mapping (e.g., calling the voucher screen \"Procedure\") indicates the student cannot distinguish between the *tool* (software) and the *rules* (procedure) — a common confusion when first learning CAS architecture.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of \"Procedure\" in a manual accounting system versus a computerised one. Why does NCERT list Procedure as a separate component in CAS when it exists in manual systems too?",
+     "a": "In manual systems, procedures are implicit habits (e.g., \"write in journal then post to ledger\"). In CAS, procedures must be *explicitly coded* into software workflows (voucher types, mandatory fields, validation rules). NCERT separates Procedure because CAS forces formalisation — you cannot \"skip a step\" as you might manually.  \nA wrong answer (e.g., \"procedure is same in both\") misses the critical shift from tacit to explicit, codified logic — a core idea for understanding why CAS reduces errors.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Data is the only component that changes with every transaction; the other four remain static.\" Defend or refute with two specific examples.",
+     "a": "Refute. Data changes per transaction (correct). But Software changes via updates/patches; Hardware changes via upgrades/failures; People change via training/turnover; Procedures change via policy revisions (e.g., GST rate change alters voucher entry procedure).  \nA wrong answer (agreeing) reveals a static view of CAS — dangerous for real-world implementation where all components evolve.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal CAS for a freelance graphic designer who receives 5–10 payments a month and has 3–4 recurring expenses. Specify one concrete choice for each of the five components (e.g., Hardware: smartphone; Software: Wave Apps; etc.) and justify why that choice fits the scale.",
+     "a": "Example answer:  \n- Hardware: Smartphone (portable, already owned)  \n- Software: Wave Apps (free, cloud-based, mobile-friendly)  \n- People: Designer herself (sole user)  \n- Data: Bank SMS alerts + manual entry of expense receipts  \n- Procedure: Weekly 15-min session: reconcile bank → categorise → generate P&L  \nJustification: Low volume, zero budget, mobile-first — each component matches the scale.  \nA poor answer (e.g., recommending Tally on a server) shows inability to match CAS architecture to business context — a key competency for board case studies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

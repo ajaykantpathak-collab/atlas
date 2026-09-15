@@ -1,0 +1,497 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 108,
+ "chapter_title": "Algebraic Expressions and Identities",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hemh108.txt",
+ "concepts": [
+  {
+   "id": "hemh.8.1.1",
+   "title": "Addition of Algebraic Expressions",
+   "section": "8.1",
+   "definition": "A method of combining multiple algebraic terms by grouping like terms together and summing their respective numerical coefficients.",
+   "formula": "sum = term_1 + term_2",
+   "key_idea": "Only terms with identical variable factors can be added together.",
+   "textbook_ref": "hemh108.txt lines 10-50",
+   "question_patterns": [
+    "add the algebraic expressions",
+    "find the sum of",
+    "how to add expressions",
+    "calculate the total of these polynomials",
+    "Add 3x + 2y and 5x - y by stacking columns."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Group the like terms from all the given expressions",
+     "explain": "Align terms with identical variable parts together in columns or groups."
+    },
+    {
+     "step": 2,
+     "action": "Add the coefficients of the like terms",
+     "explain": "Combine the numerical coefficients of the grouped like terms while keeping the variable part unchanged."
+    },
+    {
+     "step": 3,
+     "action": "Write the final expression",
+     "explain": "Combine the summed like terms and any remaining unlike terms into a single simplified expression."
+    }
+   ]
+  },
+  {
+   "id": "hemh.8.1.2",
+   "title": "Subtraction of Algebraic Expressions",
+   "section": "8.1",
+   "definition": "To take one expression from another, flip every sign of the expression being taken away, then combine like terms.",
+   "formula": "difference = expression_1 - expression_2",
+   "key_idea": "Invert the sign of every term in the expression being subtracted before combining like terms.",
+   "textbook_ref": "hemh108.txt lines 51-85",
+   "question_patterns": [
+    "subtract one expression from another",
+    "find the difference between",
+    "how to subtract polynomials",
+    "what do we get when we subtract",
+    "Take 4a - 3 away from 7a + 5."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Align the expressions with like terms",
+     "explain": "Write the expression to be subtracted below the original expression, aligning like terms vertically."
+    },
+    {
+     "step": 2,
+     "action": "Invert the signs of the second expression",
+     "explain": "Change the sign of each term in the expression being subtracted to its additive inverse."
+    },
+    {
+     "step": 3,
+     "action": "Perform addition on the aligned terms",
+     "explain": "Add the terms vertically using their new signs to find the final simplified difference."
+    }
+   ]
+  },
+  {
+   "id": "hemh.8.3.1",
+   "title": "Multiplication of Two Monomials",
+   "section": "8.3.1",
+   "definition": "Finding the product of two single-term expressions by multiplying their coefficients and adding the exponents of identical variables.",
+   "formula": "product = (coeff_1 * coeff_2) * (var_1 * var_2)",
+   "key_idea": "The product of coefficients forms the new coefficient, and variable powers are combined using exponent laws.",
+   "textbook_ref": "hemh108.txt lines 130-165",
+   "question_patterns": [
+    "multiply the monomials",
+    "find the product of two monomials",
+    "calculate the product of",
+    "what is the product of these single term expressions",
+    "Multiply 4x^2 by 3x^3."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify coefficients and variable parts",
+     "explain": "Separate the numerical coefficients and the algebraic variable factors of both monomials."
+    },
+    {
+     "step": 2,
+     "action": "Multiply the numerical coefficients",
+     "explain": "Find the product of the numerical coefficients of the two monomials."
+    },
+    {
+     "step": 3,
+     "action": "Multiply the variable factors",
+     "explain": "Combine identical variables by adding their exponents according to exponent rules."
+    },
+    {
+     "step": 4,
+     "action": "Combine coefficients and variables",
+     "explain": "Write the final product as a single monomial term."
+    }
+   ]
+  },
+  {
+   "id": "hemh.8.3.2",
+   "title": "Multiplication of Three or More Monomials",
+   "section": "8.3.2",
+   "definition": "Extending monomial multiplication to three or more terms by multiplying all numerical coefficients and combining all variable parts sequentially or simultaneously.",
+   "formula": "product = coeff_all * var_all",
+   "key_idea": "Monomial multiplication is associative and commutative, meaning the order of terms does not affect the product.",
+   "textbook_ref": "hemh108.txt lines 166-195",
+   "question_patterns": [
+    "find the product of three monomials",
+    "multiply multiple monomials",
+    "calculate the product of three or more terms",
+    "what is the product of these monomials",
+    "Multiply 2x, 3y and 4z together."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Group all numerical coefficients",
+     "explain": "Collect the coefficients of all monomials and multiply them together."
+    },
+    {
+     "step": 2,
+     "action": "Group and combine variable factors",
+     "explain": "Group identical variable bases together and sum their exponents across all monomials."
+    },
+    {
+     "step": 3,
+     "action": "Form the final product",
+     "explain": "Write the combined coefficient and variable parts as a single simplified monomial."
+    }
+   ]
+  },
+  {
+   "id": "hemh.8.3.3",
+   "title": "Area of a Rectangle with Monomial Dimensions",
+   "section": "8.3",
+   "definition": "When a rectangle's sides are single-term expressions, multiply them to state the covered region.",
+   "formula": "area = length * breadth",
+   "key_idea": "Single-term length times single-term breadth builds the region.",
+   "textbook_ref": "hemh108.txt lines 196-210",
+   "question_patterns": [
+    "find the area of a rectangle with length and breadth",
+    "calculate the area of a rectangle whose sides are monomials",
+    "what is the area of a rectangle with given dimensions",
+    "find the product of length and breadth to get area",
+    "A rectangle has sides 5x and 3y -- state the region covered."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply length and breadth",
+     "explain": "The area of a rectangle is the product of its length and breadth.",
+     "compute": "area = length * breadth"
+    }
+   ]
+  },
+  {
+   "id": "hemh.8.3.4",
+   "title": "Volume of a Rectangular Box with Monomial Dimensions",
+   "section": "8.3",
+   "definition": "Determining the space occupied by a rectangular prism where the length, width, and height are given as monomials.",
+   "formula": "volume = length * breadth * height",
+   "key_idea": "The product of three monomial dimensions yields the volume of the rectangular box.",
+   "textbook_ref": "hemh108.txt lines 211-230",
+   "question_patterns": [
+    "find the volume of a rectangular box",
+    "calculate the volume of a box with given length breadth and height",
+    "what is the volume of a rectangular box with monomial sides",
+    "obtain the volume of a rectangular box",
+    "A box measures x, 2x and 3x -- state its capacity."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply length, breadth, and height",
+     "explain": "The volume of a rectangular box is the product of its length, breadth, and height.",
+     "compute": "volume = length * breadth * height"
+    }
+   ]
+  },
+  {
+   "id": "hemh.8.4.1",
+   "title": "Multiplying a Monomial by a Binomial",
+   "section": "8.4.1",
+   "definition": "Multiplying a single-term expression by a two-term expression by distributing the single term to each term of the binomial.",
+   "formula": "product = monomial * (term_1 + term_2)",
+   "key_idea": "Hand each part of the two-part expression the single term outside.",
+   "textbook_ref": "hemh108.txt lines 250-285",
+   "question_patterns": [
+    "multiply a monomial by a binomial",
+    "find the product of a monomial and a binomial",
+    "use distributive law to multiply",
+    "calculate the product of a single term and two terms",
+    "Expand 2x(3a + 4b)."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Distribute monomial to the first term",
+     "explain": "Multiply the monomial by the first term of the binomial."
+    },
+    {
+     "step": 2,
+     "action": "Distribute monomial to the second term",
+     "explain": "Multiply the monomial by the second term of the binomial."
+    },
+    {
+     "step": 3,
+     "action": "Sum the products",
+     "explain": "Combine the two resulting terms into a single algebraic expression."
+    }
+   ]
+  },
+  {
+   "id": "hemh.8.4.2",
+   "title": "Multiplying a Monomial by a Trinomial",
+   "section": "8.4.2",
+   "definition": "Hand every one of the trio the single term outside: three products result.",
+   "formula": "product = monomial * (term_1 + term_2 + term_3)",
+   "key_idea": "Distribute the monomial multiplier to all three terms of the trinomial.",
+   "textbook_ref": "hemh108.txt lines 286-310",
+   "question_patterns": [
+    "multiply a monomial by a trinomial",
+    "find the product of a monomial and a trinomial",
+    "simplify the product of a single term and three terms",
+    "calculate the product of a monomial and a three term expression",
+    "Expand x(2a + 3b - c)."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Distribute monomial to each term",
+     "explain": "Multiply the monomial by each of the three terms in the trinomial individually."
+    },
+    {
+     "step": 2,
+     "action": "Combine the products",
+     "explain": "Write the sum of the three resulting terms as a single algebraic expression."
+    }
+   ]
+  },
+  {
+   "id": "hemh.8.5.1",
+   "title": "Multiplying a Binomial by a Binomial",
+   "section": "8.5.1",
+   "definition": "Pair every term of the first two-part expression with every term of the second.",
+   "formula": "product = (term_a + term_b) * (term_c + term_d)",
+   "key_idea": "Every part of the first pairs with every part of the second; then tidy like terms.",
+   "textbook_ref": "hemh108.txt lines 360-395",
+   "question_patterns": [
+    "multiply two binomials",
+    "find the product of two binomials",
+    "how to multiply binomials",
+    "simplify the product of two term expressions",
+    "Expand (x + 2)(x + 5) and simplify."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply first term of first binomial by second binomial",
+     "explain": "Distribute the first term of the first binomial to both terms of the second binomial."
+    },
+    {
+     "step": 2,
+     "action": "Multiply second term of first binomial by second binomial",
+     "explain": "Distribute the second term of the first binomial to both terms of the second binomial."
+    },
+    {
+     "step": 3,
+     "action": "Combine like terms",
+     "explain": "Identify any terms with identical variable parts and add their coefficients to simplify the expression."
+    }
+   ]
+  },
+  {
+   "id": "hemh.8.5.2",
+   "title": "Multiplying a Binomial by a Trinomial",
+   "section": "8.5.2",
+   "definition": "Multiplying a two-term expression by a three-term expression by distributing each term of the binomial to all three terms of the trinomial.",
+   "formula": "product = (term_a + term_b) * (term_c + term_d + term_e)",
+   "key_idea": "Two parts meet three parts: up to six products before tidying.",
+   "textbook_ref": "hemh108.txt lines 396-430",
+   "question_patterns": [
+    "multiply a binomial by a trinomial",
+    "find the product of a binomial and a trinomial",
+    "simplify the product of a two term and a three term expression",
+    "how to multiply a binomial and a trinomial",
+    "Expand (a + 2)(3a - 1 + b)."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Distribute first term of binomial",
+     "explain": "Multiply the first term of the binomial by all three terms of the trinomial."
+    },
+    {
+     "step": 2,
+     "action": "Distribute second term of binomial",
+     "explain": "Multiply the second term of the binomial by all three terms of the trinomial."
+    },
+    {
+     "step": 3,
+     "action": "Combine like terms",
+     "explain": "Group and add coefficients of any like terms among the six resulting terms to get the final simplified expression."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex3",
+   "source_ref": "hemh108.txt lines 196-210",
+   "concept": "hemh.8.3.3",
+   "question_type": "compute",
+   "question_pattern": "Find the area of a rectangle with length {length} and breadth {breadth}",
+   "extracted_variables": {
+    "length": "length of the rectangle",
+    "breadth": "breadth of the rectangle"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply length and breadth",
+     "explain": "The area of a rectangle is the product of its length and breadth.",
+     "compute": "area = length * breadth"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hemh108.txt lines 211-230",
+   "concept": "hemh.8.3.4",
+   "question_type": "compute",
+   "question_pattern": "Find the volume of a rectangular box with length {length}, breadth {breadth}, and height {height}",
+   "extracted_variables": {
+    "length": "length of the rectangular box",
+    "breadth": "breadth of the rectangular box",
+    "height": "height of the rectangular box"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply length, breadth, and height",
+     "explain": "The volume of a rectangular box is the product of its length, breadth, and height.",
+     "compute": "volume = length * breadth * height"
+    }
+   ]
+  },
+  {
+   "concept": "hemh.8.3.3",
+   "question_pattern": "A rectangle measures {l} by {b} -- state the region covered.",
+   "extracted_variables": {
+    "l": "5",
+    "b": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the sides",
+     "explain": "5 x 3 = 15",
+     "compute": "area = length * breadth"
+    }
+   ],
+   "id": "ex5",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.8.3.3",
+   "question_pattern": "Sides are {l} and {b} units -- find the region covered.",
+   "extracted_variables": {
+    "l": "2.5",
+    "b": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the sides",
+     "explain": "2.5 x 4 = 10",
+     "compute": "area = length * breadth"
+    }
+   ],
+   "id": "ex6",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.8.3.4",
+   "question_pattern": "A box measures {l}, {b} and {h} -- state its capacity.",
+   "extracted_variables": {
+    "l": "2",
+    "b": "3",
+    "h": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the three dimensions",
+     "explain": "2 x 3 x 4 = 24",
+     "compute": "volume = length * breadth * height"
+    }
+   ],
+   "id": "ex7",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.8.3.4",
+   "question_pattern": "Capacity of a box measuring {l}, {b} by {h}?",
+   "extracted_variables": {
+    "l": "1.5",
+    "b": "2",
+    "h": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the three dimensions",
+     "explain": "1.5 x 2 x 2 = 6",
+     "compute": "volume = length * breadth * height"
+    }
+   ],
+   "id": "ex8",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex8.1",
+   "source_ref": "hemh108.txt lines 86-110",
+   "questions": [
+    "Add the following: (i) ab - bc, bc - ca, ca - ab (ii) a - b + ab, b - c + bc, c - a + ac (iii) 2p^2q^2 - 3pq + 4, 5 + 7pq - 3p^2q^2 (iv) l^2 + m^2, m^2 + n^2, n^2 + l^2, 2lm + 2mn + 2nl",
+    "Subtract 4a - 7ab + 3b + 12 from 12a - 9ab + 5b - 3",
+    "Subtract 3xy + 5yz - 7zx from 5xy - 2yz - 2zx + 10xyz",
+    "Subtract 4p^2q - 3pq + 5pq^2 - 8p + 7q - 10 from 18 - 3p - 11q + 5pq - 2pq^2 + 5p^2q"
+   ]
+  },
+  {
+   "id": "ex8.2",
+   "source_ref": "hemh108.txt lines 231-260",
+   "questions": [
+    "Find the product of the following pairs of monomials: (i) 4, 7p (ii) -4p, 7p (iii) -4p, 7pq (iv) 4p^3, -3p (v) 4p, 0",
+    "Find the areas of rectangles with the following pairs of monomials as their lengths and breadths respectively: (p, q); (10m, 5n); (20x^2, 5y^2); (4x, 3x^2); (3mn, 4np)",
+    "Obtain the volume of rectangular boxes with the following length, breadth and height respectively: (i) 5a, 3a^2, 7a^4 (ii) 2p, 4q, 8r (iii) xy, 2x^2y, 2xy^2 (iv) a, 2b, 3c",
+    "Obtain the product of: (i) xy, yz, zx (ii) a, -a^2, a^3 (iii) 2, 4y, 8y^2, 16y^3 (iv) a, 2b, 3c, 6abc (v) m, -mn, mnp"
+   ]
+  },
+  {
+   "id": "ex8.3",
+   "source_ref": "hemh108.txt lines 311-350",
+   "questions": [
+    "Carry out the multiplication of the expressions in each of the following pairs: (i) 4p, q + r (ii) ab, a - b (iii) a + b, 7a^2b^2 (iv) a^2 - 9, 4a (v) pq + qr + rp, 0",
+    "Find the product: (i) (a^2) * (2a^22) * (4a^26) (ii) (2/3 xy) * (-9/10 x^2y^2) (iii) (-10/3 pq^3) * (6/5 p^3q) (iv) x * x^2 * x^3 * x^4",
+    "Simplify 3x(4x - 5) + 3 and find its values for (i) x = 3 (ii) x = 1/2",
+    "Simplify a(a^2 + a + 1) + 5 and find its value for (i) a = 0, (ii) a = 1, (iii) a = -1",
+    "Add: p(p - q), q(q - r) and r(r - p)",
+    "Add: 2x(z - x - y) and 2y(z - y - x)",
+    "Subtract: 3l(l - 4m + 5n) from 4l(10n - 3m + 2l)",
+    "Subtract: 3a(a + b + c) - 2b(a - b + c) from 4c(-a + b + c)"
+   ]
+  },
+  {
+   "id": "ex8.4",
+   "source_ref": "hemh108.txt lines 431-460",
+   "questions": [
+    "Multiply the binomials: (i) (2x + 5) and (4x - 3) (ii) (y - 8) and (3y - 4) (iii) (2.5l - 0.5m) and (2.5l + 0.5m) (iv) (a + 3b) and (x + 5) (v) (2pq + 3q^2) and (3pq - 2q^2)",
+    "Find the product: (i) (5 - 2x)(3 + x) (ii) (x + 7y)(7x - y) (iii) (a^2 + b)(a + b^2) (iv) (p^2 - q^2)(2p + q)",
+    "Simplify: (i) (x^2 - 5)(x + 5) + 25 (ii) (a^2 + 5)(b^3 + 3) + 5 (iii) (t + s^2)(t^2 - s) (iv) (a + b)(c - d) + (a - b)(c + d) + 2(ac + bd) (v) (x + y)(2x + y) + (x + 2y)(x - y) (vi) (x + y)(x^2 - xy + y^2) (vii) (1.5x - 4y)(1.5x + 4y + 3) - 4.5x + 12y (viii) (a + b + c)(a + b - c)"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

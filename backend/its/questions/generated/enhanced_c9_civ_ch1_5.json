@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_civ_ch1_5",
+ "concepts": [
+  {
+   "id": "enh:c9_civ_ch1_5",
+   "title": "c9_civ_ch1_5",
+   "questions": [
+    {
+     "q": "Define direct democracy and representative democracy in one sentence each, citing one Indian constitutional example for representative democracy.",
+     "a": "Direct democracy: citizens directly vote on laws/policies (e.g., Gram Sabha under Article 243A). Representative democracy: citizens elect representatives to make decisions (e.g., Lok Sabha MPs under Article 79). A wrong answer (e.g., \"India is direct democracy because we vote\") reveals confusion between voting for representatives (electoral participation) and voting on laws (direct legislation).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why India could not adopt the Athenian model of direct democracy despite both being \"government by the people.\" Use three specific factors: population, diversity, and complexity of modern governance.",
+     "a": "Athens had ~30,000 eligible male citizens in a small city-state with simple agrarian economy — feasible for assembly meetings. India has 968 million voters (2024), 28 states, 8 UTs, 100+ languages, and complex modern governance (defense, economy, technology) requiring specialized, full-time deliberation. A wrong answer focusing only on \"population size\" misses diversity and governance complexity as independent barriers to direct democracy.",
+     "self_check": true
+    },
+    {
+     "q": "A village Gram Sabha (direct democracy) passes a resolution banning plastic use. The State Government (representative democracy) passes a law allowing regulated plastic manufacturing. Which prevails? Explain using constitutional hierarchy and the distinction between direct participation and legislative authority.",
+     "a": "State law prevails. Gram Sabha (Article 243A) is a direct democratic forum for local participation and planning, but legislative power resides with State Legislature (Article 246, Seventh Schedule). Direct democracy in India is consultative/executive at local level; representative bodies hold sovereign lawmaking authority. A wrong answer (\"Gram Sabha wins because it's direct democracy\") confuses participatory forums with constitutional legislative hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the accountability mechanism in direct democracy (Athenian Assembly) vs. representative democracy (Indian Parliament). How does the \"principal-agent problem\" manifest in India's system, and what constitutional checks address it?",
+     "a": "In direct democracy, no agent exists — citizens are principals and agents simultaneously. In representative democracy, MPs are agents; principals (voters) face information asymmetry and time lag (5-year term). Principal-agent problem: MPs may pursue self-interest (corruption, absenteeism). Constitutional checks: Article 75 (collective responsibility to Lok Sabha), Article 324 (Election Commission ensuring free elections), Article 105 (parliamentary privileges balanced by voter recall via elections), and RTI (c9_civ_ch1_12). A wrong answer listing only \"elections\" misses institutional checks like no-confidence motions, parliamentary committees, and judicial review.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Referendums (direct democracy) should replace Parliament for major decisions like constitutional amendments because they reflect true popular will.\" Assess using India's constitutional design, federal structure, and minority rights protection.",
+     "a": "Referendums undermine India's constitutional design: (1) Federalism requires state ratification for certain amendments (Article 368) — a national referendum bypasses states. (2) Minority rights (Articles 29-30) risk \"tyranny of majority\" in direct votes. (3) Complex constitutional texts need expert deliberation (Parliament's committee system). (4) India's diversity makes binary yes/no votes polarizing. Representative democracy filters popular will through deliberation, federal bargaining, and constitutional safeguards. A wrong answer supporting referendums ignores federalism and minority protection as core constitutional values.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hybrid democratic model for a hypothetical Indian city of 5 million people that combines representative governance with direct citizen participation in three specific policy areas. Justify each area using the principle of \"subsidiarity\" (decisions at lowest effective level).",
+     "a": "Model: Elected Municipal Corporation (representative) + mandatory Ward Committees with binding votes on: (1) Local park maintenance budgets (hyper-local, low technical complexity) — subsidiarity: residents know needs best. (2) School admission criteria for neighborhood schools (affects immediate community) — subsidiarity: parents/students directly impacted. (3) Ward-level waste segregation rules (behavioral compliance needed) — subsidiarity: direct participation increases ownership. Excluded: city-wide transport, taxation, policing (require scale/expertise). A poor answer picks arbitrary areas without subsidiarity reasoning or ignores scalability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

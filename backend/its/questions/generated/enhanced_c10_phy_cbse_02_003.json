@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_02_003",
+   "title": "c10_phy_cbse_02_003",
+   "questions": [
+    {
+     "q": "A circular loop of radius 5 cm carries a current of 2 A. What is the magnitude of the magnetic field at its centre? (Take \\( \\mu_0 = 4\\pi \\times 10^{-7} \\, \\text{T·m/A} \\))",
+     "a": "Correct answer: \\( 2.51 \\times 10^{-5} \\, \\text{T} \\) (or \\( 25.1 \\, \\mu\\text{T} \\)).  \nWorking: \\( B = \\frac{\\mu_0 I}{2R} = \\frac{4\\pi \\times 10^{-7} \\times 2}{2 \\times 0.05} = \\frac{8\\pi \\times 10^{-7}}{0.1} = 8\\pi \\times 10^{-6} \\approx 2.51 \\times 10^{-5} \\, \\text{T} \\).  \nA wrong answer (e.g., forgetting to convert cm to m, or using \\( \\mu_0/4\\pi \\) instead of \\( \\mu_0 \\)) reveals the student either mishandles unit conversion or confuses the formula with that of a straight wire (\\( \\frac{\\mu_0 I}{2\\pi r} \\)).",
+     "self_check": true
+    },
+    {
+     "q": "If the current in a circular loop flows clockwise when viewed from above, what is the direction of the magnetic field at the centre of the loop? Explain using the right-hand thumb rule.",
+     "a": "The magnetic field at the centre is directed vertically downwards (into the plane of the loop).  \nReasoning: Curl the fingers of the right hand in the clockwise direction (as seen from above); the extended thumb points downwards.  \nA wrong answer (e.g., \"upwards\") reveals the student either used the left hand, or misapplied the rule by thinking the thumb follows the current direction instead of the fingers.",
+     "self_check": true
+    },
+    {
+     "q": "A coil of 50 turns and radius 10 cm carries a current of 0.5 A. Calculate the magnetic field at its centre. If the radius is doubled while keeping the number of turns and current the same, by what factor does the magnetic field change?",
+     "a": "Step 1: Given \\( N = 50 \\), \\( R = 0.10 \\, \\text{m} \\), \\( I = 0.5 \\, \\text{A} \\), \\( \\mu_0 = 4\\pi \\times 10^{-7} \\, \\text{T·m/A} \\).  \nStep 2: Formula \\( B = \\frac{\\mu_0 N I}{2R} \\).  \nStep 3: \\( B = \\frac{4\\pi \\times 10^{-7} \\times 50 \\times 0.5}{2 \\times 0.10} = \\frac{4\\pi \\times 10^{-7} \\times 25}{0.20} = \\frac{100\\pi \\times 10^{-7}}{0.20} = 500\\pi \\times 10^{-7} = 1.57 \\times 10^{-4} \\, \\text{T} \\).  \nStep 4: If radius doubled (\\( R' = 0.20 \\, \\text{m} \\)), \\( B' = \\frac{\\mu_0 N I}{2R'} = \\frac{1}{2} B \\). So field halves.  \nA wrong answer (e.g., field doubles) reveals the student thinks \\( B \\propto R \\) instead of \\( B \\propto 1/R \\).",
+     "self_check": true
+    },
+    {
+     "q": "Two identical circular loops A and B carry equal currents. Loop A has a single turn; loop B has 10 turns but the same radius. Compare the magnetic fields at their centres. If the current in loop B is reversed, how does the field at its centre change in magnitude and direction?",
+     "a": "Magnitude: \\( B_B = 10 \\times B_A \\) because \\( B \\propto N \\). Direction: initially same as A (if currents are in same sense). When current in B is reversed, the magnitude remains \\( 10 \\times B_A \\) but direction becomes opposite to that of A.  \nA wrong answer (e.g., \"magnitude becomes 1/10th\") reveals the student confuses the effect of reversing current (direction change only) with changing the number of turns.",
+     "self_check": true
+    },
+    {
+     "q": "A student sets up a circular loop connected to a battery and places a compass at its centre. The compass needle aligns itself along the axis of the loop. The student claims: \"If I increase the radius of the loop while keeping the current constant, the compass deflection will increase because the loop is bigger.\" Evaluate this claim.",
+     "a": "The claim is false. The magnetic field at the centre is \\( B = \\frac{\\mu_0 I}{2R} \\), so \\( B \\propto 1/R \\). Increasing the radius decreases the field, so the compass deflection (which responds to field strength) will decrease, not increase.  \nA wrong evaluation (agreeing with the student) reveals the misconception that a larger loop produces a stronger field, ignoring the inverse dependence on radius.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a battery, a variable resistor, a circular coil of known turns and radius, and a compass to verify that the magnetic field at the centre of a coil is directly proportional to the current. List the steps, the measurements you would take, and how you would analyse the data.",
+     "a": "Expected answer:  \n1. Set up the coil in a vertical plane (East-West) so that the Earth's magnetic field is perpendicular to the coil's axis.  \n2. Place a compass at the centre of the coil.  \n3. Connect the coil in series with a battery, a variable resistor (rheostat), and an ammeter.  \n4. Vary the current using the rheostat and record the current \\( I \\) and the corresponding compass deflection \\( \\theta \\) (angle between needle and Earth's field direction).  \n5. For small angles, \\( \\tan \\theta \\propto B_{\\text{coil}} \\). Plot \\( \\tan \\theta \\) vs \\( I \\); a straight line through origin confirms \\( B \\propto I \\).  \nA poor answer (e.g., just \"measure current and deflection\") reveals lack of understanding of how to isolate the coil's field from Earth's field and how to linearise the relationship.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

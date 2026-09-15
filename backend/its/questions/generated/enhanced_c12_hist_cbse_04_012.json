@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_04_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_04_012",
+   "title": "c12_hist_cbse_04_012",
+   "questions": [
+    {
+     "q": "What is the name of the three-part canonical collection compiled at the First Buddhist Council, and in which language was it originally transmitted?",
+     "a": "The Tipitaka (Three Baskets) — Vinaya Pitaka, Sutta Pitaka, Abhidhamma Pitaka — was originally transmitted orally in Prakrit (specifically the Magadhi dialect that became Pali). A wrong answer (e.g., \"Sanskrit\" or \"written at the First Council\") reveals confusion between the language of the Buddha's discourses and the later Sanskrit scholastic tradition, and between oral transmission and textual fixation.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Theravada tradition preserve its canon in Pali while Mahayana schools composed new sutras in Sanskrit?",
+     "a": "Theravada maintained Pali as the language closest to the Buddha's own Magadhi, treating it as a closed canon fixed at the Third Council (c. 250 BCE). Mahayana, emerging c. 1st century BCE–1st century CE, adopted Sanskrit — the prestige language of Brahmanical scholarship and pan-Indian intellectual discourse — to gain legitimacy in monastic universities (Nalanda, Vikramashila) and facilitate debate with non-Buddhist schools. A wrong answer (e.g., \"Pali was for common people, Sanskrit for elites\") oversimplifies: both traditions had monastic and lay followers; the difference was doctrinal self-definition and institutional strategy.",
+     "self_check": true
+    },
+    {
+     "q": "A historian finds a 2nd-century CE inscription at Sanchi recording a donation by a bhikkhuni for \"the welfare of all beings\" in Prakrit using Brahmi script. At the same site, a 5th-century CE Sanskrit inscription in Gupta script mentions a Bodhisattva image dedication. What does this shift in language and script reveal about the Buddhist community at Sanchi?",
+     "a": "The shift from Prakrit/Brahmi to Sanskrit/Gupta script reflects: (1) growing Mahayana influence (Bodhisattva cult); (2) integration into Gupta-period Sanskrit cosmopolitan culture; (3) changing patronage from local merchants/guilds (Prakrit inscriptions) to elite/royal donors (Sanskrit prashastis). A wrong answer focusing only on \"language change over time\" misses the sectarian and socio-political signals encoded in epigraphic choices.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the transmission routes of the Pali Canon to Sri Lanka versus the Sanskrit Mahayana sutras to China. Identify two structural differences in how textual authority was maintained in each case.",
+     "a": "Pali transmission: (1) Single canonical closure at Third Council → oral tradition maintained by bhikkhu lineages → written down in Sri Lanka (1st c. BCE) at Aluvihara → commentarial tradition (Atthakatha) fixed by Buddhaghosa (5th c. CE). Authority = lineage fidelity to fixed canon. Sanskrit transmission: (1) Open corpus — new sutras composed over centuries; (2) Transmitted via missionary monks (Kumarajiva, Xuanzang) who translated selectively; (3) Authority = perceived Buddhic origin (buddhavacana) of each sutra, authenticated by philosophical consistency with Madhyamaka/Yogacara. A wrong answer treating both as \"translation projects\" ignores the closed vs. open canon distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Pali is the language of early Buddhism; Sanskrit is the language of later Buddhism.\" Support your judgment with three pieces of evidence from textual history.",
+     "a": "The claim is partially true but misleading. Evidence against simple chronology: (1) Buddhist Hybrid Sanskrit (BHS) texts like Mahavastu (2nd c. BCE–2nd c. CE) show early Sanskritisation within \"Hinayana\" schools (Mahasanghika); (2) Pali commentaries (Atthakatha) were composed in Sri Lanka centuries after the Buddha, in a developed literary Pali; (3) Sanskrit was used for non-Mahayana Abhidharma (e.g., Sarvastivada Abhidharma in Sanskrit) before Mahayana dominance. Better framing: Pali = canon of one lineage (Theravada); Sanskrit = pan-Indian scholarly medium adopted by multiple schools at different times. A wrong answer accepting the claim uncritically imposes a modern sectarian narrative on complex historical processes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a research question and a two-source comparison method to investigate how the concept of \"buddhavacana\" (word of the Buddha) was negotiated when a Mahayana sutra (e.g., Lotus Sutra) claimed authority equal to the Pali Sutta Pitaka.",
+     "a": "Research question: \"How did Mahayana apologists legitimize new Sanskrit sutras as buddhavacana despite their absence from the early councils?\" Method: Compare (1) the Pali Mahaparinibbana Sutta's criteria for authenticating teachings (four great references: Buddha, sangha, elders, dhamma) with (2) the Lotus Sutra's self-authentication strategies (prophecy by Buddha, miraculous assembly, claim to be \"true Dharma\"). A poor answer merely describes the texts; a strong answer analyzes competing epistemologies of authority.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

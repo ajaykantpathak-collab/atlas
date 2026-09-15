@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_04_004",
+   "title": "c12_acc_cbse_04_004",
+   "questions": [
+    {
+     "q": "State the journal entry when realisation expenses of ₹10,000 are paid by the firm out of its bank account and the firm bears the expense.",
+     "a": "Correct entry: Realisation A/c Dr. ₹10,000 To Bank A/c ₹10,000. A wrong answer (e.g., debiting Partner's Capital) reveals the student does not understand that expenses borne by the firm are losses charged to the Realisation Account, not to a partner.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the journal entry differs when a partner agrees to bear the realisation expenses versus when the firm bears them.",
+     "a": "When the firm bears, the expense reduces the firm's profit/loss on realisation (debited to Realisation A/c). When a partner bears, it is a personal obligation, so the partner's capital is debited. A wrong answer confusing the two shows the student memorises entries without grasping the economic substance: who ultimately absorbs the cost.",
+     "self_check": true
+    },
+    {
+     "q": "A firm dissolves. Realisation expenses of ₹8,000 are paid by Partner A from his personal funds. The agreement states the firm bears these expenses. Pass the necessary journal entries in the firm's books.",
+     "a": "Step 1: Realisation A/c Dr. ₹8,000 To Partner A's Capital A/c ₹8,000 (expense borne by firm, liability to partner created). Step 2: Partner A's Capital A/c Dr. ₹8,000 To Bank A/c ₹8,000 (reimbursement to partner). A wrong answer that debits Partner A's Capital in the first step reveals the student thinks the payer bears the expense, ignoring the agreement.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effect on the Realisation Account and Partner's Capital Account when (i) firm bears and pays ₹5,000, (ii) partner bears and firm pays ₹5,000, (iii) partner bears and partner pays ₹5,000. Summarise in a table.",
+     "a": "(i) Realisation Dr. ₹5,000, Bank Cr. ₹5,000 → Realisation loss increases, Partner Capital unaffected. (ii) Partner Capital Dr. ₹5,000, Bank Cr. ₹5,000 → Realisation unaffected, Partner Capital decreases. (iii) Partner Capital Dr. ₹5,000, Bank Cr. ₹5,000 (no entry in firm's books for payment if partner pays directly? Actually, if partner pays directly, firm's bank not involved; but to record expense: Partner Capital Dr. ₹5,000, Realisation? No. If partner bears and pays, the expense is not a firm's loss, so Realisation not touched. Entry: Partner Capital Dr. ₹5,000, Bank Cr. ₹5,000 only if firm pays on behalf? Wait, if partner pays from own pocket, firm's books only show Partner Capital Dr. ₹5,000, and no Bank entry because cash didn't go through firm. But usually we record the expense as a charge to partner: Partner Capital Dr. ₹5,000, Realisation? No. The correct entry for (iii) is: Partner Capital A/c Dr. ₹5,000 To Realisation A/c? No. Realisation A/c is for firm's expenses. If partner bears, the expense is not recorded in Realisation. The partner's capital is debited and if the firm pays, Bank credited; if partner pays, no Bank entry in firm's books. However, to record the expense in firm's books, we debit Partner Capital and credit Realisation? That would be wrong. Actually, the realisation expenses are paid to outsiders. If partner pays directly, the firm never sees the cash. The expense is still a realisation expense but borne by partner. The entry is: Realisation A/c Dr. (to record expense) To Partner Capital A/c (partner's liability). Then Partner Capital A/c Dr. To Bank? No Bank. So the net effect is Realisation Dr., Partner Capital Cr. Then Partner Capital Dr., Realisation Cr.? That cancels. The correct approach: If partner bears, the expense is not a firm's expense, so Realisation is not debited. The partner's capital is debited for the amount borne. If the firm pays the outsider, Bank is credited. If partner pays, no entry in firm's books for cash, but the partner's capital is debited and Realisation? No. The standard textbook treatment: When partner bears the expense, we debit Partner's Capital Account and credit Bank (if firm pays) or credit Realisation? Actually, the realisation expenses are paid to third parties. The firm must record the payment to third parties. If partner bears, the firm still pays the third party, so Bank is credited. The debit is Partner's Capital. If partner pays directly, the firm doesn't pay, so no Bank entry. But the expense is still incurred for the firm's dissolution. The firm should record the expense and the partner's contribution. The entry: Realisation A/c Dr. (expense incurred) To Partner's Capital A/c (partner bears). Then Partner's Capital A/c Dr. To Bank (if firm pays) or no second entry if partner pays directly? Actually, if partner pays directly, the firm's books don't show Bank. But the expense is still a realisation expense. The correct entry is: Realisation A/c Dr. To Partner's Capital A/c (recognizing expense and partner's bearing). That's it. No Bank entry. So the table: (i) Realisation Dr., Bank Cr. (ii) Partner Capital Dr., Bank Cr. (iii) Realisation Dr., Partner Capital Cr. (no Bank). A wrong answer that puts Bank in (iii) shows misunderstanding of cash flow.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If a partner pays realisation expenses from his own pocket, the firm should not record any entry because no cash moved through the firm's bank account.\" Defend or refute with reasoning.",
+     "a": "Refute. The firm must record the expense (debit Realisation if firm bears, or debit Partner's Capital if partner bears) and the corresponding liability to the partner (credit Partner's Capital). Omitting the entry understates realisation expenses and misstates partner's capital. A wrong answer agreeing reveals the student thinks accounting only records bank transactions, violating the accrual concept.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new scenario where the partnership deed states: \"Partner X will bear all realisation expenses up to ₹20,000; any excess will be borne by the firm.\" Actual expenses are ₹28,000 paid by the firm. Write the journal entries and show the Realisation Account and Partner X's Capital Account extracts.",
+     "a": "Entries: (1) Realisation A/c Dr. ₹20,000 To Partner X's Capital A/c ₹20,000 (partner's share). (2) Realisation A/c Dr. ₹8,000 To Bank A/c ₹8,000 (firm's share). (3) Partner X's Capital A/c Dr. ₹20,000 To Bank A/c ₹20,000 (reimbursement to partner for his share paid by firm). Realisation Account shows total ₹28,000 on debit side. Partner X's Capital shows Dr. ₹20,000 (reimbursement) and Cr. ₹20,000 (expense borne). A poor answer that puts the whole ₹28,000 on Realisation and ignores the partner's cap shows inability to split expenses per agreement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

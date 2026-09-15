@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch12_050",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch12_050",
+   "title": "c6_physics_ch12_050",
+   "questions": [
+    {
+     "q": "What three objects must be in a line for a lunar eclipse to occur?",
+     "a": "The Sun, the Earth, and the Moon must be in a line. A wrong answer (like swapping the Earth and Moon) shows a failure to understand that the Earth acts as the \"blocker\" of sunlight.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Moon become dark during a lunar eclipse?",
+     "a": "The Moon darkens because the Earth blocks the sunlight that would normally hit it. A wrong answer suggests the Moon itself loses its light, which confuses stars (which produce their own light) with the Moon (which only reflects light).",
+     "self_check": true
+    },
+    {
+     "q": "If the Moon passes through the darkest part of the Earth's shadow, what do we call this specific region?",
+     "a": "It is called the umbra. An incorrect answer indicates the student has not mastered the terminology for shadows; the umbra is the part of the shadow where the light source is completely obstructed.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the visibility of a lunar eclipse to a solar eclipse; why is it easier to see a lunar eclipse?",
+     "a": "A lunar eclipse is visible from the entire night side of the Earth, whereas a solar eclipse is only visible from a small, specific path. A wrong answer suggests misunderstanding the scale of shadows cast by planets vs. the Moon.",
+     "self_check": true
+    },
+    {
+     "q": "If the Moon moved out of the Earth's shadow line, would the lunar eclipse continue? Justify your answer.",
+     "a": "No, the eclipse would end because the Sun's rays would once again reach the Moon's surface. This tests the student's ability to judge the cause-and-effect relationship between alignment and light.",
+     "self_check": true
+    },
+    {
+     "q": "Create a drawing or a simple model description showing the arrangement of the Sun, Earth, and Moon during a total lunar eclipse.",
+     "a": "A correct response shows the Sun on one end, the Earth in the middle, and the Moon inside the Earth's shadow (umbra). A poor answer shows the Moon in the middle, which would cause a solar eclipse instead.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

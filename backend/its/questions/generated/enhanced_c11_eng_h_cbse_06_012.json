@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_06_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_06_012",
+   "title": "c11_eng_h_cbse_06_012",
+   "questions": [
+    {
+     "q": "What is the primary difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal question asks for information directly stated in the text (e.g., \"At what altitude did the author's headache start?\"), while an inferential question requires deducing implied meaning using textual clues (e.g., \"Why did the author feel relieved after meeting Norbu?\"). A wrong answer that confuses the two reveals the student cannot distinguish between explicit retrieval and implicit reasoning, leading to answers that either over-quote for inference or under-support for literal questions.",
+     "self_check": true
+    },
+    {
+     "q": "In the passage, the author describes the Tibetan mastiffs as \"shaggy monsters, blacker than the darkest night.\" If a question asks, \"What does the phrase 'shaggy monsters' suggest about the author's perception of the dogs?\", is this literal or inferential? Explain your reasoning.",
+     "a": "This is an inferential question because the phrase \"shaggy monsters\" is a metaphorical description; the author does not literally mean the dogs are monsters. The student must infer the author's awe, fear, or emphasis on their size and ferocity from the connotation of \"monsters\" and the context of the dogs chasing the vehicle. A wrong answer labeling it literal shows the student misses figurative language and treats descriptive imagery as factual statement.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the PEEL structure to answer this literal question using the text: \"What did Tsetan do when the car reached the snow patch at 5,210 metres?\" Provide the Point, Evidence, Explanation, and Link.",
+     "a": "Point: Tsetan assessed the snow patch and cleared it for driving. Evidence: The text states Tsetan \"stepped on to the encrusted snow and began to slither and slide forward, stamping his foot from time to time to ascertain how sturdy it was\" and later \"grab handfuls of dirt and fling them across the frozen surface.\" Explanation: These actions show he tested the snow's stability and improved traction by adding soil. Link: This demonstrates Tsetan's practical skill and calm problem-solving in dangerous conditions. A wrong answer that merely quotes without explanation fails to show how the evidence answers the question.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following inferential question: \"Why does the author say his experience at Hor was in 'stark contrast' to earlier travellers' accounts?\" Identify two pieces of textual evidence that support an inference about the author's disappointment.",
+     "a": "Evidence 1: The author describes Hor as \"grim, miserable place... no vegetation whatsoever, just dust and rocks, liberally scattered with years of accumulated refuse.\" Evidence 2: He notes the \"good view of the lake through one of them helped to compensate for the draught\" in the café, implying the setting was otherwise bleak. Inference: The contrast lies between the sacred, awe-inspiring descriptions of earlier pilgrims (Ekai Kawaguchi bursting into tears) and the author's reality of filth and neglect. A wrong answer that only cites the author's feelings without textual proof shows an inability to ground inference in evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's answer to an inferential question: \"The author calls the Tibetan medicine 'sheep dung' because he thinks it is useless.\" Is this a valid inference? Justify your evaluation using the text.",
+     "a": "No, it is not a valid inference. The text says the pellets \"looked suspiciously like sheep dung, but of course I took them\" and later \"That night... I slept very soundly. Like a log, not a dead man.\" The author's tone is humorous and reluctant, not dismissive; he acknowledges the medicine's effectiveness. A student making this inference ignores the outcome evidence and misreads the author's ironic humour as genuine contempt.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own inferential question based on the author's meeting with Norbu in the café, and provide a model answer using PEEL with two textual evidences.",
+     "a": "Question: \"What does Norbu's suggestion to hire yaks reveal about his attitude toward the pilgrimage?\" Model Answer: Point: Norbu approaches the kora practically rather than devotionally. Evidence 1: He says, \"Very high up, so tiresome to walk\" and \"Not possible... his tummy was too big\" about prostrating. Evidence 2: He suggests hiring yaks to carry luggage, showing he prioritises comfort. Explanation: These show he treats the pilgrimage as a trek, not a spiritual ordeal. Link: This contrasts with devout pilgrims and makes him a compatible companion for the author. A poor answer would lack textual quotes or confuse Norbu's humour with laziness.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

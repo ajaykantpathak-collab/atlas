@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_chem_ch2_10",
+ "concepts": [
+  {
+   "id": "enh:c8_chem_ch2_10",
+   "title": "c8_chem_ch2_10",
+   "questions": [
+    {
+     "q": "Which state of matter possesses the strongest inter-particle attractive forces, and how does this affect its shape?",
+     "a": "Solids possess the strongest inter-particle attractive forces, which lock particles into fixed positions, giving the solid a definite shape and volume. A wrong answer often confuses solids with gases or believes forces are weakest in solids, which stems from not connecting tight particle packing with strong attractive pulls.",
+     "self_check": true
+    },
+    {
+     "q": "Why do liquid particles have the ability to flow and take the shape of their container, unlike solid particles?",
+     "a": "Liquid particles experience moderate inter-particle attraction; the forces are strong enough to keep the particles close together (maintaining a definite volume) but weak enough to let them slide past one another. A student answering incorrectly might think liquids have zero attraction, confusing them with gases.",
+     "self_check": true
+    },
+    {
+     "q": "If you compress a syringe filled with air, the volume decreases easily, but compressing a syringe filled with water is extremely difficult. How does inter-particle attraction explain this observation?",
+     "a": "Step 1: Identify the states of matter in the syringe (air is a gas, water is a liquid). Step 2: Compare the inter-particle spaces and attractive forces (gas has very weak attraction and large spaces; liquid has moderate attraction and small spaces). Step 3: Analyze the effect of external force: because gas particles have weak attraction and vast empty space between them, they are easily pushed closer together. Step 4: Conclude that water resists compression because its particles already have moderate attraction holding them close with minimal empty space. A wrong answer usually claims that water molecules expand, showing confusion between particle spacing and attraction.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze what happens to the inter-particle attraction of a solid substance when it melts into a liquid. Does the attraction completely disappear?",
+     "a": "When a solid melts, thermal energy increases particle movement, which overcomes a portion of the strong inter-particle attraction, weakening it to a moderate level characteristic of liquids. The attraction does not completely disappear; if it did, the liquid would instantly turn into a gas. A wrong answer indicating that forces vanish completely demonstrates a misunderstanding of liquid cohesion.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Gas particles exert zero inter-particle attraction on each other because they fly around freely in all directions.\" Is this statement scientifically accurate? Explain.",
+     "a": "The statement is scientifically inaccurate. While gas particles have very weak inter-particle attractive forces compared to solids and liquids, the forces are not completely zero (otherwise gases could never condense into liquids when cooled). A wrong answer accepting the statement as absolute truth fails to recognize that all states of matter retain some baseline attractive interactions among their constituent particles.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple thought experiment using common kitchen items (like sugar cubes, cooking oil, and steam from boiling dal) to demonstrate the three levels of inter-particle attraction to a younger sibling.",
+     "a": "A good response will use sugar cubes (solid, strong attraction holding the cube rigid), cooking oil (liquid, moderate attraction allowing it to pour and take container shape), and steam (gas, weak attraction allowing it to disperse into the kitchen air). A poor response fails to link the physical behavior of these items to the strength of their internal attractive forces.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_07_003",
+   "title": "c11_bs_cbse_07_003",
+   "questions": [
+    {
+     "q": "List the eight documents that must accompany the application for incorporation of a public company under the Companies Act, 2013, and state the minimum number of signatories required for the Memorandum of Association.",
+     "a": "The eight documents are: (1) Memorandum of Association (min. 7 signatories for public company), (2) Articles of Association, (3) Written consent of proposed directors with undertaking for qualification shares, (4) Agreement with proposed Managing/Whole-time Director (if any), (5) Copy of Registrar's name approval letter, (6) Statutory declaration by advocate/CA/CS/director, (7) Receipt of registration fee payment, (8) Notice of registered office address (can be filed within 30 days). A wrong answer reveals the student is memorising a generic list without the statutory distinctions—e.g., confusing \"prospectus\" (capital subscription stage) with incorporation documents, or missing the name approval letter which proves the name was reserved before incorporation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the statutory declaration is a mandatory document for incorporation, and who among the following can sign it: a practicing advocate, a Chartered Accountant, a Cost Accountant, a Company Secretary in practice, or a director named in the Articles.",
+     "a": "The statutory declaration is a sworn affidavit confirming *all legal requirements for registration have been complied with*—it shifts verification burden from the Registrar (who only checks formal compliance) to the professionals who attest to procedural correctness. All five categories listed can sign it: an advocate, CA, CMA, or CS *engaged in formation*, plus *any person named in the Articles as director/manager/secretary*. A wrong answer reveals the student thinks only professionals can sign, missing that a named director can also sign—this tests whether they read \"and by a person named in the articles as a director or manager or secretary\" in the NCERT text.",
+     "self_check": true
+    },
+    {
+     "q": "\"GreenEnergy Solar Pvt. Ltd.\" (a private company) submits its incorporation application. The MoA is signed by only one subscriber. The Registrar rejects the application. Identify the specific statutory violation and state the correct minimum signatory requirement for a private company's MoA.",
+     "a": "Violation: Section 7(1)(a) requires the MoA to be signed by *at least two persons* for a private company (seven for public). The student must apply the public/private distinction—many incorrectly write \"7 for both\" or \"1 for OPC only\". Correct requirement: Private company = 2 subscribers minimum; Public company = 7 subscribers minimum; One Person Company = 1 subscriber (with nominee). This tests application of the numerical threshold that differs by company type.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast preliminary contracts and provisional contracts on three bases: (a) timing of execution, (b) legal bindingness on the company, (c) promoter's personal liability. Present as a structured comparison.",
+     "a": "(a) Timing: Preliminary contracts = *before* incorporation (by promoters); Provisional contracts = *after* incorporation but *before* Certificate of Commencement of Business. (b) Bindingness: Preliminary contracts = *never binding* on company (cannot be ratified, only novated); Provisional contracts = *binding* on company once Certificate of Commencement is obtained. (c) Promoter liability: Preliminary contracts = promoter *personally liable* to third parties; Provisional contracts = company liable, promoter *not* personally liable (company exists). A wrong answer reveals confusion between \"pre-incorporation\" and \"post-incorporation/pre-commencement\" phases—a classic board exam trap where students treat both as \"pre-business\" contracts.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since the Certificate of Incorporation is conclusive evidence of a company's legal existence, a company incorporated with illegal objects (e.g., a company formed to smuggle contraband) cannot be challenged in court and continues to exist legally.\" Defend or refute with reference to the NCERT's 'Effect of Certificate of Incorporation' section.",
+     "a": "Refute. The NCERT explicitly states: \"Even when a company gets registered with illegal objects, the birth of the company cannot be questioned. The only remedy available is to wind it up.\" Conclusive evidence means the *incorporation procedure's regularity* cannot be challenged (backdated certificate, forged signatures), but the *company's objects* can be challenged via winding-up petition by the Tribunal. The certificate protects third parties who contract with the company, not the company's illegal purpose. A wrong answer reveals the student conflates \"conclusive evidence of incorporation\" with \"immunity from all legal challenges\"—missing the nuance that *ultra vires* objects lead to winding up, not invalidation of incorporation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page \"Incorporation Readiness Checklist\" for a public company promoter that sequences the eight documents in the order the Registrar would verify them, includes the DIN pre-requisite for each proposed director, and flags the 30-day window for registered office address filing. Use a table format with columns: Sequence #, Document Name, Signatory/Authority, Statutory Deadline.",
+     "a": "A good answer produces a 9-row table (8 documents + DIN pre-step):\n1. DIN allotment for each proposed director (Pre-requisite, Director applicant, Before filing)\n2. Name approval letter (1, ROC, Before filing)\n3. MoA (2, Min. 7 subscribers + witness, At filing)\n4. AoA (3, Same signatories as MoA, At filing)\n5. Consent of Directors + qualification shares undertaking (4, Each proposed director, At filing)\n6. Agreement with MD/WTD (5, Company & appointee, At filing if applicable)\n7. Statutory declaration (6, Advocate/CA/CS/Director, At filing)\n8. Fee receipt (7, Bank/Online, At filing)\n9. Registered office notice (8, Company, Within 30 days of incorporation)\nA poor answer lists documents randomly, omits DIN, misses the 30-day rule, or doesn't distinguish signatory requirements—showing they haven't internalised the procedural sequence the Registrar follows.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

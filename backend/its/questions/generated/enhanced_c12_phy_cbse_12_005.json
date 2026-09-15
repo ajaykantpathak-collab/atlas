@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_12_005",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_12_005",
+   "title": "c12_phy_cbse_12_005",
+   "questions": [
+    {
+     "q": "State de Broglie's standing wave condition for an electron in the nth Bohr orbit and write the resulting quantisation condition for angular momentum. Include the formula for de Broglie wavelength.",
+     "a": "The standing wave condition is 2πrₙ = nλ, where λ = h/mvₙ is the de Broglie wavelength of the electron. Substituting λ gives 2πrₙ = n(h/mvₙ), which rearranges to mₙvₙrₙ = nh/2π. This is Bohr's second postulate: angular momentum L = nh/2π. A wrong answer reveals the student cannot connect the geometric standing wave condition to the algebraic quantisation rule, often forgetting the factor of 2π or misplacing n.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the standing wave condition 2πrₙ = nλ lead to stable orbits, while other radii would not be stable? Explain using the concept of wave interference.",
+     "a": "When 2πrₙ = nλ, the electron wave completes exactly n full wavelengths around the orbit. After one full revolution, the wave overlaps itself perfectly in phase (constructive interference), reinforcing the wave amplitude. For any other radius, the wave would be out of phase with itself after each round trip, leading to destructive interference that rapidly reduces the amplitude to zero — the electron wave \"cancels itself out.\" A wrong answer indicates the student treats the condition as a mathematical rule without understanding the physical mechanism of constructive vs destructive interference of matter waves.",
+     "self_check": true
+    },
+    {
+     "q": "An electron in a hydrogen atom is in the n = 3 Bohr orbit. Given the Bohr radius a₀ = 5.29 × 10⁻¹¹ m, calculate the de Broglie wavelength of the electron in this orbit. (Use h = 6.63 × 10⁻³⁴ J·s, mₑ = 9.11 × 10⁻³¹ kg)",
+     "a": "Step 1: Radius of n = 3 orbit: r₃ = n²a₀ = 9 × 5.29 × 10⁻¹¹ m = 4.76 × 10⁻¹⁰ m.\nStep 2: Standing wave condition: 2πr₃ = 3λ → λ = 2πr₃/3.\nStep 3: λ = 2π × 4.76 × 10⁻¹⁰ / 3 = 9.98 × 10⁻¹⁰ m ≈ 1.00 × 10⁻⁹ m.\nStep 4: Verification using λ = h/mv: v₃ = v₁/n = (2.18 × 10⁶)/3 = 7.27 × 10⁵ m/s; λ = 6.63×10⁻³⁴ / (9.11×10⁻³¹ × 7.27×10⁵) = 9.98×10⁻¹⁰ m. ✓\nA wrong answer often results from using r₃ = 3a₀ instead of n²a₀, or forgetting the factor of 2π in the circumference.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the de Broglie wavelength of an electron in the ground state (n = 1) of hydrogen with that in the n = 4 orbit. How does the number of wavelengths fitting around the orbit change? What does this imply about the electron's kinetic energy?",
+     "a": "For n = 1: λ₁ = 2πr₁/1 = 2πa₀. For n = 4: r₄ = 16a₀, so λ₄ = 2π(16a₀)/4 = 8πa₀ = 4λ₁. The wavelength increases by factor 4. The number of wavelengths around the orbit is exactly n (1 for n=1, 4 for n=4). Since λ = h/p, larger λ means smaller momentum p, hence smaller kinetic energy K = p²/2m. Kinetic energy decreases as 1/n². A wrong answer reveals confusion between the scaling of rₙ (∝ n²) and λ (∝ n), or misunderstanding that kinetic energy decreases in higher orbits despite larger radius.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"de Broglie's explanation proves that the electron is actually a wave going around the nucleus in a circle.\" Evaluate this statement. Is it correct according to modern quantum mechanics? Justify your answer.",
+     "a": "The statement is incorrect. de Broglie's model is a semiclassical \"wave-on-a-ring\" picture that successfully explains the quantisation condition but is not the final quantum mechanical description. In modern quantum mechanics (Schrödinger equation), the electron is not a particle travelling on a definite circular path; instead, its state is described by a wavefunction ψ(r,θ,φ) giving a probability density |ψ|². The Bohr orbits correspond to regions of high probability for certain quantum states, but the electron does not have a well-defined trajectory. The standing wave analogy is a useful heuristic, not a literal picture. A wrong answer indicates the student conflates the historical semiclassical model with the full quantum theory.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment to test whether the standing wave condition 2πr = nλ could apply to a macroscopic object, like a 0.1 kg ball moving in a circle of radius 1 m at 1 m/s. Calculate its de Broglie wavelength and comment on whether quantised orbits would be observable.",
+     "a": "Step 1: λ = h/p = 6.63×10⁻³⁴ / (0.1 × 1) = 6.63×10⁻³³ m.\nStep 2: Circumference = 2π × 1 = 6.28 m.\nStep 3: Number of wavelengths n = 2πr/λ = 6.28 / 6.63×10⁻³³ ≈ 9.5×10³².\nStep 4: The quantum number n is astronomically large (~10³³). The spacing between adjacent allowed radii Δr = r/(2n) ~ 10⁻³³ m is immeasurably small (far smaller than nuclear size). Quantisation is physically irrelevant at macroscopic scales. A good answer shows the calculation and explains why quantum effects vanish for massive objects (λ too small). A poor answer either miscalculates λ or fails to connect the huge n to the classical limit.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

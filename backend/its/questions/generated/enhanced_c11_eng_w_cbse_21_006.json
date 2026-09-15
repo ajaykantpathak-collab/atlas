@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_21_006",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_21_006",
+   "title": "c11_eng_w_cbse_21_006",
+   "questions": [
+    {
+     "q": "What is the primary theme of S. Chandrasekhar's essay \"Patterns of Creativity\"? State it in one sentence using abstract nouns.",
+     "a": "The primary theme is the fundamental unity of the creative impulse in science and poetry, both driven by a search for order and beauty under constraints. A wrong answer (e.g., \"Science and poetry are different\" or \"Chandrasekhar likes poetry\") reveals the student has confused theme with topic or missed the essay's central argument of convergence.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Chandrasekhar argues that the \"two cultures\" (science and humanities) are not truly separate when it comes to creativity. Use the concept of \"constraints\" in your answer.",
+     "a": "Chandrasekhar argues both scientists and poets operate under strict constraints — scientists under the laws of nature and mathematical consistency, poets under the laws of language, meter, and form — and creativity in both arises from the imagination working *within* these constraints, not in spite of them. A wrong answer that says \"both use imagination\" without mentioning constraints shows superficial understanding; the essay's unique claim is about the *role of constraints* in shaping creative patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the essay's concept of \"pattern-seeking\" to a new context: How would Chandrasekhar likely view the creativity involved in designing a computer algorithm? Justify using two specific ideas from the essay.",
+     "a": "He would view it as a creative act analogous to poetry: the algorithm designer seeks an elegant, efficient pattern (like a poet seeks a perfect metaphor) that solves a problem under strict logical/syntactic constraints (like a sonnet's form). The \"beauty\" of the code lies in its economy and inevitability. A wrong answer treating coding as purely technical misses the essay's extension of creativity to any pattern-seeking under constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how Chandrasekhar uses the example of Kepler and Tycho Brahe to advance his theme. What relationship between imagination and empirical reality does this example illustrate?",
+     "a": "The Kepler/Brahe example shows scientific creativity as imaginative pattern-finding (Kepler's ellipses) rigorously tested against exhaustive empirical data (Brahe's observations) — mirroring how a poet's imaginative vision is tested against the \"data\" of human experience and linguistic possibility. A wrong answer that merely summarizes the historical anecdote fails to analyze its *function* in the essay's argument.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Chandrasekhar's essay ultimately suggests that scientific creativity is *more* constrained than poetic creativity, and therefore less free.\" Defend or refute using textual reasoning.",
+     "a": "Refute. The essay argues constraints are *constitutive* of creativity in both domains, not a limitation on freedom. Chandrasekhar explicitly states the poet's freedom is also bounded by \"the nature of language\" and \"the logic of the imagination.\" He equates the constraint of natural law with the constraint of poetic form. A wrong answer agreeing with the claim reveals a misconception that constraints reduce creativity, whereas the essay posits they *enable* it by giving it structure.",
+     "self_check": true
+    },
+    {
+     "q": "Create a one-paragraph \"blurb\" for the back cover of a book titled *Patterns of Creativity* that captures the essay's message for a general audience. Use no more than 50 words.",
+     "a": "A strong blurb will synthesize the message: \"What do a sonnet and a scientific theory share? Both are acts of pattern-seeking imagination disciplined by rigorous constraints. Chandrasekhar reveals creativity not as wild inspiration but as the discovery of necessary order — whether in verse or the cosmos.\" A poor blurb will focus on biography or list topics without capturing the unifying philosophical message.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_07_008",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_07_008",
+   "title": "c11_ip_cbse_07_008",
+   "questions": [
+    {
+     "q": "What is the exact syntax of the UPDATE command to change the GUID of student with RollNumber 3 to '999999999999' in the STUDENT table?",
+     "a": "Correct answer: UPDATE STUDENT SET GUID = '999999999999' WHERE RollNumber = 3;\nA wrong answer reveals the student either forgets the SET keyword, omits quotes around the string value, misses the WHERE clause (causing all rows to update), or confuses column order. This indicates they have not memorized the mandatory clause sequence: UPDATE table SET col=val WHERE condition.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what happens if you execute DELETE FROM STUDENT; without a WHERE clause, and why this is dangerous in a real school database.",
+     "a": "Correct answer: It deletes every row in the STUDENT table, removing all student records permanently. This is dangerous because there is no undo in SQL unless a transaction is explicitly started and rolled back; the school would lose all admission data.\nA wrong answer (e.g., \"it deletes the table structure\" or \"it shows an error\") reveals confusion between DELETE (removes rows) and DROP (removes table), or misunderstanding that DELETE without WHERE is syntactically valid but logically catastrophic.",
+     "self_check": true
+    },
+    {
+     "q": "Write a single UPDATE statement to increase the GPhone of all guardians in the GUARDIAN table by 1000000000 (simulating a new area code prefix) but only for those guardians whose GAddress contains 'Delhi'.",
+     "a": "Correct answer: UPDATE GUARDIAN SET GPhone = GPhone + 1000000000 WHERE GAddress LIKE '%Delhi%';\nSteps: 1) Identify table (GUARDIAN). 2) Identify column to update (GPhone). 3) Compute new value using arithmetic expression (GPhone + 1000000000). 4) Write WHERE condition using LIKE with wildcard % for partial string match. 5) Combine into full statement.\nA wrong answer (e.g., using = 'Delhi' instead of LIKE, or forgetting the arithmetic expression) shows inability to combine arithmetic updates with pattern-matching conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effect of these two statements on the ATTENDANCE table (AttendanceDate, RollNumber, AttendanceStatus):\nA) DELETE FROM ATTENDANCE WHERE AttendanceDate = '2018-09-01';\nB) DELETE FROM ATTENDANCE WHERE AttendanceStatus = 'A';\nWhich deletes more rows in a typical school month? Justify your answer.",
+     "a": "Correct answer: Statement B deletes more rows. In a typical month, many students are absent on different days (multiple 'A' statuses across dates), while statement A deletes only one day's records (all students on 2018-09-01). The cardinality of 'A' statuses across 20+ working days exceeds the cardinality of a single date.\nA wrong answer (e.g., \"A deletes more because it's a specific date\") reveals failure to analyze data distribution and cardinality — a key analytical skill for predicting DML impact.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: UPDATE STUDENT SET SName = 'Rahul', SDateofBirth = '2005-01-01' WHERE RollNumber = 10; but RollNumber 10 does not exist. Evaluate whether this statement succeeds, fails, or does nothing, and explain the implications for application programming.",
+     "a": "Correct answer: The statement executes successfully (no error) but affects 0 rows. In application programming (e.g., Python/MySQL connector), the cursor.rowcount will be 0, which the program must check to detect \"record not found\" and show an appropriate message to the user.\nA wrong answer (e.g., \"it gives an error\" or \"it inserts a new row\") reveals confusion between UPDATE (modifies existing) and INSERT (adds new), or ignorance of SQL's \"zero rows affected\" behavior — critical for building robust applications.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario for the school database where you need to use DELETE with a compound WHERE condition (using AND) involving two different columns. Write the complete DELETE statement and explain why both conditions are necessary.",
+     "a": "Expected answer: Scenario: \"Delete attendance records for student RollNumber 5 only for the month of September 2018.\" Statement: DELETE FROM ATTENDANCE WHERE RollNumber = 5 AND AttendanceDate BETWEEN '2018-09-01' AND '2018-09-30'; Both conditions are necessary: RollNumber=5 targets the student, and the date range restricts to one month; without RollNumber, all students' September records would be deleted; without date range, all of student 5's attendance history would be deleted.\nA poor answer (e.g., using OR instead of AND, or only one condition) shows inability to design precise multi-attribute filters — a common cause of accidental data loss.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

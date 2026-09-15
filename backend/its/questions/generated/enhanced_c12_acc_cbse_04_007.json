@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_04_007",
+   "title": "c12_acc_cbse_04_007",
+   "questions": [
+    {
+     "q": "State the exact statutory order of payment under Section 48 of the Partnership Act, 1932 when a firm is dissolved.",
+     "a": "Correct order: (1) Pay debts to third parties (outside creditors), (2) Repay partner loans/advances, (3) Return partner capitals. A wrong answer (e.g., paying partner loans before creditors) reveals the student confuses internal priority with statutory priority — a fatal error in board exams because Section 48 is mandatory and non-negotiable.",
+     "self_check": true
+    },
+    {
+     "q": "A firm has Cash ₹1,00,000, Creditors ₹60,000, Partner Loan ₹30,000, Partner Capitals A ₹40,000, B ₹20,000 (PSR 2:1). The student pays Partner Loan first, then Creditors. Explain why this violates Section 48 and what the correct payment sequence should be.",
+     "a": "Section 48 requires creditors (₹60,000) to be paid **before** partner loans (₹30,000). Correct sequence: Pay Creditors ₹60,000 → Balance ₹40,000; Pay Partner Loan ₹30,000 → Balance ₹10,000; Distribute ₹10,000 to capitals in 2:1 (A ₹6,667, B ₹3,333). The student's error shows they treat partner loan as \"internal debt\" with higher priority — a common misconception because partner loans appear on the liabilities side, but legally they rank **after** external creditors.",
+     "self_check": true
+    },
+    {
+     "q": "After realisation, Cash = ₹2,00,000. Liabilities: Creditors ₹80,000, Partner X Loan ₹50,000, Partner Y Loan ₹30,000. Capitals: X ₹1,00,000, Y ₹60,000 (PSR 5:3). Prepare the payment schedule showing amount paid at each stage and final capital settlement.",
+     "a": "Step 1: Pay Creditors ₹80,000 → Cash left ₹1,20,000. Step 2: Pay Partner Loans (X ₹50,000 + Y ₹30,000 = ₹80,000) → Cash left ₹40,000. Step 3: Distribute ₹40,000 in 5:3 → X gets ₹25,000, Y gets ₹15,000. Final capital deficiency: X ₹75,000, Y ₹45,000 (unpaid, leads to insolvency). A wrong answer that distributes ₹40,000 equally or before loans reveals failure to apply the waterfall and profit-sharing ratio simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two scenarios: (A) Firm has sufficient cash to pay all liabilities and capitals in full. (B) Firm has cash only up to partner loans. In which scenario does the **profit-sharing ratio** become critical for capital distribution? Justify.",
+     "a": "PSR is critical **only in Scenario B** (insufficient cash for full capital repayment). In Scenario A, every partner gets 100% of capital — ratio irrelevant. In Scenario B, the residual cash after creditors and loans is split in PSR, so the ratio directly determines each partner's recovery. Students who say \"PSR always matters\" don't understand that PSR governs **loss sharing**, not absolute entitlement when funds are adequate.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Partner's loan is a liability, so it should be paid along with creditors in the first tier.\" Evaluate this argument using Section 48 and the distinction between external and internal liabilities.",
+     "a": "The argument is **incorrect**. Section 48 explicitly separates \"debts due to persons other than partners\" (Tier 1) from \"loans and advances by partners\" (Tier 2). Partner loans are **internal liabilities** — the partner is both creditor and owner. Paying them with external creditors would unfairly prefer an insider over outsiders. The student's error stems from seeing \"Loan\" on the liabilities side and assuming equal rank — a classic balance-sheet classification trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a dissolution problem where the Realisation Account shows a **loss**, and the cash after paying creditors and partner loans is **insufficient** to cover even one partner's capital fully. Specify all numbers (assets, liabilities, capitals, PSR) so that the final settlement requires applying the loss in PSR before capital distribution. Provide the complete solution.",
+     "a": "Example: Assets realised ₹3,00,000. Creditors ₹1,00,000. Partner A Loan ₹50,000. Capitals: A ₹2,00,000, B ₹1,00,000 (PSR 2:1). Realisation Loss = (Book value ₹4,00,000 - Realised ₹3,00,000) = ₹1,00,000 → shared 2:1 (A ₹66,667, B ₹33,333). Adjusted Capitals: A ₹1,33,333, B ₹66,667. Cash after creditors & loan: ₹3,00,000 - ₹1,00,000 - ₹50,000 = ₹1,50,000. Distribute ₹1,50,000 in 2:1 → A ₹1,00,000, B ₹50,000. Final deficiency: A ₹33,333, B ₹16,667. A good answer shows loss adjustment **before** capital distribution; a poor answer distributes cash without adjusting capitals for realisation loss.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

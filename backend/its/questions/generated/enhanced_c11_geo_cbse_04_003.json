@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_04_003",
+   "title": "c11_geo_cbse_04_003",
+   "questions": [
+    {
+     "q": "What is the primary reason geologists use the continental shelf break (1000 m isobath) rather than the present coastline for the jigsaw fit reconstruction of continents?",
+     "a": "The present coastline is a temporary feature shaped by sea-level changes, wave erosion, and deposition, whereas the continental shelf break marks the true edge of the continental crust and provides a more stable geological boundary for reconstruction. A wrong answer (e.g., \"because it looks better on a map\") reveals the student does not understand the difference between the shoreline (a dynamic interface) and the continental margin (a structural boundary).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the jigsaw fit of South America and Africa is considered stronger evidence for continental drift than the fit of other continental margins.",
+     "a": "The South America-Africa fit is the most precise and extensive, with matching geological structures (e.g., rock sequences, mountain belts) across the join, and the fit improves significantly when using the 1000 m isobath, reducing gaps to less than 100 km over thousands of kilometers. A wrong answer that only mentions visual similarity without geological correlation or the role of the continental shelf reveals a superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Given a map showing the 1000 m isobaths of South America and Africa, measure the maximum gap (in km) between the two continental margins when fitted together, and calculate the percentage of the total fitted length that this gap represents if the total fitted length is 5000 km and the maximum gap is 80 km.",
+     "a": "Step 1: Identify the maximum gap = 80 km. Step 2: Total fitted length = 5000 km. Step 3: Percentage gap = (80/5000) × 100 = 1.6%. The small percentage indicates an excellent fit. A wrong calculation or misunderstanding of the isobath as the coastline reveals confusion between bathymetric data and topographic data.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the jigsaw fit of the Atlantic coastlines with the fit of the Indian Ocean coastlines (e.g., Africa-Antarctica, India-Antarctica). Why is the Atlantic fit more commonly cited as evidence for continental drift?",
+     "a": "The Atlantic fit involves two large continents (South America and Africa) with a continuous, well-defined continental shelf edge that matches closely over a long distance, and is supported by multiple independent geological correlations. The Indian Ocean fits involve more fragmented margins, greater deformation due to later tectonics (e.g., the Himalayan collision), and are less visually striking. A wrong answer that claims all fits are equally good ignores the varying quality of geological evidence and the effect of subsequent plate boundary processes.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the argument: \"The jigsaw fit of coastlines is merely a coincidence because coastlines are constantly changing due to erosion and sea-level change, so they cannot be used as evidence for continental drift.\"",
+     "a": "The argument is flawed because the jigsaw fit is based on the continental shelf edge (a structural feature of the continental crust), not the transient shoreline. The fit of the 1000 m isobath is remarkably precise and is corroborated by matching rock types, fossil distributions, and paleoclimatic indicators across the join. Dismissing it as coincidence ignores the convergence of multiple independent lines of evidence. A wrong answer that accepts the critique reveals a misunderstanding of the difference between the coastline and the continental margin.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom activity using paper cut-outs of continental margins (based on the 1000 m isobath) to demonstrate the jigsaw fit of Gondwana continents (South America, Africa, Antarctica, Australia, India). Include steps for students to evaluate the quality of fit.",
+     "a": "A good activity: 1) Provide printed maps with the 1000 m isobath outlined for each continent. 2) Students cut out the continental margins. 3) Assemble them to reconstruct Gondwana, starting with the best-known fit (South America-Africa). 4) Measure gaps/overlaps at key points. 5) Discuss why some margins fit better than others (e.g., passive vs. active margins). A poor activity would use present coastlines, ignore scale, or not include evaluation criteria, indicating the student does not grasp the geological basis of the fit.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

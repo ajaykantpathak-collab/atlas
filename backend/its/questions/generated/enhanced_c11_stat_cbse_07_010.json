@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_07_010",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_07_010",
+   "title": "c11_stat_cbse_07_010",
+   "questions": [
+    {
+     "q": "A student calculates Karl Pearson's correlation coefficient between the number of fire engines sent to a fire (X) and the damage caused by the fire (Y) and obtains r = +0.78. The student concludes: \"Sending more fire engines causes more fire damage.\" What is the fundamental statistical error in this conclusion?",
+     "a": "The error is confusing correlation with causation. The positive correlation arises because larger fires (a confounding variable) require more fire engines AND cause more damage. The number of fire engines does not cause damage; both are effects of fire severity. A wrong answer reveals the student believes a high r-value implies a direct cause-effect link, ignoring the possibility of a third variable driving both.",
+     "self_check": true
+    },
+    {
+     "q": "In a study of Class 11 students, a strong negative correlation (r = -0.82) is found between hours spent on social media per day and board exam percentage. The school principal announces: \"Reducing social media use will improve exam scores.\" Explain why this policy recommendation may be flawed, identifying at least two alternative explanations for the correlation.",
+     "a": "The correlation may reflect reverse causation (students struggling academically may spend more time on social media as escape) or a confounding variable (e.g., lack of parental supervision leads to both high social media use and low study time). The principal assumes X → Y, but Y → X or Z → X and Z → Y are equally plausible. A wrong answer shows the student cannot generate alternative causal structures beyond the assumed direction.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following pairs of variables, identify which correlation is most likely spurious (no direct or indirect causal link) and justify your choice:\n(i) Height of children (cm) and their reading ability score\n(ii) Price of petrol (Rs/litre) and bus fare (Rs/km)\n(iii) Number of storks nesting in a region and human birth rate in that region\n(iv) Temperature (°C) and electricity consumption (kWh) for air conditioning",
+     "a": "(iii) is the classic spurious correlation example. Storks and human births both correlate with rural/urban character and economic development, but no biological or social mechanism links them. (i) is confounded by age; (ii) and (iv) have direct economic/physical causal links. A wrong answer indicates the student cannot distinguish confounding from spuriousness or misses the absurdity of a non-mechanistic link.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher observes r = +0.91 between per capita cheese consumption (kg) and deaths by bedsheet entanglement (per million) over 2000–2009. The p-value is < 0.001. The researcher claims: \"Statistical significance proves the relationship is real and not due to chance.\" Critique this claim using the distinction between statistical significance and causal validity.",
+     "a": "Statistical significance (low p-value) only indicates the observed correlation is unlikely under the null hypothesis of zero population correlation; it says nothing about causation. The cheese-bedsheet correlation is a known spurious correlation (Tyler Vigen's examples) driven by independent time trends. Significance ≠ causation. A wrong answer conflates \"not due to random sampling error\" with \"reflects a genuine causal mechanism.\"",
+     "self_check": true
+    },
+    {
+     "q": "In an observational study, cities with more hospitals per lakh population have higher mortality rates per lakh. A policymaker argues: \"Hospitals are killing people; we should reduce hospital construction.\" Evaluate this argument and design a better analytical approach to assess whether hospitals improve health outcomes.",
+     "a": "The argument commits the correlation-causation fallacy with reverse causality: sicker populations attract more hospitals. A better approach: compare mortality trends before/after hospital openings (difference-in-differences), control for population age/health status (multivariate regression), or use instrumental variables (e.g., distance to medical college). Randomised controlled trials are ideal but often unethical/impractical. A wrong answer fails to identify the confounding by population health severity or propose methods to address it.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own real-world example (Indian context) where a high Spearman's rank correlation (ρ > 0.8) between two ranked variables would be misleading if interpreted as causation. Specify the two variables, the likely confounding factor, and explain why rank correlation does not resolve the causation problem.",
+     "a": "Example: Rank correlation between \"number of wedding guests\" and \"gift value per guest\" across Indian states (ρ = 0.85). Confounder: per capita income of the state. Richer states have larger weddings AND more expensive gifts. Rank correlation only measures monotonic association of ranks; it is equally blind to confounding as Pearson's r. A poor answer gives a trivial example without a plausible confounder or claims rank correlation \"controls for outliers\" and thus solves causation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

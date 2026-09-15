@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_03_002",
+   "title": "c12_bio_cbse_03_002",
+   "questions": [
+    {
+     "q": "Name the three histological layers of the uterine wall from outermost to innermost, and state which layer undergoes cyclic shedding during menstruation.",
+     "a": "The three layers are perimetrium (outer serous layer), myometrium (middle smooth muscle layer), and endometrium (inner mucosal layer). The endometrium, specifically its functional layer (stratum functionalis), is shed during menstruation. A wrong answer (e.g., saying myometrium sheds) reveals confusion between the muscular layer responsible for contractions and the mucosal layer that responds to ovarian hormones.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the fimbriae of the fallopian tube are ciliated and how this structure relates to the capture of the ovulated oocyte.",
+     "a": "The fimbriae are finger-like projections lined with ciliated epithelial cells. The coordinated beating of these cilia creates a current in the peritoneal fluid that sweeps the released secondary oocyte (with its surrounding cumulus cells) into the fallopian tube. If a student says the fimbriae actively \"suck\" the oocyte or that the oocyte moves by peristalsis alone, they misunderstand the passive role of ciliary currents and the importance of the fimbrial position near the ovary.",
+     "self_check": true
+    },
+    {
+     "q": "A 28-year-old woman has a regular 28-day menstrual cycle. On day 14, an ultrasound shows a dominant follicle of 20 mm in the right ovary. Predict the histological appearance of the endometrium on that day and justify your prediction based on the dominant ovarian hormone.",
+     "a": "On day 14 (ovulation), the endometrium is in the late proliferative phase: thickened (8-10 mm), with straight tubular glands, abundant mitotic figures in the stroma, and a rich vascular network. This is driven by high estrogen from the dominant follicle. A wrong answer describing a secretory endometrium (with coiled glands and glycogen vacuoles) indicates the student confuses the proliferative (estrogen-dominated) and secretory (progesterone-dominated) phases.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the blood supply of the ovary and the uterus, and analyze how their vascular arrangements support their respective functions.",
+     "a": "The ovary receives blood from the ovarian artery (direct branch of aorta) and the uterine artery (via anastomosis), providing a dual supply that ensures continuous delivery of gonadotropins and removal of steroids even if one vessel is compromised. The uterus is supplied mainly by the uterine artery (branch of internal iliac) with arcuate, radial, and spiral arteries; the spiral arteries undergo dramatic remodeling during the menstrual cycle and pregnancy to regulate blood flow to the functional endometrium. A student who thinks both organs have identical vascular patterns misses the functional specialization: ovarian vessels prioritize hormone transport, while uterine spiral arteries are adapted for cyclic shedding and placental implantation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The corpus luteum forms from the ruptured follicle after ovulation and secretes only progesterone.\" Identify the error and explain the complete endocrine profile of the corpus luteum.",
+     "a": "The statement is false because the corpus luteum secretes both progesterone AND estradiol (and inhibin A). Progesterone dominates, but estradiol is also produced in significant amounts and is essential for maintaining the endometrial secretory phase and for negative feedback on the hypothalamus-pituitary. A student who says \"only progesterone\" overlooks the dual steroid output and the role of estradiol in the luteal phase.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using histological sections to distinguish between the proliferative and secretory phases of the human endometrium. List the key microscopic features you would examine.",
+     "a": "A good answer would describe: (1) Obtain endometrial biopsy samples from two women at known cycle days (e.g., day 10 and day 22). (2) Stain with H&E. (3) Examine gland shape: proliferative glands are straight, narrow, and mitotic; secretory glands are coiled, dilated, and show subnuclear vacuoles (glycogen) early, then apical secretion later. (4) Assess stromal edema and spiral artery prominence: minimal in proliferative, marked in secretory. (5) Check for leukocyte infiltration: absent in proliferative, present in late secretory. A poor answer that only mentions \"thickness\" fails to demonstrate understanding of the specific histological criteria used in clinical dating of the endometrium.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

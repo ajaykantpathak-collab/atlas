@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_10_006",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_10_006",
+   "title": "c12_geo_cbse_10_006",
+   "questions": [
+    {
+     "q": "According to the Census of India, what is the minimum population threshold for an urban settlement to be classified as a 'Metropolitan city'?",
+     "a": "The correct answer is 1 million (10 lakh) population. A wrong answer (e.g., 5,000 or 100,000) reveals confusion between the thresholds for 'urban settlement/town', 'city', and 'metropolitan city'.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Census of India use multiple criteria (population size, density, occupational structure) instead of population alone to define an urban settlement?",
+     "a": "Correct answer: Population alone cannot distinguish a large village from a small town; density ensures compact built-up area, and non-agricultural occupational structure confirms urban economic functions. A wrong answer focusing only on population reveals a misunderstanding that urbanisation is purely demographic, not economic and spatial.",
+     "self_check": true
+    },
+    {
+     "q": "Settlement X has a population of 85,000, density of 1,200 persons/km², and 80% male workers in non-agricultural activities. Settlement Y has a population of 1.2 million, density of 3,500 persons/km², and 92% non-agricultural workers. Classify each settlement as Town, City, Metropolitan, or Megacity using Census thresholds.",
+     "a": "Steps: 1) Check Settlement X: population 85,000 (≥5,000 but <100,000) → Town (specifically Class II/III town). 2) Check Settlement Y: population 1.2 million (≥1 million but <10 million) → Metropolitan city. Both meet density and occupational criteria. Answer: X = Town, Y = Metropolitan city. A wrong classification (e.g., calling X a City) shows inability to apply the 1 lakh threshold for city status.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the functional characteristics of a typical 'Town' (e.g., Mahabaleshwar, pop. ~13,000) and a 'Megacity' (e.g., Mumbai, pop. ~12.5 million). How does population size relate to functional diversity and administrative hierarchy?",
+     "a": "Correct analysis: A town like Mahabaleshwar has a single dominant function (tourism) and limited administrative powers (municipal council). A megacity like Mumbai is multi-functional (finance, industry, port, administration, culture) and has a municipal corporation with extensive powers, plus a metropolitan planning committee. Population size enables economic agglomeration, which attracts diverse functions and higher administrative status. A weak answer listing only population numbers misses the functional-administrative linkage.",
+     "self_check": true
+    },
+    {
+     "q": "\"The Census population thresholds for urban classification (5,000; 1 lakh; 10 lakh; 1 crore) are arbitrary and should be replaced by a single continuous urbanisation index.\" Evaluate this statement considering administrative utility and ground reality in India.",
+     "a": "Evaluation: Thresholds are not arbitrary; they align with historical administrative tiers (municipal council, municipal corporation, metropolitan planning committee) and functional breaks (e.g., 1 lakh triggers corporation status, 10 lakh triggers metropolitan governance). A continuous index would blur these legal-administrative boundaries. However, thresholds can misclassify fast-growing settlements between censuses. Best answer: thresholds serve governance needs but need periodic review. A poor answer either fully agrees (ignoring administrative reality) or fully disagrees (ignoring need for flexibility).",
+     "self_check": true
+    },
+    {
+     "q": "Design a flow-chart that a district planner could use to determine whether a settlement should be upgraded from 'Town' to 'City' status, incorporating Census criteria, state government notifications, and functional requirements.",
+     "a": "Expected flow-chart: Start → Check Census population ≥1 lakh? → If No, remain Town. If Yes → Check density ≥400/km²? → If No, remain Town. If Yes → Check ≥75% male non-agricultural workers? → If No, remain Town. If Yes → State government issues notification for Municipal Corporation → Upgrade to City. Also consider functional diversity (presence of secondary/tertiary activities). A poor flow-chart misses the mandatory state notification step or uses only population.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,396 @@
+{
+ "class": 12,
+ "subject": "business_studies",
+ "chapter": 201,
+ "chapter_title": "Financial Management",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lebs201.txt",
+ "concepts": [
+  {
+   "id": "lebs.201.1",
+   "title": "Business Finance",
+   "section": "Meaning of Business Finance",
+   "definition": "The acquisition and conservation of capital funds in meeting the financial needs and overall objectives of a business enterprise.",
+   "formula": "",
+   "key_idea": "Capital is the lifeblood of any commercial activity, required for both long-term assets and daily operations.",
+   "textbook_ref": "lebs201.txt lines 15-45",
+   "question_patterns": [
+    "What is meant by business finance?",
+    "Explain the term business finance and its significance.",
+    "Why does a business enterprise require finance?",
+    "State the meaning of business finance."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the capital requirements of the firm",
+     "explain": "Determine the funds needed for establishing, running, modernizing, expanding, or diversifying the business."
+    },
+    {
+     "step": 2,
+     "action": "Classify requirements into fixed and working capital needs",
+     "explain": "Distinguish between funds needed for long-term assets and those needed for day-to-day operations."
+    }
+   ]
+  },
+  {
+   "id": "lebs.201.2",
+   "title": "Financial Management",
+   "section": "Financial Management",
+   "definition": "The planning, organizing, directing, and controlling of financial activities such as procurement and utilization of funds of the enterprise.",
+   "formula": "",
+   "key_idea": "Optimizing the acquisition, allocation, and distribution of financial resources to maximize owner wealth.",
+   "textbook_ref": "lebs201.txt lines 46-85",
+   "question_patterns": [
+    "Define financial management and state its primary objective.",
+    "What are the main goals of financial management?",
+    "Explain how financial management helps in maximizing shareholders' wealth.",
+    "What is the role of a financial manager in an enterprise?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the core financial decisions",
+     "explain": "Analyze the three major decision areas: investment, financing, and dividend decisions."
+    },
+    {
+     "step": 2,
+     "action": "Align decisions with the wealth maximization objective",
+     "explain": "Ensure that every financial choice adds value and increases the market price of equity shares."
+    }
+   ]
+  },
+  {
+   "id": "lebs.201.3",
+   "title": "Capital Budgeting Decision",
+   "section": "Investment Decision",
+   "definition": "Long-term planning for making and financing capital outlays on fixed assets whose benefits are expected over a period of years.",
+   "formula": "",
+   "key_idea": "Irreversible long-term investment choices that determine the future risk and profitability of the organization.",
+   "textbook_ref": "lebs201.txt lines 110-155",
+   "question_patterns": [
+    "What is a capital budgeting decision?",
+    "Explain the factors affecting capital budgeting decisions.",
+    "Why are investment decisions in fixed assets considered critical for a business?",
+    "How do cash flows and rate of return influence investment decisions?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Evaluate the expected cash flows and rate of return of the project",
+     "explain": "Analyze the series of cash receipts and payments over the life of the investment alongside its expected profitability."
+    },
+    {
+     "step": 2,
+     "action": "Compare the rate of return with the cost of capital or industry benchmarks",
+     "explain": "Select the project that yields a return higher than the cost of funding and meets the investment criteria."
+    }
+   ]
+  },
+  {
+   "id": "lebs.201.4",
+   "title": "Financing Decision",
+   "section": "Financing Decision",
+   "definition": "The choice regarding the proportion of debt and equity to be raised from various long-term sources of finance.",
+   "formula": "",
+   "key_idea": "Balancing the lower cost of debt against its higher financial risk to achieve an optimal capital structure.",
+   "textbook_ref": "lebs201.txt lines 156-200",
+   "question_patterns": [
+    "What is a financing decision?",
+    "Discuss the factors that affect the financing decision of a company.",
+    "How do fixed operating costs and cash flow position affect the choice of source of finance?",
+    "Why is debt considered cheaper than equity?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Assess the cost and financial risk of different sources of funds",
+     "explain": "Compare debt and equity in terms of interest obligations, repayment commitments, and floatation costs."
+    },
+    {
+     "step": 2,
+     "action": "Determine the optimal mix of debt and equity",
+     "explain": "Choose a combination that minimizes the overall cost of capital while keeping the financial risk within acceptable limits."
+    }
+   ]
+  },
+  {
+   "id": "lebs.201.5",
+   "title": "Dividend Decision",
+   "section": "Dividend Decision",
+   "definition": "The decision concerning how much of the net profit after tax is to be distributed to shareholders and how much is to be retained in the business.",
+   "formula": "",
+   "key_idea": "Distributing profits to satisfy shareholders while retaining sufficient funds for future growth opportunities.",
+   "textbook_ref": "lebs201.txt lines 201-255",
+   "question_patterns": [
+    "What is a dividend decision?",
+    "Explain the factors affecting the dividend decision of a firm.",
+    "How do growth opportunities and cash flow position affect dividend payout?",
+    "Discuss the impact of taxation policy on dividend distribution."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze current earnings, stability of earnings, and cash availability",
+     "explain": "Ensure the company has sufficient stable earnings and liquid cash to support a dividend payout."
+    },
+    {
+     "step": 2,
+     "action": "Consider legal constraints, contractual constraints, and shareholder preferences",
+     "explain": "Adhere to the provisions of the Companies Act and any lender agreements while meeting investor expectations."
+    }
+   ]
+  },
+  {
+   "id": "lebs.201.6",
+   "title": "Financial Planning",
+   "section": "Financial Planning",
+   "definition": "The process of estimating the fund requirements of a business and specifying the sources of funds to ensure smooth operations.",
+   "formula": "",
+   "key_idea": "Creating a financial blueprint to avoid cash shortages or wasteful idle surpluses.",
+   "textbook_ref": "lebs201.txt lines 256-310",
+   "question_patterns": [
+    "What is meant by financial planning?",
+    "State the twin objectives of financial planning.",
+    "Explain the importance of financial planning in an enterprise.",
+    "How does financial planning help in avoiding business shocks and surprises?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Forecast sales and prepare projected financial statements",
+     "explain": "Estimate future sales volume to project fixed and working capital requirements."
+    },
+    {
+     "step": 2,
+     "action": "Determine the quantum and timing of funds required",
+     "explain": "Identify internal accruals and external sources to match the availability of funds with their requirements."
+    }
+   ]
+  },
+  {
+   "id": "lebs.201.7",
+   "title": "Return on Investment (RoI)",
+   "section": "Capital Structure",
+   "definition": "A profitability ratio that measures the efficiency of an investment by dividing earnings before interest and taxes by total funds employed.",
+   "formula": "roi = (ebit / total_investment) * 100",
+   "key_idea": "Determining the percentage return generated on the total capital invested in the business.",
+   "textbook_ref": "lebs201.txt lines 340-380",
+   "question_patterns": [
+    "Calculate the Return on Investment (RoI) for the company.",
+    "Find the RoI given EBIT of ... and total investment of ...",
+    "What is the rate of return on investment if the total funds used are ... and earnings are ...?",
+    "Compute the return on capital employed."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide ebit by total investment",
+     "explain": "EBIT is divided by total funds used to find the fractional return.",
+     "compute": "fractional_return = ebit / total_investment"
+    },
+    {
+     "step": 2,
+     "action": "multiply by 100",
+     "explain": "Convert the fractional return into a percentage to get the final RoI.",
+     "compute": "roi = fractional_return * 100"
+    }
+   ]
+  },
+  {
+   "id": "lebs.201.8",
+   "title": "Interest Coverage Ratio (ICR)",
+   "section": "Factors affecting the Choice of Capital Structure",
+   "definition": "A debt ratio that measures how many times a company can cover its current interest payment obligations with its earnings before interest and taxes.",
+   "formula": "icr = ebit / interest",
+   "key_idea": "Assessing the safety margin for meeting fixed interest obligations from operating profits.",
+   "textbook_ref": "lebs201.txt lines 381-410",
+   "question_patterns": [
+    "Calculate the Interest Coverage Ratio (ICR).",
+    "Find the ICR if EBIT is ... and interest is ...",
+    "What is the interest coverage ratio of the firm?",
+    "Compute the number of times EBIT covers the interest obligation."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide ebit by interest",
+     "explain": "The ratio of EBIT to interest shows how comfortably the firm can pay its interest.",
+     "compute": "icr = ebit / interest"
+    }
+   ]
+  },
+  {
+   "id": "lebs.201.9",
+   "title": "Earnings Per Share (EPS)",
+   "section": "Capital Structure",
+   "definition": "The portion of a company's profit allocated to each outstanding share of common stock, calculated after interest and taxes.",
+   "formula": "eps = ((ebit - interest) * (100 - tax_rate) / 100) / shares",
+   "key_idea": "Measuring the profitability per individual equity share under different capital structures.",
+   "textbook_ref": "lebs201.txt lines 340-375",
+   "question_patterns": [
+    "Calculate the Earnings Per Share (EPS) under the given debt situation.",
+    "Find the EPS if EBIT is ..., interest is ..., tax rate is ...%, and number of shares is ...",
+    "Compute the EPS for a company with EBIT of ..., debt of ... at ...% interest, tax rate of ...%, and ... equity shares.",
+    "What is the earning per share when interest paid is ... and tax is ...%?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract interest from ebit",
+     "explain": "EBT is the profit remaining after paying interest to lenders.",
+     "compute": "ebt = ebit - interest"
+    },
+    {
+     "step": 2,
+     "action": "calculate earnings after tax",
+     "explain": "Subtract tax from EBT to find the net profit available to shareholders.",
+     "compute": "eat = ebt * (100 - tax_rate) / 100"
+    },
+    {
+     "step": 3,
+     "action": "divide eat by shares",
+     "explain": "EPS is the net profit divided by the total number of outstanding equity shares.",
+     "compute": "eps = eat / shares"
+    }
+   ]
+  },
+  {
+   "id": "lebs.201.10",
+   "title": "Net Working Capital (NWC)",
+   "section": "Working Capital",
+   "definition": "The difference between a company's current assets and its current liabilities, representing its short-term financial health and liquidity.",
+   "formula": "nwc = current_assets - current_liabilities",
+   "key_idea": "The surplus of liquid assets over short-term obligations that keeps day-to-day operations running smoothly.",
+   "textbook_ref": "lebs201.txt lines 480-510",
+   "question_patterns": [
+    "Calculate the net working capital.",
+    "Find the net working capital if current assets are ... and current liabilities are ...",
+    "Compute the working capital requirement.",
+    "What is the excess of current assets over current liabilities?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract current_liabilities from current_assets",
+     "explain": "Net working capital is the difference between current assets and current liabilities.",
+     "compute": "nwc = current_assets - current_liabilities"
+    }
+   ]
+  },
+  {
+   "id": "lebs.201.11",
+   "title": "Fixed Capital Requirements",
+   "section": "Factors affecting the Requirement of Fixed Capital",
+   "definition": "The long-term capital required to acquire and maintain non-current assets like land, buildings, machinery, and equipment.",
+   "formula": "",
+   "key_idea": "Determining the size of long-term investments based on business nature, scale, technology, and growth.",
+   "textbook_ref": "lebs201.txt lines 430-475",
+   "question_patterns": [
+    "Explain the factors affecting the requirement of fixed capital.",
+    "Why does a manufacturing concern require more fixed capital than a trading concern?",
+    "How do technology upgradation and growth prospects influence fixed capital needs?",
+    "What is the impact of diversification on fixed capital requirements?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the nature of business and scale of operations",
+     "explain": "Manufacturing and large-scale businesses require higher investment in plant and machinery than trading or small-scale concerns."
+    },
+    {
+     "step": 2,
+     "action": "Analyze choice of technique, technology upgradation, and growth prospects",
+     "explain": "Capital-intensive techniques, rapid technological obsolescence, and high growth prospects increase fixed capital requirements."
+    }
+   ]
+  },
+  {
+   "id": "lebs.201.12",
+   "title": "Working Capital Requirements",
+   "section": "Factors affecting the Working Capital Requirements",
+   "definition": "The short-term capital required to maintain sufficient levels of current assets to support day-to-day business operations.",
+   "formula": "",
+   "key_idea": "Managing the cash conversion cycle, credit terms, and inventory levels to maintain liquidity.",
+   "textbook_ref": "lebs201.txt lines 511-570",
+   "question_patterns": [
+    "What are the factors affecting the working capital requirements of a business?",
+    "How does the length of the production cycle affect working capital?",
+    "Explain the impact of credit allowed and credit availed on working capital.",
+    "Why do seasonal factors and inflation increase working capital requirements?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine the operating cycle and production cycle",
+     "explain": "A longer production cycle and slow inventory turnover tie up more funds, increasing working capital needs."
+    },
+    {
+     "step": 2,
+     "action": "Analyze credit policies and external factors",
+     "explain": "Liberal credit allowed to customers increases debtors, while credit availed from suppliers reduces immediate cash requirements."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lebs201.txt lines 340-375",
+   "concept": "lebs.201.9",
+   "question_type": "compute",
+   "question_pattern": "Calculate the Earnings Per Share (EPS) for a company with EBIT of {ebit}, interest of {interest}, tax rate of {tax_rate}%, and {shares} equity shares.",
+   "extracted_variables": {
+    "ebit": "Earnings Before Interest and Taxes",
+    "interest": "Interest expense on debt",
+    "tax_rate": "Tax rate in percentage",
+    "shares": "Number of equity shares"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract interest from ebit",
+     "explain": "EBT is the profit remaining after paying interest to lenders.",
+     "compute": "ebt = ebit - interest"
+    },
+    {
+     "step": 2,
+     "action": "calculate earnings after tax",
+     "explain": "Subtract tax from EBT to find the net profit available to shareholders.",
+     "compute": "eat = ebt * (100 - tax_rate) / 100"
+    },
+    {
+     "step": 3,
+     "action": "divide eat by shares",
+     "explain": "EPS is the net profit divided by the total number of outstanding equity shares.",
+     "compute": "eps = eat / shares"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex9.1",
+   "source_ref": "lebs201.txt lines 580-610",
+   "questions": [
+    "What is meant by capital structure?",
+    "State the two objectives of financial planning.",
+    "Name the concept of financial management which increases the return to equity shareholders due to the presence of fixed financial charges.",
+    "Amrit is running a 'transport service' and earning good returns by providing this service to industries. Giving reason, state whether the working capital requirement of the firm will be 'less' or 'more'."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

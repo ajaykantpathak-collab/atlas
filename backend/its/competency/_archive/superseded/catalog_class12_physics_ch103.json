@@ -1,0 +1,603 @@
+{
+ "catalog_id": "class12_physics_ch103",
+ "subject": "physics",
+ "class": 12,
+ "chapter": 3,
+ "chapter_title": "Current Electricity",
+ "concepts": [
+  {
+   "id": "jeph.3.1",
+   "title": "Electric Current and Flow of Charges in Metallic Conductor",
+   "section": "3.2",
+   "definition": "Electric current is defined as the rate of flow of electric charge through a given cross-section of a conductor. In a metallic conductor, free electrons drift under the influence of an electric field, producing a net flow of charge opposite to the direction of the field.",
+   "formula": "I = dQ/dt = n e A v_d",
+   "key_idea": "Current is the rate of charge flow; in metals it arises from the drift of free electrons and equals the product of charge carrier density, charge, area and drift velocity.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Given charge Q flowing in time t, find the current I.",
+    "Given number of electrons crossing a cross-section per second, find the current.",
+    "Given current and time, find the total charge that has passed.",
+    "Relate drift velocity to current for a given conductor geometry.",
+    "Find the number density of free electrons given current, area and drift velocity."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the given quantities (charge Q or number of electrons N, time t, area A, drift velocity v_d).",
+     "explain": "List all known values and the quantity to be found.",
+     "compute": "I = Q/t"
+    },
+    {
+     "step": 2,
+     "action": "Apply the definition of current or the microscopic relation I = n e A v_d.",
+     "explain": "Use I = dQ/dt for macroscopic charge flow, or I = n e A v_d when carrier density and drift velocity are involved.",
+     "compute": "I = n e A v_d"
+    },
+    {
+     "step": 3,
+     "action": "Substitute the numerical values and compute the current.",
+     "explain": "Ensure consistent SI units (A, C, s, m^2, m/s).",
+     "compute": "I = (value)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A current of 5 A flows through a conductor for 2 minutes. Find the total charge that passes through the cross-section.",
+     "solution": "Q = I x t = 5 A x 120 s = 600 C",
+     "answer": "600 C"
+    },
+    {
+     "question": "A copper wire of cross-sectional area 1.0e-6 m^2 carries a current of 2 A. If the number density of free electrons is 8.5e28 per m^3, find the drift velocity. (e = 1.6e-19 C)",
+     "solution": "v_d = I / (n e A) = 2 / (8.5e28 x 1.6e-19 x 1.0e-6) = 2 / (1.36e4) = 1.47e-4 m/s",
+     "answer": "1.47e-4 m/s"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How much charge flows through a wire in 10 s if the current is 3 A?",
+     "type": "compute"
+    },
+    {
+     "question": "State the relation between current and drift velocity for a metallic conductor.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jeph.3.2",
+   "title": "Drift Velocity and Mobility",
+   "section": "3.3",
+   "definition": "Drift velocity is the average velocity acquired by free electrons in a conductor due to an applied electric field. Mobility is the drift velocity per unit electric field.",
+   "formula": "v_d = (e E tau) / m,  mu = v_d / E = (e tau) / m",
+   "key_idea": "Electrons acquire a steady drift velocity due to collisions with lattice ions; mobility measures how easily charge carriers move under an electric field.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Given electric field E and relaxation time tau, find the drift velocity.",
+    "Given drift velocity and electric field, find the mobility.",
+    "Relate mobility to relaxation time for an electron.",
+    "Find the time between collisions given mobility and electron mass.",
+    "Compare drift velocities in two conductors with different fields."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the given quantities (E, tau, m, e, v_d).",
+     "explain": "Note the electric field, relaxation time and electron parameters.",
+     "compute": "v_d = e E tau / m"
+    },
+    {
+     "step": 2,
+     "action": "Apply the drift velocity formula or mobility definition.",
+     "explain": "Use v_d = (e E tau)/m for drift velocity, or mu = v_d/E = e tau/m for mobility.",
+     "compute": "mu = e tau / m"
+    },
+    {
+     "step": 3,
+     "action": "Substitute values and compute the result.",
+     "explain": "Use SI units consistently.",
+     "compute": "result = (value)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "An electric field of 10 V/m is applied to a conductor. The relaxation time is 2e-14 s. Find the drift velocity of electrons. (e = 1.6e-19 C, m = 9.1e-31 kg)",
+     "solution": "v_d = e E tau / m = (1.6e-19 x 10 x 2e-14) / 9.1e-31 = 3.2e-32 / 9.1e-31 = 3.52e-2 m/s",
+     "answer": "3.52e-2 m/s"
+    },
+    {
+     "question": "The mobility of an electron in a conductor is 4.0e-3 m^2/(V s). Find the relaxation time. (e = 1.6e-19 C, m = 9.1e-31 kg)",
+     "solution": "tau = mu m / e = (4.0e-3 x 9.1e-31) / 1.6e-19 = 3.64e-33 / 1.6e-19 = 2.275e-14 s",
+     "answer": "2.275e-14 s"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the drift velocity of electrons in a wire with E = 5 V/m and tau = 1e-14 s.",
+     "type": "compute"
+    },
+    {
+     "question": "Define mobility and state its SI unit.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jeph.3.3",
+   "title": "Ohms Law and V-I Characteristics (Linear and Non-Linear)",
+   "section": "3.4",
+   "definition": "Ohms law states that the current through a conductor between two points is directly proportional to the voltage across the two points, provided the temperature and other physical conditions remain constant. Conductors obeying Ohms law show linear V-I characteristics, while non-ohmic devices show non-linear characteristics.",
+   "formula": "V = I R",
+   "key_idea": "For ohmic conductors V is proportional to I giving a straight line V-I graph; for non-ohmic devices like diodes the graph is non-linear.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Given V and R, find the current I using Ohms law.",
+    "Given I and R, find the voltage V.",
+    "Determine whether a device is ohmic or non-ohmic from its V-I graph.",
+    "Find the resistance from a linear V-I graph slope.",
+    "Compare the V-I characteristics of a resistor and a diode."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the given quantities (V, I, R) and the unknown.",
+     "explain": "Note which two of V, I, R are given.",
+     "compute": "V = I R"
+    },
+    {
+     "step": 2,
+     "action": "Rearrange Ohms law to solve for the unknown.",
+     "explain": "Use I = V/R or R = V/I as needed.",
+     "compute": "I = V / R"
+    },
+    {
+     "step": 3,
+     "action": "Substitute numerical values and compute.",
+     "explain": "Ensure consistent units (V, A, ohm).",
+     "compute": "result = (value)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A potential difference of 12 V is applied across a resistor of 4 ohm. Find the current through it.",
+     "solution": "I = V/R = 12/4 = 3 A",
+     "answer": "3 A"
+    },
+    {
+     "question": "The V-I graph of a device is a straight line passing through the origin with slope 2 V/A. Is the device ohmic? Find its resistance.",
+     "solution": "Since the graph is a straight line through the origin, the device is ohmic. R = V/I = slope = 2 ohm.",
+     "answer": "Ohmic, R = 2 ohm"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A current of 0.5 A flows through a 10 ohm resistor. Find the voltage across it.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain the difference between linear and non-linear V-I characteristics with examples.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jeph.3.4",
+   "title": "Electrical Resistivity and Conductivity",
+   "section": "3.5",
+   "definition": "Electrical resistivity (rho) is an intrinsic property of a material that measures its opposition to the flow of current. Conductivity (sigma) is the reciprocal of resistivity and measures the ease of current flow. Resistance depends on resistivity, length and cross-sectional area.",
+   "formula": "R = rho L / A,  sigma = 1 / rho",
+   "key_idea": "Resistivity is material-dependent; resistance also depends on geometry (length and area). Conductivity is the inverse of resistivity.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Given rho, L and A, find the resistance R.",
+    "Given R, L and A, find the resistivity rho.",
+    "Find the conductivity given the resistivity.",
+    "Compare resistances of two wires of same material but different dimensions.",
+    "Find the resistance of a wire stretched to double its length."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the given quantities (rho, L, A, R) and the unknown.",
+     "explain": "Note the material resistivity and conductor dimensions.",
+     "compute": "R = rho L / A"
+    },
+    {
+     "step": 2,
+     "action": "Apply the resistance formula or conductivity relation.",
+     "explain": "Use R = rho L/A for resistance, sigma = 1/rho for conductivity.",
+     "compute": "sigma = 1 / rho"
+    },
+    {
+     "step": 3,
+     "action": "Substitute numerical values and compute.",
+     "explain": "Use SI units (ohm m for resistivity, S/m for conductivity).",
+     "compute": "result = (value)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A wire of length 2 m and cross-sectional area 1e-6 m^2 has resistivity 1.7e-8 ohm m. Find its resistance.",
+     "solution": "R = rho L / A = 1.7e-8 x 2 / 1e-6 = 3.4e-8 / 1e-6 = 3.4e-2 ohm",
+     "answer": "3.4e-2 ohm"
+    },
+    {
+     "question": "The resistivity of a material is 5.0e-7 ohm m. Find its conductivity.",
+     "solution": "sigma = 1/rho = 1 / 5.0e-7 = 2.0e6 S/m",
+     "answer": "2.0e6 S/m"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A copper wire of length 5 m and area 2e-6 m^2 has resistivity 1.68e-8 ohm m. Find its resistance.",
+     "type": "compute"
+    },
+    {
+     "question": "State the relation between resistivity and conductivity.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jeph.3.5",
+   "title": "Temperature Dependence of Resistance",
+   "section": "3.6",
+   "definition": "The resistance of a conductor changes with temperature. For most metallic conductors, resistance increases with temperature. Over a moderate range, the resistance at temperature T is given by R_T = R_0 (1 + alpha (T - T_0)), where alpha is the temperature coefficient of resistance.",
+   "formula": "R_T = R_0 [1 + alpha (T - T_0)]",
+   "key_idea": "For metals alpha is positive (resistance increases with temperature); for semiconductors and insulators alpha is negative (resistance decreases with temperature).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Given R_0, alpha and temperature change, find R_T.",
+    "Given R_T, R_0 and temperature change, find alpha.",
+    "Find the temperature at which resistance equals a given value.",
+    "Compare the temperature dependence of a metal and a semiconductor.",
+    "Find the fractional change in resistance for a given temperature rise."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the given quantities (R_0, R_T, alpha, T, T_0) and the unknown.",
+     "explain": "Note the reference resistance, temperature coefficient and temperatures.",
+     "compute": "R_T = R_0 [1 + alpha (T - T_0)]"
+    },
+    {
+     "step": 2,
+     "action": "Rearrange the temperature dependence formula to solve for the unknown.",
+     "explain": "Solve for R_T, alpha or T as required.",
+     "compute": "alpha = (R_T - R_0) / (R_0 (T - T_0))"
+    },
+    {
+     "step": 3,
+     "action": "Substitute numerical values and compute.",
+     "explain": "Ensure temperature is in the same unit (usually Celsius or Kelvin difference).",
+     "compute": "result = (value)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A resistor has a resistance of 100 ohm at 20 C. Its temperature coefficient is 4e-3 /C. Find its resistance at 100 C.",
+     "solution": "R_T = R_0 [1 + alpha (T - T_0)] = 100 [1 + 4e-3 x (100 - 20)] = 100 [1 + 0.32] = 100 x 1.32 = 132 ohm",
+     "answer": "132 ohm"
+    },
+    {
+     "question": "The resistance of a wire is 5 ohm at 0 C and 6 ohm at 100 C. Find the temperature coefficient of resistance.",
+     "solution": "alpha = (R_T - R_0) / (R_0 (T - T_0)) = (6 - 5) / (5 x 100) = 1 / 500 = 2e-3 /C",
+     "answer": "2e-3 /C"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A coil has resistance 50 ohm at 20 C and alpha = 5e-3 /C. Find its resistance at 80 C.",
+     "type": "compute"
+    },
+    {
+     "question": "Why does the resistance of a metal increase with temperature?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jeph.3.6",
+   "title": "Internal Resistance of a Cell, EMF and Potential Difference",
+   "section": "3.7",
+   "definition": "EMF (electromotive force) is the total energy supplied per unit charge by a source. The potential difference across the terminals of a cell when current is drawn is less than the EMF due to the internal resistance of the cell. The terminal voltage V = E - I r, where r is the internal resistance.",
+   "formula": "V = E - I r,  I = E / (R + r)",
+   "key_idea": "EMF is the open-circuit voltage; terminal voltage is less than EMF when current flows because of the voltage drop across internal resistance.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Given E, r and external R, find the current and terminal voltage.",
+    "Given E and terminal voltage V at a known current, find the internal resistance.",
+    "Find the EMF given open-circuit voltage.",
+    "Determine the maximum current a cell can deliver (short circuit).",
+    "Find the terminal voltage when the cell is being charged."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the given quantities (E, r, R, I, V) and the unknown.",
+     "explain": "Note the EMF, internal resistance, external resistance and current.",
+     "compute": "I = E / (R + r)"
+    },
+    {
+     "step": 2,
+     "action": "Apply the circuit equation to find current or terminal voltage.",
+     "explain": "Use I = E/(R+r) for current, V = E - I r for terminal voltage.",
+     "compute": "V = E - I r"
+    },
+    {
+     "step": 3,
+     "action": "Substitute numerical values and compute.",
+     "explain": "Ensure consistent units (V, A, ohm).",
+     "compute": "result = (value)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A cell of EMF 6 V and internal resistance 1 ohm is connected to an external resistance of 5 ohm. Find the current and terminal voltage.",
+     "solution": "I = E/(R+r) = 6/(5+1) = 1 A; V = E - I r = 6 - 1 x 1 = 5 V",
+     "answer": "I = 1 A, V = 5 V"
+    },
+    {
+     "question": "A cell of EMF 3 V gives a terminal voltage of 2.8 V when a current of 0.2 A flows. Find the internal resistance.",
+     "solution": "r = (E - V)/I = (3 - 2.8)/0.2 = 0.2/0.2 = 1 ohm",
+     "answer": "1 ohm"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A 12 V battery with internal resistance 0.5 ohm is connected to a 5.5 ohm load. Find the terminal voltage.",
+     "type": "compute"
+    },
+    {
+     "question": "Distinguish between EMF and terminal potential difference.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jeph.3.7",
+   "title": "Combination of Cells in Series and Parallel",
+   "section": "3.8",
+   "definition": "When cells are connected in series, the total EMF is the sum of individual EMFs and the total internal resistance is the sum of individual internal resistances. When identical cells are connected in parallel, the EMF equals that of a single cell and the internal resistance is reduced by the factor of the number of cells.",
+   "formula": "Series: E_eq = E1 + E2 + ..., r_eq = r1 + r2 + ...; Parallel (n identical): E_eq = E, r_eq = r/n",
+   "key_idea": "Series combination increases voltage; parallel combination reduces effective internal resistance and provides larger current capacity.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Find the equivalent EMF and internal resistance of cells in series.",
+    "Find the equivalent EMF and internal resistance of identical cells in parallel.",
+    "Find the current through an external resistor for a series combination of cells.",
+    "Find the current for a parallel combination of identical cells.",
+    "Compare series and parallel combinations for the same external load."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the configuration (series or parallel) and the cell parameters (E, r, n).",
+     "explain": "Determine how the cells are connected.",
+     "compute": "E_eq = sum(E_i) for series"
+    },
+    {
+     "step": 2,
+     "action": "Compute the equivalent EMF and internal resistance.",
+     "explain": "Series: add EMFs and resistances; Parallel (identical): E_eq = E, r_eq = r/n.",
+     "compute": "r_eq = r/n for parallel identical"
+    },
+    {
+     "step": 3,
+     "action": "Apply I = E_eq/(R + r_eq) to find the current.",
+     "explain": "Use the equivalent circuit to compute the current.",
+     "compute": "I = E_eq / (R + r_eq)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Three cells each of EMF 2 V and internal resistance 0.5 ohm are connected in series to an external resistor of 8.5 ohm. Find the current.",
+     "solution": "E_eq = 3 x 2 = 6 V; r_eq = 3 x 0.5 = 1.5 ohm; I = 6/(8.5 + 1.5) = 6/10 = 0.6 A",
+     "answer": "0.6 A"
+    },
+    {
+     "question": "Four identical cells each of EMF 1.5 V and internal resistance 2 ohm are connected in parallel to a 2 ohm external resistor. Find the current.",
+     "solution": "E_eq = 1.5 V; r_eq = 2/4 = 0.5 ohm; I = 1.5/(2 + 0.5) = 1.5/2.5 = 0.6 A",
+     "answer": "0.6 A"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Two cells of EMF 3 V and 6 V with internal resistances 1 ohm and 2 ohm are in series with a 7 ohm external resistor. Find the current.",
+     "type": "compute"
+    },
+    {
+     "question": "State the advantage of connecting cells in parallel.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jeph.3.8",
+   "title": "Kirchhoffs Rules (Junction Rule and Loop Rule)",
+   "section": "3.9",
+   "definition": "Kirchhoffs junction rule (current law) states that the algebraic sum of currents meeting at a junction is zero, based on conservation of charge. Kirchhoffs loop rule (voltage law) states that the algebraic sum of potential differences around any closed loop is zero, based on conservation of energy.",
+   "formula": "Junction: sum(I_in) = sum(I_out); Loop: sum(EMF) = sum(I R) around a closed loop",
+   "key_idea": "The junction rule conserves charge at a node; the loop rule conserves energy in a closed circuit loop.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Apply the junction rule to find an unknown current at a node.",
+    "Apply the loop rule to find an unknown current in a circuit.",
+    "Set up equations for a two-loop circuit and solve for currents.",
+    "Find the current through a branch using Kirchhoffs rules.",
+    "Verify that the junction and loop rules are satisfied for given currents."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Label all currents and choose loop directions and junctions.",
+     "explain": "Assign current directions arbitrarily; apply junction rule at nodes.",
+     "compute": "sum(I_in) = sum(I_out)"
+    },
+    {
+     "step": 2,
+     "action": "Apply the loop rule to each independent closed loop to set up equations.",
+     "explain": "Sum of EMFs equals sum of IR drops around each loop.",
+     "compute": "sum(EMF) = sum(I R)"
+    },
+    {
+     "step": 3,
+     "action": "Solve the system of equations for the unknown currents.",
+     "explain": "Use simultaneous equations from junction and loop rules.",
+     "compute": "I = (value)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "In a junction, currents of 2 A and 3 A flow in, and a current I flows out. Find I.",
+     "solution": "By junction rule: I = 2 + 3 = 5 A",
+     "answer": "5 A"
+    },
+    {
+     "question": "A loop contains a 10 V battery and two resistors of 2 ohm and 3 ohm in series carrying current I. Find I using the loop rule.",
+     "solution": "Loop rule: 10 = I x 2 + I x 3 = 5I; I = 10/5 = 2 A",
+     "answer": "2 A"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "In a two-loop circuit with EMFs 6 V and 4 V and resistors 1 ohm, 2 ohm and 3 ohm, set up and solve the loop equations.",
+     "type": "compute"
+    },
+    {
+     "question": "State Kirchhoffs two rules and the conservation laws they are based on.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jeph.3.9",
+   "title": "Wheatstone Bridge and Meter Bridge",
+   "section": "3.10",
+   "definition": "A Wheatstone bridge is a circuit of four resistors arranged in a diamond shape. When the bridge is balanced, the ratio of resistances in the four arms satisfies P/Q = R/S, and no current flows through the galvanometer. A meter bridge is a practical form of the Wheatstone bridge using a 1 m long wire of uniform cross-section.",
+   "formula": "P/Q = R/S (balanced bridge); Meter bridge: P/Q = l/(100 - l)",
+   "key_idea": "At balance, the galvanometer shows zero deflection and the ratio of resistances in the four arms is equal; the meter bridge uses a uniform wire to find unknown resistance.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Given three known resistances, find the fourth for a balanced Wheatstone bridge.",
+    "In a meter bridge, given the balance length, find the unknown resistance.",
+    "Verify whether a given bridge is balanced.",
+    "Find the balance point shift when a known resistance changes.",
+    "Determine the unknown resistance from meter bridge readings."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the four arm resistances (P, Q, R, S) and the balance condition.",
+     "explain": "Note which resistances are known and which is unknown.",
+     "compute": "P/Q = R/S"
+    },
+    {
+     "step": 2,
+     "action": "Apply the balance condition to relate the resistances.",
+     "explain": "For meter bridge use P/Q = l/(100 - l) where l is the balance length in cm.",
+     "compute": "S = Q R / P"
+    },
+    {
+     "step": 3,
+     "action": "Substitute numerical values and compute the unknown.",
+     "explain": "Ensure consistent units for resistances.",
+     "compute": "result = (value)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "In a Wheatstone bridge, P = 10 ohm, Q = 20 ohm and R = 15 ohm. Find S for balance.",
+     "solution": "P/Q = R/S; S = Q R / P = 20 x 15 / 10 = 30 ohm",
+     "answer": "30 ohm"
+    },
+    {
+     "question": "In a meter bridge, the balance point is at 40 cm from the left end. If P (left gap) = 5 ohm, find the unknown resistance Q in the right gap.",
+     "solution": "P/Q = l/(100 - l); 5/Q = 40/60; Q = 5 x 60 / 40 = 7.5 ohm",
+     "answer": "7.5 ohm"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A Wheatstone bridge has P = 4 ohm, Q = 6 ohm, R = 8 ohm. Find S for balance.",
+     "type": "compute"
+    },
+    {
+     "question": "State the balance condition of a Wheatstone bridge and explain the meter bridge principle.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jeph.3.10",
+   "title": "Electrical Energy and Power",
+   "section": "3.11",
+   "definition": "Electrical energy is the energy supplied by a source when current flows through a circuit. Electrical power is the rate at which electrical energy is dissipated or delivered. In a resistor, the power dissipated as heat is given by P = I^2 R = V^2/R = V I (Joules heating).",
+   "formula": "P = V I = I^2 R = V^2 / R,  E = P t = V I t",
+   "key_idea": "Power dissipated in a resistor depends on current, voltage and resistance; energy is power multiplied by time. Joules heating is the conversion of electrical energy into heat.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Given V and I, find the power dissipated.",
+    "Given I and R, find the power using P = I^2 R.",
+    "Given V and R, find the power using P = V^2/R.",
+    "Find the energy consumed by a device over a given time.",
+    "Find the cost of electrical energy given power, time and rate per unit."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the given quantities (V, I, R, t) and the unknown.",
+     "explain": "Note which electrical quantities are provided.",
+     "compute": "P = V I"
+    },
+    {
+     "step": 2,
+     "action": "Choose the appropriate power formula and compute power.",
+     "explain": "Use P = VI, P = I^2 R or P = V^2/R depending on given data; E = P t for energy.",
+     "compute": "E = P t"
+    },
+    {
+     "step": 3,
+     "action": "Substitute numerical values and compute power or energy.",
+     "explain": "Use SI units (W for power, J or kWh for energy).",
+     "compute": "result = (value)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A bulb rated 100 W operates at 220 V. Find the current drawn and the resistance of the bulb.",
+     "solution": "I = P/V = 100/220 = 0.455 A; R = V^2/P = 220^2/100 = 48400/100 = 484 ohm",
+     "answer": "I = 0.455 A, R = 484 ohm"
+    },
+    {
+     "question": "A 2 kW heater is used for 3 hours. Find the energy consumed in kWh and joules.",
+     "solution": "E = P t = 2 kW x 3 h = 6 kWh = 6 x 3.6e6 J = 2.16e7 J",
+     "answer": "6 kWh = 2.16e7 J"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A resistor of 10 ohm carries a current of 2 A. Find the power dissipated.",
+     "type": "compute"
+    },
+    {
+     "question": "State Joules law of heating and give the expression for electrical power in a resistor.",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\cbse_sqp_uni_0882.txt",
+ "source_link": "title-matched (new syllabus)"
+}

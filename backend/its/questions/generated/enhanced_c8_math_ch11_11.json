@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch11_11",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch11_11",
+   "title": "c8_math_ch11_11",
+   "questions": [
+    {
+     "q": "State Euler's Formula for polyhedra and identify what each letter represents.",
+     "a": "Euler's Formula is F + V - E = 2, where F = number of faces, V = number of vertices, and E = number of edges of a convex polyhedron. A wrong answer (e.g., writing F - V + E = 2 or confusing V and E) reveals the student has memorised the formula without understanding the role of each component, or cannot distinguish between vertices (corners) and edges (line segments where faces meet).",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"My cylindrical pencil holder has 3 faces (top, bottom, curved side), 2 edges (the two circular rims), and 0 vertices. So F + V - E = 3 + 0 - 2 = 1. Euler's Formula is wrong!\" Explain why the student's reasoning is incorrect.",
+     "a": "Euler's Formula applies only to convex polyhedra — solids with flat polygonal faces, straight edges, and sharp vertices. A cylinder has a curved face and circular edges, which are not polygons or straight line segments, so it is not a polyhedron. The formula does not apply. A wrong answer (e.g., \"the formula works for all 3D shapes\") reveals the student does not understand the necessary condition of flat faces and straight edges, confusing general 3D shapes with polyhedra.",
+     "self_check": true
+    },
+    {
+     "q": "A convex polyhedron has 8 faces and 12 vertices. How many edges does it have? Show your working.",
+     "a": "Given: F = 8, V = 12. Using Euler's Formula: F + V - E = 2 → 8 + 12 - E = 2 → 20 - E = 2 → E = 20 - 2 = 18. The polyhedron has 18 edges. A wrong answer (e.g., E = 10 or E = 22) reveals the student either made an algebraic error in rearranging the formula (subtracting 2 from 20 incorrectly) or incorrectly applied the operations (e.g., doing 8 - 12 + 2).",
+     "self_check": true
+    },
+    {
+     "q": "Compare a cube and a regular octahedron. Both satisfy Euler's Formula. The cube has 6 faces, 8 vertices, 12 edges. The octahedron has 8 faces, 6 vertices, 12 edges. What pattern do you notice about their numbers? What does this suggest about the relationship between these two polyhedra?",
+     "a": "The cube and octahedron have swapped face and vertex counts (6↔8) while sharing the same edge count (12). This indicates they are dual polyhedra: the vertices of one correspond to the faces of the other. A wrong answer (e.g., \"they are the same shape\" or no recognition of the swap) reveals the student sees only the arithmetic check (both give 2) but misses the deeper structural relationship that Euler's Formula helps reveal.",
+     "self_check": true
+    },
+    {
+     "q": "Ravi constructed a solid using 12 regular pentagonal faces, with 3 faces meeting at each vertex. He claims it has 20 vertices and 30 edges. Without building it, use Euler's Formula to evaluate whether his claim is possible for a convex polyhedron.",
+     "a": "Check: F = 12, V = 20, E = 30. F + V - E = 12 + 20 - 30 = 2. The formula holds, so the claim is mathematically possible for a convex polyhedron. (This is a regular dodecahedron.) A wrong answer (e.g., \"impossible because 12+20≠30\") reveals the student cannot correctly apply the formula to verify a claim, possibly misreading the operation order or misunderstanding that the formula is a necessary condition for existence.",
+     "self_check": true
+    },
+    {
+     "q": "Invent a new convex polyhedron by describing its faces (e.g., \"6 squares and 8 triangles\"), then determine how many vertices and edges it must have to satisfy Euler's Formula. Explain your reasoning.",
+     "a": "Example: A polyhedron with 6 square faces and 8 triangular faces → F = 14. To find V and E, we need additional constraints (e.g., each vertex has same degree). A good answer shows understanding that F alone is insufficient; the student must propose consistent V and E (e.g., if 3 faces meet at each vertex, 3V = 2E, and with F=14, solve V=12, E=24). A poor answer (e.g., random numbers giving F+V-E=2) reveals the student treats the formula as a mere arithmetic puzzle without geometric constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,583 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 108,
+ "chapter_title": "Force and Pressure",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hecu106.txt",
+ "concepts": [
+  {
+   "id": "hesc.108.1",
+   "title": "Force - A Push or Pull",
+   "section": "8.1",
+   "definition": "An external influence as a push or pull that can change an object's state of motion, speed, direction, or shape.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "A force is fundamentally a push or a pull acting on an object.",
+   "textbook_ref": "hesc108.txt lines 30-90",
+   "question_patterns": [
+    "what is a force",
+    "identify actions as push or pull",
+    "how does a force affect an object",
+    "state two key points about force - a push or pull",
+    "why is force - a push or pull important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the action",
+     "explain": "Determine if the action involves pushing (moving away) or pulling (drawing closer)."
+    },
+    {
+     "step": 2,
+     "action": "Determine the effect on the object",
+     "explain": "Check whether the force changes the object's state of motion, speed, direction, or shape."
+    },
+    {
+     "step": 3,
+     "action": "Classify the force as a push or pull",
+     "explain": "Conclude whether the observed action is a push or a pull based on the direction the object moves relative to the applier."
+    }
+   ]
+  },
+  {
+   "id": "hesc.108.2",
+   "title": "Forces due to Interaction",
+   "section": "8.2",
+   "definition": "The mutual action between at least two bodies that gives a force acting on each of them.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "A force cannot exist in isolation; it requires interaction between two or more objects.",
+   "textbook_ref": "hesc108.txt lines 91-140",
+   "question_patterns": [
+    "why does a force require interaction",
+    "explain how interaction leads to a force",
+    "what is needed for a force to come into play",
+    "what do you understand by forces due to interaction",
+    "state two key points about forces due to interaction"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify interacting bodies",
+     "explain": "Determine the two objects that are interacting to produce the force."
+    },
+    {
+     "step": 2,
+     "action": "Verify mutual action",
+     "explain": "Confirm that both bodies exert a force on each other, since a force cannot arise from a single body alone."
+    },
+    {
+     "step": 3,
+     "action": "Conclude that interaction is required",
+     "explain": "State that without interaction between at least two bodies, no force can come into play."
+    }
+   ]
+  },
+  {
+   "id": "hesc.108.3",
+   "title": "Net Force in Same Direction",
+   "section": "8.3",
+   "definition": "The total force acting on an object when multiple forces are applied along the exact same line of action and direction, calculated by summing their magnitudes.",
+   "formula": "net_force = force_a + force_b",
+   "key_idea": "Forces acting in the common direction combine by addition.",
+   "textbook_ref": "hesc108.txt lines 160-180",
+   "question_patterns": [
+    "calculate the net force when two forces act in the same direction",
+    "find the total force if two people push a box in the same direction",
+    "what is the resultant force of forces acting together in the same direction",
+    "work out the value using net force in same direction",
+    "calculate net force in same direction for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add the individual forces",
+     "explain": "Since the forces act in the same direction, they reinforce each other.",
+     "compute": "net_force = force_a + force_b"
+    },
+    {
+     "step": 2,
+     "action": "Substitute the given force values",
+     "explain": "Insert the numerical values of force_a and force_b into the addition expression.",
+     "compute": "net_force = force_a + force_b"
+    },
+    {
+     "step": 3,
+     "action": "State the net force with direction",
+     "explain": "Report the resultant magnitude and confirm it acts in the common direction of both applied forces.",
+     "compute": "net_force = force_a + force_b"
+    }
+   ]
+  },
+  {
+   "id": "hesc.108.4",
+   "title": "Net Force in Opposite Directions",
+   "section": "8.3",
+   "definition": "The resultant force acting on an object when two forces are applied in directly opposing directions, calculated as the absolute difference between their magnitudes.",
+   "formula": "net_force = abs(force_a - force_b)",
+   "key_idea": "Forces acting in opposite directions oppose each other and subtract.",
+   "textbook_ref": "hesc108.txt lines 170-195",
+   "question_patterns": [
+    "find the net force when two forces act in opposite directions",
+    "calculate the resultant force of opposing forces",
+    "what is the net force on a rope pulled in opposite directions",
+    "compute the answer step by step for net force in opposite directions",
+    "what is the result in this net force in opposite directions problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find the absolute difference between the forces",
+     "explain": "Opposing forces cancel each other out partially, so we subtract the smaller from the larger.",
+     "compute": "net_force = abs(force_a - force_b)"
+    },
+    {
+     "step": 2,
+     "action": "Substitute the given force values",
+     "explain": "Insert the numerical values of force_a and force_b into the subtraction expression.",
+     "compute": "net_force = abs(force_a - force_b)"
+    },
+    {
+     "step": 3,
+     "action": "State the net force and its direction",
+     "explain": "Report the resultant magnitude and confirm it acts in the direction of the larger force.",
+     "compute": "net_force = abs(force_a - force_b)"
+    }
+   ]
+  },
+  {
+   "id": "hesc.108.5",
+   "title": "Muscular Force",
+   "section": "8.6",
+   "definition": "The contact force applied by the action of muscles inside a living body.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Internal muscles exert forces to perform physical tasks like lifting, pushing, or breathing.",
+   "textbook_ref": "hesc108.txt lines 290-340",
+   "question_patterns": [
+    "what is muscular force",
+    "give examples of muscular force in animals",
+    "is muscular force a contact force",
+    "explain muscular force in your own words",
+    "describe muscular force with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify muscle involvement",
+     "explain": "Verify if the force originates from the contraction or expansion of muscles in a living organism."
+    },
+    {
+     "step": 2,
+     "action": "Check for physical contact",
+     "explain": "Confirm that the muscle applies the force through direct contact with the object, making muscular force a contact force."
+    },
+    {
+     "step": 3,
+     "action": "Classify the force as muscular",
+     "explain": "Conclude that the force is muscular force since it is produced by muscles and requires physical contact."
+    }
+   ]
+  },
+  {
+   "id": "hesc.108.6",
+   "title": "Force of Friction",
+   "section": "8.6",
+   "definition": "A resistive contact force that acts between surfaces touching to oppose their relative motion.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Friction always pushes against the way surfaces slide, slowing moving things down.",
+   "textbook_ref": "hesc108.txt lines 341-390",
+   "question_patterns": [
+    "what is friction",
+    "why does a rolling ball stop",
+    "in which direction does friction act",
+    "how does force of friction work",
+    "list the main features of force of friction"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify relative motion and surface contact",
+     "explain": "Friction arises when two surfaces slide or attempt to slide past each other."
+    },
+    {
+     "step": 2,
+     "action": "Determine the direction of friction",
+     "explain": "Friction always acts opposite to the direction of relative motion or intended motion between the surfaces."
+    },
+    {
+     "step": 3,
+     "action": "Conclude that friction is a contact force",
+     "explain": "State that friction is a resistive contact force that opposes motion and eventually brings moving objects to rest."
+    }
+   ]
+  },
+  {
+   "id": "hesc.108.7",
+   "title": "Electrostatic Force",
+   "section": "8.7",
+   "definition": "A push or pull from a distance: one charged body acting on another body, charged or not.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Charges can attract or repel each other from a distance without physical contact.",
+   "textbook_ref": "hesc108.txt lines 430-470",
+   "question_patterns": [
+    "what is electrostatic force",
+    "explain why a rubbed straw attracts another straw",
+    "is electrostatic force a contact force",
+    "short note on electrostatic force",
+    "justify why electrostatic force matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify electric charges",
+     "explain": "Verify if the force is caused by electric charges acquired through friction or other means."
+    },
+    {
+     "step": 2,
+     "action": "Check for attraction or repulsion at a distance",
+     "explain": "Confirm that the charged body exerts a pull or push on another body without physical contact."
+    },
+    {
+     "step": 3,
+     "action": "Classify the force as electrostatic and non-contact",
+     "explain": "Conclude that the force is electrostatic since it arises from charges and acts from a distance without direct contact."
+    }
+   ]
+  },
+  {
+   "id": "hesc.108.8",
+   "title": "Gravitational Force",
+   "section": "8.7",
+   "definition": "The attractive non-contact force that pulls objects toward each other, most noticeably pulling objects toward the Earth's center.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Every object in the universe exerts an attractive pull on every other object.",
+   "textbook_ref": "hesc108.txt lines 471-510",
+   "question_patterns": [
+    "what is gravity",
+    "why do leaves fall to the ground",
+    "is gravitational force attractive or repulsive",
+    "describe gravitational force with an example",
+    "what do you understand by gravitational force"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify mass interaction",
+     "explain": "Gravity is the universal attractive force acting between any two masses."
+    },
+    {
+     "step": 2,
+     "action": "Check for attraction without contact",
+     "explain": "Confirm that the objects are pulled toward each other without any physical contact between them."
+    },
+    {
+     "step": 3,
+     "action": "Classify the force as gravitational and non-contact",
+     "explain": "Conclude that the force is gravitational since it is an attractive non-contact force acting between masses."
+    }
+   ]
+  },
+  {
+   "id": "hesc.108.9",
+   "title": "Pressure",
+   "section": "8.8",
+   "definition": "The amount of perpendicular force distributed over a unit surface area.",
+   "formula": "pressure = force / area",
+   "key_idea": "Pressure varies in inverse proportion with the area over which a force is indeed applied.",
+   "textbook_ref": "hesc108.txt lines 525-550",
+   "question_patterns": [
+    "calculate the pressure exerted on a surface",
+    "find the pressure given force and area",
+    "what is the pressure if a force is applied over an area",
+    "what is the result in this pressure problem",
+    "work out the value using pressure"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide force by area",
+     "explain": "Pressure is defined as force per unit area.",
+     "compute": "pressure = force / area"
+    },
+    {
+     "step": 2,
+     "action": "Substitute the given force and area values",
+     "explain": "Insert the numerical values of force and area into the pressure formula.",
+     "compute": "pressure = force / area"
+    },
+    {
+     "step": 3,
+     "action": "State the pressure with correct units",
+     "explain": "Report the pressure value in Pascals (N/m^2), confirming the inverse relationship with area.",
+     "compute": "pressure = force / area"
+    }
+   ]
+  },
+  {
+   "id": "hesc.108.10",
+   "title": "Pressure Exerted by Liquids",
+   "section": "8.9",
+   "definition": "A fluid presses on the bottom and the walls of its container, and this pressure grows with the depth of the liquid column.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Liquids exert pressure in all directions, and this pressure is equal at the same depth.",
+   "textbook_ref": "hesc108.txt lines 571-650",
+   "question_patterns": [
+    "does liquid exert pressure on walls",
+    "how does liquid pressure vary with depth",
+    "why does a rubber sheet bulge when water is poured",
+    "explain pressure exerted by liquids in your own words",
+    "describe pressure exerted by liquids with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze depth and container walls",
+     "explain": "Liquid pressure depends on depth and acts perpendicular to the container walls."
+    },
+    {
+     "step": 2,
+     "action": "Verify pressure acts in all directions",
+     "explain": "Confirm that the liquid exerts pressure on the bottom as well as the side walls of the container."
+    },
+    {
+     "step": 3,
+     "action": "Relate pressure to depth",
+     "explain": "Conclude that liquid pressure increases with the depth of the liquid column and is equal at the same depth."
+    }
+   ]
+  },
+  {
+   "id": "hesc.108.11",
+   "title": "Atmospheric Pressure",
+   "section": "8.10",
+   "definition": "The pressure exerted by the weight of the air column in the atmosphere acting on a unit area.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "The massive weight of air above us exerts a huge pressure, which is balanced by our internal body pressure.",
+   "textbook_ref": "hesc108.txt lines 651-720",
+   "question_patterns": [
+    "what is atmospheric pressure",
+    "why are we not crushed by atmospheric pressure",
+    "how does a rubber sucker stick to a wall",
+    "explain atmospheric pressure in your own words",
+    "describe atmospheric pressure with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify air column weight",
+     "explain": "Atmospheric pressure is caused by the gravitational pull on the air column extending above the surface."
+    },
+    {
+     "step": 2,
+     "action": "Verify the pressure acts on all surfaces",
+     "explain": "Confirm that the weight of air presses equally on all exposed surfaces, including objects and our bodies."
+    },
+    {
+     "step": 3,
+     "action": "Explain why we are not crushed",
+     "explain": "Conclude that our internal body pressure balances the atmospheric pressure, preventing us from being crushed."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hesc108.txt lines 160-180",
+   "concept": "hesc.108.3",
+   "question_type": "compute",
+   "question_pattern": "Two friends push a heavy box in the same direction. One applies a force of {force_a} N and the other applies {force_b} N. What is the net force acting on the box?",
+   "extracted_variables": {
+    "force_a": "force applied by the first friend in Newtons",
+    "force_b": "force applied by the second friend in Newtons"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Add the individual forces",
+     "explain": "Since the forces act in the same direction, they reinforce each other.",
+     "compute": "net_force = force_a + force_b"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hesc108.txt lines 170-195",
+   "concept": "hesc.108.4",
+   "question_type": "compute",
+   "question_pattern": "Two teams pull a rope in opposite directions. Team A pulls with a force of {force_a} N and Team B pulls with a force of {force_b} N. What is the net force on the rope?",
+   "extracted_variables": {
+    "force_a": "pulling force of Team A in Newtons",
+    "force_b": "pulling force of Team B in Newtons"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find the absolute difference between the forces",
+     "explain": "Opposing forces cancel each other out partially, so we subtract the smaller from the larger.",
+     "compute": "net_force = abs(force_a - force_b)"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hesc108.txt lines 525-550",
+   "concept": "hesc.108.9",
+   "question_type": "compute",
+   "question_pattern": "A force of {force} N is applied perpendicularly on a wooden plank over an area of {area} m^2. Calculate the pressure exerted on the plank.",
+   "extracted_variables": {
+    "force": "applied perpendicular force in Newtons",
+    "area": "surface area in square meters"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide force by area",
+     "explain": "Pressure is defined as force per unit area.",
+     "compute": "pressure = force / area"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "hesc108.txt lines 160-180",
+   "concept": "hesc.108.3",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute net force in same direction step by step",
+   "extracted_variables": {
+    "force_a": "value of force_a",
+    "force_b": "value of force_b"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Add the individual forces",
+     "explain": "Since the forces act in the same direction, they reinforce each other.",
+     "compute": "net_force = force_a + force_b"
+    }
+   ]
+  },
+  {
+   "id": "exauto2",
+   "source_ref": "hesc108.txt lines 170-195",
+   "concept": "hesc.108.4",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute net force in opposite directions step by step",
+   "extracted_variables": {
+    "force_a": "value of force_a",
+    "force_b": "value of force_b"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find the absolute difference between the forces",
+     "explain": "Opposing forces cancel each other out partially, so we subtract the smaller from the larger.",
+     "compute": "net_force = abs(force_a - force_b)"
+    }
+   ]
+  },
+  {
+   "id": "exauto3",
+   "source_ref": "hesc108.txt lines 525-550",
+   "concept": "hesc.108.9",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute pressure step by step",
+   "extracted_variables": {
+    "force": "value of force",
+    "area": "value of area"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide force by area",
+     "explain": "Pressure is defined as force per unit area.",
+     "compute": "pressure = force / area"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex8.1",
+   "source_ref": "hesc108.txt lines 730-732",
+   "questions": [
+    "Give one example connected with situations and justify your choice."
+   ]
+  },
+  {
+   "id": "ex8.2",
+   "source_ref": "hesc108.txt lines 733-734",
+   "questions": [
+    "Offer one everyday instance of situations and explain it."
+   ]
+  },
+  {
+   "id": "ex8.3",
+   "source_ref": "hesc108.txt lines 735-740",
+   "questions": [
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about statements."
+   ]
+  },
+  {
+   "id": "ex8.4",
+   "source_ref": "hesc108.txt lines 741-750",
+   "questions": [
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about information."
+   ]
+  },
+  {
+   "id": "ex8.5",
+   "source_ref": "hesc108.txt lines 751-760",
+   "questions": [
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about situations."
+   ]
+  },
+  {
+   "id": "ex8.6",
+   "source_ref": "hesc108.txt lines 761-762",
+   "questions": [
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about blacksmith."
+   ]
+  },
+  {
+   "id": "ex8.7",
+   "source_ref": "hesc108.txt lines 763-766",
+   "questions": [
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about responsible."
+   ]
+  },
+  {
+   "id": "ex8.8",
+   "source_ref": "hesc108.txt lines 767-769",
+   "questions": [
+    "Name containing and characterise it briefly in your own words."
+   ]
+  },
+  {
+   "id": "ex8.9",
+   "source_ref": "hesc108.txt lines 770-772",
+   "questions": [
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about immediately."
+   ]
+  },
+  {
+   "id": "ex8.10",
+   "source_ref": "hesc108.txt lines 773-780",
+   "questions": [
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about atmospheric."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

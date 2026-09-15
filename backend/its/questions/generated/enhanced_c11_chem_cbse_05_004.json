@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_05_004",
+   "title": "c11_chem_cbse_05_004",
+   "questions": [
+    {
+     "q": "State Boyle's Law and write its mathematical expression. What are the two conditions that must remain constant for this law to hold?",
+     "a": "Boyle's Law: At constant temperature and fixed amount of gas, pressure is inversely proportional to volume. \\(P \\propto 1/V\\) or \\(PV = k\\). Conditions: constant temperature (isothermal) and constant number of moles (closed system). A wrong answer (e.g., missing \"constant temperature\" or writing \\(P \\propto V\\)) reveals confusion with Charles's Law or failure to recognize the required constraints.",
+     "self_check": true
+    },
+    {
+     "q": "A gas occupies 500 mL at 1 atm pressure. If the volume is reduced to 250 mL at the same temperature, what is the new pressure? Explain why the pressure changes in terms of particle collisions.",
+     "a": "Using \\(P_1V_1 = P_2V_2\\): \\(P_2 = \\frac{P_1V_1}{V_2} = \\frac{1 \\times 500}{250} = 2\\) atm. Pressure doubles because halving the volume doubles the frequency of particle-wall collisions (same kinetic energy, same number of particles, but half the space). A wrong answer (e.g., 0.5 atm) shows misunderstanding of inverse proportionality; a correct calculation without collision explanation indicates rote application without kinetic understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A student plots \\(P\\) vs \\(V\\) for a gas at constant temperature and gets a hyperbola. Another student plots \\(P\\) vs \\(1/V\\) and gets a straight line through the origin. Which plot confirms Boyle's Law more directly? Why does the \\(P\\) vs \\(1/V\\) line pass through the origin?",
+     "a": "The \\(P\\) vs \\(1/V\\) plot confirms Boyle's Law directly because it yields a straight line (\\(P = k \\times 1/V\\)), making verification of proportionality immediate. The line passes through the origin because when \\(1/V = 0\\) (infinite volume), pressure is zero — consistent with \\(PV = k\\). A wrong choice (hyperbola) or inability to explain the origin intercept shows lack of understanding of linearizing inverse relationships.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical cylinders contain the same gas at the same temperature. Cylinder A has volume 2 L at 3 atm. Cylinder B has volume 3 L at 2 atm. The cylinders are connected by a tube of negligible volume, and the valve is opened. What is the final pressure? Assume temperature constant.",
+     "a": "Total initial moles (using \\(PV = nRT\\)): \\(n_A = \\frac{3 \\times 2}{RT} = \\frac{6}{RT}\\), \\(n_B = \\frac{2 \\times 3}{RT} = \\frac{6}{RT}\\). Total \\(n = \\frac{12}{RT}\\). Total volume = 5 L. Final pressure \\(P_f = \\frac{nRT}{V_f} = \\frac{12}{5} = 2.4\\) atm. Alternatively, using Boyle's Law on each gas expanding to 5 L: \\(P_{A,f} = \\frac{3 \\times 2}{5} = 1.2\\) atm, \\(P_{B,f} = \\frac{2 \\times 3}{5} = 1.2\\) atm, sum = 2.4 atm. A wrong answer (e.g., averaging pressures to 2.5 atm) reveals failure to conserve moles or apply Boyle's Law to each component separately.",
+     "self_check": true
+    },
+    {
+     "q": "A weather balloon contains helium at 1 atm and 10 m³ volume at ground level. As it rises, the external pressure drops to 0.5 atm. Assuming temperature constant and the balloon expands freely until internal pressure equals external pressure, what is the new volume? Is the balloon likely to burst? Justify.",
+     "a": "\\(P_1V_1 = P_2V_2 \\Rightarrow V_2 = \\frac{1 \\times 10}{0.5} = 20\\) m³. Volume doubles. Whether it bursts depends on the balloon's maximum elastic volume — if it can stretch beyond 20 m³, it won't burst; if its limit is < 20 m³, it will. A simple \"yes/no\" without referencing the balloon's material limit shows incomplete evaluation of real-world constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a syringe, pressure sensor, and data logger to verify Boyle's Law. List the variables to control, the data to collect, and how you would analyze it to confirm \\(PV = \\text{constant}\\).",
+     "a": "Control: temperature (allow thermal equilibrium after each compression), amount of gas (sealed syringe), and sensor calibration. Collect: pressure readings at 5-6 different volumes (e.g., 60, 50, 40, 30, 20, 10 mL). Analyze: plot \\(P\\) vs \\(1/V\\) — should be linear through origin; calculate \\(PV\\) for each point — should be constant within experimental error. A design that doesn't mention temperature equilibration time or checking \\(PV\\) constancy misses critical error sources.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

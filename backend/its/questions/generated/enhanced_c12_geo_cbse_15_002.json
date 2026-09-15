@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_15_002",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_15_002",
+   "title": "c12_geo_cbse_15_002",
+   "questions": [
+    {
+     "q": "A student states: \"National Highways are the longest roads in India because they connect major cities across states.\" Identify the factual error in this statement and correct it using the 2020 road network data.",
+     "a": "Correct statement: National Highways constitute only ~2.2% of total road length (1,36,440 km out of 62,15,797 km) — Rural Roads (Other Roads category, 59,02,539 km) are the longest. The student confuses *functional importance* (inter-state connectivity, 40% traffic share) with *total length*. This reveals a common misconception: equating strategic significance with physical extent. In hierarchical networks, high-order links are fewer but carry disproportionate flow — like major arteries vs capillaries.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution assign National Highways to the Union List while State Highways fall under the State List? Explain using the concept of spatial scale of economic integration and defence logistics.",
+     "a": "National Highways enable *inter-state* economic integration (common market) and *pan-India* defence mobilization — both require uniform standards, centralised planning, and strategic oversight beyond any single state's jurisdiction. State Highways serve *intra-state* integration (district-to-capital links) where state-level planning suffices. A wrong answer citing \"funding capacity\" alone misses the constitutional logic: even if a state were wealthy, NH must remain central to prevent fragmentation of the national transport grid. This tests understanding of federalism's spatial logic (link to c10_civ_cbse_02_005).",
+     "self_check": true
+    },
+    {
+     "q": "Using Table 7.1 data, calculate: (a) the percentage share of State Highways in total road length, (b) the ratio of Rural Roads (Other Roads) length to National Highways length. Show working.",
+     "a": "(a) State Highways % = (1,76,818 / 62,15,797) × 100 = 2.84% ≈ 2.8%. (b) Rural Roads : NH = 59,02,539 : 1,36,440 = 43.26 : 1 ≈ 43:1. Common errors: using 1951 NH length (19,700 km) instead of 2020 data, or misreading \"Other Roads\" as only rural roads (it includes Border/International roads too, but rural dominates). This tests data literacy and attention to table footnotes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare rural road density in the Indo-Gangetic Plain vs the Himalayan region. Explain the *physical* and *economic* factors causing the difference, using the concepts of construction cost per km and agricultural surplus generation capacity.",
+     "a": "Indo-Gangetic Plain: high rural road density — flat terrain lowers construction/maintenance cost per km; fertile alluvial soil generates high agricultural surplus, justifying investment. Himalayan region: low density — steep slopes, landslides, snow raise construction cost 5-10×; sparse population and limited surplus reduce economic viability. A weak answer lists only \"hilly terrain\" without quantifying cost differential or linking to agricultural economy (connect to c11_geo_cbse_18_001 land use, c11_geo_cbse_09_003 plains formation).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Border Roads Organisation (BRO) roads are economically unjustified because they serve sparse populations in remote areas.\" Use strategic, developmental, and environmental criteria.",
+     "a": "The statement is flawed — it applies *commercial viability* criteria to *strategic infrastructure*. BRO roads (e.g., Manali-Leh at 4,270 m MSL) serve: (1) defence logistics — rapid troop/materiel movement along contested borders; (2) developmental integration — connecting isolated tribal communities to markets/services (e.g., Ladakh's access to healthcare); (3) environmental control — snow clearance maintains year-round access, reducing seasonal migration. Economic return is measured in *strategic option value* and *equity of access*, not toll revenue. A purely financial evaluation misses the state's sovereign obligation to peripheral regions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a schematic map annotation (not a full map) showing the hierarchical linkage: Rural Road → District Road → State Highway → National Highway for a hypothetical district in the Deccan Plateau. Label each tier with its maintaining authority and one functional indicator (e.g., traffic volume range, typical width).",
+     "a": "Expected annotation: \n- Tier 1 (Village level): Rural Road — Maintained by Zila Parishad/PMGSY — Width: 3.75 m (single lane) — Traffic: <100 PCU/day — Connects village to nearest market.\n- Tier 2 (Block level): Major District Road — Maintained by Zila Parishad/PWD — Width: 7 m (intermediate lane) — Traffic: 100-500 PCU/day — Links block HQ to District HQ.\n- Tier 3 (District level): State Highway — Maintained by State PWD — Width: 10-14 m (2-lane) — Traffic: 500-5000 PCU/day — Connects District HQ to State Capital.\n- Tier 4 (Inter-state): National Highway — Maintained by NHAI/MoRTH — Width: 14-30 m (4-6 lane) — Traffic: >5000 PCU/day — Links State Capital to neighbouring states/ports.\nPoor answer: omits maintaining authority, uses urban standards for rural roads, or ignores terrain adaptation (Deccan Plateau hard rock affects alignment).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

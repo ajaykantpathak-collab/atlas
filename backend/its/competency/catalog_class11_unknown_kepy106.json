@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "psychology",
+  "chapter": 106,
+  "chapter_title": "Human Memory",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kepy106.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kepy106.1.1",
+      "title": "Memory as Information Processing: Stages and Stores",
+      "section": "6.1",
+      "definition": "The information-processing view treats memory as a flow: sensory memory registers input briefly, attention moves it into short-term memory where it survives seconds, and rehearsal encodes it into long-term memory's vast, durable store. Memory has a nature and stages -- encoding, storage and retrieval -- not one box.",
+      "formula": "",
+      "key_idea": "Three doors in sequence -- sensory, short-term, long-term -- and passage depends on attention and rehearsal.",
+      "textbook_ref": "kepy106.txt stages sections (nature of memory, information processing approach, sensory register, short term memory, long term memory, encoding storage retrieval)",
+      "question_patterns": [
+        "describe the stages of memory in the information processing model",
+        "in class 11 human memory: what is the capacity and duration of short term memory",
+        "how does information move from sensory to long term memory",
+        "explain encoding storage and retrieval as memory processes",
+        "why do we forget a phone number heard once",
+        "what role does attention play in memory formation"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "register the input",
+          "explain": "Sensory memory holds the raw input for a fraction of a second; attention selects what proceeds."
+        },
+        {
+          "step": 2,
+          "action": "work the short store",
+          "explain": "Short-term memory keeps about seven items briefly; rehearsal maintains and deepens them."
+        },
+        {
+          "step": 3,
+          "action": "file and fetch",
+          "explain": "Long-term memory stores meaningfully encoded material durably; retrieval brings it back to awareness."
+        }
+      ]
+    },
+    {
+      "id": "kepy106.1.2",
+      "title": "Long-Term Memory: Types and Organisation",
+      "section": "6.2",
+      "definition": "Long-term memory splits into declarative memory -- episodic events and semantic facts that can be stated -- and procedural memory of skills that perform without words. Contents are organised in networks of associations, which is why one cue can unpack a whole episode.",
+      "formula": "",
+      "key_idea": "A library with wings -- episodes, facts and skills shelved in linked networks, retrievable by the right cue.",
+      "textbook_ref": "kepy106.txt long term sections (declarative memory episodic semantic, procedural memory, organisation of long term memory, knowledge networks)",
+      "question_patterns": [
+        "distinguish episodic and semantic memory with examples",
+        "in class 11 human memory: what is procedural memory give instances",
+        "how is long term memory organised",
+        "why does one smell recall a whole childhood scene",
+        "classify given memories as declarative or procedural",
+        "explain how knowledge networks aid retrieval"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "split declarative types",
+          "explain": "Episodic memory files personal experiences in time; semantic memory files general facts without autobiography."
+        },
+        {
+          "step": 2,
+          "action": "add the procedural wing",
+          "explain": "Skills -- cycling, typing -- live as procedures expressed in action, hard to put into words."
+        },
+        {
+          "step": 3,
+          "action": "see the web",
+          "explain": "Contents link in associative networks, so a single cue activates connected memories."
+        }
+      ]
+    },
+    {
+      "id": "kepy106.1.3",
+      "title": "Forgetting, and Strategies for Improving Memory",
+      "section": "6.3",
+      "definition": "Forgetting may come from trace decay, interference by older or newer material, or retrieval failure -- the material is present but the cue is missing. Memory can be strengthened by meaningful organisation, elaborative rehearsal, mnemonic devices such as the keyword method, and spaced practice.",
+      "formula": "",
+      "key_idea": "Forgetting is mislaid, not always erased -- better encoding and cues, spaced over time, keep memory findable.",
+      "textbook_ref": "kepy106.txt forgetting sections (trace decay, interference proactive retroactive, retrieval failure, mnemonics keyword method, strategies to improve memory)",
+      "question_patterns": [
+        "explain the causes of forgetting",
+        "in class 11 human memory: distinguish proactive and retroactive interference",
+        "what mnemonics help in remembering lists",
+        "how does meaningful organisation improve memory",
+        "why does spaced practice beat cramming",
+        "suggest methods a student can use to remember better"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "diagnose the forgetting",
+          "explain": "Check whether material faded with time, was displaced by other learning, or simply lacks a retrieval cue."
+        },
+        {
+          "step": 2,
+          "action": "encode deeply",
+          "explain": "Connect new material to what you know -- elaboration and organisation build multiple retrieval routes."
+        },
+        {
+          "step": 3,
+          "action": "practise in spacing",
+          "explain": "Use mnemonics for lists and spread revisions over days -- consolidation beats cramming."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kepy106.txt stages sections",
+      "concept": "kepy106.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "You hear a name at a party and forget it within a minute. Explain with the stages of memory and suggest a fix.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "locate the loss",
+          "explain": "Without attention the name barely entered; with no rehearsal it died in short-term memory."
+        },
+        {
+          "step": 2,
+          "action": "apply the model",
+          "explain": "Sensory to short-term transfer needs attention; short-term to long-term needs rehearsal or meaning."
+        },
+        {
+          "step": 3,
+          "action": "fix it",
+          "explain": "Repeat the name, link it to an image or a friend's name, and use it once -- encoding now reaches long-term store."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kepy106.txt forgetting sections",
+      "concept": "kepy106.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "After learning physics formulas, a student finds yesterday's maths formulas confused with them. Identify the forgetting phenomenon and its type.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "note the order",
+          "explain": "Old material (maths) is disturbed by new material (physics) learned later."
+        },
+        {
+          "step": 2,
+          "action": "name the type",
+          "explain": "This backward displacement is retroactive interference."
+        },
+        {
+          "step": 3,
+          "action": "suggest a remedy",
+          "explain": "Distinct, meaningful organisation of each subject's formulas reduces the overlap that interferes."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kepy106.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Describe the information-processing model of memory.",
+        "Distinguish short-term from long-term memory.",
+        "Explain episodic, semantic and procedural memory with examples.",
+        "What are the causes of forgetting?",
+        "Explain mnemonic devices with two examples.",
+        "How can a student improve retrieval of studied material?"
+      ]
+    }
+  ]
+}

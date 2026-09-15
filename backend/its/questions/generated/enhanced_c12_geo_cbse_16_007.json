@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_16_007",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_16_007",
+   "title": "c12_geo_cbse_16_007",
+   "questions": [
+    {
+     "q": "State the approximate percentage growth of India's total foreign trade (exports + imports) between 1950-51 and 2020-21 using the NCERT figures: 1950-51 = Rs 1,214 crore; 2020-21 = Rs 77,19,796 crore.",
+     "a": "Total trade grew from Rs 1,214 crore to Rs 77,19,796 crore. Growth = [(77,19,796 - 1,214) / 1,214] × 100 ≈ 6,35,800%. A wrong answer (e.g., 6,358%) reveals the student forgot to multiply by 100 for percentage or misread lakh/crore place values — a common unit-conversion error in board data-interpretation questions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the share of 'Agriculture and allied products' in India's exports fell from 12.6% (2015-16) to 11.9% (2021-22) while 'Crude and petroleum products' rose from 11.9% to 16.4% in the same period (Table 8.2). Identify the policy and market drivers for each trend.",
+     "a": "Agriculture share declined due to low value addition, international competition (especially from Southeast Asia), and domestic supply constraints; petroleum products share rose because India became a net exporter of refined petroleum (value-added) after investing in large refineries (Reliance Jamnagar, etc.), benefiting from global demand and refining margins. A wrong answer attributing agriculture decline solely to \"low production\" misses the competitiveness and value-chain angle; attributing petroleum rise to \"crude oil exports\" confuses crude imports with refined product exports.",
+     "self_check": true
+    },
+    {
+     "q": "Using Table 8.4, calculate the absolute change (in percentage points) in the share of 'Fuel (Coal, POL)' in India's import basket between 2015-16 and 2021-22. Then explain why this share increased despite India's push for renewable energy.",
+     "a": "Fuel share: 2015-16 = 25.4%; 2021-22 = 31.6%. Absolute change = +6.2 percentage points. Increase driven by rising energy demand from industrialisation and transport, limited domestic coal quality for coking/steel, and oil-price volatility inflating import value even if volumes are stable. A wrong answer citing \"renewable failure\" ignores that import share is value-based and oil prices surged in 2021-22; also misses that coal imports serve specific industrial needs (coking coal) not easily substitutable.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the regional direction of India's imports in 2016-17 vs 2021-22 using Table 8.6. Which region showed the highest absolute growth in import value, and what does this imply about India's supply-chain integration?",
+     "a": "Asia and ASEAN: 2016-17 = Rs 15,44,520 crore; 2021-22 = Rs 29,18,577 crore. Absolute growth = Rs 13,74,057 crore (highest). This implies deepening supply-chain integration with East/Southeast Asia (China, ASEAN, Korea, Japan) for electronics components, machinery, chemicals, and petroleum — reflecting 'Factory Asia' dynamics. A wrong answer picking Europe or North America overlooks the magnitude of Asian trade; missing the supply-chain implication treats trade as bilateral rather than networked.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's persistent trade deficit since 1991 is primarily caused by non-essential luxury imports.\" Use Table 8.5 (principal imports 2021-22) to support your judgement.",
+     "a": "The statement is false. Top imports 2021-22: Petroleum (Rs 12,07,803 cr), Pearls/precious stones (Rs 2,31,279 cr), Electronic components (implied in 'Others'), Fertilisers (Rs 1,05,796 cr), Edible oils (Rs 1,41,532 cr), Chemical products (Rs 3,08,882 cr), Iron & steel (Rs 94,053 cr). These are overwhelmingly essential inputs (energy, raw materials, intermediates, food security) not luxuries. A wrong answer focusing on gold/pearls alone ignores that petroleum alone is ~30% of imports and is a strategic necessity; misclassification reveals poor data-reading skill.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page policy brief for the Commerce Ministry proposing two specific measures to reduce the share of edible oil imports (Rs 1,41,532 crore in 2021-22) while maintaining nutritional security. Your brief must reference land-use constraints, oilseed yields, and WTO-compatible support mechanisms.",
+     "a": "A strong brief: (1) Launch a mission-mode Oilseeds Programme targeting 30% yield increase in mustard, groundnut, soybean via hybrid seeds, micro-irrigation, and assured procurement at MSP (WTO Green Box compliant). (2) Promote oil palm in NE states and Andaman on degraded/wasteland (not forest) with long-term buyback contracts, learning from Indonesia/Malaysia but avoiding deforestation. Must address land scarcity by intercropping and fallow utilization. A weak brief suggests only \"increase MSP\" without yield/tech focus, or proposes import bans violating WTO — shows lack of policy-design rigour.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

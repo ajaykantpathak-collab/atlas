@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "psychology",
+  "chapter": 108,
+  "chapter_title": "Motivation and Emotion",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kepy108.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kepy108.1.1",
+      "title": "Nature of Motivation: Needs, Drives and Goals",
+      "section": "8.1",
+      "definition": "Motivation is the internal process that energises, directs and sustains behaviour toward a goal. It begins with a need -- biological or psychological -- whose arousal creates a drive that pushes the organism into action until the goal reduces the tension. Motivation thus explains both the vigour and the direction of conduct.",
+      "formula": "",
+      "key_idea": "Need creates drive, drive fuels action, goal ends it -- motivation is the engine and steering of behaviour.",
+      "textbook_ref": "kepy108.txt motivation sections (nature of human motivation, needs drives goals, energising and directing behaviour)",
+      "question_patterns": [
+        "define motivation and explain its cycle from need to goal",
+        "in class 11 motivation and emotion: how does motivation energise and direct behaviour",
+        "distinguish biological needs from psychological needs with examples",
+        "explain what happens when a goal is achieved",
+        "why do two people behave differently for the same goal",
+        "identify the need and goal in a given piece of behaviour"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "spot the need",
+          "explain": "Trace any sustained behaviour back to a need -- hunger, achievement, affiliation."
+        },
+        {
+          "step": 2,
+          "action": "watch the drive work",
+          "explain": "The aroused need creates tension that energises and directs activity toward satisfaction."
+        },
+        {
+          "step": 3,
+          "action": "note the closure",
+          "explain": "Reaching the goal reduces the drive and the behaviour subsides -- until the need arises again."
+        }
+      ]
+    },
+    {
+      "id": "kepy108.1.2",
+      "title": "Types of Motives: Biological and Psychosocial",
+      "section": "8.2",
+      "definition": "Motives divide into biological needs -- hunger, thirst, sex, sleep -- rooted in the body's requirements, and psychosocial motives learned in society -- achievement, affiliation, power and curiosity. The former are shared with all animals and cycle with the body; the latter vary with culture and individual history.",
+      "formula": "",
+      "key_idea": "Body-built motives and society-taught motives -- hunger pushes everyone, achievement pushes differently.",
+      "textbook_ref": "kepy108.txt motives sections (important motives, hunger thirst, achievement motivation affiliation power curiosity, biological and psychosocial motives)",
+      "question_patterns": [
+        "distinguish biological motives from psychosocial motives with examples",
+        "in class 11 motivation and emotion: what is achievement motivation and how is it measured",
+        "why is affiliation motive strong in some people",
+        "explain curiosity as a motive with an example",
+        "how does culture shape psychosocial motives",
+        "classify given behaviours as biologically or socially motivated"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "sort the biological set",
+          "explain": "Hunger, thirst and sleep arise from tissue needs and follow bodily cycles."
+        },
+        {
+          "step": 2,
+          "action": "sort the psychosocial set",
+          "explain": "Achievement, affiliation, power and curiosity are learned, vary across persons and cultures, and drive long-term striving."
+        },
+        {
+          "step": 3,
+          "action": "see them interact",
+          "explain": "Social settings modulate even biological motives -- eating by the clock is culture bending biology."
+        }
+      ]
+    },
+    {
+      "id": "kepy108.1.3",
+      "title": "Nature of Emotions and Their Expression",
+      "section": "8.3",
+      "definition": "Emotions are complex feeling states -- subjective experience, bodily arousal and expressive behaviour together -- that evaluate events as good or bad for us. They are expressed through facial expressions, posture and voice, read widely across cultures, and they energise, direct and even disrupt thought and action.",
+      "formula": "",
+      "key_idea": "Emotion is a three-part signal -- felt, aroused and shown -- that appraises the world and mobilises us.",
+      "textbook_ref": "kepy108.txt emotion sections (nature of emotional expression, facial expressions, cultural similarity in expression, arousal, functions of emotions)",
+      "question_patterns": [
+        "define emotion and list its components",
+        "in class 11 motivation and emotion: how are emotions expressed through the face and body",
+        "are emotional expressions similar across cultures discuss",
+        "how do emotions influence performance",
+        "distinguish emotions from motives with an example",
+        "explain how emotional arousal affects a student before an exam"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "assemble the components",
+          "explain": "An emotion joins subjective feeling, physiological arousal and outward expression."
+        },
+        {
+          "step": 2,
+          "action": "read the expressions",
+          "explain": "Faces, voice and posture broadcast states; basic expressions are recognised across cultures."
+        },
+        {
+          "step": 3,
+          "action": "see the functions",
+          "explain": "Emotions appraise events, prepare responses and communicate -- mobilising or disrupting behaviour by intensity."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kepy108.txt motives sections",
+      "concept": "kepy108.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "A student studies late every night to top the board exams. Identify the motive involved and classify it.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "identify the motive",
+          "explain": "Striving for excellence in competitive goals is achievement motivation."
+        },
+        {
+          "step": 2,
+          "action": "classify it",
+          "explain": "It is a psychosocial motive -- learned, culture-shaped, and varying in strength across people."
+        },
+        {
+          "step": 3,
+          "action": "note its cycle",
+          "explain": "Each success raises the bar and re-arms the motive -- unlike a bodily need, it is never finally satisfied."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kepy108.txt emotion sections",
+      "concept": "kepy108.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "Before a stage performance a singer's hands tremble and heart races, yet she sings better than usual. Explain using the nature of emotions.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "identify the emotion",
+          "explain": "Stage fright shows the full triad: subjective anxiety, bodily arousal and visible expression."
+        },
+        {
+          "step": 2,
+          "action": "explain the mobilisation",
+          "explain": "Moderate arousal sharpens attention and energises performance -- emotion preparing action."
+        },
+        {
+          "step": 3,
+          "action": "note the threshold",
+          "explain": "Beyond a point the same arousal would disrupt her -- intensity decides whether emotion helps or harms."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kepy108.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Define motivation and describe its cycle with an example.",
+        "Distinguish biological and psychosocial motives.",
+        "Explain achievement motivation and its importance.",
+        "Describe the components of an emotion.",
+        "How are emotions expressed and recognised?",
+        "Discuss the relationship between arousal and performance."
+      ]
+    }
+  ]
+}

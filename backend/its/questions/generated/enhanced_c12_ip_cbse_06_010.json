@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_06_010",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_06_010",
+   "title": "c12_ip_cbse_06_010",
+   "questions": [
+    {
+     "q": "What is the output of `typeof null` in JavaScript, and why does this result often surprise beginners who expect it to be `\"null\"`?",
+     "a": "The output is `\"object\"`. This is a long-standing JavaScript quirk from the first implementation where `null` was represented as a null pointer (0x00) which the `typeof` operator identified as an object. Beginners expect `\"null\"` because `null` is a primitive value, but `typeof` returns `\"object\"` for `null`. A wrong answer (e.g., `\"null\"` or `\"undefined\"`) reveals the student has memorised the primitive list but hasn't encountered this specific historical bug that appears in CBSE theory questions and competitive exam MCQs.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between `let` and `const` in terms of reassignment and mutation. If you declare `const arr = [1, 2];`, can you execute `arr.push(3)`? Can you execute `arr = [4, 5];`? Justify both answers.",
+     "a": "`let` allows reassignment (binding a new value to the same variable name); `const` forbids reassignment but allows mutation of the object/array it references. `arr.push(3)` works because it mutates the existing array object — the binding `arr` still points to the same array. `arr = [4, 5]` fails with `TypeError: Assignment to constant variable` because it attempts to rebind `arr` to a new array. A student who says both fail or both work confuses reassignment with mutation — a critical distinction for CBSE practicals where `const` is preferred for arrays/objects that will be modified in place.",
+     "self_check": true
+    },
+    {
+     "q": "Predict the output of each expression and explain the type coercion rule applied:\n(a) `\"10\" + 5`\n(b) `\"10\" - 5`\n(c) `true + 2`\n(d) `null + 1`\n(e) `undefined + 1`",
+     "a": "(a) `\"105\"` — `+` with a string operand triggers string concatenation; number 5 is coerced to `\"5\"`. (b) `5` — `-` is not defined for strings, so both operands are coerced to numbers (`10 - 5`). (c) `3` — `true` coerces to `1` in numeric context. (d) `1` — `null` coerces to `0` in numeric context. (e) `NaN` — `undefined` coerces to `NaN` in numeric context; any arithmetic with `NaN` yields `NaN`. A student answering `\"105\"`, `\"5\"`, `\"true2\"`, `\"null1\"`, `\"undefined1\"` treats all operators as string concatenation, missing that only `+` performs concatenation — a classic CBSE board trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare `==` and `===` with these pairs. For each, state the result of both operators and explain WHY they differ or match:\n(i) `0 == false` vs `0 === false`\n(ii) `\"\" == false` vs `\"\" === false`\n(iii) `null == undefined` vs `null === undefined`\n(iv) `\"5\" == 5` vs `\"5\" === 5`",
+     "a": "(i) `0 == false` → `true` (both coerce to 0); `0 === false` → `false` (number vs boolean, different types). (ii) `\"\" == false` → `true` (both coerce to 0); `\"\" === false` → `false` (string vs boolean). (iii) `null == undefined` → `true` (special ECMA spec rule: they are loosely equal only to each other); `null === undefined` → `false` (different types: `object` vs `undefined`). (iv) `\"5\" == 5` → `true` (string coerced to number); `\"5\" === 5` → `false` (string vs number). A student claiming `===` is \"stricter `==`\" without explaining the coercion steps misses the mechanistic difference — CBSE asks \"why\" in 2-mark questions.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this code to check if a user-entered age (from `prompt()`) is eligible for voting (age ≥ 18):\n```javascript\nlet age = prompt(\"Enter age:\");\nif (age >= 18) { alert(\"Eligible\"); } else { alert(\"Not eligible\"); }\n```\nWhen they test with input `18`, it works. But input `\"18\"` (with quotes) also works. Input `\"eighteen\"` shows \"Not eligible\" but no error. Identify the latent bug and rewrite the code to robustly validate numeric input, explaining each fix.",
+     "a": "`prompt()` always returns a string. `age >= 18` triggers implicit coercion: `\"18\"` → `18` (works), `\"eighteen\"` → `NaN`, and `NaN >= 18` is `false` (silently wrong). The bug: non-numeric strings pass the `else` branch without validation. Fix:\n```javascript\nlet input = prompt(\"Enter age:\");\nlet age = Number(input);\nif (Number.isNaN(age) || age < 0 || !Number.isInteger(age)) {\n  alert(\"Invalid age\");\n} else if (age >= 18) { alert(\"Eligible\"); }\nelse { alert(\"Not eligible\"); }\n```\n`Number()` converts string to number (returns `NaN` for invalid). `Number.isNaN()` detects conversion failure. Checks for negative and non-integer ages. A student who only adds `parseInt()` misses `NaN` handling and `\"18.5\"` → `18` truncation — CUET practicals test this exact validation pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini \"shopping cart\" script (5-8 lines) that:\n- Declares `const` arrays for `items` (names) and `prices` (numbers)\n- Uses a loop to compute total using `reduce()` or `for` loop\n- Applies 18% GST using arithmetic operators\n- Displays formatted output: `\"Total: ₹X.XX (incl. 18% GST)\"` using template literals\n- Handles empty cart gracefully",
+     "a": "```javascript\nconst items = [\"Notebook\", \"Pen\"];\nconst prices = [50, 10];\nconst subtotal = prices.reduce((sum, p) => sum + p, 0);\nconst gst = subtotal * 0.18;\nconst total = subtotal + gst;\nconsole.log(`Items: ${items.join(\", \")}`);\nconsole.log(`Subtotal: ₹${subtotal.toFixed(2)}`);\nconsole.log(`Total: ₹${total.toFixed(2)} (incl. 18% GST)`);\n```\nIf arrays empty: `subtotal = 0`, output shows `₹0.00`. Key concepts tested: `const` for arrays (mutation allowed), `reduce()` for aggregation, arithmetic precedence (`*` before `+`), template literals with `${}`, `toFixed(2)` for currency formatting. A poor answer uses `var`, manual loop with index errors, string concatenation with `+`, or forgets `toFixed` — revealing gaps in modern JS practices expected in board practicals.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

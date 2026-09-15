@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_01_011",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_01_011",
+   "title": "c11_eng_h_cbse_01_011",
+   "questions": [
+    {
+     "q": "What is the structure of the past perfect tense, and what time relationship does it express?",
+     "a": "The past perfect is formed with *had* + past participle (e.g., *had known*, *had finished*). It expresses an action that was completed before another action or time in the past. A wrong answer (e.g., confusing it with simple past or present perfect) reveals that the student has not internalised the \"past-before-past\" timeline concept, which is essential for sequencing events in narratives.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"Her fingers were busy telling the beads of her rosary,\" why does 'tell' not mean 'to speak' or 'to inform'?",
+     "a": "Here 'tell' means 'to count while reciting' (sense 2 in the textbook exercise). The collocation \"telling the beads\" is a fixed phrase for counting prayers on a rosary. A student who chooses 'make something known' shows they are not using context clues (fingers, beads, rosary) to disambiguate polysemous words.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following sentence using the past perfect to show that the grandmother's feeding of sparrows happened before the author's return from university: \"She fed the sparrows every afternoon. I returned after five years.\"",
+     "a": "\"She had fed the sparrows every afternoon before I returned after five years.\" (Or: \"Before I returned after five years, she had fed the sparrows every afternoon.\") Steps: 1) Identify the earlier action (feeding sparrows) and later action (return). 2) Put the earlier action into past perfect (*had fed*). 3) Keep the later action in simple past (*returned*). 4) Use a conjunction (before/when) or reorder clauses to clarify sequence. A wrong answer that uses simple past for both (*She fed... I returned*) fails to mark the temporal precedence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two uses of 'take' in the text: \"she took to feeding sparrows\" and \"she took ill.\" Explain how the particle (to/ill) changes the meaning of the verb.",
+     "a": "\"Took to\" + gerund means 'began a habit' (she started feeding sparrows regularly). \"Took ill\" is an idiomatic intransitive phrase meaning 'became sick suddenly'. The particle *to* introduces a new activity, while *ill* functions as a complement describing a change of state. A student who treats both as literal 'take' (grasp/carry) misses the phrasal-verb and idiomatic nature of these collocations.",
+     "self_check": true
+    },
+    {
+     "q": "Which of the following walking verbs best describes the grandmother's movement in the phrase \"She hobbled about the house,\" and why are the others less suitable? Options: shuffle, stride, waddle, trudge, slog.",
+     "a": "'Hobble' is the only verb that specifically implies walking with difficulty due to age/infirmity, often with a limp. 'Shuffle' suggests dragging feet without lifting them (could fit but less precise). 'Stride' implies long, confident steps (contradicts frailty). 'Waddle' suggests a side-to-side gait from heaviness (not indicated). 'Trudge' and 'slog' imply slow, heavy, laborious walking, usually through mud or fatigue, not the specific physical limitation of old age. Choosing 'shuffle' or 'trudge' shows the student recognises slow movement but cannot discriminate nuance of cause (age vs. terrain vs. mood).",
+     "self_check": true
+    },
+    {
+     "q": "Write a three-sentence mini-narrative about an elderly person that uses: (a) one past perfect verb, (b) the phrase \"took to\" + gerund, and (c) one precise walking verb from the textbook list (shuffle, stride, waddle, trudge, slog).",
+     "a": "Example: \"Grandfather had tended the garden for decades before his knees gave way. He took to sitting on the bench and watching the birds. Now he could only shuffle along the path with a cane.\" Evaluation: Checks that past perfect (*had tended*) precedes simple past (*gave way*), \"took to sitting\" shows new habit, and 'shuffle' fits an elderly gait. A poor answer might misuse the tense, treat \"took to\" as literal, or pick 'stride' inappropriately.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

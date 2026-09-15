@@ -1,0 +1,171 @@
+{
+ "class": 10,
+ "subject": "english",
+ "chapter": 105,
+ "chapter_title": "Glimpses of India: A Baker from Goa, Coorg and Tea from Assam",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jeff105.txt",
+ "concepts": [
+  {
+   "id": "jeff.105.1.1",
+   "title": "A Baker from Goa: The Pader's Place in Village Life",
+   "section": "A Baker from Goa",
+   "definition": "The Goan village baker, called pader, remains a mixed memory of Portuguese days: his loaves, sweet bread bol and bolinhas for marriages and festivals mark every occasion, and his plump, jackfruit-like figure testifies to good living.",
+   "formula": "",
+   "key_idea": "Bakers wore the kabai, a one-piece long dress in Portuguese days, and later shirt and trousers; children ran to him for bread bangles, and monthly accounts were kept in a pencil notebook.",
+   "textbook_ref": "jeff105.txt lines 60-320",
+   "question_patterns": [
+    "what is a must for marriage gifts and festivals in goa",
+    "what did the bakers wear in the portuguese days",
+    "why is the baker's presence important in a goan village",
+    "what does a jackfruit like appearance mean",
+    "where were the monthly accounts of the baker recorded",
+    "how did children treat the baker's visit",
+    "what are bol and bolinhas"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the baker's goods",
+     "explain": "Match occasions to bread: bol for parties, bolinhas for marriage gifts, sandwiches and cakes for Christmas."
+    },
+    {
+     "step": 2,
+     "action": "note the baker's dress",
+     "explain": "The kabai, a single-piece long frock in Portuguese days, later gave way to shirt and trousers below the knee."
+    },
+    {
+     "step": 3,
+     "action": "verify the social role",
+     "explain": "The pader's musical bamboo staff announced his arrival; children collected bread bangles, and accounts were tallied monthly in a notebook."
+    }
+   ]
+  },
+  {
+   "id": "jeff.105.2.1",
+   "title": "Coorg: Land of Coffee, Rain and Brave Men",
+   "section": "Coorg",
+   "definition": "Coorg, halfway between Mysore and the coastal town of Mangalore, is a land of rolling hills with evergreen rainforests, spices and coffee plantations, whose people, the Kodavus, are famed for valour and hospitality.",
+   "formula": "",
+   "key_idea": "Coorg's best season begins in September and runs to March, when the air breathes of coffee; its people may descend from Greek or Arab stock, and their dress, the kuppia, resembles the Arab kuffia.",
+   "textbook_ref": "jeff105.txt lines 320-620",
+   "question_patterns": [
+    "where is coorg situated",
+    "why is coorg called the land of rolling hills",
+    "what is the story about the greek or arab descent of coorg people",
+    "what is the best season to visit coorg and why",
+    "describe the dress of the kodavu people",
+    "what sports can one enjoy in coorg",
+    "why are coorgi people famous for valour"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "locate Coorg",
+     "explain": "Coorg lies between Mysore and Mangalore in Karnataka, smallest by size but rich in rainforest and coffee estates."
+    },
+    {
+     "step": 2,
+     "action": "check the descent legends",
+     "explain": "One tradition links Kodavus to Alexander's Greek soldiers; another to Arab origin, reflected in the kuppia resembling the kuffia."
+    },
+    {
+     "step": 3,
+     "action": "verify the culture of valour",
+     "explain": "Coorgis have served in the Indian Army, and General Cariappa was the first Commander-in-Chief from Coorg."
+    }
+   ]
+  },
+  {
+   "id": "jeff.105.3.1",
+   "title": "Tea from Assam: Legends and the Tea Gardens",
+   "section": "Tea from Assam",
+   "definition": "Rajvir, travelling by train with his friend Pranjol towards Assam, sees acres of tea bushes on the hillside and recalls the legends that tea originated in China: Bodhidharma's eyelids and the Chinese emperor's boiling water.",
+   "formula": "",
+   "key_idea": "The tea gardens of Assam, with sprouting second-flush leaves from May to July, are a world of green, and Pranjol, born on a plantation, is less curious than his bookish friend.",
+   "textbook_ref": "jeff105.txt lines 620-900",
+   "question_patterns": [
+    "what legends are associated with the origin of tea",
+    "who was pranjol and where was he going",
+    "describe the scenery of the assam tea gardens",
+    "what is the second flush of tea leaves",
+    "why was rajvir excited about the tea gardens",
+    "which words in the description tell that assam has the largest tea plantations",
+    "what did rajvir say about tea drinking in china"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set the journey",
+     "explain": "Pranjol and Rajvir travel to Assam, home of the world's largest tea plantations."
+    },
+    {
+     "step": 2,
+     "action": "recall the tea legends",
+     "explain": "Bodhidharma cut off his eyelids in China, and the emperor's boiled leaves blew into his water, giving tea its origin stories."
+    },
+    {
+     "step": 3,
+     "action": "note the plantation facts",
+     "explain": "Rajvir tells of the second flush from May to July, and the group arrives at Dhekiabari tea estate."
+    }
+   ]
+  },
+  {
+   "id": "jeff.105.4.1",
+   "title": "Three Portraits, One Country",
+   "section": "Glimpses of India",
+   "definition": "The three parts of the chapter together paint India's variety: a Portuguese-era food tradition in Goa, a martial and natural wonderland in Coorg, and an industrial tea belt in Assam.",
+   "formula": "",
+   "key_idea": "Each pen-picture ties a place to a livelihood and a culture, from the pader's bread run to Coorg's coffee and Assam's tea bushes.",
+   "textbook_ref": "jeff105.txt lines 1-60, 900-980",
+   "question_patterns": [
+    "compare the three regions described in glimpses of india",
+    "how do food and drink traditions shape regional identity",
+    "what makes goa coorg and assam distinct from each other",
+    "how do the three writers show pride in their regions",
+    "which glimpses of india did you find most appealing and why",
+    "how does each part connect history with the present"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare the settings",
+     "explain": "Goa shows a colonial memory of bakers, Coorg a hill culture of coffee and courage, Assam a plantation economy."
+    },
+    {
+     "step": 2,
+     "action": "trace the common thread",
+     "explain": "In each portrait a product or service, bread, coffee, tea, carries the identity of the people."
+    },
+    {
+     "step": 3,
+     "action": "verify the literary devices",
+     "explain": "All three use sensory description, anecdote and first-person memory to bring the region alive."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "jeff105.txt lines 60-980",
+   "questions": [
+    "What is a must (i) as marriage gifts? (ii) for a party or a feast? (iii) for a daughter's engagement? (iv) for Christmas?",
+    "What did the bakers wear: (i) in the Portuguese days? (ii) when the author was young?",
+    "Who invites the comment - 'he is dressed like a pader'? Why?",
+    "Where were the monthly accounts of the baker recorded?",
+    "What does a 'jackfruit-like appearance' mean?",
+    "Where is Coorg situated?",
+    "What is the story about the Kodavu people's descent?",
+    "When does the best season of Coorg begin and what makes it special?",
+    "What legends are associated with the origin of tea?",
+    "Why was Rajvir excited to see the tea gardens while Pranjol was not?"
+   ]
+  }
+ ]
+}

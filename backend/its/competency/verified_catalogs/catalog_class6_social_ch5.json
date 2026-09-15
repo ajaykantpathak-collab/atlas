@@ -1,0 +1,515 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 5,
+ "chapter_title": "India, That Is Bharat",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fees105.txt",
+ "concepts": [
+  {
+   "id": "c6ss.5.1",
+   "title": "Meaning of India and Bharat",
+   "section": "5.1",
+   "definition": "India and Bharat are two names for the same nation; 'Bharat' derives from ancient texts and the Bharata clan, while 'India' originates from the river Indus and the Greek term 'Indoi'.",
+   "formula": "",
+   "key_idea": "The Constitution recognises both 'India' and 'Bharat' as the official names of the country, reflecting its ancient and modern identities.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain the meaning of the names India and Bharat",
+    "describe the origin of the word India",
+    "what is the significance of the name Bharat",
+    "why does the constitution use both India and Bharat",
+    "trace the historical roots of the name Bharat"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the origin of each name",
+     "explain": "Bharat comes from the Bharata clan and ancient texts like the Rig Veda; India comes from the Indus river and the Greek word 'Indoi'."
+    },
+    {
+     "step": 2,
+     "action": "Link names to the Constitution",
+     "explain": "Article 1 of the Constitution states 'India, that is Bharat, shall be a Union of States', giving both names official status."
+    },
+    {
+     "step": 3,
+     "action": "Verify dual identity",
+     "explain": "Confirm that the two names together reflect India's continuous civilizational heritage and its modern national identity."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "From which river does the name India originate?",
+     "solution": "The name India comes from the river Indus, called 'Sindhu' in Sanskrit, which the Greeks pronounced as 'Indoi'.",
+     "answer": "The river Indus"
+    },
+    {
+     "question": "Where in the Constitution are both names used?",
+     "solution": "Article 1 declares 'India, that is Bharat, shall be a Union of States'.",
+     "answer": "Article 1"
+    },
+    {
+     "question": "Who were the Bharatas?",
+     "solution": "The Bharatas were an ancient Vedic clan mentioned in the Rig Veda, after whom the name Bharat is derived.",
+     "answer": "An ancient Vedic clan"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the origin of the names 'India' and 'Bharat'.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why does the Indian Constitution use both 'India' and 'Bharat'?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Write a note on the historical significance of the name Bharat.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.5.2",
+   "title": "Geographical Extent of India",
+   "section": "5.2",
+   "definition": "India extends from about 8 degrees 4 minutes North to 37 degrees 6 minutes North latitude and 68 degrees 7 minutes East to 97 degrees 25 minutes East longitude, giving it a vast north-south spread.",
+   "formula": "latitudinal_extent = north_latitude - south_latitude",
+   "key_idea": "India's latitudinal extent of about 29 degrees accounts for its wide climate variety from tropical to temperate conditions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate the latitudinal extent of India in degrees",
+    "describe the geographical extent of India from north to south",
+    "what is the longitudinal extent of India and why does it matter",
+    "explain how India's latitudinal extent affects its climate",
+    "state the northernmost and southernmost latitudes of India"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the boundary latitudes",
+     "explain": "Note the southernmost point near 8 degrees 4 minutes North and the northernmost point near 37 degrees 6 minutes North."
+    },
+    {
+     "step": 2,
+     "action": "Compute the latitudinal extent",
+     "explain": "Subtract the southern latitude from the northern latitude to obtain the total spread in degrees.",
+     "compute": "latitudinal_extent = north_latitude - south_latitude"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the climate impact",
+     "explain": "A spread of about 29 degrees produces a range of climatic zones from tropical in the south to temperate in the north."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Calculate the approximate latitudinal extent of India using 37.10 degrees N and 8.07 degrees N.",
+     "solution": "latitudinal_extent = 37.10 - 8.07 = 29.03 degrees.",
+     "answer": "About 29 degrees"
+    },
+    {
+     "question": "If India's longitudinal extent is from 68.12 degrees E to 97.25 degrees E, find the spread in degrees.",
+     "solution": "longitudinal_extent = 97.25 - 68.12 = 29.13 degrees.",
+     "answer": "About 29 degrees"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the latitudinal extent of India and explain its climatic significance.",
+     "type": "short_answer"
+    },
+    {
+     "question": "State the northernmost and southernmost points of India with their latitudes.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.5.3",
+   "title": "India's Neighbours",
+   "section": "5.3",
+   "definition": "India shares land borders with seven neighbouring countries: Pakistan, Afghanistan, China, Nepal, Bhutan, Myanmar, and Bangladesh, and has maritime neighbours including Sri Lanka and the Maldives.",
+   "formula": "",
+   "key_idea": "India's location gives it a strategic position in South Asia with both land and sea neighbours that influence its culture and security.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "list the countries that share a land border with India",
+    "which countries are India's maritime neighbours",
+    "name the neighbour of India separated by the Palk Strait",
+    "describe India's strategic location in South Asia",
+    "how many countries share land borders with India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify land neighbours",
+     "explain": "List the seven land-border countries: Pakistan, Afghanistan, China, Nepal, Bhutan, Myanmar, and Bangladesh."
+    },
+    {
+     "step": 2,
+     "action": "Identify maritime neighbours",
+     "explain": "Sri Lanka and the Maldives are separated from India by sea; Sri Lanka lies across the Palk Strait."
+    },
+    {
+     "step": 3,
+     "action": "Verify strategic significance",
+     "explain": "Confirm that India's central position in South Asia makes it a cultural and strategic bridge between East and West Asia."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which water body separates India and Sri Lanka?",
+     "solution": "The Palk Strait separates India and Sri Lanka.",
+     "answer": "The Palk Strait"
+    },
+    {
+     "question": "Name two land neighbours of India in the north.",
+     "solution": "Nepal and Bhutan lie to the north of India.",
+     "answer": "Nepal and Bhutan"
+    },
+    {
+     "question": "How many countries share a land border with India?",
+     "solution": "Seven countries share land borders with India.",
+     "answer": "Seven"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List all the countries that share a land border with India.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name India's maritime neighbours and the water bodies that separate them.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the strategic importance of India's location in South Asia.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.5.4",
+   "title": "Unity in Diversity in India",
+   "section": "5.4",
+   "definition": "Unity in diversity means that despite differences in language, religion, food, dress, and customs, the people of India share a common national identity and cultural bond.",
+   "formula": "",
+   "key_idea": "India's diversity in languages, religions, and traditions is united by shared values, history, and a common constitutional framework.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain the phrase unity in diversity with reference to India",
+    "give examples of diversity in Indian society",
+    "how does India maintain unity despite its diversity",
+    "describe the factors that bind Indians together",
+    "why is India called a diverse nation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify forms of diversity",
+     "explain": "Recognise diversity in languages, religions, festivals, food habits, clothing, and customs across regions."
+    },
+    {
+     "step": 2,
+     "action": "Identify unifying factors",
+     "explain": "Shared history, democratic values, the Constitution, and national symbols bind the people together."
+    },
+    {
+     "step": 3,
+     "action": "Verify the unity principle",
+     "explain": "Confirm that diversity enriches the nation while common aspirations and constitutional ideals sustain unity."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Give two examples of linguistic diversity in India.",
+     "solution": "India has 22 scheduled languages; Tamil is spoken in the south and Punjabi in the north.",
+     "answer": "Tamil and Punjabi"
+    },
+    {
+     "question": "What binds the diverse people of India together?",
+     "solution": "The Constitution, shared history, and national symbols like the flag create a common bond.",
+     "answer": "Constitution and shared values"
+    },
+    {
+     "question": "How does diversity enrich India?",
+     "solution": "Diversity brings a variety of ideas, arts, and traditions that make Indian culture rich and vibrant.",
+     "answer": "It enriches culture and ideas"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning of 'unity in diversity' with examples from India.",
+     "type": "short_answer"
+    },
+    {
+     "question": "List three factors that create unity among Indians.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss how India's diversity is a source of strength.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.5.5",
+   "title": "India as a Civilizational Entity",
+   "section": "5.5",
+   "definition": "India is not only a modern nation-state but also an ancient civilization that has continued for thousands of years, sharing common cultural roots across its regions.",
+   "formula": "",
+   "key_idea": "The idea of India as a civilization is older than the modern political state, with shared traditions, philosophies, and cultural practices uniting its people.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain India as a civilizational entity",
+    "how is the idea of India older than the modern state",
+    "describe the cultural continuity of Indian civilization",
+    "what shared traditions unite India as a civilization",
+    "distinguish between India as a nation and India as a civilization"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define civilization",
+     "explain": "A civilization is a long-lasting cultural community sharing values, traditions, and ways of life across generations."
+    },
+    {
+     "step": 2,
+     "action": "Trace India's civilizational continuity",
+     "explain": "From the Harappan cities to the Vedic age and later empires, India has maintained cultural continuity for millennia."
+    },
+    {
+     "step": 3,
+     "action": "Verify the civilizational bond",
+     "explain": "Confirm that shared concepts like dharma, pluralism, and respect for knowledge link India's regions into one civilizational whole."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How old is the Indian civilization?",
+     "solution": "Indian civilization began with the Harappan cities around 2600 BCE, making it over 4,500 years old.",
+     "answer": "Over 4,500 years"
+    },
+    {
+     "question": "What is the difference between a nation and a civilization?",
+     "solution": "A nation is a modern political entity with defined borders, while a civilization is a cultural community that may span many centuries.",
+     "answer": "Nation is political; civilization is cultural"
+    },
+    {
+     "question": "Name one shared value of Indian civilization.",
+     "solution": "Pluralism, or respect for many paths and beliefs, is a core shared value of Indian civilization.",
+     "answer": "Pluralism"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how India is both a nation and a civilization.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Give two examples of cultural continuity in Indian civilization.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss the shared values that unite India as a civilization.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.5.6",
+   "title": "Different Names of India in History",
+   "section": "5.6",
+   "definition": "India has been known by many names through history, including Bharat, Bharatvarsha, Jambudvipa, Aryavarta, Hindustan, and India, each reflecting different periods and perspectives.",
+   "formula": "",
+   "key_idea": "The multiple historical names of India reflect its rich past and the different peoples who interacted with the land over centuries.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "list the different names by which India has been known",
+    "explain the meaning of the name Bharatvarsha",
+    "what does the term Jambudvipa refer to",
+    "who used the name Hindustan and what does it mean",
+    "trace the historical names of India with their origins"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List historical names",
+     "explain": "Identify names such as Bharat, Bharatvarsha, Jambudvipa, Aryavarta, Hindustan, and India used in different texts and periods."
+    },
+    {
+     "step": 2,
+     "action": "Explain each name's origin",
+     "explain": "Bharatvarsha means the land of the Bharatas; Jambudvipa is a cosmological term; Aryavarta means the land of the Aryans; Hindustan comes from Persian for land of the Hindus."
+    },
+    {
+     "step": 3,
+     "action": "Verify historical context",
+     "explain": "Confirm that each name emerged from a particular cultural or linguistic context, together showing India's long and layered history."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What does Bharatvarsha mean?",
+     "solution": "Bharatvarsha means the land of the Bharata clan, mentioned in ancient Indian texts.",
+     "answer": "Land of the Bharatas"
+    },
+    {
+     "question": "Which name for India comes from Persian?",
+     "solution": "Hindustan comes from Persian, meaning the land of the Hindus or the people beyond the Indus.",
+     "answer": "Hindustan"
+    },
+    {
+     "question": "What is Jambudvipa?",
+     "solution": "Jambudvipa is an ancient Indian cosmological term referring to the island or continent where humans, including Indians, live.",
+     "answer": "An ancient cosmological term"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List five historical names of India and explain their meanings.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the origin of the name Hindustan.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss how the different names of India reflect its history.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.5.7",
+   "title": "States and Union Territories",
+   "section": "5.7",
+   "definition": "India is a Union of States composed of states that have their own governments and Union Territories that are administered directly by the Central Government.",
+   "formula": "",
+   "key_idea": "The federal structure of India divides the country into states with elected governments and Union Territories under central administration, all under one Constitution.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain the difference between a state and a union territory",
+    "how many states and union territories does India have",
+    "what is the administrative structure of a union territory",
+    "describe the federal structure of India",
+    "why are some regions union territories instead of states"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define a state",
+     "explain": "A state has its own elected government with a legislature and chief minister, as defined by the Constitution."
+    },
+    {
+     "step": 2,
+     "action": "Define a Union Territory",
+     "explain": "A Union Territory is administered directly by the Central Government through a Lieutenant Governor or Administrator."
+    },
+    {
+     "step": 3,
+     "action": "Verify the federal structure",
+     "explain": "Confirm that Article 1 describes India as a Union of States, combining states and Union Territories under a single constitutional framework."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Who administers a Union Territory?",
+     "solution": "A Union Territory is administered by the Central Government through a Lieutenant Governor or Administrator.",
+     "answer": "The Central Government"
+    },
+    {
+     "question": "How does a state differ from a Union Territory?",
+     "solution": "A state has its own elected government, while a Union Territory is governed directly by the Centre.",
+     "answer": "States have elected governments; UTs are centrally governed"
+    },
+    {
+     "question": "Where is the federal structure of India defined?",
+     "solution": "Article 1 of the Constitution defines India as a Union of States.",
+     "answer": "Article 1"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between a state and a Union Territory.",
+     "type": "short_answer"
+    },
+    {
+     "question": "State the significance of Article 1 of the Constitution.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the federal structure of India with examples.",
+     "type": "long_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "reviewer-added",
+   "concept": "c6ss.5.2",
+   "question_type": "compute_drill",
+   "question_pattern": "Worked drill: with {north_latitude} = 6, {south_latitude} = 9, compute the geographical extent of india step by step.",
+   "extracted_variables": {
+    "north_latitude": "6",
+    "south_latitude": "9"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the boundary latitudes",
+     "explain": "Note the southernmost point near 8 degrees 4 minutes North and the northernmost point near 37 degrees 6 minutes North."
+    },
+    {
+     "step": 2,
+     "action": "Compute the latitudinal extent",
+     "explain": "Subtract the southern latitude from the northern latitude to obtain the total spread in degrees.",
+     "compute": "latitudinal_extent = north_latitude - south_latitude"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the climate impact",
+     "explain": "A spread of about 29 degrees produces a range of climatic zones from tropical in the south to temperate in the north."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "reviewer-added",
+   "concept": "c6ss.5.1",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain meaning of india and bharat with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the origin of each name",
+     "explain": "Bharat comes from the Bharata clan and ancient texts like the Rig Veda; India comes from the Indus river and the Greek word 'Indoi'."
+    },
+    {
+     "step": 2,
+     "action": "Link names to the Constitution",
+     "explain": "Article 1 of the Constitution states 'India, that is Bharat, shall be a Union of States', giving both names official status."
+    },
+    {
+     "step": 3,
+     "action": "Verify dual identity",
+     "explain": "Confirm that the two names together reflect India's continuous civilizational heritage and its modern national identity."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)"
+}

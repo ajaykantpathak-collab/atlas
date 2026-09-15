@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_09_002",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_09_002",
+   "title": "c12_eco_cbse_09_002",
+   "questions": [
+    {
+     "q": "State the four components of M1 money supply as defined by the Reserve Bank of India. Use exact RBI terminology.",
+     "a": "M1 = Currency with public + Demand deposits with commercial banks + Other deposits with RBI.  \n**Wrong answer reveals:** Students often write \"currency in circulation\" instead of \"currency with public\" (which excludes cash held by banks), or omit \"other deposits with RBI\" (which includes deposits of quasi-government bodies, foreign central banks, etc.). Some confuse demand deposits with time deposits. This confusion leads to errors in numerical problems where they must compute M1 from raw data.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a ₹10 lakh fixed deposit in a commercial bank is included in M3 but NOT in M1. Use the concept of liquidity in your answer.",
+     "a": "A fixed deposit is a time deposit — it has a maturity period and cannot be withdrawn on demand without penalty. M1 includes only assets that serve as immediate medium of exchange (currency, demand deposits). M3 = M1 + Net time deposits with commercial banks, so the fixed deposit enters at the M3 level.  \n**Wrong answer reveals:** Students often say \"fixed deposits are not money\" — they are money, just less liquid. Others think fixed deposits are in M2 because post office savings are in M2. This shows confusion between the *institution* (bank vs post office) and the *liquidity character* (demand vs time).",
+     "self_check": true
+    },
+    {
+     "q": "Given the following data for an economy (all values in ₹ crores):  \nCurrency with public = 25,000  \nDemand deposits with commercial banks = 15,000  \nOther deposits with RBI = 500  \nSavings deposits with post office savings banks = 8,000  \nNet time deposits with commercial banks = 40,000  \nTotal deposits with post office savings banks (excluding NSC) = 10,000  \nCalculate M1, M2, M3, and M4.",
+     "a": "M1 = 25,000 + 15,000 + 500 = **40,500**  \nM2 = M1 + 8,000 = **48,500**  \nM3 = M1 + 40,000 = **80,500**  \nM4 = M3 + 10,000 = **90,500**  \n**Wrong answer reveals:** Common errors: (a) Adding post office savings to M1 instead of M2; (b) Using \"total time deposits\" instead of \"net time deposits\" for M3 (net = total - interbank deposits); (c) Including NSC in M4 (explicitly excluded); (d) Forgetting \"other deposits with RBI\" in M1. These are exactly the traps in CBSE 3-mark numerical questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the liquidity hierarchy of M1, M2, M3, M4. If the RBI wants to measure the *total purchasing power immediately available* for spending in the economy, which measure should it use and why?",
+     "a": "The RBI should use **M1** because it includes only assets that function as immediate medium of exchange: currency held by public (can be spent instantly), demand deposits (withdrawable by cheque/ATMP/UPI on demand), and other deposits with RBI (liquid claims on the central bank). M2 adds post office savings (withdrawable but with procedural delay), M3 adds time deposits (contractual lock-in), M4 adds all post office deposits.  \n**Wrong answer reveals:** Students often pick M3 because \"it's the broadest measure used in policy\" — but the question asks for *immediately available* purchasing power. This tests whether they understand the *economic meaning* of each measure, not just the formulas.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"M4 is the best measure of money supply for analysing inflation because it includes the maximum number of financial assets.\"",
+     "a": "The statement is **flawed**. While M4 is the broadest aggregate, inflation analysis requires a measure that correlates with *spending pressure*. Assets in M4 but not M3 (post office deposits beyond savings) and M3 but not M1 (time deposits) have low velocity — they are held as stores of value, not for transactions. Empirical studies in India show M3 has the most stable velocity and strongest correlation with nominal GDP/inflation. M4 includes illiquid assets that don't translate to current demand.  \n**Wrong answer reveals:** Students equate \"broader = better\" without understanding the *velocity of circulation* concept. They miss that monetary policy targets (like M3 growth) are chosen based on empirical stability, not comprehensiveness.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a realistic scenario where M1 grows by 12% but M3 grows by only 4% in a year. Explain what this divergence suggests about household and firm behaviour.",
+     "a": "**Scenario:** Households shift savings from fixed deposits (time deposits) to savings accounts and cash due to falling interest rates and preference for liquidity during uncertainty (e.g., pandemic). Firms move working capital from term deposits to current accounts.  \n**Result:** Demand deposits (in M1) rise sharply, while time deposits (in M3 but not M1) fall. M1 growth > M3 growth.  \n**Interpretation:** Rising liquidity preference, precautionary motive strengthening, potential future consumption surge. RBI may see this as a signal to watch for demand-pull inflation if output doesn't keep pace.  \n**Poor answer reveals:** Students give generic \"people withdraw money\" without specifying *from where to where* (time → demand deposits). They miss that M1 and M3 can move in opposite directions because they share M1 as a base but have different marginal components.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+ "catalog": "catalog_class12_informatics_practices_leip106",
+ "concepts": [
+  {
+   "id": "leip106.1",
+   "title": "Digital Footprints",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Digital Footprints' refers to.",
+     "a": "A digital footprint is the trail of data a person leaves online: active footprints are deliberately shared posts, comments and uploads, while passive footprints are traces collected without a deliberate post, such as browsing logs and location records. Footprints persist and can be assembled into a profile.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Digital Footprints'.",
+     "a": "Everything posted can outlive the account that posted it: screenshots, caches and shares mean deletion online is never guaranteed. Thinking before posting is the core habit of digital citizenship.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Digital Footprints'.",
+     "a": "Differentiate active and passive digital footprints with one example each.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip106.2",
+   "title": "Netizen and Net Etiquettes",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Netizen and Net Etiquettes' refers to.",
+     "a": "A netizen is a citizen of the digital society who uses the Internet responsibly. Net etiquettes are the manners of that society: communication etiquettes (no shouting in all caps, respectful replies), social media etiquettes (verify before sharing, respect others' privacy), file sharing etiquettes respecting licences, and protecting one's own and others' data.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Netizen and Net Etiquettes'.",
+     "a": "Online communication loses tone and body language, so courtesy must be carried by the words themselves. Etiquette extends to intellectual respect: do not forward pirated files or private photos of others.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Netizen and Net Etiquettes'.",
+     "a": "Who is a netizen?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip106.3",
+   "title": "Data Protection and Privacy",
+   "questions": [
+    {
+     "q": "Using the method 'Data Protection and Privacy', work with: n = 6, time_s = 240. Carry the chain through step by step and give the final value of tries_each.",
+     "a": "0.0002 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Data Protection and Privacy' and work with: n = 18, time_s = 4. Carry the chain through step by step and give the final value of tries_each.",
+     "a": "0 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Data Protection and Privacy' refers to.",
+     "a": "Data protection keeps personal data safe from unauthorised access and misuse: strong unique passwords, two-step verification with OTP, privacy settings on services, encrypted communication, and limiting what apps may collect. IT law penalises unauthorised access to computer systems and mishandling of personal data.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Data Protection and Privacy'.",
+     "a": "Longer credentials raise the number of possible combinations exponentially: a 4-digit numeric PIN allows 10^4 combinations, while an 8-character mixed-case alphanumeric password allows far more, which is why length and variety both matter.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Data Protection and Privacy', in plain ASCII form.",
+     "a": "combos = 10 ** n",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip106.4",
+   "title": "Intellectual Property Right and Licensing",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Intellectual Property Right and Licensing' refers to.",
+     "a": "An intellectual property right protects creations of the mind: copyright covers software, books and artwork, patents cover inventions, and trademarks cover brand identity. Software licensing states what users may do: proprietary licences restrict copying and modification, while open source licences such as GPL, BSD and Apache grant study, modification and redistribution under stated terms, and Creative Commons licences let creators permit sharing of content in advance.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Intellectual Property Right and Licensing'.",
+     "a": "Using software outside its licence is not a victimless act: the licence is the legal contract. Open source is not the same as free of all conditions - each licence carries obligations, like GPL's requirement to share source of modified works.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Intellectual Property Right and Licensing'.",
+     "a": "What does IPR stand for and name its three branches relevant to software.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip106.5",
+   "title": "Cyber Crime and Cyber Safety Categories",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Cyber Crime and Cyber Safety Categories' refers to.",
+     "a": "Cyber crime is unlawful activity using computers or networks. The chapter's categories include identity theft (impersonating someone using their personal data), phishing (fraudulent messages posing as trusted services to harvest credentials), cyber bullying and stalking (harassment through digital channels), hacking (unauthorised access to systems), and spreading malicious software. Cyber safety is the set of habits that reduce exposure: guarding credentials, verifying senders, reporting abuse, and keeping software updated.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cyber Crime and Cyber Safety Categories'.",
+     "a": "The common thread across categories is misuse of trust or of personal data: Defence is verification (of senders, sites and requests) plus timely reporting to authorities and platforms.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Cyber Crime and Cyber Safety Categories'.",
+     "a": "Define phishing and give one warning sign of such a message.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip106.6",
+   "title": "E-waste and Digital Society Impact",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'E-waste and Digital Society Impact' refers to.",
+     "a": "The digital society's costs include e-waste: discarded electronics containing toxic materials that need recycling rather than dumping, and the digital divide: unequal access to devices and connectivity across income and geography. Awareness of both is part of responsible technology use.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'E-waste and Digital Society Impact'.",
+     "a": "Technology's benefits reach society unevenly, and its hardware has an environmental end of life. The chapter's societal view covers benefits (access, jobs, services) alongside these costs.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'E-waste and Digital Society Impact'.",
+     "a": "What is e-waste and why is dumping it harmful?",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

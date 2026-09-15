@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_12_004",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_12_004",
+   "title": "c12_geo_cbse_12_004",
+   "questions": [
+    {
+     "q": "Define a multipurpose river project and name any three objectives it typically serves in the Indian context.",
+     "a": "A multipurpose river project is a single integrated scheme that harnesses a river's water through a dam/reservoir to achieve several goals simultaneously. Three core objectives: (1) irrigation for agriculture, (2) hydroelectric power generation, (3) flood control. Other objectives include domestic/industrial water supply, navigation, and fisheries. A wrong answer that lists only one objective (e.g., \"it's a dam for irrigation\") reveals the student hasn't grasped the \"multi-purpose\" integration — the defining feature that distinguishes these from single-purpose dams.",
+     "self_check": true
+    },
+    {
+     "q": "Why are multipurpose river projects considered essential in India despite high costs and displacement? Explain using the concepts of rainfall variability and water demand seasonality.",
+     "a": "India's rainfall is concentrated in 3-4 monsoon months (June-September) with high spatial variability (c12_geo_cbse_12_003). Agriculture, which uses 89% of surface water (NCERT), needs water year-round, especially in dry rabi season. Multipurpose projects store monsoon floodwater in reservoirs and release it gradually for irrigation, power, and drinking water during dry months, while also moderating downstream floods. A wrong answer that says \"to generate electricity only\" misses the critical water-security rationale rooted in India's monsoonal climate and agrarian economy.",
+     "self_check": true
+    },
+    {
+     "q": "The Bhakra-Nangal project on the Sutlej river provides irrigation to 1.5 million hectares and generates 1,325 MW of power. If the reservoir's live storage capacity is 7.19 billion cubic meters (BCM), and annual irrigation demand is 5.5 BCM while hydropower requires non-consumptive flow of 4.2 BCM, calculate the total annual water allocation from the reservoir. Explain whether this exceeds live storage and what it implies for reservoir operation.",
+     "a": "Step 1: Identify consumptive use (irrigation) = 5.5 BCM. Step 2: Identify non-consumptive use (hydropower) = 4.2 BCM (water passes through turbines and returns to river). Step 3: Total allocation = 5.5 + 4.2 = 9.7 BCM. Step 4: Compare with live storage (7.19 BCM) → 9.7 > 7.19. Step 5: Implication: Reservoir cannot meet both demands simultaneously from storage alone; it relies on monsoon inflows during the filling season (June-Oct) to supplement releases. Operation must prioritize irrigation releases during dry season and use monsoon inflows for power generation. A wrong answer that adds consumptive and non-consumptive uses without distinguishing them, or ignores monsoon inflow, shows misunderstanding of reservoir water budgeting.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the objectives of the Damodar Valley Corporation (DVC) and the Indira Gandhi Canal Project. How do their primary purposes reflect the geographical problems of their respective regions?",
+     "a": "DVC (Damodar basin, Jharkhand/West Bengal): Primary objectives — flood control (Damodar was called \"River of Sorrow\" due to frequent floods), irrigation, and power for industrial region. Reflects need to tame a flashy, flood-prone river in a mineral-rich area. Indira Gandhi Canal (Rajasthan): Primary objective — irrigation and drinking water for arid Thar Desert using surplus water from Punjab's Sutlej/Beas. Reflects water transfer from surplus to deficit region. A wrong answer that gives identical objectives for both shows failure to link project design to regional hydro-geography (flood-prone vs. water-scarce).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Multipurpose river projects are the most sustainable solution to India's water scarcity.\" Consider environmental, social, and economic dimensions.",
+     "a": "Not fully sustainable. Economic: Provide irrigation, power, flood control — critical for food/energy security. Social: Displace millions (e.g., 1.5 lakh for Bhakra), often tribal communities; rehabilitation remains inadequate. Environmental: Submerge forests, fragment rivers, alter sediment flow, cause salinity/waterlogging in command areas (e.g., Punjab). Sustainable only with rigorous EIA, participatory planning, and complementary measures (rainwater harvesting, watershed management — c12_geo_cbse_12_007/008). A wrong answer that says \"yes, they solve everything\" ignores well-documented trade-offs; one that says \"no, they are destructive\" overlooks their role in India's green revolution and industrial base.",
+     "self_check": true
+    },
+    {
+     "q": "Design a conceptual multipurpose project for a hypothetical river basin in central India with: (a) high monsoon runoff, (b) dry winters, (c) tribal population in upstream forests, (d) downstream cotton-growing belt. List four objectives, one major environmental concern, and one social mitigation measure.",
+     "a": "Objectives: (1) Kharif flood control, (2) Rabi irrigation for cotton, (3) Hydropower for regional grid, (4) Drinking water for downstream towns. Environmental concern: Submergence of tribal forest land and fragmentation of wildlife corridor. Social mitigation: Forest Rights Act-compliant rehabilitation with land-for-land compensation, co-management of reservoir fisheries by displaced communities. A poor answer lists generic objectives without linking to the basin's specific geography (cotton needs rabi water, tribal forests upstream) or proposes cash compensation only (fails land-based livelihood restoration).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

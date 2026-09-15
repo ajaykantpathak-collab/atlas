@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_04_008",
+   "title": "c11_bio_cbse_04_008",
+   "questions": [
+    {
+     "q": "State the three germ layers present in annelids and name the body cavity type they possess.",
+     "a": "Annelids are triploblastic (ectoderm, mesoderm, endoderm) and coelomate (true coelom lined by mesodermal peritoneum). A wrong answer (e.g., \"diploblastic\" or \"pseudocoelomate\") reveals confusion with Cnidaria or Aschelminthes respectively, indicating the student has not internalized the germ-layer and coelom progression across phyla.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the circulatory system of annelids described as \"closed\" while that of arthropods is \"open\"? Explain the functional consequence for oxygen transport.",
+     "a": "In a closed system, blood is confined to vessels (dorsal and ventral vessels connected by capillaries), allowing directed high-pressure flow and efficient oxygen delivery to tissues. In arthropods, haemolymph bathes tissues directly in sinuses (haemocoel). A wrong answer focusing only on \"presence of heart\" misses the vessel confinement distinction, showing superficial memorization without understanding pressure-driven transport physiology.",
+     "self_check": true
+    },
+    {
+     "q": "An unknown worm specimen shows: (i) distinct external rings, (ii) parapodia with setae on lateral sides, (iii) closed circulation, (iv) nephridia in each segment. Identify its class and justify using two features.",
+     "a": "Class Polychaeta (e.g., Nereis). Justification: Parapodia with setae are locomotory structures unique to polychaetes; nephridia in each segment (segmentally arranged) confirm metameric organization. A wrong classification as Oligochaeta would ignore parapodia; calling it Hirudinea would miss setae and parapodia. This tests ability to map morphological traits to taxonomic classes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the excretory structures of Platyhelminthes (flame cells), Aschelminthes (excretory tube), and Annelida (nephridia). How does increasing complexity of coelom correlate with excretory evolution?",
+     "a": "Flame cells (protonephridia) in acoelomates filter interstitial fluid; excretory tube in pseudocoelomates drains pseudocoelomic fluid; nephridia (metanephridia) in coelomates are ciliated funnels opening into coelom, filtering coelomic fluid. Correlation: true coelom provides a distinct fluid compartment enabling tubular excretory organs with ciliated funnels (nephrostomes). A wrong answer listing structures without linking to coelom type shows lack of evolutionary-developmental reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Earthworms are hermaphrodites but cross-fertilization is obligatory; therefore, they cannot self-fertilize.\" Is it fully correct? Explain the mechanism preventing selfing.",
+     "a": "Statement is correct. Earthworms (Pheretima) are monoecious (hermaphrodite) but protandrous — testes mature before ovaries. During copulation, two worms exchange sperm mutually; self-fertilization is prevented by temporal separation of gamete maturity. A wrong evaluation (e.g., \"they can self-fertilize\") misses protandry, a key reproductive adaptation ensuring genetic diversity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple dichotomous key (4 steps) to distinguish Nereis, Pheretima, and Hirudinaria using only external morphological features visible to naked eye.",
+     "a": "1. Body with distinct parapodia bearing setae → Nereis; without parapodia → go to 2.\n2. Body with anterior and posterior suckers → Hirudinaria; without suckers → go to 3.\n3. Clitellum present in mature worms → Pheretima; clitellum absent → not an annelid (or immature).\nA poor key uses internal features (e.g., \"closed circulation\") or non-distinct traits (e.g., \"segmented body\" — all three have it), showing inability to select diagnostic characters.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

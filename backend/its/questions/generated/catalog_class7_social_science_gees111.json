@@ -1,0 +1,99 @@
+{
+ "catalog": "catalog_class7_social_science_gees111",
+ "concepts": [
+  {
+   "id": "gees.11.1",
+   "title": "The Barter System",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Barter System' refers to.",
+     "a": "Before money, people bartered, exchanging goods directly: grain for cloth, cattle for salt; exchange worked only when each trader wanted exactly what the other offered, the double coincidence of wants.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Barter System'.",
+     "a": "Barter ties every trade to luck: without a matching want on both sides, no deal can close.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Barter System' taught, and from which source text?",
+     "a": "Barter (source: gees111.txt, Barter)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gees.11.2",
+   "title": "Money as Medium of Exchange",
+   "questions": [
+    {
+     "q": "Using the method 'Money as Medium of Exchange', work with: measure = 3, medium = 20, standard = 20, store = 360. Carry the chain through step by step and give the final value of money.",
+     "a": "403 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Money as Medium of Exchange' and work with: measure = 3, medium = 80, standard = 400, store = 400. Carry the chain through step by step and give the final value of money.",
+     "a": "883 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Money as Medium of Exchange' refers to.",
+     "a": "Money steps in as a medium everyone accepts: sell your goods for money, buy what you need with it; it also serves as a common measure of value, a store of savings and a standard for future payments.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Money as Medium of Exchange'.",
+     "a": "Money untangles trade: the farmer need not find a cloth-maker who wants grain, only a buyer who has money.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Money as Medium of Exchange', in plain ASCII form.",
+     "a": "money = medium + measure + store + standard",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gees.11.3",
+   "title": "From Coins to Currency",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'From Coins to Currency' refers to.",
+     "a": "Metal coins stamped with kings' seals served trade for centuries, and paper currency backed by the state followed; India's rupee carries both a long history and the promise of the central bank.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'From Coins to Currency'.",
+     "a": "Money evolves with trade: from weighed metal to minted coin to printed note to digital transfer.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'From Coins to Currency' taught, and from which source text?",
+     "a": "History of money (source: gees111.txt, History of money)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gees.11.4",
+   "title": "Exchange in a Market Economy",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Exchange in a Market Economy' refers to.",
+     "a": "With money, exchange grew into the market economy around us: prices express values, wages pay for work, and saving channels money to those who invest, linking present effort with future reward.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Exchange in a Market Economy'.",
+     "a": "Money made exchange so smooth that specialisation bloomed: do one thing well and trade for the rest.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Exchange in a Market Economy' taught, and from which source text?",
+     "a": "Exchange today (source: gees111.txt, Exchange today)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_08_001",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_08_001",
+   "title": "c11_chem_cbse_08_001",
+   "questions": [
+    {
+     "q": "Define oxidation and reduction according to the classical concept using oxygen and hydrogen transfer. Give one example of each.",
+     "a": "Oxidation: gain of oxygen or loss of hydrogen. Example: 2Mg + O2 → 2MgO (Mg gains oxygen). Reduction: loss of oxygen or gain of hydrogen. Example: CuO + H2 → Cu + H2O (CuO loses oxygen). A wrong answer (e.g., defining oxidation only as gain of oxygen) reveals the student has not internalized the dual O/H definition and will struggle with reactions like CH4 + 2O2 → CO2 + 2H2O where carbon undergoes both processes.",
+     "self_check": true
+    },
+    {
+     "q": "In the reaction 2H2S + SO2 → 3S + 2H2O, identify which species is oxidized and which is reduced using the classical concept of electronegative/ electropositive elements. Explain why oxygen-transfer definition fails here.",
+     "a": "H2S is oxidized (loses hydrogen, an electropositive element) and SO2 is reduced (loses oxygen, an electronegative element). The oxygen-transfer definition fails because no oxygen is transferred between reactants; oxygen is lost from SO2 but gained by hydrogen to form water, not by another element. A student who only looks for O-transfer will miss the redox nature of this reaction.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the classical definition to the reaction: 2Na + Cl2 → 2NaCl. Identify the oxidizing agent and reducing agent. Show the half-reactions for oxidation and reduction in terms of electron transfer.",
+     "a": "Na is oxidized (loses electrons, gains electronegative element Cl), Cl2 is reduced (gains electrons, loses electropositive character). Oxidizing agent: Cl2; Reducing agent: Na. Half-reactions: Oxidation: 2Na → 2Na+ + 2e–; Reduction: Cl2 + 2e– → 2Cl–. A wrong answer (e.g., saying NaCl is the oxidizing agent) reveals confusion between reactants and products.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the classical and electronic concepts of oxidation and reduction. Why does the classical concept fail for the reaction: 2CO + O2 → 2CO2? Analyze using both definitions.",
+     "a": "Classical: CO gains oxygen (oxidation), O2 loses oxygen (reduction) — but O2 is elemental oxygen, so \"loss of oxygen\" is ambiguous. Electronic: C in CO goes from +2 to +4 (oxidation), O in O2 goes from 0 to –2 (reduction). The classical concept fails because it cannot unambiguously assign oxidation/reduction to O2. A student who forces classical definition will incorrectly state O2 is reduced by \"losing oxygen\" — a logical error.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"In the reaction MnO2 + 4HCl → MnCl2 + Cl2 + 2H2O, HCl is oxidized and MnO2 is reduced.\" Is this correct according to classical and electronic concepts? Justify.",
+     "a": "Correct. Classical: HCl loses hydrogen (electropositive) → oxidized; MnO2 loses oxygen → reduced. Electronic: Cl– in HCl goes from –1 to 0 in Cl2 (oxidation, loss of electrons); Mn in MnO2 goes from +4 to +2 (reduction, gain of electrons). A wrong evaluation (e.g., saying MnO2 is oxidized) reveals inability to track electron transfer in metal oxides.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory experiment using common chemicals (available in a school lab) to demonstrate a redox reaction where the classical oxygen-transfer definition applies, and another where it fails but hydrogen-transfer works. List chemicals, procedure, and observations.",
+     "a": "Oxygen-transfer: Heat CuO with H2 gas (or carbon). Observation: Black CuO turns reddish-brown (Cu), water forms. Hydrogen-transfer: Pass Cl2 gas into KI solution. Observation: Colourless solution turns brown (I2 formed). 2KI + Cl2 → 2KCl + I2. Here I– loses hydrogen? No hydrogen involved — classical H-transfer fails, but electronegative-element-transfer works (I– loses electropositive character? Actually I– is oxidized by losing electrons). A poor answer uses the same reaction for both or chooses non-redox reactions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch8_2",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch8_2",
+   "title": "c8_physics_ch8_2",
+   "questions": [
+    {
+     "q": "Define the term 'ecosystem' and list two abiotic components and two biotic components you would find in a freshwater pond ecosystem.",
+     "a": "An ecosystem is a community of living organisms interacting with non-living components of their environment. Abiotic: sunlight, water, dissolved oxygen, temperature, soil/substrate. Biotic: algae, fish, insects, bacteria, aquatic plants. A wrong answer that only lists living things or only non-living things reveals the student does not grasp that an ecosystem requires both components and their interactions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why sunlight is considered the primary energy source for most ecosystems, and describe how it enters the living component of the ecosystem.",
+     "a": "Sunlight is the primary energy source because it drives photosynthesis in producers (plants, algae, cyanobacteria), converting inorganic carbon into organic compounds. It enters the living component when chlorophyll in producers captures light energy and transforms it into chemical energy (glucose). A wrong answer that says \"sunlight gives heat to animals\" or \"plants eat sunlight\" reveals confusion between energy forms and the specific process of photosynthesis.",
+     "self_check": true
+    },
+    {
+     "q": "In a garden ecosystem, a student observes that plants grow taller in a sunny patch than in a shaded patch. Using the concept of abiotic-biotic interaction, explain this observation in three steps.",
+     "a": "Step 1: Identify the abiotic factor differing between patches – light intensity (sunlight). Step 2: Identify the biotic response – plant growth (photosynthesis rate). Step 3: Explain the interaction – higher light intensity increases photosynthesis rate, producing more glucose for growth, so plants in sunny patch grow taller. A wrong answer that attributes growth only to water or soil without mentioning light shows inability to link specific abiotic factor to biological process.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a desert ecosystem and a tropical rainforest ecosystem in terms of two abiotic factors and predict how these factors limit the types of biotic communities in each.",
+     "a": "Desert: low rainfall, high temperature extremes → biotic community limited to drought-tolerant plants (cacti, succulents) and animals with water conservation adaptations. Rainforest: high rainfall, stable warm temperatures → supports dense, diverse plant life (broadleaf trees, epiphytes) and high animal diversity. A wrong answer that lists only temperature or only rainfall, or says both have same organisms, shows failure to analyze how multiple abiotic factors shape distinct biotic communities.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Soil is just dirt; it is non-living so it does not interact with living things.\" Evaluate this statement and provide two counter-examples of soil-biotic interactions.",
+     "a": "The statement is incorrect. Soil is an abiotic component but interacts critically with biotic components. Counter-example 1: Plant roots absorb water and dissolved minerals (nitrates, phosphates) from soil for growth. Counter-example 2: Decomposers (bacteria, fungi) in soil break down dead organic matter, releasing nutrients back into soil for plants. A wrong answer that agrees with the student or gives only one interaction reveals a misconception that abiotic components are passive.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple investigation to test how an abiotic factor (choose one: light, water, temperature) affects the growth of a common plant (e.g., bean sprouts) in a classroom setting. List the variables you would control, the variable you would change, and what you would measure.",
+     "a": "Example for light: Independent variable – light exposure (full sunlight vs. partial shade vs. dark). Controlled variables – same bean seeds, same pot size, same soil type, same water amount, same temperature. Dependent variable – plant height (cm) measured every 2 days for 2 weeks. A poor answer that changes multiple variables at once (e.g., different water and light) or does not specify measurements shows lack of understanding of fair testing and variable control.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

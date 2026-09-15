@@ -1,0 +1,128 @@
+{
+ "class": 11,
+ "subject": "geography",
+ "chapter": 203,
+ "chapter_title": "Interior of the Earth",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kegy203.txt",
+ "concepts": [
+  {
+   "id": "kegy.203.1.1",
+   "title": "Sources of Information About the Earth's Interior",
+   "section": "Interior of the earth",
+   "definition": "Direct sources of the earth's interior are mining and drilling projects like the Kola superdeep borehole, while indirect sources include seismic waves, meteorites, gravitation, magnetic field and density studies that reveal a layered interior.",
+   "formula": "",
+   "key_idea": "Seismic waves behave differently in each layer, so their speed and direction reveal the crust, mantle and core and the discontinuities between them.",
+   "textbook_ref": "kegy203.txt sources of information section",
+   "question_patterns": [
+    "what are the direct and indirect sources of information about the earth's interior",
+    "how do seismic waves reveal the earth's interior",
+    "define shadow zone of earthquakes",
+    "name the discontinuities inside the earth",
+    "why are meteorites indirect evidence of the interior",
+    "explain the behaviour of s and p waves in layers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.203.2.1",
+   "title": "Layers of the Earth: Crust, Mantle, Core and Rocks",
+   "section": "Structure of the earth",
+   "definition": "The earth divides into the thin crust of sial and sima, the mantle with upper and lower parts separated by the Moho and Repetti discontinuities, and the core of nickel and iron divided by the Gutenberg discontinuity, made of rocks of igneous, sedimentary and metamorphic types in the crust.",
+   "formula": "",
+   "key_idea": "The asthenosphere in the upper mantle is the source of magma, and the core's liquid outer part and solid inner part explain the shadow zones of seismic waves.",
+   "textbook_ref": "kegy203.txt layers and rocks sections",
+   "question_patterns": [
+    "describe the layers of the earth with their depths",
+    "define moho gutenberg and repetti discontinuities",
+    "differentiate sial and sima",
+    "classify rocks into igneous sedimentary and metamorphic",
+    "what is the asthenosphere and why is it important",
+    "compare the outer core and inner core of the earth"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.203.3.1",
+   "title": "Earthquakes, Volcanoes and Their Interior Links",
+   "section": "Interior of the earth",
+   "definition": "Earthquakes release energy as seismic waves along faults, volcanoes erupt magma from the asthenosphere, and both phenomena connect to the layered interior and moving plates, with epicentre, focus and intensity scales describing their occurrence.",
+   "formula": "",
+   "key_idea": "Study of the interior explains why earthquakes cluster at plate boundaries and why volcanic rocks like basalt reveal mantle material at the surface.",
+   "textbook_ref": "kegy203.txt earthquakes and volcanoes sections",
+   "question_patterns": [
+    "define focus and epicentre of an earthquake",
+    "how are earthquakes measured and classified",
+    "what is the relation between volcanoes and the earth's interior",
+    "name the types of volcanoes with examples",
+    "why do earthquake waves bend at layer boundaries",
+    "state the causes and effects of earthquakes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kegy203.txt exercises",
+   "questions": [
+    "Multiple choice on the earth's interior.",
+    "What are indirect sources of information about the interior?",
+    "Describe the layers of the earth with a diagram.",
+    "Define the shadow zone of an earthquake.",
+    "Name the types of rocks with examples."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_01_001",
+   "title": "c12_chem_cbse_01_001",
+   "questions": [
+    {
+     "q": "Name the type of solution formed when oxygen gas dissolves in water. Identify the solute and solvent.",
+     "a": "Correct answer: Liquid solution — gas in liquid. Solute: oxygen (gas); Solvent: water (liquid). A wrong answer (e.g., \"gas in gas\" or swapping solute/solvent) reveals the student cannot map a real example to the 3×3 classification grid and confuses which component determines the physical state.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a mixture of hydrogen gas in palladium metal classified as a solid solution and not a liquid solution? Explain using the definition of solvent.",
+     "a": "Correct answer: Palladium is the solvent (present in larger amount) and is a solid, so the solution's physical state is solid. Hydrogen is the solute (gas). A wrong answer (e.g., \"because hydrogen is a gas\") shows the student thinks the solute's state decides the solution type, violating the definition that solvent determines the physical state.",
+     "self_check": true
+    },
+    {
+     "q": "A dentist uses an amalgam of mercury (liquid) and silver (solid) for fillings. Classify this solution, identify solute and solvent, and state the physical state of the resulting solution.",
+     "a": "Correct answer: Solid solution — liquid in solid. Solute: mercury (liquid); Solvent: silver (solid); Physical state: solid. Steps: (1) Recognise amalgam is a solid solution. (2) Mercury is the minor component (solute), silver is the major component (solvent). (3) Solvent is solid → solution is solid. A wrong classification (e.g., \"liquid solution\") indicates the student cannot apply the solvent-dominance rule to a familiar real-world example.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the three gaseous solutions in Table 1.1 (gas in gas, liquid in gas, solid in gas). What common feature allows all three to be homogeneous mixtures despite different solute states?",
+     "a": "Correct answer: In all three, the solvent is a gas. Gas molecules have large inter-particle spaces and weak intermolecular forces (recall Class 11 kinetic theory, c11_chem_cbse_05_009), allowing solute particles (gas, liquid, or solid) to disperse uniformly at molecular level. A wrong answer focusing only on \"all are gases\" misses the key role of the gaseous solvent's properties in achieving homogeneity.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Brass (copper + zinc) is a liquid solution because both metals melt at high temperatures.\" Evaluate this statement and correct the error.",
+     "a": "Correct evaluation: False. Brass is a solid solution (solid in solid) at room temperature. The physical state of a solution is determined by the state of the solvent at the given temperature, not by melting points. Copper is the solvent (major component), zinc is the solute; both are solids at room temperature → solid solution. The error reveals confusion between the solution's state at a specific temperature and the components' melting behaviour.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple home experiment to demonstrate that air is a gaseous solution (gas in gas). List materials, procedure, and how you would prove homogeneity.",
+     "a": "Expected answer: Materials: incense stick, matchbox, room with still air. Procedure: Light incense stick in one corner; observe fragrance spreading uniformly throughout the room within minutes. Homogeneity proof: Fragrance (solute gas) mixes uniformly with air (solvent gas) without separation, showing single-phase homogeneous mixture. A poor answer (e.g., \"mix two gases in a jar\") lacks a practical demonstration of homogeneity and does not use observable diffusion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

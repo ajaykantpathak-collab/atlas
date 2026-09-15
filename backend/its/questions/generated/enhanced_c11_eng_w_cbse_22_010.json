@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_22_010",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_22_010",
+   "title": "c11_eng_w_cbse_22_010",
+   "questions": [
+    {
+     "q": "What is the primary context clue type used to understand \"unfathomable\" in the phrase \"cold unfathomable lifeless abyss\"?",
+     "a": "The primary clue is an **appositional/definitional clue** within the noun phrase itself: \"unfathomable\" is sandwiched between \"cold\" and \"lifeless,\" both adjectives describing the \"abyss.\" The word \"abyss\" (a deep, immeasurable space) acts as a synonym clue—whatever \"unfathomable\" means, it must align with the nature of an abyss. A wrong answer (e.g., \"it means cold\") reveals the student is grabbing the nearest adjective rather than analyzing the syntactic slot and semantic relationship between the adjectives and the head noun.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why \"mystic miniature\" is an oxymoron-like compression and how the surrounding sentences resolve its meaning.",
+     "a": "\"Mystic\" suggests something vast, spiritual, and infinite, while \"miniature\" means tiny and condensed. The compression forces the reader to hold both ideas simultaneously. The resolution comes in the next clause: \"the prefiguring vision of the heaven that saints and poets have imagined.\" The \"miniature\" is the momentary human experience of love; the \"mystic\" quality is that this small moment contains a vision of the infinite (heaven). A wrong answer that defines them separately (\"mystic means spiritual, miniature means small\") reveals the student misses the *syntactic compression*—the author deliberately yokes them to show how a finite experience (love) encapsulates an infinite ideal.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the context-clue strategy to determine the meaning of \"apprehend\" in \"I have tried to apprehend the Pythagorean power by which number holds sway over the flux.\" Write the steps you used.",
+     "a": "**Steps:** 1) Locate the verb \"apprehend\" and its object \"the Pythagorean power.\" 2) Note the clause \"by which number holds sway over the flux\" explains *what* that power does—it governs change (\"flux\") through mathematics. 3) Recognize the contrast with the previous sentence: \"I have wished to understand the hearts of men... know why the stars shine.\" These are intellectual goals. 4) Infer that \"apprehend\" here means **intellectual grasp/understand deeply**, not \"arrest\" (police sense) or \"fear\" (common modern sense). A wrong answer choosing \"fear\" or \"arrest\" shows the student defaulted to the most frequent contemporary usage without checking the *semantic field* of the paragraph (knowledge, understanding, science).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the metaphorical clusters in \"ocean of anguish\" / \"verge of despair\" / \"abyss\" with \"mystic miniature\" / \"prefiguring vision of heaven.\" What does this contrast reveal about Russell's structural use of vocabulary?",
+     "a": "The first cluster (ocean, verge, abyss) uses **spatial metaphors of depth, edge, and boundlessness** to convey the *overwhelming negativity* of loneliness and suffering—passive, engulfing states. The second cluster (miniature, prefiguring, vision, heaven) uses **spatial metaphors of containment, anticipation, and elevation** to convey the *active, redemptive power of love*—a small thing that contains a large truth. Russell structurally pivots from \"expansive despair\" to \"condensed hope.\" A wrong answer listing only the metaphors without the *directionality* (despair expands outward; hope compresses inward) misses the architectural role of vocabulary in mirroring the essay's argument: love contracts the infinite into the bearable.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this student definition: \"'Reverberate' in 'Echoes of cries of pain reverberate in my heart' means 'repeat loudly' because echoes repeat.\" Is this sufficient for a Class 11 board answer? Why or why not?",
+     "a": "**No, it is insufficient.** While \"repeat loudly\" is a dictionary denotation, the context demands the **connotation of involuntary, persistent, physical resonance**. \"In my heart\" shifts the locus from acoustic space to the body/psyche. The cries are not chosen; they invade. The word also carries the physics sense of *sympathetic vibration*—Russell's pity *is* the resonance. A board-level answer must explain how \"reverberate\" fuses the **auditory** (echoes), **somatic** (heart), and **moral** (involuntary response to suffering) dimensions. A student stopping at \"repeat loudly\" treats vocabulary as label-matching, not as literary analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new sentence using \"verge of despair\" that demonstrates you understand its metaphorical geometry (edge + abyss) and its collocation with emotional states, not physical locations.",
+     "a": "**Strong answer:** \"After the third failed harvest, the farmer stood on the verge of despair, not because the field was empty, but because the loan notice in his hand felt like a push into the abyss.\"  \n**Why it works:** It retains the spatial metaphor (verge = edge, abyss = drop) but applies it to an *emotional precipice* triggered by a document (psychological weight), not a cliff. A weak answer (\"He was on the verge of despair when he lost his keys\") treats \"verge of despair\" as a synonym for \"very sad,\" losing the **imminence of total collapse** and the **spatial metaphor** that the original text establishes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

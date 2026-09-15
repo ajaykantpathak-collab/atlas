@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_07_008",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_07_008",
+   "title": "c11_stat_cbse_07_008",
+   "questions": [
+    {
+     "q": "In the adjusted Spearman's rank correlation formula, what does the variable $m$ represent in the correction term $\\frac{1}{12}\\sum(m^3 - m)$?",
+     "a": "$m$ represents the number of times a particular rank is repeated (i.e., the size of a tied group). A wrong answer such as \"the number of tied groups\" or \"the rank value itself\" reveals that the student confuses the frequency of repetition with the count of groups or the rank magnitude, indicating a lack of precision in understanding the correction factor's construction.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates Spearman's $r_s$ for a dataset with ties but forgets to add the correction factor. Will the calculated $r_s$ be higher, lower, or unchanged compared to the correct value? Justify your answer.",
+     "a": "The calculated $r_s$ will be higher (more positive) than the correct value. Ignoring ties treats tied observations as having distinct ranks, which artificially reduces $\\sum d^2$ and inflates the correlation. A wrong answer of \"lower\" or \"unchanged\" shows the student does not grasp that ties compress rank variability, making the uncorrected formula overstate the monotonic relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following ranks for Variable X: 1, 2.5, 2.5, 4, 5 and Variable Y: 1, 2, 3, 4, 5. Compute the correction factor for Variable X only.",
+     "a": "Variable X has one tied group of size $m=2$ (the two 2.5s). Correction factor $= \\frac{1}{12}(2^3 - 2) = \\frac{6}{12} = 0.5$. A student who answers 0 or uses $m=2.5$ reveals they either miss the tie entirely or mistakenly use the assigned average rank instead of the repetition count.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effect of a single tie of size $m=3$ in Variable X versus two separate ties of size $m=2$ each in Variable X on the magnitude of the total correction factor. Which situation produces a larger correction?",
+     "a": "For $m=3$: $\\frac{27-3}{12}=2$. For two ties of $m=2$: $2 \\times \\frac{8-2}{12} = 1$. The single tie of size 3 produces a larger correction (2 > 1). A student who thinks they are equal or that two small ties give a larger correction fails to recognize the cubic growth of $m^3$, indicating a superficial understanding of how the correction scales with tie size.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher argues: \"Since the correction factor only depends on the number of ties, I can compute it once for the whole dataset and apply it to any variable with the same tie structure.\" Evaluate this claim.",
+     "a": "The claim is false. The correction factor must be computed separately for each variable because ties in X and ties in Y are independent; the formula adds $\\frac{1}{2}\\sum(m_x^3 - m_x)$ and $\\frac{1}{2}\\sum(m_y^3 - m_y)$ separately. A student who agrees overlooks that the adjustment accounts for rank variability in each variable independently, revealing a misunderstanding of the bivariate nature of the correction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a small dataset (n=6) with at least one tie in each variable such that the uncorrected Spearman's $r_s$ equals 1 but the corrected $r_s$ is strictly less than 1. Show both calculations.",
+     "a": "Example: X ranks: 1, 2.5, 2.5, 4, 5, 6; Y ranks: 1, 2.5, 2.5, 4, 5, 6. Uncorrected $\\sum d^2 = 0 \\Rightarrow r_s = 1$. Correction for X: $\\frac{1}{12}(2^3-2)=0.5$; same for Y. Corrected $r_s = 1 - \\frac{0 + 0.5 + 0.5}{6(35)} = 1 - \\frac{1}{210} \\approx 0.995$. A poor answer either produces identical ranks (no ties) or fails to show the drop from 1, indicating the student cannot construct a case where perfect rank agreement coexists with ties.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

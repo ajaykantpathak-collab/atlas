@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_06_010",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_06_010",
+   "title": "c12_biotech_cbse_06_010",
+   "questions": [
+    {
+     "q": "What is the primary physiological reason in vitro plantlets cannot survive direct transfer to field conditions?",
+     "a": "In vitro plantlets lack a functional cuticle and have malfunctioning stomata that remain open, causing uncontrolled transpirational water loss when exposed to low humidity; they are also heterotrophic (dependent on sucrose in media) with poorly developed root systems and photosynthetic apparatus. A wrong answer like \"they are not sterile anymore\" reveals confusion between contamination risk and physiological acclimatization.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why reducing sucrose concentration gradually during primary hardening is necessary, rather than removing it abruptly.",
+     "a": "In vitro plantlets are heterotrophic — they rely on exogenous sucrose for carbon and energy. Abrupt removal causes carbon starvation before photosynthetic capacity (Rubisco, chlorophyll, functional chloroplasts) is upregulated. Gradual reduction (e.g., 2% → 1% → 0.5% → 0%) forces metabolic shift to autotrophy while allowing time for photosynthetic gene expression and chloroplast development. A wrong answer like \"to prevent osmotic shock\" misattributes the main driver (osmotic vs. metabolic).",
+     "self_check": true
+    },
+    {
+     "q": "A lab hardens 200 micropropagated Gerbera plantlets. After primary hardening (2 weeks, 90% RH), 180 survive. After secondary hardening (2 weeks, 60% RH), 150 survive. Calculate the survival percentage at each stage and the overall survival from in vitro to ex vitro.",
+     "a": "Primary hardening survival = (180/200) × 100 = 90%. Secondary hardening survival = (150/180) × 100 = 83.3%. Overall survival = (150/200) × 100 = 75%. A wrong answer like 90% + 83.3% = 173.3% reveals failure to understand sequential conditional probability.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the roles of abscisic acid (ABA) and cytokinin during acclimatization. Why is exogenous ABA sometimes applied during primary hardening?",
+     "a": "ABA promotes stomatal closure, cuticle thickening, and stress-responsive gene expression — critical for water conservation during humidity reduction. Cytokinin (high in vitro) maintains open stomata and delays senescence. Exogenous ABA (10–50 µM) during primary hardening compensates for low endogenous ABA in vitro, accelerating stomatal functionality. A wrong answer like \"ABA promotes root growth\" confuses ABA with auxin.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Using a fogging system (95% RH) for primary hardening is always better than a mist chamber (85% RH) because higher humidity reduces water stress.\"",
+     "a": "False. Excessively high humidity (>95%) suppresses transpirational pull, delaying root hydraulic conductivity development and cuticle formation. It also favors fungal/bacterial contamination. Optimal primary hardening uses 80–90% RH with intermittent misting to create wet-dry cycles that stimulate stomatal regulation. A wrong answer accepting the claim shows inability to evaluate trade-offs between stress avoidance and developmental signaling.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-week hardening protocol for tissue-cultured apple rootstocks (M9) that includes substrate, humidity schedule, light intensity, and sucrose withdrawal. Justify each parameter.",
+     "a": "Week 1–2 (Primary): 90% RH (mist chamber), 16 h photoperiod, 50 µmol·m⁻²·s⁻¹ PPFD, 1:1 peat:perlite, 1% sucrose in irrigation. Week 3–4 (Secondary): 70% RH (shade house), natural photoperiod, 200 µmol·m⁻²·s⁻¹, same substrate, 0% sucrose. Justification: M9 is sensitive to desiccation; peat:perlite gives aeration + water holding; stepwise light increase matches photosynthetic acclimation; sucrose withdrawal by week 3 forces autotrophy. A poor answer lists parameters without physiological justification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

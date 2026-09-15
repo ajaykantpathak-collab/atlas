@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch9_9",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch9_9",
+   "title": "c8_physics_ch9_9",
+   "questions": [
+    {
+     "q": "List the three major groups of living organisms on Earth and give one example of each.",
+     "a": "Plants (e.g., mango tree), Animals (e.g., cow), Microorganisms (e.g., bacteria). A wrong answer that omits microorganisms or confuses fungi with plants reveals the student thinks only visible macro-organisms count as life.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why microorganisms are considered a separate group from plants and animals, even though some (like algae) can photosynthesize.",
+     "a": "Microorganisms are mostly unicellular, lack complex tissues, and include bacteria, fungi, and protists. Algae are protists, not true plants, because they lack roots, stems, leaves. A wrong answer that says 'microorganisms are just tiny plants' shows confusion between size and cellular organization.",
+     "self_check": true
+    },
+    {
+     "q": "A student collects water from a village pond and observes under a microscope. She sees green thread-like structures (Spirogyra), tiny moving rods (bacteria), and a paramecium. Classify each as plant, animal, or microorganism, and justify using one characteristic.",
+     "a": "Spirogyra: microorganism (protist/algae) - unicellular/filamentous, photosynthetic but no true roots/stems/leaves. Bacteria: microorganism - prokaryotic, no nucleus. Paramecium: microorganism (protist) - unicellular, heterotrophic, moves with cilia. A wrong classification of Spirogyra as a plant reveals the student uses photosynthesis as the only criterion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the biodiversity of a monoculture wheat field and a natural forest in India. Which has higher species richness? Which has greater genetic diversity? Explain how the physical conditions (from nodes c8_physics_ch9_3, c8_physics_ch9_6) differ.",
+     "a": "The natural forest has higher species richness (many plant/animal/microbe species) and greater genetic diversity within species. The wheat field has low species richness (mostly wheat) and low genetic diversity (single variety). Physical conditions: forest has more layered vegetation, richer soil microbes, stable temperature/moisture; wheat field is open, uniform, with human-controlled water/nutrients. A wrong answer that says wheat field has more diversity because it's 'green' confuses biomass with biodiversity.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate says: 'If we remove all microorganisms from soil, plants will grow better because there will be no diseases.' Evaluate this statement using the role of microorganisms in nutrient cycling.",
+     "a": "The statement is incorrect. Microorganisms decompose organic matter, fix nitrogen, and form symbiotic relationships (mycorrhizae) essential for plant nutrition. Removing them would collapse nutrient cycles, causing plant death. A student who agrees ignores the interdependence learned in c8_physics_ch9_11 (Earth as a Self-Sustaining System).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple survey to compare the diversity of plants in your school campus versus a nearby vacant lot. List the steps, tools needed, and how you would record data (use a table format).",
+     "a": "Steps: 1) Define two 10m x 10m plots (school garden, vacant lot). 2) Use quadrat sampling (1m x 1m) at 5 random points in each. 3) Identify and count each plant species (use local names/field guide). 4) Record in table: Species name, Count in Plot A, Count in Plot B. 5) Calculate species richness (number of species) and Shannon index if possible. Tools: quadrat frame, notebook, field guide, camera. A poor answer that just says 'count plants' lacks systematic sampling and recording.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

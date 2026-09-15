@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_07_011",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_07_011",
+   "title": "c12_cs_cbse_07_011",
+   "questions": [
+    {
+     "q": "Draw the standard ANSI/IEEE symbol for a 2-input NAND gate and write its truth table. How does its output differ from an AND gate for the input combination A=1, B=1?",
+     "a": "The NAND gate symbol is an AND gate symbol (D-shaped) with a small circle (inversion bubble) at the output. Truth table: A=0,B=0 → Y=1; A=0,B=1 → Y=1; A=1,B=0 → Y=1; A=1,B=1 → Y=0. For A=1,B=1, AND gives Y=1 but NAND gives Y=0 — the bubble means logical inversion. A wrong answer (e.g., drawing OR symbol with bubble, or writing Y=1 for A=1,B=1) reveals confusion between gate symbols or misunderstanding that the bubble represents NOT operation applied to the AND output.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the Boolean expression for a 2-input XOR gate as Y = A + B. Explain why this is incorrect and give the correct expression. What logical condition does XOR actually represent?",
+     "a": "Y = A + B represents OR gate (output 1 if at least one input is 1). XOR (exclusive OR) outputs 1 only when inputs are DIFFERENT (one 0, one 1). Correct expression: Y = A ⊕ B = A'B + AB'. The student's error shows they confuse \"inclusive OR\" (OR gate) with \"exclusive OR\" (XOR gate) — a very common mistake because both involve \"or\" in their names. XOR is \"one or the other but not both\"; OR is \"one or the other or both\".",
+     "self_check": true
+    },
+    {
+     "q": "You have a 74LS00 IC (quad 2-input NAND gate). Pins 1 and 2 are inputs to the first gate, pin 3 is its output. Pin 14 is Vcc (+5V), pin 7 is GND. If you connect pin 1 to +5V, pin 2 to GND, and measure voltage at pin 3 with a multimeter, what reading do you expect and why?",
+     "a": "Pin 1 = logic 1 (+5V), pin 2 = logic 0 (0V). NAND truth table: 1 NAND 0 = 1. So pin 3 outputs logic 1 → multimeter reads ≈ +5V (typically 3.5V–5V for TTL high). A wrong answer (e.g., 0V) reveals the student doesn't know: (a) NAND truth table, (b) that TTL logic 1 is ≈5V and logic 0 is ≈0V, or (c) how to map pin numbers to gate function using the IC datasheet. This tests hardware-level understanding, not just abstract logic.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the truth tables of NOR and XOR gates. For which input combinations do they produce the SAME output? For which do they produce DIFFERENT outputs? What does this tell you about their logical relationship?",
+     "a": "Same output for: (0,0) → NOR=1, XOR=0? Wait: NOR(0,0)=1, XOR(0,0)=0 → DIFFERENT. (0,1): NOR=0, XOR=1 → DIFFERENT. (1,0): NOR=0, XOR=1 → DIFFERENT. (1,1): NOR=0, XOR=0 → SAME (both 0). Only (1,1) gives same output. They are fundamentally different: NOR = NOT(OR) = (A+B)', XOR = A'B + AB'. NOR is true only when both false; XOR is true only when exactly one true. A student saying \"they're similar because both have bubbles\" or \"XOR is like OR with a bubble\" shows symbolic confusion without truth-table verification.",
+     "self_check": true
+    },
+    {
+     "q": "A circuit uses a 74LS02 (quad 2-input NOR) and a 74LS86 (quad 2-input XOR). You need to implement Y = (A + B)' ⊕ C using only these two ICs. Can you do it with one IC of each? Show the gate-level connections (which pins to which pins) and explain any unused gates.",
+     "a": "Yes. 74LS02 has 4 NOR gates. Use first NOR: pins 2,3 = A,B → pin 1 = (A+B)'. 74LS86 has 4 XOR gates. Use first XOR: pins 1,2 = (A+B)', C → pin 3 = Y. Connect 74LS02 pin 1 → 74LS86 pin 1. Power both ICs (pin 14=Vcc, pin 7=GND). Unused: 3 NOR gates (pins 4-13) and 3 XOR gates (pins 4-13) on each IC — leave inputs floating or tie to GND. A student who tries to use multiple gates unnecessarily or forgets power connections doesn't understand IC pinouts or that each IC contains multiple independent gates.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 2-input \"equivalence\" gate (output 1 when both inputs are same: 00→1, 01→0, 10→0, 11→1) using ONLY 2-input NAND gates (74LS00). Draw the circuit diagram, label all pin numbers for a single 74LS00 IC, and write the Boolean expression at each intermediate node.",
+     "a": "Equivalence = XNOR = (A ⊕ B)' = AB + A'B'. Using NAND-only: Step 1: NAND1 (pins 1,2→3) gives (AB)'. Step 2: NAND2 (pins 4,5→6) gives (A'B')'? Wait — need A' and B'. Use NAND as inverter: tie both inputs together. NAND2: pins 4,5 both = A → pin 6 = A'. NAND3: pins 9,10 both = B → pin 8 = B'. NAND4: pins 12,13 = A', B' → pin 11 = (A'B')' = A+B. Now we have (AB)' at pin 3 and (A+B) at pin 11. Need (AB)' · (A+B) = AB + A'B'? No. Better approach: XNOR = (A ⊕ B)' = (A'B + AB')' = (A'B)' · (AB')' = (A+B') · (A'+B). Use 4 NANDs: NAND1: A,B→(AB)'; NAND2: A,(AB)'→(A·(AB)')' = (A·(A'+B'))' = (AB')' = A'+B; NAND3: B,(AB)'→(B·(AB)')' = (A'B)' = A+B'; NAND4: (A'+B), (A+B')→((A'+B)(A+B'))' = (AA' + A'B' + AB + BB')' = (A'B' + AB)' = (A⊕B)' = XNOR. Pin mapping: 74LS00 pins 1,2,3 = NAND1; 4,5,6 = NAND2; 9,10,8 = NAND3; 12,13,11 = NAND4. A student who can't do this hasn't internalized NAND universality (covered next in c12_cs_cbse_07_012) or gate-level circuit tracing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

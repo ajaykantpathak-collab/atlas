@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_04_007",
+   "title": "c10_eco_cbse_04_007",
+   "questions": [
+    {
+     "q": "State two specific reasons why small-scale industries in India faced closure after the 1991 liberalisation policies.",
+     "a": "Correct answer: (1) Removal of import restrictions and reduction of tariffs allowed cheaper foreign goods to flood the Indian market, undercutting domestic small producers. (2) Small producers lacked access to capital, technology, and economies of scale to compete with MNCs and large imports.  \nA wrong answer (e.g., \"globalisation increased exports for everyone\") reveals the student confuses aggregate national gains with distributional impacts on vulnerable groups, ignoring the asymmetric power between small producers and global corporations.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a small garment manufacturer in Tirupur might lose business to a large MNC-branded garment company even if both sell similar quality cotton shirts.",
+     "a": "Correct answer: The MNC benefits from economies of scale (bulk purchasing of raw materials, automated production lines, global supply chains), brand recognition, and access to cheaper international credit. The small manufacturer faces higher per-unit costs, limited marketing reach, and higher interest rates on loans.  \nA wrong answer (e.g., \"the MNC pays lower wages\") reveals the student focuses only on labour costs and misses structural advantages like capital intensity, technology, and market power that are central to globalisation's competitive dynamics.",
+     "self_check": true
+    },
+    {
+     "q": "A small farmer in Maharashtra grows cotton. After globalisation, he faces two changes: (a) international cotton prices fall due to subsidies in the USA, and (b) he can now sell to export agencies. If his cost of production is ₹5,500 per quintal, the domestic market price is ₹5,200 per quintal, and the export agency offers ₹5,400 per quintal but requires a quality certification costing ₹200 per quintal, calculate his effective price in each option and state which market he should choose to minimise loss.",
+     "a": "Step 1: Domestic market effective price = ₹5,200 (no extra cost).  \nStep 2: Export market effective price = ₹5,400 - ₹200 (certification) = ₹5,200.  \nStep 3: Compare with cost of production ₹5,500. Both options give a loss of ₹300 per quintal.  \nStep 4: The farmer is indifferent between the two markets in terms of price; both yield the same loss.  \nA wrong answer (e.g., choosing export because ₹5,400 > ₹5,200) reveals the student ignores transaction costs (certification) and fails to compute net price, a common error in analysing real-world market integration.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of globalisation on a traditional handloom weaver in Varanasi versus a small auto-components manufacturer in Pune supplying to an MNC. Identify one similarity and one difference in their vulnerabilities.",
+     "a": "Similarity: Both face competitive pressure from global integration — the weaver from cheap machine-made imports, the auto-parts maker from MNCs shifting orders to lower-cost countries.  \nDifference: The weaver operates in a buyer's market with no bargaining power and no alternative buyers; the auto-parts manufacturer may have a contractual relationship with the MNC, giving some stability but also dependency on a single buyer.  \nA wrong answer (e.g., \"both benefit equally from technology transfer\") reveals the student assumes globalisation uniformly upgrades all small producers, ignoring sector-specific power dynamics and the reality of unequal integration.",
+     "self_check": true
+    },
+    {
+     "q": "\"Globalisation has only negative effects on small producers in India.\" Evaluate this statement with two arguments for and two against, using specific Indian examples.",
+     "a": "For: (1) Cheap imports (e.g., Chinese toys, machine-made carpets) destroyed livelihoods of artisans in Channapatna and Mirzapur. (2) Patent regimes under TRIPS raised seed/medicine costs for small farmers and pharma units.  \nAgainst: (1) Some small producers accessed global markets (e.g., Tirupur garment clusters, Moradabad brassware exporters). (2) Outsourcing from MNCs created vendor opportunities for auto-parts and IT-enabled services.  \nA wrong answer (e.g., only listing negatives) reveals the student cannot weigh nuanced, evidence-based impacts — a key competency for CBSE case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a three-point government policy package to protect small producers from the negative effects of globalisation without violating WTO rules. Justify each point.",
+     "a": "Good answer includes: (1) Credit guarantee scheme for small enterprises to access low-interest loans (addresses capital constraint, WTO-compatible as non-specific subsidy). (2) Common facility centres for technology upgradement and quality certification (addresses scale/tech gap, allowed as general infrastructure). (3) Geographical Indication (GI) tagging and marketing support for traditional products (addresses brand power asymmetry, WTO-permitted).  \nA poor answer (e.g., \"ban all imports\" or \"give unlimited subsidies\") reveals the student does not understand policy space under WTO and confuses protectionism with strategic support.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

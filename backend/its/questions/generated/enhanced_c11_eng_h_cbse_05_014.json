@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_05_014",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_05_014",
+   "title": "c11_eng_h_cbse_05_014",
+   "questions": [
+    {
+     "q": "What is the PEEL structure for writing a long-answer response in CBSE Class 11 English, and what does each letter stand for?",
+     "a": "PEEL stands for Point (topic sentence stating the argument), Evidence (textual quote or specific plot reference), Explanation (analysis of how evidence supports the point), and Link (concluding sentence connecting back to the question). A wrong answer like \"Point, Example, Explain, Conclusion\" reveals the student confuses PEEL with generic paragraph structures and misses the critical \"Link\" step that examiners require for coherence.",
+     "self_check": true
+    },
+    {
+     "q": "In \"The Adventure,\" Professor Gaitonde finds a torn page from *Bhausahebanchi Bakhar* showing Vishwasrao missed the bullet. Explain how this single piece of evidence functions differently in a PEEL paragraph about \"alternate history\" versus one about \"the nature of historical evidence.\"",
+     "a": "For \"alternate history,\" the torn page is Evidence proving the divergence point (Vishwasrao survives → Marathas win → no British rule). For \"nature of historical evidence,\" the same page is Evidence showing Bakhars contain \"doctored accounts\" yet hold \"germ of truth\" — the Explanation would analyze how Gaitonde's historian skepticism clashes with the page's physical reality. A wrong answer treats the page identically in both paragraphs, missing that Evidence must be *interpreted* differently per the Point.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-sentence PEEL paragraph answering: \"How does Rajendra use the catastrophe theory to explain Gaitonde's transition?\" Use the quantum theory analogy from the text.",
+     "a": "Point: Rajendra rationalizes Gaitonde's experience using catastrophe theory applied to the Battle of Panipat. Evidence: He states, \"The juncture at which Vishwasrao... was killed proved to be the turning point\" and compares it to an electron's indeterminate path. Explanation: Just as quantum systems bifurcate into multiple states (electron here/there), the battle had two viable outcomes — Vishwasrao dead (our history) or alive (alternate history) — and Gaitonde's neurons triggered a macroscopic transition between these world-pictures. Link: Thus, catastrophe theory provides the scientific framework for a historian's \"fantastic experience.\" A wrong answer omits the quantum analogy or fails to connect \"bifurcation\" to \"transition.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare the writing demands of: (A) \"Describe the Azad Maidan scene from Gaitonde's perspective\" (diary entry) vs. (B) \"Analyze the role of the empty presidential chair as a symbol\" (analytical answer). Identify three differences in tone, structure, and evidence use.",
+     "a": "(A) Diary entry: First-person subjective tone, chronological structure, evidence = sensory details (tomatoes, eggs, \"mesmerised\" stare) and internal monologue (\"What nonsense!\"). (B) Analytical answer: Third-person objective tone, PEEL structure, evidence = symbolic interpretation (chair = tradition/order, vacancy = intellectual vacuum) linked to theme (clash of eras). Differences: 1) Tone: emotive vs. analytical, 2) Structure: narrative arc vs. argument-driven, 3) Evidence: plot events vs. literary symbolism. A wrong answer uses PEEL for the diary or narrative for the analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's opening for an article on \"Science Meets History in 'The Adventure'\": \"In Jayant Narlikar's story, a historian travels to a parallel world where Marathas won Panipat. This shows science and history can mix.\" Is it effective for a CBSE 150-word article? Justify.",
+     "a": "Ineffective. It lacks a hook, thesis, or roadmap. CBSE articles require: (1) Catchy title, (2) Engaging opening (quote/anecdote/question), (3) Clear thesis (\"The story demonstrates that historical turning points mirror quantum bifurcations...\"), (4) Signposting (\"We will explore three intersections...\"). The student's version is a plot summary sentence — it would score 1/5 for \"expression.\" A strong opening: \"'What if the bullet had missed?' This question, central to Jayant Narlikar's 'The Adventure,' catapults us into a collision of quantum physics and Maratha history...\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a 50-word diary entry for Professor Gaitonde the night after returning to his world, capturing his regret about the Panipat seminar. Use first-person, past tense, and include the phrase \"thousandth address.\"",
+     "a": "\"October 12. The thousandth address I rehearsed for the Panipat seminar will never be delivered. I stood on Azad Maidan's empty chair, defending history's dignity, only to be pelted with tomatoes in a world where my son doesn't exist. Rajendra calls it a 'catastrophic experience'; I call it a historian's nightmare. The torn Bakhar page in my pocket burns — proof that Vishwasrao lived, Marathas won, and I witnessed it. Yet here I am, back in a world where East India House still stands. I've resigned from the seminar. Some histories are too heavy to lecture on.\" (50 words) A poor answer uses present tense, omits \"thousandth address,\" or writes a summary instead of a personal reflection.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

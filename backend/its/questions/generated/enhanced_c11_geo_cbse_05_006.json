@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_05_006",
+   "title": "c11_geo_cbse_05_006",
+   "questions": [
+    {
+     "q": "A student finds a dark-coloured, heavy rock with visible interlocking crystals of pyroxene and plagioclase feldspar (each 3–5 mm) in a road cut in the Deccan Traps. Name the rock and state whether it is intrusive or extrusive.",
+     "a": "The rock is gabbro — intrusive, coarse-grained (phaneritic), mafic. A wrong answer of \"basalt\" reveals the student confuses composition with texture: basalt has the same minerals but is fine-grained (aphyric) because it cooled rapidly on the surface. If they say \"extrusive\", they have not linked crystal size to slow cooling at depth.",
+     "self_check": true
+    },
+    {
+     "q": "Two rocks have identical mineral composition (50% plagioclase, 40% pyroxene, 10% olivine). Rock A has 1 mm crystals; Rock B has 5 mm crystals. Explain the geological history that produced this difference.",
+     "a": "Both rocks crystallised from the same mafic magma. Rock A cooled rapidly (likely as a lava flow or shallow dyke), giving insufficient time for crystal growth → aphanitic basalt. Rock B cooled slowly at depth (in a magma chamber or thick sill), allowing sustained diffusion and large crystals → phaneritic gabbro. A wrong answer citing \"different magma\" shows misunderstanding that texture reflects cooling rate, not composition.",
+     "self_check": true
+    },
+    {
+     "q": "A hand specimen shows large, euhedral feldspar phenocrysts (1 cm) set in a fine-grained groundmass. The rock is light-coloured and contains quartz. Classify the texture and name the rock.",
+     "a": "Texture: porphyritic (bimodal grain size). Rock: granite porphyry (or rhyolite porphyry if groundmass is aphanitic and extrusive; but quartz + coarse phenocrysts suggest intrusive origin). Steps: 1) Note two distinct grain sizes → porphyritic. 2) Identify quartz + alkali feldspar → felsic. 3) Phenocrysts imply two-stage cooling: slow then fast. Wrongly calling it \"gabbro porphyry\" ignores the light colour and quartz, indicating mafic vs. felsic confusion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the vesicular texture of a basalt from the Deccan Traps with the amygdaloidal texture of the same flow after hydrothermal alteration. What does each tell you about the magma and later history?",
+     "a": "Vesicles form when dissolved volatiles (H₂O, CO₂) exsolve as pressure drops during eruption; they indicate the magma was volatile-rich and erupted quickly. Amygdules form when those vesicles are later filled by secondary minerals (calcite, zeolites, quartz) from circulating hydrothermal fluids — evidence of post-emplacement fluid flow. A student who says \"amygdules are primary gas bubbles\" misses the secondary mineralisation step.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"All coarse-grained igneous rocks are granites.\" Use mineralogical and textural evidence to justify your answer.",
+     "a": "False. Coarse-grained (phaneritic) texture only indicates slow cooling. Composition determines the rock name: felsic phaneritic = granite; mafic phaneritic = gabbro; ultramafic phaneritic = peridotite. A student agreeing with the statement conflates texture with composition — a fundamental classification error. Correct evaluation requires applying the QAPF diagram: plot modal % of quartz, alkali feldspar, plagioclase, and ferromagnesian minerals.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field identification key (dichotomous, max 4 steps) that allows a Class 11 student to distinguish between granite, basalt, and gabbro using only a hand lens, HCl acid, and a geological hammer.",
+     "a": "1. React with dilute HCl → fizz? YES → not these three (carbonate); NO → go to 2.\n2. Crystal size visible to naked eye? YES → go to 3; NO (fine-grained/aphyric) → basalt.\n3. Colour index (mafic mineral %): <30% (light) → granite; >60% (dark) → gabbro.\nA poor key uses only colour (\"pink = granite\") ignoring that granites can be grey/white and gabbros can be greenish; it fails to use texture and mineralogy systematically.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

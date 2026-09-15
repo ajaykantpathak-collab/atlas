@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_03_002",
+   "title": "c11_eng_h_cbse_03_002",
+   "questions": [
+    {
+     "q": "What are the five standard stages of a plot diagram (Freytag's Pyramid) in their correct order?",
+     "a": "The five stages are: 1) Exposition, 2) Rising Action, 3) Climax, 4) Falling Action, 5) Resolution. A wrong answer (e.g., missing a stage or misordering them) reveals the student lacks the basic vocabulary to analyze any narrative structure, making it impossible to map the text's events onto a recognized framework.",
+     "self_check": true
+    },
+    {
+     "q": "In \"Discovering Tut,\" the narrative opens with the 2005 CT scan, then flashes back to 1922, then further back to Akhenaten's reign. Explain in your own words why the author might choose this non-linear structure instead of telling the story in pure chronological order.",
+     "a": "The non-linear structure hooks the reader with immediate high-stakes action (the CT scan), then provides necessary historical context through flashbacks, mirroring how forensic investigation actually works—starting with a modern question and digging backward through layers of evidence. A wrong answer that simply says \"it's more interesting\" shows the student cannot articulate the functional relationship between structure and purpose.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following events from the text, place them in the order they appear in the narrative (text order), then in chronological order (historical order):\nA. Carter discovers Tut's tomb.\nB. CT scan of Tut's mummy in 2005.\nC. Akhenaten promotes Aten worship.\nD. 1968 X-ray reveals missing ribs.\nE. Tutankhamun restores old gods.",
+     "a": "Text order: B (2005 CT scan) → A (1922 discovery) → C (Akhenaten's reign) → E (Tut's restoration) → D (1968 X-ray). Historical order: C → E → A → D → B. A wrong answer indicates the student cannot distinguish between narrative presentation and historical sequence, a core skill for analyzing non-linear texts.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the narrative structure of \"Discovering Tut\" with a traditional linear short story (e.g., \"The Last Leaf\" from Class 9). Identify two structural differences and explain how each difference serves the author's purpose in this non-fiction account.",
+     "a": "Difference 1: \"Discovering Tut\" uses a dual timeline (modern investigation + ancient history) while a linear story follows a single timeline. This allows the author to juxtapose ancient mystery with modern science. Difference 2: The text employs expository flashbacks (Akhenaten's reign) to provide context, whereas linear stories typically reveal context through dialogue or present action. This serves the purpose of educating the reader about historical background without breaking the investigative narrative flow. A wrong answer that only lists differences without linking to purpose shows superficial analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of ending the narrative with the image of Orion watching over Tut's tomb. Does this provide narrative closure? Justify your answer with reference to the plot structure.",
+     "a": "Yes, it provides symbolic closure. The plot's resolution is the successful completion of the CT scan and the mummy's return to the tomb. The Orion image—associated with Osiris, god of the afterlife—echoes the opening \"casket grey\" sky and the pharaoh's curse motif, bringing the narrative full circle. It resolves the tension between scientific intrusion and ancient sanctity. A wrong answer that calls it \"just a pretty description\" misses the structural function of the ending as a thematic resolution.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-sentence \"blurb\" for a documentary script that uses the same dual-timeline structure as \"Discovering Tut\" but focuses on the discovery of the Indus Valley Civilization. Your blurb must explicitly mention the two timelines and the hook.",
+     "a": "Example: \"In 1924, John Marshall announces the discovery of a lost civilization older than Egypt. The film cuts to 2022: a team uses LiDAR to map buried streets of Mohenjo-daro. Flashbacks reveal the 2600 BCE urban planners who built the Great Bath. As scans penetrate the soil, the silent city speaks.\" A poor answer would lack a clear hook, fail to establish two distinct timelines, or read like a linear summary.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

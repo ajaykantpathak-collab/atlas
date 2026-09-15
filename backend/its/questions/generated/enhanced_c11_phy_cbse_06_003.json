@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_06_003",
+   "title": "c11_phy_cbse_06_003",
+   "questions": [
+    {
+     "q": "State the magnitude and direction of the vector product **c** = **a** × **b** in terms of |**a**|, |**b**|, and the angle θ between them. Write the SI unit of **c** if **a** is a position vector (metre) and **b** is a force vector (newton).",
+     "a": "Magnitude: |**c**| = |**a**||**b**|sinθ where 0° ≤ θ ≤ 180°. Direction: perpendicular to the plane of **a** and **b**, given by the right-hand screw rule (curl fingers from **a** to **b**, thumb points along **c**). SI unit: newton-metre (N·m). A wrong answer (e.g., using cosθ, or stating direction is along **a** or **b**) reveals confusion between scalar and vector products, or inability to apply the right-hand rule.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the vector product is not commutative: **a** × **b** ≠ **b** × **a**, even though their magnitudes are equal. Use the right-hand rule to describe the relationship between the two resulting vectors.",
+     "a": "**a** × **b** and **b** × **a** have the same magnitude ab sinθ and both are perpendicular to the plane of **a** and **b**, but their directions are opposite. Curling fingers from **a** to **b** gives one direction; curling from **b** to **a** reverses the rotation, so the thumb points oppositely. Hence **a** × **b** = −(**b** × **a**). A wrong answer (e.g., saying they are equal, or that the difference is only in magnitude) shows the student treats cross product like scalar product or ignores the directional rule.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate **a** × **b** for **a** = 2**î** + 3**ĵ** − **k̂** and **b** = **î** − 2**ĵ** + 4**k̂**. Express the result in component form and verify its magnitude using |**a** × **b**| = |**a**||**b**|sinθ by first finding cosθ from the dot product.",
+     "a": "**a** × **b** = (3·4 − (−1)(−2))**î** − (2·4 − (−1)·1)**ĵ** + (2·(−2) − 3·1)**k̂** = (12 − 2)**î** − (8 + 1)**ĵ** + (−4 − 3)**k̂** = 10**î** − 9**ĵ** − 7**k̂**. |**a** × **b**| = √(10² + (−9)² + (−7)²) = √230 ≈ 15.17. |**a**| = √14, |**b**| = √21, **a**·**b** = 2 − 6 − 4 = −8, cosθ = −8/√294, sinθ = √(1 − 64/294) = √(230/294). |**a**||**b**|sinθ = √294 × √(230/294) = √230. Matches. A wrong answer (e.g., sign errors in determinant expansion, or forgetting the minus sign for the **ĵ** component) reveals procedural gaps in determinant evaluation or component sign conventions.",
+     "self_check": true
+    },
+    {
+     "q": "A force **F** = 4**î** + 3**ĵ** N acts at a point with position vector **r** = 2**î** − **ĵ** + **k̂** m relative to the origin. Find the torque **τ** = **r** × **F** about the origin. Then determine the component of **τ** along the z-axis and explain its physical significance for rotation about the z-axis.",
+     "a": "**τ** = **r** × **F** = |**î** **ĵ** **k̂**; 2 −1 1; 4 3 0| = **î**((−1)·0 − 1·3) − **ĵ**(2·0 − 1·4) + **k̂**(2·3 − (−1)·4) = −3**î** + 4**ĵ** + 10**k̂** N·m. The z-component is τ_z = 10 N·m. This is the torque causing rotation about the z-axis; the x and y components would try to tilt the axis, but constraints (bearings) cancel them. A wrong answer (e.g., missing the minus sign in the **ĵ** expansion, or confusing **r** × **F** with **F** × **r**) shows misunderstanding of the determinant sign pattern or the order of vectors in torque definition.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If **a** × **b** = **0**, then either **a** = **0** or **b** = **0**.\" Evaluate this statement. Is it always true? If not, give a counterexample and state the correct condition for **a** × **b** = **0**.",
+     "a": "The statement is FALSE. **a** × **b** = **0** if **a** and **b** are parallel (θ = 0° or 180°) or anti-parallel, even if both are non-zero. Example: **a** = 2**î**, **b** = 3**î** → **a** × **b** = **0**. Correct condition: **a** × **b** = **0** iff **a** = **0** or **b** = **0** or **a** ∥ **b** (sinθ = 0). A wrong evaluation (agreeing with the student) reveals the common misconception that cross product zero implies a zero vector, confusing it with the scalar product where **a**·**b** = 0 implies perpendicularity, not zero vectors.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom experiment using a metre scale, a known mass, and a spring balance to demonstrate that the turning effect (torque) depends on the perpendicular distance from the pivot, not just the force magnitude. Describe how you would measure and verify τ = rF sinθ.",
+     "a": "Pivot the metre scale horizontally at the 0 cm mark. Hang a 200 g mass (weight = 1.96 N) at the 50 cm mark using a string. Measure the spring balance force needed at the 100 cm mark to keep the scale horizontal when pulling (a) vertically upward (θ = 90°), (b) at 30° to the vertical (θ = 60°), (c) along the scale (θ = 0°). Calculate τ = rF sinθ for each: (a) 1.0 m × F × 1, (b) 1.0 m × F × sin60°, (c) 1.0 m × F × 0 = 0. The measured forces should satisfy F_vertical = 0.98 N, F_30° = 1.13 N, F_along = ∞ (cannot balance). A poor answer (e.g., not varying the angle, or claiming force is same in all cases) reveals failure to isolate the sinθ dependence or confusion between force and torque.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

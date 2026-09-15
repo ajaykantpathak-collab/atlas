@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_07_004",
+   "title": "c12_hs_cbse_07_004",
+   "questions": [
+    {
+     "q": "What are the three stages of prenatal development in correct chronological order, and what is the approximate week range for each stage?",
+     "a": "Correct answer: (1) Germinal stage: fertilisation to end of week 2; (2) Embryonic stage: week 3 to week 8; (3) Fetal stage: week 9 to birth. A wrong answer (e.g., swapping embryonic and fetal ranges, or saying \"first trimester, second trimester, third trimester\") reveals the student is confusing prenatal *stages* with *trimesters* — a common error because trimesters are clinical divisions (13 weeks each) while prenatal stages are developmental divisions based on morphological milestones.",
+     "self_check": true
+    },
+    {
+     "q": "A pregnant woman is told her baby is in the \"embryonic stage\" at 6 weeks. She asks: \"Does this mean the baby is just a clump of cells?\" How would you explain what is actually happening at this stage using the correct developmental terminology?",
+     "a": "Correct answer: At 6 weeks (embryonic stage), the embryo has undergone gastrulation (three germ layers formed), neurulation (neural tube closing), and early organogenesis — the heart is beating, limb buds are present, and all major organ systems have begun forming. It is *not* a clump of cells. A wrong answer (\"yes, it's just cells\" or \"the baby is fully formed but tiny\") reveals the student either underestimates embryonic complexity (confusing it with germinal stage) or overestimates it (confusing it with fetal stage). The embryonic stage is precisely when *organ formation* occurs — the \"clump of cells\" description fits the morula/blastocyst (germinal), while \"fully formed but tiny\" fits the fetal stage.",
+     "self_check": true
+    },
+    {
+     "q": "A teratogen (e.g., alcohol) is consumed by a pregnant woman at two different times: (A) day 10 post-fertilisation, (B) week 20 of pregnancy. Compare the likely impact on the developing organism in each case, and explain *why* the difference occurs using the concept of critical periods.",
+     "a": "Correct answer: (A) Day 10 = germinal stage (pre-implantation or early implantation). Teratogens at this stage typically have an \"all-or-none\" effect: either the embryo is severely damaged and miscarries, or it recovers completely because cells are still totipotent and can compensate. (B) Week 20 = fetal stage. Organs are already formed; teratogens now affect *growth* and *functional maturation* (e.g., brain development, low birth weight) but rarely cause major structural malformations. The difference occurs because critical periods for *structural* organogenesis are concentrated in the embryonic stage (weeks 3–8). A wrong answer claiming equal risk at both times reveals the student does not understand that teratogen susceptibility is stage-specific, not uniform across pregnancy.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the following statement: \"The fetal stage is just the embryonic stage continued — the only difference is size.\" Identify three specific developmental processes that *begin or peak* in the fetal stage and were *absent or minimal* in the embryonic stage.",
+     "a": "Correct answer: Three fetal-specific processes: (1) Rapid *growth in length and weight* (crown-rump length increases from ~3 cm at 9 weeks to ~50 cm at term) — embryonic stage is about *formation*, fetal is about *growth*. (2) *Myelination of the nervous system* and *synaptic proliferation* — the embryonic stage establishes the neural tube and basic brain vesicles; fetal stage builds neural circuits. (3) *Surfactant production in lungs* (type II pneumocytes mature ~24–28 weeks) enabling extrauterine respiration — absent in embryonic stage. A wrong answer listing \"heart beating\" or \"limb formation\" reveals confusion: those are embryonic events. The fetal stage is qualitatively different, not just quantitatively larger.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Since the germinal stage lasts only two weeks and the embryo isn't even implanted yet, teratogen exposure during this time doesn't matter — the woman isn't 'really pregnant'.\" Defend or refute using developmental biology principles.",
+     "a": "Correct answer: Refute. The germinal stage *does* matter, but differently. (1) Implantation (days 6–10) is a vulnerable window — teratogens can disrupt trophoblast invasion, causing early pregnancy loss. (2) The \"all-or-none\" principle: severe insults cause miscarriage (which *is* an adverse outcome), while mild insults may be repaired due to totipotency. (3) Epigenetic programming begins *before* implantation — environmental factors (nutrition, stress) can alter DNA methylation patterns affecting lifelong health (DOHaD hypothesis). Calling it \"not really pregnant\" is medically inaccurate: pregnancy is defined from fertilisation (or LMP), and the germinal stage establishes the placenta and embryonic disc. A wrong answer agreeing with the claim reveals the student equates \"pregnancy\" only with embryonic/fetal visibility, ignoring the foundational events of the first two weeks.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page \"Prenatal Development Alert Card\" for expectant parents that summarises: (a) the three stages with week ranges, (b) one key milestone per stage, (c) the *single most important* teratogen-avoidance message for each stage. Make it visually clear and actionable.",
+     "a": "Expected answer: A card with three columns/rows. Germinal (0–2 wks): Milestone = implantation; Message = \"Avoid alcohol/smoking *before* you miss your period — implantation is happening now.\" Embryonic (3–8 wks): Milestone = organogenesis (heart, brain, limbs form); Message = \"This is the *most critical window* — no alcohol, no unprescribed meds, avoid infections (rubella, CMV), take folic acid *before* conception.\" Fetal (9 wks–birth): Milestone = viability (~24 wks) and brain growth; Message = \"Avoid alcohol (FASD risk continues), monitor nutrition, manage stress — brain wiring happens now.\" A poor answer would lump all messages together (\"avoid everything all the time\") or miss the stage-specific nuance (e.g., putting folic acid in fetal stage). The card must show *why* timing changes the message.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

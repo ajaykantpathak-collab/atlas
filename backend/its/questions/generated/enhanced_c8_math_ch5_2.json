@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch5_2",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch5_2",
+   "title": "c8_math_ch5_2",
+   "questions": [
+    {
+     "q": "What is the algebraic expression for the sum of k consecutive natural numbers starting from a?",
+     "a": "The sum is k·a + k(k-1)/2. A wrong answer like k·a + k(k+1)/2 or just k·a reveals the student does not remember the correct formula for the sum of an arithmetic series with difference 1, or confuses it with the sum of first k natural numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the number 16 cannot be written as a sum of two or more consecutive natural numbers.",
+     "a": "16 is a power of 2 (2^4). For any representation N = k·a + k(k-1)/2, we need 2N = k(2a + k - 1). If N is a power of 2, then 2N has only one odd factor (1). Since k ≥ 2, k must be even, making (2a + k - 1) odd. But then k and (2a + k - 1) would have opposite parity, and their product 2N would have an odd factor >1, contradiction. A student who says \"16 is even\" or \"I tried and couldn't find one\" shows they lack the structural understanding linking powers of 2 to the absence of odd divisors.",
+     "self_check": true
+    },
+    {
+     "q": "Find all ways to write 21 as a sum of consecutive natural numbers. Show your working.",
+     "a": "We need 21 = k·a + k(k-1)/2 with k≥2, a≥1.\n2N = 42. Divisors of 42 ≥2: 2,3,6,7,14,21,42.\nTest each k:\nk=2: 42/2 - 2 + 1 = 20 → a=10 → 10+11=21 ✓\nk=3: 42/3 - 3 + 1 = 12 → a=6 → 6+7+8=21 ✓\nk=6: 42/6 - 6 + 1 = 2 → a=1 → 1+2+3+4+5+6=21 ✓\nk=7: 42/7 - 7 + 1 = 0 → a=0 (not ≥1) ✗\nk=14: 42/14 - 14 + 1 = -10 → negative ✗\nk=21: 42/21 - 21 + 1 = -18 ✗\nk=42: 42/42 - 42 + 1 = -40 ✗\nAnswer: 21 = 10+11 = 6+7+8 = 1+2+3+4+5+6.\nA wrong answer missing the 6-term sum shows the student did not test all divisors of 2N, or stopped at k=3.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the number of representations of 15 and 16 as sums of consecutive natural numbers. What property of the numbers explains the difference?",
+     "a": "15 has three representations (7+8, 4+5+6, 1+2+3+4+5) while 16 has zero. 15 has odd divisors 3,5,15 (so 2N=30 has odd divisors >1), allowing valid k values. 16 is a power of 2, so 2N=32 has no odd divisor >1, making any valid k impossible. A student who only counts representations without linking to odd divisors of 2N shows they can compute but not analyze the underlying number-theoretic pattern.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"32 can be written as 10+11+12 because 10+11+12=33, which is close.\" Evaluate this claim and correct the error.",
+     "a": "The claim is false. 10+11+12 = 33, not 32. Moreover, 32 is a power of 2 (2^5), so it has no representation as a sum of consecutive natural numbers. The student's error is twofold: arithmetic mistake (33≠32) and conceptual misunderstanding that \"close\" counts. A correct evaluation would verify the sum and note the power-of-2 property. A student who only says \"the sum is wrong\" misses the deeper reason why no representation exists.",
+     "self_check": true
+    },
+    {
+     "q": "Create a number between 20 and 50 that has exactly two different representations as sums of consecutive natural numbers. Explain how you chose it.",
+     "a": "Example: 25. Representations: 12+13 (k=2), 3+4+5+6+7 (k=5), 25=5^2 has odd divisors 5,25 → 2N=50 has odd divisors 5,25. k=2: a=12; k=5: a=3; k=10: a negative; k=25: a negative; k=50: a negative. So exactly two representations. A good answer shows the student understands the link between odd divisors of 2N and the number of valid k, and can construct an example. A poor answer guesses randomly without using the divisor criterion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

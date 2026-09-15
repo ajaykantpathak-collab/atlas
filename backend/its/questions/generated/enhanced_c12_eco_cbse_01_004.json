@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_01_004",
+   "title": "c12_eco_cbse_01_004",
+   "questions": [
+    {
+     "q": "Define opportunity cost in the context of a Production Possibility Frontier.",
+     "a": "Opportunity cost on a PPF is the amount of the good on the vertical axis that must be given up to produce one more unit of the good on the horizontal axis (or vice versa). It is measured by the absolute value of the slope of the PPF at a given point. A wrong answer that defines it as \"the money cost of production\" or \"the sum of all alternatives forgone\" reveals confusion between accounting cost and economic cost, or between total and next-best alternative.",
+     "self_check": true
+    },
+    {
+     "q": "Why does opportunity cost increase as we move down along a concave PPF? Explain using the concept of resource specialization.",
+     "a": "Resources are not equally efficient in producing all goods (e.g., land is more fertile for rice than wheat). As production shifts from rice to wheat, increasingly less suitable resources are transferred, so each additional unit of wheat requires sacrificing more and more rice. A wrong answer that says \"because the PPF is curved\" or \"because of the law of demand\" shows the student memorized the shape without understanding the economic reason (resource heterogeneity).",
+     "self_check": true
+    },
+    {
+     "q": "An economy produces only two goods: robots (X) and wheat (Y). The following PPF schedule is given:\n| Combination | Robots (X) | Wheat (Y in tonnes) |\n|-------------|------------|---------------------|\n| A           | 0          | 100                 |\n| B           | 1          | 90                  |\n| C           | 2          | 75                  |\n| D           | 3          | 55                  |\n| E           | 4          | 30                  |\n| F           | 5          | 0                   |\nCalculate the opportunity cost of producing the 3rd robot (moving from C to D) and the 5th robot (moving from E to F). Show your work.",
+     "a": "**3rd robot (C→D):** ΔX = 1, ΔY = 55 - 75 = -20 tonnes. Opportunity cost = |ΔY/ΔX| = 20 tonnes of wheat per robot.\n**5th robot (E→F):** ΔX = 1, ΔY = 0 - 30 = -30 tonnes. Opportunity cost = 30 tonnes of wheat per robot.\nOpportunity cost increases from 20 to 30 tonnes. A wrong answer that calculates 15 tonnes (using A→B) or averages all steps reveals inability to compute marginal opportunity cost for a specific interval.",
+     "self_check": true
+    },
+    {
+     "q": "The PPF for an economy is given by the equation: Y = 100 - 2X - 0.5X², where X is units of capital goods and Y is units of consumer goods. Calculate the marginal opportunity cost of producing the 4th unit of capital good (i.e., the slope at X=4). Interpret the result.",
+     "a": "The slope (marginal opportunity cost) is dY/dX = -2 - X. At X=4, slope = -6. Absolute value = 6 units of consumer goods per capital good. This means producing the 4th unit of capital goods requires sacrificing 6 units of consumer goods. A wrong answer that plugs X=4 into the original equation (getting Y=52) confuses total output with marginal rate of transformation. A student who forgets the negative sign or absolute value misstates the magnitude.",
+     "self_check": true
+    },
+    {
+     "q": "\"Opportunity cost is zero if the economy is operating inside the PPF (i.e., with unemployment).\" Evaluate this statement as True, False, or Uncertain, and justify your answer with economic reasoning.",
+     "a": "**False.** Opportunity cost exists whenever a choice involves a trade-off. Inside the PPF, resources are unemployed, so increasing output of one good *may* not require sacrificing the other (opportunity cost could be zero for that specific increase). However, the *concept* of opportunity cost still applies to the decision to utilize idle resources — the cost is the alternative use of those resources (e.g., leisure). The statement incorrectly equates \"inside PPF\" with \"no trade-off ever.\" A student answering \"True\" confuses the *current* marginal cost (which may be zero) with the *existence* of opportunity cost as a fundamental concept.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a hypothetical PPF schedule for a student allocating 10 hours of study time between Economics (E) and Mathematics (M). Assume the first hour of Economics yields 10 marks, but each subsequent hour yields 2 marks less than the previous (diminishing returns). Mathematics yields a constant 5 marks per hour. Show the schedule and calculate the opportunity cost of the 3rd hour of Economics in terms of Mathematics marks forgone.",
+     "a": "**Schedule (Hours E, Marks E, Hours M, Marks M):**\n(0,0,10,50), (1,10,9,45), (2,18,8,40), (3,24,7,35), (4,28,6,30), (5,30,5,25), (6,30,4,20)...\n**3rd hour of Economics:** Moving from 2 to 3 hours E: ΔE_marks = +6, ΔM_hours = -1 → ΔM_marks = -5.\nOpportunity cost = 5 marks of Mathematics per 6 marks of Economics ≈ 0.83 Math marks per Econ mark.\nA poor answer that assumes constant returns in both subjects or calculates total marks instead of marginal change shows failure to apply diminishing returns and marginal analysis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

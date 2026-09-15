@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_05_002",
+   "title": "c12_hist_cbse_05_002",
+   "questions": [
+    {
+     "q": "What were the three \"barriers\" Al-Biruni explicitly identified as obstructing his understanding of India, and which one did he consider the first?",
+     "a": "The three barriers were: (1) language — Sanskrit being vastly different from Arabic/Persian, making translation difficult; (2) difference in religious beliefs and practices; (3) the self-absorption and insularity of the local population. He considered language the first barrier. A wrong answer (e.g., listing \"political hostility\" or \"lack of texts\") reveals the student has not read Al-Biruni’s own meta-commentary in the *Kitab-ul-Hind* and is projecting later colonial-era obstacles onto him.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Al-Biruni choose to depend almost exclusively on Brahmana scholars and Brahmanical texts (Vedas, Puranas, Manusmriti) despite being aware of the \"insularity\" barrier?",
+     "a": "Al-Biruni relied on Brahmanas because they were the custodians of the Sanskritic tradition he sought to systematise; their texts provided the normative framework (varna, dharma, cosmology) that he could structure and compare. He lacked access to non-Brahmanical or vernacular perspectives, and his goal was to present a coherent \"Hindu\" system for his readers. A wrong answer (e.g., \"he was biased against Buddhists\" or \"he didn't know other groups existed\") misses the epistemic constraint: in 11th-century Punjab, Brahmana pandits were the primary gateway to Sanskrit learning and textual authority.",
+     "self_check": true
+    },
+    {
+     "q": "Al-Biruni structures each chapter of the *Kitab-ul-Hind* with a question, a description based on Sanskritic tradition, and a comparison with other cultures. Apply this structure to his treatment of the varna system: what would the \"question\" be, what Sanskritic description would he give, and what cross-cultural parallel did he draw?",
+     "a": "Question: \"How is Hindu society divided?\" Sanskritic description: Four varnas originated from Brahman’s body — Brahmanas (head), Kshatriyas (shoulders/hands), Vaishyas (thigh), Shudras (feet) — with mixed living but hierarchical status. Comparison: Ancient Persia also recognised four social categories (knights/princes; monks/priests/lawyers; physicians/scientists; peasants/artisans), showing social division is not unique to India, though Islam insists on equality of all believers. A wrong answer that omits the Persian parallel or misstates the varna origin myth shows the student cannot operationalise Al-Biruni’s comparative template.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse how Al-Biruni’s mathematical orientation (he was an astronomer/mathematician) influenced the \"almost geometric structure\" of the *Kitab-ul-Hind*. Give two specific ways this orientation manifests in his method.",
+     "a": "First, the predictable, repetitive chapter architecture (question → description → comparison) functions like a mathematical algorithm — each chapter follows the same logical steps, ensuring precision and comparability. Second, his reliance on exact categories (varnas, weights, measures, iconographic rules) and his critique of imprecise earlier Arabic translations reflect a mathematician’s demand for definitional rigour and standardisation. A wrong answer that only says \"he liked order\" without linking to the structural repetition or his metrological concerns misses the analytical depth.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Al-Biruni’s comparative method makes the *Kitab-ul-Hind* a more reliable source for 11th-century Indian social history than the accounts of later travellers like Ibn Battuta or Bernier.\" Support your judgement with two arguments for and two against.",
+     "a": "For: (1) Direct Sanskrit access and Brahmana collaboration give insider categories (varna, ritual, cosmology) that later travellers, reliant on Persian or observation, often miss. (2) His systematic structure allows historians to isolate his observational data from his comparative framing. Against: (1) His dependence on Brahmanical texts produces a normative, elite, male-centric view that obscures regional, non-Brahmanical, and female experiences. (2) His comparative lens (Persia, Islam) imposes external categories that can distort — e.g., mapping Persian social groups onto varnas flattens the unique ritual hierarchy of the caste system. A one-sided evaluation reveals inability to weigh source criticism criteria (access vs. bias, structure vs. distortion).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a historian’s argument (150 words) on how Al-Biruni’s *Kitab-ul-Hind* both reveals and conceals the reality of social pollution/purity notions in 11th-century India. Use his own critique of pollution (\"contrary to laws of nature\") and his reliance on the Manusmriti as evidence.",
+     "a": "A strong answer will argue: The *Kitab-ul-Hind* reveals the Brahmanical *theory* of pollution (via Manusmriti citations) and the structural centrality of purity/pollution to varna order. Simultaneously, it conceals *lived practice* because Al-Biruni filters this through his own naturalistic objection (\"sun cleanses air, salt preserves sea water\") and his Islamic egalitarian premise, leading him to dismiss pollution as unnatural rather than exploring its social enforcement. He also omits how *antyaja* groups experienced pollution daily (economic exploitation, residential segregation). A poor answer merely summarises his critique without analysing the gap between textual norm and social reality, or fails to link his concealment to his comparative agenda.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

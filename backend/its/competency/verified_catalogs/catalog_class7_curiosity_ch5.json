@@ -1,0 +1,559 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 5,
+ "chapter_title": "Changes Around Us - Physical and Chemical",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gecu105.txt",
+ "concepts": [
+  {
+   "id": "c7cu.5.1",
+   "title": "Physical Changes -- Melting, Freezing and Evaporation",
+   "section": "5.1",
+   "definition": "A physical change is a change in which no new substance is formed; only the state, shape, size or appearance of the substance changes, and the original substance can usually be recovered by simple methods.",
+   "formula": "",
+   "key_idea": "In a physical change the chemical composition of the substance remains the same; only its physical properties such as state, colour or shape are altered, and the change is often reversible.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a physical change? Give two examples.",
+    "How is melting of ice a physical change?",
+    "Why is evaporation of water considered a physical change?",
+    "State three examples of physical changes from daily life.",
+    "Why does no new substance form during a physical change?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the substance and the change",
+     "explain": "Note the substance (e.g., ice, water, wax) and the change taking place such as melting, freezing or evaporation."
+    },
+    {
+     "step": 2,
+     "action": "Check whether a new substance is formed",
+     "explain": "Confirm that only the physical state or appearance changes and the chemical composition remains the same -- no new substance is produced."
+    },
+    {
+     "step": 3,
+     "action": "Determine reversibility",
+     "explain": "Verify whether the original substance can be recovered (e.g., water vapour condenses back to water, melted wax solidifies), confirming it is a physical change."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is the melting of ice considered a physical change?",
+     "solution": "When ice melts, it changes from solid to liquid water, but the chemical composition (H2O) remains the same and no new substance is formed. The water can be frozen back into ice, so the change is reversible.",
+     "answer": "Melting of ice only changes the state; no new substance forms and it is reversible."
+    },
+    {
+     "question": "Evaporation of sea water leaves behind salt. Is evaporation a physical change?",
+     "solution": "During evaporation, liquid water changes into water vapour without any change in chemical composition. The salt was already present and is left behind; no new substance is formed, so it is a physical change.",
+     "answer": "Yes, evaporation is a physical change because no new substance is formed."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define a physical change and give three examples.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is the freezing of water into ice a physical change?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Distinguish between a physical change and a chemical change with one example each.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.5.2",
+   "title": "Chemical Changes -- Burning, Rusting and Cooking",
+   "section": "5.2",
+   "definition": "A chemical change is a change in which one or more new substances with different properties are formed; the original substances lose their identity and the change is usually irreversible.",
+   "formula": "reactants -> new products (different properties)",
+   "key_idea": "In a chemical change the chemical composition of the substance changes and new substances are formed; examples include burning of fuels, rusting of iron and cooking of food.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a chemical change? Give two examples.",
+    "Why is burning of paper a chemical change?",
+    "How is rusting of iron a chemical change?",
+    "Why is cooking of food considered a chemical change?",
+    "State the difference between a physical and a chemical change."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the reactants and the change",
+     "explain": "Note the starting substance (e.g., paper, iron, raw food) and the process taking place such as burning, rusting or cooking."
+    },
+    {
+     "step": 2,
+     "action": "Check for formation of new substances",
+     "explain": "Confirm that new substances with different properties are produced, e.g., ash and gases from burning paper, rust (iron oxide) from iron, cooked food from raw food."
+    },
+    {
+     "step": 3,
+     "action": "Confirm irreversibility and energy change",
+     "explain": "Verify that the change cannot be easily reversed and is often accompanied by a release or absorption of heat or light, confirming it is a chemical change."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is the burning of a candle considered a chemical change?",
+     "solution": "When a candle burns, the wax reacts with oxygen in the air to form carbon dioxide, water vapour and heat. New substances with different properties are formed and the process cannot be reversed, so it is a chemical change.",
+     "answer": "Burning of a candle forms new substances (CO2, water vapour) and is irreversible."
+    },
+    {
+     "question": "Rusting of an iron nail is a chemical change. Justify.",
+     "solution": "When iron is exposed to moist air, it reacts with oxygen and water to form hydrated iron oxide (rust), which is a new substance with different properties. The rust cannot be converted back into iron easily, so it is a chemical change.",
+     "answer": "Rusting forms a new substance (iron oxide) and is irreversible."
+    },
+    {
+     "question": "Why is cooking of food regarded as a chemical change?",
+     "solution": "During cooking, raw food undergoes changes in composition -- proteins denature, starches break down and new flavours and colours develop. The cooked food cannot be changed back to raw food, so it is a chemical change.",
+     "answer": "Cooking changes the composition of food irreversibly, forming new substances."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define a chemical change and give three examples.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is rusting of iron called a chemical change?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why burning is always a chemical change.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.5.3",
+   "title": "Differences Between Physical and Chemical Changes",
+   "section": "5.3",
+   "definition": "A physical change alters only the physical properties of a substance without forming a new substance, whereas a chemical change produces one or more new substances with different properties.",
+   "formula": "",
+   "key_idea": "The key difference is whether a new substance is formed: physical changes do not produce new substances and are often reversible, while chemical changes produce new substances and are usually irreversible.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "State three differences between physical and chemical changes.",
+    "How can you tell if a change is physical or chemical?",
+    "Is tearing of paper a physical or chemical change? Explain.",
+    "Why is dissolving salt in water a physical change but burning a chemical change?",
+    "Compare physical and chemical changes with examples."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check for formation of new substances",
+     "explain": "If no new substance is formed and only the state, shape or appearance changes, it is a physical change; if new substances are formed, it is a chemical change."
+    },
+    {
+     "step": 2,
+     "action": "Check reversibility",
+     "explain": "Physical changes are usually reversible (e.g., melting and freezing of water), while chemical changes are usually irreversible (e.g., burning of paper)."
+    },
+    {
+     "step": 3,
+     "action": "Check for energy changes and signs",
+     "explain": "Chemical changes often involve heat, light or gas evolution, while physical changes generally do not; use these signs to distinguish the two."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Tearing a sheet of paper is a physical change, but burning it is a chemical change. Why?",
+     "solution": "Tearing changes only the shape and size of the paper; no new substance is formed and the pieces can be joined back, so it is a physical change. Burning produces ash, smoke and gases -- new substances -- and cannot be reversed, so it is a chemical change.",
+     "answer": "Tearing forms no new substance (physical); burning forms ash and gases (chemical)."
+    },
+    {
+     "question": "Dissolving sugar in water is a physical change. Give reason.",
+     "solution": "When sugar dissolves in water, it mixes with water but no new substance is formed. The sugar can be recovered by evaporating the water, so it is a physical change.",
+     "answer": "Dissolving sugar forms no new substance and is reversible, so it is physical."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List three differences between physical and chemical changes.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Classify the following as physical or chemical change: melting of wax, burning of wax, rusting of iron, dissolving salt in water.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is a chemical change usually irreversible?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.5.4",
+   "title": "Signs of Chemical Change -- Colour Change, Gas Evolution and Precipitate",
+   "section": "5.4",
+   "definition": "A chemical change can be identified by observable signs such as a change in colour, evolution of a gas (bubbles), formation of a precipitate, change in temperature, or emission of light or sound.",
+   "formula": "",
+   "key_idea": "The common signs that indicate a chemical change has occurred are colour change, gas evolution, precipitate formation, temperature change and emission of light.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the signs that indicate a chemical change?",
+    "How does a colour change indicate a chemical reaction?",
+    "What is a precipitate and how does it indicate a chemical change?",
+    "Why is the evolution of gas a sign of chemical change?",
+    "List five observations that help identify a chemical change."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Observe colour change",
+     "explain": "A change in colour of the substance indicates that a new substance with a different colour has formed, e.g., iron nails in copper sulphate solution turn the blue solution green."
+    },
+    {
+     "step": 2,
+     "action": "Check for gas evolution and precipitate",
+     "explain": "Bubbles of gas or a hissing sound indicate gas evolution, and a solid (precipitate) settling at the bottom indicates an insoluble new substance has formed."
+    },
+    {
+     "step": 3,
+     "action": "Check for temperature, light or sound change",
+     "explain": "A rise or fall in temperature, emission of light or a loud sound are further signs that a chemical change has taken place."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "When zinc is added to dilute hydrochloric acid, bubbles are seen. What does this indicate?",
+     "solution": "The bubbles are of hydrogen gas being released during the reaction. Gas evolution is a sign that a new substance (hydrogen) is being formed, indicating a chemical change.",
+     "answer": "Bubbles of hydrogen gas indicate a chemical change."
+    },
+    {
+     "question": "When silver nitrate solution is mixed with sodium chloride solution, a white solid appears. What is happening?",
+     "solution": "The white solid is a precipitate of silver chloride formed by the reaction between silver nitrate and sodium chloride. Formation of a precipitate is a sign of a chemical change.",
+     "answer": "A white precipitate of silver chloride indicates a chemical change."
+    },
+    {
+     "question": "Why does a colour change indicate a chemical change?",
+     "solution": "A colour change means a substance with a different colour has formed, which implies a new substance has been produced. Since new substance formation is the hallmark of a chemical change, a colour change is a sign of it.",
+     "answer": "Colour change means a new substance has formed, indicating a chemical change."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List five signs that help identify a chemical change.",
+     "type": "short_answer"
+    },
+    {
+     "question": "What is a precipitate? Give one example.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How does a change in temperature indicate a chemical change?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.5.5",
+   "title": "Reversible and Irreversible Changes",
+   "section": "5.5",
+   "definition": "A reversible change is a change that can be undone to get back the original substance, whereas an irreversible change is a change that cannot be reversed to get back the original substance.",
+   "formula": "",
+   "key_idea": "Reversible changes (e.g., melting of ice, folding of paper) can be reversed to recover the original substance, while irreversible changes (e.g., burning, rusting) cannot be undone.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a reversible change? Give two examples.",
+    "What is an irreversible change? Give two examples.",
+    "Is burning of paper reversible or irreversible? Why?",
+    "Classify melting of ice and cooking of food as reversible or irreversible.",
+    "Why are most chemical changes irreversible?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the change and the substance",
+     "explain": "Note the change taking place (e.g., melting, burning, cooking) and the substance involved."
+    },
+    {
+     "step": 2,
+     "action": "Check if the original substance can be recovered",
+     "explain": "Determine whether the original substance can be obtained back by any simple method; if yes, the change is reversible."
+    },
+    {
+     "step": 3,
+     "action": "Classify as reversible or irreversible",
+     "explain": "If the original substance can be recovered, classify as reversible; if not, classify as irreversible. Most physical changes are reversible and most chemical changes are irreversible."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Is the melting of ice a reversible or irreversible change?",
+     "solution": "When ice melts, it forms water, and this water can be frozen again to get back the ice. Since the original substance (ice) can be recovered, melting of ice is a reversible change.",
+     "answer": "Melting of ice is reversible because water can be refrozen into ice."
+    },
+    {
+     "question": "Why is the burning of wood an irreversible change?",
+     "solution": "When wood burns, it forms ash, smoke and gases -- new substances that cannot be converted back into wood by any simple method. Hence, burning of wood is an irreversible change.",
+     "answer": "Burning of wood is irreversible because ash and gases cannot be changed back to wood."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define reversible and irreversible changes with one example each.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Classify the following as reversible or irreversible: melting of wax, burning of petrol, folding a paper, cooking of rice.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why are most chemical changes irreversible?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.5.6",
+   "title": "Examples of Physical Changes in Daily Life",
+   "section": "5.6",
+   "definition": "Common physical changes in daily life include melting of ice, freezing of water, evaporation of water, dissolution of sugar or salt in water, folding or cutting of paper, and stretching of a rubber band -- none of which form new substances.",
+   "formula": "",
+   "key_idea": "Many everyday changes such as melting, freezing, evaporation, dissolving and changing shape are physical changes because no new substance is formed and the original substance can often be recovered.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Give five examples of physical changes from daily life.",
+    "Why is dissolving sugar in water a physical change?",
+    "Is cutting of paper a physical change? Explain.",
+    "How is evaporation of water a physical change in nature?",
+    "Why is the stretching of a rubber band a physical change?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the everyday change",
+     "explain": "Note the change occurring in daily life, e.g., melting of ice, dissolving sugar, drying of wet clothes."
+    },
+    {
+     "step": 2,
+     "action": "Verify no new substance is formed",
+     "explain": "Confirm that the chemical composition of the substance remains unchanged and only the state, shape or appearance is altered."
+    },
+    {
+     "step": 3,
+     "action": "Confirm it is a physical change",
+     "explain": "Since no new substance is formed and the change is often reversible, classify the everyday change as a physical change."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Drying of wet clothes is a physical change. Explain.",
+     "solution": "When wet clothes dry, the water in them evaporates into water vapour. No new substance is formed -- only water changes from liquid to gas -- and the clothes remain the same, so it is a physical change.",
+     "answer": "Drying of clothes involves evaporation of water; no new substance forms."
+    },
+    {
+     "question": "Why is dissolving salt in water considered a physical change?",
+     "solution": "When salt dissolves in water, it mixes uniformly but no new substance is formed. The salt can be recovered by evaporating the water, so dissolving salt is a physical change.",
+     "answer": "Dissolving salt forms no new substance and is reversible by evaporation."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List five physical changes that you observe in daily life.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is the freezing of water to form ice a physical change?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Is boiling of water a physical change? Give reason.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.5.7",
+   "title": "Examples of Chemical Changes in Daily Life",
+   "section": "5.7",
+   "definition": "Common chemical changes in daily life include burning of fuels, rusting of iron, cooking of food, digestion of food, ripening of fruits and curdling of milk -- all of which form new substances.",
+   "formula": "",
+   "key_idea": "Many everyday processes such as burning, cooking, rusting, digestion and ripening are chemical changes because new substances with different properties are formed and the changes are irreversible.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Give five examples of chemical changes from daily life.",
+    "Why is cooking of food a chemical change?",
+    "How is digestion of food a chemical change?",
+    "Why does curdling of milk indicate a chemical change?",
+    "Is ripening of fruit a chemical change? Explain."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the everyday change",
+     "explain": "Note the change occurring in daily life, e.g., cooking of food, burning of a candle, rusting of a gate."
+    },
+    {
+     "step": 2,
+     "action": "Verify that new substances are formed",
+     "explain": "Confirm that new substances with different properties are produced, e.g., cooked food from raw food, rust from iron, ash and smoke from burning."
+    },
+    {
+     "step": 3,
+     "action": "Confirm it is a chemical change",
+     "explain": "Since new substances are formed and the change is usually irreversible, classify the everyday change as a chemical change."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is the ripening of a mango considered a chemical change?",
+     "solution": "During ripening, the starch in the mango is converted into sugars and new compounds responsible for colour, aroma and taste are formed. Since new substances are produced, ripening is a chemical change.",
+     "answer": "Ripening forms new substances (sugars, flavour compounds), so it is chemical."
+    },
+    {
+     "question": "Curdling of milk is a chemical change. Justify.",
+     "solution": "When milk curdles, lactose (milk sugar) is converted into lactic acid by bacteria, which causes the milk proteins to coagulate into curd. A new substance (curd) with different properties is formed and the change is irreversible, so it is a chemical change.",
+     "answer": "Curdling forms curd (a new substance) and is irreversible."
+    },
+    {
+     "question": "Why is digestion of food classified as a chemical change?",
+     "solution": "During digestion, complex food substances are broken down into simpler new substances by enzymes, e.g., proteins into amino acids, starch into glucose. New substances are formed, so digestion is a chemical change.",
+     "answer": "Digestion breaks food into new simpler substances, so it is chemical."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List five chemical changes observed in daily life.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is the burning of LPG a chemical change?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why rusting of iron gates is a chemical change.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.5.8",
+   "title": "Crystallization",
+   "section": "5.8",
+   "definition": "Crystallization is the process of forming pure crystals of a solid from a hot saturated solution by cooling it slowly, used to separate and purify a solid substance from its impure mixture.",
+   "formula": "hot saturated solution -> cooling -> crystals",
+   "key_idea": "Crystallization separates a pure solid in the form of crystals from a solution by first making a hot saturated solution and then allowing it to cool, so that crystals of the pure substance form.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is crystallization?",
+    "How are crystals of a substance obtained from a solution?",
+    "Why is crystallization used to purify substances?",
+    "Explain the process of crystallization with an example.",
+    "How is crystallization different from evaporation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Prepare a hot saturated solution",
+     "explain": "Dissolve the impure solid in the minimum amount of hot water (or solvent) until no more solid dissolves, forming a saturated solution."
+    },
+    {
+     "step": 2,
+     "action": "Filter the hot solution",
+     "explain": "Filter the hot saturated solution to remove any insoluble impurities, leaving a clear hot solution."
+    },
+    {
+     "step": 3,
+     "action": "Cool the solution to form crystals",
+     "explain": "Allow the filtered hot solution to cool slowly; as it cools, crystals of the pure solid form and can be separated by filtration and dried."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How would you obtain pure crystals of copper sulphate from an impure sample?",
+     "solution": "Dissolve the impure copper sulphate in the minimum amount of hot water to make a saturated solution. Filter the hot solution to remove insoluble impurities. Allow the clear solution to cool slowly; pure blue crystals of copper sulphate form, which are then filtered and dried.",
+     "answer": "Dissolve in hot water, filter, cool slowly to get pure copper sulphate crystals."
+    },
+    {
+     "question": "Why is crystallization preferred over simple evaporation for purifying a solid?",
+     "solution": "Simple evaporation may leave behind impurities and can decompose heat-sensitive substances. Crystallization produces pure crystals because the impurities remain in the solution while the pure solid crystallises out on cooling, and it does not require strong heating.",
+     "answer": "Crystallization gives purer crystals and avoids decomposition of the substance."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define crystallization and state one use.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Write the steps involved in the process of crystallization.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is crystallization considered a better method than evaporation for purification?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "reviewer-added",
+   "concept": "c7cu.5.1",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain physical changes -- melting, freezing and evaporation with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the substance and the change",
+     "explain": "Note the substance (e.g., ice, water, wax) and the change taking place such as melting, freezing or evaporation."
+    },
+    {
+     "step": 2,
+     "action": "Check whether a new substance is formed",
+     "explain": "Confirm that only the physical state or appearance changes and the chemical composition remains the same -- no new substance is produced."
+    },
+    {
+     "step": 3,
+     "action": "Determine reversibility",
+     "explain": "Verify whether the original substance can be recovered (e.g., water vapour condenses back to water, melted wax solidifies), confirming it is a physical change."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "reviewer-added",
+   "concept": "c7cu.5.2",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain chemical changes -- burning, rusting and cooking with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the reactants and the change",
+     "explain": "Note the starting substance (e.g., paper, iron, raw food) and the process taking place such as burning, rusting or cooking."
+    },
+    {
+     "step": 2,
+     "action": "Check for formation of new substances",
+     "explain": "Confirm that new substances with different properties are produced, e.g., ash and gases from burning paper, rust (iron oxide) from iron, cooked food from raw food."
+    },
+    {
+     "step": 3,
+     "action": "Confirm irreversibility and energy change",
+     "explain": "Verify that the change cannot be easily reversed and is often accompanied by a release or absorption of heat or light, confirming it is a chemical change."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)"
+}

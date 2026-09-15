@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_01_013",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_01_013",
+   "title": "c11_cs_cbse_01_013",
+   "questions": [
+    {
+     "q": "What is the result of binary addition 1 + 1 + 1 (three 1s added together) in a single column, and what carry is generated to the next column?",
+     "a": "The sum is 1 with a carry of 1 to the next column (since 1+1+1 = 3 in decimal = 11 in binary). A wrong answer of \"sum 0 carry 1\" reveals the student only knows 1+1=10 but cannot handle three-input addition (two operands + incoming carry), which is essential for multi-bit addition. A wrong answer of \"sum 1 carry 0\" shows confusion between sum and carry outputs of a full adder.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why binary subtraction 1000 - 0001 requires borrowing across multiple zeros, and show the step-by-step borrowing process for the leftmost three columns.",
+     "a": "Starting from rightmost: column 0: 0-1 borrows from column 1, but column 1 is 0, so it borrows from column 2 (also 0), which borrows from column 3 (1 becomes 0). Column 2 becomes 10 (2), lends 1 to column 1 becoming 1; column 1 becomes 10, lends 1 to column 0 becoming 1; column 0 becomes 10-1=1. Result: 0111. A wrong answer that skips the cascade (e.g., directly writing 0111 without showing intermediate borrows) reveals the student memorises the pattern but doesn't understand borrow propagation through zeros — a critical failure mode in ALU design.",
+     "self_check": true
+    },
+    {
+     "q": "Add the 8-bit binary numbers 01101101 and 00110111. Show all carries and verify by converting both operands and the result to decimal.",
+     "a": "Step 1: Align numbers:\n  01101101\n+ 00110111\n---------\nStep 2: Add column by column with carries:\n  Carry:  1111110\n  01101101\n+ 00110111\n---------\n  10100100\nStep 3: Verify: 01101101₂ = 109₁₀, 00110111₂ = 55₁₀, sum = 164₁₀. 10100100₂ = 128+32+4 = 164₁₀ ✓. A wrong answer with incorrect carry propagation (e.g., missing a carry into the MSB) shows the student cannot track carries across 8 bits — a skill needed for understanding overflow in fixed-width registers.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the direct subtraction method and the 2's complement method for computing 1010 - 0110. Which method is preferred in computer hardware and why? Analyse the hardware complexity of each.",
+     "a": "Direct: 1010 - 0110 = 0100 (requires borrow logic, variable-time propagation). 2's complement: 2's complement of 0110 = 1010; 1010 + 1010 = 10100 → discard carry → 0100. Hardware prefers 2's complement because: (1) same adder circuit handles both + and -, (2) no separate subtractor/borrow logic needed, (3) fixed latency (no borrow ripple), (4) single representation of zero. A student who says \"direct is easier for humans\" misses the point — the question asks about hardware implementation where uniformity and speed dominate. An answer ignoring the discarded carry reveals misunderstanding of fixed-width arithmetic.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"In 8-bit 2's complement arithmetic, adding 01111111 (+127) and 00000001 (+1) gives 10000000, which correctly represents +128.\" Is this correct? Justify your answer with reference to overflow detection.",
+     "a": "The claim is FALSE. In 8-bit 2's complement, the range is -128 to +127. 01111111 (+127) + 00000001 (+1) = 10000000, which represents -128, not +128. Overflow occurs because two positive numbers yielded a negative result (MSB changed from 0 to 1). Overflow detection rule: carry into MSB ≠ carry out of MSB (here: carry in=1, carry out=0 → overflow). A student who says \"it's correct because binary addition works\" ignores the fixed-width representation and signed interpretation — a classic error when moving from unsigned to signed arithmetic.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-bit binary subtraction problem where the direct borrow method requires borrowing across three consecutive zeros, and the 2's complement method requires discarding a carry. Write both solutions and explain which is less error-prone for a human.",
+     "a": "Problem: 1000 - 0001 (8 - 1 = 7). Direct: borrow cascades from bit 3→2→1→0, result 0111. 2's complement: 2's complement of 0001 = 1111; 1000 + 1111 = 10111 → discard carry → 0111. For humans, 2's complement is less error-prone because it reduces subtraction to familiar addition with a fixed algorithm (invert+add 1), avoiding the cognitive load of tracking borrow chains across zeros. A good answer includes both worked solutions and identifies the cognitive advantage. A poor answer only shows one method or claims direct is easier \"because it's intuitive.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

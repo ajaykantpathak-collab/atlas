@@ -1,0 +1,181 @@
+{
+ "catalog": "catalog_class6_science_ch101.json",
+ "concepts": [
+  {
+   "id": "fesc.101.1",
+   "title": "Food Ingredients",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a dish made of?",
+     "a": "One or more ingredients - materials needed to prepare it - like rice, water and salt for cooked rice.",
+     "self_check": true
+    },
+    {
+     "q": "Name the ingredients of boiled rice.",
+     "a": "Rice and water (salt if added for taste).",
+     "self_check": true
+    },
+    {
+     "q": "Where do food ingredients come from?",
+     "a": "From plants and animals - rice from plants, milk and curd from animals.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.101.2",
+   "title": "Primary Food Sources",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name five plant sources of food.",
+     "a": "Rice, wheat, mango, spinach and mustard (seeds, fruits, leaves, stems, roots).",
+     "self_check": true
+    },
+    {
+     "q": "Name five animal sources of food.",
+     "a": "Milk, curd, butter, eggs and meat (also honey from bees).",
+     "self_check": true
+    },
+    {
+     "q": "What do animals that eat plants provide us?",
+     "a": "Milk, eggs and meat - animal products used as food.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.101.3",
+   "title": "Edible Plant Parts",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the edible plant parts with one example each.",
+     "a": "Root (carrot), stem (potato/sugarcane), leaf (spinach), flower (cauliflower), fruit (mango), seed (wheat/gram).",
+     "self_check": true
+    },
+    {
+     "q": "Is tomato a fruit or vegetable botanically?",
+     "a": "A fruit - it develops from the flower's ovary and holds seeds.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we eat different plant parts of different plants?",
+     "a": "Different plants store food in different parts - beetroot stores it in root, sugarcane in stem.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.101.4",
+   "title": "Sprouting",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is sprouting?",
+     "a": "Soaking seeds (like moong or chana) in water till they germinate and sprout small white shoots.",
+     "self_check": true
+    },
+    {
+     "q": "Why are sprouted seeds more nutritious?",
+     "a": "Sprouting increases vitamins (like vitamin C) and makes food easier to digest.",
+     "self_check": true
+    },
+    {
+     "q": "How do you prepare sprouted moong at home?",
+     "a": "Soak moong overnight, drain the water, and leave the seeds wrapped in a moist cloth for a day.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.101.5",
+   "title": "Nectar and Honey Production",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How is honey made by bees?",
+     "a": "Bees collect nectar from flowers, store it in the hive, and fan it into thick honey.",
+     "self_check": true
+    },
+    {
+     "q": "Where do bees store honey and why?",
+     "a": "In hexagonal honeycombs of the hive, as food for the colony.",
+     "self_check": true
+    },
+    {
+     "q": "What parts of plants do bees use to make honey?",
+     "a": "Nectar - the sweet juice inside flowers.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.101.6",
+   "title": "Herbivores",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are herbivores? Give three examples.",
+     "a": "Animals that eat only plants and plant products - cow, goat, deer.",
+     "self_check": true
+    },
+    {
+     "q": "Name the food of a cow.",
+     "a": "Grass, hay and grains - all plant material.",
+     "self_check": true
+    },
+    {
+     "q": "Why do herbivores have flat teeth?",
+     "a": "Flat grinding teeth chew and crush plant food.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.101.7",
+   "title": "Carnivores",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are carnivores? Give three examples.",
+     "a": "Animals that eat other animals - lion, tiger, frog.",
+     "self_check": true
+    },
+    {
+     "q": "What do carnivorous animals eat?",
+     "a": "Flesh of other animals - they hunt or eat other creatures.",
+     "self_check": true
+    },
+    {
+     "q": "Which teeth help carnivores tear food?",
+     "a": "Sharp, pointed canine teeth tear flesh.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.101.8",
+   "title": "Omnivores",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are omnivores? Give three examples.",
+     "a": "Animals that eat both plants and animals - humans, bears, crows.",
+     "self_check": true
+    },
+    {
+     "q": "Why are humans called omnivores?",
+     "a": "We eat plant foods (rice, vegetables) and animal foods (milk, eggs, meat).",
+     "self_check": true
+    },
+    {
+     "q": "Name the diet of a crow.",
+     "a": "Omnivorous - grains, insects, scraps: both plant and animal matter.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

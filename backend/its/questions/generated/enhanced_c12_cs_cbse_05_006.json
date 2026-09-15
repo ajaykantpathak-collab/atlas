@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_05_006",
+   "title": "c12_cs_cbse_05_006",
+   "questions": [
+    {
+     "q": "What is the result of COUNT(*) versus COUNT(column_name) when the column contains NULL values in some rows?",
+     "a": "COUNT(*) counts ALL rows including those with NULL in any column; COUNT(column_name) counts only rows where that specific column is NOT NULL. A wrong answer (e.g., \"both give same result\") reveals the student does not understand that aggregate functions except COUNT(*) skip NULL values — a critical distinction for accurate data analysis.",
+     "self_check": true
+    },
+    {
+     "q": "A table SALES has 10 rows. The AMOUNT column has values: 100, 200, NULL, 400, 500, NULL, 700, 800, 900, 1000. What will AVG(AMOUNT) return? Explain why it is NOT the sum divided by 10.",
+     "a": "AVG(AMOUNT) = (100+200+400+500+700+800+900+1000)/8 = 4600/8 = 575. It divides by 8 (non-NULL count), not 10 (total rows), because AVG ignores NULLs. A student who divides by 10 thinks AVG treats NULL as zero — a common error that inflates denominator and deflates average incorrectly.",
+     "self_check": true
+    },
+    {
+     "q": "Write a query to find the total salary paid to employees in department 'IT' from an EMPLOYEE table with columns EMP_ID, NAME, DEPT, SALARY. Assume SALARY may have NULL for interns.",
+     "a": "SELECT SUM(SALARY) FROM EMPLOYEE WHERE DEPT = 'IT'; SUM automatically ignores NULL salaries, so interns contribute 0 to the total. A wrong query like SELECT SUM(SALARY) FROM EMPLOYEE WHERE DEPT = 'IT' AND SALARY IS NOT NULL works but is redundant; a query using COUNT instead of SUM reveals confusion between counting employees and summing salaries.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the output of MAX(MARKS) and MIN(MARKS) when all MARKS values are NULL. What does each return?",
+     "a": "Both MAX and MIN return NULL when all values are NULL (or table is empty). They do NOT return 0 or an error. A student answering 0 assumes NULL = 0; a student answering \"error\" confuses aggregate behavior with scalar functions. This tests deep understanding of NULL propagation in aggregates.",
+     "self_check": true
+    },
+    {
+     "q": "A query uses SELECT COUNT(DISTINCT CITY) FROM CUSTOMERS. The CITY column has values: 'Delhi', 'Mumbai', 'Delhi', NULL, 'Chennai', 'Mumbai', NULL. What is the result? Justify whether NULL is counted as a distinct value.",
+     "a": "Result = 3 (Delhi, Mumbai, Chennai). COUNT(DISTINCT column) ignores NULL entirely — NULL is not treated as a distinct value. A student answering 5 (counting NULL as a distinct \"unknown city\") misunderstands that DISTINCT operates on non-NULL values only; this mirrors the behavior of COUNT(column) vs COUNT(*).",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where using SUM on a VARCHAR column would cause an error, but the user intended to sum numeric values stored as text. Propose the fix.",
+     "a": "Scenario: A 'FEES' column defined as VARCHAR(10) stores values '5000', '6000', '7000' (as strings). SELECT SUM(FEES) fails with data type mismatch. Fix: Use CAST: SELECT SUM(CAST(FEES AS DECIMAL(10,2))) FROM STUDENTS. A good answer identifies implicit conversion failure and demonstrates CAST/CONVERT. A poor answer suggests changing table schema (not always allowed) or using application-level sum.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

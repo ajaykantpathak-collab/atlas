@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_14_007",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_14_007",
+   "title": "c12_phy_cbse_14_007",
+   "questions": [
+    {
+     "q": "What is the primary function of a Zener diode in a voltage regulator circuit, and in which bias condition does it operate?",
+     "a": "The primary function is to maintain a constant output voltage (Vz) across the load despite variations in input voltage or load current. It operates in **reverse bias** in the breakdown region. A wrong answer (e.g., \"forward bias\" or \"to amplify current\") reveals the student confuses Zener diode with a regular forward-biased diode or a transistor, and does not understand the unique reverse breakdown property exploited for regulation.",
+     "self_check": true
+    },
+    {
+     "q": "In a Zener regulator circuit, if the input voltage Vin increases while the load resistance RL remains constant, what happens to the Zener current Iz, the load current IL, and the voltage across the load VL? Explain the current redistribution.",
+     "a": "VL remains constant (= Vz). IL = VL/RL remains constant because VL and RL are unchanged. The increase in Vin causes a larger voltage drop across the series resistor Rs, so the total current Is = (Vin - Vz)/Rs increases. Since IL is fixed, the extra current flows entirely through the Zener diode: Iz increases. A wrong answer (e.g., \"IL increases\" or \"VL increases\") shows the student does not grasp that the Zener diode clamps the load voltage and acts as a current sink/shunt to absorb excess current.",
+     "self_check": true
+    },
+    {
+     "q": "A Zener diode has Vz = 9.1 V. The input voltage Vin varies from 12 V to 15 V. The load requires a constant 9.1 V and draws a current IL that varies from 5 mA to 20 mA. The Zener diode requires a minimum current Iz(min) = 2 mA to stay in regulation. Calculate the maximum allowable value of the series resistor Rs (in ohms) and its minimum power rating (in watts).",
+     "a": "**Step 1: Identify worst-case for Rs calculation.** Rs must be small enough to supply the maximum load current plus minimum Zener current even at the minimum input voltage.  \nVin(min) = 12 V, Vz = 9.1 V, IL(max) = 20 mA, Iz(min) = 2 mA.  \nTotal current through Rs at Vin(min): Is = IL(max) + Iz(min) = 22 mA = 0.022 A.  \nVoltage across Rs: Vr = Vin(min) - Vz = 12 - 9.1 = 2.9 V.  \nMaximum Rs = Vr / Is = 2.9 V / 0.022 A = 131.8 Ω. Choose standard value ≤ 131.8 Ω, e.g., 120 Ω.  \n**Step 2: Power rating of Rs.** Worst-case power in Rs occurs at Vin(max) = 15 V with minimum load current (IL(min) = 5 mA) because then Is is maximum.  \nIs(max) = (Vin(max) - Vz) / Rs = (15 - 9.1) / 120 = 5.9 / 120 = 0.04917 A ≈ 49.2 mA.  \nP_Rs(max) = Is(max)² × Rs = (0.04917)² × 120 = 0.290 W.  \nSelect a resistor rated ≥ 0.5 W (standard 0.5 W or 1 W).  \n**Answer:** Rs ≤ 131.8 Ω (choose 120 Ω), power rating ≥ 0.5 W.  \nA wrong answer (e.g., using Vin(max) for Rs calculation, or ignoring Iz(min)) reveals confusion about which condition determines the resistor value and which determines its power dissipation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the voltage regulation performance of a Zener diode regulator with a simple series resistor voltage divider (no Zener) when the load current changes. Use the concept of dynamic resistance of the Zener diode (rz) and the Thevenin equivalent of the divider to explain why the Zener regulator is superior.",
+     "a": "A simple voltage divider (two resistors) has a Thevenin resistance Rth = R1||R2. When load current IL changes, the output voltage changes by ΔV = -IL × Rth. For typical divider resistors (kΩ range), Rth is hundreds of ohms, so even small IL changes cause large voltage drops. A Zener regulator, in contrast, has an effective output resistance approximately equal to the Zener's dynamic resistance rz (typically a few ohms to tens of ohms in breakdown). The voltage change is ΔV = -ΔIL × rz, which is much smaller because rz << Rth. The Zener diode actively adjusts its current to maintain voltage, while the passive divider cannot. A wrong answer that claims the divider regulates better or ignores rz shows the student lacks the small-signal model perspective needed for competitive exams like JEE.",
+     "self_check": true
+    },
+    {
+     "q": "A student builds a Zener regulator with Vz = 5.6 V, Rs = 220 Ω, Vin = 12 V (fixed), and no load (open circuit). The Zener diode datasheet specifies maximum power dissipation Pz(max) = 500 mW. Will the Zener diode be destroyed? If yes, what is the minimum load resistance that must be connected to keep the Zener within its power limit? Assume Iz(min) = 1 mA for regulation.",
+     "a": "**Step 1: No-load condition.** With no load, IL = 0. All current through Rs flows through Zener.  \nIs = (Vin - Vz) / Rs = (12 - 5.6) / 220 = 6.4 / 220 = 0.02909 A = 29.09 mA.  \nIz = 29.09 mA.  \nPower dissipated in Zener: Pz = Vz × Iz = 5.6 × 0.02909 = 0.1629 W = 162.9 mW.  \nThis is less than 500 mW, so **the Zener will NOT be destroyed** in this specific case.  \n**Step 2: If Vin were higher, e.g., 20 V.** Then Is = (20-5.6)/220 = 65.45 mA, Pz = 5.6 × 0.06545 = 366 mW (still safe). But if Vin = 25 V, Is = 88.2 mA, Pz = 494 mW (close to limit).  \n**Step 3: General condition for safety.** To ensure Pz ≤ Pz(max) for a given Vin(max), we need Iz ≤ Pz(max)/Vz.  \nIz(max) = 500 mW / 5.6 V = 89.3 mA.  \nTotal Is = (Vin - Vz)/Rs. The load must draw at least IL(min) = Is - Iz(max).  \nFor Vin = 12 V, Is = 29.09 mA, so even with IL=0, Iz=29.09 mA < 89.3 mA. Safe.  \n**Answer:** No, the Zener is not destroyed at Vin=12 V, no load. Minimum load resistance is not required for this Vin, but if Vin increases, calculate accordingly.  \nA wrong answer (e.g., \"Yes, it will be destroyed\" without calculation) reveals the student assumes any no-load condition destroys the Zener, not understanding that power depends on actual current which is limited by Rs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a variable DC power supply (0–30 V), a 10 V Zener diode (1N4740), a 1 kΩ potentiometer as series resistor, a 1 kΩ load resistor, and two multimeters to demonstrate voltage regulation. Describe the procedure, what to measure, and how to plot the regulation characteristic (VL vs Vin). What key observation confirms regulation?",
+     "a": "**Procedure:**  \n1. Connect circuit: Power supply (+) → potentiometer (as Rs, set to ~1 kΩ) → node A. From node A: Zener diode cathode (reverse bias), load resistor (1 kΩ) to ground. Zener anode to ground.  \n2. Connect multimeter 1 across load (VL), multimeter 2 in series with Zener (Iz) or measure Vin and VL and compute Iz = (Vin - VL)/Rs.  \n3. Vary Vin from 0 V to 20 V in steps (e.g., 2 V). At each step, record Vin, VL, and Iz (or compute).  \n4. Plot VL (y-axis) vs Vin (x-axis). Also plot Iz vs Vin.  \n**Key observation:** For Vin < Vz (~10 V), VL rises with Vin (diode not in breakdown). For Vin > Vz, VL remains nearly constant at ~10 V while Iz increases linearly with Vin. The flat portion of the VL vs Vin curve confirms regulation.  \nA poor answer (e.g., \"measure current only\" or \"plot Vin vs time\") shows the student cannot design a basic characterization experiment, a skill needed for practical exams and lab work.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

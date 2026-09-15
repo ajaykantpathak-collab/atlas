@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch11_003",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch11_003",
+   "title": "c7_math_ch11_003",
+   "questions": [
+    {
+     "q": "What is the exact definition of a \"factor\" of a number when listing factors to find an HCF?",
+     "a": "A factor of a number is an integer that divides that number completely without leaving any remainder. A wrong answer usually reveals that the student is confusing factors with multiples, such as thinking factors are numbers obtained by multiplying by 2, 3, etc., rather than numbers that divide evenly into the given number.",
+     "self_check": true
+    },
+    {
+     "q": "When listing factors of 18, a student writes: $1, 2, 3, 6, 9, 18$. Are all these numbers factors, and how do we know we haven't missed any?",
+     "a": "Yes, these are all the correct factors because they divide 18 evenly, and they are found in pairs ($1 \\times 18 = 18, 2 \\times 9 = 18, 3 \\times 6 = 18$). A wrong answer or missing factor indicates that the student does not check factor pairs systematically or forgets to test numbers using division or divisibility rules.",
+     "self_check": true
+    },
+    {
+     "q": "Find the HCF of 24 and 30 by listing all their factors. Show the common factors and state the highest one.",
+     "a": "First, list the factors of 24: $1, 2, 3, 4, 6, 8, 12, 24$. Next, list the factors of 30: $1, 2, 3, 5, 6, 10, 15, 30$. The common factors are $1, 2, 3, 6$. The highest common factor is $6$. A wrong answer often stems from arithmetic errors during division or missing a factor pair like $4 \\times 6$ for 24.",
+     "self_check": true
+    },
+    {
+     "q": "If two numbers are prime numbers, such as 7 and 11, what will always be their HCF when found by listing factors, and why?",
+     "a": "Their HCF will always be 1 because prime numbers only have two distinct factors: 1 and themselves, meaning the only factor they share is 1. A wrong answer suggests the student confuses prime numbers with composite numbers or incorrectly assumes prime numbers can share other common factors.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that the HCF of 12 and 36 is 36 because 36 appears in the factor list of both numbers. Evaluate this claim and correct the error.",
+     "a": "The claim is incorrect because 36 is a multiple of 12, not a factor of 12 (you cannot divide 12 by 36 to get a whole number). The correct factors of 12 are $1, 2, 3, 4, 6, 12$, and the factors of 36 include those, making the HCF equal to 12. This error shows the student is confusing the concepts of factors (numbers that divide into the value) with multiples (numbers that contain the value).",
+     "self_check": true
+    },
+    {
+     "q": "Create a pair of composite numbers less than 50 whose HCF by listing factors is exactly 12. Show your factor lists to prove it.",
+     "a": "An example pair is 36 and 48. Factors of 36: $1, 2, 3, 4, 6, 9, 12, 18, 36$. Factors of 48: $1, 2, 3, 4, 6, 8, 12, 16, 24, 48$. The common factors are $1, 2, 3, 4, 6, 12$, and the highest is 12. A poor answer would list numbers that do not share 12 as a factor or fail to verify all factor pairs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

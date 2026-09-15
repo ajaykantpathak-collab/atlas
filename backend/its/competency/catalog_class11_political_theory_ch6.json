@@ -1,0 +1,516 @@
+{
+ "class": "11",
+ "subject": "political_theory",
+ "chapter": 6,
+ "chapter_title": "Citizenship",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\keps106.txt",
+ "concepts": [
+  {
+   "id": "c11pt.6.1",
+   "title": "Meaning of Citizenship",
+   "section": "Introduction: What is Citizenship?",
+   "definition": "Citizenship is the full and equal membership of a person in a political community (state) that gives the person certain rights and duties and a political identity.",
+   "formula": "",
+   "key_idea": "Citizenship is a legal and political relationship between an individual and a state; it grants the citizen rights and imposes duties and gives them a sense of political identity and belonging.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is meant by citizenship?",
+    "Explain the meaning of citizenship in political theory.",
+    "How is citizenship different from membership of a social group?",
+    "What does citizenship entail for an individual?",
+    "Why is citizenship considered a political identity?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define citizenship as membership of a state",
+     "explain": "Citizenship is the full and equal membership of an individual in a political community or state, which gives the person a political identity."
+    },
+    {
+     "step": 2,
+     "action": "Explain what citizenship entails",
+     "explain": "Citizenship grants the citizen certain rights (civil, political and social) and imposes certain duties towards the state and fellow citizens."
+    },
+    {
+     "step": 3,
+     "action": "Distinguish from social membership",
+     "explain": "Unlike membership of a social or cultural group, citizenship is a legal and political relationship with a state that is defined by law."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is meant by citizenship?",
+     "solution": "Step 1: Citizenship is full and equal membership of a person in a political community (state). Step 2: It gives the person certain rights and duties. Step 3: It also provides a political identity and a sense of belonging to the state.",
+     "answer": "Citizenship is full and equal membership of a person in a state, giving rights, duties and political identity"
+    },
+    {
+     "question": "How is citizenship different from membership of a social or cultural group?",
+     "solution": "Step 1: Citizenship is a legal and political relationship with a state. Step 2: Membership of a social group is based on culture, religion or interest. Step 3: Citizenship is defined by law and carries legal rights and duties, while social membership does not.",
+     "answer": "Citizenship is a legal-political relationship with a state; social membership is based on culture or interest and carries no legal status"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning of citizenship and discuss what it entails for an individual.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is citizenship called a political identity?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.6.2",
+   "title": "Citizenship by Birth (Jus Soli and Jus Sanguinis)",
+   "section": "Citizenship by Birth",
+   "definition": "Citizenship by birth is acquired in two ways: jus soli (right of the soil) grants citizenship to anyone born in the territory of the state, while jus sanguinis (right of blood) grants citizenship based on the citizenship of one or both parents.",
+   "formula": "",
+   "key_idea": "Citizenship can be acquired by birth either through jus soli (born in the territory) or jus sanguinis (born to citizen parents); different countries follow different principles or a combination of both.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is citizenship by birth?",
+    "Distinguish between jus soli and jus sanguinis.",
+    "Explain the principle of jus soli with an example.",
+    "Explain the principle of jus sanguinis with an example.",
+    "Which principle of citizenship by birth does India follow?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define citizenship by birth",
+     "explain": "Citizenship by birth is acquired automatically by a person at birth based on where they are born or the citizenship of their parents."
+    },
+    {
+     "step": 2,
+     "action": "Explain jus soli and jus sanguinis",
+     "explain": "Jus soli grants citizenship to anyone born in the territory of the state; jus sanguinis grants citizenship based on the citizenship of one or both parents regardless of place of birth."
+    },
+    {
+     "step": 3,
+     "action": "Compare the two principles",
+     "explain": "Jus soli is based on territory while jus sanguinis is based on descent; many countries including India use a combination of both principles to determine citizenship by birth."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Distinguish between jus soli and jus sanguinis.",
+     "solution": "Step 1: Jus soli is the right of the soil -- citizenship by being born in the territory. Step 2: Jus sanguinis is the right of blood -- citizenship by descent from citizen parents. Step 3: The former is based on place of birth, the latter on parentage.",
+     "answer": "Jus soli is citizenship by birth in the territory; jus sanguinis is citizenship by descent from citizen parents"
+    },
+    {
+     "question": "Which principle of citizenship by birth does India follow?",
+     "solution": "Step 1: India follows a combination of jus soli and jus sanguinis. Step 2: The Citizenship Act provides for citizenship by birth in India as well as by descent. Step 3: This combines territorial and descent-based principles of citizenship.",
+     "answer": "India follows a combination of jus soli and jus sanguinis as laid down in the Citizenship Act"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the principles of jus soli and jus sanguinis with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State the difference between jus soli and jus sanguinis in one sentence.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.6.3",
+   "title": "Citizenship by Naturalisation",
+   "section": "Citizenship by Naturalisation",
+   "definition": "Citizenship by naturalisation is the process by which a non-citizen of a state is granted citizenship of that state after fulfilling certain conditions laid down by law, such as residence, language and good character.",
+   "formula": "",
+   "key_idea": "Naturalisation is a legal process through which a foreigner can become a citizen of a state after meeting prescribed conditions like period of residence, knowledge of language and oath of allegiance.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is citizenship by naturalisation?",
+    "Explain the process of naturalisation with an example.",
+    "What conditions must a person fulfil to acquire citizenship by naturalisation?",
+    "How does naturalisation differ from citizenship by birth?",
+    "Can a naturalised citizen enjoy the same rights as a citizen by birth? Discuss."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define naturalisation",
+     "explain": "Naturalisation is the legal process by which a non-citizen is granted the citizenship of a state after fulfilling conditions prescribed by law."
+    },
+    {
+     "step": 2,
+     "action": "Explain the conditions for naturalisation",
+     "explain": "Common conditions include a specified period of residence in the country, knowledge of the language, good character, intention to reside and an oath of allegiance to the state."
+    },
+    {
+     "step": 3,
+     "action": "Compare with citizenship by birth",
+     "explain": "Citizenship by birth is automatic, while naturalisation is a deliberate legal process; in some countries naturalised citizens may face certain restrictions on holding high offices."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is citizenship by naturalisation? Explain the process.",
+     "solution": "Step 1: Naturalisation is a legal process of granting citizenship to a non-citizen. Step 2: The applicant must fulfil conditions like residence, language and good character. Step 3: On fulfilling these, the state grants citizenship, often after an oath of allegiance.",
+     "answer": "Naturalisation is the legal process by which a non-citizen becomes a citizen after fulfilling prescribed conditions"
+    },
+    {
+     "question": "How does naturalisation differ from citizenship by birth?",
+     "solution": "Step 1: Citizenship by birth is acquired automatically at birth. Step 2: Naturalisation is acquired later by fulfilling legal conditions. Step 3: Naturalisation is a deliberate process while birth-based citizenship is automatic.",
+     "answer": "Birth citizenship is automatic; naturalisation is a deliberate legal process requiring fulfilment of conditions"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning and process of citizenship by naturalisation.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Mention any two conditions for naturalisation.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.6.4",
+   "title": "Citizenship and Nationality",
+   "section": "Citizenship and Nationality",
+   "definition": "Citizenship is the legal and political relationship between an individual and a state, while nationality refers to the cultural, ethnic or emotional belonging of a person to a nation or community.",
+   "formula": "",
+   "key_idea": "Citizenship is a legal-political status defined by law, whereas nationality is a socio-cultural identity based on shared culture, language or ethnicity; a person can have a nationality without being a citizen of the corresponding state.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Distinguish between citizenship and nationality.",
+    "What is the difference between citizenship and nationality?",
+    "Can a person have a nationality without being a citizen? Explain.",
+    "Is citizenship a legal concept or a cultural one?",
+    "How do citizenship and nationality relate to each other?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define citizenship as a legal-political status",
+     "explain": "Citizenship is a legal relationship between an individual and a state, defined by law, carrying rights and duties."
+    },
+    {
+     "step": 2,
+     "action": "Define nationality as a socio-cultural identity",
+     "explain": "Nationality refers to a person's cultural, ethnic or emotional belonging to a nation or community based on shared language, culture or history."
+    },
+    {
+     "step": 3,
+     "action": "Explain the difference",
+     "explain": "Citizenship is legal and political while nationality is cultural and emotional; a person may belong to a nation (nationality) without being a legal citizen of the corresponding state."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Distinguish between citizenship and nationality.",
+     "solution": "Step 1: Citizenship is a legal-political relationship with a state. Step 2: Nationality is a cultural or emotional belonging to a nation. Step 3: Citizenship is defined by law while nationality is based on shared culture and identity.",
+     "answer": "Citizenship is a legal-political status; nationality is a cultural-emotional identity"
+    },
+    {
+     "question": "Can a person have a nationality without being a citizen? Give an example.",
+     "solution": "Step 1: A person may belong to a nation culturally without being a legal citizen of the corresponding state. Step 2: For example, a person of Tibetan nationality living in India may have Tibetan nationality but Indian citizenship or no citizenship. Step 3: Thus nationality and citizenship are distinct.",
+     "answer": "Yes, a person can have a nationality (cultural belonging) without being a legal citizen of the corresponding state"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the difference between citizenship and nationality with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Is citizenship a legal concept or a cultural one?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.6.5",
+   "title": "Rights and Duties of Citizens",
+   "section": "Rights and Duties of Citizens",
+   "definition": "Citizenship confers on individuals certain rights (civil, political and social) and also imposes certain duties towards the state and fellow citizens, making rights and duties two sides of the same coin.",
+   "formula": "",
+   "key_idea": "Citizens enjoy rights such as the right to vote, right to equality and right to freedom, and in turn owe duties such as obeying laws, paying taxes and defending the country; rights and duties are correlative.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the rights and duties of citizens?",
+    "Explain the relationship between the rights and duties of citizens.",
+    "List the important duties of a citizen towards the state.",
+    "Why is it said that rights and duties are two sides of the same coin?",
+    "What are the political rights enjoyed by citizens?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the rights of citizens",
+     "explain": "Citizens enjoy civil rights (liberty, equality), political rights (right to vote, contest elections) and social rights (education, work) guaranteed by the constitution."
+    },
+    {
+     "step": 2,
+     "action": "List the duties of citizens",
+     "explain": "Citizens have duties such as obeying laws, paying taxes, defending the country, protecting public property and promoting harmony, as laid down in fundamental duties."
+    },
+    {
+     "step": 3,
+     "action": "Explain the relationship between rights and duties",
+     "explain": "Rights and duties are correlative; the enjoyment of rights by citizens is possible only when all citizens perform their duties towards the state and each other."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the rights and duties of citizens?",
+     "solution": "Step 1: Citizens enjoy civil, political and social rights like equality, vote and education. Step 2: They owe duties like obeying laws, paying taxes and defending the country. Step 3: Rights and duties are correlative and complementary.",
+     "answer": "Citizens enjoy civil, political and social rights and owe duties like obeying laws, paying taxes and defending the state"
+    },
+    {
+     "question": "Why is it said that rights and duties of citizens are two sides of the same coin?",
+     "solution": "Step 1: Every right of a citizen creates a duty for others and the state to respect it. Step 2: Enjoyment of rights requires citizens to perform their duties. Step 3: Hence rights and duties are interdependent and two sides of the same coin.",
+     "answer": "Because every right implies a corresponding duty and rights can be enjoyed only when duties are performed"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the rights and duties of citizens and discuss their relationship.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Mention any three duties of a citizen towards the state.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.6.6",
+   "title": "Global Citizenship",
+   "section": "Global Citizenship",
+   "definition": "Global citizenship is the idea that individuals are not only citizens of their own country but also members of a wider global community, with rights and responsibilities that extend beyond national boundaries.",
+   "formula": "",
+   "key_idea": "Global citizenship emphasises that human beings share a common humanity and have responsibilities towards the global community, including concern for human rights, environment and poverty across the world.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is global citizenship?",
+    "Explain the concept of global citizenship.",
+    "What are the responsibilities of a global citizen?",
+    "How does global citizenship differ from national citizenship?",
+    "Why is the idea of global citizenship becoming important today?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define global citizenship",
+     "explain": "Global citizenship is the idea that individuals belong to a wider global community in addition to their own country, with rights and responsibilities beyond national borders."
+    },
+    {
+     "step": 2,
+     "action": "Explain the responsibilities of a global citizen",
+     "explain": "A global citizen is concerned with human rights, environmental protection, poverty reduction and peace across the world, not just within their own country."
+    },
+    {
+     "step": 3,
+     "action": "Compare with national citizenship",
+     "explain": "National citizenship is a legal status tied to a state, while global citizenship is a moral and ethical outlook that transcends national boundaries; it complements rather than replaces national citizenship."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is global citizenship? Explain.",
+     "solution": "Step 1: Global citizenship is the idea that individuals are members of a wider global community. Step 2: It involves rights and responsibilities beyond national borders. Step 3: It emphasises concern for human rights, environment and poverty at the global level.",
+     "answer": "Global citizenship is the idea that individuals belong to a global community with rights and responsibilities beyond national borders"
+    },
+    {
+     "question": "How does global citizenship differ from national citizenship?",
+     "solution": "Step 1: National citizenship is a legal status tied to a particular state. Step 2: Global citizenship is a moral outlook transcending national boundaries. Step 3: Global citizenship complements national citizenship by adding global responsibilities.",
+     "answer": "National citizenship is a legal status; global citizenship is a moral outlook with responsibilities beyond national borders"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the concept of global citizenship and discuss its relevance today.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Mention any two responsibilities of a global citizen.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.6.7",
+   "title": "Citizenship in India",
+   "section": "Citizenship in India",
+   "definition": "Citizenship in India is governed by the Constitution (Articles 5-11) and the Citizenship Act, 1955, which provide for citizenship by birth, descent, registration, naturalisation and incorporation of territory.",
+   "formula": "",
+   "key_idea": "The Indian Constitution and the Citizenship Act, 1955 provide five methods of acquiring Indian citizenship -- by birth, descent, registration, naturalisation and incorporation of territory -- and also grounds for termination.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How is citizenship determined in India?",
+    "What are the methods of acquiring Indian citizenship?",
+    "Explain the constitutional provisions regarding citizenship in India.",
+    "What is the Citizenship Act, 1955?",
+    "How can a foreigner acquire Indian citizenship?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the constitutional basis",
+     "explain": "Articles 5 to 11 of the Constitution deal with citizenship at the commencement of the Constitution and empower Parliament to regulate citizenship by law."
+    },
+    {
+     "step": 2,
+     "action": "List the methods of acquiring citizenship",
+     "explain": "The Citizenship Act, 1955 provides five methods: by birth, by descent, by registration, by naturalisation and by incorporation of territory."
+    },
+    {
+     "step": 3,
+     "action": "Explain termination of citizenship",
+     "explain": "Indian citizenship can be terminated by renunciation (voluntarily giving it up), termination (if acquired by fraud) or deprivation (if the citizen acts against the state)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the methods of acquiring Indian citizenship?",
+     "solution": "Step 1: The Citizenship Act, 1955 provides five methods. Step 2: They are citizenship by birth, descent, registration, naturalisation and incorporation of territory. Step 3: Each method has specific conditions laid down in the Act.",
+     "answer": "Five methods: birth, descent, registration, naturalisation and incorporation of territory"
+    },
+    {
+     "question": "Explain the constitutional provisions regarding citizenship in India.",
+     "solution": "Step 1: Articles 5-11 of the Constitution deal with citizenship. Step 2: They determine citizenship at the commencement of the Constitution and empower Parliament to make laws on citizenship. Step 3: Parliament enacted the Citizenship Act, 1955 to regulate citizenship matters.",
+     "answer": "Articles 5-11 provide the constitutional basis and empower Parliament to regulate citizenship through law"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the methods of acquiring and terminating Indian citizenship.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Mention any three methods of acquiring Indian citizenship.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.6.8",
+   "title": "Refugees and Stateless Persons",
+   "section": "Refugees and Stateless Persons",
+   "definition": "Refugees are persons who have been forced to leave their country due to war, persecution or violence and seek shelter in another country, while stateless persons are individuals who are not recognised as citizens by any state.",
+   "formula": "",
+   "key_idea": "Refugees and stateless persons face a precarious situation as they lack the protection of any state; they do not enjoy the rights of citizens and their status is governed by international conventions and the laws of host countries.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Who are refugees? Explain their situation.",
+    "What is meant by a stateless person?",
+    "How do refugees differ from citizens?",
+    "What problems do stateless persons face?",
+    "What is the role of the UNHCR in protecting refugees?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define refugees",
+     "explain": "Refugees are persons who are forced to flee their country due to war, persecution or violence and seek protection in another country; they are not citizens of the host country."
+    },
+    {
+     "step": 2,
+     "action": "Define stateless persons",
+     "explain": "Stateless persons are individuals who are not recognised as citizens by any state under its law, leaving them without the legal protection and rights that citizenship provides."
+    },
+    {
+     "step": 3,
+     "action": "Explain the problems they face",
+     "explain": "Both refugees and stateless persons lack citizenship rights, face legal insecurity, restricted access to education and employment, and rely on international conventions like the 1951 Refugee Convention and the UNHCR for protection."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Who are refugees? Explain their situation.",
+     "solution": "Step 1: Refugees are persons forced to leave their country due to war or persecution. Step 2: They seek shelter in another country but are not its citizens. Step 3: They face legal insecurity and rely on international protection such as the UNHCR.",
+     "answer": "Refugees are persons forced to flee their country due to war or persecution and seek protection in another country"
+    },
+    {
+     "question": "What is meant by a stateless person?",
+     "solution": "Step 1: A stateless person is not recognised as a citizen by any state. Step 2: Such a person lacks the legal protection and rights that citizenship provides. Step 3: This leaves them in a very vulnerable and precarious situation.",
+     "answer": "A stateless person is one who is not recognised as a citizen by any state and lacks the rights and protection of citizenship"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning of refugees and stateless persons and discuss the problems they face.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How do refugees differ from citizens of a country?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.6.9",
+   "title": "Dual and Multiple Citizenship",
+   "section": "Dual and Multiple Citizenship",
+   "definition": "Dual citizenship is a status under which a person is simultaneously a citizen of two or more states, enjoying the rights and bearing the duties of each; it may arise by birth, marriage or naturalisation.",
+   "formula": "",
+   "key_idea": "Some countries allow dual citizenship (holding citizenship of two states at the same time) while others do not; India generally does not allow full dual citizenship but provides the Overseas Citizen of India (OCI) scheme as a limited form.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is dual citizenship?",
+    "Explain the concept of dual citizenship with examples.",
+    "Does India allow dual citizenship? Explain.",
+    "What is the Overseas Citizen of India (OCI) scheme?",
+    "What are the advantages and problems of dual citizenship?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define dual citizenship",
+     "explain": "Dual citizenship is a legal status under which a person is a citizen of two states at the same time and enjoys the rights and bears the duties of both."
+    },
+    {
+     "step": 2,
+     "action": "Explain how it arises",
+     "explain": "Dual citizenship can arise by birth (born in one country to parents of another), by marriage, or by naturalisation in a second country without losing the original citizenship."
+    },
+    {
+     "step": 3,
+     "action": "Explain India's position",
+     "explain": "India does not allow full dual citizenship; however, it provides the Overseas Citizen of India (OCI) scheme which gives persons of Indian origin certain limited rights without full citizenship."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is dual citizenship? Explain with an example.",
+     "solution": "Step 1: Dual citizenship means being a citizen of two states at the same time. Step 2: It can arise by birth, marriage or naturalisation. Step 3: For example, a child born in the USA to Indian parents may hold citizenship of both countries if both laws permit.",
+     "answer": "Dual citizenship is the status of being a citizen of two states simultaneously"
+    },
+    {
+     "question": "Does India allow dual citizenship? Explain the OCI scheme.",
+     "solution": "Step 1: India does not allow full dual citizenship. Step 2: It provides the Overseas Citizen of India (OCI) scheme for persons of Indian origin. Step 3: OCI gives certain limited rights like multiple entry and residency but not full citizenship rights like voting.",
+     "answer": "India does not allow full dual citizenship; it provides the OCI scheme giving limited rights to persons of Indian origin"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the concept of dual citizenship and discuss India's position on it.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is the OCI scheme?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

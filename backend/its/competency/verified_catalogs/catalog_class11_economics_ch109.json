@@ -1,0 +1,419 @@
+{
+ "class": 11,
+ "subject": "economics",
+ "chapter": 109,
+ "chapter_title": "Yoga",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\keks109.txt",
+ "concepts": [
+  {
+   "id": "keks.109.1",
+   "title": "Etymology and Concept of Yoga",
+   "section": "Etymology of yoga",
+   "definition": "Yoga originates from the Sanskrit root 'Yuj', signifying connection, yoking, or integration of individual self-awareness with higher universal consciousness.",
+   "formula": "Yoga = Union (Body + Mind + Spirit)",
+   "key_idea": "Achieving unified consciousness and balance between physical existence and mental state.",
+   "textbook_ref": "keks109.txt lines 20-45",
+   "question_patterns": [
+    "what is the etymology of the word yoga",
+    "explain the meaning of the sanskrit root yuj",
+    "how is yoga defined in ancient scriptures",
+    "what does yoga signify beyond physical exercise",
+    "Explain etymology and concept of yoga in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify root word",
+     "explain": "Trace the term to Sanskrit root 'Yuj' meaning to join, yoke, or unite."
+    },
+    {
+     "step": 2,
+     "action": "explain spiritual significance",
+     "explain": "Describe it as the alignment of individual consciousness with universal consciousness."
+    },
+    {
+     "step": 3,
+     "action": "distinguish from simple exercise",
+     "explain": "Clarify that physical postures are only one aspect of a complete holistic life philosophy."
+    }
+   ]
+  },
+  {
+   "id": "keks.109.2",
+   "title": "Historical Epochs of Yoga",
+   "section": "History and dEvElopmEnt of yoga",
+   "definition": "The historical evolution of yogic philosophy structured across six major ages, spanning over 5000 years from ancient seals to contemporary worldwide recognition.",
+   "formula": "History = Pre-Vedic + Vedic/Upanishadic + Classical + Post-Classical + Modern + Contemporary",
+   "key_idea": "Systematic transition of yogic practices from early civilization seals to international wellness adoption.",
+   "textbook_ref": "keks109.txt lines 46-135",
+   "question_patterns": [
+    "trace the historical development of yoga",
+    "what are the main historical periods of yoga",
+    "describe the significance of the classical period in yoga",
+    "how did yoga evolve from pre-vedic times to the modern era",
+    "Explain historical epochs of yoga in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list historical periods",
+     "explain": "Outline the phases: Pre-Vedic, Vedic & Upanishadic, Classical, Post-Classical, Modern, and Contemporary."
+    },
+    {
+     "step": 2,
+     "action": "highlight key milestones",
+     "explain": "Identify archaeological evidence like the Pashupati seal, Patanjali's Yoga Sutras, and the UN General Assembly declaring June 21st as International Day of Yoga."
+    }
+   ]
+  },
+  {
+   "id": "keks.109.3",
+   "title": "Astanga Yoga (Eight Limbs)",
+   "section": "Classical period",
+   "definition": "A comprehensive eight-stage framework designed by Maharshi Patanjali to regulate mental fluctuations and achieve complete spiritual absorption.",
+   "formula": "Astanga = Yama + Niyama + Asana + Pranayama + Pratyahara + Dharana + Dhyana + Samadhi",
+   "key_idea": "Sequential progression from social ethics and personal purity to internal meditative absorption.",
+   "textbook_ref": "keks109.txt lines 90-110",
+   "question_patterns": [
+    "list the eight limbs of patanjali yoga",
+    "explain astanga yoga and its components",
+    "what is the difference between yama and niyama",
+    "how do the eight limbs lead to samadhi",
+    "Explain astanga yoga (eight limbs) in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define outer limbs",
+     "explain": "Detail Yama (social ethics), Niyama (personal observances), Asana (postures), and Pranayama (breath regulation)."
+    },
+    {
+     "step": 2,
+     "action": "define inner limbs",
+     "explain": "Detail Pratyahara (withdrawal of senses), Dharana (concentration), Dhyana (meditation), and Samadhi (spiritual absorption)."
+    }
+   ]
+  },
+  {
+   "id": "keks.109.4",
+   "title": "Panchamahavrata and Eightfold Path",
+   "section": "Classical period",
+   "definition": "Ethical codes established by Mahavira (Five Great Vows) and Buddha (Eightfold Path) that served as early spiritual guidelines integral to yogic sadhana.",
+   "formula": "Ethical Practice = Panchamahavrata (Jain Vows) + Atthangika Magga (Buddhist Path)",
+   "key_idea": "Moral restraint and balanced cognitive conduct form the bedrock of self-discipline in yoga.",
+   "textbook_ref": "keks109.txt lines 70-95",
+   "question_patterns": [
+    "what are the panchamahavrata of mahavira",
+    "list the eightfold path of buddha",
+    "how do jain and buddhist ethical principles relate to yoga sadhana",
+    "explain the five great vows in jainism",
+    "Explain panchamahavrata and eightfold path in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state five vows",
+     "explain": "Enumerate Ahimsa (non-violence), Satya (truth), Aparigraha (renunciation/non-possession), Asteya (non-stealing), and Brahmacharya (celibacy)."
+    },
+    {
+     "step": 2,
+     "action": "state eightfold path",
+     "explain": "Enumerate Right Understanding, Right Thought, Right Speech, Right Action, Right Livelihood, Right Effort, Right Mindfulness, and Right Concentration."
+    }
+   ]
+  },
+  {
+   "id": "keks.109.5",
+   "title": "Traditional Schools of Yoga",
+   "section": "traditional scHools of yoga",
+   "definition": "Distinct philosophical streams and lineages that provide specialized pathways toward self-realization suited to different human temperaments.",
+   "formula": "Yoga Schools = Jnana + Bhakti + Karma + Patanjala + Hatha",
+   "key_idea": "Multiple complementary paths catering to intellect, devotion, selfless work, mental discipline, and body-energy balance.",
+   "textbook_ref": "keks109.txt lines 140-180",
+   "question_patterns": [
+    "what are the main traditional schools of yoga",
+    "compare jnana yoga bhakti yoga and karma yoga",
+    "explain the philosophy behind hatha yoga",
+    "what is the main objective of patanjala yoga",
+    "Explain traditional schools of yoga in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify paths",
+     "explain": "Categorize Jnana (path of knowledge/wisdom), Bhakti (path of devotion), Karma (path of selfless action), Patanjala (mind regulation), and Hatha (physical-energetic balance)."
+    },
+    {
+     "step": 2,
+     "action": "explain underlying principles",
+     "explain": "Describe how each path targets a unique dimension of human personality to overcome ignorance and suffering."
+    }
+   ]
+  },
+  {
+   "id": "keks.109.6",
+   "title": "Three Stages of Jnana Yoga",
+   "section": "Jñāna Yoga",
+   "definition": "A triadic method of intellectual inquiry consisting of listening to truth, logical reflection, and deep meditative assimilation.",
+   "formula": "Jnana Stages = Sravana + Manana + Nididhyasana",
+   "key_idea": "Transforming theoretical wisdom into direct realization through reflection and sustained meditation.",
+   "textbook_ref": "keks109.txt lines 145-155",
+   "question_patterns": [
+    "what are the three stages of jnana yoga",
+    "explain sravana manana and nididhyasana",
+    "how does a practitioner attain knowledge in jnana yoga",
+    "describe the process of intellectual self-inquiry in yoga",
+    "Explain three stages of jnana yoga in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define sravana",
+     "explain": "Absorbing and listening attentively to scriptural teachings and instructions."
+    },
+    {
+     "step": 2,
+     "action": "define manana",
+     "explain": "Reflecting and contemplating rationally upon instructions to establish intellectual conviction."
+    },
+    {
+     "step": 3,
+     "action": "define nididhyasana",
+     "explain": "Engaging in profound, unbroken meditation to internalize truth and achieve oneness with reality."
+    }
+   ]
+  },
+  {
+   "id": "keks.109.7",
+   "title": "Navadha Bhakti (Ninefold Devotion)",
+   "section": "Bhakti Yoga",
+   "definition": "Nine progressive devotional practices designed to direct emotions toward the divine and dissolve egoistic barriers.",
+   "formula": "Navadha Bhakti = 9 Devotional Practices",
+   "key_idea": "Refinement of human emotions through nine distinct devotional expressions.",
+   "textbook_ref": "keks109.txt lines 155-170",
+   "question_patterns": [
+    "what is navadha bhakti",
+    "list the nine forms of devotional service in bhakti yoga",
+    "how does bhakti yoga purify human emotions",
+    "explain the practice of kirtana and smarana",
+    "Explain navadha bhakti (ninefold devotion) in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "enumerate nine modes",
+     "explain": "List Sravana (listening), Kirtana (praising/singing), Smarana (remembering), Pada-sevana (service), Arcana (worship), Vandana (paying homage), Dasya (servitude), Sakhya (friendship), and Atma-nivedana (self-surrender)."
+    },
+    {
+     "step": 2,
+     "action": "explain spiritual impact",
+     "explain": "Describe how devotional engagement removes jealousy, anger, and pride while instilling bliss and inner peace."
+    }
+   ]
+  },
+  {
+   "id": "keks.109.8",
+   "title": "Panchakosha (Five Sheaths of Existence)",
+   "section": "foundations of yoga",
+   "definition": "The Taittiriya Upanishad model describing human existence across five concentric sheaths from outer physical matter to inner bliss.",
+   "formula": "Existence = Annamaya + Pranamaya + Manomaya + Vijnanamaya + Anandamaya",
+   "key_idea": "Multi-layered framework connecting physical structure, energetic force, mental thoughts, higher wisdom, and pure bliss.",
+   "textbook_ref": "keks109.txt lines 185-220",
+   "question_patterns": [
+    "describe the panchakosha framework",
+    "what are the five sheaths of human body according to taittiriya upanishad",
+    "explain the difference between annamaya kosha and pranamaya kosha",
+    "which kosha represents the bliss body",
+    "Explain panchakosha (five sheaths of existence) in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify gross and subtle sheaths",
+     "explain": "Annamaya (food sheath) forms the physical body; Pranamaya (energy sheath), Manomaya (mental sheath), and Vijnanamaya (wisdom sheath) form the subtle body."
+    },
+    {
+     "step": 2,
+     "action": "identify causal sheath",
+     "explain": "Anandamaya (bliss sheath) forms the causal body closest to the ultimate self."
+    }
+   ]
+  },
+  {
+   "id": "keks.109.9",
+   "title": "Yoga for Holistic Health",
+   "section": "yoga and Holistic HEaltH",
+   "definition": "A comprehensive healthcare framework that establishes harmony across physical, cognitive, emotional, social, and spiritual dimensions.",
+   "formula": "Holistic Health = Physical + Cognitive + Emotional + Social + Spiritual Wellbeing",
+   "key_idea": "Treating root causes of disease to maintain internal equilibrium (homeostasis) and mental calmness.",
+   "textbook_ref": "keks109.txt lines 220-270",
+   "question_patterns": [
+    "how does yoga promote holistic health",
+    "explain the impact of yoga on cognitive and emotional development",
+    "what is the role of yamas and niyamas in social health",
+    "how do yogic practices restore bodily homeostasis",
+    "Explain yoga for holistic health in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain physical and cognitive benefits",
+     "explain": "Asanas and Kriyas tune physiological systems and clear toxins; Pranayama and Dhyana enhance focus, memory, and stress control."
+    },
+    {
+     "step": 2,
+     "action": "explain emotional, social, and spiritual benefits",
+     "explain": "Bhakti Yoga stabilizes mood; Yamas/Niyamas cultivate moral character and healthy interpersonal relationships."
+    }
+   ]
+  },
+  {
+   "id": "keks.109.10",
+   "title": "Categories of Yogic Practices",
+   "section": "ApplicAtion of YogA prActices *",
+   "definition": "A structured system of practical techniques including detoxification, body alignments, breath regulation, energy control, and silent meditation.",
+   "formula": "Practices = Kriya + Surya Namaskara + Asana + Pranayama + Bandha/Mudra + Dhyana",
+   "key_idea": "A versatile toolkit of mental and physical disciplines designed for personal wellness and self-realization.",
+   "textbook_ref": "keks109.txt lines 275-325",
+   "question_patterns": [
+    "what are the major categories of practical yoga techniques",
+    "explain the purpose of kriya and surya namaskara",
+    "what are bandhas and mudras in pranayama",
+    "classify asanas based on body postures",
+    "Explain categories of yogic practices in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list fundamental techniques",
+     "explain": "Kriyas (cleansing procedures), Surya Namaskara (12-pose sequence), and Asanas (standing, sitting, prone, and supine postures)."
+    },
+    {
+     "step": 2,
+     "action": "list internal/subtle techniques",
+     "explain": "Pranayama (breath control), Bandhas/Mudras (locks and subtle gestures), and Dhyana (meditation)."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "keks109.txt lines 145-155",
+   "concept": "keks.109.6",
+   "question_type": "descriptive",
+   "question_pattern": "Explain the three sequential stages of Jñāna Yoga and how they lead to self-realization.",
+   "extracted_variables": {
+    "stage_1": "Sravana",
+    "stage_2": "Manana",
+    "stage_3": "Nididhyasana"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "define sravana",
+     "explain": "First step is Sravana, which means listening to and absorbing teachings from scriptures and teachers."
+    },
+    {
+     "step": 2,
+     "action": "define manana",
+     "explain": "Second step is Manana, which involves deep contemplation and intellectual reasoning to clarify doubts."
+    },
+    {
+     "step": 3,
+     "action": "define nididhyasana",
+     "explain": "Third step is Nididhyasana, sustained meditative assimilation of truth to experience oneness with reality."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "keks109.txt lines 185-220",
+   "concept": "keks.109.8",
+   "concept_id": "keks.109.8",
+   "question_type": "descriptive",
+   "question_pattern": "Outline the five sheaths (Pancakoṣas) of human existence and map them to the gross, subtle, and causal bodies.",
+   "extracted_variables": {
+    "sheaths": "Annamaya, Pranamaya, Manomaya, Vijnanamaya, Anandamaya"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "map gross sheath",
+     "explain": "Annamaya Kosha (food sheath) forms the gross physical body (Sthula Sarira)."
+    },
+    {
+     "step": 2,
+     "action": "map subtle sheaths",
+     "explain": "Pranamaya (vital energy), Manomaya (mind/emotions), and Vijnanamaya (higher intellect) form the subtle body (Suksma Sarira)."
+    },
+    {
+     "step": 3,
+     "action": "map causal sheath",
+     "explain": "Anandamaya Kosha (bliss sheath) corresponds to the causal body (Karana Sarira)."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex109.1",
+   "source_ref": "keks109.txt lines 330-345",
+   "questions": [
+    "Asteya means ____________.",
+    "Yoga is derived from the Sanskrit root word ____________.",
+    "International Day of Yoga is being celebrated on ____________.",
+    "Human body is made up of gross body, ____________ and causal body.",
+    "Yamas are ____________.",
+    "Niyamas are ____________.",
+    "Jñāna Yoga is the Yoga of ____________.",
+    "Meaning of Svādhyāya is ____________.",
+    "Prāṇāyāma Koṣa is the bridge between _________ and ________.",
+    "Patañjali Yoga is also known as ____________."
+   ]
+  },
+  {
+   "id": "ex109.2",
+   "source_ref": "keks109.txt lines 346-357",
+   "questions": [
+    "Who is the author of Yoga Sūtra?",
+    "Write the meaning of word 'Yuj'.",
+    "What is the aim of Yoga?",
+    "Write down the four names of traditional school of Yoga.",
+    "Write down two objectives of Yoga.",
+    "Write down the three names of śaṭkarma (cleansing) practices.",
+    "Write the names of vedas.",
+    "Write the three names of modern practitioners of Yoga."
+   ]
+  },
+  {
+   "id": "ex109.3",
+   "source_ref": "keks109.txt lines 358-372",
+   "questions": [
+    "Describe Pañcakoṣa.",
+    "Write down the objectives of Yoga.",
+    "Discuss the role of Yoga in holistic health.",
+    "Describe Yamas and Niyamas.",
+    "Write a short note on the history and development of Yoga.",
+    "Write a short note on the traditional school of Yoga.",
+    "Explain about the misconceptions of Yoga.",
+    "Describe Aṣṭāṅga Yoga.",
+    "Describe the stages of Jñāna Yoga.",
+    "Write down the nine primary forms of bhakti (Navadha Bhakti).",
+    "Write a short note on Haṭha Yoga."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

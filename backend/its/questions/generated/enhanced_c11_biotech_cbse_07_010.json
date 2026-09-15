@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_07_010",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_07_010",
+   "title": "c11_biotech_cbse_07_010",
+   "questions": [
+    {
+     "q": "In the absence of lactose, the lac repressor protein binds to which specific DNA segment to prevent transcription of structural genes?",
+     "a": "The lac repressor binds to the **operator (lacO)**, a DNA segment located between the promoter and the first structural gene (*lacZ*). A wrong answer (e.g., \"promoter\" or \"regulatory gene\") reveals the student confuses the *binding site* of the repressor with the *binding site* of RNA polymerase (promoter) or the *gene encoding* the repressor (*lacI*). This confusion prevents understanding how a protein can block transcription without binding the promoter directly.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the lac operon is classified as an \"inducible operon\" rather than a \"repressible operon,\" referencing the nature of the effector molecule and the default state of the repressor.",
+     "a": "The lac operon is inducible because: (1) the **effector molecule (allolactose) is a substrate** of the metabolic pathway, not an end product; (2) the **repressor is synthesized in an active form** that binds the operator by default (transcription OFF); (3) the effector **inactivates** the repressor to turn transcription ON. A wrong answer (e.g., \"effector is an end product\" or \"repressor is inactive by default\") reveals the student has memorized the term \"inducible\" without grasping the physiological logic: inducible systems catabolize nutrients (turn ON when substrate appears), while repressible systems anabolize end products (turn OFF when product accumulates).",
+     "self_check": true
+    },
+    {
+     "q": "A mutant *E. coli* strain has a non-functional *lacI* gene (no repressor protein produced). Predict the expression of *lacZ, lacY, lacA* in this mutant when grown in (a) medium with glucose only, (b) medium with lactose only. Justify each prediction.",
+     "a": "(a) **Constitutive expression (ON)** — Without repressor, operator is never blocked; RNA polymerase transcribes structural genes regardless of lactose. (b) **Constitutive expression (ON)** — Same reason; lactose presence is irrelevant because the repressor is absent. A wrong answer (e.g., \"OFF in glucose, ON in lactose\") reveals the student thinks the *inducer* (lactose/allolactose) is required to *activate* transcription directly, rather than understanding the repressor is the *only* negative regulator and its absence causes permanent derepression. This confuses \"inducer binds repressor\" with \"inducer activates polymerase.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare the molecular mechanism of **negative control** (repressor-operator) and **positive control** (cAMP-CRP) in the lac operon. How do they respond to opposite environmental signals (lactose vs. glucose) to achieve the same physiological outcome?",
+     "a": "**Negative control**: Active repressor (product of *lacI*) binds operator → blocks RNA polymerase → transcription OFF. **Signal**: Lactose ABSENT → repressor active. Lactose PRESENT → allolactose binds repressor → repressor inactive → transcription ON.\n**Positive control**: cAMP-CRP complex binds upstream activator site → enhances RNA polymerase binding → transcription INCREASED. **Signal**: Glucose ABSENT → high cAMP → cAMP-CRP forms → transcription HIGH. Glucose PRESENT → low cAMP → no cAMP-CRP → transcription LOW (basal).\n**Integration**: Maximum expression ONLY when lactose present (repressor off) AND glucose absent (activator on). A wrong answer (e.g., \"both respond to lactose\" or \"CRP binds operator\") reveals the student treats them as redundant rather than complementary logic gates (AND gate: lactose AND low glucose).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The lac operon is fully induced whenever lactose is present in the medium.\" Provide a specific counterexample and explain the molecular basis.",
+     "a": "The statement is **false**. Counterexample: *E. coli* grown in medium containing **both glucose and lactose**. Despite lactose presence, the operon shows **very low (basal) expression** because glucose lowers cAMP levels, preventing cAMP-CRP complex formation. Without cAMP-CRP bound to the activator site, RNA polymerase binds the promoter weakly even though the repressor is inactivated by allolactose. A wrong evaluation (e.g., \"true, lactose induces it\") reveals the student understands negative control but ignores positive control — a classic error where catabolite repression is overlooked. This leads to incorrect predictions in diauxic growth curves.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical *E. coli* genotype (specify mutations in *lacI, lacO, lacZ, lacY, lacA, crp, cya*) that would express β-galactosidase **constitutively at high levels** even in the presence of glucose and absence of lactose. Explain how each mutation contributes to this phenotype.",
+     "a": "Genotype: **lacI⁻ lacO⁺ lacZ⁺ lacY⁺ lacA⁺ crp⁺ cya⁻** (or *lacI⁻ lacOc* where *lacOc* is a constitutive operator mutation).\n- **lacI⁻**: No functional repressor → operator never blocked → negative control eliminated.\n- **cya⁻**: Adenylate cyclase non-functional → no cAMP synthesized → but since repressor is absent, positive control becomes irrelevant for basal expression; however, to achieve *high* expression without glucose, you'd need *crp⁺* and *cya⁺*. Wait — the question asks for high expression *even in glucose*. With *lacI⁻* alone, expression is constitutive but at **basal level** (no CRP activation). To get **high** expression in glucose, you need a **CRP-independent promoter mutation** or a **constitutively active CRP mutant (crp*)**. Better genotype: **lacI⁻ crp* (constitutively active CRP)**. Then: no repressor + CRP always active → high transcription regardless of glucose/lactose. A poor answer (e.g., just *lacI⁻*) reveals the student conflates \"constitutive\" (always ON) with \"high-level\" (fully induced), missing that positive control determines the *magnitude* of expression.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

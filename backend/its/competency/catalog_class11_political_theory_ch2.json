@@ -1,0 +1,460 @@
+{
+ "class": "11",
+ "subject": "political_theory",
+ "chapter": 2,
+ "chapter_title": "Freedom",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\keps102.txt",
+ "concepts": [
+  {
+   "id": "c11pt.2.1",
+   "title": "The Ideal of Freedom",
+   "section": "The Ideal of Freedom",
+   "definition": "Freedom is the ideal that individuals should be able to think, express, and act without unreasonable external interference, and should have the opportunity to develop their capacities and lead a life of their choosing.",
+   "formula": "",
+   "key_idea": "Freedom is a foundational political ideal: it is valued because it allows individuals to think independently, express themselves, and develop their abilities, and it is essential for a dignified human life.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is freedom and why is it considered an important ideal?",
+    "Explain the different dimensions of freedom.",
+    "Why is freedom valued as a foundational political ideal?",
+    "How does freedom enable individuals to develop their capacities?",
+    "Distinguish between freedom as absence of interference and freedom as opportunity."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define freedom as a political ideal",
+     "explain": "Freedom means the absence of unreasonable constraints on thought, expression, and action, and the presence of opportunities to develop one's capacities."
+    },
+    {
+     "step": 2,
+     "action": "Identify the dimensions of freedom",
+     "explain": "Freedom has several dimensions: freedom of thought, freedom of expression, freedom of action, and freedom to develop one's abilities and lead a chosen life."
+    },
+    {
+     "step": 3,
+     "action": "Explain why freedom is valued",
+     "explain": "Freedom is valued because it is essential for independent thinking, self-expression, personal development, and a life of dignity; without it individuals cannot realise their potential."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is freedom considered a foundational political ideal?",
+     "solution": "Step 1: Freedom allows individuals to think and act independently. Step 2: It is necessary for personal development and a life of dignity. Step 3: Therefore it is a foundational ideal on which other political values depend.",
+     "answer": "Because it enables independent thought, self-expression, personal development, and a dignified life"
+    },
+    {
+     "question": "What are the different dimensions of freedom?",
+     "solution": "Step 1: Freedom includes freedom of thought and expression. Step 2: It also includes freedom of action and the freedom to develop one's capacities. Step 3: Together these constitute the different dimensions of freedom.",
+     "answer": "Freedom of thought, expression, action, and the opportunity to develop one's capacities"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the ideal of freedom and its different dimensions.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is freedom essential for the development of an individual's capacities?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.2.2",
+   "title": "Sources of Constraints",
+   "section": "Sources of Constraints",
+   "definition": "Constraints on freedom arise from various sources including the state and its laws, social customs and traditions, family and peer pressure, and economic structures such as poverty and inequality.",
+   "formula": "",
+   "key_idea": "Freedom is restricted not only by the government but also by society, custom, family, and economic conditions; identifying the sources of constraints is the first step toward understanding the limits of freedom.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the main sources of constraints on freedom?",
+    "How do social customs and traditions act as constraints on freedom?",
+    "Explain how economic conditions like poverty restrict freedom.",
+    "Why is the state not the only source of constraints on freedom?",
+    "How can family and peer pressure limit an individual's freedom?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the major sources of constraints",
+     "explain": "Constraints on freedom come from the state (laws, coercion), society (customs, traditions, discrimination), family and peers (expectations, pressure), and the economy (poverty, inequality)."
+    },
+    {
+     "step": 2,
+     "action": "Explain how each source operates",
+     "explain": "The state restricts freedom through laws and force; society restricts it through customs and norms; family and peers through expectations; the economy through lack of resources and opportunity."
+    },
+    {
+     "step": 3,
+     "action": "Show why multiple sources matter",
+     "explain": "Recognising that constraints come from many sources means that securing freedom requires action beyond limiting state power -- it also requires social reform and economic justice."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How do social customs act as a source of constraint on freedom?",
+     "solution": "Step 1: Customs prescribe how individuals should behave in society. Step 2: Those who deviate from customs may face social boycott or stigma. Step 3: Thus customs restrict freedom even without any law being involved.",
+     "answer": "By prescribing behaviour and punishing deviation through social stigma or boycott"
+    },
+    {
+     "question": "How does poverty restrict an individual's freedom?",
+     "solution": "Step 1: Poverty deprives people of the resources needed to make choices. Step 2: Without education, health, or income, many options are effectively closed. Step 3: Therefore poverty is an economic constraint on freedom even where laws permit choice.",
+     "answer": "By depriving people of the resources and opportunities needed to exercise meaningful choice"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the different sources of constraints on freedom with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is the state not the only source from which freedom needs protection?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.2.3",
+   "title": "Why Do We Need Constraints",
+   "section": "Why Do We Need Constraints",
+   "definition": "Constraints on freedom are necessary because complete absence of restrictions would allow some individuals to interfere with the freedom of others; reasonable constraints make it possible for everyone to enjoy freedom.",
+   "formula": "",
+   "key_idea": "Freedom is not the absence of all restraints; some constraints are needed so that the freedom of one person does not become a license to harm or dominate others. A degree of constraint is the condition of freedom for all.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why do we need constraints on freedom?",
+    "Explain why complete absence of restraints would not lead to freedom for all.",
+    "How do constraints help protect the freedom of individuals?",
+    "What is the relationship between freedom and reasonable constraints?",
+    "Why is freedom not the same as doing whatever one wishes?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the problem of unrestricted freedom",
+     "explain": "If everyone were entirely free to do as they wished, the strong could dominate the weak and one person's freedom would destroy another's."
+    },
+    {
+     "step": 2,
+     "action": "State why constraints are necessary",
+     "explain": "Reasonable constraints prevent individuals from harming or interfering with others, and thus create the conditions under which everyone can enjoy freedom."
+    },
+    {
+     "step": 3,
+     "action": "Clarify the relationship between freedom and constraint",
+     "explain": "Freedom is not the absence of all restraints but the presence of just and reasonable ones; constraints and freedom are therefore complementary, not opposed."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why would the complete absence of restraints not lead to freedom for all?",
+     "solution": "Step 1: Without restraints, individuals could interfere with each other's choices. Step 2: The strong would dominate the weak, reducing the freedom of the weak. Step 3: Therefore complete absence of restraints destroys freedom rather than securing it.",
+     "answer": "Because unrestrained individuals would dominate others, destroying the freedom of the weak"
+    },
+    {
+     "question": "How do traffic laws illustrate the need for constraints on freedom?",
+     "solution": "Step 1: Without traffic rules, each driver would be free to drive as they wish. Step 2: This would lead to chaos and accidents, reducing everyone's freedom to travel safely. Step 3: Therefore reasonable constraints like traffic laws actually protect freedom.",
+     "answer": "Traffic rules restrict each driver's freedom so that all can travel safely, showing that constraints protect freedom"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain why constraints on freedom are necessary and how they protect the freedom of individuals.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is freedom not the same as the absence of all restraints?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.2.4",
+   "title": "The Harm Principle (J.S. Mill)",
+   "section": "The Harm Principle",
+   "definition": "J.S. Mill's harm principle holds that the only legitimate ground for society or the state to interfere with an individual's freedom is to prevent harm to others; the individual's own good is not a sufficient justification for interference.",
+   "formula": "",
+   "key_idea": "According to Mill, society may restrict an individual's liberty only to prevent harm to others; it may not interfere merely because the action is harmful to the individual himself or because society considers it unwise.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is J.S. Mill's harm principle?",
+    "When may the state interfere with an individual's freedom according to Mill?",
+    "Why is the individual's own good not a sufficient reason to restrict freedom, according to Mill?",
+    "Explain the significance of the harm principle for individual liberty.",
+    "How does the harm principle distinguish self-regarding and other-regarding actions?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State Mill's harm principle",
+     "explain": "Mill held that the only purpose for which power can be rightfully exercised over any member of a civilised community against his will is to prevent harm to others."
+    },
+    {
+     "step": 2,
+     "action": "Distinguish self-regarding from other-regarding actions",
+     "explain": "Self-regarding actions affect only the individual and should remain free; other-regarding actions affect others and may be regulated to prevent harm."
+    },
+    {
+     "step": 3,
+     "action": "Explain why the individual's own good is not enough",
+     "explain": "Mill argued that interfering with someone for their own good is paternalism; it assumes the state knows the individual's interest better than the individual, which Mill rejects."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "According to Mill, can the state ban a person from consuming a harmful substance for their own good?",
+     "solution": "Step 1: Mill's harm principle allows interference only to prevent harm to others. Step 2: Harm to oneself is not a sufficient ground for interference. Step 3: Therefore the state cannot ban it solely for the individual's own good.",
+     "answer": "No, because preventing harm to the individual himself is not a sufficient ground for interference under the harm principle"
+    },
+    {
+     "question": "How does the harm principle distinguish self-regarding from other-regarding actions?",
+     "solution": "Step 1: Self-regarding actions affect only the individual concerned. Step 2: Other-regarding actions affect other people. Step 3: Mill holds that only other-regarding actions may be regulated to prevent harm to others.",
+     "answer": "Self-regarding actions remain free; other-regarding actions may be restricted only to prevent harm to others"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain J.S. Mill's harm principle and its significance for individual liberty.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why does Mill reject paternalism as a ground for restricting freedom?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.2.5",
+   "title": "Negative and Positive Liberty",
+   "section": "Negative and Positive Liberty",
+   "definition": "Negative liberty is the absence of external constraints or interference on the individual, while positive liberty is the presence of conditions and opportunities that enable a person to actually exercise freedom and develop their capacities.",
+   "formula": "",
+   "key_idea": "Freedom has two aspects: negative liberty means freedom from interference, while positive liberty means freedom to develop and realise one's potential; a full understanding of freedom requires both.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the difference between negative and positive liberty?",
+    "Explain negative liberty with an example.",
+    "Explain positive liberty with an example.",
+    "Why is negative liberty alone not sufficient for real freedom?",
+    "How do negative and positive liberty complement each other?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define negative liberty",
+     "explain": "Negative liberty is the absence of external obstacles or interference; it is freedom from constraints imposed by the state, society, or others."
+    },
+    {
+     "step": 2,
+     "action": "Define positive liberty",
+     "explain": "Positive liberty is the presence of enabling conditions -- such as education, resources, and opportunities -- that allow a person to actually develop and use their freedom."
+    },
+    {
+     "step": 3,
+     "action": "Explain why both are needed",
+     "explain": "Negative liberty alone may leave people formally free but unable to exercise freedom due to poverty or lack of opportunity; positive liberty ensures the conditions that make freedom meaningful."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does a literate person with no censorship illustrate negative liberty, and how does education illustrate positive liberty?",
+     "solution": "Step 1: Absence of censorship means no external interference with reading -- negative liberty. Step 2: Being literate and having access to books provides the capacity to actually read -- positive liberty. Step 3: Both are needed for the freedom to read to be meaningful.",
+     "answer": "No censorship gives negative liberty; literacy and access to books give positive liberty; both are needed"
+    },
+    {
+     "question": "Why is negative liberty alone not sufficient for real freedom?",
+     "solution": "Step 1: Negative liberty only removes external interference. Step 2: A person may still lack education, resources, or opportunity to act. Step 3: Therefore without positive liberty, freedom remains formal and unrealised.",
+     "answer": "Because without enabling conditions like education and resources, people cannot actually exercise their freedom"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the difference between negative and positive liberty and why both are necessary.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Give one example each of negative liberty and positive liberty.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.2.6",
+   "title": "Freedom in Different Contexts",
+   "section": "Freedom in Different Contexts",
+   "definition": "The meaning and scope of freedom varies across contexts such as the personal sphere, the social sphere, and the political sphere; what counts as a constraint and what counts as legitimate freedom differs in each domain.",
+   "formula": "",
+   "key_idea": "Freedom is context-dependent: the freedom appropriate in personal life (choice of lifestyle, religion) differs from that in society (freedom from discrimination) and in politics (freedom of speech and participation).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How does the meaning of freedom vary across different contexts?",
+    "Explain freedom in the personal sphere with an example.",
+    "How does freedom in the social sphere differ from freedom in the political sphere?",
+    "Why is the same constraint viewed differently in different contexts?",
+    "Give examples of freedom in the personal, social, and political spheres."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the different contexts of freedom",
+     "explain": "Freedom operates in at least three contexts: the personal sphere (lifestyle, beliefs), the social sphere (relations, customs, discrimination), and the political sphere (speech, participation, voting)."
+    },
+    {
+     "step": 2,
+     "action": "Explain how freedom differs in each context",
+     "explain": "In personal life freedom means choice of belief and lifestyle; in society it means freedom from discrimination and oppressive customs; in politics it means freedom of expression, association, and participation."
+    },
+    {
+     "step": 3,
+     "action": "Show why context matters",
+     "explain": "A constraint that is legitimate in one context (e.g. a dress code at work) may be illegitimate in another (e.g. a dress code imposed by law), so the meaning of freedom depends on context."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does freedom in the personal sphere differ from freedom in the political sphere?",
+     "solution": "Step 1: In the personal sphere freedom concerns private choices like religion and lifestyle. Step 2: In the political sphere it concerns public participation like speech, association, and voting. Step 3: The nature of the constraint and the freedom sought differ accordingly.",
+     "answer": "Personal freedom concerns private choices; political freedom concerns public participation and expression"
+    },
+    {
+     "question": "Why might a dress code be acceptable at a workplace but unacceptable if imposed by law on all citizens?",
+     "solution": "Step 1: A workplace dress code is a voluntary condition of employment in a specific context. Step 2: A legal dress code imposed on all citizens restricts personal freedom broadly. Step 3: Therefore the same constraint is viewed differently depending on the context.",
+     "answer": "Because context determines legitimacy: a workplace rule is context-specific, while a universal legal restriction is a broad interference with personal freedom"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how the meaning of freedom varies across personal, social, and political contexts.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Give one example of how the same constraint may be viewed differently in two different contexts.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.2.7",
+   "title": "Freedom and Democracy",
+   "section": "Freedom and Democracy",
+   "definition": "Democracy is the form of government that best protects and realises freedom because it is based on the consent of the governed, allows citizens to participate in decision-making, and provides rights and safeguards against arbitrary power.",
+   "formula": "",
+   "key_idea": "Freedom and democracy are closely linked: democracy requires free expression, free press, and free participation, and in turn it is the political system most likely to protect and expand the freedom of citizens.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How are freedom and democracy related?",
+    "Why is democracy considered the form of government most conducive to freedom?",
+    "What freedoms are essential for a democracy to function?",
+    "How does democracy protect citizens from arbitrary power?",
+    "Can there be freedom without democracy? Discuss."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the link between freedom and democracy",
+     "explain": "Democracy is based on the consent of the governed and on citizens' participation, both of which require freedom of thought, expression, and association."
+    },
+    {
+     "step": 2,
+     "action": "Identify the freedoms democracy requires",
+     "explain": "A democracy needs freedom of speech, a free press, freedom of association, and the right to vote and contest elections to function meaningfully."
+    },
+    {
+     "step": 3,
+     "action": "Show how democracy protects freedom",
+     "explain": "Through regular elections, fundamental rights, an independent judiciary, and the rule of law, democracy prevents the concentration and arbitrary exercise of power that destroys freedom."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is freedom of expression essential for democracy?",
+     "solution": "Step 1: Democracy requires citizens to form and express opinions on public issues. Step 2: Without free expression, citizens cannot debate, criticise, or choose representatives meaningfully. Step 3: Therefore freedom of expression is essential for democracy.",
+     "answer": "Because citizens must be able to express and debate opinions to participate meaningfully in democratic decision-making"
+    },
+    {
+     "question": "How does democracy protect citizens from arbitrary power?",
+     "solution": "Step 1: Democracy holds rulers accountable through regular elections. Step 2: It guarantees fundamental rights and an independent judiciary to check power. Step 3: Therefore it prevents the arbitrary exercise of power that threatens freedom.",
+     "answer": "Through elections, fundamental rights, and an independent judiciary that check and limit arbitrary power"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the relationship between freedom and democracy and why democracy is most conducive to freedom.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Mention any three freedoms that are essential for a democracy to function.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.2.8",
+   "title": "Limitations on Freedom",
+   "section": "Limitations on Freedom",
+   "definition": "Freedom is not absolute; it is subject to reasonable limitations imposed in the interests of public order, security, morality, and the rights of others, provided such limitations are just, necessary, and proportionate.",
+   "formula": "",
+   "key_idea": "Even in a free society, freedom can be limited for legitimate reasons such as protecting others, maintaining public order, and preserving national security, but such limits must be reasonable, necessary, and not arbitrary.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the reasonable limitations on freedom?",
+    "Why is freedom not absolute?",
+    "Under what conditions can the state restrict freedom of speech?",
+    "How can we tell whether a limitation on freedom is reasonable?",
+    "What is the difference between a reasonable and an arbitrary restriction on freedom?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State that freedom is not absolute",
+     "explain": "Freedom is subject to reasonable limitations because unrestricted freedom of one person may harm others or threaten public order and security."
+    },
+    {
+     "step": 2,
+     "action": "Identify legitimate grounds for limitation",
+     "explain": "Freedom may be limited to protect the rights and freedom of others, maintain public order, preserve national security, and uphold public morality and health."
+    },
+    {
+     "step": 3,
+     "action": "State the test of reasonableness",
+     "explain": "A limitation is reasonable only if it is necessary, proportionate to the goal, imposed by law, and not arbitrary; restrictions that go beyond what is needed are illegitimate."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Can the state restrict freedom of speech that incites violence, and why?",
+     "solution": "Step 1: Speech that incites violence threatens public order and the safety of others. Step 2: Preventing harm to others is a legitimate ground for limiting freedom. Step 3: Therefore the state may restrict such speech as a reasonable limitation.",
+     "answer": "Yes, because incitement to violence threatens public order and the safety of others, which is a legitimate ground for limitation"
+    },
+    {
+     "question": "How can we tell whether a restriction on freedom is reasonable or arbitrary?",
+     "solution": "Step 1: A reasonable restriction is necessary and proportionate to a legitimate goal. Step 2: It must be imposed by a clear law and not exceed what is needed. Step 3: A restriction that is excessive or vague is arbitrary and illegitimate.",
+     "answer": "A reasonable restriction is necessary, proportionate, lawful, and targeted; an arbitrary one is excessive, vague, or unnecessary"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain why freedom is not absolute and describe the reasonable limitations that may be placed on it.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What test can be used to judge whether a limitation on freedom is reasonable?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

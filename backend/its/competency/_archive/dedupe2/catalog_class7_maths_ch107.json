@@ -1,0 +1,451 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 107,
+ "chapter_title": "Comparing Quantities",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/gemh107.txt",
+ "concepts": [
+  {
+   "id": "gemh.7.1.2",
+   "title": "Converting Fractions to Percentage",
+   "section": "7.1.2",
+   "definition": "A fractional number is expressed as a rate out of one hundred by scaling the fraction by 100.",
+   "formula": "percentage = (numerator / denominator) * 100",
+   "key_idea": "Multiplying any fractional value by 100 yields its equivalent percentage representation.",
+   "textbook_ref": "gemh107.txt lines 70-95",
+   "question_patterns": [
+    "convert fraction to per cent",
+    "write as a percentage",
+    "what is the percentage of girls out of total children",
+    "express the given fraction as a percent"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply fraction by 100",
+     "explain": "Convert the fractional share into parts per hundred",
+     "compute": "percentage = (numerator / denominator) * 100"
+    }
+   ]
+  },
+  {
+   "id": "gemh.7.1.3",
+   "title": "Converting Decimals to Percentage",
+   "section": "7.1.3",
+   "definition": "A decimal numeral is converted to a percentage by shifting the decimal point two places to the right, which corresponds to multiplication by 100.",
+   "formula": "percentage = decimal_value * 100",
+   "key_idea": "Decimals represent hundredths and tenths; multiplying by 100 gives the percent value directly.",
+   "textbook_ref": "gemh107.txt lines 96-115",
+   "question_patterns": [
+    "convert decimal to per cent",
+    "write decimal as percentage",
+    "express decimal fraction as percent",
+    "change decimal number to percent"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply decimal by 100",
+     "explain": "Multiply the given decimal number by 100 to obtain the percentage",
+     "compute": "percentage = decimal_value * 100"
+    }
+   ]
+  },
+  {
+   "id": "gemh.7.1.4",
+   "title": "Converting Percentage to Fraction or Decimal and Complementary Parts",
+   "section": "7.1.4",
+   "definition": "Given a percentage value, it can be written as a fraction with denominator 100 or divided to obtain a decimal. All component percentages sum to 100 percent.",
+   "formula": "remaining_percent = 100 - given_percent",
+   "key_idea": "A full whole corresponds to 100%, and remaining portions are computed by subtracting known shares from 100.",
+   "textbook_ref": "gemh107.txt lines 116-145",
+   "question_patterns": [
+    "find the remaining percentage",
+    "what percent of students do not have bicycles",
+    "if some percent are of one kind what percent are remaining",
+    "calculate remaining part percentage"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract known percentages from 100",
+     "explain": "The complete whole is 100 percent, so subtract known components",
+     "compute": "remaining_percent = 100 - given_percent"
+    }
+   ]
+  },
+  {
+   "id": "gemh.7.2.2",
+   "title": "Finding Quantity from Percentage and Whole Quantity",
+   "section": "7.2.2",
+   "definition": "To find a portion of a total, evaluate the specified percentage out of that quantity; conversely, find the whole quantity when a percentage portion is known.",
+   "formula": "portion = (percent / 100) * total",
+   "key_idea": "Percentage of a quantity is obtained by taking the fraction out of 100 times the total.",
+   "textbook_ref": "gemh107.txt lines 160-205",
+   "question_patterns": [
+    "find percentage of a given number",
+    "how many children liked playing football",
+    "find the whole quantity if percent of it is given",
+    "calculate value of given percent of quantity"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate portion value",
+     "explain": "Multiply the total quantity by the percentage fraction",
+     "compute": "portion = (percent / 100) * total"
+    }
+   ]
+  },
+  {
+   "id": "gemh.7.2.3",
+   "title": "Converting Ratios to Percentage",
+   "section": "7.2.3",
+   "definition": "When parts of a whole are given as a ratio, each part is expressed as a fraction of the total sum of parts, then converted to a percentage.",
+   "formula": "part_percent = (part / total_parts) * 100",
+   "key_idea": "Add all ratio terms to get total parts, then multiply each fractional part by 100.",
+   "textbook_ref": "gemh107.txt lines 220-250",
+   "question_patterns": [
+    "convert each part of ratio to percentage",
+    "what percentage of mixture is rice and urad dal",
+    "find percentage of each share in ratio",
+    "divide money according to ratio and express in percent"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum ratio parts",
+     "explain": "Find the total number of parts in the ratio",
+     "compute": "total_parts = part_a + part_b"
+    },
+    {
+     "step": 2,
+     "action": "compute percentage of first part",
+     "explain": "Convert first ratio term to percentage",
+     "compute": "percent_a = (part_a / total_parts) * 100"
+    },
+    {
+     "step": 3,
+     "action": "compute percentage of second part",
+     "explain": "Convert second ratio term to percentage",
+     "compute": "percent_b = (part_b / total_parts) * 100"
+    }
+   ]
+  },
+  {
+   "id": "gemh.7.2.4",
+   "title": "Percentage Increase or Decrease",
+   "section": "7.2.4",
+   "definition": "The relative change in a quantity is the difference between new and original values divided by the original value, expressed as a percentage.",
+   "formula": "percent_change = (abs(new_value - original_value) / original_value) * 100",
+   "key_idea": "Percentage change is always calculated with the initial or original value as the base.",
+   "textbook_ref": "gemh107.txt lines 251-285",
+   "question_patterns": [
+    "find percentage of increase or decrease",
+    "what is the percent increase in games won",
+    "calculate percentage decrease in population",
+    "by what percentage has the price gone up"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find absolute change",
+     "explain": "Calculate the difference between the final and initial quantities",
+     "compute": "change = abs(new_value - original_value)"
+    },
+    {
+     "step": 2,
+     "action": "compute percentage change",
+     "explain": "Divide the change by the original value and multiply by 100",
+     "compute": "percent_change = (change / original_value) * 100"
+    }
+   ]
+  },
+  {
+   "id": "gemh.7.3.1",
+   "title": "Profit and Loss Percentage",
+   "section": "7.3.1",
+   "definition": "Profit occurs when selling price exceeds cost price; loss occurs when cost price exceeds selling price. Both profit percent and loss percent are computed relative to the cost price.",
+   "formula": "profit_percent = ((sp - cp) / cp) * 100",
+   "key_idea": "Profit or loss percentage is always determined on the base of Cost Price (CP).",
+   "textbook_ref": "gemh107.txt lines 286-335",
+   "question_patterns": [
+    "find profit per cent or loss per cent",
+    "calculate gain percentage on selling an item",
+    "tell what is profit or loss and its percentage",
+    "determine loss percent if item bought and sold"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine profit amount",
+     "explain": "Subtract cost price from selling price",
+     "compute": "profit = sp - cp"
+    },
+    {
+     "step": 2,
+     "action": "compute profit percentage",
+     "explain": "Calculate profit as a percentage of cost price",
+     "compute": "profit_percent = (profit / cp) * 100"
+    }
+   ]
+  },
+  {
+   "id": "gemh.7.3.2",
+   "title": "Finding Selling Price or Cost Price from Profit/Loss Percentage",
+   "section": "7.3.2",
+   "definition": "Using given cost price and profit or loss percentage, the final selling price can be determined, and vice-versa.",
+   "formula": "sp = cp + (profit_percent / 100) * cp",
+   "key_idea": "Selling price equals cost price plus profit, or cost price minus loss.",
+   "textbook_ref": "gemh107.txt lines 336-370",
+   "question_patterns": [
+    "find the price at which it is sold",
+    "calculate selling price given cost price and profit percent",
+    "what is the cost price if selling price and profit percent are given",
+    "find cost price given loss percent and selling price"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute profit amount",
+     "explain": "Find profit by multiplying cost price by profit rate",
+     "compute": "profit = (profit_percent / 100) * cp"
+    },
+    {
+     "step": 2,
+     "action": "determine selling price",
+     "explain": "Add profit to the cost price",
+     "compute": "sp = cp + profit"
+    }
+   ]
+  },
+  {
+   "id": "gemh.7.4.1",
+   "title": "Simple Interest and Total Amount",
+   "section": "7.4.1",
+   "definition": "Simple interest is the fixed extra charge paid for borrowing money over time, calculated uniformly on the original principal sum.",
+   "formula": "simple_interest = (principal * rate * time) / 100, amount = principal + simple_interest",
+   "key_idea": "Interest accumulates proportionally with principal, annual interest rate, and time in years.",
+   "textbook_ref": "gemh107.txt lines 371-420",
+   "question_patterns": [
+    "find simple interest and amount",
+    "calculate interest to be paid at the end of years",
+    "find the amount to be paid at the end of time period",
+    "how much interest is earned on a sum"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate simple interest",
+     "explain": "Multiply principal, rate, and time, then divide by 100",
+     "compute": "interest = (principal * rate * time) / 100"
+    },
+    {
+     "step": 2,
+     "action": "calculate total amount",
+     "explain": "Add simple interest to the principal sum",
+     "compute": "amount = principal + interest"
+    }
+   ]
+  },
+  {
+   "id": "gemh.7.4.2",
+   "title": "Finding Principal, Rate, or Time in Simple Interest",
+   "section": "7.4.2",
+   "definition": "When simple interest and any two of principal, rate, and time are given, the remaining unknown variable can be isolated and evaluated.",
+   "formula": "rate = (interest * 100) / (principal * time)",
+   "key_idea": "Re-arranging the simple interest formula allows solving for rate, time, or principal.",
+   "textbook_ref": "gemh107.txt lines 421-450",
+   "question_patterns": [
+    "find the rate of interest",
+    "what rate gives interest on a sum in given years",
+    "after how many years would interest be earned",
+    "find the sum borrowed if interest is known"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute rate of interest",
+     "explain": "Multiply interest by 100 and divide by product of principal and time",
+     "compute": "rate = (interest * 100) / (principal * time)"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Example 1, page 111",
+   "concept": "gemh.7.1.2",
+   "question_type": "fraction_to_percent",
+   "question_pattern": "Write {numerator}/{denominator} as per cent.",
+   "extracted_variables": {
+    "numerator": "numerator of the fraction",
+    "denominator": "denominator of the fraction"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply fraction by 100",
+     "explain": "Convert fraction to percentage",
+     "compute": "percentage = (numerator / denominator) * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "Example 4, page 112",
+   "concept": "gemh.7.1.3",
+   "question_type": "decimal_to_percent",
+   "question_pattern": "Convert the decimal {decimal_value} to per cent.",
+   "extracted_variables": {
+    "decimal_value": "given decimal value"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply decimal by 100",
+     "explain": "Convert decimal to percentage",
+     "compute": "percentage = decimal_value * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "Example 6, page 114",
+   "concept": "gemh.7.2.2",
+   "question_type": "percentage_of_quantity",
+   "question_pattern": "A survey of {total} children showed that {percent}% liked playing football. How many children liked playing football?",
+   "extracted_variables": {
+    "total": "total number of children",
+    "percent": "percentage who like playing football"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute count from percentage",
+     "explain": "Evaluate portion of total",
+     "compute": "portion = (percent / 100) * total"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "Example 10, page 117",
+   "concept": "gemh.7.2.4",
+   "question_type": "percentage_increase",
+   "question_pattern": "A school team won {new_value} games this year against {original_value} games won last year. What is the per cent increase?",
+   "extracted_variables": {
+    "original_value": "original number of wins",
+    "new_value": "new number of wins"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find increase amount",
+     "explain": "Calculate the difference in wins",
+     "compute": "change = abs(new_value - original_value)"
+    },
+    {
+     "step": 2,
+     "action": "compute percentage increase",
+     "explain": "Divide change by original amount and multiply by 100",
+     "compute": "percent_change = (change / original_value) * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "Example 14, page 120",
+   "concept": "gemh.7.4.1",
+   "question_type": "simple_interest_and_amount",
+   "question_pattern": "Anita takes a loan of Rs {principal} at {rate}% per year as rate of interest. Find the interest and amount she has to pay at the end of {time} year.",
+   "extracted_variables": {
+    "principal": "loan principal amount",
+    "rate": "annual interest rate in percent",
+    "time": "duration in years"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate simple interest",
+     "explain": "Compute interest for the loan period",
+     "compute": "interest = (principal * rate * time) / 100"
+    },
+    {
+     "step": 2,
+     "action": "calculate total amount",
+     "explain": "Sum of principal and interest",
+     "compute": "amount = principal + interest"
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "Example 15, page 122",
+   "concept": "gemh.7.4.2",
+   "question_type": "find_interest_rate",
+   "question_pattern": "If Manohar pays an interest of Rs {interest} for {time} years on a sum of Rs {principal}, find the rate of interest.",
+   "extracted_variables": {
+    "interest": "total simple interest paid",
+    "time": "time duration in years",
+    "principal": "principal sum borrowed"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate interest rate",
+     "explain": "Calculate rate percentage per annum",
+     "compute": "rate = (interest * 100) / (principal * time)"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex7.1",
+   "source_ref": "Exercise 7.1, page 115",
+   "questions": [
+    "1. Convert the given fractional numbers to per cents: (a) 1/8 (b) 5/4 (c) 3/40 (d) 2/7",
+    "2. Convert the given decimal fractions to per cents: (a) 0.65 (b) 2.1 (c) 0.02 (d) 12.35",
+    "3. Estimate what part of the figures is coloured and hence find the per cent which is coloured.",
+    "4. Find: (a) 15% of 250 (b) 1% of 1 hour (c) 20% of Rs 2500 (d) 75% of 1 kg",
+    "5. Find the whole quantity if: (a) 5% of it is 600 (b) 12% of it is Rs 1080 (c) 40% of it is 500 km (d) 70% of it is 14 minutes (e) 8% of it is 40 litres",
+    "6. Convert given per cents to decimal fractions and also to fractions in simplest forms: (a) 25% (b) 150% (c) 20% (d) 5%",
+    "7. In a city, 30% are females, 40% are males and remaining are children. What per cent are children?",
+    "8. Out of 15,000 voters in a constituency, 60% voted. Find the percentage of voters who did not vote. Can you now find how many actually did not vote?",
+    "9. Meeta saves Rs 4000 from her salary. If this is 10% of her salary. What is her salary?",
+    "10. A local cricket team played 20 matches in one season. It won 25% of them. How many matches did they win?"
+   ]
+  },
+  {
+   "id": "ex7.2",
+   "source_ref": "Exercise 7.2, page 122",
+   "questions": [
+    "1. Tell what is the profit or loss in the following transactions. Also find profit per cent or loss per cent in each case: (a) Gardening shears bought for Rs 250 and sold for Rs 325 (b) A refrigerator bought for Rs 12,000 and sold at Rs 13,500 (c) A cupboard bought for Rs 2,500 and sold at Rs 3,000 (d) A skirt bought for Rs 250 and sold at Rs 150",
+    "2. Convert each part of the ratio to percentage: (a) 3:1 (b) 2:3:5 (c) 1:4 (d) 1:2:5",
+    "3. The population of a city decreased from 25,000 to 24,500. Find the percentage decrease.",
+    "4. Arun bought a car for Rs 3,50,000. The next year, the price went upto Rs 3,70,000. What was the Percentage of price increase?",
+    "5. I buy a T.V. for Rs 10,000 and sell it at a profit of 20%. How much money do I get for it?",
+    "6. Juhi sells a washing machine for Rs 13,500. She loses 20% in the bargain. What was the price at which she bought it?",
+    "7. (i) Chalk contains calcium, carbon and oxygen in the ratio 10:3:12. Find the percentage of carbon in chalk. (ii) If in a stick of chalk, carbon is 3g, what is the weight of the chalk stick?",
+    "8. Amina buys a book for Rs 275 and sells it at a loss of 15%. How much does she sell it for?",
+    "9. Find the amount to be paid at the end of 3 years in each case: (a) Principal = Rs 1,200 at 12% p.a. (b) Principal = Rs 7,500 at 5% p.a.",
+    "10. What rate gives Rs 280 as interest on a sum of Rs 56,000 in 2 years?",
+    "11. If Meena gives an interest of Rs 45 for one year at 9% rate p.a.. What is the sum she has borrowed?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

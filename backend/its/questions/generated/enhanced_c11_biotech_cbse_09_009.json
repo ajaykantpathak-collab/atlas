@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_09_009",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_09_009",
+   "title": "c11_biotech_cbse_09_009",
+   "questions": [
+    {
+     "q": "Which BLAST program would you use to search a protein database with a nucleotide query sequence that contains introns and may have sequencing errors?",
+     "a": "Correct answer: **tblastn** (translated nucleotide query vs protein database) is NOT correct because tblastn searches a *nucleotide* database translated in six frames with a *protein* query. The correct program is **blastx** (nucleotide query translated in six frames vs protein database). Blastx translates the query in all six reading frames, allowing it to bypass introns (which introduce stop codons/frame shifts) and tolerate sequencing errors better than blastn. A wrong answer (e.g., blastn) reveals the student confuses query/database types and does not understand that blastx translates the *query*, while tblastn translates the *database*. This misconception leads to failed searches when the query is genomic DNA with introns.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the default word size (W) differs between blastn (W=11) and blastp (W=3), and how changing W affects sensitivity and speed.",
+     "a": "Correct answer: Nucleotide alphabet size is 4 (A,T,G,C); protein alphabet size is 20. The expected random match frequency for a word of length W is (1/4)^W for nucleotides vs (1/20)^W for proteins. To achieve comparable hit frequencies, nucleotide words must be longer (W=11 gives ~4^11 ≈ 4 million) while protein words can be shorter (W=3 gives 20^3 = 8000). Decreasing W increases sensitivity (finds more distant matches) but exponentially increases hits to extend, slowing the search. Increasing W speeds up search but misses shorter/divergent alignments. A wrong answer (e.g., \"blastp uses W=3 because proteins are longer\") reveals the student memorizes values without understanding the probabilistic basis of seeding. This is a classic board exam 'justify' question.",
+     "self_check": true
+    },
+    {
+     "q": "A student runs blastp with a 150-aa query against the nr database (size ~200 million residues). The top hit has bit score = 85, E-value = 2e-18. The second hit has bit score = 42, E-value = 0.003. The student concludes both are significant homologs. Evaluate this conclusion.",
+     "a": "Correct evaluation: The first hit (E=2e-18) is highly significant (far below 1e-5 threshold). The second hit (E=0.003) is **borderline**; while <0.05, it is >1e-5 and with a short query (150 aa) and large database, chance matches with moderate scores are common. The student should check: (i) alignment length / query coverage (is it a short fragment?), (ii) % identity (is it >25% for proteins?), (iii) whether the match is to a low-complexity region (check if SEG filtering was on). A wrong conclusion (accepting both) reveals the student treats E-value as an absolute cutoff without considering query length, database size, and biological context. Board exams often give a table of hits and ask \"Which are true homologs? Justify.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the heuristic strategy of BLAST with the dynamic programming algorithm (Needleman-Wunsch / Smith-Waterman) in terms of: (a) guaranteed optimality, (b) time complexity, (c) ability to detect very distant homologs (<20% identity).",
+     "a": "Correct comparison: (a) DP guarantees globally/locally optimal alignment; BLAST is heuristic – may miss optimal alignment if seeding fails. (b) DP: O(MN) time/space (M,N = sequence lengths); BLAST: O(M+N) expected time (linear) due to seeding + limited extension. (c) DP with appropriate scoring matrices can detect distant homologs; standard BLAST (especially blastp default BLOSUM62) loses sensitivity below ~25% identity. For distant homologs, one uses PSI-BLAST (iterative profile) or HMMER (profile HMMs), not standard BLAST. A wrong answer (e.g., \"BLAST is always faster and better\") reveals the student doesn't grasp the trade-off: speed vs. optimality/sensitivity. This multi-part analysis is a frequent 3-5 mark board question.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to find remote homologs of a 200-aa protein domain. She runs blastp with default parameters (BLOSUM62, gap open=11, extend=1) and gets no significant hits. She then tries: (i) BLOSUM45, (ii) decreasing gap open penalty to 7, (iii) using tblastn against EST databases. Critique each strategy's potential to improve remote homology detection.",
+     "a": "Correct critique: (i) **BLOSUM45** is better for distant relationships (lower number = more divergent sequences clustered) – increases sensitivity. Good strategy. (ii) **Lower gap open penalty (7 vs 11)** allows longer gaps, which may help if indels are common in remote homologs, but increases false positives and computation. Moderate utility. (iii) **tblastn vs ESTs** searches translated expressed sequence tags – can find homologs from organisms without full genomes, but ESTs are short, error-prone, and may not cover the full domain. High utility *if* the organism is poorly represented in nr. A poor critique (e.g., \"all will work equally\") reveals the student doesn't understand matrix selection theory (BLOSUM numbers), gap penalty effects on alignment topology, or database content differences. This tests deep parameter knowledge.",
+     "self_check": true
+    },
+    {
+     "q": "Design a BLAST-based workflow to identify candidate orthologs of a human disease gene (coding sequence known) in the newly sequenced genome of *Milletia pinnata* (a legume), distinguishing them from paralogs. Specify programs, databases, filters, and validation steps.",
+     "a": "Expected workflow: 1. **blastp** human protein vs *M. pinnata* predicted proteome (if available) → get top hits. 2. **Reciprocal best hit (RBH)**: take each candidate, blastp back vs human proteome; retain only those where the original human gene is the top hit. 3. **Synteny check**: if genome assembly is scaffolded, verify genomic neighborhood conservation (flanking genes). 4. **Phylogenetic validation**: align candidates + human gene + outgroup, build tree (neighbor-joining/ML); orthologs cluster by speciation, not duplication. 5. **Domain architecture check**: use CD-search/Pfam to ensure domain order conserved. A poor answer (e.g., \"just run blastp and take top hit\") reveals the student confuses homology (any common ancestry) with orthology (speciation-derived) and ignores paralogs from gene duplication. This synthesis question mirrors competency-based exam tasks.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

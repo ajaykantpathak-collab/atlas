@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_06_001",
+   "title": "c11_acc_cbse_06_001",
+   "questions": [
+    {
+     "q": "State the three objectives of preparing a Trial Balance as per the NCERT textbook.",
+     "a": "The three objectives are: (1) To ascertain the arithmetical accuracy of ledger accounts, (2) To help in locating errors, and (3) To help in the preparation of financial statements (Trading & Profit and Loss Account and Balance Sheet). A wrong answer (e.g., \"to find profit\" or \"to check bank balance\") reveals the student confuses Trial Balance with final accounts or bank reconciliation.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"If the Trial Balance tallies, it means there are no errors in the books.\" Explain why this statement is incorrect, giving two specific examples of errors that would NOT be revealed by a tallied Trial Balance.",
+     "a": "A tallied Trial Balance only proves that total debits equal total credits. It does not detect: (1) Error of Principle – e.g., purchase of machinery debited to Purchases Account (both are debits, so totals still match), and (2) Compensating Errors – e.g., Sales Book overcast by ₹5,000 and Purchases Book overcast by ₹5,000 (excess debit in Sales cancels excess debit in Purchases). If the student cannot name these, they misunderstand the limitation of arithmetical verification.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following accounts into Debit Balance column or Credit Balance column of a Trial Balance: (a) Capital, (b) Machinery, (c) Sales Return, (d) Bank Overdraft, (e) Commission Received, (f) Drawings.",
+     "a": "Debit Balances: (b) Machinery (Asset), (c) Sales Return (Contra-revenue), (f) Drawings (Reduction in Capital). Credit Balances: (a) Capital (Liability), (d) Bank Overdraft (Liability), (e) Commission Received (Income). A common error is placing Sales Return or Drawings in Credit column – this reveals confusion about contra accounts and the nature of drawings.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Trial Balance and the Balance Sheet on the basis of: (i) Stage of preparation, (ii) Types of accounts included, (iii) Purpose, (iv) Legal requirement.",
+     "a": "(i) Trial Balance is prepared *before* financial statements; Balance Sheet is the *final* output. (ii) Trial Balance includes ALL ledger accounts (real, nominal, personal); Balance Sheet includes only Real and Personal accounts (Assets, Liabilities, Capital). (iii) Trial Balance checks arithmetical accuracy; Balance Sheet shows financial position. (iv) Trial Balance is optional/internal; Balance Sheet is mandatory under Companies Act for companies. If the student says both include nominal accounts, they haven't grasped the closing entry process.",
+     "self_check": true
+    },
+    {
+     "q": "\"A Trial Balance is just a list of balances – it has no analytical value.\" Evaluate this statement. Do you agree or disagree? Justify your answer with two arguments.",
+     "a": "Disagree. Argument 1: It is the *only* source for preparing financial statements without re-scanning the entire ledger – it summarises the net effect of every account. Argument 2: The *pattern* of balances reveals business structure: high Debtors/Creditors ratio indicates credit policy; large Drawings vs Capital shows owner withdrawal habits. A student who agrees treats Trial Balance as a mechanical checklist, not a decision-making tool.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a Trial Balance tallies perfectly but the financial statements prepared from it would be materially misstated. Describe the error and explain why the Trial Balance failed to catch it.",
+     "a": "Scenario: A company purchases a delivery van for ₹8,00,000 but debits it to Vehicle Running Expenses (a revenue expense) instead of Vehicles Account (a fixed asset). Effect: Trial Balance tallies (both are debit entries). Consequence: Profit is understated by ₹8,00,000 (expense inflated), and Fixed Assets are understated by ₹8,00,000. The Trial Balance failed because it only checks *equality of totals*, not *correct classification* – this is an Error of Principle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

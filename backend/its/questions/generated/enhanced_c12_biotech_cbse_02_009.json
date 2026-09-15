@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_02_009",
+   "title": "c12_biotech_cbse_02_009",
+   "questions": [
+    {
+     "q": "What is the primary function of chaotropic salts (e.g., sodium iodide, guanidinium thiocyanate) in commercial gel extraction kits?",
+     "a": "Chaotropic salts disrupt the hydrogen-bonding network of water, promoting DNA adsorption onto the silica membrane by dehydrating the DNA phosphate backbone and exposing hydrophobic bases that interact with the silica surface. A wrong answer (e.g., \"they dissolve the agarose\" or \"they precipitate DNA\") reveals the student confuses the dissolution step (often done with a separate buffer at high temperature) with the binding step, or misunderstands the physicochemical basis of silica-based purification.",
+     "self_check": true
+    },
+    {
+     "q": "A student excises a 5 kb DNA band from a 0.8% agarose gel, dissolves the gel slice at 50°C in binding buffer, loads it onto a spin column, washes with ethanol-containing wash buffer, and elutes with 30 µL of nuclease-free water pre-warmed to 60°C. They recover only 15% of the expected DNA. Identify the TWO most likely technical errors in this protocol.",
+     "a": "1) Elution volume (30 µL) is too low for a 5 kb fragment — large fragments elute poorly from silica membranes in small volumes; 50–100 µL is recommended. 2) Elution buffer (water) lacks the low ionic strength and slightly alkaline pH (typically 10 mM Tris-Cl, pH 8.5) needed for efficient release; water at pH 7–7.5 reduces elution efficiency, especially for large fragments. A wrong answer focusing only on \"gel not fully dissolved\" or \"too much UV exposure\" misses the method-specific parameters that disproportionately affect large DNA recovery.",
+     "self_check": true
+    },
+    {
+     "q": "You need to recover a 12 kb fragment for cloning into a BAC vector. The fragment was separated on a 0.6% low-melting-point agarose gel. Compare electroelution vs. spin-column kit for this specific scenario and justify which method you would choose.",
+     "a": "Choose electroelution. Spin-column kits have size-dependent binding capacity (typically ≤10 kb optimal) and shear large fragments during binding/wash centrifugation steps. Electroelution recovers fragments >10 kb with higher integrity and no size bias, and low-melting-point agarose allows the alternative \"gel melting + phenol-chloroform\" method. A student choosing the kit \"because it's faster\" fails to analyze the size limitation and shear sensitivity critical for BAC cloning.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher elutes a 800 bp fragment from a 1.5% agarose gel using a silica-column kit. The eluted DNA has A260/280 = 1.95 but A260/230 = 0.8. The subsequent ligation fails. Analyze the contamination source and explain how it inhibits ligation.",
+     "a": "Low A260/230 indicates carryover of chaotropic salts (guanidinium thiocyanate) or ethanol from the wash buffer. These contaminants inhibit T4 DNA ligase by denaturing the enzyme (chaotropes) or precipitating DNA/ATP (ethanol). The student who only checks A260/280 misses the critical 230 nm absorbance peak of organic contaminants. Remediation: add an extra wash step with 80% ethanol, ensure complete dry spin, or use a kit with a dedicated \"salt removal\" wash buffer.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Freeze-squeeze elution (freezing gel slice at -20°C or -80°C, then centrifuging through a punctured tube) is obsolete because commercial kits give higher yields for all fragment sizes.\"",
+     "a": "The claim is false. Freeze-squeeze remains valuable for: (a) very large fragments (>20 kb) where kit columns shear DNA, (b) labs without kits or centrifuges adapted for spin columns, (c) applications requiring zero chemical exposure (no chaotropes, ethanol). Kits typically give 60–80% yield for 0.5–10 kb but drop sharply above 10 kb; freeze-squeeze gives 30–50% yield but preserves megabase-size integrity. A student accepting the claim uncritically fails to evaluate method fitness-for-purpose beyond a single metric (yield).",
+     "self_check": true
+    },
+    {
+     "q": "Design a protocol to recover a 300 bp PCR product from a 2% agarose gel for Sanger sequencing, maximizing purity and minimizing UV-induced damage. Specify gel percentage, stain, excision tool, elution method, and elution volume. Justify each choice.",
+     "a": "Gel: 2% agarose (optimal resolution for 300 bp). Stain: SYBR Safe or GelRed (blue-light excitable, avoids UV DNA damage). Excision: clean scalpel on blue-light transilluminator (minimizes nicking). Method: silica spin-column kit (high yield for small fragments, removes primers/dNTPs). Elution: 15–20 µL 10 mM Tris-Cl pH 8.5 at 60°C (small volume concentrates DNA for sequencing; heat improves small-fragment release). A poor answer uses ethidium bromide + UV (causes thymine dimers), 1% gel (poor resolution), or water elution (low pH reduces yield).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

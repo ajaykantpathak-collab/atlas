@@ -1,0 +1,286 @@
+{
+ "catalog": "catalog_class10_social_science_jess203",
+ "concepts": [
+  {
+   "id": "jess.203.1.1",
+   "title": "Money as a Medium of Exchange and Double Coincidence of Wants",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Money as a Medium of Exchange and Double Coincidence of Wants' refers to.",
+     "a": "Money removes the need for a double coincidence of wants by acting as an intermediate step: a seller converts goods into money and then buys whatever is desired, unlike barter where each party must want exactly what the other offers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Money as a Medium of Exchange and Double Coincidence of Wants'.",
+     "a": "A shoe manufacturer need not find a wheat-growing farmer who also wants shoes; selling shoes for money and buying wheat with money completes both exchanges.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Money as a Medium of Exchange and Double Coincidence of Wants' taught, and from which source text?",
+     "a": "Money as a Medium of Exchange (source: jess203.txt lines 156-215, 340-362)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.203.1.2",
+   "title": "Modern Forms of Money: Currency and Demand Deposits",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Modern Forms of Money: Currency and Demand Deposits' refers to.",
+     "a": "Modern money takes two linked forms: currency, meaning paper notes and coins authorised by the government and issued by the Reserve Bank of India, and demand deposits with banks that can be withdrawn on demand and paid by cheque.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Modern Forms of Money: Currency and Demand Deposits'.",
+     "a": "The rupee cannot be legally refused in settling transactions in India, and cheque payments transfer money between accounts without cash, so deposits share the essential features of money.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Modern Forms of Money: Currency and Demand Deposits' taught, and from which source text?",
+     "a": "Modern Forms of Money (source: jess203.txt lines 279-318, 390-418)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.203.2.1",
+   "title": "Loan Activities of Banks and the Interest Spread",
+   "questions": [
+    {
+     "q": "Using the method 'Loan Activities of Banks and the Interest Spread', work with: deposit_interest_rate = 5, loan_interest_rate = 5. Carry the chain through step by step and give the final value of bank_spread.",
+     "a": "0 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Loan Activities of Banks and the Interest Spread' and work with: deposit_interest_rate = 8, loan_interest_rate = 8. Carry the chain through step by step and give the final value of bank_spread.",
+     "a": "0 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Loan Activities of Banks and the Interest Spread' refers to.",
+     "a": "Banks keep only a small slice of deposits as cash, lend the major portion to borrowers, and earn their main income from the difference between the higher interest charged on loans and the lower interest paid to depositors.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Loan Activities of Banks and the Interest Spread'.",
+     "a": "Banks mediate between depositors with surplus funds and borrowers who need them; Indian banks hold roughly 5 per cent of deposits as cash to meet withdrawals.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Loan Activities of Banks and the Interest Spread', in plain ASCII form.",
+     "a": "bank_spread = loan_interest_rate - deposit_interest_rate",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.203.2.2",
+   "title": "Bank Cash Reserve from Deposit Percentage",
+   "questions": [
+    {
+     "q": "Calculate the cash reserve a bank keeps from its deposits. Use the method 'Bank Cash Reserve from Deposit Percentage'. Work with: reserve_percent = 12, total_deposits = 20. Carry the chain through step by step and give the final value of cash_reserve.",
+     "a": "2.4 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the amount held as cash when the reserve percentage is given. Use the method 'Bank Cash Reserve from Deposit Percentage'. Work with: reserve_percent = 5, total_deposits = 8. Carry the chain through step by step and give the final value of cash_reserve.",
+     "a": "0.4 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Bank Cash Reserve from Deposit Percentage' refers to.",
+     "a": "The cash a bank holds for daily withdrawals equals its total deposits multiplied by the reserve percentage it maintains.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Bank Cash Reserve from Deposit Percentage'.",
+     "a": "Holding about 5 per cent of deposits as cash works because on any given day only some depositors come to withdraw money.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Bank Cash Reserve from Deposit Percentage', in plain ASCII form.",
+     "a": "cash_reserve = total_deposits * reserve_percent / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.203.3.1",
+   "title": "Two Different Credit Situations and the Debt Trap",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Two Different Credit Situations and the Debt Trap' refers to.",
+     "a": "Credit helps when production and earnings rise, as with Salim's festival-season order, but pushes the borrower into a debt trap when repayment fails, as when Swapna's pest-hit groundnut crop forced her to sell part of her land.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Two Different Credit Situations and the Debt Trap'.",
+     "a": "Whether credit is useful depends on the risks in the situation and whether there is support in case of loss.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Two Different Credit Situations and the Debt Trap' taught, and from which source text?",
+     "a": "Two Different Credit Situations (source: jess203.txt lines 564-681)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.203.3.2",
+   "title": "Terms of Credit: Interest, Collateral and Documentation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Terms of Credit: Interest, Collateral and Documentation' refers to.",
+     "a": "Every loan agreement fixes terms of credit: the interest rate on the principal, collateral as an asset pledged as guarantee, documentation requirements, and the mode of repayment such as monthly instalments.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Terms of Credit: Interest, Collateral and Documentation'.",
+     "a": "Megha's five lakh house loan at 12 per cent annual interest for ten years used the new house papers as collateral; borrowers always look for low interest, easy repayment and less collateral.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Terms of Credit: Interest, Collateral and Documentation' taught, and from which source text?",
+     "a": "Terms of Credit (source: jess203.txt lines 682-755, 721-762)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.203.3.3",
+   "title": "Annual Interest from the Monthly Rate",
+   "questions": [
+    {
+     "q": "Calculate the per annum rate when the per month rate is given. Use the method 'Annual Interest from the Monthly Rate'. Work with: monthly_rate_percent = 25. Carry the chain through step by step and give the final value of annual_rate_percent.",
+     "a": "300 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Find the yearly interest burden of a village loan. Use the method 'Annual Interest from the Monthly Rate'. Work with: monthly_rate_percent = 18. Carry the chain through step by step and give the final value of annual_rate_percent.",
+     "a": "216 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Annual Interest from the Monthly Rate' refers to.",
+     "a": "Informal lenders in villages quote monthly rates, and the yearly burden follows by multiplying the monthly interest rate by twelve, as in the moneylender's five per cent per month equal to 60 per cent per annum.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Annual Interest from the Monthly Rate'.",
+     "a": "Shyamal paid 60 per cent a year to the moneylender before shifting to a trader's three per cent per month, while Arun's bank loan costs only 8.5 per cent per annum.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Annual Interest from the Monthly Rate', in plain ASCII form.",
+     "a": "annual_rate_percent = monthly_rate_percent * 12",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.203.3.4",
+   "title": "Simple Interest on a Loan",
+   "questions": [
+    {
+     "q": "Calculate the interest on a loan for the given rate and period. Use the method 'Simple Interest on a Loan'. Work with: principal = 5000, rate_percent = 8, years = 1500. Carry the chain through step by step and give the final value of interest.",
+     "a": "600000 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the interest payable on a house loan. Use the method 'Simple Interest on a Loan'. Work with: principal = 2500, rate_percent = 12, years = 1000. Carry the chain through step by step and give the final value of interest.",
+     "a": "300000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Simple Interest on a Loan' refers to.",
+     "a": "The interest payable on a loan grows with the principal, the annual interest rate and the time period, following the simple interest relation used to cost any credit arrangement.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Simple Interest on a Loan'.",
+     "a": "Megha's loan of Rs 5 lakh at 12 per cent per annum shows how interest adds to the repayment burden on top of the principal.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Simple Interest on a Loan', in plain ASCII form.",
+     "a": "interest = principal * rate_percent * years / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.203.4.1",
+   "title": "Formal and Informal Sources of Credit",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Formal and Informal Sources of Credit' refers to.",
+     "a": "Loans come from the formal sector of banks and cooperatives or from informal lenders such as moneylenders, traders, employers, relatives and friends; the Reserve Bank of India supervises only the formal sector.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Formal and Informal Sources of Credit'.",
+     "a": "Commercial banks supply 51 per cent of rural credit and moneylenders 23 per cent; informal lending charges much more, has no supervision, and can drag borrowers into debt and debt traps.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Formal and Informal Sources of Credit' taught, and from which source text?",
+     "a": "Formal Sector Credit in India (source: jess203.txt lines 905-1031, 959-972)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.203.4.2",
+   "title": "Formal Share of Rural Household Credit",
+   "questions": [
+    {
+     "q": "Calculate the formal sector share of rural credit. Use the method 'Formal Share of Rural Household Credit'. Work with: formal_share_percent = 0.75, rural_credit_total = 3. Carry the chain through step by step and give the final value of formal_credit.",
+     "a": "0.0225 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the credit amount supplied by banks and cooperatives together. Use the method 'Formal Share of Rural Household Credit'. Work with: formal_share_percent = 0.4, rural_credit_total = 60. Carry the chain through step by step and give the final value of formal_credit.",
+     "a": "0.24 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Formal Share of Rural Household Credit' refers to.",
+     "a": "The share of rural household credit supplied by the formal sector is found by adding the bank and cooperative shares, and the formal credit amount is that share of the total rural borrowing.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Formal Share of Rural Household Credit'.",
+     "a": "Commercial banks (51 per cent), cooperative banks and societies (10 per cent) and other formal agencies (5 per cent) together meet about two-thirds of rural credit needs.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Formal Share of Rural Household Credit', in plain ASCII form.",
+     "a": "formal_credit = rural_credit_total * formal_share_percent / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.203.5.1",
+   "title": "Self Help Groups and Grameen Bank",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Self Help Groups and Grameen Bank' refers to.",
+     "a": "Self Help Groups pool the savings of 15 to 20 members, mostly women, lend from the pooled fund, and later qualify for bank loans in the group's name, while the Grameen Bank of Bangladesh pioneered similar group lending for the poor.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Self Help Groups and Grameen Bank'.",
+     "a": "SHGs let members get timely loans at reasonable interest without collateral, and help women become financially self-reliant, building blocks of rural social capital.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Self Help Groups and Grameen Bank' taught, and from which source text?",
+     "a": "Self Help Groups for the Poor (source: jess203.txt lines 1185-1290)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

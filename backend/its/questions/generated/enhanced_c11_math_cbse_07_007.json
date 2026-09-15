@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_07_007",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_07_007",
+   "title": "c11_math_cbse_07_007",
+   "questions": [
+    {
+     "q": "Write the formula for the number of combinations of \\(n\\) distinct objects taken \\(r\\) at a time. State the condition on \\(r\\) and \\(n\\).",
+     "a": "The formula is \\(^nC_r = \\frac{n!}{r!(n-r)!}\\), where \\(n\\) is a non-negative integer and \\(0 \\le r \\le n\\). A wrong answer (e.g., writing the permutation formula or forgetting the division by \\(r!\\)) reveals that the student confuses combinations with permutations or does not recall the exact formula.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the number of combinations \\(^nC_r\\) is smaller than the number of permutations \\(^nP_r\\) for the same \\(n\\) and \\(r\\) (with \\(r > 1\\)). Use the example of selecting 2 students from a class of 4 to illustrate.",
+     "a": "In permutations, each arrangement of the selected objects counts as distinct; in combinations, different orders of the same selected objects are considered the same selection. For 4 students (A, B, C, D) selecting 2, permutations give 12 ordered pairs (AB, BA, AC, CA, AD, DA, BC, CB, BD, DB, CD, DC), while combinations give only 6 unordered pairs {A,B}, {A,C}, {A,D}, {B,C}, {B,D}, {C,D}. A wrong answer indicates the student does not grasp that combinations ignore order.",
+     "self_check": true
+    },
+    {
+     "q": "A committee of 3 members is to be formed from 5 teachers and 4 students. If the committee must consist of 2 teachers and 1 student, how many different committees are possible? (Assume all teachers are distinct and all students are distinct.)",
+     "a": "Step 1: Choose 2 teachers from 5: \\(^5C_2 = \\frac{5!}{2!3!} = 10\\).  \nStep 2: Choose 1 student from 4: \\(^4C_1 = \\frac{4!}{1!3!} = 4\\).  \nStep 3: By Fundamental Principle of Counting, total committees = \\(10 \\times 4 = 40\\).  \nA wrong answer (e.g., adding instead of multiplying, or using permutations) shows the student cannot apply the combination formula in a multi-step selection problem.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the values of \\(^{10}C_3\\) and \\(^{10}C_7\\). Without calculating the exact numbers, explain why they are equal. Then compute both to verify.",
+     "a": "By the symmetry property \\(^nC_r = ^nC_{n-r}\\), \\(^{10}C_3 = ^{10}C_7\\). Computing: \\(^{10}C_3 = \\frac{10!}{3!7!} = 120\\), \\(^{10}C_7 = \\frac{10!}{7!3!} = 120\\). A wrong answer (e.g., saying they are different) indicates the student has not recognized the symmetry in the formula.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that \\(^nC_r = \\frac{^nP_r}{r!}\\) is always true. Is this correct? If yes, prove it using the formulas. If not, give a counterexample.",
+     "a": "Yes, it is correct. \\(^nP_r = \\frac{n!}{(n-r)!}\\). Dividing by \\(r!\\) gives \\(\\frac{n!}{r!(n-r)!} = ^nC_r\\). This holds for all \\(0 \\le r \\le n\\). A wrong answer (e.g., saying it's false because of some condition) shows the student does not understand the algebraic relationship between permutations and combinations.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (in an Indian context, e.g., choosing dishes from a menu, selecting players for a cricket team) that requires the use of \\(^nC_r\\) with \\(n=8\\) and \\(r=3\\). Write the problem statement and solve it.",
+     "a": "Example problem: \"A restaurant offers 8 different vegetarian starters. A customer wants to order 3 different starters for a party. How many different combinations of starters can the customer choose?\" Solution: \\(^8C_3 = \\frac{8!}{3!5!} = 56\\). A poor answer might use permutations or have an unrealistic context, showing the student cannot formulate a combination scenario.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

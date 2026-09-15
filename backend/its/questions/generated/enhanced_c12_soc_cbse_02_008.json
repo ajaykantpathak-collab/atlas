@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_02_008",
+   "title": "c12_soc_cbse_02_008",
+   "questions": [
+    {
+     "q": "According to the Census of India, what is the minimum age at which a person is counted as literate, and what specific ability must they demonstrate?",
+     "a": "The Census counts a person as literate if they are aged 7 years or above and can read and write with understanding in any language. A wrong answer (e.g., age 5 or 6, or \"can sign their name\") reveals confusion with school enrolment age or the older \"literate = can sign name\" definition used before 1991; the current definition requires comprehension, not just mechanical decoding.",
+     "self_check": true
+    },
+    {
+     "q": "The male-female literacy gap in India narrowed from 25.1 percentage points in 1961 to 16.3 points in 2011. Explain why the gap has narrowed even though male literacy also increased during this period.",
+     "a": "The gap narrowed because female literacy grew at a faster rate (10.4% points between 2001–2011) than male literacy (7.6% points), partly due to a \"low base effect\" (female literacy started from much lower levels) and targeted interventions like Sarva Shiksha Abhiyan. A wrong answer that attributes the narrowing solely to male literacy stagnation or ignores the low-base effect shows misunderstanding of how percentage-point changes interact with different baselines.",
+     "self_check": true
+    },
+    {
+     "q": "Using Table 4, calculate the percentage-point increase in total literacy rate between 1991 and 2011. Then, calculate the percentage increase relative to the 1991 level. Show both calculations.",
+     "a": "Step 1: Total literacy 1991 = 52.2%, 2011 = 73.0%. Percentage-point increase = 73.0 – 52.2 = 20.8 percentage points. Step 2: Percentage increase relative to 1991 = (20.8 / 52.2) × 100 ≈ 39.8%. A wrong answer that confuses percentage points with percent change (e.g., saying \"literacy increased by 20.8%\") reveals a common quantitative literacy error that distorts interpretation of social progress.",
+     "self_check": true
+    },
+    {
+     "q": "Kerala's literacy rate (2011) is 94% while Bihar's is 61.8%. Both states have similar per capita income rankings among Indian states. Analyze why the literacy gap persists despite comparable economic levels, using at least two sociological factors from the chapter.",
+     "a": "Kerala's historical investment in public education, strong social reform movements (e.g., temple entry, missionary schools), and high female autonomy created a culture of universal schooling. Bihar's persistent feudal agrarian structure, lower female mobility, and weaker public school infrastructure maintain low literacy despite similar income. An answer that cites only \"poverty\" or \"lack of schools\" ignores the sociological emphasis on cultural norms and historical path dependence highlighted in the text.",
+     "self_check": true
+    },
+    {
+     "q": "The chapter states: \"Illiterate parents are at a severe disadvantage in ensuring that their children are well educated, thus perpetuating existing inequalities.\" Evaluate this claim by comparing it with the concept of \"intergenerational mobility\" and the role of reservation policies in education.",
+     "a": "The claim is empirically supported: low parental literacy correlates with lower child enrolment and higher dropout, reproducing caste/class gaps. However, reservation policies (SC/ST/OBC quotas in schools/colleges) and scholarship schemes act as structural counter-forces, enabling mobility despite parental illiteracy. An evaluation that treats the claim as absolute (ignoring policy interventions) or dismisses it entirely (ignoring strong correlation) fails to recognize the interplay of structure and agency.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical village-level survey to investigate why female literacy in a specific district lags 20 percentage points behind the state average. List three key variables you would measure, the social groups you would compare, and one qualitative method you would use to capture \"hidden barriers\" not visible in Census data.",
+     "a": "Variables: (1) female literacy rate by age cohort (15–24, 25–39, 40+), (2) school attendance rate of girls aged 7–14, (3) household decision-making autonomy index for women (e.g., say in healthcare, purchases). Compare: SC/ST vs. OBC vs. General; landless vs. landed households. Qualitative method: focus group discussions with mothers of out-of-school girls to uncover norms like early marriage, safety concerns, or son preference in education spending. A poor answer lists only Census-style variables (e.g., \"literacy rate by caste\") and omits qualitative depth, missing the sociological requirement to explore meanings and processes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

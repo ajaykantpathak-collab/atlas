@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_biology_ch09_005",
+ "concepts": [
+  {
+   "id": "enh:c6_biology_ch09_005",
+   "title": "c6_biology_ch09_005",
+   "questions": [
+    {
+     "q": "What is the primary purpose of cellular respiration in a living cell?",
+     "a": "The purpose is to release energy from food so the cell can perform its activities. A student who answers \"to breathe\" confuses the physical act of moving air in the lungs with the chemical process happening inside the body's cells.",
+     "self_check": true
+    },
+    {
+     "q": "If we breathe to get oxygen, why do we still need to eat food?",
+     "a": "We need food because it contains the chemical energy (sugars) that the cell breaks down to release power. Someone who says \"we eat to fill our stomach\" misses the point that food is the fuel source for the cell's energy-releasing reactions.",
+     "self_check": true
+    },
+    {
+     "q": "A marathon runner drinks glucose water for \"instant energy.\" How does the cell use this glucose?",
+     "a": "The cell takes the glucose and oxygen to perform cellular respiration, releasing the energy stored in the sugar. If a student answers \"it just goes to the muscles,\" they are missing the step of the chemical reaction that converts the sugar into usable energy.",
+     "self_check": true
+    },
+    {
+     "q": "Why is cellular respiration considered a \"controlled\" reaction rather than just \"burning\"?",
+     "a": "\"Burning\" would release all energy as heat instantly, which would hurt the cell; \"controlled\" means the cell releases energy in small, usable amounts. If a student says \"because it happens in the lungs,\" they are confusing the site of gas exchange with the site of energy release.",
+     "self_check": true
+    },
+    {
+     "q": "Can a cell release energy from food without oxygen?",
+     "a": "No, in this context, oxygen is required to break down the sugars effectively to release the energy the cell needs. If a student says \"yes, just by digesting it,\" they confuse the breakdown of food in the stomach (digestion) with the release of energy in the cell (respiration).",
+     "self_check": true
+    },
+    {
+     "q": "Imagine you are building a house. Using the concept of cellular respiration, identify what represents the \"bricks\" and what represents the \"electricity.\"",
+     "a": "The \"bricks\" are the food/nutrients (like carbohydrates) used to build/repair, and the \"electricity\" is the energy released by cellular respiration that powers the construction work. A poor answer would ignore the energy-release aspect entirely.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

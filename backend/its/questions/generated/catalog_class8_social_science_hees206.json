@@ -1,0 +1,109 @@
+{
+ "catalog": "catalog_class8_social_science_hees206",
+ "concepts": [
+  {
+   "id": "hees.206.6.1",
+   "title": "India's Place in World Population",
+   "questions": [
+    {
+     "q": "Using the method 'India's Place in World Population', work with: group_population = 60000, world_population = 60000. Carry the chain through step by step and give the final value of share.",
+     "a": "100 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'India's Place in World Population' and work with: group_population = 48000, world_population = 1200. Carry the chain through step by step and give the final value of share.",
+     "a": "4000 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'India's Place in World Population' refers to.",
+     "a": "India holds about 17 per cent of the world's population on a much smaller share of the world's land, making it one of the most populous countries; knowing who lives where, in what numbers and with what characteristics is the work of the census and population studies.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'India's Place in World Population'.",
+     "a": "One in every six humans is Indian: population size shapes every plan and resource.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'India's Place in World Population', in plain ASCII form.",
+     "a": "share = group_population / world_population * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hees.206.6.2",
+   "title": "What Determines Population Change: Births, Deaths and Migration",
+   "questions": [
+    {
+     "q": "Using the method 'What Determines Population Change: Births, Deaths and Migration', work with: birth_rate = 12, death_rate = 25. Carry the chain through step by step and give the final value of natural_growth.",
+     "a": "-13 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'What Determines Population Change: Births, Deaths and Migration' and work with: birth_rate = 25, death_rate = 20. Carry the chain through step by step and give the final value of natural_growth.",
+     "a": "5 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'What Determines Population Change: Births, Deaths and Migration' refers to.",
+     "a": "Population size changes through three flows - births add people, deaths remove them, and migration shifts them across borders; the difference between birth rate and death rate gives natural growth, while healthcare, literacy and income steer all three flows.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'What Determines Population Change: Births, Deaths and Migration'.",
+     "a": "Births minus deaths is natural growth; migration adds the human shuffle on top.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'What Determines Population Change: Births, Deaths and Migration', in plain ASCII form.",
+     "a": "natural_growth = birth_rate - death_rate",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hees.206.6.3",
+   "title": "Age Composition and the Working-Age Group",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Age Composition and the Working-Age Group' refers to.",
+     "a": "A population is layered by age: around 27 per cent of Indians are below 15 years, nearly 65 per cent fall in the working-age group of 15 to 59, and the elderly share is rising fast - from about 14 per cent in 2023 toward 26 per cent by 2050 in ageing societies - a shift called population ageing.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Age Composition and the Working-Age Group'.",
+     "a": "A young majority is a demographic dividend; a swelling elderly share is the coming challenge.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Age Composition and the Working-Age Group' taught, and from which source text?",
+     "a": "6 (source: hees206.txt lines 399-440 (ageing from 14 to 26 per cent), 967-975 (27 per cent under 15, 65 per cent working age))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hees.206.6.4",
+   "title": "Sex Ratio, Literacy and Regional Patterns",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Sex Ratio, Literacy and Regional Patterns' refers to.",
+     "a": "Population composition also tracks the sex ratio - women were about 48.5 per cent of the population in the most recent count - along with literacy rates that vary sharply among states, and uneven state-wise shares of population shaped by fertility, healthcare and development.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sex Ratio, Literacy and Regional Patterns'.",
+     "a": "Sex ratio and literacy map the quality of life across India's states.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Sex Ratio, Literacy and Regional Patterns' taught, and from which source text?",
+     "a": "6 (source: hees206.txt lines 440-530 (fertility and literacy rates), 640-660 (state shares), 741 (48.5 per cent women))",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch02_020",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch02_020",
+   "title": "c6_math_ch02_020",
+   "questions": [
+    {
+     "q": "What is the rule for subtracting an integer?",
+     "a": "Subtracting an integer is the same as adding its opposite. A student who says \"you just make it smaller\" or \"you always take away\" is failing to recognize that subtracting a negative number actually increases the value.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the expression 5 - (-3) result in 8 instead of 2?",
+     "a": "Because subtracting a negative is equivalent to adding a positive (5 + 3 = 8). A student who answers 2 is likely ignoring the \"double negative\" rule and treating the subtraction sign as a simple removal of value rather than an inverse operation.",
+     "self_check": true
+    },
+    {
+     "q": "If you are at Floor +4 and you want to reach Floor -2, what movement is needed?",
+     "a": "You need to move -6. You calculate this by Target - Start, which is (-2) - (+4) = -6. A student who answers +6 is confusing the direction of movement or the order of subtraction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the expressions 10 - 2 and 10 + (-2). Are they the same? Why?",
+     "a": "Yes, they are the same because subtracting 2 is identical to adding the inverse of 2. A student who claims they are different does not understand that subtraction is simply the addition of an additive inverse.",
+     "self_check": true
+    },
+    {
+     "q": "A bank account has a balance of -₹50 (a debt). You pay off a debt of ₹20. How do you represent this with integers?",
+     "a": "(-50) - (-20) = -30. The student must recognize that \"paying off\" a debt is a subtraction of a negative amount, which improves the balance. A wrong answer like -70 shows the student thinks paying a debt decreases the balance.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario where subtracting a negative integer is the only way to describe the situation.",
+     "a": "A good answer involves temperature or altitude, like \"The temperature rose from -10°C to -2°C.\" A poor answer uses only positive numbers, showing the student has not mastered the concept of numbers below zero.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

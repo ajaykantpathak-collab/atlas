@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch05_006",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch05_006",
+   "title": "c7_physics_ch05_006",
+   "questions": [
+    {
+     "q": "What is the SI unit for measuring the angle of incidence and the angle of reflection?",
+     "a": "The SI unit for measuring angles is degrees (°). A wrong answer often reveals confusion between linear distance units (like centimeters or meters) and angular measurement units used in geometry and optics.",
+     "self_check": true
+    },
+    {
+     "q": "If a light ray strikes a plane mirror at an angle of 30° to the surface of the mirror, what is the angle of incidence?",
+     "a": "The angle of incidence is 60°. A wrong answer (like 30°) reveals the common misconception that the angle of incidence is measured from the mirror's surface instead of the normal line, which is perpendicular (90°) to the surface.",
+     "self_check": true
+    },
+    {
+     "q": "A light ray strikes a plane mirror such that the angle between the incident ray and the reflected ray is 80°. Calculate the angle of reflection in degrees.",
+     "a": "Step 1: Identify that the total angle between the incident ray and reflected ray is the sum of the angle of incidence ($\\angle i$) and the angle of reflection ($\\angle r$). Step 2: Recall the first law of reflection which states that the angle of incidence equals the angle of reflection ($\\angle i = \\angle r$). Step 3: Set up the equation: $\\angle i + \\angle r = 80° \\Rightarrow 2\\angle r = 80°$. Step 4: Divide by 2 to solve for the angle of reflection: $\\angle r = 80° / 2 = 40°$. Step 5: Verify that both angles equal 40°, making the total 80°, which is physically reasonable. Answer: 40°. A wrong answer indicates the student forgot that the total angle is split equally between the incident and reflected rays relative to the normal.",
+     "self_check": true
+    },
+    {
+     "q": "How does changing the angle of incidence from 25° to 50° affect the angle of reflection, and what fundamental law explains this change?",
+     "a": "The angle of reflection will also double, increasing from 25° to 50°, as explained by the first law of reflection ($\\angle i = \\angle r$). A wrong answer shows a failure to recognize the direct proportionality between the two angles governed by the laws of reflection.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that if an incident ray is perpendicular (along the normal) to a plane mirror, the reflected ray will bounce off at an angle of 90° to the mirror. Is this correct, and why?",
+     "a": "This is incorrect because a ray striking along the normal has an angle of incidence of 0°. According to the first law of reflection, the angle of reflection must also be 0°, meaning the light ray retraces its path straight back along the normal. A wrong answer shows a mix-up between the angle measured from the mirror surface and the angle measured from the normal line.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple setup using everyday household items (like a comb, a torchlight, and a flat mirror on a table) to demonstrate that the incident ray, reflected ray, and normal all lie in the same plane.",
+     "a": "A good answer will describe placing a sheet of white paper on a table, standing a mirror vertically on it, and shining a narrow beam of light (using a comb-blocked torch) across the paper so the incident and reflected light tracks are visible flat on the paper surface. A poor answer fails to account for how to show coplanarity or confuses light blocking with ray tracing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

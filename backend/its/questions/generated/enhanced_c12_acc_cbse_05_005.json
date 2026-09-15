@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_05_005",
+   "title": "c12_acc_cbse_05_005",
+   "questions": [
+    {
+     "q": "A company issued shares payable as ₹20 on application, ₹30 on allotment, and ₹50 on first & final call. A shareholder holding 500 shares paid the application money but failed to pay the allotment money. Which account should be debited for the unpaid allotment amount, and what is its nature?",
+     "a": "Correct answer: 'Calls in Arrears A/c' should be debited. It is a current asset (receivable from shareholders) shown under 'Current Assets' in the Balance Sheet. A wrong answer like 'Share Allotment A/c' or 'Share Capital A/c' reveals the student doesn't understand that arrears is separated from the called-up capital to track outstanding amounts separately. Debiting Share Allotment would incorrectly reduce the called-up capital.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why interest on calls in arrears is debited to the shareholder's account but interest on calls in advance is credited to the shareholder's account, even though both involve the shareholder and the company.",
+     "a": "Correct answer: Interest on calls in arrears is income for the company (charge on shareholder for delayed payment), so it's debited to shareholder's account (increases their liability). Interest on calls in advance is expense for the company (payment to shareholder for early payment), so it's credited to shareholder's account (reduces their liability or increases company's liability). A wrong answer reversing this shows confusion between asset/liability nature: arrears = asset for company → interest income; advance = liability for company → interest expense.",
+     "self_check": true
+    },
+    {
+     "q": "A company issued 5,000 shares of ₹100 each at a premium of ₹20, payable as ₹30 on application, ₹50 on allotment (including premium), and ₹40 on first & final call. A shareholder holding 100 shares paid the call money along with allotment. Pass the journal entry for receipt of allotment money including the advance call money. Assume no interest on calls in advance.",
+     "a": "Correct entry:\nBank A/c Dr. 10,000\n  To Share Allotment A/c 5,000\n  To Calls in Advance A/c 5,000\n(Allotment money received on 100 shares @ ₹50 + call money in advance @ ₹40)\nSteps: (1) Calculate allotment due: 100 shares × ₹50 = ₹5,000. (2) Calculate call advance: 100 shares × ₹40 = ₹4,000. (3) Total received = ₹9,000. (4) Credit Share Allotment for amount due, credit Calls in Advance for excess. A wrong entry crediting full ₹9,000 to Share Allotment shows inability to distinguish between due and advance amounts.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Balance Sheet presentation of Calls in Arrears and Calls in Advance. Why is Calls in Arrears deducted from Called-up Capital in the Notes to Accounts but shown as a separate line item under Current Assets, while Calls in Advance appears under Current Liabilities?",
+     "a": "Correct analysis: In Notes to Accounts (Share Capital), 'Subscribed and Fully Paid-up Capital' is shown after deducting Calls in Arrears because it represents capital not actually paid. However, the arrears amount itself is an asset (receivable) so it appears separately under Current Assets. Calls in Advance is a liability (money received for future calls) so it appears under Current Liabilities. A student who shows both as deductions from share capital or both as assets/liabilities fails to grasp the dual presentation requirement per Schedule III.",
+     "self_check": true
+    },
+    {
+     "q": "A company's Articles specify interest on calls in arrears at 8% p.a. (instead of statutory 10%) and interest on calls in advance at 10% p.a. (instead of statutory 12%). A shareholder owes ₹20,000 as calls in arrears from 1st October to 31st March (6 months), and another has ₹15,000 as calls in advance for the same period. Calculate the interest amounts and state which account is debited/credited in each case.",
+     "a": "Correct calculation: Interest on arrears = ₹20,000 × 8% × 6/12 = ₹800 (debit Shareholder/Call in Arrears A/c, credit Interest on Calls in Arrears A/c). Interest on advance = ₹15,000 × 10% × 6/12 = ₹750 (debit Interest on Calls in Advance A/c, credit Shareholder/Calls in Advance A/c). A wrong answer using statutory rates (10% and 12%) shows the student doesn't know Articles override statutory rates. Wrong debit/credit shows confusion about income vs expense nature.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a company issues shares with three payment stages, has both calls in arrears and calls in advance from different shareholders, and the Articles specify different interest rates. Write the complete set of journal entries from application to final call, including interest entries at year-end, and show the Balance Sheet extract.",
+     "a": "A good answer will: (1) Define share issue terms (e.g., 1,000 shares ₹100 each, ₹30/₹40/₹30), (2) Show arrears on 50 shares at allotment, advance on 30 shares at call, (3) Pass entries for application, allotment (with arrears), call (with advance), (4) Calculate interest using Article rates for exact periods, (5) Pass interest entries, (6) Show Balance Sheet with Share Capital note (deducting arrears), Current Assets (Calls in Arrears), Current Liabilities (Calls in Advance + Interest on Advance), and Reserves (Interest on Arrears). A poor answer misses interest entries, uses wrong rates, or misclassifies in Balance Sheet.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

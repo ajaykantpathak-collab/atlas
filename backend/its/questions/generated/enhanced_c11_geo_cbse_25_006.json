@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_25_006",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_25_006",
+   "title": "c11_geo_cbse_25_006",
+   "questions": [
+    {
+     "q": "Define parallax in the context of a stereo pair of vertical aerial photographs and state the relationship between parallax magnitude and object elevation.",
+     "a": "Parallax is the apparent horizontal shift of an object's image position between two overlapping vertical aerial photographs taken from successive exposure stations; the parallax difference (Δp) is inversely proportional to the object's height above the datum — higher objects show greater parallax difference. A wrong answer (e.g., \"parallax increases with distance from the camera\" or \"parallax is the same for all points\") reveals confusion between relief displacement (radial from nadir) and parallax (along the flight line), or failure to grasp that parallax measures depth, not planimetric position.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why two points at the same elevation but different distances from the principal point have equal parallax on a truly vertical photograph pair, whereas their relief displacements differ.",
+     "a": "On a vertical photo pair with parallel optical axes, parallax depends only on the elevation of the point and the air base (B) and focal length (f), not on its radial distance from the principal point, because parallax is measured parallel to the flight line and the geometry is symmetric; relief displacement, however, is radial and proportional to the distance from the principal point. A wrong answer indicates the student conflates the two distinct geometric effects — relief displacement (single photo, radial) and parallax (stereo pair, flight-line direction) — and has not internalized the similar-triangle derivation that isolates elevation as the sole variable for parallax.",
+     "self_check": true
+    },
+    {
+     "q": "A stereo pair has focal length f = 152 mm, air base B = 1,200 m. The parallax of a point on the ground (datum) is measured as p = 62.4 mm; the parallax of the top of a water tank is p' = 65.8 mm. Calculate the height of the water tank above the datum. Show all steps.",
+     "a": "Step 1: Compute parallax difference Δp = p' − p = 65.8 − 62.4 = 3.4 mm. Step 2: Convert all units to metres: f = 0.152 m, B = 1200 m, Δp = 0.0034 m. Step 3: Apply parallax formula h = (B × f) / Δp = (1200 × 0.152) / 0.0034 = 182.4 / 0.0034 ≈ 53,647 m? Wait — this is unrealistic; check units: parallax is measured on the photo in mm, so keep f in mm and Δp in mm, B in m → h = (B × f) / Δp = (1,200,000 mm × 152 mm) / 3.4 mm = 182,400,000 / 3.4 ≈ 53,647,059 mm = 53.6 m. Step 4: Verify: typical water tank height 15–30 m; 53.6 m is high but plausible for an elevated tank on a tower. Step 5: Interpret — the tank stands ~53.6 m above the surrounding ground. A wrong answer (e.g., using p instead of Δp, or mixing mm/m incorrectly) reveals unit-conversion weakness and failure to distinguish absolute parallax from parallax difference.",
+     "self_check": true
+    },
+    {
+     "q": "On a stereo pair of a river valley, the parallax difference between the valley floor and the ridge top is measured. The valley floor shows Δp₁ = 4.2 mm, the ridge top shows Δp₂ = 6.8 mm (both relative to a distant datum). Which feature is higher, and by how much, if B = 800 m and f = 150 mm? Explain the terrain profile implied by these values.",
+     "a": "Higher parallax difference means higher elevation. Ridge top Δp₂ = 6.8 mm > valley floor Δp₁ = 4.2 mm, so the ridge is higher. Height of ridge above datum h₂ = (B·f)/Δp₂ = (800,000 × 150)/6.8 ≈ 17,647,059 mm = 17.65 m. Height of valley floor above datum h₁ = (800,000 × 150)/4.2 ≈ 28,571,429 mm = 28.57 m. Wait — this gives valley floor higher than ridge, which contradicts the premise. The error: parallax difference Δp is measured RELATIVE to a reference point (usually the datum). If both are measured relative to the same distant datum, then larger Δp means HIGHER elevation. But here h₁ > h₂, meaning the valley floor is computed higher — impossible. The student must recognize that Δp values must be interpreted correctly: if the valley floor is the reference (Δp = 0), then the ridge has positive Δp. The question's phrasing \"relative to a distant datum\" implies both are absolute parallaxes p, not differences. Then p_valley = 4.2 mm, p_ridge = 6.8 mm → ridge has larger absolute parallax → ridge is higher. Height difference = h_ridge − h_valley = B·f·(1/p_valley − 1/p_ridge) = 800,000×150×(1/4.2 − 1/6.8) mm ≈ 120,000,000×(0.2381 − 0.1471) ≈ 120,000,000×0.091 ≈ 10,917,000 mm = 10.9 m. A wrong answer shows inability to distinguish absolute vs. differential parallax and to apply the inverse relationship correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"A pocket stereoscope magnifies the photograph, so it helps us see small features better, which is why we can perceive depth.\" Is magnification the primary reason for 3D perception? Justify.",
+     "a": "No, magnification is secondary. A pocket stereoscope (typically 2×–4×) primarily presents the left image to the left eye and the right image to the right eye, enabling binocular fusion; depth perception arises from the brain processing the parallax differences encoded in the stereo pair. Even without magnification (e.g., free-viewing or mirror stereoscope at 1×), 3D perception occurs if the images are properly separated. Magnification only aids in resolving fine detail. A wrong answer that attributes 3D solely to magnification reveals a fundamental misunderstanding of stereopsis as a binocular fusion process, not a monocular magnification effect.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field exercise for Class 11 students to measure the height of the school's flagpole using a stereo pair taken with a smartphone. Specify: (a) how to capture the stereo pair, (b) what measurements to take on the prints, (c) the formula to use, and (d) how to validate the result.",
+     "a": "(a) Capture: Stand at position A, take photo; move sideways ~1/10th of distance to flagpole (base-to-height ratio ~1:10) to position B, take second photo; keep camera height and orientation constant. (b) Print both photos at same scale; measure parallax of flagpole top (p_top) and base (p_base) along the line joining the two camera positions using a ruler or parallax bar; compute Δp = p_top − p_base. (c) Formula: h = (B × f) / Δp, where B = distance between camera positions (measured on ground), f = focal length equivalent of smartphone camera (from EXIF data, typically ~4–6 mm). (d) Validate: Compare with direct measurement (tape measure or clinometer). A poor answer uses forward/backward movement (wrong baseline direction), ignores focal length retrieval, or omits validation — showing lack of practical photogrammetric thinking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

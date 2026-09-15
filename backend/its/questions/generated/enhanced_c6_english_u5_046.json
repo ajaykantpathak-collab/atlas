@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_english_u5_046",
+ "concepts": [
+  {
+   "id": "enh:c6_english_u5_046",
+   "title": "c6_english_u5_046",
+   "questions": [
+    {
+     "q": "What happens when you read the first letter of every line in an acrostic poem vertically?",
+     "a": "The first letters spell out the subject word or phrase of the poem. A wrong answer suggests the student thinks the poem is read horizontally or doesn't understand the vertical structure.",
+     "self_check": true
+    },
+    {
+     "q": "If you are writing an acrostic poem for the word \"DANCE,\" why must every line relate to movement or rhythm?",
+     "a": "Because the lines must describe the topic to create a meaningful poem. A wrong answer shows the student treats it as a random word game rather than a form of creative expression.",
+     "self_check": true
+    },
+    {
+     "q": "Write the first two lines of an acrostic poem using the word \"SKY\" to describe a sunny day.",
+     "a": "S: Sun shining bright above. K: Keeping the clouds away. A wrong answer often fails to start the line with the required letter or ignores the theme of a \"sunny day.\"",
+     "self_check": true
+    },
+    {
+     "q": "Analyze this poem: \"B-Bright sun, R-Rain falls, A-All are happy.\" Is this a good acrostic poem for \"BRAVE\"? Why or why not?",
+     "a": "It is not a good acrostic because the lines do not describe being 'BRAVE'. A wrong answer suggests the student only cares about the letters and misses the requirement for thematic consistency.",
+     "self_check": true
+    },
+    {
+     "q": "Does an acrostic poem require the lines to rhyme at the end?",
+     "a": "No, it does not. A wrong answer reveals a common misconception that all poems must rhyme, whereas acrostic poems focus on the vertical spelling constraint.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-line acrostic poem for the word \"HOME.\"",
+     "a": "H-Happiness lives inside, O-Open doors for friends, M-Many memories made, E-Everything feels safe. A poor answer would lack a theme or fail to use the correct starting letters.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

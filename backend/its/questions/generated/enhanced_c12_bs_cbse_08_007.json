@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_08_007",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_08_007",
+   "title": "c12_bs_cbse_08_007",
+   "questions": [
+    {
+     "q": "Define Ratio Analysis and Return on Investment as techniques of managerial control. State the formula for ROI.",
+     "a": "Ratio Analysis is a technique of managerial control that involves computing financial ratios from financial statements to evaluate organisational performance and identify deviations from standards. Return on Investment (ROI) measures the percentage return earned on capital employed. Formula: ROI = (Net Profit / Capital Employed) × 100, where Capital Employed = Shareholders' Funds + Long-term Borrowings (or Total Assets – Current Liabilities). A WRONG answer (e.g., \"ROI = Net Profit / Sales × 100\" or \"ROI = Gross Profit / Capital Employed\") reveals confusion between ROI and Profit Margin, or misunderstanding of \"capital employed\" versus \"sales\" or \"gross profit\" — a critical error because ROI evaluates capital efficiency, not sales efficiency.",
+     "self_check": true
+    },
+    {
+     "q": "A company has Current Assets of ₹50 lakh, Current Liabilities of ₹20 lakh, Inventory of ₹15 lakh, and Prepaid Expenses of ₹3 lakh. Calculate the Current Ratio and Quick Ratio. Explain why the Quick Ratio is considered a more stringent test of liquidity.",
+     "a": "Current Ratio = Current Assets / Current Liabilities = 50/20 = 2.5:1. Quick Assets = Current Assets – Inventory – Prepaid Expenses = 50 – 15 – 3 = ₹32 lakh. Quick Ratio = Quick Assets / Current Liabilities = 32/20 = 1.6:1. Quick Ratio excludes inventory and prepaid expenses because inventory may not be quickly convertible to cash (obsolescence, slow-moving stock) and prepaid expenses are not realisable at all. A WRONG answer that includes inventory in quick assets or uses the same numerator for both ratios reveals the student does not understand the *conceptual distinction* between \"current\" and \"quick\" liquidity — a common board exam error where students memorise formulas without grasping what each ratio actually measures.",
+     "self_check": true
+    },
+    {
+     "q": "From the following data, calculate the Inventory Turnover Ratio and interpret the result: Opening Inventory ₹8 lakh, Closing Inventory ₹12 lakh, Cost of Revenue from Operations (COGS) ₹100 lakh. The industry average is 8 times. What corrective action might management take?",
+     "a": "Average Inventory = (Opening + Closing) / 2 = (8 + 12)/2 = ₹10 lakh. Inventory Turnover Ratio = COGS / Average Inventory = 100/10 = 10 times. Interpretation: The company turns inventory 10 times a year, which is *higher* than the industry average of 8 times. This indicates efficient inventory management — but could also signal *under-stocking* risk (stockouts, lost sales). Corrective action: If stockouts are occurring, management should increase safety stock; if not, maintain current efficiency. A WRONG answer using only Closing Inventory (100/12 = 8.33) or Opening Inventory (100/8 = 12.5) shows the student doesn't understand why *average* inventory is used (inventory fluctuates during the period) — a frequent JEE/NEET trap where single-point values are incorrectly substituted for averages.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the Debt-Equity Ratio and the Interest Coverage Ratio as measures of solvency. A company has Debt-Equity Ratio of 2:1 and Interest Coverage Ratio of 2.5 times. Analyse the risk profile.",
+     "a": "Debt-Equity Ratio (Long-term Debt / Shareholders' Funds) measures *capital structure leverage* — the proportion of debt financing relative to equity. A ratio of 2:1 means ₹2 debt for every ₹1 equity — high leverage, high financial risk. Interest Coverage Ratio (EBIT / Interest Expense) measures *debt servicing capacity* — how many times operating profit covers interest. 2.5 times is low (below 3 is generally risky); a small drop in EBIT could make interest unpayable. Together: High leverage (D/E = 2) + Low coverage (ICR = 2.5) = **High insolvency risk**. The company is heavily dependent on debt and has thin cushion for interest payments. A WRONG answer treating both ratios as measuring the same thing (e.g., \"both measure debt\") misses that D/E is a *balance sheet* (stock) measure while ICR is an *income statement* (flow) measure — a distinction critical for case-based board questions and CUET analytical reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A high ROI always indicates good managerial performance.\" Use the DuPont decomposition (ROI = Profit Margin × Asset Turnover) to justify your answer with a concrete numerical example where high ROI masks operational problems.",
+     "a": "The statement is **false**. ROI = (Net Profit / Sales) × (Sales / Capital Employed) = Profit Margin × Asset Turnover. A high ROI can result from high asset turnover (efficient asset use) *even with low profit margins* (poor cost control), or from high margins *even with low asset turnover* (underutilised assets). Example: Company A: Sales ₹1000, Net Profit ₹200, Capital Employed ₹500. Profit Margin = 20%, Asset Turnover = 2, ROI = 40%. Company B: Sales ₹1000, Net Profit ₹50, Capital Employed ₹125. Profit Margin = 5%, Asset Turnover = 8, ROI = 40%. Both have 40% ROI, but Company B has razor-thin margins — a slight cost increase turns profit to loss. A WRONG answer saying \"ROI is comprehensive\" ignores that ROI *aggregates* two distinct drivers; without decomposition, managers cannot diagnose *whether* to improve pricing/costs (margin) or asset utilisation (turnover) — a key competency for CUET/IPMAT case studies.",
+     "self_check": true
+    },
+    {
+     "q": "Design a Ratio Analysis Control Dashboard for a manufacturing company. Select exactly five ratios (one from each category: liquidity, solvency, activity, profitability, and ROI), specify the standard/benchmark for each, and explain what deviation would trigger \"Management by Exception\" reporting to top management.",
+     "a": "**Dashboard Design:**\n1. **Liquidity:** Current Ratio — Standard: 2:1 — Trigger: Falls below 1.5:1 (inability to meet short-term obligations).\n2. **Solvency:** Debt-Equity Ratio — Standard: 1:1 — Trigger: Exceeds 1.5:1 (excessive leverage risk).\n3. **Activity:** Inventory Turnover — Standard: Industry average (e.g., 8 times) — Trigger: Falls below 6 times (overstocking/obsolescence risk).\n4. **Profitability:** Net Profit Margin — Standard: 10% — Trigger: Falls below 7% (cost overruns/pricing pressure).\n5. **ROI:** Return on Investment — Standard: 15% (cost of capital + risk premium) — Trigger: Falls below 12% (destroying shareholder value).\n**Management by Exception:** Only ratios crossing triggers are reported upward. This focuses CEO attention on *critical deviations* (e.g., if Current Ratio = 1.4 and ROI = 11%, both flagged; if all others are within range, they are not reported). A poor answer lists ratios without *quantitative triggers* or *actionable thresholds*, showing the student views ratios as academic exercises rather than control instruments — the exact gap NCERT highlights between \"knowing formulas\" and \"using ratios for controlling.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

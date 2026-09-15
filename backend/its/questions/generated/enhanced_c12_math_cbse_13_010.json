@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_13_010",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_13_010",
+   "title": "c12_math_cbse_13_010",
+   "questions": [
+    {
+     "q": "State the four necessary and sufficient conditions for a random experiment to be modelled as a sequence of Bernoulli trials.",
+     "a": "The four conditions are: (1) fixed finite number of trials \\(n\\); (2) each trial has exactly two outcomes (success/failure); (3) probability of success \\(p\\) is the same for every trial; (4) trials are independent. A wrong answer typically omits condition (3) or (4) — students often forget that \\(p\\) must not change from trial to trial (e.g., drawing without replacement violates this) or that independence is required (e.g., consecutive coin tosses are independent but drawing cards without replacement is not).",
+     "self_check": true
+    },
+    {
+     "q": "A bag contains 5 red and 3 blue balls. Four balls are drawn one by one *with replacement*. Let \\(X\\) be the number of red balls drawn. Is \\(X\\) a binomial random variable? Justify your answer by checking each Bernoulli condition.",
+     "a": "Yes, \\(X \\sim \\text{Binomial}(n=4, p=5/8)\\). With replacement ensures: (1) fixed \\(n=4\\); (2) two outcomes (red = success, blue = failure); (3) \\(p = 5/8\\) stays constant because the bag composition is restored after each draw; (4) draws are independent because replacement restores the original state. A common wrong answer says \"no\" because students confuse this with drawing *without* replacement, where \\(p\\) changes and trials become dependent — that would be a hypergeometric setting, not binomial.",
+     "self_check": true
+    },
+    {
+     "q": "A fair die is rolled 8 times. Find the probability that the face '5' appears exactly 3 times. Show all steps including the binomial coefficient calculation.",
+     "a": "\\(n=8\\), \\(p=1/6\\), \\(q=5/6\\), \\(k=3\\).  \n\\(P(X=3) = \\binom{8}{3} \\left(\\frac{1}{6}\\right)^3 \\left(\\frac{5}{6}\\right)^5\\)  \n\\(\\binom{8}{3} = \\frac{8 \\times 7 \\times 6}{3 \\times 2 \\times 1} = 56\\)  \n\\(\\left(\\frac{1}{6}\\right)^3 = \\frac{1}{216}\\), \\(\\left(\\frac{5}{6}\\right)^5 = \\frac{3125}{7776}\\)  \n\\(P(X=3) = 56 \\times \\frac{1}{216} \\times \\frac{3125}{7776} = \\frac{56 \\times 3125}{216 \\times 7776} = \\frac{175000}{1679616} = \\frac{21875}{209952} \\approx 0.1042\\)  \nA wrong answer often miscalculates \\(\\binom{8}{3}\\) as \\(8 \\times 7 \\times 6 = 336\\) (forgetting to divide by \\(3!\\)) or uses \\(p=1/2\\) by incorrectly treating \"5\" vs \"not 5\" as equally likely.",
+     "self_check": true
+    },
+    {
+     "q": "In a binomial distribution with \\(n=10\\), the probability of exactly 4 successes equals the probability of exactly 6 successes. Find \\(p\\) and explain why this symmetry occurs.",
+     "a": "\\(P(X=4) = \\binom{10}{4} p^4 (1-p)^6\\), \\(P(X=6) = \\binom{10}{6} p^6 (1-p)^4\\).  \nSince \\(\\binom{10}{4} = \\binom{10}{6}\\), equating gives \\(p^4(1-p)^6 = p^6(1-p)^4 \\Rightarrow (1-p)^2 = p^2 \\Rightarrow 1-p = p \\Rightarrow p = 1/2\\).  \nSymmetry occurs because when \\(p=1/2\\), success and failure are interchangeable — the distribution is symmetric about \\(n/2\\). A wrong answer sets \\(p=0.5\\) without derivation or claims symmetry for any \\(p\\) because \\(\\binom{n}{k}=\\binom{n}{n-k}\\), ignoring that \\(p^k(1-p)^{n-k}\\) must also match.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"For a binomial distribution with \\(n=20\\) and \\(p=0.3\\), the most likely number of successes is 6 because \\(np = 6\\).\" Evaluate this claim. Is it always true that the mode equals \\(np\\)? Provide a counterexample if false.",
+     "a": "The claim is **false** in general. For binomial, the mode is \\(\\lfloor (n+1)p \\rfloor\\) (or both \\(\\lfloor (n+1)p \\rfloor\\) and \\(\\lfloor (n+1)p \\rfloor - 1\\) if \\((n+1)p\\) is an integer). Here \\((n+1)p = 21 \\times 0.3 = 6.3\\), so mode = 6 — it happens to match \\(np=6\\) but not because \\(np\\) is the mode. Counterexample: \\(n=5, p=0.5 \\Rightarrow np=2.5\\) but mode = 3 (since \\((n+1)p = 3\\) is integer, modes are 3 and 2). A wrong answer confuses mean with mode; the mean is \\(np\\) but the mode is the value maximising \\(P(X=k)\\), which differs when \\(np\\) is not an integer or when \\((n+1)p\\) is integer.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world problem from Indian context (e.g., manufacturing, agriculture, examinations) that can be modelled as a binomial experiment with \\(n=12\\) and \\(p=0.25\\). State the random variable, write the probability mass function, and formulate a question asking for \"at least 3 successes\".",
+     "a": "Example: A fertilizer company produces bags where 25% have a minor packaging defect. A quality inspector randomly selects 12 bags from a large batch. Let \\(X\\) = number of defective bags in the sample. Then \\(X \\sim \\text{Binomial}(n=12, p=0.25)\\). PMF: \\(P(X=k) = \\binom{12}{k} (0.25)^k (0.75)^{12-k}\\) for \\(k=0,1,\\dots,12\\). Question: \"Find the probability that at least 3 bags have defects.\"  \nA poor answer uses \\(p=0.75\\) (confusing success/failure), sets \\(n\\) incorrectly (e.g., total batch size instead of sample size), or asks for \"exactly 3\" instead of \"at least 3\", showing misunderstanding of cumulative probability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

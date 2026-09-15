@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_06_008",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_06_008",
+   "title": "c12_chem_cbse_06_008",
+   "questions": [
+    {
+     "q": "Define the term \"β-hydrogen\" in the context of elimination reactions of haloalkanes. Why is its presence essential for both E1 and E2 mechanisms?",
+     "a": "A β-hydrogen is a hydrogen atom attached to the carbon adjacent (β-carbon) to the carbon bearing the halogen (α-carbon). It is essential because elimination involves the removal of this β-hydrogen by a base simultaneously with (E2) or after (E1) the departure of the leaving group, forming the π-bond of the alkene. A wrong answer (e.g., \"hydrogen on the same carbon as halogen\") reveals confusion between α and β positions, leading to incorrect prediction of whether a given haloalkane can undergo elimination (e.g., neopentyl bromide has no β-hydrogens and cannot eliminate).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a tertiary haloalkane like (CH₃)₃CBr undergoes E1 elimination with aqueous ethanol, but a primary haloalkane like CH₃CH₂CH₂Br requires a strong concentrated base like NaOEt in ethanol for E2 elimination.",
+     "a": "Tertiary halides form stable tertiary carbocations easily (low activation energy for C–Br heterolysis), so the rate-determining step (ionization) occurs readily even with a weak base (solvent). Primary halides form highly unstable primary carbocations; thus, ionization is prohibitively slow. Instead, a strong, concentrated base forces a concerted E2 pathway where C–H and C–Br bonds break simultaneously, bypassing the carbocation. A wrong answer (e.g., \"primary halides are more reactive\") confuses SN2 reactivity with elimination and ignores carbocation stability order.",
+     "self_check": true
+    },
+    {
+     "q": "Predict the major alkene product(s) when 2-bromo-3-methylbutane is treated with (i) alcoholic KOH (heat) and (ii) bulky base like t-BuOK in t-BuOH. Draw the structures and name them.",
+     "a": "(i) Alcoholic KOH (small base, thermodynamic control) → Zaitsev product: 3-methylbut-2-ene (more substituted, trisubstituted alkene). (ii) t-BuOK (bulky base, kinetic control) → Hofmann product: 3-methylbut-1-ene (less substituted, disubstituted alkene) because the bulky base abstracts the more accessible less hindered β-hydrogen. Steps: 1) Identify all β-hydrogens (two sets: on C1 and C3). 2) For each, draw the resulting alkene. 3) Count alkyl substituents on the double bond. 4) Apply Zaitsev (more substituted) vs Hofmann (less substituted with bulky base). A wrong answer giving the same product for both conditions misses the steric influence of base size on regioselectivity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the stereochemical outcomes of E2 elimination from (2R,3R)-2-bromo-3-methylpentane and (2R,3S)-2-bromo-3-methylpentane using a strong non-bulky base. Which diastereomer gives a single alkene stereoisomer, and why?",
+     "a": "E2 requires anti-periplanar geometry (H–C–C–X dihedral angle 180°). For (2R,3R), the β-hydrogen on C3 that is anti to Br on C2 leads to (E)-3-methylpent-2-ene. The other β-hydrogen is gauche. For (2R,3S), the anti-periplanar β-hydrogen leads to (Z)-3-methylpent-2-ene. Each diastereomer gives a single stereoisomer (E or Z) because only one β-hydrogen can achieve anti-periplanar alignment in the most stable staggered conformation. A wrong answer claiming both give the same stereoisomer or a mixture ignores the conformational requirement and the fact that diastereomers have different spatial arrangements.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"E1 reactions always give racemic mixtures if the carbocation is chiral, just like SN1.\" Evaluate this statement. Is it correct? Justify with a specific example.",
+     "a": "The statement is incorrect. E1 reactions do not produce chiral carbons in the product (alkenes are planar at the double bond). The carbocation intermediate is sp² hybridized (trigonal planar, achiral). Racemization is a concept for substitution at a stereocenter (SN1), where the product retains a chiral center. In E1, the product is an alkene which may have E/Z stereoisomerism, but not enantiomers. The carbocation can lose a proton from either side, potentially giving a mixture of E and Z alkenes if both β-hydrogens are available, but this is geometric isomerism, not racemization. A wrong answer reveals confusion between substitution and elimination stereochemistry and misapplication of the term \"racemization.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-step synthesis starting from 2-methylbutane to obtain 3-methylbut-1-ene as the major product. Specify reagents and conditions for each step, and explain why your route favors the Hofmann product.",
+     "a": "Step 1: Free radical bromination of 2-methylbutane with Br₂/hv → major product is 2-bromo-2-methylbutane (tertiary bromide) due to stable tertiary radical. Step 2: Treat with bulky base (t-BuOK in t-BuOH, heat) → E2 elimination gives 3-methylbut-1-ene (Hofmann product) because the bulky base abstracts the less hindered primary β-hydrogen (from the –CH₃ group) rather than the more hindered secondary β-hydrogen. Alternative: Step 1 could be NBS/allylic bromination if starting from an alkene, but here we start from alkane. A poor answer might use alcoholic KOH in step 2, which would give the Zaitsev product (2-methylbut-2-ene), or might not recognize that free radical bromination of 2-methylbutane gives a mixture and the tertiary bromide must be separated.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

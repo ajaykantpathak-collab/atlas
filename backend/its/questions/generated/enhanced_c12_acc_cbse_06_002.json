@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_06_002",
+   "title": "c12_acc_cbse_06_002",
+   "questions": [
+    {
+     "q": "What is the correct journal entry when a company issues 1,000, 10% debentures of ₹100 each at a premium of 10%, payable ₹30 on application, ₹50 on allotment (including premium), and the balance on call?",
+     "a": "Correct entry:  \nBank A/c Dr. 30,000  \nTo Debenture Application A/c 30,000  \n(Application money received)  \nDebenture Application A/c Dr. 30,000  \nTo 10% Debentures A/c 30,000  \n(Application money transferred)  \nBank A/c Dr. 50,000  \nTo Debenture Allotment A/c 50,000  \n(Allotment money including premium received)  \nDebenture Allotment A/c Dr. 50,000  \nTo 10% Debentures A/c 20,000  \nTo Securities Premium Reserve A/c 30,000  \n(Allotment money transferred, premium credited)  \nIf a student credits the entire ₹50,000 to Debentures A/c, they miss the premium segregation. If they debit Securities Premium Reserve, they confuse it with a debit balance. The premium is a capital receipt — credit only.",
+     "self_check": true
+    },
+    {
+     "q": "A company issues debentures at a discount of 5%. The accountant debits \"Loss on Issue of Debentures A/c\" instead of \"Discount on Issue of Debentures A/c\". Is this correct? Explain why or why not.",
+     "a": "No, it is not correct. \"Discount on Issue of Debentures\" and \"Loss on Issue of Debentures\" are different. Discount on issue arises when debentures are issued below face value (e.g., ₹95 for ₹100 face value). It is a capital loss written off over the debenture's life. \"Loss on Issue of Debentures\" is used when debentures are issued at par but redeemable at premium, or issued at discount and redeemable at premium — the total loss includes both discount and redemption premium. Using the wrong account misstates the nature of the loss and violates Schedule III disclosure: Discount on Issue appears under \"Other Non-current Assets\", while Loss on Issue is also an asset but with different notes. The student must distinguish based on the transaction structure.",
+     "self_check": true
+    },
+    {
+     "q": "XYZ Ltd. issues 2,000, 9% debentures of ₹100 each at a discount of 10%, redeemable at par. The full amount is payable on application. Applications are received for 2,500 debentures and pro-rata allotment is made. Excess application money is adjusted towards allotment (but there is no allotment). Pass the journal entries up to allotment.",
+     "a": "Step 1: Application received for 2,500 debentures @ ₹90 = ₹2,25,000  \nBank A/c Dr. 2,25,000  \nTo Debenture Application A/c 2,25,000  \nStep 2: Allot 2,000 debentures pro-rata. Required application money = 2,000 × ₹90 = ₹1,80,000. Excess = ₹45,000. Since no allotment/call, excess is refunded.  \nDebenture Application A/c Dr. 2,25,000  \nTo 9% Debentures A/c 1,80,000  \nTo Discount on Issue of Debentures A/c 20,000  \nTo Bank A/c 25,000 (refund)  \nWait — discount = 2,000 × ₹10 = ₹20,000. Face value = 2,000 × ₹100 = ₹2,00,000. Issue price = ₹90. So:  \nDebenture Application A/c Dr. 2,25,000  \nTo 9% Debentures A/c 1,80,000  \nTo Discount on Issue of Debentures A/c 20,000  \nTo Bank A/c 25,000  \nIf student forgets to refund excess or credits Discount on Issue with wrong amount, they miss pro-rata adjustment and discount calculation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Balance Sheet presentation (as per Schedule III) of: (a) Premium on issue of debentures, (b) Discount on issue of debentures, (c) Premium on redemption of debentures. Explain why they appear under different heads.",
+     "a": "(a) Premium on issue → Credited to **Securities Premium Reserve** → Shown under **Shareholders' Funds → Reserves and Surplus** (liability side). It is a capital profit.  \n(b) Discount on issue → Debited to **Discount on Issue of Debentures** → Shown under **Non-current Assets → Other Non-current Assets** (asset side). It is a capital loss to be written off.  \n(c) Premium on redemption → Credited to **Premium on Redemption of Debentures** → Shown under **Non-current Liabilities → Other Long-term Liabilities** (liability side). It is a future obligation.  \nThey differ because: (a) increases net worth, (b) is a deferred expense (asset), (c) is a provision for future payout. A student putting all under \"Reserves\" or \"Assets\" fails to distinguish economic substance.",
+     "self_check": true
+    },
+    {
+     "q": "A company issues 10,000, 8% debentures of ₹100 each at a premium of 5%, redeemable at a premium of 10% after 5 years. The accountant records the redemption premium at the time of issue by debiting \"Loss on Issue of Debentures\" and crediting \"Premium on Redemption of Debentures\". Evaluate this treatment.",
+     "a": "The treatment is **correct**. At issue, the company knows it must pay a redemption premium later. As per prudence (conservatism), the total loss on issue = premium on redemption (since issued at premium, no discount). So:  \nLoss on Issue of Debentures A/c Dr. 1,00,000 (10,000 × ₹10)  \nTo Premium on Redemption of Debentures A/c 1,00,000  \nThis creates a liability for future redemption premium and recognizes the loss immediately. The premium on issue (₹50,000) goes to Securities Premium Reserve. Net loss = ₹50,000. If the student only records premium on issue and ignores redemption premium, they understate liabilities and overstate profit. The dual entry at issue is mandatory for debentures redeemable at premium.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a company issues debentures at a discount but the discount is **not** written off in the same year. Show the Balance Sheet extract for Year 1 and Year 2 (assuming equal write-off over 5 years). Explain the change.",
+     "a": "Scenario: ABC Ltd. issues 5,000, 10% debentures of ₹100 each at 5% discount on 1 April 2023. Discount = ₹25,000. Written off equally over 5 years = ₹5,000/year.  \n**Year 1 (31 March 2024) Balance Sheet Extract:**  \nNon-current Assets: Other Non-current Assets → Discount on Issue of Debentures ₹25,000  \nLess: Written off (Statement of P&L) ₹5,000 → Net ₹20,000  \n**Year 2 (31 March 2025) Balance Sheet Extract:**  \nDiscount on Issue of Debentures ₹25,000  \nLess: Written off (₹5,000 + ₹5,000) = ₹10,000 → Net ₹15,000  \nThe discount asset reduces annually. If student shows full ₹25,000 in Year 2, they violate matching principle and Schedule III (must show net after write-off). The write-off is charged to Finance Cost in Statement of P&L.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

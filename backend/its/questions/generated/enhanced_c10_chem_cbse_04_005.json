@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_04_005",
+   "title": "c10_chem_cbse_04_005",
+   "questions": [
+    {
+     "q": "What is the definition of structural isomers? Give an example with molecular formula C₄H₁₀.",
+     "a": "Structural isomers are compounds with the same molecular formula but different structural formulas (different connectivity of atoms). For C₄H₁₀, the two structural isomers are butane (CH₃-CH₂-CH₂-CH₃) and 2-methylpropane (isobutane, (CH₃)₃CH). A wrong answer (e.g., \"same structure but different formula\" or giving stereoisomers) reveals confusion between molecular formula and structural formula, or ignorance of carbon's tetravalency and branching rules.",
+     "self_check": true
+    },
+    {
+     "q": "Why does n-pentane have a higher boiling point than neopentane (2,2-dimethylpropane) even though both have the formula C₅H₁₂?",
+     "a": "n-Pentane is a straight-chain molecule with larger surface area, allowing stronger London dispersion forces between molecules. Neopentane is highly branched (spherical), reducing surface area and intermolecular forces, so it boils lower. A wrong answer (e.g., \"branching increases boiling point\" or \"molecular weight differs\") reveals the misconception that branching always increases boiling point or that molecular formula alone determines physical properties, ignoring molecular shape and intermolecular forces.",
+     "self_check": true
+    },
+    {
+     "q": "Draw all structural isomers of C₅H₁₂ (alkanes) and name them using IUPAC nomenclature.",
+     "a": "Step 1: Draw straight chain: CH₃-CH₂-CH₂-CH₂-CH₃ → Pentane.\nStep 2: One branch: move one CH₃ to C-2 → CH₃-CH(CH₃)-CH₂-CH₃ → 2-Methylbutane.\nStep 3: Move branch to C-3 → same as 2-methylbutane (numbering from other end).\nStep 4: Two branches on C-2: C(CH₃)₄ → 2,2-Dimethylpropane (neopentane).\nTotal 3 isomers. A wrong answer drawing 4 or 5 isomers (e.g., counting 3-methylbutane as different) reveals failure to recognize symmetry and equivalent numbering, or not checking valency (carbon with 5 bonds).",
+     "self_check": true
+    },
+    {
+     "q": "Compare chain isomerism and position isomerism. For molecular formula C₄H₈ (alkenes), draw one chain isomer and one position isomer of but-1-ene.",
+     "a": "Chain isomerism: different carbon skeleton. Position isomerism: same skeleton, different position of double bond (or functional group). For C₄H₈:\nChain isomer of but-1-ene (CH₂=CH-CH₂-CH₃) is 2-methylprop-1-ene (CH₂=C(CH₃)-CH₃) — branched skeleton.\nPosition isomer of but-1-ene is but-2-ene (CH₃-CH=CH-CH₃) — double bond moved to C-2.\nA wrong answer drawing but-2-ene as chain isomer reveals confusion: they think moving the double bond changes the skeleton, not realizing the carbon chain remains 4 carbons straight.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the structural formula of an alcohol with formula C₃H₈O as CH₃-CH₂-CH₂-OH and says \"this is the only isomer.\" Evaluate this statement.",
+     "a": "The statement is false. C₃H₈O has two structural isomers: propan-1-ol (CH₃CH₂CH₂OH) and propan-2-ol (CH₃CH(OH)CH₃) — position isomers (OH on C-1 vs C-2). It also has a functional group isomer: methoxyethane (CH₃-O-CH₂CH₃), an ether. The student missed position isomerism and functional group isomerism. This reveals the common error of only considering chain isomerism or forgetting that oxygen can form ethers (C-O-C) as well as alcohols (C-OH).",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step method to ensure you have drawn ALL structural isomers for a given alkane formula CₙH₂ₙ₊₂ without missing any or drawing duplicates.",
+     "a": "Good method:\n1. Draw the straight-chain isomer (n-alkane).\n2. Systematically shorten the main chain by one carbon and place the removed carbon as a methyl branch on the next possible carbon (C-2, then C-3, etc.), ensuring the main chain remains the longest possible.\n3. For each main chain length, try all distinct branch positions (avoid symmetry duplicates by numbering from the end giving lowest locants).\n4. Add two branches (dimethyl) on the same or different carbons, again checking for longest chain and symmetry.\n5. Verify each structure: molecular formula matches, each carbon has 4 bonds, no duplicate (flip/rotate to check).\n6. Count isomers: C₄=2, C₅=3, C₆=5, C₇=9.\nA poor method (random drawing, no system) reveals lack of algorithmic thinking and leads to missing isomers (common in board exams for C₆H₁₄).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

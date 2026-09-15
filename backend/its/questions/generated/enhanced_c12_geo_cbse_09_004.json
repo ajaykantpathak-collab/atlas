@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_09_004",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_09_004",
+   "title": "c12_geo_cbse_09_004",
+   "questions": [
+    {
+     "q": "What was the decadal growth rate of India's population during 1911-1921, and what does a negative value indicate about births and deaths in that decade?",
+     "a": "The decadal growth rate was -0.31%. A negative value means the absolute population decreased — more people died than were born (or net out-migration exceeded natural increase). In 1911-1921, the influenza pandemic (1918-19) and famines caused a spike in death rate while birth rate remained high, leading to a net loss of 772,117 persons. A wrong answer (e.g., \"growth was low but positive\") reveals the student cannot interpret negative growth or confuse it with low positive growth.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the period 1921-1951 is called the 'steady population growth' phase despite the Great Depression and World War II.",
+     "a": "Mortality declined due to improved health/sanitation and better transport/communication for food distribution, while birth rates remained high. The gap between birth and death rates widened, yielding higher growth (11-14% per decade) than Phase I. The Depression and War did not reverse mortality gains. A wrong answer attributing growth to rising birth rates or ignoring mortality decline shows misunderstanding of the drivers of natural increase.",
+     "self_check": true
+    },
+    {
+     "q": "Using the formula \\( g = \\frac{P_2 - P_1}{P_1} \\times 100 \\), calculate the decadal growth rate for 1951-1961 from the census data: 1951 population = 361,088,090; 1961 population = 439,234,771. Show steps.",
+     "a": "Step 1: Identify P1 = 361,088,090; P2 = 439,234,771.\nStep 2: Absolute increase = P2 - P1 = 78,146,681.\nStep 3: Divide by P1: 78,146,681 / 361,088,090 = 0.2164.\nStep 4: Multiply by 100 = 21.64% (matches Table 1.1's 21.51% within rounding).\nA wrong answer from misplacing P1/P2 or forgetting ×100 reveals formula confusion or arithmetic error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 1991-2001 decadal growth rates of Kerala (9.4%) and Uttar Pradesh (~25%). Identify two socio-demographic factors that explain this divergence.",
+     "a": "Kerala's low growth stems from high female literacy (>90%), late age at marriage, and widespread contraceptive use. Uttar Pradesh's high growth reflects lower female literacy (~60%), early marriage, high desired family size, and lower contraceptive prevalence. A wrong answer citing only \"development\" or \"urbanization\" without specific demographic mechanisms shows superficial analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's post-1981 declining growth rate means the population explosion is over and no further policy intervention is needed.\"",
+     "a": "Incorrect. Growth rate declined from 24.66% (1971-81) to 17.64% (2001-11) but remains high in absolute terms (181 million added in 2001-11). Population momentum from a youthful age structure (20.9% adolescents in 2011) will sustain growth for decades. Policy must address unmet contraceptive needs, female education, and adolescent health. A wrong agreement reveals ignorance of population momentum and the difference between rate and absolute increase.",
+     "self_check": true
+    },
+    {
+     "q": "Design a choropleth map legend (4 classes) to show state-wise decadal growth rates (1991-2001) using the data: low (<15%), moderate (15-20%), high (20-25%), very high (>25%). Assign each class a color and list two states per class from the NCERT description.",
+     "a": "Legend: <15% — light yellow (Kerala, Tamil Nadu); 15-20% — orange (Andhra Pradesh, Odisha); 20-25% — red (Uttar Pradesh, Bihar); >25% — dark red (Rajasthan, Madhya Pradesh). A poor answer uses unequal intervals, non-sequential colors, or misclassifies states, revealing inability to translate quantitative data into cartographic representation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

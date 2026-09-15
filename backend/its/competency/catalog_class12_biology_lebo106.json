@@ -1,0 +1,322 @@
+{
+  "class": 12,
+  "subject": "biology",
+  "chapter": 106,
+  "chapter_title": "Evolution",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lebo106.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "lebo106.6.1.1",
+      "title": "Origin of Life: Chemical Evolution and Miller's Experiment",
+      "section": "6.1",
+      "definition": "The universe began some 13.8 billion years back and earth condensed about 4.5 billion years ago under a reducing sky of methane, ammonia and water vapour; Oparin and Haldane argued the first living things assembled from non-living organics after a long stretch of chemical evolution, and Miller's 1953 spark-discharge flask produced amino acids from just such a gas mix, backing the story in the lab.",
+      "formula": "",
+      "key_idea": "Pasteur killed the idea of life springing from rot spontaneously, yet how the very first self-copying capsule arose remains the open question chemical evolution only half answers.",
+      "textbook_ref": "lebo106.txt lines 13-111 (Big Bang, early atmosphere, panspermia, Pasteur, Oparin-Haldane, Miller 1953)",
+      "question_patterns": [
+        "describe miller's experiment on the origin of life and what it produced",
+        "what were the conditions on the early earth according to the chemical evolution account",
+        "how did pasteur demolish the theory of spontaneous generation",
+        "state the oparin and haldane proposal about the first life forms",
+        "what does the panspermia idea say about where life came from",
+        "how old is the universe and when did the first cellular life appear"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Set the cosmic stage", "explain": "The big bang expanded and cooled the universe; gravity clumped gases into galaxies, and earth formed around 4.5 billion years ago with no oxygen-bearing atmosphere."},
+        {"step": 2, "action": "Reject spontaneous generation", "explain": "Pasteur's pre-sterilised flasks stayed lifeless while open flasks teemed, showing life descends only from pre-existing life -- which still leaves the first origin unexplained."},
+        {"step": 3, "action": "Apply the chemical evolution logic", "explain": "Oparin and Haldane proposed that a hot, stormy, reducing atmosphere cooked inorganic gases (methane, ammonia, hydrogen, water vapour) into organic molecules before any life existed."},
+        {"step": 4, "action": "Test it in glass", "explain": "Miller ran an electric discharge through that gas mixture at 8000C and collected amino acids; later runs made sugars, nitrogen bases and fats, and meteorites carry similar compounds."}
+      ]
+    },
+    {
+      "id": "lebo106.6.2.1",
+      "title": "Darwin's Theory and Natural Selection",
+      "section": "6.2",
+      "definition": "Observations from the beagle voyage convinced Darwin that living forms share ancestors, change gradually and go extinct; populations carry built-in heritable variation, and individuals whose traits suit the conditions leave more offspring -- nature selects for reproductive fitness, the mechanism Wallace reached independently.",
+      "formula": "",
+      "key_idea": "Fitness in Darwin's sense means only one thing -- leaving more progeny -- which quietly turns variation into evolutionary change over billions of years.",
+      "textbook_ref": "lebo106.txt lines 112-148 (special creation critique, H.M.S. Beagle, fitness, Wallace)",
+      "question_patterns": [
+        "state the chief claims of darwin's theory of evolution by natural selection",
+        "what does reproductive fitness mean in darwinian terms",
+        "which observations from the hms beagle voyage shaped darwin's thinking",
+        "contrast the idea of special creation with gradual evolution of life forms",
+        "what role did alfred wallace play in the theory of natural selection",
+        "why does heritable variation matter for natural selection to work"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Contrast with creationism", "explain": "The old view held species fixed since a recent creation; Darwin's evidence pointed to shared ancestry, extinction, and an earth billions of years old."},
+        {"step": 2, "action": "Start from variation", "explain": "No two individuals are alike, and many differences are inherited, giving selection raw material to act on."},
+        {"step": 3, "action": "Let survival do the sorting", "explain": "Traits that help an individual cope with climate, food and physical factors let their bearers outbreed the less endowed -- better-adapted organisms leave more progeny."},
+        {"step": 4, "action": "Read the long-run result", "explain": "Across generations the population's character mix shifts, branching descent produces new forms, and geological history lines up with biological history."}
+      ]
+    },
+    {
+      "id": "lebo106.6.3.1",
+      "title": "Fossils and Embryology as Evidence for Evolution",
+      "section": "6.3",
+      "definition": "Hard remains trapped in sedimentary rock record which creatures lived in which geological period, so deeper layers hold older life -- paleontological evidence that forms appeared and vanished on a timetable; embryology added that vertebrate embryos share features such as gill slits, though von Baer showed embryos never replay the adult forms of other animals.",
+      "formula": "",
+      "key_idea": "Rock layers stack in time and radioactive dating pins absolute ages, letting fossils order life's history; shared embryos hint at shared ancestry but stop short of recapitulation.",
+      "textbook_ref": "lebo106.txt lines 149-176 (sedimentary fossils, paleontological evidence, Haeckel and von Baer)",
+      "question_patterns": [
+        "how do fossils buried in sedimentary layers act as evidence for evolution",
+        "what is paleontological evidence and what does it establish",
+        "which embryological observations were used to support evolution and by whom",
+        "why was haeckel's embryological support for evolution rejected",
+        "how are the ages of fossils determined",
+        "what did von baer conclude from studying vertebrate embryos"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Read the rock record", "explain": "Sediments pile up in order, so each layer's fossils date the life that died into it; distinct forms occupy distinct geological spans, and some match today's species while others, like dinosaurs, are extinct."},
+        {"step": 2, "action": "Date the layers", "explain": "Radioactive dating of rocks assigns absolute ages to the sedimentary sequence."},
+        {"step": 3, "action": "Weigh the embryo argument", "explain": "Haeckel noted all vertebrate embryos carry vestigial gill slits behind the head, functional only in adult fish, and read common descent into it."},
+        {"step": 4, "action": "Accept the correction", "explain": "Von Baer's careful study disproved the recapitulation claim -- embryos never pass through other animals' adult stages -- though shared embryonic features still fit common ancestry."}
+      ]
+    },
+    {
+      "id": "lebo106.6.3.2",
+      "title": "Homology, Analogy, Divergent and Convergent Evolution",
+      "section": "6.3",
+      "definition": "Organs built on one plan but shaped for different jobs -- the forelimb bones shared by whale, bat, cheetah and human, or thorn versus tendril in Bougainvillea and Cucurbita -- are homologous and betray divergent evolution from a common ancestor; organs serving the same job from different builds, like butterfly and bird wings, are analogous products of convergent evolution under similar habitats.",
+      "formula": "",
+      "key_idea": "Same structure, different function means common ancestry; same function, different structure means similar selection pressures -- the two comparisons point in opposite directions.",
+      "textbook_ref": "lebo106.txt lines 173-232 (comparative anatomy, forelimb homology, plant homology, analogy examples, biochemical similarity, artificial selection)",
+      "question_patterns": [
+        "differentiate between homologous and analogous organs with examples",
+        "why do the forelimbs of whales bats cheetahs and humans count as homologous",
+        "explain divergent evolution using a plant example",
+        "why are the wings of butterfly and bird called analogous structures",
+        "what does convergent evolution mean and which pairs of animals show it",
+        "how do similarities in proteins and genes support common ancestry"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Compare anatomies for the same bones", "explain": "Mammalian forelimbs keep humerus, radius, ulna, carpals, metacarpals and phalanges while performing swimming, flying, running or grasping -- one design pulled along different adaptive paths."},
+        {"step": 2, "action": "Label the pattern divergent", "explain": "Divergence from a shared ancestor produces homology; the same logic covers vertebrate hearts, brains, and the thorn-tendril pair in two plant genera."},
+        {"step": 3, "action": "Flip the comparison for analogy", "explain": "Wings of butterfly and bird, eyes of octopus and mammal, flippers of penguin and dolphin, even sweet potato root versus potato stem, solve one function from unrelated builds -- convergence driven by similar habitats."},
+        {"step": 4, "action": "Add the biochemical and breeding parallels", "explain": "Proteins and genes with matching roles across diverse organisms echo the anatomical story, and centuries of human selective breeding show how fast directed selection can reshape breeds."}
+      ]
+    },
+    {
+      "id": "lebo106.6.3.3",
+      "title": "Industrial Melanism and Evolution by Human Action",
+      "section": "6.3",
+      "definition": "England's moth collections flipped from mostly white-winged in the 1850s to mostly dark-winged by 1920 as industrial soot blackened tree trunks and predators picked off whichever moth stood out -- camouflage decided survival; herbicide-resistant weeds, pesticide-resistant pests and drug-resistant microbes repeat the lesson within months or years, evolution driven by human action.",
+      "formula": "",
+      "key_idea": "Selection favours whichever variant blends into the current environment, and no variant is ever wiped out completely -- evolution is stochastic, not a directed march.",
+      "textbook_ref": "lebo106.txt lines 233-272 (moth collections before and after industrialisation, predators, resistant varieties, anthropogenic action)",
+      "question_patterns": [
+        "explain the shift in moth populations in industrial england by natural selection",
+        "why did dark winged moths outnumber white winged moths after industrialisation",
+        "how do lichens act as indicators of industrial pollution in the moth story",
+        "explain antibiotic resistance in bacteria using darwinian selection",
+        "what does the appearance of herbicide resistant weeds demonstrate about evolution",
+        "why is evolution described as a stochastic process rather than a directed one"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Record the before picture", "explain": "Pre-industrial trunks wore pale lichen, so white-winged moths hid well and dark-winged ones stood out to predators."},
+        {"step": 2, "action": "Record the reversal", "explain": "Smoke and soot darkened the trunks and killed the lichen, flipping the camouflage advantage -- predators now removed the pale moths and the melanised form multiplied."},
+        {"step": 3, "action": "Generalise the mechanism", "explain": "A mixed population already carries both variants; the environment only decides which one survives and breeds -- better-adapted individuals increase, without total elimination of the other."},
+        {"step": 4, "action": "Watch it happen fast", "explain": "Heavy herbicide, pesticide and antibiotic use selects resistant strains on scales of months to years -- anthropogenic evolution, and proof that chance mutation plus selection, not purpose, drives change."}
+      ]
+    },
+    {
+      "id": "lebo106.6.4.1",
+      "title": "Adaptive Radiation: Darwin's Finches and Marsupials",
+      "section": "6.4",
+      "definition": "From one ancestral seed-eating stock on the Galapagos, finch beaks radiated into insect-crushing and fruit-eating shapes as birds spread into new niches on the same islands -- evolution of many species from a point of origin across a geography; Australia's marsupials did the same on an island continent, and their parallels with placental mammals make the pair a case of convergent evolution.",
+      "formula": "",
+      "key_idea": "One ancestor plus many vacant niches equals a burst of diversification -- and when two separate radiations land on look-alike answers, that is convergence.",
+      "textbook_ref": "lebo106.txt lines 273-308 (Galapagos finches, Australian marsupials, placental-marsupial parallels)",
+      "question_patterns": [
+        "what is adaptive radiation and why are darwin's finches its textbook example",
+        "how did the seed eating finches of galapagos diversify into other feeders",
+        "describe the adaptive radiation of australian marsupials",
+        "when do we call more than one adaptive radiation an instance of convergent evolution",
+        "which placental mammal pairs with a marsupial look-alike in australia",
+        "how does adaptive radiation differ from ordinary speciation within one niche"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Start from a single founder stock", "explain": "Darwin's finches descended from one seed-eating ancestor that reached the Galapagos and found many unoccupied feeding niches."},
+        {"step": 2, "action": "Radiate into niches", "explain": "Beak forms changed to exploit insects, fruits and other diets, splitting one lineage into several island species -- radiation across habitats from a point."},
+        {"step": 3, "action": "Repeat on a continent", "explain": "Australian marsupials diversified from an ancestral stock into many pouched forms, each filling a different role within the isolated continent."},
+        {"step": 4, "action": "Spot the convergence", "explain": "Placental mammals in Australia evolved varieties resembling the marsupials -- placental wolf versus Tasmanian wolf -- so parallel radiations converged on similar designs."}
+      ]
+    },
+    {
+      "id": "lebo106.6.5.1",
+      "title": "Darwinian Fitness, Lamarck's Claim and the Two Keys of Evolution",
+      "section": "6.5",
+      "definition": "Evolution by selection runs at the speed of each lineage's life cycle -- bacteria can pivot in days while fish need aeons -- because fitness is inherited; Darwin's two key ideas are branching descent and natural selection, while Lamarck's rival story that giraffes stretched their necks by use and passed the stretch on has been discarded.",
+      "formula": "",
+      "key_idea": "Selection needs limited resources, stable population sizes and heritable variation -- Malthus's population arithmetic turned into biology.",
+      "textbook_ref": "lebo106.txt lines 309-393 (bacterial colony example, genetic basis of fitness, branching descent, Lamarck's giraffes, Malthus, deVries mutation theory)",
+      "question_patterns": [
+        "contrast darwin's explanation of evolution with lamarck's use and disuse idea",
+        "why do bacteria evolve resistance faster than large animals",
+        "what are the two key concepts of darwinian theory of evolution",
+        "why does fitness have to be inherited for evolution to proceed",
+        "how did malthus's population ideas influence darwin's reasoning",
+        "what did hugo de vries mean by saltation and how did it differ from darwinian variation"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Time evolution by generation length", "explain": "A bacterial colony with built-in variation in feed use lets a new medium select the suited variant within days; the same shift in a fish or bird takes millions of years."},
+        {"step": 2, "action": "Ground fitness in genetics", "explain": "Only inherited traits count, so adaptation has a genetic basis -- fitness is the end result of adapting well enough to be selected."},
+        {"step": 3, "action": "Name the two pillars", "explain": "Branching descent plus natural selection make up the Darwinian core; the giraffe necks story of use-driven, inheritable stretching (Lamarck) convinces no one today."},
+        {"step": 4, "action": "Weigh the mutationist challenge", "explain": "deVries saw sudden large changes (mutations) in evening primrose and called speciation by single big steps saltation -- random and directionless, against Darwin's small, directional, gradual variations."}
+      ]
+    },
+    {
+      "id": "lebo106.6.7.1",
+      "title": "Hardy-Weinberg Principle and Allele Frequencies",
+      "section": "6.7",
+      "definition": "In a large, undisturbed population the allele frequencies p and q stay frozen across generations -- genetic equilibrium -- and the diploid genotype shares follow the binomial spread p-squared for the homozygous dominant class, 2pq for heterozygotes and q-squared for the homozygous recessive class, with the three summing to one.",
+      "formula": "p_2 + 2pq + q_2 = 1",
+      "key_idea": "The equation is a null model -- measured frequencies that drift away from it are the very signature of evolution at work.",
+      "textbook_ref": "lebo106.txt lines 403-426 (allele frequencies, gene pool, p2 + 2pq + q2 = 1, disturbance as evolution)",
+      "question_patterns": [
+        "state the hardy weinberg equation and what each term represents",
+        "calculate the genotype frequencies from given allele frequencies p and q",
+        "a population's recessive allele frequency is 0.2 -- what fraction is homozygous recessive",
+        "how do you find the carrier frequency of a recessive allele in a population",
+        "what does genetic equilibrium mean for a gene pool",
+        "why does a deviation from hardy weinberg frequencies indicate evolution"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "Square the dominant allele share", "explain": "Homozygous dominant individuals need allele A from both parents, so their frequency is the square of p.", "compute": "homozygous_dominant = dominant_freq ** 2"},
+        {"step": 2, "action": "Double the mixed product", "explain": "Heterozygotes come from either ordering of the two alleles, giving twice their product.", "compute": "heterozygote_fraction = 2 * dominant_freq * recessive_freq"},
+        {"step": 3, "action": "Square the recessive allele share", "explain": "Homozygous recessive individuals similarly take the square of q.", "compute": "homozygous_recessive = recessive_freq ** 2"}
+      ]
+    },
+    {
+      "id": "lebo106.6.7.2",
+      "title": "Five Forces Against Equilibrium and Three Modes of Selection",
+      "section": "6.7",
+      "definition": "Gene migration, genetic drift, mutation, recombination and natural selection all shove allele frequencies off balance; drift acting on a small founding sample can even seed a new species (founder effect), and selection itself works in three gaits -- stabilising around the mean, directional toward one extreme, or disruptive favouring both tails of the curve.",
+      "formula": "",
+      "key_idea": "Any change of allele frequency between generations is evolution in action -- the five forces are simply the levers that move it.",
+      "textbook_ref": "lebo106.txt lines 427-451 (gene flow, drift, founder effect, speciation, stabilising/directional/disruptive selection)",
+      "question_patterns": [
+        "list the five factors that disturb hardy weinberg equilibrium",
+        "differentiate gene flow from genetic drift with examples",
+        "what is the founder effect and how can drift create a new species",
+        "compare stabilising directional and disruptive selection with sketches of the curve",
+        "how do mutation and recombination feed variation into a population",
+        "which mode of selection favours individuals at both extremes of a trait"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Count the movers", "explain": "Migration carries alleles out of one population and into another (gene flow when repeated); drift changes frequencies by pure chance, strongest in small samples."},
+        {"step": 2, "action": "Add the variation sources", "explain": "Mutation rewrites alleles outright and recombination reshuffles them during gamete formation -- both reset the frequency baseline."},
+        {"step": 3, "action": "Apply drift's extreme case", "explain": "A drastically different allele mix in a newly settled sample can found a reproductively separate population -- the drifted founders create a founder effect and possibly a species."},
+        {"step": 4, "action": "Sort selection's three outcomes", "explain": "Stabilisation piles individuals onto the mean character value, directional shift moves the majority off the mean, and disruption rewards both peripheral values at once."}
+      ]
+    },
+    {
+      "id": "lebo106.6.8.1",
+      "title": "A Timeline of Life's History on Earth",
+      "section": "6.8",
+      "definition": "Cellular life appears near 2000 million years ago, multicellular forms follow, invertebrates flourish by 500 mya, jawless fish and the lobefin ancestors of amphibians show around 350 mya, reptiles with shelled eggs take over, dinosaurs rule until their sudden exit about 65 mya, and mammals -- first shrew-like -- inherit the earth.",
+      "formula": "",
+      "key_idea": "Each invasion of a new medium -- water to land, land to air -- rides on a structure repurposed from an older one, like stout fins becoming limbs.",
+      "textbook_ref": "lebo106.txt lines 452-513 (first cells, oxygen release, invertebrates, lobefins, amphibians, reptiles, dinosaurs, mammals, continental drift)",
+      "question_patterns": [
+        "arrange the major events of life's history from the first cells to mammals",
+        "which fish group links aquatic life to the first amphibians",
+        "why could reptiles spread further on land than amphibians",
+        "what happened to the dinosaurs about 65 million years ago",
+        "how did continental drift shape the fate of south american and australian mammals",
+        "when did plants first invade land relative to animals"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Start in water", "explain": "Single cells around 2000 mya, some releasing oxygen via light-driven water splitting; multicellularity follows, invertebrates by 500 mya, jawless fish near 350 mya."},
+        {"step": 2, "action": "Cross onto land twice", "explain": "Plants colonised land before animals; lobefins (the 1938 coelacanth's relatives) became the first amphibians living on both land and water."},
+        {"step": 3, "action": "Scale up with the reptiles", "explain": "Thick-shelled, sun-proof eggs freed reptiles from water; they dominated for 200 million years, some returning to sea (ichthyosaurs), until dinosaurs vanished about 65 mya."},
+        {"step": 4, "action": "Hand over to mammals", "explain": "Small, viviparous, sharp-sensed shrew-like mammals spread as reptiles declined; drift joining the Americas swamped South American oddities while Australia's isolation let pouched mammals thrive."}
+      ]
+    },
+    {
+      "id": "lebo106.6.9.1",
+      "title": "Origin and Evolution of Man",
+      "section": "6.9",
+      "definition": "Human linehistory climbs from the ape-like Dryopithecus and more man-like Ramapithecus (15 mya) through upright, fruit-eating Australopithecines (2 mya) to Homo habilis with a 650-800 cc brain, Homo erectus at about 900 cc who ate meat, heavy-browed Neanderthal man at 1400 cc who buried his dead, and finally Homo sapiens, who arose in Africa and spread worldwide during the ice age.",
+      "formula": "",
+      "key_idea": "Brain capacity roughly doubles across the sequence while diet, tool use and culture deepen -- language and self-awareness crown the story.",
+      "textbook_ref": "lebo106.txt lines 514-546 (Dryopithecus to Homo sapiens, brain capacities, cave art, agriculture)",
+      "question_patterns": [
+        "arrange the stages of human evolution from dryopithecus to homo sapiens",
+        "which fossil man first used stone weapons and where did he live",
+        "compare the brain capacities of homo habilis homo erectus and neanderthal man",
+        "where did homo sapiens first arise and how did they spread",
+        "what cultural advances mark the rise of modern humans",
+        "how did ramapithecus differ from dryopithecus"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Begin with the ape side", "explain": "Around 15 mya Dryopithecus stayed ape-like while Ramapithecus leaned man-like; both walked like today's gorillas and chimps."},
+        {"step": 2, "action": "Add the upright stage", "explain": "Man-like primates of east Africa (3-4 mya) stood under four feet but walked erect; Australopithecines (2 mya) hunted with stone weapons yet ate mostly fruit."},
+        {"step": 3, "action": "Grow the genus Homo", "explain": "Homo habilis, the first human-like hominid, held 650-800 cc; Homo erectus (Java fossils, 1.5 mya) reached about 900 cc and likely ate meat; Neanderthal man (1400 cc, near east and central Asia, 100000-40000 years back) hid under hides and buried the dead."},
+        {"step": 4, "action": "Close with us", "explain": "Homo sapiens originated in Africa, radiated into distinct races during the ice age (75000-10000 years ago), painted caves by 18000 years ago, and settled into agriculture about 10000 years back."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we_lebo106_1",
+      "source_ref": "lebo106.txt lines 415-423 (p2, 2pq, q2 genotype frequencies)",
+      "concept": "lebo106.6.7.1",
+      "question_type": "compute",
+      "question_pattern": "A population carries a recessive allele at frequency {recessive_freq}. With its dominant partner allele at {dominant_freq}, what fraction of individuals is homozygous recessive?",
+      "extracted_variables": {
+        "recessive_freq": 0.2,
+        "dominant_freq": 0.8
+      },
+      "solution_template": [
+        {"step": 1, "action": "Apply the equilibrium spread", "explain": "Homozygous dominant takes p-squared, heterozygotes 2pq, homozygous recessive q-squared.", "compute": "homozygous_dominant = dominant_freq ** 2"},
+        {"step": 2, "action": "Reserve the recessive square", "explain": "The homozygous recessive share is simply the square of the recessive allele frequency.", "compute": "homozygous_recessive = recessive_freq ** 2"}
+      ]
+    },
+    {
+      "id": "we_lebo106_2",
+      "source_ref": "lebo106.txt lines 415-423 (recovering allele frequencies from genotype frequencies)",
+      "concept": "lebo106.6.7.1",
+      "question_type": "compute",
+      "question_pattern": "One newborn in {one_in} carries a recessive genetic disorder. What fraction of the population are unaffected carriers of that allele?",
+      "extracted_variables": {
+        "one_in": 2500
+      },
+      "solution_template": [
+        {"step": 1, "action": "Recover the recessive allele frequency", "explain": "Disorder incidence is q-squared, so q is its square root: 1 in 2500 gives q = 0.02.", "compute": "recessive_freq = sqrt(1 / one_in)"},
+        {"step": 2, "action": "Double the mixed product", "explain": "Carriers are heterozygotes, 2pq with p = 1 - q.", "compute": "carrier_fraction = 2 * (1 - recessive_freq) * recessive_freq"}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_lebo106_1",
+      "source_ref": "lebo106.txt lines 551-578 (end-of-chapter exercises 1-10, reworded)",
+      "questions": [
+        "Use darwinian selection to account for antibiotic resistance seen in bacteria.",
+        "Report one recent fossil discovery or controversy about evolution from current science news.",
+        "Offer a clear, workable definition of the term species.",
+        "Trace the components of human evolution -- brain size and function, skeleton, diet and more.",
+        "Investigate whether any animals besides humans show self-consciousness.",
+        "Pick ten modern animals and match each to an ancient fossil relative, naming both.",
+        "Sketch a variety of animals and plants as practice.",
+        "Give one worked example of adaptive radiation.",
+        "Could human evolution fairly be called an adaptive radiation? Argue both ways.",
+        "Using library or internet sources, follow the evolutionary stages of one animal such as the horse."
+      ]
+    }
+  ]
+}

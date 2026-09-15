@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_09_005",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_09_005",
+   "title": "c12_bio_cbse_09_005",
+   "questions": [
+    {
+     "q": "Name the four honey bee species commonly used in Indian apiculture and state which one is an exotic high-yielding species introduced for commercial beekeeping.",
+     "a": "The four species are *Apis dorsata* (rock bee), *Apis florea* (little bee), *Apis cerana indica* (Indian hive bee), and *Apis mellifera* (European/Italian bee). *Apis mellifera* is the exotic high-yielding species introduced for commercial beekeeping. A wrong answer (e.g., naming *Apis laboriosa* or confusing *cerana* with *mellifera*) reveals the student cannot distinguish native vs. introduced species — a frequent board exam error where students lose marks for not specifying *A. mellifera* as the exotic species preferred for Newton/Langstroth hives.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a beekeeper must replace the queen in an *Apis mellifera* colony every 1–2 years, linking this to the queen's pheromonal control over worker ovary suppression and colony cohesion.",
+     "a": "The queen secretes queen mandibular pheromone (QMP) that suppresses worker ovary development and inhibits queen cell construction. As the queen ages, QMP production declines, leading to worker laying (drone brood only, since workers are unmated), supersedure impulse, or swarming — all reducing honey yield. Replacing her maintains strong pheromonal control, uniform brood pattern, and maximum forager population. A wrong answer focusing only on \"egg-laying capacity\" misses the pheromonal regulation mechanism — a NEET-level concept linking endocrinology (c11_bio_cbse_19_001) to social behaviour.",
+     "self_check": true
+    },
+    {
+     "q": "A beekeeper in Uttar Pradesh observes capped drone brood cells protruding from the comb surface in March, while worker brood is flat-capped. The colony has no queen cells. What management action should be taken immediately, and why?",
+     "a": "Action: Remove the protruding drone comb frames and replace with worker foundation sheets. Reason: Excessive drone brood in spring indicates the colony is preparing to swarm (reproductive swarming) or has a failing queen. Drones consume resources without foraging; their overproduction signals imminent swarming. Removing drone comb redirects nurse bees to rear workers, delays swarming, and maintains foraging force for the upcoming litchi/mustard flow. A wrong answer like \"add more supers\" ignores the swarm trigger — a common competitive exam trap where students confuse space management with reproductive impulse control.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the economic viability of stationary *Apis cerana indica* beekeeping in the Western Ghats versus migratory *Apis mellifera* beekeeping following mustard → eucalyptus → litchi flows in North India. Analyze three factors: initial investment, disease risk, and honey quality diversity.",
+     "a": "| Factor | Stationary *A. cerana* (W. Ghats) | Migratory *A. mellifera* (N. India) |\n|--------|-----------------------------------|-------------------------------------|\n| Initial investment | Low (local hives, no transport) | High (ISI hives, truck, labour) |\n| Disease risk | Lower (*Varroa* tolerant, *Nosema* rare) | High (*Varroa destructor* severe, requires acaricides) |\n| Honey quality | Multi-floral, high pollen diversity, premium price | Monofloral crops possible (mustard, litchi), but pesticide exposure risk |\n\n*A. cerana* suits small farmers with forest access; *A. mellifera* migration yields higher volume but demands technical skill and capital. A wrong answer treating both as equally profitable ignores the hidden cost of *Varroa* management in *mellifera* — a JEE/NEET application question testing systems thinking.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Feeding sugar syrup (1:1 w/v) to *Apis mellifera* colonies during dearth period increases honey yield in the next flow.\" Justify with metabolic and behavioural reasoning.",
+     "a": "**False.** Sugar syrup feeding during dearth maintains colony survival (prevents starvation) and stimulates brood rearing, but the resulting honey from syrup is **not** true honey — it lacks floral enzymes, pollen, and phytochemicals, and cannot be legally sold as honey (FSSAI standard: honey must be nectar-derived). Moreover, syrup-fed colonies may develop dysentery (high ash content) and reduced winter hardiness. True yield increase comes from **protein supplement (pollen substitute/patty)** feeding in late winter to boost early brood, ensuring peak forager population at flow onset. A wrong \"True\" answer confuses colony maintenance with honey production — a board exam trap where students miss the legal/quality definition of honey.",
+     "self_check": true
+    },
+    {
+     "q": "Design a low-cost *Varroa destructor* monitoring protocol for a 50-hive *Apis mellifera* apiary in Haryana using only materials available in a village hardware store. Specify sampling method, threshold for treatment, and one non-chemical control compatible with honey harvest.",
+     "a": "**Protocol:** (1) **Sticky board test** — place vaseline-coated white cardboard (30×40 cm) under screened bottom board for 72 h. (2) **Alcohol wash** — collect 300 bees (½ cup) from brood frame into jar with 70% isopropyl alcohol (medical store), shake 1 min, count mites filtered through mesh. (3) **Threshold:** >3 mites/100 bees (alcohol wash) or >10 mites/day (sticky board) → treat. (4) **Non-chemical control:** Drone brood trapping — insert one drone foundation frame per hive; once capped (21 days), remove and freeze 48 h to kill mites inside; repeat 2× per season. Compatible with honey harvest as no residues. A poor answer suggesting only \"visual inspection\" misses that *Varroa* hides in capped brood — a practical skill tested in CUET agriculture practicals.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

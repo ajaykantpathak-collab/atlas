@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_engl_ch3_9",
+ "concepts": [
+  {
+   "id": "enh:c8_engl_ch3_9",
+   "title": "c8_engl_ch3_9",
+   "questions": [
+    {
+     "q": "What is a \"verbal clue\" in a detective story?\n1. A physical fingerprint left at the scene of the crime.\n2. A slip-up or contradiction in what a suspect or witness says.\n3. A secret code written in invisible ink on paper.\n4. A warning spoken by the detective before making an arrest.",
+     "a": "Option 2 is correct. A verbal clue is a statement containing a slip-up, logical impossibility, or contradiction that reveals a liar or solves a mystery.\n*If a student chose Option 1 or 3*, they are confusing verbal clues with physical evidence or written ciphers, indicating a need to distinguish spoken/textual clues from physical props.",
+     "self_check": true
+    },
+    {
+     "q": "Read this summary statement: \"Encyclopedia Brown solved the case because he is the smartest boy in Idaville and knows everything.\" Why is this an incomplete comprehension answer for Class 8?\n1. It is too long and contains unnecessary grammatical details.\n2. It states a general trait instead of explaining the specific logical evidence and deduction used from the text.\n3. It names the character incorrectly since his real name is Leroy.\n4. It fails to mention the police chief, Chief Brown.",
+     "a": "Option 2 is correct. An effective literary comprehension response must analyze *how* the solution was derived using specific textual evidence, rather than relying on generic character traits.\n*If a student chose Option 3 or 4*, they are focusing on minor factual trivia rather than recognizing the lack of analytical depth and evidence in the answer.",
+     "self_check": true
+    },
+    {
+     "q": "A suspect claims: \"I was standing outside in the heavy rain at 3:00 PM today writing a letter in ink on dry notebook paper.\" Which option correctly identifies the logical impossibility in this claim?\n1. Notebook paper is only used in school, not outside.\n2. Ink cannot be used at 3:00 PM because of sunlight.\n3. Rain would instantly wet the paper and smudge fresh ink, making it impossible to keep the paper dry outside.\n4. Letters must always be written indoors using a typewriter.",
+     "a": "Option 3 is correct. The natural physical conditions of standing in heavy rain directly contradict the claim that the paper remained dry and written on clearly in fresh ink.\n*If a student chose Option 1 or 4*, they are making rigid assumptions rather than using physical context to test the suspect's claim.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following suspect statement: \"I spent three hours searching every page of my standard English pocket dictionary, but I could not find a single word that starts with the letter 'E'.\" What is the fundamental contradiction that reveals the suspect is lying?\n1. Pocket dictionaries do not have words arranged alphabetically.\n2. English dictionaries contain thousands of words starting with 'E', including basic words like 'every' or 'english', which the suspect used in their own sentence.\n3. Standard dictionaries only list words that start with vowels, so 'E' should be the only letter included.\n4. The letter 'E' was removed from the English language in modern dictionaries.",
+     "a": "Option 2 is correct. It is factually and logically impossible for an English dictionary to lack words beginning with 'E', a common vowel that forms numerous everyday words (some of which the suspect spoke).\n*If a student chose Option 1 or 3*, they lack basic context about reference books, confusing alphabetical organization with random arrangements.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following two student answers explaining how a detective caught a suspect:\nStudent A: \"The detective caught the suspect because he noticed that the suspect claimed to read a closed book in the dark, which is impossible without light or opening the book.\"\nStudent B: \"The suspect was caught because the detective is very clever and always notices when bad guys lie.\"\n\nWhich evaluation is accurate?\n1. Student B is better because it compliments the detective's personality.\n2. Student A is better because it clearly states the specific contradiction (reading a closed book in the dark) that serves as textual evidence.\n3. Both answers are equally good because they both state that the suspect was caught.\n4. Neither answer is good because mysteries cannot be solved using logic.",
+     "a": "Option 2 is correct. Student A provides explicit evidence and logical reasoning, whereas Student B relies on a vague generalization without textual proof.\n*If a student chose Option 1 or 3*, they do not yet realize that academic literature answers require explicit textual evidence rather than superficial character praise.",
+     "self_check": true
+    },
+    {
+     "q": "Write a single PEEL-structured sentence (or short response) explaining how Leroy Brown knows a suspect is lying when the suspect claims, \"I saw the thief clearly through the thick, solid wooden door without opening it.\"",
+     "a": "Expected response: \"Leroy knows the suspect is lying (Point) because solid wooden doors are opaque (Explanation), meaning it is physically impossible to see through them without opening them (Evidence), proving the witness fabricated their account (Link).\"\n*A weak response* will simply say \"Because you can't see through wood,\" missing the structured framework (PEEL) needed for full analytical depth.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

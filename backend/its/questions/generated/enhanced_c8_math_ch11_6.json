@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch11_6",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch11_6",
+   "title": "c8_math_ch11_6",
+   "questions": [
+    {
+     "q": "Write the formula for the area of a Sierpinski carpet at the nth step if the original square has area A₀ square units.",
+     "a": "The formula is Aₙ = A₀ × (8/9)ⁿ. A wrong answer like Aₙ = A₀ − n×(A₀/9) reveals the student thinks the same absolute area is removed each step rather than the same fraction, confusing linear subtraction with exponential decay.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the area of the Sierpinski gasket approaches zero as n increases, but the perimeter grows without bound.",
+     "a": "The area is multiplied by 3/4 each step (Aₙ = A₀×(3/4)ⁿ), which tends to 0 as n→∞ because 3/4 < 1. The perimeter is multiplied by 3/2 each step (each side becomes 3 segments of half the length), and since 3/2 > 1, it grows without bound. A wrong answer that claims both area and perimeter go to zero or both go to infinity shows the student hasn't distinguished between the scale factors for area (1/4 removed → 3/4 kept) versus perimeter (each segment replaced by 3 segments of half length → 3/2 factor).",
+     "self_check": true
+    },
+    {
+     "q": "A Sierpinski carpet starts with a square of side 27 cm. Find the exact area remaining after 4 steps. Show all steps.",
+     "a": "Step 1: Initial area A₀ = 27² = 729 cm².\nStep 2: Scale factor per step = 8/9 (keep 8 of 9 sub-squares).\nStep 3: Formula: A₄ = 729 × (8/9)⁴.\nStep 4: (8/9)⁴ = 4096/6561. A₄ = 729 × 4096/6561 = (729/6561) × 4096 = (1/9) × 4096 = 4096/9 cm² ≈ 455.11 cm².\nA wrong answer of 729 × (1/9)⁴ = 729/6561 = 1/9 cm² reveals the student used the removed fraction (1/9) instead of the kept fraction (8/9).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the area formulas for Sierpinski carpet and Sierpinski gasket at step n. What structural difference in their construction causes the different bases (8/9 vs 3/4)?",
+     "a": "Sierpinski carpet divides a square into 9 equal squares and removes 1 → keeps 8/9. Sierpinski gasket divides a triangle into 4 equal triangles and removes 1 → keeps 3/4. The base of the exponent equals (number of pieces kept)/(total pieces) at each iteration. A wrong answer that gives the same base for both or swaps them shows the student hasn't connected the geometric construction (9 vs 4 subdivisions) to the algebraic formula.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims the Koch snowflake area formula is Aₙ = A₀ × (4/3)ⁿ because each side becomes 4 segments. Is this correct? Justify your answer.",
+     "a": "No, this is incorrect. The perimeter grows by factor 4/3 each step, but area is different. At each step, new smaller equilateral triangles are added to each side segment. The added area forms a geometric series: Aₙ = A₀ + A₀×(1/3)×(4/9) + A₀×(1/3)×(4/9)² + ... = A₀[1 + (1/3)∑(4/9)ᵏ]. The area converges to (8/5)A₀, not infinity. A student who agrees with the claim confuses perimeter growth factor with area growth factor, not recognizing that added triangles get smaller (scale factor 1/3 for side length → 1/9 for area) and their number grows by 4, giving net area factor 4/9 < 1 for the added portion.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new fractal pattern: Start with an equilateral triangle of area 81 cm². At each step, divide each remaining triangle into 9 congruent smaller triangles (by trisecting sides) and remove the central one. Write the area formula for step n and find the area after 3 steps.",
+     "a": "Each triangle → 9 sub-triangles, remove 1 → keep 8. Scale factor = 8/9. Formula: Aₙ = 81 × (8/9)ⁿ. For n=3: A₃ = 81 × (512/729) = (81/729) × 512 = (1/9) × 512 = 512/9 ≈ 56.89 cm². A poor answer that uses 3/4 or 1/3 as the factor shows the student cannot generalize the pattern from the known fractals to a new variation, indicating rote memorization rather than understanding the principle: (pieces kept)/(total pieces).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

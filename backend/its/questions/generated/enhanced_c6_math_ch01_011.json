@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch01_011",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch01_011",
+   "title": "c6_math_ch01_011",
+   "questions": [
+    {
+     "q": "What are the four components of a division problem: a / b = q remainder r?",
+     "a": "The components are dividend (a), divisor (b), quotient (q), and remainder (r). A wrong answer here suggests the student lacks the vocabulary to follow step-by-step instructions.",
+     "self_check": true
+    },
+    {
+     "q": "If you divide 20 by 5, why is the answer 4 and not 5?",
+     "a": "The answer is 4 because 5 added to itself 4 times equals 20. A student saying 5 often confuses division with simple subtraction or counting, failing to see the relationship between multiplication and division.",
+     "self_check": true
+    },
+    {
+     "q": "Divide 845 by 12 using long division. What is the quotient and the remainder?",
+     "a": "845 / 12 = 70 with a remainder of 5. Students who get this wrong often forget to place a zero in the quotient when the divisor is larger than the \"brought down\" number, a common procedural error.",
+     "self_check": true
+    },
+    {
+     "q": "If you have 100 sweets to share among 12 people, and each gets 8, why is there a remainder of 4?",
+     "a": "The remainder 4 represents the 4 sweets left over that cannot be split equally among the 12 people without cutting them into pieces. A wrong answer suggests the student thinks division must always result in a whole number.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible for the remainder to be larger than the divisor? Why or why not?",
+     "a": "No, the remainder must always be smaller than the divisor because if it were equal or larger, you could have formed at least one more group. A student who says \"yes\" does not understand that division is about creating the maximum number of full groups.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario where a remainder of 3 when dividing by 5 would make sense.",
+     "a": "An example would be: \"I have 18 apples and want to pack them into bags of 5; I will have 3 apples left over that don't fit into a bag.\" A poor answer involves things that cannot be left over (like half a person), showing a lack of contextual logic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

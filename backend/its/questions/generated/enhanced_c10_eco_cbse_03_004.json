@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_03_004",
+   "title": "c10_eco_cbse_03_004",
+   "questions": [
+    {
+     "q": "Define \"debt trap\" in the context of rural credit. Give one characteristic that distinguishes it from a productive loan.",
+     "a": "A debt trap is a situation where a borrower cannot repay the loan and interest from their regular income and is forced to take new loans to repay old ones, leading to a cycle of increasing indebtedness. A distinguishing characteristic: in a debt trap, the loan is used for non-productive purposes (e.g., consumption, ceremonies) or carries an exploitative interest rate, so no new income is generated to service the debt. A wrong answer (e.g., \"debt trap means high interest rate only\") reveals the student misses the core mechanism — the *inability to repay due to lack of income generation* — and confuses high cost with the trap itself.",
+     "self_check": true
+    },
+    {
+     "q": "Ramesh (from the walkthrough) took a loan for a water pump. Suresh took a loan for a wedding. Explain why Ramesh's loan is \"good credit\" and Suresh's is \"bad credit\" even if both paid the same interest rate. Use the concept of income generation.",
+     "a": "Ramesh's loan is good credit because the water pump is a productive asset: it increases his agricultural output, generating *additional income* (e.g., ₹15,000/season) that can cover the interest and principal. Suresh's wedding loan creates no new income stream; he must repay from his existing, unchanged income, which may be insufficient. Even at the same interest rate, the *purpose* determines whether the loan enhances or strains repayment capacity. A wrong answer (e.g., \"both are good because they help the family\") shows the student does not grasp the economic distinction between *investment* (asset creation) and *consumption* (no future return).",
+     "self_check": true
+    },
+    {
+     "q": "A small farmer borrows ₹40,000 from a moneylender at 5% *per month* (simple interest) to buy seeds and fertilizer. The crop fails due to drought. He earns ₹0 from that season. Calculate the interest he owes after 6 months. If he borrows another ₹12,000 to pay this interest, what is his total debt after 6 months? Show steps.",
+     "a": "Step 1: Monthly interest rate = 5% = 0.05. Principal = ₹40,000.  \nStep 2: Simple interest for 6 months = Principal × Rate × Time = 40,000 × 0.05 × 6 = ₹12,000.  \nStep 3: He cannot pay, so he borrows ₹12,000 more (new loan).  \nStep 4: Total debt after 6 months = Original principal + New loan = ₹40,000 + ₹12,000 = ₹52,000.  \n(If the new loan also carries interest, the trap deepens further.)  \nA wrong answer (e.g., calculating annual interest or forgetting the new loan) reveals the student cannot apply simple interest in a debt-trap context or misses the compounding effect of borrowing to pay interest.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two credit situations:  \n(A) A shopkeeper borrows ₹1,00,000 from a bank at 12% p.a. to expand her shop. She earns an additional ₹2,000 per month.  \n(B) A landless laborer borrows ₹20,000 from a moneylender at 36% p.a. for medical emergency. He has no extra income.  \nAnalyze which is more likely to lead to a debt trap and why. Consider interest burden as a percentage of additional income.",
+     "a": "Situation (B) is far more likely to lead to a debt trap.  \nFor (A): Annual interest = ₹12,000. Additional annual income = ₹24,000. Interest burden = 50% of additional income — manageable.  \nFor (B): Annual interest = ₹7,200. Additional income = ₹0. Interest burden = infinite (cannot be paid from new income). The laborer must cut consumption or borrow again.  \nA wrong answer (e.g., \"both are debt traps because they have debt\") shows the student cannot compare repayment capacity using *incremental income* and treats all borrowing as equally risky.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"All informal sector loans are bad credit and lead to debt traps, while all bank loans are good credit.\" Use examples to justify your evaluation.",
+     "a": "The statement is false.  \n- Informal loan can be good: A farmer borrows from a relative at 0% interest for seeds; crop succeeds, he repays easily.  \n- Bank loan can be bad: A person takes a personal loan at 14% for a vacation; no income generated, struggles to repay.  \nWhat matters is *purpose, interest rate, and repayment capacity*, not just the source. A wrong answer (e.g., agreeing with the statement) reveals the student oversimplifies by source rather than analyzing the economic conditions of the loan.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a short scenario (3-4 sentences) showing how a *productive* loan can turn into a debt trap due to an external shock. Include the loan amount, interest rate, purpose, and the shock.",
+     "a": "Example: \"Meena borrows ₹60,000 from a bank at 10% p.a. to buy a sewing machine for her tailoring business. She earns ₹5,000/month extra. After 4 months, the machine breaks down irreparably (shock). She has no savings for repair, loses her extra income, but still owes ₹60,000 + interest. She borrows from a moneylender at 60% to repair the machine, entering a debt trap.\"  \nA poor answer (e.g., \"she didn't pay on time\") misses the *external shock* and the *loss of income-generating asset* as the trigger, showing the student cannot construct a multi-step causal chain.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

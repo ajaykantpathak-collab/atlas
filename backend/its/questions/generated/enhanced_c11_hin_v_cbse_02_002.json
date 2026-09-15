@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_v_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_v_cbse_02_002",
+   "title": "c11_hin_v_cbse_02_002",
+   "questions": [
+    {
+     "q": "Identify the three distinct structural phases in the opening section (pages 9-11) where the author moves from immediate sensory observation to systemic analysis. Name each phase in one phrase.",
+     "a": "Correct answer: (1) Visceral Scene-Setting (the canal-digging tableau), (2) Geographical-Typological Classification (types of water sources: surface, groundwater, rain-fed), (3) Historical-Continuity Disruption (traditional systems vs. colonial/modern interventions). A wrong answer listing \"introduction, body, conclusion\" reveals the student is applying fiction narrative labels (exposition-rising action-climax) to an expository text, missing that non-fiction structure is argument-driven, not event-driven.",
+     "self_check": true
+    },
+    {
+     "q": "The author inserts a detailed description of the 'johad' (traditional check-dam) construction process on pages 14-15. Explain why this technical description is placed AFTER the discussion of modern canal failures (pages 12-13) rather than at the beginning. What structural principle governs this sequencing?",
+     "a": "Correct answer: The sequencing follows a \"failure-before-alternative\" rhetorical strategy—first establishing the inadequacy of modern techno-bureaucratic solutions (evaporation losses, siltation, displacement) to create a conceptual vacuum, then presenting indigenous knowledge as the organic answer. A wrong answer saying \"chronological order\" or \"traditional comes first historically\" reveals the student confuses historical chronology with textual architecture; the author deliberately inverts chronology for persuasive effect.",
+     "self_check": true
+    },
+    {
+     "q": "On page 16, the author describes how laborers' payment shifted from \"annual grain share\" to \"cash wages\" to \"contract-based piece rates.\" Map this progression onto the text's larger argument about the changing relationship between state, resource, and citizen. Which structural device (contrast, parallelism, escalation, or framing) does this mini-sequence exemplify?",
+     "a": "Correct answer: Escalation (specifically, escalating alienation). The three payment forms represent tightening state control: grain share → reciprocal relationship; cash wage → monetized transaction; piece-rate contract → atomized, expendable labor. This micro-escalation mirrors the macro-escalation from community-managed johads → state canals → corporate contracts. A wrong answer identifying \"contrast\" misses the directional worsening; \"parallelism\" ignores the causal chain; \"framing\" misidentifies the device as a wrapper rather than a progressive intensification.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the structural function of the Rajasthan canal description (pages 10-11) with the Tamil Nadu temple-tank description (page 19). Both are case studies, but they serve opposite rhetorical purposes. Explain the difference using the concepts of \"negative exemplar\" and \"positive exemplar\" within the text's problem-solution architecture.",
+     "a": "Correct answer: The Rajasthan canal is a negative exemplar—it demonstrates centralized, top-down engineering failure (evaporation, seepage, inequitable distribution, ecological disruption). The Tamil Nadu temple-tank is a positive exemplar—it demonstrates decentralized, community-governed success (groundwater recharge, equitable access, cultural embeddedness, resilience). Together they form a dialectical pair: the text's argument structure is thesis (modern failure) → antithesis (traditional success) → synthesis (policy implication: devolve control). A wrong answer treating both as \"examples of water systems\" misses their oppositional rhetorical roles.",
+     "self_check": true
+    },
+    {
+     "q": "The text ends (page 20) not with a policy prescription but with the image of \"cw¡n&cw¡n jsr\" (trickling streams) merging into \"ehBk ikuh\" (sweet water) in the johad. Evaluate whether this ending is structurally inevitable or a missed opportunity for explicit advocacy. Defend your judgment using the concept of \"narrative closure\" in argumentative non-fiction.",
+     "a": "Correct answer: Structurally inevitable. The text's architecture is inductive—it builds from ground-level evidence upward, refusing the deductive \"policy-first\" frame of state reports. The final image enacts the very principle argued throughout: small, decentralized flows self-organizing into abundance without central command. An explicit prescription would violate the text's own logic (that solutions emerge from practice, not decree). A wrong answer calling it \"weak ending\" or \"missing conclusion\" reveals expectation of a conventional policy-paper structure (problem → analysis → recommendation), missing that this is a literary argument where form embodies content.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 150-word \"structural summary\" of the text for a Class 11 student who hasn't read it, using ONLY structural terminology (no content summary). Include: opening hook, sequencing principle, two major structural pivots, dialectical pair, and closure strategy.",
+     "a": "Expected answer: \"The text opens with a visceral sensory hook (canal-digging in heat). Sequencing follows problem-escalation: immediate crisis → typological taxonomy → historical disruption → modern failure (negative exemplar: Rajasthan canal) → traditional success (positive exemplar: Tamil Nadu temple-tank) → synthesis in indigenous practice (johad). First pivot: shift from hydrology to political economy (page 12, labor payment systems). Second pivot: shift from rural to urban water stress (page 18, borewell culture). Dialectical pair: centralized state engineering vs. decentralized community governance. Closure: inductive enactment—final image of trickling streams self-organizing mirrors the argued principle, refusing prescriptive closure.\" A poor answer listing topics (\"talks about canals, then johads, then borewells\") reveals inability to distinguish structure from content.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+  "class": 12,
+  "subject": "applied_maths",
+  "chapter": 3,
+  "chapter_title": "Differential Equations and Modeling",
+  "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am12_003c_differential_equations.txt",
+  "concepts": [
+    {
+      "id": "am12_003c.1",
+      "title": "Order and Degree of Differential Equations",
+      "definition": "The order of a differential equation is the highest derivative present, and the degree is the power of that highest derivative after the equation is freed from radicals and fractions in derivatives. In d2y/dx2 + p dy/dx + qy = 0 the order is 2 and the degree is 1.",
+      "formula": "-",
+      "key_idea": "Order counts differentiations, degree counts powers: (d2y/dx2)^3 + dy/dx = 0 has order 2 and degree 3. Degree is defined only when the highest derivative appears with a whole-number power.",
+      "question_patterns": [
+        "Determine the order and degree of the differential equation ({a} d2y/dx2)^2 + dy/dx = 0.",
+        "What is the order of the differential equation d3y/dx3 + {a} d2y/dx2 = 0?",
+        "Find the degree of (dy/dx)^{a} + y = 0.",
+        "Why can degree be undefined for some differential equations?",
+        "State the order and degree of y'' + ({a} y')^3 = 0."
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": []
+    },
+    {
+      "id": "am12_003c.2",
+      "title": "General and Particular Solutions",
+      "definition": "A general solution of a differential equation contains as many arbitrary constants as the order of the equation; fixing those constants with initial conditions gives a particular solution. Solving dy/dx = {a}x gives y = {a}x^2/2 + C generally, and y = {a}x^2/2 + {b} particularly when y(0) = {b}.",
+      "formula": "value = a * x ** 2 / 2 + c0",
+      "key_idea": "Number of arbitrary constants in the general solution equals the order of the equation. Each initial condition removes one constant, ending at the particular solution that models the actual situation.",
+      "question_patterns": [
+        "Solve dy/dx = {a}x and find the particular solution with y(0) = {b}.",
+        "How many arbitrary constants does the general solution of a second order differential equation contain?",
+        "Distinguish between general solution and particular solution.",
+        "Find the solution of dy/dx = {a} that passes through the point (0, {b}).",
+        "Evaluate the particular value of y = a x^2 / 2 + c0 at x = {x} when a = {a} and c0 = {b}."
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"compute": "value = a * x ** 2 / 2 + c0"}
+      ]
+    },
+    {
+      "id": "am12_003c.3",
+      "title": "Forming Differential Equations by Eliminating Constants",
+      "definition": "To form a differential equation from a family of curves, differentiate the general equation as many times as there are arbitrary constants, then eliminate the constants between the equations. A family y = A e^x + B e^(-x) needs two differentiations to remove A and B, yielding y'' = y.",
+      "formula": "-",
+      "key_idea": "The number of differentiations needed equals the number of arbitrary constants: one constant gives a first order equation, two constants give a second order equation.",
+      "question_patterns": [
+        "Form the differential equation representing the family y = A e^(x) + B e^(-x).",
+        "Form the differential equation of the family of curves y = {a}x^2 + {b}x + C.",
+        "How many times must you differentiate y = A cos x + B sin x to eliminate the constants?",
+        "Eliminate the arbitrary constant a from y^2 = {a}ax.",
+        "Represent the family of all circles centred at the origin by a differential equation."
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": []
+    },
+    {
+      "id": "am12_003c.4",
+      "title": "Variable Separable Equations",
+      "definition": "A first order equation is variable separable when its terms can be rearranged so that all y terms sit with dy and all x terms sit with dx. Integrating both sides then gives the general solution: dy/y = dx integrates to ln y = x + C, that is y = C e^x.",
+      "formula": "-",
+      "key_idea": "Separation converts a differential equation into two ordinary integrals. Growth and decay models dy/dt = ky all separate this way, and their solutions are exponentials.",
+      "question_patterns": [
+        "Solve the differential equation dy/dx = {a}y.",
+        "Solve dy/dx = y/x by separating variables.",
+        "Find the general solution of dy/dx + {a}y = 0 and describe its graph.",
+        "A population grows at a rate proportional to its size; write and solve the model.",
+        "Separate the variables in dy/dx = {a}x y^2 and integrate."
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": []
+    },
+    {
+      "id": "am12_003c.5",
+      "title": "Mathematical Modeling with Differential Equations",
+      "definition": "Modeling translates a physical or economic situation into a differential equation, solves it, and interprets the solution back in context. Radioactive decay, cooling, population growth and continuous compounding all produce first order separable models whose solutions are exponentials.",
+      "formula": "-",
+      "key_idea": "The modeling cycle is: name the variables, write the rate statement as a differential equation, solve with initial conditions, then validate against the real behaviour. The exponential solution N = N0 e^(kt) covers growth when k is positive and decay when k is negative.",
+      "question_patterns": [
+        "A substance decays at a rate proportional to its amount; model the decay and give the solution.",
+        "Write the differential equation for Newton's law of cooling and explain its terms.",
+        "Money grows at {r} percent compounded continuously; model the balance with a differential equation.",
+        "Why does the same model dy/dt = ky describe both growth and decay?",
+        "For N = N0 e^(kt) with k = -{r}, what does the sign of k tell about the process?"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": []
+    }
+  ],
+  "worked_examples": [
+    {
+      "q": "Solve dy/dx = 2x with the initial condition y(0) = 5, and state which solution is general and which particular.",
+      "a": "Integrating gives y = x^2 + C, the general solution with one arbitrary constant matching the order one equation. Applying y(0) = 5 fixes C = 5, giving the particular solution y = x^2 + 5."
+    },
+    {
+      "q": "Form the differential equation of the family y = A e^(2x) by eliminating the constant.",
+      "a": "Differentiate once: dy/dx = 2A e^(2x). Since A e^(2x) = y, the equation becomes dy/dx = 2y, a first order equation, exactly matching the one eliminated constant."
+    }
+  ],
+  "exercises": [
+    {
+      "group": "drill",
+      "items": [
+        "State the order and degree of (y''')^2 + y' = 0.",
+        "Solve dy/dx = 6x^2 with y(1) = 4.",
+        "Form the differential equation of y = A x^2 + B x.",
+        "Solve dy/dx = 3y and sketch two members of the solution family.",
+        "A tank leaks at a rate proportional to the volume; write the model and its solution.",
+        "Solve dy/dx = xy by separation."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 115,
+ "chapter_title": "Body Fluids and Circulation",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebo115.txt",
+ "concepts": [
+  {
+   "id": "kebo.115.1.1",
+   "title": "Blood: Plasma and Formed Elements",
+   "section": "15.1.1 Blood",
+   "definition": "Blood is a connective tissue of plasma with water, proteins and minerals, and formed elements of erythrocytes carrying haemoglobin, leucocytes of granulocytes and agranulocytes for immunity, and cell fragments called blood platelets for coagulation.",
+   "formula": "",
+   "key_idea": "Plasma proteins like fibrinogen, globulins and albumins serve clotting, immunity and osmotic balance, while erythrocytes lack a nucleus in mammals and carry about 12-16 g of haemoglobin per 100 ml in a healthy adult.",
+   "textbook_ref": "kebo115.txt section 15.1.1",
+   "question_patterns": [
+    "describe the composition of blood plasma",
+    "name the formed elements of blood and their functions",
+    "differentiate granulocytes and agranulocytes",
+    "what is the normal haemoglobin content of human blood",
+    "why are platelets important in the body",
+    "which leucocytes are phagocytic in function"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "separate the fractions",
+     "explain": "Distinguish plasma from the formed elements."
+    },
+    {
+     "step": 2,
+     "action": "identify each cell type",
+     "explain": "Note erythrocytes, the five kinds of leucocytes and platelets."
+    },
+    {
+     "step": 3,
+     "action": "assign functions",
+     "explain": "Match oxygen carriage, defence and clotting to the elements."
+    }
+   ]
+  },
+  {
+   "id": "kebo.115.2.1",
+   "title": "Blood Groups, Rh Factor and Coagulation",
+   "section": "15.1.2 Blood Groups, 15.1.3 Coagulation of Blood",
+   "definition": "ABO blood grouping depends on antigens on RBCs and antibodies in plasma, the Rh factor distinguishes Rh positive from Rh negative persons and matters in erythroblastosis fetalis, and coagulation converts fibrinogen to fibrin through thrombin with platelets and calcium ions at the injury site.",
+   "formula": "",
+   "key_idea": "Universal donor blood of group O and universal recipient blood of group AB follow from the antigen-antibody matching, and heparin acts as an anticoagulant in the body.",
+   "textbook_ref": "kebo115.txt sections 15.1.2, 15.1.3",
+   "question_patterns": [
+    "explain the abo blood grouping system with antigens and antibodies",
+    "why is rh factor important in pregnancy",
+    "describe the process of blood coagulation",
+    "who can donate blood to an ab recipient",
+    "what is erythroblastosis fetalis and its cause",
+    "name the enzyme like protein that converts fibrinogen to fibrin"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the antigens",
+     "explain": "Note antigens on the RBC surface and antibodies in the plasma."
+    },
+    {
+     "step": 2,
+     "action": "test compatibility",
+     "explain": "Confirm donor and recipient groups for a safe transfusion."
+    },
+    {
+     "step": 3,
+     "action": "trace the clotting cascade",
+     "explain": "Follow prothrombin, thrombin and fibrin formation with platelets and calcium."
+    }
+   ]
+  },
+  {
+   "id": "kebo.115.3.1",
+   "title": "Human Heart, Cardiac Cycle and Cardiac Output",
+   "section": "15.3 Human Circulatory System, 15.4 Cardiac Cycle",
+   "definition": "The human heart is a four chambered myogenic pump with nodal tissue of SA node and AV node; the cardiac cycle of joint diastole, atrial systole and ventricular systole lasts about 0.8 seconds, and cardiac output equals stroke volume of about 70 ml multiplied by heart rate of about 72 beats per minute, giving nearly 5 litres per minute.",
+   "formula": "cardiac_output = stroke_volume * heart_rate",
+   "key_idea": "The sounds lub and dub mark closure of the tricuspid and bicuspid valves and the semilunar valves respectively, and the heart beats about 100000 times a day.",
+   "textbook_ref": "kebo115.txt sections 15.3, 15.4",
+   "question_patterns": [
+    "define cardiac output and calculate it from stroke volume and heart rate",
+    "describe the phases of the cardiac cycle",
+    "what is the role of the sa node in the heart",
+    "why is the human heart called myogenic",
+    "what causes the lub and dub sounds of the heart",
+    "state the normal stroke volume and heart rate of a healthy adult"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply stroke volume by heart rate",
+     "explain": "Multiply the stroke volume by the number of heart beats per minute to get the cardiac output",
+     "compute": "cardiac_output = stroke_volume * heart_rate"
+    }
+   ]
+  },
+  {
+   "id": "kebo.115.4.1",
+   "title": "ECG, Double Circulation and Disorders",
+   "section": "15.5 Electrocardiograph, 15.2 Lymph, 15.6 Double Circulation, 15.7 Disorders",
+   "definition": "An electrocardiogram records the P wave of atrial depolarisation, the QRS complex of ventricular depolarisation and the T wave of ventricular repolarisation; humans show double circulation with pulmonary and systemic circuits separately, and circulatory disorders include hypertension, coronary artery disease, angina and heart failure.",
+   "formula": "",
+   "key_idea": "Blood pressure of a healthy person is measured as systolic over diastolic pressure of 120 over 80 mm Hg, and persistent 140 over 90 or higher counts as hypertension.",
+   "textbook_ref": "kebo115.txt sections 15.5-15.7",
+   "question_patterns": [
+    "describe the waves of an ecg and what they represent",
+    "what is double circulation and why is it necessary",
+    "define hypertension and its normal limits",
+    "compare coronary artery disease and angina",
+    "how does lymph differ from blood",
+    "what causes heart failure and how does it differ from cardiac arrest"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the ecg waves",
+     "explain": "Match P, QRS and T deflections to atrial and ventricular events."
+    },
+    {
+     "step": 2,
+     "action": "trace the two circuits",
+     "explain": "Separate pulmonary and systemic circulation paths."
+    },
+    {
+     "step": 3,
+     "action": "identify the disorder",
+     "explain": "Match symptoms and readings to the named circulatory disorders."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebo115.txt section 15.4",
+   "concept": "kebo.115.3.1",
+   "question_type": "compute_cardiac_output",
+   "question_pattern": "A healthy adult has a stroke volume of {stroke_volume} ml and a heart rate of {heart_rate} beats per minute. Calculate the cardiac output.",
+   "extracted_variables": {
+    "stroke_volume": 70,
+    "heart_rate": 72
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply stroke volume by heart rate",
+     "explain": "Multiply the stroke volume by the number of heart beats per minute to get the cardiac output",
+     "compute": "cardiac_output = stroke_volume * heart_rate"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kebo115.txt section 15.4",
+   "concept": "kebo.115.3.1",
+   "question_type": "compute_cardiac_output",
+   "question_pattern": "During exercise an athlete's heart pumps {stroke_volume} ml per beat at {heart_rate} beats per minute. Work out the cardiac output in ml per minute.",
+   "extracted_variables": {
+    "stroke_volume": 110,
+    "heart_rate": 90
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply stroke volume by heart rate",
+     "explain": "Multiply the stroke volume by the number of heart beats per minute to get the cardiac output",
+     "compute": "cardiac_output = stroke_volume * heart_rate"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kebo115.txt exercises section",
+   "questions": [
+    "Name the components of the formed elements in the blood.",
+    "What is the importance of plasma proteins?",
+    "Explain the process of blood coagulation.",
+    "Why do we call our heart myogenic?",
+    "Draw a standard ECG and explain the different segments.",
+    "Define the cardiac cycle and cardiac output with their normal values.",
+    "Sino-atrial node is called the pacemaker of our heart - why?"
+   ]
+  }
+ ]
+}

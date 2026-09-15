@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_07_008",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_07_008",
+   "title": "c11_acc_cbse_07_008",
+   "questions": [
+    {
+     "q": "State the journal entry for recording annual depreciation under the Provision for Depreciation method, and explain why the Asset Account is not credited.",
+     "a": "Correct entry: Depreciation A/c Dr. → To Provision for Depreciation A/c. The Asset Account is not credited because this method aims to keep the asset at its original historical cost for disclosure purposes; crediting the Asset Account would reduce its book value, defeating the purpose of maintaining a separate accumulation account. A wrong answer (e.g., crediting Asset A/c) reveals confusion between the two recording methods — the student is applying the 'Charging to Asset Account' logic instead of the 'Provision' method.",
+     "self_check": true
+    },
+    {
+     "q": "A machine was purchased on 1st October 2022 for ₹2,00,000. The firm closes books on 31st March and charges depreciation @10% p.a. on original cost under the Provision for Depreciation method. Calculate the depreciation for the first year (2022-23) and show the journal entry on 31st March 2023.",
+     "a": "Depreciation = ₹2,00,000 × 10% × 6/12 = ₹10,000. Entry: Depreciation A/c Dr. 10,000 → To Provision for Depreciation A/c 10,000; then Profit & Loss A/c Dr. 10,000 → To Depreciation A/c 10,000. A wrong answer (e.g., full year ₹20,000 or crediting Machine A/c) reveals two misconceptions: (1) not pro-rating for part-year usage based on acquisition date, and (2) not distinguishing between the two recording methods' credit entries.",
+     "self_check": true
+    },
+    {
+     "q": "On 1st April 2023, the Machine Account shows a debit balance of ₹2,00,000 and Provision for Depreciation Account shows a credit balance of ₹10,000. The machine is sold on 30th September 2023 for ₹1,50,000. Depreciation is @10% p.a. on original cost. Pass the journal entries for depreciation up to date of sale, transfer of provision, and sale of machine (assuming no Asset Disposal Account).",
+     "a": "Steps: (1) Depreciation for 6 months = ₹2,00,000 × 10% × 6/12 = ₹10,000. Entry: Depreciation A/c Dr. 10,000 → To Provision for Depreciation A/c 10,000; Profit & Loss A/c Dr. 10,000 → To Depreciation A/c 10,000. (2) Transfer provision: Provision for Depreciation A/c Dr. 20,000 → To Machine A/c 20,000. (3) Sale: Bank A/c Dr. 1,50,000 → To Machine A/c 1,50,000. (4) Loss on sale: Profit & Loss A/c Dr. 30,000 → To Machine A/c 30,000 (since Machine A/c now has ₹2,00,000 - ₹20,000 - ₹1,50,000 = ₹30,000 debit balance). A wrong answer reveals failure to: (a) charge depreciation for the period of use in the year of sale, (b) transfer accumulated provision to Asset Account before disposal, (c) compute profit/loss correctly after transfer.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Balance Sheet presentation of a fixed asset under the two methods of recording depreciation. Why might a firm prefer the Provision for Depreciation method for external reporting?",
+     "a": "Under Charging to Asset Account: Asset appears at Net Book Value (Cost - Accumulated Depreciation) on the asset side. Under Provision for Depreciation: Asset appears at Original Cost on asset side; Provision for Depreciation appears either as a deduction from the asset on the asset side OR on the liabilities side under Current Liabilities. Firms prefer Provision method because it discloses the original cost and total depreciation to date separately, giving stakeholders more information about asset age and replacement needs. A wrong answer (e.g., saying both show net value) reveals lack of understanding of the disclosure objective of AS-1/AS-10 and the conceptual difference between valuation and allocation.",
+     "self_check": true
+    },
+    {
+     "q": "A firm purchased a machine for ₹5,00,000 on 1st April 2020. On 1st April 2022, it spent ₹50,000 on a modification that increases future benefits. Depreciation is 20% p.a. on Straight Line Method on original cost. The firm uses Provision for Depreciation method. Calculate the depreciation charge for the year ended 31st March 2023 and explain the treatment of the modification cost.",
+     "a": "Depreciation for 2022-23 = 20% of ₹5,00,000 + 20% of ₹50,000 = ₹1,00,000 + ₹10,000 = ₹1,10,000. The modification cost ₹50,000 is capitalised (added to Machine Account) because it enhances future benefits; it is depreciated at the same rate as the original asset. A wrong answer (e.g., ignoring modification depreciation or expensing the ₹50,000) reveals confusion between capital expenditure (additions/extensions) and revenue expenditure (repairs/maintenance), and failure to apply AS-6 rule that additions integral to the asset are depreciated over the asset's remaining life at the same rate.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scenario where a company has two machines purchased on different dates, uses Provision for Depreciation method with Written Down Value at 15% p.a., and sells one machine mid-year. Outline the ledger accounts (Machine, Provision for Depreciation, Machine Disposal) for the year of sale, showing all working notes.",
+     "a": "A good answer will: (1) Define two machines with costs, purchase dates; (2) Compute opening WDV and provision for each; (3) Calculate depreciation for part-year on sold machine and full year on other; (4) Show Machine Account at original costs (no change except disposal); (5) Show Provision for Depreciation with opening balance, current year depreciation, transfer to disposal; (6) Show Machine Disposal Account with original cost of sold machine, provision transferred, sale proceeds, profit/loss. A poor answer reveals inability to handle multiple assets with different purchase dates, part-year WDV depreciation, and the mechanics of the Disposal Account when provision method is used.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

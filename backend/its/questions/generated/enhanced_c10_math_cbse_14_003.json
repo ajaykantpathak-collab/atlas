@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_14_003",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_14_003",
+   "title": "c10_math_cbse_14_003",
+   "questions": [
+    {
+     "q": "State the formula for the probability of an event E using the classical definition. Define each symbol used.",
+     "a": "The formula is P(E) = n(E) / n(S), where n(E) is the number of outcomes favourable to event E and n(S) is the total number of equally likely outcomes in the sample space S. A wrong answer (e.g., writing P(E) = n(S)/n(E) or using \"total trials\" instead of \"total outcomes\") reveals confusion between favourable and total outcomes or misunderstanding that the formula applies only to equally likely outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "A bag contains 5 red balls and 3 blue balls. A student writes P(red) = 5/3. Explain why this is incorrect and state the correct probability.",
+     "a": "The student incorrectly used the number of blue balls (3) as the denominator instead of the total number of balls (8). The correct probability is P(red) = 5/8. This error reveals the misconception that the denominator is the number of unfavourable outcomes rather than the total number of equally likely outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "A die is rolled once. Find the probability of getting a prime number. Show all steps.",
+     "a": "Step 1: Sample space S = {1,2,3,4,5,6}, so n(S) = 6.\nStep 2: Prime numbers on a die are 2, 3, 5. Favourable outcomes = {2,3,5}, so n(E) = 3.\nStep 3: P(E) = n(E)/n(S) = 3/6.\nStep 4: Simplify: 3/6 = 1/2.\nAnswer: 1/2. A wrong answer like 3/6 (not simplified) or 2/6 (missing 5 as prime) reveals either failure to simplify fractions or incorrect identification of prime numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Two coins are tossed simultaneously. A student lists the sample space as {HH, HT, TT} and claims P(one head) = 1/3. Analyze the error and give the correct probability.",
+     "a": "The sample space is incomplete: it should be {HH, HT, TH, TT} (4 equally likely outcomes). The student treated HT and TH as the same outcome, violating the equally likely condition. Correct favourable outcomes for \"exactly one head\" are {HT, TH}, so n(E)=2, n(S)=4, P(E)=2/4=1/2. This error reveals the misconception that order does not matter in coin tosses, leading to non-equally-likely outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher claims: \"In a class of 40 students, 25 like cricket and 15 like football. The probability that a randomly selected student likes cricket is 25/15.\" Evaluate this statement and correct it.",
+     "a": "The statement is incorrect. The teacher used the number of students who like football (15) as the denominator instead of the total number of students (40). The correct probability is 25/40 = 5/8. This error shows confusion between \"odds in favour\" (25:15) and \"probability\" (favourable/total). Probability uses total outcomes as denominator, not the other category.",
+     "self_check": true
+    },
+    {
+     "q": "Design a random experiment with a sample space of exactly 8 equally likely outcomes. Define an event E such that P(E) = 3/8. Describe the experiment, sample space, and event.",
+     "a": "Example: Draw one card from a well-shuffled pack of 8 cards numbered 1 to 8. Sample space S = {1,2,3,4,5,6,7,8}, n(S)=8. Let E be \"drawing a multiple of 3\": favourable outcomes = {3,6}, n(E)=2 → P(E)=2/8=1/4 (not 3/8). To get 3/8, choose E = \"drawing an even number less than 7\": {2,4,6}, n(E)=3, P(E)=3/8. A poor answer would have non-equally-likely outcomes (e.g., \"rolling a die and flipping a coin\" gives 12 outcomes) or an event with incorrect count, revealing inability to construct a valid probability model.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

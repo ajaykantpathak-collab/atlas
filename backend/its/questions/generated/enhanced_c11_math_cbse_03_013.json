@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_03_013",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_03_013",
+   "title": "c11_math_cbse_03_013",
+   "questions": [
+    {
+     "q": "Write the sum-to-product formula for cos x - cos y. State the formula exactly as it appears in standard form with correct signs and factors.",
+     "a": "cos x - cos y = -2 sin((x+y)/2) sin((x-y)/2). A wrong answer with positive sign (+2 sin...) reveals the student confuses this with cos x + cos y = 2 cos((x+y)/2) cos((x-y)/2) or misremembers the negative sign pattern. Missing the factor of 2 indicates confusion with product-to-sum formulas where the factor is 1/2.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why sin x + sin y becomes a product involving sin((x+y)/2) and cos((x-y)/2) rather than sin((x+y)/2) and sin((x-y)/2). Use the derivation from sum/difference formulas to justify.",
+     "a": "Starting from sin(A+B) = sin A cos B + cos A sin B and sin(A-B) = sin A cos B - cos A sin B, adding gives sin(A+B) + sin(A-B) = 2 sin A cos B. Substituting A = (x+y)/2, B = (x-y)/2 yields sin x + sin y = 2 sin((x+y)/2) cos((x-y)/2). The cosine term appears because the cos A sin B terms cancel during addition, leaving only sin A cos B. A wrong explanation suggesting \"it's just a pattern\" shows lack of derivation understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Simplify the expression: (sin 75° + sin 15°) / (cos 75° + cos 15°) using sum-to-product formulas. Show all steps.",
+     "a": "Numerator: sin 75° + sin 15° = 2 sin((75+15)/2) cos((75-15)/2) = 2 sin 45° cos 30° = 2 × (1/√2) × (√3/2) = √3/√2\nDenominator: cos 75° + cos 15° = 2 cos((75+15)/2) cos((75-15)/2) = 2 cos 45° cos 30° = 2 × (1/√2) × (√3/2) = √3/√2\nResult: (√3/√2) / (√3/√2) = 1. A wrong answer of √3 or 1/√3 reveals incorrect formula selection (using sin difference instead of sum) or angle halving errors.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the structure of sin x + sin y and cos x + cos y formulas. Identify the pattern in how the \"average angle\" (x+y)/2 and \"half-difference\" (x-y)/2 appear in each. Why does sine sum use sin(average)cos(half-diff) while cosine sum uses cos(average)cos(half-diff)?",
+     "a": "Both formulas contain cos((x-y)/2) as the second factor because it originates from the cos B term in the derivation (adding sin(A+B)+sin(A-B) or cos(A+B)+cos(A-B) both preserve cos B). The first factor matches the \"outer function\": sine sum gets sin((x+y)/2) from sin A, cosine sum gets cos((x+y)/2) from cos A. A student claiming \"both use sine for the first factor\" confuses the pattern and hasn't derived from identities.",
+     "self_check": true
+    },
+    {
+     "q": "A student simplifies sin 5θ + sin 3θ as 2 sin 4θ cos θ. Another student writes 2 sin 4θ cos 2θ. Evaluate which is correct and identify the exact error in the incorrect version.",
+     "a": "Correct: sin 5θ + sin 3θ = 2 sin((5θ+3θ)/2) cos((5θ-3θ)/2) = 2 sin 4θ cos θ. The second student computed (5θ-3θ)/2 = θ but wrote cos 2θ, likely confusing half-difference with full difference or misapplying the formula as cos(x-y) instead of cos((x-y)/2). This reveals the common error of forgetting to halve the difference angle.",
+     "self_check": true
+    },
+    {
+     "q": "Create a trigonometric equation involving sin x + sin 3x that can be solved by converting to product form. Write the equation, solve it completely for x ∈ [0, 2π), and explain why the product form makes factorization possible.",
+     "a": "Equation: sin x + sin 3x = 0. Using sum-to-product: 2 sin 2x cos x = 0. This gives sin 2x = 0 or cos x = 0. Solutions: x = 0, π/2, π, 3π/2. The product form enables zero-product property factorization. A poor answer that solves without conversion (e.g., using sin 3x = 3 sin x - 4 sin³x) misses the efficiency and conceptual point of transformation formulae.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

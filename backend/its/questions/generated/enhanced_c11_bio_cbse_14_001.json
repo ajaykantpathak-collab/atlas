@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_14_001",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_14_001",
+   "title": "c11_bio_cbse_14_001",
+   "questions": [
+    {
+     "q": "Name the specific type of epithelium lining the trachea and primary bronchi, and state the function of its two main cell types.",
+     "a": "The trachea and primary bronchi are lined by **ciliated pseudostratified columnar epithelium with goblet cells**. The ciliated cells beat rhythmically to move mucus (trapping dust, pathogens) upward toward the pharynx (mucociliary escalator). Goblet cells secrete the mucus that traps particles. A wrong answer — e.g., \"simple squamous epithelium\" or \"stratified squamous epithelium\" — reveals the student has not grasped that the conducting portion requires active cleaning and protection, not gas exchange, and therefore needs a thick, secretory, ciliated lining.",
+     "self_check": true
+    },
+    {
+     "q": "Why are the cartilaginous rings of the trachea and bronchi C-shaped (incomplete posteriorly) rather than complete rings?",
+     "a": "The posterior gap in the cartilaginous rings allows the **oesophagus** (which lies directly behind the trachea) to expand anteriorly when a food bolus passes during swallowing. Complete rings would compress the oesophagus and obstruct swallowing. A wrong answer — e.g., \"for flexibility during breathing\" — shows the student has not integrated anatomical relationships (trachea-oesophagus adjacency) with respiratory structure, a key Class 11 expectation.",
+     "self_check": true
+    },
+    {
+     "q": "A patient inhales a small peanut that lodges at the carina (bifurcation of the trachea). Predict which lung it will most likely enter and explain the anatomical basis.",
+     "a": "The peanut will most likely enter the **right lung**. The right primary bronchus is wider, shorter, and more vertical (approx. 25° from vertical) than the left primary bronchus (approx. 45°), so inhaled foreign objects follow gravity and airflow dynamics into the right side. A wrong answer — e.g., \"left lung because the heart is on the left\" — reveals failure to apply the anatomical differences between right and left primary bronchi (length, diameter, angle) to a clinical scenario.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the histological features of the conducting portion (trachea to terminal bronchioles) and the exchange portion (respiratory bronchioles, alveolar ducts, alveoli) in a table with three rows: epithelial type, cartilage/support, and vascularization.",
+     "a": "| Feature | Conducting Portion | Exchange Portion |\n|---|---|---|\n| Epithelium | Ciliated pseudostratified columnar (trachea/bronchi) → simple cuboidal (terminal bronchioles) | Simple squamous (type I pneumocytes) + type II pneumocytes (surfactant) |\n| Cartilage/Support | Incomplete hyaline cartilage rings (trachea) → irregular plates (bronchi) → none (bronchioles) | None; alveolar walls supported by elastic fibers and surfactant |\n| Vascularization | Bronchial arteries (systemic) supply the wall; no gas exchange | Dense pulmonary capillary network (pulmonary circulation) for gas exchange |\n\nA wrong answer that lists \"ciliated epithelium in alveoli\" or \"cartilage in bronchioles\" shows the student memorizes terms but cannot analyze how structure shifts progressively to minimize diffusion distance and maximize surface area.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The pleural fluid primarily serves to lubricate the lung surface so the lungs can slide during breathing.\" Is this complete? Justify.",
+     "a": "The statement is **incomplete**. Pleural fluid does lubricate (reducing friction), but its **critical second function** is to create **surface tension** that couples the visceral and parietal pleura, transmitting thoracic wall movement directly to the lung surface. Without this adhesion, the lung would not expand when the thoracic cavity expands (pneumothorax demonstrates this). A student who only mentions lubrication has not understood the mechanical linkage essential for pulmonary ventilation — a concept bridging to c11_bio_cbse_14_002.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple physical model using household materials (balloons, straws, plastic bottle, rubber sheet) to demonstrate how the thoracic cavity's volume change inflates the lungs. Identify which component represents the diaphragm, pleural cavity, and lung.",
+     "a": "**Model**: Cut the bottom off a plastic bottle (thoracic cage). Stretch a balloon over the neck (lung). Seal a rubber sheet across the cut bottom (diaphragm). Pull the rubber sheet down → volume inside bottle increases → balloon inflates. **Mapping**: Balloon = lung; space between balloon and bottle = pleural cavity (with fluid simulated by a drop of water); rubber sheet = diaphragm. A poor model (e.g., blowing into the balloon) reveals the student thinks breathing is active lung expansion rather than passive response to thoracic volume change — a fundamental misconception about the pressure-gradient mechanism.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_09_010",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_09_010",
+   "title": "c11_phy_cbse_09_010",
+   "questions": [
+    {
+     "q": "State Stokes' Law for viscous drag force on a sphere. Write the formula with all variables and their SI units. What are the three essential conditions for its validity?",
+     "a": "Stokes' Law: \\(F = 6\\pi\\eta a v\\) where \\(F\\) = viscous drag force (N), \\(\\eta\\) = coefficient of viscosity (Pa·s or N·s/m²), \\(a\\) = radius of sphere (m), \\(v\\) = velocity of sphere relative to fluid (m/s). Conditions: (1) Laminar flow (low Reynolds number, typically Re < 1), (2) Sphere is small compared to container dimensions (no wall effects), (3) Fluid is incompressible and homogeneous, sphere is rigid and smooth. A wrong answer missing any condition reveals the student thinks Stokes' Law applies universally to all falling objects, ignoring the laminar flow requirement.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Terminal velocity formula has \\(g\\) in it, so if we do the experiment on the Moon where \\(g\\) is 1/6th, terminal velocity will also become 1/6th.\" Is this reasoning correct? Explain using the force balance equation.",
+     "a": "The reasoning is partially correct but incomplete. From force balance: \\(mg = 6\\pi\\eta a v_t + \\frac{4}{3}\\pi a^3\\sigma g\\). Substituting \\(m = \\frac{4}{3}\\pi a^3\\rho\\) gives \\(v_t = \\frac{2a^2(\\rho - \\sigma)g}{9\\eta}\\). Yes, \\(v_t \\propto g\\) directly, so on Moon \\(v_t\\) becomes 1/6th. However, the student misses that \\(\\rho\\) and \\(\\sigma\\) are intrinsic densities (unchanged), but if the fluid were a gas, its density \\(\\sigma\\) would also change with gravity (atmospheric scale height), making the relationship more complex. A wrong answer stating \"exactly 1/6th\" without qualification reveals confusion between intrinsic density and weight-dependent pressure effects.",
+     "self_check": true
+    },
+    {
+     "q": "A spherical raindrop of radius 1.5 mm falls through air at 20°C. Density of water = 1000 kg/m³, density of air = 1.2 kg/m³, viscosity of air = 1.8 × 10⁻⁵ Pa·s. Calculate its terminal velocity. Is Stokes' Law valid here? (Check Reynolds number: Re = \\(\\frac{\\rho_{air} v_t a}{\\eta}\\)).",
+     "a": "Given: \\(a = 1.5 \\times 10^{-3}\\) m, \\(\\rho = 1000\\) kg/m³, \\(\\sigma = 1.2\\) kg/m³, \\(\\eta = 1.8 \\times 10^{-5}\\) Pa·s, \\(g = 9.8\\) m/s².\nStep 1: Compute \\(v_t = \\frac{2a^2(\\rho - \\sigma)g}{9\\eta} = \\frac{2(1.5\\times10^{-3})^2(1000 - 1.2)(9.8)}{9(1.8\\times10^{-5})}\\)\nStep 2: \\(a^2 = 2.25\\times10^{-6}\\) m², \\(\\rho - \\sigma \\approx 998.8\\) kg/m³\nStep 3: Numerator = \\(2 \\times 2.25\\times10^{-6} \\times 998.8 \\times 9.8 = 4.41\\times10^{-2}\\)\nStep 4: Denominator = \\(9 \\times 1.8\\times10^{-5} = 1.62\\times10^{-4}\\)\nStep 5: \\(v_t = \\frac{4.41\\times10^{-2}}{1.62\\times10^{-4}} = 272\\) m/s ≈ 980 km/h.\nStep 6: Check Re = \\(\\frac{\\sigma v_t a}{\\eta} = \\frac{1.2 \\times 272 \\times 1.5\\times10^{-3}}{1.8\\times10^{-5}} = 27,200\\).\nRe >> 1, so Stokes' Law is NOT valid — flow is turbulent. Actual terminal velocity of raindrops is ~9 m/s. A wrong answer giving 272 m/s without checking Re reveals the student applies formulas blindly without verifying validity conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical steel balls (radius \\(r\\), density \\(\\rho_s\\)) are dropped simultaneously: one in glycerine (viscosity \\(\\eta_g\\), density \\(\\sigma_g\\)), the other in water (viscosity \\(\\eta_w\\), density \\(\\sigma_w\\)). Given \\(\\eta_g \\gg \\eta_w\\) and \\(\\sigma_g > \\sigma_w\\). Compare their terminal velocities qualitatively. Which reaches terminal velocity faster?",
+     "a": "From \\(v_t = \\frac{2r^2(\\rho_s - \\sigma)g}{9\\eta}\\): In glycerine, higher \\(\\eta\\) decreases \\(v_t\\), higher \\(\\sigma\\) decreases \\((\\rho_s - \\sigma)\\) further decreasing \\(v_t\\). Both effects make \\(v_{t,glycerine} \\ll v_{t,water}\\). Time to reach terminal velocity depends on acceleration phase: \\(a(t) = g - \\frac{6\\pi\\eta r}{m}v - \\frac{\\sigma}{\\rho_s}g\\). Higher \\(\\eta\\) means stronger velocity-dependent drag, so the ball in glycerine approaches terminal velocity faster (shorter relaxation time \\(\\tau = \\frac{m}{6\\pi\\eta r} = \\frac{2\\rho_s r^2}{9\\eta}\\)). A wrong answer saying \"water reaches terminal velocity faster because it's less viscous\" confuses terminal speed with approach time — it actually takes longer in water because drag builds up more slowly.",
+     "self_check": true
+    },
+    {
+     "q": "A student measures terminal velocity of a 2 mm radius glass bead (\\(\\rho = 2500\\) kg/m³) in a liquid of unknown viscosity. They get \\(v_t = 4.2\\) cm/s. The liquid density is 1200 kg/m³. They calculate \\(\\eta = 0.85\\) Pa·s. Later they realize the beaker diameter was only 10 mm. Is their calculated viscosity correct? If not, is it an overestimate or underestimate?",
+     "a": "The calculated viscosity is an OVERESTIMATE (incorrectly high). Wall effect: when container diameter is comparable to sphere diameter (here beaker = 10 mm, sphere = 4 mm, ratio = 2.5 < 10), the fluid cannot flow freely around the sphere, increasing drag beyond Stokes' prediction. The Faxén correction: \\(F_{actual} = F_{Stokes}(1 + 2.1\\frac{a}{R} + \\cdots)\\) where \\(R\\) = container radius. Since actual drag > Stokes' drag, for the same measured \\(v_t\\), the formula \\(\\eta = \\frac{2a^2(\\rho-\\sigma)g}{9v_t}\\) yields a higher \\(\\eta\\) than true. Correct \\(\\eta\\) would be lower. A wrong answer saying \"underestimate\" or \"no effect\" reveals ignorance of wall correction — a critical practical consideration in viscometry.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using Stokes' Law to determine the coefficient of viscosity of honey at room temperature. List apparatus, procedure, measurements needed, and how you'll verify laminar flow condition. What precautions would you take for temperature control?",
+     "a": "Apparatus: Tall transparent cylinder (diameter ≥ 5 cm), honey, steel balls of 3-4 different radii (1-3 mm), stopwatch, metre scale, thermometer, magnet for ball retrieval. Procedure: (1) Measure honey temperature, record. (2) Fill cylinder with honey, let air bubbles rise. (3) Drop smallest ball, measure time \\(t\\) to fall distance \\(h\\) after reaching terminal velocity (ignore first 10 cm). (4) Compute \\(v_t = h/t\\). (5) Repeat for each ball radius \\(a\\). (6) Plot \\(v_t\\) vs \\(a^2\\) — slope = \\(\\frac{2(\\rho-\\sigma)g}{9\\eta}\\) gives \\(\\eta\\). Verify laminar flow: Check Re = \\(\\frac{\\sigma v_t a}{\\eta} < 1\\) for all balls. Precautions: (a) Use water bath to maintain constant temperature (±0.5°C) since honey viscosity is highly temperature-sensitive. (b) Ensure balls are spherical and smooth. (c) Cylinder diameter > 10× ball diameter to avoid wall effects. (d) Clean balls between trials. A poor answer omits temperature control or Re verification, revealing lack of experimental rigor.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

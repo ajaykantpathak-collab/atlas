@@ -1,0 +1,742 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 403,
+ "chapter_title": "Electoral Politics",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jess404.txt",
+ "concepts": [
+  {
+   "id": "iess.403.1",
+   "title": "Concept of Elections",
+   "section": "4.1",
+   "definition": "A structured process where citizens choose their representatives at set intervals to manage public affairs and make legislative decisions.",
+   "formula": "",
+   "key_idea": "A mechanism for citizens to select and replace representatives regularly.",
+   "textbook_ref": "iess403.txt lines 80-120",
+   "question_patterns": [
+    "What is the definition of an election in a representative democracy?",
+    "Explain why modern representative democracies require elections.",
+    "How do citizens choose their representatives in a democratic system?",
+    "Describe the primary function of an election.",
+    "Why can we not run a large modern democracy without holding elections?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify representative mechanism",
+     "explain": "Elections provide a regular mechanism for citizens to choose, evaluate, and change their representatives."
+    }
+   ]
+  },
+  {
+   "id": "iess.403.2",
+   "title": "Minimum Conditions of a Democratic Election",
+   "section": "4.1",
+   "definition": "The essential criteria, including universal franchise, real choices, regular intervals, preference execution, and fairness, that make an election genuinely democratic.",
+   "key_idea": "Five core conditions that separate democratic elections from mere voting rituals.",
+   "formula": "",
+   "textbook_ref": "iess403.txt lines 130-170",
+   "question_patterns": [
+    "What are the minimum conditions required for an election to be considered democratic?",
+    "State the five essential requirements of a democratic electoral process.",
+    "How do we distinguish between democratic and non-democratic elections?",
+    "Explain the condition of 'one vote, one value' in democratic elections.",
+    "Why must elections be held at regular intervals in a democracy?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the five conditions",
+     "explain": "The conditions are: universal voting rights, multiple choices, regular intervals, victory of the preferred candidate, and free and fair conduct."
+    }
+   ]
+  },
+  {
+   "id": "iess.403.3",
+   "title": "Electoral Competition",
+   "section": "4.1",
+   "definition": "The political rivalry among parties and candidates at the constituency level to win votes and secure public office.",
+   "key_idea": "Competition forces political actors to serve the public interest to win elections.",
+   "formula": "",
+   "textbook_ref": "iess403.txt lines 180-240",
+   "question_patterns": [
+    "What are the merits and demerits of political competition in elections?",
+    "How does electoral competition force political parties to serve the people?",
+    "Why did the makers of the Indian Constitution opt for free electoral competition?",
+    "Explain how political competition can lead to factionalism in local areas.",
+    "Discuss the role of incentives in political competition."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze the role of competition",
+     "explain": "While competition causes short-term divisions, it provides long-term incentives for politicians to address public demands."
+    }
+   ]
+  },
+  {
+   "id": "iess.403.4",
+   "title": "Electoral Constituencies",
+   "section": "4.2",
+   "definition": "Geographically demarcated areas into which a country or state is divided for the purpose of electing representatives.",
+   "key_idea": "Area-based representation ensuring equal population distribution per representative.",
+   "formula": "",
+   "textbook_ref": "iess403.txt lines 250-310",
+   "question_patterns": [
+    "What is an electoral constituency in the Indian voting system?",
+    "How is the country divided for Lok Sabha and Vidhan Sabha elections?",
+    "Explain the difference between an MP and an MLA.",
+    "Why are constituencies designed to have roughly equal populations?",
+    "What are wards in municipal and panchayat elections?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the division of area",
+     "explain": "The country is divided into 543 Parliamentary constituencies, each electing one Member of Parliament (MP)."
+    }
+   ]
+  },
+  {
+   "id": "iess.403.5",
+   "title": "Reserved Constituencies",
+   "section": "4.2",
+   "definition": "Constituencies set aside exclusively for candidates from weaker sections, specifically Scheduled Castes and Scheduled Tribes, to ensure fair representation.",
+   "key_idea": "Affirmative action in elections to prevent resource-rich groups from dominating legislative bodies.",
+   "formula": "",
+   "textbook_ref": "iess403.txt lines 320-380",
+   "question_patterns": [
+    "Why did the Constitution makers introduce the system of reserved constituencies?",
+    "Who can contest elections in a constituency reserved for Scheduled Castes?",
+    "How many seats are reserved for SCs and STs in the Lok Sabha?",
+    "Explain the reservation system in local government bodies like panchayats.",
+    "How does reservation make the representative system more democratic?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the target groups",
+     "explain": "Seats are reserved for SCs and STs in proportion to their population, and 1/3rd of seats in local bodies are reserved for women."
+    }
+   ]
+  },
+  {
+   "id": "iess.403.6",
+   "title": "Electoral Roll and Voters' List",
+   "section": "4.2",
+   "definition": "The official register containing the names of all citizens who are eligible to cast their vote in an election.",
+   "key_idea": "Ensuring universal adult franchise by updating the list of eligible voters regularly.",
+   "formula": "",
+   "textbook_ref": "iess403.txt lines 390-450",
+   "question_patterns": [
+    "What is the official name of the voters' list in India?",
+    "Who is eligible to be registered on the electoral roll in India?",
+    "How often is the voters' list revised and why is this revision necessary?",
+    "What is the purpose of the Election Photo Identity Card (EPIC)?",
+    "Can a citizen vote without an EPIC card? Explain."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Verify eligibility criteria",
+     "explain": "All citizens aged 18 and above have the right to vote, and the list is updated every five years to add new voters and remove deceased ones."
+    }
+   ]
+  },
+  {
+   "id": "iess.403.7",
+   "title": "Nomination of Candidates",
+   "section": "4.2",
+   "definition": "The formal process by which individuals file papers to contest elections, including declaring their assets, liabilities, criminal records, and educational qualifications.",
+   "key_idea": "Open political competition with minimal restrictions on who can contest.",
+   "formula": "",
+   "textbook_ref": "iess403.txt lines 460-520",
+   "question_patterns": [
+    "What is the minimum age required to contest elections as a candidate in India?",
+    "What details must a candidate declare legally when filing a nomination?",
+    "Explain the concept of a party ticket in Indian elections.",
+    "Why is there no educational qualification required for contesting elections in India?",
+    "What is the purpose of the security deposit in the nomination process?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check candidate eligibility and declarations",
+     "explain": "Candidates must be at least 25 years old and must declare assets, liabilities, criminal cases, and educational background."
+    }
+   ]
+  },
+  {
+   "id": "iess.403.8",
+   "title": "Election Campaign and Code of Conduct",
+   "section": "4.2",
+   "definition": "The period and rules governing how political parties and candidates promote their policies, mobilize supporters, and interact with voters.",
+   "key_idea": "Regulating campaigns to ensure a level playing field and prevent unfair practices.",
+   "formula": "",
+   "textbook_ref": "iess403.txt lines 530-610",
+   "question_patterns": [
+    "What is the Model Code of Conduct for election campaigns in India?",
+    "State the restrictions placed on candidates during election campaigns by law.",
+    "How do political parties use slogans to attract voters during campaigns?",
+    "What are the rules regarding campaign spending limits in India?",
+    "Why are ministers barred from announcing new policies after elections are declared?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Apply Code of Conduct rules",
+     "explain": "The Code of Conduct prohibits using places of worship, government vehicles, or making policy announcements after election dates are declared."
+    }
+   ]
+  },
+  {
+   "id": "iess.403.9",
+   "title": "Voter Turnout Rate",
+   "section": "4.3",
+   "definition": "The percentage of eligible voters who actually cast their ballots in a given election.",
+   "key_idea": "Measuring popular participation and democratic engagement through turnout statistics.",
+   "formula": "turnout_percentage = (votes_polled / total_eligible_voters) * 100",
+   "textbook_ref": "iess403.txt lines 620-680",
+   "question_patterns": [
+    "Calculate the voter turnout percentage if the total eligible voters is {total_eligible_voters} and the votes polled is {votes_polled}.",
+    "What is the voter turnout rate when {votes_polled} out of {total_eligible_voters} registered voters cast their votes?",
+    "Find the percentage of voters who participated in the election given {votes_polled} votes and {total_eligible_voters} total voters.",
+    "How do you compute the voter turnout rate from the total voters and actual votes cast?",
+    "Determine the turnout percentage for a constituency with {total_eligible_voters} voters and {votes_polled} votes cast."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide votes polled by total eligible voters",
+     "explain": "Find the ratio of actual votes cast to the total number of registered voters.",
+     "compute": "ratio = votes_polled / total_eligible_voters"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by 100 to get percentage",
+     "explain": "Convert the ratio into a percentage to find the voter turnout rate.",
+     "compute": "turnout_percentage = ratio * 100"
+    }
+   ]
+  },
+  {
+   "id": "iess.403.10",
+   "title": "Average Election Cost per Voter",
+   "section": "4.2",
+   "definition": "The average expenditure incurred by the government or parties per registered voter to conduct an election.",
+   "key_idea": "Assessing the financial cost of running democratic elections relative to the voting population.",
+   "formula": "cost_per_voter = total_cost / total_voters",
+   "textbook_ref": "iess403.txt lines 580-610",
+   "question_patterns": [
+    "Calculate the average election cost per voter if the total expenditure is {total_cost} and the total voters is {total_voters}.",
+    "What is the cost per voter when the government spends {total_cost} for {total_voters} registered voters?",
+    "Find the average spending per citizen on the voters' list given a total cost of {total_cost} and {total_voters} voters.",
+    "How much is spent per voter if the overall election expenditure is {total_cost} and there are {total_voters} voters?",
+    "Determine the per-voter cost of conducting elections with a budget of {total_cost} and {total_voters} electors."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide total cost by total voters",
+     "explain": "Divide the total election expenditure by the number of registered voters to find the average cost per voter.",
+     "compute": "cost_per_voter = total_cost / total_voters"
+    }
+   ]
+  },
+  {
+   "id": "iess.403.11",
+   "title": "Independent Election Commission",
+   "section": "4.3",
+   "definition": "The autonomous constitutional body responsible for conducting and regulating free and fair elections in India.",
+   "key_idea": "An independent body with judicial-like powers is essential to ensure unbiased elections.",
+   "formula": "",
+   "textbook_ref": "iess403.txt lines 690-750",
+   "question_patterns": [
+    "What is the role of the Election Commission of India?",
+    "How is the independence of the Chief Election Commissioner secured?",
+    "List the powers exercised by the Election Commission during elections.",
+    "Why is the Election Commission considered highly powerful in India?",
+    "Explain how the Election Commission ensures a level playing field."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze EC powers",
+     "explain": "The EC controls government officials on election duty, implements the Code of Conduct, and can order repolls if malpractices occur."
+    }
+   ]
+  },
+  {
+   "id": "iess.403.12",
+   "title": "Challenges to Free and Fair Elections",
+   "section": "4.3",
+   "definition": "The systemic limitations and obstacles, such as money power, criminal influence, and family politics, that hinder perfect democratic elections.",
+   "key_idea": "Recognizing the gaps between ideal democratic principles and real-world electoral practices.",
+   "formula": "",
+   "textbook_ref": "iess403.txt lines 760-820",
+   "question_patterns": [
+    "What are the major challenges and limitations of Indian elections?",
+    "How does money power create an unfair advantage in elections?",
+    "Explain the impact of criminal connections on the electoral process.",
+    "What is family politics and how does it affect ticket distribution?",
+    "Why do ordinary citizens often have limited choices in elections?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify systemic challenges",
+     "explain": "Key challenges include the influence of wealthy candidates, candidates with criminal backgrounds, dynastic politics, and lack of distinct policy choices."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iess403.txt lines 620-640",
+   "concept": "iess.403.9",
+   "question_type": "compute",
+   "question_pattern": "Calculate the voter turnout percentage if the total eligible voters is {total_eligible_voters} and the votes polled is {votes_polled}.",
+   "extracted_variables": {
+    "total_eligible_voters": 1439000,
+    "votes_polled": 828000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide votes polled by total eligible voters",
+     "explain": "Find the ratio of actual votes cast to the total number of registered voters.",
+     "compute": "ratio = votes_polled / total_eligible_voters"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by 100 to get percentage",
+     "explain": "Convert the ratio into a percentage to find the voter turnout rate.",
+     "compute": "turnout_percentage = ratio * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iess403.txt lines 620-640",
+   "concept": "iess.403.9",
+   "question_type": "compute",
+   "question_pattern": "What is the voter turnout rate when {votes_polled} out of {total_eligible_voters} registered voters cast their votes?",
+   "extracted_variables": {
+    "total_eligible_voters": 100000,
+    "votes_polled": 65000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide votes polled by total eligible voters",
+     "explain": "Find the ratio of actual votes cast to the total number of registered voters.",
+     "compute": "ratio = votes_polled / total_eligible_voters"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by 100 to get percentage",
+     "explain": "Convert the ratio into a percentage to find the voter turnout rate.",
+     "compute": "turnout_percentage = ratio * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "iess403.txt lines 580-600",
+   "concept": "iess.403.10",
+   "question_type": "compute",
+   "question_pattern": "Calculate the average election cost per voter if the total expenditure is {total_cost} and the total voters is {total_voters}.",
+   "extracted_variables": {
+    "total_cost": 13000000000,
+    "total_voters": 650000000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide total cost by total voters",
+     "explain": "Divide the total election expenditure by the number of registered voters to find the average cost per voter.",
+     "compute": "cost_per_voter = total_cost / total_voters"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "iess403.txt lines 580-600",
+   "concept": "iess.403.10",
+   "question_type": "compute",
+   "question_pattern": "What is the cost per voter when the government spends {total_cost} for {total_voters} registered voters?",
+   "extracted_variables": {
+    "total_cost": 30000000000,
+    "total_voters": 600000000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide total cost by total voters",
+     "explain": "Divide the total election expenditure by the number of registered voters to find the average cost per voter.",
+     "compute": "cost_per_voter = total_cost / total_voters"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.403.1",
+   "question_type": "verify_property",
+   "question_pattern": "What is the definition of an election in a representative democracy?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify representative mechanism",
+     "explain": "Elections provide a regular mechanism for citizens to choose, evaluate, and change their representatives."
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.403.1",
+   "question_type": "verify_property",
+   "question_pattern": "Explain why modern representative democracies require elections.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify representative mechanism",
+     "explain": "Elections provide a regular mechanism for citizens to choose, evaluate, and change their representatives."
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.403.2",
+   "question_type": "verify_property",
+   "question_pattern": "What are the minimum conditions required for an election to be considered democratic?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "List the five conditions",
+     "explain": "The conditions are: universal voting rights, multiple choices, regular intervals, victory of the preferred candidate, and free and fair conduct."
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.403.2",
+   "question_type": "verify_property",
+   "question_pattern": "State the five essential requirements of a democratic electoral process.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "List the five conditions",
+     "explain": "The conditions are: universal voting rights, multiple choices, regular intervals, victory of the preferred candidate, and free and fair conduct."
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.403.3",
+   "question_type": "verify_property",
+   "question_pattern": "What are the merits and demerits of political competition in elections?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze the role of competition",
+     "explain": "While competition causes short-term divisions, it provides long-term incentives for politicians to address public demands."
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.403.3",
+   "question_type": "verify_property",
+   "question_pattern": "How does electoral competition force political parties to serve the people?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze the role of competition",
+     "explain": "While competition causes short-term divisions, it provides long-term incentives for politicians to address public demands."
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.403.4",
+   "question_type": "verify_property",
+   "question_pattern": "What is an electoral constituency in the Indian voting system?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define the division of area",
+     "explain": "The country is divided into 543 Parliamentary constituencies, each electing one Member of Parliament (MP)."
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.403.4",
+   "question_type": "verify_property",
+   "question_pattern": "How is the country divided for Lok Sabha and Vidhan Sabha elections?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define the division of area",
+     "explain": "The country is divided into 543 Parliamentary constituencies, each electing one Member of Parliament (MP)."
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.403.5",
+   "question_type": "verify_property",
+   "question_pattern": "Why did the Constitution makers introduce the system of reserved constituencies?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the target groups",
+     "explain": "Seats are reserved for SCs and STs in proportion to their population, and 1/3rd of seats in local bodies are reserved for women."
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.403.5",
+   "question_type": "verify_property",
+   "question_pattern": "Who can contest elections in a constituency reserved for Scheduled Castes?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the target groups",
+     "explain": "Seats are reserved for SCs and STs in proportion to their population, and 1/3rd of seats in local bodies are reserved for women."
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.403.6",
+   "question_type": "verify_property",
+   "question_pattern": "What is the official name of the voters' list in India?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Verify eligibility criteria",
+     "explain": "All citizens aged 18 and above have the right to vote, and the list is updated every five years to add new voters and remove deceased ones."
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.403.6",
+   "question_type": "verify_property",
+   "question_pattern": "Who is eligible to be registered on the electoral roll in India?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Verify eligibility criteria",
+     "explain": "All citizens aged 18 and above have the right to vote, and the list is updated every five years to add new voters and remove deceased ones."
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.403.7",
+   "question_type": "verify_property",
+   "question_pattern": "What is the minimum age required to contest elections as a candidate in India?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Check candidate eligibility and declarations",
+     "explain": "Candidates must be at least 25 years old and must declare assets, liabilities, criminal cases, and educational background."
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.403.7",
+   "question_type": "verify_property",
+   "question_pattern": "What details must a candidate declare legally when filing a nomination?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Check candidate eligibility and declarations",
+     "explain": "Candidates must be at least 25 years old and must declare assets, liabilities, criminal cases, and educational background."
+    }
+   ]
+  },
+  {
+   "id": "ex19",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.403.8",
+   "question_type": "verify_property",
+   "question_pattern": "What is the Model Code of Conduct for election campaigns in India?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Apply Code of Conduct rules",
+     "explain": "The Code of Conduct prohibits using places of worship, government vehicles, or making policy announcements after election dates are declared."
+    }
+   ]
+  },
+  {
+   "id": "ex20",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.403.8",
+   "question_type": "verify_property",
+   "question_pattern": "State the restrictions placed on candidates during election campaigns by law.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Apply Code of Conduct rules",
+     "explain": "The Code of Conduct prohibits using places of worship, government vehicles, or making policy announcements after election dates are declared."
+    }
+   ]
+  },
+  {
+   "id": "ex21",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.403.11",
+   "question_type": "verify_property",
+   "question_pattern": "What is the role of the Election Commission of India?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze EC powers",
+     "explain": "The EC controls government officials on election duty, implements the Code of Conduct, and can order repolls if malpractices occur."
+    }
+   ]
+  },
+  {
+   "id": "ex22",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.403.11",
+   "question_type": "verify_property",
+   "question_pattern": "How is the independence of the Chief Election Commissioner secured?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze EC powers",
+     "explain": "The EC controls government officials on election duty, implements the Code of Conduct, and can order repolls if malpractices occur."
+    }
+   ]
+  },
+  {
+   "id": "ex23",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.403.12",
+   "question_type": "verify_property",
+   "question_pattern": "What are the major challenges and limitations of Indian elections?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify systemic challenges",
+     "explain": "Key challenges include the influence of wealthy candidates, candidates with criminal backgrounds, dynastic politics, and lack of distinct policy choices."
+    }
+   ]
+  },
+  {
+   "id": "ex24",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.403.12",
+   "question_type": "verify_property",
+   "question_pattern": "How does money power create an unfair advantage in elections?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify systemic challenges",
+     "explain": "Key challenges include the influence of wealthy candidates, candidates with criminal backgrounds, dynastic politics, and lack of distinct policy choices."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "iess403.txt lines 840-850",
+   "questions": [
+    "Which of the following statements about the reasons for conducting elections are false? (a) Elections enable people to judge the performance of the government, (b) People select the representative of their choice in an election, (c) Elections enable people to evaluate the performance of the judiciary, (d) People can indicate which policies they prefer"
+   ]
+  },
+  {
+   "id": "ex4.2",
+   "source_ref": "iess403.txt lines 851-860",
+   "questions": [
+    "Which of these is not a good reason to say that Indian elections are democratic? (a) India has the largest number of voters in the world, (b) India's Election Commission is very powerful, (c) In India, everyone above the age of 18 has a right to vote, (d) In India, the losing parties accept the electoral verdict"
+   ]
+  },
+  {
+   "id": "ex4.3",
+   "source_ref": "iess403.txt lines 861-875",
+   "questions": [
+    "Match the following: (1) It is necessary to keep the voters list up to date because... (2) Some constituencies are reserved for SCs and STs so that... (3) Everyone has one and only one vote so that... (4) Party in power is not allowed to use government vehicles because..."
+   ]
+  },
+  {
+   "id": "ex4.4",
+   "source_ref": "iess403.txt lines 876-885",
+   "questions": [
+    "List all the different election related activities mentioned in the chapter and arrange them in a time sequence, beginning with the first activity and ending with the last: releasing election manifestos; counting of votes; making of voters' list; election campaign; declaration of election results; casting of votes; ordering of re-poll; announcing election schedule; filing nomination."
+   ]
+  },
+  {
+   "id": "ex4.5",
+   "source_ref": "iess403.txt lines 886-895",
+   "questions": [
+    "Surekha is an officer in-charge of ensuring free and fair elections in an assembly constituency in a state. Describe what should she focus on for each of the following stages of election: (a) Election campaign, (b) Polling day, (c) Counting day"
+   ]
+  },
+  {
+   "id": "ex4.8",
+   "source_ref": "iess403.txt lines 910-915",
+   "questions": [
+    "Chinappa was convicted for torturing his wife for dowry. Satbir was held guilty of practicing untouchability. The court did not allow either of them to contest elections. Does this decision go against the principles of democratic elections?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

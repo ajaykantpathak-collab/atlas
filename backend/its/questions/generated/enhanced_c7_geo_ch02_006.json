@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch02_006",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch02_006",
+   "title": "c7_geo_ch02_006",
+   "questions": [
+    {
+     "q": "What physical instrument is standardly used to measure the amount of rainfall in a specific location?",
+     "a": "A rain gauge is used to measure rainfall. A wrong answer usually confuses it with a barometer (which measures air pressure) or a thermometer (which measures temperature), showing a lack of familiarity with basic weather instruments.",
+     "self_check": true
+    },
+    {
+     "q": "Why does relief (orographic) rainfall typically occur on the windward side of mountain ranges rather than the leeward side?",
+     "a": "Relief rainfall occurs on the windward side because moisture-laden winds are forced to rise up the mountain slope, where they cool, condense, and precipitate. A student giving a wrong answer might think mountains block all weather indiscriminately, ignoring the cooling effect of altitude on rising air.",
+     "self_check": true
+    },
+    {
+     "q": "A weather station in Cherrapunji records rainfall over a 24-hour period using a standard cylindrical rain gauge with a funnel diameter matching the measuring cylinder. If the water collected in the inner graduated cylinder reaches a height representing 120 mm, what is the recorded rainfall for that day?",
+     "a": "The recorded rainfall is 120 mm. Steps: 1) Identify the collection medium (standard rain gauge). 2) Read the water depth directly from the graduated scale in millimeters. 3) Conclude that rainfall depth is expressed in linear units (mm) representing the volume per unit area. A wrong answer indicates confusion between volume (liters) and depth (millimeters) in meteorological measurement.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how convectional rainfall differs from relief rainfall in terms of its heating source and geographic occurrence.",
+     "a": "Convectional rainfall is driven by intense surface heating that causes warm, moist air to rise rapidly, typical of equatorial regions and summer afternoons. Relief rainfall is driven by physical landforms (mountains) forcing winds upward. A wrong answer suggests the student treats all rainfall as originating from the same physical trigger, ignoring the role of topography versus surface heating.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Leeward sides of mountain ranges receive heavy rainfall because they are closer to the mountain peaks.\" Is this accurate?",
+     "a": "The statement is inaccurate. The leeward side receives very little rainfall (rain shadow area) because the descending air has already lost its moisture on the windward side and warms up as it descends, preventing condensation. A wrong answer shows a failure to trace the moisture path of winds across physical barriers.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field observation plan to compare rainfall amounts between an open urban park and a heavily forested hillside in your region during the monsoon season.",
+     "a": "A good plan includes placing identical rain gauges in both locations, recording daily measurements at the same time for two weeks, and accounting for local obstacles like tree canopy interference. A poor plan lacks controlled variables, uniform instrument types, or consistent timing, reflecting a weak grasp of empirical data collection.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

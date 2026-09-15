@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_06_001",
+   "title": "c11_cs_cbse_06_001",
+   "questions": [
+    {
+     "q": "What is the output of `print(type('5'))` and why is it different from `print(type(5))`?",
+     "a": "Output: `<class 'str'>` for `'5'` and `<class 'int'>` for `5`. The quotes make `'5'` a string (text), while `5` without quotes is an integer (number). A wrong answer (e.g., both are `<class 'int'>`) reveals the student thinks quotes are decorative or that Python automatically converts numeric-looking strings to numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why `path = 'C:\\new_folder\\test.txt'` prints incorrectly but `path = r'C:\\new_folder\\test.txt'` works. What does the `r` prefix do?",
+     "a": "In the first string, `\\n` is interpreted as a newline escape sequence and `\\t` as a tab, corrupting the path. The `r` prefix creates a **raw string** where backslashes are treated literally. A wrong answer (e.g., \"r means string\") shows the student doesn't understand escape sequences or that backslash has special meaning inside normal strings.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python statement to store the exact text: `He said, \"Python's syntax is easy!\"` including both single and double quotes. Test your answer mentally.",
+     "a": "`msg = 'He said, \"Python\\'s syntax is easy!\"'` (using outer single quotes, escaping the inner single quote) OR `msg = \"He said, \\\"Python's syntax is easy!\\\"\"` (outer double quotes, escaping inner double quotes) OR `msg = '''He said, \"Python's syntax is easy!\"'''` (triple quotes avoid escaping). A wrong answer using mismatched quotes like `\"He said, \"Python's...\"` reveals confusion about quote nesting and escaping rules.",
+     "self_check": true
+    },
+    {
+     "q": "Compare: `s1 = \"Hello\"` and `s2 = 'Hello'`. Are they identical in every way? Justify using memory and type concepts.",
+     "a": "Yes, they are identical. Both create a `str` object with the same character sequence, same length, same methods, and same memory representation. Python does not distinguish between single and double quoted strings. A wrong answer claiming they are different types or have different methods reveals a fundamental misunderstanding of string representation in Python.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `name = \"Aarav\"` then `name[0] = \"K\"` to change it to \"Karav\". Predict the error and explain why this violates a core property of strings.",
+     "a": "It raises `TypeError: 'str' object does not support item assignment`. Strings are **immutable** — you cannot modify characters in-place. Any \"modification\" creates a new string. A wrong answer expecting \"Karav\" or no error shows the student treats strings like mutable lists (a common confusion from other languages or from later list chapters).",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where you MUST use triple-quoted strings instead of single/double quotes. Write the exact Python code.",
+     "a": "Scenario: Storing a multi-line address for a Speed Post label.\n```python\naddress = '''Mr. Rahul Sharma\nFlat 4B, Green Valley Apts\nSector 21, Noida\nUttar Pradesh - 201301'''\n```\nSingle/double quotes cannot span multiple lines without explicit `\\n`. A poor answer uses `\\n` manually or claims triple quotes are for comments, showing they don't grasp the multi-line literal purpose.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

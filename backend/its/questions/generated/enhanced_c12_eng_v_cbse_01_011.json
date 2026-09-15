@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_v_cbse_01_011",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_v_cbse_01_011",
+   "title": "c12_eng_v_cbse_01_011",
+   "questions": [
+    {
+     "q": "Identify the tense of the verb phrase \"had been\" in the opening sentence: \"The presidents ... will swear on a stack of timetables that there are only two. But I say there are three, because I’ve been on the third level...\" and explain why this specific tense is used here instead of simple past.",
+     "a": "The verb phrase \"I've been\" (I have been) is **present perfect tense**. It connects a past experience (being on the third level) to the present moment of narration, emphasizing the *current relevance* of that past event — Charley still *holds* the knowledge/claim. A wrong answer (e.g., \"simple past\") reveals the student misses how present perfect anchors the fantastical claim in the narrator's *present reality*, making it a living assertion rather than a completed past action. This distinction is crucial for the story's ambiguity: is he recounting a memory or asserting a present truth?",
+     "self_check": true
+    },
+    {
+     "q": "In the corridor scene (\"The corridor I was in began angling left and slanting downward...\"), Finney uses a cluster of past continuous verbs (\"was angling,\" \"was slanting,\" \"kept on walking,\" \"could hear\"). Explain in your own words the *narrative effect* of this tense cluster compared to using simple past (\"angled,\" \"slanted,\" \"walked,\" \"heard\").",
+     "a": "Past continuous creates **ongoing, durative action** — it stretches the moment, making the corridor feel endless and the descent feel like a process the narrator is *trapped inside*, mirroring Charley's disorientation. Simple past would present these as completed, sequential facts, losing the hypnotic, dreamlike immersion. A wrong answer (e.g., \"it's just past tense\") shows the student treats tense as a label rather than a tool for *pacing and psychological portrayal*. This is a classic board exam trap: identifying tense without linking to narrative function.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the clerk's direct speech — \"That ain't money, mister,\" he said, \"and if you're trying to skin me, you won't get very far\" — into **indirect (reported) speech** from Charley's perspective. Maintain the original meaning, informal tone markers, and temporal logic.",
+     "a": "**Steps:**  \n1. Identify reporting clause: \"he said\" → past tense reporting verb.  \n2. Backshift tenses: \"ain't\" (present) → \"wasn't/weren't\"; \"you're trying\" (present continuous) → \"he was trying\"; \"you won't get\" (future) → \"he wouldn't get\".  \n3. Adjust pronouns: \"mister\" → \"me/sir\"; \"me\" (clerk) → \"him\"; \"you\" (Charley) → \"he/I\".  \n4. Preserve idiom: \"skin me\" → \"skin him\" (or \"cheat him\").  \n5. Result: *The clerk told me that that wasn't money, sir, and that if I was trying to skin him, I wouldn't get very far.*  \nA wrong answer (e.g., missing backshift or changing \"ain't\" to formal \"is not\") reveals inability to handle **non-standard dialect in reported speech** — a frequent CUET/IPMAT trap where students over-correct colloquialisms, losing character voice.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the **sentence structure** in two passages:  \n(A) Modern scene: \"I turned into Grand Central from Vanderbilt Avenue, and went down the steps to the first level, where you take trains like the Twentieth Century. Then I walked down another flight to the second level...\"  \n(B) 1894 station: \"The room was smaller, there were fewer ticket windows and train gates, and the information booth in the centre was wood and old-looking.\"  \nAnalyze how syntactic coordination (compound vs. cumulative sentences) creates different *cognitive rhythms* for the two time periods.",
+     "a": "Passage (A) uses **sequential compound predicates** (\"turned... and went... Then walked...\") — each clause advances the physical action linearly, mimicking purposeful, modern navigation. Passage (B) uses a **cumulative/loose sentence** with multiple coordinate clauses linked by \"and\" — it *accumulates descriptive details* statically, forcing the reader to hold the whole 1894 scene in mind at once, like a photograph. A wrong answer (e.g., \"both use 'and'\") misses how **syntax enacts epistemology**: modern time is procedural (do this, then that); past time is spatial/impressionistic (this exists, and that exists). This analytical link between syntax and theme is what separates board-level \"explanation\" from competitive-exam \"analysis.\"",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: *\"Finney's use of past perfect tense ('had worked,' 'had decided,' 'had taken') in the exposition is merely grammatical correctness for flashback; it has no thematic significance.\"* Defend or refute with two specific textual examples.",
+     "a": "**Refute.** Past perfect does two thematic jobs:  \n1. **Temporal layering**: \"One night last summer I **worked** late... I **was** in a hurry... I **decided** to take the subway\" (simple past = narrative baseline). But earlier: \"I **had talked** to a psychiatrist... he **had said** it was a waking-dream\" (past perfect = pre-narrative past). This creates a **three-tier timeline**: psychiatric consultation → office night → station experience. The grammar *structures* the story's central ambiguity: is the third level a new event or a recurrence of the \"waking-dream\"?  \n2. **Causal weighting**: \"I **had taken** the obvious step: I **talked** to a psychiatrist\" — past perfect \"had taken\" frames the consultation as a *deliberate, completed response* to the third level, not a casual chat. This elevates the psychiatrist's \"wish-fulfillment\" diagnosis to an *established framework* Charley is actively resisting.  \nA wrong answer (e.g., \"it's just flashback tense\") shows the student cannot see grammar as **thematic architecture** — a skill explicitly tested in CBSE competency questions and JEE Advanced comprehension passages.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-sentence paragraph continuing the story from Charley's perspective *after* finding Sam's letter, **mimicking Finney's grammatical style**: use at least one past perfect for a pre-story event, one fragmented sentence for tension, one direct speech snippet for immediacy, and one cumulative sentence for atmosphere.",
+     "a": "**Sample answer:**  \n*That night I **had dreamed** of Galesburg again — the maples, the porch, Sam's laugh. **No corridor appeared.** \"Keep looking,\" the note had whispered. **Gaslights flickered on Willard Street, fireflies rose from the lawns, and somewhere a piano played 'Seeing Nelly Home,' pulling me back.***  \n**Criteria for a good answer:**  \n- Past perfect (\"had dreamed\") for pre-narrative memory ✓  \n- Fragment (\"No corridor appeared.\") for psychological rupture ✓  \n- Direct/indirect speech blend (\"Keep looking,\" the note had whispered) ✓  \n- Cumulative sentence with polysyndeton (\"and... and...\") for 1894 immersion ✓  \nA poor answer (e.g., all simple past, no fragments, no speech) reveals the student cannot **transfer analytical insight into creative synthesis** — the highest Bloom level, now appearing in CUET creative writing sections.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

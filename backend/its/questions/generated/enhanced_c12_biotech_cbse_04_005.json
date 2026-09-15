@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_04_005",
+   "title": "c12_biotech_cbse_04_005",
+   "questions": [
+    {
+     "q": "What is the length of the mature human growth hormone polypeptide in amino acids, and why is the signal peptide a problem for bacterial expression?",
+     "a": "Mature HGH is 191 amino acids. The signal peptide (26 aa) is not removed by *E. coli* because bacteria lack the eukaryotic signal recognition particle (SRP) and signal peptidase machinery, so the translated product retains the extra 26 aa and is biologically inactive. A wrong answer (e.g., \"191 aa includes signal peptide\" or \"bacteria cleave signal peptides\") reveals confusion about co-translational processing differences between eukaryotes and prokaryotes.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the researchers used EcoRI to remove the signal peptide coding sequence and then added back a synthetic 24-amino-acid linker instead of simply ligating the remaining cDNA directly.",
+     "a": "EcoRI cuts within the cDNA at a site that removes the signal peptide (26 aa) plus 24 additional amino acids (total 50 aa). Direct ligation would delete those 24 aa from the mature hormone, altering the N-terminal sequence and destroying activity. The synthetic linker restores the exact 24 aa that were lost, recreating the authentic mature HGH N-terminus. A wrong answer (e.g., \"EcoRI cuts exactly at the signal peptide boundary\") shows misunderstanding of restriction enzyme site positions and the need for precise primary structure.",
+     "self_check": true
+    },
+    {
+     "q": "A biotech company wants to produce HGH in *E. coli* using a plasmid vector with a strong promoter. They clone the full-length HGH cDNA (including signal peptide) and observe a 22 kDa protein on SDS-PAGE instead of the expected 22 kDa mature HGH (217 aa vs 191 aa). What single genetic modification would most likely yield the correct 191-aa product, and why?",
+     "a": "Delete the signal peptide coding sequence (26 aa) and replace it with a synthetic DNA encoding the first 24 amino acids of mature HGH, using a restriction site (e.g., EcoRI) that allows in-frame ligation. This removes the uncleaved signal peptide and restores the native N-terminus. The observed 22 kDa band corresponds to the 217-aa pre-HGH (signal peptide + mature); the mature 191-aa HGH runs at ~22 kDa as well but the shift is small — the key is that the pre-HGH is inactive. A wrong answer (e.g., \"use a different promoter\" or \"express in yeast\") fails to address the specific processing defect in *E. coli*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the recombinant HGH production strategy (cDNA + EcoRI + synthetic linker) with the recombinant insulin strategy (separate A- and B-chain fusion to β-galactosidase). Identify two fundamental differences in how each handles post-translational processing limitations in *E. coli*.",
+     "a": "1) Insulin requires disulfide bond formation between two separate chains; the β-gal fusion allows independent expression and purification of each chain, followed by in vitro oxidative refolding to form correct disulfides. HGH is a single-chain protein with two internal disulfides; the strategy modifies the N-terminus only, relying on *E. coli* cytoplasmic oxidative folding or in vitro refolding of the full-length chain. 2) Insulin's proinsulin C-peptide is removed by specific proteases absent in bacteria, so chains are expressed separately. HGH's signal peptide is removed by signal peptidase absent in bacteria, so the signal sequence is deleted at the DNA level. A wrong answer conflating the two strategies (e.g., \"both use β-gal fusion\") shows lack of analysis of distinct processing bottlenecks.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Recombinant HGH (Humatrope) is identical to pituitary-derived HGH, so it has zero immunogenicity risk.\" Support your evaluation with molecular evidence.",
+     "a": "The statement is partially correct but overconfident. The recombinant HGH amino acid sequence (191 aa) is identical to the mature pituitary hormone, eliminating the species-specific differences that caused antibodies against bovine/porcine insulin. However, trace *E. coli* host cell proteins, endotoxin, or altered glycosylation (HGH is non-glycosylated, so this is not an issue) could theoretically elicit immune responses. Clinical data show very low immunogenicity, but \"zero risk\" is scientifically unjustifiable — any foreign protein aggregate or contaminant can be immunogenic. A wrong answer accepting \"zero risk\" ignores the difference between primary structure identity and product purity/contaminant profile.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical rDNA strategy to produce a long-acting HGH analog in *E. coli* by fusing the mature HGH sequence to a carrier protein that extends half-life. Specify: (a) the carrier protein choice, (b) the linker design considerations, and (c) how you would verify the fusion retains HGH receptor binding activity.",
+     "a": "(a) Carrier: Human serum albumin (HSA) or Fc domain of IgG1 — both extend half-life via FcRn recycling and are non-immunogenic in humans. (b) Linker: Flexible (GGGGS)₃ linker to allow independent folding of HGH and carrier; include a protease cleavage site (e.g., TEV) if native HGH release is desired. (c) Verification: 1) SDS-PAGE/Western for size; 2) Surface plasmon resonance (SPR) or ELISA using immobilized HGH receptor to measure binding affinity (KD) vs. native HGH; 3) In vitro bioassay (e.g., Nb2 cell proliferation) to confirm functional activity. A poor answer chooses an immunogenic carrier (e.g., bacterial protein), omits linker flexibility, or suggests only size verification without functional assay.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

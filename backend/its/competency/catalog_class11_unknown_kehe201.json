@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "home_science",
+  "chapter": 201,
+  "chapter_title": "Childhood",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kehe201.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kehe201.1.1",
+      "title": "Childhood: The Foundation Years",
+      "section": "unit",
+      "definition": "Childhood -- from infancy through early and late childhood -- lays the foundations of all later development: body, language, thought, emotion and social habits. The unit reverses the book's order deliberately: adolescents study childhood to understand their own past and, one day, the children in their care.",
+      "formula": "",
+      "key_idea": "The years that weigh the least are the years that matter most -- childhood builds the person.",
+      "textbook_ref": "kehe201.txt unit opener (theme of childhood, why adolescence was addressed first, stages of childhood, understanding later roles)",
+      "question_patterns": [
+        "why does the book study childhood after adolescence",
+        "in class 11 childhood unit: what stages does childhood cover",
+        "why are the early years called foundation years",
+        "what developments occur during infancy and early childhood",
+        "how does studying childhood help a future parent",
+        "relate your own habits to your childhood experiences"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "mark the stages",
+          "explain": "Childhood runs from infancy through early years to late childhood, each stage with its own growth tasks."
+        },
+        {
+          "step": 2,
+          "action": "state the stakes",
+          "explain": "Language, attachment, motor skills and selfhood all take shape here -- later learning builds on these bases."
+        },
+        {
+          "step": 3,
+          "action": "state the unit's purpose",
+          "explain": "Adolescents study it to understand themselves now and their caregiving roles later."
+        }
+      ]
+    },
+    {
+      "id": "kehe201.1.2",
+      "title": "Principles of Development in Children",
+      "section": "unit",
+      "definition": "Children's development follows knowable principles: it proceeds in a definite sequence at individual rates, proceeds from head to toe and from centre outward, and grows through the interaction of heredity and environment. Understanding these principles lets caregivers expect, support and not rush each stage.",
+      "formula": "",
+      "key_idea": "Development has directions and a pace -- predictable in pattern, unique in timing.",
+      "textbook_ref": "kehe201.txt unit opener and development sections (principles of growth and development, cephalocaudal, proximodistal, heredity and environment)",
+      "question_patterns": [
+        "state the principles of development with examples",
+        "in class 11 childhood unit: what is meant by cephalocaudal development",
+        "how do heredity and environment act together in a child's growth",
+        "why do children differ in the rate of development",
+        "explain development proceeding from general to specific",
+        "how should caregivers respond to differences in children's pace"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "fix the directions",
+          "explain": "Growth runs head-to-toe and centre-to-extremities -- sitting before walking, arm sweeps before finger pinches."
+        },
+        {
+          "step": 2,
+          "action": "fix the pacing",
+          "explain": "Sequence is universal, tempo individual -- so norms are guides, not deadlines."
+        },
+        {
+          "step": 3,
+          "action": "fix the sources",
+          "explain": "Genes supply the blueprint; nutrition, care and stimulation decide how fully it is realised."
+        }
+      ]
+    },
+    {
+      "id": "kehe201.1.3",
+      "title": "Caregiving and the Child's World",
+      "section": "unit",
+      "definition": "The unit prepares adolescents for real caregiving: feeding, cleanliness, sleep, safety and play suited to each stage, plus awareness of children's rights and protection needs. Play is treated as the child's serious work -- the medium through which muscles, mind and social skill grow.",
+      "formula": "",
+      "key_idea": "Feed, clean, guard, and above all let play work -- caregiving is supporting the child's own project of growing.",
+      "textbook_ref": "kehe201.txt unit opener and care sections (care of children, play as work, safety, children's rights and protection)",
+      "question_patterns": [
+        "why is play called the work of the child",
+        "in class 11 childhood unit: what care routines does a young child need",
+        "how can homes be made safe for toddlers",
+        "what rights does every child have",
+        "suggest age appropriate play for a two year old",
+        "how does play build social and mental skills"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "meet the routines",
+          "explain": "Feeding, hygiene and sleep on predictable schedules give the child security and health."
+        },
+        {
+          "step": 2,
+          "action": "guard the child",
+          "explain": "Child-proofed spaces and watchful adults prevent the accidents that threaten explorers."
+        },
+        {
+          "step": 3,
+          "action": "honour the play",
+          "explain": "Free, age-appropriate play exercises body, imagination and social skill -- rights and development in one."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kehe201.txt unit opener (order of units)",
+      "concept": "kehe201.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "Why did the authors place the childhood unit after the units on adolescence rather than in chronological order?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "recall the reader",
+          "explain": "The reader is an adolescent, so self-understanding comes first for immediate relevance."
+        },
+        {
+          "step": 2,
+          "action": "state the pedagogic reason",
+          "explain": "Understanding one's own stage equips the reader to study earlier stages with perspective."
+        },
+        {
+          "step": 3,
+          "action": "state the future reason",
+          "explain": "The same knowledge prepares readers for later roles as parents and caregivers."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kehe201.txt development sections",
+      "concept": "kehe201.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "A mother worries that her neighbour's 14-month-old walks while her own child does not. Apply development principles to reassure and guide her.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "cite the pacing principle",
+          "explain": "Sequence is universal but tempo individual; walking norms span a range of months."
+        },
+        {
+          "step": 2,
+          "action": "cite the direction principle",
+          "explain": "Head-to-toe progression means standing precedes walking -- check earlier milestones instead of comparing children."
+        },
+        {
+          "step": 3,
+          "action": "advise",
+          "explain": "Support free movement and safe floor play; consult a paediatrician only if several milestones lag together."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kehe201.txt unit questions, reworded",
+      "questions": [
+        "Describe the stages of childhood with one feature of each.",
+        "Explain any three principles of development with examples.",
+        "Why is play essential in early childhood?",
+        "List home safety measures for toddlers.",
+        "What are the rights of the child that families must protect?",
+        "How does heredity and environment shape a child's growth?"
+      ]
+    }
+  ]
+}

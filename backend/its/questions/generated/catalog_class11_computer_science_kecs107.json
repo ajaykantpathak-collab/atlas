@@ -1,0 +1,233 @@
+{
+ "catalog": "catalog_class11_computer_science_kecs107",
+ "concepts": [
+  {
+   "id": "kecs107.1",
+   "title": "Canvas Area of a Cylindrical-Conical Tent",
+   "questions": [
+    {
+     "q": "Using the method 'Canvas Area of a Cylindrical-Conical Tent', work with: h = 12, l = 40, r = 400. Carry the chain through step by step and give the final value of canvas_area.",
+     "a": "80384 sq units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Canvas Area of a Cylindrical-Conical Tent' and work with: h = 60, l = 8, r = 5. Carry the chain through step by step and give the final value of canvas_area.",
+     "a": "2009.6 sq units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Canvas Area of a Cylindrical-Conical Tent' refers to.",
+     "a": "A tent made of a cylinder topped by a cone needs canvas equal to the curved surface of both parts: pi times radius times slant height for the cone, plus 2 pi times radius times height for the cylinder.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Canvas Area of a Cylindrical-Conical Tent'.",
+     "a": "Splitting the tent bill into small functions such as cyl(h,r) and con(l,r) keeps each area formula in one reusable place.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Canvas Area of a Cylindrical-Conical Tent', in plain ASCII form.",
+     "a": "canvas_area = 3.14 * r * l + 2 * 3.14 * r * h",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs107.2",
+   "title": "Post-Tax Net Price Function",
+   "questions": [
+    {
+     "q": "Using the method 'Post-Tax Net Price Function', work with: cost = 50000. Carry the chain through step by step and give the final value of net_price.",
+     "a": "59000 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Post-Tax Net Price Function' and work with: cost = 120000. Carry the chain through step by step and give the final value of net_price.",
+     "a": "141600 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Post-Tax Net Price Function' refers to.",
+     "a": "The payable amount for the tent adds 18 percent tax to the canvas cost; wrapping this in a function post_tax_price(cost) lets any product reuse the same tax step.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Post-Tax Net Price Function'.",
+     "a": "A tax of 18 percent multiplies the cost by 0.18, and the customer pays cost plus that tax.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Post-Tax Net Price Function', in plain ASCII form.",
+     "a": "net_price = cost + 0.18 * cost",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs107.3",
+   "title": "The pow Function with a Modulus Argument",
+   "questions": [
+    {
+     "q": "Evaluate divmod(7, 2) and name the two parts of its result.. Use the method 'The pow Function with a Modulus Argument'. Work with: base = 24, exponent = 10, modulus = 240. Carry the chain through step by step and give the final value of reduced.",
+     "a": "96 units",
+     "self_check": false
+    },
+    {
+     "q": "Compute abs(-5.7) and max(23, 4, 56).. Use the method 'The pow Function with a Modulus Argument'. Work with: base = 3, exponent = 4, modulus = 20. Carry the chain through step by step and give the final value of reduced.",
+     "a": "1 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'The pow Function with a Modulus Argument' refers to.",
+     "a": "The built-in pow(x, y) raises x to the power y, and a third argument makes it return the remainder of that power on division by the modulus; other built-ins such as abs, max, min, sum and len inspect or aggregate values.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The pow Function with a Modulus Argument'.",
+     "a": "pow(5, 2, 4) first squares 5 to get 25, then keeps only the remainder on division by 4.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The pow Function with a Modulus Argument', in plain ASCII form.",
+     "a": "pow(x, y, z) = x ** y % z",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs107.4",
+   "title": "Mean of Floating Values in a List",
+   "questions": [
+    {
+     "q": "Using the method 'Mean of Floating Values in a List', work with: v1 = 3, v2 = 6, v3 = 80, v4 = 20. Carry the chain through step by step and give the final value of mean.",
+     "a": "27.25 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Mean of Floating Values in a List' and work with: v1 = 100, v2 = 500, v3 = 10, v4 = 24. Carry the chain through step by step and give the final value of mean.",
+     "a": "158.5 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Mean of Floating Values in a List' refers to.",
+     "a": "A user defined function can walk a list with a for loop, folding every element into a running total while counting the elements, and the mean is the total divided by that count.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Mean of Floating Values in a List'.",
+     "a": "The loop does two jobs at once: accumulating the sum and counting how many values entered it.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Mean of Floating Values in a List', in plain ASCII form.",
+     "a": "mean = total / count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs107.5",
+   "title": "Mixed Fraction from an Improper Fraction",
+   "questions": [
+    {
+     "q": "Using the method 'Mixed Fraction from an Improper Fraction', work with: deno = 30, num = 200. Carry the chain through step by step and give the final value of mixed_value.",
+     "a": "6.6667 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Mixed Fraction from an Improper Fraction' and work with: deno = 3, num = 120. Carry the chain through step by step and give the final value of mixed_value.",
+     "a": "40 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Mixed Fraction from an Improper Fraction' refers to.",
+     "a": "The function mixedFraction(num, deno = 1) converts an improper fraction into a whole part plus a proper remainder: floor division gives the whole part, the modulus gives the leftover numerator, and deno falls back to its default value 1 when no argument is supplied.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Mixed Fraction from an Improper Fraction'.",
+     "a": "A default parameter must trail in the header, so def mixedFraction(num, deno = 1) is legal but placing the default first is not.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Mixed Fraction from an Improper Fraction', in plain ASCII form.",
+     "a": "mixed_value = num // deno + (num % deno) / deno",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs107.6",
+   "title": "Compound Interest via a User Defined Function",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Compound Interest via a User Defined Function' refers to.",
+     "a": "Compound interest grows the principal by the factor (1 + r/n) raised to n times t, where r is the yearly rate, n the compounding count per year and t the years; the interest is the grown amount minus the principal.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Compound Interest via a User Defined Function'.",
+     "a": "Compounding more often per year multiplies the growth factor more times, so the interest rises.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Compound Interest via a User Defined Function', in plain ASCII form.",
+     "a": "interest = principal * (1 + rate / periods) ** (periods * years) - principal",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs107.7",
+   "title": "Determinant of a Quadratic Expression",
+   "questions": [
+    {
+     "q": "Using the method 'Determinant of a Quadratic Expression', work with: a = 240, b = 360, c = 80. Carry the chain through step by step and give the final value of determinant.",
+     "a": "52800 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Determinant of a Quadratic Expression' and work with: a = 6, b = 150, c = 200. Carry the chain through step by step and give the final value of determinant.",
+     "a": "17700 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Determinant of a Quadratic Expression' refers to.",
+     "a": "For a quadratic with coefficients a, b and c, the determinant b squared minus 4ac decides the nature of roots: positive signals two real roots, zero a repeated root, and negative no real root.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Determinant of a Quadratic Expression'.",
+     "a": "The sign test on the determinant is the condition the function checks before reporting its verdict.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Determinant of a Quadratic Expression', in plain ASCII form.",
+     "a": "determinant = b ** 2 - 4 * a * c",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs107.8",
+   "title": "Global and Local Scope of Variables",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Global and Local Scope of Variables' refers to.",
+     "a": "A variable created outside every function is global and reachable anywhere, while one created inside a function is local and vanishes when the function ends; assigning to a global name inside a function without the global keyword would silently create a local twin instead.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Global and Local Scope of Variables'.",
+     "a": "Printing a local variable after its function has ended raises NameError, as Program 7-14 shows.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Global and Local Scope of Variables', in plain ASCII form.",
+     "a": "scope = global (outside all functions) or local (inside one)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

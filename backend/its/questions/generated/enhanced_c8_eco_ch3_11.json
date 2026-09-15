@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch3_11",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch3_11",
+   "title": "c8_eco_ch3_11",
+   "questions": [
+    {
+     "q": "What are the three categories of Urban Local Bodies (ULBs) established in India under the 74th Constitutional Amendment Act based on the size of the urban area?",
+     "a": "The three categories of ULBs are Nagar Panchayats (for areas transitioning from rural to urban), Municipal Councils (for small urban areas), and Municipal Corporations (for large urban areas).\n*Wrong Answer Explanation*: If a student mentions Gram Panchayats or Zilla Parishads, they are confusing rural local bodies (Panchayati Raj) with urban local bodies. If they cannot name all three, they fail to recall the basic structural classification of urban governance.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a property tax considered a \"direct tax\" levied by Municipal Corporations, and how does it differ from a \"user charge\" like a water bill?",
+     "a": "Property tax is a compulsory direct levy on property owners based on the assessed value of their real estate, regardless of specific daily usage. In contrast, a user charge (like a water bill) is a direct fee paid only in proportion to the actual quantity of a public utility consumed.\n*Wrong Answer Explanation*: If a student thinks they are the same, they fail to understand the difference between general taxation (which funds collective public goods) and user fees (which recover the cost of specific, rivalrous utility consumption).",
+     "self_check": true
+    },
+    {
+     "q": "A Municipal Council has an annual operating budget. It collects ₹50 Lakhs in property taxes, ₹20 Lakhs in user fees, and receives ₹40 Lakhs in state government grants. If its expenditure on sanitation is ₹60 Lakhs, street lighting is ₹30 Lakhs, and administrative salaries are ₹35 Lakhs, calculate the municipal budget balance (surplus or deficit).",
+     "a": "Step 1: Total Revenue = Property Taxes (₹50L) + User Fees (₹20L) + Grants (₹40L) = ₹110 Lakhs.  \nStep 2: Total Expenditure = Sanitation (₹60L) + Street lighting (₹30L) + Salaries (₹35L) = ₹125 Lakhs.  \nStep 3: Budget Balance = Total Revenue - Total Expenditure = ₹110L - ₹125L = -₹15 Lakhs (Deficit).  \nThe Municipal Council has a budget deficit of ₹15 Lakhs.  \n*Wrong Answer Explanation*: If the student calculates a surplus or gets the math wrong, they do not understand how to categorize inflows (revenues) and outflows (expenditures) in a municipal fiscal statement.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how a sudden influx of rural-to-urban migrants (rapid urbanisation) impacts both the expenditure and revenue sides of a Municipal Corporation's budget.",
+     "a": "On the expenditure side, rapid migration increases demand for public services (water, waste management, roads), driving up municipal capital and operational costs. On the revenue side, if migrants enter the informal economy or live in informal settlements (slums), they may not pay property taxes immediately, causing municipal expenditures to rise much faster than tax revenues, leading to severe fiscal stress.\n*Wrong Answer Explanation*: If the student thinks migration only increases revenue (due to more people) or only increases expenditure, they fail to analyze the lagged, asymmetrical relationship between population growth and municipal revenue collection.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the economic argument for introducing \"user charges\" for garbage collection in a city instead of funding it entirely through general property taxes. Which method is more likely to reduce waste generation?",
+     "a": "Introducing user charges is economically superior for waste reduction because it links the cost directly to the quantity of waste produced (e.g., pay-per-bag). This creates a direct financial incentive for citizens to reduce waste and recycle. General property taxes do not vary with the amount of garbage a household throws away, leading to overproduction of waste (a market externality).\n*Wrong Answer Explanation*: If the student argues that general property taxes are always better because they are \"free\" for the poor, they ignore the economic incentive effect of pricing mechanisms on consumer behavior and resource conservation.",
+     "self_check": true
+    },
+    {
+     "q": "Propose a 3-point action plan for a newly formed Nagar Panchayat to transition from being 100% dependent on state government grants to becoming financially self-reliant.",
+     "a": "A strong action plan must include:  \n1. Setting up a systematic database of all local commercial and residential properties to start levying a basic property tax.  \n2. Introducing nominal user fees for clean drinking water and waste collection to cover maintenance costs.  \n3. Licensing local weekly markets (haats) or street vendors to collect trade fees.  \n*Poor Answer Explanation*: If the plan simply suggests \"asking the central government for more money\" or \"taking loans from banks\" without generating internal revenue streams, it reveals a lack of understanding of fiscal autonomy and sustainable local public finance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

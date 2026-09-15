@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_01_007",
+   "title": "c10_math_cbse_01_007",
+   "questions": [
+    {
+     "q": "State the theorem about prime divisibility that is essential for proving √3 is irrational. Write it in your own words.",
+     "a": "The theorem: If p is a prime number and p divides a², then p divides a. A wrong answer (e.g., \"if p divides a then p divides a²\" or stating it only for p=2) reveals the student has not internalised the exact statement needed for the proof; they may confuse the direction of implication or think the theorem is specific to √2.",
+     "self_check": true
+    },
+    {
+     "q": "In the proof that √3 is irrational, after obtaining 3b² = a², we conclude that 3 divides a. Explain why this step is valid and why we cannot simply say \"3 divides a² so 3 divides a\" without the theorem.",
+     "a": "The step is valid because 3 is prime and we have the theorem: if a prime p divides a² then p divides a. Without this theorem, the statement \"3 divides a² implies 3 divides a\" is not generally true for composite numbers (e.g., 4 divides 6² but 4 does not divide 6). A wrong answer shows the student does not understand the role of primality in the divisibility argument.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following proof: \"Assume √3 = a/b in lowest terms. Then 3 = a²/b², so a² = 3b². This means a² is a multiple of 3, so a is a multiple of 3. Let a = 3k. Then 9k² = 3b², so b² = 3k². Thus b² is a multiple of 3, so b is a multiple of 3. Contradiction.\" Identify the missing justification that makes this proof incomplete for full marks in the board exam.",
+     "a": "The student omitted the explicit invocation of the theorem: \"Since 3 is prime and 3 divides a², by the theorem (if prime p divides a² then p divides a), 3 divides a.\" The same for b. Board exams require citing the theorem by name or statement. A wrong answer (e.g., \"nothing missing\") reveals the student thinks the implication is obvious without the theorem.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the proofs that √2 and √3 are irrational. What is the exact algebraic step where the number 2 is replaced by 3, and why does the same logic work for any prime number?",
+     "a": "The replacement occurs when we write p b² = a² (with p=2 or p=3). The logic works for any prime because the theorem \"if prime p divides a² then p divides a\" holds for all primes. A wrong answer (e.g., \"it works because 2 and 3 are both small\") shows the student does not recognise the general prime divisibility property as the engine of the proof.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"√3 = 1.7320508... is a terminating decimal, so it is rational.\" Evaluate this claim and explain the error.",
+     "a": "The claim is false. The decimal expansion of √3 is non-terminating and non-recurring; the student has only seen a finite approximation on a calculator. The error is confusing a truncated decimal approximation with the exact value. A wrong answer (e.g., agreeing with the student) reveals a fundamental misunderstanding of irrational numbers as non-terminating, non-recurring decimals.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a proof that √12 is irrational by first simplifying √12 and then using the fact that √3 is irrational. Show all steps.",
+     "a": "√12 = √(4×3) = 2√3. Assume √12 is rational, so 2√3 = a/b for integers a,b. Then √3 = a/(2b), which is rational, contradicting the known irrationality of √3. A poor answer (e.g., attempting a fresh contradiction proof for √12 without using √3) misses the efficient use of prior results and may contain algebraic errors.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_05_002",
+   "title": "c12_chem_cbse_05_002",
+   "questions": [
+    {
+     "q": "State the exact IUPAC rule for the order in which ligands are listed in the name of a coordination compound, and give the correct ligand name for NH₃ and H₂O.",
+     "a": "Ligands are listed in **alphabetical order** of their names (ignoring multiplicative prefixes like di-, tri-, bis-, tris-). The ligand name for NH₃ is **ammine** (not ammonia) and for H₂O is **aqua** (not water). A wrong answer (e.g., \"alphabetical order of formulas\" or \"ammonia/water\") reveals the student is confusing chemical formula ordering with name ordering, or using common names instead of IUPAC ligand names — both cause systematic naming errors in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the complex K₃[Fe(CN)₆] is named *potassium hexacyanidoferrate(III)* while [Fe(CN)₆]⁴⁻ would be named *hexacyanidoferrate(II)*, focusing on the metal name change and oxidation state.",
+     "a": "In anionic complexes, the metal name takes the **–ate** suffix (ferrate for Fe, cobaltate for Co, etc.) and the oxidation state is indicated in Roman numerals. For K₃[Fe(CN)₆], each CN⁻ is –1, total –6; three K⁺ give +3, so Fe must be +3 → ferrate(III). For [Fe(CN)₆]⁴⁻, total ligand charge –6, overall –4 → Fe is +2 → ferrate(II). A wrong answer (e.g., \"iron(III) cyanide\") shows the student misses the –ate convention for anionic complexes and treats ligands as counter ions.",
+     "self_check": true
+    },
+    {
+     "q": "Write the IUPAC name for [Co(NH₃)₅Cl]Cl₂. Show all steps: identify coordination sphere, ligand names, alphabetical order, oxidation state of Co, and final name.",
+     "a": "**Steps**: (1) Coordination sphere: [Co(NH₃)₅Cl]²⁺ (two Cl⁻ counter ions). (2) Ligands: five NH₃ (ammine), one Cl⁻ (chlorido). (3) Alphabetical order: ammine (a) before chlorido (c) → pentaamminechlorido. (4) Oxidation state: let x = Co oxidation state; x + 0×5 + (–1) = +2 → x = +3. (5) Cationic complex → metal name = cobalt. **Name: pentaamminechloridocobalt(III) chloride**. A wrong answer (e.g., \"chloridopentaamminecobalt(III) chloride\") reveals failure to alphabetize ligand *names* (chlorido vs ammine) — a frequent 1-mark loss in boards.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the names of [Ni(CO)₄] and [Ni(CN)₄]²⁻. Why does nickel become *nickelate* in the second but not the first? What prefix is used for four CO ligands?",
+     "a": "[Ni(CO)₄] is **neutral** → metal name = nickel(0) → *tetracarbonylnickel(0)*. [Ni(CN)₄]²⁻ is **anionic** → metal name = nickelate(II) → *tetracyanidonickelate(II)*. Four CO ligands use prefix **tetra-** (not tetrakis) because \"carbonyl\" has no numerical prefix. A wrong answer (e.g., \"tetracarbonylnickelate(0)\") shows confusion between neutral and anionic complex naming conventions and misuse of tetrakis.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the name of K₂[PdCl₄] as *potassium tetrachloridopalladium(II)*. Evaluate this name and correct it if wrong.",
+     "a": "**Incorrect**. The complex anion is [PdCl₄]²⁻ → metal must take –ate suffix: **palladate(II)**. Correct name: **potassium tetrachloridopalladate(II)**. The student's error: using elemental metal name for an anionic complex. This is a classic board-exam trap — the –ate suffix is mandatory for anionic coordination entities (except for a few metals with Latin-based names like ferrate, cuprate, argentate).",
+     "self_check": true
+    },
+    {
+     "q": "Design a mononuclear coordination compound that contains Cr(III), two bidentate ethane-1,2-diamine (en) ligands, and two chloride ligands, with one chloride as counter ion. Write its formula and IUPAC name. Predict its isomerism.",
+     "a": "**Formula**: [CrCl₂(en)₂]Cl. **Name**: dichloridobis(ethane-1,2-diamine)chromium(III) chloride. **Isomerism**: Shows geometrical (cis/trans) and optical isomerism (cis is chiral). A poor answer (e.g., missing \"bis\", wrong oxidation state, or missing counter ion) reveals inability to handle polydentate ligand prefixes (bis/tris) and charge balance — a multi-concept failure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

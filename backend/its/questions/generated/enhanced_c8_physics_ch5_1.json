@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch5_1",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch5_1",
+   "title": "c8_physics_ch5_1",
+   "questions": [
+    {
+     "q": "Define a solution and state the difference between a solute and a solvent. Give one example of a solid-liquid solution and name its solute and solvent.",
+     "a": "A solution is a homogeneous mixture where solute particles are uniformly distributed at the molecular level in a solvent. The solute is the substance dissolved (smaller amount); the solvent is the dissolving medium (larger amount). Example: In salt water, salt is the solute and water is the solvent.  \n**Wrong answer reveals:** If a student says \"solute is the liquid\" or \"solvent is the solid,\" they confuse the roles based on state rather than relative amount. If they say \"solution is any mixture,\" they miss the homogeneity and particle-size criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Air is a solution of gases. Which gas is the solvent and which are solutes? Explain why air qualifies as a solution even though all components are gases.",
+     "a": "In air, nitrogen (~78%) is the solvent; oxygen (~21%), argon, CO₂, and other gases are solutes. Air is a solution because the gases are uniformly mixed at the molecular level, do not separate into layers, and exhibit homogeneous properties throughout.  \n**Wrong answer reveals:** If a student says \"oxygen is the solvent because it supports life,\" they confuse biological importance with quantitative abundance. If they say \"air is not a solution because it's a gas,\" they incorrectly think solutions must be liquid.",
+     "self_check": true
+    },
+    {
+     "q": "A student mixes 5 mL of iodine tincture (iodine dissolved in alcohol) with 50 mL of water. Identify the solute and solvent in the original tincture. After mixing with water, what becomes the new solvent? Justify your answer.",
+     "a": "Original tincture: solute = iodine (solid, small amount), solvent = alcohol (liquid, larger amount). After mixing with 50 mL water: the new solvent is water because it is now the component in the largest volume (50 mL water + 5 mL alcohol ≈ 55 mL total, water > alcohol).  \n**Wrong answer reveals:** If the student says alcohol remains the solvent, they fail to apply the \"larger amount\" criterion to the new mixture. If they say iodine becomes the solvent, they confuse solute identity with quantity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare brass (an alloy of copper and zinc) and salt water. Both are solutions. How are they similar and different in terms of state of solute, solvent, and homogeneity? Which one would show the Tyndall effect? Why?",
+     "a": "Similarities: Both are homogeneous at molecular level; solute particles do not settle. Differences: Brass is a solid-solid solution (Zn solute in Cu solvent); salt water is solid-liquid (NaCl solute in H₂O solvent). Neither shows Tyndall effect because particle size in true solutions (<1 nm) is too small to scatter light.  \n**Wrong answer reveals:** If a student says brass is not a solution because it's a metal, they lack the concept of solid solutions. If they say salt water shows Tyndall effect, they confuse solutions with colloids.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate claims: \"In a solution of 20 g sugar in 100 g water, sugar is the solvent because it is the solid.\" Evaluate this statement. Is it correct? Explain the error using the definition of solvent.",
+     "a": "The statement is incorrect. Solvent is defined as the component present in the larger amount (by mass or volume), not by physical state. Here, water (100 g) > sugar (20 g), so water is the solvent. The error is confusing state (solid vs liquid) with relative quantity.  \n**Wrong answer reveals:** If the student agrees, they hold the misconception that \"the solid is always the solute\" or \"the liquid is always the solvent,\" ignoring the quantitative definition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple kitchen experiment to demonstrate that a solution is homogeneous. List materials, steps, and how you would prove uniformity without using a microscope.",
+     "a": "Materials: Salt, water, two transparent glasses, spoon, food colour (optional). Steps: (1) Dissolve 1 tsp salt in 100 mL water in Glass A. (2) Pour half into Glass B. (3) Taste both (safe, dilute) — both taste equally salty. (4) Add one drop food colour to each — colour spreads uniformly without stirring. Proof: Identical taste and uniform colour distribution show homogeneity at macro scale, implying molecular-level uniformity.  \n**Poor answer reveals:** If the student suggests filtering or settling, they confuse solutions with suspensions. If they cannot propose a test for uniformity, they lack operational understanding of homogeneity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

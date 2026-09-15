@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_11_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_11_012",
+   "title": "c12_hs_cbse_11_012",
+   "questions": [
+    {
+     "q": "Define \"non-SNA production work\" in the context of household management and give two examples from a typical Indian household.",
+     "a": "Non-SNA production work refers to unpaid activities that produce goods or services for own-consumption within the household and are not counted in the System of National Accounts (GDP). Examples: cooking meals for the family, caring for children/elderly, cleaning, fetching water, managing household finances. A wrong answer (e.g., \"work done by a maid\" or \"paid tutoring\") reveals confusion between market/paid work and unpaid household production, and ignorance of the SNA boundary — a critical error in board questions on valuation of women's work.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the \"replacement cost method\" of valuing a homemaker's work may overestimate or underestimate its true economic value. Use the concept of \"specialised household capital\" in your answer.",
+     "a": "Replacement cost sums market wages for each task (cook, cleaner, nurse, driver, tutor) but ignores that a homemaker develops specialised household capital — context-specific knowledge (family dietary needs, medical history, school schedules, financial priorities) that a market substitute lacks, leading to underestimation of efficiency and quality. Conversely, it overestimates if market rates include overheads (agency fees, profit margins) not incurred at home. A wrong answer focusing only on \"market wages are higher/lower\" misses the human-capital dimension tested in CBSE case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "A family of four (two working parents, two school-going children) decides to redistribute household tasks. The mother currently spends 4 hours/day on cooking/cleaning, father 0.5 hours, children 0.5 hours combined. They agree each adult should contribute 2 hours/day and children 30 minutes/day. Calculate the time transfer required from mother to father, and propose two specific tasks the father could take over that leverage his existing skills (e.g., financial management, digital literacy).",
+     "a": "Mother's current: 4 hrs; target: 2 hrs → reduction of 2 hrs (120 min). Father's current: 0.5 hrs; target: 2 hrs → increase of 1.5 hrs (90 min). Children: current 0.5 hrs → target 0.5 hrs (no change). Time transfer from mother to father = 90 min (father's deficit); remaining 30 min absorbed by efficiency gains/outsourcing. Tasks for father: (1) Monthly budgeting, bill payments, investment tracking — leverages financial literacy; (2) Online grocery ordering, school fee portals, medical appointment scheduling — leverages digital literacy. A wrong answer that suggests \"father cooks dinner\" without skill-matching ignores the competency-based allocation principle central to Class 12 resource management.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"gender-essentialist\" and \"time-availability\" models of household labour division. Which model better explains the persistence of unequal division in dual-earner Indian middle-class households? Justify with two pieces of evidence from time-use surveys (e.g., NSSO 2019).",
+     "a": "Gender-essentialist model: division based on innate gender roles (women = nurturers, men = providers). Time-availability model: division based on relative hours in paid work. NSSO 2019 shows: (1) Employed women spend 299 min/day on unpaid domestic work vs. 97 min for employed men — a 3:1 gap despite similar paid-work hours; (2) Unemployed men still do less domestic work (125 min) than employed women (299 min). Time-availability model fails; gender norms persist. A wrong answer citing \"women work fewer paid hours\" misreads the data and misses the structural gender bias — a frequent board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Introducing paternity leave alone will achieve shared responsibility in Indian households.\" Evaluate using the concepts of social norms, workplace culture, and economic opportunity cost.",
+     "a": "Paternity leave is necessary but insufficient. Social norms: \"good father = provider\" discourages leave uptake (India's paternity leave uptake <5% where available). Workplace culture: stigma, career penalties, lack of replacement staff. Economic opportunity cost: men's higher average wages make their leave costlier for families. True sharing requires: (1) non-transferable \"use-it-or-lose-it\" quotas (Nordic model), (2) subsidised childcare, (3) flexible work for all, (4) school/community programmes normalising male caregiving. A wrong answer treating policy as a silver bullet ignores implementation gaps and cultural embeddedness — a key evaluation skill for competency questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"Household Responsibility Charter\" template for a three-generation family (grandparents, parents, two adolescents) that operationalises shared responsibility. Include: task categories, negotiation principles, review mechanism, and a method to value invisible cognitive labour (planning, worrying, remembering).",
+     "a": "Template: (1) Categories: Daily care (meals, hygiene, meds), Maintenance (cleaning, repairs, bills), Cognitive/Managerial (scheduling, inventory, school/health coordination), Emotional (listening, conflict mediation, festival planning). (2) Negotiation: weekly 30-min meeting; tasks assigned by skill/interest/time, not age/gender; \"swap clause\" for burnout. (3) Review: monthly \"audit\" using time-use logs; adjust for exams, illness, festivals. (4) Valuing cognitive labour: assign \"mental load points\" (1-5) per task; total points distributed equally; points convert to leisure-time credits or budget allocation. A poor answer lists chores only, omitting cognitive/emotional labour and review mechanism — missing the management-process lens (planning, controlling) central to this chapter.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

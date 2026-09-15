@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_s_cbse_04_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_s_cbse_04_012",
+   "title": "c11_eng_s_cbse_04_012",
+   "questions": [
+    {
+     "q": "What is the primary difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal question's answer is directly stated in the text (e.g., \"What did the old woman offer Andrew?\" → \"a cup of tea\"). An inferential question requires reasoning beyond the text (e.g., \"Why did the old woman offer tea?\" → \"She feared Andrew would leave, showing her anxiety\"). A wrong answer that says \"inferential questions are just harder\" reveals the student confuses difficulty with cognitive process, not understanding that inference requires evidence-based reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "In the text, Andrew thinks of his \"level, doubting mind\" and \"overflowing heart\" regarding marriage. Is the question \"What two conflicting feelings does Andrew experience?\" literal or inferential? Explain.",
+     "a": "This is a literal question because the text explicitly states: \"It was the conflict between his level, doubting mind and his overflowing heart.\" The answer is directly quoted. A student who labels it inferential mistakenly believes any question about feelings requires inference, not recognizing that explicitly stated internal conflicts are literal retrieval.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the literal/inferential distinction to this question: \"How does the author show the old woman's desperation for a grandchild?\" Provide one literal detail and one inference you would use to answer.",
+     "a": "Literal detail: \"She remembered her longing for a grandchild, as great as had been her daughter's longing.\" Inference: Her silent prayer (\"her hands were together, her lips moved without sound\") shows desperation beyond words. A wrong answer that offers only the literal quote without inference misses the \"how does the author show\" requirement, which demands analysis of authorial technique.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why Andrew's final thought — \"I've done something real at last\" — is an inferential key to the story's theme. What textual evidence from earlier in the story supports this inference?",
+     "a": "The inference: Andrew feels his previous work lacked meaning. Evidence: 1) His \"disappointing evening with Christine\" and \"queer lethargy of spirit\" show dissatisfaction. 2) He views other marriages as \"dismal failures,\" suggesting he questions his impact. 3) The resuscitation's success contrasts with his earlier powerlessness. A wrong answer that only cites the final sentence fails to connect the theme of professional fulfillment to Andrew's prior emotional state.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's answer to an inferential question: \"Why did Andrew not heed the midwife's plea to stop?\" Answer: \"Because he is stubborn.\" Is this a sufficient inference? Justify.",
+     "a": "No. \"Stubborn\" is a character trait not directly supported; the text shows Andrew's \"desperate sense of defeat\" yet he persists due to medical knowledge (recalling the Samaritan case) and emotional investment. A sufficient inference would cite: 1) His memory of a successful resuscitation method, 2) His refusal to accept \"futile, beyond remedy.\" The student's answer reveals a misconception that inference equals personality labeling without textual evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Create an inferential question about the relationship between Joe Morgan and Andrew that requires evidence from at least two different scenes in the text.",
+     "a": "Example: \"How does Joe Morgan's trust in Andrew evolve from their first meeting to the story's end?\" Evidence 1: Joe waits \"walking up and down\" and says \"I know ye'll do well for us.\" Evidence 2: At the end, Joe stands \"with a tense, expectant face\" and Andrew says \"Both all right.\" A poor question would be literal (e.g., \"What did Joe say?\") or rely on a single scene, showing the student cannot synthesize across the narrative.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_02_008",
+   "title": "c12_acc_cbse_02_008",
+   "questions": [
+    {
+     "q": "In capital adjustment, when the total capital of the new firm is NOT specified, what is the basis for determining the total capital of the new firm?",
+     "a": "The total capital of the new firm is taken as the sum of the adjusted capital balances of the continuing partners (after all revaluation, goodwill, and reserve adjustments). A wrong answer (e.g., \"new partner's capital × reciprocal of their share\") reveals the student confuses this scenario with the \"specified capital\" scenario or misunderstands that the continuing partners' capitals set the scale when no external figure is given.",
+     "self_check": true
+    },
+    {
+     "q": "A and B are partners sharing profits 3:2. They admit C for 1/4 share. C brings ₹1,00,000 as capital. The adjusted capitals of A and B after all other adjustments are ₹1,50,000 and ₹1,00,000 respectively. The total capital of the new firm is specified as ₹5,00,000. What is A's new capital requirement?",
+     "a": "New ratio: A:B:C = (3/4 × 3/5) : (3/4 × 2/5) : 1/4 = 9/20 : 6/20 : 5/20 = 9:6:5. Total capital = ₹5,00,000. A's share = 9/20 × ₹5,00,000 = ₹2,25,000. A's adjusted capital = ₹1,50,000. A must bring in ₹75,000. If a student answers ₹1,50,000 (old capital) or ₹3,00,000 (ignoring new ratio), they fail to apply the new profit-sharing ratio to the specified total capital.",
+     "self_check": true
+    },
+    {
+     "q": "X, Y, Z share profits 5:3:2. Z retires. X and Y decide to share future profits 3:2. After all adjustments, X's capital = ₹2,10,000, Y's capital = ₹1,40,000. Z's dues = ₹1,50,000. X and Y will fund Z's payment such that their final capitals are proportionate to the new ratio. Calculate the cash X and Y must bring in.",
+     "a": "Total capital of new firm = X's capital + Y's capital + Z's dues = ₹2,10,000 + ₹1,40,000 + ₹1,50,000 = ₹5,00,000. New ratio X:Y = 3:2. X's new capital = 3/5 × ₹5,00,000 = ₹3,00,000. Y's new capital = 2/5 × ₹5,00,000 = ₹2,00,000. X brings in ₹3,00,000 - ₹2,10,000 = ₹90,000. Y brings in ₹2,00,000 - ₹1,40,000 = ₹60,000. Total brought in = ₹1,50,000 = Z's dues. A wrong answer (e.g., bringing in proportion to old ratio) shows the student misses that the new total capital includes the retiring partner's dues and the new ratio governs the final split.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the journal entries for \"excess capital withdrawn\" vs \"deficit capital brought in\" during capital adjustment. Why does the Cash/Bank account appear on opposite sides?",
+     "a": "Excess capital: Partner's Capital A/c Dr. → Cash/Bank A/c (partner takes money out, firm pays). Deficit capital: Cash/Bank A/c Dr. → Partner's Capital A/c (partner puts money in, firm receives). Cash/Bank is credited in the first (outflow) and debited in the second (inflow). If a student writes the same entry for both, they confuse the direction of fund flow — a critical error in Balance Sheet preparation.",
+     "self_check": true
+    },
+    {
+     "q": "A firm's total capital after admission is ₹10,00,000. New profit-sharing ratio is 5:3:2. Partner P's adjusted capital is ₹5,50,000. Partner Q's adjusted capital is ₹2,80,000. Partner R (new) brought ₹2,00,000. Evaluate whether the capitals are proportionate. If not, state the correction needed for each partner.",
+     "a": "Required capitals: P = 5/10 × ₹10,00,000 = ₹5,00,000 (excess ₹50,000 → withdraw). Q = 3/10 × ₹10,00,000 = ₹3,00,000 (deficit ₹20,000 → bring in). R = 2/10 × ₹10,00,000 = ₹2,00,000 (exact). A student who says \"all are proportionate\" fails to compute required capitals from the ratio. A student who adjusts only P and ignores Q's deficit misses that total capital must remain ₹10,00,000 — the net adjustment must be zero.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where three partners admit a fourth, the total capital is not specified, and one continuing partner must withdraw capital while another must bring in capital. Provide all numbers and show the journal entries.",
+     "a": "Example: A, B, C share 4:3:3. D admitted for 1/5 share, brings ₹80,000. Adjusted capitals: A ₹2,00,000, B ₹1,50,000, C ₹1,50,000. Total capital = ₹5,80,000. New ratio: A:B:C:D = 16:12:12:5 (derived from 4/5×4/10 etc.). A's target = 16/45 × ₹5,80,000 = ₹2,06,222 (bring ₹6,222). B's target = 12/45 × ₹5,80,000 = ₹1,54,667 (bring ₹4,667). C's target = ₹1,54,667 (withdraw ₹4,667). D exact. Journal: Bank Dr. ₹10,889 → A ₹6,222, B ₹4,667; C Dr. ₹4,667 → Bank. A valid answer must show correct new ratio derivation, target capitals, and opposite cash flows. A poor answer uses old ratio or ignores D's capital in total.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

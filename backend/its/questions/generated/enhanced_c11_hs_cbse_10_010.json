@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_10_010",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_10_010",
+   "title": "c11_hs_cbse_10_010",
+   "questions": [
+    {
+     "q": "Define investment in your own words and state how it differs from savings in terms of the fate of the principal amount.",
+     "a": "Investment is committing saved money to assets (financial or physical) expecting future income or capital growth, where the principal is exposed to market risk and may fluctuate. Savings keeps principal intact in low-risk instruments (e.g., savings account) with high liquidity. A wrong answer that says \"investment also keeps principal safe\" reveals the misconception that investment and savings differ only in return rate, ignoring the fundamental risk-transfer nature of investment.",
+     "self_check": true
+    },
+    {
+     "q": "A family puts ₹1,00,000 in a bank fixed deposit at 6% p.a. and another ₹1,00,000 in a residential plot expecting 12% p.a. appreciation. Classify each as savings or investment using the NCERT distinction of \"productive in economic sense\" and explain why the plot is NOT productive in economic terms despite higher returns.",
+     "a": "The fixed deposit is savings channelled into a financial asset — it mobilises capital for productive lending by the bank, hence productive in economic sense. The residential plot is a physical asset; it generates no new goods/services, merely stores value, so NCERT classifies it as \"not productive in economic sense\" despite potential capital gains. A wrong answer claiming the plot is economically productive because \"it gives high returns\" confuses financial return with economic productivity (capital formation).",
+     "self_check": true
+    },
+    {
+     "q": "Your father wants to invest ₹2,00,000 for your elder sister's engineering admission in 3 years. He is considering: (A) Equity mutual fund (expected 12% return, high volatility), (B) 3-year corporate bond (7% return, low risk), (C) Gold (historical 8% return, moderate liquidity). Using the principles of safety, liquidity, and maturity matching, recommend the best option and justify why the other two violate specific principles.",
+     "a": "Option B (3-year corporate bond) is best: principal safety aligns with \"safety of principal\" principle; 3-year maturity matches the 3-year goal (maturity matching principle); low risk ensures funds are available when needed. Option A violates safety (principal can erode in 3 years) and maturity matching (equity needs 5+ years). Option C violates liquidity (gold may sell at discount urgently) and maturity matching (no fixed maturity). A wrong answer choosing A for \"higher return\" ignores that the goal is non-negotiable and short-term, violating the capacity and time-period principles.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the risk-return-liquidity trade-off between a Public Provident Fund (15-year lock-in, 7.1% tax-free) and a Liquid Mutual Fund (no lock-in, ~6.5% taxable). Analyse how a family's decision would change if the goal is (i) retirement in 20 years vs (ii) emergency fund for 6 months. Reference at least three principles in each case.",
+     "a": "For (i) retirement in 20 years: PPF wins — safety (govt-backed), tax efficiency (EEE status), time-period principle (long lock-in matches horizon). Liquidity is irrelevant. For (ii) emergency fund: Liquid fund wins — liquidity (instant redemption), safety (low duration debt), accessibility (no lock-in). PPF violates liquidity and accessibility principles for emergencies. A wrong answer recommending PPF for emergency fund ignores that \"liquidity\" and \"easy accessibility\" principles override return when the need is unpredictable and immediate.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"A family should always choose the investment with the highest rate of return because the principle of 'reasonable rate of return' means maximising returns.\" Use the inverse risk-return relationship and the principle of capacity to defend your critique.",
+     "a": "The statement is flawed. \"Reasonable rate of return\" means return commensurate with risk, not maximum return. Higher returns carry higher risk (inverse relationship); a family with low capacity (limited surplus after expenses) cannot absorb capital loss. Chasing maximum return violates safety of principal and capacity principles. A wrong answer agreeing with the statement reveals the misconception that \"reasonable\" = \"highest\", ignoring that the principle explicitly warns: \"higher the rate of return, greater the risk\" and advises comparing \"rate of interest and associated risk under various schemes\".",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical investment plan for a family with ₹5,00,000 surplus, two goals: (a) daughter's wedding in 5 years (₹3,00,000 needed), (b) retirement in 20 years (₹2,00,000 allocated). Specify instruments, allocation, and map each choice to at least two principles. Ensure the plan respects the capacity principle.",
+     "a": "Sample plan: Goal (a) ₹3,00,000 → 5-year NSC (₹1,50,000) + 5-year bank FD (₹1,50,000). Principles: safety (govt/bank guarantee), maturity matching (5-year lock-in), tax efficiency (NSC 80C). Goal (b) ₹2,00,000 → PPF (₹1,50,000/yr limit, so ₹1,50,000) + Equity SIP (₹50,000). Principles: time-period (long horizon), tax efficiency (PPF EEE), reasonable return (equity for growth). Total ₹5,00,000 allocated, no overcommitment (capacity). A poor answer that puts all ₹5,00,000 in equity for \"higher returns\" violates safety, maturity matching, and capacity for the wedding goal.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

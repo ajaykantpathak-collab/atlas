@@ -1,0 +1,134 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 1,
+ "chapter_title": "World Geography: Some Glimpses",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hees201.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hees.201.1.1",
+   "title": "Mapping the Earth: Latitudes and Longitudes",
+   "section": "1",
+   "definition": "The globe is gridded by imaginary lines - latitudes circling the earth parallel to the equator, including the Tropic of Cancer and Tropic of Capricorn, and longitudes running pole to pole - so any place on earth can be fixed precisely at the crossing of its latitude and longitude.",
+   "formula": "-",
+   "key_idea": "Latitude fixes north-south position, longitude east-west; together they pin any location.",
+   "textbook_ref": "hees201.txt lines 53-180 (complexity of mapping the earth, tropics)",
+   "question_patterns": [
+    "what are latitudes and longitudes",
+    "name the important lines of latitude on the globe",
+    "why is the equator called the great circle of the earth",
+    "how do the Tropics of Cancer and Capricorn divide the globe",
+    "how can a place be located using the grid of the earth",
+    "why does longitude matter for timekeeping"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "draw the grid",
+     "explain": "Circles of latitude lie parallel to the equator; meridians of longitude join the poles."},
+    {"step": 2, "action": "mark the special lines",
+     "explain": "Equator, tropics and polar circles carry special climate meaning."},
+    {"step": 3, "action": "fix a position",
+     "explain": "A place's coordinates are the pair of its latitude and longitude."}
+   ]
+  },
+  {
+   "id": "hees.201.1.2",
+   "title": "The Blue Planet: Oceans and Their Depths",
+   "section": "1",
+   "definition": "Water dominates the earth - the blue planet - with oceans covering most of the surface; the deepest known point lies in the Mariana Trench, and seas like the Bay of Bengal along with straits such as Malacca shape trade, climate and marine life.",
+   "formula": "-",
+   "key_idea": "Ocean depths like the Mariana Trench dwarf land heights; oceans steer climate and trade.",
+   "textbook_ref": "hees201.txt lines 106-352 (blue of the blue planet, Mariana Trench, Bay of Bengal, Malacca)",
+   "question_patterns": [
+    "why is the earth called the blue planet",
+    "where is the Mariana Trench and what is special about it",
+    "name the major oceans of the world",
+    "what is the importance of the Strait of Malacca",
+    "how do oceans influence the climate of coastal lands",
+    "locate the Bay of Bengal and describe its role in monsoon"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "see the water share",
+     "explain": "Roughly seven-tenths of the surface is ocean, giving the blue look from space."},
+    {"step": 2, "action": "plumb the depths",
+     "explain": "Trenches like the Mariana sink deeper than mountains rise."},
+    {"step": 3, "action": "trace connections",
+     "explain": "Seas and straits link oceans, guiding shipping and monsoon systems."}
+   ]
+  },
+  {
+   "id": "hees.201.1.3",
+   "title": "Continents: Variety on Land",
+   "section": "1",
+   "definition": "Seven continents - Asia, Africa, North America, South America, Antarctica, Europe and Australia - carry every kind of landform, from the Great Barrier Reef's tropical seas near Australia to Antarctica's icy wastes, each continent with its own relief, climate and life.",
+   "formula": "-",
+   "key_idea": "Seven continents, endlessly varied: mountains, plains, deserts and ice caps share the land.",
+   "textbook_ref": "hees201.txt lines 353-430 (the continents: variety on land), 257-268 (Great Barrier Reef)",
+   "question_patterns": [
+    "name the seven continents of the world",
+    "which continent is the coldest and why",
+    "where does the Great Barrier Reef lie",
+    "compare the landforms of Asia and Antarctica",
+    "which is the largest continent by area",
+    "describe the variety of landforms found on the continents"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "list the continents",
+     "explain": "Name all seven and locate them on the globe."},
+    {"step": 2, "action": "note the contrast",
+     "explain": "From reef-warmed Australian seas to frozen Antarctica, variety rules the land."},
+    {"step": 3, "action": "link land and life",
+     "explain": "Relief and climate decide the plants, animals and people of each continent."}
+   ]
+  },
+  {
+   "id": "hees.201.1.4",
+   "title": "India in the World Geography",
+   "section": "1",
+   "definition": "Sitting between the Indian Ocean and the Himalaya, India touches the world's sea lanes and land routes; the Bay of Bengal on its east and the Arabian Sea on its west tie India to monsoon winds and to the trade geography of Asia, Africa and beyond.",
+   "formula": "-",
+   "key_idea": "India's location makes it a monsoon land and a crossroads of ocean trade.",
+   "textbook_ref": "hees201.txt lines 300-352 (Bay of Bengal), India's position in the world picture",
+   "question_patterns": [
+    "describe India's location in the world",
+    "how do the seas around India influence its climate",
+    "which water body lies to the east of India",
+    "why is India called a monsoon land",
+    "how does India's location help its trade",
+    "mark India's neighbours on a world map"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "locate India",
+     "explain": "Place India in South Asia between the Himalaya and the Indian Ocean."},
+    {"step": 2, "action": "note the seas",
+     "explain": "Bay of Bengal and Arabian Sea flank the peninsula, carrying the monsoon and trade."},
+    {"step": 3, "action": "connect the world",
+     "explain": "Land routes over the northwest and sea lanes east-west make India a junction."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "hees201.txt mapping and oceans sections",
+   "questions": [
+     "On a globe, point out the equator, Tropic of Cancer and Tropic of Capricorn.",
+     "Why is the Mariana Trench famous?",
+     "Name the continents and the oceans adjacent to each."
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "hees201.txt continents and India sections",
+   "questions": [
+     "Describe the variety of landforms on the continents.",
+     "Explain India's position in world geography."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_09_007",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_09_007",
+   "title": "c12_acc_cbse_09_007",
+   "questions": [
+    {
+     "q": "According to AS-3 (revised), which of the following is a cash inflow from financing activities for a non-financial enterprise?  \n(a) Cash receipt from sale of machinery  \n(b) Cash proceeds from issue of debentures  \n(c) Interest received on investments  \n(d) Cash received from trade receivables",
+     "a": "Correct answer: (b) Cash proceeds from issue of debentures.  \nA wrong answer reveals the student cannot distinguish financing activities from investing (a, c) or operating (d) activities. For example, choosing (a) confuses disposal of a fixed asset (investing) with raising capital. Choosing (c) mistakes interest received — which is an investing inflow for a non-financial enterprise — for a financing inflow. Choosing (d) confuses operating cash collection with financing.",
+     "self_check": true
+    },
+    {
+     "q": "A company repaid a long-term bank loan of ₹10,00,000 during the year. The loan carried 10% interest per annum, and the interest for the year was ₹1,00,000, of which ₹80,000 was paid in cash and ₹20,000 was outstanding at year-end. How much should be shown as cash outflow under financing activities for this loan?  \n(a) ₹10,00,000  \n(b) ₹10,80,000  \n(c) ₹11,00,000  \n(d) ₹10,20,000",
+     "a": "Correct answer: (b) ₹10,80,000 (₹10,00,000 principal repayment + ₹80,000 interest paid).  \nA wrong answer reveals misunderstanding of cash basis: (a) ignores interest paid; (c) includes accrued but unpaid interest (non-cash); (d) incorrectly adds outstanding interest. Only actual cash payments are reported in the cash flow statement.",
+     "self_check": true
+    },
+    {
+     "q": "XYZ Ltd. (a non-financial enterprise) issued 10,000 8% debentures of ₹100 each at par, redeemable after 5 years. During the year, it paid interest of ₹80,000 on these debentures. It also declared and paid a final dividend of ₹50,000 on equity shares. The company received ₹20,000 interest on fixed deposits. Show the relevant items in the financing activities section of the cash flow statement.",
+     "a": "Cash inflows: Proceeds from issue of debentures ₹10,00,000.  \nCash outflows: Interest paid on debentures ₹80,000; Dividend paid ₹50,000.  \nNet cash from financing activities = ₹10,00,000 - ₹80,000 - ₹50,000 = ₹8,70,000.  \nInterest received ₹20,000 is an investing inflow, not financing. A wrong answer would misclassify interest received as financing, or omit interest paid/dividend paid, or treat debenture issue as investing.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the treatment of 'interest paid' and 'dividend paid' in the cash flow statement of a financial enterprise (e.g., a bank) versus a non-financial enterprise (e.g., a manufacturing company) as per AS-3. Why does the standard make this distinction?",
+     "a": "For a financial enterprise, interest paid, interest received, and dividend received are operating activities (core business), while dividend paid is financing. For a non-financial enterprise, interest paid and dividend paid are financing activities, while interest received and dividend received are investing activities. The distinction exists because for financial enterprises, interest and dividend receipts/payments are part of their main revenue-generating operations, whereas for non-financial enterprises they are costs of financing or returns on investments. A wrong answer would apply the same classification to both, missing the conceptual basis of \"main activity\" in AS-3.",
+     "self_check": true
+    },
+    {
+     "q": "A company's long-term borrowings increased from ₹50,00,000 to ₹70,00,000 during the year. The company repaid ₹10,00,000 of an old loan during the year. The finance cost charged in the Statement of Profit and Loss was ₹6,00,000, of which ₹5,00,000 was paid in cash. The opening interest payable was ₹1,00,000 and closing interest payable was ₹2,00,000. Calculate the cash inflow from new borrowings and the cash outflow for interest paid to be shown in financing activities.",
+     "a": "Cash inflow from new borrowings = Increase in borrowings + Repayment of old loan = (₹70,00,000 - ₹50,00,000) + ₹10,00,000 = ₹30,00,000.  \nCash outflow for interest paid = ₹5,00,000 (given). Alternatively, using interest payable: Interest paid = Finance cost + Opening interest payable - Closing interest payable = ₹6,00,000 + ₹1,00,000 - ₹2,00,000 = ₹5,00,000.  \nA wrong answer might use only the change in borrowings (₹20,00,000) ignoring repayment, or use finance cost (₹6,00,000) instead of cash paid for interest.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a company undertakes the following transactions in a year: (i) Issue of bonus shares, (ii) Conversion of debentures into equity shares, (iii) Purchase of a building by issuing shares to the vendor. Explain how each is treated in the cash flow statement and why.",
+     "a": "All three are non-cash transactions and are NOT included in the cash flow statement. They must be disclosed separately in the notes to accounts (e.g., \"Non-cash investing and financing activities\"). Bonus shares and conversion of debentures do not involve cash; purchase of building by issuing shares is an investing and financing activity but with no cash flow. A poor answer would include them in financing activities with zero amounts or misclassify them as cash inflows/outflows.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

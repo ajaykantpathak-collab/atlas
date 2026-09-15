@@ -1,0 +1,100 @@
+{
+ "class": 9,
+ "subject": "science",
+ "chapter": 2,
+ "chapter_title": "Cell: The Building Block of Life",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iesc102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iesc.102.2.1",
+   "title": "The Cell as the Unit of Life",
+   "section": "2",
+   "definition": "All living beings are organised from cells - single-celled organisms carry out life with one cell, while plants, fish, birds and humans are built of millions of cells working together; a group of similar cells performing a similar job forms a tissue, the next level of organisation.",
+   "formula": "-",
+   "key_idea": "Cell to tissue to organism: life is architecture built from cellular bricks.",
+   "textbook_ref": "iesc102.txt opening and cell sections (unicellular, multicellular, tissues)",
+   "question_patterns": [
+    "why is the cell called the building block of life",
+    "differentiate unicellular and multicellular organisms with examples",
+    "what is a tissue and how does it arise from cells",
+    "how did scientists discover cells",
+    "give two examples of single-celled organisms",
+    "arrange cell, tissue, organ and organism in order of complexity"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "state the unit",
+     "explain": "The cell is the smallest structure showing all life processes."},
+    {"step": 2, "action": "compare organisms",
+     "explain": "One cell runs an amoeba; millions of specialised cells build a human."},
+    {"step": 3, "action": "build upward",
+     "explain": "Similar cells combine into tissues, tissues into organs and systems."}
+   ]
+  },
+  {
+   "id": "iesc.102.2.2",
+   "title": "Cell Structure: Membrane, Nucleus and Organelles",
+   "section": "2",
+   "definition": "A cell is bounded by a plasma membrane that controls entry and exit, with a gel-like cytoplasm holding organelles; the nucleus stores genetic material and directs the cell, while mitochondria, ribosomes and other organelles divide the labour of life.",
+   "formula": "-",
+   "key_idea": "Membrane guards, nucleus commands, organelles work - a cell is a miniature factory.",
+   "textbook_ref": "iesc102.txt cell structure sections (membrane, nucleus, organelles)",
+   "question_patterns": [
+    "draw and label the main parts of a cell",
+    "what is the function of the plasma membrane",
+    "why is the nucleus called the control centre of the cell",
+    "name three cell organelles and their functions",
+    "which organelle releases energy in the cell",
+    "how does the cell membrane decide what enters or leaves"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the boundary",
+     "explain": "The selectively permeable membrane encloses the cytoplasm."},
+    {"step": 2, "action": "locate the control room",
+     "explain": "The nucleus holds chromosomes carrying genetic instructions."},
+    {"step": 3, "action": "name the workers",
+     "explain": "Mitochondria power, ribosomes build proteins, and vacuoles store."}
+   ]
+  },
+  {
+   "id": "iesc.102.2.3",
+   "title": "Observing Cells with Microscopes and Scales",
+   "section": "2",
+   "definition": "Cells lie far below naked-eye reach, so light microscopes in school laboratories reveal them, and scale ladders - from a kilometre down to a human height, a chicken egg, a fish egg, most plant and animal cells, bacteria and viruses - place each biological object at its true size.",
+   "formula": "-",
+   "key_idea": "Microscope plus a size ladder: cells are small, viruses smaller, and scales make it exact.",
+   "textbook_ref": "iesc102.txt microscope observation and scale sections",
+   "question_patterns": [
+    "why are microscopes needed to study cells",
+    "arrange in increasing size: virus, bacterium, plant cell, chicken egg",
+    "which microscope is used in school laboratories",
+    "how small are most bacteria compared to a human cell",
+    "observe an onion peel - describe what you see under the microscope",
+    "where do mitochondria and ribosomes sit on the biological size scale"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "magnify the sample",
+     "explain": "Light microscopes enlarge thin specimens for viewing."},
+    {"step": 2, "action": "use the size ladder",
+     "explain": "Compare sizes from kilometres to ribosomes to grasp the scale of life."},
+    {"step": 3, "action": "record the observation",
+     "explain": "Sketch and label what the microscope reveals."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "iesc102.txt exercises",
+   "questions": [
+     "Label the parts of the given cell diagram and state one function each.",
+     "Differentiate unicellular and multicellular organisms.",
+     "Arrange the given biological objects by size on a scale ladder."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_02_007",
+   "title": "c10_civ_cbse_02_007",
+   "questions": [
+    {
+     "q": "Which constitutional article establishes the Finance Commission and what is its primary function in Centre-State financial relations?",
+     "a": "Article 280 establishes the Finance Commission. Its primary function is to recommend the distribution of net proceeds of taxes between the Centre and States (vertical distribution) and allocation among States (horizontal distribution), and to recommend grants-in-aid to States from the Consolidated Fund of India. A wrong answer (e.g., citing Article 275 or 282) reveals confusion between the constitutional body (Finance Commission) and the specific grants it recommends (Article 275) or discretionary grants (Article 282), indicating the student cannot distinguish the institutional mechanism from the financial instruments.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Constitution makers placed \"Education\" in the Concurrent List instead of the State List, and how this affects Centre-State legislative relations today.",
+     "a": "Education was placed in the Concurrent List (Entry 25, originally State List but moved by 42nd Amendment, 1976) to enable the Centre to frame national policies (like National Education Policy) and ensure uniform standards across States, while allowing States to legislate on local needs. In case of conflict, Central law prevails (Article 254). A wrong answer (e.g., \"Education is a State subject so Centre cannot interfere\") reveals the misconception that the original distribution is static and ignores the 42nd Amendment shift, showing the student does not understand how Concurrent List enables cooperative federalism with Central supremacy.",
+     "self_check": true
+    },
+    {
+     "q": "A State government refuses to implement a Central law on \"Prevention of Cruelty to Animals\" (a Concurrent List subject), claiming it violates State autonomy. The Centre issues directions under Article 256 for compliance. Analyse the constitutional validity of the Centre's directions and the State's obligation.",
+     "a": "The Centre's directions are constitutionally valid. Under Article 256, the executive power of every State must be exercised to ensure compliance with laws made by Parliament. Since \"Prevention of Cruelty to Animals\" is a Concurrent List subject (Entry 17), Parliament can legislate, and the State is bound to implement it. If the State refuses, the Centre can invoke Article 356 (President's Rule) on grounds of failure of constitutional machinery. A wrong answer (e.g., \"State can refuse because it's a State matter\") shows the student does not grasp that Concurrent List subjects carry Central legislative supremacy and the State's executive power is subordinated to Central law under Article 256.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of the Finance Commission (Article 280) and the Goods and Services Tax Council (Article 279A) in Centre-State financial relations. How do they differ in composition, mandate, and decision-making?",
+     "a": "The Finance Commission is a constitutional body appointed by the President every five years, chaired by a person with public affairs experience, with members having expertise in finance, economics, administration. It recommends tax devolution and grants-in-aid (vertical/horizontal distribution). The GST Council is a joint forum of Centre and States (Union Finance Minister as Chair, State Finance Ministers as members) that makes recommendations on GST rates, exemptions, thresholds. The Finance Commission decides revenue sharing; the GST Council decides the tax structure itself. Decisions in GST Council require 3/4th weighted majority (Centre 1/3, States 2/3). A wrong answer conflating the two (e.g., \"Finance Commission sets GST rates\") reveals inability to distinguish between revenue distribution mechanism and tax policy-making body, a common board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the impact of the Sarkaria Commission (1983) and Punchhi Commission (2007) recommendations on Centre-State relations. Which recommendation, if implemented, would most strengthen cooperative federalism and why?",
+     "a": "The Sarkaria Commission recommended: (1) Article 356 should be used sparingly, with prior warning and parliamentary approval; (2) Governor should be an eminent person from outside the State; (3) Inter-State Council should be permanent. The Punchhi Commission added: (1) Fixed tenure for Governors; (2) Article 356 should be amended to allow \"localized emergency\"; (3) Equal representation of States in Rajya Sabha. The most impactful unimplemented recommendation is making Article 356 subject to judicial review with strict guidelines (Sarkaria) and localized emergency (Punchhi), as it would curb arbitrary dismissal of State governments, the biggest threat to federalism. A wrong answer listing generic recommendations without evaluating their federalism impact shows the student memorised names but cannot assess institutional design.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a constitutional provision for a new \"Inter-State Water Disputes Resolution Mechanism\" that balances State autonomy with national water security. Specify the composition, powers, and binding nature of decisions.",
+     "a": "A strong answer would propose: (1) A permanent tribunal with a retired Supreme Court judge as Chair, technical experts, and one representative from each basin State; (2) Suo motu powers to take up disputes; (3) Decisions binding on parties, enforceable as a decree of the Supreme Court (like Article 262); (4) Time-bound adjudication (18 months); (5) Data-sharing mandate for States. This mirrors the Inter-State River Water Disputes Act, 1956 but adds permanence and enforceability. A poor answer (e.g., \"Centre decides\") reveals centralising bias and ignorance of Article 262 which excludes Supreme Court jurisdiction, showing the student cannot design a federal solution respecting State autonomy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

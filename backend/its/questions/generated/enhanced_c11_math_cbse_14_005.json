@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_14_005",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_14_005",
+   "title": "c11_math_cbse_14_005",
+   "questions": [
+    {
+     "q": "Write the converse and contrapositive of the implication: \"If a number is divisible by 6, then it is divisible by 3.\"",
+     "a": "Converse: \"If a number is divisible by 3, then it is divisible by 6.\" Contrapositive: \"If a number is not divisible by 3, then it is not divisible by 6.\" A wrong answer where the student writes \"If a number is not divisible by 6, then it is not divisible by 3\" reveals confusion between contrapositive and inverse — they negated but didn't swap the order, which is the inverse, not the contrapositive.",
+     "self_check": true
+    },
+    {
+     "q": "The implication \"If it rains, then the ground is wet\" is true. A student claims: \"Since the ground is wet, it must have rained.\" Is this reasoning valid? Explain why or why not using the concept of converse.",
+     "a": "The reasoning is invalid. The student used the converse (\"If the ground is wet, then it rained\"), which is not logically equivalent to the original implication. The ground could be wet due to a sprinkler, a spilled bucket, or morning dew. A wrong answer claiming it's valid reveals the critical misconception that an implication and its converse are logically equivalent — they are not; only the contrapositive is equivalent.",
+     "self_check": true
+    },
+    {
+     "q": "Given the implication: \"If a triangle is equilateral, then it is isosceles.\" Determine the truth values of the original implication, its converse, and its contrapositive. Justify each.",
+     "a": "Original: TRUE (every equilateral triangle has at least two equal sides, so it is isosceles). Converse: FALSE (an isosceles triangle need not be equilateral; e.g., sides 5,5,8). Contrapositive: TRUE (logically equivalent to original; if a triangle is not isosceles, it has no equal sides, so it cannot be equilateral). A wrong answer marking converse as true reveals the misconception that \"isosceles implies equilateral\" — confusing necessary and sufficient conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the logical structure of these two arguments:\nArgument A: \"If you study hard, you will pass. You did not pass. Therefore, you did not study hard.\"\nArgument B: \"If you study hard, you will pass. You passed. Therefore, you studied hard.\"\nWhich argument uses valid deductive reasoning? Identify the logical form each uses.",
+     "a": "Argument A is valid; it uses modus tollens (contrapositive reasoning): p → q, ¬q ⊢ ¬p. Argument B is invalid; it affirms the consequent (converse reasoning): p → q, q ⊢ p. A wrong answer saying both are valid or both invalid reveals inability to distinguish between contrapositive (valid) and converse (invalid) as inference rules — a fundamental error in mathematical proof writing.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the contrapositive of \"If x is prime and x > 2, then x is odd\" as \"If x is not odd, then x is not prime or x ≤ 2.\" Is this correct? Evaluate the student's work step by step.",
+     "a": "Yes, it is correct. Step 1: Original is (p ∧ q) → r where p: \"x is prime\", q: \"x > 2\", r: \"x is odd\". Step 2: Contrapositive is ¬r → ¬(p ∧ q). Step 3: ¬r is \"x is not odd\" (i.e., x is even). Step 4: ¬(p ∧ q) ≡ ¬p ∨ ¬q by De Morgan's law: \"x is not prime or x ≤ 2\". A wrong answer missing the \"or\" (writing \"and\") reveals failure to apply De Morgan's law when negating a compound antecedent — a common error with compound statements.",
+     "self_check": true
+    },
+    {
+     "q": "Construct an original implication p → q about integers such that: (a) the original implication is true, (b) the converse is false, and (c) the contrapositive is true. Explain why your example satisfies all three conditions.",
+     "a": "Example: \"If an integer is a multiple of 4, then it is even.\" (a) True: every multiple of 4 is 4k = 2(2k), hence even. (b) Converse \"If an integer is even, then it is a multiple of 4\" is false (counterexample: 2 is even but not a multiple of 4). (c) Contrapositive \"If an integer is not even (i.e., odd), then it is not a multiple of 4\" is true (odd numbers cannot be multiples of 4). A poor example where converse is also true (e.g., \"If x = 2, then x² = 4\") reveals the student doesn't understand that converse can differ in truth value from the original.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

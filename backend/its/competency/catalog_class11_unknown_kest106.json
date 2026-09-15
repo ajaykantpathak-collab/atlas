@@ -1,0 +1,180 @@
+{
+  "class": 11,
+  "subject": "economics",
+  "chapter": 106,
+  "chapter_title": "Correlation",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kest106.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kest106.1.1",
+      "title": "Correlation: Studying Relationships Between Variables",
+      "section": "1.1",
+      "definition": "Summer heat brings crowds to hill stations and brisk ice-cream sales -- temperature, visitors and sales move together. Correlation is the statistical tool that studies such relationship: whether two variables move together, in which direction, and how closely.",
+      "formula": "",
+      "key_idea": "Do they move together, opposite, or not at all -- correlation answers the relationship question.",
+      "textbook_ref": "kest106.txt opening and types sections (temperature and ice cream example, meaning of correlation, positive negative and zero correlation)",
+      "question_patterns": [
+        "define correlation and give an example from daily life",
+        "in class 11 correlation chapter: distinguish positive negative and zero correlation",
+        "what does a high degree of correlation indicate",
+        "give two pairs of variables with negative correlation",
+        "why is the study of correlation useful in economics",
+        "identify the direction of correlation in a given data set"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "observe co-movement",
+          "explain": "Plot or tabulate the two variables and see whether high values of one accompany high or low values of the other."
+        },
+        {
+          "step": 2,
+          "action": "classify the direction",
+          "explain": "Same direction is positive correlation, opposite movement is negative, and no consistent pattern is zero or no correlation."
+        },
+        {
+          "step": 3,
+          "action": "gauge the strength",
+          "explain": "The closeness of the pattern -- tight or scattered -- measures the degree of correlation."
+        }
+      ]
+    },
+    {
+      "id": "kest106.1.2",
+      "title": "Scatter Diagram and Karl Pearson's Coefficient",
+      "section": "1.2",
+      "definition": "A scatter diagram dots the pairs of values on a graph, giving a first visual verdict on relationship. Karl Pearson's coefficient of correlation refines it to a precise number between -1 and +1, measuring both direction and degree of the linear relationship.",
+      "formula": "r_value = cov_xy / (sd_x * sd_y)",
+      "key_idea": "First the dots, then the number -- Pearson's r puts the scatter's message between -1 and +1.",
+      "textbook_ref": "kest106.txt scatter pearson sections (scatter diagram, karl pearson coefficient of correlation, properties of r, degree of correlation)",
+      "question_patterns": [
+        "what does a scatter diagram show about two variables",
+        "in class 11 correlation chapter: state the properties of karl pearson's correlation coefficient",
+        "interpret r equal to plus 1, minus 1 and zero",
+        "compute the coefficient of correlation from the given summary values",
+        "why can the coefficient of correlation not exceed one",
+        "draw a scatter diagram and comment on the type of correlation"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "multiply the spreads",
+          "explain": "Multiply the standard deviation of x by that of y to get the benchmark for shared variation.",
+          "compute": "spread_product = sd_x * sd_y"
+        },
+        {
+          "step": 2,
+          "action": "divide covariance by it",
+          "explain": "Covariance divided by the spread product gives r, bounded between -1 and +1.",
+          "compute": "r_value = cov_xy / spread_product"
+        }
+      ]
+    },
+    {
+      "id": "kest106.1.3",
+      "title": "Spearman's Rank Correlation and the Warning of Causation",
+      "section": "1.3",
+      "definition": "When data are ranked rather than measured, Spearman's rank correlation compares the differences in ranks to obtain a coefficient. And a caution closes the chapter: high correlation does not prove causation -- a third factor or pure coincidence may drive both variables together.",
+      "formula": "",
+      "key_idea": "Ranks correlate too -- and even a perfect r is evidence of association, never proof of cause.",
+      "textbook_ref": "kest106.txt rank sections (spearman rank correlation, rank differences, correlation and causation, spurious correlation)",
+      "question_patterns": [
+        "when is spearman's rank correlation preferred to pearson's",
+        "in class 11 correlation chapter: compute rank correlation from the given ranks",
+        "explain why correlation does not imply causation with an example",
+        "what is a spurious correlation",
+        "how are tied ranks handled in rank correlation",
+        "two variables correlate highly -- what explanations are possible"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "rank each variable",
+          "explain": "Arrange each series in order and assign ranks, averaging where values tie."
+        },
+        {
+          "step": 2,
+          "action": "compare the ranks",
+          "explain": "The differences between paired ranks measure disagreement; Spearman's formula converts their squares into a coefficient between -1 and +1."
+        },
+        {
+          "step": 3,
+          "action": "guard the interpretation",
+          "explain": "Report association only -- declaring causation requires reasoning beyond the correlation coefficient."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kest106.txt scatter pearson sections",
+      "concept": "kest106.1.2",
+      "question_type": "compute",
+      "question_pattern": "If the covariance of x and y is {cov_xy} and their standard deviations are {sd_x} and {sd_y}, find the coefficient of correlation.",
+      "extracted_variables": {
+        "cov_xy": 6,
+        "sd_x": 2,
+        "sd_y": 3
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "multiply the spreads",
+          "explain": "spread_product = 2 * 3 = 6.",
+          "compute": "spread_product = sd_x * sd_y"
+        },
+        {
+          "step": 2,
+          "action": "divide covariance by it",
+          "explain": "r_value = 6 / 6 = 1 -- perfect positive correlation.",
+          "compute": "r_value = cov_xy / spread_product"
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kest106.txt scatter pearson sections",
+      "concept": "kest106.1.2",
+      "question_type": "compute",
+      "question_pattern": "Given covariance {cov_xy}, sd of x = {sd_x} and sd of y = {sd_y}, compute r and state its degree.",
+      "extracted_variables": {
+        "cov_xy": -8,
+        "sd_x": 4,
+        "sd_y": 5
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "multiply the spreads",
+          "explain": "spread_product = 4 * 5 = 20.",
+          "compute": "spread_product = sd_x * sd_y"
+        },
+        {
+          "step": 2,
+          "action": "divide covariance by it",
+          "explain": "r_value = -8 / 20 = -0.4 -- a moderate negative correlation.",
+          "compute": "r_value = cov_xy / spread_product"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kest106.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Define correlation and explain its types with examples.",
+        "Draw a scatter diagram for the given data and interpret it.",
+        "Compute Karl Pearson's coefficient from the given data.",
+        "Calculate Spearman's rank correlation for the given ranks.",
+        "Explain why correlation does not establish causation.",
+        "Interpret a correlation coefficient of minus 0.9 between price and demand."
+      ]
+    }
+  ]
+}

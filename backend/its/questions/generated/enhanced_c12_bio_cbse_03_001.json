@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_03_001",
+   "title": "c12_bio_cbse_03_001",
+   "questions": [
+    {
+     "q": "Name the two main types of cells in the seminiferous tubules of the testis and state one function of each.",
+     "a": "Correct answer: Sertoli cells (nurse cells) – provide nutrition and support to developing spermatogenic cells; Spermatogonia (germ cells) – undergo mitosis and meiosis to produce spermatozoa. Leydig cells (interstitial cells) are located outside the tubules and produce testosterone. A wrong answer (e.g., confusing Sertoli and Leydig cells) reveals the student hasn't distinguished between intratubular and interstitial cell types and their distinct roles.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the testes are located in the scrotum outside the abdominal cavity, and describe the mechanism that helps maintain the required temperature.",
+     "a": "Correct answer: Spermatogenesis requires a temperature 2-3°C lower than core body temperature. The scrotum provides this cooler environment. The cremaster muscle and dartos muscle regulate testicular position: in cold, they contract to pull testes closer to the body; in heat, they relax to lower testes away from the body. A wrong answer (e.g., saying testes are outside for protection or to avoid pressure) shows the student doesn't understand the temperature dependence of spermatogenesis and the thermoregulatory mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "A male patient has a blockage in the vas deferens on both sides. Predict which components of semen will be absent and explain why the volume of ejaculate might be reduced but not zero.",
+     "a": "Correct answer: Spermatozoa will be absent because the vas deferens transports sperm from the epididymis. However, seminal fluid from the seminal vesicles, prostate, and bulbourethral glands will still be present because their ducts join the urethra independently (via ejaculatory ducts and prostatic urethra). Thus ejaculate volume is reduced (no sperm contribution) but not zero. A wrong answer (saying no semen at all) indicates the student thinks all semen components come via the vas deferens, confusing the duct system with accessory gland ducts.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the functions of the epididymis and the vas deferens in sperm maturation and transport. How does the structure of each relate to its function?",
+     "a": "Correct answer: The epididymis is a highly coiled single tube (6 m long) where sperm gain motility and fertilizing capacity over 10-14 days; its epithelium secretes nutrients and absorbs fluid. The vas deferens is a thick muscular tube that propels sperm via peristalsis during ejaculation; its smooth muscle layers enable strong contractions. The epididymis is for maturation and storage; the vas deferens is for rapid transport. A wrong answer (swapping functions) shows the student hasn't analyzed the structural adaptations (coiled vs muscular) for their distinct roles.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: 'The urethra in males serves only as a passage for urine.' Evaluate this statement and correct it.",
+     "a": "Correct answer: The statement is false. The male urethra is a shared passage for both urine (from urinary bladder) and semen (from reproductive ducts). During sexual arousal, the internal urethral sphincter prevents urine entry, allowing semen to pass. A wrong answer (agreeing) reveals the student overlooks the dual role of the male urethra and the sphincter mechanism that prevents mixing.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a model or diagram to demonstrate how the cremaster and dartos muscles regulate testicular temperature. List the materials, steps, and what observation would confirm the mechanism.",
+     "a": "Expected answer: Use a thermometer, a model of scrotum with adjustable distance from a heat source (representing body), and simulate muscle contraction/relaxation by moving the model closer/farther. Measure temperature changes. Observation: Temperature decreases when model is lowered (muscles relaxed) and increases when raised (muscles contracted). A poor answer (no control, no temperature measurement) shows the student cannot translate the physiological mechanism into a testable model.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

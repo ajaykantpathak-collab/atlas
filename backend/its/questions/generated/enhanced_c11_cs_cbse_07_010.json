@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_07_010",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_07_010",
+   "title": "c11_cs_cbse_07_010",
+   "questions": [
+    {
+     "q": "What is the return type of `d.keys()` for a dictionary `d` in Python 3, and how does it behave when a new key-value pair is added to `d` after the view is created?",
+     "a": "`d.keys()` returns a `dict_keys` view object (not a list). This view is dynamic: if a new key is added to `d` after the view is created, the view automatically reflects the new key without needing to be recreated. A wrong answer (e.g., \"it returns a list\" or \"it doesn't update\") reveals the student confuses Python 2 behavior (where `keys()` returned a static list) with Python 3, or misunderstands that views are live windows into the dictionary.",
+     "self_check": true
+    },
+    {
+     "q": "Given `marks = {\"Physics\": 78, \"Chemistry\": 82}`, what does `marks.get(\"Biology\")` return, and what does `marks.get(\"Biology\", 0)` return? Explain why the second form is safer for calculating totals.",
+     "a": "`marks.get(\"Biology\")` returns `None` (the default when key is missing and no default is provided). `marks.get(\"Biology\", 0)` returns `0`. The second form is safer for totals because `None` cannot be added to integers (causes `TypeError`), while `0` is the additive identity. A wrong answer (e.g., \"both return 0\" or \"first raises KeyError\") shows the student doesn't know `get()` never raises KeyError and doesn't understand the role of the default parameter in arithmetic contexts.",
+     "self_check": true
+    },
+    {
+     "q": "You have `inventory = {\"apples\": 50, \"bananas\": 30}`. You receive a shipment as a list of tuples: `shipment = [(\"apples\", 20), (\"oranges\", 40), (\"bananas\", 10)]`. Write the single statement to merge this shipment into `inventory` using `update()`, and state the final value of `inventory[\"apples\"]`.",
+     "a": "`inventory.update(shipment)` merges the list of tuples. Final `inventory[\"apples\"]` is 70 (50 + 20). A wrong answer (e.g., `inventory.update({\"apples\": 20, ...})` requiring manual conversion, or thinking `update` only accepts dictionaries) reveals the student doesn't know `update()` accepts any iterable of key-value pairs (including lists of tuples), a common board exam pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Consider this code:\n```python\nd = {\"x\": 1, \"y\": 2}\nv = d.values()\nd[\"z\"] = 3\nprint(list(v))\n```\nWhat is printed? Now consider:\n```python\nd = {\"x\": 1, \"y\": 2}\nv = list(d.values())\nd[\"z\"] = 3\nprint(v)\n```\nExplain the difference in output and why it matters for memory and correctness.",
+     "a": "First snippet prints `[1, 2, 3]` because `v` is a live view reflecting the new key \"z\". Second snippet prints `[1, 2]` because `list(d.values())` creates a static snapshot at that moment. The difference matters: views use O(1) memory and stay consistent with the dictionary; snapshots use O(n) memory and can become stale. A wrong answer (e.g., both print `[1, 2, 3]`) shows the student doesn't grasp the view vs. list distinction, leading to bugs in long-running programs where dictionaries mutate.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this function to safely increment a counter in a dictionary:\n```python\ndef increment(d, key):\n    d[key] = d.get(key) + 1\n```\nIdentify the bug when `key` is not in `d`, and provide the corrected one-line fix using `get()` with a default argument. Justify why your fix works for all cases.",
+     "a": "Bug: `d.get(key)` returns `None` for missing keys, so `None + 1` raises `TypeError`. Fix: `d[key] = d.get(key, 0) + 1`. This works because for existing keys, `get` returns the current integer value; for missing keys, it returns `0`, so `0 + 1 = 1` correctly initializes the counter. A wrong fix (e.g., `d[key] = d.get(key, 1)` or using `if key in d`) shows the student doesn't understand that the default must be the additive identity (0) for increment logic, or overcomplicates a one-liner that `get()` is designed for.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where you would use all five methods (`keys`, `values`, `items`, `get`, `update`) together in a single program. Write pseudocode showing the sequence of operations and explain why each method is the right choice at its step.",
+     "a": "Scenario: A kirana store inventory system. `stock = {\"wheat\": 100, \"rice\": 50, \"dal\": 30}` (kg).\n1. `print(\"Items:\", list(stock.keys()))` — display all item names for customer menu.\n2. `print(\"Quantities:\", list(stock.values()))` — show current stock levels for reorder check.\n3. `for item, qty in stock.items(): print(f\"{item}: {qty} kg\")` — print formatted bill-style list.\n4. `order_qty = stock.get(\"sugar\", 0)` — safely check sugar stock (may not exist yet) without crash.\n5. `stock.update({\"sugar\": 20, \"rice\": 60, \"oil\": 15})` — merge new delivery: adds sugar, updates rice, adds oil.\nEach method is optimal: views for live display, `get` for safe lookup with default, `update` for bulk merge. A poor answer uses `[]` access for step 4 (crash risk), converts views to lists prematurely, or merges manually in a loop.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

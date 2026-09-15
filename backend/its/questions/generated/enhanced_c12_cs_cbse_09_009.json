@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_09_009",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_09_009",
+   "title": "c12_cs_cbse_09_009",
+   "questions": [
+    {
+     "q": "What is the correct syntax to define a lambda function that takes two arguments `x` and `y` and returns their sum?",
+     "a": "`lambda x, y: x + y`  \nA wrong answer like `lambda x, y { return x + y }` reveals the student thinks lambdas use block syntax like `def`. Another error `lambda x, y -> x + y` shows confusion with arrow syntax from other languages. The correct form uses a colon and a single expression without `return`.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following code raises a SyntaxError: `lambda x: if x > 0: x else: -x`",
+     "a": "Lambda functions can only contain a single expression, not statements like `if/else` blocks. The correct way is to use a conditional expression: `lambda x: x if x > 0 else -x`. A student who writes the erroneous version misunderstands that lambdas are limited to expressions and tries to embed a statement, which is not allowed.",
+     "self_check": true
+    },
+    {
+     "q": "Given a list `nums = [1, 2, 3, 4, 5]`, write a single line using `map` and a lambda to produce a new list where each element is doubled.",
+     "a": "`list(map(lambda x: x * 2, nums))`  \nA wrong answer like `map(lambda x: x * 2, nums)` without `list()` shows the student forgets that `map` returns an iterator in Python 3. Another error `map(lambda x: x * 2, nums)` inside a list comprehension `[map(lambda x: x * 2, nums)]` indicates confusion about how `map` works.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two snippets and state which is more appropriate and why:\n```python",
+     "a": "Snippet B is more appropriate for a simple, one‑off transformation because it avoids polluting the namespace with a named function. Snippet A is better if the function is reused, needs documentation, or contains complex logic. A student who insists Snippet A is always better misses the purpose of lambdas as lightweight, inline functions.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: `lambda x, y=10: x + y` and claims default arguments are not allowed in lambdas. Evaluate this claim.",
+     "a": "The claim is false. Lambdas support default arguments exactly like `def` functions. The given lambda is valid and can be called as `f(5)` (returns 15) or `f(5, 20)` (returns 25). A student who thinks defaults are disallowed may have confused lambdas with a restricted subset of function features.",
+     "self_check": true
+    },
+    {
+     "q": "Design a lambda function that, given a string, returns the string reversed and converted to uppercase. Then show how to apply it to a list of strings using `map`.",
+     "a": "`lambda s: s[::-1].upper()`  \nApplication: `list(map(lambda s: s[::-1].upper(), ['hello', 'world']))` produces `['OLLEH', 'DLROW']`. A poor answer might try to use a loop inside the lambda or forget that string slicing returns a new string, revealing misunderstanding of expression‑only limitation and string methods.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_01_001",
+   "title": "c12_hist_cbse_01_001",
+   "questions": [
+    {
+     "q": "Who was the first Director-General of the Archaeological Survey of India (ASI) and what was his primary archaeological interest that caused him to overlook the Harappan Civilisation's antiquity?",
+     "a": "Alexander Cunningham was the first Director-General of the ASI (appointed 1861). His primary interest was the Early Historic period (c. 6th century BCE–4th century CE), especially sites associated with Chinese Buddhist pilgrims' accounts. He tried to fit Harappan seals into this later timeframe and failed to recognise their much greater age. A wrong answer (e.g., naming John Marshall or Mortimer Wheeler) reveals confusion about the chronological sequence of ASI leadership and the evolution of Indian archaeology.",
+     "self_check": true
+    },
+    {
+     "q": "Why did John Marshall's 1924 announcement of a \"new civilisation in the Indus valley\" change the chronological framework of Indian history?",
+     "a": "Marshall's announcement was based on the discovery of similar seals at Harappa (by Daya Ram Sahni) and Mohenjodaro (by Rakhal Das Banerji) in stratigraphic layers older than Early Historic levels. Crucially, identical seals were found at Mesopotamian sites dated to the third millennium BCE, proving the Indus civilisation was contemporaneous with Mesopotamia. This pushed Indian urban history back by over two thousand years. A wrong answer that focuses only on the seal discoveries without the Mesopotamian correlation shows incomplete understanding of how cross-cultural dating works.",
+     "self_check": true
+    },
+    {
+     "q": "Marshall excavated \"along regular horizontal units, measured uniformly throughout the mound, ignoring the stratigraphy.\" If you were an archaeologist at Mohenjodaro in the 1920s, what specific information would be lost by this method, and how would it affect interpretation of the site's chronological sequence?",
+     "a": "Horizontal excavation mixes artefacts from different time periods into the same unit, destroying the vertical stratigraphic sequence that reveals cultural evolution. At Mohenjodaro, this meant Early Harappan, Mature Harappan, and Late Harappan materials could be grouped together, making it impossible to trace developmental changes in pottery styles, seal motifs, or building techniques over time. A student who only mentions \"loss of context\" without specifying the blending of chronological layers misses the core methodological flaw.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Wheeler's stratigraphic approach at Harappa (1946) with Marshall's horizontal method. How did Wheeler's military background influence his archaeological practice, and what specific problem did it solve?",
+     "a": "Wheeler recognised that mounds have sloping, non-horizontal layers formed by human occupation and natural processes. His military experience gave him precision in grid layout and discipline in following the natural stratigraphy (digging in \"boxes\" with baulks left standing to preserve section drawings). This solved the problem of mixed contexts: artefacts could now be assigned to specific cultural phases, enabling a reliable relative chronology. A student who says Wheeler just \"dug more carefully\" without linking stratigraphy to chronological control has not grasped the conceptual advance.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The partition of India in 1947 was a setback for Harappan archaeology because the major sites (Harappa, Mohenjodaro) went to Pakistan.\" Use evidence from post-1947 developments in Indian archaeology to support your judgment.",
+     "a": "The partition initially seemed a setback, but it spurred systematic surveys in India (Kutch, Punjab, Haryana) leading to the discovery of major sites like Kalibangan, Lothal, Dholavira, and Rakhigarhi. Indian archaeologists developed independent research programmes, and since the 1980s, international collaborations at Harappa and Mohenjodaro have continued. The statement is partially true in the short term but false in the long term: Indian Harappan archaeology flourished precisely because of the need to locate sites within new borders. A student who calls it purely a setback ignores the adaptive response of the discipline.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline of methodological shifts in Harappan archaeology from 1875 to 2013, annotating each entry with the archaeologist's name, their key contribution, and one limitation of their approach that the next archaeologist addressed.",
+     "a": "A strong timeline would include:\n1. 1875 Cunningham: First documentation of Harappan seal; limitation — text-driven framework missed pre-Early Historic antiquity.\n2. 1921–22 Sahni/Banerji: Seal discoveries at Harappa/Mohenjodaro in ancient layers; limitation — still no systematic stratigraphy.\n3. 1924 Marshall: Announced new civilisation using Mesopotamian parallels; limitation — horizontal excavation destroyed stratigraphic context.\n4. 1946 Wheeler: Introduced stratigraphic grid excavation; limitation — still focused on large mounds, limited scientific analysis.\n5. 1955 onward (S.R. Rao, B.B. Lal, etc.): Expansion to Gujarat/Rajasthan; limitation — early work lacked interdisciplinary science.\n6. 1980s onward: Surface exploration, archaeobotany, zooarchaeology; limitation — early decades limited by technology.\n7. 2013 Vasant Shinde: Archaeogenetic research at Rakhigarhi; limitation — ancient DNA preservation remains challenging.\nA weak answer would list dates without linking each advance to the previous limitation, showing a lack of historical reasoning about methodological progress.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

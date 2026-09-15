@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_10_008",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_10_008",
+   "title": "c12_eco_cbse_10_008",
+   "questions": [
+    {
+     "q": "In a two-sector economy, if the saving function is S = -50 + 0.2Y and autonomous investment is I = 200, what is the equilibrium level of income?",
+     "a": "Equilibrium income Y = 1,250. Steps: Set S = I → -50 + 0.2Y = 200 → 0.2Y = 250 → Y = 1,250. A wrong answer (e.g., Y = 1,000) reveals the student either forgot the negative autonomous saving term (-50) or incorrectly used MPC instead of MPS. This tests recall of the saving function structure and algebraic manipulation — both essential for board exam 3-4 mark questions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the condition S = I is equivalent to AD = AS in a two-sector economy. Use the identities Y = C + S and AD = C + I in your reasoning.",
+     "a": "From Y = C + S and AD = C + I, at equilibrium AD = Y (or AD = AS where AS = Y). So C + I = C + S → I = S. A wrong answer stating \"S = I because saving funds investment\" confuses ex-post identity with ex-ante equilibrium condition. The correct reasoning uses accounting identities: in a two-sector economy, AS ≡ Y ≡ C + S and AD ≡ C + I. Equilibrium requires AD = AS, hence C + I = C + S → I = S. This distinction between identity and equilibrium condition is a frequent board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "An economy has saving function S = -100 + 0.25Y. Autonomous investment increases from ₹300 cr to ₹400 cr. Calculate the change in equilibrium income and the investment multiplier value.",
+     "a": "Initial equilibrium: -100 + 0.25Y₁ = 300 → 0.25Y₁ = 400 → Y₁ = 1,600. New equilibrium: -100 + 0.25Y₂ = 400 → 0.25Y₂ = 500 → Y₂ = 2,000. ΔY = 400. Multiplier k = ΔY/ΔI = 400/100 = 4. Alternatively, k = 1/MPS = 1/0.25 = 4. A student getting ΔY = 100 reveals they forgot the multiplier effect and treated ΔI = ΔY directly. This tests application of multiplier concept (preview of next node) within S = I framework.",
+     "self_check": true
+    },
+    {
+     "q": "In the S = I diagram, the saving curve shifts upward due to an increase in MPS (marginal propensity to save) while autonomous investment remains unchanged. Analyze the effect on equilibrium income and the level of saving at the new equilibrium.",
+     "a": "Higher MPS makes saving curve steeper (rotates upward). New intersection with horizontal I curve occurs at lower Y. Equilibrium income decreases. However, at new equilibrium, S = I still holds, and since I is unchanged, the equilibrium level of saving remains exactly the same (equal to autonomous I). A student claiming \"saving increases because MPS increased\" commits the paradox of thrift error — confusing the saving function shift with the equilibrium outcome. This tests analytical understanding of comparative statics in S = I framework.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"In the S = I approach, if households decide to save more at every income level (autonomous saving increases), the economy will end up with higher total savings at equilibrium.\"",
+     "a": "The statement is FALSE. Higher autonomous saving (more negative intercept, e.g., S = -80 + 0.2Y instead of -50 + 0.2Y) shifts the S curve upward. New equilibrium occurs at lower Y where S = I. Since I is autonomous and unchanged, equilibrium saving S* = I* remains identical. Total saving does not increase — this is the paradox of thrift. A student agreeing with the statement fails to distinguish between the saving function (schedule) and equilibrium saving (outcome). This tests evaluative judgment on a classic macroeconomic paradox.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a numerical example where an economy's saving function is S = -40 + 0.2Y and investment function is I = 60 + 0.1Y (induced investment). Find equilibrium income and explain why this differs from the standard S = I model with autonomous investment only.",
+     "a": "Set S = I: -40 + 0.2Y = 60 + 0.1Y → 0.1Y = 100 → Y = 1,000. Standard model assumes I is autonomous (horizontal line), giving k = 1/MPS. With induced investment (I = I₀ + iY, i > 0), the I curve slopes upward. Equilibrium condition becomes S - iY = I₀ → (s - i)Y = I₀ + c → Y = (I₀ + c)/(s - i). Multiplier becomes 1/(MPS - MPI) > 1/MPS. A student using k = 1/MPS = 5 here would get wrong ΔY for a given ΔI₀. This tests ability to extend the model beyond textbook assumptions — a competitive exam (CUET/JEE) requirement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

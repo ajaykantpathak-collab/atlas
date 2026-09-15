@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_02_008",
+   "title": "c12_hin_ar_cbse_02_008",
+   "questions": [
+    {
+     "q": "Define 'imagery' (चित्रण) and 'metaphor' (रूपक) in your own words using NCERT terminology. Give one example of each from the poem \"इराव\" without quoting full lines.",
+     "a": "Imagery: संवेदनाओं (इन्द्रियों) को सम्बोधित करने वाले शब्दों/पदों का प्रयोग जो पाठक के मन में सजीव चित्र उत्पन्न करे। Metaphor: दो असमान वस्तुओं/भावों की सीधी तुलना जहाँ 'जैसे/वत्' का प्रयोग न हो, एक वस्तु के गुण दूसरी पर आरोपित हों। Example imagery: \"ठिठुरन\" (स्पर्श), \"सीटी\" (श्रवण)। Example metaphor: \"पक्षियों के पंखों-सी लालिमा\" (आकाश की लालिमा = पक्षी के पंख) — यहाँ उपमान और उपमेय का सीधा आरोपण है।  \n**Wrong answer reveals:** Student confuses metaphor with simile (उपमा) by inserting \"जैसे\", or lists only visual images ignoring auditory/tactile. They may also give a generic definition without tying to the poem's specific sensory palette.",
+     "self_check": true
+    },
+    {
+     "q": "The poem opens with \"सबसे रसीली ठंडी सुबह, खड़खड़ धूप निकली\". Explain how the *combination* of the adjective \"रसीली\" (juicy/succulent) with \"ठंडी\" (cold) and the onomatopoeic \"खड़खड़\" creates a synesthetic image. Why is this more effective than saying \"बहुत ठंडी सुबह, धूप निकली\"?",
+     "a": "\"रसीली\" (taste) + \"ठंडी\" (touch) = synesthesia: the cold is not just temperature but has a palpable, almost edible richness — winter as a ripe fruit. \"खड़खड़\" (sound) personifies sunlight as something that *clatters* into the world like a rickety cart, making light audible and tangible. The plain version \"बहुत ठंडी सुबह\" only states degree; the poetic version *enacts* the morning's texture, sound, and surprise.  \n**Wrong answer reveals:** Student treats \"रसीली\" as mere ornament (\"अच्छा लगता है\") and misses the cross-sensory fusion. They may also miss that \"खड़खड़\" is onomatopoeia *serving* imagery, not just a sound word.",
+     "self_check": true
+    },
+    {
+     "q": "Identify the metaphor in \"पक्षियों के पंखों-सी लालिमा\" and \"मकई के भुट्टे-सी धूप\". For each, name the tenor (उपमेय), vehicle (उपमान), and the *specific quality* transferred. Then rewrite the second metaphor as a simile (उपमा) and explain what is lost in the conversion.",
+     "a": "1. \"पक्षियों के पंखों-सी लालिमा\": Tenor = सुबह की लालिमा (dawn's redness), Vehicle = पक्षियों के पंख (birds' wings), Quality = जीवंत कम्पन, कोमलता, उड़ान की तत्परता (vibrant tremor, softness, readiness for flight).  \n2. \"मकई के भुट्टे-सी धूप\": Tenor = धूप (sunlight), Vehicle = मकई का भुट्टा (corn cob), Quality = पंक्तिबद्ध किरणें, सुनहरा रंग, पौष्टिकता/ऊष्मा का सघन बंडल (aligned rays, golden hue, dense bundle of warmth/nourishment).  \nSimile rewrite: \"धूप मकई के भुट्टे *जैसी* है।\" Lost: the *immediacy* of identity — metaphor says sunlight *is* a corn cob (condensed energy), simile only says it *resembles* one, weakening the nutritional/warmth equivalence crucial to the poem's theme of sustenance.  \n**Wrong answer reveals:** Student swaps tenor/vehicle, or gives vague quality (\"सुन्दरता\") instead of poem-specific attributes (पौष्टिकता, कतारबद्ध किरणें). They may think simile and metaphor are interchangeable in effect.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the tactile imagery in stanza 2 (\"बच्चों की ठिठुरी हुई मुट्ठियाँ\", \"सीटी बजाते\") with the visual metaphor in stanza 3 (\"एक एक्कस के लग्गीस... इरावों की सबसे बड़ी पूँछ\"). How do these two devices *together* construct the poem's attitude toward winter — not as enemy but as playmate?",
+     "a": "Tactile imagery: \"ठिठुरी हुई मुट्ठियाँ\" (clenched frozen fists) makes the cold *physically felt* — the body's instinctive contraction. \"सीटी बजाते\" adds auditory defiance: breath turned into music. Visual metaphor: \"इरावों की सबसे बड़ी पूँछ\" (longest tail of the eras) reimagines the line of children as a single mythical creature's tail — winter's harshness becomes the *backdrop* for a collective, playful organism. Together: imagery grounds the *struggle* (cold body), metaphor transforms the *response* into cosmic play. Winter is the stage, not the villain.  \n**Wrong answer reveals:** Student analyzes devices in isolation (\"imagery shows cold, metaphor shows line\") and misses the *dialectic* — how metaphor *redeems* the discomfort shown by imagery. They may also miss that \"इराव\" (era/eon) metaphor elevates a momentary queue to geological time.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the interpretation: \"The poem uses metaphors only to beautify the description of a winter morning.\" Defend or refute using evidence from the poem's structure and theme.",
+     "a": "Refute. Metaphors here are *structural*, not decorative.  \nEvidence 1: \"पक्षियों के पंखों-सी लालिमा\" → transfers *flight* to dawn, foreshadowing children's movement.  \nEvidence 2: \"मकई के भुट्टे-सी धूप\" → transfers *nourishment* to sunlight, directly supporting the theme of sustenance (children \"खाते\" हैं धूप).  \nEvidence 3: \"इरावों की सबसे बड़ी पूँछ\" → transforms a transient queue into a timeless creature, enacting the theme \"childhood outlasts eras\".  \nIf merely decorative, removing them would leave the literal description intact; but removing them collapses the poem's argument that winter *feeds* childhood.  \n**Wrong answer reveals:** Student agrees (\"हाँ, सुन्दरता के लिए\") or gives generic \"metaphors enhance beauty\" without textual evidence. They fail to see metaphor as *argument* in poetry.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-line stanza (in Hindi) describing a *summer* morning using: (a) one synesthetic image blending two senses, (b) one metaphor equating a natural element to a human artifact, (c) tactile + auditory imagery. Do not copy the poem's words.",
+     "a": "Example:  \n\"लोहे-सी तपती दुपहरी, चखी जाती है जलती रोटी-सी,  \nसड़क पिघलती मोमबत्ती, बहती चुपके-चुपके,  \nपैरों तले चुभन गाती, चिड़ियाँ टिन की छत पर बजती,  \nपसीना नमक बनकर झरता, धरती की थाली में।\"  \n(a) Synesthetic: \"चखी जाती है जलती रोटी-सी\" (taste + touch + sight).  \n(b) Metaphor: \"सड़क पिघलती मोमबत्ती\" (road = melting candle).  \n(c) Tactile + auditory: \"पैरों तले चुभन गाती\" (prickling sings), \"चिड़ियाँ टिन की छत पर बजती\" (birds ring on tin roof).  \n**Poor answer reveals:** Uses simile (\"जैसी\") instead of metaphor, misses synesthesia (only single-sense images), or copies winter imagery (fog, cold) instead of adapting to summer.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

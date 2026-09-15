@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_19_011",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_19_011",
+   "title": "c12_eng_k_cbse_19_011",
+   "questions": [
+    {
+     "q": "In the sentence \"A 'sports story' must have, as part of its content, some competitive activity,\" why can the verb \"have\" not be converted into a passive construction, even though it is followed by a noun phrase?",
+     "a": "Correct answer: \"Have\" is a stative transitive verb denoting possession or inclusion, not an action performed on an object; stative verbs like have, own, possess, lack, resemble do not allow passivization because no \"action\" is received by the object. A wrong answer (e.g., \"because it's intransitive\") reveals the student confuses transitivity with passivizability — they think only intransitive verbs resist passive, not realizing some transitive verbs (stative ones) also resist it.",
+     "self_check": true
+    },
+    {
+     "q": "Asimov writes: \"The writer must carefully explain to the reader all the boundary conditions of the imaginary society.\" Identify the two noun phrases that function as objects of the verb \"explain\" and convert the sentence to passive voice without changing the meaning or register.",
+     "a": "Correct answer: The verb \"explain\" takes two objects — \"the reader\" (indirect object) and \"all the boundary conditions of the imaginary society\" (direct object). Passive: \"All the boundary conditions of the imaginary society must be carefully explained to the reader by the writer\" (or \"The reader must be carefully explained all the boundary conditions...\"). A wrong answer that makes only one object the subject (e.g., \"The reader must be carefully explained...\") reveals the student does not recognize ditransitive verb patterns and the choice of which object to promote in passive voice.",
+     "self_check": true
+    },
+    {
+     "q": "From the text, find three verbs (other than \"ask\") that are followed by a that-clause. For each, write the verb + that-clause structure and state whether the verb expresses belief, knowledge, speech act, or mental state.",
+     "a": "Correct answer examples: (1) \"I imagine that what he expected was...\" — imagine (mental state); (2) \"he maintained that it was impossible...\" — maintained (speech act/assertion); (3) \"I suppose that...\" — suppose (belief/opinion). A wrong answer listing \"expected a sudden change\" (infinitive, not that-clause) or \"prevent writers from using\" (prepositional complement) reveals the student cannot distinguish that-clauses from infinitival or prepositional complements — a critical error for JEE/CUET sentence transformation questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the active sentence \"John Dickson Carr revealed that he didn't know the difference between the element and the compound\" with its hypothetical passive \"That he didn't know the difference... was revealed by John Dickson Carr.\" Explain why the passive version is grammatically correct but stylistically disfavored in formal expository writing like Asimov's.",
+     "a": "Correct answer: The passive is grammatically valid because the that-clause functions as direct object and can become subject. However, it creates a heavy subject (\"That he didn't know...\") delaying the main verb, violating the principle of end-weight and reducing readability. Asimov avoids such constructions to maintain clarity and forward momentum in argumentation. A wrong answer claiming the passive is \"ungrammatical\" reveals the student thinks that-clauses cannot be passivized; a wrong answer saying \"it's fine\" reveals insensitivity to information structure and register — both costly in board exam writing tasks.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student sentence: \"It is believed by Asimov that science fiction is the only valid literature for today.\" Does it accurately reflect Asimov's stance and syntactic preference? Justify using evidence from the text.",
+     "a": "Correct answer: No. Asimov explicitly says \"In a narrow sense, only science fiction is valid for today\" using active voice with a modal adjective phrase, not a passive belief construction. The student's version misrepresents his direct, assertive tone as hedged opinion. It also unnecessarily uses passive \"is believed by\" where Asimov uses active \"I would not be willing to consider.\" A wrong answer saying \"yes, it means the same\" reveals inability to distinguish semantic equivalence from pragmatic/stylistic equivalence — a key competency for CUET/board writing assessment.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 3-sentence paragraph arguing whether mythological fiction deserves the same respect as science fiction, using at least two different verbs that license that-clauses (e.g., argue, contend, maintain) and one passive construction with a transitive verb from the essay's vocabulary (e.g., depict, fulfil, control). Underline the target structures.",
+     "a": "Expected answer criteria: (1) Two distinct that-clause verbs correctly used (e.g., \"I contend that myths fulfil the same emotional needs\"; \"Asimov maintains that they operate in a different universe\"); (2) One well-formed passive with a text-relevant transitive verb (e.g., \"Those needs are fulfilled against a prescientific background\"); (3) Coherent argument with logical connectors. A poor answer using \"think that\" (informal), missing passive, or misusing \"fulfil\" as intransitive reveals incomplete mastery of verb complementation patterns and register control.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

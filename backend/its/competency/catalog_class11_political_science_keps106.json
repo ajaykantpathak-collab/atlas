@@ -1,0 +1,144 @@
+{
+  "class": 11,
+  "subject": "political_science",
+  "chapter": 106,
+  "chapter_title": "Citizenship",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keps106.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keps106.1.1",
+      "title": "Citizenship as Full and Equal Membership",
+      "section": "1.1",
+      "definition": "Citizenship names full and equal membership of a political community: citizens enjoy equal rights, owe the community their allegiance and take part in its collective decisions. It marks the difference between belonging to a country as a stakeholder and merely living on its territory as a foreigner.",
+      "formula": "",
+      "key_idea": "Citizen means insider with equal rights and shared fate; the outsider may reside but does not rule.",
+      "textbook_ref": "keps106.txt lines 1-80 (introduction, citizenship as full and equal membership of a political community)",
+      "question_patterns": [
+        "what does citizenship imply in a political community",
+        "in class 11 citizenship chapter: how does a citizen differ from an alien resident",
+        "why is citizenship described as full and equal membership",
+        "what rights and duties flow from citizenship",
+        "can permanent residents who are not citizens enjoy all rights",
+        "explain citizenship as an identity with a political community"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "state the equality element", "explain": "Citizens stand equal before the law and share the same basic rights -- citizenship refuses graded membership."},
+        {"step": 2, "action": "state the participation element", "explain": "Voting, contesting office and shaping public decisions are reserved for citizens."},
+        {"step": 3, "action": "contrast with aliens", "explain": "Foreign residents may work and pay taxes but cannot vote or claim the full package of civic rights."}
+      ]
+    },
+    {
+      "id": "keps106.1.2",
+      "title": "Citizenship in India: Acquisition and Termination",
+      "section": "1.2",
+      "definition": "The Indian Constitution's citizenship part empowers Parliament to fix the rules. Indian law grants citizenship by birth, by descent, by registration, by naturalisation after residence, and by incorporating territory; it can be lost by renunciation, by acquiring another citizenship, or by deprivation for specified offences.",
+      "formula": "",
+      "key_idea": "Five doors in, three routes out -- citizenship status is legally made and legally unmade.",
+      "textbook_ref": "keps106.txt lines 80-160 (constitutional provisions on citizenship, acquisition by birth descent registration naturalisation incorporation, termination)",
+      "question_patterns": [
+        "list the modes of acquiring Indian citizenship",
+        "in class 11 citizenship chapter: how can Indian citizenship be terminated",
+        "what is the difference between citizenship by birth and by descent",
+        "what conditions apply to naturalisation of a foreigner",
+        "why does the constitution leave citizenship rules to parliament",
+        "does India permit dual citizenship with another country"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "trace the acquisition routes", "explain": "Birth in India, descent from an Indian parent, registration, naturalisation after prescribed residence, and annexed territory all confer citizenship."},
+        {"step": 2, "action": "trace the exits", "explain": "Renunciation, acquisition of foreign citizenship, and deprivation for disloyalty or fraud end the status."},
+        {"step": 3, "action": "note the single allegiance", "explain": "India recognises only single citizenship of the Union, binding identity to the nation rather than to any state."}
+      ]
+    },
+    {
+      "id": "keps106.1.3",
+      "title": "Universal Citizenship and Its Critics: Gender and Class",
+      "section": "1.3",
+      "definition": "Formal citizenship promises identical rights for all, but critics note that identical rules can freeze real inequality. Feminists point out that the public-private split long kept women's work invisible in the political community; socialist critics show that poverty bars the poor from exercising citizenship that exists only on paper.",
+      "formula": "",
+      "key_idea": "Same legal box, different lives -- universal citizenship must still answer to gender and class realities.",
+      "textbook_ref": "keps106.txt lines 160-260 (universal citizenship debates, feminist critique of public private divide, class and economic barriers to citizenship)",
+      "question_patterns": [
+        "what is the feminist critique of universal citizenship",
+        "in class 11 citizenship chapter: how does poverty undermine formal citizenship",
+        "why did the public private divide exclude women's concerns",
+        "can equal legal rights coexist with unequal social power",
+        "explain how class affects the exercise of political rights",
+        "what changes did feminist politics demand in the idea of citizenship"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "grant the formal ideal", "explain": "Universal citizenship promises every adult the same civic status."},
+        {"step": 2, "action": "apply the gender lens", "explain": "Confining politics to the public sphere ignored domestic labour and private subordination, so women's citizenship was thin."},
+        {"step": 3, "action": "apply the class lens", "explain": "Without education, income and time, the poor hold rights they cannot use -- making substantive citizenship an economic question."}
+      ]
+    },
+    {
+      "id": "keps106.1.4",
+      "title": "Minority Rights, Cultural Rights and Multicultural Citizenship",
+      "section": "1.4",
+      "definition": "In societies with many cultures, equal citizenship may require more than identical treatment: minorities may need special cultural rights -- language protection, educational autonomy, personal law -- to participate with dignity. Multicultural citizenship thus blends common civic status with group-differentiated rights, while guarding against practices that crush members' individual freedom.",
+      "formula": "",
+      "key_idea": "Equal citizenship in a diverse land may need unequal cultural provisions -- so long as members stay free inside their group.",
+      "textbook_ref": "keps106.txt lines 260-360 (minority rights, cultural rights, multiculturalism debates, rights of minority groups and their members)",
+      "question_patterns": [
+        "why might minorities need special cultural rights",
+        "in class 11 citizenship chapter: what is multicultural citizenship",
+        "how does the indian constitution protect linguistic and religious minorities",
+        "when can group rights conflict with members individual freedom",
+        "give examples of group differentiated citizenship",
+        "does special treatment of minorities violate equal citizenship"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "identify the minority situation", "explain": "A community outnumbered in the shared state may be unable to keep its language, institutions or way of life on equal terms alone."},
+        {"step": 2, "action": "justify the special provisions", "explain": "Cultural rights and protections let minorities relate to the state with the same dignity the majority enjoys by default."},
+        {"step": 3, "action": "guard the inner boundary", "explain": "Group rights must not license coercion inside the group; individuals keep their basic rights against their own community's pressures."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keps106.txt lines 80-160 (acquisition of citizenship)",
+      "concept": "keps106.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "A child is born in London to Indian citizen parents. Which mode of acquiring Indian citizenship applies, and would the child lose it upon later settling abroad with foreign papers?",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "apply the birth-descent rule", "explain": "Birth abroad to Indian citizen parents brings citizenship by descent, not by birth."},
+        {"step": 2, "action": "test the later act", "explain": "Voluntarily acquiring another country's citizenship terminates Indian citizenship under the termination provisions."},
+        {"step": 3, "action": "conclude", "explain": "The child holds citizenship by descent; taking foreign nationality would end it, since India allows only single citizenship."}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keps106.txt lines 260-360 (minority rights)",
+      "concept": "keps106.1.4",
+      "question_type": "verify_property",
+      "question_pattern": "A small linguistic community seeks state funding for schools in its mother tongue. Is this special treatment compatible with equal citizenship? Argue both ways and conclude.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "state the objection", "explain": "Identical citizenship might call any language-specific funding unequal favouritism."},
+        {"step": 2, "action": "state the defence", "explain": "Without mother-tongue schooling the community's children cannot participate in public life on equal terms, so the provision equalises real opportunity."},
+        {"step": 3, "action": "conclude", "explain": "Multicultural citizenship permits such group-differentiated rights provided individuals inside the community keep their basic freedoms."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keps106.txt end-of-chapter exercises, reworded",
+      "questions": [
+        "What is meant by full and equal membership of a political community?",
+        "Enumerate the ways of acquiring and losing Indian citizenship.",
+        "Why do feminists criticise the traditional public-private divide in citizenship?",
+        "How does poverty weaken the substance of citizenship even where rights are equal?",
+        "Should a multicultural state grant special cultural rights to minorities? Justify.",
+        "Can group rights ever override the freedom of individual members of the group?"
+      ]
+    }
+  ]
+}

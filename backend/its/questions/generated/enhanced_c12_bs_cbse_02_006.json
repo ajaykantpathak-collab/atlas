@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_02_006",
+   "title": "c12_bs_cbse_02_006",
+   "questions": [
+    {
+     "q": "State Fayol's principle of 'Subordination of Individual Interest to General Interest' in your own words.",
+     "a": "Correct answer: The principle states that the interests of the organization as a whole must take precedence over the interests of any single individual or group of individuals. A wrong answer would be \"employees should always sacrifice their personal goals for the company\" — this misinterprets the principle as one-sided exploitation rather than a balanced priority where organizational survival enables individual prosperity. The error reveals confusion between 'subordination' (priority ordering) and 'suppression' (elimination) of individual interests.",
+     "self_check": true
+    },
+    {
+     "q": "A company pays its workers the minimum legal wage while the CEO takes a large bonus. The workers argue this violates Fayol's principle of remuneration. Is the workers' argument valid? Explain why or why not.",
+     "a": "Correct answer: Yes, the argument is valid. Fayol's remuneration principle requires compensation to be \"fair to both employees and the organization\" — meaning wages should provide a reasonable standard of living while staying within the company's paying capacity. Paying legal minimums while awarding large executive bonuses violates equity and fairness, creating a \"congenial atmosphere\" breakdown. A wrong answer would focus only on legality (\"it's legal so it's fine\") — this misses the ethical and behavioural core of Fayol's principle, which is about justice, not compliance.",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturing firm hires 50 new machine operators every quarter because most leave within 3 months. The HR director says \"we follow stability of personnel because we always refill the positions quickly.\" Identify the flaw in this reasoning and explain what stability of personnel actually requires.",
+     "a": "Correct answer: The flaw is confusing \"stability of positions\" with \"stability of personnel.\" Fayol's principle means selected employees should be kept at their posts for a minimum fixed tenure, given reasonable time to show results, and not subjected to ad-hoc transfers or dismissals. High turnover indicates violation, not compliance. The HR director's reasoning reveals a misconception that stability is about maintaining headcount numbers rather than retaining trained individuals. Correct application would involve analysing exit reasons (poor training? unsafe conditions? unfair pay?) and fixing root causes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast how 'Subordination of Individual Interest' and 'Stability of Personnel' interact in a situation where a high-performing employee demands a promotion that would disrupt team hierarchy. Analyse the trade-offs.",
+     "a": "Correct answer: Subordination requires denying the promotion if it harms team cohesion and organizational hierarchy (general interest > individual interest). Stability requires retaining the high performer, but not at the cost of creating instability for the whole team. The trade-off: granting the promotion satisfies the individual and may retain them (supporting stability for that person) but violates subordination and destabilizes the team (harming stability for many). The optimal Fayolian solution: deny the promotion but offer alternative recognition (skill development, bonus, lateral move) that aligns individual growth with organizational structure. A wrong answer would treat the principles as independent — e.g., \"promote them to keep them stable\" — missing that stability of the collective is the goal, not stability of one person at the expense of the system.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"In modern gig-economy platforms (like food delivery apps), Fayol's principles of remuneration and stability are irrelevant because workers are independent contractors, not employees.\"",
+     "a": "Correct answer: The statement is partially true in legal form but false in management substance. While gig workers may be legally classified as contractors, the platform still manages a workforce — if remuneration is perceived as unfair (e.g., algorithmic pay cuts without transparency) or stability is non-existent (arbitrary deactivation), the platform faces high churn, quality decline, and reputational damage. Fayol's principles describe behavioural realities, not just legal categories. Companies like Zomato and Swiggy now introduce \"fair pay\" guarantees and \"partner care\" programs precisely because ignoring these principles hurts business. A wrong answer would accept the legal distinction as absolute — this confuses management theory (which deals with human behaviour in organized activity) with labour law classification.",
+     "self_check": true
+    },
+    {
+     "q": "Create a short case scenario (3-4 sentences) where a manager violates BOTH subordination of individual interest AND remuneration principles simultaneously. Then write the corrective action that aligns with both principles.",
+     "a": "Expected answer: Scenario — \"A sales manager awards a luxury company car to his brother-in-law (a junior salesman) despite poor performance, while the top-performing saleswoman receives only a standard bonus because 'budget is tight'.\" This violates subordination (nepotism puts family interest above company interest) and remuneration (unfair, inequitable pay). Corrective action: Recover the car, implement a transparent performance-based incentive scheme approved by finance, and establish a conflict-of-interest policy for all managers. A poor answer would only fix one aspect (e.g., \"give the saleswoman a car too\") — this fails to address the systemic violation of subordination (manager's misuse of authority) and remuneration (lack of fair system).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

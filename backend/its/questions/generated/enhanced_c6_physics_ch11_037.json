@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch11_037",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch11_037",
+   "title": "c6_physics_ch11_037",
+   "questions": [
+    {
+     "q": "If you hold a piece of plain glass in front of your eyes, what happens to the light coming from the objects on the other side?",
+     "a": "The light passes through the glass almost completely, allowing you to see objects clearly. A wrong answer here suggests the student confuses transparent materials with opaque ones, failing to recognize that \"clear\" means light travels through without significant obstruction.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it impossible to see the details of a drawing placed behind a piece of thick cardboard?",
+     "a": "The cardboard is an opaque material, meaning it blocks all light from passing through it. A wrong answer indicates the student might think light simply \"fades\" rather than being stopped, which misses the fundamental definition of opacity.",
+     "self_check": true
+    },
+    {
+     "q": "You are given a piece of wax paper. You can see the glow of a flashlight through it, but you cannot see the shape of the flashlight clearly. How would you classify this material?",
+     "a": "This is a translucent material. The steps are: (1) check if light passes through, (2) check if the image is clear, (3) observe the scattering of light. A wrong answer suggests the student is not distinguishing between \"allowing some light\" (translucent) and \"allowing all light\" (transparent).",
+     "self_check": true
+    },
+    {
+     "q": "Compare a wooden door and a glass window. If you wanted privacy, which material would you choose and why?",
+     "a": "You would choose the wooden door because it is opaque and prevents light and images from passing through. An incorrect answer here shows a failure to apply the classification to a functional, real-world context.",
+     "self_check": true
+    },
+    {
+     "q": "If a material allows a little bit of light to pass but makes everything look like a blurry patch of color, does it behave more like glass or more like a wall?",
+     "a": "It behaves more like neither, but specifically, it is a translucent material, which is a middle ground between the two. A wrong answer shows the student is trying to force a binary choice (transparent vs. opaque) instead of identifying the third, intermediate category.",
+     "self_check": true
+    },
+    {
+     "q": "Create a list of three objects found in your school bag and classify each one as transparent, translucent, or opaque.",
+     "a": "Acceptable answers include: Plastic scale (transparent), thin plastic file cover (translucent), notebook (opaque). A poor answer would lack reasoning or misclassify common objects based on their physical properties.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

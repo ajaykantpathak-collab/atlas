@@ -1,0 +1,219 @@
+{
+ "class": 10,
+ "subject": "maths",
+ "chapter": 5,
+ "chapter_title": "Arithmetic Progressions",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jemh105.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "jemh.105.5.1",
+   "title": "Arithmetic Progressions and Common Difference",
+   "section": "5.1",
+   "definition": "An arithmetic progression is a list of numbers in which each term is obtained by adding a fixed number, the common difference d, to the preceding term; checking consecutive differences identifies an AP.",
+   "formula": "d = second - first",
+   "key_idea": "One constant difference everywhere: that is the signature of an AP.",
+   "textbook_ref": "jemh105.txt sections 5.1-5.2 (introduction, APs, common difference)",
+   "question_patterns": [
+    "check whether the given list of numbers forms an AP",
+    "find the common difference of the given AP",
+    "write the next three terms of the given AP",
+    "which of the given sequences is an AP - justify",
+    "find the first term and common difference of the given AP",
+    "write an AP with the given first term and common difference"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "subtract consecutive terms",
+     "explain": "The difference of the first two terms gives d.",
+     "compute": "d = second - first"}
+   ]
+  },
+  {
+   "id": "jemh.105.5.2",
+   "title": "nth Term of an AP",
+   "section": "5.2",
+   "definition": "The nth term of an AP with first term a and common difference d is a plus (n - 1)d, since n minus 1 jumps of d lead from the first term to the nth; it also lets you find the position of a given term.",
+   "formula": "nth_term = a + (n - 1) * d",
+   "key_idea": "Jump count is n minus 1: add that many d's to the first term.",
+   "textbook_ref": "jemh105.txt section 5.2 (nth term of an AP)",
+   "question_patterns": [
+    "find the 10th term of the AP with first term 2 and common difference 7",
+    "which term of the AP 3, 8, 13, 18 is 78",
+    "find the nth term of the given arithmetic progression",
+    "how many terms does the AP contain up to the given last term",
+    "find the term of the AP indicated by the position",
+    "is the given number a term of the AP - justify"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "count the jumps",
+     "explain": "n minus 1 jumps of d from the first term.",
+     "compute": "jumps = n - 1"},
+    {"step": 2, "action": "add the jumps of d",
+     "explain": "The nth term is a plus jumps times d.",
+     "compute": "nth_term = a + jumps * d"}
+   ]
+  },
+  {
+   "id": "jemh.105.5.3",
+   "title": "Sum of n Terms of an AP",
+   "section": "5.3",
+   "definition": "The sum of the first n terms of an AP equals n over 2 times (2a + (n - 1)d), or equivalently n over 2 times (first + last); pairing terms from the ends explains why each pair contributes the same total.",
+   "formula": "sum = n / 2 * (2 * a + (n - 1) * d)",
+   "key_idea": "Pair the ends: n over 2 pairs, each contributing first plus last.",
+   "textbook_ref": "jemh105.txt section 5.3 (sum of first n terms of an AP)",
+   "question_patterns": [
+    "find the sum of the first 22 terms of the given AP",
+    "find the sum of the first n terms of the AP with a and d given",
+    "how many terms of the AP sum to the given total",
+    "find the sum of all natural numbers up to the given limit",
+    "the sum and number of terms are given - find the last term",
+    "calculate the total savings pattern using AP sums"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "compute the bracket",
+     "explain": "2a plus (n - 1)d is twice the average term.",
+     "compute": "bracket = 2 * a + (n - 1) * d"},
+    {"step": 2, "action": "multiply by n over 2",
+     "explain": "Half the number of terms times the bracket gives the sum.",
+     "compute": "sum = n / 2 * bracket"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jemh105.txt nth term examples",
+   "concept": "jemh.105.5.2",
+   "question_type": "compute",
+   "question_pattern": "Find the nth term of the AP with first term {a} and common difference {d}.",
+   "extracted_variables": {
+    "a": "first term of the AP",
+    "d": "common difference",
+    "n": "position of the required term"
+   },
+   "solution_template": [
+    {"step": 1, "action": "count the jumps",
+     "explain": "n minus 1 jumps.",
+     "compute": "jumps = n - 1"},
+    {"step": 2, "action": "add to a",
+     "explain": "a plus jumps times d.",
+     "compute": "nth_term = a + jumps * d"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jemh105.txt nth term practice",
+   "concept": "jemh.105.5.2",
+   "question_type": "compute",
+   "question_pattern": "An AP begins at {a} with common difference {d}. What is term number {n}?",
+   "extracted_variables": {
+    "a": "first term",
+    "d": "common difference",
+    "n": "term position"
+   },
+   "solution_template": [
+    {"step": 1, "action": "count the jumps",
+     "explain": "Subtract 1 from the position.",
+     "compute": "jumps = n - 1"},
+    {"step": 2, "action": "apply the formula",
+     "explain": "a plus jumps times d is the answer.",
+     "compute": "nth_term = a + jumps * d"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jemh105.txt sum examples",
+   "concept": "jemh.105.5.3",
+   "question_type": "compute",
+   "question_pattern": "Find the sum of the first {n} terms of the AP with first term {a} and common difference {d}.",
+   "extracted_variables": {
+    "n": "number of terms",
+    "a": "first term",
+    "d": "common difference"
+   },
+   "solution_template": [
+    {"step": 1, "action": "compute the bracket",
+     "explain": "2a plus (n - 1)d.",
+     "compute": "bracket = 2 * a + (n - 1) * d"},
+    {"step": 2, "action": "multiply by n over 2",
+     "explain": "The product is the required sum.",
+     "compute": "sum = n / 2 * bracket"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jemh105.txt sum practice",
+   "concept": "jemh.105.5.3",
+   "question_type": "compute",
+   "question_pattern": "For the AP starting at {a} with difference {d}, find the total of the first {n} terms.",
+   "extracted_variables": {
+    "a": "first term",
+    "d": "common difference",
+    "n": "number of terms"
+   },
+   "solution_template": [
+    {"step": 1, "action": "compute the bracket",
+     "explain": "Twice the first term plus the jump total.",
+     "compute": "bracket = 2 * a + (n - 1) * d"},
+    {"step": 2, "action": "multiply by n over 2",
+     "explain": "The result is the sum of n terms.",
+     "compute": "sum = n / 2 * bracket"}
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "jemh105.txt common difference practice",
+   "concept": "jemh.105.5.1",
+   "question_type": "compute",
+   "question_pattern": "Find the common difference of the AP whose first two terms are {first} and {second}.",
+   "extracted_variables": {
+    "first": "first term of the AP",
+    "second": "second term of the AP"
+   },
+   "solution_template": [
+    {"step": 1, "action": "subtract the terms",
+     "explain": "Second minus first gives d.",
+     "compute": "d = second - first"}
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "jemh105.txt AP check practice",
+   "concept": "jemh.105.5.1",
+   "question_type": "compute",
+   "question_pattern": "The first two terms of a list are {first} and {second}. Find its common difference to test whether it is an AP.",
+   "extracted_variables": {
+    "first": "first listed number",
+    "second": "second listed number"
+   },
+   "solution_template": [
+    {"step": 1, "action": "subtract the terms",
+     "explain": "The difference is the candidate common difference.",
+     "compute": "d = second - first"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "jemh105.txt EXERCISE 5.1-5.2",
+   "questions": [
+     "In which of the following situations does the list of numbers form an AP?",
+     "Find the indicated terms of the given APs.",
+     "Which term of the AP 3, 8, 13, 18 is 78?"
+   ]
+  },
+  {
+   "id": "ex5.2",
+   "source_ref": "jemh105.txt EXERCISE 5.3",
+   "questions": [
+     "Find the sum of the indicated APs.",
+     "How many terms of the AP 9, 17, 25 make the sum 636?",
+     "Solve the given word problems using AP sums."
+   ]
+  }
+ ]
+}

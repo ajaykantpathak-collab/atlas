@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch11_114",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch11_114",
+   "title": "c6_math_ch11_114",
+   "questions": [
+    {
+     "q": "What are the two essential components that define a line segment?",
+     "a": "A line segment has two fixed endpoints and a specific, measurable length. A wrong answer (e.g., \"it goes on forever\") reveals the student is confusing a line segment with a line or ray.",
+     "self_check": true
+    },
+    {
+     "q": "If you are asked to draw a 6 cm line segment but you start measuring from the '1' mark on your ruler instead of the '0' mark, where should you place your second point to get the correct length?",
+     "a": "You should place the second point at the '7' mark. A wrong answer (e.g., placing it at '6') shows the student fails to realize that the length is the *difference* between the two markings, not just the final number.",
+     "self_check": true
+    },
+    {
+     "q": "You have a line segment AB drawn on your page. How do you use a compass to draw another segment equal to it?",
+     "a": "Place the metal point on A and the pencil point on B to measure the width; then, draw a new line, mark a point, and use the compass to mark the exact same width on that line. A wrong answer suggests the student is trying to measure by eye, which lacks geometric precision.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it important to use a sharp pencil when marking points for a line segment?",
+     "a": "A sharp pencil creates a tiny, precise dot, ensuring the measurement starts and ends at the exact location; a blunt pencil creates a thick blob, making the start and end points unclear and leading to inaccurate lengths. This tests the student's understanding of \"precision\" in geometry.",
+     "self_check": true
+    },
+    {
+     "q": "If a student claims that a line segment \"starts\" at 0 and \"ends\" at 5, but the drawing is 5.2 cm long, what is the most likely error?",
+     "a": "The student likely didn't align the ruler correctly with the paper or moved the ruler while drawing. This tests the ability to troubleshoot construction errors.",
+     "self_check": true
+    },
+    {
+     "q": "Describe the steps to draw a line segment of 4.5 cm.",
+     "a": "1. Draw a thin starting mark at 0. 2. Mark the 4 cm and 5 tiny notches (the 0.5 mark) for 4.5 cm. 3. Connect them with a ruler. Poor answers lack specific mention of the 0.5 mark or the need for a straight edge.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

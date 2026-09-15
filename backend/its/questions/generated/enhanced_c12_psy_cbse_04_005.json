@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_04_005",
+   "title": "c12_psy_cbse_04_005",
+   "questions": [
+    {
+     "q": "A student says: \"I have Generalised Anxiety Disorder because I worry about my board exams, my future career, and my parents' health all the time.\" Based on DSM-5 criteria, what TWO critical pieces of information are missing from this self-diagnosis that would determine whether it is GAD or normal worry?",
+     "a": "The two missing criteria are: (1) Duration — GAD requires excessive anxiety/worry occurring more days than not for at least 6 months; (2) Functional impairment — the worry must cause clinically significant distress or impairment in social, occupational, or academic functioning. A wrong answer (e.g., listing symptoms like sweating or palpitations) reveals the student confuses symptom presence with diagnostic threshold, ignoring the duration and impairment criteria that separate disorder from normal stress response.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a panic attack that occurs ONLY when a person with snake phobia sees a snake is NOT diagnosed as Panic Disorder, but the SAME panic attack occurring unexpectedly while watching a calm movie WOULD contribute to a Panic Disorder diagnosis.",
+     "a": "Panic Disorder requires RECURRENT UNEXPECTED (uncued) panic attacks — attacks not triggered by a specific feared object or situation. A panic attack triggered by a phobic stimulus (snake) is EXPECTED (cued) and is diagnosed as Specific Phobia, not Panic Disorder. A wrong answer (e.g., \"both are panic attacks so both are Panic Disorder\") reveals the student misses the critical diagnostic distinction between cued vs. uncued attacks, which determines whether the panic is the primary disorder (Panic Disorder) or secondary to another disorder (Phobia).",
+     "self_check": true
+    },
+    {
+     "q": "A 14-year-old refuses to attend school, cries excessively when separated from mother, complains of stomachaches before school, and says \"Something bad will happen to Mom if I leave.\" She has no fear of social evaluation, no panic attacks in other settings, and no generalised worry. Which anxiety disorder best fits? Justify by mapping THREE specific symptoms to the disorder's diagnostic criteria.",
+     "a": "Separation Anxiety Disorder. Mapping: (1) \"Refuses to attend school\" = persistent reluctance/refusal to go out due to fear of separation; (2) \"Cries excessively when separated\" = excessive distress when anticipating/experiencing separation; (3) \"Something bad will happen to Mom\" = persistent worry about harm to attachment figures. A wrong answer (e.g., \"School Phobia\" or \"Social Anxiety\") reveals the student fails to distinguish separation-themed fear from social-evaluation fear or specific phobia of school itself, and misses the developmental inappropriateness criterion (excessive for age 14).",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the COGNITIVE distortion in Generalised Anxiety Disorder (\"worry about multiple domains\") vs. Panic Disorder (\"catastrophic misinterpretation of bodily sensations\"). How does each distortion MAINTAIN the respective disorder through a feedback loop?",
+     "a": "GAD: Intolerance of uncertainty → \"What if?\" worry across domains → worry temporarily reduces physiological arousal (negative reinforcement) → reinforces worry as coping → chronic hypervigilance. Panic Disorder: Interoceptive sensitivity → normal sensation (e.g., heart skip) → catastrophic misinterpretation (\"I'm dying/losing control\") → fear of fear → hypervigilance to bodily cues → more sensations misinterpreted. A wrong answer listing symptoms without explaining the MAINTENANCE loop reveals the student memorises criteria but doesn't understand the cognitive-behavioural mechanisms that sustain the disorder — a key board exam and CUET application requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Agoraphobia is just a fear of open spaces.\" Use DSM-5 criteria to explain why this definition is incomplete and misleading, and provide the correct characterisation of the feared situations.",
+     "a": "The statement is incomplete because DSM-5 defines Agoraphobia as marked fear/anxiety about TWO OR MORE of five situations: (1) public transportation, (2) open spaces, (3) enclosed spaces, (4) standing in line/being in a crowd, (5) being outside home alone. The core fear is NOT the space itself but the perceived DIFFICULTY ESCAPING or UNAVAILABILITY OF HELP if panic-like or embarrassing symptoms occur. A wrong answer equating agoraphobia with \"fear of open spaces\" reveals the student relies on etymology (agora = marketplace) rather than current diagnostic criteria, a common board exam error that loses marks in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a brief case vignette (4-5 sentences) of a 17-year-old that meets criteria for Social Anxiety Disorder but NOT for Generalised Anxiety Disorder, Specific Phobia, or Avoidant Personality Disorder. Highlight the THREE differential features that rule out the other three.",
+     "a": "Case: \"Arjun, 17, freezes and blushes intensely when called on in class or eating in the cafeteria, fearing others will notice his anxiety and judge him as 'stupid.' He avoids debates, skips lunch, and declined a leadership role. He worries ONLY about social evaluation, not academics, health, or family. He has no panic attacks outside social settings, no specific object fear, and desires friendships but fears rejection.\" Differential features: (1) vs GAD: worry restricted to social evaluation, not multiple domains; (2) vs Specific Phobia: fear is of negative evaluation, not a specific object/situation; (3) vs Avoidant PD: onset in adolescence, ego-dystonic anxiety (wants connections), not pervasive pattern of inhibition since early adulthood. A poor answer missing any differential feature shows inability to perform diagnostic reasoning — a core competency for CUET/NEET psychology.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

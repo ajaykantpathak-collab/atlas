@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_02_010",
+   "title": "c12_chem_cbse_02_010",
+   "questions": [
+    {
+     "q": "Write the two half-reactions and the overall reaction for the electrochemical rusting of iron in acidic aqueous medium, and state the standard cell potential.",
+     "a": "Anode: 2Fe(s) → 2Fe²⁺(aq) + 4e⁻ (E° = –0.44 V); Cathode: O₂(g) + 4H⁺(aq) + 4e⁻ → 2H₂O(l) (E° = 1.23 V); Overall: 2Fe(s) + O₂(g) + 4H⁺(aq) → 2Fe²⁺(aq) + 2H₂O(l); E°cell = 1.67 V. A wrong answer (e.g., writing Fe → Fe³⁺ directly, omitting H⁺, or using E°cell = 0.44 V) reveals the student has not grasped the electrochemical cell model or the need to balance electrons and use reduction potentials correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why rusting does not occur in completely dry air or in deoxygenated water, using the electrochemical mechanism.",
+     "a": "Rusting requires both O₂ (cathodic reactant) and H₂O (medium for ion transport and source of H⁺ via CO₂ dissolution). In dry air, no electrolyte exists to complete the internal circuit; in deoxygenated water, the cathodic reaction (O₂ reduction) cannot proceed. A student who says \"rusting is just Fe + O₂\" misses the electrochemical cell requirement of an ionic conductor and separate redox sites.",
+     "self_check": true
+    },
+    {
+     "q": "A student sets up an experiment: two identical iron nails, one placed in tap water, the other in boiled distilled water with a layer of oil on top. After a week, only the nail in tap water rusts. Explain the result using the corrosion cell concept.",
+     "a": "Tap water contains dissolved O₂ and CO₂ (giving H⁺), providing both cathodic reactant and electrolyte. Boiled distilled water lacks O₂; the oil layer prevents O₂ dissolution. Without O₂, the cathodic half-reaction cannot occur, so the corrosion cell cannot function. A wrong explanation citing \"boiled water is pure\" without mentioning O₂ absence shows misunderstanding of the cathodic reaction's role.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the corrosion protection mechanisms of (a) painting iron, (b) galvanizing with zinc, and (c) connecting iron to a magnesium block. Identify which method(s) use sacrificial protection.",
+     "a": "(a) Painting: barrier protection — physically isolates metal from H₂O/O₂. (b) Galvanizing: Zn coating acts as barrier; if scratched, Zn (E° = –0.76 V) oxidises preferentially, sacrificing itself to protect Fe (cathodic protection). (c) Mg block: sacrificial anode — Mg (E° = –2.37 V) corrodes, forcing Fe to be cathode. Methods (b) and (c) use sacrificial protection. A student who says galvanizing is only barrier protection misses the electrochemical role of Zn when coating is damaged.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Stainless steel does not corrode because it contains chromium which forms a protective oxide layer; therefore, it can be used in any environment without additional protection.\" Is this fully correct? Justify.",
+     "a": "The statement is partially correct but misleading. Cr forms a passive Cr₂O₃ layer that prevents corrosion in many environments, but in chloride-rich environments (seawater), pitting corrosion can occur where the passive layer breaks down locally, creating anodic pits. Stainless steel is not immune to all corrosion. A student who agrees fully ignores the limitation of passivity and the role of aggressive ions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using iron nails, copper wire, magnesium ribbon, and agar-gel with phenolphthalein and potassium ferricyanide to visually demonstrate cathodic protection of iron by magnesium.",
+     "a": "Embed an iron nail and a magnesium ribbon in the gel, connect them externally with copper wire. At the Fe cathode, O₂ reduction produces OH⁻ turning phenolphthalein pink; at the Mg anode, Mg oxidises (no colour). In a control without Mg, the nail shows blue Prussian blue (Fe³⁺ + [Fe(CN)₆]⁴⁻) at anodic sites. A poor design (e.g., no external connection, or using same metal) fails to show the galvanic coupling and electron flow.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

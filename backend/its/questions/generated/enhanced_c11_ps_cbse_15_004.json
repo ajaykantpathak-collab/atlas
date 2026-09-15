@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_15_004",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_15_004",
+   "title": "c11_ps_cbse_15_004",
+   "questions": [
+    {
+     "q": "What is the maximum sanctioned strength of the Supreme Court of India including the Chief Justice of India, and under which constitutional provision is this number determined?",
+     "a": "The maximum sanctioned strength is 34 (1 CJI + 33 other judges), determined by the Supreme Court (Number of Judges) Act, 1956 as amended in 2019, enacted under Article 124(1) which empowers Parliament to prescribe the number of judges. A wrong answer (e.g., 31 or 26) reveals the student is using outdated figures and does not understand that Parliament, not the Constitution itself, fixes the number — a common confusion between constitutional provision and legislative implementation.",
+     "self_check": true
+    },
+    {
+     "q": "A dispute arises between the States of Karnataka and Tamil Nadu over the sharing of Cauvery river waters. The Tamil Nadu government wants to file a suit directly in the Supreme Court. Explain why the Supreme Court has original jurisdiction over this dispute, citing the exact constitutional article.",
+     "a": "Article 131 grants the Supreme Court original jurisdiction in disputes between the Government of India and one or more States, or between two or more States. The Cauvery dispute is an inter-State water dispute — a classic Article 131 matter. A wrong answer citing Article 32 (writ jurisdiction) or Article 136 (special leave to appeal) shows the student confuses original jurisdiction (first instance) with appellate or writ jurisdictions, and does not recognize that inter-State disputes must originate in the Supreme Court, not a High Court.",
+     "self_check": true
+    },
+    {
+     "q": "The President of India seeks the Supreme Court's opinion on whether a proposed legislation on \"uniform civil code\" would violate Fundamental Rights. The Court gives its opinion. Later, Parliament passes the law. A citizen challenges the law in the Supreme Court claiming it violates Article 21. Can the Supreme Court now hear this challenge, or is it bound by its earlier advisory opinion? Explain the constitutional principle.",
+     "a": "The Supreme Court CAN hear the challenge. Advisory opinions under Article 143 are not binding judicial decisions — they are consultative. The Court's binding authority comes from its adjudicatory role under Articles 32, 131, 136, etc. A student who says the Court is bound by its advisory opinion misunderstands the distinction between advisory jurisdiction (non-binding, no parties, no lis) and adjudicatory jurisdiction (binding, parties, lis). This is a senior-secondary error: confusing the Court's consultative role with its judicial role.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the appellate jurisdiction of the Supreme Court in constitutional matters (Article 132) versus civil matters (Article 133). Identify two key differences in the conditions for appeal.",
+     "a": "Two key differences: (1) Article 132 requires a High Court certificate that the case involves a substantial question of law as to the interpretation of the Constitution; Article 133 requires a certificate that the case involves a substantial question of law of general importance AND that the High Court deems it fit for Supreme Court appeal. (2) Article 132 has no monetary threshold; Article 133 originally had a ₹20,000 threshold (now removed by amendment, but the \"general importance\" test remains). A wrong answer that treats both as identical shows the student has not analyzed the textual differences in the certificate requirements — a critical distinction for board exam \"distinguish\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"The Supreme Court's writ jurisdiction under Article 32 makes it a 'court of first instance' for Fundamental Rights violations, but this undermines the role of High Courts under Article 226.\" Provide a balanced assessment using constitutional design principles.",
+     "a": "The argument is partially valid but constitutionally inaccurate. Article 32 is a Fundamental Right itself — the right to move the Supreme Court directly — making it a guaranteed remedy, not an optional one. However, the Supreme Court has self-imposed restrictions (e.g., requiring exhaustion of alternative remedies, or directing petitioners to High Courts first in certain cases) to prevent forum shopping and respect High Court competence under Article 226. The constitutional design intends concurrent, not hierarchical, access: Article 32 is a right; Article 226 is a power. A student who claims Article 32 \"undermines\" High Courts misses the doctrinal principle of \"concurrent jurisdiction with Supreme Court as ultimate guardian\" — a nuance expected at Class 11 level.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph proposal for a constitutional amendment to address the problem of case backlog in the Supreme Court, using only the tools available under the existing constitutional framework (e.g., Article 124, 127, 128, 130, 136). Justify each element.",
+     "a": "A strong proposal would: (1) Increase sanctioned strength under Article 124(1) via Parliament (already done in 2019 to 34); (2) Activate Article 127 (ad hoc judges) by requesting retired High Court judges to sit temporarily; (3) Use Article 128 (retired Supreme Court judges) with CJI's consent and President's approval; (4) Utilize Article 130 to sit in multiple benches/locations (currently only Delhi); (5) Restrict Article 136 (special leave petition) via stricter admission criteria through Supreme Court Rules. A poor proposal suggests \"creating regional benches by executive order\" — which violates Article 130 (requires CJI + President) or \"amending Article 32\" — which is a basic structure feature. This tests whether the student can creatively apply constitutional provisions rather than demand extra-constitutional solutions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

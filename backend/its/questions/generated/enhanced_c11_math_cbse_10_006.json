@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_10_006",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_10_006",
+   "title": "c11_math_cbse_10_006",
+   "questions": [
+    {
+     "q": "State the formula for the slope of a line passing through points A(x₁, y₁) and B(x₂, y₂). What is the slope of a horizontal line? What is the slope of a vertical line?",
+     "a": "The slope formula is m = (y₂ - y₁)/(x₂ - x₁) for x₁ ≠ x₂. A horizontal line has slope 0 because y₂ - y₁ = 0. A vertical line has undefined slope because x₂ - x₁ = 0, making the denominator zero. A wrong answer (e.g., saying vertical line slope is 0 or ∞) reveals confusion between \"zero slope\" and \"undefined slope\" — a critical distinction because 0 is a number while undefined means the ratio does not exist as a real number.",
+     "self_check": true
+    },
+    {
+     "q": "A line makes an angle of 135° with the positive x-axis. What is its slope? Explain why the slope is negative even though the line goes \"upwards\" as you move from left to right in the second quadrant.",
+     "a": "The slope is m = tan 135° = tan(180° - 45°) = -tan 45° = -1. The line goes upwards as you move left to right in the second quadrant, but slope measures change in y per unit increase in x. As x increases (moving right), y decreases (moving down) along this line, so the rate of change is negative. A student who answers +1 confuses the visual \"upward\" direction in QII with the algebraic definition of slope as Δy/Δx for increasing x.",
+     "self_check": true
+    },
+    {
+     "q": "Find the slope of the line passing through points P(2, -3) and Q(-4, 5). Then determine whether the line rises or falls as x increases.",
+     "a": "Step 1: Identify coordinates: x₁ = 2, y₁ = -3, x₂ = -4, y₂ = 5.\nStep 2: Apply formula: m = (5 - (-3))/(-4 - 2) = (5 + 3)/(-6) = 8/(-6) = -4/3.\nStep 3: Since m = -4/3 < 0, the line falls as x increases (for every 3 units right, y drops 4 units).\nA wrong sign (e.g., +4/3) typically comes from subtracting coordinates in inconsistent order: (y₁ - y₂)/(x₁ - x₂) or (y₂ - y₁)/(x₁ - x₂). The order must be consistent: (y₂ - y₁)/(x₂ - x₁) or (y₁ - y₂)/(x₁ - x₂).",
+     "self_check": true
+    },
+    {
+     "q": "Two students calculate the slope of the line through A(3, 7) and B(3, -2). Student 1 writes m = (-2 - 7)/(3 - 3) = -9/0 = 0. Student 2 writes m = -9/0 = undefined. Who is correct? Explain the error in the other student's reasoning.",
+     "a": "Student 2 is correct. The slope is undefined because the denominator is zero (x-coordinates are equal, so the line is vertical). Student 1 incorrectly treats division by zero as giving 0. This reveals a fundamental arithmetic misconception: confusing \"zero divided by a number\" (which is 0) with \"a number divided by zero\" (which is undefined). In coordinate geometry, vertical lines have no slope — the concept of rate of change Δy/Δx breaks down because Δx = 0.",
+     "self_check": true
+    },
+    {
+     "q": "A line has slope m = 2/3 and passes through the point (1, 4). Another student claims the line also passes through (4, 6). Verify this claim by calculating the slope between (1, 4) and (4, 6). Is the claim correct? If not, find a point on the line with x-coordinate 4.",
+     "a": "Slope between (1, 4) and (4, 6) = (6 - 4)/(4 - 1) = 2/3. This matches the given slope, so the claim is correct — the point (4, 6) lies on the line. A student who says the claim is false might have computed (4 - 6)/(4 - 1) = -2/3 (wrong order) or (6 - 4)/(1 - 4) = -2/3. If the claim were false (e.g., point was (4, 5)), the correct point with x = 4 would be found using m = (y - 4)/(4 - 1) = 2/3 → y - 4 = 2 → y = 6, giving (4, 6). This tests whether students can use the slope formula in reverse to find missing coordinates.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) where calculating slope is necessary. The problem must involve two distinct points with given coordinates, and the slope must be interpreted as a rate of change with proper units. Write the problem, solve it, and explain what the numerical value of the slope means in your context.",
+     "a": "Example problem: \"A train travels from Delhi to Agra. At 10:00 AM it is at kilometre marker 50 (x = 0 hours, y = 50 km). At 1:00 PM it is at kilometre marker 200 (x = 3 hours, y = 200 km). Find the average speed.\" Solution: Slope = (200 - 50)/(3 - 0) = 150/3 = 50 km/h. The slope 50 means the train covers 50 km per hour. A poor answer might give slope as 50 without units, or interpret it as \"distance increases by 50\" without \"per hour\", or use wrong coordinates (e.g., swapping x and y). This tests the ability to map physical quantities to coordinates and interpret slope as a rate with units.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

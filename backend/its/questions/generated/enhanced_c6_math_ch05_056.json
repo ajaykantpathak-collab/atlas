@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch05_056",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch05_056",
+   "title": "c6_math_ch05_056",
+   "questions": [
+    {
+     "q": "What is the variable in the equation 5x - 2 = 8?",
+     "a": "The variable is 'x'. If a student answers \"5\" or \"8\", they are confusing the coefficient (the number multiplying the variable) or the constant with the unknown letter itself.",
+     "self_check": true
+    },
+    {
+     "q": "If x + 5 = 12, why do we subtract 5 from both sides to find x?",
+     "a": "We subtract 5 to isolate 'x' by creating a zero pair (+5 - 5 = 0). If a student says \"to get the answer\", they lack the conceptual understanding of inverse operations needed to solve more complex equations.",
+     "self_check": true
+    },
+    {
+     "q": "Solve for x: 3x = 15.",
+     "a": "Divide both sides by 3: 3x/3 = 15/3, so x = 5. A common error is adding or subtracting instead of dividing, which reveals a misunderstanding of the operation connecting the coefficient (3) and the variable (x).",
+     "self_check": true
+    },
+    {
+     "q": "Given 2x + 4 = 10, compare the effect of adding 2 to both sides versus subtracting 4 from both sides. Which helps us find x?",
+     "a": "Subtracting 4 helps us isolate the term with x; adding 2 does not bring us closer to x. Students who think both are \"correct\" steps don't understand the goal of isolating the variable.",
+     "self_check": true
+    },
+    {
+     "q": "Your friend says that for 4x - 6 = 10, the first step should be to divide by 4. Is this the most efficient way? Explain.",
+     "a": "It is not the most efficient; while mathematically possible, it leads to fractions (x - 1.5 = 2.5). Adding 6 first is better. A student who says \"it's wrong\" lacks the flexibility to see multiple paths to a solution.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own \"mystery bag\" word problem that results in the equation 2x + 5 = 15.",
+     "a": "An example would be: \"I have 2 identical bags of apples and 5 loose apples. In total, I have 15 apples. How many apples are in one bag?\" A poor answer would just be a list of numbers without a real-world scenario.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

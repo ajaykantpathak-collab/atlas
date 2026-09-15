@@ -1,0 +1,528 @@
+{
+ "class": 12,
+ "subject": "business_studies",
+ "chapter": 6,
+ "chapter_title": "Staffing",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\cbse_sqp_0148.txt",
+ "concepts": [
+  {
+   "id": "c12bs.6.1",
+   "title": "Meaning and Need for Staffing",
+   "section": "6.1",
+   "definition": "Staffing is the process of filling and keeping filled the positions in the organisation structure by identifying requirements of the workforce, recruiting, selecting, placing, and developing personnel. It is a managerial function that bridges human resource planning and procurement.",
+   "formula": "",
+   "key_idea": "Staffing ensures that the right people are available for the right jobs at the right time, making it central to the success of any organisation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is staffing",
+    "explain the need for staffing",
+    "why is staffing important in management",
+    "is staffing a one-time process or continuous",
+    "how does staffing help an organisation achieve its objectives"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define staffing",
+     "explain": "State that staffing is filling positions through recruitment, selection, placement, and development."
+    },
+    {
+     "step": 2,
+     "action": "state need",
+     "explain": "Explain that staffing is needed to obtain competent people, deal with turnover, and adapt to growth and change."
+    },
+    {
+     "step": 3,
+     "action": "link to objectives",
+     "explain": "Show how proper staffing improves performance and helps achieve organisational goals."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is staffing? Why is it needed in an organisation?",
+     "solution": "Staffing is the process of filling positions in the organisation structure. It is needed because jobs change, people leave, organisations grow, and the right people must be found and developed to achieve objectives.",
+     "answer": "Staffing fills positions; it is needed to obtain and develop competent people."
+    },
+    {
+     "question": "Is staffing a one-time process? Give reason.",
+     "solution": "No. Staffing is a continuous process because employees leave, retire, or are promoted, and the organisation grows and changes, requiring constant filling and refilling of positions.",
+     "answer": "No, staffing is a continuous process."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define staffing.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the need and importance of staffing.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.6.2",
+   "title": "Staffing Process",
+   "section": "6.2",
+   "definition": "The staffing process includes human resource planning, recruitment, selection, placement and orientation, training and development, performance appraisal, and promotion/career planning, followed by compensation.",
+   "formula": "",
+   "key_idea": "Staffing is a sequence of interrelated steps from workforce planning through recruitment, selection, training, appraisal, and compensation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain the steps in the staffing process",
+    "what is the process of staffing",
+    "list the stages of staffing",
+    "how is recruitment related to selection in staffing",
+    "explain the sequence of staffing activities"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the steps",
+     "explain": "State the steps: HR planning, recruitment, selection, placement and orientation, training and development, appraisal, promotion and career planning, compensation."
+    },
+    {
+     "step": 2,
+     "action": "explain linkage",
+     "explain": "Show how each step feeds the next: planning identifies needs, recruitment attracts candidates, selection chooses the best."
+    },
+    {
+     "step": 3,
+     "action": "state purpose",
+     "explain": "Explain that the process ensures a continuous supply of competent personnel for the organisation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain the various steps in the staffing process.",
+     "solution": "The steps are: (1) human resource planning, (2) recruitment, (3) selection, (4) placement and orientation, (5) training and development, (6) performance appraisal, (7) promotion and career planning, and (8) compensation.",
+     "answer": "Eight steps from HR planning to compensation."
+    },
+    {
+     "question": "How is recruitment related to selection?",
+     "solution": "Recruitment is the positive process of searching for and attracting prospective candidates, while selection is the negative process of choosing the most suitable candidates from among those recruited.",
+     "answer": "Recruitment attracts candidates; selection chooses from them."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the steps in the staffing process.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the staffing process in detail.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.6.3",
+   "title": "Recruitment",
+   "section": "6.3",
+   "definition": "Recruitment is the process of searching for prospective employees and stimulating them to apply for jobs in the organisation. It is a positive process aimed at creating a pool of candidates.",
+   "formula": "",
+   "key_idea": "Recruitment is the positive activity of attracting a large pool of applicants, from which selection can later choose the best.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is recruitment",
+    "explain recruitment as a positive process",
+    "why is recruitment called a positive process",
+    "differentiate recruitment and selection",
+    "what is the purpose of recruitment"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define recruitment",
+     "explain": "State that recruitment is searching for and stimulating candidates to apply."
+    },
+    {
+     "step": 2,
+     "action": "explain positive nature",
+     "explain": "Note that it is positive because it aims to attract as many suitable candidates as possible."
+    },
+    {
+     "step": 3,
+     "action": "state purpose",
+     "explain": "Explain that it creates a pool of applicants for the selection process."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is recruitment? Why is it called a positive process?",
+     "solution": "Recruitment is the process of searching for prospective employees and encouraging them to apply. It is positive because it seeks to attract more candidates rather than rejecting them.",
+     "answer": "Recruitment attracts candidates; it is positive because it adds to the applicant pool."
+    },
+    {
+     "question": "Differentiate between recruitment and selection.",
+     "solution": "Recruitment is a positive process of attracting candidates, while selection is a negative process of choosing the most suitable and rejecting the rest. Recruitment creates a pool; selection reduces it.",
+     "answer": "Recruitment attracts; selection chooses and rejects."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define recruitment.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain recruitment and distinguish it from selection.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.6.4",
+   "title": "Sources of Recruitment: Internal and External",
+   "section": "6.4",
+   "definition": "Internal sources of recruitment include transfers and promotions of existing employees, while external sources include direct recruitment, advertisements, employment exchanges, placement agencies, campus recruitment, recommendations, labour contractors, and web publishing.",
+   "formula": "",
+   "key_idea": "Internal sources are economical and motivating but limited; external sources bring fresh talent but are costly and may reduce morale of existing staff.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain internal sources of recruitment",
+    "explain external sources of recruitment",
+    "differentiate between internal and external sources of recruitment",
+    "state advantages of internal recruitment",
+    "state limitations of external recruitment"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define internal sources",
+     "explain": "State that internal sources are transfers and promotions within the organisation."
+    },
+    {
+     "step": 2,
+     "action": "define external sources",
+     "explain": "List external sources: direct recruitment, advertisements, employment exchanges, placement agencies, campus recruitment, labour contractors, web publishing."
+    },
+    {
+     "step": 3,
+     "action": "compare merits and limitations",
+     "explain": "Internal is cheap, motivating, and reliable but limited; external brings fresh talent but is costly and may lower morale."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain the internal sources of recruitment with merits and limitations.",
+     "solution": "Internal sources are transfers and promotions. Merits: economical, motivating, reliable, and helps in training. Limitations: limited choice, no fresh talent, and may lead to inbreeding and conflict among employees.",
+     "answer": "Internal sources are transfers/promotions; cheap and motivating but limited."
+    },
+    {
+     "question": "Explain any four external sources of recruitment.",
+     "solution": "External sources include: (1) direct recruitment at the factory gate, (2) advertisements in media, (3) employment exchanges, and (4) campus recruitment from educational institutions. They widen the choice and bring fresh talent.",
+     "answer": "External sources include direct, advertisements, exchanges, and campus recruitment."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Differentiate between internal and external sources of recruitment.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State any two merits of internal recruitment.",
+     "type": "short_answer"
+    },
+    {
+     "question": "List any three external sources of recruitment.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.6.5",
+   "title": "Selection Process",
+   "section": "6.5",
+   "definition": "Selection is the process of choosing the most suitable candidates from the pool of applicants. It is a negative process involving screening and rejection. The steps include preliminary screening, selection tests, employment interviews, reference checks, medical examination, selection decision, and job offer.",
+   "formula": "",
+   "key_idea": "Selection is a negative, multi-step screening process that picks the best-fit candidate while rejecting the rest.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is selection in staffing",
+    "explain the steps in the selection process",
+    "why is selection called a negative process",
+    "explain the types of selection tests",
+    "what is the role of an employment interview in selection"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define selection",
+     "explain": "State that selection is choosing the best candidates and rejecting others; it is a negative process."
+    },
+    {
+     "step": 2,
+     "action": "list the steps",
+     "explain": "List steps: preliminary screening, selection tests, interviews, reference checks, medical exam, selection decision, job offer."
+    },
+    {
+     "step": 3,
+     "action": "explain purpose",
+     "explain": "Explain that each step screens out unsuitable candidates to find the best fit."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain the steps in the selection process.",
+     "solution": "The steps are: (1) preliminary screening, (2) selection tests (aptitude, personality, etc.), (3) employment interview, (4) reference and background checks, (5) medical/physical examination, (6) selection decision, (7) job offer, and (8) contract of employment.",
+     "answer": "Eight steps from screening to contract of employment."
+    },
+    {
+     "question": "Why is selection called a negative process?",
+     "solution": "Because at every step candidates are screened out and rejected, leaving only the most suitable ones; the focus is on elimination rather than attraction.",
+     "answer": "Selection is negative because it rejects unsuitable candidates."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define selection.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the steps in the selection process.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is selection called a negative process?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.6.6",
+   "title": "Training and Development",
+   "section": "6.6",
+   "definition": "Training is the process of increasing the knowledge and skills of an employee for doing a particular job, while development is the overall growth of an employee to handle future responsibilities. Training is job-oriented; development is career-oriented.",
+   "formula": "",
+   "key_idea": "Training improves current job performance; development prepares employees for future roles and responsibilities.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "differentiate between training and development",
+    "what is training in staffing",
+    "explain the importance of training",
+    "what is development",
+    "why do organisations invest in training and development"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define training and development",
+     "explain": "Training increases job skills; development is overall growth for future roles."
+    },
+    {
+     "step": 2,
+     "action": "distinguish scope",
+     "explain": "Training is job-oriented and short-term; development is career-oriented and long-term."
+    },
+    {
+     "step": 3,
+     "action": "state importance",
+     "explain": "Explain that training improves performance, reduces wastage, and prepares employees for higher roles."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Distinguish between training and development.",
+     "solution": "Training is job-oriented, short-term, and aims to improve current performance. Development is career-oriented, long-term, and aims at overall growth for future responsibilities. Training focuses on skills; development focuses on attitudes and capabilities.",
+     "answer": "Training is job/short-term; development is career/long-term."
+    },
+    {
+     "question": "Why do organisations invest in training?",
+     "solution": "Training improves employee skills and productivity, reduces wastage and accidents, prepares employees for higher jobs, and helps the organisation adapt to technological change.",
+     "answer": "Training boosts productivity, reduces wastage, and aids adaptation."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Differentiate between training and development.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Explain the importance of training.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.6.7",
+   "title": "Methods of Training: On-the-Job and Off-the-Job",
+   "section": "6.7",
+   "definition": "On-the-job training is given at the workplace while the employee is actually performing the job (e.g., apprenticeship, coaching, job rotation). Off-the-job training is given away from the workplace (e.g., classroom lectures, vestibule training, case study, computer modelling).",
+   "formula": "",
+   "key_idea": "On-the-job training is practical and job-specific; off-the-job training is structured and suited to learning complex skills away from work pressures.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain on-the-job methods of training",
+    "explain off-the-job methods of training",
+    "differentiate between on-the-job and off-the-job training",
+    "what is vestibule training",
+    "give examples of on-the-job training methods"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define on-the-job training",
+     "explain": "State that it is given at the workplace while doing the job; methods include apprenticeship, coaching, job rotation, internship."
+    },
+    {
+     "step": 2,
+     "action": "define off-the-job training",
+     "explain": "State that it is given away from the workplace; methods include classroom lectures, vestibule training, case study, role playing, computer modelling."
+    },
+    {
+     "step": 3,
+     "action": "compare",
+     "explain": "On-the-job is practical and cheap but may disrupt work; off-the-job is structured and safe but costly and may not transfer directly."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain any four on-the-job training methods.",
+     "solution": "(1) Apprenticeship: trainees work under experts for a period. (2) Coaching: a superior guides a subordinate. (3) Job rotation: trainees move across jobs to gain varied experience. (4) Internship: practical training combined with classroom instruction.",
+     "answer": "Methods: apprenticeship, coaching, job rotation, internship."
+    },
+    {
+     "question": "Explain vestibule training as an off-the-job method.",
+     "solution": "Vestibule training is given in a separate area (vestibule) using equipment similar to the workplace, so employees learn skills without disrupting production. It is used when on-the-job training is risky or costly.",
+     "answer": "Vestibule training uses simulated equipment away from the workplace."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Differentiate between on-the-job and off-the-job training.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Explain any two off-the-job training methods.",
+     "type": "short_answer"
+    },
+    {
+     "question": "What is vestibule training?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.6.8",
+   "title": "Performance Appraisal",
+   "section": "6.8",
+   "definition": "Performance appraisal is the systematic evaluation of the performance of employees by their superiors or others who are familiar with their performance, to understand their abilities and potential for future growth.",
+   "formula": "",
+   "key_idea": "Performance appraisal measures how well an employee does a job, providing feedback for promotion, training, compensation, and development decisions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is performance appraisal",
+    "explain the importance of performance appraisal",
+    "what are the uses of performance appraisal in staffing",
+    "how does performance appraisal help in training decisions",
+    "explain performance appraisal as a step in staffing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define appraisal",
+     "explain": "State that it is the systematic evaluation of employee performance by superiors."
+    },
+    {
+     "step": 2,
+     "action": "state uses",
+     "explain": "Explain uses: promotion, transfer, compensation, training needs, and self-development."
+    },
+    {
+     "step": 3,
+     "action": "link to staffing",
+     "explain": "Show how appraisal feedback feeds back into training, career planning, and reward decisions."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is performance appraisal? State its uses.",
+     "solution": "Performance appraisal is the systematic evaluation of employee performance. Its uses include promotion, transfer, salary revision, identifying training needs, career planning, and providing feedback for self-improvement.",
+     "answer": "Appraisal evaluates performance; used for promotion, pay, training, and development."
+    },
+    {
+     "question": "How does performance appraisal help in training decisions?",
+     "solution": "Appraisal identifies the gaps between expected and actual performance, which reveals the specific areas where training is needed, enabling targeted training programmes.",
+     "answer": "Appraisal identifies skill gaps to guide training."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define performance appraisal.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the importance and uses of performance appraisal.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12bs.6.9",
+   "title": "Importance of Staffing",
+   "section": "6.9",
+   "definition": "Staffing is important because it helps in discovering and obtaining competent personnel, ensures optimum utilisation of human resources, improves job satisfaction, ensures continuous survival and growth of the organisation, and helps in training and development.",
+   "formula": "",
+   "key_idea": "Effective staffing is the backbone of management, ensuring the right people are placed in the right jobs to achieve organisational goals.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain the importance of staffing",
+    "why is staffing considered a key managerial function",
+    "how does staffing contribute to organisational growth",
+    "what is the relationship between staffing and performance",
+    "explain staffing as the backbone of management"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state key points",
+     "explain": "List importance points: obtaining competent personnel, optimum utilisation, job satisfaction, survival and growth, training and development."
+    },
+    {
+     "step": 2,
+     "action": "explain each point",
+     "explain": "Briefly explain how each point contributes to organisational effectiveness."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "Summarise that staffing links human resource planning to organisational performance."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain the importance of staffing in an organisation.",
+     "solution": "Staffing helps discover and obtain competent personnel, ensures optimum utilisation of human resources, improves job satisfaction and morale, ensures continuous survival and growth, and supports training and development of employees.",
+     "answer": "Staffing obtains talent, utilises resources, and supports growth."
+    },
+    {
+     "question": "Why is staffing called the backbone of management?",
+     "solution": "Because the success of every other function (planning, organising, directing, controlling) depends on having the right people; without proper staffing, no managerial function can be effective.",
+     "answer": "Staffing is the backbone because all functions depend on people."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the importance of staffing.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is staffing called the backbone of management?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

@@ -1,0 +1,193 @@
+{
+ "catalog": "catalog_class12_computer_science_lecs104",
+ "concepts": [
+  {
+   "id": "lecs104.1",
+   "title": "Queue Size after Enqueues and Dequeues",
+   "questions": [
+    {
+     "q": "Using the method 'Queue Size after Enqueues and Dequeues', work with: dequeues = 12, enqueues = 240, start_size = 512. Carry the chain through step by step and give the final value of final_size.",
+     "a": "740 bytes",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Queue Size after Enqueues and Dequeues' and work with: dequeues = 120, enqueues = 45, start_size = 512. Carry the chain through step by step and give the final value of final_size.",
+     "a": "437 bytes",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Queue Size after Enqueues and Dequeues' refers to.",
+     "a": "A queue grows only at its rear and shrinks only at its front, so after any mix of operations the count of elements equals the starting count plus enqueues minus dequeues.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Queue Size after Enqueues and Dequeues'.",
+     "a": "In Figure 4.3 three enqueues followed by three dequeues leave the queue holding just V.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Queue Size after Enqueues and Dequeues', in plain ASCII form.",
+     "a": "final_size = start_size + (enqueues - dequeues)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs104.2",
+   "title": "First In First Out Principle",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'First In First Out Principle' refers to.",
+     "a": "A queue serves elements in arrival order: the earliest entrant leaves first, which is also called First Come First Served; insertion happens at the REAR (tail) and removal at the FRONT (head).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'First In First Out Principle'.",
+     "a": "Deleting the letters A, S, D, F one at a time returns them in exactly that order.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'First In First Out Principle', in plain ASCII form.",
+     "a": "longest waiting element -> removed first",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs104.3",
+   "title": "Applications of Queue in Daily Life",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Applications of Queue in Daily Life' refers to.",
+     "a": "Queues model fair waiting: railway waiting lists confirm W/L1 from the front, customer-care calls wait in an IVRS queue, vehicles exit a single-lane road in entry order, and web servers, OS job schedulers and shared printers serve requests FIFO.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Applications of Queue in Daily Life'.",
+     "a": "A web server capped at 50 concurrent requests queues the remaining visitors and serves them in turn.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Applications of Queue in Daily Life', in plain ASCII form.",
+     "a": "requests served in arrival order",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs104.4",
+   "title": "Enqueue, Dequeue and Peek Operations",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Enqueue, Dequeue and Peek Operations' refers to.",
+     "a": "ENQUEUE inserts at the rear until capacity ends in overflow, DEQUEUE removes one element from the front until an empty queue causes underflow, PEEK reads the front without deleting it, and IS EMPTY guards the dequeue.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Enqueue, Dequeue and Peek Operations'.",
+     "a": "Peek answers 'who is next' without disturbing the line.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Enqueue, Dequeue and Peek Operations', in plain ASCII form.",
+     "a": "overflow -> enqueue on full; underflow -> dequeue on empty",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs104.5",
+   "title": "Queue Implementation Using a Python List",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Queue Implementation Using a Python List' refers to.",
+     "a": "One list serves as the queue: append() enqueues at the rear, pop(0) dequeues from the front, len() gives the size and myQueue[0] peeks, with Python's dynamic lists removing any fear of a full queue.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Queue Implementation Using a Python List'.",
+     "a": "Program 4-1 serves P1 first and then empties the queue in the order P2, P3, P4, P5.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Queue Implementation Using a Python List', in plain ASCII form.",
+     "a": "enqueue -> append; dequeue -> pop(0)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs104.6",
+   "title": "Deque Size after End Operations",
+   "questions": [
+    {
+     "q": "Using the method 'Deque Size after End Operations', work with: front_deletes = 30, front_inserts = 24, rear_deletes = 120, rear_inserts = 500. Carry the chain through step by step and give the final value of final_size.",
+     "a": "374 bytes",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Deque Size after End Operations' and work with: front_deletes = 18, front_inserts = 300, rear_deletes = 18, rear_inserts = 8. Carry the chain through step by step and give the final value of final_size.",
+     "a": "272 bytes",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Deque Size after End Operations' refers to.",
+     "a": "A deque, or double-ended queue, allows insertion and deletion at both front and rear; its length after any operation sequence equals the total insertions at both ends minus the total deletions at both ends.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Deque Size after End Operations'.",
+     "a": "Exercise 7's sequence of three insertions and three deletions leaves the deque empty.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Deque Size after End Operations', in plain ASCII form.",
+     "a": "final_size = (front_inserts + rear_inserts) - (front_deletes + rear_deletes)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs104.7",
+   "title": "Deque Applications and Palindrome Checking",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Deque Applications and Palindrome Checking' refers to.",
+     "a": "A deque fits where both ends matter: a ticket holder re-joins a counter queue from the front, browsers trim least-visited URLs from one end, editors keep do and undo moves, and Algorithm 4.1 checks palindromes by comparing characters removed from both ends.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Deque Applications and Palindrome Checking'.",
+     "a": "Removing one character from each end and matching pairs proves madam reads the same both ways.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Deque Applications and Palindrome Checking', in plain ASCII form.",
+     "a": "madam -> remove m/m, a/a, then single d -> palindrome",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs104.8",
+   "title": "Queue versus Stack versus Deque",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Queue versus Stack versus Deque' refers to.",
+     "a": "The three linear structures differ only in where elements may enter and leave: a stack uses one end (LIFO), a queue uses two fixed ends (FIFO), and a deque permits both operations at both ends, so it can mimic either of the others.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Queue versus Stack versus Deque'.",
+     "a": "Same-end operation makes a deque act as a stack; opposite-end operation makes it act as a queue.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Queue versus Stack versus Deque', in plain ASCII form.",
+     "a": "stack: 1 end; queue: 2 fixed ends; deque: both ends free",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

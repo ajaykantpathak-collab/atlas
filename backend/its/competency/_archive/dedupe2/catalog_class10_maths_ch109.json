@@ -1,0 +1,470 @@
+{
+ "class": 10,
+ "subject": "maths",
+ "chapter": 109,
+ "chapter_title": "Some Applications of Trigonometry",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jemh109.txt",
+ "concepts": [
+  {
+   "id": "jemh.9.1.1",
+   "title": "Line of Sight, Angle of Elevation, and Angle of Depression",
+   "section": "9.1",
+   "definition": "The line of sight is the straight path from the observer's eye to the object. The angle of elevation is formed looking up to an object, and the angle of depression is formed looking down, both measured from the horizontal.",
+   "formula": "None",
+   "key_idea": "Elevation is looking up and depression is looking down, both measured relative to the horizontal line of sight.",
+   "textbook_ref": "jemh109.txt lines 1-50",
+   "question_patterns": [
+    "define line of sight and angle of elevation",
+    "what is the difference between angle of elevation and angle of depression",
+    "explain angle of depression with a diagram",
+    "identify the angles of elevation and depression in the given figure"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the horizontal line of reference",
+     "explain": "Draw a horizontal line from the observer's eye level."
+    },
+    {
+     "step": 2,
+     "action": "Determine the direction of the line of sight",
+     "explain": "If the object is above the horizontal line, the angle is an angle of elevation. If below, it is an angle of depression."
+    }
+   ]
+  },
+  {
+   "id": "jemh.9.1.2",
+   "title": "Height of a Vertical Object using Tangent Ratio",
+   "section": "9.1",
+   "definition": "Calculating the vertical height of an object when the horizontal distance from its base and the angle of elevation to its top are known.",
+   "formula": "height = distance * tan_angle",
+   "key_idea": "The tangent ratio relates the opposite side (height) to the adjacent side (distance) in a right triangle.",
+   "textbook_ref": "jemh109.txt lines 55-90",
+   "question_patterns": [
+    "find the height of the tower",
+    "calculate the height of a vertical pole",
+    "what is the height of the building if the angle of elevation is ... at a distance of ...",
+    "determine the height of the vertical structure"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply distance by the tangent of the angle of elevation",
+     "explain": "Using the tangent ratio, height is the product of the adjacent distance and the tangent of the angle.",
+     "compute": "height = distance * tan_angle"
+    }
+   ]
+  },
+  {
+   "id": "jemh.9.1.3",
+   "title": "Length of Inclined Line or String using Sine Ratio",
+   "section": "9.1",
+   "definition": "Determining the length of a leaning ladder, slide, or kite string given the vertical height and the angle of inclination.",
+   "formula": "length = height / sin_angle",
+   "key_idea": "The sine ratio relates the vertical height (opposite side) to the length of the inclined path (hypotenuse).",
+   "textbook_ref": "jemh109.txt lines 91-115",
+   "question_patterns": [
+    "find the length of the ladder",
+    "calculate the length of the string of the kite",
+    "what should be the length of the slide",
+    "determine the length of the rope tied to the pole"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide the vertical height by the sine of the angle",
+     "explain": "The hypotenuse is calculated by dividing the opposite side by the sine of the angle of inclination.",
+     "compute": "length = height / sin_angle"
+    }
+   ]
+  },
+  {
+   "id": "jemh.9.1.4",
+   "title": "Total Height of Object including Observer's Height",
+   "section": "9.1",
+   "definition": "Calculating the total height of a vertical structure when the observer's eye level is at a known height above the ground.",
+   "formula": "total_height = observer_height + distance * tan_angle",
+   "key_idea": "The total height is the sum of the observer's height and the vertical height of the right triangle above eye level.",
+   "textbook_ref": "jemh109.txt lines 116-135",
+   "question_patterns": [
+    "find the height of the chimney if the observer is ... tall",
+    "calculate the total height of the tower including observer height",
+    "what is the height of the building when viewed by a person of height ...",
+    "determine the height of the vertical object given the observer's height"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the height of the object above the observer's eye level",
+     "explain": "Multiply the horizontal distance by the tangent of the angle of elevation.",
+     "compute": "above_eye_height = distance * tan_angle"
+    },
+    {
+     "step": 2,
+     "action": "Add the observer's height to get the total height",
+     "explain": "The overall height of the object is the sum of the height above eye level and the height of the observer.",
+     "compute": "total_height = above_eye_height + observer_height"
+    }
+   ]
+  },
+  {
+   "id": "jemh.9.1.5",
+   "title": "Height of a Broken Tree",
+   "section": "9.1",
+   "definition": "Finding the original height of a tree that broke during a storm, where the broken part bends and touches the ground, forming a right triangle.",
+   "formula": "total_height = distance * tan_angle + distance / cos_angle",
+   "key_idea": "The original height is the sum of the remaining vertical trunk and the fallen broken top.",
+   "textbook_ref": "jemh109.txt Exercise 9.1 Q2",
+   "question_patterns": [
+    "find the height of the tree which breaks due to storm",
+    "calculate the original height of the broken tree",
+    "a tree breaks and its top touches the ground ... find the height of the tree",
+    "determine the height of the broken tree given the distance and angle"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the vertical unbroken height of the tree",
+     "explain": "Using the tangent ratio, the vertical height is distance times tangent of the angle.",
+     "compute": "unbroken_height = distance * tan_angle"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the length of the broken part",
+     "explain": "Using the cosine ratio, the hypotenuse is distance divided by cosine of the angle.",
+     "compute": "broken_part = distance / cos_angle"
+    },
+    {
+     "step": 3,
+     "action": "Sum both parts to find the total original height",
+     "explain": "The total height is the sum of the unbroken vertical part and the broken part.",
+     "compute": "total_height = unbroken_height + broken_part"
+    }
+   ]
+  },
+  {
+   "id": "jemh.9.1.6",
+   "title": "Height of a Tower or Flagstaff on a Building",
+   "section": "9.1",
+   "definition": "Finding the height of an object (like a flagstaff or transmission tower) mounted on top of a building of known height, using angles of elevation to its bottom and top from a single point.",
+   "formula": "tower_height = building_height * (tan_top / tan_bottom - 1)",
+   "key_idea": "Solve for the common horizontal distance first, then use it to find the total height and subtract the building's height.",
+   "textbook_ref": "jemh109.txt lines 136-160",
+   "question_patterns": [
+    "find the length of the flagstaff on top of the building",
+    "calculate the height of the transmission tower fixed on a building",
+    "what is the height of the statue standing on a pedestal",
+    "determine the height of the tower fixed on top of a building"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the horizontal distance from the point to the building",
+     "explain": "Divide the building height by the tangent of the angle of elevation of the bottom of the tower.",
+     "compute": "distance = building_height / tan_bottom"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the total height of the building plus the tower",
+     "explain": "Multiply the horizontal distance by the tangent of the angle of elevation of the top of the tower.",
+     "compute": "total_height = distance * tan_top"
+    },
+    {
+     "step": 3,
+     "action": "Subtract the building height to get the tower height",
+     "explain": "The height of the tower is the total height minus the height of the building.",
+     "compute": "tower_height = total_height - building_height"
+    }
+   ]
+  },
+  {
+   "id": "jemh.9.1.7",
+   "title": "Height of Tower from Two Points of Observation",
+   "section": "9.1",
+   "definition": "Determining the height of a tower when the angle of elevation changes as an observer moves a certain distance along a straight line towards or away from the tower.",
+   "formula": "height = distance_between / (cot_smaller - cot_larger)",
+   "key_idea": "The distance between the two observation points is the difference between the two horizontal base lengths.",
+   "textbook_ref": "jemh109.txt lines 161-200",
+   "question_patterns": [
+    "find the height of the tower when the shadow is ... longer",
+    "calculate the height of the tower if the angle changes from ... to ... as he walks",
+    "find the distance walked towards the building",
+    "determine the height of the tower given two angles of elevation and the distance between them"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find the difference between the cotangents of the two angles",
+     "explain": "Subtract the cotangent of the larger angle from the cotangent of the smaller angle.",
+     "compute": "cot_diff = cot_smaller - cot_larger"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the height of the tower",
+     "explain": "Divide the distance between the two points by the cotangent difference.",
+     "compute": "height = distance_between / cot_diff"
+    }
+   ]
+  },
+  {
+   "id": "jemh.9.1.8",
+   "title": "Width of a River from a Bridge",
+   "section": "9.1",
+   "definition": "Calculating the width of a river from a bridge of known height, given the angles of depression of the banks on opposite sides.",
+   "formula": "width = height * (cot_angle1 + cot_angle2)",
+   "key_idea": "The total width is the sum of the horizontal distances from the perpendicular projection of the high point to each bank.",
+   "textbook_ref": "jemh109.txt lines 225-250",
+   "question_patterns": [
+    "find the width of the river",
+    "calculate the width of the river from a bridge of height",
+    "angles of depression of the banks on opposite sides are ... find the width",
+    "determine the width of the river given the height and angles of depression"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the distance to the first bank",
+     "explain": "Multiply the bridge height by the cotangent of the first angle of depression.",
+     "compute": "distance1 = height * cot_angle1"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the distance to the second bank",
+     "explain": "Multiply the bridge height by the cotangent of the second angle of depression.",
+     "compute": "distance2 = height * cot_angle2"
+    },
+    {
+     "step": 3,
+     "action": "Sum the two distances to get the total width of the river",
+     "explain": "The width of the river is the sum of the horizontal distances to both banks.",
+     "compute": "width = distance1 + distance2"
+    }
+   ]
+  },
+  {
+   "id": "jemh.9.1.9",
+   "title": "Height and Distance between Buildings from Depression Angles",
+   "section": "9.1",
+   "definition": "Determining the height of a taller building and the distance between two buildings using the depression angles of the top and bottom of a shorter building.",
+   "formula": "distance = shorter_height / (tan_bottom - tan_top)",
+   "key_idea": "The difference in building heights is related to the horizontal distance through the tangent of the depression angle of the top.",
+   "textbook_ref": "jemh109.txt lines 201-224",
+   "question_patterns": [
+    "find the height of the multi-storeyed building",
+    "calculate the distance between the two buildings",
+    "angles of depression of the top and bottom of a ... tall building are ... and ... find the height",
+    "determine the height of the taller building given the shorter building height and depression angles"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the difference in the tangent values of the two depression angles",
+     "explain": "Subtract the tangent of the top angle from the tangent of the bottom angle.",
+     "compute": "tan_diff = tan_bottom - tan_top"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the horizontal distance between the buildings",
+     "explain": "Divide the height of the shorter building by the difference in tangents.",
+     "compute": "distance = shorter_height / tan_diff"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the height of the taller building",
+     "explain": "Multiply the horizontal distance by the tangent of the angle of depression of the bottom.",
+     "compute": "taller_height = distance * tan_bottom"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Example 1",
+   "concept": "jemh.9.1.2",
+   "question_type": "compute",
+   "question_pattern": "A tower stands vertically on the ground. From a point on the ground, which is {distance} m away from the foot of the tower, the angle of elevation of the top of the tower is found to be 60°. Find the height of the tower.",
+   "extracted_variables": {
+    "distance": 15,
+    "tan_angle": 1.73205
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply distance by the tangent of the angle of elevation",
+     "explain": "Using the tangent ratio, height is the product of the adjacent distance and the tangent of the angle.",
+     "compute": "height = distance * tan_angle"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Example 2",
+   "concept": "jemh.9.1.3",
+   "question_type": "compute",
+   "question_pattern": "An electrician has to repair an electric fault on a pole of height 5 m. She needs to reach a point 1.3m below the top of the pole to undertake the repair work. What should be the length of the ladder that she should use which, when inclined at an angle of 60° to the horizontal, would enable her to reach the required position?",
+   "extracted_variables": {
+    "height": 3.7,
+    "sin_angle": 0.866025
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide the vertical height by the sine of the angle",
+     "explain": "The hypotenuse is calculated by dividing the opposite side by the sine of the angle of inclination.",
+     "compute": "length = height / sin_angle"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "Example 3",
+   "concept": "jemh.9.1.4",
+   "question_type": "compute",
+   "question_pattern": "An observer {observer_height} m tall is {distance} m away from a chimney. The angle of elevation of the top of the chimney from her eyes is 45°. What is the height of the chimney?",
+   "extracted_variables": {
+    "observer_height": 1.5,
+    "distance": 28.5,
+    "tan_angle": 1.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the height of the object above the observer's eye level",
+     "explain": "Multiply the horizontal distance by the tangent of the angle of elevation.",
+     "compute": "above_eye_height = distance * tan_angle"
+    },
+    {
+     "step": 2,
+     "action": "Add the observer's height to get the total height",
+     "explain": "The overall height of the object is the sum of the height above eye level and the height of the observer.",
+     "compute": "total_height = above_eye_height + observer_height"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "Example 4",
+   "concept": "jemh.9.1.6",
+   "question_type": "compute",
+   "question_pattern": "From a point P on the ground the angle of elevation of the top of a {building_height} m tall building is 30°. A flag is hoisted at the top of the building and the angle of elevation of the top of the flagstaff from P is 45°. Find the length of the flagstaff.",
+   "extracted_variables": {
+    "building_height": 10,
+    "tan_bottom": 0.57735,
+    "tan_top": 1.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the horizontal distance from the point to the building",
+     "explain": "Divide the building height by the tangent of the angle of elevation of the bottom of the tower.",
+     "compute": "distance = building_height / tan_bottom"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the total height of the building plus the tower",
+     "explain": "Multiply the horizontal distance by the tangent of the angle of elevation of the top of the tower.",
+     "compute": "total_height = distance * tan_top"
+    },
+    {
+     "step": 3,
+     "action": "Subtract the building height to get the tower height",
+     "explain": "The height of the tower is the total height minus the height of the building.",
+     "compute": "tower_height = total_height - building_height"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "Example 5",
+   "concept": "jemh.9.1.7",
+   "question_type": "compute",
+   "question_pattern": "The shadow of a tower standing on a level ground is found to be {distance_between} m longer when the Sun’s altitude is 30° than when it is 60°. Find the height of the tower.",
+   "extracted_variables": {
+    "distance_between": 40,
+    "cot_smaller": 1.73205,
+    "cot_larger": 0.57735
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find the difference between the cotangents of the two angles",
+     "explain": "Subtract the cotangent of the larger angle from the cotangent of the smaller angle.",
+     "compute": "cot_diff = cot_smaller - cot_larger"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the height of the tower",
+     "explain": "Divide the distance between the two points by the cotangent difference.",
+     "compute": "height = distance_between / cot_diff"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "Example 7",
+   "concept": "jemh.9.1.8",
+   "question_type": "compute",
+   "question_pattern": "From a point on a bridge across a river, the angles of depression of the banks on opposite sides of the river are 30° and 45°, respectively. If the bridge is at a height of {height} m from the banks, find the width of the river.",
+   "extracted_variables": {
+    "height": 3,
+    "cot_angle1": 1.73205,
+    "cot_angle2": 1.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the distance to the first bank",
+     "explain": "Multiply the bridge height by the cotangent of the first angle of depression.",
+     "compute": "distance1 = height * cot_angle1"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the distance to the second bank",
+     "explain": "Multiply the bridge height by the cotangent of the second angle of depression.",
+     "compute": "distance2 = height * cot_angle2"
+    },
+    {
+     "step": 3,
+     "action": "Sum the two distances to get the total width of the river",
+     "explain": "The width of the river is the sum of the horizontal distances to both banks.",
+     "compute": "width = distance1 + distance2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex9.1",
+   "source_ref": "EXERCISE 9.1",
+   "questions": [
+    "A circus artist is climbing a 20 m long rope, which is tightly stretched and tied from the top of a vertical pole to the ground. Find the height of the pole, if the angle made by the rope with the ground level is 30°.",
+    "A tree breaks due to storm and the broken part bends so that the top of the tree touches the ground making an angle 30° with it. The distance between the foot of the tree to the point where the top touches the ground is 8 m. Find the height of the tree.",
+    "A contractor plans to install two slides for the children to play in a park. For the children below the age of 5 years, she prefers to have a slide whose top is at a height of 1.5 m, and is inclined at an angle of 30° to the ground, whereas for elder children, she wants to have a steep slide at a height of 3m, and inclined at an angle of 60° to the ground. What should be the length of the slide in each case?",
+    "The angle of elevation of the top of a tower from a point on the ground, which is 30 m away from the foot of the tower, is 30°. Find the height of the tower.",
+    "A kite is flying at a height of 60 m above the ground. The string attached to the kite is temporarily tied to a point on the ground. The inclination of the string with the ground is 60°. Find the length of the string, assuming that there is no slack in the string.",
+    "A 1.5 m tall boy is standing at some distance from a 30 m tall building. The angle of elevation from his eyes to the top of the building increases from 30° to 60° as he walks towards the building. Find the distance he walked towards the building.",
+    "From a point on the ground, the angles of elevation of the bottom and the top of a transmission tower fixed at the top of a 20 m high building are 45° and 60° respectively. Find the height of the tower.",
+    "A statue, 1.6 m tall, stands on the top of a pedestal. From a point on the ground, the angle of elevation of the top of the statue is 60° and from the same point the angle of elevation of the top of the pedestal is 45°. Find the height of the pedestal.",
+    "The angle of elevation of the top of a building from the foot of the tower is 30° and the angle of elevation of the top of the tower from the foot of the building is 60°. If the tower is 50 m high, find the height of the building.",
+    "Two poles of equal heights are standing opposite each other on either side of the road, which is 80 m wide. From a point between them on the road, the angles of elevation of the top of the poles are 60° and 30°, respectively. Find the height of the poles and the distances of the point from the poles.",
+    "A TV tower stands vertically on a bank of a canal. From a point on the other bank directly opposite the tower, the angle of elevation of the top of the tower is 60°. From another point 20 m away from this point on the line joing this point to the foot of the tower, the angle of elevation of the top of the tower is 30°. Find the height of the tower and the width of the canal.",
+    "From the top of a 7 m high building, the angle of elevation of the top of a cable tower is 60° and the angle of depression of its foot is 45°. Determine the height of the tower.",
+    "As observed from the top of a 75 m high lighthouse from the sea-level, the angles of depression of two ships are 30° and 45°. If one ship is exactly behind the other on the same side of the lighthouse, find the distance between the two ships.",
+    "A 1.2 m tall girl spots a balloon moving with the wind in a horizontal line at a height of 88.2 m from the ground. The angle of elevation of the balloon from the eyes of the girl at any instant is 60°. After some time, the angle of elevation reduces to 30°. Find the distance travelled by the balloon during the interval.",
+    "A straight highway leads to the foot of a tower. A man standing at the top of the tower observes a car at an angle of depression of 30°, which is approaching the foot of the tower with a uniform speed. Six seconds later, the angle of depression of the car is found to be 60°. Find the time taken by the car to reach the foot of the tower from this point."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

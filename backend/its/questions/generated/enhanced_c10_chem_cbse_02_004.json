@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_02_004",
+   "title": "c10_chem_cbse_02_004",
+   "questions": [
+    {
+     "q": "Write the balanced chemical equation for the reaction between magnesium metal and dilute sulphuric acid. Name the salt formed.",
+     "a": "Mg(s) + H₂SO₄(aq) → MgSO₄(aq) + H₂(g); Salt formed: Magnesium sulphate. A wrong answer like Mg + H₂SO₄ → MgSO₄ + H₂ (unbalanced) or Mg + 2HCl → MgCl₂ + H₂ (wrong acid) reveals the student cannot translate the word equation to correct formulae or balance atoms, indicating gaps in valency cross-method (c9_chem_ch3_6) or law of conservation of mass (c9_chem_ch3_1).",
+     "self_check": true
+    },
+    {
+     "q": "A student adds dilute HCl to four test tubes containing: (A) zinc granules, (B) copper turnings, (C) iron filings, (D) silver foil. In which test tubes will bubbles of gas appear? Explain why the other metals do not react.",
+     "a": "Bubbles appear in test tubes A (Zn) and C (Fe) because Zn and Fe are above hydrogen in the reactivity series and can displace H⁺ from acid. Cu and Ag are below hydrogen, so they cannot displace H⁺ — no reaction occurs. A wrong answer listing Cu or Ag as reactive reveals the student memorised \"metals react with acids\" without understanding the reactivity series cut-off (c7_chem_ch01_012), a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Balance the following equation and identify the type of reaction: Al(s) + HCl(aq) → AlCl₃(aq) + H₂(g). If 2.7 g of aluminium reacts completely, calculate the volume of hydrogen gas produced at STP (Molar mass Al = 27 g/mol, Molar volume at STP = 22.4 L).",
+     "a": "Step 1: Balance Al: 2Al + 6HCl → 2AlCl₃ + 3H₂. Step 2: Moles of Al = 2.7/27 = 0.1 mol. Step 3: From equation, 2 mol Al gives 3 mol H₂, so 0.1 mol Al gives 0.15 mol H₂. Step 4: Volume = 0.15 × 22.4 = 3.36 L. Reaction type: Single displacement/Redox. A wrong answer with unbalanced equation (e.g., Al + 3HCl → AlCl₃ + 3/2 H₂) or incorrect mole ratio (1:1 instead of 2:3) shows the student cannot balance odd-valency metals or apply stoichiometry — both tested in CBSE 3-mark questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reaction rates when equal masses of magnesium ribbon and zinc granules are added to separate test tubes containing equal volumes of 1 M HCl at room temperature. Which reacts faster and why? Relate your answer to the reactivity series and surface area.",
+     "a": "Magnesium reacts faster because Mg is higher than Zn in the reactivity series (more electropositive, loses electrons more readily) AND the ribbon provides larger surface area than granules of equal mass. A wrong answer citing only surface area or only reactivity series shows incomplete analysis — CBSE competency questions require both factors. Students often forget that reactivity series position determines the thermodynamic driving force while surface area affects kinetics.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the observation for Zn + H₂SO₄(dil) as: \"White precipitate of ZnSO₄ formed.\" Evaluate this statement. Is it correct? If not, write the correct observation and explain the error.",
+     "a": "Incorrect. ZnSO₄ is soluble in water — it remains in solution as a colourless liquid, not a precipitate. Correct observation: \"Colourless gas bubbles evolve rapidly; the solution remains colourless.\" The error: confusing soluble salts with insoluble ones. In board exams, writing \"white precipitate\" for soluble sulphates (except Ba, Sr, Pb, Ca) loses full marks. This tests whether the student knows solubility rules (Class 9: c9_chem_ch3_8) applied to acid-metal reactions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to prove that the gas evolved when iron filings react with dilute H₂SO₄ is hydrogen. List materials, procedure (3 steps), observation, and conclusion. How would you modify this to collect the gas for further testing?",
+     "a": "Materials: Iron filings, dilute H₂SO₄, test tube, delivery tube, trough, gas jar, burning splint. Procedure: (1) Add Fe to H₂SO₄ in test tube fitted with delivery tube. (2) Collect gas by downward displacement of water in gas jar. (3) Bring burning splint to jar mouth. Observation: 'Pop' sound confirms H₂. Modification: Use a gas syringe or inverted measuring cylinder over water for quantitative collection. A poor answer omits the 'pop' test or suggests upward displacement (H₂ is lighter than air) — reveals confusion about gas density and collection methods.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

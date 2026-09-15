@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_02_008",
+   "title": "c11_phy_cbse_02_008",
+   "questions": [
+    {
+     "q": "A ball is dropped from rest from a height of 20 m. What is the magnitude and direction of its acceleration at the instant it is released? State the SI unit.",
+     "a": "The acceleration is \\( 9.8 \\, \\text{m/s}^2 \\) vertically downward. A wrong answer (e.g., \"zero\" or \"upward\") reveals the student confuses initial velocity (zero) with acceleration, or thinks acceleration requires initial motion. They may also incorrectly believe a stationary object has zero acceleration.",
+     "self_check": true
+    },
+    {
+     "q": "A student throws a ball vertically upward with initial speed 20 m/s. At the highest point of its motion, the ball's velocity is zero. Is the acceleration zero at that instant? Explain why or why not using the concept of force.",
+     "a": "No, acceleration is not zero; it is \\( 9.8 \\, \\text{m/s}^2 \\) downward. The gravitational force \\( mg \\) still acts on the ball, so by Newton's second law \\( a = F/m = g \\) downward. A wrong answer (\"acceleration is zero because velocity is zero\") reveals the misconception that acceleration and velocity must have the same value or that zero velocity implies zero net force.",
+     "self_check": true
+    },
+    {
+     "q": "A stone is thrown vertically upward from the top of a 40 m high building with an initial velocity of 15 m/s. Take \\( g = 10 \\, \\text{m/s}^2 \\) and upward as positive. Calculate (a) the maximum height reached above the ground, and (b) the time taken to hit the ground.",
+     "a": "(a) At max height, \\( v = 0 \\). Using \\( v^2 = u^2 - 2g(y - y_0) \\): \\( 0 = 15^2 - 2(10)(y - 40) \\) → \\( y - 40 = 11.25 \\) → \\( y = 51.25 \\, \\text{m} \\) above ground.\n(b) Use \\( y = y_0 + ut - \\frac{1}{2}gt^2 \\) with \\( y = 0 \\) (ground): \\( 0 = 40 + 15t - 5t^2 \\) → \\( 5t^2 - 15t - 40 = 0 \\) → \\( t^2 - 3t - 8 = 0 \\). Solving: \\( t = \\frac{3 \\pm \\sqrt{9 + 32}}{2} = \\frac{3 \\pm \\sqrt{41}}{2} \\). Positive root: \\( t \\approx 4.7 \\, \\text{s} \\).\nA wrong answer often comes from sign errors in the quadratic equation or forgetting to add the building height to the displacement.",
+     "self_check": true
+    },
+    {
+     "q": "Two balls are dropped from the same height at 1-second intervals. Ball A is dropped at \\( t = 0 \\), Ball B at \\( t = 1 \\, \\text{s} \\). Sketch the velocity-time graph for both balls from \\( t = 0 \\) to \\( t = 3 \\, \\text{s} \\) on the same axes. Explain whether the separation between them increases, decreases, or stays constant.",
+     "a": "Both graphs are straight lines with slope \\( -g \\) (if upward positive) starting at different times. Ball A: \\( v = -gt \\) from \\( t = 0 \\). Ball B: \\( v = 0 \\) for \\( t < 1 \\), then \\( v = -g(t-1) \\) for \\( t \\ge 1 \\). The separation increases because Ball A always has a greater downward speed than Ball B (by \\( g \\times 1 \\, \\text{s} = 9.8 \\, \\text{m/s} \\)), so the distance between them grows. A wrong answer (constant separation) reveals the student thinks equal acceleration means equal velocity, confusing acceleration with velocity difference.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a free-fall problem: \"A ball is thrown upward at 25 m/s. Find the time to reach maximum height.\" They write: \\( v = u + gt \\), \\( 0 = 25 + 9.8t \\), \\( t = -2.55 \\, \\text{s} \\). They say \"time cannot be negative, so the answer is 2.55 s.\" Evaluate this solution. Is the final answer correct? Is the method correct?",
+     "a": "The final answer (2.55 s) is numerically correct but the method is flawed. The equation \\( v = u + gt \\) uses \\( g \\) as a positive magnitude, but the sign convention is inconsistent. If upward is positive, acceleration is \\( -g \\), so the correct equation is \\( v = u - gt \\) → \\( 0 = 25 - 9.8t \\) → \\( t = 2.55 \\, \\text{s} \\). The student's method ignores the vector nature of acceleration and gets the right number for the wrong reason. This reveals a lack of understanding of sign conventions in vector equations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only a smartphone, a ruler, and a small heavy object (like a metal nut) to measure the value of \\( g \\) to within 5% accuracy. Describe the procedure, measurements needed, and the calculation. Identify the main source of error.",
+     "a": "Procedure: Use the smartphone's slow-motion video (e.g., 240 fps) to record the nut falling from a known height \\( h \\) (measured with ruler). Count frames \\( n \\) from release to impact. Time \\( t = n / \\text{fps} \\). Calculate \\( g = 2h/t^2 \\). Repeat 5 times and average. Main error: air resistance (minimal for heavy nut) and frame-counting uncertainty. A poor answer (e.g., \"use stopwatch by hand\") reveals inability to design a precise measurement using available tools and ignorance of human reaction time error (~0.2 s).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_06_001",
+   "title": "c11_hist_cbse_06_001",
+   "questions": [
+    {
+     "q": "In which century did the \"Three Orders\" conceptual model (Oratores, Bellatores, Laboratores) first appear in European written sources, and which bishop is most associated with its formulation?",
+     "a": "The model appears in the early 11th century (c. 1020), articulated by Bishop Adalbero of Laon in a poem to King Robert II of France. A wrong answer (e.g., \"9th century\" or \"Charlemagne\") reveals confusion between the *practice* of feudalism (which begins earlier) and the *ideological formulation* of the three orders, which post-dates the Carolingian collapse and reflects a clerical attempt to order society.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Three Orders model place the clergy (Oratores) at the top of the social hierarchy, above the nobility (Bellatores), even though kings and nobles held military and political power?",
+     "a": "The clergy claimed primacy because their function — prayer and salvation — concerned the eternal soul, which medieval theology ranked above temporal life. The model was a *clerical* construction (Adalbero was a bishop) legitimising Church authority over lay society. A wrong answer focusing on \"wealth\" or \"land ownership\" misses the *ideological* nature of the hierarchy: it was about spiritual function, not material power, though the Church did accumulate both.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"The Third Order (Laboratores) included only serfs bound to the manor.\" Using evidence from the 11th–13th centuries, explain why this is incomplete and identify at least two other groups who belonged to this order.",
+     "a": "The Third Order encompassed *all* who laboured: serfs (unfree), free peasants (rent-paying), village artisans (smiths, millers), and urban wage-workers by the 12th century. The model was functional (\"those who work\"), not legal. A wrong answer equating Laboratores with serfdom alone confuses a *legal status* (serfdom) with a *functional category* (labour), ignoring the growing diversity of the working population, especially after 1100.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Three Orders model with the *varna* system in early India (c9_hist_ch3_9). Identify one structural similarity and one fundamental difference in how each system justified social hierarchy.",
+     "a": "Similarity: both are *idealised, prescriptive* four-fold (or three-fold) classifications claiming divine/natural sanction. Difference: *varna* was justified by *ritual purity* and *karma* (birth-based, religious), while the Three Orders was justified by *social function* (pray/fight/work) and *mutual obligation* — theoretically allowing mobility (e.g., a peasant's son becoming a clerk). A wrong answer conflating them as \"both rigid caste systems\" misses the functional, contractual logic of feudalism versus the ritual logic of varna.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the historian Georges Duby's claim that the Three Orders model was \"a society imagined by bishops\" rather than a description of reality. Support your judgment with two pieces of evidence from 10th–12th century Europe.",
+     "a": "Duby is largely correct: (1) The model appears in *clerical* texts (Adalbero, Gerard of Cambrai) addressing kings, not in legal codes or manor records. (2) Reality included groups that defied the schema: merchants (neither praying, fighting, nor farming), Jews (outside Christian orders), and unfree knights (ministeriales). A weak evaluation treats the model as \"accurate because it existed\" — confusing *ideology* with *social structure*.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 4-event timeline (with dates) showing the transition from the Carolingian Empire to the crystallisation of the Three Orders ideology, and annotate each event with the causal link to the next.",
+     "a": "(1) 843 – Treaty of Verdun fragments Carolingian Empire → (2) 888 – Carolingian dynasty ends; local counts become hereditary lords → (3) c. 950–1050 – \"Feudal revolution\": castles proliferate, peasant commendation rises → (4) c. 1020 – Adalbero of Laon writes *Carmen ad Robertum Regem* formalising Three Orders. Each step shows decentralisation → localisation of protection → ideological codification. A poor timeline lists battles or kings without showing the *structural* causation: empire collapse → power vacuum → feudal bonds → clerical ordering.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

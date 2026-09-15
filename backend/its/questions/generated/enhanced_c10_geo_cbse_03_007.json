@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_03_007",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_03_007",
+   "title": "c10_geo_cbse_03_007",
+   "questions": [
+    {
+     "q": "Name any two major inter-state water disputes in India and the rivers involved.",
+     "a": "Correct answer: Cauvery dispute (Cauvery river) between Karnataka and Tamil Nadu; Krishna dispute (Krishna river) among Maharashtra, Karnataka, Andhra Pradesh/Telangana. A wrong answer (e.g., naming Ganga dispute) reveals confusion between inter-state and international disputes or lack of recall of specific river basins.",
+     "self_check": true
+    },
+    {
+     "q": "Why do inter-state water disputes often escalate during drought years? Explain with reference to the Cauvery basin.",
+     "a": "Correct answer: During drought, water availability decreases while demand remains high, intensifying competition. In Cauvery, Karnataka (upper riparian) may withhold water to meet its own needs, causing conflict with Tamil Nadu (lower riparian). A wrong answer that blames only one state reveals a misunderstanding of the structural nature of the dispute.",
+     "self_check": true
+    },
+    {
+     "q": "Given a map of the Krishna river basin showing the states of Maharashtra, Karnataka, and Andhra Pradesh/Telangana, identify which state is the upper riparian and which is the lower riparian. Explain how this position influences their bargaining power in water sharing negotiations.",
+     "a": "Correct answer: Maharashtra is the upper riparian (source), Karnataka is middle, Andhra Pradesh/Telangana is lower riparian. Upper riparian states can control flow, giving them leverage; lower riparian states depend on releases. A wrong answer reversing the order reveals confusion about river flow direction and its political implications.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Cauvery and Narmada water disputes in terms of: (a) number of states involved, (b) nature of demand (irrigation vs. hydropower vs. drinking), and (c) resolution mechanism used.",
+     "a": "Correct answer: Cauvery involves 4 states (Karnataka, Tamil Nadu, Kerala, Puducherry) primarily for irrigation; resolved via tribunal and Supreme Court. Narmada involves 4 states (Madhya Pradesh, Gujarat, Maharashtra, Rajasthan) for irrigation, hydropower, and drinking; resolved via Narmada Water Disputes Tribunal and later Supreme Court. A wrong answer that treats them as identical misses the differing demands and institutional responses.",
+     "self_check": true
+    },
+    {
+     "q": "Assess the effectiveness of the Inter-State River Water Disputes Act, 1956 in resolving water conflicts. Provide two strengths and two limitations.",
+     "a": "Correct answer: Strengths: provides legal framework, establishes tribunals for adjudication. Limitations: lengthy process (decades), enforcement challenges, lack of compliance mechanisms, political interference. A wrong answer that says it is fully effective ignores ongoing disputes like Cauvery.",
+     "self_check": true
+    },
+    {
+     "q": "Design a water sharing agreement framework for a hypothetical river basin shared by three states (upstream, midstream, downstream) that addresses seasonal variability, ecological flow, and dispute resolution. Outline key principles.",
+     "a": "Expected answer: Principles: equitable and reasonable utilization, no significant harm, prior notification, ecological flow maintenance, seasonal allocation formulas, independent monitoring body, binding arbitration. A poor answer that ignores ecological flow or seasonal variability shows lack of holistic understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

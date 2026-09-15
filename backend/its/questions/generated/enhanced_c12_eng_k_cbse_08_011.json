@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_08_011",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_08_011",
+   "title": "c12_eng_k_cbse_08_011",
+   "questions": [
+    {
+     "q": "In \"The Divine Image,\" the words Mercy, Pity, Peace, and Love are capitalized throughout. What is the primary grammatical reason for this capitalization in the context of the poem?",
+     "a": "The capitalization transforms these abstract nouns into proper nouns, personifying them as divine entities or distinct characters. A wrong answer (e.g., \"they are at the start of a line\" or \"they are important words\") reveals the student is applying mechanical capitalization rules instead of analyzing poetic license. The student must recognize that Blake deliberately breaks standard grammar to elevate virtues to the status of gods.",
+     "self_check": true
+    },
+    {
+     "q": "Scan the first two lines of \"The Divine Image\": \"To Mercy, Pity, Peace, and Love / All pray in their distress.\" Identify the metrical pattern and explain how it supports the poem's tone.",
+     "a": "The lines follow iambic tetrameter (four iambs) and iambic trimeter (three iambs) respectively, creating a regular, hymn-like rhythm. A wrong answer (e.g., \"it is free verse\" or \"the rhythm is irregular\") shows the student cannot scan syllables or connect meter to tone. The regularity mirrors the childlike simplicity and orderly innocence of the \"Songs of Innocence.\"",
+     "self_check": true
+    },
+    {
+     "q": "In \"The Human Abstract,\" Blake writes: \"And mutual fear brings peace, / Till the selfish loves increase.\" Rewrite the second line in standard Subject-Verb-Object order and explain what effect the inversion creates.",
+     "a": "Standard order: \"Till the selfish loves increase\" is already SVO; the inversion is in the first line where \"mutual fear brings peace\" is normal. The actual inversion appears later: \"Then Cruelty knits a snare\" (normal) but \"And spreads his baits with care\" (normal). A better example: \"He sits down with holy fears\" (normal). Wait — the poem uses few inversions. The student should note that Blake mostly uses standard syntax in \"The Human Abstract\" to mimic logical argumentation, unlike the more lyrical \"Divine Image.\" A wrong answer that forces an inversion where none exists reveals over-application of a rule without textual evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the use of the archaic contraction \"thro'\" in \"The Human Abstract\" (\"Sought thro' Nature\") with the full form \"through.\" Why does Blake choose the contracted form here?",
+     "a": "\"Thro'\" maintains the iambic rhythm (one syllable) whereas \"through\" would add an extra syllable, breaking the meter. A wrong answer (e.g., \"it's old-fashioned\" or \"to save space\") misses the metrical necessity. The student must connect phonology to form: poetic grammar serves the meter.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Blake capitalizes 'Cruelty,' 'Humility,' 'Mystery,' and 'Deceit' in 'The Human Abstract' for the same reason he capitalizes 'Mercy' and 'Pity' in 'The Divine Image.'\" Defend or refute with evidence.",
+     "a": "Refute. In \"The Divine Image,\" capitalization glorifies virtues as divine; in \"The Human Abstract,\" it ironically elevates vices and distorted virtues into personified actors in a dark allegory (Cruelty \"knits a snare,\" Humility \"takes its root\"). The grammatical form is the same (personification via capitalization), but the semantic intent is opposite: one sanctifies, the other satirizes. A wrong answer that says \"yes, same reason\" shows failure to analyze contextual irony.",
+     "self_check": true
+    },
+    {
+     "q": "Write two lines of iambic tetrameter that personify an abstract noun (like \"Justice\" or \"Greed\") through capitalization and verb choice, imitating Blake's technique in \"The Human Abstract.\"",
+     "a": "Example: \"Cold Justice scales the trembling breath, / And weighs the dust against the death.\" A poor answer would lack consistent iambs, fail to capitalize the abstract noun, or use a weak verb that doesn't personify. This tests whether the student can synthesize meter, capitalization, and personification into original creative practice.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

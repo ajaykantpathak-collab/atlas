@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_08_004",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_08_004",
+   "title": "c11_stat_cbse_08_004",
+   "questions": [
+    {
+     "q": "Define weighted index numbers and state the fundamental limitation of simple index numbers that makes weighted indices necessary.",
+     "a": "Weighted index numbers assign explicit weights to items based on their relative importance (e.g., quantity consumed or expenditure share), whereas simple index numbers treat all items as equally important. The fundamental limitation of simple indices is that they give equal influence to trivial and essential items, distorting the true picture of price or quantity changes. A wrong answer (e.g., \"weighted indices use more data\") reveals the student has not grasped that the core issue is *representativeness*, not data volume.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why using base-year quantities as weights (Laspeyres-type) tends to overstate the rise in the cost of living compared to using current-year quantities (Paasche-type), assuming consumers substitute away from goods whose prices rise relatively faster.",
+     "a": "Base-year weights reflect outdated consumption patterns; they assign high weight to goods that were important in the base year but whose prices have since risen sharply, causing consumers to buy less of them. Current-year weights capture this substitution, giving less weight to those goods. A student who answers \"Laspeyres is always higher\" without mentioning substitution bias shows they have memorised a pattern but not understood the economic behaviour driving the difference.",
+     "self_check": true
+    },
+    {
+     "q": "A basket contains three commodities: Rice (price ₹30/kg, quantity 20 kg), Wheat (₹25/kg, 15 kg), Milk (₹40/litre, 10 litres) in the base year. In the current year, prices are ₹35, ₹30, ₹45 respectively, and quantities are 22 kg, 14 kg, 12 litres. Determine which method — weighted aggregative or weighted average of price relatives — is more appropriate if the statistician wants to use base-year *expenditure shares* as weights, and justify your choice.",
+     "a": "Weighted average of price relatives with base-year value weights (V₀ = p₀q₀) is more appropriate because expenditure shares are value weights, and the weighted average of relatives method directly accepts value weights. The weighted aggregative method with base-year quantities as weights yields the same numerical result (Laspeyres), but the weighted average of relatives framework is more transparent when weights are given as expenditure proportions. A wrong choice (e.g., \"weighted aggregative because it's simpler\") indicates the student cannot link the *type of weight* (value vs quantity) to the *method structure*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the weighted aggregative method and the weighted average of price relatives method in terms of (a) the form of weights they naturally accept, and (b) the interpretability of the resulting index when weights are changed from base-year to current-year quantities.",
+     "a": "(a) Weighted aggregative naturally uses quantity weights (q₀ or q₁) because it aggregates price × quantity; weighted average of relatives naturally uses value weights (p₀q₀ or p₁q₁) because it averages price relatives (p₁/p₀×100) weighted by values. (b) In weighted aggregative, changing from q₀ to q₁ changes the denominator and numerator structure (Laspeyres vs Paasche); in weighted average of relatives, changing from V₀ to V₁ changes the weights attached to the same set of price relatives. A student who says \"they are the same thing\" misses the structural distinction that matters when weights are not value weights.",
+     "self_check": true
+    },
+    {
+     "q": "A government uses a simple average of price relatives (unweighted) to index-link pensions. Critique this approach and argue why a weighted index with base-year expenditure weights would be more appropriate, using the concept of \"representative basket\".",
+     "a": "A simple average treats a 10% rise in the price of salt (tiny budget share) the same as a 10% rise in rent (large budget share), so the index does not reflect the actual change in the cost of maintaining the pensioners' standard of living. A weighted index with base-year expenditure weights ensures each item's influence matches its share in the typical pensioner's budget, making the index a better proxy for the true cost-of-living change. A response that only says \"weighted is more accurate\" without referencing budget shares shows incomplete understanding of *why* weighting matters.",
+     "self_check": true
+    },
+    {
+     "q": "Design a weighted price index to measure inflation for a typical urban household in your city. Specify: (i) 5-6 broad commodity groups, (ii) the weight you would assign to each group (summing to 100), (iii) whether you would use weighted aggregative or weighted average of relatives, and (iv) whether you would prefer base-year or current-year weights. Justify each choice in 2-3 sentences.",
+     "a": "A good answer will: (i) list groups like Housing, Food, Transport, Education, Healthcare, Miscellaneous; (ii) assign plausible weights (e.g., Housing 35, Food 30, Transport 15, Education 10, Healthcare 5, Misc 5) based on consumer expenditure survey data; (iii) choose weighted average of relatives because price relatives are unit-free and groups have heterogeneous units; (iv) prefer base-year weights (Laspeyres-type) for practical CPI compilation because current-year weights require frequent surveys. A poor answer assigns arbitrary weights without justification or ignores unit heterogeneity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

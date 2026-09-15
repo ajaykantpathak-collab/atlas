@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_02_010",
+   "title": "c11_soc_cbse_02_010",
+   "questions": [
+    {
+     "q": "Define \"collective conscience\" in Durkheim's functionalism and \"class consciousness\" in Marx's conflict theory. How does each concept explain social cohesion?",
+     "a": "Collective conscience (Durkheim) is the shared beliefs, values, and moral attitudes that operate as a unifying force in society, creating mechanical solidarity in traditional societies. Class consciousness (Marx) is the proletariat's awareness of their common exploitation by the bourgeoisie and their collective power to overthrow capitalism, creating revolutionary solidarity. Collective conscience maintains cohesion through value consensus; class consciousness disrupts cohesion by exposing structural contradiction. A wrong answer that equates both as \"shared awareness\" misses the fundamental opposition: one binds society together, the other aims to tear the existing order apart.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Functionalism says society is harmonious, so it ignores inequality. Conflict theory says society is unequal, so it ignores order.\" Explain why this statement is a caricature of both perspectives. Use the concepts of \"dysfunction\" (Merton) and \"hegemony\" (Gramsci) in your correction.",
+     "a": "Functionalism does not ignore inequality — Davis and Moore argue stratification is functionally necessary to motivate talent allocation, while Merton's \"dysfunction\" concept explicitly analyses how social structures can harm subsystems (e.g., caste inequality dysfunctionally wastes human potential). Conflict theory does not ignore order — Gramsci's \"hegemony\" explains how dominant groups secure consent through culture/ideology, creating stable order without constant coercion. A wrong answer reveals the student treats perspectives as moral positions (\"functionalism likes society, conflict theory hates it\") rather than analytical frameworks with internal complexity.",
+     "self_check": true
+    },
+    {
+     "q": "Apply both perspectives to explain the persistence of khap panchayats (caste councils) in Haryana. For each perspective, state: (a) the key question asked, (b) two core concepts used, (c) the explanation generated.",
+     "a": "Functionalist: (a) What positive functions do khap panchayats perform for social stability? (b) Collective conscience, social control. (c) They enforce normative conformity, regulate marriage rules (exogamy), resolve disputes without state courts, reinforcing community solidarity. Conflict: (a) Whose power do khap panchayats protect? (b) Dominant caste hegemony, patriarchal control. (c) They enforce caste endogamy and gender subordination, protecting landed Jat interests against Dalit assertion and women's autonomy, using \"tradition\" to legitimise violence. A wrong answer that merely lists \"functions\" and \"conflicts\" without deploying the specific theoretical concepts shows surface-level application.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how functionalism and conflict theory conceptualise \"social control.\" Using the NCERT text's distinction (pp. 36-37), analyse why the same mechanism — e.g., honour killing — is interpreted as \"maintaining order\" by one perspective and \"imposing dominant writ\" by the other.",
+     "a": "Functionalism (Parsons): social control = mechanism to mitigate deviance, integrate individuals into value consensus, maintain system equilibrium. Honour killing = extreme but \"functional\" reaffirmation of collective norms (caste purity, family honour) when primary group sanctions fail. Conflict theory (Marx/Dahrendorf): social control = instrument of ruling class to enforce compliance, protect privilege. Honour killing = patriarchal/caste violence disciplining subordinate groups (women, lower castes) who threaten resource control (land, labour, sexuality). The divergence stems from functionalism's premise of value consensus vs. conflict theory's premise of structural domination. A wrong answer that says \"functionalism sees it as good, conflict sees it as bad\" confuses normative judgment with analytical stance.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"For understanding the 2020-21 Indian farmers' protest, the conflict perspective is superior to the functionalist perspective.\" Defend or critique using three specific concepts from each perspective.",
+     "a": "Critique: The protest is better understood through a *synthesis*. Conflict concepts: (1) class interest (farmers vs. corporate capital), (2) hegemony (state-corporate alliance framing laws as \"reform\"), (3) collective action (mobilisation across caste/region). Functionalist concepts: (1) structural strain (Merton) — gap between cultural goal (fair price) and institutional means (APMC mandis), (2) dysfunction of state policy — laws disrupted equilibrium without functional alternatives, (3) reintegration — protest forced renegotiation of farmer-state contract, restoring adaptive capacity. Superiority claim fails because conflict explains *mobilisation* but functionalism explains *resolution* (repeal as system adaptation). A wrong answer that picks one side reveals inability to see perspectives as complementary analytical tools.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel comparative analysis table for a social phenomenon of your choice (not wedding, khap, or farmers' protest) that shows: phenomenon, functionalist question + 2 concepts + explanation, conflict question + 2 concepts + explanation, and one synthesis insight.",
+     "a": "Example — *Private coaching industry in Kota, Rajasthan*:\nFunctionalist: Q=\"How does coaching integrate aspirants into meritocratic role allocation?\" Concepts: role allocation (Davis-Moore), manifest function (exam preparation). E=Coaching sorts talent, prepares youth for high-status roles, supports education system's selection function.\nConflict: Q=\"How does coaching reproduce class inequality?\" Concepts: cultural capital (Bourdieu), commodification of education. E=Only affluent families afford ₹1.5-2 lakh/year; coaching converts economic capital into credential capital, legitimising \"merit\" as purchased advantage.\nSynthesis: Coaching *simultaneously* performs selection function (functionalist) and class filtration (conflict) — the \"meritocracy\" narrative masks structural exclusion. A poor answer uses generic terms (\"inequality,\" \"function\") without perspective-specific concepts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

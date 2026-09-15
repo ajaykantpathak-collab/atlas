@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_23_001",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_23_001",
+   "title": "c11_geo_cbse_23_001",
+   "questions": [
+    {
+     "q": "What is the standard convention for writing a statement scale, and which distance (map or ground) is always stated first?",
+     "a": "Standard convention: \"1 unit on map = X units on ground\" — map distance is always stated first (e.g., \"1 cm = 1 km\" means 1 cm on map represents 1 km on ground). A wrong answer (reversing the order) reveals the student confuses the direction of representation — they think the scale describes how ground distance shrinks to map size rather than how map distance expands to ground reality.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a statement scale \"1 cm = 500 m\" printed on a map become incorrect if the map is photocopied at 80% linear reduction?",
+     "a": "Photocopying reduces the physical map distance (1 cm becomes 0.8 cm) but the printed text \"1 cm = 500 m\" remains unchanged, creating a false equivalence. The statement scale is tied to the original map dimensions, not the ground distance. A wrong answer (claiming the scale remains valid) reveals the student treats scale as an intrinsic property of the geographic area rather than a property of the specific map document.",
+     "self_check": true
+    },
+    {
+     "q": "On a map with statement scale \"2 cm = 1 km\", a student measures 3.6 cm between two villages. Calculate the ground distance in kilometers and meters. Show the proportional reasoning.",
+     "a": "Step 1: Normalize to 1 cm → 1 cm = 0.5 km (divide both sides by 2). Step 2: Multiply measured distance: 3.6 cm × 0.5 km/cm = 1.8 km. Step 3: Convert to meters: 1.8 × 1000 = 1800 m. Verification: (3.6/2) × 1 km = 1.8 km ✓. A wrong answer (e.g., 7.2 km) reveals the student multiplied instead of dividing, or inverted the ratio — they computed 3.6 × 2 instead of 3.6 × (1/2).",
+     "self_check": true
+    },
+    {
+     "q": "Compare statement scales \"1 cm = 200 m\" (Map A) and \"1 cm = 5 km\" (Map B). Which map shows more detail? If Map A covers a municipal ward and Map B covers a district, explain why the scale choice matches the purpose.",
+     "a": "Map A (1 cm = 200 m) shows more detail — it is a larger scale (1:20,000 vs 1:500,000). Municipal wards need fine detail (individual roads, buildings) so larger scale is appropriate. Districts cover vast areas; smaller scale fits the extent on one sheet. A wrong answer (claiming Map B shows more detail because \"5 km > 200 m\") reveals confusion between scale denominator size and detail level — they think larger ground distance per cm means \"more ground shown\" equals \"more detail.\"",
+     "self_check": true
+    },
+    {
+     "q": "A hiker uses a map with statement scale \"1 inch = 1 mile\" to plan a trek. They measure 2.5 inches between campsites and calculate 2.5 miles. The actual trail distance is 3.8 miles. Evaluate whether the map scale is inaccurate.",
+     "a": "The map scale is not necessarily inaccurate. Statement scale measures straight-line (air) distance; trails follow terrain contours, switchbacks, and obstacles, making actual path distance longer. Also, statement scales on recreational maps are often approximate. A wrong answer (claiming the map is wrong) reveals the student conflates map-measured Euclidean distance with actual travel distance — a fundamental confusion between geometric representation and physical reality.",
+     "self_check": true
+    },
+    {
+     "q": "Design a statement scale for a map of your school campus (approx. 600 m × 400 m) to fit on A4 paper (21 cm × 29.7 cm) with 1 cm margins. Justify your scale choice with calculations.",
+     "a": "Usable paper: 19 cm × 27.7 cm. Longest campus dimension: 600 m = 60,000 cm. Required scale factor: 60,000 cm / 19 cm ≈ 3158. Choose round number: 1 cm = 32 m (RF 1:3200). Check: 600 m / 32 m/cm = 18.75 cm (fits); 400 m / 32 = 12.5 cm (fits). Good answer shows: (1) unit conversion to cm, (2) fitting calculation, (3) rounding for usability, (4) verification both dimensions fit. Poor answer picks arbitrary scale without fitting check.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

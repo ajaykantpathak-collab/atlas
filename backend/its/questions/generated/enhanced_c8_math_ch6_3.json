@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch6_3",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch6_3",
+   "title": "c8_math_ch6_3",
+   "questions": [
+    {
+     "q": "State the rule: If we have a product \\(a \\times b\\) and we increase \\(a\\) by 1, by how much does the product increase? Write the new product in terms of the original product.",
+     "a": "The product increases by \\(b\\). The new product is \\(a \\times b + b\\). A wrong answer (e.g., \"increases by 1\" or \"increases by \\(a\\)\") reveals the student thinks the increment transfers directly to the product or confuses which factor is added. They have not connected the distributive expansion \\((a+1)b = ab + b\\) to the change in product.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \\((25 \\times 37) + 37\\) is equal to \\(26 \\times 37\\) without calculating the actual products. Use the distributive property in your explanation.",
+     "a": "\\(26 \\times 37 = (25+1) \\times 37 = 25 \\times 37 + 1 \\times 37 = 25 \\times 37 + 37\\). A wrong answer that just says \"because 26 is one more than 25\" shows the student sees the pattern but cannot justify it algebraically. They lack the understanding that the distributive property is the mathematical reason behind the pattern.",
+     "self_check": true
+    },
+    {
+     "q": "If \\(48 \\times 12 = 576\\), what is \\(48 \\times 13\\)? Solve using the increment rule, showing your steps.",
+     "a": "\\(48 \\times 13 = 48 \\times (12+1) = 48 \\times 12 + 48 \\times 1 = 576 + 48 = 624\\). A wrong answer like 577 (adding 1) or 624 but with incorrect steps (e.g., \\(576 + 12\\)) reveals the student either adds 1 to the product or adds the wrong factor. They are not identifying which factor was increased.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the increase in product when you increase the first factor by 1 versus increasing the second factor by 1 for the product \\(15 \\times 8\\). Which change gives a larger increase? Explain.",
+     "a": "Increasing 15 by 1: new product = \\(16 \\times 8 = 120 + 8 = 128\\), increase = 8. Increasing 8 by 1: new product = \\(15 \\times 9 = 120 + 15 = 135\\), increase = 15. Increasing the second factor (8→9) gives a larger increase (15) because the increase equals the other factor (15), which is larger than 8. A wrong answer that says both increases are equal or picks the wrong one shows the student does not realize the increase amount depends on the *other* factor's value.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved: \\(23 \\times 14 = 322\\). To find \\(24 \\times 14\\), they wrote \\(322 + 1 = 323\\). Is this correct? If not, identify the error and give the correct answer.",
+     "a": "Incorrect. The student added 1 instead of adding the other factor (14). Correct: \\(24 \\times 14 = (23+1) \\times 14 = 23 \\times 14 + 14 = 322 + 14 = 336\\). A wrong evaluation (saying it's correct) reveals the student shares the misconception that increasing a factor by 1 increases the product by 1.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life word problem (using rupees, metres, or kilograms) where increasing one quantity by 1 changes the total by a specific amount. State the original product, the change, and the new total.",
+     "a": "Example: \"A rope is cut into 12 pieces each 5 metres long. Total length = 60 m. If one more piece of 5 m is added, the new total is 65 m.\" A good answer shows the original product (12×5), identifies the other factor (5) as the increase, and computes the new total (65). A poor answer might change the piece length instead of the number of pieces, or add 1 metre instead of 5 metres, showing confusion about which factor corresponds to the increment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

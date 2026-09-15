@@ -1,0 +1,620 @@
+{
+ "class": 10,
+ "subject": "maths",
+ "chapter": 112,
+ "chapter_title": "Surface Areas and Volumes",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jemh112.txt",
+ "concepts": [
+  {
+   "id": "jemh.12.2.1",
+   "title": "Surface Area of Cone and Hemisphere Combination",
+   "section": "12.2",
+   "definition": "A composite solid formed by joining the circular flat base of a cone directly onto the circular top face of a hemisphere with matching radius.",
+   "formula": "total_area = pi * radius * slant_height + 2 * pi * radius**2",
+   "key_idea": "The outer surface area equals the sum of the curved surface areas of the cone and the hemisphere.",
+   "textbook_ref": "jemh112.txt lines 30-70",
+   "question_patterns": [
+    "find the surface area of a toy formed by a cone mounted on a hemisphere",
+    "calculate total surface area of a top shaped as cone on hemisphere",
+    "what is the outer surface area of a cone mounted on a hemispherical base",
+    "compute the area to be painted on a cone-hemisphere combined solid"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate slant height of cone",
+     "explain": "use Pythagoras theorem with cone radius and height",
+     "compute": "slant_height = sqrt(radius**2 + cone_height**2)"
+    },
+    {
+     "step": 2,
+     "action": "calculate curved surface area of cone",
+     "explain": "csa of cone is pi times radius times slant height",
+     "compute": "csa_cone = pi * radius * slant_height"
+    },
+    {
+     "step": 3,
+     "action": "calculate curved surface area of hemisphere",
+     "explain": "csa of hemisphere is 2 times pi times radius squared",
+     "compute": "csa_hemi = 2 * pi * radius**2"
+    },
+    {
+     "step": 4,
+     "action": "sum individual surface areas",
+     "explain": "total surface area is csa of cone plus csa of hemisphere",
+     "compute": "total_area = csa_cone + csa_hemi"
+    }
+   ]
+  },
+  {
+   "id": "jemh.12.2.2",
+   "title": "Surface Area of Cube with Hemispherical Addition or Subtraction",
+   "section": "12.2",
+   "definition": "A solid comprising a cube where a hemispherical shape is attached to or hollowed out from one of its square faces.",
+   "formula": "total_area = 6 * edge**2 - pi * radius**2 + 2 * pi * radius**2",
+   "key_idea": "Subtract the circular base area of the hemisphere from total cube area and add the curved surface area of the hemisphere.",
+   "textbook_ref": "jemh112.txt lines 75-100",
+   "question_patterns": [
+    "find the total surface area of a cubical block surmounted by a hemisphere",
+    "calculate remaining surface area after cutting a hemisphere from a cube",
+    "determine surface area of a cube with edge and hemisphere on top",
+    "what is the total surface area of block combining cube and hemisphere"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate total surface area of cube",
+     "explain": "area of six square faces of the cube",
+     "compute": "area_cube = 6 * edge**2"
+    },
+    {
+     "step": 2,
+     "action": "calculate circular base area of hemisphere",
+     "explain": "base area overlapping face of cube",
+     "compute": "area_base = pi * radius**2"
+    },
+    {
+     "step": 3,
+     "action": "calculate curved surface area of hemisphere",
+     "explain": "curved surface created by the hemisphere",
+     "compute": "csa_hemi = 2 * pi * radius**2"
+    },
+    {
+     "step": 4,
+     "action": "compute net surface area",
+     "explain": "subtract base area from cube area and add hemisphere csa",
+     "compute": "total_area = area_cube - area_base + csa_hemi"
+    }
+   ]
+  },
+  {
+   "id": "jemh.12.2.3",
+   "title": "Surface Area of Cylinder and Hemisphere Combination",
+   "section": "12.2",
+   "definition": "A composite structure consisting of a cylindrical middle section with hemispherical caps attached to or scooped out from its ends.",
+   "formula": "total_area = 2 * pi * radius * height + num_ends * 2 * pi * radius**2",
+   "key_idea": "Add the curved surface area of the cylinder to the curved surface areas of all hemispherical ends.",
+   "textbook_ref": "jemh112.txt lines 110-150",
+   "question_patterns": [
+    "find total surface area of a capsule with hemispherical ends",
+    "calculate surface area of a cylinder with hemispheres scooped out from both ends",
+    "determine total surface area of a bird bath shaped as cylinder with hemispherical depression",
+    "what is the surface area of a vessel made of cylinder and hemispherical caps"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate curved surface area of cylinder",
+     "explain": "csa is 2 times pi times radius times cylinder height",
+     "compute": "csa_cylinder = 2 * pi * radius * cylinder_height"
+    },
+    {
+     "step": 2,
+     "action": "calculate combined curved surface area of hemispherical ends",
+     "explain": "multiply count of hemispherical ends by 2 pi r squared",
+     "compute": "csa_hemispheres = num_ends * 2 * pi * radius**2"
+    },
+    {
+     "step": 3,
+     "action": "sum surface areas",
+     "explain": "total outer surface area is cylinder csa plus total hemisphere csa",
+     "compute": "total_area = csa_cylinder + csa_hemispheres"
+    }
+   ]
+  },
+  {
+   "id": "jemh.12.2.4",
+   "title": "Surface Area of Cylinder and Cone Combination",
+   "section": "12.2",
+   "definition": "A 3D solid built by joining a conical portion on top of a cylindrical base, or hollowing out a cone from inside a cylinder.",
+   "formula": "total_area = 2 * pi * cylinder_radius * cylinder_height + pi * cone_radius * slant_height + (pi * cone_radius**2 - pi * cylinder_radius**2)",
+   "key_idea": "Sum the curved surfaces of cylinder and cone, plus any exposed flat base region between differing circular radii.",
+   "textbook_ref": "jemh112.txt lines 101-110, 155-180",
+   "question_patterns": [
+    "find surface area of a tent in the shape of a cylinder surmounted by a cone",
+    "calculate total surface area of cylinder with conical cavity hollowed out",
+    "determine canvas area required for cylindrical tent with conical roof",
+    "compute area to paint on a wooden rocket of cone mounted on cylinder"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate slant height of cone",
+     "explain": "slant height using cone radius and cone height",
+     "compute": "slant_height = sqrt(cone_radius**2 + cone_height**2)"
+    },
+    {
+     "step": 2,
+     "action": "calculate csa of conical part",
+     "explain": "csa of cone is pi times cone radius times slant height",
+     "compute": "csa_cone = pi * cone_radius * slant_height"
+    },
+    {
+     "step": 3,
+     "action": "calculate csa of cylindrical part",
+     "explain": "csa of cylinder is 2 pi times cylinder radius times cylinder height",
+     "compute": "csa_cylinder = 2 * pi * cylinder_radius * cylinder_height"
+    },
+    {
+     "step": 4,
+     "action": "calculate area of exposed annular ring",
+     "explain": "difference between cone base area and cylinder base area if radii differ",
+     "compute": "base_ring = pi * cone_radius**2 - pi * cylinder_radius**2"
+    },
+    {
+     "step": 5,
+     "action": "calculate total surface area",
+     "explain": "sum cone csa, cylinder csa, and base ring area",
+     "compute": "total_area = csa_cone + csa_cylinder + base_ring"
+    }
+   ]
+  },
+  {
+   "id": "jemh.12.3.1",
+   "title": "Volume of Cuboid and Cylinder/Half-Cylinder Combination",
+   "section": "12.3",
+   "definition": "A combined solid volume formed by attaching a half-cylinder or cylinder atop a rectangular cuboidal structure.",
+   "formula": "total_volume = length * width * height + 0.5 * pi * radius**2 * cylinder_length",
+   "key_idea": "Total capacity or volume equals the sum of the cuboid volume and the half-cylinder volume.",
+   "textbook_ref": "jemh112.txt lines 190-225",
+   "question_patterns": [
+    "find the volume of air inside a shed with cuboid base and half-cylinder roof",
+    "calculate total volume of cuboid surmounted by half cylinder",
+    "determine air capacity of shed given cuboid dimensions and roof radius",
+    "what is the total space inside a structure combining cuboid and cylindrical top"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate cuboid volume",
+     "explain": "volume is length times width times height",
+     "compute": "vol_cuboid = length * width * height"
+    },
+    {
+     "step": 2,
+     "action": "calculate half cylinder volume",
+     "explain": "half of pi times radius squared times cylinder length",
+     "compute": "vol_half_cylinder = 0.5 * pi * radius**2 * cylinder_length"
+    },
+    {
+     "step": 3,
+     "action": "compute combined volume",
+     "explain": "total volume is cuboid volume plus half cylinder volume",
+     "compute": "total_volume = vol_cuboid + vol_half_cylinder"
+    }
+   ]
+  },
+  {
+   "id": "jemh.12.3.2",
+   "title": "Volume of Cone and Hemisphere Combination",
+   "section": "12.3",
+   "definition": "A solid comprising a circular cone fixed on top of a hemisphere sharing the identical radius.",
+   "formula": "total_volume = (1/3) * pi * radius**2 * cone_height + (2/3) * pi * radius**3",
+   "key_idea": "Add the individual volumes of the cone and hemisphere to find the total volume.",
+   "textbook_ref": "jemh112.txt lines 250-280",
+   "question_patterns": [
+    "find volume of a solid top formed by cone standing on hemisphere",
+    "calculate volume of a toy composed of cone and hemisphere of equal radius",
+    "determine space occupied by a cone mounted on hemispherical base",
+    "compute total volume of cone and hemisphere combined"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate volume of cone",
+     "explain": "one third pi times radius squared times cone height",
+     "compute": "vol_cone = (1 / 3) * pi * radius**2 * cone_height"
+    },
+    {
+     "step": 2,
+     "action": "calculate volume of hemisphere",
+     "explain": "two thirds pi times radius cubed",
+     "compute": "vol_hemi = (2 / 3) * pi * radius**3"
+    },
+    {
+     "step": 3,
+     "action": "sum constituent volumes",
+     "explain": "total volume is cone volume plus hemisphere volume",
+     "compute": "total_volume = vol_cone + vol_hemi"
+    }
+   ]
+  },
+  {
+   "id": "jemh.12.3.3",
+   "title": "Volume of Cylinder with Hemispherical Ends or Depressions",
+   "section": "12.3",
+   "definition": "A cylindrical vessel or solid modified by joining or removing hemispherical shapes at one or both flat bases.",
+   "formula": "total_volume = pi * radius**2 * height + num_ends * (2/3) * pi * radius**3",
+   "key_idea": "Add hemisphere volumes for attached ends or subtract hemisphere volume for internal depressions.",
+   "textbook_ref": "jemh112.txt lines 226-249, 285-300",
+   "question_patterns": [
+    "find volume of gulab jamun shaped as cylinder with two hemispherical ends",
+    "calculate actual capacity of glass with hemispherical raised bottom",
+    "determine total volume of capsule with cylinder body and hemispherical caps",
+    "compute syrup contained in cylinder with hemispherical ends"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate cylindrical body volume",
+     "explain": "volume of cylinder is pi times radius squared times height",
+     "compute": "vol_cylinder = pi * radius**2 * height"
+    },
+    {
+     "step": 2,
+     "action": "calculate total hemispherical volume",
+     "explain": "number of ends times two thirds pi times radius cubed",
+     "compute": "vol_hemis = num_ends * (2 / 3) * pi * radius**3"
+    },
+    {
+     "step": 3,
+     "action": "calculate net volume",
+     "explain": "combine cylinder volume with hemispherical volume depending on addition or subtraction",
+     "compute": "total_volume = vol_cylinder + vol_hemis"
+    }
+   ]
+  },
+  {
+   "id": "jemh.12.3.4",
+   "title": "Volume of Cuboid with Conical Depressions",
+   "section": "12.3",
+   "definition": "A block of rectangular solid from which one or several conical cavities have been removed.",
+   "formula": "remaining_volume = length * width * height - num_depressions * (1/3) * pi * radius**2 * depth",
+   "key_idea": "Subtract total volume of all conical cavities from original cuboid volume.",
+   "textbook_ref": "jemh112.txt lines 301-310",
+   "question_patterns": [
+    "find volume of wood in a pen stand with conical depressions",
+    "calculate remaining volume of cuboid after drilling conical holes",
+    "determine volume of solid cuboid with cylindrical or conical depressions removed",
+    "what is the net volume of block with conical cavities"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate volume of original cuboid",
+     "explain": "length times width times height of cuboid",
+     "compute": "vol_cuboid = length * width * height"
+    },
+    {
+     "step": 2,
+     "action": "calculate combined volume of conical depressions",
+     "explain": "number of depressions times one third pi times radius squared times depth",
+     "compute": "vol_cavities = num_depressions * (1 / 3) * pi * radius**2 * depth"
+    },
+    {
+     "step": 3,
+     "action": "subtract cavity volume from cuboid volume",
+     "explain": "remaining solid volume is original volume minus total depression volume",
+     "compute": "remaining_volume = vol_cuboid - vol_cavities"
+    }
+   ]
+  },
+  {
+   "id": "jemh.12.3.5",
+   "title": "Volume Displacement and Overflowing Liquids",
+   "section": "12.3",
+   "definition": "The calculation of displaced liquid volume when solid objects are submerged inside a liquid-filled container.",
+   "formula": "num_shots = (fraction * vol_vessel) / vol_shot",
+   "key_idea": "Volume of overflowed liquid equals the total combined volume of all fully submerged solid objects.",
+   "textbook_ref": "jemh112.txt lines 311-330",
+   "question_patterns": [
+    "find number of spherical lead shots dropped to displace water from conical vessel",
+    "calculate volume of water remaining in cylinder after solid cone and hemisphere placed inside",
+    "determine how many lead shots dropped into filled vessel overflow given fraction of water",
+    "compute remaining water volume when solid is immersed in full cylinder"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate container capacity",
+     "explain": "volume of conical vessel is one third pi times vessel radius squared times height",
+     "compute": "vol_vessel = (1 / 3) * pi * vessel_radius**2 * vessel_height"
+    },
+    {
+     "step": 2,
+     "action": "calculate volume of displaced fluid",
+     "explain": "multiply container volume by fraction of water displaced",
+     "compute": "vol_displaced = fraction * vol_vessel"
+    },
+    {
+     "step": 3,
+     "action": "calculate volume of single spherical lead shot",
+     "explain": "four thirds pi times shot radius cubed",
+     "compute": "vol_shot = (4 / 3) * pi * shot_radius**3"
+    },
+    {
+     "step": 4,
+     "action": "calculate number of lead shots",
+     "explain": "divide displaced volume by volume of one lead shot",
+     "compute": "num_shots = vol_displaced / vol_shot"
+    }
+   ]
+  },
+  {
+   "id": "jemh.12.3.6",
+   "title": "Volume and Mass of Composite Cylindrical Structures",
+   "section": "12.3",
+   "definition": "Determining the total volume and resulting mass of a structure made by mounting one cylinder on another.",
+   "formula": "total_mass = (pi * r1**2 * h1 + pi * r2**2 * h2) * density",
+   "key_idea": "Sum the volumes of both coaxial cylinders and multiply total volume by mass density.",
+   "textbook_ref": "jemh112.txt lines 320-330",
+   "question_patterns": [
+    "find mass of an iron pole made of two stacked cylinders",
+    "calculate total volume and mass of composite cylindrical column",
+    "determine weight of solid pole given dimensions of both cylinders and density",
+    "compute mass of iron pillar made of base cylinder and top cylinder"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate volume of base cylinder",
+     "explain": "pi times base radius squared times base height",
+     "compute": "vol1 = pi * radius1**2 * height1"
+    },
+    {
+     "step": 2,
+     "action": "calculate volume of upper cylinder",
+     "explain": "pi times upper radius squared times upper height",
+     "compute": "vol2 = pi * radius2**2 * height2"
+    },
+    {
+     "step": 3,
+     "action": "calculate total volume",
+     "explain": "sum of volumes of lower and upper cylinders",
+     "compute": "total_volume = vol1 + vol2"
+    },
+    {
+     "step": 4,
+     "action": "calculate total mass",
+     "explain": "multiply total volume by density of material",
+     "compute": "total_mass = total_volume * density"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jemh112.txt Example 1",
+   "concept": "jemh.12.2.1",
+   "question_type": "compute",
+   "question_pattern": "A top is shaped like a cone surmounted by a hemisphere. The entire top is {total_height} cm in height and diameter is {diameter} cm. Find area to colour.",
+   "extracted_variables": {
+    "total_height": 5,
+    "diameter": 3.5,
+    "radius": 1.75,
+    "cone_height": 3.25,
+    "pi": 3.141592653589793
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate slant height of cone",
+     "explain": "slant height l = sqrt(r^2 + h^2)",
+     "compute": "slant_height = sqrt(radius**2 + cone_height**2)"
+    },
+    {
+     "step": 2,
+     "action": "calculate curved surface area of cone",
+     "explain": "csa = pi * r * l",
+     "compute": "csa_cone = pi * radius * slant_height"
+    },
+    {
+     "step": 3,
+     "action": "calculate curved surface area of hemisphere",
+     "explain": "csa = 2 * pi * r^2",
+     "compute": "csa_hemi = 2 * pi * radius**2"
+    },
+    {
+     "step": 4,
+     "action": "sum individual surface areas",
+     "explain": "total area = csa cone + csa hemisphere",
+     "compute": "total_area = csa_cone + csa_hemi"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jemh112.txt Example 2",
+   "concept": "jemh.12.2.2",
+   "question_type": "compute",
+   "question_pattern": "A decorative block base is a cube of edge {edge} cm, and hemisphere fixed on top has diameter {diameter} cm. Find total surface area.",
+   "extracted_variables": {
+    "edge": 5,
+    "diameter": 4.2,
+    "radius": 2.1,
+    "pi": 3.141592653589793
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate total surface area of cube",
+     "explain": "6 * edge^2",
+     "compute": "area_cube = 6 * edge**2"
+    },
+    {
+     "step": 2,
+     "action": "calculate circular base area of hemisphere",
+     "explain": "pi * r^2",
+     "compute": "area_base = pi * radius**2"
+    },
+    {
+     "step": 3,
+     "action": "calculate curved surface area of hemisphere",
+     "explain": "2 * pi * r^2",
+     "compute": "csa_hemi = 2 * pi * radius**2"
+    },
+    {
+     "step": 4,
+     "action": "compute net surface area",
+     "explain": "cube area - base area + csa hemisphere",
+     "compute": "total_area = area_cube - area_base + csa_hemi"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jemh112.txt Example 4",
+   "concept": "jemh.12.2.3",
+   "question_type": "compute",
+   "question_pattern": "A bird-bath is in the shape of a cylinder of height {cylinder_height} cm and radius {radius} cm with a hemispherical depression at one end. Find total surface area.",
+   "extracted_variables": {
+    "cylinder_height": 145,
+    "radius": 30,
+    "num_ends": 1,
+    "pi": 3.141592653589793
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate curved surface area of cylinder",
+     "explain": "2 * pi * r * h",
+     "compute": "csa_cylinder = 2 * pi * radius * cylinder_height"
+    },
+    {
+     "step": 2,
+     "action": "calculate combined curved surface area of hemispherical ends",
+     "explain": "num_ends * 2 * pi * r^2",
+     "compute": "csa_hemispheres = num_ends * 2 * pi * radius**2"
+    },
+    {
+     "step": 3,
+     "action": "sum surface areas",
+     "explain": "csa cylinder + csa hemisphere",
+     "compute": "total_area = csa_cylinder + csa_hemispheres"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "jemh112.txt Example 5",
+   "concept": "jemh.12.3.1",
+   "question_type": "compute",
+   "question_pattern": "A shed has a cuboid base of length {length} m, width {width} m, height {height} m, surmounted by a half cylinder of diameter {width} m and length {length} m. Find volume of air inside shed.",
+   "extracted_variables": {
+    "length": 15,
+    "width": 7,
+    "height": 8,
+    "radius": 3.5,
+    "cylinder_length": 15,
+    "pi": 3.141592653589793
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate cuboid volume",
+     "explain": "l * w * h",
+     "compute": "vol_cuboid = length * width * height"
+    },
+    {
+     "step": 2,
+     "action": "calculate half cylinder volume",
+     "explain": "0.5 * pi * r^2 * cylinder_length",
+     "compute": "vol_half_cylinder = 0.5 * pi * radius**2 * cylinder_length"
+    },
+    {
+     "step": 3,
+     "action": "compute combined volume",
+     "explain": "vol cuboid + vol half cylinder",
+     "compute": "total_volume = vol_cuboid + vol_half_cylinder"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "jemh112.txt Example 7",
+   "concept": "jemh.12.3.2",
+   "question_type": "compute",
+   "question_pattern": "A solid toy is in the form of a hemisphere surmounted by a right circular cone of height {cone_height} cm and base diameter {diameter} cm. Determine volume of the toy.",
+   "extracted_variables": {
+    "cone_height": 2,
+    "diameter": 4,
+    "radius": 2,
+    "pi": 3.141592653589793
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate volume of cone",
+     "explain": "(1/3) * pi * r^2 * h",
+     "compute": "vol_cone = (1 / 3) * pi * radius**2 * cone_height"
+    },
+    {
+     "step": 2,
+     "action": "calculate volume of hemisphere",
+     "explain": "(2/3) * pi * r^3",
+     "compute": "vol_hemi = (2 / 3) * pi * radius**3"
+    },
+    {
+     "step": 3,
+     "action": "sum constituent volumes",
+     "explain": "vol cone + vol hemisphere",
+     "compute": "total_volume = vol_cone + vol_hemi"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex12.1",
+   "source_ref": "EXERCISE 12.1",
+   "questions": [
+    "1. 2 cubes each of volume 64 cm3 are joined end to end. Find the surface area of the resulting cuboid.",
+    "2. A vessel is in the form of a hollow hemisphere mounted by a hollow cylinder. The diameter of the hemisphere is 14 cm and the total height of the vessel is 13 cm. Find the inner surface area of the vessel.",
+    "3. A toy is in the form of a cone of radius 3.5 cm mounted on a hemisphere of same radius. The total height of the toy is 15.5 cm. Find the total surface area of the toy.",
+    "4. A cubical block of side 7 cm is surmounted by a hemisphere. What is the greatest diameter the hemisphere can have? Find the surface area of the solid.",
+    "5. A hemispherical depression is cut out from one face of a cubical wooden block such that the diameter l of the hemisphere is equal to the edge of the cube. Determine the surface area of the remaining solid.",
+    "6. A medicine capsule is in the shape of a cylinder with two hemispheres stuck to each of its ends. The length of the entire capsule is 14 mm and the diameter of the capsule is 5 mm. Find its surface area.",
+    "7. A tent is in the shape of a cylinder surmounted by a conical top. If the height and diameter of the cylindrical part are 2.1 m and 4 m respectively, and the slant height of the top is 2.8 m, find the area of the canvas used for making the tent. Also, find the cost of the canvas at the rate of Rs 500 per m2.",
+    "8. From a solid cylinder whose height is 2.4 cm and diameter 1.4 cm, a conical cavity of the same height and same diameter is hollowed out. Find the total surface area of the remaining solid to the nearest cm2.",
+    "9. A wooden article was made by scooping out a hemisphere from each end of a solid cylinder. If the height of the cylinder is 10 cm, and its base is of radius 3.5 cm, find the total surface area of the article."
+   ]
+  },
+  {
+   "id": "ex12.2",
+   "source_ref": "EXERCISE 12.2",
+   "questions": [
+    "1. A solid is in the shape of a cone standing on a hemisphere with both their radii being equal to 1 cm and the height of the cone is equal to its radius. Find the volume of the solid in terms of pi.",
+    "2. Rachel made a model shaped like a cylinder with two cones attached at its two ends by using a thin aluminium sheet. The diameter of the model is 3 cm and its length is 12 cm. If each cone has a height of 2 cm, find the volume of air contained in the model.",
+    "3. A gulab jamun, contains sugar syrup up to about 30% of its volume. Find approximately how much syrup would be found in 45 gulab jamuns, each shaped like a cylinder with two hemispherical ends with length 5 cm and diameter 2.8 cm.",
+    "4. A pen stand made of wood is in the shape of a cuboid with four conical depressions to hold pens. The dimensions of the cuboid are 15 cm by 10 cm by 3.5 cm. The radius of each of the depressions is 0.5 cm and the depth is 1.4 cm. Find the volume of wood in the entire stand.",
+    "5. A vessel is in the form of an inverted cone. Its height is 8 cm and the radius of its top is 5 cm. It is filled with water up to the brim. When lead shots, each of which is a sphere of radius 0.5 cm are dropped into the vessel, one-fourth of the water flows out. Find the number of lead shots dropped in the vessel.",
+    "6. A solid iron pole consists of a cylinder of height 220 cm and base diameter 24 cm, which is surmounted by another cylinder of height 60 cm and radius 8 cm. Find the mass of the pole, given that 1 cm3 of iron has approximately 8g mass.",
+    "7. A solid consisting of a right circular cone of height 120 cm and radius 60 cm standing on a hemisphere of radius 60 cm is placed upright in a right circular cylinder full of water such that it touches the bottom. Find the volume of water left in the cylinder, if the radius of the cylinder is 60 cm and its height is 180 cm.",
+    "8. A spherical glass vessel has a cylindrical neck 8 cm long, 2 cm in diameter; the diameter of the spherical part is 8.5 cm. By measuring the amount of water it holds, a child finds its volume to be 345 cm3. Check whether she is correct."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

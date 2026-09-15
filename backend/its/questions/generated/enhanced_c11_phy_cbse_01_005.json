@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_01_005",
+   "title": "c11_phy_cbse_01_005",
+   "questions": [
+    {
+     "q": "A student calculates the volume of a cube of side 3.204 cm using a calculator and gets 32.896128 cm³. The side length has 4 significant figures. What should the student report as the volume, and why?",
+     "a": "The student should report 32.90 cm³ (4 significant figures). The calculated value 32.896128 cm³ must be rounded to 4 significant figures because the side length (3.204 cm) has 4 significant figures. The first discarded digit is 6 (>5), so the preceding digit 9 is raised to 10, causing a carry-over: 32.896 → 32.90. A wrong answer like 32.9 cm³ (3 sig fig) or 32.896 cm³ (5 sig fig) reveals the student does not understand that the final result cannot have more significant figures than the least precise measurement, or does not know how to handle carry-over during rounding.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the number 2.745 rounded to 3 significant figures becomes 2.74, but 2.735 rounded to 3 significant figures becomes 2.74. What is the physical reasoning behind this convention?",
+     "a": "When the digit to be dropped is exactly 5, the convention is to round to the nearest even digit to avoid systematic bias. For 2.745, the preceding digit (4) is even, so the 5 is dropped → 2.74. For 2.735, the preceding digit (3) is odd, so it is raised by 1 → 2.74. This \"round-to-even\" rule ensures that rounding errors do not consistently accumulate in one direction over many calculations. A wrong answer suggesting \"always round up when the digit is 5\" reveals the student has memorised a simplified school-level rule and does not understand the statistical reasoning behind the even-odd convention used in scientific measurements.",
+     "self_check": true
+    },
+    {
+     "q": "In a multi-step calculation, a student computes the density of a metal block: mass = 24.53 g (4 sig fig), volume = 3.21 cm³ (3 sig fig). The student calculates intermediate reciprocal 1/3.21 = 0.311526... and rounds it to 0.312 (3 sig fig) before multiplying by mass. The final density reported is 7.65 g/cm³. Identify the error and compute the correct density.",
+     "a": "The error is rounding the intermediate reciprocal to 3 significant figures. The rule states: in multi-step calculations, retain one extra digit (4 sig fig here) in intermediate steps and round only at the end. Correct steps: 1/3.21 = 0.3115 (4 sig fig retained) → density = 24.53 × 0.3115 = 7.641095 → rounded to 3 sig fig (limited by volume) = 7.64 g/cm³. The student's answer 7.65 g/cm³ is off by 0.01 due to premature rounding. A wrong answer reveals the student does not know the intermediate-step rule from NCERT Section 1.3.2.",
+     "self_check": true
+    },
+    {
+     "q": "A physics experiment requires calculating the time period of a simple pendulum using T = 2π√(L/g). The length L = 1.00 m (3 sig fig) and g = 9.8 m/s² (2 sig fig). The student computes √(1.00/9.8) = √0.10204... = 0.31944... and multiplies by 2π = 6.28318... to get T = 2.006... s. The student reports T = 2.01 s. Is this correct? Justify your answer with the complete rounding process.",
+     "a": "The student's answer 2.01 s (3 sig fig) is incorrect. The limiting measurement is g = 9.8 m/s² with 2 significant figures, so the final result must have 2 significant figures. Correct process: retain one extra digit in intermediate steps (3 sig fig). √(1.00/9.8) = 0.319 (3 sig fig). 2π × 0.319 = 2.004... → rounded to 2 sig fig = 2.0 s. The student incorrectly used 3 significant figures for the final answer, ignoring that g has only 2 significant figures. A wrong answer reveals confusion between significant figures of individual measurements and the final result's precision.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"The value of π = 3.1415926535... has infinite significant figures, so when using π in a formula like T = 2π√(L/g), we should use as many digits of π as the calculator provides to get the most accurate answer.\" Is this statement correct? Explain why or why not.",
+     "a": "The statement is incorrect. While π is a mathematical constant with infinite significant figures, the precision of the final result is limited by the measured quantities (L and g), not by π. Using more digits of π than necessary does not improve the accuracy of the result beyond the limit set by the least precise measurement. NCERT explicitly states: \"exact numbers that appear in formulae like 2π... have a large (infinite) number of significant figures. You may take the value as 3.142 or 3.14 for π, with limited number of significant figures as required in specific cases.\" A student who agrees with the statement misunderstands that measured quantities limit precision, not mathematical constants.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a metre scale (least count 1 mm) and a stopwatch (least count 0.1 s) to measure the time period of a simple pendulum of length approximately 1 m. Explain how you would record the raw data, determine the number of significant figures for each measurement, and round the final calculated time period to the correct number of significant figures.",
+     "a": "A good answer: Measure length L with metre scale → reading like 0.995 m (3 sig fig, since mm precision gives uncertainty in 3rd decimal). Measure time for 20 oscillations with stopwatch → e.g., 40.2 s (3 sig fig). Time period T = 40.2/20 = 2.01 s. The division by 20 (exact number, infinite sig fig) does not limit precision. T has 3 sig fig from time measurement. Compare with theoretical T = 2π√(L/g): √(0.995/9.8) = 0.3186... × 2π = 2.002... s → rounded to 3 sig fig = 2.00 s. A poor answer would round length to 1.00 m (losing precision), use g = 10 m/s² (reducing sig fig), or report T with 4+ sig fig, showing failure to track measurement precision through the calculation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

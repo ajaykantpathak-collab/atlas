@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_02_008",
+   "title": "c10_phy_cbse_02_008",
+   "questions": [
+    {
+     "q": "State Faraday's Second Law of Electromagnetic Induction and write the formula for the magnitude of induced emf in a coil of N turns. What is the SI unit of magnetic flux?",
+     "a": "Faraday's Second Law: The magnitude of induced emf in a closed circuit is directly proportional to the rate of change of magnetic flux linkage through the circuit. Formula: |ε| = N |ΔΦ/Δt|. SI unit of magnetic flux is weber (Wb). A wrong answer (e.g., stating unit as tesla or writing emf = ΔΦ/Δt without N) reveals the student confuses magnetic flux density (B) with flux (Φ) or forgets the number of turns factor.",
+     "self_check": true
+    },
+    {
+     "q": "A circular coil of 50 turns and area 0.02 m² is placed perpendicular to a uniform magnetic field of 0.5 T. The field is reduced to zero uniformly in 0.1 s. Calculate the magnitude of the average induced emf. Explain why the emf is zero if the coil is rotated 90° so its plane becomes parallel to the field before the field is reduced.",
+     "a": "Initial flux per turn Φ₁ = BA cos0° = 0.5 × 0.02 × 1 = 0.01 Wb. Final flux Φ₂ = 0. Change ΔΦ = -0.01 Wb. |ε| = N |ΔΦ/Δt| = 50 × | -0.01 / 0.1 | = 5 V. When coil is parallel to field, θ = 90°, cos90° = 0, so flux is zero initially and finally; no change in flux occurs, hence no emf. A wrong answer (e.g., calculating non-zero emf) reveals the student does not understand that flux depends on the component of B perpendicular to the area (cosθ factor).",
+     "self_check": true
+    },
+    {
+     "q": "A bar magnet is dropped through a long vertical copper tube. It falls slower than a non-magnetic stone of the same mass and size. Using Faraday's Law and Lenz's Law, explain this observation in 3-4 sentences. Include the direction of induced current in the tube as seen from above when the magnet's north pole approaches.",
+     "a": "As the magnet falls, magnetic flux through each cross-section of the copper tube changes, inducing eddy currents (Faraday's Law). By Lenz's Law, these currents create a magnetic field opposing the magnet's motion — i.e., a north pole at the top of the tube repels the falling north pole, and a south pole at the bottom attracts it, producing an upward magnetic force that reduces net acceleration. As seen from above, when the north pole approaches, the induced current flows anticlockwise (creating an upward-pointing magnetic field to oppose the increase in downward flux). A wrong answer (e.g., saying current flows clockwise or that the magnet speeds up) reveals confusion with Lenz's Law direction or misunderstanding that opposition means force against motion.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical coils A and B are placed coaxially. Coil A is connected to a battery through a switch. The switch is closed at t=0 and opened at t=2 s. Sketch the graph of induced emf in coil B versus time from t=0 to t=3 s. Label the axes and explain the polarity of emf at t=0+ and t=2+ using Lenz's Law.",
+     "a": "Graph: At t=0, a sharp positive pulse (say) as current in A rises from 0 to max, flux through B increases. At t=2 s, a sharp negative pulse of same magnitude as current falls to zero. Zero elsewhere. At t=0+, flux through B increases in (say) downward direction; induced current in B produces upward flux to oppose, so emf polarity makes current flow anticlockwise as seen from above (if downward is positive). At t=2+, flux decreases; induced current tries to maintain it, so current flows clockwise. A wrong graph (e.g., continuous emf or same polarity for both pulses) reveals the student thinks steady current induces emf or misapplies Lenz's Law for increasing vs decreasing flux.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If a coil is rotated at constant angular speed in a uniform magnetic field, the induced emf is constant because the rate of change of flux is constant.\" Evaluate this claim. Is it true or false? Justify your answer with the expression for instantaneous emf.",
+     "a": "False. When a coil rotates at constant angular speed ω in a uniform B, flux Φ = BA cos(ωt). Rate of change dΦ/dt = -BAω sin(ωt), which varies sinusoidally. Instantaneous emf ε = N BAω sin(ωt) — it is alternating, not constant. The claim would be true only if the coil were moved linearly such that flux changes linearly with time (e.g., pulling a loop out of a field region at constant speed). A wrong evaluation (saying true) reveals the student confuses constant angular speed with constant rate of change of flux, ignoring the cosine dependence.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a coil, a bar magnet, a galvanometer, and a stopwatch to verify that the magnitude of induced emf is proportional to the rate of change of magnetic flux. Describe the procedure, what you will measure, how you will vary the rate of change, and what graph you will plot to confirm proportionality.",
+     "a": "Procedure: Connect coil to galvanometer. Drop magnet from different measured heights h through the coil (same coil, same magnet). Use stopwatch to measure time t taken to pass through coil (or use a light gate for better accuracy). The peak galvanometer deflection θ is proportional to peak emf (for a moving-coil galvanometer). Rate of change of flux ∝ speed v ∝ √h. Plot θ vs √h (or θ vs 1/t). A straight line through origin confirms proportionality. A poor answer (e.g., just saying \"move magnet faster\" without measurable quantities or graph) reveals inability to design a controlled experiment with quantifiable variables.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "catalog": "catalog_class7_science_gecu103.json",
+ "concepts": [
+  {
+   "id": "gecu.3.1",
+   "title": "A Torchlight: Source of the Idea",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What parts make a simple torch?",
+     "a": "Cells (battery), a bulb, a switch and connecting strips/wires in a case.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the torch light only when the switch is on?",
+     "a": "The switch completes the circuit so current can flow through the bulb.",
+     "self_check": true
+    },
+    {
+     "q": "What happens if one cell is reversed in a torch?",
+     "a": "The cells may cancel and the bulb glows dimly or not at all.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.3.2",
+   "title": "A Simple Electrical Circuit",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What does a simple electric circuit need to light a bulb?",
+     "a": "A source (cell), wires, and a bulb joined in an unbroken loop - a closed circuit.",
+     "self_check": true
+    },
+    {
+     "q": "What is the path of current in a circuit?",
+     "a": "From the positive terminal of the cell through wires and bulb back to the negative terminal.",
+     "self_check": true
+    },
+    {
+     "q": "Why must the two terminals of a cell never be joined by a bare wire alone?",
+     "a": "That shorts the cell - huge current drains it fast and can cause burns.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.3.3",
+   "title": "Circuit Diagrams and Symbols",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why do we use symbols in circuit diagrams?",
+     "a": "Standard symbols are quick to draw and understood by everyone, everywhere.",
+     "self_check": true
+    },
+    {
+     "q": "Draw (describe) the symbol of a bulb and a switch.",
+     "a": "Bulb: a circle with a cross inside; switch: a gap in the line with a small lever.",
+     "self_check": true
+    },
+    {
+     "q": "What does a dotted or open switch line show in a diagram?",
+     "a": "An open switch - the circuit is broken and no current flows.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.3.4",
+   "title": "Conductors, Insulators and the Switch",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are conductors and insulators? Give examples.",
+     "a": "Conductors let current pass (metals, graphite); insulators block it (plastic, rubber, wood).",
+     "self_check": true
+    },
+    {
+     "q": "Why are electric wires covered with plastic?",
+     "a": "Plastic is an insulator - it stops shocks and keeps current inside the wire.",
+     "self_check": true
+    },
+    {
+     "q": "How does a switch use conductors and insulators?",
+     "a": "Its inner metal parts conduct when closed; the outer body insulates the hand.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

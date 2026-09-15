@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_chem_ch2_5",
+ "concepts": [
+  {
+   "id": "enh:c8_chem_ch2_5",
+   "title": "c8_chem_ch2_5",
+   "questions": [
+    {
+     "q": "Which of the following best describes the arrangement and movement of particles in a solid substance, such as an iron nail?",
+     "a": "Particles are closely packed in a fixed, regular pattern and can only vibrate about their mean positions. \nA student who selects \"particles are far apart and move randomly\" is confusing solids with gases. Selecting \"particles are close together but can slide past each other\" describes a liquid, not a solid.",
+     "self_check": true
+    },
+    {
+     "q": "Why can a gas be easily compressed into a smaller volume inside a cylinder (like a cooking LPG cylinder), whereas a liquid like water cannot be easily compressed?",
+     "a": "Gases have vast empty spaces (inter-particle spaces) between their particles, allowing them to be pushed closer together under pressure, whereas liquid particles are already tightly crowded with very little empty space between them. \nA student who believes liquids are compressible is mistaking them for gases due to their ability to flow. A student who thinks solid particles vanish under pressure misunderstands the conservation and spacing of particles.",
+     "self_check": true
+    },
+    {
+     "q": "If you transfer 100 mL of water from a tall narrow measuring cylinder into a wide flat dish, the volume remains exactly 100 mL, but the shape changes to match the dish. Use particle theory to explain this observation.",
+     "a": "Steps: 1. Identify that water is a liquid, so its particles have moderate attractive forces holding them close together (maintaining constant volume). 2. Recognize that these attractive forces are not strong enough to lock the particles into a fixed, rigid lattice. 3. Conclude that liquid particles can slide and flow past one another easily. 4. Therefore, the liquid adopts the shape of the container while preserving its total volume. \nA student who states the volume changes thinks liquids act like gases, forgetting that liquid particles are still bound closely by intermolecular attraction.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the statement: \"When ice melts into liquid water, the individual water molecules expand and become larger.\" Is this statement scientifically accurate according to particle theory?",
+     "a": "No, the statement is false. When ice melts, the individual water molecules ($H_2O$) do not change in size or mass. Instead, thermal energy breaks some of the rigid framework bonds, allowing the molecules to move slightly farther apart and slide past one another, changing the state from solid to liquid without altering the molecule itself. \nA student who agrees with the statement confuses macroscopic volume changes or phase transitions with changes in the physical size of the fundamental particles (atoms/molecules).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following claim made by a student: \"In a gas, there is zero force of attraction between the particles, which is why gas particles never collide with each other or the container walls.\" Which part of this claim is scientifically incorrect?",
+     "a": "The claim that gas particles experience \"zero force of attraction\" and \"never collide\" is incorrect. While forces of attraction between gas particles are extremely weak compared to solids and liquids, they are not strictly zero. Furthermore, gas particles are in constant, random, rapid motion, meaning they frequently collide with one another and with the walls of their container, which is what creates gas pressure. \nA student who thinks the entire statement is correct fails to recognize that gas pressure arises precisely from particle collisions caused by their motion.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple thought experiment using everyday kitchen items (such as marbles, water, and an empty balloon) to demonstrate the three states of matter to a younger student, clearly linking each item's behavior to its particle arrangement.",
+     "a": "A good response should designate: 1. A tight box filled to the brim with tightly fitted marbles representing a solid (fixed shape, packed tightly, unable to move past each other). 2. A cup of water poured between containers representing a liquid (particles close together, flowing and sliding, taking container shape). 3. An inflated balloon representing a gas (particles far apart, filling the whole space, easily compressible). \nA poor response fails to link the physical behavior of the objects to the microscopic spacing and movement of particles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

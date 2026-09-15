@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch7_4",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch7_4",
+   "title": "c9_math_ch7_4",
+   "questions": [
+    {
+     "q": "State the classical definition of probability for an event E in a sample space S with equally likely outcomes. Write the formula and define each symbol.",
+     "a": "The classical definition: P(E) = n(E)/n(S), where n(E) is the number of outcomes favourable to event E and n(S) is the total number of equally likely outcomes in the sample space S. A wrong answer (e.g., writing P(E) = favourable/total without mentioning \"equally likely\" or confusing n(E) and n(S)) reveals the student does not grasp the necessary condition of equally likely outcomes or the meaning of the notation.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"When I toss two coins, there are three possible outcomes: two heads, two tails, or one head and one tail. So the probability of getting two heads is 1/3.\" Explain why this reasoning is incorrect using the classical definition.",
+     "a": "The sample space for two coins is {HH, HT, TH, TT} — four equally likely outcomes, not three. The outcome \"one head and one tail\" actually consists of two distinct outcomes (HT and TH). The student incorrectly treated outcomes as equally likely when they are not (the combined event has probability 2/4 = 1/2). A wrong explanation shows the student cannot distinguish between outcomes and events, or fails to list the sample space systematically.",
+     "self_check": true
+    },
+    {
+     "q": "A bag contains 5 red, 3 blue, and 2 green marbles. One marble is drawn at random. Calculate the theoretical probability of drawing (i) a red marble, (ii) a marble that is not blue.",
+     "a": "Total marbles = 5+3+2 = 10. (i) Favourable for red = 5 → P(red) = 5/10 = 1/2. (ii) Not blue means red or green = 5+2 = 7 → P(not blue) = 7/10. A wrong answer (e.g., 5/8 for red by ignoring green, or 3/10 for not blue by taking complement incorrectly) reveals the student cannot correctly identify the sample space or favourable outcomes, or makes arithmetic errors in counting.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the classical and experimental (empirical) definitions of probability. Give an example of an experiment where the classical definition cannot be applied but the experimental definition can.",
+     "a": "Classical probability assumes equally likely outcomes and is computed theoretically before the experiment (e.g., fair die). Experimental probability is based on observed frequencies from actual trials (e.g., a drawing pin landing point-up). The classical definition cannot be used for a drawing pin because the outcomes (point-up, point-down) are not equally likely; we must rely on experimental data. A wrong comparison (e.g., saying they always give the same result) shows the student does not understand the foundational assumptions of each approach.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher writes: \"P(getting a prime number on a die) = 3/6 = 1/2.\" A student argues: \"But 1 is not a prime number, so the favourable outcomes are only 2, 3, 5 — that's 3 outcomes. The probability is 3/6 = 1/2.\" Evaluate the student's argument and state whether the teacher's answer is correct.",
+     "a": "The student's argument is correct in identifying the prime numbers on a die as 2, 3, 5 (three outcomes). The teacher's answer 3/6 = 1/2 is also correct. The student mistakenly thinks there is a disagreement, but both agree on the favourable outcomes. A wrong evaluation (e.g., saying the teacher is wrong because 1 is not prime) reveals the student cannot verify a probability calculation or confuses the list of primes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple random experiment with exactly 8 equally likely outcomes. Define an event E such that P(E) = 3/8. Describe the experiment, list the sample space, and specify the event.",
+     "a": "Example: Spin a fair spinner divided into 8 equal sectors numbered 1 to 8. Sample space S = {1,2,3,4,5,6,7,8}. Let E = \"getting a multiple of 3\" = {3,6} → that gives 2/8. To get 3/8, choose E = {1,2,3} or \"number ≤ 3\". Any valid experiment with 8 equally likely outcomes and an event of size 3 is acceptable. A poor answer (e.g., experiment with non-equally likely outcomes, or event size not 3) reveals the student cannot construct a sample space with a given probability or misunderstands \"equally likely\".",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

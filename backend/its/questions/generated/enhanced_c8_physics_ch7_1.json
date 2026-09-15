@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch7_1",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch7_1",
+   "title": "c8_physics_ch7_1",
+   "questions": [
+    {
+     "q": "What is the name of the Moon phase when the Moon is positioned directly between the Sun and the Earth, with its dark side facing Earth?",
+     "a": "The phase is called the **New Moon**. A wrong answer (e.g., \"Full Moon\" or \"Crescent\") reveals the student confuses the Moon's position with the visible illuminated fraction. They may think the Moon is always fully lit by the Sun and don't realize that from Earth we see only the portion of the lit hemisphere that faces us.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Moon appear as a thin crescent a few days after the New Moon, even though the Sun is still lighting up half of the Moon's surface?",
+     "a": "The Moon appears as a crescent because from Earth we see only a small sliver of the Moon's sunlit hemisphere; the rest of the lit side faces away from us. A wrong answer (e.g., \"Earth's shadow covers most of the Moon\") reveals the common misconception that phases are caused by Earth's shadow rather than the viewing geometry of a half-lit sphere.",
+     "self_check": true
+    },
+    {
+     "q": "In a diagram, the Sun is on the far left, Earth is in the center, and the Moon is at the top of the page (90° counterclockwise from the Sun-Earth line). The Moon's right half is illuminated. What phase would an observer on Earth see, and is it waxing or waning?",
+     "a": "The observer sees a **First Quarter Moon** (half moon, right side lit in the northern hemisphere). Since the Moon moves counterclockwise in its orbit, it is moving from New Moon toward Full Moon, so it is **waxing**. A wrong answer (e.g., \"Third Quarter\" or \"waning\") reveals the student cannot visualize the 3D geometry from a 2D diagram or doesn't know the orbital direction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Moon's phase seen from Earth when the Moon is at Position A (90° from Sun-Earth line) versus Position B (180° from Sun-Earth line). How does the visible illuminated fraction change, and what does this imply about the Moon's orbital motion?",
+     "a": "At Position A, half the visible disk is lit (Quarter phase); at Position B, the full disk is lit (Full Moon). The illuminated fraction increases from 50% to 100%, implying the Moon has moved another 90° in its orbit, continuing its counterclockwise revolution. A wrong answer (e.g., \"fraction decreases\") reveals the student doesn't grasp the continuous increase in visible lit area between quarter and full phases.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The Moon's phases are caused by the Earth's shadow falling on the Moon, just like a lunar eclipse but partial.\" Evaluate this statement. Is it correct? Why or why not?",
+     "a": "The statement is **incorrect**. Earth's shadow causes a **lunar eclipse**, which happens only when the Moon passes through Earth's shadow (at Full Moon, roughly twice a year). Phases occur every month because we see different amounts of the Moon's **own night side** (the half not lit by the Sun), not Earth's shadow. A wrong evaluation reveals the student conflates the two distinct phenomena and doesn't understand that the Moon's dark part is its own night.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a lamp, a ball on a stick, and your own head to demonstrate why the Moon shows phases. Describe the setup, the steps, and what observation at each step proves the phases are due to viewing angle, not Earth's shadow.",
+     "a": "**Setup:** Dark room, lamp (Sun) at one end, student (Earth) holds ball (Moon) at arm's length. **Steps:** 1) Face lamp, hold ball between you and lamp → ball's far side lit, you see dark ball (New Moon). 2) Turn left 90°, hold ball to side → right half lit (First Quarter). 3) Turn back to lamp, hold ball away → fully lit (Full Moon). 4) Turn right 90° → left half lit (Third Quarter). **Proof:** At no point does your head's shadow fall on the ball; the dark part is always the ball's own unlit side. A poor answer uses a second ball for Earth's shadow or doesn't emphasize the fixed light source.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_03_007",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_03_007",
+   "title": "c11_ip_cbse_03_007",
+   "questions": [
+    {
+     "q": "What is the primary purpose of a loop in programming, and how does it differ from writing the same statement multiple times?",
+     "a": "A loop automates repetition by executing a block of code multiple times with a changing state (loop variable), reducing code duplication and allowing dynamic control of iteration count. Writing statements manually fixes the count at write-time; loops decide it at run-time. A wrong answer (e.g., \"loops make code faster\") reveals confusion between *code conciseness* and *execution speed* — loops don't inherently speed up execution; they improve maintainability and flexibility.",
+     "self_check": true
+    },
+    {
+     "q": "In the attendance example (printing roll numbers 1 to 40), a student writes: `roll = 1; print(roll); roll = 2; print(roll); ...` up to 40. They claim this \"works like a loop.\" Explain why this is NOT iteration, even though it produces the same output.",
+     "a": "This is manual unrolling, not iteration. Iteration requires a *single* code block that executes repeatedly via a control mechanism (condition + update). The student's code has 40 distinct blocks — no repetition of structure, no condition check, no update step. If the class size changes to 45, they must rewrite code; a loop adapts by changing one condition. A wrong answer indicates the student conflates *output equivalence* with *structural equivalence* — a critical misconception for understanding loop abstraction.",
+     "self_check": true
+    },
+    {
+     "q": "A program must calculate the sum of all even numbers between 1 and 100. Design the loop structure by specifying: (a) the loop variable, (b) its initial value, (c) the loop condition, (d) the update step, and (e) where the accumulation happens. Do not write code — describe in plain English.",
+     "a": "(a) Loop variable: `num` (current number being checked). (b) Initial value: 2 (first even). (c) Condition: `num <= 100`. (d) Update: `num = num + 2` (jump to next even). (e) Accumulation: inside the loop body, after checking evenness (though step update ensures evenness), add `num` to `total`. A wrong answer (e.g., starting at 1, increment by 1, check `%2==0` inside) works but misses the *efficiency* of aligning the loop variable with the pattern — revealing weak analytical decomposition of the problem's mathematical structure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare definite iteration (e.g., `for i in range(10)`) and indefinite iteration (e.g., `while user_input != 'quit'`). Give one real-world scenario where each is the *only* natural choice, and justify why the other would be awkward or impossible.",
+     "a": "Definite: \"Print 'Hello' 5 times\" — count known beforehand. Indefinite: \"Read numbers until user enters 0\" — count unknown, depends on user. Using definite for the second requires guessing a max count (wasteful or risky). Using indefinite for the first requires a counter and manual condition (`count < 5`), reinventing `for`. A wrong answer (e.g., \"both can do everything\") ignores *expressiveness* and *intent clarity* — loops are not just Turing-complete tools; they communicate programmer intent. This misconception leads to unreadable code.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since `while` loops can do everything `for` loops can, we don't need `for` loops — they're just syntactic sugar.\" Evaluate this claim. Is it technically true? Pedagogically useful? Practically advisable?",
+     "a": "Technically true (both are Turing-complete), but pedagogically and practically false. `for` loops encapsulate the *definite iteration pattern* (initialize, condition, update) in one line, preventing off-by-one errors and making intent explicit. `while` exposes the mechanism, increasing cognitive load for simple counting. Removing `for` forces beginners to manually manage loop variables — a known source of bugs. A wrong answer shows the student values *minimalism* over *abstraction* — a dangerous mindset in software engineering where readability prevents defects.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel real-world problem (not from textbooks) that *requires* indefinite iteration and cannot be easily converted to definite iteration. Describe the scenario, the loop condition, and why the iteration count is fundamentally unpredictable.",
+     "a": "Example: \"A weather station records temperature every minute. Sound an alarm when temperature exceeds 40°C for 3 consecutive minutes.\" The loop condition is `consecutive_high < 3 and not alarm_triggered`. The iteration count depends on external sensor data — no predetermined bound. A poor answer gives a scenario with a hidden bound (e.g., \"guess a number 1-100\" — max 7 tries via binary search), showing the student doesn't grasp *unbounded non-determinism* as the hallmark of indefinite iteration.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

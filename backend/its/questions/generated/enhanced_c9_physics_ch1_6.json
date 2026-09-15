@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch1_6",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch1_6",
+   "title": "c9_physics_ch1_6",
+   "questions": [
+    {
+     "q": "A student measures the length of a physics textbook three times using a metre scale and gets 25.4 cm, 25.5 cm, and 25.4 cm. The actual length is 25.0 cm. Which statement correctly describes these measurements?\nA) High accuracy, high precision\nB) High accuracy, low precision\nC) Low accuracy, high precision\nD) Low accuracy, low precision",
+     "a": "Correct answer: C) Low accuracy, high precision.\nExplanation: The three readings are very close to each other (25.4, 25.5, 25.4 → range = 0.1 cm), showing high precision. However, the average (25.43 cm) differs from the true value (25.0 cm) by 0.43 cm, which is large relative to the least count (0.1 cm), showing low accuracy. A wrong answer (e.g., A) reveals the student confuses precision with accuracy, thinking \"consistent readings = correct readings\". A wrong answer (B) reveals the student thinks the spread is large when it is actually small.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a vernier caliper with a zero error of +0.02 cm give precise but inaccurate measurements for the diameter of a wire, even if the student takes 10 careful readings?",
+     "a": "Correct answer: Zero error is a systematic error — it shifts every reading by the same fixed amount (+0.02 cm). The 10 readings will be tightly clustered (high precision) because random fluctuations are small, but the entire cluster is offset from the true value by 0.02 cm (low accuracy). A wrong answer (e.g., \"zero error makes readings random\") reveals the student does not distinguish systematic errors (which affect accuracy) from random errors (which affect precision). A wrong answer (e.g., \"it affects both equally\") reveals the student thinks any error reduces both accuracy and precision simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "The time period of a simple pendulum is measured as 2.04 s, 2.06 s, 2.03 s, 2.05 s, and 2.04 s. The accepted value is 2.00 s. Calculate the mean absolute error, relative error, and percentage error. Express the final result as T = (mean ± mean absolute error) s with correct significant figures.",
+     "a": "Step 1: Mean = (2.04 + 2.06 + 2.03 + 2.05 + 2.04) / 5 = 10.22 / 5 = 2.044 s → rounded to 2.04 s (least count 0.01 s, so 3 significant figures).\nStep 2: Absolute errors: |2.04-2.044|=0.004, |2.06-2.044|=0.016, |2.03-2.044|=0.014, |2.05-2.044|=0.006, |2.04-2.044|=0.004.\nStep 3: Mean absolute error = (0.004+0.016+0.014+0.006+0.004)/5 = 0.044/5 = 0.0088 s → rounded to 0.01 s (one significant figure in error, matching decimal place of mean).\nStep 4: Relative error = 0.01 / 2.04 = 0.0049 → 0.005 (one significant figure).\nStep 5: Percentage error = 0.005 × 100% = 0.5%.\nFinal reported result: T = (2.04 ± 0.01) s.\nA wrong answer (e.g., mean = 2.044 s, error = 0.0088 s) reveals the student does not apply significant figure rules for rounding the mean and its error to the least count of the instrument.",
+     "self_check": true
+    },
+    {
+     "q": "Two students measure the mass of a copper sphere using different balances. Student A uses a beam balance (least count 0.1 g) and gets 52.3 g, 52.4 g, 52.3 g. Student B uses a digital balance (least count 0.001 g) and gets 52.341 g, 52.345 g, 52.339 g. The true mass is 52.350 g. Compare the accuracy and precision of the two sets of measurements. Which balance gives more reliable results for further calculations?",
+     "a": "Student A: Mean = 52.33 g (rounded to 0.1 g), spread = 0.1 g → precision limited by least count. Absolute error from true = |52.33 - 52.350| = 0.02 g → but least count is 0.1 g, so error is within least count. Accuracy is high (within instrument limitation).\nStudent B: Mean = 52.3417 g → 52.342 g (to 0.001 g), spread = 0.006 g → high precision (small spread). Absolute error = |52.342 - 52.350| = 0.008 g → higher accuracy than A.\nDigital balance gives more reliable results because its higher precision (smaller least count) allows detection of smaller systematic errors and reduces rounding uncertainty in subsequent calculations (e.g., density = mass/volume). A wrong answer (e.g., \"beam balance is better because readings are simpler\") reveals the student equates simplicity with reliability and ignores the role of least count in limiting precision and propagated uncertainty.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the area of a rectangular metal sheet by measuring length = 12.4 cm (3 sig fig) and breadth = 3.2 cm (2 sig fig) using a vernier caliper. He multiplies them and writes area = 39.68 cm². His teacher marks it wrong. Evaluate the student's answer and state the correct way to report the area with proper significant figures.",
+     "a": "The student's answer is wrong because in multiplication, the result must have the same number of significant figures as the factor with the least number of significant figures. Here, breadth has 2 sig fig (3.2), length has 3 sig fig (12.4). So area must be reported with 2 sig fig. 12.4 × 3.2 = 39.68 → rounded to 2 sig fig = 40. cm² (or 4.0 × 10¹ cm² to explicitly show 2 sig fig). Writing 39.68 cm² implies 4 sig fig, which falsely suggests higher precision than the measurements justify. A wrong answer (e.g., \"keep 3 sig fig because length has 3\") reveals the student applies addition/subtraction rule (match decimal places) to multiplication, or does not know the rule for significant figures in arithmetic operations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only a metre scale (least count 0.1 cm), a stopwatch (least count 0.1 s), and a pendulum bob to demonstrate the difference between accuracy and precision. Write the procedure, the data table format, and how you would analyse the data to show both concepts.",
+     "a": "Procedure: 1) Set up a simple pendulum with length ~80 cm (measure with metre scale). 2) Measure time for 20 oscillations using stopwatch, repeat 5 times. 3) Calculate time period T = t/20 for each trial. 4) Intentionally introduce a systematic error: start/stop stopwatch late by ~0.5 s each time (consistent delay). Data table: Trial | t_20 (s) | T (s). Analysis: Compute mean T and spread (precision). Compare mean T to theoretical T = 2π√(L/g) (accuracy). The consistent delay makes all t_20 larger by ~0.5 s → all T larger by 0.025 s → high precision (small spread) but low accuracy (systematic offset). Then repeat without deliberate delay to show high accuracy and high precision. A poor answer (e.g., \"measure length many times\") reveals the student does not understand that accuracy requires comparison to a true/theoretical value, and precision requires repeated measurements of the same quantity under same conditions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

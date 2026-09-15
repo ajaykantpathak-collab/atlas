@@ -1,0 +1,400 @@
+{
+ "class": 11,
+ "subject": "biotechnology",
+ "chapter": 8,
+ "chapter_title": "Genetic Disorder",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kebt108.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kebt108.1",
+   "title": "Structural Chromosomal Abnormalities",
+   "section": "8.1.1",
+   "definition": "A chromosome can break and heal in four tell-tale ways: deletion trims a segment away as in retinoblastoma on chromosome 13, duplication repeats a stretch as in Charcot-Marie-Tooth disease on chromosome 17, inversion flips a piece through 180 degrees leaving the length unchanged as in RCAD syndrome, and translocation moves a piece onto another chromosome - mutually as in Burkitt lymphoma between chromosomes 8 and 14, or one-way in the Robertsonian type that lowers the chromosome count.",
+   "formula": "-",
+   "key_idea": "Shorter, longer, flipped or relocated - the breakage pattern names the aberration and points to the disease.",
+   "textbook_ref": "kebt108.txt section 8.1.1, Fig. 8.1",
+   "question_patterns": [
+    "name the four structural chromosomal abnormalities and sketch each rearrangement",
+    "which disease follows deletion of part of chromosome 13 and which follows duplication on chromosome 17",
+    "differentiate reciprocal translocation from Robertsonian translocation with the Burkitt lymphoma example",
+    "why does an inversion leave chromosome length unchanged yet reorder the genes",
+    "what is a ring chromosome and how does it arise from two-ended deletion",
+    "match retinoblastoma Charcot-Marie-Tooth and RCAD syndrome with their chromosomal rearrangements"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "inspect the segment",
+     "explain": "Missing piece means deletion; repeated piece means duplication."
+    },
+    {
+     "step": 2,
+     "action": "check the orientation",
+     "explain": "Same length but reversed gene order marks inversion."
+    },
+    {
+     "step": 3,
+     "action": "follow the segment",
+     "explain": "A piece moving to a different chromosome is translocation - reciprocal if exchanged, Robertsonian if one-way."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Repeating a chromosome segment is called what: duplication or deletion?",
+     "a": "duplication"
+    }
+   ]
+  },
+  {
+   "id": "kebt108.2",
+   "title": "Numerical Abnormalities and Polyploid Sets",
+   "section": "8.1",
+   "definition": "Whole chromosomes can be lost or gained: monosomy removes one of a pair, trisomy adds one, both counts of aneuploidy - as against polyploidy, where entire sets multiply so a human-count genome would hold 69 in triploid or 92 in tetraploid form; crop breeding exploits this, giving hexaploid bread wheat, tetraploid cabbages and mustards, triploid banana and apple, and octoploid strawberry and sugarcane.",
+   "formula": "karyotype_total = diploid_base + extra_chromosomes",
+   "key_idea": "Add one for a trisomy, subtract one for a monosomy, and multiply the haploid number by set count for polyploids.",
+   "textbook_ref": "kebt108.txt sections 8.1-8.1.2",
+   "question_patterns": [
+    "write the chromosome totals of a monosomic and a trisomic cell starting from the diploid number of 46",
+    "a triploid human-count genome would carry how many chromosomes - compute from 23 per set",
+    "how many chromosomes does a tetraploid cell with 23 per set contain",
+    "differentiate aneuploidy from polyploidy with one example of each",
+    "state the ploidy of bread wheat cabbage banana and sugarcane as used in food",
+    "which meiotic error produces trisomy and what is it called"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "adjust the diploid count",
+     "explain": "Trisomy adds a chromosome and monosomy removes one.",
+     "compute": "karyotype_total = diploid_base + extra_chromosomes"
+    },
+    {
+     "step": 2,
+     "action": "multiply sets for polyploids",
+     "explain": "Each complete set holds the haploid number.",
+     "compute": "polyploid_total = haploid_number * sets"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Losing one chromosome of a pair is called what: monosomy or trisomy?",
+     "a": "monosomy"
+    }
+   ]
+  },
+  {
+   "id": "kebt108.3",
+   "title": "Down Klinefelter and Turner Syndromes",
+   "section": "8.1.2",
+   "definition": "Three karyotypes anchor human cytogenetics: trisomy 21 gives Down syndrome with flat face, palmar crease and low IQ and one extra chromosome in 47,XX+21 or 47,XY+21; an extra X in 47,XXY males yields Klinefelter syndrome with tall stature, small testes and a single Barr body on buccal smear; and monosomy X in 45,X females gives Turner syndrome with short stature, webbed neck and no Barr body.",
+   "formula": "-",
+   "key_idea": "Count the sex chromatin: one Barr body betrays the extra X of Klinefelter, none marks the missing X of Turner.",
+   "textbook_ref": "kebt108.txt section 8.1.2, Figs. 8.2-8.4",
+   "question_patterns": [
+    "describe the origin symptoms and treatment of Down syndrome - which chromosome is repeated and why does maternal age matter",
+    "what karyotype and what Barr body pattern distinguish Klinefelter syndrome on a buccal smear",
+    "why cannot a Turner syndrome mother pass the condition to her daughters",
+    "differentiate the clinical pictures of Down Klinefelter and Turner syndromes",
+    "which nondisjunction event builds an XXY zygote from an XX ovum and a Y sperm",
+    "name two prenatal diagnostic techniques used for chromosomal syndromes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the karyotype",
+     "explain": "47,XX+21 or 47,XY+21 is Down; 47,XXY is Klinefelter; 45,X is Turner."
+    },
+    {
+     "step": 2,
+     "action": "check the Barr body",
+     "explain": "Normal male cells show none; Klinefelter shows one; Turner females show none."
+    },
+    {
+     "step": 3,
+     "action": "tie the symptoms",
+     "explain": "Flat face and palmar crease for Down; tall stature and gynaecomastia for Klinefelter; webbed neck and absent menstruation for Turner."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Trisomy of which chromosome causes Down syndrome: 21 or 17?",
+     "a": "21"
+    }
+   ]
+  },
+  {
+   "id": "kebt108.4",
+   "title": "Incidence Rates of Chromosomal Syndromes",
+   "section": "8.1.2",
+   "definition": "Each syndrome carries a headline frequency - about one Down baby per 800 live births, one Klinefelter male per 1000 newborn boys, and one Turner girl per 2500 newborn girls - so dividing a birth cohort by the rate predicts how many affected newborns a hospital or district should expect.",
+   "formula": "down_cases = births / down_rate",
+   "key_idea": "Divide the birth total by each syndrome's rate denominator to forecast case counts.",
+   "textbook_ref": "kebt108.txt section 8.1.2 (incidence lines of the three syndromes)",
+   "question_patterns": [
+    "a hospital records 16000 live births - how many Down syndrome babies are expected at one per 800",
+    "among 5000 newborn boys how many Klinefelter cases are predicted at one per 1000",
+    "a district with 10000 newborn girls expects how many Turner syndrome cases at one per 2500",
+    "more than what percentage of Down babies are born to mothers over 35 years of age",
+    "by how many years did Down syndrome life expectancy rise from the early 1900s to today",
+    "compare the incidences of Down Klinefelter and Turner syndromes and rank them from commonest to rarest"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide by the Down rate",
+     "explain": "One case per 800 births sets the denominator.",
+     "compute": "down_cases = births / down_rate"
+    },
+    {
+     "step": 2,
+     "action": "divide by the Klinefelter rate",
+     "explain": "One male case per 1000 newborn boys.",
+     "compute": "klinefelter_cases = male_births / klinefelter_rate"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "About one Down baby is born per how many live births: 800 or 8?",
+     "a": "800"
+    }
+   ]
+  },
+  {
+   "id": "kebt108.5",
+   "title": "Monogenic Disorders and Pedigree Mapping",
+   "section": "8.2",
+   "definition": "Over ten thousand human illnesses trace back to a single faulty gene and therefore follow Mendelian rules, sorted by whether the mutant allele sits on an autosome or the X and by dominance - autosomal recessive sickle cell anaemia and cystic fibrosis, autosomal dominant achondroplasia and Huntington disease, X-linked recessive haemophilia and Duchenne dystrophy, X-linked dominant hypophosphatemia; a family tree drawn with standard pedigree symbols reveals which rule applies.",
+   "formula": "-",
+   "key_idea": "One gene, four inheritance routes - autosomal or X-linked, dominant or recessive - and the pedigree tells you which.",
+   "textbook_ref": "kebt108.txt section 8.2, Figs. 8.5-8.9",
+   "question_patterns": [
+    "classify sickle cell anaemia cystic fibrosis haemophilia and achondroplasia by their mode of inheritance",
+    "what do the standard symbols of a pedigree chart represent for males females affected individuals and mating",
+    "why does cystic fibrosis show more than 200 different mutations in one gene yet one disease",
+    "which gene on chromosome 11 mutates in sickle cell anaemia and what happens to the red cells",
+    "why are carriers of a recessive allele healthy yet able to transmit the disorder",
+    "how many humans are statistically estimated to carry defective recessive genes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "scan the pedigree",
+     "explain": "Note affected males versus females across generations and whether parents of affected children are unaffected."
+    },
+    {
+     "step": 2,
+     "action": "test the routes",
+     "explain": "Male-to-male transmission rules out X-linkage; skipping generations suggests recessivity; every generation affected suggests dominance."
+    },
+    {
+     "step": 3,
+     "action": "name the pattern",
+     "explain": "Assign autosomal or X-linked, dominant or recessive, and predict carrier and risk statuses."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Sickle cell anaemia follows which inheritance: autosomal recessive or X-linked dominant?",
+     "a": "autosomal recessive"
+    }
+   ]
+  },
+  {
+   "id": "kebt108.6",
+   "title": "Carrier Crosses in Recessive Disease",
+   "section": "8.2",
+   "definition": "Two healthy carriers of a recessive allele - each S/s at the sickle locus, say - gamete three genotype classes in their children: one quarter affected s/s, half carriers S/s, and one quarter clear S/S, so risk counselling for such couples starts from the quarter-and-half split.",
+   "formula": "affected_children = children_total / 4",
+   "key_idea": "Quarter affected, half carriers, quarter clear - the fixed forecast of a carrier-by-carrier mating.",
+   "textbook_ref": "kebt108.txt section 8.2, Fig. 8.7",
+   "question_patterns": [
+    "two carrier parents S/s plan four children - how many are expected affected with sickle cell anaemia and how many to be carriers",
+    "out of 80 children born to carrier couples how many are expected homozygous normal",
+    "write the genotypes of the affected carrier and clear classes in a sickle cell carrier cross",
+    "why can two healthy parents have a child with an autosomal recessive disease",
+    "a carrier marries a homozygous normal partner - what fraction of children will be carriers",
+    "which regions of India show a high frequency of sickle cell anaemia"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the affected quarter",
+     "explain": "Only the s/s combination falls ill, one of four combinations.",
+     "compute": "affected_children = children_total / 4"
+    },
+    {
+     "step": 2,
+     "action": "take the carrier half",
+     "explain": "Two of the four combinations are healthy carriers.",
+     "compute": "carrier_children = children_total / 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "In a carrier-by-carrier recessive cross, what fraction of children are affected: one quarter or all?",
+     "a": "one quarter"
+    }
+   ]
+  },
+  {
+   "id": "kebt108.7",
+   "title": "X-linked Transmission Probabilities",
+   "section": "8.2",
+   "definition": "Sex chromosomes give the transmission its asymmetry: a carrier mother passes a recessive X to half her sons, an affected father hands his X to every daughter but no son, and in the dominant form an affected mother likewise shares the trait with half of both her sons and daughters.",
+   "formula": "affected_sons = sons_total / 2",
+   "key_idea": "Halve the children for sons, then halve again for those inheriting the affected X.",
+   "textbook_ref": "kebt108.txt section 8.2, Figs. 8.9-8.10",
+   "question_patterns": [
+    "a carrier mother and a normal father expect five children - how many sons are predicted affected with an X-linked recessive disorder",
+    "why does an affected father in X-linked recessive inheritance pass the trait to none of his sons yet all daughters become carriers",
+    "an affected mother in an X-linked dominant disorder has six children - how many are expected affected",
+    "name the coagulation factor genes whose mutations cause haemophilia A and B",
+    "which protein does the dystrophin gene encode and what fails in Duchenne muscular dystrophy",
+    "give two examples of X-linked dominant disorders in humans"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "split the children by sex",
+     "explain": "Half of any progeny are sons.",
+     "compute": "sons_total = children_total / 2"
+    },
+    {
+     "step": 2,
+     "action": "halve for the affected X",
+     "explain": "A carrier mother transmits the mutant X to half of her sons.",
+     "compute": "affected_sons = sons_total / 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A carrier mother passes a recessive X to what fraction of her sons: half or none?",
+     "a": "half"
+    }
+   ]
+  },
+  {
+   "id": "kebt108.8",
+   "title": "Polygenic Disorders and Mitochondrial Inheritance",
+   "section": "8.3 and Box 2",
+   "definition": "Several genes acting together produce the common chronic disorders - diabetes mellitus where type 2 makes up about ninety percent of cases against ten percent for insulin-dependent type 1, hypertension staged from 120 over 80 upward, and coronary heart disease built by atherosclerotic plaques; separately, mutated mitochondrial genes ride the egg alone, so severity tracks the mix of faulty and healthy mitochondria and only mothers transmit the disease.",
+   "formula": "type2_share = cases_total * 90 / 100",
+   "key_idea": "Nine of every ten diabetics are type 2; and a mitochondrial father transmits nothing - only the maternal line matters.",
+   "textbook_ref": "kebt108.txt section 8.3, Box 2, Figs. 8.11-8.12",
+   "question_patterns": [
+    "out of 400 diabetic patients how many are expected to be type 2 and how many type 1",
+    "differentiate type 1 from type 2 diabetes on the basis of beta cell damage and insulin requirement",
+    "give the blood pressure ranges of normal elevated stage 1 and stage 2 hypertension",
+    "why was coronary heart disease earlier called ischaemic heart disease - define atherosclerosis and ischemia",
+    "why can a father with a mitochondrial gene defect never pass it to his children",
+    "why do brain heart and muscle cells suffer most from mitochondrial gene defects"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "price the type 2 share",
+     "explain": "Type 2 covers about ninety percent of diabetes cases.",
+     "compute": "type2_share = cases_total * 90 / 100"
+    },
+    {
+     "step": 2,
+     "action": "give the type 1 remainder",
+     "explain": "Whatever is left of the cases is insulin-dependent type 1.",
+     "compute": "type1_share = cases_total - type2_share"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "About what percent of diabetes cases are type 2: ninety or ten?",
+     "a": "ninety"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "kebt108.txt sections 8.1-8.1.2 (47,XX+21 and 45,X karyotypes; triploid 69)",
+   "concept": "kebt108.2",
+   "question_type": "compute",
+   "question_pattern": "Starting from the human diploid count of {diploid_base} chromosomes, find the karyotype total of a Down syndrome male and of a Turner syndrome female, and the chromosome count of a triploid human-count genome.",
+   "extracted_variables": {
+    "diploid_base": "normal diploid chromosome number",
+    "extra_chromosomes": "chromosomes gained (+1) or lost (-1)",
+    "haploid_number": "chromosomes in one set"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "adjust for the trisomy",
+     "explain": "Down adds one chromosome 21.",
+     "compute": "karyotype_total = diploid_base + extra_chromosomes"
+    },
+    {
+     "step": 2,
+     "action": "adjust for the monosomy",
+     "explain": "Turner lacks one X chromosome.",
+     "compute": "turner_total = diploid_base - 1"
+    },
+    {
+     "step": 3,
+     "action": "multiply sets for triploid",
+     "explain": "Three complete sets of 23.",
+     "compute": "polyploid_total = haploid_number * 3"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "kebt108.txt section 8.2 Fig. 8.7 (carrier by carrier cross)",
+   "concept": "kebt108.6",
+   "question_type": "compute",
+   "question_pattern": "Two carriers of the sickle allele (S/s) have {children_total} children. Predict how many will have sickle cell anaemia, how many will be carriers, and how many will be clear of the allele.",
+   "extracted_variables": {
+    "children_total": "total children in the projection"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the affected quarter",
+     "explain": "The s/s class is one of four combinations.",
+     "compute": "affected_children = children_total / 4"
+    },
+    {
+     "step": 2,
+     "action": "take the carrier half",
+     "explain": "The S/s class covers two of four combinations.",
+     "compute": "carrier_children = children_total / 2"
+    },
+    {
+     "step": 3,
+     "action": "give the clear remainder",
+     "explain": "The rest are homozygous normal S/S.",
+     "compute": "clear_children = children_total - affected_children - carrier_children"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "kebt108-ex1",
+   "source_ref": "kebt108.txt Exercises (questions 1-5)",
+   "questions": [
+    "Define dominant, recessive, homozygous, heterozygous, phenotype and genotype.",
+    "Describe the origin, symptoms and treatment of Down syndrome.",
+    "Describe the origin, symptoms and treatment of Klinefelter syndrome.",
+    "Describe the origin, symptoms and treatment of Turner syndrome.",
+    "Describe the various structural chromosomal abnormalities with one disease example of each."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_06_004",
+   "title": "c12_bs_cbse_06_004",
+   "questions": [
+    {
+     "q": "Define recruitment as per NCERT Class 12 Business Studies. How does it differ from selection in terms of objective and sequence?",
+     "a": "Recruitment is the process of searching for prospective employees and stimulating them to apply for jobs in the organisation, creating a pool of candidates. Selection is the process of choosing the best person from that pool through tests and interviews. Recruitment precedes selection; recruitment aims to attract many applicants (positive process), while selection aims to reject unsuitable ones (negative process). A wrong answer that says \"recruitment is hiring\" or \"recruitment and selection are the same\" reveals confusion between attracting applicants and evaluating them — a common error that costs marks in board exams where distinction is explicitly asked.",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturing company needs to fill 20 vacancies for unskilled loader positions urgently due to a sudden export order. The HR head suggests placing a notice on the factory gate. Identify the source of recruitment and explain why it is appropriate for this situation.",
+     "a": "This is Direct Recruitment (an external source). It is appropriate because: (1) the jobs are casual/unskilled ('badli' workers), (2) urgency requires immediate hiring without advertising costs, (3) local labour gathers at the gate, enabling on-the-spot selection. A student who says \"campus recruitment\" or \"employment exchange\" misses the NCERT specification that direct recruitment is for casual vacancies of unskilled/semi-skilled jobs. This error shows inability to match source characteristics to job nature — a frequent case-based question trap.",
+     "self_check": true
+    },
+    {
+     "q": "\"Internal sources of recruitment are always better because they are cheaper and motivate employees.\" Critically evaluate this statement using at least three limitations of internal sources from NCERT.",
+     "a": "The statement is false. Three NCERT limitations: (1) Reduced scope for fresh talent leads to 'inbreeding' and stagnation. (2) Employees may become lethargic if promotions are time-bound, reducing competitive spirit. (3) A new enterprise cannot use internal sources at all. (4) Frequent transfers may reduce productivity. (5) Not all vacancies can be filled internally. A student who agrees without qualifications shows rote memorisation of merits without understanding contextual limitations — a classic board exam error where \"evaluate\" requires balanced analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare campus recruitment and employment exchange as sources for hiring a Software Engineer vs a Machine Operator. Which source fits which role? Justify using NCERT descriptions.",
+     "a": "Campus recruitment fits Software Engineer: NCERT states it is for \"technical, professional and managerial jobs\" from management/technology institutes. Employment exchange fits Machine Operator: NCERT describes it as a source for \"unskilled and skilled operative jobs\" run by government. A student who swaps them or says \"both can be used for any role\" fails to recognise that source effectiveness depends on job skill level and candidate pool — a key analytical skill tested in case studies.",
+     "self_check": true
+    },
+    {
+     "q": "An organisation uses only employee referrals for all hiring. After two years, they notice lack of diversity and innovation. As an HR consultant, recommend two external sources to complement referrals and explain how each addresses the identified problem.",
+     "a": "Recommend: (1) Campus Recruitment — brings fresh talent with updated technical knowledge and diverse backgrounds, directly countering 'inbreeding' and innovation stagnation. (2) Advertisement in professional journals — widens choice beyond employees' networks, attracting candidates with varied experiences and perspectives. A student who suggests \"direct recruitment\" or \"labour contractors\" for professional roles shows inability to match source to job level — a competitive exam trap where source-job fit is tested.",
+     "self_check": true
+    },
+    {
+     "q": "Design a recruitment strategy for a new hospital chain opening 5 branches in Tier-2 Indian cities. They need 100 nurses, 20 doctors, 30 admin staff, and 10 senior managers. Specify the source for each category with reasoning from NCERT.",
+     "a": "Nurses (100): Campus recruitment from nursing colleges + advertisement in local newspapers (technical operative roles, need volume). Doctors (20): Placement agencies/management consultants (specialised professionals, need screening) + advertisement in medical journals. Admin staff (30): Employment exchange (clerical/operative) + web publishing (cost-effective, wide reach). Senior managers (10): Headhunters/management consultants (top-level executives, confidential search) + employee referrals (trusted networks). A poor answer uses same source for all or ignores geographic constraint (Tier-2 cities) — showing lack of strategic thinking expected in competency questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

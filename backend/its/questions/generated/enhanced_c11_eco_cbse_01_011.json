@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_01_011",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_01_011",
+   "title": "c11_eco_cbse_01_011",
+   "questions": [
+    {
+     "q": "What was the approximate percentage of the workforce engaged in the agricultural sector in India on the eve of independence, according to the 1931 Census?",
+     "a": "The agricultural sector accounted for 70–75% of the workforce (commonly cited as 72% in 1931). A wrong answer (e.g., 50% or 85%) reveals confusion between population dependent on agriculture and workforce share, or mixing up with the percentage of population living in villages (85%).",
+     "self_check": true
+    },
+    {
+     "q": "Why did the occupational structure show little change during the colonial period despite the decline of handicrafts and the rise of modern industry?",
+     "a": "The decline of handicrafts displaced artisans into agriculture (increasing agricultural workforce), while modern industry grew too slowly to absorb them. The colonial policy deliberately suppressed industrialization to keep India as a raw material supplier and market for British goods. A wrong answer that says \"industry grew fast\" or \"handicrafts shifted to services\" shows misunderstanding of the deindustrialization process and the colonial motive.",
+     "self_check": true
+    },
+    {
+     "q": "Using the 1931 Census data: total workforce = 100 million, agriculture = 72 million, manufacturing = 10 million, services = 18 million. Calculate the sectoral shares. If 5 million workers moved from agriculture to manufacturing, what would be the new shares? Show steps.",
+     "a": "Step 1: Original shares: Agriculture = 72%, Manufacturing = 10%, Services = 18%.\nStep 2: After shift: Agriculture = 67 million (67%), Manufacturing = 15 million (15%), Services = 18 million (18%).\nStep 3: Interpretation: Even a large shift of 5 million only reduces agriculture to 67%, still dominant. A wrong calculation (e.g., not adjusting total) or missing the interpretation shows lack of quantitative skill and understanding of structural rigidity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the occupational structure of the Madras Presidency (where agriculture's share declined) with that of Orissa (where it increased) during the colonial period. What economic factors explain this regional variation?",
+     "a": "Madras Presidency saw growth in manufacturing (textiles) and services (port, administration) due to urbanization and infrastructure. Orissa remained agrarian with little industrial investment, and its land revenue system discouraged diversification. A wrong answer that attributes it solely to \"better soil\" or \"culture\" ignores colonial infrastructure investment patterns and land settlement systems.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The heavy dependence on agriculture was the cause of India's poverty, not a consequence of colonial policies.\" Use evidence from the chapter.",
+     "a": "The statement is false. Colonial policies (land revenue systems, deindustrialization, commercialization of agriculture) forced dependence on agriculture by destroying alternative livelihoods. The stagnation in agriculture (low productivity, zamindari exploitation) was a result of these policies. A student agreeing with the statement confuses correlation with causation and ignores the historical evidence of deliberate deindustrialization.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a pie chart for the occupational structure at independence using the 1931 Census data (Agriculture 72%, Manufacturing 10%, Services 18%). Then, write a 50-word caption explaining what this chart reveals about the colonial economy.",
+     "a": "A good answer includes an accurate pie chart and a caption like: \"The chart shows a lopsided economy where nearly three-fourths of the workforce depended on low-productivity agriculture, while modern industry and services remained stunted—reflecting colonial policy of keeping India as an agrarian raw-material supplier.\" A poor caption merely describes percentages without economic interpretation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

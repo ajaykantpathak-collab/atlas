@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_07_002",
+   "title": "c11_chem_cbse_07_002",
+   "questions": [
+    {
+     "q": "In the reversible reaction N₂(g) + 3H₂(g) ⇌ 2NH₃(g) at equilibrium in a closed container, which statement is correct? (a) The forward reaction has stopped. (b) The concentrations of N₂, H₂, and NH₃ are equal. (c) The rate of formation of NH₃ equals the rate of its decomposition. (d) The total pressure of the system is zero.",
+     "a": "Correct: (c) The rate of formation of NH₃ equals the rate of its decomposition. Dynamic equilibrium means both forward and reverse reactions continue at equal rates, so no net change occurs. A wrong choice (a) reveals the static equilibrium misconception — students think \"equilibrium\" means everything stops. Choice (b) confuses equal rates with equal concentrations; equilibrium concentrations depend on Kc, not stoichiometry. Choice (d) is physically impossible for a gas mixture.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"At equilibrium, the reaction N₂O₄(g) ⇌ 2NO₂(g) has no net change because all N₂O₄ molecules have converted to NO₂.\" Explain why this is incorrect using the concept of dynamic equilibrium.",
+     "a": "The statement is incorrect because at equilibrium, both N₂O₄ and NO₂ coexist; N₂O₄ continuously dissociates into NO₂ while NO₂ simultaneously recombines into N₂O₄ at the same rate. The \"no net change\" refers to constant macroscopic concentrations, not cessation of reaction. A wrong answer indicates the student views equilibrium as a completion point (like irreversible reactions in Class 10) rather than a dynamic balance. They likely confuse \"equilibrium\" with \"reaction goes to completion\" from c10_chem_cbse_01_001.",
+     "self_check": true
+    },
+    {
+     "q": "For the equilibrium H₂(g) + I₂(g) ⇌ 2HI(g), initially 1.0 mol H₂ and 1.0 mol I₂ are placed in a 10 L vessel. At equilibrium, 0.6 mol of HI is found. Calculate the equilibrium concentrations of all species and determine if the system has reached equilibrium from the forward or reverse direction.",
+     "a": "Initial: [H₂] = 0.1 M, [I₂] = 0.1 M, [HI] = 0 M. Change: HI increases by 0.6 mol/10 L = 0.06 M, so H₂ and I₂ each decrease by 0.03 M (stoichiometry 1:1:2). Equilibrium: [HI] = 0.06 M, [H₂] = 0.07 M, [I₂] = 0.07 M. Since HI was zero initially and increased, the net reaction proceeded forward. A wrong answer (e.g., using 0.6 M instead of 0.06 M) reveals mole-to-concentration conversion error. Forgetting the 2:1 stoichiometry for HI formation shows incomplete balancing skill from c10_chem_cbse_01_002.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the equilibrium in a saturated NaCl solution (solid NaCl ⇌ Na⁺(aq) + Cl⁻(aq)) with the gas-phase equilibrium 2SO₂(g) + O₂(g) ⇌ 2SO₃(g). Identify two similarities and two differences in their dynamic nature and macroscopic observables.",
+     "a": "Similarities: (1) Both are dynamic — ions/crystals and gas molecules continuously interchange at equal rates. (2) Both show constant macroscopic properties (concentration/pressure) at equilibrium. Differences: (1) Heterogeneous vs homogeneous — NaCl equilibrium involves a solid phase (activity = 1), while SO₂/SO₃ is all gas. (2) Observable: saturated solution shows constant conductivity; gas equilibrium shows constant pressure/color intensity (SO₃ is colorless, SO₂ is colorless but often monitored via pressure). A poor answer misses the phase distinction or thinks \"dynamic\" means visible motion.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If I add more H₂ to the equilibrium N₂(g) + 3H₂(g) ⇌ 2NH₃(g), the system will immediately form more NH₃ and the equilibrium constant Kc will increase.\" Evaluate this claim.",
+     "a": "The claim is partially correct in outcome but wrong in reasoning. Adding H₂ shifts equilibrium forward (Le Chatelier), producing more NH₃ temporarily, but Kc remains constant at constant temperature — only temperature changes Kc. The student confuses \"position of equilibrium\" (concentrations) with \"equilibrium constant\" (ratio at equilibrium). A wrong answer reveals confusion between Kc (thermodynamic constant) and Q (reaction quotient), which is formally taught in c11_chem_cbse_07_005.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple school-lab experiment to demonstrate that chemical equilibrium is dynamic, not static, using the reaction Fe³⁺(aq) + SCN⁻(aq) ⇌ [Fe(SCN)]²⁺(aq) (deep red). List materials, procedure, and the key observation that proves dynamism.",
+     "a": "Materials: FeCl₃ solution, KSCN solution, water, test tubes, spectrophotometer or colorimeter (or visual comparison). Procedure: (1) Prepare equilibrium mixture — deep red. (2) Split into two tubes. (3) Add excess Fe³⁺ to tube A (color intensifies). (4) Add excess SCN⁻ to tube B (color intensifies). (5) To a third tube, add radioactive isotope tracer (⁵⁹Fe or ³⁵S) — if available — and track incorporation into complex. Key observation: color change upon adding either reactant proves the reverse reaction (dissociation of complex) was occurring; otherwise, adding more reactant couldn't shift equilibrium. Without isotopes, the color shift itself proves the system responds dynamically. A poor answer describes only initial color formation, missing the perturbation test.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

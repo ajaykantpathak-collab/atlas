@@ -1,0 +1,240 @@
+{
+ "class": 11,
+ "subject": "sociology",
+ "chapter": 102,
+ "chapter_title": "Terms, Concepts and Their Use in Sociology",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kesy102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kesy102.1.1",
+   "title": "Social Groups: Aggregate, Category and Quasi-Group",
+   "section": "1.1",
+   "definition": "A social group exists only where people interact regularly, share a sense of belonging and define themselves as members. Mere gatherings and mere collections of similar people are not groups: an aggregate is people physically together (a bus queue), a category is people alike in some trait (all tall persons), and a quasi-group has common interests but no organisation yet.",
+   "formula": "",
+   "key_idea": "Interaction plus membership feeling makes a group -- not proximity, not similarity alone.",
+   "textbook_ref": "kesy102.txt lines 15-140 (social group and society, aggregate, category, quasi group, examples of crowd and audience)",
+   "question_patterns": [
+    "define a social group and distinguish it from an aggregate and a category",
+    "in class 11 terms and concepts in sociology: what is a quasi group",
+    "is a crowd watching a cricket match a social group",
+    "why does a category of similar people not form a group",
+    "give examples of aggregate category and group from daily life",
+    "how does a quasi group turn into a group"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "test interaction and belonging",
+     "explain": "Ask whether members interact recurrently and feel 'we-ness'; that is the group test."
+    },
+    {
+     "step": 2,
+     "action": "classify the non-groups",
+     "explain": "People merely present together form an aggregate; people merely alike form a category; people with shared interests but no structure form a quasi-group."
+    },
+    {
+     "step": 3,
+     "action": "trace the becoming",
+     "explain": "A quasi-group acquires organisation and identity -- say a trade union -- and becomes a genuine group."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "People physically together, like a bus queue, form an aggregate or a group?",
+     "a": "an aggregate"
+    }
+   ]
+  },
+  {
+   "id": "kesy102.1.2",
+   "title": "Status and Role: Ascribed and Achieved",
+   "section": "1.2",
+   "definition": "Status is a person's position in a social system, carrying honour or rank; role is the behaviour expected of whoever occupies that status. Some statuses are ascribed at birth -- caste, sex, royal birth -- while achieved statuses are earned through effort, and each person holds a whole cluster of statuses at once.",
+   "formula": "",
+   "key_idea": "You occupy a status and perform its role -- some statuses are given at birth, others are earned.",
+   "textbook_ref": "kesy102.txt lines 140-260 (status and role, ascribed and achieved status, role conflict, multiple statuses, role set)",
+   "question_patterns": [
+    "distinguish status from role with examples",
+    "in class 11 terms and concepts in sociology: what are ascribed and achieved statuses",
+    "explain role conflict with a concrete example",
+    "why does one person hold many statuses at the same time",
+    "is the status of daughter in law ascribed or achieved",
+    "how do roles attached to a status guide behaviour"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "separate position from performance",
+     "explain": "Status is where one stands in the system of positions; role is the expected conduct that goes with the position."
+    },
+    {
+     "step": 2,
+     "action": "sort the origins",
+     "explain": "Ascribed statuses come unbidden at birth; achieved statuses are won by individual action."
+    },
+    {
+     "step": 3,
+     "action": "spot the frictions",
+     "explain": "Multiple statuses can pull one person in opposite directions -- the teacher who must fail her own child faces role conflict."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Caste is an ascribed or an achieved status?",
+     "a": "ascribed"
+    }
+   ]
+  },
+  {
+   "id": "kesy102.1.3",
+   "title": "Social Control, Society and Community",
+   "section": "1.3",
+   "definition": "Society is the largest web of relationships marked by self-sufficiency and continuity, while a community is a smaller grouping held by locality and a feeling of belonging. Neither survives by goodwill alone: norms backed by sanctions -- folkways, mores and laws -- exert social control, rewarding conformity and punishing deviation.",
+   "formula": "",
+   "key_idea": "Norms are the traffic rules of social life -- sanctions, soft or hard, keep everyone on the road.",
+   "textbook_ref": "kesy102.txt lines 260-380 (society and community, social control, norms folkways mores and laws, sanctions)",
+   "question_patterns": [
+    "distinguish society from community in sociology",
+    "in class 11 terms and concepts in sociology: explain folkways mores and laws as instruments of social control",
+    "how do sanctions enforce norms",
+    "give an example of a folkway and a more in indian society",
+    "why is social control necessary for group life",
+    "compare informal and formal social control"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set the scale",
+     "explain": "Community implies locality and belonging; society is the wider, more abstract network of relationships."
+    },
+    {
+     "step": 2,
+     "action": "rank the norms",
+     "explain": "Folkways are everyday usages, mores carry moral weight, laws are formalised and state-enforced."
+    },
+    {
+     "step": 3,
+     "action": "connect to control",
+     "explain": "Sanctions -- ridicule, ostracism, fine, imprisonment -- keep conduct within normative bounds without any central director."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Norms backed by sanctions exert what?",
+     "a": "social control"
+    }
+   ]
+  },
+  {
+   "id": "kesy102.1.4",
+   "title": "Culture: Nature versus Nurture",
+   "section": "1.4",
+   "definition": "Culture is the learned, shared design of living -- beliefs, values, practices and artefacts -- that distinguishes human groups. The nature versus nurture debate asks how much of behaviour is biological instinct and how much cultural learning; sociology stresses nurture, showing how the same biological needs are satisfied in strikingly different ways across cultures.",
+   "formula": "",
+   "key_idea": "Humans are born unfinished -- culture completes us, teaching what nature never specified.",
+   "textbook_ref": "kesy102.txt lines 380-460 (nature versus nurture debate, culture as learned behaviour, instinct and socialisation preview)",
+   "question_patterns": [
+    "explain the nature versus nurture debate in sociology",
+    "in class 11 terms and concepts in sociology: why is culture called learned behaviour",
+    "show with an example how the same need is met differently across cultures",
+    "what does it mean to say humans lack instincts",
+    "how does culture make human life possible",
+    "distinguish cultural behaviour from instinctive behaviour"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the biological floor",
+     "explain": "Humans share bodily needs -- food, sex, shelter -- with other animals."
+    },
+    {
+     "step": 2,
+     "action": "show the cultural overlay",
+     "explain": "How those needs are met -- what counts as food, marriage or home -- varies enormously and must be learned."
+    },
+    {
+     "step": 3,
+     "action": "conclude on nurture",
+     "explain": "Because the content is learned and shared, it is culture, and socialisation transmits it to each generation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Is culture learned or inherited biologically?",
+     "a": "learned"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "kesy102.txt lines 140-260 (status and role)",
+   "concept": "kesy102.1.2",
+   "question_type": "verify_property",
+   "question_pattern": "A woman is a doctor, a mother, a Municipal councillor and a Gujarati. Identify her statuses and discuss which are ascribed or achieved, then point out a possible role conflict.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list the statuses",
+     "explain": "Doctor, mother, councillor and Gujarati are positions she occupies simultaneously -- a status set."
+    },
+    {
+     "step": 2,
+     "action": "sort ascribed versus achieved",
+     "explain": "Motherhood-by-birth community ties are ascribed; doctor and councillor are achieved through training and election."
+    },
+    {
+     "step": 3,
+     "action": "identify the conflict",
+     "explain": "A night emergency in the hospital may clash with council duties -- the same person pulled by two roles."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "kesy102.txt lines 260-380 (social control)",
+   "concept": "kesy102.1.3",
+   "question_type": "verify_property",
+   "question_pattern": "Someone eats with the left hand at a ritual dinner, gossips about a neighbour, and later evades income tax. Classify each act against folkways, mores and laws with suitable sanctions.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "classify the table lapse",
+     "explain": "Eating with the 'wrong' hand breaches a folkway; the sanction is mild -- comment or amusement."
+    },
+    {
+     "step": 2,
+     "action": "classify the gossip",
+     "explain": "Malicious gossip violates mores, inviting moral censure and social distance."
+    },
+    {
+     "step": 3,
+     "action": "classify the tax evasion",
+     "explain": "Tax evasion breaks law, inviting formal punishment -- showing how norms escalate from usage to morality to legality."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "kesy102.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "Why do sociologists need concepts distinct from everyday terms?",
+    "Distinguish group, aggregate, category and quasi-group with examples.",
+    "Explain the terms status and role and discuss role conflict.",
+    "What is social control and what are its principal instruments?",
+    "Discuss the nature versus nurture debate with examples.",
+    "Distinguish society from community and give instances of each."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_05_006",
+   "title": "c12_math_cbse_05_006",
+   "questions": [
+    {
+     "q": "State the chain rule formula for \\( y = f(g(x)) \\) using Leibniz notation, and specify the condition required for it to hold.",
+     "a": "The chain rule states \\( \\frac{dy}{dx} = \\frac{dy}{du} \\cdot \\frac{du}{dx} \\) where \\( u = g(x) \\). The condition is that both \\( \\frac{du}{dx} \\) and \\( \\frac{dy}{du} \\) must exist. A wrong answer (e.g., writing \\( \\frac{dy}{dx} = \\frac{dy}{du} + \\frac{du}{dx} \\) or omitting the existence condition) reveals confusion between the chain rule and the sum rule, or a lack of awareness that differentiability of each component is necessary.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the derivative of \\( \\sin(x^2) \\) is \\( 2x \\cos(x^2) \\) and not \\( \\cos(x^2) \\) or \\( 2x \\cos(2x) \\). Identify the inner and outer functions.",
+     "a": "Let \\( u = x^2 \\) (inner) and \\( y = \\sin u \\) (outer). Then \\( \\frac{dy}{du} = \\cos u = \\cos(x^2) \\) and \\( \\frac{du}{dx} = 2x \\). By the chain rule, \\( \\frac{dy}{dx} = \\cos(x^2) \\cdot 2x = 2x \\cos(x^2) \\). A wrong answer like \\( \\cos(x^2) \\) shows the student forgot to multiply by the derivative of the inner function. \\( 2x \\cos(2x) \\) indicates they incorrectly differentiated \\( \\sin(x^2) \\) as if the argument were \\( 2x \\), confusing the chain rule with the derivative of \\( \\sin(2x) \\).",
+     "self_check": true
+    },
+    {
+     "q": "Differentiate \\( y = \\tan(3x^2 + 5) \\) with respect to \\( x \\). Show all steps.",
+     "a": "Let \\( u = 3x^2 + 5 \\), then \\( y = \\tan u \\).\n\\( \\frac{dy}{du} = \\sec^2 u = \\sec^2(3x^2 + 5) \\)\n\\( \\frac{du}{dx} = 6x \\)\n\\( \\frac{dy}{dx} = \\sec^2(3x^2 + 5) \\cdot 6x = 6x \\sec^2(3x^2 + 5) \\).\nA wrong answer like \\( \\sec^2(3x^2 + 5) \\) (missing \\( 6x \\)) or \\( 6x \\sec^2(3x^2) \\) (incorrect inner function) shows failure to correctly apply the chain rule or to keep the inner function intact when differentiating the outer function.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the derivatives of \\( f(x) = \\sin(x^3) \\) and \\( g(x) = (\\sin x)^3 \\). Are they the same? Explain the structural difference that leads to different derivatives.",
+     "a": "\\( f(x) = \\sin(x^3) \\): outer = sin, inner = \\( x^3 \\). \\( f'(x) = \\cos(x^3) \\cdot 3x^2 = 3x^2 \\cos(x^3) \\).\n\\( g(x) = (\\sin x)^3 \\): outer = \\( u^3 \\), inner = \\( \\sin x \\). \\( g'(x) = 3(\\sin x)^2 \\cdot \\cos x = 3 \\sin^2 x \\cos x \\).\nThey are different because the order of composition is reversed. A student who claims they are the same misunderstands that composition is not commutative; the chain rule applies to the specific layering of functions.",
+     "self_check": true
+    },
+    {
+     "q": "A student differentiates \\( y = e^{\\sin x} \\) as follows: \\( \\frac{dy}{dx} = e^{\\sin x} \\cdot \\cos x \\cdot \\cos x \\). Identify the error and correct it.",
+     "a": "The student incorrectly applied the chain rule twice on the exponent: they differentiated \\( \\sin x \\) to get \\( \\cos x \\), then multiplied by another \\( \\cos x \\) as if the exponent were \\( \\sin^2 x \\). The correct derivative is \\( \\frac{dy}{dx} = e^{\\sin x} \\cdot \\cos x \\). The error reveals a misunderstanding of when to stop applying the chain rule; the student treated \\( \\sin x \\) as a composite function itself and differentiated it again unnecessarily.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (with numbers) where the chain rule is needed to find the rate of change of a quantity that depends on another quantity which itself changes with time. Provide the functions and ask for the derivative at a specific instant.",
+     "a": "Example: The temperature \\( T \\) (in °C) of a metal rod at distance \\( x \\) (in cm) from one end is \\( T(x) = 20 + 5\\sqrt{x} \\). The rod expands so that \\( x \\) changes with time \\( t \\) (in seconds) as \\( x(t) = t^2 + 4 \\). Find the rate of change of temperature with respect to time when \\( t = 1 \\) s.\nSolution: \\( \\frac{dT}{dt} = \\frac{dT}{dx} \\cdot \\frac{dx}{dt} = \\frac{5}{2\\sqrt{x}} \\cdot 2t = \\frac{5t}{\\sqrt{t^2+4}} \\). At \\( t=1 \\), \\( \\frac{dT}{dt} = \\frac{5}{\\sqrt{5}} = \\sqrt{5} \\) °C/s.\nA poor answer might give only the formula without a context, or misuse the chain rule (e.g., adding derivatives). This tests the ability to construct a meaningful composite scenario.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

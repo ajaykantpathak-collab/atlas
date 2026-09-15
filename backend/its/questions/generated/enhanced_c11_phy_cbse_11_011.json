@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_11_011",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_11_011",
+   "title": "c11_phy_cbse_11_011",
+   "questions": [
+    {
+     "q": "State the efficiency formula for a Carnot engine and specify the temperature unit required. What does Carnot's theorem state about the efficiency of any real engine operating between the same two reservoirs?",
+     "a": "Efficiency η = 1 - T₂/T₁ where T₁ and T₂ are absolute temperatures of source and sink in Kelvin. Carnot's theorem states no engine operating between the same two reservoirs can have efficiency greater than the Carnot efficiency. A wrong answer using Celsius reveals the student doesn't understand thermodynamic temperature must be absolute; stating \"real engines can be more efficient\" reveals misunderstanding of the Second Law's limitation.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If I increase the source temperature T₁ while keeping sink temperature T₂ constant, the Carnot efficiency increases. But if I decrease T₂ while keeping T₁ constant, efficiency also increases. Therefore, to maximize efficiency, I should make T₁ as high as possible and T₂ as low as possible - ideally T₂ = 0 K giving 100% efficiency.\" Identify the correct physical reasoning and the practical flaw in this statement.",
+     "a": "The mathematical reasoning is correct: η = 1 - T₂/T₁ increases as T₁ increases or T₂ decreases. However, T₂ = 0 K is unattainable (Third Law of Thermodynamics), and real materials impose limits on T₁. A wrong answer accepting 100% efficiency as theoretically achievable reveals confusion between mathematical limit and physical possibility; ignoring material constraints shows lack of engineering awareness.",
+     "self_check": true
+    },
+    {
+     "q": "A Carnot engine operates between a source at 527°C and a sink at 27°C. Calculate its efficiency. If the engine absorbs 600 J of heat from the source in one cycle, find the work output and heat rejected to the sink.",
+     "a": "Step 1: Convert to Kelvin: T₁ = 527 + 273 = 800 K, T₂ = 27 + 273 = 300 K.\nStep 2: η = 1 - 300/800 = 1 - 0.375 = 0.625 = 62.5%.\nStep 3: W = η × Q₁ = 0.625 × 600 J = 375 J.\nStep 4: Q₂ = Q₁ - W = 600 - 375 = 225 J (or Q₂ = Q₁ × T₂/T₁ = 600 × 300/800 = 225 J).\nAnswer: η = 62.5%, W = 375 J, Q₂ = 225 J. A wrong answer using Celsius (1 - 27/527 ≈ 95%) reveals failure to convert to absolute temperature.",
+     "self_check": true
+    },
+    {
+     "q": "Two Carnot engines A and B operate in series. Engine A takes heat Q₁ from a reservoir at T₁, rejects heat Q₂ to a reservoir at T₂, and does work W_A. Engine B takes the rejected heat Q₂ from the T₂ reservoir, rejects heat Q₃ to a reservoir at T₃, and does work W_B. Derive the overall efficiency of the combined system in terms of T₁ and T₃ only, and explain why the intermediate temperature T₂ cancels out.",
+     "a": "For A: η_A = 1 - T₂/T₁ ⇒ W_A = Q₁(1 - T₂/T₁), Q₂ = Q₁(T₂/T₁).\nFor B: η_B = 1 - T₃/T₂ ⇒ W_B = Q₂(1 - T₃/T₂) = Q₁(T₂/T₁)(1 - T₃/T₂).\nTotal work: W_total = W_A + W_B = Q₁[1 - T₂/T₁ + (T₂/T₁)(1 - T₃/T₂)] = Q₁[1 - T₃/T₁].\nOverall efficiency η_total = W_total/Q₁ = 1 - T₃/T₁.\nT₂ cancels because the heat rejected by A exactly matches what B absorbs, making the intermediate reservoir a \"pass-through.\" A wrong answer retaining T₂ reveals misunderstanding of energy conservation in series coupling.",
+     "self_check": true
+    },
+    {
+     "q": "A textbook solution states: \"A Carnot engine operating between 400 K and 300 K has efficiency 25%. If we want 50% efficiency, we must double the temperature difference, so we should operate between 500 K and 300 K.\" Evaluate this reasoning and provide the correct source temperature for 50% efficiency with the same sink.",
+     "a": "The reasoning is incorrect. Efficiency depends on the RATIO T₂/T₁, not the difference. For η = 0.5 with T₂ = 300 K: 0.5 = 1 - 300/T₁ ⇒ 300/T₁ = 0.5 ⇒ T₁ = 600 K. The textbook's suggestion of 500 K gives η = 1 - 300/500 = 40%, not 50%. A wrong answer accepting the \"double the difference\" logic reveals confusion between linear and ratio relationships.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment to demonstrate why a Carnot engine must use adiabatic (not isochoric or isobaric) processes to connect the two isotherms when operating between only two reservoirs. What would happen if you tried to use an isochoric cooling step instead?",
+     "a": "In an isochoric cooling step, temperature drops from T₁ to T₂ while volume is constant. This requires heat exchange with a series of reservoirs at continuously changing temperatures (not a single T₂ reservoir), violating the two-reservoir condition. The gas would not be in thermal equilibrium with a single reservoir during the process, making it non-quasi-static and irreversible. A poor answer suggesting \"isochoric is fine\" reveals misunderstanding of the quasi-static requirement and the definition of a reservoir.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_05_001",
+   "title": "c11_psy_cbse_05_001",
+   "questions": [
+    {
+     "q": "State the NCERT definition of learning verbatim, including the two exclusionary criteria for non-learning changes.",
+     "a": "Learning is \"any relatively permanent change in behaviour or behavioural potential produced by experience.\" Changes due to fatigue, habituation, drugs, or maturation are excluded because they are temporary or not experience-based. A wrong answer (e.g., \"learning is a change in behaviour\") reveals the student misses the critical qualifiers \"relatively permanent\" and \"produced by experience,\" leading to over-inclusion of temporary states like fatigue.",
+     "self_check": true
+    },
+    {
+     "q": "A student reads a chapter once, closes the book, and immediately recalls 80% of it. The next day, they recall only 20%. Is the initial 80% recall evidence of learning? Explain using the distinction between learning and performance.",
+     "a": "The 80% recall is performance, not learning. Learning is the inferred relatively permanent change; the rapid drop to 20% shows the change was not permanent. The initial recall reflects short-term memory/performance, not consolidated learning. A wrong answer (\"yes, because they recalled it\") confuses performance (observable output) with learning (inferred permanent change), ignoring the permanence criterion.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each scenario as learning (L) or non-learning (NL) and justify using NCERT criteria:\n(a) A newborn grasps a finger placed in its palm.\n(b) After 10 cycles of bell-food pairing, a dog salivates to the bell alone.\n(c) A person slurs speech after consuming alcohol.\n(d) A child stops jumping at a loud noise after hearing it 20 times.\n(e) A rat presses a lever more frequently after receiving food pellets.",
+     "a": "(a) NL — reflex (maturation), not experience-based. (b) L — experience (pairing), relatively permanent CR. (c) NL — drug-induced, temporary. (d) NL — habituation (repeated stimulus exposure), not associative experience. (e) L — experience (reinforcement), relatively permanent behaviour change. A wrong classification (e.g., marking (d) as learning) reveals confusion between habituation (non-associative, temporary) and associative learning.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"learning\" and \"maturation\" using three specific criteria from the NCERT text. Provide one example where maturation enables learning but is not learning itself.",
+     "a": "Criteria: (1) Origin: learning from experience/practice; maturation from genetic unfolding. (2) Permanence: learning relatively permanent; maturation permanent but not \"produced by experience.\" (3) Inference: learning inferred from performance; maturation observed as developmental milestones. Example: A child's neural maturation enables walking, but the walking skill itself is learned through practice. A weak answer conflates readiness (maturation) with acquisition (learning).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"If a behaviour change lasts 24 hours, it qualifies as 'relatively permanent' learning per NCERT.\" Defend or refute with reasoning.",
+     "a": "Refute. \"Relatively permanent\" implies durability beyond transient states — typically days/weeks/months, not hours. NCERT contrasts learning with fatigue/habituation/drug effects that last minutes to hours. A 24-hour change could be short-term memory or residual drug effect. True learning shows resistance to extinction and spontaneous recovery (later concepts). Accepting 24 hours blurs the boundary with temporary states.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 2-trial mini-experiment to demonstrate that learning is inferred, not observed. Specify: (1) pre-test, (2) experience/practice phase, (3) post-test, (4) the inference step. Use a verbal learning task.",
+     "a": "(1) Pre-test: Ask participant to recall a list of 10 nonsense syllables — score 0. (2) Experience: Show each syllable for 2 sec, repeat list 5 times. (3) Post-test: Ask for recall — score 7. (4) Inference: Since pre-test was 0 and post-test 7 after practice, we *infer* learning occurred. We did not \"see\" learning; we saw performance change and inferred the internal change. Poor answer: omits pre-test or treats post-test score as direct observation of learning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

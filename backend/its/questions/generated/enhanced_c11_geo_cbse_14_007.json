@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_14_007",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_14_007",
+   "title": "c11_geo_cbse_14_007",
+   "questions": [
+    {
+     "q": "What is the minimum tree canopy density and area required for a land to be classified as 'forest cover' in the India State of Forest Report?",
+     "a": "Correct answer: More than 10% tree canopy density and area more than 1 hectare. A wrong answer (e.g., 20% density or 5 hectares) reveals the student is confusing forest cover definition with forest area definition (legal status) or with other countries' definitions.",
+     "self_check": true
+    },
+    {
+     "q": "Why do the northeastern states have a higher percentage of forest cover compared to the northwestern states? Explain using climatic and topographic factors.",
+     "a": "Correct answer: Northeastern states receive heavy rainfall (200-400 cm) from both Bay of Bengal branch and orographic lift, have hilly terrain limiting agriculture, and have low population density. Northwestern states (Punjab, Haryana) lie in the rain shadow of the Aravallis, receive low rainfall (<60 cm), have fertile alluvial plains converted to agriculture, and high population density. A wrong answer focusing only on rainfall without mentioning topography or human pressure shows incomplete understanding of the interaction between physical and human factors.",
+     "self_check": true
+    },
+    {
+     "q": "Using the data: Madhya Pradesh has the largest forest cover area (77,482 sq km) but only 25.14% of its geographical area. Arunachal Pradesh has 66,688 sq km forest cover but 79.63% of its geographical area. Calculate the geographical area of each state and explain why the state with larger absolute forest cover has a lower percentage.",
+     "a": "Step 1: Geographical area = Forest cover area / (Percentage/100).\nMadhya Pradesh: 77,482 / 0.2514 = 308,200 sq km (approx).\nArunachal Pradesh: 66,688 / 0.7963 = 83,750 sq km (approx).\nStep 2: Madhya Pradesh is a large state in central India with extensive agriculture and urbanization, so forest cover is a smaller fraction. Arunachal Pradesh is smaller, mountainous, with low population, so forests dominate. A wrong calculation or explanation indicates difficulty with percentage-area relationship and overlooking the role of state size and land use.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the forest cover distribution in the Western Ghats and the Eastern Ghats. Why is the Western Ghats more densely forested despite both being along the coast?",
+     "a": "The Western Ghats receive heavy orographic rainfall (250-400 cm) from the Southwest Monsoon, have continuous high elevation, and are a biodiversity hotspot with protected areas. The Eastern Ghats are lower, discontinuous, lie in the rain shadow of the Western Ghats for the SW monsoon, and receive less rainfall (100-150 cm) mainly from the NE monsoon. They are more fragmented by rivers and human settlements. A wrong answer that attributes it only to latitude or only to human activity misses the combined effect of orography and monsoon dynamics.",
+     "self_check": true
+    },
+    {
+     "q": "Assess the statement: \"Increasing forest cover percentage in a state always indicates successful conservation efforts.\" Use examples from Indian states to support your evaluation.",
+     "a": "Not necessarily. Forest cover increase can be due to plantations (monoculture), which may not enhance biodiversity. For example, states like Punjab and Haryana show increase due to agroforestry and plantations, but natural forest quality may decline. Conversely, states with high natural forest cover (like Mizoram) may show loss due to shifting cultivation. A student who agrees without nuance fails to distinguish between natural forest and tree cover, and ignores drivers like plantation drives vs. natural regeneration.",
+     "self_check": true
+    },
+    {
+     "q": "Design a choropleth map classification scheme (5 classes) for representing state-wise forest cover percentage in India. Justify your class intervals using the actual data range (from ~3% to ~80%).",
+     "a": "A good scheme: 0-10%, 10-20%, 20-40%, 40-60%, 60-80%. Justification: The data is skewed; many states cluster in low percentages (Rajasthan, Gujarat, Punjab, Haryana <10%), a large group in 10-40% (Madhya Pradesh, Chhattisgarh, Odisha, etc.), and few in high percentages (Northeast states >60%). Equal intervals would leave many classes empty. A poor scheme uses equal intervals (e.g., 0-16, 16-32,...) which fails to show the concentration of states in the lower range.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

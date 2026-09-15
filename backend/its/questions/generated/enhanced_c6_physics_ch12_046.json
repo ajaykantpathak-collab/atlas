@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch12_046",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch12_046",
+   "title": "c6_physics_ch12_046",
+   "questions": [
+    {
+     "q": "How long does it take for the Earth to complete one full revolution around the Sun?",
+     "a": "It takes approximately 365.25 days. A student answering \"365 days\" shows a common misunderstanding that ignores the extra quarter day that necessitates our leap year system.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we add February 29th to our calendar every four years?",
+     "a": "We add it to account for the four accumulated 0.25-day fractions from the previous four years. Answering \"to make the month longer\" or \"because of the moon\" shows a failure to link the orbital period to calendar maintenance.",
+     "self_check": true
+    },
+    {
+     "q": "If the Earth's orbit were a perfect circle, would we still need a leap year?",
+     "a": "Yes, because the need for a leap year depends on the time taken for one revolution (365.25 days), not the shape of the orbit. A student saying \"no\" confuses orbital shape (ellipse vs. circle) with orbital period (time taken).",
+     "self_check": true
+    },
+    {
+     "q": "If a planet took exactly 365.0 days to revolve, would we still need leap years?",
+     "a": "No, we would not need leap years because the calendar would perfectly align with the planet's revolution every year. Answering \"yes\" indicates the student is memorizing the rule of leap years without understanding the cause (the fractional day).",
+     "self_check": true
+    },
+    {
+     "q": "Is it correct to say the Earth moves in a perfectly circular path around the Sun? Why?",
+     "a": "No, the path is an ellipse, which is a slightly oval shape. Saying \"yes\" reveals a failure to distinguish between a geometric circle and the actual elliptical path of planetary motion.",
+     "self_check": true
+    },
+    {
+     "q": "Imagine a new planet, \"Planet X,\" that takes 365.5 days to orbit its star. How would you adjust a calendar to keep it accurate over time?",
+     "a": "You would need to add an extra day every two years (since 0.5 + 0.5 = 1 day). An answer that fails to recognize the accumulation of the fractional day shows a lack of logical synthesis of the concept.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

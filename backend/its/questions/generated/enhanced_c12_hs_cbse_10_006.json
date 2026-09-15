@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_10_006",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_10_006",
+   "title": "c12_hs_cbse_10_006",
+   "questions": [
+    {
+     "q": "A pregnant woman in her 2nd trimester has a pre-pregnancy body weight of 55 kg and sedentary activity level. What is her total daily energy requirement (kcal) according to ICMR 2020 RDA?",
+     "a": "Correct answer: 2250 kcal. Calculation: Pre-pregnancy RDA for 55 kg sedentary woman = 1900 kcal (ICMR 2020 Table). 2nd trimester increment = +350 kcal. Total = 1900 + 350 = 2250 kcal. A wrong answer of 1900 kcal reveals the student forgot to add the pregnancy increment. A wrong answer of 2600 kcal reveals confusion with 3rd trimester (+350 kcal same, but some students incorrectly add lactation increment). A wrong answer of 2100 kcal suggests using outdated ICMR 2010 values (+200 kcal).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why ICMR recommends an additional 35 mg/day of iron during the 2nd and 3rd trimesters of pregnancy, but only 30 mg/day during lactation (0-6 months), despite lactation having higher energy demand.",
+     "a": "Correct explanation: During pregnancy, iron is needed for (1) expansion of maternal red cell mass (~450 mg), (2) fetal and placental accumulation (~300 mg), and (3) obligatory losses — total ~1000 mg over pregnancy, requiring ~35 mg/day absorbed iron. Since absorption from diet is ~10%, dietary requirement is high. During lactation, iron is secreted in milk (~0.3 mg/day) but maternal menstrual losses are absent (amenorrhea), so net requirement is lower (30 mg/day). A wrong answer citing \"baby takes iron from mother\" shows misunderstanding of active placental transport vs. passive milk secretion. A wrong answer citing \"menstruation stops in pregnancy too\" ignores that pregnancy has additional fetal/placental demands.",
+     "self_check": true
+    },
+    {
+     "q": "A lactating mother (0-4 months postpartum) consumes a diet providing 60 g protein/day. Her pre-pregnancy weight was 50 kg (sedentary). Using ICMR 2020, calculate her protein deficit/surplus and suggest two specific food exchanges to close the gap without exceeding energy allowance.",
+     "a": "Correct answer: Deficit = 9 g/day. Steps: (1) Pre-pregnancy protein RDA for 50 kg sedentary = 0.83 g/kg × 50 = 41.5 g ≈ 42 g. (2) Lactation 0-6 months increment = +19 g. (3) Total RDA = 42 + 19 = 61 g. (4) Current intake = 60 g → deficit = 1 g (rounding) or 9 g if using 0.83×50=41.5+19=60.5. (5) Exchange 1: Replace 30 g rice (2 g protein) with 30 g roasted chana (6 g protein) → +4 g protein, +20 kcal. (6) Exchange 2: Add 100 ml toned milk (3.3 g protein) replacing 1 tsp sugar (20 kcal) → +3.3 g protein, similar energy. Total gain ≈ 7.3 g, closing gap. Wrong answer using 1 g/kg (outdated) gives 50+19=69 g → deficit 9 g, but exchanges would differ. Wrong answer ignoring energy constraint suggests adding 2 eggs (+12 g protein, +150 kcal) causing energy excess.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the physiological rationale for ICMR's calcium recommendation during pregnancy (1200 mg/day) versus lactation (1200 mg/day) — same value, different mechanisms. Identify two dietary strategies that serve both periods but for different reasons.",
+     "a": "Correct analysis: Pregnancy: calcium for fetal skeletal mineralization (~30 g transferred, mostly 3rd trimester) + maternal bone preservation. Lactation: calcium for milk secretion (~210 mg/day) + maternal bone resorption (transient 3-5% BMD loss) driven by PTHrP. Both need 1200 mg/day. Strategy 1: Include 500 ml milk/curd daily — pregnancy: ensures fetal supply; lactation: replaces secreted calcium. Strategy 2: Ragi (finger millet) 50 g/day — pregnancy: high calcium (344 mg/100g) + iron; lactation: galactagogue property + calcium. Wrong answer saying \"baby takes calcium from mother's bones in both\" oversimplifies — pregnancy uses dietary absorption upregulation (1,25-OH vit D), lactation uses bone resorption. Wrong answer suggesting supplements only ignores food synergy (vit D, protein).",
+     "self_check": true
+    },
+    {
+     "q": "Critique this 2nd trimester meal plan for a 60 kg sedentary woman: Breakfast — 2 aloo paratha + 100 ml tea with sugar; Mid-morning — 1 banana; Lunch — 150 g rice + 30 g dal + 50 g potato bhaji + 100 g curd; Evening — 2 biscuits + tea; Dinner — 3 roti + 50 g paneer matar + salad. Identify three specific nutrient gaps relative to ICMR 2020 RDA and one food safety risk.",
+     "a": "Correct critique: (1) Iron gap: ~15 mg provided (dal, paneer, potato) vs 35 mg RDA — no heme iron, no vitamin C enhancers with meals. (2) Folate gap: ~200 µg vs 500 µg increment — no green leafy vegetables, no citrus. (3) Fiber gap: ~12 g vs 25 g — refined wheat, peeled potato, no whole grains. (4) Food safety risk: Raw salad in pregnancy without verified washing — listeria/toxoplasma risk. Wrong critique citing \"low protein\" (actual ~65 g vs 60+23=83 g RDA — gap exists but not the worst). Wrong critique citing \"low calcium\" (curd + paneer ≈ 600 mg, plus increments from other foods — closer to 1200 mg). Wrong critique missing the raw salad risk shows lack of food safety awareness.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-day menu for a lactating mother (2 months postpartum, 55 kg, moderate activity) that meets ICMR 2020 RDAs for energy, protein, iron, calcium, and includes at least two traditional galactagogues. Provide gram quantities and verify totals for each nutrient.",
+     "a": "Expected answer criteria: (1) Energy: ~2580 kcal (2130 + 600 + 150 for moderate activity). (2) Protein: ~78 g (55×0.83=46 + 19 + 13 for activity). (3) Iron: 30 mg. (4) Calcium: 1200 mg. (5) Menu includes 6-7 meals, uses exchange lists, specifies gram weights. (6) Galactagogues: e.g., methi seeds (fenugreek) in dal, garden cress seeds (halim) in laddoo, shatavari powder in milk, garlic in cooking. (7) Verification table showing each meal's contribution. Poor answer: uses cups/bowls not grams; omits verification; includes only one galactagogue; exceeds energy by >15%; misses iron enhancers; no snack for night feeding hunger.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

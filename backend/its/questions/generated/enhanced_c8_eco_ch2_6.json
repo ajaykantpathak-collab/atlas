@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch2_6",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch2_6",
+   "title": "c8_eco_ch2_6",
+   "questions": [
+    {
+     "q": "What is the mathematical formula used to calculate the Crude Birth Rate (CBR) of a region?",
+     "a": "The Crude Birth Rate is calculated as: $\\text{CBR} = \\left(\\frac{\\text{Total Live Births in a Year}}{\\text{Total Mid-Year Population}}\\right) \\times 1,000$. A wrong answer indicates the student may confuse birth rate with total absolute births or forget to standardize the figure per 1,000 people.",
+     "self_check": true
+    },
+    {
+     "q": "If a district experiences a significant drop in its death rate due to better medical infrastructure while its birth rate stays constant and high, what happens to its natural population change? Explain why.",
+     "a": "The natural population growth rate will increase because Natural Growth Rate = Birth Rate - Death Rate; widening the gap between births and deaths adds more people to the population each year. A wrong answer shows a common misconception that population growth depends only on birth rates, ignoring the critical role of mortality reduction.",
+     "self_check": true
+    },
+    {
+     "q": "A town has a total population of 250,000. In one year, 4,500 live births and 2,000 deaths are recorded. Calculate the Crude Birth Rate, Crude Death Rate, and Natural Population Growth Rate per 1,000 people.",
+     "a": "$\\text{CBR} = (4,500 / 250,000) \\times 1,000 = 18$ per 1,000. $\\text{CDR} = (2,000 / 250,000) \\times 1,000 = 8$ per 1,000. $\\text{Natural Growth Rate} = 18 - 8 = 10$ per 1,000 (or 1.0%). A wrong answer indicates multi-step arithmetic errors, incorrect population substitution, or failure to standardize per 1,000.",
+     "self_check": true
+    },
+    {
+     "q": "Two regions, Region A and Region B, both add 5,000 people in a year through natural growth. Region A has a population of 100,000, while Region B has a population of 500,000. Compare their natural growth rates and analyze what this means for local government service planning.",
+     "a": "Region A has a natural growth rate of $(5,000 / 100,000) \\times 1,000 = 50$ per 1,000 (5%), whereas Region B has a growth rate of $(5,000 / 500,000) \\times 1,000 = 10$ per 1,000 (1%). Region A is growing five times faster relative to its population size, placing significantly higher immediate pressure on its existing public infrastructure (schools, clinics). A wrong answer suggests the student focuses only on absolute numerical increases rather than standardized rates of growth.",
+     "self_check": true
+    },
+    {
+     "q": "A municipal policymaker argues: \"To stop rapid population growth, our district should reduce spending on public hospitals so that the death rate rises to equal the birth rate.\" Evaluate this proposal from an economic and human development perspective.",
+     "a": "This proposal is ethically wrong and economically damaging; lowering medical spending destroys human capital, reduces worker productivity, and lowers living standards. Sustainable demographic stabilization should be achieved by reducing high birth rates through female literacy, healthcare access, and family welfare awareness, not by intentionally raising death rates. A wrong answer shows a failure to consider human capital efficiency and welfare economics.",
+     "self_check": true
+    },
+    {
+     "q": "Propose a 3-step district action plan for a rural region with a high Crude Birth Rate (32 per 1,000) and a falling Crude Death Rate (7 per 1,000) to help stabilize population growth while improving public well-being.",
+     "a": "A strong action plan includes: 1) Expanding female secondary education to raise marriage age and literacy levels; 2) Strengthening village primary health centers to deliver accessible reproductive health and maternal care counseling; 3) Running awareness programs on the economic benefits of smaller family sizes. A weak answer relies on coercive rules without addressing social and health infrastructure drivers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

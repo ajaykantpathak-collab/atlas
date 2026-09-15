@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_05_002",
+   "title": "c12_cs_cbse_05_002",
+   "questions": [
+    {
+     "q": "What is the primary purpose of the DDL command CREATE TABLE in SQL, and name two mandatory components required in its syntax?",
+     "a": "The primary purpose of CREATE TABLE is to define a new table structure in the database by specifying column names, data types, and constraints. Two mandatory components are: (1) at least one column definition (name and data type), and (2) the table name. A wrong answer (e.g., saying it inserts data or doesn't require data types) reveals confusion between DDL (structure) and DML (data manipulation), or ignorance of SQL's strict typing.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between ALTER TABLE ... ADD COLUMN and ALTER TABLE ... MODIFY COLUMN in MySQL. Provide a scenario where you would use each.",
+     "a": "ADD COLUMN creates a new column in an existing table (e.g., adding 'email' to a Students table), while MODIFY COLUMN changes the data type, size, or constraints of an *existing* column (e.g., changing 'phone' from VARCHAR(10) to VARCHAR(15)). A wrong answer that swaps them or says MODIFY adds a column shows misunderstanding of structural vs. definitional changes. Students often confuse MODIFY with CHANGE (which can also rename), but MODIFY only alters definition.",
+     "self_check": true
+    },
+    {
+     "q": "Write a MySQL statement to create a table named 'Employee' with columns: EmpID (integer, primary key), Name (variable character, max 50, not null), Salary (decimal with 10 digits and 2 decimal places), and HireDate (date). Then write a statement to add a new column 'Department' (VARCHAR(30)) to this table.",
+     "a": "CREATE TABLE Employee (EmpID INT PRIMARY KEY, Name VARCHAR(50) NOT NULL, Salary DECIMAL(10,2), HireDate DATE);\nALTER TABLE Employee ADD COLUMN Department VARCHAR(30);\nA wrong answer might forget NOT NULL constraint, use wrong data type (e.g., INT for Salary), or miss the semicolon. Forgetting PRIMARY KEY on EmpID reveals lack of constraint understanding. Using ADD instead of ADD COLUMN (though MySQL accepts both) shows syntax imprecision.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effects of DROP TABLE and DELETE FROM table_name on a table named 'TempData'. Which one removes the table structure? Which one can be rolled back if used inside a transaction?",
+     "a": "DROP TABLE TempData permanently removes the table structure, all data, indexes, triggers, and constraints — the table ceases to exist. DELETE FROM TempData removes only the *rows* (data) but keeps the table structure intact. DELETE can be rolled back if used within a transaction (START TRANSACTION ... ROLLBACK); DROP TABLE is a DDL command and causes an implicit commit in MySQL, so it cannot be rolled back. A wrong answer that says both remove structure or both are rollback-able reveals confusion between DDL (auto-commit) and DML (transactional) and between metadata vs. data deletion.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: ALTER TABLE Student DROP COLUMN RollNo; but gets an error: \"ERROR 1091 (42000): Can't DROP 'RollNo'; check that column/key exists\". The column RollNo exists and is a PRIMARY KEY. Why did the error occur, and how to fix it?",
+     "a": "The error occurs because MySQL does not allow dropping a column that is part of a PRIMARY KEY (or any index) directly. You must first drop the PRIMARY KEY constraint using ALTER TABLE Student DROP PRIMARY KEY; then drop the column. A wrong answer that says \"column doesn't exist\" or \"use DELETE\" shows ignorance of constraint dependency. This is a classic board exam trap: DDL operations on constrained columns require constraint removal first.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scenario where you would use CREATE TABLE, then ALTER TABLE twice (once to add a constraint, once to modify a column), and finally DROP TABLE. Write the sequence of four SQL statements for your scenario.",
+     "a": "Scenario: Create a 'Product' table, add a UNIQUE constraint on 'ProductCode', increase 'Price' precision, then drop the table.\n1. CREATE TABLE Product (PID INT, ProductCode VARCHAR(20), Price DECIMAL(8,2));\n2. ALTER TABLE Product ADD CONSTRAINT uc_code UNIQUE (ProductCode);\n3. ALTER TABLE Product MODIFY COLUMN Price DECIMAL(10,2);\n4. DROP TABLE Product;\nA poor answer might omit CONSTRAINT keyword, use wrong syntax for MODIFY, or forget that DROP TABLE removes everything. This tests synthesis of all three DDL commands with constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

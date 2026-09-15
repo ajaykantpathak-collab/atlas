@@ -1,0 +1,249 @@
+{
+ "class": 12,
+ "subject": "geography",
+ "chapter": 10,
+ "chapter_title": "मानव विकास",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/legy103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "legy.103.1",
+   "title": "Growth versus Development",
+   "section": "Growth and Development",
+   "definition": "Growth is a quantitative, directional change (for example a rise in real income), while development is qualitative, value-positive growth implying improvement in human life; development is a process and both need not move together.",
+   "formula": "",
+   "key_idea": "Mahbub-ul-Haq and Amartya Sen reframed development as enlarging people's choices, not merely raising income.",
+   "textbook_ref": "legy103.txt growth and development distinction and Haq-Sen references",
+   "question_patterns": [
+    "differentiate growth from development with examples",
+    "why can growth occur without development",
+    "who pioneered the human development approach",
+    "what does development as enlarging choices mean",
+    "define value-positive growth",
+    "how is development both a process and a goal"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "contrast the terms",
+     "explain": "growth counts more output; development asks who benefits and how life improves"
+    },
+    {
+     "step": 2,
+     "action": "cite the founders",
+     "explain": "Mahbub-ul-Haq with Amartya Sen launched the Human Development Reports"
+    },
+    {
+     "step": 3,
+     "action": "close with choices",
+     "explain": "enlarging choices in health, knowledge and resources defines development"
+    }
+   ]
+  },
+  {
+   "id": "legy.103.2",
+   "title": "Four Pillars of Human Development",
+   "section": "The Four Pillars of Human Development",
+   "definition": "Human development rests on four pillars: equity (equal access to opportunities), sustainability (continuity of opportunities for future generations), productivity (efficient use of resources, especially people) and empowerment (freedom and power to make choices).",
+   "formula": "",
+   "key_idea": "A development strategy missing any pillar fails: without equity the gains concentrate, without sustainability they expire.",
+   "textbook_ref": "legy103.txt equity-sustainability-productivity-empowerment section",
+   "question_patterns": [
+    "name and explain the four pillars of human development",
+    "how does equity differ from empowerment",
+    "what does sustainability demand of present generations",
+    "why is productivity called a people-centred pillar",
+    "give an example where equity is violated",
+    "link empowerment with political freedom"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recite the pillars",
+     "explain": "equity, sustainability, productivity and empowerment form the pillar set"
+    },
+    {
+     "step": 2,
+     "action": "pair pillars with failures",
+     "explain": "inequity blocks access; unsustainability cancels future options"
+    },
+    {
+     "step": 3,
+     "action": "close with agency",
+     "explain": "empowerment turns beneficiaries into decision-makers"
+    }
+   ]
+  },
+  {
+   "id": "legy.103.3",
+   "title": "Approaches to Human Development",
+   "section": "Approaches to Human Development",
+   "definition": "Four approaches explain or measure human development: the income approach (linking levels to income), the welfare approach (state responsibility for welfare), the basic needs approach (minimum needs of food, education, health) and the capability approach of Amartya Sen (building people's capabilities to choose).",
+   "formula": "",
+   "key_idea": "The capability approach is the accepted core: development means expanding what people can be and do, not merely what they consume.",
+   "textbook_ref": "legy103.txt income-welfare-basic needs-capability approaches section",
+   "question_patterns": [
+    "describe the four approaches to human development",
+    "what does the capability approach emphasise",
+    "how does the basic needs approach measure progress",
+    "criticise the income approach to development",
+    "which approach do Human Development Reports follow",
+    "relate welfare approach to state policy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the four",
+     "explain": "income, welfare, basic needs and capability are the chapter's approaches"
+    },
+    {
+     "step": 2,
+     "action": "identify the core",
+     "explain": "Sen's capability approach underlies the human development index tradition"
+    },
+    {
+     "step": 3,
+     "action": "close with shift",
+     "explain": "the shift is from means (income) to ends (chosen lives)"
+    }
+   ]
+  },
+  {
+   "id": "legy.103.4",
+   "title": "Measuring Human Development",
+   "section": "Measuring Human Development",
+   "definition": "The Human Development Index combines three equally weighted sub-indices - health (life expectancy), education (schooling) and access to resources (income) - so the HDI can be estimated as the average of the three index scores, with countries grouped into very high, high, medium and low development classes.",
+   "formula": "hdi_value = (health_index + education_index + income_index) / 3",
+   "key_idea": "Averaging the health, education and income sub-indices gives the HDI value on a 0 to 1 scale.",
+   "textbook_ref": "legy103.txt human development index dimensions and international comparisons",
+   "question_patterns": [
+    "list the three dimensions of the Human Development Index",
+    "compute an HDI estimate from three sub-index scores",
+    "name the scholars behind the HDI",
+    "how are countries grouped by HDI values",
+    "why is income converted to purchasing power parity",
+    "what does a low HDI value indicate"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the three sub-indices",
+     "explain": "health, education and income scores are summed",
+     "compute": "index_sum = health_index + education_index + income_index"
+    },
+    {
+     "step": 2,
+     "action": "average them",
+     "explain": "dividing by three yields the HDI estimate",
+     "compute": "hdi_value = (health_index + education_index + income_index) / 3"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_legy103_1",
+   "source_ref": "legy103.txt HDI dimensions",
+   "concept": "legy.103.4",
+   "question_type": "compute",
+   "question_pattern": "A country scores health_index 0.7, education_index 0.5 and income_index 0.6. Estimate its HDI.",
+   "extracted_variables": {
+    "health_index": 0.7,
+    "education_index": 0.5,
+    "income_index": 0.6
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the sub-indices",
+     "explain": "0.7 + 0.5 + 0.6",
+     "compute": "index_sum = health_index + education_index + income_index"
+    },
+    {
+     "step": 2,
+     "action": "divide by three",
+     "explain": "the average gives the HDI estimate",
+     "compute": "hdi_value = (health_index + education_index + income_index) / 3"
+    }
+   ]
+  },
+  {
+   "id": "we_legy103_2",
+   "source_ref": "legy103.txt pillars section",
+   "concept": "legy.103.2",
+   "question_type": "short_answer",
+   "question_pattern": "Match each pillar of human development to one policy example.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "equity",
+     "explain": "scholarships for first-generation learners widen access"
+    },
+    {
+     "step": 2,
+     "action": "sustainability",
+     "explain": "renewable energy keeps options open for the future"
+    },
+    {
+     "step": 3,
+     "action": "empowerment",
+     "explain": "local self-government transfers decision-making to people"
+    }
+   ]
+  },
+  {
+   "id": "we_legy103_3",
+   "source_ref": "legy103.txt capability approach",
+   "concept": "legy.103.3",
+   "question_type": "short_answer",
+   "question_pattern": "Why is the capability approach preferred over the income approach?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "income as means",
+     "explain": "income matters only through what it enables people to do"
+    },
+    {
+     "step": 2,
+     "action": "capabilities as ends",
+     "explain": "health, knowledge and voice are valued directly as chosen lives"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "the capability approach captures freedom, which income alone misses"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_legy103_1",
+   "source_ref": "legy103.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "distinguish growth and development with examples",
+    "explain the four pillars of human development",
+    "compute an HDI estimate from three given sub-indices",
+    "describe the four approaches to human development",
+    "why do Human Development Reports rank countries"
+   ]
+  },
+  {
+   "id": "ex_legy103_2",
+   "source_ref": "legy103.txt applied questions, reworded",
+   "questions": [
+    "relate the capability approach to schooling policy",
+    "argue whether high growth guarantees development",
+    "explain sustainability with a resource example",
+    "compare basic needs and welfare approaches",
+    "identify the HDI class of a country with given sub-indices"
+   ]
+  }
+ ]
+}

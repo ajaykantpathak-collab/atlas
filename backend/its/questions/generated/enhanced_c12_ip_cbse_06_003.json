@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_06_003",
+   "title": "c12_ip_cbse_06_003",
+   "questions": [
+    {
+     "q": "What is the correct HTML to create a link that opens `https://www.example.com` in a new browser tab while preventing the new page from accessing the originating page's `window.opener` property?",
+     "a": "`<a href=\"https://www.example.com\" target=\"_blank\" rel=\"noopener noreferrer\">Example</a>`  \nA wrong answer like omitting `rel` or using `target=\"new\"` reveals the student doesn't know the security risk of `target=\"_blank\"` (the new page can redirect the original page via `window.opener.location = '...'`) or confuses the `target` keyword `_blank` with a custom window name.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `<a href=\"contact.html\" target=\"_self\">Contact</a>` on `index.html` in the root folder. The site structure is:\n```\nroot/\n  index.html\n  pages/\n    contact.html\n```\nWhy does the link fail, and how should `href` be corrected?",
+     "a": "The link fails because `contact.html` is inside the `pages` subfolder, not the root. The correct `href` is `pages/contact.html` (relative path from current file). A wrong answer like `../contact.html` or `/contact.html` reveals confusion about relative path resolution: `../` goes up one level (not needed here), and `/` starts from the domain root (would look for `contact.html` at the site root, not inside `pages`).",
+     "self_check": true
+    },
+    {
+     "q": "Write the HTML for a \"Back to Top\" link that jumps to an `<header id=\"top\">` on the same page. Then explain why adding `target=\"_blank\"` to this link would be incorrect.",
+     "a": "`<a href=\"#top\">Back to Top</a>`  \nAdding `target=\"_blank\"` would open the *same page* in a new tab scrolled to `#top`, instead of smoothly scrolling the current page. This reveals the student treats `target` as decorative rather than understanding it changes the browsing context — fragment identifiers (`#id`) only work within the same document context.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two links:\n```html\n<a href=\"https://site.org/page?query=1#section\" target=\"_blank\">Link A</a>\n<a href=\"/page?query=1#section\" target=\"_self\">Link B</a>\n```\nIf both are on `https://site.org/home`, analyze where each link navigates and in which browsing context. Identify any security difference.",
+     "a": "Link A: Opens `https://site.org/page?query=1#section` in a **new tab** (due to `_blank`). Without `rel=\"noopener noreferrer\"`, the new page can access `window.opener`.  \nLink B: Opens `https://site.org/page?query=1#section` in the **same tab** (due to `_self`). The leading `/` makes it root-relative (resolved from domain root).  \nSecurity difference: Link A is vulnerable to reverse-tabnabbing if `rel` is missing; Link B is not. A student who says both open in new tabs or thinks `/page` is relative to `/home` reveals misunderstanding of absolute vs root-relative URLs and `target` behavior.",
+     "self_check": true
+    },
+    {
+     "q": "A developer argues: \"Using `target=\"_blank\"` on all external links improves UX because users don't lose the original site.\" Evaluate this claim considering security, accessibility, and user control. Provide a balanced recommendation.",
+     "a": "The claim is partially valid but dangerous without mitigation.  \nSecurity: `target=\"_blank\"` without `rel=\"noopener noreferrer\"` allows the external site to redirect the original page (tabnabbing).  \nAccessibility: Screen readers may not announce new tabs; users with cognitive disabilities can be disoriented.  \nUser control: Modern browsers let users choose (right-click → \"Open in new tab\"); forcing it removes agency.  \nRecommendation: Use `target=\"_blank\" rel=\"noopener noreferrer\"` **only** for links where context loss is high risk (e.g., interrupting a form), and add an icon/aria-label indicating \"opens in new tab\". A student who agrees unconditionally misses security/accessibility; one who rejects entirely misses legitimate UX cases.",
+     "self_check": true
+    },
+    {
+     "q": "Design a navigation menu for a portfolio site with these requirements:  \n- \"Home\" links to `index.html` (root)  \n- \"Projects\" links to `projects/index.html` (subfolder)  \n- \"Contact\" opens `mailto:me@example.com`  \n- \"Resume\" opens `assets/resume.pdf` in a new tab  \n- \"Top\" jumps to `<main id=\"top\">`  \nWrite the complete `<nav>` HTML with semantic structure. Justify each `href` and `target` choice.",
+     "a": "```html\n<nav>\n  <ul>\n    <li><a href=\"index.html\">Home</a></li>\n    <li><a href=\"projects/index.html\">Projects</a></li>\n    <li><a href=\"mailto:me@example.com\">Contact</a></li>\n    <li><a href=\"assets/resume.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Resume</a></li>\n    <li><a href=\"#top\">Top</a></li>\n  </ul>\n</nav>\n```\nJustification:  \n- `index.html` and `projects/index.html` are relative paths from current file (assumed in root).  \n- `mailto:` launches default email client.  \n- PDF in new tab (`_blank`) lets user keep portfolio open; `rel` prevents tabnabbing.  \n- `#top` is a fragment identifier for in-page scroll.  \nA poor answer uses absolute URLs for internal links, omits `rel` on PDF, or uses `target=\"_self\"` on the fragment link (harmless but redundant).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

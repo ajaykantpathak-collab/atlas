@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_08_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_08_012",
+   "title": "c11_eng_h_cbse_08_012",
+   "questions": [
+    {
+     "q": "What is the primary difference between a literal comprehension question and an inferential comprehension question in the context of Class 11 Board exams?",
+     "a": "A literal question asks for information explicitly stated in the text (e.g., 'At what altitude is Darchen situated?'). An inferential question asks for a conclusion drawn from textual evidence but not directly stated (e.g., 'Why does the narrator feel relieved upon reaching Darchen?'). A wrong answer that defines both as 'questions based on the text' reveals the student cannot distinguish retrieval from reasoning, leading to overly vague or unsupported answers in exams.",
+     "self_check": true
+    },
+    {
+     "q": "In *Silk Road*, the narrator mentions his headache disappears after taking the Tibetan medicine. A student answers an inferential question 'Why does the narrator trust the Tibetan doctor?' with: 'Because the medicine cured his headache.' Why is this answer insufficient for an inferential question at the senior secondary level?",
+     "a": "The answer states a literal outcome (medicine worked) but misses the *inferential chain*: the narrator's prior skepticism towards local remedies (shown earlier), the cultural significance of the doctor's diagnosis (wind/'cold' entering body), and the narrator's desperation due to altitude sickness. A wrong answer here reveals the student treats inference as 'what happened next' rather than 'what underlying factors explain the character's decision'.",
+     "self_check": true
+    },
+    {
+     "q": "Read this excerpt from *Silk Road* (paraphrased): *'The road was rough and bumpy... I felt the blood rushing to my head.'* An exam question asks: *'What does the phrase 'blood rushing to my head' suggest about the narrator's physical condition?'* Write a 3-step inferential answer using the PEEL structure (Point, Evidence, Explanation, Link).",
+     "a": "**Point:** The phrase suggests acute altitude sickness (acute mountain sickness). **Evidence:** The narrator links it to the 'rough and bumpy' road and high altitude context established earlier. **Explanation:** 'Blood rushing to the head' is a physiological symptom of hypoxia (low oxygen) exacerbated by physical jolting; it is not merely a metaphor for anger. **Link:** This establishes the body's struggle against the environment, a central tension in the travelogue. A wrong answer quoting only 'headache' or 'dizziness' without connecting to altitude physiology shows inability to apply external knowledge to textual clues.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the narrator's description of the landscape at Hor ('grim, miserable place... no vegetation') with his description of Lake Manasarovar ('sacred... perfectly still... reflection of the mountains'). Analyze how the *shift in descriptive language* reflects the narrator's internal journey. Provide two specific linguistic contrasts.",
+     "a": "Contrast 1: Hor uses negative, lifeless lexis ('grim', 'miserable', 'dust', 'refuse') reflecting physical suffering and spiritual emptiness. Manasarovar uses positive, spiritual lexis ('sacred', 'holy', 'perfectly still', 'reflection') reflecting transcendence. Contrast 2: Hor descriptions are sensory and harsh (wind, cold, dirt); Manasarovar descriptions are visual and mirror-like ('reflection', 'stillness'), suggesting inner clarity. A wrong answer listing only 'one is bad, one is good' fails to analyze *language choices* (lexis, imagery, tone) as evidence of internal shift.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: *\"The narrator's encounter with Norbu at the cafe is just a coincidence; it doesn't affect the main journey to Mount Kailash.\"* Defend or refute using three textual arguments.",
+     "a": "Refute. Argument 1: Norbu provides the *only* viable plan to do the kora (circumambulation) together, changing the journey from solitary struggle to shared pilgrimage. Argument 2: Norbu's academic background (writing a paper on Kailash) contrasts with the narrator's experiential approach, highlighting the theme of *knowledge vs. experience*. Argument 3: Norbu's physical unfitness ('very fat') and the narrator's altitude sickness create a parallel vulnerability, deepening the theme of human limitation before nature. A wrong answer agreeing with the claim misses the structural role of Norbu as a foil and catalyst for the kora.",
+     "self_check": true
+    },
+    {
+     "q": "Create an inferential question for *Silk Road* that requires synthesizing details from *three different locations* (e.g., Ravu, Hor, Darchen, Manasarovar) to explain the narrator's evolving attitude toward the pilgrimage. Write the question and a model answer outline.",
+     "a": "**Question:** *Trace the narrator's shifting motivation for the journey from the departure at Ravu to the arrival at Lake Manasarovar, using specific details from Ravu, Hor, and Darchen.* **Model Outline:** (1) Ravu: Motivation = academic curiosity/adventure ('I was told the kora...'), evidenced by Lhamo's gift of long-sleeved sheepskin coat. (2) Hor: Motivation shifts to *endurance/survival* due to physical collapse (headache, cold, bad tea), evidenced by 'low point' description. (3) Darchen/Manasarovar: Motivation becomes *spiritual/communal* upon meeting Norbu and seeing the lake, evidenced by decision to do kora together and 'peace' at the lake. A poor answer lists events chronologically without linking them to a *changing internal state*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,165 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 109,
+ "chapter_title": "Biomolecules: Chemical Composition of Living Tissues",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebo109.txt",
+ "concepts": [
+  {
+   "id": "kebo.109.1.1",
+   "title": "How to Analyse Chemical Composition of Biomolecules",
+   "section": "9.1 How to analyse chemical composition",
+   "definition": "Chemical analysis of living tissue involves grinding it in trichloroacetic acid, separating the acid-soluble pool of small molecules from the acid-insoluble fraction of macromolecules, and then identifying the compounds by ash analysis and chromatography techniques.",
+   "formula": "",
+   "key_idea": "The acid-soluble pool holds amino acids, sugars and nucleotides, while the insoluble fraction holds proteins, nucleic acids, polysaccharides and lipids, giving the elemental analysis of living tissue.",
+   "textbook_ref": "kebo109.txt section 9.1",
+   "question_patterns": [
+    "how is the chemical composition of a tissue analysed",
+    "what is the acid soluble pool and what does it contain",
+    "distinguish the acid insoluble fraction from the soluble pool",
+    "which techniques identify the compounds separated from a tissue",
+    "why is trichloroacetic acid used in analysis",
+    "state the average elemental composition of living tissue"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "follow the extraction steps",
+     "explain": "Recall grinding, acid treatment and filtration of the tissue."
+    },
+    {
+     "step": 2,
+     "action": "sort the fractions",
+     "explain": "Separate the soluble micromolecules from insoluble macromolecules."
+    },
+    {
+     "step": 3,
+     "action": "identify the compounds",
+     "explain": "Use chromatography and elemental analysis for identification."
+    }
+   ]
+  },
+  {
+   "id": "kebo.109.2.1",
+   "title": "Proteins, Carbohydrates, Lipids and Nucleic Acids",
+   "section": "9.2 Proteins, 9.3 Polysaccharides, 9.4 Nucleic Acids, 9.5 Structure of Proteins",
+   "definition": "Biomolecules include carbohydrates as monosaccharides and polysaccharides such as starch, cellulose and glycogen, lipids as fats and phospholipids, proteins as polymers of twenty amino acids showing primary to quaternary structure, and nucleic acids as deoxyribonucleic acid and ribonucleic acid built of nucleotides.",
+   "formula": "",
+   "key_idea": "Amino acids are linked by peptide bonds, sugars by glycosidic bonds, fatty acids to glycerol by ester bonds, and nucleotides by phosphodiester bonds, forming the giant molecules of life.",
+   "textbook_ref": "kebo109.txt sections 9.2-9.5, 9.7",
+   "question_patterns": [
+    "classify biomolecules into carbohydrates proteins lipids and nucleic acids",
+    "describe the primary secondary tertiary and quaternary structure of proteins",
+    "what are zwitter ions in amino acids",
+    "differentiate DNA and RNA as nucleic acids",
+    "name the bonds joining monomers in each biomolecule",
+    "explain the structure of starch cellulose and glycogen"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the monomer",
+     "explain": "Note whether the molecule is built of sugars, amino acids, nucleotides or fatty acids."
+    },
+    {
+     "step": 2,
+     "action": "check the linkage",
+     "explain": "Match the bond type to the biomolecule class."
+    },
+    {
+     "step": 3,
+     "action": "state the function",
+     "explain": "Assign storage, structural, enzymatic or hereditary role."
+    }
+   ]
+  },
+  {
+   "id": "kebo.109.3.1",
+   "title": "Enzymes: Nature, Classes and Factors Affecting Activity",
+   "section": "9.12 Enzymes",
+   "definition": "Enzymes are proteinaceous biocatalysts that lower activation energy and act on a substrate through an active site; they are classified into six classes of oxidoreductases, transferases, hydrolases, lyases, isomerases and ligases, and their activity depends on temperature, pH and substrate concentration, and is checked by competitive inhibition.",
+   "formula": "",
+   "key_idea": "At optimum temperature and pH the enzyme velocity rises with substrate concentration until all active sites are occupied, and a competitive inhibitor mimics the substrate at the active site.",
+   "textbook_ref": "kebo109.txt section 9.12",
+   "question_patterns": [
+    "define enzymes and explain how they lower activation energy",
+    "name the six classes of enzymes with examples",
+    "how do temperature and ph affect enzyme activity",
+    "what is competitive inhibition of an enzyme",
+    "explain the role of the active site and substrate in catalysis",
+    "what are coenzymes and prosthetic groups"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the enzyme class",
+     "explain": "Read the reaction type to place the enzyme in one of the six classes."
+    },
+    {
+     "step": 2,
+     "action": "check the conditions",
+     "explain": "Note the temperature, pH and substrate concentration of the reaction."
+    },
+    {
+     "step": 3,
+     "action": "judge the effect",
+     "explain": "Predict whether activity rises, falls or is inhibited."
+    }
+   ]
+  },
+  {
+   "id": "kebo.109.4.1",
+   "title": "Metabolism and the Living State of Cells",
+   "section": "9.10 Metabolic Basis of Living",
+   "definition": "Metabolism is the sum of all chemical reactions in the living cell, made of anabolic pathways that build complex molecules from simpler ones with energy consumption and catabolic pathways that break down molecules releasing energy, with ATP as the energy currency.",
+   "formula": "",
+   "key_idea": "The living state is a non-equilibrium steady state that continuously exchanges energy and matter, and metabolism provides the flow of energy through anabolic and catabolic reactions.",
+   "textbook_ref": "kebo109.txt sections 9.10, 9.11",
+   "question_patterns": [
+    "define metabolism and its two phases",
+    "differentiate anabolic and catabolic pathways with examples",
+    "why is ATP called the energy currency of the cell",
+    "what is meant by the living state being a non-equilibrium steady state",
+    "give examples of metabolic reactions in the cell",
+    "how do catabolic reactions release energy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sort the reactions",
+     "explain": "Place each reaction in anabolism or catabolism."
+    },
+    {
+     "step": 2,
+     "action": "follow the energy flow",
+     "explain": "Note whether energy is consumed or released as ATP."
+    },
+    {
+     "step": 3,
+     "action": "relate to the living state",
+     "explain": "Link the pathways to the steady non-equilibrium state of the cell."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kebo109.txt exercises section",
+   "questions": [
+    "What are macromolecules? Give examples.",
+    "Illustrate a glycosidic, peptide and a phospho-diester bond.",
+    "What is meant by tertiary structure of proteins?",
+    "Find and write down structures of four amino acids with acidic and basic groups.",
+    "Explain the composition of triglyceride.",
+    "Describe the important properties of enzymes.",
+    "Draw the structure of the amino acid alanine."
+   ]
+  }
+ ]
+}

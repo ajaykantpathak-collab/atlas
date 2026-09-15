@@ -1,0 +1,462 @@
+{
+  "class": 12,
+  "subject": "accountancy",
+  "chapter": 1,
+  "chapter_title": "Overview of Computerised Accounting System",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leca101.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "provenance": "drafter draft; gate-validated; review pending",
+  "concepts": [
+    {
+      "id": "leca101.1",
+      "title": "Components of Computerised Accounting System",
+      "section": "1.1 Computerised Accounting System",
+      "definition": "A CAS rests on five pillars: a procedure (the logical order of steps that completes a task), data (the raw facts fed in for a business use), people (the users), hardware (the computer, its peripherals and network) and software (system plus application programs). Processing accounting transactions through this hardware-software pair yields the accounting records and reports: day books and journals, ledger, trial balance, position statement and the statement of profit and loss.",
+      "formula": "cas_components = procedure plus data plus people plus hardware plus software",
+      "key_idea": "Hardware and software alone are not enough -- procedure, data and people complete the system.",
+      "textbook_ref": "leca101.txt, section 1.1 (approx lines 24-72)",
+      "question_patterns": [
+        "name the five components of a computerised accounting system",
+        "which reports does a computerised accounting system generate from transaction inputs",
+        "define procedure and data as components of CAS",
+        "how does application software differ from system software in a CAS",
+        "why are people counted among the components of a computerised accounting system"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "list the five components",
+          "explain": "procedure, data, people, hardware and software are the five pillars of CAS"
+        },
+        {
+          "step": 2,
+          "action": "trace the output chain",
+          "explain": "transactions enter as inputs, accounting software processes them, and journals, ledger, trial balance, balance sheet and profit-loss statement come out"
+        }
+      ]
+    },
+    {
+      "id": "leca101.2",
+      "title": "Data Items and the Data-to-Information Conversion",
+      "section": "1.1 Data and Information",
+      "definition": "A data item is the smallest named unit of data in an information system. One accounting transaction carries four such elements: the account name, its accounting code, the transaction date and the amount. Processing turns data into information -- for instance, days worked and rate per day are raw data that multiply into the amount to pay, and the same information can itself serve as data at a higher level for a decision maker.",
+      "formula": "pay_amount = days_worked * rate_per_day",
+      "key_idea": "Raw data elements gain meaning only after processing -- days worked times rate per day becomes the payable amount.",
+      "textbook_ref": "leca101.txt, Data and Information with Figure 1.3 (approx lines 85-98)",
+      "question_patterns": [
+        "an employee works 24 days at a rate of Rs 450 per day; compute the amount to pay",
+        "convert the data items days worked and rate per day into the payable amount",
+        "a worker attends 26 days at Rs 525 per day; what amount should the payroll record",
+        "list the four data elements contained in one accounting transaction",
+        "how does processed data become information for a decision maker"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "multiply days by rate",
+          "explain": "processing the two data items together converts them into the information the business needs -- the amount to pay",
+          "compute": "pay_amount = days_worked * rate_per_day"
+        }
+      ]
+    },
+    {
+      "id": "leca101.3",
+      "title": "The Accounting Cycle Phases",
+      "section": "1.2 Components of CAS: accounting cycle",
+      "definition": "The accounting cycle is the sequence of identifying, measuring and communicating financial information: transactions are analysed, journalised, posted to ledger accounts, and a trial balance is drawn; accounts are then reviewed, adjustments are posted to produce an adjusted trial balance, and finally the balance sheet and profit-loss account emerge from the adjusted ledger.",
+      "formula": "cycle_order = analyse plus journalise plus post plus trial_balance plus adjust plus final_statements",
+      "key_idea": "From analysing a transaction to the final statements, each phase feeds the next in a fixed order.",
+      "textbook_ref": "leca101.txt, accounting cycle phases (approx lines 120-136)",
+      "question_patterns": [
+        "what are the phases in an accounting cycle",
+        "state the steps between recording a journal entry and preparing the balance sheet",
+        "why is an adjusted trial balance prepared before the final statements",
+        "where are journal entries posted in the accounting cycle",
+        "which phase of the accounting cycle precedes the trial balance"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "order the early phases",
+          "explain": "analyse transactions, record in journal, post to ledger, prepare trial balance"
+        },
+        {
+          "step": 2,
+          "action": "order the closing phases",
+          "explain": "review accounts, post adjustments, prepare adjusted trial balance, then the balance sheet and profit-loss account"
+        }
+      ]
+    },
+    {
+      "id": "leca101.4",
+      "title": "Salient Features of CAS Software",
+      "section": "1.3 Salient Features of CAS",
+      "definition": "Good CAS software shows five features: it is simple and integrated, automating sales, finance, purchase, inventory and manufacturing on one platform; transparent and controlled, widening access to day-to-day operational information; accurate and fast, using user-definable entry templates; scalable, handling growing data volumes as the business grows; and reliable, keeping critical financial output accurate, controlled and secured.",
+      "formula": "cas_features = integration plus transparency plus accuracy_speed plus scalability plus reliability",
+      "key_idea": "Integrated, transparent, fast, scalable and reliable -- five tests any accounting software must pass.",
+      "textbook_ref": "leca101.txt, section 1.3 (approx lines 142-168)",
+      "question_patterns": [
+        "what are the salient features of computerised accounting software",
+        "how does scalability of CAS help a growing business",
+        "why is integration of business operations valued in CAS",
+        "how do user-definable templates improve accuracy and speed of data entry",
+        "what does reliability of a CAS ensure for financial information"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "list the features",
+          "explain": "simple and integrated, transparency and control, accuracy and speed, scalability, reliability"
+        },
+        {
+          "step": 2,
+          "action": "link each to its benefit",
+          "explain": "integration unifies operations, transparency widens access, templates speed entry, scalability tracks business size, reliability secures output"
+        }
+      ]
+    },
+    {
+      "id": "leca101.5",
+      "title": "Accounting Equation and Grouping of Accounts",
+      "section": "1.4 Grouping of Accounts: accounting equation",
+      "definition": "Double-entry accounting rests on the equality of assets and equities, written as A = E where E = L + C, so Assets = Liabilities + Capital. Because owner claims shift with profit or loss, the expanded form reads Assets = Liabilities + Capital + (Revenues - Expenses). Each side then breaks into groups: equity and liabilities (shareholder funds, non-current and current liabilities), assets (non-current and current), revenues (sales and other income) and expenses (material, salary, depreciation, interest and allied heads).",
+      "formula": "capital_after_results = capital_open + revenues - expenses",
+      "key_idea": "Assets always equal liabilities plus capital, with capital swelled or shrunk by revenues less expenses.",
+      "textbook_ref": "leca101.txt, Accounting Equation and group lists (approx lines 175-257)",
+      "question_patterns": [
+        "a firm shows liabilities of Rs 500000, opening capital Rs 300000, revenues Rs 150000 and expenses Rs 90000; find its total assets",
+        "state the accounting equation and its expanded form including revenues and expenses",
+        "compute the closing capital when opening capital is Rs 200000, revenues are Rs 80000 and expenses are Rs 65000",
+        "find the asset total of a firm whose liabilities are Rs 750000 and capital after results is Rs 450000",
+        "under which groups are trade payables and trade receivables classified in the expanded equation"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "carry results into capital",
+          "explain": "owner claims change with success or failure, so revenues raise and expenses lower the capital",
+          "compute": "capital_after_results = capital_open + revenues - expenses"
+        },
+        {
+          "step": 2,
+          "action": "balance assets against equities",
+          "explain": "the double-entry equality sets total assets equal to liabilities plus the result-carrying capital",
+          "compute": "assets_total = liabilities + capital_after_results"
+        }
+      ]
+    },
+    {
+      "id": "leca101.6",
+      "title": "Methods of Codification: Sequential, Block and Mnemonic",
+      "section": "1.4.1 Codification of Accounts",
+      "definition": "A code is a system of letters or figures with an agreed meaning, used for brevity and machine processing. Sequential codes run in consecutive order and suit source documents such as cheques and invoices, making missing numbers easy to spot. Block codes partition a number range into sub-ranges, each reserved for one group of items. Mnemonic codes use alphabetic abbreviations as symbols -- SJ for sales journal, DLH for Delhi -- so the code itself recalls the item.",
+      "formula": "code_types = sequential plus block plus mnemonic",
+      "key_idea": "Pick the code style by purpose: order for documents, ranges for groups, abbreviations for recall.",
+      "textbook_ref": "leca101.txt, sections 1.4.1.1-1.4.1.3 (approx lines 309-350)",
+      "question_patterns": [
+        "distinguish sequential, block and mnemonic codes with one example each",
+        "which codification method suits source documents like cheques and invoices and why",
+        "how does a block code assign sub-ranges to dealer types",
+        "what makes DLH for Delhi a mnemonic code",
+        "how do sequential codes help in tracing a missing document"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "define each method",
+          "explain": "sequential assigns consecutive numbers, block reserves number ranges for groups, mnemonic uses letter abbreviations"
+        },
+        {
+          "step": 2,
+          "action": "match method to use",
+          "explain": "invoices and cheques take sequential codes, dealer or item classes take blocks, stations and journals take mnemonic symbols"
+        }
+      ]
+    },
+    {
+      "id": "leca101.7",
+      "title": "Block Code Range Capacity",
+      "section": "1.4.1.2 Block Codes",
+      "definition": "A block code reserves a consecutive number band for one group -- for a trading firm, 100-199 might hold small pumps, 200-299 medium pumps, 300-399 pipes and 400-499 motors. The holding capacity of any band is found by counting every number from its start to its end, both inclusive.",
+      "formula": "block_size = block_end - block_start + 1",
+      "key_idea": "Codes in a block run from start to end inclusive, so capacity is end minus start plus one.",
+      "textbook_ref": "leca101.txt, block code dealer example (approx lines 325-344)",
+      "question_patterns": [
+        "a dealer block runs from 400 to 499; how many codes does the block hold",
+        "calculate the capacity of the code range 200 to 299 reserved for medium pumps",
+        "how many account codes fit in a block spanning 300 to 399",
+        "find the number of codes available when a block starts at 100 and ends at 199",
+        "compute the size of the sub-range allotted to pipes if it spans 300 to 349"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "count the band inclusively",
+          "explain": "subtracting the start from the end drops both ends, so one is added back to include them",
+          "compute": "block_size = block_end - block_start + 1"
+        }
+      ]
+    },
+    {
+      "id": "leca101.8",
+      "title": "Sequential Code Gap Detection",
+      "section": "1.4.1.1 Sequential Codes",
+      "definition": "Because sequential codes assign consecutive numbers to source documents, the assigned band length compared with the documents actually issued exposes gaps. Counting the numbers the band should hold and subtracting the documents on hand gives the count of missing codes -- the first step in tracing a lost cheque or invoice.",
+      "formula": "missing_count = (last_num - first_num + 1) - issued_count",
+      "key_idea": "Band length minus documents issued reveals how many sequential codes are missing.",
+      "textbook_ref": "leca101.txt, sequential codes and document search (approx lines 309-324)",
+      "question_patterns": [
+        "cheque numbers run from 101 to 150 but only 45 cheques were issued; how many are missing",
+        "invoices are numbered 1001 to 1050 and 47 were raised; find the count of missing invoices",
+        "calculate the missing sequential codes when the band 200 to 249 shows 48 documents issued",
+        "a receipt book spans 01 to 50 and 6 leaves are unaccounted; how many leaves remain to trace",
+        "how many documents are unissued in the numbered run 500 to 549 when 50 were issued"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "size the numbered band",
+          "explain": "the run from first to last number, both inclusive, should hold last minus first plus one documents",
+          "compute": "band_total = last_num - first_num + 1"
+        },
+        {
+          "step": 2,
+          "action": "subtract the documents on hand",
+          "explain": "the shortfall between what the band should hold and what was issued is the missing count",
+          "compute": "missing_count = band_total - issued_count"
+        }
+      ]
+    },
+    {
+      "id": "leca101.9",
+      "title": "Designing a Hierarchical Coding Structure",
+      "section": "1.4.2 Methodology to Develop Coding Structure",
+      "definition": "Coding begins with a structure: fix the hierarchy (trust, school, entry-year, stream, class, section, student), then allot digits to each field according to its maximum size -- two digits for up to 99 schools, two for entry-year, one for stream, two for class, one for section, two for roll number, giving a ten-digit student code. The top-level account grouping similarly uses first and second digits (1 for equity and liabilities, 2 for assets, with gaps left for flexibility), so listing codes in ascending order reproduces the desired hierarchy automatically.",
+      "formula": "code_length = school_digits + year_digits + stream_digits + class_digits + section_digits + roll_digits",
+      "key_idea": "Allot digits field by field according to the maximum each field must hold, then join them in hierarchy order.",
+      "textbook_ref": "leca101.txt, coding structure methodology (approx lines 351-422)",
+      "question_patterns": [
+        "the school plan allots 2 digits each to school and entry year, 1 to stream, 2 each to class and roll number and 1 to section; find the total code length",
+        "an inventory of 7000 items in 37 categories with up to 40 sub-categories and at most 1000 items each needs 2, 2 and 3 digits; compute the code length",
+        "develop a coding structure for students of seven schools and state how many digits the code needs",
+        "why does the second digit of the account code jump from 1 to 3 after shareholder funds",
+        "how does ascending order of hierarchical account codes produce the balance sheet grouping"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "add the digit allotments",
+          "explain": "each field of the hierarchy contributes its allotted digits to the full code",
+          "compute": "code_length = school_digits + year_digits + stream_digits + class_digits + section_digits + roll_digits"
+        }
+      ]
+    },
+    {
+      "id": "leca101.10",
+      "title": "Security Features: Password, Data Audit and Data Vault",
+      "section": "1.5 Security Features of CAS Software",
+      "definition": "Accounting software guards data three ways. Password security is the key that grants access, with user rights set by organisation policy so a person may reach one data set and be denied another. Data audit records who changed what in the original data, fixing responsibility and preserving integrity like an audit trail. Data vault adds encryption, which scrambles information so thoroughly that intercepted data cannot be decoded or interpreted.",
+      "formula": "data_defence = password plus audit_trail plus encryption",
+      "key_idea": "Passwords gate entry, audits name the changer, and encryption keeps stolen data unreadable.",
+      "textbook_ref": "leca101.txt, security features and encryption note (approx lines 437-477)",
+      "question_patterns": [
+        "what is encryption and how is it helpful in a computerised accounting system",
+        "how do user rights work under password security in CAS",
+        "what does the data audit feature record and why does it matter",
+        "distinguish a data vault from password protection",
+        "why must confidentiality of accounting data be maintained and by which features"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "match feature to role",
+          "explain": "password admits users per policy, data audit logs changes and their makers, encryption scrambles stored or moving data"
+        },
+        {
+          "step": 2,
+          "action": "state the combined effect",
+          "explain": "together they deliver the confidentiality and data integrity that CAS promises"
+        }
+      ]
+    },
+    {
+      "id": "leca101.11",
+      "title": "Advantages and Limitations of CAS",
+      "section": "1.6 Advantages; 1.7 Limitations",
+      "definition": "CAS advantages: timely reports in the desired format, efficient record keeping, effective system control, economical data processing and confidentiality of data. Its limitations: technology obsolesces fast and forces repeat investment, power interruptions can lose or corrupt data, hacking threatens stored records, and reports that were never programmed or specified cannot be generated at all.",
+      "formula": "cas_tradeoff = speed plus control plus confidentiality against obsolescence plus data_loss plus hacking",
+      "key_idea": "Computers buy speed, control and confidentiality but demand fresh investment and expose data to new risks.",
+      "textbook_ref": "leca101.txt, sections 1.6-1.7 (approx lines 454-489)",
+      "question_patterns": [
+        "state the advantages of a computerised accounting system",
+        "what are the limitations of CAS software",
+        "why does faster obsolescence of technology raise CAS costs",
+        "how can power interruptions harm computerised accounting records",
+        "why can un-programmed reports not be generated by CAS"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "list the gains",
+          "explain": "timely formatted reports, efficient records, effective control, economical processing, confidential data"
+        },
+        {
+          "step": 2,
+          "action": "list the risks",
+          "explain": "rapid technology obsolescence, data loss from power cuts, hacking exposure, and no output beyond programmed reports"
+        }
+      ]
+    },
+    {
+      "id": "leca101.12",
+      "title": "Sub-systems of the Accounting Information System",
+      "section": "1.8 Accounting Information System (AIS)",
+      "definition": "An AIS is implemented through CAS as an integration of twelve sub-systems: cash and bank, sales and accounts receivable, inventory, purchase and accounts payable, payroll accounting, fixed assets accounting, expense accounting, tax accounting, final accounts, costing, budget, and the management information system. Each owns a slice of the work -- from electronic fund transfers and ageing schedules of debtors to wage bills, depreciation reports, VAT compliance and customised decision-support reports.",
+      "formula": "ais = cash plus sales plus inventory plus purchase plus payroll plus assets plus expense plus tax plus final_accounts plus costing plus budget plus mis",
+      "key_idea": "Twelve specialised sub-systems integrate into one accounting information system for the whole business.",
+      "textbook_ref": "leca101.txt, section 1.8 sub-systems (approx lines 490-560)",
+      "question_patterns": [
+        "name the sub-systems integrated in an accounting information system",
+        "which AIS sub-system handles the ageing schedule of debtors",
+        "what details does a typical wage report of the payroll sub-system carry",
+        "how does the fixed assets sub-system report depreciation and book value",
+        "what does the management information sub-system contribute to decision-making"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "enumerate the sub-systems",
+          "explain": "cash and bank, sales receivables, inventory, purchase payables, payroll, fixed assets, expense, tax, final accounts, costing, budget and MIS"
+        },
+        {
+          "step": 2,
+          "action": "attach each to its output",
+          "explain": "receipts and transfers, collection and ageing reports, valuation, creditor schedules, wage bills, book values, expense groups, tax compliance, final statements, cost changes, budget comparisons and managerial reports"
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "ex1",
+      "source_ref": "leca101.txt Accounting Equation, section 1.4",
+      "concept": "leca101.5",
+      "question_type": "numeric",
+      "question_pattern": "A firm has liabilities of Rs {liabilities}, opening capital Rs {capital_open}, revenues of Rs {revenues} and expenses of Rs {expenses}. Using the expanded accounting equation, find its total assets.",
+      "extracted_variables": {
+        "liabilities": 500000,
+        "capital_open": 300000,
+        "revenues": 150000,
+        "expenses": 90000
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "carry results into capital",
+          "explain": "300000 + 150000 - 90000 = 360000, the capital after results",
+          "compute": "capital_after_results = capital_open + revenues - expenses"
+        },
+        {
+          "step": 2,
+          "action": "balance assets against equities",
+          "explain": "500000 + 360000 = 860000, so assets stand at Rs 860000",
+          "compute": "assets_total = liabilities + capital_after_results"
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "source_ref": "leca101.txt sequential and block code examples",
+      "concept": "leca101.8",
+      "question_type": "numeric",
+      "question_pattern": "Invoice numbers run from {first_num} to {last_num} but only {issued_count} invoices were issued. How many invoices are missing?",
+      "extracted_variables": {
+        "first_num": 101,
+        "last_num": 150,
+        "issued_count": 45
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "size the numbered band",
+          "explain": "150 - 101 + 1 = 50 numbers the band should hold",
+          "compute": "band_total = last_num - first_num + 1"
+        },
+        {
+          "step": 2,
+          "action": "subtract the documents on hand",
+          "explain": "50 - 45 = 5, so five invoices are missing",
+          "compute": "missing_count = band_total - issued_count"
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "source_ref": "leca101.txt coding structure methodology, section 1.4.2",
+      "concept": "leca101.9",
+      "question_type": "numeric",
+      "question_pattern": "A student coding plan allots {school_digits} digits to school, {year_digits} to entry year, {stream_digits} to stream, {class_digits} to class, {section_digits} to section and {roll_digits} to roll number. Find the total length of the student code.",
+      "extracted_variables": {
+        "school_digits": 2,
+        "year_digits": 2,
+        "stream_digits": 1,
+        "class_digits": 2,
+        "section_digits": 1,
+        "roll_digits": 2
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "add the digit allotments",
+          "explain": "2 + 2 + 1 + 2 + 1 + 2 = 10 digits, so the student code is ten digits long",
+          "compute": "code_length = school_digits + year_digits + stream_digits + class_digits + section_digits + roll_digits"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex-leca101-mcq",
+      "source_ref": "leca101.txt Exercises Q1 Multiple Choice 1-12",
+      "questions": [
+        "The components of a computerised accounting system are: (a) data, report, ledger, hardware, software (b) data, people, procedure, hardware, software (c) people, procedure, ledger, data, chart of accounts (d) data, coding, procedure, rules, output.",
+        "The computerised accounting system refers to: (a) printing statements using a computer (b) processing accounting transactions through a computer to produce records and reports (c) processing accounting data and printing reports (d) none of the above.",
+        "A CAS should be: (a) simple and integrated, transparent, accurate, scalable, reliable (b) complex but accurate (c) only a transformation tool (d) none of the above.",
+        "Codification of accounts is required for: (a) hierarchical relationship between groups and components (b) faster data processing alone (c) securing data (d) none of the above.",
+        "A firm's payment to a supplier for merchandise inventory is recorded in: (a) cash payment journal (b) purchases journal (c) sales journal (d) cash receipts journal."
+      ]
+    },
+    {
+      "id": "ex-leca101-short",
+      "source_ref": "leca101.txt Exercises Q2 Answer the Following 1-12",
+      "questions": [
+        "Why is computerisation of financial accounting required and why is it useful?",
+        "What is coding and why is codification required for an accounting system?",
+        "What are the salient features of computerised accounting software?",
+        "Write the differences between data and information with examples.",
+        "Explain the various types of coding methods and the situations each best suits.",
+        "What is a chart of accounts and how is it arranged?"
+      ]
+    },
+    {
+      "id": "ex-leca101-skill",
+      "source_ref": "leca101.txt Exercises Q3 Skill Review 2",
+      "questions": [
+        "Develop a coding structure for about 7000 inventory items grouped under 37 major categories, each subdivided into 15-40 sub-categories holding at most 1000 items; state the digits you allot to each level and the total code length.",
+        "Debate in groups of four: intentional manipulation of accounting records is much easier in a computerised accounting system than in a manual one."
+      ]
+    }
+  ]
+}

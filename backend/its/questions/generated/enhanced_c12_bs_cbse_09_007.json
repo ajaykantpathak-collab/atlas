@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_09_007",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_09_007",
+   "title": "c12_bs_cbse_09_007",
+   "questions": [
+    {
+     "q": "Define Net Working Capital and give its formula.",
+     "a": "Net Working Capital (NWC) = Current Assets – Current Liabilities. It represents the portion of current assets financed by long-term sources. A wrong answer (e.g., \"NWC = Current Assets only\" or \"NWC = Current Liabilities – Current Assets\") reveals the student confuses gross working capital with net working capital or misapplies the subtraction direction. This error leads to incorrect liquidity assessment in board case studies.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between Gross Working Capital and Net Working Capital. Why is Net Working Capital a better indicator of short-term financial health?",
+     "a": "Gross Working Capital = total current assets; Net Working Capital = current assets minus current liabilities. NWC is better because it shows the buffer available after meeting short-term obligations. A student who says \"both are same\" or \"Gross WC is better because it shows total resources\" fails to understand that current liabilities (like creditors) are a spontaneous source of financing — ignoring them overstates the firm's own capital tied up in operations. This misconception causes errors in analysing working capital efficiency ratios.",
+     "self_check": true
+    },
+    {
+     "q": "A company has Current Assets: Cash ₹2,00,000; Inventory ₹5,00,000; Debtors ₹3,00,000. Current Liabilities: Creditors ₹4,00,000; Outstanding Expenses ₹1,00,000. Calculate Net Working Capital. If the company negotiates 60-day credit with suppliers (increasing creditors by ₹2,00,000), what is the new NWC?",
+     "a": "Step 1: Total Current Assets = 2,00,000 + 5,00,000 + 3,00,000 = ₹10,00,000.  \nStep 2: Total Current Liabilities = 4,00,000 + 1,00,000 = ₹5,00,000.  \nStep 3: NWC = 10,00,000 – 5,00,000 = ₹5,00,000.  \nStep 4: New Creditors = 4,00,000 + 2,00,000 = ₹6,00,000; New CL = 6,00,000 + 1,00,000 = ₹7,00,000.  \nStep 5: New NWC = 10,00,000 – 7,00,000 = ₹3,00,000.  \nA wrong answer (e.g., forgetting to add the increase to creditors, or subtracting from assets) shows the student cannot trace how credit availed reduces working capital requirement — a classic board exam trap in \"Credit Availed\" factor questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the working capital requirements of a trading concern (e.g., a wholesale cloth merchant) and a manufacturing concern (e.g., a shirt factory) of similar scale. Identify at least three factors from the NCERT list that create the difference and explain the direction of impact.",
+     "a": "Trading concern needs less working capital. Three factors:  \n1. **Nature of Business**: Trading has no processing → no WIP inventory, raw material = finished goods → lower CA.  \n2. **Production Cycle**: Trading cycle is near zero (buy → sell); manufacturing has long cycle (raw material → WIP → finished goods) → higher CA for longer period.  \n3. **Operating Efficiency**: Manufacturing involves more stages where inefficiency can pile up inventory/debtors.  \nA student who only says \"manufacturing needs more capital\" without linking to specific factors (Nature, Production Cycle, Operating Efficiency) cannot score full marks in 4-mark \"explain factors\" questions. They also miss the nuance that trading may have higher debtors if credit sales are high.",
+     "self_check": true
+    },
+    {
+     "q": "\"Higher working capital always means better financial health.\" Evaluate this statement with reference to the liquidity-profitability trade-off. Give one situation where high working capital is undesirable.",
+     "a": "The statement is false. High working capital implies excess current assets (idle cash, overstocked inventory, lenient credit policy) which earn low returns, reducing profitability (ROI). Example: A company keeps ₹50 lakh excess cash in current account earning 3% instead of investing in a project earning 15%. This is undesirable when the opportunity cost of capital is high. A student who agrees with the statement confuses liquidity with profitability and ignores the cost of capital — a critical error in both board \"analyse\" questions and CUET/JEE-type caselets on working capital optimization.",
+     "self_check": true
+    },
+    {
+     "q": "Design a working capital policy for a seasonal business — a manufacturer of woollen garments in Ludhiana. Specify how you would manage each current asset and current liability component in peak (Oct–Jan) and lean (Apr–Jul) seasons to balance liquidity and profitability.",
+     "a": "Good answer should include:  \n- **Peak season**: Build up raw material inventory early (anticipate lead time), increase production → higher WIP & finished goods, offer moderate credit to boost sales → higher debtors, negotiate extended credit with suppliers → higher creditors, keep minimal cash buffer.  \n- **Lean season**: Reduce inventory to minimum, tighten credit collection → lower debtors, pay off creditors early if discount available, invest surplus cash in short-term marketable securities.  \n- **Year-round**: Use cash budget to forecast monthly NWC, arrange working capital limits (cash credit) with bank based on peak requirement.  \nA poor answer treats both seasons identically or ignores the financing mix (short-term vs long-term). This reveals inability to apply \"Seasonal Factors\" and \"Credit Availed/Allowed\" dynamically — a key competency for CUET case-based questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_06_002",
+   "title": "c12_ip_cbse_06_002",
+   "questions": [
+    {
+     "q": "What is the correct HTML tag for the highest-level heading in a document, and how many levels of headings does HTML provide?",
+     "a": "The correct tag is `<h1>` and HTML provides six levels (`<h1>` through `<h6>`). A wrong answer like `<heading>` or `<h0>` reveals the student doesn't know the exact tag syntax; answering \"7 levels\" or \"unlimited\" shows confusion about the fixed hierarchy defined by the HTML specification.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between `<b>` and `<strong>` tags. They both make text bold visually — so why does HTML have both?",
+     "a": "`<b>` is a presentational tag that only specifies bold styling without semantic meaning, while `<strong>` indicates strong importance/seriousness/urgency. Screen readers may announce `<strong>` with emphasis but ignore `<b>`; search engines weight `<strong>` content higher for relevance. A student who says \"they are the same\" misses the core concept of semantic vs. presentational markup.",
+     "self_check": true
+    },
+    {
+     "q": "Write the HTML code to display the chemical formula for glucose (C₆H₁₂O₆) and a footnote reference like \"See note²\" where the \"2\" is superscript.",
+     "a": "Correct code: `C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>` and `See note<sup>2</sup>`. A student writing `<sub>6</sub>` without the element name (e.g., `C<sub>6</sub>`) shows they understand subscript but not that the tag wraps only the subscripted characters. Using `<sup>2</sup>` for the footnote is correct; using `<sup>See note 2</sup>` would incorrectly superscript the whole phrase.",
+     "self_check": true
+    },
+    {
+     "q": "A webpage has this structure: `<h1>Fruits</h1><h3>Apples</h3><h2>Vegetables</h2><h4>Carrots</h4>`. Identify two problems with this heading hierarchy and explain why they hurt accessibility.",
+     "a": "Problem 1: Skipping from `<h1>` to `<h3>` (missing `<h2>`) breaks the logical outline — screen reader users navigating by headings will jump from level 1 to level 3, missing level 2 context. Problem 2: `<h4>` appears under `<h2>` but there is no `<h3>` between them, creating an inconsistent hierarchy. Both violate the rule that heading levels must increase by at most 1 and never skip levels downward.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since `<i>` and `<em>` both render as italic text in browsers, they are interchangeable. Use whichever is shorter to type.\" Defend your position with two concrete reasons.",
+     "a": "The statement is false. Reason 1: `<em>` conveys *stress emphasis* (affects screen reader intonation), while `<i>` only indicates *alternate voice/mood* (e.g., taxonomic names, foreign words) without emphasis. Reason 2: SEO crawlers treat `<em>` as a signal of important keywords; `<i>` carries no such weight. Using `<i>` for emphasis harms accessibility and search ranking.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini \"Recipe Card\" HTML snippet for \"Masala Chai\" that uses: (a) correct heading hierarchy for title/ingredients/steps, (b) `<strong>` for a safety warning, (c) `<sub>`/`<sup>` for a chemical note, (d) `<mark>` for a highlighted tip, and (e) `<del>`/`<ins>` to show an ingredient substitution.",
+     "a": "A good answer includes: `<h1>Masala Chai</h1>`, `<h2>Ingredients</h2>`, `<h3>Steps</h3>`, `<strong>Warning: Hot liquid!</strong>`, `Caffeine: C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>`, `<mark>Tip: Crush spices for better flavor</mark>`, `<del>2 tsp sugar</del> <ins>1 tsp jaggery</ins>`. A poor answer uses `<h2>` for title, `<b>` instead of `<strong>`, misses `<mark>`/`<del>`/`<ins>`, or nests headings incorrectly — showing inability to combine multiple semantic tags in a realistic structure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

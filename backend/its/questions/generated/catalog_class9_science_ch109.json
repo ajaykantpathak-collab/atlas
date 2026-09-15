@@ -1,0 +1,498 @@
+{
+ "catalog": "catalog_class9_science_ch109.json",
+ "concepts": [
+  {
+   "id": "iesc.9.1",
+   "title": "Law of Conservation of Mass",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "mass_reactants",
+     "expr": "mass_r1 + mass_r2",
+     "explain": "add the masses of both reactants"
+    },
+    {
+     "step": 2,
+     "name": "r1_share",
+     "expr": "(mass_r1 / mass_reactants) * 100",
+     "explain": "per cent share of the first reactant"
+    },
+    {
+     "step": 3,
+     "name": "mass_products_expected",
+     "expr": "mass_reactants",
+     "explain": "conservation: products must total the same"
+    }
+   ],
+   "questions": [
+    {
+     "q": "1.2 g of carbon burns in 3.2 g of oxygen. What total mass of carbon dioxide should form?",
+     "vals": {
+      "mass_r1": 1.2,
+      "mass_r2": 3.2
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "4.4 g",
+     "self_check": false
+    },
+    {
+     "q": "5.6 g of iron reacts fully with 2.4 g of sulphur. Find the mass of iron sulphide formed.",
+     "vals": {
+      "mass_r1": 5.6,
+      "mass_r2": 2.4
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "8 g",
+     "self_check": false
+    },
+    {
+     "q": "A solution of 11.2 g of substance A reacts fully with 8.8 g of substance B. What total mass of products forms?",
+     "vals": {
+      "mass_r1": 11.2,
+      "mass_r2": 8.8
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "20 g",
+     "self_check": false
+    },
+    {
+     "q": "Hydrogen 2 g combines with oxygen 16 g. What mass of water results?",
+     "vals": {
+      "mass_r1": 2,
+      "mass_r2": 16
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "18 g",
+     "self_check": false
+    },
+    {
+     "q": "A reaction uses 8.4 g of A and 3.6 g of B. What mass of products is expected?",
+     "vals": {
+      "mass_r1": 8.4,
+      "mass_r2": 3.6
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "12 g",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.9.2",
+   "title": "Law of Constant Proportions",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "ratio_parts",
+     "expr": "ratio_a + ratio_b",
+     "explain": "total parts in the combining ratio"
+    },
+    {
+     "step": 2,
+     "name": "mass_per_part",
+     "expr": "mass_a / ratio_a",
+     "explain": "mass combining per ratio part"
+    },
+    {
+     "step": 3,
+     "name": "element_b_expected",
+     "expr": "(ratio_b / ratio_a) * mass_a",
+     "explain": "constant proportions: B combines with A in a fixed ratio"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Hydrogen and oxygen always combine 1:8 by mass. How much oxygen combines with 3 g of hydrogen?",
+     "vals": {
+      "ratio_a": 1,
+      "ratio_b": 8,
+      "mass_a": 3
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "24 g",
+     "self_check": false
+    },
+    {
+     "q": "In ammonia, nitrogen and hydrogen combine 14:3. What mass of nitrogen joins 9 g of hydrogen?",
+     "vals": {
+      "ratio_a": 3,
+      "ratio_b": 14,
+      "mass_a": 9
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "42 g",
+     "self_check": false
+    },
+    {
+     "q": "Carbon dioxide has C:O = 3:8 by mass. What mass of oxygen combines with 9 g of carbon?",
+     "vals": {
+      "ratio_a": 3,
+      "ratio_b": 8,
+      "mass_a": 9
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "24 g",
+     "self_check": false
+    },
+    {
+     "q": "Methane has C:H = 3:1. What mass of hydrogen combines with 12 g of carbon?",
+     "vals": {
+      "ratio_a": 3,
+      "ratio_b": 1,
+      "mass_a": 12
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "4 g",
+     "self_check": false
+    },
+    {
+     "q": "Water is H:O = 1:8. How much hydrogen will combine with 40 g of oxygen?",
+     "vals": {
+      "ratio_a": 8,
+      "ratio_b": 1,
+      "mass_a": 40
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "5 g",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.9.3",
+   "title": "Dalton's Atomic Theory",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "State any three postulates of Dalton's atomic theory.",
+     "a": "Matter is made of tiny indivisible atoms; atoms of an element are identical in mass and properties; atoms combine in small whole-number ratios to form compounds.",
+     "self_check": true
+    },
+    {
+     "q": "Which part of Dalton's theory was proved wrong?",
+     "a": "Atoms are divisible (into subatomic particles), and atoms of one element can differ slightly in mass (isotopes).",
+     "self_check": true
+    },
+    {
+     "q": "How does Dalton's theory explain the laws of chemical combination?",
+     "a": "Atoms rearrange without change in number or mass (conservation of mass) and combine in fixed ratios (constant proportions).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.9.4",
+   "title": "Covalent Bonding",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a covalent bond?",
+     "a": "A bond formed by sharing of electron pairs between two atoms, as in H2, O2 or CH4.",
+     "self_check": true
+    },
+    {
+     "q": "Why do atoms share electrons instead of transferring them?",
+     "a": "Sharing lets both atoms complete their outermost shell without the large energy cost of full transfer.",
+     "self_check": true
+    },
+    {
+     "q": "How many electrons are shared in a double bond? Give an example.",
+     "a": "Two pairs (4 electrons), as between the two oxygen atoms of O2.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.9.5",
+   "title": "Ionic Bonding",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is an ionic bond?",
+     "a": "The electrostatic attraction between oppositely charged ions formed by transfer of electrons, as in NaCl.",
+     "self_check": true
+    },
+    {
+     "q": "How does magnesium oxide form ionically?",
+     "a": "Magnesium loses 2 electrons to oxygen; Mg2+ and O2- attract each other strongly to form MgO.",
+     "self_check": true
+    },
+    {
+     "q": "Why are ionic compounds brittle?",
+     "a": "On striking, like-charged ions come face to face and repel, so the crystal breaks.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.9.6",
+   "title": "Writing Chemical Formulae",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "State the rules for writing the formula of an ionic compound.",
+     "a": "Write the symbols with charges, cross over the charges as subscripts, and simplify to the simplest whole-number ratio.",
+     "self_check": true
+    },
+    {
+     "q": "How is the formula of aluminium sulphate written?",
+     "a": "Al3+ and SO4 2- cross over to give Al2(SO4)3.",
+     "self_check": true
+    },
+    {
+     "q": "Why are charges not shown in the final formula?",
+     "a": "The compound is neutral overall; the crossed subscripts already balance the charges.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.9.7",
+   "title": "Molecular Mass of Covalent Compounds",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "molecular_mass",
+     "expr": "(count_1 * mass_1) + (count_2 * mass_2) + (count_3 * mass_3)",
+     "explain": "add atomic masses times atom counts"
+    },
+    {
+     "step": 2,
+     "name": "moles_per_100g",
+     "expr": "100 / molecular_mass",
+     "explain": "moles in 100 g of the compound"
+    },
+    {
+     "step": 3,
+     "name": "mass_of_moles",
+     "expr": "moles * molecular_mass",
+     "explain": "mass of the given number of moles"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the molecular mass of water H2O (H = 1, O = 16) and the mass of 2 mol.",
+     "vals": {
+      "count_1": 2,
+      "mass_1": 1,
+      "count_2": 0,
+      "mass_2": 0,
+      "count_3": 1,
+      "mass_3": 16,
+      "moles": 2
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "36 g",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the molecular mass of CO2 (C = 12, O = 16) and the mass of 0.5 mol.",
+     "vals": {
+      "count_1": 1,
+      "mass_1": 12,
+      "count_2": 2,
+      "mass_2": 16,
+      "count_3": 0,
+      "mass_3": 0,
+      "moles": 0.5
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "22 g",
+     "self_check": false
+    },
+    {
+     "q": "Find the molecular mass of ammonia NH3 (N = 14, H = 1) and the mass of 3 mol.",
+     "vals": {
+      "count_1": 1,
+      "mass_1": 14,
+      "count_2": 3,
+      "mass_2": 1,
+      "count_3": 0,
+      "mass_3": 0,
+      "moles": 3
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "51 g",
+     "self_check": false
+    },
+    {
+     "q": "Compute the molecular mass of CH4 (C = 12, H = 1) and mass of 1.5 mol.",
+     "vals": {
+      "count_1": 1,
+      "mass_1": 12,
+      "count_2": 4,
+      "mass_2": 1,
+      "count_3": 0,
+      "mass_3": 0,
+      "moles": 1.5
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "24 g",
+     "self_check": false
+    },
+    {
+     "q": "Find the molecular mass of O2 (O = 16) and the mass of 5 mol of oxygen gas.",
+     "vals": {
+      "count_1": 2,
+      "mass_1": 16,
+      "count_2": 0,
+      "mass_2": 0,
+      "count_3": 0,
+      "mass_3": 0,
+      "moles": 5
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "160 g",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.9.8",
+   "title": "Formula Unit Mass of Ionic Compounds",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "formula_unit_mass",
+     "expr": "(count_1 * mass_1) + (count_2 * mass_2) + (count_3 * mass_3)",
+     "explain": "ionic formula unit mass: sum of atomic masses times counts"
+    },
+    {
+     "step": 2,
+     "name": "moles_per_100g",
+     "expr": "100 / formula_unit_mass",
+     "explain": "moles in 100 g of the salt"
+    },
+    {
+     "step": 3,
+     "name": "mass_of_moles",
+     "expr": "moles * formula_unit_mass",
+     "explain": "mass of the given moles of the salt"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the formula unit mass of NaCl (Na = 23, Cl = 35.5) and the mass of 2 mol.",
+     "vals": {
+      "count_1": 1,
+      "mass_1": 23,
+      "count_2": 1,
+      "mass_2": 35.5,
+      "count_3": 0,
+      "mass_3": 0,
+      "moles": 2
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "117 g",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the formula unit mass of CaCO3 (Ca = 40, C = 12, O = 16) and mass of 0.25 mol.",
+     "vals": {
+      "count_1": 1,
+      "mass_1": 40,
+      "count_2": 1,
+      "mass_2": 12,
+      "count_3": 3,
+      "mass_3": 16,
+      "moles": 0.25
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "25 g",
+     "self_check": false
+    },
+    {
+     "q": "Find the formula unit mass of MgCl2 (Mg = 24, Cl = 35.5) and the mass of 1.5 mol.",
+     "vals": {
+      "count_1": 1,
+      "mass_1": 24,
+      "count_2": 2,
+      "mass_2": 35.5,
+      "count_3": 0,
+      "mass_3": 0,
+      "moles": 1.5
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "142.5 g",
+     "self_check": false
+    },
+    {
+     "q": "Compute the formula unit mass of Na2O (Na = 23, O = 16) and the mass of 0.5 mol.",
+     "vals": {
+      "count_1": 2,
+      "mass_1": 23,
+      "count_2": 1,
+      "mass_2": 16,
+      "count_3": 0,
+      "mass_3": 0,
+      "moles": 0.5
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "31 g",
+     "self_check": false
+    },
+    {
+     "q": "Find the formula unit mass of KNO3 (K = 39, N = 14, O = 16) and mass of 4 mol.",
+     "vals": {
+      "count_1": 1,
+      "mass_1": 39,
+      "count_2": 1,
+      "mass_2": 14,
+      "count_3": 3,
+      "mass_3": 16,
+      "moles": 4
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "404 g",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.9.9",
+   "title": "Properties of Ionic and Covalent Compounds",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Compare melting points of ionic and covalent compounds.",
+     "a": "Ionic compounds melt at high temperatures because strong ion-ion forces must be broken; many covalent compounds melt easily.",
+     "self_check": true
+    },
+    {
+     "q": "Which conducts electricity - molten NaCl or liquid hexane? Why?",
+     "a": "Molten NaCl - its free ions move and carry current; hexane has no charged particles.",
+     "self_check": true
+    },
+    {
+     "q": "Name two properties of covalent compounds.",
+     "a": "Poor conductors, low melting/boiling points, usually insoluble in water but soluble in organic solvents.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

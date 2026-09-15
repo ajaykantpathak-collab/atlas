@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_02_008",
+   "title": "c12_hs_cbse_02_008",
+   "questions": [
+    {
+     "q": "State the ICMR 2020 RDA for calcium and iron for a 15-year-old girl and a 15-year-old boy. What is the key physiological reason for the difference in iron RDA between genders at this age?",
+     "a": "Correct answer: Calcium RDA is 1000 mg/day for both genders (15–17 years). Iron RDA: girls 28 mg/day, boys 22 mg/day (ICMR 2020). The higher iron RDA for girls is due to menstrual blood losses (~0.5–1 mg iron/day) starting at menarche, increasing basal requirement. A wrong answer (e.g., same iron RDA for both) reveals the student ignores gender-specific physiological losses and memorises a single number — a common board exam error that also appears in NEET biology questions on nutritional anaemia.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why consuming spinach (rich in iron) with a glass of milk (rich in calcium) reduces iron absorption, but adding lemon juice to the same spinach increases it. Name the specific inhibitors and enhancers involved.",
+     "a": "Correct answer: Calcium (from milk) competes with non-heme iron (from spinach) for the DMT1 transporter in duodenal enterocytes, inhibiting absorption. Ascorbic acid (vitamin C from lemon) reduces ferric iron (Fe³⁺) to ferrous (Fe²⁺) and forms a soluble chelate, enhancing DMT1 uptake. Phytates in spinach also inhibit iron; vitamin C counteracts this. A wrong answer that only says \"calcium blocks iron\" without mentioning competitive inhibition at DMT1, or claims \"lemon adds iron\", shows superficial understanding — students often memorise \"don't take calcium with iron\" but cannot explain the molecular mechanism tested in competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "A 30-year-old vegetarian woman (non-pregnant, non-lactating) consumes 18 mg iron/day from plant sources. Her diet includes tea with meals and no vitamin C-rich foods. Using ICMR bioavailability factors (5% for vegetarian diets with inhibitors), calculate her absorbed iron. Is it sufficient to meet her physiological requirement (basal loss 0.9 mg/day + menstrual loss 0.5 mg/day)? Show steps.",
+     "a": "Step 1: Dietary iron = 18 mg/day. Step 2: Bioavailability = 5% (vegetarian diet with tea tannins, no enhancers). Step 3: Absorbed iron = 18 × 0.05 = 0.9 mg/day. Step 4: Physiological requirement = basal loss (0.9 mg) + menstrual loss (0.5 mg) = 1.4 mg/day. Step 5: Absorbed (0.9 mg) < Required (1.4 mg) → negative balance → risk of iron deficiency. A wrong answer using 10% bioavailability (ignoring tea) or forgetting menstrual loss reveals inability to apply bioavailability concepts to real diets — a classic case-based board question trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the goitrogenic effects of thiocyanates (from cassava) and isothiocyanates (from cruciferous vegetables) on iodine utilisation. Why does iodine deficiency still occur in regions with adequate soil iodine but high cassava consumption?",
+     "a": "Correct answer: Both compounds inhibit thyroid peroxidase, blocking organification of iodine. Thiocyanates (from cyanogenic glycosides in cassava) also competitively inhibit iodine uptake via the sodium-iodide symporter (NIS). In high-cassava regions, even with adequate soil iodine, chronic thiocyanate exposure overwhelms NIS, causing functional iodine deficiency. A wrong answer that only mentions \"goitrogens block iodine\" without distinguishing uptake vs organification inhibition, or blames only soil deficiency, misses the nuance that food processing (soaking, fermentation) reduces cyanogens — a key public health nutrition concept in CBSE and CUET.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Zinc supplementation is beneficial for all children with diarrhoea because zinc reduces stool volume by 30%.\" Identify two conditions where indiscriminate zinc supplementation could be harmful.",
+     "a": "Correct answer: The statement overgeneralises. WHO recommends zinc (20 mg/day for 10–14 days) only for acute diarrhoea in children 6–59 months, not chronic diarrhoea or infants <6 months. Harmful conditions: (1) Zinc toxicity from prolonged high-dose supplementation (>40 mg/day) causes copper deficiency (impaired ceruloplasmin synthesis) leading to anaemia and neutropenia. (2) In children with existing copper deficiency or genetic disorders like Menkes disease, zinc exacerbates neurological damage. A wrong answer that agrees uncritically shows inability to evaluate evidence-based guidelines — a competency tested in case-based board questions and NEET PG community medicine.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-day vegetarian meal plan for a 16-year-old boy (RDA: Ca 1000 mg, Fe 22 mg, I 150 µg, Zn 12 mg) that meets ≥80% RDA for all four minerals using only common Indian foods. Provide food items, quantities (raw), and mineral contribution per meal. Justify one food combination that enhances absorption of two minerals simultaneously.",
+     "a": "Expected answer: A valid plan includes: Breakfast — Ragi porridge (50 g ragi: Ca 170 mg, Fe 2 mg, Zn 1 mg) + curd (100 g: Ca 120 mg) + guava (100 g: Vit C 230 mg enhances Fe/Zn absorption). Lunch — Rajma (30 g raw: Fe 2.5 mg, Zn 1 mg, Ca 60 mg) + rice + spinach sabzi (50 g: Fe 1.5 mg, Ca 50 mg) + lemon juice. Snack — Roasted chana (30 g: Zn 1.5 mg, Fe 1.5 mg). Dinner — Soybean curry (30 g raw: Fe 3 mg, Zn 1.5 mg, Ca 70 mg) + chapati + iodised salt (5 g: I 150 µg). Totals: Ca ~470 mg (47%), Fe ~10.5 mg (48%), Zn ~5 mg (42%), I ~150 µg (100%). Note: 80% RDA not fully met for Ca, Fe, Zn — student must recognise vegetarian diets need larger quantities/fortification. Justification: Guava (vit C) with ragi enhances non-heme Fe and Zn absorption simultaneously. A poor plan that relies only on milk for calcium and ignores enhancers/inhibitors shows inability to integrate bioavailability into meal planning — a practical skill tested in board practicals and CUET home science.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

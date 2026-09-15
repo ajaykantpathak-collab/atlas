@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_02_011",
+   "title": "c11_hist_cbse_02_011",
+   "questions": [
+    {
+     "q": "In which year was the Constitutio Antoniniana issued, granting Roman citizenship to all free inhabitants of the empire, and which emperor promulgated it?",
+     "a": "The Constitutio Antoniniana was issued in 212 CE by Emperor Caracalla (Marcus Aurelius Antoninus). A wrong answer — such as dating it to Augustus (27 BCE) or Constantine (312 CE) — reveals confusion between the founding of the Principate, the Christianisation of the empire, and the actual legal universalisation of citizenship; it also suggests the student has not distinguished between political inception, religious transformation, and juridical integration as separate historical phases.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Roman Empire maintain two official administrative languages (Latin and Greek) instead of imposing Latin everywhere, and where did the linguistic boundary roughly run?",
+     "a": "The empire retained Greek in the East because Hellenistic culture was deeply entrenched after Alexander's conquests; Greek was the language of administration, elite culture, and commerce from the Aegean to Mesopotamia. Imposing Latin would have alienated the wealthy, urbanised eastern provinces that generated most tax revenue. The boundary ran roughly across the Mediterranean between Tripolitania (Latin-speaking) and Cyrenaica (Greek-speaking) in North Africa. A wrong answer claiming \"Latin was forced on the East after Augustus\" or \"the boundary was the Danube\" shows the student conflates military frontiers with cultural zones and ignores the pragmatic fiscal logic of imperial administration.",
+     "self_check": true
+    },
+    {
+     "q": "A papyrus from 2nd-century CE Egypt shows a tax contract written in Greek, witnessed by a Coptic-speaking village elder, and approved by a Roman prefect who issued orders in Latin. What does this single document reveal about the layered language hierarchy in the empire?",
+     "a": "The document illustrates a three-tier language hierarchy: (1) Latin for supreme imperial authority (prefect's orders), (2) Greek as the practical administrative lingua franca of the eastern provinces (contract language), and (3) local languages like Coptic surviving orally in rural society but rarely appearing in formal records. A student who says \"this shows everyone spoke Greek\" misses the distinction between written administrative practice and spoken vernacular; one who claims \"Latin replaced Greek in Egypt\" ignores the papyrological evidence that Greek remained the language of Egyptian bureaucracy until the Arab conquest.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Roman citizenship model (gradual extension culminating in universal grant 212 CE) with the Mughal mansabdari system's approach to integrating diverse elites. Identify two structural similarities and one fundamental difference in their logic of inclusion.",
+     "a": "Similarities: (1) Both systems co-opted regional elites into imperial service — Roman provincial aristocrats entered the Senate and army command; Mughal mansabdars (Rajputs, Persians, Indian Muslims, Deccanis) received ranks and jagirs. (2) Both used legal/institutional status (citizenship / mansab rank) rather than ethnicity as the primary criterion for participation. Difference: Roman citizenship carried uniform civil rights (legal protection, property rights, appeal to emperor) applicable to all citizens equally; mansab rank was a graded military-bureaucratic position with no universal civil rights attached — a Rajput mansabdar and a Persian mansabdar had different cultural autonomy but no shared legal personality. A wrong answer equating \"citizenship = mansab\" conflates juridical personhood with service tenure.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Roman Empire's shift to Christianity as the sole authorised religion (Theodosius I, 391 CE) destroyed the cultural diversity that had sustained the empire for centuries.\" Use evidence from the 4th–6th centuries to support or refute.",
+     "a": "The claim is partially true but overstated. True: Theodosius' laws banned pagan sacrifices, closed temples (e.g., Serapeum at Alexandria, 391 CE), and restricted heretical Christian sects (Arians, Donatists), reducing *public* religious plurality. False: Diversity persisted in language (Coptic, Syriac, Armenian literary revivals), local cults (syncretic saints' shrines in Syria/Egypt), and legal pluralism (Roman law coexisted with ecclesiastical canons). Moreover, the eastern empire's prosperity *increased* in the 5th–6th centuries (Justinian's reign) despite religious uniformity laws. A student who answers \"yes, diversity ended\" ignores the distinction between state-imposed orthodoxy and lived cultural practice; one who says \"no change\" overlooks the real suppression of pagan institutions and Jewish/Christian minority restrictions.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 5-entry timeline showing the evolution of Roman citizenship from the Republic to 212 CE, with one sentence per entry explaining the *driver* (war, revenue, loyalty, rebellion, fiscal crisis) behind each expansion.",
+     "a": "Expected timeline: (1) 90–88 BCE Social War → citizenship to Italian allies (driver: military rebellion by socii demanding equal status). (2) 49 BCE Caesar's lex Roscia → citizenship to Transpadane Gaul (driver: loyalty reward during civil war). (3) 27 BCE Augustus → citizenship to veterans in coloniae (driver: army settlement and Romanisation). (4) 1st–2nd c. CE → citizenship to auxiliary soldiers after 25 years service (driver: military recruitment incentive). (5) 212 CE Constitutio Antoniniana → universal citizenship (driver: fiscal crisis — expanded tax base for *aurum coronarium* and inheritance taxes). A poor timeline lists dates without drivers or confuses the Social War (allies vs Rome) with the Servile War (slaves), revealing inability to link institutional change to structural pressures.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

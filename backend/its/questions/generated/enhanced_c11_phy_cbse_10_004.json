@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_10_004",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_10_004",
+   "title": "c11_phy_cbse_10_004",
+   "questions": [
+    {
+     "q": "Define the coefficient of volume expansion (γ) and state its SI unit. How is it related to the coefficient of linear expansion (α) for an isotropic solid?",
+     "a": "γ = (1/V)(ΔV/ΔT), SI unit: K⁻¹. For an isotropic solid, γ = 3α. A wrong answer (e.g., γ = α or γ = α³) reveals the student has not understood the geometric derivation from linear expansion or is confusing volume expansion with linear expansion.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"When a metal plate with a circular hole is heated, the plate expands, so the metal around the hole moves inward, making the hole smaller.\" Is this correct? Explain using the concept of area expansion.",
+     "a": "The student is incorrect. The hole expands as if it were made of the same metal. Imagine a metal disc that exactly fits the hole at the initial temperature. When heated, the disc and the plate both expand uniformly. The disc would still fit the hole, meaning the hole must have expanded by the same fractional amount as the disc's area (βΔT). A wrong answer reveals the common misconception that expansion \"fills up\" empty space, rather than scaling all lengths uniformly.",
+     "self_check": true
+    },
+    {
+     "q": "A square aluminium plate (α = 2.5 × 10⁻⁵ K⁻¹) has side length 0.50 m at 20°C. Calculate its area at 120°C. Show all steps with units.",
+     "a": "Given: L₀ = 0.50 m, A₀ = L₀² = 0.25 m², α = 2.5×10⁻⁵ K⁻¹, ΔT = 100 K.\nStep 1: β = 2α = 5.0×10⁻⁵ K⁻¹.\nStep 2: ΔA = β A₀ ΔT = (5.0×10⁻⁵ K⁻¹) × (0.25 m²) × (100 K) = 1.25×10⁻³ m².\nStep 3: A = A₀ + ΔA = 0.25 m² + 0.00125 m² = 0.25125 m².\nA wrong answer (e.g., using α instead of β, or forgetting to square the side) reveals confusion between linear and area expansion formulas or algebraic errors in area calculation.",
+     "self_check": true
+    },
+    {
+     "q": "A glass beaker (γ_glass = 2.5 × 10⁻⁵ K⁻¹) of volume 400 cm³ is filled to the brim with mercury (γ_Hg = 18.2 × 10⁻⁵ K⁻¹) at 0°C. The system is heated to 50°C. Determine whether mercury overflows, and if so, calculate the overflow volume.",
+     "a": "ΔV_Hg = γ_Hg V₀ ΔT = (18.2×10⁻⁵) × 400 × 50 = 3.64 cm³.\nΔV_glass = γ_glass V₀ ΔT = (2.5×10⁻⁵) × 400 × 50 = 0.50 cm³.\nOverflow = ΔV_Hg - ΔV_glass = 3.64 - 0.50 = 3.14 cm³.\nMercury overflows because γ_Hg > γ_glass. A wrong answer (e.g., calculating only mercury expansion or subtracting in reverse) reveals the student does not understand \"apparent expansion\" – the container also expands, creating more space.",
+     "self_check": true
+    },
+    {
+     "q": "A copper sphere (α = 1.7 × 10⁻⁵ K⁻¹) of radius 10 cm at 27°C is heated to 227°C. A student calculates the new volume using V = V₀(1 + 3αΔT) and gets V = 4188.8 cm³. Another student uses the exact formula V = V₀(1 + αΔT)³ and gets V = 4189.2 cm³. Which is more accurate? Why is the first formula used in textbooks?",
+     "a": "The exact formula (1+αΔT)³ is more accurate. The textbook formula V₀(1+3αΔT) comes from binomial expansion neglecting (αΔT)² and (αΔT)³ terms. Here αΔT = 1.7e-5 × 200 = 0.0034, so (αΔT)² ≈ 1.16×10⁻⁵ is very small. The first formula is used because it is simpler and the error is negligible for typical temperature ranges (ΔT < 200 K). A wrong answer reveals the student doesn't understand the approximation's validity limits.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a glass bottle, a capillary tube, and water to demonstrate the apparent volume expansion of a liquid. Explain how you would account for the expansion of the glass container in your calculation.",
+     "a": "Fill a glass bottle with coloured water, insert a capillary tube through a cork, mark initial water level in the tube. Heat the bottle uniformly in a water bath. Measure the rise in water column (Δh) in the capillary of cross-section a. The apparent volume increase = aΔh. To find real expansion of water, measure the expansion of an identical empty bottle (or calculate using γ_glass). Real expansion of water = apparent expansion + expansion of container volume. A poor answer ignores the container expansion, showing lack of understanding of relative expansion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

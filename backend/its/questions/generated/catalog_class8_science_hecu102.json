@@ -1,0 +1,93 @@
+{
+ "catalog": "catalog_class8_science_hecu102.json",
+ "concepts": [
+  {
+   "id": "hecu.102.2.1",
+   "title": "Cell: The Basic Unit of Life",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why is the cell called the building block of life?",
+     "a": "All organisms are built of cells, and each cell carries out life's functions.",
+     "self_check": true
+    },
+    {
+     "q": "Can we see cells with naked eyes? How do we see them?",
+     "a": "Most are too small; we use microscopes, and stains make parts visible.",
+     "self_check": true
+    },
+    {
+     "q": "Name two things every cell contains.",
+     "a": "A cell membrane and cytoplasm (plants and animals cells also hold a nucleus).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.102.2.2",
+   "title": "Levels of Organisation in Living Bodies",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Arrange in order: organ, cell, organism, tissue, organ system.",
+     "a": "Cell -> tissue -> organ -> organ system -> organism.",
+     "self_check": true
+    },
+    {
+     "q": "What is a tissue?",
+     "a": "A group of similar cells doing one job, like muscle tissue or blood.",
+     "self_check": true
+    },
+    {
+     "q": "Give one example each of an organ and an organ system.",
+     "a": "Organ: heart. Organ system: digestive system.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.102.2.3",
+   "title": "Microorganisms: The Invisible Living World",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are microorganisms?",
+     "a": "Living things too small to see unaided - bacteria, viruses, fungi and protozoa.",
+     "self_check": true
+    },
+    {
+     "q": "Name one microorganism useful to us and one harmful.",
+     "a": "Useful: yeast in bread. Harmful: virus causing flu (or cholera bacteria).",
+     "self_check": true
+    },
+    {
+     "q": "Where do microbes live?",
+     "a": "Almost everywhere - air, water, soil, inside and on our bodies.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.102.2.4",
+   "title": "Our Connection with Microbes: Use and Harm",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How do microbes help us in food making?",
+     "a": "Yeast makes dough rise, bacteria turn milk to curd, and fermentation makes idli batter fluffy.",
+     "self_check": true
+    },
+    {
+     "q": "Name two diseases caused by microbes.",
+     "a": "Tuberculosis (bacteria) and influenza (virus); also malaria (protozoa).",
+     "self_check": true
+    },
+    {
+     "q": "How does vaccination protect us from microbes?",
+     "a": "A weakened microbe teaches the body's defence to fight the real disease later.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

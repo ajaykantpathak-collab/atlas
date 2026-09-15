@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_15_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_15_012",
+   "title": "c12_hin_ar_cbse_15_012",
+   "questions": [
+    {
+     "q": "पाठ में दिए गए कथन \"जाति प्रथा श्रम विभाजन नहीं, श्रमिकों का विभाजन है\" का शाब्दिक अर्थ क्या है? (केवल पाठ में लिखे शब्दों का प्रयोग करें)",
+     "a": "**Correct answer:** The text explicitly states: \"जाति प्रथा... श्रमिकों का विभाजन है\" (para 2). A literal answer quotes this exact phrase or its immediate paraphrase: \"जाति प्रथा श्रमिकों को बांटती है, काम को नहीं।\"  \n**What a wrong answer reveals:** If the student writes \"जाति प्रथा समाज को बांटती है\" or \"यह असमानता फैलाती है\", they have shifted to *inference* (theme) instead of *literal retrieval*. This shows they cannot distinguish \"what the text says\" from \"what the text implies\" — a fatal error in 1-mark literal questions where examiners look for textual fidelity.",
+     "self_check": true
+    },
+    {
+     "q": "वकस्मज जाति प्रथा को \"गुलामी\" क्यों कहते हैं? पाठ के किन्हीं दो वाक्यों को जोड़कर समझाइए।",
+     "a": "**Correct answer:** Stitch two explicit statements: (1) \"जाति प्रथा... मनुष्य को मनुष्य से अलग करती है\" (para 2) AND (2) \"यह मनुष्य की स्वतंत्रता का हनन करती है\" (para 3). Combined inference: जाति प्रथा जन्म के आधार पर व्यक्ति की स्वतंत्रता छीन लेती है, इसलिए वकस्मज इसे गुलामी कहते हैं।  \n**What a wrong answer reveals:** A student writing \"क्योंकि यह बुरी है\" or \"क्योंकि इसमें छुआछूत है\" fails to *use the text as evidence*. They rely on prior knowledge, not textual evidence. In board exams, \"पाठ के आधार पर\" means every claim must be anchored to a specific line/para. This error costs 2-3 marks per inferential question.",
+     "self_check": true
+    },
+    {
+     "q": "नीचे दिए गए अंश को पढ़कर बताइए कि यह शाब्दिक प्रश्न है या अनुमानात्मक: \"वकस्मज के अनुसार सामाजिक लोकतंत्र के तीन आधार क्या हैं?\"",
+     "a": "**Correct answer:** शाब्दिक (Literal). The text explicitly lists: \"समता, स्वतंत्रता, बंधुत्व\" (para 5). The question only asks for retrieval of a listed triplet.  \n**What a wrong answer reveals:** If a student labels it \"अनुमानात्मक\" because they think \"आधार\" implies interpretation, they confuse *vocabulary difficulty* with *question type*. Literal questions can ask for listed items, definitions, or direct quotes — even if the words are abstract. Misclassification leads to over-written answers (wasting time) or missing the exact triplet (losing marks).",
+     "self_check": true
+    },
+    {
+     "q": "पाठ में वकस्मज लिखते हैं: \"जाति प्रथा... मनुष्य की स्वाभाविक शक्तियों का विकास नहीं होने देती।\" इस कथन का निहितार्थ (implication) स्पष्ट कीजिए।",
+     "a": "**Correct answer:** Implication (inference): जाति प्रथा व्यक्ति को जन्म-आधारित पेशे में बांध देती है → उसकी रुचि, योग्यता, प्रतिभा (स्वाभाविक शक्तियाँ) दब जाती हैं → वह न तो कार्यकुशल बन पाता है न ही संतुष्ट। पाठ इसे \"राष्ट्र की हानि\" (para 4) से जोड़ता है।  \n**What a wrong answer reveals:** A student writing \"यह बुरा है क्योंकि प्रतिभा नष्ट होती है\" states the *moral judgment*, not the *textual implication*. The text's implication is structural: caste → fixed occupation → wasted human capital → national loss. Missing the causal chain (\"इसलिए... अतः\") shows inability to trace the author's argument — exactly what JEE/CUET critical reasoning passages test.",
+     "self_check": true
+    },
+    {
+     "q": "कथन: \"वकस्मज का मानना है कि राजनीतिक लोकतंत्र सामाजिक लोकतंत्र के बिना अधूरा है।\" इस कथन का मूल्यांकन कीजिए — क्या पाठ इसका समर्थन करता है? प्रमाण दीजिए।",
+     "a": "**Correct answer:** हाँ, पाठ पूर्ण समर्थन करता है। प्रमाण: (1) \"राजनीतिक लोकतंत्र... सामाजिक लोकतंत्र के बिना टिक नहीं सकता\" (para 5). (2) \"सामाजिक लोकतंत्र का अर्थ है... समता, स्वतंत्रता, बंधुत्व\" (para 5). (3) \"जाति प्रथा... इन तीनों का विरोध करती है\" (para 2-4). निष्कर्ष: वकस्मज राजनीतिक लोकतंत्र को सामाजिक लोकतंत्र की शर्त मानते हैं।  \n**What a wrong answer reveals:** A student answering \"हाँ, क्योंकि संविधान में लिखा है\" uses *external knowledge*, not *textual evaluation*. The competency \"पाठ के आधार पर मूल्यांकन\" demands: claim → textual evidence → logical link. Using outside sources (even correct ones) scores zero in board comprehension sections.",
+     "self_check": true
+    },
+    {
+     "q": "पाठ के तर्क-शैली (argumentative structure) की नकल करते हुए एक छोटा पैराग्राफ लिखिए जिसमें आप किसी सामाजिक बुराई (जैसे: दहेज, बाल विवाह, भ्रष्टाचार) को \"प्रगति का अवरोधक\" सिद्ध करें। शाब्दिक कथन + निहितार्थ + निष्कर्ष की संरचना का प्रयोग करें।",
+     "a": "**Expected criteria:**  \n1. Literal statement: \"दहेज प्रथा विवाह को व्यापार बना देती है।\" (explicit claim)  \n2. Implication chain: \"इससे लड़की के माता-पिता कर्ज में डूबते हैं → लड़की को बोझ माना जाता है → कन्या भ्रूण हत्या बढ़ती है।\" (logical connectors: इससे → अतः → परिणामतः)  \n3. Conclusion: \"अतः दहेज प्रथा सामाजिक प्रगति का अवरोधक है।\"  \n**What a poor answer reveals:** Writing a moral sermon (\"दहेज लेना पाप है\") without the *argumentative architecture* (claim → evidence → implication → conclusion) shows the student has not internalized Ambedkar's rhetorical method. This structure is exactly what CBSE \"विश्लेषणात्मक उत्तर\" (analytical answers) require in 5-mark questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

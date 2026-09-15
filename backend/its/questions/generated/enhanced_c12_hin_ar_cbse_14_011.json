@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_14_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_14_011",
+   "title": "c12_hin_ar_cbse_14_011",
+   "questions": [
+    {
+     "q": "Identify the grammatical category of the word \"voèkwr\" as used in the sentence \"f'kjh\"k dkyt;h voèkwr dh rjg gS\" and explain its morphological composition.",
+     "a": "\"voèkwr\" is a *tatsama* masculine noun (laKk) formed from the prefix \"vi-\" (apart) + root \"kl\" (to calculate/arrange) + suffix \"-an\" (action noun) → \"vyavakal\" → \"vyavahar\" (behavior/conduct) + \"ik\" (adjectival) → \"vyavaharik\" → in Braj-influenced Hindi \"voèkwr\" meaning \"worldly/practical/traditional\". A wrong answer (e.g., calling it a verb or adjective) reveals the student cannot segment tatsama compounds or recognise nominalised adjectives — a gap in morphological analysis needed for Class 12 stylistic commentary.",
+     "self_check": true
+    },
+    {
+     "q": "The phrase \"nl fnu iwQys vkSj fiQj [ka[kM+&[ka[kM+\" appears twice in the chapter. Explain how its syntactic structure (repetition, compounding, case marking) creates an oral-storytelling rhythm that a standard Hindi sentence like \"nau din tak barish hoti rahi aur phir dhoop nikli\" would not.",
+     "a": "The phrase uses: (1) bare numerals without case postpositions (\"nl fnu\" not \"nl dinoM tak\"), (2) conjunctive \"vkSj\" linking two asymmetrical clauses, (3) reduplicative onomatopoeia \"[ka[kM+&[ka[kM+\" mimicking the sound of relentless rain, (4) zero copula in both clauses. Together these produce a paratactic, breath-group rhythm typical of folk narration. A student who only translates the meaning misses the *prosodic* function — they treat grammar as semantics, not as sound-shaping-sense.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"dkfynkl Hkh ”k:j vuklDr ;ksxh jgs gksaxs\", identify the aspectual distinction between \"jgs gksaxs\" (habitual future) and a simple future \"jgsaxs\". Rewrite the sentence using simple future and explain the shift in nuance about the character's reliability.",
+     "a": "\"jgs gksaxs\" = habitual future (composite: root \"j-\" + habitual suffix \"-t-\" + future auxiliary \"gksaxs\") → \"will keep staying/remain habitually\". Simple future \"jgsaxs\" = single predicted event → \"will stay (once)\". The habitual form characterises dkfynkl as *consistently* reliable, a man of steady word; the simple future would make it a one-off prediction. Students who miss the habitual aspect (common in Class 12) flatten character portrayal into mere plot prediction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the compound nouns \"v'kksd o`{k\" (neem tree) and \"vfj\"B o`{k\" (banyan tree) in the chapter. Both use the pattern [modifier] + [head \"o`{k\"], but their modifiers derive from different morphological processes. Analyse the difference and state what each reveals about the cultural perception of that tree.",
+     "a": "\"v'kksd\" = tatsama borrowing from Sanskrit \"nimba\" (phonological adaptation only) → marks the tree as *scripturally recognised*, medicinal, sacred. \"vfj\"B\" = tadbhava evolution from Sanskrit \"vatavriksha\" → \"bat\" → \"bargad\" → \"bar\" + \"ukha\" (dialectal) → marks the tree as *folk-experienced*, shade-giving, communal. The first invokes textual authority; the second invokes lived geography. A student who treats both as \"just names\" misses how compound morphology encodes cultural hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "The narrator says: \"eSa dgrk gw¡ dfo cuuk gS esjs nksLrks] rks iQDdM+ cuksA\". Evaluate whether the syntactic fronting of \"esjs nksLrks\" (before the conditional clause) strengthens or weakens the rhetorical force of the challenge, compared to the canonical order \"esjs nksLrks dfo cuuk gS] rks iQDdM+ cuksA\".",
+     "a": "Fronting \"esjs nksLrks\" creates *focus-fronting* (topic-comment structure): \"AS FOR my two conditions, IF you become a poet, THEN bow down.\" It isolates the stakes before the hypothesis, making the challenge feel like a wager laid on the table. Canonical order buries the conditions inside the protasis. Students who prefer \"correct\" word order miss that literary syntax *manipulates* information flow for persuasion — a core Class 12 analytical skill.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-line dialogue between two villagers discussing the f'kjh\"k tree, using at least three dialect/idiomatic expressions from the chapter (e.g., \"y¡Mwjs\", \"fgYyksy\", \"nksyk yxk\", \"vuklDr\") and one syntactic inversion. Gloss each expression in standard Hindi.",
+     "a": "Sample:  \n1. \"Aré bhai, yah f'kjh\"k to **y¡Mwjs** hai — **fgYyksy** jaise khada rehta hai!\" (Gloss: y¡Mwjs = ati saral/sahaj; fgYyksy = yuva/sukumar)  \n2. \"Haan, aur usne **nksyk yxk** di apni **vuklDr** zindagi ko.\" (Gloss: nksyk yxk = sankat dalna; vuklDr = swatantra/nirbhar)  \nInversion: \"vuklDr zindagi ko nksyk yxk di usne\" (OSV instead of SOV). A poor answer uses only standard Hindi or misses the inversion — showing inability to *produce* the register they are asked to analyse.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

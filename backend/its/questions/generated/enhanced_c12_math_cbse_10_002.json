@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_10_002",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_10_002",
+   "title": "c12_math_cbse_10_002",
+   "questions": [
+    {
+     "q": "What are the direction cosines of the position vector of point P(2, -3, 6)? Write them as an ordered triple (l, m, n).",
+     "a": "The magnitude is \\(r = \\sqrt{2^2 + (-3)^2 + 6^2} = \\sqrt{4+9+36} = \\sqrt{49} = 7\\). Direction cosines are \\(l = \\frac{2}{7}, m = \\frac{-3}{7}, n = \\frac{6}{7}\\). A wrong answer like (2, -3, 6) reveals the student confuses direction ratios (components) with direction cosines. A wrong answer like \\(\\left(\\frac{2}{\\sqrt{49}}, \\frac{3}{\\sqrt{49}}, \\frac{6}{\\sqrt{49}}\\right)\\) (missing the negative sign on m) reveals sign errors when coordinates are negative — students often take absolute values incorrectly.",
+     "self_check": true
+    },
+    {
+     "q": "A vector has direction ratios 2, -3, 6. Can its direction cosines be \\(\\left(\\frac{2}{7}, \\frac{3}{7}, \\frac{6}{7}\\right)\\)? Explain why or why not.",
+     "a": "No. Direction ratios 2, -3, 6 give magnitude \\(\\sqrt{4+9+36}=7\\). The direction cosines must be \\(\\left(\\frac{2}{7}, \\frac{-3}{7}, \\frac{6}{7}\\right)\\). The proposed cosines have m positive, but the direction ratio b = -3 is negative, so \\(\\cos\\beta\\) must be negative. A student who says \"yes\" does not understand that direction cosines preserve the signs of direction ratios — they are the components of the UNIT vector in the same direction, so signs must match. This misconception leads to errors in JEE problems where the quadrant/octant of the vector matters.",
+     "self_check": true
+    },
+    {
+     "q": "Find the position vector of a point P which is at a distance 13 units from the origin and has direction cosines \\(\\left(\\frac{3}{13}, \\frac{-4}{13}, \\frac{12}{13}\\right)\\). Also find the coordinates of P.",
+     "a": "Given \\(r = 13\\) and \\(l = \\frac{3}{13}, m = \\frac{-4}{13}, n = \\frac{12}{13}\\). Coordinates: \\(x = lr = 3\\), \\(y = mr = -4\\), \\(z = nr = 12\\). Position vector: \\(\\vec{OP} = 3\\hat{i} - 4\\hat{j} + 12\\hat{k}\\). Verification: \\(|\\vec{OP}| = \\sqrt{9+16+144} = \\sqrt{169} = 13\\). A wrong answer like \\(3\\hat{i} + 4\\hat{j} + 12\\hat{k}\\) (ignoring the negative sign in m) shows the student treats direction cosines as mere ratios without sign significance. A wrong answer like \\(\\frac{3}{13}\\hat{i} - \\frac{4}{13}\\hat{j} + \\frac{12}{13}\\hat{k}\\) (giving the unit vector instead of position vector) shows confusion between \"position vector\" (magnitude = distance) and \"unit vector\" (magnitude = 1).",
+     "self_check": true
+    },
+    {
+     "q": "Two vectors \\(\\vec{a}\\) and \\(\\vec{b}\\) have direction cosines \\((l_1, m_1, n_1)\\) and \\((l_2, m_2, n_2)\\) respectively. If \\(\\vec{a}\\) and \\(\\vec{b}\\) are perpendicular, which of the following must be true?\n(A) \\(l_1l_2 + m_1m_2 + n_1n_2 = 0\\)\n(B) \\(l_1l_2 + m_1m_2 + n_1n_2 = 1\\)\n(C) \\(l_1 = l_2, m_1 = m_2, n_1 = n_2\\)\n(D) \\(l_1 + l_2 = m_1 + m_2 = n_1 + n_2 = 0\\)",
+     "a": "Correct answer: (A). For perpendicular vectors, \\(\\vec{a} \\cdot \\vec{b} = 0\\). In terms of direction cosines and magnitudes \\(r_1, r_2\\): \\(\\vec{a} \\cdot \\vec{b} = (r_1 l_1)(r_2 l_2) + (r_1 m_1)(r_2 m_2) + (r_1 n_1)(r_2 n_2) = r_1 r_2 (l_1 l_2 + m_1 m_2 + n_1 n_2) = 0\\). Since \\(r_1, r_2 \\neq 0\\), we get \\(l_1 l_2 + m_1 m_2 + n_1 n_2 = 0\\). A student choosing (B) confuses perpendicularity with the identity \\(l^2+m^2+n^2=1\\) for a single vector. Choosing (C) thinks perpendicular means equal direction cosines (actually parallel). Choosing (D) has no mathematical basis. This tests whether the student can connect direction cosines to the dot product concept (covered later in c12_math_cbse_10_004).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If a vector has direction ratios 1, 2, 2, then its direction cosines are \\(\\frac{1}{3}, \\frac{2}{3}, \\frac{2}{3}\\) because \\(1^2+2^2+2^2=9\\) and \\(\\sqrt{9}=3\\).\" Is this claim always correct? If not, give a counterexample and explain the condition under which it would be correct.",
+     "a": "The claim is NOT always correct. Direction ratios are proportional to direction cosines, but the proportionality constant can be positive OR negative. If the vector's direction ratios are 1, 2, 2, the direction cosines could be \\(\\left(\\frac{1}{3}, \\frac{2}{3}, \\frac{2}{3}\\right)\\) OR \\(\\left(-\\frac{1}{3}, -\\frac{2}{3}, -\\frac{2}{3}\\right)\\) depending on the actual direction of the vector. The student's claim assumes the direction ratios given are the actual components (i.e., the vector is \\(1\\hat{i}+2\\hat{j}+2\\hat{k}\\)), but \"direction ratios 1, 2, 2\" only specifies the ratio, not the signs. The claim would be correct only if it is additionally given that the vector makes acute angles with all axes (all direction cosines positive). This is a classic JEE trap — direction ratios determine direction cosines only up to an overall sign.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a problem where a point P in 3D space has integer coordinates, its distance from the origin is an integer, and its direction cosines are all distinct non-zero rational numbers. Provide the coordinates of P, its distance from origin, and its direction cosines. Explain your construction method.",
+     "a": "Example: P(2, 3, 6). Distance \\(r = \\sqrt{4+9+36} = \\sqrt{49} = 7\\). Direction cosines: \\(\\frac{2}{7}, \\frac{3}{7}, \\frac{6}{7}\\) — all distinct, non-zero, rational. Construction method: Find a Pythagorean quadruple \\(x^2+y^2+z^2 = r^2\\) with integer x,y,z,r and x,y,z all distinct and non-zero. (2,3,6,7) is the smallest such quadruple. Another: P(1, 4, 8), r=9, direction cosines \\(\\frac{1}{9}, \\frac{4}{9}, \\frac{8}{9}\\). A poor answer would give coordinates like (3, 4, 12) — correct but not showing the \"construction method\" reasoning. A student who cannot produce this lacks the number-sense connection between 3D distance and Pythagorean quadruples, which appears in JEE Advanced integer-answer questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

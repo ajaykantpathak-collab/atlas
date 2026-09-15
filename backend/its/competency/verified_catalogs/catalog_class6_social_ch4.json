@@ -1,0 +1,517 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 4,
+ "chapter_title": "Timeline and Sources of History",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fees104.txt",
+ "concepts": [
+  {
+   "id": "c6ss.4.1",
+   "title": "Sources of History",
+   "section": "4.1",
+   "definition": "Historical sources are materials that provide information about the past; they include literary and archaeological sources.",
+   "formula": "",
+   "key_idea": "Historians use both literary and archaeological sources to reconstruct the past.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain sources of history",
+    "describe the key features of sources of history",
+    "what are the main characteristics of sources of history",
+    "why is sources of history important",
+    "give examples of sources of history"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define historical sources",
+     "explain": "Sources are materials from which historians learn about the past."
+    },
+    {
+     "step": 2,
+     "action": "Classify sources",
+     "explain": "Literary sources include books, manuscripts, and inscriptions; archaeological sources include coins, monuments, tools, and pottery."
+    },
+    {
+     "step": 3,
+     "action": "Explain their use",
+     "explain": "Historians cross-check different sources to build an accurate picture of the past."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the two main types of historical sources?",
+     "solution": "Literary sources and archaeological sources.",
+     "answer": "Literary and archaeological"
+    },
+    {
+     "question": "Give two examples of archaeological sources.",
+     "solution": "Coins and monuments.",
+     "answer": "Coins, monuments"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define historical sources and list the two main types.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Give two examples each of literary and archaeological sources.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.4.2",
+   "title": "Inscriptions and Edicts",
+   "section": "4.2",
+   "definition": "Inscriptions are writings engraved on stone, metal, or other hard surfaces; edicts are royal orders inscribed for public display.",
+   "formula": "",
+   "key_idea": "Inscriptions are valuable because they are permanent records that cannot be altered.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain inscriptions and edicts",
+    "describe the key features of inscriptions and edicts",
+    "what are the main characteristics of inscriptions and edicts",
+    "why is inscriptions and edicts important",
+    "give examples of inscriptions and edicts"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define inscriptions",
+     "explain": "Inscriptions are writings carved on stone, pillars, copper plates, or walls."
+    },
+    {
+     "step": 2,
+     "action": "Explain edicts",
+     "explain": "Edicts are official orders issued by rulers, like Ashoka's edicts on pillars and rocks."
+    },
+    {
+     "step": 3,
+     "action": "Explain importance",
+     "explain": "Inscriptions provide direct evidence of events, dates, and policies that cannot be changed later."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are Ashoka's edicts?",
+     "solution": "Royal orders inscribed on pillars and rocks by Emperor Ashoka.",
+     "answer": "Ashoka's inscribed royal orders"
+    },
+    {
+     "question": "Why are inscriptions considered reliable sources?",
+     "solution": "They are permanent and cannot be altered after being engraved.",
+     "answer": "They are permanent records"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define inscription and edict.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why are inscriptions reliable historical sources?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.4.3",
+   "title": "Coins as Historical Sources",
+   "section": "4.3",
+   "definition": "Coins provide information about rulers, dates, religion, and trade of their period.",
+   "formula": "",
+   "key_idea": "Coins are durable archaeological sources that reveal economic and political history.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain coins as historical sources",
+    "describe the key features of coins as historical sources",
+    "what are the main characteristics of coins as historical sources",
+    "why is coins as historical sources important",
+    "give examples of coins as historical sources"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe coin features",
+     "explain": "Coins bear names or images of rulers, dates, deities, and symbols."
+    },
+    {
+     "step": 2,
+     "action": "Explain what coins reveal",
+     "explain": "Coins tell us about rulers, their religion, trade connections, and economic conditions."
+    },
+    {
+     "step": 3,
+     "action": "Note durability",
+     "explain": "Coins are made of metal, so they survive for centuries and provide continuous evidence."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What information can coins provide about a ruler?",
+     "solution": "Name, title, religion, and period of rule.",
+     "answer": "Name, title, religion, period"
+    },
+    {
+     "question": "Why do coins survive for long periods?",
+     "solution": "They are made of durable metal.",
+     "answer": "They are made of metal"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What can historians learn from coins?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why are coins durable sources?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.4.4",
+   "title": "Manuscripts and Literary Sources",
+   "section": "4.4",
+   "definition": "Manuscripts are handwritten documents; literary sources include books, poems, and records from the past.",
+   "formula": "",
+   "key_idea": "Literary sources provide detailed information about society, culture, and events.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain manuscripts and literary sources",
+    "describe the key features of manuscripts and literary sources",
+    "what are the main characteristics of manuscripts and literary sources",
+    "why is manuscripts and literary sources important",
+    "give examples of manuscripts and literary sources"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define manuscripts",
+     "explain": "Manuscripts are handwritten texts on palm leaves, bark, or paper."
+    },
+    {
+     "step": 2,
+     "action": "Classify literary sources",
+     "explain": "Religious texts (Vedas, Bible, Quran), historical accounts (Rajatarangini), and biographies (Charita)."
+    },
+    {
+     "step": 3,
+     "action": "Explain limitations",
+     "explain": "Literary sources may be biased or exaggerated; they need to be cross-checked with other evidence."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a manuscript?",
+     "solution": "A handwritten document on palm leaves, bark, or paper.",
+     "answer": "A handwritten document"
+    },
+    {
+     "question": "Name one famous literary source of Indian history.",
+     "solution": "The Rajatarangini by Kalhana.",
+     "answer": "Rajatarangini"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define manuscript and give one example.",
+     "type": "short_answer"
+    },
+    {
+     "question": "What are the limitations of literary sources?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.4.5",
+   "title": "Dating Historical Events (BC/BCE, AD/CE)",
+   "section": "4.5",
+   "definition": "Historical dates are counted using BC (Before Christ) / BCE (Before Common Era) and AD (Anno Domini) / CE (Common Era).",
+   "formula": "",
+   "key_idea": "The year 1 CE follows 1 BCE; there is no year zero in this system.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain dating historical events bc bce ad ce",
+    "describe the key features of dating historical events bc bce ad ce",
+    "what are the main characteristics of dating historical events bc bce ad ce",
+    "why is dating historical events bc bce ad ce important",
+    "give examples of dating historical events bc bce ad ce"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Understand the system",
+     "explain": "CE (Common Era) counts years from the birth of Christ; BCE counts backward from that point."
+    },
+    {
+     "step": 2,
+     "action": "Calculate time spans",
+     "explain": "To find years between a BCE and CE date, add the two numbers.",
+     "compute": "span = bce_year + ce_year"
+    },
+    {
+     "step": 3,
+     "action": "Convert between systems",
+     "explain": "BC = BCE and AD = CE; the labels differ but the years are the same."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How many years are there between 300 BCE and 100 CE?",
+     "solution": "300 + 100 = 400 years.",
+     "answer": "400 years"
+    },
+    {
+     "question": "What does BCE stand for?",
+     "solution": "Before Common Era.",
+     "answer": "Before Common Era"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How many years between 500 BCE and 200 CE?",
+     "type": "compute"
+    },
+    {
+     "question": "Explain the difference between BC and BCE.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.4.6",
+   "title": "Timeline of Major Historical Events",
+   "section": "4.6",
+   "definition": "A timeline arranges historical events in chronological order to show their sequence.",
+   "formula": "",
+   "key_idea": "Timelines help understand the order and duration of historical periods.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain timeline of major historical events",
+    "describe the key features of timeline of major historical events",
+    "what are the main characteristics of timeline of major historical events",
+    "why is timeline of major historical events important",
+    "give examples of timeline of major historical events"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define timeline",
+     "explain": "A timeline is a visual representation of events in chronological order."
+    },
+    {
+     "step": 2,
+     "action": "Identify major periods",
+     "explain": "Prehistoric (before writing), Ancient (early civilizations), Medieval, and Modern periods."
+    },
+    {
+     "step": 3,
+     "action": "Place events on timeline",
+     "explain": "Events are placed from left (earliest) to right (latest) in order of occurrence."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a timeline?",
+     "solution": "A chronological arrangement of historical events.",
+     "answer": "A chronological list of events"
+    },
+    {
+     "question": "Name the major periods of history.",
+     "solution": "Prehistoric, Ancient, Medieval, and Modern.",
+     "answer": "Prehistoric, Ancient, Medieval, Modern"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define timeline and explain its purpose.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name the four major historical periods.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.4.7",
+   "title": "Prehistoric and Historic Periods",
+   "section": "4.7",
+   "definition": "Prehistoric periods have no written records; historic periods have written sources.",
+   "formula": "",
+   "key_idea": "The invention of writing marks the boundary between prehistory and history.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain prehistoric and historic periods",
+    "describe the key features of prehistoric and historic periods",
+    "what are the main characteristics of prehistoric and historic periods",
+    "why is prehistoric and historic periods important",
+    "give examples of prehistoric and historic periods"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define prehistory",
+     "explain": "Prehistory is the period before writing was invented; we know it only from archaeological evidence."
+    },
+    {
+     "step": 2,
+     "action": "Define history",
+     "explain": "History begins with the invention of writing, which provides literary sources."
+    },
+    {
+     "step": 3,
+     "action": "Identify the boundary",
+     "explain": "The invention of writing (around 5000 years ago in different regions) marks the start of history."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the difference between prehistory and history?",
+     "solution": "Prehistory has no written records; history has written sources.",
+     "answer": "Prehistory has no writing; history does"
+    },
+    {
+     "question": "When does history begin?",
+     "solution": "When writing was invented, about 5000 years ago.",
+     "answer": "About 5000 years ago"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define prehistory and history.",
+     "type": "short_answer"
+    },
+    {
+     "question": "What marks the beginning of history?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.4.8",
+   "title": "Importance of Historical Sources",
+   "section": "4.8",
+   "definition": "Historical sources are essential for understanding the past accurately and avoiding misinformation.",
+   "formula": "",
+   "key_idea": "Without sources, history would be based on guesses and legends rather than evidence.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain importance of historical sources",
+    "describe the key features of importance of historical sources",
+    "what are the main characteristics of importance of historical sources",
+    "why is importance of historical sources important",
+    "give examples of importance of historical sources"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain why sources matter",
+     "explain": "Sources provide evidence about what actually happened, not just what people believe."
+    },
+    {
+     "step": 2,
+     "action": "Explain cross-checking",
+     "explain": "Historians compare multiple sources to verify facts and identify biases."
+    },
+    {
+     "step": 3,
+     "action": "Explain preservation",
+     "explain": "Preserving sources ensures future generations can learn from and verify history."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why are historical sources important?",
+     "solution": "They provide evidence about the past and help verify facts.",
+     "answer": "They provide evidence"
+    },
+    {
+     "question": "Why do historians compare multiple sources?",
+     "solution": "To cross-check facts and identify biases or errors.",
+     "answer": "To verify and find biases"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain why historical sources are important.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why should historical sources be preserved?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "reviewer-added",
+   "concept": "c6ss.4.5",
+   "question_type": "compute_drill",
+   "question_pattern": "Worked drill: with {bce_year} = 6, {ce_year} = 9, compute the dating historical events (bc/bce, ad/ce) step by step.",
+   "extracted_variables": {
+    "bce_year": "6",
+    "ce_year": "9"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Understand the system",
+     "explain": "CE (Common Era) counts years from the birth of Christ; BCE counts backward from that point."
+    },
+    {
+     "step": 2,
+     "action": "Calculate time spans",
+     "explain": "To find years between a BCE and CE date, add the two numbers.",
+     "compute": "span = bce_year + ce_year"
+    },
+    {
+     "step": 3,
+     "action": "Convert between systems",
+     "explain": "BC = BCE and AD = CE; the labels differ but the years are the same."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "reviewer-added",
+   "concept": "c6ss.4.1",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain sources of history with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define historical sources",
+     "explain": "Sources are materials from which historians learn about the past."
+    },
+    {
+     "step": 2,
+     "action": "Classify sources",
+     "explain": "Literary sources include books, manuscripts, and inscriptions; archaeological sources include coins, monuments, tools, and pottery."
+    },
+    {
+     "step": 3,
+     "action": "Explain their use",
+     "explain": "Historians cross-check different sources to build an accurate picture of the past."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)"
+}

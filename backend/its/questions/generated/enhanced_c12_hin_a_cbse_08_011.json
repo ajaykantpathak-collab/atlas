@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_08_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_08_011",
+   "title": "c12_hin_a_cbse_08_011",
+   "questions": [
+    {
+     "q": "Identify the Braj Bhasha verb ending in \"y, tk,r js eksjk fivre iklA\" and state its modern Hindi equivalent. What grammatical information (tense, person, number) does this ending convey?",
+     "a": "The verb form is \"iklA\" (from root \"ikl\" — to go/come), but the key Braj ending here is \"ysy\" in \"y, tk,r\" (from root \"tk\" — to see). The ending \"-sy\" / \"-ysy\" is a Braj present habitual/imperfective marker for third person singular, equivalent to modern Hindi \"ta hai\" / \"te hain.\" A wrong answer like \"ysy is just poetic spelling of 'ta hai'\" reveals the student misses that Braj has its own systematic verb paradigm — not merely phonetic variation — and cannot distinguish between \"ysy\" (habitual) vs \"y\" (perfective) which changes aspectual meaning.",
+     "self_check": true
+    },
+    {
+     "q": "In the line \"fg, ufg lg, vlg nq[k js Hksy lkvksu eklAA\", explain the grammatical function of \"osQ\" (implied in \"lkvksu ekl\") and \"esa\" (implied in context). Why does Braj often omit explicit postpositions where modern Hindi requires them?",
+     "a": "\"lkvksu ekl\" = \"lok ke ek\" (in one world) — the postposition \"ke\" (genitive) and \"mein\" (locative) are elliptically merged into the noun phrase. Braj permits postposition deletion when case relationships are clear from word order or context, especially in metered verse where syllable count matters. A student who says \"Braj is less grammatical\" misunderstands: this is controlled ellipsis governed by metrical constraints, not grammatical deficiency. The modern Hindi expansion \"lok ke ek mein\" adds two syllables, breaking the doha's 24-matra rhythm.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the sandhi in \"eèkqiqj\" (eèkq + iqj) and \"lqfu\" (lq + fu). Identify the sandhi type in each, show the split, and explain why the poet might choose the compound over the analytic phrase.",
+     "a": "\"eèkqiqj\" = eèkq (near) + iqj (gone) → vowel sandhi (Dirgha sandhi): \"q\" + \"i\" → \"qi\" with lengthening. \"lqfu\" = lq (well) + fu (fruit/result) → consonant sandhi: \"q\" + \"f\" → \"qf\" (assimilation). The compounds compress two semantic units into one metrical foot, maintaining the doha's cadence. A student who only splits the words without naming sandhi types (e.g., \"just joined words\") cannot explain why \"eèkq iqj\" (two words, three syllables) scans differently from \"eèkqiqj\" (one word, two syllables) — crucial for verse analysis in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the syntactic structure of Braj line \"lf[k vudj nq[k nk#u js tx osQ ifrvk,AA\" with its modern Hindi prose rendering. Identify three specific word-order differences and explain how each serves the poem's rhythmic or emphatic purpose.",
+     "a": "Three differences: (1) Braj places object \"nq[k nk#u\" before verb \"js\" (SOV with pre-verbal object focus) vs modern Hindi \"nq[k nk#u js\" — fronting the object highlights the devotee's surrender. (2) \"lf[k vudj\" (adverbial phrase) precedes subject \"tx\" vs modern \"tx lf[k vudj\" — initial adverbial sets the devotional frame. (3) \"osQ ifrvk,\" (genitive + noun) follows verb vs modern pre-verbal — post-verbal genitive creates end-rhyme with \"iklA\" in prior line. A student listing only \"word order differs\" misses that each shift is a deliberate poetic choice, not random variation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The archaic vocabulary in Phoolchand's poems (e.g., 'fivre', 'vitl', 'fugkjy') is merely obsolete words with no systematic relationship to modern Hindi.\" Provide linguistic evidence from the text to support or refute.",
+     "a": "Refuted. Each archaic form shows regular phonological correspondence: \"fivre\" (svapna) → modern \"sapna\" (v→p, r→n metathesis); \"vitl\" (vital) → \"vikal\" (t→k hardening); \"fugkjy\" (sukh dekhna) → \"sukh dekhna\" with f→s, g→k, y→n shifts. These follow historical sound laws (e.g., Braj f → Khari Boli s; medial g → k). A student accepting the claim treats vocabulary as arbitrary lexical replacement, missing that etymological mapping is a core competency for CUET/Board \"word meaning in context\" questions where deriving \"fivre = sapna\" from sound patterns earns full marks.",
+     "self_check": true
+    },
+    {
+     "q": "Compose a two-line doha (24 matras each line) in Braj Bhasha style using at least three grammatical features studied: a Braj verb ending (-sy/-y), a sandhi compound, and an archaic vocabulary item with its modern equivalent noted. Provide the modern Hindi prose translation.",
+     "a": "Example: \"py sy nq[k nq[k, eu lqfu ikl jyAA / lqfu dksfdy, tx osQ nq[kh u jyAA\" (Ram sees the devotee, heart's fruit goes; fruit of well-doing, his sorrow never goes). Features: verb ending \"-sy\" (py sy), sandhi \"lqfu\" (lq+fu), archaic \"dksfdy\" (duskarit → modern \"dushkar/kathin\"). A poor answer uses modern Hindi grammar with Braj words (\"Ram nq[k nq[k py ta hai\") — this fails to internalize Braj as a coherent system. Board examiners award marks for authentic morphological usage, not vocabulary substitution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

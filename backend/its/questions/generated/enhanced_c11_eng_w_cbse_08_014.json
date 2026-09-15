@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_08_014",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_08_014",
+   "title": "c11_eng_w_cbse_08_014",
+   "questions": [
+    {
+     "q": "What are the four components of the PEEL paragraph structure used for writing literature answers in Class 11?",
+     "a": "The four components are: **P**oint (topic sentence stating the argument), **E**vidence (textual detail/quote), **E**xplanation (analysis of how evidence proves the point), **L**ink (connecting back to the question/theme). A wrong answer (e.g., \"Plot, Event, Effect, Lesson\") reveals the student confuses PEEL with narrative summary or a different mnemonic, indicating they lack the structural template for analytical writing.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why simply retelling the sequence of dishes ordered by the lady in \"The Luncheon\" does not constitute a valid answer to the question: \"Analyze the lady's character through her eating habits.\"",
+     "a": "Retelling lists events (salmon, caviar, asparagus, peaches) but offers **zero analysis** — it does not interpret what those choices reveal about her greed, manipulation, or hypocrisy. A wrong answer (e.g., \"It shows what she ate\") reveals the student operates at **literal comprehension level** (Class 10) and has not transitioned to **analytical writing** (Class 11) where evidence must be *explained*, not just stated.",
+     "self_check": true
+    },
+    {
+     "q": "Given the prompt \"The author's first-person narrative heightens the humour in 'The Luncheon'.\", select the **most effective** piece of textual evidence from the options below and justify your choice in one sentence.\nA) \"I had eighty francs to last me the rest of the month.\"\nB) \"She gave me the impression of having more teeth, white and large and even, than were necessary for any practical purpose.\"\nC) \"I ordered half a bottle. I mentioned casually that my doctor had absolutely forbidden me to drink Champagne.\"\nD) \"Today she weighs twenty-one stone.\"",
+     "a": "**Correct choice: C**. This option captures the narrator's **internal irony** — he pretends a medical restriction to mask poverty — which is a hallmark of first-person humour (the gap between thought and speech). Option A is factual context, B is physical description (not humour), D is the final twist (outcome, not narrative technique). A wrong choice reveals the student cannot distinguish **narrative voice** (how the story is told) from **plot details** (what happens).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two draft openings for the question \"Discuss the theme of appearance vs. reality in 'The Luncheon'.\" Identify which is stronger and explain **why** in terms of PEEL compliance.\n**Draft 1:** \"In 'The Luncheon', the lady appears polite but is actually greedy. She says she eats little but orders a lot.\"\n**Draft 2:** \"Maugham constructs the lady's character on a sustained irony: her verbal assertions of moderation ('I never eat more than one thing') are systematically dismantled by her actions (caviar, salmon, asparagus, peaches), exposing a predatory greed masked by social performance.\"",
+     "a": "**Draft 2 is stronger**. It opens with a **conceptual Point** (\"sustained irony\", \"social performance\"), embeds **specific Evidence** (quotes + list), and implies **Explanation/Link** (\"predatory greed masked by...\"). Draft 1 is a **plot summary** with a vague claim (\"appears polite\") and no textual proof. A student preferring Draft 1 confuses **assertion** with **argument** and lacks the vocabulary of literary analysis (irony, dismantled, masked).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: \"The ending — 'Today she weighs twenty-one stone' — is just a funny revenge fantasy; it has no thematic significance.\" Defend or refute using textual logic.",
+     "a": "**Refute**. The line is the **structural climax** of the story's central irony: the lady's lifelong \"one thing\" philosophy (appearance) results in massive physical consequence (reality), validating the author's youthful panic as justified foresight. It transforms a personal anecdote into a **moral satire on gluttony and hypocrisy**. Accepting the claim reveals a **surface-level reading** that misses how Maugham uses the **time-shift** (20 years later) to close the ironic loop — a key Class 11 skill: tracking structural devices across the narrative arc.",
+     "self_check": true
+    },
+    {
+     "q": "Write a complete PEEL paragraph (approx. 80 words) answering: \"How does Maugham use the restaurant setting (Foyot's) to intensify the narrator's anxiety?\" Use the structure: Point → Evidence → Explanation → Link.",
+     "a": "**Expected answer criteria**: Point identifies Foyot's as a symbol of unaffordable luxury; Evidence cites \"French senators eat\", \"prices a great deal higher\", \"eighty francs\"; Explanation connects setting to psychological pressure (panic, mortification); Link ties to theme of youthful vulnerability vs. social performance. A poor answer describes the restaurant decor or lists prices without linking to the narrator's **internal state** — showing inability to connect setting to character psychology.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_v_cbse_01_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_v_cbse_01_012",
+   "title": "c12_hin_v_cbse_01_012",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a literal comprehension question and an inferential comprehension question in the context of CBSE Class 12 Hindi board exams?",
+     "a": "A literal question asks for information directly stated in the text (e.g., \"What did the doctor say?\"), answerable by locating a specific sentence. An inferential question asks for meaning not explicitly written, requiring the student to combine textual clues with logic (e.g., \"Why did the doctor hesitate?\"). A wrong answer that treats an inferential question as literal reveals the student cannot distinguish explicit vs. implicit meaning — a critical error that leads to incomplete answers in 3-5 mark questions.",
+     "self_check": true
+    },
+    {
+     "q": "In *flYoj oSfMax*, the narrator describes the old man's house as having \"three rooms that still stand strong.\" A student answers: \"The house is old but well-maintained.\" Is this a literal or inferential response? Justify using the text.",
+     "a": "This is an **inferential** response. The text literally states only \"three rooms still stand strong\" (रहु rhu DokVZj vc Hkh lkcqr [kM+s gq, Fks). \"Well-maintained\" is a deduction — the rooms standing *could* imply maintenance, but could also imply sturdy original construction. A student labeling this as literal reveals the misconception that any plausible description counts as literal; they miss that literal answers must use the text's exact words or direct paraphrase without adding interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the 3-step inferential chain (Evidence → Context → Deduction) to answer: \"Why does ;'kksèkj ckcw call his son's job offer 'legkm baçkij' (a city-style trap)?\" Use only evidence from the chapter.",
+     "a": "**Step 1 (Evidence):** Text states he refused a government job earlier (bl rjg dk ugys ij ngyk tokc nsrs gq, ,d gkFk vkxs c<+k nsus dh ijaijk Fkh) and later says \"legkm baçkij\" when his son offers a job.  \n**Step 2 (Context):** He values self-reliance (vius iSls ls dke djus okys) and distrusts institutional dependence (ljdkjh ukSdjh esa og ugha yxk, tk losQ).  \n**Step 3 (Deduction):** He views the job as a trap because it binds one to a system that discards you when old — mirroring his own experience of being sidelined after retirement. A wrong answer quoting only the phrase without linking to his past refusal shows failure to connect scattered evidence across the narrative.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following two questions from *flYoj oSfMax* and classify each as literal (L) or inferential (I). Explain the textual basis for each classification.  \n(a) \"What did the doctor (fd'kunk) say when the old man asked what would happen after his death?\"  \n(b) \"Why does the old man feel his children's care is 'legkm baçkij' despite their good intentions?\"",
+     "a": "(a) **Literal (L)** — The text explicitly records the doctor's reply: \"tks gqvk gksxk\" (whatever happens, will happen) in the dialogue on page 17. No deduction needed.  \n(b) **Inferential (I)** — The text shows children *do* care (mUgsa yxHkx [khapdj ys xbZA), but the old man *interprets* it as a trap. The student must infer his internal fear of dependency from his past statements (viuk osru vius <ax ls) and contrast with children's actions. Misclassifying (b) as literal indicates the student equates \"character's opinion\" with \"textual fact\" — a common error in character-analysis questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's answer to an inferential question:  \n**Question:** \"How does the setting of the old man's house reflect his state of mind?\"  \n**Student's Answer:** \"The house has three rooms and a courtyard. It is old. This shows he is old and lonely.\"  \nIdentify the flaw and rewrite a model answer using the PEEL structure (Point, Evidence, Explanation, Link).",
+     "a": "**Flaw:** The answer lists literal details (three rooms, courtyard) but makes an unsupported leap to \"lonely\" — no textual evidence links the house's *physical description* to his *emotional state*. The student confuses literal description with inferential analysis.  \n**Model PEEL Answer:**  \n**Point:** The decaying yet stubbornly standing house mirrors the old man's resilient but isolated psyche.  \n**Evidence:** Text notes \"three rooms still stand strong\" (rhu DokVZj vc Hkh lkcqr [kM+s gq, Fks) and \"courtyard where life once bustled\" (ckgj cjkens esa jaxhu dkx\"k dh >kyjsa... tyh gqbZ Fkha).  \n**Explanation:** The rooms' endurance parallels his refusal to yield to age/dependence; the empty courtyard reflects his emotional void after family's departure.  \n**Link:** Thus, the setting is not just backdrop but an externalization of his inner conflict — a key thematic device in the chapter.",
+     "self_check": true
+    },
+    {
+     "q": "Create an original inferential question based on *flYoj oSfMax* that requires connecting a character's dialogue to a recurring symbol in the chapter. Provide the question and a model answer outline.",
+     "a": "**Question:** \"The old man repeatedly refers to 'xk¡o dk iq'rSuh ?kj' (the house as shelter). How does this phrase evolve in meaning from his youth to his old age, and what does this evolution reveal about his definition of security?\"  \n**Model Outline:**  \n1. **Youth (Literal):** House = physical shelter built by fd'kunk (fd'kunk us mUgsa eSl dk jlksb;k cukdj j[k fy;k).  \n2. **Old Age (Inferential):** House = autonomy (viuk osru vius <ax ls og bl ?kj ij [kpZ dj jgk gS).  \n3. **Symbolic Shift:** From *external provision* (father's gift) to *self-owned agency* (his name on the deed).  \n4. **Revelation:** Security is not comfort but the power to say \"no\" — hence his rejection of children's \"care.\"  \nA poor answer would only describe the house physically, missing the semantic evolution — a classic error of treating symbols as static decorations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

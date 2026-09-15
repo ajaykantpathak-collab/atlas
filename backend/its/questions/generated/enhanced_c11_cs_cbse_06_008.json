@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_06_008",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_06_008",
+   "title": "c11_cs_cbse_06_008",
+   "questions": [
+    {
+     "q": "What are the four defining characteristics of a Python list that distinguish it from other data structures?",
+     "a": "The four defining characteristics are: (1) Ordered – elements maintain insertion sequence and have fixed positions; (2) Mutable – elements can be changed, added, or removed after creation; (3) Heterogeneous – a single list can contain elements of different data types (int, float, str, etc.); (4) Allows duplicates – the same value can appear multiple times at different positions. A wrong answer revealing only 2-3 characteristics suggests the student is memorising a partial definition; missing \"heterogeneous\" specifically indicates confusion with arrays in other languages that enforce uniform type.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Lists are just like strings but with square brackets instead of quotes.\" Explain why this statement is incorrect by identifying at least three fundamental differences.",
+     "a": "The statement is incorrect because: (1) Strings are immutable (cannot be changed after creation) while lists are mutable; (2) Strings can only hold characters (homogeneous) whereas lists hold any data type (heterogeneous); (3) Strings use quotes (' ' or \" \") for delimiting while lists use square brackets [ ]; (4) String elements are individual characters accessed by index, but list elements are arbitrary objects. If a student only mentions syntax difference (brackets vs quotes), they have a surface-level misconception—they haven't grasped the behavioural difference (mutability) which is the core reason lists exist as a separate type.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following code snippet, predict the output and explain why it works or fails:\n```python\nmy_data = [10, \"hello\", 3.14, True, [1, 2]]\nprint(my_data[3])\nprint(my_data[4][1])\n```",
+     "a": "Output:\n```\nTrue\n2\n```\nStep-by-step: my_data[3] accesses the 4th element (0-based index) which is the boolean True. my_data[4] accesses the 5th element which is the nested list [1, 2]; then [1] accesses the 2nd element of that nested list, which is 2. A wrong answer (e.g., thinking my_data[4][1] gives an error) reveals the student doesn't understand that list elements can themselves be lists, and that indexing chains left-to-right. This is a direct test of the \"heterogeneous\" and \"nesting\" properties.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: Why would you choose a list over a string to store the daily temperatures (in °C) for a week in Delhi? Give two specific reasons tied to list properties.",
+     "a": "Two reasons: (1) Mutability – if a temperature reading is corrected (e.g., sensor error), you can update that single day's value in the list (temps[2] = 38.5) without recreating the entire collection; strings would require building a new string. (2) Heterogeneous operations – you might later want to store \"N/A\" for a day the sensor failed, mixing float and string in the same list; a string forces everything to be characters. A student who only says \"lists can store numbers\" misses the point—strings can store \"38.5\" as characters, but cannot support numerical comparison or correction efficiently.",
+     "self_check": true
+    },
+    {
+     "q": "A teammate argues: \"Since lists allow duplicates, using a list to store unique student roll numbers is a bad design choice.\" Evaluate this claim and defend your position with a concrete example.",
+     "a": "The claim is flawed. \"Allows duplicates\" means the structure *permits* duplicates—it does not *force* them. You can absolutely store unique roll numbers in a list and enforce uniqueness at the application level (e.g., check `if roll_no not in roll_list:` before appending). Example: `roll_numbers = [101, 102, 103]` works perfectly; the list property simply means `roll_numbers.append(101)` won't raise an error—you handle that logic yourself. A student who agrees with the claim confuses \"allows\" with \"requires,\" showing they don't understand that data structure properties are capabilities, not constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where you would need a nested list (list of lists) and draw the structure with sample data. Explain why a flat list or string would be insufficient.",
+     "a": "Scenario: Storing a weekly timetable for Class 11 where each day has multiple subjects.\n```\ntimetable = [\n    [\"Monday\", \"Physics\", \"Chemistry\", \"Maths\", \"English\"],\n    [\"Tuesday\", \"Maths\", \"CS\", \"Physics\", \"Hindi\"],\n    [\"Wednesday\", \"Chemistry\", \"English\", \"CS\", \"Maths\"],\n    # ... remaining days\n]\n```\nA flat list would lose the day-wise grouping (you'd need separate index calculations). A string would make extracting \"Wednesday's 3rd period\" impossible without fragile parsing. A good answer shows the 2D structure, explains the access pattern `timetable[2][3]` → \"Maths\", and justifies nesting. A poor answer uses a flat list with separators like \"Monday-Physics-Chemistry\" revealing they haven't internalised nesting as a structural tool.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

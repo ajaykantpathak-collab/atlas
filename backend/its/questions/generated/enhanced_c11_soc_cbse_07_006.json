@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_07_006",
+   "title": "c11_soc_cbse_07_006",
+   "questions": [
+    {
+     "q": "Define 'authority' in Weber's sense and give one example of a person who holds authority *only* because of their official position, not personal charisma or tradition.",
+     "a": "Authority is legitimate power — power considered justified and proper by those subject to it, derived from a shared belief system (legitimation) and often codified in written rules. Example: a traffic police officer on duty; their authority comes solely from the legal-rational framework (Motor Vehicles Act, police regulations), not personal qualities or hereditary status. A wrong answer (e.g., \"authority is just power\" or \"a king has authority because his father was king\") reveals confusion between power/domination and authority, or between traditional and legal-rational authority.",
+     "self_check": true
+    },
+    {
+     "q": "A village panchayat imposes a fine on a family for violating a caste-based custom (e.g., entering a temple). The family pays because they fear social boycott. Is this an example of *authority* in Weber's sense? Explain why or why not.",
+     "a": "No. This is domination backed by coercive power (threat of boycott), not authority. Weberian authority requires *legitimacy* — the belief that the command is *rightful* and *justified* by a shared normative order (tradition, charisma, or legal enactment). Caste-based custom may have traditional legitimacy *for the dominant group*, but if the subordinate family complies only out of fear, the relationship lacks the \"voluntary assent\" that defines authority. A wrong answer (\"yes, because the panchayat has traditional authority\") misses the crucial distinction: legitimacy is judged from the *subordinate's* perspective, not the ruler's claim.",
+     "self_check": true
+    },
+    {
+     "q": "During a protest, demonstrators block a highway. Police use batons to clear the road. A bystander says, \"The police have no right to hit citizens; only criminals use violence.\" Using the concept of the state's monopoly on legitimate violence, explain why the police action may be *legal* while the bystander's moral claim is *also* valid.",
+     "a": "The modern state claims a monopoly on the *legitimate* use of violence — meaning violence exercised by authorised agents (police) *within legal procedures* (e.g., CrPC Section 129: dispersal of unlawful assembly) is lawful. The bystander's claim reflects a *moral* judgement (violence is inherently wrong) or a *political* critique (this specific use was excessive/unjust). Legality ≠ morality; the state's monopoly makes police violence *legal by definition* if procedural rules are followed, but legitimacy (public acceptance) can still be contested. A wrong answer (\"police violence is illegal because violence is wrong\") confuses legal monopoly with moral absolutism.",
+     "self_check": true
+    },
+    {
+     "q": "Compare: (a) A judge sentencing a thief to prison. (b) A gang leader ordering a member to assault a rival. Both involve commands backed by force. Identify *two* structural differences that make (a) authority and (b) mere domination.",
+     "a": "1. **Codification & Domain**: The judge's command derives from written law (IPC, CrPC) enacted by a legislature; its domain is strictly defined (courtroom, sentencing). The gang leader's command has no codified basis; its domain is arbitrary. 2. **Legitimation Source**: The judge's authority rests on legal-rational legitimation (constitution → legislature → judiciary). The gang leader's power rests on fear/coercion (illegitimate) or personal loyalty (charismatic but not institutionalised). A wrong answer focusing only on \"judge is good, gangster is bad\" misses the sociological criteria: formal codification, defined jurisdiction, and institutional legitimation.",
+     "self_check": true
+    },
+    {
+     "q": "\"Gandhi's Salt March was a crime because it broke the British salt law.\" Evaluate this statement using the distinction between *legal* and *legitimate*, and explain why the Indian people viewed it as legitimate resistance.",
+     "a": "The statement is legally true but sociologically incomplete. Legally, Gandhi *did* commit a crime (violated British statute). However, legitimacy derives from *shared beliefs about justice*. Indians viewed the salt law as *illegitimate* — enacted by a colonial power without consent, exploiting a basic necessity. Gandhi's deliberate law-breaking (civil disobedience) appealed to a *higher legitimacy* (moral law, self-rule) to delegitimise colonial rule. The masses' participation signalled withdrawal of legitimation from British authority. A wrong answer (\"it wasn't a crime because it was right\") conflates legality and legitimacy; a better answer distinguishes the two levels and shows how legitimation shifts.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new, original scenario (not from the textbook) where a person *obeys a command* but the relationship is *domination without authority*. Describe the scenario in 3–4 sentences and label the source of power, the absence of legitimation, and why it is not authority.",
+     "a": "Scenario: A landlord in a remote village tells a tenant farmer, \"Vote for Candidate X or I will evict you.\" The tenant votes as told. Source of power: economic coercion (control over land/livelihood). Absence of legitimation: the tenant does not believe the landlord has a *right* to dictate their vote; compliance is purely instrumental (fear of eviction). Not authority because there is no shared norm granting the landlord legitimate power over political choice — the command exceeds any accepted domain. A poor answer would describe simple coercion without identifying the *missing belief in rightfulness* that defines the domination/authority boundary.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

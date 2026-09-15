@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_civ_ch1_12",
+ "concepts": [
+  {
+   "id": "enh:c9_civ_ch1_12",
+   "title": "c9_civ_ch1_12",
+   "questions": [
+    {
+     "q": "What is the constitutional basis of the Right to Information in India, and which Article guarantees it?",
+     "a": "The constitutional basis is Article 19(1)(a) — freedom of speech and expression — which the Supreme Court has interpreted to include the right to receive information. A wrong answer (e.g., citing Article 21 or Article 32) reveals the student confuses RTI with the right to life or constitutional remedies, showing they have not grasped that RTI flows from the freedom to speak and express, which inherently requires access to information.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the RTI Act include exemptions under Section 8 if the goal is transparency? Explain with two examples of valid exemptions.",
+     "a": "Section 8 balances transparency with national security, privacy, and effective governance. Valid exemptions include: (1) information affecting sovereignty, security, or strategic interests (Section 8(1)(a)), and (2) personal information with no public interest (Section 8(1)(j)). A wrong answer claiming \"exemptions defeat the purpose\" shows the student misunderstands that absolute transparency can harm public interest — the Act seeks accountable transparency, not anarchy.",
+     "self_check": true
+    },
+    {
+     "q": "A citizen files an RTI asking for the personal medical records of a government doctor posted at a primary health centre. The PIO refuses citing Section 8(1)(j). The citizen appeals to the First Appellate Authority, arguing \"public money pays the doctor's salary, so the public has a right to know everything.\" How should the FAA rule, and why?",
+     "a": "The FAA should uphold the refusal. Section 8(1)(j) exempts personal information unless larger public interest justifies disclosure. A doctor's medical records are private; salary funding does not waive privacy rights. The student who rules for disclosure confuses \"public servant\" with \"public property\" — civic responsibility means respecting the boundary between accountability and intrusion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of the Central Information Commission (CIC) and a First Appellate Authority (FAA) in the RTI appeals hierarchy. Which has the power to impose penalties under Section 20, and why does this distinction matter for enforcement?",
+     "a": "The FAA is an internal departmental officer who reviews the PIO's decision; the CIC is an independent statutory body with powers of a civil court. Only the CIC (and SICs) can impose penalties under Section 20 (up to ₹25,000) and recommend disciplinary action. A student who thinks the FAA can penalize misses that enforcement requires independence — departmental officers rarely penalize their own colleagues, which is why the Act created an external commission.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Filing hundreds of RTI applications on trivial matters (e.g., number of tea cups bought by an office) strengthens democracy by keeping officials alert.\" Is this responsible use of RTI? Justify your answer using the concepts of civic responsibility and public interest.",
+     "a": "No, this is misuse. Civic responsibility under RTI means seeking information that advances public accountability — exposing corruption, policy failures, or rights violations. Trivial requests clog the system, delay genuine applications, and erode official cooperation, weakening the very transparency RTI aims to achieve. A student calling this \"strengthening democracy\" confuses volume with value — responsible citizenship requires discernment, not bombardment.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a model RTI application (under 100 words) seeking information about the utilization of MPLAD funds in your constituency over the last three years. Include the essential legal elements required under Section 6.",
+     "a": "A good draft includes: (1) address to the PIO, District Planning Office; (2) subject line citing \"RTI Act 2005, Section 6\"; (3) specific information sought — \"year-wise list of MPLAD works sanctioned, funds released, expenditure incurred, and completion status for [Constituency], 2021-24\"; (4) applicant's name, address, contact; (5) declaration of citizenship; (6) ₹10 fee proof. Missing any element (e.g., no citizenship declaration) makes the application defective — the student learns that procedural precision protects the right.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

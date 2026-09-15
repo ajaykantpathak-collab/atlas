@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "home_science",
+  "chapter": 202,
+  "chapter_title": "Our Apparel",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kehe202.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kehe202.1.1",
+      "title": "Functions of Clothing",
+      "section": "9.1",
+      "definition": "Clothing works on three fronts: protection from weather, injury and hazards; modesty as society defines it; and communication -- status, role, occasion and personality announced through dress. Decorative enhancement runs alongside these as people use clothes for beauty.",
+      "formula": "",
+      "key_idea": "Clothes shield, cover and speak -- protection, modesty, communication and adornment in one garment.",
+      "textbook_ref": "kehe202.txt functions sections (clothing functions, protection, modesty, status and communication, adornment)",
+      "question_patterns": [
+        "explain the functions of clothing with examples",
+        "in class 11 our apparel: how do clothes communicate status and role",
+        "how does clothing protect the body",
+        "is the need for modesty the same everywhere discuss",
+        "give an example where dress signals an occasion",
+        "which function of clothing do you consider basic and why"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "list the protective work",
+          "explain": "Clothes buffer heat, cold, rain, dust and physical hazards for the wearer."
+        },
+        {
+          "step": 2,
+          "action": "list the social work",
+          "explain": "Dress expresses modesty norms, status, occupation, group membership and mood."
+        },
+        {
+          "step": 3,
+          "action": "add the aesthetic work",
+          "explain": "Colour, texture and style let people beautify themselves -- the decorative function alongside the rest."
+        }
+      ]
+    },
+    {
+      "id": "kehe202.1.2",
+      "title": "Factors Influencing Selection of Clothes",
+      "section": "9.2",
+      "definition": "What people choose to wear is decided jointly by age and body build, climate and season, occasion and activity, fashion trends, income and the care the garment will need. Psychological factors -- conformity and individuality -- pull the choice in opposite directions at once.",
+      "formula": "",
+      "key_idea": "Every purchase is a compromise -- body, climate, occasion, money, fashion and care all file their claims.",
+      "textbook_ref": "kehe202.txt selection sections (factors influencing selection, age climate occasion fashion income care, conformity and individuality)",
+      "question_patterns": [
+        "discuss the factors that influence selection of clothes",
+        "in class 11 our apparel: how does climate affect clothing choice",
+        "why do income and care facilities matter in buying clothes",
+        "explain the pull between conformity and individuality in dress",
+        "select clothes for a school function justifying your choice",
+        "how does age change clothing needs"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "sort the objective factors",
+          "explain": "Body size, climate, occasion, activity and budget impose hard constraints on choice."
+        },
+        {
+          "step": 2,
+          "action": "sort the subjective factors",
+          "explain": "Fashion, taste, conformity to peers and desire for individuality shape what feels right to wear."
+        },
+        {
+          "step": 3,
+          "action": "weigh care",
+          "explain": "A garment's washing, storage and maintenance needs must fit the wearer's resources, or the choice fails in practice."
+        }
+      ]
+    },
+    {
+      "id": "kehe202.1.3",
+      "title": "Clothing Needs Across Ages: Children, Teens and Elders",
+      "section": "9.3",
+      "definition": "Clothing needs shift across the life span: infants want soft, washable, safe fabrics without tight trims; children need tough, free-for-play clothes; adolescents chase fashion and fit; elders prize easy opening, warm layers and comfort. Each stage pairs its physiological realities with its social expectations.",
+      "formula": "",
+      "key_idea": "Dress follows development -- softness for infants, sturdiness for children, style for teens, ease for elders.",
+      "textbook_ref": "kehe202.txt age sections (clothing needs of infants children adolescents adults elderly, safety in infant clothing, ease of dressing)",
+      "question_patterns": [
+        "what clothing is suitable for infants and why",
+        "in class 11 our apparel: what safety points matter in children's clothing",
+        "how do the clothing needs of the elderly differ",
+        "why do adolescents give fashion high weight in selection",
+        "compare clothing needs of a toddler and a teenager",
+        "plan a wardrobe for a school-going child"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "start with infancy",
+          "explain": "Choose soft, absorbent, flame-safe, easily washed garments with no choking trims or tight elastics."
+        },
+        {
+          "step": 2,
+          "action": "move through childhood and adolescence",
+          "explain": "Children need durable, unrestricted play clothes; adolescents add fit, style and peer approval."
+        },
+        {
+          "step": 3,
+          "action": "end with elders",
+          "explain": "Front openings, light warm layers, non-slip footwear and easy care dominate the elderly wardrobe."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kehe202.txt functions sections",
+      "concept": "kehe202.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "A nurse wears a white uniform with identification badge. Identify the clothing functions at work in this dress.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "note the protective layer",
+          "explain": "The uniform shields against spills and contamination in hospital settings."
+        },
+        {
+          "step": 2,
+          "action": "note the communicative layer",
+          "explain": "White plus badge announces role, institution and authority -- patients read it instantly."
+        },
+        {
+          "step": 3,
+          "action": "note the norm layer",
+          "explain": "The dress code satisfies professional modesty and decorum expected in care settings."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kehe202.txt age sections",
+      "concept": "kehe202.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "A grandmother complains a frock bought for her granddaughter is 'useless'. The frock is silky with beaded straps. Judge the purchase using the chapter's criteria.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "apply the child's needs",
+          "explain": "Children need sturdy, washable, unrestricted clothing for play -- beaded silk fails on all three."
+        },
+        {
+          "step": 2,
+          "action": "apply the safety check",
+          "explain": "Beads and straps pose choking and scratch hazards for small children."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "The purchase ignored age-appropriate criteria; the grandmother's complaint is developmentally sound."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kehe202.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Explain the functions of clothing with suitable examples.",
+        "Discuss the factors affecting selection of clothes for an adolescent.",
+        "What points should guide buying clothes for infants?",
+        "Compare the clothing needs of children and the elderly.",
+        "How do fashion and conformity influence what teenagers wear?",
+        "Plan clothing for a family trip to a hill station and justify choices."
+      ]
+    }
+  ]
+}

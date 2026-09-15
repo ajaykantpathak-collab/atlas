@@ -1,0 +1,109 @@
+{
+ "catalog": "catalog_class12_economics_ch5",
+ "concepts": [
+  {
+   "id": "c12eco.5.1",
+   "title": "Balance of Payments: Meaning and Components",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Balance of Payments: Meaning and Components' refers to.",
+     "a": "The Balance of Payments (BoP) is a systematic record of all economic transactions between the residents of a country and the rest of the world during a given period, usually one year. It records both visible and invisible transactions and is divided into two main components: the Current Account and the Capital Account.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Balance of Payments: Meaning and Components'.",
+     "a": "BoP is a comprehensive double-entry record of a country's international transactions; every transaction appears as both a credit and a debit, so the BoP always balances in an accounting sense.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Balance of Payments: Meaning and Components' taught, and from which source text?",
+     "a": "Balance of Payments",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12eco.5.2",
+   "title": "Current Account of Balance of Payments",
+   "questions": [
+    {
+     "q": "Using the method 'Current Account of Balance of Payments', work with: exports_goods = 75, exports_services = 300, imports_goods = 100, imports_services = 240, unilateral_payments = 18, unilateral_receipts = 20. Carry the chain through step by step and give the final value of current_account_balance.",
+     "a": "37 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Current Account of Balance of Payments' and work with: exports_goods = 8, exports_services = 360, imports_goods = 60, imports_services = 24, unilateral_payments = 40, unilateral_receipts = 60. Carry the chain through step by step and give the final value of current_account_balance.",
+     "a": "304 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Current Account of Balance of Payments' refers to.",
+     "a": "The Current Account of the BoP records the flow of goods, services and unilateral transfers between a country and the rest of the world. It includes exports and imports of goods (visible trade), exports and imports of services (invisible trade), and unilateral transfers such as remittances and grants.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Current Account of Balance of Payments'.",
+     "a": "A current account surplus means the country earns more from the rest of the world than it spends; a deficit means it spends more than it earns.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Current Account of Balance of Payments', in plain ASCII form.",
+     "a": "Current Account Balance = (Exports of goods + Exports of services + Unilateral receipts) - (Imports of goods + Imports of services + Unilateral payments)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12eco.5.3",
+   "title": "Capital Account of Balance of Payments",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Capital Account of Balance of Payments' refers to.",
+     "a": "The Capital Account of the BoP records all international transactions of financial assets and liabilities. It includes foreign direct investment, portfolio investment, external commercial borrowings, loans, banking capital and changes in foreign exchange reserves. It shows the net flow of capital into and out of the country.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Capital Account of Balance of Payments'.",
+     "a": "A capital account surplus (net inflow) helps finance a current account deficit; a capital account deficit (net outflow) offsets a current account surplus.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Capital Account of Balance of Payments', in plain ASCII form.",
+     "a": "Capital Account Balance = Capital inflows - Capital outflows",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12eco.5.4",
+   "title": "Balance of Trade",
+   "questions": [
+    {
+     "q": "Using the method 'Balance of Trade', work with: value = 80000. Carry the chain through step by step and give the final value of balance_of_trade.",
+     "a": "0 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Balance of Trade' and work with: value = 120000. Carry the chain through step by step and give the final value of balance_of_trade.",
+     "a": "0 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Balance of Trade' refers to.",
+     "a": "Balance of Trade (BoT) is the difference between the value of exports of goods and the value of imports of goods of a country during a given period. It is also called the visible trade balance because it deals only with goods and excludes services and transfers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Balance of Trade'.",
+     "a": "A positive BoT means a trade surplus (exports exceed imports); a negative BoT means a trade deficit (imports exceed exports).",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Balance of Trade', in plain ASCII form.",
+     "a": "Balance of Trade = Value of exports of goods - Value of imports of goods",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

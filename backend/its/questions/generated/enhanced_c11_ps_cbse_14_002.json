@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_14_002",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_14_002",
+   "title": "c11_ps_cbse_14_002",
+   "questions": [
+    {
+     "q": "What are the two houses of Parliament in India called, and which constitutional article establishes Parliament as consisting of the President and two Houses?",
+     "a": "The two houses are Lok Sabha (House of the People) and Rajya Sabha (Council of States). Article 79 establishes Parliament as consisting of the President, Lok Sabha, and Rajya Sabha. A wrong answer (e.g., naming Vidhan Sabha/Vidhan Parishad, or citing Article 75) reveals confusion between union and state legislatures, or between executive and legislative constitutional provisions.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a federal country like India need a second chamber (Rajya Sabha) when Lok Sabha already represents the people directly through elections?",
+     "a": "Rajya Sabha represents states as federal units (not population), giving each state a voice regardless of size — crucial in a 'holding together' federation where smaller states could be overwhelmed by population-based majorities in Lok Sabha. It also acts as a revising chamber to check hasty legislation. A wrong answer focusing only on \"checking power\" or \"experienced members\" misses the core federal rationale: equal state representation in a diverse union.",
+     "self_check": true
+    },
+    {
+     "q": "A bill affecting state police powers (a State List subject) is passed by Lok Sabha with a huge majority but faces opposition in Rajya Sabha where states with smaller populations have proportionally more influence. Which rationale for bicameralism does this scenario illustrate, and why?",
+     "a": "This illustrates the federal representation rationale: Rajya Sabha's composition (Article 80) gives states representation roughly proportional to population but with a minimum floor, allowing smaller states to collectively check central legislation encroaching on state subjects. The scenario shows how bicameralism prevents large-state dominance in a federation. A wrong answer citing \"revising chamber\" or \"expertise\" ignores the specific federal power-distribution context.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the composition of Lok Sabha (Article 81) and Rajya Sabha (Article 80). How do their different electoral bases create distinct democratic legitimacies, and what tension does this produce in legislative decision-making?",
+     "a": "Lok Sabha: direct election on population basis (universal adult franchise) — legitimacy from popular sovereignty. Rajya Sabha: indirect election by state legislative assemblies (proportional representation) — legitimacy from federal representation. Tension: a government with Lok Sabha majority may lack Rajya Sabha majority, forcing negotiation or deadlock (e.g., GST Bill 2017). A wrong answer treating both as \"elected representatives\" misses the structural difference in democratic mandate: one represents citizens, the other represents states.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Rajya Sabha is an undemocratic obstruction because its members are not directly elected by the people, unlike Lok Sabha.\" Use constitutional design principles to support your judgment.",
+     "a": "The argument is flawed: it applies a unitary democratic standard to a federal institution. Rajya Sabha's indirect election (Article 80) is a deliberate federal design choice — states as political units need representation at the centre, just as the US Senate represents states. Calling it \"undemocratic\" confuses popular democracy with federal democracy. The Constitution balances both (Article 1: \"Union of States\"). A wrong answer agreeing with the statement reveals a unitary bias, ignoring that federalism requires institutionalising state equality, not just population equality.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph justification for a hypothetical new Indian state (population 5 million) demanding 5 Rajya Sabha seats instead of the current 1, citing the constitutional principle of federal representation.",
+     "a": "A strong answer cites Article 80's allocation principle (roughly proportional to population but with minimum representation), argues that tiny states get disproportionate voice (e.g., Sikkim: 1 seat for 6 lakh people vs UP: 31 seats for 200 million), and proposes a formula balancing state equality with population equity — showing understanding that bicameralism's federal rationale requires constant negotiation between these principles. A weak answer demands \"equal seats for all states\" (US model) ignoring India's 'holding together' federalism where population weight matters.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

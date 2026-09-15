@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_04_006",
+   "title": "c11_geo_cbse_04_006",
+   "questions": [
+    {
+     "q": "What is the primary modern technology used to create high-resolution maps of the ocean floor, and what physical principle does it rely on?",
+     "a": "Multibeam echo sounding (sonar) is the primary ship-based technology; it emits multiple sound beams simultaneously and measures the time for echoes to return, calculating depth from the speed of sound in water (≈1500 m/s). A wrong answer (e.g., \"satellite photography\") reveals confusion between sea-surface imaging and seabed topography, and ignorance of sound propagation in water.",
+     "self_check": true
+    },
+    {
+     "q": "Why are mid-oceanic ridges elevated compared to the surrounding abyssal plains, and what does this elevation indicate about the underlying mantle?",
+     "a": "Ridges stand 2–3 km above abyssal plains because newly formed oceanic lithosphere is hot and buoyant; as it moves away and cools, it subsides. The elevation signals active upwelling of hot asthenosphere beneath the ridge axis. A wrong answer (e.g., \"ridges are piles of sediment\") shows a fundamental misunderstanding of crustal creation vs. deposition.",
+     "self_check": true
+    },
+    {
+     "q": "A research vessel crosses the Mid-Atlantic Ridge at 30°N. The echo sounder records a depth of 2500 m at the ridge crest and 4500 m on the flanks 100 km away. Assuming the ridge crest is the spreading center, calculate the approximate age of the crust at the flank location if the half-spreading rate is 1.2 cm/yr. (Use the relationship: depth ∝ √age, with depth at ridge crest ≈2500 m and depth increase of ~350 m per √Myr.)",
+     "a": "Depth difference = 2000 m. Using the empirical relation: Δdepth ≈ 350 √(age in Myr) → √age ≈ 2000/350 ≈ 5.71 → age ≈ 32.6 Myr. Distance = 100 km = 10^7 cm. Half-spreading rate = 1.2 cm/yr → age = distance/rate = 10^7/1.2 ≈ 8.3 Myr. The discrepancy indicates the simple √age model is approximate; actual depth-age curves flatten for older crust. A wrong calculation (e.g., ignoring unit conversion) reveals poor quantitative skills and misunderstanding of the depth-age relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the morphology of the Mid-Atlantic Ridge (slow-spreading) and the East Pacific Rise (fast-spreading). How do their axial valley vs. axial high structures reflect differences in magma supply and spreading rate?",
+     "a": "Slow-spreading ridges (MAR) have a deep axial rift valley (1–2 km deep) because low magma supply cannot fill the gap, leading to faulting. Fast-spreading ridges (EPR) have a broad axial high (few hundred meters) due to abundant magma creating a volcanic plateau. A wrong answer (e.g., \"both have rift valleys\") misses the first-order control of spreading rate on ridge morphology.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Satellite altimetry has made ship-based multibeam surveys obsolete for mapping mid-ocean ridges.\" Consider resolution, coverage, and the need for ground-truthing.",
+     "a": "Satellite altimetry (e.g., CryoSat-2, Jason-1) provides global coverage at ~5 km resolution, revealing previously unknown seamounts and fracture zones, but cannot resolve fine-scale ridge features (hydrothermal vents, fissures) that require <100 m resolution from multibeam. Ships remain essential for detailed studies and calibration. A wrong evaluation (e.g., \"satellites are better because they cover everything\") ignores the trade-off between coverage and resolution.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a topographic map of a mid-ocean ridge segment (provided) to identify the spreading center, transform faults, and the direction of plate motion. What map symbols and patterns would you look for?",
+     "a": "Look for the axial high/rift valley (spreading center), offset linear features (transform faults) perpendicular to the ridge axis, and symmetric magnetic anomaly patterns (if magnetic data overlay). The direction of plate motion is perpendicular to the ridge axis, away from the center. A poor design (e.g., only looking at depth contours without considering offsets) shows inability to integrate multiple datasets.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

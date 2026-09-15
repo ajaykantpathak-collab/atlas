@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_bio_ch1_1",
+ "concepts": [
+  {
+   "id": "enh:c8_bio_ch1_1",
+   "title": "c8_bio_ch1_1",
+   "questions": [
+    {
+     "q": "What specific plant material did Robert Hooke examine when he first observed and named \"cells\"?",
+     "a": "Robert Hooke examined a thin slice of cork obtained from the bark of an oak tree. A student who incorrectly answers with \"onion peel\" or \"pond water\" is confusing Hooke's discovery of dead plant cell walls with Leeuwenhoek's discovery of living microorganisms or later plant tissue studies.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Robert Hooke choose the term \"cell\" to describe the structures he saw in cork?",
+     "a": "Hooke called them cells because the empty box-like compartments reminded him of the small, bare rooms, called *cella*, where monks lived in a monastery. A student who thinks he chose the word because they generated battery-like electrical energy is applying modern electrochemical definitions rather than historical botanical terminology.",
+     "self_check": true
+    },
+    {
+     "q": "If Antonie van Leeuwenhoek looked at a sample of stagnant pond water using his hand-ground microscope, what major difference would he observe compared to Robert Hooke's cork observation?",
+     "a": "Leeuwenhoek observed motile, living microorganisms (bacteria and protozoa) moving around, whereas Hooke observed dead, empty plant cell walls (cork chambers) that showed no movement or living content. A student who claims both saw living animal cells fails to distinguish between Hooke's observation of dead plant structural walls and Leeuwenhoek's observation of live single-celled organisms.",
+     "self_check": true
+    },
+    {
+     "q": "How did the optical quality of Antonie van Leeuwenhoek's microscopes differ from Robert Hooke's compound microscope, and how did this affect their discoveries?",
+     "a": "Leeuwenhoek used simple microscopes with a single, highly polished, powerful lens that achieved higher magnification and clarity, allowing him to see tiny moving bacteria. Hooke used a compound microscope with multiple lenses which suffered from optical distortions but gave a wider view, making it ideal for viewing structured tissue slices like cork. A student who thinks Leeuwenhoek had a more complex multi-lens microscope has inverted the historical designs of simple versus compound instruments.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that because Robert Hooke discovered cells in 1665, scientists immediately understood that all living animals and plants were made of functioning microscopic units. Evaluate this claim.",
+     "a": "The claim is false because Hooke only saw the empty outer walls of dead plant cells in cork and did not understand their living contents or internal complexity. It took nearly two centuries of technological and observational improvements by many scientists before the full cell theory was established. A student who believes Hooke understood full cellular biology overlooks the primitive nature of early 17th-century observations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple investigation using household items to demonstrate the core principle behind how Hooke and Leeuwenhoek magnified hidden objects.",
+     "a": "A student should propose filling a clear, curved glass sphere or a small plastic drop of water on a transparent plastic sheet over a printed letter, observing how the curved transparent medium bends light rays to magnify the image. A poor answer simply suggests using a standard magnifying glass without explaining how the curvature of the lens bends light to enlarge the view of small objects.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

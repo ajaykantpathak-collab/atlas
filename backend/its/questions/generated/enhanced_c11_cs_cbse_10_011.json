@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_10_011",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_10_011",
+   "title": "c11_cs_cbse_10_011",
+   "questions": [
+    {
+     "q": "What is the correct Python list method to implement the enqueue operation (adding an element to the rear of the queue)?",
+     "a": "The correct method is `list.append(element)`. A wrong answer like `list.insert(0, element)` or `list.appendleft(element)` reveals the student confuses queue's rear insertion with stack's top insertion or deque's left insertion. They may not grasp that enqueue adds to the rear (end) of the queue, which corresponds to the highest index in a list.",
+     "self_check": true
+    },
+    {
+     "q": "In a queue implemented using a Python list where `enqueue` uses `append()`, which list method correctly implements `dequeue` (removing from the front), and what is its time complexity?",
+     "a": "The correct method is `list.pop(0)` with O(n) time complexity. A wrong answer of `list.pop()` (which removes from the end, O(1)) reveals the student confuses queue's FIFO behavior with stack's LIFO behavior. Answering O(1) for `pop(0)` shows they don't understand that removing the first element requires shifting all subsequent elements left by one position in memory.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python function `dequeue(queue_list)` that removes and returns the front element from a queue implemented as a list. Handle the case when the queue is empty by returning `None` and printing \"Queue Underflow\".",
+     "a": "```python\ndef dequeue(queue_list):\n    if len(queue_list) == 0:\n        print(\"Queue Underflow\")\n        return None\n    return queue_list.pop(0)\n```\nA wrong answer using `queue_list.pop()` without index reveals the student implements stack pop instead of queue dequeue. Forgetting the underflow check shows they don't handle edge cases — a critical error in board exams where defensive programming is required.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the time complexities of enqueue and dequeue operations when a queue is implemented using a Python list. Why does this asymmetry exist, and how does it affect performance for a queue with 10,000 elements where we perform 5,000 enqueue-dequeue pairs?",
+     "a": "Enqueue (`append()`) is O(1) amortized; dequeue (`pop(0)`) is O(n). The asymmetry exists because `append()` adds at the end (no shifting), while `pop(0)` removes from the front, forcing Python to shift all n-1 remaining elements left by one index. For 5,000 pairs on a 10,000-element queue, total operations ≈ Σ(10,000 + 9,999 + ... + 5,001) ≈ 37.5 million shifts — extremely slow. A student missing the shifting explanation or calculating only 5,000 × 10,000 = 50M without the series sum shows incomplete analysis.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this queue class. Identify the bug and explain why it violates FIFO:\n```python\nclass Queue:\n    def __init__(self):\n        self.items = []\n    def enqueue(self, item):\n        self.items.insert(0, item)  # Bug here\n    def dequeue(self):\n        if self.is_empty():\n            return None\n        return self.items.pop()\n```",
+     "a": "The bug: `enqueue` uses `insert(0, item)` (adds to front) and `dequeue` uses `pop()` (removes from end). This implements LIFO (stack), not FIFO (queue). The first item inserted goes to index 0, but subsequent inserts push it right; `pop()` removes the last inserted item. A student saying \"it still works, just reversed\" misunderstands that FIFO order is fundamentally violated — the queue semantics are broken, not just reversed. This is a classic conceptual error confusing front/rear orientation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scenario where a list-based queue's O(n) dequeue becomes a real bottleneck. Describe the situation, estimate the performance impact, and propose the Python standard library solution that fixes it (name only, no code needed).",
+     "a": "Scenario: A web server handles 1,000 requests/second using a list-based queue. Each request is enqueued, processed, then dequeued. With average queue length 500, each dequeue shifts ~250 elements on average. Per second: 1,000 × 250 = 250,000 shifts. Over 1 hour: 900 million shifts — causing noticeable latency. Solution: `collections.deque` which provides O(1) append and popleft. A student proposing \"use a linked list\" without naming `deque` shows they know the theory but not the practical Python tool — a gap in board exam readiness where specific module knowledge is tested.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

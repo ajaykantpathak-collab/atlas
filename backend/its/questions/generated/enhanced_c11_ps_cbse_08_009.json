@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_08_009",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_08_009",
+   "title": "c11_ps_cbse_08_009",
+   "questions": [
+    {
+     "q": "What was the core legal question in the Shah Bano case (1985) regarding the applicability of Section 125 CrPC to Muslim women?",
+     "a": "The core legal question was whether Section 125 CrPC (a secular, religion-neutral law providing maintenance to destitute wives) applies to Muslim women despite Muslim Personal Law limiting maintenance to the *iddat* period (three menstrual cycles after divorce). The Supreme Court held that Section 125 CrPC applies to all citizens irrespective of religion, as it is a measure of social justice, not a religious law. A wrong answer (e.g., \"The case banned triple talaq\" or \"It was about property rights\") reveals confusion between the Shah Bano case (maintenance) and later cases (Shayara Bano on triple talaq) or a misunderstanding of the distinction between personal law and general criminal procedure.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Supreme Court in Shah Bano (1985) recommend the enactment of a Uniform Civil Code (UCC) under Article 44?",
+     "a": "The Court recommended UCC because divergent personal laws based on religion create inequalities (especially for women) and hinder national integration; a common civil code would ensure gender justice and equality before law (Article 14) while promoting unity. The Court viewed UCC as a tool to eliminate intra-religious discrimination. A wrong answer (e.g., \"To impose Hindu law on Muslims\" or \"Because Article 44 is a Fundamental Right\") reveals the misconception that UCC is majoritarian imposition or legally enforceable, ignoring that Article 44 is a non-justiciable Directive Principle and the Court's intent was reformist, not majoritarian.",
+     "self_check": true
+    },
+    {
+     "q": "A Muslim woman is divorced and receives no maintenance beyond the *iddat* period. She files a petition under Section 125 CrPC in 2024. How would a court decide this today, considering the Muslim Women (Protection of Rights on Divorce) Act, 1986, and subsequent judicial interpretation (e.g., Danial Latifi case, 2001)?",
+     "a": "The court would grant maintenance. The 1986 Act was challenged in *Danial Latifi v. Union of India* (2001); the Supreme Court upheld the Act but interpreted \"fair and reasonable provision\" (Section 3(1)(a)) to include maintenance for the *entire life* of the divorced woman until she remarries, not just the *iddat* period. This reading harmonized the Act with Section 125 CrPC and Articles 14, 15, 21. A wrong answer (e.g., \"She gets nothing after *iddat* because the 1986 Act overrides CrPC\") shows ignorance of the judicial \"reading down\" technique that saved the Act from unconstitutionality and the principle that personal law cannot violate fundamental rights.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"Western model of secularism\" (mutual exclusion) and the \"Indian model\" (principled distance) in the context of the Shah Bano controversy. Which model better explains the Indian state's initial judicial intervention and subsequent legislative override?",
+     "a": "The Indian model (principled distance) explains both: the Court intervened (negative engagement) to end intra-religious domination (gender injustice in Muslim law), and the legislature later intervened (positive engagement for minority appeasement) but the judiciary re-interpreted that law to restore gender justice. The Western model (mutual exclusion) would forbid state interference in personal law entirely, leaving Muslim women without remedy. A wrong answer claiming \"Western model fits because the Court stayed out of religion\" ignores that the Court *did* intervene using a secular law (CrPC), and that the Indian state *does* reform personal laws (e.g., Hindu Code Bills), which is impossible under strict separation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"The Muslim Women (Protection of Rights on Divorce) Act, 1986, was a legitimate exercise of 'principled distance' because it respected Muslim minority rights under Article 25.\" Is this a valid defense of the Act?",
+     "a": "No, it is not a valid defense of the *original* Act. \"Principled distance\" permits state engagement with religion *only* to promote freedom and equality (intra- and inter-religious). The 1986 Act, as originally enacted, denied Muslim women maintenance rights available to other women under Section 125 CrPC, thereby *reinforcing* intra-religious domination (gender inequality) and violating Articles 14, 15, 21. It prioritized orthodox minority leadership over the fundamental rights of women within that minority. The Supreme Court in *Danial Latifi* (2001) effectively corrected this by re-interpreting the Act to align with principled distance. A wrong answer accepting the Act as \"principled distance\" confuses *non-interference* (Western model) or *appeasement* with *principled engagement for equality*.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph constitutional amendment proposal (under Article 368) that would make UCC a justiciable Fundamental Right while preserving cultural autonomy for tribal communities under Sixth Schedule. Justify each clause using the tension between Articles 14, 25, 44, and 371A.",
+     "a": "A good answer proposes: (1) Insert new Article 21A: \"The State shall enact a Uniform Civil Code governing marriage, divorce, inheritance, and adoption within ten years.\" (2) Proviso: \"Nothing in this Article shall apply to customary laws of Scheduled Tribes in Sixth Schedule areas (Articles 244, 371A) or any community currently governed by protected customary law, until they opt in via a resolution of their autonomous council.\" (3) Justification: Article 14/15/21 demand gender equality (justiciable); Article 25 protects religious practice but not gender-discriminatory personal law (per *Shah Bano*, *Shayara Bano*); Article 44 becomes enforceable; Article 371A/Sixth Schedule protect tribal autonomy (inter-religious/community equality). A poor answer either ignores tribal protections (violating inter-religious equality) or makes UCC optional (defeating Article 44's directive), showing failure to balance intra-religious reform with inter-religious diversity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

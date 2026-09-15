@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_12_003",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_12_003",
+   "title": "c11_math_cbse_12_003",
+   "questions": [
+    {
+     "q": "State the section formula for internal division in 3D for a point P dividing AB in ratio \\( m:n \\). Write the formula for the x-coordinate only.",
+     "a": "The x-coordinate is \\( x = \\frac{m x_2 + n x_1}{m+n} \\). A wrong answer like \\( \\frac{m x_1 + n x_2}{m+n} \\) reveals confusion about which endpoint corresponds to which part of the ratio (m goes with the second point B, n with the first point A). Another error is writing \\( \\frac{m x_2 - n x_1}{m-n} \\), which is the external division formula.",
+     "self_check": true
+    },
+    {
+     "q": "A point P divides the segment joining A(1, 2, 3) and B(4, 6, 9) internally in the ratio 2:1. Without calculating the exact coordinates, explain why the z-coordinate of P must be 7.",
+     "a": "The z-coordinates of A and B are 3 and 9. The difference is 6. Ratio 2:1 means P is 2 parts from A and 1 part from B, so it is \\( \\frac{2}{3} \\) of the way from A to B. \\( \\frac{2}{3} \\times 6 = 4 \\), so z = 3 + 4 = 7. If a student says 5, they likely used the ratio backwards (1:2) or averaged the coordinates. If they say 6, they might have taken the midpoint.",
+     "self_check": true
+    },
+    {
+     "q": "Find the coordinates of the point that divides the line segment joining A(-2, 4, 1) and B(4, -2, 7) internally in the ratio 3:2.",
+     "a": "Given: \\( A(-2,4,1), B(4,-2,7), m=3, n=2 \\).\nx = \\( \\frac{3(4) + 2(-2)}{5} = \\frac{12-4}{5} = \\frac{8}{5} = 1.6 \\)\ny = \\( \\frac{3(-2) + 2(4)}{5} = \\frac{-6+8}{5} = \\frac{2}{5} = 0.4 \\)\nz = \\( \\frac{3(7) + 2(1)}{5} = \\frac{21+2}{5} = \\frac{23}{5} = 4.6 \\)\nAnswer: \\( \\left( \\frac{8}{5}, \\frac{2}{5}, \\frac{23}{5} \\right) \\) or (1.6, 0.4, 4.6).\nA wrong answer like (0.4, 1.6, 4.6) reveals swapping x and y substitutions. An answer with denominator 3 (using m+n=3) reveals using the ratio numbers directly without summing.",
+     "self_check": true
+    },
+    {
+     "q": "Point P(3, 5, 7) divides the segment joining A(1, 2, 3) and B(x₂, y₂, z₂) internally in the ratio 1:2. Determine the coordinates of B. Compare the algebraic effort needed here versus finding P given A and B.",
+     "a": "Using \\( x = \\frac{m x_2 + n x_1}{m+n} \\) with m=1, n=2: \\( 3 = \\frac{1\\cdot x_2 + 2\\cdot 1}{3} \\Rightarrow 9 = x_2 + 2 \\Rightarrow x_2 = 7 \\). Similarly y₂ = 11, z₂ = 15. B(7, 11, 15).\nFinding B requires solving three linear equations (one per coordinate), while finding P is direct substitution. A student who cannot set up the equation for x₂ reveals inability to reverse the formula — a critical gap for board problems where an endpoint is unknown.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved: \"P divides A(2, 3, 4) and B(8, 9, 10) in ratio 1:3. P = ( (1*8+3*2)/4, (1*9+3*3)/4, (1*10+3*4)/4 ) = (3.5, 4.5, 5.5).\" Evaluate this solution. Is it correct? If not, identify the exact error.",
+     "a": "The solution is incorrect. The ratio 1:3 means m=1 (for B) and n=3 (for A). The student used m=1, n=3 correctly but the formula requires \\( \\frac{m x_2 + n x_1}{m+n} \\). For x: \\( \\frac{1(8) + 3(2)}{4} = \\frac{14}{4} = 3.5 \\) — this is actually correct! Wait, check y: \\( \\frac{1(9)+3(3)}{4} = \\frac{18}{4}=4.5 \\), z: \\( \\frac{1(10)+3(4)}{4}=\\frac{22}{4}=5.5 \\). The calculation is correct. But the student wrote the formula as (1*8+3*2)/4 etc. which matches. So the solution is correct. A student who claims it's wrong might think ratio 1:3 means 1 part from A, 3 from B (i.e., m=3, n=1). That would give (6.5, 7.5, 8.5). The error would be misassigning m and n to endpoints.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) where a drone flies from point A to point B in 3D space and you need to find the coordinates where it should drop a package at a specific internal division ratio. Specify all coordinates and the ratio, and explain why the section formula is the right tool.",
+     "a": "Example: A drone takes off from a warehouse at A(100, 50, 20) metres (x=east, y=north, z=altitude) and flies to a delivery point B(400, 300, 120) metres. It must drop a package at a point one-fourth of the way from A to B (ratio 1:3). The section formula gives the exact drop coordinates because the drone travels in a straight line in 3D, and the package release point divides the segment internally in the given ratio. A good answer includes correct coordinates, correct ratio interpretation (m=1 for B, n=3 for A), and justification that the path is a straight line segment. A poor answer might use 2D formula ignoring altitude, or use external division.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

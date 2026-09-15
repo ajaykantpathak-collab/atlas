@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_16_011",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_16_011",
+   "title": "c11_ps_cbse_16_011",
+   "questions": [
+    {
+     "q": "Under which constitutional article is the Inter-State Council established, and what is the primary condition for its creation by the President?",
+     "a": "The Inter-State Council is established under Article 263. The President can create it only if it appears to him that the public interest would be served by its establishment. A wrong answer (e.g., citing Article 262 or 280) reveals confusion between the Inter-State Council, River Water Tribunals (Article 262), and Finance Commission (Article 280) — three distinct constitutional bodies with different mandates.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution provide for both the Supreme Court's original jurisdiction (Article 131) and the Inter-State Council (Article 263) for inter-state disputes? Explain the functional difference.",
+     "a": "Article 131 gives the Supreme Court exclusive original jurisdiction to adjudicate legal disputes between states (e.g., boundary, water rights) — its decisions are binding judicial orders. Article 263 creates a political body for consultation, investigation, and recommendation on disputes and common interests — its outputs are advisory, not binding. A wrong answer that treats them as interchangeable reveals a misunderstanding of the separation between judicial adjudication and executive/legislative coordination in federal dispute resolution.",
+     "self_check": true
+    },
+    {
+     "q": "A dispute arises between Odisha and Chhattisgarh over sharing of Mahanadi river water. The Odisha government wants to approach the Inter-State Council, while Chhattisgarh prefers the Supreme Court. As a constitutional advisor, which forum would you recommend for each state and why?",
+     "a": "Recommend the Supreme Court under Article 131 for a binding legal determination on water rights — this is a justiciable dispute over legal entitlements. Recommend the Inter-State Council for broader basin management, data sharing, and cooperative arrangements — these require political negotiation. A wrong answer suggesting only one forum shows inability to distinguish adjudication (legal rights) from coordination (policy cooperation), a core analytical skill in federalism.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Inter-State Council and Zonal Councils in terms of constitutional status, composition, and mandate. Why do both exist despite apparent overlap?",
+     "a": "The Inter-State Council is constitutional (Article 263), chaired by the Prime Minister, with all CMs and Union Ministers — national scope for any inter-state/Union-state issue. Zonal Councils are statutory (States Reorganisation Act, 1956), chaired by Union Home Minister, with CMs and Ministers of zone states — regional scope for economic/social planning. Both exist because federalism needs both a national apex forum and regional operational forums. A wrong answer conflating them reveals ignorance of the constitutional-statutory distinction and the scalar logic of federal coordination.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the Inter-State Council since its reconstitution in 1990. Has it strengthened cooperative federalism or remained a \"talking shop\"? Support your judgment with two specific examples.",
+     "a": "The Council has been uneven — effective on GST design (pre-GST Council) and some coordination issues, but dormant for years (only 11 meetings in 30 years) and sidelined on major disputes like Cauvery or Belgaum. It strengthened cooperative federalism during GST negotiations but failed as a dispute resolution body because its recommendations are non-binding and political will is inconsistent. A wrong answer calling it \"fully effective\" or \"totally useless\" shows inability to evaluate institutional performance contextually — a key evaluative skill.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph proposal for reforming the Inter-State Council to make it a more effective dispute resolution mechanism, addressing composition, binding nature of decisions, and relationship with Article 131 jurisdiction.",
+     "a": "A strong proposal would: (1) make Council recommendations binding on policy coordination matters (not legal rights), (2) mandate quarterly meetings with a permanent secretariat, (3) include opposition-ruled state representation to prevent partisan capture, (4) create a fast-track mediation cell for disputes before they reach Article 131, and (5) clarify that Article 131 remains for legal adjudication while the Council handles political settlement. A poor proposal ignores the constitutional distinction between adjudication and coordination or suggests making Council decisions legally binding on judicial matters — violating separation of powers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

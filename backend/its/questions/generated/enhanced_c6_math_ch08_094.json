@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch08_094",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch08_094",
+   "title": "c6_math_ch08_094",
+   "questions": [
+    {
+     "q": "What is the difference between a perimeter and an area in terms of the units used?",
+     "a": "Perimeter is measured in linear units (like cm or m), while area is measured in square units (like sq cm or sq m). A student who confuses these often thinks both describe length, failing to realize area represents a two-dimensional surface space.",
+     "self_check": true
+    },
+    {
+     "q": "If you have a wire of length 20 cm, why does bending it into different rectangular shapes change the area but keep the perimeter the same?",
+     "a": "The perimeter remains constant because the total length of the wire (the boundary) does not change. The area changes because the arrangement of those boundary lines encloses a different amount of internal space. An incorrect answer suggests the student thinks area and perimeter are always linked proportionally.",
+     "self_check": true
+    },
+    {
+     "q": "A rectangular garden is 10 m long and 5 m wide. If you want to put a fence around it, how much wire do you need?",
+     "a": "1. Identify the shape: rectangle. 2. Identify the goal: fencing the edge, which is perimeter. 3. Use formula: $2 \\times (10 + 5) = 2 \\times 15 = 30$. 4. Final answer: 30 m. A student who calculates $10 \\times 5 = 50$ is confusing area with perimeter.",
+     "self_check": true
+    },
+    {
+     "q": "If a square park has a perimeter of 40 m, how can you determine the area of the park?",
+     "a": "1. Find the side: $40 \\div 4 = 10$ m. 2. Use area formula: $10 \\times 10 = 100$ sq m. A student who tries to divide the perimeter by something other than 4 or multiplies the perimeter by itself shows a lack of understanding of the relationship between side length and square properties.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible for two different rectangles to have the same area but different perimeters? Explain.",
+     "a": "Yes. For example, a $2 \\times 6$ rectangle and a $3 \\times 4$ rectangle both have an area of 12 sq units, but their perimeters are 16 and 14 units respectively. Justifying this shows the student understands that dimensions, not just area, dictate the boundary length.",
+     "self_check": true
+    },
+    {
+     "q": "Create a problem where someone needs to calculate the area of a floor but must subtract a portion for a rug. What are the steps to solve it?",
+     "a": "A good problem involves calculating the total floor area, calculating the rug area, and subtracting the rug area from the floor area. A poor response would simply add the two areas, showing a failure to visualize the \"subtraction\" of space.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

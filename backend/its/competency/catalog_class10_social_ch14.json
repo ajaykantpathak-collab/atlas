@@ -1,0 +1,460 @@
+{
+ "class": "10",
+ "subject": "social_science",
+ "chapter": "14",
+ "chapter_title": "Federalism",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess402.txt",
+ "concepts": [
+  {
+   "id": "c10ss.14.1",
+   "title": "What is Federalism",
+   "section": "What is Federalism",
+   "definition": "Federalism is a system of government in which power is divided between a central authority and its constituent units (states/provinces). In a federal system, the central government and state governments are both answerable to the people, and each has its own jurisdiction defined by the constitution.",
+   "formula": "",
+   "key_idea": "Federalism divides power between the central government and constituent units, with each level having its own sphere of authority guaranteed by the constitution.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define federalism and explain its key features.",
+    "How is power divided in a federal system?",
+    "What is the difference between federal and unitary government?",
+    "Why is federalism suitable for large and diverse countries?",
+    "Explain the concept of jurisdiction in a federal system."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define federalism",
+     "explain": "Explain that federalism is a system of government where power is divided between a central authority and constituent units."
+    },
+    {
+     "step": 2,
+     "action": "Explain the division of jurisdiction",
+     "explain": "Describe how the constitution defines the powers of each level so that each governs in its own sphere."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate the suitability of federalism",
+     "explain": "Assess why federalism is appropriate for large and diverse countries with regional variations."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is federalism?",
+     "solution": "Federalism is a system of government in which the power is divided between a central authority and its constituent units such as states or provinces. Both levels of government are answerable to the people and each has its own jurisdiction defined by the constitution.",
+     "answer": "Division of power between central authority and constituent units."
+    },
+    {
+     "question": "Why is federalism suitable for large countries?",
+     "solution": "Large countries have diverse populations with different languages, cultures, and needs. Federalism allows regional governments to address local needs while the central government handles national matters, accommodating diversity effectively.",
+     "answer": "It accommodates regional diversity in large countries."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define federalism. Explain its significance.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How is power divided between the central and state governments in a federal system?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.14.2",
+   "title": "Features of Federalism",
+   "section": "Features of Federalism",
+   "definition": "Federalism has key features: (1) different tiers of government with their own jurisdiction; (2) a written constitution specifying the powers of each tier; (3) each tier having its own source of revenue; and (4) the fundamental provisions of the constitution requiring consent of both levels for change. There are two routes to forming federations: coming together (independent states uniting) and holding together (a large country dividing into constituent units).",
+   "formula": "",
+   "key_idea": "Federalism is characterised by multiple tiers with defined jurisdiction, a written constitution, independent revenue sources, and mutual consent for constitutional change.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "List the key features of federalism.",
+    "Why does a federal system require a written constitution?",
+    "Explain the importance of independent revenue sources for each tier of government.",
+    "Distinguish between 'coming together' and 'holding together' federations.",
+    "Why is the consent of both levels required to change the constitution in a federal system?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the key features of federalism",
+     "explain": "Note multiple tiers with jurisdiction, written constitution, independent revenue, and requirement of consent for constitutional change."
+    },
+    {
+     "step": 2,
+     "action": "Explain each feature",
+     "explain": "Describe how a written constitution defines powers, revenue sources ensure autonomy, and consent protects both levels."
+    },
+    {
+     "step": 3,
+     "action": "Distinguish the two routes to federation",
+     "explain": "Compare 'coming together' federations (like USA) with 'holding together' federations (like India)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the key features of federalism?",
+     "solution": "The key features are: (1) different tiers of government with their own jurisdiction; (2) a written constitution specifying powers of each tier; (3) each tier having its own source of revenue; and (4) fundamental provisions requiring consent of both levels for change.",
+     "answer": "Multiple tiers, written constitution, independent revenue, mutual consent for change."
+    },
+    {
+     "question": "Distinguish between 'coming together' and 'holding together' federations.",
+     "solution": "In 'coming together' federations, independent states come together to form a bigger unit (e.g., USA, Switzerland). In 'holding together' federations, a large country decides to divide itself into constituent units (e.g., India, Spain). Holding together federations tend to give more power to the central government.",
+     "answer": "Coming together: states unite; holding together: a country divides into units."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the key features of federalism.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Differentiate between 'coming together' and 'holding together' federations with examples.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.14.3",
+   "title": "Unitary vs Federal System of Government",
+   "section": "Features of Federalism",
+   "definition": "In a unitary system, the central government can pass orders to provincial governments, which are subordinate. In a federal system, the central government cannot order the state governments to do something; state governments have their own powers and are not subordinate to the centre. However, many federations have unitary features for flexibility.",
+   "formula": "",
+   "key_idea": "The key distinction is that in federalism, state governments are not subordinate to the central government and have their own constitutional powers, unlike in a unitary system.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Distinguish between unitary and federal systems of government.",
+    "How does the relationship between centre and states differ in unitary and federal systems?",
+    "Can a federal system have unitary features? Explain.",
+    "Why do federal systems often include some unitary features?",
+    "Compare the power of the central government in unitary and federal systems."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the unitary system",
+     "explain": "Explain that in a unitary system, the central government can pass orders to provincial governments, which are subordinate."
+    },
+    {
+     "step": 2,
+     "action": "Define the federal system",
+     "explain": "Explain that in a federal system, the central government cannot order states; states have their own powers and are not subordinate."
+    },
+    {
+     "step": 3,
+     "action": "Compare and note the overlap",
+     "explain": "Assess how many federations incorporate unitary features for flexibility while retaining the federal structure."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does a unitary system differ from a federal system?",
+     "solution": "In a unitary system, the central government can pass orders to provincial governments which are subordinate to it. In a federal system, the central government cannot order the state governments to do something; state governments have their own powers and are not agents of the central government.",
+     "answer": "Unitary: provinces subordinate; Federal: states have own powers."
+    },
+    {
+     "question": "Does India have unitary features despite being federal? Explain.",
+     "solution": "Yes. India is federal but has unitary features. For example, the central government has more powers, governors are appointed by the centre, and during emergencies the centre can take over state administration. These features provide flexibility.",
+     "answer": "Yes, India has unitary features for flexibility despite being federal."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between unitary and federal systems of government.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Explain why federal systems may include unitary features.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.14.4",
+   "title": "Federalism in India",
+   "section": "Federalism in India",
+   "definition": "India is a federal country with three tiers of government: the Union Government (central), State Governments, and (after 1992) local self-governments. The Constitution divides powers through the Union List, State List, and Concurrent List. India is a 'holding together' federation where the central government tends to be more powerful than the states.",
+   "formula": "",
+   "key_idea": "India is a federal country with three tiers, a constitution-based division of powers, and a stronger central government typical of holding-together federations.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How is federalism practised in India?",
+    "Explain the three lists that divide powers in India.",
+    "Why is the Indian central government more powerful than the states?",
+    "What type of federation is India and why?",
+    "Describe the three tiers of government in India."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the structure of Indian federalism",
+     "explain": "Note the three tiers: Union Government, State Governments, and local self-governments."
+    },
+    {
+     "step": 2,
+     "action": "Explain the division of powers through lists",
+     "explain": "Describe the Union List (central subjects), State List (state subjects), and Concurrent List (both)."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate the nature of the Indian federation",
+     "explain": "Assess that India is a 'holding together' federation with a stronger centre, and residual powers lie with the centre."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How are powers divided between the centre and states in India?",
+     "solution": "The Constitution divides powers through three lists: the Union List (subjects like defence, foreign affairs - central government), the State List (subjects like police, agriculture - state governments), and the Concurrent List (subjects like education, marriage - both can make laws, but central law prevails in conflict).",
+     "answer": "Through Union, State, and Concurrent Lists."
+    },
+    {
+     "question": "Why is the central government more powerful than the states in India?",
+     "solution": "India is a 'holding together' federation. The central government has more powers: it has more subjects in the Union List, residuary powers rest with the centre, and during emergencies the centre can take over state administration.",
+     "answer": "More subjects, residuary powers, and emergency powers lie with the centre."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how federalism is practised in India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Describe the three lists that divide powers between the centre and states.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.14.5",
+   "title": "Three Tiers of Government",
+   "section": "Federalism in India",
+   "definition": "Originally, India had two tiers: the Union Government and State Governments. After the 1992 constitutional amendments, a third tier of federalism - local self-government (Panchayats and Municipalities) - was added, making India a three-tier federal system.",
+   "formula": "",
+   "key_idea": "India's federalism has three tiers: the Union Government, State Governments, and local self-governments, the third tier added by constitutional amendment in 1992.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the three tiers of government in India?",
+    "When and why was the third tier of government added in India?",
+    "Explain the significance of the third tier of federalism.",
+    "Name the institutions that form the third tier of government.",
+    "How did the 1992 amendments change Indian federalism?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the three tiers of government",
+     "explain": "Note the Union Government, State Governments, and local self-governments (Panchayats and Municipalities)."
+    },
+    {
+     "step": 2,
+     "action": "Explain the addition of the third tier",
+     "explain": "Describe how the 1992 constitutional amendments added local self-government as the third tier."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate the significance of the third tier",
+     "explain": "Assess how local government brings administration closer to people and deepens democracy."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the three tiers of government in India?",
+     "solution": "The three tiers are: (1) the Union Government (central government), (2) State Governments, and (3) local self-governments - Panchayats in rural areas and Municipalities in urban areas.",
+     "answer": "Union Government, State Governments, and local self-governments."
+    },
+    {
+     "question": "Why was the third tier of government added in India?",
+     "solution": "The third tier was added through constitutional amendments in 1992 to make local self-government more effective and to bring administration closer to the people, deepening democracy and decentralising power.",
+     "answer": "To decentralise power and bring administration closer to people."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the three tiers of government in India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why was the third tier of federalism introduced? Explain.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.14.6",
+   "title": "Linguistic States and Language Policy",
+   "section": "Federalism in India",
+   "definition": "The creation of linguistic states was the first major test of democratic politics in India. From 1947, many old states vanished and new ones were created to ensure people speaking the same language lived in the same state. India's language policy did not give the status of 'national language' to any one language; Hindi was identified as the official language, and English was retained as an associate official language. Besides, states could have their own official languages.",
+   "formula": "",
+   "key_idea": "India accommodated linguistic diversity by creating linguistic states and adopting a flexible language policy with Hindi as official language, English as associate, and state-level official languages.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How were linguistic states created in India?",
+    "Explain India's language policy.",
+    "Why was Hindi not given the status of national language?",
+    "What is the significance of the creation of linguistic states?",
+    "How does India's language policy reflect federalism?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the creation of linguistic states",
+     "explain": "Describe how states were reorganised so that people speaking the same language lived in the same state, starting from the 1950s."
+    },
+    {
+     "step": 2,
+     "action": "Explain India's language policy",
+     "explain": "Describe that no national language was declared, Hindi is the official language, English is associate official, and states have their own official languages."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate the significance of these arrangements",
+     "explain": "Assess how linguistic states strengthened national unity and the language policy accommodated diversity without imposing one language."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How were linguistic states created in India?",
+     "solution": "From 1947 onwards, many old states vanished and new ones were created to ensure that people who spoke the same language lived in the same state. Some states were created to recognise differences based on culture, ethnicity, or geography, not just language, such as Nagaland, Uttarakhand, and Jharkhand.",
+     "answer": "States reorganised so people of the same language lived together."
+    },
+    {
+     "question": "Explain India's language policy.",
+     "solution": "The Constitution did not give the status of national language to any one language. Hindi was identified as the official language. Besides Hindi, English was to be used as an associate official language. The states could have their own official languages, and the use of English was to continue as long as the non-Hindi speaking states wanted.",
+     "answer": "No national language; Hindi official, English associate, states have own languages."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the creation of linguistic states in India and its significance.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Describe India's language policy. How does it reflect federalism?",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.14.7",
+   "title": "Centre-State Relations and Decentralisation",
+   "section": "Federalism in India",
+   "definition": "Centre-state relations determine how federalism works in practice. Originally, the central government often misused the Constitution to dismiss state governments. After 1990, the rise of regional parties and coalition governments at the centre changed this, making the centre more respectful of state autonomy. Decentralisation is the sharing of power among nations, states, and local levels, and in India it was strengthened by the 1992 amendments that gave constitutional status to Panchayats and Municipalities.",
+   "formula": "",
+   "key_idea": "Federalism in India improved after 1990 due to coalition politics, and decentralisation was strengthened by giving constitutional status to local governments.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did centre-state relations change after 1990 in India?",
+    "What is decentralisation? Explain its importance.",
+    "How did coalition governments affect Indian federalism?",
+    "Explain the constitutional changes of 1992 regarding local government.",
+    "Why is decentralisation considered a form of power-sharing?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain centre-state relations before and after 1990",
+     "explain": "Describe how before 1990 the centre often dismissed state governments, and after 1990 coalition politics made the centre respect state autonomy."
+    },
+    {
+     "step": 2,
+     "action": "Define decentralisation",
+     "explain": "Explain that decentralisation is the sharing of power among different levels of government, including local government."
+    },
+    {
+     "step": 3,
+     "action": "Explain the 1992 constitutional changes",
+     "explain": "Describe how the amendments gave constitutional status to Panchayats and Municipalities, with regular elections, reservations, and devolution of powers."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did centre-state relations change after 1990?",
+     "solution": "Before 1990, the central government often misused the Constitution to dismiss state governments. After 1990, the rise of regional political parties and coalition governments at the centre meant no single party could impose its will; the centre had to respect the autonomy of state governments, strengthening federalism.",
+     "answer": "Coalition politics after 1990 made the centre respect state autonomy."
+    },
+    {
+     "question": "What is decentralisation and how was it strengthened in India?",
+     "solution": "Decentralisation is the sharing of power among nations, states, and local levels. In India, it was strengthened by the 1992 constitutional amendments which gave constitutional status to Panchayats and Municipalities, made elections mandatory, reserved seats for women, SCs, and STs, and devolved powers and resources to local bodies.",
+     "answer": "Sharing power to local levels; strengthened by 1992 amendments."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how centre-state relations changed after 1990 in India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is decentralisation? How was it strengthened in India?",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.14.8",
+   "title": "Decentralisation in India - Local Self-Government",
+   "section": "Decentralisation in India",
+   "definition": "Decentralisation in India involves a third tier of government - local self-government - comprising Panchayats in rural areas and Municipalities in urban areas. The 1992 constitutional amendments (73rd and 74th) gave them constitutional status, with regular elections, reservation of seats for women and marginalised groups, and devolution of powers and resources. Some states also have structures for very large states, but generally the basic structure is uniform.",
+   "formula": "",
+   "key_idea": "Decentralisation in India created a third tier of local self-government with constitutional guarantees for elections, representation, and devolution of powers.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the structure of local self-government in India.",
+    "What were the main provisions of the 1992 constitutional amendments on local government?",
+    "How does decentralisation deepen democracy?",
+    "What is the difference between Panchayats and Municipalities?",
+    "Why is reservation of seats important in local self-government?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the structure of local self-government",
+     "explain": "Note Panchayats (rural) and Municipalities (urban) as the third tier, with Gram Panchayat, Panchayat Samiti, and Zilla Parishad at different levels."
+    },
+    {
+     "step": 2,
+     "action": "Explain the 1992 constitutional provisions",
+     "explain": "Describe regular elections, reservation of seats for women, SCs, and STs, and devolution of powers and resources."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate the impact of decentralisation",
+     "explain": "Assess how local government brings administration closer to people and deepens democracy."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What were the main provisions of the 1992 constitutional amendments regarding local government?",
+     "solution": "The amendments: (1) gave constitutional status to Panchayats and Municipalities; (2) made it constitutionally mandatory to hold regular elections; (3) reserved seats for Scheduled Castes, Scheduled Tribes, and women (one-third); and (4) provided for devolution of powers and responsibilities to local bodies.",
+     "answer": "Constitutional status, regular elections, reservations, and devolution of powers."
+    },
+    {
+     "question": "What is the three-tier structure of Panchayati Raj?",
+     "solution": "The three-tier structure consists of: (1) Gram Panchayat at the village level, (2) Panchayat Samiti (Block/Mandal) at the block level, and (3) Zilla Parishad at the district level. This structure ensures local governance at every level of rural administration.",
+     "answer": "Gram Panchayat, Panchayat Samiti, and Zilla Parishad."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the structure and functions of local self-government in India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What were the main provisions of the 1992 constitutional amendments on decentralisation?",
+     "type": "long_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

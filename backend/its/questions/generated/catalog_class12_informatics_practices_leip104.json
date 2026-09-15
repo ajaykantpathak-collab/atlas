@@ -1,0 +1,130 @@
+{
+ "catalog": "catalog_class12_informatics_practices_leip104",
+ "concepts": [
+  {
+   "id": "leip104.1",
+   "title": "Plotting using Matplotlib",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Plotting using Matplotlib' refers to.",
+     "a": "Matplotlib's pyplot module draws data visualisations: plot() draws a line chart from two equal-length sequences (x values and y values), show() displays the figure, and title(), xlabel(), ylabel() annotate it. Visualisation turns a table of numbers into a shape the eye can reason about.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Plotting using Matplotlib'.",
+     "a": "plot(x, y) requires the two lists to have the same length; each (x, y) pair becomes a point and consecutive points are joined. Without show() nothing appears on screen.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Plotting using Matplotlib'.",
+     "a": "Write the pyplot statements to draw a line chart of the given x and y lists.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip104.2",
+   "title": "Customisation of Plots Marker Colour Linewidth",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Customisation of Plots Marker Colour Linewidth' refers to.",
+     "a": "pyplot customises appearance through arguments: marker sets the shape drawn at each point (o, * , +), color sets the line colour, linewidth sets its thickness in points, and linestyle chooses solid, dashed or dotted. A format string like 'r--o' combines colour, style and marker in one argument.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Customisation of Plots Marker Colour Linewidth'.",
+     "a": "The format string packs three choices: 'r--' means a red dashed line, 'g^' means green triangles. Individual keyword arguments (linewidth, markersize) override the string for finer control.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Customisation of Plots Marker Colour Linewidth'.",
+     "a": "What does the format string 'r--o' specify in plot()?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip104.3",
+   "title": "Pandas Plot Function",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Pandas Plot Function' refers to.",
+     "a": "A DataFrame or Series carries its own plot accessor: df.plot() draws with sensible defaults, and df.plot(kind='bar'), kind='barh', kind='hist', kind='box' or kind='line' switch chart types. The index becomes the x axis for most kinds.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Pandas Plot Function'.",
+     "a": "The kind parameter chooses the visual: line for trends over order, bar for comparing categories, histogram for the spread of one column, box for median and outliers at a glance.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Pandas Plot Function'.",
+     "a": "Write the pandas statement to draw a bar chart of column 'sales'.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip104.4",
+   "title": "Bar Chart Percentage Share",
+   "questions": [
+    {
+     "q": "Using the method 'Bar Chart Percentage Share', work with: v1 = 30, v2 = 360, v3 = 400, v4 = 75. Carry the chain through step by step and give the final value of share.",
+     "a": "3.4682 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Bar Chart Percentage Share' and work with: v1 = 6, v2 = 50, v3 = 150, v4 = 24. Carry the chain through step by step and give the final value of share.",
+     "a": "2.6087 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Bar Chart Percentage Share' refers to.",
+     "a": "A bar chart compares categories, and each category's share of the total is its value divided by the sum of all values, times 100. The share converts raw counts into comparable percentages.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Bar Chart Percentage Share'.",
+     "a": "Shares always sum to 100 when computed over one column. A bar of 40 among totals of 200 contributes a 20 percent share regardless of the units involved.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Bar Chart Percentage Share', in plain ASCII form.",
+     "a": "share = value / total * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leip104.5",
+   "title": "Line Chart Reading and Comparison",
+   "questions": [
+    {
+     "q": "Using the method 'Line Chart Reading and Comparison', work with: x1 = 360, x2 = 30, y1 = 150, y2 = 18. Carry the chain through step by step and give the final value of gap.",
+     "a": "132 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Line Chart Reading and Comparison' and work with: x1 = 12, x2 = 360, y1 = 150, y2 = 45. Carry the chain through step by step and give the final value of gap.",
+     "a": "105 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Line Chart Reading and Comparison' refers to.",
+     "a": "A line chart joins consecutive data points, so the vertical gap between two lines at the same x is the difference of their y values there, and the slope between two points is the change in y divided by the change in x.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Line Chart Reading and Comparison'.",
+     "a": "Steeper slope means faster change between the two x values. To compare two series at a given x, subtract the y values read from each line at that x.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Line Chart Reading and Comparison', in plain ASCII form.",
+     "a": "slope = (y2 - y1) / (x2 - x1)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

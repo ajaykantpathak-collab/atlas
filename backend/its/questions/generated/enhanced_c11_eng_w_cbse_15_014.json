@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_15_014",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_15_014",
+   "title": "c11_eng_w_cbse_15_014",
+   "questions": [
+    {
+     "q": "What does the acronym PEEL stand for in the context of writing analytical answers for literature?",
+     "a": "PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., \"Paragraph, Example, Explain, Conclusion\") reveals the student confuses the structural mnemonic with generic paragraph parts and does not know the specific analytical function of each step.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why simply quoting a line from \"Hawk Roosting\" without explaining its effect is insufficient for a Class 11 board answer.",
+     "a": "A quote alone shows you can locate text but not that you understand how language creates meaning. The examiner awards marks for the *Explanation* step where you analyse the device (e.g., metaphor, imagery) and its contribution to theme. A wrong answer that says \"quotes prove you read the poem\" reveals the misconception that evidence is an end in itself rather than a tool for analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the PEEL structure to answer this question in 3-4 sentences: \"How does the poem emphasise the physical prowess of the hawk?\" Use at least one poetic device in your evidence.",
+     "a": "Point: The poem emphasises the hawk's physical prowess through vivid anatomical imagery and metaphors of perfection. Evidence: In the first stanza, the \"hooked head and hooked feet\" are described as the result of \"the whole of Creation\" evolving to produce them. Explanation: The repetition of \"hooked\" and the hyperbole of \"whole of Creation\" suggest evolutionary perfection; the hawk's body is a precision instrument for killing. Link: This establishes the hawk as nature's ultimate predator, reinforcing the theme of instinctual dominance. A wrong answer that only lists \"hooked head, hooked feet, feathers\" without analysing the language shows the student can identify features but not interpret their literary function.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the following weak answer and identify which PEEL component is missing or underdeveloped: \"The hawk says 'I kill where I please because it is all mine.' This shows he is arrogant. He also says 'The sun is behind me' which means he thinks he is god-like. The poem is about power.\"",
+     "a": "The answer has Points and Evidence but lacks Explanation (no analysis of *how* the language creates the effect of arrogance or god-like imagery) and the Link is a vague theme statement not connected to the specific evidence. A student who cannot spot this missing Explanation step will write superficial answers that earn low marks for \"analysis\".",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"A creative writing response (e.g., a diary entry from the hawk's perspective) requires less textual evidence than an analytical answer.\" Defend your judgment with reference to board exam assessment objectives.",
+     "a": "The claim is false. Even creative tasks in CBSE Class 11 are assessed on \"understanding of the text\" and \"use of textual details\". A diary entry must embed the hawk's voice *using* the poem's imagery (e.g., \"rehearse perfect kills\", \"earth's face upward\") to show comprehension. A student who thinks creativity means inventing unrelated content will produce a response that scores poorly on \"relevance to the text\".",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-line stanza in free verse from the perspective of the hawk that captures its voice and worldview, using at least two poetic devices from the poem (e.g., metaphor, personification, imperative tone).",
+     "a": "I perch, the axis of the turning world,  \nMy claws the contract: life leased, not owned.  \nNo plea, no prayer—only the clean arc  \nOf descent, where gravity serves my hunger.  \n*Criteria for a good answer:* uses metaphor (\"axis of the turning world\", \"contract\"), imperative tone (\"No plea, no prayer\"), and reflects the hawk's solipsistic worldview. A poor answer writes a generic bird description (\"I fly high, I see a mouse\") showing failure to adopt the poem's specific persona.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

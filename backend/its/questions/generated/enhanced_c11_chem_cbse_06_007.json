@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_06_007",
+   "title": "c11_chem_cbse_06_007",
+   "questions": [
+    {
+     "q": "State the mathematical definition of Gibbs energy change (ΔG) and the spontaneity criterion for a process at constant temperature and pressure.",
+     "a": "ΔG = ΔH - TΔS where ΔH is enthalpy change, T is absolute temperature in Kelvin, and ΔS is entropy change. A process is spontaneous if ΔG < 0, non-spontaneous if ΔG > 0, and at equilibrium if ΔG = 0. A wrong answer (e.g., ΔG = ΔH + TΔS or spontaneity when ΔG > 0) reveals confusion between the sign convention for system vs surroundings, or mixing up the Helmholtz free energy (A = U - TS) with Gibbs energy.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the melting of ice (H₂O(s) → H₂O(l)) is spontaneous at 27°C but non-spontaneous at -10°C, even though ΔH and ΔS are both positive for this transition.",
+     "a": "For melting, ΔH > 0 (endothermic) and ΔS > 0 (increase in disorder). ΔG = ΔH - TΔS. At high T (27°C = 300 K), the -TΔS term dominates making ΔG < 0. At low T (-10°C = 263 K), the ΔH term dominates making ΔG > 0. The crossover occurs at T = ΔH/ΔS = 273 K (0°C). A wrong answer (e.g., \"ΔH changes with temperature\" or \"entropy decreases on melting\") reveals misunderstanding that ΔH and ΔS are approximately temperature-independent over small ranges, and that the TΔS term scales linearly with T while ΔH does not.",
+     "self_check": true
+    },
+    {
+     "q": "For the reaction N₂(g) + 3H₂(g) ⇌ 2NH₃(g), ΔH° = -92.4 kJ mol⁻¹ and ΔS° = -198.3 J K⁻¹ mol⁻¹. Calculate ΔG° at 298 K and 500 K. Determine the temperature above which the reaction becomes non-spontaneous under standard conditions.",
+     "a": "Step 1: Convert units: ΔS° = -0.1983 kJ K⁻¹ mol⁻¹.\nStep 2: At 298 K: ΔG° = -92.4 - (298)(-0.1983) = -92.4 + 59.1 = -33.3 kJ mol⁻¹ (spontaneous).\nStep 3: At 500 K: ΔG° = -92.4 - (500)(-0.1983) = -92.4 + 99.15 = +6.75 kJ mol⁻¹ (non-spontaneous).\nStep 4: Crossover T = ΔH°/ΔS° = (-92.4)/(-0.1983) = 466 K.\nStep 5: Above 466 K, ΔG° > 0. A wrong answer (e.g., forgetting unit conversion J→kJ, or using T in °C) reveals the most common error: inconsistent units between ΔH (kJ) and ΔS (J), or not converting Celsius to Kelvin for absolute temperature.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two reactions: Reaction A has ΔH° = -50 kJ mol⁻¹, ΔS° = +100 J K⁻¹ mol⁻¹. Reaction B has ΔH° = +50 kJ mol⁻¹, ΔS° = -100 J K⁻¹ mol⁻¹. Analyze the spontaneity of each at all temperatures. Which reaction's spontaneity is temperature-independent?",
+     "a": "Reaction A: ΔG = -50 - T(+0.1) = -50 - 0.1T. Since both terms are negative for all T > 0, ΔG < 0 always → spontaneous at all temperatures.\nReaction B: ΔG = +50 - T(-0.1) = 50 + 0.1T. Since both terms are positive for all T > 0, ΔG > 0 always → non-spontaneous at all temperatures.\nNeither reaction has temperature-dependent spontaneity reversal because ΔH and ΔS have the same sign in each case. A wrong answer (e.g., \"Reaction A becomes non-spontaneous at high T\" or \"Reaction B becomes spontaneous at low T\") reveals the misconception that the -TΔS term always opposes ΔH, when actually it reinforces ΔH when they have the same sign.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"For the reaction 2NO₂(g) ⇌ N₂O₄(g), ΔG° = -4.7 kJ mol⁻¹ at 298 K. Since ΔG° < 0, the forward reaction will proceed to completion, converting all NO₂ to N₂O₄.\" Evaluate this statement and correct the error.",
+     "a": "The statement is FALSE. ΔG° < 0 means K > 1 (products favored at equilibrium), NOT that the reaction goes to completion. At equilibrium, both NO₂ and N₂O₄ coexist. The actual equilibrium composition depends on K = e^(-ΔG°/RT) = e^(4700/(8.314×298)) ≈ 6.6. Starting with pure NO₂, the reaction proceeds forward until Q = K, leaving significant NO₂. A wrong evaluation (agreeing with the student) reveals the critical confusion between thermodynamic favorability (K > 1) and reaction completion (K → ∞). ΔG° indicates the position of equilibrium, not the extent of reaction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment to determine the standard Gibbs energy of formation (ΔfG°) of liquid water at 298 K using only the standard enthalpy of formation (ΔfH° = -285.8 kJ mol⁻¹) and standard molar entropies (S° values: H₂(g) = 130.7, O₂(g) = 205.1, H₂O(l) = 69.9 J K⁻¹ mol⁻¹). Write the balanced formation reaction and show all steps.",
+     "a": "Formation reaction: H₂(g) + ½O₂(g) → H₂O(l)\nStep 1: ΔfS° = S°(H₂O(l)) - [S°(H₂(g)) + ½S°(O₂(g))] = 69.9 - [130.7 + ½(205.1)] = 69.9 - 233.25 = -163.35 J K⁻¹ mol⁻¹\nStep 2: ΔfG° = ΔfH° - TΔfS° = -285.8 - 298(-0.16335) = -285.8 + 48.68 = -237.1 kJ mol⁻¹\nA poor answer (e.g., using S° of H₂O(g) instead of H₂O(l), or forgetting the ½ coefficient for O₂) reveals misunderstanding that ΔfG° requires the formation reaction from elements in their standard states, and that stoichiometric coefficients must be applied to entropy values just like enthalpy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

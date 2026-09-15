@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_14_002",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_14_002",
+   "title": "c11_bio_cbse_14_002",
+   "questions": [
+    {
+     "q": "State the approximate values of Tidal Volume (TV), Inspiratory Reserve Volume (IRV), Expiratory Reserve Volume (ERV), and Residual Volume (RV) for a healthy adult human. Which of these volumes CANNOT be measured directly by spirometry?",
+     "a": "TV ≈ 500 mL, IRV ≈ 2500–3000 mL, ERV ≈ 1000–1100 mL, RV ≈ 1100–1200 mL. RV cannot be measured by spirometry because it is the air that never leaves the lungs even after forced expiration; spirometry only measures air that can be exhaled. A wrong answer (e.g., saying all volumes are measurable) reveals the student does not understand that spirometry captures only *movable* air, confusing \"volume in lungs\" with \"volume exchanged.\"",
+     "self_check": true
+    },
+    {
+     "q": "During quiet inspiration, the diaphragm contracts and flattens. Explain *why* this causes air to enter the lungs, using the terms \"thoracic volume,\" \"intra-pulmonary pressure,\" \"atmospheric pressure,\" and \"pressure gradient.\"",
+     "a": "Diaphragm contraction increases thoracic volume in the antero-posterior axis → pulmonary volume increases → by Boyle's Law (P ∝ 1/V at constant temperature), intra-pulmonary pressure falls below atmospheric pressure (760 mm Hg) → a pressure gradient (Patm > Palv) is established → air flows *down* this gradient into the alveoli. A wrong answer (e.g., \"diaphragm pulls air in\" or \"negative pressure sucks air\") reveals the misconception that muscles actively suck air rather than creating a passive pressure gradient for bulk flow.",
+     "self_check": true
+    },
+    {
+     "q": "A patient has a spinal cord injury at C4 level, paralyzing the diaphragm but sparing the external intercostal muscles. Predict whether quiet inspiration is possible, and if so, which muscle group becomes the primary driver. Justify using the axes of thoracic expansion.",
+     "a": "Yes, quiet inspiration is possible but severely reduced. External intercostal muscles become the primary driver. They lift the ribs and sternum, increasing thoracic volume in the *dorso-ventral axis* (pump-handle and bucket-handle movements). The antero-posterior expansion from diaphragm contraction is lost. A wrong answer (e.g., \"no inspiration possible\" or \"internal intercostals take over\") reveals confusion between quiet vs. forced breathing muscles and the axes of rib movement.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mechanisms of quiet expiration and forced expiration. Identify the specific muscles involved in each and explain why forced expiration is an *active* process while quiet expiration is *passive*.",
+     "a": "Quiet expiration: passive; relaxation of diaphragm and external intercostals → elastic recoil of lungs and chest wall returns thoracic volume to resting state → intra-pulmonary pressure rises above atmospheric → air flows out. No muscles contract. Forced expiration: active; *internal intercostal muscles* (depress ribs) and *abdominal muscles* (rectus abdominis, obliques - push diaphragm up by compressing viscera) contract → further reduce thoracic volume beyond resting state → larger pressure gradient → rapid air expulsion. A wrong answer (e.g., naming external intercostals for forced expiration) reveals confusion between inspiratory and expiratory muscle roles.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"During forced inspiration, the scalenes and sternocleidomastoid muscles elevate the first and second ribs, increasing the antero-posterior diameter of the thorax.\" Is it correct? If not, correct the axis of expansion.",
+     "a": "The statement is *incorrect* about the axis. Scalenes and sternocleidomastoids elevate the upper ribs (1st and 2nd), increasing the *superior-inferior* (or vertical) dimension and the *antero-posterior* diameter *of the upper thorax*, but their primary effect is increasing the *vertical height* of the thoracic cavity. The main antero-posterior expansion of the *lower* thorax is driven by diaphragm contraction. A wrong evaluation (accepting the statement fully) reveals failure to distinguish regional thoracic mechanics and accessory muscle actions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom experiment using a 500 mL plastic bottle, a balloon, a Y-tube, and two balloons to model the mechanism of breathing. Specify which component represents the diaphragm, which represents the lungs, and demonstrate one inspiration-expiration cycle. Explain the limitation of this model regarding residual volume.",
+     "a": "Model: Bottle = thoracic cavity (rigid). Y-tube = trachea/bronchi. Two balloons on Y-tube arms = lungs. Third balloon stretched across bottle bottom = diaphragm. Pull bottom balloon down → volume inside bottle increases → lung balloons inflate (inspiration). Push bottom balloon up → volume decreases → lung balloons deflate (expiration). Limitation: Model cannot show *residual volume* because the \"lung\" balloons can collapse completely; real lungs never fully empty due to RV (≈1200 mL) maintained by surfactant and pleural pressure. A poor answer (omitting the limitation or misassigning components) reveals inability to translate abstract physiology into physical analogy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

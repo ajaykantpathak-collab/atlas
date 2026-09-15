@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_08_011",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_08_011",
+   "title": "c11_psy_cbse_08_011",
+   "questions": [
+    {
+     "q": "A student says: \"If I just stop feeling anxious and sad, I'll automatically become happy and optimistic.\" Using the NCERT distinction between managing negative emotions and enhancing positive emotions, explain why this statement reflects a fundamental misunderstanding.",
+     "a": "Correct answer: The statement incorrectly assumes positive and negative emotions exist on a single continuum where reducing one automatically increases the other. NCERT treats them as independent dimensions — managing negative emotions (coping, relaxation, cognitive restructuring) reduces distress, while enhancing positive emotions (cultivating optimism, gratitude, mastery) builds psychological resources. A person can be low in both negative and positive affect (apathetic), or high in both (intense emotional life). WRONG answer reveals: The student holds a \"hydraulic model\" of emotion — believing emotions work like a see-saw — and hasn't grasped the broaden-and-build theory's core claim that positive emotions create upward spirals independent of negative emotion reduction.",
+     "self_check": true
+    },
+    {
+     "q": "Riya failed her physics test. She thinks: \"I'm terrible at science; I'll never understand it.\" Her friend suggests: \"Maybe this test was unusually hard, or you didn't study the right topics — what if you change your approach?\" Identify which NCERT strategy for enhancing positive emotions the friend is using, and explain the cognitive mechanism involved.",
+     "a": "Correct answer: The friend is using \"Positive interpretations of most daily events\" (cognitive reappraisal/reinterpretation). The mechanism is challenging global, stable, internal attributions (\"I'm terrible at science; I'll never understand it\") and replacing them with specific, unstable, external alternatives (\"test was hard,\" \"wrong study strategy\") — this mirrors Seligman's learned optimism framework embedded in NCERT's \"perceptual reorganisation and cognitive restructuring.\" WRONG answer reveals: If the student identifies this as \"finding positive meaning in dire circumstances,\" they confuse meaning-making (deriving significance from suffering) with reappraisal (changing the interpretation of an event). If they say \"optimism,\" they're naming the trait rather than the specific cognitive strategy being deployed.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 11 student wants to apply the \"being engaged in work and gaining mastery\" strategy. They currently spend 3 hours daily on social media, 1 hour on homework, and feel bored and unmotivated. Design a 4-week mastery-building schedule using the NCERT framework that specifies: (a) how to select the mastery domain, (b) how to structure practice for flow, and (c) how to measure progress without grades.",
+     "a": "Correct answer: (a) Domain selection: Choose an activity at the intersection of interest (what they voluntarily read about), current skill level (not too easy/hard), and value alignment (connects to future goals) — e.g., if they like gaming, learn Python for game modding. (b) Flow structure: Week 1: 30 min/day tutorial + 15 min practice; Week 2: 20 min tutorial + 40 min project; Week 3: 60 min project with weekly micro-goal; Week 4: 90 min project + teach someone else. Each session has clear immediate feedback (code runs/doesn't run). (c) Progress metrics: Lines of functional code written, number of independent debugging successes, complexity of features implemented, peer/teacher feedback on project. WRONG answer reveals: If they suggest \"study harder for exams,\" they confuse performance goals (grades) with mastery goals (skill development). If they don't include immediate feedback loops, they miss the flow condition essential for mastery engagement.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"finding positive meaning in dire circumstances\" and \"positive interpretations of most daily events\" using the dimensions of: (i) temporal scope, (ii) cognitive complexity, (iii) triggering conditions, and (iv) relationship to post-traumatic growth vs. daily resilience.",
+     "a": "Correct answer: (i) Temporal scope: Meaning-making addresses past/present traumatic events (retrospective reconstruction); reinterpretation addresses ongoing daily hassles (real-time reframing). (ii) Cognitive complexity: Meaning-making requires narrative integration, identity revision, and existential processing (high complexity); reinterpretation uses attributional retraining and perspective-shifting (moderate complexity). (iii) Triggers: Meaning-making activated by major adversity (loss, failure, trauma); reinterpretation activated by routine stressors (traffic, criticism, minor setbacks). (iv) Outcomes: Meaning-making predicts post-traumatic growth (new priorities, deeper relationships, spiritual change); reinterpretation predicts daily resilience (faster emotional recovery, sustained motivation). WRONG answer reveals: If the student treats them as identical \"positive thinking,\" they miss that meaning-making transforms the event's significance in one's life story, while reinterpretation changes the event's causal explanation — the former is narrative, the latter is attributional.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim using NCERT content and broaden-and-build theory: \"Schools should replace all exam anxiety management workshops with gratitude journaling and optimism training, because positive emotions are more powerful than coping strategies.\" Provide three specific reasons why this is a flawed educational policy.",
+     "a": "Correct answer: (1) False dichotomy: NCERT presents managing negative emotions (Box 8.2: monitoring/blunting strategies for exam anxiety) and enhancing positive emotions as complementary, not competing — students need both downregulation of threat-response (amygdala) AND upregulation of reward/exploration systems (dopamine/PFC). (2) Context mismatch: Gratitude journaling doesn't address the physiological arousal (churning stomach, sympathetic activation) during an actual exam — inoculation, rehearsal, and relaxation do. (3) Developmental appropriateness: Adolescents with high test anxiety often have skill deficits (poor study habits, time management) that optimism training doesn't fix; monitoring strategies (prepare well, rehearse) build competence which then enables genuine optimism. WRONG answer reveals: If the student agrees with the claim, they've adopted \"toxic positivity\" — believing positive emotions can simply overwrite threat responses — and haven't understood that negative emotions serve adaptive functions (e.g., anxiety mobilises preparation) that shouldn't be eliminated.",
+     "self_check": true
+    },
+    {
+     "q": "Create a \"Positive Emotion Portfolio\" template for a Class 11 student that operationalises all six NCERT strategies into weekly measurable actions. The template must include: (a) one quantitative tracker per strategy, (b) one weekly reflection prompt per strategy, and (c) a mechanism to detect when a strategy is becoming maladaptive (e.g., toxic optimism, compulsive mastery).",
+     "a": "Expected answer criteria: Template includes 6 rows (one per strategy) with columns: Strategy | Weekly Quantitative Tracker | Reflection Prompt | Maladaptation Signal. Example row for \"Quality connections\": Tracker = \"Number of meaningful conversations (>10 min, non-transactional) initiated\"; Prompt = \"Which conversation this week made me feel most understood, and what did I contribute?\"; Signal = \"Feeling drained after socialising, or only reaching out when needing help.\" Good answer shows: Each tracker is behavioural (not mood-based), prompts elicit process not outcome, signals detect perversion of the strategy (e.g., for optimism: \"Dismissing genuine risks as 'negative thinking'\"). Poor answer reveals: Trackers are vague (\"be more social\"), prompts are generic (\"how was your week?\"), or no maladaptation column — indicating the student views these strategies as universally beneficial without boundary conditions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

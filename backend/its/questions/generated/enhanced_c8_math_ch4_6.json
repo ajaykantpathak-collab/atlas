@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch4_6",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch4_6",
+   "title": "c8_math_ch4_6",
+   "questions": [
+    {
+     "q": "State the definition of a rectangle and the definition of a square. Then complete: \"Every square is a rectangle because ______.\"",
+     "a": "A rectangle is a quadrilateral with four right angles, opposite sides equal and parallel, and diagonals that are equal and bisect each other. A square is a quadrilateral with four equal sides, four right angles, and diagonals that are equal, perpendicular, and bisect each other. Every square is a rectangle because it satisfies all defining properties of a rectangle (four right angles, opposite sides equal/parallel, equal diagonals bisecting each other). A wrong answer like \"a square is not a rectangle because rectangles have two long and two short sides\" reveals the misconception that rectangles must have unequal adjacent sides, confusing \"opposite sides equal\" with \"adjacent sides unequal.\"",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"A rectangle has length 8 cm and breadth 5 cm. If I increase the breadth to 8 cm, it becomes a square. So a square is just a rectangle with equal length and breadth.\" Is this statement correct? Explain why or why not using the property definitions.",
+     "a": "Yes, the statement is correct. A rectangle is defined by four right angles and opposite sides equal. When length = breadth, adjacent sides become equal, so all four sides are equal — this adds the square's defining condition while keeping all rectangle properties. The student correctly identifies that a square is a rectangle with the additional constraint of equal adjacent sides. A wrong answer claiming \"a square is different from a rectangle\" reveals the misconception that categories are mutually exclusive rather than hierarchical.",
+     "self_check": true
+    },
+    {
+     "q": "Quadrilateral ABCD has AB = 6 cm, BC = 6 cm, CD = 6 cm, DA = 6 cm, and ∠A = 90°. Using properties, prove that ABCD is both a square and a rectangle. Show each property check step by step.",
+     "a": "Given: AB = BC = CD = DA = 6 cm, ∠A = 90°.\nStep 1: All sides equal → satisfies square property (all sides equal).\nStep 2: In a quadrilateral with all sides equal, if one angle is 90°, all angles are 90° (opposite angles equal in parallelogram, adjacent supplementary). So ∠B = ∠C = ∠D = 90° → satisfies rectangle property (four right angles).\nStep 3: Opposite sides equal (6 cm each) and parallel (equal sides force parallelogram) → satisfies rectangle property.\nStep 4: Diagonals: AC = BD (by symmetry/congruence of triangles), and they bisect each other (parallelogram property) → satisfies rectangle diagonal property.\nStep 5: Since all rectangle properties hold, ABCD is a rectangle. Since all square properties hold, ABCD is a square.\nA wrong answer skipping the angle proof (e.g., only checking sides) reveals failure to connect \"all sides equal + one right angle\" to \"all angles 90°,\" missing the logical chain.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these three statements. Which are true? Which are false? Justify each.\n(i) All rectangles are squares.\n(ii) Some rectangles are squares.\n(iii) No rectangle is a square.",
+     "a": "(i) False. A rectangle only requires opposite sides equal; adjacent sides can be different (e.g., 5 cm × 3 cm). Such a rectangle is not a square.\n(ii) True. Rectangles with equal adjacent sides (e.g., 4 cm × 4 cm) satisfy the square definition. These are the squares.\n(iii) False. This contradicts (ii); squares are a subset of rectangles.\nA wrong answer marking (i) true reveals the \"all members of a category share all properties\" fallacy. Marking (ii) false reveals failure to recognise the inclusive definition. The correct analysis requires understanding subset logic: Square ⊂ Rectangle.",
+     "self_check": true
+    },
+    {
+     "q": "Ravi draws a quadrilateral with opposite sides equal and parallel, and diagonals equal. He claims it must be a square. Is his claim valid? If not, what additional condition would make it a square? Identify the error in his reasoning.",
+     "a": "Ravi's claim is invalid. A quadrilateral with opposite sides equal/parallel and equal diagonals is a rectangle (these are rectangle properties), but not necessarily a square. For example, a 6 cm × 4 cm rectangle has equal diagonals (√52 cm) but unequal adjacent sides. The error: he assumed equal diagonals + parallelogram implies all sides equal. Additional condition needed: adjacent sides equal (or diagonals perpendicular, or one angle 90° with adjacent sides equal). A wrong answer accepting his claim reveals confusion between necessary and sufficient conditions — equal diagonals are necessary for a square but not sufficient alone.",
+     "self_check": true
+    },
+    {
+     "q": "Create a Venn diagram showing the relationship between: Quadrilaterals, Parallelograms, Rectangles, Rhombuses, Squares. Label each region with an example shape (e.g., \"rectangle that is not a square: 5 cm × 3 cm\"). Explain why the square region lies at the intersection of rectangle and rhombus.",
+     "a": "The Venn diagram: largest circle \"Quadrilaterals\" containing \"Parallelograms\" containing two overlapping circles \"Rectangles\" and \"Rhombuses\" whose intersection is \"Squares.\"\nLabels:\n- Quadrilateral only: general kite\n- Parallelogram only: 5 cm × 3 cm parallelogram with non-right angles\n- Rectangle only (not square): 6 cm × 4 cm rectangle\n- Rhombus only (not square): rhombus with 60°/120° angles, side 5 cm\n- Square: 4 cm × 4 cm square\nSquare lies at the intersection because it satisfies both definitions: rectangle (four right angles) AND rhombus (four equal sides). A poor diagram with disjoint rectangle/rhombus circles reveals the misconception that a shape cannot belong to two special categories simultaneously.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

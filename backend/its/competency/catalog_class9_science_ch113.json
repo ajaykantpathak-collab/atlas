@@ -1,0 +1,908 @@
+{
+ "class": 9,
+ "subject": "science",
+ "chapter": 113,
+ "chapter_title": "Earth as a System: Energy, Matter, and Life",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iesc113.txt",
+ "concepts": [
+  {
+   "id": "iesc.113.1",
+   "title": "Earth's Spheres and Interconnectedness",
+   "section": "13",
+   "definition": "Earth works as one connected whole whose five spheres - the solid geosphere, watery hydrosphere, icy cryosphere, gaseous atmosphere and living biosphere - constantly interact.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "A change or disturbance in one sphere triggers cascading effects across all other spheres.",
+   "textbook_ref": "iesc113.txt lines 20-60",
+   "question_patterns": [
+    "What are the five main spheres of the Earth system?",
+    "How does a disturbance in the cryosphere affect the hydrosphere and biosphere?",
+    "Explain how the spheres of the Earth are interconnected with an example.",
+    "Describe how less snowfall in winter affects the lake level and vegetation.",
+    "explain earth's spheres and interconnectedness in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the spheres involved in the scenario",
+     "explain": "Determine which domains of the Earth (geosphere, hydrosphere, cryosphere, atmosphere, biosphere) are active in the given interaction."
+    },
+    {
+     "step": 2,
+     "action": "Trace the physical or biological mechanism of interaction",
+     "explain": "Explain how a change in one sphere physically transfers matter or energy to another sphere (e.g., melting ice in the cryosphere adding liquid water to the hydrosphere)."
+    },
+    {
+     "step": 3,
+     "action": "Analyze the final ecological or environmental impact",
+     "explain": "Conclude how the chain of events affects living organisms in the biosphere or alters physical landscapes."
+    }
+   ]
+  },
+  {
+   "id": "iesc.113.2",
+   "title": "Calculation of Solar Energy Received",
+   "section": "13.1",
+   "definition": "The total solar energy captured by a surface is determined by the product of the solar insolation intensity, the surface area, and the duration of exposure.",
+   "formula": "energy = intensity * area * time",
+   "key_idea": "Solar energy received is directly proportional to intensity, area, and time.",
+   "textbook_ref": "iesc113.txt lines 100-140",
+   "question_patterns": [
+    "How much solar energy will be received by a given area in a certain time?",
+    "Calculate the solar energy received by a solar panel of area ... in ... hours if the insolation is ...",
+    "Find the total energy received from the sun given intensity, area, and time.",
+    "find the required value in a calculation of solar energy received problem",
+    "solve a numerical on calculation of solar energy received"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Convert time to seconds",
+     "explain": "Multiply the time in hours by 3600 to convert it into seconds.",
+     "compute": "timesec = time * 3600"
+    },
+    {
+     "step": 2,
+     "action": "Convert intensity to watts per square meter",
+     "explain": "Multiply the intensity in kilowatts per square meter by 1000 to get watts per square meter.",
+     "compute": "intensityw = intensity * 1000"
+    },
+    {
+     "step": 3,
+     "action": "Calculate total energy",
+     "explain": "Multiply the converted intensity, surface area, and time in seconds to find the total energy in Joules.",
+     "compute": "energy = intensityw * area * timesec"
+    }
+   ]
+  },
+  {
+   "id": "iesc.113.3",
+   "title": "Albedo and Surface Reflection",
+   "section": "13.1.1",
+   "definition": "Albedo is a measure of how reflective a surface is: the fraction of incoming solar radiation it bounces back to space.",
+   "formula": "reflected = incoming * albedo",
+   "key_idea": "High albedo surfaces stay cool by reflecting light, while low albedo surfaces absorb heat and warm up.",
+   "textbook_ref": "iesc113.txt lines 150-180",
+   "question_patterns": [
+    "What is albedo and how does it affect surface temperature?",
+    "Why do polar regions covered in snow remain cold in terms of albedo?",
+    "Calculate the reflected and absorbed solar radiation given albedo and incoming radiation.",
+    "compute the answer step by step for albedo and surface reflection",
+    "what is the result in this albedo and surface reflection problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate reflected solar radiation",
+     "explain": "Multiply the incoming solar radiation by the albedo of the surface.",
+     "compute": "reflected = incoming * albedo"
+    },
+    {
+     "step": 2,
+     "action": "Calculate absorbed solar radiation",
+     "explain": "Subtract the reflected radiation from the total incoming radiation.",
+     "compute": "absorbed = incoming - reflected"
+    },
+    {
+     "step": 3,
+     "action": "Verify the energy balance and compute the absorbed fraction",
+     "explain": "Confirm that reflected plus absorbed equals the incoming radiation, then compute the fraction of radiation absorbed by the surface to interpret its thermal behaviour.",
+     "compute": "absorbed_fraction = absorbed / incoming"
+    }
+   ]
+  },
+  {
+   "id": "iesc.113.4",
+   "title": "Layers of the Atmosphere",
+   "section": "13.1.3",
+   "definition": "The atmosphere is divided into layers using temperature gradients, with the troposphere hosting weather and showing decreasing temperatures, and the stratosphere containing the ozone layer and showing increasing temperatures.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Temperature variations with altitude define the distinct atmospheric layers that regulate both climate and weather.",
+   "textbook_ref": "iesc113.txt lines 210-250",
+   "question_patterns": [
+    "In which layer of the atmosphere does weather formation occur?",
+    "Why does temperature increase with height in the stratosphere?",
+    "Describe the characteristics of the troposphere and stratosphere.",
+    "how does layers of the atmosphere work",
+    "list the main features of layers of the atmosphere"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the layer of interest based on altitude or weather phenomena",
+     "explain": "Determine if the question refers to the troposphere (0-12 km) or stratosphere (12-50 km)."
+    },
+    {
+     "step": 2,
+     "action": "Explain the temperature trend in that layer",
+     "explain": "In the troposphere, temperature decreases with height (~6.5 °C/km). In the stratosphere, temperature increases with height due to UV absorption by ozone."
+    },
+    {
+     "step": 3,
+     "action": "Relate the temperature trend to physical features",
+     "explain": "Explain how the temperature profile affects vertical air mixing, confining weather processes mostly to the troposphere."
+    }
+   ]
+  },
+  {
+   "id": "iesc.113.5",
+   "title": "Local Winds (Valley and Mountain Breezes)",
+   "section": "13.2.1",
+   "definition": "Local winds in hilly regions driven by diurnal temperature differences between mountain slopes and valley floors, creating valley breezes during the day and mountain breezes at night.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Differential heating and cooling of slopes versus valleys drive daily shifts in local wind direction.",
+   "textbook_ref": "iesc113.txt lines 280-310",
+   "question_patterns": [
+    "How are valley breezes formed during the day?",
+    "Explain the mechanism of mountain breezes after sunset.",
+    "Why do wind directions reverse between day and night in mountainous regions?",
+    "state two key points about local winds (valley and mountain breezes)",
+    "why is local winds (valley and mountain breezes) important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine whether it is day or night to establish the temperature gradient",
+     "explain": "During the day, slopes heat up faster than the valley floor. At night, slopes lose heat faster and become cooler than the valley floor."
+    },
+    {
+     "step": 2,
+     "action": "Identify the resulting pressure zones",
+     "explain": "Warm air rises over the heated area, creating a local low-pressure zone, while cooler air forms a high-pressure zone."
+    },
+    {
+     "step": 3,
+     "action": "Trace the flow of air from high to low pressure",
+     "explain": "During the day, cool air moves from the valley up the slopes (valley breeze). At night, cool dense air sinks from the slopes down into the valley (mountain breeze)."
+    }
+   ]
+  },
+  {
+   "id": "iesc.113.6",
+   "title": "Planetary Winds and Coriolis Deflection",
+   "section": "13.2.2",
+   "definition": "Large-scale atmospheric movements driven by latitudinal pressure belts and curved by the Earth's rotation.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Uneven heating across the globe creates pressure belts, while the Earth's rotation turns winds rightward in the Northern Hemisphere and leftward in the Southern Hemisphere.",
+   "textbook_ref": "iesc113.txt lines 315-345",
+   "question_patterns": [
+    "How does the rotation of the Earth affect planetary wind directions?",
+    "Describe the pressure belts that drive global wind circulation.",
+    "Why do winds follow curved paths instead of moving directly from high to low pressure?",
+    "explain planetary winds and coriolis deflection in your own words",
+    "describe planetary winds and coriolis deflection with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the source and destination pressure belts of the wind",
+     "explain": "Winds flow from high-pressure belts (like sub-tropical high) to low-pressure belts (like equatorial low)."
+    },
+    {
+     "step": 2,
+     "action": "Determine the hemisphere to apply the deflection rule",
+     "explain": "Identify if the wind is moving in the Northern Hemisphere or the Southern Hemisphere."
+    },
+    {
+     "step": 3,
+     "action": "Apply the Coriolis deflection",
+     "explain": "Deflect the path to the right in the Northern Hemisphere and to the left in the Southern Hemisphere, resulting in curved planetary winds."
+    }
+   ]
+  },
+  {
+   "id": "iesc.113.7",
+   "title": "Ocean Currents and Global Heat Transport",
+   "section": "13.2.3",
+   "definition": "Continuous, directed movements of ocean water driven by planetary winds, both temperature and salinity differences, and Earth's rotation, which redistribute thermal energy globally.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Ocean currents act as a global conveyor belt, transferring heat from the equator to the poles to moderate climate.",
+   "textbook_ref": "iesc113.txt lines 346-380",
+   "question_patterns": [
+    "What factors drive the continuous movement of ocean currents?",
+    "How do ocean currents regulate the Earth's climate?",
+    "Explain the role of the Gulf Stream or North Atlantic Drift in European climate.",
+    "short note on ocean currents and global heat transport",
+    "justify why ocean currents and global heat transport matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the driving forces of ocean currents",
+     "explain": "Currents are driven by planetary winds (friction), temperature gradients, salinity differences (density), and Earth's rotation (Coriolis effect)."
+    },
+    {
+     "step": 2,
+     "action": "Trace the path of warm and cold currents",
+     "explain": "Warm equatorial waters travel over the surface toward the poles, while colder, denser polar waters flow back at deeper levels."
+    },
+    {
+     "step": 3,
+     "action": "Explain the climatic impact on coastal regions",
+     "explain": "Warm currents (like the North Atlantic Drift) transfer heat to high-latitude coastal areas, keeping ports ice-free and moderating local temperatures."
+    }
+   ]
+  },
+  {
+   "id": "iesc.113.8",
+   "title": "The Carbon Cycle",
+   "section": "13.3.2",
+   "definition": "The biogeochemical cycle by which carbon is exchanged among the biosphere, geosphere, hydrosphere, and atmosphere of the Earth.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Carbon moves through fast biological pathways (photosynthesis, respiration) and slow geological pathways (fossil fuel formation, weathering).",
+   "textbook_ref": "iesc113.txt lines 410-450",
+   "question_patterns": [
+    "Describe the fast and slow pathways of the carbon cycle.",
+    "How do human activities like burning fossil fuels disrupt the carbon cycle?",
+    "Explain how carbon is stored and released in the oceans.",
+    "what do you understand by the carbon cycle",
+    "state two key points about the carbon cycle"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the primary reservoirs of carbon",
+     "explain": "Carbon is stored in the atmosphere (CO2), biosphere (organic molecules), geosphere (fossil fuels, carbonate rocks), and hydrosphere (dissolved CO2)."
+    },
+    {
+     "step": 2,
+     "action": "Describe the processes of carbon uptake",
+     "explain": "Plants absorb atmospheric CO2 via photosynthesis, and oceans dissolve CO2 to form carbonate/bicarbonate ions used by marine organisms."
+    },
+    {
+     "step": 3,
+     "action": "Describe the processes of carbon release",
+     "explain": "Respiration, decomposition, and the combustion of fossil fuels release carbon back into the atmosphere as CO2."
+    }
+   ]
+  },
+  {
+   "id": "iesc.113.9",
+   "title": "The Nitrogen Cycle",
+   "section": "13.3.3",
+   "definition": "The process by which nitrogen is converted between its various chemical forms, allowing it to cycle through atmospheric, terrestrial, and marine ecosystems.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Inert atmospheric nitrogen must be biologically or industrially fixed before plants can assimilate it into organic molecules.",
+   "textbook_ref": "iesc113.txt lines 460-500",
+   "question_patterns": [
+    "What are the main steps involved in the nitrogen cycle?",
+    "Explain the difference between nitrification and denitrification.",
+    "How do nitrogen-fixing bacteria contribute to soil fertility?",
+    "explain the nitrogen cycle in your own words",
+    "describe the nitrogen cycle with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain nitrogen fixation",
+     "explain": "Bacteria (like Rhizobium or Azotobacter) or lightning convert atmospheric N2 gas into ammonia (NH3)."
+    },
+    {
+     "step": 2,
+     "action": "Explain nitrification and assimilation",
+     "explain": "Nitrifying bacteria convert ammonia into nitrites (NO2-) and then nitrates (NO3-), which plants absorb to build proteins."
+    },
+    {
+     "step": 3,
+     "action": "Explain ammonification and denitrification",
+     "explain": "Decomposers break down organic waste into ammonia (ammonification), while denitrifying bacteria convert nitrates back to N2 gas (denitrification)."
+    }
+   ]
+  },
+  {
+   "id": "iesc.113.10",
+   "title": "Eutrophication",
+   "section": "13.4",
+   "definition": "The ecological process where water bodies receive excess nutrients, leading to excessive plant and algal growth, oxygen depletion, and severe degradation of aquatic life.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Nutrient runoff causes algal blooms that block sunlight and consume dissolved oxygen upon decaying, suffocating aquatic organisms.",
+   "textbook_ref": "iesc113.txt lines 530-560",
+   "question_patterns": [
+    "What is eutrophication and what causes it?",
+    "How does the overuse of chemical fertilizers lead to fish kills in lakes?",
+    "Explain the steps leading to an algal bloom and oxygen depletion in a water body.",
+    "what do you understand by eutrophication",
+    "state two key points about eutrophication"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the source of excess nutrients",
+     "explain": "Overuse of chemical fertilizers leads to nitrate and phosphate runoff into nearby rivers and lakes."
+    },
+    {
+     "step": 2,
+     "action": "Describe the rapid growth of algae",
+     "explain": "The nutrient surplus triggers a massive algal bloom at the water surface, blocking sunlight from reaching deeper aquatic plants."
+    },
+    {
+     "step": 3,
+     "action": "Explain the oxygen depletion process",
+     "explain": "As the algae die, decomposers (bacteria) multiply rapidly and consume dissolved oxygen, causing hypoxia which suffocates fish and other aquatic life."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex13.1",
+   "source_ref": "iesc113.txt lines 125-135",
+   "concept": "iesc.113.2",
+   "question_type": "compute",
+   "question_pattern": "How much solar energy will be received by a {area} m2 area in {time} hour, if the insolation on the surface of the Earth were {intensity} kWm-2 ?",
+   "extracted_variables": {
+    "area": "surface area in square meters",
+    "time": "duration of exposure in hours",
+    "intensity": "solar insolation intensity in kW/m^2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Convert time to seconds",
+     "explain": "Multiply the time in hours by 3600 to convert it into seconds.",
+     "compute": "timesec = time * 3600"
+    },
+    {
+     "step": 2,
+     "action": "Convert intensity to watts per square meter",
+     "explain": "Multiply the intensity in kilowatts per square meter by 1000 to get watts per square meter.",
+     "compute": "intensityw = intensity * 1000"
+    },
+    {
+     "step": 3,
+     "action": "Calculate total energy",
+     "explain": "Multiply the converted intensity, surface area, and time in seconds to find the total energy in Joules.",
+     "compute": "energy = intensityw * area * timesec"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "iesc113.txt lines 100-140",
+   "concept": "iesc.113.2",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute calculation of solar energy received step by step",
+   "extracted_variables": {
+    "time": "value of time",
+    "intensity": "value of intensity",
+    "area": "value of area"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Convert time to seconds",
+     "explain": "Multiply the time in hours by 3600 to convert it into seconds.",
+     "compute": "timesec = time * 3600"
+    },
+    {
+     "step": 2,
+     "action": "Convert intensity to watts per square meter",
+     "explain": "Multiply the intensity in kilowatts per square meter by 1000 to get watts per square meter.",
+     "compute": "intensityw = intensity * 1000"
+    },
+    {
+     "step": 3,
+     "action": "Calculate total energy",
+     "explain": "Multiply the converted intensity, surface area, and time in seconds to find the total energy in Joules.",
+     "compute": "energy = intensityw * area * timesec"
+    }
+   ]
+  },
+  {
+   "id": "exauto2",
+   "source_ref": "iesc113.txt lines 150-180",
+   "concept": "iesc.113.3",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute albedo and surface reflection step by step",
+   "extracted_variables": {
+    "incoming": "value of incoming",
+    "albedo": "value of albedo"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate reflected solar radiation",
+     "explain": "Multiply the incoming solar radiation by the albedo of the surface.",
+     "compute": "reflected = incoming * albedo"
+    },
+    {
+     "step": 2,
+     "action": "Calculate absorbed solar radiation",
+     "explain": "Subtract the reflected radiation from the total incoming radiation.",
+     "compute": "absorbed = incoming - reflected"
+    }
+   ]
+  },
+  {
+   "id": "exauto3",
+   "source_ref": "iesc113.txt lines 150-180",
+   "concept": "iesc.113.3",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute albedo and surface reflection step by step",
+   "extracted_variables": {
+    "incoming": "value of incoming",
+    "albedo": "value of albedo"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate reflected solar radiation",
+     "explain": "Multiply the incoming solar radiation by the albedo of the surface.",
+     "compute": "reflected = incoming * albedo"
+    },
+    {
+     "step": 2,
+     "action": "Calculate absorbed solar radiation",
+     "explain": "Subtract the reflected radiation from the total incoming radiation.",
+     "compute": "absorbed = incoming - reflected"
+    }
+   ]
+  },
+  {
+   "id": "ex1",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.113.1",
+   "question_type": "verify_property",
+   "question_pattern": "What are the five main spheres of the Earth system?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the spheres involved in the scenario",
+     "explain": "Determine which domains of the Earth (geosphere, hydrosphere, cryosphere, atmosphere, biosphere) are active in the given interaction."
+    },
+    {
+     "step": 2,
+     "action": "Trace the physical or biological mechanism of interaction",
+     "explain": "Explain how a change in one sphere physically transfers matter or energy to another sphere (e.g., melting ice in the cryosphere adding liquid water to the hydrosphere)."
+    },
+    {
+     "step": 3,
+     "action": "Analyze the final ecological or environmental impact",
+     "explain": "Conclude how the chain of events affects living organisms in the biosphere or alters physical landscapes."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.113.1",
+   "question_type": "verify_property",
+   "question_pattern": "How does a disturbance in the cryosphere affect the hydrosphere and biosphere?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the spheres involved in the scenario",
+     "explain": "Determine which domains of the Earth (geosphere, hydrosphere, cryosphere, atmosphere, biosphere) are active in the given interaction."
+    },
+    {
+     "step": 2,
+     "action": "Trace the physical or biological mechanism of interaction",
+     "explain": "Explain how a change in one sphere physically transfers matter or energy to another sphere (e.g., melting ice in the cryosphere adding liquid water to the hydrosphere)."
+    },
+    {
+     "step": 3,
+     "action": "Analyze the final ecological or environmental impact",
+     "explain": "Conclude how the chain of events affects living organisms in the biosphere or alters physical landscapes."
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.113.4",
+   "question_type": "verify_property",
+   "question_pattern": "In which layer of the atmosphere does weather formation occur?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the layer of interest based on altitude or weather phenomena",
+     "explain": "Determine if the question refers to the troposphere (0-12 km) or stratosphere (12-50 km)."
+    },
+    {
+     "step": 2,
+     "action": "Explain the temperature trend in that layer",
+     "explain": "In the troposphere, temperature decreases with height (~6.5 °C/km). In the stratosphere, temperature increases with height due to UV absorption by ozone."
+    },
+    {
+     "step": 3,
+     "action": "Relate the temperature trend to physical features",
+     "explain": "Explain how the temperature profile affects vertical air mixing, confining weather processes mostly to the troposphere."
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.113.4",
+   "question_type": "verify_property",
+   "question_pattern": "Why does temperature increase with height in the stratosphere?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the layer of interest based on altitude or weather phenomena",
+     "explain": "Determine if the question refers to the troposphere (0-12 km) or stratosphere (12-50 km)."
+    },
+    {
+     "step": 2,
+     "action": "Explain the temperature trend in that layer",
+     "explain": "In the troposphere, temperature decreases with height (~6.5 °C/km). In the stratosphere, temperature increases with height due to UV absorption by ozone."
+    },
+    {
+     "step": 3,
+     "action": "Relate the temperature trend to physical features",
+     "explain": "Explain how the temperature profile affects vertical air mixing, confining weather processes mostly to the troposphere."
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.113.5",
+   "question_type": "verify_property",
+   "question_pattern": "How are valley breezes formed during the day?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Determine whether it is day or night to establish the temperature gradient",
+     "explain": "During the day, slopes heat up faster than the valley floor. At night, slopes lose heat faster and become cooler than the valley floor."
+    },
+    {
+     "step": 2,
+     "action": "Identify the resulting pressure zones",
+     "explain": "Warm air rises over the heated area, creating a local low-pressure zone, while cooler air forms a high-pressure zone."
+    },
+    {
+     "step": 3,
+     "action": "Trace the flow of air from high to low pressure",
+     "explain": "During the day, cool air moves from the valley up the slopes (valley breeze). At night, cool dense air sinks from the slopes down into the valley (mountain breeze)."
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.113.5",
+   "question_type": "verify_property",
+   "question_pattern": "Explain the mechanism of mountain breezes after sunset.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Determine whether it is day or night to establish the temperature gradient",
+     "explain": "During the day, slopes heat up faster than the valley floor. At night, slopes lose heat faster and become cooler than the valley floor."
+    },
+    {
+     "step": 2,
+     "action": "Identify the resulting pressure zones",
+     "explain": "Warm air rises over the heated area, creating a local low-pressure zone, while cooler air forms a high-pressure zone."
+    },
+    {
+     "step": 3,
+     "action": "Trace the flow of air from high to low pressure",
+     "explain": "During the day, cool air moves from the valley up the slopes (valley breeze). At night, cool dense air sinks from the slopes down into the valley (mountain breeze)."
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.113.6",
+   "question_type": "verify_property",
+   "question_pattern": "How does the rotation of the Earth affect planetary wind directions?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the source and destination pressure belts of the wind",
+     "explain": "Winds flow from high-pressure belts (like sub-tropical high) to low-pressure belts (like equatorial low)."
+    },
+    {
+     "step": 2,
+     "action": "Determine the hemisphere to apply the deflection rule",
+     "explain": "Identify if the wind is moving in the Northern Hemisphere or the Southern Hemisphere."
+    },
+    {
+     "step": 3,
+     "action": "Apply the Coriolis deflection",
+     "explain": "Deflect the path to the right in the Northern Hemisphere and to the left in the Southern Hemisphere, resulting in curved planetary winds."
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.113.6",
+   "question_type": "verify_property",
+   "question_pattern": "Describe the pressure belts that drive global wind circulation.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the source and destination pressure belts of the wind",
+     "explain": "Winds flow from high-pressure belts (like sub-tropical high) to low-pressure belts (like equatorial low)."
+    },
+    {
+     "step": 2,
+     "action": "Determine the hemisphere to apply the deflection rule",
+     "explain": "Identify if the wind is moving in the Northern Hemisphere or the Southern Hemisphere."
+    },
+    {
+     "step": 3,
+     "action": "Apply the Coriolis deflection",
+     "explain": "Deflect the path to the right in the Northern Hemisphere and to the left in the Southern Hemisphere, resulting in curved planetary winds."
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.113.7",
+   "question_type": "verify_property",
+   "question_pattern": "What factors drive the continuous movement of ocean currents?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the driving forces of ocean currents",
+     "explain": "Currents are driven by planetary winds (friction), temperature gradients, salinity differences (density), and Earth's rotation (Coriolis effect)."
+    },
+    {
+     "step": 2,
+     "action": "Trace the path of warm and cold currents",
+     "explain": "Warm equatorial waters travel over the surface toward the poles, while colder, denser polar waters flow back at deeper levels."
+    },
+    {
+     "step": 3,
+     "action": "Explain the climatic impact on coastal regions",
+     "explain": "Warm currents (like the North Atlantic Drift) transfer heat to high-latitude coastal areas, keeping ports ice-free and moderating local temperatures."
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.113.7",
+   "question_type": "verify_property",
+   "question_pattern": "How do ocean currents regulate the Earth's climate?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the driving forces of ocean currents",
+     "explain": "Currents are driven by planetary winds (friction), temperature gradients, salinity differences (density), and Earth's rotation (Coriolis effect)."
+    },
+    {
+     "step": 2,
+     "action": "Trace the path of warm and cold currents",
+     "explain": "Warm equatorial waters travel over the surface toward the poles, while colder, denser polar waters flow back at deeper levels."
+    },
+    {
+     "step": 3,
+     "action": "Explain the climatic impact on coastal regions",
+     "explain": "Warm currents (like the North Atlantic Drift) transfer heat to high-latitude coastal areas, keeping ports ice-free and moderating local temperatures."
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.113.8",
+   "question_type": "verify_property",
+   "question_pattern": "Describe the fast and slow pathways of the carbon cycle.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the primary reservoirs of carbon",
+     "explain": "Carbon is stored in the atmosphere (CO2), biosphere (organic molecules), geosphere (fossil fuels, carbonate rocks), and hydrosphere (dissolved CO2)."
+    },
+    {
+     "step": 2,
+     "action": "Describe the processes of carbon uptake",
+     "explain": "Plants absorb atmospheric CO2 via photosynthesis, and oceans dissolve CO2 to form carbonate/bicarbonate ions used by marine organisms."
+    },
+    {
+     "step": 3,
+     "action": "Describe the processes of carbon release",
+     "explain": "Respiration, decomposition, and the combustion of fossil fuels release carbon back into the atmosphere as CO2."
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.113.8",
+   "question_type": "verify_property",
+   "question_pattern": "How do human activities like burning fossil fuels disrupt the carbon cycle?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the primary reservoirs of carbon",
+     "explain": "Carbon is stored in the atmosphere (CO2), biosphere (organic molecules), geosphere (fossil fuels, carbonate rocks), and hydrosphere (dissolved CO2)."
+    },
+    {
+     "step": 2,
+     "action": "Describe the processes of carbon uptake",
+     "explain": "Plants absorb atmospheric CO2 via photosynthesis, and oceans dissolve CO2 to form carbonate/bicarbonate ions used by marine organisms."
+    },
+    {
+     "step": 3,
+     "action": "Describe the processes of carbon release",
+     "explain": "Respiration, decomposition, and the combustion of fossil fuels release carbon back into the atmosphere as CO2."
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.113.9",
+   "question_type": "verify_property",
+   "question_pattern": "What are the main steps involved in the nitrogen cycle?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Explain nitrogen fixation",
+     "explain": "Bacteria (like Rhizobium or Azotobacter) or lightning convert atmospheric N2 gas into ammonia (NH3)."
+    },
+    {
+     "step": 2,
+     "action": "Explain nitrification and assimilation",
+     "explain": "Nitrifying bacteria convert ammonia into nitrites (NO2-) and then nitrates (NO3-), which plants absorb to build proteins."
+    },
+    {
+     "step": 3,
+     "action": "Explain ammonification and denitrification",
+     "explain": "Decomposers break down organic waste into ammonia (ammonification), while denitrifying bacteria convert nitrates back to N2 gas (denitrification)."
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.113.9",
+   "question_type": "verify_property",
+   "question_pattern": "Explain the difference between nitrification and denitrification.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Explain nitrogen fixation",
+     "explain": "Bacteria (like Rhizobium or Azotobacter) or lightning convert atmospheric N2 gas into ammonia (NH3)."
+    },
+    {
+     "step": 2,
+     "action": "Explain nitrification and assimilation",
+     "explain": "Nitrifying bacteria convert ammonia into nitrites (NO2-) and then nitrates (NO3-), which plants absorb to build proteins."
+    },
+    {
+     "step": 3,
+     "action": "Explain ammonification and denitrification",
+     "explain": "Decomposers break down organic waste into ammonia (ammonification), while denitrifying bacteria convert nitrates back to N2 gas (denitrification)."
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.113.10",
+   "question_type": "verify_property",
+   "question_pattern": "What is eutrophication and what causes it?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the source of excess nutrients",
+     "explain": "Overuse of chemical fertilizers leads to nitrate and phosphate runoff into nearby rivers and lakes."
+    },
+    {
+     "step": 2,
+     "action": "Describe the rapid growth of algae",
+     "explain": "The nutrient surplus triggers a massive algal bloom at the water surface, blocking sunlight from reaching deeper aquatic plants."
+    },
+    {
+     "step": 3,
+     "action": "Explain the oxygen depletion process",
+     "explain": "As the algae die, decomposers (bacteria) multiply rapidly and consume dissolved oxygen, causing hypoxia which suffocates fish and other aquatic life."
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iesc.113.10",
+   "question_type": "verify_property",
+   "question_pattern": "How does the overuse of chemical fertilizers lead to fish kills in lakes?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the source of excess nutrients",
+     "explain": "Overuse of chemical fertilizers leads to nitrate and phosphate runoff into nearby rivers and lakes."
+    },
+    {
+     "step": 2,
+     "action": "Describe the rapid growth of algae",
+     "explain": "The nutrient surplus triggers a massive algal bloom at the water surface, blocking sunlight from reaching deeper aquatic plants."
+    },
+    {
+     "step": 3,
+     "action": "Explain the oxygen depletion process",
+     "explain": "As the algae die, decomposers (bacteria) multiply rapidly and consume dissolved oxygen, causing hypoxia which suffocates fish and other aquatic life."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex13.1",
+   "source_ref": "iesc113.txt lines 580-590",
+   "questions": [
+    "Choose the most appropriate option to describe the role of biogeochemical cycles in an ecosystem. (i) To provide food directly to all organisms. (ii) To recycle essential nutrients between biotic and abiotic components. (iii) To create new elements for use by living things. (iv) To remove pollutants and toxins from the organism.",
+    "Which of the following is primarily responsible for warming of the Earth? (i) Solar radiation is immediately absorbed by carbon dioxide, which then releases it as heat. (ii) The atmosphere's tiny particles absorb incoming solar radiation, which directly heats the Earth. (iii) The Earth's surface absorbs solar radiation, which is then re-radiated and trapped by greenhouse gases. (iv) The Earth's environment is heated only by the solar radiation reflected by the clouds."
+   ]
+  },
+  {
+   "id": "ex13.2",
+   "source_ref": "iesc113.txt lines 591-620",
+   "questions": [
+    "Explain how climate change affects the water cycle. Illustrate with examples.",
+    "Describe how albedo affects the Earth's surface temperature and its climate.",
+    "How are mountain and valley breezes formed? Suppose there are two mountains, one covered with grass and another covered with barren rocks; would the temperature of the two mountain breezes be different? If so, how?",
+    "You have witnessed weather phenomena, such as winds, storms, rainfall, etc. Which atmospheric layer is mainly responsible for such phenomena and what is the primary reason for its occurrence?",
+    "Explain the processes involved in the nitrogen cycle. How would life on Earth be affected if nitrogen were not cycled?",
+    "What are the impacts of deforestation on the Earth's oxygen and carbon cycles? What are the other consequences of deforestation?",
+    "Explain with suitable diagram the path that carbon takes to go back to the atmosphere. You may start from plants using CO2 from the atmosphere.",
+    "Why is an excess of CO2 in the atmosphere considered undesirable even though it is required by plants?",
+    "How is heat lost from the surface of the Earth? What is its significance?",
+    "If the Earth were a flat disc instead of a sphere, how would the patterns of solar radiation and temperature be different?"
+   ]
+  },
+  {
+   "id": "ex13.3",
+   "source_ref": "iesc113.txt lines 630-650",
+   "questions": [
+    "Suppose there is a rise in atmospheric temperature on Earth. How would this affect the cryosphere, hydrosphere and biosphere?",
+    "Explain how the Earth's atmosphere helps in maintaining a suitable temperature for life to survive on the Earth.",
+    "Describe the interrelationship between different spheres of the Earth. Illustrate with example how these spheres function in a delicate balance."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

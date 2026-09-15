@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_03_009",
+   "title": "c11_biotech_cbse_03_009",
+   "questions": [
+    {
+     "q": "State the bond angle in a water molecule and explain how this geometry, combined with the electronegativity difference between oxygen and hydrogen, gives water a net dipole moment.",
+     "a": "The H–O–H bond angle is 104.5°. Oxygen (EN = 3.44) is more electronegative than hydrogen (EN = 2.20), so each O–H bond is polar with δ⁻ on O and δ⁺ on H. Because the molecule is bent (not linear), the two bond dipoles do not cancel; they add vectorially to give a net dipole moment of 1.85 D. A wrong answer (e.g., \"180° bond angle\" or \"no dipole moment\") reveals the student confuses water with linear CO₂ or thinks symmetry alone determines polarity without considering geometry.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Water has a high boiling point because its molecules are heavy.\" Critique this statement using the concept of hydrogen bonding and compare water (M = 18 g·mol⁻¹, bp = 100°C) with hydrogen sulfide H₂S (M = 34 g·mol⁻¹, bp = –60°C).",
+     "a": "The claim is incorrect. Boiling point depends on intermolecular forces, not molecular mass. Water forms extensive 3D hydrogen-bond networks (each H₂O ≈ 3.4 H-bonds on average in liquid), requiring 44 kJ·mol⁻¹ to vaporize. H₂S has weaker dipole-dipole interactions (S EN = 2.58, less polar; larger size reduces charge density) and no significant H-bonding, so it boils at –60°C despite being nearly twice as heavy. A wrong answer focusing on mass reveals the student has not internalized that hydrogen bonding—not molar mass—dominates water's thermal anomalies.",
+     "self_check": true
+    },
+    {
+     "q": "You are given 100 mL of water at 25°C. Calculate the energy (in kJ) required to heat it to 100°C and then completely vaporize it. Use: specific heat capacity of water = 4.18 J·g⁻¹·K⁻¹, heat of vaporization = 44 kJ·mol⁻¹, density of water = 1.00 g·mL⁻¹. Show all steps.",
+     "a": "Step 1: Mass of water = 100 mL × 1.00 g·mL⁻¹ = 100 g.\nStep 2: Energy to heat from 25°C to 100°C = m·c·ΔT = 100 g × 4.18 J·g⁻¹·K⁻¹ × (100 – 25) K = 31,350 J = 31.35 kJ.\nStep 3: Moles of water = 100 g / 18.015 g·mol⁻¹ = 5.55 mol.\nStep 4: Energy to vaporize = n·ΔHvap = 5.55 mol × 44 kJ·mol⁻¹ = 244.2 kJ.\nStep 5: Total energy = 31.35 kJ + 244.2 kJ = 275.55 kJ ≈ 276 kJ.\nA wrong answer (e.g., forgetting to convert mass to moles for vaporization, or using ΔHvap in J·g⁻¹) reveals the student cannot distinguish between specific heat (per gram) and molar enthalpy (per mole) or misses unit conversions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why ice floats on liquid water, relating the open hexagonal hydrogen-bonded lattice of ice to its density (0.917 g·cm⁻³) versus liquid water (0.997 g·cm⁻³ at 25°C). How does this property impact aquatic ecosystems in winter?",
+     "a": "In ice, each water molecule forms four stable H-bonds in a tetrahedral arrangement, creating an open hexagonal lattice with large empty spaces → lower density (0.917 g·cm⁻³). In liquid water, H-bonds constantly break and reform, allowing molecules to pack more closely → higher density (0.997 g·cm⁻³). Since ice is less dense, it floats, forming an insulating layer that prevents lakes from freezing solid, preserving liquid water and life below. A wrong answer (e.g., \"ice is heavier so it sinks\" or \"hydrogen bonds are shorter in ice\") reveals misunderstanding of H-bond geometry and its volumetric consequence.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher argues: \"Since water has a high dielectric constant (ε ≈ 78.5), it weakens electrostatic interactions between charged groups on a protein, so salt bridges (ionic bonds) in proteins should be unstable in aqueous solution.\" Evaluate this claim. Is it fully correct, partially correct, or incorrect? Justify using the concept of dielectric screening and the hydrophobic effect.",
+     "a": "Partially correct. Water's high ε does screen Coulombic interactions (F ∝ 1/ε), reducing salt-bridge strength by ~80-fold compared to vacuum. However, salt bridges CAN be stable in proteins because: (a) they are often buried in low-dielectric microenvironments (protein interior ε ≈ 4–10), (b) desolvation penalty of charged groups is offset by the hydrophobic effect driving protein folding, and (c) entropic gain from releasing ordered water upon ion pairing. A fully correct evaluation must acknowledge both screening AND compensating factors. A wrong answer (\"salt bridges are impossible in water\" or \"dielectric constant doesn't matter\") shows the student cannot integrate solvent electrostatics with protein folding thermodynamics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment to demonstrate that the hydrophobic effect is entropically driven at room temperature. Describe the system, the measurable quantities, and the expected outcome that would confirm ΔS > 0 for hydrophobic association.",
+     "a": "System: Two nonpolar solute molecules (e.g., methane) in water at 25°C. Measurable: ΔG, ΔH, ΔS for dimerization (2 CH₄(aq) → (CH₄)₂(aq)) via isothermal titration calorimetry (ITC) or solubility measurements at multiple temperatures (van't Hoff analysis). Expected outcome: ΔG < 0 (spontaneous association), but ΔH ≈ 0 or slightly positive (no strong enthalpic attraction), so ΔS = (ΔH – ΔG)/T > 0. This positive ΔS arises from release of ordered water molecules from clathrate-like cages around nonpolar surfaces into bulk, increasing solvent entropy. A poor answer (e.g., \"measure temperature change\" or \"hydrophobic effect is enthalpic\") reveals confusion between enthalpy/entropy drivers and inability to design a thermodynamic experiment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

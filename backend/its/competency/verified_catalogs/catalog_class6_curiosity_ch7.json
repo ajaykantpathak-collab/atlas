@@ -1,0 +1,594 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 7,
+ "chapter_title": "Temperature and its Measurement",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fecu107.txt",
+ "concepts": [
+  {
+   "id": "c6cu.7.1",
+   "title": "Concept of Temperature -- Hot and Cold",
+   "section": "7.1",
+   "definition": "Temperature is a measure of how hot or cold a body is; our sense of touch is unreliable for measuring temperature accurately.",
+   "formula": "",
+   "key_idea": "Temperature is a relative measure of hotness or coldness that must be measured with an instrument, not by feel.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is temperature?",
+    "How do we decide whether an object is hot or cold?",
+    "Why can we not rely on our sense of touch to measure temperature?",
+    "Explain the difference between hot and cold with an example.",
+    "What does the temperature of a body tell us?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the sensation of hotness or coldness",
+     "explain": "Our skin senses relative hotness or coldness but can be fooled by prior contact with a hotter or colder object."
+    },
+    {
+     "step": 2,
+     "action": "Recognise the need for a measuring device",
+     "explain": "Because touch is subjective, a reliable instrument called a thermometer is required to measure temperature."
+    },
+    {
+     "step": 3,
+     "action": "State the meaning of temperature",
+     "explain": "Temperature quantifies the degree of hotness or coldness of a body on a numerical scale."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Three students dip their right hand in hot water and left hand in cold water, then both hands in the same lukewarm water. Will both hands feel the same temperature?",
+     "solution": "No. The right hand (from hot water) feels the lukewarm water as cool, while the left hand (from cold water) feels it as warm. This shows our sense of touch is relative and unreliable.",
+     "answer": "Both hands feel different temperatures in the same water, proving touch is unreliable for measuring temperature.",
+     "_n": 1
+    },
+    {
+     "question": "A steel spoon and a wooden spoon are kept in the same room. The steel spoon feels colder. Why?",
+     "solution": "Both spoons are at the same room temperature, but steel conducts heat away from our hand faster than wood, so it feels colder. This shows that touch senses heat flow, not actual temperature.",
+     "answer": "Both are at the same temperature; steel feels colder because it conducts heat away faster.",
+     "_n": 2
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define temperature in your own words.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is it not advisable to measure temperature by touch?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Give one everyday example where our sense of touch misleads us about temperature.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.7.2",
+   "title": "Thermometers -- Clinical, Laboratory and Digital",
+   "section": "7.2",
+   "definition": "A thermometer is a device used to measure temperature; clinical thermometers measure body temperature, laboratory thermometers measure a wider range, and digital thermometers display readings electronically.",
+   "formula": "",
+   "key_idea": "Different thermometers are designed for different temperature ranges and purposes.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a thermometer?",
+    "What is a clinical thermometer and what is it used for?",
+    "How does a laboratory thermometer differ from a clinical thermometer?",
+    "What are the advantages of a digital thermometer?",
+    "Name the types of thermometers and state one use of each."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the type of thermometer by its range and purpose",
+     "explain": "Clinical thermometers measure 35-42 C for body temperature; laboratory thermometers measure -10 to 110 C for experiments."
+    },
+    {
+     "step": 2,
+     "action": "Examine the display mechanism",
+     "explain": "Mercury or alcohol liquid-column thermometers use thermal expansion; digital thermometers use sensors and an electronic display."
+    },
+    {
+     "step": 3,
+     "action": "Select the correct thermometer for the task",
+     "explain": "Use a clinical thermometer for fever, a laboratory thermometer for liquids in experiments, and a digital thermometer for safe, quick readings."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which thermometer would you use to check if a patient has fever and why?",
+     "solution": "A clinical or digital thermometer is used because its range (35-42 C) covers normal human body temperature and it gives an accurate body temperature reading.",
+     "answer": "Use a clinical or digital thermometer to measure body temperature."
+    },
+    {
+     "question": "Why is a clinical thermometer not suitable for measuring the temperature of boiling water?",
+     "solution": "Boiling water is at 100 C, which is above the maximum range (42 C) of a clinical thermometer and would break it.",
+     "answer": "A clinical thermometer cannot measure boiling water because its range stops at 42 C."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Differentiate between a clinical and a laboratory thermometer.",
+     "type": "short_answer"
+    },
+    {
+     "question": "List two advantages of using a digital thermometer.",
+     "type": "short_answer"
+    },
+    {
+     "question": "What is the temperature range of a clinical thermometer?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.7.3",
+   "title": "Temperature Scales -- Celsius, Fahrenheit and Kelvin",
+   "section": "7.3",
+   "definition": "Temperature is measured on different scales: Celsius (C), Fahrenheit (F) and Kelvin (K); the SI unit of temperature is the kelvin.",
+   "formula": "K = C + 273.15",
+   "key_idea": "Three scales are in common use; the kelvin is the SI unit and does not use a degree sign.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the different temperature scales used?",
+    "What is the SI unit of temperature?",
+    "Why is the kelvin scale written without a degree sign?",
+    "Convert 0 C to kelvin.",
+    "State the freezing and boiling points of water on the Celsius and Fahrenheit scales."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the given temperature and its scale",
+     "explain": "Note the numerical value and whether it is in Celsius, Fahrenheit or kelvin."
+    },
+    {
+     "step": 2,
+     "action": "Select the correct conversion formula",
+     "explain": "To convert Celsius to kelvin add 273.15; to convert Celsius to Fahrenheit use F = (9/5)*C + 32.",
+     "compute": "kelvin_value = celsius_value + 273.15"
+    },
+    {
+     "step": 3,
+     "action": "Substitute and compute the result",
+     "explain": "Insert the given value into the formula and calculate the converted temperature."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Convert 25 C to kelvin.",
+     "solution": "K = C + 273.15 = 25 + 273.15 = 298.15 K.",
+     "answer": "298.15 K"
+    },
+    {
+     "question": "Convert 100 C to Fahrenheit.",
+     "solution": "F = (9/5)*C + 32 = (9/5)*100 + 32 = 180 + 32 = 212 F.",
+     "answer": "212 F"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is the SI unit of temperature? Write its symbol.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Convert 37 C to kelvin.",
+     "type": "numerical"
+    },
+    {
+     "question": "State the boiling point of water on the Celsius and Fahrenheit scales.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.7.4",
+   "title": "Reading a Thermometer",
+   "section": "7.4",
+   "definition": "Reading a thermometer involves noting the number on the scale at the level of the liquid column (or digital display) while holding it upright at eye level.",
+   "formula": "",
+   "key_idea": "Accurate reading requires the thermometer to be upright, the eye level aligned with the liquid meniscus, and the reading taken at the correct mark.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How do you read a thermometer?",
+    "Why should the thermometer be held upright while reading?",
+    "What precaution is taken regarding eye level while reading a thermometer?",
+    "What is the kink in a clinical thermometer used for?",
+    "List the steps to measure body temperature using a thermometer."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Hold the thermometer upright",
+     "explain": "The thermometer must be vertical so the liquid column settles at the correct level."
+    },
+    {
+     "step": 2,
+     "action": "Align eye level with the liquid meniscus",
+     "explain": "Reading at an angle causes parallax error, so the eye must be level with the top of the liquid column."
+    },
+    {
+     "step": 3,
+     "action": "Note the scale mark at the liquid level",
+     "explain": "Read the number on the scale where the liquid column stops; the kink in a clinical thermometer prevents the mercury from falling back so the reading can be taken after removal."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A clinical thermometer shows the mercury level at the mark 38.5 C. What is the reading and what does it indicate?",
+     "solution": "The reading is 38.5 C, which is above the normal body temperature of 37 C, indicating a fever.",
+     "answer": "38.5 C -- indicates fever."
+    },
+    {
+     "question": "A student reads a clinical thermometer from above the scale instead of at eye level. What error may occur?",
+     "solution": "Reading from above or below eye level causes parallax error, so the student may read a value that is higher or lower than the true temperature.",
+     "answer": "Parallax error gives an incorrect reading if the eye is not level with the liquid column."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List three precautions to take while reading a thermometer.",
+     "type": "short_answer"
+    },
+    {
+     "question": "What is the function of the kink in a clinical thermometer?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why should you not read a thermometer while it is tilted?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.7.5",
+   "title": "Normal Body Temperature",
+   "section": "7.5",
+   "definition": "The normal temperature of the human body is about 37 C (98.6 F); it can vary slightly depending on the person and time of day.",
+   "formula": "normal_body_temp = 37 C = 98.6 F",
+   "key_idea": "A healthy human body maintains a near-constant temperature around 37 C; deviations indicate fever or hypothermia.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the normal body temperature of a human being?",
+    "Express normal body temperature in both Celsius and Fahrenheit.",
+    "What does a reading above 37 C indicate?",
+    "Why does body temperature vary slightly during the day?",
+    "What temperature is considered a fever?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Recall the normal body temperature in Celsius",
+     "explain": "The average normal body temperature is 37 C.",
+     "compute": "normal_c = 37"
+    },
+    {
+     "step": 2,
+     "action": "Apply the Celsius-to-Fahrenheit formula",
+     "explain": "Use F = (9/5)*C + 32 to convert to Fahrenheit."
+    },
+    {
+     "step": 3,
+     "action": "Compute the Fahrenheit value",
+     "explain": "9 over 5 times 37 is 66.6; adding 32 gives 98.6 degrees Fahrenheit",
+     "compute": "fahrenheit_value = (9.0 / 5.0) * normal_c + 32"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the normal body temperature of a healthy human in Celsius and Fahrenheit?",
+     "solution": "Normal body temperature is 37 C. Converting: F = (9/5)*37 + 32 = 66.6 + 32 = 98.6 F.",
+     "answer": "37 C = 98.6 F"
+    },
+    {
+     "question": "A patient's temperature is 39 C. Is the patient running a fever?",
+     "solution": "Since 39 C is above the normal 37 C, the patient has a fever.",
+     "answer": "Yes, 39 C is above normal, indicating fever."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State the normal body temperature in Celsius and Fahrenheit.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Convert 37 C to Fahrenheit.",
+     "type": "numerical"
+    },
+    {
+     "question": "A thermometer reads 40 C. Is this normal? Explain.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.7.6",
+   "title": "Measuring Temperature of Liquids",
+   "section": "7.6",
+   "definition": "The temperature of a liquid is measured by immersing the bulb of a laboratory thermometer in the liquid and reading the scale without removing the thermometer.",
+   "formula": "",
+   "key_idea": "The thermometer bulb must be fully immersed and read while still in the liquid for an accurate measurement.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How do you measure the temperature of a liquid?",
+    "Why should the bulb of the thermometer be completely immersed in the liquid?",
+    "Why should the thermometer not be removed from the liquid before reading?",
+    "Which thermometer is used to measure the temperature of liquids in the laboratory?",
+    "Write the steps to measure the temperature of tap water."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Select a laboratory thermometer",
+     "explain": "A laboratory thermometer has a range suitable for liquids (e.g. -10 to 110 C)."
+    },
+    {
+     "step": 2,
+     "action": "Immerse the bulb fully in the liquid",
+     "explain": "The bulb must be surrounded by the liquid so it reaches thermal equilibrium with the liquid."
+    },
+    {
+     "step": 3,
+     "action": "Read the scale while the bulb is still immersed",
+     "explain": "Unlike a clinical thermometer, a laboratory thermometer has no kink, so the liquid column falls when removed; the reading must be taken while immersed."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A student measures the temperature of warm water by removing the laboratory thermometer and then reading it. Is this correct? Why?",
+     "solution": "No. A laboratory thermometer has no kink, so the liquid column falls immediately when removed from the water. The reading must be taken while the bulb is still immersed.",
+     "answer": "Incorrect -- the reading must be taken while the bulb is immersed in the liquid."
+    },
+    {
+     "question": "A laboratory thermometer reads 85 C while its bulb is immersed in a beaker of hot water. What is the temperature of the water?",
+     "solution": "Since the bulb is immersed and the reading is taken in the liquid, the temperature of the water is 85 C.",
+     "answer": "85 C"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why is a laboratory thermometer used instead of a clinical thermometer to measure the temperature of boiling water?",
+     "type": "short_answer"
+    },
+    {
+     "question": "List two precautions while measuring the temperature of a liquid.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Can you use a clinical thermometer to measure the temperature of hot tea? Give reasons.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.7.7",
+   "title": "Calibration of Thermometers",
+   "section": "7.7",
+   "definition": "Calibration is the process of marking a thermometer scale using two fixed reference points -- the ice point (0 C) and the steam point (100 C) of pure water.",
+   "formula": "ice_point = 0 C; steam_point = 100 C",
+   "key_idea": "Fixed reference points ensure all thermometers give consistent readings on the same scale.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is calibration of a thermometer?",
+    "What are the two fixed points used to calibrate a Celsius thermometer?",
+    "Why is calibration necessary?",
+    "Define ice point and steam point.",
+    "How is the scale between the fixed points divided?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the lower fixed point",
+     "explain": "The ice point is the temperature of melting ice, defined as 0 C."
+    },
+    {
+     "step": 2,
+     "action": "Identify the upper fixed point",
+     "explain": "The steam point is the temperature of steam from boiling water at normal pressure, defined as 100 C."
+    },
+    {
+     "step": 3,
+     "action": "Divide the interval into equal parts",
+     "explain": "The distance between the two fixed points on the scale is divided into 100 equal divisions, each representing 1 C."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the two fixed reference points used to calibrate a thermometer on the Celsius scale?",
+     "solution": "The lower fixed point is the ice point (melting ice) at 0 C and the upper fixed point is the steam point (boiling water) at 100 C.",
+     "answer": "Ice point = 0 C and steam point = 100 C."
+    },
+    {
+     "question": "How many divisions are marked between the ice point and the steam point on a Celsius thermometer?",
+     "solution": "The interval between 0 C and 100 C is divided into 100 equal parts, so there are 100 divisions, each equal to 1 C.",
+     "answer": "100 divisions, each representing 1 C."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define calibration of a thermometer.",
+     "type": "short_answer"
+    },
+    {
+     "question": "What is the value of the ice point and steam point on the Celsius scale?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why are fixed points needed on a thermometer scale?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.7.8",
+   "title": "Conversion Between Temperature Scales",
+   "section": "7.8",
+   "definition": "Temperatures can be converted between Celsius, Fahrenheit and kelvin scales using fixed formulas so that the same temperature is expressed correctly on any scale.",
+   "formula": "F = (9/5)*C + 32; C = (5/9)*(F - 32); K = C + 273.15",
+   "key_idea": "Conversion formulas allow a single temperature to be expressed in any of the three scales.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Convert Celsius to Fahrenheit.",
+    "Convert Fahrenheit to Celsius.",
+    "Convert Celsius to kelvin.",
+    "What is the formula to convert Fahrenheit to Celsius?",
+    "Convert 98.6 F to Celsius."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the given temperature and target scale",
+     "explain": "Note the value and which scale it must be converted to.",
+     "compute": "given = value_in_source_scale"
+    },
+    {
+     "step": 2,
+     "action": "Select the appropriate conversion formula",
+     "explain": "Use F = (9/5)*C + 32 for C to F, C = (5/9)*(F - 32) for F to C, and K = C + 273.15 for C to K.",
+     "compute": "select_formula"
+    },
+    {
+     "step": 3,
+     "action": "Substitute and compute the result",
+     "explain": "Insert the given value into the chosen formula and calculate the numerical answer.",
+     "compute": "result = computed_value"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Convert 50 C to Fahrenheit.",
+     "solution": "F = (9/5)*C + 32 = (9/5)*50 + 32 = 90 + 32 = 122 F.",
+     "answer": "122 F"
+    },
+    {
+     "question": "Convert 98.6 F to Celsius.",
+     "solution": "C = (5/9)*(F - 32) = (5/9)*(98.6 - 32) = (5/9)*66.6 = 37 C.",
+     "answer": "37 C"
+    },
+    {
+     "question": "Convert 100 C to kelvin.",
+     "solution": "K = C + 273.15 = 100 + 273.15 = 373.15 K.",
+     "answer": "373.15 K"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Convert 30 C to Fahrenheit.",
+     "type": "numerical"
+    },
+    {
+     "question": "Convert 212 F to Celsius.",
+     "type": "numerical"
+    },
+    {
+     "question": "Write the formula to convert Celsius to kelvin.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.7.9",
+   "title": "Precautions While Using a Thermometer",
+   "section": "7.9",
+   "definition": "Safe and accurate use of a thermometer requires handling it carefully, avoiding breakage, and following hygiene and reading precautions.",
+   "formula": "",
+   "key_idea": "Proper handling prevents breakage, inaccurate readings and injury.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "List the precautions to be taken while using a clinical thermometer.",
+    "Why should a thermometer be washed before and after use?",
+    "Why should the bulb of a clinical thermometer not touch the bottom or sides of a container?",
+    "What happens if a thermometer is placed in very hot water beyond its range?",
+    "Why should you read the thermometer at eye level?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check the range before use",
+     "explain": "Ensure the expected temperature is within the thermometer's range to avoid breakage or wrong readings."
+    },
+    {
+     "step": 2,
+     "action": "Handle and clean the thermometer",
+     "explain": "Wash the bulb with an antiseptic before and after use and hold the thermometer firmly but gently to avoid breakage."
+    },
+    {
+     "step": 3,
+     "action": "Read correctly and store safely",
+     "explain": "Read at eye level while upright and store the thermometer in a protective case away from heat and reach of children."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A student places a clinical thermometer in boiling water. What will happen and why?",
+     "solution": "The clinical thermometer's range ends at 42 C. Boiling water at 100 C exceeds this range, so the expanding mercury may break the thermometer.",
+     "answer": "The thermometer may break because boiling water exceeds its maximum range of 42 C."
+    },
+    {
+     "question": "Why should a clinical thermometer be washed with an antiseptic before and after use?",
+     "solution": "Washing with an antiseptic prevents the spread of germs from one person to another and keeps the bulb clean for an accurate reading.",
+     "answer": "To maintain hygiene and prevent infection between users."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List three precautions while using a clinical thermometer.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why should a thermometer be washed before and after use?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why must the thermometer bulb not touch the sides or bottom of the container?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "fecu107.txt",
+   "concept": "c6cu.7.1",
+   "question_type": "short_answer",
+   "question_pattern": "Three students dip their right hand in hot water and left hand in cold water, then both hands in the same lukewarm water. Will both hands feel the same temperature?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "No. The right hand (from",
+     "explain": "No. The right hand (from hot water) feels the lukewarm water as cool, while the left hand (from cold water) feels it as warm. This shows our sense of touch is relative and unreliable."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "fecu107.txt",
+   "concept": "c6cu.7.1",
+   "question_type": "short_answer",
+   "question_pattern": "A steel spoon and a wooden spoon are kept in the same room. The steel spoon feels colder. Why?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Both spoons are at the",
+     "explain": "Both spoons are at the same room temperature, but steel conducts heat away from our hand faster than wood, so it feels colder. This shows that touch senses heat flow, not actual temperature."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

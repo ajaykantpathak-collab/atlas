@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_08_003",
+   "title": "c11_math_cbse_08_003",
+   "questions": [
+    {
+     "q": "State the position(s) of the middle term(s) in the expansion of (2x - 3y)^9. Do not compute the term(s), only give the term number(s) T_k.",
+     "a": "For n = 9 (odd), there are two middle terms at positions T_{(9+1)/2} = T_5 and T_{(9+3)/2} = T_6. A wrong answer like \"T_5 only\" reveals the student incorrectly assumes a single middle term for all n, confusing the even-n rule with the odd-n case.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the expansion of (x + 1/x)^10 has exactly one middle term, while (x + 1/x)^11 has two middle terms. Use the concept of total number of terms in your reasoning.",
+     "a": "The expansion of (a+b)^n has n+1 terms. For n=10, there are 11 terms (odd count), so one exact middle term at position 6. For n=11, there are 12 terms (even count), so two middle terms at positions 6 and 7. A wrong answer focusing only on the parity of n without linking to total term count reveals a procedural memory without conceptual understanding of why the rule works.",
+     "self_check": true
+    },
+    {
+     "q": "Find the middle term in the expansion of (3x² - 2/x)^8.",
+     "a": "n = 8 (even) → one middle term at r = n/2 = 4 → T_5 = ^8C_4 (3x²)^{8-4} (-2/x)^4 = 70 × 81x⁸ × 16/x⁴ = 70 × 81 × 16 × x⁴ = 90720 x⁴. A wrong answer with r = 3 or r = 5 reveals confusion between term index (r+1) and r-value. An answer missing the (-1)^4 sign reveals sign errors with negative terms.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the middle terms of (2x - y)^6 and (2x + y)^6. Are they identical? Justify your answer by analyzing the structure of the general term.",
+     "a": "For n=6 (even), middle term is T_4 with r=3. T_4 = ^6C_3 (2x)^3 (±y)^3 = 20 × 8x³ × (±y³) = ±160 x³y³. The terms differ only in sign: -160x³y³ for minus, +160x³y³ for plus. A student claiming they are identical misses that (-y)^3 = -y³ while (+y)^3 = +y³, revealing a sign-handling gap when the binomial has a negative second term.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims the middle term of (x² + 2/x)^7 is ^7C_3 (x²)^4 (2/x)^3. Evaluate this claim and identify the error.",
+     "a": "The claim is incorrect. For n=7 (odd), there are TWO middle terms at r=3 and r=4. The student gave only one term (r=3) and also used wrong powers: for r=3, powers should be (x²)^{7-3}(2/x)^3 = (x²)^4(2/x)^3, which matches, but they missed the second middle term at r=4. This reveals the student doesn't recognize odd n produces two middle terms and treats it like the even-n case.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a binomial expansion (a + b)^n where the middle term is a constant (no variables). Specify a, b, n and show the middle term computation.",
+     "a": "Example: (x + 1/x)^6. n=6 (even), middle term at r=3. T_4 = ^6C_3 x^{6-3} (1/x)^3 = 20 x³ (1/x³) = 20. A poor answer might use (2+3)^n (no variables) or fail to ensure powers cancel. This reveals whether the student understands that variable cancellation requires reciprocal terms with matching exponents.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

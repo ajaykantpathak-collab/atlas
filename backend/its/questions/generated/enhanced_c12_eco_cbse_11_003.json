@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_11_003",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_11_003",
+   "title": "c12_eco_cbse_11_003",
+   "questions": [
+    {
+     "q": "Define revenue expenditure and capital expenditure in one sentence each, using the asset/liability criterion.",
+     "a": "Revenue expenditure is government spending that neither creates assets nor reduces liabilities (e.g., interest payments). Capital expenditure is government spending that either creates assets (e.g., building a school) or reduces liabilities (e.g., repaying a loan). A wrong answer that says \"revenue expenditure is for daily expenses and capital expenditure is for long-term expenses\" reveals a misunderstanding of the precise accounting criterion; the distinction is not about time horizon but about asset creation/liability reduction.",
+     "self_check": true
+    },
+    {
+     "q": "Why is repayment of a loan classified as capital expenditure even though no physical asset is created?",
+     "a": "Loan repayment reduces the government's liability (the outstanding debt), and the definition of capital expenditure includes expenditure that reduces liabilities. A student who thinks capital expenditure only means building physical assets misses the liability-reduction aspect and would misclassify debt repayment as revenue expenditure.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following items from a hypothetical budget: (a) ₹50,000 crore for payment of pensions, (b) ₹20,000 crore for purchase of shares in a public sector undertaking, (c) ₹15,000 crore for interest on past borrowings, (d) ₹30,000 crore for construction of a new railway line. Show your reasoning for each.",
+     "a": "(a) Pensions: Revenue expenditure — no asset created, no liability reduced; it's a transfer payment. (b) Purchase of shares: Capital expenditure — creates a financial asset (equity holding). (c) Interest payments: Revenue expenditure — does not create asset or reduce principal liability; it's a cost of borrowing. (d) Railway construction: Capital expenditure — creates a physical asset. A wrong classification of (b) as revenue expenditure indicates confusion between financial asset creation and current spending.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact on the fiscal deficit if the government shifts ₹1 lakh crore from revenue expenditure to capital expenditure, keeping total expenditure and receipts unchanged. Explain the effect on the revenue deficit and the primary deficit.",
+     "a": "The fiscal deficit (total expenditure - total receipts) remains unchanged because total expenditure and receipts are unchanged. However, the revenue deficit (revenue expenditure - revenue receipts) decreases because revenue expenditure falls. The primary deficit (fiscal deficit - interest payments) is unaffected if the shifted amount does not include interest payments. A student who says the fiscal deficit changes has confused the definitions of the different deficits.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A government should always aim for zero revenue expenditure and only incur capital expenditure to maximize economic growth.\" Provide two economic arguments against this extreme view.",
+     "a": "Argument 1: Essential public services (defense, administration, justice, basic healthcare, education) require revenue expenditure; eliminating them would collapse governance and human capital formation. Argument 2: Some revenue expenditure (e.g., maintenance of existing infrastructure, subsidies for merit goods) protects past capital investments and ensures their efficient utilization. A student who agrees with the statement ignores the complementary role of revenue expenditure in sustaining the benefits of capital expenditure.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical budget snippet for a state government with at least 5 expenditure items (mix of revenue and capital). Label each item and calculate the total revenue expenditure and total capital expenditure. Ensure the numbers are plausible for an Indian state (in ₹ crore).",
+     "a": "Example snippet: (1) Salaries: ₹40,000 crore (Rev), (2) Pensions: ₹15,000 crore (Rev), (3) Interest payments: ₹20,000 crore (Rev), (4) Road construction: ₹25,000 crore (Cap), (5) Purchase of medical equipment for hospitals: ₹5,000 crore (Cap). Total Revenue Expenditure = ₹75,000 crore; Total Capital Expenditure = ₹30,000 crore. A poor answer would mislabel interest payments as capital or omit the liability-reduction criterion for items like loan repayment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

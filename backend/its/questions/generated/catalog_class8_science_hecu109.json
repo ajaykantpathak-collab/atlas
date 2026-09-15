@@ -1,0 +1,317 @@
+{
+ "catalog": "catalog_class8_science_hecu109.json",
+ "concepts": [
+  {
+   "id": "hecu.109.9.1",
+   "title": "Solute, Solvent and Solution",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a solution?",
+     "a": "A uniform mixture where a solute dissolves completely in a solvent - like sugar in water.",
+     "self_check": true
+    },
+    {
+     "q": "Name the solute and solvent in sea water.",
+     "a": "Solvent: water. Solutes: salts (mainly sodium chloride).",
+     "self_check": true
+    },
+    {
+     "q": "Why is a solution always clear and stable?",
+     "a": "Solute particles are too fine to see or settle, and pass through filters.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.109.9.2",
+   "title": "Solubility and Saturated Solutions",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a saturated solution?",
+     "a": "One that holds the most solute it can dissolve at that temperature - extra solute stays undissolved.",
+     "self_check": true
+    },
+    {
+     "q": "How can more sugar be dissolved in a saturated sugar solution?",
+     "a": "Heat it - solubility usually rises with temperature - or add more solvent.",
+     "self_check": true
+    },
+    {
+     "q": "What is solubility?",
+     "a": "The maximum solute that dissolves in 100 g of solvent at a given temperature.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.109.9.3",
+   "title": "Concentration of a Solution",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "conc",
+     "expr": "(solute / solvent) * 100",
+     "explain": "mass of solute per 100 g (or mL) of solvent"
+    },
+    {
+     "step": 2,
+     "name": "conc_per_50",
+     "expr": "(solute / solvent) * 50",
+     "explain": "solute per 50 g of solvent"
+    },
+    {
+     "step": 3,
+     "name": "solute_for_200",
+     "expr": "conc * 2",
+     "explain": "solute needed to make twice the reference amount"
+    }
+   ],
+   "questions": [
+    {
+     "q": "10 g of sugar dissolves in 100 g of water. Find the concentration, and the sugar needed for 200 g of water.",
+     "vals": {
+      "solute": 10,
+      "solvent": 100
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "20 g",
+     "self_check": false
+    },
+    {
+     "q": "5 g of salt is dissolved in 50 g of water. Calculate the concentration of the solution.",
+     "vals": {
+      "solute": 5,
+      "solvent": 50
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "20 g",
+     "self_check": false
+    },
+    {
+     "q": "A solution holds 20 g of glucose in 400 g of water. Find its concentration.",
+     "vals": {
+      "solute": 20,
+      "solvent": 400
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "10 g",
+     "self_check": false
+    },
+    {
+     "q": "2 g of urea in 80 g of water: what is the concentration, and the urea for 200 g of water?",
+     "vals": {
+      "solute": 2,
+      "solvent": 80
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "5 g",
+     "self_check": false
+    },
+    {
+     "q": "25 g of potash dissolves in 125 g of water. Compute the concentration.",
+     "vals": {
+      "solute": 25,
+      "solvent": 125
+     },
+     "unit": "g",
+     "steps": null,
+     "a": "40 g",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hecu.109.9.4",
+   "title": "Solubility of Gases in Water",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why does warm water hold less dissolved oxygen than cold water?",
+     "a": "Gases escape faster from warm water - their solubility falls as temperature rises.",
+     "self_check": true
+    },
+    {
+     "q": "Why do aquatic animals suffer when pond water gets too warm?",
+     "a": "Warm water holds little oxygen, so fish and other animals struggle to breathe.",
+     "self_check": true
+    },
+    {
+     "q": "How does a fizzy drink lose its fizz when left open in the heat?",
+     "a": "Carbon dioxide gas escapes faster in warm, open conditions.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.109.9.5",
+   "title": "Density: Mass per Unit Volume",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "density",
+     "expr": "mass / volume",
+     "explain": "density is mass per unit volume"
+    },
+    {
+     "step": 2,
+     "name": "half_volume_mass",
+     "expr": "density * (volume / 2)",
+     "explain": "mass of half the volume"
+    },
+    {
+     "step": 3,
+     "name": "mass_of_3v",
+     "expr": "density * 3",
+     "explain": "mass of three times that volume"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A stone of mass 60 g has volume 20 cu cm. Find its density and the mass of 60 cu cm of it.",
+     "vals": {
+      "mass": 60,
+      "volume": 20
+     },
+     "unit": "g/cu cm",
+     "steps": null,
+     "a": "9 g/cu cm",
+     "self_check": false
+    },
+    {
+     "q": "An iron block of mass 237 g occupies 30 cu cm. Calculate its density.",
+     "vals": {
+      "mass": 237,
+      "volume": 30
+     },
+     "unit": "g/cu cm",
+     "steps": null,
+     "a": "23.7 g/cu cm",
+     "self_check": false
+    },
+    {
+     "q": "450 g of a liquid fills 500 cu cm. What is its density?",
+     "vals": {
+      "mass": 450,
+      "volume": 500
+     },
+     "unit": "g/cu cm",
+     "steps": null,
+     "a": "2.7 g/cu cm",
+     "self_check": false
+    },
+    {
+     "q": "A wooden cube of 120 g has volume 240 cu cm. Compute its density and the mass of 720 cu cm.",
+     "vals": {
+      "mass": 120,
+      "volume": 240
+     },
+     "unit": "g/cu cm",
+     "steps": null,
+     "a": "1.5 g/cu cm",
+     "self_check": false
+    },
+    {
+     "q": "A metal ball of 890 g has volume 100 cu cm. Find its density.",
+     "vals": {
+      "mass": 890,
+      "volume": 100
+     },
+     "unit": "g/cu cm",
+     "steps": null,
+     "a": "26.7 g/cu cm",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hecu.109.9.6",
+   "title": "Floating, Sinking and Relative Density",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "rel_dens",
+     "expr": "density_of_substance / density_of_water",
+     "explain": "relative density compares the substance with water"
+    },
+    {
+     "step": 2,
+     "name": "water_percent",
+     "expr": "rel_dens * 100",
+     "explain": "density as a per cent of water's density"
+    },
+    {
+     "step": 3,
+     "name": "sinks_or_floats_factor",
+     "expr": "rel_dens - 1",
+     "explain": "positive means denser than water (sinks), negative means it floats"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A liquid has density 1.2 g/cu cm; water is 1 g/cu cm. Find its relative density - will it sink or float on water?",
+     "vals": {
+      "density_of_substance": 1.2,
+      "density_of_water": 1
+     },
+     "unit": null,
+     "steps": null,
+     "a": "0.2",
+     "self_check": false
+    },
+    {
+     "q": "Aluminium has density 2.7 g/cu cm. Calculate its relative density and say whether it floats.",
+     "vals": {
+      "density_of_substance": 2.7,
+      "density_of_water": 1
+     },
+     "unit": null,
+     "steps": null,
+     "a": "1.7",
+     "self_check": false
+    },
+    {
+     "q": "Kerosene of density 0.8 g/cu cm: find the relative density. Does it float on water?",
+     "vals": {
+      "density_of_substance": 0.8,
+      "density_of_water": 1
+     },
+     "unit": null,
+     "steps": null,
+     "a": "-0.2",
+     "self_check": false
+    },
+    {
+     "q": "A solid measures 6 g/cu cm. What is its relative density compared with water?",
+     "vals": {
+      "density_of_substance": 6,
+      "density_of_water": 1
+     },
+     "unit": null,
+     "steps": null,
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Ice has density 0.92 g/cu cm. Compute its relative density and its excess factor over water.",
+     "vals": {
+      "density_of_substance": 0.92,
+      "density_of_water": 1
+     },
+     "unit": null,
+     "steps": null,
+     "a": "-0.08",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

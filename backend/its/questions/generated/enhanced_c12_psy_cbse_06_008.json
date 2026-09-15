@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_06_008",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_06_008",
+   "title": "c12_psy_cbse_06_008",
+   "questions": [
+    {
+     "q": "List the four categories of factors that influence attitude change according to NCERT Class 12 Psychology Chapter 6.",
+     "a": "The four categories are: (1) Characteristics of the existing attitude, (2) Source characteristics, (3) Message characteristics, and (4) Target characteristics. A wrong answer that omits one category (e.g., forgetting \"characteristics of the existing attitude\") reveals the student has not organized the factors into the textbook's framework and may treat all factors as a flat list, missing the structural distinction between factors inherent to the attitude itself versus external persuasion variables.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a positive attitude is generally easier to change than a negative attitude, and why an extreme attitude is harder to change than a moderate one.",
+     "a": "Positive attitudes are easier to change because they are less tied to defensive mechanisms; people hold negative attitudes often as protection against threat, making them resistant. Extreme attitudes (very high or low on valence) are more central to the person's belief system and have more cognitive support, so changing them requires dismantling a larger network of cognitions. A wrong answer that says \"negative attitudes are stronger because they are more emotional\" confuses valence with extremeness and misses the role of cognitive consistency and defense motivation.",
+     "self_check": true
+    },
+    {
+     "q": "A public health campaign wants to increase COVID-19 vaccination rates in a rural community. The campaign uses a popular local folk singer (source) to deliver a message that emphasizes \"protecting your family\" (emotional appeal) via face-to-face village meetings (mode). The target audience has low formal education but high trust in local leaders. Apply the four factor categories to analyze why this campaign design is likely to be effective.",
+     "a": "(1) Existing attitude: likely negative or hesitant (valence negative), but not extreme if hesitancy is due to misinformation rather than deep conviction; low centrality if health is not a core value — thus changeable. (2) Source: folk singer is attractive (liked, similar) and credible locally — high source effectiveness for this target. (3) Message: emotional appeal (family protection) matches target's values; face-to-face mode is most effective for low-literacy audiences. (4) Target: low formal education but high trust in local leaders → high persuasibility via peripheral route; low self-esteem not indicated, but high ingroup trust facilitates identification. A wrong answer that focuses only on the emotional appeal and ignores the match between source characteristics and target characteristics shows inability to analyze interaction effects.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the roles of source credibility and source attractiveness in attitude change. Under what conditions would each be more effective? Use the laptop advertisement example from the textbook (Figure 6.1) to illustrate.",
+     "a": "Source credibility (expertise, trustworthiness) is more effective when the message requires technical evaluation (e.g., laptop specs for adults) because the target lacks knowledge to judge arguments and relies on the expert's authority. Source attractiveness (likability, similarity, familiarity) is more effective when the target identifies with the source (e.g., schoolchildren persuaded by another schoolchild) or when the product is identity-expressive (e.g., fashion, cars). In Figure 6.1, Picture A (expert) works for adults; Picture B (peer) works for schoolchildren. A wrong answer that treats credibility and attractiveness as interchangeable or always additive misses the moderating role of target characteristics and message type.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Fear appeals are always effective in changing attitudes because they motivate people to avoid negative outcomes.\" Use the textbook's discussion on fear and persuasion to support your evaluation.",
+     "a": "The claim is false. The textbook states: \"fear sometimes works well in convincing people but if a message generates too much fear, it turns off the receiver and has little persuasive effect.\" Moderate fear can motivate processing and attitude change (e.g., dental cavity pictures may work if not too graphic), but high fear triggers defensive avoidance, denial, or reactance, reducing persuasion. Effectiveness depends on fear level, perceived efficacy of recommended action, and target's coping resources. A wrong answer that agrees with the claim ignores the curvilinear relationship and the textbook's explicit warning about \"too much fear.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a persuasion strategy to change the attitude of a group of college students who have a strongly negative, extreme, and central attitude towards \"mandatory attendance policies.\" Specify choices for source, message, and mode of delivery, and justify each choice using target characteristics (intelligence, self-esteem, prejudices) and existing attitude properties.",
+     "a": "Strategy: (1) Source: A respected senior student leader who previously opposed mandatory attendance but changed their mind after experiencing benefits — high attractiveness (similarity, identification) and credibility (peer, not authority). (2) Message: Two-sided refutational message acknowledging valid concerns (loss of autonomy) but presenting strong evidence of academic benefits (rational appeal) and linking attendance to peer learning and networking (emotional appeal: belonging). Avoid high fear. (3) Mode: Face-to-face interactive town hall (not lecture) to allow questioning and reduce reactance. Justification: Targets are intelligent (central route processing needed), high self-esteem (resist coercion), hold strong prejudice against top-down rules (so source must be ingroup). Two-sided message reduces counter-arguing. A poor answer that chooses an authority figure (dean) and one-sided fear-based message (\"you will fail\") shows failure to match strategy to target and attitude characteristics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_13_003",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_13_003",
+   "title": "c11_phy_cbse_13_003",
+   "questions": [
+    {
+     "q": "A particle executes SHM with displacement x = 4 cos(2πt + π/3) where x is in cm and t in s. What is the amplitude of its velocity in cm/s?",
+     "a": "The amplitude of velocity is v_max = ωA = 2π × 4 = 8π cm/s ≈ 25.1 cm/s. A wrong answer like 4 cm/s reveals the student thinks velocity amplitude equals displacement amplitude, ignoring the ω factor. A wrong answer like 8 cm/s reveals the student forgot π in angular frequency. The correct answer requires recognizing ω = 2π rad/s from the coefficient of t.",
+     "self_check": true
+    },
+    {
+     "q": "In SHM, the acceleration is zero when the particle is at the mean position (x=0), yet the restoring force is also zero there. If both force and acceleration are zero, why does the particle not remain at rest at the mean position?",
+     "a": "At the mean position, acceleration and force are instantaneously zero, but velocity is maximum. The particle has inertia (mass) and continues moving due to its non-zero velocity. It overshoots the equilibrium position, after which the restoring force acts to decelerate it. A wrong answer claiming \"force is not zero at mean position\" reveals confusion between force and velocity. A wrong answer claiming \"particle stops at mean position\" confuses SHM with a damped system coming to rest.",
+     "self_check": true
+    },
+    {
+     "q": "A body oscillates according to x = 0.05 cos(10πt + π/6) in SI units. Find its displacement, velocity, and acceleration at t = 0.1 s. Show all steps with units.",
+     "a": "Given: A = 0.05 m, ω = 10π rad/s, φ = π/6.\nAt t = 0.1 s:\nPhase = ωt + φ = 10π(0.1) + π/6 = π + π/6 = 7π/6 rad.\nx = 0.05 cos(7π/6) = 0.05 × (–√3/2) = –0.02165 m.\nv = –ωA sin(7π/6) = –(10π)(0.05) × (–1/2) = 0.25π = 0.785 m/s.\na = –ω²A cos(7π/6) = –(100π²)(0.05) × (–√3/2) = 2.5π²√3 ≈ 42.7 m/s².\nA wrong answer with x positive reveals incorrect quadrant identification for 7π/6. A wrong v sign reveals missing the negative sign in v = –ωA sin(ωt+φ).",
+     "self_check": true
+    },
+    {
+     "q": "The velocity of a particle in SHM is given by v = 6 cos(4t) m/s. What is the amplitude of its displacement and its maximum acceleration? Explain how you deduced the displacement equation from the velocity equation.",
+     "a": "Given v = 6 cos(4t) = ωA cos(ωt) (comparing with v = ωA cos(ωt + φ) for φ=0). So ω = 4 rad/s, ωA = 6 → A = 6/4 = 1.5 m. Maximum acceleration a_max = ω²A = 16 × 1.5 = 24 m/s². To get displacement: integrate v dt → x = ∫6 cos(4t) dt = (6/4) sin(4t) + C. For SHM about origin, C=0, so x = 1.5 sin(4t) = 1.5 cos(4t – π/2). A wrong answer A = 6 m reveals confusing velocity amplitude with displacement amplitude. A wrong a_max = 96 m/s² reveals using ω = 6 instead of 4.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In SHM, the velocity and acceleration are always in opposite directions because v = –ωA sin(ωt+φ) and a = –ω²A cos(ωt+φ) both have negative signs.\" Evaluate this statement and correct it if necessary.",
+     "a": "The statement is FALSE. The negative signs in the formulas indicate phase shifts relative to the cosine reference, not that v and a always have opposite signs. The phase difference between v and a is π/2 (90°), not π (180°). For example, at t=0 with φ=0: v=0, a=–ω²A (negative). At ωt=π/4: v = –ωA/√2 (negative), a = –ω²A/√2 (negative) — both negative, same direction. The student incorrectly equates the negative sign in the formula with the sign of the quantity at all times. The correct statement: a and x are always opposite in sign (a = –ω²x), but v and a have a π/2 phase difference.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a smartphone's accelerometer and a spring-mass system to verify that acceleration in SHM is proportional to displacement and directed opposite to it. Describe the setup, measurements, and how you would plot the data to confirm a = –ω²x.",
+     "a": "Setup: Attach a smartphone (with phyphox or similar app) to a mass on a vertical spring. Displace the mass vertically by a known amount (e.g., 5 cm) and release. Record acceleration vs time. Simultaneously, use a meter scale or video analysis to record displacement vs time. Plot a vs x (parametric plot using time as parameter). The graph should be a straight line through origin with negative slope = –ω². Calculate ω from slope and compare with T = 2π/ω measured from period. A poor answer would only measure period and not verify the a-x proportionality. A good answer addresses synchronizing time stamps, removing gravity offset from accelerometer, and fitting a line to a-x data.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

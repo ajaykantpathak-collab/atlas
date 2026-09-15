@@ -1,0 +1,255 @@
+{
+ "catalog": "catalog_class10_social_ch5",
+ "concepts": [
+  {
+   "id": "c10ss.5.1",
+   "title": "The First Printed Books",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The First Printed Books' refers to.",
+     "a": "The earliest kind of print technology was developed in China, Japan and Korea, where books were printed by rubbing paper against the inked surface of woodblocks; from hand-printing, the technology moved to mechanical printing, with the imperial state in China being the major producer of printed material for nearly five centuries.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The First Printed Books'.",
+     "a": "Print technology originated in East Asia through woodblock printing on paper, with China producing the earliest printed books long before mechanical printing reached Europe.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The First Printed Books' taught, and from which source text?",
+     "a": "The First Printed Books",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.5.2",
+   "title": "Print in Japan",
+   "questions": [
+    {
+     "q": "Using the method 'Print in Japan', work with: intro_year = 768. Carry the chain through step by step and give the final value of years_to_oldest_book.",
+     "a": "100 years",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Print in Japan' and work with: intro_year = 768. Carry the chain through step by step and give the final value of years_to_oldest_book.",
+     "a": "100 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Print in Japan' refers to.",
+     "a": "Buddhist missionaries from China introduced hand-printing technology into Japan around AD 768-770; the oldest Japanese book, the Buddhist Diamond Sutra, was printed in AD 868, and by the seventeenth century urban printing in Edo (Tokyo) produced illustrated books for a growing literate public.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Print in Japan'.",
+     "a": "Japan adopted woodblock printing through Buddhist missionaries from China and developed a flourishing illustrated print culture by the seventeenth century.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Print in Japan' taught, and from which source text?",
+     "a": "Print in Japan",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.5.3",
+   "title": "Print Comes to Europe",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Print Comes to Europe' refers to.",
+     "a": "Print technology reached Europe through trade and the silk route; by the fifteenth century woodblock printing was common in Europe for printing textiles and playing cards, and merchants and students began demanding cheaper books, leading to the development of a printing system with movable type.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Print Comes to Europe'.",
+     "a": "The demand for cheaper books from students, merchants and the growing literate public in fifteenth-century Europe drove the shift from woodblock printing to movable type printing.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Print Comes to Europe' taught, and from which source text?",
+     "a": "Print Comes to Europe",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.5.4",
+   "title": "Gutenberg and the Printing Press",
+   "questions": [
+    {
+     "q": "Using the method 'Gutenberg and the Printing Press', work with: press_decade = 1440, first_bible = 1448. Carry the chain through step by step and give the final value of years_since_bible.",
+     "a": "8 years",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Gutenberg and the Printing Press' and work with: press_decade = 1440, first_bible = 1448. Carry the chain through step by step and give the final value of years_since_bible.",
+     "a": "8 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Gutenberg and the Printing Press' refers to.",
+     "a": "Johann Gutenberg developed the first known printing press in the 1440s, adapting olive press technology and creating movable metal type; the first book he printed was the Bible in 1448, marking the shift from hand-copying to mechanical printing in Europe.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Gutenberg and the Printing Press'.",
+     "a": "Gutenberg's printing press, built by adapting the olive press and movable metal type, made the mass production of identical books possible and began the print revolution in Europe.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Gutenberg and the Printing Press' taught, and from which source text?",
+     "a": "Gutenberg and the Printing Press",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.5.5",
+   "title": "The Print Revolution",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Print Revolution' refers to.",
+     "a": "The print revolution, set off by Gutenberg's press, transformed the production of books from hand-copying by scribes to mechanical printing, drastically reducing the cost and time of producing books and making them accessible to a far wider public across Europe.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Print Revolution'.",
+     "a": "The print revolution shifted book production from slow hand-copying to fast mechanical printing, making books cheaper and widely available and transforming social and intellectual life.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Print Revolution' taught, and from which source text?",
+     "a": "The Print Revolution and Its Impact",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.5.6",
+   "title": "Reading Mania",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Reading Mania' refers to.",
+     "a": "Through the seventeenth and eighteenth centuries the literacy rate went up in most parts of Europe, and churches of different denominations set up schools in villages, producing a reading mania among the common people who eagerly read books, pamphlets, almanacs and chapbooks.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Reading Mania'.",
+     "a": "Rising literacy and village schools created a 'reading mania' in seventeenth and eighteenth century Europe, as common people sought cheap printed material for entertainment, information and devotion.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Reading Mania' taught, and from which source text?",
+     "a": "The Reading Mania",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.5.7",
+   "title": "The Nineteenth Century",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Nineteenth Century' refers to.",
+     "a": "In the nineteenth century the print industry expanded with hand presses giving way to power-driven cylindrical presses, cheap serialised novels and penny magazines reaching new working-class readers, and women and children becoming important new readers and writers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Nineteenth Century'.",
+     "a": "The nineteenth century saw mass production of cheap print through power-driven presses, creating new readers among the working class, women and children, and turning publishing into a major industry.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Nineteenth Century' taught, and from which source text?",
+     "a": "The Nineteenth Century",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.5.8",
+   "title": "India and the World of Print",
+   "questions": [
+    {
+     "q": "Using the method 'India and the World of Print', work with: press_arrival = 1556, spread_by_century = 18. Carry the chain through step by step and give the final value of spread_by_century.",
+     "a": "18 years",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'India and the World of Print' and work with: press_arrival = 1556, spread_by_century = 18. Carry the chain through step by step and give the final value of spread_by_century.",
+     "a": "18 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'India and the World of Print' refers to.",
+     "a": "India had a rich tradition of hand-written manuscripts in Sanskrit, Arabic and Persian, but they were expensive and fragile; the first printing press was brought to Goa by Portuguese missionaries in the mid-sixteenth century, and by the late eighteenth century newspapers and books began to be printed in Indian languages.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'India and the World of Print'.",
+     "a": "Print entered India through Portuguese missionaries in Goa, and over time replaced costly hand-written manuscripts with cheaper printed books in Indian languages.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'India and the World of Print' taught, and from which source text?",
+     "a": "India and the World of Print",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.5.9",
+   "title": "Religious Reform and Public Debates",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Religious Reform and Public Debates' refers to.",
+     "a": "From the early nineteenth century, print enabled religious reformers and orthodox sections to debate ideas through tracts and newspapers; Raja Rammohun Roy published the Sambad Kaumudi to campaign against sati, while orthodox Hindus published the Samachar Chandrika to defend tradition, making print a vehicle for public debate.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Religious Reform and Public Debates'.",
+     "a": "Print created a new public sphere in nineteenth-century India where reformers and orthodox groups used newspapers and tracts to debate religious and social issues such as sati and widow remarriage.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Religious Reform and Public Debates' taught, and from which source text?",
+     "a": "Religious Reform and Public Debates",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.5.10",
+   "title": "Censorship in Nineteenth-Century India",
+   "questions": [
+    {
+     "q": "Using the method 'Censorship in Nineteenth-Century India', work with: revolt_year = 1857, vpa_year = 1878. Carry the chain through step by step and give the final value of gap.",
+     "a": "21 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Censorship in Nineteenth-Century India' and work with: revolt_year = 1857, vpa_year = 1878. Carry the chain through step by step and give the final value of gap.",
+     "a": "21 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Censorship in Nineteenth-Century India' refers to.",
+     "a": "The colonial government introduced censorship to control printed material critical of British rule; after the revolt of 1857 the Vernacular Press Act of 1878 was passed to silence criticism in Indian-language newspapers, while English-language papers remained free, showing the selective use of censorship.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Censorship in Nineteenth-Century India'.",
+     "a": "The colonial state used censorship laws like the Vernacular Press Act of 1878 to suppress criticism in Indian-language newspapers while allowing English-language papers greater freedom.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Censorship in Nineteenth-Century India' taught, and from which source text?",
+     "a": "Censorship and the Colonial State",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

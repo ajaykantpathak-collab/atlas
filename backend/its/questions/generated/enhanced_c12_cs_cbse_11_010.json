@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_11_010",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_11_010",
+   "title": "c12_cs_cbse_11_010",
+   "questions": [
+    {
+     "q": "What is the correct syntax to create a list containing two dictionaries, where each dictionary has keys 'id' and 'score' for two students?",
+     "a": "Correct answer: `students = [{'id': 1, 'score': 85}, {'id': 2, 'score': 92}]`. A wrong answer like `students = {'id': 1, 'score': 85}, {'id': 2, 'score': 92}` (missing outer brackets) reveals the student thinks a tuple of dictionaries is a list, or they confuse list and tuple syntax. Another wrong answer `students = [{'id': 1, 'score': 85, 'id': 2, 'score': 92}]` shows they don't understand each dictionary must be a separate element.",
+     "self_check": true
+    },
+    {
+     "q": "Given `data = [{'name': 'Priya', 'marks': [80, 90]}, {'name': 'Rohan', 'marks': [75, 85]}]`, what does `data[1]['marks'][0]` return and why?",
+     "a": "Correct answer: `75`. Explanation: `data[1]` selects the second dictionary `{'name': 'Rohan', 'marks': [75, 85]}`, then `['marks']` gets the list `[75, 85]`, then `[0]` gets the first element `75`. A wrong answer `85` or `90` reveals the student mixes up the order of indexing (list index vs dictionary key vs inner list index) or thinks dictionary keys have an order that affects the outer list.",
+     "self_check": true
+    },
+    {
+     "q": "Write a code snippet to increase the 'price' of every product in the list `products = [{'name': 'Pen', 'price': 10}, {'name': 'Notebook', 'price': 50}]` by 10%. Use a loop.",
+     "a": "Correct answer:\n```python\nfor p in products:\n    p['price'] = p['price'] * 1.10\n```\nA wrong answer like `for p in products: p['price'] *= 1.10` is actually correct; but `for p in products: price = p['price'] * 1.10` fails because it doesn't update the dictionary. Another wrong answer `products['price'] = products['price'] * 1.10` reveals the student treats the list as a dictionary and doesn't understand iteration over list elements.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the memory layout and access time for `list_of_dicts = [{'a':1}, {'a':2}, {'a':3}]` vs `dict_of_lists = {'a': [1,2,3]}`. Which is better for adding a new record with key 'a'=4? Justify.",
+     "a": "Correct answer: `list_of_dicts` is better for adding a new record because `list_of_dicts.append({'a':4})` is O(1) amortized and keeps records together. `dict_of_lists` requires `dict_of_lists['a'].append(4)` which is also O(1) but if you have multiple keys you must append to each list separately, risking misalignment. A wrong answer claiming `dict_of_lists` is always faster reveals the student doesn't consider the operation context (record-wise vs column-wise) and overlooks that list of dictionaries is row-oriented, matching how we naturally add records.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this code for finding the student with the highest 'marks' in `students = [{'name': 'A', 'marks': 80}, {'name': 'B', 'marks': 95}, {'name': 'C', 'marks': 95}]`:\n```python\ntopper = max(students, key=lambda x: x['marks'])\nprint(topper['name'])\n```\nWhat does it print? Is it correct for the requirement \"print all toppers if tie\"? If not, fix it.",
+     "a": "The code prints `'B'` (first max encountered). It is NOT correct for printing all toppers because `max` returns only one element. To print all, you must first find the maximum marks value, then filter: `max_marks = max(s['marks'] for s in students); toppers = [s for s in students if s['marks'] == max_marks]; for t in toppers: print(t['name'])`. A student who says \"it prints B and C\" reveals they think `max` returns all maximums, confusing it with a filter operation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a list of dictionaries to store a school timetable: each entry has 'day', 'period', 'subject', 'teacher', 'room'. Write a function `get_schedule(day, period)` that returns the subject and teacher for that slot, or \"Free\" if none. Assume the list is named `timetable`.",
+     "a": "Expected answer:\n```python\ndef get_schedule(day, period):\n    for entry in timetable:\n        if entry['day'] == day and entry['period'] == period:\n            return f\"{entry['subject']} - {entry['teacher']}\"\n    return \"Free\"\n```\nA poor answer might use nested loops incorrectly, or assume the list is sorted and use direct indexing `timetable[day][period]`, revealing they don't understand that list of dictionaries requires iteration/search unless an auxiliary index is built.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

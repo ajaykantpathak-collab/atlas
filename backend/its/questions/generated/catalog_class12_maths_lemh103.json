@@ -1,0 +1,564 @@
+{
+ "catalog": "catalog_class12_maths_lemh103.json",
+ "concepts": [
+  {
+   "id": "lemh.103.2.1",
+   "title": "Matrix Order and Element Count",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the determinant of [[-3, -5], [0, 5]].",
+     "a": "-15",
+     "self_check": false
+    },
+    {
+     "q": "Expand the determinant [[6, 0, 5], [-2, 6, -1], [6, 4, -5]] along the first row.",
+     "a": "-376",
+     "self_check": false
+    },
+    {
+     "q": "For matrices A = [[-3, -2], [1, 2]] and B = [[4], [3]] (column), find the (1,1) entry of AB.",
+     "a": "-18",
+     "self_check": false
+    },
+    {
+     "q": "Find the (1,1) entry of the scalar product 6 times a matrix whose (1,1) entry is -3.",
+     "a": "-18",
+     "self_check": false
+    },
+    {
+     "q": "A matrix has 2 rows and 3 columns. How many elements does it have?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A 2 x 2 matrix A has determinant 5. Find det(4A) using det(kA) = k^n det A.",
+     "a": "80",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.103.2.2",
+   "title": "Matrices as Data Arrangements",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 6 + 7 + 6 gives 19",
+     "compute": "total = 6 + 7 + 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "In a frequency table the rows have frequencies 6, 7 and 6. Find the total frequency.",
+     "a": "19",
+     "self_check": false
+    },
+    {
+     "q": "A pictograph uses one symbol for 50 units. If a row shows 8 symbols, what value does it represent?",
+     "a": "400",
+     "self_check": false
+    },
+    {
+     "q": "In a pictograph with key 1 symbol = 50 units, how many symbols represent 250 units?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "In a bar graph, 1 unit of bar height stands for 50 books. A bar is 12 units tall. How many books does it show?",
+     "a": "600",
+     "self_check": false
+    },
+    {
+     "q": "A bar must show a frequency of 40 with scale 1 unit = 5. How tall is the bar in units?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "A pie chart sector represents 45 out of 180 people. Find its central angle in degrees.",
+     "a": "90",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.103.3.1",
+   "title": "Row, Column and Square Matrices",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the given number using the stated square rule",
+     "explain": "square the given number using the stated square rule: sq = 24 ** 2 gives 576",
+     "compute": "sq = 24 ** 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the square of 24.",
+     "a": "576",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 42 m. What is the number of square metres in its area?",
+     "a": "1764",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 3^2 and 4^2? (Rule: 2 x n)",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 9 x 7.",
+     "a": "63",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 41?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 28. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "197",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.103.3.2",
+   "title": "Diagonal, Scalar and Identity Matrices",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the quadrilateral property to compute the value",
+     "explain": "use the quadrilateral property to compute the value: adj = 180 - 50 gives 130",
+     "compute": "adj = 180 - 50"
+    }
+   ],
+   "questions": [
+    {
+     "q": "In a parallelogram one angle is 50 degrees. Find the adjacent angle.",
+     "a": "130",
+     "self_check": false
+    },
+    {
+     "q": "A parallelogram has adjacent sides 13 cm and 11 cm. Find its perimeter.",
+     "a": "48",
+     "self_check": false
+    },
+    {
+     "q": "The diagonals of a parallelogram bisect each other. If one diagonal is 12 cm, what is the length of each half of it?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Find the side of a rhombus whose diagonals are 12 cm and 4 cm (two decimal places).",
+     "a": "6.32",
+     "self_check": false
+    },
+    {
+     "q": "In an isosceles right triangle each equal leg is 3 cm. Find the hypotenuse in exact-surds-free decimal (two decimal places).",
+     "a": "4.24",
+     "self_check": false
+    },
+    {
+     "q": "A kite has one pair of equal angles. If the angle between the unequal sides is 60 degrees and the kite is symmetric, the sum of the two equal opposite angles is 360 - 60 - the other given angle of 80 degrees. Find the sum of the two equal angles.",
+     "a": "220",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.103.3.3",
+   "title": "Equality of Matrices",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the mean/median/mode definition",
+     "explain": "apply the mean/median/mode definition: total = sum((38, 16, 24, 13, 34)) gives 125",
+     "compute": "total = sum((38, 16, 24, 13, 34))"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 25",
+     "compute": "mean = total / 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 38, 16, 24, 13, 34.",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 6, 10, 27, 38, 47 (already in increasing order).",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 1, 8. A seventh value 60 is added, making 7 values. Find the median of the 7 values.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 17 and 60. Find the median.",
+     "a": "38.5",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 8 times, 5 occurs 2 times and 6 occurs 1 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 58, 33, 8, 55.",
+     "a": "50",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.103.4.1",
+   "title": "Addition of Matrices",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the determinant of [[2, 7], [-3, 6]].",
+     "a": "33",
+     "self_check": false
+    },
+    {
+     "q": "Expand the determinant [[-3, 1, 8], [-2, 4, 2], [-4, 2, 6]] along the first row.",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "For matrices A = [[-5, -3], [1, 2]] and B = [[-3], [6]] (column), find the (1,1) entry of AB.",
+     "a": "-3",
+     "self_check": false
+    },
+    {
+     "q": "Find the (1,1) entry of the scalar product 4 times a matrix whose (1,1) entry is 7.",
+     "a": "28",
+     "self_check": false
+    },
+    {
+     "q": "A matrix has 3 rows and 2 columns. How many elements does it have?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A 2 x 2 matrix A has determinant 7. Find det(4A) using det(kA) = k^n det A.",
+     "a": "112",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.103.4.2",
+   "title": "Multiplication by a Scalar",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the determinant of [[-3, 1], [-5, -5]].",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "Expand the determinant [[8, 4, 6], [8, 6, 4], [5, -1, 0]] along the first row.",
+     "a": "-116",
+     "self_check": false
+    },
+    {
+     "q": "For matrices A = [[6, 0], [1, 2]] and B = [[3], [-3]] (column), find the (1,1) entry of AB.",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "Find the (1,1) entry of the scalar product 6 times a matrix whose (1,1) entry is 3.",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "A matrix has 2 rows and 3 columns. How many elements does it have?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A 2 x 2 matrix A has determinant 1. Find det(3A) using det(kA) = k^n det A.",
+     "a": "9",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.103.4.3",
+   "title": "Properties of Matrix Addition",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "expand the determinant or matrix product entry",
+     "explain": "expand the determinant or matrix product entry: det = 2 * 6 - -1 * 5 gives 17",
+     "compute": "det = 2 * 6 - -1 * 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the determinant of [[2, -1], [5, 6]].",
+     "a": "17",
+     "self_check": false
+    },
+    {
+     "q": "Expand the determinant [[7, 6, -4], [3, 5, -1], [-5, 4, -2]] along the first row.",
+     "a": "-124",
+     "self_check": false
+    },
+    {
+     "q": "For matrices A = [[4, -5], [1, 2]] and B = [[-4], [0]] (column), find the (1,1) entry of AB.",
+     "a": "-16",
+     "self_check": false
+    },
+    {
+     "q": "Find the (1,1) entry of the scalar product 5 times a matrix whose (1,1) entry is 7.",
+     "a": "35",
+     "self_check": false
+    },
+    {
+     "q": "A matrix has 4 rows and 3 columns. How many elements does it have?",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "A 2 x 2 matrix A has determinant 6. Find det(3A) using det(kA) = k^n det A.",
+     "a": "54",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.103.4.4",
+   "title": "Product Entry Rule (Row by Column)",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the determinant of [[-6, 1], [8, 7]].",
+     "a": "-50",
+     "self_check": false
+    },
+    {
+     "q": "Expand the determinant [[5, 7, -1], [-2, 3, 3], [-5, 2, 0]] along the first row.",
+     "a": "-146",
+     "self_check": false
+    },
+    {
+     "q": "For matrices A = [[1, -2], [1, 2]] and B = [[2], [-2]] (column), find the (1,1) entry of AB.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Find the (1,1) entry of the scalar product 3 times a matrix whose (1,1) entry is 8.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "A matrix has 2 rows and 3 columns. How many elements does it have?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A 2 x 2 matrix A has determinant 5. Find det(3A) using det(kA) = k^n det A.",
+     "a": "45",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.103.4.5",
+   "title": "Multiplication Conditions and Non-Commutativity",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the integer operation sign rules",
+     "explain": "apply the integer operation sign rules: total = -8 + (-11) gives -19",
+     "compute": "total = -8 + (-11)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Add the integers -8 and -11.",
+     "a": "-19",
+     "self_check": false
+    },
+    {
+     "q": "A point starts at -7 on a number line and moves 12 steps (negative means left). Where does it finish?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Multiply the integers -8 and 3.",
+     "a": "-24",
+     "self_check": false
+    },
+    {
+     "q": "Divide -38 by 3.",
+     "a": "-12.6667",
+     "self_check": false
+    },
+    {
+     "q": "Find the additive inverse of 10 and return it.",
+     "a": "-10",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law to evaluate 7 x 7 + 7 x 2 as 7 x (7 + 2).",
+     "a": "63",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.103.5.1",
+   "title": "Transpose and its Properties",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (101 - 2) / 9 gives 11",
+     "compute": "x = (101 - 2) / 9"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Solve for x: 9x + 2 = 101.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6x - 10 = 50.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 5x - 28 = 2.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4x - 30 = 2.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 8x + 1 = 1x + 57.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6(x + 2) = 48.",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.103.6.1",
+   "title": "Symmetric and Skew Symmetric Matrices",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "expand the determinant or matrix product entry",
+     "explain": "expand the determinant or matrix product entry: det = 6 * -1 - -4 * 3 gives 6",
+     "compute": "det = 6 * -1 - -4 * 3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the determinant of [[6, -4], [3, -1]].",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Expand the determinant [[2, -4, 1], [-3, -3, -5], [0, -4, -1]] along the first row.",
+     "a": "-10",
+     "self_check": false
+    },
+    {
+     "q": "For matrices A = [[-3, 1], [1, 2]] and B = [[8], [5]] (column), find the (1,1) entry of AB.",
+     "a": "-19",
+     "self_check": false
+    },
+    {
+     "q": "Find the (1,1) entry of the scalar product 2 times a matrix whose (1,1) entry is 2.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "A matrix has 3 rows and 2 columns. How many elements does it have?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A 2 x 2 matrix A has determinant 8. Find det(4A) using det(kA) = k^n det A.",
+     "a": "128",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.103.7.1",
+   "title": "Invertible Matrices",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 3 gives 3",
+     "compute": "count = 3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A set has 3 elements. How many elements are in its identity relation (a, a) for every element?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "A set with 3 elements: how many pairs are in the full universal relation A x A?",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "How many pairs are in the empty relation on any set?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "A reflexive relation on a set of 5 elements must contain at least how many pairs?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Set A = {2}. How many elements does the singleton set A have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many elements are in the empty set (its cardinality)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

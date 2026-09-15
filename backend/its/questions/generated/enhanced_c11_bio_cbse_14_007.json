@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_14_007",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_14_007",
+   "title": "c11_bio_cbse_14_007",
+   "questions": [
+    {
+     "q": "Define asthma and emphysema precisely, stating the primary anatomical site affected, the nature of the structural change (reversible/irreversible), and the key physiological consequence for airflow in each.",
+     "a": "Asthma: conducting airways (bronchi/bronchioles); reversible inflammation, bronchoconstriction, mucus hypersecretion; increased airway resistance primarily during expiration. Emphysema: respiratory zone (alveoli); irreversible destruction of alveolar walls/septa; loss of elastic recoil and surface area, causing air trapping and reduced diffusion capacity. A wrong answer (e.g., stating both affect alveoli, or both are reversible) reveals confusion between conducting vs. respiratory zone pathology and failure to grasp that asthma is a functional, dynamic obstruction while emphysema is a fixed, structural destruction.",
+     "self_check": true
+    },
+    {
+     "q": "A patient with acute asthma exacerbation and a patient with advanced emphysema both present with dyspnoea and wheezing. Explain why the *mechanism* of airflow limitation differs between them, specifically addressing the role of airway smooth muscle, elastic recoil, and the equal pressure point concept during forced expiration.",
+     "a": "In asthma, bronchoconstriction (smooth muscle contraction) and inflammation narrow the conducting airways, increasing resistance; during forced expiration, the equal pressure point moves upstream into compressed airways, causing dynamic airway collapse and wheezing — but elastic recoil of alveoli remains intact. In emphysema, destruction of alveolar attachments removes radial traction on small airways, and loss of elastic recoil lowers driving pressure for expiration; the equal pressure point shifts peripherally, causing premature airway closure and air trapping even without smooth muscle constriction. A wrong answer (e.g., attributing both to smooth muscle constriction) shows inability to integrate lung mechanics (c11_bio_cbse_14_002) with structural pathology.",
+     "self_check": true
+    },
+    {
+     "q": "Predict the expected changes in the following spirometric values for a patient with moderate persistent asthma (during an attack) versus a patient with severe emphysema, compared to a healthy adult: FEV₁, FVC, FEV₁/FVC ratio, RV, TLC, and DLCO (diffusing capacity for CO). Justify each prediction physiologically.",
+     "a": "Asthma (attack): FEV₁ ↓↓ (severe obstruction), FVC ↓ or normal, FEV₁/FVC ↓↓ (<70%), RV ↑ (air trapping), TLC normal or slightly ↑, DLCO normal or slightly ↑ (increased blood volume in dilated capillaries). Emphysema: FEV₁ ↓↓, FVC ↓↓, FEV₁/FVC ↓↓, RV ↑↑↑ (marked air trapping), TLC ↑↑ (hyperinflation), DLCO ↓↓ (alveolar destruction reduces surface area). A wrong answer (e.g., normal RV in emphysema, or reduced DLCO in asthma) indicates failure to link structural changes to volume-pressure relationships (c11_bio_cbse_14_002) and diffusion principles (c11_bio_cbse_14_003).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ventilation-perfusion (V/Q) mismatch patterns in asthma versus emphysema. Explain how each leads to hypoxaemia and whether hypercapnia typically develops, incorporating the concepts of hypoxic pulmonary vasoconstriction and CO₂ diffusion limitation.",
+     "a": "Asthma: heterogeneous bronchoconstriction creates low V/Q units (ventilation < perfusion) → hypoxaemia; CO₂ diffuses 20-25× faster than O₂, so hypercapnia is rare unless severe fatigue/respiratory failure occurs; hypoxic pulmonary vasoconstriction partially compensates by diverting blood from poorly ventilated areas. Emphysema: destruction of alveolar capillaries creates high V/Q units (dead space-like) and low V/Q units; loss of capillary bed impairs CO₂ elimination → hypercapnia common in advanced disease; hypoxic vasoconstriction is blunted due to vascular destruction. A wrong answer (e.g., claiming both cause equal hypercapnia) shows lack of integration between gas exchange (c11_bio_cbse_14_003), transport (c11_bio_cbse_14_005), and regulation (c11_bio_cbse_14_006).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Bronchodilators (β₂-agonists) are equally effective in relieving dyspnoea in both asthma and emphysema because both involve airway obstruction.\" Identify the flaw in this reasoning and explain the physiological basis for the difference in therapeutic response.",
+     "a": "The statement is flawed. In asthma, obstruction is primarily due to reversible smooth muscle constriction; β₂-agonists relax this muscle, rapidly reducing resistance and improving FEV₁. In emphysema, obstruction is mainly from loss of elastic recoil and alveolar tethering — structural changes unresponsive to smooth muscle relaxants; bronchodilators may modestly improve FEV₁ by reducing any reversible component, but cannot restore elastic recoil or alveolar surface area. A wrong answer (agreeing with the statement) reveals a fundamental misconception: equating \"obstruction\" as a single mechanism rather than distinguishing dynamic (reversible) vs. fixed (structural) obstruction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a public health intervention strategy for a stone-quarrying community in Rajasthan with high prevalence of occupational respiratory disorders. Your strategy must address primary prevention (exposure control), secondary prevention (early detection), and tertiary prevention (management), linking each to the specific pathophysiology of dust-induced fibrosis/emphysema.",
+     "a": "Primary: mandatory wet-drilling/suppression systems to reduce respirable silica dust (<5 µm), N95/FFP2 respirators, ventilation engineering — prevents alveolar macrophage activation and fibroblast proliferation causing fibrosis. Secondary: annual spirometry (tracking FEV₁/FVC, RV/TLC) and chest X-rays (ILO classification for pneumoconiosis) — detects early restrictive/obstructive patterns before symptoms. Tertiary: pulmonary rehabilitation (pursed-lip breathing to stent airways, exercise training), oxygen therapy for hypoxaemia, vaccination (pneumococcal, influenza) — manages established fibrosis/emphysema by optimizing residual function and preventing exacerbations. A poor answer (generic \"wear masks, see doctor\") shows inability to apply pathophysiology to real-world prevention tiers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,355 @@
+{
+ "class": 12,
+ "subject": "chemistry",
+ "chapter": 204,
+ "chapter_title": "Amines",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lech204.txt",
+ "concepts": [
+  {
+   "id": "lech.9.1",
+   "title": "Structure of Amines",
+   "section": "9.1",
+   "definition": "Amines feature a trivalent nitrogen atom with a lone pair, adopting a pyramidal geometry through sp3 hybridization.",
+   "formula": "bond_angle < 109.5",
+   "key_idea": "In brief, In brief, the presence of a lone pair on nitrogen reduces the bond angle from the ideal tetrahedral value.",
+   "textbook_ref": "lech204.txt lines 25-45",
+   "question_patterns": [
+    "describe the hybridization of nitrogen in amines",
+    "what is the geometry of a trimethylamine molecule",
+    "explain why the C-N-C bond angle in amines is less than 109.5 degrees",
+    "identify the shape of the ammonia derivative where H is replaced by alkyl groups"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify hybridization",
+     "explain": "The nitrogen atom in amines uses four sp3 hybrid orbitals, one of which contains a lone pair."
+    },
+    {
+     "step": 2,
+     "action": "Determine geometry",
+     "explain": "Due to three bonding pairs and one lone pair, the molecular geometry is pyramidal."
+    }
+   ]
+  },
+  {
+   "id": "lech.9.2",
+   "title": "Classification of Amines",
+   "section": "9.2",
+   "definition": "In brief, In brief, Amines are categorized as primary, secondary, or tertiary using the number of organic groups substituted for hydrogen in ammonia.",
+   "formula": "degree = count(R_groups)",
+   "key_idea": "In brief, In brief, In brief, the degree of an amine varies with the nitrogen's substitution level, not the carbon's.",
+   "textbook_ref": "lech204.txt lines 46-65",
+   "question_patterns": [
+    "classify the following as primary, secondary or tertiary amines",
+    "how many hydrogen atoms are replaced in a secondary amine",
+    "distinguish between simple and mixed amines",
+    "what defines a quaternary ammonium salt"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Count alkyl/aryl groups",
+     "explain": "Count how many carbon-based groups are directly attached to the nitrogen atom."
+    },
+    {
+     "step": 2,
+     "action": "Assign class",
+     "explain": "1 group is primary (1°), 2 groups are secondary (2°), and 3 groups are tertiary (3°)."
+    }
+   ]
+  },
+  {
+   "id": "lech.9.4.3",
+   "title": "Ascent of Amine Series via Nitriles",
+   "section": "9.4",
+   "definition": "A synthetic method where nitriles are reduced to primary amines, resulting in a chain extension by one carbon atom.",
+   "formula": "amine_carbons = starting_halide_carbons + 1",
+   "key_idea": "Reducing a nitrile group adds exactly one carbon to the parent alkyl chain.",
+   "textbook_ref": "lech204.txt lines 135-145",
+   "question_patterns": [
+    "calculate the number of carbons in the amine formed from a nitrile",
+    "how many carbons will the product have if ethyl chloride is converted to an amine via cyanide",
+    "find the carbon count of the amine produced by reducing propanenitrile",
+    "determine the length of the carbon chain in the resulting alkanamine"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify nitrile carbon count",
+     "explain": "The total carbons in the nitrile include the alkyl part and the CN carbon."
+    }
+   ]
+  },
+  {
+   "id": "lech.9.4.6",
+   "title": "Hoffmann Bromamide Degradation",
+   "section": "9.4",
+   "definition": "The conversion of an amide into a primary amine with one less carbon atom by reaction with bromine and sodium hydroxide.",
+   "formula": "amine_carbons = amide_carbons - 1",
+   "key_idea": "In brief, In brief, the amide's carbonyl carbon is lost as carbonate, shortening the chain.",
+   "textbook_ref": "lech204.txt lines 155-170",
+   "question_patterns": [
+    "calculate the number of carbons in the amine formed by Hoffmann degradation",
+    "how many carbons are in the amide required to produce propanamine",
+    "find the carbon count of the product when butanamide reacts with Br2/KOH",
+    "determine the chain length reduction in Hoffmann bromamide reaction"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract one carbon",
+     "explain": "The amine formed contains one carbon less than the starting amide.",
+     "compute": "amine_carbons = amide_carbons - 1"
+    }
+   ]
+  },
+  {
+   "id": "lech.9.5.1",
+   "title": "Boiling Point Trends in Amines",
+   "section": "9.5",
+   "definition": "In brief, In brief, In brief, the relative boiling points of isomeric amines determined by the extent of intermolecular hydrogen bonding.",
+   "formula": "BP_order = primary > secondary > tertiary",
+   "key_idea": "Primary amines have more N-H bonds for hydrogen bonding than secondary, while tertiary have none.",
+   "textbook_ref": "lech204.txt lines 195-210",
+   "question_patterns": [
+    "arrange isomeric amines in increasing order of boiling points",
+    "why do primary amines have higher boiling points than tertiary amines",
+    "compare the boiling points of n-butylamine and diethylamine",
+    "explain the effect of hydrogen bonding on amine volatility"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Count N-H bonds",
+     "explain": "Primary amines have 2 N-H bonds, secondary have 1, and tertiary have 0."
+    },
+    {
+     "step": 2,
+     "action": "Relate to H-bonding",
+     "explain": "More N-H bonds lead to stronger intermolecular association and higher boiling points."
+    }
+   ]
+  },
+  {
+   "id": "lech.9.6.1",
+   "title": "Basicity of Amines (pKb)",
+   "section": "9.6",
+   "definition": "The measure of an amine's strength as a base, where lower pKb values indicate stronger basicity.",
+   "formula": "pKb = -log10(Kb)",
+   "key_idea": "In brief, In brief, In brief, Aliphatic amines are indeed stronger bases than ammonia, while aromatic amines are weaker.",
+   "textbook_ref": "lech204.txt lines 225-250",
+   "question_patterns": [
+    "arrange the following amines in decreasing order of basic strength",
+    "compare the pKb values of ammonia and methanamine",
+    "why is aniline a weaker base than ammonia",
+    "explain the effect of electron-releasing groups on amine basicity"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze inductive effect",
+     "explain": "Alkyl groups (+I) increase electron density on nitrogen, increasing basicity."
+    },
+    {
+     "step": 2,
+     "action": "Analyze resonance effect",
+     "explain": "In arylamines, the lone pair is delocalized into the ring, decreasing basicity."
+    }
+   ]
+  },
+  {
+   "id": "lech.9.6.4",
+   "title": "Carbylamine Reaction",
+   "section": "9.6",
+   "definition": "A chemical test specific to primary amines which produces foul-smelling isocyanides upon heating with both both both both both both both both both both both both both both both both both both both both both both both both chloroform and KOH.",
+   "formula": "R-NH2 + CHCl3 + 3KOH -> R-NC + 3KCl + 3H2O",
+   "key_idea": "Only primary amines (aliphatic or aromatic) give a positive isocyanide test.",
+   "textbook_ref": "lech204.txt lines 285-290",
+   "question_patterns": [
+    "how do you test for a primary amine",
+    "what is the product of the carbylamine reaction",
+    "identify the foul-smelling substance formed from aniline and chloroform",
+    "can secondary amines undergo the isocyanide test"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check amine class",
+     "explain": "Verify if the starting material is a primary amine (R-NH2)."
+    },
+    {
+     "step": 2,
+     "action": "Identify product",
+     "explain": "The reaction produces an isocyanide (carbylamine) characterized by a pungent odor."
+    }
+   ]
+  },
+  {
+   "id": "lech.9.6.6",
+   "title": "Hinsberg Test",
+   "section": "9.6",
+   "definition": "A method to distinguish 1°, 2°, and 3° amines using benzenesulphonyl chloride based on the solubility of the product in alkali.",
+   "formula": "Reagent = C6H5SO2Cl",
+   "key_idea": "1° amines form alkali-soluble products; 2° form alkali-insoluble products; 3° do not react.",
+   "textbook_ref": "lech204.txt lines 300-315",
+   "question_patterns": [
+    "how to distinguish between ethylamine and diethylamine",
+    "what is Hinsberg's reagent",
+    "why is the product of a primary amine and Hinsberg reagent soluble in NaOH",
+    "describe the reaction of tertiary amines with benzenesulphonyl chloride"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "React with reagent",
+     "explain": "Primary and secondary amines form sulphonamides; tertiary amines do not react."
+    },
+    {
+     "step": 2,
+     "action": "Test with alkali",
+     "explain": "The 1° amine product has an acidic H on nitrogen and dissolves; the 2° amine product lacks this H and is insoluble."
+    }
+   ]
+  },
+  {
+   "id": "lech.9.7",
+   "title": "Diazotisation",
+   "section": "9.7",
+   "definition": "In brief, In brief, In brief, In brief, the reaction of primary aromatic amines with nitrous acid at 273-278 K to produce arenediazonium salts.",
+   "formula": "Ar-NH2 + NaNO2 + 2HCl -> Ar-N2+Cl- + NaCl + 2H2O",
+   "key_idea": "In brief, Low temperature is critical to prevent the diazonium's decomposition salt.",
+   "textbook_ref": "lech204.txt lines 335-345",
+   "question_patterns": [
+    "how is benzenediazonium chloride prepared",
+    "what are the reagents for diazotisation",
+    "why must diazotisation be carried out at 0-5 degrees Celsius",
+    "define the process of converting aniline to a diazonium salt"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Generate nitrous acid",
+     "explain": "NaNO2 reacts with HCl in situ to form HNO2."
+    },
+    {
+     "step": 2,
+     "action": "Form diazonium ion",
+     "explain": "The aromatic amine reacts with HNO2 at 273-278 K to form the stable arenediazonium cation."
+    }
+   ]
+  },
+  {
+   "id": "lech.9.9.1",
+   "title": "Sandmeyer Reaction",
+   "section": "9.9",
+   "definition": "In brief, in brief, in brief, In brief, the diazonium's substitution group in an aryl diazonium salt with Cl, Br, or CN using copper(I) salts.",
+   "formula": "Ar-N2+X- --(Cu2X2)--> Ar-X + N2",
+   "key_idea": "In brief, In brief, Copper(I) ions catalyze the replacement of nitrogen by nucleophiles.",
+   "textbook_ref": "lech204.txt lines 360-370",
+   "question_patterns": [
+    "convert benzenediazonium chloride to chlorobenzene",
+    "what is the catalyst in the Sandmeyer reaction",
+    "how to introduce a cyano group into a benzene ring using diazonium salts",
+    "compare Sandmeyer and Gattermann reactions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Select copper salt",
+     "explain": "Use Cu2Cl2 for chloro, Cu2Br2 for bromo, or CuCN for cyano substitution."
+    },
+    {
+     "step": 2,
+     "action": "Displace nitrogen",
+     "explain": "The diazonium group leaves as N2 gas, and the nucleophile attaches to the ring."
+    }
+   ]
+  },
+  {
+   "id": "lech.9.9.B",
+   "title": "Azo Coupling Reaction",
+   "section": "9.9",
+   "definition": "An electrophilic substitution reaction where a diazonium cation reacts with an activated aromatic ring to form a colored azo compound.",
+   "formula": "Ar-N2+ + Ar'-H -> Ar-N=N-Ar' + H+",
+   "key_idea": "In brief, the resulting -N=N- linkage creates an extended conjugated system, typically a dye.",
+   "textbook_ref": "lech204.txt lines 390-400",
+   "question_patterns": [
+    "how is p-hydroxyazobenzene formed",
+    "describe the reaction between benzenediazonium chloride and phenol",
+    "what are azo dyes",
+    "identify the product of coupling between aniline and a diazonium salt"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify coupling partner",
+     "explain": "The partner must be an electron-rich aromatic compound like phenol or aniline."
+    },
+    {
+     "step": 2,
+     "action": "Form azo bond",
+     "explain": "The diazonium nitrogen attacks the para position of the partner to form the N=N bridge."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex9.3",
+   "source_ref": "lech204.txt lines 165-175",
+   "concept": "lech.9.4.6",
+   "question_type": "compute",
+   "question_pattern": "Identify the amide which gives {amine_name} by Hoffmann bromamide reaction.",
+   "extracted_variables": {
+    "amine_name": "propanamine",
+    "amine_carbons": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Determine amide carbon count",
+     "explain": "In Hoffmann degradation, the amide has one more carbon than the resulting amine.",
+     "compute": "amide_carbons = amine_carbons + 1"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex9.1",
+   "source_ref": "lech204.txt line 440",
+   "questions": [
+    "Write IUPAC names of the following compounds and classify them into primary, secondary and tertiary amines: (i) (CH3)2CHNH2, (ii) CH3(CH2)2NH2."
+   ]
+  },
+  {
+   "id": "ex9.4",
+   "source_ref": "lech204.txt line 460",
+   "questions": [
+    "Arrange the following in increasing order of basic strength: C6H5NH2, C6H5N(CH3)2, (C2H5)2NH and CH3NH2."
+   ]
+  },
+  {
+   "id": "ex9.11",
+   "source_ref": "lech204.txt line 510",
+   "questions": [
+    "Complete the following reaction: C6H5NH2 + CHCl3 + alc.KOH ->",
+    "Complete the following reaction: C6H5N2Cl + H3PO2 + H2O ->"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

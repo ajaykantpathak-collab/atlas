@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_03_007",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_03_007",
+   "title": "c11_hs_cbse_03_007",
+   "questions": [
+    {
+     "q": "State the formula that relates Recommended Dietary Allowance (RDA), nutrient requirement, and margin of safety as given in the NCERT textbook.",
+     "a": "RDA = Requirement + Margin of safety. A wrong answer (e.g., \"RDA = Requirement\" or \"RDA = Requirement × Safety factor\") reveals the student has memorised the term but not the additive relationship explicitly stated in the textbook, leading to errors in explaining why RDA exceeds the average need.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the RDA for a nutrient is set higher than the average physiological requirement for that nutrient.",
+     "a": "The average requirement meets the need of only 50% of healthy individuals; the safety margin covers inter-individual variation in absorption, metabolism, and utilisation so that 97-98% of the population is covered. A wrong answer focusing only on \"extra for safety\" without mentioning population coverage or variability shows incomplete understanding of the statistical basis of RDA.",
+     "self_check": true
+    },
+    {
+     "q": "A 16-year-old sedentary boy (ICMR reference weight 55 kg) consumes 45 g protein daily. The ICMR 2020 RDA for protein for his category is 0.83 g/kg body weight. Does his intake meet the RDA? Show your calculation.",
+     "a": "RDA = 0.83 g/kg × 55 kg = 45.65 g/day. His intake (45 g) is slightly below RDA. A student who calculates 0.83 × 55 = 45.65 but says \"yes, it meets\" reveals inability to interpret \"meeting RDA\" as ≥ RDA, not ≈ RDA. Another common error: using 1 g/kg (old ICMR value) instead of 0.83 g/kg.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the purpose of \"Estimated Average Requirement (EAR)\" and \"Recommended Dietary Allowance (RDA)\" in diet planning. Why would a public health nutritionist use EAR for assessing population intake adequacy but RDA for planning individual diets?",
+     "a": "EAR is the median requirement (meets 50% of population); used to estimate prevalence of inadequacy in groups. RDA = EAR + 2 SD (covers 97-98%); used for individual planning to ensure near-certain adequacy. A wrong answer confusing the two purposes (e.g., using RDA for population assessment) shows failure to grasp the probabilistic nature of these reference values — a key board exam distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Since RDA includes a safety margin, consuming exactly the RDA amount of a nutrient every day guarantees that an individual will not develop a deficiency.\"",
+     "a": "The statement is flawed. RDA covers 97-98% of healthy individuals; 2-3% may have higher needs due to genetic/metabolic factors. Also, RDA assumes normal absorption; illness, parasites, or drug interactions can increase needs beyond RDA. A student who agrees without qualification shows misunderstanding of \"covers nearly all\" vs. \"guarantees for every individual\" — a nuance examiners test via \"justify your answer\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-day vegetarian menu for a 14-year-old girl (reference weight 48 kg, moderate activity) that meets at least 90% of ICMR 2020 RDAs for energy, protein, iron, and calcium. List food items with raw weights and show the nutrient calculation for one nutrient of your choice.",
+     "a": "Sample menu: Breakfast — 60 g wheat flour (chapati), 30 g besan (chilla), 100 ml milk; Lunch — 80 g rice, 30 g moong dal, 100 g spinach, 50 g curd; Snack — 20 g roasted chana, 50 g guava; Dinner — 60 g wheat flour, 30 g rajma, 100 g pumpkin, 50 g curd. Iron calculation: chapati (60 g × 3.9 mg/100g = 2.34) + besan (30 g × 4.9 = 1.47) + rice (80 g × 0.7 = 0.56) + moong (30 g × 3.8 = 1.14) + spinach (100 g × 2.7 = 2.7) + chana (20 g × 5.3 = 1.06) + rajma (30 g × 5.1 = 1.53) = 10.8 mg. RDA for girl 13-15 yr = 28 mg; 10.8/28 = 39% — reveals need for more iron-rich foods. A poor answer omits raw weights, uses cooked weights, or picks a nutrient without showing the full computation chain.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

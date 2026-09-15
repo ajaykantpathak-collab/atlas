@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch02_002",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch02_002",
+   "title": "c7_physics_ch02_002",
+   "questions": [
+    {
+     "q": "What is the primary energy conversion that takes place inside the electric cell of a working torchlight before electricity reaches the lamp?",
+     "a": "The electric cell converts stored chemical energy into electrical energy. A wrong answer like \"light energy to electrical energy\" reveals that the student confuses the energy source (the cell) with the final output device (the lamp).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a torchlight will not glow if you insert the electric cell with its negative terminal facing the bulb and the positive terminal touching the bottom spring, assuming all other connections are intact.",
+     "a": "Electric current requires a specific direction of flow from the positive terminal through the circuit components to the negative terminal; however, as long as a complete metallic path exists, current can still flow. The actual reason a reversed cell might fail in a torch is if the spring or contact plate is specifically shaped or insulated to only touch the protruding positive terminal correctly, or if the circuit design relies on the casing polarity. A wrong answer claiming \"electricity stops instantly because cells only work one way\" shows a misunderstanding of current flow direction versus physical contact geometry.",
+     "self_check": true
+    },
+    {
+     "q": "A torchlight bulb has a resistance of $5\\,\\Omega$ and draws a current of $0.6\\,\\text{A}$ from two cells connected in series. What is the total voltage supplied across the bulb? (Use $V = I \\times R$, where $V$ is voltage in volts, $I$ is current in amperes, and $R$ is resistance in ohms).",
+     "a": "Step 1: Identify given values: Current $I = 0.6\\,\\text{A}$, Resistance $R = 5\\,\\Omega$.\nStep 2: Identify the formula: $V = I \\times R$.\nStep 3: Substitute values with units: $V = 0.6\\,\\text{A} \\times 5\\,\\Omega$.\nStep 4: Compute and track unit cancellation: $V = 3\\,\\text{V}$ (since amperes $\\times$ ohms equals volts).\nStep 5: Verify the answer is physically reasonable: $3\\,\\text{V}$ matches the typical voltage of two dry cells ($1.5\\,\\text{V} + 1.5\\,\\text{V}$).\nAnswer: $3\\,\\text{V}$. A wrong answer like $11\\,\\text{V}$ or $0.12\\,\\text{V}$ reveals an error in multiplying decimals or confusing addition with multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze what happens inside a torchlight circuit when the sliding switch is moved to the \"OFF\" position. How does this affect the flow of electric charge?",
+     "a": "Moving the switch to the \"OFF\" position creates an air gap in the metallic conduction path, breaking the closed loop into an open circuit. Because electric current requires an unbroken conducting path to flow, the movement of charges stops instantly, causing the bulb to go dark. A wrong answer stating \"charges are stored up inside the switch when turned off\" reveals a misconception that electric current behaves like stagnant water dammed in a pipe rather than flowing charges in a complete loop.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"A torchlight can work perfectly even if the metal spring at the bottom of the casing is replaced by a thick dry wooden stick.\" Is this statement correct or incorrect, and why?",
+     "a": "The statement is incorrect. Wood is an electrical insulator that blocks the flow of electric current. The metal spring is essential because it is a conductor that completes the circuit path from the cell's terminal to the metal casing. A wrong answer saying \"it will work because wood still touches the cell\" indicates a failure to distinguish between physical contact and electrical conductivity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a troubleshooting checklist for a student whose torchlight fails to light up when the switch is pushed. List at least three specific physical checks they should perform.",
+     "a": "Criteria for a good answer: 1. Check if the electric cells are inserted with correct polarity orientation. 2. Inspect the thin wire filament inside the bulb to see if it is broken (fused). 3. Check the metal contacts and switch for corrosion, dirt, or loose connections that break the circuit. A poor answer gives vague advice like \"shake the torch hard until it works\" without identifying scientific components.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_09_001",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_09_001",
+   "title": "c12_cs_cbse_09_001",
+   "questions": [
+    {
+     "q": "What is the primary purpose of a function in Python, and how does it differ from simply writing the same code multiple times?",
+     "a": "A function encapsulates a specific task into a named, reusable unit that can be called with different inputs, avoiding code duplication. A wrong answer (e.g., \"functions make code run faster\" or \"functions are only for math\") reveals the student confuses functions with performance optimization or mathematical functions, missing the core idea of **abstraction and reuse**.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why \"modularity\" is an advantage of functions, using a real-life analogy (not a coding example).",
+     "a": "Modularity means breaking a complex problem into independent, manageable pieces — like a kitchen where separate chefs handle starters, mains, and desserts. Each chef (function) has a clear job, can be replaced or improved without disturbing others, and the head chef (main program) just coordinates. A wrong answer that only says \"code becomes shorter\" misses the **independence and isolation** aspect — modularity is about structure, not just length.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes a 50-line script to process student marks: it reads input, calculates average, assigns grade, and prints a report — all in one block. They want to reuse the grade-calculation logic for another class. How would using a function help? Write the function signature (name and parameters only) for the grade calculation.",
+     "a": "A function `calculate_grade(average: float) -> str` isolates the grading logic so it can be called from anywhere with just the average as input. The student avoids copying 10 lines of if-elif chains. A wrong answer that suggests copying the code block or using a loop shows they don't grasp **parameterization and single-responsibility** — the function should do ONE thing (grade from average) and take exactly what it needs.",
+     "self_check": true
+    },
+    {
+     "q": "Compare built-in functions (e.g., `len()`, `print()`) and user-defined functions. What is the key similarity and the key difference in how a programmer interacts with them?",
+     "a": "Similarity: both are called by name with parentheses and arguments, and both return a value (or `None`). Difference: built-ins are pre-written by Python developers; user-defined functions are written by **you** for your specific problem. A wrong answer like \"built-ins are faster\" or \"user-defined functions can't return values\" reveals confusion about **origin vs. capability** — both can do the same things; the difference is who wrote them and for what purpose.",
+     "self_check": true
+    },
+    {
+     "q": "A team of three students is building a library management system. One writes the \"book search\" logic, another writes \"issue book\", another writes \"return book\". They decide to put all code in one giant function `run_library()`. Evaluate this design decision. What specific problems will arise?",
+     "a": "This violates modularity: (1) merge conflicts when editing the same function, (2) no reuse — search logic can't be used without running issue/return, (3) debugging is harder — a bug in \"return\" breaks everything, (4) testing is impossible in isolation. A good evaluation identifies **at least two** of these with reasoning. A weak answer (\"it's messy\") lacks specificity — the student must articulate **why** monolithic functions hurt collaboration and maintenance.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new real-world scenario (not bakery, not marks) where a function would be useful. Specify: (a) the task, (b) inputs, (c) output, (d) why a function is better than inline code. Write the function signature.",
+     "a": "Example: **Auto-rickshaw fare calculator**. (a) Task: compute fare from distance. (b) Input: `distance_km` (float). (c) Output: `fare` (float). (d) Fare rules change (base fare, per-km rate, night surcharge) — a function `calculate_fare(distance_km: float, is_night: bool = False) -> float` centralizes logic so updates happen in one place. A poor answer gives a trivial task (e.g., \"add two numbers\") or omits why a function helps — the scenario must show **repeated use with varying inputs** and **likelihood of change**.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

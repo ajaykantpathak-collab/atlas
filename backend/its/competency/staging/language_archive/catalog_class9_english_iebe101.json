@@ -1,0 +1,100 @@
+{
+ "class": 9,
+ "subject": "english",
+ "chapter": 1,
+ "chapter_title": "How I Taught My Grandmother to Read",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iebe101.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iebe.101.1.1",
+   "title": "Summary of the Story",
+   "section": "1",
+   "definition": "Sudha Murty recalls how her sixty-two-year-old grandmother, an avid fan of the novel Kashi Yatre by Triveni, felt helpless when the author could not read it herself; she set a deadline, learned to read from her young granddaughter, and rewarded her teacher by touching her feet.",
+   "formula": "-",
+   "key_idea": "A determined student at sixty-two proves that learning has no age limit.",
+   "textbook_ref": "iebe101.txt story sections (grandmother, Kashi Yatre, the lessons)",
+   "question_patterns": [
+    "summarise the story in your own words",
+    "why did the grandmother want to learn to read",
+    "what role did the novel Kashi Yatre play in the story",
+    "how did the narrator become her grandmother's teacher",
+    "why did the grandmother touch her granddaughter's feet",
+    "what was the deadline the grandmother set for herself"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "recall the situation",
+     "explain": "The grandmother loved the serialized novel but could not read it."},
+    {"step": 2, "action": "follow the lessons",
+     "explain": "She worked hard with her granddaughter as teacher and met her deadline."},
+    {"step": 3, "action": "note the tribute",
+     "explain": "Touching the feet showed her respect for her teacher and learning."}
+   ]
+  },
+  {
+   "id": "iebe.101.1.2",
+   "title": "Character Sketch of the Grandmother",
+   "section": "1",
+   "definition": "The grandmother is determined, disciplined and humble: she admits her lack, studies with the seriousness of a student, and keeps her promise of independence - deciding she will never again depend on others for reading.",
+   "formula": "-",
+   "key_idea": "Determination plus humility: the grandmother turns weakness into achievement.",
+   "textbook_ref": "iebe101.txt passages showing the grandmother's determination",
+   "question_patterns": [
+    "draw a character sketch of the grandmother",
+    "what qualities of the grandmother impress you most - give reasons",
+    "how did the grandmother show she was a sincere student",
+    "why did the grandmother cry in the story",
+    "what does the story reveal about the grandmother's respect for education",
+    "compare the grandmother's student-life with a school student's"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "list the qualities",
+     "explain": "Determination, humility, gratitude and discipline head the list."},
+    {"step": 2, "action": "support with incidents",
+     "explain": "Her exam preparation, tears and foot-touching prove each quality."},
+    {"step": 3, "action": "conclude the sketch",
+     "explain": "She embodies the learner's spirit at any age."}
+   ]
+  },
+  {
+   "id": "iebe.101.1.3",
+   "title": "Theme - Age Is No Bar for Learning",
+   "section": "1",
+   "definition": "The story's message is that there is no age for learning: literacy empowers independence and dignity, and a sincere will can overcome years, weak eyesight or social expectations.",
+   "formula": "-",
+   "key_idea": "Willingness to learn matters more than age or circumstance.",
+   "textbook_ref": "iebe101.txt concluding reflections of the story",
+   "question_patterns": [
+    "what is the theme of the story - explain",
+    "what lesson does the story teach about learning",
+    "why is literacy important for dignity - discuss with the story",
+    "how can you help an illiterate elder in your family",
+    "relate the story's message to lifelong learning",
+    "does the story change your view about old age and study - how"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "state the message",
+     "explain": "Learning is possible at any age with will and effort."},
+    {"step": 2, "action": "support with the story",
+     "explain": "The grandmother's achievement is the proof."},
+    {"step": 3, "action": "extend to life",
+     "explain": "Apply the message to learners around you."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "iebe101.txt exercises",
+   "questions": [
+     "Why could the grandmother not read the novel herself?",
+     "Describe how the narrator taught her grandmother.",
+     "Explain the significance of the grandmother touching the narrator's feet."
+   ]
+  }
+ ]
+}

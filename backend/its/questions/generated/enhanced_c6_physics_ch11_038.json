@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch11_038",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch11_038",
+   "title": "c6_physics_ch11_038",
+   "questions": [
+    {
+     "q": "What are the three essential components required to form a shadow?",
+     "a": "The three components are a light source, an opaque object, and a surface. A wrong answer—such as omitting the surface—shows the student does not realize that light must land on something for a shadow to be \"seen\" by our eyes.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a shadow appear black or dark even if the object casting it is bright red?",
+     "a": "A shadow is dark because it is an area where light from the source is absent, not because of the object's color. A wrong answer suggests the student thinks the object \"projects\" its color onto the ground, missing the concept that shadows are simply regions of \"no light.\"",
+     "self_check": true
+    },
+    {
+     "q": "If you use a very small, bright bulb as a light source, will you see a penumbra? Why or why not?",
+     "a": "No, you will only see an umbra (a sharp-edged dark patch). Because the source is a \"point,\" it cannot create the partial-shadow region (penumbra) that requires a large light source. A wrong answer reveals confusion between point sources and extended light sources.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the umbra and the penumbra in terms of light blockage.",
+     "a": "The umbra is the darkest central part where all light from the source is blocked; the penumbra is the lighter outer part where only some light is blocked. A wrong answer suggests the student thinks both parts block the same amount of light.",
+     "self_check": true
+    },
+    {
+     "q": "If a teacher holds a book at different distances from a lamp, when will the shadow be largest on the wall?",
+     "a": "The shadow is largest when the object is closest to the light source. This is because the object blocks a larger \"cone\" of light rays as it nears the source. A wrong answer shows a lack of understanding of the geometry of light rays.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to prove that a transparent object (like a clear plastic sheet) does not form a dark shadow.",
+     "a": "Hold the plastic sheet between a torch and a wall; because the material allows light to pass through, no dark region will appear on the wall. A poor answer would suggest using an opaque object instead, failing to test the definition of \"opaque.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

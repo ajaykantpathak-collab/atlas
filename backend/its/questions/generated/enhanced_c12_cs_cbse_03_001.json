@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_03_001",
+   "title": "c12_cs_cbse_03_001",
+   "questions": [
+    {
+     "q": "State whether the following is true or false: \"Web 2.0 is a separate technical protocol that replaced HTTP.\"",
+     "a": "False. Web 2.0 is not a protocol; it is a design philosophy and set of practices that use existing protocols (HTTP/HTTPS) to enable interactivity, user-generated content, and rich interfaces. A wrong answer reveals the student confuses the *application layer paradigm* with the *transport protocol*, a common category error that leads to misunderstanding why Web 2.0 sites still use standard URLs and browsers.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Google Search is a Web 1.0 service because it only shows links to other pages.\" Explain why this classification is incorrect, referencing at least two Web 2.0 characteristics Google exhibits.",
+     "a": "Google Search is a Web 2.0 service because (1) it heavily relies on user-generated data (clicks, links, behavior) to improve rankings via PageRank and machine learning — a hallmark of collective intelligence, and (2) it offers rich interactive features like autocomplete, instant results, and personalized search history, all powered by AJAX and real-time server communication. A wrong answer shows the student equates \"showing links\" with static content, missing that the *backend intelligence* and *frontend interactivity* are Web 2.0 hallmarks.",
+     "self_check": true
+    },
+    {
+     "q": "Consider an Indian e-commerce site that displays product pages with fixed HTML, requires full page reload for every category change, and has no user reviews or wishlist. The company wants to add: (a) live price updates via AJAX, (b) user reviews with ratings, (c) a \"Share on WhatsApp\" button. For each feature, identify whether it represents a Web 2.0 characteristic and name the enabling technology.",
+     "a": "(a) Live price updates → Web 2.0 characteristic: **Real-time interactivity / Asynchronous communication**; Enabling technology: **AJAX (XMLHttpRequest/Fetch API)**. (b) User reviews → Web 2.0 characteristic: **User-generated content / Collective intelligence**; Enabling technology: **Server-side scripting (PHP/Python/Node.js) + Database (MySQL/MongoDB)**. (c) Share on WhatsApp → Web 2.0 characteristic: **Social integration / Platform openness**; Enabling technology: **Web APIs (WhatsApp Business API / URL schemes)**. A wrong answer (e.g., attributing live updates to \"HTML5\" or reviews to \"CSS\") reveals confusion between *presentation* and *data-driven interaction* layers.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the architecture of a traditional Web 1.0 blog (static HTML files served directly) with a Web 2.0 blog platform (like WordPress). Analyze how the **data flow**, **user role**, and **scalability challenges** differ between the two.",
+     "a": "| Aspect | Web 1.0 Blog | Web 2.0 Blog Platform |\n|--------|--------------|------------------------|\n| **Data Flow** | Server → Client only (one-way). Files are pre-written HTML. | Bidirectional: Client sends data (comments, posts) → Server processes → Database stores → Server dynamically generates HTML → Client. |\n| **User Role** | Passive reader. No authentication needed. | Active participant: author, commenter, subscriber. Requires authentication, sessions, roles. |\n| **Scalability** | Easy: static files can be cached/CDN-served. Hard to update content globally. | Harder: dynamic queries, session state, database writes. Requires caching layers, load balancing, database optimization. |\nA wrong answer that says \"Web 2.0 is just more HTML\" misses the fundamental shift to **application logic + persistent state** on the server.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Web 2.0 eliminated the need for HTML because everything is now built with JavaScript frameworks like React.\" Provide a reasoned judgment with technical justification.",
+     "a": "The claim is **false**. JavaScript frameworks (React, Vue, Angular) ultimately **produce HTML** that the browser renders. HTML remains the universal markup language understood by all browsers; frameworks just generate it programmatically. Moreover, semantic HTML is critical for accessibility (screen readers), SEO, and progressive enhancement. A wrong answer reveals the student conflates *authoring tools* with *output format* — a dangerous misconception that leads to inaccessible, poorly indexed web applications.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal Web 2.0 feature for a school library website: students can reserve books online and receive notifications. Sketch the **client-side interactions**, **server-side endpoints**, and **data entities** needed. Assume the school uses a MySQL database and a Python (Flask) backend.",
+     "a": "**Client-side**: (1) Login page (form → POST /login), (2) Book search (AJAX GET /api/books?q=...), (3) Reserve button (AJAX POST /api/reserve {book_id}), (4) Notification bell icon (periodic AJAX GET /api/notifications).  \n**Server endpoints**: POST /login, GET /api/books, POST /api/reserve, GET /api/notifications, PUT /api/notifications/read.  \n**Data entities**: `User(id, name, class, password_hash)`, `Book(id, title, author, copies_total, copies_available)`, `Reservation(id, user_id, book_id, status, timestamp)`, `Notification(id, user_id, message, is_read, timestamp)`.  \nA poor answer that puts all logic in HTML/JS (no server, no database) shows the student hasn't grasped the **client-server-data triad** essential to Web 2.0.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

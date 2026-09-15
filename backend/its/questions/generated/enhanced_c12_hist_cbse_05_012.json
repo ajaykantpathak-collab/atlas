@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_05_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_05_012",
+   "title": "c12_hist_cbse_05_012",
+   "questions": [
+    {
+     "q": "Name the three travellers compared in this chapter and identify the century each belonged to.",
+     "a": "Al-Biruni (11th century, Uzbekistan), Ibn Battuta (14th century, Morocco), François Bernier (17th century, France). A wrong answer (e.g., confusing centuries or nationalities) reveals the student has not anchored each traveller in their specific historical context — essential because their intellectual worlds (Islamic Golden Age, post-Mongol Afro-Eurasian connectivity, early modern European state-building) directly shaped their lenses.",
+     "self_check": true
+    },
+    {
+     "q": "Al-Biruni learned Sanskrit and relied on Brahmanical texts; Ibn Battuta travelled extensively and recorded observations; Bernier compared India with Europe to influence policy. Explain how each method reflects the traveller's primary motive.",
+     "a": "Al-Biruni's motive was scholarly understanding for inter-religious dialogue → method: philological/textual mastery. Ibn Battuta's motive was experiential curiosity and professional advancement as qazi → method: immersive travel and observational recording. Bernier's motive was political philosophy — warning Europe against \"oriental despotism\" → method: systematic comparative contrast with France. A student who lists methods without linking to motives treats techniques as neutral tools rather than motive-driven choices.",
+     "self_check": true
+    },
+    {
+     "q": "A historian finds two descriptions of the caste system: one explains it through Purusha Sukta varna theory and compares it to Persian social categories; the other calls it \"contrary to laws of nature\" and focuses on pollution norms. Which traveller wrote each, and what does this reveal about their epistemological stance?",
+     "a": "First: Al-Biruni (textual, comparative, attempts emic understanding but accepts Brahmanical normative view). Second: Al-Biruni again — his critique of pollution as \"contrary to laws of nature\" shows his natural-philosophy framework (Greek/Islamic science) clashing with observed practice. A student attributing the second to Bernier confuses Al-Biruni's internal critique (from within a framework of universal natural law) with Bernier's external civilizational hierarchy. This tests whether the student grasps that *both* description and critique can come from the same author using different epistemic registers.",
+     "self_check": true
+    },
+    {
+     "q": "Ibn Battuta describes the coconut as resembling a human head (two eyes, mouth, brain-like interior, hair-like fibre) and the paan leaf with elaborate preparation steps. Bernier describes sati in graphic detail, including a twelve-year-old widow forced onto the pyre. Analyze how each traveller's *strategy of representation* serves their intended audience.",
+     "a": "Ibn Battuta uses familiar analogies (date-palm, human head) and sensory detail to make the unfamiliar *intelligible and entertaining* for an Arabic-reading audience expecting \"curiosities\" — his goal is edification through wonder. Bernier uses emotive, horrific detail (child victim, trembling, Brahmanas forcing her) to *shock and persuade* French policymakers that Mughal India is barbaric and Europe superior — his goal is political intervention. A student who says \"both describe unusual customs\" misses the rhetorical purpose: one domestically exoticizes, the other politically weaponizes difference.",
+     "self_check": true
+    },
+    {
+     "q": "Bernier claims Mughal India has \"no middle state\" — only rich rulers and impoverished masses — and attributes this to crown ownership of land. Abu'l Fazl (Akbar's chronicler) calls land revenue \"remunerations of sovereignty,\" not rent. Evaluate Bernier's claim using this counter-evidence and explain why Bernier's interpretation became influential in European thought despite the discrepancy.",
+     "a": "Bernier's claim is an *interpretive imposition*: he reads Mughal revenue through European feudal categories (rent/private property) rather than indigenous concepts (sovereign share of produce). Abu'l Fazl's formulation reflects a different political theory — the ruler's claim is legitimacy-based, not property-based. Bernier's version prevailed in Europe because it fit Montesquieu's \"oriental despotism\" and Marx's \"Asiatic mode of production\" — theoretical frameworks that *needed* India as a static, property-less foil to European dynamism. A student who calls Bernier \"wrong\" misses the point: his error was *productive* for European social theory. Mastery requires explaining *why* a flawed account became canonical.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a three-column table comparing the three travellers on: (a) intellectual tradition they wrote within, (b) primary audience, (c) how they handled cultural difference (assimilation / curiosity / hierarchy). Then write a 50-word conclusion on what this comparison teaches us about using travellers' accounts as historical sources.",
+     "a": "| Traveller | Intellectual Tradition | Primary Audience | Handling of Difference |\n|-----------|------------------------|------------------|------------------------|\n| Al-Biruni | Islamic scholarly / Greek natural philosophy | Frontier scholars, co-religionists | Comparative assimilation (finds parallels, critiques from universal natural law) |\n| Ibn Battuta | Arabic travel literature (rihla) / Maliki fiqh | Moroccan ruler, educated elite | Curiosity-driven documentation (exoticizes for wonder/edification) |\n| Bernier | Early modern European political philosophy (Gassendi, Cartesianism) | Louis XIV, French ministers | Hierarchical binary opposition (India as degenerate inverse of Europe) |\n\nConclusion: Travellers' accounts are not transparent windows but *constructed texts* shaped by the author's intellectual tradition, audience expectations, and ideological commitments. Historians must triangulate across accounts and against indigenous sources to recover layered realities. A poor answer treats the table as factual recall; a strong answer shows the conclusion *emerges from* the comparison.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_hist_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c10_hist_cbse_04_002",
+   "title": "c10_hist_cbse_04_002",
+   "questions": [
+    {
+     "q": "What was Richard Arkwright's specific contribution to the factory system, and in which year did he establish his first mill at Cromford?",
+     "a": "Richard Arkwright patented the Water Frame (1769), a water-powered spinning machine that produced stronger yarn than the Spinning Jenny, and established the first successful cotton mill at Cromford, Derbyshire in 1771. He pioneered the factory model: housing large machines under one roof, employing workers on fixed wages with strict time discipline, and using water power (later steam) to drive multiple machines simultaneously. A wrong answer — such as naming James Hargreaves or Samuel Crompton, or giving a date like 1764 or 1785 — reveals confusion between inventors of spinning machines and the actual creator of the factory system, a distinction CBSE examiners test directly in assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the cotton textile industry, rather than wool or linen, become the first to adopt the factory system in Britain? Explain using two specific technological reasons.",
+     "a": "Cotton led because: (1) its fibres are shorter and more uniform than wool, making them better suited to mechanical spinning by rollers (Water Frame) and spindles (Mule); (2) cotton had no strong guild tradition in Britain unlike wool, so merchants could introduce machines without resistance from skilled craft guilds. A wrong answer citing \"cotton was cheaper\" or \"Britain had more cotton\" misses the technological and institutional reasons. Students often confuse raw material availability (cotton came from colonies, not Britain) with the technical suitability of the fibre for mechanisation — a trap in case-based questions showing a factory floor diagram.",
+     "self_check": true
+    },
+    {
+     "q": "A source from 1790 describes a factory: \"The workpeople are obliged to attend at a stated hour... the master or his overseer locks the gate... whoever comes late loses half a day's wages.\" Using your knowledge of the putting-out system, explain how this represents a fundamental change in the relationship between the worker and the means of production.",
+     "a": "Under the putting-out system, the worker owned their tools (loom, spinning wheel), worked at home, controlled their pace, and was paid by piece-rate for finished cloth. In the factory, the capitalist owned the machines (means of production), the worker sold only their labour-power for a time-wage, and discipline was enforced by supervision and clock-time. The source shows the shift from autonomy to subordination — the worker no longer controlled the labour process. A wrong answer focusing only on \"workers had to wake up early\" or \"conditions were harsh\" misses the structural change in property relations and control over labour, which is the core concept CBSE tests in competency questions about \"change in the nature of work.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Spinning Jenny (1764) and the Water Frame (1769) in terms of: (a) power source, (b) quality of yarn produced, and (c) suitability for factory use. Why did the Water Frame, not the Jenny, launch the factory system?",
+     "a": "(a) Jenny: human-powered (hand-cranked); Water Frame: water-powered. (b) Jenny: produced weak, coarse yarn suitable only for weft; Water Frame: produced strong, fine yarn suitable for warp. (c) Jenny: small, usable in cottages; Water Frame: large, needed water power and dedicated building. The Water Frame launched factories because its power requirement forced centralisation near rivers, its output quality replaced linen warp (enabling all-cotton cloth), and its scale demanded wage labour — the Jenny remained a cottage tool. A wrong answer claiming the Jenny was water-powered or produced stronger yarn shows muddled chronology; CBSE often asks \"which invention made factories necessary?\" — the answer is Water Frame, not Jenny.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The factory system emerged because entrepreneurs like Arkwright wanted to increase profits by exploiting workers.\" Is this a sufficient explanation? Use evidence from the technological and market context of the 1770s–1780s.",
+     "a": "The statement is incomplete. While profit motive existed, the factory system was driven by technological necessity: water-powered machines (Water Frame) were too large for cottages and needed concentrated power; steam engines (Watt, 1776) required bulky boilers; market demand for cheap, uniform cotton cloth (especially for export to colonies) exceeded what dispersed hand-spinners could supply. Factory discipline solved coordination problems — synchronising multiple machines, maintaining quality, meeting delivery schedules. Exploitation was a consequence, not the sole cause. A wrong answer treating \"greed\" as the only driver ignores the material constraints of technology and markets — a reductionist error CBSE penalises in long-answer questions requiring \"multi-causal explanation.\"",
+     "self_check": true
+    },
+    {
+     "q": "Construct a cause-effect chain with 5 links showing how the Flying Shuttle (1733) eventually led to the factory system. Each link must be a direct consequence of the previous one.",
+     "a": "1. Kay's Flying Shuttle (1733) doubled weaving speed → 2. Created yarn shortage (hand-spinners couldn't keep up) → 3. Incentivised spinning inventions: Hargreaves' Spinning Jenny (1764), then Arkwright's Water Frame (1769) → 4. Water Frame needed water power → forced centralisation in mills near rivers → 5. Arkwright built Cromford Mill (1771) housing machines and workers → factory system born. A poor chain skips the yarn shortage or confuses Jenny/Water Frame roles. CBSE's \"sequence the events\" questions test exactly this causal chain — missing the weaving-spinning imbalance shows failure to grasp the dynamic of bottleneck-and-innovation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_07_008",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_07_008",
+   "title": "c10_geo_cbse_07_008",
+   "questions": [
+    {
+     "q": "State the formula for calculating Balance of Trade and define what constitutes a 'favourable' balance of trade for India.",
+     "a": "Balance of Trade = Value of Exports – Value of Imports (both measured in USD or INR over a specific period, usually financial year April-March). A favourable balance of trade occurs when exports > imports (trade surplus); an unfavourable balance occurs when imports > exports (trade deficit). India has consistently run a merchandise trade deficit since 1976-77. A wrong answer (e.g., \"favourable means imports > exports\" or using BoP formula) reveals confusion between balance of trade (visible goods only) and balance of payments (includes invisibles, capital flows) — a classic board exam trap where students conflate the two concepts.",
+     "self_check": true
+    },
+    {
+     "q": "India exports petroleum products (refined) worth ~$85 billion but imports crude oil worth ~$150 billion annually. Explain why this does NOT mean India is self-sufficient in energy, using the concept of value addition and import dependence.",
+     "a": "Exporting refined petroleum products requires importing crude oil as raw material — India's refineries (Reliance Jamnagar, IOC Paradip, BPCL Kochi) process imported crude and re-export value-added products. The $85 billion export earnings cannot offset the $150 billion crude import bill because: (1) refining adds only 10-15% value, (2) domestic consumption consumes most refined output, (3) net energy import dependence remains >85%. A wrong answer claiming \"India exports oil so it's energy surplus\" reveals the misconception that export volume equals self-sufficiency, ignoring the input-output linkage and the distinction between gross exports and net energy availability.",
+     "self_check": true
+    },
+    {
+     "q": "Given: India's exports to USA = $78 billion, imports from USA = $42 billion; exports to China = $16 billion, imports from China = $101 billion (FY 2023-24 data). Calculate India's bilateral trade balance with each country and interpret which relationship is more strategically concerning for India's trade policy.",
+     "a": "Step 1: Recall formula — Bilateral Trade Balance = Exports to Partner – Imports from Partner. Step 2: USA balance = $78B – $42B = +$36B (surplus). Step 3: China balance = $16B – $101B = –$85B (deficit). Step 4: Interpret — USA is India's largest export destination giving a comfortable surplus; China is the largest source of imports creating a massive structural deficit. Step 5: Strategic concern — The China deficit is more concerning because it reflects dependence on critical imports (electronics, APIs, machinery) that are hard to substitute quickly, whereas the USA surplus comes from services/pharma/gems where India has competitive advantage. A wrong answer focusing only on absolute deficit size without analyzing import composition reveals inability to distinguish between structural and cyclical trade imbalances.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the commodity composition of India's exports in 2000 vs 2024. Identify two structural shifts and explain how each shift reflects changes in India's industrial geography (link to transport nodes c10_geo_cbse_07_002, c10_geo_cbse_07_003, c10_geo_cbse_07_005).",
+     "a": "Shift 1: From primary/agricultural exports (tea, spices, cotton yarn, iron ore) in 2000 to manufactured/engineering goods (petroleum products, gems & jewellery, pharmaceuticals, automobiles, electronics) in 2024 — reflects development of industrial corridors (Delhi-Mumbai, Chennai-Bengaluru) served by railways (c10_geo_cbse_07_003) and highways (c10_geo_cbse_07_002) connecting hinterland to ports. Shift 2: Rise of high-value, low-volume exports (pharma, diamonds, electronics) replacing bulk minerals — enabled by air cargo (c10_geo_cbse_07_006) and containerised shipping from JNPT/Mundra (c10_geo_cbse_07_005). A wrong answer listing only commodity names without linking to transport infrastructure reveals failure to integrate physical and economic geography — a key competency tested in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's persistent merchandise trade deficit is harmful and the government should impose high tariffs on all imports to achieve a trade surplus.\" Use concepts of comparative advantage, import elasticity, and impact on export competitiveness.",
+     "a": "The statement is flawed. Judgment: Blanket high tariffs would (1) raise input costs for export-oriented industries (gems, pharma, auto) that rely on imported raw materials/intermediates, reducing their global competitiveness — violating the principle that exports require imports; (2) trigger retaliation from trading partners (WTO disputes), hurting labour-intensive sectors (textiles, leather); (3) ignore that ~40% of imports are crude oil (inelastic demand) — tariffs won't reduce volume but will worsen inflation and current account deficit. Better policy: targeted PLI schemes for import substitution in electronics/solar, trade agreements (UAE-Australia CEPA) to boost exports, and logistics cost reduction (National Logistics Policy). A wrong answer supporting protectionism reveals misunderstanding of global value chains and the Lerner symmetry theorem (tariffs on imports implicitly tax exports).",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page infographic for a Class 10 exhibition showing \"India's Trade Lifelines\" — include: (a) a proportional circle map of top 5 export destinations, (b) a Sankey diagram of crude oil import→refining→export flow, (c) a timeline of trade policy milestones (1991 LPG, 2015 FTP, 2023 RoDTEP), and (d) one policy recommendation to reduce trade deficit with China. Specify data sources and visual hierarchy.",
+     "a": "Expected infographic elements: (a) Proportional circles on world map — USA ($78B), UAE ($32B), Netherlands ($24B), China ($16B), Bangladesh ($12B) — circle area ∝ export value; source: DGCI&S FY24. (b) Sankey: Crude imports (150 MMT) → Refineries (250 MMT capacity) → Domestic supply (130 MMT) + Exports (65 MMT, $85B); width ∝ volume. (c) Timeline: 1991 LPG reforms → 2004-09 FTP (focus on traditional sectors) → 2015-20 FTP (MEIS, SEIS) → 2023 RoDTEP (WTO-compliant remission) → 2024 PLI 2.0. (d) Recommendation: \"Phased PLI for API (Active Pharmaceutical Ingredients) and semiconductor assembly — reduces 2 highest-value China imports ($12B APIs, $15B electronics) while leveraging India's pharma/IT strength.\" Poor answer: pie charts instead of proportional circles, missing Sankey flows, generic \"buy Indian\" recommendation — reveals inability to select appropriate visualisation for geographical data and propose evidence-based policy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

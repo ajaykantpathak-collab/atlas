@@ -1,0 +1,813 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 103,
+ "chapter_title": "Understanding Quadrilaterals",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hemh103.txt",
+ "concepts": [
+  {
+   "id": "hemh.103.1",
+   "title": "Sum of Exterior Angles of a Polygon",
+   "section": "3.2",
+   "definition": "Walk once around any convex figure turning at each corner: the outside turns you make total 360 degrees.",
+   "formula": "x = 360 - sum_given",
+   "key_idea": "One full lap of outside turns always adds up to a complete circle of degrees.",
+   "textbook_ref": "hemh103.txt lines 70-100",
+   "question_patterns": [
+    "find the missing exterior angle x of a polygon",
+    "calculate the unknown exterior angle when remaining exterior angles are given",
+    "what is the value of x in the exterior angles figure",
+    "determine the unknown angle x from given exterior angles",
+    "Three outside turns measure 100, 130 and x -- find x."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum the given exterior angles",
+     "explain": "add every known outside turn together",
+     "compute": "sum_given = angle_1 + angle_2"
+    },
+    {
+     "step": 2,
+     "action": "subtract sum from 360",
+     "explain": "total exterior angle sum is 360 degrees",
+     "compute": "x = 360 - sum_given"
+    }
+   ]
+  },
+  {
+   "id": "hemh.103.2",
+   "title": "Exterior Angle of a Regular Polygon",
+   "section": "3.2",
+   "definition": "For a straight-sided figure with matching sides and corners, one outside turn measures 360 / n.",
+   "formula": "exterior_angle = 360 / n",
+   "key_idea": "Split a full circle into n equal outside turns: 360 / n each.",
+   "textbook_ref": "hemh103.txt lines 100-125",
+   "question_patterns": [
+    "find the measure of each exterior angle of a regular polygon of n sides",
+    "calculate each exterior angle of a regular polygon with n sides",
+    "what is the exterior angle measure of a regular n-gon",
+    "determine each exterior angle for a regular polygon",
+    "Each outside turn of a regular hexagon measures how much?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide 360 by side count",
+     "explain": "each exterior angle equals 360 degrees divided by total number of sides n",
+     "compute": "exterior_angle = 360 / n"
+    }
+   ]
+  },
+  {
+   "id": "hemh.103.3",
+   "title": "Number of Sides of a Regular Polygon from Exterior Angle",
+   "section": "3.2",
+   "definition": "The total number of sides in a regular polygon equals 360 degrees divided by the measure of a single exterior angle.",
+   "formula": "n = 360 / exterior_angle",
+   "key_idea": "One outside turn splits 360 degrees, so the quotient gives the side count.",
+   "textbook_ref": "hemh103.txt lines 120-145",
+   "question_patterns": [
+    "find the number of sides of a regular polygon whose each exterior angle is given",
+    "how many sides does a regular polygon have if measure of exterior angle is given",
+    "calculate the number of sides of a regular polygon from its exterior angle",
+    "determine total sides of a regular polygon given exterior angle measure",
+    "A regular figure has outside turns of 24 degrees -- how many sides?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide 360 by exterior angle",
+     "explain": "number of sides equals total exterior sum 360 divided by one exterior angle",
+     "compute": "n = 360 / exterior_angle"
+    }
+   ]
+  },
+  {
+   "id": "hemh.103.4",
+   "title": "Number of Sides of a Regular Polygon from Interior Angle",
+   "section": "3.2",
+   "definition": "A corner and its neighbouring outside turn pair to a straight line: subtract the corner from 180, then divide 360 by the result.",
+   "formula": "exterior_angle = 180 - interior_angle; n = 360 / exterior_angle",
+   "key_idea": "Subtract interior angle from 180 to get exterior angle, then divide 360 by it.",
+   "textbook_ref": "hemh103.txt lines 135-155",
+   "question_patterns": [
+    "how many sides does a regular polygon have if each interior angle is given",
+    "find the number of sides of a regular polygon given its interior angle",
+    "calculate side count of a regular polygon from interior angle",
+    "determine number of sides when interior angle measure is known",
+    "Each inside corner measures 150 degrees -- find the side count."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate exterior angle",
+     "explain": "interior and exterior angles form a linear pair and sum to 180 degrees",
+     "compute": "exterior_angle = 180 - interior_angle"
+    },
+    {
+     "step": 2,
+     "action": "calculate number of sides",
+     "explain": "divide 360 degrees by the calculated exterior angle",
+     "compute": "n = 360 / exterior_angle"
+    }
+   ]
+  },
+  {
+   "id": "hemh.103.5",
+   "title": "Perimeter of a Parallelogram",
+   "section": "3.3.4",
+   "definition": "A parallelogram has equal opposite sides, so its perimeter is double the sum of two adjacent side lengths.",
+   "formula": "perimeter = 2 * (length + breadth)",
+   "key_idea": "Matching across-sides let you add the two adjacent measures and double.",
+   "textbook_ref": "hemh103.txt lines 210-250",
+   "question_patterns": [
+    "find the perimeter of a parallelogram given adjacent side lengths",
+    "calculate perimeter of parallelogram with sides length and breadth",
+    "what is the perimeter of a parallelogram",
+    "determine the perimeter of a parallelogram given two adjacent sides",
+    "Find the perimeter when adjacent sides are 8 cm and 5 cm."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add adjacent sides",
+     "explain": "sum the lengths of the two given adjacent sides",
+     "compute": "side_sum = length + breadth"
+    },
+    {
+     "step": 2,
+     "action": "multiply by 2",
+     "explain": "perimeter is double the sum of adjacent sides",
+     "compute": "perimeter = 2 * side_sum"
+    }
+   ]
+  },
+  {
+   "id": "hemh.103.6",
+   "title": "Opposite and Adjacent Angles of a Parallelogram",
+   "section": "3.3.5",
+   "definition": "Facing corners match in measure; next-door corners always pair to a straight line (180 degrees).",
+   "formula": "adjacent_angle = 180 - angle; opposite_angle = angle",
+   "key_idea": "Next-door corners sum to 180; facing corners repeat the same measure.",
+   "textbook_ref": "hemh103.txt lines 250-305",
+   "question_patterns": [
+    "find all remaining angles of a parallelogram given one angle",
+    "calculate adjacent and opposite angles of a parallelogram",
+    "determine angle measures in a parallelogram given one interior angle",
+    "what are the measures of angles in a parallelogram when one angle is known",
+    "One corner of a parallelogram measures 70 degrees -- find the rest."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find opposite angle",
+     "explain": "opposite angles of a parallelogram are equal",
+     "compute": "opposite_angle = given_angle"
+    },
+    {
+     "step": 2,
+     "action": "find adjacent angle",
+     "explain": "adjacent angles of a parallelogram are supplementary",
+     "compute": "adjacent_angle = 180 - given_angle"
+    }
+   ]
+  },
+  {
+   "id": "hemh.103.7",
+   "title": "Angles of a Parallelogram from Ratio of Adjacent Angles",
+   "section": "3.3.5",
+   "definition": "Given next-door corners in some ratio, split 180 degrees in that ratio to get both.",
+   "formula": "angle_1 = 180 * ratio_a / (ratio_a + ratio_b); angle_2 = 180 * ratio_b / (ratio_a + ratio_b)",
+   "key_idea": "Use the supplementary property (sum = 180 degrees) to partition angle measures according to the ratio.",
+   "textbook_ref": "hemh103.txt lines 310-330",
+   "question_patterns": [
+    "measures of two adjacent angles of a parallelogram are in ratio finding each angle",
+    "find all angles of a parallelogram if adjacent angles are in ratio",
+    "calculate angles of a parallelogram given ratio of two adjacent angles",
+    "determine interior angles of a parallelogram from adjacent angle ratio",
+    "Next-door corners are in ratio 2:3 -- find them."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate sum of ratio parts",
+     "explain": "add the terms of the ratio",
+     "compute": "ratio_sum = ratio_a + ratio_b"
+    },
+    {
+     "step": 2,
+     "action": "find single unit value",
+     "explain": "divide 180 degrees by the sum of ratio parts",
+     "compute": "unit_value = 180 / ratio_sum"
+    },
+    {
+     "step": 3,
+     "action": "calculate first adjacent angle",
+     "explain": "multiply first ratio term by unit value",
+     "compute": "angle_1 = ratio_a * unit_value"
+    },
+    {
+     "step": 4,
+     "action": "calculate second adjacent angle",
+     "explain": "multiply second ratio term by unit value",
+     "compute": "angle_2 = ratio_b * unit_value"
+    }
+   ]
+  },
+  {
+   "id": "hemh.103.8",
+   "title": "Diagonals of a Parallelogram",
+   "section": "3.3.6",
+   "definition": "The corner-to-corner pieces of any parallelogram cut each other exactly in half where they cross.",
+   "formula": "half_diagonal = full_diagonal / 2",
+   "key_idea": "The crossing point sits midway along both pieces.",
+   "textbook_ref": "hemh103.txt lines 310-350",
+   "question_patterns": [
+    "find half diagonal or full diagonal length of a parallelogram",
+    "calculate diagonal segment length in a parallelogram",
+    "what is the length of half diagonal when full diagonal is given in a parallelogram",
+    "determine diagonal measure using bisecting property of parallelogram",
+    "One corner-to-corner piece measures 16 cm -- how long is half of it?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide diagonal length by 2",
+     "explain": "diagonals bisect each other in a parallelogram",
+     "compute": "half_diagonal = full_diagonal / 2"
+    }
+   ]
+  },
+  {
+   "id": "hemh.103.9",
+   "title": "Diagonals and Sides of a Rhombus",
+   "section": "3.4.1",
+   "definition": "In a rhombus the four sides all match, and each corner-to-corner piece cuts the other at right angles through its midpoint.",
+   "formula": "half_d1 = d1 / 2; half_d2 = d2 / 2",
+   "key_idea": "The halves of the two pieces, at 90 degrees, form legs of right triangles inside.",
+   "textbook_ref": "hemh103.txt lines 360-405",
+   "question_patterns": [
+    "find side or diagonal segments of a rhombus",
+    "calculate bisected diagonal lengths in a rhombus",
+    "determine unknown lengths in a rhombus using diagonal properties",
+    "what are the segment lengths of diagonals in a rhombus",
+    "The pieces measure 10 and 24 -- what is half of each?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find half of first diagonal",
+     "explain": "diagonals bisect each other in a rhombus",
+     "compute": "half_d1 = d1 / 2"
+    },
+    {
+     "step": 2,
+     "action": "find half of second diagonal",
+     "explain": "diagonals bisect each other in a rhombus",
+     "compute": "half_d2 = d2 / 2"
+    }
+   ]
+  },
+  {
+   "id": "hemh.103.10",
+   "title": "Diagonals of a Rectangle",
+   "section": "3.4.2",
+   "definition": "A rectangle is the all-right-corner parallelogram, and its two corner-to-corner pieces match in measure.",
+   "formula": "half_d1 = half_d2",
+   "key_idea": "The two pieces measure the same and cut each other in half.",
+   "textbook_ref": "hemh103.txt lines 405-440",
+   "question_patterns": [
+    "find unknown variable x from diagonal segments of a rectangle",
+    "calculate x when half diagonal expressions of rectangle are given",
+    "determine x given algebraic expressions for diagonal halves in rectangle",
+    "solve for x using property that rectangle diagonals are equal",
+    "Half of one piece is 3x and of the other is x + 12 -- find x."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "equate diagonal half expressions",
+     "explain": "diagonals of a rectangle are equal and bisect each other, so their halves are equal"
+    },
+    {
+     "step": 2,
+     "action": "solve linear equation for x",
+     "explain": "isolate x on one side of the equation"
+    }
+   ]
+  },
+  {
+   "id": "hemh.103.11",
+   "title": "Classification and Properties of Special Quadrilaterals",
+   "section": "3.4.3",
+   "definition": "Quadrilaterals are classified into trapeziums, kites, parallelograms, rhombuses, rectangles, and squares based on side parallelism, side lengths, angle measures, and diagonal properties.",
+   "formula": "none",
+   "key_idea": "Square inherits all properties of rectangle, rhombus, and parallelogram.",
+   "textbook_ref": "hemh103.txt lines 440-520",
+   "question_patterns": [
+    "state whether the quadrilateral property statement is true or false",
+    "identify quadrilaterals with four sides of equal length or four right angles",
+    "explain how a square is a quadrilateral, parallelogram, rhombus, or rectangle",
+    "name quadrilaterals whose diagonals bisect each other or are perpendicular",
+    "Name the quadrilateral whose corner-to-corner pieces cut each other perpendicularly."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify definitions and hierarchy",
+     "explain": "check side equality, angle equality, and parallel pair requirements for the specific quadrilateral"
+    },
+    {
+     "step": 2,
+     "action": "verify diagonal characteristics",
+     "explain": "check if diagonals are equal, perpendicular, or bisecting"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hemh103.txt lines 90-98 (Example 1)",
+   "concept": "hemh.103.1",
+   "question_type": "compute",
+   "question_pattern": "Find measure x in figure with given exterior angles 90, 50, and 110 degrees.",
+   "extracted_variables": {
+    "angle_1": 90,
+    "angle_2": 50,
+    "angle_3": 110
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum the given exterior angles",
+     "explain": "add all given exterior angles: 90 + 50 + 110",
+     "compute": "sum_given = 90 + 50 + 110"
+    },
+    {
+     "step": 2,
+     "action": "subtract sum from 360",
+     "explain": "subtract total sum from 360 degrees",
+     "compute": "x = 360 - sum_given"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hemh103.txt lines 110-120 (Example 2)",
+   "concept": "hemh.103.3",
+   "question_type": "compute",
+   "question_pattern": "Find the number of sides of a regular polygon whose each exterior angle has a measure of {exterior_angle} degrees.",
+   "extracted_variables": {
+    "exterior_angle": "45"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide 360 by exterior angle",
+     "explain": "number of sides equals 360 divided by each exterior angle",
+     "compute": "n = 360 / exterior_angle"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hemh103.txt lines 235-245 (Example 3)",
+   "concept": "hemh.103.5",
+   "question_type": "compute",
+   "question_pattern": "Find the perimeter of the parallelogram PQRS with adjacent sides {length} cm and {breadth} cm.",
+   "extracted_variables": {
+    "length": "12",
+    "breadth": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add adjacent sides",
+     "explain": "sum adjacent sides: 12 + 7 = 19",
+     "compute": "side_sum = length + breadth"
+    },
+    {
+     "step": 2,
+     "action": "multiply by 2",
+     "explain": "perimeter is 2 * 19 = 38 cm",
+     "compute": "perimeter = 2 * side_sum"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hemh103.txt lines 295-305 (Example 5)",
+   "concept": "hemh.103.6",
+   "question_type": "compute",
+   "question_pattern": "In a parallelogram RING, if m angle R = {given_angle} degrees, find all the other angles.",
+   "extracted_variables": {
+    "given_angle": "70"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find opposite angle",
+     "explain": "opposite angle m angle N equals m angle R",
+     "compute": "opposite_angle = given_angle"
+    },
+    {
+     "step": 2,
+     "action": "find adjacent angle",
+     "explain": "adjacent angle m angle I = 180 - 70",
+     "compute": "adjacent_angle = 180 - given_angle"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "hemh103.txt lines 425-435 (Example 8)",
+   "concept": "hemh.103.10",
+   "question_type": "verify_property",
+   "question_pattern": "RENT is a rectangle. Its diagonals meet at O. Find x, if OR = {or_expr} and OT = {ot_expr}.",
+   "extracted_variables": {
+    "or_expr": "2x + 4",
+    "ot_expr": "3x + 1"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "equate half diagonals",
+     "explain": "OT and OR are halves of equal diagonals TE and RN, so 3x + 1 = 2x + 4"
+    },
+    {
+     "step": 2,
+     "action": "solve linear equation for x",
+     "explain": "3x - 2x = 4 - 1 gives x = 3"
+    }
+   ]
+  },
+  {
+   "concept": "hemh.103.1",
+   "question_pattern": "Outside turns of a figure are {a}, {b} and x -- find x.",
+   "extracted_variables": {
+    "a": "120",
+    "b": "90"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the known turns",
+     "explain": "120 + 90 = 210",
+     "compute": "sum_known = a + b"
+    },
+    {
+     "step": 2,
+     "action": "subtract from the full circle",
+     "explain": "360 - 210 = 150",
+     "compute": "x = 360 - sum_given"
+    }
+   ],
+   "id": "ex6",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.103.2",
+   "question_pattern": "Find each outside turn of a regular {n}-sided figure.",
+   "extracted_variables": {
+    "n": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "split the full circle",
+     "explain": "360 / 6 = 60",
+     "compute": "exterior_angle = 360 / n"
+    }
+   ],
+   "id": "ex7",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.103.3",
+   "question_pattern": "Each outside turn measures {a} degrees -- how many sides has the figure?",
+   "extracted_variables": {
+    "a": "24"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide the full circle",
+     "explain": "360 / 24 = 15",
+     "compute": "n = 360 / exterior_angle"
+    }
+   ],
+   "id": "ex8",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.103.4",
+   "question_pattern": "Each inside corner measures {interior} degrees -- find the side count.",
+   "extracted_variables": {
+    "interior": "150"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "make the outside turn",
+     "explain": "180 - 150 = 30",
+     "compute": "exterior_angle = 180 - interior_angle"
+    },
+    {
+     "step": 2,
+     "action": "divide the full circle",
+     "explain": "360 / 30 = 12",
+     "compute": "n = 360 / exterior_angle"
+    }
+   ],
+   "id": "ex9",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.103.5",
+   "question_pattern": "Find the perimeter when adjacent sides are {a} cm and {b} cm.",
+   "extracted_variables": {
+    "a": "8",
+    "b": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the adjacent sides, double",
+     "explain": "2 x (8 + 5) = 26",
+     "compute": "perimeter = 2 * (length + breadth)"
+    }
+   ],
+   "id": "ex10",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.103.6",
+   "question_pattern": "One corner of a parallelogram measures {angle} degrees -- find the others.",
+   "extracted_variables": {
+    "angle": "70"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "next-door corner",
+     "explain": "180 - 70 = 110",
+     "compute": "adjacent_angle = 180 - angle"
+    },
+    {
+     "step": 2,
+     "action": "facing corner",
+     "explain": "the same, 70",
+     "compute": "opposite_angle = angle"
+    }
+   ],
+   "id": "ex11",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.103.7",
+   "question_pattern": "Next-door corners are in ratio {ra}:{rb} -- find both.",
+   "extracted_variables": {
+    "ra": "2",
+    "rb": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "split the straight pair",
+     "explain": "180 x 2/5 = 72",
+     "compute": "angle_1 = 180 * ratio_a / (ratio_a + ratio_b)"
+    },
+    {
+     "step": 2,
+     "action": "the other part",
+     "explain": "180 x 3/5 = 108",
+     "compute": "angle_2 = 180 * ratio_b / (ratio_a + ratio_b)"
+    }
+   ],
+   "id": "ex12",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.103.8",
+   "question_pattern": "One corner-to-corner piece measures {full} cm -- find half of it.",
+   "extracted_variables": {
+    "full": "16"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "halve at the crossing point",
+     "explain": "16 / 2 = 8",
+     "compute": "half_diagonal = full_diagonal / 2"
+    }
+   ],
+   "id": "ex13",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.103.9",
+   "question_pattern": "The pieces measure {d1} and {d2} -- find half of each.",
+   "extracted_variables": {
+    "d1": "10",
+    "d2": "24"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "halve the first",
+     "explain": "10 / 2 = 5",
+     "compute": "half_d1 = d1 / 2"
+    },
+    {
+     "step": 2,
+     "action": "halve the second",
+     "explain": "24 / 2 = 12",
+     "compute": "half_d2 = d2 / 2"
+    }
+   ],
+   "id": "ex14",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.103.2",
+   "question_pattern": "Each outside turn of a regular {n}-sided figure is how big?",
+   "extracted_variables": {
+    "n": "9"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "split the full circle",
+     "explain": "360 / 9 = 40",
+     "compute": "exterior_angle = 360 / n"
+    }
+   ],
+   "id": "ex15",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.103.4",
+   "question_pattern": "Inside corners of {interior} degrees each -- find the side count.",
+   "extracted_variables": {
+    "interior": "165"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "make the outside turn",
+     "explain": "180 - 165 = 15",
+     "compute": "exterior_angle = 180 - interior_angle"
+    },
+    {
+     "step": 2,
+     "action": "divide the full circle",
+     "explain": "360 / 15 = 24",
+     "compute": "n = 360 / exterior_angle"
+    }
+   ],
+   "id": "ex16",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.103.7",
+   "question_pattern": "Next-door corners stand in ratio {ra}:{rb} -- how big is each?",
+   "extracted_variables": {
+    "ra": "4",
+    "rb": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "split the straight pair",
+     "explain": "180 x 4/9 = 80",
+     "compute": "angle_1 = 180 * ratio_a / (ratio_a + ratio_b)"
+    },
+    {
+     "step": 2,
+     "action": "the other part",
+     "explain": "180 x 5/9 = 100",
+     "compute": "angle_2 = 180 * ratio_b / (ratio_a + ratio_b)"
+    }
+   ],
+   "id": "ex17",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.103.8",
+   "question_pattern": "One corner-to-corner piece is {full} cm -- how long is its half?",
+   "extracted_variables": {
+    "full": "11.6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "halve at the crossing point",
+     "explain": "11.6 / 2 = 5.8",
+     "compute": "half_diagonal = full_diagonal / 2"
+    }
+   ],
+   "id": "ex18",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.103.9",
+   "question_pattern": "The corner-to-corner pieces measure {d1} and {d2} cm -- halve each.",
+   "extracted_variables": {
+    "d1": "14",
+    "d2": "48"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "halve the first",
+     "explain": "14 / 2 = 7",
+     "compute": "half_d1 = d1 / 2"
+    },
+    {
+     "step": 2,
+     "action": "halve the second",
+     "explain": "48 / 2 = 24",
+     "compute": "half_d2 = d2 / 2"
+    }
+   ],
+   "id": "ex19",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "hemh103.txt lines 40-65",
+   "questions": [
+    "Classify given figures as simple curve, simple closed curve, polygon, convex polygon, concave polygon.",
+    "What is a regular polygon? State the name of a regular polygon of (i) 3 sides (ii) 4 sides (iii) 6 sides."
+   ]
+  },
+  {
+   "id": "ex3.2",
+   "source_ref": "hemh103.txt lines 125-160",
+   "questions": [
+    "Find x in given figures of exterior angles.",
+    "Find the measure of each exterior angle of a regular polygon of (i) 9 sides (ii) 15 sides.",
+    "How many sides does a regular polygon have if the measure of an exterior angle is 24 degrees?",
+    "How many sides does a regular polygon have if each of its interior angles is 165 degrees?",
+    "Is it possible to have a regular polygon with measure of each exterior angle as 22 degrees? Can it be an interior angle of a regular polygon?",
+    "What is the minimum interior angle possible for a regular polygon? What is the maximum exterior angle possible?"
+   ]
+  },
+  {
+   "id": "ex3.3",
+   "source_ref": "hemh103.txt lines 350-395",
+   "questions": [
+    "Given a parallelogram ABCD. Complete each statement along with the definition or property used: (i) AD = ... (ii)  angle DCB = ... (iii) OC = ... (iv) m angle DAB + m angle CDA = ...",
+    "Find the values of the unknowns x, y, z in given parallelograms.",
+    "Can a quadrilateral ABCD be a parallelogram if (i)  angle D +  angle B = 180 degrees? (ii) AB = DC = 8 cm, AD = 4 cm and BC = 4.4 cm? (iii)  angle A = 70 degrees and  angle C = 65 degrees?",
+    "The measures of two adjacent angles of a parallelogram are in the ratio 3 : 2. Find the measure of each of the angles of the parallelogram.",
+    "Two adjacent angles of a parallelogram have equal measure. Find the measure of each of the angles of the parallelogram.",
+    "Find x and y in parallelograms GUNS and RUNS.",
+    "Explain how a figure is a trapezium and which sides are parallel.",
+    "Find m angle C if AB is parallel to DC."
+   ]
+  },
+  {
+   "id": "ex3.4",
+   "source_ref": "hemh103.txt lines 470-515",
+   "questions": [
+    "State whether True or False: (a) All rectangles are squares (b) All rhombuses are parallelograms (c) All squares are rhombuses and also rectangles (d) All squares are not parallelograms (e) All kites are rhombuses (f) All rhombuses are kites (g) All parallelograms are trapeziums (h) All squares are trapeziums.",
+    "Identify all the quadrilaterals that have: (a) four sides of equal length (b) four right angles.",
+    "Explain how a square is: (i) a quadrilateral (ii) a parallelogram (iii) a rhombus (iv) a rectangle.",
+    "Name the quadrilaterals whose diagonals: (i) bisect each other (ii) are perpendicular bisectors of each other (iii) are equal.",
+    "Explain why a rectangle is a convex quadrilateral."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

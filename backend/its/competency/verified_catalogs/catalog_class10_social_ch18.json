@@ -1,0 +1,584 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 18,
+ "chapter_title": "Development",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess201.txt",
+ "concepts": [
+  {
+   "id": "c10ss.18.1",
+   "title": "Meaning of Development",
+   "section": "18.1",
+   "definition": "Development is a process that brings about improvement in the well-being and living standards of people. Different people have different developmental goals, and what may be development for one may be destructive for another.",
+   "formula": "",
+   "key_idea": "Development means different things to different people; it is not just about income but about overall well-being.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is development?",
+    "Why do different people have different developmental goals?",
+    "Can development mean different things to different people? Give an example.",
+    "Why is development not only about income?",
+    "Explain with an example how one person's development may harm another."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define development",
+     "explain": "Development is a process of improvement in living standards and well-being."
+    },
+    {
+     "step": 2,
+     "action": "Explain that goals differ",
+     "explain": "Different people have different goals -- a farmer wants irrigation, a factory worker wants job security, a student wants education."
+    },
+    {
+     "step": 3,
+     "action": "Explain conflicting goals",
+     "explain": "What is development for one group may be harmful for another, e.g. a dam benefits cities but displaces villagers."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why do different people have different developmental goals?",
+     "solution": "People have different needs and circumstances, so their goals for development differ.",
+     "answer": "Because people have different needs and circumstances."
+    },
+    {
+     "question": "Explain with an example how one person's development may harm another.",
+     "solution": "Building a dam may provide electricity and irrigation for cities, but it may displace villagers and submerge their land.",
+     "answer": "A dam benefits cities but harms displaced villagers."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why is development not only about income?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Can development mean different things to different people? Give an example.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.18.2",
+   "title": "Indicators of Development",
+   "section": "18.2",
+   "definition": "Indicators of development are measures used to compare the level of development of different countries or regions, such as per capita income, literacy rate, life expectancy and infant mortality rate.",
+   "formula": "",
+   "key_idea": "No single indicator captures development fully; a mix of income, health and education indicators gives a better picture.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the main indicators of development?",
+    "Why is per capita income alone not a sufficient indicator of development?",
+    "List three non-income indicators of development.",
+    "How do health indicators reflect development?",
+    "Why should development be measured using multiple indicators?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List common indicators",
+     "explain": "Common indicators include per capita income, literacy rate, life expectancy and infant mortality rate."
+    },
+    {
+     "step": 2,
+     "action": "Explain the limitation of income alone",
+     "explain": "Per capita income alone ignores health, education and equality, so it is not sufficient."
+    },
+    {
+     "step": 3,
+     "action": "Argue for multiple indicators",
+     "explain": "Using a mix of income, health and education indicators gives a fuller picture of development."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is per capita income alone not a sufficient indicator of development?",
+     "solution": "Per capita income ignores health, education and equality, so it does not capture the full meaning of development.",
+     "answer": "It ignores health, education and equality."
+    },
+    {
+     "question": "List three non-income indicators of development.",
+     "solution": "Literacy rate, life expectancy and infant mortality rate are non-income indicators of development.",
+     "answer": "Literacy rate, life expectancy and infant mortality rate."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How do health indicators reflect development?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why should development be measured using multiple indicators?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.18.3",
+   "title": "Per Capita Income",
+   "section": "18.3",
+   "definition": "Per capita income is the average income of a country, calculated by dividing the total national income by the total population. It is a commonly used indicator for comparing the development of countries.",
+   "formula": "Per Capita Income = Total National Income / Total Population",
+   "key_idea": "Per capita income is a simple average-income measure used to compare countries, but it hides inequality and ignores non-income aspects of development.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Compute the per capita income given total income and population.",
+    "What is per capita income and how is it calculated?",
+    "Compare two countries using per capita income.",
+    "What are the limitations of per capita income as an indicator?",
+    "Why does per capita income hide inequality?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify total income and population",
+     "explain": "Find the total national income and the total population of the country."
+    },
+    {
+     "step": 2,
+     "action": "Divide income by population",
+     "explain": "Divide the total national income by the total population to get the average income per person.",
+     "compute": "per_capita_income = total_income / population"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the result",
+     "explain": "Compare the per capita income with that of other countries to judge relative development."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A country has a total national income of Rs 5,00,000 crore and a population of 50 crore. Compute the per capita income.",
+     "solution": "Per capita income = 500000 crore / 50 crore = Rs 10,000.",
+     "answer": "Per capita income = Rs 10,000"
+    },
+    {
+     "question": "Country A has a per capita income of Rs 12,000 and Country B has Rs 8,000. Which is more developed on the income criterion?",
+     "solution": "Since Rs 12,000 > Rs 8,000, Country A is more developed on the per capita income criterion.",
+     "answer": "Country A is more developed on the income criterion."
+    },
+    {
+     "question": "A country's national income is Rs 8,00,000 crore and its population is 80 crore. Find the per capita income.",
+     "solution": "Per capita income = 800000 / 80 = Rs 10,000.",
+     "answer": "Per capita income = Rs 10,000"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A country has a national income of Rs 6,00,000 crore and a population of 60 crore. Compute the per capita income.",
+     "type": "compute"
+    },
+    {
+     "question": "What are the limitations of per capita income as an indicator?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.18.4",
+   "title": "Human Development Index (HDI)",
+   "section": "18.4",
+   "definition": "The Human Development Index (HDI) is a composite index prepared by the UNDP that ranks countries based on three indicators: per capita income, life expectancy at birth and literacy rate (education).",
+   "formula": "HDI = composite of (per capita income, life expectancy, literacy rate)",
+   "key_idea": "HDI gives a broader measure of development than income alone by combining income, health and education.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the Human Development Index?",
+    "Which three indicators are used in the HDI?",
+    "Why is HDI a better measure of development than per capita income alone?",
+    "How does the UNDP rank countries using the HDI?",
+    "Compare two countries using their HDI ranks."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define HDI",
+     "explain": "The HDI is a composite index prepared by the UNDP to rank countries by development."
+    },
+    {
+     "step": 2,
+     "action": "List the three indicators",
+     "explain": "The three indicators are per capita income, life expectancy at birth and literacy rate."
+    },
+    {
+     "step": 3,
+     "action": "Explain its advantage",
+     "explain": "Because it combines income, health and education, HDI gives a broader picture of development than income alone."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which three indicators are used in the HDI?",
+     "solution": "The HDI uses per capita income, life expectancy at birth and literacy rate.",
+     "answer": "Per capita income, life expectancy and literacy rate."
+    },
+    {
+     "question": "Why is HDI a better measure of development than per capita income alone?",
+     "solution": "HDI combines income, health and education, so it captures more aspects of development than income alone.",
+     "answer": "Because it combines income, health and education."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How does the UNDP rank countries using the HDI?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Compare two countries using their HDI ranks.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.18.5",
+   "title": "Comparison of Countries on Development",
+   "section": "18.5",
+   "definition": "Countries can be compared on development using indicators like per capita income, HDI, life expectancy and literacy. Different indicators may give different rankings, so multiple indicators should be used.",
+   "formula": "",
+   "key_idea": "Comparing countries on a single indicator can be misleading; a fair comparison uses multiple indicators.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How can we compare the development of two countries?",
+    "Why may two indicators give different rankings of countries?",
+    "Compare Sri Lanka and India on development indicators.",
+    "Why is it wrong to compare countries on per capita income alone?",
+    "Give an example where a country has high income but low HDI."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Choose the indicators for comparison",
+     "explain": "Select indicators such as per capita income, HDI, life expectancy and literacy rate."
+    },
+    {
+     "step": 2,
+     "action": "Compare the values",
+     "explain": "Compare the values of each indicator for the two countries."
+    },
+    {
+     "step": 3,
+     "action": "Interpret the comparison",
+     "explain": "If different indicators give different rankings, use multiple indicators to draw a balanced conclusion."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why may two indicators give different rankings of countries?",
+     "solution": "A country may have high per capita income but low literacy or life expectancy, so income and HDI can give different rankings.",
+     "answer": "Because income and non-income indicators can give different results."
+    },
+    {
+     "question": "Compare Sri Lanka and India on development indicators.",
+     "solution": "Sri Lanka has a higher literacy rate and life expectancy than India, even though India may have higher total income.",
+     "answer": "Sri Lanka is ahead on literacy and life expectancy."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why is it wrong to compare countries on per capita income alone?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give an example where a country has high income but low HDI.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.18.6",
+   "title": "Sustainability and Development",
+   "section": "18.6",
+   "definition": "Sustainable development is development that meets the needs of the present generation without compromising the ability of future generations to meet their own needs.",
+   "formula": "",
+   "key_idea": "Development must be sustainable so that resources remain available for future generations.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is sustainable development?",
+    "Why is sustainable development important?",
+    "Give two examples of non-sustainable development.",
+    "How can groundwater depletion be prevented?",
+    "Explain the relationship between development and the environment."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define sustainable development",
+     "explain": "Sustainable development meets present needs without harming the ability of future generations to meet theirs."
+    },
+    {
+     "step": 2,
+     "action": "Explain why it matters",
+     "explain": "Overuse of resources like groundwater and forests can deprive future generations."
+    },
+    {
+     "step": 3,
+     "action": "Give examples of non-sustainable practices",
+     "explain": "Over-pumping groundwater and cutting forests without replanting are examples of non-sustainable development."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is sustainable development?",
+     "solution": "Sustainable development meets present needs without compromising the ability of future generations to meet their needs.",
+     "answer": "Development that does not harm future generations."
+    },
+    {
+     "question": "Give two examples of non-sustainable development.",
+     "solution": "Over-pumping groundwater and cutting down forests without replanting are non-sustainable.",
+     "answer": "Groundwater overuse and deforestation without replanting."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How can groundwater depletion be prevented?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain the relationship between development and the environment.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.18.7",
+   "title": "Public Facilities and Development",
+   "section": "18.7",
+   "definition": "Public facilities are services provided by the government, such as education, healthcare, safe drinking water and sanitation, that are essential for development and are available to all citizens regardless of income.",
+   "formula": "",
+   "key_idea": "Public facilities are crucial for development because income alone cannot buy all essential services like clean water and public health.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are public facilities?",
+    "Why are public facilities important for development?",
+    "How do public facilities improve the quality of life?",
+    "Compare two states on the basis of public facilities.",
+    "Why should the government provide public facilities rather than leaving them to the market?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define public facilities",
+     "explain": "Public facilities are services like education, healthcare, water and sanitation provided by the government."
+    },
+    {
+     "step": 2,
+     "action": "Explain their importance",
+     "explain": "They are essential for development because income alone cannot buy clean air, public health or safe water."
+    },
+    {
+     "step": 3,
+     "action": "Explain the government's role",
+     "explain": "The government must provide public facilities so that all citizens, rich or poor, can access them."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why are public facilities important for development?",
+     "solution": "Public facilities like education, health and water are essential for well-being and cannot be bought by income alone.",
+     "answer": "They provide essential services that income alone cannot buy."
+    },
+    {
+     "question": "Why should the government provide public facilities rather than leaving them to the market?",
+     "solution": "The market may not provide facilities to the poor, so the government must ensure equal access for all.",
+     "answer": "To ensure equal access for all citizens."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How do public facilities improve the quality of life?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Compare two states on the basis of public facilities.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.18.8",
+   "title": "Income and Other Goals",
+   "section": "18.8",
+   "definition": "While income is an important goal, people also value non-material goals such as freedom, security, equal treatment, respect and a safe environment. Development must consider both income and these other goals.",
+   "formula": "",
+   "key_idea": "People seek not only income but also security, freedom and respect; development must address all these goals.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why do people value goals other than income?",
+    "List three non-material goals that people value.",
+    "How does a safe environment contribute to development?",
+    "Explain why a job that pays well may still be undesirable.",
+    "Why is income not the only goal of development?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State that income is important but not the only goal",
+     "explain": "People want income, but they also want freedom, security, respect and a safe environment."
+    },
+    {
+     "step": 2,
+     "action": "List non-material goals",
+     "explain": "Non-material goals include equal treatment, freedom, job security and a safe and peaceful environment."
+    },
+    {
+     "step": 3,
+     "action": "Explain the implication for development",
+     "explain": "Development must address both income and non-material goals to improve people's lives."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why do people value goals other than income?",
+     "solution": "People also value freedom, security, respect and a safe environment, which income alone cannot provide.",
+     "answer": "Because income alone cannot provide security, freedom and respect."
+    },
+    {
+     "question": "Explain why a job that pays well may still be undesirable.",
+     "solution": "A high-paying job may lack security, freedom or respect, making it undesirable despite the income.",
+     "answer": "Because it may lack security, freedom or respect."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List three non-material goals that people value.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why is income not the only goal of development?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.18.9",
+   "title": "National Development",
+   "section": "18.9",
+   "definition": "National development refers to the overall improvement of a country in terms of income, health, education and infrastructure. Different groups within a nation may have different ideas about what national development should prioritise.",
+   "formula": "",
+   "key_idea": "National development means improving the well-being of all citizens, but different groups may define it differently.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is national development?",
+    "Why do different groups have different notions of national development?",
+    "How is national development different from individual development?",
+    "What should a country prioritise for national development?",
+    "Explain why national development must consider all sections of society."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define national development",
+     "explain": "National development is the overall improvement of a country in income, health, education and infrastructure."
+    },
+    {
+     "step": 2,
+     "action": "Explain differing notions",
+     "explain": "Different groups -- industrialists, farmers, workers -- may have different priorities for national development."
+    },
+    {
+     "step": 3,
+     "action": "Explain the need for balance",
+     "explain": "National development must consider the needs of all sections of society, not just one group."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is national development?",
+     "solution": "National development is the overall improvement of a country in income, health, education and infrastructure.",
+     "answer": "Overall improvement of a country's well-being."
+    },
+    {
+     "question": "Why do different groups have different notions of national development?",
+     "solution": "Different groups have different interests -- industrialists want factories, farmers want irrigation -- so their ideas of national development differ.",
+     "answer": "Because different groups have different interests and priorities."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How is national development different from individual development?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain why national development must consider all sections of society.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.18.10",
+   "title": "Body Mass Index (BMI) as a Health Indicator",
+   "section": "18.10",
+   "definition": "Body Mass Index (BMI) is a measure of body fat based on a person's weight and height. It is used as a health indicator to assess whether a person is undernourished, normal or overweight.",
+   "formula": "BMI = Weight (kg) / [Height (m)]^2",
+   "key_idea": "BMI is a simple computed indicator of nutrition and health status; values below 18.5 indicate undernourishment.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Compute the BMI given weight and height.",
+    "What is Body Mass Index and how is it calculated?",
+    "Interpret a BMI value and classify the person's nutritional status.",
+    "What BMI range indicates undernourishment?",
+    "Why is BMI used as an indicator of development?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Record weight and height",
+     "explain": "Note the person's weight in kilograms and height in metres."
+    },
+    {
+     "step": 2,
+     "action": "Compute BMI",
+     "explain": "Divide the weight in kg by the square of the height in metres.",
+     "compute": "bmi = weight_kg / (height_m * height_m)"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the BMI value",
+     "explain": "If BMI < 18.5 the person is undernourished; 18.5-24.9 is normal; 25 and above is overweight."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A person weighs 54 kg and is 1.5 m tall. Compute the BMI and interpret it.",
+     "solution": "BMI = 54 / (1.5 x 1.5) = 54 / 2.25 = 24. Since 24 is above 18.5, the person is not undernourished.",
+     "answer": "BMI = 24; the person is not undernourished."
+    },
+    {
+     "question": "A person weighs 45 kg and is 1.6 m tall. Compute the BMI and state whether the person is undernourished.",
+     "solution": "BMI = 45 / (1.6 x 1.6) = 45 / 2.56 = 17.58. Since 17.58 < 18.5, the person is undernourished.",
+     "answer": "BMI = 17.58; the person is undernourished."
+    },
+    {
+     "question": "A person weighs 80 kg and is 1.7 m tall. Compute the BMI and classify the status.",
+     "solution": "BMI = 80 / (1.7 x 1.7) = 80 / 2.89 = 27.68. Since 27.68 >= 25, the person is overweight.",
+     "answer": "BMI = 27.68; the person is overweight."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A person weighs 60 kg and is 1.6 m tall. Compute the BMI and interpret it.",
+     "type": "compute"
+    },
+    {
+     "question": "What BMI range indicates undernourishment?",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

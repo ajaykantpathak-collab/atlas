@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch1_7",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch1_7",
+   "title": "c9_physics_ch1_7",
+   "questions": [
+    {
+     "q": "What is the least count of a measuring instrument? State its SI unit.",
+     "a": "The least count is the smallest measurement that can be made directly with the instrument; its SI unit is metre (m) or submultiples like millimetre (mm). A wrong answer (e.g., “least count is the same as accuracy”) reveals confusion between resolution (least count) and closeness to true value (accuracy).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a vernier caliper can measure smaller lengths than a metre rule, even though both have a main scale with 1 mm divisions.",
+     "a": "The vernier caliper has an auxiliary (vernier) scale that subdivides each main scale division; typically 10 vernier divisions coincide with 9 main scale divisions, giving a least count of 0.1 mm. A metre rule lacks this subdivision, so its least count remains 1 mm. A wrong answer (e.g., “vernier caliper is more precise because it is made of metal”) shows the student does not understand the vernier principle of scale subdivision.",
+     "self_check": true
+    },
+    {
+     "q": "A vernier caliper has 1 mm main scale divisions. 10 vernier divisions coincide with 9 main scale divisions. When the jaws are closed, the zero of the vernier lies to the right of the main scale zero by 3 vernier divisions. Calculate the least count, zero error, and zero correction.",
+     "a": "Step 1: Least count = 1 MSD / N = 1 mm / 10 = 0.1 mm.  \nStep 2: Zero error = +3 × LC = +0.3 mm (vernier zero right of main scale zero → positive zero error).  \nStep 3: Zero correction = –Zero error = –0.3 mm.  \nA wrong answer (e.g., zero correction = +0.3 mm) reveals the common sign-error misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a micrometer screw gauge (least count 0.01 mm) and a vernier caliper (least count 0.1 mm) for measuring the thickness of a single sheet of paper. Which instrument is more appropriate? Justify your choice considering range and least count.",
+     "a": "The micrometer screw gauge is more appropriate because its least count (0.01 mm) is ten times smaller, matching the typical paper thickness (~0.07–0.1 mm). The vernier caliper’s least count (0.1 mm) is comparable to the thickness itself, giving only one significant figure. A wrong choice (vernier caliper) indicates the student does not relate least count to the magnitude of the quantity being measured.",
+     "self_check": true
+    },
+    {
+     "q": "A student measures the diameter of a wire five times with a screw gauge (LC = 0.01 mm) and obtains: 0.45, 0.46, 0.44, 0.47, 0.45 mm. She calculates the mean as 0.454 mm and writes the final result as 0.454 mm. Evaluate whether this reporting is correct.",
+     "a": "The mean is 0.454 mm, but the least count is 0.01 mm, so the measurement can only be reported to the hundredth of a millimetre. The correct reporting is 0.45 mm (or 0.45 ± 0.01 mm). Writing 0.454 mm implies a precision of 0.001 mm, which the instrument cannot provide. A wrong evaluation (e.g., “0.454 mm is fine because it’s the average”) shows misunderstanding of significant figures and instrument resolution.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to determine the least count of an unknown vernier caliper that has no markings on the vernier scale indicating the number of divisions.",
+     "a": "Procedure: (1) Close the jaws and note the main scale reading (MSR₁). (2) Open the jaws until the vernier zero moves exactly one main scale division (1 mm) and note the new main scale reading (MSR₂). (3) Count how many vernier divisions (n) have passed the main scale zero. (4) The least count = (MSR₂ – MSR₁) / n = 1 mm / n. A poor answer (e.g., “use a ruler to measure the vernier divisions”) reveals the student cannot devise a method using the instrument’s own scales.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

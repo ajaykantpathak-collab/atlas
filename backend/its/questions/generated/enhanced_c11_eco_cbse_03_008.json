@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_03_008",
+   "title": "c11_eco_cbse_03_008",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between GATT (1948) and WTO (1995) in terms of institutional structure and scope of agreements?",
+     "a": "GATT was a provisional legal agreement with no institutional framework, covering only trade in goods through multilateral negotiations. WTO is a permanent international organisation with a dispute settlement body, covering goods (GATT), services (GATS), intellectual property (TRIPS), and investment measures (TRIMS). A wrong answer treating WTO as merely \"renamed GATT\" reveals the student misses the enforceable dispute mechanism and expanded scope—critical for understanding why India faces binding commitments in services and IPR today.",
+     "self_check": true
+    },
+    {
+     "q": "India agreed to reduce its bound tariff rate on industrial goods from an average of 100% (1990) to 40% by 2005 under WTO. If the applied MFN tariff on a specific machinery item was 15% in 2005, what is the \"tariff water\" and why does it matter for policy credibility?",
+     "a": "Tariff water = Bound rate (40%) - Applied rate (15%) = 25 percentage points. It matters because bound rates are legally binding ceilings; applied rates can be raised up to the bound rate without violating WTO commitments. A student who says \"water is 15%\" confuses the direction of subtraction. A student who says \"it doesn't matter because applied rate is low\" misses that policy uncertainty increases when water is large—investors fear sudden tariff hikes.",
+     "self_check": true
+    },
+    {
+     "q": "Using the concept of Nominal Protection Rate (NPR), calculate the NPR for Indian wheat if the domestic wholesale price is ₹2,200/quintal, the international reference price (CIF) is ₹1,600/quintal, and the applied tariff is 40%. Interpret the result for farmer incentives.",
+     "a": "NPR = [(Domestic Price - International Price) / International Price] × 100 = [(2200 - 1600) / 1600] × 100 = 37.5%. The applied tariff (40%) would imply a border price of ₹2,240 (1600 × 1.4). Since domestic price (₹2,200) < border price (₹2,240), the effective protection is slightly less than the tariff suggests due to marketing costs/inefficiencies. A wrong answer using only the tariff rate (40%) as NPR ignores that domestic prices may not fully reflect border prices—critical for understanding why farmers still demand higher MSP despite \"high\" tariffs.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of removing Quantitative Restrictions (QRs) on agricultural imports (completed April 2001) versus industrial imports (phased 1991-2001) on two dimensions: (a) domestic price volatility, (b) adjustment costs for small producers. Use the Mahadeva groundnut case (NCERT) to illustrate.",
+     "a": "Agricultural QR removal caused sharper price volatility because: (a) agricultural supply is inelastic in short-run (weather-dependent), so import surges crash prices suddenly (Mahadeva's groundnut price fell below cost due to cheap edible oil imports); (b) small farmers lack credit/insurance to adjust cropping patterns. Industrial QR removal was phased, giving firms time to upgrade technology. A student saying \"both sectors faced same impact\" misses the biological production lag in agriculture versus adjustable capital in industry—a key reason for demands for special safeguards (SSG) in WTO agriculture negotiations.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"India's trade liberalisation under WTO has been asymmetric—developed countries maintained high agricultural subsidies and non-tariff barriers (SPS/TBT), while India removed QRs and cut tariffs.\" Support with two specific examples from the Agreement on Agriculture (AoA) and Sanitary and Phytosanitary (SPS) measures.",
+     "a": "The statement is largely correct. Under AoA, developed countries used \"Green Box\" subsidies (decoupled income support) and \"Blue Box\" (production-limiting) which are unlimited, while India's input subsidies (fertiliser, power) count toward the 10% de minimis limit (Amber Box). Example: US cotton subsidies (~$3bn/year) depressed global prices, hurting Indian farmers. Under SPS, EU's aflatoxin limits on groundnuts (4 ppb vs Codex 15 ppb) blocked Indian exports despite scientific equivalence. A student claiming \"WTO treats all equally\" ignores Special and Differential Treatment (S&DT) provisions that exist on paper but are weakly enforced in practice.",
+     "self_check": true
+    },
+    {
+     "q": "Design a trade policy response for India if the EU imposes a Carbon Border Adjustment Mechanism (CBAM) on steel/aluminium imports from 2026, arguing it violates WTO non-discrimination (MFN/National Treatment). Your response must include: (a) legal basis at WTO, (b) domestic adjustment measure, (c) negotiation strategy.",
+     "a": "(a) Legal basis: Challenge under GATT Article I (MFN) and III (National Treatment)—CBAM discriminates by origin (no carbon price in EU for domestic steel) and acts as a border tax adjustment not permitted for non-product-related process and production methods (PPMs). (b) Domestic measure: Implement a domestic carbon pricing scheme (ETS or tax) on steel/aluminium to make CBAM redundant under GATT Article II:2(a) (charges equivalent to internal tax). (c) Negotiation: Form coalition with BASIC countries (Brazil, South Africa, China) at WTO Committee on Trade and Environment; demand technology transfer for green steel under Paris Agreement Article 10. A poor answer suggesting \"retaliatory tariffs\" misses WTO dispute settlement requirements and risks authorised retaliation against India.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

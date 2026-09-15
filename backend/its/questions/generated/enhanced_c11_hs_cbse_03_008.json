@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_03_008",
+   "title": "c11_hs_cbse_03_008",
+   "questions": [
+    {
+     "q": "Name the five basic food groups in the ICMR classification and state the predominant macronutrient supplied by the \"Cereals, Grains and Products\" group.",
+     "a": "The five groups are: (1) Cereals, Grains and Products, (2) Pulses and Legumes, (3) Milk, Meat and Products, (4) Fruits and Vegetables, (5) Fats and Sugars. The predominant macronutrient in Group I is carbohydrate (starch). A wrong answer such as \"protein\" for cereals reveals confusion between staple energy sources and body-building foods, indicating the student has not internalized the primary nutrient basis of classification.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that \"since milk contains protein, fat, calcium, and B12, it can replace both the pulses group and the meat group in a vegetarian diet.\" Explain why this statement is nutritionally incorrect using the concept of nutrient density and limiting nutrients.",
+     "a": "Milk is a poor source of iron, fibre, and vitamin C, and its protein, though high-quality, lacks the fibre and phytochemicals from pulses. Pulses provide folic acid, iron, and fibre which milk lacks. Meat provides haem iron, zinc, and B12 in higher bioavailability. Replacing both groups with milk alone would lead to iron and fibre deficiency. A wrong answer that agrees with the student shows misunderstanding that food groups are non-substitutable because each has a unique limiting nutrient profile; the groups are complementary, not interchangeable.",
+     "self_check": true
+    },
+    {
+     "q": "Plan a vegetarian lunch menu for a 16-year-old girl that includes at least one serving from each of the five ICMR food groups. List the food items, their groups, and the key micronutrient each group contributes to this meal.",
+     "a": "Example menu: (1) Wheat chapati (Cereals) → Thiamine (B1), Iron; (2) Moong dal (Pulses) → Folic acid, Fibre; (3) Curd (Milk) → Calcium, Riboflavin (B2); (4) Spinach sabzi + Orange slices (Fruits/Vegetables) → β-carotene, Vitamin C, Folate; (5) 1 tsp ghee on chapati (Fats) → Vitamin A (if fortified), Essential fatty acids. A wrong answer missing the fats group or using only cereals+pulses shows inability to apply the \"at least one serving from each group\" guideline and ignorance that fats are essential for fat-soluble vitamin absorption.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the nutrient profiles of \"Green Leafy Vegetables\" and \"Other Vegetables\" in Group IV. Why does the ICMR table list them separately despite both being in the Fruits and Vegetables group?",
+     "a": "Green leafy vegetables (GLV) are rich in carotenoids, folic acid, calcium, iron, and fibre; other vegetables provide carotenoids and fibre but significantly less calcium, iron, and folic acid. They are listed separately because GLV are nutrient-dense for micronutrients critical in adolescence (iron, calcium, folate), while other vegetables add variety and fibre but cannot meet those needs alone. A wrong answer saying \"they are the same\" or \"only colour differs\" reveals failure to analyze nutrient density differences within a group, a key reason for the \"include variety within group\" guideline.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The Food Guide Pyramid puts fats and sugars at the apex meaning they are unimportant and should be avoided completely.\" Use the concepts of essential fatty acids and energy density to justify your evaluation.",
+     "a": "The statement is incorrect. The apex position means \"use sparingly,\" not \"avoid.\" Fats supply essential fatty acids (linoleic, α-linolenic) and fat-soluble vitamins (A, D, E, K) which cannot be synthesized by the body. Complete avoidance causes deficiency. However, at 9 kcal/g, fats are energy-dense; excess leads to obesity. The pyramid guides moderation (2-3 servings of visible fat), not elimination. A wrong answer agreeing with avoidance shows confusion between \"limit\" and \"eliminate\" and ignorance of essential nutrient roles of fats.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-day \"deficiency demonstration menu\" for a Class 11 student that deliberately excludes one entire food group. Identify the excluded group, list three specific nutrients that will be deficient after two weeks, and explain the physiological consequence of each deficiency.",
+     "a": "Example: Exclude Group III (Milk/Meat). Menu: Breakfast - Poha (cereal) + peanuts (pulse); Lunch - Rice + Rajma + Salad (other veg) + Oil; Snack - Banana; Dinner - Roti + Chana dal + Bhindi + Ghee. Excluded group: Milk/Meat. Deficient nutrients: (1) Calcium → impaired bone mineralization, risk of osteoporosis later; (2) Vitamin B12 → megaloblastic anemia, neurological symptoms; (3) High-quality protein (lysine) → reduced muscle repair, low albumin. A poor answer that excludes fats but says \"no deficiency because invisible fat in cereals\" misses that visible fats provide essential fatty acids and vitamin E not adequate in invisible fat.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

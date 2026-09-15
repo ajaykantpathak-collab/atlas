@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch9_2",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch9_2",
+   "title": "c8_math_ch9_2",
+   "questions": [
+    {
+     "q": "What is the side length of the new square constructed to have double the area of a square of side 5 cm?",
+     "a": "The side length of the new square is the diagonal of the original square, which is \\(5\\sqrt{2}\\) cm. A wrong answer of 10 cm reveals the misconception that doubling the side doubles the area (which actually quadruples it). An answer of 7.07 cm (decimal approximation) without the radical form shows lack of understanding of the exact geometric relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why constructing a square on the diagonal of a given square results in a square with double the area, using the concept of triangle areas.",
+     "a": "The diagonal divides the original square into two congruent right-angled isosceles triangles, each of area \\(\\frac{1}{2}s^2\\). The new square built on the diagonal can be divided into four such congruent triangles (by drawing both its diagonals), giving total area \\(4 \\times \\frac{1}{2}s^2 = 2s^2\\). A wrong answer that only states the formula \\(2s^2\\) without the triangle decomposition shows procedural recall without geometric understanding. An answer claiming the new square is made of two original squares reveals confusion about the diagonal's length.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a square with double the area of a square of side 3 cm. Show the steps of construction and calculate the area of the new square to verify.",
+     "a": "Steps: 1) Draw square ABCD of side 3 cm. 2) Draw diagonal AC. 3) At A, construct a perpendicular to AC. 4) On this perpendicular, mark point E such that AE = AC. 5) At C, construct a perpendicular to AC on the same side. 6) Mark point F on it such that CF = AC. 7) Join EF. Square ACEF is the required square. AC = \\(3\\sqrt{2}\\) cm. Area of ACEF = \\((3\\sqrt{2})^2 = 18\\) cm². Original area = 9 cm². Verified double. A wrong answer with area 36 cm² indicates the student doubled the side instead of using the diagonal. An incorrect construction (e.g., not ensuring right angles at A and C) shows gap in construction skills.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the method of doubling a square by constructing on its diagonal with the method of doubling a rectangle by extending one side. What is the fundamental geometric difference?",
+     "a": "Doubling a square via the diagonal uses the diagonal as the new side, creating a square rotated 45° relative to the original, with area exactly twice due to the \\(s\\sqrt{2}\\) relationship. Doubling a rectangle by extending one side keeps the same orientation and simply doubles one dimension, resulting in a rectangle of dimensions \\(2l \\times b\\) or \\(l \\times 2b\\). The square method relies on the Pythagorean relationship (diagonal² = 2 × side²), while the rectangle method relies on linear scaling. A wrong answer that says both methods produce similar shapes or both use the diagonal shows failure to distinguish between area scaling by linear extension versus by geometric transformation.",
+     "self_check": true
+    },
+    {
+     "q": "A student constructs a square on the diagonal of a 6 cm square but gets a new square of side 6 cm instead of \\(6\\sqrt{2}\\) cm. Identify the error in their construction and explain how to correct it.",
+     "a": "The student likely used the original side length (6 cm) as the radius for marking the new square's vertices instead of using the diagonal length. They must first measure the diagonal AC with the compass, then use that measurement to mark AE and CF. The error is using the wrong radius. A wrong diagnosis that blames the perpendicular construction misses the core issue of length transfer. The correction: after drawing diagonal AC, set compass to length AC, then draw arcs from A and C to locate E and F.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world problem where a farmer needs to double the area of a square field using only a rope and pegs (no measuring tape). Describe the steps the farmer would follow on the ground.",
+     "a": "Problem: A farmer has a square field of side 20 m. He wants to mark a new square field of double the area using only a long rope and pegs. Steps: 1) Mark the corners of the original square with pegs. 2) Stretch the rope along one diagonal and mark its length (by tying a knot or marking with cloth). 3) At one end of the diagonal, use the rope to create a right angle (using the 3-4-5 method or by swinging arcs of equal radius). 4) Along this perpendicular, mark the diagonal length using the marked rope. 5) Repeat at the other end. 6) Connect the new pegs to form the new square. A poor answer that suggests measuring 20√2 m with a tape or doubling the side to 40 m shows inability to translate the geometric construction into a practical, tool-constrained scenario.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch1_8",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch1_8",
+   "title": "c8_math_ch1_8",
+   "questions": [
+    {
+     "q": "What is the square root of 144? Write the answer and explain what the symbol \\( \\sqrt{144} \\) means.",
+     "a": "The square root of 144 is 12 because \\( 12 \\times 12 = 144 \\). The symbol \\( \\sqrt{144} \\) means \"the positive number which when squared gives 144\". A wrong answer like -12 reveals the misconception that square root gives both positive and negative values; at this level, \\( \\sqrt{} \\) denotes only the principal (positive) square root.",
+     "self_check": true
+    },
+    {
+     "q": "A student says \\( \\sqrt{100} = 50 \\) because \"you divide by 2 to find the square root\". Why is this reasoning incorrect? Use the definition of square root to explain.",
+     "a": "The reasoning is incorrect because square root is the inverse of squaring, not dividing by 2. \\( \\sqrt{100} \\) asks: what number multiplied by itself gives 100? \\( 50 \\times 50 = 2500 \\), not 100. The correct answer is 10 because \\( 10 \\times 10 = 100 \\). A student who agrees with the wrong reasoning confuses \"half of a number\" with \"a number that squares to the original\", showing they don't understand the inverse relationship between squaring and square root.",
+     "self_check": true
+    },
+    {
+     "q": "Find the square root of 1764 using the prime factorisation method. Show all steps.",
+     "a": "Step 1: Prime factorise 1764. \\( 1764 = 2 \\times 882 = 2 \\times 2 \\times 441 = 2^2 \\times 3 \\times 147 = 2^2 \\times 3 \\times 3 \\times 49 = 2^2 \\times 3^2 \\times 7^2 \\).\nStep 2: Pair the prime factors: \\( (2 \\times 2) \\times (3 \\times 3) \\times (7 \\times 7) \\).\nStep 3: Take one factor from each pair: \\( 2 \\times 3 \\times 7 = 42 \\).\nStep 4: Verify: \\( 42^2 = 1764 \\). So \\( \\sqrt{1764} = 42 \\).\nA wrong answer like 21 (taking only one factor from each pair but missing a pair) or 84 (not pairing correctly) reveals errors in pairing or in prime factorisation itself.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the square roots of 256 and 625. Without calculating the exact square roots, how can you tell which one is larger? Explain using the properties of perfect squares.",
+     "a": "Since both are perfect squares and the square root function is increasing for positive numbers, the larger perfect square has the larger square root. 625 > 256, so \\( \\sqrt{625} > \\sqrt{256} \\). Alternatively, note the number of digits: 256 is a 3-digit perfect square, its square root is 2-digit (since \\( 10^2=100, 31^2=961 \\)). 625 is also 3-digit, but closer to 900 (\\( 30^2 \\)) so its root is larger. A student who cannot compare without calculating lacks understanding of the monotonic nature of the squaring function.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved \\( \\sqrt{441} \\) as follows: \\( 441 = 3 \\times 147 = 3 \\times 3 \\times 49 = 3^2 \\times 7^2 \\). Then they wrote \\( \\sqrt{441} = 3 \\times 7 = 21 \\). Is this solution correct? If not, identify the error.",
+     "a": "The solution is correct in result (21) but the factorisation shown is incomplete: \\( 441 = 3 \\times 147 = 3 \\times 3 \\times 49 = 3^2 \\times 7^2 \\) is correct. However, the student missed showing that 49 = 7 × 7 explicitly, but the final pairing is correct. If a student says it's incorrect because \"49 is not prime\", they misunderstand that factorisation can stop at perfect square factors. The error would be if they wrote \\( 441 = 3 \\times 147 = 3 \\times 3 \\times 49 = 3^2 \\times 7 \\) (missing the second 7). A wrong judgment here reveals the student thinks every step must break down to primes immediately, not recognizing that 49 is a perfect square.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem for a Class 8 student that requires finding the square root of a 4-digit perfect square. The problem must involve a real-life measurement (area, length, etc.) and have a clear question.",
+     "a": "Example: \"A square playground has an area of 3136 square metres. The school wants to paint a line along the diagonal. What is the length of one side of the playground?\" (Answer: \\( \\sqrt{3136} = 56 \\) metres). A poor problem would be \"Find \\( \\sqrt{3136} \\)\" (no context) or using a non-perfect square like 3000 (which requires estimation, not exact root). This tests if the student can contextualise the operation and choose an appropriate perfect square.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

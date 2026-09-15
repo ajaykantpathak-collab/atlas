@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_01_001",
+   "title": "c11_psy_cbse_01_001",
+   "questions": [
+    {
+     "q": "Define psychology as a scientific discipline and name its three core subject matters as per the formal definition used in Class 11 NCERT.",
+     "a": "Psychology is the scientific discipline that studies mental processes, experiences, and behaviour in different contexts using systematic methods from biological and social sciences. A wrong answer that omits \"experiences\" or \"mental processes\" and only mentions \"behaviour\" reveals the student is conflating psychology with behaviourism (a later historical school) or equating it with common-sense observation of actions only.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why \"experiences\" are considered subjective and internal, and give one example where the same external situation produces different experiences for two people.",
+     "a": "Experiences are subjective because only the experiencing person has direct access to them — they are embedded in personal awareness/consciousness and cannot be directly observed by others. Example: Two students taking the same difficult exam; one experiences anxiety and dread, the other experiences excitement and challenge. A wrong answer that describes experiences as \"observable reactions\" or \"behaviours\" reveals confusion between covert internal states and overt responses.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher measures brain activity (fMRI) while participants solve math problems. The researcher claims \"brain activity IS the mental process of problem-solving.\" Using the NCERT distinction, evaluate this claim and explain the correct relationship.",
+     "a": "The claim is incorrect. NCERT states: \"Mental activities and neural activities are mutually overlapping processes but they are not identical.\" Brain activity provides clues about mental processes but consciousness of experience is more than neural activity. A wrong answer agreeing with the claim reveals the reductionist misconception that mind = brain, ignoring the emergent, non-physical nature of mental processes described in the textbook.",
+     "self_check": true
+    },
+    {
+     "q": "Compare psychology as a natural science vs. psychology as a social science on: (a) primary assumption about causes of behaviour, (b) research aim, (c) type of data emphasised.",
+     "a": "(a) Natural science: assumes behaviour has discoverable biological/physical causes under controlled conditions; Social science: assumes multiple causes from person-sociocultural interaction. (b) Natural science: seeks cause-effect for prediction and control; Social science: seeks understanding of meaning in context. (c) Natural science: quantitative, controlled, objective; Social science: qualitative, contextual, includes subjectivity. A wrong answer that treats them as identical or swaps the aims reveals failure to grasp the epistemological divide central to the discipline's dual identity.",
+     "self_check": true
+    },
+    {
+     "q": "\"Common sense says: 'Absence makes the heart grow fonder.' Psychology as a science would reject this as a valid explanation. Critique this statement using the Dweck (1975) study described in NCERT.\"",
+     "a": "Common sense relies on hindsight — it explains behaviour AFTER it occurs using contradictory proverbs (\"out of sight, out of mind\" vs \"absence makes heart grow fonder\"). Dweck's study tested a common-sense prediction (easy problems boost confidence → better persistence) and found the opposite: children given only easy problems gave up FASTER when facing failure than those trained to attribute failure to effort. Psychology seeks predictive patterns, not post-hoc rationalisations. A wrong answer defending the proverb as \"psychological truth\" reveals the hindsight bias misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Create an original real-life scenario involving all three subject matters (mental process, experience, behaviour) and label each component. The scenario must show how they interact, not just co-occur.",
+     "a": "Example: \"A student hears a fire alarm (stimulus) → mental process: attention shifts, memory retrieves evacuation route, decision-making selects exit → experience: sudden fear, urgency, heightened awareness → behaviour: overt — runs toward exit; covert — heart pounds, muscles tense.\" A poor answer lists three unrelated examples (e.g., \"thinking, feeling, running\") without showing the causal chain from stimulus through mental process and experience to behaviour, revealing failure to understand their dynamic interdependence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

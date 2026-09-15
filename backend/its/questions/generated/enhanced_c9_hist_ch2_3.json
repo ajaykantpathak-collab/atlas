@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_hist_ch2_3",
+ "concepts": [
+  {
+   "id": "enh:c9_hist_ch2_3",
+   "title": "c9_hist_ch2_3",
+   "questions": [
+    {
+     "q": "Name the three sub-phases of the Palaeolithic Period in chronological order and give one characteristic tool type for each phase found in the Indian subcontinent.",
+     "a": "Lower Palaeolithic (handaxes/cleavers), Middle Palaeolithic (scrapers/points on flakes), Upper Palaeolithic (blades/burins). A wrong answer (e.g., listing microliths for Upper Palaeolithic or missing Middle Palaeolithic) reveals the student cannot distinguish the Indian sequence from the European one or conflates Palaeolithic with later periods.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Lower Palaeolithic humans in India prefer quartzite for making handaxes and cleavers, even though flint was available in some regions?",
+     "a": "Quartzite is abundant in peninsular river gravels (e.g., Hunsgi, Attirampakkam) and tough enough for heavy-duty butchery; flint is rarer in the south. A wrong answer citing \"flint is sharper\" shows the student ignores raw material availability – a key factor in Indian Palaeolithic technology – and applies a European flint-centric model inappropriately.",
+     "self_check": true
+    },
+    {
+     "q": "An archaeologist finds a layer with Levallois flakes and side-scrapers but no handaxes at a site near the Narmada Valley. Which Palaeolithic sub-phase does this represent, and what does the absence of handaxes suggest about the site's function?",
+     "a": "Middle Palaeolithic; the absence of handaxes suggests a specialized activity site (e.g., butchery or tool maintenance) rather than a base camp where large cores were reduced. A wrong answer identifying it as Upper Palaeolithic (due to \"advanced\" flakes) reveals confusion between Levallois technique (Middle) and blade technology (Upper) and misses the functional interpretation of tool assemblages.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the subsistence strategies implied by Lower Palaeolithic Acheulean sites (e.g., Attirampakkam) and Upper Palaeolithic sites (e.g., Bhimbetka III-F-23). What environmental change best explains the shift?",
+     "a": "Lower: large-game hunting/scavenging with heavy tools in open grasslands; Upper: diversified hunting (small game, fish), plant processing, and symbolic behavior in patchy forests. The shift correlates with the Last Glacial Maximum (c. 20,000 BCE) fragmenting habitats. A wrong answer attributing change solely to \"better brains\" ignores the climate-driven ecological restructuring documented in Indian pollen records.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The rock art at Bhimbetka proves Upper Palaeolithic humans in India had fully modern language and religion.\" Use archaeological evidence to support your judgment.",
+     "a": "The claim overreaches. Art indicates symbolic capacity, but language and religion leave no direct fossil evidence. Comparable art appears in Middle Palaeolithic contexts globally (e.g., Blombos Cave). A stronger answer notes art + ochre use + burial at Bhimbetka suggests complex culture, but \"fully modern language\" is inferred, not proven. A wrong answer accepting the claim uncritically shows inability to distinguish evidence from inference – a board-level source-analysis error.",
+     "self_check": true
+    },
+    {
+     "q": "Create a three-column table comparing Lower, Middle, and Upper Palaeolithic tool kits in India. For each phase, list: (a) dominant raw material, (b) key tool types, (c) inferred primary activity, and (d) a representative Indian site.",
+     "a": "A good table shows: Lower – quartzite, handaxe/cleaver, large-mammal butchery, Attirampakkam; Middle – chert/quartzite, Levallois flakes/scrapers, hide/wood working, Hunsgi; Upper – chert/chalcedony, blades/burins, composite tools/art, Bhimbetka. A poor table copies European types (e.g., \"Solutrean laurel leaf\") or omits raw material, revealing rote memorization without understanding Indian geological constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_05_008",
+   "title": "c11_psy_cbse_05_008",
+   "questions": [
+    {
+     "q": "Define latent learning and state one way it differs from operant conditioning in terms of the role of reinforcement.",
+     "a": "Latent learning is learning that occurs without immediate reinforcement and is not demonstrated until reinforcement is provided. In operant conditioning, reinforcement is necessary *during* acquisition to strengthen the response; in latent learning, reinforcement is only needed to *reveal* what has already been learned. A wrong answer that says \"latent learning requires no reinforcement at all\" reveals the misconception that reinforcement plays no role, missing the critical distinction between acquisition and performance.",
+     "self_check": true
+    },
+    {
+     "q": "In Tolman's experiment, the non-rewarded group of rats showed no improvement in maze-running errors for the first 10 days. On Day 11, food was introduced at the goal box, and their errors dropped sharply to match the rewarded group. Explain why this pattern supports the idea of a cognitive map rather than simple S-R habit formation.",
+     "a": "The sudden performance improvement without additional practice trials indicates the rats had already acquired a mental representation of the maze (cognitive map) during the unrewarded exploration. If learning were purely S-R habit formation (as in operant conditioning), the non-rewarded group would need many reinforced trials to strengthen the correct response chain. A wrong answer attributing the drop to \"sudden motivation\" or \"insight\" misses the point that the *knowledge* was already present; reinforcement merely triggered its *use*.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Latent learning proves that reinforcement is unnecessary for learning.\" Using Tolman's experimental design, evaluate this claim and correct the misunderstanding.",
+     "a": "The claim is partially correct but incomplete. Tolman's design shows reinforcement is unnecessary for *acquisition* (the non-rewarded rats learned the maze layout), but reinforcement *is* necessary for *performance* (the rats only ran efficiently after food was introduced). The two-group design (rewarded from Day 1 vs. rewarded from Day 11) isolates this dissociation. A student who agrees without qualification fails to see that latent learning demonstrates a *separation* of learning and performance, not the irrelevance of reinforcement.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast Kohler's insight learning (chimpanzees) and Tolman's latent learning (rats) on three dimensions: (a) the role of sudden restructuring vs. gradual map-building, (b) the necessity of reinforcement during acquisition, and (c) the type of problem solved (tool-use vs. spatial navigation).",
+     "a": "(a) Insight learning involves sudden \"aha\" restructuring of the problem field; latent learning involves gradual, incidental accumulation of spatial information during exploration. (b) Neither requires reinforcement during acquisition — Kohler's chimps solved problems without reward; Tolman's rats explored without reward. (c) Insight learning typically addresses tool-use or obstacle problems requiring novel means-end coordination; latent learning addresses spatial navigation requiring a mental map of routes. A wrong answer that equates the two as \"both cognitive\" misses the mechanistic difference: insight is restructuring; latent learning is representation-building.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement from a textbook: \"Tolman's cognitive map is just a metaphor; the rats simply learned a chain of S-R associations (turn left at A, turn right at B) during exploration, and reinforcement chained them together on Day 11.\" Use experimental evidence to defend or refute.",
+     "a": "Refute. A simple S-R chain cannot explain *flexible* navigation. In later Tolman-Honzik experiments (beyond NCERT but conceptually relevant), rats that learned a maze with a blocked path immediately chose the next shortest route — they did not perseverate on the learned S-R chain. This \"detour behaviour\" proves the map encodes *spatial relationships* (distances, directions), not just response sequences. A student who accepts the statement confuses *latent S-R learning* (which Hull proposed) with *cognitive mapping* (Tolman's claim).",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-life latent learning scenario for a Class 11 student that does NOT involve mazes or rats. Specify: (a) the exploration phase (no reinforcement), (b) the incentive introduction, (c) the predicted performance jump, and (d) why this demonstrates a cognitive map, not habit.",
+     "a": "(a) A student cycles to school daily via the main road, casually noticing side lanes and shortcuts but never using them (no reinforcement for shortcuts). (b) One day, the main road is flooded (incentive: avoid delay). (c) The student immediately takes a shortcut through side lanes, reaching school faster. (d) This shows a cognitive map because the student *flexibly recombines* known paths into a novel route — not a fixed habit chain. A poor answer describes rote memorisation of one shortcut, missing the *generative* nature of map-based navigation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

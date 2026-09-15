@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_02_008",
+   "title": "c11_acc_cbse_02_008",
+   "questions": [
+    {
+     "q": "Define the Full Disclosure Concept and state the legal requirement in India that enforces it for companies.",
+     "a": "Correct answer: Full Disclosure Concept requires all material and relevant facts concerning financial performance to be fully and completely disclosed in financial statements and accompanying footnotes. In India, the Companies Act, 2013 (specifically Schedule III) prescribes the format for financial statements, mandating compulsory disclosure of specified items. SEBI (LODR) Regulations also require listed companies to make additional disclosures.\nWrong answer reveals: If the student only says \"disclose everything\" without mentioning \"material and relevant\" or the legal backing (Companies Act/SEBI), they confuse the concept with a vague transparency ideal and miss the regulatory framework that makes it enforceable.",
+     "self_check": true
+    },
+    {
+     "q": "A company has valued closing stock at cost for five years. In the current year, it switches to \"lower of cost or net realisable value\" (NRV) without disclosure. The accountant argues this is allowed because NRV is more conservative. Is the accountant correct? Explain using the Consistency Concept.",
+     "a": "Correct answer: The accountant is incorrect. The Consistency Concept requires that the same accounting policy be followed from period to period. A change from cost to lower of cost or NRV is a change in accounting policy. While the change may be justified (e.g., alignment with Accounting Standards), it must be disclosed with its financial effect on the current period's profit and, if practicable, on prior periods. Without disclosure, inter-period comparability is destroyed.\nWrong answer reveals: If the student agrees with the accountant, they confuse Conservatism (which supports lower of cost or NRV) with Consistency (which demands uniformity unless change is disclosed). They miss that consistency does not forbid change—it mandates disclosure of change.",
+     "self_check": true
+    },
+    {
+     "q": "XYZ Ltd. has a contingent liability of ₹10 crore for a pending tax dispute. The directors believe the chance of losing is \"possible but not probable.\" Under the Full Disclosure Concept, how should this be treated in the financial statements for the year ended 31st March 2024?",
+     "a": "Correct answer: Since the liability is \"possible but not probable,\" it does not meet the recognition criteria for a provision (which requires \"probable\" outflow). However, under Full Disclosure, it must be disclosed in the Notes to Accounts as a contingent liability, with a brief description of the nature of the dispute, the estimated financial effect (₹10 crore), and the uncertainty involved. It should NOT appear on the face of the Balance Sheet.\nWrong answer reveals: If the student says \"record as a provision\" or \"ignore it,\" they fail to distinguish between recognition (balance sheet) and disclosure (notes). They also miss the materiality threshold—₹10 crore is likely material and must be disclosed even if not recognised.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of Full Disclosure and Consistency in achieving the qualitative characteristic of \"Comparability\" in financial statements. Give one example where both concepts interact.",
+     "a": "Correct answer: Full Disclosure ensures that all information affecting comparability (e.g., accounting policies used, changes therein, contingent liabilities) is available to the user. Consistency ensures that the same policies are applied period after period so that the numbers are generated on a uniform basis. Example interaction: A company changes its revenue recognition policy from \"percentage of completion\" to \"completed contract\" for long-term contracts. Consistency is violated unless the change is disclosed. Full Disclosure requires the note to explain the change, reason, and quantify its effect on current and prior period revenue and profit. Without both, the user cannot compare revenue trends.\nWrong answer reveals: If the student treats them as interchangeable or only defines them separately, they miss the synergy: Consistency provides the stable measuring stick; Full Disclosure tells the user when the stick has changed length.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The Consistency Concept prohibits a company from ever changing its accounting policies.\" Provide a real-world scenario where a change is not only allowed but required, and state the disclosure needed.",
+     "a": "Correct answer: The statement is false. Consistency does not prohibit change; it requires that changes be made only when required by law, accounting standard, or for more appropriate presentation. Example: Transition to Ind AS 115 (Revenue from Contracts with Customers) mandated a change in revenue recognition for many companies. Disclosure required: nature of change, reason, transitional provisions applied, and effect on each financial statement line item and EPS for current and prior periods (as per Ind AS 8).\nWrong answer reveals: If the student says \"consistency means never change,\" they have a rigid, rule-based misunderstanding. They fail to grasp that accounting evolves and the concept accommodates improvement—provided transparency (Full Disclosure) is maintained.",
+     "self_check": true
+    },
+    {
+     "q": "Create a short case (3-4 sentences) where a violation of BOTH Full Disclosure and Consistency occurs simultaneously. Describe the misleading impression created and the correct treatment.",
+     "a": "Expected answer: Case: \"Alpha Ltd. has used Straight-Line Method (SLM) for depreciation for 10 years. In Year 11, to show higher profit, it switches to Written-Down Value (WDV) method without any note disclosure. It also fails to disclose a ₹50 lakh bank guarantee given for a subsidiary's loan.\" Misleading impression: Profit appears higher due to lower depreciation charge (WDV front-loads expense), and the contingent liability is hidden, overstating financial health. Correct treatment: Disclose the change in depreciation method, reason, and its effect on profit (e.g., \"Profit would have been ₹X lower under SLM\"). Disclose the bank guarantee as a contingent liability in notes.\nPoor answer reveals: If the student cannot craft a scenario combining a policy change without disclosure AND a hidden contingent item, they cannot synthesise the two concepts in practice. They may treat them as isolated definitions rather than interlocking safeguards.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,357 @@
+---
+- formula_id: DRM_PAT_001
+  name: arithmetic_progression
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - arithmetic_progression
+  related_formulas: []
+  source: dream_app/_solution_patterns.json
+  pattern: 'find the <num>th term of the ap: <num>, <num>, <num>, <num>, ...'
+  original_question: 'Find the 15th term of the AP: 3, 7, 11, 15, ...'
+- formula_id: DRM_PAT_002
+  name: matrix_power
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - matrix_power
+  related_formulas: []
+  source: dream_app/_solution_patterns.json
+  pattern: if a = <matrix>, find a^<num>.
+  original_question: If A = [[2, 0], [0, 3]], find A^2.
+- formula_id: DRM_PAT_003
+  name: probability
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - probability
+  related_formulas: []
+  source: dream_app/_solution_patterns.json
+  pattern: a bag contains <num> red and <num> blue balls. if <num> balls are drawn
+    at random without replacement, find the probability of getting exactly one red
+    ball.
+  original_question: A bag contains 5 red and 3 blue balls. If 3 balls are drawn at
+    random without replacement, find the probability of getting exactly one red ball.
+- formula_id: DRM_PAT_004
+  name: quadratic
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - quadratic
+  related_formulas: []
+  source: dream_app/_solution_patterns.json
+  pattern: solve x^<num> - <num>x + <num> = <num>.
+  original_question: Solve x^2 - 7x + 12 = 0.
+- formula_id: DRM_PAT_005
+  name: integration
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - integration
+  related_formulas: []
+  source: dream_app/_solution_patterns.json
+  pattern: evaluate the integral of <expr> dx.
+  original_question: Evaluate the integral of (3*cosec(x)^5 - 5*sin(x)^3) dx.
+- formula_id: DRM_PAT_006
+  name: integration
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - integration
+  related_formulas: []
+  source: dream_app/_solution_patterns.json
+  pattern: evaluate the integral of <expr> dx from <num> to pi.
+  original_question: Evaluate the integral of e^cos(x)/(e^cos(x) + e^(-cos(x))) dx
+    from 0 to pi.
+- formula_id: DRM_PAT_007
+  name: differentiation
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - differentiation
+  related_formulas: []
+  source: dream_app/_solution_patterns.json
+  pattern: find the derivative of sin(x^<num>) with respect to x.
+  original_question: Find the derivative of sin(x^3) with respect to x.
+- formula_id: DRM_PAT_008
+  name: differentiation
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - differentiation
+  related_formulas: []
+  source: dream_app/_solution_patterns.json
+  pattern: find the derivative of log(cos(x)) with respect to x.
+  original_question: Find the derivative of log(cos(x)) with respect to x.
+- formula_id: DRM_PAT_009
+  name: differentiation
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - differentiation
+  related_formulas: []
+  source: dream_app/_solution_patterns.json
+  pattern: if y = <expr>, find dy/dx.
+  original_question: If y = x^x, find dy/dx.
+- formula_id: DRM_PAT_010
+  name: tangent_normal
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - tangent_normal
+  related_formulas: []
+  source: dream_app/_solution_patterns.json
+  pattern: find the equation of the tangent to the curve y = <expr> the point x =
+    <num>.
+  original_question: Find the equation of the tangent to the curve y = x^3 - 3x +
+    2 at the point x = 1.
+- formula_id: DRM_PAT_011
+  name: matrix
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - matrix
+  related_formulas: []
+  source: dream_app/_solution_patterns.json
+  pattern: if a = <matrix>, find the determinant of a.
+  original_question: If A = [[1, 2], [3, 4]], find the determinant of A.
+- formula_id: DRM_PAT_012
+  name: differential_equation
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - differential_equation
+  related_formulas: []
+  source: dream_app/_solution_patterns.json
+  pattern: solve the differential equation dy/dx + <num>y = <expr>.
+  original_question: Solve the differential equation dy/dx + 3y = e^(-3x).
+- formula_id: DRM_PAT_013
+  name: integration
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - integration
+  related_formulas: []
+  source: dream_app/_solution_patterns.json
+  pattern: find the area bounded by the curve y = <expr>, the x-axis and the ordinates
+    x = <num> and x = pi.
+  original_question: Find the area bounded by the curve y = sin(x), the x-axis and
+    the ordinates x = 0 and x = pi.
+- formula_id: DRM_PAT_014
+  name: hcf_lcm
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - hcf_lcm
+  related_formulas: []
+  source: dream_app/_solution_patterns.json
+  pattern: find the hcf of <num>, <num> and <num> using euclids algorithm.
+  original_question: Find the HCF of 84, 120 and 168 using Euclids algorithm.
+- formula_id: DRM_PAT_015
+  name: profit_loss
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - profit_loss
+  related_formulas: []
+  source: dream_app/_solution_patterns.json
+  pattern: an item is listed at rs. <num> with a <num>% discount and <num>% gst. find
+    the final price.
+  original_question: An item is listed at Rs. 5000 with a 20% discount and 18% GST.
+    Find the final price.
+- formula_id: DRM_PAT_016
+  name: increasing_decreasing
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - increasing_decreasing
+  related_formulas: []
+  source: dream_app/_solution_patterns.json
+  pattern: find the intervals in which f(x) = <expr> is increasing.
+  original_question: Find the intervals in which f(x) = x^3 - 6x^2 + 9x + 5 is increasing.
+- formula_id: DRM_PAT_017
+  name: linear_system
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - linear_system
+  related_formulas: []
+  source: dream_app/_solution_patterns.json
+  pattern: solve the system of equations x + y + z = <num>, <num>x - y + z = <num>,
+    x + <num>y - z = <num>.
+  original_question: Solve the system of equations x + y + z = 6, 2x - y + z = 3,
+    x + 2y - z = 2.
+- formula_id: DRM_PAT_018
+  name: ''
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - ''
+  related_formulas: []
+  source: dream_app/_solution_patterns.json
+  pattern: calculate the pressure of <num> moles of gas at <num>k in a <num>l container
+    using pv=nrt
+  original_question: Calculate the pressure of 2 moles of gas at 300K in a 10L container
+    using PV=nRT
+- formula_id: DRM_PAT_019
+  name: chem_gas
+  latex: ''
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  chapter: ''
+  subject: mathematics
+  concept_tags:
+  - chem_gas
+  related_formulas: []
+  source: dream_app/_solution_patterns.json
+  pattern: find pressure
+  original_question: Find pressure

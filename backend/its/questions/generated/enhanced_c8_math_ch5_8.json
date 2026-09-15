@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch5_8",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch5_8",
+   "title": "c8_math_ch5_8",
+   "questions": [
+    {
+     "q": "State the divisibility rule for 9 and give an example of a 3-digit number that is divisible by 9.",
+     "a": "Rule: A number is divisible by 9 if the sum of its digits is a multiple of 9. Example: 234 (2+3+4=9). If a student gives a rule like \"last digit is 9\" or gives an example like 109 (sum=10), they confuse the rule for 9 with the rule for 5 or 10, or they don't understand that the sum must be a multiple of 9, not just any sum.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the divisibility test for 3 work? Explain using the number 471 as an illustration.",
+     "a": "Because 10 = 9+1, 100 = 99+1, etc., so any power of 10 leaves remainder 1 when divided by 3. Thus 471 = 4×100 + 7×10 + 1 ≡ 4×1 + 7×1 + 1 = 12 (mod 3). Since 12 is divisible by 3, 471 is divisible by 3. If a student says \"because 4+7+1=12 and 12 is in the 3 times table\" without linking to place value, they recall the procedure but not the underlying reason. If they say \"because 471 ends with 1\", they confuse the rule for 2/5/10.",
+     "self_check": true
+    },
+    {
+     "q": "Check whether 6,840 is divisible by 2, 3, 5, 9, and 10. Show your reasoning for each.",
+     "a": "- Divisible by 2? Last digit 0 (even) → Yes.\n- Divisible by 3? Sum = 6+8+4+0 = 18, 18÷3=6 → Yes.\n- Divisible by 5? Last digit 0 → Yes.\n- Divisible by 9? Sum = 18, 18÷9=2 → Yes.\n- Divisible by 10? Last digit 0 → Yes.\nAll five tests pass. If a student says \"No for 9 because 18 is not 9\", they have the misconception that the sum must equal 9 exactly, not just be a multiple of 9. If they forget to check 10 separately, they may not realize 10 requires last digit 0 specifically.",
+     "self_check": true
+    },
+    {
+     "q": "A 4-digit number 5 _ 7 2 is divisible by 3 but NOT by 9. What are the possible digits for the blank? Explain your reasoning.",
+     "a": "Let the missing digit be x. Sum = 5+x+7+2 = 14+x. For divisibility by 3, 14+x must be a multiple of 3: possible sums 15, 18, 21, 24 → x = 1, 4, 7. But it must NOT be divisible by 9, so sum cannot be 18 (which would make it divisible by 9). Thus x ≠ 4. Possible digits: 1 or 7. If a student gives x=4 as an answer, they only checked divisibility by 3 and missed the \"not by 9\" condition. If they say x=1,4,7 all work, they didn't apply the \"not divisible by 9\" constraint.",
+     "self_check": true
+    },
+    {
+     "q": "Ravi says: \"If a number is divisible by 3 and 5, it must be divisible by 15.\" Is he correct? Justify your answer using divisibility rules.",
+     "a": "Ravi is correct. Divisible by 5 → last digit 0 or 5. Divisible by 3 → sum of digits multiple of 3. For divisibility by 15, we need both conditions because 15 = 3×5 and 3,5 are co-prime. Example: 30 (last digit 0, sum=3) is divisible by 15. Counterexample if not co-prime: divisible by 2 and 4 doesn't guarantee divisibility by 8. If a student says \"No, because 3×5=15 but you need to check divisibility by 15 directly\", they don't understand the co-prime factor rule. If they say \"Yes, because 3 and 5 are factors of 15\", they have the right conclusion but incomplete justification (must mention co-prime).",
+     "self_check": true
+    },
+    {
+     "q": "Create a 5-digit number that is divisible by 2, 3, 5, 9, and 10 simultaneously. Explain how you constructed it.",
+     "a": "To be divisible by 2,5,10 → last digit must be 0. To be divisible by 9 → sum of digits must be a multiple of 9. Since divisible by 9 implies divisible by 3, we only need to satisfy 9 and 10. Choose digits that sum to 9, 18, 27, etc., with last digit 0. Example: 10,080 (sum=9, last digit 0). Construction: pick first four digits summing to a multiple of 9, append 0. If a student creates a number ending in 5, they forgot that divisibility by 2 and 10 forces last digit 0. If they create a number like 12,340 (sum=10), they didn't ensure the sum is a multiple of 9.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

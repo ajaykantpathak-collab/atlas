@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_02_004",
+   "title": "c12_hist_cbse_02_004",
+   "questions": [
+    {
+     "q": "Who is traditionally identified as the author of the Arthashastra, and what position did he hold in the Mauryan court?",
+     "a": "The Arthashastra is traditionally attributed to Kautilya (also called Chanakya or Vishnugupta), who is identified as the chief minister (*mantrin*) of Chandragupta Maurya. A wrong answer — such as naming Asoka or Megasthenes as the author — reveals confusion between the *textual source* (Arthashastra), the *epigraphic source* (Asokan inscriptions), and the *foreign account* (Megasthenes' Indika), indicating the student cannot distinguish the three major source categories for Mauryan history.",
+     "self_check": true
+    },
+    {
+     "q": "The Arthashastra describes a six-subcommittee system for military coordination. Megasthenes also mentions a similar six-fold committee. Why might historians be cautious about treating this similarity as proof that the Arthashastra accurately describes Mauryan practice?",
+     "a": "Historians are cautious because the Arthashastra may have been compiled centuries after the Mauryan period (possibly as late as 3rd century CE), and the similarity could reflect later authors projecting an idealised administrative model onto the Mauryan past. A wrong answer that treats the textual match as direct confirmation reveals a failure to understand the *chronological gap* between the Mauryan era (c. 321–185 BCE) and the Arthashastra's final redaction, and the distinction between *prescriptive* texts (how things should be) and *descriptive* evidence (how things were).",
+     "self_check": true
+    },
+    {
+     "q": "Source 2 in the NCERT text describes the procedure for capturing elephants using female elephants to tether wild ones, tracking herds by urine and dung. If you were verifying this against archaeological or inscriptional evidence, what specific type of evidence would you look for, and why might it be absent?",
+     "a": "You would look for: (a) elephant remains or stables at Mauryan sites like Pataliputra, (b) inscriptions mentioning elephant forests (*hastivana*) or officials like *hastyadhyaksha* (superintendent of elephants), (c) depictions of war elephants in Mauryan art (e.g., the Dhauli elephant). Such evidence might be absent because organic materials decay, inscriptions focus on royal propaganda not operational manuals, and the Arthashastra's detail may reflect theoretical elaboration rather than standard practice. A student who says \"we have the text so it must be true\" misses the historian's obligation to cross-verify prescriptive texts with material evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Arthashastra's vision of a centralised bureaucratic state (with superintendents for everything from gold to prostitutes) with the picture emerging from Asokan inscriptions of *dhamma mahamattas* and *pativedakas*. What does this comparison reveal about the difference between *normative theory* and *imperial ideology* in Mauryan governance?",
+     "a": "The Arthashastra presents a *control-oriented* bureaucracy focused on revenue extraction, surveillance, and military readiness — a \"police state\" model. Asoka's inscriptions reveal a *welfare-oriented* ideology where officials propagate *dhamma* (ethical conduct), report on people's welfare, and ensure justice. This contrast shows that the Arthashastra captures the *structural machinery* of the state, while Asoka redefines the *moral purpose* of that machinery. A student who sees only \"administration\" in both misses the ideological shift from *artha* (material interest) to *dhamma* (ethical governance) that defines Asoka's unique kingship.",
+     "self_check": true
+    },
+    {
+     "q": "Some historians argue the Arthashastra was composed largely in the post-Mauryan period (c. 2nd century BCE – 3rd century CE) because it reflects conditions of a later, more complex state society. Evaluate this argument using three pieces of internal evidence from the text's content.",
+     "a": "Three internal indicators of a later date: (1) The text mentions *gold coins* (suvarna) as standard currency, but the Mauryas used primarily punch-marked silver/copper coins; gold coinage becomes common only with the Kushanas (1st century CE). (2) It describes a developed *guild (shreni)* system with corporate rights, which epigraphic evidence shows flourishes from the 2nd century BCE onward (e.g., at Sanchi, Mathura). (3) It references *sangha* (corporate polities) in a way that matches post-Mauryan *gana-sanghas* like the Yaudheyas and Malavas, not the pre-Mauryan *mahajanapada* oligarchies. A student who cannot cite specific anachronisms demonstrates inability to use *internal textual criticism* for dating — a core skill for competitive exams like CUET.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a historian's argument (150 words) on whether the Arthashastra should be read as a \"Mauryan document\" or a \"text on Mauryan-style kingship.\" Use the concepts of *prescriptive vs descriptive sources*, *textual layers*, and *epigraphic corroboration*.",
+     "a": "A strong answer will argue: The Arthashastra is a *stratified text* — its core may reflect Mauryan administrative experience (e.g., the six military boards matching Megasthenes), but later layers (e.g., gold coinage, developed guild law) reflect post-Mauryan realities. As a *prescriptive* text, it articulates an *ideal type* of kingship (the *raja-mandala*, the *saptanga* state) that real rulers approximated selectively. Epigraphic evidence (Asokan edicts, land grants) confirms some institutions (district officers, revenue terms) but contradicts others (no mention of *dhamma mahamattas*, no espionage network described). Therefore, it is a \"text on Mauryan-style kingship\" — a theoretical template that shaped later Indian political thought (Guptas, Cholas) more than it documents Chandragupta's actual court. A weak answer treats the text as a unitary, historically transparent window into the Mauryan state.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

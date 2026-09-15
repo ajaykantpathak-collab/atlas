@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_07_005",
+   "title": "c11_bio_cbse_07_005",
+   "questions": [
+    {
+     "q": "Name the common frog species found in India and state the term for its ability to change skin colour for camouflage.",
+     "a": "The common Indian frog is Rana tigrina. Its protective coloration for camouflage is called mimicry. A wrong answer (e.g., \"Rana temporaria\" or \"metamorphosis\") reveals confusion between species nomenclature and between camouflage adaptation (mimicry) and developmental transformation (metamorphosis).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a frog's skin always remains moist and how this relates to its respiratory physiology.",
+     "a": "Frog skin stays moist due to mucus glands (epithelial tissue) secreting mucus; this moisture is essential because the highly vascularized skin acts as a respiratory surface (cutaneous respiration) where dissolved oxygen diffuses directly into blood capillaries. A wrong answer (e.g., \"moisture prevents dehydration only\") shows failure to link the structural feature (mucus glands) to the physiological function (gas exchange) across two organ systems (integumentary and respiratory).",
+     "self_check": true
+    },
+    {
+     "q": "A frog is placed in a dry terrestrial environment during peak summer. Predict its behavioural and physiological response, naming the specific term for this state.",
+     "a": "The frog will burrow into deep soil and enter a dormant state called aestivation (summer sleep). During this period, metabolic rate drops drastically, and gas exchange occurs solely through the moist skin (cutaneous respiration) since lungs are inactive. A wrong answer (e.g., \"hibernation\" or \"frog drinks water\") confuses summer dormancy with winter dormancy (hibernation) and ignores the frog's unique water absorption through skin (not drinking).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the structure and function of forelimbs vs hindlimbs in frog, relating each to the type of muscular tissue and skeletal adaptation involved.",
+     "a": "Forelimbs: shorter, four digits, less muscular – used for body support, shock absorption during landing, and burrowing; contain striated muscle attached to smaller bones. Hindlimbs: longer, five webbed digits, highly muscular – used for swimming (webbed feet push water), leaping, and walking; contain larger masses of striated muscle attached to elongated femur/tibiofibula for powerful extension. A wrong answer (e.g., \"both limbs same\") misses the division of labour between limbs reflecting different mechanical demands (burrowing vs propulsion).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Frogs respire only through lungs on land and only through skin in water.\" Is it fully correct? Justify.",
+     "a": "The statement is incorrect. On land, frogs use three respiratory organs simultaneously: buccal cavity (buccopharyngeal respiration), skin (cutaneous), and lungs (pulmonary). In water, skin is primary but buccal cavity also participates. During aestivation/hibernation, only skin functions. A wrong evaluation (accepting the statement) reveals oversimplification of frog's multimodal respiratory strategy and ignorance of buccopharyngeal respiration.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple observation experiment to demonstrate sexual dimorphism in frogs during breeding season, specifying which external features you would compare and what tissue types underlie those features.",
+     "a": "Collect male and female frogs during monsoon breeding chorus. Compare: (1) Throat region – males have distensible vocal sacs (elastic connective tissue + stratified epithelium) for sound production; females lack these. (2) Forelimb first digit – males have a thickened copulatory pad (keratinized epithelial tissue) for amplexus grip; females have smooth digits. (3) Body size – females often larger due to enlarged ovaries (germinal epithelium). A poor design (e.g., only comparing size) misses the specific tissue-level adaptations (vocal sac elasticity, keratinized pad) directly linked to reproductive behaviour.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

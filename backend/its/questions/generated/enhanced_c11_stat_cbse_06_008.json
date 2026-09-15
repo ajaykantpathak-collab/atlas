@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_06_008",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_06_008",
+   "title": "c11_stat_cbse_06_008",
+   "questions": [
+    {
+     "q": "What is the formula for the Coefficient of Variation, and what does each symbol represent?",
+     "a": "The formula is CV = (σ / x̄) × 100, where σ is the standard deviation and x̄ is the arithmetic mean. A wrong answer (e.g., CV = σ × x̄ or CV = (x̄ / σ) × 100) reveals confusion between absolute and relative measures, or misunderstanding that CV expresses dispersion as a percentage of the mean.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the Coefficient of Variation considered a relative measure of dispersion, and why can't we compare two datasets using only their standard deviations if their means are different?",
+     "a": "CV is relative because it expresses dispersion as a fraction of the mean, making it unit-free. Standard deviation has the same unit as the data, so comparing σ₁ = 15 kg (mean 50 kg) and σ₂ = 10 kg (mean 30 kg) directly is misleading — the first seems more variable, but relative to its mean, the second is actually more variable (CV₁ = 30%, CV₂ = 33.3%). A wrong answer indicates the student treats standard deviation as comparable across scales without standardization.",
+     "self_check": true
+    },
+    {
+     "q": "Compute the Coefficient of Variation for the following data: 12, 15, 18, 20, 25. Show all steps.",
+     "a": "Step 1: Mean = (12+15+18+20+25)/5 = 90/5 = 18.  \nStep 2: Deviations from mean: -6, -3, 0, 2, 7. Squares: 36, 9, 0, 4, 49. Sum = 98.  \nStep 3: Variance = 98/5 = 19.6. Standard deviation σ = √19.6 ≈ 4.427.  \nStep 4: CV = (4.427 / 18) × 100 ≈ 24.6%.  \nA wrong answer (e.g., using n-1 denominator, or forgetting ×100) reveals gaps in variance computation or confusion between population/sample formulas (Class 11 uses population formula for CV).",
+     "self_check": true
+    },
+    {
+     "q": "Two factories A and B produce light bulbs. Factory A: mean life = 1200 hours, SD = 100 hours. Factory B: mean life = 1000 hours, SD = 80 hours. Which factory has more consistent bulb life? Justify using CV.",
+     "a": "CV_A = (100/1200)×100 = 8.33%. CV_B = (80/1000)×100 = 8%. Since CV_B < CV_A, Factory B has more consistent bulb life. A wrong conclusion (e.g., choosing A because SD is smaller in absolute terms) shows failure to normalize by the mean. The student must recognize that consistency is about relative, not absolute, dispersion.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"If the mean of a dataset is zero, the Coefficient of Variation is zero because there is no dispersion.\" Evaluate this statement.",
+     "a": "The statement is false. CV = (σ / x̄) × 100. If x̄ = 0, the denominator is zero, making CV undefined (division by zero). Zero mean does not imply zero dispersion — the data could be symmetric around zero with large spread. A wrong evaluation reveals misunderstanding of the formula's domain and the difference between mean and dispersion.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where comparing two datasets using Coefficient of Variation is necessary, and explain why absolute measures would fail.",
+     "a": "Example: Comparing price volatility of rice (mean ₹40/kg, SD ₹5) and wheat (mean ₹20/kg, SD ₹3) in a mandi. Absolute SD suggests rice is more volatile (5 > 3), but CV_rice = 12.5%, CV_wheat = 15% → wheat prices are relatively more volatile. A poor answer would use a scenario with same units and similar means (e.g., heights of two groups in cm) where SD comparison suffices, missing the need for CV.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

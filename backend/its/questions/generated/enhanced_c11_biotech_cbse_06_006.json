@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_06_006",
+   "title": "c11_biotech_cbse_06_006",
+   "questions": [
+    {
+     "q": "State the three alleles of the ABO blood group gene and specify the dominance relationship between each pair.",
+     "a": "The three alleles are I<sup>A</sup>, I<sup>B</sup>, and i. I<sup>A</sup> and I<sup>B</sup> are codominant to each other (both express in I<sup>A</sup>I<sup>B</sup> heterozygote), and both are completely dominant over the recessive i allele. A wrong answer (e.g., \"I<sup>A</sup> dominates I<sup>B</sup>\" or \"three alleles in one person\") reveals the student confuses multiple alleles at population level with genotype of an individual, or misunderstands codominance as incomplete dominance.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since there are three alleles for ABO blood group, a person can have three alleles like I<sup>A</sup>I<sup>B</sup>i.\" Explain why this statement is incorrect using the concept of diploidy.",
+     "a": "Humans are diploid (2n), meaning each somatic cell carries two homologous chromosomes – one from each parent. Therefore, an individual can possess only TWO alleles for any autosomal gene (one on each homologue). The three alleles (I<sup>A</sup>, I<sup>B</sup>, i) exist in the POPULATION gene pool, not in a single individual. A wrong answer reveals the student conflates \"multiple alleles in population\" with \"multiple alleles in individual\" – a classic Class 11 error.",
+     "self_check": true
+    },
+    {
+     "q": "A man with blood group A (genotype unknown) marries a woman with blood group B (genotype unknown). They have a child with blood group O. Determine the genotypes of both parents and the probability of their next child having blood group AB.",
+     "a": "Child is ii (Type O), so must inherit i from each parent. Father (Type A) must be I<sup>A</sup>i; Mother (Type B) must be I<sup>B</sup>i. Cross: I<sup>A</sup>i × I<sup>B</sup>i → gametes: I<sup>A</sup>, i and I<sup>B</sup>, i. Punnett square yields 1/4 I<sup>A</sup>I<sup>B</sup> (AB), 1/4 I<sup>A</sup>i (A), 1/4 I<sup>B</sup>i (B), 1/4 ii (O). Probability of AB = 1/4 = 25%. Wrong answer (e.g., 0% or 1/2) indicates failure to deduce parental genotypes from recessive phenotype of child.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the ABO blood group system with Mendel's monohybrid cross (tall/dwarf pea plants) in terms of: (a) number of alleles in population, (b) dominance relationships, (c) phenotypic ratios in F2 from heterozygous parents.",
+     "a": "(a) Mendel: 2 alleles (T, t) in population; ABO: 3 alleles (I<sup>A</sup>, I<sup>B</sup>, i). (b) Mendel: complete dominance (T > t); ABO: codominance (I<sup>A</sup> = I<sup>B</sup>) + complete dominance (I<sup>A</sup>, I<sup>B</sup> > i). (c) Mendel F2 (Tt × Tt): 3 tall : 1 dwarf; ABO F2 (I<sup>A</sup>i × I<sup>B</sup>i): 1 A : 1 B : 1 AB : 1 O (1:1:1:1). Wrong comparison (e.g., saying ABO F2 is 9:3:3:1) shows inability to distinguish multiple alleles from dihybrid crosses.",
+     "self_check": true
+    },
+    {
+     "q": "A forensic report states: \"The alleged father (blood group AB) cannot be the biological father of a child with blood group O.\" Evaluate this claim and justify your conclusion with genetic reasoning.",
+     "a": "The claim is CORRECT. Father is I<sup>A</sup>I<sup>B</sup> (AB) – he can only pass I<sup>A</sup> or I<sup>B</sup> allele. Child is ii (O) – requires i allele from father. Since father has no i allele, he cannot be the biological father. This is a definitive paternity EXCLUSION. A wrong evaluation (e.g., \"possible if mother is O\") reveals misunderstanding that paternity exclusion is absolute when father lacks required allele, regardless of mother's genotype.",
+     "self_check": true
+    },
+    {
+     "q": "Design a genetic counseling scenario for a couple where both parents are heterozygous for ABO (father: I<sup>A</sup>i, mother: I<sup>B</sup>i). Create a complete probability table for their children's blood groups and explain how this information guides blood donation planning for a future sibling with thalassemia requiring regular transfusions.",
+     "a": "Cross: I<sup>A</sup>i × I<sup>B</sup>i → 25% each: Type A (I<sup>A</sup>i), Type B (I<sup>B</sup>i), Type AB (I<sup>A</sup>I<sup>B</sup>), Type O (ii). For thalassemia sibling needing transfusions: Type O is universal donor (no A/B antigens) – safest for recipient with unknown antibodies; Type AB is universal plasma donor. Parents should bank cord blood or identify Type O siblings. Poor answer (e.g., only lists ratios without transfusion logic) shows inability to apply genetics to clinical decision-making.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_04_005",
+   "title": "c11_bio_cbse_04_005",
+   "questions": [
+    {
+     "q": "State the three fundamental features from the basis of classification (symmetry, germ layers, coelom) that apply to Phylum Ctenophora, and give the specific condition for each.",
+     "a": "Ctenophora exhibits radial symmetry, diploblastic germ-layer organisation (ectoderm and endoderm with mesoglea), and is acoelomate (no body cavity between body wall and gut wall). A wrong answer such as \"bilateral symmetry\" or \"triploblastic\" reveals the student is confusing Ctenophora with higher phyla like Platyhelminthes; stating \"coelomate\" or \"pseudocoelomate\" indicates failure to recall that diploblastic animals lack mesoderm and therefore cannot form a true coelom.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the presence of eight rows of ciliated comb plates is a more reliable diagnostic feature for Ctenophora than bioluminescence, even though both are mentioned in the textbook.",
+     "a": "Comb plates are a universal, permanent, structural feature present in all ctenophores and directly linked to their locomotion and phylum name (ctene = comb), whereas bioluminescence, though well-marked, is a physiological property that can vary in intensity, may be absent in some species or life stages, and also occurs in other phyla (e.g., some Cnidaria, Annelida). A student who claims bioluminescence is equally diagnostic confuses a variable physiological trait with a fixed morphological synapomorphy, showing inability to distinguish defining characters from accessory features in taxonomy.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes a transparent, gelatinous, oval marine animal about 2 cm long with eight shimmering rows of cilia running along its body. It captures small crustaceans using sticky tentacles that retract into sheaths. The student identifies it as a cnidarian medusa. Using classification criteria, explain why this identification is incorrect and provide the correct phylum.",
+     "a": "The animal belongs to Phylum Ctenophora, not Cnidaria. Step 1: Eight meridional rows of ciliated comb plates are unique to Ctenophora; cnidarians lack comb plates entirely. Step 2: Prey capture uses colloblasts (adhesive cells) on tentacles, not nematocysts (stinging capsules) — a fundamental difference in cell type and mechanism. Step 3: Ctenophores lack alternation of generations (polyp-medusa cycle) and reproduce only sexually with external fertilisation; the observed animal shows no polyp stage. Step 4: Both are diploblastic and radially symmetrical, so those features cannot distinguish them; the comb plates and colloblasts are the decisive synapomorphies. A student who still calls it a cnidarian is over-relying on superficial \"jellyfish-like\" appearance and ignoring the defining structural differences taught in c11_bio_cbse_04_004.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the digestive processes in Porifera, Cnidaria, and Ctenophora. Identify which phylum shows exclusively intracellular digestion, which shows both extracellular and intracellular, and explain the structural basis for this difference in Ctenophora.",
+     "a": "Porifera: exclusively intracellular digestion (food captured by choanocytes, digested in food vacuoles). Cnidaria: both extracellular (in gastrovascular cavity) and intracellular (in gastrodermal cells). Ctenophora: both extracellular (in branched gastrovascular canals) and intracellular (in canal-lining cells). The structural basis in Ctenophora is the presence of a mouth, pharynx, and a system of branched gastrovascular canals (not a simple sac-like cavity) that increase surface area for extracellular enzyme secretion before nutrients are distributed to cells for intracellular digestion. A student who claims Ctenophora has only intracellular digestion has missed the evolution of a canal system; one who says it has only extracellular digestion ignores that final digestion occurs inside cells — a pattern consistent with tissue-level organisation where true digestive glands are absent.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Ctenophores are more advanced than cnidarians because they have tissue-level organisation, comb plates for locomotion, and a complete digestive system with anal pores.\" Identify which part is correct and which is a factual error according to NCERT.",
+     "a": "The statement contains a factual error: Ctenophora does NOT have a complete digestive system with anal pores; it has an incomplete (sac-like) digestive system where the gastrovascular canals end blindly, and waste is egested mainly through the mouth (some species have temporary anal pores, but NCERT does not describe it as complete). The correct parts: tissue-level organisation (vs cellular in Porifera) and comb plates for locomotion (unique to Ctenophora) are valid advances over Cnidaria. A student who accepts the entire statement uncritically fails to distinguish between \"branched gastrovascular canals\" (incomplete) and a true \"complete digestive system with two permanent openings\" (mouth and anus) which first appears in Platyhelminthes — a key classification milestone in c11_bio_cbse_04_001.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple dichotomous key using only observable features (no internal anatomy) that a marine biology student could use on a beach at night to distinguish among a sponge (Porifera), a jellyfish (Cnidaria), and a comb jelly (Ctenophora). Include bioluminescence as one character.",
+     "a": "A good key:\n1a. Body asymmetrical, porous surface with ostia and osculum, no tentacles or comb rows → Porifera\n1b. Body radially symmetrical, gelatinous, with distinct appendages → go to 2\n2a. Eight shimmering rows of ciliated comb plates running meridionally; bioluminescence often bright blue-green; tentacles (if present) retractile with sticky colloblasts → Ctenophora\n2b. No comb plates; tentacles with nematocysts (stinging); bell-shaped medusa or polyp form; bioluminescence less common → Cnidaria\nA poor key that uses \"presence of bioluminescence\" as the first split fails because some cnidarians also bioluminesce and some ctenophores may not glow visibly; it confuses a variable trait with a reliable morphological character. This reveals the student cannot prioritise taxonomic characters by diagnostic value.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

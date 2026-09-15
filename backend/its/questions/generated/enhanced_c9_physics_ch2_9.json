@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch2_9",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch2_9",
+   "title": "c9_physics_ch2_9",
+   "questions": [
+    {
+     "q": "Write the three equations of motion for uniformly accelerated motion along with the meaning of each symbol and its SI unit.",
+     "a": "The three equations are: (1) v = u + at, (2) s = ut + ½at², (3) v² = u² + 2as. Where u = initial velocity (m/s), v = final velocity (m/s), a = acceleration (m/s²), t = time (s), s = displacement (m). A wrong answer (e.g., writing s = vt or missing the ½ factor) reveals the student has memorized formulas without understanding their derivation from the velocity-time graph and cannot distinguish between constant velocity and accelerated motion formulas.",
+     "self_check": true
+    },
+    {
+     "q": "A student uses v = u + at to find displacement when given u, a, and t. Why is this incorrect? Which equation should they use and why?",
+     "a": "v = u + at relates velocity, acceleration, and time but does NOT contain displacement (s). The student must use s = ut + ½at² because it includes all four variables u, a, t, and the unknown s. A wrong answer reveals the student treats equations as interchangeable recipes rather than understanding each equation connects a specific set of four variables; they lack the strategy of \"match the knowns and unknown to the equation.\"",
+     "self_check": true
+    },
+    {
+     "q": "A scooter moving at 36 km/h applies brakes and stops uniformly in 5 seconds. Calculate (a) the deceleration in m/s², (b) the stopping distance in meters.",
+     "a": "Given: u = 36 km/h = 10 m/s, v = 0, t = 5 s. (a) Use v = u + at → 0 = 10 + a(5) → a = -2 m/s². (b) Use s = ut + ½at² → s = (10×5) + ½(-2)(5)² = 50 - 25 = 25 m. A wrong answer (e.g., a = 2 m/s² without negative sign, or s = 50 m using s = vt) reveals the student ignores sign convention for deceleration or incorrectly uses constant-velocity formula s = vt for accelerated motion.",
+     "self_check": true
+    },
+    {
+     "q": "Two cars A and B start from rest. Car A accelerates at 2 m/s² for 10 s, then moves at constant velocity. Car B accelerates at 4 m/s² for 5 s, then moves at constant velocity. Compare their velocities after 10 s and displacements after 10 s. Which car is ahead at t = 10 s?",
+     "a": "Car A: v_A = 0 + 2×10 = 20 m/s; s_A = 0 + ½×2×10² = 100 m. Car B: accelerates only for 5 s → v_B = 0 + 4×5 = 20 m/s (constant after 5 s); s_B = ½×4×5² + 20×5 = 50 + 100 = 150 m. At t = 10 s, both have same velocity (20 m/s) but Car B is ahead (150 m > 100 m). A wrong answer (e.g., saying Car A is ahead because it accelerated longer) reveals the student cannot break motion into segments and add displacements, or confuses velocity with displacement.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"A ball thrown up at 20 m/s. Find max height.\" They write: v = u + at → 0 = 20 + 10t → t = 2 s. Then s = vt = 0×2 = 0 m. Evaluate this solution and correct it.",
+     "a": "The solution is wrong. Error: using s = vt (constant velocity formula) for accelerated motion, and using v = 0 (final velocity at top) instead of average velocity. Correct: Use v² = u² + 2as → 0 = 20² + 2(-10)s → s = 20 m. Or use s = ut + ½at² with t = 2 s → s = 20×2 + ½(-10)×4 = 40 - 20 = 20 m. A wrong evaluation reveals the student doesn't recognize that s = vt only works for constant velocity, and that at max height instantaneous velocity is zero but displacement is not zero.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a smartphone and a toy car on a ramp to verify the equation s = ut + ½at². List the measurements needed, the procedure, and how you would analyze the data.",
+     "a": "Measurements: ramp angle (for a = g sinθ), initial velocity u (release from rest so u=0), time t to travel known distance s. Procedure: Use phone's slow-motion video to record car release; track position vs time using video analysis app (e.g., Tracker). Plot s vs t²; slope should be ½a. A poor answer (e.g., \"measure speed with speedometer\") reveals the student cannot translate the algebraic equation into measurable quantities and doesn't understand that u=0 simplifies the equation to s ∝ t².",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

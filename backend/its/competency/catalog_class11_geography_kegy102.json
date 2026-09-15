@@ -1,0 +1,128 @@
+{
+ "class": 11,
+ "subject": "geography",
+ "chapter": 102,
+ "chapter_title": "Structure and Physiography",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kegy102.txt",
+ "concepts": [
+  {
+   "id": "kegy.102.1.1",
+   "title": "Geological Structure and the Himalayan Mountains",
+   "section": "Physiography",
+   "definition": "India's physiography rests on the Peninsular block, the Himalayas and other young fold mountains, and the Indo-Ganga-Brahmaputra plain; the Himalayas show three major divisions of Greater Himalaya or Himadri, Lesser Himalaya or Himachal and Shiwaliks, along with Purvanchal eastern hills.",
+   "formula": "",
+   "key_idea": "The syntaxial bends at Nanga Parvat and Namcha Barwa and the trans-Himalayan Karakoram, Ladakh and Zanskar ranges complete the northern mountain wall.",
+   "textbook_ref": "kegy102.txt himalayan mountains section",
+   "question_patterns": [
+    "describe the three divisions of the himalayas",
+    "what are the syntaxial bends of the himalayas",
+    "differentiate greater himalaya lesser himalaya and shiwaliks",
+    "name the ranges of the trans himalayan region",
+    "which valleys and passes occur in the himachal himalaya",
+    "describe the purvanchal or eastern hills"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.102.2.1",
+   "title": "Northern Plains, Peninsular Plateau and Coastal Regions",
+   "section": "Physiography",
+   "definition": "The Northern Plains formed of alluvium stretch from Punjab to Assam with Bhabar, Terai, Bhangar and Khadar belts; the Peninsular Plateau carries the Deccan trap, Central Highlands and Deccan Plateau, and the coastal plains with Keralan backwaters, plus islands of Andaman-Nicobar and Lakshadweep, complete the physiographic divisions.",
+   "formula": "",
+   "key_idea": "The plateau's structural differences, the Gondwana coal fields and the volcanic Deccan traps mark the peninsular block's distinct geological history.",
+   "textbook_ref": "kegy102.txt northern plains and plateau sections",
+   "question_patterns": [
+    "divide the northern plains and name their belts",
+    "describe the central highlands and deccan plateau",
+    "what are bhabar terai bhangar and khadar",
+    "name the physiographic divisions of india",
+    "compare the arabian sea and bay of bengal coastal plains",
+    "describe the islands of india and their origin"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.102.3.1",
+   "title": "Significance of the Himalayas and Physiographic Diversity",
+   "section": "Physiography",
+   "definition": "The Himalayan barrier shields the plains from cold winds, forces monsoon rains to ascend and feed perennial rivers, and together with the plateau, plains, coasts and islands gives India unmatched physiographic diversity of landscapes, soils, climates and economies.",
+   "formula": "",
+   "key_idea": "Physiographic regions guide agriculture, industry and settlement, since each division offers distinct resources like alluvial soils of the plains and minerals of the plateau.",
+   "textbook_ref": "kegy102.txt significance discussion",
+   "question_patterns": [
+    "how do the himalayas influence the climate and rivers of india",
+    "state the significance of the peninsular plateau for minerals",
+    "why are the northern plains called the granary of india",
+    "how does physiography affect the economy of a region",
+    "relate physiographic divisions to the diversity of india",
+    "why are coasts and islands important for trade"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kegy102.txt exercises",
+   "questions": [
+    "Describe the major structural divisions of India.",
+    "What is the significance of the Purvanchal hills?",
+    "Discuss the formation of the northern plains.",
+    "Distinguish between bhangar and khadar.",
+    "Write a short note on the Deccan Trap."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,358 @@
+{
+ "class": 11,
+ "subject": "economics",
+ "chapter": 101,
+ "chapter_title": "Indian Economy on the Eve of Independence",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\keec101.txt",
+ "concepts": [
+  {
+   "id": "keec.1.2.1",
+   "title": "Low Level of Economic Development and National Income Estimation",
+   "section": "1.2",
+   "definition": "The condition of economic backwardness during British rule characterised by less than two percent annual growth in real output and roughly half a percent annual increase in per capita income.",
+   "formula": "per_capita_growth = aggregate_real_output_growth - population_growth",
+   "key_idea": "Colonial policies subordinated India's economic growth to serve British industrial requirements.",
+   "textbook_ref": "keec101.txt lines 30-70",
+   "question_patterns": [
+    "What was the focus of colonial economic policies in India?",
+    "Name the economists who estimated India's national and per capita income during British rule.",
+    "Assess the growth rate of aggregate real output during the first half of the twentieth century in colonial India.",
+    "Why were national income estimates by individual economists during colonial rule conflicting?",
+    "Explain low level of economic development and national income estimation in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify colonial policy objectives",
+     "explain": "The colonial administration structured policies to protect and expand British industrial interests rather than developing the domestic economy."
+    },
+    {
+     "step": 2,
+     "action": "list notable early estimators",
+     "explain": "Prominent individual estimators included Dadabhai Naoroji, William Digby, Findlay Shirras, V.K.R.V. Rao, and R.C. Desai, with Rao's estimates considered particularly significant."
+    },
+    {
+     "step": 3,
+     "action": "state output growth indicators",
+     "explain": "Aggregate real gross output grew at less than 2 percent per year, with per capita real output growing at only 0.5 percent per year during the first half of the twentieth century."
+    }
+   ]
+  },
+  {
+   "id": "keec.1.3.1",
+   "title": "Agricultural Stagnation and Land Settlement Systems",
+   "section": "1.3",
+   "definition": "The protracted lack of productivity gains in farming caused by exploitative land revenue arrangements such as the Zamindari system, inadequate irrigation, and forced commercialisation.",
+   "formula": "agricultural_productivity = total_crop_output / total_cultivated_area",
+   "key_idea": "Feudal revenue settlements and neglect of agricultural investments caused severe agrarian distress despite high labour dependency.",
+   "textbook_ref": "keec101.txt lines 71-125",
+   "question_patterns": [
+    "What were the main causes of India's agricultural stagnation during the colonial period?",
+    "Explain the role of the Zamindari system in the deterioration of Indian agriculture.",
+    "How did commercialisation of agriculture affect Indian peasant cultivators?",
+    "Identify the factors responsible for low agricultural productivity on the eve of independence.",
+    "Explain agricultural stagnation and land settlement systems in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine land revenue systems",
+     "explain": "Under the Zamindari system implemented in the Bengal Presidency, landlords extracted high rents with rigid payment deadlines without making capital improvements."
+    },
+    {
+     "step": 2,
+     "action": "assess technological and infrastructure constraints",
+     "explain": "Lack of modern irrigation, flood control, soil conservation, and modern fertilisers severely curtailed yield per hectare."
+    },
+    {
+     "step": 3,
+     "action": "evaluate the impact of commercialisation",
+     "explain": "Shifting crop patterns toward cash crops fed British industries but exposed vulnerable cultivators to market risks and reduced domestic food grain availability."
+    }
+   ]
+  },
+  {
+   "id": "keec.1.4.1",
+   "title": "De-industrialisation and Decline of Handicrafts",
+   "section": "1.4",
+   "definition": "The systematic dismantling of India's traditional artisan and handicraft manufacturing without establishing an equivalent modern industrial substitute.",
+   "formula": "net_industrial_impact = modern_industry_growth - traditional_crafts_displacement",
+   "key_idea": "The two-fold colonial motive reduced India to a supplier of raw materials and an importer of British finished consumer goods.",
+   "textbook_ref": "keec101.txt lines 126-175",
+   "question_patterns": [
+    "What was the two-fold motive behind the systematic de-industrialisation effected by the British in pre-independent India?",
+    "Discuss how the traditional handicrafts industries were ruined under British rule.",
+    "What were the economic consequences of the collapse of indigenous handicraft industries?",
+    "Explain the impact of tariff and trade policies on traditional Indian artisans.",
+    "Explain de-industrialisation and decline of handicrafts in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the dual colonial motive",
+     "explain": "The British intended to source cheap primary inputs for British factories and convert India into a captive market for finished manufactured products."
+    },
+    {
+     "step": 2,
+     "action": "identify the domestic consequences",
+     "explain": "The decline caused massive unemployment among artisans and generated unmet consumer demand filled by cheap imported factory goods."
+    }
+   ]
+  },
+  {
+   "id": "keec.1.4.2",
+   "title": "Lopsided Modern Industrial Growth and Capital Goods Deficiency",
+   "section": "1.4",
+   "definition": "The limited and unbalanced emergence of modern manufacturing, characterised by the absence of heavy machine-producing industries and a confined public sector footprint.",
+   "formula": "capital_goods_share = capital_goods_output / total_manufacturing_output",
+   "key_idea": "Modern industrial progress remained slow, confined mostly to cotton, jute, and rudimentary iron and steel with negligible capital goods production.",
+   "textbook_ref": "keec101.txt lines 176-210",
+   "question_patterns": [
+    "Name some modern industries in operation in India at the time of independence.",
+    "Why was the absence of a capital goods industry a major drawback for India?",
+    "Critically appraise the shortfalls of the modern industrial sector under British rule.",
+    "What was the scope of the public sector in industrial activities on the eve of independence?",
+    "Explain lopsided modern industrial growth and capital goods deficiency in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the emergence of modern industries",
+     "explain": "Cotton textile mills developed mainly in Maharashtra and Gujarat, foreign-owned jute mills in Bengal, and TISCO was established in 1907."
+    },
+    {
+     "step": 2,
+     "action": "evaluate capital goods and GDP contribution",
+     "explain": "The lack of machine-tool industries prevented self-sustained industrialisation, and manufacturing contribution to national output remained very small."
+    },
+    {
+     "step": 3,
+     "action": "delineate public sector boundaries",
+     "explain": "Public enterprise remained strictly confined to railways, power generation, ports, and departmental communications."
+    }
+   ]
+  },
+  {
+   "id": "keec.1.5.1",
+   "title": "Colonial Foreign Trade Structure and Direction",
+   "section": "1.5",
+   "definition": "The trade regime whereby India served as a net exporter of primary agricultural raw materials and a net importer of British finished manufactured goods under monopolistic colonial control.",
+   "formula": "trade_balance = value_of_exports - value_of_imports",
+   "key_idea": "Discriminatory trade and tariff policies coupled with the opening of the Suez Canal consolidated British monopoly over Indian trade.",
+   "textbook_ref": "keec101.txt lines 211-250",
+   "question_patterns": [
+    "Indicate the volume and direction of foreign trade of India at the time of independence.",
+    "How did the opening of the Suez Canal impact India's foreign trade?",
+    "What were the major export and import items of India during the colonial period?",
+    "Explain Britain's monopoly control over India's foreign trade.",
+    "Explain colonial foreign trade structure and direction in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze composition of trade",
+     "explain": "Exports comprised raw materials like cotton, jute, silk, wool, indigo, and sugar, while imports consisted of light consumer goods and finished textiles."
+    },
+    {
+     "step": 2,
+     "action": "analyze trade direction and Suez Canal impact",
+     "explain": "More than fifty percent of India's foreign trade was routed to Britain, expedited by the opening of the Suez Canal in 1869."
+    }
+   ]
+  },
+  {
+   "id": "keec.1.5.2",
+   "title": "Export Surplus and the Drain of Wealth",
+   "section": "1.5",
+   "definition": "The systematic unrequited outflow of India's economic surplus to Britain without generating any equivalent domestic inflow of precious metals or capital assets.",
+   "formula": "drain_of_wealth = export_surplus - domestic_capital_inflow",
+   "key_idea": "Export surpluses were diverted to settle administrative costs, finance colonial wars, and pay for invisible services rather than benefiting the domestic economy.",
+   "textbook_ref": "keec101.txt lines 240-275",
+   "question_patterns": [
+    "What do you understand by the drain of Indian wealth during the colonial period?",
+    "How was the export surplus generated by India utilised during the British regime?",
+    "Why did the export surplus fail to bring gold and silver into colonial India?",
+    "Explain the mechanisms through which resources were transferred from India to Britain.",
+    "Explain export surplus and the drain of wealth in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define generation of export surplus",
+     "explain": "India maintained a continuous merchandise export surplus achieved at the cost of domestic shortages of essential goods."
+    },
+    {
+     "step": 2,
+     "action": "trace destination of surplus funds",
+     "explain": "The proceeds were used for office maintenance expenses in London, imperial war expenditure, and invisible service payments, resulting in a net drain of resources."
+    }
+   ]
+  },
+  {
+   "id": "keec.1.6.1",
+   "title": "Demographic Profile and the Demographic Transition of 1921",
+   "section": "1.6",
+   "definition": "The demographic status of colonial India marked by high birth and death rates, high infant mortality, low life expectancy, and the transition into sustained growth after 1921.",
+   "formula": "infant_mortality_rate = (infant_deaths / live_births) * 1000",
+   "key_idea": "The year 1921 marks the transition from the fluctuating first stage to the expanding second stage of demographic transition in India.",
+   "textbook_ref": "keec101.txt lines 276-320",
+   "question_patterns": [
+    "Which is regarded as the defining year to mark the demographic transition from the first to the second stage?",
+    "Give a quantitative appraisal of India's demographic profile during the colonial period.",
+    "What was the overall and female literacy rate in India on the eve of independence?",
+    "State the values of infant mortality rate and life expectancy during the colonial era.",
+    "Explain demographic profile and the demographic transition of 1921 in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the transition benchmark",
+     "explain": "The year 1921 is known as the Year of the Great Divide, marking the onset of the second stage of demographic transition."
+    },
+    {
+     "step": 2,
+     "action": "list key demographic statistics",
+     "explain": "Overall literacy was below 16% (female literacy around 7%), infant mortality was approximately 218 per thousand, and life expectancy was just 32 years."
+    }
+   ]
+  },
+  {
+   "id": "keec.1.7.1",
+   "title": "Pre-Independence Occupational Structure and Regional Trends",
+   "section": "1.7",
+   "definition": "The proportional distribution of the active labour force across economic sectors, showing overwhelming dependence on agriculture and notable regional variations.",
+   "formula": "sectoral_workforce_share = (workforce_in_sector / total_workforce) * 100",
+   "key_idea": "Around 70-75% of the workforce remained tied to agriculture, with manufacturing and services accounting for only 10% and 15-20% respectively.",
+   "textbook_ref": "keec101.txt lines 321-360",
+   "question_patterns": [
+    "Highlight the salient features of India's pre-independence occupational structure.",
+    "What percentage of the working population was engaged in agriculture, manufacturing, and services during colonial rule?",
+    "Describe the regional variations observed in the occupational structure before 1947.",
+    "Which provinces witnessed a shift of workforce away from agriculture toward industry and services?",
+    "Explain pre-independence occupational structure and regional trends in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "outline sectoral distribution",
+     "explain": "Agriculture absorbed 70-75 percent of the working population, manufacturing absorbed 10 percent, and services absorbed 15-20 percent."
+    },
+    {
+     "step": 2,
+     "action": "identify regional variation patterns",
+     "explain": "Madras, Bombay, and Bengal Presidencies saw a decline in agricultural dependence, whereas Orissa, Rajasthan, and Punjab experienced an increased agricultural workforce share."
+    }
+   ]
+  },
+  {
+   "id": "keec.1.8.1",
+   "title": "Infrastructure Development under Colonial Governance",
+   "section": "1.8",
+   "definition": "The selective establishment of transport and communication networks primarily designed to facilitate military mobilisation, administrative control, and raw material evacuation.",
+   "formula": "net_social_benefit = economic_integration_gains - colonial_resource_drain",
+   "key_idea": "The introduction of railways in 1850 broke geographical barriers but accelerated commercialisation and economic drain.",
+   "textbook_ref": "keec101.txt lines 361-420",
+   "question_patterns": [
+    "What objectives did the British intend to achieve through their policies of infrastructure development in India?",
+    "Discuss the positive and negative impacts of the introduction of railways in India.",
+    "Why were all-weather rural roads neglected under colonial rule?",
+    "Were there any positive contributions made by the British in India?",
+    "Explain infrastructure development under colonial governance in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state colonial infrastructure motives",
+     "explain": "Roads, railways, posts, and telegraphs were laid down to mobilise troops, maintain law and order, and transport raw materials from hinterlands to ports."
+    },
+    {
+     "step": 2,
+     "action": "assess dual impact of railways",
+     "explain": "Railways enabled long-distance mobility and national integration but undermined self-sufficient village economies through forced export-oriented commercialisation."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "keec101.txt lines 280-320",
+   "concept": "keec.1.6.1",
+   "question_type": "verify_property",
+   "question_pattern": "Assess the demographic conditions in colonial India with reference to literacy rate, life expectancy, and infant mortality rate.",
+   "extracted_variables": {
+    "demographic_indicator": "vital social statistics under British rule"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "evaluate educational attainment",
+     "explain": "Colonial census records reveal that total literacy was under 16 percent, with female literacy at a critically low figure of roughly 7 percent."
+    },
+    {
+     "step": 2,
+     "action": "evaluate mortality and longevity indicators",
+     "explain": "Infant mortality was as high as 218 per thousand live births, and the average life expectancy was just 32 years due to widespread poverty and inadequate health facilities."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "keec101.txt lines 126-175",
+   "concept": "keec.1.4.1",
+   "question_type": "verify_property",
+   "question_pattern": "Explain the two-fold motive behind the de-industrialisation policy pursued by the British colonial administration.",
+   "extracted_variables": {
+    "policy_motive": "colonial economic restructuring"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify raw material extraction motive",
+     "explain": "The first objective was to transform India into an exporter of cheap primary agricultural raw materials for British manufacturing industries."
+    },
+    {
+     "step": 2,
+     "action": "identify market expansion motive",
+     "explain": "The second objective was to turn India into an open, captive market for finished consumer goods imported from Great Britain."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "keec101.txt lines 442-475",
+   "questions": [
+    "What was the focus of the economic policies pursued by the colonial government in India? What were the impacts of these policies?",
+    "Name some notable economists who estimated India's per capita income during the colonial period.",
+    "What were the main causes of India's agricultural stagnation during the colonial period?",
+    "Name some modern industries which were in operation in our country at the time of independence.",
+    "What was the two-fold motive behind the systematic de-industrialisation effected by the British in pre-independent India?",
+    "The traditional handicrafts industries were ruined under the British rule. Do you agree with this view? Give reasons in support of your answer.",
+    "What objectives did the British intend to achieve through their policies of infrastructure development in India?",
+    "Critically appraise some of the shortfalls of the industrial policy pursued by the British colonial administration.",
+    "What do you understand by the drain of Indian wealth during the colonial period?",
+    "Which is regarded as the defining year to mark the demographic transition from its first to the second decisive stage?",
+    "Give a quantitative appraisal of India's demographic profile during the colonial period.",
+    "Highlight the salient features of India's pre-independence occupational structure.",
+    "Underscore some of India's most crucial economic challenges at the time of independence.",
+    "When was India's first official census operation undertaken?",
+    "Indicate the volume and direction of trade at the time of independence.",
+    "Were there any positive contributions made by the British in India? Discuss."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

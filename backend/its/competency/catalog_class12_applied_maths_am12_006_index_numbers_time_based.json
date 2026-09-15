@@ -1,0 +1,148 @@
+{
+  "class": 12,
+  "subject": "applied_maths",
+  "chapter": 6,
+  "chapter_title": "Index Numbers and Time-based Data",
+  "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am12_006_index_numbers_time_based.txt",
+  "concepts": [
+    {
+      "id": "am12_006.1",
+      "title": "Index Number Meaning and Uses",
+      "definition": "An index number is a percentage-relative measure that shows how a variable, such as a price level, changes between a base period (index 100) and the current period. Index numbers of prices, quantities and values are called economic barometers because they summarise whole markets in one figure.",
+      "formula": "idx = cur / base * 100",
+      "key_idea": "Index 100 is the base. An index of 125 means the level rose 25 percent over the base; 92 means a fall of 8 percent. Uses include cost-of-living adjustments, policy framing and deflating nominal series into real ones.",
+      "question_patterns": [
+        "The price of a commodity rose from {base} to {cur}; find the price index with the base year as 100.",
+        "An index moves from 100 to {idx}; state the percentage change.",
+        "What is an index number and why is it called an economic barometer?",
+        "If the cost-of-living index is {idx}, how has the price level changed from the base year?",
+        "State two uses of index numbers in economics."
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"compute": "idx = cur / base * 100"},
+        {"compute": "change = idx - 100"}
+      ]
+    },
+    {
+      "id": "am12_006.2",
+      "title": "Simple Aggregative Price Index",
+      "definition": "The simple aggregative method adds up the prices of all commodities in the current year and divides by the sum of their base-year prices, multiplying by 100. It ignores quantity weights, so dearer commodities dominate the movement.",
+      "formula": "index = sum_cur / sum_base * 100",
+      "key_idea": "Strength: simple to compute from totals alone. Weakness: the units and the importance of items are ignored, which is why weighted methods are preferred in practice.",
+      "question_patterns": [
+        "Prices of three items in the base year are {a}, {b}, {c} and in the current year {d}, {e}, {f}; find the simple aggregative index.",
+        "Compute the unweighted aggregative price index for the given data.",
+        "State one limitation of the simple aggregative method.",
+        "The sum of base prices is {sum_base} and of current prices is {sum_cur}; find the index number.",
+        "Why can one costly item distort the simple aggregative index?"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"compute": "sum_cur = d + e + f"},
+        {"compute": "sum_base = a + b + c"},
+        {"compute": "index = sum_cur / sum_base * 100"}
+      ]
+    },
+    {
+      "id": "am12_006.3",
+      "title": "Laspeyres Price Index",
+      "definition": "The Laspeyres index is the weighted aggregative index that uses base-year quantities as weights: the ratio of the current cost of the base-year basket to its base-year cost, times 100. It answers how the old basket's price has moved.",
+      "formula": "l = sc / sb * 100",
+      "key_idea": "Weights stay frozen at base-year consumption, so the index is unaffected by new buying habits but may overstate inflation by ignoring substitution away from dearer goods.",
+      "question_patterns": [
+        "Using base-year quantities {q1}, {q2} and prices (base {p1b}, {p2b}; current {p1c}, {p2c}), find the Laspeyres index.",
+        "Define the Laspeyres price index and state which quantities weight it.",
+        "Find the current cost of the base-year basket given the data.",
+        "Why does the Laspeyres index tend to overstate price rises?",
+        "Compute L = sum(p1 q0) / sum(p0 q0) * 100 for the given table."
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"compute": "sc = p1c * q1 + p2c * q2"},
+        {"compute": "sb = p1b * q1 + p2b * q2"},
+        {"compute": "l = sc / sb * 100"}
+      ]
+    },
+    {
+      "id": "am12_006.4",
+      "title": "Paasche Price Index",
+      "definition": "The Paasche index is the weighted aggregative index that uses current-year quantities as weights: the current cost of the current basket over what that same basket would have cost at base-year prices, times 100.",
+      "formula": "pidx = sc / sb * 100",
+      "key_idea": "Weights update every year with current consumption, so the index reflects present buying habits but tends to understate inflation and needs fresh quantity data each period.",
+      "question_patterns": [
+        "Using current-year quantities {q1}, {q2} with base prices {p1b}, {p2b} and current prices {p1c}, {p2c}, find the Paasche index.",
+        "Define the Paasche price index and name its weights.",
+        "Contrast the weights used by Laspeyres and Paasche indices.",
+        "Compute sum(p1 q1) / sum(p0 q1) * 100 for the given data.",
+        "Why does the Paasche index need new quantity data every year?"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"compute": "sc = p1c * q1 + p2c * q2"},
+        {"compute": "sb = p1b * q1 + p2b * q2"},
+        {"compute": "pidx = sc / sb * 100"}
+      ]
+    },
+    {
+      "id": "am12_006.5",
+      "title": "Tests of Adequacy Unit and Time Reversal",
+      "definition": "Adequacy tests check index formulae. The unit test demands that the index be independent of the units of measurement. The time-reversal test demands that the index swapping base and current years be reciprocals: P01 times P10 should equal 1, so an index forward of 125 must pair with 80 backward.",
+      "formula": "tr = l * pidx / 10000",
+      "key_idea": "Laspeyres and Paasche each fail the time-reversal test separately; their geometric mean, Fisher's ideal index, passes both the time-reversal and factor-reversal tests.",
+      "question_patterns": [
+        "Check whether P01 = {l} and P10 = {pidx} satisfy the time-reversal test.",
+        "State the time-reversal test for index numbers.",
+        "Which index number formula is called ideal and why?",
+        "Show that the simple aggregative index satisfies the unit test.",
+        "If the forward index is {l}, what backward index does the time-reversal test require?"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"compute": "tr = l * pidx / 10000"}
+      ]
+    },
+    {
+      "id": "am12_006.6",
+      "title": "Time Series and Linear Trend",
+      "definition": "A time series records a variable across ordered time periods, combining trend, seasonal, cyclical and irregular components. The linear trend line y = a + b x is fitted by least squares, and when the number of years is even the x-origin is shifted to the midpoint between the two middle years in half-year units.",
+      "formula": "y = a + b * x",
+      "key_idea": "The slope b gives the average change per unit of x (per year, or per half-year when the origin is mid-interval); substituting a coded x forecasts the trend value for that period.",
+      "question_patterns": [
+        "Fit a linear trend to the given sales data and interpret the slope.",
+        "The trend line is y = {a} + {b}x; find the trend value at x = {x}.",
+        "Name the four components of a time series.",
+        "Why is the origin shifted to the midpoint when the number of years is even?",
+        "Using the trend line y = {a} + {b}x, forecast the value one period ahead of x = {x}."
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"compute": "y = a + b * x"},
+        {"compute": "next = a + b * (x + 1)"}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "q": "Base-year prices of wheat, rice and oil are 20, 30 and 50; current prices are 24, 33 and 60. Find the simple aggregative index.",
+      "a": "Sum of base prices = 20 + 30 + 50 = 100. Sum of current prices = 24 + 33 + 60 = 117. Index = 117 / 100 x 100 = 117, so the price level rose 17 percent over the base year."
+    },
+    {
+      "q": "Laspeyres index is 125 and the Paasche index for the same data is 80. Do these satisfy the time-reversal test?",
+      "a": "The test needs P01 x P10 = 1. Here 1.25 x 0.80 = 1.00, so yes: the forward index 125 and backward index 80 are reciprocals, since 125/100 times 80/100 equals 1."
+    }
+  ],
+  "exercises": [
+    {
+      "group": "drill",
+      "items": [
+        "Base prices 10, 20, 30 and current prices 12, 20, 42: find the simple aggregative index.",
+        "For q0 = (4, 2), p0 = (5, 8), p1 = (6, 10): compute the Laspeyres index.",
+        "Repeat with q1 = (5, 3) to compute the Paasche index.",
+        "Interpret an index of 87 and an index of 143.",
+        "Trend line y = 120 + 4x: find the value at x = 6 and at x = 7.",
+        "Name the four components of a time series."
+      ]
+    }
+  ]
+}

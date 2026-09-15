@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_hist_ch3_8",
+ "concepts": [
+  {
+   "id": "enh:c9_hist_ch3_8",
+   "title": "c9_hist_ch3_8",
+   "questions": [
+    {
+     "q": "What is the term used in the *Arthashastra* for the superintendent of the treasury, and which Mauryan emperor is traditionally associated with its implementation?",
+     "a": "The term is *sannidhata* (or *sannidhatri*), and it is associated with Chandragupta Maurya under the guidance of Kautilya. A wrong answer (e.g., naming *samaharta* or Ashoka) reveals confusion between the revenue collector (*samaharta*) and the treasury superintendent (*sannidhata*), or a conflation of Chandragupta’s administrative founding with Ashoka’s *dhamma*-oriented reforms.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Gupta king adopted the title *Maharajadhiraja* (\"Great King of Kings\") rather than the Mauryan *Chakravartin* ideal, and what this shift indicates about the nature of Gupta sovereignty.",
+     "a": "*Maharajadhiraja* signals a suzerain-overlord relationship where defeated rulers (*samantas*) retained internal autonomy but acknowledged Gupta paramountcy, unlike the Mauryan *Chakravartin* ideal of direct, unitary rule over a defined territory. A wrong answer that treats both titles as synonymous misses the structural shift from bureaucratic centralization (Maurya) to feudal decentralization (Gupta), a core board-level distinction.",
+     "self_check": true
+    },
+    {
+     "q": "A 9th-century Chola inscription records a *brahmadeya* village granted to Brahmins, with the *sabha* (assembly) managing irrigation, land allocation, and tax collection. Using this evidence, analyze how Chola local administration differed from the Mauryan *janapada* administration described in the *Arthashastra*.",
+     "a": "The Chola *sabha* represents corporate, autonomous Brahmin self-governance with hereditary membership and committee-based (*variyam*) administration, whereas the Mauryan *janapada* was a centrally appointed provincial unit headed by a *kumara* or *aryaputra* with salaried officers (*rajjukas*, *pradeshtris*). A wrong answer that equates both as \"local administration\" fails to distinguish between *delegated bureaucracy* (Maurya) and *incorporated corporate bodies* (Chola) — a critical analytical skill for source-based board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the revenue base of the Mauryan state (as per *Arthashastra* Book II) with that of the post-Gupta \"feudal\" polity (as inferred from land-grant charters). Identify two structural differences and explain their political consequences.",
+     "a": "Mauryan revenue came from state-controlled agriculture (*sita* lands), trade tolls (*shulka*), and monopoly profits — collected by salaried officers — enabling a standing army and centralized bureaucracy. Post-Gupta revenue was largely land-grant based (*brahmadeya*, *devadana*, *agrahara*), where revenue rights were alienated to donees, shrinking the king’s direct resource base and military capacity, leading to *samanta* autonomy. A wrong answer that lists only \"land tax\" for both misses the shift from *state collection* to *assignment of revenue rights*, which explains political fragmentation.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The *Dharmashastras* provided a uniform blueprint for administration across early India.\" Use evidence from at least two periods to justify your evaluation.",
+     "a": "The *Dharmashastras* (e.g., *Manusmriti*, *Yajnavalkya Smriti*) prescribed *varna*-based duties and ideal kingly *dharma*, but actual administration diverged: Mauryas used *Arthashastra* pragmatism (espionage, regulated prices) over *dharma*; Guptas blended *dharma* with *samanta* feudalism; Cholas created *variyam* committees unknown in texts. A wrong answer that accepts the statement reflects a textualist fallacy — confusing prescriptive norms with descriptive reality, a common board-exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a comparative timeline (600 BCE – 1000 CE) showing three turning points where the *theory* of kingship (legitimacy) shifted, and annotate each with the corresponding *administrative innovation* that operationalized the new theory.",
+     "a": "1. **c. 320 BCE – Mauryan *Chakravartin* / *Dharmaraja* (Ashoka)** → Innovation: *Dhamma-mahamattas* (moral officers) + *rajjukas* (judicial surveyors) linking ethics to administration.  \n2. **c. 320 CE – Gupta *Maharajadhiraja* / *Paramabhattaraka*** → Innovation: *Samanta* feudatory system + *kumaramatya* (hereditary ministers) decentralizing military-administrative power.  \n3. **c. 850–900 CE – Chola *Temple-centered Kingship* (Rajaraja I)** → Innovation: *Brahmadeya* grants + *sabha/ur* corporate assemblies integrating temple economy with royal authority.  \nA poor answer lists kings/dates without linking theory to administrative mechanism, failing the \"cause-effect\" competency boards test.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,166 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "chapter": 103,
+ "chapter_title": "Current Electricity",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/leph103.txt",
+ "concepts": [
+  {
+   "id": "leph.3.2.1",
+   "title": "Electric Current",
+   "section": "3.2",
+   "definition": "The rate of net charge flow through a given cross-sectional area of a conductor over a specific time interval.",
+   "formula": "current = charge / time",
+   "key_idea": "Current measures the flow of net charge per unit time.",
+   "textbook_ref": "leph103.txt lines 25-45",
+   "question_patterns": [
+    "calculate the current flowing through a conductor",
+    "find the net charge passing in a given time",
+    "what is the current if charge q flows in time t",
+    "determine the rate of charge flow",
+    "how much current is produced by the charge flow"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide net charge by time",
+     "explain": "current is defined as the ratio of net charge to time interval",
+     "compute": "current = charge / time"
+    }
+   ]
+  },
+  {
+   "id": "leph.3.4.1",
+   "title": "Resistance and Ohms Law",
+   "section": "3.4",
+   "definition": "The ratio of potential difference across a conductor to the current flowing through it, representing the opposition to charge flow.",
+   "formula": "resistance = voltage / current",
+   "key_idea": "Resistance is the constant of proportionality between voltage and current in ohmic conductors.",
+   "textbook_ref": "leph103.txt lines 135-150",
+   "question_patterns": [
+    "find the resistance of a conductor",
+    "calculate the resistance given voltage and current",
+    "what is the resistance if potential difference is v and current is i",
+    "determine the resistance of the heating element",
+    "how much resistance does the circuit offer"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide voltage by current",
+     "explain": "Ohm's law states R = V/I",
+     "compute": "resistance = voltage / current"
+    }
+   ]
+  },
+  {
+   "id": "leph.3.4.2",
+   "title": "Resistivity of a Conductor",
+   "section": "3.4",
+   "definition": "A material-specific property relating resistance to the physical dimensions of a conductor, specifically length and cross-sectional area.",
+   "formula": "resistivity = (resistance * area) / length",
+   "key_idea": "Resistivity depends on the material, not the dimensions of the conductor.",
+   "textbook_ref": "leph103.txt lines 180-200",
+   "question_patterns": [
+    "calculate the resistivity of the material",
+    "find the resistivity given resistance length and area",
+    "what is the resistivity of the wire",
+    "determine the material property resistivity",
+    "how much is the resistivity for a conductor of given dimensions"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply resistance by area",
+     "explain": "intermediate step for resistivity calculation",
+     "compute": "product = resistance * area"
+    },
+    {
+     "step": 2,
+     "action": "divide product by length",
+     "explain": "resistivity is R*A/l",
+     "compute": "resistivity = product / length"
+    }
+   ]
+  },
+  {
+   "id": "leph.3.9.1",
+   "title": "Electrical Power Dissipation",
+   "section": "3.9",
+   "definition": "The rate at which electrical energy is converted into heat within a conductor due to current flow.",
+   "formula": "power = current * voltage",
+   "key_idea": "Power loss in a resistor is the product of current and potential difference.",
+   "textbook_ref": "leph103.txt lines 450-470",
+   "question_patterns": [
+    "calculate the power dissipated in the resistor",
+    "find the power consumed by the device",
+    "what is the electrical power loss",
+    "determine the power given current and voltage",
+    "how much power is dissipated as heat"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply current by voltage",
+     "explain": "power is the product of current and voltage",
+     "compute": "power = current * voltage"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "leph103.txt",
+   "concept": "leph.3.2.1",
+   "question_type": "compute",
+   "question_pattern": "if {charge} Coulombs flow in {time} seconds find current",
+   "extracted_variables": {
+    "charge": 5.0,
+    "time": 2.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide charge by time",
+     "explain": "I = Q/t",
+     "compute": "current = charge / time"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "leph103.txt",
+   "concept": "leph.3.4.1",
+   "question_type": "compute",
+   "question_pattern": "calculate resistance for {voltage} Volts and {current} Amperes",
+   "extracted_variables": {
+    "voltage": 230.0,
+    "current": 2.68
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide voltage by current",
+     "explain": "R = V/I",
+     "compute": "resistance = voltage / current"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.4",
+   "source_ref": "leph103.txt",
+   "questions": [
+    "A wire of length 15 m and area 6.0e-7 m2 has resistance 5.0 Ohm. Find resistivity."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

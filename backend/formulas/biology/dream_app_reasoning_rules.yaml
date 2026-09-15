@@ -1,0 +1,124 @@
+---
+- formula_id: DRM_BIO_RULE_023
+  name: hardy_weinberg_dominant
+  latex: (1 - q)^2 \cdot N
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: biology
+  concept_tags:
+  - hardy_weinberg_dominant
+  related_formulas: []
+  source: dream_app/reasoning_rules_bio.py
+  unknown: count
+  explanation: 'Hardy-Weinberg: p + q = 1, p² + 2pq + q² = 1. Homozygous dominant
+    count = p² × N = (1-q)² × N'
+- formula_id: DRM_BIO_RULE_024
+  name: natality
+  latex: N_final - N_initial
+  variables:
+  - symbol: N_final
+    name: N_final
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: N_initial
+    name: N_initial
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: biology
+  concept_tags:
+  - natality
+  related_formulas: []
+  source: dream_app/reasoning_rules_bio.py
+  unknown: natality
+  explanation: Natality (number of births) = Final population - Initial population
+- formula_id: DRM_BIO_RULE_025
+  name: population_growth_rate
+  latex: (N_final - N_initial) / t
+  variables:
+  - symbol: N_final
+    name: N_final
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: N_initial
+    name: N_initial
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: biology
+  concept_tags:
+  - population_growth_rate
+  related_formulas: []
+  source: dream_app/reasoning_rules_bio.py
+  unknown: growth_rate
+  explanation: Population growth rate = (N_final - N_initial) / time period
+- formula_id: DRM_BIO_RULE_026
+  name: sex_linked_haemophilia
+  latex: Rational(1, 4)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: biology
+  concept_tags:
+  - sex_linked_haemophilia
+  related_formulas: []
+  source: dream_app/reasoning_rules_bio.py
+  unknown: prob
+  explanation: 'X-linked recessive cross: X^hY × X^HX^h → 4 offspring. Daughter haemophilic
+    (X^hX^h) = 1/4 = 0.25'
+- formula_id: DRM_BIO_RULE_027
+  name: valine_fourth_codon
+  latex: GUG
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: biology
+  concept_tags:
+  - valine_fourth_codon
+  related_formulas: []
+  source: dream_app/reasoning_rules_bio.py
+  unknown: codon
+  explanation: 'Valine is coded by four codons: GUU, GUC, GUA, GUG. The fourth codon
+    is GUG'

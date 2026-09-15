@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_11_007",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_11_007",
+   "title": "c12_eco_cbse_11_007",
+   "questions": [
+    {
+     "q": "Define Balance of Payments and state the two main accounts into which it is divided.",
+     "a": "Balance of Payments is a systematic record of all economic transactions between residents of a country and the rest of the world in a given period. It is divided into the Current Account and the Capital and Financial Account. A wrong answer (e.g., \"BoP is only about trade balance\" or \"BoP has three accounts: current, capital, and financial\" without recognizing that capital and financial are combined in NCERT) reveals confusion between BoP and Balance of Trade, or unfamiliarity with the NCERT classification where capital and financial accounts are presented together.",
+     "self_check": true
+    },
+    {
+     "q": "An Indian company receives ₹10 crore as dividend from its subsidiary in Singapore. In which account and on which side (credit/debit) will this be recorded? Explain why.",
+     "a": "This is a primary income receipt (investment income) → Current Account, Credit (+). It represents earnings from ownership of foreign financial assets. A wrong answer placing it in the Capital Account confuses income flows (current) with asset position changes (capital). A wrong sign (debit) indicates misunderstanding that inflows are credits.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following transactions into Current Account or Capital Account, and indicate credit (+) or debit (−):\n(a) India imports crude oil worth $5 billion.\n(b) An NRI deposits ₹2 crore in an NRE account in an Indian bank.\n(c) Government of India receives a grant of $100 million from the World Bank.\n(d) An Indian firm buys a factory in Germany for €50 million.",
+     "a": "(a) Import of goods → Current Account, Debit (−). (b) NRI deposit = foreign liability increase → Capital Account, Credit (+). (c) Grant = current transfer → Current Account, Credit (+). (d) Outward FDI = acquisition of foreign asset → Capital Account, Debit (−). A wrong classification (e.g., treating NRI deposit as current account) shows confusion between financial flows and income/transfers. Wrong signs indicate failure to apply the \"inflow = credit, outflow = debit\" rule consistently.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Balance of Payments always balance in an accounting sense? If a country has a Current Account deficit of ₹50,000 crore, what must be true about its Capital Account?",
+     "a": "BoP follows double-entry bookkeeping: every transaction has equal credit and debit entries, so the sum of all accounts is zero. A Current Account deficit of ₹50,000 crore must be matched by a Capital Account surplus of ₹50,000 crore (net capital inflow). A wrong answer (e.g., \"BoP balances because exports equal imports\" or \"Capital Account will also be in deficit\") reveals confusion between accounting identity and equilibrium, or misunderstanding that a current account deficit is financed by capital inflows.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A country running a persistent Current Account deficit is living beyond its means and must eventually default.\" Use BoP accounting principles in your reasoning.",
+     "a": "The statement is not necessarily true. A Current Account deficit means the country is a net borrower from the rest of the world (capital inflow). This can be sustainable if the borrowed funds finance productive investment that raises future output and repayment capacity. Default risk depends on the nature of capital inflows (FDI vs short-term debt), exchange rate regime, and growth prospects — not solely on the deficit. A wrong evaluation (e.g., \"deficit always leads to crisis\" or \"deficit is fine because BoP balances\") shows lack of nuance about sustainability vs accounting identity.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a mini BoP table for a hypothetical country \"X\" with the following data (in ₹ crore):\nExports of goods: 200; Imports of goods: 300; Exports of services: 150; Imports of services: 100; Net primary income: -50; Net secondary income: 80; FDI inflow: 120; Portfolio outflow: 40; Loans received: 60; Reserve assets increase: 30.\nCalculate Current Account balance, Capital Account balance, and verify BoP identity.",
+     "a": "Current Account = (200-300) + (150-100) + (-50) + 80 = -100 + 50 - 50 + 80 = -20 crore (deficit).\nCapital Account = FDI inflow (120) + Portfolio outflow (-40) + Loans (60) + Reserve increase (-30) = 120 - 40 + 60 - 30 = 110 crore (surplus).\nBoP = -20 + 110 = 90 ≠ 0 → discrepancy indicates missing item (e.g., errors & omissions = -90). A good answer identifies the imbalance and suggests \"Net Errors & Omissions\" to balance. A poor answer forces balance without noting the missing entry, showing mechanical application without understanding double-entry.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,212 @@
+{
+ "class": 9,
+ "subject": "maths",
+ "chapter": 4,
+ "chapter_title": "Exploring Algebraic Identities",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iemh104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iemh.104.4.1",
+   "title": "Square Identities (a + b) squared and (a - b) squared",
+   "section": "4.2",
+   "definition": "Area models of squares prove the two square identities for all values: (a + b) squared equals a squared + 2ab + b squared, and (a - b) squared equals a squared - 2ab + b squared; splitting numbers like 103 as 100 + 3 turns squaring into easy mental pieces.",
+   "formula": "value = a * a + 2 * a * b + b * b",
+   "key_idea": "Square the parts, double the cross: the identity works for every a and b.",
+   "textbook_ref": "iemh104.txt sections 4.1-4.2 (introduction, visualising identities)",
+   "question_patterns": [
+    "use the identity to find 105 squared",
+    "expand (2x + 3y) squared using the standard identity",
+    "evaluate (a - b) squared for the given values",
+    "verify the identity with a diagram of areas",
+    "find the square of 98 using (100 - 2)",
+    "which identity expands the given expression"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "square the two parts",
+     "explain": "Compute a squared and b squared.",
+     "compute": "sq_terms = a * a + b * b"},
+    {"step": 2, "action": "add twice the product",
+     "explain": "The cross term 2ab completes the identity.",
+     "compute": "value = sq_terms + 2 * a * b"}
+   ]
+  },
+  {
+   "id": "iemh.104.4.2",
+   "title": "Difference of Squares Identity",
+   "section": "4.2",
+   "definition": "The product of a sum and the matching difference collapses to the difference of squares: (a + b)(a - b) equals a squared minus b squared - the shortcut behind computations like 51 times 49 equals 2500 minus 1.",
+   "formula": "value = a * a - b * b",
+   "key_idea": "Sum times difference: middle terms cancel and only the squares survive.",
+   "textbook_ref": "iemh104.txt sections on difference of squares identity",
+   "question_patterns": [
+    "evaluate 51 x 49 using the difference of squares",
+    "find the product (a + b)(a - b) for the given values",
+    "verify that (x + 5)(x - 5) equals x squared - 25",
+    "use the identity to compute the given product mentally",
+    "which identity simplifies the given product",
+    "compute 102 x 98 by the identity and check"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "square the larger centre term",
+     "explain": "Compute a squared.",
+     "compute": "big_sq = a * a"},
+    {"step": 2, "action": "subtract the offset square",
+     "explain": "The product is big square minus b squared.",
+     "compute": "value = big_sq - b * b"}
+   ]
+  },
+  {
+   "id": "iemh.104.4.3",
+   "title": "Factorisation Using Identities",
+   "section": "4.6",
+   "definition": "Identities read backwards factorise expressions: a squared + 2ab + b squared collapses into (a + b) squared, a squared minus 2ab plus b squared into (a - b) squared, and a squared minus b squared into (a + b)(a - b).",
+   "formula": "-",
+   "key_idea": "Match the pattern, name the a and b, and the brackets write themselves.",
+   "textbook_ref": "iemh104.txt sections 4.6-4.7 (factorisation using identities, new identities)",
+   "question_patterns": [
+    "factorise x squared + 10x + 25 using identities",
+    "factorise 9a squared - 16b squared",
+    "write the factors of the given perfect square trinomial",
+    "use the difference of squares to factorise the given expression",
+    "check the factorisation by expanding back",
+    "which identity factorises the given expression - justify"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "match the pattern",
+     "explain": "Compare the expression with the three standard identity forms."},
+    {"step": 2, "action": "identify a and b",
+     "explain": "The square terms reveal a and b."},
+    {"step": 3, "action": "write the brackets",
+     "explain": "The identity gives the factorisation directly; expand back to check."}
+   ]
+  },
+  {
+   "id": "iemh.104.4.4",
+   "title": "Simplifying Rational Expressions",
+   "section": "4.8",
+   "definition": "A rational expression is a quotient of polynomials; factorising numerator and denominator and cancelling the common factors simplifies it, just as common factors cancel in ordinary fractions.",
+   "formula": "-",
+   "key_idea": "Factorise both floors of the fraction, then cancel what is common.",
+   "textbook_ref": "iemh104.txt section 4.8 (simplifying rational expressions)",
+   "question_patterns": [
+    "simplify the given rational expression",
+    "cancel the common factors and write the simplified form",
+    "for which values is the given rational expression not defined",
+    "simplify the quotient of the two polynomials",
+    "verify the simplified expression by substituting a value",
+    "reduce the given rational expression to lowest terms"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "factorise numerator and denominator",
+     "explain": "Use identities and common factors on both parts."},
+    {"step": 2, "action": "cancel common factors",
+     "explain": "Delete the factors that appear on both sides."},
+    {"step": 3, "action": "state restrictions",
+     "explain": "Values that make the original denominator zero are excluded."}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iemh104.txt section 4.2 square identity examples",
+   "concept": "iemh.104.4.1",
+   "question_type": "compute",
+   "question_pattern": "Use the identity with a = {a} and b = {b} to evaluate (a + b) squared.",
+   "extracted_variables": {
+    "a": "the convenient larger part",
+    "b": "the smaller part"
+   },
+   "solution_template": [
+    {"step": 1, "action": "square the parts",
+     "explain": "Compute a squared and b squared.",
+     "compute": "sq_terms = a * a + b * b"},
+    {"step": 2, "action": "add twice the product",
+     "explain": "The cross term completes the identity.",
+     "compute": "value = sq_terms + 2 * a * b"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iemh104.txt square identity practice",
+   "concept": "iemh.104.4.1",
+   "question_type": "compute",
+   "question_pattern": "Find {whole} squared by writing it as {a} + {b} and applying the identity.",
+   "extracted_variables": {
+    "whole": "number to square",
+    "a": "larger part",
+    "b": "smaller part"
+   },
+   "solution_template": [
+    {"step": 1, "action": "square the parts",
+     "explain": "Both parts square easily.",
+     "compute": "sq_terms = a * a + b * b"},
+    {"step": 2, "action": "add twice the product",
+     "explain": "The identity finishes the computation.",
+     "compute": "value = sq_terms + 2 * a * b"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "iemh104.txt difference of squares example",
+   "concept": "iemh.104.4.2",
+   "question_type": "compute",
+   "question_pattern": "Use the identity with centre {a} and offset {b} to compute (a + b)(a - b).",
+   "extracted_variables": {
+    "a": "central value of the two factors",
+    "b": "half the gap between the factors"
+   },
+   "solution_template": [
+    {"step": 1, "action": "square the centre",
+     "explain": "Compute a squared.",
+     "compute": "big_sq = a * a"},
+    {"step": 2, "action": "subtract the offset square",
+     "explain": "Subtract b squared.",
+     "compute": "value = big_sq - b * b"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "iemh104.txt difference of squares practice",
+   "concept": "iemh.104.4.2",
+   "question_type": "compute",
+   "question_pattern": "Evaluate the product of {sum_hint} using a = {a} and b = {b} in a squared minus b squared.",
+   "extracted_variables": {
+    "a": "centre of the factors",
+    "b": "offset from the centre"
+   },
+   "solution_template": [
+    {"step": 1, "action": "square the centre",
+     "explain": "a squared first.",
+     "compute": "big_sq = a * a"},
+    {"step": 2, "action": "subtract the offset square",
+     "explain": "The difference of squares is the product.",
+     "compute": "value = big_sq - b * b"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "iemh104.txt identity exercises",
+   "questions": [
+     "Verify the identities with the given values using diagrams.",
+     "Find the squares of the given numbers using identities.",
+     "Expand the given products using standard identities."
+   ]
+  },
+  {
+   "id": "ex4.2",
+   "source_ref": "iemh104.txt factorisation and rational expression exercises",
+   "questions": [
+     "Factorise the given expressions using identities.",
+     "Simplify the given rational expressions."
+   ]
+  }
+ ]
+}

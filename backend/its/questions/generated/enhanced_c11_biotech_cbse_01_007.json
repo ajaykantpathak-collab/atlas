@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_01_007",
+   "title": "c11_biotech_cbse_01_007",
+   "questions": [
+    {
+     "q": "Name the microorganism and the type of respiration (aerobic/anaerobic) used in the industrial production of (a) ethanol for biofuel, (b) citric acid for food industry, (c) penicillin antibiotic.",
+     "a": "(a) *Saccharomyces cerevisiae* (yeast), anaerobic; (b) *Aspergillus niger* (fungus), aerobic; (c) *Penicillium chrysogenum* (fungus), aerobic (growth phase) with production in idiophase under nutrient limitation. A wrong answer like \"all use yeast\" or \"penicillin is anaerobic\" reveals confusion between traditional alcoholic fermentation and aerobic industrial processes, and ignorance of the idiophase/trophophase distinction for secondary metabolites.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Industrial lactic acid production by *Lactobacillus* is exactly the same process as muscle lactic acid fermentation during heavy exercise.\" Explain why this is incorrect by comparing the purpose, control, and outcome in both contexts.",
+     "a": "In muscle, lactic acid fermentation is an emergency ATP-generating pathway when O₂ is low; it is uncontrolled, temporary, and the lactate is later cleared. In industry, *Lactobacillus* is grown in a bioreactor with controlled pH (neutralized by CaCO₃ to prevent inhibition), temperature, and substrate feed to maximize yield and optical purity (L- or D-lactic acid) for polylactic acid (PLA) plastics. A wrong answer focusing only on \"both produce lactate\" misses the critical bioprocess engineering differences: pH control, continuous removal, strain selection for stereospecificity, and scale.",
+     "self_check": true
+    },
+    {
+     "q": "An industrial microbiologist wants to maximize penicillin yield in a 100,000 L bioreactor. The current process uses a batch mode with glucose as carbon source. Penicillin is a secondary metabolite. Propose two specific process modifications (with biochemical reasoning) to increase titer, referencing the growth-production phase relationship.",
+     "a": "1. Switch to fed-batch mode: glucose is fed slowly to maintain low concentration (≤1 g/L) to avoid catabolite repression of penicillin biosynthesis genes and extend the idiophase (production phase) after growth (trophophase) ceases. 2. Use lactose or corn steep liquor instead of glucose: lactose is metabolized slowly, preventing repression and providing precursors (cysteine, valine) for the β-lactam ring. A wrong answer suggesting \"add more glucose\" or \"increase temperature\" shows misunderstanding of secondary metabolite regulation (catabolite repression, idiophase/trophophase) and precursor supply.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the bioreactor operational requirements (aeration, agitation, pH control, foam control) for (i) ethanol production by yeast and (ii) citric acid production by *Aspergillus niger*. Explain how the morphology of the production organism dictates these differences.",
+     "a": "Ethanol (yeast): unicellular, low viscosity broth → high agitation/shear tolerated, anaerobic (no aeration needed after initial growth), pH ~4-5 controlled by acid production, moderate foam. Citric acid (*A. niger*): filamentous fungus → high viscosity, non-Newtonian broth → requires high aeration (O₂ for aerobic TCA cycle overflow) and high agitation for O₂ transfer but shear-sensitive pellets/mycelia; pH must be maintained <2.0 (acidic) to prevent gluconic acid byproduct and contamination; severe foaming due to proteins → mechanical/chemical antifoam essential. A wrong answer treating both as \"just stirring tanks\" ignores rheology, oxygen demand, and morphological sensitivity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Traditional fermented foods (idli, dahi, kinema) are primitive versions of modern industrial fermentation and offer no scientific advantage.\" Defend or refute using concepts of microbial consortia, metabolic interactions, and nutritional enhancement.",
+     "a": "Refute. Traditional fermentations use undefined mixed consortia (e.g., *Lactobacillus* + yeast in idli; *Leuconostoc* + *Lactobacillus* in kinema) where metabolic cross-feeding (synergy) produces complex flavors, textures, and bioavailable nutrients (vitamin B12 in kinema, phytate degradation in idli) that single-strain industrial processes often cannot replicate. They also represent resilient, low-energy processes adapted to local substrates. A wrong answer agreeing with the statement reveals a \"modern = superior\" bias and ignorance of microbial ecology and nutritional biochemistry in traditional systems.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal medium formulation (list 5 key components with concentrations) for a fed-batch production of L-glutamic acid by *Corynebacterium glutamicum*, justifying each component's role in triggering glutamate overflow (the \"biotin limitation\" strategy).",
+     "a": "1. Glucose (carbon source): 150 g/L total, fed gradually to maintain ~20 g/L (prevents catabolite repression, ensures high flux through glycolysis/TCA). 2. (NH₄)₂SO₄ (nitrogen): 30 g/L initial, then fed to maintain growth then limitation. 3. KH₂PO₄ (phosphate buffer): 5 g/L (pH control, phosphate limitation also triggers overflow). 4. MgSO₄·7H₂O: 1 g/L (Mg²⁺ cofactor for enzymes). 5. Biotin: 0.2 μg/L (suboptimal, ~1/10th optimal) → limits fatty acid synthesis → reduces NADPH consumption → increases NADPH/NADP⁺ ratio → stimulates isocitrate dehydrogenase → α-ketoglutarate accumulation → transamination to glutamate. A poor answer omits biotin limitation or uses rich media (corn steep liquor) without explaining the metabolic trigger.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

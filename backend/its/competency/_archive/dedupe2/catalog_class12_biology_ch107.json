@@ -1,0 +1,448 @@
+{
+ "class": 12,
+ "subject": "biology",
+ "chapter": 107,
+ "chapter_title": "Human Health and Disease",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lebo107.txt",
+ "concepts": [
+  {
+   "id": "lebo.107.1.1",
+   "title": "Bacterial Pathogens and Human Diseases",
+   "section": "7.1",
+   "definition": "Bacterial pathogens are microscopic single-celled organisms that cause physiological harm to human hosts, exemplified by Salmonella typhi causing typhoid and Streptococcus pneumoniae causing pneumonia.",
+   "formula": "None",
+   "key_idea": "Pathogenic bacteria enter the body, multiply, and disrupt normal bodily functions, which can be diagnosed using specific clinical tests.",
+   "textbook_ref": "lebo107.txt lines 129-150",
+   "question_patterns": [
+    "Identify the causative agent and diagnostic test for typhoid fever",
+    "Describe the symptoms and transmission of pneumonia in humans",
+    "How does Salmonella typhi infect the human body and what are its symptoms",
+    "Compare the target organs of typhoid and pneumonia infections",
+    "What are the primary bacterial pathogens discussed in human health"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the pathogen and its transmission route",
+     "explain": "Salmonella typhi causes typhoid via contaminated food/water; Streptococcus pneumoniae causes pneumonia via inhaled droplets."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the symptoms and affected organs",
+     "explain": "Typhoid affects the small intestine (high fever, stomach pain); pneumonia affects lung alveoli, filling them with fluid."
+    },
+    {
+     "step": 3,
+     "action": "Determine diagnostic or confirmatory tests",
+     "explain": "Typhoid is confirmed by the Widal test, whereas pneumonia is diagnosed via clinical symptoms and chest X-rays."
+    }
+   ]
+  },
+  {
+   "id": "lebo.107.1.2",
+   "title": "Viral and Protozoan Pathogens",
+   "section": "7.1",
+   "definition": "Infectious diseases caused by non-cellular viruses like Rhinovirus or single-celled protozoans like Plasmodium, which often require vectors to complete their life cycles.",
+   "formula": "None",
+   "key_idea": "Rhino viruses cause localized upper respiratory infections, while Plasmodium species cause systemic malaria requiring both human and mosquito hosts.",
+   "textbook_ref": "lebo107.txt lines 151-190",
+   "question_patterns": [
+    "Explain the life cycle of the malarial parasite Plasmodium",
+    "What is the role of the female Anopheles mosquito in malaria transmission",
+    "Contrast the infection sites of common cold and pneumonia",
+    "What causes the recurring chills and high fever in malaria patients",
+    "Describe how Rhinovirus spreads and its typical symptoms"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Trace the entry of the pathogen into the host",
+     "explain": "Plasmodium enters as sporozoites via mosquito bite; Rhinovirus enters via respiratory droplets or contaminated objects."
+    },
+    {
+     "step": 2,
+     "action": "Detail the site of multiplication and pathogenesis",
+     "explain": "Plasmodium multiplies in liver cells then attacks RBCs, releasing haemozoin; Rhinovirus infects the nose and respiratory passage but not the lungs."
+    },
+    {
+     "step": 3,
+     "action": "Identify the vector or transmission mechanism",
+     "explain": "Female Anopheles mosquito acts as the vector for malaria, while common cold is transmitted directly or through fomites."
+    }
+   ]
+  },
+  {
+   "id": "lebo.107.1.3",
+   "title": "Helminthic and Fungal Infections",
+   "section": "7.1",
+   "definition": "Diseases caused by multicellular parasitic worms (helminths) or microscopic fungi, leading to chronic inflammation or superficial skin lesions.",
+   "formula": "None",
+   "key_idea": "Helminths like Ascaris and Wuchereria cause internal blockages or lymphatic swelling, while fungi like Microsporum cause scaly skin infections.",
+   "textbook_ref": "lebo107.txt lines 191-230",
+   "question_patterns": [
+    "What are the symptoms and causative agents of elephantiasis",
+    "How is ascariasis transmitted and what are its clinical signs",
+    "Identify the fungal genera responsible for ringworm in humans",
+    "Explain how ringworm infections are acquired and maintained",
+    "Distinguish between the health impacts of Wuchereria bancrofti and Ascaris lumbricoides"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the causative helminthic or fungal agent",
+     "explain": "Ascaris causes ascariasis; Wuchereria causes filariasis; Microsporum, Trichophyton, or Epidermophyton cause ringworm."
+    },
+    {
+     "step": 2,
+     "action": "Describe the physiological impact and symptoms",
+     "explain": "Ascariasis causes intestinal blockage; filariasis causes chronic inflammation of lower limb lymphatic vessels; ringworm causes dry, scaly skin lesions with intense itching."
+    },
+    {
+     "step": 3,
+     "action": "Explain the mode of transmission and prevention",
+     "explain": "Helminths are transmitted via contaminated soil/water/vectors; fungi thrive in heat/moisture and spread via shared towels or soil."
+    }
+   ]
+  },
+  {
+   "id": "lebo.107.2.1",
+   "title": "Innate Immunity Barriers",
+   "section": "7.2.1",
+   "definition": "The non-specific, congenital defense system of the body comprising physical, physiological, cellular, and cytokine barriers that prevent pathogen entry and survival.",
+   "formula": "None",
+   "key_idea": "Innate immunity acts as the first line of defense present from birth, utilizing anatomical and chemical barriers to block diverse foreign agents.",
+   "textbook_ref": "lebo107.txt lines 250-280",
+   "question_patterns": [
+    "What are the four types of barriers in innate immunity",
+    "Explain the role of physical and physiological barriers in defending the body",
+    "How do interferons protect non-infected cells from viral attacks",
+    "Identify the cellular components involved in innate immune defense",
+    "Classify stomach acid, skin, and polymorphonuclear leukocytes into their respective barrier types"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Categorize the barrier types",
+     "explain": "Innate immunity has four barriers: physical (skin, mucus), physiological (acid, tears, saliva), cellular (WBCs, macrophages), and cytokine (interferons)."
+    },
+    {
+     "step": 2,
+     "action": "Describe the function of each barrier",
+     "explain": "Physical blocks entry; physiological prevents growth; cellular phagocytoses pathogens; cytokines prevent viral replication in neighboring cells."
+    }
+   ]
+  },
+  {
+   "id": "lebo.107.2.2",
+   "title": "Acquired Immunity and Antibody Structure",
+   "section": "7.2.2",
+   "definition": "A pathogen-specific, memory-based immune response mediated by B-lymphocytes (humoral) and T-lymphocytes (cell-mediated) that intensifies upon subsequent exposures.",
+   "formula": "Antibody structure = H2L2",
+   "key_idea": "Acquired immunity recognizes specific antigens and produces custom Y-shaped immunoglobulin proteins (antibodies) consisting of two heavy and two light chains.",
+   "textbook_ref": "lebo107.txt lines 281-325",
+   "question_patterns": [
+    "Describe the structure of an antibody molecule",
+    "What is the difference between primary and secondary immune responses",
+    "Explain the roles of B-lymphocytes and T-lymphocytes in acquired immunity",
+    "What is cell-mediated immunity and which cells are responsible for it",
+    "Why are tissue matching and immunosuppressants necessary for organ transplantation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the specificity and memory of acquired immunity",
+     "explain": "Primary response is low-intensity; secondary response is highly rapid and intense due to immunological memory."
+    },
+    {
+     "step": 2,
+     "action": "Detail the antibody structure",
+     "explain": "An antibody is a glycoprotein represented as H2L2, containing two heavy chains and two light chains linked by disulfide bonds."
+    },
+    {
+     "step": 3,
+     "action": "Differentiate humoral and cell-mediated immunity",
+     "explain": "B-cells produce antibodies in blood (humoral); T-cells mediate cell-mediated immunity (CMI), which is responsible for graft rejection."
+    }
+   ]
+  },
+  {
+   "id": "lebo.107.2.3",
+   "title": "Active and Passive Immunity and Vaccination",
+   "section": "7.2.3",
+   "definition": "Active immunity is developed when the host's own body produces antibodies in response to antigens, whereas passive immunity involves the direct transfer of pre-formed antibodies.",
+   "formula": "None",
+   "key_idea": "Vaccination utilizes the memory of the immune system by introducing weakened pathogens to stimulate active immunity, while passive immunization provides immediate protection.",
+   "textbook_ref": "lebo107.txt lines 326-365",
+   "question_patterns": [
+    "Distinguish between active and passive immunity with examples",
+    "Why is colostrum crucial for a newborn infant",
+    "Explain the basic principle of vaccination and immunisation",
+    "When is passive immunisation preferred over active vaccination",
+    "How has recombinant DNA technology improved vaccine production"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define active versus passive immunity",
+     "explain": "Active immunity is self-generated and slow (e.g., natural infection, vaccines); passive immunity is pre-formed and fast (e.g., colostrum IgA, antivenom)."
+    },
+    {
+     "step": 2,
+     "action": "Explain the mechanism of vaccination",
+     "explain": "Inactivated or weakened pathogens are introduced to generate memory B and T cells without causing full disease."
+    }
+   ]
+  },
+  {
+   "id": "lebo.107.2.4",
+   "title": "Allergies, Autoimmunity, and Lymphoid Organs",
+   "section": "7.2.5",
+   "definition": "Allergies are hypersensitive immune responses to environmental substances, autoimmunity is the failure to recognize self-cells, and lymphoid organs are where lymphocytes mature and proliferate.",
+   "formula": "None",
+   "key_idea": "Allergies involve IgE and mast cells; autoimmunity causes self-destruction; lymphoid organs are divided into primary (bone marrow, thymus) and secondary (spleen, lymph nodes, MALT).",
+   "textbook_ref": "lebo107.txt lines 366-420",
+   "question_patterns": [
+    "What is an allergy and which antibodies and chemicals are involved",
+    "Explain autoimmunity with an example of an autoimmune disease",
+    "Differentiate between primary and secondary lymphoid organs",
+    "What is MALT and what percentage of lymphoid tissue does it constitute",
+    "Describe the function of the spleen and thymus in the immune system"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain allergic reactions and autoimmunity",
+     "explain": "Allergies are mediated by IgE antibodies and histamine/serotonin from mast cells. Autoimmunity occurs when the body attacks self-cells (e.g., rheumatoid arthritis)."
+    },
+    {
+     "step": 2,
+     "action": "Classify lymphoid organs",
+     "explain": "Primary organs (bone marrow, thymus) are sites of lymphocyte maturation; secondary organs (spleen, lymph nodes, tonsils, Peyer's patches, MALT) are sites of antigen interaction."
+    }
+   ]
+  },
+  {
+   "id": "lebo.107.3.1",
+   "title": "Acquired Immuno Deficiency Syndrome (AIDS)",
+   "section": "7.3",
+   "definition": "A fatal, non-congenital syndrome caused by the Human Immunodeficiency Virus (HIV), a retrovirus that selectively destroys helper T-lymphocytes, leading to severe immunodeficiency.",
+   "formula": "None",
+   "key_idea": "HIV replicates via reverse transcription in macrophages and helper T-cells, progressively wiping out cellular immunity and leaving the host vulnerable to opportunistic pathogens.",
+   "textbook_ref": "lebo107.txt lines 421-480",
+   "question_patterns": [
+    "Explain the replication cycle of HIV in a host cell",
+    "What are the modes of transmission of HIV",
+    "Why is the HIV-infected macrophage referred to as an HIV factory",
+    "What diagnostic test is used to detect AIDS and how is it treated",
+    "Describe the symptoms and opportunistic infections associated with AIDS"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe HIV entry and reverse transcription",
+     "explain": "HIV enters macrophages or helper T-cells, where viral RNA is converted to viral DNA by reverse transcriptase."
+    },
+    {
+     "step": 2,
+     "action": "Explain viral integration and replication",
+     "explain": "Viral DNA integrates into the host genome, directing the cell to produce new viral particles, turning macrophages into HIV factories."
+    },
+    {
+     "step": 3,
+     "action": "Detail the clinical outcome of helper T-cell depletion",
+     "explain": "Helper T-lymphocyte (Th) count drops drastically, leading to severe immunodeficiency and opportunistic infections by Mycobacterium, fungi, etc."
+    }
+   ]
+  },
+  {
+   "id": "lebo.107.4.1",
+   "title": "Cancer Biology: Characteristics and Causes",
+   "section": "7.4",
+   "definition": "A disease characterized by the loss of contact inhibition, leading to uncontrolled cell division, tumor formation, and the potential to spread to distant tissues (metastasis).",
+   "formula": "None",
+   "key_idea": "Carcinogens transform normal cells into neoplastic cells, which form benign or malignant tumors, with the latter showing the highly dangerous property of metastasis.",
+   "textbook_ref": "lebo107.txt lines 481-540",
+   "question_patterns": [
+    "What is contact inhibition and how is it altered in cancer cells",
+    "Differentiate between benign and malignant tumors",
+    "Define metastasis and explain why it is the most feared property of cancer",
+    "What are carcinogens and how do they induce oncogenic transformation",
+    "Describe the techniques used for cancer detection and diagnosis"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Contrast normal and cancer cell behavior",
+     "explain": "Normal cells exhibit contact inhibition; cancer cells lose this property, dividing continuously to form tumors."
+    },
+    {
+     "step": 2,
+     "action": "Distinguish tumor types and define metastasis",
+     "explain": "Benign tumors remain localized; malignant tumors invade surrounding tissues and slough off cells into the blood to form secondary tumors (metastasis)."
+    },
+    {
+     "step": 3,
+     "action": "Identify causes and diagnostic tools",
+     "explain": "Carcinogens (physical, chemical, viral) damage DNA. Diagnosis uses biopsy, histopathology, CT, MRI, and molecular biology techniques."
+    }
+   ]
+  },
+  {
+   "id": "lebo.107.5.1",
+   "title": "Drugs and Alcohol Abuse",
+   "section": "7.5",
+   "definition": "The non-medicinal consumption of chemical substances like opioids, cannabinoids, and coca alkaloids that impairs physical, physiological, or psychological functions.",
+   "formula": "None",
+   "key_idea": "Abused drugs interact with specific receptors in the central nervous and cardiovascular systems, leading to psychological addiction and physiological dependence.",
+   "textbook_ref": "lebo107.txt lines 541-610",
+   "question_patterns": [
+    "Classify the commonly abused drugs and their receptors in the human body",
+    "What are the physiological effects of cannabinoids and opioids",
+    "Explain the source and action of cocaine on the nervous system",
+    "Define addiction and withdrawal syndrome in the context of drug abuse",
+    "What are the warning signs and long-term consequences of drug and alcohol abuse in adolescents"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Classify the major abused drugs",
+     "explain": "Opioids (e.g., heroin/smack from poppy) bind CNS/GI receptors; Cannabinoids (from Cannabis sativa) affect the cardiovascular system; Coca alkaloids (cocaine) interfere with dopamine transport."
+    },
+    {
+     "step": 2,
+     "action": "Explain addiction and dependence",
+     "explain": "Addiction is a psychological attachment to euphoric effects; dependence causes withdrawal symptoms (anxiety, shaking, nausea, sweating) if drug use is stopped abruptly."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lebo107.txt lines 290-310",
+   "concept": "lebo.107.2.2",
+   "question_type": "conceptual",
+   "question_pattern": "What is the structural representation of an antibody molecule and how are its peptide chains arranged?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Explain the specificity and memory of acquired immunity",
+     "explain": "Primary response is low-intensity; secondary response is highly rapid and intense due to immunological memory."
+    },
+    {
+     "step": 2,
+     "action": "Detail the antibody structure",
+     "explain": "An antibody is a glycoprotein represented as H2L2, containing two heavy chains and two light chains linked by disulfide bonds."
+    },
+    {
+     "step": 3,
+     "action": "Differentiate humoral and cell-mediated immunity",
+     "explain": "B-cells produce antibodies in blood (humoral); T-cells mediate cell-mediated immunity (CMI), which is responsible for graft rejection."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lebo107.txt lines 430-455",
+   "concept": "lebo.107.3.1",
+   "question_type": "conceptual",
+   "question_pattern": "Describe how HIV replicates inside host macrophages and why these cells are called HIV factories.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Describe HIV entry and reverse transcription",
+     "explain": "HIV enters macrophages or helper T-cells, where viral RNA is converted to viral DNA by reverse transcriptase."
+    },
+    {
+     "step": 2,
+     "action": "Explain viral integration and replication",
+     "explain": "Viral DNA integrates into the host genome, directing the cell to produce new viral particles, turning macrophages into HIV factories."
+    },
+    {
+     "step": 3,
+     "action": "Detail the clinical outcome of helper T-cell depletion",
+     "explain": "Helper T-lymphocyte (Th) count drops drastically, leading to severe immunodeficiency and opportunistic infections by Mycobacterium, fungi, etc."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex7.1",
+   "source_ref": "lebo107.txt lines 615-616",
+   "questions": [
+    "What are the various public health measures, which you would suggest as safeguard against infectious diseases?"
+   ]
+  },
+  {
+   "id": "ex7.2",
+   "source_ref": "lebo107.txt lines 617-618",
+   "questions": [
+    "In which way has the study of biology helped us to control infectious diseases?"
+   ]
+  },
+  {
+   "id": "ex7.3",
+   "source_ref": "lebo107.txt lines 619-620",
+   "questions": [
+    "How does the transmission of each of the following diseases take place? (a) Amoebiasis (b) Malaria (c) Ascariasis (d) Pneumonia"
+   ]
+  },
+  {
+   "id": "ex7.6",
+   "source_ref": "lebo107.txt lines 623",
+   "questions": [
+    "Name the primary and secondary lymphoid organs."
+   ]
+  },
+  {
+   "id": "ex7.8",
+   "source_ref": "lebo107.txt lines 627-628",
+   "questions": [
+    "Differentiate the following and give examples of each: (a) Innate and acquired immunity (b) Active and passive immunity"
+   ]
+  },
+  {
+   "id": "ex7.9",
+   "source_ref": "lebo107.txt lines 629",
+   "questions": [
+    "Draw a well-labelled diagram of an antibody molecule."
+   ]
+  },
+  {
+   "id": "ex7.11",
+   "source_ref": "lebo107.txt lines 631-632",
+   "questions": [
+    "What is the mechanism by which the AIDS virus causes deficiency of immune system of the infected person?"
+   ]
+  },
+  {
+   "id": "ex7.12",
+   "source_ref": "lebo107.txt lines 633",
+   "questions": [
+    "How is a cancerous cell different from a normal cell?"
+   ]
+  },
+  {
+   "id": "ex7.13",
+   "source_ref": "lebo107.txt lines 634",
+   "questions": [
+    "Explain what is meant by metastasis."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

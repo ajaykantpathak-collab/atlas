@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_english_u2_019",
+ "concepts": [
+  {
+   "id": "enh:c6_english_u2_019",
+   "title": "c6_english_u2_019",
+   "questions": [
+    {
+     "q": "What punctuation mark must always be used to show that a character is speaking?",
+     "a": "Quotation marks (also called speech marks or inverted commas: \" \"). A wrong answer (like using only commas or dashes) suggests the student does not know how to distinguish between narration and actual speech.",
+     "self_check": true
+    },
+    {
+     "q": "Why is dialogue between two characters who do not understand each other often considered \"humorous\"?",
+     "a": "It is humorous because the audience knows the truth while the characters stay confused, creating a funny gap in logic. A wrong answer suggests the student thinks humor is only about telling jokes, rather than situational comedy.",
+     "self_check": true
+    },
+    {
+     "q": "Convert this sentence into direct dialogue: \"Rahul told his sister that he had eaten the last mango.\"",
+     "a": "Steps: 1. Identify the speaker (Rahul). 2. Identify the listener (his sister). 3. Identify the message (I ate the last mango). 4. Format: Rahul said, \"I ate the last mango.\" A wrong answer shows the student is struggling with the transition from indirect to direct speech.",
+     "self_check": true
+    },
+    {
+     "q": "If a character in a story is very serious, how can you use dialogue to make the scene humorous?",
+     "a": "Place the serious character in a silly situation where they try to use complex language to solve a simple, ridiculous problem. A wrong answer suggests the student assumes humor only comes from silly characters, missing the \"clash of personalities\" technique.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this dialogue: Character A says \"Hello.\" Character B says \"Hi.\" Why does this fail to \"move the story forward\"?",
+     "a": "It fails because it contains no new information, conflict, or character development; it is just a greeting. A wrong answer suggests the student thinks any exchange of words counts as \"storytelling.\"",
+     "self_check": true
+    },
+    {
+     "q": "Write a two-line dialogue where one character thinks they are at a train station but the other knows they are actually in a library.",
+     "a": "Criteria: The dialogue must clearly show the location confusion (e.g., \"Why is the train so quiet?\" vs \"Sir, this is a library!\"). A poor answer fails to show the specific misunderstanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

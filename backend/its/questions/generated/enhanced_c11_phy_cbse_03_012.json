@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_03_012",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_03_012",
+   "title": "c11_phy_cbse_03_012",
+   "questions": [
+    {
+     "q": "Write the standard form of the trajectory equation for a projectile launched from the origin with speed \\(v_0\\) at angle \\(\\theta_0\\). Identify the physical meaning of the coefficient of \\(x\\) and the coefficient of \\(x^2\\).",
+     "a": "The equation is \\(y = (\\tan\\theta_0)x - \\left(\\frac{g}{2v_0^2\\cos^2\\theta_0}\\right)x^2\\). The coefficient of \\(x\\) is \\(\\tan\\theta_0\\), which equals the initial slope of the trajectory (ratio of initial vertical to horizontal velocity). The coefficient of \\(x^2\\) is \\(-\\frac{g}{2v_0^2\\cos^2\\theta_0}\\), which is negative, showing the parabola opens downward; its magnitude determines the \"tightness\" of the curve — larger \\(g\\) or smaller \\(v_0\\) makes the path bend more sharply. A wrong answer (e.g., missing the \\(\\cos^2\\theta_0\\) in the denominator) reveals the student has memorised the formula without understanding the substitution \\(t = x/(v_0\\cos\\theta_0)\\).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The trajectory equation \\(y = x\\tan\\theta - \\frac{gx^2}{2u^2\\cos^2\\theta}\\) is valid even if the projectile is launched from a cliff of height \\(h\\) above the ground.\" Is this correct? Explain why or why not.",
+     "a": "Incorrect. The given equation assumes the origin (0,0) is the launch point. If launched from a height \\(h\\), the vertical displacement from the *ground* is \\(y_{\\text{ground}} = h + x\\tan\\theta - \\frac{gx^2}{2u^2\\cos^2\\theta}\\). The trajectory *relative to the launch point* is still parabolic with the same shape, but the equation in ground coordinates has an added constant \\(h\\). A student who says \"yes\" is confusing the coordinate system — they haven't distinguished between the projectile's intrinsic parabolic path and its equation in a specific reference frame.",
+     "self_check": true
+    },
+    {
+     "q": "A stone is projected from ground level with a speed of \\(20 \\, \\text{m/s}\\) at an angle of \\(30^\\circ\\) to the horizontal. Using the trajectory equation, find the height of the stone when it has travelled a horizontal distance of \\(15 \\, \\text{m}\\). Take \\(g = 10 \\, \\text{m/s}^2\\).",
+     "a": "Given: \\(u = 20 \\, \\text{m/s}\\), \\(\\theta = 30^\\circ\\), \\(x = 15 \\, \\text{m}\\), \\(g = 10 \\, \\text{m/s}^2\\).  \n\\(\\tan30^\\circ = 1/\\sqrt{3} \\approx 0.577\\), \\(\\cos30^\\circ = \\sqrt{3}/2\\), \\(\\cos^2 30^\\circ = 3/4\\).  \nCoefficient of \\(x^2\\): \\(\\frac{g}{2u^2\\cos^2\\theta} = \\frac{10}{2 \\times 400 \\times (3/4)} = \\frac{10}{600} = \\frac{1}{60} \\, \\text{m}^{-1}\\).  \n\\(y = (0.577)(15) - \\frac{1}{60}(15)^2 = 8.66 - \\frac{225}{60} = 8.66 - 3.75 = 4.91 \\, \\text{m}\\).  \nA wrong answer (e.g., 8.66 m) suggests the student forgot the \\(-x^2\\) term or miscalculated the coefficient, indicating they treat the trajectory as a straight line or mishandle the algebra.",
+     "self_check": true
+    },
+    {
+     "q": "Two projectiles A and B are launched with the same initial speed \\(u\\) but at angles \\(\\theta\\) and \\(90^\\circ-\\theta\\) respectively. Compare their trajectory equations. At what horizontal distance \\(x\\) (other than \\(x=0\\)) do their paths intersect?",
+     "a": "For A: \\(y_A = x\\tan\\theta - \\frac{gx^2}{2u^2\\cos^2\\theta}\\).  \nFor B: \\(y_B = x\\tan(90^\\circ-\\theta) - \\frac{gx^2}{2u^2\\cos^2(90^\\circ-\\theta)} = x\\cot\\theta - \\frac{gx^2}{2u^2\\sin^2\\theta}\\).  \nSet \\(y_A = y_B\\): \\(x(\\tan\\theta - \\cot\\theta) = \\frac{gx^2}{2u^2}\\left(\\frac{1}{\\cos^2\\theta} - \\frac{1}{\\sin^2\\theta}\\right)\\).  \nUsing \\(\\frac{1}{\\cos^2\\theta} - \\frac{1}{\\sin^2\\theta} = \\frac{\\sin^2\\theta - \\cos^2\\theta}{\\sin^2\\theta\\cos^2\\theta} = -(\\tan\\theta - \\cot\\theta)(\\tan\\theta + \\cot\\theta)\\).  \nCancel \\(x(\\tan\\theta - \\cot\\theta)\\) (non-zero for \\(\\theta \\neq 45^\\circ\\)): \\(1 = -\\frac{gx}{2u^2}(\\tan\\theta + \\cot\\theta)\\).  \nSince \\(\\tan\\theta + \\cot\\theta = \\frac{1}{\\sin\\theta\\cos\\theta} = \\frac{2}{\\sin2\\theta}\\), we get \\(x = \\frac{u^2\\sin2\\theta}{g}\\), which is exactly the range \\(R\\). The paths intersect at the launch point and at the landing point (same range). A student who finds a different \\(x\\) likely made an algebraic error in handling the trigonometric identities.",
+     "self_check": true
+    },
+    {
+     "q": "A projectile's trajectory is given by \\(y = 2x - 0.02x^2\\) (SI units). A student calculates the maximum height by setting \\(dy/dx = 0\\) and finds \\(x = 50 \\, \\text{m}\\), then \\(y = 50 \\, \\text{m}\\). Another student uses the formula \\(H = \\frac{u^2\\sin^2\\theta}{2g}\\) and gets a different answer. Which method is correct? Explain.",
+     "a": "Both methods are correct *if* the parameters are extracted correctly. From \\(y = 2x - 0.02x^2\\), comparing with \\(y = x\\tan\\theta - \\frac{g}{2u^2\\cos^2\\theta}x^2\\):  \n\\(\\tan\\theta = 2 \\Rightarrow \\theta \\approx 63.4^\\circ\\).  \n\\(\\frac{g}{2u^2\\cos^2\\theta} = 0.02\\). With \\(g = 10\\), \\(\\cos\\theta = 1/\\sqrt{5}\\), \\(\\cos^2\\theta = 1/5\\).  \n\\(\\frac{10}{2u^2(1/5)} = 0.02 \\Rightarrow \\frac{25}{u^2} = 0.02 \\Rightarrow u^2 = 1250\\).  \nThen \\(H = \\frac{u^2\\sin^2\\theta}{2g} = \\frac{1250 \\times (4/5)}{20} = \\frac{1000}{20} = 50 \\, \\text{m}\\). Both agree.  \nIf the second student got a different answer, they likely used \\(g=9.8\\) inconsistently or misidentified \\(\\tan\\theta\\). This tests whether the student can connect the algebraic form of the parabola to the physical parameters.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a smartphone camera and a ball thrown in a darkened room with a strobe light (or video analysis) to verify that the trajectory is parabolic. What measurements would you take, and how would you plot the data to confirm the quadratic relationship?",
+     "a": "Record a video of a ball thrown at an angle (e.g., 30°) against a grid background. Use video analysis software (like Tracker) to mark the ball's position \\((x, y)\\) in each frame. Plot \\(y\\) vs \\(x\\). Fit a quadratic curve \\(y = ax + bx^2\\). The coefficient \\(b\\) should be negative. Calculate theoretical \\(b_{\\text{theory}} = -\\frac{g}{2u^2\\cos^2\\theta}\\) using measured \\(u\\) and \\(\\theta\\). Compare \\(b_{\\text{exp}}\\) and \\(b_{\\text{theory}}\\). A good answer includes: controlling for camera angle (perpendicular to plane of motion), calibrating pixels to meters using the grid, and acknowledging air resistance causes slight deviation at high speeds. A poor answer suggests plotting \\(y\\) vs \\(t\\) (which is also quadratic but doesn't test the *trajectory* equation) or ignores calibration.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

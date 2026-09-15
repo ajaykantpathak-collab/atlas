@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch3_3",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch3_3",
+   "title": "c9_bio_ch3_3",
+   "questions": [
+    {
+     "q": "Define sexual reproduction and state the immediate product of gamete fusion.",
+     "a": "Sexual reproduction involves the fusion of male and female gametes to form a zygote. A wrong answer (e.g., \"offspring are produced from a single parent\" or \"fusion produces a seed directly\") reveals confusion between sexual and asexual reproduction or ignorance of the zygote as the first diploid cell.",
+     "self_check": true
+    },
+    {
+     "q": "Why is genetic variation considered the most significant outcome of sexual reproduction for a species' long-term survival?",
+     "a": "Genetic variation provides the raw material for natural selection; when environments change (e.g., new pathogen, temperature shift), some variants may possess traits that confer survival advantage, allowing the population to persist. A wrong answer focusing only on \"producing more offspring\" or \"repairing DNA\" shows the student misses the evolutionary link between variation and adaptation.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer grows a banana plantation using suckers (vegetative propagation). After three years, a fungal disease wipes out the entire crop. Explain why this happened using the concept of genetic uniformity.",
+     "a": "Vegetative propagation produces genetically identical clones; if the parent plant lacks resistance to the fungus, all offspring are equally susceptible, leading to total crop failure. Sexual reproduction would have generated varied offspring, some possibly resistant. A wrong answer blaming \"weak plants\" or \"bad soil\" shows inability to connect genetic uniformity to vulnerability.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the genetic consequences of sexual reproduction and asexual reproduction in a population facing a sudden environmental change. Which mode offers better evolutionary potential and why?",
+     "a": "Sexual reproduction creates new allele combinations through meiosis and fertilisation, increasing the chance that some individuals have adaptive traits. Asexual reproduction produces clones, so the population's genetic composition remains static unless mutation occurs. A wrong answer claiming asexual is better because it's \"faster\" ignores the long-term evolutionary disadvantage of low variation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Sexual reproduction is energetically costly and slower than asexual reproduction, so it should have been eliminated by natural selection.\" Is this argument valid? Justify.",
+     "a": "The argument is invalid because it ignores the long-term benefit of genetic variation. While asexual reproduction is efficient in stable environments, sexual reproduction's generation of diversity provides insurance against unpredictable changes, explaining its persistence in most multicellular eukaryotes. A wrong answer agreeing with the statement shows a misunderstanding of evolutionary trade-offs and the concept of fitness over generations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using readily available materials (e.g., yeast, sugar, water) to demonstrate that sexual reproduction in yeast produces genetically diverse offspring compared to asexual budding. Outline the steps and the expected observation.",
+     "a": "A good answer: Grow yeast in two conditions – one promoting asexual budding (rich medium) and one inducing sexual reproduction (nitrogen starvation). After several generations, plate samples on media with a stressor (e.g., high salt). Colonies from sexually reproduced yeast will show varied growth patterns (some resistant, some not), while asexual colonies will be uniformly sensitive or resistant. A poor answer that only counts colony numbers misses the need to test for phenotypic variation linked to genetic diversity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

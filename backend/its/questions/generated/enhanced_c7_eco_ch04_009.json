@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch04_009",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch04_009",
+   "title": "c7_eco_ch04_009",
+   "questions": [
+    {
+     "q": "What is a \"share\" in the context of a stock market?",
+     "a": "A share represents a single unit of ownership in a company, meaning the buyer owns a tiny fraction of that business. A student who answers that a share is just a lottery ticket or a bank savings certificate misunderstands that buying shares makes a person a part-owner (shareholder) entitled to a portion of the company's profits and growth.",
+     "self_check": true
+    },
+    {
+     "q": "Why do companies issue shares to the general public through a stock market instead of just keeping their profits?",
+     "a": "Companies issue shares to raise large amounts of capital quickly to fund major expansions, buy heavy machinery, or build infrastructure that internal profits alone cannot cover rapidly enough. A student who believes companies do this merely to show off their brand name misses the core economic function of the stock market as a mechanism for raising long-term productive capital.",
+     "self_check": true
+    },
+    {
+     "q": "A company named AgroTech Ltd. issues 10,000 new shares at an initial price of ₹50 per share to build a new irrigation processing plant. If all shares are fully purchased by investors, how much total capital does AgroTech Ltd. raise for its business expansion?",
+     "a": "Step 1: Identify the number of shares issued, which is 10,000 shares. Step 2: Identify the price per share, which is ₹50. Step 3: Multiply the number of shares by the price per share (10,000 × ₹50 = ₹5,00,000). Step 4: Conclude that the total capital raised is ₹5,00,000. A student who adds the numbers or divides them confuses the total capital calculation with share pricing mechanics.",
+     "self_check": true
+    },
+    {
+     "q": "How does the stock market help transform idle household savings into national economic growth?",
+     "a": "Household savings sitting idle in cash or low-yielding accounts are channeled through stock exchanges to buy corporate shares, providing businesses with the financial resources to build physical infrastructure and factories, which in turn creates jobs and boosts national production (GDP). A student who thinks the stock market is just an isolated gambling den fails to see its vital economic role in capital formation and resource allocation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Buying shares in a stock market is completely risk-free because companies always make a profit.\" Is this correct, and why?",
+     "a": "This statement is incorrect because share values fluctuate based on company performance, market demand, and economic conditions; if a company suffers losses, the share price can fall, and investors can lose money. A student who agrees with the statement ignores the basic economic principle that financial reward is tied directly to financial risk.",
+     "self_check": true
+    },
+    {
+     "q": "Suppose you have saved ₹5,000 from your pocket money and chores over two years. Propose a balanced approach to using this money between a bank fixed deposit (learned in previous chapters) and investing in stock market shares, explaining your economic reasoning.",
+     "a": "A strong response would suggest putting ₹3,000 in a safe bank fixed deposit for guaranteed, stable interest and ₹2,000 in shares of a stable company to learn about investment and seek higher returns, balancing safety with growth. A poor response would suggest putting all money into a single risky share or keeping it all under a mattress, showing no understanding of risk diversification or asset allocation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_01_005",
+   "title": "c11_ps_cbse_01_005",
+   "questions": [
+    {
+     "q": "Identify whether each statement is normative (N) or descriptive (D): (a) \"India's voter turnout in 2024 was 65.79%.\" (b) \"Democracy requires compulsory voting to be legitimate.\" (c) \"The 73rd Amendment reserved 33% panchayat seats for women.\" (d) \"A just society guarantees healthcare as a right.\"",
+     "a": "(a) D — verifiable statistic; (b) N — \"requires\" and \"legitimate\" express a value judgment about what democracy *should* do; (c) D — factual constitutional provision (Article 243D); (d) N — \"just society\" and \"guarantees as a right\" are prescriptive value claims. A wrong answer reveals confusion between empirical claims (testable by evidence) and evaluative claims (dependent on moral principles).",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Political theory should be purely descriptive — like physics — because normative statements are just opinions and cannot be proven true or false.\" Explain why this view misunderstands the nature of political concepts like 'justice' or 'rights' using the NCERT's discussion of equality (pages 10-11).",
+     "a": "The NCERT shows equality has \"many layers of meaning\" — equal opportunity, special provisions for disabled, fair distribution for the poor — discovered by reflecting on lived experience and moral reasoning, not just measuring outcomes. Descriptive data alone cannot tell us *which* conception of equality a society should adopt (e.g., formal vs. substantive equality). A wrong answer reveals the misconception that political concepts are like natural kinds (e.g., \"water = H2O\") rather than essentially contested concepts requiring normative justification.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze this argument: \"The Constitution guarantees equality before law (Article 14). But NFHS-5 data shows 30% of Dalit women receive no antenatal care vs. 8% for upper-caste women. Therefore, India has failed to achieve constitutional equality.\" Label each premise as normative (N) or descriptive (D), and identify the implicit normative standard linking them.",
+     "a": "Premise 1 (Article 14): D (legal fact). Premise 2 (NFHS data): D (empirical fact). Conclusion \"failed to achieve constitutional equality\": N — implicitly uses a *substantive* normative standard (equality of outcomes/opportunity) not reducible to formal legal equality. The implicit standard: \"Constitutional equality requires not just identical legal treatment but comparable life chances.\" A wrong answer misses that the argument smuggles a normative interpretation of \"equality\" into a seemingly descriptive conclusion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how a normative theorist and a descriptive researcher would study \"freedom of speech in Indian universities.\" Specify: (a) the central question each asks, (b) the method each uses, (c) the kind of conclusion each reaches.",
+     "a": "Normative: (a) \"What *should* be the limits of student speech to balance academic freedom and dignity?\" (b) Philosophical reasoning — analyzing principles (harm principle, dignity, autonomy), precedents (Shreya Singhal), constitutional text (Article 19(1)(a) vs 19(2)). (c) A principled framework for justifiable restrictions. Descriptive: (a) \"How *do* universities actually regulate speech, and what are the effects?\" (b) Empirical — content analysis of university codes, surveys of student self-censorship, case studies of disciplinary actions. (c) Patterns of implementation, chilling effects, disparities across institutions. A wrong answer conflates the two — e.g., saying descriptive research \"determines the right policy.\"",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Since descriptive political science can tell us which policies reduce poverty (e.g., MGNREGA increased rural wages by X%), we don't need normative theory — just implement what works.\" Consider: (i) the fact-value gap, (ii) trade-offs between values, (iii) democratic legitimacy.",
+     "a": "The claim fails because: (i) \"What works\" presupposes a normative goal (poverty reduction) — but *which* goal? Why not inequality reduction or dignity? Descriptive data cannot choose ends. (ii) Policies involve trade-offs: MGNREGA may raise wages but increase fiscal deficit or distort labor markets — choosing requires weighing values (efficiency vs. equity). (iii) Democratic legitimacy requires citizens to *deliberate* on normative priorities, not just defer to technocratic \"what works.\" A wrong answer treats policy as purely technical optimization, ignoring that \"effectiveness\" is defined relative to contested values.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 150-word op-ed paragraph on \"Should India lower the voting age to 16?\" that explicitly separates descriptive claims (evidence from Austria, Scotland, cognitive science) from normative claims (principles of democratic inclusion, autonomy, civic education), and shows how they interact in your final recommendation.",
+     "a": "A strong answer: (1) States descriptive findings — e.g., \"Austria's 2007 reform showed 16-year-olds vote at higher rates than 18-24s; neuroscience suggests cold cognition (voting) matures by 16.\" (2) States normative principle — e.g., \"Democracy's legitimacy rests on including all affected by decisions; 16-year-olds pay taxes, work, and face climate consequences.\" (3) Shows interaction — \"Evidence shows they *can* vote responsibly (descriptive), and justice demands they *should* have a say (normative); therefore, lower the age with strengthened civic education.\" A poor answer mixes them (\"Science proves 16-year-olds are mature enough, so it's fair\") or omits one dimension entirely.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

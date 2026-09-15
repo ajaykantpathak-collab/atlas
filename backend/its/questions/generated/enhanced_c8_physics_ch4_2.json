@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch4_2",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch4_2",
+   "title": "c8_physics_ch4_2",
+   "questions": [
+    {
+     "q": "What is the SI unit of pressure, and how is it defined in terms of the newton and the metre?",
+     "a": "The SI unit of pressure is the pascal (Pa), defined as one newton per square metre (1 Pa = 1 N/m²). A wrong answer such as \"newton\" or \"joule\" reveals the student confuses pressure with force or energy, not recognising that pressure is a *distributed* quantity requiring both force and area in its definition.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the pascal considered a *derived* SI unit and not a base unit? Explain using the definition of pressure.",
+     "a": "Pressure is defined as force per unit area (P = F/A). Force (newton) is itself a derived unit (kg·m/s²), and area is m². Therefore, 1 Pa = 1 N/m² = (kg·m/s²)/m² = kg·m⁻¹·s⁻², which is a combination of base units (kg, m, s). A student who says \"pascal is a base unit\" does not understand the hierarchy of SI units or that pressure depends on other defined quantities.",
+     "self_check": true
+    },
+    {
+     "q": "A force of 250 N acts uniformly on a rectangular surface of dimensions 2 m by 1.5 m. Calculate the pressure in pascals.",
+     "a": "Step 1: Area = length × breadth = 2 m × 1.5 m = 3 m².  \nStep 2: Pressure = Force / Area = 250 N / 3 m².  \nStep 3: 250 ÷ 3 = 83.33... N/m² = 83.33 Pa.  \nA wrong answer like 125 Pa (using only one dimension) or 166.67 Pa (using perimeter) reveals the student cannot identify the correct area for the pressure formula or confuses area with linear dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pressure exerted by a 50 kg girl standing on one heel (area 1 cm²) versus standing on both feet (total area 200 cm²). Use g = 10 m/s². Which situation produces higher pressure and by what factor?",
+     "a": "Force = mg = 50 kg × 10 m/s² = 500 N.  \nOne heel: Area = 1 cm² = 0.0001 m² → Pressure = 500 / 0.0001 = 5,000,000 Pa = 5 MPa.  \nBoth feet: Area = 200 cm² = 0.02 m² → Pressure = 500 / 0.02 = 25,000 Pa = 25 kPa.  \nPressure on one heel is 200 times higher (area ratio 200:1). A wrong answer often stems from forgetting to convert cm² to m² (1 m² = 10,000 cm²), leading to pressures 10,000 times too small, or not recognising the inverse relationship between pressure and area.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the pressure as 2000 Pa for a force of 100 N acting on an area of 0.02 m². Is this correct? If not, identify the error.",
+     "a": "The correct pressure is 100 N / 0.02 m² = 5000 Pa. The student's answer of 2000 Pa is incorrect. They likely multiplied force by area (100 × 0.02 = 2) or divided area by force (0.02 / 100 = 0.0002), showing a fundamental misunderstanding of the formula P = F/A and the inverse relationship between pressure and area.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate that the same force produces different pressures on different areas. List the materials, procedure, and how you would estimate the pressure in pascals.",
+     "a": "A good answer: Use a kitchen scale to measure force (e.g., press down until scale reads 5 kg → 50 N). Press a flat coin (area ~2 cm² = 0.0002 m²) and a pin head (area ~0.1 mm² = 1×10⁻⁷ m²) into soft clay or dough. Measure depth of indentation as a proxy for pressure. Calculate: Coin pressure = 50/0.0002 = 250,000 Pa; Pin pressure = 50/1×10⁻⁷ = 5×10⁸ Pa. A poor answer lacks a way to measure force in newtons, uses area in cm² without conversion, or does not connect the observation to the calculated pascal values.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

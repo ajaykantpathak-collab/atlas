@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_05_010",
+   "title": "c11_psy_cbse_05_010",
+   "questions": [
+    {
+     "q": "State the partial reinforcement effect and name the two reinforcement schedules it compares.",
+     "a": "The partial reinforcement effect states that responses acquired under partial (intermittent) reinforcement are more resistant to extinction than those acquired under continuous reinforcement. A wrong answer (e.g., \"continuous reinforcement is more resistant to extinction\") reveals the student has confused acquisition speed (faster under continuous) with extinction resistance, a classic reversal error in operant conditioning.",
+     "self_check": true
+    },
+    {
+     "q": "A student says, \"If I am motivated to learn, preparedness doesn't matter—I can learn anything.\" Using the concept of preparedness as a continuum, explain why this statement is incorrect.",
+     "a": "Preparedness is a species-specific continuum: at one end are associations the organism is genetically ready to learn easily (e.g., humans learning language), at the other end are associations it cannot learn at all (e.g., rats learning to avoid nausea via auditory cues), and in the middle are tasks learnable only with great difficulty. The student's claim ignores biological constraints; a wrong answer indicates they view learning as a blank-slate process, missing the evolutionary perspective central to Class 11 psychology.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher uses continuous reinforcement (praise after every correct answer) for a week, then stops praising. A second teacher uses partial reinforcement (praise after unpredictable correct answers) for a week, then stops. Predict which class will show faster extinction of participation and justify using the concept of \"discriminability of reinforcement discontinuation.\"",
+     "a": "The continuous reinforcement class will show faster extinction. Under continuous reinforcement, the absence of praise is immediately discriminable as \"reinforcement has stopped,\" so the response weakens quickly. Under partial reinforcement, non-reinforced trials are normal, so the learner cannot easily discriminate \"reinforcement stopped\" from \"just another unreinforced trial,\" leading to greater persistence. A wrong prediction reveals confusion between acquisition rate and extinction resistance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the symptom profiles of a learning disability (e.g., dyslexia) and an intellectual disability. Identify three specific symptoms that differentiate them, referencing the NCERT criteria for learning disabilities.",
+     "a": "Three differentiating symptoms: (1) Learning-disabled children have average to superior intelligence; intellectual disability involves below-average intellectual functioning. (2) Learning disabilities show specific deficits (e.g., letter reversal b/d, poor phonological decoding) despite adequate sensory/motor systems; intellectual disability shows global delays. (3) Learning-disabled children often have attentional deficits and hyperactivity as comorbid features; intellectual disability does not necessarily include hyperactivity. A wrong answer that lists \"low IQ\" for learning disability reveals the most common misconception: conflating learning disability with intellectual disability.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Intrinsic motivation is always superior to extrinsic motivation for facilitating long-term learning.\" Use the concepts of reinforcement delay, goal internalisation, and the overjustification effect in your evaluation.",
+     "a": "The claim is partially true but oversimplified. Intrinsic motivation supports persistence when reinforcement is delayed (e.g., studying for a distant exam) because the activity itself is reinforcing. However, extrinsic motivation can be internalised (e.g., \"I study to become a doctor\" becomes a personal value), sustaining effort. Overjustification effect shows extrinsic rewards can undermine intrinsic motivation if the task was already interesting. A nuanced evaluation recognises both can facilitate learning depending on task type, delay, and internalisation stage. A one-sided answer reveals rigid thinking without integrating motivational dynamics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-week study schedule for a Class 11 student preparing for Psychology and Mathematics that applies (a) partial reinforcement for self-testing, (b) intrinsic motivation for Psychology, and (c) extrinsic motivation with internalisation for Mathematics. Specify the reinforcement schedule type (fixed/variable ratio/interval) for each subject.",
+     "a": "Psychology (intrinsic): Variable-ratio self-testing—after every 3-7 concept maps, take a 5-min quiz; reward = satisfaction of mastery. Mathematics (extrinsic→internalised): Fixed-interval schedule—every Sunday, take a timed mock test; reward = tracking score improvement toward JEE target. Week 1-2: External reward (favourite meal) for completing mock. Week 3-4: Shift to internalised reward (pride in progress graph). A poor answer uses continuous reinforcement (daily rewards) or ignores the shift from extrinsic to internalised, missing the applied integration of schedules and motivation types.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

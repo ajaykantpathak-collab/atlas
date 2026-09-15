@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_05_007",
+   "title": "c11_ps_cbse_05_007",
+   "questions": [
+    {
+     "q": "What are the three categories of second-generation rights under the International Covenant on Economic, Social and Cultural Rights (ICESCR)?",
+     "a": "The three categories are: (1) Economic rights (e.g., right to work, fair wages, social security – ICESCR Articles 6-9), (2) Social rights (e.g., right to health, education, adequate standard of living, housing – Articles 11-12), and (3) Cultural rights (e.g., right to participate in cultural life, benefit from scientific progress – Article 15). A wrong answer listing civil/political rights (voting, speech) reveals confusion between first and second-generation rights and failure to grasp the positive/negative distinction from node 003.",
+     "self_check": true
+    },
+    {
+     "q": "Why are economic, social and cultural rights classified as \"positive rights\" and how does this create a different type of state obligation compared to civil and political rights?",
+     "a": "ESCR are positive rights because they require the state to take *active steps* and allocate resources (legislate, fund, build institutions) to fulfill them – e.g., building hospitals for the right to health. Civil/political rights are largely negative rights requiring the state to *refrain* from interference (e.g., not censoring speech). A wrong answer indicates the student hasn't internalized the positive/negative rights distinction (node 003) and cannot explain why ESCR justify taxation and redistribution while civil rights primarily justify judicial review.",
+     "self_check": true
+    },
+    {
+     "q": "A state government fails to operationalize a central government maternity benefit scheme for informal women workers despite allocated funds. Workers file a writ petition in the High Court under Article 226. Identify the specific constitutional provisions (Fundamental Rights and Directive Principles) the court would use to enforce this economic right, and explain the reasoning.",
+     "a": "The court would use: (1) Article 21 (Right to Life) – expanded to include right to livelihood, health, and dignity of women workers; (2) Article 39(a) (Directive Principle) – state policy to secure adequate means of livelihood; (3) Article 42 (Directive Principle) – just and humane conditions of work and maternity relief; (4) Article 47 – raising nutrition/standard of living. Reasoning: The court reads Directive Principles into Article 21 as *interpretive aids* (per *Unni Krishnan* and *Municipal Council, Ratlam*), converting non-justiciable directives into enforceable obligations when fundamental rights are at stake. A wrong answer citing only Fundamental Rights misses the synergistic role of Directive Principles in ESCR adjudication.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the justiciability of civil/political rights (Article 32) with economic/social rights in India. Why did the Constituent Assembly make Directive Principles non-justiciable (Article 37), and how has the judiciary overcome this textual limitation?",
+     "a": "Civil/political rights are directly enforceable via Article 32 (Fundamental Rights). Directive Principles (Article 37) were made non-justiciable due to resource constraints and the nascent state's limited capacity in 1950. The judiciary overcame this through: (1) *Harmonious Construction* (Kesavananda Bharati) – Fundamental Rights and Directive Principles are complementary; (2) *Reading Directive Principles into Article 21* – e.g., *Olga Tellis* (livelihood), *Paschim Banga Khet Mazdoor Samity* (health), *Unni Krishnan* (education); (3) *Core Minimum Obligations* doctrine – state cannot plead resource scarcity for basic minima (food, shelter, emergency healthcare). A wrong answer shows ignorance of the historical compromise and the judicial innovation that makes ESCR enforceable in India despite Article 37.",
+     "self_check": true
+    },
+    {
+     "q": "\"The progressive realization clause in ICESCR Article 2(1) makes economic rights merely aspirational rather than legally enforceable.\" Evaluate this statement with reference to Indian constitutional jurisprudence and the concept of 'core minimum obligations'.",
+     "a": "The statement is partially valid in pure international law but **incorrect in Indian constitutional practice**. ICESCR Art. 2(1) permits progressive realization \"to the maximum of available resources.\" However, the Committee on ESCR (General Comment No. 3) and Indian courts distinguish *core minimum obligations* (immediate, non-derogable) from *progressive obligations*. In India, the Supreme Court in *Paschim Banga Khet Mazdoor Samity (1996)* held: \"Article 21 imposes a positive obligation on the state to provide adequate medical aid... the state cannot plead financial constraints to escape this core obligation.\" Similarly, *People's Union for Civil Liberties (2001)* treated freedom from hunger as an immediate Article 21 right. A wrong answer fails to distinguish between the *international* standard of progressive realization and the *domestic* constitutional standard of core minima enforceability.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph legal argument for a Public Interest Litigation (PIL) claiming that a state government's failure to regulate industrial air pollution violates the right to health under Article 21. Cite at least two Directive Principles and one international covenant provision.",
+     "a": "**Expected argument structure:** \"The unregulated emission of particulate matter (PM2.5) by industrial units in [District] causes respiratory diseases, violating the fundamental right to health under Article 21 (*Consumer Education and Research Centre v. Union of India*). This positive obligation is reinforced by Directive Principles: Article 47 (duty to raise public health) and Article 48A (duty to protect environment). Internationally, India's ratification of ICESCR binds it under Article 12 (right to highest attainable standard of health) which includes 'prevention of occupational and environmental health hazards' (General Comment No. 14). The state's failure to enforce emission standards under the Air (Prevention and Control of Pollution) Act, 1981 constitutes a breach of core minimum obligations that are not subject to progressive realization.\" A poor answer cites only Article 21 without Directive Principles/ICESCR, or treats pollution as a tort rather than a rights violation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

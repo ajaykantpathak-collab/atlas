@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_engl_cbse_14_003",
+ "concepts": [
+  {
+   "id": "enh:c10_engl_cbse_14_003",
+   "title": "c10_engl_cbse_14_003",
+   "questions": [
+    {
+     "q": "What specific physical circumstance forced Griffin to walk barefoot on the London streets, leading to the muddy footprints?",
+     "a": "Griffin had set fire to his landlord's house (as revenge for eviction) and had to remove his clothes to become invisible and escape unseen. The fire destroyed his clothing, leaving him naked and forced to walk barefoot in the cold January mud. A wrong answer (e.g., \"he lost his shoes\" or \"he chose to be barefoot\") reveals the student hasn't connected the arson in node 002 to the physical vulnerability that causes the discovery — they're treating events as isolated instead of causally linked.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the muddy footprints were visible to others even though Griffin himself was invisible.",
+     "a": "Invisibility only affects Griffin's body — light passes through him. But mud is a separate physical substance that sticks to his feet. When he steps in mud, the mud particles coat his soles and become visible because they are not part of his invisible body. As he walks, he leaves visible muddy impressions on the ground. A wrong answer (e.g., \"the mud became invisible too\" or \"his feet were visible\") shows the student misunderstands the story's internal logic: invisibility is a biological/optical property of his body, not a magical field extending to everything he touches. This is a classic board exam trap — confusing the mechanism of invisibility.",
+     "self_check": true
+    },
+    {
+     "q": "Trace the exact sequence of events from the moment Griffin steps in mud to the moment he escapes the crowd. Number each step.",
+     "a": "1. Griffin, naked and invisible, steps into a muddy gutter on a cold January night in London. 2. Mud coats his bare feet. 3. As he walks, he leaves clear, visible footprints on the dry pavement. 4. Two boys notice fresh muddy footprints appearing mysteriously with no visible person. 5. They follow the prints, fascinated and frightened. 6. More people gather, forming a curious crowd tracking the \"ghost.\" 7. Griffin realizes he's being followed and panics. 8. He removes his remaining clothes (if any) and runs, leaving the crowd bewildered as the prints stop. A wrong answer that scrambles the order or omits the boys' role shows the student cannot reconstruct narrative causality — a skill needed for 3-mark \"sequence the events\" board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the muddy footprints incident functions as the structural turning point of the story. What changes for Griffin before vs. after this moment?",
+     "a": "Before: Griffin is a secretive scientist controlling his invisibility, choosing when/where to be seen. He commits arson (node 002) as a calculated act of revenge. After: He becomes a hunted fugitive reacting to circumstances. The footprints expose him to public scrutiny, forcing him into the London store (node 004) for survival — stealing clothes/food, not by choice but necessity. His agency shifts from offensive (experimenting, punishing landlord) to defensive (hiding, stealing, fleeing). A weak answer that only says \"he got into trouble\" misses the structural shift from protagonist-as-agent to protagonist-as-victim-of-his-own-science — a key theme for 5-mark thematic answers.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The muddy footprints prove that Griffin's invisibility was a flawed discovery from the start.\" Support your judgment with two textual reasons.",
+     "a": "The statement is partially correct but oversimplified. Reason 1: The discovery wasn't flawed — it worked perfectly on his body. The flaw was Griffin's failure to anticipate ordinary physical interactions (mud, rain, snow, food in digestive tract). Reason 2: The footprints reveal a deeper thematic truth: scientific power without ethical/social responsibility creates vulnerability. Griffin's isolation (no confidants, no planning for basic needs) made the flaw fatal. A student who simply agrees (\"yes, it failed\") misses the nuance that the science succeeded but the scientist failed — a distinction CBSE competency questions often test via \"Assertion-Reason\" format.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 50-word diary entry from Griffin's perspective on the night of the muddy footprints, capturing his physical sensations and mental state. Use first person.",
+     "a": "\"January night. Biting cold seeps into my bare soles. I step — squelch. Mud. Thick, clinging. I walk, but the ground betrays me: dark footprints bloom behind me like accusations. Boys point. Voices rise. A mob forms, chasing a ghost. I run, lungs burning, shedding even my dignity. Invisibility is a prison, not a power.\" A poor answer writes in third person, omits sensory details (cold, squelch, burning lungs), or makes Griffin sound calm — missing the visceral panic that drives his subsequent crimes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_civ_ch2_3",
+ "concepts": [
+  {
+   "id": "enh:c9_civ_ch2_3",
+   "title": "c9_civ_ch2_3",
+   "questions": [
+    {
+     "q": "What is the qualifying date for age eligibility to get enrolled in the electoral roll in a given year?",
+     "a": "The qualifying date is **1st January** of the year in which the electoral roll is prepared or revised. A wrong answer (e.g., \"date of application\" or \"election day\") reveals the student confuses the *legal cut-off* fixed by the Representation of the People Act, 1950 with the *process date* of applying, missing the statutory basis of the roll.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Election Commission conduct both a **summary revision** (annual) and allow **continuous updation** throughout the year?",
+     "a": "Summary revision ensures a comprehensive, door-to-door verification once a year to catch large-scale changes (deaths, migrations), while continuous updation allows citizens who turn 18 or shift residence *after* the qualifying date to get enrolled without waiting a full year. A wrong answer (e.g., \"summary revision is enough\") shows the student doesn't grasp the dynamic nature of the electorate and the EC's duty under Article 324 to keep rolls *current* for every election.",
+     "self_check": true
+    },
+    {
+     "q": "A family moves from Delhi to Mumbai in June. The head of household applies for voter registration in Mumbai using Form 6 in July. The BLO finds their names *still* on the Delhi roll during the next summary revision. What should happen next, and which form addresses this?",
+     "a": "The BLO in Delhi should initiate deletion using **Form 7** (objection to inclusion) after verification, while the Mumbai application (Form 6) proceeds. The student must apply Form 8A for transposition *within* the same constituency, but inter-state moves require fresh Form 6 and deletion at old address. A wrong answer (e.g., \"names stay on both rolls\") reveals ignorance of the **one person–one vote–one constituency** rule and the legal penalty for double enrollment under Section 31 of RPA 1950.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of the **Electoral Registration Officer (ERO)** and the **Booth Level Officer (BLO)** in the revision process. Which one is a statutory authority and which is a field functionary?",
+     "a": "The **ERO** (usually the SDM/Tehsildar) is the *statutory authority* appointed under Section 13B of RPA 1950 — legally responsible for preparing/publishing the roll and deciding claims/objections. The **BLO** is a *field functionary* (often a school teacher or patwari) assigned under EC guidelines to conduct house-to-house verification, collect forms, and assist voters. A wrong answer (e.g., \"BLO decides objections\") confuses administrative hierarchy with legal power, risking misunderstanding of accountability.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: *\"Linking Aadhaar with the electoral roll (Form 6B) makes the roll completely error-free and eliminates bogus voting.\"*",
+     "a": "**False.** Aadhaar linking (voluntary under Rule 26B, 2022) helps deduplicate entries *within* the roll but cannot fix: (a) names of eligible citizens *missing* from the roll (exclusion error), (b) deceased voters not reported by families, (c) migrants enrolled at two places if both use Aadhaar. It also raises privacy concerns. A student agreeing uncritically shows inability to evaluate technological solutions against structural gaps in the registration process.",
+     "self_check": true
+    },
+    {
+     "q": "Design a **3-step awareness plan** for your school's \"Future Voters Club\" to help Class 12 students (turning 18) register before the next summary revision. Specify the *exact form*, *authority to approach*, and *documentary proof* needed.",
+     "a": "**Step 1:** Verify eligibility — born on/before 1 Jan of revision year. **Step 2:** Fill **Form 6** online (voters.eci.gov.in) or offline with **BLO** — submit proof of age (Class 10 certificate/Aadhaar) and residence (rent agreement/utility bill). **Step 3:** Track application via reference number; if no response in 30 days, approach **ERO** (SDM office). A poor answer (e.g., \"just go to polling station\") shows confusion between *registration* (pre-election) and *voting* (election day) and ignorance of the statutory forms.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

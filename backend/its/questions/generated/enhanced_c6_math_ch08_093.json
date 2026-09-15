@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch08_093",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch08_093",
+   "title": "c6_math_ch08_093",
+   "questions": [
+    {
+     "q": "What are the three components you must calculate to find the total surface area of a cylinder?",
+     "a": "The three components are the area of the top circle, the area of the bottom circle, and the area of the curved side. Answering only \"the volume\" or just \"the circumference\" shows the student is confusing area with volume or linear measurement.",
+     "self_check": true
+    },
+    {
+     "q": "If you double the height of a cylinder but keep the radius the same, what happens to the volume?",
+     "a": "The volume doubles. If a student says it quadruples, they are incorrectly applying the \"square\" from the radius formula to the height, showing a misunderstanding of how variables interact in the formula.",
+     "self_check": true
+    },
+    {
+     "q": "A cylinder has a radius of 3 cm and a height of 10 cm. Using 3.14 for pi, calculate its volume.",
+     "a": "Step 1: Calculate base area = 3.14 × 3 × 3 = 28.26. Step 2: Multiply by height (10) = 282.6. Answer = 282.6 cm³. A wrong answer here likely stems from not squaring the radius (e.g., just doing 3.14 × 3 × 10).",
+     "self_check": true
+    },
+    {
+     "q": "Why do we multiply the circumference of the base by the height to get the curved surface area?",
+     "a": "Because the curved surface of a cylinder, if \"unrolled,\" forms a rectangle where the width is the circumference and the length is the height. A student struggling here likely views the curved surface as a single line rather than a 2D shape.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible for two cylinders to have the same volume but different surface areas? Explain.",
+     "a": "Yes, because volume depends on the product of the base area and height, while surface area depends on the sum of these parts. A student who says \"no\" fails to realize that different combinations of radius and height can produce the same product (volume) but different individual values (surface area).",
+     "self_check": true
+    },
+    {
+     "q": "Design a container that holds exactly 1540 cm³ of water using a radius of 7 cm. What height must you choose?",
+     "a": "The student should set up 1540 = (22/7) × 7 × 7 × h, simplify to 1540 = 154 × h, and find h = 10 cm. A poor answer ignores the formula and guesses numbers, showing a lack of algebraic connection to the geometry.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

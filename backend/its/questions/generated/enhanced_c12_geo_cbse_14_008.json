@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_14_008",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_14_008",
+   "title": "c12_geo_cbse_14_008",
+   "questions": [
+    {
+     "q": "Name the three distinct policy phases that shaped the growth of India's automobile industry since Independence, and identify the landmark year that separates Phase 2 from Phase 3.",
+     "a": "Correct answer: Phase 1 (1947–1991) — License Raj, public-sector dominance, limited models; Phase 2 (1991–2000) — Delicensing, FDI liberalisation, Japanese/Korean joint ventures (Maruti-Suzuki, Hyundai); Phase 3 (2000–present) — Export orientation, cluster development, Automotive Mission Plans, EV push. Landmark year separating Phase 2 and 3 is 2000 (Auto Policy 2000). A wrong answer that merges Phase 2 and 3 or cites 1991 for all changes reveals confusion between delicensing (1991) and the export-oriented policy framework (2000).",
+     "self_check": true
+    },
+    {
+     "q": "Why did Chennai emerge as the \"Detroit of India\" for passenger cars while Gurugram-Manesar became the hub for small cars and two-wheelers? Explain using raw material linkages and market access.",
+     "a": "Correct answer: Chennai leverages port access (import of CKDs, export of finished cars), proximity to steel from Salem/Visakhapatnam, and a large southern market; Gurugram-Manesar exploits proximity to Delhi NCR's massive consumer market, NH-48 connectivity, and established ancillary base from Maruti's early vendor park. A student who only says \"near steel plants\" misses that Chennai imports steel via port while Gurugram uses rail from Bhilai — both work but via different logistics chains. Confusing the two clusters reveals inability to weigh port vs. market as primary locational pull.",
+     "self_check": true
+    },
+    {
+     "q": "A new EV battery plant is proposed near Sanand, Gujarat. Using the weighted locational factor method (Market=0.30, Raw Material=0.25, Port=0.20, Policy Incentive=0.15, Labour=0.10), calculate the composite score if Sanand rates 8/10 on Market, 6/10 on Raw Material, 9/10 on Port, 9/10 on Policy, and 7/10 on Labour. Should the plant locate there if the threshold is 7.5?",
+     "a": "Step 1: Multiply each rating by its weight: Market 8×0.30=2.40; Raw Material 6×0.25=1.50; Port 9×0.20=1.80; Policy 9×0.15=1.35; Labour 7×0.10=0.70. Step 2: Sum = 2.40+1.50+1.80+1.35+0.70 = 7.75. Step 3: Compare 7.75 > 7.5 threshold. Step 4: Decision — yes, Sanand qualifies. A wrong answer that forgets to normalise weights (sum ≠ 1) or miscalculates 6×0.25 as 1.2 reveals arithmetic error; ignoring policy weight shows outdated pre-2020 locational thinking.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the locational logic of the traditional Pune cluster (ICE vehicles) with the emerging Hosur-Krishnagiri EV cluster. Identify two factors that remain constant and two that have shifted in importance.",
+     "a": "Constants: (1) Skilled engineering labour pool from local technical institutes, (2) Established tier-1/tier-2 vendor ecosystem (forging, machining, electronics). Shifts: (1) Port access rises from low (Pune uses Mumbai port 150 km away) to critical (Hosur uses Chennai/Ennore ports 300 km but with dedicated EV export corridors), (2) Policy incentive weight jumps from generic state subsidies to central PLI-ACC (Advanced Chemistry Cell) and state EV policies offering land/power rebates. A student claiming \"raw material proximity unchanged\" misses that EV batteries need lithium/cobalt imports — port access now outweighs domestic steel linkage.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The FAME-II scheme alone will make India a global EV manufacturing hub by 2030.\" Assess using demand-side vs. supply-side policy gaps.",
+     "a": "FAME-II is primarily demand-side (consumer subsidies for EV purchase). Supply-side gaps: (1) Battery cell manufacturing — PLI-ACC (₹18,100 cr) addresses this but only 3 firms selected, capacity 30 GWh vs. 120 GWh needed; (2) Critical mineral security — lithium/cobalt imports 100%, no domestic refining; (3) Charging infrastructure — 12,000 public chargers (2024) vs. 4 lakh needed; (4) Skilling — 15 lakh EV-ready workers needed, current curriculum lag. A student agreeing with the statement ignores that demand subsidies without domestic cell supply chain create import dependence, not manufacturing hub status.",
+     "self_check": true
+    },
+    {
+     "q": "Design a three-tier vendor park layout for a new EV assembly plant in Indore (Madhya Pradesh). Specify which component categories go in Tier-1 (adjacent), Tier-2 (50 km radius), Tier-3 (200 km radius) and justify using logistics cost and just-in-time principles.",
+     "a": "Tier-1 (JIT-critical, high volume/weight): Battery pack assembly, motor-drive units, chassis frames, seating — daily milk-run deliveries. Tier-2 (Weekly replenishment, moderate bulk): Stampings, castings, plastic mouldings, wiring harnesses, tyres — sourced from Pithampur SEZ (30 km). Tier-3 (Monthly/buffer stock, low bulk/high value): Semiconductors, sensors, display units, specialty chemicals — from Gujarat/Maharashtra clusters. Justification: Tier-1 minimises line-stop risk; Tier-2 balances transport cost with inventory; Tier-3 accepts longer lead time for high-value low-volume items. Poor answer: putting battery cells in Tier-3 — reveals misunderstanding of battery pack vs. cell assembly and JIT criticality.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

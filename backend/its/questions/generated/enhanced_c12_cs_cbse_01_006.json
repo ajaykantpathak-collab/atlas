@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_01_006",
+   "title": "c12_cs_cbse_01_006",
+   "questions": [
+    {
+     "q": "What is the maximum decimal value of the first octet in a Class A IPv4 address, and which bit pattern in the first octet defines Class A?",
+     "a": "The maximum first-octet value for Class A is 127; Class A is defined by a leading bit of 0 (i.e., first octet 0xxxxxxx in binary). A wrong answer like \"128\" or \"leading bits 10\" reveals the student is confusing Class A with Class B boundaries or misremembering the binary-to-decimal conversion for the most significant bit.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The IP address 172.16.255.255 is a Class B broadcast address.\" Is this statement correct? Explain why or why not.",
+     "a": "The statement is incorrect. 172.16.255.255 is a valid host address in the Class B network 172.16.0.0/16; the broadcast address for that network is 172.16.255.255 only if the host portion is all 1s — but 172.16.255.255 *is* the broadcast address for the specific /16 network. Wait — 172.16.0.0/16 has host bits in the last 16 bits, so 172.16.255.255 (last 16 bits all 1) IS the broadcast address. The statement is actually CORRECT. A student who says \"incorrect\" likely thinks 172.16.255.255 is a host address because they see 255 in the third octet and forget Class B uses 16 host bits spanning the third and fourth octets.",
+     "self_check": true
+    },
+    {
+     "q": "Given the IPv4 address 203.0.113.45, determine: (a) its class, (b) default subnet mask in dotted-decimal and CIDR notation, (c) network address, (d) broadcast address.",
+     "a": "(a) Class C (first octet 203 → 192–223). (b) Default mask: 255.255.255.0 or /24. (c) Network address: 203.0.113.0 (host octet set to 0). (d) Broadcast address: 203.0.113.255 (host octet set to 255). A wrong answer like \"Class B\" or \"/16 mask\" shows the student is not mapping first-octet ranges to classes correctly; giving network address as 203.0.0.0 reveals confusion between Class B and Class C network-bit boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the total number of usable host addresses available in a single Class A network versus a single Class B network. Which class provides more addresses per network, and by what factor (approximately)?",
+     "a": "Class A: 2^24 - 2 ≈ 16.7 million usable hosts. Class B: 2^16 - 2 ≈ 65,534 usable hosts. Class A provides about 256 times more addresses per network (2^8 = 256). A student who answers \"Class B has more\" or gives the factor as 2 or 65536 has reversed the host-bit counts (24 vs 16) or misunderstood the exponential relationship.",
+     "self_check": true
+    },
+    {
+     "q": "A network administrator configures a server with IP 10.10.10.10 and subnet mask 255.0.0.0. Another device on the same physical LAN is configured with IP 172.16.1.5 and mask 255.255.0.0. Can these two devices communicate directly at Layer 3 without a router? Justify your answer using classful addressing rules.",
+     "a": "No. The first device believes it is in network 10.0.0.0/8 (Class A), the second in 172.16.0.0/16 (Class B). Their network addresses differ, so each will treat the other as remote and send packets to its default gateway instead of ARPing directly. A student who says \"yes, same LAN\" ignores that IP communication decisions are based on logical network addresses, not physical connectivity — a classic Layer 2 vs Layer 3 confusion.",
+     "self_check": true
+    },
+    {
+     "q": "Design a Class C network addressing scheme for a small office with 4 departments, each needing up to 30 hosts. You may only use ONE Class C network address. Show how you would divide the address space using subnet masks (conceptually — no need for full subnetting math) and explain why classful addressing alone cannot solve this requirement.",
+     "a": "A single Class C network (e.g., 192.168.1.0/24) has only 254 usable hosts total. To give each of 4 departments ~30 hosts, you need 4 subnets of at least 32 addresses each (30 usable + network + broadcast) → 128 addresses minimum, which fits within 254. However, classful addressing only allows ONE network mask per Class C (/24); you cannot create multiple subnets without borrowing host bits — which is exactly what subnetting (VLSM) does, a topic beyond classful addressing. A student who says \"just use 4 Class C networks\" misses the constraint \"only ONE Class C address\"; one who says \"change mask to /27 for each\" has jumped ahead to subnetting without recognizing it breaks classful rules.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

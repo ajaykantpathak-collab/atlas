@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_01_008",
+   "title": "c12_geo_cbse_01_008",
+   "questions": [
+    {
+     "q": "Name the four major branches of Human Geography listed in NCERT Table 1.2 and the sister social science discipline each branch primarily interfaces with.",
+     "a": "The four branches are: (1) Social Geography — Sociology, (2) Cultural Geography — Anthropology, (3) Political Geography — Political Science, (4) Economic Geography — Economics. A wrong answer (e.g., linking Cultural Geography to Sociology or Economic Geography to Commerce) reveals confusion about the disciplinary bridges that define each branch's theoretical toolkit.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher studies the spatial distribution of literacy rates and healthcare access across Indian states to understand regional social inequalities. Which branch and sub-field of Human Geography does this fall under? Explain why it is NOT Cultural Geography.",
+     "a": "This falls under Social Geography, specifically the sub-field \"Geography of Social Well-being\" (interface: Economics). It is not Cultural Geography because Cultural Geography deals with cultural landscapes, gender, historical imprints, and medical geography (disease ecology), not quantitative social indicators like literacy and healthcare access. Misclassifying it as Cultural Geography shows the student conflates \"social\" (well-being metrics) with \"cultural\" (beliefs, practices, heritage).",
+     "self_check": true
+    },
+    {
+     "q": "Given the following map description: \"A map shows the 2019 Lok Sabha election results by constituency, with party-wise vote shares and turnout percentages.\" Identify the branch, sub-field, and the sister discipline that provides the analytical framework. Then state one geographical question this map can answer.",
+     "a": "Branch: Political Geography. Sub-field: Electoral Geography (interface: Psephology). Sister discipline: Political Science. Geographical question: \"How does the spatial pattern of vote share for Party X correlate with the rural-urban divide and caste composition in State Y?\" A wrong answer (e.g., \"Social Geography\" or \"Demography\") indicates the student cannot distinguish political phenomena (elections, boundaries) from social or population phenomena.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the focus of \"Geography of Agriculture\" (sub-field of Economic Geography) and \"Medical Geography\" (sub-field of Cultural Geography). Both study spatial patterns, but their core questions differ. Explain the difference using an Indian example for each.",
+     "a": "Geography of Agriculture (Economic Geography) asks: \"Where and why are certain crops grown?\" — e.g., wheat in Punjab due to irrigation, soil, and price support. Medical Geography (Cultural Geography) asks: \"Where and why do certain diseases prevail?\" — e.g., malaria in Odisha's forested tribal belts due to climate, vector ecology, and healthcare access. The former uses Agricultural Science/Economics; the latter uses Epidemiology/Anthropology. Confusing them shows the student misses the disciplinary lens: production vs. health.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Economic Geography is only about the location of industries and trade routes.\" Use the sub-fields listed in Table 1.2 to justify your evaluation.",
+     "a": "The statement is incomplete. Economic Geography includes six sub-fields: Geography of Resources, Agriculture, Industries, Marketing, Tourism, and International Trade. Limiting it to industries and trade ignores resource distribution (e.g., coal in Jharkhand), agricultural systems (e.g., tea in Assam), marketing networks (e.g., mandis), and tourism flows (e.g., Goa). A student who agrees reveals a narrow mental model that misses the branch's breadth and its interfaces with Resource Economics, Agricultural Sciences, Business Studies, and Tourism Management.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page research proposal title and three research questions for a study that integrates Social Geography and Cultural Geography to investigate the impact of migration on the cultural landscape of Kerala's Gulf-returnee households.",
+     "a": "Title: \"Remittances and Rituals: A Socio-Cultural Geography of Gulf Migration in Kerala.\" Questions: (1) How has Gulf remittance income altered housing styles and land use (Social Geography: Geography of Social Well-being)? (2) How do return migrants negotiate traditional festivals and new consumption practices (Cultural Geography: Gender Geography / Historical Geography)? (3) What is the spatial pattern of these changes across districts (interface with Sociology and Anthropology)? A weak proposal would treat migration only as an economic flow (Economic Geography) or only as a cultural change, missing the explicit integration of social well-being and cultural landscape.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

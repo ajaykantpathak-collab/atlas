@@ -1,0 +1,485 @@
+{
+ "class": 11,
+ "subject": "physics",
+ "chapter": 101,
+ "chapter_title": "Units and Measurement",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/keph101.txt",
+ "concepts": [
+  {
+   "id": "keph.101.1",
+   "title": "Plane Angle",
+   "section": "1.2",
+   "definition": "In brief, In brief, the length's ratio of a circular arc to the radius of that circle, representing angular span in a two-dimensional plane.",
+   "formula": "theta = arc_length / radius",
+   "key_idea": "Plane angle is measured in radians and is a dimensionless quantity.",
+   "textbook_ref": "keph101.txt lines 40-50",
+   "question_patterns": [
+    "calculate the plane angle subtended by an arc of length ... and radius ...",
+    "find the angle in radians when arc is ... and radius is ...",
+    "what is the plane angle for an arc length of ... with radius ...",
+    "determine the angular displacement given arc length ... and radius ..."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide arc length by radius",
+     "explain": "The plane angle is the ratio of the arc length to the radius of the circle.",
+     "compute": "theta = arc_length / radius"
+    }
+   ]
+  },
+  {
+   "id": "keph.101.2",
+   "title": "Solid Angle",
+   "section": "1.2",
+   "definition": "The three-dimensional angular volume subtended by an area on a spherical surface, defined as the ratio of the area to the square of the sphere's radius.",
+   "formula": "omega = area / (radius ** 2)",
+   "key_idea": "Solid angle is measured in steradians and is indeed dimensionless.",
+   "textbook_ref": "keph101.txt lines 45-55",
+   "question_patterns": [
+    "calculate the solid angle subtended by an area of ... at a distance of ...",
+    "find the solid angle when the intercepted area is ... and radius is ...",
+    "what is the solid angle in steradians for area ... and radius ...",
+    "determine the solid angle given spherical area ... and radius ..."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the radius",
+     "explain": "The solid angle formula requires the square of the distance or radius.",
+     "compute": "r_sq = radius ** 2"
+    },
+    {
+     "step": 2,
+     "action": "divide area by squared radius",
+     "explain": "Divide the intercepted area by the squared radius to find the solid angle.",
+     "compute": "omega = area / r_sq"
+    }
+   ]
+  },
+  {
+   "id": "keph.101.3",
+   "title": "Density Calculation with Significant Figures",
+   "section": "1.3.1",
+   "definition": "Calculating the density of a substance as mass divided by volume, ensuring the final result retains only as many significant figures as the least precise measurement.",
+   "formula": "density = mass / volume",
+   "key_idea": "In brief, In brief, In brief, In both both both both both both both both both both both both both both both both both both both both both both both both multiplication and division, the final result must match the lowest number of significant figures among the inputs.",
+   "textbook_ref": "keph101.txt lines 140-160",
+   "question_patterns": [
+    "calculate the density of a substance of mass ... and volume ...",
+    "find the density given mass ... and volume ... to appropriate significant figures",
+    "what is the density when mass is ... and volume is ...",
+    "determine the density of a block with mass ... and volume ..."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide mass by volume",
+     "explain": "Density is calculated by dividing mass by volume, keeping significant figures in mind.",
+     "compute": "density = mass / volume"
+    }
+   ]
+  },
+  {
+   "id": "keph.101.4",
+   "title": "Volume of a Cube",
+   "section": "1.3.2",
+   "definition": "The three-dimensional space occupied by a cube, calculated by raising its side length to the power of three.",
+   "formula": "volume = side ** 3",
+   "key_idea": "The volume of a cube is the cube of its edge length, rounded to match the edge's significant figures measurement.",
+   "textbook_ref": "keph101.txt lines 190-205",
+   "question_patterns": [
+    "calculate the volume of a cube of side ...",
+    "find the volume of a cube with edge length ...",
+    "what is the volume of a cube if each side is ...",
+    "determine the volume of a cube of side ..."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "cube the side length",
+     "explain": "The volume of a cube is found by raising the side length to the power of three.",
+     "compute": "volume = side ** 3"
+    }
+   ]
+  },
+  {
+   "id": "keph.101.5",
+   "title": "Surface Area of a Cube",
+   "section": "1.3.2",
+   "definition": "The total area of the six square faces of a cube, calculated as six times the side's square length.",
+   "formula": "surface_area = 6 * (side ** 2)",
+   "key_idea": "In brief, In brief, In brief, In brief, the total surface area is six times the area of one face.",
+   "textbook_ref": "keph101.txt lines 190-205",
+   "question_patterns": [
+    "calculate the surface area of a cube of side ...",
+    "find the total surface area of a cube with edge length ...",
+    "what is the surface area of a cube if each side is ...",
+    "determine the surface area of a cube of side ..."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the side length",
+     "explain": "First find the area of one face by squaring the side length.",
+     "compute": "side_sq = side ** 2"
+    },
+    {
+     "step": 2,
+     "action": "multiply by six",
+     "explain": "Multiply the single face area by six to get the total surface area of the cube.",
+     "compute": "surface_area = 6 * side_sq"
+    }
+   ]
+  },
+  {
+   "id": "keph.101.6",
+   "title": "Time Period of a Simple Pendulum",
+   "section": "1.6.2",
+   "definition": "Deducing the formula for the oscillation period of a simple pendulum using its length and the acceleration because of gravity using dimensional homogeneity.",
+   "formula": "T = k * sqrt(length / g)",
+   "key_idea": "The time period of a pendulum is proportional to the square root of its length divided by gravitational acceleration.",
+   "textbook_ref": "keph101.txt lines 300-330",
+   "question_patterns": [
+    "derive the time period of a simple pendulum of length ... and acceleration due to gravity ...",
+    "calculate the time period of a simple pendulum given length ... and g ... with constant k",
+    "find the oscillation period of a pendulum of length ... and g ...",
+    "what is the time period of a pendulum of length ... under gravity ..."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide length by gravity",
+     "explain": "Find the ratio of the pendulum's length to the acceleration due to gravity.",
+     "compute": "ratio = length / g"
+    },
+    {
+     "step": 2,
+     "action": "take square root of the ratio",
+     "explain": "The dimensional analysis shows the time period depends on the square root of the length-to-gravity ratio.",
+     "compute": "sqrt_ratio = sqrt(ratio)"
+    },
+    {
+     "step": 3,
+     "action": "multiply by the dimensionless constant k",
+     "explain": "Multiply the square root of the ratio by the dimensionless constant k.",
+     "compute": "T = k * sqrt_ratio"
+    }
+   ]
+  },
+  {
+   "id": "keph.101.7",
+   "title": "Dimensional Consistency of Kinetic Energy",
+   "section": "1.6.1",
+   "definition": "In brief, In brief, Verifying if a proposed formula for kinetic energy is dimensionally correct by comparing its dimensions with those of energy, which are [M L^2 T^-2].",
+   "formula": "dim_KE = M * (L ** 2) * (T ** -2)",
+   "key_idea": "Only formulas whose terms simplify to the dimensions of energy are physically valid representations of kinetic energy.",
+   "textbook_ref": "keph101.txt lines 270-295",
+   "question_patterns": [
+    "check if the formula for kinetic energy is dimensionally correct",
+    "verify the dimensional consistency of kinetic energy equations",
+    "which of the following formulas for kinetic energy are dimensionally valid",
+    "determine if the equation for kinetic energy is dimensionally homogeneous"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine the dimensions of the left-hand side (kinetic energy).",
+     "explain": "Kinetic energy has the dimensions of work or energy, which is [M L^2 T^-2]."
+    },
+    {
+     "step": 2,
+     "action": "Determine the dimensions of each term on the right-hand side.",
+     "explain": "Substitute the dimensions of mass [M], velocity [L T^-1], and acceleration [L T^-2] into the given expression."
+    },
+    {
+     "step": 3,
+     "action": "Compare the dimensions of both sides.",
+     "explain": "If the dimensions of the right-hand side match [M L^2 T^-2], the formula is dimensionally correct."
+    }
+   ]
+  },
+  {
+   "id": "keph.101.8",
+   "title": "Linear Magnification from Area Magnification",
+   "section": "1.3",
+   "definition": "In brief, the linear's ratio size of an image to the object's linear size, which equals the area's square root magnification.",
+   "formula": "linear_magnification = sqrt(area_screen / area_slide)",
+   "key_idea": "Linear magnification is the square root of the ratio of the projected area to the original area.",
+   "textbook_ref": "keph101.txt lines 440-450",
+   "question_patterns": [
+    "calculate the linear magnification of the projector-screen arrangement",
+    "find the linear magnification given slide area ... and screen area ...",
+    "what is the linear magnification if a slide of area ... is projected to an area of ...",
+    "determine the linear magnification from area on slide ... and area on screen ..."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide screen area by slide area to get area magnification",
+     "explain": "Area magnification is the ratio of the image area on the screen to the object area on the slide.",
+     "compute": "area_mag = area_screen / area_slide"
+    },
+    {
+     "step": 2,
+     "action": "take the square root of area magnification",
+     "explain": "Linear magnification is the square root of the area magnification.",
+     "compute": "linear_magnification = sqrt(area_mag)"
+    }
+   ]
+  },
+  {
+   "id": "keph.101.9",
+   "title": "Volume of a Cube with Unit Conversion",
+   "section": "1.2",
+   "definition": "In brief, In brief, In brief, Calculating the volume of a cube in cubic meters when the side is given in centimeters.",
+   "formula": "volume_m3 = (side_cm / 100) ** 3",
+   "key_idea": "Convert the side length to meters first, then cube it to get the volume in cubic meters.",
+   "textbook_ref": "keph101.txt lines 390-400",
+   "question_patterns": [
+    "find the volume of a cube of side ... cm in m3",
+    "calculate the volume in cubic meters of a cube with side ... cm",
+    "what is the volume in m3 of a cube of side ... cm",
+    "convert the volume of a cube of side ... cm to m3"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "convert side from cm to m",
+     "explain": "Divide the side length in centimeters by 100 to convert it to meters.",
+     "compute": "side_m = side_cm / 100"
+    },
+    {
+     "step": 2,
+     "action": "cube the side length in meters",
+     "explain": "Cube the side length in meters to obtain the volume in cubic meters.",
+     "compute": "volume_m3 = side_m ** 3"
+    }
+   ]
+  },
+  {
+   "id": "keph.101.10",
+   "title": "Surface Area of a Cylinder",
+   "section": "1.2",
+   "definition": "In brief, In brief, In brief, the total surface area of a solid cylinder, which is the areas' sum of the two circular bases and the curved lateral surface.",
+   "formula": "area = 2 * pi * radius * (radius + height)",
+   "key_idea": "Total surface area of a cylinder is 2*pi*r*(r + h).",
+   "textbook_ref": "keph101.txt lines 390-405",
+   "question_patterns": [
+    "calculate the surface area of a cylinder of radius ... and height ...",
+    "find the total surface area of a solid cylinder with radius ... and height ...",
+    "what is the surface area of a cylinder of radius ... and height ...",
+    "determine the surface area of a solid cylinder given radius ... and height ..."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum radius and height",
+     "explain": "Add the radius and the height of the cylinder.",
+     "compute": "sum_r_h = radius + height"
+    },
+    {
+     "step": 2,
+     "action": "multiply 2 times pi times radius times the sum",
+     "explain": "Calculate the total surface area using the formula 2 * pi * r * (r + h).",
+     "compute": "area = 2 * pi * radius * sum_r_h"
+    }
+   ]
+  },
+  {
+   "id": "keph.101.11",
+   "title": "Speed Conversion from km/h to m/s",
+   "section": "1.2",
+   "definition": "Converting speed from kilometers per hour to meters per second by multiplying by 1000 and dividing by 3600.",
+   "formula": "speed_ms = speed_kmh * 1000 / 3600",
+   "key_idea": "1 km/h is equal to 5/18 m/s.",
+   "textbook_ref": "keph101.txt lines 390-405",
+   "question_patterns": [
+    "convert a speed of ... km h-1 to m s-1",
+    "calculate the speed in m/s of a vehicle moving at ... km/h",
+    "what distance in meters does a vehicle moving at ... km/h cover in 1 s",
+    "find the speed in m s-1 of a car traveling at ... km h-1"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply speed in km/h by 1000 and divide by 3600",
+     "explain": "Convert kilometers to meters by multiplying by 1000, and hours to seconds by dividing by 3600.",
+     "compute": "speed_ms = speed_kmh * 1000 / 3600"
+    }
+   ]
+  },
+  {
+   "id": "keph.101.12",
+   "title": "Thickness of Hair from Microscope Magnification",
+   "section": "1.3",
+   "definition": "In brief, In brief, Estimating the actual thickness of a hair by dividing the observed average width under a microscope by the magnification factor.",
+   "formula": "actual_thickness = observed_width / magnification",
+   "key_idea": "Actual size is the observed size divided by the instrument's magnification.",
+   "textbook_ref": "keph101.txt lines 425-435",
+   "question_patterns": [
+    "calculate the estimate on the thickness of hair given magnification ... and average width ...",
+    "find the actual thickness of hair if observed width is ... under a microscope of magnification ...",
+    "what is the estimated thickness of hair with magnification ... and observed width ...",
+    "determine the thickness of a hair when magnified ... times to an observed width of ..."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide observed width by magnification",
+     "explain": "Divide the observed width of the hair under the microscope by the magnification factor to get the actual thickness.",
+     "compute": "actual_thickness = observed_width / magnification"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1.1",
+   "source_ref": "keph101.txt lines 190-205",
+   "concept": "keph.101.4",
+   "question_type": "compute",
+   "question_pattern": "Each side of a cube is measured to be {side} m. What is the volume of the cube to appropriate significant figures?",
+   "extracted_variables": {
+    "side": "side length of the cube in meters"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "cube the side length",
+     "explain": "The volume of a cube is found by raising the side length to the power of three.",
+     "compute": "volume = side ** 3"
+    }
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "keph101.txt lines 206-215",
+   "concept": "keph.101.3",
+   "question_type": "compute",
+   "question_pattern": "{mass} g of a substance occupies {volume} cm3. Express its density by keeping the significant figures in view.",
+   "extracted_variables": {
+    "mass": "mass of the substance in grams",
+    "volume": "volume occupied in cubic centimeters"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide mass by volume",
+     "explain": "Density is calculated by dividing mass by volume, keeping significant figures in mind.",
+     "compute": "density = mass / volume"
+    }
+   ]
+  },
+  {
+   "id": "ex1.5",
+   "source_ref": "keph101.txt lines 300-330",
+   "concept": "keph.101.6",
+   "question_type": "compute",
+   "question_pattern": "Calculate the time period of a simple pendulum given length {length} m and acceleration due to gravity {g} m/s^2 with dimensionless constant {k}.",
+   "extracted_variables": {
+    "length": "length of the pendulum in meters",
+    "g": "acceleration due to gravity in m/s^2",
+    "k": "dimensionless constant"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide length by gravity",
+     "explain": "Find the ratio of the pendulum's length to the acceleration due to gravity.",
+     "compute": "ratio = length / g"
+    },
+    {
+     "step": 2,
+     "action": "take square root of the ratio",
+     "explain": "The dimensional analysis shows the time period depends on the square root of the length-to-gravity ratio.",
+     "compute": "sqrt_ratio = sqrt(ratio)"
+    },
+    {
+     "step": 3,
+     "action": "multiply by the dimensionless constant k",
+     "explain": "Multiply the square root of the ratio by the dimensionless constant k.",
+     "compute": "T = k * sqrt_ratio"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "keph101.txt lines 390-405",
+   "questions": [
+    "The volume of a cube of side 1 cm is equal to .....m3",
+    "The surface area of a solid cylinder of radius 2.0 cm and height 10.0 cm is equal to ...(mm)2",
+    "A vehicle moving with a speed of 18 km h–1 covers....m in 1 s",
+    "The relative density of lead is 11.3. Its density is ....g cm–3 or ....kg m–3."
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "keph101.txt lines 406-412",
+   "questions": [
+    "1 kg m2 s–2 = ....g cm2 s–2",
+    "1 m = ..... ly",
+    "3.0 m s–2 = .... km h–2",
+    "G = 6.67 × 10–11 N m2 (kg)–2 = .... (cm)3 s–2 g–1."
+   ]
+  },
+  {
+   "id": "ex1.5",
+   "source_ref": "keph101.txt lines 418-422",
+   "questions": [
+    "A new unit of length is chosen such that the speed of light in vacuum is unity. What is the distance between the Sun and the Earth in terms of the new unit if light takes 8 min and 20 s to cover this distance ?"
+   ]
+  },
+  {
+   "id": "ex1.7",
+   "source_ref": "keph101.txt lines 425-430",
+   "questions": [
+    "A student measures the thickness of a human hair by looking at it through a microscope of magnification 100. He makes 20 observations and finds that the average width of the hair in the field of view of the microscope is 3.5 mm. What is the estimate on the thickness of hair ?"
+   ]
+  },
+  {
+   "id": "ex1.9",
+   "source_ref": "keph101.txt lines 440-445",
+   "questions": [
+    "The photograph of a house occupies an area of 1.75 cm2 on a 35 mm slide. The slide is projected on to a screen, and the area of the house on the screen is 1.55 m2. What is the linear magnification of the projector-screen arrangement."
+   ]
+  },
+  {
+   "id": "ex1.10",
+   "source_ref": "keph101.txt lines 446-455",
+   "questions": [
+    "State the number of significant figures in the following: (a) 0.007 m2 (b) 2.64 x 1024 kg (c) 0.2370 g cm-3 (d) 6.320 J (e) 6.032 N m-2 (f) 0.0006032 m2"
+   ]
+  },
+  {
+   "id": "ex1.11",
+   "source_ref": "keph101.txt lines 456-460",
+   "questions": [
+    "The length, breadth and thickness of a rectangular sheet of metal are 4.234 m, 1.005 m, and 2.01 cm respectively. Give the area and volume of the sheet to correct significant figures."
+   ]
+  },
+  {
+   "id": "ex1.12",
+   "source_ref": "keph101.txt lines 461-465",
+   "questions": [
+    "The mass of a box measured by a grocer’s balance is 2.30 kg. Two gold pieces of masses 20.15 g and 20.17 g are added to the box. What is (a) the total mass of the box, (b) the difference in the masses of the pieces to correct significant figures ?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

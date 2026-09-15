@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_05_005",
+   "title": "c11_phy_cbse_05_005",
+   "questions": [
+    {
+     "q": "State the work-energy theorem in words and give its mathematical expression for a particle of mass \\(m\\) whose velocity changes from \\(v_i\\) to \\(v_f\\). What is the SI unit of the quantity on each side?",
+     "a": "The work-energy theorem: \"The net work done on a particle equals its change in kinetic energy.\" Mathematically, \\(W_{\\text{net}} = \\frac{1}{2}mv_f^2 - \\frac{1}{2}mv_i^2\\). Both sides have the SI unit joule (J). A wrong answer (e.g., stating \\(W = mv\\) or omitting the 1/2 factor) reveals confusion between momentum and kinetic energy or a missing factor from the derivation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the work-energy theorem uses the *net* force (or the sum of works of all forces) rather than the work done by a single force. Give an example where a single force does work but the kinetic energy does not change.",
+     "a": "The theorem equates the *total* work done by all forces to the change in kinetic energy. If only one force acts, its work equals \\(\\Delta K\\). However, if multiple forces act, individual works can cancel (e.g., pushing a box at constant velocity: applied force does positive work, friction does equal negative work, net work = 0, \\(\\Delta K = 0\\)). A student who thinks any single force's work equals \\(\\Delta K\\) ignores the vector nature of force addition and the scalar addition of work.",
+     "self_check": true
+    },
+    {
+     "q": "A 1500 kg car accelerates from 10 m/s to 25 m/s on a straight road. The net force acting on the car is constant. Calculate the net work done on the car. If the car travels 200 m during this acceleration, find the magnitude of the net force.",
+     "a": "Step 1: \\(\\Delta K = \\frac{1}{2}m(v_f^2 - v_i^2) = \\frac{1}{2} \\times 1500 \\times (25^2 - 10^2) = 750 \\times (625 - 100) = 750 \\times 525 = 393,750 \\text{ J}\\).  \nStep 2: \\(W_{\\text{net}} = \\Delta K = 3.94 \\times 10^5 \\text{ J}\\).  \nStep 3: \\(W_{\\text{net}} = F_{\\text{net}} \\cdot d\\) (force parallel to displacement) \\(\\Rightarrow F_{\\text{net}} = W_{\\text{net}}/d = 393,750 / 200 = 1968.75 \\text{ N} \\approx 1.97 \\times 10^3 \\text{ N}\\).  \nA wrong answer (e.g., using \\(v_f - v_i\\) instead of squares, or forgetting the 1/2) shows algebraic carelessness or confusion with impulse-momentum.",
+     "self_check": true
+    },
+    {
+     "q": "A block slides down a rough inclined plane of angle \\(\\theta\\). The forces acting are gravity, normal, and friction. The block starts from rest and reaches speed \\(v\\) after traveling distance \\(L\\) along the plane. Write the work-energy equation for this motion, explicitly showing the work done by each force. Which force does zero work? Why?",
+     "a": "\\(W_g + W_N + W_f = \\Delta K\\). \\(W_g = mgL\\sin\\theta\\) (positive), \\(W_N = 0\\) (normal force is perpendicular to displacement), \\(W_f = -fL\\) (negative). So \\(mgL\\sin\\theta - fL = \\frac{1}{2}mv^2\\). The normal force does zero work because it is everywhere perpendicular to the displacement. A student who claims normal force does work \\(mgL\\cos\\theta\\) confuses the component of gravity with the normal force or misapplies the dot product.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since kinetic energy is always positive, the net work done on a body must always be positive.\" Evaluate this statement and correct it if necessary.",
+     "a": "The statement is false. Kinetic energy is always positive, but the *change* in kinetic energy (\\(\\Delta K = K_f - K_i\\)) can be negative if the body slows down. Net work equals \\(\\Delta K\\), so net work can be negative (e.g., braking car). A student who thinks work must be positive confuses the sign of a quantity with the sign of its change.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a dynamics cart, a track, a force sensor, and a motion sensor to verify the work-energy theorem for a constant force. Outline the measurements, the graph you would plot, and how you would extract the net work and change in kinetic energy.",
+     "a": "Attach the force sensor to the cart and pull with a constant force (or use a hanging mass over a pulley). Record force \\(F\\) and position \\(x\\) simultaneously. Plot \\(F\\) vs \\(x\\); the area under the curve (rectangle for constant \\(F\\)) gives \\(W_{\\text{net}}\\). From the motion sensor, obtain initial and final velocities \\(v_i, v_f\\) and compute \\(\\Delta K = \\frac{1}{2}m(v_f^2 - v_i^2)\\). Compare the two values. A poor answer might omit the need for constant force, forget to subtract initial kinetic energy, or confuse the force sensor reading with net force (ignoring friction).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

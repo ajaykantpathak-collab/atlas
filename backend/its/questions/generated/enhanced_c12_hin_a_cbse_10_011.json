@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_10_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_10_011",
+   "title": "c12_hin_a_cbse_10_011",
+   "questions": [
+    {
+     "q": "Identify the grammatical term for the underlined construction in this sentence from the text: \"मुझे याद है कि जब भारतेंदु हरिश्चंद्र के घर के नीचे से गुजरता था, तो मेरा दिल जोरों से धड़कता था।\" (Underlined: \"गुजरता था\")",
+     "a": "The underlined \"गुजरता था\" is a **habitual past imperfective verb form** (अभ्यस्त भूतकालिक अपूर्ण क्रिया), combining the imperfective participle \"गुजरता\" with the past auxiliary \"था\" to indicate repeated/habitual action in the past. A wrong answer (e.g., calling it \"simple past\" or \"perfective\") reveals the student cannot distinguish aspectual nuances — a critical gap because Prasad uses habitual forms to construct the *rhythm of routine* that frames his epiphanic moments. This distinction appears in CBSE \"वाक्य-रूपांतरण\" questions and CUET language analysis items.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Prasad uses a high density of Tatsama (Sanskrit-derived) compounds like \"संवेदनशीलता\", \"प्रतिबिंब\", and \"उद्भव\" in a personal childhood narrative, rather than simpler Tadbhava or Deshaja alternatives.",
+     "a": "Prasad strategically deploys Tatsama density to **perform his thesis**: that Hindi's literary register can bear philosophical weight equal to Sanskrit. By embedding abstract nouns (संवेदनशीलता = sensitivity, प्रतिबिंब = reflection) in autobiographical prose, he demonstrates — not merely argues — that the language of the home can become the language of intellect. A student who answers \"to sound scholarly\" or \"because he was educated in Sanskrit\" misses the *performative function*: the grammar *enacts* the literary manifesto. This confusion between \"ornament\" and \"argument\" costs marks in board \"शैली-वैशिष्ट्य\" questions and JEE-style \"author's purpose\" comprehension.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"उनके लेखन में भाव और विचार की एक अद्भुत एकता थी, जिसने मुझे गहरे तक प्रभावित किया।\", identify the clause structure and explain how the relative clause \"जिसने मुझे गहरे तक प्रभावित किया\" modifies the antecedent.",
+     "a": "The sentence contains a **main clause** (\"उनके लेखन में भाव और विचार की एक अद्भुत एकता थी\") followed by a **non-restrictive relative clause** introduced by the correlative pronoun \"जिसने\" (referring back to the entire nominal phrase \"भाव और विचार की एक अद्भुत एकता\"). The relative clause adds evaluative commentary rather than defining the antecedent. Steps: (1) Locate finite verbs: \"थी\" (main), \"प्रभावित किया\" (relative). (2) Identify subordinator: \"जिसने\". (3) Determine antecedent scope: the entire abstract noun phrase, not just \"एकता\". (4) Classify clause type: non-restrictive (adds comment, not definition). A wrong analysis treating \"जिसने\" as referring only to \"एकता\" flattens Prasad's claim that it was the *unity itself* — not merely its existence — that impacted him. This precision is tested in CBSE \"वाक्य-भेद\" and CUET \"syntactic analysis\" items.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the syntactic density of this early paragraph: \"मैं लखनऊ से आया था। कुछ दिनों तक भारतेंदु हरिश्चंद्र के मकान के आस-पास घूमता रहा।\" with the later paragraph describing the literary gathering: \"उस स्थान पर जहाँ मैं बैठा था, वहीं पर वातावरण में एक अजीब-सी गंभीरता थी, मानो कोई पवित्र अनुष्ठान चल रहा हो।\" Quantify the difference in clauses-per-sentence and subordination depth, then explain the narrative function of this shift.",
+     "a": "**Early paragraph**: 2 simple sentences, 0 subordinate clauses, clauses-per-sentence = 1.0, max subordination depth = 0. **Later paragraph**: 1 complex sentence with 3 subordinate clauses (locative \"जहाँ मैं बैठा था\", appositional \"वहीं पर...\", comparative \"मानो...\"), clauses-per-sentence = 4.0, max subordination depth = 2 (the \"मानो\" clause embeds a hypothetical). The shift enacts **narrative maturation**: child's perception (paratactic, sequential) → writer's retrospective analysis (hypotactic, layered). A student who only counts clauses without linking to *narrative function* treats syntax as decoration rather than characterization. Board exams ask \"लेखक ने वाक्य-संरचना में परिवर्तन क्यों किया?\" — the answer must connect form to psychological/historical meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Prasad's use of passive constructions (e.g., 'मुझसे नहीं रहा गया', 'मुझसे देखा न गया') in moments of emotional intensity reflects a deliberate avoidance of agency, consistent with the text's theme of surrender to literary tradition.\" Defend or refute with grammatical evidence.",
+     "a": "**Refute with nuance**. The cited examples are not true passives but **dative-subject constructions** (कर्मणी प्रयोग का विशेष रूप) where the experiencer (\"मुझसे\") is marked by the instrumental postposition \"से\" and the verb agrees with the implicit theme (\"नहीं रहा गया\" — impersonal). True passives would be \"मेरे द्वारा नहीं रहा गया\" (ungrammatical). Prasad uses dative-subject to foreground *involuntary affect* — the emotion happens *to* the narrator — not to deny agency. In contrast, he uses active voice for deliberate acts: \"मैंने निश्चय किया\", \"मैंने लिखना शुरू किया\". The claim confuses **experiencer-subject** with **passive voice**, a common error because both demote the nominative agent. Board marking schemes penalize this conflation in \"वाच्य-परिवर्तन\" and \"शैली-विश्लेषण\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-sentence paragraph in Prasad's stylistic register describing a modern student's first visit to a university library, using: (a) at least two Tatsama compounds, (b) one dative-subject construction, (c) a non-restrictive relative clause, and (d) a comparative \"मानो\" clause.",
+     "a": "**Sample answer**: \"पहली बार पुस्तकालय के विशाल कक्ष में प्रवेश करते ही, मुझसे एक अद्भुत **जिज्ञासा** और **श्रद्धा** का अनुभव हुआ, जो मेरे अंतर्मन में ज्ञान के प्रति गहरी लालसा का **प्रतिबिंब** थी, मानो सदियों का संचित ज्ञान मेरी प्रतीक्षा में मौन खड़ा हो।\"  \n**Verification**: (a) Tatsama compounds: जिज्ञासा, श्रद्धा, प्रतिबिंब. (b) Dative-subject: \"मुझसे... अनुभव हुआ\". (c) Non-restrictive relative: \"जो मेरे अंतर्मन... थी\" (modifies entire experience). (d) Comparative: \"मानो सदियों... खड़ा हो\". A poor answer either misses a required feature or produces a pastiche without syntactic control — revealing the student cannot *operationalize* the analysis. CUET creative writing tasks and board \"रचनात्मक लेखन\" reward this transfer ability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

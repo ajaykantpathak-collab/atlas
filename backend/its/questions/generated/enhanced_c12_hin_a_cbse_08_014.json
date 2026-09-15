@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_08_014",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_08_014",
+   "title": "c12_hin_a_cbse_08_014",
+   "questions": [
+    {
+     "q": "What does the acronym PEEL stand for in the context of writing analytical answers for literature?",
+     "a": "PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., \"Paragraph, Example, Explanation, Language\") reveals the student has memorised a mnemonic without understanding its analytical function — they cannot map each letter to a cognitive step (claim → textual support → device analysis → thematic connection), so their answers remain descriptive.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"In the first poem, the gopis are very sad because Krishna left. They cry all night and the poet uses sad words.\" Identify two specific weaknesses in this response relative to board exam expectations.",
+     "a": "Weakness 1: No textual evidence — \"sad words\" is vague; the answer must cite a specific image (e.g., \"the dark night of separation\" or \"the unlit lamp\"). Weakness 2: No analysis of literary device — the student states effect (\"sad\") but does not name the metaphor, personification, or sound pattern that creates it. A wrong diagnosis (e.g., \"the answer is too short\") misses the structural flaw: missing PEEL components.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the PEEL structure to answer: \"How does the poet use nature imagery to convey the gopis' inner state in the third poem?\" Provide the Point and Evidence steps only.",
+     "a": "Point: The poet maps the gopis' emotional desolation onto the withered natural landscape. Evidence: In the third poem, the line describing \"dry leaves trembling on leafless branches\" (paraphrased from 'pallavheen taruvar pat jhad') mirrors the gopis' fragile, exposed vulnerability. A wrong step (e.g., quoting the Hindi line without translating its imagistic function) shows the student treats evidence as decoration, not as analytical raw material.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effectiveness of two sample opening sentences for a critical appreciation of the second poem:\n(A) \"This poem is about the gopis missing Krishna.\"\n(B) \"Phir Koi Khushboo transforms the gopis' personal grief into a universal metaphor of the soul's separation from the divine through sustained night-imagery.\"\nWhich is stronger and why? Analyse in terms of scope, terminology, and thesis-driven focus.",
+     "a": "(B) is stronger. Scope: (A) reduces the poem to plot summary; (B) frames it as a metaphysical exploration (virah bhakti). Terminology: (B) uses \"metaphor\", \"universal\", \"sustained night-imagery\" — analytical vocabulary; (A) uses only narrative verbs. Thesis-driven: (B) announces an argument the essay will prove; (A) states a fact. A student choosing (A) confuses narration with criticism — a fatal board-exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"In Phir Koi Khushboo's poems, the Braj/Awadhi dialect is merely a decorative choice; the same themes could be expressed in standard Hindi without loss.\" Defend or refute using two specific linguistic features from the poems.",
+     "a": "Refute. Feature 1: The dialect's vowel elongation (e.g., \"niraas\" → \"niraas hoi\") mimics the drawn-out ache of separation — standard Hindi's clipped vowels lose this sonic embodiment. Feature 2: Colloquial endearments (\"sakhi\", \"priya\") carry cultural intimacy that formal \"sakhī\" or \"priyā\" sterilise. A student agreeing with the claim ignores how phonetics and register enact theme — a competitive-exam trap testing dialect-awareness.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-sentence PEEL paragraph answering: \"Explain the significance of the 'unlit lamp' image in the first poem.\" Invent a plausible textual detail if needed, but maintain the poem's internal logic.",
+     "a": "Point: The unlit lamp symbolises the gopis' extinguished hope of union. Evidence: The poem describes the lamp standing \"cold and wickless\" through the night of separation. Explanation: The metaphor transfers the physical absence of light to the spiritual absence of Krishna, while the lamp's passive stillness mirrors the gopis' helpless waiting. Link: Thus a domestic object becomes a theological statement — devotion persists even when grace seems absent. A poor answer invents an image not in the poem (e.g., \"broken lamp\") or omits the Link, leaving the symbol unconnected to the central theme.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

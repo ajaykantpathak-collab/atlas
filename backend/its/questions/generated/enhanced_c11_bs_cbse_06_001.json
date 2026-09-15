@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_06_001",
+   "title": "c11_bs_cbse_06_001",
+   "questions": [
+    {
+     "q": "Define social responsibility of business as per the NCERT Class 11 textbook. How does it differ from legal responsibility in one key aspect?",
+     "a": "Social responsibility is the obligation of business to take decisions and actions desirable for society's objectives and values, including voluntary actions beyond legal requirements. The key difference: legal responsibility is fulfilled by mere compliance with law (mandatory), while social responsibility involves voluntary action for societal benefit even when not legally compelled. A wrong answer that equates the two reveals the student misses the core \"voluntary element\" and thinks law and social duty are identical.",
+     "self_check": true
+    },
+    {
+     "q": "A company installs expensive pollution-control equipment because the government passed a new law requiring it. Another company installs the same equipment voluntarily because the local community complained about health issues, even though no law exists yet. Classify each action as legal responsibility, ethical responsibility, or discretionary responsibility. Explain your reasoning.",
+     "a": "Company 1: Legal responsibility (compliance with law). Company 2: Ethical responsibility (voluntary action based on societal expectations of right conduct, not yet codified in law). A wrong answer classifying both as legal responsibility shows the student cannot distinguish mandatory compliance from voluntary response to societal norms. Classifying Company 2 as discretionary (charity) reveals confusion between ethical duty (expected by society) and pure philanthropy (unexpected, like donations).",
+     "self_check": true
+    },
+    {
+     "q": "Read this scenario: \"GreenTextiles Ltd. pays minimum wages as per law, provides safe working conditions as per factory regulations, but refuses to provide skill-upgradation training to workers because 'it's not required by law and reduces profits.'\" Using the concept of social responsibility, evaluate whether GreenTextiles is socially responsible. Identify which kind of responsibility (economic, legal, ethical, discretionary) they are fulfilling and which they are neglecting.",
+     "a": "GreenTextiles fulfills economic responsibility (producing goods at profit) and legal responsibility (complying with wage and safety laws). It neglects ethical responsibility: society expects businesses to invest in worker development for long-term employability, even if not legally mandated. The refusal based solely on \"not required by law\" shows a legalistic mindset, not a socially responsible one. A wrong answer saying \"they follow all laws, so they are responsible\" reveals the misconception that legal compliance equals social responsibility.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the statements: (A) \"Social responsibility is broader than legal responsibility.\" (B) \"All legal responsibilities are social responsibilities, but not all social responsibilities are legal responsibilities.\" Are both statements true? Explain the logical relationship using a Venn diagram concept (describe it in words).",
+     "a": "Both statements are true. Statement A is the textbook definition. Statement B elaborates the set relationship: Legal Responsibility ⊂ Social Responsibility. The Venn diagram: a large circle \"Social Responsibility\" containing a smaller circle \"Legal Responsibility\" entirely inside it. The outer ring represents voluntary ethical/discretionary actions. A wrong answer saying \"legal responsibility is broader\" or \"they are separate circles\" shows failure to grasp the hierarchical inclusion — that obeying the law is the *minimum baseline* of social responsibility, not its entirety.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this argument: \"A business's only social responsibility is to maximize profits within the law. If society wants cleaner air, the government should pass stricter laws. Voluntary social spending is stealing from shareholders.\" Use the NCERT concept of \"social responsibility as obligation to society's objectives and values\" to structure your critique.",
+     "a": "The argument reflects the classical profit-maximization view (Friedman), but NCERT explicitly rejects it by defining social responsibility as *broader* than legal compliance. Critique points: (1) Laws are reactive and lag behind societal expectations; waiting for laws means harm continues. (2) \"Society's objectives and values\" evolve faster than legislation — e.g., consumer data privacy expectations existed before IT Act amendments. (3) Voluntary action builds trust and long-term profitability (enlightened self-interest), not theft. A wrong answer agreeing with the argument shows the student hasn't internalized the NCERT stance that business is an organ of society, not just a profit machine.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic 3-sentence scenario involving a small Indian business (e.g., a kirana store, a tiffin service, a local garment unit) where the owner faces a choice between a purely legal-compliance action and a socially responsible voluntary action. Write the scenario so that the socially responsible choice involves a clear short-term cost but long-term societal and business benefit.",
+     "a": "Example: \"Ramesh runs a tiffin service in Pune. The law allows him to use single-use plastic containers. Switching to reusable steel dabbas costs ₹20,000 upfront and requires a deposit-return system. Ramesh chooses steel dabbas despite the cost.\" Good answer criteria: specific Indian context, clear legal vs. voluntary distinction, identifiable short-term cost (money, effort), articulated long-term benefit (customer loyalty, less waste, brand image). A poor answer makes the voluntary choice costless or the benefit only altruistic with no business logic, missing the \"enlightened self-interest\" nuance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

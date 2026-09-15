@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch2_6",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch2_6",
+   "title": "c9_math_ch2_6",
+   "questions": [
+    {
+     "q": "What is the slope and y-intercept of the line represented by the equation **y = -3x + 7**?",
+     "a": "The slope is **-3** and the y-intercept is **7**. A wrong answer (e.g., slope = 3, intercept = -3) reveals the student is confusing the sign of the slope or misidentifying the constant term as the slope. It also shows they may not understand that the equation must be in the form **y = mx + c** with **y** isolated and coefficient 1.",
+     "self_check": true
+    },
+    {
+     "q": "A student rewrites **4x - 2y = 8** as **y = 2x - 4** and says the slope is 2 and y-intercept is -4. Is this correct? Explain why or why not.",
+     "a": "The student is **incorrect**. The correct rearrangement is:  \n-2y = -4x + 8 → y = 2x - 4? Wait:  \n4x - 2y = 8 → -2y = -4x + 8 → y = 2x - 4.  \nActually, the student's algebra is correct! The slope is 2, intercept is -4.  \nBut if a student instead writes **y = -2x + 4** (dividing only the 4x by -2 but not the 8), that reveals the misconception: **they divide only one term by the coefficient of y, not all terms**. This is the most common error — failing to apply division to every term on both sides.",
+     "self_check": true
+    },
+    {
+     "q": "Find the slope and y-intercept of the line **5x + 2y = 10**. Then determine whether the point **(2, 0)** lies on this line.",
+     "a": "Step 1: Rearrange to slope-intercept form:  \n2y = -5x + 10 → y = (-5/2)x + 5.  \nSlope **m = -5/2**, y-intercept **c = 5**.  \nStep 2: Check point (2, 0): substitute x = 2 → y = (-5/2)(2) + 5 = -5 + 5 = 0.  \nSince y = 0 matches, **(2, 0) lies on the line**.  \nA wrong slope (e.g., 5/2) reveals sign error when moving 5x to RHS. A wrong intercept (e.g., 10) reveals forgetting to divide the constant by 2. A wrong point check reveals not substituting correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Two lines are given: **Line A: y = 3x + 2** and **Line B: 6x - 2y = 4**. Without graphing, determine whether these lines are parallel, intersecting, or coincident. Justify your answer using slope and intercept.",
+     "a": "Convert Line B: 6x - 2y = 4 → -2y = -6x + 4 → y = 3x - 2.  \nLine A: slope = 3, intercept = 2.  \nLine B: slope = 3, intercept = -2.  \nSince slopes are **equal (3)** but y-intercepts are **different (2 ≠ -2)**, the lines are **parallel and distinct**.  \nA wrong answer (e.g., \"intersecting\" or \"coincident\") reveals the student either miscalculated the slope of Line B (common error: y = -3x + 2) or thinks same slope means same line, ignoring the intercept.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The equation **x = 5** can be written in slope-intercept form as **y = 0x + 5**, so its slope is 0 and y-intercept is 5.\" Evaluate this claim and explain the error.",
+     "a": "The claim is **false**. The equation **x = 5** represents a **vertical line** passing through (5, 0). It **cannot** be written in the form **y = mx + c** because for a vertical line, **x is constant** and **y can be any value** — there is no unique y for each x. The slope is **undefined**, not 0. The student incorrectly treats x = 5 as if it were y = 5 (a horizontal line). This reveals the misconception: **confusing vertical lines (x = constant) with horizontal lines (y = constant)** and not recognizing that slope-intercept form only applies to non-vertical lines.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (in an Indian context) that can be modeled by a linear equation in slope-intercept form. Define your variables, write the equation, and explain what the slope and y-intercept represent in your situation.",
+     "a": "Example: **Auto-rickshaw fare in Delhi**: Base fare ₹25 for first 1.5 km, then ₹10 per km thereafter. For distance **x km (x > 1.5)**, fare **y = 10x + 10** (since 25 - 10×1.5 = 10). Slope = 10 (rate per km), intercept = 10 (adjusted base fare).  \nA good answer defines variables clearly, writes correct equation, and interprets both parameters contextually. A poor answer uses vague variables, writes an equation not in slope-intercept form, or misinterprets slope/intercept (e.g., says intercept is the base fare without adjustment).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

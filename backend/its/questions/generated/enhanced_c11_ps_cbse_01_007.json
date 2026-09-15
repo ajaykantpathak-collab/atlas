@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_01_007",
+   "title": "c11_ps_cbse_01_007",
+   "questions": [
+    {
+     "q": "According to the NCERT textbook, what is the primary objective of political theory as stated in the introductory chapter?",
+     "a": "The primary objective is to train citizens to think rationally about political questions and assess the political events of our time. A wrong answer (e.g., \"to predict election results\" or \"to train politicians\") reveals confusion between political theory as a civic educational enterprise and political science as an empirical/predictive discipline or professional training.",
+     "self_check": true
+    },
+    {
+     "q": "The textbook states: \"Political theory examines questions of this kind and systematically thinks about the values that inform political life — values such as freedom, equality and justice.\" Explain why this makes political theory inherently relevant to real-world problems, using the distinction between *concepts* and *institutions*.",
+     "a": "Concepts (freedom, equality) are the standards by which we evaluate institutions (schools, courts, markets). Theory's relevance comes from bridging the gap: it clarifies what \"equality\" *means* so we can judge whether a specific institution (e.g., a school admission policy) actually realizes it. A wrong answer treating concepts and institutions as identical (\"equality *is* voting rights\") misses the critical evaluative function – theory provides the yardstick, not just the object measured.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the textbook's argument about the \"reinterpretation of fundamental rights\" (e.g., right to life → right to livelihood) to analyze this scenario: A state government passes a law banning street vending in city centers to reduce congestion. Vendors challenge it under Article 21 (right to life/livelihood). Identify the political theory concept at stake and explain how theoretical reasoning resolves the conflict.",
+     "a": "The concept is **positive vs negative liberty** (or substantive vs formal equality). Theoretical reasoning: Formal equality (same law for all) bans vending equally, but substantive equality recognizes that the ban destroys the *capacity* of the poor to exercise their right to livelihood. Theory provides the framework to argue that \"regulation\" (designated zones, licenses) better serves the *value* of Article 21 than a blanket ban. A wrong answer focusing only on \"government power vs individual right\" misses the internal theoretical distinction within \"right to life\" itself.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the textbook's view of political theory's relevance (Section 1.4: \"useful for citizens... to act responsibly\") with the \"Socratic method\" example (Section 1.3: Socrates exposing inconsistencies in definitions of justice). How do both support the claim that theory is practical, yet differ in their mechanism?",
+     "a": "Both show theory as practical: Socrates shows it *debugs* flawed reasoning that leads to unjust actions (mechanism: critical reasoning); the citizenship argument shows it *enables* effective participation (mechanism: informed deliberation). Socrates is therapeutic (curing false beliefs); citizenship is empowering (building capacity). A wrong answer conflating them (\"both teach critical thinking\") misses that Socrates targets *individual* epistemic virtue, while the citizenship argument targets *collective* democratic competence.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim using the textbook: \"Political theory is irrelevant for solving India's water crisis because the crisis is technical (hydrology, engineering), not philosophical.\" Your evaluation must reference at least two specific arguments from the text.",
+     "a": "The claim is **false**. Text arguments refuting it: (1) **Allocation is political**: \"equality must involve some kind of fairness so that people are not unduly exploited and disadvantaged by economic factors\" – who gets water, at what price, and whose wells run dry are questions of distributive justice, not hydrology. (2) **New challenges require new interpretations**: \"As our world changes, we may discover new dimensions of freedom as well as new threats\" – water scarcity creates new rights claims (e.g., right to water as part of Article 21) that theory must articulate. A \"technical\" solution without theoretical justification for *distribution* reproduces injustice.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 100-word argument *against* the relevance of political theory to real-world problems, using the textbook's own distinction between \"mathematics\" (one definition) and political concepts (many definitions). Then write a 50-word counter-argument *from* the textbook's perspective.",
+     "a": "**Anti-relevance argument**: \"Unlike mathematics where a triangle has one fixed definition, political theory offers endless contested definitions of 'justice' or 'equality' (Plato vs Marx vs Ambedkar). This paralysis of choice makes it useless for urgent policy: a water minister needs *one* actionable criterion, not a seminar on 'what is justice?'. Theory's ambiguity prevents decisive action.\" **Textbook counter**: \"Precisely *because* human relationships involve conflicting opinions on equality, we *need* systematic debate to harmonize them. The 'many definitions' reflect real social conflicts; theory doesn't create confusion, it structures the negotiation so policy isn't arbitrary power. The minister *uses* theory when she chooses *which* principle (need? merit? rights?) to prioritize.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

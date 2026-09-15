@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_13_006",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_13_006",
+   "title": "c12_biotech_cbse_13_006",
+   "questions": [
+    {
+     "q": "What is the full form of LMO in the context of the Cartagena Protocol, and how does it differ from the term GMO?",
+     "a": "LMO stands for Living Modified Organism, defined as any living organism that possesses a novel combination of genetic material obtained through modern biotechnology. GMO (Genetically Modified Organism) is a broader term that includes both living and non‑living products (e.g., processed oils, proteins) derived from genetic modification. The Protocol regulates LMOs, not all GMOs. A wrong answer (e.g., equating LMO and GMO) reveals confusion between the legal scope of the Protocol and the general scientific term, leading to errors in identifying which transboundary movements require AIA.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Advance Informed Agreement (AIA) procedure applies only to LMOs intended for intentional introduction into the environment (e.g., seeds for planting) and not to LMOs intended for direct use as food, feed, or processing (LMO‑FFP).",
+     "a": "AIA applies to intentional introductions because these LMOs can establish, reproduce, and potentially spread genes into wild relatives, posing direct risks to biodiversity. LMO‑FFP (e.g., soybean meal for animal feed) are not meant to grow; they undergo a simplified procedure via the Biosafety Clearing‑House because the risk of environmental establishment is negligible. A wrong answer that says \"AIA applies to all LMOs\" shows misunderstanding of the risk‑based differentiation central to the Protocol and would cause over‑compliance in trade scenarios.",
+     "self_check": true
+    },
+    {
+     "q": "A Brazilian importer wants to bring in a genetically modified virus‑resistant papaya (LMO) for commercial cultivation. The exporter is in the USA (a non‑Party to the Protocol). Outline the steps the Brazilian competent national authority must follow under the AIA procedure, including the maximum timeframes for each step.",
+     "a": "Step 1: Exporter (or importer) submits written notification to Brazil's Competent National Authority (CNA) with details specified in Annex I (identity, traits, intended use, risk assessment summary). Step 2: CNA acknowledges receipt within 90 days. Step 3: CNA conducts or requests a scientific risk assessment (may request additional info). Step 4: CNA communicates its decision within 270 days of receipt of notification: approve with/without conditions, prohibit, or request additional time. If no decision within 270 days, it does NOT imply consent — the importer must wait. A wrong answer that omits the 90‑day acknowledgment or assumes tacit consent after 270 days reveals a critical procedural error that could lead to illegal imports.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of the Biosafety Clearing‑House (BCH) and the Advance Informed Agreement (AIA) in the Cartagena Protocol. Which one is a passive information‑exchange mechanism and which one is an active prior‑consent procedure?",
+     "a": "The BCH is a passive, centralized online portal where Parties deposit and access information (laws, decisions, risk assessments, LMOs‑FFP notifications) — it facilitates transparency but does not require action. AIA is an active, case‑by‑case prior‑consent procedure for intentional introductions: the exporting Party must actively notify, and the importing Party must actively assess and decide. A wrong answer that swaps the two (e.g., calling BCH a prior‑consent tool) indicates failure to distinguish between information sharing and regulatory decision‑making, a distinction often tested in case‑based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The Cartagena Protocol effectively bans the transboundary movement of all genetically modified crops because it requires prior informed consent for every shipment.\"",
+     "a": "The statement is false. The Protocol does not ban LMOs; it establishes a structured, science‑based decision‑making process. AIA applies only to LMOs for intentional introduction into the environment (not to LMO‑FFP). The importing Party can approve, prohibit, or impose conditions based on its own risk assessment. Many GM crops are traded legally under the Protocol (e.g., Bt cotton, herbicide‑tolerant maize). A wrong answer that agrees with the statement reflects a common media‑driven misconception and would lead to incorrect policy analysis in competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simplified flow‑chart (text‑based) that a customs officer at an Indian port could use to decide whether a shipment of \"GM maize grains\" requires AIA documentation or only BCH notification. Include decision points for: (a) viability of grains, (b) intended use (planting vs. processing), (c) whether the exporting country is a Party.",
+     "a": "Flow‑chart:\n1. Are the maize grains viable (capable of germination)? → No → Treat as LMO‑FFP → BCH notification sufficient → END.\n2. Yes → What is the intended use declared on shipping documents?\n   a. Planting/field trials → Intentional introduction → AIA required → Check if exporter provided AIA advance notification and importing Party's decision → If yes, allow; if no, detain.\n   b. Food/feed/processing → LMO‑FFP → BCH notification sufficient → END.\n3. If exporting country is non‑Party (e.g., USA), the Protocol still encourages the importing Party (India) to apply its domestic biosafety law (which mirrors AIA) — the customs officer follows national regulations that implement the Protocol.\nA poor answer that omits the viability check or treats all GM grain as LMO‑FFP shows inability to operationalize the Protocol's definitions — a practical skill needed for case‑based questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

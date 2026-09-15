@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_14_001",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_14_001",
+   "title": "c12_eng_k_cbse_14_001",
+   "questions": [
+    {
+     "q": "What is the primary purpose of the \"Before You Read\" stage when approaching a non-fiction text like Shaw's \"Freedom\"?",
+     "a": "The primary purpose is to build a mental framework by researching the author's background, historical context, key vocabulary, and philosophical stance so that the reader can anticipate arguments, recognize bias, and comprehend complex ideas more easily. A wrong answer (e.g., \"to summarize the essay\" or \"to answer the questions at the end\") reveals the student confuses pre-reading with during-reading or post-reading tasks, missing that context activates prior knowledge and sets a purpose for reading.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why knowing that G.B. Shaw was a Fabian socialist helps you understand his essay \"Freedom\" better.",
+     "a": "Knowing Shaw was a Fabian socialist signals that he advocates gradual democratic reform rather than violent revolution, and that he views economic inequality as a systemic issue — not individual failure. This helps you interpret his distinction between \"natural slavery to Nature\" and \"unnatural slavery to man\" as a critique of capitalism, and his sarcasm about voting (\"choose which of two rich friends will exploit you\") as a Fabian critique of bourgeois democracy. A wrong answer (e.g., \"it tells us he was a famous writer\") shows the student treats biography as trivia rather than an interpretive key.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the pre-reading strategy to J. Krishnamurti's \"Understanding Freedom and Discipline\": List three specific things you would research about Krishnamurti before reading, and for each, state what insight it might give into his argument.",
+     "a": "1. Research: Krishnamurti's rejection of the Theosophical Society's \"World Teacher\" role in 1929. Insight: Explains his insistence on \"no guru, no authority\" and why he equates discipline with conformity. 2. Research: His educational philosophy (e.g., Brockwood Park, Rishi Valley schools). Insight: Clarifies his focus on \"tenderest age\" and \"sowing the seed of freedom\" — he speaks from direct experience with students. 3. Research: The 1950s-60s context of post-independence India's education system. Insight: Reveals his critique of rote learning and \"walls of do's and don'ts\" as a response to colonial-era schooling. A wrong answer listing generic facts (birth/death dates, nationality) shows the student cannot distinguish relevant context from trivia.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the difference in historical context between Shaw's \"Freedom\" (written 1930s) and Krishnamurti's talk (likely 1950s-60s). How might this difference shape their respective definitions of freedom?",
+     "a": "Shaw writes amid the Great Depression, rise of fascism/communism, and industrial capitalism — his freedom is socio-economic: leisure, fair wages, ending \"wage slavery.\" Krishnamurti speaks in post-colonial India amid nation-building, where education was used for conformity — his freedom is psychological: freedom from conditioning, tradition, and fear. Shaw sees freedom as structural (laws, unions, distribution); Krishnamurti sees it as individual (inquiry, sensitivity, intelligence). A wrong answer that says \"both talk about freedom so they mean the same thing\" ignores how historical material conditions shape philosophical concepts.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's pre-reading note: \"Shaw and Krishnamurti both hate discipline. Shaw says it's slavery; Krishnamurti says it's a prison. So they agree.\" Is this a valid synthesis? Justify.",
+     "a": "No, it's a superficial synthesis that conflates two distinct concepts. Shaw critiques *social* discipline (economic coercion, laws enforcing inequality) — he wants *just* laws and fair distribution. Krishnamurti critiques *psychological* discipline (conformity, imitation, authority) — he wants *no* external discipline, only self-awakened intelligence. Shaw accepts reasonable laws as increasing freedom; Krishnamurti sees all external discipline as contradictory to freedom. The student misses the socio-economic vs. psychological distinction — a classic \"same word, different meaning\" error.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-column \"Context Comparison Table\" for the two essays with these headers: Author & Identity | Historical Moment | Core Metaphor for Unfreedom. Fill it with precise, text-ready entries.",
+     "a": "| Author & Identity | Historical Moment | Core Metaphor for Unfreedom |\n|-------------------|-------------------|----------------------------|\n| G.B. Shaw: Fabian socialist, playwright, critic; uses satire & irony | Interwar Britain (1930s): Depression, rise of totalitarianism, industrial capitalism | \"Wage slavery\" — the worker sells labour to a master who owns the means of production |\n| J. Krishnamurti: Spiritual teacher, rejected guru status; emphasizes direct perception | Post-independence India (1950s-60s): Nation-building, formalized education, tradition vs modernity | \"Prison walls of tradition\" — the mind enclosed by authority, conditioning, and imitation |\n\nA poor answer uses vague entries like \"old times\" or \"society\" — showing the student cannot extract specific, usable context from research.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

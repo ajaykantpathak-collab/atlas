@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_01_007",
+   "title": "c12_chem_cbse_01_007",
+   "questions": [
+    {
+     "q": "State the mathematical expression for relative lowering of vapour pressure for a solution containing a non‑volatile solute. Define each symbol.",
+     "a": "(p°₁ – p₁)/p°₁ = x₂ = n₂/(n₁ + n₂). Here p°₁ = vapour pressure of pure solvent, p₁ = vapour pressure of solution, x₂ = mole fraction of solute, n₁ = moles of solvent, n₂ = moles of solute. A wrong answer (e.g., writing p₁/p°₁ = x₂ or omitting the subtraction) reveals confusion between Raoult’s law for the solvent (p₁ = x₁p°₁) and the definition of relative lowering.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the relative lowering of vapour pressure not depend on the nature of the non‑volatile solute?",
+     "a": "Because RLVP equals the mole fraction of solute (x₂), which is a ratio of particle counts. The identity of the solute particles does not appear in the expression; only their number matters. If a student says “it depends on molar mass” or “different solutes lower vapour pressure differently”, they have not grasped the colligative nature.",
+     "self_check": true
+    },
+    {
+     "q": "A solution contains 5.00 g of a non‑volatile solute in 100 g of water. The vapour pressure of pure water at this temperature is 23.8 mm Hg, and the solution’s vapour pressure is 23.2 mm Hg. Calculate the molar mass of the solute. (M₁ of water = 18.0 g mol⁻¹)",
+     "a": "Step 1: Δp = p°₁ – p₁ = 23.8 – 23.2 = 0.6 mm Hg.  \nStep 2: RLVP = Δp/p°₁ = 0.6/23.8 = 0.02521.  \nStep 3: For dilute solution, RLVP ≈ n₂/n₁ = (w₂/M₂)/(w₁/M₁).  \nStep 4: 0.02521 = (5.00/M₂) / (100/18) = (5.00 × 18)/(M₂ × 100).  \nStep 5: M₂ = (5.00 × 18) / (0.02521 × 100) = 35.7 g mol⁻¹.  \nA wrong answer often comes from using p₁/p°₁ instead of Δp/p°₁, or forgetting to convert masses to moles, or using molarity instead of mole fraction.",
+     "self_check": true
+    },
+    {
+     "q": "Two solutions are prepared: Solution A has 10 g of urea (M = 60 g mol⁻¹) in 100 g water; Solution B has 10 g of glucose (M = 180 g mol⁻¹) in 100 g water. Which solution shows a greater relative lowering of vapour pressure? Explain without calculating exact values.",
+     "a": "Solution A (urea) shows greater RLVP because it has more moles of solute (10/60 = 0.167 mol) than Solution B (10/180 = 0.0556 mol) for the same solvent mass. RLVP ≈ n₂/n₁, so larger n₂ gives larger lowering. A student who says “glucose lowers more because it’s larger” confuses molar mass with number of particles.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the formula for relative lowering of vapour pressure as (p₁ – p°₁)/p°₁ = x₂. Is this correct? If not, identify the error and give the correct expression.",
+     "a": "The student’s expression is incorrect because p₁ – p°₁ is negative (vapour pressure decreases). The correct expression is (p°₁ – p₁)/p°₁ = x₂. The error is a sign convention mistake; the numerator must be the decrease (p°₁ – p₁) to yield a positive fraction equal to x₂.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to verify that relative lowering of vapour pressure is a colligative property. List the materials, measurements, and how you would analyse the data.",
+     "a": "Materials: Pure water, two non‑volatile solutes (e.g., sucrose and urea), balance, manometer or vapour pressure apparatus, thermostat. Procedure: Prepare several solutions of each solute with same molality (or mole fraction). Measure vapour pressure of pure water and each solution at constant temperature. Calculate RLVP for each. Plot RLVP vs mole fraction of solute; all points should lie on a straight line through origin with slope 1, independent of solute identity. A poor answer would omit controlling temperature, use different concentrations for each solute, or fail to explain how the graph confirms colligative behaviour.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_03_007",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_03_007",
+   "title": "c12_chem_cbse_03_007",
+   "questions": [
+    {
+     "q": "Define half-life of a reaction. Write the mathematical expression for half-life of a first-order reaction in terms of its rate constant.",
+     "a": "Half-life (t₁/₂) is the time taken for the reactant concentration to fall to half its initial value. For a first-order reaction, t₁/₂ = 0.693/k (or ln2/k). A wrong answer (e.g., t₁/₂ = [R]₀/2k) reveals confusion with the zero-order formula, indicating the student memorized formulas without understanding their derivation from the integrated rate laws.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the half-life of a first-order reaction is independent of initial concentration, whereas for a zero-order reaction it is directly proportional to initial concentration.",
+     "a": "For first order: ln([R]₀/[R]) = kt. At t₁/₂, [R] = [R]₀/2 → ln2 = kt₁/₂ → t₁/₂ = ln2/k (no [R]₀ term). For zero order: [R]₀ - [R] = kt. At t₁/₂, [R] = [R]₀/2 → [R]₀/2 = kt₁/₂ → t₁/₂ = [R]₀/(2k). A wrong answer reveals the student cannot derive half-life from integrated equations and relies on rote memorization.",
+     "self_check": true
+    },
+    {
+     "q": "A first-order reaction has rate constant k = 2.5 × 10⁻³ s⁻¹. Calculate its half-life. If the initial concentration is 0.80 mol L⁻¹, what is the concentration after one half-life? After two half-lives?",
+     "a": "Step 1: t₁/₂ = 0.693/k = 0.693/(2.5×10⁻³) = 277.2 s. Step 2: After 1 half-life, [R] = 0.80/2 = 0.40 mol L⁻¹. Step 3: After 2 half-lives, [R] = 0.40/2 = 0.20 mol L⁻¹. A wrong answer (e.g., using zero-order formula or miscalculating 0.693/k) reveals confusion between order-specific formulas or arithmetic errors with scientific notation.",
+     "self_check": true
+    },
+    {
+     "q": "For a zero-order reaction, half-life is 50 s when initial concentration is 0.20 M. If initial concentration is doubled to 0.40 M, what is the new half-life? Compare with a first-order reaction where half-life is 50 s at 0.20 M initial concentration.",
+     "a": "Zero order: t₁/₂ ∝ [R]₀, so new t₁/₂ = 100 s. First order: t₁/₂ independent of [R]₀, remains 50 s. A wrong answer (e.g., saying both remain 50 s or both double) reveals fundamental misunderstanding of the concentration dependence of half-life for different orders.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"For a first-order reaction, the time required for 75% completion is twice the half-life.\" Evaluate this statement with justification.",
+     "a": "The statement is correct. 75% completion means 25% reactant remains. After 1 half-life: 50% remains. After 2 half-lives: 25% remains. Thus time for 75% completion = 2 × t₁/₂. A wrong evaluation reveals confusion between \"percentage completion\" and \"fraction remaining\" — a common trap in competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a colorimeter to determine the half-life of the iodide-catalyzed decomposition of hydrogen peroxide (first-order). Outline the procedure and how you would calculate half-life from the data.",
+     "a": "Procedure: Mix known concentrations of H₂O₂ and KI in a cuvette. Monitor absorbance at 230 nm (or use a suitable wavelength) vs time. Since absorbance ∝ [H₂O₂], plot ln(absorbance) vs time. Slope = -k. Calculate t₁/₂ = 0.693/k. Alternatively, directly note time when absorbance drops to half its initial value. A poor answer reveals inability to connect Beer-Lambert law (absorbance ∝ concentration) with integrated rate law.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_03_004",
+   "title": "c11_bs_cbse_03_004",
+   "questions": [
+    {
+     "q": "State the exact legal threshold of paid-up share capital that the government must hold for a company to be classified as a Government Company under the Companies Act, 2013.",
+     "a": "The government (Central, State, or both combined) must hold **not less than 51%** of the paid-up share capital. A common wrong answer is \"50%\" or \"majority stake\" without the precise 51% figure. This reveals the student has not memorised the statutory definition verbatim, which is essential for board exam answers where precise terminology like \"not less than 51 per cent\" carries marks. The definition also includes subsidiaries of such companies, which students often omit.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since the government owns 51% of a Government Company, the company is just a department of the government and its employees are government servants.\" Explain why this statement is incorrect by contrasting any two features of Government Companies with Departmental Undertakings.",
+     "a": "The statement is incorrect because: (1) **Separate Legal Entity**: A Government Company is a body corporate distinct from the government — it can sue/be sued, own property, and enter contracts in its own name (Feature ii, iii). Departmental Undertakings have no separate legal identity; they are part of the ministry. (2) **Employees are not Civil Servants**: Government Company employees are appointed per the company's Memorandum and Articles of Association (Feature v), not under government service rules. Departmental Undertaking employees are government servants headed by IAS officers. A wrong answer that only mentions \"autonomy\" without these specific structural distinctions shows superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Indian Oil Corporation Ltd (IOCL) is a Government Company. The Government of India holds 51.5% of its paid-up capital. IOCL wants to raise ₹10,000 crore for a new refinery. List two distinct sources of funds available to IOCL as a Government Company that would NOT be available to a Departmental Undertaking, and explain why each is accessible.",
+     "a": "Two sources: (1) **Capital Market (Equity/Debt)**: IOCL can issue shares, debentures, or bonds to the public and financial institutions (Feature vii). A Departmental Undertaking cannot — it relies solely on budgetary appropriations from the Government Treasury. (2) **Private Shareholdings**: Since IOCL is a public limited company (48.5% held by non-government shareholders), it can raise funds from existing private shareholders via rights issues. Departmental Undertakings have no shareholders. A student who only says \"government funding\" misses the hybrid financing advantage that defines Government Companies.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the accountability mechanism of a Government Company with that of a Statutory Corporation. Which has stronger parliamentary oversight and why? Use the specific audit and reporting provisions from the textbook.",
+     "a": "**Government Company has stronger formal parliamentary oversight.** Its Annual Report (with audited accounts) **must be presented in Parliament/State Legislature** (Feature vi), and the auditor is appointed by the Central Government. A Statutory Corporation is \"not subject to the same accounting and audit procedures applicable to government departments\" and \"not concerned with the central budget\" (Feature v), though its Act may require report submission. The Government Company's mandatory parliamentary tabling of annual reports creates a direct, structured accountability channel that Statutory Corporations often lack in practice. A wrong answer claiming Statutory Corporations have more oversight because they are created by a Special Act confuses *creation* with *ongoing accountability*.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate this statement: \"The limitation that 'the Government being the sole shareholder, the management and administration rests in the hands of the government' means Government Companies have no real autonomy.\" Is this always true? Justify with reference to the 51% threshold and the Companies Act provisions.",
+     "a": "The statement is **not always true**. It applies only when the government holds **100% (or near-100%)** shareholding. The legal threshold is **51%**, meaning many Government Companies (e.g., NTPC, ONGC, Coal India) have significant private shareholders (up to 49%). In such cases: (1) The Companies Act governs management — Board of Directors, independent directors, audit committees — **not government fiat**; (2) Private shareholders exert pressure for commercial performance; (3) The company **can** take independent business decisions. The limitation arises only in *wholly-owned* Government Companies where the Companies Act provisions become \"irrelevant\" (Limitation i). A student who treats all Government Companies as identical misses this critical nuance.",
+     "self_check": true
+    },
+    {
+     "q": "Design a decision flowchart (describe in text) that a student can use to classify any public sector enterprise as either a Departmental Undertaking, Statutory Corporation, or Government Company. Use only the defining criteria from the textbook.",
+     "a": "**Flowchart logic:**\n1. **Is it established under a Special Act of Parliament?** → YES → Statutory Corporation. NO → Go to 2.\n2. **Is it registered under the Companies Act, 2013 (or previous Company Law)?** → NO → Departmental Undertaking (part of ministry). YES → Go to 3.\n3. **Does government (Central/State/both) hold ≥51% paid-up capital?** → YES → Government Company. NO → Private Sector Company (not public sector).\n*Key discriminators*: Special Act vs Companies Act registration; Budget funding vs share capital; Civil servants vs company employees; Parliamentary report mandate vs Act-defined accountability. A poor answer mixes up \"government ownership\" (common to all three) as a discriminator, failing to isolate the *legal form* and *ownership threshold* as the defining criteria.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

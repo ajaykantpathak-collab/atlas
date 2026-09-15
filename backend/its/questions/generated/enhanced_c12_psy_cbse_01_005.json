@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_01_005",
+   "title": "c12_psy_cbse_01_005",
+   "questions": [
+    {
+     "q": "A student writes: \"Gardner's theory says there are 8 types of intelligence, and everyone has all 8 in equal amounts.\" Identify the error in this statement and correct it using Gardner's actual position.",
+     "a": "The statement contains two errors. First, Gardner does not claim equal amounts; he argues individuals have unique profiles with varying strengths across the eight intelligences. Second, the intelligences are relatively independent — strength in one does not predict strength in another. A correct version: \"Gardner proposes eight relatively independent intelligences; individuals exhibit distinct profiles with varying strengths across them.\" A wrong answer reveals the student conflates \"multiple intelligences\" with \"multiple equal abilities\" — a common oversimplification that misses the theory's core claim of independence and individual variation.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 12 student claims: \"If someone has high Logical-Mathematical intelligence, they must also have high Spatial intelligence because both involve abstract reasoning.\" Evaluate this claim using Gardner's criteria for distinct intelligences.",
+     "a": "The claim is false. Gardner's criteria for distinct intelligences include: (1) potential isolation by brain damage, (2) existence of exceptional populations (prodigies, savants), (3) distinct developmental trajectory, (4) unique symbolic system, (5) evolutionary plausibility. Logical-Mathematical and Spatial intelligences satisfy these separately — e.g., a person with parietal lobe damage may lose spatial reasoning but retain logical reasoning; a mathematical prodigy may have average spatial skill. The student's error assumes correlation implies unity, ignoring Gardner's evidence for neural and developmental independence. This misconception stems from equating \"abstract reasoning\" as a single faculty rather than recognising domain-specific cognitive systems.",
+     "self_check": true
+    },
+    {
+     "q": "Priya is a 17-year-old who: (a) writes award-winning Hindi poetry, (b) cannot read maps or assemble furniture, (c) learns dance choreography after one demonstration, (d) struggles with algebraic word problems, (e) intuitively understands her friends' unspoken emotions. Map Priya's profile to Gardner's eight intelligences, indicating HIGH, AVERAGE, or LOW for each with one-sentence justification per intelligence.",
+     "a": "Mapping: Linguistic — HIGH (award-winning poetry demonstrates fluent, flexible language use). Logical-Mathematical — LOW (struggles with algebraic word problems). Spatial — LOW (cannot read maps/assemble furniture). Musical — not directly evidenced (AVERAGE assumed). Bodily-Kinaesthetic — HIGH (learns dance choreography rapidly). Interpersonal — HIGH (intuitive understanding of friends' emotions). Intrapersonal — not directly evidenced (AVERAGE assumed). Naturalistic — not evidenced (AVERAGE assumed). A wrong answer typically forces all intelligences into HIGH/LOW based on overall \"smartness,\" missing the independence principle. For example, marking Spatial as HIGH because \"she's intelligent\" violates the theory's core claim.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Gardner's view of intelligence with Spearman's g-factor theory on THREE dimensions: (1) structure of intelligence, (2) explanation of exceptional populations (prodigies/savants), (3) educational implications. Present as a structured comparison table.",
+     "a": "| Dimension | Spearman (g-factor) | Gardner (Multiple Intelligences) |\n|-----------|---------------------|----------------------------------|\n| Structure | Single general factor (g) + specific factors (s); all cognitive tasks share g | Eight relatively independent intelligences; no single g-factor |\n| Exceptional populations | Prodigies = high g + high specific s; savants = low g + isolated high s | Prodigies/savants = extreme development in ONE intelligence with others average/low; evidence for independence |\n| Educational implication | Uniform curriculum; streaming by IQ; remediation targets g | Differentiated instruction; assess profile; nurture all 8 intelligences; multiple entry points to content |\nA wrong answer blurs the distinction, e.g., \"both agree people have different strengths\" — missing that Gardner rejects g entirely while Spearman sees specifics as minor additions to g. This confusion appears in board exams when students treat the theories as complementary rather than competing.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following school policy using Gardner's theory: \"Our school identifies 'gifted students' using a standard IQ test (verbal + non-verbal reasoning). Only these students get access to advanced enrichment programmes in science, mathematics, and creative writing.\" Identify TWO specific limitations of this policy from Gardner's perspective and propose ONE concrete alternative.",
+     "a": "Limitations: (1) IQ tests primarily measure Linguistic and Logical-Mathematical intelligences, ignoring the other six. A student with exceptional Musical, Bodily-Kinaesthetic, or Interpersonal intelligence would be excluded despite giftedness in those domains. (2) The policy assumes a unitary \"giftedness\" (g-factor), contradicting Gardner's evidence that giftedness is domain-specific — a math prodigy may be average in writing. Alternative: Implement a Multiple Intelligences Profile assessment (observation, portfolio, teacher/parent/peer nomination across all 8 domains) and offer enrichment modules in each intelligence area (e.g., robotics for Logical-Mathematical, theatre for Bodily-Kinaesthetic/Interpersonal, ecology club for Naturalistic). A weak answer suggests \"use multiple tests\" without specifying which intelligences or how to operationalise — missing the theory's practical demand for domain-specific identification.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-week Class 12 Psychology project that allows students to demonstrate understanding of Gardner's theory through ALL eight intelligences. Specify: (a) the central theme, (b) one deliverable per intelligence, (c) how independence of intelligences is respected in assessment.",
+     "a": "Theme: \"Understanding My Community.\" Deliverables: Linguistic — interview transcript + reflective essay; Logical-Mathematical — statistical analysis of survey data on community issues; Spatial — hand-drawn/annotated community map with scale; Musical — original soundscape/audio documentary of neighbourhood sounds; Bodily-Kinaesthetic — choreographed movement piece representing community rhythms; Interpersonal — facilitated focus group discussion with diverse residents; Intrapersonal — personal learning journal tracking biases/assumptions; Naturalistic — field guide of local flora/fauna with ecological notes. Assessment: Each deliverable graded on domain-specific rubric (e.g., Musical assessed for rhythm, timbre, structure — not writing quality). No single \"project grade\"; students receive 8 separate scores. A poor answer creates one integrated product (e.g., \"a report with charts\") and grades it holistically — violating independence by forcing compensation across domains.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_01_010",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_01_010",
+   "title": "c11_ip_cbse_01_010",
+   "questions": [
+    {
+     "q": "What are the valid digits in the hexadecimal number system, and what decimal value does the digit 'C' represent?",
+     "a": "Valid digits: 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F. 'C' represents decimal 12. A wrong answer (e.g., saying 'C' is 11 or listing digits up to G) reveals the student has not memorised the hex digit set or confuses the mapping of letters to values.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the octal number 78. Explain why this is invalid and what the student likely misunderstood about the octal system.",
+     "a": "Octal digits are only 0-7; '8' is not a valid octal digit. The student likely thinks octal uses digits 0-8 (confusing base with max digit) or simply treats octal like decimal. This shows a fundamental misunderstanding of the relationship between base and allowed digits.",
+     "self_check": true
+    },
+    {
+     "q": "Write the positional weights (place values) for the first five positions (from right to left, starting at position 0) in the binary, octal, and hexadecimal systems. Express each weight in decimal.",
+     "a": "Binary: 2^0=1, 2^1=2, 2^2=4, 2^3=8, 2^4=16. Octal: 8^0=1, 8^1=8, 8^2=64, 8^3=512, 8^4=4096. Hexadecimal: 16^0=1, 16^1=16, 16^2=256, 16^3=4096, 16^4=65536. Errors reveal inability to apply the general place-value formula (base^position) to specific bases.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the binary number 1011 and the hexadecimal number B. Are they equal in value? Justify your answer by expanding both in powers of their respective bases.",
+     "a": "Yes, they are equal. Binary 1011 = 1×2^3 + 0×2^2 + 1×2^1 + 1×2^0 = 8+0+2+1 = 11. Hexadecimal B = 11×16^0 = 11. A student who says they are different cannot map hex digits to decimal or expand positional notation correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Hexadecimal is used in programming because it is easier for computers to process than binary.\" Is this true or false? Defend your answer with reference to how data is actually stored and processed.",
+     "a": "False. Computers process only binary (bits). Hexadecimal is a human convenience: each hex digit represents exactly 4 bits (a nibble), making it compact and readable for programmers. The statement confuses human readability with hardware processing. A student agreeing with the statement has not grasped the distinction between machine representation and human notation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new base-5 number system for a fictional alien species with 5 fingers. Define its digit set, write the first ten numbers in this system (starting from 0), and explain how the place values differ from decimal.",
+     "a": "Digit set: {0,1,2,3,4}. First ten numbers: 0, 1, 2, 3, 4, 10, 11, 12, 13, 14. Place values are powers of 5 (1, 5, 25, 125...) instead of powers of 10. A poor answer uses digit '5' or writes 5 instead of 10 for the fifth number, showing failure to generalise the carry-over rule to an arbitrary base.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_08_002",
+   "title": "c11_hs_cbse_08_002",
+   "questions": [
+    {
+     "q": "State the three primary anthropometric indicators used to assess physical growth in infancy and the expected quantitative change for each by 12 months of age.",
+     "a": "The three primary indicators are: (1) Weight – doubles by 6 months and triples by 12 months; (2) Length – increases from 50-55 cm at birth to ~75 cm (50% increase) by 12 months; (3) Head circumference and chest circumference – both increase steadily, with head circumference growing faster in early months. A wrong answer that only lists \"weight and height\" or gives vague \"increases\" without the specific doubling/tripling/50% benchmarks reveals the student has memorised terms but not the quantitative growth velocity standards essential for clinical assessment.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why an infant's energy requirement per kilogram of body weight (108 kcal/kg/day at 0-6 months) is nearly double that of an adult doing heavy work, despite the infant being far less physically active.",
+     "a": "The high per-kg energy need is driven by the metabolic cost of rapid tissue synthesis (growth), not physical activity. Infants lay down new cells at an extraordinary rate—weight triples in one year—requiring substantial energy for protein synthesis, cell division, and organ maturation. Adults primarily expend energy on maintenance and activity. A wrong answer attributing it to \"babies move a lot\" or \"babies have high metabolism\" without linking to anabolic growth processes shows confusion between basal metabolic rate and growth-specific energy partitioning.",
+     "self_check": true
+    },
+    {
+     "q": "A 4-month-old infant weighs 6.5 kg (birth weight 3.2 kg). Using the growth velocity rule, determine if this weight gain is on track. Then calculate the infant's approximate daily energy requirement in kcal.",
+     "a": "Step 1: Expected weight at 4 months. Doubling occurs by 6 months, so monthly gain ≈ (3.2 kg × 2 - 3.2 kg) / 6 = 0.53 kg/month. By 4 months, expected weight ≈ 3.2 + (0.53 × 4) = 5.3 kg. Actual 6.5 kg exceeds this, suggesting above-average gain (possible overfeeding or measurement error). Step 2: Energy requirement = 108 kcal/kg/day × 6.5 kg = 702 kcal/day. A wrong answer that only calculates energy without first evaluating growth trajectory reveals the student treats formulas as isolated plug-and-chug rather than diagnostic tools.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the developmental readiness signs for introducing semi-solid complementary foods at 5-6 months with the signs for introducing solid complements at 10-12 months. Analyse how each sign reflects a specific physiological maturation.",
+     "a": "Semi-solid readiness (5-6 months): head control (cervical muscle maturity), sitting with support (trunk control), loss of tongue-thrust reflex (neurological maturation of swallowing coordination), showing interest in food (cognitive/sensory development). Solid readiness (10-12 months): independent sitting, pincer grasp (fine motor development), teething (mastication capacity), ability to chew (jaw strength and coordination). Each sign maps to a distinct system maturation—neuromuscular, oral-motor, cognitive. A wrong answer that merely lists foods (e.g., \"dal at 6 months, chapati at 10 months\") without linking to physiological milestones shows the student views complementary feeding as a calendar schedule rather than a developmental response.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"If a low birth weight infant (<2.5 kg) is gaining weight slowly, the mother should immediately start top feeds with formula to catch up.\"",
+     "a": "The statement is flawed. Evidence shows mother's own milk—even for low birth weight infants—provides essential amino acids, appropriate calories, fat, sodium, and antimicrobial factors that protect the immature gut. Formula lacks these bioactive components and increases infection risk. The correct approach: assess breastfeeding effectiveness, support mother's nutrition (high protein, calcium, iron, fluids), monitor weight velocity weekly, and only consider fortified breast milk or preterm formula under medical supervision if growth falters despite optimal breastfeeding. A wrong answer endorsing early formula reveals the misconception that volume alone drives growth, ignoring the qualitative immunological and developmental advantages of human milk for vulnerable infants.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page \"Growth & Feeding Milestone Tracker\" for parents of a 0-12 month infant that integrates anthropometric checkpoints, developmental feeding cues, and nutritional action points. Sketch the layout and list the 5 most critical entries for the 6-month row.",
+     "a": "Layout: Columns = Age (months) | Weight Check (kg/% gain) | Length Check (cm) | Head/Chest Circ. | Motor/Oral Milestone | Feeding Texture | Key Nutrients to Watch | Red Flags. \n6-month row entries: (1) Weight: ~2× birth weight; (2) Milestone: sits with support, loses tongue-thrust, reaches for food; (3) Texture: introduce semi-solids (strained dals, veg soups, fruit purees); (4) Nutrients: iron-rich foods critical (stores deplete), continue breast milk; (5) Red flag: no weight gain in 1 month, still tongue-thrusting, refuses all solids. A poor answer that omits the iron-depletion alert or treats 6 months as only \"start solids\" shows failure to integrate nutritional biochemistry with developmental timing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

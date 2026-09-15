@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_09_004",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_09_004",
+   "title": "c12_hs_cbse_09_004",
+   "questions": [
+    {
+     "q": "A mother states: \"My 4-month-old baby seems hungry after feeds. The doctor said I can start Cerelac now because she is not gaining weight.\" Recall the WHO/UNICEF recommendation for exclusive breastfeeding duration and the physiological reason why complementary foods are not recommended before 6 months.",
+     "a": "Correct answer: WHO/UNICEF recommend exclusive breastfeeding for the first 6 months (180 days). Before 6 months, the infant's gastrointestinal tract is immature (low enzyme activity, high permeability), renal solute load capacity is limited, and breastmilk provides all nutrients in bioavailable forms. Introducing Cerelac at 4 months displaces breastmilk, increases infection risk, and may trigger allergies. A wrong answer (e.g., \"Cerelac is fine if baby is hungry\") reveals the student confuses \"perceived hunger\" with actual nutritional need and does not understand gut/renal immaturity as the biological basis for the 6-month cutoff.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why \"dal water\" (the strained liquid from cooked lentils) is an inappropriate first complementary food for a 6-month-old infant, even though it is a common traditional practice in many Indian households.",
+     "a": "Correct answer: Dal water provides mainly water and some water-soluble vitamins/minerals but negligible energy (≈10-15 kcal/100ml), protein (<0.5g/100ml), iron, or zinc. At 6 months, an infant needs ~200 kcal/day from complementary foods with high nutrient density (energy >0.8 kcal/g, protein >1.5g/100kcal). Dal water fills the stomach without meeting nutrient needs, displacing breastmilk and causing \"dilutional malnutrition.\" A wrong answer (e.g., \"dal water is good because it has protein\") reveals the student cannot distinguish between a food *containing* a nutrient and a food *providing adequate density* of that nutrient per feed — a core concept in complementary feeding.",
+     "self_check": true
+    },
+    {
+     "q": "A 7-month-old infant (weight 7.5 kg, length 67 cm) is exclusively breastfed. The mother wants to start complementary feeding. Using ICMR 2020 RDA, calculate the energy (kcal) and protein (g) required FROM COMPLEMENTARY FOODS per day, assuming breastmilk intake is 600 ml/day (energy 65 kcal/100ml, protein 1.1g/100ml). Show all steps.",
+     "a": "Step 1: ICMR 2020 RDA for 7-month-old (6-12 mo): Energy 710 kcal/day, Protein 9.5 g/day.\nStep 2: Breastmilk contribution: 600 ml × (65 kcal/100ml) = 390 kcal; 600 ml × (1.1g/100ml) = 6.6 g protein.\nStep 3: Gap from complementary foods: Energy = 710 - 390 = 320 kcal; Protein = 9.5 - 6.6 = 2.9 g.\nStep 4: If 3 feeds/day, each feed must provide ~107 kcal and ~1 g protein.\nStep 5: Verify nutrient density: 107 kcal in ~100g feed = 1.07 kcal/g (adequate >0.8). Protein 1g/107kcal = 0.93g/100kcal (below ideal 1.5g/100kcal → need protein-rich additions).\nWrong answer (e.g., \"RDA is 710 kcal, so give 710 kcal from food\") reveals the student forgets to subtract breastmilk contribution — a classic board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the iron bioavailability in breastmilk vs. cow's milk vs. iron-fortified infant cereal. Analyze why ICMR recommends iron-rich complementary foods (e.g., fortified cereals, meat, pulses) from 6 months, even though breastmilk iron concentration is low (0.3 mg/L).",
+     "a": "Correct analysis: Breastmilk iron is low (0.3 mg/L) but bioavailability is high (~50%) due to lactoferrin and low casein/phytate. Cow's milk iron is also low (~0.5 mg/L) but bioavailability is <10% due to high casein, calcium, and phosphate inhibiting absorption; it also causes intestinal micro-bleeding. Iron-fortified cereal (electrolytic iron/NaFeEDTA) provides 5-10 mg/serving with 5-15% bioavailability — delivering more *absorbed* iron than large volumes of milk. By 6 months, fetal iron stores are depleted; breastmilk alone cannot meet the 5 mg/day RDA. A wrong answer (e.g., \"breastmilk has less iron so it's bad\") reveals the student confuses concentration with bioavailability and ignores the protective role of lactoferrin against pathogens.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The Baby-Friendly Hospital Initiative (BFHI) 'Ten Steps to Successful Breastfeeding' is only relevant for hospital births; it has no application for home deliveries in rural India.\" Defend or critique using evidence from NFHS-5 data and community-based breastfeeding support models.",
+     "a": "Critique: The statement is false. BFHI principles extend beyond hospitals via Step 10: \"Foster breastfeeding support groups\" and community adaptation (e.g., Mother Support Groups, ASHA home visits). NFHS-5 shows 41% of births still occur at home in some states; early initiation (<1 hour) is 41.8% nationally but only 30% in home births. Community-based peer counseling (e.g., BPNI model) adapts BFHI Steps 3, 4, 6, 10 for home settings: antenatal counseling (Step 3), immediate skin-to-skin (Step 4), no prelacteals (Step 6), and sustained support (Step 10). A wrong answer (e.g., \"BFHI is only for hospitals\") reveals the student sees BFHI as a facility checklist rather than a continuum of care framework — a common board exam misunderstanding.",
+     "self_check": true
+    },
+    {
+     "q": "Create a one-day complementary feeding menu for a 9-month-old infant (weight 8.5 kg) using ONLY locally available, low-cost ingredients (no commercial products). The menu must: (a) provide 3 meals + 1 snack, (b) include ≥4 food groups per day (ICMR), (c) meet ≥50% of daily energy and protein RDA from complementary foods, (d) specify texture (mashed/chopped/finger food), and (e) show responsive feeding cues for each meal. Present as a table.",
+     "a": "Expected answer: A table with columns: Meal, Time, Menu (ingredients + amounts), Food Groups Covered, Texture, Responsive Cue (e.g., \"baby leans forward/opens mouth\"), Estimated Energy (kcal), Protein (g). Example: Breakfast 8am: Ragi porridge (30g ragi + 100ml milk + 5g jaggery) + mashed banana (30g) → Cereals, Milk, Fruit; thick porridge; baby smacks lips → 210 kcal, 5g protein. Lunch 12pm: Khichdi (20g rice + 15g moong dal + 5g ghee + 30g carrot/spinach) + curd (30g) → Cereals, Pulses, Vegetables, Milk; soft mashed; baby reaches for spoon → 240 kcal, 7g protein. Snack 4pm: Steamed apple (50g) + 2 tsp peanut powder → Fruit, Nuts; finger food; baby picks up pieces → 60 kcal, 1.5g protein. Dinner 7pm: Suji upma (20g suji + 5g ghee + 30g peas/carrot) + egg yolk (½) → Cereals, Vegetables, Egg; soft lumps; baby makes chewing motions → 180 kcal, 5g protein. Total: 690 kcal, 18.5g protein (RDA 6-12mo: 710 kcal, 9.5g protein → meets >50% energy, >100% protein). Poor answer: missing food groups, no texture progression, no responsive cues, or commercial Cerelac included — reveals inability to translate guidelines into practical, culturally appropriate plans.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

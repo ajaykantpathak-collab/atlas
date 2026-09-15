@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_03_009",
+   "title": "c10_bio_cbse_03_009",
+   "questions": [
+    {
+     "q": "Name the two female gonads and state the two main functions they perform in the human female reproductive system.",
+     "a": "The two female gonads are the ovaries. Their two main functions are: (1) production of female gametes (ova/eggs) through oogenesis, and (2) secretion of the female sex hormones estrogen and progesterone. A wrong answer (e.g., naming uterus or fallopian tubes as gonads, or stating ovaries produce sperm) reveals confusion between gonads (gamete-producing organs) and accessory reproductive organs, or mixing up male and female systems.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the fallopian tube (oviduct) is the usual site of fertilisation in humans, and describe the structural features that enable this function.",
+     "a": "The fallopian tube is the usual site of fertilisation because it receives the ovulated ovum via its fimbriae and provides a ciliated, muscular passage where sperm can meet the ovum within 12–24 hours of ovulation. Its structural features include: (i) fimbriae that sweep the ovum into the tube, (ii) ciliated epithelium that moves the ovum/zygote toward the uterus, and (iii) peristaltic contractions of the muscular wall that assist transport. A wrong answer (e.g., saying fertilisation occurs in the uterus or vagina) shows misunderstanding of the timing — the ovum is viable only briefly and must be fertilised before reaching the uterus; the uterus is for implantation, not fertilisation.",
+     "self_check": true
+    },
+    {
+     "q": "A woman has blocked fallopian tubes on both sides. Predict whether she can ovulate, whether fertilisation can occur naturally, and whether she can menstruate. Justify each prediction.",
+     "a": "Step 1: Ovulation — YES, she can ovulate because ovulation is the release of an ovum from the ovary, which is not physically blocked by fallopian tube obstruction. Step 2: Natural fertilisation — NO, because the ovum cannot enter the fallopian tube to meet sperm, and sperm cannot reach the ovum; the blockage prevents gamete union. Step 3: Menstruation — YES, because menstruation is the shedding of the uterine endometrium due to hormonal withdrawal (drop in progesterone) when pregnancy does not occur; this cycle is independent of fallopian tube patency. A wrong answer (e.g., saying she cannot ovulate or menstruate) reveals confusion between ovarian function (hormone-driven, independent) and tubal transport function.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the uterine wall (myometrium and endometrium) and the cervical canal in terms of structure, cyclic changes, and role during the menstrual cycle and pregnancy.",
+     "a": "The uterine wall has a thick muscular myometrium (contractile for parturition) and a vascular endometrium that undergoes cyclic proliferation (estrogen), secretion (progesterone), and shedding (menstruation) to prepare for implantation. The cervical canal is lined with mucus-secreting epithelium; its mucus changes cyclically (thin, alkaline at ovulation to allow sperm entry; thick, acidic otherwise to block pathogens). During pregnancy, the myometrium stretches and remains quiescent until labour; the endometrium becomes decidua to support placenta; the cervix forms a mucus plug and later dilates for birth. A wrong answer that treats uterus and cervix as similar or ignores cyclic endometrial changes shows failure to link structure to hormone-driven function.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The vagina is just a passive tube for intercourse and birth; it has no active role in reproduction.\" Evaluate this statement using at least three biological facts about vaginal structure and function.",
+     "a": "The statement is incorrect. Three active roles: (1) The vaginal epithelium thickens and accumulates glycogen under estrogen influence; glycogen is metabolised by lactobacilli to lactic acid, maintaining a low pH (~3.5–4.5) that protects against pathogens — an active biochemical defence. (2) During sexual arousal, vaginal walls secrete transudate for lubrication and the vagina lengthens/widens (tenting) to accommodate the penis and facilitate sperm deposition near the cervix. (3) During parturition, the vagina stretches enormously as the birth canal, its rugae allowing expansion; it also participates in the Ferguson reflex (stretch receptors trigger oxytocin release). A wrong answer accepting the claim shows lack of knowledge about vaginal physiology beyond anatomy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple labeled diagram that a Class 10 student could draw in the board exam to show the path of an ovum from ovary to uterus, including all structures it passes through and the specific region where fertilisation normally occurs. Indicate the direction of movement with arrows.",
+     "a": "A good answer will show: (1) Left/right ovary with a follicle releasing an ovum (arrow out). (2) Fimbriae of the fallopian tube sweeping the ovum in (arrow into tube). (3) Fallopian tube labeled with \"Ampulla — site of fertilisation\" (arrow along tube). (4) Uterus with thick endometrial lining (arrow into uterus). (5) Cervix and vagina shown but not on the ovum's path (no arrow through them for ovum). Arrows must be unidirectional: ovary → fimbriae → fallopian tube (ampulla) → uterus. A poor diagram missing fimbriae, mislabeling fertilisation site as uterus, or showing ovum going to vagina reveals gaps in spatial understanding and functional anatomy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

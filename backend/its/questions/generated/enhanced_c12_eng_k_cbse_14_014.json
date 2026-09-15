@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_14_014",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_14_014",
+   "title": "c12_eng_k_cbse_14_014",
+   "questions": [
+    {
+     "q": "What is the PEEL structure for writing analytical paragraphs, and what does each letter stand for?",
+     "a": "PEEL stands for Point, Evidence, Explanation, Link. Point = the main argument or topic sentence. Evidence = a direct quote or specific textual reference. Explanation = analysis of how the evidence supports the point. Link = a concluding sentence connecting back to the question or thesis. A wrong answer (e.g., \"Point, Example, Elaboration, Conclusion\") reveals the student has memorized a variant but not the CBSE-standard structure, leading to answers that lack analytical depth in the \"Explanation\" step.",
+     "self_check": true
+    },
+    {
+     "q": "Read this student response: \"Shaw thinks freedom is about having leisure time. He says we are slaves to nature. Krishnamurti thinks freedom is about thinking for yourself. He says discipline destroys sensitivity.\" Identify two specific weaknesses in this response relative to board exam expectations.",
+     "a": "Weakness 1: No direct textual evidence — \"He says we are slaves to nature\" is a paraphrase without a quote (e.g., \"Nature is kind to her slaves\"). Weakness 2: No comparative analysis — the response lists two separate ideas but never *compares* them (e.g., \"Unlike Shaw's socio-economic view, Krishnamurti frames freedom as psychological...\"). A student making this error treats the task as information retrieval rather than analytical synthesis, costing 2-3 marks in a 5-mark question.",
+     "self_check": true
+    },
+    {
+     "q": "Write a PEEL paragraph answering: \"How does Shaw use the distinction between 'natural slavery' and 'unnatural slavery' to critique political freedom?\" Use the quote: \"Nature is kind to her slaves... The slavery of man to man is the very opposite of this.\"",
+     "a": "**Point:** Shaw contrasts natural and unnatural slavery to expose political freedom as a façade masking economic exploitation. **Evidence:** He writes, \"Nature is kind to her slaves... The slavery of man to man is the very opposite of this.\" **Explanation:** Natural slavery (sleep, hunger) brings pleasure in its satisfaction, making us *accept* it willingly; unnatural slavery (wage labour, class oppression) is \"hateful to body and spirit,\" enforced by laws and propaganda that teach workers \"our country is the land of the free\" while they labour 14 hours daily. **Link:** Thus, Shaw argues that voting rights and \"glorious triumphs for freedom\" are distractions — true freedom requires economic leisure, not political pageantry. A wrong answer would quote the text but fail to *explain* the contrast's rhetorical function, treating evidence as decoration rather than proof.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze this prompt: \"Both texts discuss freedom. Comment on the difference in the style of treatment of the topic in them.\" What are the *three* distinct stylistic dimensions a high-scoring answer must address?",
+     "a": "A high-scoring answer must address: (1) **Tone and persona** — Shaw's ironic, rhetorical, satirical voice (\"The amazing thing about it is that you are fool enough to believe them\") vs. Krishnamurti's direct, interrogative, meditative tone (\"Are you? Can a man ever be free as long as he lives in a prison?\"). (2) **Structure and argumentation** — Shaw's historical-materialist analysis with extended examples (Magna Carta, Waterloo, Factory Acts) vs. Krishnamurti's phenomenological inquiry using rhetorical questions and immediate sensory experience (villagers, temple bell, sunlight). (3) **Audience address** — Shaw's \"you\" as a collective, class-conscious worker (\"nine out of ten of us\") vs. Krishnamurti's \"you\" as an individual student (\"you are all young\"). Missing any dimension reduces the answer to content summary, not stylistic analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Krishnamurti's rejection of discipline makes his concept of freedom impractical for a school curriculum.\" Defend or challenge using evidence from the text.",
+     "a": "**Challenge:** Krishnamurti does not reject discipline *per se* but *imposed* discipline that creates conformity (\"Discipline is the cultivation of resistance... building a barrier\"). He advocates self-initiated inquiry: \"One has to experiment and discover on one's own.\" His schools exist precisely to operationalize this — students are \"free to find out what you really want to do in life.\" The claim confuses *absence of external control* with *absence of structure*; Krishnamurti's freedom requires *more* rigorous self-discipline (alert perception, constant inquiry), not less. A student agreeing with the claim misreads \"discipline and freedom are contradictory\" as \"discipline is unnecessary,\" ignoring Krishnamurti's emphasis on the *difficulty* of true freedom (\"requires alert perception... most people have neither the inclination nor the energy\").",
+     "self_check": true
+    },
+    {
+     "q": "Write a 100-word comparative paragraph on: \"How do both authors use the pronoun 'you' to implicate the reader in their argument?\" Include one quote from each text.",
+     "a": "**Sample answer:** Both authors weaponize the second person to collapse the distance between text and reader. Shaw's \"you\" addresses the collective worker: \"you are fool enough to believe them,\" \"your vote has decided the election,\" forcing complicity in the \"prodigious mass of humbug.\" Krishnamurti's \"you\" targets the individual student: \"you are all young,\" \"do you have any feeling for them?\", \"are you actually so blinded?\" — each question a mirror reflecting the reader's conditioning. Shaw's \"you\" exposes *systemic* deception (\"they enforce your slavery and call it freedom\"); Krishnamurti's \"you\" exposes *internal* imprisonment (\"living in that enclosure, you say you are free\"). Together, they make freedom impossible to discuss abstractly — it demands *your* response. A weak answer would list quotes without analyzing the *different rhetorical work* each \"you\" performs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

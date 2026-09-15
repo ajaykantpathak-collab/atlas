@@ -1,0 +1,401 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 401,
+ "chapter_title": "Power-sharing",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jess401.txt",
+ "concepts": [
+  {
+   "id": "jess.401.1.1",
+   "title": "Ethnic Distribution in Belgium",
+   "section": "Belgium and Sri Lanka",
+   "definition": "The demographic makeup of Belgium categorized by linguistic groups and their regional concentrations.",
+   "formula": "group_count = total_pop * share_percent / 100",
+   "key_idea": "Belgium has a complex ethnic mix with Dutch and French speakers concentrated in Flemish and Wallonia regions respectively.",
+   "textbook_ref": "jess401.txt lines 20-45",
+   "question_patterns": [
+    "calculate the number of Dutch speakers in Belgium",
+    "find the population of French speakers in the Wallonia region",
+    "what is the count of German speakers if the total population is ...",
+    "determine the number of French speakers in Brussels",
+    "how many Dutch speakers live in the capital city"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify total population and the percentage share of the linguistic group",
+     "explain": "The total population is total_pop and the percentage share is share_percent",
+     "compute": "group_count = total_pop * share_percent / 100"
+    }
+   ]
+  },
+  {
+   "id": "jess.401.1.2",
+   "title": "Ethnic Distribution in Sri Lanka",
+   "section": "Belgium and Sri Lanka",
+   "definition": "The classification of Sri Lanka's population based on language and religious identity.",
+   "formula": "group_count = total_pop * share_percent / 100",
+   "key_idea": "Sri Lanka's population is dominated by Sinhala speakers, with significant Tamil and Christian minorities.",
+   "textbook_ref": "jess401.txt lines 55-80",
+   "question_patterns": [
+    "calculate the number of Sinhala speakers in Sri Lanka",
+    "find the population of Sri Lankan Tamils",
+    "how many Indian Tamils are there if the total population is ...",
+    "determine the count of Christians in Sri Lanka",
+    "what is the total number of Tamil speakers"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify total population and the percentage share of the social group",
+     "explain": "The total population is total_pop and the percentage share is share_percent",
+     "compute": "group_count = total_pop * share_percent / 100"
+    }
+   ]
+  },
+  {
+   "id": "jess.401.2.1",
+   "title": "Majoritarianism",
+   "section": "Majoritarianism in Sri Lanka",
+   "definition": "A political philosophy where the numerically superior group dictates terms of governance, often ignoring minority needs.",
+   "formula": "NA",
+   "key_idea": "The Sinhala community in Sri Lanka established dominance through preferential policies and official language acts.",
+   "textbook_ref": "jess401.txt lines 95-125",
+   "question_patterns": [
+    "define majoritarianism in the context of Sri Lanka",
+    "what measures were taken to establish Sinhala supremacy",
+    "how did the 1956 Act affect the Tamil community",
+    "explain the concept of majoritarianism",
+    "identify the consequences of majoritarian policies"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the majority group and their specific legislative actions",
+     "explain": "In Sri Lanka, the Sinhala majority passed the 1956 Act to make Sinhala the only official language."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the impact on minority groups",
+     "explain": "These measures led to a feeling of alienation among Tamils, eventually resulting in civil war."
+    }
+   ]
+  },
+  {
+   "id": "jess.401.3.1",
+   "title": "Belgian Model of Accommodation",
+   "section": "Accommodation in Belgium",
+   "definition": "A unique power-sharing arrangement involving constitutional amendments to ensure linguistic equality and regional autonomy.",
+   "formula": "NA",
+   "key_idea": "Belgium avoided conflict by granting equal representation to Dutch and French speakers in the central government.",
+   "textbook_ref": "jess401.txt lines 150-190",
+   "question_patterns": [
+    "describe the elements of the Belgian model",
+    "how did Belgium accommodate its cultural diversities",
+    "what was the arrangement for Brussels in the Belgian model",
+    "explain the role of constitutional amendments in Belgium",
+    "why is the Belgian model considered innovative"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the central government structure",
+     "explain": "The constitution mandates an equal number of Dutch and French-speaking ministers at the center."
+    },
+    {
+     "step": 2,
+     "action": "Examine regional and capital city arrangements",
+     "explain": "State governments were given powers, and Brussels formed a separate government with equal representation."
+    }
+   ]
+  },
+  {
+   "id": "jess.401.4.1",
+   "title": "Prudential Reasons for Power Sharing",
+   "section": "Why power sharing is desirable?",
+   "definition": "Justifications for sharing power based on practical calculations of reducing social conflict and ensuring political stability.",
+   "formula": "NA",
+   "key_idea": "Power sharing is a strategy to prevent violence and maintain the unity of the nation.",
+   "textbook_ref": "jess401.txt lines 245-260",
+   "question_patterns": [
+    "state the prudential reasons for power sharing",
+    "why is power sharing good for political stability",
+    "how does power sharing reduce social conflict",
+    "explain the practical benefits of sharing power",
+    "distinguish prudential reasons from moral reasons"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the primary goal of prudential reasons",
+     "explain": "The goal is to avoid conflict between social groups which leads to instability."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate the long-term outcome",
+     "explain": "It ensures the stability of the political order and national unity."
+    }
+   ]
+  },
+  {
+   "id": "jess.401.4.2",
+   "title": "Moral Reasons for Power Sharing",
+   "section": "Why power sharing is desirable?",
+   "definition": "The philosophical argument that sharing power is inherently valuable as it represents the fundamental essence of democratic governance.",
+   "formula": "NA",
+   "key_idea": "Power sharing is considered the 'spirit of democracy' where citizens have a right to be consulted.",
+   "textbook_ref": "jess401.txt lines 261-275",
+   "question_patterns": [
+    "what are the moral reasons for power sharing",
+    "why is power sharing called the spirit of democracy",
+    "explain the intrinsic value of power sharing",
+    "how does citizen participation relate to power sharing",
+    "why is a legitimate government one where citizens have a stake"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the democratic principle involved",
+     "explain": "Democracy requires sharing power with those affected by its exercise."
+    },
+    {
+     "step": 2,
+     "action": "Highlight the role of the citizen",
+     "explain": "Citizens acquire a stake in the system through participation and consultation."
+    }
+   ]
+  },
+  {
+   "id": "jess.401.5.1",
+   "title": "Horizontal Distribution of Power",
+   "section": "Forms of power-sharing",
+   "definition": "A method of distributing authority among different branches of government at the same level, ensuring mutual oversight.",
+   "formula": "NA",
+   "key_idea": "The system of checks and balances prevents any one organ from exercising unlimited power.",
+   "textbook_ref": "jess401.txt lines 310-330",
+   "question_patterns": [
+    "what is horizontal distribution of power",
+    "explain the system of checks and balances",
+    "how do the legislature, executive, and judiciary share power",
+    "why are government organs placed at the same level",
+    "give an example of horizontal power sharing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the organs of government",
+     "explain": "Power is shared among the legislature, executive, and judiciary."
+    },
+    {
+     "step": 2,
+     "action": "Describe the interaction between organs",
+     "explain": "Each organ checks the others, resulting in a balance of power."
+    }
+   ]
+  },
+  {
+   "id": "jess.401.5.2",
+   "title": "Vertical Distribution of Power",
+   "section": "Forms of power-sharing",
+   "definition": "A system where authority is divided between a central national government and various regional or local administrative units.",
+   "formula": "NA",
+   "key_idea": "Also known as federal division of power, it involves higher and lower levels of government.",
+   "textbook_ref": "jess401.txt lines 335-360",
+   "question_patterns": [
+    "define vertical distribution of power",
+    "what is federal division of power",
+    "how is power shared between central and state governments",
+    "explain the role of municipalities and panchayats in power sharing",
+    "distinguish vertical from horizontal power sharing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the levels of government",
+     "explain": "Power is divided between a general government for the country and regional/state governments."
+    },
+    {
+     "step": 2,
+     "action": "Extend to lower levels",
+     "explain": "The principle includes local bodies like municipalities and panchayats."
+    }
+   ]
+  },
+  {
+   "id": "jess.401.5.3",
+   "title": "Community Government",
+   "section": "Forms of power-sharing",
+   "definition": "A specific administrative layer elected by members of a single linguistic group to manage cultural and educational matters.",
+   "formula": "NA",
+   "key_idea": "This model allows social groups to handle issues specific to their language or religion.",
+   "textbook_ref": "jess401.txt lines 175-185, 365-375",
+   "question_patterns": [
+    "what is a community government",
+    "how does Belgium's community government work",
+    "give an example of power sharing among social groups",
+    "who elects the community government in Belgium",
+    "what powers does a community government hold"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the electorate",
+     "explain": "People belonging to one language community (Dutch, French, or German) elect it."
+    },
+    {
+     "step": 2,
+     "action": "Identify the jurisdiction",
+     "explain": "It has power over cultural, educational, and language-related issues."
+    }
+   ]
+  },
+  {
+   "id": "jess.401.5.4",
+   "title": "Coalition Government",
+   "section": "Forms of power-sharing",
+   "definition": "An arrangement where multiple political parties join forces to form a government when no single party wins a clear majority.",
+   "formula": "NA",
+   "key_idea": "Political parties share power directly through alliances to represent diverse ideologies.",
+   "textbook_ref": "jess401.txt lines 385-405",
+   "question_patterns": [
+    "what is a coalition government",
+    "how do political parties share power",
+    "explain the role of alliances in elections",
+    "why is competition among parties important in a democracy",
+    "give an example of a coalition government"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the condition for coalition",
+     "explain": "When no single party gets a majority, two or more parties form an alliance."
+    },
+    {
+     "step": 2,
+     "action": "Describe the power sharing mechanism",
+     "explain": "The allied parties jointly run the government and share decision-making."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jess401.txt lines 20-30",
+   "concept": "jess.401.1.1",
+   "question_type": "calculate",
+   "question_pattern": "In a country like Belgium with a population of {total_pop}, if {share_percent}% live in the Flemish region and speak Dutch, how many Dutch speakers are there?",
+   "extracted_variables": {
+    "total_pop": 10000000,
+    "share_percent": 59
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the number of Dutch speakers",
+     "explain": "Multiply the total population by the percentage of Dutch speakers and divide by 100.",
+     "compute": "group_count = total_pop * share_percent / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jess401.txt lines 35-40",
+   "concept": "jess.401.1.1",
+   "question_type": "calculate",
+   "question_pattern": "In Brussels, {share_percent}% of the population speaks French. If the city population is {total_pop}, find the number of French speakers.",
+   "extracted_variables": {
+    "total_pop": 1000000,
+    "share_percent": 80
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the number of French speakers",
+     "explain": "Multiply the city population by the percentage of French speakers.",
+     "compute": "group_count = total_pop * share_percent / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jess401.txt lines 55-65",
+   "concept": "jess.401.1.2",
+   "question_type": "calculate",
+   "question_pattern": "Sri Lanka has a population of {total_pop}. If Sinhala speakers constitute {share_percent}%, calculate their total number.",
+   "extracted_variables": {
+    "total_pop": 20000000,
+    "share_percent": 74
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate Sinhala speakers",
+     "explain": "Apply the percentage to the total population of Sri Lanka.",
+     "compute": "group_count = total_pop * share_percent / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jess401.txt lines 65-70",
+   "concept": "jess.401.1.2",
+   "question_type": "calculate",
+   "question_pattern": "If Tamil speakers make up {share_percent}% of Sri Lanka's {total_pop} population, how many Tamil speakers are there?",
+   "extracted_variables": {
+    "total_pop": 20000000,
+    "share_percent": 18
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate Tamil speakers",
+     "explain": "Multiply the total population by the Tamil percentage share.",
+     "compute": "group_count = total_pop * share_percent / 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "jess401.txt line 415",
+   "questions": [
+    "What are the different forms of power sharing in modern democracies? Give an example of each of these."
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "jess401.txt line 418",
+   "questions": [
+    "State one prudential reason and one moral reason for power sharing with an example from the Indian context."
+   ]
+  },
+  {
+   "id": "ex1.6",
+   "source_ref": "jess401.txt line 445",
+   "questions": [
+    "Identify arguments in favour of power sharing: A. reduces conflict, B. decreases arbitrariness, C. delays decisions, D. accommodates diversities, E. increases instability, F. promotes participation, G. undermines unity."
+   ]
+  },
+  {
+   "id": "ex1.8",
+   "source_ref": "jess401.txt line 465",
+   "questions": [
+    "Match List I (forms of power sharing) with List II (forms of government): 1. Organs of govt, 2. Different levels, 3. Social groups, 4. Two or more parties."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

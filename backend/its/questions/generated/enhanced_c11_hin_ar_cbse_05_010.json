@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_05_010",
+   "title": "c11_hin_ar_cbse_05_010",
+   "questions": [
+    {
+     "q": "What is the dictionary meaning of the word \"/kSaduh\" as provided in the textbook's 'kCn&Nfo section, and which character in the story is associated with this occupation?",
+     "a": "The textbook defines /kSaduh as \"yqgkj ;k lqukjksa dh vkx ngdkus okyh yksgs ;k ck¡l dh uyh\" (a woman who pierces ears/nose for ornaments, or a needle-like tool). In the story, Ehsan's mother (firk) is associated with this work - she goes house to house doing /kSaduh to earn money. A wrong answer (e.g., saying it means 'sewing' or associating it with Ehsan's father) reveals the student has not consulted the textbook glossary or cannot link the vocabulary entry to the narrative detail.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"firk dh ckrsa lqudj Hkh mlus mudk Hkkj gydk djus dk u mls vH;kl gh gS vkSj u oSlh xfr\" (p. 57), the word \"vH;kl\" appears. The glossary does not list this word. Using contextual clues, explain what \"vH;kl\" means here and why the author chooses this specific word instead of a simpler synonym like \"yksx\" (skill) or \"tkudkjh\" (knowledge).",
+     "a": "Contextually, \"vH;kl\" means \"practice/experience/habit born of repeated doing\" - the mother has no *practice* of refusing the landlord's son, no *experience* of saying no to feudal authority. The author chooses \"vH;kl\" over \"yksx\" because it implies a bodily, habitual conditioning from generations of subservience, not a learnable skill. A wrong answer giving only \"knowledge/skill\" misses the nuance of *internalized oppression* that \"vH;kl\" carries in this feudal context.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the context-analysis method to the word \"izfr}a}h\" (listed in the glossary as \"eqdkcyk djus okyk, foi{kh, fojks/h, izfri{kh\"). In the passage \"f=kyksd flag ekLVj dk ;g lkekU; fu;e FkkA ltk ikus okys dks gh vius fy, gfFk;kj Hkh tqVkuk gksrk Fkk_ vkSj ”kkfgj gS] cfy dk cdjk vius ls vfèkd ekLVj osQ larks\"k dks è;ku esa j[kdj Vguh dk pquko ,sls djrk tSls og vius fy, ugha cfYd fdlh nwljs dks nafMr djus osQ fy, gfFk;kj dk pquko dj jgk gksA\" (p. 59), what specific shade of \"izfr}a}h\" is activated, and how does the context modify the glossary definition?",
+     "a": "Steps: (1) Glossary gives: devoted, loyal, obedient, servant-like. (2) Context: Thakur Phoolchand makes *Ehsan* (a child) do *his* penance (gfFk;kj) to ward off *Thakur's own* death-fear. (3) The shade activated: \"self-sacrificing devotion imposed by power\" - not voluntary loyalty but coerced servitude disguised as duty. (4) Modification: The glossary's positive/neutral terms (foi{kh, fojks/h) become ironic; the context reveals izfr}a}h as a tool of exploitation. A wrong answer merely copies the glossary without the ironic inversion shows inability to read against the grain.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the contextual meanings of \"gFkkSM+k\" and \"?kfl;kjs\" - both glossed as \"?kkl dkVus dk dke djus okys\" (one who cuts grass/fodder). In the story, Ehsan is called \"gFkkSM+k\" by Thakur's household (p. 56: \"gFkkSM+s dh èki~&èki~ vkok”k\"), while the actual grass-cutters are \"?kfl;kjs\". Analyze why the author uses two different words for the same dictionary meaning, and what each word reveals about the speaker's attitude and the social hierarchy.",
+     "a": "\"gFkkSM+k\" (used by Thakur's household for Ehsan) is a *caste-identity label* - it reduces the boy to his lowest hereditary occupation, stripping his name and student identity. \"?kfl;kjs\" (p. 60: \"vuqHkoh ?kfl;kjksa us rs”kh ls ikuh dks dkVdj\") is a *functional descriptor* for actual laborers doing the work. The author's choice exposes: (1) For the feudal lords, Ehsan *is* his caste (gFkkSM+k = identity trap); (2) For the narrative voice describing real workers, ?kfl;kjs = occupational role. A wrong answer saying \"they mean the same thing\" misses the central theme of caste-as-identity vs. work-as-function.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the interpretation: \"The word 'laVh' (gloss: iryh MaMh ;k NM+h) in the sentence 'lVkd~! ,d laVh mldh fiaMfy;ksa ij ekLlkc us yxkbZ Fkh' (p. 58) is used literally to mean a physical stick/staff that Thakur's wife uses to hit Ehsan.\" Defend or refute using textual evidence.",
+     "a": "Refute. Context: \"lVkd~! ,d laVh mldh fiaMfy;ksa ij ekLlkc us yxkbZ Fkh fd og VwV xbZA\" - Thakur's wife places a *laVh* on his *shadow* to stop him from leaving. In rural folk belief, stepping on/stopping a person's shadow (fiaMfy;) with a stick (laVh) is a magical ritual to bind/stop them, not a physical beating. The word carries *superstitious/ritualistic* weight, not literal violence. A wrong answer taking it literally misses the cultural context of folk magic that the story uses to show the Thakurain's desperate, irrational control over Ehsan.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new sentence using the word \"vuqxw¡t\" (gloss: izfrèofu] jg&jgdj dkuksa esa xw¡tus okyh vkok”k) that captures its contextual force in the story's opening paragraph: \"eksgu osQ iSj vuk;kl gh f'kYidkj Vksys dh vksj eqM+ x,A mlosQ eu osQ fdlh dksus esa 'kk;n èkujke yksgkj osQ vkiQj dh og vuqxw¡t 'ks\"k Fkh...\" Your sentence must show the word describing a *mental state*, not a physical wait.",
+     "a": "Example: \"Pratiksha ke teen ghante baad bhi, uska man usi vuqxw¡t avastha mein tha - na gussa, na udaasi, sirf ek thithuri hui prateeksha jaise koi faisla ab bhi uske haath mein na ho.\" (Even after three hours of waiting, his mind remained in that same vuqxw¡t state - neither anger nor sadness, just a frozen waiting as if the decision was still not in his hands.) A poor answer uses it for a bus stop wait (\"Main bus stop par vuqxw¡t khada tha\"), missing the *helpless, internally suspended, psychologically heavy* quality the story gives it.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

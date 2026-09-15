@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_07_003",
+   "title": "c12_phy_cbse_07_003",
+   "questions": [
+    {
+     "q": "What is the formula for inductive reactance? State its SI unit and the physical quantities it depends on.",
+     "a": "Inductive reactance \\(X_L = \\omega L = 2\\pi f L\\). SI unit: ohm (Ω). It depends on angular frequency \\(\\omega\\) (or frequency \\(f\\)) and self-inductance \\(L\\). A wrong answer (e.g., \\(X_L = 1/\\omega L\\) or unit as henry) reveals confusion with capacitive reactance or misunderstanding that reactance is a frequency-dependent opposition measured in ohms, not the inductance itself.",
+     "self_check": true
+    },
+    {
+     "q": "In a pure inductor connected to an AC source, the current lags the voltage by \\(\\pi/2\\). Explain physically why this phase lag occurs, referencing Lenz's law and the back emf.",
+     "a": "The applied voltage must overcome the self-induced back emf \\(e = -L \\frac{di}{dt}\\). When the current is increasing, \\(\\frac{di}{dt} > 0\\), so the back emf opposes the applied voltage, causing the current to reach its maximum later than the voltage. The \\(\\pi/2\\) lag arises because the voltage is proportional to the derivative of current (sine → cosine), and cosine lags sine by \\(\\pi/2\\). A wrong answer (e.g., \"current leads voltage\" or \"no phase difference\") shows the student has not connected the differential equation \\(v = L \\frac{di}{dt}\\) to the phase relationship, or has confused inductor with capacitor behaviour.",
+     "self_check": true
+    },
+    {
+     "q": "A pure inductor of 40 mH is connected to a 220 V, 50 Hz AC supply. Calculate (a) the inductive reactance, (b) the rms current, (c) the peak current, and (d) write the instantaneous current equation if the voltage is \\(v = 311 \\sin(100\\pi t)\\) volts.",
+     "a": "(a) \\(X_L = 2\\pi f L = 2\\pi \\times 50 \\times 40 \\times 10^{-3} = 12.57\\ \\Omega\\).  \n(b) \\(I_{\\text{rms}} = V_{\\text{rms}} / X_L = 220 / 12.57 = 17.5\\ \\text{A}\\).  \n(c) \\(I_m = \\sqrt{2} \\times I_{\\text{rms}} = 1.414 \\times 17.5 = 24.7\\ \\text{A}\\).  \n(d) \\(i = 24.7 \\sin(100\\pi t - \\pi/2)\\ \\text{A}\\).  \nA wrong answer in (a) using \\(f\\) instead of \\(\\omega\\) or missing \\(2\\pi\\) shows unit confusion. An error in (d) with a +\\(\\pi/2\\) phase reveals the student thinks current leads voltage (capacitor behaviour).",
+     "self_check": true
+    },
+    {
+     "q": "Two identical inductors are connected to AC sources of different frequencies: \\(f_1 = 50\\ \\text{Hz}\\) and \\(f_2 = 200\\ \\text{Hz}\\). The rms voltage is the same in both cases. Compare the reactances, rms currents, and the phase differences. Explain the trend.",
+     "a": "\\(X_{L2} = 4 X_{L1}\\) because \\(X_L \\propto f\\). \\(I_{\\text{rms},2} = \\frac{1}{4} I_{\\text{rms},1}\\) because \\(I_{\\text{rms}} = V_{\\text{rms}}/X_L\\). The phase difference remains \\(\\pi/2\\) lag in both cases — it is independent of frequency for a pure inductor. A wrong answer claiming phase difference changes with frequency indicates the student confuses the phase angle of an LCR circuit (where \\(\\tan \\phi = (X_L - X_C)/R\\)) with the fixed \\(\\pi/2\\) of a pure inductor.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the average power in a pure inductive circuit as \\(P = V_{\\text{rms}} I_{\\text{rms}} = 220 \\times 5 = 1100\\ \\text{W}\\). Identify the error and state the correct average power with justification.",
+     "a": "The error is using \\(P = VI\\) without the power factor \\(\\cos \\phi\\). For a pure inductor, \\(\\phi = \\pi/2\\), so \\(\\cos \\phi = 0\\). The correct average power is \\(P = V_{\\text{rms}} I_{\\text{rms}} \\cos(\\pi/2) = 0\\). The instantaneous power oscillates symmetrically positive and negative, meaning energy is stored in the magnetic field during one quarter-cycle and returned to the source in the next. A student who gives a non-zero value has ignored the phase difference and the definition of average power in AC circuits.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a function generator, an inductor, a dual-trace CRO, and a current-measuring resistor to demonstrate that the current through an inductor lags the voltage by 90°. Describe the connections, what you would observe on the CRO, and how you would measure the phase difference.",
+     "a": "Connect the function generator across the series combination of the inductor and a small current-sensing resistor (e.g., 1 Ω). Channel 1 of the CRO measures the voltage across the inductor (or the source), Channel 2 measures the voltage across the sensing resistor (proportional to current). Set the generator to a sine wave (e.g., 1 kHz, 5 V peak). On the CRO, the Channel 2 waveform (current) will be shifted to the right relative to Channel 1 (voltage) by one-quarter of the period. Measure the time delay \\(\\Delta t\\) between zero crossings; phase difference \\(\\phi = \\omega \\Delta t\\). A poor answer omits the sensing resistor, uses the wrong CRO channel assignment, or claims the waveforms are in phase.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

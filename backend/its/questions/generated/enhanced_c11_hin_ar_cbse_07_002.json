@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_07_002",
+   "title": "c11_hin_ar_cbse_07_002",
+   "questions": [
+    {
+     "q": "What are the five stages of Freytag's pyramid (plot structure) in their correct order?",
+     "a": "Exposition → Rising Action → Climax → Falling Action → Resolution. A wrong answer (e.g., putting climax before rising action, or omitting falling action) reveals the student memorized terms but doesn't understand their causal sequence: each stage *causes* the next. In this story, the exposition (cub found) *causes* rising action (bureaucratic delays) which *causes* climax (mother's return).",
+     "self_check": true
+    },
+    {
+     "q": "In \"तेंदुए का शिशु,\" the forest guard, ranger, and police officer all refuse immediate help. How does this repetition function structurally—why doesn't the author just show one refusal?",
+     "a": "Each refusal escalates the institutional hierarchy (guard → ranger → police → superintendent), widening the bureaucratic net and raising stakes. A single refusal would show indifference; the *sequence* shows a *system* designed to delay. A wrong answer (\"to make the story longer\" or \"to show different characters\") misses that structure *is* the critique: the plot's rising action *is* the bureaucracy expanding.",
+     "self_check": true
+    },
+    {
+     "q": "Map the following events to Freytag's stages: (a) Mother leopard appears at the tea garden, (b) Cub discovered under the bush, (c) Forest guard cites rules and refuses to act, (d) Superintendent permits shooting the mother instead of releasing cub, (e) Cub returned to mother, bureaucracy bypassed.",
+     "a": "(b) Exposition — cub discovered, initial situation established. (c) Rising Action begins — first bureaucratic obstacle. (d) Rising Action peaks — highest authority gives cruelest order (shoot mother). (a) Climax — mother leopard arrives, natural instinct confronts administrative power. (e) Falling Action + Resolution — cub returned, system circumvented. Wrong mapping (e.g., calling (d) the climax) reveals confusion between *highest tension* (climax) and *highest bureaucratic absurdity* (which sets up the climax).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the forest department encounter (pages 91-93) and the police encounter (pages 94-95). How does the narrative structure use *parallelism* between these two sequences?",
+     "a": "Both sequences follow: Official arrives → cites rules/jurisdiction → demands paperwork → delays action → mother leopard's presence forces confrontation → official relents or is bypassed. The parallelism structures the rising action as *escalating institutional failure*: forest dept (local) fails → police (higher) fails → superintendent (highest) orders violence. A wrong answer listing only surface similarities (\"both have officers\") misses that structural parallelism *accelerates* the plot toward climax by showing no level of bureaucracy works.",
+     "self_check": true
+    },
+    {
+     "q": "The story uses strict linear chronology—no flashbacks, no parallel plots. Evaluate: does this structural choice strengthen or weaken the theme of \"nature versus bureaucracy\"? Justify.",
+     "a": "Strengthens. Linear chronology mirrors bureaucratic *process* (step 1, step 2, step 3) and makes the reader experience the same frustrating delay as the characters. The mother leopard's arrival *only at the end* creates maximum tension because we've endured every bureaucratic minute. A non-linear structure (e.g., starting with mother's arrival) would relieve tension prematurely and center human perspective. Wrong evaluation (\"weakens because it's slow\") confuses *pacing* with *structure*; the slowness *is* the structural point.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the story's resolution (last 2 pages) from the mother leopard's perspective, using *non-linear* structure: start with her reunion with the cub, then flash back to her wait. Keep the same events but change the narrative structure.",
+     "a": "A strong answer opens with sensory reunion (smell, touch, sound), then fragments backward: the long night watching, the gunshot fear, the human voices arguing, the cub's cry guiding her. It uses present tense for reunion, past for flashbacks. A weak answer merely reorders events without *structural purpose*—e.g., starting at the end but still telling it chronologically. This reveals the student doesn't grasp that structure *shapes meaning*, not just sequence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

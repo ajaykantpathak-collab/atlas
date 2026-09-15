@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_10_005",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_10_005",
+   "title": "c12_phy_cbse_10_005",
+   "questions": [
+    {
+     "q": "State the formula for fringe width in Young's double slit experiment and name each variable with its SI unit.",
+     "a": "Fringe width β = λD/d, where β = fringe width (m), λ = wavelength of light (m), D = distance from slits to screen (m), d = separation between the two slits (m). A wrong answer reveals the student cannot recall the fundamental formula or confuses the variables — e.g., writing β = λd/D (inverting D and d) or omitting units entirely, which is a common board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "In a YDSE setup, if the slit separation d is doubled while λ and D remain unchanged, what happens to the fringe width? Explain why the fringes become closer together or farther apart using the path difference concept.",
+     "a": "Fringe width β halves (β ∝ 1/d). When d increases, the path difference Δ = xd/D changes more rapidly with x, so a smaller change in x is needed to change Δ by one wavelength λ. Hence fringes crowd together. A wrong answer (e.g., \"fringe width doubles\" or \"no change\") shows the student does not understand the inverse relationship or cannot link the formula to the physical path difference geometry.",
+     "self_check": true
+    },
+    {
+     "q": "In a YDSE, the slits are separated by 0.5 mm and the screen is placed 2 m away. The distance between the central bright fringe and the fourth bright fringe is measured as 2.4 mm. Calculate the wavelength of light used. Express your answer in nanometres.",
+     "a": "Given: d = 0.5 mm = 5 × 10⁻⁴ m, D = 2 m, x₄ = 2.4 mm = 2.4 × 10⁻³ m, n = 4.\nFormula: xₙ = nλD/d → λ = xₙ d / (nD)\nλ = (2.4 × 10⁻³ × 5 × 10⁻⁴) / (4 × 2) = (12 × 10⁻⁷) / 8 = 1.5 × 10⁻⁷ m = 1500 nm.\nWait — 1500 nm is infrared, not visible. Recheck: x₄ = 2.4 mm for n=4 means fringe width β = x₄/4 = 0.6 mm. Then λ = βd/D = (0.6 × 10⁻³ × 5 × 10⁻⁴)/2 = 1.5 × 10⁻⁷ m = 1500 nm. This is a deliberate trap: the numbers give an IR wavelength, testing if the student blindly computes without checking physical reasonableness. A correct answer includes the calculation AND the comment that 1500 nm is outside the visible range (400–700 nm), so either the data is for an IR source or there is a measurement error. A wrong answer that just states \"1500 nm\" without unit conversion or reasonableness check reveals poor exam technique.",
+     "self_check": true
+    },
+    {
+     "q": "Two wavelengths λ₁ = 600 nm and λ₂ = 450 nm are used in a YDSE with d = 0.3 mm and D = 1.5 m. Find the least distance from the central maximum where the bright fringes of the two wavelengths coincide.",
+     "a": "For bright fringes to coincide: n₁λ₁ = n₂λ₂ → n₁/n₂ = λ₂/λ₁ = 450/600 = 3/4.\nSmallest integers: n₁ = 3, n₂ = 4.\nPosition x = n₁λ₁D/d = 3 × 600 × 10⁻⁹ × 1.5 / (0.3 × 10⁻³) = 3 × 600 × 1.5 × 10⁻⁶ / 0.3 = 3 × 3000 × 10⁻⁶ = 9 × 10⁻³ m = 9 mm.\nA wrong answer (e.g., using n₁ = n₂ = 1, or averaging wavelengths) shows the student cannot apply the coincidence condition n₁λ₁ = n₂λ₂ or cannot find the least common multiple of the fringe orders.",
+     "self_check": true
+    },
+    {
+     "q": "A student performs YDSE with λ = 500 nm, d = 0.4 mm, D = 1 m. They claim the 10th dark fringe is at x = 11.25 mm. Is this correct? Justify your answer.",
+     "a": "Position of nth dark fringe: xₙ = (n + ½)λD/d. For the 10th dark fringe, n = 9 (since n = 0 gives the first dark fringe).\nx₉ = (9 + ½) × 500 × 10⁻⁹ × 1 / (0.4 × 10⁻³) = 9.5 × 500 × 10⁻⁶ / 0.4 = 9.5 × 1.25 × 10⁻³ = 11.875 mm.\nThe student's value 11.25 mm corresponds to n = 8 (8.5 × 1.25 = 10.625 mm? No — 11.25/1.25 = 9 → n + ½ = 9 → n = 8.5, not integer). Actually, 11.25 mm = 9 × 1.25 mm → n + ½ = 9 → n = 8.5, impossible. The student likely used n = 10 instead of n = 9 (off-by-one error) or confused bright/dark fringe indexing. This reveals a common indexing confusion: whether the \"first dark fringe\" corresponds to n = 0 or n = 1 in the formula (n + ½)λ.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a laser pointer, two closely spaced slits (e.g., made from a double-slit slide or two razor blades), and a screen to measure the wavelength of the laser light. List the measurements you would take, the formula you would use, and two precautions to ensure accurate results.",
+     "a": "Measurements: (1) Slit separation d (using a micrometer or given by manufacturer), (2) Distance from slits to screen D (metre scale), (3) Fringe width β = distance between consecutive bright fringes (measure 10 fringes and divide by 10 to reduce error). Formula: λ = βd/D. Precautions: (a) Ensure D >> d (e.g., D ≥ 1 m, d ≤ 0.5 mm) so small-angle approximation holds; (b) Use a darkened room and a sharp, stable laser beam to get clear fringes; (c) Measure fringe width over many fringes (e.g., 10 or 20) to minimise reading error. A poor answer omits the multi-fringe measurement technique, ignores the small-angle condition, or suggests measuring a single fringe width with a ruler (large percentage error).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

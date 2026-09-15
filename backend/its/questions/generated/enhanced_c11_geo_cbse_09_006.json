@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_09_006",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_09_006",
+   "title": "c11_geo_cbse_09_006",
+   "questions": [
+    {
+     "q": "State the approximate longitudinal extent of the Indian Desert and name the hill range that forms its eastern boundary.",
+     "a": "The Indian Desert extends approximately from 70°E to 75°E longitude. Its eastern boundary is formed by the Aravali Hills. A wrong answer (e.g., naming the Vindhyas or Satpuras) reveals the student confuses the desert's boundary with the Peninsular Plateau's northern edge, indicating they have not visualized the Aravali's NE-SW orientation separating the desert from the Central Highlands.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Aravali Hills fail to capture the Southwest Monsoon rainfall, making the Thar a rain-shadow desert despite being a mountain range.",
+     "a": "The Aravali Hills run in a NE-SW direction, parallel to the oncoming Arabian Sea branch of the Southwest Monsoon winds. Since the winds strike the range obliquely rather than perpendicularly, forced orographic uplift is minimal, so condensation and precipitation occur mainly on the windward side (east), leaving the western leeward side arid. A wrong answer attributing aridity solely to \"distance from the sea\" ignores the critical role of mountain orientation — a common error where students memorize \"rain shadow\" without analyzing wind-mountain geometry.",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of India, the 150 mm annual isohyet runs roughly from Porbandar to Delhi. Using this line and the Aravali Hills, shade the Thar Desert region. Then calculate the approximate area (in sq km) if the shaded region forms a trapezoid with parallel sides 400 km and 600 km long and a perpendicular distance of 300 km between them.",
+     "a": "Area of trapezoid = ½ × (sum of parallel sides) × height = ½ × (400 + 600) × 300 = 150,000 sq km. This approximates the Thar's Indian extent (~200,000 sq km including irregular margins). A wrong calculation (e.g., using rectangle formula) or misplacing the isohyet south of the Rann of Kachchh reveals the student cannot translate climatic boundaries into map geometry or apply mensuration to geographical regions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sand dune morphology of the western Thar (near the Pakistan border) with the eastern Thar (near the Aravali foothills). Relate the difference to wind velocity, sand supply, and vegetation cover.",
+     "a": "Western Thar: high wind velocity, abundant sand supply, sparse vegetation → large, mobile longitudinal (seif) dunes aligned parallel to prevailing SW winds. Eastern Thar: reduced wind velocity (Aravali barrier), lower sand supply, patchy vegetation → smaller, crescentic barchans with horns pointing downwind. A wrong answer reversing the dune types shows the student cannot synthesize how wind energy gradients and sediment availability control dune morphology — a key geomorphic reasoning skill.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the sustainability of the Indira Gandhi Canal (Rajasthan Canal) irrigation project in the Thar Desert. Consider waterlogging, salinity, cropping pattern shifts, and groundwater recharge.",
+     "a": "The canal has enabled wheat and cotton cultivation in a millet-dominated agro-ecosystem, but unlined canals and flood irrigation raised the water table, causing waterlogging and secondary salinization in 30% of the command area. Sustainable mitigation requires conjunctive use (canal + groundwater), drip irrigation, salt-tolerant crops, and drainage networks. A purely positive evaluation (\"green revolution success\") ignores the long-term degradation of desert soils; a purely negative one (\"ecological disaster\") overlooks the food security gains. Balanced judgment with evidence is required.",
+     "self_check": true
+    },
+    {
+     "q": "Design a community-based ecotourism plan for the Desert National Park (Jaisalmer) that conserves the Great Indian Bustard habitat while providing livelihoods for local pastoralists. Include zoning, seasonality, and benefit-sharing mechanisms.",
+     "a": "Core zone (bustard breeding): no tourism, strict protection. Buffer zone: guided walking/birding trails Oct–Mar (avoid summer heat and monsoon breeding), max 20 visitors/day, local guides from pastoral communities paid per group. Revenue: 60% to village development fund, 30% to park management, 10% to guide cooperative. Handicraft sales at entry gate. A poor plan allows jeep safaris in core zone, ignores seasonal closures, or excludes pastoralists from decision-making — revealing inability to integrate conservation biology with human geography.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

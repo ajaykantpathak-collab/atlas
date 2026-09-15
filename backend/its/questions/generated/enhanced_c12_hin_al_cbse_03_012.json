@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_al_cbse_03_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_al_cbse_03_012",
+   "title": "c12_hin_al_cbse_03_012",
+   "questions": [
+    {
+     "q": "What is the primary difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal question's answer is explicitly stated in the text (e.g., \"Where was the author born?\"), while an inferential question requires the reader to deduce an answer by combining textual clues with logical reasoning (e.g., \"Why does the author feel alienated in his own village?\"). A wrong answer that says \"inferential questions are just harder\" reveals the student confuses difficulty level with cognitive process — they don't grasp that inference is a specific reasoning skill, not merely a more complex literal search.",
+     "self_check": true
+    },
+    {
+     "q": "In the chapter, the author describes the riverbank where women used to fill water pots. The text says: \"Now a huge building of a fertilizer factory is being constructed there.\" A student answers: \"The riverbank is now a factory.\" Is this a literal or inferential answer? Justify.",
+     "a": "This is a literal answer because it directly restates the textual fact: the factory is being built *on* the riverbank. A wrong classification (e.g., calling it inferential) shows the student cannot distinguish explicit information from implied meaning — they likely think any answer requiring a full sentence is inferential. The correct reasoning: the text explicitly states the location change; no deduction about environmental impact or emotional loss is needed here.",
+     "self_check": true
+    },
+    {
+     "q": "The author writes: \"The cool shade of the mango grove is gone.\" Using this clue and your knowledge of industrialization, write a 2-sentence inferential answer to: \"How has the loss of the mango grove affected the villagers' daily life?\"",
+     "a": "The loss of the mango grove has stripped villagers of their natural cooling shelter during scorching summers, forcing them to endure extreme heat indoors without traditional relief. It has also erased a communal gathering space where social bonds were strengthened, replacing organic community interaction with isolation. A wrong answer like \"They are sad\" fails because it states an emotion without textual evidence or logical chain — it doesn't connect the physical loss (shade, meeting place) to the concrete lifestyle change (heat exposure, lost social ritual).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the author's description of the village festival in his childhood (\"the whole village danced\") with the present (\"only a few old men remain\"). What does this contrast *infer* about the social fabric of the village? Provide two distinct inferences with textual anchors.",
+     "a": "Inference 1: The village has suffered severe outmigration of the younger generation, inferred from the shift from \"whole village\" participation to \"only a few old men\" — the absence of youth implies they left for urban work. Inference 2: Traditional cultural continuity is broken, inferred because festivals require intergenerational transmission; with only elders left, the chain of oral/ritual knowledge is snapped. A wrong answer listing \"population decreased\" without linking to *cultural transmission* or *economic migration* shows superficial reading — they see the numbers but miss the sociological implication embedded in the contrast.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The author blames only the factory owners for the village's destruction.\" Evaluate this claim using evidence from the text. Is the claim fully supported, partially supported, or contradicted?",
+     "a": "The claim is *contradicted*. The text explicitly states: \"Our ancestors gave away the land for a pittance\" and \"We ourselves sold our shade-giving trees,\" showing the author holds the *villagers' own past decisions* equally responsible. A student who says \"partially supported\" falls for the trap of the factory's visible destruction while missing the author's self-implicating tone. The correct evaluation requires synthesizing the author's critique of *both* external exploitation and internal complicity — a nuance only visible through inferential reading of the author's reflective passages.",
+     "self_check": true
+    },
+    {
+     "q": "Create one literal and one inferential question from this passage: \"The bullock carts have been replaced by trucks that roar past, shaking the very foundations of our mud houses.\" Your inferential question must require connecting the text to the broader theme of 'development vs. displacement'.",
+     "a": "Literal: \"What has replaced bullock carts in the village?\" (Answer: Trucks). Inferential: \"How does the author use the sensory detail of 'shaking foundations' to symbolize the destabilization of traditional life by modern development?\" A poor inferential question like \"Why are trucks bad?\" fails because it invites opinion, not text-based analysis. A strong inferential question forces the examinee to link the physical vibration (textual evidence) to the metaphorical shaking of cultural roots (theme), demonstrating the exact skill this node teaches.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

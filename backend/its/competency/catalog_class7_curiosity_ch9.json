@@ -1,0 +1,549 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 9,
+ "chapter_title": "Life Processes in Animals",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gecu109.txt",
+ "concepts": [
+  {
+   "id": "c7cu.9.1",
+   "title": "Modes of Nutrition in Animals -- Holozoic, Saprophytic and Parasitic",
+   "section": "9.1",
+   "definition": "Animals show different modes of nutrition: holozoic nutrition involves ingestion of solid food followed by digestion (e.g., humans, amoeba); saprophytic nutrition involves feeding on dead and decaying matter by absorption (e.g., mushrooms, bread mould); parasitic nutrition involves deriving food from a living host, often harming it (e.g., tapeworm, lice, Cuscuta).",
+   "formula": "",
+   "key_idea": "Based on how they obtain food, animals are grouped into holozoic, saprophytic and parasitic modes of nutrition; each mode is suited to the organism's habitat and body plan.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the different modes of nutrition in animals?",
+    "What is holozoic nutrition? Give an example.",
+    "How does saprophytic nutrition differ from parasitic nutrition?",
+    "Why are mushrooms called saprophytes?",
+    "Give two examples of parasitic animals and explain how they obtain food."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify how the organism obtains its food",
+     "explain": "Determine whether the organism ingests solid food (holozoic), absorbs nutrients from dead matter (saprophytic), or draws food from a living host (parasitic)."
+    },
+    {
+     "step": 2,
+     "action": "Classify the mode of nutrition",
+     "explain": "Holozoic -- ingestion and digestion (humans, amoeba); saprophytic -- extracellular digestion of dead matter (mushrooms, bread mould); parasitic -- feeding on a host (tapeworm, lice)."
+    },
+    {
+     "step": 3,
+     "action": "Relate the mode to the organism's habitat",
+     "explain": "The mode of nutrition is adapted to where the organism lives, e.g., parasites live on or inside a host, saprophytes grow on decaying matter."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is a tapeworm called a parasite?",
+     "solution": "A tapeworm lives inside the intestine of its host (such as a human or pig) and absorbs digested food from the host's body, harming the host; hence it is a parasite.",
+     "answer": "A tapeworm absorbs food from a living host, so it is parasitic."
+    },
+    {
+     "question": "Mushrooms grow on decaying wood. What mode of nutrition do they show?",
+     "solution": "Mushrooms secrete digestive juices onto dead and decaying wood, break it down and absorb the nutrients; this is saprophytic nutrition.",
+     "answer": "Mushrooms show saprophytic nutrition by absorbing nutrients from dead matter."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define holozoic nutrition with one example.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Differentiate between saprophytic and parasitic nutrition.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name two organisms that show parasitic nutrition.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.9.2",
+   "title": "Human Digestive System",
+   "section": "9.2",
+   "definition": "The human digestive system consists of the alimentary canal (mouth, oesophagus, stomach, small intestine, large intestine) and associated glands (salivary glands, liver, pancreas) that together break down food into simple absorbable substances.",
+   "formula": "",
+   "key_idea": "Food passes through the alimentary canal where it is mechanically broken down and chemically digested by enzymes at each region, ending as simple nutrients absorbed mainly in the small intestine.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Name the parts of the human alimentary canal in order.",
+    "What is the role of saliva in digestion?",
+    "Where does most of the absorption of digested food take place?",
+    "What is the function of the liver in digestion?",
+    "Why is the small intestine the longest part of the alimentary canal?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Trace the path of food through the alimentary canal",
+     "explain": "Food enters the mouth, passes through the oesophagus into the stomach, then to the small intestine and finally the large intestine before egestion."
+    },
+    {
+     "step": 2,
+     "action": "Identify the digestive glands and their secretions",
+     "explain": "Salivary glands produce saliva (salivary amylase), the liver secretes bile, and the pancreas releases pancreatic juice containing several enzymes."
+    },
+    {
+     "step": 3,
+     "action": "Locate the site of digestion and absorption",
+     "explain": "Digestion is completed in the small intestine where enzymes break food into simple molecules; the finger-like villi absorb these nutrients into the blood."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the function of bile secreted by the liver?",
+     "solution": "Bile is produced by the liver and stored in the gall bladder. It does not contain enzymes but emulsifies fats -- breaking large fat globules into smaller droplets so that pancreatic enzymes can act on them efficiently.",
+     "answer": "Bile emulsifies fats, breaking them into small droplets for easier digestion."
+    },
+    {
+     "question": "Why is the small intestine lined with villi?",
+     "solution": "The villi are finger-like projections that greatly increase the surface area for absorption of digested food into the blood, making the small intestine the main site of nutrient absorption.",
+     "answer": "Villi increase surface area for absorption of digested food."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the parts of the human alimentary canal in sequence.",
+     "type": "short_answer"
+    },
+    {
+     "question": "State the role of saliva in the digestion of food.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is the small intestine the longest part of the alimentary canal?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.9.3",
+   "title": "Digestion in Different Animals -- Herbivores and Carnivores",
+   "section": "9.3",
+   "definition": "Herbivores (e.g., cow, goat) have a longer alimentary canal and specialised chambers or teeth to digest cellulose-rich plant matter, while carnivores (e.g., lion, tiger) have a shorter alimentary canal suited to digesting meat, which is easier to break down.",
+   "formula": "",
+   "key_idea": "The length and structure of the alimentary canal depend on the type of food an animal eats -- plant matter is harder to digest and needs a longer canal, while meat is digested quickly in a shorter canal.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why do herbivores have a longer alimentary canal than carnivores?",
+    "How does a ruminant digest cellulose?",
+    "What is rumination?",
+    "Compare the teeth of herbivores and carnivores.",
+    "Why does a tiger have a shorter intestine than a cow?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the type of food the animal eats",
+     "explain": "Herbivores eat plant material rich in cellulose; carnivores eat flesh which is protein-rich and easier to digest."
+    },
+    {
+     "step": 2,
+     "action": "Relate food type to the length of the alimentary canal",
+     "explain": "Cellulose is hard to digest, so herbivores have a longer canal to allow more time for breakdown; meat is digested quickly, so carnivores have a shorter canal."
+    },
+    {
+     "step": 3,
+     "action": "Note any specialised digestive structures",
+     "explain": "Ruminants like cows have a four-chambered stomach and bring back swallowed food to chew again (rumination); carnivores have strong, sharp teeth for tearing flesh."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why does a cow chew its food even after swallowing it?",
+     "solution": "A cow is a ruminant. It first swallows grass quickly and stores it in the rumen, then brings it back into the mouth to chew thoroughly (rumination) so that cellulose is broken down by microbes before final digestion.",
+     "answer": "A cow regurgitates and re-chews food (rumination) to digest cellulose."
+    },
+    {
+     "question": "Why is the alimentary canal of a tiger shorter than that of a cow?",
+     "solution": "A tiger is a carnivore that eats meat, which is easier to digest than cellulose-rich plant food; hence it needs a shorter alimentary canal, unlike a herbivore like a cow.",
+     "answer": "Meat is digested easily, so carnivores have a shorter canal."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why do herbivores have a longer alimentary canal than carnivores?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the process of rumination in a cow.",
+     "type": "short_answer"
+    },
+    {
+     "question": "State two differences between the teeth of herbivores and carnivores.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.9.4",
+   "title": "Respiration in Animals -- Aerobic and Anaerobic",
+   "section": "9.4",
+   "definition": "Respiration is the process of breaking down food to release energy. In aerobic respiration, glucose is broken down in the presence of oxygen to release a large amount of energy along with carbon dioxide and water. In anaerobic respiration, glucose is broken down without oxygen, releasing less energy and producing lactic acid (in muscles) or ethanol and carbon dioxide (in yeast).",
+   "formula": "aerobic: c6h12o6 + 6O2 -> 6CO2 + 6H2O + energy; anaerobic (yeast): c6h12o6 -> 2C2H5OH + 2CO2 + energy",
+   "key_idea": "Aerobic respiration uses oxygen and releases more energy; anaerobic respiration occurs without oxygen, releases less energy, and produces lactic acid or ethanol as by-products.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the difference between aerobic and anaerobic respiration?",
+    "Write the word equation for aerobic respiration.",
+    "Why do muscles cramp during heavy exercise?",
+    "What is produced during anaerobic respiration in yeast?",
+    "Which type of respiration releases more energy?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the type of respiration and the reactants",
+     "explain": "Determine whether oxygen is available (aerobic) or not (anaerobic) and note the substrate, usually glucose (C6H12O6)."
+    },
+    {
+     "step": 2,
+     "action": "Write the balanced equation for the respiration",
+     "explain": "Aerobic: C6H12O6 + 6O2 -> 6CO2 + 6H2O + energy; Anaerobic in muscles: C6H12O6 -> 2C3H6O3 (lactic acid) + energy; Anaerobic in yeast: C6H12O6 -> 2C2H5OH + 2CO2 + energy."
+    },
+    {
+     "step": 3,
+     "action": "Compare the energy released and the by-products",
+     "explain": "Aerobic respiration releases a large amount of energy; anaerobic respiration releases much less energy and produces lactic acid (muscle cramps) or ethanol and CO2 (in yeast)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Write the word equation for aerobic respiration.",
+     "solution": "Glucose + Oxygen -> Carbon dioxide + Water + Energy. In symbols: C6H12O6 + 6O2 -> 6CO2 + 6H2O + energy.",
+     "answer": "Glucose + Oxygen -> Carbon dioxide + Water + Energy"
+    },
+    {
+     "question": "Why do muscle cramps occur after strenuous exercise?",
+     "solution": "During heavy exercise, muscles need more energy and breathe anaerobically when oxygen supply is short. Glucose breaks down partially to form lactic acid, whose accumulation causes muscle cramps.",
+     "answer": "Anaerobic respiration in muscles produces lactic acid, causing cramps."
+    },
+    {
+     "question": "What are the products of anaerobic respiration in yeast?",
+     "solution": "In yeast, glucose is broken down without oxygen to produce ethanol (alcohol), carbon dioxide and a small amount of energy: C6H12O6 -> 2C2H5OH + 2CO2 + energy.",
+     "answer": "Ethanol, carbon dioxide and a small amount of energy."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Write the word equation for anaerobic respiration in yeast.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why does aerobic respiration release more energy than anaerobic respiration?",
+     "type": "short_answer"
+    },
+    {
+     "question": "State the cause of muscle cramps during heavy exercise.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.9.5",
+   "title": "Respiration in Different Animals -- Gills, Lungs and Skin",
+   "section": "9.5",
+   "definition": "Different animals use different respiratory organs suited to their habitat: fish use gills to extract dissolved oxygen from water; insects use tracheae (a network of tubes); amphibians, reptiles, birds and mammals use lungs; and earthworms and frogs respire through their moist skin (cutaneous respiration).",
+   "formula": "",
+   "key_idea": "The respiratory organ of an animal is adapted to its habitat -- gills for aquatic animals, lungs for terrestrial animals, and moist skin for animals that live in damp places.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How do fish respire?",
+    "Which organ do insects use for respiration?",
+    "How do earthworms breathe?",
+    "Why do frogs breathe through their skin when in water?",
+    "Name the respiratory organs of three different animals."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the habitat of the animal",
+     "explain": "Determine whether the animal lives in water, on land, or in both, as this decides the respiratory organ."
+    },
+    {
+     "step": 2,
+     "action": "Match the respiratory organ to the habitat",
+     "explain": "Fish -- gills (water); insects -- tracheae (air); earthworms and frogs -- moist skin; mammals, birds, reptiles -- lungs (air)."
+    },
+    {
+     "step": 3,
+     "action": "Explain how the organ works",
+     "explain": "Gills take up dissolved oxygen from water; lungs take in atmospheric air; moist skin allows gas exchange only when kept damp, which is why earthworms come to the surface during rains."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why do fish die when taken out of water?",
+     "solution": "Fish respire through gills which can extract only dissolved oxygen from water. Out of water, their gills collapse and cannot absorb oxygen from air, so the fish suffocate and die.",
+     "answer": "Gills cannot absorb oxygen from air, so fish die out of water."
+    },
+    {
+     "question": "Why do earthworms come out of the soil during heavy rain?",
+     "solution": "Earthworms respire through their moist skin. During heavy rain, the soil pores fill with water, cutting off the air supply, so the earthworms come to the surface to breathe.",
+     "answer": "Waterlogged soil cuts off air, so earthworms surface to breathe."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name the respiratory organ of a fish and an insect.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How do earthworms respire?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why must the skin of a frog remain moist for respiration?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.9.6",
+   "title": "Transportation in Animals -- The Circulatory System",
+   "section": "9.6",
+   "definition": "The circulatory system in animals consists of the heart, blood and blood vessels (arteries, veins and capillaries) that transport oxygen, digested food, waste products and other substances to and from every cell of the body.",
+   "formula": "",
+   "key_idea": "The heart pumps blood through a network of blood vessels; arteries carry oxygen-rich blood away from the heart, veins bring blood back to the heart, and capillaries allow exchange of materials with cells.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the components of the circulatory system?",
+    "What is the difference between arteries and veins?",
+    "Why is blood called a connective tissue?",
+    "What is the function of the heart?",
+    "Where does exchange of gases and nutrients occur in the body?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the components of the circulatory system",
+     "explain": "The circulatory system has three parts -- the heart (pump), blood (fluid) and blood vessels (tubes: arteries, veins, capillaries)."
+    },
+    {
+     "step": 2,
+     "action": "Distinguish arteries, veins and capillaries",
+     "explain": "Arteries carry blood away from the heart and have thick walls; veins carry blood back to the heart and have valves; capillaries are tiny vessels where exchange of materials with cells occurs."
+    },
+    {
+     "step": 3,
+     "action": "Explain the role of blood and the heart",
+     "explain": "Blood transports oxygen, digested food and waste; the heart is a muscular organ that pumps blood continuously throughout the body."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why do arteries have thick, elastic walls while veins have valves?",
+     "solution": "Arteries carry blood pumped under high pressure from the heart, so they need thick, elastic walls to withstand the pressure. Veins carry blood back to the heart at low pressure, so they have valves to prevent the backflow of blood.",
+     "answer": "Arteries need thick walls for high pressure; veins have valves to prevent backflow."
+    },
+    {
+     "question": "What is the function of capillaries?",
+     "solution": "Capillaries are the narrowest blood vessels that form a network between arteries and veins. Their thin walls allow the exchange of oxygen, food and waste between the blood and the surrounding cells.",
+     "answer": "Capillaries allow exchange of materials between blood and cells."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the three components of the circulatory system.",
+     "type": "short_answer"
+    },
+    {
+     "question": "State two differences between arteries and veins.",
+     "type": "short_answer"
+    },
+    {
+     "question": "What is the function of the heart in the circulatory system?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.9.7",
+   "title": "Excretion in Animals",
+   "section": "9.7",
+   "definition": "Excretion is the process of removing nitrogenous waste (such as urea and uric acid) from the body. In humans, the excretory system consists of a pair of kidneys, ureters, a urinary bladder and a urethra; the kidneys filter the blood and produce urine.",
+   "formula": "",
+   "key_idea": "The kidneys filter waste from the blood to form urine, which is carried by the ureters to the bladder for storage and expelled through the urethra; different animals excrete waste as ammonia, urea or uric acid depending on their habitat.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is excretion?",
+    "Name the organs of the human excretory system.",
+    "How is urine formed in the kidneys?",
+    "What is the function of the urinary bladder?",
+    "Why do aquatic animals excrete ammonia while birds excrete uric acid?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the excretory organs in humans",
+     "explain": "The human excretory system has two kidneys, two ureters, one urinary bladder and one urethra."
+    },
+    {
+     "step": 2,
+     "action": "Explain how urine is formed",
+     "explain": "The kidneys filter the blood, removing urea, excess water and salts to form urine; useful substances are reabsorbed back into the blood."
+    },
+    {
+     "step": 3,
+     "action": "Trace the path of urine out of the body",
+     "explain": "Urine passes from the kidneys through the ureters to the urinary bladder, where it is stored, and is then released through the urethra."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is excretion necessary in living organisms?",
+     "solution": "Metabolic activities produce nitrogenous wastes such as urea and uric acid, which are toxic if they accumulate. Excretion removes these wastes and maintains the chemical balance of the body fluids.",
+     "answer": "Excretion removes toxic nitrogenous waste and maintains body fluid balance."
+    },
+    {
+     "question": "What is the role of the kidneys in the human body?",
+     "solution": "The kidneys filter the blood, remove urea, excess salts and water, and form urine. They also reabsorb useful substances like glucose and some water back into the blood.",
+     "answer": "Kidneys filter blood to form urine and reabsorb useful substances."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the organs of the human excretory system.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Describe how urine is formed and expelled from the body.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why do aquatic animals excrete ammonia as their nitrogenous waste?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.9.8",
+   "title": "Types of Nutrition in Different Animals",
+   "section": "9.8",
+   "definition": "Different animals obtain food in specialised ways suited to their body structure: amoeba engulfs food using pseudopodia (holozoic); hydra uses tentacles with stinging cells; butterflies have a tube-like proboscis to suck nectar; and mosquitoes pierce skin to feed on blood.",
+   "formula": "",
+   "key_idea": "The feeding structure of an animal is adapted to its food source -- pseudopodia in amoeba, tentacles in hydra, proboscis in butterflies, and piercing mouthparts in mosquitoes.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How does an amoeba obtain its food?",
+    "What is a pseudopodium?",
+    "How does a hydra capture its prey?",
+    "How does a butterfly feed on nectar?",
+    "Describe the feeding method of a mosquito."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the animal and its food source",
+     "explain": "Note the animal (amoeba, hydra, butterfly, mosquito) and the type of food it eats (tiny organisms, small aquatic animals, nectar, blood)."
+    },
+    {
+     "step": 2,
+     "action": "Describe the feeding structure",
+     "explain": "Amoeba uses pseudopodia (false feet); hydra uses tentacles with stinging cells (nematocysts); butterfly uses a long proboscis; mosquito uses piercing and sucking mouthparts."
+    },
+    {
+     "step": 3,
+     "action": "Explain the feeding process",
+     "explain": "Amoeba engulfs food by forming a food vacuole; hydra paralyses prey with stinging cells; butterfly sucks nectar through its proboscis; mosquito pierces skin and sucks blood."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does an amoeba capture and digest its food?",
+     "solution": "Amoeba pushes out finger-like pseudopodia around the food particle, engulfs it to form a food vacuole, digests it with enzymes and absorbs the nutrients; undigested matter is thrown out through the surface.",
+     "answer": "Amoeba engulfs food with pseudopodia and digests it in a food vacuole."
+    },
+    {
+     "question": "How does a butterfly feed on nectar from a flower?",
+     "solution": "A butterfly has a long, tube-like mouthpart called a proboscis. It uncoils the proboscis, inserts it into the flower and sucks up the nectar.",
+     "answer": "A butterfly sucks nectar through its tube-like proboscis."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe how an amoeba obtains its food.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How do hydra capture their prey?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the feeding method of a mosquito.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "reviewer-added",
+   "concept": "c7cu.9.1",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain modes of nutrition in animals -- holozoic, saprophytic and parasitic with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify how the organism obtains its food",
+     "explain": "Determine whether the organism ingests solid food (holozoic), absorbs nutrients from dead matter (saprophytic), or draws food from a living host (parasitic)."
+    },
+    {
+     "step": 2,
+     "action": "Classify the mode of nutrition",
+     "explain": "Holozoic -- ingestion and digestion (humans, amoeba); saprophytic -- extracellular digestion of dead matter (mushrooms, bread mould); parasitic -- feeding on a host (tapeworm, lice)."
+    },
+    {
+     "step": 3,
+     "action": "Relate the mode to the organism's habitat",
+     "explain": "The mode of nutrition is adapted to where the organism lives, e.g., parasites live on or inside a host, saprophytes grow on decaying matter."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "reviewer-added",
+   "concept": "c7cu.9.2",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain human digestive system with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Trace the path of food through the alimentary canal",
+     "explain": "Food enters the mouth, passes through the oesophagus into the stomach, then to the small intestine and finally the large intestine before egestion."
+    },
+    {
+     "step": 2,
+     "action": "Identify the digestive glands and their secretions",
+     "explain": "Salivary glands produce saliva (salivary amylase), the liver secretes bile, and the pancreas releases pancreatic juice containing several enzymes."
+    },
+    {
+     "step": 3,
+     "action": "Locate the site of digestion and absorption",
+     "explain": "Digestion is completed in the small intestine where enzymes break food into simple molecules; the finger-like villi absorb these nutrients into the blood."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)"
+}

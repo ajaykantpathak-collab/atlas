@@ -1,0 +1,203 @@
+{
+ "catalog": "catalog_class12_economics_ch8",
+ "concepts": [
+  {
+   "id": "c12eco.8.1",
+   "title": "India and Pakistan: Economic Development Path",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'India and Pakistan: Economic Development Path' refers to.",
+     "a": "India and Pakistan, both part of British India until 1947, followed different development paths with India emphasising public-sector-led planning and Pakistan relying more on private enterprise and foreign aid.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'India and Pakistan: Economic Development Path'.",
+     "a": "Despite a shared colonial past, India and Pakistan adopted contrasting economic strategies, leading to different growth and structural outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'India and Pakistan: Economic Development Path'.",
+     "a": "compare the development paths of India and Pakistan",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12eco.8.2",
+   "title": "India and China: Economic Development Path",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'India and China: Economic Development Path' refers to.",
+     "a": "India and China, both large Asian economies, adopted different reform paths: China introduced market reforms in 1978 under communist rule, while India launched liberalisation in 1991 within a democratic framework.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'India and China: Economic Development Path'.",
+     "a": "China's reforms began earlier and emphasised export-led manufacturing, while India's reforms focused on services and a slower shift from planning to markets.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'India and China: Economic Development Path'.",
+     "a": "compare the development paths of India and China",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12eco.8.3",
+   "title": "Demographic Indicators: India, Pakistan, China",
+   "questions": [
+    {
+     "q": "Using the method 'Demographic Indicators: India, Pakistan, China', work with: population_t0 = 5000, population_t1 = 25000. Carry the chain through step by step and give the final value of annual_population_growth_rate.",
+     "a": "400 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Demographic Indicators: India, Pakistan, China' and work with: population_t0 = 125000, population_t1 = 25000. Carry the chain through step by step and give the final value of annual_population_growth_rate.",
+     "a": "-80 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Demographic Indicators: India, Pakistan, China' refers to.",
+     "a": "Demographic indicators such as population size, growth rate, sex ratio, and fertility rate describe the population structure and dynamics of a country.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Demographic Indicators: India, Pakistan, China'.",
+     "a": "China's one-child policy slowed its population growth sharply, while India and Pakistan continue to have higher fertility and younger populations.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Demographic Indicators: India, Pakistan, China', in plain ASCII form.",
+     "a": "annual_population_growth_rate = ((population_t1 - population_t0) / population_t0) * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12eco.8.4",
+   "title": "GDP Growth Comparison: India, Pakistan, China",
+   "questions": [
+    {
+     "q": "Using the method 'GDP Growth Comparison: India, Pakistan, China', work with: gdp_t0 = 5000, gdp_t1 = 20000. Carry the chain through step by step and give the final value of gdp_growth_rate.",
+     "a": "300 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'GDP Growth Comparison: India, Pakistan, China' and work with: gdp_t0 = 50000, gdp_t1 = 5000. Carry the chain through step by step and give the final value of gdp_growth_rate.",
+     "a": "-90 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'GDP Growth Comparison: India, Pakistan, China' refers to.",
+     "a": "GDP growth comparison examines the rate at which the gross domestic product of the three countries has expanded over time, reflecting the pace of economic progress.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'GDP Growth Comparison: India, Pakistan, China'.",
+     "a": "China has consistently recorded the highest GDP growth among the three, followed by India, with Pakistan lagging behind over the reform period.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'GDP Growth Comparison: India, Pakistan, China', in plain ASCII form.",
+     "a": "gdp_growth_rate = ((gdp_t1 - gdp_t0) / gdp_t0) * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12eco.8.5",
+   "title": "Sectoral Composition of Output",
+   "questions": [
+    {
+     "q": "Using the method 'Sectoral Composition of Output', work with: sector_output = 20, total_gdp = 80000. Carry the chain through step by step and give the final value of sector_share.",
+     "a": "0.025 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Sectoral Composition of Output' and work with: sector_output = 200, total_gdp = 500. Carry the chain through step by step and give the final value of sector_share.",
+     "a": "40 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Sectoral Composition of Output' refers to.",
+     "a": "Sectoral composition measures the share of agriculture, industry, and services in a country's GDP, indicating the structural transformation of the economy.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sectoral Composition of Output'.",
+     "a": "China is more industry-driven, India is services-driven, and Pakistan remains relatively more dependent on agriculture and services.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Sectoral Composition of Output', in plain ASCII form.",
+     "a": "sector_share = (sector_output / total_gdp) * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12eco.8.6",
+   "title": "Human Development Indicators: A Comparison",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Human Development Indicators: A Comparison' refers to.",
+     "a": "Human development indicators such as life expectancy, literacy rate, infant mortality rate, and HDI rank measure the well-being of people beyond income.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Human Development Indicators: A Comparison'.",
+     "a": "China ranks highest on most human development indicators among the three, with India in the middle and Pakistan lagging on literacy and health.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Human Development Indicators: A Comparison'.",
+     "a": "compare the human development indicators of India, Pakistan, and China",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12eco.8.7",
+   "title": "Similarities and Differences Among India, Pakistan, China",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Similarities and Differences Among India, Pakistan, China' refers to.",
+     "a": "All three countries share a history of colonial or semi-colonial rule and planning, but differ in political system, reform timing, and sectoral focus of development.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Similarities and Differences Among India, Pakistan, China'.",
+     "a": "Despite shared starting points, differences in governance, reform strategy, and human capital investment produced divergent development outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Similarities and Differences Among India, Pakistan, China'.",
+     "a": "what are the similarities in the development of India, Pakistan, and China",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12eco.8.8",
+   "title": "Lessons from India's Neighbours",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Lessons from India's Neighbours' refers to.",
+     "a": "Lessons from neighbours are policy insights India can draw from the development experiences of China and Pakistan, including the role of reforms, infrastructure, and human capital.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Lessons from India's Neighbours'.",
+     "a": "India can learn from China's emphasis on infrastructure, manufacturing, and human capital, and avoid the pitfalls of political instability seen in Pakistan.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Lessons from India's Neighbours'.",
+     "a": "what lessons can India learn from China's development experience",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

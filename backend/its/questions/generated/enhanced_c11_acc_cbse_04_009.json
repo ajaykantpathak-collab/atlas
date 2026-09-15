@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_04_009",
+   "title": "c11_acc_cbse_04_009",
+   "questions": [
+    {
+     "q": "State the exact narration written in the Purchases Account when posting the monthly total from the Purchases Book, and explain why individual supplier accounts are credited with \"By Purchases\" rather than \"By Sundries\".",
+     "a": "Correct narration: \"To Sundries as per Purchases Book\" on the debit side of Purchases Account. Individual supplier accounts are credited with \"By Purchases\" because each supplier is a separate personal account — we credit the specific giver of goods. \"Sundries\" is used only in the Purchases Account because it aggregates multiple suppliers. A wrong answer like \"By Sundries\" in supplier's account reveals confusion between the *controlling account* (Purchases) and *subsidiary personal accounts* (suppliers).",
+     "self_check": true
+    },
+    {
+     "q": "A student posts the monthly total of the Sales Book (₹1,50,000) to the *debit* of Sales Account writing \"To Sundries as per Sales Book\". Identify the error and explain the correct posting with narration, using the accounting equation to justify why Sales Account is credited.",
+     "a": "Error: Sales Account is a revenue account; it increases on the credit side. Correct posting: Credit Sales Account with ₹1,50,000, narration \"By Sundries as per Sales Book\". Debit each customer's account individually with \"To Sales\". Justification: Accounting Equation — Assets (Debtors) increase (debit) and Capital increases via Revenue (credit). Posting to debit of Sales would reduce revenue, understating profit. This error reveals the student treats Sales like an expense account.",
+     "self_check": true
+    },
+    {
+     "q": "From the following analytical Purchases Book (with CGST, SGST, IGST columns), post the entries to ledger accounts for April 2024:\n| Date | Invoice | Supplier | Details | Purchases | CGST | SGST | IGST |\n|------|---------|----------|---------|-----------|------|------|------|\n| Apr 05 | 101 | M/s Delhi Traders (Delhi) | Goods ₹50,000 | 50,000 | 4,500 | 4,500 | — |\n| Apr 12 | 102 | M/s Mumbai Traders (Maharashtra) | Goods ₹80,000 | 80,000 | — | — | 14,400 |\n| Apr 20 | 103 | M/s Delhi Traders | Goods ₹30,000 | 30,000 | 2,700 | 2,700 | — |\n| Apr 30 | Total | | | 1,60,000 | 7,200 | 7,200 | 14,400 |\nShow the ledger accounts for Purchases, CGST Input, SGST Input, IGST Input, M/s Delhi Traders, M/s Mumbai Traders.",
+     "a": "**Purchases A/c** Dr. 1,60,000 — Cr. \"To Sundries as per Purchases Book\" 1,60,000  \n**CGST Input A/c** Dr. 7,200 — Cr. \"To Sundries as per Purchases Book\" 7,200  \n**SGST Input A/c** Dr. 7,200 — Cr. \"To Sundries as per Purchases Book\" 7,200  \n**IGST Input A/c** Dr. 14,400 — Cr. \"To Sundries as per Purchases Book\" 14,400  \n**M/s Delhi Traders A/c** Cr. \"By Purchases\" 50,000 + \"By CGST Input\" 4,500 + \"By SGST Input\" 4,500 (Apr 5) and \"By Purchases\" 30,000 + \"By CGST Input\" 2,700 + \"By SGST Input\" 2,700 (Apr 20) = Total Cr. 94,400  \n**M/s Mumbai Traders A/c** Cr. \"By Purchases\" 80,000 + \"By IGST Input\" 14,400 = 94,400  \n*Wrong answer indicator*: Posting GST columns to supplier accounts but forgetting to post GST column totals to separate GST Input accounts — reveals misunderstanding that GST columns are *independent control accounts*, not just part of supplier's payable.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the posting procedure for Purchases Return Book and Sales Return Book. Specifically, explain why the *periodical total* of Purchases Return Book is credited to Purchases Return Account, while the *periodical total* of Sales Return Book is debited to Sales Return Account. Use the nature of each account (expense/revenue/asset/liability) in your reasoning.",
+     "a": "Purchases Return is a *contra-expense* (reduces purchases) — it has a credit balance. Crediting the periodical total to Purchases Return Account increases this credit balance, correctly reducing net purchases. Individual suppliers are debited (\"To Purchases Return\") because we owe them less. Sales Return is a *contra-revenue* (reduces sales) — it has a debit balance. Debiting the periodical total to Sales Return Account increases this debit balance, correctly reducing net sales. Individual customers are credited (\"By Sales Return\") because they owe us less. A student who posts both totals to the same side fails to grasp that one reduces an expense (credit) and the other reduces revenue (debit).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Journal Proper entries do not need separate posting rules because they are already in journal format; we simply copy them to the ledger.\" Is this true or false? Defend your answer with two specific examples where Journal Proper posting differs from routine subsidiary book posting.",
+     "a": "False. While Journal Proper entries follow the standard journal-to-ledger posting (debit account debited, credit account credited), two critical differences exist: (1) **Compound entries** — e.g., opening entry debits multiple assets and credits multiple liabilities/capital; each must be posted individually to its own ledger account, not as a lump sum. (2) **Adjustment entries** — e.g., \"Rent Outstanding A/c Dr. To Rent A/c\" — here Rent Outstanding is a *new liability account* not previously in the ledger; it must be opened and posted. Routine subsidiary books (Purchases, Sales) use \"Sundries\" narrations and periodical totals; Journal Proper never uses \"Sundries\" — each account is named explicitly. This tests whether the student understands that Journal Proper handles *non-routine, diverse* transactions requiring account-specific judgement.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini-case: A trader has the following end-of-month totals: Purchases Book ₹4,20,000 (including CGST ₹32,000, SGST ₹32,000), Sales Book ₹6,50,000 (including CGST ₹48,000, SGST ₹48,000), Purchases Return Book ₹18,000 (including CGST ₹1,440, SGST ₹1,440), Sales Return Book ₹25,000 (including CGST ₹2,000, SGST ₹2,000). Design the ledger posting for **Purchases Account**, **Sales Account**, **CGST Input**, **SGST Input**, **CGST Output**, **SGST Output**, **Purchases Return Account**, **Sales Return Account**. Show only the periodical total postings (not individual party accounts).",
+     "a": "**Purchases A/c** Dr. 4,20,000 — \"To Sundries as per Purchases Book\"  \n**Sales A/c** Cr. 6,50,000 — \"By Sundries as per Sales Book\"  \n**CGST Input A/c** Dr. 32,000 — \"To Sundries as per Purchases Book\"  \n**SGST Input A/c** Dr. 32,000 — \"To Sundries as per Purchases Book\"  \n**CGST Output A/c** Cr. 48,000 — \"By Sundries as per Sales Book\"  \n**SGST Output A/c** Cr. 48,000 — \"By Sundries as per Sales Book\"  \n**Purchases Return A/c** Cr. 18,000 — \"By Sundries as per Purchases Return Book\"  \n**Sales Return A/c** Dr. 25,000 — \"To Sundries as per Sales Return Book\"  \n*Criteria for good answer*: Correct side (debit/credit) for each, correct narration pattern (\"To/By Sundries as per ___ Book\"), and separating GST Input/Output. Poor answer: mixing Input/Output, wrong side for return accounts, or omitting GST column postings entirely — reveals lack of analytical book structure understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

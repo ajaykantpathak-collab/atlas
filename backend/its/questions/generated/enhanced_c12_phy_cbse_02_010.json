@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_02_010",
+   "title": "c12_phy_cbse_02_010",
+   "questions": [
+    {
+     "q": "State the formula for the capacitance of a parallel plate capacitor with vacuum between the plates. Define each symbol and give its SI unit.",
+     "a": "\\( C_0 = \\frac{\\varepsilon_0 A}{d} \\), where \\( \\varepsilon_0 = 8.85 \\times 10^{-12} \\, \\text{F/m} \\) (permittivity of free space), A is the plate area in \\( \\text{m}^2 \\), and d is the separation in m. Capacitance C is in farads (F). A wrong answer (e.g., \\( C = \\varepsilon_0 d/A \\)) reveals confusion between area and separation dependence, or forgetting that \\( \\varepsilon_0 \\) has units F/m, not F.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the capacitance increases when a dielectric is inserted between the plates of an isolated charged capacitor, even though the charge on the plates remains the same.",
+     "a": "The dielectric polarizes, creating an opposing electric field that reduces the net field between the plates. Since \\( V = Ed \\), the potential difference decreases while Q stays constant. Capacitance \\( C = Q/V \\) therefore increases. A wrong answer (e.g., \"the dielectric adds more charge\") shows misunderstanding of polarization and the distinction between free and bound charges.",
+     "self_check": true
+    },
+    {
+     "q": "A parallel plate capacitor has plate area \\( 2.0 \\times 10^{-3} \\, \\text{m}^2 \\) and separation 1.0 mm. It is charged to 100 V and then disconnected from the supply. A dielectric slab of constant K = 5 is inserted completely. Calculate the new capacitance, charge, voltage, and energy stored.",
+     "a": "Step 1: \\( C_0 = \\varepsilon_0 A/d = (8.85 \\times 10^{-12} \\times 2.0 \\times 10^{-3}) / (1.0 \\times 10^{-3}) = 1.77 \\times 10^{-11} \\, \\text{F} = 17.7 \\, \\text{pF} \\).  \nStep 2: Initial charge \\( Q_0 = C_0 V_0 = 17.7 \\times 10^{-12} \\times 100 = 1.77 \\times 10^{-9} \\, \\text{C} \\).  \nStep 3: After dielectric insertion (isolated), \\( Q = Q_0 \\) (same). \\( C = K C_0 = 5 \\times 17.7 = 88.5 \\, \\text{pF} \\).  \nStep 4: New voltage \\( V = Q/C = 1.77 \\times 10^{-9} / 88.5 \\times 10^{-12} = 20 \\, \\text{V} \\).  \nStep 5: New energy \\( U = \\frac{1}{2} Q V = \\frac{1}{2} \\times 1.77 \\times 10^{-9} \\times 20 = 1.77 \\times 10^{-8} \\, \\text{J} \\).  \nA wrong answer (e.g., keeping V = 100 V) reveals confusion between isolated and battery-connected cases.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the electric field, potential difference, and capacitance for two identical parallel plate capacitors: one with vacuum, one with a dielectric of constant K, both connected to the same battery. Which quantities are the same and which differ? Explain using the concept of polarization.",
+     "a": "Both have the same potential difference V (fixed by battery). The capacitor with dielectric has a larger capacitance \\( C = K C_0 \\), larger charge \\( Q = K Q_0 \\), but the same electric field \\( E = V/d \\) because the battery maintains V and d is unchanged. Polarization creates bound charges that partially cancel the free charge field, but the battery supplies extra free charge to keep V constant. A wrong answer (e.g., \"E decreases by K\") confuses the isolated case with the battery-connected case.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"When a dielectric is inserted into a capacitor connected to a battery, the energy stored increases by a factor of K.\" Evaluate this statement. Is it always true? If not, under what condition is it true?",
+     "a": "The statement is true only for a capacitor connected to a battery (constant V). Energy \\( U = \\frac{1}{2} C V^2 \\). With dielectric, \\( C \\) becomes \\( K C_0 \\), so \\( U = K U_0 \\). For an isolated capacitor (constant Q), energy decreases by factor K because \\( U = Q^2/(2C) \\). A wrong answer (e.g., \"energy always increases\") shows failure to distinguish between constant-V and constant-Q scenarios.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a parallel plate capacitor (two aluminum plates), a battery, a dielectric sheet (e.g., plastic), and a high-resistance voltmeter to demonstrate the effect of dielectric on capacitance. Describe the steps and what you would observe.",
+     "a": "Step 1: Charge the capacitor with battery to voltage V, then disconnect battery. Step 2: Measure voltage V₀ with voltmeter. Step 3: Insert dielectric sheet completely between plates. Step 4: Measure new voltage V. Observation: V < V₀ (voltage drops). Step 5: Reconnect battery, charge again to V, disconnect, then remove dielectric. Observation: voltage rises above V. This shows capacitance increases with dielectric (Q constant, V drops) and decreases when removed. A poor answer (e.g., \"measure current\") reveals lack of understanding of how to infer capacitance from voltage changes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

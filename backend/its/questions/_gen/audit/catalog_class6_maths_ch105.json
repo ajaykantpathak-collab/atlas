@@ -1,0 +1,505 @@
+{
+ "catalog": "catalog_class6_maths_ch105.json",
+ "concepts": [
+  {
+   "id": "fegp.105.5.1.1",
+   "family": "calculus",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 1 * 4 * 4 + 5 * 4 + 7"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "dy = 3 * 3 * 4 ** 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "slope = 2 * 4 * 1 + 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "m = 2 * 4 * 1 + 4",
+      "normal = -1 / m"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "inner = 5 * 2 + 2",
+      "dy = 15 * inner * inner"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "second = 6 * 1 - 6"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "fegp.105.5.1.2",
+   "family": "hcf_lcm",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "hcf = 10 * 1"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "lcm = 30 * 40 / 10"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hcf = 30 * 40 / 120"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "piece = 30 * 40 / 120"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "next_min = 30 * 40 / 10"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 96 // 18"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "fegp.105.5.1.3",
+   "family": "hcf_lcm",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "hcf = 8 * 1"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "lcm = 56 * 16 / 8"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hcf = 56 * 16 / 112"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "piece = 56 * 16 / 112"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "next_min = 56 * 16 / 8"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 120 // 12"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "hcf = 8 * 1"
+   ]
+  },
+  {
+   "id": "fegp.105.5.1.4",
+   "family": "number_theory_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "lhs = 3 ** 3 + 4 ** 3",
+      "diff = 5 ** 3 - lhs"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total = 1 + 2 + 3"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "gap = 13 - 11"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "hcf = 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "dsum = 7 + 2 + 9",
+      "rem = dsum % 9"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "alt = 8 - 2 + 7 - 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "lhs = 3 ** 3 + 4 ** 3",
+    "diff = 5 ** 3 - lhs"
+   ]
+  },
+  {
+   "id": "fegp.105.5.2.1",
+   "family": "hcf_lcm",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "hcf = 9 * 1"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "lcm = 45 * 72 / 9"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hcf = 45 * 72 / 360"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "piece = 45 * 72 / 360"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "next_min = 45 * 72 / 9"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 120 // 36"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "hcf = 9 * 1"
+   ]
+  },
+  {
+   "id": "fegp.105.5.2.2",
+   "family": "number_theory_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "lhs = 3 ** 3 + 4 ** 3",
+      "diff = 5 ** 3 - lhs"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total = 1 + 2 + 3"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "gap = 13 - 11"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "hcf = 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "dsum = 7 + 2 + 9",
+      "rem = dsum % 9"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "alt = 8 - 2 + 7 - 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "lhs = 3 ** 3 + 4 ** 3",
+    "diff = 5 ** 3 - lhs"
+   ]
+  },
+  {
+   "id": "fegp.105.5.3.1",
+   "family": "number_theory_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "lhs = 3 ** 3 + 4 ** 3",
+      "diff = 5 ** 3 - lhs"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total = 1 + 2 + 3"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "gap = 13 - 11"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "hcf = 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "dsum = 7 + 2 + 9",
+      "rem = dsum % 9"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "alt = 8 - 2 + 7 - 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "lhs = 3 ** 3 + 4 ** 3",
+    "diff = 5 ** 3 - lhs"
+   ]
+  },
+  {
+   "id": "fegp.105.5.4.1",
+   "family": "hcf_lcm",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "hcf = 10 * 1"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "lcm = 70 * 80 / 10"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hcf = 70 * 80 / 560"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "piece = 70 * 80 / 560"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "next_min = 70 * 80 / 10"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 100 // 36"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "fegp.105.5.4.2",
+   "family": "hcf_lcm",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "hcf = 12 * 1"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "lcm = 84 * 60 / 12"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hcf = 84 * 60 / 420"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "piece = 84 * 60 / 420"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "next_min = 84 * 60 / 12"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 100 // 36"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "hcf = 12 * 1"
+   ]
+  },
+  {
+   "id": "fegp.105.5.5.1",
+   "family": "hcf_lcm",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "hcf = 12 * 1"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "lcm = 12 * 96 / 12"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hcf = 12 * 96 / 96"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "piece = 12 * 96 / 96"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "next_min = 12 * 96 / 12"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 96 // 12"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "hcf = 12 * 1"
+   ]
+  },
+  {
+   "id": "fegp.105.5.5.2",
+   "family": "hcf_lcm",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "hcf = 9 * 1"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "lcm = 45 * 72 / 9"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hcf = 45 * 72 / 360"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "piece = 45 * 72 / 360"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "next_min = 45 * 72 / 9"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 150 // 36"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "hcf = 9 * 1"
+   ]
+  }
+ ]
+}

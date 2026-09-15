@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_f_cbse_05_011",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_f_cbse_05_011",
+   "title": "c12_eng_f_cbse_05_011",
+   "questions": [
+    {
+     "q": "Identify the grammatical term for the underlined structure in this sentence from *Indigo*: \"When I first visited Gandhi in 1942 at his ashram in Sevagram, he told me what happened in Champaran.\" (Underlined: \"When I first visited Gandhi in 1942 at his ashram in Sevagram\")",
+     "a": "The underlined structure is a **fronted adverbial subordinate clause of time** (also called a dependent clause). It functions as an adverbial modifier for the main clause verb \"told.\" A wrong answer like \"phrase\" or \"main clause\" reveals the student cannot distinguish clauses (subject + verb) from phrases, or cannot identify subordination — a prerequisite for the comma rule tested in the textbook's \"Thinking about language\" section.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Fischer uses direct speech for Gandhi's court statement (\"I am involved in a conflict of duties...\") but reported speech for the commissioner's order (\"The commissioner proceeded to bully me and advised me forthwith to leave Tirhut\").",
+     "a": "Direct speech preserves Gandhi's exact words, voice, and moral authority — letting readers *hear* his reasoning (\"higher law of our being, the voice of conscience\"). Reported speech for the commissioner summarises bureaucratic hostility efficiently, denying him a platform. A wrong answer like \"direct speech is for important people\" shows the student misses the *narrative strategy*: direct speech = witness testimony; reported speech = narrative summary. This distinction is central to the text's documentary realism.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following sentence from *Indigo* by moving the subordinate clause to the end, adjusting punctuation correctly: \"When the court reconvened, the judge said he would not deliver the judgment for several days.\"",
+     "a": "\"The judge said he would not deliver the judgment for several days when the court reconvened.\" (No comma needed because the subordinate clause follows the main clause.) A student who writes \"The judge said he would not deliver the judgment for several days, when the court reconvened\" incorrectly retains the comma — revealing they have memorised \"subordinate clause = comma\" without understanding the *positional rule*: comma only when the subordinate clause *precedes* the main clause.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the language of the official notice (\"ordered him to return to town in his carriage... served him with an official notice to quit Champaran immediately\") with Gandhi's written reply (\"he would disobey the order\"). Analyse how grammatical mood (imperative vs. declarative) and voice (active vs. passive) reflect the power dynamic.",
+     "a": "The notice uses imperative mood (\"ordered,\" \"quit\") and passive construction (\"was served\") to project institutional authority and depersonalise power. Gandhi's reply uses declarative mood (\"he would disobey\") and active voice to assert *agency* and *moral choice*. A weak answer merely lists \"imperative vs. declarative\" without linking to the thematic conflict: colonial law (external compulsion) vs. conscience (internal conviction). This analysis connects grammar to the chapter's core theme of satyagraha.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Fischer's use of legal vocabulary (deposition, summons, bail, prosecutor, magistrate) is merely decorative — it adds flavour but does not advance the narrative.\" Defend or refute with two specific textual examples.",
+     "a": "Refute. The legal register *is* the narrative engine: (1) \"depositions by about ten thousand peasants were written down\" transforms individual suffering into admissible evidence, showing how satyagraha weaponised bureaucracy. (2) \"Gandhi refused [bail]\" — the technical term \"bail\" makes his refusal a legal *act*, not just defiance. A student calling it \"decorative\" confuses *register* (vocabulary choice) with *ornamentation*; in *Indigo*, legal language documents the collision of two justice systems — colonial law and moral law.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 3-sentence paragraph continuing the narrative from the peasants' perspective, using: (a) one fronted subordinate clause with correct comma, (b) one direct speech quotation, and (c) one legal/administrative term from the text. Example start: \"When the Mahatma stepped out of the courthouse...\"",
+     "a": "Sample answer: \"When the Mahatma stepped out of the courthouse, the crowd surged forward like a tide. 'He has not abandoned us,' whispered an old sharecropper, clutching his deposition paper. For the first time, the *summons* felt like a shield, not a threat.\" A poor answer omits the comma, uses only reported speech, or invents non-legal vocabulary — showing the student cannot *apply* the three grammatical features simultaneously in a coherent voice.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

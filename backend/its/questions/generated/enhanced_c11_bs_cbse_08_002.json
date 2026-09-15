@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_08_002",
+   "title": "c11_bs_cbse_08_002",
+   "questions": [
+    {
+     "q": "Define 'long-term sources of finance' as per NCERT classification and give two examples.",
+     "a": "Long-term sources provide funds for a period exceeding 5 years. Examples: issue of equity shares, issue of debentures, long-term loans from financial institutions. A wrong answer (e.g., \"public deposits\" or \"trade credit\") reveals the student confuses medium-term (1-5 years) with long-term (>5 years) or ignores the 5-year threshold.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why retained earnings are classified as 'owner's funds' but not as 'borrowed funds', even though both are internal to the company.",
+     "a": "Retained earnings are owner's funds because they belong to shareholders (residual claim), carry no repayment obligation, no fixed interest/dividend commitment, and strengthen the ownership base. Borrowed funds create a legal liability to repay principal + interest regardless of profit. A wrong answer focusing only on \"internal source\" misses the ownership vs. creditor distinction — a classic confusion between *source of generation* (internal/external) and *ownership basis* (owner/borrowed).",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following sources into the 2×3 matrix (Period: Long/Medium/Short × Ownership: Owner's/Borrowed): (a) Commercial Paper, (b) Preference Shares, (c) Lease Financing, (d) Public Deposits (3-year maturity), (e) Trade Credit.",
+     "a": "(a) Short-term, Borrowed; (b) Long-term, Owner's; (c) Medium-term, Borrowed; (d) Medium-term, Borrowed; (e) Short-term, Borrowed. A wrong classification (e.g., putting Preference Shares as Borrowed because of fixed dividend, or Lease Financing as Owner's because lessee uses the asset) reveals misunderstanding of the *legal nature* of the instrument: preference shares are equity (ownership) despite fixed dividend; lease is a rental contract (borrowed usage right), not ownership transfer.",
+     "self_check": true
+    },
+    {
+     "q": "A company needs ₹10 crore for machinery (useful life 10 years) and ₹2 crore for seasonal inventory (cycle 4 months). Analyze why using a single source (e.g., 1-year bank loan) for both would violate the principle of maturity matching. Use period basis classification in your answer.",
+     "a": "Machinery requires long-term funds (>5 years) because the asset generates returns over 10 years; a 1-year loan creates refinancing risk and liquidity crunch when the loan matures but the asset isn't liquidated. Seasonal inventory needs short-term funds (≤1 year) because it converts to cash in 4 months; a long-term loan would incur unnecessary interest cost during idle periods. Maturity matching aligns asset life with liability maturity. A wrong answer ignoring the asset-liability duration mismatch shows inability to apply period classification to real financing decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"For a startup wanting to avoid dilution of control and having unstable early earnings, debentures are a better source than equity shares.\" Justify using ownership basis and risk concepts.",
+     "a": "The statement is **flawed**. While debentures avoid voting dilution (ownership basis: borrowed funds, no control), they impose fixed interest obligation regardless of earnings — dangerous for a startup with unstable income (high financial risk). Equity shares dilute control but have no compulsory dividend (ownership basis: owner's funds, residual claim), aligning payouts with ability to pay. Better: mix both or use convertible debentures. A wrong answer focusing only on \"no dilution\" ignores the risk dimension of ownership classification — a senior secondary error.",
+     "self_check": true
+    },
+    {
+     "q": "Create a financing plan for a medium-sized textile manufacturer needing ₹25 crore for: (i) new weaving plant (15-year life), (ii) cotton stock for 6 months, (iii) ERP software (3-year useful life). Specify one source for each, classify by period & ownership, and defend your choices.",
+     "a": "(i) Plant: 10-year debentures (Long-term, Borrowed) — matches asset life, tax-deductible interest. (ii) Cotton stock: Trade credit (Short-term, Borrowed) — self-liquidating, no asset charge. (iii) ERP: Lease financing (Medium-term, Borrowed) — avoids obsolescence risk, lower upfront cash. Good answer shows each source's period matches asset life, ownership choice balances control/cost/risk. Poor answer uses same source for all or mismatches periods (e.g., trade credit for plant).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

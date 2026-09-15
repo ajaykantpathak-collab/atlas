@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "english",
+  "chapter": 134,
+  "chapter_title": "Tribal Verse",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keww134.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keww134.1.1",
+      "title": "Tribal Communities and the Marginalisation of Their Voices",
+      "section": "1",
+      "definition": "G.N. Devy begins with the marginalisation of tribal communities in India: their accelerating encounter with modernity, the loss of land and language, and the literary establishment's near-blindness to their songs and stories. Tribal verse, he argues, is a vast literature existing outside the category of 'Indian literature' as officially taught.",
+      "formula": "",
+      "key_idea": "A literature without a place in the syllabus -- tribal voices marginalised twice, as communities and as texts.",
+      "textbook_ref": "keww134.txt opening sections (marginalisation of communities, tribal encounter with modernity, land and language loss, blindness of literary canon)",
+      "question_patterns": [
+        "how does devy describe the marginalisation of tribal communities",
+        "in class 11 tribal verse: why has tribal literature remained outside indian literary studies",
+        "what changes in tribal life does devy point to as accelerating",
+        "why is tribal verse called a vast unknown literature",
+        "what role does language loss play in tribal marginalisation",
+        "how do literary canons contribute to the marginalisation of tribal voices"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "state the double marginalisation",
+          "explain": "Tribal communities are pushed to the margins socially, and their expressive art is pushed out of the canon."
+        },
+        {
+          "step": 2,
+          "action": "note the accelerating change",
+          "explain": "Modernity's pressure on land, forests and language speeds the erosion of tribal life."
+        },
+        {
+          "step": 3,
+          "action": "state the claim",
+          "explain": "Devy's essay asks readers to count tribal verse as literature -- vast, varied and living."
+        }
+      ]
+    },
+    {
+      "id": "keww134.1.2",
+      "title": "The Nature of Tribal Song: Orality, Ritual and Community",
+      "section": "1",
+      "definition": "Tribal verse lives in orality: songs sung at festivals, harvests, weddings and deaths, tied to ritual and communal performance rather than to books. Its makers are often anonymous; its language is the dialect of a small community; its themes are nature, labour, love and the spirits that people the tribal world.",
+      "formula": "",
+      "key_idea": "Verse sung, not shelved -- anonymous, ritual-bound and communal, tribal poetry is performance before it is text.",
+      "textbook_ref": "keww134.txt nature sections (oral tradition, songs at festivals and rituals, anonymous makers, themes of nature labour love and spirits)",
+      "question_patterns": [
+        "what are the characteristic features of tribal songs",
+        "in class 11 tribal verse: why is tribal poetry called oral literature",
+        "at what occasions are tribal songs sung",
+        "who are the makers of tribal verse and are they known by name",
+        "what themes dominate tribal song",
+        "compare tribal verse with written classical poetry"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "note the oral mode",
+          "explain": "Tribal verse reaches its audience in voice and memory, not print -- performance is the text."
+        },
+        {
+          "step": 2,
+          "action": "note the ritual anchors",
+          "explain": "Festivals, harvests, weddings and funerals give the songs their occasions and their communities."
+        },
+        {
+          "step": 3,
+          "action": "note the themes",
+          "explain": "Nature, work, love and the spirit world supply tribal song its enduring subjects."
+        }
+      ]
+    },
+    {
+      "id": "keww134.1.3",
+      "title": "Collecting and Valuing Tribal Verse",
+      "section": "1",
+      "definition": "Devy describes the work of collectors and translators who walk into tribal regions, record songs in the original dialects, and translate them into Indian and other languages. The aim is justice -- to let tribal imagination enter the national literary conversation, and to warn that without such collecting a whole literature may vanish with its circumstances.",
+      "formula": "",
+      "key_idea": "Record, translate, admit -- collecting tribal verse is rescue work for a literature on the edge of silence.",
+      "textbook_ref": "keww134.txt collecting sections (collectors and translators, recording in dialects, translation into indian languages, vanishing circumstances of tribal life)",
+      "question_patterns": [
+        "what work do collectors and translators do for tribal verse",
+        "in class 11 tribal verse: why must tribal songs be recorded now",
+        "what difficulties arise in translating tribal songs",
+        "how does translation change the reception of tribal poetry",
+        "what does devy warn will happen without collecting",
+        "how can readers respond responsibly to tribal literature"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "walk to the source",
+          "explain": "Collectors record songs in living dialects, at their occasions, before modernity silences them."
+        },
+        {
+          "step": 2,
+          "action": "carry across languages",
+          "explain": "Translation into wider languages opens tribal imagination to readers who cannot visit its villages."
+        },
+        {
+          "step": 3,
+          "action": "argue the justice",
+          "explain": "Admitting tribal verse into the canon repays a cultural debt and keeps a literature alive."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keww134.txt nature sections",
+      "concept": "keww134.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "A student asks why we call tribal songs 'literature' if no one wrote them down. Answer using Devy's account of orality.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "recall the oral mode",
+          "explain": "In tribal communities literature lives in performance -- sung at festivals, rituals and work."
+        },
+        {
+          "step": 2,
+          "action": "recall the artistic craft",
+          "explain": "The songs show meter, image and metaphor -- deliberate artistry transmitted across generations."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "Writing is one container for literature, not its definition; orality is another, older container."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keww134.txt collecting sections",
+      "concept": "keww134.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "What is lost if a tribal song is collected and translated badly? What is gained if it is done well?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "state the risks",
+          "explain": "Bad collection strips context and dialect, freezing a living performance into a dead text."
+        },
+        {
+          "step": 2,
+          "action": "state the gains",
+          "explain": "Good translation carries the song's imagery and feeling into the national conversation."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "The ethics of collecting matter as much as the act itself -- respect makes rescue possible."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keww134.txt end-of-chapter questions, reworded",
+      "questions": [
+        "How does Devy describe the marginalisation of tribal communities?",
+        "What are the features of tribal song and oral literature?",
+        "Why is collecting tribal verse urgent according to the essay?",
+        "What difficulties face the translator of tribal songs?",
+        "Should tribal verse be included in the canon of Indian literature? Discuss.",
+        "How does modernity affect tribal language and expression?"
+      ]
+    }
+  ]
+}

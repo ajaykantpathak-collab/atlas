@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch12_121",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch12_121",
+   "title": "c6_math_ch12_121",
+   "questions": [
+    {
+     "q": "What is the next number in the sequence 2, 5, 8, 11, ...?\na) 12\nb) 13\nc) 14\nd) 15",
+     "a": "The correct answer is c) 14. A wrong answer suggests the student is either guessing or failing to calculate the constant difference of +3 between terms, indicating they need practice in basic subtraction to find the \"step.\"",
+     "self_check": true
+    },
+    {
+     "q": "If a sequence follows the rule of square numbers (1, 4, 9, 16...), what is the 6th number in the sequence?",
+     "a": "The answer is 36. If a student answers 25 or 20, they likely failed to recognize the pattern of multiplying a number by itself (n × n), showing a misunderstanding of how sequence positions relate to the values.",
+     "self_check": true
+    },
+    {
+     "q": "A shopkeeper sells decorative candles in packs: 1, 3, 6, 10, 15... If he wants to create the next pack size, how many candles will he need?",
+     "a": "He will need 21 candles. The gaps are +2, +3, +4, +5; therefore, the next gap must be +6. Adding 6 to 15 gives 21. A wrong answer shows the student hasn't identified the \"growing\" nature of the gaps.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sequences 2, 4, 6, 8 and 2, 4, 8, 16. Why are they different even though they start the same?",
+     "a": "The first is an arithmetic sequence (adding 2), while the second is a geometric sequence (multiplying by 2). A wrong answer reveals a failure to distinguish between additive and multiplicative growth patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible for a number to be both a square number and a triangular number? Explain your reasoning.",
+     "a": "Yes, 36 is an example because it can be arranged as a 6x6 square and also as a triangle of dots. A wrong answer suggests the student views these patterns as isolated lists rather than geometric arrangements that can overlap.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own number sequence that grows by adding 5 each time, starting at 10. Write down the first five numbers.",
+     "a": "The sequence is 10, 15, 20, 25, 30. If the student fails to start at 10 or adds a different number, they lack the skill to translate a verbal rule into a numerical string.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_06_006",
+   "title": "c12_ip_cbse_06_006",
+   "questions": [
+    {
+     "q": "What is the correct syntax for a CSS rule that makes all `<h2>` elements have red text color and a font size of 24 pixels?",
+     "a": "Correct answer: `h2 { color: red; font-size: 24px; }`  \nA wrong answer like `h2 { color=red; font-size=24px; }` (using `=` instead of `:`) or `h2 { color: red; font-size: 24px }` (missing semicolon after last declaration) reveals the student confuses CSS declaration syntax with HTML attribute syntax or doesn't know that each declaration must end with a semicolon (though the last one is optional, it's best practice). Another common error: `h2 { color: red; font-size: 24px; }` written as `h2 { color: red; font-size: 24px }` without braces — shows misunderstanding of the rule set structure (selector + declaration block).",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between a class selector (`.highlight`) and an ID selector (`#main-heading`) in terms of (a) how many elements they can target in a valid HTML document, and (b) specificity weight in the cascade.",
+     "a": "Correct answer: (a) A class selector can target **multiple** elements (any element with `class=\"highlight\"`), while an ID selector must target **at most one** element (since `id` values must be unique per page). (b) ID selector has **higher specificity** (1,0,0) than class selector (0,1,0), so if both apply conflicting styles to the same element, the ID selector's declarations win regardless of order.  \nA wrong answer that says \"both can target multiple elements\" shows the student doesn't know the uniqueness constraint of `id`. Saying \"class has higher specificity\" reveals a fundamental misunderstanding of the cascade — a critical error for board exams where specificity questions appear frequently.",
+     "self_check": true
+    },
+    {
+     "q": "Given this HTML and CSS, what will be the final color of the paragraph text? Explain step by step.\n\n```html\n<p id=\"intro\" class=\"note important\">Welcome to the fest!</p>\n```\n\n```css\np { color: black; }\n.note { color: blue; }",
+     "a": "Correct answer: **green**  \nReasoning:  \n1. All four rules target the same `<p>` element.  \n2. Compute specificity: `p` = (0,0,1), `.note` = (0,1,0), `#intro` = (1,0,0), `.important` = (0,1,0).  \n3. Highest specificity wins: `#intro` (1,0,0) > `.note` and `.important` (0,1,0) > `p` (0,0,1).  \n4. Therefore `color: green` from `#intro` applies.  \nA wrong answer of \"red\" (thinking last rule wins) shows the student believes cascade order overrides specificity — a classic trap. \"Blue\" or \"black\" indicates they don't know how to calculate specificity or that ID beats class.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the descendant combinator (` `) and child combinator (`>`) in CSS selectors. Write a selector that targets only `<li>` elements that are **direct children** of a `<ul>` with class `menu`, but not `<li>` elements nested deeper inside sub-menus.",
+     "a": "Correct answer: `.menu > li`  \nExplanation: The child combinator `>` selects only **direct children**. The descendant combinator (space) selects **any descendant** at any depth. So `.menu li` would select all `<li>` inside `.menu` including those in nested `<ul>`, while `.menu > li` selects only the top-level list items.  \nA wrong answer like `.menu li` (missing `>`) shows the student doesn't distinguish between direct child and any descendant — a common error when styling navigation menus. Another error: `.menu > ul > li` would select the wrong level.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this CSS to style a button on hover and focus:\n```css\nbutton:hover { background-color: #007bff; color: white; }\nbutton:focus { outline: none; }\n```\nEvaluate this code from an **accessibility** perspective. Is it good practice? Justify your answer.",
+     "a": "Correct answer: **No, it is not good practice.** Removing `outline` on `:focus` (`outline: none;`) makes the button invisible to keyboard-only users (who navigate via Tab key), violating WCAG 2.1 Success Criterion 2.4.7 (Focus Visible). The `:hover` style helps mouse users, but keyboard users get no visual indication of focus.  \nBetter: `button:focus { outline: 2px solid #0056b3; outline-offset: 2px; }` — keeps visible focus ring but styles it.  \nA student who says \"it's fine because hover works\" or \"outline looks ugly so remove it\" shows they prioritize aesthetics over accessibility — a major misconception. Board exams increasingly test accessible design principles.",
+     "self_check": true
+    },
+    {
+     "q": "Create a CSS rule set that styles **all** `<input>` elements of type `text`, `email`, and `password` inside a form with ID `registration` to have: a 1px solid gray border, 8px padding, 16px font size, and a light yellow background **only when focused**. Use the most efficient selector grouping.",
+     "a": "Correct answer:\n```css",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

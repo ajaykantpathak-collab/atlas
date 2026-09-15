@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_03_007",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_03_007",
+   "title": "c11_cs_cbse_03_007",
+   "questions": [
+    {
+     "q": "What is the primary purpose of using indentation in pseudocode?",
+     "a": "Indentation visually represents the block structure of control statements (IF, WHILE, FOR), showing which statements are executed conditionally or repeatedly. A wrong answer (e.g., \"indentation is optional\" or \"it makes the code look pretty\") reveals the student thinks pseudocode is free-form text rather than a structured representation where scope must be explicit.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: `IF marks >= 33 THEN PRINT \"Pass\" ELSE PRINT \"Fail\"`. They ask why `END IF` is needed. How would you explain?",
+     "a": "`END IF` marks the end of the conditional block so the interpreter (or human reader) knows where the IF-ELSE structure finishes and the next sequential statement begins. Without it, in a multi-statement block like `IF condition THEN statement1; statement2; ELSE statement3`, it would be ambiguous whether `statement2` belongs to the THEN part or executes after the whole IF. A wrong answer indicates the student doesn't grasp that pseudocode must be unambiguous about scope.",
+     "self_check": true
+    },
+    {
+     "q": "Write pseudocode to input a number N and print the sum of all even numbers from 1 to N. Use a FOR loop.",
+     "a": "```\nINPUT N\nSET sum = 0\nFOR i FROM 2 TO N STEP 2\n    SET sum = sum + i\nEND FOR\nOUTPUT sum\n```\nSteps: 1) Identify input N. 2) Initialize accumulator. 3) Loop through even numbers only (start=2, step=2). 4) Accumulate. 5) Output. A wrong answer (e.g., using WHILE with a separate counter, or checking `i % 2 == 0` inside a 1-to-N loop) shows the student can't map the problem to the most direct loop structure or doesn't know FOR loop conventions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two pseudocode fragments for finding the maximum of three numbers. Which is better and why?\nFragment A:\n```\nIF a > b THEN\n    IF a > c THEN max = a\n    ELSE max = c\nELSE\n    IF b > c THEN max = b\n    ELSE max = c\n```\nFragment B:\n```\nmax = a\nIF b > max THEN max = b\nIF c > max THEN max = c\n```",
+     "a": "Fragment B is better: it uses a single accumulator variable updated by two independent comparisons, making it easier to read, extend to N numbers, and less prone to nesting errors. Fragment A works but nests conditionals unnecessarily. A student choosing A may think \"nested IFs are how you compare multiple values\" and miss the sequential-update pattern.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Pseudocode should use `=` for assignment and `==` for equality because that's what Python does.\" Evaluate this claim.",
+     "a": "The claim is incorrect for standard pseudocode conventions. Pseudocode is language-agnostic; many textbooks use `<-` or `:=` for assignment and `=` for equality in conditions to avoid confusion. Insisting on Python syntax defeats the purpose of being implementation-independent. A student making this argument conflates pseudocode with a specific language's syntax.",
+     "self_check": true
+    },
+    {
+     "q": "Design a pseudocode convention for a new keyword `REPEAT n TIMES` that executes a block exactly n times. Show how you would write the block structure and explain how it differs from a FOR loop.",
+     "a": "```\nREPEAT 5 TIMES\n    OUTPUT \"Hello\"\nEND REPEAT\n```\nDifference: `REPEAT n TIMES` doesn't expose a loop counter variable, so it's used when the iteration count is fixed and the index isn't needed inside the block. A FOR loop (`FOR i FROM 1 TO 5`) provides the counter `i` for use in the body. A poor answer would not distinguish the scoping of the counter or would use indentation inconsistently.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

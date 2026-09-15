@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch10_006",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch10_006",
+   "title": "c7_math_ch10_006",
+   "questions": [
+    {
+     "q": "What is the product of $+7$ and $-8$?",
+     "a": "The correct answer is $-56$. A student who answers $+56$ is confusing the sign rule with multiplying two negative integers, forgetting that unlike signs yield a negative product. A student who answers $-1$ likely subtracted the numbers instead of multiplying them.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why multiplying a positive integer by a negative integer results in a negative product using the concept of repeated addition.",
+     "a": "Multiplying a positive integer $n$ by a negative integer $-a$ means adding $-a$ to itself $n$ times, such that $(-a) + (-a) + \\dots + (-a)$ ($n$ times). Since adding negative quantities repeatedly accumulates a larger negative value, the sum is negative. A student who thinks the result is positive is confusing repeated addition of negative numbers with the rule for multiplying two negative integers.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the value of $(-12) \\times 6$.",
+     "a": "The correct answer is $-72$. Step 1: Identify the absolute values, which are $12$ and $6$. Step 2: Multiply the absolute values: $12 \\times 6 = 72$. Step 3: Apply the rule for unlike signs (negative $\\times$ positive = negative), giving $-72$. A student who answers $+72$ has incorrectly applied the rule that two negatives make a positive to a mixed-sign multiplication problem.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the products of $(-9) \\times 5$ and $9 \\times (-5)$. What mathematical property does this demonstrate?",
+     "a": "Both products equal $-45$. This demonstrates the commutative property of multiplication, which states that changing the order of the factors does not change the product, even when integers have different signs. A student who believes the products are different does not understand that integer multiplication retains commutativity.",
+     "self_check": true
+    },
+    {
+     "q": "A student evaluates $(-8) \\times 7$ and writes down $+56$, reasoning that \"minus times plus is plus because the larger number is positive.\" Is this correct? Justify your evaluation.",
+     "a": "This evaluation is incorrect. The sign of the product of an integer multiplication depends strictly on whether the signs of the factors are alike or unlike, not on which number is larger. For unlike signs (one negative, one positive), the product is always negative, so $(-8) \\times 7$ must be $-56$. A student who agrees with the erroneous reasoning is confusing integer multiplication rules with integer addition rules where the sign of the larger absolute value dominates.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world word problem involving money or temperature where the solution requires calculating the product of a positive integer and a negative integer, and provide its solution.",
+     "a": "A good problem: \"A deep-sea submarine descends at a constant rate of 4 metres per minute. What is its change in position after 7 minutes?\" Solution: The rate of descent is $-4$ metres per minute, and time is $+7$ minutes. Multiplying $+7 \\times (-4) = -28$, so the submarine is 28 metres below its starting point ($-28$ metres). A poor answer would use two positive numbers or fail to incorporate a negative integer representing a loss or downward direction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

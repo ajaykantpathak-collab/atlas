@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_06_002",
+   "title": "c11_psy_cbse_06_002",
+   "questions": [
+    {
+     "q": "Define sensory memory and state the approximate duration of iconic and echoic memory stores.",
+     "a": "Sensory memory is the initial memory system that holds exact sensory replicas for very brief periods. Iconic memory (visual) lasts approximately 0.5 seconds (300-500 ms); echoic memory (auditory) lasts approximately 2-4 seconds. A wrong answer (e.g., saying both last \"a few seconds\" or confusing iconic with echoic durations) reveals the student hasn't encoded the critical modality-specific duration difference — a core board exam distinction.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Sensory memory and short-term memory are the same thing — both hold information for a short time.\" Explain why this is incorrect using three specific differences.",
+     "a": "Three differences: (1) Duration: sensory memory <1 sec (iconic) or 2-4 sec (echoic) vs STM ~30 sec without rehearsal. (2) Capacity: sensory memory is large (near-complete sensory replica) vs STM limited to 7±2 items. (3) Encoding: sensory memory is modality-specific (raw sensory code) vs STM primarily acoustic. A wrong answer that only mentions duration shows superficial understanding — the student misses the structural distinction between a perceptual buffer and a cognitive workspace.",
+     "self_check": true
+    },
+    {
+     "q": "In Sperling's partial report experiment, participants viewed a 3×4 letter grid for 50 ms. In the whole report condition, they recalled ~4.5 letters. In the partial report condition (cued by tone after stimulus offset), they recalled ~3.3 of 4 letters in the cued row. Calculate the implied iconic memory capacity and explain why the whole report condition underestimates it.",
+     "a": "Implied capacity = 3.3 letters/row × 3 rows ≈ 9-10 letters (near-complete grid). Whole report underestimates because iconic memory decays (~0.5 s) before the participant can report all 12 items — the bottleneck is output speed, not storage capacity. A wrong answer (e.g., \"capacity is 4.5 letters\") shows the student confuses *reported* items with *stored* items — a classic misinterpretation of Sperling's findings.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the adaptive functions of iconic vs echoic memory. Why might echoic memory last 4-8x longer than iconic memory from an evolutionary perspective?",
+     "a": "Iconic memory supports visual continuity (saccadic integration, motion perception) — vision is spatial and simultaneous, so a brief buffer suffices. Echoic memory supports speech perception and auditory streaming — sound is temporal and sequential; longer retention (2-4 s) allows parsing syllables into words, locating sound sources, and processing prosody. A wrong answer that treats both as \"just holding info\" misses the modality-specific computational demands shaped by evolution.",
+     "self_check": true
+    },
+    {
+     "q": "A textbook claims: \"Information in sensory memory is lost forever if not attended to within its duration.\" Critique this statement. Is it entirely accurate? What happens to unattended sensory information?",
+     "a": "The statement is partially inaccurate. Unattended sensory information *decays* from the sensory register (trace decay), but \"lost forever\" is misleading — some information may still be processed pre-attentively (e.g., priming effects, change blindness studies show residual processing). Also, \"attention\" is not a single moment but a continuous filter. A wrong answer that accepts the statement verbatim reveals a rigid, stage-model-only view ignoring modern evidence of pre-attentive processing and implicit memory traces.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration (using only a projector and speaker) to show the duration difference between iconic and echoic memory. Specify the stimulus, procedure, and predicted outcome for each modality.",
+     "a": "**Iconic demo**: Flash a 4×4 random letter grid for 50 ms. Ask students to write all letters. Most recall 4-5. Repeat with partial report (cue row by tone after flash). Recall jumps to ~3 letters/row → ~9-10 total. **Echoic demo**: Play a 7-digit number at 1 digit/sec. Immediately after, play a masking tone. Ask for recall. Repeat with 2-sec delay before mask. Recall drops sharply at 2-sec delay. **Prediction**: Iconic decays by 300 ms; echoic persists ~2-4 s. A poor demo confuses masking with decay or doesn't control output time.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

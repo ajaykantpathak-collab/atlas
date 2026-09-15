@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_hist_ch1_4",
+ "concepts": [
+  {
+   "id": "enh:c9_hist_ch1_4",
+   "title": "c9_hist_ch1_4",
+   "questions": [
+    {
+     "q": "A student finds a copper-plate grant issued by a Chola king in 1010 CE recording a land donation to a temple. The same student reads a 2023 journal article analysing Chola land grants. Which is the primary source and which is the secondary source for studying Chola administration?",
+     "a": "The copper-plate grant (1010 CE) is the primary source because it was created during the Chola period by the administration itself. The 2023 journal article is a secondary source because it interprets primary evidence written centuries later. A wrong answer—such as calling the journal article primary because it is \"new research\"—reveals the student confuses recency with proximity to the event; they think \"primary\" means \"most recent authoritative work\" rather than \"contemporary with the period studied.\"",
+     "self_check": true
+    },
+    {
+     "q": "Why is Al-Biruni's *Kitab al-Hind* (c. 1030 CE) considered a primary source for studying Mahmud of Ghazni's court but a secondary source for studying the Gupta period (c. 320–550 CE)?",
+     "a": "Al-Biruni wrote *Kitab al-Hind* based on his personal observations and interactions in Mahmud's court, making it a first-hand account (primary) for early 11th-century Northwest India. For the Gupta period—600 years earlier—Al-Biruni relies on earlier texts and oral traditions, so his work becomes a later interpretation (secondary). A wrong answer that labels it primary for both periods shows the student treats \"primary source\" as a fixed label on the document rather than a relationship between the source and the specific historical question asked.",
+     "self_check": true
+    },
+    {
+     "q": "You are researching the economic impact of the Battle of Plassey (1757). You have: (A) a 1758 East India Company revenue report from Bengal, (B) a 1770 letter from a Bengali zamindar to the Company, (C) a 1920 nationalist historian's book arguing the battle ruined Bengal's economy, (D) a 2020 economic history article using Company records. Classify each as primary or secondary for your research question.",
+     "a": "(A) Primary—created by the administration immediately after the battle. (B) Primary—contemporary perspective from an affected local elite. (C) Secondary—written 163 years later with a nationalist interpretive framework. (D) Secondary—modern scholarly synthesis, though it analyses primary data. A student who marks (D) as primary because it \"uses data\" confuses a source that *contains* primary evidence with a source that *is* primary evidence; the 2020 article's selection and framing of data make it an interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reliability of two sources for reconstructing Harappan trade: (1) a Mesopotamian cuneiform tablet c. 2300 BCE mentioning \"Meluhha\" ships, and (2) a Harappan seal found in Ur. Which source gives more direct evidence of Harappan commercial activity, and why might historians still prefer the Mesopotamian text for certain questions?",
+     "a": "The Harappan seal in Ur is more direct—it is a Harappan artefact physically present in Mesopotamia, proving contact. The Mesopotamian tablet is a foreign perception, possibly vague or mythologised. However, historians may prefer the tablet for questions about *how Mesopotamians viewed* Harappans (trade terms, frequency, goods) because the seal alone cannot reveal the Mesopotamian side of the exchange. A wrong answer claiming the tablet is \"more reliable because it's written\" reveals a text-centric bias that undervalues archaeological artefacts as primary evidence.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 9 textbook states: \"The Mughal Empire declined because Aurangzeb's religious policies alienated Hindus.\" Evaluate this statement as a historical source. Is it primary or secondary? What does its framing suggest about the historian's perspective, and what primary sources would you need to test this claim?",
+     "a": "The textbook statement is a secondary source—an interpretive synthesis written centuries later. Its framing (\"because... alienated Hindus\") presents a monocausal, religion-centred explanation that reflects early 20th-century nationalist historiography. To test it, you would need primary sources: Aurangzeb's farmans (orders), revenue records showing temple grants, contemporary Persian chronicles like *Ma'asir-i-Alamgiri*, and Maratha/Rajput correspondence. A student who accepts the textbook as \"fact\" because it is \"the textbook\" fails to recognise that all secondary sources carry interpretive frameworks that must be interrogated against primary evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Design a research plan to investigate whether the 1857 Revolt was primarily a \"sepoy mutiny\" or a \"popular uprising.\" List three primary source types you would consult, one secondary source you would critique, and explain how you would use them together to build an argument.",
+     "a": "Primary sources: (1) British military dispatches and court-martial records (state perspective), (2) rebel proclamations like the Azamgarh Proclamation or Delhi newspaper *Dehli Urdu Akhbar* (rebel voice), (3) petitions from peasants/landholders to rebel leaders or British officials (popular participation). Secondary source to critique: S.N. Sen's *Eighteen Fifty-Seven* (1957) which frames it as a sepoy mutiny. Method: cross-reference the geographic spread of rebel proclamations with peasant petitions to see if grievances extended beyond military pay; compare British dispatches' \"mutiny\" language with rebel documents' \"jihad/dharma\" language. A poor answer lists only British sources, revealing an uncritical acceptance of colonial archives as the sole \"primary\" record.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

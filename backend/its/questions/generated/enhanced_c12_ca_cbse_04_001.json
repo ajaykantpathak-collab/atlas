@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ca_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c12_ca_cbse_04_001",
+   "title": "c12_ca_cbse_04_001",
+   "questions": [
+    {
+     "q": "What are the two axes in a standard 2-D Excel chart called, and what type of data does each typically represent?",
+     "a": "The horizontal axis is the Category Axis (X-axis) representing independent categories (e.g., product names, time periods). The vertical axis is the Value Axis (Y-axis) representing dependent numerical values (e.g., sales amounts, quantities). A wrong answer (swapping them or calling them \"horizontal/vertical\" without the category/value distinction) reveals the student memorises positions but not the functional role of each axis — a critical error when interpreting or building charts for board practical exams.",
+     "self_check": true
+    },
+    {
+     "q": "A student creates a pie chart in Excel using a dataset that has three columns: Product Name, Q1 Sales, and Q2 Sales. The pie chart looks wrong — it shows only one data series. Explain why this happens and what the student should do to compare Q1 and Q2 sales for all products.",
+     "a": "A pie chart can plot only ONE data series (one column of values) at a time. The student selected all three columns; Excel plotted the first value column (Q1) and ignored Q2. To compare Q1 and Q2, the student should use a grouped column chart or a double-axis line chart, which support multiple data series. A wrong answer (e.g., \"pie chart can show two series if you add a legend\") reveals the misconception that any chart can handle any number of variables — a frequent board practical error.",
+     "self_check": true
+    },
+    {
+     "q": "You have monthly profit/loss data for a year: some months show profit (positive), others loss (negative). Which chart type(s) can correctly display negative values, and where will the negative bars/columns appear relative to the axis?",
+     "a": "Column charts, bar charts, and line charts can display negative values. Negative values appear on the opposite side of the axis from the origin: below the X-axis (for column charts) or to the left of the Y-axis (for bar charts). A wrong answer (e.g., \"pie chart can show negative values as slices\" or \"negative values disappear\") shows the student does not understand how the coordinate system handles sign — a concept tested in both board practicals and CUET data interpretation questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a doughnut chart and a pie chart for representing the market share of five smartphone brands. Which chart would you choose if you also need to show the same market share data for two different years (2022 and 2023) in a single visual? Justify.",
+     "a": "A doughnut chart is preferred because it can display multiple data series (each ring = one year), whereas a pie chart is limited to one series. The inner ring can represent 2022, the outer ring 2023, allowing direct visual comparison of each brand's share across years. A wrong answer (choosing pie chart or saying \"use two pie charts side by side\") misses the specific multi-series capability of doughnut charts — a distinction explicitly tested in NCERT Exercise Q7 and board competency questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"For showing the trend of a company's quarterly revenue over five years, a pie chart is the best choice because it shows percentages clearly.\" Provide two specific reasons why this is incorrect and name the correct chart type.",
+     "a": "The statement is incorrect because: (1) Pie charts show proportions of a whole at a SINGLE point in time, not changes over time; (2) They cannot plot multiple time periods (five years = five data series) — Excel pie charts max out at one series and seven categories. The correct chart is a line chart (or multi-line chart) with quarters on the X-axis and revenue on the Y-axis, which shows trend, seasonality, and year-over-year comparison. A weak critique (e.g., \"pie chart is not good for trends\" without the series limitation) shows incomplete understanding of chart constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Design a charting task for a Class 12 practical exam: Give a dataset (describe it in 2 lines) and ask the student to create a chart that reveals a specific business insight. State the dataset, the required chart type, the insight, and one formatting requirement (e.g., data labels, axis titles, legend position).",
+     "a": "Dataset: \"Quarterly expenses (Rent, Salaries, Marketing, Utilities) for 4 quarters of 2023-24 for a startup.\" Required chart: Stacked column chart (each column = quarter, segments = expense categories). Insight: \"Which quarter had the highest total expense and which category drives the increase?\" Formatting: Data labels on each segment, chart title \"Quarterly Expense Breakdown 2023-24\", legend at bottom. A poor answer (e.g., pie chart for one quarter only, or line chart for categorical expenses) reveals inability to match chart type to analytical goal — the core competency for board practicals.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

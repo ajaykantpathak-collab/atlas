@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_02_004",
+   "title": "c10_geo_cbse_02_004",
+   "questions": [
+    {
+     "q": "Name the three main categories of protected areas in India and state the primary legislation under which they are established.",
+     "a": "The three main categories are National Parks, Wildlife Sanctuaries, and Biosphere Reserves, established primarily under the Wildlife Protection Act, 1972 (Biosphere Reserves are additionally designated under UNESCO's Man and Biosphere Programme). A wrong answer (e.g., listing \"Reserved Forests\" as a protected area category or citing the Forest Conservation Act, 1980 as the primary legislation) reveals confusion between forest *administrative* categories (Reserved/Protected Forests) and *wildlife conservation* categories, and ignorance of the specific legal framework for species protection.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a National Park offers a higher degree of protection to wildlife than a Wildlife Sanctuary, referencing specific activities prohibited in one but permitted (with regulation) in the other.",
+     "a": "National Parks prohibit *all* human activity (grazing, collection of forest produce, habitation) except for tourism and research permitted by the Chief Wildlife Warden, whereas Wildlife Sanctuaries allow certain regulated activities like collection of minor forest produce and grazing by local communities. A wrong answer stating \"both are the same\" or \"Sanctuaries are stricter\" shows a fundamental misunderstanding of the legal hierarchy of protection (Section 35 vs Section 18 of WPA, 1972) and the concept of \"inviolate\" core areas critical for tiger conservation.",
+     "self_check": true
+    },
+    {
+     "q": "A state government proposes to declare a 500 sq km forest area as a protected area. The area has a viable tiger population, zero human settlements inside, but surrounds 10 villages dependent on minor forest produce. Which category — National Park or Wildlife Sanctuary — is more appropriate? Justify in two steps.",
+     "a": "Step 1: Identify the ecological priority — viable tiger population requires an \"inviolate\" core area (National Park status). Step 2: Assess human dependence — since villages are *outside* the proposed boundary (not inside), their rights can be settled via an eco-sensitive zone buffer, making National Park feasible. If villages were *inside*, a Sanctuary would be necessary to allow regulated use. A wrong choice (Sanctuary) fails to apply the \"inviolate space\" principle for tiger conservation (Project Tiger guidelines) and misreads the spatial relationship between settlements and the proposed boundary.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the zonation pattern of a Biosphere Reserve with that of a National Park. How does this difference reflect the dual objectives of conservation and sustainable development?",
+     "a": "A Biosphere Reserve has three zones: Core (strict protection, like a National Park), Buffer (regulated research, education, tourism), and Transition/Manipulation (sustainable resource use by local communities). A National Park is predominantly a single \"core\" zone with a surrounding eco-sensitive zone. This zonation explicitly operationalises sustainable development in the transition zone, whereas a National Park prioritises ecological integrity alone. A wrong answer describing Biosphere Reserves as \"just bigger National Parks\" misses the UNESCO MAB programme's core philosophy of integrating humans as part of the ecosystem.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Declaring an area as a Tiger Reserve automatically makes it a National Park.\" Provide one reason from the Wildlife Protection Act and one from Project Tiger guidelines.",
+     "a": "The statement is false. Reason 1 (Legal): Tiger Reserves are notified under Section 38V of WPA, 1972, and comprise a Core Area (which *must* be a National Park or Sanctuary) and a Buffer Area (which can be multiple-use forest land). Reason 2 (Programmatic): Project Tiger mandates a \"core-buffer\" strategy; the buffer zone permits sustainable use, unlike a National Park. A wrong evaluation (true) confuses the *administrative overlay* (Tiger Reserve) with the *legal category* (National Park), ignoring that many Tiger Reserves (e.g., Sundarbans) have core areas that are Sanctuaries, not National Parks.",
+     "self_check": true
+    },
+    {
+     "q": "Design a proposal for a new Community Reserve in a village landscape in the Western Ghats. Specify: (a) the legal provision enabling it, (b) the key stakeholder who initiates it, and (c) one ecological benefit it provides over a government-managed Sanctuary.",
+     "a": "(a) Section 36C of Wildlife Protection Act, 1972 (amended 2002). (b) The Gram Sabha / Village Community (private/community land owners). (c) It integrates traditional ecological knowledge and ensures continuous habitat connectivity outside the formal Protected Area network, reducing edge effects and human-wildlife conflict through community stewardship. A poor proposal citing the Forest Department as initiator or missing the Gram Sabha's role reveals ignorance of the 2002 amendment that decentralised conservation governance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

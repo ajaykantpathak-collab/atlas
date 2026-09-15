@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_16_008",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_16_008",
+   "title": "c11_eng_w_cbse_16_008",
+   "questions": [
+    {
+     "q": "Define imagery and metaphor in your own words, and give one example of each from the opening five lines of \"For Elkana.\"",
+     "a": "Imagery: \"warm April evening\" (thermal/tactile), \"breezes sauntering\" (kinesthetic/visual), \"stone steps\" (tactile/visual). Metaphor: \"tempts us\" — the evening is implicitly compared to a person who invites/seduces. A wrong answer that only lists visual details (\"lawn,\" \"chairs\") reveals the misconception that imagery = only visual description. A wrong answer that calls \"sauntering\" a metaphor reveals confusion between personification (a type of metaphor) and imagery.",
+     "self_check": true
+    },
+    {
+     "q": "The poem states: \"Her voice crawls up and down the lawn.\" Explain why this is a metaphor and not a simile, and what the verb \"crawls\" suggests about the wife's tone and the husband's perception of it.",
+     "a": "It is a metaphor because the voice is directly equated with a crawling creature (no \"like/as\"). \"Crawls\" suggests slow, deliberate, perhaps invasive movement — the husband experiences her voice as physically encroaching on his mental space, foreshadowing his retreat \"behind my eyes.\" A student who says \"it's a simile because it compares voice to crawling\" misunderstands that *absence* of comparative words makes it a metaphor. A student who misses the negative connotation misses the marital tension the device builds.",
+     "self_check": true
+    },
+    {
+     "q": "In the line \"crescent-moon-like chin uplifted,\" identify the explicit simile. Then explain how this simile *functions as a metaphor* for the son's attitude. Apply this understanding to a new context: write one sentence describing a stubborn teenager using a celestial simile that works metaphorically.",
+     "a": "Explicit simile: \"crescent-moon-like chin.\" It functions metaphorically by transferring the moon's qualities — distant, unchanging, cyclical, illuminated — to the son's rigid, determined posture. New sentence: \"Her jaw set like a fixed star, refusing to orbit anyone's expectations.\" A wrong answer that only identifies the simile without the metaphorical transfer shows surface-level device-spotting. A weak new sentence (\"His head was round like the moon\") fails to transfer abstract qualities.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the imagery of the \"stone steps\" (stanza 1) and the \"wags a finger\" (stanza 4). Analyze how these two tactile/kinesthetic images establish contrasting power dynamics: one between the couple and their environment, the other between mother and son.",
+     "a": "\"Stone steps\" — hard, cold, uneven, ancestral — imply the couple's accommodation to a pre-existing structure (marriage, house, tradition); they \"drag\" and \"plant\" chairs, asserting small agency. \"Wags a finger\" — a sharp, rhythmic, authoritative gesture — establishes maternal control in the moment. Together they trace a shift from passive adaptation to active discipline. A student who only describes the images (\"one is steps, one is finger\") misses the relational analysis. A student who reverses the power reading (father dominant on steps) ignores textual evidence (\"she surveys,\" \"he turns away\").",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the metaphor \"little bastard\" (used by the father internally) versus the capitalized declaration \"Children Must be Disciplined.\" Which reveals more about the family's actual operating philosophy? Justify with textual evidence.",
+     "a": "\"Little bastard\" (affectionate, subversive, acknowledging the child's cleverness) reveals the *real* philosophy: love respects logic and individuality. \"Children Must be Disciplined\" (capitalized, mock-solemn, shared unspoken thought) is the *performative* philosophy they adopt socially. The poem privileges the former — the father acts on \"bastard\" logic by agreeing the son deserves dinner. A student who calls \"bastard\" abusive misses the Ezekiel's ironic tenderness. A student who takes the capitalized line at face value misses the satire on parental performance.",
+     "self_check": true
+    },
+    {
+     "q": "Create a four-line stanza that uses at least two types of imagery and one implied metaphor to depict a mundane family moment (e.g., homework argument, lost shoe, TV remote dispute) in the style of Ezekiel — understated, slightly comic, deeply observant.",
+     "a": "Example:\n*The fridge hums its monotonous hymn —*\n*my sister stares, waiting for light to decide.*\n*Her hunger, a silent architect,*\n*redesigns the kitchen at midnight.*\nImagery: auditory (\"hums\"), visual (\"light\"), organic (\"hunger\"). Implied metaphor: hunger as architect. A poor answer uses cliché (\"heart pounding,\" \"tears like rain\") or explains the metaphor (\"hunger is like an architect\"). A strong answer trusts the image to carry the comparison.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

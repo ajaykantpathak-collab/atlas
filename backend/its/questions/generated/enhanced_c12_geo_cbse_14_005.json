@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_14_005",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_14_005",
+   "title": "c12_geo_cbse_14_005",
+   "questions": [
+    {
+     "q": "Name the two main types of iron ore found in India and state which one has higher iron content.",
+     "a": "The two main types are haematite (Fe₂O₃, 60–70% Fe) and magnetite (Fe₃O₄, >70% Fe). Magnetite has higher iron content. A wrong answer (e.g., \"haematite has higher Fe\" or confusing with bauxite) reveals the student has not memorised the basic mineralogy from Class 10 (c10_geo_cbse_05_002) and cannot later explain why magnetite from Kudremukh is pelletised for export while haematite from Bailadila feeds domestic blast furnaces.",
+     "self_check": true
+    },
+    {
+     "q": "Why are almost all of India's integrated steel plants located in the Chota Nagpur Plateau region? Explain using the concept of weight-losing raw materials.",
+     "a": "Iron ore, coking coal, and limestone are all heavy, weight-losing raw materials (together ~2–2.5 tonnes needed per tonne of steel). Transporting them over long distances is uneconomical. The Chota Nagpur Plateau uniquely provides all three in close proximity (iron ore in Singhbhum-Mayurbhanj, coal in Jharia-Raniganj, limestone in Gangpur), minimising transport cost per Weber's model. A wrong answer citing only \"iron ore availability\" misses the critical role of coking coal — a common error because students forget that non-coking coal (abundant elsewhere) cannot be used directly in blast furnaces.",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of India, mark and label: (a) the oldest private-sector integrated steel plant, (b) a coastal plant that imports coking coal, (c) a plant in Karnataka using local magnetite ore. Justify each location in one sentence.",
+     "a": "(a) Jamshedpur (Tata Steel, 1907) — near iron ore (Noamundi) and coal (Jharia) on Bengal-Nagpur Railway. (b) Visakhapatnam (RINL) — deep-water port enables import of coking coal from Australia; receives iron ore via slurry pipeline from Bailadila. (c) Vijayanagar (JSW, Ballari) — uses magnetite from Kudremukh/Ballari-Hospet belt; thermal power from nearby Raichur. A wrong location (e.g., putting Jamshedpur in Odisha) reveals confusion between state boundaries and the mineral belt; missing the slurry pipeline for Visakhapatnam shows ignorance of infrastructure overcoming raw-material distance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the locational logic of Bhilai (public sector, 1959) and Vijayanagar (private sector, 2000). How do they reflect changing priorities in India's industrial policy?",
+     "a": "Bhilai was sited in a backward area (Durg district) with Soviet aid to develop tribal regions — political equity overrode pure least-cost logic (coal had to come from Korba, 225 km away). Vijayanagar chose Ballari for high-grade magnetite, captive power, and proximity to Chennai port for export — pure market-driven efficiency. The shift shows transition from Nehruvian \"balanced regional development\" (public sector as spatial planner) to post-1991 \"competitive advantage\" (private sector optimising logistics). A student who says \"both are near iron ore\" misses the policy dimension that board exams test via case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's per capita steel consumption (≈78 kg) is low because the industry lacks capacity.\" Use data: current capacity ≈160 MT, production ≈120 MT, target 300 MT by 2030.",
+     "a": "The statement is false. Capacity (160 MT) exceeds production (120 MT) — utilisation is ~75%. Low per capita consumption stems from demand-side factors: low urbanisation, limited infrastructure spend historically, and high steel intensity in informal construction (unrecorded). The 300 MT target assumes demand will rise with GDP growth, not that capacity is the binding constraint. A student blaming \"lack of capacity\" confuses supply-side with demand-side economics — a frequent error in competency questions linking geography to economy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a locational proposal for a new 5 MTPA integrated steel plant in India. Specify state, nearest iron ore mine, coal source, transport mode, and one policy incentive you would leverage. Justify each choice in 30 words.",
+     "a": "Example: Odisha, Keonjhar district. Iron ore: Barbil-Joda (haematite). Coal: Imported coking coal via Paradip port (coastal location). Transport: Slurry pipeline for ore, rail for coal, port for export. Incentive: PLI scheme for specialty steel (2021) + Odisha's Industrial Policy 2022 (capital subsidy, water/power priority). Good answer shows multi-factor optimisation (ore + port + policy); poor answer picks \"Jharkhand because coal\" ignoring coking coal scarcity and port access — revealing single-factor thinking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

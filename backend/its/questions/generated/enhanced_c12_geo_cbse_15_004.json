@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_15_004",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_15_004",
+   "title": "c12_geo_cbse_15_004",
+   "questions": [
+    {
+     "q": "Name the three gauge categories of Indian Railways with their track widths in metres, and state the total route length of each as per 2019-20 data.",
+     "a": "Broad gauge: 1.676 m, 63,950 km; Metre gauge: 1.000 m, 2,402 km; Narrow gauge: 0.762 m / 0.610 m, 1,604 km. A wrong answer (e.g., confusing broad gauge width with 1.676 m vs 1.6 m, or swapping metre/narrow gauge lengths) reveals the student memorized numbers without understanding the hierarchy: broad gauge carries the bulk of traffic, metre/narrow are legacy systems being phased out.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the railway network density is high in the Northern Plains but low in the Himalayan region and the Thar Desert. Link your answer to specific physiographic features.",
+     "a": "Northern Plains: flat terrain, fertile soil, high population density, agricultural/industrial activity → easy construction, high demand. Himalayas: rugged relief, steep slopes, seismic instability, sparse population → high construction cost, low traffic. Thar Desert: sandy terrain, shifting dunes, extreme temperatures, low population → maintenance challenges, limited economic justification. A wrong answer that only says \"plains are flat\" without connecting to construction cost, population, and economic activity shows superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Using the 17 railway zones table (NCERT Table 7.2), identify which zone headquarters is located in a city that is NOT a state capital. List all such zones and their headquarters.",
+     "a": "Zones with headquarters in non-state-capital cities: Central (Mumbai CST — Mumbai is capital of Maharashtra, so this is a capital); Eastern (Kolkata — capital of West Bengal); East Central (Hajipur — not a state capital, Bihar's capital is Patna); East Coast (Bhubaneswar — capital of Odisha); Northern (New Delhi — national capital); North Central (Prayagraj — not a state capital, Uttar Pradesh's capital is Lucknow); North Eastern (Gorakhpur — not a state capital); North East Frontier (Maligaon/Guwahati — Guwahati is not the capital of Assam, Dispur is); North Western (Jaipur — capital of Rajasthan); Southern (Chennai — capital of Tamil Nadu); South Central (Secunderabad — not a state capital, Telangana's capital is Hyderabad); South Eastern (Kolkata — capital); South East Central (Bilaspur — not a state capital, Chhattisgarh's capital is Raipur); South Western (Hubli — not a state capital, Karnataka's capital is Bengaluru); Western (Mumbai Church Gate — capital); West Central (Jabalpur — not a state capital, Madhya Pradesh's capital is Bhopal); Metro Railway (Kolkata — capital). Correct list: East Central (Hajipur), North Central (Prayagraj), North Eastern (Gorakhpur), North East Frontier (Maligaon), South Central (Secunderabad), South East Central (Bilaspur), South Western (Hubli), West Central (Jabalpur). A wrong answer missing any of these indicates the student did not cross-reference zone headquarters with state capitals — a common board exam map-based question.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the strategic significance of the Konkan Railway (760 km, Roha to Mangalore) with the proposed gauge conversion of the remaining metre/narrow gauge lines in the northeastern states. Which contributes more to national integration and why?",
+     "a": "Konkan Railway: provides direct Mumbai-Mangalore link, bypassing difficult Western Ghats, reduces travel time, boosts Konkan region economy, engineering marvel (91 tunnels, 2000 bridges). Northeast gauge conversion: connects isolated metre-gauge network to broad-gauge mainstream, enables seamless freight/passenger movement, critical for strategic border access (Act East Policy). Both are vital, but gauge conversion in Northeast has higher strategic weight because it integrates a politically sensitive border region with the national network, facilitates defence logistics, and unlocks economic potential of resource-rich Northeast. A wrong answer that treats both as merely \"economic projects\" misses the geopolitical dimension emphasized in Class 12 board exams (link to Act East Policy, border infrastructure).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The replacement of steam engines by diesel and electric engines has only improved speed and haulage capacity.\" Provide at least two additional impacts with evidence from the textbook.",
+     "a": "The statement is incomplete. Additional impacts: (1) Environmental: elimination of coal smoke at stations improves air quality and reduces health hazards for passengers/staff (NCERT: \"The replacement of steam engines run by coal has also improved the environment of the stations.\"). (2) Operational efficiency: electric traction allows regenerative braking, lower maintenance, higher reliability. (3) Energy security: shift to electricity (increasingly from renewables) reduces dependence on imported coal/diesel. A wrong answer that only lists speed/haulage shows the student did not read the NCERT line about environmental improvement — a direct 1-mark board question.",
+     "self_check": true
+    },
+    {
+     "q": "Design a schematic map annotation exercise for a Class 12 student to demonstrate the relationship between railway gauge distribution and physiographic divisions. Specify: (a) base map layers, (b) symbols for each gauge, (c) two analytical annotations linking gauge to terrain.",
+     "a": "(a) Base map: Outline of India with state boundaries, major rivers, and physiographic divisions shaded (Northern Plains, Peninsular Plateau, Himalayas, Thar Desert, Coastal Plains). (b) Symbols: Broad gauge — thick red solid line; Metre gauge — medium blue dashed line; Narrow gauge — thin green dotted line. (c) Annotations: (i) \"Metre/narrow gauge concentrated in Himalayan foothills (e.g., Kalka-Shimla, Darjeeling Himalayan) and Western Ghats (e.g., Nilgiri Mountain Railway) because narrower gauge permits sharper curves and steeper gradients in rugged terrain.\" (ii) \"Broad gauge dominates Northern Plains and Peninsular Plateau trunk routes (e.g., Delhi-Howrah, Mumbai-Chennai) where flat terrain allows high-speed, high-capacity operations.\" A poor answer uses only one symbol or fails to link gauge choice to gradient/curve radius — indicating inability to synthesize physical and human geography.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

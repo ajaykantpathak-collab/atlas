@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_02_010",
+   "title": "c10_chem_cbse_02_010",
+   "questions": [
+    {
+     "q": "Name the family of salts to which Na₂SO₄, NaNO₃, and NaCl belong. What is the common ion?",
+     "a": "These salts belong to the sodium salt family (common cation Na⁺). A wrong answer like \"chloride family\" or \"sulphate family\" reveals the student is focusing on the anion instead of the cation, or cannot identify the common ion in the chemical formulae.",
+     "self_check": true
+    },
+    {
+     "q": "A student tests the pH of three salt solutions: potassium nitrate (KNO₃), ammonium acetate (CH₃COONH₄), and sodium carbonate (Na₂CO₃). Predict the pH nature (acidic/basic/neutral) of each and explain why KNO₃ is neutral while Na₂CO₃ is basic.",
+     "a": "KNO₃ → neutral (strong acid HNO₃ + strong base KOH); CH₃COONH₄ → approximately neutral (weak acid CH₃COOH + weak base NH₄OH, similar strengths); Na₂CO₃ → basic (weak acid H₂CO₃ + strong base NaOH). A wrong answer predicting KNO₃ as acidic/basic shows the student does not understand that ions from strong acid/base do not hydrolyse. Confusing Na₂CO₃ as acidic indicates they think the carbonate ion produces H⁺ instead of accepting H⁺ to form OH⁻.",
+     "self_check": true
+    },
+    {
+     "q": "Write the hydrolysis reaction for the acetate ion (CH₃COO⁻) in water and use it to explain why a solution of sodium acetate (CH₃COONa) has pH > 7. Identify the species responsible for the basic nature.",
+     "a": "CH₃COO⁻(aq) + H₂O(l) ⇌ CH₃COOH(aq) + OH⁻(aq). The acetate ion (conjugate base of weak acid) accepts a proton from water, producing OH⁻ ions, making the solution basic. The species responsible is OH⁻. A wrong equation like CH₃COO⁻ + H₂O → CH₃COOH + H⁺ reveals the student thinks hydrolysis produces H⁺ (acidic) instead of OH⁻, confusing the direction of proton transfer.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pH of 0.1 M solutions of NaCl, NH₄Cl, and NaCN. Rank them from lowest to highest pH. Justify your ranking using the strength of parent acids and bases. (Given: HCN is a weaker acid than HCl; NH₄OH is a weaker base than NaOH).",
+     "a": "Lowest pH: NH₄Cl (acidic, pH < 7) → strong acid HCl + weak base NH₄OH. Middle: NaCl (neutral, pH = 7) → strong acid HCl + strong base NaOH. Highest pH: NaCN (basic, pH > 7) → weak acid HCN + strong base NaOH. A wrong ranking (e.g., NaCN < NaCl) reveals the student does not grasp that weaker parent acid → stronger conjugate base → more OH⁻ → higher pH, or they confuse the cation/anion roles.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Ammonium chloride solution is acidic because NH₄⁺ donates OH⁻ to water.\" Evaluate this statement. Identify the error and write the correct hydrolysis equation.",
+     "a": "The statement is incorrect. NH₄⁺ is a cation; it cannot donate OH⁻. It donates H⁺ (acts as an acid) to water: NH₄⁺(aq) + H₂O(l) ⇌ NH₃(aq) + H₃O⁺(aq). The error is confusing the ammonium ion with a base. A student making this error thinks acidic solutions come from OH⁻ donation, showing fundamental confusion about acid-base behavior of ions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only red and blue litmus paper to distinguish between three unlabelled salt solutions: sodium chloride, sodium carbonate, and ammonium chloride. Describe the expected observations and the conclusion for each.",
+     "a": "Test each solution with both litmus papers. NaCl: no colour change on either (neutral). Na₂CO₃: red litmus turns blue (basic), blue stays blue. NH₄Cl: blue litmus turns red (acidic), red stays red. A poor answer that only uses one litmus paper or predicts NaCl turns blue litmus red reveals inability to design a controlled test and confusion about neutral salt behaviour.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch11_4",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch11_4",
+   "title": "c8_math_ch11_4",
+   "questions": [
+    {
+     "q": "State the formula for the number of remaining squares after \\(n\\) iterations of the Sierpinski Carpet construction.",
+     "a": "The formula is \\(R_n = 8^n\\). A wrong answer such as \\(R_n = 9^n\\) reveals the student thinks all 9 sub-squares remain, missing the removal of the central square. An answer like \\(R_n = 8n\\) shows confusion between multiplicative growth and additive growth.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the number of holes added at step \\(n\\) is exactly \\(8^{n-1}\\) and why the total holes after \\(n\\) steps is \\(\\frac{8^n - 1}{7}\\).",
+     "a": "At step \\(n\\), each of the \\(8^{n-1}\\) squares from step \\(n-1\\) is divided and its central square removed, creating \\(8^{n-1}\\) new holes. The total holes form the geometric series \\(1 + 8 + 8^2 + \\dots + 8^{n-1}\\), which sums to \\(\\frac{8^n - 1}{8 - 1} = \\frac{8^n - 1}{7}\\). A wrong answer that says holes added = \\(9^{n-1}\\) indicates the student forgets that only the existing solid squares are subdivided, not the holes.",
+     "self_check": true
+    },
+    {
+     "q": "How many solid squares and total holes are there in the Sierpinski Carpet after 4 iterations?",
+     "a": "Step 1: Identify \\(n = 4\\). Step 2: Use \\(R_4 = 8^4 = 4096\\). Step 3: Use \\(H_4 = \\frac{8^4 - 1}{7} = \\frac{4096 - 1}{7} = \\frac{4095}{7} = 585\\). Step 4: Verify: holes added at step 4 = \\(8^3 = 512\\); previous total holes = 73; 73 + 512 = 585. A wrong answer of 4096 squares and 73 holes shows the student used \\(H_3\\) instead of \\(H_4\\). An answer of 32768 squares reveals using \\(8^5\\) or multiplying by 8 incorrectly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the growth rate of remaining squares in the Sierpinski Carpet with the growth of remaining triangles in the Sierpinski Gasket (where each triangle splits into 3 smaller triangles). Which fractal retains more pieces after 5 iterations, and by what factor?",
+     "a": "Sierpinski Carpet: \\(R_5 = 8^5 = 32768\\). Sierpinski Gasket: \\(T_5 = 3^5 = 243\\). The carpet retains more pieces by a factor of \\(\\frac{32768}{243} \\approx 134.9\\). A wrong answer that says the gasket has more because 3 > 8 shows confusion between base and exponent. An answer that computes \\(8 \\times 5 = 40\\) vs \\(3 \\times 5 = 15\\) reveals additive instead of multiplicative reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that after 3 iterations, the Sierpinski Carpet has 512 squares and 73 holes, so the fraction of the original area that is holes is \\(\\frac{73}{512}\\). Evaluate this claim and correct it if necessary.",
+     "a": "The claim is incorrect. The 512 squares are the *remaining* solid squares, each of area \\((\\frac{1}{3})^6 = \\frac{1}{729}\\) of the original (since side length is divided by 3 each iteration, area by 9). Total solid area = \\(512 \\times \\frac{1}{729} = \\frac{512}{729}\\). Hole area = \\(1 - \\frac{512}{729} = \\frac{217}{729}\\). The student confused the count of squares with their area. A wrong answer that agrees with the student shows misunderstanding of the difference between number of pieces and total area.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (using Indian context: e.g., tiling a floor, designing a *rangoli*, or cutting a metal sheet) that requires finding the step number \\(n\\) when the number of remaining squares exceeds 10,000. Provide the solution steps.",
+     "a": "Problem: A craftsman cuts a square brass sheet (side 1 m) into a Sierpinski Carpet pattern for a decorative panel. He stops when the number of solid pieces exceeds 10,000. At which step does he stop? Solution: Solve \\(8^n > 10000\\). \\(8^4 = 4096\\), \\(8^5 = 32768\\). So \\(n = 5\\). A poor answer that sets up \\(8n > 10000\\) reveals linear thinking. An answer that finds \\(n=4\\) by mistake shows incorrect exponent evaluation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

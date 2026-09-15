@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_07_009",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_07_009",
+   "title": "c12_bio_cbse_07_009",
+   "questions": [
+    {
+     "q": "Name the earliest hominid genus in the human lineage that shows clear evidence of habitual bipedalism, and state the approximate geological epoch in which it lived.",
+     "a": "The earliest hominid genus with clear habitual bipedalism is Australopithecus (e.g., A. afarensis, \"Lucy\"), which lived during the Pliocene epoch (~4–2 million years ago). A wrong answer such as \"Homo habilis\" or \"Dryopithecus\" reveals that the student confuses the first tool-maker or a Miocene ape with the first committed biped, indicating they have not internalized the chronological sequence of locomotor adaptation preceding brain expansion.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the discovery of a fossil with a small cranial capacity (~400 cc) but a valgus knee angle and a bowl-shaped pelvis is classified as a hominid rather than an ape.",
+     "a": "Such a fossil is classified as a hominid because the valgus knee angle (femur angling inward) and bowl-shaped pelvis are definitive skeletal adaptations for habitual bipedalism, which is the defining characteristic of the hominid lineage. A student who argues that small brain size excludes it from hominids holds the misconception that encephalization preceded bipedalism, whereas the fossil record shows bipedalism evolved millions of years before significant brain expansion.",
+     "self_check": true
+    },
+    {
+     "q": "A fossilized femur dated to 1.8 million years ago shows a long neck, a distinct linea aspera, and an anteriorly placed foramen magnum on the associated skull. Predict the likely genus and justify your prediction using two morphological features.",
+     "a": "The fossil likely belongs to Homo erectus. The long femoral neck and prominent linea aspera indicate strong gluteal attachments for efficient bipedal striding, while the anteriorly placed foramen magnum confirms an upright posture with the skull balanced atop the vertebral column. A student who suggests Australopithecus fails to recognize that by 1.8 Ma, Australopithecus was extinct and Homo erectus had already evolved modern-human-like limb proportions and a larger cranial capacity (~900 cc).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the dental arcade shape and canine size of Australopithecus afarensis and Homo sapiens. What does this comparison reveal about dietary shifts and selective pressures during human evolution?",
+     "a": "Australopithecus afarensis had a U-shaped dental arcade with large, projecting canines and a diastema, while Homo sapiens has a parabolic arcade with small, non-projecting canines and no diastema. This shift reflects a transition from a frugivorous/omnivorous diet requiring heavy processing of tough foods to a diet incorporating cooked, mechanically softer foods and tool-assisted processing, reducing selection for large jaws and canines. A student who only mentions \"smaller teeth\" without linking arcade shape, canine projection, and dietary change shows superficial understanding of functional morphology.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Homo neanderthalensis is a direct ancestor of Homo sapiens.\" Provide two lines of fossil or genetic evidence to support your evaluation.",
+     "a": "The statement is false. Fossil evidence shows Neanderthals and modern humans coexisted in Europe and the Levant for thousands of years, with distinct morphological differences (e.g., Neanderthals' occipital bun, mid-facial prognathism, larger nasal aperture). Genetic evidence from ancient DNA reveals that Neanderthals and Homo sapiens share a common ancestor (~600,000 years ago) and interbred, but Neanderthals represent a separate lineage that went extinct, not a direct ancestral stage. A student who agrees with the statement likely views human evolution as a linear sequence rather than a branching tree with contemporaneous species.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple comparative study using three fossil skull replicas (Australopithecus africanus, Homo erectus, Homo sapiens) to demonstrate the trend of encephalization. Specify the measurements you would take, the ratio you would calculate, and the expected pattern.",
+     "a": "Measure cranial capacity (using mustard seeds or water displacement) and estimate body mass from femoral head diameter or long bone length. Calculate the encephalization quotient (EQ) or simply the brain-to-body mass ratio. Expected pattern: A. africanus (~450 cc, ~30 kg) < H. erectus (~900 cc, ~60 kg) < H. sapiens (~1350 cc, ~60 kg), showing a clear increase in relative brain size. A poor design that only measures absolute cranial capacity without accounting for body size reveals the student does not understand that encephalization is about relative, not absolute, brain expansion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

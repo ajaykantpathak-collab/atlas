@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_bio_ch1_10",
+ "concepts": [
+  {
+   "id": "enh:c8_bio_ch1_10",
+   "title": "c8_bio_ch1_10",
+   "questions": [
+    {
+     "q": "What is the primary role of saprophytic bacteria and fungi in a forest ecosystem?",
+     "a": "The primary role of these microorganisms is to decompose dead plants and animals, breaking down complex organic molecules into simple inorganic nutrients. A student who answers that they cause diseases is confusing beneficial decomposers with pathogenic microbes, missing their essential ecological role as nature's recyclers.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a compost heap in a garden warm up naturally as organic waste breaks down?",
+     "a": "A compost heap warms up because decomposition is driven by the cellular respiration of billions of active microorganisms releasing thermal energy as a byproduct. A student who thinks the heat comes from the sun or chemical reactions alone fails to understand that decomposition is a biological process fueled by living microbes metabolizing organic matter.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer adds cow dung and dry leaves to their soil instead of burning them. How do soil microorganisms assist in making this waste beneficial for the next crop of wheat?",
+     "a": "Microorganisms secrete extracellular enzymes that digest the complex cellulose and proteins in the dry leaves and dung, converting them into humus and releasing essential mineral ions like nitrates and phosphates into the soil water. A student who believes the plants eat the leaves directly does not understand that organic matter must first be broken down into inorganic ions that roots can absorb.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of autotrophic producers (like green plants) and saprophytic decomposers (like soil fungi) in maintaining a balanced ecosystem nutrient cycle.",
+     "a": "Producers use sunlight, water, and inorganic minerals to build complex organic food through photosynthesis, locking up nutrients in their biomass. Decomposers do the exact opposite by breaking down that stored biomass back into simple inorganic minerals, thereby closing the loop and allowing producers to absorb them again. A student who thinks decomposers create energy fails to recognize that decomposers merely transfer and transform matter while releasing stored energy as heat.",
+     "self_check": true
+    },
+    {
+     "q": "A gardener sterilizes their potting soil by heating it to kill all microbes, believing cleaner soil is better for plant growth. Predict what will happen to the plants over time and explain why.",
+     "a": "The plants will eventually show nutrient deficiency symptoms and stop growing because, without decomposers, dead root cells and organic fertilizers will not be broken down into absorbable mineral ions. A student who argues that sterile soil is ideal ignores the critical dependence of plants on microbial nutrient recycling.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple school science experiment using dry leaves, soil, and plastic containers to prove that microorganisms are necessary for leaf litter decomposition.",
+     "a": "A good design involves taking two identical containers with dry leaves and soil: sterilize the soil and leaves in one container using heat (killing microbes), and leave the other container untreated with active soil microbes. Keep both moist for four weeks and observe that the unsterilized container shows rapid leaf breakdown while the sterilized leaves remain unchanged, proving microbes drive the process. A poor answer fails to include a control group or ignores the necessity of controlling moisture and sterilization.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

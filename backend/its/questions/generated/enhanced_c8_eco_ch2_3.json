@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch2_3",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch2_3",
+   "title": "c8_eco_ch2_3",
+   "questions": [
+    {
+     "q": "What is a Population Census, and how often is it conducted in India?",
+     "a": "A Population Census is the official, systematic head-counting and recording of information about all individuals residing in a defined territory at a specific point in time. In India, it is traditionally conducted once every 10 years by the Office of the Registrar General and Census Commissioner.\n*Misunderstanding check:* If a student states that a census is conducted every year or is just a small sample survey, it reveals they confuse a complete headcount enumeration with annual administrative updates or sample surveys.",
+     "self_check": true
+    },
+    {
+     "q": "Why is population size classified as a \"stock variable\" rather than a \"flow variable\"? Explain using an economic analogy.",
+     "a": "Population size is a stock variable because it represents the total count of people accumulated in a region at a single, fixed point in time (e.g., March 1, 2021). In contrast, births, deaths, and migration are flow variables because they represent changes occurring over a period of time (e.g., per year). An economic analogy is water in a bucket: the total liters of water in the bucket at 12:00 PM is a stock, while the water entering from the tap or leaking from a hole per minute is a flow.\n*Misunderstanding check:* A wrong answer indicates the student does not understand the fundamental distinction between static totals measured at an instant (stock) and dynamic rates measured over time (flow).",
+     "self_check": true
+    },
+    {
+     "q": "At the start of 2022, Greenfield Town had a recorded baseline population size of 50,000 residents. During 2022, the town registered 1,200 births, 450 deaths, 300 new residents moving in, and 150 existing residents moving out. Calculate the final population size of Greenfield Town at the end of 2022 using the demographic balancing equation.",
+     "a": "Given:\nBaseline Population ($P_0$) = 50,000\nBirths ($B$) = 1,200\nDeaths ($D$) = 450\nIn-migrants ($I$) = 300\nOut-migrants ($E$) = 150\n\nBalancing Equation: $P_t = P_0 + (B - D) + (I - E)$\nStep 1: Natural Increase = $B - D = 1,200 - 450 = +750$\nStep 2: Net Migration = $I - E = 300 - 150 = +150$\nStep 3: Total Net Change = $750 + 150 = +900$\nStep 4: Final Population ($P_t$) = $50,000 + 900 = 50,900$ residents.\n*Misunderstanding check:* A wrong numerical answer (e.g., adding deaths or subtracting in-migrants) shows a failure to correctly assign positive (inflow) and negative (outflow) signs to demographic components.",
+     "self_check": true
+    },
+    {
+     "q": "District A and District B both gained 5,000 residents in 2023. District A started with 100,000 people, while District B started with 500,000 people. Compare the absolute population size growth with the relative percentage growth rate for both districts. What does this reveal about relying solely on absolute population size changes when evaluating regional development pressure?",
+     "a": "Absolute growth is identical for both districts (+5,000 people).\nHowever, percentage growth rate = $(\\text{Absolute Change} / \\text{Initial Population}) \\times 100$:\nFor District A: $(5,000 / 100,000) \\times 100 = 5\\%$.\nFor District B: $(5,000 / 500,000) \\times 100 = 1\\%$.\nDistrict A experiences five times the relative growth pressure on its existing infrastructure compared to District B, even though their absolute population additions are equal. This reveals that relying solely on absolute population size changes without comparing them against the initial baseline stock can mask the true intensity of strain on public services.\n*Misunderstanding check:* If the student concludes that both districts face identical economic challenges because the absolute count is the same, they fail to analyze relative scale against the initial baseline stock.",
+     "self_check": true
+    },
+    {
+     "q": "A municipal corporation claims: \"Because our city's total population size grew from 10 lakh to 12 lakh over five years, our local economy has automatically become 20% more prosperous.\" Evaluate this claim from an economic standpoint.",
+     "a": "The claim is economically flawed. Total population size measures the head count of consumers and potential labor supply, not economic prosperity or individual welfare. If total economic production (goods and services) and infrastructure do not grow faster than population size, per capita income and access to public services (like clean water, housing, and roads) will actually decline. Population size growth increases overall demand for resources; prosperity depends on whether output and income per person increase, not merely the head count.\n*Misunderstanding check:* A wrong evaluation accepting the claim assumes that a larger population count automatically equals economic wealth, failing to distinguish aggregate head count from per capita economic well-being.",
+     "self_check": true
+    },
+    {
+     "q": "Propose a simple 3-step administrative plan for a rural panchayat to maintain an accurate updated estimate of its village population size during the 10-year gap between official national census operations.",
+     "a": "A complete plan includes:\n1. **Mandatory Vital Registration:** Maintain an official register at the Panchayat office to record every birth and death within 14 days of occurrence.\n2. **Migration Entry Log:** Implement a reporting system where households inform the Panchayat secretary whenever family members move permanently into or out of the village for work or marriage.\n3. **Annual Demographic Reconciliation:** On January 1st of every year, apply the balancing equation ($P_{\\text{new}} = P_{\\text{old}} + \\text{Births} - \\text{Deaths} + \\text{In-migrants} - \\text{Out-migrants}$) to update the village population size stock estimate.\n*Misunderstanding check:* A poor answer might suggest conducting an expensive full-scale census every month or guessing the total, showing an inability to combine continuous administrative flow monitoring with baseline updating.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

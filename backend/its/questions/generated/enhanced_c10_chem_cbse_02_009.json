@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_02_009",
+   "title": "c10_chem_cbse_02_009",
+   "questions": [
+    {
+     "q": "State the typical pH range of the human stomach and the critical pH value below which tooth enamel (hydroxyapatite) begins to demineralize.",
+     "a": "Stomach pH: 1.5–3.5; Critical pH for enamel demineralization: 5.5. A wrong answer (e.g., stomach pH 7, critical pH 7) reveals the student has not memorized the specific numerical thresholds that are frequently asked in 1-mark board questions. These exact values are required for full marks in \"fill in the blank\" or \"state the value\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why brushing teeth immediately after drinking orange juice (pH ~3.5) can cause more enamel erosion than waiting 30 minutes.",
+     "a": "Orange juice lowers oral pH below 5.5, softening enamel by partial demineralization (Ca₅(PO₄)₃OH + H⁺ → Ca²⁺ + HPO₄²⁻ + H₂O). Brushing mechanically removes this softened layer before saliva can buffer the acid and redeposit minerals (remineralization). Waiting allows saliva (pH ~6.8, supersaturated with Ca²⁺/PO₄³⁻) to restore hardness. A wrong answer focusing only on \"sugar causes cavities\" shows the student confuses the initiator (sugar) with the direct chemical agent (acid) and misses the kinetic aspect of enamel softening/recovery.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer tests his field and finds soil pH 4.8. He plans to grow wheat (optimal pH 6.5). Write the balanced chemical equation for the reaction when he adds calcium oxide (quicklime) to the soil, and explain how this raises the pH.",
+     "a": "Step 1: Quicklime reacts with water to form slaked lime: CaO(s) + H₂O(l) → Ca(OH)₂(aq).  \nStep 2: Ca(OH)₂ dissociates: Ca(OH)₂ → Ca²⁺ + 2OH⁻.  \nStep 3: OH⁻ neutralizes soil H⁺: H⁺ + OH⁻ → H₂O.  \nOverall: CaO + 2H⁺ → Ca²⁺ + H₂O.  \npH rises because H⁺ concentration decreases. A wrong equation (e.g., CaO + H⁺ → CaOH⁺) reveals misunderstanding that oxides are basic anhydrides requiring hydration first, and that each CaO consumes two H⁺. This 2-step reasoning is essential for 3-mark \"write the reaction and explain\" board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pH optima of pepsin (stomach enzyme) and trypsin (pancreatic enzyme). Explain why pancreatic juice must be alkaline for trypsin to function, linking to the neutralization reaction in the duodenum.",
+     "a": "Pepsin optimum pH: 1.5–2.5 (acidic); Trypsin optimum pH: 7.5–8.5 (alkaline). Pancreatic juice contains NaHCO₃ which neutralizes acidic chyme from stomach: HCl + NaHCO₃ → NaCl + H₂O + CO₂. This raises duodenal pH to ~8, activating trypsinogen to trypsin. A wrong answer stating both work at same pH or ignoring the bicarbonate neutralization shows failure to connect organ-specific pH environments to enzyme structure-function and the acid-base reaction that bridges them — a common 2-mark \"explain\" question.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Adding ammonium sulfate fertilizer to soil always improves crop yield because it supplies nitrogen.\" Consider its effect on soil pH and aluminum toxicity.",
+     "a": "Statement is false. Ammonium sulfate [(NH₄)₂SO₄] undergoes nitrification: 2NH₄⁺ + 3O₂ → 2NO₃⁻ + 4H⁺ + 2H₂O, releasing H⁺ and lowering soil pH. In already acidic soils (pH < 5.5), this increases Al³⁺ solubility (Al³⁺ toxic to roots) and reduces microbial activity. A student who only sees \"nitrogen source\" misses the acidifying effect — a classic board exam trap in case-based questions on \"judicious use of fertilizers.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple school-lab experiment to demonstrate that fluoride toothpaste protects eggshells (calcium carbonate model for enamel) from acid erosion. List materials, procedure, control, and measurable outcome.",
+     "a": "Materials: Eggshells (washed, dried), fluoride toothpaste, non-fluoride toothpaste, vinegar (5% acetic acid), beakers, balance, pH paper.  \nProcedure: (1) Coat three eggshell pieces with fluoride toothpaste, three with non-fluoride toothpaste, leave three uncoated (control). (2) Submerge each in 50 mL vinegar. (3) After 10 min, remove, dry, weigh mass loss.  \nControl: Uncoated eggshell in vinegar.  \nOutcome: Fluoride-coated shells show least mass loss because F⁻ replaces OH⁻ in hydroxyapatite forming fluorapatite [Ca₅(PO₄)₃F], which is less soluble at low pH. A poor design lacking control or using only qualitative observation (\"bubbles stop\") reveals inability to isolate variables and connect to the chemical mechanism (fluorapatite Ksp < hydroxyapatite Ksp).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

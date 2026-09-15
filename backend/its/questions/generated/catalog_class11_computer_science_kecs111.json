@@ -1,0 +1,235 @@
+{
+ "catalog": "catalog_class11_computer_science_kecs111",
+ "concepts": [
+  {
+   "id": "kecs111.1",
+   "title": "Digital Footprints: Active and Passive",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Digital Footprints: Active and Passive' refers to.",
+     "a": "Every online action leaves a data trail called a digital footprint; details we deliberately submit, like posts or emails, form the active kind, while traces collected without our intent, such as browsing history and cookies, form the passive kind.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Digital Footprints: Active and Passive'.",
+     "a": "Deleting a post does not erase its footprint, because copies persist on remote servers.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Digital Footprints: Active and Passive', in plain ASCII form.",
+     "a": "footprint = active submissions + passive traces",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs111.2",
+   "title": "Net Etiquettes for a Responsible Netizen",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Net Etiquettes for a Responsible Netizen' refers to.",
+     "a": "A netizen uses digital technology ethically, respectfully and responsibly: avoiding copyright violation, respecting others' privacy and diversity, refusing to cyber bully and starving trolls of attention.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Net Etiquettes for a Responsible Netizen'.",
+     "a": "Trolls thrive on attention, so ignoring their inflammatory posts is the most effective response.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Net Etiquettes for a Responsible Netizen', in plain ASCII form.",
+     "a": "good netizen = ethical + respectful + responsible",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs111.3",
+   "title": "Screen Time and Ergonomics",
+   "questions": [
+    {
+     "q": "Using the method 'Screen Time and Ergonomics', work with: daily_limit = 24, minutes = 60, sessions = 40. Carry the chain through step by step and give the final value of overshoot.",
+     "a": "2376 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Screen Time and Ergonomics' and work with: daily_limit = 25, minutes = 50, sessions = 30. Carry the chain through step by step and give the final value of overshoot.",
+     "a": "1475 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Screen Time and Ergonomics' refers to.",
+     "a": "Long, badly postured sessions at screens strain the eyes, wrists and back, and ergonomics arranges the workplace so the viewing distance, seat height and wrist angle keep the body safe.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Screen Time and Ergonomics'.",
+     "a": "A viewing distance of about 19 to 24 inches, a straight wrist and supported lower back are the ergonomic basics.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Screen Time and Ergonomics', in plain ASCII form.",
+     "a": "overshoot = sessions * minutes - daily_limit",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs111.4",
+   "title": "Password Reuse Audit",
+   "questions": [
+    {
+     "q": "Using the method 'Password Reuse Audit', work with: accounts = 12, distinct_passwords = 300. Carry the chain through step by step and give the final value of affected_pairs.",
+     "a": "41616 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Password Reuse Audit' and work with: accounts = 8, distinct_passwords = 40. Carry the chain through step by step and give the final value of affected_pairs.",
+     "a": "528 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Password Reuse Audit' refers to.",
+     "a": "Security advice demands a strong, unique password for every account; counting how many accounts share a password measures the exposure, since one breach then unlocks several services at once.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Password Reuse Audit'.",
+     "a": "The same password on every website is unsafe, because one stolen credential opens all of them.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Password Reuse Audit', in plain ASCII form.",
+     "a": "affected_pairs = (accounts - distinct_passwords) * ((accounts - distinct_passwords) - 1) / 2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs111.5",
+   "title": "Plagiarism and Copyright Infringement",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Plagiarism and Copyright Infringement' refers to.",
+     "a": "Plagiarism is presenting another person's idea or work as your own without crediting the source, while copyright infringement is using someone's work without permission or payment even when the source is cited.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Plagiarism and Copyright Infringement'.",
+     "a": "Citing alone does not legalise a copied image; free use also needs the owner's permission or a suitable license.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Plagiarism and Copyright Infringement', in plain ASCII form.",
+     "a": "cite the source AND take permission -> lawful use",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs111.6",
+   "title": "Intellectual Property Rights: Copyright, Patent, Trademark",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Intellectual Property Rights: Copyright, Patent, Trademark' refers to.",
+     "a": "Intellectual property law protects creations in three ways: copyright covers original works like writing, music and software code automatically; a patent protects an invention for 20 years after filing; a trademark guards the distinctive name, logo or symbol of a brand.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Intellectual Property Rights: Copyright, Patent, Trademark'.",
+     "a": "Copyright arises automatically, but a patent must be applied for and granted.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Intellectual Property Rights: Copyright, Patent, Trademark', in plain ASCII form.",
+     "a": "code -> copyright; invention -> patent; brand mark -> trademark",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs111.7",
+   "title": "Phishing, Fraud Emails and Identity Theft",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Phishing, Fraud Emails and Identity Theft' refers to.",
+     "a": "Phishing lures users with fake websites or spoofed emails that mimic banks or institutions to harvest usernames, passwords and card details; stolen personal data then fuels financial, criminal or medical identity theft.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Phishing, Fraud Emails and Identity Theft'.",
+     "a": "Check the actual URL behind a mail claiming to be your bank; logos are easy to copy but the address gives the game away.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Phishing, Fraud Emails and Identity Theft', in plain ASCII form.",
+     "a": "spoofed email -> fake URL -> credentials stolen",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs111.8",
+   "title": "Ethical and Non-Ethical Hacking",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Ethical and Non-Ethical Hacking' refers to.",
+     "a": "Hacking means unauthorised entry into a digital system; when done with positive intent to expose and report weaknesses it is ethical (white hat) hacking, while malicious entry to steal or damage is non-ethical (black hat) hacking, also called cracking.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Ethical and Non-Ethical Hacking'.",
+     "a": "Intent and permission separate an ethical hacker's penetration test from a criminal break-in.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Ethical and Non-Ethical Hacking', in plain ASCII form.",
+     "a": "white hat reports loopholes; black hat exploits them",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs111.9",
+   "title": "Ransomware and Cyber Crime Prevention",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Ransomware and Cyber Crime Prevention' refers to.",
+     "a": "Ransomware locks a victim out of data, often by encrypting it, and demands payment; prevention rests on regular backups, updated antivirus, avoiding pirated software and untrusted sites, and using strong unique passwords.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Ransomware and Cyber Crime Prevention'.",
+     "a": "Ransomware commonly arrives through spam attachments, doubtful repositories and malicious advertisements.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Ransomware and Cyber Crime Prevention', in plain ASCII form.",
+     "a": "backup + updated antivirus + HTTPS downloads -> lower risk",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs111.10",
+   "title": "Indian IT Act 2000 and Open Licensing",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Indian IT Act 2000 and Open Licensing' refers to.",
+     "a": "The Indian Information Technology Act, 2000 (amended 2008) gives legal recognition to electronic records and digital signatures and defines cyber crimes and penalties, while public licenses such as Creative Commons and GNU GPL let creators grant others the right to use and build upon their work.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Indian IT Act 2000 and Open Licensing'.",
+     "a": "GPL keeps the same freedoms in every derivative work, and a Cyber Appellate Tribunal settles related disputes.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Indian IT Act 2000 and Open Licensing', in plain ASCII form.",
+     "a": "IT Act 2000 -> e-records + digital signatures + penalties",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

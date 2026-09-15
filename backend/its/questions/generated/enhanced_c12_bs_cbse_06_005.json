@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_06_005",
+   "title": "c12_bs_cbse_06_005",
+   "questions": [
+    {
+     "q": "List the two internal sources of recruitment mentioned in the NCERT textbook for Class 12 Business Studies.",
+     "a": "The two internal sources are transfers and promotions. A wrong answer (e.g., \"advertisement and campus recruitment\") reveals the student cannot distinguish between internal and external sources, indicating they have not memorised the basic classification from the textbook.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why internal recruitment is considered more economical than external recruitment.",
+     "a": "Internal recruitment is more economical because it avoids costs of advertising, agency fees, and extensive screening processes; candidates are already known to the organisation, reducing selection time and induction training expenses. A wrong answer that only says \"it is cheaper\" without mentioning specific cost components (advertising, agency fees, induction) shows superficial understanding — the student recalls the conclusion but not the reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "A company has a surplus of 20 employees in its accounting department and a shortage of 15 employees in its payroll department. Both departments require similar basic accounting skills. Which internal source of recruitment would be most suitable? Justify your choice in two sentences.",
+     "a": "Transfers would be most suitable because they allow horizontal movement of employees from a surplus department to a deficit department with similar skill requirements, utilising existing staff without changing their status or salary significantly. A wrong answer suggesting \"promotions\" reveals the student confuses horizontal movement (transfer) with vertical movement (promotion) and does not understand that promotions involve higher responsibility and pay, which is unnecessary here.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of internal recruitment and external recruitment on the motivation of existing employees. Provide two distinct points for each source.",
+     "a": "Internal recruitment: (1) Motivates employees by offering career advancement through promotions, creating a chain of promotional opportunities at lower levels; (2) Builds loyalty and commitment as employees see a future within the organisation. External recruitment: (1) Can demotivate existing staff who feel their promotion chances are reduced, leading to frustration; (2) May stimulate healthy competition, forcing current employees to upskill to compete with outsiders. A wrong answer that only lists positive effects for one source and negative for the other shows inability to analyse both sides — a common board exam error where students take a one-sided view.",
+     "self_check": true
+    },
+    {
+     "q": "\"External recruitment always brings fresh talent but at a high cost.\" Critically evaluate this statement by providing two arguments supporting it and two arguments challenging it.",
+     "a": "Supporting arguments: (1) External sources like campus recruitment and advertisements attract a large pool of new candidates with updated skills and diverse perspectives, infusing \"new blood\"; (2) It avoids inbreeding and stagnation that can result from over-reliance on internal promotions. Challenging arguments: (1) External recruitment is not always high-cost — employee referrals and casual callers can be low-cost external sources; (2) Fresh talent does not guarantee better performance — external hires may lack organisational culture fit, require longer induction, and have higher turnover, increasing hidden costs. A wrong answer that simply agrees or disagrees without balanced arguments fails the \"evaluate\" command word, which requires weighing both sides — a pattern that loses marks in CBSE long-answer questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a recruitment strategy for a new-age Indian fintech startup that needs to hire 10 software developers within 30 days. The startup has 15 existing employees, limited brand recognition, and a tight budget. Specify which sources (internal/external) you would use, in what order, and why.",
+     "a": "A good answer: (1) First, use internal source — employee referrals (existing staff recommend developers from their network) — low cost, high trust, fast. (2) Second, use external low-cost sources — web publishing on niche tech job portals (e.g., AngelList, LinkedIn) and campus recruitment from tier-2/3 engineering colleges — wider reach, moderate cost. (3) Avoid expensive sources like placement agencies or TV advertising. (4) If urgent gaps remain, consider direct recruitment via coding hackathons. A poor answer that suggests only one source (e.g., \"just advertise on LinkedIn\") or ignores budget/brand constraints shows inability to synthesise multiple concepts (cost, speed, quality, employer branding) into a coherent strategy — the essence of \"create\" level thinking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

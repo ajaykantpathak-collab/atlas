@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "english",
+  "chapter": 104,
+  "chapter_title": "The Ailing Planet: the Green Movement's Role",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kehb104.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kehb104.1.1",
+      "title": "Earth as a Patient: The Holistic and Ecological View",
+      "section": "1",
+      "definition": "Nani Palkhivala records the world's shift to a holistic and ecological view: the earth is no longer inert real estate but a living organism -- an ailing patient whose health we hold in trust. The green movement since 1972 turned this view into a worldwide consciousness that redefines our relationship with the planet.",
+      "formula": "",
+      "key_idea": "The planet has become a patient -- and humans, first in the dock, must become its physicians.",
+      "textbook_ref": "kehb104.txt opening sections (green movements role, holistic and ecological view, earth as patient, world as organism rather than machine)",
+      "question_patterns": [
+        "why is the earth called an ailing planet",
+        "in class 11 the ailing planet: what is the holistic and ecological view of the world",
+        "how has the green movement changed our view of the planet",
+        "explain the image of the earth as a patient under our care",
+        "what shift does the chapter describe from machine to organism",
+        "what is the role of the green movement according to palkhivala"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "state the old view",
+          "explain": "Earlier ages treated earth as inert matter to be owned and exploited -- a machine to be driven."
+        },
+        {
+          "step": 2,
+          "action": "state the new view",
+          "explain": "The green movement reframed the planet as a living organism whose parts -- air, water, forests, species -- are one body."
+        },
+        {
+          "step": 3,
+          "action": "draw the duty",
+          "explain": "Once earth is a patient, humans become caretakers responsible for its survival, not its spoils."
+        }
+      ]
+    },
+    {
+      "id": "kehb104.1.2",
+      "title": "Population, Fisheries and Forests: The Warning Figures",
+      "section": "1",
+      "definition": "The chapter gathers hard alarms: human population crossing five billion and racing past sustainable limits, the world's fisheries collapsing under factory ships, and forests -- the planet's lungs and richest habitats -- disappearing faster than they regenerate. Chapter and constitution alike are cited to show we hold the earth in trust for the unborn.",
+      "formula": "",
+      "key_idea": "Count the losses -- mouths, nets and saws -- and the arithmetic of depletion becomes undeniable.",
+      "textbook_ref": "kehb104.txt middle sections (population five billion, fisheries decimated, forests disappearing, tropical forests, constitution earth in trust)",
+      "question_patterns": [
+        "what warnings does the chapter give about population growth",
+        "in class 11 the ailing planet: how are the world's fisheries being destroyed",
+        "why are forests called important for the planet's health",
+        "explain the idea that we hold the earth in trust for future generations",
+        "what does the author say about the rate of forest disappearance",
+        "how does development justify itself against the claims of nature"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "count the mouths",
+          "explain": "Population growth outpaces the earth's ability to support, making every other claim on nature heavier."
+        },
+        {
+          "step": 2,
+          "action": "count the nets and saws",
+          "explain": "Industrial fishing strips the seas faster than fish breed; chainsaws clear forests faster than they regrow."
+        },
+        {
+          "step": 3,
+          "action": "invoke the trust",
+          "explain": "Constitutional language treats the earth as held in trust for posterity -- a legal duty to the unborn."
+        }
+      ]
+    },
+    {
+      "id": "kehb104.1.3",
+      "title": "Sustainable Development and the New Economics",
+      "section": "1",
+      "definition": "Against the growth-at-any-cost creed the chapter sets sustainable development -- meeting present needs without destroying the basis of future ones. This demands an economics that prices nature, values forests standing as much as felled, and shifts frommore-of-everything to better-within-limits, with man as partner not proprietor of the planet.",
+      "formula": "",
+      "key_idea": "Progress must fit inside nature's ledger -- use without spending the capital of the unborn.",
+      "textbook_ref": "kehb104.txt closing sections (sustainable development, growth without destroying, new world view, man as partner not proprietor, brandt commission and lester brown mention)",
+      "question_patterns": [
+        "define sustainable development as used in the chapter",
+        "in class 11 the ailing planet: why must man become a partner of living things",
+        "what is wrong with the more and more philosophy of growth",
+        "how can development coexist with the health of the planet",
+        "explain the phrase earth in trust with reference to sustainability",
+        "what changes in economics does the author advocate"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "define the term",
+          "explain": "Sustainable development means advancement that leaves future generations the means to advance too."
+        },
+        {
+          "step": 2,
+          "action": "reject the creed",
+          "explain": "The ideology of endless material expansion treats finite nature as infinite -- the error behind the ailment."
+        },
+        {
+          "step": 3,
+          "action": "state the partnership",
+          "explain": "Man must live as one member of the community of life, valuing whole systems over single harvests."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kehb104.txt opening sections (green movement)",
+      "concept": "kehb104.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "Explain the significance of the title 'The Ailing Planet' with reference to the green movement's role.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "unpack the metaphor",
+          "explain": "The planet figures as a patient showing symptoms -- depleted seas, shrinking forests, warming air."
+        },
+        {
+          "step": 2,
+          "action": "add the movement's role",
+          "explain": "The green movement is the world's growing self-awareness of this sickness and of human responsibility for it."
+        },
+        {
+          "step": 3,
+          "action": "state the title's message",
+          "explain": "Diagnosis has been made; the title urges treatment -- a new, ecological relationship with the earth."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kehb104.txt closing sections (sustainability)",
+      "concept": "kehb104.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "A firm plans to clear a forest for quick profits but also claims to support sustainability. Use the chapter's ideas to evaluate the claim.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "apply the definition",
+          "explain": "Sustainable development requires present activity to preserve future capacity; wholesale clearing fails that test."
+        },
+        {
+          "step": 2,
+          "action": "weigh the partnership view",
+          "explain": "Man as partner, not proprietor, cannot treat a forest as disposable stock without violating the new world view."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "The claim contradicts itself -- profit that liquidates natural capital is the very ailment the chapter warns against."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kehb104.txt end-of-chapter questions, reworded",
+      "questions": [
+        "What is the significance of the green movement described in the chapter?",
+        "Explain the metaphor of the earth as an ailing patient.",
+        "Summarise the alarming trends in population, fisheries and forests given in the chapter.",
+        "What is meant by sustainable development and why is it urgent?",
+        "Interpret the idea that we hold the earth in trust for future generations.",
+        "How should man's relationship with nature change according to the author?"
+      ]
+    }
+  ]
+}

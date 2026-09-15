@@ -1,0 +1,285 @@
+{
+ "catalog": "catalog_class8_science_ch107.json",
+ "concepts": [
+  {
+   "id": "hesc.107.7.1",
+   "title": "Adolescence and Puberty",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What marks the onset of puberty?",
+     "a": "Hormones wake the reproductive organs; boys and girls develop secondary sexual characters and can reproduce.",
+     "self_check": true
+    },
+    {
+     "q": "At what ages does puberty usually arrive in boys and girls?",
+     "a": "About 11-13 years in girls and 12-14 in boys, varying child to child.",
+     "self_check": true
+    },
+    {
+     "q": "Name the glands that control puberty changes.",
+     "a": "The pituitary master gland, and the testes/ovaries which release testosterone and oestrogen.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.107.7.2.1",
+   "title": "Calculation of Full Height at Puberty",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "height_times_100",
+     "expr": "present_height * 100",
+     "explain": "scale the present height by 100"
+    },
+    {
+     "step": 2,
+     "name": "growth_left",
+     "expr": "100 - percent_height",
+     "explain": "per cent of growth still to come"
+    },
+    {
+     "step": 3,
+     "name": "full_height",
+     "expr": "height_times_100 / percent_height",
+     "explain": "present height is the given per cent of adult height, so divide"
+    }
+   ],
+   "questions": [
+    {
+     "q": "At 11 years a boy is 140 cm tall, which is 80% of his full height. Estimate his full height.",
+     "vals": {
+      "present_height": 140,
+      "percent_height": 80
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "175 cm",
+     "self_check": false
+    },
+    {
+     "q": "A girl measures 150 cm, said to be 75% of her adult height. What will her full height be?",
+     "vals": {
+      "present_height": 150,
+      "percent_height": 75
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "200 cm",
+     "self_check": false
+    },
+    {
+     "q": "A boy's 126 cm is 90% of his final height according to a chart. Find his full height.",
+     "vals": {
+      "present_height": 126,
+      "percent_height": 90
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "140 cm",
+     "self_check": false
+    },
+    {
+     "q": "A child is 90 cm tall, which is 60% of full height. Estimate the adult height.",
+     "vals": {
+      "present_height": 90,
+      "percent_height": 60
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "150 cm",
+     "self_check": false
+    },
+    {
+     "q": "At 160 cm a teen has reached 95% of full height. Predict the final height.",
+     "vals": {
+      "present_height": 160,
+      "percent_height": 95
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "168.421 cm",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hesc.107.7.2.2",
+   "title": "Physical Changes and Voice Box Development",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why does a boy's voice become deeper at puberty?",
+     "a": "The larynx (voice box) grows bigger, so vocal cords lengthen and the voice deepens.",
+     "self_check": true
+    },
+    {
+     "q": "Name two changes that occur only in girls at puberty.",
+     "a": "Breasts develop and the menstrual cycle begins (hips also widen).",
+     "self_check": true
+    },
+    {
+     "q": "What is Adam's apple?",
+     "a": "The bulge on a grown boy's throat caused by the enlarged larynx.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.107.7.3",
+   "title": "Secondary Sexual Characters",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are secondary sexual characters?",
+     "a": "Features that mark the sexes but are not reproductive organs - facial hair in boys, breast development in girls, pubic hair in both.",
+     "self_check": true
+    },
+    {
+     "q": "Name the hormone responsible for male secondary characters.",
+     "a": "Testosterone, made by the testes.",
+     "self_check": true
+    },
+    {
+     "q": "Which hormone brings about female secondary characters?",
+     "a": "Oestrogen, released by the ovaries.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.107.7.4",
+   "title": "Hormonal Control of Reproductive Onset",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Which gland is called the master gland and why?",
+     "a": "The pituitary - its hormones direct other endocrine glands, including the reproductive glands at puberty.",
+     "self_check": true
+    },
+    {
+     "q": "How do hormones start the reproductive phase of life?",
+     "a": "At puberty the pituitary signals testes/ovaries, which pour sex hormones that begin sperm or egg production and body changes.",
+     "self_check": true
+    },
+    {
+     "q": "Name the hormones released by testes and ovaries.",
+     "a": "Testes: testosterone. Ovaries: oestrogen and progesterone.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.107.7.5",
+   "title": "Female Reproductive Phase and Menstrual Cycle",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is the menstrual cycle?",
+     "a": "A monthly cycle in which the uterine lining thickens for a possible pregnancy and sheds as blood if no egg is fertilised.",
+     "self_check": true
+    },
+    {
+     "q": "How long does one menstrual cycle usually last?",
+     "a": "About 28 days, but it varies from woman to woman.",
+     "self_check": true
+    },
+    {
+     "q": "When does menstruation usually begin and stop?",
+     "a": "It begins at puberty (menarche, around 11-13) and stops at menopause (45-50 years).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.107.7.6",
+   "title": "Sex Chromosomes and Sex Determination",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How many chromosome pairs does a human body cell have?",
+     "a": "23 pairs - 46 chromosomes in all.",
+     "self_check": true
+    },
+    {
+     "q": "Which chromosomes decide a baby's sex?",
+     "a": "The sex chromosomes: females XX, males XY.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a mother not responsible for the sex of her child?",
+     "a": "She always gives an X chromosome; the father's sperm brings X (girl) or Y (boy).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.107.7.7",
+   "title": "Other Endocrine Glands and Their Hormones",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the hormones of the thyroid and adrenal glands.",
+     "a": "Thyroid: thyroxine (needs iodine). Adrenal: adrenaline (emergency hormone).",
+     "self_check": true
+    },
+    {
+     "q": "What happens when the thyroid makes too little thyroxine?",
+     "a": "A goitre (swollen neck) can develop - often caused by lack of iodine in food.",
+     "self_check": true
+    },
+    {
+     "q": "What does growth hormone do and where is it made?",
+     "a": "It controls height and body growth; the pituitary makes it.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.107.7.8",
+   "title": "Hormonal Regulation of Metamorphosis",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How do hormones control metamorphosis in frogs?",
+     "a": "Thyroxine from the thyroid makes the tadpole change into a frog.",
+     "self_check": true
+    },
+    {
+     "q": "Why must tadpole water contain iodine for normal change into frogs?",
+     "a": "Thyroxine needs iodine; without it metamorphosis stops and tadpoles stay tadpoles.",
+     "self_check": true
+    },
+    {
+     "q": "Which insect hormone controls its change from larva to adult?",
+     "a": "Insect hormones guide moulting and the pupa's change into the adult.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.107.7.9",
+   "title": "Reproductive Health and Personal Hygiene",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why is personal hygiene vital during adolescence?",
+     "a": "Sweat glands work harder and secretions increase, so daily bathing and clean clothes prevent body odour and infections.",
+     "self_check": true
+    },
+    {
+     "q": "What diet keeps adolescents healthy?",
+     "a": "A balanced diet rich in protein, calcium, iron and vitamins, plus plenty of water.",
+     "self_check": true
+    },
+    {
+     "q": "Name one habit adolescents must avoid and one they must adopt.",
+     "a": "Avoid drugs, smoking and junk food; adopt regular exercise, enough sleep and honest talk about changes with elders.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

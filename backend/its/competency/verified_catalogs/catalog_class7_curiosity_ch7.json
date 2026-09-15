@@ -1,0 +1,584 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 7,
+ "chapter_title": "Heat Transfer in Nature",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gecu107.txt",
+ "concepts": [
+  {
+   "id": "c7cu.7.1",
+   "title": "Heat and Temperature",
+   "section": "7.1",
+   "definition": "Heat is a form of energy that flows from a hotter body to a colder body, while temperature is a measure of how hot or cold a body is.",
+   "formula": "",
+   "key_idea": "Heat is the energy transferred due to a temperature difference, and temperature tells us the direction of heat flow.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the difference between heat and temperature?",
+    "Define heat and give one example of heat flow.",
+    "What does temperature measure?",
+    "In which direction does heat flow between two bodies?",
+    "Why is heat called a form of energy?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the two terms",
+     "explain": "Recognise heat as energy in transit and temperature as the degree of hotness or coldness."
+    },
+    {
+     "step": 2,
+     "action": "State the direction of flow",
+     "explain": "Heat always flows from a body at a higher temperature to a body at a lower temperature."
+    },
+    {
+     "step": 3,
+     "action": "Give an example",
+     "explain": "For example, heat flows from a hot cup of tea to the cooler surroundings until both reach the same temperature."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the difference between heat and temperature?",
+     "solution": "Heat is the energy that flows due to a temperature difference, while temperature measures how hot or cold a body is.",
+     "answer": "Heat is energy in transit; temperature measures the degree of hotness or coldness."
+    },
+    {
+     "question": "In which direction does heat flow between two bodies?",
+     "solution": "Heat flows from the body at a higher temperature to the body at a lower temperature.",
+     "answer": "Heat flows from a hotter body to a colder body."
+    },
+    {
+     "question": "What does temperature measure?",
+     "solution": "Temperature measures how hot or cold a body is and determines the direction of heat flow.",
+     "answer": "Temperature measures the degree of hotness or coldness of a body."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define heat and give one example of heat flow.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why is heat called a form of energy?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example where heat flows from a hot body to a cold body.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.7.2",
+   "title": "Methods of Heat Transfer",
+   "section": "7.2",
+   "definition": "Heat can be transferred by three methods: conduction, convection, and radiation.",
+   "formula": "",
+   "key_idea": "The three modes of heat transfer are conduction, convection, and radiation, each working in different situations.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the three methods of heat transfer?",
+    "Name the different ways by which heat can travel.",
+    "Which method of heat transfer does not need a medium?",
+    "Give one example of each method of heat transfer.",
+    "How do conduction, convection, and radiation differ?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the three methods",
+     "explain": "The three methods of heat transfer are conduction, convection, and radiation."
+    },
+    {
+     "step": 2,
+     "action": "State where each works",
+     "explain": "Conduction occurs mainly in solids, convection in liquids and gases, and radiation can occur in a vacuum."
+    },
+    {
+     "step": 3,
+     "action": "Give an example of each",
+     "explain": "A metal spoon getting hot is conduction, water boiling is convection, and heat from the Sun is radiation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the three methods of heat transfer?",
+     "solution": "The three methods are conduction, convection, and radiation.",
+     "answer": "Conduction, convection, and radiation."
+    },
+    {
+     "question": "Which method of heat transfer does not need a medium?",
+     "solution": "Radiation does not need a medium and can travel through a vacuum.",
+     "answer": "Radiation does not need a medium."
+    },
+    {
+     "question": "Give one example of each method of heat transfer.",
+     "solution": "A hot metal spoon shows conduction, boiling water shows convection, and heat from the Sun shows radiation.",
+     "answer": "Metal spoon (conduction), boiling water (convection), Sun's heat (radiation)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name the different ways by which heat can travel.",
+     "type": "verify_property"
+    },
+    {
+     "question": "How do conduction, convection, and radiation differ?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one daily-life example of convection.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.7.3",
+   "title": "Conductors and Insulators of Heat",
+   "section": "7.3",
+   "definition": "Materials that allow heat to pass through them easily are called conductors, while materials that do not allow heat to pass through them easily are called insulators.",
+   "formula": "",
+   "key_idea": "Metals are good conductors of heat, while materials like wood, plastic, and glass are good insulators.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a conductor of heat? Give one example.",
+    "What is an insulator of heat? Give one example.",
+    "Why are cooking utensils made of metals?",
+    "Why are handles of cooking utensils made of wood or plastic?",
+    "Classify copper, wood, aluminium, and plastic as conductors or insulators."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the material",
+     "explain": "Note whether the material is a metal or a non-metal such as wood, plastic, or glass."
+    },
+    {
+     "step": 2,
+     "action": "Classify the material",
+     "explain": "Metals are usually good conductors of heat, while non-metals like wood and plastic are good insulators."
+    },
+    {
+     "step": 3,
+     "action": "Explain the use",
+     "explain": "Conductors are used where heat must pass quickly, and insulators are used to prevent heat flow."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a conductor of heat? Give one example.",
+     "solution": "A conductor is a material that allows heat to pass through it easily, such as copper or aluminium.",
+     "answer": "A conductor allows heat to pass easily; example: copper."
+    },
+    {
+     "question": "Why are handles of cooking utensils made of wood or plastic?",
+     "solution": "Wood and plastic are insulators, so they do not let heat reach the hand and prevent burns.",
+     "answer": "Wood and plastic are insulators that prevent burns."
+    },
+    {
+     "question": "Classify copper, wood, aluminium, and plastic as conductors or insulators.",
+     "solution": "Copper and aluminium are conductors, while wood and plastic are insulators.",
+     "answer": "Conductors: copper, aluminium; Insulators: wood, plastic."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is an insulator of heat? Give one example.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why are cooking utensils made of metals?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Name two good conductors and two good insulators of heat.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.7.4",
+   "title": "Conduction in Solids",
+   "section": "7.4",
+   "definition": "Conduction is the transfer of heat through a solid material from the hotter end to the colder end without the particles of the solid moving as a whole.",
+   "formula": "",
+   "key_idea": "In conduction, heat travels through a solid by passing from one particle to the next while the particles stay in their places.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is conduction of heat?",
+    "How does heat travel through a solid metal rod?",
+    "Why does one end of a metal spoon get hot when the other end is heated?",
+    "Explain conduction with the help of a simple activity.",
+    "In which state of matter is conduction the main method of heat transfer?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the solid and the heat source",
+     "explain": "Note the solid material and which end is being heated."
+    },
+    {
+     "step": 2,
+     "action": "Describe particle transfer",
+     "explain": "Particles at the hot end vibrate more and pass energy to neighbouring particles without moving from their places."
+    },
+    {
+     "step": 3,
+     "action": "State the result",
+     "explain": "Heat gradually reaches the colder end of the solid, making it warm."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is conduction of heat?",
+     "solution": "Conduction is the transfer of heat through a solid from the hot end to the cold end without the particles moving as a whole.",
+     "answer": "Conduction is heat transfer through a solid without the particles moving as a whole."
+    },
+    {
+     "question": "Why does one end of a metal spoon get hot when the other end is heated?",
+     "solution": "Heat travels through the metal spoon by conduction from the hot end to the cold end.",
+     "answer": "Heat travels by conduction from the hot end to the cold end."
+    },
+    {
+     "question": "In which state of matter is conduction the main method of heat transfer?",
+     "solution": "Conduction is the main method of heat transfer in solids.",
+     "answer": "Conduction is the main method in solids."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How does heat travel through a solid metal rod?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain conduction with the help of a simple activity.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why are metals good conductors of heat?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.7.5",
+   "title": "Convection in Liquids and Gases",
+   "section": "7.5",
+   "definition": "Convection is the transfer of heat in liquids and gases by the actual movement of the heated particles from one place to another.",
+   "formula": "",
+   "key_idea": "In convection, the hot liquid or gas becomes lighter and rises, while the cooler, heavier part sinks, forming a convection current.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is convection of heat?",
+    "How does heat transfer take place in liquids and gases?",
+    "Why does hot water rise and cold water sink?",
+    "Explain the formation of a convection current.",
+    "Give one example of convection in daily life."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the fluid",
+     "explain": "Note whether the heat transfer is happening in a liquid or a gas."
+    },
+    {
+     "step": 2,
+     "action": "Describe the movement",
+     "explain": "When heated, the fluid becomes lighter and rises, while the cooler, heavier fluid sinks to take its place."
+    },
+    {
+     "step": 3,
+     "action": "Explain the current",
+     "explain": "This continuous movement of hot and cold fluid forms a convection current that transfers heat."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is convection of heat?",
+     "solution": "Convection is the transfer of heat in liquids and gases by the movement of the heated particles themselves.",
+     "answer": "Convection is heat transfer in fluids by the movement of heated particles."
+    },
+    {
+     "question": "Why does hot water rise and cold water sink?",
+     "solution": "Hot water becomes lighter and rises, while cold water is heavier and sinks, forming a convection current.",
+     "answer": "Hot water is lighter and rises; cold water is heavier and sinks."
+    },
+    {
+     "question": "Give one example of convection in daily life.",
+     "solution": "The boiling of water in a pot is an example of convection, where hot water rises and cold water sinks.",
+     "answer": "Boiling water in a pot is an example of convection."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How does heat transfer take place in liquids and gases?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain the formation of a convection current.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why is convection not possible in solids?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.7.6",
+   "title": "Radiation of Heat",
+   "section": "7.6",
+   "definition": "Radiation is the transfer of heat from one body to another without needing a medium, through electromagnetic waves called infrared rays.",
+   "formula": "",
+   "key_idea": "Radiation can take place even in a vacuum, as shown by the heat from the Sun reaching the Earth through empty space.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is radiation of heat?",
+    "How does heat from the Sun reach the Earth?",
+    "Why does radiation not need a medium?",
+    "Give one example of heat transfer by radiation.",
+    "How are dark and light surfaces different in absorbing heat?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the situation",
+     "explain": "Note whether the heat transfer is happening across a vacuum or empty space."
+    },
+    {
+     "step": 2,
+     "action": "Explain the waves",
+     "explain": "Heat travels by infrared rays, which are electromagnetic waves that do not need a medium."
+    },
+    {
+     "step": 3,
+     "action": "Give an example",
+     "explain": "The heat of the Sun reaches the Earth by radiation through the vacuum of space."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is radiation of heat?",
+     "solution": "Radiation is the transfer of heat without a medium, through infrared rays.",
+     "answer": "Radiation is heat transfer without a medium using infrared rays."
+    },
+    {
+     "question": "How does heat from the Sun reach the Earth?",
+     "solution": "Heat from the Sun reaches the Earth by radiation through the vacuum of space.",
+     "answer": "The Sun's heat reaches the Earth by radiation through space."
+    },
+    {
+     "question": "How are dark and light surfaces different in absorbing heat?",
+     "solution": "Dark surfaces absorb more heat, while light, shiny surfaces reflect more heat.",
+     "answer": "Dark surfaces absorb more heat; light surfaces reflect more heat."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why does radiation not need a medium?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of heat transfer by radiation.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why do we wear light-coloured clothes in summer?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.7.7",
+   "title": "Land and Sea Breezes",
+   "section": "7.7",
+   "definition": "Land and sea breezes are convection currents in air caused by the unequal heating of land and water.",
+   "formula": "",
+   "key_idea": "During the day, sea breeze blows from sea to land, and at night, land breeze blows from land to sea, due to different heating and cooling rates.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a sea breeze and when does it blow?",
+    "What is a land breeze and when does it blow?",
+    "Why does a sea breeze blow during the day?",
+    "Why does a land breeze blow at night?",
+    "How are land and sea breezes related to convection?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the time of day",
+     "explain": "Note whether it is day or night, as this decides which breeze blows."
+    },
+    {
+     "step": 2,
+     "action": "Compare heating of land and sea",
+     "explain": "Land heats up and cools down faster than water, creating a temperature difference."
+    },
+    {
+     "step": 3,
+     "action": "State the direction of breeze",
+     "explain": "Air rises over the hotter region and cooler air moves in, forming a sea breeze by day and a land breeze by night."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a sea breeze and when does it blow?",
+     "solution": "A sea breeze is the movement of cool air from the sea to the land during the day.",
+     "answer": "A sea breeze blows from sea to land during the day."
+    },
+    {
+     "question": "Why does a land breeze blow at night?",
+     "solution": "At night, land cools faster than the sea, so warm air over the sea rises and cool air moves from land to sea.",
+     "answer": "Land cools faster at night, so cool air moves from land to sea."
+    },
+    {
+     "question": "How are land and sea breezes related to convection?",
+     "solution": "Both breezes are convection currents in air caused by the unequal heating of land and water.",
+     "answer": "They are convection currents caused by unequal heating of land and water."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is a land breeze and when does it blow?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why does a sea breeze blow during the day?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why does land heat up and cool down faster than water?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.7.8",
+   "title": "Applications of Heat Transfer",
+   "section": "7.8",
+   "definition": "The principles of conduction, convection, and radiation are used in many everyday applications such as cooking, keeping warm, and cooling.",
+   "formula": "",
+   "key_idea": "We use conductors to transfer heat quickly and insulators to stop heat flow in daily life.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Give one application of conduction in daily life.",
+    "How is convection used in heating a room?",
+    "Why are cooking pots made of metal?",
+    "How does a thermos flask keep a liquid hot or cold?",
+    "Why do we wear woollen clothes in winter?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the method of heat transfer",
+     "explain": "Decide whether the application uses conduction, convection, or radiation."
+    },
+    {
+     "step": 2,
+     "action": "Explain the working",
+     "explain": "Describe how the chosen method of heat transfer is used in the application."
+    },
+    {
+     "step": 3,
+     "action": "State the benefit",
+     "explain": "Mention how the application helps in daily life, such as keeping warm or cooking food."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How is convection used in heating a room?",
+     "solution": "A heater warms the air near it, the warm air rises and spreads, and cool air sinks to be heated, forming a convection current that heats the room.",
+     "answer": "Warm air rises and spreads by convection, heating the room."
+    },
+    {
+     "question": "Why are cooking pots made of metal?",
+     "solution": "Metals are good conductors, so heat passes quickly through the pot to cook the food.",
+     "answer": "Metals are good conductors that transfer heat quickly to food."
+    },
+    {
+     "question": "Why do we wear woollen clothes in winter?",
+     "solution": "Wool is a poor conductor of heat and traps air, which stops body heat from escaping and keeps us warm.",
+     "answer": "Wool traps air and is a poor conductor, keeping body heat in."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Give one application of conduction in daily life.",
+     "type": "verify_property"
+    },
+    {
+     "question": "How does a thermos flask keep a liquid hot or cold?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why are the handles of electric irons made of plastic?",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "reviewer-added",
+   "concept": "c7cu.7.1",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain heat and temperature with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the two terms",
+     "explain": "Recognise heat as energy in transit and temperature as the degree of hotness or coldness."
+    },
+    {
+     "step": 2,
+     "action": "State the direction of flow",
+     "explain": "Heat always flows from a body at a higher temperature to a body at a lower temperature."
+    },
+    {
+     "step": 3,
+     "action": "Give an example",
+     "explain": "For example, heat flows from a hot cup of tea to the cooler surroundings until both reach the same temperature."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "reviewer-added",
+   "concept": "c7cu.7.2",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain methods of heat transfer with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "List the three methods",
+     "explain": "The three methods of heat transfer are conduction, convection, and radiation."
+    },
+    {
+     "step": 2,
+     "action": "State where each works",
+     "explain": "Conduction occurs mainly in solids, convection in liquids and gases, and radiation can occur in a vacuum."
+    },
+    {
+     "step": 3,
+     "action": "Give an example of each",
+     "explain": "A metal spoon getting hot is conduction, water boiling is convection, and heat from the Sun is radiation."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)"
+}

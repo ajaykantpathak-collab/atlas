@@ -1,0 +1,351 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 5,
+ "chapter_title": "Tales by Dots and Lines",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hegp205.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hegp.205.5.1",
+   "title": "Mean as the Balance Centre",
+   "section": "5.1",
+   "definition": "The arithmetic mean is the balance point of a data set: it equals the sum of all values divided by how many there are, and the total distance of the values below it equals the total distance of the values above it - not the midpoint of the extremes, but the levelling point of the whole set.",
+   "formula": "mean = total / count",
+   "key_idea": "Average of 3 and 7 is 5, exactly where the extra of one fills the gap of the other.",
+   "textbook_ref": "hegp205.txt lines 1-80 (balancing act, dot plots, equal distances)",
+   "question_patterns": [
+    "find the mean of 3 and 7 and show it is the balance point",
+    "calculate the mean of the given data set",
+    "why is the mean not always the midpoint of the extreme values",
+    "verify that total distances on both sides of the mean are equal",
+    "can a data set have two balance points - justify",
+    "show that the mean of 10, 10, 11, 17 is 12 using the balancing idea"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "add up all the values",
+     "explain": "The total is the sum of every value in the data.",
+     "compute": "total = v1 + v2 + v3"},
+    {"step": 2, "action": "divide by the number of values",
+     "explain": "Sharing the total equally gives the mean.",
+     "compute": "mean = total / count"}
+   ]
+  },
+  {
+   "id": "hegp.205.5.2",
+   "title": "Finding a Missing Value from the Mean",
+   "section": "5.1",
+   "definition": "When one data value is lost but the mean and all other values are known, the total can be rebuilt as mean times count, and subtracting the known values leaves the missing one - the coach's smudged wrestler weight works out as 392 minus 349, or 43 kg.",
+   "formula": "missing = mean * count - known_sum",
+   "key_idea": "Rebuild the total first: mean x count, then take away what is already known.",
+   "textbook_ref": "hegp205.txt lines 105-160 (finding the unknown, wrestlers 39.2 kg mean)",
+   "question_patterns": [
+    "the mean weight of 10 wrestlers is 39.2 kg and nine weights are known - find the smudged weight",
+    "a value is unreadable in the data - recover it from the mean",
+    "find the missing entry when the average and the other values are given",
+    "why does mean times count give the sum of all values",
+    "the mean of five numbers is 20 and four of them are known - find the fifth",
+    "check the recovered value by recomputing the mean"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "rebuild the grand total",
+     "explain": "Multiply the mean by the number of values.",
+     "compute": "grand = mean * count"},
+    {"step": 2, "action": "subtract the known values",
+     "explain": "Whatever remains belongs to the missing entry.",
+     "compute": "missing = grand - known_sum"}
+   ]
+  },
+  {
+   "id": "hegp.205.5.3",
+   "title": "Correcting the Mean After an Error",
+   "section": "5.1",
+   "definition": "If one recorded value turns out wrong by a known amount, first undo it on the total - multiply the old mean by the count, adjust by the error, then divide again - as when one tree's coconut count was 3 too many and the true average fell from 25.6 to 25.4.",
+   "formula": "correct_total = mean * count - error",
+   "key_idea": "One wrong entry shifts the total by the size of the error, and the mean follows.",
+   "textbook_ref": "hegp205.txt lines 155-200 (coconut harvest 25.6 to 25.4)",
+   "question_patterns": [
+    "the average harvest per tree is 25.6 but one tree is 3 too high - find the correct average for 15 trees",
+    "one value in the data was recorded 5 more than the truth - correct the mean",
+    "a wrong entry is spotted after averaging - how is the mean repaired",
+    "find the corrected total before recomputing the average",
+    "does an over-recorded value raise or lower the mean",
+    "recompute the mean after removing an erroneous reading"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "rebuild the recorded total",
+     "explain": "Multiply the old mean by the number of values.",
+     "compute": "grand = mean * count"},
+    {"step": 2, "action": "remove the error",
+     "explain": "Subtract the recorded excess to get the true total.",
+     "compute": "correct_total = grand - error"}
+   ]
+  },
+  {
+   "id": "hegp.205.5.4",
+   "title": "Median and the Effect of New Values",
+   "section": "5.1",
+   "definition": "The median is the middle value of sorted data, or the average of the two middle values; adding a value larger than the median pushes the median up and a smaller value pulls it down, so the median of 8 becomes 9.5 when 11 joins and the middle pair turns into 8 and 11.",
+   "formula": "-",
+   "key_idea": "Sort first: the median sits with equal numbers of values on each side.",
+   "textbook_ref": "hegp205.txt lines 80-105 (median behaviour with added values)",
+   "question_patterns": [
+    "find the median of the given data set",
+    "what happens to the median when a value greater than it is added",
+    "the median of a data set is 8 and 11 is added - why does it become 9.5",
+    "how is the median found when there are an even number of values",
+    "does the median always change when a new value joins - explain",
+    "compare how the mean and the median respond to a large value"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "sort the data",
+     "explain": "Arrange all values in increasing order."},
+    {"step": 2, "action": "locate the middle",
+     "explain": "For odd counts take the central value; for even counts average the two central ones."},
+    {"step": 3, "action": "test the effect of additions",
+     "explain": "A value above the middle raises the median, below lowers it."}
+   ]
+  },
+  {
+   "id": "hegp.205.5.5",
+   "title": "Mean with Frequencies",
+   "section": "5.1",
+   "definition": "When values repeat, each value is weighted by how often it occurs: multiply every distinct value by its frequency, add these products, and divide by the total frequency - this is how an average family size is worked out from a frequency table.",
+   "formula": "wmean = (f1 * v1 + f2 * v2) / (f1 + f2)",
+   "key_idea": "Frequency acts as a weight: bigger counts pull the mean toward their value.",
+   "textbook_ref": "hegp205.txt lines 200-240 (mean and median with frequencies)",
+   "question_patterns": [
+    "find the average family size from a frequency table",
+    "calculate the mean of data given with frequencies",
+    "why is each value multiplied by its frequency before averaging",
+    "compute the weighted mean of two values with counts f1 and f2",
+    "how does the total frequency enter the average calculation",
+    "compare the frequency method with listing every repeated value"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "total each value times its frequency",
+     "explain": "Weighted contributions add up to the overall total.",
+     "compute": "total = f1 * v1 + f2 * v2"},
+    {"step": 2, "action": "divide by the total frequency",
+     "explain": "The mean is the weighted total over all observations.",
+     "compute": "wmean = total / (f1 + f2)"}
+   ]
+  },
+  {
+   "id": "hegp.205.5.6",
+   "title": "Line Graphs and Interpreting Data",
+   "section": "5.2",
+   "definition": "A line graph joins data points recorded over time, making rises, falls and flat stretches easy to follow; reading one means first identifying the axes, scale and markers, then inferring trends such as Punjab's temperature peaking at 38 degrees in June while Kerala stays nearly flat.",
+   "formula": "-",
+   "key_idea": "Two-step reading: identify what is plotted, then infer the trend over time.",
+   "textbook_ref": "hegp205.txt lines 678-760 (visualising data, line graphs, temperature)",
+   "question_patterns": [
+    "read the monthly maximum temperature trend of Punjab from the line graph",
+    "why are line graphs suited to data across time",
+    "what are the two steps for interpreting a line graph",
+    "in which month does Kerala's temperature peak according to the graph",
+    "how do different shape markers help in reading a graph",
+    "compare the temperature trends of Kerala and Punjab from the graphs"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the setup",
+     "explain": "Note the axes, the scale, the time range and the markers used."},
+    {"step": 2, "action": "trace each line",
+     "explain": "Follow rises, falls and flats for each data series."},
+    {"step": 3, "action": "state the inferences",
+     "explain": "Summarise peaks, dips and flat periods as conclusions about the data."}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hegp205.txt lines 8-16, averages of pairs",
+   "concept": "hegp.205.5.1",
+   "question_type": "compute",
+   "question_pattern": "Find the mean of the values {v1}, {v2} and {v3}.",
+   "extracted_variables": {
+    "v1": "first data value",
+    "v2": "second data value",
+    "v3": "third data value"
+   },
+   "solution_template": [
+    {"step": 1, "action": "add the values",
+     "explain": "Sum all the data values.",
+     "compute": "total = v1 + v2 + v3"},
+    {"step": 2, "action": "divide by the count",
+     "explain": "Mean is total over number of values.",
+     "compute": "mean = total / count"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hegp205.txt lines 10-14, pair 3 and 7",
+   "concept": "hegp.205.5.1",
+   "question_type": "compute",
+   "question_pattern": "Find the average of {v1} and {v2} and verify it lies halfway between them.",
+   "extracted_variables": {
+    "v1": "smaller number",
+    "v2": "larger number"
+   },
+   "solution_template": [
+    {"step": 1, "action": "add the two values",
+     "explain": "Total of the pair.",
+     "compute": "total = v1 + v2"},
+    {"step": 2, "action": "halve the total",
+     "explain": "Dividing by 2 gives the halfway mean.",
+     "compute": "mean = total / count"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hegp205.txt lines 105-155, wrestler weights",
+   "concept": "hegp.205.5.2",
+   "question_type": "compute",
+   "question_pattern": "The mean of {count} values is {mean} and the known values sum to {known_sum}. Find the missing value.",
+   "extracted_variables": {
+    "count": "number of values in the data",
+    "mean": "given mean",
+    "known_sum": "sum of the known values"
+   },
+   "solution_template": [
+    {"step": 1, "action": "rebuild the grand total",
+     "explain": "Mean times count recovers the full sum.",
+     "compute": "grand = mean * count"},
+    {"step": 2, "action": "subtract the known sum",
+     "explain": "The remainder is the missing value.",
+     "compute": "missing = grand - known_sum"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hegp205.txt lines 155-170, 25.6 = z / 15",
+   "concept": "hegp.205.5.2",
+   "question_type": "compute",
+   "question_pattern": "The average of {count} numbers is {mean}. Find their total sum.",
+   "extracted_variables": {
+    "count": "how many numbers",
+    "mean": "the average"
+   },
+   "solution_template": [
+    {"step": 1, "action": "multiply mean by count",
+     "explain": "The product is the total of all values.",
+     "compute": "grand = mean * count"}
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "hegp205.txt lines 170-200, coconut harvest correction",
+   "concept": "hegp.205.5.3",
+   "question_type": "compute",
+   "question_pattern": "The mean of {count} observations is {mean}, but one entry exceeds the truth by {error}. Find the correct total.",
+   "extracted_variables": {
+    "count": "number of observations",
+    "mean": "recorded mean",
+    "error": "excess in the wrong entry"
+   },
+   "solution_template": [
+    {"step": 1, "action": "rebuild the recorded total",
+     "explain": "Mean times count gives the wrong total.",
+     "compute": "grand = mean * count"},
+    {"step": 2, "action": "remove the excess",
+     "explain": "Subtract the error for the true total.",
+     "compute": "correct_total = grand - error"}
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "hegp205.txt lines 190-200, 25.4 corrected mean",
+   "concept": "hegp.205.5.3",
+   "question_type": "compute",
+   "question_pattern": "After correcting an entry, the true total is {correct_total} for {count} observations. Find the correct mean.",
+   "extracted_variables": {
+    "correct_total": "true sum of the values",
+    "count": "number of observations"
+   },
+   "solution_template": [
+    {"step": 1, "action": "divide the corrected total",
+     "explain": "True total over count gives the corrected mean.",
+     "compute": "correct_mean = correct_total / count"}
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "hegp205.txt lines 200-240, family size frequencies",
+   "concept": "hegp.205.5.5",
+   "question_type": "compute",
+   "question_pattern": "A frequency table has value {v1} occurring {f1} times and value {v2} occurring {f2} times. Find the mean.",
+   "extracted_variables": {
+    "v1": "first distinct value",
+    "f1": "frequency of the first value",
+    "v2": "second distinct value",
+    "f2": "frequency of the second value"
+   },
+   "solution_template": [
+    {"step": 1, "action": "weight each value",
+     "explain": "Multiply each value by its frequency and add.",
+     "compute": "total = f1 * v1 + f2 * v2"},
+    {"step": 2, "action": "divide by total frequency",
+     "explain": "Mean equals weighted total over all observations.",
+     "compute": "wmean = total / (f1 + f2)"}
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "hegp205.txt lines 200-240, average family size method",
+   "concept": "hegp.205.5.5",
+   "question_type": "compute",
+   "question_pattern": "Compute the average of values {v1} and {v2} whose frequencies are {f1} and {f2}.",
+   "extracted_variables": {
+    "v1": "first value",
+    "v2": "second value",
+    "f1": "count of the first value",
+    "f2": "count of the second value"
+   },
+   "solution_template": [
+    {"step": 1, "action": "weight each value",
+     "explain": "Frequency times value, summed.",
+     "compute": "total = f1 * v1 + f2 * v2"},
+    {"step": 2, "action": "divide by total frequency",
+     "explain": "The quotient is the frequency mean.",
+     "compute": "wmean = total / (f1 + f2)"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "hegp205.txt lines 1-105",
+   "questions": [
+    "Find the mean of pairs like 3 and 7 and mark it on a dot plot.",
+    "Show that total distances on both sides of the mean are equal for the given collections.",
+    "The median of a data set is 8; explain why adding 11 makes the median 9.5.",
+    "Can there be more than one balance centre for a data set?"
+   ]
+  },
+  {
+   "id": "ex5.2",
+   "source_ref": "hegp205.txt lines 105-240",
+   "questions": [
+    "Recover the smudged wrestler weight when the mean of 10 weights is 39.2 kg.",
+    "Find the correct average harvest when one tree's count was 3 too high for 15 trees.",
+    "Find the average family size from the class frequency table."
+   ]
+  },
+  {
+   "id": "ex5.3",
+   "source_ref": "hegp205.txt lines 678-800",
+   "questions": [
+    "Interpret the Kerala and Punjab monthly temperature line graphs.",
+    "Why are line graphs preferred for data across time?",
+    "State the two-step process of reading a graph."
+   ]
+  }
+ ]
+}

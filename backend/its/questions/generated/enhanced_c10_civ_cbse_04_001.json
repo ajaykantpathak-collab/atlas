@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_04_001",
+   "title": "c10_civ_cbse_04_001",
+   "questions": [
+    {
+     "q": "Define a political party in two sentences using the exact terms: \"organized group\", \"common ideology\", \"contest elections\", and \"constitutional means\".",
+     "a": "A political party is an organized group of citizens who share a common ideology and come together to contest elections through constitutional means with the aim of capturing political power to implement their policies. A wrong answer that omits \"organized group\" or \"constitutional means\" reveals the student views parties as loose associations or revolutionary groups rather than legitimate democratic institutions; missing \"common ideology\" suggests confusion with interest groups that form around single issues.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a large democracy like India cannot rely solely on independent candidates to fill 543 Lok Sabha seats, using the concepts of \"aggregation of interests\" and \"accountability\".",
+     "a": "Independent candidates cannot aggregate diverse interests into coherent policy alternatives, leaving voters with fragmented choices and no clear mandate; they also lack collective accountability since no party whip or shared manifesto binds them, making stable governance impossible. A wrong answer that focuses only on \"money and muscle power\" or \"name recognition\" misses the structural democratic theory reason: parties solve the problem of social choice in large populations by packaging alternatives and enforcing collective responsibility.",
+     "self_check": true
+    },
+    {
+     "q": "A citizen argues: \"Political parties only create division; we should ban them and let all candidates contest as independents.\" Using your knowledge of party functions, write a three-point rebuttal that addresses representation, governance, and accountability.",
+     "a": "(1) Representation: Parties aggregate diverse sectional interests (region, religion, class) into broad national coalitions, giving voice to minorities who would be ignored in a pure independent system. (2) Governance: Parties provide the organizational continuity and legislative discipline needed to pass budgets and laws; a parliament of independents would face perpetual deadlock. (3) Accountability: Parties offer a clear \"team\" to reward or punish at the next election; with independents, responsibility is diffused and voters cannot hold a coherent programme to account. A wrong answer that merely repeats \"parties are necessary\" without linking each point to a specific function shows superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of political parties in a first-past-the-post (FPTP) system like India with their role in a proportional representation (PR) system. Identify two differences in how parties shape voter choice and government formation.",
+     "a": "In FPTP, parties focus on winning plurality in single-member constituencies, encouraging broad-based \"catch-all\" parties and often producing single-party majorities; in PR, parties present ranked lists, encouraging ideological purity and multi-party coalitions. A second difference: FPTP parties must build geographically concentrated support, while PR parties can survive on dispersed national support. A wrong answer that confuses FPTP with PR mechanics or ignores the strategic incentives parties face reveals a gap in understanding how electoral rules shape party behaviour — a key Class 10 analytical skill.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Anti-Defection Law (Tenth Schedule) has strengthened political parties as democratic institutions.\" Give two arguments for and two against, then state your reasoned judgment.",
+     "a": "For: (1) It enforces party discipline, ensuring the mandate voters gave to a party's manifesto is honoured. (2) It prevents horse-trading and instability caused by frequent floor-crossing. Against: (1) It suppresses intra-party dissent, turning legislators into delegates of the party high command rather than representatives of constituents. (2) It consolidates power in unelected party leaders, weakening internal democracy. Judgment: The law has strengthened party *survival* but weakened party *democratic quality*; a better reform would allow dissent on non-confidence matters. A wrong answer that only lists pros or cons without weighing them shows inability to evaluate institutional trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new political party for a hypothetical Indian state with three distinct linguistic regions and significant economic inequality. Specify: (a) the party's core ideology in one phrase, (b) two key manifesto promises that bridge regional and class divides, (c) an internal organizational rule to prevent dynastic control.",
+     "a": "(a) \"Federal Social Democracy\" — combining regional autonomy with redistributive justice. (b) Promise 1: \"State-level fiscal federalism — 50% of state tax revenue devolved to directly elected regional councils.\" Promise 2: \"Universal basic services guarantee — free healthcare, education, and public transport funded by progressive wealth tax.\" (c) Rule: \"No person related to a current or former office-bearer within two degrees of kinship may hold party leadership or contest elections for ten years after the relative's tenure ends.\" A poor answer that proposes a single-issue party or ignores organizational safeguards reveals failure to synthesize the need for broad aggregation and internal democracy — the core tension parties must manage.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_01_004",
+   "title": "c11_soc_cbse_01_004",
+   "questions": [
+    {
+     "q": "Define common sense knowledge in one sentence as used in the sociological context.",
+     "a": "Common sense knowledge refers to unreflective, culturally shared beliefs that rely on naturalistic or individualistic explanations and do not question their own origins. A wrong answer (e.g., \"common sense is just practical wisdom\") reveals the student misses the critical sociological point: common sense is *uncritical* and *untested*, not merely \"useful.\"",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the statement \"Poor people are lazy\" is a common sense explanation, not a sociological one.",
+     "a": "The statement attributes poverty to an individual trait (laziness) without empirical evidence, ignores structural factors like unemployment or wage inequality, and does not question its own assumption — hallmarks of naturalistic common sense. A wrong answer (e.g., \"it's just an opinion\") shows the student cannot identify the *type* of explanation (naturalistic/individualistic) or the absence of systematic methodology.",
+     "self_check": true
+    },
+    {
+     "q": "A newspaper article claims \"Rising divorce rates are due to declining moral values.\" Rewrite this as a sociological explanation using structural factors.",
+     "a": "Sociological explanation: Rising divorce rates reflect changing gender roles, women's economic independence, legal reforms easing divorce, and shifting cultural norms about marriage as a lifelong contract — not merely \"moral decline.\" Steps: 1) Identify the common sense claim (moral decline). 2) Note its naturalistic assumption (values naturally erode). 3) Introduce structural factors (law, economy, gender). 4) Cite empirical trends (female labor force participation, divorce law changes). A wrong answer that only lists \"reasons\" without contrasting *methodology* shows the student hasn't grasped the epistemological difference.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the naturalistic and sociological explanations of gender inequality in the workplace. Identify two key differences in their assumptions.",
+     "a": "Naturalistic: Assumes gender inequality stems from innate biological differences (e.g., women are \"naturally\" less competitive). Sociological: Assumes inequality is produced by social structures (patriarchy, occupational segregation, unequal care work). Difference 1: Naturalistic sees biology as destiny; sociological sees gender as socially constructed. Difference 2: Naturalistic treats the pattern as universal and unchangeable; sociological treats it as variable across cultures/history and open to policy intervention. A wrong answer that merely lists \"different factors\" without contrasting *assumptions about causality and changeability* reveals a surface-level understanding.",
+     "self_check": true
+    },
+    {
+     "q": "\"Common sense is useless for sociology.\" Critique this statement using the concept of 'unreflective knowledge' and the sociologist's duty to question cherished beliefs.",
+     "a": "The statement is partially wrong. Common sense is the *raw material* sociology interrogates — it reveals what a society takes for granted. Sociology's duty is to subject common sense to empirical test (Berger's \"spy\" metaphor), not discard it. For example, the common sense belief \"widows are vulnerable\" led to a policy (compensation) whose *unintended consequence* (forced levirate marriage) only sociological analysis could uncover. A wrong answer that agrees \"common sense is useless\" shows the student misses the dialectical relationship: sociology *starts from* common sense but *transcends* it through method.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini research question on a social issue of your choice and outline how a sociologist would approach it differently from a common sense approach.",
+     "a": "Example: Research question — \"Why do girls in rural Rajasthan drop out of secondary school?\" Common sense approach: \"Parents don't value girls' education.\" Sociologist's approach: 1) Formulate hypothesis linking dropout to structural factors (distance to school, sanitation, early marriage norms, opportunity cost of labor). 2) Design mixed-method study (survey + interviews). 3) Collect verifiable data. 4) Analyze patterns across caste/class. 5) Test alternative explanations. A poor answer that only lists \"factors\" without showing the *systematic, reflexive, evidence-based process* reveals the student cannot operationalize the methodological distinction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

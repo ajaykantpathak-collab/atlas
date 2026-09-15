@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_02_002",
+   "title": "c12_ps_cbse_02_002",
+   "questions": [
+    {
+     "q": "What were the two main pillars of Gorbachev's reform agenda, and what does each term literally mean in Russian?",
+     "a": "The two pillars were Glasnost (meaning \"openness\" or \"transparency\") and Perestroika (meaning \"restructuring\" or \"rebuilding\"). A wrong answer — such as confusing the terms, translating them incorrectly, or adding a third pillar like \"Demokratizatsiya\" as an equal pillar — reveals that the student has not memorized the core vocabulary and cannot distinguish the political opening from the economic restructuring, which is essential for analyzing their different impacts.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Gorbachev introduce Glasnost before fully implementing Perestroika, and what was the intended relationship between the two?",
+     "a": "Gorbachev introduced Glasnost first to create public support and transparency needed to overcome resistance from the Communist Party bureaucracy to economic reforms. He intended Glasnost to expose corruption and inefficiency, building pressure for Perestroika's structural changes. A wrong answer — such as claiming they were simultaneous, that Perestroika came first, or that Glasnost was only about human rights — shows the student misunderstands the strategic sequencing: political openness was meant to legitimize and enable economic restructuring, not replace it.",
+     "self_check": true
+    },
+    {
+     "q": "In 1988, the Soviet Union passed the Law on State Enterprises. How did this law reflect Perestroika's goals, and what unintended consequence did it have on the planned economy?",
+     "a": "The Law on State Enterprises gave factories autonomy to set output levels, negotiate supplies, and retain profits — a shift from central directives to market-like incentives. However, without price liberalization or hard budget constraints, enterprises raised wages and prices, causing shortages and inflation, worsening the very stagnation Perestroika aimed to fix. A wrong answer that only describes the law's provisions without analyzing the missing complementary reforms (price reform, banking) shows the student cannot apply systems thinking to policy design.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of Glasnost on the Communist Party's monopoly on information with its impact on nationalist movements in the Baltic republics and Ukraine.",
+     "a": "Glasnost ended the party's information monopoly by allowing critical journalism, publication of banned works (e.g., Solzhenitsyn), and open debate on history (e.g., Molotov-Ribbentrop Pact). This same openness enabled Baltic and Ukrainian activists to demand independence by exposing Soviet crimes and organizing popular fronts (e.g., Sajudis, Rukh). A wrong answer that treats these as separate, unrelated outcomes misses the causal link: the same mechanism — free information flow — that weakened central ideological control also empowered sub-state national identities, a classic case of reform backfiring.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Gorbachev's reforms failed because he moved too slowly on economic restructuring but too quickly on political liberalization.\"",
+     "a": "This argument is partially valid but oversimplified. Moving slowly on economics (retaining price controls, soft budgets) caused shortages and loss of faith in reform. Moving quickly on politics (competitive elections in 1989, releasing nationalists) empowered opponents like Yeltsin and separatists before new institutions could stabilize. However, the deeper flaw was attempting to reform a totalitarian system from within without a coherent transition strategy — half-measures in both spheres created a power vacuum. A wrong answer that blames only speed or only one reform shows inability to weigh interdependent political-economic dynamics.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 1989 Politburo memo advising Gorbachev on whether to use force to suppress the Baltic independence movements, weighing the risks of violence against the risk of Union dissolution.",
+     "a": "A strong memo would: (1) acknowledge the legitimacy of Baltic grievances exposed by Glasnost, (2) warn that force would destroy Gorbachev's international credibility and domestic reform coalition, (3) note the military's reluctance after Afghanistan, (4) propose negotiated autonomy within a renewed federation, and (5) admit that either choice risks dissolution but force makes it certain and violent. A poor answer that recommends force without analyzing political costs, or recommends surrender without a federal alternative, shows failure to integrate ethical, strategic, and institutional reasoning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

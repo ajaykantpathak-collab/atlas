@@ -1,0 +1,410 @@
+{
+ "catalog": "t2_class12_biotechnology",
+ "note": "Wave-2 graded top-ups for class 12 Biotechnology pools (lebt101-113). One-term factual keys and numeric answers; machine-graded.",
+ "concepts": [
+  {"id": "lebt101.1", "title": "Recombinant DNA Foundations", "questions": [
+    {"q": "Who delivered plasmids into E. coli in the first recombinant experiment: Stanley Cohen or Herbert Boyer?", "a": "Stanley Cohen"},
+    {"q": "Which enzyme seals DNA fragments together: ligase or helicase?", "a": "ligase"}
+  ]},
+  {"id": "lebt101.2", "title": "Milestones of Modern Biotechnology", "questions": [
+    {"q": "In which year did Watson and Crick solve the double helix?", "a": "1953"},
+    {"q": "Who invented PCR in 1983: Kary Mullis or Berg?", "a": "Kary Mullis"}
+  ]},
+  {"id": "lebt101.3", "title": "Therapeutic Proteins", "questions": [
+    {"q": "Recombinant human insulin was approved under which name: Humulin or Flavr Savr?", "a": "Humulin"},
+    {"q": "Which enzyme product dissolves dangerous blood clots: plasminogen activator or insulin?", "a": "plasminogen activator"}
+  ]},
+  {"id": "lebt101.4", "title": "E. coli Division versus Replication", "questions": [
+    {"q": "How many minutes does E. coli need to copy its chromosome: sixty or twenty?", "a": "sixty"},
+    {"q": "Running several replication forks at once is called what replication: multifork or single-fork?", "a": "multifork"}
+  ]},
+  {"id": "lebt101.5", "title": "Genetically Modified Crops", "questions": [
+    {"q": "Which tomato opened the GM crop era in 1994: Flavr Savr or Golden Rice?", "a": "Flavr Savr"},
+    {"q": "Which engineered crop reached Indian fields by 2003: Bt cotton or papaya?", "a": "Bt cotton"}
+  ]},
+  {"id": "lebt102.1", "title": "Host-Vector System", "questions": [
+    {"q": "Which E. coli strain leads prokaryotic cloning hosts: K12 or O157?", "a": "K12"},
+    {"q": "A usable vector must carry an origin of what: replication or transport?", "a": "replication"}
+  ]},
+  {"id": "lebt102.2", "title": "Plasmid Copy Number", "questions": [
+    {"q": "Relaxed high-copy plasmids reach how many copies per cell: ten to thirty, or one?", "a": "ten to thirty"},
+    {"q": "The 4.4 kb engineered plasmid descended from which 9 kb parent: pBR313 or lambda?", "a": "pBR313"}
+  ]},
+  {"id": "lebt102.3", "title": "Lambda Phage Vectors", "questions": [
+    {"q": "How many base pairs long is lambda's linear genome: 48,490 or 4,849?", "a": "48490"},
+    {"q": "How many bases make lambda's cohesive ends: twelve or two?", "a": "twelve"}
+  ]},
+  {"id": "lebt102.4", "title": "M13 Vectors", "questions": [
+    {"q": "M13 infects only E. coli bearing which structure: the F-pilus or a flagellum?", "a": "the F-pilus"},
+    {"q": "M13 yields abundant which template from the medium: single-stranded or double-stranded DNA?", "a": "single-stranded"}
+  ]},
+  {"id": "lebt102.5", "title": "Cosmids and Phasmids", "questions": [
+    {"q": "A cosmid grafts lambda's what onto plasmid functions: the cos junction or its tail?", "a": "the cos junction"},
+    {"q": "Cosmids package inserts up to about how many kilobases: 45 or 4.5?", "a": "45"}
+  ]},
+  {"id": "lebt102.6", "title": "Artificial Chromosomes", "questions": [
+    {"q": "YACs carry inserts of 200 to how many kilobases: 500 or 50?", "a": "500"},
+    {"q": "Which vector type holds the largest inserts: YAC or a small plasmid?", "a": "YAC"}
+  ]},
+  {"id": "lebt102.7", "title": "Expression Vectors", "questions": [
+    {"q": "Eukaryotic genes expressed in prokaryotes must arrive without what: introns or exons?", "a": "introns"},
+    {"q": "Which element upstream of the gene gives inducible control: the promoter or the marker?", "a": "the promoter"}
+  ]},
+  {"id": "lebt102.8", "title": "Shuttle Vectors", "questions": [
+    {"q": "How many origins of replication does a shuttle vector pack: two or none?", "a": "two"},
+    {"q": "Shuttle vectors are engineered in bacteria and expressed where: in the eukaryote or nowhere?", "a": "in the eukaryote"}
+  ]},
+  {"id": "lebt103.1", "title": "Isolation of Nucleic Acids", "questions": [
+    {"q": "Which enzyme digests bacterial cell walls during DNA extraction: lysozyme or ligase?", "a": "lysozyme"},
+    {"q": "Which reagent starves nucleases of divalent ions: EDTA or ethanol?", "a": "EDTA"}
+  ]},
+  {"id": "lebt103.2", "title": "Restriction Enzyme Types", "questions": [
+    {"q": "Which restriction type cuts precisely within its recognition site: Type II or Type I?", "a": "Type II"},
+    {"q": "Restriction recognition sites are mostly what in sequence: palindromic or random?", "a": "palindromic"}
+  ]},
+  {"id": "lebt103.3", "title": "Enzyme Toolkit for DNA", "questions": [
+    {"q": "Which enzyme copies RNA into cDNA: reverse transcriptase or ligase?", "a": "reverse transcriptase"},
+    {"q": "Which enzyme adds template-free homopolymer tails: terminal transferase or kinase?", "a": "terminal transferase"}
+  ]},
+  {"id": "lebt103.4", "title": "DNA Transfer into Hosts", "questions": [
+    {"q": "DNA transfer through an F-pilus bridge is called what: conjugation or transduction?", "a": "conjugation"},
+    {"q": "Which method shoots DNA-coated gold particles into cells: the gene gun or heat shock?", "a": "the gene gun"}
+  ]},
+  {"id": "lebt103.5", "title": "Screening Recombinants", "questions": [
+    {"q": "Blue-white screening reads the status of which gene: lacZ or tetR?", "a": "lacZ"},
+    {"q": "An insert wrecking ampR exposes recombinants on plates carrying which antibiotic: ampicillin or tetracycline?", "a": "ampicillin"}
+  ]},
+  {"id": "lebt103.6", "title": "Blotting Techniques", "questions": [
+    {"q": "Which blotting technique asks about RNA: northern or Southern?", "a": "northern"},
+    {"q": "Which blotting flags proteins with a specific antibody: western or northern?", "a": "western"}
+  ]},
+  {"id": "lebt103.7", "title": "PCR Amplification", "questions": [
+    {"q": "Near what temperature do PCR strands separate: 95 degrees Celsius or 55?", "a": "95"},
+    {"q": "Starting from one template molecule, how many copies do 10 cycles give?", "a": "1024"}
+  ]},
+  {"id": "lebt103.8", "title": "Candidate Genes and Libraries", "questions": [
+    {"q": "Which library houses every fragment of the genome: genomic or cDNA?", "a": "genomic"},
+    {"q": "Which library stores only intron-free transcripts: cDNA or genomic?", "a": "cDNA"}
+  ]},
+  {"id": "lebt104.1", "title": "DNA Fingerprinting", "questions": [
+    {"q": "Who invented DNA fingerprinting in 1984: Alec Jeffreys or Mullis?", "a": "Alec Jeffreys"},
+    {"q": "Minisatellite repeat units run 10 to how many base pairs: 100 or 1000?", "a": "100"}
+  ]},
+  {"id": "lebt104.2", "title": "Transgenic Plants", "questions": [
+    {"q": "Which soil bacterium donates T-DNA to plants: Agrobacterium tumefaciens or Bacillus thuringiensis?", "a": "Agrobacterium tumefaciens"},
+    {"q": "For cereals, DNA enters as particles coated with which metal: gold or iron?", "a": "gold"}
+  ]},
+  {"id": "lebt104.3", "title": "Transgenic Animals", "questions": [
+    {"q": "Which ewe secreted alpha1-antitrypsin in her milk: Tracy or Rosie?", "a": "Tracy"},
+    {"q": "Which goat-made drug won FDA approval in 2009: ATryn or Humulin?", "a": "ATryn"}
+  ]},
+  {"id": "lebt104.4", "title": "Gene Therapy", "questions": [
+    {"q": "The 1990 gene therapy precedent treated which immune deficiency: ADA-SCID or diabetes?", "a": "ADA-SCID"},
+    {"q": "Which editing system snips mutations out directly: CRISPR-Cas9 or PCR?", "a": "CRISPR-Cas9"}
+  ]},
+  {"id": "lebt104.5", "title": "Recombinant Vaccines", "questions": [
+    {"q": "The subunit hepatitis B vaccine brews its antigen in which organism: Saccharomyces cerevisiae or E. coli?", "a": "Saccharomyces cerevisiae"},
+    {"q": "mRNA vaccines travel wrapped in what: lipid nanoparticles or paper?", "a": "lipid nanoparticles"}
+  ]},
+  {"id": "lebt104.6", "title": "Monoclonal Antibodies", "questions": [
+    {"q": "Which medium kills unfused myelomas in hybridoma work: HAT or LB?", "a": "HAT"},
+    {"q": "Who developed hybridoma technology in 1975: Koehler and Milstein, or Jeffreys?", "a": "Koehler and Milstein"}
+  ]},
+  {"id": "lebt104.7", "title": "Engineered Insulin", "questions": [
+    {"q": "How many residues does insulin's A chain hold?", "a": "21"},
+    {"q": "How many residues does insulin's B chain hold?", "a": "30"}
+  ]},
+  {"id": "lebt104.8", "title": "Growth Hormone Engineering", "questions": [
+    {"q": "How many residues long is mature human growth hormone: 191 or 26?", "a": "191"},
+    {"q": "Which host expresses the engineered growth hormone gene: E. coli or corn?", "a": "E. coli"}
+  ]},
+  {"id": "lebt105.1", "title": "Genetic Mapping", "questions": [
+    {"q": "One percent recombination defines what map unit: the centimorgan or the metre?", "a": "the centimorgan"},
+    {"q": "Genetic maps order loci by how often they what: recombine or transcribe?", "a": "recombine"}
+  ]},
+  {"id": "lebt105.2", "title": "Physical Mapping", "questions": [
+    {"q": "Two cuts in a circular DNA yield how many fragments?", "a": "2"},
+    {"q": "Sequence tagged sites run 200 to how many base pairs: 500 or 5000?", "a": "500"}
+  ]},
+  {"id": "lebt105.3", "title": "First-Generation Sequencing", "questions": [
+    {"q": "A capillary run reports about how many bases: 800-1000 or 8?", "a": "800"},
+    {"q": "How many capillaries work in parallel on one first-generation machine: 96 or 9?", "a": "96"}
+  ]},
+  {"id": "lebt105.4", "title": "Nanopore and Illumina", "questions": [
+    {"q": "Which platform threads single strands through a protein pore: nanopore or Illumina?", "a": "nanopore"},
+    {"q": "Illumina reads run 75 to how many bases: 300 or 3000?", "a": "300"}
+  ]},
+  {"id": "lebt105.5", "title": "Whole Genome and Metagenomics", "questions": [
+    {"q": "Sequencing a whole microbial community straight from the gut is called what: metagenomics or genomics?", "a": "metagenomics"},
+    {"q": "Which sequencing counts transcripts: RNASeq or ChipSeq?", "a": "RNASeq"}
+  ]},
+  {"id": "lebt105.6", "title": "Genome Editing", "questions": [
+    {"q": "Which endonuclease pairs with a guide RNA to cut DNA: Cas9 or ligase?", "a": "Cas9"},
+    {"q": "Knock-in of a corrected template version rides which repair route: homologous recombination or end joining?", "a": "homologous recombination"}
+  ]},
+  {"id": "lebt105.7", "title": "Structural, Functional, Comparative Genomics", "questions": [
+    {"q": "Which genomics lens asks what the genome does: functional or structural?", "a": "functional"},
+    {"q": "Which lens aligns species to find core and unique genes: comparative or physical?", "a": "comparative"}
+  ]},
+  {"id": "lebt105.8", "title": "Protein Engineering", "questions": [
+    {"q": "Which tag grabs nickel columns for one-step purification: six-histidine or green fluorescent?", "a": "six-histidine"},
+    {"q": "Which point mutation makes subtilisin bleach-proof: Met222Ala or Ser221Ala?", "a": "Met222Ala"}
+  ]},
+  {"id": "lebt106.1", "title": "Germ Theory and Pure Culture", "questions": [
+    {"q": "Whose swan-necked flasks killed spontaneous generation: Pasteur's or Koch's?", "a": "Pasteur's"},
+    {"q": "Who proved Bacillus anthracis causes anthrax by pure culture: Koch or Petri?", "a": "Koch"}
+  ]},
+  {"id": "lebt106.2", "title": "Nutritional Categories of Microbes", "questions": [
+    {"q": "Microbes that fix carbon dioxide are called what: autotrophs or heterotrophs?", "a": "autotrophs"},
+    {"q": "Which microbes mix light energy with organic carbon: photoheterotrophs or chemoautotrophs?", "a": "photoheterotrophs"}
+  ]},
+  {"id": "lebt106.3", "title": "Culture Media", "questions": [
+    {"q": "LB broth mixes ten percent tryptone, ten percent sodium chloride and five percent of what: yeast extract or agar?", "a": "yeast extract"},
+    {"q": "Which defined recipe supports E. coli: M9 or BG11?", "a": "M9"}
+  ]},
+  {"id": "lebt106.4", "title": "Sterilisation", "questions": [
+    {"q": "Autoclaves hold steam at what temperature: 121 degrees Celsius or 21?", "a": "121"},
+    {"q": "UV lamps peak near what wavelength: 260 nanometres or 26?", "a": "260"}
+  ]},
+  {"id": "lebt106.5", "title": "Pure Culture Techniques", "questions": [
+    {"q": "Which technique thins a loopful across an agar surface: the streak plate or the pour plate?", "a": "the streak plate"},
+    {"q": "Each isolated colony on a streak plate is a what: a clone or a mixture?", "a": "a clone"}
+  ]},
+  {"id": "lebt106.6", "title": "Factors Affecting Microbial Growth", "questions": [
+    {"q": "Mesophiles peak between twenty and how many degrees Celsius: forty-five or four?", "a": "forty-five"},
+    {"q": "Fungi prefer which pH: slight acidity or strong alkalinity?", "a": "slight acidity"}
+  ]},
+  {"id": "lebt106.7", "title": "Bacterial Growth Curve", "questions": [
+    {"q": "Name the growth phase of maximal constant doubling: the log phase or the lag phase?", "a": "the log phase"},
+    {"q": "In which phase do cell births balance deaths: stationary or decline?", "a": "stationary"}
+  ]},
+  {"id": "lebt106.8", "title": "Growth Kinetics", "questions": [
+    {"q": "Dividing 0.693 by the doubling time gives the specific what: growth rate or yield?", "a": "growth rate"},
+    {"q": "Five generations from one cell leave how many cells?", "a": "32"}
+  ]},
+  {"id": "lebt107.1", "title": "Totipotency and Tissue Culture History", "questions": [
+    {"q": "Who advanced the totipotency intuition in 1902: Haberlandt or Skoog?", "a": "Haberlandt"},
+    {"q": "Whose 1962 medium became the tissue culture standard: Murashige and Skoog's, or White's?", "a": "Murashige and Skoog's"}
+  ]},
+  {"id": "lebt107.2", "title": "Explant to Plantlet", "questions": [
+    {"q": "The starting tissue piece in culture is called an what: explant or implant?", "a": "explant"},
+    {"q": "Dedifferentiated plant tissue mass is called a what?", "a": "callus"}
+  ]},
+  {"id": "lebt107.3", "title": "Auxin-Cytokinin Balance", "questions": [
+    {"q": "Excess auxin in the medium pushes what organ: roots or shoots?", "a": "roots"},
+    {"q": "Excess cytokinin pushes what: shoots or roots?", "a": "shoots"}
+  ]},
+  {"id": "lebt107.4", "title": "MS Medium versus White Medium", "questions": [
+    {"q": "MS medium's potassium nitrate runs how many milligrams per litre: 1900 or 80?", "a": "1900"},
+    {"q": "Which classic recipe is the salt-light comparator: White's medium or MS?", "a": "White's medium"}
+  ]},
+  {"id": "lebt107.5", "title": "Micropropagation and Synthetic Seeds", "questions": [
+    {"q": "Synthetic seeds encapsulate somatic embryos in coats of what: calcium alginate or plastic?", "a": "calcium alginate"},
+    {"q": "India regenerates over how many banana plantlets a year: 400 million or 400?", "a": "400 million"}
+  ]},
+  {"id": "lebt107.6", "title": "Haploids and Somatic Hybrids", "questions": [
+    {"q": "Which chemical doubles haploid chromosome sets: colchicine or caffeine?", "a": "colchicine"},
+    {"q": "Who made the 1972 protoplast-fusion Nicotiana hybrids: Carlson or Guha?", "a": "Carlson"}
+  ]},
+  {"id": "lebt107.7", "title": "Meristem Culture", "questions": [
+    {"q": "Meristem tips shorter than what length yield virus-free plants: one millimetre or one centimetre?", "a": "one millimetre"},
+    {"q": "Viruses scatter how through plant bodies, which spares the meristem: unevenly or uniformly?", "a": "unevenly"}
+  ]},
+  {"id": "lebt107.8", "title": "Somaclonal Variation and Metabolites", "questions": [
+    {"q": "Who coined the term somaclonal variation in 1981: Larkin and Scowcroft, or Haberlandt?", "a": "Larkin and Scowcroft"},
+    {"q": "Which antimalarial metabolite do cell cultures overproduce: artemisinin or insulin?", "a": "artemisinin"}
+  ]},
+  {"id": "lebt108.1", "title": "Animal Cell Media and Serum", "questions": [
+    {"q": "Which serum is the animal-culture favourite: fetal bovine serum or plant sap?", "a": "fetal bovine serum"},
+    {"q": "Serum feeds cells but carries what twin risks: contamination and variability, or photosynthesis?", "a": "contamination and variability"}
+  ]},
+  {"id": "lebt108.2", "title": "Culture Buffering", "questions": [
+    {"q": "Animal cell cultures incubate at what temperature: 37 degrees Celsius or 90?", "a": "37"},
+    {"q": "Which buffer holds culture pH in the 7.2-7.4 window: HEPES or phenol red?", "a": "HEPES"}
+  ]},
+  {"id": "lebt108.3", "title": "Laminar Hoods and Incubators", "questions": [
+    {"q": "Which airflow direction protects the operator better: vertical downflow or horizontal crossflow?", "a": "vertical downflow"},
+    {"q": "Carbon dioxide incubators hold about what humidity: 95 percent or 5 percent?", "a": "95 percent"}
+  ]},
+  {"id": "lebt108.4", "title": "Cell Lines", "questions": [
+    {"q": "Cells taken straight from tissue form what cultures: primary or secondary?", "a": "primary"},
+    {"q": "Which immortal line has grown since George Gey cultured it: HeLa or CHO?", "a": "HeLa"}
+  ]},
+  {"id": "lebt108.5", "title": "Subculture and Cryopreservation", "questions": [
+    {"q": "Cryopreservation stocks sleep in liquid nitrogen at about what temperature: minus 196 degrees Celsius or plus 196?", "a": "minus 196"},
+    {"q": "Which cryoprotectant takes ten percent of the freezing medium: DMSO or ethanol?", "a": "DMSO"}
+  ]},
+  {"id": "lebt108.6", "title": "Cell Viability Assays", "questions": [
+    {"q": "Which dye enters only membrane-broken dead cells: trypan blue or methylene blue?", "a": "trypan blue"},
+    {"q": "Live mitochondria reduce MTT into which coloured product: purple formazan or green colouring?", "a": "purple formazan"}
+  ]},
+  {"id": "lebt108.7", "title": "Growth Timing of Animal Cells", "questions": [
+    {"q": "Animal cells divide once every how many hours: eighteen to twenty-four, or two?", "a": "eighteen to twenty-four"},
+    {"q": "Four division cycles from 10 cells leave how many cells?", "a": "160"}
+  ]},
+  {"id": "lebt108.8", "title": "Pharmaceutical Proteins from CHO Cells", "questions": [
+    {"q": "Which cell line manufactures erythropoietin: CHO or HeLa?", "a": "CHO"},
+    {"q": "Tissue plasminogen activator was the first drug made in which culture: mammalian or bacterial?", "a": "mammalian"}
+  ]},
+  {"id": "lebt109.1", "title": "Stem Cell Sources", "questions": [
+    {"q": "Stem cells hold self-renewal and what second power: potency or dormancy?", "a": "potency"},
+    {"q": "Stem cells wait in the inner cell mass of which structure: the blastocyst or the seed?", "a": "the blastocyst"}
+  ]},
+  {"id": "lebt109.2", "title": "Potency Ladder", "questions": [
+    {"q": "Totipotency expires at how many cells: eight or eighty?", "a": "eight"},
+    {"q": "Pluripotent cells build ectoderm, mesoderm and which third layer: endoderm or exoderm?", "a": "endoderm"}
+  ]},
+  {"id": "lebt109.3", "title": "Plasticity of Adult Stem Cells", "questions": [
+    {"q": "One mature phenotype becoming another is called what: trans-differentiation or dedifferentiation?", "a": "trans-differentiation"},
+    {"q": "Which explanation of apparent fate-switches points to mixed cultures: clonal impurity or purity?", "a": "clonal impurity"}
+  ]},
+  {"id": "lebt109.4", "title": "Stem Cell Therapy", "questions": [
+    {"q": "Which stem cells grown from plucked hair build rejection-proof skin: keratinocyte or blood?", "a": "keratinocyte"},
+    {"q": "Which cells aim to remyelinate multiple sclerosis: neural and marrow cells, or muscle cells?", "a": "neural and marrow cells"}
+  ]},
+  {"id": "lebt109.5", "title": "Challenges of Stem Cell Research", "questions": [
+    {"q": "Which risk forces immunosuppression: immune rejection or photosensitivity?", "a": "immune rejection"},
+    {"q": "Endlessly dividing embryonic cells can seed what: tumours or flowers?", "a": "tumours"}
+  ]},
+  {"id": "lebt109.6", "title": "Human ESC Timeline", "questions": [
+    {"q": "In which year were human embryonic stem cells first derived: 1998 or 2010?", "a": "1998"},
+    {"q": "Human induced pluripotent cells arrived in which year: 2006 or 1996?", "a": "2006"}
+  ]},
+  {"id": "lebt109.7", "title": "Organ Culture", "questions": [
+    {"q": "Nutrients reach only the periphery, so bulky organ cultures what at the core: necrose or flourish?", "a": "necrose"},
+    {"q": "Which oxygen regime pushes diffusion deeper: hyperbaric or hypobaric?", "a": "hyperbaric"}
+  ]},
+  {"id": "lebt109.8", "title": "Histotypic, Organotypic, Organoids", "questions": [
+    {"q": "Growing one characterised line at high density in matrix is which culture: histotypic or organotypic?", "a": "histotypic"},
+    {"q": "Recombining lineages so fibroblasts and epithelia rebuild tissue is which culture: organotypic or histotypic?", "a": "organotypic"}
+  ]},
+  {"id": "lebt110.1", "title": "Primary and Secondary Metabolites", "questions": [
+    {"q": "Antibiotics and pigments are which metabolites: secondary or primary?", "a": "secondary"},
+    {"q": "The amino acids of everyday metabolism are which metabolites?", "a": "primary"}
+  ]},
+  {"id": "lebt110.2", "title": "Bioreactor Design", "questions": [
+    {"q": "Which bioreactor part bubbles sterilised air through microfilters: the sparger or the baffle?", "a": "the sparger"},
+    {"q": "Which parts smash the power-wasting vortex: baffles or probes?", "a": "baffles"}
+  ]},
+  {"id": "lebt110.3", "title": "Reactor Configurations", "questions": [
+    {"q": "Which reactor lifts broth on an air current alone: the air-lift or the stirred tank?", "a": "the air-lift"},
+    {"q": "Which reactor is gentlest for shear-sensitive cells: the bubble column or the stirred tank?", "a": "the bubble column"}
+  ]},
+  {"id": "lebt110.4", "title": "Upstream Processing", "questions": [
+    {"q": "Dry cell mass per unit substrate consumed defines what coefficient: the yield or the drag?", "a": "yield"},
+    {"q": "Dissolved oxygen near how many grams per litre marks the ceiling: eight or eighty?", "a": "eight"}
+  ]},
+  {"id": "lebt110.5", "title": "Batch, Fed-Batch, Continuous", "questions": [
+    {"q": "Which operation dribbles in the growth-limiting substrate: fed-batch or batch?", "a": "fed-batch"},
+    {"q": "Which operation pours fresh medium in and draws broth out at steady state: continuous or batch?", "a": "continuous"}
+  ]},
+  {"id": "lebt110.6", "title": "Downstream Processing", "questions": [
+    {"q": "Filtration and centrifugation separate what from the broth: the biomass or the pH?", "a": "the biomass"},
+    {"q": "Which machines rupture cells for intracellular products: bead mills and ultrasonicators, or incubators?", "a": "bead mills"}
+  ]},
+  {"id": "lebt110.7", "title": "Membrane Separations", "questions": [
+    {"q": "Microfiltration holds back bacteria through pores of 0.1 to how many microns: 10 or 0.1?", "a": "10"},
+    {"q": "Reverse osmosis runs under how many psi: up to 800 or 8?", "a": "800"}
+  ]},
+  {"id": "lebt110.8", "title": "Commercial Products", "questions": [
+    {"q": "Which fungus brews citric acid: Aspergillus niger or Penicillium?", "a": "Aspergillus niger"},
+    {"q": "Which bacterium's mutants make glutamic acid and lysine: Corynebacterium glutamicum or E. coli?", "a": "Corynebacterium glutamicum"}
+  ]},
+  {"id": "lebt111.1", "title": "Sewage and BOD", "questions": [
+    {"q": "Sewage is ninety-nine percent what: water or sludge?", "a": "water"},
+    {"q": "BOD samples incubate at twenty degrees for how many days: five or fifty?", "a": "five"}
+  ]},
+  {"id": "lebt111.2", "title": "Primary Treatment", "questions": [
+    {"q": "Primary treatment trims what percent of BOD: thirty to forty, or ninety?", "a": "thirty to forty"},
+    {"q": "Which tank drops sand during primary treatment: the grit chamber or the digester?", "a": "the grit chamber"}
+  ]},
+  {"id": "lebt111.3", "title": "Secondary Treatment", "questions": [
+    {"q": "Which treatment blows compressed air through activated sludge tanks: secondary or tertiary?", "a": "secondary"},
+    {"q": "Anaerobic sludge digestion releases a biogas of sixty to seventy percent what: methane or oxygen?", "a": "methane"}
+  ]},
+  {"id": "lebt111.4", "title": "Tertiary Treatment", "questions": [
+    {"q": "Which chemical precipitates phosphorus in tertiary treatment: lime or salt?", "a": "lime"},
+    {"q": "Which beds polish off dissolved organics: activated-carbon or sand beds?", "a": "activated-carbon"}
+  ]},
+  {"id": "lebt111.5", "title": "Composting", "questions": [
+    {"q": "Compost's thermophilic phase runs above how many degrees Celsius: forty or four?", "a": "forty"},
+    {"q": "Compost temperatures of fifty-five and beyond destroy what: pathogens or nutrients?", "a": "pathogens"}
+  ]},
+  {"id": "lebt111.6", "title": "Biomedical Waste Codes", "questions": [
+    {"q": "Which colour bin holds anatomical and soiled waste: yellow or blue?", "a": "yellow"},
+    {"q": "Which colour bin holds sharps and needles: white or red?", "a": "white"}
+  ]},
+  {"id": "lebt111.7", "title": "Pesticides and Biomagnification", "questions": [
+    {"q": "Which pesticide family endures for years and magnifies up food chains: organochlorines like DDT, or pyrethroids?", "a": "organochlorines"},
+    {"q": "Organophosphates inhibit which enzyme: cholinesterase or amylase?", "a": "cholinesterase"}
+  ]},
+  {"id": "lebt111.8", "title": "Bioremediation Strategies", "questions": [
+    {"q": "Whose plasmid-spliced superbug famously digested oil: Chakrabarty's or Pasteur's?", "a": "Chakrabarty's"},
+    {"q": "Which plants are recruited to pull up metals: Brassica and sunflower, or oak and pine?", "a": "Brassica and sunflower"}
+  ]},
+  {"id": "lebt112.1", "title": "Biofuels", "questions": [
+    {"q": "Ethanol is blended into Indian petrol at up to what percent: ten or fifty?", "a": "ten"},
+    {"q": "Which biofuel runs unmodified diesel engines: biodiesel or ethanol?", "a": "biodiesel"}
+  ]},
+  {"id": "lebt112.2", "title": "Bioplastics and Green Industry", "questions": [
+    {"q": "Which bacterium brews PHB bioplastic: Alcaligenes eutrophus or E. coli?", "a": "Alcaligenes eutrophus"},
+    {"q": "Which fungi spare energy in paper mills: biopulping fungi or yeasts?", "a": "biopulping fungi"}
+  ]},
+  {"id": "lebt112.3", "title": "GM Crops for Resistance", "questions": [
+    {"q": "Roundup Ready crops shrug off which herbicide: glyphosate or DDT?", "a": "glyphosate"},
+    {"q": "Viral coat-protein genes vaccinate papaya against which viruses: mosaic and ringspot, or influenza?", "a": "mosaic and ringspot"}
+  ]},
+  {"id": "lebt112.4", "title": "GM Trait Gains", "questions": [
+    {"q": "Transgenic eucalyptus harvests in five and a half years instead of how many: seven or seventeen?", "a": "seven"},
+    {"q": "Starch-boosted potato carries what percent more starch: sixty or six?", "a": "sixty"}
+  ]},
+  {"id": "lebt112.5", "title": "Regenerative Medicine", "questions": [
+    {"q": "Grafts moved within one body are called what: autografts or allografts?", "a": "autografts"},
+    {"q": "Stem cells in which hydrogel self-assemble into organoids: Matrigel or gelatin dessert?", "a": "Matrigel"}
+  ]},
+  {"id": "lebt112.6", "title": "Nanobiotechnology", "questions": [
+    {"q": "Below thirty nanometres, bulk gold turns which colour: ruby red or green?", "a": "ruby red"},
+    {"q": "One atom spans how many nanometres: 0.1 or 10?", "a": "0.1"}
+  ]},
+  {"id": "lebt112.7", "title": "Nanomedicine", "questions": [
+    {"q": "Which effect keeps nanocarriers trapped in tumours: enhanced permeability and retention, or gravity?", "a": "enhanced permeability and retention"},
+    {"q": "Which metal's nanoparticles dress wounds: silver or lead?", "a": "silver"}
+  ]},
+  {"id": "lebt112.8", "title": "Synthetic Biology", "questions": [
+    {"q": "Synthetic biology was announced at MIT in which year: 2004 or 1994?", "a": "2004"},
+    {"q": "Designers email what four-letter text to synthesis companies: ATGC or ABCD?", "a": "ATGC"}
+  ]},
+  {"id": "lebt113.1", "title": "Entrepreneur Roles", "questions": [
+    {"q": "From which French verb does entrepreneur derive: enterprendre or entree?", "a": "enterprendre"},
+    {"q": "The entrepreneur plays innovator, organiser and which third part: risk bearer or bookkeeper?", "a": "risk bearer"}
+  ]},
+  {"id": "lebt113.2", "title": "Startup Recognition", "questions": [
+    {"q": "Startup India requires turnover below how many crore rupees: one hundred or ten thousand?", "a": "one hundred"},
+    {"q": "A venture stays recognised only up to how many years from incorporation: ten or fifty?", "a": "ten"}
+  ]},
+  {"id": "lebt113.3", "title": "Sources of Funds", "questions": [
+    {"q": "Wealthy field leaders backing early stages with money and mentorship are called what investors: angel or venture?", "a": "angel"},
+    {"q": "Business incubators host startups for about how many years: two or twenty?", "a": "two"}
+  ]},
+  {"id": "lebt113.4", "title": "Biotech versus General Entrepreneur", "questions": [
+    {"q": "Does bio-entrepreneurship carry longer or shorter gestation than general ventures?", "a": "longer"},
+    {"q": "Biotech founders need very high what kind of qualification: academic or athletic?", "a": "academic"}
+  ]},
+  {"id": "lebt113.5", "title": "Bharat Biotech Case Study", "questions": [
+    {"q": "In which city was Bharat Biotech seeded in 1997: Hyderabad or Delhi?", "a": "Hyderabad"},
+    {"q": "Bharat Biotech has shipped over how many vaccine doses: four billion or four lakh?", "a": "four billion"}
+  ]},
+  {"id": "lebt113.6", "title": "IPR and Patents", "questions": [
+    {"q": "Indian patents rest on which act: the Patents Act 1970 or the Patents Act 1870?", "a": "the Patents Act 1970"},
+    {"q": "A patent demands novelty, an inventive step and which third test: utility or beauty?", "a": "utility"}
+  ]},
+  {"id": "lebt113.7", "title": "Plant Breeder Rights", "questions": [
+    {"q": "Plant breeder's rights run roughly twenty to how many years: twenty-five or five?", "a": "twenty-five"},
+    {"q": "A protected variety must be novel, distinct, uniform and what else: stable or sweet?", "a": "stable"}
+  ]},
+  {"id": "lebt113.8", "title": "Biopiracy Cases", "questions": [
+    {"q": "Which body toppled the turmeric wound-healing patent in 1997: the CSIR or the USDA?", "a": "the CSIR"},
+    {"q": "Which rice's 1997 patent claims were partly struck down: Basmati, held by RiceTec, or Jasmine?", "a": "Basmati"}
+  ]}
+ ]
+}

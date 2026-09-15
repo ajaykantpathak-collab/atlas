@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_01_009",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_01_009",
+   "title": "c12_hist_cbse_01_009",
+   "questions": [
+    {
+     "q": "What is the primary material used for making Harappan seals, and what is the approximate range of distinct signs in the Harappan script?",
+     "a": "Harappan seals were primarily made of steatite (a soft soapstone), and the script comprises 375–400 distinct signs. A wrong answer (e.g., \"terracotta\" or \"alphabetical script of 26 letters\") reveals confusion with later historical periods or a misunderstanding that the script is logo-syllabic, not alphabetic.",
+     "self_check": true
+    },
+    {
+     "q": "Why do archaeologists conclude that the Harappan script was written from right to left?",
+     "a": "On many seals, the signs are widely spaced on the right side and cramped on the left, indicating the engraver started on the right and ran out of space. A wrong answer (e.g., \"because Mesopotamian cuneiform was right-to-left\") shows the student is borrowing from a neighbouring civilisation without using internal epigraphic evidence.",
+     "self_check": true
+    },
+    {
+     "q": "A sealing from Ropar shows impressions of three different seals on a single lump of clay. What does this indicate about Harappan trade administration?",
+     "a": "It indicates that multiple parties (e.g., sender, receiver, customs official) authenticated the same consignment, reflecting a multi-layered verification system for high-value or long-distance shipments. A wrong answer (e.g., \"the seal was pressed three times by mistake\") misses the administrative sophistication implied by multiple distinct seal impressions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Harappan weight system (binary fractions, decimal multiples) with the Mesopotamian sexagesimal system. What does the Harappan system's structure suggest about the types of goods most frequently weighed?",
+     "a": "The binary fractions (1, 2, 4, 8, 16, 32) are ideal for weighing small, high-value items like beads, gold, or spices where precise subdivision matters, while the decimal multiples (160, 200, 320, 640) suit bulk commodities. A wrong answer that only describes the numbers without linking binary fractions to high-value micro-weighing shows lack of functional analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The Harappan script must have been used only for religious purposes because it appears on seals with animal motifs.\"",
+     "a": "The statement is flawed: inscriptions appear on copper tools, jar rims, terracotta tablets, bone rods, and a large signboard at Dholavira — contexts that are utilitarian or civic, not exclusively religious. A student who agrees ignores the archaeological context distribution and commits the \"religious default\" fallacy common in early archaeology.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 5-step argument using archaeological evidence to prove that Harappan seals functioned as administrative tools for trade regulation rather than merely as personal ornaments or amulets.",
+     "a": "1. Sealings on knots of bags/jars show physical securing of goods. 2. Multiple seal impressions on one sealing indicate chain of custody. 3. Standardised weights (chert cubical, no markings) found across 1,000+ km imply central regulation. 4. Mesopotamian texts name \"Meluhha\" (Harappa) exporting carnelian, lapis, copper — matching seal-find spots. 5. Signboard at Dholavira suggests public, non-personal use. A weak answer lists only motifs or ignores the weight-seal-sealing triad.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

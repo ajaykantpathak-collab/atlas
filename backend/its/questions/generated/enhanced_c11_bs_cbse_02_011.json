@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_02_011",
+   "title": "c11_bs_cbse_02_011",
+   "questions": [
+    {
+     "q": "List the five major forms of business organisation covered in the NCERT Class 11 chapter for which a comparative distinction is required.",
+     "a": "The five forms are: (1) Sole Proprietorship, (2) Joint Hindu Family Business, (3) Partnership, (4) Cooperative Society, and (5) Joint Stock Company (including Private and Public Companies). A wrong answer (e.g., including \"LLP\" or \"Multinational Corporation\") reveals the student is confusing the NCERT syllabus scope with real-world business types or later chapters (like Class 12). The NCERT chapter explicitly limits comparison to these five.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"liability\" is considered the most critical basis for distinguishing between forms of business organisation from an investor's perspective.",
+     "a": "Liability determines the maximum financial risk an owner bears. In Sole Proprietorship and Partnership, liability is unlimited—creditors can seize personal assets (house, car) to settle business debts. In Company and Cooperative, liability is limited to the unpaid share capital or capital contribution, protecting personal wealth. A student who says \"liability is about who manages the business\" confuses liability with control. A student who claims \"Partnership has limited liability because partners share losses\" misunderstands that sharing losses ≠ limited liability; partners remain jointly and severally liable for the full debt.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul wants to start a business with his two friends. They have ₹10 lakh combined savings, want to avoid complex legal formalities, but insist that their personal assets (homes, cars) must never be at risk for business debts. Which form should they choose? Justify by comparing on liability and formation complexity.",
+     "a": "They should choose a **Private Limited Company**.\nStep 1: Requirement 1 = Limited Liability. Sole Proprietorship (unlimited), Partnership (unlimited joint & several), Joint Hindu Family (Karta unlimited) are eliminated. Cooperative (limited) and Company (limited) remain.\nStep 2: Requirement 2 = Simple Formation. Cooperative requires compulsory registration, minimum 10 members, and government oversight. Private Company requires registration but only 2 members, no minimum capital, and fewer compliances than Public Company.\nStep 3: Private Company satisfies both: limited liability (shareholders liable only up to unpaid share capital) and relatively easier formation than Public Company/Cooperative. A wrong answer choosing Partnership shows the student ignores the \"personal assets at risk\" constraint. Choosing Cooperative shows they ignore the \"3 friends\" membership constraint (min 10 adults).",
+     "self_check": true
+    },
+    {
+     "q": "Compare Partnership and Joint Stock Company on the bases of (a) Continuity of Existence and (b) Transferability of Ownership. Explain how these differences affect the ability to raise long-term capital.",
+     "a": "(a) **Continuity**: Partnership lacks continuity—death/insolvency/retirement of a partner dissolves the firm (unless remaining partners reconstitute). Company has perpetual succession—existence unaffected by death/insolvency of shareholders; only winding up under law ends it. (b) **Transferability**: Partnership share transfer requires consent of all partners (restricted). Public Company shares are freely transferable on stock exchange; Private Company shares have restrictions but are more transferable than partnership. **Impact on Capital**: Investors prefer Company because (i) they can exit easily by selling shares (liquidity), and (ii) business continuity ensures their investment isn't jeopardized by a partner's personal fate. Partnership's instability and illiquidity deter large-scale, long-term investment. A student saying \"Partnership has continuity because partners can sign a new deed\" misses that the *original* firm ends—legal identity changes. A student saying \"Private Company shares are freely transferable\" confuses Private with Public Company.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"A Cooperative Society is always a better choice than a Private Company for a group of 20 artisans wanting to pool resources, because both offer limited liability and democratic control.\"",
+     "a": "The statement is **flawed**. While both offer limited liability, the comparison ignores three critical differences:\n1. **Control**: Cooperative = \"One member, one vote\" (democratic). Private Company = Voting rights proportional to shareholding (plutocratic). For artisans wanting equal say, Cooperative wins.\n2. **Capital Raising**: Private Company can issue shares to up to 200 members and raise debt easily due to corporate structure. Cooperative relies on member contributions (limited means) and low dividend rates deter capital.\n3. **Regulatory Burden**: Cooperative faces government control (audit, state registrar interference). Private Company has compliances but more operational autonomy.\n4. **Profit Motive**: Cooperative = Service motive; surplus distributed as dividend per bye-laws. Private Company = Profit maximization; artisans may prefer profit retention for growth.\n**Verdict**: If artisans prioritize democratic control and welfare over rapid scaling, Cooperative is better. If they need large capital, professional management, and plan to scale, Private Company is better. A student agreeing with the statement shows \"single-criterion bias\" (only looking at liability) and ignores capital, control nuance, and regulatory trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new hypothetical form of business organisation called a \"Community Enterprise\" that combines the limited liability of a Company, the democratic control of a Cooperative, and the formation ease of a Partnership. Specify its rules for: (a) Minimum/Maximum members, (b) Liability, (c) Management, (d) Continuity, (e) Capital raising. Explain which existing form it most closely resembles and why it doesn't exist in current Indian law.",
+     "a": "**Community Enterprise Design**:\n(a) Members: Min 2, Max 100 (like Private Company but higher than Partnership's 50).\n(b) Liability: Limited to capital contribution (like Company/Cooperative).\n(c) Management: Elected Board (1 member = 1 vote) but Board appoints professional CEO (hybrid democratic + professional).\n(d) Continuity: Perpetual succession (like Company).\n(e) Capital: Can accept deposits from members only (like Cooperative), cannot invite public (like Private Company), can issue debentures to members.\n**Closest Resemblance**: **Cooperative Society** (democratic control, limited liability, member-based capital) but with Partnership-like formation ease (no compulsory registration? But registration gives legal identity—trade-off). **Why it doesn't exist**: Indian law separates \"member-owned democratic\" (Cooperative Societies Act) from \"investor-owned corporate\" (Companies Act). A hybrid would blur the regulatory frameworks—RBI/SEBI regulate capital raising, Registrar of Companies/Cooperatives regulate governance. The \"Community Enterprise\" would fall into a regulatory gap. A good answer identifies the regulatory conflict; a poor answer just lists features without analyzing legal feasibility.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_13_012",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_13_012",
+   "title": "c11_ps_cbse_13_012",
+   "questions": [
+    {
+     "q": "Article 310 of the Indian Constitution establishes which fundamental principle regarding civil servants' tenure?",
+     "a": "Article 310 establishes the \"pleasure doctrine\" — civil servants hold office during the pleasure of the President (Union) or Governor (States). A wrong answer (e.g., \"fixed tenure\" or \"lifetime appointment\") reveals the student confuses Indian civil service with the US \"spoils system\" or misunderstands that constitutional safeguards (Article 311) modify but don't replace the pleasure doctrine.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution mandate political neutrality of civil servants (Article 311 protections) rather than allowing \"committed bureaucracy\" loyal to the ruling party?",
+     "a": "Political neutrality ensures: (1) continuity of administration across regime changes, (2) impartial implementation of laws for all citizens regardless of political affiliation, (3) fearless advice to ministers based on evidence not political expediency. A wrong answer citing \"efficiency\" or \"loyalty to government\" reveals confusion between loyalty to Constitution (required) vs loyalty to political party (prohibited) — a classic senior secondary error conflating \"government\" with \"state.\"",
+     "self_check": true
+    },
+    {
+     "q": "A Minister directs a Secretary to bypass tender procedures for a ₹500 crore infrastructure contract citing \"urgency.\" The Secretary refuses, citing GFR (General Financial Rules). Which accountability mechanism is the Secretary invoking, and what happens if the Minister insists in writing?",
+     "a": "The Secretary invokes financial accountability under GFR and constitutional responsibility under Article 311. If Minister insists in writing (formal direction), Secretary must comply but the decision becomes subject to: CAG audit, PAC scrutiny, CVC investigation, and judicial review. A wrong answer (\"Secretary must always obey Minister\") ignores the constitutional distinction between policy decisions (Minister's domain) and procedural propriety (Secretary's duty) — a critical senior secondary misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the accountability of an IAS officer (All India Service) versus a State Civil Service officer when both commit administrative misconduct. How do constitutional provisions (Articles 311, 312) create different disciplinary pathways?",
+     "a": "IAS officer: Disciplinary authority is Union Government (DoPT), with UPSC consultation mandatory for major penalties (Art. 312 + 311). State officer: Disciplinary authority is State Government, with State PSC consultation. Both enjoy Art. 311 protections (no dismissal without inquiry). A wrong answer treating both identically misses the federal dimension — All India Services create a dual accountability structure (Union for discipline, State for functional control) essential to cooperative federalism.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the Lokpal and Lokayuktas Act, 2013 in ensuring bureaucratic accountability. Consider: (a) jurisdiction over Group A-D officers, (b) time-bound inquiry provisions, (c) exclusion of armed forces, (d) requirement of prior sanction for prosecution.",
+     "a": "Effectiveness is partial: Strengths — covers all central government employees, time-bound (6+6 months), asset declaration mandatory. Weaknesses — prior sanction requirement (Section 19) dilutes independence, exclusion of armed forces, no jurisdiction over state officials (Lokayuktas vary), political influence in selection committee. A wrong answer calling it \"fully effective\" or \"completely useless\" fails to weigh institutional design against operational constraints — a senior secondary evaluation skill gap.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 3-point code of conduct for civil servants during election period (Model Code of Conduct) that balances neutrality with administrative continuity. Justify each point constitutionally.",
+     "a": "1. No new policy announcements/major contracts (Art. 324 — EC's superintendence over elections). 2. No use of official resources for campaigning (Art. 14 — equality, Art. 311 — neutrality). 3. Continue routine services (PDS, health, law/order) without discrimination (Art. 21 — right to life, Art. 39 — directive principles). A poor answer either paralyzes administration (\"stop all work\") or permits partisan action (\"help ruling party\") — both violate the constitutional mandate of neutral competence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

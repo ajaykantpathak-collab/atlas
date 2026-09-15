@@ -1,0 +1,93 @@
+{
+ "catalog": "catalog_class6_science_fecu109.json",
+ "concepts": [
+  {
+   "id": "fecu.9.1",
+   "title": "Why We Separate Substances",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why do we need to separate substances?",
+     "a": "To remove harmful or useless parts, and to get useful components separately (grain from stalk).",
+     "self_check": true
+    },
+    {
+     "q": "Name one separation you see in the kitchen.",
+     "a": "Filtering tea leaves, or draining water from boiled rice.",
+     "self_check": true
+    },
+    {
+     "q": "What happens if we do not remove impurities from food?",
+     "a": "Pebbles and dust can break teeth and harm health.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.9.2",
+   "title": "Handpicking, Threshing and Winnowing",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "When is handpicking used for separation?",
+     "a": "When unwanted bits are few and large enough to pick - stones from dal.",
+     "self_check": true
+    },
+    {
+     "q": "How does winnowing separate grain from husk?",
+     "a": "Wind blows the light husk away while the heavy grain falls straight down.",
+     "self_check": true
+    },
+    {
+     "q": "What is threshing?",
+     "a": "Beating stalks to free the grain, done by bullocks or machines (threshers).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.9.3",
+   "title": "Sieving and Settling Methods",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How does sieving separate a mixture?",
+     "a": "Fine particles pass through the sieve holes; bigger bits stay behind.",
+     "self_check": true
+    },
+    {
+     "q": "What is sedimentation and decantation?",
+     "a": "Heavy particles settle in water (sedimentation); the clear top water is poured off (decantation).",
+     "self_check": true
+    },
+    {
+     "q": "Name one use of sedimentation at home.",
+     "a": "Letting muddy water settle before pouring the clearer water out.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.9.4",
+   "title": "Evaporation: Recovering Salt from Solution",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How is salt recovered from salt solution?",
+     "a": "By evaporating the water - salt crystals remain in the dish.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the salt stay behind when water evaporates?",
+     "a": "Salt does not evaporate; only the water leaves as vapour.",
+     "self_check": true
+    },
+    {
+     "q": "Can this method give back the water too? How?",
+     "a": "Yes - by condensing the vapour on a cold surface (distillation).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

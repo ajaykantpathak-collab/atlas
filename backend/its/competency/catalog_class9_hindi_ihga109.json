@@ -1,0 +1,251 @@
+{
+ "class": 9,
+ "subject": "hindi",
+ "chapter": 9,
+ "chapter_title": "राम-लक्ष्मण-परशुराम संवाद",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/ihga109.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "ihga.109.1.1",
+   "title": "तुलसीदास और रामचरितमानस: मर्यादा-पुरुषोत्तम का काव्य",
+   "section": "1",
+   "definition": "तुलसीदास (सन् 1532-1623) रामभक्ति धारा के शिखर-कवि हैं जिनके महाकाव्य रामचरितमानस की रचना अवधी में और विनय पत्रिका, कवितावली जैसी रचनाओं की रचना ब्रजभाषा में हुई; उनके काव्य में राम मानवीय मर्यादाओं और आदर्शों के प्रतीक हैं जिनके माध्यम से नीति, स्नेह, शील, विनय और त्याग जैसे मूल्य प्रतिष्ठित हुए।",
+   "formula": "-",
+   "key_idea": "रामचरितमानस भक्ति-काव्य ही नहीं, जीवन-मूल्यों का शास्त्र भी है।",
+   "textbook_ref": "ihga109.txt lines 1-24 (तुलसीदास का परिचय और प्रसंग-प्रस्तावना)",
+   "question_patterns": [
+    "Tulsidas ka parichay aur unki rachnaon ka ullekh kijiye",
+    "Ramcharitmanas kis bhasha mein likha gaya",
+    "Ram ko maryada purushottam kyon kaha gaya",
+    "Ramcharitmanas mein kaun kaun se mooly pratishthit hain",
+    "Vinay Patrika kaun si bhasha mein hai",
+    "Tulsidas ki ram bhakti ka svaroop batayiye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "परिचय की तीन कड़ियाँ रखिए",
+     "explain": "जीवनकाल, महाकाव्य और भक्ति-धारा - तीनों एक साथ बताइए।"},
+    {"step": 2, "action": "भाषा-नियोजन देखिए",
+     "explain": "अवधी में मानस, ब्रज में विनय पत्रिका - दोनों भाषाओं पर उनका समान अधिकार था।"},
+    {"step": 3, "action": "मूल्य-दृष्टि जोड़िए",
+     "explain": "राम को उन्होंने ईश्वर के साथ-साथ आदर्श-पुरुष के रूप में भी प्रस्तुत किया।"}
+   ]
+  },
+  {
+   "id": "ihga.109.1.2",
+   "title": "परशुराम का आगमन: रौद्र रूप और सभा का भय",
+   "section": "1",
+   "definition": "शिव-धनुष के भंग का समाचार सुनकर आए परशुराम के भयंकर रूप को देखकर पूरी सभा उद्विग्न हो उठती है; राजा-महाराज अपने नाम-परिचय कराकर दंडवत प्रणाम करते हैं - इन पंक्तियों में भय और शिष्टाचार का अजीबोगरीब मिश्रण दिखता है, जबकि कुटिल भूप मन ही मन खुश होते हैं।",
+   "formula": "-",
+   "key_idea": "शक्तिशाली के रोष के सामने सभा का व्यवहार हर पात्र की सच्चाई उगल देता है।",
+   "textbook_ref": "ihga109.txt lines 27-30 व 47-50 (परशुराम का प्रवेश, राजाओं का व्यवहार) तथा line 49 (कुटिल भूप)",
+   "question_patterns": [
+    "Parashuram ke aagaman se sabha par kya prabhav pada",
+    "dekhat bhrgupati besu karaal ka bhaav samjhaiye",
+    "raje-bhoop kaise vyavhar karte hain aur kyon",
+    "kutil bhoop man mein mahi kyon khush hote hain",
+    "bhay aur shishtachar ka mishran kahan dikhta hai",
+    "Parashuram ke krodh ka karan kya tha"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "प्रवेश-दृश्य पकड़िए",
+     "explain": "कराल रूप देखते ही सभा उठी-सकल भय-बिकल हो जाती है।"},
+    {"step": 2, "action": "व्यवहार की परतें खोलिए",
+     "explain": "दंडवत प्रणाम में भय और मर्यादा दोनों एक साथ हैं।"},
+    {"step": 3, "action": "सूक्ष्म चरित्र-चित्रण देखिए",
+     "explain": "कुटिल भूप की मन-खुशी मानव-स्वभाव की ईर्ष्या पर व्यंग्य है।"}
+   ]
+  },
+  {
+   "id": "ihga.109.1.3",
+   "title": "सीता और सुनयना की चिंता: 'अरध निमेष कलप सम बीता'",
+   "section": "1",
+   "definition": "परशुराम के रोष से सीता की सास सुनयना मन ही मन पछताती हैं कि विधाता ने सँवरी बनी बात बिगाड़ दी; सीता पिता के स्वभाव से स्थिति का भार समझकर महसूस करती हैं कि आधा क्षण कल्प के समान लंबा बीत गया - यह अतिशयोक्ति उनकी व्याकुलता को चित्र की तरह खड़ा कर देती है।",
+   "formula": "-",
+   "key_idea": "क्षणभंगुर समय का कल्प-समान हो जाना ही मन की चिंता का सबसे तीव्र चित्रण है।",
+   "textbook_ref": "ihga109.txt lines 51-54 (सुनयना की चिंता और सीता का अनुभव)",
+   "question_patterns": [
+    "aradh nimesh kalap sam bita ka bhaav spast kijiye",
+    "Sunayana chinta kyon karti hain",
+    "bidhi ab samvari baat bigari ka kya arth hai",
+    "Sita ke man mein us samay kya bhaav the",
+    "atishayokti alankar ka yahan prayog kaise hua",
+    "sita ki manahsthiti ka varnan apne shabdon mein kijiye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "संदर्भ बाँधिए",
+     "explain": "यह भाव शिव-धनुष भंग और परशुराम के प्रवेश के तुरंत बाद का है।"},
+    {"step": 2, "action": "अतिशयोक्ति का पैमाना रखिए",
+     "explain": "आधे पल की अवधि और कल्प की लंबाई की तुलना ही व्याकुलता का माप है।"},
+    {"step": 3, "action": "कारण जोड़िए",
+     "explain": "पिता के रोष-स्वभाव की चर्चा सुनकर सीता को दूसरों से ज्यादा भय है।"}
+   ]
+  },
+  {
+   "id": "ihga.109.1.4",
+   "title": "राम का धीर-गंभीर विनय: 'सेवकु सो जो करै सेवकाई'",
+   "section": "1",
+   "definition": "परशुराम की गरजने पर राम विनम्रतापूर्वक कहते हैं - 'नाथ! शंभु-धनुष भंजनिहारा होइहि केउ एक दास तुम्हारा; आयसु काह कहिअ किन मोही' - अर्थात धनुष तोड़ने वाला आपका ही कोई दास होगा, आज्ञा मुझसे क्यों नहीं कही गई; उनके हृदय में न हर्ष है, न विषाद - यही भावनात्मक संतुलन और मर्यादा उन्हें सबसे अलग खड़ा करता है।",
+   "formula": "-",
+   "key_idea": "क्रोध के सामने विनम्रता और संतुलन ही सच्ची मर्यादा है।",
+   "textbook_ref": "ihga109.txt lines 55-59 (राम के वचन) तथा lines 53-54 (हृदयँ न हरषु बिषादु)",
+   "question_patterns": [
+    "Ram ne Parashuram ko kaise uttar diya",
+    "sevak so jo karai sevakai ka arth samjhaiye",
+    "hridaya na harshu vishadu ka kya bhaav hai",
+    "Ram ki vinamrata kaise prakat hui",
+    "sambhu dhanu bhanjanihara vakya ka bhaavarth likhiye",
+    "Ram ka bhavnatmak santulan usko doosron se kaise alag karta hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "वचन का भावार्थ रखिए",
+     "explain": "राम अपने काम को दासता का धर्म कहकर रोष की हवा निकाल देते हैं।"},
+    {"step": 2, "action": "संतुलन देखिए",
+     "explain": "हर्ष-विषाद से रहित हृदय उनके धीर की पहचान है।"},
+    {"step": 3, "action": "चरित्र-निष्कर्ष निकालिए",
+     "explain": "विनय, धैर्य और उदात्तता - आदर्श शासक के गुण यहीं दिखते हैं।"}
+   ]
+  },
+  {
+   "id": "ihga.109.1.5",
+   "title": "लक्ष्मण का व्यंग्यपूर्ण प्रत्युत्तर",
+   "section": "1",
+   "definition": "परशुराम की धमकी सुनकर लक्ष्मण मुसकुराकर कहते हैं - 'परसुधरहि अपमाने; बहु धनुहीं तोरीं लरिकाइ, कबहुँ न असि रिस कीन्हि गोसाइ' - यानी बचपन में हमने ढेरों धनुष तोड़े, तब कभी इतना क्रोध नहीं हुआ; और फिर पूछते हैं कि इस धनुष पर इतनी ममता का क्या कारण है - उनका साहसिक व्यंग्य संवाद को नाटकीय चरम पर पहुँचा देता है।",
+   "formula": "-",
+   "key_idea": "लक्ष्मण का तर्क और व्यंग्य दिखाते हैं कि उनकी भक्ति-निष्ठा में आँख मूँदकर अंधी परंपरा नहीं है।",
+   "textbook_ref": "ihga109.txt lines 62-69 (लक्ष्मण के मुस्कुराते वचन) तथा अभ्यास प्रश्न-5 (lines 112-120)",
+   "question_patterns": [
+    "Lakshman muskurate hue kya bolte hain",
+    "bahu dhanuhin torin larikai ka kya aashay hai",
+    "ehi dhanu par mamta kehetu ka arth likhiye",
+    "Lakshman ke vyangya ka Parashuram par kya prabhav hota hai",
+    "Lakshman ke pratikriya ka karan kya tha",
+    "Lakshman ke charitra ki visheshtayen udaharan sahit likhiye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "व्यंग्य का बाण पकड़िए",
+     "explain": "बचपन की धनुष-तोड़ शेखी से वे परशुराम के विशेष दावे को चुनौती देते हैं।"},
+    {"step": 2, "action": "भक्ति-भाव जोड़िए",
+     "explain": "भाई के प्रति प्रेम ही उनकी बेबाकी का स्रोत है।"},
+    {"step": 3, "action": "विरोधाभास बताइए",
+     "explain": "परशुराम की रोष-परंपरा और लक्ष्मण की तर्क-परंपरा आमने-सामने हैं।"}
+   ]
+  },
+  {
+   "id": "ihga.109.1.6",
+   "title": "संवाद-शिल्प: काव्य में नाटकीयता और चरित्र-निर्माण",
+   "section": "1",
+   "definition": "यह कविता काव्यात्मक विधा में संवाद-प्रस्तुति का उत्कृष्ट नमूना है - संवाद ही कथा को आगे बढ़ाते हैं, चरित्र बनाते हैं और भावों में विविधता भरते हैं; राम की विनम्रता, परशुराम का रौद्र रूप, लक्ष्मण का प्रत्युत्तर, पौराणिक संदर्भ और नाटकीयता - इन्हीं धागों में पूरा प्रसंग बुना गया है।",
+   "formula": "-",
+   "key_idea": "संवाद ही यहाँ वर्णन की जगह लेते हैं - हर पात्र अपनी आवाज़ से ही परिचित होता है।",
+   "textbook_ref": "ihga109.txt lines 146-159 (कविता का सौंदर्य - संवादों की विशेषताएँ)",
+   "question_patterns": [
+    "kavya mein sambad ki bhumika kya hai",
+    "sangvad kaise natakita paida karte hain",
+    "sangvad se charitra nirman kaise hota hai",
+    "docha chaupai ka kram kya hai",
+    "bina vakta ke naam bataye kathan ka prayog kya hai",
+    "sangvadon ki visheshtayen udaharan sahit likhiye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "संवाद-क्रम याद कीजिए",
+     "explain": "परशुराम का कठोर वचन, राम की विनय, लक्ष्मण का व्यंग्य - यही ढाँचा है।"},
+    {"step": 2, "action": "चरित्र-ध्वनि देखिए",
+     "explain": "बिना नाम बताए वक्ता उसकी भाषा से पहचाने जाते हैं।"},
+    {"step": 3, "action": "नाटकीय प्रभाव बताइए",
+     "explain": "प्रत्येक वचन पिछले पर हल्ला करता है, इसीलिए प्रसंग रंगमंच जैसा चलता है।"}
+   ]
+  },
+  {
+   "id": "ihga.109.1.7",
+   "title": "मनःस्थितियों का चित्रण: भय, चिंता, क्रोध और संयम",
+   "section": "1",
+   "definition": "प्रसंग में प्रत्येक पात्र की भाव-दशा अलग है - राजाओं का भय, सुनयना की चिंता, परशुराम का क्रोध, लक्ष्मण की व्यग्रता भरा हँसी और राम का संयम-विनम्रता; कवि ने एक ही घटना के कई मनोवैज्ञानिक किनारे खोलकर सभा का पूरा मानसिक चित्र खींच दिया है।",
+   "formula": "-",
+   "key_idea": "एक घटना, अनेक मन - महाकाव्य की मनोविज्ञान दृष्टि इसी प्रसंग में दिखती है।",
+   "textbook_ref": "ihga109.txt lines 160-175 (भाव-पहचान एवं विश्लेषण अभ्यास) तथा lines 198-210 (पात्रों के भाव)",
+   "question_patterns": [
+    "sabha mein upasthit patraon ki manahsthiti kaisi hai",
+    "bhay chinta krodh va sanyam kis kiske bhaav hain",
+    "raje maharaj ka man kahan khush hota hai",
+    "Sita ke liye ek pal kalap jaisa kyon lagta hai",
+    "ek hi ghatna se alag alag bhaav kaise uthte hain",
+    "patraon ki manahsthiti ke karan likhiye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "भाव-तालिका बनाइए",
+     "explain": "हर पात्र के लिए पंक्ति, भाव और कारण तीनों रखिए।"},
+    {"step": 2, "action": "मानव-स्वभाव की झलक देखिए",
+     "explain": "कुटिल भूप की खुशी और राजाओं का डर दोनों सच्ची मानवीय प्रतिक्रियाएँ हैं।"},
+    {"step": 3, "action": "विरोधाभास से सौंदर्य निकालिए",
+     "explain": "भय और विनय की भीड़ के बीच राम का संयम ही सबसे उजला बिंदु है।"}
+   ]
+  },
+  {
+   "id": "ihga.109.1.8",
+   "title": "काव्य-सौंदर्य: अलंकार और बहुभाषिकता",
+   "section": "1",
+   "definition": "पाठ में अनुप्रास अलंकार ('अरि करनी करि करिअ लराई'), अतिशयोक्ति ('अरध निमेष कलप सम बीता'), रूपक अलंकार ('पद सरोज मेले दोउ भाई') साफ दिखते हैं; कविता अवधी में है और 'कोही', 'रिस', 'बेस' जैसे शब्द उसकी बहुभाषिक संवेदना को दर्शाते हैं जिनके खड़ी बोली रूप क्रोधी, रोष और वेष हैं।",
+   "formula": "-",
+   "key_idea": "लयबद्ध चौपाई, अलंकार और अवधी शब्दावली मिलकर इस अंश की काव्य-गरिमा बनाते हैं।",
+   "textbook_ref": "ihga109.txt lines 246-259 (कविता की विशेषताएँ और बहुभाषिकता अभ्यास)",
+   "question_patterns": [
+    "anupras alankar ka udaharan is kavya se dijiye",
+    "atishayokti alankar kahan prayukt hua hai",
+    "pad saroj mein kaun sa alankar hai",
+    "avadhi aur khadi boli ke shabdon mein kya antar hai",
+    "kohi ris bes jaise shabdon ke arth likhiye",
+    "bahubhashikta ka kavy ko kya labh hota hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "अलंकार-पहचान कीजिए",
+     "explain": "ध्वनि-आवृत्ति से अनुप्रास, बढ़ा-चढ़ाकर कहने से अतिशयोक्ति और रूप-आरोप से रूपक बनता है।"},
+    {"step": 2, "action": "भाषा-परत देखिए",
+     "explain": "अवधी शब्दों के खड़ी बोली रूप जोड़कर अर्थ-स्पष्टता लाइए।"},
+    {"step": 3, "action": "सौंदर्य-बोध बाँधिए",
+     "explain": "ये तत्व मिलकर कथा को गायन-क्षमता और दृश्य-स्मृति देते हैं।"}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex9.1",
+   "source_ref": "ihga109.txt lines 83-120 (मेरे उत्तर मेरे तर्क - बहुविकल्पीय)",
+   "questions": [
+    "'पितु समेत कहि कहि निज नामा' पंक्ति सभा में उपस्थित लोगों की किस मनःस्थिति को दर्शाती है?",
+    "'जनक बहोरि आइ सिरु नावा' पंक्ति से राजा जनक के व्यवहार की कौन-सी विशेषता उद्घाटित होती है?",
+    "जनक के प्रति परशुराम के कठोर वचन का मूल कारण क्या था?",
+    "राम का कथन 'होइहि केउ एक दास तुम्हारा' उनके व्यक्तित्व की किस विशेषता को दर्शाता है?",
+    "लक्ष्मण के मुसकराने और उपहास भरे वचनों का क्या कारण था?"
+   ]
+  },
+  {
+   "id": "ex9.2",
+   "source_ref": "ihga109.txt lines 121-142 (मेरी समझ मेरे विचार तथा कल्पना-अनुमान)",
+   "questions": [
+    "'अरध निमेष कलप सम बीता' पंक्ति का भाव स्पष्ट करते हुए बताइए कि यह किसके संदर्भ में कहा गया है और क्यों?",
+    "परशुराम की चेतावनी का सभा पर क्या प्रभाव पड़ा होगा - तर्क सहित उत्तर दीजिए।",
+    "परशुराम के क्रोध को शांत करने के लिए राम का विनय-मार्ग उचित है या लक्ष्मण का तर्क - अपना मत लिखिए।",
+    "कल्पना कीजिए कि आप जनक की सभा में उपस्थित एक राजा हैं - परशुराम के आगमन से गमन तक की कथा अपने शब्दों में लिखिए।"
+   ]
+  },
+  {
+   "id": "ex9.3",
+   "source_ref": "ihga109.txt lines 233-291 (व्याकरण, बहुभाषिकता और गद्य-रूप)",
+   "questions": [
+    "परशुराम के विभिन्न नामों - भृगुपति, परसुधर, भृगुकुलकेतू - के अर्थ लिखिए।",
+    "कविता के अवधी शब्दों के खड़ी बोली और अपनी भाषा के रूप लिखिए।",
+    "'अति डरु उतरु देत नृपु नाहीं' वाली चौपाई को गद्य-रूप में लिखिए।"
+   ]
+  }
+ ]
+}

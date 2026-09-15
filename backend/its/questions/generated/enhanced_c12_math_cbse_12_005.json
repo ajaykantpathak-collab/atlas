@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_12_005",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_12_005",
+   "title": "c12_math_cbse_12_005",
+   "questions": [
+    {
+     "q": "State the two fundamental theorems (Theorem 1 and Theorem 2) used in the Corner Point Method for solving a linear programming problem graphically.",
+     "a": "Theorem 1: If the objective function \\(Z = ax + by\\) has an optimal value (maximum or minimum) on the feasible region \\(R\\) (a convex polygon), that optimal value must occur at a corner point (vertex) of \\(R\\). Theorem 2: If the feasible region \\(R\\) is bounded, then \\(Z\\) has both a maximum and a minimum value on \\(R\\), and each occurs at a corner point of \\(R\\). A wrong answer (e.g., saying the optimum occurs at the centre or on an edge) reveals the student has not internalised the geometric reason — linearity of \\(Z\\) forces extreme values to the boundary, and convexity forces them to vertices.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves an LPP and finds the feasible region is unbounded. The smallest value of \\(Z\\) at the corner points is \\(-300\\) at \\((6,0)\\). The student immediately writes \"Minimum value of Z is \\(-300\\)\". Why is this conclusion potentially incorrect, and what additional step must be performed?",
+     "a": "For an unbounded feasible region, a candidate minimum value at a corner point is only the true minimum if the open half-plane \\(ax + by < m\\) (here \\(Z < -300\\)) has **no point in common** with the feasible region. If that half-plane overlaps the feasible region, the objective function can decrease indefinitely and no minimum exists. The student's error is skipping the verification step (Step 3(ii) of the Corner Point Method), which is mandatory for unbounded regions.",
+     "self_check": true
+    },
+    {
+     "q": "Maximise \\(Z = 3x + 4y\\) subject to \\(x + y \\le 4, x \\ge 0, y \\ge 0\\). Find the maximum value of \\(Z\\) and the point(s) where it occurs.",
+     "a": "Constraints: \\(x+y\\le4, x\\ge0, y\\ge0\\). Feasible region is a right triangle with vertices O(0,0), A(4,0), B(0,4). Evaluate Z: O→0, A→12, B→16. Maximum Z = 16 at (0,4). A wrong answer (e.g., 12 at (4,0)) usually comes from mis-identifying the corner points or incorrectly evaluating the objective function at (0,4).",
+     "self_check": true
+    },
+    {
+     "q": "Consider the LPP: Minimise \\(Z = -50x + 20y\\) subject to \\(2x - y \\ge -5, 3x + y \\ge 3, 2x - 3y \\le 12, x\\ge0, y\\ge0\\). The feasible region is unbounded. The corner points give values: (0,5)→100, (0,3)→60, (1,0)→-50, (6,0)→-300. The student claims the minimum is -300 at (6,0). Is this correct? Justify by performing the required half-plane test.",
+     "a": "Candidate minimum \\(m = -300\\). Test the open half-plane \\(-50x + 20y < -300\\) i.e. \\(-5x + 2y < -30\\). The origin (0,0) gives \\(0 < -30\\) false, so the half-plane is away from origin. But the feasible region extends infinitely in the direction of increasing \\(x\\) and \\(y\\); pick a point like (10,10): \\(-50(10)+20(10) = -300\\) which is not < -300, but (20,0): \\(-1000 < -300\\) true and (20,0) satisfies all constraints? Check: 2(20)-0=40≥-5 ✓, 3(20)+0=60≥3 ✓, 2(20)-0=40≤12 ✗. So (20,0) not feasible. However, the ray from (6,0) along the line 2x-3y=12 goes to infinity; take (12,4): -50(12)+20(4)=-600+80=-520 < -300, and check constraints: 2(12)-4=20≥-5 ✓, 3(12)+4=40≥3 ✓, 2(12)-3(4)=12≤12 ✓. So (12,4) is feasible and gives Z=-520 < -300. Hence the half-plane **does** intersect the feasible region → **no minimum exists**. The student's claim is wrong because they omitted the verification step.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves an LPP and gets two corner points giving the same maximum value of the objective function. The student writes: \"The maximum occurs at both points, so there are two optimal solutions.\" Is this statement complete? What does the NCERT remark say about the set of all optimal solutions in this case?",
+     "a": "The statement is incomplete. When two corner points yield the same optimal value, **every point on the line segment joining them** also gives that same optimal value (because the objective function is linear and constant on that edge). The student misses the infinite family of optimal solutions along that edge. This error shows they treat corner points as isolated rather than understanding the linear structure of the objective function on the boundary.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world maximisation problem (Indian context) with two decision variables, three constraints (excluding non-negativity), and a bounded feasible region. Write the complete mathematical formulation and solve it graphically using the Corner Point Method. Show all corner points and the optimal solution.",
+     "a": "Example: A farmer in Punjab has 50 acres of land. He grows wheat (₹2000 profit/acre) and rice (₹3000 profit/acre). Wheat needs 2 hours/acre of labour, rice needs 3 hours/acre; total labour available is 120 hours. Fertiliser: wheat 50 kg/acre, rice 40 kg/acre; max 2000 kg. Let x = acres of wheat, y = acres of rice. Maximise Z = 2000x + 3000y subject to: x + y ≤ 50, 2x + 3y ≤ 120, 50x + 40y ≤ 2000 → 5x + 4y ≤ 200, x≥0, y≥0. Corner points: O(0,0), A(40,0), B(0,40), C(20,20) [intersection of x+y=50 and 2x+3y=120], D(0,50) but D violates 2x+3y≤120? Actually (0,50): 2(0)+3(50)=150>120 so not feasible. Intersection of 2x+3y=120 and 5x+4y=200 gives (0,40) and (40,0) and (80/7, 200/7) ≈ (11.4,28.6). Feasible region vertices: O(0,0), A(40,0), E(80/7,200/7), B(0,40). Z values: 0, 80000, 2000(80/7)+3000(200/7)= (160000+600000)/7=760000/7≈108571, 120000. Max = 120000 at (0,40) i.e. 40 acres rice, 0 wheat. A good answer includes correct formulation, accurate graph, all corner points identified by solving pairs of equations, and correct optimum.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

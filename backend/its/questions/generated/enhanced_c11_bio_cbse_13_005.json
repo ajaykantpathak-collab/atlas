@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_13_005",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_13_005",
+   "title": "c11_bio_cbse_13_005",
+   "questions": [
+    {
+     "q": "Name the gaseous plant growth regulator and its biosynthetic precursor, and state one agricultural application of its synthetic analog ethephon.",
+     "a": "Ethylene (C₂H₄) is the gaseous PGR synthesized from methionine via ACC (1-aminocyclopropane-1-carboxylic acid). Ethephon (2-chloroethylphosphonic acid) releases ethylene slowly and is used to hasten fruit ripening in tomatoes and apples, and to promote female flower formation in cucumbers. A wrong answer (e.g., naming ABA as gaseous or CO₂ as precursor) reveals confusion between hormone classes and their chemical nature.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why ABA is called the \"stress hormone\" and describe the mechanism by which it causes stomatal closure during water deficit.",
+     "a": "ABA earns the name \"stress hormone\" because its concentration increases rapidly in leaves under drought, salinity, or cold stress. It binds to PYR/PYL/RCAR receptors in guard cells, inhibiting PP2C phosphatases, which activates SnRK2 kinases that phosphorylate anion channels (SLAC1) and K⁺ channels, causing efflux of K⁺, Cl⁻, and malate²⁻, water follows osmotically, guard cells become flaccid, and stomata close. A wrong answer focusing only on \"ABA closes stomata\" without the signaling cascade shows superficial understanding lacking mechanistic depth required at Class 11.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer stores unripe mangoes with a few ripe bananas to accelerate ripening. Predict the outcome and explain the physiological basis, including the term for the respiration surge during ripening.",
+     "a": "The mangoes will ripen faster. Ripe bananas emit ethylene, which diffuses to mangoes and binds to ethylene receptors (ETR1), inactivating CTR1, allowing EIN2/EIN3 transcription factors to activate ripening genes (polygalacturonase, ACC synthase). This triggers a sharp rise in respiration rate called the **respiratory climacteric**, characteristic of climacteric fruits like mango, banana, tomato. A wrong answer missing \"respiratory climacteric\" or confusing climacteric/non-climacteric fruits indicates inability to apply ethylene physiology to post-harvest technology.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the roles of ABA and ethylene in seed dormancy and germination. Include their interaction with gibberellins.",
+     "a": "ABA **induces and maintains** seed dormancy during maturation by upregulating LEA proteins, storage proteins, and inhibiting GA biosynthesis genes; it blocks germination by suppressing hydrolytic enzyme (α-amylase) production in aleurone. Ethylene **breaks dormancy** and **promotes germination** (e.g., peanut, potato tubers) by stimulating GA biosynthesis and enhancing embryo growth potential. ABA and GA are antagonistic: high ABA:GA ratio = dormancy; low ABA:GA ratio = germination. Ethylene often synergizes with GA. A wrong answer stating both inhibit germination or ignoring GA interaction shows failure to analyze hormone cross-talk.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Ethylene is always a growth inhibitor.\" Provide evidence from at least two contrasting physiological processes.",
+     "a": "The statement is **false**. Ethylene **inhibits** elongation in dicot seedlings (triple response: horizontal growth, swelling, apical hook) and promotes senescence/abscission. However, it **promotes** growth in specific contexts: (1) rapid internode/petiole elongation in deep-water rice (escape response to submergence), (2) root hair formation increasing absorption surface, (3) breaking bud/seed dormancy. Thus, ethylene's effect is context-dependent (organ, concentration, species). A wrong answer calling it purely inhibitory reveals oversimplification ignoring its dual role.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to demonstrate that ABA induces stomatal closure, using epidermal peels of a common Indian plant. Specify control, treatment, observation, and measurable parameter.",
+     "a": "**Plant:** *Commelina benghalensis* (dayflower) or *Vicia faba* (broad bean) – easily available, large guard cells. **Method:** Float epidermal peels on (a) distilled water (control), (b) 10 μM ABA solution. Incubate 2 h in light. **Observation:** Microscopic measurement of stomatal aperture (pore width/length). **Parameter:** Stomatal index or aperture width (μm). **Expected:** ABA-treated peels show significantly narrower pores. **Control for solvent:** Use same solvent (e.g., ethanol) in control if ABA dissolved in it. A poor design (no control, no replication, wrong concentration) reveals inability to translate concept into testable hypothesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

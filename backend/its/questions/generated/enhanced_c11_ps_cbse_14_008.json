@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_14_008",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_14_008",
+   "title": "c11_ps_cbse_14_008",
+   "questions": [
+    {
+     "q": "What is the minimum number of members required to support an Adjournment Motion in the Lok Sabha for it to be admitted?",
+     "a": "50 members. A wrong answer (e.g., \"1/10th of total strength\" or \"no minimum\") reveals confusion with the quorum for a No-Confidence Motion (50 members) or the requirement for a Calling Attention Motion (no fixed number, but Speaker's discretion). It shows the student hasn't memorized the specific procedural thresholds for each motion type.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution mandate that the Council of Ministers is collectively responsible to the Lok Sabha (Article 75(3)), and how do Questions Hour and Zero Hour operationalize this principle on a daily basis?",
+     "a": "Collective responsibility means the ministry stands or falls together; Questions Hour (Starred/Unstarred) forces ministers to answer orally or in writing on policy/administration, while Zero Hour allows raising urgent matters without notice. A wrong answer that only defines collective responsibility without linking it to the *daily* scrutiny function of questions shows the student sees the constitutional article as static text, not a living practice enforced through specific parliamentary devices.",
+     "self_check": true
+    },
+    {
+     "q": "A minister makes a statement in the Lok Sabha claiming a new scheme has reached 100% of target beneficiaries. An MP suspects the data is inflated. Which parliamentary instrument should the MP use to demand the underlying data and question the minister orally, and what is the notice period required?",
+     "a": "The MP should use a Starred Question (for oral answer), which requires a minimum 15-day notice (usually 21 days in practice). A wrong answer suggesting \"Zero Hour\" (no notice, but no guaranteed ministerial reply) or \"Adjournment Motion\" (for urgent public importance, not data verification) indicates the student cannot match the *purpose* (detailed scrutiny of facts) to the *correct tool* with its procedural rules.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Public Accounts Committee (PAC) and the Estimates Committee in terms of: (a) composition (who can be members), (b) primary function, and (c) whether they can question government policy. What does this comparison reveal about the division of labour in financial oversight?",
+     "a": "(a) PAC: only Lok Sabha members (15) + Rajya Sabha associate members (7); Estimates Committee: only Lok Sabha members (30). (b) PAC examines CAG reports on *past* expenditure; Estimates Committee suggests *future* economies in administration. (c) PAC cannot question policy; Estimates Committee can suggest alternative policies for efficiency. A wrong answer that conflates their membership or functions shows the student misses the structural logic: PAC is post-audit (accountability for money spent), Estimates is pre-budget (efficiency in money to be spent).",
+     "self_check": true
+    },
+    {
+     "q": "\"Parliamentary committees are more effective than floor debates in ensuring executive accountability.\" Evaluate this statement with two arguments for and two against, referencing the role of party whips, committee confidentiality, and media scrutiny.",
+     "a": "For: (1) Committees work away from party whips, allowing consensus-based reports; (2) They examine witnesses and documents in detail, impossible in time-limited debates. Against: (1) Reports are recommendatory, not binding; (2) Confidential proceedings reduce public pressure on the executive. A weak evaluation that only lists functions without weighing *effectiveness* against *limitations* shows the student cannot critically assess institutional design trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph scenario where a Calling Attention Motion would be the *most appropriate* tool (not Zero Hour, not Adjournment Motion), explicitly stating the urgency, the need for a ministerial statement, and why the matter cannot wait for a Starred Question.",
+     "a": "Example: \"A sudden spike in onion prices due to hoarding reports; the MP needs the Agriculture Minister to make an *immediate* statement on government action *today* because the 15-day notice for a Starred Question is too long, and the matter, while urgent, does not justify setting aside the entire day's business (Adjournment Motion).\" A poor answer that describes a routine policy query or a matter requiring a vote of censure reveals the student cannot distinguish the *graded urgency* and *procedural consequence* of each device.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

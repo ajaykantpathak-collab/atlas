@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_01_005",
+   "title": "c12_chem_cbse_01_005",
+   "questions": [
+    {
+     "q": "State Raoult's law for a binary solution of two volatile liquids A and B. Write the mathematical expressions for partial vapour pressures of A and B, and for the total vapour pressure of the solution. Define all symbols used.",
+     "a": "Raoult's law: For a binary solution of volatile liquids A and B, the partial vapour pressure of each component is directly proportional to its mole fraction in the solution. p_A = p_A° x_A, p_B = p_B° x_B, where p_A° and p_B° are vapour pressures of pure A and B at the same temperature, x_A and x_B are their mole fractions in the liquid phase. Total vapour pressure p_total = p_A + p_B = p_A° x_A + p_B° x_B. Since x_A + x_B = 1, p_total = p_A° + (p_B° - p_A°) x_B. A wrong answer (e.g., writing p_total = p_A° x_B + p_B° x_A, or omitting the pure component vapour pressures) reveals confusion between mole fractions of liquid and vapour phases, or not understanding that the proportionality constant is the pure component's vapour pressure.",
+     "self_check": true
+    },
+    {
+     "q": "A solution contains 2 moles of benzene (vapour pressure 75 mm Hg) and 3 moles of toluene (vapour pressure 22 mm Hg) at 300 K. Calculate the partial vapour pressures of benzene and toluene, and the total vapour pressure of the solution. If a student writes p_benzene = 75 × (3/5) and p_toluene = 22 × (2/5), what conceptual error have they made?",
+     "a": "Mole fraction of benzene x_B = 2/(2+3) = 0.4; mole fraction of toluene x_T = 3/5 = 0.6. p_B = p_B° x_B = 75 × 0.4 = 30 mm Hg. p_T = p_T° x_T = 22 × 0.6 = 13.2 mm Hg. p_total = 30 + 13.2 = 43.2 mm Hg. The student's error: they swapped the mole fractions — used x_T for benzene and x_B for toluene. This reveals they don't understand that each component's partial pressure depends on ITS OWN mole fraction in the liquid, not the other component's. They are confusing which component is which in the mixture.",
+     "self_check": true
+    },
+    {
+     "q": "The vapour pressure of pure water at 298 K is 23.8 mm Hg. 18 g of glucose (C₆H₁₂O₆, molar mass 180 g/mol) is dissolved in 180 g of water. Calculate: (a) mole fraction of glucose, (b) vapour pressure of the solution, (c) relative lowering of vapour pressure. Verify that relative lowering equals mole fraction of glucose.",
+     "a": "(a) Moles of glucose = 18/180 = 0.1 mol. Moles of water = 180/18 = 10 mol. x_glucose = 0.1/(10+0.1) = 0.1/10.1 = 0.0099. x_water = 10/10.1 = 0.9901.\n(b) p_solution = x_water × p°_water = 0.9901 × 23.8 = 23.56 mm Hg.\n(c) Relative lowering = (23.8 - 23.56)/23.8 = 0.24/23.8 = 0.0101 ≈ 0.0099 (rounding). Matches x_glucose.\nA wrong answer where relative lowering ≠ x_glucose indicates: (i) using mass instead of moles for mole fraction, (ii) using glucose mole fraction in p = x_glucose p° (wrong — only solvent contributes), or (iii) arithmetic error in moles calculation. The most common error: p = x_solute p° instead of p = x_solvent p°.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Raoult's law (p = p° x) and Henry's law (p = K_H x). Under what condition does Raoult's law become a special case of Henry's law? A solution of gas X in liquid Y obeys Henry's law with K_H = 50 kbar. If the same solution obeyed Raoult's law, what would be the vapour pressure of pure X? Explain why this comparison is physically meaningful only for volatile components.",
+     "a": "Raoult's law: p = p° x (proportionality constant = vapour pressure of pure component). Henry's law: p = K_H x (proportionality constant = Henry's constant). Raoult's law becomes a special case of Henry's law when K_H = p° — i.e., when the Henry's law constant for a component equals its pure component vapour pressure. This happens for the solvent in a dilute solution where the solvent obeys Raoult's law. If K_H = 50 kbar for gas X in liquid Y, then for Raoult's law to apply, p°_X would need to be 50 kbar. This comparison is meaningful only for volatile components because Raoult's law requires the component to have a measurable vapour pressure in pure state; non-volatile solutes have p° ≈ 0, so Raoult's law gives p ≈ 0 (which is correct — they don't contribute to vapour pressure), but Henry's law with finite K_H describes their solubility. A wrong answer stating \"always\" or \"never\" reveals confusion about the domain of applicability: Raoult's law for solvent (major component), Henry's law for solute (minor component) in dilute solutions.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"For a binary solution of two volatile liquids, if the total vapour pressure is 400 mm Hg and the mole fraction of component A in the vapour phase is 0.6, then the partial pressure of A in the vapour phase is 240 mm Hg, and the mole fraction of A in the liquid phase must also be 0.6.\" Evaluate this claim. Is it correct? If not, identify the error and give the correct relationship between vapour-phase and liquid-phase mole fractions.",
+     "a": "The claim is partially correct but contains a critical error. Correct: y_A = p_A / p_total, so p_A = y_A × p_total = 0.6 × 400 = 240 mm Hg. This part is right. Error: \"mole fraction of A in the liquid phase must also be 0.6\" — this is FALSE. Liquid-phase mole fraction x_A is related to p_A by Raoult's law: p_A = p_A° x_A, so x_A = p_A / p_A° = 240 / p_A°. Unless p_A° = 400 mm Hg (which would mean pure A has same vapour pressure as the total mixture, unlikely), x_A ≠ 0.6. The vapour phase is always richer in the more volatile component (higher p°). The correct relationship: y_A = (p_A° x_A) / (p_A° x_A + p_B° x_B). A student making this error confuses vapour-phase composition with liquid-phase composition — a classic JEE/NEET trap. They forget that Raoult's law relates liquid-phase mole fraction to partial pressure, and Dalton's law relates partial pressure to vapour-phase mole fraction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to verify Raoult's law for a binary mixture of two miscible volatile liquids (e.g., acetone and chloroform). List the apparatus, measurements needed, and how you would plot the data to confirm linearity. What would a deviation from linearity indicate?",
+     "a": "Apparatus: Distillation setup or static vapour pressure apparatus (closed container with manometer), thermometer, syringes for precise mixing, pure acetone and chloroform. Procedure: (1) Measure vapour pressure of pure acetone (p_A°) and pure chloroform (p_C°) at fixed T. (2) Prepare 5-6 mixtures with known mole fractions x_A (0.1, 0.3, 0.5, 0.7, 0.9). (3) Equilibrate each mixture at same T, measure total vapour pressure p_total. (4) Plot p_total vs x_A — should be straight line per p_total = p_A° + (p_C° - p_A°) x_A. Also plot p_A = y_A p_total vs x_A (need vapour composition y_A via gas chromatography or condensation) — should be straight line through origin with slope p_A°. Deviation from linearity indicates non-ideal behaviour: positive deviation (p_total higher than predicted) means A-B interactions weaker than A-A/B-B; negative deviation (p_total lower) means A-B interactions stronger. A poor experimental design (e.g., not controlling temperature, not allowing equilibrium, using open system) reveals misunderstanding of the conditions for Raoult's law: constant T, closed system, equilibrium.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

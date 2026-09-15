@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_10_005",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_10_005",
+   "title": "c10_math_cbse_10_005",
+   "questions": [
+    {
+     "q": "How many tangents can be drawn to a circle from a point lying outside the circle?",
+     "a": "Exactly two tangents can be drawn from a point outside the circle. A wrong answer of \"one\" reveals confusion with the point-on-circle case (c10_math_cbse_10_004). An answer of \"infinite\" or \"zero\" reveals a fundamental misunderstanding of the definition of a tangent and the geometry of circles — the student likely visualises a secant or fails to recognise the perpendicular-radius condition.",
+     "self_check": true
+    },
+    {
+     "q": "In the construction of tangents from an external point P to a circle with centre O, we draw a circle with OP as diameter. Explain why the intersection points of this circle with the given circle are the points of contact of the tangents.",
+     "a": "The circle with OP as diameter has OP as its diameter, so any angle subtended by OP on its circumference is a right angle (angle in a semicircle = 90°). At the intersection points T₁ and T₂, ∠OT₁P = 90° and ∠OT₂P = 90°. Since OT₁ and OT₂ are radii, PT₁ ⊥ OT₁ and PT₂ ⊥ OT₂, satisfying the tangent-radius perpendicularity condition (c10_math_cbse_10_003). A wrong answer that says \"because they are equidistant\" or \"by symmetry\" reveals the student has memorised the construction steps without understanding the geometric reasoning — the right-angle property is the mathematical justification.",
+     "self_check": true
+    },
+    {
+     "q": "From a point P, 13 cm away from the centre O of a circle of radius 5 cm, two tangents PA and PB are drawn. Find the length of each tangent segment.",
+     "a": "Given: OP = 13 cm, OA = OB = 5 cm (radii). PA and PB are tangents, so OA ⊥ PA and OB ⊥ PB (tangent-radius theorem). In right triangle OAP, by Pythagoras theorem: PA² = OP² − OA² = 13² − 5² = 169 − 25 = 144. PA = √144 = 12 cm. Similarly PB = 12 cm. A wrong answer of 18 cm (13+5) reveals the student adds instead of applying Pythagoras. An answer of √194 (√(13²+5²)) reveals the student treats OP as a leg instead of the hypotenuse — a common error when the right angle is not at O but at the point of contact.",
+     "self_check": true
+    },
+    {
+     "q": "Two tangents are drawn from an external point P to a circle with centre O. The angle between the tangents is 60°. If the radius of the circle is 6 cm, find the distance OP.",
+     "a": "Let the tangents touch at A and B. ∠APB = 60°. Since PA = PB (tangents from same external point), triangle APB is isosceles with ∠PAB = ∠PBA = 60°, so it is equilateral. But we need OP. The line OP bisects ∠APB (symmetry), so ∠APO = 30°. In right triangle OAP, ∠OAP = 90°, OA = 6 cm, ∠APO = 30°. Using sin 30° = OA/OP → 1/2 = 6/OP → OP = 12 cm. A wrong answer of 6√3 cm reveals the student used tan 30° = OA/AP to find AP = 6√3, then incorrectly assumed OP = AP. The error is not recognising which side is opposite which angle in the right triangle.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"From a point outside a circle, we can draw three tangents if the point is far enough away.\" Evaluate this claim and explain the error.",
+     "a": "The claim is false. Exactly two tangents can be drawn from any external point, regardless of distance. The number of tangents depends only on the position of the point relative to the circle (inside: 0, on: 1, outside: 2), not on the distance. The error likely comes from confusing \"tangent\" with \"line through the point intersecting the circle\" — a secant intersects at two points, but a tangent touches at exactly one. As the point moves farther away, the two tangents become more parallel but never increase in number. A student who agrees reveals they think of tangents as \"lines from the point to the circle\" without the strict one-point-contact definition.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a problem where the distance from an external point to the centre of a circle is 17 cm, the radius is 8 cm, and the angle between the two tangents is required. Provide the complete problem statement with a diagram description.",
+     "a": "Problem: \"From a point P outside a circle of radius 8 cm with centre O, two tangents PA and PB are drawn. If OP = 17 cm, find the angle between the tangents ∠APB.\" Diagram: Circle with centre O, radius 8 cm. External point P such that OP = 17 cm. Tangents PA and PB touching at A and B. Join OA, OB, OP. A good answer will set up right triangle OAP, find sin(∠APO) = OA/OP = 8/17, then ∠APO = sin⁻¹(8/17), and ∠APB = 2 × ∠APO. A poor answer that gives a numerical angle without inverse trig or assumes a special angle (30°, 45°, 60°) reveals the student expects \"nice\" numbers and doesn't understand that most real problems require trigonometric calculation or leaving the answer in terms of inverse trig functions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

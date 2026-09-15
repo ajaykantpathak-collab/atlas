@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_engl_cbse_15_004",
+ "concepts": [
+  {
+   "id": "enh:c10_engl_cbse_15_004",
+   "title": "c10_engl_cbse_15_004",
+   "questions": [
+    {
+     "q": "What was Richard Ebright's very first science fair project, and in which grade did he do it?",
+     "a": "Ebright's first science fair project was a collection of rocks and fossils, which he entered in the county fair in seventh grade. A wrong answer (e.g., 'butterfly tagging' or 'gold spots') reveals the student has not grasped the chronological starting point and may be conflating later, more famous projects with the initial one.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Ebright's rock collection project, though not a typical experiment, still followed the scientific method.",
+     "a": "The rock collection involved systematic observation, classification, and recording of data — key steps of the scientific method — even though it lacked a manipulated variable. A wrong answer (e.g., 'it wasn't scientific because there was no experiment') shows the student equates scientific method only with controlled experiments and misses the broader process of inquiry.",
+     "self_check": true
+    },
+    {
+     "q": "Ebright's second project involved tagging monarch butterflies. If he tagged 500 butterflies and only 2 were recovered, what does this low recovery rate suggest about the experimental design, and how did he improve it in the next project?",
+     "a": "The low recovery rate (0.4%) indicated the tagging method was inefficient for tracking migration; Ebright then shifted to studying the gold spots on pupae, a project he could control in the lab. A wrong answer (e.g., 'he gave up' or 'he tagged more butterflies') reveals the student cannot evaluate experimental limitations or see the pivot to a testable, lab-based question.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the variables in Ebright's 'gold spots' experiment (node 005) with his earlier tagging project. Identify the independent variable, dependent variable, and at least two controlled variables in the gold spots experiment.",
+     "a": "Independent variable: removal of gold spots (vs. intact); dependent variable: butterfly development/survival; controlled variables: temperature, light, food, pupae age. A wrong answer (e.g., confusing independent/dependent or missing controls) shows the student cannot transfer variable identification from one experiment to another.",
+     "self_check": true
+    },
+    {
+     "q": "Ebright's hormone theory project (testing if gold spots produce a hormone) was published in a scientific journal. Evaluate whether this project alone proves the hormone theory, or if further evidence is needed. Justify your answer.",
+     "a": "The experiment showed that removing spots stopped development and injecting extract restored it — strong evidence but not conclusive proof; replication, chemical identification of the hormone, and mechanism studies are needed. A wrong answer (e.g., 'yes, it proves it because it was published') reveals the student confuses publication with definitive proof and lacks understanding of scientific evidence hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple science fair project a Class 10 student could do today that follows Ebright's progression: start with observation/collection, then ask a testable question, and outline the experiment with variables.",
+     "a": "Example: Collect different types of leaves (observation) → question: 'Does leaf shape affect water loss?' → experiment: measure weight loss of broad vs. narrow leaves under same conditions (independent: leaf shape; dependent: weight loss; controls: light, humidity, initial weight). A poor answer (e.g., just a collection with no testable question) shows the student cannot synthesize the progression into a new context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

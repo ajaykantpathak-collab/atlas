@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "home_science",
+  "chapter": 103,
+  "chapter_title": "Food, Nutrition, Health and Fitness",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kehe103.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kehe103.1.1",
+      "title": "Nutrients and Balanced Diet",
+      "section": "3.1",
+      "definition": "Food supplies six classes of nutrients -- carbohydrates, proteins, fats, vitamins, minerals and water -- each with its own work in the body. A balanced diet combines them in right amounts for one's age and activity, using food groups, so that energy, repair and protection are all met without excess.",
+      "formula": "",
+      "key_idea": "Six nutrients, five food groups, one aim -- a plate balanced for your age and work.",
+      "textbook_ref": "kehe103.txt nutrient sections (carbohydrates proteins fats vitamins minerals water, balanced diet, food groups, RDA mention)",
+      "question_patterns": [
+        "name the six nutrients and their functions in the body",
+        "in class 11 food nutrition health and fitness: what is a balanced diet",
+        "how are foods grouped for planning a balanced diet",
+        "why does an adolescent need more protein and iron",
+        "distinguish macronutrients from micronutrients",
+        "plan a day's balanced menu for a teenager"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "sort the nutrients",
+          "explain": "Energy nutrients are carbohydrates and fats; body-building is protein; protection comes from vitamins, minerals and water."
+        },
+        {
+          "step": 2,
+          "action": "group the foods",
+          "explain": "Foods fall into functional groups -- energy-giving, body-building, protective -- that simplify meal planning."
+        },
+        {
+          "step": 3,
+          "action": "balance the plate",
+          "explain": "Combine the groups in amounts suited to age, sex and activity to reach a balanced diet."
+        }
+      ]
+    },
+    {
+      "id": "kehe103.1.2",
+      "title": "Nutritional Needs of Adolescents and Meal Planning",
+      "section": "3.2",
+      "definition": "The adolescent growth spurt raises demands for energy, protein, calcium and iron; girls additionally need iron against menstrual losses. Meal planning for this stage favours frequent, nutrient-dense meals, breakfast never skipped, and moderation in sugary, fried and processed snacks.",
+      "formula": "",
+      "key_idea": "Feed the growth spurt -- calcium for bones, iron for blood, breakfast for the brain.",
+      "textbook_ref": "kehe103.txt adolescent sections (growth spurt demands, calcium iron needs, meal planning, snacking habits, importance of breakfast)",
+      "question_patterns": [
+        "why do adolescents need extra calcium and iron",
+        "in class 11 food nutrition health and fitness: plan meals for an adolescent girl",
+        "why is breakfast called the most important meal for students",
+        "what snacks are wise for an adolescent and why",
+        "how does the growth spurt change nutritional needs",
+        "what happens when adolescent girls lack iron"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "raise the targets",
+          "explain": "Match meals to the spurt: more energy, more protein for muscle, calcium for bone, iron for expanding blood volume."
+        },
+        {
+          "step": 2,
+          "action": "schedule the meals",
+          "explain": "Three meals plus planned snacks keep energy steady; breakfast anchors concentration through school."
+        },
+        {
+          "step": 3,
+          "action": "guard the quality",
+          "explain": "Keep fried, sugary and highly processed items occasional, not habitual."
+        }
+      ]
+    },
+    {
+      "id": "kehe103.1.3",
+      "title": "Health, Fitness and Hygiene Practices",
+      "section": "3.3",
+      "definition": "Health is more than absence of disease -- a state of physical, mental and social well-being. Fitness grows from regular exercise, adequate sleep and hygiene habits; food safety in storage and preparation protects the health that nutrition builds.",
+      "formula": "",
+      "key_idea": "Nutrition builds, exercise trains, hygiene protects -- the three legs of everyday health.",
+      "textbook_ref": "kehe103.txt health sections (definition of health, physical fitness, exercise, hygiene, food safety and storage)",
+      "question_patterns": [
+        "define health according to the chapter",
+        "in class 11 food nutrition health and fitness: how does exercise improve fitness",
+        "what hygiene practices protect health in the kitchen",
+        "explain safe storage of cooked food",
+        "relate sleep and fitness for an adolescent",
+        "suggest a weekly fitness routine for a student"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "define health broadly",
+          "explain": "Take health as complete well-being -- body, mind and social relations -- not merely no illness."
+        },
+        {
+          "step": 2,
+          "action": "train the body",
+          "explain": "Regular activity builds endurance, strength and flexibility, complementing diet."
+        },
+        {
+          "step": 3,
+          "action": "protect the gains",
+          "explain": "Personal and food hygiene -- washing, safe storage, clean preparation -- keep infection from undoing nutrition."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kehe103.txt nutrient sections",
+      "concept": "kehe103.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "Classify these foods into their nutrient groups: rice, dal, ghee, papaya, spinach, water.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "place the energy foods",
+          "explain": "Rice is carbohydrate; ghee is fat -- both energy-giving."
+        },
+        {
+          "step": 2,
+          "action": "place the body-building food",
+          "explain": "Dal supplies protein for growth and repair."
+        },
+        {
+          "step": 3,
+          "action": "place the protective foods",
+          "explain": "Papaya (vitamin A/C), spinach (iron, vitamins) and water complete the protective balance."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kehe103.txt adolescent sections",
+      "concept": "kehe103.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "A 16-year-old girl skips breakfast and feels dull by mid-morning. Diagnose and correct using the chapter.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "diagnose",
+          "explain": "A skipped breakfast after a long overnight fast starves the brain of glucose during the growth-spurt years."
+        },
+        {
+          "step": 2,
+          "action": "prescribe the meal",
+          "explain": "A nutrient-dense breakfast -- sprouts or egg, milk, fruit, whole grain -- restores energy and iron and calcium intake."
+        },
+        {
+          "step": 3,
+          "action": "add the backup",
+          "explain": "A mid-morning snack such as fruit or nuts prevents the next slump."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kehe103.txt end-of-chapter questions, reworded",
+      "questions": [
+        "List the six nutrients and one main function of each.",
+        "Plan a balanced day's menu for an adolescent boy.",
+        "Why are adolescents advised extra iron and calcium?",
+        "Explain the qualities of a balanced diet.",
+        "Describe kitchen hygiene practices that prevent illness.",
+        "How do exercise and diet together produce fitness?"
+      ]
+    }
+  ]
+}

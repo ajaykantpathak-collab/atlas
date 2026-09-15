@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_01_008",
+   "title": "c11_cs_cbse_01_008",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between system software and application software in terms of their interaction with computer hardware?",
+     "a": "System software interacts directly with hardware to manage resources (CPU, memory, I/O devices), while application software interacts with hardware only indirectly through system software services. A wrong answer (e.g., \"application software also manages hardware\") reveals the student doesn't grasp the abstraction layer — they think apps talk to hardware directly, missing that the OS provides the interface.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Microsoft Word is system software because it comes pre-installed on many computers.\" Explain why this statement is incorrect using the definition of system software.",
+     "a": "Pre-installation doesn't determine software category; system software manages hardware and provides a platform, while Word is a user-task tool (document creation) that runs on the OS. A wrong answer (e.g., \"Word manages files so it's system software\") shows confusion between file management (an OS function) and using files (an app function) — the student conflates using a resource with managing it.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each of the following as system software, programming tool, or application software, and justify each in one sentence: (a) Python IDLE, (b) Ubuntu OS, (c) VLC Media Player, (d) GCC Compiler, (e) Device driver for a printer.",
+     "a": "(a) Python IDLE — programming tool (IDE for writing/running Python code). (b) Ubuntu OS — system software (manages hardware, runs apps). (c) VLC Media Player — application software (plays media for user). (d) GCC Compiler — programming tool (translates C code to machine code). (e) Printer device driver — system software (lets OS control specific hardware). A wrong classification (e.g., calling GCC an app) reveals the student doesn't distinguish between tools for developers vs tools for end-users.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast a compiler and an interpreter in terms of translation process, execution speed, and error detection. Which would you choose for a large production system and why?",
+     "a": "Compiler translates entire source code to machine code before execution; faster execution, errors reported after full scan. Interpreter translates line-by-line during execution; slower, stops at first error. For large production systems, compiler is preferred because it optimizes the whole program and catches all errors upfront. A wrong answer (e.g., \"interpreter is better because it's faster\") shows misunderstanding of translation-time vs runtime performance.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Free and Open Source Software (FOSS) is always better than proprietary software because it costs nothing.\" Provide two arguments for and two against, considering factors beyond price.",
+     "a": "For FOSS: (1) Source code access allows customization and security audits. (2) Community-driven updates can be rapid. Against: (1) No guaranteed vendor support or SLAs — critical for enterprises. (2) Usability and documentation may lag behind polished proprietary alternatives. A one-sided answer reveals the student equates \"free\" with \"superior\" without evaluating total cost of ownership, support, or fitness for purpose.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scenario where a school needs both customised application software and general purpose application software. Specify the purpose of each, and explain why the customised one cannot be replaced by a general purpose tool.",
+     "a": "Scenario: School uses LibreOffice Calc (general purpose) for teachers' individual marksheets, but needs customised \"School Management Software\" for centralized admission, fee collection, timetable, and report cards integrated with a database. The customised software handles school-specific workflows (e.g., CBSE report card format, fee structures per class) that no generic tool supports. A weak answer (e.g., \"Excel can do everything\") misses that customisation is about domain-specific logic, not just data storage.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

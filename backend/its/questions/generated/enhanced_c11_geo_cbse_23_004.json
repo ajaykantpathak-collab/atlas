@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_23_004",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_23_004",
+   "title": "c11_geo_cbse_23_004",
+   "questions": [
+    {
+     "q": "What is the Representative Fraction (RF) equivalent of the Statement Scale \"1 cm represents 500 m\"? Show the unit conversion step.",
+     "a": "RF = 1:50,000. Conversion: 500 m = 500 × 100 cm = 50,000 cm. Ratio = 1 cm : 50,000 cm = 1:50,000. A wrong answer (e.g., 1:500 or 1:5,000) reveals the student either forgot to convert meters to centimeters or misplaced decimal points during unit conversion.",
+     "self_check": true
+    },
+    {
+     "q": "A map has an RF of 1:25,000. Write the Statement Scale in the form \"1 cm represents X km\". Explain why the RF denominator (25,000) is divided by 100,000 to get the ground distance in kilometers.",
+     "a": "Statement Scale: \"1 cm represents 0.25 km\" (or \"1 cm represents 250 m\"). The RF denominator (25,000) is in centimeters because RF is unitless but implies same units for map and ground. To convert cm to km, divide by 100,000 (1 km = 100,000 cm). 25,000 ÷ 100,000 = 0.25 km. A wrong answer (e.g., \"1 cm represents 25 km\") reveals the student incorrectly multiplied by 1000 instead of dividing by 100,000, confusing the direction of unit conversion.",
+     "self_check": true
+    },
+    {
+     "q": "The Statement Scale on a map of Rajasthan reads \"2 cm represents 3 km\". Calculate the RF. If the map distance between Jaisalmer and Bikaner is 8.5 cm, calculate the actual ground distance in kilometers.",
+     "a": "Step 1: Standardize statement to 1 cm basis: 1 cm represents 1.5 km. Step 2: Convert 1.5 km to cm: 1.5 × 100,000 = 150,000 cm. Step 3: RF = 1:150,000. Step 4: Ground distance = 8.5 cm × 150,000 = 1,275,000 cm = 12.75 km. A wrong RF (e.g., 1:15,000) indicates failure to reduce to 1 cm basis first. A wrong ground distance (e.g., 127.5 km) indicates unit conversion error (forgetting to divide by 100,000).",
+     "self_check": true
+    },
+    {
+     "q": "Two maps of the same region have scales: Map A: RF 1:50,000; Map B: Statement Scale \"1 cm represents 0.5 km\". Which map shows more detail? Justify by comparing their RFs after converting Map B's scale.",
+     "a": "Map B's Statement Scale converts to RF: 0.5 km = 50,000 cm → RF 1:50,000. Both maps have identical RF (1:50,000), so they show the same level of detail. A student claiming Map A shows more detail because \"50,000 is larger than 0.5\" fails to convert units and misunderstands that RF denominator size inversely relates to detail (smaller denominator = larger scale = more detail).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A map with RF 1:1,000,000 is more suitable for showing district-level roads in Kerala than a map with Statement Scale '1 cm represents 1 km'.\" Provide geographical reasoning.",
+     "a": "The statement is FALSE. Convert '1 cm represents 1 km' to RF: 1 km = 100,000 cm → RF 1:100,000. For district-level roads (large-scale detail), a larger scale (smaller denominator) is needed. 1:100,000 (1 cm = 1 km) shows more detail than 1:1,000,000 (1 cm = 10 km). A student agreeing with the statement confuses \"larger number denominator\" with \"larger scale\" and fails to recognize that 1:100,000 is a larger scale than 1:1,000,000.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step conversion checklist (algorithm) that a Class 11 student can use to convert ANY Statement Scale to RF and ANY RF to Statement Scale in kilometers, including error-checking steps.",
+     "a": "**Statement Scale → RF Checklist:**\n1. Write statement as \"X cm represents Y [unit]\".\n2. Convert Y to cm (if km: ×100,000; if m: ×100).\n3. Divide both sides by X to get \"1 cm represents Z cm\".\n4. Write RF = 1:Z.\n5. Error-check: Reverse-convert Z cm to km (÷100,000) and verify it matches original Y.\n**RF → Statement Scale (km) Checklist:**\n1. Write RF as 1:Z (Z in cm).\n2. Convert Z cm to km: Z ÷ 100,000 = W km.\n3. Write \"1 cm represents W km\".\n4. Error-check: Convert W km back to cm (×100,000) and verify equals Z.\nA poor answer omits the reduction to 1 cm basis (step 3 in first checklist) or uses wrong conversion factor (×1000 instead of ×100,000).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

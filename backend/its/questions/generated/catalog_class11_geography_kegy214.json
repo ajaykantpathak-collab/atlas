@@ -1,0 +1,41 @@
+{
+  "catalog": "catalog_class11_geography_kegy214",
+  "concepts": [
+    {
+      "id": "kegy.214.1.1",
+      "questions": [
+        {"q": "What is the life-bearing zone where land, water and air meet called? (one word)", "a": "biosphere"},
+        {"q": "Which organisms make their own food in an ecosystem? (one word)", "a": "producers"},
+        {"q": "Which organisms eat other living things in an ecosystem? (one word)", "a": "consumers"},
+        {"q": "Which organisms break down dead matter in an ecosystem? (one word)", "a": "decomposers"},
+        {"q": "What is a linked sequence of who eats whom called? (two words)", "a": "food chain"},
+        {"q": "How many functional groups make up an ecosystem? (number)", "a": "3"},
+        {"q": "Interlocking food chains form a food what? (one word)", "a": "web"}
+      ]
+    },
+    {
+      "id": "kegy.214.2.1",
+      "questions": [
+        {"q": "At how many levels does biodiversity vary: genes, species and what else? (one word)", "a": "ecosystems"},
+        {"q": "Name one cause of biodiversity loss besides habitat destruction and pollution. (one word)", "a": "overexploitation"},
+        {"q": "Which non-native organisms crowd out local species? (two words)", "a": "invasive species"},
+        {"q": "Name one kind of protected area besides national parks and sanctuaries. (two words)", "a": "biosphere reserves"},
+        {"q": "What protects biodiversity alongside laws and parks? (one word)", "a": "conservation"},
+        {"q": "Which human driver of species loss cuts and burns forests? (two words)", "a": "habitat destruction"},
+        {"q": "Which global process, alongside local threats, endangers species today? (two words)", "a": "climate change"}
+      ]
+    },
+    {
+      "id": "kegy.214.3.1",
+      "questions": [
+        {"q": "In which environment did life on earth first evolve? (one word)", "a": "oceans"},
+        {"q": "Life evolved from simple cells to complex plants and animals over how many billions of years? (number, in billions)", "a": "3"},
+        {"q": "Name one modern threat to the biosphere besides pollution and habitat loss. (two words)", "a": "invasive species"},
+        {"q": "Which ethics urges restraint in using nature? (two words)", "a": "environmental ethics"},
+        {"q": "What kind of living keeps the earth habitable for the long run? (one word)", "a": "sustainable"},
+        {"q": "Did complex life arise before or after simple cells? (short phrase)", "a": "after"},
+        {"q": "Which sphere of the earth does all life inhabit? (one word)", "a": "biosphere"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "class": 12,
+  "subject": "maths",
+  "chapter": 203,
+  "chapter_title": "Chapter 9 Differential Equations",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lemh203.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "provenance": "zcode author-first draft; gate-validated",
+  "concepts": [
+    {
+      "id": "lemh.203.9.2.1",
+      "title": "Differential Equations and Their Order",
+      "section": "9.2",
+      "definition": "An equation that relates a dependent variable to its derivatives is a differential equation; its order is the order of the highest derivative appearing anywhere in it.",
+      "formula": "order = the highest derivative order present in the equation",
+      "key_idea": "Scan for the tallest derivative; that height is the order.",
+      "textbook_ref": "lemh203.txt sections 9.2 and 9.2.1 (lines ~25-153)",
+      "question_patterns": [
+        "determine the order of the given differential equation",
+        "identify the highest derivative in the equation to get its order",
+        "state what makes an equation a differential equation",
+        "find the order of the equation containing a second derivative",
+        "distinguish an ordinary differential equation from a partial one",
+        "count the highest order derivative of y with respect to x in the equation"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "List every derivative of the dependent variable in the equation", "explain": "First, second, third derivatives and so on may all appear."},
+        {"step": 2, "action": "Take the order of the tallest derivative present", "explain": "That maximum is the order of the equation."},
+        {"step": 3, "action": "Confirm the order is a positive integer", "explain": "Order is always a positive integer when derivatives appear."}
+      ]
+    },
+    {
+      "id": "lemh.203.9.2.2",
+      "title": "Degree of a Differential Equation",
+      "section": "9.2.2",
+      "definition": "When the equation is a polynomial in its derivatives, the degree is the power raised on the highest-order derivative; if any derivative sits inside a transcendental function or a non-polynomial expression, the degree is not defined.",
+      "formula": "degree = power of the highest order derivative when the equation is polynomial in derivatives",
+      "key_idea": "Degree exists only for polynomial-in-derivatives equations; otherwise it is undefined.",
+      "textbook_ref": "lemh203.txt section 9.2.2 and example 1 (lines ~154-307)",
+      "question_patterns": [
+        "determine the degree of the differential equation if defined",
+        "explain when the degree of a differential equation does not exist",
+        "find the power of the highest derivative in the polynomial equation",
+        "classify the degree of an equation whose derivative appears inside a sine",
+        "state both the order and the degree of the given equation",
+        "check whether the equation is polynomial in its derivatives before naming the degree"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Test whether every derivative enters polynomially", "explain": "Derivatives under roots, inside sines or exponentials break polynomiality."},
+        {"step": 2, "action": "If polynomial, read the exponent on the highest-order derivative", "explain": "That positive integer is the degree."},
+        {"step": 3, "action": "Declare the degree undefined when the test fails", "explain": "No polynomial degree exists for non-polynomial equations."}
+      ]
+    },
+    {
+      "id": "lemh.203.9.3.1",
+      "title": "General and Particular Solutions",
+      "section": "9.3",
+      "definition": "A solution of a differential equation is a function that satisfies it identically; the family holding as many independent arbitrary constants as the order is the general solution, and fixing those constants yields a particular solution.",
+      "formula": "general solution = family with n arbitrary constants for an equation of order n",
+      "key_idea": "Arbitrary constants parametrise the solution family; pinning them gives one curve.",
+      "textbook_ref": "lemh203.txt section 9.3 (lines ~455-516)",
+      "question_patterns": [
+        "distinguish the general solution from a particular solution",
+        "how many arbitrary constants does the general solution of an order two equation carry",
+        "explain what counts as a solution of a differential equation",
+        "obtain a particular solution by fixing the arbitrary constants",
+        "name the family of curves that solves the equation",
+        "find the number of parameters in the primitive of the equation"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Solve the equation keeping all arbitrary constants", "explain": "The general solution describes every solution curve at once."},
+        {"step": 2, "action": "Match the count of independent constants to the order", "explain": "An order n equation general solution carries n such constants."},
+        {"step": 3, "action": "Substitute given values for the constants to particularise", "explain": "The fixed-constant member is the particular solution."}
+      ]
+    },
+    {
+      "id": "lemh.203.9.3.2",
+      "title": "Verifying a Candidate Solution by Substitution",
+      "section": "9.3",
+      "definition": "To check that a proposed function solves an equation, differentiate it as many times as the equation demands, substitute the function and its derivatives into the equation, and confirm both sides agree identically.",
+      "formula": "substitute y and its derivatives into the equation so that left side equals right side",
+      "key_idea": "Differentiate, substitute, and watch both sides collapse to equality.",
+      "textbook_ref": "lemh203.txt examples 2-3 (lines ~517-589)",
+      "question_patterns": [
+        "verify that the given function satisfies the differential equation",
+        "show that the proposed solution makes the equation an identity",
+        "differentiate the candidate and substitute into the equation to check it",
+        "confirm that y as a function of x solves the given equation",
+        "test whether the supplied function is a solution of the equation",
+        "prove the function fits the differential equation by direct substitution"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Differentiate the candidate function successively", "explain": "Produce every derivative order the equation contains."},
+        {"step": 2, "action": "Substitute the derivatives and the function into the equation", "explain": "Replace y, y-prime, y-double-prime and so on in place."},
+        {"step": 3, "action": "Simplify both sides and confirm equality", "explain": "Agreement for every x certifies the solution."}
+      ]
+    },
+    {
+      "id": "lemh.203.9.4.1",
+      "title": "Solving by Separation of Variables",
+      "section": "9.4.1",
+      "definition": "A first order equation whose right side factors into a function of x times a function of y can be rewritten with all y terms on one side and all x terms on the other; integrating both sides then gives the general solution.",
+      "formula": "integral of dy over h(y) = integral of g(x) dx plus a constant",
+      "key_idea": "Group each variable with its differential, then integrate the two sides apart.",
+      "textbook_ref": "lemh203.txt section 9.4.1 and examples 4-9 (lines ~676-1038)",
+      "question_patterns": [
+        "solve the differential equation by separating the variables",
+        "find the general solution of the equation with separable variables",
+        "integrate both sides after grouping y terms with dy and x terms with dx",
+        "determine whether the equation can be written as a product of an x part and a y part",
+        "obtain the solution curve of the separable equation",
+        "separate the variables and integrate to solve the given equation"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Factor the right side as g(x) times h(y)", "explain": "The factorisation certifies the equation as separable."},
+        {"step": 2, "action": "Move the y factor to the dy side and the x factor to the dx side", "explain": "All y dependence joins dy over h(y); the x part stays as g(x) dx."},
+        {"step": 3, "action": "Integrate both sides and add one constant", "explain": "The two antiderivatives equal each other, giving the implicit solution."}
+      ]
+    },
+    {
+      "id": "lemh.203.9.4.2",
+      "title": "Homogeneous Equations and the y equals vx Substitution",
+      "section": "9.4.2",
+      "definition": "An equation dy over dx equals F of x and y is homogeneous when F keeps its value if both arguments are scaled, equivalently F depends on the ratio y over x; substituting y equal to v times x converts the equation into a separable one in v and x.",
+      "formula": "with y = v*x the equation becomes x * dv/dx = g(v) - v which separates",
+      "key_idea": "Scale-homogeneity means only the ratio y over x matters, so substitute y equal to vx.",
+      "textbook_ref": "lemh203.txt section 9.4.2 and examples 10-13 (lines ~1214-2290)",
+      "question_patterns": [
+        "show that the differential equation is homogeneous and solve it",
+        "put y equal to v x to reduce the equation to separated variables",
+        "check whether the right side is a homogeneous function of degree zero",
+        "solve the equation whose numerator and denominator are homogeneous of the same degree",
+        "use the ratio substitution to integrate the homogeneous equation",
+        "convert the homogeneous equation into a separable one by the v substitution"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Test F(x, y) under simultaneous scaling of both arguments", "explain": "If F stays unchanged, it is homogeneous of degree zero."},
+        {"step": 2, "action": "Substitute y = v*x so dy/dx becomes v + x*dv/dx", "explain": "The equation now involves only v and x."},
+        {"step": 3, "action": "Separate v and x, integrate, and replace v by y over x", "explain": "The separated integral gives the general solution in the original variables."}
+      ]
+    },
+    {
+      "id": "lemh.203.9.4.3",
+      "title": "First Order Linear Equations and the Integrating Factor",
+      "section": "9.4.3",
+      "definition": "An equation of the form dy over dx plus P of x times y equals Q of x is linear in y; multiplying through by the integrating factor, the exponential of the integral of P, turns the left side into an exact derivative of the product of y and that factor.",
+      "formula": "integrating factor = e to the power integral of P dx and y times it equals integral of Q times it dx plus C",
+      "key_idea": "The right multiplier collapses the left side into one exact derivative.",
+      "textbook_ref": "lemh203.txt section 9.4.3 and examples 14-18 (lines ~2495-3342)",
+      "question_patterns": [
+        "solve the linear differential equation using an integrating factor",
+        "find the integrating factor for the equation dy over dx plus P y equals Q",
+        "multiply the linear equation by the integrating factor so the left side becomes an exact derivative",
+        "identify P and Q in the first order linear equation before solving",
+        "obtain the general solution of the linear equation in product form",
+        "integrate the right side after applying the integrating factor to solve the equation"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Write the equation in standard linear form and read off P and Q", "explain": "The coefficient of y is P; the free term is Q."},
+        {"step": 2, "action": "Compute the integrating factor as the exponential of the integral of P", "explain": "This multiplier makes the left side the derivative of y times the factor."},
+        {"step": 3, "action": "Integrate Q times the integrating factor to finish the solution", "explain": "The product y times the factor equals that integral plus a constant."}
+      ]
+    },
+    {
+      "id": "lemh.203.9.4.3.2",
+      "title": "Integrating Factor and Product Solution for P equal to a Constant over x",
+      "section": "9.4.3",
+      "definition": "For the linear equation whose coefficient P is a constant divided by x, the integrating factor is x raised to that constant; multiplying through and integrating the right side gives y times the factor as a clean product expression.",
+      "formula": "integrating factor = x**coef_p and y * integrating factor = q_const * x**(coef_p + 1)/(coef_p + 1) + const_c",
+      "key_idea": "When P is a constant over x, the integrating factor is a pure power of x.",
+      "textbook_ref": "lemh203.txt section 9.4.3, log dy/dx + y/x type examples (lines ~2510-2620, 2886-2978)",
+      "question_patterns": [
+        "find the integrating factor when P is a constant divided by x",
+        "solve the equation dy over dx plus coef over x times y equals the constant by a power integrating factor",
+        "compute x to the power of the coefficient as the integrating factor",
+        "express y times the integrating factor for the equation with P equal to constant over x",
+        "integrate the right side after multiplying by the power of x factor",
+        "write the product solution of the linear equation whose P term is a constant over x"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "Raise x to the power of the coefficient P", "explain": "The exponential of the integral of coef_p over x is x**coef_p.", "compute": "if_value = x**coef_p"},
+        {"step": 2, "action": "Integrate the constant right side times the factor", "explain": "q_const times x**coef_p integrates to q_const*x**(coef_p + 1)/(coef_p + 1).", "compute": "rhs_integral = q_const * x**(coef_p + 1) / (coef_p + 1)"},
+        {"step": 3, "action": "State the product solution with the constant", "explain": "y times the integrating factor equals the integral plus the constant.", "compute": "y_product = rhs_integral + const_c"}
+      ]
+    },
+    {
+      "id": "lemh.203.9.3.3",
+      "title": "Particular Solution from an Initial Condition for a Constant Rate",
+      "section": "9.3",
+      "definition": "When the derivative equals a constant rate, the general solution is a straight line; passing it through a given point fixes the arbitrary constant as the point's y-value minus the rate times the point's x-value.",
+      "formula": "const_c = y_value - rate * x_at",
+      "key_idea": "Feed the initial point into the general solution to pin the constant.",
+      "textbook_ref": "lemh203.txt examples 6-9 (lines ~818-1038)",
+      "question_patterns": [
+        "find the particular solution passing through the given point",
+        "determine the constant of the line solution from the initial condition",
+        "fit the general solution to the value of y at the given x",
+        "use the starting value to fix the arbitrary constant",
+        "obtain the member of the solution family through the point with the given coordinates",
+        "evaluate the constant so the solution curve satisfies the initial condition"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "Accumulate the rate contribution up to the given x", "explain": "The linear solution contributes rate times x_at.", "compute": "rate_part = rate * x_at"},
+        {"step": 2, "action": "Subtract the accumulated part from the given y-value", "explain": "What remains is the fixed constant of the particular solution.", "compute": "const_c = y_value - rate_part"}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we203.1",
+      "source_ref": "lemh203.txt example 14 type, linear equation with P constant over x, lines ~2709-2885",
+      "concept": "lemh.203.9.4.3.2",
+      "question_type": "compute",
+      "question_pattern": "solve dy over dx plus {coef_p} over x times y = {q_const} and write y times the integrating factor",
+      "extracted_variables": {"coef_p": "coefficient P expressed as a constant", "q_const": "constant right side Q", "x": "independent variable value", "const_c": "arbitrary constant"},
+      "solution_template": [
+        {"step": 1, "action": "Integrating factor as a power of x", "explain": "x raised to coef_p.", "compute": "if_value = x**coef_p"},
+        {"step": 2, "action": "Integrate the right side times the factor", "explain": "q_const times x**coef_p integrates to q_const*x**(coef_p+1)/(coef_p+1).", "compute": "rhs_integral = q_const * x**(coef_p + 1) / (coef_p + 1)"},
+        {"step": 3, "action": "Product solution", "explain": "y times the integrating factor equals the integral plus the constant.", "compute": "y_product = rhs_integral + const_c"}
+      ]
+    },
+    {
+      "id": "we203.2",
+      "source_ref": "lemh203.txt examples 6-9, particular solutions through a point, lines ~818-1038",
+      "concept": "lemh.203.9.3.3",
+      "question_type": "compute",
+      "question_pattern": "the slope of a curve is the constant {rate} and it passes through the point where x = {x_at} and y = {y_value}; find the particular solution constant",
+      "extracted_variables": {"rate": "constant derivative value", "x_at": "given x coordinate", "y_value": "given y coordinate"},
+      "solution_template": [
+        {"step": 1, "action": "Rate contribution at the point", "explain": "rate times x_at.", "compute": "rate_part = rate * x_at"},
+        {"step": 2, "action": "Fixed constant of the particular solution", "explain": "y_value minus the rate contribution.", "compute": "const_c = y_value - rate_part"}
+      ]
+    },
+    {
+      "id": "we203.3",
+      "source_ref": "lemh203.txt examples 10-13, homogeneous equations, lines ~1549-2290",
+      "concept": "lemh.203.9.4.2",
+      "question_type": "verify_property",
+      "question_pattern": "show that dy over dx = (x plus y) over (x minus y) is homogeneous and solve it by the v substitution",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "Check homogeneity of the right side", "explain": "Numerator and denominator are both homogeneous of degree one, so the ratio depends on y over x."},
+        {"step": 2, "action": "Substitute y = v*x", "explain": "dy/dx becomes v + x*dv/dx and the right side becomes a function of v alone."},
+        {"step": 3, "action": "Separate and integrate, then revert to y over x", "explain": "The v-equation separates; replacing v by y over x finishes the solution."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex9.1",
+      "source_ref": "lemh203.txt exercise 9.1, lines ~308-454",
+      "questions": [
+        "Determine the order and degree of the equation with a fourth derivative plus the sine of y triple prime equal to zero.",
+        "Determine the order and degree of y prime plus 5 y equal 0.",
+        "Determine the order and degree of the equation whose second derivative is squared plus the cube of the first derivative equals zero.",
+        "Determine the order and degree of the equation with the second derivative plus the sine of the first derivative equal to zero."
+      ]
+    },
+    {
+      "id": "ex9.2",
+      "source_ref": "lemh203.txt exercise 9.2, lines ~589-675",
+      "questions": [
+        "Verify that y equal e to the 3x plus e to the minus 3x satisfies the equation with second derivative minus 9 y equal 0.",
+        "Verify that y equal the logarithm of x satisfies the equation x times second derivative plus first derivative equals 0.",
+        "Show that y equal a cosine x plus b sine x solves the second derivative plus y equal 0.",
+        "Verify that y equal the exponential of minus x satisfies the second derivative plus first derivative plus y equal 0."
+      ]
+    },
+    {
+      "id": "ex9.3",
+      "source_ref": "lemh203.txt exercise 9.3, lines ~1039-1213",
+      "questions": [
+        "Find the general solution of dy over dx equal the square root of 1 plus x squared.",
+        "Find the general solution of dy over dx equal the square root of 1 minus y squared.",
+        "Find the general solution of dy over dx equal y squared plus 1 after separating variables.",
+        "Find the equation of a curve through the origin whose slope is given."
+      ]
+    },
+    {
+      "id": "ex9.4",
+      "source_ref": "lemh203.txt exercise 9.4, lines ~2291-2494",
+      "questions": [
+        "Show that the equation with x minus y over the right side is homogeneous and solve it.",
+        "Solve the equation whose right side is x plus y over x by the v substitution.",
+        "Solve the homogeneous equation in x minus y form and find the particular curve through a given point.",
+        "Show that the family of curves with constant slope difference is homogeneous and integrate it."
+      ]
+    },
+    {
+      "id": "ex9.5",
+      "source_ref": "lemh203.txt exercise 9.5, lines ~3343-3611",
+      "questions": [
+        "Solve dy over dx plus 2 y equal the sine of x by integrating factor.",
+        "Solve the linear equation with P equal to 3 over x.",
+        "Find the particular solution of the linear equation satisfying a given initial condition.",
+        "Solve dx over dy plus x equal the cosine of y as a linear equation in x."
+      ]
+    },
+    {
+      "id": "misc9",
+      "source_ref": "lemh203.txt miscellaneous exercise on chapter 9, lines ~4560-5026",
+      "questions": [
+        "Identify the order and degree of the equation in the miscellaneous set.",
+        "Solve the separable equation with logarithmic right side.",
+        "Solve the linear equation whose integrating factor is an exponential of a quadratic.",
+        "Find the particular solution of the equation satisfying y equal 1 at x equal 0."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_09_010",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_09_010",
+   "title": "c11_chem_cbse_09_010",
+   "questions": [
+    {
+     "q": "State the molecular formula and molar mass of heavy water. How does its molar mass differ from that of ordinary water?",
+     "a": "Heavy water is D₂O with molar mass ≈ 20 g mol⁻¹ (2 × 2.014 + 16.00). Ordinary water H₂O has molar mass ≈ 18 g mol⁻¹ (2 × 1.008 + 16.00). The difference is ~2 g mol⁻¹ due to two neutrons in the deuterium nuclei. A wrong answer (e.g., writing H₂O or 18 g mol⁻¹) reveals confusion between isotopes and the common form of water, indicating the student has not internalised the isotopic composition from c11_chem_cbse_09_002.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the boiling point of D₂O (374.4 K) is higher than that of H₂O (373 K) despite nearly identical electronic structure.",
+     "a": "The higher mass of deuterium reduces zero-point vibrational energy of the O–D bond compared to O–H, making the hydrogen bond in D₂O slightly stronger. Stronger intermolecular forces require more thermal energy to overcome, raising the boiling point. A wrong answer citing \"covalent bond strength\" or \"electronegativity difference\" shows misunderstanding: the electronic structure is identical; the isotope effect is purely a nuclear mass phenomenon affecting vibrational levels.",
+     "self_check": true
+    },
+    {
+     "q": "During electrolysis of ordinary water, the gas evolved at the cathode is richer in H₂ than D₂. If the initial water contains 0.0156% D₂O by mole fraction, and the separation factor α = 1.05 for a single electrolysis stage, calculate the approximate mole fraction of D₂O in the residual liquid after one stage assuming 50% of water is electrolysed. (Use Rayleigh distillation approximation: ln(x/x₀) = (α−1) ln(1−f) where f = fraction electrolysed.)",
+     "a": "Given x₀ = 0.000156, α = 1.05, f = 0.5. ln(x/x₀) = (0.05) × ln(0.5) = 0.05 × (−0.693) = −0.03465. x/x₀ = e⁻⁰·⁰³⁴⁶⁵ ≈ 0.966. x ≈ 0.966 × 0.000156 = 0.000151. Wait — this gives depletion! Correct Rayleigh form for residual liquid: x = x₀ (1−f)^(α−1). x = 0.000156 × (0.5)^0.05 = 0.000156 × 0.966 = 1.51×10⁻⁴. The residual liquid is slightly depleted because H₂ evolves preferentially; enrichment requires many stages. A wrong sign in exponent or using α instead of α−1 reveals confusion between distillation (vapour enriched) and electrolysis (gas depleted in D).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the density of D₂O (1.107 g cm⁻³ at 298 K) and H₂O (0.997 g cm⁻³ at 298 K). A student claims \"D₂O is denser because deuterium has a neutron, so the molecule packs tighter.\" Evaluate this statement.",
+     "a": "The statement is partially correct in outcome but wrong in mechanism. Density increase is due to greater molecular mass (20 vs 18 g mol⁻¹) occupying nearly the same molar volume (H-bond length changes <0.5%). \"Packing tighter\" implies structural rearrangement, which does not occur — the crystal/lattice structure is isomorphous. A student who attributes density change to \"packing\" confuses mass effect with volume effect; the correct reasoning is mass increase with negligible volume change.",
+     "self_check": true
+    },
+    {
+     "q": "In a PHWR (Pressurised Heavy Water Reactor), D₂O acts as both moderator and coolant. Why is ordinary water unsuitable as a moderator for natural uranium fuel?",
+     "a": "Ordinary water (H₂O) has a high neutron absorption cross-section (σₐ ≈ 0.33 barns for H) due to the reaction ¹H(n,γ)²H. This captures too many neutrons, preventing a sustained chain reaction with natural uranium (0.7% ²³⁵U). D₂O has very low absorption (σₐ ≈ 0.0005 barns for D) because ²H(n,γ)³H is rare. A wrong answer citing \"slowing down power\" alone misses the critical distinction: both H₂O and D₂O moderate well, but only D₂O has low enough absorption for natural uranium.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory experiment to demonstrate that D₂O slows the rate of an acid-base reaction compared to H₂O, using the kinetic isotope effect. Specify the reaction, measurable quantity, and expected observation.",
+     "a": "Reaction: hydrolysis of an ester (e.g., ethyl acetate) catalysed by DCl vs HCl in D₂O vs H₂O. Measure initial rate by titration of acetic acid produced. Expected: k_H/k_D ≈ 2–3 (primary KIE) because O–D bond cleavage in the transition state is slower than O–H. A poor design uses a reaction without proton transfer in the rate-determining step (e.g., SN2), showing no isotope effect, revealing the student does not link KIE to bond-breaking at the isotopic site.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_11_009",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_11_009",
+   "title": "c12_geo_cbse_11_009",
+   "questions": [
+    {
+     "q": "Name the four major oilseed crops grown in India and identify which one is a rabi crop while the others are primarily kharif crops.",
+     "a": "The four major oilseeds are groundnut, rapeseed & mustard, soyabean, and sunflower. Rapeseed & mustard is the rabi crop; groundnut, soyabean, and sunflower are primarily kharif crops (though groundnut is also grown in rabi in southern India). A wrong answer (e.g., listing cotton or jute as oilseeds, or misidentifying the season) reveals confusion between fibre crops and oilseeds, or between kharif/rabi classification — a common error because groundnut's dual-season nature in the south is often overlooked.",
+     "self_check": true
+    },
+    {
+     "q": "Why is tea cultivation concentrated in the Brahmaputra valley (Assam) and the sub-Himalayan region of West Bengal (Darjeeling, Jalpaiguri), while coffee is restricted to the Western Ghats (Karnataka, Kerala, Tamil Nadu)?",
+     "a": "Tea requires 150–250 cm well-distributed rainfall, temperatures of 13–20°C, and deep, well-drained acidic soils on undulating hill slopes — conditions met by the Brahmaputra valley and sub-Himalayan foothills. Coffee (arabica) needs 125–200 cm rainfall but with a distinct dry season, 15–28°C temperatures, and well-drained lateritic/red soils on shady slopes — conditions specific to the Western Ghats' windward side. A wrong answer that cites \"high rainfall\" for both misses the critical difference: tea needs year-round humidity and cooler temperatures, while coffee needs a dry spell for flowering and warmer temperatures — a confusion that leads to misplacing coffee in Assam or tea in Karnataka's lowlands.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in western Madhya Pradesh (Malwa plateau) has 5 hectares of black cotton soil (regur) with 80 cm annual rainfall, mostly in July–September. Which oilseed crop is most suitable, and in which season should it be sown? Justify using temperature and moisture requirements.",
+     "a": "Soyabean (kharif) is most suitable. Steps: (1) Identify region: Malwa plateau = major soyabean belt (Madhya Pradesh + Maharashtra produce 90% of India's soyabean). (2) Soil: Black cotton soil (regur) retains moisture — ideal for soyabean's 60–100 cm rainfall requirement. (3) Rainfall: 80 cm concentrated in SW monsoon (June–Sept) matches kharif sowing (June–July) and harvest (Sept–Oct). (4) Temperature: 25–30°C during growth — met in Malwa summer. (5) Rapeseed & mustard (rabi) needs cooler winters and irrigation — not ideal here. A wrong choice of groundnut reveals ignorance that groundnut prefers sandy loams and is more suited to Gujarat/Rajasthan/Tamil Nadu, not black soils.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the geographical reasons for the decline in area under \"tree crops and groves\" (land-use category) with the expansion of oilseed cultivation in India since 1950–51.",
+     "a": "Tree crops/groves declined due to conversion to agricultural land (net sown area increased from 41.7% to 45.6% of reporting area) as population pressure demanded more food and oilseeds. Oilseeds expanded because: (1) Technology Mission on Oilseeds (1986) boosted yields via HYVs and irrigation; (2) soyabean's short duration (90–100 days) fit into existing cropping systems; (3) rising edible oil demand made oilseeds more profitable than maintaining orchards. A wrong answer citing \"urbanization\" as the main driver for tree crop decline confuses \"non-agricultural uses\" (which grew fastest) with \"tree crops\" — the NCERT explicitly links tree crop decline to agricultural expansion pressure.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Expanding oilseed cultivation in India's drylands will solve the edible oil import dependency without compromising food security.\" Use data on land-use trade-offs and yield gaps.",
+     "a": "The statement is overly optimistic. India imports ~60% of edible oil demand. While oilseed area can expand on culturable wasteland (declined from 8.0% to 3.9% of reporting area) and fallow lands, three constraints exist: (1) Dryland yields are low and volatile (groundnut yield in Telangana/Andhra is half of Tamil Nadu's irrigated yield); (2) Converting pulses area to oilseeds reduces protein supply — pulses already occupy 11% of cropped area with stagnant yields; (3) Water scarcity limits protective irrigation expansion (only 33% of cultivated area irrigated). A sound evaluation must acknowledge the Technology Mission's success in raising production but note that yield gaps (vs. world average) and climate vulnerability make self-sufficiency unlikely without productivity breakthroughs. A wrong answer ignoring yield gaps or pulses trade-off shows lack of systems thinking.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sustainable cropping calendar for a 4-hectare farm in Kodagu district, Karnataka (Western Ghats, 200 cm rainfall, lateritic soil, 15–25°C) that integrates coffee with one oilseed and one food crop. Specify seasons, crops, and soil conservation measures.",
+     "a": "A good answer: (1) Coffee (perennial, arabica) — main crop, shade-grown under silver oak, planted on contours with bench terracing. (2) Kharif (June–Oct): Soyabean (short-duration variety) as intercrop in young coffee plantations or on separate plots — fixes nitrogen, fits rainfall. (3) Rabi (Nov–Mar): Ragi (finger millet) on residual moisture + light irrigation — drought-tolerant, food security. (4) Conservation: Contour bunds, mulching with coffee prunings, vetiver grass on bunds. A poor answer proposing rice in rabi ignores lateritic soil's low water-holding capacity and coffee's shade requirement; or suggesting groundnut ignores high rainfall causing fungal diseases.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

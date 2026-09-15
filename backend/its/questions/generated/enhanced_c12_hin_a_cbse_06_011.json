@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_06_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_06_011",
+   "title": "c12_hin_a_cbse_06_011",
+   "questions": [
+    {
+     "q": "Identify the Braj Bhasha form for the Khari Boli word \"तुम्हें\" (tumheṁ) as it appears in the line \"eSa tkum¡ fut ukFk lqHkkmQ\" from Raskhan's first pad.",
+     "a": "Correct answer: \"tkum¡\" (tumhauṁ). The Braj form uses the nasalized oblique pronoun base *tumh-* + the dative/locative suffix *-auṁ*, whereas Khari Boli uses *tumhẽ*. A wrong answer like \"tumko\" or \"tumhe\" reveals the student is guessing Khari Boli synonyms instead of recognizing the specific Braj morphological pattern (pronominal base + *-auṁ* for dative). This confusion stems from treating Braj as \"incorrect Hindi\" rather than a distinct grammatical system.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the verb form \"lqHkkmQ\" (lakṣyam) in \"eSa tkum¡ fut ukFk lqHkkmQ\" ends in *-am* instead of the Khari Boli infinitive *-nā* or conjugated form.",
+     "a": "Correct answer: \"lqHkkmQ\" is a Braj *tadbhava* noun/verbal noun derived from Sanskrit *lakṣyam* (neuter accusative singular), functioning here as \"target/aim\" — not a verb. Khari Boli would use \"lakṣya\" (noun) or \"lakṣya karna\" (verb phrase). A wrong answer claiming it's a \"verb in future tense\" or \"misspelled lakshya\" shows the student cannot distinguish between Braj's heavy Sanskrit-derived nominal forms and Khari Boli's verbal system, missing the poetic device of using a Sanskrit case form as a fixed poetic epithet.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the Braj-to-Khari Boli sound-shift rule *au → o* to convert the following Braj words from the text to their modern Khari Boli equivalents: (a) \"ftrko¯g\" (b) \"eksagh\" (c) \"vfèkd\" (d) \"ckft\".",
+     "a": "Correct answers: (a) tarak → tarak (no shift, *au* not present) — wait, \"ftrko¯g\" = *tarakau*? Actually \"ftrko¯g\" is *tarakauṅg* (plural of *tarak*?); (b) eksagh → ekasag? Let's do systematic: The rule *au → o* applies to words like \"gkjsagw¡\" (gaganauṅg → gaganõ), \"ftrko¯g\" (tarakauṅg → tarakõ), \"eksagh\" (ekasau? no). Better: Use clear examples from text: \"gkjsagw¡\" → \"gaganõ\", \"ftrko¯g\" → \"tarakõ\", \"vfèkd\" → \"vidhātā\" (no *au*), \"ckft\" → \"kath\" (no *au*). Actually the rule is *au* (nasalized) → *õ*. So \"gkjsagw¡\" (gaganauṅg) → \"gaganõ\". \"ftrko¯g\" (tarakauṅg) → \"tarakõ\". A wrong answer that changes every vowel or ignores nasalization shows mechanical rule application without checking each word's actual phonology.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the morphological structure of the Braj phrase \"vuqHko djrh gaS\" (from prose: \"ek¡ dkS'kY;k oSQlk vuqHko djrh gaS\") and compare it with its Khari Boli equivalent \"vichār kartī hai\". Identify two grammatical differences in gender/number agreement and verb formation.",
+     "a": "Correct analysis: (1) Braj \"djrh\" (karat hī) is a present participle *karat* + *hī* (emphatic), agreeing with feminine subject \"ek¡\" (Yashodā) via *-ī* suffix; Khari Boli \"kartī\" is a habitual present feminine singular verb form directly inflected. (2) Braj \"gaS\" (gās = *gaye*? Actually \"gaS\" = *gās* = *hai*? Wait, \"gaS\" is Braj for *hai*? In text: \"vuqHko djrh gaS\" — \"gaS\" is Braj present tense 3rd sg *gās* < *gacchati*? No, \"gaS\" = *hai* from *gachchhati*? Actually Braj *hai* is \"hYy\" or \"gS\". Here \"gaS\" = *hai*. Khari Boli uses \"hai\". Difference: Braj retains older *gacchati* → *gās* for copula, while Khari Boli uses *hai* from *bhavati*. A wrong answer that only notes spelling differences misses the systemic shift from participial constructions to finite verb inflection.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Raskhan's use of Braj Bhasha grammatical archaisms (like 'ukFk' for 'nahīṁ', 'lqHkkmQ' for 'lakṣya') is merely decorative and does not affect the philosophical meaning of his Krishna-bhakti poetry.\" Defend your position with two textual evidences.",
+     "a": "Correct evaluation: The claim is false. Evidence 1: \"ukFk\" (na hi) carries emphatic negation stronger than \"nahīṁ\", reinforcing the absolute surrender in \"eSa tkum¡ fut ukFk lqHkkmQ\" — \"I have no aim *whatsoever* but You\". Evidence 2: \"lqHkkmQ\" (Sanskrit *lakṣyam*) invokes the Vedic concept of *puruṣārtha*, elevating Krishna from lover to supreme goal. These aren't decorative; they encode theological precision. A wrong answer agreeing with the claim reveals a surface-level reading that treats language as ornamental rather than meaning-bearing.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new two-line Braj Bhasha couplet in Raskhan's style, using at least three grammatical features from the text (e.g., *auṁ* dative, *tadbhava* Sanskrit nominal, participial verb + *hī*, *au→õ* plural). Provide the Khari Boli translation and annotate each feature used.",
+     "a": "Example couplet:  \n\"mo kauṁ prema dījiye, śyāma mohan rāy  \nbhakti lakṣyam mero, chāḍi jagat kā māy\"  \nKhari Boli: \"मुझको प्रेम दीजिए, श्याम मोहन राय / भक्ति लक्ष्य मेरा, छोड़ जगत की माया\"  \nAnnotations: (1) *mauṁ* (moko) — Braj dative *auṁ* for *ko*; (2) *lakṣyam* — Sanskrit *tadbhava* nominal as fixed epithet; (3) *mero* — Braj possessive *merau* → *mero* (au→o); (4) *chāḍi* — perfective participle *chāḍi* (Khari *chhoṛ kar*). A poor answer uses only Khari Boli forms with Braj vocabulary, showing inability to internalize the grammatical system.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

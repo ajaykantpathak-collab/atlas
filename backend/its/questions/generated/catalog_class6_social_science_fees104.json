@@ -1,0 +1,99 @@
+{
+ "catalog": "catalog_class6_social_science_fees104",
+ "concepts": [
+  {
+   "id": "fees.4.1",
+   "title": "Historical Time: BCE and CE",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Historical Time: BCE and CE' refers to.",
+     "a": "History measures time on a shared timeline: years are counted backwards from the birth of Christ as BCE and forwards as CE, so events can be placed in order across centuries and millennia.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Historical Time: BCE and CE'.",
+     "a": "A common timeline lets people everywhere agree on when things happened, long before clocks or calendars.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Historical Time: BCE and CE' taught, and from which source text?",
+     "a": "How do we measure historical time (source: fees104.txt, How do we measure historical time)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fees.4.2",
+   "title": "Sources of History",
+   "questions": [
+    {
+     "q": "Using the method 'Sources of History', work with: material = 3, oral = 25, written = 400. Carry the chain through step by step and give the final value of sources.",
+     "a": "428 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Sources of History' and work with: material = 4, oral = 120, written = 240. Carry the chain through step by step and give the final value of sources.",
+     "a": "364 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Sources of History' refers to.",
+     "a": "Historians read the past through sources: material remains such as pottery, coins and monuments, written records such as manuscripts and inscriptions, and oral traditions passed by word of mouth.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sources of History'.",
+     "a": "Each source is a thread; woven together they form the tapestry of the past.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Sources of History', in plain ASCII form.",
+     "a": "sources = material + written + oral",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fees.4.3",
+   "title": "Museums: Homes of the Past",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Museums: Homes of the Past' refers to.",
+     "a": "Museums such as the National Museum in New Delhi collect and preserve objects from the past, statues, coins and ornaments, keeping them safe so that everyone can study and enjoy them.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Museums: Homes of the Past'.",
+     "a": "A museum is a library of things: each object on display is a source you can see and touch with your eyes.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Museums: Homes of the Past' taught, and from which source text?",
+     "a": "National Museum passage (source: fees104.txt, National Museum passage)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fees.4.4",
+   "title": "The Present and the Past",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Present and the Past' refers to.",
+     "a": "E. H. Carr calls history an unending dialogue between the present and the past; we understand today's society only in the light of yesterday's, and each generation asks the past fresh questions.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Present and the Past'.",
+     "a": "Studying the past is a conversation: present questions bring old answers to life again.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Present and the Past' taught, and from which source text?",
+     "a": "Opening quotation (source: fees104.txt, Opening quotation)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_21_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_21_012",
+   "title": "c11_eng_w_cbse_21_012",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal question asks for information explicitly stated in the text (e.g., \"What does the author say about the scientist's method?\"), while an inferential question requires the reader to deduce meaning from textual clues (e.g., \"Why does the author compare the scientist's method to fermentation?\"). A wrong answer that confuses the two reveals the student cannot distinguish direct statements from implied meanings, leading to over-quoting for inference or speculation for literal questions.",
+     "self_check": true
+    },
+    {
+     "q": "In \"Patterns of Creativity,\" the author writes: \"The scientist and the poet both seek patterns.\" If a question asks, \"What common pursuit unites the scientist and the poet according to the author?\", is this literal or inferential? Explain your reasoning.",
+     "a": "This is a literal question because the answer is directly stated in the quoted sentence: both seek patterns. A student who labels it inferential misunderstands that literal questions can require synthesizing a direct statement; they may think any question needing a complete sentence answer is inferential.",
+     "self_check": true
+    },
+    {
+     "q": "Given this excerpt: \"The poet's creativity springs from emotion, while the scientist's springs from logic, yet both produce ordered structures.\" Answer the inferential question: \"What does the author imply about the relationship between emotion and logic in creative work?\" Provide a response with textual evidence.",
+     "a": "The author implies that emotion and logic are distinct but parallel sources of creativity that both yield structured, ordered outcomes. Evidence: \"both produce ordered structures\" shows the shared result despite different origins. A wrong answer claiming emotion is superior or logic is superior reveals the student imposes personal bias instead of inferring from the text's balanced presentation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two questions from the essay: (a) \"What are the two types of creativity discussed?\" (b) \"How does the author contrast the creative processes of the poet and the scientist?\" Identify the question type for each and explain the difference in cognitive demand.",
+     "a": "(a) is literal (directly stated: poetry and science). (b) is inferential because it requires synthesizing multiple points of contrast (emotion vs logic, intuition vs analysis) scattered across paragraphs. A student who treats (b) as literal will likely copy a single sentence rather than construct a comparative analysis, missing the need to integrate evidence.",
+     "self_check": true
+    },
+    {
+     "q": "A student answers the inferential question \"Why does the author call creativity a 'bridge' between art and science?\" with: \"Because the author likes bridges and thinks they are beautiful.\" Evaluate this answer and explain why it fails.",
+     "a": "The answer fails because it substitutes personal speculation for textual inference. The word \"bridge\" is a metaphor; a valid inference would explain how the author uses it to show connection between art and science (e.g., \"The metaphor suggests creativity connects the two domains by revealing shared patterns\"). The student's answer ignores the text entirely, revealing a misconception that inferential questions invite free association.",
+     "self_check": true
+    },
+    {
+     "q": "Write one literal and one inferential question based on this hypothetical sentence from the essay: \"When the poet observes a rainbow, she sees a spectrum of feeling; when the scientist observes it, she sees a spectrum of light.\"",
+     "a": "Literal: \"What does the poet see when observing a rainbow?\" (Answer: a spectrum of feeling). Inferential: \"What does the contrast between the poet's and scientist's observations suggest about their approaches to nature?\" (Answer: The poet approaches nature subjectively/emotionally, the scientist objectively/analytically). A poor answer would create questions that are both literal or both inferential, showing inability to distinguish cognitive demand.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

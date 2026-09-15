@@ -1,0 +1,488 @@
+{
+  "class": 11,
+  "subject": "applied_maths",
+  "chapter": 11,
+  "chapter_title": "Basics of Financial Mathematics",
+  "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am11_011_financial_mathematics.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "am11_011.1",
+      "title": "Simple Interest on the Principal",
+      "section": "11.2",
+      "definition": "Under simple interest every period charges the same fixed fraction of the original principal only; earlier interest never joins the base, so the charge grows in a straight line.",
+      "formula": "si = p * r * t / 100",
+      "key_idea": "Interest rides on the opening principal alone, so equal periods cost equal interest.",
+      "textbook_ref": "am11_011_financial_mathematics.txt, section 11.2, SI = P x r x t / 100 with fixed fraction of the principal",
+      "question_patterns": [
+        "find the simple interest on 8000 at 6 percent per year for 3 years",
+        "calculate the simple interest on a loan of 15000 at 9 percent for 2 years",
+        "how much simple interest does 2500 earn in 8 months at 12 percent per annum",
+        "a deposit of 20000 at 7 percent per annum is held for 30 months; find the interest earned",
+        "at what rate per cent does 6000 yield 1080 simple interest in 3 years",
+        "find the principal that pays 900 simple interest in 5 years at 6 percent"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "price the use of the money for the whole period",
+          "explain": "principal times rate percent times years, all on the original base",
+          "compute": "si = p * r * t / 100"
+        }
+      ]
+    },
+    {
+      "id": "am11_011.2",
+      "title": "Maturity Amount at Simple Interest",
+      "section": "11.2",
+      "definition": "The amount repaid at simple interest is the principal plus the straight-line interest collected over the whole term, returned as one maturity figure.",
+      "formula": "total = p + si",
+      "key_idea": "Amount is just the principal wearing its interest on top.",
+      "textbook_ref": "am11_011_financial_mathematics.txt, section 11.2, simple interest accumulation on banking products",
+      "question_patterns": [
+        "find the amount to be repaid if 8000 is borrowed at 6 percent simple interest for 3 years",
+        "what maturity value does a deposit of 12000 at 8 percent simple interest reach after 2 years",
+        "a loan of 5000 at 10 percent simple interest runs 18 months; find the total repayment",
+        "calculate the final sum of principal plus simple interest for 25000 at 7.5 percent over 4 years",
+        "6000 is borrowed at 6 percent for 3 years; find the total amount returned",
+        "how much does the borrower hand back in total under a simple interest contract"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "accumulate the straight-line interest",
+          "explain": "same fixed fraction of the original principal each period",
+          "compute": "si = p * r * t / 100"
+        },
+        {
+          "step": 2,
+          "action": "add the interest to the principal",
+          "explain": "the maturity figure is principal plus interest",
+          "compute": "total = p + si"
+        }
+      ]
+    },
+    {
+      "id": "am11_011.3",
+      "title": "Compound Interest Earned",
+      "section": "11.2",
+      "definition": "Compound interest adds each period's interest back into the base, so interest itself starts earning interest and the debt or deposit grows geometrically. The interest charge is the grown amount minus the original principal.",
+      "formula": "ci = amount - p",
+      "key_idea": "Interest joins the base every period; the charge is growth minus the starting sum.",
+      "textbook_ref": "am11_011_financial_mathematics.txt, section 11.2, A = P (1 + r/100)^n and CI = A - P",
+      "question_patterns": [
+        "find the compound interest on 5000 at 8 percent per year for 2 years",
+        "calculate the compound interest earned when 10000 is kept at 10 percent compounded yearly for 3 years",
+        "find the compound interest on 6000 at 10 percent per year for 2 years and note how it beats simple interest",
+        "a bank pays 5 percent compounded annually; find the interest on 20000 after 2 years",
+        "compute the interest-over-interest difference A minus P for the given p, r and n",
+        "why does compound interest beat simple interest on the same principal and rate"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "build the per-period growth factor",
+          "explain": "one plus the rate as a fraction, raised to the number of periods",
+          "compute": "growth = (1 + r / 100) ** n"
+        },
+        {
+          "step": 2,
+          "action": "multiply the principal by the growth factor",
+          "explain": "the accumulated amount after n compounding periods",
+          "compute": "amount = p * growth"
+        },
+        {
+          "step": 3,
+          "action": "subtract the original principal",
+          "explain": "the interest alone is growth minus the seed",
+          "compute": "ci = amount - p"
+        }
+      ]
+    },
+    {
+      "id": "am11_011.4",
+      "title": "Accumulated Amount under Compound Interest",
+      "section": "11.2",
+      "definition": "The amount after n compounding periods is the principal scaled by the factor one plus the periodic rate raised to the nth power, the compounded maturity value of the deposit or loan.",
+      "formula": "amount = p * growth",
+      "key_idea": "Multiply once by the whole growth factor instead of stepping year by year.",
+      "textbook_ref": "am11_011_financial_mathematics.txt, section 11.2, A = P (1 + r/100)^n accumulation formula",
+      "question_patterns": [
+        "find the amount of 8000 at 5 percent per annum compounded annually after 3 years",
+        "what will 15000 amount to in 2 years at 12 percent compounded yearly",
+        "a fixed deposit of 25000 rolls at 9 percent per year; find its maturity value after 2 years",
+        "calculate the accumulated value of p at rate r over n compounding periods",
+        "how much does 10000 become after 4 years at 6 percent per annum compound",
+        "the population of a town grows 4 percent a year from 50000; find it after 2 years"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "raise the yearly factor to the number of periods",
+          "explain": "each period multiplies the running total again",
+          "compute": "growth = (1 + r / 100) ** n"
+        },
+        {
+          "step": 2,
+          "action": "scale the principal by the growth factor",
+          "explain": "the compounded amount",
+          "compute": "amount = p * growth"
+        }
+      ]
+    },
+    {
+      "id": "am11_011.5",
+      "title": "Annual Equivalent and Effective Rate",
+      "section": "11.3",
+      "definition": "A nominal rate compounded m times a year earns more than its face value; the annual equivalent rate is the single yearly rate that would pile up the same money, and it beats the nominal rate whenever compounding is more frequent than annual.",
+      "formula": "pct = aer * 100",
+      "key_idea": "Compound m times, strip the principal, and you have the true yearly rate.",
+      "textbook_ref": "am11_011_financial_mathematics.txt, section 11.3, AER = (1 + r/m)^m - 1, effective rate exceeds nominal for intra-year compounding, bond coupons half yearly or quarterly",
+      "question_patterns": [
+        "find the effective annual rate for a nominal 12 percent compounded quarterly",
+        "a bond pays a coupon of 10 percent per year compounded half yearly; what is the annual equivalent rate",
+        "calculate the effective rate of 8 percent per annum compounded quarterly",
+        "convert a nominal 9.8 percent per year compounded half yearly into the annual equivalent rate",
+        "find the effective yearly rate when compounding happens four times a year",
+        "convert a nominal rate compounded m times a year into one yearly rate",
+        "why does quarterly compounding beat annual compounding at the same nominal rate"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "write the per-period rate as a decimal factor",
+          "explain": "divide the nominal rate by the m compounding periods",
+          "compute": "base = 1 + r / m"
+        },
+        {
+          "step": 2,
+          "action": "compound for one whole year and remove the principal",
+          "explain": "base to the m minus one is the yearly gain as a fraction",
+          "compute": "aer = base ** m - 1"
+        },
+        {
+          "step": 3,
+          "action": "quote the yearly gain as a percentage",
+          "explain": "the annual equivalent or effective rate",
+          "compute": "pct = aer * 100"
+        }
+      ]
+    },
+    {
+      "id": "am11_011.6",
+      "title": "Present Value by Discounting",
+      "section": "11.4",
+      "definition": "Discounting runs compounding backwards: the present value of an amount A falling due after n years is the sum that, invested today at rate r, would grow into A. Future money is worth less today by the discount factor.",
+      "formula": "pv = amount / base",
+      "key_idea": "Divide by the growth factor instead of multiplying by it.",
+      "textbook_ref": "am11_011_financial_mathematics.txt, section 11.4, PV = A / (1 + r/100)^n, discounting reverses compounding",
+      "question_patterns": [
+        "find the present value of 10000 due after 2 years at 10 percent per year",
+        "what sum invested today at 8 percent grows to 15000 in 3 years",
+        "discount a payment of 5000 due in 2 years at 5 percent per annum to today",
+        "how much is a promised future amount worth right now at rate r",
+        "find the present worth of 20000 payable after 3 years at 9 percent",
+        "find the present value of 8000 due after 4 years at 6 percent per year"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "build the discount-deflating factor",
+          "explain": "the same compounding factor used forward",
+          "compute": "base = (1 + r / 100) ** n"
+        },
+        {
+          "step": 2,
+          "action": "divide the future amount by the factor",
+          "explain": "discounting strips the interest that has not happened yet",
+          "compute": "pv = amount / base"
+        }
+      ]
+    },
+    {
+      "id": "am11_011.7",
+      "title": "Net Present Value of a Cash Flow",
+      "section": "11.4",
+      "definition": "The net present value discounts every future cash inflow back to today and subtracts the initial cost. A positive NPV means the project creates value and approves the investment in capital budgeting; a negative one rejects it.",
+      "formula": "npv = pv_in - cost",
+      "key_idea": "Discount the inflows, subtract the outlay; positive approves, negative rejects.",
+      "textbook_ref": "am11_011_financial_mathematics.txt, section 11.4, NPV as sum of present values of inflows minus initial cost, capital budgeting decisions",
+      "question_patterns": [
+        "a project costs 10000 now and returns 12000 after 2 years; at 10 percent find the NPV and decide approval",
+        "compute the net present value of an inflow of 5000 after one year at 8 percent with cost 4400",
+        "a project yields 9500 after one year at 5 percent against an initial cost of 9000; find the NPV and decide approval",
+        "find the NPV of a machine costing 50000 that saves 30000 a year for 2 years at 10 percent",
+        "what does a negative NPV tell the capital budgeting decision",
+        "discount each inflow, add them, subtract the initial cost, and state the project verdict"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "build the discount factor for the inflow horizon",
+          "explain": "one plus rate per 100 raised to the years",
+          "compute": "base = (1 + r / 100) ** n"
+        },
+        {
+          "step": 2,
+          "action": "bring the future inflow back to today",
+          "explain": "for a stream, this discounting is repeated and the pieces added",
+          "compute": "pv_in = inflow / base"
+        },
+        {
+          "step": 3,
+          "action": "subtract the initial cost",
+          "explain": "the value created or destroyed today",
+          "compute": "npv = pv_in - cost"
+        }
+      ]
+    },
+    {
+      "id": "am11_011.8",
+      "title": "Future Value of an Annuity",
+      "section": "11.5",
+      "definition": "An annuity is a run of equal periodic payments. Piled up at the end, each payment compounds for the periods it survives, and the total is the future value of the stream, the arithmetic behind recurring deposits.",
+      "formula": "fv = pay * growth / i",
+      "key_idea": "Every equal payment compounds for a different number of periods; the annuity factor does all the adding.",
+      "textbook_ref": "am11_011_financial_mathematics.txt, section 11.5, FV = A ((1 + r)^n - 1) / r, recurring deposit and FVAF tables",
+      "question_patterns": [
+        "find the future value of a recurring deposit of 2000 per year for 5 years at 8 percent per year",
+        "a family saves 500 every month for 2 years at 12 percent annual rate converted monthly; what is the accumulated sum",
+        "compute the maturity amount of an annuity of 1000 per period for 10 periods at 10 percent per period",
+        "how much do equal deposits of A build up to after n periods at periodic rate i",
+        "a sinking fund receives 3000 yearly for 4 years at 6 percent; find its value at the end",
+        "use the future value annuity factor idea to value a stream of equal payments"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "convert the quoted annual rate into the per-period rate",
+          "explain": "divide by the number of compounding periods per year",
+          "compute": "i = rate / 100 / per_year"
+        },
+        {
+          "step": 2,
+          "action": "grow the annuity numerator",
+          "explain": "one plus i raised to n, minus one",
+          "compute": "growth = (1 + i) ** n - 1"
+        },
+        {
+          "step": 3,
+          "action": "multiply the payment by the annuity factor",
+          "explain": "payment times growth over i is the accumulated corpus",
+          "compute": "fv = pay * growth / i"
+        }
+      ]
+    },
+    {
+      "id": "am11_011.9",
+      "title": "Present Value of an Annuity",
+      "section": "11.5",
+      "definition": "The present value of an annuity prices a stream of equal future payments in today's money: each payment is discounted from the period it lands in, and the discounted pieces sum to what the whole stream is worth now, as tabulated in PVAF tables.",
+      "formula": "pv_a = pay * disc / i",
+      "key_idea": "Discount each equal payment to today; the annuity factor collapses the sum.",
+      "textbook_ref": "am11_011_financial_mathematics.txt, section 11.5, PV = A (1 - (1 + r)^(-n)) / r and PVAF tables",
+      "question_patterns": [
+        "find the present value of an annuity of 1000 per year for 5 years at 10 percent per year",
+        "what lump sum today replaces 24 monthly payments of 3000 at 12 percent converted monthly",
+        "compute the present worth of a stream of equal payments of A for n periods at periodic rate i",
+        "a loan is repaid at 5000 per quarter for 3 years at 16 percent per year; what loan does this discharge",
+        "price a scholarship of 20000 per year for 4 years at 8 percent as a single present sum",
+        "use the present value annuity factor to value equal future receipts"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "convert the quoted annual rate into the per-period rate",
+          "explain": "divide by the periods per year",
+          "compute": "i = rate / 100 / per_year"
+        },
+        {
+          "step": 2,
+          "action": "build the discount numerator",
+          "explain": "one minus the reciprocal of the growth factor",
+          "compute": "disc = 1 - (1 + i) ** (-n)"
+        },
+        {
+          "step": 3,
+          "action": "multiply the payment by the discount annuity factor",
+          "explain": "payment times disc over i is today's value of the stream",
+          "compute": "pv_a = pay * disc / i"
+        }
+      ]
+    },
+    {
+      "id": "am11_011.10",
+      "title": "Sinking Fund Deposits",
+      "section": "11.5",
+      "definition": "A sinking fund accumulates equal periodic deposits so that with compound interest they reach a target corpus on a fixed date. The required deposit is the target share of the annuity factor's inverse.",
+      "formula": "deposit = target * i / growth",
+      "key_idea": "Work the future value formula backwards: target divided by the annuity factor, per period.",
+      "textbook_ref": "am11_011_financial_mathematics.txt, section 11.5, a sinking fund accumulates equal deposits toward a target corpus",
+      "question_patterns": [
+        "a company must repay 100000 in 5 years; what equal yearly deposit into a fund at 8 percent builds the corpus",
+        "find the sinking fund deposit needed every half year to gather 50000 in 4 years at 10 percent yearly converted half yearly",
+        "how much must be set aside each period at rate i to reach a target of T after n periods",
+        "a housing society plans a repaint costing 600000 in 3 years and invests at 7 percent; find the yearly contribution",
+        "a sinking fund earns 6 percent per period for 12 periods; what equal deposit reaches a corpus of 500000",
+        "why does the sinking fund deposit fall when the interest rate rises"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "grow the annuity numerator for the whole horizon",
+          "explain": "one plus i to the n minus one",
+          "compute": "growth = (1 + i) ** n - 1"
+        },
+        {
+          "step": 2,
+          "action": "scale the target by the inverse annuity factor",
+          "explain": "target times i over growth is the equal deposit",
+          "compute": "deposit = target * i / growth"
+        }
+      ]
+    },
+    {
+      "id": "am11_011.11",
+      "title": "Electricity Bill Slabs",
+      "section": "11.5",
+      "definition": "Utility bills charge slab-wise: the first block of units is billed at one rate and every unit beyond it at the next rate, plus any fixed charge. Units come from power in kilowatts times hours, and checking the meter reading against the slabs exposes overcharging.",
+      "formula": "bill = fixed + first + extra",
+      "key_idea": "Split the units at the slab boundary, price each block at its own rate, then add the fixed charge.",
+      "textbook_ref": "am11_011_financial_mathematics.txt, section 11.5, electricity bill slab-wise rate per unit, units = kilowatt times hours, checking slabs against overcharging",
+      "question_patterns": [
+        "a 2 kilowatt heater runs 60 hours; with the first 100 units at 3 per unit and the rest at 5 plus a fixed 90, compute the bill",
+        "calculate the electricity bill for 180 units when the first 100 cost 4 per unit and the next slab 6 per unit with a fixed charge of 100",
+        "find the units consumed from a meter reading of 1.5 kilowatts over 80 hours",
+        "split the units into slabs and price each block for the given tariff",
+        "the bill says 750 but your slab arithmetic says 620; which charge is suspect",
+        "how does a water bill per kilolitre use the same slab arithmetic as electricity"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "count the units consumed",
+          "explain": "power in kilowatts times hours gives kilowatt hours",
+          "compute": "units = kw * hours"
+        },
+        {
+          "step": 2,
+          "action": "price the units inside the first slab",
+          "explain": "only the part below the slab boundary gets the first rate",
+          "compute": "first = min(units, cap1) * rate1"
+        },
+        {
+          "step": 3,
+          "action": "price the units above the slab boundary",
+          "explain": "max with zero guards the case where the units never cross the boundary",
+          "compute": "extra = max(units - cap1, 0) * rate2"
+        },
+        {
+          "step": 4,
+          "action": "add the fixed charge to the slab charges",
+          "explain": "the total payable on the bill",
+          "compute": "bill = fixed + first + extra"
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "am11_011.we1",
+      "source_ref": "am11_011 section 11.2 accumulation: 5000 at 8 percent compounded yearly for 2 years",
+      "concept": "am11_011.4",
+      "question_type": "compute",
+      "question_pattern": "find the amount of 5000 at 8 percent per annum compounded annually after 2 years",
+      "extracted_variables": {
+        "p": 5000,
+        "r": 8,
+        "n": 2
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "growth factor for two periods",
+          "compute": "growth = (1 + r / 100) ** n"
+        },
+        {
+          "step": 2,
+          "action": "scale the principal",
+          "compute": "amount = p * growth"
+        }
+      ]
+    },
+    {
+      "id": "am11_011.we2",
+      "source_ref": "am11_011 section 11.5 utility bills: 2 kilowatt load for 60 hours, first 100 units at 3, next at 5, fixed 90",
+      "concept": "am11_011.11",
+      "question_type": "compute",
+      "question_pattern": "a 2 kilowatt heater runs 60 hours; with the first 100 units at 3 per unit and the rest at 5 plus a fixed 90, compute the bill",
+      "extracted_variables": {
+        "kw": 2,
+        "hours": 60,
+        "cap1": 100,
+        "rate1": 3,
+        "rate2": 5,
+        "fixed": 90
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "units consumed",
+          "compute": "units = kw * hours"
+        },
+        {
+          "step": 2,
+          "action": "first slab cost",
+          "compute": "first = min(units, cap1) * rate1"
+        },
+        {
+          "step": 3,
+          "action": "units beyond the slab",
+          "compute": "extra = max(units - cap1, 0) * rate2"
+        },
+        {
+          "step": 4,
+          "action": "total bill",
+          "compute": "bill = fixed + first + extra"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "am11_011.ex1",
+      "source_ref": "am11_011 check your progress selected exercises",
+      "questions": [
+        "Compute the simple interest and the amount on 9000 at 7 percent per year for 4 years.",
+        "Find the compound interest on 12000 at 10 percent per year for 2 years, and compare it with the simple interest for the same period.",
+        "Find the effective annual rate for a nominal 12 percent compounded quarterly.",
+        "Discount a payment of 20000 due after 3 years at 8 percent per year to its present value.",
+        "A project costs 25000 and returns 13000 after each of the next two years; at 10 percent, compute the NPV and decide approval.",
+        "Find the future value of a recurring deposit of 1500 per month for 2 years at 12 percent per year converted monthly, and the electricity bill for 150 units when the first 100 cost 3 per unit and the rest 5 with fixed charge 80."
+      ]
+    },
+    {
+      "id": "am11_011.ex2",
+      "source_ref": "am11_011 sections 11.2 to 11.5 application set",
+      "questions": [
+        "At what rate of simple interest will 4000 amount to 4880 in 2 years?",
+        "A bond coupon of 9 percent per year is compounded half yearly; find the annual equivalent rate and say why it exceeds 9.",
+        "Find the present value of an annuity of 800 per quarter for 2 years at 16 percent per year converted quarterly.",
+        "A city corporation plans a sinking fund of 1200000 in 4 years at 9 percent yearly; find the equal yearly deposit.",
+        "The meter shows a 3 kilowatt load running 50 hours. With slabs of 100 units at 4 and beyond at 6, and fixed charge 120, verify whether a bill of 800 is overcharged.",
+        "Explain in your own words why discounting is compounding read backwards, with one numerical illustration."
+      ]
+    }
+  ]
+}

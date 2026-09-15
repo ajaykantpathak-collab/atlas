@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_12_001",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_12_001",
+   "title": "c10_math_cbse_12_001",
+   "questions": [
+    {
+     "q": "**REMEMBER:** State the exact rule for calculating the total surface area of a solid formed by joining a hemisphere to the top of a right circular cylinder of the same radius. Write the formula in terms of radius *r* and cylinder height *h*.",
+     "a": "**Correct answer:** Total Surface Area = Curved Surface Area of Cylinder (2πrh) + Base Area of Cylinder (πr²) + Curved Surface Area of Hemisphere (2πr²) = 2πrh + 3πr². The joined circular face (area πr²) is **excluded** because it becomes internal.  \n**Wrong answer reveals:** If a student writes 2πrh + 2πr² + 3πr² (adding total surface areas of both solids), they are **adding the joined face twice** — once as the cylinder's top and once as the hemisphere's base. This shows they do not understand that joined faces become internal and must be subtracted.",
+     "self_check": true
+    },
+    {
+     "q": "**UNDERSTAND:** A solid toy is made by joining a cone (radius *r*, slant height *l*) to a hemisphere (radius *r*) base-to-base. A student claims the total surface area = πrl + 2πr² + πr². Is this correct? Explain why the term πr² should or should not be included.",
+     "a": "**Correct answer:** The student's expression is **incorrect**. The correct TSA = πrl + 2πr². The term πr² (the common circular base) must **not** be added because the cone's base and hemisphere's flat face are **joined together** and become internal — neither is exposed. The exposed surfaces are only the cone's curved surface (πrl) and the hemisphere's curved surface (2πr²).  \n**Wrong answer reveals:** If the student says \"we add πr² because it's the base of the cone,\" they confuse **total surface area of individual solids** with **surface area of the combination**. They are not visualizing the joined interface as disappearing from the outside.",
+     "self_check": true
+    },
+    {
+     "q": "**APPLY:** A decorative block is made by placing a cube of side 6 cm on top of a cuboid of dimensions 12 cm × 8 cm × 4 cm, such that the cube's bottom face lies entirely on the cuboid's top face (centred). Find the total surface area of the block. (Use π = 22/7 where needed, though no curved surfaces here.)",
+     "a": "**Correct working:**  \nStep 1: Cuboid TSA = 2(lb + bh + hl) = 2(12×8 + 8×4 + 4×12) = 2(96 + 32 + 48) = 2×176 = 352 cm².  \nStep 2: Cube TSA = 6a² = 6×6² = 216 cm².  \nStep 3: Joined area = area of cube's bottom face = 6×6 = 36 cm². This face is **not exposed** on either solid.  \nStep 4: Exposed cuboid top area = original top face (12×8 = 96 cm²) minus covered part (36 cm²) = 60 cm².  \nStep 5: Total exposed area = (Cuboid TSA − cuboid's full top face 96) + exposed cuboid top (60) + (Cube TSA − cube's bottom face 36) = (352 − 96) + 60 + (216 − 36) = 256 + 60 + 180 = **496 cm²**.  \n**Wrong answer reveals:** If a student adds 352 + 216 = 568 cm², they forgot to subtract the joined faces. If they subtract only 36 once (getting 532), they missed that the cuboid's top face is **partially covered** — the exposed part is 60 cm², not the full 96 cm².",
+     "self_check": true
+    },
+    {
+     "q": "**ANALYZE:** Two students calculate the surface area of a solid formed by a cylinder (radius *r*, height *h*) with a hemisphere on **each end** (like a capsule).  \nStudent A: TSA = 2πrh + 2×(2πr²) = 2πrh + 4πr².  \nStudent B: TSA = 2πrh + 2×(3πr²) = 2πrh + 6πr².  \nWho is correct? Justify by identifying the exposed surfaces on a net diagram.",
+     "a": "**Correct answer:** Student A is correct. The capsule has: (1) cylinder's curved surface (2πrh), (2) two hemispheres' curved surfaces (2 × 2πr² = 4πr²). The two circular faces where hemispheres join the cylinder are **internal** — each hemisphere contributes only its curved surface (2πr²), not its flat base (πr²). Student B incorrectly used the hemisphere's **total** surface area (3πr²) instead of its **curved** surface area (2πr²), thereby counting the joined circles as exposed.  \n**Wrong answer reveals:** If a student picks B, they are applying \"total surface area of hemisphere\" blindly without checking whether the flat face is exposed. This is a **formula-matching error** — using TSA formula instead of CSA formula for the joined part.",
+     "self_check": true
+    },
+    {
+     "q": "**EVALUATE:** A cylindrical pillar (radius 14 cm, height 2 m) has a conical top (same radius, slant height 25 cm) added for decoration. A student's solution:  \n\"TSA = CSA of cylinder + CSA of cone + base area of cylinder = 2πrh + πrl + πr² = 2×(22/7)×14×200 + (22/7)×14×25 + (22/7)×14² = 17600 + 1100 + 616 = 19316 cm².\"  \nIs this correct? If not, identify the exact error and give the correct TSA.",
+     "a": "**Correct evaluation:** The student's answer is **incorrect**. The error: they included the **base area of the cylinder (πr²)** as exposed. But the pillar stands on the ground — its bottom base is **not exposed to air** (it's in contact with the floor). The problem does not state the pillar is suspended; by convention, a pillar on the ground has its bottom base **not painted/not counted**.  \nCorrect exposed surfaces: CSA of cylinder (2πrh) + CSA of cone (πrl) + **top base of cylinder is covered by cone's base**, so neither is exposed.  \nCorrect TSA = 2πrh + πrl = 17600 + 1100 = **18700 cm²**.  \n**Wrong answer reveals:** If a student defends the 19316 cm² answer, they are applying formulas mechanically without considering **physical context** (ground contact). Board exams often test this \"real-world awareness\" — surfaces touching the ground/wall are not exposed unless stated otherwise.",
+     "self_check": true
+    },
+    {
+     "q": "**CREATE:** Design a combined solid using **exactly three** different basic solids (choose from cube, cuboid, cylinder, cone, hemisphere) such that its total surface area can be expressed as **5πr² + 2πrh** (where *r* is a common radius and *h* is a height). Draw a labelled sketch, name the solids, specify how they are joined, and show the surface area derivation step by step.",
+     "a": "**Expected answer (example):**  \n**Solids:** Cylinder (radius *r*, height *h*) + Hemisphere (radius *r*) on top + Cone (radius *r*, slant height *l* = 2*r*) on bottom.  \n**Joining:** Hemisphere on cylinder's top (base-to-base), Cone on cylinder's bottom (base-to-base).  \n**Exposed surfaces:** Cylinder CSA (2πrh) + Hemisphere CSA (2πr²) + Cone CSA (πrl = πr×2r = 2πr²).  \n**Total** = 2πrh + 2πr² + 2πr² = **2πrh + 4πr²**.  \n*Wait, this gives 4πr², not 5πr².*  \n**Better design:** Cylinder (radius *r*, height *h*) + **Two hemispheres** (radius *r*) on **both ends** of cylinder + **One extra flat circular ring** (radius *r*) attached externally on cylinder's curved surface? No — must be three solids.  \n**Valid design:** Cuboid (square face side 2r) + Hemisphere (radius r) on top + Cone (radius r, slant height l) on bottom, but curved areas don't match π terms easily.  \n**Acceptable criteria:** Any valid combination of three solids where the algebraic sum of exposed curved/flat areas simplifies exactly to 5πr² + 2πrh, with clear labelling and correct joining logic.  \n**Poor answer reveals:** If a student just writes \"cylinder + hemisphere + cone\" without specifying which faces are joined, or if their derivation double-counts joined faces, they lack the **structural visualization** needed for combination problems.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_09_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_09_011",
+   "title": "c12_hin_a_cbse_09_011",
+   "questions": [
+    {
+     "q": "Identify the Braj Bhasha present-tense plural verb ending used in the first doha (line \"dfg dfg vkou Nchys euHkkou dks\") and state its modern Khari Boli equivalent.",
+     "a": "The Braj ending is **-ys** (in \"Nchys\" = नचैस) which corresponds to modern Khari Boli **-te hain** (नाचते हैं). A wrong answer like \"-te hain\" for the Braj form itself reveals the student cannot distinguish the *source dialect morphology* from the *target translation* — a frequent board-mark loss where examiners ask \"ब्रजभाषा का रूप लिखिए\" and students write the modern form.",
+     "self_check": true
+    },
+    {
+     "q": "In the second doha, the phrase \"vkukdkuh vkjlh fugkfjcks djkSxs dkSykSa\" contains a compound verb construction. Break it into its two verbal components, name the grammatical term for this construction in Hindi grammar, and explain the nuance it adds compared to a single verb.",
+     "a": "Components: **fugkfjcks** (फुगकफज्क्स → फूँक-फाँक करना / बकना) + **djkSxs** (दिक्स → देते हैं). Grammatical term: **संयुक्त क्रिया (compound verb) / सहायक क्रिया प्रयोग**. Nuance: the light verb \"देना\" adds completive/attitudinal force — \"speaking nonsense *freely/recklessly*\" — which a single verb \"बकते हैं\" would flatten. A wrong answer naming only \"समास\" or \"क्रिया विशेषण\" shows confusion between morphological compounding and syntactic verb+verb structure — a classic Class 12 error in *vyakaran* questions.",
+     "self_check": true
+    },
+    {
+     "q": "Convert the Braj pronominal form \"eks¯g\" (एक्स्ग → एक्सग) from the second doha into modern Khari Boli, showing the intermediate sound-change steps (vowel shortening, consonant assimilation) and cite the specific line number.",
+     "a": "Line: \"tku ?kuvkuan ;ksa eks¯g rqEgS iSt ijh\". Steps: (1) Braj **eks¯g** = एक + सुग (सुग = सुगम/साथ) → \"एकसाथ\" (2) Vowel shortening: दीर्घ 'ए' → ह्रस्व 'ए' (ए → ए, no change here but typical in Braj→Khari Boli) (3) Consonant assimilation: 'क्‌स्' → 'क्‌स्' (retained) → modern **एकसाथ**. A student writing \"एक साथ\" without showing the Braj locative/instrumental suffix **-g** (from Sanskrit *saha*) misses the morphological evidence examiners reward in \"व्याकरणिक विश्लेषण\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "The first doha uses \"pyu\" (प्यू → पियो) as an imperative. Compare its formation with the modern Khari Boli imperative \"पियो\" and \"पीजिए\". Explain which imperative mood (विधि) each represents and why the poet's choice fits the *virah* (separation) *rasa*.",
+     "a": "Braj **pyu** = root **पि** + suffix **-यु** (second person singular, intimate imperative, *niyantran* विधि). Modern **पियो** = root + **-यो** (same mood, phonological update). Modern **पीजिए** = root + **-इए** (honorific imperative, *vidhi* विधि). Kukuan chooses intimate **-यु** because the speaker addresses the beloved *lalit kunwar* directly in private longing — honorific would create distance, contradicting *virah*'s intimacy. A student labeling all three as \"आज्ञार्थ\" without mood distinction loses the *rasa*-grammar link that board competency questions demand.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The word 'iSt' (इस्ट → चील) in the second doha is a *tatpurusha samas*.\" Defend your judgment with morphological evidence from the text and standard Hindi *samas* classification.",
+     "a": "**Claim is false.** *iSt* (चील) is a **तद्भव (tadbhava)** noun from Sanskrit **चिल्ल (chilla)** → Prakrit **चिल्ल** → Braj **इस्ट/चील** — a single lexical item, not a compound. *Tatpurusha* requires two *pada*s (e.g., राजपुत्र = राजा + पुत्र). The *shabdarth* box lists \"iSt — cgl\" (चील) with no component analysis. A student forcing *samas* analysis on every polysyllabic word reveals the \"compound-hunting\" misconception — they memorize *samas* types but lack the *pada*-identification skill to decide *if* a word is a compound at all.",
+     "self_check": true
+    },
+    {
+     "q": "Compose a new two-line doha in Braj Bhasha (using at least three archaic features from Kukuan's poems: verb ending **-ys**, pronoun **eks¯g**, intimate imperative **-yu**) that expresses a student's anxiety before the Class 12 board exam. Provide the modern Khari Boli translation and annotate each archaic feature used.",
+     "a": "**Braj Doh:**\nकागद कागद वको भय नचैस मन डोलत है\nएकसंग गुरु पियो धीरज धारो नहिं बोलत है\n\n**Modern:** कागज़-कागज़ (पर्चे) बहुत भय नाचते हैं (मन डोलता है) / एकसाथ गुरु (शिक्षक) पियो (पीओ) धीरज धारो (रखो) नहीं बोलते हैं\n\n**Annotations:** (1) **vko** (वको) = बहुत — Braj adjective invariant; (2) **Nchys** (नचैस) = नाचते हैं — **-ys** plural present; (3) **eks¯g** (एकसंग) = एकसाथ — pronoun + instrumental **-g**; (4) **pyu** (पियो) = पियो — intimate imperative **-yu**. A weak answer uses Khari Boli forms throughout or annotates incorrectly (e.g., calling *vko* a verb) — showing they can mimic but not *analyze* the grammar.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+  "catalog": "catalog_class11_history_kehs102",
+  "concepts": [
+    {
+      "id": "kehs.102.1.1",
+      "questions": [
+        {"q": "Which emperor established the Roman imperial system after the civil wars? (one word)", "a": "Augustus"},
+        {"q": "Around which sea did the Roman Empire spread across three continents? (one word)", "a": "Mediterranean"},
+        {"q": "What did Romans affectionately call the Mediterranean? (two words)", "a": "our sea"},
+        {"q": "Which units of professional soldiers guarded the Roman frontiers? (one word)", "a": "legions"},
+        {"q": "Roman provinces were governed under senators and whom besides? (one word)", "a": "emperors"},
+        {"q": "Which three continents did the Roman Empire span? (three words)", "a": "Europe, Africa, Asia"},
+        {"q": "Was the Roman army professional or a citizens' militia? (one word)", "a": "professional"}
+      ]
+    },
+    {
+      "id": "kehs.102.2.1",
+      "questions": [
+        {"q": "Which unfree group's labour ran Roman mines, estates and households? (one word)", "a": "slaves"},
+        {"q": "Which two liquids of the Mediterranean economy travelled the long-distance Roman trade? (two words)", "a": "wine, olive oil"},
+        {"q": "Which staple grain was shipped to Rome from across the empire? (one word)", "a": "grain"},
+        {"q": "Into how many broad strata was Roman society divided (elites, middling, lower)? (number)", "a": "3"},
+        {"q": "Which activity formed the base of the Roman economy? (one word)", "a": "agriculture"},
+        {"q": "What medium of exchange tied the Roman economy together across provinces? (one word)", "a": "money"},
+        {"q": "Was Roman trade across the empire in coin or by barter alone? (one word)", "a": "coin"}
+      ]
+    },
+    {
+      "id": "kehs.102.3.1",
+      "questions": [
+        {"q": "In which century did the Roman Empire face invasion, civil war, plague and monetary crisis together? (give the century)", "a": "3rd century"},
+        {"q": "Which emperor founded Constantinople as a second capital? (one word)", "a": "Constantine"},
+        {"q": "Which religion did Constantine recognise, changing the empire's course? (one word)", "a": "Christianity"},
+        {"q": "Into which two halves did the Roman Empire split in the fourth century? (two words)", "a": "eastern, western"},
+        {"q": "In which century did the western Roman empire fall? (give the century)", "a": "5th century"},
+        {"q": "Which capital survived the fall of the west and carried the eastern empire on? (one word)", "a": "Constantinople"},
+        {"q": "Which disease swept the empire during the third-century crisis? (one word)", "a": "plague"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_06_004",
+   "title": "c12_bio_cbse_06_004",
+   "questions": [
+    {
+     "q": "State the semi-conservative model of DNA replication in one sentence.",
+     "a": "Correct answer: Each daughter DNA molecule consists of one parental (original) strand and one newly synthesized strand. A wrong answer like \"both strands are new\" reveals confusion with the conservative model; \"each strand is a mix of old and new\" indicates the dispersive model. Students often memorize the term but cannot articulate what is conserved.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Meselson and Stahl use cesium chloride (CsCl) density gradient centrifugation, and what property of DNA does it separate?",
+     "a": "CsCl forms a density gradient under high-speed centrifugation; DNA bands at its buoyant density, which depends on the isotope composition (N15 vs N14). This separates DNA by density, not size. A wrong answer like \"it separates by molecular weight\" shows confusion with gel electrophoresis. Students often forget that density gradient centrifugation separates based on buoyant density, which changes with isotopic labeling.",
+     "self_check": true
+    },
+    {
+     "q": "After one generation in N14 medium, Meselson and Stahl observed a single band of intermediate density. After two generations, they observed two bands: one intermediate and one light. Draw the expected banding pattern after three generations in N14 medium and explain the proportion of each band.",
+     "a": "After three generations: one band at intermediate density (1/4 of total DNA) and one band at light density (3/4 of total DNA). Reasoning: Generation 1: all hybrid (15N-14N). Generation 2: half hybrid, half light (14N-14N). Generation 3: each hybrid produces one hybrid + one light; each light produces two light. So hybrid = 1/4, light = 3/4. A wrong pattern (e.g., three bands) reveals failure to track template strands across generations. Students often miscount because they don't follow the parental strand conservation.",
+     "self_check": true
+    },
+    {
+     "q": "At the replication fork, DNA polymerase III synthesizes the leading strand continuously but the lagging strand discontinuously as Okazaki fragments. Explain why this asymmetry exists, referencing the 5'→3' polymerization direction and the anti-parallel nature of DNA.",
+     "a": "DNA polymerase can only add nucleotides to the 3' OH end, so synthesis proceeds 5'→3'. The two template strands are anti-parallel: one runs 3'→5' toward the fork (leading strand template), allowing continuous synthesis in the same direction as fork movement. The other runs 5'→3' toward the fork (lagging strand template), forcing synthesis away from the fork in short fragments. A wrong answer like \"lagging strand is slower\" misses the structural constraint. Students often confuse the direction of fork movement with the direction of synthesis on each strand.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If DNA replication were conservative, after two generations in N14 medium we would see one heavy band and one light band.\" Evaluate this claim.",
+     "a": "The claim is correct. Conservative model: original heavy (15N-15N) double helix remains intact; all new synthesis produces light (14N-14N) DNA. After generation 1: one heavy, one light. After generation 2: the heavy molecule again produces one heavy + one light; the light molecule produces two light. Total: one heavy band, three light bands (but only two distinct bands: heavy and light). The student's claim matches. A wrong evaluation (e.g., \"there would be three bands\") shows misunderstanding of conservative replication. Students often confuse conservative with dispersive predictions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using radioactive labeling (e.g., 32P or 3H-thymidine) and autoradiography to demonstrate that DNA replication is semi-conservative in a eukaryotic cell line. Outline the key steps and expected results.",
+     "a": "Steps: (1) Grow cells in medium with radioactive thymidine (3H-thymidine) for several generations to label all DNA uniformly. (2) Switch to non-radioactive medium. (3) At intervals (after 1, 2 S-phases), fix cells, prepare chromosome spreads, coat with photographic emulsion, develop. (4) Count silver grains over sister chromatids. Expected: After one S-phase, both sister chromatids are labeled (each has one radioactive parental strand). After two S-phases, only one chromatid per chromosome is labeled (the one that inherited the original radioactive strand). A poor design (e.g., no chase period, or measuring total radioactivity instead of distribution) reveals inability to track strand segregation. Students often propose labeling but forget the chase or the need to visualize individual chromatids.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

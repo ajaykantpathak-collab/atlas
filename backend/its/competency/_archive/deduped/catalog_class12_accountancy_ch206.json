@@ -1,0 +1,416 @@
+{
+ "class": 12,
+ "subject": "accountancy",
+ "chapter": 206,
+ "chapter_title": "Cash Flow Statement",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\leac203.txt",
+ "concepts": [
+  {
+   "id": "leac.6.1",
+   "title": "Meaning and Purpose of Cash Flow Statement",
+   "section": "6.1",
+   "definition": "A financial statement that summarizes the movement of cash and cash equivalents entering and leaving an organization during a specific period.",
+   "formula": "net_cash_flow = cash_inflows - cash_outflows",
+   "key_idea": "Provides a basis to evaluate the enterprise's ability to generate and utilize cash.",
+   "textbook_ref": "leac206.txt lines 10-45",
+   "question_patterns": [
+    "What is a Cash Flow Statement?",
+    "Explain the primary objective of preparing a cash flow statement.",
+    "How does a cash flow statement help users of financial information?",
+    "State the purpose of classifying cash flows into three categories.",
+    "Explain Meaning and Purpose of Cash Flow Statement with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify inflows",
+     "explain": "List all receipts of cash and cash equivalents from various activities."
+    },
+    {
+     "step": 2,
+     "action": "Identify outflows",
+     "explain": "List all payments of cash and cash equivalents for various activities."
+    },
+    {
+     "step": 3,
+     "action": "Categorize activities",
+     "explain": "Classify movements into Operating, Investing, and Financing activities as per AS-3."
+    }
+   ]
+  },
+  {
+   "id": "leac.6.2",
+   "title": "Cash and Cash Equivalents",
+   "section": "6.3",
+   "definition": "Includes physical currency, bank demand deposits, and short-term, highly liquid investments easily convertible to known cash amounts with minimal value risk.",
+   "formula": "total_cash_equivalents = cash_in_hand + bank_balance + marketable_securities + short_term_deposits",
+   "key_idea": "Only investments with a maturity of three months or less from acquisition qualify as cash equivalents.",
+   "textbook_ref": "leac206.txt lines 75-100",
+   "question_patterns": [
+    "Define cash equivalents as per AS-3.",
+    "Calculate the total cash and cash equivalents from the given list.",
+    "What qualifies an investment as a cash equivalent?",
+    "Are shares included in cash equivalents?",
+    "Numerical: apply Cash and Cash Equivalents and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum liquid components",
+     "explain": "Add cash in hand, bank balances, and short-term marketable securities.",
+     "compute": "total_cash_equivalents = cash_in_hand + bank_balance + marketable_securities + short_term_deposits"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Cash and Cash Equivalents, compute the result for cash_in_hand = 3, bank_balance = 3, marketable_securities = 3, short_term_deposits = 2.",
+     "solution": "Step 1: Sum liquid components: total_cash_equivalents = cash_in_hand + bank_balance + marketable_securities + short_term_deposits = 11.0 Final result: 11.0",
+     "answer": "11.0"
+    },
+    {
+     "question": "Using Cash and Cash Equivalents, compute the result for cash_in_hand = 4, bank_balance = 4, marketable_securities = 4, short_term_deposits = 3.",
+     "solution": "Step 1: Sum liquid components: total_cash_equivalents = cash_in_hand + bank_balance + marketable_securities + short_term_deposits = 15.0 Final result: 15.0",
+     "answer": "15.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.6.3",
+   "title": "Operating Activities",
+   "section": "6.5.1",
+   "definition": "The primary revenue-generating activities of an enterprise that are not investing or financing in nature.",
+   "formula": "net_operating_cash = cash_receipts_from_sales - cash_payments_to_suppliers - cash_payments_to_employees",
+   "key_idea": "Indicates the extent to which internal operations generate enough cash to maintain the business.",
+   "textbook_ref": "leac206.txt lines 115-150",
+   "question_patterns": [
+    "Identify operating activities for a manufacturing company.",
+    "Is payment of income tax an operating activity?",
+    "Calculate cash from operating activities using the direct method.",
+    "What are the main inflows in operating activities?",
+    "Numerical: apply Operating Activities and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Total operating receipts",
+     "explain": "Sum cash from sales, royalties, and commissions.",
+     "compute": "total_receipts = cash_sales + commissions_received + royalty_receipts"
+    },
+    {
+     "step": 2,
+     "action": "Total operating payments",
+     "explain": "Sum payments for purchases, employee benefits, and other operating expenses.",
+     "compute": "total_payments = cash_purchases + employee_payments + operating_expenses"
+    },
+    {
+     "step": 3,
+     "action": "Calculate net flow",
+     "explain": "Subtract total payments from total receipts.",
+     "compute": "net_operating_cash = total_receipts - total_payments"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Operating Activities, compute the result for cash_sales = 3, commissions_received = 3, royalty_receipts = 3, cash_purchases = 2, employee_payments = 2, operating_expenses = 2.",
+     "solution": "Step 1: Total operating receipts: total_receipts = cash_sales + commissions_received + royalty_receipts = 9.0 Step 2: Total operating payments: total_payments = cash_purchases + employee_payments + operating_expenses = 6.0 Step 3: Calculate net flow: net_operating_cash = total_receipts - total_payments = 3.0 Final result: 3.0",
+     "answer": "3.0"
+    },
+    {
+     "question": "Using Operating Activities, compute the result for cash_sales = 4, commissions_received = 4, royalty_receipts = 4, cash_purchases = 3, employee_payments = 3, operating_expenses = 3.",
+     "solution": "Step 1: Total operating receipts: total_receipts = cash_sales + commissions_received + royalty_receipts = 12.0 Step 2: Total operating payments: total_payments = cash_purchases + employee_payments + operating_expenses = 9.0 Step 3: Calculate net flow: net_operating_cash = total_receipts - total_payments = 3.0 Final result: 3.0",
+     "answer": "3.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.6.4",
+   "title": "Investing Activities",
+   "section": "6.5.2",
+   "definition": "Transactions involving the acquisition and disposal of long-term assets and other investments not included in cash equivalents.",
+   "formula": "net_investing_cash = (sale_of_fixed_assets + interest_received + dividend_received) - purchase_of_fixed_assets",
+   "key_idea": "Reflects expenditures made for resources intended to generate future income.",
+   "textbook_ref": "leac206.txt lines 155-185",
+   "question_patterns": [
+    "Calculate cash flow from investing activities.",
+    "Is interest received an investing or financing activity?",
+    "How is the sale of machinery treated in a cash flow statement?",
+    "Find the net cash used in investing activities.",
+    "Numerical: apply Investing Activities and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum investing inflows",
+     "explain": "Add proceeds from sale of assets, investments, and interest/dividends received.",
+     "compute": "total_inflows = sale_of_assets + sale_of_investments + interest_received + dividend_received"
+    },
+    {
+     "step": 2,
+     "action": "Sum investing outflows",
+     "explain": "Add payments for purchase of fixed assets and new investments.",
+     "compute": "total_outflows = purchase_of_assets + purchase_of_investments"
+    },
+    {
+     "step": 3,
+     "action": "Calculate net investing flow",
+     "explain": "Subtract outflows from inflows.",
+     "compute": "net_investing_cash = total_inflows - total_outflows"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Investing Activities, compute the result for sale_of_assets = 3, sale_of_investments = 3, interest_received = 3, dividend_received = 2, purchase_of_assets = 2, purchase_of_investments = 2.",
+     "solution": "Step 1: Sum investing inflows: total_inflows = sale_of_assets + sale_of_investments + interest_received + dividend_received = 11.0 Step 2: Sum investing outflows: total_outflows = purchase_of_assets + purchase_of_investments = 4.0 Step 3: Calculate net investing flow: net_investing_cash = total_inflows - total_outflows = 7.0 Final result: 7.0",
+     "answer": "7.0"
+    },
+    {
+     "question": "Using Investing Activities, compute the result for sale_of_assets = 4, sale_of_investments = 4, interest_received = 4, dividend_received = 3, purchase_of_assets = 3, purchase_of_investments = 3.",
+     "solution": "Step 1: Sum investing inflows: total_inflows = sale_of_assets + sale_of_investments + interest_received + dividend_received = 15.0 Step 2: Sum investing outflows: total_outflows = purchase_of_assets + purchase_of_investments = 6.0 Step 3: Calculate net investing flow: net_investing_cash = total_inflows - total_outflows = 9.0 Final result: 9.0",
+     "answer": "9.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.6.5",
+   "title": "Financing Activities",
+   "section": "6.5.3",
+   "definition": "Activities that result in changes in the size and composition of the owner's capital and borrowings of the enterprise.",
+   "formula": "net_financing_cash = (issue_of_shares + proceeds_from_loans) - (redemption_of_shares + repayment_of_loans + dividend_paid + interest_paid)",
+   "key_idea": "Relates to the long-term funds or capital structure of the company.",
+   "textbook_ref": "leac206.txt lines 190-215",
+   "question_patterns": [
+    "Identify financing activities from the following list.",
+    "Calculate net cash from financing activities.",
+    "Where is dividend paid recorded in the cash flow statement?",
+    "Is repayment of a bank loan a financing outflow?",
+    "Numerical: apply Financing Activities and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum financing inflows",
+     "explain": "Add proceeds from issuing shares, debentures, and loans.",
+     "compute": "total_inflows = issue_of_shares + issue_of_debentures + loans_raised"
+    },
+    {
+     "step": 2,
+     "action": "Sum financing outflows",
+     "explain": "Add payments for redemption of shares, loan repayments, interest, and dividends.",
+     "compute": "total_outflows = redemption_of_shares + loans_repaid + interest_paid + dividend_paid"
+    },
+    {
+     "step": 3,
+     "action": "Calculate net financing flow",
+     "explain": "Subtract outflows from inflows.",
+     "compute": "net_financing_cash = total_inflows - total_outflows"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Financing Activities, compute the result for issue_of_shares = 3, issue_of_debentures = 3, loans_raised = 3, redemption_of_shares = 2, loans_repaid = 2, interest_paid = 2, dividend_paid = 1.",
+     "solution": "Step 1: Sum financing inflows: total_inflows = issue_of_shares + issue_of_debentures + loans_raised = 9.0 Step 2: Sum financing outflows: total_outflows = redemption_of_shares + loans_repaid + interest_paid + dividend_paid = 7.0 Step 3: Calculate net financing flow: net_financing_cash = total_inflows - total_outflows = 2.0 Final result: 2.0",
+     "answer": "2.0"
+    },
+    {
+     "question": "Using Financing Activities, compute the result for issue_of_shares = 4, issue_of_debentures = 4, loans_raised = 4, redemption_of_shares = 3, loans_repaid = 3, interest_paid = 3, dividend_paid = 2.",
+     "solution": "Step 1: Sum financing inflows: total_inflows = issue_of_shares + issue_of_debentures + loans_raised = 12.0 Step 2: Sum financing outflows: total_outflows = redemption_of_shares + loans_repaid + interest_paid + dividend_paid = 11.0 Step 3: Calculate net financing flow: net_financing_cash = total_inflows - total_outflows = 1.0 Final result: 1.0",
+     "answer": "1.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.6.6",
+   "title": "Operating Profit before Working Capital Changes (Indirect Method)",
+   "section": "6.6.1",
+   "definition": "The net profit adjusted for non-cash items and non-operating items to isolate profit purely from operations.",
+   "formula": "operating_profit_bwcc = net_profit_before_tax + depreciation + goodwill_amortized + interest_paid - interest_received - profit_on_sale_of_assets",
+   "key_idea": "Reversing non-cash and non-operating entries made in the Statement of Profit and Loss.",
+   "textbook_ref": "leac206.txt lines 300-340",
+   "question_patterns": [
+    "Calculate operating profit before working capital changes.",
+    "Why is depreciation added back to net profit in the indirect method?",
+    "Adjust net profit for non-cash items.",
+    "How do you treat profit on sale of land in operating activities?",
+    "Numerical: apply Operating Profit before Working Capital Changes (Indirect Method) and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add non-cash and non-operating expenses",
+     "explain": "Add back items like depreciation, amortization, and interest expense to net profit.",
+     "compute": "adjusted_profit_1 = net_profit_before_tax + depreciation + goodwill_amortized + interest_paid + loss_on_sale"
+    },
+    {
+     "step": 2,
+     "action": "Subtract non-operating incomes",
+     "explain": "Deduct items like interest received, dividend received, and profit on sale of assets.",
+     "compute": "operating_profit_bwcc = adjusted_profit_1 - interest_received - dividend_received - profit_on_sale"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Operating Profit before Working Capital Changes (Indirect Method), compute the result for net_profit_before_tax = 3, depreciation = 3, goodwill_amortized = 3, interest_paid = 2, loss_on_sale = 2, interest_received = 2, dividend_received = 1, profit_on_sale = 1.",
+     "solution": "Step 1: Add non-cash and non-operating expenses: adjusted_profit_1 = net_profit_before_tax + depreciation + goodwill_amortized + interest_paid + loss_on_sale = 13.0 Step 2: Subtract non-operating incomes: operating_profit_bwcc = adjusted_profit_1 - interest_received - dividend_received - profit_on_sale = 9.0 Final result: 9.0",
+     "answer": "9.0"
+    },
+    {
+     "question": "Using Operating Profit before Working Capital Changes (Indirect Method), compute the result for net_profit_before_tax = 4, depreciation = 4, goodwill_amortized = 4, interest_paid = 3, loss_on_sale = 3, interest_received = 3, dividend_received = 2, profit_on_sale = 2.",
+     "solution": "Step 1: Add non-cash and non-operating expenses: adjusted_profit_1 = net_profit_before_tax + depreciation + goodwill_amortized + interest_paid + loss_on_sale = 18.0 Step 2: Subtract non-operating incomes: operating_profit_bwcc = adjusted_profit_1 - interest_received - dividend_received - profit_on_sale = 11.0 Final result: 11.0",
+     "answer": "11.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.6.7",
+   "title": "Working Capital Adjustments",
+   "section": "6.6.1",
+   "definition": "Adjusting the operating profit for changes in current assets and current liabilities to arrive at cash generated from operations.",
+   "formula": "cash_from_ops = operating_profit_bwcc + decrease_in_CA + increase_in_CL - increase_in_CA - decrease_in_CL",
+   "key_idea": "An increase in current assets is a cash outflow; an increase in current liabilities is a cash inflow.",
+   "textbook_ref": "leac206.txt lines 345-365",
+   "question_patterns": [
+    "How do changes in inventory affect cash flow from operations?",
+    "Calculate cash generated from operations after working capital changes.",
+    "What is the effect of an increase in trade receivables on cash flow?",
+    "Add or subtract the increase in trade payables to operating profit?",
+    "Numerical: apply Working Capital Adjustments and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Adjust for Current Assets",
+     "explain": "Add decrease in current assets and subtract increase in current assets (excluding cash).",
+     "compute": "ca_adj = decrease_in_assets - increase_in_assets"
+    },
+    {
+     "step": 2,
+     "action": "Adjust for Current Liabilities",
+     "explain": "Add increase in current liabilities and subtract decrease in current liabilities.",
+     "compute": "cl_adj = increase_in_liabilities - decrease_in_liabilities"
+    },
+    {
+     "step": 3,
+     "action": "Calculate cash generated",
+     "explain": "Apply working capital adjustments to operating profit.",
+     "compute": "cash_generated = operating_profit_bwcc + ca_adj + cl_adj"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Working Capital Adjustments, compute the result for decrease_in_assets = 3, increase_in_assets = 3, increase_in_liabilities = 3, decrease_in_liabilities = 2, operating_profit_bwcc = 2.",
+     "solution": "Step 1: Adjust for Current Assets: ca_adj = decrease_in_assets - increase_in_assets = 0.0 Step 2: Adjust for Current Liabilities: cl_adj = increase_in_liabilities - decrease_in_liabilities = 1.0 Step 3: Calculate cash generated: cash_generated = operating_profit_bwcc + ca_adj + cl_adj = 3.0 Final result: 3.0",
+     "answer": "3.0"
+    },
+    {
+     "question": "Using Working Capital Adjustments, compute the result for decrease_in_assets = 4, increase_in_assets = 4, increase_in_liabilities = 4, decrease_in_liabilities = 3, operating_profit_bwcc = 3.",
+     "solution": "Step 1: Adjust for Current Assets: ca_adj = decrease_in_assets - increase_in_assets = 0.0 Step 2: Adjust for Current Liabilities: cl_adj = increase_in_liabilities - decrease_in_liabilities = 1.0 Step 3: Calculate cash generated: cash_generated = operating_profit_bwcc + ca_adj + cl_adj = 4.0 Final result: 4.0",
+     "answer": "4.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.6.8",
+   "title": "Net Increase/Decrease in Cash and Cash Equivalents",
+   "section": "6.8",
+   "definition": "The total change in the cash position of an enterprise resulting from the combined effect of operating, investing, and financing activities.",
+   "formula": "net_change = net_operating_cash + net_investing_cash + net_financing_cash",
+   "key_idea": "The net change plus opening cash must equal the closing cash balance.",
+   "textbook_ref": "leac206.txt lines 510-530",
+   "question_patterns": [
+    "Calculate the net increase in cash and cash equivalents.",
+    "Verify the cash flow statement using opening and closing balances.",
+    "What is the final step in preparing a cash flow statement?",
+    "Find the closing cash balance using activity totals.",
+    "Numerical: apply Net Increase/Decrease in Cash and Cash Equivalents and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum all activity flows",
+     "explain": "Add the net cash flows from operating, investing, and financing activities.",
+     "compute": "net_change = net_operating_cash + net_investing_cash + net_financing_cash"
+    },
+    {
+     "step": 2,
+     "action": "Verify with opening balance",
+     "explain": "Add the opening cash balance to the net change to find the closing balance.",
+     "compute": "closing_cash = net_change + opening_cash"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Net Increase/Decrease in Cash and Cash Equivalents, compute the result for net_operating_cash = 3, net_investing_cash = 3, net_financing_cash = 3, opening_cash = 2.",
+     "solution": "Step 1: Sum all activity flows: net_change = net_operating_cash + net_investing_cash + net_financing_cash = 9.0 Step 2: Verify with opening balance: closing_cash = net_change + opening_cash = 11.0 Final result: 11.0",
+     "answer": "11.0"
+    },
+    {
+     "question": "Using Net Increase/Decrease in Cash and Cash Equivalents, compute the result for net_operating_cash = 4, net_investing_cash = 4, net_financing_cash = 4, opening_cash = 3.",
+     "solution": "Step 1: Sum all activity flows: net_change = net_operating_cash + net_investing_cash + net_financing_cash = 12.0 Step 2: Verify with opening balance: closing_cash = net_change + opening_cash = 15.0 Final result: 15.0",
+     "answer": "15.0"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex5",
+   "source_ref": "leac206.txt lines 415-435",
+   "concept": "leac.6.4",
+   "question_type": "compute",
+   "question_pattern": "Calculate cash flow from Investing Activities given machinery opening {opening_mach}, closing {closing_mach}, and sale of machine costing {cost} for {sale_price}.",
+   "extracted_variables": {
+    "opening_mach": "initial machinery value",
+    "closing_mach": "final machinery value",
+    "cost": "original cost of sold machine",
+    "sale_price": "cash received from sale"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify sale proceeds",
+     "explain": "Cash inflow from sale of machinery.",
+     "compute": "inflow = sale_price"
+    },
+    {
+     "step": 2,
+     "action": "Determine purchases",
+     "explain": "Calculate new machinery purchased using account balancing.",
+     "compute": "purchase = closing_mach - (opening_mach - cost_after_dep)"
+    },
+    {
+     "step": 3,
+     "action": "Net investing flow",
+     "explain": "Subtract purchase from sale proceeds.",
+     "compute": "net_investing = inflow - purchase"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "6.1",
+   "source_ref": "leac206.txt lines 650-655",
+   "questions": [
+    "Anand Ltd., arrived at a net income of Rs. 5,00,000 for the year ended March 31, 2017. Depreciation for the year was Rs. 2,00,000. There was a profit of Rs. 50,000 on assets sold. Trade Receivables increased by Rs. 40,000 and Trade Payables increased by Rs. 60,000. Compute cash flow from operating activities."
+   ]
+  },
+  {
+   "id": "6.2",
+   "source_ref": "leac206.txt lines 657-662",
+   "questions": [
+    "Calculate the cash paid for inventory: Inventory beginning Rs. 40,000, Credit Purchases Rs. 1,60,000, Inventory end Rs. 38,000, Trade payables beginning Rs. 14,000, Trade payables end Rs. 14,500."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

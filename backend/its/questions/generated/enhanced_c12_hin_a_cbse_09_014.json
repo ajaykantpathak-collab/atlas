@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_09_014",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_09_014",
+   "title": "c12_hin_a_cbse_09_014",
+   "questions": [
+    {
+     "q": "What is the PEEL structure for writing literature answers, and what does each letter stand for in the context of poetry analysis?",
+     "a": "PEEL stands for Point (main argument about the poem), Evidence (specific line/word from the text), Explanation (how the evidence creates meaning/effect), Link (connect back to theme/question). A wrong answer like \"Point, Example, Explain, Conclusion\" reveals the student memorizes acronyms without understanding the literary analysis purpose — \"Link\" specifically demands thematic connection, not just summary.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"कुकुआन के पहले दोहे में बादल बरसते हैं और मोर नाचते हैं जिससे विरहिणी को दुःख होता है।\" Identify TWO specific weaknesses in this answer relative to CBSE marking expectations.",
+     "a": "Weakness 1: No direct textual evidence — the answer paraphrases generally instead of quoting \"कजरि कजरि बरसत...\" or \"मोर नाचत...\". Weakness 2: No analysis of POETIC DEVICE — it states WHAT happens but not HOW the imagery works (contrast, personification, sensory detail). A correct answer would name the device (विरोधाभास/contrast) and explain its emotional effect.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the PEEL structure to answer: \"दूसरे दोहे में 'रात' और 'सुबह' के चक्र का क्या महत्व है?\" Write a complete 4-sentence PEEL paragraph.",
+     "a": "Point: The night-dawn cycle symbolizes the endless waiting in virah. Evidence: \"बहु बेरि बिताई रैन...\" and \"प्रभात भई...\" show repeated nights passing. Explanation: Each \"बहु बेरि\" (many times) emphasizes duration; dawn brings no relief (\"दुख न भागा\"), making time itself an antagonist. Link: This temporal imagery reinforces bhakti as patient endurance — the devotee's wait mirrors the eternal night of separation. A wrong answer would merely translate lines without analyzing \"बहु बेरि\" as repetition device.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how the FIRST doha uses AUDITORY imagery (sound) versus the SECOND doha using VISUAL imagery (sight). Which creates a stronger sense of virah? Analyze with evidence.",
+     "a": "First doha: Auditory — \"कजरि कजरि\" (onomatopoeic rain sound), \"मोर नाचत\" implies peacock calls — sound amplifies the world's celebration, making silence of separation louder. Second doha: Visual — \"रैन\" (darkness), \"प्रभात\" (light), \"नैन\" (eyes) — sight emphasizes watching/waiting. Stronger: Auditory in first doha — sound is inescapable (rain falls everywhere), creating involuntary contrast; visual in second is voluntary (she watches), showing agency in devotion. Wrong answer: \"Both are equal\" — misses that auditory imagery creates IMMEDIATE sensory clash, while visual shows CHOSEN endurance.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: \"कुकुआन की भाषा सरल ब्रजभाषा है इसलिए उनके दोहे समझने में आसान हैं।\" Defend or refute using specific vocabulary from the text.",
+     "a": "Refute. The claim confuses \"सरल\" (simple) with \"लोकप्रचलित\" (colloquial). Text shows: \"कजरि\" (onomatopoeia), \"विरह\" (technical bhakti term), \"बहु बेरि\" (archaic multiplier), \"नैन\" (poetic eye), \"प्रभात\" (Sanskritized dawn). These require glossary support (as NCERT provides). The language is ACCESSIBLE but not SIMPLE — it uses precise poetic vocabulary (तत्सम/तद्भव mix) for emotional density. Wrong answer: \"Yes it's simple\" — reveals student equates familiar words with simple meaning, missing how कुकुआन compresses complex virah philosophy into deceptively plain words.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new 2-line doha in Braj Bhasha style that uses NATURE IMAGERY to express VIRAH, following कुकुआन's pattern of contrast. Explain your device choices.",
+     "a": "Example: \"बसंत आयो वन फूले, कोयल बोले मधुर स्वर / विरहिन के अंग लगै शीत, जलत तन अंतर भीतर\" — Device 1: Seasonal contrast (spring joy vs inner cold) like कुकुआन's monsoon. Device 2: Sound imagery (koel's sweet song) intensifying silence. Device 3: Internal/external body contrast (\"अंग\" vs \"अंतर\"). Good answer shows deliberate imitation of कुकुआन's structure: nature observation → personal application → philosophical link. Poor answer: generic sad lines without contrast or device awareness.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

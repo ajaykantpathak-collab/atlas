@@ -1,0 +1,356 @@
+{
+ "class": 12,
+ "subject": "business_studies",
+ "chapter": 203,
+ "chapter_title": "Consumer Protection",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lebs203.txt",
+ "concepts": [
+  {
+   "id": "lebs.11.1",
+   "title": "Importance of Consumer Protection",
+   "section": "11.1",
+   "definition": "Safeguarding buyer interests through legislative and institutional frameworks to prevent market exploitation and foster equitable commercial practices.",
+   "formula": "consumer_protection = awareness + legal_redressal + ethical_business_practices",
+   "key_idea": "Protects uninformed buyers while encouraging sustainable, socially responsible corporate behaviors.",
+   "textbook_ref": "lebs203.txt lines 30-100",
+   "question_patterns": [
+    "why is consumer protection required",
+    "explain the importance of consumer protection from business perspective",
+    "how does consumer protection benefit buyers",
+    "discuss the need for consumer protection"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the perspective in question",
+     "explain": "Determine whether the perspective requested is consumer-centric or business-centric."
+    },
+    {
+     "step": 2,
+     "action": "Correlate with key rationale points",
+     "explain": "Match scenario details to principles like consumer ignorance, unorganised buyers, long-term interests, or social responsibilities."
+    }
+   ]
+  },
+  {
+   "id": "lebs.11.2",
+   "title": "Definition of Consumer under CPA 2019",
+   "section": "11.2",
+   "definition": "An individual or entity purchasing goods or availing services for consideration, excluding acquisitions meant for commercial resale.",
+   "formula": "is_consumer = buyer_or_beneficiary - commercial_reseller",
+   "key_idea": "End-users paying valid consideration are protected, whereas commercial resellers are excluded.",
+   "textbook_ref": "lebs203.txt lines 110-140",
+   "question_patterns": [
+    "who qualifies as a consumer under CPA 2019",
+    "is a person buying goods for resale considered a consumer",
+    "define consumer according to consumer protection act",
+    "determine if a given buyer is a consumer"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Verify payment of consideration",
+     "explain": "Check if goods/services were paid, promised, or deferred in payment."
+    },
+    {
+     "step": 2,
+     "action": "Check intended use",
+     "explain": "Ensure the purchase is not for commercial resale or commercial manufacturing purposes."
+    }
+   ]
+  },
+  {
+   "id": "lebs.11.3",
+   "title": "Defect, Deficiency, and Product Liability",
+   "section": "11.3",
+   "definition": "Imperfections in product standards or shortcomings in service performance that legally obligate providers to compensate impacted parties.",
+   "formula": "seller_liability = defective_product_harm + service_deficiency_loss",
+   "key_idea": "Sellers and service providers remain accountable for substandard goods and inadequate service execution.",
+   "textbook_ref": "lebs203.txt lines 145-180",
+   "question_patterns": [
+    "differentiate between defect and deficiency",
+    "what is product liability under consumer protection act",
+    "explain deficiency in service with examples",
+    "how is product seller liability defined"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Classify problem nature",
+     "explain": "Distinguish whether imperfection pertains to physical goods (defect) or rendered services (deficiency)."
+    },
+    {
+     "step": 2,
+     "action": "Establish liability",
+     "explain": "Verify if damage or financial loss occurred due to provider oversight or product flaw."
+    }
+   ]
+  },
+  {
+   "id": "lebs.11.4",
+   "title": "Six Basic Consumer Rights",
+   "section": "11.4",
+   "definition": "Statutory guarantees ensuring physical safety, clear product details, competitive market options, grievance hearings, legal remedies, and consumer awareness.",
+   "formula": "consumer_rights = safety + information + choice + hearing + redressal + education",
+   "key_idea": "Empowers citizens against exploitative and misleading commercial conduct across all market channels.",
+   "textbook_ref": "lebs203.txt lines 185-235",
+   "question_patterns": [
+    "list six rights of consumers",
+    "which consumer right mandates product labeling details",
+    "explain right to safety and right to seek redressal",
+    "identify the consumer right violated in a given scenario"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze situation details",
+     "explain": "Identify specific breach such as lack of labeling, unsafe device, or refusal to address grievances."
+    },
+    {
+     "step": 2,
+     "action": "Map to codified right",
+     "explain": "Select corresponding statutory right (e.g., Right to Information for missing ingredient details)."
+    }
+   ]
+  },
+  {
+   "id": "lebs.11.5",
+   "title": "Consumer Duties and Responsibilities",
+   "section": "11.5",
+   "definition": "Precautionary practices and ethical obligations expected from buyers to protect their interest effectively during market transactions.",
+   "formula": "effective_protection = exercising_rights + fulfilling_responsibilities",
+   "key_idea": "Consumer rights rely on personal vigilance, seeking purchase proof, and utilizing official certification marks.",
+   "textbook_ref": "lebs203.txt lines 240-275",
+   "question_patterns": [
+    "what are the key responsibilities of a consumer",
+    "why should consumers always ask for a cash memo",
+    "state consumer duties while purchasing standardized goods",
+    "how do consumer responsibilities prevent market fraud"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify missing consumer action",
+     "explain": "Evaluate whether buyer demanded cash memo, checked certification mark, or read safety warnings."
+    },
+    {
+     "step": 2,
+     "action": "Formulate recommended responsibility",
+     "explain": "Specify the duty required to substantiate claims in consumer commissions."
+    }
+   ]
+  },
+  {
+   "id": "lebs.11.6",
+   "title": "Quality Certification Standards",
+   "section": "11.6",
+   "definition": "Official standardization seals awarded to products confirming compliance with health, environmental, and engineering specifications.",
+   "formula": "quality_assurance = mandatory_certification_mark",
+   "key_idea": "Marks like ISI, AGMARK, Hallmark, and FPO validate safety and benchmark adherence.",
+   "textbook_ref": "lebs203.txt lines 280-300",
+   "question_patterns": [
+    "which quality mark is used for agricultural products",
+    "what quality mark applies to gold jewelry",
+    "identify the quality mark for electrical items",
+    "explain the role of standardized marks like ISI and AGMARK"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify product category",
+     "explain": "Determine if product is agricultural, electrical, precious metal, or processed food."
+    },
+    {
+     "step": 2,
+     "action": "Select certification scheme",
+     "explain": "Assign AGMARK for agricultural products, ISI for electrical goods, Hallmark for jewelry, or FPO for processed foods."
+    }
+   ]
+  },
+  {
+   "id": "lebs.11.7",
+   "title": "Three-Tier Redressal Jurisdiction",
+   "section": "11.7",
+   "definition": "Statutory three-level commission hierarchy categorizing legal jurisdiction based on total monetary consideration paid.",
+   "formula": "jurisdiction_tier = consideration_paid",
+   "key_idea": "District handles consideration up to 50 lakh, State up to 2 crore, and National above 2 crore.",
+   "textbook_ref": "lebs203.txt lines 305-350",
+   "question_patterns": [
+    "what is the pecuniary jurisdiction of district commission",
+    "determine the appropriate consumer forum for a given claim amount",
+    "what is the appeal period from state commission to national commission",
+    "calculate total consideration to determine jurisdiction"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate total consideration paid",
+     "explain": "Sum item purchase price and paid tax charges.",
+     "compute": "total_paid = base_price + tax_amount"
+    },
+    {
+     "step": 2,
+     "action": "Compute difference relative to district cap",
+     "explain": "Determine offset from fifty lakh limit to establish jurisdiction boundary.",
+     "compute": "district_diff = 5000000 - total_paid"
+    }
+   ]
+  },
+  {
+   "id": "lebs.11.8",
+   "title": "Reliefs Available Under CPA",
+   "section": "11.8",
+   "definition": "Legal remedies issued by commissions directing firms to rectify deficiencies, replace defective goods, issue refunds, or pay damage compensation.",
+   "formula": "total_relief = compensation_amount + refund_amount",
+   "key_idea": "Commissions order targeted corrective steps to restore losses and end misleading market conduct.",
+   "textbook_ref": "lebs203.txt lines 355-385",
+   "question_patterns": [
+    "state the reliefs available to a consumer under CPA",
+    "what remedies can a consumer forum order for defective goods",
+    "can consumer forums issue orders to withdraw hazardous items",
+    "calculate financial compensation and relief awarded"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum mental harassment and legal expense awards",
+     "explain": "Combine non-pecuniary compensation components awarded by the commission.",
+     "compute": "extra_compensation = harassment_fee + legal_fee"
+    },
+    {
+     "step": 2,
+     "action": "Calculate total award amount",
+     "explain": "Add refund price or direct financial compensation to extra awarded costs.",
+     "compute": "total_award = product_refund + extra_compensation"
+    }
+   ]
+  },
+  {
+   "id": "lebs.11.9",
+   "title": "Role of Consumer Organisations and NGOs",
+   "section": "11.9",
+   "definition": "Non-profit voluntary groups performing public advocacy, comparative product testing, legal counseling, and public interest litigation.",
+   "formula": "ngo_impact = awareness_workshops + comparative_testing + legal_assistance",
+   "key_idea": "NGOs build consumer capability and offer institutional backing for resolving grievances.",
+   "textbook_ref": "lebs203.txt lines 390-420",
+   "question_patterns": [
+    "explain the role of consumer NGOs in consumer protection",
+    "how do non-governmental organisations help aggrieved consumers",
+    "what functions are performed by consumer welfare societies",
+    "discuss the contribution of consumer forums like CUTS"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify function executed",
+     "explain": "Determine whether action involved running seminars, lab testing, publishing periodicals, or legal filing."
+    },
+    {
+     "step": 2,
+     "action": "Examine benefit to general public",
+     "explain": "Show how collective advocacy prevents systemic seller malpractices."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lebs203.txt lines 10-25",
+   "concept": "lebs.11.8",
+   "question_type": "financial_award_calculation",
+   "question_pattern": "A forum orders fine including {harassment_fee} mental compensation and {legal_fee} legal expenses for non-availability of ATM cash. Calculate extra compensation awarded.",
+   "extracted_variables": {
+    "harassment_fee": "compensation for mental harassment",
+    "legal_fee": "compensation for legal expenses"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum mental harassment and legal expense awards",
+     "explain": "Combine harassment compensation and legal expense reimbursement.",
+     "compute": "extra_compensation = harassment_fee + legal_fee"
+    },
+    {
+     "step": 2,
+     "action": "Calculate total award amount",
+     "explain": "Include base product refund if applicable.",
+     "compute": "total_award = 0 + extra_compensation"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lebs203.txt lines 305-325",
+   "concept": "lebs.11.7",
+   "question_type": "jurisdiction_boundary_check",
+   "question_pattern": "A consumer paid {base_price} for goods with {tax_amount} tax. Calculate total consideration and difference from District limit.",
+   "extracted_variables": {
+    "base_price": "price of goods",
+    "tax_amount": "taxes paid on purchase"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate total consideration paid",
+     "explain": "Add base price and tax paid.",
+     "compute": "total_paid = base_price + tax_amount"
+    },
+    {
+     "step": 2,
+     "action": "Compute difference relative to district cap",
+     "explain": "Subtract total paid consideration from fifty lakh limit.",
+     "compute": "district_diff = 5000000 - total_paid"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "lebs203.txt line 320",
+   "questions": [
+    "Under which consumer right does a business firm set up consumer grievance cell?"
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "lebs203.txt line 321",
+   "questions": [
+    "Which quality certification mark is used for agricultural products?"
+   ]
+  },
+  {
+   "id": "ex1.3",
+   "source_ref": "lebs203.txt line 322",
+   "questions": [
+    "What is the jurisdiction of cases that can be filed in a State Commission?"
+   ]
+  },
+  {
+   "id": "ex1.4",
+   "source_ref": "lebs203.txt line 323",
+   "questions": [
+    "State any two relief available to consumers under CPA."
+   ]
+  },
+  {
+   "id": "ex1.5",
+   "source_ref": "lebs203.txt line 324",
+   "questions": [
+    "Name the component of product mix that helps the consumer to exercise the right to information."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_v_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_v_cbse_02_002",
+   "title": "c12_hin_v_cbse_02_002",
+   "questions": [
+    {
+     "q": "What is the difference between 'plot' (कथानक) and 'narrative structure' (आख्यान संरचना) in literary analysis?",
+     "a": "Plot is the logical, chronological sequence of cause-and-effect events in the story (what happened). Narrative structure is the artistic arrangement of those events as presented to the reader — including order, perspective, pacing, and devices like flashback (how it is told). A wrong answer that treats them as synonyms reveals the student cannot distinguish the raw material of story from the author's craft in shaping it — a fundamental error that leads to superficial analysis in board answers.",
+     "self_check": true
+    },
+    {
+     "q": "In \"ikB'kkyk tkus osQ fy, eu rM+irk Fkk,\" the story opens with the adult narrator reflecting on his father's phrase \"main padhunga\" before jumping to childhood scenes. What narrative technique is this, and what is its immediate effect on the reader?",
+     "a": "This is a frame narrative (चौखटा आख्यान) combined with analepsis (flashback/पूर्वदर्शन). The adult narrator's present-day reflection frames the childhood memories. The immediate effect: it establishes the story as a retrospective act of meaning-making — the narrator is not just recounting events but interpreting them from a distance. A student who only says \"flashback\" misses the framing layer; a student who says \"it creates suspense\" misreads the contemplative, reflective tone for a thriller device.",
+     "self_check": true
+    },
+    {
+     "q": "Map the following events from the story in CHRONOLOGICAL order (as they happened in the character's life): (A) Narrator fails his exam and repeats a year, (B) Father says \"main padhunga\" but doesn't study, (C) Teacher Lakshminarayan Sharma encourages narrator's poetry, (D) Narrator goes to school for the first time, (E) Thakur Sahib advises sending narrator to work.",
+     "a": "Correct chronological order: B → E → D → A → C.\n(B) Father's empty promise sets the family context → (E) Thakur Sahib's advice creates the crisis → (D) Mother sends narrator to school despite father → (A) Academic struggle (repeating a year) → (C) Teacher's mentorship becomes the turning point. A student who orders them as they appear in the text (B, D, E, A, C or similar) confuses narrative order with chronological order — a critical error for structure analysis questions in boards.",
+     "self_check": true
+    },
+    {
+     "q": "The narrative spends disproportionate time on the narrator's early poetry attempts and the teacher's dfork (poetry recitation) sessions compared to the years of schooling. Analyze why the author structures the pacing this way.",
+     "a": "The expanded pacing on poetry moments (slow, scene-like narration) versus compressed years of schooling (summary narration) mirrors the narrator's internal prioritization: the poetry sessions were the *meaningful* events that shaped his identity, while routine schooling was endurance. The structure enacts the theme — education as certification vs. education as awakening. A student who says \"the author liked poetry\" misses the structural-function relationship; a student who says \"to fill pages\" confuses authorial intent with reader perception.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The non-linear structure of the story weakens the emotional impact because the reader already knows the narrator becomes a poet.\" Defend or refute with evidence from the narrative design.",
+     "a": "Refute. The frame narrative creates dramatic irony and thematic depth: we know the *outcome* (poet), but the structure withholds the *process* — the specific moments of doubt, the father's betrayal, the mother's sacrifice, the teacher's precise interventions. The emotional impact shifts from \"what happens\" to \"how it feels to become.\" The retrospective voice adds layer: the adult narrator's commentary (\"ab samajh aaya\") transforms raw memory into interpreted wisdom. A student who agrees confuses plot suspense with narrative resonance — a competitive-exam trap where \"knowing the ending\" is mistaken for \"knowing the journey.\"",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-sentence narrative paragraph that uses a frame structure (present reflection → past memory → present insight) to describe a personal moment when you chose a difficult path despite opposition. Use the same structural logic as the chapter.",
+     "a": "A strong answer will: (1) Open in present tense with a reflective trigger (\"Today, when I see...\"), (2) Shift to past tense for the core memory with sensory detail (\"I was fifteen when my father said...\"), (3) Return to present with explicit insight (\"Now I understand that his resistance was...\"), (4) Close with thematic resonance (\"That choice taught me...\"). A weak answer stays in one tense, lacks the frame return, or tells rather than shows the opposition — revealing the student cannot operationalize the structural concept.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

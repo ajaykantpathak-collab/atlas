@@ -1,0 +1,665 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 11,
+ "chapter_title": "Manufacturing Industries",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess106.txt",
+ "concepts": [
+  {
+   "id": "c10ss.11.1",
+   "title": "Importance of Manufacturing",
+   "section": "Importance of Manufacturing",
+   "definition": "Manufacturing is the processing of raw materials into more valuable products; industries that process agricultural, mineral or forest raw materials are called secondary activities, and the economic strength of a country is measured by the development of its manufacturing industries.",
+   "formula": "",
+   "key_idea": "Manufacturing industries expand trade and commerce, earn foreign exchange, generate employment and reduce dependence on agriculture, thereby modernising the economy and raising national income.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why is manufacturing considered a secondary activity?",
+    "How does manufacturing reduce the dependence of a country on agriculture?",
+    "Explain the relationship between agriculture and industry.",
+    "In what ways do manufacturing industries contribute to the national economy?",
+    "Why is the economic strength of a country measured by its manufacturing industries?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify manufacturing as a secondary activity",
+     "explain": "Note that manufacturing converts raw materials from primary activities (agriculture, mining, forestry) into finished goods, so it is a secondary activity."
+    },
+    {
+     "step": 2,
+     "action": "Verify the linkages with agriculture and trade",
+     "explain": "Check that industries buy farm output, supply tools and inputs to farmers, expand trade and commerce and earn foreign exchange."
+    },
+    {
+     "step": 3,
+     "action": "Relate to national development",
+     "explain": "Confirm that by generating employment and income, manufacturing modernises agriculture and raises the overall national income."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why are manufacturing industries called secondary activities?",
+     "solution": "Secondary activities process raw materials obtained from primary activities into more valuable finished goods. Since manufacturing converts agricultural, mineral or forest raw materials into finished products, it is a secondary activity.",
+     "answer": "Manufacturing processes raw materials into finished goods, so it is a secondary activity."
+    },
+    {
+     "question": "How does manufacturing industry reduce dependence on agriculture?",
+     "solution": "Industries provide jobs outside farming, buy agricultural raw materials and supply modern tools and inputs to farmers. This diversifies income sources and reduces the economy's reliance on agriculture alone.",
+     "answer": "Industries create non-farm jobs and support agriculture, reducing economic dependence on farming."
+    },
+    {
+     "question": "Explain the relationship between agriculture and industry.",
+     "solution": "Agro-based industries buy farm output as raw material, while industry supplies fertilisers, machinery and irrigation equipment to agriculture. Each sector promotes and depends on the other.",
+     "answer": "Agriculture supplies raw materials and industry supplies inputs to agriculture; they are interdependent."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define manufacturing and state why it is a secondary activity.",
+     "type": "short_answer"
+    },
+    {
+     "question": "List three ways in which manufacturing industries contribute to the national economy.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how agriculture and industry are complementary to each other.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.11.2",
+   "title": "Industrial Location Factors",
+   "section": "Industrial Location",
+   "definition": "Industrial location is influenced by the availability of raw material, labour, capital, power, market and transport; the aim is to minimise the cost of production and deliver goods efficiently to consumers.",
+   "formula": "",
+   "key_idea": "An ideal industrial site minimises production and distribution costs by balancing access to raw materials, power, labour, capital and market; sometimes government policies provide the key incentive.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the factors that influence the location of an industry?",
+    "Why do many industries tend to be located near raw material sources?",
+    "Explain how market and transport influence industrial location.",
+    "How do government policies affect the location of industries?",
+    "Why is the availability of power an important factor in industrial location?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the location factors",
+     "explain": "Identify the key factors: raw material, labour, capital, power, market, transport and government policy."
+    },
+    {
+     "step": 2,
+     "action": "Compute a simple cost score",
+     "explain": "Assign a weight to each factor and sum the scores to compare two candidate sites."
+    },
+    {
+     "step": 3,
+     "action": "Interpret the result",
+     "explain": "The site with the higher total score is the more economical location for the industry.",
+     "compute": "best_site = max(site_a_score, site_b_score)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What factors influence the location of an industry?",
+     "solution": "The main factors are the availability of raw material, land, water, labour, power, capital, transport and market. Sometimes government incentives also influence location.",
+     "answer": "Raw material, labour, power, capital, market and transport are the key location factors."
+    },
+    {
+     "question": "Why are industries often located near sources of raw material?",
+     "solution": "Industries using bulky or weight-losing raw materials (like sugar from sugarcane or iron from iron ore) locate near the source to reduce transport costs and avoid moving heavy, low-value material over long distances.",
+     "answer": "Locating near raw materials cuts transport cost for bulky inputs."
+    },
+    {
+     "question": "Two sites score 7 and 9 on a weighted location-factor index. Which site is better and why?",
+     "solution": "The higher score means the site better satisfies the weighted location factors (raw material, power, labour, market, transport). Site B with score 9 is preferred over Site A with score 7.",
+     "answer": "Site B (score 9) is the better location as it has a higher weighted score."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the factors that affect the location of an industry.",
+     "type": "recall"
+    },
+    {
+     "question": "Explain how transport and market influence industrial location.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Site X scores 6 and Site Y scores 8 on a location index. Which site should be chosen?",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.11.3",
+   "title": "Agro-based Industries",
+   "section": "Agro-based Industries",
+   "definition": "Agro-based industries process agricultural raw materials; the main examples are textile (cotton, jute, silk), sugar and vegetable oil industries, which depend on farm output and are widely spread across India.",
+   "formula": "",
+   "key_idea": "Agro-based industries add value to farm produce, generate rural employment and are located close to the source of their raw material to minimise transport of bulky inputs.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Name the major agro-based industries in India.",
+    "Why are sugar mills located near sugarcane fields?",
+    "Describe the distribution of the cotton textile industry in India.",
+    "What is the contribution of the jute industry to the Indian economy?",
+    "Why is the vegetable oil industry important for India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the agro-based industries",
+     "explain": "List the textile industries (cotton, jute, silk), sugar industry and vegetable oil industry that process farm raw materials."
+    },
+    {
+     "step": 2,
+     "action": "Verify the location pattern",
+     "explain": "Check that these industries are located near their raw material sources -- sugar mills near sugarcane fields, jute mills near the Ganges delta -- to reduce transport cost."
+    },
+    {
+     "step": 3,
+     "action": "Relate to rural economy",
+     "explain": "Confirm that agro-based industries add value to farm output, generate rural employment and earn foreign exchange."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why are sugar mills located near sugarcane fields?",
+     "solution": "Sugarcane is bulky and loses sucrose content soon after cutting, so it must be crushed quickly. Locating mills near the fields reduces transport cost and prevents sugar loss.",
+     "answer": "Sugarcane is bulky and perishable, so mills are located near the fields."
+    },
+    {
+     "question": "Describe the distribution of the cotton textile industry in India.",
+     "solution": "Cotton textile mills are spread across Maharashtra (Mumbai, Pune), Gujarat (Ahmedabad, Surat), Tamil Nadu (Coimbatore) and West Bengal. Maharashtra and Gujarat lead because of abundant raw cotton, humid climate and port facilities.",
+     "answer": "The industry is concentrated in Maharashtra, Gujarat and Tamil Nadu near cotton-growing areas."
+    },
+    {
+     "question": "What is the contribution of the jute industry to the Indian economy?",
+     "solution": "India is the largest producer of raw jute and jute goods. The industry earns foreign exchange, supports millions of farmers and workers, and produces biodegradable packaging, though it faces competition from synthetic substitutes.",
+     "answer": "It earns foreign exchange and provides employment, but faces synthetic competition."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name three major agro-based industries in India.",
+     "type": "recall"
+    },
+    {
+     "question": "Explain why the cotton textile industry is concentrated in Maharashtra and Gujarat.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss the problems faced by the jute industry.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.11.4",
+   "title": "Mineral-based Industries: Iron and Steel",
+   "section": "Mineral-based Industries",
+   "definition": "Iron and steel is the basic industry since it provides the base for all other industries; steel is needed for machinery, tools and infrastructure, and the industry uses iron ore, coking coal, limestone and manganese as raw materials.",
+   "formula": "",
+   "key_idea": "The iron and steel industry is a heavy, basic industry whose location is governed by the availability of raw materials (iron ore, coal, limestone) and which forms the backbone of industrial development.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why is the iron and steel industry called a basic industry?",
+    "What raw materials are used in the production of steel?",
+    "Describe the location of major iron and steel plants in India.",
+    "Why are many steel plants located near coal and iron ore deposits?",
+    "Explain the challenges faced by the Indian iron and steel industry."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the raw materials and their proportions",
+     "explain": "List the inputs: iron ore, coking coal, limestone and manganese, each required in specific quantities per tonne of steel."
+    },
+    {
+     "step": 2,
+     "action": "Compute the raw material requirement",
+     "explain": "Sum the quantities needed to produce one tonne of steel to understand the bulk that must be transported."
+    },
+    {
+     "step": 3,
+     "action": "Interpret the location decision",
+     "explain": "Since the total raw material exceeds the finished output, the plant is located near the raw material source to minimise transport cost."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is the iron and steel industry called a basic industry?",
+     "solution": "Iron and steel provide the machinery, tools and structural material required by almost every other industry -- engineering, transport, construction and agriculture -- so it forms the base of industrial development.",
+     "answer": "It supplies the basic raw material (steel) for all other industries."
+    },
+    {
+     "question": "What raw materials are used to produce steel and in what proportion?",
+     "solution": "To produce one tonne of steel roughly 1.6 tonnes of iron ore, 0.8 tonnes of coking coal and 0.3 tonnes of limestone are needed, plus small amounts of manganese.",
+     "answer": "Iron ore, coking coal, limestone and manganese are the main raw materials."
+    },
+    {
+     "question": "Calculate the total raw material (in tonnes) needed to produce one tonne of steel using 1.6 t iron ore, 0.8 t coal and 0.3 t limestone.",
+     "solution": "Total = 1.6 + 0.8 + 0.3 = 2.7 tonnes. Since 2.7 t of raw material yields only 1 t of steel, plants are located near the raw material source.",
+     "answer": "2.7 tonnes of raw material are needed per tonne of steel."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why is the iron and steel industry called a basic industry?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name the raw materials used in steel production.",
+     "type": "recall"
+    },
+    {
+     "question": "Calculate the total raw material needed for 1 tonne of steel using 1.6 t iron ore and 0.8 t coal.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.11.5",
+   "title": "Mineral-based Industries: Aluminium, Cement and Chemicals",
+   "section": "Mineral-based Industries",
+   "definition": "Other mineral-based industries include aluminium smelting (the second most important metallurgical industry), cement production (needed for construction), and chemical industries (producing inorganic and organic chemicals, fertilisers and pharmaceuticals).",
+   "formula": "",
+   "key_idea": "Aluminium smelting, cement and chemical industries are mineral-based industries that support construction, transport and agriculture; their location depends on the availability of bauxite, limestone and raw chemicals respectively.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why is aluminium smelting an important industry in India?",
+    "What raw material is used in aluminium smelting and where is it found?",
+    "Describe the cement industry and its location in India.",
+    "Why is the chemical industry important for the economy?",
+    "Explain the difference between organic and inorganic chemical industries."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the industries and their raw materials",
+     "explain": "List aluminium smelting (bauxite), cement (limestone + clay) and chemical industries (petroleum, salt, sulphur)."
+    },
+    {
+     "step": 2,
+     "action": "Verify the location pattern",
+     "explain": "Check that aluminium smelters are near bauxite and power sources, cement plants near limestone deposits, and chemical industries near oil refineries or raw material sources."
+    },
+    {
+     "step": 3,
+     "action": "Relate to the economy",
+     "explain": "Confirm that these industries supply construction material, light metals and chemicals for agriculture and manufacturing."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is aluminium smelting an important industry in India?",
+     "solution": "Aluminium is light, resistant to corrosion, a good conductor and combines well with other metals. It is used in aircraft, utensils and electrical wires, making it the second most important metallurgical industry after iron and steel.",
+     "answer": "Aluminium is light, durable and versatile, used in aircraft, utensils and wires."
+    },
+    {
+     "question": "Describe the cement industry and its location in India.",
+     "solution": "Cement requires limestone and is produced where limestone deposits are available. The first cement plant was set up in Chennai in 1904; today plants are located in Gujarat, Madhya Pradesh, Rajasthan and Andhra Pradesh near limestone reserves.",
+     "answer": "Cement plants are located near limestone deposits across several states."
+    },
+    {
+     "question": "Explain the difference between organic and inorganic chemical industries.",
+     "solution": "Inorganic chemical industries produce sulphuric acid, nitric acid and alkalis used in industries; organic chemical industries produce petrochemicals, dyes and plastics from petroleum and coal tar.",
+     "answer": "Inorganic industries make acids and alkalis; organic industries make petrochemicals and plastics."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name the raw material used in aluminium smelting.",
+     "type": "recall"
+    },
+    {
+     "question": "Explain why cement plants are located near limestone deposits.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Distinguish between organic and inorganic chemical industries.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.11.6",
+   "title": "Public Sector Industries",
+   "section": "Public Sector Industries",
+   "definition": "Public sector industries are owned and operated by the government; in India they were set up to provide infrastructure, create employment and reduce regional disparities, while the private sector operates for profit and the joint sector combines both.",
+   "formula": "",
+   "key_idea": "Public sector industries are established in areas where private investment is unlikely because returns are slow, to build infrastructure, ensure equitable development and prevent concentration of economic power.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a public sector industry?",
+    "Why did the government set up public sector industries in India?",
+    "Distinguish between public, private and joint sector industries.",
+    "Why are public sector industries set up in backward regions?",
+    "Explain the role of the public sector in industrial development."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the sectors",
+     "explain": "Public sector = government-owned; private sector = individually or company-owned; joint sector = jointly owned by public and private entities."
+    },
+    {
+     "step": 2,
+     "action": "Verify the rationale for the public sector",
+     "explain": "Check that public sector units are set up where private capital is hesitant -- infrastructure, heavy industry, backward regions -- to ensure balanced development."
+    },
+    {
+     "step": 3,
+     "action": "Relate to equity and development",
+     "explain": "Confirm that the public sector provides employment, builds infrastructure and reduces regional and economic disparities."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a public sector industry and why is it set up?",
+     "solution": "A public sector industry is owned and run by the government. It is set up to provide essential infrastructure, generate employment, reduce regional imbalance and prevent the concentration of economic power in a few private hands.",
+     "answer": "Government-owned industries set up to build infrastructure and ensure balanced development."
+    },
+    {
+     "question": "Distinguish between public, private and joint sector industries.",
+     "solution": "Public sector industries are owned by the government; private sector industries are owned by individuals or companies; joint sector industries are jointly owned by the government and private parties.",
+     "answer": "Public = government; private = individuals/companies; joint = government + private."
+    },
+    {
+     "question": "Why are public sector industries set up in backward regions?",
+     "solution": "Private investors avoid backward regions because profits are slow. The government sets up public sector units there to create jobs, build infrastructure and reduce regional disparities.",
+     "answer": "To create employment and reduce regional disparities where private capital is hesitant."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define a public sector industry.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Distinguish between public and private sector industries.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why public sector industries are located in backward regions.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.11.7",
+   "title": "Industrial Pollution and Environmental Degradation",
+   "section": "Industrial Pollution and Environmental Degradation",
+   "definition": "Industries cause four types of pollution -- air, water, land and noise -- through emissions, effluents, solid waste and machinery, leading to environmental degradation and health hazards.",
+   "formula": "",
+   "key_idea": "Industrial pollution arises because factories emit gases, discharge toxic effluents, dump solid waste and generate noise; the concentration of industries in a few regions worsens the environmental impact.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the four main types of industrial pollution?",
+    "How do industries cause air and water pollution?",
+    "Explain the effects of industrial pollution on human health.",
+    "Why is noise pollution a problem in industrial areas?",
+    "How does industrial waste lead to land and water degradation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the types of pollution",
+     "explain": "List air pollution (smoke, gases), water pollution (effluents), land pollution (solid waste) and noise pollution (machinery)."
+    },
+    {
+     "step": 2,
+     "action": "Verify the sources",
+     "explain": "Check that factories emit particulate matter and gases, discharge chemicals into water bodies, dump slag and sludge on land, and generate noise from machines."
+    },
+    {
+     "step": 3,
+     "action": "Relate to health and environment",
+     "explain": "Confirm that these pollutants cause respiratory diseases, water-borne diseases, soil toxicity and hearing damage."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the four main types of industrial pollution?",
+     "solution": "The four main types are air pollution, water pollution, land (soil) pollution and noise pollution caused by industrial emissions, effluents, waste and machinery respectively.",
+     "answer": "Air, water, land and noise pollution."
+    },
+    {
+     "question": "How do industries cause water pollution?",
+     "solution": "Industries discharge harmful chemicals, dyes, heavy metals and organic waste into rivers and streams. Paper, pulp, textile and chemical factories are major sources; this kills aquatic life and contaminates drinking water.",
+     "answer": "By discharging toxic effluents into water bodies."
+    },
+    {
+     "question": "Why is noise pollution a serious problem in industrial areas?",
+     "solution": "Machinery, generators, drilling and construction in factories generate continuous high-decibel noise that causes stress, hearing loss and hypertension among workers and nearby residents.",
+     "answer": "Industrial machinery causes hearing damage and stress."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name the four types of industrial pollution.",
+     "type": "recall"
+    },
+    {
+     "question": "Explain how industries cause air pollution.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Describe the effects of industrial water pollution on health.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.11.8",
+   "title": "Control of Environmental Degradation",
+   "section": "Control of Environmental Degradation",
+   "definition": "Environmental degradation caused by industries can be controlled by treating hot water and effluents before discharge, using smokestacks and electrostatic precipitators, recycling waste, and following pollution-control norms.",
+   "formula": "",
+   "key_idea": "Pollution can be reduced by treating industrial waste, using cleaner technology, fitting particulate-control devices, planting trees and relocating or redesigning factories to minimise emissions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How can water pollution from industries be controlled?",
+    "What is an electrostatic precipitator and how does it help?",
+    "Explain how industries can reduce air pollution.",
+    "How does recycling help control environmental degradation?",
+    "What steps can factories take to minimise noise pollution?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the control measures",
+     "explain": "List effluent treatment plants, electrostatic precipitators, smokestacks, recycling, silencers and tree plantation."
+    },
+    {
+     "step": 2,
+     "action": "Verify the mechanism of each measure",
+     "explain": "Check that precipitators remove particulate matter, treatment plants neutralise toxic water, and recycling reduces waste volume."
+    },
+    {
+     "step": 3,
+     "action": "Relate to compliance",
+     "explain": "Confirm that following these measures helps factories meet pollution-control standards and protect health."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How can water pollution from industries be controlled?",
+     "solution": "Factories should treat hot water and effluents in treatment plants before discharging them into rivers, minimise water use by recycling, and harvest rainwater to reduce the load on freshwater sources.",
+     "answer": "By treating effluents before discharge and recycling water."
+    },
+    {
+     "question": "What is an electrostatic precipitator and how does it help?",
+     "solution": "An electrostatic precipitator is a device fitted to smokestacks that uses electric charge to remove fine particulate matter from exhaust gases, reducing air pollution from factories.",
+     "answer": "It removes fine particles from smoke using an electric charge."
+    },
+    {
+     "question": "How does recycling help control environmental degradation?",
+     "solution": "Recycling reuses scrap metal, paper, plastic and water, reducing the volume of waste dumped on land and the amount of fresh raw material extracted, thereby lowering pollution.",
+     "answer": "Recycling reduces waste volume and raw material extraction."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how air pollution from industries can be controlled.",
+     "type": "short_answer"
+    },
+    {
+     "question": "What is the function of an electrostatic precipitator?",
+     "type": "short_answer"
+    },
+    {
+     "question": "List three ways factories can reduce water pollution.",
+     "type": "recall"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.11.9",
+   "title": "Industrial Disasters",
+   "section": "Industrial Disasters",
+   "definition": "Industrial disasters are major accidents in factories causing death, injury and long-term damage; the Bhopal gas tragedy (1984) is the worst, caused by a methyl isocyanate leak, and led to stricter safety and disaster-management norms.",
+   "formula": "",
+   "key_idea": "Industrial disasters result from negligence, poor safety standards and hazardous chemicals; the Bhopal tragedy highlighted the need for on-site disaster management plans and strict regulation of hazardous industries.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What was the Bhopal gas tragedy?",
+    "What caused the Bhopal industrial disaster?",
+    "What lessons were learnt from the Bhopal disaster?",
+    "How can industrial disasters be prevented?",
+    "What is an on-site disaster management plan?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the disaster and its cause",
+     "explain": "Note that on 4 December 1984, methyl isocyanate (MIC) gas leaked from the Union Carbide pesticide plant in Bhopal, killing thousands."
+    },
+    {
+     "step": 2,
+     "action": "Compute the time elapsed since the disaster",
+     "explain": "Calculate the years passed from 1984 to the present to understand the long-term impact.",
+     "compute": "years_since = present_year - 1984"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the policy response",
+     "explain": "Relate the disaster to the introduction of on-site and off-site disaster management plans and stricter safety laws."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What was the Bhopal gas tragedy?",
+     "solution": "On the night of 4 December 1984, highly toxic methyl isocyanate (MIC) gas leaked from the Union Carbide pesticide plant in Bhopal, killing over 8,000 people within days and injuring many more, making it the world's worst industrial disaster.",
+     "answer": "A 1984 MIC gas leak from the Union Carbide plant in Bhopal killed thousands."
+    },
+    {
+     "question": "What lessons were learnt from the Bhopal disaster?",
+     "solution": "The disaster led to the realisation that industries must prepare on-site and off-site disaster management plans, store hazardous chemicals safely, and that governments must enforce strict safety regulations.",
+     "answer": "It led to mandatory disaster management plans and stricter safety laws."
+    },
+    {
+     "question": "Calculate the number of years between the Bhopal disaster (1984) and the year 2024.",
+     "solution": "Years = 2024 - 1984 = 40 years. This long span shows the lasting health and legal impact of the disaster.",
+     "answer": "40 years have passed since the Bhopal disaster."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the Bhopal gas tragedy.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how industrial disasters can be prevented.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Calculate the years between the Bhopal disaster (1984) and 2014.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.11.10",
+   "title": "Contribution of Industries to the National Economy",
+   "section": "Contribution of Industries to National Economy",
+   "definition": "Industries contribute to the national economy by generating employment, producing goods, earning foreign exchange and raising GDP; the share of manufacturing in GDP and the growth rate of output indicate industrial development.",
+   "formula": "",
+   "key_idea": "The contribution of manufacturing to GDP and its annual growth rate measure industrial progress; a strong industrial sector reduces dependence on agriculture and raises national income and employment.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How do industries contribute to the national economy?",
+    "What is the share of manufacturing in India's GDP?",
+    "Explain the importance of the growth rate of manufacturing output.",
+    "How does industrial growth reduce unemployment?",
+    "Why is industrial development necessary for a strong economy?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the indicators",
+     "explain": "List the share of manufacturing in GDP and the annual growth rate of manufacturing output as key indicators."
+    },
+    {
+     "step": 2,
+     "action": "Compute the contribution",
+     "explain": "Calculate the contribution of manufacturing to GDP using its percentage share.",
+     "compute": "contribution = gdp * (gdp_share_pct / 100)"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the result",
+     "explain": "Relate the computed contribution to employment, exports and national income growth."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How do industries contribute to the national economy?",
+     "solution": "Industries produce goods, generate employment, earn foreign exchange through exports and raise the GDP. A growing industrial sector modernises agriculture and increases national income.",
+     "answer": "By producing goods, generating jobs and earning foreign exchange."
+    },
+    {
+     "question": "If manufacturing has a 17% share of GDP and GDP is 1000 crore, what is the contribution of manufacturing?",
+     "solution": "Contribution = 1000 x (17/100) = 170 crore. This shows the direct value added by manufacturing to the national income.",
+     "answer": "Manufacturing contributes 170 crore to GDP."
+    },
+    {
+     "question": "Why is the growth rate of manufacturing output important?",
+     "solution": "A higher growth rate of manufacturing means more jobs, more goods and higher income. Since agriculture alone cannot employ everyone, industrial growth is essential to absorb the workforce and raise living standards.",
+     "answer": "It indicates job creation and rising national income."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List three ways industries contribute to the national economy.",
+     "type": "recall"
+    },
+    {
+     "question": "Explain the importance of the manufacturing growth rate.",
+     "type": "short_answer"
+    },
+    {
+     "question": "If manufacturing is 17% of a 2000 crore GDP, calculate its contribution.",
+     "type": "compute"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

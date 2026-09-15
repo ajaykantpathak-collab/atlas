@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_05_011",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_05_011",
+   "title": "c12_psy_cbse_05_011",
+   "questions": [
+    {
+     "q": "Name the four alternative therapies explicitly discussed in the NCERT Class 12 Psychology textbook under the heading \"Alternative Therapies\" and state the one-line core technique of each.",
+     "a": "The four therapies are: (1) Yoga — combination of asanas (body postures) and pranayama (breathing practices); (2) Meditation — focusing attention on breath, object, thought, or mantra; (3) Vipassana (mindfulness-based meditation) — passively observing bodily sensations and thoughts without a fixed object; (4) Sudarshana Kriya Yoga (SKY) — rapid breathing techniques to induce hyperventilation. A wrong answer (e.g., listing acupuncture or Reiki) reveals the student has not distinguished the NCERT-specified therapies from the broader mention of \"many alternative therapies such as yoga, meditation, acupuncture, herbal remedies and so on.\"",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Vipassana is described as \"mindfulness-based meditation\" and how its mechanism differs from concentrative meditation as defined in the textbook.",
+     "a": "Vipassana is called mindfulness-based because the practitioner does not fix attention on a single object (breath, mantra, etc.) but instead openly monitors whatever arises — bodily sensations, thoughts, emotions — without judgment or attachment. Concentrative meditation (the textbook's \"Meditation\") narrows attention to one chosen anchor to reduce arousal; Vipassana widens attention to cultivate metacognitive awareness, allowing emotional stimuli to be processed without automatic reactivity. A wrong answer that equates the two (e.g., \"both focus on breath\") reveals confusion between focused-attention and open-monitoring meditation types, a distinction critical for understanding their different clinical applications (e.g., Vipassana for preventing depression relapse by changing emotional processing biases).",
+     "self_check": true
+    },
+    {
+     "q": "A 35-year-old client with PTSD after a natural disaster is referred for SKY as an adjunct treatment. Using the NCERT description, outline the physiological and psychological rationale for why rapid-breathing-induced hyperventilation might reduce PTSD symptoms.",
+     "a": "NCERT states SKY uses \"rapid breathing techniques to induce hyperventilation\" and is a \"beneficial, low-risk, low-cost adjunct to the treatment of stress, anxiety, PTSD, depression...\" Physiologically, controlled hyperventilation alters CO₂ levels, activates the parasympathetic rebound after sympathetic surge, and modulates the HPA axis, reducing physiological hyperarousal (racing heart, hypervigilance). Psychologically, the rhythmic breathing provides an interoceptive anchor, disrupts intrusive memory loops, and fosters a sense of agency over bodily states — countering the helplessness central to PTSD. A wrong answer that says \"it just relaxes the person\" misses the specific hyperventilation mechanism and the adjunctive (not standalone) role NCERT emphasizes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast how Yoga (asana/pranayama) and CBT would each address a client's insomnia, based on the NCERT descriptions of their mechanisms.",
+     "a": "Yoga addresses insomnia through physiological down-regulation: asanas reduce muscular tension, pranayama shifts autonomic balance toward parasympathetic dominance, and the textbook notes \"Yoga reduces the time to go to sleep and improves the quality of sleep\" — a bottom-up body-to-brain pathway. CBT for insomnia (CBT-I) would use cognitive restructuring (changing catastrophic sleep beliefs), stimulus control, and sleep restriction — a top-down cognitive-behavioral pathway. Both can be effective; Yoga is lower-cost, accessible, and works via somatic regulation, while CBT-I targets maladaptive cognitions and behaviors directly. A wrong answer that claims \"Yoga is a type of CBT\" conflates distinct therapeutic systems; NCERT positions them as separate (Yoga under Alternative Therapies, CBT as a mainstream psychotherapy).",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Since research shows Kundalini Yoga is effective for OCD and SKY reduces depression, these alternative therapies should replace medication and CBT as first-line treatments for these disorders.\"",
+     "a": "The statement overgeneralizes from limited evidence. NCERT cites single studies (Institute for Nonlinear Science, UCSD for Kundalini Yoga/OCD; NIMHANS for SKY/depression) and describes these as \"effective in treatment\" and \"reduces depression\" — not as superior to or replacements for established first-line treatments. Alternative therapies are explicitly defined as \"alternative treatment possibilities to the conventional drug treatment or psychotherapy,\" implying adjunctive or alternative status when conventional options are unavailable, contraindicated, or refused. First-line treatment decisions require large-scale RCTs, meta-analyses, and clinical guidelines — not single studies. A wrong answer agreeing with the statement reveals failure to distinguish \"evidence of efficacy\" from \"evidence for first-line replacement\" and ignores the NCERT framing of these as complementary/alternative.",
+     "self_check": true
+    },
+    {
+     "q": "Design a brief 4-week school-based mental wellness module for Class 11-12 students that integrates one technique from each of the four NCERT alternative therapies, ensuring each session is 20 minutes, secular, and feasible in a classroom. Justify your sequence.",
+     "a": "Week 1 (Yoga): 5 min gentle asanas (neck/shoulder rolls, seated cat-cow) + 10 min diaphragmatic breathing (pranayama) + 5 min guided relaxation — establishes body awareness and breath regulation foundation. Week 2 (Meditation): 2 min settling + 15 min breath-focused attention (counting breaths) + 3 min debrief — trains focused attention after body-calming skills. Week 3 (SKY): 3 min prep + 10 min simplified rhythmic breathing (slow-medium-fast cycles, no forced hyperventilation for safety) + 7 min integration — introduces controlled arousal modulation once attention is stable. Week 4 (Vipassana): 2 min settling + 15 min open monitoring of sensations/thoughts (labeling \"thinking,\" \"feeling\") + 3 min sharing — applies metacognitive awareness built in prior weeks. Sequence progresses from somatic regulation → focused attention → controlled arousal → open monitoring, scaffolding skills developmentally. A poor answer would randomize order or omit secular adaptation (e.g., using mantras), missing the pedagogical logic and school-context constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

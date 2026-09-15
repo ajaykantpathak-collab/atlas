@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_03_006",
+   "title": "c11_stat_cbse_03_006",
+   "questions": [
+    {
+     "q": "Define lower class limit, upper class limit, and class mark for the class interval 20–30 (exclusive type). Write the formula for class mark.",
+     "a": "Lower class limit = 20, Upper class limit = 30, Class mark = (20+30)/2 = 25. Formula: Class Mark = (LCL + UCL)/2. A wrong answer (e.g., saying class mark is 20 or 30, or using difference instead of sum) reveals the student confuses class limits with class width or does not understand that the class mark is the midpoint representing the entire class.",
+     "self_check": true
+    },
+    {
+     "q": "A frequency distribution uses inclusive classes: 10–19, 20–29, 30–39. Explain why there is a \"gap\" between classes and calculate the class boundaries for the class 20–29. What is the class mark of this class after adjustment?",
+     "a": "Gap = lower limit of next class (30) – upper limit of current class (29) = 1. Adjustment = 1/2 = 0.5. Class boundaries: 20 – 0.5 = 19.5 (lower), 29 + 0.5 = 29.5 (upper). Class mark = (19.5 + 29.5)/2 = 24.5. If a student says boundaries are 20 and 29, or class mark is 24.5 without showing adjustment, they have memorised the formula but not understood why adjustment is needed for continuity in continuous variables.",
+     "self_check": true
+    },
+    {
+     "q": "The following inclusive frequency distribution shows the ages (in years) of 40 teachers in a school:\nAge: 25–29, 30–34, 35–39, 40–44, 45–49\nFrequency: 5, 8, 12, 10, 5\nConvert this to exclusive form with class boundaries and compute the class marks for all classes.",
+     "a": "Gap = 30 – 29 = 1 → adjustment = 0.5.\nBoundaries: 24.5–29.5, 29.5–34.5, 34.5–39.5, 39.5–44.5, 44.5–49.5.\nClass marks: (24.5+29.5)/2 = 27, (29.5+34.5)/2 = 32, (34.5+39.5)/2 = 37, (39.5+44.5)/2 = 42, (44.5+49.5)/2 = 47.\nA wrong answer (e.g., keeping limits as 25–29 and computing class mark as 27) shows the student does not realise that for continuous variables like age, inclusive intervals must be converted to exclusive boundaries to maintain continuity; they treat age as discrete.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the class marks obtained from the exclusive series 0–10, 10–20, 20–30 with those from the inclusive series 0–9, 10–19, 20–29 after adjustment. Are the class marks the same? Justify your answer mathematically.",
+     "a": "Exclusive class marks: 5, 15, 25. Inclusive boundaries: -0.5–9.5, 9.5–19.5, 19.5–29.5. Adjusted class marks: (-0.5+9.5)/2 = 4.5, (9.5+19.5)/2 = 14.5, (19.5+29.5)/2 = 24.5. They differ by 0.5 because the inclusive series starts at 0 instead of including 0 in the first class as lower limit. This reveals whether the student understands that the choice of class limits (whether 0–10 or 0–9) shifts the entire distribution and affects the representative values.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since class marks are just averages of limits, we can skip the boundary adjustment for inclusive data and directly use (LCL+UCL)/2. The difference is negligible.\" Evaluate this statement. Is it ever acceptable? When would it cause serious error?",
+     "a": "The statement is incorrect for continuous variables. For inclusive data representing a continuous variable, using (LCL+UCL)/2 without adjustment gives class marks that are offset by half the gap (e.g., 24.5 vs 25 in the 20–29 example). This error propagates into mean, median, mode, and standard deviation calculations. It is only acceptable if the variable is truly discrete (e.g., number of children) and the inclusive form is the natural representation. For continuous variables like height, weight, marks (if fractional allowed), adjustment is mandatory. A student who agrees reveals they treat the formula as a mechanical step without understanding the continuity requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario where a frequency distribution with unequal class intervals is appropriate. Define 5 classes with inclusive limits, convert them to class boundaries, and compute class marks. Explain why unequal intervals are better than equal intervals for your data.",
+     "a": "Example: Monthly household income (₹) in a village with wide disparity: 0–4999, 5000–9999, 10000–19999, 20000–49999, 50000–99999. Gap = 1, adjustment = 0.5. Boundaries: -0.5–4999.5, 4999.5–9999.5, 9999.5–19999.5, 19999.5–49999.5, 49999.5–99999.5. Class marks: 2499.5, 7499.5, 14999.5, 34999.5, 74999.5. Unequal intervals are better because income distribution is highly skewed; equal intervals would either create too many empty classes at the high end or lose detail at the low end. A poor answer uses equal intervals or fails to justify the choice, showing inability to link data nature to class construction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

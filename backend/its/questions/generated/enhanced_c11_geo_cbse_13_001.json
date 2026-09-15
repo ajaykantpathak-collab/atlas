@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_13_001",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_13_001",
+   "title": "c11_geo_cbse_13_001",
+   "questions": [
+    {
+     "q": "List the four major sources of surface water in India and name the two primary sources of groundwater recharge.",
+     "a": "Major surface water sources: (1) Himalayan rivers (perennial, snow-fed), (2) Peninsular rivers (seasonal, rain-fed), (3) Reservoirs/tanks, (4) Natural lakes and wetlands. Primary groundwater recharge sources: (1) Monsoon rainfall infiltration, (2) Seepage from canals, irrigated fields, and riverbeds. A wrong answer that includes \"glaciers\" as a direct surface water source (instead of feeding rivers) or misses canal seepage reveals confusion between primary sources and derived flows, or ignorance of human-induced recharge.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why groundwater is more evenly distributed across India than surface water, yet its development potential varies drastically between the Indo-Gangetic plains and the Peninsular hard rock regions.",
+     "a": "Groundwater occurs in aquifers underlying nearly the entire landmass, recharged by widespread rainfall, making its presence more ubiquitous than channelized surface water. However, development potential depends on aquifer properties: the Indo-Gangetic plains have thick, porous alluvial aquifers (high storage, high transmissivity) allowing high-yield tubewells, while Peninsular India's hard rock aquifers (granite, basalt) have limited fracture porosity, low storage, and rapid depletion. A wrong answer attributing variation only to rainfall ignores the critical role of geology in controlling extractable groundwater.",
+     "self_check": true
+    },
+    {
+     "q": "Using the concept of \"utilisable surface water potential\" (690 km³) and \"total surface water potential\" (1,869 km³), calculate the percentage of surface water that is actually utilisable. Then explain why this percentage is low, citing three specific geographical constraints.",
+     "a": "Step 1: Identify total potential = 1,869 km³, utilisable = 690 km³. Step 2: Calculate (690/1,869) × 100 = 36.9%. Step 3: Three constraints: (a) Topographical — steep Himalayan terrain and remote basins (Brahmaputra) limit storage; (b) Temporal — 80% flow occurs in 4 monsoon months, causing floods rather than usable supply; (c) Ecological/Inter-state — minimum environmental flows and downstream commitments (e.g., Indus Water Treaty) reserve water. A wrong calculation or listing only \"lack of dams\" reveals inability to quantify the gap and misunderstanding of physical vs. socio-legal constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the seasonal behaviour of surface water and groundwater in a typical peninsular river basin (e.g., Godavari) versus a Himalayan basin (e.g., Ganga). How does this affect irrigation planning?",
+     "a": "In the Godavari (peninsular), surface water flow is highly seasonal — negligible in dry months, flashy floods in monsoon; groundwater recharge occurs only during monsoon, water tables rise 5-10 m then fall sharply. In the Ganga (Himalayan), surface water is perennial due to snowmelt sustaining baseflow; groundwater receives year-round recharge from river seepage and canals, water tables fluctuate <2 m. Irrigation in peninsular basins requires large storage (dams) and conjunctive use; in Himalayan basins, run-of-river and canal systems dominate. A wrong answer treating both basins as similar ignores the fundamental control of river regime on water resource strategy.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Punjab's groundwater crisis is primarily caused by free electricity for agriculture, not by low rainfall.\" Support your evaluation with hydrogeological and policy evidence.",
+     "a": "Evaluation: The statement is largely correct but incomplete. Hydrogeologically, Punjab's alluvial aquifers have high recharge potential (300-500 mm/year from rainfall + canal seepage), so low rainfall (600-700 mm) is not the primary constraint. Policy-driven free electricity since 1997 incentivised water-intensive rice-wheat cropping, causing extraction (1.66 million tubewells) to exceed recharge by 1.5 times, dropping water tables 0.5-1 m/year in 80% blocks. However, geology matters: the same policy in hard rock Tamil Nadu would cause faster collapse due to lower aquifer storage. A wrong answer blaming only rainfall or only policy shows failure to distinguish between resource endowment and management failure.",
+     "self_check": true
+    },
+    {
+     "q": "Design a village-level water security plan for a semi-arid region in Rajasthan (annual rainfall 400 mm, hard rock terrain) that integrates traditional knowledge (khadins, tankas) with modern techniques (rooftop harvesting, check dams, aquifer recharge). Specify the hydrogeological rationale for each component.",
+     "a": "A strong plan includes: (1) Khadins (earthen embankments on gentle slopes) to capture runoff for moisture conservation — works because hard rock has low infiltration, so surface storage is key; (2) Tankas (underground tanks) for drinking water — bypasses contaminated shallow groundwater; (3) Rooftop harvesting with sand filters recharging abandoned dug wells — targets fracture zones in hard rock for point recharge; (4) Check dams on seasonal streams — increases residence time for percolation into weathered mantle; (5) Community monitoring of water levels — prevents tragedy of commons. A poor answer lists techniques without linking to hard rock hydrogeology (low storage, rapid runoff, fracture-dependent recharge) or ignores social governance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

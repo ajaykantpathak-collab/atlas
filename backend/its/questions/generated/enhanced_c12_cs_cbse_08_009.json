@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_08_009",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_08_009",
+   "title": "c12_cs_cbse_08_009",
+   "questions": [
+    {
+     "q": "What is the time complexity of inserting a node at the beginning of a singly linked list, and why does it not depend on the list length?",
+     "a": "O(1) — insertion at head only requires creating a new node, pointing its `next` to the current head, and updating the head reference. No traversal is needed. A wrong answer like O(n) reveals the student thinks traversal is always required, confusing head insertion with position-based insertion.",
+     "self_check": true
+    },
+    {
+     "q": "In a singly linked list with nodes A → B → C, you want to insert node X between A and B. Explain why you must modify A's `next` pointer *before* modifying X's `next` pointer, and what goes wrong if you reverse the order.",
+     "a": "If you set X.next = A.next first, X points to B. Then setting A.next = X completes the chain A → X → B. If you reverse: A.next = X makes A point to X, but X.next still points to None (or garbage), so B and the rest of the list become unreachable — memory leak and data loss. A wrong answer shows the student doesn't understand pointer dependency order.",
+     "self_check": true
+    },
+    {
+     "q": "Write Python code to delete the node at position 3 (1-indexed) in a singly linked list. Handle the case where the list has fewer than 3 nodes.",
+     "a": "```python\ndef delete_at_position(head, pos):\n    if head is None or pos < 1:\n        return head\n    if pos == 1:\n        return head.next  # delete head\n    curr = head\n    for _ in range(pos - 2):\n        if curr is None:\n            return head  # position exceeds length\n        curr = curr.next\n    if curr is None or curr.next is None:\n        return head\n    curr.next = curr.next.next\n    return head\n```\nA wrong answer that doesn't check `curr.next is None` before `curr.next.next` reveals the student ignores the \"position exceeds list length\" edge case, causing AttributeError.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pointer changes when deleting the *last* node versus deleting the *first* node in a singly linked list of length ≥ 2. Why is tail deletion O(n) while head deletion is O(1)?",
+     "a": "Head deletion: only `head = head.next` — constant time. Tail deletion: must traverse to the second-last node (position n-1) to set its `next = None`, requiring O(n) steps. The asymmetry exists because singly linked lists only have forward pointers — no direct access to the predecessor of the tail. A wrong answer claiming both are O(1) shows the student assumes a `tail` pointer exists or that backward traversal is possible.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this insertion-at-position code:\n```python\ndef insert_at_pos(head, data, pos):\n    new_node = Node(data)\n    if pos == 1:\n        new_node.next = head\n        return new_node\n    curr = head\n    for _ in range(pos - 1):\n        curr = curr.next\n    new_node.next = curr.next\n    curr.next = new_node\n    return head\n```\nIdentify two distinct bugs in this code and explain the scenario each bug breaks.",
+     "a": "Bug 1: Loop runs `pos-1` times instead of `pos-2` — moves `curr` to the *target position* instead of the *node before it*. Breaks when inserting at position 2: `curr` becomes the old head, then `curr.next = new_node` creates a cycle. Bug 2: No check for `curr is None` inside the loop — if `pos > length+1`, `curr` becomes `None` and `curr.next` raises AttributeError. A student missing both bugs hasn't traced pointer positions carefully.",
+     "self_check": true
+    },
+    {
+     "q": "Design a singly linked list operation `insert_sorted(head, data)` that inserts a new node with `data` into a list *already sorted in ascending order* so the list remains sorted. Describe the algorithm in 4-5 steps and state its time complexity.",
+     "a": "Steps: (1) Create new_node. (2) If head is None or data ≤ head.data, insert at head and return new_node. (3) Traverse with `curr = head` while `curr.next` exists and `curr.next.data < data`, moving `curr = curr.next`. (4) Insert: `new_node.next = curr.next; curr.next = new_node`. (5) Return head. Time complexity: O(n) worst case (insert at end), O(1) best case (insert at head). A poor answer that suggests sorting the whole list after insertion reveals the student doesn't leverage the pre-sorted property.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

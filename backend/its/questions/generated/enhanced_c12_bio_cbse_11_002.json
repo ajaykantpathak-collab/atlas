@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_11_002",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_11_002",
+   "title": "c12_bio_cbse_11_002",
+   "questions": [
+    {
+     "q": "Name the type of restriction enzyme most widely used in recombinant DNA technology and state its defining characteristic regarding cleavage position relative to the recognition site.",
+     "a": "Type II restriction enzymes are most widely used in rDNA technology. Their defining characteristic: they cleave DNA *at* or *very close to* their specific recognition sequence (unlike Type I and III which cut far from the recognition site). A wrong answer (e.g., \"Type I\" or \"Type III\") reveals the student cannot distinguish the practical utility of cleavage position — Type I/III cut randomly far away, making them useless for precise gene cloning.",
+     "self_check": true
+    },
+    {
+     "q": "The restriction enzyme EcoRI recognizes the sequence 5'-GAATTC-3'. Write the complementary strand sequence and explain why this sequence is called a palindrome in the context of DNA.",
+     "a": "Complementary strand (3'→5'): CTTAAG. Written 5'→3' on the complementary strand: 5'-GAATTC-3'. It is a palindrome because the 5'→3' sequence on one strand reads *identically* to the 5'→3' sequence on the complementary strand (both are GAATTC). A wrong answer (e.g., writing complementary as AATTCG or saying \"it reads the same backwards\") reveals confusion between DNA palindromes (inverted repeats on opposite strands) and linguistic palindromes (same forwards/backwards on one strand).",
+     "self_check": true
+    },
+    {
+     "q": "A student digests a plasmid vector with EcoRI (5'-G↓AATTC-3') and a gene insert with BamHI (5'-G↓GATCC-3'). Can the insert be ligated directly into the vector? Justify your answer based on end compatibility.",
+     "a": "No. EcoRI produces sticky ends with 5' overhang AATT; BamHI produces sticky ends with 5' overhang GATC. These overhangs are *not complementary* (AATT ≠ GATC), so they cannot base-pair. Direct ligation would be inefficient. The student must use the *same* enzyme for both vector and insert, or use enzymes producing compatible ends (e.g., BamHI and BglII both produce GATC overhangs). A wrong \"yes\" answer reveals the student thinks *any* sticky ends can ligate, ignoring sequence specificity of base-pairing.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cleavage patterns of EcoRI (5'-G↓AATTC-3') and HaeIII (5'-GG↓CC-3'). Classify each as producing sticky or blunt ends, and explain how this difference affects the subsequent ligation step in cloning.",
+     "a": "EcoRI cuts asymmetrically (between G and A) → 5' overhang (AATT) → **sticky ends**. HaeIII cuts symmetrically (between G and C) → no overhang → **blunt ends**. Sticky ends allow directional cloning (insert orientation controlled) and higher ligation efficiency due to base-pairing stabilization. Blunt ends ligate in either orientation (non-directional) with lower efficiency, requiring higher DNA concentration and more ligase. A wrong classification (e.g., calling HaeIII sticky) reveals inability to visualize the phosphodiester bond cleavage geometry.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher claims: \"Since restriction enzymes cut DNA, they must be used *after* PCR amplification to prepare the insert for cloning.\" Evaluate this statement. Is it always true? Provide a counter-example if false.",
+     "a": "The statement is **not always true**. Counter-example: If PCR primers are designed with *restriction sites* at their 5' ends, the amplified product *already contains* the restriction sites. Digestion *after* PCR is then used to create sticky ends for cloning. However, if the vector and insert are both PCR-amplified with compatible restriction sites in primers, restriction digestion is still needed *after* PCR to generate the ends. The error in the claim is the implication that restriction digestion is a separate step *unrelated* to primer design — in modern cloning, restriction sites are often *engineered into primers*. A student who agrees without qualification reveals a rigid, stepwise view of cloning rather than an integrated design perspective.",
+     "self_check": true
+    },
+    {
+     "q": "Design a strategy to clone a 1.2 kb human gene into a plasmid vector such that the insert can *only* ligate in one orientation (directional cloning). Specify two restriction enzymes you would use, their recognition sites, and how you would incorporate them into PCR primers.",
+     "a": "Strategy: Use two *different* restriction enzymes that produce *incompatible* sticky ends. Example: **EcoRI** (5'-G↓AATTC-3', overhang AATT) at the 5' end of the gene, and **HindIII** (5'-A↓AGCTT-3', overhang AGCT) at the 3' end. PCR forward primer: 5'-GAATTC + gene-specific sequence-3' (adds EcoRI site). PCR reverse primer: 5'-AAGCTT + reverse complement of gene 3' end-3' (adds HindIII site). Digest PCR product and vector with *both* EcoRI and HindIII → insert has EcoRI end on one side, HindIII on the other → vector has matching ends → ligation *only* works in one orientation. A poor answer (using same enzyme for both ends, or using blunt-end enzymes) reveals lack of understanding of how sticky-end compatibility controls orientation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

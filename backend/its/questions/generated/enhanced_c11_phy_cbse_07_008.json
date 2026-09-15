@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_07_008",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_07_008",
+   "title": "c11_phy_cbse_07_008",
+   "questions": [
+    {
+     "q": "State the exact formula for the gravitational potential energy of two point masses \\(m_1\\) and \\(m_2\\) separated by distance \\(r\\), including the sign convention. What is its SI unit?",
+     "a": "The formula is \\(U = -\\frac{G m_1 m_2}{r}\\) with the zero of potential energy at \\(r \\to \\infty\\). The SI unit is joule (J). A wrong answer (e.g., missing the negative sign, using \\(U = mgh\\), or stating the unit as newton) reveals the student has not internalized the convention that bound systems have negative potential energy or is confusing the near-Earth approximation with the universal formula.",
+     "self_check": true
+    },
+    {
+     "q": "Two students debate the sign of gravitational potential energy. Student A says: \"Potential energy is always positive because energy is a scalar magnitude.\" Student B says: \"Gravitational potential energy is negative because the force is attractive.\" Who is correct and why? Explain the physical significance of the negative sign.",
+     "a": "Student B is correct. The negative sign arises from the choice of zero at infinite separation. Since gravity is attractive, an external agent must do positive work to separate the masses to infinity, meaning the system's energy at finite separation is lower (more negative) than at infinity. A wrong answer indicates the student treats potential energy as an absolute positive quantity like kinetic energy, not understanding that only differences in potential energy are physically meaningful and the zero point is arbitrary.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the gravitational potential energy of a system consisting of a 5.0 kg mass and a 10.0 kg mass separated by 2.0 m. Use \\(G = 6.67 \\times 10^{-11} \\, \\text{N·m}^2/\\text{kg}^2\\). Express your answer in scientific notation with proper units.",
+     "a": "Given: \\(m_1 = 5.0 \\, \\text{kg}\\), \\(m_2 = 10.0 \\, \\text{kg}\\), \\(r = 2.0 \\, \\text{m}\\), \\(G = 6.67 \\times 10^{-11} \\, \\text{N·m}^2/\\text{kg}^2\\).\nFormula: \\(U = -\\frac{G m_1 m_2}{r}\\)\nSubstitution: \\(U = -\\frac{(6.67 \\times 10^{-11}) \\times 5.0 \\times 10.0}{2.0}\\)\nCalculation: \\(U = -\\frac{3.335 \\times 10^{-9}}{2.0} = -1.6675 \\times 10^{-9} \\, \\text{J}\\)\nRounding to two significant figures: \\(U = -1.7 \\times 10^{-9} \\, \\text{J}\\).\nA wrong answer (e.g., positive sign, missing \\(G\\), unit error) reveals computational carelessness or confusion between the formula for force and potential energy.",
+     "self_check": true
+    },
+    {
+     "q": "A 2 kg satellite is in a circular orbit of radius \\(R\\) around Earth. Its gravitational potential energy is \\(U_1\\). It is then moved to a new circular orbit of radius \\(2R\\). Its potential energy becomes \\(U_2\\). Compare \\(U_1\\) and \\(U_2\\): which is larger (less negative)? By what factor does the magnitude of potential energy change? Explain why the potential energy increases even though the satellite moves to a higher orbit.",
+     "a": "\\(U_1 = -\\frac{GM_Em}{R}\\), \\(U_2 = -\\frac{GM_Em}{2R} = \\frac{1}{2}U_1\\). Since \\(U_1\\) is negative, \\(U_2\\) is less negative (e.g., \\(-10 \\, \\text{J}\\) vs \\(-5 \\, \\text{J}\\)), so \\(U_2 > U_1\\). The magnitude of potential energy halves. Potential energy increases (becomes less negative) because work is done by an external agent (rocket thrust) to move the satellite against gravity, adding energy to the system. A wrong answer (e.g., saying \\(U_2\\) is more negative) shows the student thinks \"higher orbit = more negative\" by incorrectly applying \\(mgh\\) logic where \\(h\\) increases.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a problem: \"Find the change in gravitational potential energy when a 1 kg mass is lifted from Earth's surface (\\(R_E = 6400 \\, \\text{km}\\)) to a height \\(h = 6400 \\, \\text{km}\\).\" The student uses \\(\\Delta U = mgh\\) with \\(g = 9.8 \\, \\text{m/s}^2\\) and gets \\(\\Delta U = 6.27 \\times 10^7 \\, \\text{J}\\). Evaluate this solution. Is it correct? If not, what is the correct approach and approximate correct value?",
+     "a": "The solution is incorrect because \\(h = R_E\\) is not \"small compared to \\(R_E\\)\"; the approximation \\(g = \\text{constant}\\) fails. The correct approach uses the exact formula: \\(\\Delta U = GM_Em\\left(\\frac{1}{R_E} - \\frac{1}{R_E+h}\\right)\\). With \\(h = R_E\\), \\(\\Delta U = GM_Em\\left(\\frac{1}{R_E} - \\frac{1}{2R_E}\\right) = \\frac{GM_Em}{2R_E} = \\frac{1}{2}mgR_E\\). Using \\(g = 9.8\\), \\(R_E = 6.4 \\times 10^6 \\, \\text{m}\\), correct \\(\\Delta U \\approx 3.14 \\times 10^7 \\, \\text{J}\\). The student's answer is twice the correct value. A wrong evaluation indicates the student does not recognize the domain of validity for the \\(mgh\\) approximation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple thought experiment or graphical method to demonstrate that the gravitational potential energy between two masses varies as \\(1/r\\), not as \\(1/r^2\\) (like force). Your explanation must be understandable to a Class 11 student without using calculus.",
+     "a": "A good answer: Plot the gravitational force \\(F\\) vs \\(r\\) (hyperbola \\(1/r^2\\)) and the potential energy \\(U\\) vs \\(r\\) (hyperbola \\(1/r\\)) on the same graph for \\(r > 0\\). Show that the area under the \\(F-r\\) curve from \\(r_1\\) to \\(r_2\\) (work done) equals \\(U(r_2) - U(r_1)\\). Alternatively, use the fact that work done \\(W = \\int F \\, dr\\); since \\(F \\propto 1/r^2\\), its integral is \\(\\propto -1/r\\). A poor answer (e.g., \"force and energy both depend on \\(r\\) so they are the same\") reveals the student confuses the functional forms of force and its integral.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

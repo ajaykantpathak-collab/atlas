@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_05_009",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_05_009",
+   "title": "c12_biotech_cbse_05_009",
+   "questions": [
+    {
+     "q": "Define \"genome annotation\" and list the two broad categories of computational gene prediction methods.",
+     "a": "Genome annotation is the process of identifying gene locations and assigning functions in a sequenced genome. The two broad categories are *ab initio* (intrinsic, based on sequence signals alone) and homology-based (extrinsic, using similarity to known genes/proteins). A wrong answer that says \"annotation is just BLAST\" reveals the misconception that homology is the only method; a wrong answer that lists \"PCR and sequencing\" confuses wet-lab with computational steps.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a long open reading frame (ORF) alone is insufficient evidence to annotate a gene in a eukaryotic genome. Include at least two specific eukaryotic features that complicate ORF-based prediction.",
+     "a": "In eukaryotes, genes contain introns, so a genomic ORF spanning an intron will be interrupted by stop codons in the unspliced sequence, breaking the ORF. Also, eukaryotic genomes have many spurious long ORFs by chance (non-coding ORFs) and alternative splicing creates multiple ORFs from one locus. A wrong answer that says \"ORFs are enough because start/stop codons define genes\" ignores splicing and non-coding ORFs — a classic board-exam error.",
+     "self_check": true
+    },
+    {
+     "q": "A student runs GeneMark (ab initio) and BLASTX against UniProt on a 100 kb fungal genomic region. GeneMark predicts 12 genes; BLASTX finds significant hits (E-value < 1e-10) for only 7 of them. The student discards the 5 without hits as false positives. Critique this decision.",
+     "a": "The decision is flawed. The 5 predictions without homology hits could be: (i) species-specific genes (orphan genes) with no homologs in current databases; (ii) rapidly evolving genes where similarity is below detection threshold; (iii) non-coding RNA genes not captured by protein BLASTX. Discarding them loses real biology. Correct approach: flag them as \"hypothetical proteins\" and seek support from RNA-seq, conservation in related strains, or domain scans. A wrong answer that says \"no hit = not a gene\" shows the homology-only misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of Pfam domain architecture versus full-length BLASTP identity in assigning molecular function to a predicted protein. Give a concrete scenario where they give conflicting clues.",
+     "a": "BLASTP identity reflects overall sequence similarity and is strong for orthologs with conserved full-length function. Pfam detects conserved domains even in multi-domain proteins where domain shuffling occurred. Conflict example: Protein X has 35% identity to a known kinase (BLASTP hit) but Pfam reveals a kinase domain *plus* a DNA-binding domain absent in the hit. The protein may be a novel kinase-transcription factor fusion. Assigning only \"kinase activity\" from BLASTP misses the regulatory role. A wrong answer that treats BLASTP top hit as definitive function ignores domain-level modularity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Gene Ontology (GO) annotations transferred from a BLAST hit with 40% identity over 80% query coverage are reliable for all three GO aspects (Molecular Function, Biological Process, Cellular Component).\"",
+     "a": "The statement is unreliable. Molecular Function (MF) transfers relatively well at 40% identity if the active site residues are conserved. Biological Process (BP) and Cellular Component (CC) are context-dependent: a protein may retain enzymatic activity (MF) but participate in a different pathway (BP) or localize differently (CC) in the new species. Best practice: use phylogeny-based inference (e.g., PANTHER) or require experimental evidence codes (EXP, IDA) for BP/CC. A wrong answer that says \"40% is high, so all GO terms transfer\" ignores the hierarchical and context-sensitive nature of GO.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-pipeline (4-5 steps) to annotate a newly assembled bacterial genome (5 Mb) from raw contigs to a final GFF3 file with functional descriptions. Name one specific tool/database per step.",
+     "a": "1. **Structural annotation**: Run **Prodigal** (ab initio, optimized for bacteria/archaea) on contigs → gene coordinates (CDS, rRNA, tRNA). 2. **Functional annotation — similarity**: **BLASTP** predicted proteins vs **UniProtKB/Swiss-Prot** (curated) → top hit descriptions. 3. **Domain annotation**: **InterProScan** (integrates Pfam, TIGRFAM, etc.) → domain architectures, GO terms. 4. **Pathway mapping**: **BlastKOALA** (KEGG) → KO IDs, metabolic pathways. 5. **Integration**: **AGAT** or custom script to merge GFF3 from Prodigal with functional attributes → final annotated GFF3. A poor answer lists tools without logical order (e.g., BLAST before gene prediction) or omits integration.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

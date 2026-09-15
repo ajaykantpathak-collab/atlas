@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_06_008",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_06_008",
+   "title": "c12_bio_cbse_06_008",
+   "questions": [
+    {
+     "q": "Name the three structural genes of the lac operon and the specific enzyme each encodes.",
+     "a": "Correct: lacZ encodes β-galactosidase (cleaves lactose to glucose + galactose), lacY encodes lactose permease (transports lactose into cell), lacA encodes thiogalactoside transacetylase (detoxifies non-metabolizable lactose analogs). A wrong answer (e.g., \"lacZ makes permease\" or missing lacA) reveals confusion between gene identity and enzyme function — a common board exam error where students swap Z and Y roles or omit lacA entirely, losing 1-2 marks in diagram-labeling questions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the lac repressor protein binds to the operator in the absence of lactose but releases when allolactose is present. Include the structural change involved.",
+     "a": "Correct: The lacI gene product (repressor) has two domains — an N-terminal DNA-binding domain (helix-turn-helix) that recognizes the operator sequence, and a C-terminal allosteric domain that binds allolactose. Without inducer, the repressor dimer binds operator, physically blocking RNA polymerase progression. Allolactose binding induces a conformational change that reduces DNA-binding affinity ~1000-fold, causing repressor release. A wrong answer stating \"lactose binds repressor directly\" (instead of allolactose) or \"repressor degrades\" reveals misunderstanding of allosteric regulation and the role of β-galactosidase in producing the true inducer — a NEET trap where 60% of students choose \"lactose\" as the inducer in MCQs.",
+     "self_check": true
+    },
+    {
+     "q": "Predict the relative expression level of lac genes (high/low/zero) in *E. coli* grown in: (a) glucose only, (b) lactose only, (c) glucose + lactose, (d) neither sugar. Justify each prediction using both regulatory mechanisms.",
+     "a": "Correct: (a) Glucose only: LOW — repressor bound (no allolactose), CAP-cAMP absent (high glucose → low cAMP). (b) Lactose only: HIGH — allolactose removes repressor, low glucose → high cAMP → CAP-cAMP activates transcription. (c) Glucose + lactose: LOW — allolactose removes repressor BUT high glucose → low cAMP → no CAP-cAMP activation (catabolite repression). (d) Neither: ZERO — repressor bound, no CAP-cAMP. A wrong answer predicting HIGH in (c) reveals failure to integrate positive control — students often think \"lactose present = operon ON\" ignoring glucose override. This is the #1 board exam error in case-based questions on lac operon.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the lac operon (inducible) and trp operon (repressible) in terms of: (i) default state, (ii) effector molecule, (iii) effector action on repressor, (iv) metabolic logic.",
+     "a": "Correct: (i) lac default OFF (repressor bound), trp default ON (repressor inactive). (ii) lac effector = allolactose (inducer), trp effector = tryptophan (corepressor). (iii) allolactose INACTIVATES repressor → transcription ON; tryptophan ACTIVATES repressor → transcription OFF. (iv) lac: catabolic pathway — make enzymes only when substrate available; trp: anabolic pathway — make enzymes only when end product scarce. A wrong answer reversing the default states or calling tryptophan an \"inducer\" shows lack of conceptual framework for negative feedback vs. substrate induction — a frequent 3-mark board question where students lose marks for incomplete comparison tables.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"CAP-cAMP complex binds to the lac promoter and directly recruits RNA polymerase, so it is a transcription factor.\" Evaluate this statement. Is CAP-cAMP a transcription factor? Explain the precise molecular mechanism.",
+     "a": "Correct evaluation: The statement is PARTIALLY correct but imprecise. CAP-cAMP IS a transcription factor (activator), but it binds to the CAP site (upstream of promoter, centered at -61.5), NOT the promoter itself. It recruits RNA polymerase via protein-protein interaction between CAP's activating region 1 (AR1) and the α-subunit C-terminal domain (α-CTD) of RNA polymerase, stabilizing the closed complex and promoting isomerization to open complex. A wrong answer saying \"CAP binds promoter\" or \"CAP works without RNA polymerase\" reveals confusion between promoter-proximal elements and upstream activating sequences — a JEE Advanced level distinction where precise binding site location matters for footprinting assay interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a genetic experiment using *E. coli* mutants to prove that the lacI gene product acts in trans (diffusible) while the operator acts in cis (DNA-bound). Specify the genotypes, expected phenotypes, and conclusion.",
+     "a": "Good answer criteria: Use partial diploids (F' plasmids). Test 1: F' lacI⁺ lacO⁺ lacZ⁺ / lacI⁻ lacO⁺ lacZ⁻ → if lacZ expressed only when inducer added, lacI⁺ acts in trans (repressor diffuses). Test 2: F' lacI⁺ lacOᶜ lacZ⁺ / lacI⁺ lacO⁺ lacZ⁻ → if lacZ on chromosome (O⁺) is inducible but plasmid (Oᶜ) is constitutive, operator acts in cis (Oᶜ mutation only affects linked genes). Conclusion: Trans-acting factor = diffusible protein; cis-acting element = DNA sequence. A poor answer using only haploid mutants or not distinguishing cis/trans reveals inability to design complementation tests — a standard molecular genetics approach tested in CUET and NEET.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

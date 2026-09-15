@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_09_007",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_09_007",
+   "title": "c12_math_cbse_09_007",
+   "questions": [
+    {
+     "q": "State the integrating factor for the differential equation \\(\\frac{dy}{dx} + \\frac{2}{x}y = x^2\\) (where \\(x > 0\\)).",
+     "a": "The integrating factor is \\(e^{\\int \\frac{2}{x} dx} = e^{2 \\ln x} = x^2\\). A wrong answer like \\(e^{2x}\\) or \\(2 \\ln x\\) reveals the student does not know how to integrate \\(\\frac{2}{x}\\) or misapplies the exponential-logarithm relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the equation \\(\\frac{dy}{dx} + y^2 = x\\) is NOT a linear differential equation, even though it has \\(\\frac{dy}{dx}\\) and \\(y\\) terms.",
+     "a": "The term \\(y^2\\) makes the equation nonlinear because the dependent variable \\(y\\) appears with power 2. In a linear DE, \\(y\\) and its derivatives must appear only to the first power and not multiplied together. A student who says \"it has \\(y^2\\) so it's nonlinear\" but cannot articulate the exact condition (first power, no products) shows a superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Find the general solution of \\(\\frac{dy}{dx} + y \\tan x = \\sec x\\) for \\(0 < x < \\frac{\\pi}{2}\\).",
+     "a": "**Step 1:** Identify \\(P = \\tan x\\), \\(Q = \\sec x\\).  \n**Step 2:** Integrating factor \\(= e^{\\int \\tan x \\, dx} = e^{\\ln \\sec x} = \\sec x\\).  \n**Step 3:** Multiply: \\(\\sec x \\frac{dy}{dx} + y \\sec x \\tan x = \\sec^2 x\\).  \n**Step 4:** Left side is \\(\\frac{d}{dx}(y \\sec x)\\). Integrate: \\(y \\sec x = \\int \\sec^2 x \\, dx = \\tan x + C\\).  \n**Step 5:** \\(y = \\sin x + C \\cos x\\).  \nA wrong answer like \\(y = \\tan x + C\\) reveals the student forgot to divide by the integrating factor after integration.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the solution processes for \\(\\frac{dy}{dx} + Py = Q\\) and \\(\\frac{dx}{dy} + P_1x = Q_1\\). What is the structural similarity and the key difference in the formula?",
+     "a": "Both use an integrating factor: for the first, \\(\\text{I.F.} = e^{\\int P \\, dx}\\) and solution is \\(y \\cdot \\text{I.F.} = \\int Q \\cdot \\text{I.F.} \\, dx + C\\); for the second, \\(\\text{I.F.} = e^{\\int P_1 \\, dy}\\) and solution is \\(x \\cdot \\text{I.F.} = \\int Q_1 \\cdot \\text{I.F.} \\, dy + C\\). The similarity is the method; the difference is the variable of integration and which variable is treated as dependent. A student who writes the same formula for both (e.g., always integrating with respect to \\(x\\)) shows they haven't grasped the role reversal.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves \\(\\frac{dy}{dx} + \\frac{y}{x} = x\\) and writes: \\(\\text{I.F.} = e^{\\int \\frac{1}{x} dx} = e^{\\ln x} = x\\). Then \\(y \\cdot x = \\int x \\cdot x \\, dx = \\frac{x^3}{3} + C\\), so \\(y = \\frac{x^2}{3} + C\\). Is this correct? If not, identify the error.",
+     "a": "The solution is incorrect. The error is in the final step: \\(y = \\frac{x^2}{3} + \\frac{C}{x}\\), not \\(y = \\frac{x^2}{3} + C\\). The constant \\(C\\) must also be divided by the integrating factor \\(x\\). A student who misses this reveals they treat the constant as an additive term after division, not understanding that the constant comes from the indefinite integral before dividing by I.F.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world problem (in Indian context) that leads to a linear differential equation of the form \\(\\frac{dy}{dx} + Py = Q\\) with \\(P\\) and \\(Q\\) as non-constant functions of \\(x\\). Write the differential equation and define all variables.",
+     "a": "Example: A cylindrical water tank of cross-sectional area \\(A = 2 \\, \\text{m}^2\\) has water flowing in at a rate of \\(10 \\, \\text{m}^3/\\text{h}\\) and leaking out through a hole at a rate proportional to the square root of the water height \\(h\\). However, to keep it linear, assume the leak rate is proportional to \\(h\\) (e.g., viscous flow). Let \\(h(t)\\) be height in metres at time \\(t\\) hours. Inflow rate = \\(10/A = 5 \\, \\text{m/h}\\). Outflow rate = \\(k h\\) with \\(k = 0.2 \\, \\text{h}^{-1}\\). Then \\(\\frac{dh}{dt} = 5 - 0.2h\\) or \\(\\frac{dh}{dt} + 0.2h = 5\\). Here \\(P = 0.2\\), \\(Q = 5\\) (constants). For non-constant \\(P, Q\\): Suppose the inflow rate varies as \\(10 + 2t\\) and the leak coefficient varies as \\(0.1 + 0.05t\\). Then \\(\\frac{dh}{dt} + (0.1+0.05t)h = 5 + t\\). A poor answer gives constant \\(P, Q\\) or a nonlinear equation, showing the student cannot translate a varying-rate scenario into the linear form.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_01_008",
+   "title": "c10_chem_cbse_01_008",
+   "questions": [
+    {
+     "q": "Define a redox reaction and state what happens to the oxidising agent and the reducing agent during the reaction.",
+     "a": "A redox reaction is a reaction in which oxidation and reduction occur simultaneously. The oxidising agent gains electrons and gets reduced; the reducing agent loses electrons and gets oxidised. If a student says the oxidising agent gets oxidised or the reducing agent gets reduced, they have confused the roles — the agent is named for what it *does to the other substance*, not what happens to itself.",
+     "self_check": true
+    },
+    {
+     "q": "In the reaction: CuO(s) + H₂(g) → Cu(s) + H₂O(l), identify which substance is oxidised and which is reduced. Explain why this reaction is a redox reaction.",
+     "a": "Hydrogen (H₂) is oxidised (oxidation state 0 → +1 in H₂O) and copper(II) oxide (CuO) is reduced (Cu oxidation state +2 → 0). It is a redox reaction because oxidation and reduction occur simultaneously — hydrogen loses electrons which are gained by copper(II) ions. A wrong answer (e.g., saying CuO is oxidised) shows the student cannot track oxidation state changes or confuses the direction of electron transfer.",
+     "self_check": true
+    },
+    {
+     "q": "Write the two half-reactions for the reaction: Zn(s) + CuSO₄(aq) → ZnSO₄(aq) + Cu(s). Show the electron transfer explicitly.",
+     "a": "Oxidation half-reaction: Zn(s) → Zn²⁺(aq) + 2e⁻  \nReduction half-reaction: Cu²⁺(aq) + 2e⁻ → Cu(s)  \nElectrons lost by zinc (2e⁻) equal electrons gained by copper(II) ions. If a student writes Zn → Zn²⁺ + e⁻ (wrong electron count) or swaps the half-reactions, they have not applied the concept of balancing charge and atom conservation in half-reactions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reactions:  \n(i) 2Mg(s) + O₂(g) → 2MgO(s)  \n(ii) Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g)  \nIn which reaction does the same element undergo both oxidation and reduction? Justify your answer.",
+     "a": "Neither reaction shows disproportionation (same element oxidised and reduced). In (i), Mg is oxidised (0 → +2) and O is reduced (0 → -2). In (ii), Mg is oxidised (0 → +2) and H is reduced (+1 → 0). If a student claims Mg is both oxidised and reduced in either reaction, they misunderstand that disproportionation requires the *same element* in the *same reactant* to change in both directions — a concept not in Class 10 but a common confusion.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following for the reaction Fe(s) + CuSO₄(aq) → FeSO₄(aq) + Cu(s):  \n\"Fe is the oxidising agent because it reacts with CuSO₄.\"  \nEvaluate this statement and correct it.",
+     "a": "The statement is incorrect. Fe is the reducing agent (it loses electrons: Fe → Fe²⁺ + 2e⁻) and Cu²⁺ (in CuSO₄) is the oxidising agent (it gains electrons: Cu²⁺ + 2e⁻ → Cu). The student confused the agent's name with its role — the reducing agent *causes* reduction of the other species by itself getting oxidised. This error reveals a fundamental mix-up of definitions from the previous node.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple activity using materials available in a school laboratory to demonstrate that oxidation and reduction occur simultaneously in the reaction between copper turnings and concentrated sulfuric acid. List the observations that would confirm simultaneous electron transfer.",
+     "a": "Heat copper turnings with conc. H₂SO₄ in a test tube. Observations: blue-green solution forms (Cu²⁺ from Cu → Cu²⁺ + 2e⁻), colourless gas with choking smell evolves (SO₂ from H₂SO₄ + 2H⁺ + 2e⁻ → SO₂ + 2H₂O), and the solution turns blue due to Cu²⁺. The simultaneous gas evolution and colour change confirm both half-reactions occur together. A poor answer would only note one observation (e.g., only gas) and miss the simultaneous nature.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_17_004",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_17_004",
+   "title": "c11_ps_cbse_17_004",
+   "questions": [
+    {
+     "q": "What is the constitutional article that mandates the three-tier Panchayati Raj structure in every State (with exceptions for small States)?",
+     "a": "Article 243B of the Constitution, inserted by the 73rd Amendment Act, 1992, mandates a three-tier structure of Panchayats at village, intermediate, and district levels in every State. A wrong answer (e.g., Article 40 or Article 243) reveals confusion between Directive Principles and the actual constitutional mandate, or between the amendment article and the operative article.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution allow States with a population below 20 lakhs to have only two tiers (village and district) instead of three?",
+     "a": "The 73rd Amendment (Article 243B) exempts smaller States from creating an intermediate tier because the administrative scale does not justify an extra layer; this avoids unnecessary bureaucracy and cost. A wrong answer (e.g., \"because the Centre decides\" or \"to give more power to districts\") shows misunderstanding of the constitutional flexibility built into the amendment for administrative viability.",
+     "self_check": true
+    },
+    {
+     "q": "A Gram Panchayat wants to build a community hall but the land belongs to the Forest Department. Which tier should the Gram Panchayat approach for inter-departmental coordination, and why?",
+     "a": "The Gram Panchayat should approach the Panchayat Samiti (block level) because it coordinates development activities across multiple Gram Panchayats and liaises with State government departments like Forest, Revenue, and PWD. A wrong answer (e.g., \"go directly to Zilla Parishad\" or \"contact the MLA\") reveals ignorance of the intermediate tier's coordination role and the principle of resolving issues at the nearest appropriate level.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the election of the Chairperson (Adhyaksha) of Zilla Parishad with that of the Sarpanch of Gram Panchayat. What is the key difference in their election method?",
+     "a": "The Sarpanch is directly elected by the voters of the Gram Panchayat area (in most States), whereas the Zilla Parishad Chairperson is indirectly elected by and from among the directly elected members of the Zilla Parishad. A wrong answer (e.g., \"both are directly elected\" or \"both are nominated\") indicates confusion between direct and indirect election methods across tiers.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The three-tier system ensures that every rural citizen has exactly three elected representatives — one at each tier — who are accountable to them.\"",
+     "a": "The statement is partially incorrect. A citizen votes directly for Gram Panchayat members and Sarpanch, and for Panchayat Samiti and Zilla Parishad members from territorial constituencies. However, the Chairpersons of Panchayat Samiti and Zilla Parishad are indirectly elected by the members, not directly by citizens. Also, a citizen does not vote for representatives of other tiers outside their constituency. A wrong evaluation (e.g., \"fully correct\") shows lack of clarity on direct vs indirect elections and constituency boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph proposal for a State government arguing why the intermediate tier (Panchayat Samiti) should be retained even in a small State with population just above 20 lakhs, citing functional and democratic reasons.",
+     "a": "A good answer cites: (1) Panchayat Samiti aggregates village plans into block-level plans for economies of scale in procurement and technical staff (engineers, agriculture officers); (2) it provides a democratic linkage for Gram Panchayats to access State schemes without bypassing local priorities; (3) it serves as a training ground for leadership. A poor answer (e.g., \"it's in the Constitution so we must keep it\") shows inability to articulate functional and democratic justifications beyond legal compliance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

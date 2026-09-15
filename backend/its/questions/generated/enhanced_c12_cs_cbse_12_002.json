@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_12_002",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_12_002",
+   "title": "c12_cs_cbse_12_002",
+   "questions": [
+    {
+     "q": "A student writes: \"A worm is a type of virus that spreads faster.\" Is this statement correct? Answer in one sentence.",
+     "a": "**Correct answer:** No, a worm is fundamentally different from a virus because it is a standalone program that self-replicates without needing a host file or human execution, whereas a virus attaches to executable files and requires user action to propagate.  \n**What a wrong answer reveals:** If the student agrees or says \"worms are just faster viruses\", they conflate propagation speed with propagation *mechanism*. This misconception leads to incorrect classification in scenario-based questions (e.g., labeling a network-propagating standalone malware as a virus). The NCERT explicitly states: \"unlike a virus, a worm does not need a host program or software to insert its code into.\"",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a Trojan horse is **not** considered a virus or a worm, even though it can cause similar damage.",
+     "a": "**Correct answer:** A Trojan does not self-replicate — it spreads only through user deception (e.g., disguising as legitimate software). Viruses and worms both self-replicate (viruses via host files, worms independently), but a Trojan relies entirely on social engineering for distribution and has no autonomous replication capability.  \n**What a wrong answer reveals:** If the student says \"Trojans are viruses because they destroy data\" or \"Trojans spread like worms\", they focus on *payload* (damage) rather than *propagation behavior*. This is a classic board-exam error: NCERT marks allocation for \"difference between virus and trojan\" specifically requires mentioning \"Trojan does not self-replicate\" and \"spreads through user interaction\".",
+     "self_check": true
+    },
+    {
+     "q": "A company's IT team discovers a malware that: (a) encrypts all database files, (b) displays a ransom note demanding ₹50,000 in cryptocurrency, (c) spreads to other servers in the same network by exploiting an unpatched SMB vulnerability, and (d) does not require any user to open a file. Classify this malware and justify your classification using **two** distinguishing features.",
+     "a": "**Correct answer:** This is **ransomware with worm-like propagation** (e.g., WannaCry).  \n**Justification:**  \n1. **Payload:** Encrypts data and demands ransom → defining characteristic of ransomware.  \n2. **Propagation:** Exploits network vulnerability (SMB) to spread automatically without user interaction → worm-like behavior (self-replicating, network-aware).  \n**What a wrong answer reveals:** If the student classifies it solely as \"worm\" (ignoring ransom payload) or solely as \"ransomware\" (ignoring autonomous spread), they miss the **hybrid nature** common in modern threats. Competitive exams (JEE/CUET) often test such composites; board exams award partial marks only if both features are explicitly linked to the correct categories.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast **Spyware** and **Keylogger** in terms of: (i) scope of data collected, (ii) typical installation vector, and (iii) primary monetization method. Present your answer as a 3-row table.",
+     "a": "**Correct answer:**\n\n| Aspect | Spyware | Keylogger |\n|--------|---------|-----------|\n| **Scope of data** | Broad: browsing habits, cookies, form data, credentials, system info | Narrow: only keystrokes (passwords, messages, searches) |\n| **Installation vector** | Often bundled with free software, drive-by downloads, malicious ads | Often via Trojan dropper, phishing attachment, or hardware device |\n| **Monetization** | Selling aggregated user profiles to advertisers/data brokers | Direct theft (banking credentials, crypto wallets) or selling logs on dark web |\n\n**What a wrong answer reveals:** If the student equates spyware and keylogger (\"both steal passwords\"), they miss the **granularity distinction** critical for board questions like \"How does spyware differ from a keylogger?\" (NCERT lists them as separate subsections). Also, confusing installation vectors (e.g., saying keyloggers come only from hardware) shows lack of awareness of software keyloggers delivered via Trojans.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following claim: \"Using an online virtual keyboard completely eliminates the risk of keylogger-based password theft.\" Defend or refute with **two** technical reasons.",
+     "a": "**Correct answer:** **Refute.**  \n1. **Hardware keyloggers** (physical devices inserted between keyboard and CPU) capture keystrokes at the hardware level, bypassing any software keyboard.  \n2. **Advanced malware** can take screenshots on each mouse click, log clipboard content, or hook into the browser's DOM to read input fields — rendering virtual keyboards ineffective.  \n**What a wrong answer reveals:** If the student agrees, they overestimate a single countermeasure and ignore **defense-in-depth** principle. Board exams often ask \"Is virtual keyboard a foolproof solution?\" expecting \"No, because hardware keyloggers and screen-scraping malware exist.\" This tests understanding that security is layered, not binary.",
+     "self_check": true
+    },
+    {
+     "q": "Create a **new, realistic malware scenario** (2-3 sentences) that combines characteristics of **Trojan** and **Spyware** but is **neither a virus nor a worm**. Explain why your scenario fits this hybrid classification.",
+     "a": "**Expected answer (example):**  \n\"A free 'PDF Converter' app downloaded from a third-party site installs silently and records all clipboard content (copied passwords, crypto addresses) and browsing history, uploading them to a remote server every hour. It does not replicate to other files or spread across the network.\"  \n**Classification justification:**  \n- **Trojan aspect:** Masquerades as legitimate utility (PDF converter), tricks user into installing.  \n- **Spyware aspect:** Covertly collects sensitive data (clipboard, history) and exfiltrates it.  \n- **Not a virus:** Does not attach to executable files.  \n- **Not a worm:** Does not self-propagate via network.  \n**What a poor answer reveals:** If the scenario includes self-replication or network propagation, the student hasn't internalized the **defining boundaries** of each category. A good answer demonstrates ability to *synthesize* a hybrid threat while respecting taxonomic boundaries — a skill tested in competency-based board questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_16_011",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_16_011",
+   "title": "c11_hin_ar_cbse_16_011",
+   "questions": [
+    {
+     "q": "Identify the samas (compound type) in \"vkcks&gok\" and \"vD[kM+iu\" from the poem's vocabulary list, and state the meaning of each compound as given in the 'kCn&Nfo section.",
+     "a": "vkcks&gok is a Tatpurusha samas (tyok;q + gok = tyok;q dk gok) meaning \"deep darkness of the riverbank/shore\". vD[kM+iu is a Karmadharaya samas (vD[k + M+iu = fdlh ckr dks ysdj #[kkbZ ls ru tkus dk Hkko) meaning \"obsessive clinging to something\". A wrong answer reveals the student cannot distinguish between compound types or relies on literal word-for-word translation instead of the idiomatic meanings provided in the textbook.",
+     "self_check": true
+    },
+    {
+     "q": "In the line \"Hkhrj dh vkx / èkuq\"k dh Mksjh\", explain why the poet uses the genitive case (dh) for both \"Hkhrj\" and \"èkuq\"k\" instead of the instrumental case (se). What relationship does \"dh\" establish that \"se\" would not?",
+     "a": "The genitive \"dh\" establishes possession/origin — hatred *possesses* poison, selfishness *possesses* a mosquito-like sting — making these qualities intrinsic to the abstract nouns. Instrumental \"se\" would imply the poison comes *from* hatred as an external agent, weakening the metaphor of inherent corruption. A wrong answer shows the student treats case endings as interchangeable markers rather than semantic choices that shape metaphorical meaning.",
+     "self_check": true
+    },
+    {
+     "q": "The poem lists negative images in the first half (Hkhrj, èkuq\"k, rhj, oqQYgkM+h, taxy) and positive images in the second half (ufn;ksa, igkM+ksa, xhrksa, fe^h, iQlyksa). Identify the grammatical pattern that structures both lists and explain how this parallel syntax serves the poem's argument.",
+     "a": "Both lists use the pattern [Abstract Noun] + [Genitive 'dh/ki/ki'] + [Concrete Noun] — e.g., \"Hkhrj dh vkx\", \"ufn;ksa dh fueZyrk\". This parallelism creates structural equivalence between societal evils and virtues, suggesting they occupy the same grammatical (and moral) space — the choice between them is a matter of conscious selection. A wrong answer misses the syntactic parallelism or treats the lists as mere vocabulary catalogues rather than a grammatical enactment of moral choice.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the imperative construction \"vkvks] feydj cpk,¡\" (Come, let's awaken). Why does the poet use the conjunctive participle \"feydj\" (having awakened) + imperative \"cpk,¡\" instead of a simple imperative \"cpk,¡\" alone? What temporal and agency implications does this structure carry?",
+     "a": "\"feydj cpk,¡\" creates a sequential imperative: first *awaken yourselves* (feydj), *then* awaken others (cpk,¡). The conjunctive participle makes self-awakening a prerequisite for collective action, encoding the poem's philosophy that social change begins with individual conscience. A simple \"cpk,¡\" would imply simultaneous or undifferentiated action. A wrong answer treats \"feydj\" as mere emphasis or ignores the sequential logic of conjunctive participles in Hindi imperatives.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the poet's choice to use Tatsama-heavy vocabulary (vkcks&gok, vD[kM+iu, tq>k:iu, lksaèkkiu, mEehn) alongside Tadbhava words (Hkhrj, èkuq\"k, rhj, oqQYgkM+h, taxy). Does this register mixing strengthen or weaken the poem's accessibility and authority? Justify with two specific examples.",
+     "a": "The mixing strengthens both: Tatsama compounds (vD[kM+iu, tq>k:iu) lend philosophical precision to abstract psychological states, while Tadbhava words (Hkhrj, rhj) ground visceral evils in everyday speech. Example 1: \"vD[kM+iu\" (Sanskrit-rooted) names a complex psychological attachment that \"lalach\" cannot capture. Example 2: \"Hkhrj\" (Tadbhava) evokes raw, bodily hatred more viscerally than \"dvesha\". A wrong answer either privilees one register as \"better\" or fails to link register choice to specific semantic gaps in the other register.",
+     "self_check": true
+    },
+    {
+     "q": "Write four lines of poetry in Hindi that use the same [Abstract Noun + Genitive + Concrete Noun] pattern as the poem, but on the theme of \"digital addiction among youth\". Use at least one Tatsama compound and one Tadbhava word.",
+     "a": "Example answer:\n\"scLs dh gVk / iSj dh nqfu;k\nfMftVy dh vkx / lqUnj dh Mksjh\"\nA strong answer maintains the exact grammatical template, contrasts a Tatsama compound (scLs, fMftVy) with Tadbhava words (iSj, lqUnj), and maps the poem's moral anatomy onto a contemporary issue. A weak answer breaks the pattern, uses only one register, or treats the exercise as free verse without grammatical constraint.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,319 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 111,
+ "chapter_title": "Direct and Inverse Proportions: Introduction",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hemh110.txt",
+ "concepts": [
+  {
+   "id": "hemh.111.1.1",
+   "title": "Identifying Direct and Inverse Variation",
+   "section": "11.1",
+   "definition": "Analyzing real-life situation data pairs to establish whether an increase in one variable leads to a proportional change in another.",
+   "formula": "direct: x/y = k, inverse: x*y = k",
+   "key_idea": "Direct variation requires a constant ratio between quantities, whereas inverse variation requires a constant product.",
+   "textbook_ref": "hemh111.txt lines 10-60",
+   "question_patterns": [
+    "determine whether the given quantities vary directly or inversely",
+    "check if the relationship between parking time and charges is in direct proportion",
+    "identify if the speed of a car and time taken are inversely proportional",
+    "examine whether the area of land and crop harvested are directly proportional",
+    "verify if the number of workers and time taken to complete a job are inversely proportional"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate constant criterion",
+     "explain": "Calculate the ratio x/y for direct variation or product x*y for inverse variation across data pairs."
+    },
+    {
+     "step": 2,
+     "action": "compare values across entries",
+     "explain": "Check if the computed values remain constant for all corresponding data pairs in the table."
+    },
+    {
+     "step": 3,
+     "action": "conclude the variation type",
+     "explain": "If the ratio x/y is constant, the quantities are in direct proportion; if the product x*y is constant, they are in inverse proportion."
+    }
+   ]
+  },
+  {
+   "id": "hemh.111.2.1",
+   "title": "Direct Proportion Quantity Calculation",
+   "section": "11.2",
+   "definition": "Determining an unknown value of a variable when two quantities maintain a fixed ratio across changes.",
+   "formula": "y2 = (x2 * y1) / x1",
+   "key_idea": "In direct proportion, the quotient of corresponding values remains invariant.",
+   "textbook_ref": "hemh111.txt lines 65-150",
+   "question_patterns": [
+    "calculate the cost of cloth for a given length using direct proportion",
+    "find the height of a tree casting a shadow of known length",
+    "how many sheets of paper will weigh a given mass in grams",
+    "determine the distance travelled by a train in a given time at uniform speed",
+    "what is the number of bottles filled in a specified time by a machine"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "cross multiply known values",
+     "explain": "Multiply the second value of the first variable by the first value of the second variable.",
+     "compute": "prod = x2 * y1"
+    },
+    {
+     "step": 2,
+     "action": "divide by initial quantity",
+     "explain": "Divide the cross product by the initial quantity of the first variable to obtain the target value.",
+     "compute": "y2 = prod / x1"
+    },
+    {
+     "step": 3,
+     "action": "verify the constant ratio",
+     "explain": "Confirm that y2/x2 equals y1/x1, ensuring the quotient remains invariant for direct proportion.",
+     "compute": "y2 / x2"
+    }
+   ]
+  },
+  {
+   "id": "hemh.111.2.2",
+   "title": "Scale Ratio and Map Distance Applications",
+   "section": "11.2",
+   "definition": "Calculating actual geographic distances or map representations based on a given scale factor ratio.",
+   "formula": "actual_distance = map_distance * scale_factor",
+   "key_idea": "Map representation distances and actual ground distances are directly proportional.",
+   "textbook_ref": "hemh111.txt lines 180-215",
+   "question_patterns": [
+    "find the actual distance between two cities given map scale and map distance",
+    "calculate the map representation distance given actual distance and scale",
+    "determine the actual length of an object given its enlarged photograph scale",
+    "what is the ground distance corresponding to a specified length on a scale map",
+    "evaluate the actual distance when map scale ratio is given"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply distance by scale ratio",
+     "explain": "Multiply the measured map length by the scale multiplier to determine actual ground distance.",
+     "compute": "actual_distance = map_distance * scale_factor"
+    },
+    {
+     "step": 2,
+     "action": "convert units if needed",
+     "explain": "If the scale is in cm and the answer is required in km, divide by 100000 to convert centimetres to kilometres.",
+     "compute": "actual_distance / 100000"
+    },
+    {
+     "step": 3,
+     "action": "verify the proportionality",
+     "explain": "Check that the ratio of actual distance to map distance equals the scale factor for all pairs, confirming direct proportion.",
+     "compute": "actual_distance / map_distance"
+    }
+   ]
+  },
+  {
+   "id": "hemh.111.3.1",
+   "title": "Inverse Proportion Quantity Calculation",
+   "section": "11.3",
+   "definition": "Computing an unknown variable when two quantities vary such that their product remains constant.",
+   "formula": "y2 = (x1 * y1) / x2",
+   "key_idea": "In inverse proportion, an increase in one variable produces a proportional decrease in the other.",
+   "textbook_ref": "hemh111.txt lines 240-320",
+   "question_patterns": [
+    "calculate time required to fill a tank with a reduced number of pipes",
+    "find how long food provisions will last if more students join a hostel",
+    "determine the number of workers needed to complete a task in fewer hours",
+    "what is the angle between consecutive spokes on a wheel with a given number of spokes",
+    "how many boxes are needed if each box contains a specified number of items"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate constant product",
+     "explain": "Multiply the initial value of the first variable by the initial value of the second variable.",
+     "compute": "k = x1 * y1"
+    },
+    {
+     "step": 2,
+     "action": "divide by new variable value",
+     "explain": "Divide the constant product k by the new value of the first variable to get the target quantity.",
+     "compute": "y2 = k / x2"
+    },
+    {
+     "step": 3,
+     "action": "verify the constant product",
+     "explain": "Confirm that x2 * y2 equals k, ensuring the product remains invariant for inverse proportion.",
+     "compute": "x2 * y2"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hemh111.txt Example 1",
+   "concept": "hemh.111.2.1",
+   "question_type": "compute",
+   "question_pattern": "The cost of {x1} metres of cloth is {y1}. Find the cost of {x2} metres of cloth.",
+   "extracted_variables": {
+    "x1": 5,
+    "y1": 210,
+    "x2": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "cross multiply known values",
+     "explain": "Multiply the new length x2 by the original cost y1.",
+     "compute": "prod = x2 * y1"
+    },
+    {
+     "step": 2,
+     "action": "divide by initial quantity",
+     "explain": "Divide the result by original length x1.",
+     "compute": "y2 = prod / x1"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hemh111.txt Example 2",
+   "concept": "hemh.111.2.1",
+   "question_type": "compute",
+   "question_pattern": "A pole of height {x1} metres casts a shadow of {y1} metres. Find the height of a tree casting a shadow of {y2_given} metres.",
+   "extracted_variables": {
+    "x1": 14,
+    "y1": 10,
+    "x2": 15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "cross multiply known values",
+     "explain": "Multiply shadow length x2 by object height y1.",
+     "compute": "prod = x2 * y1"
+    },
+    {
+     "step": 2,
+     "action": "divide by initial quantity",
+     "explain": "Divide by initial shadow length x1 to find tree height.",
+     "compute": "y2 = prod / x1"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hemh111.txt Example 5",
+   "concept": "hemh.111.2.2",
+   "question_type": "compute",
+   "question_pattern": "The scale of a map is given as 1 : {scale_factor}. Two cities are {map_distance} cm apart on the map. Find the actual distance.",
+   "extracted_variables": {
+    "map_distance": 4,
+    "scale_factor": 300
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply distance by scale ratio",
+     "explain": "Multiply map distance by the scale factor.",
+     "compute": "actual_distance = map_distance * scale_factor"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hemh111.txt Example 7",
+   "concept": "hemh.111.3.1",
+   "question_type": "compute",
+   "question_pattern": "{x1} pipes fill a tank in {y1} minutes. How long will it take if only {x2} pipes are used?",
+   "extracted_variables": {
+    "x1": 6,
+    "y1": 80,
+    "x2": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate constant product",
+     "explain": "Multiply initial number of pipes by initial time in minutes.",
+     "compute": "k = x1 * y1"
+    },
+    {
+     "step": 2,
+     "action": "divide by new variable value",
+     "explain": "Divide total pipe-minutes by the new number of pipes.",
+     "compute": "y2 = k / x2"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "hemh111.txt Example 8",
+   "concept": "hemh.111.3.1",
+   "question_type": "compute",
+   "question_pattern": "Food provision for {x1} students lasts {y1} days. How long will it last for {x2} students?",
+   "extracted_variables": {
+    "x1": 100,
+    "y1": 20,
+    "x2": 125
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate constant product",
+     "explain": "Calculate total student-days of provision.",
+     "compute": "k = x1 * y1"
+    },
+    {
+     "step": 2,
+     "action": "divide by new variable value",
+     "explain": "Divide total provision days by the new number of students.",
+     "compute": "y2 = k / x2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex11.1",
+   "source_ref": "hemh111.txt Exercise 11.1",
+   "questions": [
+    "1. Check if the parking charges near a railway station for 4 hours (Rs 60), 8 hours (Rs 100), 12 hours (Rs 140) and 24 hours (Rs 180) are in direct proportion to the parking time.",
+    "2. A mixture of paint is prepared by mixing 1 part of red pigments with 8 parts of base. Find the parts of base needed for 4, 7, 12, and 20 parts of red pigment.",
+    "3. If 1 part of a red pigment requires 75 mL of base, how much red pigment should we mix with 1800 mL of base?",
+    "4. A machine in a soft drink factory fills 840 bottles in six hours. How many bottles will it fill in five hours?",
+    "5. A photograph of a bacteria enlarged 50,000 times attains a length of 5 cm. What is the actual length of the bacteria? If enlarged 20,000 times, what is its length?",
+    "6. In a model of a ship, the mast is 9 cm high while the actual ship mast is 12 m high. If the length of the ship is 28 m, how long is the model ship?",
+    "7. Suppose 2 kg of sugar contains 9 x 10^6 crystals. How many crystals are in 5 kg and 1.2 kg of sugar?",
+    "8. Rashmi has a road map with a scale of 1 cm representing 18 km. She drives for 72 km. What is her distance covered on the map?",
+    "9. A 5 m 60 cm high vertical pole casts a shadow 3 m 20 cm long. Find the shadow cast by a pole 10 m 50 cm high, and the height of a pole casting a shadow 5 m long.",
+    "10. A loaded truck travels 14 km in 25 minutes. If speed remains constant, how far can it travel in 5 hours?"
+   ]
+  },
+  {
+   "id": "ex11.2",
+   "source_ref": "hemh111.txt Exercise 11.2",
+   "questions": [
+    "1. Which of the following are in inverse proportion: (i) number of workers and time taken (ii) time taken and distance covered at uniform speed (iii) cultivated land area and crop harvested (iv) journey time and speed (v) population and land area per person.",
+    "2. In a TV game show, prize money of Rs 1,00,000 is divided equally among winners. Find individual prize amounts for 1, 2, 4, 5, 8, 10, and 20 winners.",
+    "3. Rehman is making a wheel using spokes. Calculate the angle between consecutive spokes for 8, 10, 12, and 15 spokes, and find spokes needed for an angle of 40 degrees.",
+    "4. If a box of sweets is divided among 24 children, they get 5 sweets each. How many would each get if the number of children is reduced by 4?",
+    "5. A farmer has food to feed 20 animals for 6 days. How long would the food last if there were 10 more animals?",
+    "6. A contractor estimates 3 persons rewire a house in 4 days. How long should 4 persons take to complete the job?",
+    "7. A batch of bottles was packed in 25 boxes with 12 bottles each. How many boxes are needed if packed with 20 bottles per box?",
+    "8. A factory requires 42 machines to produce articles in 63 days. How many machines are required to produce the same articles in 54 days?",
+    "9. A car takes 2 hours travelling at 60 km/h. How long will it take at 80 km/h?",
+    "10. Two persons fit new windows in 3 days. (i) How long would 1 person take? (ii) How many persons are needed to finish in 1 day?",
+    "11. A school has 8 periods a day of 45 minutes duration. How long would each period be if the school has 9 periods for the same total duration?"
+   ]
+  }
+ ],
+ "gate_problems": [
+  "chapter_title does not match the file opening: wrong or mislabeled source file"
+ ],
+ "gate_status": "GATE_FAIL",
+ "source_link": "title-matched to new cache"
+}

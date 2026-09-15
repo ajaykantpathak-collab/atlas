@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_04_009",
+   "title": "c11_bs_cbse_04_009",
+   "questions": [
+    {
+     "q": "Name the four modes of transport mentioned in the NCERT Class 11 Business Studies textbook for the movement of goods and international carriage of passengers.",
+     "a": "The four modes are rail, road, air, and sea. A wrong answer (e.g., including pipeline or cable) reveals the student is relying on general knowledge rather than the specific curriculum classification. The textbook explicitly lists only these four under \"Transportation\" in Section 4.7.",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturer in Ludhiana needs to send 50 tonnes of machinery parts to a client in Kolkata. The parts are heavy, non-perishable, and the client wants delivery within 10 days at the lowest possible cost. Explain why rail transport would be more suitable than air transport for this consignment.",
+     "a": "Rail is suitable because it offers high carrying capacity for heavy/bulky goods at low cost per tonne-km, and 10 days is sufficient for rail transit. Air transport would be prohibitively expensive for 50 tonnes of low-value dense goods and is designed for high-value, low-volume, time-critical shipments. If a student chooses air, they misunderstand the cost-volume relationship and the concept of \"value density\" in modal choice.",
+     "self_check": true
+    },
+    {
+     "q": "A florist in Bengaluru exports orchids to Dubai. The flowers must reach within 24 hours of harvest to maintain quality. The consignment weighs 200 kg and has high per-unit value. Identify the most appropriate mode of transport and justify your choice using three distinct factors from the textbook's comparative framework.",
+     "a": "Air transport is most appropriate. Factors: (1) Speed — air is fastest, meeting the 24-hour deadline; (2) Perishability — air minimizes transit time for highly perishable goods; (3) High value-to-weight ratio — the high unit value justifies the high freight cost. A student choosing road+sea fails to recognize the time-sensitivity and the infeasibility of sea for such short shelf-life.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of road transport and rail transport in providing \"last-mile connectivity\" for businesses in India. Use the concepts of door-to-door service, flexibility, and infrastructure penetration to structure your comparison.",
+     "a": "Road transport provides true door-to-door service, high flexibility in routing and timing, and reaches remote areas where rail network is absent, making it indispensable for last-mile connectivity. Rail transport lacks door-to-door capability (requires road for first/last mile), operates on fixed routes/schedules, and serves only locations with railheads. A student who claims rail offers door-to-door service confuses station-to-station movement with complete logistics service.",
+     "self_check": true
+    },
+    {
+     "q": "\"Transportation removes the hindrance of place.\" Evaluate this statement by explaining how transportation interacts with warehousing and communication services to create time and place utility for a product like petroleum, using the petrol pump example from the textbook introduction.",
+     "a": "Transportation moves petrol from refineries to depots (rail/road tankers) and from depots to petrol pumps (road tankers), creating place utility. Warehousing at depots provides time utility by holding stock until demand arises. Communication (telecom/postal) coordinates orders, payments, and supply schedules. Without transport, the product cannot reach the consumer; without warehousing, supply cannot match demand fluctuations; without communication, the chain cannot be coordinated. A student who treats these in isolation misses the systems perspective emphasized in the chapter opening.",
+     "self_check": true
+    },
+    {
+     "q": "Design a multi-modal transport plan for exporting 20 tonnes of Alphonso mangoes from Ratnagiri (Maharashtra) to London (UK). The mangoes have a shelf life of 10 days from harvest. Specify the mode for each leg, the transfer points, and the critical supporting services required at each transfer. Justify why a single mode cannot work.",
+     "a": "Leg 1: Ratnagiri to Mumbai (JNPT) — refrigerated road truck (flexibility, door-to-port, short distance). Leg 2: Mumbai to London — air freight (speed essential for 10-day shelf life; sea takes 20+ days). Transfer at JNPT requires cold storage, customs clearance, phytosanitary certification, and palletization. Single mode fails: road cannot cross ocean; sea is too slow; air cannot pick up from farm. A good answer identifies the interdependence of modes and the role of auxiliary services (cold chain, documentation).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

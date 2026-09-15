@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_05_008",
+   "title": "c10_civ_cbse_05_008",
+   "questions": [
+    {
+     "q": "What is the primary purpose of the Right to Information Act, 2005 in the context of democratic governance?",
+     "a": "The RTI Act empowers citizens to request information from public authorities, making government functioning transparent and enabling public scrutiny to hold officials accountable. A wrong answer (e.g., \"RTI is only for getting personal documents\" or \"RTI is a scheme for welfare benefits\") reveals the student confuses RTI with service delivery or does not grasp its role as a transparency tool for democratic accountability.",
+     "self_check": true
+    },
+    {
+     "q": "Why does secrecy in government decision-making often lead to corruption? Explain the mechanism.",
+     "a": "Secrecy reduces the probability of detection for corrupt acts because citizens, media, and oversight bodies cannot scrutinize decisions, allocations, or contracts. When processes are opaque, officials can manipulate rules, favor specific contractors, or siphon funds without fear of exposure. A wrong answer (e.g., \"secrecy is needed for national security so it doesn't cause corruption\" or \"corruption happens only because of low salaries\") shows the student misses the causal link between opacity and the opportunity for rent-seeking, and may confuse necessary confidentiality with systemic lack of transparency.",
+     "self_check": true
+    },
+    {
+     "q": "A citizen suspects that a municipal corporation awarded a waste-management contract to a company owned by a relative of a councilor. Which transparency mechanism can the citizen use FIRST to obtain the tender documents and evaluation criteria, and which anti-corruption body can they approach if they find evidence of favoritism?",
+     "a": "First, the citizen can file an RTI application with the municipal corporation (public authority) to obtain the tender documents, evaluation criteria, and minutes of the award committee. If evidence of corruption emerges, they can file a complaint with the Central Vigilance Commission (CVC) or the state Lokayukta (for state-level officials). A wrong answer (e.g., \"go directly to the police\" or \"file a PIL in Supreme Court\") reveals the student does not know the sequential civic pathway: RTI for information gathering, then specialized anti-corruption bodies for investigation, and courts only after exhaustion of remedies or for constitutional issues.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of the Central Vigilance Commission (CVC) and the Lokpal in addressing corruption. How do their jurisdictions and appointment processes differ?",
+     "a": "The CVC is a statutory body (since 2003) that oversees vigilance administration for central government employees; its members are appointed by a committee headed by the Prime Minister. The Lokpal (established 2014) is an independent anti-corruption ombudsman with jurisdiction over the Prime Minister, ministers, MPs, and all central government employees; its chairperson and members are appointed by a selection committee including the Prime Minister, Speaker of Lok Sabha, Leader of Opposition, Chief Justice of India (or a Supreme Court judge), and an eminent jurist. A wrong answer (e.g., \"both are the same\" or \"Lokpal only investigates politicians\") shows the student cannot distinguish between a vigilance oversight body and an independent ombudsman with broader jurisdiction and a more inclusive appointment process.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The RTI Act has successfully reduced corruption in India because it allows citizens to expose scams.\" Provide a balanced assessment with evidence.",
+     "a": "The RTI Act has empowered citizens to uncover major scams (e.g., 2G spectrum, Adarsh Housing, MGNREGA irregularities) and increased fear of exposure among officials, acting as a deterrent. However, corruption persists due to weak enforcement, attacks on RTI activists, exemptions under Section 8, and the fact that RTI only provides information — prosecution requires functional investigative and judicial systems. A balanced evaluation acknowledges RTI as a necessary but not sufficient condition for reducing corruption. A wrong answer that claims \"RTI eliminated corruption\" or \"RTI is useless\" reveals an inability to evaluate institutional effectiveness with nuance, ignoring both empirical successes and structural limitations.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph proposal for a new transparency measure that could complement the RTI Act to prevent corruption in local government procurement. Your proposal must specify the mechanism, the target stage of procurement, and how it enables citizen oversight.",
+     "a": "A good proposal might suggest: \"Mandatory proactive disclosure of all tender notices, bid evaluation sheets, and contract agreements on a dedicated municipal website in real-time, with a built-in citizen feedback portal for each project. This targets the pre-award and post-award stages, allowing citizens to flag anomalies before contracts are finalized and monitor implementation.\" A poor proposal (e.g., \"make all officials honest\" or \"increase salaries\") reveals the student cannot design a concrete institutional mechanism and confuses moral exhortation with structural transparency reform.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

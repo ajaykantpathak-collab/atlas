@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_03_006",
+   "title": "c11_cs_cbse_03_006",
+   "questions": [
+    {
+     "q": "List the standard flowchart symbol used for each of the following: (a) Starting the algorithm, (b) Reading a number from the user, (c) Calculating the square of a number, (d) Checking if a number is even.",
+     "a": "(a) Oval (Terminal), (b) Parallelogram (Input/Output), (c) Rectangle (Process), (d) Diamond (Decision). A wrong answer (e.g., using a rectangle for input) reveals the student is memorizing shapes without associating each shape's *purpose* with its *geometry* – they are treating symbols as arbitrary labels rather than semantic containers.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a flowchart where a diamond symbol has three arrows coming out of it, labeled \"Yes\", \"No\", and \"Maybe\". Explain why this violates flowchart conventions and how to correct it for a condition with three possible outcomes.",
+     "a": "A decision diamond must have exactly **two** outgoing paths (True/False or Yes/No) because it represents a binary condition. For three outcomes, the student must nest two decision diamonds: first check condition A (e.g., \"Is score > 90?\"), then on the \"No\" path, check condition B (e.g., \"Is score > 75?\"). A wrong answer indicates the student views the diamond as a generic \"question box\" rather than a strict binary branch point, a critical error for loop and selection logic.",
+     "self_check": true
+    },
+    {
+     "q": "Draw a flowchart segment that reads two numbers, calculates their sum, and prints the result. Use only the correct symbols and ensure flow lines have arrowheads.",
+     "a": "[Parallelogram: Input A, B] → [Rectangle: Sum = A + B] → [Parallelogram: Output Sum]. Steps must be in sequence with arrowheaded lines connecting them. A wrong answer (e.g., using diamonds for input, missing arrowheads, or reversing order) reveals the student cannot translate a simple sequential algorithm into visual syntax – they lack the \"reading order\" convention (top-to-bottom, left-to-right).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the connector symbol (circle) and the terminal symbol (oval). When would you use each? Give a specific scenario where a connector is necessary but a terminal would be wrong.",
+     "a": "Terminal (oval) marks the **absolute start or end** of the entire algorithm. Connector (circle) links **broken flow lines within the same algorithm** (e.g., flowchart spans two pages, or a loop jumps back to a previous step). Using a terminal in the middle of a flowchart (e.g., to jump from page 1 to page 2) incorrectly implies the algorithm stops and restarts. A wrong answer shows confusion between *termination* and *continuation*.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"In a flowchart, a predefined process symbol (rectangle with double vertical lines) can be used interchangeably with a regular process symbol (rectangle) because both represent an action.\" Justify your answer.",
+     "a": "False. A regular process rectangle represents an **inline computation** (e.g., `Sum = A + B`). A predefined process symbol represents a **call to a subroutine, function, or module** defined elsewhere (e.g., `Call CalculateTax()`). Using them interchangeably hides the modular structure and misleads the reader about code organization. A wrong answer indicates the student sees only \"action\" and misses the abstraction hierarchy critical for decomposition (Chapter 3.11).",
+     "self_check": true
+    },
+    {
+     "q": "Create a new flowchart symbol (draw and describe) for \"Wait for sensor input\" in an IoT device algorithm. Explain its shape, internal label, number of entry/exit points, and why existing symbols are insufficient.",
+     "a": "A good answer proposes a distinct shape (e.g., a hexagon) labeled \"WAIT\", with one entry and one exit, explaining that a parallelogram implies active I/O by the CPU, while \"wait\" is a passive blocking state. A poor answer just renames a parallelogram, showing inability to analyze the *semantic difference* between active read and passive wait – a key distinction in embedded systems (link to IoT in Chapter 3.4).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

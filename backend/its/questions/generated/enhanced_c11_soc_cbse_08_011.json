@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_08_011",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_08_011",
+   "title": "c11_soc_cbse_08_011",
+   "questions": [
+    {
+     "q": "What was the specific chemical released in the Bhopal Gas Tragedy, and approximately how many people died immediately?",
+     "a": "Methyl isocyanate (MIC); ~4,000 immediate deaths (official estimate), with 200,000+ permanently disabled. A wrong answer (e.g., \"chlorine gas\" or \"10,000 deaths\") reveals the student has not retained basic case facts, preventing them from grounding theoretical analysis in empirical evidence — a critical gap for board exam answers requiring specific data.",
+     "self_check": true
+    },
+    {
+     "q": "In your own words, explain what Ulrich Beck means by \"risk society\" and why Bhopal illustrates it better than a natural disaster like an earthquake.",
+     "a": "Risk society: a society where hazards are manufactured by industrial modernity (not natural), are global in reach, transcend class (though unequally distributed), and exceed institutional control. Bhopal illustrates this because: (a) MIC technology was a deliberate industrial choice, not natural; (b) risks were exported from US safety standards to Indian context; (c) no institution could fully control the technology once deployed. A wrong answer conflating \"risk society\" with \"dangerous society\" or treating Bhopal as \"just corporate negligence\" misses the structural argument that risks are systemic to how modern institutions organise production and evade accountability.",
+     "self_check": true
+    },
+    {
+     "q": "Apply Beck's concept of \"organised irresponsibility\" to explain why Union Carbide's US plants had computerised early warning systems but the Bhopal plant did not, despite the company knowing the risks.",
+     "a": "Organised irresponsibility: institutions create risks but structure accountability so no single actor bears full responsibility. Steps: (1) Union Carbide designed Bhopal plant without US-standard safety systems (computerised warning, emergency evacuation plans) — a deliberate cost-saving choice. (2) Indian regulators (state pollution board, Department of Environment) granted clearances ignoring their own guidelines — regulatory capture. (3) Political-bureaucratic ties (company employing relatives of politicians, guesthouse hospitality) created mutual protection. (4) When disaster struck, liability was contested across jurisdictions (US courts vs Indian courts), delaying justice for decades. No single entity was \"irresponsible\" — the system distributed responsibility so it vanished. Wrong answers focusing only on \"corporate greed\" or \"government corruption\" miss the structural distribution of accountability that defines organised irresponsibility.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse how social stratification shaped vulnerability in Bhopal: why did the gas disproportionately affect slum dwellers near the factory, and how does this connect to the textbook's argument that \"environmental problems are simultaneously social problems\"?",
+     "a": "Social stratification determined exposure and resilience: (1) Spatial segregation — slums (Jai Prakash Nagar, etc.) sprang up adjacent to factory walls because land was cheap and migrants needed work; affluent areas were upwind/distant. (2) Occupational vulnerability — factory workers (contract labour, low caste) had direct exposure; managers lived farther away. (3) Post-disaster: compensation access required documentation (ration cards, medical records) that poor migrants lacked; middle-class victims navigated bureaucracy better. (4) Long-term: contaminated groundwater affects remaining poor communities who cannot afford relocation or water purification. This mirrors the textbook's Kutch example: richer farmers drill deep borewells while poor villagers' wells run dry. Wrong answers treating vulnerability as \"bad luck\" or \"proximity alone\" miss how property relations, labour markets, and state neglect structurally produce differential risk exposure.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument that \"stricter regulations and better technology\" would prevent future Bhopals. Use the risk society perspective to justify your position.",
+     "a": "Risk society perspective says: necessary but insufficient. Evaluation: (1) Regulations help — Bhopal lacked computerised warnings, evacuation plans, maintenance — but (2) regulations are always reactive (written after disasters), lag behind technological innovation, and suffer regulatory capture (as Bhopal showed: clearance granted despite known violations). (3) Technology fails — MIC storage was \"state of art\" yet safety systems (flare tower, scrubber, water curtain) were all non-functional simultaneously. (4) Core problem: industrial modernity produces \"uncontrollable technologies\" (Beck) where complexity exceeds management capacity; adding more complexity (regulations, safety tech) increases failure points. (5) Real prevention requires: democratic control over technology siting (subpolitics), reversing organised irresponsibility via strict liability laws, and questioning whether certain technologies (like MIC-based pesticides) should exist at all. Wrong answers endorsing \"better regulation\" as complete solution ignore Beck's thesis that risk society generates risks that are structurally uninsurable and ungovernable by existing institutions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sociological research framework to investigate whether a proposed new chemical plant in your district exhibits \"risk society\" characteristics. Specify: (a) three institutional actors to study, (b) two indicators of organised irresponsibility, (c) one method to assess community vulnerability stratification.",
+     "a": "(a) Three institutional actors: (i) State Pollution Control Board (regulatory capture), (ii) Plant management / parent corporation (technology transfer decisions), (iii) Local political leadership (land allocation, clearance fast-tracking). (b) Two indicators of organised irresponsibility: (i) Gap between parent company's home-country safety standards and host-country plant design (dual standards), (ii) Absence of independent emergency planning involving local community (exclusion of affected from risk governance). (c) One method for vulnerability stratification: GIS mapping of residential settlements within 5km radius overlaid with caste/income/tenure data + household survey on access to information, healthcare, and evacuation capacity. Good answer demonstrates operationalising theory into empirical investigation. Poor answer lists generic \"stakeholders\" without linking to risk society concepts (organised irresponsibility, subpolitics, manufactured risk).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

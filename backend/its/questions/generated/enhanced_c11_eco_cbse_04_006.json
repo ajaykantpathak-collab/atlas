@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_04_006",
+   "title": "c11_eco_cbse_04_006",
+   "questions": [
+    {
+     "q": "Define on-the-job training as a source of human capital formation and state the two main forms it can take according to NCERT.",
+     "a": "On-the-job training is expenditure by firms to enhance workers' skills, either through in-house training under skilled supervisors or off-campus training programs. A wrong answer (e.g., \"training provided by government\" or \"education in schools\") reveals confusion between firm-sponsored training and general education/health investments, missing the firm's profit motive and cost-recovery mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Why do firms insist on a minimum service period (bond) after providing on-the-job training? Explain using the concept of human capital specificity and poaching risk.",
+     "a": "Firms require a bonding period because on-the-job training often creates firm-specific human capital; if workers leave immediately, the firm cannot recover its training investment, and competitors could 'poach' trained workers without bearing the cost. A wrong answer (e.g., \"to exploit workers\" or \"because of labour laws\") misses the economic rationale of investment recovery and the hold-up problem in human capital contracts.",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturing firm spends ₹50,000 per worker on a 6-week technical training program. Post-training, each worker's monthly output increases by 20%, generating an additional ₹15,000 per month in revenue for the firm. The firm imposes a 1-year bond. Calculate the net gain to the firm over the bond period and determine if the training is economically viable. (Assume no discounting for simplicity.)",
+     "a": "Step 1: Training cost = ₹50,000 per worker.\nStep 2: Monthly additional revenue = ₹15,000.\nStep 3: Bond period = 12 months.\nStep 4: Total additional revenue = 12 × ₹15,000 = ₹1,80,000.\nStep 5: Net gain = ₹1,80,000 - ₹50,000 = ₹1,30,000 > 0, so training is viable.\nA wrong answer (e.g., ignoring the bond period or miscalculating revenue) shows inability to apply cost-benefit analysis to human capital investment decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare on-the-job training with formal education as sources of human capital formation. Analyze differences in: (a) who bears the cost, (b) specificity of skills, (c) motivation for investment, and (d) mechanism to ensure return on investment.",
+     "a": "(a) OJT: firm bears cost; Education: individual/state bears cost. (b) OJT: often firm-specific skills; Education: general skills. (c) OJT: profit-driven, based on productivity gain; Education: also for social mobility, consumption value. (d) OJT: bonding contracts; Education: no such contract, returns via labour market. A wrong answer that treats them as identical ignores the principal-agent problem and specificity of firm-sponsored training.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"On-the-job training is always more efficient than formal education for human capital formation because it directly targets job-specific skills.\" Provide two arguments for and two against.",
+     "a": "For: (1) OJT reduces skill mismatch, (2) faster returns, lower opportunity cost (earning while learning). Against: (1) OJT creates firm-specific skills, reducing labour mobility and adaptability to technological change, (2) underinvestment risk due to poaching, leading to suboptimal social investment; formal education generates positive externalities (e.g., civic participation) that OJT doesn't. A one-sided answer reveals failure to consider externalities and the general vs. specific human capital distinction (Becker).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple on-the-job training proposal for a small textile unit in Surat employing 50 workers. Specify: (i) type of training, (ii) estimated cost per worker, (iii) expected productivity gain, (iv) bonding period, and (v) how you would measure the training's impact on human capital formation.",
+     "a": "Example: (i) In-house training on automated loom operation (2 weeks). (ii) Cost: ₹20,000/worker (trainer, downtime). (iii) Expected gain: 15% output increase → ₹10,000/month extra revenue/worker. (iv) Bond: 18 months. (v) Measure: compare pre/post training output per worker, defect rates, and worker retention after bond. A poor proposal would lack quantifiable metrics, ignore opportunity cost of downtime, or set unrealistic bonding periods violating labour laws.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

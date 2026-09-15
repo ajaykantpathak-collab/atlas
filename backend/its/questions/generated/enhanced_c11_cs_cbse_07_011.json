@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_07_011",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_07_011",
+   "title": "c11_cs_cbse_07_011",
+   "questions": [
+    {
+     "q": "What is the output of the following code snippet?\n```python\nd = {\"a\": 1, \"b\": 2}\nfor x in d:\n    print(x)\n```",
+     "a": "The output will be:\n```\na\nb\n```\nA wrong answer (e.g., printing `1` and `2` or `('a',1)` and `('b',2)`) reveals the misconception that iterating directly over a dictionary yields values or pairs instead of keys. This is a fundamental misunderstanding of the default iteration behavior.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between `for k in d.keys():` and `for k, v in d.items():` when `d = {\"x\": 10, \"y\": 20}`. What does each loop variable represent in each case?",
+     "a": "In `for k in d.keys():`, `k` takes on each key (`\"x\"` then `\"y\"`). In `for k, v in d.items():`, `k` takes each key and `v` takes the corresponding value (`k=\"x\", v=10` then `k=\"y\", v=20`). A wrong answer that says both loops behave identically or that `d.keys()` returns values shows confusion about dictionary view objects and tuple unpacking in the loop header.",
+     "self_check": true
+    },
+    {
+     "q": "Given `marks = {\"Physics\": 85, \"Chemistry\": 90, \"Math\": 95}`, write a `for` loop that prints only the subjects where the marks are greater than 88.",
+     "a": "```python\nfor subject, mark in marks.items():\n    if mark > 88:\n        print(subject)\n```\nOutput: `Chemistry` and `Math` (each on a new line). A wrong answer might iterate over keys only and then look up the value inside the loop (which works but is less efficient) or might incorrectly use `marks.values()` and lose the subject name. This tests the ability to apply `.items()` and conditional logic during traversal.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the following two code snippets. Do they produce the same output? Justify your answer.\n```python",
+     "a": "Yes, both snippets produce the same output: `p 1` and `q 2` (order may vary in older Python versions but is insertion-ordered in Python 3.7+). Snippet A uses key iteration and explicit lookup `d[key]`, while Snippet B uses tuple unpacking from `d.items()`. A student who says they are different might not realize that `d[key]` inside the loop retrieves the same value that `items()` provides directly, or may think `items()` returns something else. This analyzes the equivalence of two traversal patterns.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following code to double every value in a dictionary `scores = {\"A\": 10, \"B\": 20}`:\n```python\nfor k, v in scores.items():\n    v = v * 2\nprint(scores)\n```\nThe output remains `{'A': 10, 'B': 20}`. Explain why the dictionary did not change and provide a corrected version.",
+     "a": "The loop variable `v` is a local copy of the value; reassigning `v` does not modify the dictionary. To update the dictionary, you must assign back to the key: `scores[k] = v * 2` or use a dictionary comprehension. A wrong answer that claims the dictionary should have changed reveals the misconception that loop variables are references to the original dictionary entries rather than independent variables holding the value.",
+     "self_check": true
+    },
+    {
+     "q": "Design a dictionary `inventory` with at least three items (item name as key, quantity as value). Write a `for` loop that calculates the total quantity of all items and prints it. Then, modify the loop to also print the name of the item with the maximum quantity (assume no ties).",
+     "a": "Example solution:\n```python\ninventory = {\"rice\": 50, \"wheat\": 30, \"sugar\": 20}\ntotal = 0\nmax_item = None\nmax_qty = -1\nfor item, qty in inventory.items():\n    total += qty\n    if qty > max_qty:\n        max_qty = qty\n        max_item = item\nprint(\"Total quantity:\", total)\nprint(\"Item with max quantity:\", max_item)\n```\nA poor answer might use separate loops for total and max, or might not initialize `max_qty` correctly, showing inability to combine accumulation and comparison in a single traversal.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_05_004",
+   "title": "c11_psy_cbse_05_004",
+   "questions": [
+    {
+     "q": "Define \"operant\" in the context of Skinner's experiment and give one example of an operant behaviour a human might emit in a classroom.",
+     "a": "An operant is a voluntary response emitted by an organism that operates on the environment to produce a consequence; example: a student raising their hand to ask a question. A wrong answer (e.g., \"salivating to a bell\") reveals the student still conflates operants with respondent/reflexive responses from classical conditioning.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher stops giving homework to students who score above 90% on weekly quizzes. Is this positive reinforcement, negative reinforcement, or punishment? Explain your reasoning in two sentences.",
+     "a": "This is negative reinforcement: the aversive stimulus (homework) is removed contingent on the desired behaviour (high quiz scores), which increases the likelihood of studying hard. A wrong answer (e.g., \"positive reinforcement because it's a reward\") shows the student equates \"removal of something unpleasant\" with \"giving something pleasant,\" missing the defining feature of negative reinforcement—escape/avoidance of an aversive condition.",
+     "self_check": true
+    },
+    {
+     "q": "A parent wants their 10-year-old to practise piano daily. They try three plans: (A) ₹50 immediately after each practice session; (B) ₹500 at the end of each month if the child practised every day; (C) ₹50 after each session for the first week, then randomly on some days thereafter. Using the concepts of continuous reinforcement, delayed reinforcement, and partial reinforcement, predict which plan will produce the most persistent practice behaviour after rewards stop, and justify in three steps.",
+     "a": "Step 1: Plan A uses continuous immediate reinforcement—fast acquisition but low resistance to extinction. Step 2: Plan B delays reinforcement by a month—delayed reinforcement drastically weakens learning. Step 3: Plan C shifts from continuous to intermittent (partial) reinforcement—partial reinforcement effect makes behaviour highly resistant to extinction. Therefore, Plan C will produce the most persistent practice. A wrong answer choosing Plan A or B indicates the student has not internalised that partial reinforcement > continuous reinforcement for persistence, and that delay degrades reinforcement efficacy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the role of the organism in classical conditioning versus operant conditioning. Use the terms \"passive,\" \"active,\" \"US,\" and \"reinforcer\" in your answer.",
+     "a": "In classical conditioning the organism is passive: the experimenter controls the US (e.g., food) which elicits a reflexive UR; the organism merely experiences the CS-US pairing. In operant conditioning the organism is active: it must emit the operant (e.g., lever press) to obtain the reinforcer (e.g., food pellet); the reinforcer is contingent on the organism's own behaviour. A wrong answer that reverses \"passive/active\" or equates US with reinforcer without noting contingency reveals confusion about the locus of control in the two paradigms.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Negative reinforcement and punishment are the same because both involve unpleasant stimuli.\" Provide two distinct differences with examples.",
+     "a": "Difference 1: Negative reinforcement increases the probability of a behaviour (e.g., taking painkiller removes headache → more pill-taking); punishment decreases the probability of a behaviour (e.g., scolding for hitting → less hitting). Difference 2: In negative reinforcement the aversive stimulus is removed contingent on the desired response; in punishment an aversive stimulus is presented (or a pleasant one removed) contingent on an undesired response. A student who cannot articulate both direction-of-effect and contingency differences holds the classic senior-secondary misconception that \"negative = bad = punishment.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-experiment (3-4 steps) using a Skinner-box-like setup to demonstrate that a secondary reinforcer (e.g., a clicker sound) can acquire reinforcing power through pairing with a primary reinforcer (food). State the predicted outcome.",
+     "a": "Step 1: Place a hungry rat in the box; deliver food pellet (primary reinforcer) simultaneously with a click sound for 20 trials. Step 2: Test phase—present only the click sound contingent on lever press; measure press rate. Step 3: Control—another rat receives clicks without prior food pairing. Step 4: Compare: experimental rat presses lever for clicks alone; control rat does not. Predicted outcome: click becomes a secondary reinforcer via classical pairing. A poor design that omits the control group or tests before pairing shows the student cannot operationalise secondary reinforcement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

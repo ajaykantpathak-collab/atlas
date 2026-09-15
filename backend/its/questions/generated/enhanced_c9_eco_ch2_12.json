@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_eco_ch2_12",
+ "concepts": [
+  {
+   "id": "enh:c9_eco_ch2_12",
+   "title": "c9_eco_ch2_12",
+   "questions": [
+    {
+     "q": "Define monopoly and state one key feature that distinguishes it from perfect competition.",
+     "a": "Monopoly is a market structure with a single seller of a unique product having no close substitutes. The key distinguishing feature is that the monopolist is a price maker facing a downward-sloping demand curve, whereas a perfectly competitive firm is a price taker facing a horizontal demand curve. A wrong answer (e.g., \"monopoly has many sellers\") reveals confusion with perfect competition or monopolistic competition.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a monopolist's marginal revenue curve lie below its demand curve? Explain using the concept of price effect and output effect.",
+     "a": "When a monopolist lowers price to sell one more unit, it gains revenue from the extra unit (output effect) but loses revenue on all previous units because they must now be sold at the lower price (price effect). The net change in revenue (marginal revenue) is therefore less than the price of the extra unit. A wrong answer (e.g., \"MR equals price because demand slopes down\") shows the student treats monopoly like perfect competition and misses the price effect on inframarginal units.",
+     "self_check": true
+    },
+    {
+     "q": "The State Electricity Board (a monopoly) faces demand: P = 100 - 0.5Q (price in ₹/kWh, Q in million kWh). Its marginal cost is constant at ₹20/kWh. Calculate the monopoly's profit-maximizing quantity and price. (Assume linear demand, so MR = 100 - Q.)",
+     "a": "Step 1: Set MR = MC → 100 - Q = 20 → Q = 80 million kWh. Step 2: Substitute Q into demand: P = 100 - 0.5(80) = ₹60/kWh. Monopoly price = ₹60, quantity = 80 million kWh. A wrong answer (e.g., setting P = MC giving Q=160, P=₹20) reveals the student applies perfect competition logic instead of MR=MC.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the consumer surplus under monopoly (from Question 3) with the consumer surplus if the market were perfectly competitive (P=MC). Which is larger and why?",
+     "a": "Competitive equilibrium: P=MC=20 → Q=160. Consumer surplus (CS) = 0.5*(100-20)*160 = ₹6,400 million. Monopoly CS = 0.5*(100-60)*80 = ₹1,600 million. Competitive CS is larger because lower price and higher quantity expand the area under demand above price. A wrong answer (e.g., \"monopoly CS is larger because price is higher\") confuses producer surplus with consumer surplus.",
+     "self_check": true
+    },
+    {
+     "q": "The government considers two policies for the electricity monopoly: (A) impose a price ceiling at ₹20 (MC), or (B) split the board into four regional firms that compete. Evaluate which policy better achieves allocative efficiency and financial viability.",
+     "a": "Policy A achieves allocative efficiency (P=MC) but the firm makes losses because price < average total cost (ATC includes fixed costs), requiring subsidies. Policy B introduces competition, moving toward competitive outcome with P≈MC, but if fixed costs are high, each firm may still need scale economies; however, competition incentivizes cost reduction. Policy B is generally better for long-term viability without perpetual subsidies. A wrong answer (e.g., \"Policy A is best because price equals MC\") ignores the shutdown problem and fiscal burden.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple regulatory framework for a natural monopoly like water supply in a small Indian town. Your framework must address pricing, quality standards, and investment incentives. List three key components.",
+     "a": "A good answer includes: (1) Price cap regulation (e.g., RPI-X formula) allowing the firm to keep efficiency gains while protecting consumers; (2) Mandatory service quality benchmarks (e.g., hours of supply, purity standards) with penalties for non-compliance; (3) A regulatory asset base (RAB) approach for capital expenditure, ensuring the firm earns a fair return on approved investments. A poor answer (e.g., \"government should just set low prices\") misses the need for investment incentives and quality monitoring.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

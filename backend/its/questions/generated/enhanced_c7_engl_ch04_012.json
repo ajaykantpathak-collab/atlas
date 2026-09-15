@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_engl_ch04_012",
+ "concepts": [
+  {
+   "id": "enh:c7_engl_ch04_012",
+   "title": "c7_engl_ch04_012",
+   "questions": [
+    {
+     "q": "What term describes a pair of successive lines of poetry, usually of the same length, that rhyme with each other?",
+     "a": "The correct answer is a couplet. A wrong answer—such as stanza or refrain—reveals that the student is confusing structural units of poetry with specific rhyming patterns. They need to review the basic building blocks of poetic form.",
+     "self_check": true
+    },
+    {
+     "q": "Read these lines: \"The engine rushes down the track, / With iron wheels and heavy sack.\" Which words form the rhyming pair?",
+     "a": "The rhyming pair is \"track\" and \"sack.\" A wrong answer choosing \"engine\" and \"wheels\" reveals that the student is looking at the beginning or middle of the lines rather than listening to the ending sounds. They need practice focusing specifically on the final words of each line.",
+     "self_check": true
+    },
+    {
+     "q": "A stanza has four lines ending with the words: night (A), bright (A), day (B), way (B). What is the rhyme scheme of this stanza?",
+     "a": "The correct rhyme scheme is AABB. Steps: 1. Identify end word \"night\" and assign A. 2. Identify end word \"bright\", which rhymes with \"night\", so assign A. 3. Identify end word \"day\", which does not rhyme with \"night\", so assign a new letter, B. 4. Identify end word \"way\", which rhymes with \"day\", so assign B. A wrong answer like ABAB reveals that the student is confusing couplet rhyme schemes with alternating rhyme schemes.",
+     "self_check": true
+    },
+    {
+     "q": "In a poem about a train journey through a dark tunnel, the poet uses words with hard consonant end-sounds like \"clank\" and \"tank\" in one stanza, and soft vowel sounds like \"gleam\" and \"stream\" in another. How does this shift in rhyming words affect the poem's atmosphere?",
+     "a": "The shift from hard consonant rhymes (\"clank/tank\") to softer sounds (\"gleam/stream\") mirrors a transition from the mechanical noise and tension of entering a dark tunnel to the smooth, flowing relief of emerging into sunlight. A wrong answer suggests the rhyme is purely accidental, revealing a misunderstanding that poetic choices are intentional tools for mood building.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether a poem without end rhymes can still be considered a successful poem about adventure and motion. Defend your answer using your knowledge of poetry forms.",
+     "a": "Yes, a poem without end rhymes can be very successful. Forms like free verse rely on rhythm, vivid imagery, and sensory details rather than end rhyme to capture motion and excitement. A wrong answer arguing that rhyme is mandatory for all poetry reveals a rigid definition that ignores modern and free-verse poetic structures.",
+     "self_check": true
+    },
+    {
+     "q": "Write a four-line stanza about a train entering a mountain tunnel using an AABB rhyme scheme, ensuring the end words create a sense of mounting suspense.",
+     "a": "An expected answer features lines ending with pairs like \"dark\" and \"mark\" (A), and \"sight\" and \"night\" (B). A poor answer fails to create matching end sounds or writes sentences that do not relate to the theme of suspense, revealing an inability to combine structural rhyme rules with creative thematic writing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

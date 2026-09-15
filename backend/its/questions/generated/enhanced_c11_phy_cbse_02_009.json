@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_02_009",
+   "title": "c11_phy_cbse_02_009",
+   "questions": [
+    {
+     "q": "State the formula for stopping distance of a vehicle in terms of initial velocity v₀ and deceleration a. What are the SI units of each quantity?",
+     "a": "The formula is ds = v₀²/(2a) where ds is stopping distance (m), v₀ is initial velocity (m/s), and a is magnitude of deceleration (m/s²). A wrong answer like ds = v₀/a reveals the student incorrectly used v = u + at instead of v² = u² + 2as, confusing time-based and distance-based kinematic equations.",
+     "self_check": true
+    },
+    {
+     "q": "A car travelling at 20 m/s stops in 40 m with constant deceleration. If the same car travels at 40 m/s with the same deceleration, what will be its stopping distance? Explain why the answer is not simply double.",
+     "a": "Stopping distance at 40 m/s = 160 m. Since ds ∝ v₀², doubling speed quadruples stopping distance (2² = 4). A student answering 80 m has assumed linear proportionality (ds ∝ v₀), missing the quadratic relationship derived from v² = u² + 2as. This misconception ignores that kinetic energy (½mv²) must be dissipated by braking work (F·ds), and energy scales with v².",
+     "self_check": true
+    },
+    {
+     "q": "A motorcycle moving at 72 km/h applies brakes producing a deceleration of 5 m/s². Calculate the stopping distance in metres. Show all unit conversions.",
+     "a": "Step 1: Convert 72 km/h to m/s: 72 × (1000/3600) = 20 m/s.\nStep 2: Identify v₀ = 20 m/s, a = 5 m/s² (magnitude).\nStep 3: Use ds = v₀²/(2a) = (20)²/(2 × 5) = 400/10 = 40 m.\nStep 4: Units: (m/s)² / (m/s²) = m²/s² × s²/m = m ✓.\nA wrong answer of 1440 m comes from forgetting km/h to m/s conversion (using 72 directly). A wrong answer of 80 m comes from using ds = v₀²/a (missing factor of 2).",
+     "self_check": true
+    },
+    {
+     "q": "Two identical cars have the same deceleration capability. Car A travels at 50 km/h, Car B at 100 km/h. Compare their stopping distances. If Car A stops in 15 m, how much distance does Car B need? What does this imply for speed limits in school zones?",
+     "a": "Car B needs 60 m (4 × 15 m). Speed ratio = 100/50 = 2, so distance ratio = 2² = 4. This quadratic relationship means small speed increases dramatically increase stopping distance. In school zones, reducing speed from 40 km/h to 30 km/h reduces stopping distance by (30/40)² = 0.5625, nearly halving it. A student giving 30 m (linear thinking) underestimates the safety risk of higher speeds.",
+     "self_check": true
+    },
+    {
+     "q": "A student derives stopping distance as ds = v₀t - ½at² where t = v₀/a. They claim this is different from ds = v₀²/(2a). Evaluate whether both expressions are equivalent and identify any error in the student's reasoning.",
+     "a": "Both expressions are equivalent. Substitute t = v₀/a into ds = v₀t - ½at²:\nds = v₀(v₀/a) - ½a(v₀/a)² = v₀²/a - ½v₀²/a = ½v₀²/a = v₀²/(2a).\nThe student's expression is correct but uses time as intermediate variable. An error would be using ds = v₀t (ignoring the -½at² term), which assumes constant velocity, not deceleration. This reveals confusion between uniform motion and uniformly accelerated motion formulas.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a toy car on an inclined plane to verify that stopping distance is proportional to the square of initial speed. List materials, procedure, measurements, and how you would plot the data.",
+     "a": "Materials: Toy car, adjustable ramp, metre scale, stopwatch, sandpaper strip (for constant deceleration zone).\nProcedure: Release car from different heights (giving different v₀ at bottom). Measure stopping distance on sandpaper for each release height. Calculate v₀ from height using energy conservation (mgh = ½mv₀² → v₀ = √(2gh)). Plot ds vs v₀² — should be straight line through origin with slope 1/(2a).\nA poor answer omits v₀ calculation or suggests plotting ds vs v₀ (would give parabola, harder to verify proportionality). This tests understanding of experimental verification of quadratic relationships.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

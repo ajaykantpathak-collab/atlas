@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_03_002",
+   "title": "c12_psy_cbse_03_002",
+   "questions": [
+    {
+     "q": "Define primary appraisal and secondary appraisal according to Lazarus. Give one example of each from a student’s life.",
+     "a": "Primary appraisal is the initial evaluation of an event as irrelevant, benign-positive, or stressful (harm/loss, threat, challenge). Secondary appraisal is the evaluation of one’s coping resources and options to deal with the event. Example: Primary — “The exam is a threat because I might fail.” Secondary — “I have studied enough and can ask my teacher for help, so I can cope.” A wrong answer that swaps the two or describes only emotional reactions reveals confusion between *evaluating the event* and *evaluating one’s resources*.",
+     "self_check": true
+    },
+    {
+     "q": "A student receives a low mark on a mock test. Student A thinks, “This shows me where I need to improve — it’s a challenge.” Student B thinks, “I’m going to fail the boards; I’m not smart enough.” Using Lazarus’s theory, explain why Student A experiences eustress while Student B experiences distress.",
+     "a": "Student A appraises the event as a *challenge* (primary appraisal: potential for growth) and likely sees adequate coping resources (secondary appraisal: “I can adjust my study plan”). Student B appraises it as *harm/loss* (damage already done) and *threat* (future failure) and likely perceives insufficient resources (secondary appraisal: “I lack ability”). A wrong answer that attributes the difference solely to personality or the event itself misses the core tenet: *subjective appraisal* mediates the stress response.",
+     "self_check": true
+    },
+    {
+     "q": "Priya is about to give a speech. She thinks, “Everyone will judge me — I’ll embarrass myself” (primary appraisal). She then thinks, “I’ve practised a lot, and my friend will signal me if I go too fast” (secondary appraisal). Predict Priya’s likely stress level and justify your prediction using the two appraisals.",
+     "a": "Priya’s primary appraisal is *threat* (negative, future-oriented harm). Her secondary appraisal identifies *adequate coping resources* (preparation, social support). The combination of threat + sufficient resources typically produces *moderate, manageable stress* (eustress-like) rather than overwhelming distress. A wrong answer that says “high distress because of threat” ignores the buffering role of secondary appraisal — a common error where students treat primary appraisal as the sole determinant.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast Lazarus’s cognitive appraisal theory with Selye’s General Adaptation Syndrome (GAS) on the role of psychological factors in stress. Which theory better explains why two people react differently to the same stressor?",
+     "a": "Selye’s GAS is a *physiological*, non-specific response model (alarm → resistance → exhaustion) that assigns minimal role to psychological appraisal. Lazarus’s theory is *cognitive-transactional*: stress depends on primary/secondary appraisal, making it highly individual. Lazarus better explains individual differences because it incorporates perception, past experience, and perceived control. A wrong answer that claims GAS accounts for psychological factors or that both theories are equally explanatory shows failure to grasp the paradigm shift from physiological to cognitive.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: “If a person has high self-efficacy, they will always appraise a difficult event as a challenge rather than a threat.” Use Lazarus’s concepts of primary and secondary appraisal in your evaluation.",
+     "a": "The statement overgeneralizes. Self-efficacy influences *secondary appraisal* (confidence in coping resources) but does not fully determine *primary appraisal*. A person with high self-efficacy may still initially appraise an event as a *threat* (e.g., sudden accident) before reassessing it as a challenge. Also, primary appraisal depends on event characteristics (novelty, ambiguity) and past experience, not just self-efficacy. A wrong answer that agrees uncritically conflates primary and secondary appraisal or treats self-efficacy as a magic shield.",
+     "self_check": true
+    },
+    {
+     "q": "Create a short case vignette (3-4 sentences) involving a Class 12 student facing a stressor. Write the student’s primary appraisal (label it harm/loss, threat, or challenge) and secondary appraisal (list at least two coping resources they evaluate). Then rewrite the vignette so the *same event* leads to a different primary appraisal for another student.",
+     "a": "A good answer will show a clear event, a correctly labeled primary appraisal (e.g., “threat”), a secondary appraisal with concrete resources (e.g., “time management skills, parental support”), and a second version where the event is identical but the primary appraisal shifts (e.g., to “challenge”) due to different beliefs/experience. A poor answer will mislabel appraisals, omit secondary appraisal, or change the event itself — revealing misunderstanding that appraisal is *subjective interpretation of the same event*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

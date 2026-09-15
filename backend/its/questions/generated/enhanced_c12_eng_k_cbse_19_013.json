@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_19_013",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_19_013",
+   "title": "c12_eng_k_cbse_19_013",
+   "questions": [
+    {
+     "q": "What is Asimov's fundamental criterion for distinguishing science fiction from myths and legends?",
+     "a": "Asimov distinguishes them by the governing system of their fictional universes: myths operate through gods/demons controlled by magical formulas (enchantments or prayers), while science fiction operates through impersonal, unswervable laws of nature controlled by scientific understanding. A wrong answer (e.g., \"science fiction is about the future, myths are about the past\") reveals the student is focusing on setting/content rather than the epistemological framework Asimov emphasizes.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Asimov believes science fiction mysteries are possible despite John Campbell's objection.",
+     "a": "Asimov argues that a science fiction mystery can be fair if the writer explicitly establishes the \"boundary conditions\" of the imaginary society (what technology/magic can and cannot do) and then shares all clues with the reader — just like a classical mystery. Campbell thought the infinite possibilities of sci-fi worlds would allow unfair rule-changes, but Asimov counters that fixed rules within the story world prevent this. A wrong answer (e.g., \"Asimov says sci-fi mysteries are easier because you can invent anything\") shows the student missed the crucial requirement of self-consistency and prior rule-disclosure.",
+     "self_check": true
+    },
+    {
+     "q": "Apply Asimov's definition of science fiction (\"background, not content\") to this scenario: A story about a detective solving a murder on a space station using forensic science that exists today. Is it science fiction? Justify using Asimov's criteria.",
+     "a": "Yes, it is science fiction by Asimov's definition. Step 1: Identify the content — a detective story (mystery genre). Step 2: Identify the background — a society with interplanetary travel/space stations (significantly different from ours). Step 3: Apply Asimov's rule: \"Take the content of any [genre] and place it against a background that involves a society significantly different from our own and you have not changed the nature of the story — you have merely added to it.\" The background makes it science fiction *also*. A wrong answer (\"No, because the science is real, not fictional\") confuses scientific plausibility with Asimov's structural definition.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze Asimov's use of the Holmes/Watson \"pocket-frannistan\" parody. What specific flaw in science fiction mystery writing is he illustrating, and how does it relate to his own solution?",
+     "a": "The parody illustrates the \"deus ex machina\" trap: inventing a new scientific gadget/principle at the climax to solve the mystery, which violates fairness because the reader had no prior knowledge of its existence or rules. Asimov's solution — explicit prior disclosure of all boundary conditions — directly prevents this by requiring the writer to establish what is possible *before* the investigation begins. A wrong answer (\"It shows Holmes is smarter than sci-fi detectives\") misses the meta-commentary on genre mechanics.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate Asimov's claim that \"mainstream fiction forms only an inconsiderable fraction of the whole\" of conceivable societies. Is this a defensible literary position or an exaggeration? Support your judgment with reasoning.",
+     "a": "It is a defensible *conceptual* position within his framework, not a statistical claim. Asimov defines science fiction's domain as \"all conceivable societies, past and future, probable or improbable\" — an infinite set. Mainstream fiction, restricted to \"here and now\" with only \"small novelty,\" occupies a negligible portion of that infinite conceptual space. The exaggeration lies in implying mainstream fiction's *literary value* is proportionally small, which he does not claim. A wrong answer (\"He's wrong because most great literature is mainstream\") confuses literary merit with conceptual scope.",
+     "self_check": true
+    },
+    {
+     "q": "Create a one-paragraph \"prescientific universe\" story premise (like Asimov's examples of flying carpets or crystal balls) that fulfills the same emotional need for wonder as science fiction but operates by magical rules. Then write one sentence explaining how it differs from a science fiction premise in its governing logic.",
+     "a": "Premise: In the Kingdom of Aeloria, royal scribes inscribe destinies on golden leaves that flutter to their subjects' windows each dawn; a young weaver discovers she can unravel a leaf's thread to rewrite her fate, but each tug shortens the kingdom's collective lifespan. Difference: This world is governed by intentional, symbolic magic (destiny as tangible text, manipulated by will) rather than impersonal natural laws discoverable through reason. A poor answer would simply write a fantasy premise without articulating the governing logic contrast.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

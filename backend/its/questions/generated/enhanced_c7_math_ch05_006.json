@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch05_006",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch05_006",
+   "title": "c7_math_ch05_006",
+   "questions": [
+    {
+     "q": "What defines a line as a \"transversal\" when it interacts with other lines in a plane?",
+     "a": "A transversal is a line that intersects two or more other lines at distinct, separate points. A wrong answer often claims any line that touches another line is a transversal, failing to realize it must cut across *at least two* separate lines at *different* points. This shows a confusion between a single pair of intersecting lines and a multi-line intersection system.",
+     "self_check": true
+    },
+    {
+     "q": "If a single straight line intersects three parallel lines drawn horizontally on your notebook, how many distinct points of intersection are created?",
+     "a": "There are 3 distinct points of intersection because each of the three parallel lines is crossed once by the transversal. If a student answers 6, they are likely counting the number of angles formed (4 angles per intersection point multiplied by 2, or miscounting) rather than the physical points where the lines cross.",
+     "self_check": true
+    },
+    {
+     "q": "Line $t$ intersects line $m$ at point $A$ and line $n$ at point $B$. If line $m$ and line $n$ are in the same plane, what is line $t$ called with respect to lines $m$ and $n$? Calculate the total number of angles formed around these two intersection points.",
+     "a": "Step 1: Identify the given information: line $t$ crosses two lines ($m$ and $n$) at two distinct points ($A$ and $B$).\nStep 2: Apply the definition of a transversal: since line $t$ intersects two lines at distinct points, line $t$ is a transversal.\nStep 3: Count the angles at each intersection point: each intersection point creates 4 angles around it.\nStep 4: Compute the total number of angles: $2 \\text{ intersection points} \\times 4 \\text{ angles per point} = 8 \\text{ angles}$.\nAnswer: Line $t$ is a transversal, and it forms 8 angles in total. A wrong answer like 4 or 6 indicates the student only counted the angles around one intersection point or forgot the basic angle count of intersecting lines.",
+     "self_check": true
+    },
+    {
+     "q": "Why can a line that intersects two lines at the *exact same point* (concurrent lines) not be considered a transversal for those two lines?",
+     "a": "A transversal requires *distinct, separate* intersection points. If lines pass through a single common point, they form a star-like intersection rather than creating the \"between\" regions (interior/exterior) needed to study parallel or non-parallel line relationships. A wrong answer suggests the student thinks any crossing line qualifies, missing the requirement of multiple separate intersection locations.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that if line $p$ intersects line $q$, then line $p$ is automatically a transversal. Evaluate this statement and correct the error.",
+     "a": "This statement is incorrect because a transversal must intersect *two or more* lines. Intersecting only *one* line makes them simply an intersecting pair, not a transversal system. A wrong answer shows the student has memorized the word \"intersecting\" without paying attention to the minimum requirement of multiple lines being cut.",
+     "self_check": true
+    },
+    {
+     "q": "Draw a rough sketch or describe a layout where a straight water pipe acts as a transversal across three fencing wires in a garden. How many intersection points and how many total angles are created?",
+     "a": "The expected answer describes a straight pipe crossing 3 fencing wires, resulting in 3 distinct points of intersection and $3 \\times 4 = 12$ total angles formed. A poor answer fails to connect the physical scenario to the geometric definitions of intersection points and angle counts per vertex.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

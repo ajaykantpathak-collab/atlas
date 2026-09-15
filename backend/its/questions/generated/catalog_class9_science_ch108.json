@@ -1,0 +1,542 @@
+{
+ "catalog": "catalog_class9_science_ch108.json",
+ "concepts": [
+  {
+   "id": "iesc.8.1",
+   "title": "Early Foundations of Atomic Theory",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What did early thinkers like Maharishi Kanad propose about matter?",
+     "a": "That matter can be divided again and only until a stage comes beyond which further division is not possible - the smallest particle (parmanu).",
+     "self_check": true
+    },
+    {
+     "q": "What did Dalton add to the idea of atoms?",
+     "a": "He made it scientific: all matter is made of tiny indivisible atoms that combine in small whole-number ratios to form compounds.",
+     "self_check": true
+    },
+    {
+     "q": "Why were atoms considered indivisible later proved wrong?",
+     "a": "Experiments (like cathode rays) showed atoms contain smaller charged particles - electrons, protons and neutrons.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.8.2.1",
+   "title": "Thomson's Atomic Model and Cathode Rays",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Describe Thomson's model of the atom.",
+     "a": "A sphere of positive charge with electrons embedded in it like seeds in a watermelon - total charge zero.",
+     "self_check": true
+    },
+    {
+     "q": "What observation does Thomson's model explain?",
+     "a": "The atom is electrically neutral - equal positive and negative charges balance.",
+     "self_check": true
+    },
+    {
+     "q": "Why was Thomson's model eventually rejected?",
+     "a": "Rutherford's gold foil experiment showed most of the atom is empty with a tiny dense positive nucleus, not uniform positive charge.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.8.2.2",
+   "title": "Rutherford's Gold Foil Experiment and Nuclear Model",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "scale_factor",
+     "expr": "100000",
+     "explain": "an atom is about ten to the fifth times bigger than its nucleus"
+    },
+    {
+     "step": 2,
+     "name": "nuclei_per_atom",
+     "expr": "atom_diameter * scale_factor",
+     "explain": "how many nuclei would span the atom"
+    },
+    {
+     "step": 3,
+     "name": "nucleus_diameter",
+     "expr": "atom_diameter / scale_factor",
+     "explain": "divide the atom size by the scale"
+    }
+   ],
+   "questions": [
+    {
+     "q": "An atom is 1e-08 cm across; its nucleus is a lakh times smaller. Estimate the nuclear size.",
+     "vals": {
+      "atom_diameter": 1e-08
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "0 cm",
+     "self_check": false
+    },
+    {
+     "q": "If an atom measures 2e-08 cm, what is the size of its nucleus (1/100000)?",
+     "vals": {
+      "atom_diameter": 2e-08
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "0 cm",
+     "self_check": false
+    },
+    {
+     "q": "An atom of radius 5e-08 cm: find the nucleus diameter at one lakhth of it.",
+     "vals": {
+      "atom_diameter": 5e-08
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "0 cm",
+     "self_check": false
+    },
+    {
+     "q": "A hydrogen atom is 1.06e-08 cm wide. Estimate its nucleus width.",
+     "vals": {
+      "atom_diameter": 1.06e-08
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "0 cm",
+     "self_check": false
+    },
+    {
+     "q": "An atom 4e-06 mm across has a nucleus a lakh times smaller. Find that size in mm.",
+     "vals": {
+      "atom_diameter": 4e-06
+     },
+     "unit": "mm",
+     "steps": null,
+     "a": "0 mm",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.8.2.3",
+   "title": "Bohr's Postulates and Energy Levels",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "State Bohr's key postulate about electron orbits.",
+     "a": "Electrons revolve only in certain allowed orbits (shells) with fixed energy and do not radiate energy while in them.",
+     "self_check": true
+    },
+    {
+     "q": "How are shells named?",
+     "a": "K, L, M, N... outward from the nucleus, each holding at most 2n squared electrons.",
+     "self_check": true
+    },
+    {
+     "q": "Why do electrons in Bohr's orbits not fall into the nucleus?",
+     "a": "Each allowed orbit has a definite energy; electrons in these stationary states do not lose energy by radiating.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.8.5",
+   "title": "Atomic Number and Charge Conservation",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is the atomic number of an element?",
+     "a": "The number of protons in its nucleus - the same as the number of electrons in a neutral atom.",
+     "self_check": true
+    },
+    {
+     "q": "Why is atomic number the true identity of an element?",
+     "a": "Every atom of an element has the same proton number, and no two elements share it.",
+     "self_check": true
+    },
+    {
+     "q": "An atom has 12 protons. What element is it and how many electrons has it?",
+     "a": "Magnesium (atomic number 12); a neutral atom has 12 electrons.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.8.6",
+   "title": "Mass Number and Subatomic Composition",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "mass_number",
+     "expr": "protons + neutrons",
+     "explain": "mass number counts protons and neutrons"
+    },
+    {
+     "step": 2,
+     "name": "neutron_fraction",
+     "expr": "neutrons / (protons + neutrons)",
+     "explain": "fraction of the mass number from neutrons"
+    },
+    {
+     "step": 3,
+     "name": "electrons",
+     "expr": "protons",
+     "explain": "a neutral atom has as many electrons as protons"
+    }
+   ],
+   "questions": [
+    {
+     "q": "An atom of sodium has 11 protons and 12 neutrons. Find its mass number and electron count.",
+     "vals": {
+      "protons": 11,
+      "neutrons": 12
+     },
+     "unit": null,
+     "steps": null,
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "Chlorine has 17 protons and 18 neutrons. Calculate its mass number and electrons.",
+     "vals": {
+      "protons": 17,
+      "neutrons": 18
+     },
+     "unit": null,
+     "steps": null,
+     "a": "17",
+     "self_check": false
+    },
+    {
+     "q": "An oxygen atom has 8 protons and 8 neutrons. Find its mass number.",
+     "vals": {
+      "protons": 8,
+      "neutrons": 8
+     },
+     "unit": null,
+     "steps": null,
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Iron has 26 protons and 30 neutrons. What are its mass number and electron count?",
+     "vals": {
+      "protons": 26,
+      "neutrons": 30
+     },
+     "unit": null,
+     "steps": null,
+     "a": "26",
+     "self_check": false
+    },
+    {
+     "q": "Uranium has 92 protons and 146 neutrons. Find its mass number and electron count.",
+     "vals": {
+      "protons": 92,
+      "neutrons": 146
+     },
+     "unit": null,
+     "steps": null,
+     "a": "92",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.8.7",
+   "title": "Bohr-Bury Electron Shell Capacity",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "n_squared",
+     "expr": "n * n",
+     "explain": "square the shell number"
+    },
+    {
+     "step": 2,
+     "name": "lower_shell_cap",
+     "expr": "2 * (n - 1) ** 2",
+     "explain": "capacity of the shell one level lower"
+    },
+    {
+     "step": 3,
+     "name": "max_electrons",
+     "expr": "2 * n_squared",
+     "explain": "shell n holds at most 2n squared electrons"
+    }
+   ],
+   "questions": [
+    {
+     "q": "How many electrons can the K shell (n = 1) hold at most?",
+     "vals": {
+      "n": 1
+     },
+     "unit": "electrons",
+     "steps": null,
+     "a": "2 electrons",
+     "self_check": false
+    },
+    {
+     "q": "Find the maximum electrons in the L shell (n = 2).",
+     "vals": {
+      "n": 2
+     },
+     "unit": "electrons",
+     "steps": null,
+     "a": "8 electrons",
+     "self_check": false
+    },
+    {
+     "q": "What is the capacity of the M shell (n = 3)?",
+     "vals": {
+      "n": 3
+     },
+     "unit": "electrons",
+     "steps": null,
+     "a": "18 electrons",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the maximum electrons for the N shell (n = 4).",
+     "vals": {
+      "n": 4
+     },
+     "unit": "electrons",
+     "steps": null,
+     "a": "32 electrons",
+     "self_check": false
+    },
+    {
+     "q": "Using 2n squared, how many electrons fill a shell with n = 5?",
+     "vals": {
+      "n": 5
+     },
+     "unit": "electrons",
+     "steps": null,
+     "a": "50 electrons",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.8.8",
+   "title": "Valency and Octet Rule",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "other_count",
+     "expr": "8 - valence_electrons",
+     "explain": "electrons needed to complete the octet"
+    },
+    {
+     "step": 2,
+     "name": "octet_check",
+     "expr": "valence_electrons + other_count",
+     "explain": "outer electrons plus shortfall (octet check)"
+    },
+    {
+     "step": 3,
+     "name": "valency",
+     "expr": "min(valence_electrons, other_count)",
+     "explain": "valency is the smaller of outer electrons and octet shortfall"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the valency of an atom with 1 valence electron (like sodium).",
+     "vals": {
+      "valence_electrons": 1
+     },
+     "unit": null,
+     "steps": null,
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "An atom has 4 valence electrons (like carbon). What is its valency?",
+     "vals": {
+      "valence_electrons": 4
+     },
+     "unit": null,
+     "steps": null,
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Oxygen has 6 valence electrons. Determine its valency.",
+     "vals": {
+      "valence_electrons": 6
+     },
+     "unit": null,
+     "steps": null,
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Neon has 8 valence electrons. What is its valency?",
+     "vals": {
+      "valence_electrons": 8
+     },
+     "unit": null,
+     "steps": null,
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Aluminium has 3 valence electrons. Calculate its valency.",
+     "vals": {
+      "valence_electrons": 3
+     },
+     "unit": null,
+     "steps": null,
+     "a": "3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.8.9.1a",
+   "title": "Concept and Applications of Isotopes",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are isotopes?",
+     "a": "Atoms of the same element with the same atomic number but different mass numbers (different neutrons).",
+     "self_check": true
+    },
+    {
+     "q": "Give one medical and one industrial use of isotopes.",
+     "a": "Cobalt-60 or iodine-131 treat cancer and thyroid disorders; uranium-235 is fuel in nuclear reactors.",
+     "self_check": true
+    },
+    {
+     "q": "Why do isotopes of an element show the same chemical properties?",
+     "a": "Chemical behaviour depends on electron count, which is the same since the atomic number is the same.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.8.9.1b",
+   "title": "Weighted Average Atomic Mass Calculation",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "mass_sum",
+     "expr": "mass_1 * percent_1 + mass_2 * percent_2",
+     "explain": "weighted sum of isotope masses"
+    },
+    {
+     "step": 2,
+     "name": "mass_gap",
+     "expr": "mass_2 - mass_1",
+     "explain": "gap between the two isotope masses"
+    },
+    {
+     "step": 3,
+     "name": "avg_mass",
+     "expr": "mass_sum / 100",
+     "explain": "divide by the total percentage (100)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Chlorine is 75% Cl-35 and 25% Cl-37. Find its average atomic mass.",
+     "vals": {
+      "mass_1": 35,
+      "percent_1": 75,
+      "mass_2": 37,
+      "percent_2": 25
+     },
+     "unit": "u",
+     "steps": null,
+     "a": "35.5 u",
+     "self_check": false
+    },
+    {
+     "q": "Boron is 20% B-10 and 80% B-11. Calculate the average atomic mass.",
+     "vals": {
+      "mass_1": 10,
+      "percent_1": 20,
+      "mass_2": 11,
+      "percent_2": 80
+     },
+     "unit": "u",
+     "steps": null,
+     "a": "10.8 u",
+     "self_check": false
+    },
+    {
+     "q": "A sample is 90% isotope of mass 20 and 10% of mass 22. Find the average mass.",
+     "vals": {
+      "mass_1": 20,
+      "percent_1": 90,
+      "mass_2": 22,
+      "percent_2": 10
+     },
+     "unit": "u",
+     "steps": null,
+     "a": "20.2 u",
+     "self_check": false
+    },
+    {
+     "q": "Neon is 90.5% Ne-20 and 9.5% Ne-22. Compute the average atomic mass.",
+     "vals": {
+      "mass_1": 20,
+      "percent_1": 90.5,
+      "mass_2": 22,
+      "percent_2": 9.5
+     },
+     "unit": "u",
+     "steps": null,
+     "a": "20.19 u",
+     "self_check": false
+    },
+    {
+     "q": "An element is 60% mass 63 and 40% mass 65. What is its average atomic mass?",
+     "vals": {
+      "mass_1": 63,
+      "percent_1": 60,
+      "mass_2": 65,
+      "percent_2": 40
+     },
+     "unit": "u",
+     "steps": null,
+     "a": "63.8 u",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.8.9.2",
+   "title": "Concept of Isobars",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are isobars?",
+     "a": "Atoms of different elements with different atomic numbers but the same mass number.",
+     "self_check": true
+    },
+    {
+     "q": "Give an example of isobars.",
+     "a": "Calcium-40 (20 protons) and argon-40 (18 protons) - both mass number 40.",
+     "self_check": true
+    },
+    {
+     "q": "How do isobars differ chemically?",
+     "a": "They are different elements with different electron counts, so their chemical properties differ.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

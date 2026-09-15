@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_04_011",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_04_011",
+   "title": "c12_psy_cbse_04_011",
+   "questions": [
+    {
+     "q": "A 10-year-old child frequently argues with adults, actively defies rules, deliberately annoys peers, and blames others for his mistakes. These behaviours have persisted for 7 months and occur at home and school. The child has never stolen, destroyed property, or physically harmed anyone. Which disorder best fits this presentation?",
+     "a": "Oppositional Defiant Disorder (ODD). The child shows the classic angry/irritable mood (argues, defies), argumentative/defiant behaviour (annoys, blames), and vindictiveness (implied by deliberate annoyance) for >6 months, without the aggression toward people/animals, destruction of property, deceitfulness/theft, or serious rule violations required for Conduct Disorder. A WRONG answer of \"Conduct Disorder\" reveals the student conflates defiance with antisocial behaviour and misses the critical boundary: ODD involves *non-compliance and hostility*; Conduct Disorder involves *violation of others' basic rights*.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a clinician would diagnose Anorexia Nervosa (Restricting Type) rather than Bulimia Nervosa for a 17-year-old female with BMI 15.8 who severely restricts food, exercises excessively, has intense fear of weight gain, and reports no binge-eating or purging episodes in the past year.",
+     "a": "Anorexia Nervosa (Restricting Type) is diagnosed because: (1) BMI 15.8 indicates significantly low body weight (criterion A), (2) there is persistent restriction of energy intake (criterion A), (3) intense fear of gaining weight/becoming fat (criterion B), and (4) *no recurrent binge-eating or compensatory behaviours* (which would indicate Bulimia or Anorexia Binge-Eating/Purging Type). A WRONG answer of \"Bulimia\" reveals the student mistakenly believes low weight + excessive exercise = Bulimia, ignoring that Bulimia *requires* recurrent binge-eating episodes with loss of control, followed by inappropriate compensatory behaviours, typically at normal or above-normal weight.",
+     "self_check": true
+    },
+    {
+     "q": "Case: 13-year-old Arjun has, for the past 14 months, repeatedly initiated physical fights, used a cricket bat to threaten a classmate, deliberately set fire to a neighbour's shed, broken into a parked car to steal a music system, and stayed out past midnight despite parental prohibition since age 11. He shows no guilt. Identify the disorder and justify using *three* specific criteria from the Conduct Disorder symptom list.",
+     "a": "Conduct Disorder (Childhood-Onset Type, since onset before age 10). Three criteria met: (1) Aggression to people/animals — \"initiated physical fights\" and \"used a cricket bat to threaten\" (criteria A1, A2); (2) Destruction of property — \"deliberately set fire to a neighbour's shed\" (criterion A3); (3) Deceitfulness/theft — \"broken into a parked car to steal\" (criterion A4); (4) Serious rule violations — \"stayed out past midnight since age 11\" (criterion A5). Any three suffice. A WRONG answer of \"ODD\" reveals the student fails to recognise that *physical aggression with weapons, arson, burglary, and chronic rule-breaking* far exceed ODD's scope of defiance/hostility and constitute violation of others' rights — the hallmark of Conduct Disorder.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Anorexia Nervosa and Bulimia Nervosa on the following dimensions: (a) Typical weight status at presentation, (b) Presence/absence of binge-eating episodes, (c) Nature of body image disturbance, (d) Medical risk profile. Present as a structured comparison.",
+     "a": "(a) Weight: Anorexia — significantly low (BMI <18.5, often <17); Bulimia — typically normal or above normal (BMI ≥18.5). (b) Binge-eating: Anorexia Restricting Type — absent; Anorexia Binge-Eating/Purging Type — present but *only during Anorexia episode*; Bulimia — *recurrent, defining feature* (≥1/week for 3 months). (c) Body image: Anorexia — *disturbance in experience of body weight/shape, undue influence on self-evaluation, persistent lack of recognition of seriousness of low weight*; Bulimia — *self-evaluation unduly influenced by body shape/weight* but *no lack of recognition of low weight seriousness* (since weight isn't low). (d) Medical risk: Anorexia — *starvation complications* (cardiac arrhythmia, electrolyte imbalance, osteoporosis, refeeding syndrome, highest mortality of any psychiatric disorder); Bulimia — *purge complications* (electrolyte imbalance, dental erosion, esophageal tears, gastric rupture, cardiac arrhythmia from hypokalemia). A WRONG answer stating \"both have low weight\" or \"both have binge-eating\" reveals confusion between the *defining* features of each disorder.",
+     "self_check": true
+    },
+    {
+     "q": "A popular media article claims: \"Anorexia is just extreme dieting; if the person starts eating normally, they're cured.\" Evaluate this claim using *three* specific diagnostic criteria and *one* prognostic fact from the NCERT/classroom knowledge.",
+     "a": "The claim is false. Three criteria refute \"just dieting\": (1) Criterion B — *intense fear of gaining weight/becoming fat, persistent behaviour interfering with weight gain* — this is not voluntary dieting but a *phobic-level fear* driving behaviour; (2) Criterion C — *disturbance in experience of body weight/shape, undue influence on self-evaluation, persistent lack of recognition of seriousness of low weight* — the person *genuinely perceives themselves as fat* when emaciated, a perceptual/cognitive distortion absent in dieting; (3) The behaviour is *ego-syntonic* (valued by the patient) not ego-dystonic (unwanted like a diet). Prognostic fact: Anorexia has the *highest mortality rate* of any psychiatric disorder (~5-10% per decade); \"starting to eat\" without addressing the core psychopathology (fear, body image, control needs) leads to high relapse. A WRONG answer agreeing with the claim reveals the student views Anorexia as a *behavioural choice* rather than a *neurobiologically mediated disorder with fixed false beliefs*.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 5-item screening checklist a school counsellor could use to flag potential Conduct Disorder in adolescents (ages 12-16). Each item must map to a *specific* DSM-5 criterion category (A1-A15). Items should be observable behaviours, not internal states.",
+     "a": "Sample checklist (each maps to a criterion):\n1. \"Has initiated physical fights or used a weapon (bat, stone, knife) against others in the past 12 months?\" → Aggression to people/animals (A1, A2).\n2. \"Has deliberately destroyed others' property (fire-setting, vandalism, breaking items) in the past 12 months?\" → Destruction of property (A3).\n3. \"Has broken into a building/car/locker or stolen items of non-trivial value (confronting victim or not) in the past 12 months?\" → Deceitfulness/theft (A4, A5).\n4. \"Has stayed out at night despite parental prohibition before age 13, or run away from home overnight at least twice (or once for extended period)?\" → Serious rule violations (A6, A7).\n5. \"Has forced someone into sexual activity or been physically cruel to animals in the past 12 months?\" → Severe aggression (A1, A2 extended).\nA poor answer listing vague items like \"is aggressive\" or \"breaks rules\" reveals the student cannot operationalise diagnostic criteria into observable, criterion-specific screening items — a key competency for applied psychology.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

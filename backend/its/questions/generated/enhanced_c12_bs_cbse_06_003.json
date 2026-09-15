@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_06_003",
+   "title": "c12_bs_cbse_06_003",
+   "questions": [
+    {
+     "q": "What is the primary difference between the traditional concept of 'personnel management' and modern 'Human Resource Management'?",
+     "a": "Correct answer: Personnel management was limited to labour welfare, record-keeping, and administrative tasks, treating workers as a cost; HRM is strategic, views employees as valuable assets (human capital), and integrates people management with organizational strategy. A wrong answer that says \"they are the same\" or \"HRM is just a new name\" reveals the misconception that HRM is merely a terminological change without a shift in philosophy.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why staffing is considered both a 'line function' and a 'staff function' in an organization.",
+     "a": "Correct answer: Staffing is a line function because every manager (line manager) must fill positions in their department, select, train, and appraise their own team. It is a staff function because the HR department (staff specialists) provides expertise, policies, and support (recruitment, compensation design, legal compliance) to line managers. A wrong answer that says \"only HR does staffing\" ignores the line manager's direct responsibility; \"only managers do staffing\" ignores the specialized HR support.",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturing company has 500 workers but no HR department. The factory manager handles hiring, payroll, and disputes. As the company plans to expand to 2000 workers, the CEO asks you: \"What three specialized HR duties should we prioritize setting up first, and why?\" Apply the HRM duties from the textbook.",
+     "a": "Correct answer (example): 1) Recruitment and selection system to handle volume hiring systematically; 2) Compensation and incentive plans to ensure fair, competitive pay as workforce grows; 3) Training and development to upskill workers for new technology. These address immediate scaling needs. A wrong answer that picks \"grievance handling\" or \"legal defense\" first shows misunderstanding of priority during growth phase.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 'human relations approach' and the 'human resource approach' in the evolution of HRM. How did technological change drive the shift?",
+     "a": "Correct answer: Human relations approach (1930s-50s) recognized human factor as key to productivity but focused on morale and social needs. Human resource approach (1960s onward) recognized people as a valuable resource that can be developed; technological change necessitated new skills, making training and development central. A wrong answer that conflates the two or misses the technology link fails to analyze the evolutionary driver.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"In a small organization, the line manager can perform all HRM duties effectively without a separate HR department.\" Use concepts from the chapter to justify your position.",
+     "a": "Correct answer: Partially true for very small firms (as NCERT says managers may perform all duties), but as organization grows, specialized duties like compensation design, labour law compliance, and strategic workforce planning require expertise beyond a line manager's capacity. The statement is not universally valid—it depends on size, complexity, and legal environment. A wrong answer that says \"always true\" or \"never true\" lacks nuanced evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mind-map showing the evolution of HRM from the Industrial Revolution to present, labeling each stage with its key focus and the trigger for the next stage. (Open-ended)",
+     "a": "Expected answer: A mind-map with stages: (1) Industrial Revolution → Labour Welfare Officer (focus: minimum welfare, trigger: trade unions), (2) Factory System → Personnel Officer (focus: hiring/placement, trigger: scale), (3) Human Relations Approach → Personnel Manager (focus: morale/social needs, trigger: Hawthorne studies), (4) Technological Change → Human Resource Manager (focus: skill development, human capital, trigger: fast-changing tech), (5) Strategic HRM (focus: aligning HR with business strategy, trigger: global competition). A poor answer lists stages without triggers or focuses, showing lack of analytical synthesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

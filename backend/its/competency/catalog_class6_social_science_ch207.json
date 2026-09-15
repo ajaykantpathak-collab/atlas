@@ -1,0 +1,386 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 207,
+ "chapter_title": "OUR COUNTRY - INDIA",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\fees108.txt",
+ "concepts": [
+  {
+   "id": "fess.207.1",
+   "title": "Geographical Expanse and Territorial Extent of India",
+   "section": "OUR COUNTRY - INDIA",
+   "definition": "The total spatial expanse of India covering its geographical surface area along with north-to-south and east-to-west linear dimensions.",
+   "formula": "",
+   "key_idea": "India covers about 3.28 million square kilometers with distinct latitudinal and longitudinal boundaries.",
+   "textbook_ref": "fess207.txt lines 1-20",
+   "question_patterns": [
+    "what is the total geographical area of India",
+    "calculate the approximate distance from Ladakh to Kanyakumari",
+    "find the east to west distance from Arunachal Pradesh to Kuchchh",
+    "how much area does the landmass of India occupy",
+    "state the linear extent of India from north to south"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify total surface area",
+     "explain": "India covers approximately 3.28 million square kilometers of total land area."
+    },
+    {
+     "step": 2,
+     "action": "identify north-south distance",
+     "explain": "The north-south extent from Ladakh to Kanyakumari measures about 3,200 km."
+    },
+    {
+     "step": 3,
+     "action": "identify east-west distance",
+     "explain": "The east-west extent from Arunachal Pradesh to Kuchchh measures about 2,900 km."
+    }
+   ]
+  },
+  {
+   "id": "fess.207.2",
+   "title": "Longitudinal Time Difference Calculation",
+   "section": "LOCATIONAL SETTING",
+   "definition": "Computation of local time variation between two longitudes based on the constant rate of four minutes per degree of longitudinal separation.",
+   "formula": "time_diff_min = degree_diff * 4",
+   "key_idea": "Earth rotation causes a local time change of four minutes for each degree of longitude.",
+   "textbook_ref": "fess207.txt lines 25-45",
+   "question_patterns": [
+    "calculate local time difference for longitudinal difference of {degree_diff} degrees",
+    "find time gap in hours between two longitudes separated by {degree_diff} degrees",
+    "how much time difference occurs over a longitude extent of {degree_diff} degrees",
+    "determine local time variation across {degree_diff} degrees longitude",
+    "what is the time offset in hours for {degree_diff} degrees longitudinal difference"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate total time difference in minutes",
+     "explain": "Multiply the longitudinal difference in degrees by 4 minutes per degree.",
+     "compute": "time_diff_min = degree_diff * 4"
+    },
+    {
+     "step": 2,
+     "action": "convert minutes into hours",
+     "explain": "Divide the total minutes by 60 to obtain time difference in hours.",
+     "compute": "time_diff_hr = time_diff_min / 60"
+    }
+   ]
+  },
+  {
+   "id": "fess.207.3",
+   "title": "Locational Setting and Latitudinal-Longitudinal Boundaries",
+   "section": "LOCATIONAL SETTING",
+   "definition": "The precise global coordinates defining the mainland of India in the northern and eastern hemispheres, including key latitude lines.",
+   "formula": "",
+   "key_idea": "India lies in the Northern and Eastern Hemispheres, bisected by the Tropic of Cancer at 23 degrees 30 minutes N.",
+   "textbook_ref": "fess207.txt lines 20-35",
+   "question_patterns": [
+    "what are the latitudinal limits of mainland India",
+    "find the longitudinal extent of India",
+    "which latitude line divides India into roughly two equal halves",
+    "identify the hemisphere in which India is situated",
+    "state the coordinate extent of the Indian mainland"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify latitude extent",
+     "explain": "Mainland India extends between 8 degrees 4 minutes N and 37 degrees 6 minutes N latitudes."
+    },
+    {
+     "step": 2,
+     "action": "identify longitude extent",
+     "explain": "India extends between 68 degrees 7 minutes E and 97 degrees 25 minutes E longitudes."
+    },
+    {
+     "step": 3,
+     "action": "identify key dividing latitude",
+     "explain": "The Tropic of Cancer (23 degrees 30 minutes N) passes almost halfway through the country."
+    }
+   ]
+  },
+  {
+   "id": "fess.207.4",
+   "title": "India's Land Neighbours and Marine Boundaries",
+   "section": "INDIA'S NEIGHBOURS",
+   "definition": "The geographical relationships of India with adjacent countries sharing land borders or maritime boundaries across surrounding seas.",
+   "formula": "",
+   "key_idea": "Seven countries border India by land while island neighbours lie across water channels such as the Palk Strait.",
+   "textbook_ref": "fess207.txt lines 45-65",
+   "question_patterns": [
+    "name the countries sharing land boundaries with India",
+    "which water feature separates Sri Lanka from India",
+    "identify the island neighbours of India located to the south",
+    "how many countries share land borders with India",
+    "find which neighbouring nations do not have access to an ocean"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list land neighbours",
+     "explain": "Seven countries share terrestrial borders with India: Pakistan, Afghanistan, China, Nepal, Bhutan, Bangladesh, and Myanmar."
+    },
+    {
+     "step": 2,
+     "action": "identify island neighbours and strait",
+     "explain": "Sri Lanka and Maldives are southern island neighbours; Sri Lanka is separated from India by the Palk Strait."
+    }
+   ]
+  },
+  {
+   "id": "fess.207.5",
+   "title": "Political and Administrative Structure of India",
+   "section": "POLITICAL AND ADMINISTRATIVE DIVISIONS",
+   "definition": "The governance framework dividing India into states created primarily on a linguistic basis and centrally governed union territories.",
+   "formula": "",
+   "key_idea": "India comprises 28 states and 8 union territories with New Delhi as the national capital.",
+   "textbook_ref": "fess207.txt lines 65-75",
+   "question_patterns": [
+    "how many states and union territories exist in India",
+    "what is the capital city of India",
+    "on what major basis were states formed in India",
+    "find which states share a common capital",
+    "describe administrative divisions of India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count states and union territories",
+     "explain": "India is divided into 28 states and 8 Union Territories."
+    },
+    {
+     "step": 2,
+     "action": "identify national capital and state formation basis",
+     "explain": "Delhi is the national capital, and states were formed predominantly based on regional languages."
+    }
+   ]
+  },
+  {
+   "id": "fess.207.6",
+   "title": "Himalayan Mountain Range Structure",
+   "section": "PHYSICAL DIVISIONS",
+   "definition": "The northernmost mountain barrier of India, divided into three parallel structural longitudinal zones.",
+   "formula": "",
+   "key_idea": "The Himalayas consist of Himadri (Great Himalayas), Himachal (Middle Himalayas), and Shiwalik (Outer Himalayas).",
+   "textbook_ref": "fess207.txt lines 75-90",
+   "question_patterns": [
+    "name the three parallel ranges of the Himalayas",
+    "which is the northernmost range of the Himalayas containing world famous peaks",
+    "identify the southernmost range of the Himalayan mountain system",
+    "where are popular hill stations situated in the Himalayas",
+    "what does the word Himalaya mean"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify northernmost range",
+     "explain": "Great Himalaya or Himadri is the northernmost range and contains the highest peaks."
+    },
+    {
+     "step": 2,
+     "action": "identify middle range",
+     "explain": "Middle Himalaya or Himachal lies south of Himadri and houses popular hill stations."
+    },
+    {
+     "step": 3,
+     "action": "identify southernmost range",
+     "explain": "Shiwalik is the southernmost Himalayan range."
+    }
+   ]
+  },
+  {
+   "id": "fess.207.7",
+   "title": "Northern Indian Plains and Alluvial River Systems",
+   "section": "PHYSICAL DIVISIONS",
+   "definition": "Flat and fertile plains located south of the Himalayas formed by silt deposits carried by major river networks.",
+   "formula": "",
+   "key_idea": "Fine alluvial soil brought by the Indus, Ganga, Brahmaputra and tributaries creates highly fertile, densely populated plains.",
+   "textbook_ref": "fess207.txt lines 90-105",
+   "question_patterns": [
+    "how are the Northern Indian plains formed",
+    "why do a large number of people reside in the Northern plains",
+    "name the major river systems contributing to alluvial deposits in the northern plains",
+    "what is an alluvial deposit",
+    "define a river tributary in geographical terms"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain formation process",
+     "explain": "Rivers like Indus, Ganga, and Brahmaputra deposit fine alluvial soil during flooding, creating flat plains."
+    },
+    {
+     "step": 2,
+     "action": "explain high population density",
+     "explain": "Fertile agricultural land and level terrain make these plains highly suitable for cultivation and settlement."
+    }
+   ]
+  },
+  {
+   "id": "fess.207.8",
+   "title": "Peninsular Plateau and Relief Features",
+   "section": "PHYSICAL DIVISIONS",
+   "definition": "A triangular elevated landform with uneven terrain south of the northern plains, rich in mineral resources and framed by hill ranges.",
+   "formula": "",
+   "key_idea": "The plateau is bounded by Aravali, Vindhya, Satpura ranges and drained westward by Narmada and Tapi rivers into the Arabian Sea.",
+   "textbook_ref": "fess207.txt lines 105-130",
+   "question_patterns": [
+    "describe the shape and relief of the Peninsular plateau",
+    "which two major rivers flow westwards into the Arabian Sea",
+    "what is the oldest mountain range in India",
+    "identify mountain ranges bordering the Peninsular plateau",
+    "which minerals are abundantly found in the Peninsular plateau"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe relief and shape",
+     "explain": "The Peninsular plateau is triangular with uneven relief, containing numerous hill ranges and valleys."
+    },
+    {
+     "step": 2,
+     "action": "identify west-flowing rivers",
+     "explain": "Narmada and Tapi flow west between Vindhya and Satpura ranges into the Arabian Sea."
+    },
+    {
+     "step": 3,
+     "action": "identify bounding hill ranges and minerals",
+     "explain": "Bordered by Aravali, Western Ghats (Sahyadris), and Eastern Ghats; rich in coal and iron ore."
+    }
+   ]
+  },
+  {
+   "id": "fess.207.9",
+   "title": "Coastal Plains, Deltas, and Island Archipelagos",
+   "section": "PHYSICAL DIVISIONS",
+   "definition": "Coastal regions bordering the peninsular plateau along with offshore island groups formed by coral polyps or sub-sea topography.",
+   "formula": "",
+   "key_idea": "Narrow western and broad eastern coastal plains, Sundarbans delta, coral Lakshadweep in Arabian Sea, and Andaman & Nicobar in Bay of Bengal.",
+   "textbook_ref": "fess207.txt lines 130-160",
+   "question_patterns": [
+    "compare the western and eastern coastal plains of India",
+    "which major delta is formed by the Ganga and Brahmaputra rivers",
+    "why is Lakshadweep classified as a coral island group",
+    "name the Indian islands situated in the Arabian Sea and Bay of Bengal",
+    "which rivers drain eastwards into the Bay of Bengal forming fertile deltas"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare coastal plains",
+     "explain": "Western coastal plains are narrow; eastern coastal plains are broader with east-flowing rivers (Mahanadi, Godavari, Krishna, Kaveri)."
+    },
+    {
+     "step": 2,
+     "action": "identify deltas",
+     "explain": "Ganga and Brahmaputra form the triangular Sundarbans delta at their mouth in the Bay of Bengal."
+    },
+    {
+     "step": 3,
+     "action": "describe island groups",
+     "explain": "Lakshadweep in Arabian Sea is made of coral polyp skeletons; Andaman and Nicobar lie in the Bay of Bengal."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fess207.txt lines 25-45",
+   "concept": "fess.207.2",
+   "question_type": "compute_time_difference",
+   "question_pattern": "If two places in India have a longitudinal difference of {degree_diff} degrees, calculate the time difference in hours between them.",
+   "extracted_variables": {
+    "degree_diff": 29
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate total time difference in minutes",
+     "explain": "Multiply the longitudinal difference in degrees by 4 minutes per degree.",
+     "compute": "time_diff_min = degree_diff * 4"
+    },
+    {
+     "step": 2,
+     "action": "convert minutes into hours",
+     "explain": "Divide the total minutes by 60 to obtain time difference in hours.",
+     "compute": "time_diff_hr = time_diff_min / 60"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fess207.txt lines 25-45",
+   "concept": "fess.207.2",
+   "question_type": "compute_time_difference",
+   "question_pattern": "Find the local time difference in hours for two points separated by {degree_diff} degrees of longitude.",
+   "extracted_variables": {
+    "degree_diff": 15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate total time difference in minutes",
+     "explain": "Multiply the longitudinal difference in degrees by 4 minutes per degree.",
+     "compute": "time_diff_min = degree_diff * 4"
+    },
+    {
+     "step": 2,
+     "action": "convert minutes into hours",
+     "explain": "Divide the total minutes by 60 to obtain time difference in hours.",
+     "compute": "time_diff_hr = time_diff_min / 60"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "fess207.txt lines 160-175",
+   "questions": [
+    "Name the major physical divisions of India.",
+    "India shares its land boundaries with seven countries. Name them.",
+    "Which two major rivers fall into the Arabian Sea?",
+    "Name the delta formed by the Ganga and the Brahmaputra.",
+    "How many States and Union Territories are there in India? Which states have a common capital?",
+    "Why do a large number of people live in the Northern plains?",
+    "Why is Lakshadweep known as a coral island?"
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "fess207.txt lines 176-195",
+   "questions": [
+    "The southernmost Himalayas are known as (i) Shiwaliks (ii) Himadri (iii) Himachal",
+    "Sahyadris is also known as (i) Aravali (ii) Western Ghats (iii) Himadri",
+    "The Palk Strait lies between the countries (i) Sri Lanka and Maldives (ii) India and Sri Lanka (iii) India and Maldives",
+    "The Indian islands in the Arabian Sea are known as (i) Andaman and Nicobar Islands (ii) Lakshadweep Islands (iii) Maldives",
+    "The oldest mountain range in India is the (i) Aravali hills (ii) Western ghats (iii) Himalayas"
+   ]
+  },
+  {
+   "id": "ex1.3",
+   "source_ref": "fess207.txt lines 196-210",
+   "questions": [
+    "India has an area of about ____.",
+    "The Greater Himalayas are also known as ____.",
+    "The river Narmada falls into the ____ sea.",
+    "The latitude that runs almost halfway through India is ____."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_16_008",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_16_008",
+   "title": "c12_geo_cbse_16_008",
+   "questions": [
+    {
+     "q": "Name the only major port on India's east coast that is a land-locked harbour connected to the sea by a channel cut through solid rock and sand, and state its primary hinterland states.",
+     "a": "Visakhapatnam Port (Andhra Pradesh) — hinterland: Andhra Pradesh and Telangana. A wrong answer (e.g., Chennai, Paradip, Tuticorin) reveals the student cannot distinguish natural vs. artificial harbours and misses the unique \"channel-cut\" geomorphology described in NCERT. Confusing it with Kolkata (riverine, silt-prone) or Ennore (artificial, shallow) shows poor retention of port-specific physical geography.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the west coast of India have more major ports (7) than the east coast (5) despite the east coast having a longer coastline? Explain using two geographical factors.",
+     "a": "(1) Wider continental shelf and submerged coastline on the west coast create deeper natural harbours (Mumbai, Mormugao, Cochin) needing less dredging; east coast has emergent coastline with deltas causing siltation (Hugli, Mahanadi, Godavari). (2) Historical trade axis: west coast faced the Arabian Sea-Europe-West Asia route since ancient times, attracting European colonial investment (British, Portuguese). A wrong answer citing only \"longer coastline\" or \"more rivers\" shows confusion between coastline length and harbour quality, and ignores the geological control on port siting.",
+     "self_check": true
+    },
+    {
+     "q": "A shipment of iron ore from Bellary-Hospet (Karnataka) is exported to Japan. Identify the most likely major port of exit, the sea route it would take, and the key chokepoint it must pass through. Justify each choice.",
+     "a": "Port: Mormugao (Goa) — nearest major port to Bellary-Hospet via Konkan Railway. Route: Mormugao → Arabian Sea → Indian Ocean → Malacca Strait → South China Sea → Japan. Chokepoint: Malacca Strait (between Sumatra and Malay Peninsula). Wrong port choice (e.g., New Mangalore, though also in Karnataka, handles more fertiliser/petroleum; Chennai is 600 km farther) shows ignorance of hinterland-rail linkage. Missing Malacca Strait reveals lack of global sea-route awareness.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the hinterland overlap problem between Mumbai Port and Jawaharlal Nehru Port (JNPT) with that between Kolkata Port and Haldia Port. How does the *nature* of overlap differ?",
+     "a": "Mumbai-JNPT: deliberate satellite port creation — JNPT (Nhava Sheva) was built 1989 explicitly to decongest Mumbai; hinterlands overlap heavily (Maharashtra, MP, Gujarat, UP) but JNPT specialises in containers while Mumbai handles bulk/liquid. Kolkata-Haldia: Haldia (1977) built 105 km downstream because Kolkata's riverine location causes siltation and draft restrictions; hinterlands overlap (UP, Bihar, Jharkhand, WB, NE states, Nepal, Bhutan) but Haldia takes bulk (iron ore, coal, POL) while Kolkata declines. Wrong answer treating both as identical \"congestion relief\" misses the geomorphological driver (silt vs. capacity) and cargo specialisation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's partition in 1947 caused a permanent loss of port capacity that was fully compensated by developing Kandla and Diamond Harbour.\" Support your evaluation with two specific pieces of evidence from port history.",
+     "a": "Partially true but incomplete. Evidence 1: Karachi (Pakistan) and Chittagong (Bangladesh) were lost — both were deep-water, high-capacity ports serving the Indus and Ganga-Brahmaputra basins respectively. Evidence 2: Kandla (1950s) and Diamond Harbour/Haldia (1970s) were developed *specifically* to replace lost capacity for northwest and northeast hinterlands. However, \"fully compensated\" is false: Karachi's natural deep harbour and Chittagong's river-estuary advantage were geographically superior; Kandla required massive artificial development in a harsh Gulf of Kachchh environment, and Haldia still faces draft limits. A student saying \"yes, fully compensated\" ignores the geomorphological deficit; saying \"no compensation\" ignores the policy response.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new major port for exporting steel from the Angul-Dhenkanal industrial belt (Odisha) and importing coking coal from Australia. Specify: (a) optimal coastal location, (b) required geomorphological conditions, (c) rail linkage strategy, and (d) one environmental constraint to mitigate.",
+     "a": "(a) Dhamra River mouth (Bhadrak district, Odisha) — between Paradip and Kolkata, closest to Angul-Dhenkanal (~150 km). (b) Natural deep draft (>15 m) without heavy dredging; minimal littoral drift; stable river mouth (unlike shifting Hugli). (c) Dedicated freight corridor linking to Howrah-Chennai main line at Bhadrak Road station, with new spur to Angul. (d) Olive Ridley turtle nesting beaches at Gahirmatha (nearby) — require seasonal construction bans and lighting controls. Poor answer: picking Paradip (already congested, hinterland overlap with coal/iron ore), ignoring turtle ecology, or proposing rail link via Cuttack (longer, congested).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

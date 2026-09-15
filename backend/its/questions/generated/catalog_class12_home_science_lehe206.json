@@ -1,0 +1,245 @@
+{
+ "catalog": "catalog_class12_home_science_lehe206",
+ "concepts": [
+  {
+   "id": "lehe206.1",
+   "title": "Development Communication: Meaning and Essential Features",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Development Communication: Meaning and Essential Features' refers to.",
+     "a": "Development communication puts planned messaging to work as an engine of social and economic progress, chiefly for groups left behind. Its hallmarks: information flows both ways, people facing a problem are trusted to help solve it, mass media are blended with face-to-face channels, and content is shaped around who the audience is and where they live.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Development Communication: Meaning and Essential Features'.",
+     "a": "Planned, two-way messaging that treats people as capable partners rather than passive receivers.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Development Communication: Meaning and Essential Features', in plain ASCII form.",
+     "a": "two_way_dialogue plus audience_context plus motivation yields consensus and joint action",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe206.2",
+   "title": "Development Journalism and the Fourth Pillar",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Development Journalism and the Fourth Pillar' refers to.",
+     "a": "A newer branch of reporting, born after colonial rule ended, that highlights how ordinary people adopt new techniques and improve community life instead of covering only struggles, disasters and wars. The press is counted as the fourth pillar that keeps democracy upright by carrying people's opinions and expression.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Development Journalism and the Fourth Pillar'.",
+     "a": "Reporting people's progress, not just conflicts, keeps democracy's fourth pillar strong.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Development Journalism and the Fourth Pillar', in plain ASCII form.",
+     "a": "development_journalism = success_stories plus people_at_work plus community_voices",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe206.3",
+   "title": "Campaign as an Organised Communication Drive",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Campaign as an Organised Communication Drive' refers to.",
+     "a": "A time-bound, tightly organised drive that combines meetings, tours, newspaper articles, leaflets, exhibitions and drama around a single theme. Dramatic presentation across channels grabs attention, the message lodges in memory, and a climate for adopting new practices follows. Advocacy -- championing a cause such as preventing early marriage or deforestation through lobbying and alliances -- works in the same spirit.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Campaign as an Organised Communication Drive'.",
+     "a": "One theme, many channels, a fixed window -- intensity makes the message stick and moves people to act.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Campaign as an Organised Communication Drive', in plain ASCII form.",
+     "a": "campaign_impact = attention plus interest plus memory plus action across many channels",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe206.4",
+   "title": "Red Ribbon Express: Computing Campaign Reach",
+   "questions": [
+    {
+     "q": "Find the average number of villages the Red Ribbon Express served at each halt station. Use the method 'Red Ribbon Express: Computing Campaign Reach'. Work with: halt_stations = 75, villages_covered = 200. Carry the chain through step by step and give the final value of villages_per_station.",
+     "a": "2.6667 years",
+     "self_check": false
+    },
+    {
+     "q": "Calculate villages covered per halt when annual village coverage and the number of halt stations are known. Use the method 'Red Ribbon Express: Computing Campaign Reach'. Work with: halt_stations = 75, villages_covered = 10. Carry the chain through step by step and give the final value of villages_per_station.",
+     "a": "0.1333 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Red Ribbon Express: Computing Campaign Reach' refers to.",
+     "a": "Campaign reach can be measured. Aawareness trains such as the seven-coach Red Ribbon Express, run with NACO, NYKS, UNICEF and UNAIDS support, covered thousands of villages by halting at a fixed number of stations each year; dividing total village coverage by the halts gives the average villages served per stop.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Red Ribbon Express: Computing Campaign Reach'.",
+     "a": "Coverage divided by halts gives the average villages served per stop.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Red Ribbon Express: Computing Campaign Reach', in plain ASCII form.",
+     "a": "villages_per_station = villages_covered / halt_stations",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe206.5",
+   "title": "Radio, Community Radio and Television Outreach",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Radio, Community Radio and Television Outreach' refers to.",
+     "a": "Radio is the cheapest, most portable mass medium, reaching listeners whom poor literacy shuts off from print. Community radio goes further: local people run the station, broadcast in their own dialect and turn the medium into their voice, while NGOs and educational institutions may seek licences. Television adds participatory formats and pairs education with entertainment, and the EDUSAT satellite, launched in September 2004, serves distance education exclusively.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Radio, Community Radio and Television Outreach'.",
+     "a": "Radio travels with the listener; community radio lets people speak in their own voice and dialect.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Radio, Community Radio and Television Outreach', in plain ASCII form.",
+     "a": "outreach = cheap_access plus local_voice plus interactive_formats",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe206.6",
+   "title": "Print Media and Rural Development Reporting",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Print Media and Rural Development Reporting' refers to.",
+     "a": "National and regional dailies lean urban, so agriculture and village problems stay low in priority, yet sustained press attention still works: the Project Village Chhatera column begun in 1969 reported one village's lives fortnightly and pulled machines, bridges, roads and banks into the area. Development journalists spend their day interviewing, attending press conferences and chasing story leads.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Print Media and Rural Development Reporting'.",
+     "a": "Steady rural reporting can haul services and infrastructure into neglected villages.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Print Media and Rural Development Reporting', in plain ASCII form.",
+     "a": "press_effect = sustained_reporting plus services plus infrastructure brought to the area",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe206.7",
+   "title": "ICTs, Tele-centres and SEWA's Digital Push",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'ICTs, Tele-centres and SEWA's Digital Push' refers to.",
+     "a": "Information and Communication Technologies bundle computer hardware and software with digital broadcast and telecommunications. Mobile phones now carry banking, marketing, employment and public services, while tele-centre kiosks -- like the SARI project's 80 kiosks in Tamilnadu offering e-mail, browsing and e-government certificates -- deliver services directly. SEWA's Community Learning Centres train grassroots women in computers, radio, video and satellite tools for self-reliance.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'ICTs, Tele-centres and SEWA's Digital Push'.",
+     "a": "Mobile networks and tele-centres turn information access into economic and social power for the poor.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'ICTs, Tele-centres and SEWA's Digital Push', in plain ASCII form.",
+     "a": "ict_power = mobile_services plus telecentre_kiosks plus grassroots_training",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe206.8",
+   "title": "PSA Appraisal Scoring on the 0-3 Rubric",
+   "questions": [
+    {
+     "q": "Find the total score out of 30 when ten PSA rubric parameters are rated. Use the method 'PSA Appraisal Scoring on the 0-3 Rubric'. Work with: awareness_score = 25, effect_score = 75, engage_score = 10, interest_score = 20, message_score = 500, motivate_score = 12, sound_score = 400, source_score = 15, timing_score = 8, voice_score = 240. Carry the chain through step by step and give the final value of psa_score.",
+     "a": "1305 units",
+     "self_check": false
+    },
+    {
+     "q": "Compute the appraisal total when five parameters score 2 and five score 3. Use the method 'PSA Appraisal Scoring on the 0-3 Rubric'. Work with: awareness_score = 75, effect_score = 18, engage_score = 1500, interest_score = 10, message_score = 10, motivate_score = 5, sound_score = 18, source_score = 8, timing_score = 50, voice_score = 10. Carry the chain through step by step and give the final value of psa_score.",
+     "a": "1704 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'PSA Appraisal Scoring on the 0-3 Rubric' refers to.",
+     "a": "A recorded radio spot for public good can be judged with a ten-parameter rubric: message clarity, listener engagement, interest, awareness value, audience motivation, voice selection, sound recording clarity, sound effects, day-date-time suitability and mention of the source. Each parameter is rated 0 to 3, so the marks add up to a total out of 30.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'PSA Appraisal Scoring on the 0-3 Rubric'.",
+     "a": "Ten rubric ratings on a 0-3 scale add to an appraisal score out of 30.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'PSA Appraisal Scoring on the 0-3 Rubric', in plain ASCII form.",
+     "a": "psa_score = block_one + block_two",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe206.9",
+   "title": "PSA Duration Arithmetic",
+   "questions": [
+    {
+     "q": "Find the midpoint duration of a public service message slotted between 10 and 60 seconds. Use the method 'PSA Duration Arithmetic'. Work with: slot_high = 18, slot_low = 50. Carry the chain through step by step and give the final value of psa_mid.",
+     "a": "34 units",
+     "self_check": false
+    },
+    {
+     "q": "Compute the typical duration of an announcement whose permitted band is 10 to 60 seconds. Use the method 'PSA Duration Arithmetic'. Work with: slot_high = 24, slot_low = 40. Carry the chain through step by step and give the final value of psa_mid.",
+     "a": "32 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'PSA Duration Arithmetic' refers to.",
+     "a": "A public service announcement is a brief jingle-style message broadcast between programmes, advertised for an idea rather than a product. Its planning length sits inside a permitted band -- classically 10 to 60 seconds -- so the typical duration is simply the midpoint of the allowed minimum and maximum.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'PSA Duration Arithmetic'.",
+     "a": "Typical spot length is the midpoint of the permitted minimum and maximum.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'PSA Duration Arithmetic', in plain ASCII form.",
+     "a": "psa_mid = (slot_low + slot_high) / 2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lehe206.10",
+   "title": "Skills and Career Avenues in Development Communication",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Skills and Career Avenues in Development Communication' refers to.",
+     "a": "The professional needs cognitive grip to grasp issues, creative treatment to win attention, technical command of camera, video production and editing, plus presentation and interviewing technique, language command, Microsoft Office basics and laws of the field. Working with diverse groups and listening well matter as much; careers span print, TV, radio and community media, research, training, freelancing and consultancy.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Skills and Career Avenues in Development Communication'.",
+     "a": "Media craft combined with social-work empathy opens careers across media houses, agencies, research and training.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Skills and Career Avenues in Development Communication', in plain ASCII form.",
+     "a": "career_readiness = cognitive plus creative plus technical plus interpersonal plus language skills",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

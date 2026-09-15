@@ -1,0 +1,203 @@
+{
+ "catalog": "catalog_class11_biotechnology_kebt109",
+ "concepts": [
+  {
+   "id": "kebt109.1",
+   "title": "Correlation and Regression in Biological Data",
+   "questions": [
+    {
+     "q": "Using the method 'Correlation and Regression in Biological Data', work with: bp_sum = 18, p1_hr = 300, p2_hr = 80, p3_hr = 75, p4_hr = 20, p5_hr = 24, patients = 30. Carry the chain through step by step and give the final value of bp_mean.",
+     "a": "0.6 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Correlation and Regression in Biological Data' and work with: bp_sum = 8, p1_hr = 300, p2_hr = 360, p3_hr = 80, p4_hr = 80, p5_hr = 24, patients = 5. Carry the chain through step by step and give the final value of bp_mean.",
+     "a": "1.6 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Correlation and Regression in Biological Data' refers to.",
+     "a": "When two variables such as heart rate and systolic pressure are measured across ten patients, an eyeball check cannot certify their association; regression draws the best-fit line and reports an R-squared between zero and one that measures how tightly points hug it, while correlation only quantifies the connectedness - and a good fit lets the null hypothesis be rejected.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Correlation and Regression in Biological Data'.",
+     "a": "Average each variable first, then let the regression line and its R-squared decide whether the variables truly move together.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Correlation and Regression in Biological Data', in plain ASCII form.",
+     "a": "hr_mean = hr_sum / patients",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt109.2",
+   "title": "Statistical Significance and the P-value",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Statistical Significance and the P-value' refers to.",
+     "a": "A p-value gives the chance of seeing the observed result if the null hypothesis were true, and a cutoff of 0.05 - that is, ninety-five percent significance - has been the traditional pass mark, although the chapter warns that this threshold breeds false positives and small samples are better shown as all data points rather than averages with standard deviations.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Statistical Significance and the P-value'.",
+     "a": "Subtract the cutoff from one and multiply by a hundred to convert it into a significance percentage.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Statistical Significance and the P-value', in plain ASCII form.",
+     "a": "significance_pct = (1 - p_cutoff) * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt109.3",
+   "title": "Scope and Milestones of Bioinformatics",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Scope and Milestones of Bioinformatics' refers to.",
+     "a": "Bioinformatics fuses biology with computer science, mathematics, statistics and engineering to store, retrieve and interpret molecular data; Margaret Dayhoff's 1965 Atlas of Protein Sequence pioneered it, GenBank opened in 1982, the word itself entered literature around 1991, and the human genome project pushed it into the mainstream of genome-wide analysis.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Scope and Milestones of Bioinformatics'.",
+     "a": "Sequence databases and the genome era turned a quiet support craft into a discipline every biologist now needs.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Scope and Milestones of Bioinformatics' taught, and from which source text?",
+     "a": "9.2 (source: kebt109.txt sections 9.2-9.2.1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt109.4",
+   "title": "Biological Databases and Data Portals",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Biological Databases and Data Portals' refers to.",
+     "a": "A biological database is a machine-searchable library of organised biological information, run by a database management system through query languages for relational designs or NoSQL schemes for scattered unstructured data; the workhorses are GenBank for DNA sequences, PDB for 3D structures, UniProt for proteins, PubMed for literature, KEGG for pathways and OMIM for human genes and disorders.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Biological Databases and Data Portals'.",
+     "a": "Match the data type to its portal - sequences, structures, pathways or literature - and judge a database by access, documentation and upkeep.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Biological Databases and Data Portals' taught, and from which source text?",
+     "a": "9.3 (source: kebt109.txt sections 9.3-9.3.1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt109.5",
+   "title": "Experimental Technologies for Biomolecule Analysis",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Experimental Technologies for Biomolecule Analysis' refers to.",
+     "a": "Each biomolecule has its profiling tools: PCR amplifies DNA, real-time qPCR reads RNA expression, next-generation sequencers read genes and transcriptomes, gel electrophoresis sorts DNA, RNA and proteins by size and charge, HPLC separates metabolites, mass spectrometry fragments molecules to weigh them, and electron microscopy resolves structure and sequence.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Experimental Technologies for Biomolecule Analysis'.",
+     "a": "Pick the technology by the molecule and the question - amplification, expression, sequence, separation, mass or structure.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Experimental Technologies for Biomolecule Analysis' taught, and from which source text?",
+     "a": "9.2.2 (source: kebt109.txt section 9.2.2, Table 9.2)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt109.6",
+   "title": "FASTA and FASTQ Record Arithmetic",
+   "questions": [
+    {
+     "q": "Using the method 'FASTA and FASTQ Record Arithmetic', work with: read_length = 24, total_lines = 6. Carry the chain through step by step and give the final value of total_bases.",
+     "a": "36 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'FASTA and FASTQ Record Arithmetic' and work with: read_length = 4, total_lines = 500. Carry the chain through step by step and give the final value of total_bases.",
+     "a": "500 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'FASTA and FASTQ Record Arithmetic' refers to.",
+     "a": "Sequences travel as text: a FASTA record opens with a greater-than description line followed by single-letter sequence, while FASTQ spends four lines per read - an at-sign header, the raw letters, a plus line and an equal-length quality line whose exclamation and tilde marks bracket the quality scale - so counting lines and letters sizes any file.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'FASTA and FASTQ Record Arithmetic'.",
+     "a": "Four lines hide in every FASTQ record, and the quality string must match the sequence letter for letter.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'FASTA and FASTQ Record Arithmetic', in plain ASCII form.",
+     "a": "reads_in_file = total_lines / 4",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt109.7",
+   "title": "Sequencing Reads and Coverage Arithmetic",
+   "questions": [
+    {
+     "q": "Using the method 'Sequencing Reads and Coverage Arithmetic', work with: genome_size = 1024, read_length = 12, reads_per_run = 18. Carry the chain through step by step and give the final value of runs_needed.",
+     "a": "4.7407 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Sequencing Reads and Coverage Arithmetic' and work with: genome_size = 1024, read_length = 300, reads_per_run = 10. Carry the chain through step by step and give the final value of runs_needed.",
+     "a": "0.3413 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Sequencing Reads and Coverage Arithmetic' refers to.",
+     "a": "High-throughput instruments emit short reads of roughly 100-150 nucleotides or long reads of a few kilobases; covering a genome therefore needs the genome size divided by the read length, and sequencing centres - the Broad Institute alone passes twenty-four terabytes a day - split such workloads into runs of fixed read capacity.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sequencing Reads and Coverage Arithmetic'.",
+     "a": "Divide the genome by the read length for the read count, then by reads per run for the number of runs.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Sequencing Reads and Coverage Arithmetic', in plain ASCII form.",
+     "a": "reads_needed = genome_size / read_length",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt109.8",
+   "title": "Genome Informatics Workflow and Artificial Intelligence",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Genome Informatics Workflow and Artificial Intelligence' refers to.",
+     "a": "After quality control, reads either align to a reference or assemble de novo into contigs; the finished genome then gets annotated for genes and repeats, scanned by gene predictors, described through gene ontology terms, and placed in phylogenetic trees with tools like PHYLIP, while machine learning - already calling genomic variants and reading eye images - promises the next leap if multidisciplinary teams keep pace with the data flood.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Genome Informatics Workflow and Artificial Intelligence'.",
+     "a": "Quality-check, assemble or align, annotate, predict, and finally interpret - with AI joining the pipeline at every step.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Genome Informatics Workflow and Artificial Intelligence' taught, and from which source text?",
+     "a": "9.4.4 and 9.5 (source: kebt109.txt sections 9.4.4-9.5)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

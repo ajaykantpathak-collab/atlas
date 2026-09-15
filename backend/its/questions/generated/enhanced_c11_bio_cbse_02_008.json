@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_02_008",
+   "title": "c11_bio_cbse_02_008",
+   "questions": [
+    {
+     "q": "List the five criteria Whittaker used for his five-kingdom classification and state the specific character state for Kingdom Animalia for each criterion.",
+     "a": "The five criteria are: (1) Cell structure – Animalia: Eukaryotic; (2) Cell wall – Animalia: Absent; (3) Body organization – Animalia: Tissue/Organ/Organ-system; (4) Mode of nutrition – Animalia: Heterotrophic (Holozoic); (5) Phylogenetic relationships – Animalia: Multicellular eukaryotes sharing a common ancestor distinct from plants/fungi. A wrong answer (e.g., stating \"cell wall present\" or \"autotrophic\") reveals confusion with Plantae or Fungi criteria, indicating the student has not internalized the comparative table (NCERT Table 2.1).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since both fungi and animals are heterotrophic eukaryotes, fungi should be placed in Kingdom Animalia.\" Explain why this classification would be incorrect using *three* distinguishing features.",
+     "a": "Fungi differ from animals in: (1) Cell wall composition – fungi have chitinous walls, animals lack walls entirely; (2) Mode of nutrition – fungi are absorptive heterotrophs (saprophytic/parasitic), animals are ingestive heterotrophs (holozoic) with an internal digestive cavity; (3) Body organization – fungi are filamentous (hyphae/mycelium) with loose tissue organization, animals have true tissues/organs/organ-systems. A wrong answer focusing only on \"both are heterotrophic\" shows the student overlooks structural and nutritional *mechanism* differences critical at the kingdom level.",
+     "self_check": true
+    },
+    {
+     "q": "*Parasitic flatworms (Platyhelminthes) lack a true body cavity (acoelomate) and a complete digestive tract. Despite these \"simplifications,\" they are unequivocally placed in Kingdom Animalia. Justify this placement using *four* defining animal characteristics they possess.*",
+     "a": "Flatworms are placed in Animalia because they: (1) Are multicellular eukaryotes; (2) Lack cell walls (body covered by syncytial tegument); (3) Exhibit holozoic nutrition (ingest food via pharynx into gastrovascular cavity); (4) Possess true tissues (ectoderm, mesoderm, endoderm) organized into organs (e.g., brain, reproductive organs); (5) Show embryonic development with determinate cleavage and spiral cleavage pattern. A wrong answer citing \"they move\" or \"they are parasites\" fails because some protists move and many parasites are non-animal; the student must cite *structural/organizational* synapomorphies.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the nutritional strategy of an insectivorous plant (e.g., *Drosera*) with that of a carnivorous animal (e.g., frog). Why does the plant remain in Plantae while the frog is in Animalia, despite both capturing and digesting prey?",
+     "a": "*Drosera* is primarily photosynthetic (autotrophic); insect capture supplements nitrogen/phosphorus in nutrient-poor soils – it retains cellulose cell walls, chloroplasts, and alternation of generations. The frog is *obligately* holozoic: lacks cell walls and chloroplasts, possesses a complete digestive system (mouth→anus), stores glycogen, and has neuromuscular systems for active predation. The plant's heterotrophy is *facultative and supplementary*; the animal's is *constitutive and exclusive*. A wrong answer stating \"both eat insects so both are animals\" confuses ecological role (carnivory) with kingdom-defining nutritional *mode* (holozoic vs. photosynthetic+supplementary).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The absence of a cell wall is *sufficient* to classify an organism as an animal.\" Provide a counterexample and explain the additional criteria required.",
+     "a": "The statement is false. Counterexample: *Amoeba* (Kingdom Protista) lacks a cell wall but is unicellular, lacks tissue organization, and ingests via phagocytosis (not holozoic digestion in a cavity). Additional required criteria for Animalia: (1) Multicellularity with tissue/organ-grade organization; (2) Holozoic nutrition (internal cavity digestion); (3) Glycogen/fat storage; (4) Embryonic development from zygote (blastula/gastrula stages); (5) Phylogenetic position within Metazoa. A wrong answer accepting the statement shows the student treats a single character as diagnostic, ignoring the *suite* of characters Whittaker emphasized.",
+     "self_check": true
+    },
+    {
+     "q": "Design a dichotomous key (4-5 steps) using *only* Whittaker's five criteria to separate a mystery organism into one of the five kingdoms. The organism is: multicellular, eukaryotic, has cellulose cell walls, is autotrophic, and shows tissue-level organization.",
+     "a": "Key: 1a. Prokaryotic cell → Monera; 1b. Eukaryotic → go to 2. 2a. Unicellular/colonial → Protista; 2b. Multicellular → go to 3. 3a. Cell wall absent → Animalia; 3b. Cell wall present → go to 4. 4a. Cell wall of chitin, heterotrophic (absorptive) → Fungi; 4b. Cell wall of cellulose, autotrophic (photosynthetic) → Plantae. The mystery organism reaches 4b → Plantae. A poor key uses non-Whittaker criteria (e.g., \"has chlorophyll\" instead of \"autotrophic\") or skips the cell-wall composition step, showing the student cannot operationalize the classification logic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

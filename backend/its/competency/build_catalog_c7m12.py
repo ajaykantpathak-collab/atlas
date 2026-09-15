@@ -1,0 +1,194 @@
+"""Build concept catalog for Class 7 Maths Chapter 12 (Symmetry).
+Extracted from gemh112.txt -- NCERT Class 7 Maths textbook.
+"""
+import json
+import os
+
+CATALOG = {
+    "class": 7,
+    "subject": "maths",
+    "chapter": 12,
+    "chapter_title": "Symmetry",
+    "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/gemh112.txt",
+    "concepts": [
+        {
+            "id": "c7m12.1.1",
+            "title": "Line Symmetry",
+            "section": "12.1",
+            "definition": "A figure has line symmetry if there is a line about which the figure can be folded so the two parts coincide. The line is called the line or axis of symmetry.",
+            "formula": "line symmetry: fold line -> two halves coincide",
+            "key_idea": "Fold along line, two halves match.",
+            "textbook_ref": "gemh112.txt lines 1-26",
+            "question_patterns": [
+                "what is line symmetry",
+                "find lines of symmetry",
+                "identify line of symmetry",
+                "is this symmetrical",
+                "axes of symmetry",
+            ],
+            "solution_type": "verify_property",
+            "solution_steps": [
+                {"step": 1, "action": "find fold line", "explain": "Look for a line that divides the figure into two matching halves"},
+                {"step": 2, "action": "verify", "explain": "Fold along the line - the two halves should coincide"},
+            ],
+        },
+        {
+            "id": "c7m12.2.1",
+            "title": "Lines of Symmetry for Regular Polygons",
+            "section": "12.2",
+            "definition": "A regular polygon has all sides equal and all angles equal. Each regular polygon has as many lines of symmetry as it has sides. Equilateral triangle: 3, square: 4, pentagon: 5, hexagon: 6.",
+            "formula": "lines of symmetry = number of sides (for regular polygon)",
+            "key_idea": "Regular polygon: lines of symmetry = number of sides.",
+            "textbook_ref": "gemh112.txt lines 27-80",
+            "question_patterns": [
+                "how many lines of symmetry does",
+                "lines of symmetry for regular polygon",
+                "lines of symmetry equilateral triangle",
+                "lines of symmetry square",
+                "lines of symmetry regular pentagon",
+                "lines of symmetry regular hexagon",
+                "lines of symmetry circle",
+                "state the number of lines of symmetry",
+                "multiple lines of symmetry",
+            ],
+            "solution_type": "verify_property",
+            "solution_steps": [
+                {"step": 1, "action": "check if regular", "explain": "All sides equal and all angles equal?"},
+                {"step": 2, "action": "count sides", "explain": "Number of sides = number of lines of symmetry"},
+                {"step": 3, "action": "for circle", "explain": "Circle has infinite lines of symmetry (every diameter)"},
+            ],
+        },
+        {
+            "id": "c7m12.2.2",
+            "title": "Mirror Reflection Symmetry",
+            "section": "12.2",
+            "definition": "Line symmetry is related to mirror reflection. A shape has line symmetry when one half is the mirror image of the other. The mirror line is the line of symmetry. Left-right orientation changes in mirror reflection.",
+            "formula": "line symmetry = mirror reflection; left-right changes",
+            "key_idea": "Mirror line = line of symmetry. Left-right reverses.",
+            "textbook_ref": "gemh112.txt lines 60-80",
+            "question_patterns": [
+                "complete the figure performing reflection",
+                "mirror line symmetry",
+                "is dotted line a mirror line",
+                "letters with reflectional symmetry",
+                "vertical mirror symmetry",
+                "horizontal mirror symmetry",
+                "both horizontal and vertical mirror",
+            ],
+            "solution_type": "verify_property",
+            "solution_steps": [
+                {"step": 1, "action": "identify mirror line", "explain": "Find the line of reflection"},
+                {"step": 2, "action": "reflect", "explain": "Each point reflects across the mirror line"},
+                {"step": 3, "action": "note orientation", "explain": "Left-right orientation reverses in mirror"},
+            ],
+        },
+        {
+            "id": "c7m12.3.1",
+            "title": "Rotational Symmetry",
+            "section": "12.3",
+            "definition": "Rotation turns an object about a fixed point (centre of rotation) by an angle (angle of rotation). If after rotation the object looks exactly the same, it has rotational symmetry. Order = number of times it looks the same in a full 360 degree turn.",
+            "formula": "order = 360 / angle of rotation; order = times looks same in 360",
+            "key_idea": "Rotates and looks same. Order = 360 / angle.",
+            "textbook_ref": "gemh112.txt lines 121-241",
+            "question_patterns": [
+                "what is rotational symmetry",
+                "does this have rotational symmetry",
+                "order of rotational symmetry",
+                "find order of rotational symmetry",
+                "centre of rotation",
+                "angle of rotation",
+                "clockwise or anticlockwise",
+                "give order of rotational symmetry",
+                "shapes with rotational symmetry",
+            ],
+            "solution_type": "verify_property",
+            "solution_steps": [
+                {"step": 1, "action": "find centre of rotation", "explain": "The fixed point about which object rotates"},
+                {"step": 2, "action": "find angle of rotation", "explain": "Smallest angle where it looks the same"},
+                {"step": 3, "action": "find order", "explain": "order = 360 / angle of rotation"},
+            ],
+        },
+        {
+            "id": "c7m12.4.1",
+            "title": "Line Symmetry and Rotational Symmetry",
+            "section": "12.4",
+            "definition": "Some shapes have only line symmetry, some only rotational, some both. Square has 4 lines of symmetry and rotational symmetry of order 4. Circle has infinite lines and rotational symmetry for any angle.",
+            "formula": "may have: line only, rotational only, or both",
+            "key_idea": "Shapes can have line, rotational, or both symmetries.",
+            "textbook_ref": "gemh112.txt lines 251-318",
+            "question_patterns": [
+                "figures with both line and rotational symmetry",
+                "name figures with both symmetries",
+                "draw triangle with line and rotational symmetry",
+                "draw quadrilateral with rotational but no line symmetry",
+                "if two or more lines of symmetry does it have rotational",
+                "fill in blanks centre angle order",
+                "quadrilaterals with both line and rotational symmetry",
+                "after rotating by 60 degrees other angles",
+                "rotational symmetry angle 45 or 17",
+            ],
+            "solution_type": "verify_property",
+            "solution_steps": [
+                {"step": 1, "action": "check line symmetry", "explain": "Find lines of symmetry"},
+                {"step": 2, "action": "check rotational symmetry", "explain": "Find order of rotational symmetry"},
+                {"step": 3, "action": "classify", "explain": "Has line only, rotational only, or both"},
+            ],
+        },
+    ],
+    "worked_examples": [],
+    "exercises": [
+        {
+            "id": "ex12.1",
+            "source_ref": "gemh112.txt lines 82-120",
+            "questions": [
+                "Copy figures with punched holes and find axes of symmetry",
+                "Given line(s) of symmetry, find other hole(s)",
+                "Complete figures performing reflection in dotted mirror line. Name the figure completed.",
+                "Identify multiple lines of symmetry in figures",
+                "Take diagonal as line of symmetry, shade squares to make symmetric. More than one way?",
+                "Complete each shape to be symmetric about mirror line(s)",
+                "State number of lines of symmetry: equilateral triangle, isosceles triangle, scalene triangle, square, rectangle, rhombus, parallelogram, quadrilateral, regular hexagon, circle",
+                "Letters of English alphabet with reflectional symmetry about: vertical mirror, horizontal mirror, both",
+                "Three examples of shapes with no line of symmetry",
+                "Other name for line of symmetry of: isosceles triangle, circle",
+            ],
+        },
+        {
+            "id": "ex12.2",
+            "source_ref": "gemh112.txt lines 245-250",
+            "questions": [
+                "Which figures have rotational symmetry of order more than 1",
+                "Give order of rotational symmetry for each figure",
+            ],
+        },
+        {
+            "id": "ex12.3",
+            "source_ref": "gemh112.txt lines 288-318",
+            "questions": [
+                "Name two figures with both line and rotational symmetry",
+                "Draw rough sketch: triangle with line and rotational symmetry order > 1; triangle with only line symmetry; quadrilateral with rotational but no line symmetry; quadrilateral with line but no rotational symmetry order > 1",
+                "If figure has two or more lines of symmetry, should it have rotational symmetry order > 1?",
+                "Fill blanks: Shape, Centre of Rotation, Order of Rotation, Angle of Rotation for square, rectangle, rhombus, equilateral triangle, regular hexagon, circle, semi-circle",
+                "Name quadrilaterals with both line and rotational symmetry order > 1",
+                "After rotating by 60 degrees figure looks same. At what other angles will this happen?",
+                "Can we have rotational symmetry order > 1 with angle of rotation 45 degrees? 17 degrees?",
+            ],
+        },
+    ],
+}
+
+
+def main():
+    out_dir = os.path.dirname(os.path.abspath(__file__))
+    out_path = os.path.join(out_dir, "catalog_class7_maths_ch12_symmetry.json")
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(CATALOG, f, indent=2, ensure_ascii=True)
+    print("Wrote catalog to:", out_path)
+    print("Concepts:", len(CATALOG["concepts"]))
+    print("Worked examples:", len(CATALOG["worked_examples"]))
+    print("Exercises:", len(CATALOG["exercises"]))
+    print("Total exercise questions:", sum(len(e["questions"]) for e in CATALOG["exercises"]))
+
+
+if __name__ == "__main__":
+    main()

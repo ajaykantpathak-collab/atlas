@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_01_002",
+   "title": "c11_phy_cbse_01_002",
+   "questions": [
+    {
+     "q": "Name the seven SI base quantities, their units, and symbols. For any one base unit, state the defining constant fixed in its 2019 revision.",
+     "a": "The seven base quantities are: length (metre, m), mass (kilogram, kg), time (second, s), electric current (ampere, A), thermodynamic temperature (kelvin, K), amount of substance (mole, mol), luminous intensity (candela, cd). Example: The metre is defined by fixing the speed of light in vacuum c = 299792458 m/s exactly. A wrong answer (e.g., listing \"newton\" as a base unit) reveals confusion between base and derived units — the student has not grasped that derived units are algebraic combinations of base units.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the kilogram the only SI base unit with a prefix in its name, and how does its 2019 redefinition (via Planck constant h) resolve the historical artifact-dependence of the International Prototype Kilogram (IPK)?",
+     "a": "Historically, \"kilogram\" (not \"gram\") was chosen as the base unit for practical reasons in the late 19th century, making it the sole base unit with a prefix. The IPK (a Pt-Ir cylinder) could change mass due to surface contamination or cleaning, making the definition artifact-dependent. The 2019 redefinition fixes the Planck constant h = 6.62607015×10⁻³⁴ J·s exactly, linking mass to invariant fundamental constants via the Kibble balance. A wrong answer (e.g., \"kilogram is a base unit because it's bigger\") shows the student memorises names without understanding the metrological shift from artifact to constant-based definitions.",
+     "self_check": true
+    },
+    {
+     "q": "A physics textbook states: \"The force F = 5 kg·m/s².\" Rewrite this using the correct SI derived unit with its special name and symbol. Then express that unit in terms of SI base units only.",
+     "a": "The statement should read: \"The force F = 5 N\" (newton, symbol N). In base units: 1 N = 1 kg·m·s⁻². A wrong answer (e.g., writing \"5 kg·m/s²\" as the final unit or using \"newton\" with lowercase 'n') reveals the student does not know which derived units have special names or the convention that unit symbols named after scientists are capitalised (N, not n).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two measurements: (a) 4.700 m and (b) 4700 mm. Do they have the same number of significant figures? Explain why or why not using the SI convention for trailing zeros.",
+     "a": "Yes, both have four significant figures. In (a) 4.700 m, the trailing zeros after the decimal are significant. In (b) 4700 mm, the trailing zeros are ambiguous without a decimal point — but SI convention requires writing it as 4.700 × 10³ mm (scientific notation) to preserve the four significant figures. A wrong answer (claiming 4700 mm has only two significant figures) reveals the student has not learned that a mere change of units cannot change significant figures, and scientific notation resolves the ambiguity.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the unit of Planck constant as \"J s\" (joule second) and another writes \"J·s\". Which is correct according to SI rules? Justify your answer.",
+     "a": "\"J·s\" (with a centred dot or space) is correct. SI rules state: multiplication of units is indicated by a space or centred dot (e.g., N·m or N m), never by juxtaposition without separation. \"J s\" without a space or dot is ambiguous and not permitted. A wrong answer (accepting \"Js\" or \"J-s\") shows the student is unaware of the strict typographical conventions that prevent misreading (e.g., \"ms\" could mean millisecond or metre-second).",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment to demonstrate why the radian (rad) and steradian (sr) are classified as dimensionless derived units in SI, even though they measure plane and solid angles respectively.",
+     "a": "Plane angle θ = arc length / radius = m/m = 1 (dimensionless). Solid angle Ω = intercepted area / radius² = m²/m² = 1 (dimensionless). Since both are ratios of identical dimensions, they have no physical dimension. However, SI retains the names \"radian\" and \"steradian\" as special names for the number 1 to clarify the physical quantity being measured. A poor answer (claiming they have dimensions of angle) reveals the student confuses \"dimensionless\" with \"unitless\" — dimensionless quantities still need units to convey what is being measured.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

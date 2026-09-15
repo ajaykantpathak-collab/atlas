@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_03_010",
+   "title": "c12_bs_cbse_03_010",
+   "questions": [
+    {
+     "q": "Define 'opportunity' and 'threat' in the context of business environment as per NCERT.",
+     "a": "Opportunity: A positive external trend or change that helps a firm improve its performance (e.g., rising disposable income increasing demand). Threat: A negative external trend or change that hinders a firm’s performance (e.g., entry of a foreign multinational with superior products). A wrong answer that describes opportunities as internal strengths (like \"our skilled workforce\") reveals confusion between external environment analysis and internal SWOT analysis.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The introduction of GST is a threat to all businesses because it increases compliance costs.\" Explain why this statement is an oversimplification and identify the dimension of business environment it belongs to.",
+     "a": "GST is a legal/political environment change. It is a threat for small unorganised firms facing compliance burden but an opportunity for organised players who gain from a level playing field, input tax credits, and reduced logistics costs. A wrong answer that labels GST as purely a threat or purely an opportunity shows failure to analyze the differential impact on firms based on their size, sector, and readiness — a core requirement of opportunities/threats analysis.",
+     "self_check": true
+    },
+    {
+     "q": "A traditional bookstore notices declining footfall due to e-commerce growth but sees rising demand for curated reading experiences and coffee-shop ambience. Using the five dimensions, identify two opportunities and two threats for this bookstore and suggest one strategic action for each.",
+     "a": "Threats: (1) Technological — e-commerce substitutes physical book buying; (2) Social — shift to digital reading reduces demand for physical books. Opportunities: (1) Social — growing desire for experiential retail (café + books); (2) Economic — rising disposable income allows premium pricing for curated experiences. Actions: Launch a café-corner with author events (counters threat 1, seizes opportunity 1); Partner with local publishers for exclusive signed editions (leverages opportunity 2, differentiates from online). A wrong answer that lists generic \"increase marketing\" without linking to specific dimensions shows inability to connect environmental scanning to actionable strategy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of demonetisation (2016) and the 1991 LPG reforms on the opportunities and threats faced by Indian MSMEs. Highlight one key similarity and one key difference in the nature of environmental change.",
+     "a": "Similarity: Both were sudden, government-driven macroeconomic shocks that forced rapid adaptation. Difference: 1991 LPG reforms were structural, long-term liberalisation creating sustained opportunities (access to global markets, technology, capital) alongside competitive threats; demonetisation was a short-term liquidity shock primarily creating threats (cash crunch, demand collapse) with opportunities limited to digital-payment adoption and formalisation. A wrong answer that treats both as identical \"policy changes\" misses the distinction between structural regime shift and one-time monetary intervention, leading to flawed strategic lessons.",
+     "self_check": true
+    },
+    {
+     "q": "\"Early identification of opportunities guarantees first-mover advantage.\" Evaluate this statement with reference to the Maruti Udyog example in NCERT and a counterexample where first movers failed.",
+     "a": "The statement is false. Early identification is necessary but not sufficient; the firm must also have the resources, capabilities, and execution speed to exploit the opportunity. Maruti succeeded because it combined early recognition of the small-car need with government partnership, Japanese technology (Suzuki), and a distribution network. Counterexample: Indian e-commerce pioneer Fabmart (1999) identified the online grocery opportunity early but failed due to poor logistics infrastructure, low internet penetration, and lack of payment gateways — later entrants like BigBasket succeeded when the environment matured. A wrong answer that equates identification with advantage ignores the resource-capability gap, a classic exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini-case (4-5 sentences) for a fictional Indian startup in the electric two-wheeler space. Include at least three dimensions of business environment and explicitly label one opportunity and one threat for the startup.",
+     "a": "Example: \"VoltWheels, a Bengaluru-based EV startup, faces rising lithium-ion battery costs (Economic threat) but benefits from the FAME-II subsidy extension (Political opportunity). Growing urban congestion and pollution awareness (Social opportunity) boosts demand, while established auto giants entering the EV segment (Technological/Competitive threat) intensify R&D pressure. The startup must decide whether to partner with a battery-swapping network or invest in proprietary charging.\" A poor answer that lists generic factors without labeling opportunity/threat or linking to the startup’s specific context shows inability to apply the framework to a novel situation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

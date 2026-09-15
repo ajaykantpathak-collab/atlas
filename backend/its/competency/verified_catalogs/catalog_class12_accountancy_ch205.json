@@ -1,0 +1,256 @@
+{
+ "class": 12,
+ "subject": "accountancy",
+ "chapter": 205,
+ "chapter_title": "Accounting Ratios",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\leac205.txt",
+ "concepts": [
+  {
+   "id": "leac.5.6.1",
+   "title": "Current Ratio",
+   "section": "5.6.1",
+   "definition": "A liquidity metric that evaluates a firm's ability to cover its short-term obligations using its total current assets.",
+   "formula": "current_ratio = current_assets / current_liabilities",
+   "key_idea": "Measures short-term solvency by comparing current assets to current liabilities.",
+   "textbook_ref": "leac205.txt lines 200-220",
+   "question_patterns": [
+    "calculate the current ratio",
+    "find the current ratio from the given data",
+    "what is the current ratio",
+    "determine the firm's current ratio",
+    "Numerical: apply Current Ratio and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate current ratio",
+     "explain": "Divide total current assets by total current liabilities.",
+     "compute": "ratio = current_assets / current_liabilities"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Current Ratio, compute the result for current_assets = 3, current_liabilities = 3.",
+     "solution": "Step 1: Calculate current ratio: ratio = current_assets / current_liabilities = 1.0 Final result: 1.0",
+     "answer": "1.0"
+    },
+    {
+     "question": "Using Current Ratio, compute the result for current_assets = 4, current_liabilities = 4.",
+     "solution": "Step 1: Calculate current ratio: ratio = current_assets / current_liabilities = 1.0 Final result: 1.0",
+     "answer": "1.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.5.6.2",
+   "title": "Quick Ratio",
+   "section": "5.6.2",
+   "definition": "A stringent liquidity test that measures the ability to pay off current liabilities using only highly liquid assets, excluding inventories and prepaid expenses.",
+   "formula": "quick_ratio = quick_assets / current_liabilities",
+   "key_idea": "Assesses immediate liquidity by removing less liquid assets from the calculation.",
+   "textbook_ref": "leac205.txt lines 221-240",
+   "question_patterns": [
+    "calculate the quick ratio",
+    "find the liquid ratio",
+    "what is the acid-test ratio",
+    "compute the quick ratio for the firm",
+    "Numerical: apply Quick Ratio and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine quick assets",
+     "explain": "Subtract inventories and prepaid expenses from current assets.",
+     "compute": "quick_assets = current_assets - (inventories + prepaid_expenses + advance_tax)"
+    },
+    {
+     "step": 2,
+     "action": "Calculate quick ratio",
+     "explain": "Divide quick assets by current liabilities.",
+     "compute": "ratio = quick_assets / current_liabilities"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Quick Ratio, compute the result for current_assets = 3, inventories = 3, prepaid_expenses = 3, advance_tax = 2, current_liabilities = 2.",
+     "solution": "Step 1: Determine quick assets: quick_assets = current_assets - (inventories + prepaid_expenses + advance_tax) = -5.0 Step 2: Calculate quick ratio: ratio = quick_assets / current_liabilities = -2.5 Final result: -2.5",
+     "answer": "-2.5"
+    },
+    {
+     "question": "Using Quick Ratio, compute the result for current_assets = 4, inventories = 4, prepaid_expenses = 4, advance_tax = 3, current_liabilities = 3.",
+     "solution": "Step 1: Determine quick assets: quick_assets = current_assets - (inventories + prepaid_expenses + advance_tax) = -7.0 Step 2: Calculate quick ratio: ratio = quick_assets / current_liabilities = -2.333333 Final result: -2.333333",
+     "answer": "-2.333333"
+    }
+   ]
+  },
+  {
+   "id": "leac.5.7.1",
+   "title": "Debt-Equity Ratio",
+   "section": "5.7.1",
+   "definition": "A solvency ratio that compares long-term debt to shareholders' equity to assess the financial leverage and risk profile of a company.",
+   "formula": "debt_equity_ratio = long_term_debts / shareholders_funds",
+   "key_idea": "Indicates the proportion of external debt versus internal owner's capital.",
+   "textbook_ref": "leac205.txt lines 280-305",
+   "question_patterns": [
+    "calculate the debt-equity ratio",
+    "find the debt to equity ratio",
+    "what is the debt-equity ratio",
+    "determine the solvency using debt-equity ratio",
+    "Numerical: apply Debt-Equity Ratio and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate debt-equity ratio",
+     "explain": "Divide long-term debt by total shareholders' funds.",
+     "compute": "ratio = long_term_debts / shareholders_funds"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Debt-Equity Ratio, compute the result for long_term_debts = 3, shareholders_funds = 3.",
+     "solution": "Step 1: Calculate debt-equity ratio: ratio = long_term_debts / shareholders_funds = 1.0 Final result: 1.0",
+     "answer": "1.0"
+    },
+    {
+     "question": "Using Debt-Equity Ratio, compute the result for long_term_debts = 4, shareholders_funds = 4.",
+     "solution": "Step 1: Calculate debt-equity ratio: ratio = long_term_debts / shareholders_funds = 1.0 Final result: 1.0",
+     "answer": "1.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.5.8.1",
+   "title": "Inventory Turnover Ratio",
+   "section": "5.8.1",
+   "definition": "An efficiency ratio that measures how many times a company's inventory is sold and replaced over a specific period.",
+   "formula": "inventory_turnover = cost_of_revenue_from_operations / average_inventory",
+   "key_idea": "Shows the speed of converting inventory into sales.",
+   "textbook_ref": "leac205.txt lines 360-380",
+   "question_patterns": [
+    "calculate the inventory turnover ratio",
+    "find the stock turnover",
+    "what is the inventory turnover",
+    "determine the efficiency using inventory turnover",
+    "Numerical: apply Inventory Turnover Ratio and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate average inventory",
+     "explain": "Average of opening and closing inventory.",
+     "compute": "avg_inv = (opening_inv + closing_inv) / 2"
+    },
+    {
+     "step": 2,
+     "action": "Calculate turnover ratio",
+     "explain": "Divide cost of revenue by average inventory.",
+     "compute": "ratio = cost_of_revenue / avg_inv"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Inventory Turnover Ratio, compute the result for opening_inv = 3, closing_inv = 3, cost_of_revenue = 3.",
+     "solution": "Step 1: Calculate average inventory: avg_inv = (opening_inv + closing_inv) / 2 = 3.0 Step 2: Calculate turnover ratio: ratio = cost_of_revenue / avg_inv = 1.0 Final result: 1.0",
+     "answer": "1.0"
+    },
+    {
+     "question": "Using Inventory Turnover Ratio, compute the result for opening_inv = 4, closing_inv = 4, cost_of_revenue = 4.",
+     "solution": "Step 1: Calculate average inventory: avg_inv = (opening_inv + closing_inv) / 2 = 4.0 Step 2: Calculate turnover ratio: ratio = cost_of_revenue / avg_inv = 1.0 Final result: 1.0",
+     "answer": "1.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.5.9.1",
+   "title": "Gross Profit Ratio",
+   "section": "5.9.1",
+   "definition": "A profitability ratio that indicates the percentage of revenue from operations that exceeds the cost of goods sold.",
+   "formula": "gross_profit_ratio = (gross_profit / net_revenue_from_operations) * 100",
+   "key_idea": "Measures the basic margin on products before operating expenses.",
+   "textbook_ref": "leac205.txt lines 510-525",
+   "question_patterns": [
+    "calculate the gross profit ratio",
+    "find the gross profit percentage",
+    "what is the gross profit ratio",
+    "determine the profitability using gross profit ratio",
+    "Numerical: apply Gross Profit Ratio and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate gross profit ratio",
+     "explain": "Divide gross profit by net revenue and multiply by 100.",
+     "compute": "ratio = (gross_profit / net_revenue) * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Gross Profit Ratio, compute the result for gross_profit = 3, net_revenue = 3.",
+     "solution": "Step 1: Calculate gross profit ratio: ratio = (gross_profit / net_revenue) * 100 = 100.0 Final result: 100.0",
+     "answer": "100.0"
+    },
+    {
+     "question": "Using Gross Profit Ratio, compute the result for gross_profit = 4, net_revenue = 4.",
+     "solution": "Step 1: Calculate gross profit ratio: ratio = (gross_profit / net_revenue) * 100 = 100.0 Final result: 100.0",
+     "answer": "100.0"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "leac205.txt lines 205-215",
+   "concept": "leac.5.6.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate Current Ratio from: Inventories {inv}, Trade receivables {tr}, Advance tax {at}, Cash {cash}, Trade payables {tp}, Short-term borrowings {stb}",
+   "extracted_variables": {
+    "inv": "50000",
+    "tr": "50000",
+    "at": "4000",
+    "cash": "30000",
+    "tp": "100000",
+    "stb": "4000"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum current assets",
+     "explain": "Add all current assets.",
+     "compute": "current_assets = inv + tr + at + cash"
+    },
+    {
+     "step": 2,
+     "action": "Sum current liabilities",
+     "explain": "Add all current liabilities.",
+     "compute": "current_liabilities = tp + stb"
+    },
+    {
+     "step": 3,
+     "action": "Calculate ratio",
+     "explain": "Divide assets by liabilities.",
+     "compute": "ratio = current_assets / current_liabilities"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "leac205.txt lines 650-660",
+   "questions": [
+    "Calculate current ratio if current assets are 35000 and current liabilities are 17500.",
+    "A company has current assets of 100000 and current liabilities of 40000. Find the current ratio."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

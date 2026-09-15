@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_01_003",
+   "title": "c12_cs_cbse_01_003",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a hub and a switch in terms of how they handle incoming data frames?",
+     "a": "A hub operates at Layer 1 and broadcasts every incoming frame out of all other ports, creating a single collision domain; a switch operates at Layer 2, learns MAC addresses, and forwards frames only to the port where the destination MAC resides, creating separate collision domains per port. A wrong answer (e.g., \"switch uses IP addresses\" or \"hub filters frames\") reveals confusion between Layer 1/2 functions and addressing schemes.",
+     "self_check": true
+    },
+    {
+     "q": "A school has two separate LANs in different buildings connected by a fibre link. The network administrator wants to isolate broadcast traffic so that a broadcast storm in Building A does not affect Building B. Which device should be placed at each end of the fibre link, and why?",
+     "a": "A router should be placed at each end because routers operate at Layer 3 and do not forward broadcast frames (they separate broadcast domains), whereas a switch or hub would forward broadcasts across the link. A student who suggests a switch shows misunderstanding that switches forward broadcasts and only segment collision domains, not broadcast domains.",
+     "self_check": true
+    },
+    {
+     "q": "A network engineer connects a legacy Token Ring network (using MAC addresses) to a modern Ethernet network (also using MAC addresses) using a device that translates frame formats and access methods. Which device is being used, and at which OSI layer does it operate?",
+     "a": "A gateway is used; it operates at Layers 4–7 (typically Layer 7 for protocol conversion) and translates between different protocol stacks, including frame formats and access methods. A wrong answer of \"router\" indicates confusion: routers route based on IP addresses and do not translate Layer 2 frame formats between dissimilar media.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the collision domain and broadcast domain count for a 24‑port hub, a 24‑port switch, and a router with 24 interfaces. Explain how each device affects network performance.",
+     "a": "Hub: 1 collision domain, 1 broadcast domain — all ports share bandwidth, collisions frequent. Switch: 24 collision domains (one per port), 1 broadcast domain — no collisions on full‑duplex links, but broadcasts still flood all ports. Router: 24 collision domains, 24 broadcast domains — each interface is a separate broadcast domain, eliminating broadcast traffic between subnets. A student who says \"switch has 24 broadcast domains\" confuses collision and broadcast domain segmentation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A repeater can be used to connect two different network segments that use different data link protocols (e.g., Ethernet and Wi‑Fi) because it amplifies the signal.\" Justify your answer.",
+     "a": "The statement is false. A repeater operates at Layer 1 only; it regenerates the physical signal (amplifies/reshapes bits) but does not examine or translate frames, MAC addresses, or protocols. Connecting Ethernet and Wi‑Fi requires a gateway or bridge that understands both Layer 2 protocols. A student who agrees confuses physical‑layer signal regeneration with protocol translation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a small office network for 10 employees with the following requirements: (a) minimal collisions, (b) internet access via a single ISP link, (c) a legacy serial‑attached printer that speaks a proprietary protocol must be accessible from all PCs. Draw a labelled diagram and specify the device(s) used at each point, justifying each choice.",
+     "a": "Diagram: 10 PCs → 12‑port switch (Layer 2, separate collision domains) → router (Layer 3, connects LAN to ISP WAN, NAT for internet) → ISP. Legacy printer → serial‑to‑Ethernet gateway (Layers 4–7, translates proprietary protocol to TCP/IP) → switch. Justification: switch eliminates collisions, router provides IP routing and NAT, gateway bridges proprietary protocol to IP network. A poor answer omits the gateway or uses a router for the printer, showing inability to match device function to protocol translation needs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

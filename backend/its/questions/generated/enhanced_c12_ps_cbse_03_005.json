@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_03_005",
+   "title": "c12_ps_cbse_03_005",
+   "questions": [
+    {
+     "q": "What is the single most cited quantitative indicator of US hard power dominance in the post-Cold War era, and what approximate multiple does it hold over the next-largest military spender?",
+     "a": "The indicator is annual military expenditure; the US spends roughly 3× more than China (the #2 spender) and more than the next 9–10 countries combined. A wrong answer (e.g., \"number of aircraft carriers\" or \"nuclear warhead count\") reveals the student confuses *platforms* with the *resource foundation* that sustains technological superiority across all domains.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the 1991 Gulf War is considered the \"coming-out party\" for the Revolution in Military Affairs (RMA), linking at least two specific technologies to the operational outcome.",
+     "a": "The Gulf War showcased RMA because (a) precision-guided munitions (PGMs) — only 8% of ordnance but hit 75% of strategic targets — allowed paralyzing Iraqi command/control with minimal collateral damage, and (b) space-based C4ISR (GPS, satellite comms, early warning) gave coalition forces real-time battlefield awareness denied to Iraq. A wrong answer that only lists \"stealth fighters\" or \"smart bombs\" without connecting them to *networked information superiority* misses the systemic nature of RMA.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"The US won the Iraq War militarily in 2003 but lost the peace because it lacked enough troops for occupation.\" Using the concept of hard power limits, evaluate this claim and identify the missing analytical category.",
+     "a": "The claim is partially correct but incomplete: the missing category is *political legitimacy*. Hard power (decapitation strike, armored thrust to Baghdad) toppled the regime in 3 weeks, but could not create a viable successor government, rebuild institutions, or counter insurgency because military force cannot generate *consent* — a structural/soft power function. A wrong answer that blames \"insufficient troop numbers\" alone treats occupation as a force-ratio problem, ignoring that the US *chose* a light-footprint RMA-style invasion precisely to showcase hard-power efficiency.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the technological enablers of US hard power in 1991 (Gulf War) vs. 2001 (Afghanistan) vs. 2003 (Iraq). Identify one capability that evolved from *supporting* to *decisive* across these three conflicts.",
+     "a": "Real-time ISR (Intelligence, Surveillance, Reconnaissance) linked to strike: 1991 — JSTARS/ground radar supported air campaign; 2001 — Predator drones with laser designators enabled CIA/JSOC to hunt Taliban leaders in real time; 2003 — networked UAVs (Global Hawk, Predator) provided persistent stare over Baghdad, making *time-sensitive targeting* routine. The evolution: ISR went from *adjunct* to *the central nervous system* of US warfighting. A wrong answer that cites \"GPS\" or \"stealth\" as the evolving element misses that those were mature in 1991; the *integration* of ISR-strike loops is the novel trajectory.",
+     "self_check": true
+    },
+    {
+     "q": "Assess the proposition: \"US military dominance is eroding because China's hypersonic missiles and anti-satellite weapons can deny US access to the Western Pacific.\" What evidence would you need to confirm or refute this, and why is *technological parity* not the same as *hegemonic decline*?",
+     "a": "To assess, you need: (a) test data on reliability/quantity of Chinese hypersonics/ASATs, (b) US countermeasures (directed energy, proliferated LEO constellations, distributed maritime operations), (c) whether denial translates to *compellence* (forcing US policy change) or just *deterrence* (raising cost of intervention). Technological parity in *specific* A2/AD capabilities ≠ hegemonic decline because US hard power rests on *global* power projection (alliances, logistics, undersea cables, dollar-denominated defense industrial base) that China cannot yet replicate. A wrong answer that equates \"China has hypersonics → US hegemony over\" commits the *single-metric fallacy*.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-indicator dashboard (one quantitative, one qualitative, one structural) that a policy analyst could use to track whether US hard power is *increasing*, *stable*, or *declining* over a 5-year horizon. Justify each indicator.",
+     "a": "Quantitative: *RDT&E spending as % of GDP* (captures future technological edge, not just current platforms). Qualitative: *Interoperability index with top 5 allies* (measures networked force multiplication — a US structural advantage no rival has). Structural: *Share of global defense patents in AI/autonomous systems* (proxies innovation pipeline). A poor dashboard would use only \"number of ships\" or \"defense budget absolute value\" — lagging indicators that miss the *rate of innovation* and *alliance leverage* that sustain hard power.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

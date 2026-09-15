@@ -1,0 +1,213 @@
+{
+ "catalog": "catalog_class11_biotechnology_kebt104",
+ "concepts": [
+  {
+   "id": "kebt104.1",
+   "title": "Enzyme Classes and Cofactor Helpers",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Enzyme Classes and Cofactor Helpers' refers to.",
+     "a": "Every catalyst of the cell is a protein except the few catalytic RNAs called ribozymes; the I.U.B. files them into seven reaction classes from oxidoreductases to the newer translocases, and many need helpers - organic coenzymes built from vitamins, metal ions like zinc or magnesium, or a tightly bonded prosthetic group, the naked protein being the apoenzyme and the armed pair the holoenzyme.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Enzyme Classes and Cofactor Helpers'.",
+     "a": "Reaction type fixes the class; vitamin-derived coenzymes and metal ions complete enzymes that cannot work alone.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Enzyme Classes and Cofactor Helpers' taught, and from which source text?",
+     "a": "4.1 (source: kebt104.txt section 4.1, Tables 4.1-4.3)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt104.2",
+   "title": "Lock-Key and Induced Fit Models",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Lock-Key and Induced Fit Models' refers to.",
+     "a": "Fischer pictured the active site in 1894 as a rigid lock pre-cut for its substrate key, while Koshland argued in 1958 that the site flexes like a glove around the hand of the substrate, aligning catalytic groups only after binding; enzymes further show group, absolute, stereo and geometrical grades of specificity.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Lock-Key and Induced Fit Models'.",
+     "a": "Old model: rigid complementary pocket; modern model: the site reshapes around the substrate after contact.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Lock-Key and Induced Fit Models' taught, and from which source text?",
+     "a": "4.1.1 (source: kebt104.txt section 4.1.1, Figs. 4.1-4.2)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt104.3",
+   "title": "Factors Affecting Enzyme Activity",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Factors Affecting Enzyme Activity' refers to.",
+     "a": "Reaction speed bends to the environment: heating raises activity to an optimum near body temperature then denatures the protein, each enzyme peaks at its own pH from pepsin around 1-2 to alkaline phosphatase near 10-11, and rising substrate concentration lifts the rate only until every enzyme molecule is saturated.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Factors Affecting Enzyme Activity'.",
+     "a": "Bell curves for temperature and pH, and a saturation plateau for substrate, describe every catalytic optimum.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Factors Affecting Enzyme Activity' taught, and from which source text?",
+     "a": "4.1.2 (source: kebt104.txt section 4.1.2, Figs. 4.3-4.5)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt104.4",
+   "title": "Michaelis-Menten Kinetics",
+   "questions": [
+    {
+     "q": "Using the method 'Michaelis-Menten Kinetics', work with: km = 25, s_conc = 75, target_rate = 5, vmax = 30. Carry the chain through step by step and give the final value of s_needed.",
+     "a": "5 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Michaelis-Menten Kinetics' and work with: km = 10, s_conc = 45, target_rate = 8, vmax = 45. Carry the chain through step by step and give the final value of s_needed.",
+     "a": "2.1622 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Michaelis-Menten Kinetics' refers to.",
+     "a": "For a single-substrate reaction the initial speed follows a rectangular hyperbola: velocity equals Vmax multiplied by substrate level divided by the sum of Km and that level, so the rate is proportional to substrate when far below Km, plateaus at Vmax when far above, and hits exactly half of Vmax when the substrate level equals Km.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Michaelis-Menten Kinetics'.",
+     "a": "Km is the substrate level that buys half the top speed; solve the hyperbola for any missing variable.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Michaelis-Menten Kinetics', in plain ASCII form.",
+     "a": "rate = vmax * s_conc / (km + s_conc)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt104.5",
+   "title": "Enzyme Units, Katal and Specific Activity",
+   "questions": [
+    {
+     "q": "Using the method 'Enzyme Units, Katal and Specific Activity', work with: kat_value = 120000, protein_mg = 5, total_units = 200. Carry the chain through step by step and give the final value of specific_activity.",
+     "a": "40 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Enzyme Units, Katal and Specific Activity' and work with: kat_value = 20000, protein_mg = 60, total_units = 500. Carry the chain through step by step and give the final value of specific_activity.",
+     "a": "8.3333 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Enzyme Units, Katal and Specific Activity' refers to.",
+     "a": "One enzyme unit converts a micromole of substrate per minute, the katal converts a full mole per second and equals six times ten to the seven units, and specific activity - units carried per milligram of protein - rises as an enzyme preparation gets purer.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Enzyme Units, Katal and Specific Activity'.",
+     "a": "Scale between unit and katal by six times ten to the seven; divide activity by protein mass to measure purity.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Enzyme Units, Katal and Specific Activity', in plain ASCII form.",
+     "a": "specific_activity = total_units / protein_mg",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt104.6",
+   "title": "Competitive and Non-Competitive Inhibition",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Competitive and Non-Competitive Inhibition' refers to.",
+     "a": "Inhibitors slow catalysts either permanently, as penicillin wedging transpeptidase shut, or reversibly: look-alike inhibitors fight for the active site and only raise Km, distant-site inhibitors cripple the enzyme and only lower Vmax, and uncompetitive binders attack only the enzyme-substrate pair, moving both constants.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Competitive and Non-Competitive Inhibition'.",
+     "a": "Read the kinetic signature: Km up with Vmax untouched means competitive; Vmax down with Km untouched means non-competitive.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Competitive and Non-Competitive Inhibition' taught, and from which source text?",
+     "a": "4.1.6 (source: kebt104.txt section 4.1.6, Figs. 4.7-4.11)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt104.7",
+   "title": "Laws of Thermodynamics and Free Energy",
+   "questions": [
+    {
+     "q": "Using the method 'Laws of Thermodynamics and Free Energy', work with: h_change = 3, q_heat = 50, s_change = 80, t_kelvin = 30, w_work = 240. Carry the chain through step by step and give the final value of g_change.",
+     "a": "-2397 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Laws of Thermodynamics and Free Energy' and work with: h_change = 60, q_heat = 200, s_change = 18, t_kelvin = 60, w_work = 240. Carry the chain through step by step and give the final value of g_change.",
+     "a": "-1020 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Laws of Thermodynamics and Free Energy' refers to.",
+     "a": "Energy bookkeeping follows two rules: internal energy shifts only by heat in minus work out, and the universe's disorder never falls; Gibbs merged them into the free-energy balance where the change equals the enthalpy change minus temperature times the entropy change, and a negative result marks a spontaneous process.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Laws of Thermodynamics and Free Energy'.",
+     "a": "Enzymes only cut the activation barrier - they never move the equilibrium or rewrite the free-energy total.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Laws of Thermodynamics and Free Energy', in plain ASCII form.",
+     "a": "g_change = h_change - t_kelvin * s_change",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt104.8",
+   "title": "ATP the Universal Energy Currency",
+   "questions": [
+    {
+     "q": "Using the method 'ATP the Universal Energy Currency', work with: atp_moles = 400, used_kcal = 25. Carry the chain through step by step and give the final value of surplus.",
+     "a": "2895 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'ATP the Universal Energy Currency' and work with: atp_moles = 240, used_kcal = 45. Carry the chain through step by step and give the final value of surplus.",
+     "a": "1707 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'ATP the Universal Energy Currency' refers to.",
+     "a": "Cells bank usable energy in adenosine triphosphate: breaking food or capturing light first charges ADP into ATP, and spending that charge - ATP to ADP plus inorganic phosphate - releases about 7.3 kcal per mole for biosynthesis, transport and muscle work, with some processes like the firefly flash stripping ATP all the way to AMP and pyrophosphate.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'ATP the Universal Energy Currency'.",
+     "a": "Multiply moles of ATP spent by 7.3 kcal to price any energy-demanding cell job.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'ATP the Universal Energy Currency', in plain ASCII form.",
+     "a": "energy_out = atp_moles * 7.3",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

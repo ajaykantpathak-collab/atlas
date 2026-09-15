@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_05_006",
+   "title": "c12_hist_cbse_05_006",
+   "questions": [
+    {
+     "q": "According to Ibn Battuta, how many gates (darwazas) did the city of Delhi have, and which one did he identify as the greatest?",
+     "a": "Delhi had twenty-eight gates; the Badaun Darwaza was the greatest. A wrong answer (e.g., \"twelve gates\" or naming the \"Lahori Gate\") reveals the student is confusing 14th-century Tughlaqabad/Delhi with Shahjahanabad (17th century) or later Mughal fortifications, showing inability to distinguish Sultanate from Mughal urban topography.",
+     "self_check": true
+    },
+    {
+     "q": "Ibn Battuta states the foot-post (dawa) was quicker than the horse-post (uluq). Explain why the foot-post could outpace mounted couriers over long distances in 14th-century India.",
+     "a": "The foot-post used a relay of runners stationed every 1/3 mile (dawa) in populated villages, each sprinting with a bell-tipped rod; fresh runners waited at each station, enabling continuous high-speed transfer. Horse-post stations were 4 miles apart, requiring horse changes and rest. A wrong answer citing \"horses are faster\" ignores the relay logic and infrastructure density — a classic confusion of top speed with system throughput.",
+     "self_check": true
+    },
+    {
+     "q": "Ibn Battuta describes Delhi's rampart as having a lower stone portion and upper brick portion, with towers and windows opening inward. What does this architectural detail suggest about the Sultanate's military priorities and resource allocation?",
+     "a": "Stone foundations resist battering and flooding; brick superstructure allows faster, cheaper vertical extension; inward-facing windows light the interior sentry walkways — indicating a defence-in-depth design prioritizing garrison mobility over outward projection. A wrong answer focusing only on \"strong walls\" misses the functional differentiation of materials and the implication of a standing garrison living inside the rampart.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Ibn Battuta's description of Delhi's bazaars (mosques, temples, performance spaces, grain market at Mandwi Darwaza) with the *Ain-i-Akbari*'s later classification of urban markets. What does the presence of both religious and entertainment spaces in the same bazaar indicate about 14th-century urban social organisation?",
+     "a": "Bazaars functioned as multi-functional public squares integrating commerce, worship, leisure, and information exchange — not merely economic zones. The coexistence of mosques and temples reflects Sultanate policy of pragmatic pluralism; performance spaces indicate state/town patronage of culture. A wrong answer treating bazaars as \"just markets\" imposes a modern secular-economic lens, missing the pre-modern fusion of sacred, social, and commercial life.",
+     "self_check": true
+    },
+    {
+     "q": "Ibn Battuta served as qazi of Delhi for years, then fell from favour, was imprisoned, and later restored. How does this biographical trajectory affect the reliability of his observations on Muhammad bin Tughlaq's administration? Evaluate with two specific examples from his text.",
+     "a": "His insider access yields precise administrative details (postal relay distances, gate names, grain storage in ramparts) impossible for outsiders. However, his grudge after imprisonment may colour his portrayal of the Sultan's \"cruelty\" or \"generosity\" — e.g., he records the Sultan gifting 200 slaves to a preacher but omits context of famine relief. A wrong answer calling him \"fully reliable\" or \"fully biased\" fails source-critical nuance; the correct evaluation weighs procedural accuracy against narrative framing.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 150-word argument: \"Ibn Battuta's Delhi is a fortress-city designed for surveillance and surplus extraction, not a commercial metropolis.\" Use three pieces of evidence from his account to support or refute this.",
+     "a": "Support: rampart with sentry houses and inward windows enables internal surveillance; grain/ammunition stores in ramparts signal extractionist priority; 28 gates controlled by gatekeepers regulate movement. Refute: bazaars with diverse goods, performance spaces, and foreign merchants indicate vibrant commerce; cemetery with year-round flowers suggests settled urban life; postal efficiency serves merchants too. A poor answer lists facts without weighing them against the thesis; a strong answer acknowledges the dual character — fortress *and* emporium — reflecting the Sultanate's coercive-commercial synthesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

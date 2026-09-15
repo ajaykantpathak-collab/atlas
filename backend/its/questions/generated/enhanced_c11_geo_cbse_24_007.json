@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_24_007",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_24_007",
+   "title": "c11_geo_cbse_24_007",
+   "questions": [
+    {
+     "q": "On a 1:50,000 SOI toposheet, you see a blue line with regular short dashes (----) crossing a contour line. What does this symbol represent, and how does it differ from a solid blue line of the same width?",
+     "a": "The dashed blue line represents a non-perennial (seasonal) stream or nala that flows only during monsoon, while a solid blue line of equal width indicates a perennial river flowing year-round. A wrong answer (e.g., \"both are rivers\") reveals the student misses the critical hydrological distinction between permanent and seasonal water bodies, which affects interpretation of water availability, agriculture potential, and settlement location — a fundamental error in toposheet analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the SOI use a filled black square (■) for a pucca (permanent) building but an open black square (□) for a kutcha (temporary) structure? Explain the cartographic logic behind this symbol design choice.",
+     "a": "The filled square conveys solidity, permanence, and greater visual weight matching the physical permanence of pucca construction (brick/concrete), while the open square suggests transience and lower visual prominence appropriate for kutcha materials (mud/thatch). This follows the cartographic principle of visual variable \"value\" (lightness/darkness) to encode durability. A wrong answer focusing only on \"different buildings\" misses the semiotic reasoning: symbol design is not arbitrary but systematically encodes feature attributes, a concept essential for interpreting unfamiliar symbols in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Given a 1:50,000 toposheet extract showing a settlement with symbol cluster: ■■■ (three filled squares in a triangle), a blue dashed line passing 200m north, and a double red line (metalled road) connecting to the settlement from the south. Calculate the ground distance of the road segment if it measures 3.2 cm on the map, and interpret the settlement's water security and connectivity.",
+     "a": "Ground distance = map distance × scale denominator = 3.2 cm × 50,000 = 160,000 cm = 1.6 km. The three filled squares in triangular arrangement indicate a nucleated pucca village of moderate size. The seasonal stream (dashed blue) 200m north provides monsoon water only — implying dependence on wells/tanks (check for well symbols ●) for dry-season supply. The metalled road (double red) confirms all-weather connectivity to larger transport network. Wrong calculation (e.g., 16 km) reveals scale conversion error; missing water security inference shows failure to integrate drainage and settlement symbols.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the symbol for \"Reserved Forest\" (green tint with RF boundary) and \"Protected Forest\" (green tint with PF boundary) on a 1:50,000 toposheet. If a toposheet shows RF in the north and PF in the south of a river valley, analyze the legal-administrative implications for local tribal communities' resource access under the Indian Forest Act, 1927.",
+     "a": "Reserved Forest (RF) has stricter protection: all activities prohibited unless permitted; Protected Forest (PF) allows certain community rights unless specifically restricted. Tribal communities in the PF zone (south) may have legally recognized nistar rights (fuelwood, NTFP collection) while those in RF (north) face stricter access controls. The river valley location suggests historical settlement patterns along water sources. Wrong answer treating RF/PF as identical misses the governance-geography interface — a key competency for \"human-environment interaction\" questions in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The conventional sign for a 'temple' (small black flag on pole) and 'mosque' (small black dome with crescent) on SOI toposheets reflects religious diversity but creates interpretation bias because non-religious community halls use the same 'building' symbol (■).\" Justify your evaluation with cartographic and sociological reasoning.",
+     "a": "The statement is partially valid. Cartographically, distinct religious symbols enable rapid identification of cultural landmarks for navigation and heritage mapping — a practical need in diverse India. However, sociologically, it privileges institutional religion over secular community spaces, potentially marginalizing non-religious gathering places in spatial analysis. A robust evaluation acknowledges both: the symbols serve functional navigation purposes (pilgrimage routes, emergency landmarks) but analysts must supplement with census data for complete social infrastructure assessment. Wrong answer calling it \"purely biased\" ignores practical utility; calling it \"perfect\" ignores representational limitations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simplified symbol set for a 1:25,000 scale toposheet of an urban fringe area (e.g., Gurugram-Faridabad border) that must represent: (a) multi-storey apartments, (b) industrial warehouses, (c) metro rail viaduct, (d) sewage treatment plant, (e) reclaimed landfill park. Explain how your symbols maintain SOI visual logic while adding new feature classes.",
+     "a": "Good answer: (a) Tall rectangle with horizontal bars (floors) — extends building symbol vertically; (b) Large rectangle with diagonal hatching — industrial pattern distinct from residential; (c) Double red line with piers (∏∏∏) — adapts railway symbol for elevated structure; (d) Circular tank symbol with 'STP' label — uses water tank logic; (e) Green stipple with 'LF' — adapts vegetation symbol for reclaimed land. All use existing colour codes (black=cultural, red=transport, blue=water, green=vegetation) and visual variables (shape, texture, height). Poor answer uses arbitrary colours/shapes breaking SOI convention, showing failure to understand systematic symbol design principles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

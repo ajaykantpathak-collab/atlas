@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_01_007",
+   "title": "c11_bio_cbse_01_007",
+   "questions": [
+    {
+     "q": "Write the correctly formatted scientific name for the tiger, given its genus is Panthera and specific epithet is tigris, and it was described by Linnaeus in 1758.",
+     "a": "*Panthera tigris* Linn. (or *Panthera tigris* Linnaeus, 1758). A wrong answer like \"Panthera Tigris\" (capitalised species) or \"panthera tigris\" (lowercase genus) or \"Panthera tigris linn\" (author not abbreviated/capitalised correctly) reveals the student has memorised the two-name structure but not the precise formatting rules: genus capitalised, species lowercase, both italicised, author abbreviated with capital initial and period.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the scientific name of wheat as *Triticum Aestivum*. Explain why this is incorrect and what the correct format should be, referencing the specific rule violated.",
+     "a": "The specific epithet \"Aestivum\" is incorrectly capitalised. Rule 4 states the specific epithet must start with a lowercase letter. Correct format: *Triticum aestivum* Linn. A student who misses this reveals they confuse the capitalisation rule for genus vs. species, a common error when they treat both words as \"proper nouns\" rather than understanding genus is a noun (capitalised) and specific epithet is an adjective (lowercase).",
+     "self_check": true
+    },
+    {
+     "q": "In a herbarium specimen label, you see \"Mangifera indica Linn.\" and \"Mangifera Indica Linn.\" on two different sheets for the same species. Which label follows ICBN rules? If you were the curator, what action would you take and why?",
+     "a": "The first label \"*Mangifera indica* Linn.\" is correct; the second violates Rule 4 (specific epithet capitalised). As curator, I would correct the second label to \"*Mangifera indica* Linn.\" because ICBN requires consistent formatting – the specific epithet must always be lowercase regardless of its origin (e.g., *indica* from India). A wrong answer suggests the student thinks capitalisation depends on the word's derivation rather than its position in the binomial.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the binomial names *Solanum tuberosum* (potato) and *Solanum melongena* (brinjal). What does the shared genus name tell you about their taxonomic relationship, and why would renaming brinjal as *Melongena esculenta* violate nomenclatural stability?",
+     "a": "The shared genus *Solanum* indicates both species belong to the same genus – they share more morphological characters with each other than with species in other genera (e.g., *Petunia*). Renaming brinjal *Melongena esculenta* would create a new genus, separating it from potato despite their close relationship, violating the principle that nomenclature should reflect classification (nomenclatural stability). A student who says \"it's just a name change\" misses that binomial names encode phylogenetic information; changing the genus name obscures known evolutionary relationships.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher discovers a new frog species in the Western Ghats and proposes the name *Raorchestes silentvalleyensis* after Silent Valley National Park. The genus *Raorchestes* already exists. Evaluate whether this name follows binomial rules and what additional step is required before it becomes valid.",
+     "a": "The format follows rules: genus *Raorchestes* (capitalised), species *silentvalleyensis* (lowercase, Latinised from place name), both italicised. However, for validity under ICZN, the name must be published in a peer-reviewed work with a description/diagnosis differentiating it from congeners, and the type specimen must be deposited in a recognised collection. A student who says \"yes it's valid\" confuses correct formatting with valid publication – a critical distinction in taxonomy where many \"manuscript names\" never become available names.",
+     "self_check": true
+    },
+    {
+     "q": "Design a classroom activity where students use only binomial nomenclature (no common names) to create a \"biodiversity menu\" for a hypothetical restaurant serving 5 Indian dishes, each featuring a different organism (plant/animal/fungus). Specify how you would assess correct application of all five rules.",
+     "a": "Example menu: 1. *Oryza sativa* Linn. (rice) pulao, 2. *Solanum melongena* Linn. (brinjal) bharta, 3. *Mangifera indica* Linn. (mango) lassi, 4. *Agaricus bisporus* (J.E. Lange) Imbach (button mushroom) masala, 5. *Gallus gallus domesticus* (Linn., 1758) (chicken) curry. Assessment rubric: (a) Genus capitalised, species lowercase [1 mark each], (b) Both italicised/underlined [1 mark], (c) Author citation correct format [1 mark], (d) No common names used [1 mark], (e) Names correspond to actual ingredients [1 mark]. A poor answer uses common names or violates formatting, showing the student cannot apply rules in a synthetic task.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

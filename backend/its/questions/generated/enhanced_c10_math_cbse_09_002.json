@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_09_002",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_09_002",
+   "title": "c10_math_cbse_09_002",
+   "questions": [
+    {
+     "q": "A student is standing 20 metres away from a lamp post. She looks at the top of the lamp post. In the diagram, she draws a horizontal line from her eye and marks the angle between this horizontal line and the line of sight as 30°. Is this angle the angle of elevation or the angle of depression? Justify your answer in one sentence.",
+     "a": "This is the angle of elevation because the observer is looking upward from the horizontal line to the object (top of lamp post). A wrong answer (calling it angle of depression) reveals the student confuses the direction of measurement: depression is for looking downward, elevation for looking upward.",
+     "self_check": true
+    },
+    {
+     "q": "In a right triangle representing an angle of elevation problem, the angle of elevation is at the observer's eye (point O). The side opposite this angle is the vertical height of the object above eye level, and the side adjacent is the horizontal distance from the observer to the foot of the object. Explain why the angle of elevation is always an acute angle (less than 90°) in such problems.",
+     "a": "The angle of elevation is measured from the horizontal upward to the line of sight; since the object is above the horizontal, the line of sight lies between the horizontal and the vertical, making the angle strictly between 0° and 90°. A wrong answer (e.g., \"it can be 90°\") reveals the student does not understand that at exactly 90° the object would be directly overhead, which is a limiting case not considered in standard height-distance problems.",
+     "self_check": true
+    },
+    {
+     "q": "From a point on the ground, the angle of elevation of the top of a tower is 45°. The horizontal distance from the point to the foot of the tower is 30 m. Draw a neat labelled diagram showing: (i) the observer's eye, (ii) the horizontal line, (iii) the line of sight, (iv) the angle of elevation, (v) the height of the tower, and (vi) the horizontal distance. Label the angle of elevation as 45° and the horizontal distance as 30 m.",
+     "a": "[Diagram description: Point O on ground (observer), point B at foot of tower vertically below top T. Horizontal line through O parallel to ground. Line OT is line of sight. Angle between horizontal and OT at O is marked 45°. OB = 30 m (horizontal distance). TB = h (height).] A wrong diagram (e.g., angle marked at the top of the tower, or horizontal line drawn at the foot of the tower) reveals the student does not know the horizontal line must be through the observer's eye and the angle is at the observer's position.",
+     "self_check": true
+    },
+    {
+     "q": "Two observers, A and B, are standing at different distances from the same tower on the same side. Observer A is closer to the tower than observer B. Both look at the top of the tower. Compare the angles of elevation for A and B. Which is larger? Explain using the concept of the right triangle formed.",
+     "a": "Observer A (closer) has a larger angle of elevation. In the right triangle, the opposite side (height of tower above eye level) is fixed, while the adjacent side (horizontal distance) is smaller for A. Since tan θ = opposite/adjacent, a smaller adjacent gives a larger tan θ, hence a larger acute angle θ. A wrong answer (saying B has larger angle or they are equal) reveals the student does not connect the geometric relationship between distance and angle.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a problem: \"The angle of elevation of the top of a building from a point on the ground is 60°. The distance from the point to the building is 10 m. Find the height of the building.\" The student writes: tan 60° = adjacent/opposite = 10/h, so h = 10/tan 60°. Identify the error in the student's working and correct it.",
+     "a": "The error: the student swapped opposite and adjacent in the tangent ratio. tan θ = opposite/adjacent. Here, opposite = height (h), adjacent = 10 m. Correct equation: tan 60° = h/10 → h = 10 tan 60° = 10√3 m. A wrong identification (e.g., saying the angle is wrong) reveals the student does not know which side is opposite/adjacent relative to the angle of elevation at the observer's eye.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life scenario (different from tower/building) where an angle of elevation is naturally observed. Describe the observer, the object, the horizontal line, and the line of sight. Draw a rough sketch and label the angle of elevation. Then, write a question that could be asked using this scenario that requires finding either the height or the distance.",
+     "a": "Example: A child flying a kite. Observer = child's eye. Object = kite. Horizontal line through child's eye parallel to ground. Line of sight = string from child's hand to kite (assuming string is taut and straight). Angle of elevation = angle between string and horizontal. Question: \"If the string is 50 m long and makes an angle of 30° with the horizontal, find the height of the kite above the child's hand.\" A poor answer (scenario not involving upward look, or horizontal line not through observer's eye) reveals the student cannot transfer the concept to new contexts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

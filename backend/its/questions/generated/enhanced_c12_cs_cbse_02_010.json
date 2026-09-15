@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_02_010",
+   "title": "c12_cs_cbse_02_010",
+   "questions": [
+    {
+     "q": "State the bit-length and typical textual representation of an IPv4 address and a MAC address.",
+     "a": "IPv4 address: 32 bits, written as four decimal octets separated by dots (e.g., 192.168.1.10). MAC address: 48 bits, written as six hexadecimal pairs separated by colons or hyphens (e.g., 00:1A:2B:3C:4D:5E). A wrong answer (e.g., saying MAC is 32 bits or IP is hexadecimal) reveals confusion between the two address formats and their underlying bit-lengths, which leads to errors in identifying addresses in packet captures or configuration tasks.",
+     "self_check": true
+    },
+    {
+     "q": "A laptop connects to a Wi-Fi network at home, then later connects to a different Wi-Fi network at a café. Which address — MAC or IP — changes, and why?",
+     "a": "The IP address changes because it is assigned by the local network's DHCP server (different subnet at café). The MAC address remains the same because it is burned into the laptop's Wi-Fi NIC hardware. If the student says MAC changes, they incorrectly believe hardware addresses are reassigned per network; if they say IP stays the same, they confuse static IP configuration with the typical dynamic assignment.",
+     "self_check": true
+    },
+    {
+     "q": "Given the string \"FE80::1A2B:3C4D:5E6F:7A8B\", identify whether it is a MAC address, an IPv4 address, or an IPv6 address. Justify your answer.",
+     "a": "It is an IPv6 link-local address. Justification: It uses hexadecimal hextets separated by colons, contains a double colon (::) for zero compression, and is 128 bits long (8 groups of 16 bits). A MAC address has only 6 groups of 2 hex digits (48 bits). An IPv4 address uses decimal dotted notation. A wrong classification shows inability to distinguish address families by syntax, a common trap in board exam \"identify the address type\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the scope of delivery for MAC and IP addresses. At which OSI/TCP/IP layer does each operate, and what does that imply about the devices that process each address?",
+     "a": "MAC addresses operate at Layer 2 (Data Link) and are used for hop-to-hop delivery between directly connected nodes (same broadcast domain); switches and NICs process them. IP addresses operate at Layer 3 (Network) and are used for end-to-end delivery across multiple networks; routers process them. A student who says both are processed by routers confuses Layer 2 switching with Layer 3 routing, a fundamental error that appears in board exam case studies about network devices.",
+     "self_check": true
+    },
+    {
+     "q": "A network administrator configures a static IP address on a server but leaves the MAC address as the factory default. Evaluate whether this setup can work correctly in a LAN. Defend your answer.",
+     "a": "Yes, it works correctly. The MAC address is globally unique (OUI + device ID) and does not need manual configuration; the static IP provides a fixed logical address for services. The only risk is if two NICs share the same MAC (manufacturing defect or virtualization misconfiguration), but that is extremely rare. A student who claims the MAC must be manually set misunderstands that MAC uniqueness is guaranteed by IEEE assignment, not local configuration.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scenario where a device has two different IP addresses simultaneously but only one MAC address. Explain how this is possible and what each address is used for.",
+     "a": "A laptop with a single Wi-Fi NIC (one MAC) connects to two networks via a virtual interface (e.g., VPN) or has both IPv4 and IPv6 addresses on the same interface. The single MAC identifies the physical NIC for Layer 2 frames; the two IP addresses (e.g., 192.168.1.5 and 10.0.0.5) serve different logical networks for Layer 3 routing. A poor answer might suggest two physical NICs are needed, missing the concept of logical addressing multiplicity on one hardware interface.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

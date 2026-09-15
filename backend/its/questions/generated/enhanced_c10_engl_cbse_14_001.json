@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_engl_cbse_14_001",
+ "concepts": [
+  {
+   "id": "enh:c10_engl_cbse_14_001",
+   "title": "c10_engl_cbse_14_001",
+   "questions": [
+    {
+     "q": "What is the scientific principle that Griffin exploits to achieve invisibility?",
+     "a": "Griffin exploits the principle of refractive index matching: he uses drugs to make the refractive index of his body equal to that of air, so light passes through without bending or reflecting, making him invisible. A wrong answer (e.g., \"magic potion\" or \"he became transparent like glass\") reveals the student has confused the pseudo-scientific explanation with fantasy or misunderstood the optics — glass is visible precisely because its refractive index differs from air.",
+     "self_check": true
+    },
+    {
+     "q": "Why does Griffin choose to experiment on himself rather than on a test subject?",
+     "a": "Griffin experiments on himself because he works in total secrecy, has no assistants, and wants sole credit and control over the discovery; the text calls him \"a lawless person\" who \"had no one to share his secret.\" A wrong answer (e.g., \"he was forced\" or \"it was an accident\") shows the student misses his deliberate, arrogant agency — a key trait that drives the plot.",
+     "self_check": true
+    },
+    {
+     "q": "If Griffin's drugs had made his body's refractive index equal to that of water (1.33) instead of air (1.0), what would happen when he stood in a room? Explain using the concept of refractive index.",
+     "a": "He would remain visible in air because light would refract at the air-body boundary (air = 1.0, body = 1.33), but he would become invisible if submerged in water. Steps: (1) Recall invisibility requires refractive index of object = refractive index of surrounding medium. (2) Identify surrounding medium as air (1.0). (3) Compare: body (1.33) ≠ air (1.0) → visible. (4) Conclude: matching is medium-specific. A wrong answer (e.g., \"he'd be half-invisible\") reveals the student thinks invisibility is an absolute property of the object, not a relational one.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Griffin's scientific method with standard ethical research practices. Identify three specific steps he skips, with textual support.",
+     "a": "Griffin skips: (1) Peer review and collaboration — text: \"he carried on his work in secret.\" (2) Safety trials and informed consent — he tests directly on himself: \"he swallowed certain rare drugs.\" (3) Documentation for reproducibility — he keeps no records, intending to \"enjoy the advantage\" alone. A wrong answer that lists only \"he was secretive\" without linking to specific research norms shows the student cannot analyze the text through an ethical-scientific lens.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: Was Griffin's discovery a triumph of science or a curse? Justify with two pieces of evidence from the story.",
+     "a": "It is both: a scientific triumph because he achieved what was thought impossible — \"the refractive index of the human body equal to that of air\" — but a curse because he misused it for crime and became a hunted outcast. Evidence: (1) Triumph: \"He was a brilliant scientist... he had discovered a process.\" (2) Curse: \"He was a lawless person... he set fire to the house\" and later steals, assaults, and lives in fear. A one-sided answer (\"only triumph\" or \"only curse\") reveals the student cannot hold the duality that the story deliberately constructs.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 50-word diary entry from Griffin's perspective on the night he first becomes fully invisible. Include his scientific exhilaration and a hint of his moral detachment.",
+     "a": "A strong entry: \"Midnight. The drugs worked. My hand vanished before my eyes — refractive index matched to air. No reflection, no shadow. I am the first. The power is absolute. Let them call it madness; I call it mastery. Tomorrow, the world changes.\" Criteria: uses \"refractive index,\" shows exhilaration, hints at arrogance/lawlessness. A poor entry lacks scientific terminology or reads like a generic superhero journal, missing the character's cold intellect.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

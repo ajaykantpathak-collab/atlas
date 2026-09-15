@@ -1,0 +1,93 @@
+{
+ "catalog": "catalog_class6_science_fecu101.json",
+ "concepts": [
+  {
+   "id": "fecu.1.1",
+   "title": "Science Begins with Curiosity",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What makes science exciting according to Grade 6?",
+     "a": "It answers questions from everyday life - why things float, how magnets point, what food is made of.",
+     "self_check": true
+    },
+    {
+     "q": "Give one question about your surroundings science can answer.",
+     "a": "Why does a compass needle always point north-south?",
+     "self_check": true
+    },
+    {
+     "q": "What should a young scientist carry everywhere?",
+     "a": "Curiosity - the habit of asking 'why' about everything seen.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.1.2",
+   "title": "The Scientific Method",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "List the steps of the scientific method.",
+     "a": "Observe, ask a question, guess (hypothesise), test with an experiment, record and conclude.",
+     "self_check": true
+    },
+    {
+     "q": "Why is guessing (hypothesis) important in science?",
+     "a": "It gives a testable idea; the experiment then proves it right or wrong.",
+     "self_check": true
+    },
+    {
+     "q": "What must follow every experiment?",
+     "a": "Honest recording of observations and a conclusion based on evidence.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.1.3",
+   "title": "Science in Everyday Life: The Bicycle",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name two parts of a bicycle that show science at work.",
+     "a": "The chain and gears transfer your push to wheels; the air-filled tyres reduce bumps (cushioning).",
+     "self_check": true
+    },
+    {
+     "q": "Why does a bicycle stop when brakes are pressed?",
+     "a": "Brake pads press the wheel; friction between them slows and stops the wheel.",
+     "self_check": true
+    },
+    {
+     "q": "What simple machine does a bicycle pedal use?",
+     "a": "The pedal and crank work like a wheel-and-axle, multiplying your effort.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.1.4",
+   "title": "The Journey through Grade 6 Science",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name any three topics you will study in Grade 6 science.",
+     "a": "Components of food, magnets, and measurement of length (also water cycle, separation).",
+     "self_check": true
+    },
+    {
+     "q": "How do the topics of Grade 6 connect to daily life?",
+     "a": "Food, water, magnets, measurements - all appear around us every day.",
+     "self_check": true
+    },
+    {
+     "q": "What is the best way to learn these topics?",
+     "a": "Try activities, observe closely, record results and discuss them.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

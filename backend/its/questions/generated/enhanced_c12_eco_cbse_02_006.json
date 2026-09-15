@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_02_006",
+   "title": "c12_eco_cbse_02_006",
+   "questions": [
+    {
+     "q": "A consumer has an income of ₹1,200. The price of good X is ₹40 per unit and the price of good Y is ₹60 per unit. Write the budget line equation and state the horizontal and vertical intercepts.",
+     "a": "Budget line: 40X + 60Y = 1200. Horizontal intercept (X-axis): X = 1200/40 = 30 units (when Y = 0). Vertical intercept (Y-axis): Y = 1200/60 = 20 units (when X = 0). A wrong answer (e.g., 40X + 60Y = 1200 but intercepts swapped or calculated as 1200/60 = 20 for X) reveals the student confuses which price belongs to which axis or forgets that the horizontal intercept uses the price of the good on the horizontal axis.",
+     "self_check": true
+    },
+    {
+     "q": "The budget line equation is 5x₁ + 10x₂ = 200. A student claims the slope is –5/10 = –0.5 and says this means \"the consumer must give up 0.5 units of good 2 to get 1 unit of good 1.\" Is the student correct about the slope value and its economic meaning? Explain.",
+     "a": "The slope value –5/10 = –0.5 is correct (slope = –P₁/P₂ = –5/10). However, the economic interpretation is incomplete: the slope means the consumer must give up 0.5 units of good 2 **to obtain 1 additional unit of good 1 while staying on the budget line** (i.e., at market prices). The student omitted \"while staying on the budget line\" or \"at given market prices,\" which is the crucial part — it is the market rate of substitution, not a preference statement. A wrong answer that treats the slope as a preference trade-off (MRS) reveals confusion between market opportunity cost (budget line slope) and subjective willingness to trade (indifference curve slope).",
+     "self_check": true
+    },
+    {
+     "q": "Arjun has ₹800 to spend on notebooks (₹40 each) and pens (₹20 each). He currently buys 10 notebooks and 15 pens. (a) Is this bundle affordable? (b) If the price of notebooks rises to ₹50 while income and pen price stay the same, what is the new budget line equation and how does the line rotate? (c) Can Arjun still afford the original bundle (10, 15)?",
+     "a": "(a) Cost = 40×10 + 20×15 = 400 + 300 = ₹700 ≤ ₹800 → affordable, inside the budget set. (b) New equation: 50N + 20P = 800. The vertical intercept (pens) unchanged at 800/20 = 40. Horizontal intercept (notebooks) falls from 800/40 = 20 to 800/50 = 16. The line rotates **clockwise** about the vertical intercept (0, 40) because the good on the horizontal axis became more expensive. (c) New cost of (10, 15) = 50×10 + 20×15 = 500 + 300 = ₹800 → exactly affordable (on the new line). A wrong answer that says the line rotates anticlockwise or that the vertical intercept changes reveals the student does not understand which intercept stays fixed when one price changes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two budget lines for the same consumer:\nLine A: 2x₁ + 4x₂ = 100\nLine B: 4x₁ + 8x₂ = 200\nAre these two lines identical, parallel, or intersecting? What does this tell you about the relative prices and real income in the two situations?",
+     "a": "Line B simplifies to 2x₁ + 4x₂ = 100 (divide by 2), which is **identical** to Line A. The price ratio P₁/P₂ = 2/4 = 1/2 in both cases, so the slope is the same. Real income (purchasing power) is also the same because the equation is exactly the same. The student who says \"parallel\" or \"intersecting\" has not simplified the equation or does not recognize that multiplying all prices and income by the same factor (here, 2) leaves the budget set unchanged — this is the homogeneity of degree zero property of the budget set. A wrong answer indicates the student treats nominal values as real without checking proportionality.",
+     "self_check": true
+    },
+    {
+     "q": "\"An increase in the price of good 1 always makes the consumer worse off because the budget set shrinks.\" Evaluate this statement. Under what condition would the consumer *not* be worse off despite the price increase?",
+     "a": "The statement is **generally true but not always**. A price increase of good 1 (with income and P₂ constant) rotates the budget line inward, shrinking the budget set — the consumer loses affordable bundles, so welfare cannot increase (by revealed preference, the old optimal bundle may become unaffordable). However, the consumer is **not worse off** if they were **not consuming good 1 at all** in the initial optimum (a corner solution on the vertical axis). In that case, the price of good 1 is irrelevant to their chosen bundle, and the budget set contraction does not affect the bundles they actually consider. A wrong answer that says \"always worse off\" ignores corner solutions; a wrong answer that says \"never worse off\" ignores that the budget set strictly shrinks for interior solutions.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a numerical example where a consumer's income doubles and both prices double. Show the original and new budget line equations, intercepts, and slope. Explain why the budget set is unchanged. Then create a second example where income doubles but only one price doubles — show how the budget line changes.",
+     "a": "**Example 1 (proportional change):** Original: M = 1000, P₁ = 20, P₂ = 50 → 20x₁ + 50x₂ = 1000. Intercepts: (50, 0) and (0, 20). Slope = –20/50 = –0.4. New: M = 2000, P₁ = 40, P₂ = 100 → 40x₁ + 100x₂ = 2000. Divide by 2: 20x₁ + 50x₂ = 1000 — **identical equation**, same intercepts, same slope. Budget set unchanged because real income (M/P₁, M/P₂) and relative prices (P₁/P₂) are unchanged.\n\n**Example 2 (non-proportional):** Original: M = 1000, P₁ = 20, P₂ = 50 → 20x₁ + 50x₂ = 1000. New: M = 2000, P₁ = 40, P₂ = 50 → 40x₁ + 50x₂ = 2000. Horizontal intercept: 2000/40 = 50 (same as before). Vertical intercept: 2000/50 = 40 (doubled from 20). Slope = –40/50 = –0.8 (steeper than –0.4). The line rotates **clockwise** about the horizontal intercept (50, 0) because good 1 became relatively more expensive. A poor answer fails to show the algebraic simplification or misidentifies the pivot intercept.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

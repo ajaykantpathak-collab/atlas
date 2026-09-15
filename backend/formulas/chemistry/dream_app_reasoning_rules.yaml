@@ -1,0 +1,123 @@
+---
+- formula_id: DRM_CHM_RULE_018
+  name: osmotic_pressure_molar_mass
+  latex: m \cdot R \cdot T / (pi \cdot V)
+  variables:
+  - symbol: pi
+    name: pi
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: chemistry
+  concept_tags:
+  - osmotic_pressure_molar_mass
+  related_formulas: []
+  source: dream_app/reasoning_rules_chem.py
+  unknown: M
+  explanation: 'Osmotic pressure formula: πV = (m/M)RT → M = mRT/(πV)'
+- formula_id: DRM_CHM_RULE_019
+  name: isotonic_solution
+  latex: C2 \cdot M1 / C1
+  variables:
+  - symbol: C2
+    name: C2
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: M1
+    name: M1
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  - symbol: C1
+    name: C1
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: chemistry
+  concept_tags:
+  - isotonic_solution
+  related_formulas: []
+  source: dream_app/reasoning_rules_chem.py
+  unknown: M2
+  explanation: 'Isotonic solutions have equal osmotic pressure: C₁/M₁ = C₂/M₂ → M₂
+    = C₂×M₁/C₁'
+- formula_id: DRM_CHM_RULE_020
+  name: faraday_electroplating
+  latex: m \cdot z \cdot F / M
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: chemistry
+  concept_tags:
+  - faraday_electroplating
+  related_formulas: []
+  source: dream_app/reasoning_rules_chem.py
+  unknown: Q
+  explanation: 'Faraday''s law: Q = (m/M) × z × F, where z = valence (3 for Al³⁺),
+    F = 96500 C/mol'
+- formula_id: DRM_CHM_RULE_021
+  name: rate_constant_order
+  latex: first order
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: chemistry
+  concept_tags:
+  - rate_constant_order
+  related_formulas: []
+  source: dream_app/reasoning_rules_chem.py
+  unknown: order
+  explanation: Rate constant with units s⁻¹ (per second) indicates first order reaction
+- formula_id: DRM_CHM_RULE_022
+  name: moles_from_mass
+  latex: m / M
+  variables: []
+  preconditions: []
+  grade_range:
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: chemistry
+  concept_tags:
+  - moles_from_mass
+  related_formulas: []
+  source: dream_app/reasoning_rules_chem.py
+  unknown: n
+  explanation: 'Number of moles: n = m/M'

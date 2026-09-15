@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_13_007",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_13_007",
+   "title": "c12_math_cbse_13_007",
+   "questions": [
+    {
+     "q": "Define a random variable. What are the two necessary conditions for a function to be a valid probability distribution of a discrete random variable?",
+     "a": "A random variable is a real-valued function defined on the sample space of a random experiment. The two conditions are: (i) \\(0 \\le P(X = x_i) \\le 1\\) for every possible value \\(x_i\\), and (ii) \\(\\sum_{i} P(X = x_i) = 1\\). A wrong answer (e.g., forgetting the sum condition or allowing negative probabilities) reveals that the student treats the distribution as just a list of numbers without the probabilistic constraints, or confuses the random variable with its values.",
+     "self_check": true
+    },
+    {
+     "q": "For the experiment of tossing a fair coin twice, the sample space is \\(S = \\{HH, HT, TH, TT\\}\\). Define \\(X\\) as the number of heads and \\(Y\\) as the difference (number of heads \\(-\\) number of tails). Explain why both \\(X\\) and \\(Y\\) are random variables on the same sample space, and give their probability distributions.",
+     "a": "Both \\(X\\) and \\(Y\\) assign a real number to each outcome in \\(S\\): \\(X(HH)=2, X(HT)=1, X(TH)=1, X(TT)=0\\); \\(Y(HH)=2, Y(HT)=0, Y(TH)=0, Y(TT)=-2\\). Since each outcome gets exactly one real number, both are valid random variables. Their distributions are: \\(X: 0(\\frac{1}{4}), 1(\\frac{1}{2}), 2(\\frac{1}{4})\\); \\(Y: -2(\\frac{1}{4}), 0(\\frac{1}{2}), 2(\\frac{1}{4})\\). A wrong answer (e.g., saying only one random variable can exist per sample space, or giving identical distributions) reveals confusion between the random variable as a function and its probability distribution, or misunderstanding that multiple functions can map the same sample space to different sets of real numbers.",
+     "self_check": true
+    },
+    {
+     "q": "A bag contains 5 red and 3 blue balls. Two balls are drawn at random without replacement. Let \\(X\\) be the number of red balls drawn. Find the probability distribution of \\(X\\).",
+     "a": "Possible values: \\(X = 0, 1, 2\\).  \n\\(P(X=0) = \\frac{3}{8} \\times \\frac{2}{7} = \\frac{6}{56} = \\frac{3}{28}\\) (both blue).  \n\\(P(X=2) = \\frac{5}{8} \\times \\frac{4}{7} = \\frac{20}{56} = \\frac{5}{14}\\) (both red).  \n\\(P(X=1) = 1 - P(X=0) - P(X=2) = 1 - \\frac{3}{28} - \\frac{10}{28} = \\frac{15}{28}\\).  \n(Alternatively: \\(P(X=1) = \\frac{5}{8} \\times \\frac{3}{7} + \\frac{3}{8} \\times \\frac{5}{7} = \\frac{15+15}{56} = \\frac{30}{56} = \\frac{15}{28}\\).)  \nDistribution: \\(X: 0, 1, 2\\); \\(P(X): \\frac{3}{28}, \\frac{15}{28}, \\frac{10}{28}\\). Sum = 1.  \nA wrong answer (e.g., using binomial probabilities \\(\\binom{2}{1}(\\frac{5}{8})(\\frac{3}{8})\\) for \\(X=1\\)) reveals the student incorrectly assumes draws are independent (with replacement) or forgets that the sample space changes after the first draw.",
+     "self_check": true
+    },
+    {
+     "q": "Two fair dice are rolled. Let \\(X\\) be the sum of the numbers and \\(Y\\) be the absolute difference of the numbers. Compare the ranges and symmetry of the probability distributions of \\(X\\) and \\(Y\\). Which distribution has a larger range? Which one is symmetric about its mean?",
+     "a": "\\(X\\) takes values \\(2,3,\\dots,12\\) (range = 11 values). \\(Y\\) takes values \\(0,1,\\dots,5\\) (range = 6 values). So \\(X\\) has a larger range. The distribution of \\(X\\) is symmetric about 7 (e.g., \\(P(X=2)=P(X=12)\\), \\(P(X=3)=P(X=11)\\), etc.). The distribution of \\(Y\\) is not symmetric (e.g., \\(P(Y=0)=\\frac{6}{36}\\), \\(P(Y=5)=\\frac{2}{36}\\)). A wrong answer (e.g., claiming both are symmetric or that \\(Y\\) has larger range) reveals the student has not actually constructed the distributions or does not understand symmetry in probability distributions.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following probability distribution for the number of heads \\(X\\) in 3 tosses of a fair coin:  \n\\(P(X=0)=\\frac{1}{8}, P(X=1)=\\frac{3}{8}, P(X=2)=\\frac{3}{8}, P(X=3)=\\frac{1}{8}\\).  \nIs this correct? Justify your answer by deriving the distribution from the sample space.",
+     "a": "Yes, it is correct. The sample space of 3 coin tosses has 8 equally likely outcomes: \\(\\{HHH, HHT, HTH, THH, HTT, THT, TTH, TTT\\}\\). Count outcomes for each number of heads: 0 heads: 1 outcome (TTT) → \\(\\frac{1}{8}\\); 1 head: 3 outcomes → \\(\\frac{3}{8}\\); 2 heads: 3 outcomes → \\(\\frac{3}{8}\\); 3 heads: 1 outcome → \\(\\frac{1}{8}\\). Sum = 1. A wrong answer (e.g., saying probabilities are \\(\\frac{1}{4}\\) each) reveals the student assumes all values of \\(X\\) are equally likely, confusing the equally likely outcomes of the sample space with the values of the random variable.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life experiment (different from coins, dice, or cards) that yields a discrete random variable with at least 4 possible values. Define the random variable, describe the sample space, and write its probability distribution. Ensure the probabilities sum to 1.",
+     "a": "Example: A box contains 10 pens: 4 red, 3 blue, 3 green. Two pens are drawn without replacement. Let \\(X\\) = number of red pens drawn.  \nSample space: all unordered pairs of pens (or ordered, but easier with combinations).  \n\\(X\\) can be 0, 1, 2.  \n\\(P(X=0) = \\frac{\\binom{6}{2}}{\\binom{10}{2}} = \\frac{15}{45} = \\frac{1}{3}\\).  \n\\(P(X=2) = \\frac{\\binom{4}{2}}{\\binom{10}{2}} = \\frac{6}{45} = \\frac{2}{15}\\).  \n\\(P(X=1) = \\frac{\\binom{4}{1}\\binom{6}{1}}{\\binom{10}{2}} = \\frac{24}{45} = \\frac{8}{15}\\).  \nSum = \\(\\frac{15+24+6}{45}=1\\).  \nA poor answer (e.g., only 3 values, probabilities not summing to 1, or not a well-defined random experiment) reveals the student cannot construct a valid probabilistic model from a real situation or fails to verify the distribution conditions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

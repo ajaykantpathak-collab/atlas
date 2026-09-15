@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_chemistry_ch05_005",
+ "concepts": [
+  {
+   "id": "enh:c6_chemistry_ch05_005",
+   "title": "c6_chemistry_ch05_005",
+   "questions": [
+    {
+     "q": "Is freezing water into ice a reversible or an irreversible change?",
+     "a": "It is a reversible change. A wrong answer suggests the student confuses \"hardened\" states (like ice) with permanent changes; explain that heating ice simply turns it back to water, proving it is the same substance.",
+     "self_check": true
+    },
+    {
+     "q": "If you bake a clay pot in a kiln, why is it considered an irreversible change?",
+     "a": "It is irreversible because the heat causes a permanent change in the material, and you cannot turn the hardened pot back into soft, moldable clay. A wrong answer shows the student ignores the \"new substance\" or \"permanent state\" aspect of the change.",
+     "self_check": true
+    },
+    {
+     "q": "A rubber band is stretched and then released. Why is this a reversible change?",
+     "a": "It is reversible because the rubber band returns to its original shape and size once the pulling force is removed. A wrong answer indicates the student thinks any change in shape (even temporary) is irreversible.",
+     "self_check": true
+    },
+    {
+     "q": "Compare burning a candle to melting a candle. Which is reversible, and which is not?",
+     "a": "Melting is reversible (you can collect and re-freeze the wax), but burning is irreversible (the wax turns into smoke and ash). A wrong answer reveals the student focuses on the \"wax\" material only, ignoring the chemical consumption during burning.",
+     "self_check": true
+    },
+    {
+     "q": "If you mix salt and water, can you recover the salt? If so, is the process reversible?",
+     "a": "Yes, it is reversible; you can recover the salt by evaporating the water. A wrong answer suggests the student thinks \"dissolving\" means the salt has disappeared or turned into a new substance.",
+     "self_check": true
+    },
+    {
+     "q": "Think of a change in your kitchen that is irreversible. Explain why you cannot undo it.",
+     "a": "Cooking vegetables is a classic example because the heat permanently changes the structure and color of the food. A poor answer fails to explain *why* (e.g., just saying \"it's done\" without mentioning the inability to revert).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_20_007",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_20_007",
+   "title": "c11_geo_cbse_20_007",
+   "questions": [
+    {
+     "q": "Define cottage industry and small scale industry as per the MSMED Act 2006, stating the investment limit in plant and machinery and the employment threshold for each.",
+     "a": "Cottage industry: Household-based, uses family labor, hereditary skills, no hired workers, investment not formally capped but typically <₹25 lakh, unregistered. Small scale industry: Investment in plant and machinery ≤₹50 crore, employment <50 workers (manufacturing) or <25 (services), registered under MSMED Act. A wrong answer (e.g., confusing investment limits with turnover limits, or missing the hired vs family labor distinction) reveals the student memorizes numbers but doesn't understand the structural difference in labor organization and registration status that defines policy targeting.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why small scale industries are concentrated in the western and southern regions of India (Maharashtra, Gujarat, Tamil Nadu) rather than being uniformly distributed across all states, despite government incentives for backward areas.",
+     "a": "Western/southern concentration occurs due to: (1) Historical entrepreneurial communities (Gujarat, Maharashtra), (2) Better infrastructure (ports, power, transport) reducing transaction costs, (3) Developed banking networks enabling credit access, (4) Proximity to large-scale ancillary demand (auto in Pune, textiles in Coimbatore), (5) Skilled labor pool from technical institutes. A wrong answer citing only \"government policy failure\" or \"lack of raw materials\" reveals misunderstanding of agglomeration economies — SSI clusters form around existing industrial ecosystems, not in isolation; incentives alone cannot overcome missing infrastructure and market linkages.",
+     "self_check": true
+    },
+    {
+     "q": "A small scale textile unit in Surat employs 35 workers with ₹30 crore plant investment. It processes 500 kg cotton yarn daily into grey cloth. Calculate the capital-labor ratio (₹ lakh/worker) and output per worker (kg/day). If the unit upgrades to power looms raising investment to ₹45 crore but reducing workers to 20, recalculate both ratios. Interpret the change.",
+     "a": "Initial: Capital-labor = ₹3000 lakh / 35 = ₹85.7 lakh/worker. Output/worker = 500/35 = 14.3 kg/day. After upgrade: Capital-labor = ₹4500/20 = ₹225 lakh/worker. Output/worker = 500/20 = 25 kg/day. Capital intensity rises 2.6×, labor productivity rises 1.75×. Interpretation: Technology upgrading in SSI raises capital-labor ratio faster than productivity, risking job loss — the core SSI policy dilemma. A wrong calculation (using turnover instead of plant investment, or missing unit conversion) or missing interpretation reveals inability to quantify the employment-efficiency trade-off central to SSI analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of SSI in regional dispersal of industry with that of large-scale public sector plants (e.g., Bhilai, Bokaro, Rourkela) using the concepts of backward-forward linkages and employment elasticity.",
+     "a": "Large PSU plants create growth poles with strong backward linkages (demand for coal, iron ore, machinery) and forward linkages (steel for construction, auto), but high capital intensity (employment elasticity ~0.1) and location in resource-rich backward districts with weak local entrepreneurship. SSI clusters (e.g., Ludhiana hosiery, Tirupur knitwear) generate dispersed employment (elasticity ~0.8), use local labor/skills, create dense local supply chains, but have weaker backward linkages to heavy industry. A wrong answer equating both as \"industrial dispersal\" misses that PSU dispersal is top-down, location-specific, and capital-intensive, while SSI dispersal is bottom-up, widespread, and labor-intensive — complementary but distinct mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the Credit Guarantee Fund Trust for Micro and Small Enterprises (CGTMSE) scheme in solving the collateral-free credit gap for SSI, using the concept of asymmetric information in lending markets.",
+     "a": "CGTMSE covers 75-85% of default risk for loans up to ₹5 crore without collateral, reducing bank risk perception. However, effectiveness is limited by: (1) Banks still require viable project reports — many micro units lack financial literacy, (2) Guarantee fee (0.5-1.5% annually) increases effective interest rate, (3) Coverage excludes retail trade, agriculture — many cottage units fall outside, (4) Asymmetric information persists: banks cannot verify micro-unit cash flows, so rationing continues via high interest or rejection. A wrong answer claiming \"CGTMSE solved credit access\" ignores that risk-sharing doesn't eliminate information asymmetry — it shifts but doesn't remove the screening cost that excludes the smallest, most informal units.",
+     "self_check": true
+    },
+    {
+     "q": "Design a cluster development intervention for a hypothetical traditional pottery cluster in Khurja (Uttar Pradesh) facing declining incomes due to cheap ceramic imports. Your plan must address technology, marketing, skill, and finance dimensions using the SFURTI (Scheme of Fund for Regeneration of Traditional Industries) framework.",
+     "a": "A strong answer proposes: (1) Technology: Common Facility Center with gas kilns (reducing fuel cost 30%), pug mills, glazing unit — shared by 50+ units; (2) Marketing: Geographical Indication (GI) tag for \"Khurja Pottery\", e-commerce tie-up with Amazon Karigar, design studio for contemporary products; (3) Skill: NIFT partnership for design training, certification under NSQF; (4) Finance: SPV (Special Purpose Vehicle) formation for collective bargaining, CGTMSE-backed working capital, equity grant under SFURTI (up to ₹8 crore). A poor answer lists generic \"training and loans\" without cluster-specific assets (GI tag, shared kiln, SPV structure) — revealing failure to understand that cluster development requires collective infrastructure and brand identity, not individual firm support.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch02_006",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch02_006",
+   "title": "c7_math_ch02_006",
+   "questions": [
+    {
+     "q": "Which of the following expressions is equivalent to $12 \\times (10 + 3)$ using the distributive property?\nA) $(12 \\times 10) + 3$\nB) $(12 \\times 10) + (12 \\times 3)$\nC) $12 + (10 \\times 3)$\nD) $(12 + 10) \\times (12 + 3)$",
+     "a": "The correct answer is B. Choice B correctly multiplies the outside factor ($12$) by both terms inside the parentheses ($10$ and $3$) and adds the results. Choosing A shows a common error where students forget to multiply the outside number by the second term. Choosing C or D reveals a misunderstanding of how multiplication distributes over addition.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate $25 \\times (40 + 2)$ by explaining whether it is easier to compute as $(25 \\times 40) + (25 \\times 2)$ or directly as $25 \\times 42$, and state why the distributive property is useful here.",
+     "a": "The correct answer is that computing $(25 \\times 40) + (25 \\times 2)$ is much easier mentally because $25 \\times 40 = 1000$ and $25 \\times 2 = 50$, yielding $1050$ without long multiplication. A wrong answer or one that claims direct multiplication is always simpler indicates that the student does not recognize how the distributive property simplifies mental math by creating multiples of 10, 100, or 1000.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the value of $48 \\times 105$ by rewriting $105$ as $(100 + 5)$ and applying the distributive property. Show all computation steps.",
+     "a": "The correct answer is $5040$. Working steps: \n1) Rewrite the expression as $48 \\times (100 + 5)$. \n2) Apply the distributive property: $(48 \\times 100) + (48 \\times 5)$. \n3) Compute each part: $4800 + 240$. \n4) Add the results: $4800 + 240 = 5040$. \nA wrong answer usually stems from forgetting to distribute to the second term or making an arithmetic error during the multiplication of $48 \\times 5$.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the two expressions: Expression A is $15 \\times (20 - 4)$ and Expression B is $(15 \\times 20) - (15 \\times 4)$. Without calculating the final numerical value of either expression, explain why they must be equal.",
+     "a": "The correct answer is that they are equal because of the distributive property of multiplication over subtraction. Expression B is the expanded form of Expression A, where the factor $15$ is distributed across both terms inside the parentheses. A wrong answer suggests the student thinks subtraction behaves differently or does not recognize the expanded equivalence of the two forms.",
+     "self_check": true
+    },
+    {
+     "q": "A student evaluates the expression $8 \\times (50 - 3)$ as follows: \nStep 1: $8 \\times 50 - 3$\nStep 2: $400 - 3$\nStep 3: $397$\nIdentify the exact error in the student's work and provide the correct evaluation using the distributive property.",
+     "a": "The student's error is in Step 1, where they failed to distribute the factor $8$ to the second term ($3$), computing $8 \\times 50 - 3$ instead of $(8 \\times 50) - (8 \\times 3)$. The correct evaluation is: \n1) $(8 \\times 50) - (8 \\times 3)$ \n2) $400 - 24$ \n3) $376$. \nA wrong response indicates the student does not understand that the multiplier outside must apply to every term inside the parentheses.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world arithmetic word problem involving a school stationery purchase (using rupees) that can be solved efficiently by applying the distributive property in the form $a(b + c) = ab + ac$. Show both the setup and the solution.",
+     "a": "A good response creates a scenario such as: \"A school buys 15 boxes of chalk. Each box contains 20 white pieces and 5 colored pieces. How many total pieces of chalk are bought?\" \nSetup: $15 \\times (20 + 5)$. \nSolution using distribution: $(15 \\times 20) + (15 \\times 5) = 300 + 75 = 375$ total pieces. \nA poor answer fails to provide a realistic context or does not actually require or demonstrate the use of the distributive property.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

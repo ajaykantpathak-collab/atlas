@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_13_006",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_13_006",
+   "title": "c11_ps_cbse_13_006",
+   "questions": [
+    {
+     "q": "What is the constitutional basis for the statement that the Council of Ministers is collectively responsible to the Lok Sabha, and which article establishes this principle?",
+     "a": "Article 75(3) of the Constitution states: \"The Council of Ministers shall be collectively responsible to the House of the People.\" This means the entire ministry must resign if it loses majority support in the Lok Sabha. A wrong answer (e.g., citing Article 74 or 75(1)) reveals confusion between the President's formal appointment power and the democratic accountability mechanism that makes the PM the real executive.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution require the Prime Minister to be a member of either House of Parliament, and what happens if a non-member is appointed as PM?",
+     "a": "The PM must be a member of Parliament (Lok Sabha or Rajya Sabha) to ensure direct accountability to the legislature. If a non-member is appointed (e.g., Indira Gandhi in 1966, Manmohan Singh in 2004), they must get elected to either house within six months (Article 75(5)). A wrong answer (e.g., \"PM must be from Lok Sabha only\" or \"no such requirement\") shows misunderstanding of the flexibility in parliamentary membership while maintaining legislative accountability.",
+     "self_check": true
+    },
+    {
+     "q": "In a coalition government where the Prime Minister's party has 120 seats in Lok Sabha but relies on allies for a majority of 272, analyze how the PM's power to allocate portfolios and dismiss ministers is constrained compared to a single-party majority of 300 seats.",
+     "a": "In a coalition, the PM must negotiate portfolio allocation with allies (e.g., key ministries like Finance, Home often go to ally leaders), cannot dismiss ally ministers without risking coalition collapse, and must accommodate ally demands in policy decisions. In a single-party majority, the PM has unilateral control over portfolios and dismissals. A wrong answer (e.g., \"PM has same powers in both cases\") reveals failure to distinguish formal constitutional powers from political constraints of coalition dynamics.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the constitutional position of the Prime Minister in India with the President in the USA regarding: (a) membership of legislature, (b) power to dissolve lower house, (c) accountability mechanism.",
+     "a": "(a) Indian PM must be MP (Lok Sabha/Rajya Sabha); US President cannot be Congress member. (b) Indian PM can advise President to dissolve Lok Sabha; US President cannot dissolve Congress. (c) Indian PM accountable via no-confidence motion (collective responsibility); US President fixed term, impeachment only. A wrong answer (e.g., \"both can dissolve legislature\" or \"both directly elected\") shows confusion between parliamentary and presidential systems (c11_ps_cbse_13_002).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"The Prime Minister's dominance over the Council of Ministers has increased over decades, undermining collective responsibility and making the Cabinet a mere rubber stamp.\" Use specific examples from coalition era (1989-2014) and single-party majority era (2014-present) to support your evaluation.",
+     "a": "The argument is partially valid but oversimplified. Coalition era (1989-2014): PMs like Vajpayee, Manmohan Singh had constrained authority - portfolio allocation negotiated, key decisions required ally consensus (e.g., nuclear deal survival depended on Left support). Single-party majority (2014-present): PM Modi centralized decision-making in PMO, reduced Cabinet meeting frequency, but collective responsibility remains constitutionally intact - ministers still resign collectively if government falls. A poor evaluation ignores that coalition constraints were structural, not just PM weakness, and that PMO centralization exists within constitutional framework.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a Minister of State (Independent Charge) publicly contradicts a Cabinet Minister's policy announcement. Trace the constitutional and conventional steps for resolution, identifying who has final authority and why.",
+     "a": "Scenario: MoS (Independent Charge) for Environment contradicts Cabinet Minister for Forests on forest clearance policy. Steps: 1) PM calls both ministers for reconciliation (PM coordinates inter-ministerial disputes). 2) If unresolved, PM decides policy direction (PM's authority derives from portfolio allocation power under Article 75(1)). 3) Dissenting minister must either accept PM's decision or resign (collective responsibility under Article 75(3)). 4) If minister refuses, PM advises President to dismiss minister (President acts on PM's advice). Final authority: Prime Minister, as head of Council of Ministers and leader of majority in Lok Sabha. A poor answer suggests President decides independently or that MoS has equal status to Cabinet Minister.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

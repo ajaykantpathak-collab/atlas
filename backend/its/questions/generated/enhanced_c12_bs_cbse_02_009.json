@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_02_009",
+   "title": "c12_bs_cbse_02_009",
+   "questions": [
+    {
+     "q": "State the exact meaning of 'Initiative' as defined by Fayol, and give one example of an employee action that qualifies as initiative versus one that violates the principle.",
+     "a": "Correct answer: Initiative means \"thinking out and executing a plan\" with self-motivation within established organisational practices — e.g., a production supervisor redesigning the material flow layout to reduce handling time by 15% and presenting it for approval. A wrong action would be the same supervisor unilaterally changing the approved raw material supplier without authority, claiming \"I took initiative.\" This reveals the misconception that initiative means bypassing rules; Fayol explicitly states initiative should NOT mean \"going against established practices for the sake of being different.\"",
+     "self_check": true
+    },
+    {
+     "q": "A CEO says: \"We have high Esprit de Corps because we organise annual picnics and celebrate festivals together.\" Using Fayol's definition, explain why this statement reflects a misunderstanding of the principle.",
+     "a": "Correct answer: Fayol defines Esprit de Corps as \"promoting team spirit of unity and harmony among employees\" so that \"objectives would be difficult to realise\" without it, leading to \"mutual trust and belongingness\" that \"minimises the need for using penalties.\" The CEO confuses social events (which may build rapport) with the deep operational integration Fayol meant — where a marketing executive voluntarily shares customer feedback with production to prevent defects, or where 'I' is replaced by 'We' in daily conversations. Social events alone cannot substitute for structural collaboration and shared accountability.",
+     "self_check": true
+    },
+    {
+     "q": "A startup with 15 employees has the founder making all decisions: hiring, vendor selection, pricing, leave approvals. The founder argues this is \"strong centralisation\" as per Fayol. Evaluate this claim using Fayol's contingency principle.",
+     "a": "Correct answer: Fayol states \"The degree of centralisation will depend upon the circumstances in which the company is working\" and \"There is a need to balance subordinate involvement through decentralisation with managers' retention of final authority through centralisation.\" For a 15-person startup, excessive centralisation violates the contingency principle because: (a) the founder becomes a bottleneck, (b) employees develop no decision-making capability, (c) scaling becomes impossible. Fayol notes \"in general large organisations have more decentralisation than small organisations\" — but this is a tendency, not a rule; a small firm in a dynamic market may need MORE decentralisation than a large stable one. The founder's rigid stance ignores the situational balance Fayol prescribed.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast how 'Initiative' and 'Esprit de Corps' interact in a matrix organisation where employees report to both functional and project managers. Identify one specific conflict and one synergy.",
+     "a": "Correct answer: Conflict: An employee takes initiative to propose a process improvement for their project, but the functional manager rejects it as non-standard — initiative is stifled by dual authority. Synergy: When Esprit de Corps is strong, the same employee proactively coordinates between both managers to align the improvement with functional standards, turning dual reporting into a collaborative advantage rather than a constraint. Fayol's scalar chain principle (single chain) is violated in matrix structures, making Initiative and Esprit de Corps critical compensating mechanisms — without them, the structure creates paralysis; with them, it enables cross-functional innovation.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following policy: \"To encourage Initiative, our company allows any employee to implement any idea without prior approval if it saves costs.\" Use Fayol's principles to justify your evaluation.",
+     "a": "Correct answer: This policy violates Fayol's explicit caveat that Initiative \"does not mean going against the established practices of the company for the sake of being different.\" It also violates Authority-Responsibility (managers lose control), Unity of Command (employees bypass superiors), and Discipline (no framework for accountability). A cost-saving idea that compromises quality, safety, or legal compliance could destroy the firm. Fayol advocates an \"employee suggestion system whereby initiative/suggestions which result in substantial cost/time reduction should be rewarded\" — implying a structured review process, not unilateral implementation. The policy confuses autonomy with anarchy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step intervention to build Esprit de Corps in a 500-employee IT services firm where project teams work in isolation, blame other teams for failures, and have high attrition. Each step must reference a specific Fayol principle (not limited to Esprit de Corps).",
+     "a": "Correct answer (sample): Step 1: Implement cross-functional 'Innovation Sprints' where mixed teams solve real client problems — leverages Initiative (xiii) to break silos. Step 2: Redesign performance metrics to include 30% weight for peer-feedback from other teams — applies Equity (xi) and Remuneration (vii) to align individual rewards with collective success. Step 3: Establish a rotating 'Team Ambassador' role where each project sends a representative to a weekly coordination council — operationalises Scalar Chain (ix) and Unity of Direction (v) to replace blame with structured communication. A poor answer would suggest only team-building events without structural changes to incentives, authority, or communication channels.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

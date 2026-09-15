@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_18_005",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_18_005",
+   "title": "c11_bio_cbse_18_005",
+   "questions": [
+    {
+     "q": "Name the three meningeal layers covering the spinal cord from outermost to innermost, and state which layer is in direct contact with the spinal cord tissue.",
+     "a": "The three meningeal layers from outermost to innermost are: dura mater (tough, fibrous outer layer), arachnoid mater (thin, web-like middle layer), and pia mater (delicate, highly vascular inner layer in direct contact with the spinal cord tissue). A wrong answer revealing confusion about the order (e.g., placing pia mater outermost) indicates the student has memorised names without understanding the structural logic — the toughest layer faces the bone for protection, while the most delicate layer hugs the neural tissue for nourishment.",
+     "self_check": true
+    },
+    {
+     "q": "In a transverse section of the spinal cord, the grey matter appears butterfly-shaped with dorsal and ventral horns. Explain why the dorsal horns contain interneurons and sensory neuron terminals while the ventral horns contain motor neuron cell bodies, relating this arrangement to the direction of impulse flow.",
+     "a": "The dorsal horns receive afferent (sensory) impulses entering via dorsal roots, so they contain sensory neuron terminals and interneurons for initial processing; the ventral horns give rise to efferent (motor) impulses exiting via ventral roots, so they house motor neuron cell bodies whose axons form the ventral roots. A wrong answer that swaps the functions or claims both horns contain mixed neuron types reveals the student has not grasped the fundamental principle: dorsal = sensory input (afferent), ventral = motor output (efferent), a pattern consistent throughout the nervous system.",
+     "self_check": true
+    },
+    {
+     "q": "A patient has a spinal cord injury at the T10 vertebral level. Predict which functions would be impaired and which would remain intact, justifying your answer based on spinal cord segmental organisation.",
+     "a": "Functions below T10 (lower trunk, legs, bladder/bowel control) would be impaired due to disruption of ascending sensory tracts and descending motor tracts at that level; functions above T10 (upper body, arms, breathing) remain intact because their segmental connections to the brain are rostral to the injury. A wrong answer claiming complete paralysis or no effect reveals misunderstanding of segmental organisation — each spinal segment connects to specific body regions, so injury effects depend on the level, not just the fact of injury.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the composition and function of white matter in the spinal cord versus white matter in the cerebral hemispheres. How does the spatial arrangement differ and why?",
+     "a": "Spinal cord white matter is peripherally located and contains ascending/descending myelinated tracts organised into dorsal, lateral, and ventral columns for long-distance conduction; cerebral white matter is centrally located (deep to cortical grey matter) and contains association, commissural, and projection fibres for inter-hemispheric and cortico-subcortical communication. The inverted arrangement (grey inside/white outside in cord vs. grey outside/white inside in cerebrum) reflects developmental folding: the neural tube's inner lumen becomes the central canal, keeping grey matter central in the cord, while cerebral hemispheres expand outward, pushing grey matter to the surface as cortex.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The spinal cord is merely a relay cable; all meaningful neural processing occurs in the brain.\" Provide evidence from reflex physiology to support or refute.",
+     "a": "The statement is false. The spinal cord performs significant integration: monosynaptic stretch reflexes (knee-jerk) and polysynaptic withdrawal reflexes involve interneuronal circuits entirely within the spinal cord that process sensory input and generate motor output without brain involvement. These reflexes are \"meaningful processing\" — they protect tissues from damage within milliseconds. A student agreeing with the statement confuses \"higher-order processing\" (conscious perception, decision-making) with \"neural processing\" (any sensorimotor transformation), revealing a hierarchical bias that undervalues subcortical intelligence.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple clinical test to distinguish between an upper motor neuron lesion (above the spinal cord) and a lower motor neuron lesion (at the spinal cord ventral horn or peripheral nerve) in a patient with leg weakness. Explain the expected findings for each.",
+     "a": "Test deep tendon reflexes (e.g., knee-jerk at L3-L4) and check for muscle tone, atrophy, and Babinski sign. Upper motor neuron lesion: hyperreflexia (brisk reflexes), spasticity (increased tone), no atrophy initially, positive Babinski (extensor plantar response). Lower motor neuron lesion: hyporeflexia/areflexia, flaccidity (decreased tone), early atrophy, negative Babinski. A poor test design that only checks strength reveals the student doesn't understand that lesion localisation depends on qualitative signs (reflexes, tone, Babinski) not just quantitative weakness.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

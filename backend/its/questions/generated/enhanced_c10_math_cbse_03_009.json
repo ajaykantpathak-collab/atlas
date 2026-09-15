@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_03_009",
+   "title": "c10_math_cbse_03_009",
+   "questions": [
+    {
+     "q": "In an age problem, if the present age of A is x years and present age of B is y years, how do you express \"A's age 5 years ago\" and \"B's age 3 years hence\" in terms of x and y?",
+     "a": "A's age 5 years ago = x - 5; B's age 3 years hence = y + 3. A wrong answer like x+5 or y-3 reveals the student does not understand that age decreases when going into the past and increases when going into the future. This is the most fundamental translation error in age problems.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the two-digit number with tens digit x and units digit y as x + y. Why is this incorrect? What is the correct algebraic representation?",
+     "a": "x + y gives the sum of digits, not the number. The correct representation is 10x + y because the tens digit has place value 10. A student writing x+y confuses face value with place value — a Class 6 concept (c6_math_ch01_003). This error leads to completely wrong equations.",
+     "self_check": true
+    },
+    {
+     "q": "The sum of the digits of a two-digit number is 11. If the number obtained by reversing the digits is 27 less than the original number, find the original number. (Solve completely.)",
+     "a": "Let tens digit = x, units digit = y. Number = 10x + y.\n(1) x + y = 11\n(2) Reversed number = 10y + x. Condition: 10y + x = (10x + y) - 27 → 9y - 9x = -27 → x - y = 3.\nSolving: x + y = 11 and x - y = 3 → 2x = 14 → x = 7, y = 4. Original number = 74.\nA wrong answer like 47 reveals the student set up the reversal equation incorrectly (sign error or swapped sides). Not verifying that 74 - 47 = 27 shows lack of checking habit.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two problems: (A) \"Father is 3 times as old as son. In 10 years, he will be twice as old.\" (B) \"Father is 3 times as old as son. 10 years ago, he was 5 times as old.\" Without solving, explain how the equations differ and why both are valid.",
+     "a": "Let father = x, son = y. Problem A: x = 3y and x+10 = 2(y+10). Problem B: x = 3y and x-10 = 5(y-10). Both use the same first equation (present relationship) but the second equation shifts time forward (+10) or backward (-10). Both are valid because age differences remain constant over time. A student who thinks only one is \"correct\" doesn't understand that any time reference works if applied consistently to both persons.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves an age problem and gets x = 12, y = 40 (son 12, father 40). The problem states: \"Father is 4 times as old as son. 5 years ago, father was 7 times as old.\" The student says the answer is correct because 40 = 4×12. Evaluate the student's claim.",
+     "a": "The claim is incorrect. While 40 = 4×12 satisfies the first condition, 5 years ago ages were 35 and 7, and 35 ≠ 7×7 (35 ≠ 49). The student only checked the first condition. A correct solution must satisfy ALL given conditions. This reveals the student treats verification as optional rather than mandatory.",
+     "self_check": true
+    },
+    {
+     "q": "Create an age word problem that leads to the equations: x + y = 50 and x - y = 10. State the problem clearly and identify what x and y represent.",
+     "a": "Example: \"The sum of the ages of a father and son is 50 years. The father is 10 years older than the son. Find their ages.\" Here x = father's age, y = son's age. A good problem must have consistent context (ages positive, father older). A poor answer might have x and y swapped or use unrealistic numbers, showing the student doesn't connect equations back to real-world meaning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

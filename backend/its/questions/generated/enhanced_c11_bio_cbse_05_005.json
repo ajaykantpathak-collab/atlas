@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_05_005",
+   "title": "c11_bio_cbse_05_005",
+   "questions": [
+    {
+     "q": "Name the four floral whorls in their correct acropetal sequence (from outermost to innermost) and state the technical term for the individual members of each whorl.",
+     "a": "The four whorls in acropetal order are: (1) Calyx – individual members called sepals; (2) Corolla – individual members called petals; (3) Androecium – individual members called stamens; (4) Gynoecium – individual members called carpels. A wrong answer (e.g., reversing androecium/gynoecium order, or using \"pistil\" for gynoecium member) reveals the student has not internalized the precise terminology and sequential organization that underpins floral formula writing and family description—both core Class 11 skills.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes that in lily, the calyx and corolla are indistinguishable and appear as six similar tepals in two whorls of three. The student writes \"Calyx: 3, Corolla: 3\" in their floral formula. Explain why this is incorrect and state the correct representation.",
+     "a": "In lily, the perianth is undifferentiated into distinct calyx and corolla; the six tepals are collectively termed perianth (P) and represented as P(3+3) or P6 in the floral formula. Writing separate K and C whorls incorrectly implies differentiation that does not exist. A wrong answer shows the student memorizes \"four whorls\" as a rigid rule without understanding that perianth is a valid morphological category when sepals and petals are not distinct—a key distinction for monocot families like Liliaceae.",
+     "self_check": true
+    },
+    {
+     "q": "You are given a flower with the following description: \"Five sepals united at base, five petals free, stamens numerous and free, ovary superior with many ovules on a central column, no septa.\" Identify the aestivation type if the sepals show valvate arrangement, the placentation type, and the family this flower likely belongs to.",
+     "a": "Step 1: Valvate aestivation in calyx (sepals touch at margins without overlap) – seen in Calotropis, but here sepals united suggests gamosepalous calyx with valvate lobes. Step 2: Numerous ovules on a central column with no septa = free central placentation (e.g., Dianthus, Primrose). Step 3: Gamosepalous calyx + polypetalous corolla + polyandrous stamens + syncarpous superior ovary with free central placentation = Caryophyllaceae family. A wrong answer (e.g., axile placentation) reveals confusion between central column with septa (axile) vs. without septa (free central)—a classic Class 11 error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the floral adaptations for pollination in a hypogynous, actinomorphic flower with valvate aestivation (e.g., Mustard) versus a perigynous, zygomorphic flower with vexillary aestivation (e.g., Pea). Explain how each structural feature correlates with its pollination syndrome.",
+     "a": "Mustard (Brassicaceae): Hypogynous + actinomorphic + valvate → open, radially symmetric flower accessible to generalist pollinators (flies, beetles, bees); nectar exposed at base of stamens; valvate sepals protect bud but open wide. Pea (Fabaceae): Perigynous + zygomorphic + vexillary → bilateral symmetry restricts entry to specific pollinators (bees); standard petal acts as landing platform; wings guide insect; keel encloses stamens and pistil, depositing pollen on insect's underside (explosive mechanism). Perigynous thalamus forms a nectariferous cup (hypanthium). A wrong answer that merely lists features without linking structure to pollinator interaction reveals superficial memorization without functional understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 11 student writes the floral formula for a flower described as \"bisexual, actinomorphic, sepals 5 united, petals 5 free, stamens 5 epipetalous, carpels 2 fused, ovary superior, axile placentation\" as: ⊕ K(5) C5 A5 G(2). Evaluate this formula for correctness. Identify every error and rewrite the correct formula.",
+     "a": "Errors: (1) Missing adhesion line for epipetalous stamens – should be a line above C and A symbols. (2) Missing placentation indication – axile placentation not shown. (3) Cohesion brackets: K(5) correct for gamosepalous, but G(2) correct for syncarpous. (4) Missing \"Br\" for bracteate/ebracteate status (though often omitted if not specified). Correct formula: ⊕ Br K(5) C5 A5 G(2) with a horizontal line connecting C and A symbols. A student who misses the adhesion line fails to distinguish between cohesion (within whorl) and adhesion (between whorls)—a critical distinction for floral formula accuracy in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple observational experiment using three locally available flowers (one each from Solanaceae, Fabaceae, and Brassicaceae) to test the hypothesis: \"Floral symmetry type (actinomorphic vs. zygomorphic) determines the diversity of insect visitors.\" Specify the flowers, observation method, data to record, and how you would analyze results.",
+     "a": "Flowers: Solanum nigrum (Makoi, Solanaceae – actinomorphic), Clitoria ternatea (Aparajita, Fabaceae – zygomorphic), Brassica juncea (Mustard, Brassicaceae – actinomorphic). Method: On a sunny morning (9–11 AM), observe each flowering plant for 20 minutes, recording every insect visitor (type, order, duration of visit). Repeat for 3 days. Data: Visitor frequency, taxonomic diversity (number of insect orders/families), visit duration. Analysis: Compare Shannon diversity index of visitors between actinomorphic vs. zygomorphic flowers. Expected: Actinomorphic flowers attract wider diversity (generalists); zygomorphic attract fewer, specialized bees. A poor design (e.g., no replication, ignoring time of day, not identifying insects to order) reveals inability to translate morphological concepts into testable ecological hypotheses.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

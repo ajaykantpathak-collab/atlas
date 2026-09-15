@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_03_001",
+   "title": "c11_eng_h_cbse_03_001",
+   "questions": [
+    {
+     "q": "Who was Howard Carter and what is his connection to King Tutankhamun?",
+     "a": "Howard Carter was the British archaeologist who discovered Tutankhamun's nearly intact tomb in the Valley of the Kings in 1922 after years of searching. A wrong answer (e.g., \"Carter was a pharaoh\" or \"Carter built the tomb\") reveals the student cannot distinguish between the ancient historical figure and the modern excavator, a fundamental category error that will make the text's discussion of \"what Carter did in the 1920s\" incomprehensible.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Tutankhamun changed his name from Tutankhaten to Tutankhamun. What does this reveal about the political/religious context of his reign?",
+     "a": "He changed his name to reflect the restoration of the god Amun (Amun = \"hidden one\") after his father Akhenaten had promoted the Aten (sun disk) and suppressed Amun worship. \"Tutankhaten\" means \"living image of Aten\"; \"Tutankhamun\" means \"living image of Amun.\" A wrong answer that misses the religious shift (e.g., \"he changed it because he became king\") shows the student cannot link the name change to the central historical conflict of the 18th Dynasty — the Amarna Revolution and its reversal — which the text assumes as known context.",
+     "self_check": true
+    },
+    {
+     "q": "The text mentions \"ritual resins had hardened, cementing Tut to the bottom of his solid gold coffin.\" If you were Howard Carter in 1922, what specific problem does this create for forensic analysis today, and how did Carter attempt to solve it?",
+     "a": "The hardened resin made it impossible to remove the mummy without dismembering it. Carter tried using the sun's heat (149°F) to soften the resin; when that failed, his men chiselled the resin away, severing the head and major joints. A student who answers only \"it stuck him to the coffin\" without explaining the *consequence* (dismemberment) or the *method* (heat then chisel) fails to apply the cause-effect reasoning needed to understand why the mummy is in \"very bad condition\" and why modern CT scans are necessary to see past that damage.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the goals of archaeology in 1922 (Carter's time) versus 2005 (CT scan). How does the shift from \"treasure\" to \"life and death details\" change what we learn about Tut?",
+     "a": "In 1922, the goal was recovering spectacular artefacts (gold mask, jewellery) for display; the mummy was an obstacle to the treasure. In 2005, the goal is medical/biological data (age, cause of death, health) using non-invasive imaging. The shift means we now learn about Tut as a human being (club foot, malaria, bone disorders) rather than just a symbol of wealth. A wrong answer that says \"both wanted to find gold\" or \"CT scans find more gold\" reveals a failure to analyze the paradigm shift in archaeological ethics and methodology that is the article's central theme.",
+     "self_check": true
+    },
+    {
+     "q": "The article ends with the image of Orion (Osiris) watching over the tomb. Evaluate whether this poetic ending is an appropriate conclusion for a scientific report on a CT scan. Justify your view.",
+     "a": "Yes, it is appropriate because the article blends science with the cultural/spiritual context of ancient Egypt. The scan is a modern \"resurrection\" technology; ending with the ancient god of the afterlife acknowledges that Tut's journey was originally spiritual, not scientific. It frames the scientific intervention as a continuation of the ancient desire for eternal remembrance. A student who says \"no, science and myth shouldn't mix\" misses the text's deliberate juxtaposition of high-tech forensic analysis with the \"eerie detail\" and \"curse\" atmosphere, failing to evaluate the author's narrative strategy.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-entry timeline for a museum exhibit label that captures the three key phases of Tutankhamun's \"afterlife\": 1323 BCE, 1922, 2005. Use one precise phrase per entry.",
+     "a": "1323 BCE: Royal burial with funerary treasures in Valley of the Kings. / 1922: Howard Carter discovers tomb; mummy dismembered during excavation. / 2005: CT scan produces 1,700 cross-sectional images for forensic reconstruction. A poor answer uses vague phrases like \"Tut died,\" \"Tomb found,\" \"Scan done\" — missing the specific historical and scientific significance of each phase that the text builds upon.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

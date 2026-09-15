@@ -1,0 +1,53 @@
+{
+  "catalog": "catalog_class12_geography_legy104",
+  "concepts": [
+    {
+      "id": "legy.104.1",
+      "questions": [
+        {"q": "Which hunting-gathering people live in the Kalahari desert? (one word)", "a": "Bushmen"},
+        {"q": "Which forest people of the Congo basin still live by food gathering? (one word)", "a": "Pygmies"},
+        {"q": "Which Siberian people named in the text live by hunting and gathering in cold lands? (one word)", "a": "Chukchis"},
+        {"q": "In which desert do the Bushmen practise food gathering? (one word)", "a": "Kalahari"},
+        {"q": "How many gathering-hunting groups are named in the text (Bushmen, Pygmies, Chukchis)? (number)", "a": "3"},
+        {"q": "Are the tools of food gatherers simple or complex? (one word)", "a": "simple"},
+        {"q": "Food gatherers depend on the natural availability of plants and what else? (one word)", "a": "animals"}
+      ]
+    },
+    {
+      "id": "legy.104.2",
+      "questions": [
+        {"q": "What is the seasonal movement of Alpine herders between high pastures and valleys called? (one word)", "a": "transhumance"},
+        {"q": "Which animal is the main beast of pastoral nomads in Sahara and Arabia? (one word)", "a": "camels"},
+        {"q": "Pastoral nomadism is characteristic of which kind of lands: arid or humid? (one word)", "a": "arid"},
+        {"q": "In which Asian highland region do nomads herd yaks? (one word)", "a": "Tibet"},
+        {"q": "How many animals are named as nomad herds (camels, yaks, sheep, goats)? (number)", "a": "4"},
+        {"q": "Nomads move with their herds in search of what vegetation resource? (one word)", "a": "fodder"},
+        {"q": "In which European mountain region is transhumance a classic practice? (one word)", "a": "Alps"}
+      ]
+    },
+    {
+      "id": "legy.104.3",
+      "questions": [
+        {"q": "Tea, coffee and rubber are grown under which type of commercial agriculture? (one word)", "a": "plantation"},
+        {"q": "Extensive commercial grain farming is typical of which North American grasslands? (one word)", "a": "prairies"},
+        {"q": "Which farming type dominates densely populated monsoon Asia? (two words)", "a": "intensive subsistence"},
+        {"q": "Which farming of western Europe combines crops and livestock? (two words)", "a": "mixed farming"},
+        {"q": "Which Mediterranean specialty is the growing of vines? (one word)", "a": "viticulture"},
+        {"q": "Dairy farming is a specialty of which European region's agriculture? (two words)", "a": "western Europe"},
+        {"q": "Under the socialist tradition, farms run collectively were called what? (one word)", "a": "collective"}
+      ]
+    },
+    {
+      "id": "legy.104.4",
+      "questions": [
+        {"q": "Which mining method digs open pits at the surface? (one word)", "a": "surface"},
+        {"q": "Which mining method sinks vertical tunnels to reach deep seams? (one word)", "a": "shaft"},
+        {"q": "The location of mines is fixed by what geological factor? (one word)", "a": "occurrence"},
+        {"q": "A mine's profitability depends on transport costs and access to what? (one word)", "a": "market"},
+        {"q": "What technology helps modern fishing vessels locate fish shoals? (one word)", "a": "sonar"},
+        {"q": "Into how many main classes is fishing divided (inland and deep-sea)? (number)", "a": "2"},
+        {"q": "Which preservation technology allows deep-sea catches to reach distant markets? (one word)", "a": "freezing"}
+      ]
+    }
+  ]
+}

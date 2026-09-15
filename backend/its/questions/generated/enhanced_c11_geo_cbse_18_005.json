@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_18_005",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_18_005",
+   "title": "c11_geo_cbse_18_005",
+   "questions": [
+    {
+     "q": "Name the three major geographical conditions required for rice cultivation in India and state the primary season in which it is grown.",
+     "a": "Rice requires: (1) High mean monthly temperature of ~24°C with no frost, (2) Annual rainfall 150-300 cm or assured irrigation, (3) Clayey alluvial or lateritic soils with high water-holding capacity. It is primarily a kharif crop sown with the onset of southwest monsoon (June-July) and harvested in autumn (September-October). A wrong answer (e.g., stating wheat-like cool temperatures or rabi season) reveals the student confuses the thermal and moisture regimes of kharif vs. rabi crops, a fundamental Class 10 carry-over error.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why wheat cultivation is concentrated in the northwestern plains (Punjab, Haryana, western UP) despite these regions receiving less than 75 cm annual rainfall.",
+     "a": "Wheat is a rabi crop needing cool winters (10-15°C at sowing) and moderate moisture (50-75 cm). The northwestern plains provide ideal winter temperatures due to continental climate and proximity to the Himalayas. The rainfall deficit is overcome by extensive canal irrigation (Bhakra-Nangal, Indira Gandhi Canal) and tube-well irrigation tapping the deep alluvial aquifers. A wrong answer attributing it to high rainfall reveals the student has not grasped the rabi season's dependence on winter precipitation/irrigation rather than monsoon rain, and misses the human modification of the physical environment.",
+     "self_check": true
+    },
+    {
+     "q": "Using the data below, determine which crop (rice or wheat) is more suitable for a district with: Mean annual temperature 26°C, Annual rainfall 120 cm (80% in June-Sept), Soil: Deep black cotton soil (vertisol), Irrigation: Only 20% net sown area irrigated.\nCrop Requirements:\nRice: Temp 24°C, Rain 150-300 cm, Clayey alluvial, High irrigation need.\nWheat: Temp 10-15°C (sowing), Rain 50-75 cm, Loamy, Moderate irrigation need.",
+     "a": "Step 1: Compare temperature: District 26°C suits rice (24°C) but is too high for wheat sowing (needs 10-15°C).\nStep 2: Compare rainfall: District 120 cm is below rice requirement (150-300 cm) but above wheat (50-75 cm). However, 80% in monsoon means winter moisture for wheat is low.\nStep 3: Soil: Black cotton soil (vertisol) has high water-holding capacity, good for rice if flooded, but cracks in dry season. Wheat prefers well-drained loam.\nStep 4: Irrigation: Only 20% irrigated. Rice needs standing water; wheat needs 2-3 irrigations.\nStep 5: Synthesis: Rice fails on rainfall and irrigation. Wheat fails on temperature and soil drainage. Neither is ideal, but wheat with supplemental irrigation is more feasible than rice. A wrong choice of rice shows inability to weigh limiting factors (Liebig's law of the minimum) and ignore irrigation constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the shift in rice cultivation from traditional eastern India (West Bengal, Odisha, Assam) to northwestern India (Punjab, Haryana) post-Green Revolution. Identify the physical and human factors enabling this shift.",
+     "a": "Physical factors: NW India has high summer temperatures (good for rice growth), flat alluvial plains, and fertile soils. Human factors: (1) Massive canal irrigation (Bhakra-Nangal, Sirhind canals) and tubewells created assured water supply replacing monsoon dependence. (2) HYV dwarf rice varieties (IR-8, Jaya) responded to high fertilizer inputs. (3) Rural electrification and credit access enabled pump irrigation. (4) Procurement policies (FCI) gave price assurance. The shift demonstrates how technology and policy can override climatic limitations (low rainfall in NW), but at the cost of groundwater depletion. A poor answer lists only \"Green Revolution\" without specifying the irrigation-water-energy nexus.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Pulses are the most sustainable of the three major food grain crops for Indian agriculture, yet their production has stagnated.\" Provide two arguments for and two against.",
+     "a": "For sustainability: (1) Nitrogen-fixing legumes restore soil fertility, reducing synthetic fertilizer need. (2) Deep taproots access subsoil moisture, making them drought-tolerant and suitable for rainfed marginal lands. Against/Stagnation reasons: (1) Cultivated on marginal, unirrigated lands with low input use, yielding 600-800 kg/ha vs. potential 1500+ kg/ha. (2) Price volatility and lack of assured procurement (unlike wheat/rice) discourage investment in HYV seeds and irrigation. (3) Susceptibility to pests/diseases (pod borer, wilt) without resistant varieties. A weak evaluation treats pulses as inherently low-yielding rather than a victim of policy neglect and resource marginalization.",
+     "self_check": true
+    },
+    {
+     "q": "Design a crop-rotation plan for a 10-hectare farm in central Uttar Pradesh (alluvial soil, canal + tubewell irrigation, 90 cm rainfall) that maximizes annual food grain output while maintaining soil health. Specify the crop sequence, seasons, and justify each choice using geographical reasoning.",
+     "a": "Proposed rotation: Kharif: Rice (June-Oct) using canal water; Rabi: Wheat (Nov-Apr) using tubewell + residual moisture; Zaid (Apr-Jun): Moong (green gram) on 2 ha using pre-monsoon showers. Justification: (1) Rice-wheat is the dominant, high-yielding system supported by irrigation infrastructure. (2) Moong as a summer pulse fixes nitrogen, breaks pest cycles, and provides short-duration (60-70 days) income before kharif rice. (3) Alluvial soil supports all three. (4) Irrigation schedule matches canal (kharif) and groundwater (rabi/zaid). A poor plan ignores water budgeting (e.g., sugarcane blocking rabi) or omits legumes, showing lack of systems thinking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

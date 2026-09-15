@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch3_7",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch3_7",
+   "title": "c8_physics_ch3_7",
+   "questions": [
+    {
+     "q": "Name the three types of contact forces discussed in this topic and give one everyday example of each.",
+     "a": "The three contact forces are muscular force (e.g., pushing a school bag), friction (e.g., a book sliding to a stop on a table), and spring force (e.g., a stretched rubber band pulling back). A wrong answer that lists gravity or magnetism reveals the student is confusing contact forces with non-contact forces; listing only two types shows incomplete recall of the classification.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a book resting on a table experiences a contact force from the table, but the Earth's pull on the book is NOT a contact force.",
+     "a": "The table pushes up on the book only because their surfaces touch – remove the table and the push disappears, proving contact is necessary. Earth pulls the book even when no object touches it (e.g., the book in mid-air), so gravity acts without contact. A student who says both are contact forces thinks any push/pull requires touch, missing that gravity works at a distance.",
+     "self_check": true
+    },
+    {
+     "q": "A student pushes a 2 kg box horizontally with a muscular force of 10 N. The friction force opposing the motion is 3 N. A spring attached to the box pulls backward with 2 N. Calculate the net horizontal force on the box. (Use g = 10 m/s² if needed, but only horizontal forces matter here.)",
+     "a": "Step 1: Identify all horizontal contact forces with direction: muscular force = +10 N (forward), friction = -3 N (backward), spring force = -2 N (backward).  \nStep 2: Net force formula: F_net = ΣF (vector sum).  \nStep 3: Substitute: F_net = 10 N + (-3 N) + (-2 N) = 10 N - 3 N - 2 N = 5 N.  \nStep 4: Unit check: all forces in newtons, result in newtons.  \nStep 5: Reasonable? Yes, a small net force on a 2 kg box gives modest acceleration.  \nAnswer: 5 N forward.  \nA wrong answer of 15 N (adding magnitudes) shows the student ignores direction; 10 N (ignoring friction/spring) shows they don't yet combine multiple contact forces.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the contact forces acting on a cricket ball when: (a) a bowler holds it before release, (b) the ball is in mid-air after release, (c) the ball hits the bat. List which contact forces are present in each case.",
+     "a": "(a) Muscular force (fingers gripping), spring force (if the ball deforms slightly), friction (between fingers and ball).  \n(b) No contact forces (only gravity and air resistance, which is a contact force with air molecules – but at this level we treat air resistance as contact friction).  \n(c) Muscular force (bat pushed by batter), spring force (ball and bat deform), friction (ball slides on bat surface).  \nA student who lists muscular force in (b) thinks the bowler's force continues after release – a classic \"impetus\" misconception.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate says: \"Friction is not a contact force because you can't see the two surfaces touching when a book slides on a table – there are tiny gaps.\" Evaluate this statement and correct the error.",
+     "a": "The statement is incorrect. Friction arises from electromagnetic interactions between atoms of the two surfaces at the microscopic contact points. Even if surfaces look smooth, they touch at many tiny asperities. The gaps are between non-contacting regions, but contact exists where atoms are close enough for forces to act. A student who agrees thinks \"contact\" means perfectly flat macroscopic touching, not understanding the microscopic nature of surface contact.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom activity using only a spring balance, a wooden block, a rubber band, and a rough cloth to demonstrate all three contact forces (muscular, friction, spring) in one sequence. Describe the steps and what students should observe.",
+     "a": "Steps: (1) Hang the block from the spring balance – students pull down (muscular force) and see the spring stretch (spring force). (2) Place the block on the rough cloth and pull horizontally with the spring balance – the reading shows friction opposing motion. (3) Stretch the rubber band between two fingers – muscular force stretches it, spring force pulls back.  \nObservations: In each step, force only appears when objects touch. A poor answer that uses a magnet or drops the block shows the student cannot distinguish contact from non-contact forces.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

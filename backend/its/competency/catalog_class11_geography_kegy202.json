@@ -1,0 +1,128 @@
+{
+ "class": 11,
+ "subject": "geography",
+ "chapter": 202,
+ "chapter_title": "The Origin and Evolution of the Earth",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kegy202.txt",
+ "concepts": [
+  {
+   "id": "kegy.202.1.1",
+   "title": "Early Theories: Nebular Hypothesis to Big Bang",
+   "section": "Origin of the earth",
+   "definition": "Early theories of the earth's origin include the nebular hypothesis of Kant and Laplace with a slowly spinning cloud of gas, tidal theories of a passing star, and the modern Big Bang theory of a singular huge explosion about 13.7 billion years ago expanding the universe from the size of a point.",
+   "formula": "",
+   "key_idea": "The Big Bang expanded space, formed hydrogen and helium gases, and gravity condensed matter into galaxies and stars, with the solar system forming about 4.6 billion years ago.",
+   "textbook_ref": "kegy202.txt early theories sections",
+   "question_patterns": [
+    "explain the nebular hypothesis of the origin of the earth",
+    "describe the big bang theory of the universe",
+    "when did the solar system form according to modern theory",
+    "compare tidal and collision theories",
+    "what evidence supports the expanding universe",
+    "define a light year in measuring cosmic distance"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.202.2.1",
+   "title": "Evolution of the Earth: Planets, Moon and Life",
+   "section": "Evolution of the earth",
+   "definition": "The solar system evolved from a disc shaped cloud of gas and dust with planetesimals accreting into planets; the moon formed by the giant impact or big splat theory, and the earth's evolution shows differentiation of layers, loss of primordial atmosphere and development of the present atmosphere and oceans enabling life.",
+   "formula": "",
+   "key_idea": "The evolution of life began in the oceans about 3.8 billion years ago with single celled blue green algae, long before the oxygen rich atmosphere formed.",
+   "textbook_ref": "kegy202.txt evolution sections",
+   "question_patterns": [
+    "describe the stages of the earth's evolution",
+    "explain the giant impact or big splat theory of the moon",
+    "how did the present atmosphere of the earth form",
+    "when and how did life begin on the earth",
+    "differentiate terrestrial and jovian planets",
+    "what are planetesimals in the solar nebula"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.202.3.1",
+   "title": "The Solar System, Planets and the Earth as a Unique Planet",
+   "section": "Solar system",
+   "definition": "The solar system holds eight planets of which Mercury, Venus, Earth and Mars are terrestrial rocky planets while Jupiter, Saturn, Uranus and Neptune are jovian gas giants, and the earth alone sustains life because of its ideal distance from the sun, water, atmosphere and ozone shield.",
+   "formula": "",
+   "key_idea": "The earth's size and distance from the sun hold gases and water in the right balance, which is why it is called a privileged or unique planet.",
+   "textbook_ref": "kegy202.txt solar system sections",
+   "question_patterns": [
+    "name the eight planets in order from the sun",
+    "differentiate terrestrial and jovian planets",
+    "why is the earth called a unique or privileged planet",
+    "what role does the ozone layer play for life",
+    "compare the earth with venus and mars",
+    "state the conditions that make life possible on the earth"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kegy202.txt exercises",
+   "questions": [
+    "Multiple choice on the origin of the earth.",
+    "Explain the Big Bang theory with its evidence.",
+    "Describe the nebular hypothesis of Laplace.",
+    "How was the moon formed according to the giant impact theory?",
+    "Write a short note on the evolution of the atmosphere."
+   ]
+  }
+ ]
+}

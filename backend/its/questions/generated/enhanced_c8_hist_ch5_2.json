@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_hist_ch5_2",
+ "concepts": [
+  {
+   "id": "enh:c8_hist_ch5_2",
+   "title": "c8_hist_ch5_2",
+   "questions": [
+    {
+     "q": "Name the three distinct fortified divisions of Dholavira's city layout and state one unique public structure found there that is absent at Mohenjo-daro.",
+     "a": "The three divisions are the Citadel (highest, westernmost), the Middle Town (north of citadel), and the Lower Town (east). The unique structure is a large stadium/ceremonial ground with tiered seating in the Middle Town. A wrong answer (e.g., naming only \"citadel and lower town\" or citing the Great Bath) reveals the student is recalling the standard two-part Harappan model from Class 6 and has not grasped Dholavira's distinct three-tier hierarchy and its non-ritual public architecture.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Dholavira build massive stone-lined reservoirs while Mohenjo-daro relied primarily on hundreds of private wells and a single Great Bath?",
+     "a": "Dholavira lay in an arid zone (Kutch) with no perennial river and only seasonal monsoon runoff; reservoirs captured and stored this fleeting surface water for year-round use. Mohenjo-daro sat on the perennial Indus floodplain with high groundwater, making wells sufficient for daily needs; the Great Bath served ritual, not survival, purposes. A wrong answer attributing the difference to \"Dholavira being more advanced\" or \"Mohenjo-daro lacking technology\" shows the student misses the environmental determinism: Harappan engineering was context-specific, not a linear progression.",
+     "self_check": true
+    },
+    {
+     "q": "Given a simplified map of Dholavira showing the citadel, middle town, lower town, and two reservoir clusters (north and south), explain why the reservoirs are positioned outside the citadel walls but connected by channels to the city interior.",
+     "a": "Reservoirs were placed outside the citadel to catch maximum runoff from the surrounding slopes (catchment area) before water entered the city; channels then directed stored water inside through controlled inlets, preventing flooding of the citadel while ensuring supply. A wrong answer placing reservoirs inside the citadel for \"protection\" reveals a misunderstanding of hydrology: you cannot harvest runoff from within a walled enclosure, and the Harappans prioritised gravity-fed collection over defensive hoarding.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the water management systems of Dholavira and Mohenjo-daro. What does this comparison tell us about the Harappan approach to urban planning across different ecological zones?",
+     "a": "Dholavira used surface-water harvesting (reservoirs, dams, storm-drains) suited to an arid, seasonal environment; Mohenjo-daro used groundwater extraction (wells, soak-pits, covered drains) suited to a riverine, high-water-table environment. This shows Harappan planners possessed a flexible \"toolkit\" of hydraulic technologies deployed according to local ecology, not a one-size-fits-all template. A wrong answer claiming one system was \"superior\" or \"later\" indicates the student imposes a linear evolution narrative on what is actually spatial adaptation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Dholavira's stadium proves that Harappan cities had secular public entertainment spaces, unlike the purely religious Great Bath of Mohenjo-daro.\" Defend your position with archaeological reasoning.",
+     "a": "The claim over-interprets limited evidence. The \"stadium\" is a large open structure with tiered sides; its function could be ceremonial, market, assembly, or sport — we lack depictions or artefacts confirming \"entertainment.\" Conversely, the Great Bath's context (adjacent to a massive granary, on the citadel) suggests state ritual, but \"purely religious\" is also an inference. A balanced evaluation acknowledges both structures as elite-sponsored public architecture but refuses to label either definitively without textual evidence. A wrong answer taking either label as fact reveals the student confuses archaeological interpretation with proven fact.",
+     "self_check": true
+    },
+    {
+     "q": "Create a museum exhibit panel (150 words) for Dholavira's water system that explains its engineering to a Class 8 visitor, using the terms \"catchment,\" \"gradient,\" \"settling tank,\" and \"citadel inlet.\"",
+     "a": "A good panel describes how monsoon rain falling on the bare slopes (catchment) flows downhill (gradient) into stone-lined reservoirs, passes through settling tanks to remove silt, and enters the city via controlled inlets at the citadel base, providing year-round water. It avoids jargon without explanation and centres the visitor's perspective (\"imagine turning a tap...\"). A poor panel lists features without explaining the hydraulic logic or uses terms incorrectly (e.g., calling reservoirs \"wells\"), showing the student cannot translate technical archaeology into accessible historical narrative.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

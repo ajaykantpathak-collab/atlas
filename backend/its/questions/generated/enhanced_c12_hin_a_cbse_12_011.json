@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_12_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_12_011",
+   "title": "c12_hin_a_cbse_12_011",
+   "questions": [
+    {
+     "q": "Identify three dialectal vocabulary items from the story \"Laoofnak\" and give their standard Hindi equivalents.",
+     "a": "Correct answer: (1) dkcqyh&dk;nk → doctor (compounder), (2) ekjI+kQr → ekant (solitude/privacy), (3) ijsok → ishq (love/passion) or dard (pain). A wrong answer like \"dkcqyh = dakhu\" reveals the student is guessing from sound similarity rather than contextual inference — they haven't learned to use surrounding sentences (like \"fuekSfN;s\" suggesting medical context) to deduce meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the author uses the compound verb construction \"jkse&jkse dyius yxk\" instead of the simple verb \"dyius\" or \"dyk yxk\" in the opening paragraph.",
+     "a": "Correct answer: The reduplicated adverb \"jkse&jkse\" (slowly-slowly/gradually) combined with the compound verb \"dyius yxk\" (started giving/setting in) conveys the gradual, almost imperceptible onset of emotional numbness in the beggar woman — mirroring how grief settles layer by layer. A wrong answer like \"it's just village style\" misses the semantic precision: compound verbs (aspectual verbs) in Hindi encode inception, completion, or continuity; here \"yxk\" (from yA) marks inceptive aspect, which a simple verb cannot do.",
+     "self_check": true
+    },
+    {
+     "q": "In the dialogue \"cM+h gosyh vc ukeek=k dks gh cM+h gosyh gSA\" — identify the sentence type, the grammatical function of \"vc\" and \"gh\", and rewrite the sentence in standard modern Hindi while preserving the exact pragmatic force.",
+     "a": "Correct answer: Sentence type = declarative/assertive with emphatic focus. \"vc\" = temporal adverb (now/at present), \"gh\" = emphatic particle (exclusively/just). Standard rewrite: \"Ab badi gosai sirf badi gosai hai.\" A wrong answer that writes \"Badi gosai ab badi gosai hai\" loses the restrictive focus of \"gh\" — the student hasn't grasped that Hindi particles like \"gh/hi\" scope over the preceding constituent, not the whole sentence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the honorific system in Gyaneshwar's speech (\"HkkbZ\", \"Hkxoku\", \"ek;th\") with the beggar woman's speech (\"cM+h cgqfj;k\", \"nq^h\", \"csVh\"). What does this contrast reveal about their social positioning and the story's power dynamics?",
+     "a": "Correct answer: Gyaneshwar uses kinship honorifics (HkkbZ = brother, Hkxoku = father, ek;th = mother) reflecting urban, relational respect; the beggar woman uses status-based terms (cM+h cgqfj;k = senior widow, nq^h = daughter-in-law, csVh = chhoti) reflecting rural hierarchy where age/gender/role determine address. The asymmetry — he calls her \"mother\" but she never reciprocates with \"beta\" — reveals his dependence on her charity despite his education. A wrong answer listing terms without analyzing reciprocity misses the power dynamic: language usage here encodes economic dependency masked as respect.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the author's choice to render the beggar woman's internal monologue (\"fdlosQ fy, bruk nq[k >syw¡\\...\") in the same dialectal register as her spoken dialogue. Does this enhance or undermine psychological realism? Justify.",
+     "a": "Correct answer: It enhances psychological realism because in rural oral cultures, thought and speech share the same linguistic register — there's no \"standard Hindi\" inner voice. The dialect markers (vxguh ekku, fgdj, [kwu lw[k tkuk) in her thoughts prove she doesn't code-switch; her identity is linguistically unitary. A wrong answer claiming \"it confuses readers\" imposes a literate, diglossic urban norm on a character who exists outside that norm — revealing the student's own linguistic bias.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-sentence paragraph in the beggar woman's voice describing her reaction to seeing a smartphone for the first time, using at least three dialectal features from the story (vocabulary, verb form, particle, or idiom).",
+     "a": "Expected criteria: (1) Uses dialect vocabulary (e.g., \"dkcqyh\" for device, \"vxguh\" for strange), (2) Employs compound verb or aspectual form (e.g., \"ns[k yxk\" for started seeing), (3) Includes emphatic particle \"gh/hi\" or \"bhI\", (4) Maintains consistent rural register without code-switching. A poor answer using \"mobile phone,\" \"dekha,\" and standard grammar shows the student treats dialect as vocabulary substitution only, not as a coherent grammatical system.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_chem_ch01_012",
+ "concepts": [
+  {
+   "id": "enh:c7_chem_ch01_012",
+   "title": "c7_chem_ch01_012",
+   "questions": [
+    {
+     "q": "What gas is typically released when a reactive metal like zinc reacts with a dilute acid such as hydrochloric acid?",
+     "a": "Hydrogen gas is released. A student who answers \"oxygen\" or \"carbon dioxide\" is confusing the gas produced in acid-metal reactions with the gas produced during combustion or respiration, showing a lack of recall regarding the products of single displacement reactions between metals and acids.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a piece of sodium metal have to be stored immersed in kerosene oil instead of open air or water?",
+     "a": "Sodium is an extremely reactive metal that reacts violently and explosively with oxygen and moisture present in the air and water, producing hydrogen gas which can catch fire. A student who says \"to keep it clean\" or \"to prevent it from melting\" does not understand the high chemical reactivity of alkali metals toward oxygen and water.",
+     "self_check": true
+    },
+    {
+     "q": "A student drops a clean iron nail into a test tube containing copper sulfate solution. After 30 minutes, the blue color of the solution fades to pale green, and a brown coating appears on the iron nail. Write the balanced chemical equation for this reaction and identify the type of chemical reaction.",
+     "a": "Steps:\n1. Identify reactants: Iron ($Fe$) and copper sulfate ($CuSO_4$).\n2. Identify products based on reactivity: Iron is more reactive than copper, so it displaces copper, forming iron(II) sulfate ($FeSO_4$) and copper metal ($Cu$).\n3. Write the skeleton equation: $Fe + CuSO_4 \\rightarrow FeSO_4 + Cu$.\n4. Check balancing: 1 Fe, 1 Cu, 1 S, 4 O on both sides; equation is balanced.\n5. Identify reaction type: Displacement reaction.\nAnswer: $Fe + CuSO_4 \\rightarrow FeSO_4 + Cu$; this is a displacement reaction. A student who writes $Fe + CuSO_4 \\rightarrow Cu_2SO_4 + Fe$ is using incorrect valencies for iron and copper.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why aluminium metal, which is quite reactive chemically, does not corrode easily when exposed to rain and air in daily use utensils like pressure cookers.",
+     "a": "Aluminium reacts quickly with atmospheric oxygen to form a thin, invisible, and tightly adherent layer of aluminium oxide ($Al_2O_3$) on its surface. This oxide layer acts as a protective shield that prevents further oxygen and moisture from reaching the underlying metal, stopping ongoing corrosion. A student who answers \"aluminium is a non-reactive metal like gold\" is failing to distinguish between inherent chemical reactivity and the protective physical barrier created by its stable oxide coating.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether the following chemical equation is correct and balanced: $Mg + 2H_2O \\rightarrow MgO + 2H_2$. Justify your evaluation.",
+     "a": "The equation is incorrect because magnesium reacts with water (specifically steam) to form magnesium hydroxide or magnesium oxide and hydrogen gas, but the atom count and formula for the reaction of magnesium with steam yields $Mg + H_2O \\rightarrow MgO + H_2$ (balanced: 1 Mg, 2 H, 1 O on both sides), whereas liquid water reacts differently to form magnesium hydroxide ($Mg(OH)_2 + H_2$). A student who accepts the given equation as correct is failing to check stoichiometry and proper product formation for metal-water reactions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory test using three test tubes, iron nails, dilute hydrochloric acid, and a burning splinter to demonstrate that metals react with acids to produce hydrogen gas. Describe what you would observe in each step.",
+     "a": "To design this test: Take a clean test tube, place a few pieces of zinc or iron granules inside, and add 5 mL of dilute hydrochloric acid. Observe effervescence (bubbles forming rapidly). Bring a burning splinter near the mouth of the test tube; it will put out the splinter with a pop sound, confirming the evolution of hydrogen gas. A poor answer would omit safety measures, fail to mention the pop test for hydrogen, or suggest using an unreactive metal like copper, which yields no observation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

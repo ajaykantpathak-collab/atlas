@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_13_011",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_13_011",
+   "title": "c11_ps_cbse_13_011",
+   "questions": [
+    {
+     "q": "Under which Article is the Governor appointed, and who appoints them?",
+     "a": "Article 155: The Governor is appointed by the President of India. A wrong answer (e.g., \"elected by state legislature\" or \"appointed by PM\") reveals confusion between the Governor's selection method and the Chief Minister's, or misunderstanding that the Governor is a central appointee, not a state choice.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Governor is described as having a \"dual role\" — as the state's constitutional head and as the Centre's agent. Give one constitutional provision for each role.",
+     "a": "As constitutional head: Article 163 — acts on aid and advice of Council of Ministers. As Centre's agent: Article 356 — sends report to President for President's Rule; Article 200 — reserves bills for President's consideration. A wrong answer that only cites one role (e.g., \"just a rubber stamp\" or \"just Centre's spy\") shows failure to grasp the constitutional design of federal balance.",
+     "self_check": true
+    },
+    {
+     "q": "A state passes a bill on agriculture (State List subject). The Governor reserves it for the President's assent under Article 201. The President withholds assent. Can the state legislature override this? Why or why not?",
+     "a": "No. Once a bill is reserved under Article 201 and the President withholds assent, the bill ends — state legislature cannot override. This applies only to bills reserved under Article 201, not ordinary state bills under Article 200. A wrong answer claiming \"state can repass with 2/3 majority\" confuses the President's veto power over state bills with the Parliament's override power over President's veto on central bills.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the discretionary powers of the Governor (Article 163) with those of the President (Article 74). Identify two key differences in scope and justiciability.",
+     "a": "Differences: (1) Governor's discretion is wider — includes appointing CM in hung assembly, dismissing ministry, reserving bills, reporting for President's Rule; President's discretion is narrower (e.g., appointing PM in hung Parliament, pocket veto). (2) Governor's discretion is explicitly mentioned in Article 163(1) (\"except in so far as he is by or under this Constitution required to exercise his functions... in his discretion\"), making it textually clearer; President's discretion is derived from constitutional silence. Wrong answers often claim \"both have same discretion\" or \"Governor has no discretion.\"",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Governor's power to recommend President's Rule under Article 356 has been misused more often as a political tool than as a constitutional safeguard.\" Support with two historical examples and one judicial check.",
+     "a": "Valid evaluation: Misuse examples — 1977 Janata Party dismissing 9 Congress state governments; 1980 Congress dismissing 9 non-Congress governments. Judicial check: S.R. Bommai v. Union of India (1994) — made Article 356 subject to judicial review, required floor test, prohibited dissolution before Parliament approval. A weak answer gives only one-sided view (all misuse or all legitimate) or cites no case law.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a constitutional amendment proposal (3 clauses) to reduce partisan misuse of the Governor's office while preserving federal balance. Justify each clause.",
+     "a": "Sample clauses: (1) Appointment by a collegium (PM, Home Minister, Leader of Opposition, concerned CM) — reduces unilateral Centre control. (2) Fixed 5-year term, removable only by impeachment-like process — prevents \"pleasure doctrine\" abuse. (3) Discretionary powers exercisable only after consulting state CM and Chief Justice of High Court — adds checks. Poor answer: vague clauses, no justification, or proposals violating basic structure (e.g., \"make Governor elected\").",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

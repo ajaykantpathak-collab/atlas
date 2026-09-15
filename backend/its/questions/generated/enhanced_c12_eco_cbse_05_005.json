@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_05_005",
+   "title": "c12_eco_cbse_05_005",
+   "questions": [
+    {
+     "q": "What is the vertical distance between the post-tax supply curve and the pre-tax supply curve when a unit tax of t rupees per unit is imposed on sellers?",
+     "a": "The vertical distance is exactly t rupees at every quantity. A wrong answer (e.g., \"it depends on elasticity\" or \"it varies with quantity\") reveals the student confuses the statutory incidence (legal liability) with economic incidence (actual burden sharing). The supply curve shift is a mechanical, exact upward translation by the tax amount; only the equilibrium price change depends on elasticities.",
+     "self_check": true
+    },
+    {
+     "q": "If the demand curve is perfectly inelastic (vertical) and a unit tax is imposed on sellers, who bears the entire tax burden and why?",
+     "a": "Buyers bear the entire tax burden. With perfectly inelastic demand, quantity demanded does not change regardless of price. The post-tax supply curve shifts up by the full tax amount, the new equilibrium quantity stays the same, and the buyer price rises by the full tax while the seller price remains unchanged. A student who says \"sellers bear it because they legally pay the tax\" confuses statutory incidence with economic incidence — the central misconception this topic tests.",
+     "self_check": true
+    },
+    {
+     "q": "Given linear demand Qd = 100 − 2P and supply Qs = 20 + 3P, a unit tax of ₹10 per unit is imposed on sellers. Calculate the new equilibrium price buyers pay, price sellers receive, equilibrium quantity, tax revenue, and deadweight loss.",
+     "a": "Step 1: Pre-tax equilibrium: 100 − 2P = 20 + 3P → 5P = 80 → P* = ₹16, Q* = 68.\nStep 2: Tax on sellers shifts supply: new supply Qs' = 20 + 3(P − 10) = 3P − 10.\nStep 3: New equilibrium: 100 − 2P = 3P − 10 → 5P = 110 → Pb = ₹22.\nStep 4: Ps = Pb − 10 = ₹12. Q' = 100 − 2(22) = 56.\nStep 5: Tax revenue = 10 × 56 = ₹560.\nStep 6: DWL = ½ × (68 − 56) × 10 = ₹60.\nA wrong Pb = ₹26 (adding full tax to original price) reveals the student ignores the demand-side response; a wrong DWL formula (e.g., using rectangle instead of triangle) shows confusion between revenue and efficiency loss.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the deadweight loss from a ₹10 unit tax when (a) demand is elastic (Ed = −2) and supply is inelastic (Es = 0.5) versus (b) demand is inelastic (Ed = −0.5) and supply is elastic (Es = 2). Which case generates larger DWL and why?",
+     "a": "Case (a) generates larger DWL. Deadweight loss depends on the quantity reduction, which is larger when the side of the market that adjusts quantity (the more elastic side) is more responsive. In (a), elastic demand means buyers sharply reduce quantity when price rises, creating a large quantity distortion. In (b), inelastic demand means buyers barely reduce quantity, so the tax creates a smaller wedge in quantity traded. A student who claims DWL is the same because the tax rate is identical misses that DWL = ½ × tax × ΔQ, and ΔQ depends on elasticities.",
+     "self_check": true
+    },
+    {
+     "q": "The government is considering a ₹5 per unit subsidy to producers of solar panels. Current equilibrium: P* = ₹20,000, Q* = 1,000 units. Demand elasticity = −1.5, supply elasticity = 0.8. Evaluate whether this subsidy will increase total surplus (consumer surplus + producer surplus + government expenditure) and explain the efficiency implication.",
+     "a": "The subsidy will create a deadweight loss, reducing total surplus. A subsidy lowers the effective cost to producers, shifting supply right by ₹5,000. The new equilibrium quantity exceeds the efficient quantity where marginal social benefit equals marginal social cost. The cost to government (subsidy × new Q) exceeds the gain in consumer + producer surplus by the area of the DWL triangle. Since both demand and supply are elastic enough to respond (|Ed| > 1, Es > 0), the quantity expansion is significant, making DWL substantial. A student who says \"subsidies always increase welfare because they lower prices\" confuses transfer with net surplus gain — the efficiency cost of overproduction is the key insight.",
+     "self_check": true
+    },
+    {
+     "q": "Design a per-unit tax policy for the market of sugary drinks (demand: Qd = 500 − 5P, supply: Qs = 100 + 5P) that raises exactly ₹2,000 in tax revenue while minimizing deadweight loss. What tax rate should the government set? Show your reasoning.",
+     "a": "Pre-tax: 500 − 5P = 100 + 5P → 10P = 400 → P* = ₹40, Q* = 300.\nLet tax = t. New supply: Qs' = 100 + 5(P − t) = 5P + 100 − 5t.\nNew eq: 500 − 5Pb = 5Pb + 100 − 5t → 10Pb = 400 + 5t → Pb = 40 + 0.5t.\nPs = Pb − t = 40 − 0.5t. Q' = 500 − 5(40 + 0.5t) = 300 − 2.5t.\nRevenue R = t × Q' = t(300 − 2.5t) = 300t − 2.5t².\nSet R = 2,000: 2.5t² − 300t + 2,000 = 0 → t² − 120t + 800 = 0.\nDiscriminant = 14,400 − 3,200 = 11,200. √11,200 ≈ 105.83.\nt = (120 ± 105.83)/2 → t₁ ≈ 112.9 (too high, Q negative), t₂ ≈ 7.08.\nOptimal t ≈ ₹7.08 per unit. Q' ≈ 300 − 2.5(7.08) ≈ 282.3. DWL = ½ × 7.08 × (300 − 282.3) ≈ ₹62.6.\nA student who picks t = ₹6.67 (2000/300) ignores the quantity reduction and thus underestimates the required tax rate — a classic \"static revenue estimation\" error.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

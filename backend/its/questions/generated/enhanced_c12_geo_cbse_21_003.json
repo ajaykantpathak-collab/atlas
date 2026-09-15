@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_21_003",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_21_003",
+   "title": "c12_geo_cbse_21_003",
+   "questions": [
+    {
+     "q": "Define \"structured questionnaire\" and \"unstructured interview\" in the context of geographical field surveys. Give one example of a geographical research question suited to each.",
+     "a": "A structured questionnaire uses pre-determined, fixed-response questions (e.g., multiple choice, Likert scale) administered identically to all respondents — suited for \"What percentage of farmers in Punjab use drip irrigation?\" An unstructured interview uses open-ended, flexible questions allowing the interviewer to probe based on responses — suited for \"Why do tribal communities in Bastar resist relocation from forest areas?\" A wrong answer (e.g., swapping the examples) reveals confusion between quantitative breadth (questionnaire) and qualitative depth (interview) — students often think questionnaires can explore \"why\" deeply, but fixed responses limit probing.",
+     "self_check": true
+    },
+    {
+     "q": "A student wants to study \"spatial pattern of household waste segregation practices in a Delhi neighborhood.\" They plan to use a questionnaire. Explain why observation would be more appropriate, and describe what specific behaviors the observer would record.",
+     "a": "Questionnaires rely on self-reported behavior, which suffers from social desirability bias — residents may claim they segregate waste when they don't. Observation directly records actual behavior: the observer would note (1) whether households place wet/dry waste in separate bins at collection point, (2) timing and frequency of disposal, (3) contamination levels in bins, (4) informal dumping spots. A wrong answer (insisting questionnaire is fine) reveals failure to recognize the \"say-do gap\" in human geography — a critical competitive exam trap where students ignore method validity for sensitive or observable behaviors.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-question structured questionnaire segment to investigate \"Impact of Metro Rail on commuting patterns in Bengaluru.\" Include: two closed-ended (one nominal, one ordinal), one open-ended, one multiple-response, and one Likert-scale question. Label each type.",
+     "a": "1. Nominal (closed): \"Primary mode of commute BEFORE Metro: (a) Bus (b) Two-wheeler (c) Car (d) Auto-rickshaw (e) Other\"  \n2. Ordinal (closed): \"Current commute time compared to pre-Metro: (a) Much less (b) Slightly less (c) Same (d) Slightly more (e) Much more\"  \n3. Open-ended: \"Describe one way Metro has changed your daily routine.\"  \n4. Multiple-response: \"Factors influencing your Metro usage (select all): (a) Cost (b) Time saving (c) Comfort (d) Connectivity (e) Safety (f) Other____\"  \n4. Likert (5-point): \"Metro has improved my overall commuting experience: Strongly Disagree / Disagree / Neutral / Agree / Strongly Agree\"  \nA wrong answer (e.g., making all questions open-ended) reveals inability to match question type to data analysis needs — nominal/ordinal/Likert enable statistical analysis (chi-square, correlation) required in board practicals and CUET geography.",
+     "self_check": true
+    },
+    {
+     "q": "Compare participant observation and non-participant observation for studying \"street vendor eviction drives in Mumbai.\" Create a table with four rows: (i) Researcher role, (ii) Data depth, (iii) Ethical risk, (iv) Suitable research phase.",
+     "a": "| Aspect | Participant Observation | Non-Participant Observation |\n|---|---|---|\n| Researcher role | Works alongside vendors, experiences eviction | Watches from distance, records notes/photos |\n| Data depth | High — emic perspective, emotions, informal networks | Moderate — etic perspective, visible actions only |\n| Ethical risk | High — deception if identity concealed; trauma exposure | Lower — transparency easier; but privacy concerns remain |\n| Suitable phase | Exploratory phase — understanding lived experience | Systematic phase — mapping eviction patterns, counting affected |\n\nA wrong answer (e.g., claiming participant observation has lower ethical risk) reveals misunderstanding of informed consent in vulnerable populations — a recurring JEE/NEET-adjacent ethics question in CUET geography case studies.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"For a study on 'groundwater depletion causes in Marathwada,' a questionnaire administered to 200 farmers is sufficient; interviews and observation are unnecessary.\" Provide three distinct geographical reasons.",
+     "a": "The statement is flawed because:  \n(1) Questionnaires cannot capture hydrogeological complexity — farmers may not know aquifer characteristics, recharge zones, or well interference; expert interviews with hydrologists and observation of well depths/rock types are essential.  \n(2) Power dynamics — large landowners may dominate questionnaire responses, masking smallholder experiences; semi-structured interviews with stratified samples reveal equity issues.  \n(3) Behavioral verification — observation of actual irrigation practices (crop choice, pump hours, flood vs drip) often contradicts self-reported data.  \nA wrong answer (agreeing with the statement) reveals \"method monism\" — the competitive exam trap of treating one method as universally sufficient, ignoring triangulation (a core NCERT principle in Practical Work in Geography).",
+     "self_check": true
+    },
+    {
+     "q": "You are designing a mixed-method field survey for \"Urban heat island effect in Jaipur's walled city vs. planned colonies.\" Specify: (a) One observation protocol (what, where, when, how), (b) One interview guide theme for municipal officials, (c) One questionnaire item for residents, (d) How you will triangulate findings.",
+     "a": "(a) Observation: Use infrared thermometer to measure surface temperatures of 50 points (roads, roofs, parks) in both areas at 14:00 and 22:00 hrs for 7 consecutive days; record land cover type, building height, vegetation cover.  \n(b) Interview guide theme: \"Planning interventions for heat mitigation — tree plantation drives, cool roof policies, building bylaws enforcement, budget allocation, inter-department coordination challenges.\"  \n(c) Questionnaire item (Likert): \"My neighborhood feels significantly hotter at night than 10 years ago: Strongly Disagree to Strongly Agree.\"  \n(d) Triangulation: Correlate observed temperature differentials with resident perceptions (questionnaire) and policy gaps (interviews); use GIS overlay (node c12_geo_cbse_21_009) of temperature points, land use, and green cover.  \nA poor answer (single method only) reveals inability to design integrated geographical research — a key competency in CBSE practical exams and CUET case-based questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

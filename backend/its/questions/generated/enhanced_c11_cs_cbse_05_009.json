@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_05_009",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_05_009",
+   "title": "c11_cs_cbse_05_009",
+   "questions": [
+    {
+     "q": "What is the exact output of the following code snippet?\n```python\nfor val in range(2, 10, 3):\n    print(val, end=' ')\n```",
+     "a": "Correct output: `2 5 8 ` (with a trailing space).\nA wrong answer like `2 5 8 11` reveals the student thinks the stop value is inclusive. An answer like `2 3 4 5 6 7 8 9` reveals confusion with `range(2,10)` ignoring the step argument. An answer `0 3 6 9` reveals the student assumes start defaults to 0 even when two arguments are given.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why `list(range(5))` produces `[0, 1, 2, 3, 4]` but `list(range(1, 5))` produces `[1, 2, 3, 4]`. What is the fundamental rule governing the stop parameter?",
+     "a": "The `stop` parameter is **exclusive** — the generated sequence always stops *before* reaching the stop value. `range(5)` is shorthand for `range(0, 5, 1)`, so it generates integers from 0 up to but not including 5. `range(1, 5)` generates from 1 up to but not including 5. A student who says \"it stops at 5\" or \"the last number is 5\" has the classic off-by-one misconception. The rule: `stop` is a boundary, not a member.",
+     "self_check": true
+    },
+    {
+     "q": "Write a `for` loop using `range()` to calculate the sum of the first 10 even natural numbers (2 + 4 + ... + 20). Show the initialization, loop, and final print statement.",
+     "a": "```python\ntotal = 0\nfor num in range(2, 21, 2):  # 2, 4, ..., 20\n    total += num\nprint(\"Sum:\", total)  # Output: Sum: 110\n```\nSteps: 1) Initialize accumulator `total=0`. 2) Use `range(2, 21, 2)` because start=2 (first even), stop=21 (exclusive, so 20 is last), step=2 (next even). 3) Add each `num` to `total`. 4) Print result. A wrong `range(1, 11)` with `total += 2*num` works but misses the direct `range` step usage. Using `range(2, 20, 2)` misses 20 (stop exclusive error). Using `range(0, 10)` and `total += 2*(i+1)` works but is less direct.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two loops. Do they produce the same output? If not, explain the difference in the sequence of values taken by the loop variable.\n```python",
+     "a": "Yes, both produce `1 2 3 4 5 `. Loop A: `i` takes values 1,2,3,4,5 directly from `range(1,6)`. Loop B: `i` takes values 0,1,2,3,4 from `range(5)`, but `i+1` shifts them to 1,2,3,4,5 for printing. The *sequence of the loop variable* differs (Loop A: 1..5, Loop B: 0..4), but the *printed output* is identical. A student who says \"they are exactly the same\" misses the distinction between the loop variable's values and the computed expression. This distinction matters when `i` is used inside the loop for indexing or other calculations.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `for k in range(10, 0, -1): print(k)` intending to print 10 down to 1. They claim `range(10, 0, -1)` includes 0 because \"stop is 0\". Evaluate this claim and provide the correct `range` call to print 10 down to 0 inclusive.",
+     "a": "The claim is **false**. `range(10, 0, -1)` generates 10, 9, 8, ..., 1. It stops *before* reaching 0 because `stop` is exclusive regardless of step sign. The sequence stops when the next value would be *less than or equal to* stop (for negative step). To include 0, the stop must be -1: `range(10, -1, -1)` produces 10, 9, ..., 0. A student who thinks stop is inclusive for negative steps has not generalized the exclusive-stop rule to reverse iteration.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world problem (Indian context: rupees, metres, kg) that *requires* a `for` loop with a **negative step** in `range()` to solve naturally. Write the problem statement and the `range()` call you would use (no need for full code).",
+     "a": "Good problem: \"A lift starts at the 20th floor and goes down to the ground floor (0), stopping at every floor. Write a loop to announce each floor number as the lift arrives.\"\n`range(20, -1, -1)` (covers 20 down to 0).\nPoor answer: A problem solvable with positive step (e.g., \"print 1 to 10\") or a problem that doesn't need iteration (e.g., \"calculate 20-0\"). A problem using `range(20, 0, -1)` misses ground floor (stop exclusive error). The key is recognizing that counting *down* to a *minimum inclusive* bound requires stop = (minimum - 1) for negative step.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

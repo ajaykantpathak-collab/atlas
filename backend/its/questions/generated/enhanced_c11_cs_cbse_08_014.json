@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_08_014",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_08_014",
+   "title": "c11_cs_cbse_08_014",
+   "questions": [
+    {
+     "q": "What is the file extension required for a Python user-defined module, and what statement is used to make its contents available in another script?",
+     "a": "The file must have a `.py` extension, and the `import` statement (or `from ... import`) is used to access its contents. A wrong answer (e.g., saying `.txt` or `.ipynb`, or suggesting `include` or `require`) reveals that the student confuses Python modules with other file types or languages like C/C++.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following code in `mymodule.py` prints \"Module loaded\" when imported but not when run directly:\n```python\nprint(\"Module loaded\")\nif __name__ == \"__main__\":\n    print(\"Running directly\")\n```",
+     "a": "When imported, `__name__` is set to the module name (`\"mymodule\"`), so the `if` block is skipped, but the top-level `print` executes. When run directly, `__name__` becomes `\"__main__\"`, so both prints execute. A wrong answer (e.g., thinking the `if` block runs on import) shows the student misunderstands the `__name__` guard's purpose and the module initialization process.",
+     "self_check": true
+    },
+    {
+     "q": "You have a module `math_utils.py` with a function `add(a, b)`. Write the exact code to import only `add` and call it with arguments 5 and 3, storing the result in `total`.",
+     "a": "```python\nfrom math_utils import add\ntotal = add(5, 3)\n```\nA wrong answer (e.g., `import math_utils.add` or `import add from math_utils`) reveals confusion between `import` and `from ... import` syntax, or misunderstanding that `from` imports the name directly into the current namespace.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the namespace behavior of `import math_utils` versus `from math_utils import *`. What happens if both `math_utils` and another module `stats_utils` define a function named `mean()`?",
+     "a": "`import math_utils` keeps functions in the `math_utils` namespace (accessed as `math_utils.mean()`), while `from math_utils import *` dumps all public names into the current namespace. If both modules define `mean()`, the star import from the second module will overwrite the first `mean` in the current namespace, causing silent bugs. A wrong answer (e.g., saying both keep separate namespaces) shows the student does not grasp namespace pollution risks of star imports.",
+     "self_check": true
+    },
+    {
+     "q": "A student creates `helpers.py` in `/home/user/project/utils/` and tries to import it from `/home/user/project/main.py` using `import helpers`. It fails with `ModuleNotFoundError`. List two distinct ways to fix this without moving the file.",
+     "a": "1. Add `/home/user/project/utils` to `sys.path` at runtime: `sys.path.append('/home/user/project/utils')`.\n2. Set the `PYTHONPATH` environment variable to include that directory before running the script.\nA wrong answer (e.g., \"use `import utils.helpers`\" without making `utils` a package) reveals ignorance of Python's module search path mechanism and the difference between a directory of modules and a package.",
+     "self_check": true
+    },
+    {
+     "q": "Design a user-defined module `text_analysis.py` that provides three functions: `count_words(text)`, `count_vowels(text)`, and `is_palindrome(text)`. Include a `__main__` block that demonstrates each function on a sample string. Write the complete module code.",
+     "a": "```python",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

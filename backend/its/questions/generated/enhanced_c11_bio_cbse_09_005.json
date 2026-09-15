@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_09_005",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_09_005",
+   "title": "c11_bio_cbse_09_005",
+   "questions": [
+    {
+     "q": "Define the term 'active site' of an enzyme and state its two key functional properties.",
+     "a": "The active site is a specific three-dimensional crevice or pocket formed by the folding of the enzyme's polypeptide chain where the substrate binds. Its two key properties are: (1) geometric and chemical complementarity to the substrate (specificity), and (2) ability to stabilize the transition state, thereby lowering activation energy. A wrong answer (e.g., \"active site is where enzyme binds to another enzyme\" or \"active site is the whole enzyme surface\") reveals the student confuses enzyme-enzyme interactions or general protein binding with the precise substrate-binding pocket that enables catalysis.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why enzymes lower the activation energy of a reaction but do not alter the overall free energy change (ΔG) or the equilibrium constant of the reaction.",
+     "a": "Enzymes provide an alternative reaction pathway with a lower-energy transition state by stabilizing it through precise interactions at the active site. They accelerate both forward and reverse reactions equally because the same transition state is involved in both directions. The energy levels of substrate (S) and product (P) remain unchanged, so ΔG = G(P) - G(S) and Keq = [P]eq/[S]eq are unaffected. A wrong answer claiming enzymes \"provide energy\" or \"change ΔG\" reveals the fundamental misconception that catalysts are reactants that supply energy, rather than facilitators that lower the energy barrier.",
+     "self_check": true
+    },
+    {
+     "q": "A student adds the competitive inhibitor malonate to a reaction catalyzed by succinic dehydrogenase with succinate as substrate. Predict how the reaction velocity (V) changes at low substrate concentration versus very high substrate concentration, and justify your prediction.",
+     "a": "At low [succinate], malonate effectively competes for the active site, significantly reducing V. At very high [succinate], succinate outcompetes malonate due to mass action, saturating the enzyme and restoring V to Vmax (same as without inhibitor). The Km appears increased (lower apparent affinity) but Vmax remains unchanged. A wrong answer stating Vmax decreases reveals confusion with non-competitive inhibition; an answer stating no effect at any [S] reveals misunderstanding of the reversible, concentration-dependent nature of competitive inhibition.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the lock-and-key model versus the induced-fit model of enzyme-substrate binding. Which model better explains the observation that enzymes often show conformational changes upon substrate binding, and why?",
+     "a": "Lock-and-key: rigid, pre-formed active site exactly complementary to substrate (static fit). Induced-fit: flexible active site that undergoes conformational change upon substrate binding to achieve optimal catalytic geometry (dynamic fit). Induced-fit better explains conformational changes because it explicitly proposes that substrate binding induces the catalytically competent shape, aligning catalytic residues and excluding water. This also explains why some enzymes bind transition-state analogs tighter than substrates. A wrong answer claiming lock-and-key explains conformational changes reveals the student hasn't grasped that lock-and-key assumes rigidity, while induced-fit was proposed specifically to account for observed flexibility.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"All enzymes are proteins, and all proteins are enzymes.\" Identify the error(s) and provide a corrected version with two specific counter-examples.",
+     "a": "The statement contains two errors. (1) \"All enzymes are proteins\" is false: ribozymes (e.g., ribosomal RNA in peptidyl transferase activity, RNase P) are catalytic RNA molecules. (2) \"All proteins are enzymes\" is false: most proteins are structural (collagen), transport (hemoglobin), hormonal (insulin), defensive (antibodies), or receptor proteins with no catalytic activity. Corrected: \"Most enzymes are proteins, but some are RNA (ribozymes); only a subset of proteins function as enzymes.\" A wrong answer missing ribozymes reveals outdated knowledge; missing non-enzymatic proteins reveals failure to connect protein diversity (c11_bio_cbse_09_002) to functional classification.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using potato tuber, hydrogen peroxide, and a water bath to demonstrate the effect of temperature on catalase activity. Specify the independent variable, dependent variable, two controlled variables, and the expected trend with biological reasoning.",
+     "a": "Independent variable: temperature (e.g., 10°C, 25°C, 37°C, 50°C, 70°C). Dependent variable: rate of O₂ evolution (measured as volume of gas per minute or time for foam to reach a fixed height). Controlled variables: (1) mass/volume of potato tissue (enzyme amount), (2) concentration and volume of H₂O₂ (substrate amount). Expected trend: activity increases up to optimum (~37-40°C for mesophilic plant enzyme), then sharply declines due to thermal denaturation of the protein tertiary structure, destroying the active site geometry. A poor answer omits controlled variables or predicts continuous increase, revealing confusion between reaction rate theory (rate doubles per 10°C) and protein stability limits.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

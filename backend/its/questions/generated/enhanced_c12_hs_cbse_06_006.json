@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_06_006",
+   "title": "c12_hs_cbse_06_006",
+   "questions": [
+    {
+     "q": "State the three broad categories of Audio-Visual aids based on sensory channels, and give one example of each.",
+     "a": "The three categories are: (1) Audio aids — appeal to hearing only (e.g., radio, audio recordings, public address system); (2) Visual aids — appeal to sight only (e.g., posters, charts, models, specimens, flash cards); (3) Audio-Visual aids — appeal to both hearing and sight simultaneously (e.g., films, video, television, puppet shows with narration). A wrong answer that lists \"projector\" as a category reveals confusion between hardware (equipment) and sensory classification; a wrong answer that puts \"flip chart\" in audio-visual reveals misunderstanding that flip charts lack an auditory component unless supplemented.",
+     "self_check": true
+    },
+    {
+     "q": "In Edgar Dale's Cone of Experience, \"motion pictures\" are placed above \"still pictures\" and below \"exhibits\". Explain what this positioning signifies about the learning experience each provides.",
+     "a": "Dale's Cone arranges experiences from concrete (direct, purposeful) at the base to abstract (symbolic) at the apex. \"Motion pictures\" (audio-visual, moving images with sound) provide a more complete sensory experience than \"still pictures\" (visual only, static) but are less concrete than \"exhibits\" (real objects that can be touched, manipulated, examined from multiple angles). A student who says motion pictures are \"better\" than exhibits misunderstands the cone as a hierarchy of effectiveness rather than a continuum of concreteness-to-abstraction; the cone does NOT mean motion pictures always produce better learning — it means they are more abstract than handling real objects.",
+     "self_check": true
+    },
+    {
+     "q": "An extension worker plans to demonstrate \"preparation of oral rehydration solution (ORS)\" to a group of semi-literate mothers in a village with no electricity. She has: (a) a printed poster with steps, (b) a pre-recorded audio cassette, (c) a flip chart with illustrated steps, (d) a smartphone video. Select the MOST appropriate aid and justify using THREE selection criteria.",
+     "a": "The flip chart (c) is most appropriate. Criteria applied: (1) Audience literacy — semi-literate mothers need strong visual support; flip chart provides sequential illustrations without requiring reading fluency (unlike poster text). (2) Resource context — no electricity rules out smartphone video (battery drain) and audio cassette (needs player); flip chart works without power. (3) Message nature — procedural demonstration (step-by-step mixing) needs visual sequencing with presenter control over pace; flip chart allows the worker to pause, repeat, and interact. A wrong choice of smartphone video ignores resource constraints; a wrong choice of audio cassette ignores the visual-motor nature of the skill.",
+     "self_check": true
+    },
+    {
+     "q": "Compare \"projected visual aids\" and \"non-projected visual aids\" on FOUR dimensions: equipment requirement, portability, audience size suitability, and cost. Present as a table.",
+     "a": "| Dimension | Projected Visual Aids (slides, filmstrips, OHP, LCD) | Non-Projected Visual Aids (posters, charts, models, specimens) |\n|---|---|---|\n| Equipment | Requires projector, screen, power source | None needed; self-supporting |\n| Portability | Low — bulky equipment, fragile bulbs | High — lightweight, foldable/rollable |\n| Audience Size | Large groups (50+) in darkened room | Small to medium groups (5-30) in normal light |\n| Cost | High — equipment, maintenance, consumables | Low — one-time production, minimal recurring |\n\nA wrong answer that says \"projected aids are always better for large groups\" misses that they require darkened rooms (often unavailable in villages) and power; a wrong answer that equates cost only with production ignores recurring costs (bulbs, electricity, technician).",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"According to Dale's Cone of Experience, we should always use the aid at the base of the cone (direct experience) because it gives the highest retention.\"",
+     "a": "The statement misinterprets the Cone in three ways: (1) The cone describes a continuum of concreteness, NOT a hierarchy of retention percentages (the famous \"10-20-30-50-90%\" numbers were never in Dale's original work). (2) Direct experience (base) is often impractical in extension — you cannot give every farmer direct experience of a pest outbreak or a 5-year crop rotation cycle. (3) Effective extension uses a BLEND: concrete experiences (demonstration plots) for core skills, supplemented by iconic/symbolic aids (charts, radio) for reinforcement and reach. A student who defends the statement shows rote memorisation of a distorted \"retention pyramid\" myth rather than understanding Dale's actual principle: match the experience level to the learning objective and context.",
+     "self_check": true
+    },
+    {
+     "q": "Design a low-cost audio-visual aid kit for an extension worker promoting \"balanced diet for pregnant women\" in a tribal hamlet with no electricity, low literacy, and strong oral tradition. List 5 items with justification for each.",
+     "a": "1. **Flip chart with laminated illustrated panels** — sequential visuals of food groups, portion sizes, meal timing; works without power, presenter controls pace, durable for repeated use. 2. **Food models (locally made from clay/cloth)** — concrete, touchable replicas of local foods (ragi balls, drumstick leaves, eggs); bridges abstract \"nutrient\" concept to familiar items. 3. **Pre-recorded audio messages on SD card played via solar-powered speaker** — leverages oral tradition, delivers key messages in local dialect, solar charging bypasses grid dependency. 4. **Colour-coded food group sorting cards** — interactive game: mothers sort food pictures into groups; reinforces classification through doing. 5. **Puppet set (2-3 characters: pregnant mother, dai/ASHA, elder)** — enables role-play of dialogues about myths vs facts; culturally resonant, low-cost, highly engaging. A poor answer lists \"projector and laptop\" ignoring context; a good answer justifies each item against at least two selection criteria (audience, message, context, culture).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

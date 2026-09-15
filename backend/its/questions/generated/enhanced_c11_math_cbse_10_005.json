@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_10_005",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_10_005",
+   "title": "c11_math_cbse_10_005",
+   "questions": [
+    {
+     "q": "State the coordinate geometry formula for the area of a triangle with vertices (x₁, y₁), (x₂, y₂), (x₃, y₃). Explain why the absolute value is necessary.",
+     "a": "Area = ½ |x₁(y₂ − y₃) + x₂(y₃ − y₁) + x₃(y₁ − y₂)|. The absolute value is needed because the expression inside can be negative depending on the order of vertices (clockwise vs counter-clockwise), but geometric area is always non-negative. A wrong answer (e.g., omitting absolute value or ½) reveals the student memorised the formula without understanding signed area or the determinant origin.",
+     "self_check": true
+    },
+    {
+     "q": "Three points A(1, 2), B(3, 4), C(5, 6) are given. Without calculating the full area, explain how you can immediately tell these points are collinear using the area formula. What property of the coordinates makes this obvious?",
+     "a": "The points are collinear because the area formula yields zero. Observe that y-coordinates increase by 2 as x-coordinates increase by 2 — the points lie on the line y = x + 1. The determinant x₁(y₂−y₃)+x₂(y₃−y₁)+x₃(y₁−y₂) becomes zero when points are collinear. A wrong answer (e.g., computing full area numerically) shows the student misses the structural pattern and the zero-area collinearity test.",
+     "self_check": true
+    },
+    {
+     "q": "Find the area of the triangle with vertices A(−2, 3), B(4, −1), C(1, 5). Show all substitution steps.",
+     "a": "Substitute: Area = ½ |(−2)(−1−5) + 4(5−3) + 1(3−(−1))| = ½ |(−2)(−6) + 4(2) + 1(4)| = ½ |12 + 8 + 4| = ½ × 24 = 12 sq units. A wrong answer (e.g., 6 or −12) reveals sign errors in bracket expansion or forgetting the ½ factor or absolute value.",
+     "self_check": true
+    },
+    {
+     "q": "The vertices of a triangle are (k, 2), (3, k), (5, 4). If the area is 4 square units, find the possible values of k. Compare the algebraic approach with a geometric reasoning approach — which is more efficient here and why?",
+     "a": "Area = ½ |k(k−4) + 3(4−2) + 5(2−k)| = 4 → |k²−4k + 6 + 10−5k| = 8 → |k²−9k+16| = 8. Case 1: k²−9k+16=8 → k²−9k+8=0 → (k−1)(k−8)=0 → k=1,8. Case 2: k²−9k+16=−8 → k²−9k+24=0 (discriminant < 0, no real roots). So k = 1 or 8. Algebraic approach is more efficient because geometric reasoning would require visualising variable coordinates. A wrong answer (e.g., only k=1) shows the student forgot the absolute value creates two cases or made sign errors in expansion.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Area of triangle with vertices (2, 3), (5, 7), (x, 4) is 6 sq units. Find x.\" Their working: ½ |2(7−4) + 5(4−3) + x(3−7)| = 6 → |6 + 5 − 4x| = 12 → 11 − 4x = 12 → x = −¼. Identify the error and give the correct solution.",
+     "a": "Error: The student dropped the absolute value prematurely, solving only 11−4x=12 and missing 11−4x=−12. Correct: |11−4x|=12 → 11−4x=12 or 11−4x=−12 → −4x=1 or −4x=−23 → x=−¼ or x=23/4. A wrong answer (only one value) reveals the common senior-secondary error of ignoring the ± from absolute value equations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world problem for a Class 11 student where they must use the triangle area formula combined with the section formula (internal division) to find the area of a triangular park where one vertex is a point dividing the line joining two gates in a given ratio. Specify all coordinates and the ratio.",
+     "a": "Example: Gates at A(1, 2) and B(7, 8). A fountain F divides AB internally in ratio 2:3. A third gate C is at (4, 10). Find area of triangle AFC. Steps: 1) Use section formula to find F: ((2×7+3×1)/5, (2×8+3×2)/5) = (17/5, 22/5). 2) Use area formula with A(1,2), F(17/5,22/5), C(4,10). A good answer shows both formulas correctly combined. A poor answer (e.g., using midpoint instead of section formula, or wrong ratio order) reveals confusion between section formula variants or inability to chain concepts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

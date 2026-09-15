@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_03_005",
+   "title": "c12_geo_cbse_03_005",
+   "questions": [
+    {
+     "q": "What are the three dimensions of the Human Development Index and the specific indicator used for each dimension according to the original UNDP methodology described in the NCERT textbook?",
+     "a": "The three dimensions and their indicators are: (1) Health — Life Expectancy at Birth (years); (2) Education — Adult Literacy Rate (%) and Gross Enrolment Ratio (%); (3) Access to Resources — GDP per capita (PPP US$). A wrong answer (e.g., listing \"infant mortality rate\" for health or \"mean years of schooling\" for education) reveals confusion between the original HDI methodology and the post-2010 revised HDI, or mixing up HDI with other indices like HPI or GDI.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the HDI use normalization with fixed minimum and maximum goalposts for each indicator before aggregating them, rather than simply averaging the raw values (e.g., life expectancy in years, literacy in %, income in $)?",
+     "a": "Raw indicators have different units (years, percentage, dollars) and vastly different ranges; averaging them directly would give undue weight to the indicator with the largest numerical spread (usually income in dollars). Normalization converts each indicator into a unitless index between 0 and 1 using the formula: Index = (Actual Value – Minimum Goalpost) / (Maximum Goalpost – Minimum Goalpost). This ensures each dimension contributes equally (1/3 weight) to the final HDI. A wrong answer indicates the student does not understand the problem of incommensurable units and the need for dimensionless comparability — a common error when students try to \"average\" percentages with dollar amounts.",
+     "self_check": true
+    },
+    {
+     "q": "Country X has the following values: Life Expectancy at Birth = 72 years, Adult Literacy Rate = 85%, Gross Enrolment Ratio = 75%, GDP per capita (PPP) = $12,000. Using the original HDI goalposts (Life Expectancy: min 25, max 85; Adult Literacy: min 0, max 100; Gross Enrolment: min 0, max 100; GDP per capita: min $100, max $40,000), calculate the HDI for Country X. Show all steps.",
+     "a": "**Step 1: Health Index** = (72 – 25) / (85 – 25) = 47 / 60 = 0.7833  \n**Step 2: Education Index** = (2/3 × Adult Literacy Index) + (1/3 × Gross Enrolment Index)  \nAdult Literacy Index = (85 – 0) / (100 – 0) = 0.85  \nGross Enrolment Index = (75 – 0) / (100 – 0) = 0.75  \nEducation Index = (2/3 × 0.85) + (1/3 × 0.75) = 0.5667 + 0.25 = 0.8167  \n**Step 3: Income Index** = (log(12000) – log(100)) / (log(40000) – log(100))  \nlog(12000) ≈ 4.0792, log(100) = 2, log(40000) ≈ 4.6021  \nIncome Index = (4.0792 – 2) / (4.6021 – 2) = 2.0792 / 2.6021 ≈ 0.7991  \n**Step 4: HDI** = (1/3) × (0.7833 + 0.8167 + 0.7991) = (1/3) × 2.3991 = **0.7997 ≈ 0.800**  \nA wrong answer (e.g., using arithmetic mean for income, or equal weights for literacy and enrolment) reveals misunderstanding of the logarithmic transformation for income (diminishing returns) or the 2:1 weighting within the education dimension.",
+     "self_check": true
+    },
+    {
+     "q": "Two countries, A and B, have the same HDI value of 0.720. Country A has a very high life expectancy (0.95) but low education (0.55) and medium income (0.66). Country B has balanced indices: health 0.72, education 0.72, income 0.72. Analyze what this implies about the nature of human development in each country and the limitation of HDI as an average.",
+     "a": "Country A has achieved exceptional health outcomes (likely due to strong public health systems) but lags in education and income, suggesting a \"lopsided\" development where people live long but lack knowledge and resources to fully utilize those years. Country B shows balanced progress across all three capabilities. The HDI masks this disparity because it is a simple arithmetic mean — it satisfies the \"compensation\" property where a deficit in one dimension can be offset by a surplus in another. This is a critical limitation: HDI does not reveal inequality in the distribution of achievements across dimensions or across population groups. A student who only compares the aggregate 0.720 misses the policy-relevant story.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A country with a high HDI (above 0.800) has successfully achieved human development for all its citizens.\" Use the concepts of distribution, the Human Poverty Index (HPI), and the four pillars of human development (equity, sustainability, productivity, empowerment) in your evaluation.",
+     "a": "The statement is **false**. A high average HDI does not guarantee human development for *all* citizens because:  \n(1) **Distribution**: HDI is an average; it hides inequalities across regions, gender, caste, income groups. A country can have HDI > 0.800 while large segments suffer low life expectancy, illiteracy, or poverty.  \n(2) **HPI**: The Human Poverty Index explicitly measures the *shortfall* — proportion of people not surviving to 40, adult illiteracy, lack of clean water, underweight children. A high HDI country can still have significant human poverty (e.g., regional disparities).  \n(3) **Equity pillar**: Equal access to opportunities irrespective of gender, race, caste is not captured by the average.  \n(4) **Sustainability**: HDI measures current attainments, not whether opportunities will persist for future generations (e.g., environmental degradation).  \n(5) **Empowerment**: Political freedom and governance quality are not in HDI.  \nThus, HDI is necessary but not sufficient; it must be read alongside HPI, GDI, and disaggregated data. A wrong evaluation that accepts the statement shows the student treats HDI as a comprehensive welfare measure rather than a limited average.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"District Human Development Index\" for your own district using locally available data. Specify: (a) which indicators you would use for each of the three dimensions (justify any substitutions from the national/global HDI), (b) what minimum and maximum goalposts you would set for each indicator, and (c) how you would handle missing data for one indicator.",
+     "a": "A good answer demonstrates contextual adaptation:  \n(a) **Health**: Instead of life expectancy at birth (often unavailable at district level), use Infant Mortality Rate (IMR) or Under-5 Mortality Rate — inversely related to longevity. **Education**: Use literacy rate (7+ age) and net enrolment ratio at secondary level (more relevant than gross enrolment). **Income**: Use per capita district domestic product (if available) or proxy like % households with pucca house, electricity, sanitation (asset index).  \n(b) **Goalposts**: Set minimum at the worst observed value across districts in the state (or a normative floor like IMR=100, literacy=0%, income=₹20,000) and maximum at the best observed (or a normative ceiling like IMR=10, literacy=100%, income=₹2,00,000).  \n(c) **Missing data**: Use imputation from neighboring districts with similar socio-economic profile, or drop the dimension and re-weight (with caveat), or use a proxy indicator with clear documentation.  \nA poor answer simply copies national indicators without justifying feasibility at district level, or ignores the goalpost-setting challenge, or says \"ignore missing data\" without a method.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

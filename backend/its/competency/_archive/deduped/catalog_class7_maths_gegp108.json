@@ -1,0 +1,239 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 8,
+ "chapter_title": "Working with Fractions",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gegp108.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gegp.8.1",
+   "title": "Multiplication of Fractions",
+   "section": "Working with Fractions",
+   "definition": "Multiplying a number by a fraction takes a fraction of it: 3 times 2/5 means 2/5 of 3, computed by multiplying with the numerator and dividing by the denominator.",
+   "formula": "result = whole * fnum / fden",
+   "key_idea": "Of means multiply: the numerator tells how many parts to keep, the denominator how fine the cut is.",
+   "textbook_ref": "gegp108.txt, Working with Fractions",
+   "question_patterns": [
+    "find 3 x 2/5",
+    "what does 1/2 of 10 mean and what is its value",
+    "multiply 2 by 3/4 and give the answer",
+    "why is 3 x 1/2 smaller than 3",
+    "solve a distance problem using fraction multiplication",
+    "shade 2/3 of 12 counters and write the product"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply by the numerator",
+     "explain": "First multiply the whole number by the numerator.",
+     "compute": "part = whole * fnum"
+    },
+    {
+     "step": 2,
+     "action": "divide by the denominator",
+     "explain": "Divide the product by the denominator to finish.",
+     "compute": "result = part / fden"
+    }
+   ]
+  },
+  {
+   "id": "gegp.8.2",
+   "title": "Fraction of a Fraction",
+   "section": "Fraction times fraction",
+   "definition": "Multiplying two fractions multiplies numerators together and denominators together: 1/2 of 1/3 is 1/6, and folding paper strips shows the overlap region that the product names.",
+   "formula": "",
+   "key_idea": "Double cutting: one cut across, one cut down, and the product is the piece cut both ways.",
+   "textbook_ref": "gegp108.txt, Fraction times fraction",
+   "question_patterns": [
+    "find 1/2 of 1/3",
+    "multiply 2/3 by 1/5",
+    "shade the overlap that shows 1/2 of 2/3",
+    "why is a fraction of a fraction smaller than both",
+    "solve 3/4 of 4/9",
+    "write a story for 1/3 of 3/4 of a cake"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-checking, then conclude."
+    }
+   ]
+  },
+  {
+   "id": "gegp.8.3",
+   "title": "Division with Fractions",
+   "section": "Division of fractions",
+   "definition": "Dividing by a fraction asks how many of those fractional pieces fit: dividing by 1/2 doubles the answer, and the rule of multiplying by the reciprocal turns every division into a multiplication.",
+   "formula": "",
+   "key_idea": "Dividing by a fraction flips the effect: the reciprocal turns the question into a multiplication you know.",
+   "textbook_ref": "gegp108.txt, Division of fractions",
+   "question_patterns": [
+    "how many halves are there in 3",
+    "find 3 divided by 1/2",
+    "what is the reciprocal of 3/4",
+    "solve 5/6 divided by 1/3 using reciprocals",
+    "why does dividing by a fraction give a bigger answer",
+    "share 2 rotis in halves and write the division statement"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-checking, then conclude."
+    }
+   ]
+  },
+  {
+   "id": "gegp.8.4",
+   "title": "Word Problems with Fractions",
+   "section": "Fraction problems",
+   "definition": "Fraction problems come dressed in stories, water in a tank, part of a journey, a share of a cake; drawing the whole, marking the parts, and writing the operation turns the story into a calculation.",
+   "formula": "",
+   "key_idea": "Draw the whole first: a picture of the whole makes the fraction operation obvious.",
+   "textbook_ref": "gegp108.txt, Fraction problems",
+   "question_patterns": [
+    "a tank is 2/3 full and holds 90 litres when full find the water now",
+    "Ravi walked 3/4 of a 8 km path how far did he walk",
+    "solve the given fraction word problem step by step",
+    "draw a diagram for a fraction story problem",
+    "write a word problem whose answer is 3/4",
+    "check your answer to a fraction problem by drawing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "gegp108.txt",
+   "concept": "gegp.8.1",
+   "question_type": "compute",
+   "question_pattern": "Aaron walks 3 kilometres in an hour. If this is multiplied by 2/5, what distance does the expression give?",
+   "extracted_variables": {
+    "whole": "the whole number of the product",
+    "fnum": "numerator of the fraction",
+    "fden": "denominator of the fraction"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply by the numerator",
+     "explain": "Take 3 times 2 first.",
+     "compute": "part = whole * fnum"
+    },
+    {
+     "step": 2,
+     "action": "divide by the denominator",
+     "explain": "Split that product into 5 equal parts to finish the fraction multiplication.",
+     "compute": "result = part / fden"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "gegp108.txt",
+   "concept": "gegp.8.1",
+   "question_type": "compute",
+   "question_pattern": "Find 2 x 3/4 by multiplying the whole number with the fraction.",
+   "extracted_variables": {
+    "whole": "the whole number of the product",
+    "fnum": "numerator of the fraction",
+    "fden": "denominator of the fraction"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply by the numerator",
+     "explain": "2 times 3 gives 6 quarters.",
+     "compute": "part = whole * fnum"
+    },
+    {
+     "step": 2,
+     "action": "divide by the denominator",
+     "explain": "6 quarters equals 6 divided by 4.",
+     "compute": "result = part / fden"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gegp108.txt",
+   "concept": "gegp.8.2",
+   "question_type": "verify_property",
+   "question_pattern": "what is 1/2 of 1/3?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gegp108.txt, Figure it Out",
+   "questions": [
+    "Find 3 x 2/5.",
+    "What is 1/2 of 1/3?",
+    "How many halves are there in 3?",
+    "Aaron walks 3 km in an hour; what is 2/5 of the distance?",
+    "Write a word problem whose answer is 3/4."
+   ]
+  }
+ ]
+}

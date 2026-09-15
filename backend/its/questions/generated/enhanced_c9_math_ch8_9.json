@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch8_9",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch8_9",
+   "title": "c9_math_ch8_9",
+   "questions": [
+    {
+     "q": "Write the formula for the nth term of a geometric progression with first term a and common ratio r. Then state the 5th term of the GP: 3, 6, 12, 24, ...",
+     "a": "The formula is a_n = a * r^(n-1). For the given GP, a = 3, r = 2, so the 5th term is a_5 = 3 * 2^(5-1) = 3 * 16 = 48. A wrong answer like a_n = a + (n-1)r reveals confusion with arithmetic progression formula. Writing a_n = a * r^n shows misunderstanding of the exponent pattern (off-by-one error).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the exponent in the nth term formula is (n-1) and not n. Use the GP 5, 15, 45, 135, ... to illustrate your reasoning.",
+     "a": "The first term (n=1) is a * r^0 = a * 1 = a, which matches the given first term 5. If we used exponent n, the first term would be a * r^1 = 5 * 3 = 15, which is actually the second term. The pattern is: term 1 has r^0, term 2 has r^1, term 3 has r^2, so term n has r^(n-1). A student who says \"exponent equals term number\" is not checking the base case n=1.",
+     "self_check": true
+    },
+    {
+     "q": "The 3rd term of a GP is 18 and the 6th term is 486. Find the first term and the common ratio.",
+     "a": "Given: a_3 = a * r^2 = 18 and a_6 = a * r^5 = 486. Divide: (a * r^5) / (a * r^2) = r^3 = 486/18 = 27. So r = 3. Substitute: a * 3^2 = 18 → a * 9 = 18 → a = 2. The GP is 2, 6, 18, 54, 162, 486... A wrong answer like r = 27 (not taking cube root) or a = 18/3 = 6 (using wrong exponent) shows gaps in exponent laws or formula substitution.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the growth of the 10th term in these two sequences: AP with a=2, d=3 and GP with a=2, r=3. Which grows faster and why? At which term does the GP first exceed the AP?",
+     "a": "AP 10th term: a_10 = 2 + 9*3 = 29. GP 10th term: a_10 = 2 * 3^9 = 2 * 19683 = 39366. GP grows exponentially (multiplicative) while AP grows linearly (additive), so GP eventually dominates. GP exceeds AP at term 3: AP_3=8, GP_3=18. A student who says \"GP always larger\" or calculates 3^9 incorrectly as 27*3=81 reveals misunderstanding of exponential vs linear growth rates.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In the GP 4, -12, 36, -108, ..., the 7th term is 4 * (-3)^7 = -8748.\" Evaluate this claim and correct any error.",
+     "a": "The claim is incorrect. The common ratio r = -12/4 = -3. The 7th term uses exponent (7-1)=6: a_7 = 4 * (-3)^6 = 4 * 729 = 2916. The student used exponent 7 instead of 6 (off-by-one error) and also missed that (-3)^6 is positive. This reveals two misconceptions: exponent confusion and sign handling with negative bases raised to even powers.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) that can be modeled by a geometric progression where you need to find the 8th term. Write the problem, identify a and r, and solve it.",
+     "a": "Example: \"A bacteria culture doubles every hour. If initially there are 500 bacteria, how many after 8 hours?\" Here a=500, r=2, n=8 (after 8 hours means 8th term if initial is term 1). a_8 = 500 * 2^7 = 500 * 128 = 64,000 bacteria. A poor answer might use n=7 (confusing \"after 8 hours\" with term number) or use addition instead of multiplication, showing inability to translate context to GP model.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

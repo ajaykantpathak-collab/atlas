@@ -1,0 +1,160 @@
+{
+ "catalog": "catalog_class12_political_science_leps203",
+ "concepts": [
+  {
+   "id": "leps.203.1.1",
+   "title": "Development as Political Contestation",
+   "questions": [
+    {
+     "q": "Using the method 'Development as Political Contestation', work with: group_interests_weighted = 20, political_approval = 6. Carry the chain through step by step and give the final value of development_decision.",
+     "a": "26 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Development as Political Contestation' and work with: group_interests_weighted = 15, political_approval = 25. Carry the chain through step by step and give the final value of development_decision.",
+     "a": "40 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Development as Political Contestation' refers to.",
+     "a": "Decisions about development are not technical puzzles that experts alone can settle: building a steel plant on tribal iron-ore land weighs one social group's livelihood against another's, the present against the future, and jobs against environment -- so in a democracy the final call belongs to elected representatives, not to markets or experts.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Development as Political Contestation'.",
+     "a": "Whose need counts as the nation's need is itself a political question; every development choice creates winners, losers and a legitimate debate.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Development as Political Contestation', in plain ASCII form.",
+     "a": "development_decision = group_interests_weighted + political_approval",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.203.2.1",
+   "title": "Ideas of Development: Modernisation and Two Rival Models",
+   "questions": [
+    {
+     "q": "Using the method 'Ideas of Development: Modernisation and Two Rival Models', work with: liberal_capitalist_model = 80000, socialist_model = 12. Carry the chain through step by step and give the final value of development_models.",
+     "a": "80012 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Ideas of Development: Modernisation and Two Rival Models' and work with: liberal_capitalist_model = 50000, socialist_model = 12. Carry the chain through step by step and give the final value of development_models.",
+     "a": "50012 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Ideas of Development: Modernisation and Two Rival Models' refers to.",
+     "a": "Post-Independence debate treated development as becoming modern, usually measured against the industrialised West, but India stood before two ready-made routes: the liberal-capitalist model of Europe and the US and the socialist model of the USSR; with communists, socialists and Nehru alike impressed by Soviet growth, the socialist model had the stronger following and left meant state control while right meant free markets.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Ideas of Development: Modernisation and Two Rival Models'.",
+     "a": "Development is an idea with politics inside it -- which model you pick decides who owns industry and who answers for redistribution.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Ideas of Development: Modernisation and Two Rival Models', in plain ASCII form.",
+     "a": "development_models = liberal_capitalist_model + socialist_model",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.203.3.1",
+   "title": "Planning, the Planning Commission and the Bombay Plan",
+   "questions": [
+    {
+     "q": "Using the method 'Planning, the Planning Commission and the Bombay Plan', work with: bombay_plan_heritage = 50, five_year_plans = 100, planning_commission_1950 = 120. Carry the chain through step by step and give the final value of planning_apparatus.",
+     "a": "270 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Planning, the Planning Commission and the Bombay Plan' and work with: bombay_plan_heritage = 25, five_year_plans = 50, planning_commission_1950 = 150. Carry the chain through step by step and give the final value of planning_apparatus.",
+     "a": "225 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Planning, the Planning Commission and the Bombay Plan' refers to.",
+     "a": "Because development could not be left to private actors, India set up a Planning Commission in March 1950 by a simple government resolution -- not by the Constitution -- with the Prime Minister as chairperson and an advisory role whose plans needed Cabinet approval; the impulse crossed political lines, as shown by the Bombay Plan of 1944 in which big industrialists themselves asked the state to lead industrial investment.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Planning, the Planning Commission and the Bombay Plan'.",
+     "a": "From left to right, planning was the obvious choice: even industrialists wanted the state to take the major economic initiatives.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Planning, the Planning Commission and the Bombay Plan', in plain ASCII form.",
+     "a": "planning_apparatus = planning_commission_1950 + five_year_plans + bombay_plan_heritage",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.203.4.1",
+   "title": "Five Year Plans and the Plan-Non-Plan Budget Divide",
+   "questions": [
+    {
+     "q": "Using the method 'Five Year Plans and the Plan-Non-Plan Budget Divide', work with: non_plan_expenditure = 25, plan_expenditure = 5. Carry the chain through step by step and give the final value of annual_budget.",
+     "a": "30 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Five Year Plans and the Plan-Non-Plan Budget Divide' and work with: non_plan_expenditure = 25, plan_expenditure = 5. Carry the chain through step by step and give the final value of annual_budget.",
+     "a": "30 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Five Year Plans and the Plan-Non-Plan Budget Divide' refers to.",
+     "a": "Indian planning copied the Soviet device of five year plans: a document fixing government income and expenditure for five years, with budgets split into a non-plan part for routine yearly spending and a plan part spent on five-year priorities; excitement peaked with the Second Plan of 1956 and faded by the Fourth, when crisis forced a plan holiday in 1966.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Five Year Plans and the Plan-Non-Plan Budget Divide'.",
+     "a": "The five-year horizon let government act on the larger picture, but plan enthusiasm could not survive the economic crisis of the mid-1960s.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Five Year Plans and the Plan-Non-Plan Budget Divide', in plain ASCII form.",
+     "a": "annual_budget = plan_expenditure + non_plan_expenditure",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.203.5.1",
+   "title": "First Plan versus Second Plan: Agriculture First or Industry First",
+   "questions": [
+    {
+     "q": "Using the method 'First Plan versus Second Plan: Agriculture First or Industry First', work with: agrarian_first_plan = 300, industrial_second_plan = 75. Carry the chain through step by step and give the final value of strategy_shift.",
+     "a": "375 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'First Plan versus Second Plan: Agriculture First or Industry First' and work with: agrarian_first_plan = 4, industrial_second_plan = 360. Carry the chain through step by step and give the final value of strategy_shift.",
+     "a": "364 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'First Plan versus Second Plan: Agriculture First or Industry First' refers to.",
+     "a": "The First Plan (1951-1956) preached patience -- K. N. Raj's hasten slowly -- concentrating on dams, irrigation and land reform to revive agriculture hit by Partition; the Second Plan (1956), drafted under P. C. Mahalanobis after the Avadi resolution on a socialist pattern of society, chased rapid industrialisation through heavy industry, import tariffs and a dominant public sector, but bred foreign-exchange strain, food worries and an urban bias.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'First Plan versus Second Plan: Agriculture First or Industry First'.",
+     "a": "The first plan guarded rural livelihoods while the second gambled on structural transformation, and the tension between feeding people and building factories never fully disappeared.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'First Plan versus Second Plan: Agriculture First or Industry First', in plain ASCII form.",
+     "a": "strategy_shift = agrarian_first_plan + industrial_second_plan",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

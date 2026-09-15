@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_09_003",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_09_003",
+   "title": "c12_bs_cbse_09_003",
+   "questions": [
+    {
+     "q": "Define Capital Budgeting and state why it is considered a crucial financial decision.",
+     "a": "Capital Budgeting is the process of planning and evaluating long-term investments in fixed assets (e.g., plant, machinery, new projects) that involve large outlays, are irreversible, and impact the firm's future profitability and risk. It is crucial because these decisions commit scarce resources for years, affect the firm's competitive position, and a wrong choice can lead to heavy losses or even bankruptcy. A wrong answer that only mentions \"buying assets\" without highlighting irreversibility, large funds, and long-term impact reveals the student hasn't grasped the strategic gravity of the decision.",
+     "self_check": true
+    },
+    {
+     "q": "A project requires an initial investment of ₹10,00,000 and generates cash inflows of ₹3,00,000 per year for 5 years. Calculate the Payback Period. If the company's maximum acceptable payback is 3 years, should the project be accepted? Explain why a student might incorrectly accept it.",
+     "a": "Payback Period = Initial Investment / Annual Cash Inflow = ₹10,00,000 / ₹3,00,000 = 3.33 years. Since 3.33 > 3 years, the project should be REJECTED. A student might incorrectly accept it by rounding 3.33 to 3 years, or by ignoring the time value of money and thinking \"it pays back in about 3 years so it's fine\". This reveals the misconception that payback period ignores cash flows after payback and the time value of money — both critical limitations.",
+     "self_check": true
+    },
+    {
+     "q": "Project A costs ₹20,00,000 and yields cash inflows: Year 1: ₹5,00,000; Year 2: ₹6,00,000; Year 3: ₹7,00,000; Year 4: ₹8,00,000; Year 5: ₹9,00,000. The cost of capital is 10%. Calculate NPV and state whether to accept. Show all discounting steps.",
+     "a": "Step 1: PV factors at 10%: Y1=0.909, Y2=0.826, Y3=0.751, Y4=0.683, Y5=0.621.\nStep 2: PV of inflows = (5,00,000×0.909)+(6,00,000×0.826)+(7,00,000×0.751)+(8,00,000×0.683)+(9,00,000×0.621) = 4,54,500+4,95,600+5,25,700+5,46,400+5,58,900 = ₹25,81,100.\nStep 3: NPV = PV inflows - Initial outlay = 25,81,100 - 20,00,000 = ₹5,81,100 (positive).\nStep 4: Accept the project because NPV > 0.\nA wrong answer that uses undiscounted sums (₹35 lakh - ₹20 lakh = ₹15 lakh) shows the student ignores time value of money. An error in PV factors (e.g., using 1/1.1^t incorrectly) reveals computational weakness in discounting.",
+     "self_check": true
+    },
+    {
+     "q": "Two mutually exclusive projects have the following NPV and IRR:\nProject X: NPV = ₹12 lakh, IRR = 18%\nProject Y: NPV = ₹15 lakh, IRR = 16%\nCost of capital = 12%. Which project should be chosen? Explain the conflict and the correct decision rule.",
+     "a": "Choose Project Y because for mutually exclusive projects, NPV is the superior criterion as it assumes reinvestment at the cost of capital (realistic), whereas IRR assumes reinvestment at IRR (often unrealistic). The conflict arises because the projects differ in scale or cash flow timing. A student who picks Project X because \"higher IRR is better\" reveals the misconception that IRR always maximizes wealth; NPV directly measures value addition in absolute rupees.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"Accounting Rate of Return (ARR) is the best capital budgeting technique because it uses accounting profits which are readily available from financial statements.\" State 3 limitations of ARR that make this statement flawed.",
+     "a": "The statement is flawed. Three limitations of ARR: (1) It ignores the time value of money — treats ₹1 in Year 5 equal to ₹1 in Year 1. (2) It uses accounting profits (after depreciation) not cash flows, so non-cash charges distort the measure. (3) It has no objective acceptance benchmark linked to shareholder wealth (unlike NPV > 0 or IRR > k). A student who agrees with the statement reveals they confuse accounting convenience with financial correctness and don't understand why cash flows and discounting matter.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini-case: A company has ₹1 crore to invest. Design two mutually exclusive projects with different cash flow patterns (one front-loaded, one back-loaded) such that at 10% cost of capital, NPV and IRR give conflicting rankings. Provide the cash flows and show the conflict numerically.",
+     "a": "Example: Project A (front-loaded): -1,00,00,000; Y1: 60,00,000; Y2: 40,00,000; Y3: 20,00,000; Y4: 10,00,000; Y5: 10,00,000.\nProject B (back-loaded): -1,00,00,000; Y1: 10,00,000; Y2: 20,00,000; Y3: 30,00,000; Y4: 40,00,000; Y5: 60,00,000.\nAt 10%: NPV_A ≈ ₹17.5 lakh, IRR_A ≈ 24%; NPV_B ≈ ₹14.2 lakh, IRR_B ≈ 18%. NPV prefers A, IRR prefers A — no conflict? Wait, need a real conflict. Let's adjust: Project A: -100; Y1: 80; Y2: 40; Y3: 0; Y4: 0; Y5: 0. Project B: -100; Y1: 0; Y2: 0; Y3: 0; Y4: 0; Y5: 200.\nAt 10%: NPV_A = 80/1.1 + 40/1.21 - 100 = 72.7+33.1-100=5.8; IRR_A ≈ 28%. NPV_B = 200/1.6105 - 100 = 124.2-100=24.2; IRR_B ≈ 14.9%. NPV prefers B, IRR prefers A — CONFLICT. A good answer shows correct discounting and explains the conflict arises from reinvestment rate assumption. A poor answer fails to generate a true conflict or miscalculates NPV/IRR.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

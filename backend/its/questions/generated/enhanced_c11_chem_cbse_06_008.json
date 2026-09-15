@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_06_008",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_06_008",
+   "title": "c11_chem_cbse_06_008",
+   "questions": [
+    {
+     "q": "Define entropy and state its SI unit. Is entropy a state function or a path function? Justify your answer in one sentence.",
+     "a": "Entropy (S) is a measure of disorder or randomness in a system; its SI unit is J K⁻¹. It is a state function because its value depends only on the initial and final states of the system, not on the path taken. A wrong answer (e.g., \"entropy is heat\" or \"unit is J/mol\") reveals confusion between heat (path function) and entropy (state function), or missing the temperature denominator in the definition.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the entropy change for melting of 1 mol of ice at 0 °C and 1 atm is positive, even though the temperature of the system remains constant during the phase change.",
+     "a": "Melting requires absorption of latent heat (q_rev = ΔH_fus > 0) at constant T = 273 K, so ΔS_sys = ΔH_fus/T > 0. The molecular randomness increases as ordered solid water becomes disordered liquid. A wrong answer (e.g., \"ΔS = 0 because T is constant\") reveals the misconception that entropy change depends only on temperature change, ignoring the heat transfer at constant T.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the entropy change when 36 g of water vaporizes at its boiling point (373 K) and 1 atm. Given: ΔH_vap = 40.7 kJ mol⁻¹. (Molar mass of water = 18 g mol⁻¹)",
+     "a": "Step 1: Moles of water = 36 g / 18 g mol⁻¹ = 2 mol.\nStep 2: Heat absorbed reversibly = 2 mol × 40.7 kJ mol⁻¹ = 81.4 kJ = 81400 J.\nStep 3: ΔS = q_rev/T = 81400 J / 373 K = 218.2 J K⁻¹.\nA wrong answer (e.g., forgetting to convert kJ to J, or using mass instead of moles) reveals unit inconsistency or not recognizing that ΔH_vap is per mole.",
+     "self_check": true
+    },
+    {
+     "q": "A system undergoes an irreversible adiabatic expansion into vacuum (free expansion). Compare the entropy change of the system, surroundings, and universe for this process with those for a reversible adiabatic expansion between the same initial and final states.",
+     "a": "Free expansion: q = 0, so ΔS_surr = 0. But process is irreversible, so ΔS_sys > 0 (calculated via a reversible path), hence ΔS_univ > 0. Reversible adiabatic: q_rev = 0, so ΔS_sys = 0, ΔS_surr = 0, ΔS_univ = 0. A wrong answer (e.g., \"ΔS_sys = 0 for free expansion because q = 0\") reveals the misconception that ΔS = q/T for irreversible paths; entropy is a state function so we must use a reversible path to calculate ΔS_sys.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"For an exothermic reaction at constant T and P, the entropy change of the surroundings is always positive, so the reaction is always spontaneous.\" Identify the error and correct it.",
+     "a": "The statement is partially correct that ΔS_surr = -ΔH_sys/T > 0 for exothermic reactions, but spontaneity requires ΔS_univ = ΔS_sys + ΔS_surr > 0. If ΔS_sys is sufficiently negative, ΔS_univ could be negative. The error is ignoring the system's entropy change. A wrong evaluation (e.g., agreeing with the statement) reveals the misconception that only surroundings' entropy matters, or that exothermic always means spontaneous.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using two gases (e.g., NO₂ and N₂O₄) to demonstrate that a spontaneous process increases the entropy of the universe. Describe what you would observe and how it relates to ΔS_univ > 0.",
+     "a": "Place brown NO₂ gas in a sealed syringe at room temperature; it partially dimerizes to colourless N₂O₄ (2NO₂ ⇌ N₂O₄). Compress the syringe: colour fades (forward reaction, fewer gas moles). Release: colour darkens (reverse reaction, more gas moles). Both directions occur spontaneously depending on pressure, each increasing total entropy (system + surroundings) by dispersing energy/matter. A poor answer (e.g., only describing colour change without linking to entropy) reveals inability to connect macroscopic observation to the Second Law.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

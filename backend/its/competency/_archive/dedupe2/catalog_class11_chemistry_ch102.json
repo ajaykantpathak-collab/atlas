@@ -1,0 +1,741 @@
+{
+ "class": 11,
+ "subject": "chemistry",
+ "chapter": 102,
+ "chapter_title": "Structure of Atom",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/kech102.txt",
+ "concepts": [
+  {
+   "id": "kech.2.1.2.1",
+   "title": "Charge to Mass Ratio of Electron",
+   "section": "2.1.2",
+   "definition": "The ratio of an electron's electrical charge to its mass, determined by measuring deflection in perpendicular electric and magnetic fields.",
+   "formula": "ratio = e / m",
+   "key_idea": "The e/m ratio is a constant for electrons regardless of the source material.",
+   "textbook_ref": "kech102.txt lines 78-95",
+   "question_patterns": [
+    "calculate the charge to mass ratio",
+    "what is the value of e/m for an electron",
+    "find the ratio of charge to mass",
+    "determine the e/m value",
+    "how is the charge to mass ratio defined"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify constants",
+     "explain": "use the standard experimental value for e/m",
+     "compute": "ratio = 1.758820 * 10**11"
+    }
+   ]
+  },
+  {
+   "id": "kech.2.2.3.1",
+   "title": "Atomic Number and Mass Number",
+   "section": "2.2.3",
+   "definition": "Atomic number is the count of protons in a nucleus, while mass number is the sum of protons and neutrons.",
+   "formula": "mass_number = protons + neutrons",
+   "key_idea": "Mass number counts total nucleons; atomic number defines the element.",
+   "textbook_ref": "kech102.txt lines 215-225",
+   "question_patterns": [
+    "calculate the number of neutrons",
+    "find the mass number",
+    "determine the number of protons",
+    "what is the atomic number",
+    "how many nucleons are present"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate neutrons",
+     "explain": "subtract protons from mass number",
+     "compute": "neutrons = mass_number - protons"
+    }
+   ]
+  },
+  {
+   "id": "kech.2.3.1.1",
+   "title": "Wave Properties of Electromagnetic Radiation",
+   "section": "2.3.1",
+   "definition": "The relationship between the speed of light, its frequency, and its wavelength in a vacuum.",
+   "formula": "c = frequency * wavelength",
+   "key_idea": "Speed of light is constant; frequency and wavelength are inversely proportional.",
+   "textbook_ref": "kech102.txt lines 355-365",
+   "question_patterns": [
+    "calculate the wavelength",
+    "find the frequency of radiation",
+    "determine the wave properties",
+    "what is the frequency given wavelength",
+    "compute the wavelength from frequency"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate wavelength",
+     "explain": "divide speed of light by frequency",
+     "compute": "wavelength = 3.0 * 10**8 / frequency"
+    }
+   ]
+  },
+  {
+   "id": "kech.2.3.2.1",
+   "title": "Energy of a Photon",
+   "section": "2.3.2",
+   "definition": "The energy of a single quantum of electromagnetic radiation is directly proportional to its frequency.",
+   "formula": "energy = h * frequency",
+   "key_idea": "Energy is quantized; it comes in discrete packets called photons.",
+   "textbook_ref": "kech102.txt lines 420-430",
+   "question_patterns": [
+    "calculate the energy of a photon",
+    "find the energy of radiation",
+    "what is the energy of a quantum",
+    "determine the energy given frequency",
+    "how much energy does a photon carry"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate energy",
+     "explain": "multiply Planck constant by frequency",
+     "compute": "energy = 6.626 * 10**-34 * frequency"
+    }
+   ]
+  },
+  {
+   "id": "kech.2.4.1.1",
+   "title": "Energy Change in Hydrogen Atom Transitions",
+   "section": "2.4.1",
+   "definition": "The energy difference between two orbits in a hydrogen atom resulting in the emission or absorption of a photon.",
+   "formula": "delta_e = 2.18 * 10**-18 * (1/n_final**2 - 1/n_initial**2)",
+   "key_idea": "Energy is released when electrons drop to lower orbits and absorbed when they jump to higher ones.",
+   "textbook_ref": "kech102.txt lines 620-640",
+   "question_patterns": [
+    "calculate the energy change",
+    "find the energy of emitted photon",
+    "determine the transition energy",
+    "what is the energy difference",
+    "compute the change in energy"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate energy difference",
+     "explain": "apply Rydberg formula for energy levels",
+     "compute": "delta_e = 2.18 * 10**-18 * (1/n_final**2 - 1/n_initial**2)"
+    }
+   ]
+  },
+  {
+   "id": "kech.2.6.1.1",
+   "title": "Principal Quantum Number",
+   "section": "2.6.1",
+   "definition": "This integer designates the primary electron shell and is the main factor determining how far an orbital extends from the nucleus.",
+   "formula": "n = 1, 2, 3, ...",
+   "key_idea": "Identifies the shell and determines the size and energy level.",
+   "textbook_ref": "kech102.txt lines 85-105",
+   "question_patterns": [
+    "What does the principal quantum number represent?",
+    "Identify the shell for n = 3",
+    "How does the size of an orbital change with n?",
+    "Which quantum number determines the energy of a hydrogen atom orbital?",
+    "What is the value of n for the M shell?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify n",
+     "explain": "The principal quantum number n corresponds to the shell (1=K, 2=L, 3=M, 4=N)."
+    }
+   ]
+  },
+  {
+   "id": "kech.2.6.1.2",
+   "title": "Total Orbitals in a Shell",
+   "section": "2.6.1",
+   "definition": "The total quantity of individual wave functions or orbitals that can exist within a specific principal energy level.",
+   "formula": "total_orbitals = n ** 2",
+   "key_idea": "The square of the principal quantum number gives the orbital count.",
+   "textbook_ref": "kech102.txt lines 100-105",
+   "question_patterns": [
+    "Calculate the total number of orbitals for n = 3",
+    "How many orbitals are associated with the principal quantum number 4?",
+    "Find the number of orbitals in the L shell",
+    "What is the total orbital count for the fourth energy level?",
+    "Determine the number of orbitals for n = 2"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the principal quantum number",
+     "explain": "The number of orbitals in a shell is the square of n.",
+     "compute": "total_orbitals = n ** 2"
+    }
+   ]
+  },
+  {
+   "id": "kech.2.6.1.3",
+   "title": "Azimuthal Quantum Number",
+   "section": "2.6.1",
+   "definition": "A value that specifies the geometric form of an orbital and identifies the specific sub-level within a shell.",
+   "formula": "l = 0 to (n - 1)",
+   "key_idea": "Defines the subshell and the three-dimensional shape of the orbital.",
+   "textbook_ref": "kech102.txt lines 115-135",
+   "question_patterns": [
+    "What are the possible values of l for n = 3?",
+    "Identify the subshell notation for l = 2",
+    "Which quantum number defines the shape of an orbital?",
+    "How many subshells are in the fourth shell?",
+    "What is the value of l for a d orbital?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine range",
+     "explain": "For a given n, l ranges from 0 to n-1."
+    },
+    {
+     "step": 2,
+     "action": "assign notation",
+     "explain": "0=s, 1=p, 2=d, 3=f."
+    }
+   ]
+  },
+  {
+   "id": "kech.2.6.1.4",
+   "title": "Magnetic Quantum Number",
+   "section": "2.6.1",
+   "definition": "This parameter indicates how an orbital is positioned in three-dimensional space relative to a coordinate system.",
+   "formula": "num_orbitals = 2 * l + 1",
+   "key_idea": "Determines the number of orbitals in a subshell and their orientation.",
+   "textbook_ref": "kech102.txt lines 155-175",
+   "question_patterns": [
+    "How many orbitals are in a p subshell?",
+    "Calculate the number of orientations for l = 2",
+    "What are the possible values of ml for l = 1?",
+    "Find the number of d orbitals in a shell",
+    "How many orientations does an f subshell have?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate count",
+     "explain": "The number of orbitals is 2l + 1.",
+     "compute": "num_orbitals = 2 * l + 1"
+    }
+   ]
+  },
+  {
+   "id": "kech.2.6.2.1",
+   "title": "Radial Nodes Calculation",
+   "section": "2.6.2",
+   "definition": "The number of spherical regions where the probability of finding an electron is zero, excluding the nucleus and infinity.",
+   "formula": "radial_nodes = n - l - 1",
+   "key_idea": "Radial nodes depend on both the shell and the subshell type.",
+   "textbook_ref": "kech102.txt lines 265-280",
+   "question_patterns": [
+    "Calculate the number of radial nodes for a 3s orbital",
+    "How many radial nodes are in a 2p orbital?",
+    "Find the radial nodes for 4d",
+    "What is the number of spherical nodes for 5f?",
+    "Determine radial nodes for a 4s orbital"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract l and 1 from n",
+     "explain": "Radial nodes are given by n - l - 1.",
+     "compute": "radial_nodes = n - l - 1"
+    }
+   ]
+  },
+  {
+   "id": "kech.2.6.2.2",
+   "title": "Total Nodes in an Orbital",
+   "section": "2.6.2",
+   "definition": "The sum of all regions (radial and angular) where the electron density function falls to zero.",
+   "formula": "total_nodes = n - 1",
+   "key_idea": "The total number of nodes is determined only by the principal quantum number.",
+   "textbook_ref": "kech102.txt lines 335-345",
+   "question_patterns": [
+    "What is the total number of nodes for n = 4?",
+    "Calculate total nodes in a 3d orbital",
+    "How many nodes in total does a 2s orbital have?",
+    "Find the sum of radial and angular nodes for 4p",
+    "Determine the total nodes for the fifth shell"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract 1 from n",
+     "explain": "Total nodes = n - 1.",
+     "compute": "total_nodes = n - 1"
+    }
+   ]
+  },
+  {
+   "id": "kech.2.6.3.1",
+   "title": "Orbital Energy Ranking",
+   "section": "2.6.3",
+   "definition": "A method to determine the relative energy of orbitals in multi-electron atoms based on the sum of their quantum numbers.",
+   "formula": "energy_rank = n + l",
+   "key_idea": "Lower (n+l) values indicate lower energy; for ties, lower n wins.",
+   "textbook_ref": "kech102.txt lines 425-445",
+   "question_patterns": [
+    "Calculate the n+l value for a 4s orbital",
+    "Compare the energy of 3d and 4s using the n+l rule",
+    "What is the n+l sum for a 5p orbital?",
+    "Find the energy rank for 4f",
+    "Which has lower energy, 3p or 4s?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum n and l",
+     "explain": "The energy level is estimated by n + l.",
+     "compute": "energy_rank = n + l"
+    }
+   ]
+  },
+  {
+   "id": "kech.2.6.4.1",
+   "title": "Shell Electron Capacity",
+   "section": "2.6.4",
+   "definition": "The maximum number of electrons that can be accommodated within a specific principal energy level.",
+   "formula": "capacity = 2 * (n ** 2)",
+   "key_idea": "Derived from the number of orbitals (n^2) and the Pauli principle (2 electrons per orbital).",
+   "textbook_ref": "kech102.txt lines 510-520",
+   "question_patterns": [
+    "What is the maximum number of electrons in the third shell?",
+    "Calculate the electron capacity for n = 4",
+    "How many electrons can the L shell hold?",
+    "Find the max electrons for the M shell",
+    "Determine the capacity of the second energy level"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square n",
+     "explain": "First find the number of orbitals.",
+     "compute": "sq_n = n ** 2"
+    },
+    {
+     "step": 2,
+     "action": "multiply by 2",
+     "explain": "Each orbital holds two electrons.",
+     "compute": "capacity = 2 * sq_n"
+    }
+   ]
+  },
+  {
+   "id": "kech.2.6.4.2",
+   "title": "Pauli Exclusion Principle",
+   "section": "2.6.4",
+   "definition": "A rule stating that an orbital can hold a maximum of two electrons, provided they possess opposite spins.",
+   "formula": "max_per_orbital = 2",
+   "key_idea": "No two electrons in an atom can have identical sets of four quantum numbers.",
+   "textbook_ref": "kech102.txt lines 495-510",
+   "question_patterns": [
+    "State the Pauli exclusion principle",
+    "How many electrons can occupy a single orbital?",
+    "Why must two electrons in the same orbital have opposite spins?",
+    "Can two electrons have the same four quantum numbers?",
+    "What is the limit on electrons in a subshell based on Pauli's rule?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check spin",
+     "explain": "If n, l, and ml are same, ms must be different (+1/2 and -1/2)."
+    }
+   ]
+  },
+  {
+   "id": "kech.2.6.4.3",
+   "title": "Hund's Rule",
+   "section": "2.6.4",
+   "definition": "Electrons fill degenerate orbitals singly with parallel spins before any pairing occurs within a subshell.",
+   "formula": "unpaired_first = True",
+   "key_idea": "Maximizes total spin and minimizes electron repulsion in a subshell.",
+   "textbook_ref": "kech102.txt lines 525-540",
+   "question_patterns": [
+    "Explain Hund's rule of maximum multiplicity",
+    "How are electrons filled in a p subshell with 3 electrons?",
+    "When does pairing start in a d subshell?",
+    "Why do electrons remain unpaired in degenerate orbitals?",
+    "What is the electron arrangement for Nitrogen's 2p subshell?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "distribute electrons",
+     "explain": "Place one electron in each degenerate orbital before pairing."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kech102.txt lines 230-240",
+   "concept": "kech.2.2.3.1",
+   "question_type": "compute",
+   "question_pattern": "calculate the number of protons, neutrons and electrons in {A}Br",
+   "extracted_variables": {
+    "A": 80,
+    "Z": 35
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate neutrons",
+     "explain": "A - Z",
+     "compute": "neutrons = 80 - 35"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kech102.txt lines 450-460",
+   "concept": "kech.2.3.2.1",
+   "question_type": "compute",
+   "question_pattern": "calculate energy of one mole of photons of radiation whose frequency is {freq} Hz",
+   "extracted_variables": {
+    "freq": 500000000000000.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate photon energy",
+     "explain": "E = h * freq",
+     "compute": "energy = 6.626 * 10**-34 * 5 * 10**14"
+    },
+    {
+     "step": 2,
+     "action": "calculate mole energy",
+     "explain": "energy * Avogadro number",
+     "compute": "total = energy * 6.022 * 10**23"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex1",
+   "source_ref": "Problem 2.17",
+   "concept": "kech.2.6.1.2",
+   "question_type": "compute",
+   "question_pattern": "What is the total number of orbitals associated with the principal quantum number n = {n}?",
+   "extracted_variables": {
+    "n": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the principal quantum number",
+     "explain": "The number of orbitals is n squared.",
+     "compute": "total_orbitals = n ** 2"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex2",
+   "source_ref": "Problem 2.17 (variation)",
+   "concept": "kech.2.6.1.2",
+   "question_type": "compute",
+   "question_pattern": "Find the total orbitals for n = {n}",
+   "extracted_variables": {
+    "n": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the principal quantum number",
+     "explain": "The number of orbitals is n squared.",
+     "compute": "total_orbitals = n ** 2"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex3",
+   "source_ref": "Text Section 2.6.2",
+   "concept": "kech.2.6.2.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the radial nodes for a {n}s orbital (l={l})",
+   "extracted_variables": {
+    "n": 3,
+    "l": 0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract l and 1 from n",
+     "explain": "Radial nodes = n - l - 1.",
+     "compute": "radial_nodes = n - l - 1"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex4",
+   "source_ref": "Text Section 2.6.2",
+   "concept": "kech.2.6.2.1",
+   "question_type": "compute",
+   "question_pattern": "How many radial nodes are in a {n}p orbital (l={l})?",
+   "extracted_variables": {
+    "n": 3,
+    "l": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract l and 1 from n",
+     "explain": "Radial nodes = n - l - 1.",
+     "compute": "radial_nodes = n - l - 1"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex5",
+   "source_ref": "Text Section 2.6.1",
+   "concept": "kech.2.6.1.4",
+   "question_type": "compute",
+   "question_pattern": "How many orbitals are in a d subshell (l={l})?",
+   "extracted_variables": {
+    "l": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate count",
+     "explain": "Orbitals = 2l + 1.",
+     "compute": "num_orbitals = 2 * l + 1"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex6",
+   "source_ref": "Text Section 2.6.1",
+   "concept": "kech.2.6.1.4",
+   "question_type": "compute",
+   "question_pattern": "Calculate orientations for l = {l}",
+   "extracted_variables": {
+    "l": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate count",
+     "explain": "Orbitals = 2l + 1.",
+     "compute": "num_orbitals = 2 * l + 1"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex7",
+   "source_ref": "Text Section 2.6.2",
+   "concept": "kech.2.6.2.2",
+   "question_type": "compute",
+   "question_pattern": "Find total nodes for n = {n}",
+   "extracted_variables": {
+    "n": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract 1 from n",
+     "explain": "Total nodes = n - 1.",
+     "compute": "total_nodes = n - 1"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex8",
+   "source_ref": "Text Section 2.6.2",
+   "concept": "kech.2.6.2.2",
+   "question_type": "compute",
+   "question_pattern": "What is the total node count for n = {n}?",
+   "extracted_variables": {
+    "n": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract 1 from n",
+     "explain": "Total nodes = n - 1.",
+     "compute": "total_nodes = n - 1"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex9",
+   "source_ref": "Table 2.5",
+   "concept": "kech.2.6.3.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate n+l for a 4d orbital (n={n}, l={l})",
+   "extracted_variables": {
+    "n": 4,
+    "l": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum n and l",
+     "explain": "Energy rank is n + l.",
+     "compute": "energy_rank = n + l"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex10",
+   "source_ref": "Table 2.5",
+   "concept": "kech.2.6.3.1",
+   "question_type": "compute",
+   "question_pattern": "What is the n+l value for 5s (n={n}, l={l})?",
+   "extracted_variables": {
+    "n": 5,
+    "l": 0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum n and l",
+     "explain": "Energy rank is n + l.",
+     "compute": "energy_rank = n + l"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex11",
+   "source_ref": "Text Section 2.6.4",
+   "concept": "kech.2.6.4.1",
+   "question_type": "compute",
+   "question_pattern": "Max electrons in shell n = {n}?",
+   "extracted_variables": {
+    "n": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square n",
+     "explain": "Find orbitals first.",
+     "compute": "sq_n = n ** 2"
+    },
+    {
+     "step": 2,
+     "action": "multiply by 2",
+     "explain": "2 electrons per orbital.",
+     "compute": "capacity = 2 * sq_n"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex12",
+   "source_ref": "Text Section 2.6.4",
+   "concept": "kech.2.6.4.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate capacity for n = {n}",
+   "extracted_variables": {
+    "n": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square n",
+     "explain": "Find orbitals first.",
+     "compute": "sq_n = n ** 2"
+    },
+    {
+     "step": 2,
+     "action": "multiply by 2",
+     "explain": "2 electrons per orbital.",
+     "compute": "capacity = 2 * sq_n"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "kech102.txt",
+   "questions": [
+    "Calculate the number of protons, neutrons and electrons in 80Br.",
+    "The number of electrons, protons and neutrons in a species are equal to 18, 16 and 16 respectively. Assign the proper symbol to the species."
+   ]
+  },
+  {
+   "id": "p2_ex2.23",
+   "source_ref": "kech102.txt lines 715-725",
+   "questions": [
+    "Write the electronic configurations of the following ions: (a) H- (b) Na+ (c) O2- (d) F-",
+    "What are the atomic numbers of elements whose outermost electrons are represented by (a) 3s1 (b) 2p3 and (c) 3p5 ?",
+    "Which atoms are indicated by the following configurations ? (a) [He] 2s1 (b) [Ne] 3s2 3p3 (c) [Ar] 4s2 3d1."
+   ]
+  },
+  {
+   "id": "p2_ex2.24",
+   "source_ref": "kech102.txt line 726",
+   "questions": [
+    "What is the lowest value of n that allows g orbitals to exist?"
+   ]
+  },
+  {
+   "id": "p2_ex2.25",
+   "source_ref": "kech102.txt line 727",
+   "questions": [
+    "An electron is in one of the 3d orbitals. Give the possible values of n, l and ml for this electron."
+   ]
+  },
+  {
+   "id": "p2_ex2.28",
+   "source_ref": "kech102.txt lines 733-738",
+   "questions": [
+    "(i) An atomic orbital has n = 3. What are the possible values of l and ml ?",
+    "(ii) List the quantum numbers (ml and l) of electrons for 3d orbital.",
+    "(iii) Which of the following orbitals are possible? 1p, 2s, 2p and 3f"
+   ]
+  },
+  {
+   "id": "p2_ex2.29",
+   "source_ref": "kech102.txt lines 739-741",
+   "questions": [
+    "Using s, p, d notations, describe the orbital with the following quantum numbers. (a) n=1, l=0; (b) n = 3; l=1 (c) n = 4; l =2; (d) n=4; l=3."
+   ]
+  },
+  {
+   "id": "p2_ex2.31",
+   "source_ref": "kech102.txt lines 751-753",
+   "questions": [
+    "How many electrons in an atom may have the following quantum numbers? (a) n = 4, ms = -1/2 (b) n = 3, l = 0"
+   ]
+  },
+  {
+   "id": "p2_ex2.62",
+   "source_ref": "kech102.txt lines 820-830",
+   "questions": [
+    "The quantum numbers of six electrons are given below. Arrange them in order of increasing energies."
+   ]
+  },
+  {
+   "id": "p2_ex2.67",
+   "source_ref": "kech102.txt lines 840-843",
+   "questions": [
+    "(a) How many subshells are associated with n = 4 ?",
+    "(b) How many electrons will be present in the subshells having ms value of -1/2 for n = 4 ?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

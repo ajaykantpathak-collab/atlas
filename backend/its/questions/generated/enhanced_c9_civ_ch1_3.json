@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_civ_ch1_3",
+ "concepts": [
+  {
+   "id": "enh:c9_civ_ch1_3",
+   "title": "c9_civ_ch1_3",
+   "questions": [
+    {
+     "q": "What is the legal consequence under the Indian Constitution if a law passed by Parliament violates a Fundamental Right? (Answer in one sentence citing the relevant article.)",
+     "a": "Under Article 13(2), any law made by the State that takes away or abridges a Fundamental Right is void to the extent of the inconsistency. A wrong answer (e.g., \"the law stays valid until Parliament repeals it\" or \"the President can veto it\") reveals the student does not grasp constitutional supremacy — they think ordinary legislation can override the Constitution, missing that the Constitution is the higher law binding all organs.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a democracy need a written constitution that is difficult to amend, instead of just letting the elected majority decide everything through ordinary laws?",
+     "a": "A written, rigid constitution protects minority rights and core democratic principles (rule of law, free elections, federal balance) from being changed by a temporary majority; it embodies pre-commitment to values that define the democracy itself. A wrong answer (e.g., \"so governments don't have to write new laws often\" or \"to make it hard for the opposition\") shows confusion between administrative convenience and the normative function of constitutional entrenchment — the student misses that the Constitution constrains the majority, not just organizes government.",
+     "self_check": true
+    },
+    {
+     "q": "A state government issues an order banning a newspaper for criticizing the Chief Minister. The newspaper challenges the order in the High Court. Which constitutional provisions enable the court to strike down this order, and what role of the Constitution does this illustrate?",
+     "a": "The High Court can strike down the order under Article 226 (writ jurisdiction) read with Article 19(1)(a) (freedom of speech) and Article 13 (laws inconsistent with Fundamental Rights are void). This illustrates the Constitution's role as a enforceable limit on executive power through judicial review. A wrong answer that cites only \"the court's power\" without naming Articles 19, 13, 226 shows the student sees judicial review as an inherent judicial trait rather than a constitutional grant — missing that the Constitution itself creates and defines this checking power.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the amendment procedure for a provision affecting the federal structure (e.g., Article 368 proviso) with an ordinary law-making procedure. What does this difference reveal about the Constitution's role in a federal democracy?",
+     "a": "Amending federal provisions requires a special majority in Parliament plus ratification by half the state legislatures (Article 368 proviso), while ordinary laws need only simple majority in Parliament. This reveals the Constitution's role as a federal compact: it protects the federal balance from unilateral change by the centre, entrenching state consent as a constitutional principle. A wrong answer that says \"both need two-thirds majority\" or \"states have no role\" shows the student conflates constitutional amendment with ordinary legislation and misses the Constitution's function as a binding agreement between levels of government.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the argument: \"Since the Constitution can be amended by Parliament, Parliament is supreme and the Constitution is just a document it can change at will.\"",
+     "a": "The argument ignores the basic structure doctrine (Kesavananda Bharati, 1973): Parliament cannot amend the Constitution to destroy its core features (democracy, rule of law, judicial review, federalism, secularism). The Constitution's role is to constitute and limit Parliament, not to be its servant. A wrong answer that agrees with the argument reveals a fundamental misunderstanding of constitutionalism — the student thinks legislative sovereignty (British model) applies in India, missing that the Indian Constitution is supreme, not Parliament.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph preamble for a new democratic constitution of a diverse country that has just ended a dictatorship. Your preamble must reflect at least three distinct roles a constitution plays in a democracy.",
+     "a": "A good preamble would include: (1) source of authority (\"We the people...\"), (2) commitment to fundamental rights and rule of law, (3) establishment of institutions with separated powers and checks, (4) recognition of diversity/federalism, (5) amendment procedure that protects core values. A poor answer that only lists aspirations (\"we want peace and prosperity\") without institutional or limiting language shows the student views a constitution as a vision statement rather than a legal-political framework that structures and constrains power.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_11_007",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_11_007",
+   "title": "c11_hs_cbse_11_007",
+   "questions": [
+    {
+     "q": "Define \"pedesis\" in the context of laundering and state one factor that increases its intensity.",
+     "a": "Pedesis is the random Brownian motion of water molecules that mechanically dislodges non-greasy particulate dirt from fabric interstices. Increasing water temperature increases pedesis intensity because molecular kinetic energy rises with temperature. A wrong answer (e.g., \"pedesis is the flow of water through fabric\" or \"adding soap increases pedesis\") reveals confusion between bulk fluid flow and molecular motion, or between surfactant action and water's intrinsic property.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Hot water removes all types of dirt better than cold water because it dissolves everything.\" Identify the two scientific inaccuracies in this statement.",
+     "a": "First, hot water does not \"dissolve\" grease — it only softens/melts some fats; true removal requires emulsification by surfactants. Second, hot water can set protein stains (blood, egg) by coagulating them, making removal harder. A wrong answer that misses either point shows the student conflates thermal softening with chemical dissolution and ignores stain-specific temperature rules.",
+     "self_check": true
+    },
+    {
+     "q": "A white cotton bedsheet washed repeatedly in hard water with only water (no detergent) turns gray. Explain the mechanism using the terms: redeposition, suspension, and particulate soil.",
+     "a": "Water penetrates and pedesis dislodges particulate soil, but without surfactants the freed particles remain unsuspended in the wash liquor. During rinsing/agitation they redeposit on the fabric surface, accumulating as a gray haze over cycles. A wrong answer blaming \"hard water minerals\" or \"fabric wear\" misses the core concept: water lacks suspending power, so mechanical removal is reversible.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the removal mechanism for loose dust on a wool sweater versus dried ghee stain on the same sweater. Why is \"shaking\" effective for the first but useless for the second?",
+     "a": "Loose dust is mechanically trapped; shaking provides kinetic energy to overcome weak van der Waals/adhesive forces. Dried ghee forms a continuous hydrophobic film binding dust and fibres; shaking cannot break oil-fibre adhesion or solubilise the film. A wrong answer citing \"wool delicacy\" or \"temperature\" fails to distinguish mechanical vs chemical binding forces.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Since water penetrates cotton fibres well, soaking a heavily soiled cotton garment overnight in plain water will remove most dirt.\" Support your evaluation with two principles from the text.",
+     "a": "The claim is partially true for loose/particulate dirt (penetration + pedesis over time) but false for greasy/fixed dirt. Two principles: (1) Water cannot emulsify grease — the oil film remains intact. (2) Without suspending agents, any dislodged dirt redeposits during soaking/agitation. A student who agrees wholly ignores water's chemical limitations; one who disagrees wholly ignores its mechanical efficacy on loose soil.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step home experiment to demonstrate that water alone cannot prevent redeposition of carbon particles (simulated soot) on cotton. Specify materials, procedure, and the observable evidence for redeposition.",
+     "a": "Materials: two identical white cotton swatches, carbon powder (soot), two beakers, distilled water, stirrer. Step 1: Soil both swatches equally with carbon powder. Step 2: Agitate swatch A in water for 5 min, rinse, dry. Agitate swatch B in water + 0.1% liquid detergent, rinse, dry. Step 3: Compare grayness visually or via photo. Evidence: Swatch A shows gray haze (redeposited carbon); Swatch B remains whiter (surfactant suspended carbon). Poor answer omits control (swatch B) or uses tap water (confounds hardness).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

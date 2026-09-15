@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_09_010",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_09_010",
+   "title": "c12_phy_cbse_09_010",
+   "questions": [
+    {
+     "q": "What is the approximate formula for the magnifying power of a compound microscope when the final image is formed at the least distance of distinct vision (D = 25 cm)? State the meaning of each symbol.",
+     "a": "The magnifying power is m = (L/fo) × (1 + D/fe), where L is the tube length (distance between the second focal point of the objective and the first focal point of the eyepiece), fo is the focal length of the objective, fe is the focal length of the eyepiece, and D = 25 cm is the least distance of distinct vision. A wrong answer (e.g., m = fo/fe or m = D/fo) reveals confusion between the roles of objective and eyepiece, or mixing up microscope and telescope formulas.",
+     "self_check": true
+    },
+    {
+     "q": "In a compound microscope, the object is placed just beyond the focal point of the objective (u_o ≈ –fo). Explain why this placement is necessary and what would happen if the object were placed at a distance much greater than fo.",
+     "a": "Placing the object just beyond fo ensures the objective forms a real, inverted, and magnified image at a distance much larger than fo (since v_o ≈ L + fo, where L is tube length). If the object were far beyond fo (|u_o| >> fo), the image would form near fo, giving very small magnification (m_o = v_o/u_o ≈ fo/u_o << 1). A wrong answer indicates the student does not connect object distance to image magnification via the lens formula.",
+     "self_check": true
+    },
+    {
+     "q": "A compound microscope has an objective of focal length 1.0 cm and an eyepiece of focal length 2.5 cm. The tube length is 16 cm. Calculate the magnifying power when the final image is formed at (a) the near point (25 cm) and (b) at infinity.",
+     "a": "(a) m = (L/fo) × (1 + D/fe) = (16/1) × (1 + 25/2.5) = 16 × (1 + 10) = 16 × 11 = 176.\n(b) m = (L/fo) × (D/fe) = 16 × (25/2.5) = 16 × 10 = 160.\nA wrong answer (e.g., using fo+fe instead of L, or forgetting the +1 in near point formula) reveals algebraic errors or confusion between the two formulas.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the magnifying power formulas for a compound microscope and an astronomical telescope. Why does the microscope use tube length L while the telescope uses the sum of focal lengths (fo + fe) as its length?",
+     "a": "In a microscope, the objective forms an image at a distance v_o ≈ L + fo (since object is near fo), so the distance between the two lenses is L + fo + fe. The magnification of the objective is m_o = v_o/u_o ≈ (L+fo)/fo ≈ L/fo (since fo << L). In a telescope, the object is at infinity, so the objective forms an image at its focal plane (v_o = fo). The eyepiece is placed such that its first focal point coincides with this image, so the lens separation is fo + fe. A wrong answer shows the student does not derive the formulas from first principles but memorizes them without understanding the geometry.",
+     "self_check": true
+    },
+    {
+     "q": "A student sets up a compound microscope with fo = 4 mm, fe = 2 cm, and tube length L = 16 cm. She claims the magnifying power is 2000 when the final image is at infinity. Evaluate her claim and identify the error.",
+     "a": "The correct magnification is m = (L/fo) × (D/fe) = (16 cm / 0.4 cm) × (25 cm / 2 cm) = 40 × 12.5 = 500. The student likely used inconsistent units (e.g., L = 16 cm, fo = 4 mm but treated as 4 cm, giving 16/4 = 4, then 4 × 12.5 = 50) or mistakenly used the near-point formula with an extra factor. The claim of 2000 is incorrect; the maximum with these parameters is 500. The error reveals a lack of unit consistency or misunderstanding of the formula.",
+     "self_check": true
+    },
+    {
+     "q": "Design a compound microscope to achieve a magnifying power of 400 with the final image at infinity. You have available objective lenses of focal lengths 2 mm, 4 mm, 8 mm, and eyepieces of focal lengths 1 cm, 2 cm, 4 cm. The tube length is fixed at 16 cm. Choose the combination that gives exactly 400 and justify your choice.",
+     "a": "We need m = (L/fo) × (D/fe) = 400. With L = 16 cm, D = 25 cm, m = (16/fo) × (25/fe) = 400/(fo·fe) where fo, fe are in cm. So fo·fe = 1 cm². Possible pairs: fo = 0.2 cm (2 mm), fe = 5 cm (not available); fo = 0.4 cm (4 mm), fe = 2.5 cm (not available); fo = 0.8 cm (8 mm), fe = 1.25 cm (not available). None of the given combinations yield exactly 400. The closest is fo = 4 mm (0.4 cm) and fe = 2 cm: m = (16/0.4)×(25/2) = 40×12.5 = 500. A good answer explains the calculation and concludes that no combination gives exactly 400, but 500 is achievable with fo = 4 mm, fe = 2 cm. A poor answer picks a combination without checking the product.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

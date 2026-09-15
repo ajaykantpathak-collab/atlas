@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_08_009",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_08_009",
+   "title": "c12_hs_cbse_08_009",
+   "questions": [
+    {
+     "q": "Define fashion in one sentence using the four components: style, change, acceptance, and taste.",
+     "a": "**Correct answer:** Fashion is a currently accepted style characterized by continuous change, adopted by a majority group due to shared taste.  \n**What a wrong answer reveals:** If a student writes \"Fashion is what is popular\" or \"Fashion is clothing trends,\" they are confusing fashion with mere popularity or clothing in general. They miss the structural components — especially *change* (fashion *must* change) and *acceptance* (requires majority adoption, not just a niche). This leads to errors in distinguishing fashion from fads (short acceptance) or classics (long acceptance).",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Bell-bottom jeans were a fashion in the 1970s, disappeared, and returned in the 2000s. That means the fashion cycle reversed.\" Explain why this statement is incorrect using the concept of the fashion cycle.",
+     "a": "**Correct answer:** The fashion cycle does not reverse; it repeats with a *new* cycle. The 2000s bell-bottoms were a *new introduction* (possibly with updated fit, fabric, or styling), not the same cycle continuing. Each cycle moves forward: Introduction → Rise → Peak → Decline → Obsolescence. A revival starts a fresh cycle at Introduction.  \n**What a wrong answer reveals:** If the student agrees the cycle \"reversed\" or \"went backward,\" they misunderstand the cycle as a reversible loop rather than a one-way progression that can restart. This causes errors in forecasting (c12_hs_cbse_08_010) where they might expect an exact replica of a past trend instead of a reinterpreted version.",
+     "self_check": true
+    },
+    {
+     "q": "A new silhouette — \"balloon sleeves\" — appears on three major designer runways. Within two months, fast-fashion brands release affordable versions, and 40% of urban college students wear them. Six months later, luxury brands drop the style, but mass-market sales peak. Identify the fashion cycle stage at each of these three time points and justify.",
+     "a": "**Correct answer:**  \n- Time 1 (runways only): **Introduction** — limited acceptance, high price, innovation.  \n- Time 2 (fast-fashion copies, 40% adoption): **Rise** — rapid mass acceptance, volume production.  \n- Time 3 (luxury drops, mass sales peak): **Peak** — saturation, maximum volume, beginning of decline for innovators.  \n**What a wrong answer reveals:** If the student labels Time 2 as \"Peak\" because \"everyone wears it,\" they confuse *visibility* with *saturation*. Peak occurs when the market is flooded and early adopters abandon the style. Misidentifying stages leads to wrong merchandising decisions (e.g., overstocking at decline).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the fashion cycle of a **fad** (e.g., neon leg warmers) and a **classic** (e.g., white button-down shirt) on three parameters: cycle duration, acceptance curve shape, and consumer motivation.",
+     "a": "**Correct answer:**  \n| Parameter | Fad | Classic |  \n|-----------|-----|---------|  \n| Cycle duration | Very short (weeks–months) | Very long (decades, recurring peaks) |  \n| Acceptance curve | Sharp spike, immediate crash | Gentle rise, sustained plateau, slow decline |  \n| Consumer motivation | Novelty, social signaling, FOMO | Utility, versatility, timeless aesthetics |  \n**What a wrong answer reveals:** If the student says classics \"never go out of fashion\" or have \"no cycle,\" they miss that classics *do* cycle but with extended Peak and recurring Revivals. This error causes them to treat classics as static inventory rather than items needing periodic refresh (e.g., collar shape, fabric weight).",
+     "self_check": true
+    },
+    {
+     "q": "A retailer argues: \"Since the fashion cycle is predictable, we can exactly time our markdowns at the Decline stage to maximize profit.\" Evaluate this claim. What two real-world factors make exact timing impossible?",
+     "a": "**Correct answer:** The claim is **overconfident**. While the *general* cycle is predictable, exact timing of Decline is impossible because:  \n(1) **External shocks** (economic crisis, pandemic, celebrity endorsement) can abruptly shorten or extend any stage.  \n(2) **Micro-trends** within a macro-trend (e.g., \"oversized blazers\" within \"tailoring trend\") have staggered cycles, so a single product's decline ≠ category decline.  \n**What a wrong answer reveals:** If the student says \"yes, the cycle is a fixed calendar,\" they treat a sociological model as a mechanical law. This leads to rigid markdown schedules that miss actual demand shifts — a common error in retail management exams.",
+     "self_check": true
+    },
+    {
+     "q": "Create a labelled sketch of the fashion cycle for a hypothetical trend: \"Transparent handbags.\" Annotate the curve with: (a) the stage where knock-offs appear, (b) the stage where fashion magazines stop featuring it, (c) the stage where it enters thrift stores, and (d) a possible revival trigger.",
+     "a": "**Expected answer:** A bell-shaped curve with five labelled stages. Annotations:  \n(a) Knock-offs appear in **Rise** (fast fashion copies runway).  \n(b) Magazines stop featuring in **late Peak / early Decline** (editorial fatigue).  \n(c) Thrift stores receive volume in **Decline** (consumer discard).  \n(d) Revival trigger: **Celebrity wears vintage version** or **designer reinterprets with sustainable materials** (starts new Introduction).  \n**What a poor answer reveals:** If the student places knock-offs at Introduction (too early) or thrift stores at Peak (too early), they don't grasp the *lag* between adoption tiers. This indicates weak understanding of the diffusion process across market segments.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

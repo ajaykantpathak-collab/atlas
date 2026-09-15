@@ -1,0 +1,438 @@
+{
+ "class": 10,
+ "subject": "maths",
+ "chapter": 107,
+ "chapter_title": "Coordinate Geometry",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jemh107.txt",
+ "concepts": [
+  {
+   "id": "jemh.7.2.1",
+   "title": "Distance Formula Between Two Points",
+   "section": "7.2",
+   "definition": "The straight-line separation between any two coordinate positions in a Cartesian plane obtained by applying the Pythagorean principle to horizontal and vertical spans.",
+   "formula": "distance = sqrt((x2 - x1)**2 + (y2 - y1)**2)",
+   "key_idea": "Square root of the sum of squared differences of corresponding coordinates.",
+   "textbook_ref": "jemh107.txt lines 30-70",
+   "question_patterns": [
+    "find the distance between the points (x1, y1) and (x2, y2)",
+    "calculate the length of the line segment joining two given points",
+    "what is the distance separating the pairs of coordinate points",
+    "determine the separation between two locations on a coordinate plane",
+    "how far apart are two points on the Cartesian grid"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute horizontal difference squared",
+     "explain": "find square of difference in x coordinates",
+     "compute": "dx_sq = (x2 - x1) ** 2"
+    },
+    {
+     "step": 2,
+     "action": "compute vertical difference squared",
+     "explain": "find square of difference in y coordinates",
+     "compute": "dy_sq = (y2 - y1) ** 2"
+    },
+    {
+     "step": 3,
+     "action": "calculate total Euclidean distance",
+     "explain": "take square root of the sum of squared horizontal and vertical differences",
+     "compute": "distance = sqrt(dx_sq + dy_sq)"
+    }
+   ]
+  },
+  {
+   "id": "jemh.7.2.2",
+   "title": "Distance of a Point from the Origin",
+   "section": "7.2",
+   "definition": "The length of the line segment connecting the origin to any specified point in the coordinate system.",
+   "formula": "distance = sqrt(x**2 + y**2)",
+   "key_idea": "Radial distance is the square root of the sum of squares of the abscissa and ordinate.",
+   "textbook_ref": "jemh107.txt lines 71-78",
+   "question_patterns": [
+    "find the distance of the point (x, y) from the origin",
+    "calculate how far a given point lies from (0, 0)",
+    "determine the distance between the origin and a given location",
+    "what is the separation between (0, 0) and the point (x, y)",
+    "compute the radial distance of a point from the origin"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum squares of coordinates",
+     "explain": "add the square of the x-coordinate to the square of the y-coordinate",
+     "compute": "sq_sum = (x ** 2) + (y ** 2)"
+    },
+    {
+     "step": 2,
+     "action": "take square root",
+     "explain": "evaluate square root of the sum of squares",
+     "compute": "distance = sqrt(sq_sum)"
+    }
+   ]
+  },
+  {
+   "id": "jemh.7.2.3",
+   "title": "Collinearity of Three Points",
+   "section": "7.2",
+   "definition": "A geometric condition where three distinct points reside on a single continuous straight line, verified when the sum of two pairwise segment lengths equals the third.",
+   "formula": "AB + BC = AC",
+   "key_idea": "Three points lie on one line if the largest segment length equals the sum of the other two.",
+   "textbook_ref": "jemh107.txt lines 105-125",
+   "question_patterns": [
+    "determine if the three given points are collinear",
+    "check whether the points lie on the same straight line",
+    "verify if the given set of three points is collinear using distance formula",
+    "show that three coordinates form a single continuous line",
+    "test if three given locations are situated along a straight path"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute pairwise distances",
+     "explain": "use distance formula to calculate lengths AB, BC, and AC between the three points"
+    },
+    {
+     "step": 2,
+     "action": "compare sum of shorter lengths to longest length",
+     "explain": "check if the sum of the two smaller distances is equal to the largest distance"
+    },
+    {
+     "step": 3,
+     "action": "conclude collinearity",
+     "explain": "state that the points are collinear if equality holds, or non-collinear otherwise"
+    }
+   ]
+  },
+  {
+   "id": "jemh.7.2.4",
+   "title": "Equidistant Points and Coordinate Loci",
+   "section": "7.2",
+   "definition": "A condition in which a point maintains identical spatial separation from two or more reference points, creating an algebraic constraint or perpendicular bisector relation.",
+   "formula": "PA**2 = PB**2",
+   "key_idea": "Equating squared distances eliminates radicals to find unknown coordinates or linear relations.",
+   "textbook_ref": "jemh107.txt lines 126-160",
+   "question_patterns": [
+    "find a point on the y-axis equidistant from two given points",
+    "find the point on the x-axis which is equidistant from two points",
+    "find a relation between x and y such that (x, y) is equidistant from two points",
+    "determine the locus of points equidistant from two given coordinates",
+    "calculate the unknown coordinate when a point is at equal distances from two points"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set up distance equality",
+     "explain": "let P be the point and equate squared distances PA^2 = PB^2 to avoid radical terms"
+    },
+    {
+     "step": 2,
+     "action": "expand algebraic expressions",
+     "explain": "expand binomial squares and cancel quadratic terms from both sides"
+    },
+    {
+     "step": 3,
+     "action": "solve for coordinate or linear equation",
+     "explain": "isolate the unknown variable or simplify to obtain the required linear relation"
+    }
+   ]
+  },
+  {
+   "id": "jemh.7.3.1",
+   "title": "Section Formula for Internal Division",
+   "section": "7.3",
+   "definition": "A coordinate formulation determining the position of a partition point that divides an interval joining two given points in a specified internal ratio.",
+   "formula": "P(x, y) = ((m1*x2 + m2*x1)/(m1 + m2), (m1*y2 + m2*y1)/(m1 + m2))",
+   "key_idea": "Weighted average of coordinates weighted inversely by ratio distances.",
+   "textbook_ref": "jemh107.txt lines 180-230",
+   "question_patterns": [
+    "find the coordinates of the point dividing a line segment in a given ratio",
+    "calculate the point that divides the join of two points internally in ratio m1:m2",
+    "determine the division point on a line segment with a given internal ratio",
+    "what are the coordinates of the dividing point for ratio k:1",
+    "find the position of a point dividing the segment joining A and B"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify coordinates and ratio weights",
+     "explain": "assign x1, y1, x2, y2 and the ratio values m1, m2"
+    },
+    {
+     "step": 2,
+     "action": "compute x coordinate of division point",
+     "explain": "evaluate x = (m1*x2 + m2*x1) / (m1 + m2)"
+    },
+    {
+     "step": 3,
+     "action": "compute y coordinate of division point",
+     "explain": "evaluate y = (m1*y2 + m2*y1) / (m1 + m2)"
+    },
+    {
+     "step": 4,
+     "action": "state partition point",
+     "explain": "write the final coordinates as an ordered pair (x, y)"
+    }
+   ]
+  },
+  {
+   "id": "jemh.7.3.2",
+   "title": "Mid-point Formula",
+   "section": "7.3",
+   "definition": "A specific instance of section division where an interval is halved equally, resulting in coordinates that are arithmetic means of the endpoints.",
+   "formula": "M(x, y) = ((x1 + x2)/2, (y1 + y2)/2)",
+   "key_idea": "The midpoint coordinates are the arithmetic averages of the respective endpoint coordinates.",
+   "textbook_ref": "jemh107.txt lines 231-245",
+   "question_patterns": [
+    "find the midpoint of the line segment joining two given points",
+    "calculate the center point of a line segment with known endpoints",
+    "determine the coordinates of the midpoint of AB",
+    "find the missing endpoint given one endpoint and the midpoint",
+    "use midpoint property of diagonals to find unknown vertex of a parallelogram"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum respective coordinates",
+     "explain": "add the x-coordinates together and the y-coordinates together"
+    },
+    {
+     "step": 2,
+     "action": "divide sums by 2",
+     "explain": "compute x_mid = (x1 + x2)/2 and y_mid = (y1 + y2)/2"
+    },
+    {
+     "step": 3,
+     "action": "state midpoint coordinates",
+     "explain": "express the calculated point as (x_mid, y_mid)"
+    }
+   ]
+  },
+  {
+   "id": "jemh.7.3.3",
+   "title": "Determining Ratio of Division",
+   "section": "7.3",
+   "definition": "The algebraic procedure to discover the proportional segment split made by a known point or coordinate axis upon a line segment.",
+   "formula": "k = (x - x1)/(x2 - x)",
+   "key_idea": "Representing ratio as k:1 allows solving a single linear equation in one unknown.",
+   "textbook_ref": "jemh107.txt lines 250-295",
+   "question_patterns": [
+    "in what ratio does a given point divide the line segment joining two points",
+    "find the ratio in which the x-axis divides the line segment",
+    "find the ratio in which the y-axis divides the join of two points",
+    "determine the dividing ratio and point of intersection with an axis",
+    "calculate the proportional division ratio created by a specified coordinate"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "assume division ratio k:1",
+     "explain": "express coordinates of division point in terms of unknown parameter k"
+    },
+    {
+     "step": 2,
+     "action": "equate known coordinate",
+     "explain": "use given coordinate (or 0 for axis intersection) to set up a linear equation in k"
+    },
+    {
+     "step": 3,
+     "action": "solve for k and verify second coordinate",
+     "explain": "isolate k to get the ratio k:1 and compute remaining coordinate if required"
+    }
+   ]
+  },
+  {
+   "id": "jemh.7.3.4",
+   "title": "Trisection of a Line Segment",
+   "section": "7.3",
+   "definition": "Dividing a line segment into three equal lengths using two intermediate partition points that split the segment in ratios 1:2 and 2:1.",
+   "formula": "P = ((2*x1 + x2)/3, (2*y1 + y2)/3), Q = ((x1 + 2*x2)/3, (y1 + 2*y2)/3)",
+   "key_idea": "Two trisection points divide the total segment internally in ratios 1:2 and 2:1.",
+   "textbook_ref": "jemh107.txt lines 296-320",
+   "question_patterns": [
+    "find the coordinates of the points of trisection of a line segment",
+    "calculate the points that divide the segment joining two points into three equal parts",
+    "determine trisection points of the line joining A and B",
+    "find points dividing a segment into four equal parts",
+    "compute coordinates of equal partition points along a segment"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply 1:2 ratio for first trisection point",
+     "explain": "use section formula with m1=1, m2=2 to find first division point P"
+    },
+    {
+     "step": 2,
+     "action": "apply 2:1 ratio or midpoint method for second point",
+     "explain": "use section formula with m1=2, m2=1 or find midpoint of PB to obtain point Q"
+    },
+    {
+     "step": 3,
+     "action": "state both partition points",
+     "explain": "list the coordinates of both trisection points P and Q"
+    }
+   ]
+  },
+  {
+   "id": "jemh.7.3.5",
+   "title": "Area of Rhombus via Diagonal Lengths",
+   "section": "7.3",
+   "definition": "The planar area enclosed by a rhombus computed as half the product of the lengths of its two perpendicular diagonals.",
+   "formula": "area = (d1 * d2) / 2",
+   "key_idea": "Diagonal lengths found using distance formula multiplied and halved yield rhombus area.",
+   "textbook_ref": "jemh107.txt lines 365-375",
+   "question_patterns": [
+    "find the area of a rhombus given its four vertices in order",
+    "calculate the area of a rhombus with known diagonal lengths",
+    "determine the area of rhombus ABCD given coordinates of its vertices",
+    "what is the area enclosed by a rhombus whose vertices are known",
+    "compute the area of a rhombus using the lengths of its diagonals"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply diagonal lengths",
+     "explain": "find product of the two diagonal lengths d1 and d2",
+     "compute": "diag_prod = d1 * d2"
+    },
+    {
+     "step": 2,
+     "action": "half the diagonal product",
+     "explain": "divide product of diagonals by 2 to obtain area",
+     "compute": "area = diag_prod / 2"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jemh107.txt lines 10-30",
+   "concept": "jemh.7.2.1",
+   "question_type": "compute",
+   "question_pattern": "Find the distance between the points ({x1}, {y1}) and ({x2}, {y2}).",
+   "extracted_variables": {
+    "x1": 4,
+    "y1": 6,
+    "x2": 6,
+    "y2": 8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute horizontal difference squared",
+     "explain": "find square of difference in x coordinates",
+     "compute": "dx_sq = (x2 - x1) ** 2"
+    },
+    {
+     "step": 2,
+     "action": "compute vertical difference squared",
+     "explain": "find square of difference in y coordinates",
+     "compute": "dy_sq = (y2 - y1) ** 2"
+    },
+    {
+     "step": 3,
+     "action": "calculate total Euclidean distance",
+     "explain": "take square root of the sum of squared horizontal and vertical differences",
+     "compute": "distance = sqrt(dx_sq + dy_sq)"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jemh107.txt lines 71-78",
+   "concept": "jemh.7.2.2",
+   "question_type": "compute",
+   "question_pattern": "Find the distance of the point ({x}, {y}) from the origin.",
+   "extracted_variables": {
+    "x": 36,
+    "y": 15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum squares of coordinates",
+     "explain": "add the square of the x-coordinate to the square of the y-coordinate",
+     "compute": "sq_sum = (x ** 2) + (y ** 2)"
+    },
+    {
+     "step": 2,
+     "action": "take square root",
+     "explain": "evaluate square root of the sum of squares",
+     "compute": "distance = sqrt(sq_sum)"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jemh107.txt lines 365-375",
+   "concept": "jemh.7.3.5",
+   "question_type": "compute",
+   "question_pattern": "Find the area of a rhombus whose diagonals have lengths {d1} and {d2}.",
+   "extracted_variables": {
+    "d1": 6,
+    "d2": 8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply diagonal lengths",
+     "explain": "find product of the two diagonal lengths d1 and d2",
+     "compute": "diag_prod = d1 * d2"
+    },
+    {
+     "step": 2,
+     "action": "half the diagonal product",
+     "explain": "divide product of diagonals by 2 to obtain area",
+     "compute": "area = diag_prod / 2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex7.1",
+   "source_ref": "jemh107.txt lines 161-177",
+   "questions": [
+    "1. Find the distance between the following pairs of points : (i) (2, 3), (4, 1) (ii) (-5, 7), (-1, 3) (iii) (a, b), (-a, -b)",
+    "2. Find the distance between the points (0, 0) and (36, 15). Can you now find the distance between the two towns A and B discussed in Section 7.2.",
+    "3. Determine if the points (1, 5), (2, 3) and (-2, -11) are collinear.",
+    "4. Check whether (5, -2), (6, 4) and (7, -2) are the vertices of an isosceles triangle.",
+    "5. In a classroom, 4 friends are seated at points A, B, C and D as shown in Fig. 7.8. Champa asks Chameli if ABCD is a square. Using distance formula, find which of them is correct.",
+    "6. Name the type of quadrilateral formed, if any, by the following points: (i) (-1, -2), (1, 0), (-1, 2), (-3, 0) (ii) (-3, 5), (3, 1), (0, 3), (-1, -4) (iii) (4, 5), (7, 6), (4, 3), (1, 2)",
+    "7. Find the point on the x-axis which is equidistant from (2, -5) and (-2, 9).",
+    "8. Find the values of y for which the distance between the points P(2, -3) and Q(10, y) is 10 units.",
+    "9. If Q(0, 1) is equidistant from P(5, -3) and R(x, 6), find the values of x. Also find the distances QR and PR.",
+    "10. Find a relation between x and y such that the point (x, y) is equidistant from the point (3, 6) and (-3, 4)."
+   ]
+  },
+  {
+   "id": "ex7.2",
+   "source_ref": "jemh107.txt lines 340-375",
+   "questions": [
+    "1. Find the coordinates of the point which divides the join of (-1, 7) and (4, -3) in the ratio 2 : 3.",
+    "2. Find the coordinates of the points of trisection of the line segment joining (4, -1) and (-2, -3).",
+    "3. In a rectangular sports ground ABCD with lines 1m apart and 100 flower pots along AD, Niharika runs 1/4 the distance AD on 2nd line and Preet runs 1/5 the distance on 8th line. Find distance between flags and position where Rashmi should post a blue flag halfway between them.",
+    "4. Find the ratio in which the line segment joining (-3, 10) and (6, -8) is divided by (-1, 6).",
+    "5. Find the ratio in which the line segment joining A(1, -5) and B(-4, 5) is divided by the x-axis. Also find the coordinates of the point of division.",
+    "6. If (1, 2), (4, y), (x, 6) and (3, 5) are vertices of a parallelogram taken in order, find x and y.",
+    "7. Find the coordinates of a point A, where AB is the diameter of a circle whose centre is (2, -3) and B is (1, 4).",
+    "8. If A and B are (-2, -2) and (2, -4), find coordinates of P such that AP = 3/7 AB and P lies on AB.",
+    "9. Find the coordinates of the points which divide the line segment joining A(-2, 2) and B(2, 8) into four equal parts.",
+    "10. Find the area of a rhombus if its vertices are (3, 0), (4, 5), (-1, 4) and (-2, -1) taken in order."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_02_009",
+   "title": "c11_cs_cbse_02_009",
+   "questions": [
+    {
+     "q": "State both De Morgan's Theorems using Boolean algebra notation with variables A and B.",
+     "a": "Theorem 1: (A + B)' = A' · B'  Theorem 2: (A · B)' = A' + B'. A wrong answer (e.g., (A+B)' = A'+B' or forgetting the operator change) reveals the student memorised the pattern without understanding the duality principle — that complementation flips the operator (OR↔AND) and distributes over variables.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why (A + B)' is not equal to A' + B'. Use a concrete example with A=1, B=0 to justify.",
+     "a": "For A=1, B=0: (A+B)' = (1+0)' = 1' = 0, but A'+B' = 1'+0' = 0+1 = 1. The results differ (0 vs 1), proving they are not equivalent. A student who claims they are equal or cannot compute the complement of a sum has not grasped that the NOT operation applies to the entire sum first, not individually — a classic precedence error.",
+     "self_check": true
+    },
+    {
+     "q": "Simplify the expression (A·B + C')' using De Morgan's Theorems and other Boolean laws. Show each step.",
+     "a": "Step 1: Apply Theorem 2 to the whole expression: (A·B + C')' = (A·B)' · (C')'  \nStep 2: Apply Theorem 2 to (A·B)': (A' + B') · (C')'  \nStep 3: Apply Double Complement (Involution) to (C')': (A' + B') · C  \nStep 4: Distribute: A'·C + B'·C.  \nA wrong answer (e.g., stopping at step 2 or misapplying distribution) shows the student cannot chain multiple laws together — a critical skill for board-exam simplification problems.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two circuits: Circuit X = (A + B)' and Circuit Y = A' · B'. Are they logically equivalent? Prove your answer using a truth table with all four input combinations.",
+     "a": "Truth table:\nA B | A+B | (A+B)' | A' | B' | A'·B'\n0 0 |  0  |   1    | 1  | 1  |  1\n0 1 |  1  |   0    | 1  | 0  |  0\n1 0 |  1  |   0    | 0  | 1  |  0\n1 1 |  1  |   0    | 0  | 0  |  0\nColumns (A+B)' and A'·B' are identical → logically equivalent. A student who only checks one row or claims they differ because \"the gates look different\" fails to understand functional equivalence — a key concept for gate substitution in digital design.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"De Morgan's Theorems only work for two variables. For three variables like (A+B+C)', you cannot apply them.\" Evaluate this claim and provide the correct generalisation.",
+     "a": "The claim is false. De Morgan's Theorems extend to any number of variables by repeated application: (A+B+C)' = (A+(B+C))' = A' · (B+C)' = A' · B' · C'. Similarly, (A·B·C)' = A' + B' + C'. A student who believes the theorems are limited to two variables has not recognised the associative property of OR/AND allows grouping — a gap that will cause errors in simplifying multi-variable expressions in exams.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new Boolean expression with at least 4 variables that requires both De Morgan's Theorems and the Distributive Law to simplify to a sum-of-products form. Write the original expression and the simplified result.",
+     "a": "Example: F = ((A·B)' + C·D)'  \nSimplification:  \n1. Apply Theorem 1: (A·B)'' · (C·D)' = A·B · (C' + D')  \n2. Distribute: A·B·C' + A·B·D'  \nA good answer demonstrates synthesis of multiple laws. A poor answer (e.g., only applying one theorem or not reaching sum-of-products) shows the student cannot orchestrate a multi-step simplification strategy — exactly what board competency questions demand.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

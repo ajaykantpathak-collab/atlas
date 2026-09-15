@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_01_003",
+   "title": "c10_math_cbse_01_003",
+   "questions": [
+    {
+     "q": "State the relationship between HCF and LCM of two positive integers a and b.",
+     "a": "The relationship is HCF(a, b) × LCM(a, b) = a × b. A wrong answer (e.g., HCF + LCM = a + b, or HCF × LCM = a + b) reveals that the student has not memorised the exact formula or confuses it with other operations. This is a direct recall fact required for all subsequent problems.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the product of HCF and LCM of two numbers equals the product of the numbers themselves, using the concept of prime factorisation.",
+     "a": "In prime factorisation, HCF takes each common prime factor with the minimum exponent, while LCM takes each prime factor (common or not) with the maximum exponent. When multiplied, the exponents add up to the sum of the exponents in the two numbers, which is exactly the exponent in the product a × b. A wrong explanation (e.g., \"because HCF divides both numbers\") shows the student does not understand the structural reason and will struggle to apply the concept in reverse problems.",
+     "self_check": true
+    },
+    {
+     "q": "The HCF of two numbers is 12 and their LCM is 72. If one of the numbers is 24, find the other number.",
+     "a": "Given: HCF = 12, LCM = 72, one number = 24.\nUsing formula: HCF × LCM = Product of numbers\n12 × 72 = 24 × other number\n864 = 24 × other number\nOther number = 864 ÷ 24 = 36.\nAnswer: 36.\nA wrong answer (e.g., 48, 18) usually comes from misapplying the formula (adding instead of multiplying, or dividing incorrectly) or not verifying that HCF(24,36)=12 and LCM(24,36)=72.",
+     "self_check": true
+    },
+    {
+     "q": "Two numbers are such that their HCF is 15 and their product is 6300. Find their LCM. Then, determine if the numbers could be 45 and 140. Justify your answer.",
+     "a": "LCM = Product ÷ HCF = 6300 ÷ 15 = 420.\nNow check: HCF(45, 140) = 5 (not 15), LCM(45, 140) = 1260 (not 420). So 45 and 140 cannot be the numbers because their HCF is not 15. A student who only computes LCM = 420 but does not verify the HCF condition shows they treat the formula as a mechanical substitution without understanding that the formula is a necessary but not sufficient condition for a pair of numbers.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"HCF of two numbers is 8, LCM is 120. One number is 24. Find the other.\" The student writes: 8 × 120 = 24 × x → 960 = 24x → x = 40. Then they say the other number is 40. Is the student's answer correct? Evaluate the solution.",
+     "a": "The student's computation is correct (40), but the solution is incomplete. They must verify that HCF(24, 40) = 8 and LCM(24, 40) = 120. HCF(24,40) = 8 ✓, LCM(24,40) = 120 ✓. So the answer is valid. However, if the numbers were such that the computed number did not yield the given HCF and LCM (e.g., if HCF=6, LCM=120, one number=24 → other=30, but HCF(24,30)=6 ✓, LCM=120 ✓ — actually works), the formula alone guarantees the product but not the HCF/LCM values unless verified. A student who says \"yes, correct because formula gives 40\" without verification shows they don't understand the formula gives a candidate that must satisfy the original conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem for Class 10 students that requires using the relationship HCF × LCM = Product of two numbers, where the unknown is the LCM. The problem must involve a real-life Indian context (e.g., packing items, tiling a floor, timing of bells).",
+     "a": "Example problem: \"A school has 108 red ribbons and 144 blue ribbons for a sports day. They want to make identical packets using all ribbons, each packet containing the same number of red ribbons and the same number of blue ribbons. The greatest number of packets they can make is 36. What is the least number of total ribbons in each packet?\" \nSolution: HCF = 36 (given as greatest packets), product = 108 × 144, so LCM = (108 × 144) / 36 = 432. Each packet has 432 ribbons total (3 red + 4 blue? Wait: 108/36=3 red per packet, 144/36=4 blue per packet, total 7 per packet. But LCM of 108 and 144 is 432. Actually, the \"least number of total ribbons in each packet\" is not LCM. This is a trick! The correct problem should be: \"The HCF of two numbers is 36 and their product is 15552. Find the LCM.\" But for a word problem: \"Two bells ring at intervals of 108 seconds and 144 seconds. They ring together at 8:00 AM. The HCF of the intervals is 36. After how many seconds will they ring together again?\" Answer: LCM = (108×144)/36 = 432 seconds. A poor problem would ask for something that is not LCM or would not use the given HCF meaningfully.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

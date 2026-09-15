@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_v_cbse_05_014",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_v_cbse_05_014",
+   "title": "c12_eng_v_cbse_05_014",
+   "questions": [
+    {
+     "q": "What is the correct structure of a PEEL paragraph for a character sketch answer in the CBSE Class 12 English exam?",
+     "a": "A PEEL paragraph consists of: **P**oint (topic sentence stating a trait), **E**vidence (textual detail/quote), **E**xplanation (analysis of how evidence proves the trait), **L**ink (connecting to theme/overall character arc). A wrong answer (e.g., \"PEEL means Point, Example, Effect, Language\") reveals the student confuses the analytical framework with a generic essay mnemonic, leading to missing the crucial \"Link\" step that connects to the play's central themes — a specific CBSE marking requirement.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Derry is a sad boy because his face got burned by acid. He meets Mr Lamb in a garden. Mr Lamb has a tin leg. They talk and Derry becomes happy.\" Identify the two fundamental errors in this response for a board exam character sketch question.",
+     "a": "**Error 1:** Narrative summary instead of analytical character sketch — the response retells plot points (\"meets Mr Lamb in a garden\") rather than analysing character traits with evidence. **Error 2:** Absence of PEEL structure — no topic sentences, no explicit explanation linking evidence to traits, no thematic linkage. A wrong answer focusing only on \"missing quotes\" misses the structural issue: even with quotes, a narrative summary scores 1-2/5. Board exams reward *analysis of character*, not *story retelling*.",
+     "self_check": true
+    },
+    {
+     "q": "Write a topic sentence (Point) for a PEEL paragraph on the theme: \"Alienation arises from society's perception, not the disability itself\" using Derry as evidence.",
+     "a": "**Strong topic sentence:** \"Derry's alienation stems not from his burned face but from society's fearful perception of it, as evidenced by his withdrawal and belief that 'People are afraid of me.'\" **Steps:** 1) Identify theme (alienation source). 2) Identify character evidence (Derry). 3) Formulate arguable claim (perception vs disability). 4) Embed key textual phrase (\"People are afraid of me\"). A weak topic sentence (\"Derry feels alienated because of his face\") fails because it states the obvious, doesn't mention society's role, and isn't arguable — it leads to description, not analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two openings for a diary entry as Derry after Scene One:\nA) \"Dear Diary, Today I went into a garden and met an old man named Mr Lamb. He has a tin leg. We talked about apples and bees.\"\nB) \"Dear Diary, Today I climbed a wall into a stranger's garden — not to steal, but because I liked the silence. Mr Lamb didn't flinch at my face. He talked about weeds being flowers, and for the first time, I didn't feel like a monster.\"\nAnalyse which opening better demonstrates the \"show, don't tell\" principle and board exam criteria for diary entries.",
+     "a": "**Opening B is superior.** It demonstrates **internal voice** (thoughts/feelings: \"for the first time, I didn't feel like a monster\"), **specific textual anchoring** (\"climbed a wall\", \"weeds being flowers\" — referencing Mr Lamb's weed/flower metaphor), and **emotional arc** (from defensive \"not to steal\" to vulnerability). Opening A is a factual log — it \"tells\" events but doesn't \"show\" Derry's psyche. Board diary entries (5 marks) require: first-person voice, emotional reflection, textual fidelity, and revelation of character growth. A wrong choice (A) reveals the student treats diary writing as event-recording, not character exploration.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this assertion-reason pair for a competency question:\n**Assertion (A):** Mr Lamb's garden functions as a metaphor for an inclusive world.\n**Reason (R):** The garden has no curtains, the gate is always open, and Mr Lamb welcomes \"weeds\" alongside flowers.\nIs the Reason a correct explanation of the Assertion? Justify with two specific textual references beyond those in R.",
+     "a": "**Yes, R correctly explains A.** The garden's physical openness (no curtains, open gate) mirrors Mr Lamb's philosophical openness: \"Everything's yours if you want it. What's mine is anybody's.\" Two additional textual proofs: 1) Mr Lamb equates weeds and flowers — \"Why is one green, growing plant called a weed and another 'flower'? It's all life... growing. Same as you and me\" — directly mapping botanical inclusivity to human equality. 2) He welcomes Derry despite the boy's trespassing and defiance: \"You're welcome. I sit here. I like sitting.\" A wrong evaluation (e.g., \"R is true but doesn't explain A\") fails to see that the garden's *design* (no barriers, mixed planting) *enacts* the inclusivity metaphor — a classic board exam trap where students separate setting from symbolism.",
+     "self_check": true
+    },
+    {
+     "q": "Create an alternative ending to the play (50-60 words) where Derry arrives *before* the ladder falls, and Mr Lamb is alive. The ending must reflect Derry's internal change using one stage direction and one line of dialogue that echoes Mr Lamb's philosophy.",
+     "a": "**Sample answer:**\n[Derry enters, breathless. He sees Mr Lamb on the ladder, reaches up to steady it.]\nDerry: \"The gate's open, isn't it? And the weeds... they're just flowers waiting to be understood.\"\n[Mr Lamb smiles. They pick crab apples together.]\n**Criteria met:** Stage direction shows action (not just emotion), dialogue echoes Mr Lamb's weed/flower metaphor and open-gate philosophy, implies partnership (\"together\"), stays within word limit. A poor answer would have Derry cry or thank Mr Lamb profusely — reverting to dependency, missing the play's core: Derry *becoming* like Mr Lamb, not just being helped by him.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

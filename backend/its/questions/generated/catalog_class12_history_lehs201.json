@@ -1,0 +1,65 @@
+{
+  "catalog": "catalog_class12_history_lehs201",
+  "concepts": [
+    {
+      "id": "lehs.201.1",
+      "questions": [
+        {"q": "In which year was Al-Biruni born? (give the year)", "a": "973"},
+        {"q": "In which year was Al-Biruni taken to Ghazni? (give the year)", "a": "1017"},
+        {"q": "How old was Al-Biruni when he was brought to Ghazni in 1017? (number)", "a": "44"},
+        {"q": "Which language did Al-Biruni learn to study Indian society? (one word)", "a": "Sanskrit"},
+        {"q": "What is the title of Al-Biruni's book on India? (three words)", "a": "Kitab-ul-Hind"},
+        {"q": "In which language did Al-Biruni write the Kitab-ul-Hind? (one word)", "a": "Arabic"},
+        {"q": "Al-Biruni named two barriers to understanding India: language and what second obstacle rooted in religion? (short phrase)", "a": "religious self-centredness"}
+      ]
+    },
+    {
+      "id": "lehs.201.2",
+      "questions": [
+        {"q": "In which year was Ibn Battuta born? (give the year)", "a": "1304"},
+        {"q": "In which year did Ibn Battuta reach India? (give the year)", "a": "1333"},
+        {"q": "How old was Ibn Battuta when he arrived in India in 1333? (number)", "a": "29"},
+        {"q": "Which city's ruler appointed Ibn Battuta as qazi of Delhi? (full name, three words)", "a": "Muhammad bin Tughlaq"},
+        {"q": "Which judicial post did Ibn Battuta hold in Delhi? (one word)", "a": "qazi"},
+        {"q": "What is the title of Ibn Battuta's travel book? (one word)", "a": "Rihla"},
+        {"q": "Ibn Battuta praised which courier system of the Sultanate that ran by horse and foot runners? (one word)", "a": "postal"}
+      ]
+    },
+    {
+      "id": "lehs.201.3",
+      "questions": [
+        {"q": "In which year did Francois Bernier reach India? (give the year)", "a": "1656"},
+        {"q": "Of which European country was Bernier a native? (one word)", "a": "France"},
+        {"q": "What was Bernier's profession at the Mughal court? (one word)", "a": "physician"},
+        {"q": "Whose court did Bernier serve and describe? (two words)", "a": "Mughal court"},
+        {"q": "Bernier traced Mughal decline to the absence of what kind of rights in land? (short phrase)", "a": "private property"},
+        {"q": "What theory, later named by scholars, did Bernier's comparison of East and West give rise to? (two words)", "a": "Oriental despotism"},
+        {"q": "What is the English title of Bernier's book? (four words)", "a": "Travels in the Mughal Empire"}
+      ]
+    },
+    {
+      "id": "lehs.201.4",
+      "questions": [
+        {"q": "Which practice of widow burning did Bernier and other travellers record? (one word)", "a": "sati"},
+        {"q": "Which unfree labour system did Ibn Battuta note in slave markets of the Sultanate? (one word)", "a": "slavery"},
+        {"q": "Ibn Battuta noted which markets where unfree people were bought and sold? (two words)", "a": "slave markets"},
+        {"q": "Travellers' accounts of social practice must be read against the authors' what? (one word)", "a": "purposes"},
+        {"q": "Which traveller noted women's work in city markets: Al-Biruni, Ibn Battuta or Bernier? (two words)", "a": "Ibn Battuta"},
+        {"q": "Which traveller discussed the practice of sati in his travel writing? (one word)", "a": "Bernier"},
+        {"q": "For readers on which continent did Bernier compose his comparison of Mughal India? (one word)", "a": "Europe"}
+      ]
+    },
+    {
+      "id": "lehs.201.5",
+      "questions": [
+        {"q": "Al-Biruni was born in 973 and reached Ghazni in 1017. How many years separate birth from arrival? (number of years)", "a": "44"},
+        {"q": "Ibn Battuta was born in 1304 and landed in India in 1333. How old was he at arrival? (number)", "a": "29"},
+        {"q": "How many years passed between Al-Biruni's arrival at Ghazni (1017) and Ibn Battuta's arrival in India (1333)? (number of years)", "a": "316"},
+        {"q": "How many years passed between Ibn Battuta's arrival (1333) and Bernier's arrival (1656)? (number of years)", "a": "323"},
+        {"q": "The three famous travellers span how many centuries between the earliest arrival (1017) and the latest (1656)? (number of centuries)", "a": "6"},
+        {"q": "Bernier reached India by 1656. How many years after Al-Biruni's birth in 973 is that? (number of years)", "a": "683"},
+        {"q": "Which traveller was the oldest at arrival: Al-Biruni at 44 or Ibn Battuta at 29? (one word)", "a": "Al-Biruni"}
+      ]
+    }
+  ]
+}

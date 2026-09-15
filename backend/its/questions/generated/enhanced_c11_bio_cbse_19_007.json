@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_19_007",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_19_007",
+   "title": "c11_bio_cbse_19_007",
+   "questions": [
+    {
+     "q": "A student writes: \"Peptide hormones enter the target cell and bind to receptors on the DNA to change gene expression.\" Identify the two fundamental errors in this statement.",
+     "a": "The two errors are: (1) Peptide hormones are hydrophilic and cannot cross the phospholipid bilayer; they bind to membrane-bound receptors on the cell surface. (2) They do not bind DNA directly; they activate second messenger cascades (e.g., cAMP) that alter existing protein activity or eventually influence transcription indirectly. A wrong answer reveals the student conflates the steroid hormone pathway (intracellular receptor, direct genomic action) with the peptide hormone pathway.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a steroid hormone like cortisol can regulate the synthesis of new proteins, whereas a peptide hormone like insulin primarily regulates the activity of existing proteins (e.g., GLUT4 translocation) in the short term.",
+     "a": "Cortisol is lipophilic, diffuses across the membrane, binds an intracellular receptor, and the hormone-receptor complex acts as a transcription factor to initiate mRNA synthesis, leading to new protein production (genomic effect, slow). Insulin binds a receptor tyrosine kinase on the membrane, triggering a phosphorylation cascade that causes vesicles containing pre-existing GLUT4 transporters to fuse with the membrane (non-genomic effect, rapid). A wrong answer indicates the student does not link chemical nature (lipophilic vs hydrophilic) to receptor location and the resulting timescale of action.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher treats liver cells with glucagon (peptide hormone) and measures glycogenolysis. She then adds a membrane-permeable cAMP analog (8-Br-cAMP) to a separate dish without glucagon and observes the same glycogenolysis. Next, she pre-treats cells with a specific inhibitor of G-protein adenylate cyclase activation, then adds glucagon, and glycogenolysis is blocked. What does this experiment prove about the role of cAMP in glucagon signaling?",
+     "a": "It proves cAMP is both necessary and sufficient for glucagon-induced glycogenolysis: the analog bypasses the receptor/G-protein to activate PKA directly (sufficiency), and blocking cAMP production prevents the hormone effect (necessity). This confirms cAMP is the obligatory second messenger. A wrong answer suggests the student cannot interpret classic \"rescue\" and \"blockade\" experimental logic to establish second messenger identity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the signal amplification potential of the peptide hormone pathway (e.g., adrenaline → cAMP → PKA → phosphorylase kinase → glycogen phosphorylase) versus the steroid hormone pathway (testosterone → nuclear receptor → gene transcription → translation). Which has greater amplification per hormone molecule and why?",
+     "a": "The peptide hormone pathway has far greater amplification. One adrenaline molecule activates multiple G-proteins, each activating adenylate cyclase to produce many cAMP molecules, each activating PKA which phosphorylates many substrate enzymes — a multiplicative cascade (10^2–10^3 fold). Steroid hormones act stoichiometrically: one hormone-receptor complex regulates transcription of a limited number of gene copies, with amplification only at translation (10^1–10^2 fold). A wrong answer reveals the student misses the concept of enzymatic cascade amplification versus 1:1 receptor-gene interaction.",
+     "self_check": true
+    },
+    {
+     "q": "A patient has a mutation causing constitutive activation of the Gs alpha subunit (GTPase-deficient). Predict the effect on peptide hormone responses (e.g., glucagon, ACTH) and steroid hormone responses (e.g., cortisol, aldosterone) in this patient. Justify your prediction.",
+     "a": "Peptide hormone responses will be chronically elevated (constitutive cAMP production) even without hormone, causing symptoms like hypermetabolism, hyperglycemia. Steroid hormone responses will be normal because their pathway (intracellular receptor → gene regulation) is independent of Gs/cAMP. A wrong answer indicates the student cannot map a molecular lesion to the specific pathway it disrupts and incorrectly assumes cross-talk or universal second messenger usage.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using radioactive hormone labeling and subcellular fractionation to determine whether a newly discovered hormone X acts via a membrane receptor or an intracellular receptor. Outline the key steps and expected results for each case.",
+     "a": "Incubate target cells with radiolabeled hormone X. Fractionate cells into membrane, cytosol, and nuclear fractions. Measure radioactivity in each fraction. If hormone X is peptide: radioactivity concentrated in membrane fraction (receptor binding), not in nucleus. If hormone X is steroid: radioactivity appears in cytosol/nuclear fraction (receptor binding and translocation). Control: excess unlabeled hormone X should displace binding. A poor answer omits fractionation, controls, or misassigns expected localization.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

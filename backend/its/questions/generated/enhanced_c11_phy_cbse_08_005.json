@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_08_005",
+   "title": "c11_phy_cbse_08_005",
+   "questions": [
+    {
+     "q": "State the formula for Young's modulus in terms of force (F), original length (L), cross-sectional area (A), and extension (ΔL). Give its SI unit and dimensional formula.",
+     "a": "Y = (F × L) / (A × ΔL). SI unit: pascal (Pa) = N m⁻². Dimensional formula: [ML⁻¹T⁻²]. A wrong answer (e.g., Y = FΔL/AL or missing L) reveals the student has not connected the definitions of stress (F/A) and strain (ΔL/L) correctly, or confuses Young's modulus with spring constant k = F/ΔL which depends on geometry.",
+     "self_check": true
+    },
+    {
+     "q": "Two wires of the same material and same length but different cross-sectional areas are stretched by the same force. Which wire has a larger Young's modulus? Explain.",
+     "a": "Both wires have the same Young's modulus because Y is an intrinsic property of the material, independent of dimensions. The wire with smaller area will have larger stress and larger strain, but the ratio stress/strain remains constant. A student who says the thicker wire has larger Y is confusing stiffness (material property) with stiffness of the object (which depends on area).",
+     "self_check": true
+    },
+    {
+     "q": "A steel wire of length 2.5 m and cross-sectional area 3.0 × 10⁻⁶ m² is stretched by a force of 500 N. If Young's modulus of steel is 2.0 × 10¹¹ Pa, calculate the extension produced. Show all steps with units.",
+     "a": "Given: L = 2.5 m, A = 3.0 × 10⁻⁶ m², F = 500 N, Y = 2.0 × 10¹¹ Pa.\nFormula: ΔL = (F × L) / (A × Y)\nSubstitute: ΔL = (500 × 2.5) / (3.0 × 10⁻⁶ × 2.0 × 10¹¹) = 1250 / (6.0 × 10⁵) = 2.08 × 10⁻³ m = 2.08 mm.\nUnit check: N·m / (m²·N/m²) = m ✓. A wrong answer (e.g., forgetting to convert mm to m, or inverting the formula) reveals algebraic manipulation errors or unit inconsistency.",
+     "self_check": true
+    },
+    {
+     "q": "The stress-strain graph for two materials A and B are straight lines through the origin. The slope of A is steeper than B. Which material has a higher Young's modulus? If both are subjected to the same stress, which one elongates more? Justify.",
+     "a": "Material A has higher Young's modulus because Y = slope of stress-strain graph in the linear region. For the same stress, strain = stress/Y, so material B (lower Y) will have larger strain and hence larger elongation. A student who says A elongates more is confusing slope with strain, or thinking \"steeper means more deformation\".",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Rubber is more elastic than steel because it stretches more for the same force.\" Evaluate this statement using the concept of Young's modulus.",
+     "a": "The statement is false. Elasticity in physics means the ability to regain original shape after deformation, measured by Young's modulus. Steel has Y ≈ 2×10¹¹ Pa, rubber has Y ≈ 10⁶–10⁷ Pa. For the same stress, rubber undergoes much larger strain, meaning it is LESS elastic (less stiff). The student is using the everyday meaning of \"elastic\" (stretchable) instead of the physics definition (ratio of stress to strain).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to compare the Young's modulus of a metal wire and a nylon fishing line of similar diameter. List the measurements needed and the procedure.",
+     "a": "Clamp one end of each wire/line to a rigid support. Hang a scale pan from the free end. Measure original length L with a meter scale. Add known masses (e.g., 100 g increments) and measure extension ΔL using a pointer and scale. Plot F vs ΔL; slope = F/ΔL. Compute Y = (slope × L)/A. Cross-sectional area A = πd²/4 measured with screw gauge. Compare Y values. A poor answer omits measuring diameter, uses only one load, or ignores the linear region limit.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

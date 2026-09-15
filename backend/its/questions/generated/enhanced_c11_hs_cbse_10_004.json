@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_10_004",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_10_004",
+   "title": "c11_hs_cbse_10_004",
+   "questions": [
+    {
+     "q": "State the four functions of money as defined in the NCERT Class 11 textbook.",
+     "a": "The four functions are: (1) Medium of exchange, (2) Measure of value, (3) Standard of deferred payment, (4) Store of value. A wrong answer that lists only \"buying things\" or \"saving\" reveals the student conflates money's functions with its uses, missing the analytical distinction between exchanging, measuring, deferring, and storing.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why \"measure of value\" is essential for a family making a monthly budget.",
+     "a": "Measure of value provides a common denominator (rupees) to express the worth of diverse goods (food, rent, school fees) so they can be added, compared, and allocated within a budget. If a student says \"it helps know prices,\" they miss the critical role of a *common unit* enabling aggregation and trade-offs across categories.",
+     "self_check": true
+    },
+    {
+     "q": "A family wants to buy a car worth ₹8,00,000. They have ₹2,00,000 savings and take a loan for the rest, repaying ₹15,000/month for 5 years. Identify which function of money is used at each stage: (a) paying the down payment, (b) comparing car models, (c) signing the loan agreement, (d) keeping the ₹2,00,000 in a fixed deposit before purchase.",
+     "a": "(a) Medium of exchange – money changes hands for the car. (b) Measure of value – prices of models are compared in rupees. (c) Standard of deferred payment – loan creates a future obligation denominated in money. (d) Store of value – savings retain purchasing power until used. A wrong mapping (e.g., calling the loan \"store of value\") shows the student cannot distinguish deferred payment from storage.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a barter economy and a money economy for a farmer family that grows wheat and needs cloth, tools, and school fees. Analyze how the absence of *standard of deferred payment* specifically affects their ability to invest in a tractor.",
+     "a": "In barter, the farmer must find a tractor seller who wants wheat *now* and in the exact quantity – nearly impossible for a high-value, indivisible item. Without deferred payment, the farmer cannot promise future wheat harvests to pay gradually; they must accumulate the full barter equivalent before purchase, delaying productivity gains. A student who only says \"barter is hard\" misses the specific role of deferred payment in enabling capital investment over time.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Keeping cash at home is the best way for a family to use money's store of value function.\" Justify your answer with two arguments.",
+     "a": "The statement is flawed. (1) Cash loses purchasing power during inflation, failing as a store of value; assets like fixed deposits or gold often preserve value better. (2) Cash earns no return, whereas investing savings (e.g., PPF) grows the store of value. A student agreeing reveals they equate \"store of value\" with \"hoarding cash\" and ignore inflation and opportunity cost.",
+     "self_check": true
+    },
+    {
+     "q": "Create a short story (4-5 sentences) about a family that loses access to one function of money (choose any) due to a crisis (e.g., demonetisation, hyperinflation, bank failure). Show the concrete impact on their daily life and long-term goals.",
+     "a": "Example: \"During hyperinflation, the Sharma family's savings (store of value) became worthless within weeks. They could not pay their daughter's college fees (deferred payment failed), and daily wages bought less rice each day (measure of value distorted). They resorted to bartering furniture for food, losing years of financial progress.\" A poor answer treats the crisis generically without linking to a specific function's breakdown.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_09_007",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_09_007",
+   "title": "c11_bio_cbse_09_007",
+   "questions": [
+    {
+     "q": "Name the enzyme that catalyzes the committed step of glycolysis and state the allosteric activator and inhibitor that regulate this enzyme in mammalian liver.",
+     "a": "The committed step of glycolysis is catalyzed by phosphofructokinase-1 (PFK-1), which converts fructose-6-phosphate to fructose-1,6-bisphosphate using ATP. In mammalian liver, PFK-1 is allosterically activated by AMP and fructose-2,6-bisphosphate (F2,6BP), and inhibited by ATP and citrate. A wrong answer (e.g., naming hexokinase or pyruvate kinase) reveals confusion between the first irreversible step (hexokinase) and the committed step (PFK-1), or inability to distinguish tissue-specific regulation — liver PFK-1 responds to F2,6BP while muscle PFK-1 does not.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why glycolysis is described as having an \"energy investment phase\" and an \"energy payoff phase,\" and calculate the net ATP yield per glucose molecule when glycolysis operates under aerobic conditions in a eukaryotic cell.",
+     "a": "The investment phase (steps 1–5) consumes 2 ATP to phosphorylate glucose and fructose-6-phosphate, trapping the sugar in the cell and creating the unstable fructose-1,6-bisphosphate that can be cleaved. The payoff phase (steps 6–10) produces 4 ATP via substrate-level phosphorylation (2 at phosphoglycerate kinase, 2 at pyruvate kinase) and 2 NADH at glyceraldehyde-3-phosphate dehydrogenase. Net yield = 4 produced – 2 consumed = 2 ATP per glucose, plus 2 NADH. A wrong answer (e.g., \"4 ATP net\" or \"38 ATP\") reveals failure to distinguish gross vs net yield, or confusion between glycolysis alone and complete aerobic respiration including oxidative phosphorylation.",
+     "self_check": true
+    },
+    {
+     "q": "A patient with a genetic deficiency in pyruvate dehydrogenase complex (PDC) is given a glucose load. Predict the metabolic fate of the resulting pyruvate in liver and muscle, and explain why blood lactate rises despite oxygen being available.",
+     "a": "With PDC deficient, pyruvate cannot enter mitochondria as acetyl-CoA. In liver, pyruvate is carboxylated to oxaloacetate (via pyruvate carboxylase) for gluconeogenesis or diverted to alanine via transamination. In muscle, lacking gluconeogenic enzymes, pyruvate is reduced to lactate by lactate dehydrogenase (LDH) using NADH, regenerating NAD⁺ to keep glycolysis running. Blood lactate rises because muscle exports lactate (Cori cycle substrate) even under aerobic conditions — the \"aerobic glycolysis\" or Warburg-like effect. A wrong answer (e.g., \"pyruvate enters Krebs cycle anyway\") reveals misunderstanding that PDC is the sole gateway linking glycolysis to mitochondrial oxidation, and that LDH reaction is reversible but driven by NADH/NAD⁺ ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the carbon fate of the two carbons of acetyl-CoA in one turn of the Krebs cycle: which specific carbons are lost as CO₂, and why are the carbons lost in the first turn NOT the same carbons that entered as acetyl-CoA?",
+     "a": "In one turn, the two carbons lost as CO₂ are the carboxyl carbons of isocitrate (C1) and α-ketoglutarate (C2) — these originate from the oxaloacetate backbone, NOT from the acetyl-CoA carbons. The acetyl-CoA carbons become the two central carbons of citrate (C2 and C3 of citrate) and remain in the cycle intermediates (succinate, fumarate, malate, oxaloacetate). They are only lost in subsequent turns after the molecule undergoes symmetric rearrangements at succinate/fumarate. A wrong answer (e.g., \"the acetyl-CoA carbons are lost immediately\") reveals failure to recognize the citrate synthase reaction creates a symmetric molecule and that decarboxylations occur at the original oxaloacetate-derived carbons — a classic board exam conceptual trap.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Krebs cycle produces 2 ATP per glucose molecule.\" Is this correct? If not, provide the correct accounting and explain the source of the error.",
+     "a": "The statement is incorrect. Per glucose, two acetyl-CoA enter the Krebs cycle, so the cycle turns twice. Each turn produces 1 GTP (≈ ATP) via succinyl-CoA synthetase, so total substrate-level ATP = 2 per glucose. However, the major energy yield is 6 NADH (3 per turn) and 2 FADH₂ (1 per turn), which feed into oxidative phosphorylation to yield ~25 ATP. The error arises from counting only substrate-level phosphorylation and ignoring reduced cofactors, or from confusing \"per turn\" with \"per glucose.\" A wrong evaluation (e.g., \"correct, 2 ATP\") reveals inability to scale per-turn stoichiometry to per-glucose basis and confusion between direct ATP synthesis and electron carrier production.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using yeast suspension, glucose, and a redox indicator (e.g., methylene blue) to demonstrate that glycolysis produces NADH and that NADH must be reoxidized for glycolysis to continue. State the expected color change and its biochemical meaning.",
+     "a": "Incubate yeast in glucose solution with methylene blue (blue when oxidized, colorless when reduced). Initially blue, the solution turns colorless as glycolytic NADH reduces methylene blue via yeast dehydrogenases. If oxygen is then introduced (shake the tube), the color returns to blue as mitochondrial electron transport reoxidizes the reduced dye. If no oxygen is added, the solution stays colorless and glycolysis stops when NAD⁺ is depleted — adding acetaldehyde (which accepts electrons from NADH via alcohol dehydrogenase) restores NAD⁺ and glycolysis resumes, turning the dye colorless again. A poor design (e.g., no control, no oxygen manipulation) reveals failure to link NADH production to glycolytic continuity and the role of fermentation/regeneration in sustaining flux.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch2_3",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch2_3",
+   "title": "c8_math_ch2_3",
+   "questions": [
+    {
+     "q": "In the expression \\((-4)^3\\), what is the base and what is the exponent? Write them clearly.",
+     "a": "Base = \\(-4\\), Exponent = \\(3\\). A wrong answer (e.g., base = 4, exponent = 3) reveals the student ignores the negative sign as part of the base, a critical error when evaluating powers of negative numbers later.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \\(5^2\\) is NOT equal to \\(5 \\times 2\\). Use the definition of exponentiation in your explanation.",
+     "a": "\\(5^2\\) means \\(5 \\times 5\\) (base 5 multiplied by itself 2 times) which equals 25. \\(5 \\times 2\\) means 5 added to itself 2 times which equals 10. The exponent indicates the number of factors, not a multiplier. A wrong answer shows the student views the exponent as a multiplicative factor rather than a repetition counter.",
+     "self_check": true
+    },
+    {
+     "q": "Write \\(7 \\times 7 \\times 7 \\times 7 \\times 7 \\times 7\\) in exponential form and evaluate it.",
+     "a": "Exponential form: \\(7^6\\). Evaluation: \\(7^2=49\\), \\(7^3=343\\), \\(7^4=2401\\), \\(7^5=16807\\), \\(7^6=117649\\). A wrong exponential form (e.g., \\(6^7\\)) reveals confusion between base and exponent. An incorrect evaluation suggests the student multiplies base by exponent (\\(7 \\times 6 = 42\\)) or loses track of repeated multiplication steps.",
+     "self_check": true
+    },
+    {
+     "q": "Compare \\(3^4\\) and \\(4^3\\). Which is larger? Without calculating the full values, explain how you can tell by analysing the structure of the repeated multiplication.",
+     "a": "\\(3^4 = 3 \\times 3 \\times 3 \\times 3 = 81\\). \\(4^3 = 4 \\times 4 \\times 4 = 64\\). So \\(3^4 > 4^3\\). Analysing structure: \\(3^4\\) has four factors of 3, \\(4^3\\) has three factors of 4. The extra factor of 3 in \\(3^4\\) outweighs the larger base of 4 in \\(4^3\\). A wrong answer (e.g., \\(4^3\\) larger because 4>3) shows the student compares bases only, ignoring the exponent's role.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \\((-2)^4 = -16\\). Is this correct? If not, identify the error and give the correct value.",
+     "a": "Incorrect. \\((-2)^4 = (-2) \\times (-2) \\times (-2) \\times (-2) = 4 \\times 4 = 16\\). The student likely computed \\(- (2^4) = -16\\), treating the negative sign as separate from the base. The error is not including the negative sign inside the base for the repeated multiplication. Correct value is 16.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life situation (in an Indian context) that can be modelled by \\(3^5\\). Describe the situation and write the exponential expression with base and exponent identified.",
+     "a": "Example: A WhatsApp forward is sent to 3 friends. Each of them forwards it to 3 new friends, and this continues for 5 rounds. The number of people who receive it in the 5th round is \\(3^5\\). Base = 3 (each person sends to 3), Exponent = 5 (rounds). A poor answer uses addition instead of multiplication (e.g., \"3 people each round for 5 rounds = 15\") showing lack of understanding of multiplicative growth.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_09_008",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_09_008",
+   "title": "c12_bs_cbse_09_008",
+   "questions": [
+    {
+     "q": "Define capital structure and state the two standard quantitative measures used to express it.",
+     "a": "Capital structure is the proportion of owners' funds (equity) and borrowed funds (debt) in a company's total capital. The two standard measures are: (1) Debt-Equity Ratio = Debt/Equity, and (2) Debt to Total Capital Ratio = Debt/(Debt+Equity). A wrong answer (e.g., \"capital structure means only debt\" or \"it's the same as working capital\") reveals confusion between capital structure (long-term financing mix) and working capital (short-term assets minus liabilities), or inability to distinguish between the two ratio forms.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why debt is considered cheaper than equity for a company, and why increased use of debt does not indefinitely lower the overall cost of capital.",
+     "a": "Debt is cheaper because: (a) lenders face lower risk (assured interest and principal repayment), so they accept a lower return; (b) interest is tax-deductible, reducing the after-tax cost of debt (e.g., 10% pre-tax becomes 7% post-tax at 30% tax rate). However, beyond a point, higher debt increases financial risk, causing equity holders to demand a higher return (cost of equity rises sharply), which can offset the benefit of cheap debt and even reduce share price despite higher EPS. A wrong answer that says \"debt is always cheaper so use maximum debt\" misses the trade-off and the concept of optimal capital structure.",
+     "self_check": true
+    },
+    {
+     "q": "Company P Ltd. has total capital of ₹40 lakh (₹25 lakh equity, ₹15 lakh debt at 12% interest). EBIT is ₹8 lakh, tax rate 30%. Calculate EPS for the current structure. If the company replaces ₹5 lakh equity with additional debt at same rate, what is the new EPS? Assume face value ₹10 per share. Is trading on equity favourable?",
+     "a": "Step 1: Current structure — Equity = ₹25 lakh → 2.5 lakh shares; Debt = ₹15 lakh; Interest = ₹1.8 lakh. EBT = ₹8L - ₹1.8L = ₹6.2L; Tax = ₹1.86L; EAT = ₹4.34L; EPS = ₹4.34L/2.5L = ₹1.736. Step 2: New structure — Equity = ₹20 lakh → 2 lakh shares; Debt = ₹20 lakh; Interest = ₹2.4 lakh. EBT = ₹8L - ₹2.4L = ₹5.6L; Tax = ₹1.68L; EAT = ₹3.92L; EPS = ₹3.92L/2L = ₹1.96. Step 3: RoI = EBIT/Total Capital = 8/40 × 100 = 20%. Cost of debt = 12%. Since RoI (20%) > Cost of debt (12%), trading on equity is favourable — EPS rises from ₹1.736 to ₹1.96. A wrong answer that only calculates one EPS or ignores the RoI comparison shows inability to apply the trading on equity test.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast Interest Coverage Ratio (ICR) and Debt Service Coverage Ratio (DSCR) as measures of debt capacity. Why is DSCR considered more comprehensive?",
+     "a": "ICR = EBIT/Interest — measures only the ability to pay interest from operating earnings. DSCR = (PAT + Depreciation + Interest + Non-cash expenses) / (Preference Dividend + Interest + Principal Repayment) — measures ability to meet ALL cash debt obligations (interest + principal) from cash profits. DSCR is more comprehensive because: (1) it includes principal repayment, not just interest; (2) it uses cash profits (adding back non-cash charges like depreciation), addressing the flaw that high EBIT may not mean high cash; (3) it includes preference dividend as a fixed charge. A student who says \"ICR and DSCR are the same\" or \"DSCR only adds depreciation\" misses the critical inclusion of principal repayment and the cash-flow focus.",
+     "self_check": true
+    },
+    {
+     "q": "A company in a highly volatile industry (e.g., fashion retail) wants to raise ₹100 crore for expansion. The CFO proposes 70% debt because \"interest is tax-deductible and debt is cheaper.\" Evaluate this proposal using at least 4 relevant factors from the NCERT list.",
+     "a": "The proposal is flawed. Factor 1: Risk Consideration (Business Risk) — volatile industry means high business risk (unstable EBIT); adding high financial risk (70% debt) makes total risk excessive. Factor 2: Cash Flow Position — unpredictable cash flows may not cover fixed interest + principal obligations. Factor 3: Flexibility — using 70% debt exhausts borrowing capacity, leaving no room for unforeseen needs. Factor 4: Interest Coverage Ratio / DSCR — likely to be low/volatile in bad years, increasing default risk. Better: lower debt (e.g., 30-40%), rely more on equity. A student who agrees with the CFO because \"debt is cheaper\" ignores the risk-return trade-off and the industry-specific nature of capital structure.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini case study (3-4 sentences) where a company's RoI is exactly equal to its cost of debt. Explain what happens to EPS as debt increases in this boundary case, and why.",
+     "a": "Case: Company Z has total capital ₹50 lakh, EBIT ₹5 lakh (RoI = 10%), debt cost = 10%, tax rate 30%. Situation A: No debt, equity ₹50 lakh (5 lakh shares). Interest=0, EBT=₹5L, Tax=₹1.5L, EAT=₹3.5L, EPS=₹0.70. Situation B: Debt ₹20 lakh, equity ₹30 lakh (3 lakh shares). Interest=₹2L, EBT=₹3L, Tax=₹0.9L, EAT=₹2.1L, EPS=₹0.70. EPS remains constant because the tax shield on interest (₹2L × 30% = ₹0.6L) exactly offsets the loss of earnings on the replaced equity. At RoI = Cost of debt, trading on equity is neutral — EPS unchanged regardless of leverage. A good answer shows the calculation and explains the offsetting effects. A poor answer claims EPS rises or falls without proof.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

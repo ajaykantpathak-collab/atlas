@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch3_2",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch3_2",
+   "title": "c9_math_ch3_2",
+   "questions": [
+    {
+     "q": "State the additive inverse of $-17$ and explain what happens when you add an integer to its additive inverse.",
+     "a": "The additive inverse of $-17$ is $17$. When an integer is added to its additive inverse, the sum is always zero ($-17 + 17 = 0$). A wrong answer (e.g., saying the inverse is $-17$ or that the sum is $-34$) reveals the student confuses \"additive inverse\" with \"absolute value\" or does not understand that the inverse must have the opposite sign to cancel out to zero.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the product of two negative integers, say $(-4) \\times (-3)$, have to be positive $12$? Use the distributive property $a \\times (b + c) = a \\times b + a \\times c$ to justify your answer.",
+     "a": "Consider $(-4) \\times (3 + (-3)) = (-4) \\times 0 = 0$. By distributivity, $(-4) \\times 3 + (-4) \\times (-3) = 0$. We know $(-4) \\times 3 = -12$. So $-12 + (-4) \\times (-3) = 0$, which forces $(-4) \\times (-3) = 12$. A wrong answer (e.g., \"it's just a rule\" or giving $-12$) reveals the student has memorised the sign rule without understanding its algebraic necessity; they cannot connect the rule to the structure of the number system.",
+     "self_check": true
+    },
+    {
+     "q": "A submarine is at $-250$ metres (below sea level). It ascends $120$ metres, then descends $80$ metres, and finally ascends $50$ metres. What is its final position relative to sea level? Show each step on a number line.",
+     "a": "Start: $-250$. Ascend $120 \\rightarrow -250 + 120 = -130$. Descend $80 \\rightarrow -130 - 80 = -210$. Ascend $50 \\rightarrow -210 + 50 = -160$. Final position: $-160$ metres (160 m below sea level). A wrong answer (e.g., $-130 - 80 = -50$ or $-210 + 50 = -260$) reveals the student struggles with signed addition/subtraction: they either subtract absolute values incorrectly when signs differ or mishandle the direction of \"descend\" as adding a negative versus subtracting a positive.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two expressions: $A = (-5) \\times (-2) \\times (-3)$ and $B = (-5) \\times [(-2) \\times (-3)]$. Are they equal? Does the associative property hold for multiplication of integers? Explain your reasoning.",
+     "a": "Yes, they are equal. $A = [(-5) \\times (-2)] \\times (-3) = 10 \\times (-3) = -30$. $B = (-5) \\times [(-2) \\times (-3)] = (-5) \\times 6 = -30$. The associative property holds for integer multiplication because it holds for whole numbers and the sign rules are consistent. A wrong answer (e.g., claiming they differ because \"brackets change the sign\") reveals the student thinks the associative property might break with negatives, indicating they view sign rules as arbitrary exceptions rather than structural extensions.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved $(-36) \\div (-4)$ as follows: \"Both are negative, so the answer is negative. $36 \\div 4 = 9$, so the answer is $-9$.\" Evaluate this solution. Is it correct? If not, identify the exact error and give the correct answer.",
+     "a": "The solution is incorrect. The error is in the sign rule: the quotient of two negative integers is **positive**, not negative. Correct working: $(-36) \\div (-4) = 9$ because $(-4) \\times 9 = -36$. A wrong evaluation (e.g., saying the student is correct) reveals the student has confused the multiplication/division sign rule with the addition rule (where negative + negative = negative) or has memorised \"same signs give positive\" only for multiplication but not division.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life word problem (Indian context) that requires the use of **both** addition and multiplication of negative integers to solve. The problem must have a realistic scenario (e.g., banking, temperature, elevation) and the final answer must be a negative integer.",
+     "a": "Example: \"Ravi's bank account has ₹$-500$ (overdraft). He withdraws ₹$200$ three times in a week. Then he deposits ₹$100$. What is his final balance?\" Solution: Start $-500$. Withdrawals: $3 \\times (-200) = -600$. Balance: $-500 + (-600) = -1100$. Deposit: $-1100 + 100 = -1000$. Final answer: $-1000$. A poor answer (e.g., a problem that only uses addition, or yields a positive answer, or uses unrealistic numbers) reveals the student cannot synthesise operations or connect the sign rules to a coherent real-world model.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

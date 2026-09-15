@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch9_4",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch9_4",
+   "title": "c8_physics_ch9_4",
+   "questions": [
+    {
+     "q": "State the approximate percentage of oxygen and carbon dioxide in dry air by volume, and name the two major biological processes that cycle these gases between organisms and the atmosphere.",
+     "a": "Oxygen ≈ 21%, carbon dioxide ≈ 0.04% (400 ppm). The two processes are photosynthesis (plants take in CO₂, release O₂) and aerobic respiration (animals and plants take in O₂, release CO₂). A wrong answer (e.g., swapping percentages or naming combustion instead of respiration) reveals the student has memorised composition without linking it to the biological cycle.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a sealed glass jar containing only a mouse and no plants will eventually kill the mouse, whereas a jar with both a mouse and a healthy plant can sustain both for a longer time. Use the terms oxygen, carbon dioxide, respiration, and photosynthesis in your answer.",
+     "a": "The mouse respires continuously, consuming O₂ and producing CO₂. Without a plant, O₂ depletes and CO₂ accumulates to toxic levels. With a plant, photosynthesis uses the mouse's CO₂ and replenishes O₂ during daylight, creating a partial cycle. A wrong answer that claims the plant \"creates oxygen from nothing\" or ignores the light requirement for photosynthesis shows misunderstanding of the energy source and gas-exchange coupling.",
+     "self_check": true
+    },
+    {
+     "q": "A classroom of volume 180 m³ has air with 21% oxygen by volume. If 30 students each inhale 0.5 L of oxygen per minute, how many minutes will it take for the oxygen volume to drop by 1% (i.e., from 21% to 20%) assuming no ventilation or photosynthesis? Show all steps with units.",
+     "a": "Step 1: Total air volume = 180 m³ = 180,000 L.  \nStep 2: Initial O₂ volume = 21% of 180,000 L = 37,800 L.  \nStep 3: 1% drop in O₂ concentration = 1% of 180,000 L = 1,800 L of O₂ to be consumed.  \nStep 4: Total O₂ consumption rate = 30 students × 0.5 L/min = 15 L/min.  \nStep 5: Time = 1,800 L ÷ 15 L/min = 120 minutes.  \nAnswer: 120 minutes (2 hours). A wrong answer often forgets to convert m³ to L or uses 1% of the O₂ volume instead of 1% of total air volume, revealing confusion between percentage-point change and relative change.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of carbon dioxide in (a) the greenhouse effect and (b) ocean acidification. Why is the same gas responsible for both warming the planet and threatening marine life?",
+     "a": "(a) CO₂ absorbs outgoing infrared radiation, trapping heat → greenhouse warming. (b) CO₂ dissolves in seawater forming carbonic acid (H₂CO₃), lowering pH → ocean acidification. Both stem from CO₂'s molecular property: it is a linear molecule with vibrational modes that absorb IR, and it reacts with water to form a weak acid. A wrong answer that treats these as unrelated phenomena misses the unified chemical-physical nature of CO₂.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If we plant enough trees, we can completely stop global warming because trees remove CO₂ from the air.\" Evaluate this statement. Is it fully correct, partially correct, or incorrect? Justify your judgment with two scientific reasons.",
+     "a": "Partially correct. Reason 1: Trees do sequester CO₂ via photosynthesis, reducing atmospheric concentration. Reason 2: However, (i) mature forests reach carbon saturation and release CO₂ via decomposition/respiration, and (ii) the scale of current fossil-fuel emissions far exceeds the land area available for new forests. A wrong evaluation that says \"fully correct\" ignores carbon cycle limits; \"incorrect\" ignores the real mitigation potential of reforestation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple school-lab investigation to demonstrate that exhaled air has higher CO₂ concentration than inhaled air. List materials, procedure (3-4 steps), the indicator you would use, and the expected observation.",
+     "a": "Materials: Two test tubes, lime water (calcium hydroxide solution), straws, inhaled air (ambient), exhaled air (blown through straw). Procedure: (1) Fill both tubes with equal amounts of lime water. (2) Bubble ambient air through tube A for 30 seconds using a pump. (3) Bubble exhaled air through tube B for 30 seconds using a straw. (4) Compare cloudiness. Indicator: Lime water turns milky due to CaCO₃ precipitate when CO₂ is present. Expected: Tube B turns milky faster/more intensely than tube A. A poor design omits a control (tube A) or uses an indicator that doesn't respond to CO₂ (e.g., litmus), showing lack of experimental control understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

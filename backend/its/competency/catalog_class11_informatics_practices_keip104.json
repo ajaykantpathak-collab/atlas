@@ -1,0 +1,403 @@
+{
+ "class": 11,
+ "subject": "informatics_practices",
+ "chapter": 4,
+ "chapter_title": "Working with Lists and Dictionaries",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keip104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "keip104.1",
+   "title": "List Indexing Positive and Negative",
+   "section": "4.1.1",
+   "definition": "Every element of a list sits at a numbered position called an index, counted from 0 at the front. Python also counts backwards: index -1 reaches the last element, -2 the one before it, and so on, so the same element has a positive and a negative address differing by the list length.",
+   "formula": "neg_index = last_index - element_count",
+   "key_idea": "The last element lives at count minus one going forward, and at minus one going backward; an index past either end raises IndexError.",
+   "textbook_ref": "keip104.txt section 4.1.1 (lines 67-106)",
+   "question_patterns": [
+    "what index does the last element of a 6-element list have",
+    "what negative index refers to the first element of a list",
+    "for list1 = [2,4,6,8,10,12], what do list1[3] and list1[-1] return",
+    "why does list1[15] on a six-element list produce an IndexError",
+    "write an expression using len() to fetch the last element of any list",
+    "how is list1[n-1] different from list1[-n] for length n"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "locate the last forward index",
+     "explain": "indices run 0 to count-1, so subtract one from the element count",
+     "compute": "last_index = element_count - 1"
+    },
+    {
+     "step": 2,
+     "action": "convert to the backward index",
+     "explain": "the backward address equals the forward address shifted by the full count",
+     "compute": "neg_index = last_index - element_count"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What is the index of the first element of a list?",
+     "a": "0"
+    }
+   ]
+  },
+  {
+   "id": "keip104.2",
+   "title": "List Slicing With a Step Value",
+   "section": "4.2.4",
+   "definition": "Slicing copies a stretch of a list as list1[start:stop:step], where the stop position is excluded. A missing start means the beginning, a missing stop means the end, and a step greater than one skips elements; a negative step even walks the list backwards.",
+   "formula": "slice_count = (span + step_value - 1) // step_value",
+   "key_idea": "Count the picked elements by rounding the span upward against the step; stop is never included.",
+   "textbook_ref": "keip104.txt section 4.2.4 Slicing (lines 189-232)",
+   "question_patterns": [
+    "what does list1[0:6:2] return for the seven-colour list of the chapter",
+    "how many elements does the slice list1[2:6] contain",
+    "why does list1[7:2] give an empty list",
+    "what does list1[::-1] produce for a list",
+    "state the output of list1[:5] when the list has seven colours",
+    "how does a negative step change the direction of slicing"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "measure the width of the cut",
+     "explain": "the span is the stop position minus the start position",
+     "compute": "span = stop_index - start_index"
+    },
+    {
+     "step": 2,
+     "action": "round the span up against the step",
+     "explain": "dividing the span by the step and rounding upward counts how many elements survive the cut",
+     "compute": "slice_count = (span + step_value - 1) // step_value"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many elements does the slice list1[1:4] copy?",
+     "a": "3"
+    }
+   ]
+  },
+  {
+   "id": "keip104.3",
+   "title": "Concatenation and Repetition Operators",
+   "section": "4.2.1",
+   "definition": "The + operator glues two lists end to end into a fresh list without touching the originals, and it refuses to mix a list with a non-list operand (TypeError). The * operator repeats a whole list a whole number of times, so a joined list repeated three times grows to triple its length.",
+   "formula": "repeated_len = joined_len * repeat_count",
+   "key_idea": "Joining adds the two lengths; repetition multiplies the length by the repeat factor; originals stay unchanged.",
+   "textbook_ref": "keip104.txt sections 4.2.1-4.2.2 (lines 119-172)",
+   "question_patterns": [
+    "join [1,3,5,7,9] and [2,4,6,8,10] with + and state the result",
+    "how many elements does (list1 + list2) contain if list1 has 5 and list2 has 5 elements",
+    "what does ['Hello'] * 4 produce",
+    "why does list1 + str1 raise a TypeError",
+    "after newlist = list1 + list2, have list1 or list2 changed",
+    "compute the length of (list1 + list2) * 2 for two 5-element lists"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the two lengths",
+     "explain": "concatenation lines the second list up behind the first, so lengths simply add",
+     "compute": "joined_len = first_len + second_len"
+    },
+    {
+     "step": 2,
+     "action": "scale by the repeat factor",
+     "explain": "repetition copies the joined list, multiplying its length by the repeat count",
+     "compute": "repeated_len = joined_len * repeat_count"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A 3-element list is repeated 3 times with the * operator. How many elements result?",
+     "a": "9"
+    }
+   ]
+  },
+  {
+   "id": "keip104.4",
+   "title": "Built-in Functions on Lists: sum, min, max",
+   "section": "4.4",
+   "definition": "Python ships ready-made helpers for numeric lists: sum() totals the elements, min() and max() report the smallest and largest, and dividing the total by the element count gives the mean. These functions read the list but never alter it.",
+   "formula": "class_average = marks_total / student_count",
+   "key_idea": "Total the marks, then divide by how many students there are; the smallest and largest come straight from min and max.",
+   "textbook_ref": "keip104.txt Table 4.1 min/max/sum rows and Program 4-2 (lines 422-436, 585-623)",
+   "question_patterns": [
+    "find the average marks of 5 students whose marks are 45, 89, 79, 76 and 55",
+    "for list1 = [34,12,63,39,92,44], state min(list1), max(list1) and sum(list1)",
+    "write a program to compute the average of n marks stored in a list",
+    "how do sum() and len() together give the mean of a list",
+    "which built-in returns the largest element of a list without sorting it",
+    "a list holds the marks 56, 98, 99, 72, 69; find the highest and the total"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "total all the marks",
+     "explain": "sum() adds every element of the list in one go",
+     "compute": "marks_total = sum((mark_one, mark_two, mark_three, mark_four, mark_five))"
+    },
+    {
+     "step": 2,
+     "action": "divide by the number of students",
+     "explain": "the mean is the total shared equally among the count of entries",
+     "compute": "class_average = marks_total / student_count"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "For marks [70, 80, 90], what does sum() return?",
+     "a": "240"
+    }
+   ]
+  },
+  {
+   "id": "keip104.5",
+   "title": "List Methods: append, extend, insert",
+   "section": "4.4",
+   "definition": "Growing methods differ in what counts as one addition: append() puts a single item at the end, even if that item is itself a whole list nested as one element; extend() unpacks its argument and appends each element separately; insert(pos, item) slots an item at a chosen position and pushes the rest sideways.",
+   "formula": "extended_len = base_count + incoming_count",
+   "key_idea": "append grows the list by exactly one no matter what it adds, extend grows it by the argument's length.",
+   "textbook_ref": "keip104.txt Table 4.1 append/extend/insert rows and Exercise Q2 (lines 300-331, 1067-1074)",
+   "question_patterns": [
+    "differentiate between append() and extend() with the list [10,20,30,40]",
+    "what are the elements of myList after myList.append([50,60])",
+    "what are the elements of myList after myList.extend([80,90])",
+    "after list1.insert(2,25) on [10,20,30,40,50], state the resulting list",
+    "how many elements does a 4-element list have after appending a 2-element list as one item",
+    "which method places an element at a chosen index rather than at the end"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "grow by one for append",
+     "explain": "append adds exactly one item, even a nested list, so the count rises by 1",
+     "compute": "appended_len = base_count + 1"
+    },
+    {
+     "step": 2,
+     "action": "grow by the argument size for extend",
+     "explain": "extend unpacks the incoming list, adding as many elements as it holds",
+     "compute": "extended_len = base_count + incoming_count"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "list1 = [1, 2, 3]. After list1.append([4, 5]), how many elements does list1 hold?",
+     "a": "4"
+    }
+   ]
+  },
+  {
+   "id": "keip104.6",
+   "title": "Traversing a List with a Loop",
+   "section": "4.3",
+   "definition": "Walking through a list one element at a time is called traversal. A for loop can visit the elements directly, or pair range() with len() to visit them by position; a while loop does the same with a manual counter that must be advanced each round.",
+   "formula": "visited_elements = range_len_mapping",
+   "key_idea": "for item in list1 gives values, while range(len(list1)) gives positions you can also overwrite.",
+   "textbook_ref": "keip104.txt section 4.3 (lines 233-269)",
+   "question_patterns": [
+    "write a for loop to print each element of list1",
+    "why is range(len(list1)) used to traverse a list by index",
+    "what does the loop for i in range(0,len(myList)) with a check on i%2 print for the list 1 to 10",
+    "how does a while loop traverse a list differently from a for loop",
+    "which two built-ins combine to generate the index sequence of a list",
+    "print only the odd-position values of a list using traversal"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "pick the direct or index style",
+     "explain": "for item in list1 yields values; for i in range(len(list1)) yields positions"
+    },
+    {
+     "step": 2,
+     "action": "apply any test inside the loop body",
+     "explain": "an if inside the loop filters, for example keeping only even indices"
+    },
+    {
+     "step": 3,
+     "action": "confirm the loop ends when elements run out",
+     "explain": "the for loop stops automatically once every element has been visited"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which loop form visits list elements by position: range(len(list1)) or for item in list1?",
+     "a": "range(len(list1))"
+    }
+   ]
+  },
+  {
+   "id": "keip104.7",
+   "title": "Dictionary Keys, Values and Membership",
+   "section": "4.6",
+   "definition": "A dictionary stores items as key-value pairs inside curly braces, each key joined to its value by a colon. Keys must be unique and immutable and work like labels; a missing key raises KeyError, while the in operator checks whether a key exists without fetching anything.",
+   "formula": "key_lookup_result = value_for_that_key",
+   "key_idea": "Keys are looked up, not positions: the same key always maps to the same value wherever the item sits.",
+   "textbook_ref": "keip104.txt sections 4.6-4.6.3 (lines 668-733)",
+   "question_patterns": [
+    "for stateCapital = {'Assam':'Guwahati','Bihar':'Patna'}, what does stateCapital['Bihar'] return",
+    "what happens when an absent key such as 'Shyam' is looked up in a dictionary",
+    "how does the in operator behave on a dictionary",
+    "state two rules that keys of a dictionary must follow",
+    "retrieve the percentage 89 stored for key 'Ram' in the marks dictionary",
+    "how is dictionary access different from list indexing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the key being asked",
+     "explain": "dictionary items are reached by key in square brackets, never by position"
+    },
+    {
+     "step": 2,
+     "action": "check the key exists",
+     "explain": "an existing key returns its value; an unknown key raises KeyError, or get() returns None"
+    },
+    {
+     "step": 3,
+     "action": "use membership for a safe test",
+     "explain": "key in dict answers True or False before any lookup is attempted"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Fetching a missing key directly raises which error?",
+     "a": "KeyError"
+    }
+   ]
+  },
+  {
+   "id": "keip104.8",
+   "title": "Dictionary Methods: len, update, del",
+   "section": "4.8",
+   "definition": "Dictionary upkeep uses len() to count pairs, update() to merge another dictionary's pairs in, get() to fetch a value or None for a missing key, and del to remove one pair by key or the whole dictionary from memory. Merging first and deleting later leaves a size that can be tracked arithmetically.",
+   "formula": "after_delete = after_update - removed_pairs",
+   "key_idea": "Each merged pair raises the pair count by one; each deleted key lowers it by one; len() always reports the current total.",
+   "textbook_ref": "keip104.txt Table 4.2 and section 4.9 (lines 782-927)",
+   "question_patterns": [
+    "after dict1.update({'Sohan':79,'Geeta':89}) on a 4-pair dictionary, what does len(dict1) return",
+    "what remains after del ODD[9] on the ODD dictionary of the chapter",
+    "which method returns None instead of an error for a missing key",
+    "what is the difference between dict1.clear() and del dict1",
+    "state the output of len(stateCapital) for the four-state dictionary",
+    "how do keys() and values() differ from items()"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "merge the new pairs in",
+     "explain": "update() appends each incoming key-value pair, so the pair count grows by the incoming number",
+     "compute": "after_update = base_pairs + new_pairs"
+    },
+    {
+     "step": 2,
+     "action": "delete the unwanted pair",
+     "explain": "each del of one key removes exactly one pair from the total",
+     "compute": "after_delete = after_update - removed_pairs"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which dictionary method merges another dictionary's pairs in?",
+     "a": "update()"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "keip104.txt Program 4-2 (average marks)",
+   "concept": "keip104.4",
+   "question_type": "numeric",
+   "question_pattern": "Five students scored 45, 89, 79, 76 and 55 marks. Compute the average marks.",
+   "extracted_variables": {
+    "mark_one": 45,
+    "mark_two": 89,
+    "mark_three": 79,
+    "mark_four": 76,
+    "mark_five": 55,
+    "student_count": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "total the marks",
+     "explain": "45 + 89 + 79 + 76 + 55 = 344",
+     "compute": "marks_total = sum((mark_one, mark_two, mark_three, mark_four, mark_five))"
+    },
+    {
+     "step": 2,
+     "action": "divide by the student count",
+     "explain": "344 / 5 = 68.8, matching the program output",
+     "compute": "class_average = marks_total / student_count"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "keip104.txt section 4.2.4 slicing example list1[0:6:2]",
+   "concept": "keip104.2",
+   "question_type": "numeric",
+   "question_pattern": "For the seven-colour list, how many elements does the slice list1[0:6:2] pick?",
+   "extracted_variables": {
+    "start_index": 0,
+    "stop_index": 6,
+    "step_value": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "measure the cut width",
+     "explain": "span = 6 - 0 = 6 positions from index 0 up to but excluding 6",
+     "compute": "span = stop_index - start_index"
+    },
+    {
+     "step": 2,
+     "action": "count the stepped picks",
+     "explain": "(6 + 2 - 1) // 2 = 3, giving Red, Blue, Magenta",
+     "compute": "slice_count = (span + step_value - 1) // step_value"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-practice-1",
+   "source_ref": "keip104.txt Exercise Q1, Q2, Q3, Q4",
+   "questions": [
+    "For list1 = [12,32,65,26,80,10], what does list1.sort() followed by print give? ([10, 12, 26, 32, 65, 80])",
+    "For the same list, does sorted(list1) change list1 itself? (no, print shows the original order)",
+    "What does list1[len(list1)-1] return for [1,2,3,4,5]? (5)",
+    "Starting from myList = [10,20,30,40], what results from myList.append([50,60])? ([10, 20, 30, 40, [50, 60]])",
+    "Starting from myList = [10,20,30,40], what results from myList.extend([80,90])? ([10, 20, 30, 40, 80, 90])",
+    "For myList = [1..10], what does del myList[3:] leave? ([1, 2, 3])"
+   ]
+  },
+  {
+   "id": "ex-practice-2",
+   "source_ref": "keip104.txt Exercise Q8 (stateCapital dictionary)",
+   "questions": [
+    "For stateCapital = {'Assam':'Guwahati','Bihar':'Patna','Maharashtra':'Mumbai','Rajasthan':'Jaipur'}, what does stateCapital.get('Bihar') print? (Patna)",
+    "What does len(stateCapital) return? (4)",
+    "What does 'Maharashtra' in stateCapital evaluate to? (True)",
+    "What does stateCapital.get('Assam') return? (Guwahati)",
+    "After del stateCapital['Assam'], how many pairs remain? (3)",
+    "In the ODD dictionary {1:'One',3:'Three',5:'Five',7:'Seven',9:'Nine'}, what do ODD.get(9) and len(ODD) give? (Nine and 5)"
+   ]
+  }
+ ]
+}

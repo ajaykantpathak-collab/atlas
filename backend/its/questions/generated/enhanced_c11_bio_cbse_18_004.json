@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_18_004",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_18_004",
+   "title": "c11_bio_cbse_18_004",
+   "questions": [
+    {
+     "q": "Name the three meningeal layers surrounding the brain from outermost to innermost, and state which layer is in direct contact with the brain tissue.",
+     "a": "The three meningeal layers from outermost to innermost are: dura mater (outermost, tough fibrous layer), arachnoid (middle, thin web-like layer), and pia mater (innermost, delicate layer closely apposed to the brain surface). The pia mater is in direct contact with the brain tissue. A wrong answer (e.g., reversing the order or naming \"arachnoid\" as the innermost) reveals that the student has memorized the names but not their spatial arrangement, which is critical for understanding conditions like subdural vs. subarachnoid hemorrhage.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The thalamus and hypothalamus are both part of the forebrain and both relay sensory information to the cerebrum.\" Explain why this statement is partially incorrect.",
+     "a": "The thalamus is the major relay centre for almost all sensory (except olfactory) and motor signals to the cerebral cortex. The hypothalamus, however, primarily regulates homeostasis (temperature, hunger, thirst, circadian rhythms) and controls the pituitary gland via neurosecretory cells; it does not serve as a general sensory relay to the cerebrum. If a student agrees with the claim, they are conflating the two structures due to their similar names and proximity, missing the hypothalamus’s unique endocrine and autonomic roles.",
+     "self_check": true
+    },
+    {
+     "q": "During a cricket match, a fielder catches a high-speed ball. The visual stimulus travels from the retina to the brain. Trace the pathway of this visual impulse up to the primary visual cortex, naming the specific thalamic nucleus involved.",
+     "a": "Step 1: Photoreceptors in the retina convert light into nerve impulses. Step 2: Impulses travel via the optic nerve (CN II) to the optic chiasma, where nasal fibres cross. Step 3: Optic tract carries impulses to the lateral geniculate body (LGB) of the thalamus — the specific thalamic nucleus for vision. Step 4: From LGB, optic radiations project to the primary visual cortex in the occipital lobe of the cerebrum. A wrong answer that omits the thalamus or names the medial geniculate body (auditory) shows the student hasn't grasped the thalamus as a sensory-specific relay station.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of the cerebellum and the basal ganglia (part of the cerebral hemispheres' deep grey matter) in motor control. How does damage to each produce distinct clinical signs?",
+     "a": "The cerebellum compares intended movement (from motor cortex) with actual movement (via proprioceptive feedback) and corrects errors in timing, force, and coordination — damage causes ataxia, intention tremor, and dysmetria. The basal ganglia (caudate, putamen, globus pallidus) initiate and scale voluntary movements, suppress unwanted movements, and regulate muscle tone — damage causes rigidity, bradykinesia, or involuntary movements (chorea, athetosis). A student who says both \"control movement\" without distinguishing coordination vs. initiation/suppression fails to analyze the hierarchical organization of motor control.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher proposes: \"Since the limbic system includes the hippocampus and amygdala, and the hypothalamus controls hunger, we can cure obesity by electrically stimulating the amygdala to suppress appetite.\" Evaluate this proposal.",
+     "a": "The proposal is flawed. The amygdala processes fear and emotional valence, not satiety; stimulating it may cause anxiety or aggression, not reduced hunger. Satiety centres are in the hypothalamus (ventromedial nucleus), while feeding centres are in the lateral hypothalamus. The limbic system modulates motivated behaviour but does not directly replace hypothalamic homeostatic control. A student who accepts the proposal confuses emotional processing with homeostatic regulation and ignores the specific nuclear organization of the hypothalamus.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration (using only a diagram and coloured pens) to show how the corpus callosum enables inter-hemispheric transfer of sensory information, and predict what a split-brain patient would experience if an object is placed in their left hand (out of sight).",
+     "a": "Draw a sagittal brain diagram. Colour the left visual field pathway to right occipital cortex, and the right somatosensory pathway (left hand) to right parietal cortex. Show the corpus callosum connecting right parietal to left frontal (speech area). In a split-brain patient, the left hand feels the object → right parietal cortex perceives it → but without corpus callosum, information cannot reach left-hemisphere speech areas → patient cannot name the object but can select it with the left hand. A poor answer that doesn't trace the crossed pathways or predict the dissociation reveals inability to apply anatomical connectivity to functional consequences.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

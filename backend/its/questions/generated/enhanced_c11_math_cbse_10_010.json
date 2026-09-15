@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_10_010",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_10_010",
+   "title": "c11_math_cbse_10_010",
+   "questions": [
+    {
+     "q": "Write the two-point form of the equation of a line passing through points \\(A(x_1, y_1)\\) and \\(B(x_2, y_2)\\) when \\(x_1 \\neq x_2\\). Also state the equation when \\(x_1 = x_2\\).",
+     "a": "When \\(x_1 \\neq x_2\\): \\(y - y_1 = \\frac{y_2 - y_1}{x_2 - x_1}(x - x_1)\\). When \\(x_1 = x_2\\): \\(x = x_1\\). A wrong answer (e.g., swapping numerator and denominator, or forgetting the vertical line case) reveals that the student has memorised the formula without understanding its derivation from slope, or does not recognise that division by zero is undefined and requires a separate case.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the two-point form \\(y - y_1 = \\frac{y_2 - y_1}{x_2 - x_1}(x - x_1)\\) fails when \\(x_1 = x_2\\), and describe the geometric meaning of this failure.",
+     "a": "The formula fails because the denominator \\(x_2 - x_1\\) becomes zero, making the slope undefined. Geometrically, this means the two points lie on a vertical line, which has no finite slope. The line's equation is simply \\(x = x_1\\). A student who says \"the line doesn't exist\" or \"the slope is zero\" confuses vertical lines with horizontal lines, showing a fundamental misunderstanding of slope as a measure of steepness and the concept of undefined slope.",
+     "self_check": true
+    },
+    {
+     "q": "Find the equation of the line passing through the points \\((-2, 5)\\) and \\((4, -1)\\). Express your answer in slope-intercept form \\(y = mx + c\\).",
+     "a": "Step 1: Identify points: \\((x_1, y_1) = (-2, 5)\\), \\((x_2, y_2) = (4, -1)\\).  \nStep 2: Compute slope \\(m = \\frac{-1 - 5}{4 - (-2)} = \\frac{-6}{6} = -1\\).  \nStep 3: Use point-slope with \\((-2, 5)\\): \\(y - 5 = -1(x + 2)\\).  \nStep 4: Simplify: \\(y - 5 = -x - 2 \\Rightarrow y = -x + 3\\).  \nAnswer: \\(y = -x + 3\\). A wrong answer often comes from sign errors in the slope calculation (e.g., \\(\\frac{5 - (-1)}{-2 - 4} = \\frac{6}{-6} = -1\\) is correct but students may mess up the order) or algebraic mistakes when simplifying. If a student gets \\(y = x + 3\\), they likely dropped a negative sign.",
+     "self_check": true
+    },
+    {
+     "q": "A line passes through \\((3, k)\\) and \\((7, 2)\\) and has slope \\(-\\frac{1}{2}\\). Find \\(k\\). Then write the equation of the line in two-point form and verify that the point \\((11, 0)\\) lies on it.",
+     "a": "Step 1: Use slope formula: \\(\\frac{2 - k}{7 - 3} = -\\frac{1}{2} \\Rightarrow \\frac{2 - k}{4} = -\\frac{1}{2} \\Rightarrow 2 - k = -2 \\Rightarrow k = 4\\).  \nStep 2: Two-point form with \\((3, 4)\\) and \\((7, 2)\\): \\(y - 4 = \\frac{2 - 4}{7 - 3}(x - 3) = \\frac{-2}{4}(x - 3) = -\\frac{1}{2}(x - 3)\\).  \nStep 3: Check \\((11, 0)\\): LHS = \\(0 - 4 = -4\\), RHS = \\(-\\frac{1}{2}(11 - 3) = -\\frac{1}{2} \\times 8 = -4\\). LHS = RHS, so point lies on line.  \nA student who cannot find \\(k\\) may not connect the given slope to the two-point slope expression. If they substitute incorrectly or forget to verify, they lack the habit of checking solutions.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the equation of the line through \\((1, 2)\\) and \\((4, 8)\\) as \\(y - 2 = \\frac{8 - 2}{1 - 4}(x - 1)\\). Identify the error and correct it.",
+     "a": "The student swapped the order of subtraction in the denominator: they used \\(x_1 - x_2\\) instead of \\(x_2 - x_1\\). The correct slope is \\(\\frac{8 - 2}{4 - 1} = \\frac{6}{3} = 2\\). The student's slope is \\(\\frac{6}{-3} = -2\\), which is the negative of the correct slope. The correct equation is \\(y - 2 = 2(x - 1)\\). This error reveals that the student does not understand that slope is independent of the order of points as long as the same order is used for both numerator and denominator. They mechanically plug into a memorised template without checking consistency.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (in an Indian context) that requires finding the equation of a line through two given points, and solve it. The problem must involve a vertical line.",
+     "a": "Example problem: \"A straight road runs along the line \\(x = 50\\) metres from the school gate (origin). Two lamp posts are to be placed on this road at distances 10 m and 30 m from the gate along the y-direction. Find the equation of the road and the coordinates of the lamp posts.\"  \nSolution: The road is vertical, so its equation is \\(x = 50\\). The lamp posts are at \\((50, 10)\\) and \\((50, 30)\\). A poor answer would give a sloping line equation or fail to recognise that both points share the same x-coordinate. This tests whether the student can translate a vertical line description into the correct mathematical form.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

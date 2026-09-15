@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch7_3",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch7_3",
+   "title": "c9_math_ch7_3",
+   "questions": [
+    {
+     "q": "A die is rolled 60 times and the frequency of each outcome is recorded. The number 4 appears 12 times. What is the experimental probability of getting a 4?",
+     "a": "The experimental probability is 12/60 = 1/5 = 0.2. A wrong answer like 1/6 reveals the student is confusing experimental probability with theoretical probability (assuming a fair die). A wrong answer like 12/48 (using non-4 trials) reveals confusion about denominator (total trials vs. other outcomes).",
+     "self_check": true
+    },
+    {
+     "q": "In a survey of 200 students, 120 prefer tea and 80 prefer coffee. A student says, \"The experimental probability of preferring tea is 120/80 = 1.5.\" Explain why this statement is incorrect and give the correct probability.",
+     "a": "The student used the wrong denominator: they divided favourable outcomes (tea) by unfavourable outcomes (coffee) instead of total trials. Probability cannot exceed 1. The correct experimental probability is 120/200 = 3/5 = 0.6. This misconception shows the student does not understand that the denominator must be the total number of trials (all surveyed students), not just the other category.",
+     "self_check": true
+    },
+    {
+     "q": "A bag contains red and blue balls. You draw a ball, note its colour, and replace it. After 100 draws, you got red 62 times. If you draw 500 more times (total 600), approximately how many reds would you expect if the bag composition remains unchanged? Show your calculation.",
+     "a": "Experimental probability of red = 62/100 = 0.62. Expected reds in 600 trials = 0.62 × 600 = 372. A wrong answer like 310 (using 62/100 × 500) ignores the first 100 trials; a wrong answer like 300 (assuming 1/2) ignores the empirical data. The correct approach uses the observed relative frequency to predict future outcomes, demonstrating the predictive use of experimental probability.",
+     "self_check": true
+    },
+    {
+     "q": "Two students toss a coin 10 times and 1000 times respectively. Student A gets 7 heads (P=0.7), Student B gets 510 heads (P=0.51). Whose experimental probability is closer to the theoretical probability of 0.5? Explain why the number of trials matters.",
+     "a": "Student B's result (0.51) is closer to 0.5 than Student A's (0.7). With more trials, experimental probability tends to stabilise near the theoretical probability (Law of Large Numbers). A wrong answer choosing Student A shows misunderstanding that a larger deviation in a small sample is expected and less reliable. A student saying \"both are equally close because probability is theoretical\" confuses the concept of estimation with exact calculation.",
+     "self_check": true
+    },
+    {
+     "q": "A weather app shows \"30% chance of rain\" based on historical data for similar days. A student argues: \"It either rains or it doesn't, so the probability should be 0 or 1, not 0.3.\" Evaluate the student's argument and explain what the 30% represents.",
+     "a": "The student confuses a single deterministic outcome with long-run frequency. The 30% is an experimental probability derived from historical data: on 30% of past days with similar conditions, it rained. It quantifies uncertainty, not a single event's outcome. A wrong evaluation agreeing with the student shows a lack of understanding of probability as a measure of likelihood based on evidence, not a prediction of a single certain outcome.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to estimate the probability that a drawing pin lands \"point up\" when dropped. Describe the procedure, how you would record data, and how you would calculate the experimental probability. What minimum number of trials would you recommend for a reliable estimate, and why?",
+     "a": "A good answer: Drop the pin 200 times from a consistent height onto a flat surface. Record \"point up\" or \"point down\" each time. Experimental probability = (number of point up) / 200. Recommend at least 200 trials because more trials reduce random fluctuation (Law of Large Numbers). A poor answer suggests 10 trials, showing ignorance of reliability; or suggests calculating theoretical probability by geometry, missing the empirical nature of the task.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

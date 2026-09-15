@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_bio_ch03_007",
+ "concepts": [
+  {
+   "id": "enh:c7_bio_ch03_007",
+   "title": "c7_bio_ch03_007",
+   "questions": [
+    {
+     "q": "What are the specialized cells that surround and control the opening of a stoma in a plant leaf?\nA) Guard cells\nB) Xylem vessels\nC) Root hairs\nD) Phloem cells",
+     "a": "The correct answer is A. Guard cells are specialized kidney-shaped cells that change shape to open and close the stomatal pore. A student who picks B (Xylem vessels) is confusing water transport tissue with epidermal structures. A student who picks C (Root hairs) is confusing underground water-absorbing structures with leaf pores.",
+     "self_check": true
+    },
+    {
+     "q": "During a hot sunny afternoon in a garden in Rajasthan, why is it advantageous for a plant's stomata to remain partially or fully closed?\nA) To maximize the intake of carbon dioxide for rapid nighttime growth\nB) To prevent excessive loss of water vapor through transpiration\nC) To trap oxygen inside the leaf for cellular respiration\nD) To prevent sunlight from damaging the inner chloroplasts",
+     "a": "The correct answer is B. Stomata allow water vapor to escape in a process called transpiration; closing them during extreme heat protects the plant from wilting. A student who picks A is incorrect because stomata mostly open during the day when light is available for photosynthesis, not nighttime. A student who picks C misunderstands that plants need to release oxygen during photosynthesis rather than trap it.",
+     "self_check": true
+    },
+    {
+     "q": "A student applies a thin layer of transparent nail polish to the lower surface of a potted balsam leaf, blocking all the stomata on that side. What will most likely happen to this leaf over the next few days?\nA) The leaf will produce more starch because nail polish traps extra carbon dioxide.\nB) Photosynthesis will stop or drastically decrease because carbon dioxide cannot enter the leaf.\nC) The leaf will absorb all its water through the nail polish layer.\nD) The leaf will turn purple because root pressure pushes water upward faster.",
+     "a": "Steps: 1) Identify that stomata are the main entry points for carbon dioxide into the leaf. 2) Recognize that blocking stomata with nail polish creates an airtight barrier. 3) Conclude that without carbon dioxide entering, the leaf cannot carry out photosynthesis effectively. 4) Predict that starch production will drop and the leaf may eventually show signs of stress. Correct Answer: B. A student who selects A incorrectly thinks nail polish provides nutrients or traps gases beneficially, ignoring that it creates an impermeable barrier to atmospheric gases.",
+     "self_check": true
+    },
+    {
+     "q": "Observe how animals breathe using lungs or gills. How does gas exchange through stomata in plants differ fundamentally from breathing in mammals like humans?\nA) Plants use voluntary muscle contractions to pump air, whereas mammals do not.\nB) Mammals rely on a continuous bloodstream for bulk transport of gases, while plants use simple diffusion of gases directly through intercellular spaces connected to stomata.\nC) Plants perform gas exchange only in the dark, whereas mammals breathe only in the light.\nD) Mammals take in carbon dioxide and release oxygen, while plants do the exact opposite at all times.",
+     "a": "The correct answer is B. Plants do not have lungs, a heart, or muscular breathing movements; instead, gases move in and out of stomata by simple diffusion and circulate through air spaces between plant cells. A student who chooses D ignores that plants respire day and night (taking in oxygen and releasing carbon dioxide) just like animals, while only photosynthesis reverses this gas direction during daylight.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher claims that plant stomata are completely useless at night because photosynthesis stops without sunlight. Evaluate this claim using your knowledge of plant life processes.\nA) The claim is entirely correct because carbon dioxide is only needed when the sun is shining.\nB) The claim is incorrect because plants continue cellular respiration at night, requiring oxygen intake and carbon dioxide release through stomata.\nC) The claim is partially correct because guard cells dissolve at night and reform every morning.\nD) The claim is incorrect because plants freeze solid at night and do not need any gas exchange.",
+     "a": "The correct answer is B. Even though photosynthesis stops at night, living plant cells continuously undergo cellular respiration, which requires oxygen uptake and carbon dioxide release through open or partially open stomata. A student who picks A forgets that plants are living organisms that respire 24 hours a day to generate energy for maintenance and growth.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom investigation using a potted hibiscus plant, petroleum jelly (Vaseline), and clear plastic bags to prove that water vapor is lost through plant leaves. What would be your expected observation?\nA) Cover one leaf with petroleum jelly on both sides and enclose it in a plastic bag; expect no water droplets to form inside that bag compared to an untreated control leaf.\nB) Water the plant with colored dye and watch the stem turn blue.\nC) Shine a flashlight on the roots to measure oxygen bubbles.\nD) Cut the stem underwater and count the leaves.",
+     "a": "The correct answer is A. Applying petroleum jelly blocks stomata, preventing transpiration, so the bag enclosing the treated leaf will show significantly fewer or no water droplets compared to an uncovered control leaf. A poor answer might focus on unrelated plant parts like roots or stem cutting, showing a failure to connect stomata function to transpiration and gas exchange.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

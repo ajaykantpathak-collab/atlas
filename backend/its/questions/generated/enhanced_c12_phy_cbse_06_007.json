@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_06_007",
+   "title": "c12_phy_cbse_06_007",
+   "questions": [
+    {
+     "q": "A solid copper plate is dropped vertically through a uniform horizontal magnetic field. What is the direction of the eddy currents induced in the plate as it enters the field region? (Assume the magnetic field points north, and the plate falls downward.)",
+     "a": "As the plate enters the field, the magnetic flux through it increases (downward area vector, northward B). By Lenz's law, the induced current will create a magnetic field opposing this increase – i.e., a southward field. Using the right-hand rule, the eddy currents must flow in a clockwise direction when viewed from above (or east-to-west on the front face, west-to-east on the back face). A wrong answer (e.g., counter-clockwise) reveals the student cannot apply Lenz's law to a bulk conductor or confuses the direction of area vector relative to motion.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a laminated core (thin insulated sheets stacked together) reduce eddy current losses compared to a solid core of the same material and dimensions?",
+     "a": "Laminations restrict the path of eddy currents to thin sheets perpendicular to the magnetic flux. Each lamination has a much smaller cross-sectional area for current flow, increasing its resistance (R ∝ length/area). Since eddy current power loss P = ε²/R, the higher resistance drastically reduces the current and the I²R heating. A wrong answer (e.g., \"laminations increase the total resistance of the core\" without explaining the path restriction) shows the student memorizes the fact but doesn't understand the geometry of eddy current loops.",
+     "self_check": true
+    },
+    {
+     "q": "An induction furnace uses a high-frequency alternating magnetic field (f = 10 kHz) to melt a cylindrical iron ingot (radius r = 5 cm, height h = 20 cm, resistivity ρ = 10⁻⁷ Ω·m). Estimate the order of magnitude of the eddy current power loss per unit volume if the peak magnetic field is B₀ = 0.5 T. Use the approximate formula for a long cylinder: P/V ≈ (π² B₀² f² r²)/(8ρ).",
+     "a": "Given: B₀ = 0.5 T, f = 10⁴ Hz, r = 0.05 m, ρ = 10⁻⁷ Ω·m.\nP/V ≈ (π² × (0.5)² × (10⁴)² × (0.05)²) / (8 × 10⁻⁷)\n= (9.87 × 0.25 × 10⁸ × 0.0025) / (8 × 10⁻⁷)\n= (9.87 × 0.25 × 2.5 × 10⁵) / (8 × 10⁻⁷)\n≈ (6.17 × 10⁵) / (8 × 10⁻⁷)\n≈ 7.7 × 10¹¹ W/m³.\nOrder of magnitude: ~10¹² W/m³.\nA wrong answer (e.g., missing π², using diameter instead of radius, or unit mismatch like f in Hz but forgetting to square) reveals poor algebraic manipulation or unit tracking.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the eddy current braking force on a copper plate vs. an aluminum plate of identical dimensions moving at the same speed through the same magnetic field. Which experiences a larger braking force and why? (Resistivity: ρ_Cu = 1.7×10⁻⁸ Ω·m, ρ_Al = 2.8×10⁻⁸ Ω·m)",
+     "a": "The braking force F ∝ I_eddy ∝ 1/ρ (since induced emf ε is the same for both, but current I = ε/R and R ∝ ρ). Copper has lower resistivity, so larger eddy currents flow, producing a stronger opposing magnetic force (F = I L × B). Therefore, the copper plate experiences a larger braking force. A wrong answer (e.g., \"aluminum because it's lighter\") shows confusion between mechanical inertia and electromagnetic braking.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In a transformer, eddy currents are completely eliminated by using a laminated core.\" Evaluate this statement and correct it if necessary.",
+     "a": "The statement is false. Laminations *reduce* eddy currents significantly but do not eliminate them entirely. Small eddy currents still circulate within each individual lamination (whose thickness is finite). The power loss is reduced by a factor of ~(lamination thickness / solid core thickness)², but some loss remains. A student who says \"true\" misunderstands that laminations only restrict the loop size; they don't make the resistance infinite.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom experiment to demonstrate eddy current damping using readily available materials (magnets, copper/aluminum plates, pendulum setup). Describe the procedure, what to observe, and how to vary the damping effect.",
+     "a": "A good answer: Suspend a copper plate as a pendulum between the poles of a strong horseshoe magnet. Let it oscillate and note the rapid damping. Repeat with a plastic plate (no damping). To vary damping: (1) use plates of different thickness (thicker = more damping), (2) use slotted copper plate (slots break eddy current paths, reducing damping), (3) change magnet strength. A poor answer (e.g., \"drop a magnet through a copper tube\" without explaining the comparison or variables) shows inability to design a controlled experiment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

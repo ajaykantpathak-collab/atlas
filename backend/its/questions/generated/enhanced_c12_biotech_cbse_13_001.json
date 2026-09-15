@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_13_001",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_13_001",
+   "title": "c12_biotech_cbse_13_001",
+   "questions": [
+    {
+     "q": "Define \"public perception of biotechnology\" in one sentence, and list three non-scientific factors that can shape it.",
+     "a": "Public perception of biotechnology is the aggregate of attitudes and beliefs held by society toward biotech products and processes, shaped by factors such as media framing, cultural/religious values, and trust in regulatory institutions — not just scientific evidence. A wrong answer that lists only scientific factors (e.g., \"toxicity data, allergenicity studies\") reveals the student conflates *risk assessment* with *perception*, missing the sociological dimension that this node emphasizes.",
+     "self_check": true
+    },
+    {
+     "q": "A 2023 survey shows 68% of urban Indian respondents believe \"GM foods are unsafe,\" while 85% of plant scientists affirm their safety. Explain *why* this gap exists, using at least three distinct determinants of public perception from the chapter.",
+     "a": "The gap arises from: (1) *Media amplification of outlier studies* (e.g., the retracted Séralini rat study) over consensus reports; (2) *Distrust of corporate control* (e.g., Monsanto/Bayer patenting seeds) conflated with the technology itself; (3) *Low genetic literacy* — many respondents cannot distinguish between transgenic and gene-edited crops, or between hazard and risk. An answer blaming \"ignorance\" alone is reductive and ignores legitimate socioeconomic concerns (e.g., farmer seed sovereignty) that shape perception.",
+     "self_check": true
+    },
+    {
+     "q": "You are a science communicator at a Krishi Vigyan Kendra. A farmer asks: \"Why should I trust Bt cotton when my neighbor's cows died after grazing on it?\" Using the *perception determinants*, structure a 3-point response that addresses his concern without dismissing it.",
+     "a": "1. *Acknowledge the experience* (validates trust deficit): \"I understand your worry — livestock health is your livelihood.\" 2. *Separate correlation from causation* (addresses scientific literacy): \"Investigations by ICAR and state veterinary universities found no link between Bt cotton residues and cattle deaths; the cause was often nitrate poisoning from drought-stressed fodder.\" 3. *Invite verification* (builds institutional trust): \"We can test your fodder and water together at the KVK lab — you’ll see the data yourself.\" A response that only cites \"ICAR says it’s safe\" fails because it ignores the *trust* and *lived experience* determinants.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how *religious beliefs* and *media framing* differently influence public perception of GMOs in India versus the USA. Give one concrete example for each country.",
+     "a": "In India, *religious beliefs* (e.g., vegetarianism, cow protection) make transgenic crops with animal genes (like Bt brinjal with a bacterial gene) sensitive — some groups view it as violating dietary purity. In the USA, *media framing* dominates: \"Frankenfood\" headlines in the 1990s created a lasting \"unnatural\" label, while recent \"CRISPR cures\" coverage boosts acceptance. An answer that treats both countries identically misses the cultural specificity of perception determinants.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"If scientists just explain the facts better, public opposition to GMOs will disappear.\" Use evidence from perception research.",
+     "a": "The statement assumes the *deficit model* of science communication — that opposition stems solely from lack of knowledge. Research (e.g., Kahan et al., 2012; Bauer et al., 2007) shows *cultural cognition* and *identity-protective reasoning* cause people to reject facts that threaten their worldview. For example, highlighting GMO safety data can *increase* opposition among those who distrust corporations. Effective engagement requires *dialogue on values*, not just fact transmission. An answer endorsing the deficit model reveals unawareness of decades of science communication research.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-question mini-survey to measure *trust in GMO regulators* among college students. Ensure each question targets a different dimension of trust (competence, integrity, transparency, accountability, empathy).",
+     "a": "Sample survey: (1) Competence: \"How confident are you that GEAC has the scientific expertise to evaluate GMO safety?\" (2) Integrity: \"Do you believe GEAC decisions are free from corporate influence?\" (3) Transparency: \"Is the safety assessment data for approved GMOs easily accessible to the public?\" (4) Accountability: \"If a GMO causes harm, will GEAC be held responsible?\" (5) Empathy: \"Does GEAC consider farmer and consumer concerns in its decisions?\" A survey asking only \"Do you trust GEAC?\" conflates dimensions and yields unactionable data.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

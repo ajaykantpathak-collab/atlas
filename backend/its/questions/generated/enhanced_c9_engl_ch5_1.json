@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_engl_ch5_1",
+ "concepts": [
+  {
+   "id": "enh:c9_engl_ch5_1",
+   "title": "c9_engl_ch5_1",
+   "questions": [
+    {
+     "q": "What are the three essential components that must appear in the opening sentence of a board-level text summary for this chapter?",
+     "a": "The opening sentence must name: (1) the text's dual subject (Paralympic movement AND Dr. Deepa Malik), (2) the text type (interview/biographical account), and (3) the central thrust (journey from adversity to achievement). A wrong answer that only says \"It's about Deepa Malik\" reveals the student treats summary as character description rather than structural condensation of a non-fiction text with two intertwined threads.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Deepa Malik got a spinal tumor at age 29, had three surgeries, was paralyzed waist down, but then won silver in shot put at Rio 2016.\" What critical structural element is missing that would cost marks in a board exam?",
+     "a": "The summary omits the Paralympics context entirely — no mention of when the Paralympics started (1960), India's debut (1968), or how Deepa's achievement fits into India's Paralympic history. This reveals the misconception that a summary of THIS text can focus solely on the person; the board expects the summary to mirror the text's dual architecture: institutional history + individual journey.",
+     "self_check": true
+    },
+    {
+     "q": "Given this disordered list of details from the text: (A) Deepa wins Arjuna Award 2012, (B) Paralympics begin in Rome 1960, (C) Deepa diagnosed with spinal tumor at 29, (D) India's first Paralympic participation 1968, (E) Deepa wins silver at Rio 2016, (F) Deepa takes up swimming then athletics. Sequence them into the correct chronological order for a summary.",
+     "a": "Correct sequence: B (1960) → D (1968) → C (Deepa's diagnosis, late 1990s) → F (swimming/athletics post-recovery) → A (2012 Arjuna) → E (2016 Rio). A wrong sequence (e.g., putting Arjuna before diagnosis) reveals the student cannot synthesize two parallel timelines (institutional + personal) into one coherent chronology — a core board-level skill.",
+     "self_check": true
+    },
+    {
+     "q": "Two summaries of the same text are written. Summary X: \"The text tells how Paralympics started in 1960 and Deepa Malik overcame paralysis to win medals.\" Summary Y: \"The Paralympic Games began in Rome 1960; India debuted in 1968. Decades later, Deepa Malik, diagnosed with a spinal tumor at 29 and paralyzed waist-down after three surgeries, took up swimming and athletics, winning the Arjuna Award (2012) and a historic silver in shot put at Rio 2016 Paralympics.\" Which summary demonstrates board-level competence and why?",
+     "a": "Summary Y is board-competent. It uses specific dates (1960, 1968, 2012, 2016), names the event (shot put), includes the causal chain (tumor → surgeries → paralysis → sport switch → medals), and maintains chronological flow. Summary X fails because it uses vague phrasing (\"tells how,\" \"win medals\") and omits all evidence — a common error where students confuse \"main idea\" with \"evidence-free generalization.\"",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"A good summary of this text should end with Deepa's Rio medal because that is her greatest achievement.\" Defend or critique using board exam marking criteria.",
+     "a": "Critique. A board-level summary must end by connecting the individual's achievement to the chapter's thematic frame (\"The World of Limitless Possibilities\"). Ending only on the medal treats the text as a sports biography. The closing sentence should read: \"Deepa's journey from a hospital bed to the Paralympic podium embodies the chapter's vision of a world where physical limits are redefined by human will.\" This links the factual summary to the thematic title — a requirement in CBSE marking schemes for \"value-based\" or \"theme-linked\" conclusions.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 3-sentence \"elevator pitch\" summary of this text that a Class 9 student could use to explain the chapter to a Class 7 student, using only facts from the text but language a 12-year-old would grasp.",
+     "a": "Expected answer: \"The Paralympics started in 1960 for athletes with disabilities, but India joined only in 1968. Deepa Malik, a young woman, got a spinal tumor that left her paralyzed, but she didn't give up — she learned swimming, then switched to shot put and discus, and became the first Indian woman to win a Paralympic medal (silver at Rio 2016). Her story shows that disability doesn't mean inability.\" A poor answer uses jargon (\"paraplegic,\" \"shot put classification F53\") or omits the Paralympics history, revealing inability to audience-adapt — a skill tested in board \"writing for specific purpose\" questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

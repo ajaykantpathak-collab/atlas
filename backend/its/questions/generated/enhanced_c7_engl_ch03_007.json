@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_engl_ch03_007",
+ "concepts": [
+  {
+   "id": "enh:c7_engl_ch03_007",
+   "title": "c7_engl_ch03_007",
+   "questions": [
+    {
+     "q": "What is the literal definition of a \"dynamo\" as used in the context of mechanical inventions and early electrical devices?",
+     "a": "A dynamo is a machine that generates electricity, typically by rotating a coil of wire within a magnetic field. If a student thinks a dynamo is simply a battery or an alarm, it reveals they are guessing based on sound rather than understanding mechanical energy conversion. They have not connected the rotating parts described in the story to the production of electrical current.",
+     "self_check": true
+    },
+    {
+     "q": "Read this sentence: \"Anand spent his entire Saturday tinkering in the backyard shed with old screws, broken clocks, and copper wire.\" Based on this context, what does the word *tinkering* mean?",
+     "a": "Tinkering means making small changes, repairs, or experimental adjustments to something in a casual or trial-and-error manner. A wrong answer—such as \"building a professional factory item\"—shows the student ignored the context clues of \"old screws\" and \"broken clocks,\" assuming the character was performing high-level industrial manufacturing instead of amateur experimenting.",
+     "self_check": true
+    },
+    {
+     "q": "A character in a story sets up a sensitive electronic circuit by the door so that any unauthorized entry triggers a loud ringing bell. Which vocabulary word from our chapter best describes this setup?",
+     "a": "Steps: \n1. Identify the core function: an electronic system designed to detect intruders.\n2. Match function to vocabulary options (*dynamo*, *rigging*, *tinkering*, *burglar alarm*).\n3. Confirm that an alarm triggered by entry is a *burglar alarm*.\nAnswer: A burglar alarm. A wrong answer like *rigging* shows the student confuses the general setup process with the specific security device mentioned in the text.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the phrase: \"The boy was busy rigging a makeshift pulley system out of twine and empty matchboxes.\" How does the word *rigging* function here compared to its use in sailing or heavy construction?",
+     "a": "In this context, *rigging* means hastily setting up, assembling, or rigging equipment together using clever, unconventional materials. While sailing rigging involves ropes and masts on a ship, the domestic invention context retains the core idea of connecting and fitting gear together. A wrong answer reveals the student thinks vocabulary words have only one rigid definition regardless of story context.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether the following sentence uses the word *dynamo* correctly: \"Anand used a small dynamo connected to his bicycle wheel to power a tiny light bulb.\" Justify your evaluation.",
+     "a": "The sentence uses *dynamo* correctly because connecting it to a bicycle wheel utilizes motion to generate electrical energy for a light bulb. A wrong answer judging this as incorrect shows the student fails to understand that a dynamo converts mechanical movement into electrical power.",
+     "self_check": true
+    },
+    {
+     "q": "Write an original paragraph (3-4 sentences) about a fictional science fair project where you must use all four vocabulary words correctly: *burglar alarm*, *dynamo*, *tinkering*, and *rigging*.",
+     "a": "Expected criteria: The student must use all four terms in a grammatically correct narrative sequence that makes logical sense (e.g., *tinkering* with parts, *rigging* a frame, attaching a *dynamo*, and testing a *burglar alarm*). A poor answer drops words out of context, uses them as wrong parts of speech, or shows no thematic connection to invention.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

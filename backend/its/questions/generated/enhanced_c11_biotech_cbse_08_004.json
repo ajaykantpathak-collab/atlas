@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_08_004",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_08_004",
+   "title": "c11_biotech_cbse_08_004",
+   "questions": [
+    {
+     "q": "Define deletion, duplication, and inversion in one sentence each, stating the change in chromosome length and gene order for each.",
+     "a": "Deletion: loss of a chromosome segment → shorter chromosome, gene order unchanged but genes missing. Duplication: gain of an extra copy of a segment → longer chromosome, gene order includes a repeated block. Inversion: a segment reverses orientation by 180° → chromosome length unchanged, gene order reversed within the inverted segment. A wrong answer (e.g., saying inversion shortens the chromosome) reveals confusion between loss of material and reorientation of material, indicating the student has not visualized the breakage-rejoining mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Inversion is harmless because no genetic material is lost or gained.\" Explain why this statement is incomplete, using the concept of position effect.",
+     "a": "Inversion does not change the total amount of DNA, but it can disrupt a gene at the breakpoints or alter the regulatory landscape by moving genes closer to or farther from enhancers/silencers (position effect). For example, if an inversion places a normally active gene next to heterochromatin, the gene may be silenced, causing disease (e.g., RCAD syndrome). A wrong answer that ignores position effect or breakpoint disruption shows the student equates \"no net DNA change\" with \"no phenotypic consequence,\" a classic senior-secondary misconception.",
+     "self_check": true
+    },
+    {
+     "q": "A karyotype reveals a chromosome with two identical bands in the same order (e.g., band pattern: p11-p12-p12-p13). Which structural abnormality does this represent? Name the mechanism that could produce it during meiosis.",
+     "a": "The pattern indicates a tandem duplication (p12 repeated). The mechanism is unequal crossing-over between misaligned homologous chromosomes during prophase I of meiosis, where one chromatid receives two copies of the segment and the other receives a deletion. A wrong answer (e.g., \"inversion\" or \"translocation\") reveals inability to read banding patterns or confusion about the outcomes of misaligned homologous pairing.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the gene-dosage consequences of a heterozygous deletion and a heterozygous duplication of the same 5 Mb segment containing a haploinsufficient gene and a triplosensitive gene. Which abnormality is likely more severe and why?",
+     "a": "Heterozygous deletion reduces the haploinsufficient gene to one copy (loss-of-function phenotype) and the triplosensitive gene to one copy (normal). Heterozygous duplication gives three copies of the triplosensitive gene (gain-of-function phenotype) and two copies of the haploinsufficient gene (normal). Severity depends on which gene's dosage sensitivity dominates the phenotype; often duplication is less severe because triplosensitivity is rarer than haploinsufficiency, but both can be lethal. A wrong answer that says \"deletion is always worse\" ignores gene-specific dosage sensitivity and shows lack of analytical reasoning about molecular mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Ring chromosomes form only when both telomeres are deleted and the broken ends fuse.\" Is this always true? Provide a cytogenetic justification.",
+     "a": "The statement is generally true for *de novo* ring formation: loss of both telomeric ends exposes sticky DNA ends that fuse, creating a ring. However, rings can also form from an inversion that brings telomeres together followed by fusion, or from telomere-telomere fusion without deletion if telomeres are dysfunctional. A critique that accepts the statement without exception misses the role of telomere dysfunction and alternative pathways, showing insufficient depth in chromosome end-protection biology.",
+     "self_check": true
+    },
+    {
+     "q": "Design a FISH probe strategy to distinguish between a heterozygous deletion and a heterozygous inversion of the same 2 Mb region on chromosome 17. Specify probe colors, target loci, and expected signal patterns for each abnormality.",
+     "a": "Use two differentially colored probes: Probe A (red) inside the 2 Mb region, Probe B (green) flanking outside the region. Normal homolog: red+green signals adjacent. Deletion homolog: only green signal (red lost). Inversion homolog: red and green signals present but reversed order along the chromosome axis. A poor answer that uses only one probe or ignores signal order fails to exploit FISH's spatial resolution, indicating inability to design a diagnostic assay.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

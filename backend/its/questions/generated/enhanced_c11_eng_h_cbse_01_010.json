@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_01_010",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_01_010",
+   "title": "c11_eng_h_cbse_01_010",
+   "questions": [
+    {
+     "q": "What is the primary strategy for inferring the meaning of \"veritable bedlam\" in the sentence: \"hundreds of little birds collected round her creating a veritable bedlam of chirrupings\"?",
+     "a": "The primary strategy is analyzing the appositive phrase \"of chirrupings\" which defines \"bedlam\" as a noisy confusion of bird sounds, while \"veritable\" (meaning true/genuine) intensifies it. A wrong answer like \"a peaceful gathering\" reveals the student ignored the noun phrase \"chirrupings\" and the connotation of \"bedlam\" as chaotic noise, focusing only on the pleasant activity of feeding birds.",
+     "self_check": true
+    },
+    {
+     "q": "In the phrase \"accepted her seclusion with resignation,\" explain why \"resignation\" cannot mean \"quitting a job\" here, using grammatical and contextual evidence.",
+     "a": "\"Resignation\" follows the preposition \"with,\" requiring a noun denoting an attitude or emotion, not an action. Contextually, the preceding sentences describe the grandmother's silent withdrawal (\"rarely left her spinning-wheel,\" \"snapped\" friendship), showing acceptance of loneliness, not an employment action. A wrong answer equating it to \"submitting a letter\" reveals confusion between homographs and failure to use syntactic frame (preposition + abstract noun) and narrative context (emotional state).",
+     "self_check": true
+    },
+    {
+     "q": "Apply the 'substitution test' to verify your inferred meaning of \"dilapidated\" in \"the sagging skins of the dilapidated drum.\" Write the sentence with your inferred word and explain if it fits.",
+     "a": "Substitution: \"the sagging skins of the **broken-down** drum.\" It fits because \"sagging skins\" implies physical deterioration, and the drum is \"old\" (mentioned earlier as \"an old drum\"). A wrong substitution like \"new\" or \"decorated\" contradicts \"sagging\" and the grandmother's frail, aged context. This tests if the student can use collocation (\"sagging skins\" + condition) and paragraph-level coherence (old age, decay) to validate inference.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two uses of \"take\" in the text: \"she took to feeding sparrows\" and \"she was taken ill.\" Analyze how the particle/preposition changes the meaning and why both are phrasal verbs.",
+     "a": "\"Took to\" (phrasal verb + gerund) means 'began a habit'; \"taken ill\" (passive verb + adjective) means 'became sick suddenly.' Both are multi-word verbs where the particle changes the core meaning of 'take' (grasp/carry). A wrong answer treating both as \"started doing something\" misses that \"taken ill\" is a fixed passive construction describing a state change, not a voluntary habit. This tests analysis of verb complementation patterns (gerund vs. adjective) and register (idiomatic vs. semi-formal).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the author's choice of \"revolting\" in \"the thought was almost revolting\" versus a synonym like \"disgusting.\" Which better captures the narrator's complex attitude toward his grandmother's youth, and why?",
+     "a": "\"Revolting\" is superior because it carries a physical, visceral recoil (etymology: 'turn away') that mirrors the narrator's inability to mentally reconcile the current \"wrinkled\" reality with the abstract idea of her youth. \"Disgusting\" implies moral judgment or simple dislike, but the narrator loves her; his revolt is cognitive dissonance, not dislike. A wrong answer choosing \"disgusting\" reveals failure to analyze connotation vs. denotation and the narrator's tone of affectionate bewilderment.",
+     "self_check": true
+    },
+    {
+     "q": "Create two original sentences: one using \"frivolous rebukes\" to describe a light-hearted scolding between friends, and another using \"a turning-point\" to describe a subtle shift in a relationship, mimicking the author's narrative tone.",
+     "a": "1. \"When Rohan missed the catch, Maya's frivolous rebukes — 'Butterfingers!' and 'My grandmother catches better!' — made him laugh instead of feel ashamed.\" (Captures 'frivolous' = not serious, 'rebukes' = mock scolding). 2. \"The unreturned text was a turning-point; Priya stopped waiting by her phone and started sleeping with it on silent.\" (Captures subtle, internal shift like the author's). Poor answers use the phrases mechanically (e.g., \"The teacher gave frivolous rebukes for homework\") missing the affectionate/ironic tone central to the text.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

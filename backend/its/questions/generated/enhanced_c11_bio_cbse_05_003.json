@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_05_003",
+   "title": "c11_bio_cbse_05_003",
+   "questions": [
+    {
+     "q": "A student observes a leaf with a swollen leaf base (pulvinus) and reticulate venation. They conclude it must be a monocot because \"monocots have swollen leaf bases.\" Is this conclusion correct? Justify your answer using the defining features of monocot vs dicot leaves.",
+     "a": "The conclusion is incorrect. A swollen leaf base (pulvinus) is characteristic of leguminous plants (family Fabaceae), which are dicots — they exhibit reticulate venation and typically have taproot systems. Monocots generally have sheathing leaf bases (not pulvinus) and parallel venation. A wrong answer reveals the student is memorizing isolated features without integrating the suite of correlated characters (venation + root system + floral parts) that define monocots vs dicots.",
+     "self_check": true
+    },
+    {
+     "q": "In a compound leaf, a student counts 15 \"leaves\" along the rachis and records the phyllotaxy as \"alternate\" because the leaflets appear staggered. Why is this reasoning flawed? Explain the structural criterion that distinguishes a leaf from a leaflet.",
+     "a": "The reasoning is flawed because phyllotaxy describes the arrangement of **leaves** on the **stem** at nodes, not leaflets on a rachis. The defining criterion: a bud is present in the axil of a leaf (at the junction of petiole and stem), but **no bud exists in the axil of a leaflet**. Counting leaflets as leaves inflates leaf number and misrepresents the plant's architecture. A wrong answer reveals confusion between the shoot system (stem + leaves) and the leaf as a single organ — a fundamental category error in plant morphology.",
+     "self_check": true
+    },
+    {
+     "q": "A xerophytic plant has leaves modified into sharp spines. The stem is green, flattened, and performs photosynthesis. Predict the venation pattern you would expect in the ancestral (non-modified) leaf of this plant, and explain the evolutionary logic linking habitat, modification, and venation.",
+     "a": "The ancestral leaf would most likely show **reticulate venation** because spine-bearing xerophytes like *Opuntia* (cactus) and *Asparagus* are dicotyledonous (eudicots). Evolutionary logic: in arid habitats, broad laminas with reticulate venation (high vein density for high photosynthetic capacity) become liabilities due to excessive transpiration. Selection favors reduction of lamina to spines (minimizing surface area) and transfer of photosynthetic function to stems (cladodes/phylloclades). The venation pattern reflects phylogenetic history (dicot ancestry), not current function. A wrong answer (e.g., \"parallel venation because it's a desert plant\") reveals the student conflates habitat adaptation with taxonomic grouping.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the phyllotaxy of *Calotropis* (opposite) and *Alstonia* (whorled). Both have leaves arranged in pairs/groups at each node. Analyze how the **angle of divergence** between successive leaf pairs differs between these two types, and explain the adaptive significance of this difference for light interception in a dense canopy.",
+     "a": "In **opposite phyllotaxy** (*Calotropis*), successive leaf pairs are oriented at 90° to each other (decussate), so four leaves form a cross when viewed from above. In **whorled phyllotaxy** (*Alstonia*), three or more leaves arise at a node forming a whorl, and successive whorls are typically rotated to minimize overlap. The adaptive significance: decussate arrangement ensures each new pair avoids shading the pair below, optimizing light capture in open habitats. Whorled arrangement with rotation achieves similar anti-shading in plants with many leaves per node, common in fast-growing species competing in dense stands. A wrong answer that only states \"opposite has two, whorled has more\" without addressing angular geometry reveals a descriptive rather than functional understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since tendrils in pea are modified leaflets and tendrils in *Gloriosa* are modified leaf tips, both are homologous structures because they perform the same function.\" Evaluate this claim using the concepts of homology vs analogy in leaf modifications.",
+     "a": "The claim is **incorrect**. Homology refers to **common evolutionary origin** (same ancestral structure), not common function. Pea tendrils are modified **terminal leaflets** of a compound leaf (part of the lamina), while *Gloriosa* tendrils are modified **leaf apices** (tip of a simple leaf). They originate from different parts of the leaf organ, so they are **analogous** (convergent evolution for climbing) but **not homologous**. A wrong answer reveals the classic senior-secondary error of equating functional similarity with structural homology — a confusion that also plagues understanding of analogous vs homologous organs in animal morphology (e.g., wings of bat vs insect).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field observation protocol to distinguish between a pinnately compound leaf (e.g., *Azadirachta indica* — neem) and a branch bearing simple leaves in alternate phyllotaxy (e.g., *Morus alba* — mulberry) when both appear as \"green feathery structures\" from a distance. Specify exactly three observable criteria you would check.",
+     "a": "A robust protocol checks: (1) **Axillary bud presence**: At the base of each \"leaf-like unit\" — neem leaflets lack buds; mulberry simple leaves each have a bud in the axil. (2) **Leaf base/stipule**: Neem leaflets lack leaf base and stipules; mulberry leaves have distinct leaf bases and often stipules. (3) **Rachis vs stem**: Neem's central axis (rachis) is non-woody, lacks nodes/internodes, and is an extension of the petiole; mulberry's axis is a woody stem with clear nodes and internodes. A poor answer that relies only on \"appearance\" or \"texture\" reveals inability to apply the defining morphological criterion: **the leaf is a determinate organ with no apical meristem; the stem is indeterminate with apical and axillary meristems**.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "catalog": "catalog_class11_biology_kebo111",
+ "concepts": [
+  {
+   "id": "kebo.111.1.1",
+   "title": "Photosynthetic Pigments and the Light Reaction",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Photosynthetic Pigments and the Light Reaction' refers to.",
+     "a": "Photosynthesis uses pigments arranged in photosystem I and photosystem II; the splitting of water releases oxygen, electrons pass through the Z scheme of electron carriers producing ATP and NADPH in the light reaction, and photophosphorylation may be non-cyclic or cyclic.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Photosynthetic Pigments and the Light Reaction'.",
+     "a": "The reaction centre of photosystem II is called P680 and of photosystem I is P700, and cyclic photophosphorylation operates in photosystem I alone producing only ATP.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Photosynthetic Pigments and the Light Reaction' taught, and from which source text?",
+     "a": "11.2 Early Experiments, 11.3 Pigments, 11.6 The Electron Transport (source: kebo111.txt sections 11.3, 11.6)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.111.2.1",
+   "title": "Calvin Cycle and the ATP Requirement per Glucose",
+   "questions": [
+    {
+     "q": "How many atp are required to make one glucose molecule in the calvin cycle? Use the method 'Calvin Cycle and the ATP Requirement per Glucose'. Work with: glucose_molecules = 15. Carry the chain through step by step and give the final value of atp_needed.",
+     "a": "270 units",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the atp demand for synthesising a given number of glucose molecules. Use the method 'Calvin Cycle and the ATP Requirement per Glucose'. Work with: glucose_molecules = 24. Carry the chain through step by step and give the final value of atp_needed.",
+     "a": "432 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Calvin Cycle and the ATP Requirement per Glucose' refers to.",
+     "a": "The Calvin cycle fixes carbon dioxide using ATP and NADPH of the light reaction, and for the formation of one molecule of glucose the cycle requires eighteen ATP and twelve NADPH, fixing six molecules of carbon dioxide in carboxylation steps.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Calvin Cycle and the ATP Requirement per Glucose'.",
+     "a": "RuBP carboxylation, reduction and regeneration of RuBP are the three stages of the Calvin cycle, and the energy budget of eighteen ATP per glucose shows the cost of carbon fixation.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Calvin Cycle and the ATP Requirement per Glucose', in plain ASCII form.",
+     "a": "atp_needed = glucose_molecules * 18",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.111.3.1",
+   "title": "C4 Pathway and Photorespiration",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'C4 Pathway and Photorespiration' refers to.",
+     "a": "In C4 plants the Hatch and Slack pathway fixes carbon dioxide in mesophyll cells using PEP carboxylase into oxaloacetic acid, which is transported to bundle sheath cells for the Calvin cycle, avoiding the wasteful photorespiration seen in C3 plants where rubisco oxygenates RuBP.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'C4 Pathway and Photorespiration'.",
+     "a": "The Kranz anatomy of bundle sheath cells and the high CO2 affinity of PEP carboxylase make C4 plants like maize and sugarcane more efficient in hot climates.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'C4 Pathway and Photorespiration' taught, and from which source text?",
+     "a": "11.8 The C4 Pathway, 11.9 Photorespiration (source: kebo111.txt sections 11.8, 11.9)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.111.4.1",
+   "title": "Factors Affecting Photosynthesis",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Factors Affecting Photosynthesis' refers to.",
+     "a": "Photosynthesis is governed by internal factors such as chlorophyll and leaf age, and external factors of light, carbon dioxide concentration, temperature and water, following Blackman's law of limiting factors.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Factors Affecting Photosynthesis'.",
+     "a": "When several factors affect a process, the rate is decided by the factor nearest its minimal value, which is the law of limiting factors.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Factors Affecting Photosynthesis' taught, and from which source text?",
+     "a": "11.10 Factors affecting Photosynthesis (source: kebo111.txt section 11.10)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_08_003",
+   "title": "c11_cs_cbse_08_003",
+   "questions": [
+    {
+     "q": "What is the output of the following code snippet?\n```python\ndef greet():\n    print(\"Hello\")\n    \nresult = greet()\nprint(result)\n```",
+     "a": "The output is:\n```\nHello\nNone\n```\nA wrong answer (e.g., thinking `result` stores \"Hello\") reveals the misconception that `print` inside a function sends a value back to the caller. In reality, `print` only displays to the console; the function implicitly returns `None` because no `return` statement is present.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words the difference between `print(x)` inside a function and `return x` inside a function. Why does `y = func()` behave differently in each case?",
+     "a": "`print(x)` sends output to the screen but does not pass any value back to the caller; the function still returns `None`. `return x` sends the value `x` back to the caller, replacing the function call expression with `x`. Therefore, `y = func()` assigns `None` if the function only prints, but assigns the returned value if the function uses `return`. A wrong answer indicates confusion between side effects (printing) and value transmission (returning).",
+     "self_check": true
+    },
+    {
+     "q": "Write a function `square(n)` that returns the square of `n`. Then write a single line of code that calls `square`, adds 10 to the returned value, and prints the final result.",
+     "a": "```python\ndef square(n):\n    return n * n\n\nprint(square(4) + 10)  # Output: 26\n```\nSteps: 1) Define function with `return n * n`. 2) Call `square(4)` which evaluates to `16`. 3) Add `10` to get `26`. 4) Print `26`. A wrong answer (e.g., using `print` inside `square` and trying to add) shows inability to use a returned value in an expression.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the behavior of these two functions when called in an expression:\n```python\ndef f1():\n    return 5\n\ndef f2():\n    print(5)\n```\nWhat are the values of `a = f1() + 3` and `b = f2() + 3`? Explain why one works and the other raises an error.",
+     "a": "`a` becomes `8` because `f1()` returns `5`, so `5 + 3 = 8`. `b` raises `TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'` because `f2()` returns `None` (implicitly), and `None + 3` is invalid. A wrong answer reveals failure to recognize that `print` does not return a usable numeric value.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes a function to calculate the area of a circle but forgets the `return` statement. They then try to use the function in a formula: `total_area = circle_area(5) + circle_area(3)`. Evaluate whether this approach will work and justify your answer.",
+     "a": "It will not work. Without a `return` statement, `circle_area` returns `None`. Adding `None + None` raises a `TypeError`. The student must include `return 3.14 * r * r` (or similar) to send the computed area back. A wrong answer (saying it works) shows misunderstanding that a function must explicitly return a value to be used in expressions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a function `is_even(n)` that returns `True` if `n` is even, `False` otherwise. Then write a program that reads an integer from the user, calls `is_even`, and prints \"Even\" or \"Odd\" based on the returned boolean value. Provide the complete code.",
+     "a": "```python\ndef is_even(n):\n    return n % 2 == 0\n\nnum = int(input(\"Enter an integer: \"))\nif is_even(num):\n    print(\"Even\")\nelse:\n    print(\"Odd\")\n```\nA good answer uses `return` with a boolean expression and uses the function call directly in the `if` condition. A poor answer might print inside `is_even` and then try to use the return value, or use `print` instead of `return`, showing inability to design a predicate function that returns a value for decision-making.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

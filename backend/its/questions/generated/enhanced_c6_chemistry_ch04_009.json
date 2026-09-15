@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_chemistry_ch04_009",
+ "concepts": [
+  {
+   "id": "enh:c6_chemistry_ch04_009",
+   "title": "c6_chemistry_ch04_009",
+   "questions": [
+    {
+     "q": "What is the specific name for the common process where iron turns into a reddish-brown, flaky substance when exposed to air and water?",
+     "a": "The process is called rusting. A wrong answer (like \"burning\" or \"melting\") shows the student is confusing physical changes with chemical reactions caused by the environment.",
+     "self_check": true
+    },
+    {
+     "q": "If you have a metal spoon and a wooden spoon, why does the metal spoon eventually show signs of corrosion while the wooden spoon does not?",
+     "a": "Metals are reactive materials that undergo chemical changes when exposed to air and moisture, whereas wood does not react in the same way. A wrong answer suggests the student thinks all materials \"rot\" or \"rust\" equally, ignoring the specific properties of metals.",
+     "self_check": true
+    },
+    {
+     "q": "You want to protect a new iron garden chair from the rain. If you have paint, a thin cloth, and a sponge, which would be the best choice and how would you apply it?",
+     "a": "You should use paint. Step 1: Clean the chair surface of dust. Step 2: Apply a smooth, even coat of paint over the entire metal surface. Step 3: Let it dry completely. Step 4: Apply a second coat to ensure no metal is exposed to the air. A wrong answer (like using a cloth) shows the student doesn't understand the need for an airtight, permanent barrier.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we often see that the shiny surface of a metal key starts to look dull after being left in a damp drawer for a long time?",
+     "a": "The dullness is the early stage of corrosion, where the metal's surface has reacted with moisture in the air. A wrong answer suggests the student thinks the metal is simply \"getting dirty,\" rather than undergoing a chemical change.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Because gold jewelry does not rust, it must not be a metal.\" Is this correct? Why or why not?",
+     "a": "This is incorrect; gold is a metal, but it is \"noble,\" meaning it is very unreactive and does not corrode easily in normal conditions. A wrong answer indicates the student thinks \"metal\" is defined only by the ability to rust.",
+     "self_check": true
+    },
+    {
+     "q": "If you were in charge of a playground with iron slides, what schedule of maintenance would you create to prevent the slides from becoming unsafe due to corrosion?",
+     "a": "A good answer would include regular inspection, cleaning off rust spots with sandpaper, and repainting the surface periodically to maintain the protective barrier. A poor answer ignores the need for a protective layer, suggesting the student doesn't see prevention as an active process.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_10_008",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_10_008",
+   "title": "c12_cs_cbse_10_008",
+   "questions": [
+    {
+     "q": "What is the correct file mode to open a binary file for writing in Python?",
+     "a": "The correct mode is `'wb'` (write binary). A wrong answer like `'w'` reveals the student confuses text and binary modes; `'w'` opens a text file and will perform encoding/newline translation, corrupting binary data.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why opening a JPEG image file in text mode (`'r'`) and then writing it back out with `'w'` would likely corrupt the image.",
+     "a": "Text mode decodes bytes using the default encoding (UTF‑8) and translates platform‑specific newlines (`\\r\\n` ↔ `\\n`). JPEG bytes are not valid UTF‑8 and contain byte sequences that look like newlines, so decoding/encoding changes the byte values. Binary mode (`'rb'`/`'wb'`) passes bytes unchanged.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python program that copies a binary file `source.dat` to `dest.dat` in chunks of 1024 bytes, ensuring an exact byte‑for‑byte copy.",
+     "a": "```python\nwith open('source.dat', 'rb') as src, open('dest.dat', 'wb') as dst:\n    while True:\n        chunk = src.read(1024)\n        if not chunk:\n            break\n        dst.write(chunk)\n```\nSteps: 1) Open source in `'rb'`, destination in `'wb'`. 2) Read up to 1024 bytes. 3) If `chunk` is empty (`b''`), end of file reached. 4) Write chunk to destination. 5) Loop until done. A wrong answer using `'r'`/`'w'` or `readline()` shows misunderstanding of binary reading.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the behavior of `seek(0, 2)` (seek to end) in a file opened in binary mode vs. text mode. What does `tell()` return in each case?",
+     "a": "In binary mode, `seek(0, 2)` moves the pointer to the end of the file; `tell()` returns the file size in bytes. In text mode, `seek(0, 2)` is **not allowed** (raises `OSError: can't do nonzero end-relative seeks`); text mode only supports `seek(0, 0)` from the beginning. A student who thinks both work the same misses a critical restriction of text mode.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: `with open('data.bin', 'r') as f: data = f.read()` to read a binary file. Is this correct? Justify your answer.",
+     "a": "Incorrect. `'r'` opens the file in **text mode**. The `read()` call will attempt to decode the raw bytes as UTF‑8 (or locale encoding), likely raising `UnicodeDecodeError` or silently corrupting data if the bytes happen to be valid text. Binary files must be opened with `'rb'`.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple binary file format to store a list of 32‑bit signed integers (one after another, 4 bytes each, little‑endian). Write Python code to write the list `[10, -20, 300]` to `ints.bin` and then read it back into a list.",
+     "a": "```python\nimport struct",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

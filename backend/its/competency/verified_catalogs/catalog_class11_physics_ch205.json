@@ -1,0 +1,909 @@
+{
+ "class": 11,
+ "subject": "physics",
+ "chapter": 205,
+ "chapter_title": "Kinetic Theory",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\keph205.txt",
+ "concepts": [
+  {
+   "id": "keph.12.3.1",
+   "title": "Ideal Gas Equation and Molecular Relations",
+   "section": "12.3",
+   "definition": "The thermodynamic equation linking pressure, volume, temperature, and quantity of matter for a gas behaving under negligible intermolecular forces.",
+   "formula": "P * V = mu * R * T = N * k_B * T",
+   "key_idea": "Thermal state variables of an ideal gas are linked through universal constants like the gas constant and Boltzmann constant.",
+   "textbook_ref": "keph205.txt lines 90-135",
+   "question_patterns": [
+    "calculate the pressure of an ideal gas given volume moles and temperature",
+    "find the volume occupied by moles of gas at given temperature and pressure",
+    "determine the number of moles in a container of given volume pressure and temperature",
+    "what is the total number of molecules in a vessel at given pressure volume and temperature",
+    "compute the absolute temperature of a gas sample from pressure and volume"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate the product of molar amount, gas constant, and absolute temperature",
+     "explain": "energy product of the gas is determined by mu * R * T",
+     "compute": "moles * r_const * temp"
+    },
+    {
+     "step": 2,
+     "action": "divide by volume to find pressure",
+     "explain": "pressure equals the state product divided by the container volume",
+     "compute": "pv_product / volume"
+    },
+    {
+     "step": 3,
+     "action": "compute the total number of molecules using Boltzmann constant",
+     "explain": "N equals P * V divided by k_B * T, linking macroscopic state to molecular count",
+     "compute": "(pressure * volume) / (k_b * temp)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving ideal gas equation and molecular relations.",
+     "solution": "Step 1: calculate the product of molar amount, gas constant, and absolute temperature. Step 2: divide by volume to find pressure. Step 3: compute the total number of molecules using Boltzmann constant. Working: moles * r_const * temp, pv_product / volume, (pressure * volume) / (k_b * temp).",
+     "answer": "Ideal Gas Equation and Molecular Relations applied step by step gives the required result."
+    },
+    {
+     "question": "Apply ideal gas equation and molecular relations to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate the product of molar amount, gas constant, and absolute temperature. Step 2: divide by volume to find pressure. Step 3: compute the total number of molecules using Boltzmann constant. Working: moles * r_const * temp, pv_product / volume, (pressure * volume) / (k_b * temp).",
+     "answer": "The method of ideal gas equation and molecular relations leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.12.3.2",
+   "title": "Dalton's Law of Partial Pressures",
+   "section": "12.3",
+   "definition": "The total pressure exerted by a mixture of non-reactive gases equals the sum of the individual pressures each gas would exert alone in the same container.",
+   "formula": "P_total = P_1 + P_2 + ... + P_n",
+   "key_idea": "Each non-reacting component gas contributes independently to the container wall collisions.",
+   "textbook_ref": "keph205.txt lines 136-160",
+   "question_patterns": [
+    "calculate the total pressure of a gas mixture from individual partial pressures",
+    "find the partial pressure of a gas in a two component mixture",
+    "what is the total pressure when multiple non reacting gases are combined",
+    "determine the resulting pressure of a mixture of gases",
+    "compute the combined pressure from constituent partial pressures"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum the individual partial pressures",
+     "explain": "total pressure is the linear combination of partial pressures",
+     "compute": "p_gas1 + p_gas2"
+    },
+    {
+     "step": 2,
+     "action": "verify each gas occupies the full container volume independently",
+     "explain": "non-reacting gases exert their partial pressures as if alone in the same volume",
+     "compute": "p_total"
+    },
+    {
+     "step": 3,
+     "action": "confirm the total pressure equals the sum of all constituent partial pressures",
+     "explain": "Dalton's law states that total pressure is the linear sum of individual partial pressures"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving dalton's law of partial pressures.",
+     "solution": "Step 1: sum the individual partial pressures. Step 2: verify each gas occupies the full container volume independently. Step 3: confirm the total pressure equals the sum of all constituent partial pressures. Working: p_gas1 + p_gas2, p_total.",
+     "answer": "Dalton's Law of Partial Pressures applied step by step gives the required result."
+    },
+    {
+     "question": "Apply dalton's law of partial pressures to a fresh example and interpret the result.",
+     "solution": "Step 1: sum the individual partial pressures. Step 2: verify each gas occupies the full container volume independently. Step 3: confirm the total pressure equals the sum of all constituent partial pressures. Working: p_gas1 + p_gas2, p_total.",
+     "answer": "The method of dalton's law of partial pressures leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.12.4.1",
+   "title": "Kinetic Model of Gas Pressure",
+   "section": "12.4.1",
+   "definition": "Pressure arises from momentum imparted to the container boundaries during continuous elastic collisions of gas particles.",
+   "formula": "P = (1/3) * rho * v_rms**2 = (1/3) * n * m * v_rms**2",
+   "key_idea": "Macroscopic gas pressure directly reflects the microscopic momentum exchange per unit time per unit area.",
+   "textbook_ref": "keph205.txt lines 210-275",
+   "question_patterns": [
+    "calculate gas pressure from density and root mean square speed",
+    "find the pressure exerted by gas molecules of given mass density and velocity",
+    "determine the mean square velocity from gas pressure and mass density",
+    "what is the pressure produced by isotropic collisions of gas particles",
+    "compute the gas pressure using number density molecular mass and rms speed"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute the square of root mean square velocity",
+     "explain": "the velocity term is squared in the pressure derivation",
+     "compute": "v_rms ** 2"
+    },
+    {
+     "step": 2,
+     "action": "multiply density by mean squared speed and divide by 3",
+     "explain": "one third factor accounts for isotropic distribution across three spatial dimensions",
+     "compute": "(mass_density * v_sq) / 3"
+    },
+    {
+     "step": 3,
+     "action": "verify pressure using number density and molecular mass form",
+     "explain": "equivalent form P = (1/3) * n * m * v_rms^2 confirms the result via microscopic quantities",
+     "compute": "(num_density * molecular_mass * v_sq) / 3"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving kinetic model of gas pressure.",
+     "solution": "Step 1: compute the square of root mean square velocity. Step 2: multiply density by mean squared speed and divide by 3. Step 3: verify pressure using number density and molecular mass form. Working: v_rms ** 2, (mass_density * v_sq) / 3, (num_density * molecular_mass * v_sq) / 3.",
+     "answer": "Kinetic Model of Gas Pressure applied step by step gives the required result."
+    },
+    {
+     "question": "Apply kinetic model of gas pressure to a fresh example and interpret the result.",
+     "solution": "Step 1: compute the square of root mean square velocity. Step 2: multiply density by mean squared speed and divide by 3. Step 3: verify pressure using number density and molecular mass form. Working: v_rms ** 2, (mass_density * v_sq) / 3, (num_density * molecular_mass * v_sq) / 3.",
+     "answer": "The method of kinetic model of gas pressure leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.12.4.2",
+   "title": "Kinetic Interpretation of Temperature and RMS Speed",
+   "section": "12.4.2",
+   "definition": "The thermodynamic temperature of an ideal gas serves as a direct measure of the average translational kinetic energy of its constituent particles.",
+   "formula": "v_rms = sqrt(3 * R * T / M_mol) = sqrt(3 * k_B * T / m)",
+   "key_idea": "Absolute temperature sets the mean translational energy per molecule independently of the chemical identity of the gas.",
+   "textbook_ref": "keph205.txt lines 280-325",
+   "question_patterns": [
+    "calculate the root mean square speed of molecules at a given temperature",
+    "find the rms velocity of gas particles with given molar mass and temperature",
+    "determine the ratio of root mean square speeds between two different gases",
+    "what is the average translational kinetic energy of a molecule at temperature T",
+    "compute the temperature at which gas molecules achieve a specified rms speed"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate three times the universal gas constant times temperature",
+     "explain": "numerator of the rms speed formula",
+     "compute": "3 * r_const * temp"
+    },
+    {
+     "step": 2,
+     "action": "divide by molar mass in kilograms per mole and take square root",
+     "explain": "root mean square speed is the square root of 3RT/M",
+     "compute": "sqrt(numerator / molar_mass)"
+    },
+    {
+     "step": 3,
+     "action": "compute the average translational kinetic energy per molecule",
+     "explain": "average kinetic energy per molecule is (3/2) * k_B * T, confirming temperature dependence",
+     "compute": "1.5 * k_b * temp"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving kinetic interpretation of temperature and rms speed.",
+     "solution": "Step 1: calculate three times the universal gas constant times temperature. Step 2: divide by molar mass in kilograms per mole and take square root. Step 3: compute the average translational kinetic energy per molecule. Working: 3 * r_const * temp, sqrt(numerator / molar_mass), 1.5 * k_b * temp.",
+     "answer": "Kinetic Interpretation of Temperature and RMS Speed applied step by step gives the required result."
+    },
+    {
+     "question": "Apply kinetic interpretation of temperature and rms speed to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate three times the universal gas constant times temperature. Step 2: divide by molar mass in kilograms per mole and take square root. Step 3: compute the average translational kinetic energy per molecule. Working: 3 * r_const * temp, sqrt(numerator / molar_mass), 1.5 * k_b * temp.",
+     "answer": "The method of kinetic interpretation of temperature and rms speed leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.12.5.1",
+   "title": "Law of Equipartition of Energy",
+   "section": "12.5",
+   "definition": "In thermal equilibrium, the total thermal energy of a molecule is distributed equally among all its quadratic degrees of freedom, each contributing an average energy of (1/2) * k_B * T.",
+   "formula": "E_mode = (1/2) * k_B * T",
+   "key_idea": "Every independent quadratic coordinate of motion stores an average thermal energy of half k_B T at temperature T.",
+   "textbook_ref": "keph205.txt lines 375-430",
+   "question_patterns": [
+    "state the law of equipartition of energy",
+    "explain degrees of freedom for monatomic diatomic and polyatomic gases",
+    "verify how thermal energy is shared among translational and rotational modes",
+    "why does each vibrational mode contribute twice the energy of a translational mode",
+    "show that average kinetic energy per degree of freedom is half k_B T"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify active degrees of freedom",
+     "explain": "count translational, rotational, and vibrational modes based on molecular structure"
+    },
+    {
+     "step": 2,
+     "action": "allocate energy per mode",
+     "explain": "assign 0.5 * k_B * T to each translational and rotational degree, and k_B * T to each vibrational mode"
+    },
+    {
+     "step": 3,
+     "action": "sum over all active modes to obtain total average molecular energy",
+     "explain": "verify that total internal energy equals the product of total degrees and 0.5 * k_B * T"
+    }
+   ]
+  },
+  {
+   "id": "keph.12.6.1",
+   "title": "Molar Specific Heat of Monatomic Gases",
+   "section": "12.6.1",
+   "definition": "A monatomic gas possesses solely three translational degrees of freedom, giving a constant-volume molar heat capacity of 1.5 R.",
+   "formula": "C_v = (3/2) * R, C_p = (5/2) * R, gamma = 5/3",
+   "key_idea": "Monatomic molecules only store translational energy, leading to a specific heat ratio of 1.67.",
+   "textbook_ref": "keph205.txt lines 431-455",
+   "question_patterns": [
+    "calculate the heat required to raise the temperature of a monatomic gas at constant volume",
+    "find the molar specific heat at constant pressure for a monatomic gas",
+    "what is the ratio of specific heats gamma for a monatomic gas",
+    "determine the internal energy change of a monatomic gas sample",
+    "compute the molar heat capacity Cv for a monoatomic gas"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate the constant volume molar heat capacity",
+     "explain": "Cv equals 1.5 * R for monatomic gas",
+     "compute": "1.5 * r_const"
+    },
+    {
+     "step": 2,
+     "action": "calculate total heat absorbed at constant volume",
+     "explain": "heat equals moles * Cv * temperature rise",
+     "compute": "moles * c_v * delta_t"
+    },
+    {
+     "step": 3,
+     "action": "compute the specific heat ratio gamma for the monatomic gas",
+     "explain": "gamma equals Cp divided by Cv, where Cp = Cv + R, giving 5/3 for monatomic gases",
+     "compute": "(c_v + r_const) / c_v"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving molar specific heat of monatomic gases.",
+     "solution": "Step 1: calculate the constant volume molar heat capacity. Step 2: calculate total heat absorbed at constant volume. Step 3: compute the specific heat ratio gamma for the monatomic gas. Working: 1.5 * r_const, moles * c_v * delta_t, (c_v + r_const) / c_v.",
+     "answer": "Molar Specific Heat of Monatomic Gases applied step by step gives the required result."
+    },
+    {
+     "question": "Apply molar specific heat of monatomic gases to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate the constant volume molar heat capacity. Step 2: calculate total heat absorbed at constant volume. Step 3: compute the specific heat ratio gamma for the monatomic gas. Working: 1.5 * r_const, moles * c_v * delta_t, (c_v + r_const) / c_v.",
+     "answer": "The method of molar specific heat of monatomic gases leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.12.6.2",
+   "title": "Molar Specific Heat of Diatomic Gases",
+   "section": "12.6.2",
+   "definition": "A rigid diatomic molecule holds three translational and two rotational degrees of freedom, resulting in a constant-volume molar heat capacity of 2.5 R.",
+   "formula": "C_v = (5/2) * R, C_p = (7/2) * R, gamma = 7/5",
+   "key_idea": "Rigid diatomic gases possess five active degrees of freedom at ordinary temperatures.",
+   "textbook_ref": "keph205.txt lines 456-480",
+   "question_patterns": [
+    "calculate the constant volume molar specific heat of a rigid diatomic gas",
+    "find the molar heat capacity at constant pressure for diatomic molecules",
+    "what is the specific heat ratio gamma for a rigid diatomic gas",
+    "determine the heat absorbed by a diatomic gas during temperature change at constant volume",
+    "compute the internal energy of one mole of rigid diatomic gas at temperature T"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate constant volume molar heat capacity for rigid diatomic gas",
+     "explain": "Cv equals 2.5 * R for rigid diatomic molecules",
+     "compute": "2.5 * r_const"
+    },
+    {
+     "step": 2,
+     "action": "compute the required thermal energy change",
+     "explain": "heat equals moles times Cv times temperature difference",
+     "compute": "moles * c_v * delta_t"
+    },
+    {
+     "step": 3,
+     "action": "compute the specific heat ratio gamma for the rigid diatomic gas",
+     "explain": "gamma equals Cp divided by Cv, where Cp = Cv + R, giving 7/5 for rigid diatomic gases",
+     "compute": "(c_v + r_const) / c_v"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving molar specific heat of diatomic gases.",
+     "solution": "Step 1: calculate constant volume molar heat capacity for rigid diatomic gas. Step 2: compute the required thermal energy change. Step 3: compute the specific heat ratio gamma for the rigid diatomic gas. Working: 2.5 * r_const, moles * c_v * delta_t, (c_v + r_const) / c_v.",
+     "answer": "Molar Specific Heat of Diatomic Gases applied step by step gives the required result."
+    },
+    {
+     "question": "Apply molar specific heat of diatomic gases to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate constant volume molar heat capacity for rigid diatomic gas. Step 2: compute the required thermal energy change. Step 3: compute the specific heat ratio gamma for the rigid diatomic gas. Working: 2.5 * r_const, moles * c_v * delta_t, (c_v + r_const) / c_v.",
+     "answer": "The method of molar specific heat of diatomic gases leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.12.6.3",
+   "title": "Specific Heat Capacity of Solids",
+   "section": "12.6.4",
+   "definition": "At standard temperatures, each atom in a crystalline solid oscillates in three dimensions with six quadratic energy terms, giving a molar specific heat of 3 R.",
+   "formula": "C = 3 * R",
+   "key_idea": "The Dulong-Petit relation predicts molar heat capacity of solids to approach 3 R at room temperature.",
+   "textbook_ref": "keph205.txt lines 510-535",
+   "question_patterns": [
+    "calculate the molar heat capacity of a solid at room temperature",
+    "find the amount of heat needed to raise the temperature of a solid element",
+    "determine the specific heat capacity of a solid using Dulong Petit law",
+    "what is the predicted molar specific heat for elemental solids",
+    "compute the thermal energy required to warm moles of a solid by delta T"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate the molar specific heat of the solid",
+     "explain": "C equals 3 * R under the Dulong-Petit formulation",
+     "compute": "3 * r_const"
+    },
+    {
+     "step": 2,
+     "action": "compute total thermal energy absorbed",
+     "explain": "heat is moles * molar specific heat * delta T",
+     "compute": "moles * c_solid * delta_t"
+    },
+    {
+     "step": 3,
+     "action": "verify the Dulong-Petit prediction against the computed molar heat capacity",
+     "explain": "confirm that the molar heat capacity approaches 3R as required by the Dulong-Petit law for solids at room temperature"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving specific heat capacity of solids.",
+     "solution": "Step 1: evaluate the molar specific heat of the solid. Step 2: compute total thermal energy absorbed. Step 3: verify the Dulong-Petit prediction against the computed molar heat capacity. Working: 3 * r_const, moles * c_solid * delta_t.",
+     "answer": "Specific Heat Capacity of Solids applied step by step gives the required result."
+    },
+    {
+     "question": "Apply specific heat capacity of solids to a fresh example and interpret the result.",
+     "solution": "Step 1: evaluate the molar specific heat of the solid. Step 2: compute total thermal energy absorbed. Step 3: verify the Dulong-Petit prediction against the computed molar heat capacity. Working: 3 * r_const, moles * c_solid * delta_t.",
+     "answer": "The method of specific heat capacity of solids leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.12.7.1",
+   "title": "Mean Free Path of Gas Molecules",
+   "section": "12.7",
+   "definition": "The average straight-line distance traversed by a gas particle between two consecutive collisions with neighboring particles.",
+   "formula": "lambda = 1 / (sqrt(2) * n * pi * d**2)",
+   "key_idea": "Mean free path is inversely related to molecular number density and collision cross section.",
+   "textbook_ref": "keph205.txt lines 540-600",
+   "question_patterns": [
+    "calculate the mean free path of gas molecules given density and diameter",
+    "find the mean free path of particles in a gas at given number density",
+    "determine the average distance between successive collisions of gas molecules",
+    "what is the collision mean free path for molecules of diameter d",
+    "compute the mean free path of molecules in a gas at standard temperature and pressure"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute the collision cross section denominator factor",
+     "explain": "evaluate sqrt(2) * pi * d^2 * number_density",
+     "compute": "sqrt(2) * pi * (diameter ** 2) * num_density"
+    },
+    {
+     "step": 2,
+     "action": "take the reciprocal of the cross factor",
+     "explain": "mean free path equals 1 divided by the cross factor",
+     "compute": "1 / cross_factor"
+    },
+    {
+     "step": 3,
+     "action": "verify the mean free path dependence on number density and molecular diameter",
+     "explain": "confirm that mean free path decreases with increasing number density or molecular diameter, consistent with kinetic theory"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving mean free path of gas molecules.",
+     "solution": "Step 1: compute the collision cross section denominator factor. Step 2: take the reciprocal of the cross factor. Step 3: verify the mean free path dependence on number density and molecular diameter. Working: sqrt(2) * pi * (diameter ** 2) * num_density, 1 / cross_factor.",
+     "answer": "Mean Free Path of Gas Molecules applied step by step gives the required result."
+    },
+    {
+     "question": "Apply mean free path of gas molecules to a fresh example and interpret the result.",
+     "solution": "Step 1: compute the collision cross section denominator factor. Step 2: take the reciprocal of the cross factor. Step 3: verify the mean free path dependence on number density and molecular diameter. Working: sqrt(2) * pi * (diameter ** 2) * num_density, 1 / cross_factor.",
+     "answer": "The method of mean free path of gas molecules leads to the required value or conclusion."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "keph205.txt Example 12.4",
+   "concept": "keph.12.3.2",
+   "question_type": "compute",
+   "question_pattern": "A vessel contains two non-reactive gases with partial pressures {p_gas1} Pa and {p_gas2} Pa. Calculate the total pressure in the vessel.",
+   "extracted_variables": {
+    "p_gas1": 150000,
+    "p_gas2": 100000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum the individual partial pressures",
+     "explain": "total pressure is the linear combination of partial pressures",
+     "compute": "p_total = p_gas1 + p_gas2"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "keph205.txt Example 12.4 variation",
+   "concept": "keph.12.3.2",
+   "question_type": "compute",
+   "question_pattern": "Two gases inside a container exert partial pressures of {p_gas1} Pa and {p_gas2} Pa. Determine the total pressure.",
+   "extracted_variables": {
+    "p_gas1": 300000,
+    "p_gas2": 200000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum the individual partial pressures",
+     "explain": "total pressure is the linear combination of partial pressures",
+     "compute": "p_total = p_gas1 + p_gas2"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "keph205.txt Section 12.3",
+   "concept": "keph.12.3.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the pressure of {moles} moles of an ideal gas occupying a volume of {volume} m3 at temperature {temp} K with gas constant {r_const} J/(mol K).",
+   "extracted_variables": {
+    "moles": 2,
+    "volume": 0.0448,
+    "temp": 273,
+    "r_const": 8.314
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate the product of molar amount, gas constant, and absolute temperature",
+     "explain": "energy product of the gas is determined by mu * R * T",
+     "compute": "pv_product = moles * r_const * temp"
+    },
+    {
+     "step": 2,
+     "action": "divide by volume to find pressure",
+     "explain": "pressure equals the state product divided by the container volume",
+     "compute": "pressure = pv_product / volume"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "keph205.txt Section 12.3 variation",
+   "concept": "keph.12.3.1",
+   "question_type": "compute",
+   "question_pattern": "Find the pressure of {moles} moles of gas held in a {volume} m3 tank at {temp} K with R equal to {r_const} J/(mol K).",
+   "extracted_variables": {
+    "moles": 5,
+    "volume": 0.05,
+    "temp": 300,
+    "r_const": 8.314
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate the product of molar amount, gas constant, and absolute temperature",
+     "explain": "energy product of the gas is determined by mu * R * T",
+     "compute": "pv_product = moles * r_const * temp"
+    },
+    {
+     "step": 2,
+     "action": "divide by volume to find pressure",
+     "explain": "pressure equals the state product divided by the container volume",
+     "compute": "pressure = pv_product / volume"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "keph205.txt Section 12.4.1",
+   "concept": "keph.12.4.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the pressure exerted by a gas of mass density {mass_density} kg/m3 whose molecules have an rms velocity of {v_rms} m/s.",
+   "extracted_variables": {
+    "mass_density": 1.2,
+    "v_rms": 500
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute the square of root mean square velocity",
+     "explain": "the velocity term is squared in the pressure derivation",
+     "compute": "v_sq = v_rms ** 2"
+    },
+    {
+     "step": 2,
+     "action": "multiply density by mean squared speed and divide by 3",
+     "explain": "one third factor accounts for isotropic distribution across three spatial dimensions",
+     "compute": "pressure = (mass_density * v_sq) / 3"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "keph205.txt Section 12.4.1 variation",
+   "concept": "keph.12.4.1",
+   "question_type": "compute",
+   "question_pattern": "Determine the pressure in a gas with mass density {mass_density} kg/m3 and root mean square speed {v_rms} m/s.",
+   "extracted_variables": {
+    "mass_density": 0.6,
+    "v_rms": 400
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute the square of root mean square velocity",
+     "explain": "the velocity term is squared in the pressure derivation",
+     "compute": "v_sq = v_rms ** 2"
+    },
+    {
+     "step": 2,
+     "action": "multiply density by mean squared speed and divide by 3",
+     "explain": "one third factor accounts for isotropic distribution across three spatial dimensions",
+     "compute": "pressure = (mass_density * v_sq) / 3"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "keph205.txt Section 12.4.2 / Example 12.5",
+   "concept": "keph.12.4.2",
+   "question_type": "compute",
+   "question_pattern": "Find the root mean square speed of nitrogen gas molecules at temperature {temp} K given molar mass {molar_mass} kg/mol and gas constant {r_const} J/(mol K).",
+   "extracted_variables": {
+    "temp": 300,
+    "molar_mass": 0.028,
+    "r_const": 8.314
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate three times the universal gas constant times temperature",
+     "explain": "numerator of the rms speed formula",
+     "compute": "numerator = 3 * r_const * temp"
+    },
+    {
+     "step": 2,
+     "action": "divide by molar mass in kilograms per mole and take square root",
+     "explain": "root mean square speed is the square root of 3RT/M",
+     "compute": "v_rms = sqrt(numerator / molar_mass)"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "keph205.txt Section 12.4.2 variation",
+   "concept": "keph.12.4.2",
+   "question_type": "compute",
+   "question_pattern": "Compute the rms speed of oxygen molecules at temperature {temp} K with molar mass {molar_mass} kg/mol and R of {r_const} J/(mol K).",
+   "extracted_variables": {
+    "temp": 320,
+    "molar_mass": 0.032,
+    "r_const": 8.314
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate three times the universal gas constant times temperature",
+     "explain": "numerator of the rms speed formula",
+     "compute": "numerator = 3 * r_const * temp"
+    },
+    {
+     "step": 2,
+     "action": "divide by molar mass in kilograms per mole and take square root",
+     "explain": "root mean square speed is the square root of 3RT/M",
+     "compute": "v_rms = sqrt(numerator / molar_mass)"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "keph205.txt Example 12.8",
+   "concept": "keph.12.6.1",
+   "question_type": "compute",
+   "question_pattern": "A fixed volume cylinder holds {moles} moles of helium gas. What heat is needed to raise its temperature by {delta_t} K given gas constant {r_const} J/(mol K)?",
+   "extracted_variables": {
+    "moles": 2,
+    "delta_t": 15.0,
+    "r_const": 8.314
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate the constant volume molar heat capacity",
+     "explain": "Cv equals 1.5 * R for monatomic gas",
+     "compute": "c_v = 1.5 * r_const"
+    },
+    {
+     "step": 2,
+     "action": "calculate total heat absorbed at constant volume",
+     "explain": "heat equals moles * Cv * temperature rise",
+     "compute": "heat = moles * c_v * delta_t"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "keph205.txt Example 12.8 variation",
+   "concept": "keph.12.6.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the heat absorbed by {moles} moles of neon gas when heated at constant volume through {delta_t} K with R equal to {r_const} J/(mol K).",
+   "extracted_variables": {
+    "moles": 4,
+    "delta_t": 20.0,
+    "r_const": 8.314
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate the constant volume molar heat capacity",
+     "explain": "Cv equals 1.5 * R for monatomic gas",
+     "compute": "c_v = 1.5 * r_const"
+    },
+    {
+     "step": 2,
+     "action": "calculate total heat absorbed at constant volume",
+     "explain": "heat equals moles * Cv * temperature rise",
+     "compute": "heat = moles * c_v * delta_t"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "keph205.txt Section 12.6.2",
+   "concept": "keph.12.6.2",
+   "question_type": "compute",
+   "question_pattern": "Determine the amount of heat needed to warm {moles} moles of nitrogen gas in a rigid container by {delta_t} K using gas constant {r_const} J/(mol K).",
+   "extracted_variables": {
+    "moles": 3,
+    "delta_t": 10.0,
+    "r_const": 8.314
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate constant volume molar heat capacity for rigid diatomic gas",
+     "explain": "Cv equals 2.5 * R for rigid diatomic molecules",
+     "compute": "c_v = 2.5 * r_const"
+    },
+    {
+     "step": 2,
+     "action": "compute the required thermal energy change",
+     "explain": "heat equals moles times Cv times temperature difference",
+     "compute": "heat = moles * c_v * delta_t"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "keph205.txt Section 12.6.2 variation",
+   "concept": "keph.12.6.2",
+   "question_type": "compute",
+   "question_pattern": "Find the heat required to raise the temperature of {moles} moles of oxygen gas at constant volume by {delta_t} K with R as {r_const} J/(mol K).",
+   "extracted_variables": {
+    "moles": 2,
+    "delta_t": 25.0,
+    "r_const": 8.314
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate constant volume molar heat capacity for rigid diatomic gas",
+     "explain": "Cv equals 2.5 * R for rigid diatomic molecules",
+     "compute": "c_v = 2.5 * r_const"
+    },
+    {
+     "step": 2,
+     "action": "compute the required thermal energy change",
+     "explain": "heat equals moles times Cv times temperature difference",
+     "compute": "heat = moles * c_v * delta_t"
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "keph205.txt Section 12.6.4",
+   "concept": "keph.12.6.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate the heat needed to raise the temperature of {moles} moles of copper solid by {delta_t} K using the Dulong Petit approximation with R equal to {r_const} J/(mol K).",
+   "extracted_variables": {
+    "moles": 2,
+    "delta_t": 30.0,
+    "r_const": 8.314
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "evaluate the molar specific heat of the solid",
+     "explain": "C equals 3 * R under the Dulong-Petit formulation",
+     "compute": "c_solid = 3 * r_const"
+    },
+    {
+     "step": 2,
+     "action": "compute total thermal energy absorbed",
+     "explain": "heat is moles * molar specific heat * delta T",
+     "compute": "heat = moles * c_solid * delta_t"
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "keph205.txt Section 12.6.4 variation",
+   "concept": "keph.12.6.3",
+   "question_type": "compute",
+   "question_pattern": "What amount of heat is absorbed by {moles} moles of aluminium solid when warmed by {delta_t} K where R is {r_const} J/(mol K)?",
+   "extracted_variables": {
+    "moles": 5,
+    "delta_t": 12.0,
+    "r_const": 8.314
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "evaluate the molar specific heat of the solid",
+     "explain": "C equals 3 * R under the Dulong-Petit formulation",
+     "compute": "c_solid = 3 * r_const"
+    },
+    {
+     "step": 2,
+     "action": "compute total thermal energy absorbed",
+     "explain": "heat is moles * molar specific heat * delta T",
+     "compute": "heat = moles * c_solid * delta_t"
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "keph205.txt Section 12.7 / Example 12.9",
+   "concept": "keph.12.7.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the mean free path for gas molecules with diameter {diameter} m and number density {num_density} per m3.",
+   "extracted_variables": {
+    "diameter": 2e-10,
+    "num_density": 27000000000000000000000000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute the collision cross section denominator factor",
+     "explain": "evaluate sqrt(2) * pi * d^2 * number_density",
+     "compute": "cross_factor = sqrt(2) * pi * (diameter ** 2) * num_density"
+    },
+    {
+     "step": 2,
+     "action": "take the reciprocal of the cross factor",
+     "explain": "mean free path equals 1 divided by the cross factor",
+     "compute": "mean_path = 1 / cross_factor"
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "keph205.txt Section 12.7 variation",
+   "concept": "keph.12.7.1",
+   "question_type": "compute",
+   "question_pattern": "Find the mean free path of gas particles having effective diameter {diameter} m at a number density of {num_density} m-3.",
+   "extracted_variables": {
+    "diameter": 3e-10,
+    "num_density": 20000000000000000000000000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute the collision cross section denominator factor",
+     "explain": "evaluate sqrt(2) * pi * d^2 * number_density",
+     "compute": "cross_factor = sqrt(2) * pi * (diameter ** 2) * num_density"
+    },
+    {
+     "step": 2,
+     "action": "take the reciprocal of the cross factor",
+     "explain": "mean free path equals 1 divided by the cross factor",
+     "compute": "mean_path = 1 / cross_factor"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex12.1",
+   "source_ref": "keph205.txt line 640",
+   "questions": [
+    "Estimate the fraction of molecular volume to the actual volume occupied by oxygen gas at STP. Take the diameter of an oxygen molecule to be 3 Angstrom."
+   ]
+  },
+  {
+   "id": "ex12.2",
+   "source_ref": "keph205.txt line 642",
+   "questions": [
+    "Molar volume is the volume occupied by 1 mol of any (ideal) gas at standard temperature and pressure (STP : 1 atmospheric pressure, 0 deg C). Show that it is 22.4 litres."
+   ]
+  },
+  {
+   "id": "ex12.3",
+   "source_ref": "keph205.txt line 645",
+   "questions": [
+    "Figure shows plot of PV/T versus P for 1.00 x 10^-3 kg of oxygen gas at two different temperatures. (a) What does the dotted plot signify? (b) Which is true: T1 > T2 or T1 < T2? (c) What is the value of PV/T where the curves meet on the y-axis? (d) If we obtained similar plots for 1.00 x 10^-3 kg of hydrogen, would we get the same value of PV/T at the intercept? If not, what mass of hydrogen yields the same value?"
+   ]
+  },
+  {
+   "id": "ex12.4",
+   "source_ref": "keph205.txt line 655",
+   "questions": [
+    "An oxygen cylinder of volume 30 litre has an initial gauge pressure of 15 atm and a temperature of 27 deg C. After some oxygen is withdrawn from the cylinder, the gauge pressure drops to 11 atm and its temperature drops to 17 deg C. Estimate the mass of oxygen taken out of the cylinder (R = 8.31 J mol^-1 K^-1, molecular mass of O2 = 32 u)."
+   ]
+  },
+  {
+   "id": "ex12.5",
+   "source_ref": "keph205.txt line 660",
+   "questions": [
+    "An air bubble of volume 1.0 cm3 rises from the bottom of a lake 40 m deep at a temperature of 12 deg C. To what volume does it grow when it reaches the surface, which is at a temperature of 35 deg C?"
+   ]
+  },
+  {
+   "id": "ex12.6",
+   "source_ref": "keph205.txt line 665",
+   "questions": [
+    "Estimate the total number of air molecules (inclusive of oxygen, nitrogen, water vapour and other constituents) in a room of capacity 25.0 m3 at a temperature of 27 deg C and 1 atm pressure."
+   ]
+  },
+  {
+   "id": "ex12.7",
+   "source_ref": "keph205.txt line 670",
+   "questions": [
+    "Estimate the average thermal energy of a helium atom at (i) room temperature (27 deg C), (ii) the temperature on the surface of the Sun (6000 K), (iii) the temperature of 10 million kelvin (the typical core temperature in the case of a star)."
+   ]
+  },
+  {
+   "id": "ex12.8",
+   "source_ref": "keph205.txt line 675",
+   "questions": [
+    "Three vessels of equal capacity have gases at the same temperature and pressure. The first vessel contains neon (monatomic), the second contains chlorine (diatomic), and the third contains uranium hexafluoride (polyatomic). Do the vessels contain equal number of respective molecules? Is the root mean square speed of molecules the same in the three cases? If not, in which case is v_rms the largest?"
+   ]
+  },
+  {
+   "id": "ex12.9",
+   "source_ref": "keph205.txt line 680",
+   "questions": [
+    "At what temperature is the root mean square speed of an atom in an argon gas cylinder equal to the rms speed of a helium gas atom at -20 deg C? (atomic mass of Ar = 39.9 u, of He = 4.0 u)."
+   ]
+  },
+  {
+   "id": "ex12.10",
+   "source_ref": "keph205.txt line 685",
+   "questions": [
+    "Estimate the mean free path and collision frequency of a nitrogen molecule in a cylinder containing nitrogen at 2.0 atm and temperature 17 deg C. Take the radius of a nitrogen molecule to be roughly 1.0 Angstrom. Compare the collision time with the time the molecule moves freely between two successive collisions (Molecular mass of N2 = 28.0 u)."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

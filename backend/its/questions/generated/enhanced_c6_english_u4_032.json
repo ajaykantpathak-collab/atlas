@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_english_u4_032",
+ "concepts": [
+  {
+   "id": "enh:c6_english_u4_032",
+   "title": "c6_english_u4_032",
+   "questions": [
+    {
+     "q": "What is a character trait?",
+     "a": "A character trait is a quality or characteristic of a person's personality, like being brave or curious. A wrong answer (like \"a character trait is a plot point\") reveals the student confuses what a character *does* with who they *are*.",
+     "self_check": true
+    },
+    {
+     "q": "If Suraj explores the jungle alone, what does this tell us about him?",
+     "a": "It tells us he is independent and adventurous. A wrong answer (like \"he is bored\") ignores the implication of his willingness to be on his own, suggesting the student is guessing rather than interpreting behavior.",
+     "self_check": true
+    },
+    {
+     "q": "Suraj watches the train every day. How would you describe this quality?",
+     "a": "This shows curiosity. If the student answers \"habit,\" they are describing the frequency of the action, not the underlying personality trait driving it.",
+     "self_check": true
+    },
+    {
+     "q": "How does Suraj’s reaction to danger help us understand his character?",
+     "a": "His calm response shows he possesses courage. If the student says \"it makes the story exciting,\" they are focusing on the plot instead of the character analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Is it fair to call Suraj \"courageous\" if he is also afraid? Why or why not?",
+     "a": "Yes, because courage is acting in spite of fear, not the absence of fear. If a student says \"No, he can't be brave if he's afraid,\" they misunderstand that true courage requires overcoming an internal challenge.",
+     "self_check": true
+    },
+    {
+     "q": "Describe Suraj as if you were introducing him to a new friend. What would you highlight?",
+     "a": "A good answer mentions his curiosity about the tunnel and his independent spirit. A poor answer just lists \"he likes trains,\" which is a preference, not a character trait.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

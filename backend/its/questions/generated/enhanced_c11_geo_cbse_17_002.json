@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_17_002",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_17_002",
+   "title": "c11_geo_cbse_17_002",
+   "questions": [
+    {
+     "q": "Name the three main rural settlement patterns discussed in this chapter and give one physical factor that influences each.",
+     "a": "The three main patterns are linear, rectangular, and circular. Linear patterns are influenced by linear physical features such as roads, rivers, or contours; rectangular patterns by flat, featureless terrain with uniform soil fertility; circular patterns by a central point resource like a pond, spring, or temple. A wrong answer (e.g., listing \"nucleated\" and \"dispersed\" instead of geometric patterns) reveals confusion between settlement *morphology* (shape) and settlement *dispersion* (spacing), a common senior-secondary error.",
+     "self_check": true
+    },
+    {
+     "q": "Why do rectangular settlements dominate the Indo-Gangetic plain while circular settlements are common in the Rajasthan desert? Explain the physical and human reasoning.",
+     "a": "The Indo-Gangetic plain offers flat, deep alluvial soil with uniform fertility and a dense canal/road network, encouraging a grid layout that maximises agricultural efficiency and ease of movement. In contrast, the Rajasthan desert has scarce water; villages cluster around a single reliable source (pond, well), producing a circular pattern for equitable access and defence. A wrong answer that attributes rectangular patterns only to \"flat land\" without mentioning the cadastral survey/land revenue system (human factor) or circular patterns only to \"water scarcity\" without noting the role of communal resource management shows incomplete multi-factor reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Given a 1:50,000 topographical map extract showing a village aligned along a contour line at 300 m with a river in the valley below, identify the settlement pattern and explain why the village is located on the contour rather than on the riverbank.",
+     "a": "Step 1: Observe the alignment of houses along the 300 m contour → linear pattern. Step 2: Note the river in the valley floor → flood risk, waterlogging, marshy soil. Step 3: Recall that in hilly/mountainous regions (e.g., Siwaliks, Western Ghats), settlements avoid valley floors due to flooding, cold air drainage, and poor drainage. Step 4: The contour line represents a stable, well-drained shelf with access to both slope cultivation and valley water. Step 5: Conclude the pattern is linear along the contour, driven by flood avoidance and aspect preference. A wrong answer placing the village on the riverbank ignores the flood hazard concept from Class 9 physical geography.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the rectangular settlement pattern of the Punjab-Haryana plain with the linear pattern of the Konkan coast. Identify two physical and one human factor that differentiate them.",
+     "a": "Physical factors: (1) Punjab-Haryana has vast, flat, featureless alluvial plains; Konkan has a narrow coastal strip backed by steep Western Ghats. (2) Punjab-Haryana has perennial canal irrigation enabling uniform cultivation; Konkan relies on seasonal rainfall and lateritic soil, limiting arable land to narrow valleys. Human factor: The British cadastral survey imposed a rectangular grid for revenue collection in Punjab-Haryana, while Konkan villages grew organically along the coast and river creeks for fishing and maritime trade. A wrong answer that cites only \"flat vs. hilly\" misses the critical role of land revenue systems and economic activity (agriculture vs. fishing/trade).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Circular rural settlements are always located around a natural water body.\" Provide a counter-example from India and explain the alternative central feature.",
+     "a": "The statement is false. While many circular settlements (e.g., around a *johad* in Haryana or a spring in Uttarakhand) form around water, others form around a temple (e.g., temple-centred villages in Tamil Nadu), a fort (e.g., *garh* villages in Madhya Pradesh), or a common grazing land (*gauchar* in Gujarat). The unifying principle is a central *focal point* that serves a critical communal need—water, defence, religion, or pasture—not exclusively a natural water body. A wrong answer that insists on water bodies shows a rigid, single-factor mental model and ignores the socio-cultural dimension of settlement morphology.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical village layout for a new settlement in the Tarai region of Uttarakhand (flat, formerly forested, high water table, malaria-prone historically). Justify your chosen pattern with three factors.",
+     "a": "A rectangular grid pattern with wide, straight streets intersecting at right angles. Factor 1: The Tarai is a flat, featureless alluvial plain after deforestation, ideal for a grid. Factor 2: High water table and historical malaria require planned drainage and wide spacing for ventilation—rectangular layouts facilitate engineered drainage canals. Factor 3: Government resettlement schemes (e.g., for displaced persons) typically impose rectangular cadastral plots for equitable land distribution and administrative ease. A poor answer that suggests a circular pattern for \"community cohesion\" ignores the region's physical transformation and state-led planning history.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

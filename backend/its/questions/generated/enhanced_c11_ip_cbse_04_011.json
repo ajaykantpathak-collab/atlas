@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_04_011",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_04_011",
+   "title": "c11_ip_cbse_04_011",
+   "questions": [
+    {
+     "q": "What does the expression `d.keys()` return for a dictionary `d`, and how does it behave if you later add a new key to `d`?",
+     "a": "It returns a `dict_keys` view object that dynamically reflects the dictionary's keys. If a new key is added to `d`, the view automatically includes it without needing to call `keys()` again. A wrong answer (e.g., \"it returns a static list\") reveals the student thinks the method creates a snapshot rather than a live view.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why `d.get('missing_key')` is safer than `d['missing_key']` when the key might not exist in dictionary `d`.",
+     "a": "`d['missing_key']` raises a `KeyError` and stops the program, while `d.get('missing_key')` returns `None` (or a provided default) and lets the program continue. A wrong answer (e.g., \"both return None\") shows the student confuses the two access methods and doesn't understand exception handling.",
+     "self_check": true
+    },
+    {
+     "q": "Given `d = {'a': 1, 'b': 2}` and `e = {'b': 3, 'c': 4}`, write the code to merge `e` into `d` so that `d` becomes `{'a': 1, 'b': 3, 'c': 4}`. What happens to the original value of key `'b'`?",
+     "a": "`d.update(e)` merges `e` into `d`; the value of `'b'` is overwritten from `2` to `3`. A wrong answer (e.g., \"d becomes {'a':1, 'b':2, 'c':4}\") indicates the student thinks `update` preserves existing keys instead of overwriting them.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the output of `list(d.items())` and `list(d.keys())` for `d = {'x': 10, 'y': 20}`. What data structure does each produce, and how are they related?",
+     "a": "`d.items()` produces a list of tuples `[('x', 10), ('y', 20)]`; `d.keys()` produces a list of keys `['x', 'y']`. The first element of each tuple in `items()` corresponds to an element in `keys()`. A wrong answer (e.g., \"both produce lists of keys\") shows the student doesn't grasp that `items()` returns key-value pairs.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `del d['z']` on a dictionary `d` that has no key `'z'`. What error occurs, and how could the student avoid it using a method covered in this node?",
+     "a": "A `KeyError` is raised. The student could use `d.pop('z', None)` (though `pop` is not in scope) or check `'z' in d` before deletion. Since `pop` is not in the syllabus, the correct avoidance is `if 'z' in d: del d['z']`. A wrong answer (e.g., \"use d.get('z')\") reveals confusion between retrieval and deletion.",
+     "self_check": true
+    },
+    {
+     "q": "Design a small phone-book program fragment that: (1) starts with two contacts, (2) safely retrieves a number for a name that might not exist, printing \"Not found\" if absent, (3) adds three new contacts from another dictionary, and (4) deletes one contact by name. Use only methods from this node.",
+     "a": "```python\nphone = {'Alice': '98765', 'Bob': '87654'}\nprint(phone.get('Charlie', 'Not found'))  # safe retrieval\nnew_contacts = {'Charlie': '76543', 'Diana': '65432', 'Eve': '54321'}\nphone.update(new_contacts)                # merge\ndel phone['Alice']                        # delete\n```\nA poor answer (e.g., using `phone['Charlie']` or missing `update`) shows the student cannot combine the methods in a realistic sequence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

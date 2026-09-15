@@ -1,0 +1,252 @@
+{
+ "class": 11,
+ "subject": "chemistry",
+ "chapter": 101,
+ "chapter_title": "Some Basic Concepts of Chemistry",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kech101.txt",
+ "concepts": [
+  {
+   "id": "kech.101.1.1",
+   "title": "Matter, States and the Nature of Matter",
+   "section": "Basic concepts",
+   "definition": "Chemistry studies the composition, structure, properties and changes of matter, which exists in solid, liquid and gaseous states and shows physical and chemical properties, with the three states interconvertible by changing temperature and pressure.",
+   "formula": "",
+   "key_idea": "The solid state has ordered particles, liquids have mobility with contacts, and gases fill the whole space, so state changes are physical transformations without altering composition.",
+   "textbook_ref": "kech101.txt states of matter section",
+   "question_patterns": [
+    "define chemistry and its scope",
+    "describe the three states of matter",
+    "differentiate physical and chemical properties of matter",
+    "how are the three states of matter interconverted",
+    "classify matter into mixtures and pure substances",
+    "what are homogeneous and heterogeneous mixtures"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the state",
+     "explain": "Observe particle arrangement of the given matter."
+    },
+    {
+     "step": 2,
+     "action": "check the change type",
+     "explain": "Separate physical change from chemical change."
+    },
+    {
+     "step": 3,
+     "action": "classify the substance",
+     "explain": "Place it as mixture or pure substance."
+    }
+   ]
+  },
+  {
+   "id": "kech.101.2.1",
+   "title": "Mole Concept and Molar Mass Computation",
+   "section": "Mole concept and molar mass",
+   "definition": "One mole of a substance contains 6.022 x 10^23 particles, and its mass in grams equals the molar mass, so the number of moles is the given mass divided by the molar mass of the substance.",
+   "formula": "moles = mass / molar_mass",
+   "key_idea": "Avogadro's number 6.022 x 10^23 links the microscopic count of particles to the macroscopic mass measured on a balance.",
+   "textbook_ref": "kech101.txt mole concept and molar mass section",
+   "question_patterns": [
+    "define a mole and avogadro number",
+    "calculate the number of moles from the given mass",
+    "find the molar mass of a compound from its formula",
+    "how many particles are present in a given number of moles",
+    "compute the mass of a given number of moles",
+    "relate mole mass and number of particles"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide mass by molar mass",
+     "explain": "Divide the given mass of the substance by its molar mass to get the number of moles",
+     "compute": "moles = mass / molar_mass"
+    }
+   ]
+  },
+  {
+   "id": "kech.101.3.1",
+   "title": "Mass Percent, Empirical and Molecular Formula",
+   "section": "Percentage composition",
+   "definition": "The mass percent of an element in a compound is the mass of that element in one mole of the compound divided by the molar mass and multiplied by 100, and empirical formula gives the simplest whole number ratio of atoms while molecular formula is a multiple of the empirical formula.",
+   "formula": "mass_percent = element_mass / compound_mass * 100",
+   "key_idea": "Molecular formula = n times empirical formula, where n is found by dividing the molar mass by the empirical formula mass.",
+   "textbook_ref": "kech101.txt percentage composition section",
+   "question_patterns": [
+    "calculate the mass percent of an element in a compound",
+    "define empirical formula and molecular formula",
+    "how is molecular formula related to empirical formula",
+    "determine the empirical formula from percentage composition",
+    "find the percent of water in a hydrate",
+    "why is percentage composition important in chemistry"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the element's share",
+     "explain": "Divide the mass of the element by the molar mass of the compound and multiply by 100",
+     "compute": "mass_percent = element_mass / compound_mass * 100"
+    }
+   ]
+  },
+  {
+   "id": "kech.101.4.1",
+   "title": "Stoichiometry, Limiting Reagent and Concentration Terms",
+   "section": "Stoichiometry and concentration",
+   "definition": "Balanced equations give stoichiometric relationships among reactants and products; the limiting reagent decides the maximum product, and solution concentration is expressed in molarity, molality, mole fraction and mass percent.",
+   "formula": "molarity = moles_solute / volume_solution",
+   "key_idea": "Molarity is moles of solute per litre of solution, while molality is moles of solute per kilogram of solvent and is temperature independent.",
+   "textbook_ref": "kech101.txt stoichiometry and concentration sections",
+   "question_patterns": [
+    "define limiting reagent with an example",
+    "calculate molarity from moles of solute and volume of solution",
+    "differentiate molarity and molality",
+    "define mole fraction and mass percent of a solution",
+    "apply the balanced equation to find the yield of a product",
+    "state the law of definite proportions and multiple proportions"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide moles by volume",
+     "explain": "Divide the moles of solute by the volume of solution in litres to get the molarity",
+     "compute": "molarity = moles_solute / volume_solution"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kech101.txt mole concept section",
+   "concept": "kech.101.2.1",
+   "question_type": "compute_moles",
+   "question_pattern": "A sample of a substance weighs {mass} g and its molar mass is {molar_mass} g per mol. Calculate the number of moles in the sample.",
+   "extracted_variables": {
+    "mass": 88,
+    "molar_mass": 44
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide mass by molar mass",
+     "explain": "Divide the given mass of the substance by its molar mass to get the number of moles",
+     "compute": "moles = mass / molar_mass"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kech101.txt mole concept section",
+   "concept": "kech.101.2.1",
+   "question_type": "compute_moles",
+   "question_pattern": "Find the number of moles of water in {mass} g of water, taking its molar mass as {molar_mass} g per mol.",
+   "extracted_variables": {
+    "mass": 36,
+    "molar_mass": 18
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide mass by molar mass",
+     "explain": "Divide the given mass of the substance by its molar mass to get the number of moles",
+     "compute": "moles = mass / molar_mass"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "kech101.txt percentage composition section",
+   "concept": "kech.101.3.1",
+   "question_type": "compute_mass_percent",
+   "question_pattern": "A compound of molar mass {compound_mass} g per mol contains {element_mass} g of carbon per mole. Calculate the mass percent of carbon.",
+   "extracted_variables": {
+    "compound_mass": 44,
+    "element_mass": 12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the element's share",
+     "explain": "Divide the mass of the element by the molar mass of the compound and multiply by 100",
+     "compute": "mass_percent = element_mass / compound_mass * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "kech101.txt percentage composition section",
+   "concept": "kech.101.3.1",
+   "question_type": "compute_mass_percent",
+   "question_pattern": "An oxide of molar mass {compound_mass} g per mol contains {element_mass} g of metal per mole. Find the mass percent of the metal in the oxide.",
+   "extracted_variables": {
+    "compound_mass": 80,
+    "element_mass": 48
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the element's share",
+     "explain": "Divide the mass of the element by the molar mass of the compound and multiply by 100",
+     "compute": "mass_percent = element_mass / compound_mass * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "kech101.txt concentration terms section",
+   "concept": "kech.101.4.1",
+   "question_type": "compute_molarity",
+   "question_pattern": "A solution contains {moles_solute} mol of solute dissolved in {volume_solution} L of solution. Calculate its molarity.",
+   "extracted_variables": {
+    "moles_solute": 0.5,
+    "volume_solution": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide moles by volume",
+     "explain": "Divide the moles of solute by the volume of solution in litres to get the molarity",
+     "compute": "molarity = moles_solute / volume_solution"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "kech101.txt concentration terms section",
+   "concept": "kech.101.4.1",
+   "question_type": "compute_molarity",
+   "question_pattern": "Find the molarity of a solution prepared by dissolving {moles_solute} mol of solute to make {volume_solution} L of solution.",
+   "extracted_variables": {
+    "moles_solute": 0.25,
+    "volume_solution": 0.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide moles by volume",
+     "explain": "Divide the moles of solute by the volume of solution in litres to get the molarity",
+     "compute": "molarity = moles_solute / volume_solution"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kech101.txt exercises",
+   "questions": [
+    "Calculate the molecular mass of glucose and water.",
+    "How many significant figures are present in 0.0025 and 2.408?",
+    "Determine the empirical formula of an oxide of iron with the given percentage composition.",
+    "Calculate the mass percent of different elements in sodium sulphate.",
+    "Define the term mole. What is the Avogadro number?",
+    "Calculate the molarity of a solution containing the given moles of solute per litre."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_06_008",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_06_008",
+   "title": "c11_bs_cbse_06_008",
+   "questions": [
+    {
+     "q": "What are the three financial criteria specified in Section 135 of the Companies Act 2013 that determine whether a company is required to constitute a CSR committee and spend on CSR activities?",
+     "a": "The three criteria are: (1) Annual turnover of ₹1,000 crore or more, OR (2) Net worth of ₹500 crore or more, OR (3) Net profit of ₹5 crore or more, during the immediately preceding financial year. Meeting *any one* triggers CSR applicability. A wrong answer (e.g., listing only net profit, or confusing turnover with net worth) reveals the student has not memorised the exact statutory thresholds and may incorrectly assess applicability in case studies.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"contribution to the Prime Minister's National Relief Fund\" qualifies as CSR expenditure under Schedule VII, but \"building a recreational club exclusively for company employees and their families\" does not, even though both involve spending money for social good.",
+     "a": "Schedule VII explicitly lists \"contribution to the Prime Minister's National Relief Fund\" as an eligible activity (item viii), while the Act states that activities benefiting *only* employees and their families are excluded from CSR. The recreational club is an employee welfare measure, not a broader societal benefit. A wrong answer (e.g., saying both qualify because they help people) shows the student confuses general philanthropy with the legally defined scope of CSR and misses the \"exclusively for employees\" exclusion clause.",
+     "self_check": true
+    },
+    {
+     "q": "A company had net profits of ₹40 crore, ₹60 crore, and ₹80 crore in the three preceding financial years. Its turnover is ₹900 crore and net worth is ₹450 crore. Determine if CSR provisions apply, and if so, calculate the minimum amount the company must spend on CSR in the current year.",
+     "a": "Step 1: Check applicability — net profit of ₹80 crore in the latest year exceeds the ₹5 crore threshold, so CSR applies (even though turnover and net worth are below their thresholds). Step 2: Compute average net profit = (40 + 60 + 80) / 3 = ₹60 crore. Step 3: Minimum CSR spend = 2% of ₹60 crore = ₹1.2 crore. A wrong answer (e.g., using only the latest year's profit, or ignoring the net profit threshold because turnover is below ₹1,000 crore) reveals misunderstanding of the \"OR\" condition for applicability and the correct base for the 2% calculation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the CSR governance requirements for a listed public company versus an unlisted private company that both meet the Section 135 thresholds. Identify two similarities and one key difference in the composition of their CSR committees.",
+     "a": "Similarities: Both must have a CSR committee of the Board with at least three directors, and both must include at least one independent director. Difference: A listed public company must have at least one-third of its total directors as independent directors (per SEBI LODR), so its CSR committee will naturally have more independent directors; an unlisted private company is not required to have independent directors on its Board except for the CSR committee requirement, so it may appoint an independent director solely to satisfy the CSR committee rule. A wrong answer (e.g., saying private companies don't need a CSR committee) shows confusion between general Board independence rules and the specific CSR committee mandate.",
+     "self_check": true
+    },
+    {
+     "q": "A company spends its entire 2% CSR budget on \"skill development for youth\" (a Schedule VII item) but conducts the training only in the city where its headquarters is located, ignoring the rural districts where its factories operate. Evaluate whether this complies with the *spirit* of CSR as per the Companies Act 2013 and the \"local area\" preference mentioned in the rules.",
+     "a": "The spending qualifies technically because skill development is in Schedule VII (item ii). However, the CSR Rules encourage companies to give preference to the local area and areas around where they operate. Ignoring factory-adjacent rural districts while spending only at headquarters violates this *preference* (though not a strict legal mandate). A poor evaluation (e.g., \"it's fully compliant because the activity is in Schedule VII\") shows the student treats CSR as a box-ticking exercise and misses the legislative intent of inclusive, localised impact.",
+     "self_check": true
+    },
+    {
+     "q": "Design a CSR policy outline for a hypothetical pharmaceutical company (turnover ₹1,200 crore, net profit ₹50 crore) that includes: (a) the CSR committee composition, (b) two Schedule VII activities aligned with its business, (c) a monitoring mechanism, and (d) a provision for unspent amounts.",
+     "a": "A good answer will: (a) Specify a 3+ member committee with at least one independent director; (b) Choose activities like \"promoting healthcare including preventive healthcare\" (Schedule VII item i) and \"promoting education, including special education for the differently abled\" (item ii) — both align with pharma; (c) Define quarterly review by the committee and annual impact assessment by an independent agency; (d) State that unspent amounts will be transferred to an \"Unspent CSR Account\" within 30 days of year-end and spent within three financial years, else transferred to a Schedule VII fund. A weak answer (e.g., generic activities like \"planting trees\" without business alignment, or missing the unspent fund transfer rule) reveals lack of integration between business context, Schedule VII, and procedural compliance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

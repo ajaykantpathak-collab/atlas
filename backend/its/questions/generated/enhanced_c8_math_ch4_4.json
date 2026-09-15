@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch4_4",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch4_4",
+   "title": "c8_math_ch4_4",
+   "questions": [
+    {
+     "q": "State the property of the diagonals of a rectangle regarding their intersection point.",
+     "a": "The diagonals of a rectangle bisect each other, meaning they intersect at their midpoints. A wrong answer (e.g., \"diagonals are perpendicular\" or \"diagonals bisect the angles\") reveals the student is confusing rectangle properties with those of a rhombus or square, or has not distinguished between \"equal diagonals\" and \"bisecting diagonals.\"",
+     "self_check": true
+    },
+    {
+     "q": "In rectangle PQRS, diagonals PR and QS intersect at O. If ∠QPR = 35°, what is ∠SPR? Explain why using the property of diagonals bisecting each other and parallel lines.",
+     "a": "∠SPR = 35°. Since PS ∥ QR and PR is a transversal, ∠SPR and ∠QPR are alternate interior angles? Wait, actually PS ∥ QR, PR is transversal, so ∠SPR = ∠QRP (alternate interior). But we need ∠SPR. Let's use the correct reasoning: In rectangle, diagonals bisect each other but do not necessarily bisect the angles. However, triangle POQ is isosceles? No, that's for a rhombus. The correct reasoning: The diagonals bisect each other, so PO = OQ. But we need angle. Actually, the question tests understanding that diagonals do NOT bisect the angles in a rectangle (unless it's a square). A wrong answer of \"cannot be determined\" or \"70°\" reveals the misconception that diagonals bisect the vertex angles. The correct answer: ∠SPR = 55°? Let's recalc: ∠QPR = 35°. In triangle PQR, ∠PQR = 90°. So ∠QRP = 55°. Since PS ∥ QR, ∠SPR = ∠QRP = 55° (alternate interior). The property of diagonals bisecting each other gives PO = OR, but doesn't directly give angles. The question tests if the student incorrectly thinks diagonals bisect angles. A wrong answer of 35° reveals the student thinks diagonal PR bisects ∠SPQ.",
+     "self_check": true
+    },
+    {
+     "q": "Rectangle ABCD has diagonals AC and BD intersecting at O. If AC = 14 cm, find the length of AO and OC. If BD = 14 cm, find BO and OD.",
+     "a": "AO = OC = 7 cm; BO = OD = 7 cm. Steps: 1) Diagonals of a rectangle are equal (AC = BD = 14 cm). 2) Diagonals bisect each other, so O is the midpoint of both. 3) AO = AC/2 = 7 cm, OC = 7 cm. 4) BO = BD/2 = 7 cm, OD = 7 cm. A wrong answer (e.g., AO = 14 cm) reveals the student knows diagonals are equal but forgets the bisecting property. A wrong answer with unequal halves reveals they don't understand \"bisect\" means exactly half.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the diagonal bisecting property of a rectangle with that of a general parallelogram. Is the proof for a rectangle simpler, harder, or the same? Justify your answer by referencing the triangle congruence criteria used in each.",
+     "a": "The proof for a rectangle is essentially the same as for a general parallelogram because a rectangle is a special parallelogram. Both use ASA congruence on triangles formed by the diagonals and parallel sides (alternate interior angles). However, the rectangle proof can also use SAS because adjacent sides are perpendicular, giving right angles. A wrong answer claiming \"rectangle proof is harder\" reveals the student doesn't recognize that rectangle inherits all parallelogram properties. A wrong answer claiming \"completely different\" reveals they don't see the hierarchy of quadrilaterals.",
+     "self_check": true
+    },
+    {
+     "q": "A student proves that diagonals of rectangle ABCD bisect each other by showing ΔAOB ≅ ΔCOD using SSS (AB = CD, AO = CO, BO = DO). Evaluate this proof. Is it valid? Why or why not?",
+     "a": "The proof is invalid because it uses the conclusion (AO = CO, BO = DO) as a given in the SSS criterion. This is circular reasoning. To prove bisecting, you must prove AO = CO and BO = DO without assuming them. The correct approach uses ASA or SAS with known equal sides (AB = CD) and alternate interior angles. A wrong answer saying \"it's valid\" reveals the student doesn't understand logical structure of proofs and confuses given information with what needs to be proven.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) where a carpenter uses the fact that diagonals of a rectangle bisect each other to check if a wooden frame is perfectly rectangular. Describe the steps and measurements.",
+     "a": "A carpenter builds a rectangular frame for a window (say 120 cm × 80 cm). He measures both diagonals: they must be equal (√(120²+80²) ≈ 144.22 cm). Then he marks the midpoint of each diagonal by measuring half (72.11 cm) from each corner along the diagonal. If the two midpoints coincide exactly, the frame is rectangular. If they don't, the frame is a parallelogram but not a rectangle. A poor answer that only checks diagonal equality misses the bisecting check; a poor answer that doesn't specify measuring from corners along diagonals shows lack of practical application.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

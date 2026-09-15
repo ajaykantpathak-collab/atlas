@@ -1,0 +1,914 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 109,
+ "chapter_title": "Mensuration",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hemh109.txt",
+ "concepts": [
+  {
+   "id": "hemh.109.2.1",
+   "title": "Area of a Trapezium",
+   "section": "9.2",
+   "definition": "The measure of planar region enclosed within a four-sided polygon possessing one pair of parallel opposing boundaries.",
+   "formula": "area = (1/2) * (side_a + side_b) * height",
+   "key_idea": "Multiply the mean of the parallel lengths by the perpendicular separation.",
+   "textbook_ref": "hemh109.txt lines 30-65",
+   "question_patterns": [
+    "find the area of a trapezium whose parallel sides are given",
+    "calculate the area of a trapezium shaped field",
+    "determine the missing parallel side given the trapezium area",
+    "what is the area of a trapezium with parallel sides ... and height ...",
+    "how much is the surface area of a trapezium table top"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum the two parallel boundaries",
+     "explain": "add the measures of parallel segments side_a and side_b",
+     "compute": "parallel_sum = side_a + side_b"
+    },
+    {
+     "step": 2,
+     "action": "multiply by height and divide by two",
+     "explain": "take half of the product of the parallel sum and the vertical separation",
+     "compute": "area = (parallel_sum * height) / 2"
+    }
+   ]
+  },
+  {
+   "id": "hemh.109.2.2",
+   "title": "Area of a General Quadrilateral",
+   "section": "9.2",
+   "definition": "The planar space bounded by an arbitrary quadrilateral evaluated by partitioning it along one diagonal into two distinct triangles.",
+   "formula": "area = (1/2) * diagonal * (height_1 + height_2)",
+   "key_idea": "The total area equals half the main diagonal length times the sum of the perpendicular offsets from opposite vertices.",
+   "textbook_ref": "hemh109.txt lines 15-35",
+   "question_patterns": [
+    "find the area of a quadrilateral given one diagonal and two offsets",
+    "calculate the area of a quadrilateral field from diagonal and perpendiculars",
+    "determine the area of a four-sided figure with perpendicular offsets",
+    "what is the area of a quadrilateral with diagonal ... and heights ...",
+    "how much region is enclosed by a quadrilateral with perpendiculars dropped on a diagonal"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum the perpendicular offsets",
+     "explain": "add the two heights dropped onto the common diagonal",
+     "compute": "offset_sum = height_1 + height_2"
+    },
+    {
+     "step": 2,
+     "action": "compute total quadrilateral area",
+     "explain": "multiply the diagonal length by the sum of offsets and divide by two",
+     "compute": "area = (diagonal * offset_sum) / 2"
+    }
+   ]
+  },
+  {
+   "id": "hemh.109.2.3",
+   "title": "Area of a Rhombus",
+   "section": "9.2",
+   "definition": "The region covered by an equilateral quadrilateral computed using either its perpendicular diagonals or its base and altitude.",
+   "formula": "area = (1/2) * diag_1 * diag_2",
+   "key_idea": "Half the product of the lengths of mutually perpendicular diagonals.",
+   "textbook_ref": "hemh109.txt lines 65-90",
+   "question_patterns": [
+    "find the area of a rhombus whose diagonals are given",
+    "calculate the area of a rhombus shaped tile",
+    "determine the length of the second diagonal of a rhombus given its area",
+    "what is the area of a rhombus with diagonals ... and ...",
+    "how to calculate the total polishing cost for rhombus tiles on a floor"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply both diagonal lengths",
+     "explain": "form the product of diagonal one and diagonal two",
+     "compute": "diag_prod = diag_1 * diag_2"
+    },
+    {
+     "step": 2,
+     "action": "halve the product",
+     "explain": "divide the diagonal product by two to obtain the enclosed area",
+     "compute": "area = diag_prod / 2"
+    }
+   ]
+  },
+  {
+   "id": "hemh.109.4.1",
+   "title": "Total Surface Area of a Cuboid",
+   "section": "9.4.1",
+   "definition": "The cumulative sum of the individual planar areas of all six rectangular bounding faces of a rectangular prism.",
+   "formula": "total_area = 2 * (length * breadth + breadth * height + height * length)",
+   "key_idea": "Twice the sum of pairwise products of the three orthogonal dimensions.",
+   "textbook_ref": "hemh109.txt lines 160-205",
+   "question_patterns": [
+    "find the total surface area of a cuboid",
+    "calculate the total outer area of a cuboidal box",
+    "determine the area of sheet required to make a closed cuboidal container",
+    "what is the total surface area of a room with length ... breadth ... and height ...",
+    "how much paper is needed to wrap a rectangular parcel"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate base, side, and front face areas",
+     "explain": "find pairwise products of the three spatial dimensions",
+     "compute": "face_sum = (length * breadth) + (breadth * height) + (height * length)"
+    },
+    {
+     "step": 2,
+     "action": "double the sum of face areas",
+     "explain": "account for all three congruent pairs of faces",
+     "compute": "total_area = 2 * face_sum"
+    }
+   ]
+  },
+  {
+   "id": "hemh.109.4.2",
+   "title": "Lateral Surface Area of a Cuboid",
+   "section": "9.4.1",
+   "definition": "The total boundary area formed exclusively by the four vertical perimeter walls of a cuboid, excluding top and base.",
+   "formula": "lateral_area = 2 * height * (length + breadth)",
+   "key_idea": "Perimeter of the rectangular base scaled by the vertical height.",
+   "textbook_ref": "hemh109.txt lines 190-220",
+   "question_patterns": [
+    "find the lateral surface area of a cuboid",
+    "calculate the area of the four walls of a cuboidal room",
+    "determine the cost of whitewashing the walls of a rectangular hall",
+    "what is the lateral area of a box with length ... width ... and height ...",
+    "how much area is covered by the vertical sides of a rectangular cabinet"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find the semi-perimeter of the base",
+     "explain": "add length and breadth of the cuboid",
+     "compute": "semi_perim = length + breadth"
+    },
+    {
+     "step": 2,
+     "action": "multiply base perimeter by height",
+     "explain": "scale two times the semi-perimeter by the height to get four wall area",
+     "compute": "lateral_area = 2 * height * semi_perim"
+    }
+   ]
+  },
+  {
+   "id": "hemh.109.4.3",
+   "title": "Surface Area of a Cube",
+   "section": "9.4.2",
+   "definition": "The total area spanning the six identical square outer boundaries of a regular hexahedron.",
+   "formula": "total_area = 6 * (side ** 2)",
+   "key_idea": "Six times the square of the edge length.",
+   "textbook_ref": "hemh109.txt lines 225-255",
+   "question_patterns": [
+    "find the total surface area of a cube",
+    "calculate the lateral surface area of a cubical box",
+    "determine the edge length of a cube given its surface area",
+    "what is the surface area of a cube of edge ...",
+    "how much sheet metal is required to build a cubical container"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute area of a single square face",
+     "explain": "square the side length of the cube",
+     "compute": "face_area = side ** 2"
+    },
+    {
+     "step": 2,
+     "action": "multiply by six for all faces",
+     "explain": "scale single face area by six identical faces",
+     "compute": "total_area = 6 * face_area"
+    }
+   ]
+  },
+  {
+   "id": "hemh.109.4.4",
+   "title": "Surface Area of a Cylinder",
+   "section": "9.4.3",
+   "definition": "The combined boundary extent comprising the curved wall and the two identical circular flat bases of a right circular cylinder.",
+   "formula": "total_area = 2 * pi * radius * (radius + height)",
+   "key_idea": "Curved surface area is circumference times height; total adds two base circles.",
+   "textbook_ref": "hemh109.txt lines 260-310",
+   "question_patterns": [
+    "find the curved surface area of a cylinder",
+    "calculate the total surface area of a closed cylindrical tank",
+    "determine the painting cost for cylindrical pillars",
+    "what is the area of a cylindrical label covering side walls",
+    "how much metal sheet is required to make a closed cylinder"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum radius and vertical height",
+     "explain": "add the base radius to the axial height",
+     "compute": "rad_ht_sum = radius + height"
+    },
+    {
+     "step": 2,
+     "action": "compute total surface area",
+     "explain": "multiply two, pi, radius, and the sum of radius and height",
+     "compute": "total_area = 2 * pi * radius * rad_ht_sum"
+    }
+   ]
+  },
+  {
+   "id": "hemh.109.5.1",
+   "title": "Volume of a Cuboid",
+   "section": "9.5.1",
+   "definition": "The measure of three-dimensional space enclosed within the rectangular boundaries of a cuboid.",
+   "formula": "volume = length * breadth * height",
+   "key_idea": "Base area multiplied by the perpendicular height.",
+   "textbook_ref": "hemh109.txt lines 370-410",
+   "question_patterns": [
+    "find the volume of a cuboid",
+    "calculate the capacity of a cuboidal water tank",
+    "determine how many small boxes fit inside a large cuboidal godown",
+    "what is the volume of a rectangular room with dimensions ...",
+    "how much space is occupied by a cuboidal block"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find base area",
+     "explain": "multiply length by breadth",
+     "compute": "base_area = length * breadth"
+    },
+    {
+     "step": 2,
+     "action": "multiply base area by height",
+     "explain": "scale the floor area by the perpendicular height",
+     "compute": "volume = base_area * height"
+    }
+   ]
+  },
+  {
+   "id": "hemh.109.5.2",
+   "title": "Volume of a Cube",
+   "section": "9.5.2",
+   "definition": "The three-dimensional capacity or space occupied by a regular hexahedron with all equal edges.",
+   "formula": "volume = side ** 3",
+   "key_idea": "The edge length raised to the third power.",
+   "textbook_ref": "hemh109.txt lines 415-435",
+   "question_patterns": [
+    "find the volume of a cube of given side length",
+    "calculate the space inside a cubical container",
+    "determine how many unit cubes make up a larger cube",
+    "what is the volume of a cube with edge ...",
+    "how much does the volume of a cube scale when its side is doubled"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "cube the edge length",
+     "explain": "multiply side by itself three times",
+     "compute": "volume = side ** 3"
+    }
+   ]
+  },
+  {
+   "id": "hemh.109.5.3",
+   "title": "Volume of a Cylinder",
+   "section": "9.5.3",
+   "definition": "The volumetric capacity enclosed by a right circular cylinder having parallel congruent circular faces.",
+   "formula": "volume = pi * (radius ** 2) * height",
+   "key_idea": "Area of the circular base cross-section multiplied by cylinder height.",
+   "textbook_ref": "hemh109.txt lines 440-475",
+   "question_patterns": [
+    "find the volume of a cylinder",
+    "calculate the quantity of liquid stored in a cylindrical reservoir",
+    "determine the height of a cylinder given its volume and base radius",
+    "what is the volume of a circular cylinder of radius ... and height ...",
+    "how much liquid can a cylindrical container hold"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute area of circular base",
+     "explain": "evaluate pi multiplied by the square of radius",
+     "compute": "base_area = pi * (radius ** 2)"
+    },
+    {
+     "step": 2,
+     "action": "multiply base area by cylinder height",
+     "explain": "scale the circular cross-section by the axial length",
+     "compute": "volume = base_area * height"
+    }
+   ]
+  },
+  {
+   "id": "hemh.109.6.1",
+   "title": "Volume to Capacity Conversion",
+   "section": "9.6",
+   "definition": "The quantitative relationship translating cubic measures of solid volume into liquid capacity units like litres.",
+   "formula": "capacity_litres = volume_m3 * 1000",
+   "key_idea": "One cubic metre corresponds precisely to one thousand litres, and one thousand cubic centimetres equal one litre.",
+   "textbook_ref": "hemh109.txt lines 475-500",
+   "question_patterns": [
+    "convert cubic metres into litres of capacity",
+    "find the quantity of milk stored in litres in a cylindrical tank",
+    "determine how many litres of water a reservoir contains",
+    "calculate the filling time in hours for a reservoir of volume ... at rate ... litres per minute",
+    "what is the capacity in litres of a container of volume ..."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "convert volume in cubic metres to litres",
+     "explain": "multiply volume in cubic metres by the conversion constant 1000",
+     "compute": "capacity_litres = volume_m3 * 1000"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Example 1 (p. 104)",
+   "concept": "hemh.109.2.1",
+   "question_type": "compute",
+   "question_pattern": "The area of a trapezium shaped field is {area} m2, the distance between two parallel sides is {height} m and one of the parallel side is {side_a} m. Find the other parallel side.",
+   "extracted_variables": {
+    "area": 480,
+    "height": 15,
+    "side_a": 20
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate sum of parallel sides from area and height",
+     "explain": "multiply area by two and divide by vertical height",
+     "compute": "parallel_sum = (2 * area) / height"
+    },
+    {
+     "step": 2,
+     "action": "deduct known parallel side",
+     "explain": "subtract side_a from the sum to obtain side_b",
+     "compute": "side_b = parallel_sum - side_a"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Exercise 9.1 Q1 (p. 105)",
+   "concept": "hemh.109.2.1",
+   "question_type": "compute",
+   "question_pattern": "The shape of the top surface of a table is a trapezium. Find its area if its parallel sides are {side_a} m and {side_b} m and perpendicular distance between them is {height} m.",
+   "extracted_variables": {
+    "side_a": 1,
+    "side_b": 1.2,
+    "height": 0.8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum the parallel edges",
+     "explain": "add side_a and side_b",
+     "compute": "parallel_sum = side_a + side_b"
+    },
+    {
+     "step": 2,
+     "action": "compute area",
+     "explain": "multiply parallel_sum by height and divide by two",
+     "compute": "area = (parallel_sum * height) / 2"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "Exercise 9.1 Q4 (p. 106)",
+   "concept": "hemh.109.2.2",
+   "question_type": "compute",
+   "question_pattern": "The diagonal of a quadrilateral shaped field is {diagonal} m and the perpendiculars dropped on it from the remaining opposite vertices are {height_1} m and {height_2} m. Find the area of the field.",
+   "extracted_variables": {
+    "diagonal": 24,
+    "height_1": 8,
+    "height_2": 13
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum vertex offsets",
+     "explain": "add height_1 and height_2",
+     "compute": "offset_sum = height_1 + height_2"
+    },
+    {
+     "step": 2,
+     "action": "compute quadrilateral area",
+     "explain": "multiply diagonal by offset sum and divide by two",
+     "compute": "area = (diagonal * offset_sum) / 2"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "Try These Fig 9.4 (p. 104)",
+   "concept": "hemh.109.2.2",
+   "question_type": "compute",
+   "question_pattern": "In a quadrilateral field, the diagonal is {diagonal} cm and perpendicular offsets are {height_1} cm and {height_2} cm. Find its area.",
+   "extracted_variables": {
+    "diagonal": 8,
+    "height_1": 2,
+    "height_2": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum vertex offsets",
+     "explain": "add perpendicular distances",
+     "compute": "offset_sum = height_1 + height_2"
+    },
+    {
+     "step": 2,
+     "action": "calculate field area",
+     "explain": "half of diagonal times offset sum",
+     "compute": "area = (diagonal * offset_sum) / 2"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "Example 2 (p. 105)",
+   "concept": "hemh.109.2.3",
+   "question_type": "compute",
+   "question_pattern": "The area of a rhombus is {area} cm2 and one of the diagonals is {diag_1} cm. Find the other diagonal.",
+   "extracted_variables": {
+    "area": 240,
+    "diag_1": 16
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "double the area",
+     "explain": "multiply area by two",
+     "compute": "two_area = 2 * area"
+    },
+    {
+     "step": 2,
+     "action": "solve for missing diagonal",
+     "explain": "divide double area by the known diagonal length",
+     "compute": "diag_2 = two_area / diag_1"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "Exercise 9.1 Q5 (p. 106)",
+   "concept": "hemh.109.2.3",
+   "question_type": "compute",
+   "question_pattern": "The diagonals of a rhombus are {diag_1} cm and {diag_2} cm. Find its area.",
+   "extracted_variables": {
+    "diag_1": 7.5,
+    "diag_2": 12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply diagonals",
+     "explain": "take product of diag_1 and diag_2",
+     "compute": "diag_prod = diag_1 * diag_2"
+    },
+    {
+     "step": 2,
+     "action": "compute rhombus area",
+     "explain": "halve the product of diagonals",
+     "compute": "area = diag_prod / 2"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "Section 9.4.1 illustration (p. 109)",
+   "concept": "hemh.109.4.1",
+   "question_type": "compute",
+   "question_pattern": "Find the total surface area of a cuboidal box with height {height} cm, length {length} cm and width {breadth} cm.",
+   "extracted_variables": {
+    "height": 20,
+    "length": 15,
+    "breadth": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum pairwise face products",
+     "explain": "evaluate lb + bh + hl",
+     "compute": "face_sum = (length * breadth) + (breadth * height) + (height * length)"
+    },
+    {
+     "step": 2,
+     "action": "multiply by two",
+     "explain": "scale sum by two for total outer surface",
+     "compute": "total_area = 2 * face_sum"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "Exercise 9.2 Q1 Box A (p. 114)",
+   "concept": "hemh.109.4.1",
+   "question_type": "compute",
+   "question_pattern": "A cuboidal box has length {length} cm, breadth {breadth} cm and height {height} cm. Find the total surface area of material required.",
+   "extracted_variables": {
+    "length": 60,
+    "breadth": 40,
+    "height": 50
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate sum of three face areas",
+     "explain": "find length*breadth + breadth*height + height*length",
+     "compute": "face_sum = (length * breadth) + (breadth * height) + (height * length)"
+    },
+    {
+     "step": 2,
+     "action": "determine total surface area",
+     "explain": "double the sum of face areas",
+     "compute": "total_area = 2 * face_sum"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "Example 5 (p. 113)",
+   "concept": "hemh.109.4.2",
+   "question_type": "compute",
+   "question_pattern": "The internal measures of a cuboidal room are {length} m by {breadth} m by {height} m. Find the total area of the four walls.",
+   "extracted_variables": {
+    "length": 12,
+    "breadth": 8,
+    "height": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate semi-perimeter of floor",
+     "explain": "add length and breadth",
+     "compute": "semi_perim = length + breadth"
+    },
+    {
+     "step": 2,
+     "action": "calculate lateral wall area",
+     "explain": "multiply two times semi-perimeter by room height",
+     "compute": "lateral_area = 2 * height * semi_perim"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "Section 9.4.1 Try These (p. 109)",
+   "concept": "hemh.109.4.2",
+   "question_type": "compute",
+   "question_pattern": "Find the lateral surface area of a cuboid having length {length} cm, breadth {breadth} cm and height {height} cm.",
+   "extracted_variables": {
+    "length": 10,
+    "breadth": 8,
+    "height": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum length and breadth",
+     "explain": "add base dimensions",
+     "compute": "semi_perim = length + breadth"
+    },
+    {
+     "step": 2,
+     "action": "multiply by two times height",
+     "explain": "compute perimeter of base times height",
+     "compute": "lateral_area = 2 * height * semi_perim"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "Exercise 9.2 Q3 (p. 114)",
+   "concept": "hemh.109.4.3",
+   "question_type": "compute",
+   "question_pattern": "Find the side of a cube whose surface area is {total_area} cm2.",
+   "extracted_variables": {
+    "total_area": 600
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate area of one face",
+     "explain": "divide total surface area by six",
+     "compute": "face_area = total_area / 6"
+    },
+    {
+     "step": 2,
+     "action": "determine side length",
+     "explain": "take square root of single face area",
+     "compute": "side = sqrt(face_area)"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "Exercise 9.2 Q1 Box B (p. 114)",
+   "concept": "hemh.109.4.3",
+   "question_type": "compute",
+   "question_pattern": "Find the total surface area of a cubical box of edge length {side} cm.",
+   "extracted_variables": {
+    "side": 50
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find face area",
+     "explain": "square the edge length",
+     "compute": "face_area = side ** 2"
+    },
+    {
+     "step": 2,
+     "action": "find total surface area",
+     "explain": "multiply face area by six",
+     "compute": "total_area = 6 * face_area"
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "Example 6 (p. 113)",
+   "concept": "hemh.109.4.4",
+   "question_type": "compute",
+   "question_pattern": "Find the curved surface area of a cylindrical pillar whose radius is {radius} m and height is {height} m.",
+   "extracted_variables": {
+    "radius": 0.28,
+    "height": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate base circumference",
+     "explain": "evaluate 2 * pi * radius",
+     "compute": "circ = 2 * pi * radius"
+    },
+    {
+     "step": 2,
+     "action": "calculate curved area",
+     "explain": "multiply circumference by height",
+     "compute": "curved_area = circ * height"
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "Exercise 9.2 Q7 (p. 114)",
+   "concept": "hemh.109.4.4",
+   "question_type": "compute",
+   "question_pattern": "A closed cylindrical tank of radius {radius} m and height {height} m is made from a sheet of metal. How much sheet of metal is required?",
+   "extracted_variables": {
+    "radius": 7,
+    "height": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum radius and height",
+     "explain": "add r and h",
+     "compute": "rad_ht_sum = radius + height"
+    },
+    {
+     "step": 2,
+     "action": "compute total sheet area",
+     "explain": "multiply 2 * pi * radius by (radius + height)",
+     "compute": "total_area = 2 * pi * radius * rad_ht_sum"
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "Example 8 (p. 118)",
+   "concept": "hemh.109.5.1",
+   "question_type": "compute",
+   "question_pattern": "Find the height of a cuboid whose volume is {volume} cm3 and base area is {base_area} cm2.",
+   "extracted_variables": {
+    "volume": 275,
+    "base_area": 25
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute height",
+     "explain": "divide volume by base area",
+     "compute": "height = volume / base_area"
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "Example 9 (p. 118)",
+   "concept": "hemh.109.5.1",
+   "question_type": "compute",
+   "question_pattern": "A godown is in the form of a cuboid of measures {length} m by {breadth} m by {height} m. Find its volume.",
+   "extracted_variables": {
+    "length": 60,
+    "breadth": 40,
+    "height": 30
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute floor area",
+     "explain": "multiply length by breadth",
+     "compute": "base_area = length * breadth"
+    },
+    {
+     "step": 2,
+     "action": "compute total volume",
+     "explain": "multiply base area by height",
+     "compute": "volume = base_area * height"
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "Section 9.5.2 Try These (a) (p. 117)",
+   "concept": "hemh.109.5.2",
+   "question_type": "compute",
+   "question_pattern": "Find the volume of a cube with a side {side} cm.",
+   "extracted_variables": {
+    "side": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute volume",
+     "explain": "raise side to third power",
+     "compute": "volume = side ** 3"
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "Section 9.5.2 Try These (b) (p. 117)",
+   "concept": "hemh.109.5.2",
+   "question_type": "compute",
+   "question_pattern": "Find the volume of a cube with a side {side} m.",
+   "extracted_variables": {
+    "side": 1.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute volume",
+     "explain": "multiply side three times",
+     "compute": "volume = side ** 3"
+    }
+   ]
+  },
+  {
+   "id": "ex19",
+   "source_ref": "Example 10 (p. 118)",
+   "concept": "hemh.109.5.3",
+   "question_type": "compute",
+   "question_pattern": "Find the volume of a cylinder having radius {radius} cm and height {height} cm.",
+   "extracted_variables": {
+    "radius": 20,
+    "height": 14
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate base circle area",
+     "explain": "evaluate pi * radius^2",
+     "compute": "base_area = pi * (radius ** 2)"
+    },
+    {
+     "step": 2,
+     "action": "compute cylindrical volume",
+     "explain": "multiply base area by height",
+     "compute": "volume = base_area * height"
+    }
+   ]
+  },
+  {
+   "id": "ex20",
+   "source_ref": "Exercise 9.3 Q5 (p. 119)",
+   "concept": "hemh.109.5.3",
+   "question_type": "compute",
+   "question_pattern": "Find the height of the cylinder whose volume is {volume} m3 and base radius is {radius} m.",
+   "extracted_variables": {
+    "volume": 1.54,
+    "radius": 0.7
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute base area",
+     "explain": "evaluate pi * radius^2",
+     "compute": "base_area = pi * (radius ** 2)"
+    },
+    {
+     "step": 2,
+     "action": "solve for cylinder height",
+     "explain": "divide cylinder volume by base area",
+     "compute": "height = volume / base_area"
+    }
+   ]
+  },
+  {
+   "id": "ex21",
+   "source_ref": "Exercise 9.3 Q6 (p. 119)",
+   "concept": "hemh.109.6.1",
+   "question_type": "compute",
+   "question_pattern": "A milk tank is in the form of a cylinder with volume {volume_m3} m3. Find the quantity of milk in litres that can be stored in the tank.",
+   "extracted_variables": {
+    "volume_m3": 49.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "convert cubic metres to litres",
+     "explain": "multiply cubic metre volume by 1000",
+     "compute": "capacity_litres = volume_m3 * 1000"
+    }
+   ]
+  },
+  {
+   "id": "ex22",
+   "source_ref": "Exercise 9.3 Q8 (p. 120)",
+   "concept": "hemh.109.6.1",
+   "question_type": "compute",
+   "question_pattern": "A cuboidal reservoir has volume {volume_m3} m3. Find its total capacity in litres.",
+   "extracted_variables": {
+    "volume_m3": 108
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "convert volume in cubic metres to litres",
+     "explain": "multiply cubic metres by 1000",
+     "compute": "capacity_litres = volume_m3 * 1000"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex9.1",
+   "source_ref": "Exercise 9.1 (p. 105-106)",
+   "questions": [
+    "1. The shape of the top surface of a table is a trapezium. Find its area if its parallel sides are 1 m and 1.2 m and perpendicular distance between them is 0.8 m.",
+    "2. The area of a trapezium is 34 cm2 and the length of one of the parallel sides is 10 cm and its height is 4 cm. Find the length of the other parallel side.",
+    "3. Length of the fence of a trapezium shaped field ABCD is 120 m. If BC = 48 m, CD = 17 m and AD = 40 m, find the area of this field. Side AB is perpendicular to the parallel sides AD and BC.",
+    "4. The diagonal of a quadrilateral shaped field is 24 m and the perpendiculars dropped on it from the remaining opposite vertices are 8 m and 13 m. Find the area of the field.",
+    "5. The diagonals of a rhombus are 7.5 cm and 12 cm. Find its area.",
+    "6. Find the area of a rhombus whose side is 5 cm and whose altitude is 4.8 cm. If one of its diagonals is 8 cm long, find the length of the other diagonal.",
+    "7. The floor of a building consists of 3000 tiles which are rhombus shaped and each of its diagonals are 45 cm and 30 cm in length. Find the total cost of polishing the floor, if the cost per m2 is Rs 4.",
+    "8. Mohan wants to buy a trapezium shaped field. Its side along the river is parallel to and twice the side along the road. If the area of this field is 10500 m2 and the perpendicular distance between the two parallel sides is 100 m, find the length of the side along the river.",
+    "9. Top surface of a raised platform is in the shape of a regular octagon as shown in the figure. Find the area of the octagonal surface.",
+    "10. There is a pentagonal shaped park as shown in the figure. For finding its area Jyoti and Kavita divided it in two different ways. Find the area of this park using both ways. Can you suggest some other way of finding its area?",
+    "11. Diagram of the adjacent picture frame has outer dimensions = 24 cm x 28 cm and inner dimensions 16 cm x 20 cm. Find the area of each section of the frame, if the width of each section is same."
+   ]
+  },
+  {
+   "id": "ex9.2",
+   "source_ref": "Exercise 9.2 (p. 114)",
+   "questions": [
+    "1. There are two cuboidal boxes as shown in the adjoining figure. Which box requires the lesser amount of material to make?",
+    "2. A suitcase with measures 80 cm x 48 cm x 24 cm is to be covered with a tarpaulin cloth. How many metres of tarpaulin of width 96 cm is required to cover 100 such suitcases?",
+    "3. Find the side of a cube whose surface area is 600 cm2.",
+    "4. Rukhsar painted the outside of the cabinet of measure 1 m x 2 m x 1.5 m. How much surface area did she cover if she painted all except the bottom of the cabinet.",
+    "5. Daniel is painting the walls and ceiling of a cuboidal hall with length, breadth and height of 15 m, 10 m and 7 m respectively. From each can of paint 100 m2 of area is painted. How many cans of paint will she need to paint the room?",
+    "6. Describe how the two figures at the right are alike and how they are different. Which box has larger lateral surface area?",
+    "7. A closed cylindrical tank of radius 7 m and height 3 m is made from a sheet of metal. How much sheet of metal is required?",
+    "8. The lateral surface area of a hollow cylinder is 4224 cm2. It is cut along its height and formed a rectangular sheet of width 33 cm. Find the perimeter of rectangular sheet?",
+    "9. A road roller takes 750 complete revolutions to move once over to level a road. Find the area of the road if the diameter of a road roller is 84 cm and length is 1 m.",
+    "10. A company packages its milk powder in cylindrical container whose base has a diameter of 14 cm and height 20 cm. Company places a label around the surface of the container. If the label is placed 2 cm from top and bottom, what is the area of the label."
+   ]
+  },
+  {
+   "id": "ex9.3",
+   "source_ref": "Exercise 9.3 (p. 119-120)",
+   "questions": [
+    "1. Given a cylindrical tank, in which situation will you find surface area and in which situation volume. (a) To find how much it can hold. (b) Number of cement bags required to plaster it. (c) To find the number of smaller tanks that can be filled with water from it.",
+    "2. Diameter of cylinder A is 7 cm, and the height is 14 cm. Diameter of cylinder B is 14 cm and height is 7 cm. Without doing any calculations can you suggest whose volume is greater? Verify it by finding the volume of both the cylinders. Check whether the cylinder with greater volume also has greater surface area?",
+    "3. Find the height of a cuboid whose base area is 180 cm2 and volume is 900 cm3?",
+    "4. A cuboid is of dimensions 60 cm x 54 cm x 30 cm. How many small cubes with side 6 cm can be placed in the given cuboid?",
+    "5. Find the height of the cylinder whose volume is 1.54 m3 and diameter of the base is 140 cm?",
+    "6. A milk tank is in the form of cylinder whose radius is 1.5 m and length is 7 m. Find the quantity of milk in litres that can be stored in the tank?",
+    "7. If each edge of a cube is doubled, (i) how many times will its surface area increase? (ii) how many times will its volume increase?",
+    "8. Water is pouring into a cuboidal reservoir at the rate of 60 litres per minute. If the volume of reservoir is 108 m3, find the number of hours it will take to fill the reservoir."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

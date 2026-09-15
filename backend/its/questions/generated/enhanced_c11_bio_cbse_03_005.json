@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_03_005",
+   "title": "c11_bio_cbse_03_005",
+   "questions": [
+    {
+     "q": "What is the ploidy and nutritional mode of the prothallus in a typical homosporous fern such as Dryopteris?",
+     "a": "The prothallus is haploid (n) and photosynthetic (autotrophic). A wrong answer (e.g., \"diploid\" or \"dependent on sporophyte\") reveals confusion with the bryophyte gametophyte or the gymnosperm female gametophyte, indicating the student has not grasped that pteridophyte gametophytes are free-living and nutritionally independent.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the spread of living pteridophytes remain limited to cool, damp, shady places despite having well-developed vascular tissues?",
+     "a": "Vascular tissues enable water transport within the sporophyte, but fertilization still requires an external film of water for flagellated antherozoids to swim to the archegonium. The gametophyte (prothallus) also lacks a cuticle and vascular tissue, making it desiccation-sensitive. A wrong answer focusing only on sporophyte water needs misses the critical bottleneck: the free-living gametophyte's physiological constraints.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes a Selaginella plant bearing two distinct types of sporangia in the same strobilus: large megasporangia producing four megaspores each, and small microsporangia producing numerous microspores. Predict the ploidy and sex of the gametophytes that will develop from these spores, and explain how this differs from a homosporous fern.",
+     "a": "Megaspores (n) develop into female gametophytes retained within the megaspore wall; microspores (n) develop into male gametophytes (pollen-like). In homosporous ferns, a single spore type produces a bisexual prothallus bearing both antheridia and archegonia. A wrong answer (e.g., \"both spores give bisexual gametophytes\") shows failure to understand heterospory as the separation of sexes at the spore level.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the site of meiosis and the ploidy of the spore-producing structure in a fern (Pteropsida) versus a moss (Bryophyte). What evolutionary significance does this difference have?",
+     "a": "In ferns, meiosis occurs in sporangia on the diploid sporophyte, producing haploid spores. In mosses, meiosis occurs in the capsule of the diploid sporophyte (which is dependent on the gametophyte), also producing haploid spores. The key difference: fern sporophyte is independent and dominant; moss sporophyte is dependent. This shift to a free-living, vascular sporophyte allowed pteridophytes to colonize drier terrestrial habitats than bryophytes.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Heterospory in Selaginella is a direct equivalent of the seed habit in gymnosperms because both produce two spore types.\" Justify your answer with two specific differences.",
+     "a": "The statement is incorrect. Differences: (1) In Selaginella, the female gametophyte develops partially outside the megaspore wall and requires water for fertilization; in gymnosperms, the female gametophyte is completely retained within the megasporangium (nucellus/ovule) and fertilization occurs via a pollen tube without external water. (2) Selaginella lacks integuments and pollen grains; gymnosperms have integumented ovules and pollen-mediated sperm delivery. Heterospory is a necessary but not sufficient precursor to seeds.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field observation protocol to distinguish between a Lycopsida (e.g., Selaginella) and a Pteropsida (e.g., Adiantum) specimen using only vegetative and reproductive features visible with a hand lens.",
+     "a": "Protocol: (1) Examine leaf morphology: microphylls (single unbranched vein, small) = Lycopsida; macrophylls (branched venation, large) = Pteropsida. (2) Locate sporangia: on sporophylls in a terminal strobilus (cone) = Lycopsida; in sori on frond undersurface = Pteropsida. (3) Check stem: rhizome with adventitious roots = both; but Selaginella has a ligule on each microphyll. A poor protocol relies only on \"fern-like appearance\" and misses the defining microphyll vs macrophyll distinction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

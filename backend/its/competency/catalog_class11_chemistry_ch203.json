@@ -1,0 +1,774 @@
+{
+ "class": 11,
+ "subject": "chemistry",
+ "chapter": 203,
+ "chapter_title": "Hydrocarbons",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kech203.txt",
+ "concepts": [
+  {
+   "id": "kech.9.2.1",
+   "title": "Stoichiometry of Hydrocarbon Combustion",
+   "section": "9.2.3",
+   "definition": "Complete burning of any open-chain or cyclic hydrocarbon in excess oxygen releases carbon dioxide, water, and thermal energy according to fixed stoichiometric ratios.",
+   "formula": "O2_moles = carbon_count + (hydrogen_count / 4)",
+   "key_idea": "Every mole of carbon produces one mole of CO2 while four hydrogens demand one mole of O2 to form two moles of H2O.",
+   "textbook_ref": "kech203.txt lines 380-410",
+   "question_patterns": [
+    "calculate moles of oxygen needed to completely burn a hydrocarbon",
+    "find the volume of oxygen required for combustion of alkane",
+    "how much oxygen is consumed during complete burning of hydrocarbon",
+    "what is the stoichiometric coefficient of dioxygen in hydrocarbon combustion",
+    "compute the answer step by step for stoichiometry of hydrocarbon combustion"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify carbon and hydrogen atom counts",
+     "explain": "from molecular formula CxHy, extract x as carbon_count and y as hydrogen_count",
+     "compute": "c_atoms"
+    },
+    {
+     "step": 2,
+     "action": "calculate oxygen requirement per mole of fuel",
+     "explain": "each carbon requires one O2 and every four hydrogens require one O2",
+     "compute": "carbon_count + (h_atoms / 4)"
+    },
+    {
+     "step": 3,
+     "action": "write the balanced combustion equation and verify atom counts",
+     "explain": "confirm that the products xCO2 and (y/2)H2O balance both carbon and hydrogen atoms on both sides of the equation"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving stoichiometry of hydrocarbon combustion.",
+     "solution": "Step 1: identify carbon and hydrogen atom counts. Step 2: calculate oxygen requirement per mole of fuel. Step 3: write the balanced combustion equation and verify atom counts. Working: c_atoms, carbon_count + (h_atoms / 4).",
+     "answer": "Stoichiometry of Hydrocarbon Combustion applied step by step gives the required result."
+    },
+    {
+     "question": "Apply stoichiometry of hydrocarbon combustion to a fresh example and interpret the result.",
+     "solution": "Step 1: identify carbon and hydrogen atom counts. Step 2: calculate oxygen requirement per mole of fuel. Step 3: write the balanced combustion equation and verify atom counts. Working: c_atoms, carbon_count + (h_atoms / 4).",
+     "answer": "The method of stoichiometry of hydrocarbon combustion leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kech.9.2.2",
+   "title": "Counting Sigma and Pi Bonds in Hydrocarbons",
+   "section": "9.3.2",
+   "definition": "Counting total single covalent bonds (sigma) and multiple electron overlaps (pi) across open-chain and branched unsaturated hydrocarbons.",
+   "formula": "sigma_bonds = total_atoms - 1 + rings, pi_bonds = double_bonds + 2 x triple_bonds",
+   "key_idea": "Every single bond is a sigma bond, every double bond contributes one sigma and one pi, and each triple bond has one sigma and two pi bonds.",
+   "textbook_ref": "kech203.txt lines 490-530",
+   "question_patterns": [
+    "calculate number of sigma and pi bonds in the given hydrocarbon",
+    "find the count of sigma and pi bonds in an unsaturated compound",
+    "how many sigma bonds and pi bonds are present in molecule",
+    "what is the total number of sigma and pi bonds",
+    "find the required value in a counting sigma and pi bonds in hydrocarbons problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum all single bonds and one component of each multiple bond",
+     "explain": "in an acyclic hydrocarbon, total sigma bonds equal total atoms minus one",
+     "compute": "c_count + h_count - 1"
+    },
+    {
+     "step": 2,
+     "action": "compute total pi bonds from multiple bond multiplicity",
+     "explain": "each double bond contributes one pi bond and each triple bond contributes two pi bonds",
+     "compute": "double_bonds + (2 * triple_bonds)"
+    },
+    {
+     "step": 3,
+     "action": "sum sigma and pi bonds for the total covalent bond count",
+     "explain": "add the sigma and pi totals to obtain the overall number of covalent bonds in the hydrocarbon molecule",
+     "compute": "total_sigma + total_pi"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving counting sigma and pi bonds in hydrocarbons.",
+     "solution": "Step 1: sum all single bonds and one component of each multiple bond. Step 2: compute total pi bonds from multiple bond multiplicity. Step 3: sum sigma and pi bonds for the total covalent bond count. Working: c_count + h_count - 1, double_bonds + (2 * triple_bonds), total_sigma + total_pi.",
+     "answer": "Counting Sigma and Pi Bonds in Hydrocarbons applied step by step gives the required result."
+    },
+    {
+     "question": "Apply counting sigma and pi bonds in hydrocarbons to a fresh example and interpret the result.",
+     "solution": "Step 1: sum all single bonds and one component of each multiple bond. Step 2: compute total pi bonds from multiple bond multiplicity. Step 3: sum sigma and pi bonds for the total covalent bond count. Working: c_count + h_count - 1, double_bonds + (2 * triple_bonds), total_sigma + total_pi.",
+     "answer": "The method of counting sigma and pi bonds in hydrocarbons leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kech.9.2.3",
+   "title": "Hückel Rule of Aromaticity",
+   "section": "9.5.3",
+   "definition": "A cyclic, planar, fully conjugated ring system possesses aromatic stability if its delocalized pi-electron cloud equals (4n + 2), where n is a non-negative integer.",
+   "formula": "n = (pi_electrons - 2) / 4",
+   "key_idea": "An odd number of electron pairs ((4n+2) electrons) delocalized over a planar ring confers aromatic character.",
+   "textbook_ref": "kech203.txt lines 890-930",
+   "question_patterns": [
+    "calculate the value of n in Huckel rule for aromatic ring",
+    "find if the given pi electron count satisfies Huckel rule",
+    "how many pi electrons are required for Huckel aromaticity",
+    "determine the aromaticity integer n for conjugated ring",
+    "work out the value using hückel rule of aromaticity"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract 2 from total delocalized pi electrons",
+     "explain": "the offset of 2 accounts for the lowest closed electron shell",
+     "compute": "pi_electrons - 2"
+    },
+    {
+     "step": 2,
+     "action": "divide the difference by four to determine Hückel index",
+     "explain": "if n is a whole integer (0, 1, 2, ...), the electron count obeys the (4n+2) rule",
+     "compute": "diff / 4"
+    },
+    {
+     "step": 3,
+     "action": "verify the ring is cyclic, planar, and fully conjugated before confirming aromaticity",
+     "explain": "the Huckel rule only applies if the system is a planar cyclic ring with continuous p-orbital overlap; a non-integer n_val means the compound is non-aromatic"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving hückel rule of aromaticity.",
+     "solution": "Step 1: subtract 2 from total delocalized pi electrons. Step 2: divide the difference by four to determine Hückel index. Step 3: verify the ring is cyclic, planar, and fully conjugated before confirming aromaticity. Working: pi_electrons - 2, diff / 4.",
+     "answer": "Hückel Rule of Aromaticity applied step by step gives the required result."
+    },
+    {
+     "question": "Apply hückel rule of aromaticity to a fresh example and interpret the result.",
+     "solution": "Step 1: subtract 2 from total delocalized pi electrons. Step 2: divide the difference by four to determine Hückel index. Step 3: verify the ring is cyclic, planar, and fully conjugated before confirming aromaticity. Working: pi_electrons - 2, diff / 4.",
+     "answer": "The method of hückel rule of aromaticity leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kech.9.2.4",
+   "title": "Chain and Position Isomerism of Alkanes and Alkenes",
+   "section": "9.2.1",
+   "definition": "Hydrocarbons with identical molecular formulas can differ either by the skeleton connectivity of carbon chains or by the location of functional groups and multiple bonds.",
+   "formula": "constitutional_isomers = chain_isomers + position_isomers",
+   "key_idea": "Skeletal branching creates chain isomers, while varying the location of the unsaturation site generates position isomers.",
+   "textbook_ref": "kech203.txt lines 40-100",
+   "question_patterns": [
+    "write structures and IUPAC names of chain isomers",
+    "identify position and chain isomers for given formula",
+    "how many structural isomers can be formed for hydrocarbon",
+    "distinguish between chain and position isomers",
+    "describe chain and position isomerism of alkanes and alkenes with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "draw all continuous and branched carbon skeletons",
+     "explain": "generate distinct parent chain lengths starting from the longest continuous chain down to shorter branched variants."
+    },
+    {
+     "step": 2,
+     "action": "place functional groups or unsaturation at non-equivalent positions",
+     "explain": "shift multiple bonds or substituents across symmetry-inequivalent carbons and assign systematic IUPAC names."
+    },
+    {
+     "step": 3,
+     "action": "eliminate duplicate structures by checking for molecular symmetry",
+     "explain": "compare each generated structure for equivalence by rotation or reflection; only count genuinely distinct constitutional isomers with unique IUPAC names."
+    }
+   ]
+  },
+  {
+   "id": "kech.9.2.5",
+   "title": "Conformations of Ethane and Torsional Strain",
+   "section": "9.2.4",
+   "definition": "The many spatial forms ethane takes as its two methyl groups spin about the C-C single bond; staggered sits lowest in energy, eclipsed highest.",
+   "formula": "energy_barrier = 12.5 kJ/mol",
+   "key_idea": "Staggered conformation minimizes repulsive overlap between C-H electron clouds, making it more stable than the eclipsed form.",
+   "textbook_ref": "kech203.txt lines 440-480",
+   "question_patterns": [
+    "draw Sawhorse and Newman projections for ethane conformers",
+    "compare the relative stability of staggered and eclipsed ethane",
+    "what is torsional strain in conformational analysis",
+    "explain why staggered conformation of ethane is preferred",
+    "justify why conformations of ethane and torsional strain matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "represent ethane using Sawhorse or Newman projections",
+     "explain": "depict front and rear carbon C-H bonds separated by a dihedral angle of 60 degrees for staggered and 0 degrees for eclipsed."
+    },
+    {
+     "step": 2,
+     "action": "evaluate torsional repulsion between adjacent bond electron clouds",
+     "explain": "staggered form has maximal separation and least torsional strain, whereas eclipsed form has highest electron cloud repulsion."
+    },
+    {
+     "step": 3,
+     "action": "rank the conformers by energy and identify the most stable form",
+     "explain": "the staggered anti conformation is the global energy minimum at 12.5 kJ/mol below the eclipsed maximum; the molecule spends most of its time in the staggered state."
+    }
+   ]
+  },
+  {
+   "id": "kech.9.2.6",
+   "title": "Geometrical Isomerism in Alkenes",
+   "section": "9.3.3",
+   "definition": "Diastereomeric isomerism arising from restricted rotation about the carbon-carbon double bond when each doubly bonded carbon bears two distinct substituents.",
+   "formula": "cis: similar groups on same side; trans: similar groups on opposite sides",
+   "key_idea": "Restricted pi-bond rotation fixes spatial orientation, producing polar cis isomers and generally more symmetric, higher melting trans isomers.",
+   "textbook_ref": "kech203.txt lines 540-590",
+   "question_patterns": [
+    "which of the following alkenes will show cis-trans isomerism",
+    "draw cis and trans isomers for the given alkene",
+    "explain why trans-but-2-ene has zero dipole moment",
+    "compare boiling point and melting point of cis and trans isomers",
+    "justify why geometrical isomerism in alkenes matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the two substituents on each sp2 carbon atom",
+     "explain": "confirm that neither doubly bonded carbon is attached to two identical groups (requires abC=Cab or abC=Ccd)."
+    },
+    {
+     "step": 2,
+     "action": "assign cis or trans designation and compare dipole moments",
+     "explain": "identify if identical groups lie on the same side (cis) or opposite sides (trans), and evaluate vector cancellation of bond dipole moments."
+    },
+    {
+     "step": 3,
+     "action": "compare physical properties of the cis and trans isomers",
+     "explain": "the cis isomer typically has a higher boiling point due to net dipole moment, while the trans isomer has a higher melting point due to better packing symmetry."
+    }
+   ]
+  },
+  {
+   "id": "kech.9.2.7",
+   "title": "Markovnikov and Anti-Markovnikov Electrophilic Addition",
+   "section": "9.3.5",
+   "definition": "Polar electrophilic addition of hydrogen halides to unsymmetrical alkenes directs the halide to the more substituted carbon, while organic peroxides reverse the regioselectivity for HBr via a free-radical intermediate.",
+   "formula": "Markovnikov: electrophile H+ adds to carbon with more H; Peroxide: Br radical adds to carbon with more H",
+   "key_idea": "Markovnikov addition proceeds via the more stable carbocation intermediate, while peroxide-catalyzed addition of HBr proceeds via the more stable alkyl free radical.",
+   "textbook_ref": "kech203.txt lines 630-680",
+   "question_patterns": [
+    "predict the major product of addition of HBr to propene",
+    "explain the peroxide effect on addition of HBr to unsymmetrical alkenes",
+    "why is peroxide effect observed with HBr but not with HCl or HI",
+    "write the mechanism for Markovnikov addition of hydrogen halide",
+    "how does markovnikov and anti-markovnikov electrophilic addition work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine whether reaction is ionic or radical-mediated",
+     "explain": "ionic conditions follow Markovnikov's rule via the more substituted stable carbocation; presence of peroxides with HBr triggers free-radical chain addition."
+    },
+    {
+     "step": 2,
+     "action": "attach the electrophile and nucleophile to the respective alkene carbons",
+     "explain": "for Markovnikov, place Br at the less-hydrogenated carbon; for Kharasch peroxide conditions with HBr, place Br at the terminal, more-hydrogenated carbon."
+    },
+    {
+     "step": 3,
+     "action": "write the complete mechanism and draw the final product structure",
+     "explain": "for ionic addition, show the carbocation intermediate and nucleophile attack; for radical addition, show the bromine radical initiation, propagation, and termination steps."
+    }
+   ]
+  },
+  {
+   "id": "kech.9.2.8",
+   "title": "Alkene Ozonolysis and Double Bond Cleavage",
+   "section": "9.3.5",
+   "definition": "Oxidative cleavage of an alkene's carbon-carbon double bond with ozone followed by zinc-water reductive workup, yielding aldehydes and ketones corresponding to the substitution pattern.",
+   "formula": "R1R2C=CR3H + O3 /(Zn, H2O) -> R1R2C=O + R3CHO",
+   "key_idea": "Cleaving the C=C bond and capping the two fragments with carbonyl oxygens shows where the original double bond sat and how the carbon chain was branched.",
+   "textbook_ref": "kech203.txt lines 690-720",
+   "question_patterns": [
+    "deduce the structural formula of alkene from ozonolysis products",
+    "write IUPAC names of products formed by ozonolysis of alkene",
+    "identify the alkene which gives two moles of ethanal on ozonolysis",
+    "what carbonyl compounds are obtained from reductive ozonolysis",
+    "short note on alkene ozonolysis and double bond cleavage"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "break the C=C double bond into two carbonyl precursors",
+     "explain": "form an intermediate molozonide/ozonide across the double bond."
+    },
+    {
+     "step": 2,
+     "action": "replace the split double bond fragments with carbonyl oxygen atoms",
+     "explain": "reductive cleavage with Zn and H2O converts =CH- groups to aldehydes and =C(R)- groups to ketones without further oxidation to carboxylic acids."
+    },
+    {
+     "step": 3,
+     "action": "reassemble the original alkene by joining the carbonyl carbons",
+     "explain": "remove the oxygen atoms from the two carbonyl products and reconnect the carbon fragments with a double bond to deduce the parent alkene structure."
+    }
+   ]
+  },
+  {
+   "id": "kech.9.2.9",
+   "title": "Acidity of Terminal Alkynes",
+   "section": "9.4.4",
+   "definition": "Hydrogen atoms attached directly to sp-hybridized carbons in terminal alkynes exhibit weak acidic character due to the 50 percent s-character pulling electron density toward the carbon nucleus.",
+   "formula": "RC#CH + NaNH2 -> RC#C-Na+ + NH3",
+   "key_idea": "High electronegativity of sp-hybridized carbon stabilizes the conjugate carbanion base, enabling proton removal by strong bases.",
+   "textbook_ref": "kech203.txt lines 780-820",
+   "question_patterns": [
+    "why is ethyne acidic while ethene and ethane are not",
+    "arrange ethyne, ethene and ethane in decreasing order of acidity",
+    "how does sodium metal distinguish between terminal and non-terminal alkynes",
+    "explain the chemical reaction of ethyne with sodamide",
+    "how does acidity of terminal alkynes work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare hybridisation states of the carbon bearing the hydrogen",
+     "explain": "sp carbon in alkynes has 50 percent s-character compared to 33 percent in sp2 and 25 percent in sp3."
+    },
+    {
+     "step": 2,
+     "action": "evaluate carbanion stability and proton release",
+     "explain": "greater electronegativity of sp carbon stabilizes the resulting acetylide anion, enabling reaction with Na or NaNH2 to liberate hydrogen gas or ammonia."
+    },
+    {
+     "step": 3,
+     "action": "rank the hydrocarbons by acidity based on s-character",
+     "explain": "ethyne (sp, 50 percent s) is most acidic, followed by ethene (sp2, 33 percent) and ethane (sp3, 25 percent); only terminal alkynes react with strong bases like NaNH2."
+    }
+   ]
+  },
+  {
+   "id": "kech.9.2.10",
+   "title": "Directive Influence in Electrophilic Aromatic Substitution",
+   "section": "9.5.6",
+   "definition": "Substituents already present on a benzene ring determine the rate and orientation of subsequent electrophilic attack through inductive and resonance electron donation or withdrawal.",
+   "formula": "Activating (+M, +I) -> ortho/para; Deactivating (-M, -I) -> meta (except halogens which are o/p)",
+   "key_idea": "Resonance electron release enhances electron density specifically at both ortho and para positions, while electron-withdrawing groups deplete ortho/para positions more than meta.",
+   "textbook_ref": "kech203.txt lines 980-1040",
+   "question_patterns": [
+    "explain the ortho and para directing influence of OH group in phenol",
+    "why is nitro group meta directing and deactivating",
+    "predict the major product when monosubstituted benzene undergoes nitration",
+    "arrange the given substituted benzenes in decreasing order of reactivity towards electrophiles",
+    "describe directive influence in electrophilic aromatic substitution with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine the electronic effect of the existing ring substituent",
+     "explain": "classify substituent as electron donating (+R/+I like -OH, -NH2, -CH3) or electron withdrawing (-R/-I like -NO2, -COOH, -CHO)."
+    },
+    {
+     "step": 2,
+     "action": "predict attack position of the incoming electrophile",
+     "explain": "activating and moderately deactivating halo groups direct to ortho/para; strong deactivating groups direct incoming electrophiles to meta."
+    },
+    {
+     "step": 3,
+     "action": "draw the resonance structures of the sigma complex intermediate",
+     "explain": "show how electron-donating groups stabilize the positive charge at ortho and para positions, while electron-withdrawing groups destabilize those positions and favor meta attack."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kech203.txt Problem 9.1",
+   "concept": "kech.9.2.4",
+   "question_type": "verify_property",
+   "question_pattern": "Write structures of different chain isomers of alkanes corresponding to the molecular formula {formula}. Also write their IUPAC names.",
+   "extracted_variables": {
+    "formula": "C6H14"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "construct the longest 6-carbon straight chain",
+     "explain": "n-hexane has a continuous 6-carbon chain."
+    },
+    {
+     "step": 2,
+     "action": "generate 5-carbon chains with single methyl branches",
+     "explain": "methyl group placed at position 2 gives 2-methylpentane; placed at position 3 gives 3-methylpentane."
+    },
+    {
+     "step": 3,
+     "action": "generate 4-carbon chains with two methyl branches",
+     "explain": "placing methyl groups on carbons 2 and 3 gives 2,3-dimethylbutane; placing both on carbon 2 gives 2,2-dimethylbutane."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kech203.txt Problem 9.8",
+   "concept": "kech.9.2.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate number of sigma and pi bonds in {compound_formula} containing {c_count} carbons and {h_count} hydrogens with {double_bonds} double bonds and {triple_bonds} triple bonds.",
+   "extracted_variables": {
+    "c_count": "number of carbon atoms",
+    "h_count": "number of hydrogen atoms",
+    "double_bonds": "number of double bonds",
+    "triple_bonds": "number of triple bonds"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum all single bonds and one component of each multiple bond",
+     "explain": "total sigma bonds equal total atoms minus one in acyclic molecules",
+     "compute": "total_sigma = c_count + h_count - 1"
+    },
+    {
+     "step": 2,
+     "action": "compute total pi bonds from multiple bond multiplicity",
+     "explain": "each double bond contributes one pi bond and each triple bond contributes two pi bonds",
+     "compute": "total_pi = double_bonds + (2 * triple_bonds)"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "kech203.txt Problem 9.12",
+   "concept": "kech.9.2.7",
+   "question_type": "verify_property",
+   "question_pattern": "Write IUPAC names of the products obtained by addition reactions of HBr to {alkene} in (i) the absence of peroxide and (ii) the presence of peroxide.",
+   "extracted_variables": {
+    "alkene": "hex-1-ene"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply Markovnikov addition in the absence of peroxide",
+     "explain": "the electrophile H+ adds to C-1 generating a secondary carbocation at C-2, yielding 2-bromohexane."
+    },
+    {
+     "step": 2,
+     "action": "apply anti-Markovnikov addition in the presence of peroxide",
+     "explain": "Br radical attacks C-1 generating a more stable secondary radical at C-2, yielding 1-bromohexane as the major product."
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "kech203.txt lines 380-410",
+   "concept": "kech.9.2.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute stoichiometry of hydrocarbon combustion step by step",
+   "extracted_variables": {
+    "c_atoms": "value of c_atoms",
+    "h_atoms": "value of h_atoms"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify carbon and hydrogen atom counts",
+     "explain": "from molecular formula CxHy, extract x as carbon_count and y as hydrogen_count",
+     "compute": "carbon_count = c_atoms"
+    },
+    {
+     "step": 2,
+     "action": "calculate oxygen requirement per mole of fuel",
+     "explain": "each carbon requires one O2 and every four hydrogens require one O2",
+     "compute": "o2_req = carbon_count + (h_atoms / 4)"
+    }
+   ]
+  },
+  {
+   "id": "exauto2",
+   "source_ref": "kech203.txt lines 490-530",
+   "concept": "kech.9.2.2",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute counting sigma and pi bonds in hydrocarbons step by step",
+   "extracted_variables": {
+    "c_count": "value of c_count",
+    "h_count": "value of h_count",
+    "double_bonds": "value of double_bonds",
+    "triple_bonds": "value of triple_bonds"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum all single bonds and one component of each multiple bond",
+     "explain": "in an acyclic hydrocarbon, total sigma bonds equal total atoms minus one",
+     "compute": "total_sigma = c_count + h_count - 1"
+    },
+    {
+     "step": 2,
+     "action": "compute total pi bonds from multiple bond multiplicity",
+     "explain": "each double bond contributes one pi bond and each triple bond contributes two pi bonds",
+     "compute": "total_pi = double_bonds + (2 * triple_bonds)"
+    }
+   ]
+  },
+  {
+   "id": "exauto3",
+   "source_ref": "kech203.txt lines 890-930",
+   "concept": "kech.9.2.3",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute hückel rule of aromaticity step by step",
+   "extracted_variables": {
+    "pi_electrons": "value of pi_electrons"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract 2 from total delocalized pi electrons",
+     "explain": "the offset of 2 accounts for the lowest closed electron shell",
+     "compute": "diff = pi_electrons - 2"
+    },
+    {
+     "step": 2,
+     "action": "divide the difference by four to determine Hückel index",
+     "explain": "if n is a whole integer (0, 1, 2, ...), the electron count obeys the (4n+2) rule",
+     "compute": "n_val = diff / 4"
+    }
+   ]
+  },
+  {
+   "id": "exauto4",
+   "source_ref": "kech203.txt lines 380-410",
+   "concept": "kech.9.2.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute stoichiometry of hydrocarbon combustion step by step",
+   "extracted_variables": {
+    "c_atoms": "value of c_atoms",
+    "h_atoms": "value of h_atoms"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify carbon and hydrogen atom counts",
+     "explain": "from molecular formula CxHy, extract x as carbon_count and y as hydrogen_count",
+     "compute": "carbon_count = c_atoms"
+    },
+    {
+     "step": 2,
+     "action": "calculate oxygen requirement per mole of fuel",
+     "explain": "each carbon requires one O2 and every four hydrogens require one O2",
+     "compute": "o2_req = carbon_count + (h_atoms / 4)"
+    }
+   ]
+  },
+  {
+   "id": "exauto5",
+   "source_ref": "kech203.txt lines 890-930",
+   "concept": "kech.9.2.3",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute hückel rule of aromaticity step by step",
+   "extracted_variables": {
+    "pi_electrons": "value of pi_electrons"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract 2 from total delocalized pi electrons",
+     "explain": "the offset of 2 accounts for the lowest closed electron shell",
+     "compute": "diff = pi_electrons - 2"
+    },
+    {
+     "step": 2,
+     "action": "divide the difference by four to determine Hückel index",
+     "explain": "if n is a whole integer (0, 1, 2, ...), the electron count obeys the (4n+2) rule",
+     "compute": "n_val = diff / 4"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex9.1",
+   "source_ref": "kech203.txt line 1080",
+   "questions": [
+    "How do you account for the formation of ethane during chlorination of methane?"
+   ]
+  },
+  {
+   "id": "ex9.2",
+   "source_ref": "kech203.txt line 1082",
+   "questions": [
+    "Write IUPAC names of the following compounds: (a) CH3CH=C(CH3)2, (b) CH2=CH-C#C-CH3, (c) 1-(but-3-enyl)benzene, (d) 1-methyl-2-(2-methylpropyl)cyclohexane, (e) 2-methylbutane, (f) CH3(CH2)4CH(CH2)3CH3, (g) deca-1,5,8-triene derivative."
+   ]
+  },
+  {
+   "id": "ex9.3",
+   "source_ref": "kech203.txt line 1090",
+   "questions": [
+    "For the following compounds, write structural formulas and IUPAC names for all possible isomers having the number of double or triple bond as indicated: (a) C4H8 (one double bond), (b) C5H8 (one triple bond)."
+   ]
+  },
+  {
+   "id": "ex9.4",
+   "source_ref": "kech203.txt line 1095",
+   "questions": [
+    "Write IUPAC names of the products obtained by the ozonolysis of the following compounds: (i) Pent-2-ene, (ii) 3,4-Dimethylhept-3-ene, (iii) 2-Ethylbut-1-ene, (iv) 1-Phenylbut-1-ene."
+   ]
+  },
+  {
+   "id": "ex9.5",
+   "source_ref": "kech203.txt line 1100",
+   "questions": [
+    "An alkene 'A' on ozonolysis gives a mixture of ethanal and pentan-3-one. Write structure and IUPAC name of 'A'."
+   ]
+  },
+  {
+   "id": "ex9.6",
+   "source_ref": "kech203.txt line 1103",
+   "questions": [
+    "An alkene 'A' contains three C-C, eight C-H sigma bonds and one C-C pi bond. 'A' on ozonolysis gives two moles of an aldehyde of molar mass 44 u. Write IUPAC name of 'A'."
+   ]
+  },
+  {
+   "id": "ex9.7",
+   "source_ref": "kech203.txt line 1107",
+   "questions": [
+    "Propanal and pentan-3-one are the ozonolysis products of an alkene. What is the structural formula of the alkene?"
+   ]
+  },
+  {
+   "id": "ex9.8",
+   "source_ref": "kech203.txt line 1110",
+   "questions": [
+    "Write chemical equations for combustion reaction of the following hydrocarbons: (i) Butane, (ii) Pentene, (iii) Hexyne, (iv) Toluene."
+   ]
+  },
+  {
+   "id": "ex9.9",
+   "source_ref": "kech203.txt line 1114",
+   "questions": [
+    "Draw the cis and trans structures of hex-2-ene. Which isomer will have higher b.p. and why?"
+   ]
+  },
+  {
+   "id": "ex9.10",
+   "source_ref": "kech203.txt line 1117",
+   "questions": [
+    "Why is benzene extraordinarily stable though it contains three double bonds?"
+   ]
+  },
+  {
+   "id": "ex9.11",
+   "source_ref": "kech203.txt line 1120",
+   "questions": [
+    "What are the necessary conditions for any system to be aromatic?"
+   ]
+  },
+  {
+   "id": "ex9.12",
+   "source_ref": "kech203.txt line 1122",
+   "questions": [
+    "Explain why the given cyclic systems (cycloheptatrienyl cation, cyclopentadienyl anion, cyclooctatetraene) are or are not aromatic."
+   ]
+  },
+  {
+   "id": "ex9.13",
+   "source_ref": "kech203.txt line 1125",
+   "questions": [
+    "How will you convert benzene into (i) p-nitrobromobenzene, (ii) m-nitrochlorobenzene, (iii) p-nitrotoluene, (iv) acetophenone?"
+   ]
+  },
+  {
+   "id": "ex9.14",
+   "source_ref": "kech203.txt line 1129",
+   "questions": [
+    "In the alkane H3C-CH2-C(CH3)2-CH2-CH(CH3)2, identify 1 degree, 2 degree, 3 degree carbon atoms and give the number of H atoms bonded to each one of these."
+   ]
+  },
+  {
+   "id": "ex9.15",
+   "source_ref": "kech203.txt line 1132",
+   "questions": [
+    "What effect does branching of an alkane chain have on its boiling point?"
+   ]
+  },
+  {
+   "id": "ex9.16",
+   "source_ref": "kech203.txt line 1134",
+   "questions": [
+    "Addition of HBr to propene yields 2-bromopropane, while in the presence of benzoyl peroxide, the same reaction yields 1-bromopropane. Explain and give mechanism."
+   ]
+  },
+  {
+   "id": "ex9.17",
+   "source_ref": "kech203.txt line 1138",
+   "questions": [
+    "Write down the products of ozonolysis of 1,2-dimethylbenzene (o-xylene). How does the result support Kekule structure for benzene?"
+   ]
+  },
+  {
+   "id": "ex9.18",
+   "source_ref": "kech203.txt line 1142",
+   "questions": [
+    "Arrange benzene, n-hexane and ethyne in decreasing order of acidic behaviour. Also give reason for this behaviour."
+   ]
+  },
+  {
+   "id": "ex9.19",
+   "source_ref": "kech203.txt line 1145",
+   "questions": [
+    "Why does benzene undergo electrophilic substitution reactions easily and nucleophilic substitutions with difficulty?"
+   ]
+  },
+  {
+   "id": "ex9.20",
+   "source_ref": "kech203.txt line 1148",
+   "questions": [
+    "How would you convert the following compounds into benzene? (i) Ethyne, (ii) Ethene, (iii) Hexane."
+   ]
+  },
+  {
+   "id": "ex9.21",
+   "source_ref": "kech203.txt line 1151",
+   "questions": [
+    "Write structures of all the alkenes which on hydrogenation give 2-methylbutane."
+   ]
+  },
+  {
+   "id": "ex9.22",
+   "source_ref": "kech203.txt line 1153",
+   "questions": [
+    "Arrange the following set of compounds in order of their decreasing relative reactivity with an electrophile, E+: (a) Chlorobenzene, 2,4-dinitrochlorobenzene, p-nitrochlorobenzene; (b) Toluene, p-H3C-C6H4-NO2, p-O2N-C6H4-NO2."
+   ]
+  },
+  {
+   "id": "ex9.23",
+   "source_ref": "kech203.txt line 1157",
+   "questions": [
+    "Out of benzene, m-dinitrobenzene and toluene which will undergo nitration most easily and why?"
+   ]
+  },
+  {
+   "id": "ex9.24",
+   "source_ref": "kech203.txt line 1160",
+   "questions": [
+    "Suggest the name of a Lewis acid other than anhydrous aluminium chloride which can be used during ethylation of benzene."
+   ]
+  },
+  {
+   "id": "ex9.25",
+   "source_ref": "kech203.txt line 1162",
+   "questions": [
+    "Why is Wurtz reaction not preferred for the preparation of alkanes containing odd number of carbon atoms? Illustrate your answer by taking one example."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

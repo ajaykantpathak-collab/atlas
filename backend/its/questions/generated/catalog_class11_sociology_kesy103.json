@@ -1,0 +1,89 @@
+{
+ "catalog": "catalog_class11_sociology_kesy103",
+ "concepts": [
+  {
+   "id": "kesy103.1.1",
+   "title": "What is a Social Institution?",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'What is a Social Institution?' refers to.",
+     "a": "A social institution is a stable cluster of norms, roles and procedures organised around a basic social need -- family for kinship and care, economy for livelihood, polity for power, religion for meaning. Institutions look natural because they have always been there, yet each is a human construction that varies across societies and changes over time.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'What is a Social Institution?'.",
+     "a": "Institutions are society's durable answers to recurring needs -- made by people, mistaken for nature.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'What is a Social Institution?' taught, and from which source text?",
+     "a": "1.1 (source: kesy103.txt lines 15-130 (introduction, why study institutions, institutions as sets of norms and roles meeting basic needs, examples of family economy polity religion))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kesy103.1.2",
+   "title": "Family, Marriage and Kinship",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Family, Marriage and Kinship' refers to.",
+     "a": "The family is the institutional core of kinship -- the network of relationships traced through blood and marriage. Forms vary: nuclear and joint households, monogamy, polygyny and polyandry, patrilocal and matrilocal residence. Marriage rules of endogamy and exogamy decide who one may marry, and descent rules decide who one belongs to.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Family, Marriage and Kinship'.",
+     "a": "Marriage writes the rules of alliance; descent writes the rules of belonging -- family forms are many, not one.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Family, Marriage and Kinship' taught, and from which source text?",
+     "a": "1.2 (source: kesy103.txt lines 130-280 (family marriage kinship, nuclear and extended family, monogamy polygyny polyandry, endogamy exogamy, patriliny matriliny, rules of residence))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kesy103.1.3",
+   "title": "Power, Authority and the State",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Power, Authority and the State' refers to.",
+     "a": "Power is the ability to make others do what one wants; authority is power accepted as legitimate. Max Weber's classic types -- traditional, charismatic and legal-rational -- name the grounds on which obedience is claimed. Modern states monopolise legitimate violence within a territory and organise authority through law and bureaucracy.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Power, Authority and the State'.",
+     "a": "Power persuades or forces; authority persuades because it is believed right -- legitimacy is the difference.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Power, Authority and the State' taught, and from which source text?",
+     "a": "1.3 (source: kesy103.txt lines 280-400 (power authority and the state, weber's three types of authority, legitimacy, modern state and bureaucracy))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kesy103.1.4",
+   "title": "Economy, Religion and Education as Institutions",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Economy, Religion and Education as Institutions' refers to.",
+     "a": "The economy institutionalises the production and distribution of livelihood -- from hunting-gathering through agrarian to industrial and knowledge systems. Religion institutionalises the sacred: beliefs, rituals and organisations that bind communities and sanctify norms. Education institutionalises the transmission of knowledge and values, both preserving culture and equipping change.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Economy, Religion and Education as Institutions'.",
+     "a": "Livelihood, meaning and learning each have their institution -- economy, religion, education -- shaping and shaped by the rest.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Economy, Religion and Education as Institutions' taught, and from which source text?",
+     "a": "1.4 (source: kesy103.txt lines 400-500 (economic institutions, division of labour, religion as institution, ritual and sacred, education and transmission of culture))",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

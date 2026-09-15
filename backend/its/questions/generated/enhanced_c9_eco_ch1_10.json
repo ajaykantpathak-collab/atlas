@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_eco_ch1_10",
+ "concepts": [
+  {
+   "id": "enh:c9_eco_ch1_10",
+   "title": "c9_eco_ch1_10",
+   "questions": [
+    {
+     "q": "Define a public good using the two essential economic characteristics. Give one example of a public good provided by the Indian government.",
+     "a": "A public good is **non-excludable** (no one can be prevented from using it) and **non-rivalrous** (one person's use does not reduce availability for others). Example: **national defense**—the Indian Army protects all citizens simultaneously, and protecting one citizen does not weaken protection for another.  \n**Wrong answer reveals:** If a student says \"a good provided by the government\" (e.g., free rice from PDS), they confuse *government-provided goods* with *public goods*. PDS rice is excludable (only BPL cardholders get it) and rivalrous (one kg eaten by A is not available for B)—it is a **private good subsidized by government**, not a public good.",
+     "self_check": true
+    },
+    {
+     "q": "Why can't a private company successfully sell \"clean air in Delhi\" as a product to individual households, even though everyone values it? Explain using the two characteristics of public goods.",
+     "a": "Clean air is **non-excludable**—a private firm cannot prevent non-payers from breathing the air—and **non-rivalrous**—one person breathing clean air does not reduce the amount available for others. Because the firm cannot exclude free-riders, no household has an incentive to pay voluntarily. The firm would earn zero revenue and exit the market.  \n**Wrong answer reveals:** If a student says \"because the government should do it\" or \"because it's a right,\" they miss the *economic mechanism*: the inability to charge a price due to non-excludability destroys the profit motive. This is the **free-rider problem**—the core market failure.",
+     "self_check": true
+    },
+    {
+     "q": "The Municipal Corporation of Greater Mumbai spends ₹120 crore annually on street lighting. The city has 1.2 crore residents. If street lighting is a pure public good, what is the **marginal cost** of providing street lighting to one additional resident? Explain your reasoning.",
+     "a": "**Marginal cost = ₹0.**  \nSteps:  \n1. Identify the defining feature: non-rivalry means one person's consumption does not reduce quantity/quality for others.  \n2. Marginal cost is the cost of serving one *extra* user.  \n3. For a pure public good, the good already exists (streetlights are on); adding one more resident does not require new streetlights, more electricity, or extra maintenance.  \n4. Therefore, the additional cost is zero.  \n5. The ₹120 crore is a **fixed cost** (lump-sum), not a per-unit cost.  \n**Wrong answer reveals:** If a student calculates ₹120 crore / 1.2 crore = ₹100 per person, they treat it as a private good with average cost pricing. This confuses *average total cost* with *marginal cost*—a critical error in public economics.",
+     "self_check": true
+    },
+    {
+     "q": "Compare **national defense** and **a toll highway**. Both are provided by the government. Using the two characteristics, explain why national defense is a public good but a toll highway is *not* a pure public good.",
+     "a": "| Characteristic | National Defense | Toll Highway |\n|----------------|------------------|--------------|\n| **Non-excludable** | Yes—cannot protect only taxpayers | **No**—toll booths exclude non-payers |\n| **Non-rivalrous** | Yes—protecting Delhi doesn't weaken Mumbai's defense | **No (at peak)**—one more car increases congestion, reducing speed for others |\n\nNational defense satisfies *both* criteria → pure public good.  \nToll highway is **excludable** (via tolls) and **rivalrous** (congestion) → it is a **club good** (or quasi-public good), not a pure public good.  \n**Wrong answer reveals:** If a student says \"both are public goods because the government builds them,\" they confuse *government provision* with *economic classification*. Governments provide many non-public goods (e.g., subsidized LPG, toll roads) for equity or strategic reasons.",
+     "self_check": true
+    },
+    {
+     "q": "The Government of India is deciding whether to fund a new **missile defense system** (cost: ₹50,000 crore) or a **nationwide free Wi-Fi network** (cost: ₹50,000 crore). Both are non-rivalrous. Evaluate which is a *stronger* case for government provision based on **excludability** and the **free-rider problem**.",
+     "a": "**Missile defense is the stronger case.**  \nReasoning:  \n1. Both are non-rivalrous (one user doesn't reduce availability).  \n2. **Missile defense is non-excludable**—impossible to shield only paying citizens from an incoming missile. Free-riding is *inevitable*; private provision is impossible.  \n3. **Free Wi-Fi is technically excludable**—routers can require login/password (like JioFiber or Airtel Xstream). A private firm *could* sell subscriptions, though it may choose not to for social reasons.  \n4. Therefore, the free-rider problem is **absolute for missile defense** but **solvable for Wi-Fi**. Government *must* provide missile defense; Wi-Fi *could* be left to the market with subsidies for the poor.  \n**Wrong answer reveals:** If a student picks Wi-Fi because \"more people use it\" or \"it's modern,\" they ignore excludability—the decisive criterion for market failure. They also confuse *merit goods* (Wi-Fi has positive externalities) with *public goods*.",
+     "self_check": true
+    },
+    {
+     "q": "Design a **realistic policy proposal** for providing **flood control embankments** along the Kosi River in Bihar. Your proposal must: (a) justify why this is a public good, (b) explain how the government should fund it, and (c) address the free-rider problem for maintenance.",
+     "a": "**Expected answer criteria:**  \n(a) **Public good justification:** Embankments protect *all* villages downstream simultaneously (non-rivalrous); cannot exclude a village that refuses to pay (non-excludable).  \n(b) **Funding:** Central + State government budget (tax revenue: GST, income tax), possibly supplemented by World Bank/ADB loans for capital expenditure. *Not* user fees—exclusion is impossible.  \n(c) **Free-rider solution for maintenance:** Legally mandate maintenance as a **public duty** of the Water Resources Department, funded by recurring budget allocation. Create a **River Basin Authority** with statutory powers to levy a small *land betterment tax* on protected agricultural land (beneficiaries are identifiable), ensuring no village can free-ride on upkeep.  \n\n**Poor answer reveals:** If a student suggests \"collect ₹500 from each farmer,\" they ignore non-excludability—farmers upstream would refuse, leaving gaps in the embankment. If they say \"NGOs should maintain it,\" they miss that maintenance is a recurring *public* cost requiring state capacity, not charity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

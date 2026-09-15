@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch04_042",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch04_042",
+   "title": "c6_math_ch04_042",
+   "questions": [
+    {
+     "q": "In the number 5.7, which digit is in the tenths place?",
+     "a": "The digit 7 is in the tenths place. If a student answers \"5,\" they are confusing the whole number place value with the fractional place value.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why 0.5 is the same as the fraction 5/10.",
+     "a": "0.5 means 5 tenths, which is written as the fraction 5/10. A student who says \"they are not the same\" likely doesn't understand that the decimal point denotes a base-10 fractional part.",
+     "self_check": true
+    },
+    {
+     "q": "Convert the fraction 24/100 into a decimal.",
+     "a": "The answer is 0.24. This is found by moving the decimal point two places to the left for a denominator of 100. If a student writes 2.4, they are likely miscounting the number of decimal places needed.",
+     "self_check": true
+    },
+    {
+     "q": "Compare 0.3 and 0.03. Which is larger and why?",
+     "a": "0.3 is larger because it represents 3 tenths (30/100), whereas 0.03 represents only 3 hundredths (3/100). A student who thinks 0.03 is larger is likely ignoring the place value and just looking at the number of zeros.",
+     "self_check": true
+    },
+    {
+     "q": "If you have 8 rupees and 50 paise, how would you write this as a decimal in terms of rupees?",
+     "a": "It is 8.50 rupees because 50 paise is 50/100 of a rupee. A student who writes 8.05 is failing to recognize that 50 paise is 5 tenths or 50 hundredths of a rupee.",
+     "self_check": true
+    },
+    {
+     "q": "Write your own decimal number that is greater than 0.1 but less than 0.2.",
+     "a": "Any number like 0.11, 0.15, or 0.19 is correct. A student who struggles to provide an answer does not understand that there are many values between tenths.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

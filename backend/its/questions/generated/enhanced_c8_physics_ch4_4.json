@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch4_4",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch4_4",
+   "title": "c8_physics_ch4_4",
+   "questions": [
+    {
+     "q": "State the formula for pressure and its SI unit. If a force of 200 N acts on an area of 0.5 m², what is the pressure in pascals?",
+     "a": "Pressure P = F/A. SI unit is pascal (Pa) = N/m². For F = 200 N, A = 0.5 m², P = 200/0.5 = 400 Pa. A wrong answer (e.g., 100 Pa) reveals the student may be multiplying instead of dividing, or confusing the inverse relationship between pressure and area.",
+     "self_check": true
+    },
+    {
+     "q": "A school bag weighs 30 N. When carried with a thin strap of area 0.002 m², the pressure on the shoulder is 15,000 Pa. If the strap is widened to 0.02 m², the pressure becomes 1,500 Pa. Explain why the pressure decreases by a factor of 10 even though the weight (force) is unchanged.",
+     "a": "Pressure is inversely proportional to area when force is constant. Increasing area by 10 times (0.002 → 0.02 m²) decreases pressure by 10 times (15,000 → 1,500 Pa). A wrong answer suggests the student thinks pressure depends only on force, or that widening the strap reduces the force, confusing force with pressure.",
+     "self_check": true
+    },
+    {
+     "q": "A tractor has two rear tyres, each with a contact area of 0.15 m². The total weight of the tractor is 12,000 N. Calculate the pressure exerted by the tractor on the ground. (Assume weight is equally distributed on the two rear tyres; ignore front tyres for simplicity.)",
+     "a": "Step 1: Force on each rear tyre = 12,000 N / 2 = 6,000 N. Step 2: Area per tyre = 0.15 m². Step 3: Pressure = Force/Area = 6,000 N / 0.15 m² = 40,000 Pa = 40 kPa. A wrong answer (e.g., 80,000 Pa) reveals the student used total weight on one tyre, or forgot to divide weight between two tyres.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pressure exerted by a woman wearing high heels (heel area 0.5 cm² each, weight 500 N) versus the same woman wearing flat sandals (sole area 150 cm² each). Which footwear exerts more pressure on a wooden floor, and by approximately how many times? (Use 1 cm² = 0.0001 m².)",
+     "a": "High heels: total heel area = 2 × 0.5 cm² = 1 cm² = 0.0001 m². Pressure = 500 N / 0.0001 m² = 5,000,000 Pa = 5 MPa. Flat sandals: total area = 2 × 150 cm² = 300 cm² = 0.03 m². Pressure = 500 N / 0.03 m² ≈ 16,667 Pa. High heels exert about 300 times more pressure. A wrong comparison indicates the student cannot convert units consistently or fails to sum areas for both feet.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"If I put a heavy book on a sponge, it sinks in. If I put the same book on a table, it doesn't sink. So the pressure on the sponge is higher than on the table.\" Evaluate this statement. Is the student correct? Why or why not?",
+     "a": "The student is incorrect. Pressure = Force/Area. The force (weight of book) and contact area are the same in both cases, so the pressure exerted by the book on the sponge and on the table is identical. The sponge compresses because it is soft (low yield strength), not because pressure is higher. A wrong evaluation shows confusion between pressure (cause) and deformation (effect), or thinking pressure depends on the material.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items (e.g., a balloon, sand, a ruler, and books) to demonstrate that increasing the area of contact reduces the pressure enough to prevent a balloon from bursting under a weight. Describe the steps, what you would measure, and the expected observation.",
+     "a": "Good answer: Place an inflated balloon on a tray of sand. Put a flat wooden board (large area) on the balloon, then add books one by one – the balloon may not burst. Repeat with a narrow block (small area) of same weight – the balloon bursts sooner. Measure the number of books (force) each setup withstands. Expected: larger area withstands more weight before bursting. A poor answer omits controlling force, doesn't compare areas, or confuses pressure with total force.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

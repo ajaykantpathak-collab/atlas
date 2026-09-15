@@ -1,0 +1,427 @@
+{
+ "class": 12,
+ "subject": "chemistry",
+ "chapter": 201,
+ "chapter_title": "Haloalkanes and Haloarenes",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lech201.txt",
+ "concepts": [
+  {
+   "id": "lech.201.1",
+   "title": "Classification of Halogen Compounds",
+   "section": "6.1",
+   "definition": "Categorization of halogenated organic molecules using the number of halogen atoms and the carbon's hybridization state atom to which the halogen is indeed bonded.",
+   "formula": "None",
+   "key_idea": "In brief, In brief, In brief, In brief, Halogen compounds are classified by halogen count and carbon hybridization (sp3 or sp2) at the bonding site.",
+   "textbook_ref": "lech201.txt lines 50-120",
+   "question_patterns": [
+    "classify the following compound as alkyl, allyl, benzyl, vinyl or aryl halide",
+    "identify whether the given halide is primary, secondary, or tertiary",
+    "classify the halogen derivative based on the hybridization of carbon",
+    "is the given structure an allylic or benzylic halide"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the carbon atom directly bonded to the halogen atom.",
+     "explain": "Locate the C-X bond in the given chemical structure."
+    },
+    {
+     "step": 2,
+     "action": "Determine the hybridization of this carbon atom.",
+     "explain": "Check if the carbon is sp3 hybridised (single bonds only) or sp2 hybridised (part of a double bond or aromatic ring)."
+    },
+    {
+     "step": 3,
+     "action": "Analyze the adjacent groups to classify the halide type.",
+     "explain": "Classify as allylic if adjacent to a C=C double bond, benzylic if adjacent to an aromatic ring, vinylic if directly on a C=C double bond, or aryl if directly on a benzene ring."
+    },
+    {
+     "step": 4,
+     "action": "Determine the degree of substitution of the carbon.",
+     "explain": "Count the number of alkyl groups attached to the halogen-bearing carbon to classify as primary (1°), secondary (2°), or tertiary (3°)."
+    }
+   ]
+  },
+  {
+   "id": "lech.201.2",
+   "title": "IUPAC Nomenclature of Haloalkanes and Haloarenes",
+   "section": "6.2",
+   "definition": "Systematic rules for naming halogenated hydrocarbons by treating halogens as substituents on the longest continuous carbon chain.",
+   "formula": "None",
+   "key_idea": "Identify the longest carbon chain containing the principal functional group/multiple bonds, number it to give substituents the lowest locants, and list halogens alphabetically.",
+   "textbook_ref": "lech201.txt lines 121-163",
+   "question_patterns": [
+    "write the IUPAC name of the following compound",
+    "give the systematic IUPAC name for",
+    "draw the structure of the compound from its IUPAC name",
+    "what is the IUPAC name of the given alkyl halide"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the longest continuous carbon chain.",
+     "explain": "Find the longest chain containing the double bond or halogen substituent to determine the parent alkane/alkene name."
+    },
+    {
+     "step": 2,
+     "action": "Number the carbon chain.",
+     "explain": "Number starting from the end that gives lower locants to the double bond, or if absent, to the substituents."
+    },
+    {
+     "step": 3,
+     "action": "Identify and locate all substituents.",
+     "explain": "Identify substituents like bromo, chloro, methyl, etc., and assign their position numbers."
+    },
+    {
+     "step": 4,
+     "action": "Assemble the systematic name.",
+     "explain": "List the substituents alphabetically with their locants, followed by the parent hydrocarbon name."
+    }
+   ]
+  },
+  {
+   "id": "lech.201.3",
+   "title": "Physical Properties and Boiling Point Trends",
+   "section": "6.6",
+   "definition": "In brief, the physical characteristics of both both both both both both both both both both both both both both both both both both both both both both both both haloalkanes and haloarenes, like boiling points, density, and solubility, which are governed by molecular mass and intermolecular forces.",
+   "formula": "Boiling Point order: RI > RBr > RCl > RF",
+   "key_idea": "Boiling points increase with molecular mass and size of the halogen because of stronger van der Waals forces, but decrease with branching because of reduced surface area.",
+   "textbook_ref": "lech201.txt lines 167-169",
+   "question_patterns": [
+    "arrange the following compounds in order of increasing boiling points",
+    "why does the boiling point of alkyl halides decrease with branching",
+    "compare the boiling points of isomeric dihalobenzenes",
+    "explain the trend in boiling points of haloalkanes with the same alkyl group"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compare the molecular masses and surface areas of the given halogenated compounds.",
+     "explain": "Larger molecules with more electrons have stronger van der Waals forces."
+    },
+    {
+     "step": 2,
+     "action": "Order by halogen size for identical alkyl groups.",
+     "explain": "Boiling point decreases in the order RI > RBr > RCl > RF due to decreasing halogen size and polarizability."
+    },
+    {
+     "step": 3,
+     "action": "Analyze branching for isomeric haloalkanes.",
+     "explain": "Increased branching makes the molecule more spherical, reducing surface area and van der Waals attractions, thereby lowering the boiling point."
+    },
+    {
+     "step": 4,
+     "action": "Arrange the compounds in the final ascending or descending order of boiling points.",
+     "explain": "Combine the mass and branching effects to order the list of compounds."
+    }
+   ]
+  },
+  {
+   "id": "lech.201.4",
+   "title": "SN1 and SN2 Reaction Mechanisms",
+   "section": "6.7.1",
+   "definition": "In brief, In brief, Two distinct pathways for nucleophilic substitution where a nucleophile replaces a leaving group: SN2 is a single-step bimolecular process, while SN1 is a two-step unimolecular process involving a carbocation intermediate.",
+   "formula": "SN2 rate = k[R-X][Nu], SN1 rate = k[R-X]",
+   "key_idea": "SN2 reactivity is governed by steric hindrance (1° > 2° > 3°), whereas SN1 reactivity is determined by carbocation stability (3° > 2° > 1°).",
+   "textbook_ref": "lech201.txt lines 169-174",
+   "question_patterns": [
+    "which compound in the following pair would react faster in an SN2 reaction",
+    "predict the order of reactivity of the given compounds in SN1 and SN2 reactions",
+    "explain why the given halide undergoes faster SN1 reaction",
+    "compare the reactivity of primary and tertiary alkyl halides towards nucleophilic substitution"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the class of each alkyl halide.",
+     "explain": "Determine if each reactant is primary (1°), secondary (2°), or tertiary (3°)."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate steric hindrance for SN2 reactivity.",
+     "explain": "Less hindered primary alkyl halides react fastest in SN2 because the nucleophile can easily attack the carbon from the backside."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate carbocation stability for SN1 reactivity.",
+     "explain": "Tertiary, allylic, and benzylic halides form highly stable carbocations, making them highly reactive in SN1 reactions."
+    },
+    {
+     "step": 4,
+     "action": "Determine the relative rate of reaction for each compound.",
+     "explain": "Order the compounds based on the established reactivity trends (SN2: 1° > 2° > 3°; SN1: 3° > 2° > 1°)."
+    }
+   ]
+  },
+  {
+   "id": "lech.201.5",
+   "title": "Stereochemistry of Nucleophilic Substitution",
+   "section": "6.7.1(c)",
+   "definition": "The spatial rearrangement of substituents during nucleophilic substitution, resulting in complete inversion of configuration in SN2 reactions, or racemization in SN1 reactions.",
+   "formula": "None",
+   "key_idea": "In brief, In brief, SN2 reactions proceed with inversion of configuration (Walden inversion), while SN1 reactions lead to racemization because of a planar carbocation intermediate.",
+   "textbook_ref": "lech201.txt lines 174-179",
+   "question_patterns": [
+    "explain the stereochemical outcome of SN1 and SN2 reactions of optically active halides",
+    "why does the hydrolysis of optically active 2-bromobutane yield a racemic mixture",
+    "describe the stereochemical changes during the reaction of optically active alkyl halides",
+    "what is the difference between retention and inversion of configuration"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine if the starting material is optically active.",
+     "explain": "Check if the reactant contains an asymmetric carbon atom (chiral center)."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the reaction mechanism (SN1 or SN2).",
+     "explain": "Identify whether the reaction conditions and substrate favor SN1 or SN2."
+    },
+    {
+     "step": 3,
+     "action": "Apply the stereochemical rule for the identified mechanism.",
+     "explain": "SN2 reactions involve backside attack leading to 100% inversion of configuration. SN1 reactions proceed via a planar carbocation, allowing attack from both sides to produce a 50:50 racemic mixture."
+    },
+    {
+     "step": 4,
+     "action": "State the optical activity and stereochemical configuration of the final product.",
+     "explain": "Conclude whether the product is optically active (inverted) or optically inactive (racemic)."
+    }
+   ]
+  },
+  {
+   "id": "lech.201.6",
+   "title": "Elimination Reactions and Zaitsev's Rule",
+   "section": "6.7.1(2)",
+   "definition": "The dehydrohalogenation of haloalkanes containing a beta-hydrogen when heated with a strong base, yielding an alkene as the major product.",
+   "formula": "None",
+   "key_idea": "Zaitsev's rule states that in dehydrohalogenation, the preferred product is indeed the highly substituted alkene (having more alkyl groups attached to the double-bonded carbons).",
+   "textbook_ref": "lech201.txt lines 179-180",
+   "question_patterns": [
+    "predict the major alkene formed by dehydrohalogenation of",
+    "state and explain Zaitsev's rule with an example",
+    "what are the elimination products of the given alkyl halide with alcoholic KOH",
+    "identify the major and minor products when 2-bromopentane is heated with potassium hydroxide"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the alpha-carbon and all adjacent beta-carbons with hydrogens.",
+     "explain": "The alpha-carbon is bonded to the halogen; beta-carbons are adjacent to it."
+    },
+    {
+     "step": 2,
+     "action": "Formulate all possible alkene products.",
+     "explain": "Eliminate a hydrogen from each unique beta-carbon along with the halogen to form a double bond."
+    },
+    {
+     "step": 3,
+     "action": "Count the number of alkyl groups on the double-bonded carbons.",
+     "explain": "Determine the degree of substitution of each possible alkene."
+    },
+    {
+     "step": 4,
+     "action": "Apply Zaitsev's rule to identify the major product.",
+     "explain": "The more highly substituted alkene is the more stable and major product."
+    }
+   ]
+  },
+  {
+   "id": "lech.201.7",
+   "title": "Nucleophilic Substitution of Aryl Halides",
+   "section": "6.7.2(1)",
+   "definition": "The relative inertness of aryl halides toward nucleophilic substitution compared to alkyl halides, and how electron-withdrawing groups at ortho and para positions enhance their reactivity.",
+   "formula": "None",
+   "key_idea": "Resonance, sp2 hybridization of the C-X carbon, and repulsion from the pi-cloud make aryl halides unreactive, but ortho/para nitro groups stabilize the carbanion intermediate to facilitate substitution.",
+   "textbook_ref": "lech201.txt lines 181-183",
+   "question_patterns": [
+    "why are aryl halides less reactive than alkyl halides towards nucleophilic substitution",
+    "explain the effect of nitro groups on the reactivity of chlorobenzene",
+    "why does a nitro group at meta position have no effect on the reactivity of haloarenes",
+    "how can chlorobenzene be converted to phenol"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the low reactivity of aryl halides.",
+     "explain": "Discuss resonance (partial double bond character of C-X), hybridization (sp2 carbon holds electrons tightly), and instability of the phenyl cation."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the position of any electron-withdrawing groups.",
+     "explain": "Check if groups like -NO2 are at ortho, para, or meta positions relative to the halogen."
+    },
+    {
+     "step": 3,
+     "action": "Show resonance stabilization of the intermediate carbanion.",
+     "explain": "Ortho and para nitro groups can directly delocalize the negative charge of the intermediate carbanion, whereas meta nitro groups cannot."
+    },
+    {
+     "step": 4,
+     "action": "Conclude the reactivity trend.",
+     "explain": "Reactivity increases with more ortho/para nitro groups, while meta nitro groups have negligible effect."
+    }
+   ]
+  },
+  {
+   "id": "lech.201.8",
+   "title": "Organometallic Compounds and Grignard Reagents",
+   "section": "6.7.1(3)",
+   "definition": "In brief, In brief, In brief, In brief, Compounds containing carbon-metal bonds, specifically alkylmagnesium halides (Grignard reagents) formed by reacting haloalkanes with magnesium in dry ether.",
+   "formula": "R-X + Mg -> R-Mg-X",
+   "key_idea": "In brief, Grignard reagents are highly both reactive and must indeed be prepared under anhydrous conditions because they react with any proton source to yield hydrocarbons.",
+   "textbook_ref": "lech201.txt lines 180-181",
+   "question_patterns": [
+    "why should Grignard reagents be prepared under anhydrous conditions",
+    "write the reaction of an alkyl halide with magnesium in dry ether",
+    "what happens when a Grignard reagent reacts with water",
+    "identify the products when ethylmagnesium bromide is treated with ethanol"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Write the formation of the Grignard reagent.",
+     "explain": "Show R-X reacting with Mg in dry ether to form R-Mg-X."
+    },
+    {
+     "step": 2,
+     "action": "Identify the highly polar, nucleophilic nature of the C-Mg bond.",
+     "explain": "The carbon atom has a partial negative charge and acts as a strong base/nucleophile."
+    },
+    {
+     "step": 3,
+     "action": "Analyze the reaction with a proton source.",
+     "explain": "If water, alcohol, or any proton donor is present, the Grignard reagent abstracts a proton."
+    },
+    {
+     "step": 4,
+     "action": "Determine the final hydrocarbon product.",
+     "explain": "The alkyl group becomes protonated to form R-H (alkane)."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Example 6.6 / Page 174",
+   "concept": "lech.201.4",
+   "question_type": "verify_property",
+   "question_pattern": "In the following pairs of halogen compounds, which would undergo SN2 reaction faster? {compound_a} or {compound_b}",
+   "extracted_variables": {
+    "compound_a": "The first halogen compound",
+    "compound_b": "The second halogen compound"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the class of each alkyl halide.",
+     "explain": "Identify compound_a and compound_b as primary, secondary, or tertiary halides."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate steric hindrance for SN2 reactivity.",
+     "explain": "Compare the steric hindrance around the carbon atom bonded to the halogen in compound_a and compound_b."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate carbocation stability for SN1 reactivity.",
+     "explain": "Not applicable here since we are evaluating SN2 reactivity."
+    },
+    {
+     "step": 4,
+     "action": "Determine the relative rate of reaction for each compound.",
+     "explain": "The primary halide or less sterically hindered halide reacts faster in SN2."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Example 6.5 / Page 171",
+   "concept": "lech.201.7",
+   "question_type": "verify_property",
+   "question_pattern": "Explain why haloalkanes react with KCN to form {product_a} while AgCN forms {product_b} as the chief product.",
+   "extracted_variables": {
+    "product_a": "alkyl cyanides",
+    "product_b": "isocyanides"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Explain the nature of KCN in solution.",
+     "explain": "KCN is ionic and provides free cyanide ions with both C and N nucleophilic centers."
+    },
+    {
+     "step": 2,
+     "action": "Explain why carbon attacks in KCN.",
+     "explain": "The C-C bond is more stable than the C-N bond, so attack occurs primarily through carbon to form alkyl cyanides."
+    },
+    {
+     "step": 3,
+     "action": "Explain the nature of AgCN.",
+     "explain": "AgCN is predominantly covalent, meaning the carbon atom is bonded to silver and not free to attack."
+    },
+    {
+     "step": 4,
+     "action": "Explain why nitrogen attacks in AgCN.",
+     "explain": "The lone pair on nitrogen is free to attack, leading to the formation of isocyanides as the major product."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex6.1",
+   "source_ref": "Exercises 6.1",
+   "questions": [
+    "Name the following halides according to IUPAC system and classify them as alkyl, allyl, benzyl (primary, secondary, tertiary), vinyl or aryl halides: (i) (CH3)2CHCH(Cl)CH3, (ii) CH3CH2CH(CH3)CH(C2H5)Cl, (iii) CH3CH2C(CH3)2CH2I"
+   ]
+  },
+  {
+   "id": "ex6.2",
+   "source_ref": "Exercises 6.2",
+   "questions": [
+    "Give the IUPAC names of the following compounds: (i) CH3CH(Cl)CH(Br)CH3, (ii) CHF2CBrClF, (iii) ClCH2C≡CCH2Br"
+   ]
+  },
+  {
+   "id": "ex6.3",
+   "source_ref": "Exercises 6.3",
+   "questions": [
+    "Write the structures of the following organic halogen compounds: (i) 2-Chloro-3-methylpentane, (ii) p-Bromochlorobenzene, (iii) 1-Chloro-4-ethylcyclohexane"
+   ]
+  },
+  {
+   "id": "ex6.9",
+   "source_ref": "Exercises 6.9",
+   "questions": [
+    "Which compound in each of the following pairs will react faster in SN2 reaction with -OH? (i) CH3Br or CH3I, (ii) (CH3)3CCl or CH3Cl"
+   ]
+  },
+  {
+   "id": "ex6.10",
+   "source_ref": "Exercises 6.10",
+   "questions": [
+    "Predict all the alkenes that would be formed by dehydrohalogenation of the following halides with sodium ethoxide in ethanol and identify the major alkene: (i) 1-Bromo-1-methylcyclohexane, (ii) 2-Chloro-2-methylbutane"
+   ]
+  },
+  {
+   "id": "ex6.12",
+   "source_ref": "Exercises 6.12",
+   "questions": [
+    "Explain why: (i) the dipole moment of chlorobenzene is lower than that of cyclohexyl chloride? (ii) alkyl halides, though polar, are immiscible with water? (iii) Grignard reagents should be prepared under anhydrous conditions?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

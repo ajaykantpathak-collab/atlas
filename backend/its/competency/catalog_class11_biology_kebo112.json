@@ -1,0 +1,257 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 112,
+ "chapter_title": "Respiration in Plants",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebo112.txt",
+ "concepts": [
+  {
+   "id": "kebo.112.1.1",
+   "title": "Glycolysis and Its Net ATP Gain",
+   "section": "12.2 Glycolysis",
+   "definition": "Glycolysis is the partial oxidation of one glucose molecule to two molecules of pyruvic acid through ten enzymatic steps in the cytoplasm, producing a net gain of two ATP and two NADH under anaerobic conditions.",
+   "formula": "",
+   "key_idea": "Glycolysis splits hexose into two triose sugars through a prepatory phase using ATP and a payoff phase generating ATP and NADH, and it is common to aerobic and anaerobic respiration.",
+   "textbook_ref": "kebo112.txt section 12.2",
+   "question_patterns": [
+    "describe the steps of glycolysis and its net atp gain",
+    "where does glycolysis occur in the cell",
+    "what is the end product of glycolysis",
+    "differentiate the prepatory and payoff phases of glycolysis",
+    "how many nadh are produced in glycolysis of one glucose",
+    "why is glycolysis called the common pathway of respiration"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the carbon flow",
+     "explain": "Follow glucose to fructose 1,6-bisphosphate and then to two pyruvate molecules."
+    },
+    {
+     "step": 2,
+     "action": "note the energy steps",
+     "explain": "Count ATP used in the preparatory phase and ATP plus NADH gained in the payoff phase."
+    },
+    {
+     "step": 3,
+     "action": "state the net gain",
+     "explain": "Confirm the net gain of two ATP and two NADH per glucose."
+    }
+   ]
+  },
+  {
+   "id": "kebo.112.2.1",
+   "title": "Fermentation: Anaerobic Fate of Pyruvate",
+   "section": "12.3 Fermentation",
+   "definition": "Under anaerobic conditions pyruvic acid is reduced by NADH to lactic acid in muscles or to ethanol and carbon dioxide in yeast, and fermentation yields only a net gain of two ATP per glucose with far less energy released than aerobic respiration.",
+   "formula": "",
+   "key_idea": "The enzymes pyruvic acid decarboxylase and alcohol dehydrogenase carry out alcoholic fermentation in yeast, and lactic acid fermentation happens in muscle cells during exercise.",
+   "textbook_ref": "kebo112.txt section 12.3",
+   "question_patterns": [
+    "describe alcoholic and lactic acid fermentation",
+    "why does fermentation yield only two atp per glucose",
+    "which enzymes carry out alcoholic fermentation in yeast",
+    "what happens to pyruvic acid in muscle cells during exercise",
+    "compare the energy released in fermentation and aerobic respiration",
+    "define anaerobic respiration with examples"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the anaerobic condition",
+     "explain": "Confirm absence of oxygen forces fermentation."
+    },
+    {
+     "step": 2,
+     "action": "follow pyruvate fate",
+     "explain": "Note reduction to lactic acid or decarboxylation to ethanol and carbon dioxide."
+    },
+    {
+     "step": 3,
+     "action": "state the energy yield",
+     "explain": "Confirm the net gain of only two ATP per glucose."
+    }
+   ]
+  },
+  {
+   "id": "kebo.112.3.1",
+   "title": "Aerobic Respiration: Link Reaction, Krebs Cycle and ETS Net ATP",
+   "section": "12.4 Aerobic Respiration",
+   "definition": "Aerobic respiration oxidises pyruvate through the link reaction forming acetyl CoA, the Krebs cycle in the mitochondrial matrix, and the electron transport system on the inner membrane with oxidative phosphorylation, giving a net gain of thirty-eight ATP molecules from one glucose molecule.",
+   "formula": "net_atp = glucose_molecules * 38",
+   "key_idea": "The complete oxidation of one glucose through glycolysis, link reaction, Krebs cycle and ETS accounts for thirty-eight ATP, with most ATP arising from NADH and FADH2 oxidation in oxidative phosphorylation.",
+   "textbook_ref": "kebo112.txt sections 12.4.1-12.4.3",
+   "question_patterns": [
+    "how many atp are produced from one glucose molecule in aerobic respiration",
+    "calculate the total atp from a given number of glucose molecules oxidised",
+    "describe the link reaction between glycolysis and krebs cycle",
+    "list the steps of the krebs cycle where nadh and fadh2 form",
+    "explain oxidative phosphorylation through the electron transport system",
+    "why is the respiratory balance sheet of atp only theoretical"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the thirty-eight atp ratio",
+     "explain": "Multiply the number of glucose molecules oxidised by 38 to get the net ATP of aerobic respiration",
+     "compute": "net_atp = glucose_molecules * 38"
+    }
+   ]
+  },
+  {
+   "id": "kebo.112.4.1",
+   "title": "Respiratory Quotient of Substrates",
+   "section": "12.5 Respiratory Quotient",
+   "definition": "The respiratory quotient is the ratio of the volume of carbon dioxide released to the volume of oxygen consumed in respiration, and it equals one for carbohydrates, is less than one for fats and proteins, and can exceed one for organic acids.",
+   "formula": "rq = co2_released / o2_consumed",
+   "key_idea": "The RQ of germinating fats like castor seeds is less than one because fat oxidation consumes more oxygen than the carbon dioxide it releases, while succulents show RQ of zero in daylight.",
+   "textbook_ref": "kebo112.txt section 12.5",
+   "question_patterns": [
+    "define respiratory quotient and give its formula",
+    "what is the rq of carbohydrates fats and organic acids",
+    "why is the rq of germinating castor seeds less than one",
+    "calculate the rq from the volumes of gases exchanged",
+    "which substrate gives an rq of more than one",
+    "how is rq used to identify the respiratory substrate"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide the gas volumes",
+     "explain": "Divide the volume of carbon dioxide released by the volume of oxygen consumed to get the respiratory quotient",
+     "compute": "rq = co2_released / o2_consumed"
+    }
+   ]
+  },
+  {
+   "id": "kebo.112.5.1",
+   "title": "Amphibolic Pathway and Respiratory Balance Sheet",
+   "section": "12.4.4 The Respiratory Balance Sheet, 12.4.5 Amphibolic Pathway",
+   "definition": "Respiration is an amphibolic pathway because the respiratory intermediates serve both catabolism and anabolism, and the respiratory balance sheet is theoretical since ATP amounts depend on the shuttle of electrons, the mitochondrial state and the pathway taken.",
+   "formula": "",
+   "key_idea": "Acetyl CoA drawn from fats, carbohydrates and proteins enters the same Krebs cycle, proving the amphibolic nature of respiration.",
+   "textbook_ref": "kebo112.txt sections 12.4.4, 12.4.5",
+   "question_patterns": [
+    "why is respiration called an amphibolic pathway",
+    "explain the respiratory balance sheet and its limitations",
+    "how do fats and proteins enter the respiratory pathway",
+    "state the assumptions of the atp balance sheet",
+    "define catabolism and anabolism in respiration",
+    "which intermediate links respiration to both breakdown and synthesis"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "show both directions",
+     "explain": "Note breakdown of substrates and synthesis of intermediates in the same pathway."
+    },
+    {
+     "step": 2,
+     "action": "check the balance assumptions",
+     "explain": "List the shuttle and state assumptions behind the thirty-eight ATP figure."
+    },
+    {
+     "step": 3,
+     "action": "conclude the pathway nature",
+     "explain": "State why respiration is amphibolic."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebo112.txt sections 12.4.1-12.4.3",
+   "concept": "kebo.112.3.1",
+   "question_type": "compute_respiration_atp",
+   "question_pattern": "One glucose molecule is completely oxidised by aerobic respiration. Using the net gain of 38 ATP per glucose, calculate the total ATP produced.",
+   "extracted_variables": {
+    "glucose_molecules": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the thirty-eight atp ratio",
+     "explain": "Multiply the number of glucose molecules oxidised by 38 to get the net ATP of aerobic respiration",
+     "compute": "net_atp = glucose_molecules * 38"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kebo112.txt sections 12.4.1-12.4.3",
+   "concept": "kebo.112.3.1",
+   "question_type": "compute_respiration_atp",
+   "question_pattern": "A tissue oxidises {glucose_molecules} glucose molecules completely by aerobic respiration. Find the net ATP molecules generated.",
+   "extracted_variables": {
+    "glucose_molecules": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the thirty-eight atp ratio",
+     "explain": "Multiply the number of glucose molecules oxidised by 38 to get the net ATP of aerobic respiration",
+     "compute": "net_atp = glucose_molecules * 38"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "kebo112.txt section 12.5",
+   "concept": "kebo.112.4.1",
+   "question_type": "compute_rq",
+   "question_pattern": "During respiration a tissue released {co2_released} ml of carbon dioxide while consuming {o2_consumed} ml of oxygen. Calculate the respiratory quotient.",
+   "extracted_variables": {
+    "co2_released": 6,
+    "o2_consumed": 6
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide the gas volumes",
+     "explain": "Divide the volume of carbon dioxide released by the volume of oxygen consumed to get the respiratory quotient",
+     "compute": "rq = co2_released / o2_consumed"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "kebo112.txt section 12.5",
+   "concept": "kebo.112.4.1",
+   "question_type": "compute_rq",
+   "question_pattern": "An experiment measured {co2_released} ml of carbon dioxide evolved against {o2_consumed} ml of oxygen used. Work out the RQ and identify the substrate type.",
+   "extracted_variables": {
+    "co2_released": 5,
+    "o2_consumed": 7
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide the gas volumes",
+     "explain": "Divide the volume of carbon dioxide released by the volume of oxygen consumed to get the respiratory quotient",
+     "compute": "rq = co2_released / o2_consumed"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kebo112.txt exercises section",
+   "questions": [
+    "Differentiate between aerobic and anaerobic respiration.",
+    "Discuss the respiratory quotient (RQ).",
+    "Explain ETS.",
+    "Distinguish between glycolysis and fermentation.",
+    "What is oxidative phosphorylation?",
+    "Write two ways in which ATP is formed during respiration.",
+    "The net gain of ATP in aerobic respiration is 38 - explain with the balance sheet."
+   ]
+  }
+ ]
+}

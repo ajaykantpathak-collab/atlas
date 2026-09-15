@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_07_006",
+   "title": "c11_psy_cbse_07_006",
+   "questions": [
+    {
+     "q": "Define \"heuristic\" in the context of decision making and give one example from daily life.",
+     "a": "A heuristic is a mental shortcut or rule of thumb that reduces the cognitive load of decision making by ignoring some information, allowing quick but sometimes inaccurate judgments. Example: Choosing a restaurant because it has a long queue (heuristic: \"popular = good\") without checking the menu or hygiene. A wrong answer (e.g., \"heuristic is a bias\" or \"heuristic is a logical formula\") reveals the student confuses the shortcut itself with the error it produces, or thinks decision making is always algorithmic.",
+     "self_check": true
+    },
+    {
+     "q": "A student believes that because she scored 95% in Class 10, she will definitely score 95% in Class 12 without changing her study habits. Identify the heuristic and the resulting bias. Explain why this is an error in probabilistic reasoning.",
+     "a": "Heuristic: Representativeness heuristic (she assumes her past performance \"represents\" her future outcome as a prototype of a \"topper\"). Bias: Overconfidence bias / Base-rate neglect (she ignores the base rate of score drops due to increased difficulty and curriculum change). The error: Representativeness makes her treat the small sample (Class 10) as perfectly representative of the population (all future exams), violating the law of large numbers and ignoring regression toward the mean. A wrong answer that only names \"overconfidence\" without linking it to the heuristic shows the student cannot trace the cognitive mechanism from shortcut to bias.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul is buying a smartphone. He sees an advertisement claiming \"India's No. 1 Selling Phone\" and immediately decides to buy it without comparing specifications. Later, he reads a review saying the battery drains fast, but he dismisses it thinking \"it's the No. 1 phone, so the review must be wrong.\" Identify two distinct biases operating here and explain the heuristic underlying each.",
+     "a": "Bias 1: Bandwagon effect / Social proof bias — Heuristic: Availability heuristic (the claim \"No. 1\" makes the idea of popularity highly accessible, substituting for actual quality evaluation). Bias 2: Confirmation bias — Heuristic: Anchoring and adjustment (the initial \"No. 1\" claim serves as an anchor; he insufficiently adjusts away from it when confronted with disconfirming evidence, actively dismissing the review). A student who lists only \"confirmation bias\" misses that the initial decision was driven by a different heuristic (availability/social proof) than the maintenance of the belief (anchoring/confirmation), showing inability to separate decision stages.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the availability heuristic and the representativeness heuristic using the following scenario: \"After seeing news reports of airplane crashes, Anika refuses to fly and takes a 30-hour train journey instead, believing flying is extremely dangerous. Meanwhile, her brother Arjun buys a lottery ticket every week because he saw a winner on TV who looked just like him — a regular college student.\" Analyze the cognitive process in each case.",
+     "a": "Anika: Availability heuristic — vivid, emotionally charged media coverage makes crash instances highly retrievable in memory, inflating perceived probability of flying death (ignoring base rate: flying is statistically safer than train travel per km). Arjun: Representativeness heuristic — he judges the probability of winning by the similarity between himself and the televised winner (prototype of a \"lucky person\"), ignoring the base rate (near-zero probability) and sample size (one winner). Contrast: Availability relies on ease of recall from memory; representativeness relies on similarity to a mental prototype. Both neglect base rates but via different cognitive routes. A wrong answer that treats them as the same \"ignoring statistics\" fails to distinguish the memory-based vs. similarity-based mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Heuristics are irrational and should be eliminated from human cognition.\" Use the concepts of bounded rationality and ecological rationality in your answer.",
+     "a": "The statement is false. Heuristics are adaptive tools evolved for bounded rationality (Simon) — humans have limited time, information, and processing capacity. In many real-world environments (ecological rationality), heuristics like \"take the best\" or \"recognition heuristic\" outperform complex algorithms by being faster and more robust to overfitting. For example, a doctor using the \"recognize the most severe symptom\" heuristic in an emergency saves lives. Eliminating heuristics would cause decision paralysis. The error is not heuristics per se, but their misapplication in modern environments (e.g., financial markets) where cues are misleading. A student agreeing with the statement reveals a \"rationalist fallacy\" — equating rationality with logical omniscience rather than adaptive fitness.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 2x2 decision matrix experiment to test whether anchoring bias affects Class 11 students' estimation of the population of a mid-sized Indian city (e.g., Bhopal). Specify the independent variable, dependent variable, control condition, and predicted outcome based on Tversky & Kahneman's classic study.",
+     "a": "Independent Variable: Anchor value (High: \"Is Bhopal's population more or less than 50 lakh?\" vs. Low: \"Is Bhopal's population more or less than 5 lakh?\"). Dependent Variable: Final numerical estimate of Bhopal's population (in lakhs). Control Condition: No anchor (direct estimation). Predicted Outcome: High-anchor group gives significantly higher estimates than Low-anchor group; both differ from control. Insufficient adjustment from the anchor demonstrates anchoring-and-adjustment heuristic. A poor design (e.g., missing control, using within-subjects without counterbalancing) shows inability to isolate the anchoring effect from general knowledge or order effects.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

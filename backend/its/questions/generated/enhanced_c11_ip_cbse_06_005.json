@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_06_005",
+   "title": "c11_ip_cbse_06_005",
+   "questions": [
+    {
+     "q": "What is the return value of the `write()` method when it successfully writes a string to a text file?",
+     "a": "The `write()` method returns an integer representing the number of characters written to the file. A wrong answer (e.g., \"returns None\" or \"returns True/False\") reveals the student is confusing `write()` with methods like `list.append()` or `print()`, and does not understand that `write()` is a low-level I/O operation that reports the byte/character count for error checking.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following code to save a list of names to a file:\n```python\nnames = ['Rahul', 'Sneha', 'Karan']\nf = open('names.txt', 'w')\nf.writelines(names)\nf.close()\n```\nWhen they open `names.txt`, they see `RahulSnehaKaran` on a single line. Explain why this happened and how to fix it.",
+     "a": "`writelines()` does not insert newline characters between list elements; it writes each string exactly as it appears. The fix is to ensure each string in the list ends with `\\n`, e.g., `names = ['Rahul\\n', 'Sneha\\n', 'Karan\\n']` or use a list comprehension: `f.writelines([name + '\\n' for name in names])`. A wrong explanation (e.g., \"writelines adds spaces automatically\") reveals the common misconception that `writelines` behaves like `print()` or joins with newlines.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python code snippet that opens a file `scores.txt` in write mode, writes the header line `Subject,Marks` followed by a newline, then writes the following data lines using `writelines()`: `['Math,95\\n', 'Physics,88\\n', 'Chemistry,92\\n']`. Close the file properly.",
+     "a": "```python\nf = open('scores.txt', 'w')\nf.write('Subject,Marks\\n')\ndata = ['Math,95\\n', 'Physics,88\\n', 'Chemistry,92\\n']\nf.writelines(data)\nf.close()\n```\nSteps: 1) Open in 'w' mode. 2) Use `write()` for single header string with explicit `\\n`. 3) Prepare list with `\\n` in each element. 4) Use `writelines()` for the list. 5) Close file. A wrong answer missing `\\n` in the header or list elements shows failure to apply the \"no automatic newline\" rule.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the behavior of `write()` and `writelines()` when given a list of strings. Why does `write()` raise a TypeError while `writelines()` succeeds? What does this reveal about their design purposes?",
+     "a": "`write()` accepts only a single string argument; passing a list raises `TypeError: write() argument must be str, not list`. `writelines()` expects an iterable of strings and writes each element sequentially. This reveals `write()` is for single-string output (like a line or chunk), while `writelines()` is optimized for batch-writing multiple lines from a collection. A student who thinks `write()` can take a list confuses it with `writelines()` or `print(*list)`.",
+     "self_check": true
+    },
+    {
+     "q": "A programmer wants to log error messages to a file `error.log`. They argue: \"Since `writelines()` can write multiple lines at once, I should always use it instead of `write()` for better performance.\" Evaluate this claim. Is it always true? When would `write()` be preferable?",
+     "a": "The claim is false. `write()` is preferable when writing a single string (e.g., one log entry at a time) because it avoids the overhead of creating a list/tuple. `writelines()` is better when you already have a collection of lines ready to write in one batch. Performance difference is negligible for small writes; the choice should match the data structure. A student who agrees without qualification shows lack of evaluation skill — they memorize \"writelines for multiple lines\" but don't analyze context.",
+     "self_check": true
+    },
+    {
+     "q": "Design a Python function `save_notes(filename, notes_list)` that takes a filename and a list of strings (each string is a note) and saves them to the file such that each note appears on a new line, and the file starts with a header line `--- My Notes ---`. The function must not add an extra blank line at the end of the file. Write the complete function.",
+     "a": "```python\ndef save_notes(filename, notes_list):\n    with open(filename, 'w') as f:\n        f.write('--- My Notes ---\\n')\n        # Ensure each note ends with newline, but don't add extra at end\n        lines = [note + '\\n' for note in notes_list]\n        f.writelines(lines)\n```\nKey points: uses `with` (though node 06_006 covers it, it's good practice), header written with `write()`, list comprehension adds `\\n` to each note, `writelines()` writes all. A poor answer might miss the header, forget `\\n` in comprehension, or use `write()` in a loop (works but not using `writelines()` as required).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

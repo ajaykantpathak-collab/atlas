@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_english_u1_007",
+ "concepts": [
+  {
+   "id": "enh:c6_english_u1_007",
+   "title": "c6_english_u1_007",
+   "questions": [
+    {
+     "q": "What is the primary difference between finding a word's meaning in a dictionary versus using context?",
+     "a": "A dictionary gives a fixed, general definition, whereas context clues provide a meaning specific to how the word is used in that particular story. A wrong answer suggests the student thinks context is just \"guessing,\" which misses the point that it is an evidence-based investigation.",
+     "self_check": true
+    },
+    {
+     "q": "If a sentence says, \"The vast plantation stretched across the entire village, covering hundreds of acres,\" what does 'vast' likely mean?",
+     "a": "'Vast' means very large or huge. Choosing a wrong word (like 'small') shows the student isn't using the supporting evidence ('entire village', 'hundreds of acres') to adjust their understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A sentence says, \"The sage sat quietly, whispering ancient secrets, and then he muttered a final, low-voiced prayer.\" Based on the clues, what does 'muttered' mean?",
+     "a": "Step 1: Identify the mystery word (muttered). Step 2: Find clues ('whispering', 'low-voiced'). Step 3: Combine clues to form a meaning (speaking in a low, quiet voice). Step 4: Verify if it fits. If the student answers 'yelled', they failed to use the 'low-voiced' clue.",
+     "self_check": true
+    },
+    {
+     "q": "Read this: \"Rama Natha was a follower of the sage. He listened to every word the wise man said.\" How does the second sentence help you understand the word 'follower'?",
+     "a": "The second sentence explains the relationship: a follower is someone who listens to and learns from a leader or teacher. A wrong answer suggests the student is ignoring the relationship between the two sentences.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it better to look for context clues before reaching for a dictionary?",
+     "a": "Using context keeps your reading flow smooth and helps you practice critical thinking rather than just memorizing facts. If the student says \"it's faster,\" they are focusing on speed rather than the skill of reading comprehension.",
+     "self_check": true
+    },
+    {
+     "q": "Create a sentence using a made-up word (like 'glarp') and include enough context clues so a friend could guess that 'glarp' means 'to eat quickly'.",
+     "a": "\"The hungry tiger began to glarp his meat, gulping it down in seconds without even chewing.\" A poor answer lacks the supporting clues (gulping, without chewing) that make the meaning clear.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "catalog": "catalog_class7_science_gecu105.json",
+ "concepts": [
+  {
+   "id": "gecu.5.1",
+   "title": "Changes Around Us",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What kinds of changes happen around us?",
+     "a": "Fast and slow changes, reversible and irreversible, physical and chemical.",
+     "self_check": true
+    },
+    {
+     "q": "Classify burning of a candle - physical or chemical?",
+     "a": "Both occur: wax melting is physical, but burning wax to CO2 and soot is chemical.",
+     "self_check": true
+    },
+    {
+     "q": "Give one slow change and one fast change in nature.",
+     "a": "Slow: rusting of iron. Fast: lightning, or tearing of paper.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.5.2",
+   "title": "Physical Changes",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a physical change?",
+     "a": "A change of shape, size or state with no new substance, usually reversible.",
+     "self_check": true
+    },
+    {
+     "q": "Name two physical changes.",
+     "a": "Melting ice and dissolving sugar (also folding paper).",
+     "self_check": true
+    },
+    {
+     "q": "Does a physical change make a new material? Explain.",
+     "a": "No - the substance stays the same, only its form changes, and it can be undone.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.5.3",
+   "title": "Chemical Changes",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What marks a chemical change?",
+     "a": "New substances with new properties form, often with colour change, gas, heat or light.",
+     "self_check": true
+    },
+    {
+     "q": "Give two examples of chemical changes in the kitchen.",
+     "a": "Cooking an egg and milk turning to curd.",
+     "self_check": true
+    },
+    {
+     "q": "Why can most chemical changes not be reversed?",
+     "a": "The original substances react to form different materials; undoing them needs other reactions.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gecu.5.4",
+   "title": "Slow Changes and Desirable Changes",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are slow changes? Give two examples.",
+     "a": "Changes taking days, months or years - rusting of iron and germination of a seed.",
+     "self_check": true
+    },
+    {
+     "q": "What are desirable and undesirable changes? Give one each.",
+     "a": "Desirable: cooking food. Undesirable: souring of milk.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the bursting of a firecracker as fast/slow and chemical/physical.",
+     "a": "Fast and chemical - new gases and light form in a flash.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

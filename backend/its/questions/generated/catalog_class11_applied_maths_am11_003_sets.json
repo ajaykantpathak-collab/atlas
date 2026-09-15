@@ -1,0 +1,354 @@
+{
+ "catalog": "catalog_class11_applied_maths_am11_003_sets.json",
+ "concepts": [
+  {
+   "id": "am11_003.1",
+   "title": "Roster and Set-Builder Representation",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 5 gives 5",
+     "compute": "count = 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A set has 5 elements. How many elements are in its identity relation (a, a) for every element?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "A set with 5 elements: how many pairs are in the full universal relation A x A?",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "How many pairs are in the empty relation on any set?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "A reflexive relation on a set of 2 elements must contain at least how many pairs?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Set A = {5}. How many elements does the singleton set A have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many elements are in the empty set (its cardinality)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_003.2",
+   "title": "Types of Sets and Cardinal Number",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A set has 6 elements. How many elements are in its identity relation (a, a) for every element?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A set with 6 elements: how many pairs are in the full universal relation A x A?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "How many pairs are in the empty relation on any set?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "A reflexive relation on a set of 3 elements must contain at least how many pairs?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Set A = {8}. How many elements does the singleton set A have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many elements are in the empty set (its cardinality)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_003.3",
+   "title": "Subsets and Counting Subsets",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A canteen offers 6 drinks and 5 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 3 with a set of size 6?",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 3 elements have?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 6 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "68719476736",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 3 distinct objects taken 1 at a time.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 2 identical 'a's and 2 identical 'b's have? (total 4 letters)",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_003.4",
+   "title": "Power Set and Iterated Power Set",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Using the law a^m x a^n = a^(m+n), evaluate 3^4 x 3^4.",
+     "a": "6561",
+     "self_check": false
+    },
+    {
+     "q": "Using a^m / a^n = a^(m-n), evaluate 5^6 / 5^1.",
+     "a": "3125",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (3^2)^3 using the power of a power law.",
+     "a": "729",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 2^3 x 5^3 using a^m x b^m = (ab)^m.",
+     "a": "1000",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 3^0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 5^(-3) and give the value as a fraction.",
+     "a": "1/125",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_003.5",
+   "title": "Intervals on the Real Line and Their Length",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A set has 2 elements. How many elements are in its identity relation (a, a) for every element?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "A set with 2 elements: how many pairs are in the full universal relation A x A?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "How many pairs are in the empty relation on any set?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "A reflexive relation on a set of 3 elements must contain at least how many pairs?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Set A = {5}. How many elements does the singleton set A have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many elements are in the empty set (its cardinality)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_003.6",
+   "title": "Union, Intersection, Difference and Complement",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 6 gives 6",
+     "compute": "count = 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A set has 6 elements. How many elements are in its identity relation (a, a) for every element?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A set with 6 elements: how many pairs are in the full universal relation A x A?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "How many pairs are in the empty relation on any set?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "A reflexive relation on a set of 5 elements must contain at least how many pairs?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Set A = {5}. How many elements does the singleton set A have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many elements are in the empty set (its cardinality)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_003.7",
+   "title": "Two-Set Counting and the Union Formula",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A canteen offers 9 drinks and 5 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "45",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 2 with a set of size 2?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 2 elements have?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 6 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "68719476736",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 6 distinct objects taken 3 at a time.",
+     "a": "120",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 4 identical 'a's and 2 identical 'b's have? (total 6 letters)",
+     "a": "15",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_003.8",
+   "title": "Least Possible Overlap of Two Sets",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the simple interest on Rs 4000 at 12% per annum for 5 years.",
+     "a": "2400",
+     "self_check": false
+    },
+    {
+     "q": "Rs 4000 is deposited at 12% simple interest per annum for 5 years. Find the maturity amount.",
+     "a": "6400",
+     "self_check": false
+    },
+    {
+     "q": "A sum lent at 12% per annum simple interest earns Rs 2400 in 5 years. Find the principal (two decimal places).",
+     "a": "4000",
+     "self_check": false
+    },
+    {
+     "q": "Find the compound interest on Rs 4000 at 12% per annum for 2 years, compounded annually (two decimal places).",
+     "a": "1017.6",
+     "self_check": false
+    },
+    {
+     "q": "What amount is owed after Rs 4000 grows for 2 years at 12% per annum compounded annually (two decimal places)?",
+     "a": "5017.6",
+     "self_check": false
+    },
+    {
+     "q": "Find the amount on Rs 4000 at 8% per annum compounded half-yearly for 2 years (two decimal places).",
+     "a": "4679.43",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_003.9",
+   "title": "Three-Set Venn Region Counting",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A canteen offers 9 drinks and 3 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 3 with a set of size 3?",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 3 elements have?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 3 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "512",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 4 distinct objects taken 3 at a time.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 4 identical 'a's and 2 identical 'b's have? (total 6 letters)",
+     "a": "15",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

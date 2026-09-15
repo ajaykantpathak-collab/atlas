@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_09_005",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_09_005",
+   "title": "c12_biotech_cbse_09_005",
+   "questions": [
+    {
+     "q": "State the three minimal criteria proposed by the International Society for Cellular Therapy (ISCT) to define human mesenchymal stem cells.",
+     "a": "The three ISCT minimal criteria are: (1) plastic adherence under standard culture conditions; (2) expression of CD73, CD90, and CD105, and lack of expression of CD45, CD34, CD14 or CD11b, CD79α or CD19, and HLA-DR; (3) in vitro differentiation into osteoblasts, adipocytes, and chondroblasts under standard inductive conditions. A wrong answer that omits the negative markers or lists only two lineages reveals the student memorized a partial list without understanding that the *negative* markers (especially CD45−) are critical to exclude hematopoietic contamination — a frequent board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher isolates plastic-adherent cells from human adipose tissue that differentiate into fat, bone, and cartilage in vitro. The cells are CD73+, CD90+, CD105+, CD45−, but also express CD34. Are these MSCs? Justify your answer using ISCT criteria.",
+     "a": "No, these are not MSCs per ISCT criteria. Although they meet plastic adherence, trilineage differentiation, and positive marker expression, they fail the negative marker criterion because CD34 must be absent (CD34−). CD34 is a hematopoietic/endothelial progenitor marker; its presence indicates contamination or a different stromal population. A student answering \"yes\" because three out of four criteria are met shows a common error: treating criteria as a checklist where partial compliance suffices, rather than a strict *all-or-nothing* definition required for standardization across labs — a point emphasized in competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "A clinician wants to use allogeneic MSCs from a healthy donor to treat a patient with steroid-refractory acute graft-versus-host disease (GVHD) after hematopoietic stem cell transplantation. Explain *two* immunological properties of MSCs that make them suitable for this allogeneic use without HLA matching.",
+     "a": "(1) Low immunogenicity: MSCs constitutively express low levels of MHC class I and *lack* MHC class II and co-stimulatory molecules (CD80, CD86, CD40), making them invisible to host T-cell recognition. (2) Active immunosuppression: MSCs secrete IDO, PGE2, TGF-β, IL-10, and HLA-G that inhibit T-cell proliferation, dendritic cell maturation, and NK cell cytotoxicity, while promoting Treg expansion. A student who only mentions \"they don't cause rejection\" without specifying the *molecular mechanisms* (MHC profile + secretory factors) demonstrates superficial understanding — boards and NEET require mechanistic explanations linking surface phenotype to functional outcome.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the differentiation potential and primary clinical use of hematopoietic stem cells (HSCs) vs. mesenchymal stem cells (MSCs) from bone marrow. Why can't HSCs treat a cartilage defect while MSCs can?",
+     "a": "HSCs are multipotent for *blood lineages only* (erythroid, myeloid, lymphoid) and are used to reconstitute hematopoiesis (e.g., leukemia, aplastic anemia). MSCs are multipotent for *mesenchymal lineages* (osteogenic, chondrogenic, adipogenic) and support stromal function; they treat structural tissue defects (cartilage, bone) and immune disorders. HSCs lack the transcriptional program (SOX9, RUNX2, PPARγ) and microenvironmental responsiveness to undergo chondrogenesis. A student confusing \"multipotent\" as \"can become anything\" reveals the misconception that potency is universal rather than lineage-restricted — a critical distinction tested in assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"MSCs home to sites of injury solely because they express chemokine receptors like CXCR4.\" Is this sufficient to explain their therapeutic efficacy in a myocardial infarction model? Defend your answer.",
+     "a": "The statement is *necessary but not sufficient*. CXCR4/SDF-1α axis mediates initial homing, but therapeutic efficacy requires: (a) survival in the ischemic microenvironment (hypoxia, ROS), (b) paracrine secretion of VEGF, IGF-1, HGF for angiogenesis and cardioprotection, (c) immunomodulation to limit post-infarct inflammation, and (d) possible direct differentiation (though minimal). Most injected MSCs die within days; benefit is largely paracrine (\"hit-and-run\"). A student agreeing uncritically shows a reductionist view ignoring the hostile microenvironment and the paradigm shift from *engraftment/differentiation* to *secretome-mediated repair* — a hot topic in NEET PG and research.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal experimental workflow to prove that a newly isolated population of plastic-adherent cells from human umbilical cord tissue (Wharton's jelly) qualifies as MSCs. Include controls and readouts for each ISCT criterion.",
+     "a": "1. **Plastic adherence**: Plate cells in standard MSC medium (DMEM/F12 + 10% FBS); confirm >90% adherence at 24h. Control: non-adherent fraction discarded. 2. **Surface markers**: Flow cytometry for CD73, CD90, CD105 (≥95% positive) and CD45, CD34, CD14/CD11b, CD19/CD79α, HLA-DR (≤2% positive). Controls: isotype controls, fluorescence minus one (FMO). 3. **Trilineage differentiation**: Induce osteogenesis (β-glycerophosphate, ascorbate, dexamethasone), adipogenesis (IBMX, dexamethasone, insulin, indomethacin), chondrogenesis (pellet culture with TGF-β3); stain for Alizarin Red (mineralization), Oil Red O (lipid droplets), Alcian Blue (sulfated GAGs). Controls: uninduced cultures. A poor answer omits quantitative thresholds (≥95%/≤2%), skips negative marker panel, or uses only qualitative staining — indicating the student doesn't grasp the *rigor* required for publication/clinical-grade characterization.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

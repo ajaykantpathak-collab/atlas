@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch04_007",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch04_007",
+   "title": "c7_math_ch04_007",
+   "questions": [
+    {
+     "q": "Which of the following pairs of terms are considered \"like terms\"?\nA) $5x$ and $5y$\nB) $3x^2$ and $4x$\nC) $-7xy$ and $2yx$\nD) $8a$ and $8ab$",
+     "a": "The correct answer is C) $-7xy$ and $2yx$. Like terms must have the exact same variables with the exact same exponents; because multiplication is commutative, $xy$ and $yx$ represent the exact same variable combination. A student who chooses A believes any terms with the same coefficient are alike, while a student who chooses B or D fails to notice that different exponents or missing variables prevent terms from being combined.",
+     "self_check": true
+    },
+    {
+     "q": "When simplifying the expression $4x + 3 - 2x$, a student writes the answer as $5x$. Explain why this answer is incorrect and what error was made in combining the terms.",
+     "a": "The answer $5x$ is incorrect because the student incorrectly added the constant term $3$ to the variable term $2x$ instead of only combining the like terms $4x$ and $-2x$. The correct simplification is $(4x - 2x) + 3$, which equals $2x + 3$. A student who makes this error is treating all parts of an algebraic expression as combinable, ignoring the rule that constants and variable terms cannot be merged.",
+     "self_check": true
+    },
+    {
+     "q": "Simplify the following algebraic expression completely: $6a - 3b + 2a + 5b - 4$.",
+     "a": "The correct simplified expression is $8a + 2b - 4$. \nSteps:\n1. Identify like terms: The $a$ terms are $6a$ and $2a$; the $b$ terms are $-3b$ and $5b$; the constant is $-4$.\n2. Group like terms together: $(6a + 2a) + (-3b + 5b) - 4$.\n3. Combine the coefficients for $a$: $6 + 2 = 8$, giving $8a$.\n4. Combine the coefficients for $b$: $-3 + 5 = 2$, giving $2b$.\n5. Write the final combined expression: $8a + 2b - 4$.\nA student who gets $10ab - 4$ has incorrectly multiplied or combined unlike terms ($a$ and $b$) into a single product.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the expression $5x^2 + 3x - 2x^2 + 7 - x + 4$. Why can $5x^2$ be combined with $-2x^2$, but not with $3x$?",
+     "a": "$5x^2$ and $-2x^2$ can be combined because they share the exact same variable raised to the exact same power ($x^2$), meaning they represent quantities of the same \"type.\" However, $3x$ has a variable raised to the power of 1 ($x$), making it a different algebraic entity, just as square metres cannot be directly added to linear metres. A student who thinks all terms containing $x$ are alike misses the crucial role of the exponent in defining like terms.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the student's work below:\nProblem: Simplify $9p - 4q - 3p + 2q$\nStudent's work: \nStep 1: $9p - 3p = 6p$\nStep 2: $-4q + 2q = -2q$\nStep 3: Answer = $6p - 2q$\nIs the student's work correct? If not, identify the error.",
+     "a": "The student's work is completely correct. The student correctly identified the like terms ($9p$ and $-3p$, as well as $-4q$ and $-2q$), applied integer addition and subtraction rules to their coefficients ($9 - 3 = 6$ and $-4 + 2 = -2$), and wrote the final simplified expression. A student who flags this as incorrect likely struggles with negative integer operations during coefficient combination.",
+     "self_check": true
+    },
+    {
+     "q": "Create an algebraic expression containing at least five terms with two different variables ($x$ and $y$) and at least one constant, such that when it is fully simplified, the result is $4x + 3y - 5$. Show your expression and simplify it to prove your work.",
+     "a": "A valid student response should provide an unsimplified expression like $2x + 5y - 2 + 2x - 2y - 3$. \nProof of simplification:\n1. Group like terms: $(2x + 2x) + (5y - 2y) + (-2 - 3)$.\n2. Combine $x$ terms: $2x + 2x = 4x$.\n3. Combine $y$ terms: $5y - 2y = 3y$.\n4. Combine constants: $-2 - 3 = -5$.\n5. Final result: $4x + 3y - 5$. \nA poor answer would feature terms that do not combine cleanly to the target or include uncombined like terms remaining in the final line.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

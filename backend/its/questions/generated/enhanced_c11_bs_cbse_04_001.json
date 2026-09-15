@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_04_001",
+   "title": "c11_bs_cbse_04_001",
+   "questions": [
+    {
+     "q": "State the five Is of services and give a one-line explanation for each.",
+     "a": "The five Is are: Intangibility (cannot be touched, only experienced), Inconsistency (varies with each performance/customer), Inseparability (production and consumption happen simultaneously), Inventory-less (cannot be stored for future sale), Involvement (customer participates in delivery). A wrong answer that lists \"Invisibility\" instead of \"Intangibility\" or omits \"Involvement\" reveals the student is memorising keywords without grasping the experiential and participative nature of services.",
+     "self_check": true
+    },
+    {
+     "q": "A student says, \"A haircut is a good because you can see the result.\" Explain why this is incorrect using the concept of inseparability and involvement.",
+     "a": "A haircut is a service because the production (cutting) and consumption (experiencing the cut) occur at the same time and require the customer's physical presence and participation (sitting still, instructing the barber). The result is not a separable object that can be taken home independent of the act. If the student insists it is a good, they confuse the tangible outcome (shorter hair) with the intangible process, missing that the service cannot be pre-produced, stored, or transferred.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each of the following into Business, Social, or Personal services: (a) A corporate law firm advising a company on mergers, (b) An NGO running free health camps in a village, (c) A luxury spa offering customised aromatherapy.",
+     "a": "(a) Business service – used by a business enterprise for its activities. (b) Social service – provided voluntarily for social goals (healthcare for weaker sections). (c) Personal service – experienced differently by each customer, dependent on provider skill and customer preference. A wrong classification (e.g., calling the NGO a business service) shows the student cannot distinguish the *purpose* (profit-driven conduct of business vs. voluntary social welfare vs. individual experience) that defines the categories.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a printed textbook and an online live tutoring session on the dimensions of Inventory and Inconsistency. Which one allows quality standardisation more easily? Why?",
+     "a": "The textbook (good) can be printed in thousands, stored in a warehouse (inventory exists), and every copy is identical (consistent). The tutoring session (service) cannot be stored; it happens live (no inventory) and varies with the tutor's mood, student's questions, and internet connectivity (high inconsistency). Therefore, the textbook allows easier quality standardisation because goods are homogeneous and separable from production, while services are heterogeneous and inseparable. A student who claims the tutoring session has inventory because \"recordings exist\" confuses the *service* (live interaction) with a *by-product* (recording), missing the core concept of perishability.",
+     "self_check": true
+    },
+    {
+     "q": "\"E-banking has eliminated the involvement of the customer in banking services.\" Evaluate this statement. Is it true, false, or partially true? Justify using the five Is.",
+     "a": "False. E-banking changes the *mode* of involvement (self-service via app instead of face-to-face with a teller) but does not eliminate it. The customer must still initiate the transaction, enter credentials, verify OTP, and authorise payments – active participation is mandatory. In fact, involvement increases because the bank shifts clerical work to the customer. A student who says \"true\" mistakes automation (ATMs, apps) for removal of involvement, overlooking that the service (fund transfer) still cannot occur without the customer's real-time input.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new business service for small kirana stores in your neighbourhood. Name it, describe its core function, and explain how it exhibits each of the five Is.",
+     "a": "Example: \"StockSmart\" – a just-in-time inventory replenishment service. Core function: Uses sales data to auto-deliver fast-moving goods daily. Intangibility: The service is the algorithmic planning and delivery coordination, not the goods. Inconsistency: Each store's demand pattern differs; the service adapts daily. Inseparability: Planning and delivery occur simultaneously with the store's sales cycle. Inventory-less: The service cannot be warehoused; if no delivery is needed today, the service slot perishes. Involvement: The store owner must share POS data, confirm orders, and receive goods. A poor answer describes a goods-supply business (e.g., \"a wholesale distributor\") and fails to articulate the five Is for the *service component* separately from the goods.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

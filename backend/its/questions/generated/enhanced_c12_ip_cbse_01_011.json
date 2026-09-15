@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_01_011",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_01_011",
+   "title": "c12_ip_cbse_01_011",
+   "questions": [
+    {
+     "q": "What is the syntax to increase the Price of all cars in the INVENTORY table by 10%?",
+     "a": "Correct answer: `UPDATE INVENTORY SET Price = Price * 1.10;` (no WHERE clause means all rows). A wrong answer like `UPDATE INVENTORY SET Price = Price + 10;` reveals confusion between percentage increase and absolute increase. Another wrong answer `UPDATE INVENTORY SET Price = 1.10;` shows misunderstanding that the SET clause assigns a literal value instead of an expression based on the current column value.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between `DELETE FROM INVENTORY;` and `DELETE FROM INVENTORY WHERE CarId = 'D001';` in terms of rows affected and data recovery.",
+     "a": "Correct answer: The first deletes every row in the table (truncates the table data), while the second deletes only the row with CarId 'D001'. Both are DML operations and can be rolled back if inside a transaction, but without a transaction they are permanent. A wrong answer claiming the first only deletes the first row or that the second deletes all rows shows confusion about the role of the WHERE clause. Another misconception: thinking DELETE removes the table structure (that's DROP TABLE).",
+     "self_check": true
+    },
+    {
+     "q": "Write an UPDATE statement to set the Commission column in the SALE table to 15% of SalePrice for all sales made by employee 'E007'.",
+     "a": "Correct answer:\n```sql\nUPDATE SALE SET Commission = SalePrice * 0.15 WHERE EmpID = 'E007';\n```\nSteps: 1) Identify table (SALE), 2) Identify column to update (Commission), 3) Compute new value as expression (SalePrice * 0.15), 4) Filter rows with WHERE (EmpID = 'E007'). A wrong answer using `WHERE EmpID = E007` (missing quotes) reveals string literal syntax error. Using `SET Commission = 15/100 * SalePrice` works but integer division in some SQL dialects may yield 0; better to use 0.15 or 15.0/100.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: `DELETE FROM CUSTOMER WHERE CustId = 'C0001';` but the row is not deleted. List three possible reasons why the row remains, assuming no syntax error.",
+     "a": "Correct reasons: 1) The WHERE condition matches no row (CustId 'C0001' does not exist or is spelled differently, e.g., case sensitivity or extra spaces). 2) A foreign key constraint from SALE (CustId) references this customer with ON DELETE RESTRICT (default), so deletion is blocked to maintain referential integrity. 3) The table is a view without an INSTEAD OF trigger, or the user lacks DELETE privilege. A wrong answer like \"DELETE only works on primary key columns\" shows misunderstanding of DELETE's applicability.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the safety of using a subquery in the WHERE clause of an UPDATE statement: `UPDATE INVENTORY SET Price = Price * 0.9 WHERE CarId IN (SELECT CarId FROM SALE WHERE SaleDate > '2019-01-01');` Discuss potential pitfalls.",
+     "a": "Correct evaluation: The statement reduces price by 10% for cars that have been sold after 2019-01-01. Pitfalls: 1) If the subquery returns NULL, the IN condition yields UNKNOWN and no rows update — but IN with NULL is safe (no match). 2) If a car appears multiple times in SALE, the IN clause still updates the car once (no duplicate effect). 3) Major risk: the subquery is evaluated once at start, so if the UPDATE affects rows that would change the subquery result (not here), it could cause unexpected behavior. 4) Performance: correlated subqueries can be slow. A wrong answer claiming \"subqueries are not allowed in UPDATE\" is false; they are standard SQL.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scenario where you must use UPDATE with a CASE expression in the SET clause to apply different discounts based on FuelType: 5% for Petrol, 8% for Diesel, 10% for CNG. Write the full SQL statement for the INVENTORY table.",
+     "a": "Expected answer:\n```sql\nUPDATE INVENTORY\nSET Price = CASE\n    WHEN FuelType = 'Petrol' THEN Price * 0.95\n    WHEN FuelType = 'Diesel' THEN Price * 0.92\n    WHEN FuelType = 'CNG' THEN Price * 0.90\n    ELSE Price\nEND;\n```\nA good answer includes the ELSE clause to leave other fuel types unchanged. A poor answer uses multiple UPDATE statements (works but less efficient) or forgets the ELSE, causing NULL for unmatched types (if Price is nullable) or no change (if ELSE omitted, standard SQL leaves column unchanged — but some dialects may set to NULL). The key is demonstrating conditional update in a single statement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

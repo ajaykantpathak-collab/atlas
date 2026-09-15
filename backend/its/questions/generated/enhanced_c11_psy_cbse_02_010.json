@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_02_010",
+   "title": "c11_psy_cbse_02_010",
+   "questions": [
+    {
+     "q": "What is the correct definition of a null hypothesis (H₀) in psychological research?",
+     "a": "The null hypothesis states there is no effect, no difference, or no relationship in the population (e.g., μ₁ = μ₂ or ρ = 0). It is the default assumption tested against the alternative. A wrong answer like \"H₀ is what the researcher wants to prove\" reveals the fundamental misconception that hypothesis testing proves the researcher's prediction; actually, we test the null to potentially reject it in favor of the alternative.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher sets α = 0.05 and obtains p = 0.03. She concludes \"There is a 3% probability that the null hypothesis is true.\" Explain why this interpretation is incorrect.",
+     "a": "The p-value is the probability of obtaining the observed data (or more extreme) *assuming H₀ is true*, not the probability that H₀ is true. The incorrect interpretation confuses P(data|H₀) with P(H₀|data) — a classic inverse probability error. A student making this mistake lacks understanding of conditional probability foundations of NHST (Null Hypothesis Significance Testing).",
+     "self_check": true
+    },
+    {
+     "q": "A psychologist compares anxiety scores (interval scale) of two independent groups: CBT therapy (n=25) vs waitlist control (n=25). Which inferential test is appropriate and why?",
+     "a": "Independent samples t-test is appropriate because: (1) Comparing means of two independent groups, (2) Dependent variable (anxiety score) is interval/ratio, (3) Groups are independent (different participants), (4) Assumptions of normality and homogeneity of variance can be checked. Choosing chi-square would be wrong — it requires categorical frequency data, not continuous scores.",
+     "self_check": true
+    },
+    {
+     "q": "In a study on gender (Male/Female) and preference for online vs offline therapy (Prefer Online/Prefer Offline), the chi-square test yields χ²(1) = 4.2, p = 0.04. The researcher claims \"Gender causes therapy preference.\" Analyze this claim.",
+     "a": "The claim overinterprets correlation as causation. Chi-square only tests association between categorical variables, not causation. The significant p-value indicates the observed gender-preference distribution is unlikely if variables were independent in the population. However, without experimental manipulation (random assignment to gender, impossible), causation cannot be inferred. This reveals confusion between correlational and experimental designs.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"Since p = 0.06 > 0.05, we accept the null hypothesis and conclude the memory training program has no effect.\"",
+     "a": "This is a critical error: we never \"accept\" H₀; we only \"fail to reject\" it. Failing to reject means insufficient evidence against H₀, not evidence for H₀. The program might have a real effect but the study lacked power (small sample, high variability). Concluding \"no effect\" from non-significance commits Type II error risk. Proper conclusion: \"Results do not provide statistically significant evidence that the program affects memory at α=0.05.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a psychological study where a one-tailed t-test would be more appropriate than a two-tailed test. Justify your choice of tail.",
+     "a": "Example: Testing if a new depression therapy *reduces* symptoms compared to standard care. H₀: μ_new ≥ μ_standard, H₁: μ_new < μ_standard (one-tailed, left-tailed). Justification: Theory and prior research strongly predict direction (reduction only); a increase would be theoretically implausible and practically equivalent to no effect. Using two-tailed would waste power (α/2 each tail) when only one direction is meaningful. Poor answers use one-tailed without strong directional justification (\"to get significant results\").",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

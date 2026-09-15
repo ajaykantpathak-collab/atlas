@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_07_009",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_07_009",
+   "title": "c11_ip_cbse_07_009",
+   "questions": [
+    {
+     "q": "What is the exact syntax to retrieve only the 'SName' and 'SDateofBirth' columns from the STUDENT table?",
+     "a": "Correct answer: `SELECT SName, SDateofBirth FROM STUDENT;`. A wrong answer like `SELECT * FROM STUDENT WHERE SName, SDateofBirth;` reveals confusion between column selection (projection) and row filtering (selection), or misunderstanding that WHERE is for conditions not column lists.",
+     "self_check": true
+    },
+    {
+     "q": "If the STUDENT table has 6 rows and 4 columns (RollNumber, SName, SDateofBirth, GUID), what will be the degree and cardinality of the result of `SELECT RollNumber, SName FROM STUDENT;`?",
+     "a": "Degree = 2 (two columns selected), Cardinality = 6 (all rows returned because no WHERE clause). A wrong answer of degree 4 or cardinality <6 indicates the student thinks SELECT * is implicit or that row filtering happens automatically.",
+     "self_check": true
+    },
+    {
+     "q": "Write a query to display all columns of the GUARDIAN table for a school database.",
+     "a": "`SELECT * FROM GUARDIAN;`. A wrong answer listing all column names explicitly (e.g., `SELECT GUID, GName, GPhone, GAddress FROM GUARDIAN;`) is functionally correct but shows lack of awareness of the * wildcard for \"all columns\", which is expected knowledge for board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the results of `SELECT SName FROM STUDENT;` and `SELECT SName, SName FROM STUDENT;`. Are they identical? Why or why not?",
+     "a": "Not identical. First query: degree=1, each student name appears once per row. Second query: degree=2, each row contains the same name twice (two columns both named SName). A student answering \"identical\" confuses the relational model's requirement that each column in a result has a distinct position, even if same attribute is repeated.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `SELECT RollNumber, SName FROM STUDENT WHERE;` (with trailing WHERE but no condition). Is this valid SQL? Justify.",
+     "a": "Invalid. WHERE keyword requires a following boolean condition. Syntax error will occur. A student saying \"valid, returns all rows\" confuses optional clause with mandatory condition. This tests understanding that clauses cannot be empty.",
+     "self_check": true
+    },
+    {
+     "q": "Design a query for the school office to generate a list of only student names and their guardian IDs (GUID) from the STUDENT table, sorted alphabetically by student name. (Note: ORDER BY is not yet taught; how would you handle this requirement?)",
+     "a": "`SELECT SName, GUID FROM STUDENT;` — returns the required columns. Since ORDER BY is not yet covered, the student should note that sorting cannot be done in SQL at this stage and would require application-level sorting. A good answer acknowledges the limitation. A poor answer attempts `ORDER BY` incorrectly or ignores the sorting requirement entirely.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

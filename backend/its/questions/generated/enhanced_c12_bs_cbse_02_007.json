@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_02_007",
+   "title": "c12_bs_cbse_02_007",
+   "questions": [
+    {
+     "q": "State the seven bases of difference between Fayol and Taylor as listed in the NCERT textbook, without looking at your notes.",
+     "a": "The seven bases are: (1) Perspective — Fayol: top-level management; Taylor: shop-floor level. (2) Unity of Command — Fayol: staunch proponent; Taylor: violated via functional foremanship (8 bosses). (3) Applicability — Fayol: universal; Taylor: specialised situations. (4) Basis of Formation — Fayol: personal experience; Taylor: observation and experimentation. (5) Focus — Fayol: improving overall administration; Taylor: increasing productivity. (6) Personality — Fayol: practitioner; Taylor: scientist. (7) Expression — Fayol: General Theory of Administration; Taylor: Scientific Management. A wrong answer (e.g., missing \"Unity of Command\" or swapping \"Perspective\") reveals the student memorised a generic comparison but not the NCERT-specific seven-point framework required for board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words WHY Taylor's Functional Foremanship violates Fayol's principle of Unity of Command, and why Taylor considered this violation necessary.",
+     "a": "Functional Foremanship assigns eight specialist foremen (4 planning + 4 production) to each worker, so the worker receives orders from multiple superiors — directly violating Fayol's \"one subordinate, one boss\" rule. Taylor accepted this because he believed no single foreman could possess all required qualities (intelligence, tact, grit, technical knowledge, energy, honesty, health), so specialisation of supervision was essential for scientific efficiency at the shop floor. A wrong answer that says \"Taylor didn't care about unity of command\" misses the nuance: Taylor deliberately sacrificed unity of command for SPECIALISATION, a trade-off the NCERT explicitly highlights as a key difference.",
+     "self_check": true
+    },
+    {
+     "q": "A textile factory in Surat implements Taylor's Differential Piece Wage System but keeps Fayol's Scalar Chain intact for all communications. Workers complain they receive conflicting instructions: the Speed Boss (Taylor) pushes for higher output, while the Finance Manager (Fayol's scalar chain) restricts overtime pay. Identify which principle/technique of EACH thinker is causing the conflict and propose a resolution consistent with both frameworks.",
+     "a": "Conflict source: Taylor's Functional Foremanship (Speed Boss giving direct orders to workers) vs Fayol's Unity of Command and Scalar Chain (Finance Manager as formal superior). Resolution: Integrate by making the Speed Boss a specialist ADVISOR to the Production Manager (Fayol's line authority), not a separate boss. The Production Manager then issues unified orders respecting both the differential wage incentive (Taylor) and the scalar chain (Fayol). A wrong answer that suggests \"remove Taylor's system\" or \"ignore Fayol's scalar chain\" fails the complementary-nature requirement — NCERT states their contributions are complementary, not mutually exclusive.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"Basis of Formation\" of Fayol's and Taylor's theories. Why does this difference make Fayol's principles more adaptable to service-sector firms (e.g., IT consulting) while Taylor's techniques remain dominant in manufacturing assembly lines?",
+     "a": "Fayol's principles formed from PERSONAL EXPERIENCE as a managing director overseeing all business functions (technical, commercial, financial, etc.) — yielding broad, universal guidelines applicable to any organisational structure. Taylor's techniques formed from OBSERVATION AND EXPERIMENTATION on specific shop-floor tasks (pig-iron handling, brick-laying) — yielding precise, measurable methods for standardised, repetitive physical work. Service-sector work (knowledge-based, variable, non-repetitive) resists time-motion standardisation but benefits from Fayol's general principles (authority-responsibility, equity, initiative). A wrong answer that claims \"Taylor doesn't apply to services\" without linking to experimentation-on-repetitive-tasks vs experience-on-general-administration misses the epistemological root of the applicability difference.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Fayol's Unity of Direction and Taylor's Method Study both aim to eliminate overlapping activities — therefore they are essentially the same principle applied at different levels.\" Support your judgment with specific differences in mechanism and scope.",
+     "a": "The statement is PARTIALLY CORRECT in outcome (both reduce overlap) but FALSE in equivalence. Unity of Direction (Fayol) is an ADMINISTRATIVE PRINCIPLE: \"each group of activities with same objective must have one head and one plan\" — operates at DEPARTMENT/DIVISION level, prevents strategic duplication (e.g., two divisions making motorcycles). Method Study (Taylor) is a WORK-STUDY TECHNIQUE: \"find one best way to do a job\" — operates at TASK/OPERATION level, eliminates wasted motions in a specific process (e.g., brick-laying sequence). Different LEVEL (organisation vs task), different MECHANISM (structural authority vs process analysis), different SCOPE (all activities of a group vs individual job). A wrong answer that calls them \"same\" conflates STRUCTURAL DESIGN with PROCESS OPTIMISATION — a classic board-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-column table for a new employee handbook that translates Fayol's 14 principles and Taylor's 4 principles + 7 techniques into ACTIONABLE DO'S AND DON'TS for a modern hybrid workplace (office + factory). Include at least 5 rows where Fayol and Taylor give DIFFERENT guidance for the same situation.",
+     "a": "Sample row 1 (Supervision): Fayol DO: \"Report to one manager only\" (Unity of Command) | Taylor DO: \"Accept guidance from Speed Boss on pace, Gang Boss on tools, Inspector on quality\" (Functional Foremanship) | Synthesis: \"Your line manager coordinates all specialist inputs; you receive ONE consolidated instruction.\" Row 2 (Wage): Fayol DO: \"Fair remuneration based on living standards & company capacity\" | Taylor DO: \"Earn 50/unit above standard, 40/unit below\" (Differential Piece Rate) | Synthesis: \"Base pay meets Fayol's equity; bonus follows Taylor's differential.\" Row 3 (Communication): Fayol DO: \"Follow scalar chain; use gang plank only in emergency\" | Taylor DO: \"Direct communication between planning & execution specialists\" | Synthesis: \"Routine via scalar chain; technical clarifications via specialist channels.\" Row 4 (Change): Fayol DO: \"Stability of tenure — stay in role to build expertise\" | Taylor DO: \"Scientific selection & training for each task; move if mismatched\" | Synthesis: \"Role stability with task-level upskilling.\" Row 5 (Innovation): Fayol DO: \"Encourage initiative within established practices\" | Taylor DO: \"Mental revolution — replace rule of thumb with science\" | Synthesis: \"Test new methods scientifically (Taylor), then embed via policy (Fayol).\" A poor answer lists principles without CONTRasting guidance or fails to provide a synthesis column — missing the \"complementary\" insight NCERT emphasises.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

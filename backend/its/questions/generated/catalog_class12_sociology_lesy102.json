@@ -1,0 +1,274 @@
+{
+ "catalog": "catalog_class12_sociology_lesy102",
+ "concepts": [
+  {
+   "id": "lesy.102.1.1",
+   "title": "Demography and Social Demography",
+   "questions": [
+    {
+     "q": "Using the method 'Demography and Social Demography', work with: birth_death_migration_patterns = 24, population_size = 8192, population_structure = 12000. Carry the chain through step by step and give the final value of demography.",
+     "a": "20216 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Demography and Social Demography' and work with: birth_death_migration_patterns = 30, population_size = 4096, population_structure = 1200. Carry the chain through step by step and give the final value of demography.",
+     "a": "5326 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Demography and Social Demography' refers to.",
+     "a": "Demography is the systematic study of population -- the word joins the Greek demos and graphein, describing people -- covering changes in population size, patterns of births, deaths and migration, and the structure and composition of the population; social demography goes further, asking how social processes and structures regulate these demographic processes and tracing the social reasons behind population trends.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Demography and Social Demography'.",
+     "a": "Numbers about people are never just natural facts -- society shapes how they are born, die and move.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Demography and Social Demography', in plain ASCII form.",
+     "a": "demography = population_size + birth_death_migration_patterns + population_structure",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy.102.2.1",
+   "title": "Malthusian Theory of Population Growth",
+   "questions": [
+    {
+     "q": "Using the method 'Malthusian Theory of Population Growth', work with: geometric_population_growth_minus_arithmetic_food_growth = 12. Carry the chain through step by step and give the final value of malthusian_trap.",
+     "a": "12 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Malthusian Theory of Population Growth' and work with: geometric_population_growth_minus_arithmetic_food_growth = 12. Carry the chain through step by step and give the final value of malthusian_trap.",
+     "a": "12 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Malthusian Theory of Population Growth' refers to.",
+     "a": "In his 1798 Essay, Malthus argued that populations grow in geometric progression like 2, 4, 8, 16 while subsistence grows only in arithmetic progression like 2, 4, 6, 8, so humanity is condemned to poverty unless population growth is checked -- by preventive checks such as postponed marriage or abstinence, or by positive checks like famine and disease that he saw as nature's correction; history refuted him as food production and living standards rose alongside population, and critics blamed unequal distribution rather than births for poverty.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Malthusian Theory of Population Growth'.",
+     "a": "The race between a multiplying population and a linearly growing food supply defined the pessimism -- and the European record disproved it.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Malthusian Theory of Population Growth', in plain ASCII form.",
+     "a": "malthusian_trap = geometric_population_growth_minus_arithmetic_food_growth",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy.102.3.1",
+   "title": "Theory of Demographic Transition and India's Incomplete Transition",
+   "questions": [
+    {
+     "q": "Using the method 'Theory of Demographic Transition and India's Incomplete Transition', work with: falling_deaths_stage = 1000, high_high_stage = 25, low_low_stage = 10. Carry the chain through step by step and give the final value of demographic_transition.",
+     "a": "1035 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Theory of Demographic Transition and India's Incomplete Transition' and work with: falling_deaths_stage = 200, high_high_stage = 1000, low_low_stage = 50. Carry the chain through step by step and give the final value of demographic_transition.",
+     "a": "1250 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Theory of Demographic Transition and India's Incomplete Transition' refers to.",
+     "a": "Demographic transition links population growth to economic development through three stages: a backward stage of low growth where both birth and death rates are high, a transitional stage of explosive growth when death rates fall fast while reproductive behaviour adjusts slowly, and a developed stage of low growth where both rates are low; India sits in the middle -- mortality has been cut by disease control and public health, but the socioculturally sticky birth rate lags behind, so the transition is not yet complete.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Theory of Demographic Transition and India's Incomplete Transition'.",
+     "a": "Deaths respond quickly to medicine and sanitation; births respond slowly to prosperity and education -- the gap between them is the population explosion.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Theory of Demographic Transition and India's Incomplete Transition', in plain ASCII form.",
+     "a": "demographic_transition = high_high_stage + falling_deaths_stage + low_low_stage",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy.102.4.1",
+   "title": "Demographic Concepts and Indicators as Rates",
+   "questions": [
+    {
+     "q": "Using the method 'Demographic Concepts and Indicators as Rates', work with: death_rate = 20, females = 6, live_births = 200, males = 25, population_thousands = 5000. Carry the chain through step by step and give the final value of sex_ratio.",
+     "a": "240 times",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Demographic Concepts and Indicators as Rates' and work with: death_rate = 10, females = 60, live_births = 10, males = 360, population_thousands = 25000. Carry the chain through step by step and give the final value of sex_ratio.",
+     "a": "166.6667 times",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Demographic Concepts and Indicators as Rates' refers to.",
+     "a": "Demographic concepts are expressed as rates or ratios -- two numbers, one a statistic for an area and period, the other a standard of comparison: birth rate counts live births per 1000 population, death rate counts deaths per 1000, growth rate is their difference, fertility rate counts births per 1000 women aged 15-49, infant mortality per 1000 live births, maternal mortality per 100,000 live births, life expectancy estimates average years of survival, and sex ratio gives females per 1000 males.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Demographic Concepts and Indicators as Rates'.",
+     "a": "Every headline number about population is a ratio against a standard -- read the denominator before believing the story.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Demographic Concepts and Indicators as Rates', in plain ASCII form.",
+     "a": "growth_rate = birth_rate - death_rate",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy.102.5.1",
+   "title": "Size and Growth of India's Population",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Size and Growth of India's Population' refers to.",
+     "a": "Census 2011 counted 121 crores of Indians, second only to China; growth was modest before 1951 -- never above 1.33 per cent a year and actually negative at -0.03 per cent in 1911-21 when the influenza pandemic killed about 5 per cent of the population -- then jumped to 2.2 per cent during 1961-81 before easing; deaths fell as epidemics and famines were controlled, with Amartya Sen's failure-of-entitlements insight showing famine is about inability to obtain food, while the birth rate declines slowly and unevenly, from below-replacement TFRs in Kerala or Tamil Nadu to 3.3 in Bihar.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Size and Growth of India's Population'.",
+     "a": "India's growth curve bends around disasters and medicine: epidemics and famine once cut numbers, disease control then exploded them, and fertility now declines state by state.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Size and Growth of India's Population', in plain ASCII form.",
+     "a": "population_growth_story = census_121_crores + 1918_influenza_shock + post_independence_surge",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy.102.6.1",
+   "title": "Age Structure, Dependency Ratio and the Demographic Dividend",
+   "questions": [
+    {
+     "q": "Using the method 'Age Structure, Dependency Ratio and the Demographic Dividend', work with: dependents = 500, working_age_population = 2600. Carry the chain through step by step and give the final value of dependency_ratio.",
+     "a": "19.2308 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Age Structure, Dependency Ratio and the Demographic Dividend' and work with: dependents = 6, working_age_population = 100. Carry the chain through step by step and give the final value of dependency_ratio.",
+     "a": "6 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Age Structure, Dependency Ratio and the Demographic Dividend' refers to.",
+     "a": "India's population is young: the under-15 share fell from 42 per cent in 1971 to 29 per cent in 2011 while the 60-plus share rose from 5 to 7 per cent, and projections to 2026 give 23, 64 and 12 per cent for the young, working and old groups; the dependency ratio compares dependents -- those below 15 and above 64 -- with the 15-64 working-age group, and its fall from 79 in 1970 toward a projected 48 in 2025 opens a demographic dividend that turns into growth only if education and employment employ the new workers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Age Structure, Dependency Ratio and the Demographic Dividend'.",
+     "a": "A bulge of workers supports growth only while jobs and schools absorb them; otherwise the dividend matures into a burden of ageing.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Age Structure, Dependency Ratio and the Demographic Dividend', in plain ASCII form.",
+     "a": "dependency_ratio = dependents / working_age_population * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy.102.7.1",
+   "title": "The Declining Sex Ratio and the Child Sex Ratio Crisis",
+   "questions": [
+    {
+     "q": "Using the method 'The Declining Sex Ratio and the Child Sex Ratio Crisis', work with: declining_sex_ratio = 3, plunging_child_sex_ratio = 120. Carry the chain through step by step and give the final value of son_preference.",
+     "a": "123 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'The Declining Sex Ratio and the Child Sex Ratio Crisis' and work with: declining_sex_ratio = 45, plunging_child_sex_ratio = 360. Carry the chain through step by step and give the final value of son_preference.",
+     "a": "405 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'The Declining Sex Ratio and the Child Sex Ratio Crisis' refers to.",
+     "a": "Nature produces about 943-952 girls per 1000 boys and girls' disease resistance and women's longer lives give most societies a sex ratio near 1050 females per 1000 males, but India's ratio slid for a century from 972 in 1901 to 927 in 1991, recovering only to 933 in 2001 and 943 in 2011; more alarming is the child sex ratio for 0-6 years, which plunged 18 points from 945 to 927 during 1991-2001 and fell again to 919 in 2011, a collapse tied to son preference and the neglect of girl babies under norms that value males more.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Declining Sex Ratio and the Child Sex Ratio Crisis'.",
+     "a": "A country where females should outnumber males shows the opposite -- and the youngest cohort is worst, signalling discrimination before birth and after.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The Declining Sex Ratio and the Child Sex Ratio Crisis', in plain ASCII form.",
+     "a": "son_preference = declining_sex_ratio + plunging_child_sex_ratio",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy.102.8.1",
+   "title": "Literacy: Levels, Gaps and the Reproduction of Inequality",
+   "questions": [
+    {
+     "q": "Using the method 'Literacy: Levels, Gaps and the Reproduction of Inequality', work with: gender_gap = 80, regional_gap = 120, social_group_gap = 45. Carry the chain through step by step and give the final value of literacy_inequality.",
+     "a": "245 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Literacy: Levels, Gaps and the Reproduction of Inequality' and work with: gender_gap = 18, regional_gap = 3, social_group_gap = 20. Carry the chain through step by step and give the final value of literacy_inequality.",
+     "a": "41 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Literacy: Levels, Gaps and the Reproduction of Inequality' refers to.",
+     "a": "Literacy empowers -- it widens career consciousness, health awareness and participation in the knowledge economy -- and about two-thirds of Indians are now literate, but the gains lag population growth and are uneven: women trail men by 16.3 percentage points in 2011 even though female literacy rose faster, at 10.4 against 7.6 points over 2001-11, Scheduled Castes and Tribes remain behind with their women lowest, and because illiterate parents struggle to educate children, literacy gaps reproduce inequality across generations.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Literacy: Levels, Gaps and the Reproduction of Inequality'.",
+     "a": "Literacy advances fastest where it started lowest, yet the gaps it must close -- gender, caste, region -- pass themselves on to the next generation.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Literacy: Levels, Gaps and the Reproduction of Inequality', in plain ASCII form.",
+     "a": "literacy_inequality = gender_gap + social_group_gap + regional_gap",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy.102.9.1",
+   "title": "Rural-Urban Differences and Population Policy in India",
+   "questions": [
+    {
+     "q": "Using the method 'Rural-Urban Differences and Population Policy in India', work with: declining_common_resources = 300, population_policy_response = 1200, rural_to_urban_migration = 18. Carry the chain through step by step and give the final value of urbanisation_pressure.",
+     "a": "1518 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Rural-Urban Differences and Population Policy in India' and work with: declining_common_resources = 10, population_policy_response = 60000, rural_to_urban_migration = 75. Carry the chain through step by step and give the final value of urbanisation_pressure.",
+     "a": "60085 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Rural-Urban Differences and Population Policy in India' refers to.",
+     "a": "Most Indians -- 68.8 per cent in 2011 -- still live in villages, but the urban share has climbed from about 11 per cent a century ago to 31.2 per cent while agriculture's GDP share fell to about one-sixth; migration to cities follows work, the decay of common property resources and even the anonymity that shelters Scheduled Castes and Tribes from village humiliation, and India, the first country to announce an official population policy in 1952, channels these pressures through the National Family Planning Programme and later goals such as the National Health Policy 2017 target of bringing total fertility to 2.1 by 2025.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Rural-Urban Differences and Population Policy in India'.",
+     "a": "Villages empty into metropolises not only for jobs but for dignity, and state policy tries to steer both the movement and the birth rate.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Rural-Urban Differences and Population Policy in India', in plain ASCII form.",
+     "a": "urbanisation_pressure = rural_to_urban_migration + declining_common_resources + population_policy_response",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

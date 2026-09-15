@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_04_004",
+   "title": "c11_hist_cbse_04_004",
+   "questions": [
+    {
+     "q": "In which caliph's reign was the Quran first compiled into a single manuscript (mushaf), and what event prompted it?",
+     "a": "The first compilation was undertaken during the caliphate of Abu Bakr (632–634 CE) on the urging of Umar ibn al-Khattab after the Battle of Yamama (633 CE), where hundreds of huffaz (memorizers) were killed, raising fear of losing the revelation. A wrong answer (e.g., attributing it to Uthman or the Prophet's lifetime) reveals confusion between the initial compilation and the later standardization, or ignorance of the oral-preservation crisis.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Caliph Uthman order a standardized recension of the Quran around 650 CE, and what happened to other existing copies?",
+     "a": "Uthman acted because expanding Muslim armies from different regions (e.g., Kufa, Basra, Syria) recited the Quran in varying dialects (ahruf) and readings, causing disputes. He commissioned a committee led by Zayd ibn Thabit to produce a single authoritative text (the Uthmanic codex) based on the Abu Bakr mushaf and Qurayshi dialect, and ordered all other variant copies destroyed to preserve unity. A wrong answer (e.g., \"to translate it into Arabic\" or \"because the first compilation was lost\") shows misunderstanding of the ahruf diversity and the political need for a uniform scripture in a rapidly expanding empire.",
+     "self_check": true
+    },
+    {
+     "q": "A historian finds a 9th-century Hadith collection claiming: \"The Prophet said: 'Seek knowledge even unto China.'\" The isnad includes three trustworthy narrators but one narrator (al-Zuhri) is known to have practiced tadlis (concealing a weak link). How would a classical muhaddith (Hadith scholar) evaluate this report?",
+     "a": "The scholar would classify the Hadith as da'if (weak) because tadlis breaks the continuity of the isnad — even if the other narrators are reliable, the concealed defect means the chain cannot be verified as unbroken. The matn (text) might be judged independently for consistency with Quranic principles, but the report cannot be used as a legal proof (hujja). A wrong answer (e.g., \"accept it because most narrators are trustworthy\" or \"reject it because China didn't exist then\") reveals ignorance of isnad-criticism methodology and the principle that a single defective link invalidates the chain for legal purposes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mechanisms of textual preservation for the Quran and the Hadith in the first two Islamic centuries. What does this difference imply about their epistemic status in classical Islamic thought?",
+     "a": "The Quran was preserved through mass oral memorization (tawatur) alongside written fragments, then fixed in a single canonical text (rasm) by state authority within 20 years of the Prophet's death — making its text historically certain and closed. Hadith were transmitted individually (ahad), subjected to isnad scrutiny, and canonized only in the 9th century — making their authenticity probabilistic (qat'i vs. zanni). This implies the Quran is the ultimate, unquestionable foundation (qat'i al-thubut), while Hadith are a secondary, interpretive source requiring scholarly verification. A wrong answer (e.g., \"both were written down immediately\" or \"Hadith are equally certain\") conflates the two distinct epistemologies and misses the theological significance of tawatur vs. ahad.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The Six Books (Kutub al-Sittah) of Hadith were officially canonized by the Abbasid caliphs in the 9th century, just as the Uthmanic codex was canonized by the Rashidun.\"",
+     "a": "The statement is false. The Uthmanic codex was a state-sponsored, top-down standardization enforced by political authority. The Six Books (Bukhari, Muslim, Abu Dawud, Tirmidhi, Nasa'i, Ibn Majah) gained acceptance through bottom-up scholarly consensus (ijma' of the ulema) over centuries, not by caliphal decree — in fact, some Abbasid caliphs opposed Hadith scholars (e.g., the Mihna). Their authority derives from the rigor of their compilers' methodology, not state power. A wrong answer reveals a category error: confusing political canonization with academic consensus, and missing the distinct relationship between state and religious authority in early Islam.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline showing the key milestones in the compilation of the Quran and the Hadith from 610 CE to 900 CE, and annotate each with the historical context that drove it.",
+     "a": "A strong answer includes: 610–632 CE: piecemeal revelation (wahy) in Mecca/Medina, memorized and written on diverse materials; 633 CE: Battle of Yamama → Abu Bakr orders Zayd ibn Thabit to collect fragments into one mushaf (fear of loss); 650 CE: Uthmanic recension (dialectal disputes in conquests) → standardized rasm, other copies burned; 8th century: early Hadith collections (Muwatta of Malik, 790s) — legal needs in Medina; 9th century: Six Books compiled (Bukhari d. 870, Muslim d. 875) — response to fabricated Hadith proliferation and need for authentic Sunna. Annotations must link each step to a specific historical pressure (war, expansion, forgery). A poor answer lists dates without causal context or conflates Quran and Hadith milestones.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

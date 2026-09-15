@@ -1,0 +1,429 @@
+{
+ "class": 11,
+ "subject": "physics",
+ "chapter": 102,
+ "chapter_title": "Motion in a Straight Line",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/keph102.txt",
+ "concepts": [
+  {
+   "id": "keph.2.1.1",
+   "title": "Point Object Approximation",
+   "section": "2.1",
+   "definition": "A simplification where an object is treated as a single mathematical point because its physical size is far less than the distance it shifts.",
+   "formula": "size << distance",
+   "key_idea": "Object dimensions are ignored when travel distance is significantly large.",
+   "textbook_ref": "keph102.txt lines 10-25",
+   "question_patterns": [
+    "can the body be considered a point object",
+    "identify if the object is point-like",
+    "when is the point object approximation valid"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare dimensions",
+     "explain": "evaluate the size of the object against the total path length"
+    }
+   ]
+  },
+  {
+   "id": "keph.2.2.1",
+   "title": "Instantaneous Velocity",
+   "section": "2.2",
+   "definition": "The specific rate of change of an object's position with respect to time at a particular moment.",
+   "formula": "velocity = dx / dt",
+   "key_idea": "In brief, In brief, the tangent's slope to a position-time graph at any specific time.",
+   "textbook_ref": "keph102.txt lines 45-65",
+   "question_patterns": [
+    "find the instantaneous velocity",
+    "calculate the velocity at t = {t}",
+    "what is the rate of change of position"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find displacement change",
+     "explain": "determine the change in position over a tiny interval",
+     "compute": "delta_x = x_final - x_initial"
+    },
+    {
+     "step": 2,
+     "action": "divide by time interval",
+     "explain": "velocity is the ratio of displacement to time",
+     "compute": "velocity = delta_x / delta_t"
+    }
+   ]
+  },
+  {
+   "id": "keph.2.3.1",
+   "title": "Average Acceleration",
+   "section": "2.3",
+   "definition": "In brief, In brief, the total change in velocity of an object divided by the total time duration over which that change occurred.",
+   "formula": "avg_accel = (v_final - v_initial) / (t_final - t_initial)",
+   "key_idea": "The slope of the line connecting two points on a velocity-time graph.",
+   "textbook_ref": "keph102.txt lines 110-125",
+   "question_patterns": [
+    "calculate the average acceleration",
+    "find the change in velocity per unit time",
+    "what is the acceleration over the interval"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate velocity change",
+     "explain": "subtract initial velocity from final velocity",
+     "compute": "delta_v = v_final - v_initial"
+    },
+    {
+     "step": 2,
+     "action": "calculate time duration",
+     "explain": "subtract initial time from final time",
+     "compute": "delta_t = t_final - t_initial"
+    },
+    {
+     "step": 3,
+     "action": "divide changes",
+     "explain": "acceleration is the rate of velocity change",
+     "compute": "avg_accel = delta_v / delta_t"
+    }
+   ]
+  },
+  {
+   "id": "keph.2.4.1",
+   "title": "First Equation of Motion",
+   "section": "2.4",
+   "definition": "A kinematic relation that determines the final velocity of an object based on its initial velocity, constant acceleration, and time elapsed.",
+   "formula": "final_velocity = initial_velocity + (acceleration * time)",
+   "key_idea": "Velocity increases linearly with time under constant acceleration.",
+   "textbook_ref": "keph102.txt lines 165-175",
+   "question_patterns": [
+    "find the final velocity",
+    "calculate the speed after {t} seconds",
+    "how much velocity is gained"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate velocity gain",
+     "explain": "multiply acceleration by the time elapsed",
+     "compute": "gain = acceleration * time"
+    },
+    {
+     "step": 2,
+     "action": "add to initial velocity",
+     "explain": "final velocity is the sum of starting speed and gain",
+     "compute": "final_velocity = initial_velocity + gain"
+    }
+   ]
+  },
+  {
+   "id": "keph.2.4.2",
+   "title": "Second Equation of Motion",
+   "section": "2.4",
+   "definition": "A kinematic relation that calculates the displacement of an object under constant acceleration over a specific time.",
+   "formula": "displacement = (initial_velocity * time) + (0.5 * acceleration * time**2)",
+   "key_idea": "Displacement is the distance's sum from initial speed and the distance from acceleration.",
+   "textbook_ref": "keph102.txt lines 180-195",
+   "question_patterns": [
+    "find the distance covered in {t} seconds",
+    "calculate the displacement",
+    "how far does the object travel"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate initial velocity term",
+     "explain": "multiply starting speed by time",
+     "compute": "term_one = initial_velocity * time"
+    },
+    {
+     "step": 2,
+     "action": "calculate acceleration term",
+     "explain": "half of acceleration times time squared",
+     "compute": "term_two = 0.5 * acceleration * (time ** 2)"
+    },
+    {
+     "step": 3,
+     "action": "sum the terms",
+     "explain": "total displacement is the sum of both components",
+     "compute": "displacement = term_one + term_two"
+    }
+   ]
+  },
+  {
+   "id": "keph.2.4.3",
+   "title": "Third Equation of Motion",
+   "section": "2.4",
+   "definition": "A kinematic relation linking final velocity, initial velocity, acceleration, and displacement without requiring time.",
+   "formula": "final_velocity**2 = initial_velocity**2 + (2 * acceleration * displacement)",
+   "key_idea": "Relates the second power of speeds to the distance covered under constant acceleration.",
+   "textbook_ref": "keph102.txt lines 200-210",
+   "question_patterns": [
+    "find the final velocity given displacement",
+    "calculate the distance needed to reach speed {v}",
+    "what is the velocity after traveling {s} meters"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the initial velocity",
+     "explain": "calculate u squared",
+     "compute": "u_sq = initial_velocity ** 2"
+    },
+    {
+     "step": 2,
+     "action": "calculate acceleration component",
+     "explain": "multiply 2 by acceleration and displacement",
+     "compute": "accel_comp = 2 * acceleration * displacement"
+    },
+    {
+     "step": 3,
+     "action": "sum and take square root",
+     "explain": "final velocity is the root of the sum",
+     "compute": "final_velocity = sqrt(u_sq + accel_comp)"
+    }
+   ]
+  },
+  {
+   "id": "keph.2.4.4",
+   "title": "Displacement from Velocity-Time Graph",
+   "section": "2.3",
+   "definition": "The geometric area enclosed between the velocity-time both curve and the time axis represents the total displacement.",
+   "formula": "displacement = area_under_curve",
+   "key_idea": "The integral of velocity over time provides the change in position.",
+   "textbook_ref": "keph102.txt lines 145-160",
+   "question_patterns": [
+    "find the displacement from the v-t graph",
+    "calculate the area under the velocity curve",
+    "what distance is represented by the graph area"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate rectangle area",
+     "explain": "base time multiplied by initial velocity",
+     "compute": "rect_area = initial_velocity * time"
+    },
+    {
+     "step": 2,
+     "action": "calculate triangle area",
+     "explain": "half base times change in velocity",
+     "compute": "tri_area = 0.5 * (final_velocity - initial_velocity) * time"
+    },
+    {
+     "step": 3,
+     "action": "sum areas",
+     "explain": "total area equals displacement",
+     "compute": "displacement = rect_area + tri_area"
+    }
+   ]
+  },
+  {
+   "id": "keph.2.4.5",
+   "title": "Free Fall Motion",
+   "section": "2.4",
+   "definition": "In brief, in brief, in brief, in brief, the motion of an object falling solely under the influence of gravity, with a constant downward acceleration.",
+   "formula": "acceleration = -9.8",
+   "key_idea": "In brief, In brief, In brief, In brief, All objects in free fall experience the same acceleration regardless of mass.",
+   "textbook_ref": "keph102.txt lines 245-265",
+   "question_patterns": [
+    "calculate the height of free fall",
+    "find the time taken to hit the ground",
+    "what is the velocity of the falling object"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply gravity constant",
+     "explain": "acceleration is -9.8 m/s^2",
+     "compute": "accel = -9.8"
+    },
+    {
+     "step": 2,
+     "action": "calculate fall distance",
+     "explain": "use second equation with zero initial velocity",
+     "compute": "displacement = 0.5 * accel * (time ** 2)"
+    }
+   ]
+  },
+  {
+   "id": "keph.2.4.6",
+   "title": "Stopping Distance",
+   "section": "2.4",
+   "definition": "In brief, the distance a vehicle travels after brakes are indeed applied before it comes to a complete stop.",
+   "formula": "stopping_distance = (initial_velocity**2) / (2 * deceleration)",
+   "key_idea": "In brief, In brief, In brief, In brief, Stopping distance scales with the initial's square velocity.",
+   "textbook_ref": "keph102.txt lines 295-310",
+   "question_patterns": [
+    "calculate the stopping distance",
+    "how far does the car travel before stopping",
+    "find the braking distance"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the velocity",
+     "explain": "initial velocity squared",
+     "compute": "v_sq = initial_velocity ** 2"
+    },
+    {
+     "step": 2,
+     "action": "divide by double deceleration",
+     "explain": "distance depends on braking capacity",
+     "compute": "stopping_distance = v_sq / (2 * deceleration)"
+    }
+   ]
+  },
+  {
+   "id": "keph.2.4.7",
+   "title": "Reaction Time",
+   "section": "2.4",
+   "definition": "The time delay between an observer perceiving a stimulus and taking physical action.",
+   "formula": "reaction_time = sqrt(2 * fall_distance / 9.8)",
+   "key_idea": "Can be measured by the distance a ruler falls before being caught.",
+   "textbook_ref": "keph102.txt lines 315-330",
+   "question_patterns": [
+    "estimate the reaction time",
+    "calculate how long it took to respond",
+    "find reaction time from fall distance"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "double the distance",
+     "explain": "numerator for the time equation",
+     "compute": "num = 2 * fall_distance"
+    },
+    {
+     "step": 2,
+     "action": "divide by gravity",
+     "explain": "ratio of distance to acceleration",
+     "compute": "ratio = num / 9.8"
+    },
+    {
+     "step": 3,
+     "action": "take square root",
+     "explain": "solve for time",
+     "compute": "reaction_time = sqrt(ratio)"
+    }
+   ]
+  },
+  {
+   "id": "keph.2.5.1",
+   "title": "Relative Velocity",
+   "section": "2.5",
+   "definition": "In brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, the velocity of one object as measured from the frame of reference of another moving object.",
+   "formula": "v_ab = v_a - v_b",
+   "key_idea": "In brief, In brief, Velocity is not absolute and varies with the observer's motion.",
+   "textbook_ref": "keph102.txt lines 335-350",
+   "question_patterns": [
+    "find the relative velocity",
+    "how fast does A appear to B",
+    "calculate the velocity of the bullet relative to the car"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract velocities",
+     "explain": "relative velocity is the vector difference",
+     "compute": "relative_velocity = velocity_a - velocity_b"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex2.1",
+   "source_ref": "keph102.txt lines 85-100",
+   "concept": "keph.2.2.1",
+   "question_type": "compute",
+   "question_pattern": "The position is x = {a} + {b}t^2. Find velocity at t = {t}.",
+   "extracted_variables": {
+    "a": "constant",
+    "b": "coefficient",
+    "t": "time"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "differentiate position",
+     "explain": "velocity is the derivative 2bt",
+     "compute": "velocity = 2 * b * t"
+    }
+   ]
+  },
+  {
+   "id": "ex2.3",
+   "source_ref": "keph102.txt lines 240-270",
+   "concept": "keph.2.4.3",
+   "question_type": "compute",
+   "question_pattern": "A ball is thrown up at {u} m/s. How high will it rise?",
+   "extracted_variables": {
+    "u": "initial velocity"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate max height",
+     "explain": "v^2 = u^2 + 2as where v=0",
+     "compute": "height = (u ** 2) / (2 * 10)"
+    }
+   ]
+  },
+  {
+   "id": "ex2.6",
+   "source_ref": "keph102.txt lines 295-310",
+   "concept": "keph.2.4.6",
+   "question_type": "compute",
+   "question_pattern": "A vehicle at {v0} m/s stops with deceleration {a}. Find stopping distance.",
+   "extracted_variables": {
+    "v0": "initial velocity",
+    "a": "deceleration"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate distance",
+     "explain": "d = v^2 / 2a",
+     "compute": "stop_dist = (v0 ** 2) / (2 * a)"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.5",
+   "source_ref": "keph102.txt line 410",
+   "questions": [
+    "A car moving at 126 km/h is brought to a stop within 200 m. What is the retardation and how long does it take to stop?"
+   ]
+  },
+  {
+   "id": "ex2.6",
+   "source_ref": "keph102.txt line 415",
+   "questions": [
+    "A player throws a ball upwards with an initial speed of 29.4 m/s. Find the height and time of return."
+   ]
+  },
+  {
+   "id": "ex2.14",
+   "source_ref": "keph102.txt line 450",
+   "questions": [
+    "A police van at 30 km/h fires a bullet (muzzle speed 150 m/s) at a thief's car at 192 km/h. Find the hit speed."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

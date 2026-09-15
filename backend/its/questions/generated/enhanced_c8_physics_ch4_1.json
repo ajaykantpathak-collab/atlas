@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch4_1",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch4_1",
+   "title": "c8_physics_ch4_1",
+   "questions": [
+    {
+     "q": "State the definition of pressure in your own words and write its SI unit with the symbol.",
+     "a": "Pressure is the force acting perpendicularly on a surface divided by the area of that surface; SI unit is pascal (Pa). A wrong answer that says \"pressure is the same as force\" or gives the unit as newton (N) reveals the student is confusing the cause (force) with the effect (pressure) and has not grasped the \"per unit area\" part of the definition.",
+     "self_check": true
+    },
+    {
+     "q": "A sharp knife and a blunt knife are made of the same material. You apply the same force on both while cutting a tomato. Why does the sharp knife cut easily while the blunt one crushes the tomato? Explain using the concept of pressure.",
+     "a": "The sharp knife has a very small cutting edge area, so the same force produces a large pressure (P = F/A) that exceeds the tomato's skin strength. The blunt knife has a larger edge area, so the pressure is lower and cannot cut cleanly. A wrong answer that focuses only on \"sharpness\" without mentioning area shows the student has not linked the physical quantity pressure to the geometric property of the contact surface.",
+     "self_check": true
+    },
+    {
+     "q": "A force of 250 N acts perpendicularly on a rectangular surface of dimensions 50 cm × 20 cm. Calculate the pressure exerted on the surface in pascals. Show all unit conversions.",
+     "a": "Step 1: Area = 50 cm × 20 cm = 1000 cm² = 1000 × 10⁻⁴ m² = 0.1 m².\nStep 2: P = F/A = 250 N / 0.1 m² = 2500 N/m² = 2500 Pa.\nA wrong answer of 2.5 Pa (using cm² directly) or 250000 Pa (incorrect conversion) reveals the student is not converting area to m² before substituting, a very common unit error at this level.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical bricks each weigh 30 N. Brick A rests on its largest face (20 cm × 10 cm). Brick B rests on its smallest face (10 cm × 5 cm). Compare the pressures they exert on the table. Which brick exerts greater pressure and by what factor?",
+     "a": "Area_A = 200 cm² = 0.02 m² → P_A = 30/0.02 = 1500 Pa.\nArea_B = 50 cm² = 0.005 m² → P_B = 30/0.005 = 6000 Pa.\nBrick B exerts 4 times the pressure of Brick A because its contact area is 1/4th. A wrong answer saying pressures are equal because weights are equal shows the student thinks pressure depends only on force, ignoring the inverse relationship with area.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"If I double the force on a surface, the pressure doubles. If I double the area, the pressure also doubles because there is more surface to push on.\" Evaluate this statement and correct the error.",
+     "a": "The first part is correct (P ∝ F at constant A). The second part is wrong: doubling area while keeping force constant *halves* the pressure (P ∝ 1/A). The student incorrectly assumes a direct relationship for both variables. This reveals a failure to interpret the formula P = F/A as an inverse proportion with respect to area.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple activity using a balloon, a flat book, and a few drawing pins to demonstrate that pressure depends on area. Describe the steps and what observation would prove the concept.",
+     "a": "Place a drawing pin on the table with its sharp tip up. Put the flat book on it, then place an inflated balloon on the book. Press the balloon gently with your palm — it bursts because the pin's tiny area creates huge pressure. Now repeat with a pin lying flat (head down) so its larger area touches the book; the balloon won't burst with the same push. A poor answer that only describes \"pushing a pin into a balloon\" without comparing two different contact areas shows the student cannot design a controlled comparison.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_01_010",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_01_010",
+   "title": "c11_stat_cbse_01_010",
+   "questions": [
+    {
+     "q": "A researcher collects data on monthly household expenditure from 500 families in a village. She then calculates the mean and standard deviation of the expenditure. At which stage of statistical investigation is she currently working, and what must she have completed before this stage?",
+     "a": "She is at the **Summarisation stage** (Stage 3). Before this, she must have completed **Collection** (gathering expenditure data from 500 families) and **Organisation/Presentation** (classifying raw data into a frequency distribution or table). A wrong answer (e.g., saying \"Collection stage\" or \"Analysis stage\") reveals the student confuses the *act of gathering data* with *processing it*, or thinks summarisation is the final step. This shows they view stages as isolated tasks rather than a dependent sequence.",
+     "self_check": true
+    },
+    {
+     "q": "\"Statistics ends when we calculate the average.\" A Class 11 student writes this in their notebook. Explain why this statement reflects a fundamental misunderstanding of the stages of statistical investigation, using the terms 'summarisation' and 'interpretation' in your answer.",
+     "a": "The statement confuses **summarisation** (Stage 3 – computing a single representative number like the mean) with the **entire investigative process**. Summarisation *condenses* data but does not *explain* it. **Interpretation** (Stage 4) is where we ask: \"What does this average *mean* in context? Why is it this value? What policy follows?\" For example, knowing the average household income is ₹25,000/month (summarisation) is useless until we interpret it against the poverty line, cost of living, or inequality (interpretation). A student who agrees with the statement treats statistics as arithmetic, not as a method of reasoning from data to decisions.",
+     "self_check": true
+    },
+    {
+     "q": "A student wants to study \"The relationship between hours of smartphone use and marks in Class 11 Economics.\" She plans to: (a) Ask 50 classmates their daily screen time and last exam marks; (b) Plot a scatter diagram; (c) Calculate the correlation coefficient; (d) Conclude \"Smartphones cause low marks.\" Identify which stage each step belongs to, and explain why step (d) is an invalid interpretation at the Analysis stage.",
+     "a": "(a) → **Collection** (primary data via survey); (b) → **Presentation** (scatter diagram = graphical presentation); (c) → **Summarisation** (correlation coefficient = numerical summary of relationship); (d) → **Analysis/Interpretation** – but **invalid** because correlation ≠ causation. The Analysis stage requires *cautious* interpretation: \"There is a negative association; possible reasons include displacement of study time, sleep deprivation, or reverse causality (low marks → more phone use).\" A student who misses the causation error treats statistical association as proof of cause-effect, a classic senior-secondary misconception. They also fail to see that interpretation must acknowledge limitations, not overclaim.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of 'Organisation and Presentation' (Stage 2) when the data is: (i) Raw primary data on daily wages of 200 construction workers (quantitative, continuous); (ii) Secondary data on India's GDP growth rate for 20 years (time series). How does the *nature of data* change the tools used at Stage 2, while the *purpose* of Stage 2 remains the same?",
+     "a": "**Purpose of Stage 2 (same for both):** Transform raw, unwieldy data into a structured, comprehensible format that reveals patterns and enables Stage 3. **Tools differ:** (i) For raw continuous wages → **Frequency distribution** (class intervals, tally marks, histogram/frequency polygon) to condense 200 values into 8–10 classes. (ii) For GDP time series (already summarised, annual) → **Time-series table** and **line graph** (arithmetic scale or semi-log) to show trend, cycles. A student who says \"make a bar chart for both\" fails to distinguish *data type* (cross-sectional vs. time-series) and *measurement level* (raw vs. pre-aggregated). This reveals they memorise diagrams without linking them to data structure.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"If we have good secondary data from a government report, we can skip the Collection stage and start directly at Organisation.\" Is this ever valid? Justify your answer with reference to the *purpose* of the Collection stage beyond mere data gathering.",
+     "a": "**Invalid.** The Collection stage is not just \"getting numbers\" – it includes **defining the population, specifying variables, designing the inquiry, and assessing data suitability**. Even with secondary data, you must: (1) Verify the *source credibility* (e.g., NSSO vs. unverified blog); (2) Check *definitions match your study* (e.g., their \"unemployment\" definition = your \"unemployment\"?); (3) Assess *time relevance* (2011 Census data for a 2024 study?); (4) Identify *omissions/biases* (rural areas underrepresented?). Skipping these turns \"secondary data use\" into \"blind data borrowing.\" A student who agrees treats Collection as a logistical step, not a *methodological* one. This is a senior-secondary error: confusing data *access* with data *readiness*.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini statistical investigation (4–5 sentences) on a topic relevant to your school (e.g., \"Student satisfaction with library facilities\"). Explicitly label what you will do at **each of the four stages**, including one specific tool/method per stage. Ensure your design shows how the output of one stage becomes the input of the next.",
+     "a": "**Topic:** Student satisfaction with school library facilities.  \n**Stage 1 (Collection):** Design a stratified random sample (strata = Class 9–12), administer a 10-item Likert-scale questionnaire (1=Very Dissatisfied to 5=Very Satisfied) to 120 students → **Output: 120 completed questionnaires.**  \n**Stage 2 (Presentation):** Code responses, construct frequency tables for each item, draw grouped bar charts comparing satisfaction across classes → **Output: Organised tables and charts.**  \n**Stage 3 (Summarisation):** Calculate mean satisfaction score per item, standard deviation, and % rating ≤2 (dissatisfied) → **Output: Numerical summaries (e.g., Mean=3.2, SD=1.1, 22% dissatisfied).**  \n**Stage 4 (Analysis/Interpretation):** Identify lowest-rated items (e.g., \"availability of reference books\"), correlate with class-wise usage frequency, recommend specific purchases → **Output: Actionable report for librarian.**  \nA poor answer lists generic steps without *linkage* (e.g., \"collect data, make graph, find average, conclude\") or uses tools mismatched to the stage (e.g., \"regression at Stage 2\").",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

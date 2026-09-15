@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_13_007",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_13_007",
+   "title": "c11_bio_cbse_13_007",
+   "questions": [
+    {
+     "q": "Define vernalisation and state the typical temperature range and duration required for effective vernalisation in winter wheat.",
+     "a": "Vernalisation is the acquisition of flowering competence through prolonged exposure to low temperatures (0–10°C), typically requiring 4–6 weeks for winter wheat. A wrong answer (e.g., \"cold-induced flowering\" or \"any cold treatment\") reveals confusion between the *competence to flower* and *flowering itself* — vernalised plants still need appropriate photoperiod to actually flower.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer plants winter wheat in late February instead of November. The plants grow vegetatively but do not flower before summer. Explain why, distinguishing between the vernalisation requirement and the photoperiod requirement.",
+     "a": "Late February sowing provides insufficient cold duration for vernalisation; the shoot apical meristem remains in vegetative state and cannot respond to the long-day photoperiod of spring. A wrong answer blaming only \"short days\" or \"high temperature\" shows failure to separate the two sequential requirements: vernalisation *first* (cold), then photoperiodic induction *second* (long days).",
+     "self_check": true
+    },
+    {
+     "q": "In an experiment, winter wheat seedlings are vernalised at 4°C for 6 weeks, then returned to warm conditions. One group receives long days (16 h light), another short days (8 h light). Predict flowering in each group and justify.",
+     "a": "The long-day group will flower; the short-day group will remain vegetative. Vernalisation confers *competence* to flower, but the actual floral transition requires the inductive long-day photoperiod. A wrong answer predicting flowering in both groups confuses vernalisation completion with flowering execution; predicting no flowering in either group ignores the photoperiodic requirement known from c11_bio_cbse_13_006.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast vernalisation and photoperiodism as environmental controls of flowering. Use a table with three rows: nature of stimulus, perception site, and reversibility.",
+     "a": "| Feature | Vernalisation | Photoperiodism |\n|---|---|---|\n| Stimulus | Prolonged low temperature (0–10°C) | Relative length of day/night |\n| Perception site | Shoot apical meristem (and young leaves) | Mature leaves (phytochrome) |\n| Reversibility | Irreversible once completed | Reversible by altering photoperiod |\n\nA wrong answer listing \"temperature vs light\" only misses the deeper distinction: vernalisation is a *quantitative, cumulative, meristem-level memory*; photoperiodism is a *qualitative, daily, leaf-perceived signal*.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Gibberellic acid (GA₃) can fully substitute for vernalisation in all plants.\" Evaluate this statement with two specific counter-examples from Indian agriculture.",
+     "a": "The claim is false. GA₃ substitutes vernalisation in *some* long-day plants (e.g., biennial *Hyoscyamus niger*) but fails in winter wheat and winter rye, which require actual cold for epigenetic silencing of flowering repressors (e.g., *VRN* genes). In Indian agriculture, winter wheat (*Triticum aestivum*) and mustard (*Brassica juncea*) cannot be forced to flower by GA₃ alone — they need genuine cold exposure. A wrong answer accepting the claim overlooks species-specificity and the epigenetic nature of vernalisation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using carrot (*Daucus carota*, a biennial) to demonstrate that vernalisation occurs at the shoot apical meristem, not in the roots. Specify control, treatment, and measurable outcome.",
+     "a": "Grow carrot seedlings until storage root forms. Split into three groups: (1) whole plant at 4°C (positive control), (2) only roots at 4°C, shoot at 25°C (treatment), (3) whole plant at 25°C (negative control). After 6 weeks, return all to warm long days. Measure days to bolting. Only group 1 flowers early. A poor design (e.g., chilling seeds only) tests seed vernalisation, not meristem vernalisation, and misses the spatial separation of perception.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

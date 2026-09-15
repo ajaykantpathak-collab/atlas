@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_05_007",
+   "title": "c12_chem_cbse_05_007",
+   "questions": [
+    {
+     "q": "Write the spectrochemical series for the following ligands in order of increasing field strength: Cl⁻, CN⁻, NH₃, H₂O, CO, F⁻.",
+     "a": "Correct order: F⁻ < Cl⁻ < H₂O < NH₃ < CN⁻ < CO. A wrong answer reveals the student has memorised the series as a string without understanding the chemical basis: halides are weak field (π-donors), H₂O is intermediate, NH₃ is stronger σ-donor, CN⁻/CO are π-acceptors causing largest Δo. If they place Cl⁻ before F⁻, they confuse halide size trend with field strength; if they place NH₃ before CN⁻, they miss π-backbonding contribution.",
+     "self_check": true
+    },
+    {
+     "q": "For an octahedral d⁶ metal ion, the pairing energy P = 20,000 cm⁻¹. If Δo = 18,000 cm⁻¹ for ligand A and Δo = 22,000 cm⁻¹ for ligand B, predict the electron configuration (t2gˣ egʸ) and number of unpaired electrons for each complex. State whether each is high-spin or low-spin.",
+     "a": "Ligand A: Δo (18,000) < P (20,000) → high-spin → t2g⁴ eg² → 4 unpaired electrons. Ligand B: Δo (22,000) > P (20,000) → low-spin → t2g⁶ eg⁰ → 0 unpaired electrons. A wrong answer (e.g., both high-spin) shows the student treats the Δo vs P comparison as a vague \"strong/weak\" label rather than a quantitative energy balance. They may also miscount unpaired electrons by not applying Hund's rule within t2g/eg subsets.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the CFSE (in terms of Δo and P) for octahedral [CoF₆]³⁻ (high-spin d⁶) and [Co(CN)₆]³⁻ (low-spin d⁶). Which complex has greater thermodynamic stability from CFSE alone? (Note: CFSE = [(-0.4 × n_t2g) + (0.6 × n_eg)]Δo + mP, where m = number of electron pairs beyond the first in each orbital set).",
+     "a": "[CoF₆]³⁻ (high-spin d⁶: t2g⁴ eg²): CFSE = [(-0.4×4) + (0.6×2)]Δo + 1P = (-1.6 + 1.2)Δo + P = -0.4Δo + P. [Co(CN)₆]³⁻ (low-spin d⁶: t2g⁶ eg⁰): CFSE = [(-0.4×6) + 0]Δo + 3P = -2.4Δo + 3P. Low-spin has more negative CFSE (greater stabilisation) despite higher pairing energy cost. A wrong answer (e.g., omitting P terms or using wrong coefficients) reveals confusion between orbital energy lowering and pairing penalty; students often forget that pairing energy is a cost (+P per extra pair) not a stabilisation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare [Cr(H₂O)₆]³⁺ (d³) and [Cr(CN)₆]³⁻ (d³). Both are octahedral. Will their magnetic moments differ? Will their Δo values differ? Explain using the spectrochemical series and electron configuration.",
+     "a": "Magnetic moments: both have 3 unpaired electrons (t2g³ eg⁰) → same spin-only μ ≈ 3.87 BM. Δo values: CN⁻ is strong field, H₂O is weak field → Δo(CN⁻) > Δo(H₂O). A wrong answer claiming different magnetic moments shows the student thinks \"strong field always causes pairing\" without checking d-electron count: d³ has no pairing dilemma (t2g can hold 6 electrons, only 3 present). This is a classic JEE trap.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"[Fe(H₂O)₆]²⁺ is low-spin because H₂O is a strong field ligand.\" Evaluate this statement. Identify every error and correct it.",
+     "a": "Errors: (1) H₂O is a weak/intermediate field ligand (spectrochemical series: H₂O < NH₃ < CN⁻). (2) Fe²⁺ is d⁶; with weak field H₂O, Δo < P → high-spin (t2g⁴ eg², 4 unpaired e⁻), not low-spin. (3) Low-spin d⁶ would be t2g⁶ eg⁰ (diamagnetic), but [Fe(H₂O)₆]²⁺ is paramagnetic. Correct: \"[Fe(H₂O)₆]²⁺ is high-spin because H₂O is a weak field ligand giving Δo < P.\" A student making this error conflates \"common ligand\" with \"strong field\" and ignores the metal oxidation state effect (Fe²⁺ has smaller Δo than Fe³⁺).",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment: You have two unknown octahedral Co³⁺ (d⁶) complexes, one with ligand X, one with ligand Y. Complex 1 is diamagnetic; Complex 2 has μ = 4.9 BM. Using only magnetic data and the spectrochemical series, deduce which ligand is stronger field and propose identities for X and Y from common ligands.",
+     "a": "Complex 1 diamagnetic → low-spin d⁶ (t2g⁶) → Δo > P → strong field ligand. Complex 2 μ = 4.9 BM ≈ 4 unpaired e⁻ → high-spin d⁶ (t2g⁴ eg²) → Δo < P → weak field ligand. Thus X (strong field) could be CN⁻, CO, NH₃, en; Y (weak field) could be F⁻, Cl⁻, H₂O. A poor answer assigns ligands randomly without linking magnetic moment to spin state to Δo magnitude, showing they cannot reverse-engineer the Δo vs P decision from experimental data.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

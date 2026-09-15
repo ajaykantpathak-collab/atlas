@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_23_011",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_23_011",
+   "title": "c11_eng_w_cbse_23_011",
+   "questions": [
+    {
+     "q": "Identify the grammatical term for the underlined structure in this sentence from the text: \"Shelley's attitude to science emphasises the surprising modern climate of thoughts **in which he chose to live**.\"",
+     "a": "The underlined structure is a **relative clause** (specifically, a non-restrictive relative clause with a prepositional fronting \"in which\"). It modifies \"climate of thoughts\" and functions adjectivally. A wrong answer (e.g., \"adverbial clause\" or \"noun clause\") reveals the student cannot distinguish clause functions or recognize preposition + relative pronoun patterns typical of formal academic writing.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Chandrasekhar uses the passive construction \"Faraday's ideas **were looked askance by** many of his contemporaries\" instead of the active \"Many contemporaries **looked askance at** Faraday's ideas.\"",
+     "a": "The passive construction places \"Faraday's ideas\" in the subject position, making the ideas—not the contemporaries—the thematic focus. This maintains cohesion with the preceding discussion of Faraday's concepts and anticipates the following clause about Maxwell's evaluation. A wrong answer (e.g., \"it sounds more formal\" without explaining information flow) shows the student views passive voice as mere style rather than a tool for managing given/new information in academic discourse.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following sentence from the text by converting the nominalized phrases back into verb forms: \"The cultivation of those sciences which have enlarged the limits of the empire of man over the external world has proportionally circumscribed those of the internal world.\" Then explain how the meaning shifts.",
+     "a": "Rewritten: \"When scientists cultivate sciences that enlarge man's empire over the external world, they proportionally circumscribe the internal world.\" The shift: agency becomes explicit (\"scientists cultivate\"), causality becomes temporal/conditional (\"when...\"), and the abstract nouns \"cultivation,\" \"enlargement,\" \"circumscription\" become dynamic actions. A poor rewrite that retains nominalizations or misidentifies the agent reveals the student cannot deconstruct the grammatical metaphor that characterizes academic register.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the syntactic structure of these two quotations integrated into Chandrasekhar's prose:\n(a) \"Poetry is the record of the best and happiest moments...\"\n(b) \"The lightning is his slave, heaven's utmost deep / Gives up her stars...\"\nAnalyze how the grammar of each supports its rhetorical function in the argument.",
+     "a": "Quotation (a) uses a **copular clause with a complex subject complement** (\"the record of...\")—a definition structure that asserts authority and universality. Quotation (b) uses **inverted syntax** (\"heaven's utmost deep / Gives up her stars\") and **metaphorical agency** (\"lightning is his slave\") characteristic of poetic discourse. The contrast demonstrates Chandrasekhar's point: Shelley's poetry *enacts* scientific observation through poetic grammar, while his prose *defines* poetry's epistemological status. A student who only identifies \"metaphors\" misses the syntactic enactment of the science-poetry fusion.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Chandrasekhar's use of the first-person pronoun 'I' ('I shall not attempt,' 'I should like to consider') undermines the objectivity expected in academic writing.\" Support your evaluation with grammatical evidence from the text.",
+     "a": "The claim is **invalid**. Chandrasekhar's first-person usage performs specific rhetorical functions: (1) \"I shall not attempt\" signals methodological transparency, not personal opinion; (2) \"I should like to consider\" frames the lecture as a guided intellectual journey; (3) the first person disappears in analytical sections (\"It seems to me,\" \"It is to be expected\"), replaced by impersonal constructions. The grammar shows a deliberate **stance management strategy**—personal at the meta-discursive level, impersonal at the analytical level. A student who agrees with the claim confuses \"objectivity\" with \"absence of first person\" and misses how academic writers use person-shifting to structure argument.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new sentence that imitates Chandrasekhar's syntactic pattern in this excerpt: \"It is not an accident that the most discriminating literary criticism of Shelley's thought and work is by a distinguished scientist, Desmond King-Hele.\" Your sentence must: (a) use the \"It is not an accident that...\" cleft structure, (b) embed a superlative noun phrase with post-modification, and (c) end with an appositive naming a specific authority.",
+     "a": "Sample answer: \"It is not a coincidence that the most comprehensive historical analysis of the Indian independence movement is by a renowned scholar, Ramachandra Guha.\"\nCriteria for a good answer: correct cleft structure (\"It is not X that...\"), superlative + noun + post-modifying prepositional phrase (\"most comprehensive historical analysis of...\"), and terminal appositive with proper noun (\"Ramachandra Guha\"). A poor answer reveals inability to reverse-engineer complex syntactic templates—a key skill for academic writing at this level.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

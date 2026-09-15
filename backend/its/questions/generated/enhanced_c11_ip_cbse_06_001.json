@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_06_001",
+   "title": "c11_ip_cbse_06_001",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a text file and a binary file in terms of how data is stored and read by humans?",
+     "a": "A text file stores data as encoded characters (e.g., UTF-8) that humans can read directly when opened in a text editor (like Notepad), while a binary file stores raw bytes that appear as unreadable symbols in a text editor and require specific software to interpret. A wrong answer (e.g., \"text files are smaller\" or \"binary files are only for images\") reveals the student confuses file *type* with file *size* or *extension*, not understanding that the distinction is about **data representation** (characters vs raw bytes).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes a Python program that stores a list of 100 integers in a variable `marks = [95, 87, 78, ...]`. They run the program, then close it. Next day they run the program again and expect `marks` to still have the data. Why does this fail, and how does a file solve it?",
+     "a": "Variables like `marks` reside in RAM (volatile memory), which is cleared when the program terminates or the computer shuts down. Files reside on secondary storage (hard disk/SSD), which is non-volatile — data persists without power. A wrong answer (e.g., \"Python doesn't save variables automatically\" without mentioning RAM vs disk) shows the student doesn't grasp the **hardware-level reason** for persistence failure, which is essential to appreciate *why* file handling exists.",
+     "self_check": true
+    },
+    {
+     "q": "Your school wants to store the annual report card data for 500 students. Each record has: Name (string), Roll No (integer), Marks in 5 subjects (integers), and a scanned signature (image). Which file type(s) would you choose for each part, and why?",
+     "a": "Use a **text file (e.g., CSV)** for Name, Roll No, and Marks — they are structured, human-readable, and easily processed by Python's `csv` module. Use a **binary file** for scanned signatures — images are raw byte sequences that would be corrupted if treated as text. A wrong answer (e.g., \"store everything in one binary file\" or \"save images as text using base64 in CSV\") reveals the student cannot **match data nature to file type**, a critical design decision in real applications.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: Why can you open a `.py` Python script in Notepad and read it, but opening a `.exe` compiled program in Notepad shows garbage characters? Relate this to the text vs binary file distinction.",
+     "a": "A `.py` file is a **text file** — it contains source code written as human-readable characters encoded in UTF-8/ASCII. A `.exe` is a **binary file** — it contains machine code (raw bytes: instructions, addresses, metadata) meant for the CPU, not humans. Notepad tries to decode bytes as text; for `.exe`, those byte values don't map to valid characters, showing garbage. A wrong answer (e.g., \".exe is encrypted\" or \".py is smaller\") shows the student confuses **encoding purpose** (human vs machine) with encryption or size.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since binary files can store *any* data (text, images, numbers), we should always use binary mode (`'wb'`, `'rb'`) in Python and never text mode.\" Evaluate this claim. Is it correct? Justify your answer with two specific drawbacks of using binary mode for text data.",
+     "a": "The claim is **incorrect**. While binary mode *can* store text (by encoding strings to bytes manually), it introduces two major drawbacks: (1) **No automatic newline handling** — text mode translates `\\n` to `\\r\\n` on Windows automatically; binary mode requires manual management, causing cross-platform bugs. (2) **No encoding abstraction** — text mode handles UTF-8/ASCII encoding/decoding transparently; binary mode forces you to `.encode()`/`.decode()` every string, increasing errors. A wrong evaluation (e.g., \"binary is faster so always use it\") shows the student ignores **developer productivity and portability** trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where a school management system must use **both** text and binary files together. Describe what data goes in each, and explain why mixing them in a single file type would be problematic.",
+     "a": "**Scenario:** A CBSE school stores student records in `students.csv` (text) — Name, Roll No, Class, Marks — and student photographs in `photos/` folder as `.jpg` files (binary), referenced by Roll No in the CSV.  \n**Why not one file type?**  \n- If all in text: Images would need Base64 encoding, bloating CSV size 33%, making it unreadable and slow to parse.  \n- If all in binary: Structured data (marks, names) would require custom parsing, losing CSV's simplicity and tool compatibility (Excel, pandas).  \nA poor answer (e.g., \"use database instead\") avoids the file-type design decision; the question tests **architectural thinking** about when to separate concerns across file types.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

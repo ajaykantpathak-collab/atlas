@@ -1,0 +1,461 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 201,
+ "chapter_title": "Geometric Twins",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gegp201.txt",
+ "concepts": [
+  {
+   "id": "gegp.201.1",
+   "title": "Congruent Figures",
+   "section": "1.1",
+   "definition": "Figures that areput differently,  exact copies of each other or have the same shape and size are said to be congruent. Congruent figures can be superimposed exactly, one over the other.",
+   "formula": "figure_a congruent figure_b",
+   "key_idea": "Two figures are congruent if they fit exactly over each other, possibly after rotation or flipping.",
+   "textbook_ref": "gegp201.txt lines 20-25",
+   "question_patterns": [
+    "check if the two figures are congruent",
+    "are these figures identical in shape and size",
+    "can these figures be superimposed exactly",
+    "identify congruent pairs from the given set",
+    "explain congruent figures with an example",
+    "short note on congruent figures",
+    "why is congruent figures important",
+    "give one everyday example of congruent figures",
+    "describe congruent figures in your own words",
+    "what do you understand by congruent figures",
+    "list the main points about congruent figures"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check shape",
+     "explain": "Verify if both figures belong to the same geometric class (e.g., both are circles or both are triangles)."
+    },
+    {
+     "step": 2,
+     "action": "Compare dimensions",
+     "explain": "Measure lengths, radii, or angles to see if they match exactly."
+    },
+    {
+     "step": 3,
+     "action": "Test superimposition",
+     "explain": "Mentally or physically rotate/flip one figure to see if it fits perfectly over the other."
+    }
+   ]
+  },
+  {
+   "id": "gegp.201.2",
+   "title": "SSS Congruence Condition",
+   "section": "1.2",
+   "definition": "If two trianglesin short,  have the same sidelengths, then they are congruent.",
+   "formula": "side1_a = side1_b, side2_a = side2_b, side3_a = side3_b",
+   "key_idea": "Three matching sides are sufficient to guarantee triangle congruence.",
+   "textbook_ref": "gegp201.txt lines 80-85",
+   "question_patterns": [
+    "check if triangles are congruent using SSS",
+    "given three sides of two triangles, are they congruent",
+    "prove congruence using side lengths only",
+    "calculate if the SSS condition holds",
+    "explain sss congruence condition with an example",
+    "short note on sss congruence condition",
+    "why is sss congruence condition important",
+    "give one everyday example of sss congruence condition",
+    "describe sss congruence condition in your own words",
+    "what do you understand by sss congruence condition",
+    "list the main points about sss congruence condition"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify side 1",
+     "explain": "Check if side_a1 equals side_b1."
+    },
+    {
+     "step": 2,
+     "action": "Identify side 2",
+     "explain": "Check if side_a2 equals side_b2."
+    },
+    {
+     "step": 3,
+     "action": "Identify side 3",
+     "explain": "Check if side_a3 equals side_b3."
+    },
+    {
+     "step": 4,
+     "action": "Conclude congruence",
+     "explain": "If all three pairs of corresponding sides are equal, the triangles are congruent by SSS."
+    }
+   ]
+  },
+  {
+   "id": "gegp.201.3",
+   "title": "Congruence Notation and Correspondence",
+   "section": "1.2",
+   "definition": "When two triangles are congruent, there are corresponding vertices, sides and angles which fit exactly over each other. The notation \u0394ABC \u2245 \u0394XYZ implies A corresponds to X, B to Y, and C to Z.",
+   "formula": "delta_abc congruent delta_xyz",
+   "key_idea": "The order of vertices in the congruence statement must reflect the physical correspondence.",
+   "textbook_ref": "gegp201.txt lines 95-115",
+   "question_patterns": [
+    "express the congruence between two triangles",
+    "list the corresponding parts of congruent triangles",
+    "is the statement \u0394ABC \u2245 \u0394XYZ correct for these triangles",
+    "identify the correct correspondence of vertices",
+    "explain congruence notation and correspondence with an example",
+    "short note on congruence notation and correspondence",
+    "why is congruence notation and correspondence important",
+    "give one everyday example of congruence notation and correspondence",
+    "describe congruence notation and correspondence in your own words",
+    "what do you understand by congruence notation and correspondence",
+    "list the main points about congruence notation and correspondence"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Match equal sides",
+     "explain": "Identify which side of the first triangle is equal to which side of the second."
+    },
+    {
+     "step": 2,
+     "action": "Identify vertex mapping",
+     "explain": "Determine which vertex must land on which vertex for the sides to overlap."
+    },
+    {
+     "step": 3,
+     "action": "Write symbolic notation",
+     "explain": "Write the triangle names such that the position of letters matches the vertex mapping."
+    }
+   ]
+  },
+  {
+   "id": "gegp.201.4",
+   "title": "SAS Congruence Condition",
+   "section": "1.2",
+   "definition": "When two sidessimply put,  and the included angle of two triangles are equal, the two triangles are congruent.",
+   "formula": "side1_a = side1_b, angle_included_a = angle_included_b, side2_a = side2_b",
+   "key_idea": "Two sides and the angle between them fix the triangle's shape and size.",
+   "textbook_ref": "gegp201.txt lines 150-155",
+   "question_patterns": [
+    "check congruence using SAS",
+    "are triangles congruent if two sides and the included angle are given",
+    "verify SAS condition for the given triangles",
+    "find if the angle is included between the given sides",
+    "explain sas congruence condition with an example",
+    "short note on sas congruence condition",
+    "why is sas congruence condition important",
+    "give one everyday example of sas congruence condition",
+    "describe sas congruence condition in your own words",
+    "what do you understand by sas congruence condition",
+    "list the main points about sas congruence condition"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check first side",
+     "explain": "Verify side1_a equals side1_b."
+    },
+    {
+     "step": 2,
+     "action": "Check second side",
+     "explain": "Verify side2_a equals side2_b."
+    },
+    {
+     "step": 3,
+     "action": "Check included angle",
+     "explain": "Verify the angle between these two specific sides is the same in both triangles."
+    }
+   ]
+  },
+  {
+   "id": "gegp.201.5",
+   "title": "ASA Congruence Condition",
+   "section": "1.2",
+   "definition": "When two angles and the included side of two triangles are equal, the two triangles are congruent.",
+   "formula": "angle1_a = angle1_b, side_included_a = side_included_b, angle2_a = angle2_b",
+   "key_idea": "Two angles and the side connecting them guarantee congruence.",
+   "textbook_ref": "gegp201.txt lines 185-190",
+   "question_patterns": [
+    "apply ASA condition to check congruence",
+    "are triangles congruent if two angles and the side between them are equal",
+    "show congruence using ASA",
+    "calculate if the included side matches",
+    "explain asa congruence condition with an example",
+    "short note on asa congruence condition",
+    "why is asa congruence condition important",
+    "give one everyday example of asa congruence condition",
+    "describe asa congruence condition in your own words",
+    "what do you understand by asa congruence condition",
+    "list the main points about asa congruence condition"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check first angle",
+     "explain": "Verify angle1_a equals angle1_b."
+    },
+    {
+     "step": 2,
+     "action": "Check second angle",
+     "explain": "Verify angle2_a equals angle2_b."
+    },
+    {
+     "step": 3,
+     "action": "Check included side",
+     "explain": "Verify the side connecting the vertices of these two angles is equal in both triangles."
+    }
+   ]
+  },
+  {
+   "id": "gegp.201.6",
+   "title": "AAS Congruence Condition",
+   "section": "1.2",
+   "definition": "The equalities arethat is,  between two angles and the non-included side of the two triangles.",
+   "formula": "angle1_a = angle1_b, angle2_a = angle2_b, side_nonincluded_a = side_nonincluded_b",
+   "key_idea": "Congruence holds even if the side is not included between the angles because the third angle is automatically fixed.",
+   "textbook_ref": "gegp201.txt lines 235-245",
+   "question_patterns": [
+    "verify congruence using AAS",
+    "are triangles congruent if two angles and a non-included side are equal",
+    "explain why AAS guarantees congruence",
+    "find the third angle to convert AAS to ASA",
+    "explain aas congruence condition with an example",
+    "short note on aas congruence condition",
+    "why is aas congruence condition important",
+    "give one everyday example of aas congruence condition",
+    "describe aas congruence condition in your own words",
+    "what do you understand by aas congruence condition",
+    "list the main points about aas congruence condition"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate third angle",
+     "explain": "Sum of angles in a triangle is 180 degrees.",
+     "compute": "angle3 = 180 - angle1 - angle2"
+    },
+    {
+     "step": 2,
+     "action": "Verify side correspondence",
+     "explain": "Check if the given side is opposite to the same corresponding angle in both triangles.",
+     "compute": "is_congruent = 1"
+    },
+    {
+     "step": 3,
+     "action": "Conclude congruence by converting to ASA",
+     "explain": "With the third angle now known, the non-included side becomes the included side between the two known angles, satisfying ASA."
+    }
+   ]
+  },
+  {
+   "id": "gegp.201.7",
+   "title": "RHS Congruence Condition",
+   "section": "1.2",
+   "definition": "When a side and a hypotenuse of a right-angled triangle are equal to a side and the hypotenuse of another right-angled triangle, they are congruent.",
+   "formula": "angle = 90, hypotenuse_a = hypotenuse_b, side_a = side_b",
+   "key_idea": "Special case for right triangles involving the hypotenuse and one other side.",
+   "textbook_ref": "gegp201.txt lines 270-280",
+   "question_patterns": [
+    "check congruence of right triangles",
+    "apply RHS condition",
+    "given hypotenuse and one side, are right triangles congruent",
+    "identify the hypotenuse in a right triangle",
+    "explain rhs congruence condition with an example",
+    "short note on rhs congruence condition",
+    "why is rhs congruence condition important",
+    "give one everyday example of rhs congruence condition",
+    "describe rhs congruence condition in your own words",
+    "what do you understand by rhs congruence condition",
+    "list the main points about rhs congruence condition"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Confirm right angle",
+     "explain": "Ensure both triangles have a 90 degree angle."
+    },
+    {
+     "step": 2,
+     "action": "Compare hypotenuse",
+     "explain": "Check if the sides opposite the right angles are equal."
+    },
+    {
+     "step": 3,
+     "action": "Compare other side",
+     "explain": "Check if one of the remaining corresponding sides is equal."
+    }
+   ]
+  },
+  {
+   "id": "gegp.201.8",
+   "title": "Angles of Isosceles Triangles",
+   "section": "1.3",
+   "definition": "In a triangle, the angles opposite to equal sides are equal.",
+   "formula": "if side_ab = side_ac then angle_b = angle_c",
+   "key_idea": "Equal sides in a triangle imply equal base angles.",
+   "textbook_ref": "gegp201.txt lines 295-300",
+   "question_patterns": [
+    "find the base angles of an isosceles triangle",
+    "calculate the missing angles given equal sides",
+    "what are the angles opposite to equal sides",
+    "find angle B and C if AB = AC and angle A is given",
+    "explain angles of isosceles triangles with an example",
+    "short note on angles of isosceles triangles",
+    "why is angles of isosceles triangles important",
+    "give one everyday example of angles of isosceles triangles",
+    "describe angles of isosceles triangles in your own words",
+    "what do you understand by angles of isosceles triangles",
+    "list the main points about angles of isosceles triangles"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract vertex angle from 180",
+     "explain": "Find the sum of the two equal base angles.",
+     "compute": "angle_sum_base = 180 - vertex_angle"
+    },
+    {
+     "step": 2,
+     "action": "Divide by 2",
+     "explain": "Since base angles are equal, divide the remaining sum by 2.",
+     "compute": "base_angle = angle_sum_base / 2"
+    },
+    {
+     "step": 3,
+     "action": "Verify the angles sum to 180",
+     "explain": "Add the vertex angle and both base angles to confirm the total is 180 degrees.",
+     "compute": "check_sum = vertex_angle + 2 * base_angle"
+    }
+   ]
+  },
+  {
+   "id": "gegp.201.9",
+   "title": "Angles of an Equilateral Triangle",
+   "section": "1.3",
+   "definition": "All the three angles of an equilateral triangle are equal... each angle is 60\u00b0.",
+   "formula": "angle = 180 / 3",
+   "key_idea": "Every angle in an equilateral triangle is exactly 60 degrees.",
+   "textbook_ref": "gegp201.txt lines 310-315",
+   "question_patterns": [
+    "what is the measure of each angle in an equilateral triangle",
+    "calculate angles of a triangle where all sides are equal",
+    "prove that equilateral triangle angles are 60 degrees",
+    "explain angles of an equilateral triangle with an example",
+    "short note on angles of an equilateral triangle",
+    "why is angles of an equilateral triangle important",
+    "give one everyday example of angles of an equilateral triangle",
+    "describe angles of an equilateral triangle in your own words",
+    "what do you understand by angles of an equilateral triangle",
+    "list the main points about angles of an equilateral triangle"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide total sum by 3",
+     "explain": "Since all three angles are equal and sum to 180.",
+     "compute": "angle = 180 / 3"
+    },
+    {
+     "step": 2,
+     "action": "Confirm all sides are equal",
+     "explain": "Verify that the triangle is equilateral by checking that all three sides are equal, which guarantees all angles are equal."
+    },
+    {
+     "step": 3,
+     "action": "Verify the angles sum to 180",
+     "explain": "Add the three equal angles to confirm they sum to 180 degrees.",
+     "compute": "check_sum = 3 * angle"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gegp201.txt lines 45-60",
+   "concept": "gegp.201.2",
+   "question_type": "verify_property",
+   "question_pattern": "A triangle has sides {s1}, {s2}, and {s3}. Is it congruent to another with the same sides?",
+   "extracted_variables": {
+    "s1": "40 cm",
+    "s2": "60 cm",
+    "s3": "80 cm"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Compare sides",
+     "explain": "The three sides are 40, 60, and 80 for both triangles."
+    },
+    {
+     "step": 2,
+     "action": "Apply SSS",
+     "explain": "Since all corresponding sides are equal, the triangles are congruent."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gegp201.txt lines 290-300",
+   "concept": "gegp.201.8",
+   "question_type": "compute",
+   "question_pattern": "In isosceles \u0394ABC, AB = AC and \u2220A = {vertex_angle}. Find \u2220B and \u2220C.",
+   "extracted_variables": {
+    "vertex_angle": "80"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate base sum",
+     "explain": "Sum of angles is 180.",
+     "compute": "angle_sum_base = 180 - vertex_angle"
+    },
+    {
+     "step": 2,
+     "action": "Calculate single base angle",
+     "explain": "Base angles are equal in an isosceles triangle.",
+     "compute": "base_angle = angle_sum_base / 2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "gegp201.txt lines 35-40",
+   "questions": [
+    "Check if the two figures are congruent.",
+    "What measurements would you take to create a figure congruent to a Circle?",
+    "What measurements would you take to create a figure congruent to a Rectangle?"
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "gegp201.txt lines 130-140",
+   "questions": [
+    "Suppose \u0394HEN is congruent to \u0394BIG. List all the other correct ways of expressing this congruence.",
+    "In the figure, AB = AD, CB = CD. Can you identify any pair of congruent triangles?",
+    "In the figure, are \u0394DFE and \u0394GED congruent to each other? It is given that DF = DG and FE = GE."
+   ]
+  },
+  {
+   "id": "ex1.3",
+   "source_ref": "gegp201.txt lines 330-350",
+   "questions": [
+    "\u0394AIR \u2245 \u0394FLY. Identify the corresponding vertices, sides and angles.",
+    "It is given that OB = OC, and OA = OD. Show that AB is parallel to CD.",
+    "Find \u2220B and \u2220C, if A is the centre of the circle and angle at A is 120."
+   ]
+  }
+ ],
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)",
+ "source_link": "re-linked to new cache"
+}

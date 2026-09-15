@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_01_009",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_01_009",
+   "title": "c10_eco_cbse_01_009",
+   "questions": [
+    {
+     "q": "Define per capita income and state the formula used to calculate it.",
+     "a": "Per capita income = Total National Income / Total Population. A wrong answer (e.g., \"total income of the country\" or \"average income of the rich\") reveals the student confuses aggregate with average, or thinks per capita refers to a specific group rather than the entire population — a fundamental error that makes all subsequent limitations meaningless.",
+     "self_check": true
+    },
+    {
+     "q": "Two countries, X and Y, have identical per capita income of $10,000. In Country X, the richest 10% earn 50% of total income; in Country Y, the richest 10% earn 20%. Explain why per capita income alone cannot distinguish their development levels.",
+     "a": "Per capita income is an *average* that masks distribution. Country X has extreme inequality — most citizens live on far less than $10,000 — while Country Y's income is more evenly spread, so a typical citizen in Y enjoys better access to nutrition, education, and healthcare. A wrong answer (e.g., \"both are equally developed because average is same\") shows the student treats the mean as representative of the typical experience, ignoring skewness — a classic board-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "State A has per capita income ₹1,20,000 and infant mortality rate (IMR) 12; State B has per capita income ₹1,18,000 and IMR 45. Using only these two indicators, argue which state has better development outcomes and why per capita income failed to predict it.",
+     "a": "State A has better development outcomes despite marginally lower per capita income because IMR reflects healthcare access, nutrition, sanitation, and female literacy — non-income dimensions per capita income ignores. Per capita income failed because it measures only monetary flow, not conversion of income into capabilities. A wrong answer choosing State B because \"higher income means better development\" reveals the student equates income with well-being, missing the core limitation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following data for two hypothetical states and identify *three* specific limitations of per capita income illustrated by the data:\n\n| Indicator | State P | State Q |\n|-----------|---------|---------|\n| Per Capita Income (₹) | 1,50,000 | 1,50,000 |\n| Literacy Rate (%) | 95 | 65 |\n| Forest Cover (% of area) | 30 | 10 |\n| Groundwater Depletion (cm/yr) | 2 | 25 |",
+     "a": "1. **Ignores non-income welfare**: Same income but 30% literacy gap shows income doesn't guarantee education. 2. **Ignores environmental sustainability**: State Q depletes groundwater 12× faster and has ⅓ the forest cover — current income comes at future cost. 3. **Ignores inequality within**: Averages hide that State Q's income may be concentrated in water-intensive industries benefiting few. A wrong answer listing only \"inequality\" or \"pollution\" without linking to *specific data columns* shows superficial reading — board exams demand data-linked reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "\"Per capita income is a useless indicator and should be abandoned.\" Evaluate this statement with two arguments for and two against, using the concept of *necessary but not sufficient* condition.",
+     "a": "**For**: (1) It ignores distribution, so a country with high per capita income can have widespread poverty. (2) It omits health, education, environment — core to human development. **Against**: (1) It is *necessary* — without minimum income, public facilities (health, schools) cannot be funded; Kerala's high HDI rests on historic public spending enabled by revenue. (2) It is comparable, timely, and universally available — unlike HDI which has data lags. A wrong answer taking an extreme position (\"completely useless\" or \"perfectly adequate\") fails the \"evaluate\" command — board marks require balanced judgment.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 4-indicator \"Development Dashboard\" for your district that fixes the limitations of per capita income. Justify each indicator in one sentence.",
+     "a": "Example dashboard: (1) **Median household income** — captures typical experience, not skewed average. (2) **Under-5 mortality rate** — reflects nutrition, healthcare, sanitation combined. (3) **Female literacy rate (15+)** — proxy for gender equity, child health, future earnings. (4) **Groundwater level change (m/yr)** — measures environmental sustainability of current livelihoods. A poor answer lists only income-related indicators (e.g., \"GDP, employment, wages\") showing the student hasn't internalized *non-monetary* dimensions — the central lesson of this node.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_02_006",
+   "title": "c12_psy_cbse_02_006",
+   "questions": [
+    {
+     "q": "List Eysenck's three personality dimensions with their high and low pole labels exactly as given in NCERT.",
+     "a": "Correct answer: (1) Extraversion vs. Introversion, (2) Neuroticism vs. Emotional Stability, (3) Psychoticism vs. Sociability. A wrong answer that lists \"Openness\" or \"Conscientiousness\" reveals confusion between Eysenck's PEN model and the Big Five. A wrong answer that swaps poles (e.g., \"Introversion vs. Extraversion\") shows lack of attention to NCERT's exact phrasing — board exams require precise terminology.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Eysenck's Psychoticism dimension is the same as low Agreeableness in the Big Five.\" Explain why this statement is partially correct but incomplete, using NCERT descriptors for both.",
+     "a": "Correct explanation: High Psychoticism (hostile, egocentric, antisocial) overlaps with low Agreeableness (hostile, self-centered), but Psychoticism also includes impulsivity, risk-taking, and creativity which map partly to low Conscientiousness and high Openness. The statement is incomplete because Psychoticism is a broader, biologically-based dimension not fully captured by a single Big Five factor. A wrong answer that says \"they are identical\" misses the nuance that factor analysis splits Psychoticism into A and C — a common JEE/NEET trap.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul scores high on Extraversion and low on Neuroticism in both Eysenck's EPQ and a Big Five inventory. His friend asks: \"Since both models measure E and N, your scores should be perfectly correlated.\" Evaluate this claim using the concept of factor structure and biological vs. lexical origins.",
+     "a": "Correct evaluation: The claim is false. While both models have Extraversion and Neuroticism factors, Eysenck's dimensions are derived from a biological theory (cortical arousal, limbic reactivity) and forced two/three-factor structure, whereas Big Five factors emerge from lexical factor analysis of trait adjectives without a priori biological assumptions. The factor loading patterns differ — e.g., impulsivity loads on Eysenck's Extraversion but on Big Five's low Conscientiousness. A wrong answer that says \"they measure the same thing\" ignores the different theoretical origins and factor rotation methods — a critical distinction for competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the following case using BOTH models: \"Anjali is highly imaginative, enjoys abstract art, questions authority, keeps a messy room, misses appointments, but is warm and cooperative with peers.\" Map each behaviour to the relevant dimension/factor in both models. Identify which model captures her profile more comprehensively and why.",
+     "a": "Correct analysis: Eysenck: High Psychoticism (imaginative, questions authority, impulsive/messy), low Neuroticism (implied calm), Extraversion ambiguous. Big Five: High Openness (imaginative, art), low Conscientiousness (messy, misses appointments), high Agreeableness (warm, cooperative), Extraversion/Neuroticism not specified. Big Five captures the profile more comprehensively because it has separate factors for Openness and Conscientiousness, whereas Eysenck's Psychoticism conflates creativity, impulsivity, and hostility. A wrong answer that forces everything into PEN misses the independence of Openness and Conscientiousness — a key advantage of the Big Five.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Because Eysenck's dimensions are biologically based, they are more scientific and therefore superior to the atheoretical Big Five.\" Use criteria: explanatory power, cross-cultural replicability, predictive validity for life outcomes.",
+     "a": "Correct critique: The statement is flawed. Biological basis ≠ superior science. Big Five's lexical approach yields remarkable cross-cultural replicability (50+ cultures) and predicts health, longevity, job performance, and relationship satisfaction better than PEN. Eysenck's theory has explanatory depth for specific mechanisms (e.g., arousal → extraversion) but fails to capture Agreeableness, Conscientiousness, Openness as independent dimensions. A wrong answer that agrees confuses \"biological reductionism\" with \"scientific validity\" — competitive exams test understanding that multiple levels of analysis (biological, lexical, social-cognitive) are complementary.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel 4-item mini-inventory (two items per dimension) to distinguish between a person high on Eysenck's Psychoticism vs. a person low on Big Five Agreeableness but high on Conscientiousness. Explain the theoretical rationale for each item.",
+     "a": "Good answer example: \nItem 1 (P-high): \"I often act on impulse without thinking of consequences.\" (Psychoticism: impulsivity)\nItem 2 (P-high): \"I enjoy taking risks that others consider dangerous.\" (Psychoticism: risk-taking)\nItem 3 (A-low, C-high): \"I criticize others' ideas bluntly but always meet my deadlines.\" (Low Agreeableness: bluntness; High Conscientiousness: deadline adherence)\nItem 4 (A-low, C-high): \"I prefer to work alone to avoid compromise, and I plan every detail.\" (Low Agreeableness: avoids cooperation; High Conscientiousness: detailed planning)\nRationale: Psychoticism merges impulsivity and hostility; the target profile separates hostility (low A) from impulse control (high C). A poor answer uses items that don't dissociate the constructs (e.g., only hostility items) — revealing failure to grasp factor-level distinctions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

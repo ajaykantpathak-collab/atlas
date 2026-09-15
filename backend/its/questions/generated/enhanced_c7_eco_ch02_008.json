@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch02_008",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch02_008",
+   "title": "c7_eco_ch02_008",
+   "questions": [
+    {
+     "q": "What term describes the market situation when the quantity demanded by consumers is greater than the quantity supplied by producers at a given price?",
+     "a": "The correct answer is a shortage (or excess demand). A student who answers \"surplus\" has confused excess demand with excess supply, showing a misunderstanding of which group (buyers or sellers) dominates that market state.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a market price tend to fall when there is a surplus of goods available?",
+     "a": "The correct answer is that sellers lower their prices to get rid of unsold goods, since having items sit in storage costs money and ties up capital. A student who thinks prices rise during a surplus does not understand basic competition among sellers who want to attract buyers away from rivals.",
+     "self_check": true
+    },
+    {
+     "q": "A local notebook vendor finds that at a price of ₹20 per notebook, consumers demand 100 notebooks, but producers supply only 40 notebooks. What market condition exists, and what will happen to the price?",
+     "a": "The correct answer is a shortage of 60 notebooks (100 demanded minus 40 supplied), which will cause the price to rise. Working steps: 1) Identify quantity demanded (100) and quantity supplied (40). 2) Subtract supply from demand: 100 - 40 = 60. 3) Compare: demand exceeds supply. 4) Conclude that a shortage pushes prices up. A student who calculates a surplus of 60 has subtracted backward (40 - 100) and failed to recognize that a shortage occurs when buyers want more than is available.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following market data for mangoes: At ₹50 per kg, demand is 200 kg and supply is 500 kg. At ₹30 per kg, demand is 400 kg and supply is 400 kg. At ₹10 per kg, demand is 600 kg and supply is 200 kg. Identify the equilibrium price and explain why the other two prices are unstable.",
+     "a": "The equilibrium price is ₹30 per kg because quantity demanded (400 kg) equals quantity supplied (400 kg). At ₹50, there is a surplus of 300 kg forcing sellers to cut prices; at ₹10, there is a shortage of 400 kg driving buyers to bid prices up. A student who selects ₹50 or ₹10 has mistaken a temporary imbalance for a stable market state.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Producers always want the highest possible price, so the market price will continuously rise forever without stopping.\" Is this statement economically valid?",
+     "a": "The statement is invalid. While producers desire high prices, if the price rises too high, consumer demand drops sharply and a surplus emerges, forcing sellers to compete and lower their prices. A student who agrees with the statement ignores the balancing role of consumer demand and market competition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple three-row market schedule (Price, Quantity Demanded, Quantity Supplied) for umbrellas in a rainy month where the equilibrium price is established at ₹200.",
+     "a": "A correct schedule will show three price points (e.g., ₹150, ₹200, ₹250). At ₹200, Demand and Supply must be equal (e.g., both at 150 units). At ₹150, Demand must exceed Supply (shortage). At ₹250, Supply must exceed Demand (surplus). A poor answer shows random numbers where demand and supply never intersect or move in the wrong direction relative to price changes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

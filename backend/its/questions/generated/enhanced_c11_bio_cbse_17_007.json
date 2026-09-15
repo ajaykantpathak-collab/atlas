@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_17_007",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_17_007",
+   "title": "c11_bio_cbse_17_007",
+   "questions": [
+    {
+     "q": "A patient presents with muscle weakness that worsens with repeated activity and improves after rest. Which specific structure at the neuromuscular junction is targeted by autoantibodies in this condition, and what is the immediate functional consequence on the postsynaptic membrane?",
+     "a": "The autoantibodies target nicotinic acetylcholine receptors (nAChRs) on the motor end plate (postsynaptic membrane). This reduces the number of functional receptors available for acetylcholine binding, decreasing the magnitude of end-plate potentials (EPPs). When EPPs fall below the threshold for generating muscle action potentials, neuromuscular transmission fails, causing muscle weakness. A wrong answer (e.g., \"antibodies block acetylcholine release from presynaptic terminal\" or \"antibodies destroy voltage-gated calcium channels\") reveals confusion between myasthenia gravis and Lambert-Eaton myasthenic syndrome, or misunderstanding that the primary defect is postsynaptic receptor loss, not presynaptic release failure.",
+     "self_check": true
+    },
+    {
+     "q": "Why does osteoarthritis primarily affect weight-bearing joints (knees, hips) while rheumatoid arthritis typically involves small joints of hands and feet symmetrically, despite both being classified as \"arthritis\"?",
+     "a": "Osteoarthritis is a degenerative \"wear-and-tear\" disorder where mechanical stress exceeds the repair capacity of articular cartilage; weight-bearing joints experience higher compressive forces, accelerating cartilage breakdown. Rheumatoid arthritis is an autoimmune synovitis where immune complexes and inflammatory cytokines (TNF-α, IL-1, IL-6) target synovial membrane; the symmetrical small-joint distribution reflects systemic immune dysregulation rather than mechanical load. A wrong answer attributing both to \"old age\" or \"inflammation\" fails to distinguish the fundamental etiological difference: mechanical overload vs autoimmune attack, which dictates joint selection pattern, histopathology, and treatment strategy.",
+     "self_check": true
+    },
+    {
+     "q": "A 65-year-old postmenopausal woman sustains a Colles' fracture (distal radius) after a minor fall. Blood tests show normal serum calcium, phosphate, and alkaline phosphatase. Explain the pathophysiological basis of her fracture risk despite normal mineral homeostasis, incorporating the role of estrogen deficiency in bone remodeling balance.",
+     "a": "Estrogen deficiency increases osteoclast lifespan and activity while reducing osteoblast function, uncoupling bone remodeling: resorption outpaces formation. This reduces bone mass (quantity) and disrupts microarchitecture (quality - trabecular thinning, cortical porosity) without altering serum mineral levels because calcium homeostasis is maintained by PTH/vitamin D axis at the expense of skeletal integrity. Normal serum calcium/phosphate/ALP reflects intact mineral metabolism, not bone strength. A wrong answer citing \"calcium deficiency\" or \"vitamin D deficiency\" confuses osteoporosis (structural deterioration with normal minerals) with osteomalacia (mineralization defect with low minerals).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of inflammatory mediators in rheumatoid arthritis versus osteoarthritis. Specifically, explain why anti-TNF therapy is effective in rheumatoid arthritis but not in osteoarthritis, linking to the underlying cellular pathology.",
+     "a": "In rheumatoid arthritis, TNF-α is a master cytokine driving synovial hyperplasia (pannus formation), osteoclast activation via RANKL, and cartilage destruction by MMPs - it sustains the autoimmune inflammatory loop. Blocking TNF-α interrupts this cascade. In osteoarthritis, inflammation is secondary to mechanical cartilage damage; TNF-α levels are lower and not the primary driver - catabolism is driven by mechanical stress-induced chondrocyte senescence and MMP activation. Anti-TNF doesn't address the biomechanical overload. A wrong answer claiming \"both are inflammatory so both respond\" ignores that RA is immune-mediated inflammation while OA is mechanically-driven degeneration with reactive inflammation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Myasthenia gravis and tetany both cause muscle weakness, so they can be distinguished only by electromyography (EMG).\" Provide a biological argument for or against, citing specific pathophysiological differences.",
+     "a": "The statement is false. They can be distinguished clinically and biochemically without EMG. Myasthenia gravis: autoimmune anti-AChR antibodies → postsynaptic failure → fatigable weakness (worsens with use), normal serum Ca²⁺, positive edrophonium (Tensilon) test. Tetany: hypocalcemia → increased neuronal/muscle membrane excitability (lowered threshold) → sustained spasms (carpopedal spasm, laryngospasm), positive Chvostek's/Trousseau's signs, low serum ionized Ca²⁺. EMG shows decremental response in MG vs normal/high-frequency discharges in tetany, but the fundamental distinction is synaptic transmission failure vs membrane hyperexcitability from low Ca²⁺. A wrong answer accepting the statement reveals inability to link ion physiology (Ca²⁺ role in membrane stability) and synaptic physiology (AChR function) to clinical phenotypes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple bedside clinical test protocol to differentiate between osteoarthritis and rheumatoid arthritis of the knee in a 55-year-old patient, using only history, physical examination, and basic lab markers (ESR, CRP, RF, anti-CCP). Justify each step biologically.",
+     "a": "Step 1: History - morning stiffness duration: >1 hour suggests RA (inflammatory synovitis), <30 minutes suggests OA (mechanical gel phenomenon). Step 2: Joint examination - RA: warm, boggy swelling (synovial effusion + hypertrophy), symmetric; OA: bony hard swelling (osteophytes), cool, asymmetric. Step 3: Lab - ESR/CRP elevated in RA (systemic inflammation), normal in OA; RF/anti-CCP positive in ~70-80% RA, negative in OA. Step 4: Pattern - RA affects MCP/PIP joints; OA affects DIP (Heberden's), PIP (Bouchard's), knee, hip. Biological justification: each step tests a different pathophysiological pillar - inflammatory vs degenerative, synovial vs cartilage/bone, systemic vs local, immune-mediated vs mechanical. A poor protocol relying only on \"pain severity\" or \"age\" fails to exploit the distinct biological mechanisms.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

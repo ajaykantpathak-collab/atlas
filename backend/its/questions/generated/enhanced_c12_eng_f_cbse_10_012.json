@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_f_cbse_10_012",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_f_cbse_10_012",
+   "title": "c12_eng_f_cbse_10_012",
+   "questions": [
+    {
+     "q": "What is the primary difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal question asks for information explicitly stated in the text (e.g., \"What number does the poet count to?\"), while an inferential question requires the reader to deduce meaning not directly written (e.g., \"Why does the poet choose the number twelve?\"). A wrong answer that says \"inferential questions are just harder\" reveals the student confuses difficulty with cognitive demand — inferential questions require evidence-based reasoning, not guesswork.",
+     "self_check": true
+    },
+    {
+     "q": "In the poem, the line \"Fishermen in the cold sea would not harm whales\" appears. A student writes: \"This means fishermen are kind to whales.\" Is this a literal or inferential response? Explain.",
+     "a": "This is an inferential response because the text does not state that fishermen are kind; it only describes a hypothetical pause (\"would not harm\"). The student infers a character trait from a conditional action. A wrong answer labeling it \"literal\" shows the student mistakes a hypothetical scenario for a factual statement, missing the subjunctive mood (\"would not\") that signals imagination, not reality.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the literal/inferential distinction to this question: \"Which two groups of people are mentioned in the third stanza who prepare wars?\" Identify the question type and answer it using the poem.",
+     "a": "This is a literal question — it asks for directly named groups. Step 1: Locate stanza 3 (\"Those who prepare green wars...\"). Step 2: Extract the explicit phrases: \"Those who prepare green wars, / wars with gas, wars with fire\". Step 3: The groups are implied by the types of wars: makers of \"green wars\" (environmental/chemical), \"wars with gas\" (chemical warfare), \"wars with fire\" (conventional/incendiary). Answer: The poem does not name specific groups (e.g., governments, scientists) but lists types of warfare. A wrong answer inventing \"politicians and soldiers\" shows the student adds outside knowledge instead of sticking to the text.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the relationship between the poem's structure (shifting line lengths, stanza breaks) and its central idea of \"a huge silence\". How does the form reinforce the meaning?",
+     "a": "The poem moves from short, imperative lines (\"Now we will count to twelve\") to longer, flowing lines in the middle stanzas (describing fishermen, salt-gatherer, war-makers), then returns to short lines at the end (\"Now I'll count up to twelve\"). This contraction-expansion-contraction mirrors the arc of stopping → reflecting → restarting. The varying line lengths create a visual and rhythmic \"silence\" — the white space around short lines forces the reader to pause. A wrong answer that only says \"stanzas are different lengths\" misses the functional link between form and theme.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: \"The poet wants total inactivity and death because he says 'I want no truck with death'.\" Defend or refute using textual evidence.",
+     "a": "Refute. The phrase \"I want no truck with death\" means the poet refuses to associate with death — the opposite of advocating it. Earlier, he explicitly says: \"What I want should not be confused / with total inactivity. / Life is what it is about\". The \"huge silence\" interrupts \"sadness of never understanding ourselves\", not life itself. A wrong answer agreeing with the claim reveals the student misreads \"no truck with\" as \"wants\" and ignores the direct clarification in the next lines.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own inferential question about the symbol of the Earth in the final stanza (\"Perhaps the Earth can teach us / as when everything seems dead / and later proves to be alive.\") and provide a model answer with evidence.",
+     "a": "Question: \"What does the Earth's cycle of apparent death and revival suggest about the poet's view of silence?\" Model answer: The Earth symbolizes that stillness is not emptiness but a regenerative pause — like winter leading to spring. Evidence: \"when everything seems dead / and later proves to be alive\" parallels the poet's proposed moment of silence that can interrupt sadness and bring new understanding. A poor answer would say \"Earth teaches us to be quiet\" without linking the seasonal cycle to the poem's argument about introspection.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

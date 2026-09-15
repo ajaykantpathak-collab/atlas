@@ -1,0 +1,572 @@
+{
+ "class": "11",
+ "subject": "political_science",
+ "chapter": 10,
+ "chapter_title": "The Philosophy of the Constitution",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\keps210.txt",
+ "concepts": [
+  {
+   "id": "c11ps.10.1",
+   "title": "Underlying Values of the Constitution",
+   "section": "Introduction: The Philosophy of the Constitution",
+   "definition": "The underlying values of the Constitution are the principles of justice, liberty, equality, and fraternity enshrined in the Preamble, which guide the interpretation and working of the entire constitutional order.",
+   "formula": "",
+   "key_idea": "The Constitution is not just a legal document but a moral and philosophical one, expressing the values and aspirations of the Indian people through its Preamble and provisions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the underlying values of the Indian Constitution?",
+    "How does the Preamble reflect the philosophy of the Constitution?",
+    "Explain the significance of justice, liberty, equality, and fraternity.",
+    "Why is the Constitution considered a philosophical document?",
+    "How do the values in the Preamble guide the working of the Constitution?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the core values in the Preamble",
+     "explain": "The Preamble declares the values of justice (social, economic, political), liberty (of thought, expression, belief, faith, worship), equality (of status and opportunity), and fraternity (dignity of the individual and unity of the nation)."
+    },
+    {
+     "step": 2,
+     "action": "Explain how these values shape the Constitution",
+     "explain": "These values are reflected in Fundamental Rights, Directive Principles, the federal structure, and the democratic form of government, guiding their interpretation and application."
+    },
+    {
+     "step": 3,
+     "action": "Assess why the Constitution is philosophical",
+     "explain": "Because it embodies a vision of a just society and a moral framework for governance, the Constitution is both a legal and a philosophical document."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does the Preamble reflect the philosophy of the Constitution?",
+     "solution": "Step 1: The Preamble states the values of justice, liberty, equality, and fraternity. Step 2: These values guide the entire constitutional framework. Step 3: Hence the Preamble is called the philosophical key to the Constitution.",
+     "answer": "By declaring the values of justice, liberty, equality, and fraternity that guide the entire Constitution"
+    },
+    {
+     "question": "Why is the Constitution considered a philosophical document and not just a legal one?",
+     "solution": "Step 1: A legal document sets out rules and procedures. Step 2: The Constitution also expresses a vision of a just society and moral principles. Step 3: Therefore it is both legal and philosophical.",
+     "answer": "Because it embodies a moral vision of a just society along with legal rules"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the underlying values of the Indian Constitution as expressed in the Preamble.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State the four core values mentioned in the Preamble.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.10.2",
+   "title": "Constitutional Morality",
+   "section": "Constitutional Morality",
+   "definition": "Constitutional morality is the adherence to the norms and values of the constitution in public life, requiring that all institutions and individuals respect constitutional principles even when they conflict with personal or sectional interests.",
+   "formula": "",
+   "key_idea": "Constitutional morality means that the constitution is not merely a set of rules but a moral order that must guide the behaviour of citizens, parties, and institutions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is constitutional morality?",
+    "How does constitutional morality differ from ordinary morality?",
+    "Why is constitutional morality important for democracy?",
+    "How can constitutional morality be promoted?",
+    "Explain the relationship between constitutional morality and fundamental rights."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define constitutional morality",
+     "explain": "Constitutional morality is the commitment to abide by the values and procedures of the constitution, placing constitutional principles above personal or group interests."
+    },
+    {
+     "step": 2,
+     "action": "Distinguish it from ordinary morality",
+     "explain": "Ordinary morality is based on personal ethics and customs; constitutional morality is based on the principles of the constitution such as equality, freedom, and respect for institutions."
+    },
+    {
+     "step": 3,
+     "action": "Explain its importance for democracy",
+     "explain": "Constitutional morality ensures that majority rule does not become tyrannical, that institutions function within limits, and that rights of minorities are protected."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does constitutional morality differ from ordinary morality?",
+     "solution": "Step 1: Ordinary morality is based on personal ethics and social customs. Step 2: Constitutional morality is based on the principles of the constitution like equality and freedom. Step 3: It requires placing constitutional values above personal interests.",
+     "answer": "Constitutional morality is based on constitutional principles, while ordinary morality rests on personal ethics and custom"
+    },
+    {
+     "question": "Why is constitutional morality important for the survival of democracy?",
+     "solution": "Step 1: Democracy requires respect for rules and institutions. Step 2: Constitutional morality ensures that majorities do not oppress minorities. Step 3: Without it, democracy can degenerate into majoritarianism.",
+     "answer": "Because it restrains majoritarianism and ensures respect for institutions and minority rights"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the concept of constitutional morality and its importance in a democracy.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State two ways in which constitutional morality can be promoted.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.10.3",
+   "title": "Separation of Powers",
+   "section": "Separation of Powers",
+   "definition": "Separation of powers is the principle that the legislative, executive, and judicial functions of government should be kept distinct and exercised by different organs, with checks and balances among them to prevent concentration of power.",
+   "formula": "",
+   "key_idea": "The Indian Constitution does not follow a rigid separation of powers but provides for a functional separation with checks and balances among the legislature, executive, and judiciary.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the principle of separation of powers?",
+    "How is separation of powers provided for in the Indian Constitution?",
+    "Why is separation of powers important?",
+    "How does the Indian system differ from the American system of separation of powers?",
+    "Explain the system of checks and balances among the three organs of government."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the principle of separation of powers",
+     "explain": "The principle, associated with Montesquieu, holds that legislative, executive, and judicial powers should be vested in separate organs to prevent tyranny."
+    },
+    {
+     "step": 2,
+     "action": "Explain the Indian position",
+     "explain": "India follows a functional rather than rigid separation: Parliament legislates, the executive implements laws, and the judiciary interprets them, but each organ checks the others."
+    },
+    {
+     "step": 3,
+     "action": "Describe the checks and balances",
+     "explain": "The judiciary can review laws and executive actions, Parliament can impeach judges and hold the executive accountable, and the executive can influence legislation through its majority in Parliament."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does the Indian Constitution provide for separation of powers?",
+     "solution": "Step 1: The Constitution assigns different functions to different organs. Step 2: Parliament makes laws, the executive implements them, and the judiciary interprets them. Step 3: Checks and balances operate among all three.",
+     "answer": "Through a functional separation of legislative, executive, and judicial functions with mutual checks and balances"
+    },
+    {
+     "question": "How does the Indian system of separation of powers differ from the American system?",
+     "solution": "Step 1: The American system follows a rigid separation with separate election of the executive. Step 2: In India, the executive is part of Parliament and responsible to it. Step 3: Hence India has a functional, not rigid, separation.",
+     "answer": "India follows a functional separation where the executive is part of the legislature, while the USA follows a rigid separation of the three organs"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the principle of separation of powers and how it operates in India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Describe any two checks and balances among the three organs of government in India.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.10.4",
+   "title": "Secularism",
+   "section": "Secularism",
+   "definition": "Secularism in the Indian context means that the state treats all religions equally, does not have an official religion, and maintains a principled distance from religion while protecting the religious freedom of all citizens.",
+   "formula": "",
+   "key_idea": "Indian secularism is distinct from Western secularism: it does not strictly separate religion and state but engages with all religions equally to protect religious freedom and reform.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is secularism in the Indian context?",
+    "How does Indian secularism differ from Western secularism?",
+    "How does the Constitution ensure secularism?",
+    "Why is secularism important for a multi-religious country like India?",
+    "Explain the relationship between the state and religion under the Indian Constitution."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define Indian secularism",
+     "explain": "Indian secularism means the state has no official religion, treats all religions equally, and protects the freedom of religion of all citizens under Articles 25 to 28."
+    },
+    {
+     "step": 2,
+     "action": "Distinguish it from Western secularism",
+     "explain": "Western secularism (as in France or the USA) strictly separates religion and state; Indian secularism allows the state to engage with religion for reform and protection of all faiths equally."
+    },
+    {
+     "step": 3,
+     "action": "Explain the constitutional provisions",
+     "explain": "Articles 25 to 28 guarantee freedom of religion, the Preamble declares India secular, and the state can regulate or reform religious practices to ensure equality."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does Indian secularism differ from Western secularism?",
+     "solution": "Step 1: Western secularism strictly separates state and religion. Step 2: Indian secularism treats all religions equally and allows state engagement for reform. Step 3: Hence Indian secularism is based on equal respect for all religions.",
+     "answer": "Indian secularism engages with all religions equally for reform, while Western secularism strictly separates state and religion"
+    },
+    {
+     "question": "How does the Constitution ensure secularism in India?",
+     "solution": "Step 1: The Preamble declares India a secular republic. Step 2: Articles 25 to 28 guarantee freedom of religion to all. Step 3: The state has no official religion and treats all faiths equally.",
+     "answer": "Through the Preamble, Articles 25-28, and the principle that the state has no official religion"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the concept of secularism in the Indian context and how it differs from Western secularism.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Name the constitutional articles that guarantee freedom of religion in India.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.10.5",
+   "title": "Fundamental Rights and Duties",
+   "section": "Rights and Duties",
+   "definition": "Fundamental Rights are basic human rights guaranteed by the Constitution under Part III (Articles 12 to 35) that are enforceable by courts, while Fundamental Duties are obligations of citizens under Part IVA (Article 51A) that promote civic responsibility.",
+   "formula": "",
+   "key_idea": "The Constitution balances rights with duties: Fundamental Rights protect individual liberty and equality, while Fundamental Duties remind citizens of their obligations to the nation and society.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are Fundamental Rights and why are they important?",
+    "Explain the relationship between Fundamental Rights and Duties.",
+    "How many Fundamental Duties are listed in the Constitution?",
+    "Are Fundamental Duties legally enforceable? Explain.",
+    "How do Fundamental Rights contribute to the philosophy of the Constitution?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain Fundamental Rights",
+     "explain": "Fundamental Rights under Part III include the right to equality, freedom, against exploitation, freedom of religion, cultural and educational rights, and constitutional remedies, enforceable by courts."
+    },
+    {
+     "step": 2,
+     "action": "Explain Fundamental Duties",
+     "explain": "Fundamental Duties under Article 51A, added by the 42nd Amendment, list eleven duties of citizens such as respecting the Constitution, promoting harmony, and protecting the environment."
+    },
+    {
+     "step": 3,
+     "action": "Explain the relationship between rights and duties",
+     "explain": "Rights and duties are complementary: rights protect individual freedom while duties ensure that citizens contribute to the community and the nation, balancing liberty with responsibility."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How many Fundamental Duties are listed in Article 51A of the Constitution?",
+     "solution": "Step 1: Article 51A was added by the 42nd Amendment in 1976. Step 2: Originally ten duties were listed; the 86th Amendment added an eleventh duty regarding education. Step 3: There are now eleven Fundamental Duties.",
+     "answer": "Eleven Fundamental Duties"
+    },
+    {
+     "question": "Are Fundamental Duties legally enforceable in India?",
+     "solution": "Step 1: Fundamental Duties are listed in Article 51A. Step 2: They are not directly enforceable by courts like Fundamental Rights. Step 3: However, they guide laws and citizen behaviour and can be enforced through legislation.",
+     "answer": "No, Fundamental Duties are not directly enforceable by courts but guide laws and civic conduct"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the relationship between Fundamental Rights and Fundamental Duties in the Indian Constitution.",
+     "type": "long_answer"
+    },
+    {
+     "question": "List any four Fundamental Duties mentioned in Article 51A.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.10.6",
+   "title": "Directive Principles of State Policy",
+   "section": "Directive Principles",
+   "definition": "Directive Principles of State Policy, contained in Part IV (Articles 36 to 51), are guidelines for the state in making laws and policies, aimed at establishing social and economic justice, and are not enforceable by courts.",
+   "formula": "",
+   "key_idea": "Directive Principles embody the vision of a welfare state, guiding the government to reduce inequalities, promote welfare, and secure a just social order, even though they are not legally enforceable.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are Directive Principles of State Policy?",
+    "Why are Directive Principles not enforceable by courts?",
+    "How do Directive Principles differ from Fundamental Rights?",
+    "Explain the importance of Directive Principles for governance.",
+    "How have Directive Principles influenced legislation in India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define Directive Principles",
+     "explain": "Directive Principles under Part IV are instructions to the state to frame policies that promote social welfare, economic justice, and a just social order."
+    },
+    {
+     "step": 2,
+     "action": "Explain why they are not enforceable",
+     "explain": "They are not enforceable by courts because they are meant to guide governance rather than create immediate legal obligations, allowing the state flexibility in implementation."
+    },
+    {
+     "step": 3,
+     "action": "Distinguish them from Fundamental Rights",
+     "explain": "Fundamental Rights are enforceable and protect individual liberty; Directive Principles are not enforceable and aim at collective welfare. Together they form the conscience of the Constitution."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How do Directive Principles differ from Fundamental Rights?",
+     "solution": "Step 1: Fundamental Rights are enforceable by courts and protect individuals. Step 2: Directive Principles are not enforceable and guide the state. Step 3: Rights emphasise liberty while Principles emphasise welfare.",
+     "answer": "Fundamental Rights are enforceable and protect individuals; Directive Principles are not enforceable and guide state policy for welfare"
+    },
+    {
+     "question": "Why are Directive Principles not made enforceable by courts?",
+     "solution": "Step 1: Their implementation depends on resources and capacity. Step 2: Making them enforceable would force immediate action regardless of feasibility. Step 3: Hence they are left as guidelines for governance.",
+     "answer": "Because their implementation depends on resources and circumstances, so they are guidelines rather than enforceable obligations"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the nature and importance of Directive Principles of State Policy.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State two differences between Fundamental Rights and Directive Principles.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.10.7",
+   "title": "Unity and Integrity of the Nation",
+   "section": "Unity and Integrity of the Nation",
+   "definition": "The unity and integrity of the nation is a constitutional value that seeks to preserve India's territorial unity and the emotional integration of its diverse peoples into a single national community.",
+   "formula": "",
+   "key_idea": "The Constitution promotes unity and integrity through a federal structure with a strong centre, single citizenship, provisions for emergency, and the goal of fraternity in the Preamble.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How does the Constitution promote the unity and integrity of the nation?",
+    "What is meant by unity and integrity of the nation?",
+    "How does federalism contribute to national unity in India?",
+    "Explain the role of the Preamble in promoting national integration.",
+    "What constitutional provisions help maintain the unity of India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define unity and integrity of the nation",
+     "explain": "Unity and integrity mean preserving India's territorial unity and fostering emotional integration among its diverse peoples into a single national community."
+    },
+    {
+     "step": 2,
+     "action": "Identify constitutional provisions promoting unity",
+     "explain": "Provisions include a federal structure with a strong centre, single citizenship, emergency powers, a uniform judicial system, and fundamental duties promoting harmony and national integration."
+    },
+    {
+     "step": 3,
+     "action": "Explain the role of the Preamble",
+     "explain": "The Preamble speaks of fraternity assuring the dignity of the individual and the unity and integrity of the nation, making national integration a constitutional goal."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does single citizenship promote the unity of India?",
+     "solution": "Step 1: India provides a single citizenship for all citizens. Step 2: This prevents division based on State of residence. Step 3: It fosters a common national identity and unity.",
+     "answer": "By giving all citizens a common national identity regardless of their State of residence"
+    },
+    {
+     "question": "How does the Preamble promote national integration?",
+     "solution": "Step 1: The Preamble speaks of fraternity among citizens. Step 2: It assures the dignity of the individual and the unity and integrity of the nation. Step 3: This makes integration a constitutional goal.",
+     "answer": "By declaring fraternity and the unity and integrity of the nation as constitutional goals"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how the Indian Constitution promotes the unity and integrity of the nation.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Name any two constitutional provisions that help maintain national unity.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.10.8",
+   "title": "Democratic Values",
+   "section": "Democratic Values",
+   "definition": "Democratic values are the principles of popular sovereignty, political equality, freedom, accountability, and rule of law that underlie the democratic form of government established by the Constitution.",
+   "formula": "",
+   "key_idea": "The Indian Constitution is founded on democratic values, establishing a representative democracy based on universal adult franchise, free elections, and accountable government.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the democratic values embodied in the Constitution?",
+    "How does the Constitution ensure democracy in India?",
+    "Explain the significance of universal adult franchise.",
+    "How are democratic values reflected in the Constitution?",
+    "Why is political equality important for democracy?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the democratic values in the Constitution",
+     "explain": "Democratic values include popular sovereignty, political equality through universal adult franchise, freedom of expression, accountability of government, and the rule of law."
+    },
+    {
+     "step": 2,
+     "action": "Explain how the Constitution ensures democracy",
+     "explain": "The Constitution provides for elected legislatures, responsible government, an independent election commission, fundamental rights supporting free speech and association, and periodic elections."
+    },
+    {
+     "step": 3,
+     "action": "Assess the significance of universal adult franchise",
+     "explain": "Universal adult franchise grants every adult citizen the right to vote regardless of wealth, caste, religion, or gender, ensuring political equality as the foundation of democracy."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does universal adult franchise reflect democratic values?",
+     "solution": "Step 1: Universal adult franchise gives every adult citizen the right to vote. Step 2: It does not discriminate on grounds of caste, religion, gender, or wealth. Step 3: This ensures political equality, a core democratic value.",
+     "answer": "By giving every adult citizen an equal vote, ensuring political equality"
+    },
+    {
+     "question": "How does the Constitution ensure accountability of the government?",
+     "solution": "Step 1: The Constitution provides for a responsible executive answerable to Parliament. Step 2: It allows no-confidence motions and questions in the legislature. Step 3: This ensures the government remains accountable to the people.",
+     "answer": "Through a responsible executive answerable to Parliament and periodic elections"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the democratic values embodied in the Indian Constitution.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State two ways in which the Constitution ensures democracy in India.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.10.9",
+   "title": "Social Justice",
+   "section": "Social Justice",
+   "definition": "Social justice is the principle that the state should reduce inequalities of income, status, and opportunity, and ensure a fair distribution of resources and protection of the disadvantaged sections of society.",
+   "formula": "",
+   "key_idea": "The Indian Constitution commits the state to social justice through Fundamental Rights, Directive Principles, reservations, and provisions for the welfare of weaker sections.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is social justice and how does the Constitution promote it?",
+    "How do Directive Principles contribute to social justice?",
+    "Explain the role of reservations in achieving social justice.",
+    "How does the Constitution protect the interests of weaker sections?",
+    "Why is social justice a constitutional value?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define social justice",
+     "explain": "Social justice means reducing inequalities of income, status, and opportunity and ensuring a fair distribution of resources and protection of the disadvantaged."
+    },
+    {
+     "step": 2,
+     "action": "Identify constitutional provisions for social justice",
+     "explain": "Provisions include the right to equality, abolition of untouchability, Directive Principles on equitable distribution and living wages, and reservations for SCs, STs, and OBCs in education and employment."
+    },
+    {
+     "step": 3,
+     "action": "Assess the role of reservations",
+     "explain": "Reservations provide representation and opportunity to historically disadvantaged groups, helping to overcome social and educational backwardness and move towards equality."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How do Directive Principles contribute to social justice?",
+     "solution": "Step 1: Directive Principles guide the state to reduce inequalities. Step 2: They call for equitable distribution of resources and a living wage for workers. Step 3: This promotes social and economic justice.",
+     "answer": "By guiding the state to reduce inequalities and ensure equitable distribution and fair wages"
+    },
+    {
+     "question": "How does the Constitution protect the interests of weaker sections?",
+     "solution": "Step 1: The Constitution abolishes untouchability under Article 17. Step 2: It allows reservations for SCs, STs, and OBCs under Articles 15(4) and 16(4). Step 3: These provisions protect and empower weaker sections.",
+     "answer": "Through abolition of untouchability and reservations in education and employment for disadvantaged groups"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the concept of social justice and how the Indian Constitution promotes it.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Name any two constitutional provisions aimed at achieving social justice.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.10.10",
+   "title": "Constitutional Identity",
+   "section": "Conclusion: Constitutional Identity",
+   "definition": "Constitutional identity is the distinctive character of the Constitution expressed through its basic structure, values, and institutions, which gives the nation its unique political and moral identity.",
+   "formula": "",
+   "key_idea": "The Indian Constitution has a unique identity shaped by its commitment to democracy, secularism, social justice, federalism, and the protection of fundamental rights, distinguishing it from other constitutions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is meant by constitutional identity?",
+    "How is the identity of the Indian Constitution distinct?",
+    "What role does the basic structure doctrine play in preserving constitutional identity?",
+    "How do the values in the Preamble contribute to constitutional identity?",
+    "Why is it important to preserve the constitutional identity?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define constitutional identity",
+     "explain": "Constitutional identity is the distinctive character of a constitution, expressed through its basic structure, core values, and institutions, which defines the nation's political and moral self."
+    },
+    {
+     "step": 2,
+     "action": "Identify the features of India's constitutional identity",
+     "explain": "India's constitutional identity is shaped by democracy, secularism, social justice, federalism, fundamental rights, judicial review, and the balance of unity with diversity."
+    },
+    {
+     "step": 3,
+     "action": "Explain how this identity is preserved",
+     "explain": "The basic structure doctrine preserves constitutional identity by preventing any amendment from destroying the core features, while interpretation and amendment allow it to evolve within its identity."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How is the constitutional identity of India distinct from that of other countries?",
+     "solution": "Step 1: India's Constitution combines democracy, secularism, and social justice. Step 2: It balances federalism with a strong centre and unity with diversity. Step 3: This blend gives it a unique constitutional identity.",
+     "answer": "Through a unique blend of democracy, secularism, social justice, federalism, and unity in diversity"
+    },
+    {
+     "question": "How does the basic structure doctrine preserve constitutional identity?",
+     "solution": "Step 1: The doctrine protects the core features of the Constitution. Step 2: It prevents amendments from destroying these features. Step 3: This preserves the Constitution's identity over time.",
+     "answer": "By preventing amendments from altering or destroying the core features that define the Constitution's identity"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the concept of constitutional identity and how it is preserved in India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State any three features that define the constitutional identity of India.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

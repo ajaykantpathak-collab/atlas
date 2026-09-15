@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_12_010",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_12_010",
+   "title": "c11_biotech_cbse_12_010",
+   "questions": [
+    {
+     "q": "What is the structural difference between a deoxynucleotide triphosphate (dNTP) and a dideoxynucleotide triphosphate (ddNTP) that makes ddNTP a chain terminator in Sanger sequencing?",
+     "a": "A dNTP has a hydroxyl (-OH) group at the 3' carbon of the deoxyribose sugar, while a ddNTP has a hydrogen (-H) at the 3' position instead. DNA polymerase requires the 3'-OH to form a phosphodiester bond with the incoming nucleotide's 5'-phosphate. Without the 3'-OH, no further nucleotide can be added, terminating chain elongation. A wrong answer (e.g., \"ddNTP lacks a phosphate group\" or \"ddNTP has a different base\") reveals confusion between the sugar moiety modification and base/phosphate structure.",
+     "self_check": true
+    },
+    {
+     "q": "In manual Sanger sequencing, the reaction mixture is split into four tubes (A, T, G, C), each spiked with a different ddNTP. After electrophoresis on a polyacrylamide gel, the autoradiograph shows bands in all four lanes. A student claims: \"The band in the 'A' tube at position 50 means the 50th nucleotide from the primer is an A.\" Is this statement correct? Explain why or why not.",
+     "a": "The statement is correct in principle but imprecise in wording. The band in the 'A' tube at a position corresponding to 50 nucleotides from the primer indicates that a ddATP was incorporated opposite a T in the template strand at that position, meaning the template has a T at position 50, so the newly synthesized strand (which is read) has an A at position 50. The sequence is read from the bottom (shortest fragments) to top (longest fragments) of the gel. A wrong answer (\"No, it means the template has A\") reveals confusion between template strand and synthesized strand, and misunderstanding that the gel separates by fragment length from the primer.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher performs automated Sanger sequencing using fluorescently labelled ddNTPs (ddATP-Rhodamine Green, ddTTP-Rhodamine Red, ddGTP-TAMRA, ddCTP-Rhodamine Blue). The chromatogram shows a peak pattern: Green, Red, Blue, Green, Black. What is the DNA sequence of the newly synthesized strand (5'→3')? If the template strand is 3'-TACGGA-5', does the chromatogram match? Show your reasoning.",
+     "a": "The chromatogram peaks correspond to: Green=ddATP=A, Red=ddTTP=T, Blue=ddCTP=C, Green=ddATP=A, Black=ddGTP=G. Sequence = ATCAG (5'→3'). Template 3'-TACGGA-5' would produce synthesized strand 5'-ATGCCT-3'. The chromatogram ATCAG does NOT match (differs at positions 3, 4, 5). This question tests: (1) mapping dye colours to bases, (2) reading chromatogram 5'→3', (3) complementary base pairing. A wrong sequence reveals inability to translate colour→base or confusion about strand directionality.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Sanger sequencing and Illumina NGS on the following parameters: (a) sequencing principle, (b) throughput (bases per run), (c) read length, (d) cost per base, (e) suitability for whole genome sequencing vs. single gene validation. Create a comparison table and explain WHY Illumina achieves higher throughput despite shorter reads.",
+     "a": "| Parameter | Sanger | Illumina NGS |\n|-----------|--------|--------------|\n| Principle | Chain termination (ddNTPs) | Sequencing by synthesis (reversible terminators) |\n| Throughput | ~50-100 kb/run | ~600 Gb - 6 Tb/run |\n| Read length | 800-1000 bp | 50-300 bp (paired-end) |\n| Cost per base | ~$500/Mb | ~$0.01/Mb |\n| Best for | Single gene, validation | Whole genome, exome, RNA-seq |\n\nIllumina achieves massive throughput by parallelizing millions of clusters on a flow cell, each cluster undergoing simultaneous sequencing-by-synthesis. Sanger is limited by capillary electrophoresis throughput (96-384 capillaries). A wrong answer focusing only on \"Illumina is newer\" without explaining the massively parallel cluster architecture reveals superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A diagnostic lab needs to sequence the BRCA1 gene (coding sequence ~5.5 kb) in 100 patients to screen for pathogenic variants. The lab has access to both Sanger sequencing and Illumina MiSeq. Evaluate which method is more appropriate considering: (a) sensitivity for heterozygous variants, (b) cost for 100 samples, (c) turnaround time, (d) data analysis complexity. Justify your recommendation.",
+     "a": "For targeted BRCA1 screening in 100 samples, **Sanger sequencing is more appropriate** despite lower throughput. Reasons: (a) Sanger has ~99% sensitivity for heterozygous variants in clean PCR products; Illumina requires deeper coverage (~500x) to reliably call heterozygotes in amplicon data. (b) Cost: Sanger ~₹500-800 per sample for 5.5 kb = ₹50,000-80,000 total. Illumina MiSeq run (~₹50,000) plus library prep (~₹2,000/sample) = ₹250,000+ for 100 samples. (c) Turnaround: Sanger 2-3 days; Illumina 3-5 days including library prep. (d) Analysis: Sanger chromatograms are visually inspected; Illumina requires bioinformatics pipeline (alignment, variant calling, filtering). A recommendation for Illumina without addressing cost/analysis burden for small target reveals inability to match technology to scale.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical NGS platform that combines the long read length of Sanger (1000 bp) with the parallelism of Illumina (millions of reads). Describe: (a) the physical substrate, (b) the sequencing chemistry, (c) how you would detect incorporation, (d) one major technical challenge you anticipate. Your design must be biochemically plausible.",
+     "a": "Example design: (a) Substrate: High-density array of zero-mode waveguides (ZMWs) - nanophotonic holes in a metal film on silicon dioxide, each observing a single DNA polymerase. (b) Chemistry: Phospholinked fluorescent nucleotides (like PacBio) where the dye is on the terminal phosphate, released upon incorporation - enabling natural DNA synthesis with 1000+ bp reads. (c) Detection: Confocal microscopy excites only the bottom 20-30 nm of each ZMW; fluorescence pulse detected in real-time as each base incorporates. (d) Challenge: High enzyme processivity required - polymerase must stay active for >30 minutes per template; photobleaching of dyes during long reads; computational burden of high error rate (~10-15%) requiring circular consensus sequencing. A poor answer proposes \"just make Illumina flow cells bigger\" without addressing the fundamental trade-off between read length and cluster density/phasing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

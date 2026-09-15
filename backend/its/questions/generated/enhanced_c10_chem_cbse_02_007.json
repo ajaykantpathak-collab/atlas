@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_02_007",
+   "title": "c10_chem_cbse_02_007",
+   "questions": [
+    {
+     "q": "Write the balanced chemical equation for the reaction between dilute sulphuric acid and copper(II) oxide. Identify the salt formed.",
+     "a": "H₂SO₄(aq) + CuO(s) → CuSO₄(aq) + H₂O(l); salt formed is copper(II) sulphate. A wrong answer such as writing Cu₂SO₄ or forgetting to balance the equation reveals the student does not apply valency cross-method correctly or treats the oxide as a metal rather than a basic oxide.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why carbon dioxide reacts with sodium hydroxide solution but not with hydrochloric acid, even though both are acids/bases.",
+     "a": "CO₂ is an acidic oxide; it reacts with bases (NaOH) in a neutralisation reaction to form salt (Na₂CO₃/NaHCO₃) and water. It does not react with HCl because both are acidic in nature — no neutralisation occurs. A wrong answer claiming CO₂ reacts with HCl or calling CO₂ a basic oxide shows confusion about the acidic/basic nature of non-metal oxides.",
+     "self_check": true
+    },
+    {
+     "q": "Balance the following equation and name the salt: Fe₂O₃(s) + HCl(aq) → ______ + ______",
+     "a": "Fe₂O₃(s) + 6HCl(aq) → 2FeCl₃(aq) + 3H₂O(l); salt is iron(III) chloride. Steps: identify reactants, write formulae using valencies (Fe³⁺, Cl⁻ → FeCl₃), balance Fe (2 on left → 2FeCl₃), balance Cl (6 on right → 6HCl), balance H and O (6H and 3O on left → 3H₂O). A wrong answer with FeCl₂ or unbalanced atoms reveals incorrect valency assignment for iron in Fe₂O₃ or poor balancing skills.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reactions: (i) MgO + 2HNO₃ → Mg(NO₃)₂ + H₂O and (ii) Ca(OH)₂ + CO₂ → CaCO₃ + H₂O. Identify the common pattern and the role of each oxide/hydroxide.",
+     "a": "Both are neutralisation reactions producing salt and water. In (i), MgO is a basic oxide (metal oxide) acting as a base; in (ii), CO₂ is an acidic oxide (non-metal oxide) acting as an acid, while Ca(OH)₂ is a base. The pattern: acid + base → salt + water, where the oxide/hydroxide provides the base/acid character. A wrong answer that calls CO₂ a base or MgO an acid shows failure to classify oxides by their metallic/non-metallic nature.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: 2NaOH + SO₂ → Na₂SO₃ + H₂O. Is this equation correct? Justify your answer.",
+     "a": "Yes, the equation is correct. SO₂ is an acidic oxide (non-metal oxide), NaOH is a base; they undergo neutralisation to form sodium sulphite (Na₂SO₃) and water. Atom check: Na: 2 on both sides, O: 2+2=4 on left, 3+1=4 on right, H: 2 on left, 2 on right, S: 1 on both sides. A wrong answer claiming it is incorrect because SO₂ is a gas or because the salt should be Na₂SO₄ reveals confusion between SO₂ and SO₃ or misunderstanding that neutralisation does not require oxygen gain/loss.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to prove that zinc oxide behaves as a basic oxide. List the materials, procedure, observation, and conclusion.",
+     "a": "Materials: ZnO powder, dilute HCl, test tube, dropper. Procedure: Add a spatula of ZnO to 5 mL dilute HCl, shake gently. Observation: White ZnO powder dissolves, forming a colourless solution of ZnCl₂. Conclusion: ZnO reacts with acid to give salt and water, confirming its basic oxide nature. A poor answer that uses NaOH instead of acid, or expects gas evolution, shows confusion with amphoteric behaviour (ZnO also reacts with bases) or with metal-acid reactions that produce H₂.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

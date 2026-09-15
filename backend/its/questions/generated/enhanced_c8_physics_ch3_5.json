@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch3_5",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch3_5",
+   "title": "c8_physics_ch3_5",
+   "questions": [
+    {
+     "q": "Define balanced forces and state the effect on an object's motion. Give an everyday example.",
+     "a": "Balanced forces are equal in magnitude and opposite in direction, resulting in zero net force. The object remains at rest or continues moving with constant velocity (no acceleration). Example: a book at rest on a table (gravity down balanced by normal force up). A wrong answer (e.g., \"balanced forces make an object stop\") reveals the Aristotelian misconception that a force is needed to maintain motion, confusing balanced forces with \"no forces.\"",
+     "self_check": true
+    },
+    {
+     "q": "A car moves at a constant speed of 60 km/h on a straight, level highway. The engine provides a forward force. Are the forces on the car balanced or unbalanced? Explain why the car doesn't accelerate even though the engine is pushing it.",
+     "a": "The forces are balanced. Constant speed in a straight line means zero acceleration, so net force must be zero. The forward engine force is exactly balanced by backward forces (air resistance + rolling friction). A wrong answer (\"unbalanced because the engine is pushing\") reveals the misconception that motion requires a net force in the direction of motion, ignoring resistive forces.",
+     "self_check": true
+    },
+    {
+     "q": "A 15 kg box is pushed horizontally with a force of 60 N. The kinetic friction opposing the motion is 20 N. (a) Are the horizontal forces balanced or unbalanced? (b) Calculate the net horizontal force and its direction. (c) If the box was initially at rest, describe its subsequent motion.",
+     "a": "(a) Unbalanced. (b) Net force = 60 N (forward) - 20 N (backward) = 40 N forward. (c) The box will accelerate forward (speed up) because there is a net forward force. A wrong answer (e.g., net force = 80 N) reveals inability to subtract opposing forces or assign direction. A wrong motion description (\"moves at constant speed\") reveals confusion between force and velocity.",
+     "self_check": true
+    },
+    {
+     "q": "Two students push a heavy cupboard from opposite sides. Student A pushes left with 120 N, Student B pushes right with 80 N. The cupboard does not move. Explain why the cupboard remains at rest even though the applied forces are unbalanced. Identify the missing force(s) and draw a free-body diagram description.",
+     "a": "The cupboard doesn't move because static friction acts on it. The net applied force is 40 N left (120 N - 80 N). Static friction exerts a 40 N force to the right, balancing the net applied force. Total horizontal forces: 120 N left (A) vs 80 N right (B) + 40 N right (friction) = balanced. Vertical forces (weight, normal) are also balanced. A wrong answer (ignoring friction) reveals the misconception that unbalanced applied forces always cause motion, forgetting that other forces (like friction) can restore balance.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"A cricket ball moving through the air after being hit has no forces acting on it because it's moving freely.\" Evaluate this statement. Identify the forces actually acting and state whether they are balanced or unbalanced.",
+     "a": "The statement is incorrect. The ball experiences gravity (weight) downward and air resistance (drag) opposite to its velocity. These forces are unbalanced: gravity causes downward acceleration (parabolic path), and air resistance causes deceleration. Net force is not zero. A wrong answer (\"no forces\" or \"balanced forces\") reveals confusion between \"no contact forces\" and \"no forces at all,\" and ignorance of gravity/air resistance as non-contact/contact forces.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a spring balance, a wooden block (with a hook), a rough tabletop, and a smooth plastic sheet to demonstrate the transition from balanced to unbalanced forces. Describe the steps, what you measure, and the expected observations for each surface.",
+     "a": "Steps: 1) Place block on rough table. Attach spring balance. Pull gently: block doesn't move, spring reading increases but block static → balanced (pull = static friction). 2) Pull harder until block moves at constant speed → balanced (pull = kinetic friction, reading constant). 3) Pull harder → block accelerates → unbalanced (pull > friction). 4) Repeat on smooth plastic sheet: less force needed to move/accelerate. Good answer identifies forces at each stage and links spring reading to force magnitude. Poor answer confuses constant reading with balanced forces only, or doesn't identify friction as the balancing force.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

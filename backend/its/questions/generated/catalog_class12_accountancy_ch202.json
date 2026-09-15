@@ -1,0 +1,408 @@
+{
+ "catalog": "catalog_class12_accountancy_ch202",
+ "concepts": [
+  {
+   "id": "leac.202.1",
+   "title": "Meaning and Nature of Debentures",
+   "questions": [
+    {
+     "q": "Using the method 'Meaning and Nature of Debentures', work with: face_value = 5000, number_of_debentures = 4096. Carry the chain through step by step and give the final value of total_debt.",
+     "a": "20480000 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Meaning and Nature of Debentures' and work with: face_value = 20000, number_of_debentures = 256. Carry the chain through step by step and give the final value of total_debt.",
+     "a": "5120000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Meaning and Nature of Debentures' refers to.",
+     "a": "A debenture is a formal certificate issued by a corporation as an acknowledgment of debt, detailing the repayment of the principal and periodic interest payments.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Meaning and Nature of Debentures'.",
+     "a": "Debentures represent borrowed capital and constitute a long-term liability for the company.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Meaning and Nature of Debentures', in plain ASCII form.",
+     "a": "total_debt = number_of_debentures * face_value",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.202.2",
+   "title": "Issue of Debentures at Par",
+   "questions": [
+    {
+     "q": "Using the method 'Issue of Debentures at Par', work with: allot_rate = 12, app_rate = 10, num_debentures = 25. Carry the chain through step by step and give the final value of total_cash.",
+     "a": "550 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Issue of Debentures at Par' and work with: allot_rate = 20, app_rate = 25, num_debentures = 20. Carry the chain through step by step and give the final value of total_cash.",
+     "a": "900 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Issue of Debentures at Par' refers to.",
+     "a": "The process of issuing debentures where the price paid by the investor is exactly equal to the nominal or face value of the instrument.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Issue of Debentures at Par'.",
+     "a": "No discount or premium is applied; the issue price equals the face value.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Issue of Debentures at Par', in plain ASCII form.",
+     "a": "bank_receipt = number_of_debentures * face_value",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.202.3",
+   "title": "Issue of Debentures at a Discount",
+   "questions": [
+    {
+     "q": "Find the issue price of a debenture at discount. Use the method 'Issue of Debentures at a Discount'. Work with: discount_rate = 5, face_value = 50000, num_debentures = 15. Carry the chain through step by step and give the final value of net_cash.",
+     "a": "712500 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Calculate total discount on issue of debentures. Use the method 'Issue of Debentures at a Discount'. Work with: discount_rate = 18, face_value = 500, num_debentures = 300. Carry the chain through step by step and give the final value of net_cash.",
+     "a": "123000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Issue of Debentures at a Discount' refers to.",
+     "a": "Issuing debentures at a price lower than their face value, where the difference is treated as a capital loss.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Issue of Debentures at a Discount'.",
+     "a": "The discount is a loss to be written off against profits or securities premium.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Issue of Debentures at a Discount', in plain ASCII form.",
+     "a": "issue_price = face_value - discount_amount",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.202.4",
+   "title": "Issue of Debentures at a Premium",
+   "questions": [
+    {
+     "q": "Calculate the premium on issue of debentures. Use the method 'Issue of Debentures at a Premium'. Work with: face_value = 20000, num_debentures = 12, premium_rate = 12. Carry the chain through step by step and give the final value of total_proceeds.",
+     "a": "268800 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the total bank receipt for debentures issued at a premium. Use the method 'Issue of Debentures at a Premium'. Work with: face_value = 120000, num_debentures = 50, premium_rate = 5. Carry the chain through step by step and give the final value of total_proceeds.",
+     "a": "6300000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Issue of Debentures at a Premium' refers to.",
+     "a": "The issuance of debentures at a price higher than their face value, with the excess credited to the Securities Premium Reserve.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Issue of Debentures at a Premium'.",
+     "a": "The premium is a capital gain used for specific purposes under the Companies Act.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Issue of Debentures at a Premium', in plain ASCII form.",
+     "a": "issue_price = face_value + premium_amount",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.202.5",
+   "title": "Issue for Consideration Other Than Cash",
+   "questions": [
+    {
+     "q": "How many debentures should be issued to a vendor? Use the method 'Issue for Consideration Other Than Cash'. Work with: face_value = 20000, purchase_consideration = 5000, unit_discount = 25, unit_premium = 12000. Carry the chain through step by step and give the final value of num_units.",
+     "a": "0.1564 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the number of debentures for asset purchase at premium. Use the method 'Issue for Consideration Other Than Cash'. Work with: face_value = 120000, purchase_consideration = 120000, unit_discount = 25, unit_premium = 20000. Carry the chain through step by step and give the final value of num_units.",
+     "a": "0.8573 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Issue for Consideration Other Than Cash' refers to.",
+     "a": "Issuing debentures to vendors as payment for assets purchased or businesses acquired instead of paying in cash.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Issue for Consideration Other Than Cash'.",
+     "a": "The number of debentures depends on the agreed purchase price and the issue price (par, premium, or discount).",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Issue for Consideration Other Than Cash', in plain ASCII form.",
+     "a": "number_of_debentures = purchase_consideration / issue_price",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.202.6",
+   "title": "Debentures as Collateral Security",
+   "questions": [
+    {
+     "q": "Using the method 'Debentures as Collateral Security', work with: principal_borrowed = 20000. Carry the chain through step by step and give the final value of loan_amount.",
+     "a": "20000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Debentures as Collateral Security' and work with: principal_borrowed = 120000. Carry the chain through step by step and give the final value of loan_amount.",
+     "a": "120000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Debentures as Collateral Security' refers to.",
+     "a": "Issuing debentures as a secondary or auxiliary security to a lender in addition to the primary security for a loan.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Debentures as Collateral Security'.",
+     "a": "Collateral debentures do not carry interest until the primary security fails and the lender invokes them.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Debentures as Collateral Security', in plain ASCII form.",
+     "a": "loan_amount = principal_borrowed",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.202.7",
+   "title": "Interest on Debentures",
+   "questions": [
+    {
+     "q": "Calculate interest on debentures for six months. Use the method 'Interest on Debentures'. Work with: coupon_rate = 12, months = 75, tds_rate = 8, total_face_value = 8000. Carry the chain through step by step and give the final value of net_interest.",
+     "a": "5520 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the amount of TDS on debenture interest. Use the method 'Interest on Debentures'. Work with: coupon_rate = 18, months = 75, tds_rate = 15, total_face_value = 12000. Carry the chain through step by step and give the final value of net_interest.",
+     "a": "11475 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Interest on Debentures' refers to.",
+     "a": "Periodic payment made to debentureholders at a fixed rate calculated on the face value of the debentures.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Interest on Debentures'.",
+     "a": "Interest is a charge against profits and is payable regardless of profit levels, subject to Tax Deducted at Source (TDS).",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Interest on Debentures', in plain ASCII form.",
+     "a": "interest = face_value * rate * time / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.202.8",
+   "title": "Debenture Redemption Investment (DRI)",
+   "questions": [
+    {
+     "q": "Calculate the amount to be invested in DRI. Use the method 'Debenture Redemption Investment (DRI)'. Work with: face_value = 120000, num_to_redeem = 40. Carry the chain through step by step and give the final value of dri_amount.",
+     "a": "720000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "How much should a company deposit in specified securities for redemption? Use the method 'Debenture Redemption Investment (DRI)'. Work with: face_value = 8000, num_to_redeem = 3. Carry the chain through step by step and give the final value of dri_amount.",
+     "a": "3600 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Debenture Redemption Investment (DRI)' refers to.",
+     "a": "A mandatory investment in specified securities required by law to ensure liquidity for redeeming debentures.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Debenture Redemption Investment (DRI)'.",
+     "a": "Companies must invest at least 15% of the nominal value of debentures maturing during the year by April 30.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Debenture Redemption Investment (DRI)', in plain ASCII form.",
+     "a": "dri_required = 0.15 * maturing_debentures_value",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.2.13.1",
+   "title": "Redemption by Purchase in Open Market at a Discount",
+   "questions": [
+    {
+     "q": "Calculate profit on redemption when debentures are purchased in open market. Use the method 'Redemption by Purchase in Open Market at a Discount'. Work with: expenses = 50000, face_value = 80000, num_debentures = 30, purchase_price = 120000. Carry the chain through step by step and give the final value of profit_on_redemption.",
+     "a": "-1250000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the gain on cancellation of own debentures. Use the method 'Redemption by Purchase in Open Market at a Discount'. Work with: expenses = 8000, face_value = 20000, num_debentures = 30, purchase_price = 80000. Carry the chain through step by step and give the final value of profit_on_redemption.",
+     "a": "-1808000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Redemption by Purchase in Open Market at a Discount' refers to.",
+     "a": "When an entity buys back its own debt securities from the open market at a price below their face value for immediate cancellation, the difference is recognized as a capital profit on redemption.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Redemption by Purchase in Open Market at a Discount'.",
+     "a": "Buying own debentures at lower than face value creates a profit on redemption credited to Capital Reserve.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Redemption by Purchase in Open Market at a Discount', in plain ASCII form.",
+     "a": "profit_on_redemption = nominal_value - purchase_cost",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.2.13.2",
+   "title": "Redemption by Purchase in Open Market at a Premium",
+   "questions": [
+    {
+     "q": "Find the loss on redemption of debentures purchased above par. Use the method 'Redemption by Purchase in Open Market at a Premium'. Work with: expenses = 20000, face_value = 120000, num_debentures = 240, purchase_price = 500. Carry the chain through step by step and give the final value of loss_on_redemption.",
+     "a": "-28660000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the excess paid on open market purchase of debentures. Use the method 'Redemption by Purchase in Open Market at a Premium'. Work with: expenses = 50000, face_value = 2500, num_debentures = 240, purchase_price = 120000. Carry the chain through step by step and give the final value of loss_on_redemption.",
+     "a": "28250000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Redemption by Purchase in Open Market at a Premium' refers to.",
+     "a": "When an enterprise acquires its own debentures from the market at a rate higher than the nominal value, the excess amount paid represents a capital loss charged to statement of profit and loss.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Redemption by Purchase in Open Market at a Premium'.",
+     "a": "Purchasing own debentures at a price above face value leads to a loss on redemption.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Redemption by Purchase in Open Market at a Premium', in plain ASCII form.",
+     "a": "loss_on_redemption = purchase_cost - nominal_value",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.2.14.1",
+   "title": "Redemption of Debentures by Conversion into Shares at Par",
+   "questions": [
+    {
+     "q": "Calculate the number of shares to be issued on conversion of debentures at par. Use the method 'Redemption of Debentures by Conversion into Shares at Par'. Work with: num_debentures = 30, redemption_value = 50000, share_face_value = 0.25. Carry the chain through step by step and give the final value of number_of_shares.",
+     "a": "6000000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "How many equity shares are issued to redeem debentures? Use the method 'Redemption of Debentures by Conversion into Shares at Par'. Work with: num_debentures = 120, redemption_value = 5000, share_face_value = 0.35. Carry the chain through step by step and give the final value of number_of_shares.",
+     "a": "1714285.7143 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Redemption of Debentures by Conversion into Shares at Par' refers to.",
+     "a": "Discharge of debenture liability by issuing new equity or preference shares to debenture holders without any premium or discount on the new shares.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Redemption of Debentures by Conversion into Shares at Par'.",
+     "a": "The total amount payable to debenture holders is settled by dividing it by the par issue price per share.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Redemption of Debentures by Conversion into Shares at Par', in plain ASCII form.",
+     "a": "number_of_shares = amount_payable / issue_price_per_share",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.2.14.2",
+   "title": "Redemption of Debentures by Conversion into Shares at a Premium",
+   "questions": [
+    {
+     "q": "Calculate number of equity shares issued on conversion at premium. Use the method 'Redemption of Debentures by Conversion into Shares at a Premium'. Work with: num_debentures = 30, premium_per_share = 100, redemption_price = 2500, share_face_value = 0.8. Carry the chain through step by step and give the final value of securities_premium.",
+     "a": "74404.7619 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find securities premium credited on conversion of debentures. Use the method 'Redemption of Debentures by Conversion into Shares at a Premium'. Work with: num_debentures = 75, premium_per_share = 12, redemption_price = 12000, share_face_value = 0.2. Carry the chain through step by step and give the final value of securities_premium.",
+     "a": "885245.9016 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Redemption of Debentures by Conversion into Shares at a Premium' refers to.",
+     "a": "Settling debenture obligations by allotting new equity shares priced above their nominal face value, creating securities premium reserve.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Redemption of Debentures by Conversion into Shares at a Premium'.",
+     "a": "The total issue price of a share includes face value plus premium, determining the count of shares issued.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Redemption of Debentures by Conversion into Shares at a Premium', in plain ASCII form.",
+     "a": "number_of_shares = amount_payable / (share_face_value + premium_per_share)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.2.14.3",
+   "title": "Debenture Redemption Investment and Reserve Requirement",
+   "questions": [
+    {
+     "q": "Calculate the amount to be invested in debenture redemption investment. Use the method 'Debenture Redemption Investment and Reserve Requirement'. Work with: dri_rate = 8, face_value = 5000, num_maturing_debentures = 360. Carry the chain through step by step and give the final value of dri_amount.",
+     "a": "144000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the required debenture redemption investment before redemption. Use the method 'Debenture Redemption Investment and Reserve Requirement'. Work with: dri_rate = 18, face_value = 20000, num_maturing_debentures = 8. Carry the chain through step by step and give the final value of dri_amount.",
+     "a": "28800 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Debenture Redemption Investment and Reserve Requirement' refers to.",
+     "a": "Mandatory creation of a reserve out of divisible profits and investment of a minimum percentage of the nominal value of debentures maturing during the financial year into specified financial instruments.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Debenture Redemption Investment and Reserve Requirement'.",
+     "a": "A specified percentage of debentures maturing in the year must be invested in prescribed securities before redemption.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Debenture Redemption Investment and Reserve Requirement', in plain ASCII form.",
+     "a": "dri_amount = nominal_maturing * dri_rate / 100",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

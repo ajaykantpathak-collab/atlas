@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_01_002",
+   "title": "c12_bio_cbse_01_002",
+   "questions": [
+    {
+     "q": "Define binary fission and name two organisms in which it occurs.",
+     "a": "Binary fission is a type of asexual reproduction where a single parent cell divides into two nearly equal daughter cells, each growing into an independent organism. Examples: *Amoeba*, *Paramecium*, bacteria (any two).  \n**Wrong answer insight:** If a student writes \"binary fission produces four daughter cells\" or names *Hydra* or *Planaria*, they confuse binary fission with multiple fission or budding/fragmentation. This reveals a lack of clarity on the number of offspring and the specific organisms for each mode.",
+     "self_check": true
+    },
+    {
+     "q": "Why is binary fission in *Amoeba* described as \"irregular\" while in *Paramecium* it is \"transverse\"? What cellular structure determines the plane of division in *Paramecium*?",
+     "a": "In *Amoeba*, the plane of division is not fixed and can occur along any plane because the cell lacks a definite shape and rigid pellicle. In *Paramecium*, the micronucleus and macronucleus divide along the transverse axis, and the rigid pellicle forces the cytokinesis furrow to form transversely. The **pellicle** (a firm but flexible covering) determines the transverse plane.  \n**Wrong answer insight:** If a student says \"both divide transversely\" or \"both are irregular\", they miss the structural basis of division plane. This is a common board exam trap where students memorise examples but not the underlying cytology.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes a unicellular fungus forming a small protrusion that enlarges, receives a nucleus, and eventually separates. Identify the organism and the mode of reproduction. How would the process differ if the organism were a multicellular freshwater cnidarian?",
+     "a": "The organism is **yeast** (a unicellular fungus) and the mode is **budding**. In yeast, the bud forms on the parent cell, one nucleus migrates into the bud after mitosis, and the bud detaches to live independently. In a multicellular cnidarian like *Hydra*, budding involves **repeated mitotic divisions of interstitial cells** at a specific site, forming a miniature *Hydra* with tentacles and gastrovascular cavity before detachment. The key difference: yeast budding is a **single‑cell** event; *Hydra* budding is a **multicellular developmental** process.  \n**Wrong answer insight:** If the student says \"both are identical\" or \"yeast forms a multicellular bud\", they fail to distinguish unicellular vs. multicellular budding — a frequent NEET distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare fragmentation in *Planaria* and *Spirogyra*. What is the role of neoblasts in *Planaria*, and why are they absent in *Spirogyra*?",
+     "a": "In *Planaria* (a triploblastic flatworm), fragmentation is a **reproductive strategy**: the worm splits transversely, and each fragment regenerates missing parts using **pluripotent stem cells called neoblasts** distributed throughout the body. In *Spirogyra* (a filamentous green alga), fragmentation is **mechanical breakage of filaments** into smaller fragments; each fragment is already a complete filament with all cell types and grows by cell division — no specialised stem cells are needed because the alga is **haplontic and filamentous** with simple cellular organisation.  \n**Wrong answer insight:** If a student writes \"both use neoblasts\" or \"both regenerate from any fragment\", they conflate animal regeneration (requiring stem cells) with algal fragmentation (simple mechanical separation). This reveals a misunderstanding of body plan complexity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Fragmentation and regeneration are the same process.\" Provide a biological argument with examples.",
+     "a": "The statement is **false**. **Fragmentation** is an **asexual reproductive mode** where the parent body breaks into pieces, each developing into a new individual (e.g., *Planaria*, *Spirogyra*). **Regeneration** is a **repair process** where lost body parts are regrown (e.g., lizard tail, starfish arm). In *Planaria*, fragmentation **uses** regenerative capacity for reproduction, but the two phenomena are distinct: fragmentation is a **normal life‑cycle event** producing offspring; regeneration is a **response to injury**.  \n**Wrong answer insight:** If a student agrees, they confuse a reproductive strategy with a physiological repair mechanism — a classic board exam error that costs marks in \"differentiate\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory activity to observe and compare the rate of binary fission in *Amoeba* and budding in yeast under a light microscope. List materials, procedure, and two measurable parameters.",
+     "a": "**Materials:** Compound microscope, depression slides, coverslips, *Amoeba* culture (hay infusion), yeast suspension in 10% glucose, stopwatch.  \n**Procedure:** (1) Place a drop of *Amoeba* culture on a slide, cover, and observe at 40×. Locate a dividing *Amoeba* and start timer; record time from visible nuclear division to complete cytokinesis. Repeat for 5 cells. (2) Place a drop of yeast suspension, observe at 40×. Locate a cell with a small bud; start timer when bud is first visible; stop when bud separates. Repeat for 5 buds.  \n**Measurable parameters:** (i) Mean division time (minutes) for binary fission vs. budding; (ii) Percentage of cells undergoing division/budding in a given field.  \n**Poor answer insight:** If the student omits a control (temperature, pH) or measures only \"number of cells\" without timing, they lack experimental design rigour expected in competitive practical‑based questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

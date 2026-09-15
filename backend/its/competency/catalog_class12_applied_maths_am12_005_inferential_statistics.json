@@ -1,0 +1,136 @@
+{
+  "class": 12,
+  "subject": "applied_maths",
+  "chapter": 5,
+  "chapter_title": "Inferential Statistics",
+  "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am12_005_inferential_statistics.txt",
+  "concepts": [
+    {
+      "id": "am12_005.1",
+      "title": "Population and Sample",
+      "definition": "The population is the complete set of individuals or items under study, and a sample is the part actually observed. Studying a well-chosen sample instead of the whole population saves cost and time, and inference extends the sample findings back to the population.",
+      "formula": "-",
+      "key_idea": "A sample represents the population only if it is drawn without bias; a census studies every population member, while a sample study examines a subset and generalises.",
+      "question_patterns": [
+        "Identify the population and the sample in this study: average sleep of {n} students chosen from a school.",
+        "Distinguish population from sample with one example.",
+        "Why do researchers study a sample instead of the whole population?",
+        "A factory tests {n} bulbs from a day's output; state the population.",
+        "What makes a sample biased?"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": []
+    },
+    {
+      "id": "am12_005.2",
+      "title": "Parameter and Statistic",
+      "definition": "A parameter is a number describing a population, such as the population mean mu, while a statistic is a number computed from a sample, such as the sample mean x-bar. Statistics estimate parameters, and the difference between a statistic and the parameter it estimates is sampling error.",
+      "formula": "err = xbar - mu",
+      "key_idea": "Values differ from population to population; statistics vary from sample to sample. The pattern of that sample-to-sample variation is the sampling distribution, and its standard deviation is the standard error.",
+      "question_patterns": [
+        "The mean of {n} sampled items is {xbar} and the population mean is {mu}; find the sampling error.",
+        "Classify: population standard deviation, sample mean, sample proportion - parameter or statistic?",
+        "Why does the same statistic take different values in different samples?",
+        "State the notation for the population mean and the sample mean.",
+        "A sample of {n} students has mean {xbar}; what is this number called?"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"compute": "err = xbar - mu"},
+        {"compute": "pct_err = abs(err) / mu * 100"}
+      ]
+    },
+    {
+      "id": "am12_005.3",
+      "title": "Sampling Distribution and Standard Error",
+      "definition": "The sampling distribution of a statistic is the distribution of its values over all possible samples of the same size. The standard error of the sample mean is the population standard deviation divided by the square root of the sample size, and it shrinks as the sample grows.",
+      "formula": "se = sd / sqrt(n)",
+      "key_idea": "Quadrupling the sample size halves the standard error: precision improves with the square root of n, which is why big samples buy accuracy at a decreasing rate.",
+      "question_patterns": [
+        "Find the standard error of the mean for a population with sigma = {sd} and sample size {n}.",
+        "How does the standard error change if the sample size is quadrupled?",
+        "For sample size {n1} and {n2}, which gives the smaller standard error?",
+        "A population has standard deviation {sd}; find the standard error for n = {n}.",
+        "What does the sampling distribution of the mean describe?"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"compute": "se = sd / sqrt(n)"}
+      ]
+    },
+    {
+      "id": "am12_005.4",
+      "title": "Hypothesis Null and Alternative",
+      "definition": "A hypothesis test judges a claim about a population parameter. The null hypothesis states no change or no difference (the default), and the alternative hypothesis states the claimed change; the test decides between them using sample evidence and a significance level.",
+      "formula": "-",
+      "key_idea": "The burden of proof lies on the alternative: sample evidence must be strong enough to reject the null. The significance level is the tolerated risk of wrongly rejecting a true null.",
+      "question_patterns": [
+        "State the null and alternative hypotheses for testing whether the mean has changed from {mu}.",
+        "What is a hypothesis in statistics?",
+        "A manufacturer claims bulbs last {mu} hours on average; write H0 and H1.",
+        "What does the significance level of a test represent?",
+        "Define type I error in testing a hypothesis."
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": []
+    },
+    {
+      "id": "am12_005.5",
+      "title": "One Sample t Test",
+      "definition": "The one sample t test checks whether a sample mean is consistent with a claimed population mean when the population standard deviation is unknown and the sample is small. The t statistic is (x-bar - mu) divided by (s on sqrt n), where s is the sample standard deviation, and it is compared with table values at the chosen significance level.",
+      "formula": "t = (xbar - mu) / (s / sqrt(n))",
+      "key_idea": "Large absolute t means the sample mean sits far from the claimed mean in standard-error units, pushing toward rejecting the null. The test uses n - 1 degrees of freedom.",
+      "question_patterns": [
+        "A sample of {n} has mean {xbar} and standard deviation {s}; test the claim that the population mean is {mu}.",
+        "Compute the t statistic for x-bar = {xbar}, mu = {mu}, s = {s}, n = {n}.",
+        "How many degrees of freedom does a one sample t test with {n} observations use?",
+        "When is a t test preferred over a z test for a single mean?",
+        "For the computed t, what decides rejection of H0 at 5 percent significance?"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"compute": "se = s / sqrt(n)"},
+        {"compute": "t = (xbar - mu) / se"}
+      ]
+    },
+    {
+      "id": "am12_005.6",
+      "title": "Statistical Significance",
+      "definition": "A result is statistically significant when it is too unlikely to be explained by sampling variation alone at the chosen significance level. Significance answers whether an effect is detectable, not whether it is practically important.",
+      "formula": "-",
+      "key_idea": "Statistical significance compares the observed statistic with what the sampling distribution would produce by chance; a significant result rejects the null at that level, while a non-significant one means insufficient evidence, not proof of no effect.",
+      "question_patterns": [
+        "What does it mean when a test result is significant at the 5 percent level?",
+        "Does a non-significant result prove the null hypothesis true? Explain.",
+        "How does sample size affect the significance of a fixed difference?",
+        "Distinguish statistical significance from practical importance.",
+        "A p-value of 0.03 is reported for a 5 percent level test; state the decision."
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": []
+    }
+  ],
+  "worked_examples": [
+    {
+      "q": "A population has standard deviation 8. Find the standard error of the mean for samples of size 16, and for size 64.",
+      "a": "Standard error = sigma / sqrt(n). For n = 16: 8 / 4 = 2. For n = 64: 8 / 8 = 1. Quadrupling the sample size halves the standard error from 2 to 1."
+    },
+    {
+      "q": "A sample of 25 observations has mean 52 and standard deviation 5. Test whether the population mean can be 50.",
+      "a": "Standard error = 5 / sqrt(25) = 1. t = (52 - 50) / 1 = 2 with 24 degrees of freedom. The table value at 5 percent (two-tailed) is about 2.064; since 2 < 2.064, H0 is not rejected at the 5 percent level - the data are consistent with a mean of 50."
+    }
+  ],
+  "exercises": [
+    {
+      "group": "drill",
+      "items": [
+        "Find the standard error for sigma = 12, n = 36.",
+        "A sample of 9 gives mean 48, s = 6; test mu = 45 at 5 percent.",
+        "Identify parameter vs statistic: population proportion p, sample proportion 0.42.",
+        "State H0 and H1 for testing whether a new fertiliser changes yield from 50 kg.",
+        "What happens to the standard error when n rises from 25 to 100?",
+        "Define type II error."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "unknown",
+  "chapter": 105,
+  "chapter_title": "The Tale of Melon City",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kesp105.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kesp105.1.1",
+      "title": "A Just and Placid City, an Arch and a Falling Crown",
+      "section": "1",
+      "definition": "Vikram Seth narrates in mock-heroic verse the tale of a just and placid city where the king orders an arch built over the main thoroughfare. Riding under it, the king strikes his head -- the crown falls -- and he demands the culprit be hanged, launching an absurd chain of blame.",
+      "formula": "",
+      "key_idea": "One bump, one crown, one decree -- a satire of justice begins with a low arch.",
+      "textbook_ref": "kesp105.txt opening verses (just and placid city, arch over thoroughfare, king strikes head, crown falls, culprit to be hanged)",
+      "question_patterns": [
+        "what happened when the king rode under the arch",
+        "in class 11 the tale of melon city: why did the king want someone hanged",
+        "describe the city and its king at the start of the poem",
+        "what did the workmen blame for the mishap",
+        "how does the poem describe the king's justice",
+        "why is the arch important in the poem"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "set the scene",
+          "explain": "A placid, just king builds a fine arch -- vanity and civic pride in one structure."
+        },
+        {
+          "step": 2,
+          "action": "trip the plot",
+          "explain": "The arch stands too low; the king's crown is knocked off as he rides beneath."
+        },
+        {
+          "step": 3,
+          "action": "demand the culprit",
+          "explain": "Humiliated before his subjects, the king orders the guilty party hanged -- inviting an endless relay of blame."
+        }
+      ]
+    },
+    {
+      "id": "kesp105.1.2",
+      "title": "The Culprit Hunt up to the King",
+      "section": "1",
+      "definition": "The workmen blame the masons, the masons blame the architect, and the architect blames the king -- who had altered the plans. The flustered king widens his decree to 'hang whoever fits the noose', and by the noose's own measurement the tallest man present, the king himself, is chosen.",
+      "formula": "",
+      "key_idea": "Blame climbs the ladder to the throne -- and the king's own widened decree pulls the noose to his neck.",
+      "textbook_ref": "kesp105.txt blame verses (workmen blame masons, architect blames the king, culprit catcher, decree widened, noose fits the king)",
+      "question_patterns": [
+        "trace the chain of culprits from the workmen to the king",
+        "in class 11 the tale of melon city: how did the architect save himself",
+        "what did the king mean by hanging whoever fits the noose",
+        "why is the king caught by his own order",
+        "comment on the king's sense of justice in the poem",
+        "how does the poet use irony in the trial scene"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "pass the buck upward",
+          "explain": "Workmen blame masons, masons blame the architect, and the architect reminds them the king amended the plans."
+        },
+        {
+          "step": 2,
+          "action": "confound the judge",
+          "explain": "Unable to judge his own guilt, the king asks the crowd for guidance and widens the decree to whoever fits the noose."
+        },
+        {
+          "step": 3,
+          "action": "spring the trap",
+          "explain": "The noose fits only one man -- the tall king -- and the just and placid monarch is hanged by his own command."
+        }
+      ]
+    },
+    {
+      "id": "kesp105.1.3",
+      "title": "The Melon Crown: Satire on Passive Governance",
+      "section": "1",
+      "definition": "The ministers proceed to crown the next man who passes the city gate -- which the principles of the land require -- and the passer-by turns out to be a melon. The city accepts its melon king without complaint, calling it all right, and lives in peace: Seth's satire on people who ask nothing of a state and get exactly what they tolerate.",
+      "formula": "",
+      "key_idea": "A melon wears the crown because nobody minds -- the sharpest joke on subjects who never question.",
+      "textbook_ref": "kesp105.txt closing verses (melon crowned king, next man passing the gate, principles of the land, all right say the citizens, moral on just and placid people)",
+      "question_patterns": [
+        "how does the melon become the king of the city",
+        "in class 11 the tale of melon city: why do the citizens accept a melon as king",
+        "what does the ending suggest about the people of the city",
+        "explain the meaning of just and placid in the poem's conclusion",
+        "what is the moral of the tale of melon city",
+        "how does the poem satirise passive citizens and arbitrary rule"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "follow the law of the gate",
+          "explain": "By the city's principles, whoever passes the gate next shall choose the king -- and that passer-by is a melon."
+        },
+        {
+          "step": 2,
+          "action": "crown the melon",
+          "explain": "The melon is carried in state and crowned without protest; governance continues undisturbed."
+        },
+        {
+          "step": 3,
+          "action": "pocket the moral",
+          "explain": "Peace without justice, obedience without questions -- Seth mocks subjects placid enough to be ruled by fruit."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kesp105.txt blame verses",
+      "concept": "kesp105.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Explain how the king becomes the victim of his own decree in the trial scene.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "trace the decree",
+          "explain": "His first order -- hang the culprit -- fails as blame keeps escaping upward."
+        },
+        {
+          "step": 2,
+          "action": "note the widening",
+          "explain": "To satisfy the crowd he generalises: hang whoever fits the noose, no questions asked."
+        },
+        {
+          "step": 3,
+          "action": "watch it close",
+          "explain": "Only his own tall frame fills the noose, so his arbitrary standard selects the lawgiver himself."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kesp105.txt closing verses",
+      "concept": "kesp105.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "The citizens say of their melon king, 'it is all right'. What does this remark reveal about them and about the poem's message?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "read the remark",
+          "explain": "No one examines whether a melon can rule; contentment replaces judgment."
+        },
+        {
+          "step": 2,
+          "action": "read the city",
+          "explain": "A placid people gets a placid state -- governance mirrors the governed."
+        },
+        {
+          "step": 3,
+          "action": "state the satire",
+          "explain": "Seth warns that citizens who never demand sense will be governed by nonsense -- peacefully, but absurdly."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kesp105.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Narrate the chain of blame that follows the accident at the arch.",
+        "How and why does the king lose both his crown and his life?",
+        "Describe the process by which the melon becomes king.",
+        "What impression do you form of the king and his ministers?",
+        "Bring out the humour and irony in the poem.",
+        "What is the moral of The Tale of Melon City?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 8,
+ "chapter_title": "Nature of Matter: Elements, Compounds, and Mixtures",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hecu108.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hecu.108.8.1",
+   "title": "Mixtures and Their Kinds",
+   "section": "8.1",
+   "definition": "A mixture is a combination of two or more substances that keep their own identities; poha or sprout salad is a visible heterogeneous mixture while salt dissolved in water is a uniform homogeneous mixture, and the parts of any mixture can be separated by physical methods.",
+   "formula": "-",
+   "key_idea": "In a mixture nothing new is made - the ingredients keep their properties and can be picked apart physically.",
+   "textbook_ref": "hecu108.txt lines 37-255 (what are mixtures)",
+   "question_patterns": [
+    "define a mixture with two examples from daily life",
+    "differentiate homogeneous and heterogeneous mixtures with examples",
+    "why can the components of a mixture be separated by physical methods",
+    "is salt solution a mixture - justify",
+    "list methods of separating mixtures",
+    "what happens to the properties of substances in a mixture"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "check the combination",
+     "explain": "Two or more substances are simply brought together, no new substance forms."},
+    {"step": 2, "action": "judge the uniformity",
+     "explain": "Same composition throughout makes it homogeneous; visible parts make it heterogeneous."},
+    {"step": 3, "action": "plan separation",
+     "explain": "Filtration, evaporation, winnowing or magnets undo the mixing physically."}
+   ]
+  },
+  {
+   "id": "hecu.108.8.2",
+   "title": "Pure Substances",
+   "section": "8.2",
+   "definition": "A pure substance contains only one kind of particle throughout - it cannot be split by physical means; elements and compounds are the two families of pure substances, unlike mixtures which blend several substances.",
+   "formula": "-",
+   "key_idea": "One kind of particle everywhere: that is the signature of a pure substance.",
+   "textbook_ref": "hecu108.txt lines 255-284 (what are pure substances)",
+   "question_patterns": [
+    "what is a pure substance - define it",
+    "how does a pure substance differ from a mixture",
+    "can a pure substance be separated by physical methods - justify",
+    "give two examples of pure substances",
+    "why is distilled water called pure",
+    "which pure substance is made of one kind of atom only"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "check the particle kind",
+     "explain": "Only one type of particle may be present throughout the sample."},
+    {"step": 2, "action": "test separation",
+     "explain": "Physical methods cannot break it into different substances."},
+    {"step": 3, "action": "place it in the families",
+     "explain": "The pure substance is either an element or a compound."}
+   ]
+  },
+  {
+   "id": "hecu.108.8.3",
+   "title": "Elements and Compounds",
+   "section": "8.3",
+   "definition": "An element is a pure substance made of a single kind of atom - iron, copper, oxygen, hydrogen - while a compound forms when atoms of different elements chemically join in fixed ratios, as water joins hydrogen and oxygen in a fixed proportion, giving a substance with its own new properties.",
+   "formula": "-",
+   "key_idea": "Elements are single-atom substances; compounds are chemical unions in fixed ratios with brand-new properties.",
+   "textbook_ref": "hecu108.txt lines 284-763 (types of pure substances)",
+   "question_patterns": [
+    "define element and compound with examples",
+    "how is a compound different from a mixture",
+    "why do water and its elements hydrogen and oxygen have different properties",
+    "name five common elements and their symbols",
+    "what is meant by a fixed ratio in a compound",
+    "classify iron, salt, oxygen and air into element, compound and mixture"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "count the atom kinds",
+     "explain": "One kind of atom means an element; two or more chemically bound means a compound."},
+    {"step": 2, "action": "check the ratio",
+     "explain": "In a compound the elements sit in a fixed mass ratio, unlike a mixture."},
+    {"step": 3, "action": "compare properties",
+     "explain": "A compound behaves nothing like its parent elements, so chemical union is proved."}
+   ]
+  },
+  {
+   "id": "hecu.108.8.4",
+   "title": "Using Elements, Compounds and Mixtures",
+   "section": "8.4",
+   "definition": "Knowing what a material is made of tells us how to use and handle it: metals from elements build wires and tools, compounds like salt and sugar serve as food chemicals, and deliberately mixed alloys and solutions give materials with chosen properties.",
+   "formula": "-",
+   "key_idea": "Classification guides application: pick, combine and separate substances by their class.",
+   "textbook_ref": "hecu108.txt lines 763-805 (how do we use elements, compounds, mixtures)",
+   "question_patterns": [
+    "give one everyday use of an element, a compound and a mixture",
+    "why are alloys made by mixing metals",
+    "how does classification of matter help in daily life",
+    "what mixture is used in construction and why",
+    "name a compound used in cooking and its elements",
+    "how do jewellers use mixtures of metals"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "classify the material",
+     "explain": "Decide element, compound or mixture from its composition."},
+    {"step": 2, "action": "read the properties",
+     "explain": "Conductivity, hardness, taste and solubility follow from the class."},
+    {"step": 3, "action": "choose the use",
+     "explain": "Uses match properties: copper wires, salt in food, alloys for strength."}
+   ]
+  },
+  {
+   "id": "hecu.108.8.5",
+   "title": "Minerals",
+   "section": "8.5",
+   "definition": "Minerals are naturally occurring substances in rocks and ores from which metals and other useful materials are obtained; iron, aluminium and gold reach us after extraction and purification of their minerals.",
+   "formula": "-",
+   "key_idea": "Minerals are nature's storehouse of elements and compounds locked in rocks.",
+   "textbook_ref": "hecu108.txt lines 805-850 (what are minerals)",
+   "question_patterns": [
+    "what are minerals - define with examples",
+    "how do we obtain metals from minerals",
+    "name the mineral from which iron is extracted",
+    "why are minerals called natural resources",
+    "distinguish an ore from a mineral",
+    "list minerals used in daily life and their sources"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the source",
+     "explain": "Minerals occur naturally in the earth's crust inside rocks and ores."},
+    {"step": 2, "action": "extract the useful part",
+     "explain": "Mining and purification separate the desired metal or compound."},
+    {"step": 3, "action": "link to daily materials",
+     "explain": "Utensils, wires, jewellery and cement all trace back to minerals."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex8.1",
+   "source_ref": "hecu108.txt sections 8.1-8.3",
+   "questions": [
+     "Classify air, salt solution, iron, water and gold as mixture, compound or element.",
+     "Give two differences between a compound and a mixture.",
+     "Define a pure substance with examples."
+   ]
+  },
+  {
+   "id": "ex8.2",
+   "source_ref": "hecu108.txt sections 8.4-8.5",
+   "questions": [
+     "Why do the properties of a compound differ from its elements?",
+     "Name three minerals and the metals obtained from them.",
+     "Suggest one use each of an element, a compound and a mixture at home."
+   ]
+  }
+ ]
+}

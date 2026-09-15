@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_03_014",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_03_014",
+   "title": "c11_eng_h_cbse_03_014",
+   "questions": [
+    {
+     "q": "What is the mandatory structural element that distinguishes a formal report from an article in CBSE Class 11 English Core?",
+     "a": "A formal report requires a headline, byline (reporter's name/designation), and a lead paragraph answering the 5Ws (Who, What, When, Where, Why), while an article requires a headline, byline, and an introductory paragraph that hooks the reader but does not necessarily compress all 5Ws. A wrong answer (e.g., \"both need a headline and byline only\") reveals the student cannot differentiate format-specific skeletons, leading to hybrid pieces that lose format marks.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why embedding the phrase \"The ritual resins had hardened, cementing Tut to the bottom of his solid gold coffin\" as direct speech in a formal letter to the Director of the Egyptian Museum would be inappropriate.",
+     "a": "Formal letters require reported/indirect speech for textual evidence to maintain objective tone; direct quotes from the chapter disrupt the letter's professional register. A student who uses direct speech here confuses literary analysis conventions (where quoting is standard) with formal correspondence conventions (where paraphrasing with attribution is expected), indicating a misunderstanding of audience-purpose-format alignment.",
+     "self_check": true
+    },
+    {
+     "q": "You are writing an analytical paragraph on \"Science vs Tradition in Discovering Tut\". Using PEEL structure, draft the Point and Evidence sentences only, citing two distinct textual details.",
+     "a": "Point: The chapter portrays a tension between modern scientific investigation and ancient funerary traditions. Evidence: The CT scan conducted in 2005 used \"hundreds of X-rays in cross section\" to create a \"three-dimensional virtual body\", while the ancient priests had sealed Tut with \"ritual resins\" meant to \"guarantee resurrection\" and the \"pharaoh's curse\" was still feared by tourists. A wrong answer that lists only one detail or merges them without contrast shows inability to select and juxtapose evidence for analytical depth.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the organizational logic of a newspaper report on Tut's CT scan with an article on \"Ethics of Disturbing Ancient Remains\". How does the paragraph sequencing differ?",
+     "a": "A report follows inverted pyramid: most critical facts (scan completion, findings, quotes from Hawass) in lead, then descending importance (technical details, historical background, curse anecdote). An article uses thematic sequencing: introduction framing the ethical debate, body paragraphs each exploring a dimension (scientific value, cultural respect, tourism impact), and a concluding synthesis. A student who sequences both identically fails to recognize that reports prioritize timeliness/facts while articles prioritize argument development.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this opening sentence for a formal letter to the Archaeological Survey of India: \"I am writing to tell you that the CT scan of King Tut was awesome and we should do more such scans.\" Justify your evaluation with two specific flaws.",
+     "a": "The sentence is unacceptable: (1) Colloquial language (\"awesome\", \"tell you\") violates formal register; (2) Vague purpose (\"we should do more such scans\") lacks specific actionable request (e.g., \"recommend a policy for non-invasive scanning of royal mummies\"). A student who rates this as \"good because it states the topic\" reveals inability to distinguish academic/informal tone and to formulate precise official correspondence objectives.",
+     "self_check": true
+    },
+    {
+     "q": "Create a headline, byline, and lead paragraph (30 words) for a report on the CT scan night, incorporating the scanner malfunction and the \"Curse of the pharaoh\" joke.",
+     "a": "HEADLINE: CT Scan Reveals Tut's Secrets Despite Sandstorm Glitch\nBYLINE: By [Name], Staff Correspondent\nLEAD: Luxor, Jan 5: King Tutankhamun's mummy underwent a historic CT scan tonight, yielding 1,700 cross-sectional images despite a cooler-fan failure that prompted a guard's nervous \"Curse of the pharaoh\" quip. A weak answer that omits the byline, exceeds word limit, or buries the malfunction in later sentences shows poor grasp of report conciseness and news values.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

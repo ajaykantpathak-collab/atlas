@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_04_005",
+   "title": "c12_bio_cbse_04_005",
+   "questions": [
+    {
+     "q": "Name the causative agents of gonorrhoea, syphilis, and chlamydiasis, and state one common symptom shared by all three.",
+     "a": "Gonorrhoea: Neisseria gonorrhoeae (bacterium); Syphilis: Treponema pallidum (spirochaete bacterium); Chlamydiasis: Chlamydia trachomatis (obligate intracellular bacterium). Common symptom: mucopurulent urethral/vaginal discharge (often asymptomatic in women). A wrong answer (e.g., naming viruses or fungi) reveals confusion between bacterial and viral STDs; missing the shared symptom indicates failure to recognise that bacterial STDs often present with similar inflammatory discharge.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the \"ABC\" strategy (Abstinence, Be faithful, Condoms) more effective against bacterial STDs than against viral STDs like HIV or HPV?",
+     "a": "ABC reduces exposure to infected fluids/skin, which prevents bacterial transmission effectively because bacteria require direct mucosal contact and do not integrate into host genome. Viral STDs like HIV can also transmit via blood, mother-to-child, or needle-sharing — routes not addressed by ABC alone; HPV spreads through skin-to-skin contact in areas not covered by condoms. A wrong answer (e.g., \"condoms block all viruses equally\") shows misunderstanding of transmission modes and condom limitations.",
+     "self_check": true
+    },
+    {
+     "q": "A 24-year-old woman presents with frothy, yellow-green vaginal discharge, vulval itching, and a \"strawberry cervix\" on examination. Identify the STD, its causative agent, and the drug of choice.",
+     "a": "STD: Trichomoniasis; Causative agent: Trichomonas vaginalis (flagellated protozoan); Drug of choice: Metronidazole (single 2 g oral dose). Steps: (1) Frothy yellow-green discharge + strawberry cervix = classic trichomoniasis. (2) Protozoan STDs are treated with nitroimidazoles, not antibiotics. (3) Partner must be treated simultaneously to prevent reinfection. A wrong answer (e.g., \"Candida, treated with fluconazole\") confuses protozoal with fungal infection; missing partner treatment reveals ignorance of reinfection cycles.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the long-term complications of untreated syphilis and untreated HPV infection in women. Which poses a greater risk of malignancy?",
+     "a": "Untreated syphilis progresses through primary (chancre), secondary (rash, condylomata lata), latent, and tertiary stages (gummas, cardiovascular/neurosyphilis) — rarely malignant. Untreated high-risk HPV (types 16, 18) persists and integrates into host DNA, causing cervical intraepithelial neoplasia (CIN) → cervical cancer. HPV poses far greater malignancy risk. A wrong answer (e.g., \"syphilis causes cancer\") confuses chronic inflammation with oncogenic viral integration; missing CIN progression shows gap in viral carcinogenesis knowledge.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Vaccination alone can eliminate STDs from a population.\" Support your judgement with two biological reasons.",
+     "a": "False. (1) Vaccines exist only for Hepatitis B and HPV — not for bacterial (gonorrhoea, syphilis, chlamydia), protozoal (trichomoniasis), or other viral STDs (HIV, HSV). (2) Vaccines prevent infection but do not treat existing infections; asymptomatic carriers continue transmission. Elimination requires combined biomedical (vaccines, treatment), behavioural (ABC), and structural (screening, partner notification) interventions. A wrong answer (e.g., \"true, vaccines give herd immunity\") ignores the limited vaccine portfolio and the role of asymptomatic reservoirs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a community-level intervention to reduce STD incidence among migrant workers in an industrial town. Include one behavioural, one biomedical, and one structural component.",
+     "a": "Behavioural: Peer-led workshops in native language promoting condom use and reducing stigma. Biomedical: Monthly mobile clinic offering free syndromic management (WHO flowcharts) + Hepatitis B/HPV vaccination camps. Structural: Employer-mandated paid leave for STD treatment + confidential partner-notification slips. Good answer integrates all three levels; poor answer focuses only on condoms or only on clinics, missing the socio-ecological model.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

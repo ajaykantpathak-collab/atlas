@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_04_011",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_04_011",
+   "title": "c11_chem_cbse_04_011",
+   "questions": [
+    {
+     "q": "Define resonance hybrid and explain why canonical structures are not real, independently existing structures.",
+     "a": "A resonance hybrid is the actual molecular structure represented as a weighted average of two or more canonical (contributing) Lewis structures. Canonical structures are not real because: (1) they differ only in electron positions, not nuclear positions; (2) the molecule does not oscillate between them; (3) no single canonical form matches experimental data (bond lengths, dipole moments); (4) the hybrid has lower energy (greater stability) than any contributor. A wrong answer (e.g., \"the molecule flips between structures\") reveals the classic misconception of resonance as a dynamic equilibrium rather than a static delocalization model.",
+     "self_check": true
+    },
+    {
+     "q": "The experimentally determined O–O bond length in ozone (O₃) is 128 pm. A typical O–O single bond is 148 pm and O=O double bond is 121 pm. Using resonance theory, explain this observation and calculate the bond order of each O–O bond in O₃.",
+     "a": "Ozone has two major canonical forms: O=O–O ↔ O–O=O. In the resonance hybrid, each O–O bond is a \"1.5 bond\" – intermediate between single and double. Bond order = (total bonds in all canonical forms)/(number of canonical forms) = (1+2)/2 = 1.5. The observed bond length (128 pm) lies between 121 pm (double) and 148 pm (single), consistent with bond order 1.5. A wrong answer (e.g., \"bond order is 1 or 2\") shows failure to grasp that resonance averages bond orders, not that one structure is \"correct\".",
+     "self_check": true
+    },
+    {
+     "q": "Draw all three canonical resonance structures for the carbonate ion (CO₃²⁻). Calculate the formal charge on each atom in one structure. Determine the C–O bond order in the resonance hybrid.",
+     "a": "Step 1: Central C, three terminal O atoms. Total valence electrons = 4 (C) + 3×6 (O) + 2 (charge) = 24.\nStep 2: Skeleton: three C–O single bonds use 6 electrons. Remaining 18 electrons complete octets on terminal O atoms (6 each).\nStep 3: Carbon has only 6 electrons. Form one C=O double bond using a lone pair from one O. This gives three equivalent structures with the double bond rotating among the three O atoms.\nStep 4: Formal charge in one structure: C = 4 – 0 – ½(8) = 0; Double-bonded O = 6 – 4 – ½(4) = 0; Each single-bonded O = 6 – 6 – ½(2) = –1. Net charge = –2.\nStep 5: Bond order = (1+1+2)/3 = 4/3 ≈ 1.33. All three C–O bonds are equivalent. A wrong answer (e.g., drawing structures with different atom connectivity or missing the –2 charge) indicates poor Lewis structure fundamentals.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the resonance in CO₂ and CO₃²⁻. CO₂ has two canonical forms (O=C=O ↔ ⁻O–C≡O⁺ ↔ ⁺O≡C–O⁻) while CO₃²⁻ has three equivalent forms. How does the number and equivalence of canonical forms relate to the bond order and bond length in each species?",
+     "a": "In CO₂, the two major canonical forms are not equivalent: O=C=O (zero formal charges) is far more stable than the charge-separated forms ⁻O–C≡O⁺. The resonance hybrid is dominated by the symmetric form, giving bond order ≈ 2 (experimental 116 pm, close to C=O 121 pm). In CO₃²⁻, all three canonical forms are equivalent (same formal charge distribution), contributing equally. Bond order = 4/3 = 1.33, bond length = 129 pm (intermediate between C–O 143 pm and C=O 121 pm). A wrong answer (e.g., \"CO₂ bond order is 1.5\") shows misunderstanding that resonance hybrid weights structures by stability, not just counts them equally.",
+     "self_check": true
+    },
+    {
+     "q": "Two students propose canonical forms for the nitrite ion (NO₂⁻):\nStudent A: O=N–O⁻ (with lone pairs)\nStudent B: ⁻O–N≡O⁺\nEvaluate which structure contributes more to the resonance hybrid. Justify using formal charges and electronegativity.",
+     "a": "Structure A: FC(N) = 5 – 2 – ½(6) = 0; FC(double-bonded O) = 6 – 4 – ½(4) = 0; FC(single-bonded O) = 6 – 6 – ½(2) = –1. Net charge –1.\nStructure B: FC(N) = 5 – 0 – ½(8) = +1; FC(triple-bonded O) = 6 – 2 – ½(6) = +1? Wait: triple-bonded O has 2 lone pair electrons? Let's recalc: ⁻O–N≡O⁺. Left O: 6 – 6 – ½(2) = –1. N: 5 – 0 – ½(8) = +1. Right O: 6 – 2 – ½(6) = +1? That gives net +1. Actually correct structure is ⁻O–N=O with double bond? Standard nitrite resonance: O=N–O⁻ ↔ ⁻O–N=O. The form with N≡O would have FC(N)=+1, FC(O)=0? Let's do properly: For ⁻O–N≡O: Left O: 6–6–1=–1. N: 5–0–4=+1. Right O: 6–2–3=+1. Net +1, not –1. So Student B's structure is invalid (wrong net charge). Even if corrected, Structure A has smaller formal charges (0, 0, –1) and places negative charge on electronegative O. Structure A contributes more. A wrong evaluation (e.g., \"both contribute equally\") reveals failure to apply formal charge and electronegativity criteria for weighting canonical forms.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment or observation that could distinguish between a molecule with localized double bonds (like ethene) and one with resonance-delocalized bonds (like benzene), using only bond length data or chemical reactivity.",
+     "a": "Good answer: Measure C–C bond lengths via X-ray diffraction. Ethene shows distinct C=C (133 pm) and C–C (154 pm) bonds. Benzene shows all six C–C bonds identical at 139 pm (intermediate). Alternatively, test reactivity: ethene undergoes rapid addition reactions (e.g., Br₂ decolorization) due to localized π-bond; benzene resists addition, preferring substitution, because delocalization stabilizes the ring. A poor answer (e.g., \"burn them and see\") shows inability to connect resonance theory to measurable physical/chemical properties.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "catalog": "catalog_class9_science_ch112.json",
+ "concepts": [
+  {
+   "id": "iesc.112.1",
+   "title": "Biodiversity and Endemic Species",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is biodiversity?",
+     "a": "The variety of life in a region - different plants, animals and microorganisms, their genes and ecosystems.",
+     "self_check": true
+    },
+    {
+     "q": "Why are hotspots of biodiversity important?",
+     "a": "They hold very high species richness, so protecting them saves many species at once.",
+     "self_check": true
+    },
+    {
+     "q": "What are endemic species?",
+     "a": "Species found only in one particular area, like the lion-tailed macaque of the Western Ghats - losing that habitat kills the species.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.112.2",
+   "title": "Criteria for Biological Classification",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "On what basis are organisms classified?",
+     "a": "On similarities and differences in body design, cell structure, nutrition and evolutionary relationships.",
+     "self_check": true
+    },
+    {
+     "q": "Why is classification needed in biology?",
+     "a": "Millions of species exist; grouping them makes studying, naming and identifying organisms possible.",
+     "self_check": true
+    },
+    {
+     "q": "What is the difference between autotrophic and heterotrophic modes used in classification?",
+     "a": "Autotrophs make their own food (plants); heterotrophs depend on others (animals, fungi) - a basic basis for grouping.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.112.3",
+   "title": "Five Kingdom Classification System",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the five kingdoms of Whittaker's classification.",
+     "a": "Monera, Protista, Fungi, Plantae and Animalia.",
+     "self_check": true
+    },
+    {
+     "q": "On what main criteria is the five-kingdom system based?",
+     "a": "Cell structure (prokaryote/eukaryote), body organisation, cell wall presence and mode of nutrition.",
+     "self_check": true
+    },
+    {
+     "q": "Why were bacteria placed in a separate kingdom Monera?",
+     "a": "They are prokaryotes - no true nucleus or organelles - unlike all other organisms.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.112.4",
+   "title": "Kingdom Monera",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are the chief features of kingdom Monera?",
+     "a": "Prokaryotic, mostly unicellular, cell wall may or may not be present, nutrition autotrophic or heterotrophic.",
+     "self_check": true
+    },
+    {
+     "q": "Give two examples of Monera.",
+     "a": "Bacteria and blue-green algae (cyanobacteria).",
+     "self_check": true
+    },
+    {
+     "q": "Name one useful and one harmful Moneran.",
+     "a": "Useful: Lactobacillus making curd; harmful: cholera-causing bacteria.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.112.5",
+   "title": "Kingdom Protista",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What characterises kingdom Protista?",
+     "a": "Unicellular eukaryotes with a true nucleus; nutrition autotrophic or heterotrophic.",
+     "self_check": true
+    },
+    {
+     "q": "Give two examples of Protista.",
+     "a": "Amoeba and Paramecium (also Euglena, Chlamydomonas).",
+     "self_check": true
+    },
+    {
+     "q": "How do protists differ from Monerans?",
+     "a": "Protists have a membrane-bound nucleus and organelles; Monerans are prokaryotes without them.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.112.6",
+   "title": "Kingdom Fungi",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are the main features of kingdom Fungi?",
+     "a": "Eukaryotic, mostly multicellular, cell wall of chitin, saprotrophic heterotrophic nutrition.",
+     "self_check": true
+    },
+    {
+     "q": "Give two examples of fungi.",
+     "a": "Mushroom and yeast (also bread mould Rhizopus, Penicillium).",
+     "self_check": true
+    },
+    {
+     "q": "Why are fungi called decomposers?",
+     "a": "They feed on dead organic matter, breaking it down and recycling nutrients.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.112.7",
+   "title": "Classification of Kingdom Plantae",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What basis is used to classify Plantae groups?",
+     "a": "Whether plants have distinct body parts, vascular tissues, seeds, and whether seeds are naked or in fruits.",
+     "self_check": true
+    },
+    {
+     "q": "Name the major groups of the plant kingdom in order of evolution.",
+     "a": "Thallophyta (algae) -> Bryophyta -> Pteridophyta -> Gymnosperms -> Angiosperms.",
+     "self_check": true
+    },
+    {
+     "q": "How do angiosperms differ from gymnosperms?",
+     "a": "Angiosperm seeds are enclosed in fruits; gymnosperm seeds are naked (as in pine).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.112.8",
+   "title": "Classification of Kingdom Animalia",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What criterion separates Porifera from Cnidaria?",
+     "a": "Porifera have pores and no tissues or symmetry; Cnidaria have a body cavity and tentacles with stinging cells.",
+     "self_check": true
+    },
+    {
+     "q": "How are vertebrates different from invertebrates?",
+     "a": "Vertebrates have a backbone (notochord becomes vertebral column) and a dorsal nerve cord; invertebrates lack it.",
+     "self_check": true
+    },
+    {
+     "q": "Name two warm-blooded vertebrate groups.",
+     "a": "Aves (birds) and Mammalia (mammals).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.112.9",
+   "title": "Taxonomic Hierarchy",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is taxonomic hierarchy?",
+     "a": "The ranked grouping of organisms from broadest to narrowest: kingdom -> phylum/division -> class -> order -> family -> genus -> species.",
+     "self_check": true
+    },
+    {
+     "q": "Which is the smallest unit of classification?",
+     "a": "Species - a group of organisms that can interbreed naturally.",
+     "self_check": true
+    },
+    {
+     "q": "Why is binomial naming used with hierarchy?",
+     "a": "The two-part scientific name (genus + species) uniquely identifies each species worldwide.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.112.10",
+   "title": "Binomial Nomenclature",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is binomial nomenclature?",
+     "a": "The two-word scientific naming system: first the genus name, then the species name, both in Latin style.",
+     "self_check": true
+    },
+    {
+     "q": "Who introduced binomial nomenclature?",
+     "a": "Carolus Linnaeus.",
+     "self_check": true
+    },
+    {
+     "q": "Write the binomial name of the mango correctly formatted.",
+     "a": "Mangifera indica - genus capitalised, species in lower case, both in italics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

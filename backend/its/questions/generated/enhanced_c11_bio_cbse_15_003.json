@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_15_003",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_15_003",
+   "title": "c11_bio_cbse_15_003",
+   "questions": [
+    {
+     "q": "Name the four chambers of the human heart and state which chamber receives deoxygenated blood from the body and which pumps oxygenated blood to the systemic circulation.",
+     "a": "The four chambers are: right atrium, right ventricle, left atrium, left ventricle. The right atrium receives deoxygenated blood from the body via the superior and inferior vena cava. The left ventricle pumps oxygenated blood into the aorta for systemic circulation.  \nA wrong answer (e.g., saying the left atrium receives blood from the body) reveals the student has not internalised the fundamental separation of pulmonary and systemic circuits — a Class 10 concept that must be solid before advancing to valve function or pressure dynamics.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the wall of the left ventricle is significantly thicker than the wall of the right ventricle, even though both pump the same volume of blood per beat.",
+     "a": "The left ventricle pumps blood into the high-resistance systemic circulation (long arteries, arterioles, capillaries throughout the body), requiring it to generate a much higher pressure (~120 mmHg systolic) than the right ventricle, which pumps into the low-resistance, short pulmonary circulation (~25 mmHg systolic). Thicker myocardium = greater contractile force = higher pressure generation.  \nA wrong answer (e.g., \"left ventricle pumps more blood\" or \"left side is bigger\") shows the student is confusing volume with pressure, or has not linked anatomy to the physics of fluid flow (resistance = pressure/flow). This misconception will cripple their understanding of hypertension and heart failure later.",
+     "self_check": true
+    },
+    {
+     "q": "A patient is diagnosed with a defective bicuspid (mitral) valve that does not close completely during ventricular systole. Predict the immediate hemodynamic consequence in the left atrium and the pulmonary veins, and explain why this leads to dyspnea (breathlessness) on exertion.",
+     "a": "During left ventricular systole, the incompetent bicuspid valve allows blood to regurgitate back into the left atrium. This increases left atrial pressure, which transmits backward into the pulmonary veins and pulmonary capillaries, raising pulmonary capillary hydrostatic pressure. This promotes fluid filtration into the alveoli (pulmonary edema), impairing gas exchange and causing dyspnea, especially during exercise when cardiac output and pressures rise further.  \nA wrong answer (e.g., \"blood flows back into the right atrium\" or \"no effect on lungs\") reveals the student cannot trace pressure consequences backward through the circuit, or does not understand that the pulmonary and systemic circuits are connected in series — a failure of the \"double circulation\" concept from Class 10.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the structure of the tricuspid valve and the bicuspid (mitral) valve. Why does the tricuspid valve have three cusps while the bicuspid has two, despite both being atrioventricular valves?",
+     "a": "Both valves prevent backflow from ventricles to atria during systole. The tricuspid valve (right AV valve) has three cusps; the bicuspid/mitral valve (left AV valve) has two. The difference is not functionally significant for valve competence — both achieve a tight seal via chordae tendineae and papillary muscles. The three-cusp vs two-cusp morphology is likely an embryological/developmental variation without major hemodynamic consequence. What matters is that both are anchored to ventricular walls by chordae tendineae to prevent eversion (prolapse) under high ventricular pressure.  \nA wrong answer (e.g., \"tricuspid has three cusps because right ventricle has three walls\" or \"bicuspid is stronger because it has two cusps\") shows the student is inventing structure-function relationships that don't exist, instead of recognizing that valve competence depends on the chordae-papillary apparatus, not cusp count.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The interventricular septum is thicker than the interatrial septum because it separates oxygenated blood (left ventricle) from deoxygenated blood (right ventricle), while the interatrial septum only separates two chambers that both receive blood.\" Is this reasoning correct? Justify.",
+     "a": "The statement is incorrect. The thickness of a septum is determined by the pressure difference it must withstand, not by the oxygenation status of the blood it separates. The interventricular septum is thick because it separates the high-pressure left ventricle (systemic pressure ~120 mmHg) from the low-pressure right ventricle (pulmonary pressure ~25 mmHg). The interatrial septum is thin because both atria are low-pressure chambers (both ~5-10 mmHg). The oxygenation difference is irrelevant to structural thickness — the interatrial septum also separates oxygenated (left atrium) from deoxygenated (right atrium) blood, yet it is thin.  \nA wrong evaluation (agreeing with the statement) reveals the student is using \"oxygenated vs deoxygenated\" as a proxy for \"high pressure vs low pressure\" — a dangerous oversimplification that will cause errors in understanding shunt physiology (e.g., VSD, ASD) and Eisenmenger syndrome.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple physical model using household materials (plastic bottles, tubing, balloons, one-way valves) to demonstrate the one-way flow of blood through the four heart chambers and the role of the AV and semilunar valves. Describe the materials, assembly, and how you would simulate atrial and ventricular systole.",
+     "a": "Materials: Two large plastic bottles (ventricles), two small bottles (atria), flexible tubing (vessels), four one-way check valves (e.g., from aquarium pumps or homemade from balloon flaps), red/blue colored water. Assembly: Connect vena cava tubing to right atrium bottle, place tricuspid valve between right atrium and right ventricle, connect pulmonary artery tubing from right ventricle with pulmonary valve. Similarly, pulmonary veins to left atrium, bicuspid valve, left ventricle, aortic valve to aorta tubing. Fill with colored water (blue for right side, red for left). Simulation: Squeeze atria bottles gently (atrial systole) — water flows through open AV valves into ventricles. Then squeeze ventricles firmly (ventricular systole) — AV valves close (prevent backflow), semilunar valves open, water ejects into arteries. Release ventricles (diastole) — semilunar valves close, AV valves open as atria refill.  \nA poor model (e.g., no valves, or valves that don't close properly) reveals the student does not grasp that valve action is passive and pressure-dependent, not active. They may also miss that atrial systole contributes only ~30% of ventricular filling — the model should show ventricles filling mostly by gravity/relaxation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

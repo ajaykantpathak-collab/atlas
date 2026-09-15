@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_04_004",
+   "title": "c11_psy_cbse_04_004",
+   "questions": [
+    {
+     "q": "Name the three smallest bones in the human body located in the middle ear and state their collective function in the hearing process.",
+     "a": "The three auditory ossicles are the malleus (hammer), incus (anvil), and stapes (stirrup). Their collective function is **impedance matching**: they amplify the force of tympanic membrane vibrations by ~22x (via lever ratio of malleus:incus ≈ 1.3:1 and area ratio of tympanic membrane:oval window ≈ 17:1) to efficiently transfer airborne sound energy into the fluid-filled cochlea. A wrong answer (e.g., \"they transmit sound to the brain\" or \"they vibrate the cochlea directly\") reveals the student confuses mechanical conduction with neural transduction and misses the critical physics concept of impedance matching between air and perilymph.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a person with a perforated tympanic membrane experiences conductive hearing loss but can still hear bone-conducted sound (e.g., via a tuning fork on the mastoid process).",
+     "a": "A perforated eardrum disrupts the *air-conduction pathway*: sound pressure waves cannot effectively vibrate the tympanic membrane, so the ossicular chain receives reduced force, impairing impedance matching. However, bone-conducted sound bypasses the outer/middle ear entirely — vibrations travel directly through skull bones to the cochlear fluids, stimulating hair cells. A wrong answer (e.g., \"bone conduction also requires the eardrum\") reveals the student does not understand the dual pathways to the cochlea and mistakenly thinks all sound must pass through the tympanic membrane.",
+     "self_check": true
+    },
+    {
+     "q": "A 45-year-old factory worker has difficulty hearing high-pitched sounds (e.g., alarms, children's voices) but hears low-pitched sounds normally. Audiometry shows a 4000 Hz notch. Using the place theory of pitch perception, explain which specific region of the basilar membrane is damaged and why high frequencies are affected first.",
+     "a": "High frequencies (like 4000 Hz) are encoded at the **base of the cochlea** (near the oval window), where the basilar membrane is narrow and stiff. Chronic noise exposure causes metabolic exhaustion and mechanical shearing of outer hair cells at this high-stress basal region. Low frequencies are encoded at the **apex** (wide, flexible), which remains intact. A wrong answer (e.g., \"high frequencies are at the apex\") reverses the tonotopic map, showing the student memorized terms but not the physical basis of frequency-to-place mapping (stiffness gradient).",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the mechanisms of **place theory** and **volley principle** in pitch coding. For a 500 Hz tone, which mechanism dominates and why?",
+     "a": "Place theory: pitch is coded by the *location* of maximal basilar membrane displacement (tonotopic map) — effective for high frequencies (>4000 Hz) where phase-locking fails. Volley principle: groups of auditory nerve fibers fire in *staggered volleys* to collectively match the stimulus frequency — effective for low-mid frequencies (100–4000 Hz) where individual neurons cannot fire fast enough. For 500 Hz, **volley principle dominates** because the frequency exceeds the maximal firing rate of a single neuron (~1000 Hz) but is within the range where phase-locking is precise. A wrong answer (e.g., \"place theory for all pitches\") ignores the physiological limit of neural firing rates and the need for temporal coding at mid-frequencies.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Loudness perception depends solely on the amplitude of the sound wave.\" Use concepts of frequency sensitivity (equal-loudness contours) and outer hair cell amplification to justify your answer.",
+     "a": "The claim is **false**. Loudness is a *perceptual* attribute, not a physical one. Two factors disprove \"amplitude alone\": (1) **Equal-loudness contours (Fletcher-Munson curves)**: the ear is most sensitive at 2000–4000 Hz; a 100 Hz tone at 60 dB SPL sounds quieter than a 1000 Hz tone at 60 dB SPL. (2) **Outer hair cell (OHC) amplification**: OHCs actively amplify basilar membrane motion via electromotility (prestin motor), providing up to 40–60 dB of gain *selectively* for soft sounds at characteristic frequencies. This nonlinear gain means loudness grows compressively, not linearly with amplitude. A wrong answer (e.g., \"amplitude determines loudness directly\") treats the ear as a linear microphone, ignoring its active, frequency-dependent nonlinear processing.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration (using only a tuning fork, a plastic tube, and water) to show that the ear performs **frequency analysis** (Fourier decomposition) rather than just detecting overall vibration. Describe the procedure, expected observation, and the auditory principle it illustrates.",
+     "a": "**Procedure**: Strike a 512 Hz tuning fork. Hold it over a plastic tube partially submerged in water (acting as a closed-end resonator). Raise/lower the tube to find the length where resonance occurs (loudest sound). **Observation**: Resonance occurs at tube length ≈ 16 cm (λ/4 for 512 Hz). If you simultaneously strike a 256 Hz fork, the tube will *not* resonate at the same length — it requires ≈ 32 cm. **Principle**: The air column (like the basilar membrane) responds selectively to *one frequency component* of a complex sound. This mimics the cochlea's frequency-to-place mapping: different places resonate to different frequencies. A poor demonstration (e.g., just holding fork to ear) only shows \"sound is vibration\" and fails to reveal spectral decomposition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_11_001",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_11_001",
+   "title": "c11_cs_cbse_11_001",
+   "questions": [
+    {
+     "q": "Define a computer network in your own words, and state the one characteristic that distinguishes it from a mere collection of computers connected by cables.",
+     "a": "A computer network is a set of autonomous computers interconnected by a transmission medium to share resources and information using common protocols. The distinguishing characteristic is **autonomy** — each computer operates independently and can function without the network; if one fails, others continue working. A wrong answer that focuses only on \"cables connecting computers\" reveals the misconception that physical connection alone constitutes a network, ignoring the logical layer of protocols and resource-sharing purpose.",
+     "self_check": true
+    },
+    {
+     "q": "A school has 20 computers in a lab, all connected to a central switch. The switch is not connected to the internet or any server. Students can only run programs installed locally on each machine. Is this a computer network? Justify your answer using the definition of resource sharing.",
+     "a": "No, this is not a computer network in the functional sense. Although the computers are physically interconnected, no resources (files, printers, applications, internet) are being shared between them — each operates as a standalone system. A wrong answer claiming \"yes, because they are connected by cables\" reveals the misconception that physical topology equals a network. The student must understand that *resource sharing* is the defining purpose; without it, the infrastructure is merely a potential network, not an operational one.",
+     "self_check": true
+    },
+    {
+     "q": "Your family has a desktop, a laptop, a smartphone, and a smart TV. You want to print a document from the smartphone to a USB printer connected to the desktop, and stream a movie from the laptop to the smart TV. List the four essential network components required for each scenario and identify which component differs between the two.",
+     "a": "For printing: Sender = smartphone, Receiver = desktop (attached to printer), Medium = Wi-Fi (home router), Protocol = IP/TCP/printing protocol (e.g., IPP). For streaming: Sender = laptop, Receiver = smart TV, Medium = Wi-Fi (same router), Protocol = IP/TCP/streaming protocol (e.g., DLNA/UPnP). The **protocol** differs because printing and streaming require different application-layer rules. A wrong answer that lists the same protocol for both reveals the misconception that \"the network\" uses one universal protocol for all tasks, rather than a protocol stack where the application layer changes with the service.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the resource-sharing capabilities of a peer-to-peer (P2P) network of three laptops versus a client-server network with one server and three clients. In which scenario does the failure of one device cause the greatest disruption to resource access? Explain why.",
+     "a": "In the client-server model, failure of the **server** disrupts resource access for all three clients simultaneously because the server is the centralized resource provider. In the P2P model, failure of one laptop only removes the resources hosted on that specific laptop; the other two can still share with each other. A wrong answer claiming P2P is more vulnerable reveals the misconception that decentralized systems are inherently less reliable, confusing *absence of central control* with *absence of redundancy*. The student must analyze the *role* of each node, not just count devices.",
+     "self_check": true
+    },
+    {
+     "q": "A company decides to replace all standalone PCs with a networked environment. The IT manager argues: \"Networks eliminate all data loss risks because files are stored on multiple computers.\" Evaluate this claim. Is it fully true, partially true, or false? Provide two specific network-related risks that actually *increase* with networking.",
+     "a": "The claim is **false**. Networking introduces new risks: (1) **Unauthorized access** — a breach on one node can expose shared resources across the network; (2) **Malware propagation** — a virus/worm on one machine can spread automatically to others via shared drives or network exploits. While centralized backups *can* reduce data loss, the network itself does not guarantee it. A wrong answer accepting the claim reveals the misconception that networking is purely beneficial without trade-offs, ignoring the expanded attack surface — a critical concept for the cyber safety nodes ahead (c11_cs_cbse_11_010 onwards).",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal home network for a family of four that allows: (a) printing from any device to a single printer, (b) accessing a shared photo library from any device, (c) parental control on internet access for children's devices. Draw a labeled diagram showing devices, connections, and the *one* additional hardware component needed beyond the router. Explain why that component is necessary.",
+     "a": "Diagram: ISP modem → Wireless Router (with built-in switch/AP) → {Parent phones, Kids' tablets, Laptop, Network Printer, NAS (Network Attached Storage)}. The **NAS** is the additional component — it provides always-on, centralized storage for the photo library without requiring a specific computer to stay on. A poor answer that uses a laptop as the file server reveals the misconception that any computer can act as a server *reliably*; it ignores the server requirements of uptime, storage redundancy, and access control — concepts that lead into node c11_cs_cbse_11_008 (Client-Server Architecture).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

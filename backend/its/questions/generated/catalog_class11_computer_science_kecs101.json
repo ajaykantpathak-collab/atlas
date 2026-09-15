@@ -1,0 +1,192 @@
+{
+ "catalog": "catalog_class11_computer_science_kecs101",
+ "concepts": [
+  {
+   "id": "kecs101.1",
+   "title": "Units of Digital Memory",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Units of Digital Memory' refers to.",
+     "a": "Stored data is counted in binary digits; eight of them form a byte, and bigger units such as kilobyte, megabyte, gigabyte and terabyte are each 1024 times the unit just below them.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Units of Digital Memory'.",
+     "a": "Each step up the memory ladder multiplies the capacity by 1024, so conversions chain factor after factor.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Units of Digital Memory', in plain ASCII form.",
+     "a": "bits = mb * 1024 * 1024 * 8",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs101.2",
+   "title": "Bits, Nibbles and Words",
+   "questions": [
+    {
+     "q": "Using the method 'Bits, Nibbles and Words', work with: word_bits = 15. Carry the chain through step by step and give the final value of byte_count.",
+     "a": "1 bytes",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Bits, Nibbles and Words' and work with: word_bits = 80. Carry the chain through step by step and give the final value of byte_count.",
+     "a": "10 bytes",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Bits, Nibbles and Words' refers to.",
+     "a": "A single binary digit is a bit; four bits grouped together make a nibble, two nibbles make a byte, and a word is the block of bits a processor handles in one go.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Bits, Nibbles and Words'.",
+     "a": "Grouping starts at 4 bits per nibble and 8 bits per byte, then grows to the processor's word size.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Bits, Nibbles and Words', in plain ASCII form.",
+     "a": "byte_count = word_bits // 8",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs101.3",
+   "title": "Data Transfer over the System Bus",
+   "questions": [
+    {
+     "q": "Using the method 'Data Transfer over the System Bus', work with: bus_rate_mbps = 8, file_mb = 8192. Carry the chain through step by step and give the final value of time_s.",
+     "a": "8192 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Data Transfer over the System Bus' and work with: bus_rate_mbps = 18, file_mb = 512. Carry the chain through step by step and give the final value of time_s.",
+     "a": "227.5556 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Data Transfer over the System Bus' refers to.",
+     "a": "Wires that carry data, addresses and control signals between the CPU, memory and devices together form the system bus; moving a block of data takes at least its size divided by the link's transfer rate.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Data Transfer over the System Bus'.",
+     "a": "The data bus runs both ways, while address and control buses carry information in one direction only.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Data Transfer over the System Bus', in plain ASCII form.",
+     "a": "time_s = mbit / bus_rate_mbps",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs101.4",
+   "title": "Clock Speed and Instruction Throughput",
+   "questions": [
+    {
+     "q": "Using the method 'Clock Speed and Instruction Throughput', work with: clock_ghz = 40, cycles_per_instr = 80. Carry the chain through step by step and give the final value of instr_per_sec.",
+     "a": "500000000 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Clock Speed and Instruction Throughput' and work with: clock_ghz = 45, cycles_per_instr = 75. Carry the chain through step by step and give the final value of instr_per_sec.",
+     "a": "600000000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Clock Speed and Instruction Throughput' refers to.",
+     "a": "An internal clock emits pacing pulses at a fixed rate; a higher clock rate or fewer cycles needed per instruction lets the processor finish more instructions every second.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Clock Speed and Instruction Throughput'.",
+     "a": "A gigahertz rating means billions of pacing pulses each second, which sets the pace of execution.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Clock Speed and Instruction Throughput', in plain ASCII form.",
+     "a": "instr_per_sec = clock_ghz * 1000000000 / cycles_per_instr",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs101.5",
+   "title": "Moore's Law Transistor Growth",
+   "questions": [
+    {
+     "q": "Using the method 'Moore's Law Transistor Growth', work with: base_count = 15, years = 50. Carry the chain through step by step and give the final value of transistors.",
+     "a": "503316480 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Moore's Law Transistor Growth' and work with: base_count = 20, years = 50. Carry the chain through step by step and give the final value of transistors.",
+     "a": "671088640 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Moore's Law Transistor Growth' refers to.",
+     "a": "An observation made in 1965 that the count of transistors fitted onto a single chip tends to double roughly every two years, which drives the exponential rise in computing power.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Moore's Law Transistor Growth'.",
+     "a": "A count that doubles every two years turns modest beginnings into astronomically dense chips within a decade.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Moore's Law Transistor Growth', in plain ASCII form.",
+     "a": "transistors = base_count * 2 ** (years // 2)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs101.6",
+   "title": "Structured, Semi-structured and Unstructured Data",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Structured, Semi-structured and Unstructured Data' refers to.",
+     "a": "Records that sit in fixed rows and columns are structured; items carrying internal tags, like HTML pages or CSV files, are semi-structured; free-form media such as audio, video and photographs are unstructured.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Structured, Semi-structured and Unstructured Data'.",
+     "a": "Check for a rigid table format, internal tags, or neither, and that decides the data type.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Structured, Semi-structured and Unstructured Data', in plain ASCII form.",
+     "a": "classify(source) as structured, semi-structured or unstructured",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs101.7",
+   "title": "Language Translators and Machine Code",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Language Translators and Machine Code' refers to.",
+     "a": "A processor acts only on machine code, so source code must first be converted: assemblers handle assembly language, compilers render a whole program in one pass, and interpreters convert plus run a single line at a time.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Language Translators and Machine Code'.",
+     "a": "A compiled program runs afterwards without its translator, but an interpreted program needs the interpreter present on every run.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Language Translators and Machine Code', in plain ASCII form.",
+     "a": "source code -> translator -> object code",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

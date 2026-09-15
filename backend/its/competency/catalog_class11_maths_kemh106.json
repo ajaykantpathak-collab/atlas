@@ -1,0 +1,189 @@
+{
+ "class": 11,
+ "subject": "maths",
+ "chapter": 106,
+ "chapter_title": "Permutations and Combinations",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kemh106.txt",
+ "concepts": [
+  {
+   "id": "kemh.106.1.1",
+   "title": "Fundamental Principle of Counting",
+   "section": "",
+   "definition": "The fundamental principle of counting states that if one event can occur in m ways and a second independent event in n ways, then the two together occur in m times n ways, and the rule extends by multiplication to any number of successive choices.",
+   "formula": "",
+   "key_idea": "arrangements = options ** positions",
+   "textbook_ref": "Repeated choices from the same set of options over several positions give options raised to the number of positions, as in number plates and codes.",
+   "question_patterns": "kemh106.txt fundamental principle sections",
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the theme or source",
+     "explain": "Note the period, place and evidence the question concerns."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter narrative",
+     "explain": "Match the theme with the chapter's account and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms of the chapter."
+    }
+   ]
+  },
+  {
+   "id": "kemh.106.2.1",
+   "title": "Permutations: Arrangements in Order",
+   "section": "",
+   "definition": "A permutation is an arrangement of objects in a definite order, the number of permutations of n distinct objects taken r at a time is written nPr, and permutations with repetitions use n to the power r, while arrangements of objects with repetitions are counted by dividing by the repeated factorials.",
+   "formula": "",
+   "key_idea": "Order matters in permutations, so AB and BA are different arrangements, unlike combinations.",
+   "textbook_ref": "kemh106.txt permutations sections",
+   "question_patterns": [
+    "define permutation and write the formula for npr",
+    "calculate the number of arrangements of n objects taken r at a time",
+    "find the permutations when objects repeat",
+    "how many words can be formed from the letters of a word",
+    "distinguish permutation from combination with examples",
+    "arrange objects around a circle using permutations"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the theme or source",
+     "explain": "Note the period, place and evidence the question concerns."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter narrative",
+     "explain": "Match the theme with the chapter's account and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms of the chapter."
+    }
+   ]
+  },
+  {
+   "id": "kemh.106.3.1",
+   "title": "Combinations: Selections Without Order and the Pair Count",
+   "section": "",
+   "definition": "A combination selects r objects from n without regard to order, written nCr, and every pair of objects chosen from n distinct objects gives n times n minus one divided by two selections, since each pair is counted twice in the ordered arrangements.",
+   "formula": "",
+   "key_idea": "pair_count = n * (n - 1) / 2",
+   "textbook_ref": "Combinations ignore order, so the number of handshakes among n people equals the number of pairs n times n minus one over two.",
+   "question_patterns": "kemh106.txt combinations sections",
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the theme or source",
+     "explain": "Note the period, place and evidence the question concerns."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter narrative",
+     "explain": "Match the theme with the chapter's account and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms of the chapter."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kemh106.txt fundamental principle section",
+   "concept": "kemh.106.1.1",
+   "question_type": "compute_arrangements",
+   "question_pattern": "A licence plate uses letters or digits where each of {positions} positions can take {options} choices. Calculate the total number of distinct plates possible.",
+   "extracted_variables": {
+    "positions": 3,
+    "options": 26
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "raise options to the number of positions",
+     "explain": "Compute the number of options raised to the number of positions to get the total arrangements",
+     "compute": "arrangements = options ** positions"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kemh106.txt fundamental principle section",
+   "concept": "kemh.106.1.1",
+   "question_type": "compute_arrangements",
+   "question_pattern": "A lock opens with a code of {positions} digits, each digit having {options} choices. Find how many codes are possible.",
+   "extracted_variables": {
+    "positions": 4,
+    "options": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "raise options to the number of positions",
+     "explain": "Compute the number of options raised to the number of positions to get the total arrangements",
+     "compute": "arrangements = options ** positions"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "kemh106.txt combinations section",
+   "concept": "kemh.106.3.1",
+   "question_type": "compute_pair_count",
+   "question_pattern": "In a meeting of {n} people every person shakes hands with every other person exactly once. Calculate the total number of handshakes.",
+   "extracted_variables": {
+    "n": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply n by n minus one and halve",
+     "explain": "Multiply n by n minus one and divide by two to get the number of unordered pairs",
+     "compute": "pair_count = n * (n - 1) / 2"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "kemh106.txt combinations section",
+   "concept": "kemh.106.3.1",
+   "question_type": "compute_pair_count",
+   "question_pattern": "A class of {n} students must pick exactly two representatives as a pair. Find the number of different pairs that can be formed.",
+   "extracted_variables": {
+    "n": 12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply n by n minus one and halve",
+     "explain": "Multiply n by n minus one and divide by two to get the number of unordered pairs",
+     "compute": "pair_count = n * (n - 1) / 2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kemh106.txt exercises",
+   "questions": [
+    "How many 3-digit numbers can be formed from the given digits without repetition?",
+    "How many words with or without meaning can be formed from the letters of a word?",
+    "In how many ways can a committee be selected from the given people?",
+    "Find n if the given permutation relation holds.",
+    "Determine the number of 5-card combinations from a deck of 52 cards."
+   ]
+  }
+ ]
+}

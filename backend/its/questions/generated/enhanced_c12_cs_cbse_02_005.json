@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_02_005",
+   "title": "c12_cs_cbse_02_005",
+   "questions": [
+    {
+     "q": "What is the fundamental structural difference between a tree topology and a simple star topology?",
+     "a": "A tree topology has multiple hierarchical levels (root → intermediate hubs → leaf nodes) forming a branching structure, whereas a star topology has exactly one central hub with all nodes directly connected to it (single level). A wrong answer (e.g., \"both have a central hub\") reveals the student is focusing only on the central device and missing the multi-level hierarchy that defines tree topology — a critical distinction for scalability and fault isolation.",
+     "self_check": true
+    },
+    {
+     "q": "A company uses a hybrid topology combining star and ring. The star segment connects workstations to a switch in each department; the ring segment connects departmental switches. If a single workstation's cable fails in the star segment, what happens to the rest of the network? Explain why.",
+     "a": "Only that workstation loses connectivity; the rest of the network (other workstations in the same department, other departments, and the ring backbone) remains unaffected. In a star segment, each node has a dedicated link to the central switch — a cable break isolates only that node. A wrong answer (e.g., \"the whole department goes down\" or \"the ring breaks\") shows the student incorrectly assumes the star segment shares a single cable like a bus, or that the ring backbone depends on star segment integrity — confusing hybrid behavior with pure ring or bus failure modes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a tree topology for a university with: 1 main campus switch (root), 4 building switches (level 1), and each building has 3 floor switches (level 2) connecting 20 PCs each. How many total PCs can be supported? How many cable segments (links) are needed between switches only (excluding PC-to-floor-switch links)?",
+     "a": "Total PCs = 4 buildings × 3 floors × 20 PCs = 240 PCs. Switch-to-switch links: root to 4 building switches = 4 links; each building switch to 3 floor switches = 4 × 3 = 12 links; total = 16 links. A wrong answer (e.g., 240 PCs but 12 links) reveals the student missed the root-to-building level links, indicating they don't visualize the full hierarchy — a common error when drawing tree topologies under exam pressure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare tree topology and hybrid (star-ring) topology on these parameters: (a) fault isolation when a non-root switch fails, (b) cabling cost for 100 nodes spread over 5 buildings, (c) ease of adding a new building. Which topology would you recommend for a growing university campus? Justify.",
+     "a": "(a) Tree: failure of a level-1 building switch disconnects its entire building (all level-2 switches and PCs). Hybrid (star-ring): if a departmental switch (star center) fails, only that department is down; ring backbone remains intact if it uses dual-ring or wrapping. (b) Tree uses shared backbone (bus-like) between buildings → less cable than hybrid's dedicated ring links between buildings. (c) Tree: add a new building by tapping the backbone (easy). Hybrid: must insert a new node into the ring (requires breaking/reconfiguring ring). Recommendation: Tree topology for growing campus — easier incremental expansion, lower cabling cost, and building-level fault isolation is acceptable if each building has internal redundancy. A wrong recommendation without justification (e.g., \"hybrid because it's more modern\") shows the student cannot map topology properties to real-world constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Hybrid topology is always superior to tree topology because it combines the best features of multiple topologies.\" Provide two specific counterexamples where tree would be better.",
+     "a": "The statement is false. Hybrid topologies introduce complexity (multiple protocols, media, management tools) and higher cost. Counterexample 1: A small school with 3 buildings and limited IT staff — tree topology's single backbone and uniform star segments are far easier to manage and troubleshoot than a hybrid mix. Counterexample 2: A temporary event network (e.g., conference) needing quick setup — tree's hierarchical plug-and-play (backbone + access switches) deploys faster than configuring a hybrid ring-star integration. A wrong answer (e.g., \"hybrid is always better because it's flexible\") reveals the student equates \"more features\" with \"better\" without considering operational overhead — a classic competitive-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel hybrid topology for a smart factory with these zones: (1) Assembly line — needs deterministic low-latency communication (2) Quality control — high-bandwidth video streams (3) Warehouse — mobile robots needing seamless roaming (4) Office — standard data traffic. Sketch the topology, name the basic topologies used in each zone and the backbone, and explain why your design fits each zone's requirements.",
+     "a": "Expected design: Assembly line → ring topology (deterministic token-passing for real-time control). Quality control → star topology with high-speed switch (dedicated bandwidth per camera). Warehouse → mesh topology (wireless mesh for robot roaming redundancy). Office → star topology (cost-effective). Backbone → dual-ring fiber connecting zone switches (fault-tolerant core). Good answer justifies each choice with zone-specific needs. A poor answer (e.g., \"use star everywhere\") shows inability to match topology properties to application requirements — a key competency for board case-study questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

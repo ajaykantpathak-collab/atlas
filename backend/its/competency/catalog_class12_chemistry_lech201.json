@@ -1,0 +1,470 @@
+{
+ "class": 12,
+ "subject": "chemistry",
+ "chapter": 201,
+ "chapter_title": "Haloalkanes and Haloarenes",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lech201.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lech201.6.1.1",
+   "title": "Classifying Organohalides by Halogen Count and Carbon Framework",
+   "section": "6.1",
+   "definition": "Organohalides sort first by how many halogen atoms they carry, then monohalides sort again by the kind of carbon holding the halogen: an sp3 carbon in an alkyl group, an sp3 carbon beside a double bond or aromatic ring, or an sp2 carbon of a double bond or ring.",
+   "formula": "alkyl_halide_series = c_n_h_(2n+1)_x",
+   "key_idea": "Allylic and benzylic labels describe sp3 carbons that neighbour a C=C or a ring; vinylic and aryl labels describe sp2 carbons, which resist substitution.",
+   "textbook_ref": "lech201.txt section 6.1, classification tree and examples (lines ~103-160)",
+   "question_patterns": [
+    "classify CH3CH=CHCH2Cl as an alkyl, allylic, benzylic, vinylic or aryl halide",
+    "state whether the halogen in C6H5CH2Cl sits on a benzylic carbon",
+    "sort the compounds bromobenzene, allyl bromide and 2-bromobutane into their halide classes",
+    "identify the class of halide in which chlorine is bonded to an sp2 carbon of a benzene ring",
+    "which class does a halide belong to when X is attached to the sp3 carbon next to a double bond",
+    "tell apart geminal and vicinal dihalides with one example formula each"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "locate the carbon bonded to the halogen",
+     "explain": "every class label hangs on this one carbon"},
+    {"step": 2, "action": "read its hybridisation and its neighbours",
+     "explain": "sp3 next to C=C means allylic, sp3 next to a ring means benzylic, sp3 in a plain chain means alkyl (1, 2 or 3 degree by attached carbons), sp2 on C=C means vinylic, sp2 in a ring means aryl"}
+   ]
+  },
+  {
+   "id": "lech201.6.2.1",
+   "title": "IUPAC Naming of Haloalkanes and Haloarenes",
+   "section": "6.2",
+   "definition": "IUPAC names treat the halogen as a prefix on the parent hydrocarbon: take the longest chain containing the halogen-bearing carbon, number it so substituents get the lowest locants, and order prefixes alphabetically.",
+   "formula": "name = halogen_prefix + locants + parent_hydrocarbon",
+   "key_idea": "gem-dihalides keep both halogens on one carbon while vic-dihalides place them on neighbouring carbons; o-, m-, p- of the common system become 1,2-, 1,3-, 1,4- in IUPAC.",
+   "textbook_ref": "lech201.txt section 6.2 with Table 6.1 name pairs (lines ~161-233)",
+   "question_patterns": [
+    "write the IUPAC name of CH3CH2CH(Cl)CH3",
+    "give the systematic name for neopentyl bromide, (CH3)3CCH2Br",
+    "rename sec-butyl chloride under the IUPAC system",
+    "what is the IUPAC equivalent of vinyl chloride",
+    "draw the structure of 2-chloro-3-methylpentane from its name",
+    "convert the common name allyl bromide into its systematic name"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "pick the parent chain through the C-X carbon",
+     "explain": "the longest chain holding the halogen carbon sets the hydrocarbon name"},
+    {"step": 2, "action": "number for lowest locants and list prefixes",
+     "explain": "halo and alkyl prefixes go alphabetically with their positions"}
+   ]
+  },
+  {
+   "id": "lech201.6.4.1.1",
+   "title": "Making Haloalkanes from Alcohols",
+   "section": "6.4.1",
+   "definition": "The -OH group of an alcohol gives way to a halogen on treatment with a concentrated halogen acid, a phosphorus halide, or thionyl chloride; SOCl2 is the cleanest choice because SO2 and HCl leave as gases and the halide needs no distilling.",
+   "formula": "byproducts_with_socl2 = so2_gas + hcl_gas",
+   "key_idea": "Primary and secondary alcohols need ZnCl2 with dry HCl, tertiary alcohols react on mere shaking with concentrated HCl, and the alcohol reactivity order with one haloacid runs 3 > 2 > 1.",
+   "textbook_ref": "lech201.txt section 6.4.1 (lines ~358-381)",
+   "question_patterns": [
+    "which reagent converts an alcohol to an alkyl chloride most cleanly and why",
+    "name the catalyst required when a primary alcohol reacts with dry HCl",
+    "how is an alkyl bromide prepared by constant-boiling acid",
+    "why does thionyl chloride give a pure alkyl halide without distillation",
+    "predict whether tertiary butanol reacts with concentrated HCl at room temperature",
+    "choose a route from propan-1-ol to 1-iodopropane using phosphorus reagents"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "match the alcohol class to the reagent",
+     "explain": "3 degree alcohols react with concentrated HCl alone; 1 and 2 degree need ZnCl2 catalyst"},
+    {"step": 2, "action": "check the by-product route for purity",
+     "explain": "SOCl2 wins because gaseous SO2 and HCl escape, leaving the halide behind"}
+   ]
+  },
+  {
+   "id": "lech201.6.4.3.1",
+   "title": "Halogen Exchange: Finkelstein and Swarts Reactions",
+   "section": "6.4.3",
+   "definition": "Halogen swap reactions cover the halides other syntheses miss: NaI in dry acetone turns an alkyl chloride or bromide into the iodide (Finkelstein), and a metal fluoride such as AgF, Hg2F2, CoF2 or SbF3 delivers the fluoride (Swarts).",
+   "formula": "finkelstein_product = alkyl_iodide_from_rcl_or_rbr_with_nai",
+   "key_idea": "NaCl or NaBr precipitates out of dry acetone, pulling the Finkelstein equilibrium toward the iodide exactly as Le Chatelier predicts.",
+   "textbook_ref": "lech201.txt section 6.4.3 (lines ~437-450)",
+   "question_patterns": [
+    "what happens when 1-chlorobutane is heated with NaI in dry acetone",
+    "name the reaction that converts an alkyl bromide into an alkyl iodide",
+    "which reagent suite turns chloroethane into fluoroethane",
+    "state the role of dry acetone in the Finkelstein exchange",
+    "predict the organic product when ethyl bromide meets AgF",
+    "explain why the chloride precipitate helps the iodide form"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify which halide is wanted",
+     "explain": "iodides come from NaI in acetone; fluorides come from Swarts metal fluorides"},
+    {"step": 2, "action": "write the departing halogen salt",
+     "explain": "the NaCl or NaBr by-product precipitating in acetone drives the exchange forward"}
+   ]
+  },
+  {
+   "id": "lech201.6.5.1",
+   "title": "Aryl Halides via Diazonium Salts (Sandmeyer Route)",
+   "section": "6.5",
+   "definition": "Diazotising a primary aromatic amine in cold mineral acid builds a diazonium salt; cuprous chloride or cuprous bromide then replaces the diazonium group with Cl or Br, while potassium iodide alone installs iodine.",
+   "formula": "sandmeyer_product = aryl_halide_from_diazonium_plus_cuprous_halide",
+   "key_idea": "Direct iodination of arenes is reversible and needs an oxidant for the HI formed, so the diazonium route is the practical entry to aryl iodides.",
+   "textbook_ref": "lech201.txt section 6.5, Sandmeyer and electrophilic substitution (lines ~450-468)",
+   "question_patterns": [
+    "how is chlorobenzene prepared from aniline in the laboratory",
+    "which copper salt carries a diazonium group to bromobenzene",
+    "name the reaction that swaps a diazonium group for chlorine",
+    "why does replacing the diazonium group by iodine need no cuprous halide",
+    "predict the product when a benzenediazonium salt is shaken with KI",
+    "state the conditions under which a primary aromatic amine forms a diazonium salt"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "diazotise the amine",
+     "explain": "sodium nitrite in cold aqueous mineral acid converts the primary aromatic amine into the diazonium salt"},
+    {"step": 2, "action": "swap the diazonium group for the halogen",
+     "explain": "CuCl or CuBr gives the aryl chloride or bromide; KI alone gives the aryl iodide"}
+   ]
+  },
+  {
+   "id": "lech201.6.6.1",
+   "title": "Boiling Point, Melting Point and Density Trends of Halides",
+   "section": "6.6",
+   "definition": "Polarity plus extra electrons make halide boiling points sit above those of parent hydrocarbons; with one fixed alkyl group the boiling order runs RI > RBr > RCl > RF, branching pushes boiling points down, and symmetry lifts the melting point of para-dihalobenzenes above their ortho and meta isomers.",
+   "formula": "bp_order_same_alkyl = ri > rbr > rcl > rf",
+   "key_idea": "Bromo, iodo and polychloro derivatives are denser than water, and haloalkanes stay nearly insoluble in water because no comparably strong attractions replace broken hydrogen bonds.",
+   "textbook_ref": "lech201.txt section 6.6, Fig 6.1, Table 6.3 and solubility (lines ~487-580)",
+   "question_patterns": [
+    "arrange bromomethane, bromoform, chloromethane and dibromomethane by rising boiling point",
+    "rank the isomeric butyl chlorides by boiling point and justify the lowest one",
+    "why does p-dichlorobenzene melt higher than its ortho and meta isomers",
+    "which halide of a given alkyl group boils highest: iodide, bromide, chloride or fluoride",
+    "explain why haloalkanes barely dissolve in water yet mix with organic solvents",
+    "compare the densities of n-propyl chloride, n-propyl bromide and n-propyl iodide"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "weigh surface area against symmetry",
+     "explain": "branching cuts contact area so boiling point drops; para symmetry packs the crystal so melting point rises"},
+    {"step": 2, "action": "follow halogen mass down the group",
+     "explain": "heavier, more polarisable halogens strengthen dispersion forces and add density"}
+   ]
+  },
+  {
+   "id": "lech201.6.7.1.1",
+   "title": "SN2 Kinetics: Bimolecular Substitution Rate",
+   "section": "6.7.1",
+   "definition": "A bimolecular substitution is a single backside attack in which bond making and bond breaking happen together, so the rate tracks both concentrations: rate constant times halide molarity times nucleophile molarity.",
+   "formula": "rate_sn2 = k_sn2 * conc_halide * conc_nuc",
+   "key_idea": "Crowding around the reacting carbon sets the speed order primary > secondary > tertiary, and every SN2 event inverts the configuration like an umbrella in wind.",
+   "textbook_ref": "lech201.txt section 6.7.1(a), SN2 mechanism and Fig 6.2-6.3 (lines ~726-813)",
+   "question_patterns": [
+    "a 0.10 M chloromethane solution meets 0.20 M hydroxide with rate constant 0.25; calculate the initial SN2 rate",
+    "find the second-order substitution rate when the alkyl bromide is 0.05 M, cyanide is 0.15 M and k equals 1.2",
+    "determine how fast 0.30 M ethyl chloride reacts with 0.40 M hydroxide if the bimolecular rate constant is 0.015",
+    "what rate does the attack of 0.50 M iodide on 0.25 M 1-bromopropane show when k is 3.6",
+    "compute the consumption rate of a haloalkane in an SN2 reaction from both molarities and the rate constant",
+    "the rate constant for hydroxide attacking a primary chloride is 0.08; work out the rate at 0.12 M halide and 0.30 M nucleophile"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "multiply the two molarities",
+     "explain": "the bimolecular rate law needs the product of the halide and nucleophile concentrations",
+     "compute": "combined_conc = conc_halide * conc_nuc"},
+    {"step": 2, "action": "scale by the rate constant",
+     "explain": "the second-order rate constant converts the concentration product into a rate",
+     "compute": "rate_sn2 = k_sn2 * combined_conc"}
+   ]
+  },
+  {
+   "id": "lech201.6.7.1.2",
+   "title": "SN1 Kinetics: Unimolecular Substitution Rate",
+   "section": "6.7.1",
+   "definition": "An unimolecular substitution runs through a slow ionisation that frees a planar carbocation, so only the alkyl halide molarity governs the rate; halide molarity is moles divided by litres, then scaled by the rate constant.",
+   "formula": "rate_sn1 = k_sn1 * conc_halide",
+   "key_idea": "Carbocation stability puts tertiary, benzylic and allylic halides on top for SN1, and attack on either face of the flat intermediate racemises a chiral substrate.",
+   "textbook_ref": "lech201.txt section 6.7.1(b), SN1 mechanism with tert-butyl bromide (lines ~814-932)",
+   "question_patterns": [
+    "0.06 mol of tert-butyl bromide is made up to 300 mL; with k = 0.0045 per second find the initial SN1 rate",
+    "calculate the first-order solvolysis rate for 0.025 mol of a tertiary chloride in 500 mL given k = 0.002",
+    "a solution holds 0.10 mol of alkyl halide in 2.0 L; determine the unimolecular substitution rate at k = 0.011",
+    "what initial rate follows for hydrolysis of 0.04 mol in 800 mL when the first-order constant is 0.006",
+    "compute the solvolysis speed of a tertiary bromide from its moles, solution volume and rate constant",
+    "determine the SN1 rate from the halide molarity alone and explain why the nucleophile is absent from the law"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "convert moles and volume to molarity",
+     "explain": "the rate law uses concentration, so divide the dissolved moles by the volume in litres",
+     "compute": "conc_halide = moles_halide / vol_litres"},
+    {"step": 2, "action": "scale by the first-order constant",
+     "explain": "only the alkyl halide enters the rate because ionisation is the slow step",
+     "compute": "rate_sn1 = k_sn1 * conc_halide"}
+   ]
+  },
+  {
+   "id": "lech201.6.7.1.3",
+   "title": "Optical Activity and Specific Rotation",
+   "section": "6.7.1",
+   "definition": "A polarimeter reads the angle by which a chiral sample twists plane-polarised light; dividing that reading by tube length in decimetres and by solution concentration gives the specific rotation, a fingerprint of the compound itself.",
+   "formula": "spec_rot = obs_angle / (tube_dm * conc)",
+   "key_idea": "A plus sign marks clockwise (dextrorotatory) twist and a minus sign anticlockwise (laevorotatory) twist, but neither sign reveals the absolute configuration.",
+   "textbook_ref": "lech201.txt section 6.7.1(c)(i), polarimeter and d/l forms (lines ~891-905)",
+   "question_patterns": [
+    "a 1.0 dm tube holds a solution of 0.20 g per mL and the polarimeter reads +2.6 degrees; find the specific rotation",
+    "calculate the specific rotation for an observed twist of -1.98 degrees in a 1.5 dm tube at 0.30 g per mL",
+    "a chiral solute at 0.50 g per mL gives a 1.15 degree reading in a 0.5 dm cell; determine its specific rotation",
+    "determine the specific rotation of a compound whose 2.0 dm tube reading is 3.4 degrees at concentration 0.10",
+    "what specific rotation belongs to a sample reading -2.4 degrees in a 1.0 dm cell at 0.40 g per mL",
+    "compute the standard rotation from the polarimeter angle, the decimetre tube length and the concentration"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "normalise the reading per decimetre",
+     "explain": "longer tubes proportionally rotate light further, so divide the observed angle by tube length",
+     "compute": "per_dm = obs_angle / tube_dm"},
+    {"step": 2, "action": "normalise per unit concentration",
+     "explain": "rotation also scales with how much solute each millilitre carries",
+     "compute": "spec_rot = per_dm / conc"}
+   ]
+  },
+  {
+   "id": "lech201.6.7.1.4",
+   "title": "Racemic Mixtures and Enantiomeric Excess",
+   "section": "6.7.1",
+   "definition": "Mirror-image isomers rotate light equally but oppositely, so an equal-amount mixture reads zero; comparing a sample rotation with the pure enantiomer rotation measures how far the mixture sits from racemic, expressed as a percentage.",
+   "formula": "ee_percent = (obs_rot / pure_rot) * 100",
+   "key_idea": "SN1 solvolysis of an optically active halide racemises it because the flat carbocation is attacked from both faces, unlike SN2 which inverts cleanly.",
+   "textbook_ref": "lech201.txt section 6.7.1(c), racemisation and SN1 vs SN2 stereochemistry (lines ~1016-1104)",
+   "question_patterns": [
+    "the pure enantiomer of a compound rotates at +9.0 degrees and a sample reads +4.5 degrees; find the enantiomeric excess",
+    "calculate the percentage excess of one enantiomer when the sample rotation is 3.2 against 8.0 for the pure isomer",
+    "a mixture shows 2.1 degrees while the pure form gives 7.0 degrees; determine its optical purity",
+    "determine how far a sample with observed rotation 5.4 sits from racemic when the pure enantiomer gives 6.0",
+    "what percent enantiomeric excess matches an observed rotation of -3.6 against a pure rotation of -4.8",
+    "compute the excess-enantiomer percentage from the sample and pure-enantiomer rotations"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "form the rotation ratio",
+     "explain": "sample rotation divided by pure-enantiomer rotation equals the fraction of net excess",
+     "compute": "rot_ratio = obs_rot / pure_rot"},
+    {"step": 2, "action": "convert the fraction to a percentage",
+     "explain": "multiplying by 100 reports the enantiomeric excess on the percent scale",
+     "compute": "ee_percent = rot_ratio * 100"}
+   ]
+  },
+  {
+   "id": "lech201.6.7.1.5",
+   "title": "Ambident Nucleophiles: KCN versus AgCN",
+   "section": "6.7.1",
+   "definition": "Cyanide and nitrite ions offer two attacking atoms, so the counter-ion picks the product: ionic KCN frees cyanide ions that attack through carbon to give nitriles, whereas covalent AgCN leaves nitrogen to attack, giving isocyanides.",
+   "formula": "kcn_product = nitrile_via_carbon_attack",
+   "key_idea": "The same ambident logic separates KNO2, which yields alkyl nitrites through oxygen, from AgNO2, which yields nitroalkanes through nitrogen.",
+   "textbook_ref": "lech201.txt section 6.7.1, ambident nucleophiles and Table 6.4, Example 6.5 (lines ~646-748)",
+   "question_patterns": [
+    "why does ethyl bromide give a nitrile with KCN but an isocyanide with AgCN",
+    "define an ambident nucleophile and give one example pair of products",
+    "predict the main product when a haloalkane reacts with AgCN",
+    "which product forms through oxygen attack when KNO2 meets an alkyl halide",
+    "explain the role of the C-C versus C-N bond strength in cyanide attack",
+    "distinguish the products of KNO2 and AgNO2 with an alkyl bromide"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "read the counter-ion character",
+     "explain": "ionic K+ salts release the free ion; covalent Ag+ salts tie up one end so the other atom attacks"},
+    {"step": 2, "action": "name the linking atom and the product class",
+     "explain": "carbon attack gives cyanides or nitro compounds; nitrogen attack gives isocyanides or nitrites"}
+   ]
+  },
+  {
+   "id": "lech201.6.7.1.6",
+   "title": "Dehydrohalogenation and the Saytzeff Rule",
+   "section": "6.7.1",
+   "definition": "Alcoholic KOH strips HX from a haloalkane: the halogen leaves the alpha carbon and a hydrogen leaves a neighbouring beta carbon, building an alkene; when several beta positions exist, the alkene with more alkyl groups on its double-bond carbons dominates.",
+   "formula": "saytzeff_major = alkene_with_most_alkyl_groups_on_double_bond",
+   "key_idea": "Only beta hydrogens can leave, so counting distinct beta positions tells you how many alkenes are possible before applying Saytzeff to rank them.",
+   "textbook_ref": "lech201.txt section 6.7.1(2), elimination and Saytzeff rule (lines ~1105-1134)",
+   "question_patterns": [
+    "predict the major alkene when 2-bromopentane is heated with alcoholic KOH",
+    "which alkenes can form by dehydrohalogenation of 2-bromo-2-methylbutane and which dominates",
+    "apply the Saytzeff rule to pick the main product from 1-bromo-1-methylcyclohexane elimination",
+    "identify the alpha and beta carbons in 2-chlorobutane before elimination",
+    "state the reagent and conditions that convert a haloalkane into an alkene",
+    "why does 2-bromopentane favour pent-2-ene over pent-1-ene on elimination"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "mark alpha and beta carbons",
+     "explain": "the halogen carbon is alpha; each adjacent carbon is a possible beta site for hydrogen loss"},
+    {"step": 2, "action": "rank the possible alkenes by substitution",
+     "explain": "the double bond carrying more alkyl groups is the Saytzeff product and dominates"}
+   ]
+  },
+  {
+   "id": "lech201.6.7.2.1",
+   "title": "Haloarene Reactivity and Ortho-Para Direction",
+   "section": "6.7.2",
+   "definition": "Ring-bound halogens shrug off nucleophilic attack: resonance lends the C-X bond partial double-bond character, the sp2 ring carbon grips the electron pair more tightly than an sp3 carbon would, and a phenyl cation cannot survive; yet that same resonance directs electrophilic substitution to ortho and para even while the -I effect deactivates the ring.",
+   "formula": "no2_reactivity_boost = ortho_and_para_positions_only",
+   "key_idea": "An electron-withdrawing -NO2 group accelerates nucleophilic displacement from ortho or para (where resonance parks the carbanion charge on it) but never from meta.",
+   "textbook_ref": "lech201.txt section 6.7.2, low NS reactivity, NO2 effect, EAS orientation (lines ~1186-1281)",
+   "question_patterns": [
+    "explain why chlorobenzene resists nucleophilic substitution compared with a chloroalkane",
+    "why does p-nitrochlorobenzene hydrolyse faster than chlorobenzene with aqueous NaOH",
+    "why does a meta nitro group fail to speed up the displacement of chlorine",
+    "state whether chlorine is deactivating or activating in electrophilic aromatic substitution and where it directs attack",
+    "give the C-Cl bond lengths in haloarene and haloalkane and connect them to reactivity",
+    "why must chlorobenzene be heated to 623 K under pressure to form phenol with NaOH"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "test for resonance and hybridisation effects",
+     "explain": "partial double-bond character plus a shorter, tighter sp2 C-X bond blocks the SN routes and an unstable phenyl cation rules out SN1"},
+    {"step": 2, "action": "check the directing pattern",
+     "explain": "resonance donation raises electron density at ortho and para, so electrophiles attack there while the stronger -I effect slows the ring overall"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_lech201_1",
+   "source_ref": "lech201.txt section 6.7.1(a), SN2 rate discussion",
+   "concept": "lech201.6.7.1.1",
+   "question_type": "sn2_initial_rate",
+   "question_pattern": "A solution 0.10 M in chloromethane is treated with 0.20 M hydroxide. With k = 0.25 per molar per second, what initial rate does the SN2 substitution show?",
+   "extracted_variables": {"k_sn2": 0.25, "conc_halide": 0.10, "conc_nuc": 0.20},
+   "solution_template": [
+    {"step": 1, "action": "multiply the two molarities", "explain": "bimolecular rate law needs both concentrations", "compute": "combined_conc = conc_halide * conc_nuc"},
+    {"step": 2, "action": "scale by the rate constant", "explain": "k converts the product into a rate", "compute": "rate_sn2 = k_sn2 * combined_conc"}
+   ]
+  },
+  {
+   "id": "we_lech201_2",
+   "source_ref": "lech201.txt section 6.7.1(a), second-order kinetics",
+   "concept": "lech201.6.7.1.1",
+   "question_type": "sn2_initial_rate",
+   "question_pattern": "An alkyl bromide at 0.05 M meets 0.15 M cyanide with rate constant 1.2 per molar per second. Calculate the reaction rate.",
+   "extracted_variables": {"k_sn2": 1.2, "conc_halide": 0.05, "conc_nuc": 0.15},
+   "solution_template": [
+    {"step": 1, "action": "multiply the two molarities", "explain": "both reactants enter the rate law", "compute": "combined_conc = conc_halide * conc_nuc"},
+    {"step": 2, "action": "scale by the rate constant", "explain": "second-order constant applied", "compute": "rate_sn2 = k_sn2 * combined_conc"}
+   ]
+  },
+  {
+   "id": "we_lech201_3",
+   "source_ref": "lech201.txt section 6.7.1(b), tert-butyl bromide hydrolysis",
+   "concept": "lech201.6.7.1.2",
+   "question_type": "sn1_initial_rate",
+   "question_pattern": "0.06 mol of tert-butyl bromide is dissolved to make 300 mL of solution. With k = 0.0045 per second, find the initial SN1 rate.",
+   "extracted_variables": {"moles_halide": 0.06, "vol_litres": 0.3, "k_sn1": 0.0045},
+   "solution_template": [
+    {"step": 1, "action": "convert moles and volume to molarity", "explain": "rate law uses concentration", "compute": "conc_halide = moles_halide / vol_litres"},
+    {"step": 2, "action": "scale by the rate constant", "explain": "only the halide enters the SN1 rate", "compute": "rate_sn1 = k_sn1 * conc_halide"}
+   ]
+  },
+  {
+   "id": "we_lech201_4",
+   "source_ref": "lech201.txt section 6.7.1(b), first-order kinetics",
+   "concept": "lech201.6.7.1.2",
+   "question_type": "sn1_initial_rate",
+   "question_pattern": "A tertiary chloride solution contains 0.025 mol in 500 mL. Given k = 0.002 per second, calculate the solvolysis rate.",
+   "extracted_variables": {"moles_halide": 0.025, "vol_litres": 0.5, "k_sn1": 0.002},
+   "solution_template": [
+    {"step": 1, "action": "convert moles and volume to molarity", "explain": "0.025 mol in 0.5 L gives the molarity", "compute": "conc_halide = moles_halide / vol_litres"},
+    {"step": 2, "action": "scale by the rate constant", "explain": "first-order constant applied", "compute": "rate_sn1 = k_sn1 * conc_halide"}
+   ]
+  },
+  {
+   "id": "we_lech201_5",
+   "source_ref": "lech201.txt section 6.7.1(c)(i), polarimeter reading",
+   "concept": "lech201.6.7.1.3",
+   "question_type": "specific_rotation",
+   "question_pattern": "A 1.0 dm polarimeter tube holds a solution of concentration 0.20 g per mL and reads +2.6 degrees. Find the specific rotation.",
+   "extracted_variables": {"obs_angle": 2.6, "tube_dm": 1.0, "conc": 0.20},
+   "solution_template": [
+    {"step": 1, "action": "normalise per decimetre", "explain": "divide the observed angle by tube length", "compute": "per_dm = obs_angle / tube_dm"},
+    {"step": 2, "action": "normalise per unit concentration", "explain": "divide further by the solution concentration", "compute": "spec_rot = per_dm / conc"}
+   ]
+  },
+  {
+   "id": "we_lech201_6",
+   "source_ref": "lech201.txt section 6.7.1(c)(i), rotation sign conventions",
+   "concept": "lech201.6.7.1.3",
+   "question_type": "specific_rotation",
+   "question_pattern": "An optically active liquid shows -1.98 degrees in a 1.5 dm tube at 0.30 g per mL. Determine its specific rotation.",
+   "extracted_variables": {"obs_angle": -1.98, "tube_dm": 1.5, "conc": 0.30},
+   "solution_template": [
+    {"step": 1, "action": "normalise per decimetre", "explain": "the minus sign travels with the angle", "compute": "per_dm = obs_angle / tube_dm"},
+    {"step": 2, "action": "normalise per unit concentration", "explain": "concentration division gives the standard value", "compute": "spec_rot = per_dm / conc"}
+   ]
+  },
+  {
+   "id": "we_lech201_7",
+   "source_ref": "lech201.txt section 6.7.1(c), racemisation discussion",
+   "concept": "lech201.6.7.1.4",
+   "question_type": "enantiomeric_excess",
+   "question_pattern": "The pure enantiomer of a compound rotates at +9.0 degrees and a partially resolved sample reads +4.5 degrees. Find the enantiomeric excess in percent.",
+   "extracted_variables": {"obs_rot": 4.5, "pure_rot": 9.0},
+   "solution_template": [
+    {"step": 1, "action": "form the rotation ratio", "explain": "sample over pure gives the net excess fraction", "compute": "rot_ratio = obs_rot / pure_rot"},
+    {"step": 2, "action": "convert to percent", "explain": "multiply the fraction by 100", "compute": "ee_percent = rot_ratio * 100"}
+   ]
+  },
+  {
+   "id": "we_lech201_8",
+   "source_ref": "lech201.txt section 6.7.1(c), racemic mixture zero rotation",
+   "concept": "lech201.6.7.1.4",
+   "question_type": "enantiomeric_excess",
+   "question_pattern": "A mixture rotates plane-polarised light by 3.2 degrees while the pure isomer gives 8.0 degrees under identical conditions. Calculate its optical purity as a percentage.",
+   "extracted_variables": {"obs_rot": 3.2, "pure_rot": 8.0},
+   "solution_template": [
+    {"step": 1, "action": "form the rotation ratio", "explain": "3.2 over 8.0 measures the resolved fraction", "compute": "rot_ratio = obs_rot / pure_rot"},
+    {"step": 2, "action": "convert to percent", "explain": "percentage scale for optical purity", "compute": "ee_percent = rot_ratio * 100"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_lech201_6_1_to_6_4",
+   "source_ref": "lech201.txt end-of-chapter exercises 6.1-6.4",
+   "questions": [
+    "Name each halide by the IUPAC system and label it alkyl, allylic, benzylic, vinylic or aryl, including its 1, 2 or 3 degree type.",
+    "Write systematic names for six mixed halo structures spanning gem and vic arrangements.",
+    "Draw the structures of named halides such as 2-chloro-3-methylpentane and p-bromochlorobenzene.",
+    "Pick which of CH2Cl2, CHCl3 and CCl4 carries the largest dipole moment and argue from geometry."
+   ]
+  },
+  {
+   "id": "ex_lech201_6_5_to_6_8",
+   "source_ref": "lech201.txt end-of-chapter exercises 6.5-6.8",
+   "questions": [
+    "A hydrocarbon C5H10 refuses chlorine in the dark but yields one monochloride in sunlight; identify it and explain the equivalent hydrogens.",
+    "List every structural isomer of C4H9Br and classify each as primary, secondary or tertiary.",
+    "Write equations that deliver 1-iodobutane from butan-1-ol, from 1-chlorobutane and from but-1-ene.",
+    "Define ambident nucleophiles and illustrate with the cyanide versus isocyanide outcome."
+   ]
+  },
+  {
+   "id": "ex_lech201_6_9_to_6_17",
+   "source_ref": "lech201.txt end-of-chapter exercises 6.9-6.17",
+   "questions": [
+    "For each given pair, decide which compound is the faster SN2 substrate and defend the steric argument.",
+    "Predict every alkene from dehydrohalogenation of three branched halides with sodium ethoxide and mark the Saytzeff product.",
+    "Order each set of bromides by SN2 displacement rate and explain the trends with chain branching.",
+    "Compare hydrolysis ease of C6H5CH2Cl against C6H5CHClC6H5 by aqueous KOH and justify via carbocation stability."
+   ]
+  },
+  {
+   "id": "ex_lech201_6_18_to_6_22",
+   "source_ref": "lech201.txt end-of-chapter exercises 6.18-6.22",
+   "questions": [
+    "Discuss why p-dichlorobenzene melts above its ortho and meta isomers while their boiling points nearly agree.",
+    "Explain how aqueous and alcoholic KOH steer a haloalkane toward substitution or elimination products.",
+    "Trace a primary bromide through alcoholic KOH, then HBr, then sodium metal, and deduce every structure in the chain.",
+    "State the outcome when n-butyl chloride meets alcoholic KOH, bromobenzene meets magnesium in dry ether, and methyl bromide meets sodium in dry ether."
+   ]
+  }
+ ]
+}

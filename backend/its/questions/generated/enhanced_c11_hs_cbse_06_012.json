@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_06_012",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_06_012",
+   "title": "c11_hs_cbse_06_012",
+   "questions": [
+    {
+     "q": "State the full form of the acronym 'PAN' in the context of Bluetooth technology and specify the typical maximum range of a Class 2 Bluetooth device.",
+     "a": "PAN stands for Personal Area Network. A Class 2 Bluetooth device has a typical maximum range of 10 meters (approx. 33 feet). A wrong answer (e.g., \"Public Area Network\" or \"100 meters\") reveals confusion between PAN/LAN/WAN classifications or mixing up Bluetooth power classes (Class 1 = 100m, Class 2 = 10m, Class 3 = 1m).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Bluetooth uses Frequency Hopping Spread Spectrum (FHSS) instead of staying on a fixed frequency, and name the number of channels it hops across in the 2.4 GHz band.",
+     "a": "Bluetooth uses FHSS to minimize interference from other devices (Wi-Fi, microwaves) sharing the 2.4 GHz ISM band and to provide basic security by making eavesdropping harder. It hops across 79 channels (each 1 MHz wide) at 1600 hops/second. A wrong answer citing \"higher data speed\" or \"longer range\" as the primary reason for FHSS shows misunderstanding of spread spectrum trade-offs; FHSS actually reduces raw throughput slightly but improves reliability and coexistence.",
+     "self_check": true
+    },
+    {
+     "q": "An extension worker wants to transfer a 50 MB video file from her smartphone to a farmer's feature phone in a field with no internet. Both phones have Bluetooth. List the exact sequence of steps (including security steps) required to complete this transfer successfully.",
+     "a": "Steps: 1) Enable Bluetooth on both phones and set both to 'discoverable' mode. 2) Initiate pairing from one phone (search devices -> select other device). 3) Verify and accept the numeric passkey (or enter PIN on older devices) on both phones for authentication (SSP - Secure Simple Pairing). 4) Once paired, select the video file -> Share -> Bluetooth -> choose paired device. 5) Accept incoming file transfer on the recipient phone. 6) Wait for transfer completion (speed ~1-3 Mbps for Bluetooth 2.0/2.1+EDR). A wrong sequence (e.g., skipping passkey verification or trying to send before pairing) reveals lack of procedural understanding of the Bluetooth connection state machine.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Bluetooth and Wi-Fi (802.11n) for an extension worker conducting a video conference with a district office 5 km away. Analyze which technology is appropriate and why, considering range, infrastructure needs, and data rate.",
+     "a": "Wi-Fi (with a router connected to broadband/4G) is appropriate; Bluetooth is not. Wi-Fi range (~50-100m indoor) can cover the local area, but the 5 km link requires internet backhaul (cellular/fiber) — Wi-Fi only provides the last-hop wireless connection. Bluetooth's 10m range cannot bridge 5 km. Bluetooth lacks the bandwidth (max 3 Mbps for v2.1) for video conferencing; Wi-Fi 802.11n offers 150+ Mbps. A student choosing Bluetooth for the 5 km link confuses *personal area network* with *wide area network* and ignores infrastructure dependency.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Bluetooth 5.0 makes Wi-Fi obsolete for file transfer between smartphones because it offers 2 Mbps speed and 200m range.\" Defend your judgment with three technical arguments.",
+     "a": "The statement is false. Arguments: 1) Bluetooth 5.0's 2 Mbps PHY rate is *only* achievable in LE 2M PHY mode at short range; at 200m (long range mode), the data rate drops to 125 kbps or 500 kbps (coded PHY). 2) Wi-Fi Direct (peer-to-peer) offers 250+ Mbps real-world throughput without an access point, far exceeding Bluetooth for large files. 3) Bluetooth 5.0's 200m range requires line-of-sight and Class 1 power (100 mW), draining phone batteries rapidly; Wi-Fi Direct operates at similar power with 10x speed. A student agreeing with the statement overlooks the speed-range trade-off in Bluetooth 5.0 coded PHY and ignores Wi-Fi Direct's existence.",
+     "self_check": true
+    },
+    {
+     "q": "Design a low-cost digital communication kit for a Krishi Vigyan Kendra (KVK) to conduct weekly farmer training sessions in 5 nearby villages (each 3-8 km away). The kit must support: (a) live video demonstration from KVK to village, (b) farmer Q&A audio, (c) offline content distribution (PDFs, videos). Specify the hardware, software, and connectivity technologies for each component, justifying why Bluetooth is NOT used for the village link.",
+     "a": "Good answer includes: (a) Live video: KVK uses a laptop + webcam + 4G dongle (or broadband) -> Zoom/Google Meet -> village receives via a smartphone/tablet + 4G data + projector (HDMI) + Bluetooth speaker (for audio amplification *locally*). (b) Q&A: Farmers use smartphone mics (VoIP over 4G). (c) Offline content: Pre-load SD cards/USB drives at KVK; distribute physically or via local Wi-Fi hotspot (phone tethering) at village meeting. Bluetooth is only used for *last-meter* audio (phone to speaker) because its range (10m) cannot cover 3-8 km. A poor answer proposes Bluetooth for village-to-village or KVK-to-village links, ignoring the fundamental range limitation and confusing PAN with WAN.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

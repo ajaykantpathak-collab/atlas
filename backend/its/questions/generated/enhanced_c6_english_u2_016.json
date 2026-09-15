@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_english_u2_016",
+ "concepts": [
+  {
+   "id": "enh:c6_english_u2_016",
+   "title": "c6_english_u2_016",
+   "questions": [
+    {
+     "q": "What is the rhyme scheme of a standard limerick?",
+     "a": "The rhyme scheme is AABBA. A wrong answer here suggests the student has not yet internalized the structural pattern, requiring a review of rhyme identification.",
+     "self_check": true
+    },
+    {
+     "q": "Why are the third and fourth lines of a limerick usually shorter than the others?",
+     "a": "They are shorter to create a faster, bouncier rhythm that contrasts with the longer lines, helping the poem build toward the punchline. A wrong answer indicates the student is viewing the poem as just prose rather than a rhythmic, musical structure.",
+     "self_check": true
+    },
+    {
+     "q": "If a limerick starts with \"There was a young cat from Peru,\" what sound must the final word of the second line make to fit the structure?",
+     "a": "The second line must end with a word that rhymes with \"Peru\" (e.g., \"blue,\" \"grew,\" \"shoe\"). Failing this means the student does not grasp the \"A\" part of the AABBA rhyme requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze this: \"A boy went to school in a shoe, / He didn't know what he should do. / He tripped on a cat, / And fell on his hat, / Then turned into a bowl of beef stew.\" Why does the last line make this a limerick?",
+     "a": "It completes the AABBA rhyme scheme by rhyming with \"shoe\" and \"do\" while providing an absurd, humorous twist. If the student focuses only on the rhyme and ignores the \"absurdity,\" they miss the genre's defining feature of humor.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible to have a limerick where all five lines rhyme (AAAAA)? Why or why not?",
+     "a": "No, it is not a limerick because the structure requires the AABBA pattern, specifically the shorter, distinct rhyme for lines 3 and 4. Answering \"yes\" shows a fundamental misunderstanding of the definition of the form.",
+     "self_check": true
+    },
+    {
+     "q": "Write a one-line opening for a limerick about a clumsy elephant.",
+     "a": "\"There was a great elephant, Lou.\" Any opening that introduces a character and a setting is valid. An empty or off-topic response indicates the student hasn't grasped the narrative start of a limerick.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

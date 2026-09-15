@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_26_001",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_26_001",
+   "title": "c11_geo_cbse_26_001",
+   "questions": [
+    {
+     "q": "Define remote sensing in one sentence using the three essential components: object surface, energy waves, and recording device.",
+     "a": "Remote sensing is the acquisition of information about an object's surface properties by a recording device (sensor) not in physical contact, using electromagnetic energy waves as the information carrier. A wrong answer (e.g., \"taking photos from satellites\") reveals the student misses the non-contact principle, the role of EMR beyond visible light, or the measurement aspect — confusing remote sensing with simple aerial photography.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a fresh water body appears dark/black in a standard false colour composite (FCC) satellite image while healthy vegetation appears bright red, referencing specific spectral regions.",
+     "a": "Fresh water absorbs most incident energy in red and near-infrared (NIR) regions (low reflectance), appearing dark; healthy vegetation reflects strongly in NIR due to internal leaf structure (mesophyll), and in FCC, NIR is assigned red colour, so vegetation appears bright red. A wrong answer (e.g., \"water is blue so it looks dark\") reveals confusion between true colour and false colour composites, or ignorance of spectral signatures — the student thinks colour in FCC represents natural colour rather than assigned wavelength bands.",
+     "self_check": true
+    },
+    {
+     "q": "A whiskbroom scanner on a satellite has a swath width of 185 km and a spatial resolution of 30 m. Calculate the number of detectors required if it were a pushbroom scanner covering the same swath at the same resolution. Show your working.",
+     "a": "Number of detectors = Swath width / Spatial resolution = 185,000 m / 30 m = 6,167 detectors (rounded up). Steps: 1) Convert swath to metres (185 km = 185,000 m). 2) Divide by resolution (30 m). 3) Round up since detectors are discrete. A wrong answer (e.g., 6,166 or 185/30 = 6.16) reveals unit conversion error or misunderstanding that pushbroom uses linear detector arrays — each detector covers one pixel across the swath simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the atmospheric effects on EMR in the visible vs. microwave regions. Why are microwave sensors preferred for cloud-prone regions like the Western Ghats during monsoon?",
+     "a": "In visible region, water molecules and dust scatter blue light (Rayleigh scattering) and clouds block/reflect most energy; in microwave region, longer wavelengths penetrate clouds, rain, and smoke with minimal scattering/absorption. Microwave sensors (active/passive) thus provide consistent data during monsoon over Western Ghats where optical sensors fail. A wrong answer (e.g., \"microwaves have higher resolution\") reveals confusion between spectral penetration capability and spatial resolution — microwaves generally have coarser resolution but all-weather capability.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Higher spatial resolution always produces better thematic maps for agricultural monitoring.\" Justify with two arguments considering spectral and temporal resolution trade-offs.",
+     "a": "The statement is false. 1) Agricultural monitoring requires spectral resolution (e.g., red/NIR bands for NDVI) to distinguish crop health — a panchromatic high-spatial-resolution sensor (single band) cannot compute vegetation indices. 2) High spatial resolution often reduces swath width, increasing revisit time (lower temporal resolution), missing critical crop growth stages. Optimal monitoring balances spatial (field-level detail), spectral (crop discrimination), and temporal (frequent revisits) resolutions. A wrong answer focusing only on \"seeing smaller fields\" reveals inability to evaluate multi-resolution trade-offs — a key competency for sensor selection.",
+     "self_check": true
+    },
+    {
+     "q": "Design a visual interpretation key for identifying three land cover types (dense forest, urban built-up, fallow agricultural land) on a standard FCC image using tone/colour, texture, pattern, and association. Present as a table.",
+     "a": "| Land Cover | Tone/Colour (FCC) | Texture | Pattern | Association |\n|------------|-------------------|---------|---------|-------------|\n| Dense Forest | Deep red to magenta | Coarse (irregular canopy) | Contiguous, irregular boundaries | Associated with hilly terrain, river corridors |\n| Urban Built-up | Bluish-green to dark blue | Fine to medium (grid-like) | Geometric, rectilinear street patterns | Along transport networks, near water bodies |\n| Fallow Land | Light blue to white | Smooth | Large uniform rectangular patches | Adjacent to cropped land (bright red), often near settlements |\n\nA poor answer using only colour or copying Table 6.2 verbatim without synthesizing texture/pattern/association reveals rote memorization without application of interpretation elements to real-world discrimination.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

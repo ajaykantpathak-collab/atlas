@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch02_004",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch02_004",
+   "title": "c7_geo_ch02_004",
+   "questions": [
+    {
+     "q": "What is humidity?",
+     "a": "Humidity is the amount of water vapour present in the air. A wrong answer usually confuses humidity with precipitation or temperature, showing a failure to recognize water vapour as an invisible gas mixed in the atmosphere.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a wet shirt dry much faster on a hot, dry day in Rajasthan than on a humid, rainy day in Mumbai?",
+     "a": "On a dry day, the air has space to absorb more water vapour, speeding up evaporation. A wrong answer assumes that temperature alone dictates drying speed, ignoring the crucial role of existing moisture content in the air.",
+     "self_check": true
+    },
+    {
+     "q": "If air at 30°C can hold a maximum of 30 grams of water vapour per cubic metre, but currently contains 15 grams, what percentage of its capacity is filled?",
+     "a": "Steps: 1. Identify maximum capacity (30g). 2. Identify current water content (15g). 3. Divide current content by capacity (15 ÷ 30 = 0.5). 4. Multiply by 100 to find the percentage (0.5 × 100 = 50%). Answer: 50%. A wrong answer shows confusion in calculating relative ratios or misunderstanding saturation capacity.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why coastal regions like Kerala generally experience higher humidity throughout the year compared to interior plateau regions like Nagpur.",
+     "a": "Coastal regions are adjacent to large water bodies (Arabian Sea), providing a constant source of evaporation via sea breezes. Inland plateaus are farther from major water sources and experience drier continental winds. A wrong answer indicates a lack of understanding regarding how proximity to oceans affects atmospheric moisture.",
+     "self_check": true
+    },
+    {
+     "q": "Assess the statement: \"High humidity always results in heavy rainfall.\" Is this statement accurate or misleading?",
+     "a": "The statement is misleading. While high humidity is necessary for rain, rain only occurs when saturated air cools down sufficiently for condensation to form droplets heavy enough to fall. High humidity without cooling or a lifting mechanism results in fog, mist, or just muggy weather without precipitation. A wrong answer reveals a misconception that water vapour in the air automatically turns into falling rain.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple weather observation plan for a week in your school courtyard to track how humidity changes between morning and afternoon. What instruments or observations would you record?",
+     "a": "A good plan includes recording daily observations of skin stickiness, morning dew on grass, drying time of a wet cloth, and temperatures using a thermometer, noting how afternoon heat often lowers relative humidity while increasing evaporation. A poor answer lacks structured daily tracking or confuses humidity with wind speed.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

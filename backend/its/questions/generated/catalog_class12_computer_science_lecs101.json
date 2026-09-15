@@ -1,0 +1,193 @@
+{
+ "catalog": "catalog_class12_computer_science_lecs101",
+ "concepts": [
+  {
+   "id": "lecs101.1",
+   "title": "Syntax Errors versus Exceptions",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Syntax Errors versus Exceptions' refers to.",
+     "a": "A syntax error, also called a parsing error, breaks the language rules and stops the program before any statement runs; an exception, by contrast, is a Python object representing an error that appears mid-execution even when the code is syntactically correct, such as opening a missing file or dividing by zero.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Syntax Errors versus Exceptions'.",
+     "a": "Every syntax error surfaces as a SyntaxError exception, but most exceptions arise in perfectly well-formed programs.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Syntax Errors versus Exceptions', in plain ASCII form.",
+     "a": "syntax error -> before execution; exception -> during execution",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs101.2",
+   "title": "Built-in Exceptions of Python",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Built-in Exceptions of Python' refers to.",
+     "a": "Python's standard library predefines commonly occurring errors as built-in exceptions, each with a fixed trigger: ValueError for right type but wrong value, IOError for an unopenable file, ImportError for a missing module, ZeroDivisionError, IndexError, NameError, TypeError, IndentationError and others.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Built-in Exceptions of Python'.",
+     "a": "When a built-in exception fires, the interpreter prints its name plus a reason, and the programmer supplies the handler.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Built-in Exceptions of Python', in plain ASCII form.",
+     "a": "ZeroDivisionError -> denominator 0; IndexError -> subscript out of range; NameError -> undefined name",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs101.3",
+   "title": "Guarded Division and Remainder",
+   "questions": [
+    {
+     "q": "Using the method 'Guarded Division and Remainder', work with: denominator = 5, numerator = 6. Carry the chain through step by step and give the final value of leftover.",
+     "a": "1 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Guarded Division and Remainder' and work with: denominator = 18, numerator = 3. Carry the chain through step by step and give the final value of leftover.",
+     "a": "3 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Guarded Division and Remainder' refers to.",
+     "a": "The chapter's running example guards a division inside a try block so a zero denominator jumps to the except block; for a valid denominator the division also decomposes into a floor quotient and a remainder via // and %.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Guarded Division and Remainder'.",
+     "a": "The try block holds the risky statement, and only a non-zero denominator ever reaches the division itself.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Guarded Division and Remainder', in plain ASCII form.",
+     "a": "leftover = numerator % denominator",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs101.4",
+   "title": "Raising IndexError beyond the List",
+   "questions": [
+    {
+     "q": "Using the method 'Raising IndexError beyond the List', work with: length = 300, size = 256. Carry the chain through step by step and give the final value of gap.",
+     "a": "44 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Raising IndexError beyond the List' and work with: length = 500, size = 256. Carry the chain through step by step and give the final value of gap.",
+     "a": "244 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Raising IndexError beyond the List' refers to.",
+     "a": "The raise statement throws an exception on demand; the chapter's demo requests a length larger than the list named numbers holds, so raising IndexError manually mirrors what the interpreter would do on a bad subscript, and the statements after raise never execute.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Raising IndexError beyond the List'.",
+     "a": "A positive gap between the demanded length and the real list size is exactly the condition that fires the manual raise.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Raising IndexError beyond the List', in plain ASCII form.",
+     "a": "gap = length - size",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs101.5",
+   "title": "The raise and assert Statements",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The raise and assert Statements' refers to.",
+     "a": "raise throws an exception immediately with an optional message, while assert tests an expression and throws AssertionError carrying its message only when the expression evaluates false, which makes assert handy for validating inputs at the start of a function.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The raise and assert Statements'.",
+     "a": "In Program 1-1 the assert lets 100 pass and prints its square, but -350 trips the guard with the message about a negative number.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The raise and assert Statements', in plain ASCII form.",
+     "a": "assert Expression[, arguments]",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs101.6",
+   "title": "The try, except and else Clauses",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The try, except and else Clauses' refers to.",
+     "a": "Suspicious statements go inside a try block; each except clause names an exception and holds the handler that runs instead of the rest of the try block; an optional else clause runs only when no exception occurred at all.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The try, except and else Clauses'.",
+     "a": "Once an exception fires inside try, the remaining statements of that block are abandoned immediately.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The try, except and else Clauses', in plain ASCII form.",
+     "a": "no exception -> else runs; exception -> matching except runs",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs101.7",
+   "title": "Multiple Handlers and the Bare except",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Multiple Handlers and the Bare except' refers to.",
+     "a": "One try block may be followed by several except clauses, each catching a different exception type; a final except written without any exception name acts as the catch-all for anything the named handlers miss.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Multiple Handlers and the Bare except'.",
+     "a": "Entering a non-integer in Program 1-4 finds no ValueError handler match for ZeroDivisionError, so the unnamed final except absorbs it.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Multiple Handlers and the Bare except', in plain ASCII form.",
+     "a": "named except first, bare except last",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs101.8",
+   "title": "The finally Clause",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The finally Clause' refers to.",
+     "a": "A finally clause runs no matter what happened above it, which is why file closing code lives there; unlike except, running finally does not end a still-unhandled exception, which is re-raised after the block finishes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The finally Clause'.",
+     "a": "In Program 1-7 the message 'OVER AND OUT' appears even when a non-numeric input raises an unhandled exception.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The finally Clause', in plain ASCII form.",
+     "a": "finally -> always executes, error or not",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

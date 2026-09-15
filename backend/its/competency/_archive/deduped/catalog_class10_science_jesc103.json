@@ -1,0 +1,100 @@
+{
+ "class": 10,
+ "subject": "science",
+ "chapter": 3,
+ "chapter_title": "Metals and Non-metals",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jesc103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "jesc.103.3.1",
+   "title": "Physical Properties of Metals and Non-metals",
+   "section": "3.1",
+   "definition": "Metals are lustrous, malleable, ductile and good conductors of heat and electricity, with high melting points and sonority; non-metals are mostly brittle, dull and poor conductors - though exceptions like graphite conducting electricity and iodine's lustre remind us the rules bend.",
+   "formula": "-",
+   "key_idea": "Shine, bend, conduct - metals; brittle and dull - non-metals; but every rule has exceptions.",
+   "textbook_ref": "jesc103.txt section 3.1 (physical properties)",
+   "question_patterns": [
+    "list the physical properties of metals and non-metals",
+    "why are metals used to make electric wires - explain ductility and conductivity",
+    "which non-metal conducts electricity - justify",
+    "name the most ductile and the best conductor metal",
+    "why are non-metals brittle - explain",
+    "classify the given elements as metals or non-metals from their properties"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "test the metal properties",
+     "explain": "Check lustre, malleability, ductility and conduction."},
+    {"step": 2, "action": "compare the non-metals",
+     "explain": "Note brittleness, dullness and poor conduction."},
+    {"step": 3, "action": "respect the exceptions",
+     "explain": "Graphite conducts; iodine shines - exceptions complete the picture."}
+   ]
+  },
+  {
+   "id": "jesc.103.3.2",
+   "title": "Chemical Properties - Reactions of Metals",
+   "section": "3.2",
+   "definition": "Metals react with oxygen to form basic oxides, with water to form hydroxides and hydrogen, and with dilute acids to release hydrogen; their vigour follows the reactivity series, where potassium races and gold refuses.",
+   "formula": "-",
+   "key_idea": "The reactivity series ranks the race: potassium to gold, each metal knows its place.",
+   "textbook_ref": "jesc103.txt sections on chemical properties and reactivity series",
+   "question_patterns": [
+    "write the reactions of metals with oxygen, water and dilute acids",
+    "why does sodium catch fire when kept in water - explain",
+    "arrange the given metals in order of reactivity using the series",
+    "why can copper not displace zinc from its salt solution - explain",
+    "what are amphoteric oxides - give two examples",
+    "which metal reacts vigorously with dilute acid and why"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "recall the reactivity series",
+     "explain": "List metals from most to least reactive."},
+    {"step": 2, "action": "match the reaction",
+     "explain": "Only metals above hydrogen release hydrogen from acids."},
+    {"step": 3, "action": "write the products",
+     "explain": "Oxides, hydroxides and salts form with hydrogen evolution."}
+   ]
+  },
+  {
+   "id": "jesc.103.3.3",
+   "title": "Metallurgy - Extraction and Corrosion",
+   "section": "3.4",
+   "definition": "Metallurgy extracts metals from their ores in steps matched to reactivity: roasting or calcination converts ores to oxides, reduction frees the metal, and refining polishes it by electrolysis; finally, alloying and galvanising guard metals from corrosion like rust.",
+   "formula": "-",
+   "key_idea": "Extract by reactivity, refine by electrolysis, protect by alloying and coating.",
+   "textbook_ref": "jesc103.txt sections on metallurgy, corrosion and its prevention",
+   "question_patterns": [
+    "describe the steps of extracting a metal from its ore",
+    "differentiate roasting and calcination with examples",
+    "why is electrolytic refining used for copper - explain",
+    "what is corrosion - why do iron and copper corrode differently",
+    "how does galvanisation protect iron - explain",
+    "what is an alloy - give two examples with their uses"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "concentrate the ore",
+     "explain": "Remove gangue based on the ore's nature."},
+    {"step": 2, "action": "extract the metal",
+     "explain": "Roast or calcine to oxide, then reduce by carbon, heat or electrolysis."},
+    {"step": 3, "action": "refine and protect",
+     "explain": "Electrolytic refining purifies; alloys and coatings prevent corrosion."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "jesc103.txt exercises",
+   "questions": [
+     "Give an example of a metal that is liquid at room temperature and a non-metal that is lustrous.",
+     "Write the reactions of the given metals with oxygen, water and acids.",
+     "Explain the extraction steps of the given metal from its ore."
+   ]
+  }
+ ]
+}

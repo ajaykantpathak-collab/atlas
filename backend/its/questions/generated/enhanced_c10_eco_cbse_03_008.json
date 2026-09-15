@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_03_008",
+   "title": "c10_eco_cbse_03_008",
+   "questions": [
+    {
+     "q": "Define \"debt trap\" in the context of informal credit and state the two key indicators that a household has fallen into one.",
+     "a": "A debt trap occurs when a borrower must take new loans to repay interest on existing loans, causing the principal to never decrease. Key indicators: (1) interest payments exceed 50% of household income for two consecutive seasons, and (2) productive assets (land, livestock) are pledged or sold to service debt. A wrong answer focusing only on \"high interest rates\" misses the dynamic accumulation aspect — a 60% loan repaid in one season is burdensome but not a trap; a 36% loan rolled over for three years is.",
+     "self_check": true
+    },
+    {
+     "q": "A landless agricultural labourer in Bihar borrows ₹10,000 from a moneylender at 5% per month simple interest for 6 months to pay for his daughter's medical treatment. He repays ₹13,000 at harvest. The moneylender then says \"interest is due on the full ₹10,000 for another 6 months\" and rolls over the loan. Explain why this is a classic debt trap mechanism even though the stated rate is \"only 5% per month.\"",
+     "a": "The effective annual rate is 60% (5% × 12), but the trap lies in **rollover without principal reduction**. The borrower paid ₹3,000 interest yet still owes ₹10,000 principal. If repeated annually, he pays ₹6,000 yearly on a ₹10,000 loan — 60% of principal as perpetual interest. A student who calculates only the 6-month interest (₹3,000) misses that the moneylender refuses to amortise the principal, converting a short-term loan into permanent indenture. This mirrors the \"interest-on-interest\" compounding that formal banks are prohibited from doing on priority sector loans.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the total interest paid over 2 years on a ₹20,000 loan from: (a) a moneylender charging 3% per month simple interest with no principal repayment, and (b) a commercial bank charging 12% per annum simple interest with equal annual principal instalments. Show which source costs more and by how much.",
+     "a": "**Step 1:** Moneylender: Monthly interest = 3% × ₹20,000 = ₹600. Annual interest = ₹600 × 12 = ₹7,200. Over 2 years = ₹14,400. Principal remains ₹20,000.  \n**Step 2:** Bank: Year 1 interest = 12% × ₹20,000 = ₹2,400. Principal repaid = ₹10,000. Outstanding = ₹10,000. Year 2 interest = 12% × ₹10,000 = ₹1,200. Total interest = ₹3,600.  \n**Step 3:** Difference = ₹14,400 - ₹3,600 = **₹10,800 more with moneylender**.  \nA wrong answer using 12% on full ₹20,000 for both years (₹4,800) ignores the declining balance — a common board exam error. The moneylender's flat-rate-on-full-principal is the exploitation mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the credit access barriers for: (i) a tenant farmer in Punjab leasing 2 hectares, (ii) a street vendor in Mumbai with daily cash flow but no shop licence, and (iii) a tribal woman in Odisha collecting forest produce. Identify which barrier (collateral, documentation, distance, or cash flow mismatch) is dominant for each and why formal banks cannot easily serve them under current RBI norms.",
+     "a": "(i) Tenant farmer: **Collateral barrier** — no land title, only oral lease. Banks require registered lease deeds (rare).  \n(ii) Street vendor: **Documentation barrier** — no GST registration, no audited accounts. Banks need 3 years' ITR.  \n(iii) Tribal woman: **Distance + cash flow mismatch** — nearest branch 25 km, income seasonal (forest produce). Banks' fixed EMI schedules don't match lump-sum harvest income.  \nA student listing \"high interest rates\" as the barrier confuses the *consequence* of informal borrowing with the *cause* of exclusion. RBI's KYC norms and collateral rules are the structural filters.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Self-Help Groups (SHGs) solve the poor's credit problem by replacing moneylenders with banks.\" Use the concepts of social collateral, transaction costs, and women's bargaining power to justify your answer.",
+     "a": "The statement is **partially correct but incomplete**. SHGs do not replace moneylenders directly; they create a **new credit pathway** by:  \n1. **Social collateral** — group peer pressure substitutes physical collateral (c10_eco_cbse_03_007).  \n2. **Lower transaction costs** — bank deals with one SHG account (₹5 lakh) instead of 20 individual ₹25,000 loans.  \n3. **Bargaining power** — collective savings (₹50/week × 20 women = ₹52,000/year) gives leverage to negotiate bank rates (12% vs 60%).  \nHowever, SHGs cover only ~15% of poor households; moneylenders still dominate consumption loans and emergency credit where SHG processes are too slow. A \"yes/no\" answer without this nuance loses board marks.",
+     "self_check": true
+    },
+    {
+     "q": "Design a credit product for a seasonal migrant construction worker in Delhi who earns ₹600/day for 8 months/year, has no ID proof in Delhi, and sends ₹8,000/month to his village in UP. Specify: loan amount, repayment frequency, interest rate, collateral substitute, and delivery channel. Justify each feature using concepts from this chapter.",
+     "a": "**Product:** \"Migrant Flexi-Loan\" — ₹30,000 limit, repayable in 8 monthly instalments of ₹4,000 (aligned with earning months), 14% p.a. (bank rate + 2% risk premium), collateral substitute = **Aadhaar-linked remittance history** (proof of ₹8,000/month transfer for 6 months), delivered via **BC (Business Correspondent) at worksite** with UPI repayment.  \n**Justification:** Repayment matches cash flow (solves mismatch), remittance history substitutes KYC/collateral (solves documentation), BC channel solves distance, rate is below moneylender's 48% but covers bank's higher risk. A poor answer proposes fixed monthly EMIs year-round — ignores seasonality, the core reason migrants borrow informally.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

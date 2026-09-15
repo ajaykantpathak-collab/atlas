@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_06_006",
+   "title": "c12_acc_cbse_06_006",
+   "questions": [
+    {
+     "q": "What is the nature of discount on issue of debentures and how is it treated in the Balance Sheet until written off?",
+     "a": "Discount on issue of debentures is a capital loss. Until written off, it is shown as a deferred charge under \"Other Non-Current Assets\" (or \"Current Assets\" if the amount to be written off within 12 months) in the Balance Sheet. A wrong answer (e.g., calling it a revenue expense or showing it as a liability) reveals confusion between capital and revenue items and misunderstanding of Schedule III classification.",
+     "self_check": true
+    },
+    {
+     "q": "A company issues debentures at a discount of 5% redeemable at par after 4 years. Another company issues debentures at par but redeemable at a premium of 5% after 4 years. Compare the total loss on issue and the annual write-off amount under the equal installment method for both companies, assuming the same face value and number of debentures.",
+     "a": "Both companies suffer the same total loss on issue (5% of face value). Under equal installment method, the annual write-off is identical: total loss divided by 4 years. A wrong answer (e.g., saying the second company has no loss on issue) reveals the misconception that loss on issue only arises from discount on issue, ignoring premium on redemption.",
+     "self_check": true
+    },
+    {
+     "q": "XYZ Ltd. issued 5,000, 10% debentures of ₹100 each at a discount of 10%, redeemable at par after 5 years. Pass the journal entry for the issue of debentures and the journal entry for writing off the discount in the first year using the equal installment method.",
+     "a": "Issue: Bank A/c Dr. 4,50,000; Discount on Issue of Debentures A/c Dr. 50,000; To 10% Debentures A/c 5,00,000.\nWriting off (Year 1): Statement of Profit & Loss A/c Dr. 10,000; To Discount on Issue of Debentures A/c 10,000.\nA wrong entry (e.g., crediting Bank for discount, or debiting Debenture A/c for write-off) shows failure to distinguish between the initial recognition of discount and its subsequent amortisation.",
+     "self_check": true
+    },
+    {
+     "q": "PQR Ltd. issued 10,000, 9% debentures of ₹100 each at a discount of 5%, redeemable in 4 equal annual installments starting at the end of year 1. Calculate the amount of discount to be written off in each of the 4 years using the proportionate method.",
+     "a": "Total discount = ₹50,000. Debentures outstanding at start of each year: Year 1: ₹10,00,000; Year 2: ₹7,50,000; Year 3: ₹5,00,000; Year 4: ₹2,50,000. Total outstanding over 4 years = ₹25,00,000. Write-off: Year 1 = (10/25)×50,000 = ₹20,000; Year 2 = (7.5/25)×50,000 = ₹15,000; Year 3 = (5/25)×50,000 = ₹10,000; Year 4 = (2.5/25)×50,000 = ₹5,000. A wrong answer using equal installments (₹12,500 each year) shows inability to link write-off pattern to redemption pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Discount on issue of debentures should be written off entirely in the year of issue because it is a loss incurred at the time of issue.\" Defend your position with reference to accounting principles.",
+     "a": "The statement is incorrect. Discount on issue is a capital loss that provides benefit over the entire tenure of the debentures. The Matching Principle (accrual concept) requires expenses to be matched with the revenues of the periods they benefit. Writing off entirely in year 1 would overstate loss in year 1 and understate in subsequent years, violating the Going Concern and Consistency concepts. A wrong evaluation (agreeing with the statement) indicates a fundamental misunderstanding of capital vs. revenue expenditure and the matching principle.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a company issues debentures at a discount and also incurs underwriting commission on the issue. Design the journal entries for (a) issue of debentures, (b) payment of underwriting commission, and (c) writing off both discount and commission in the first year assuming equal installment method over 5 years. Use your own numbers.",
+     "a": "Example: 2,000 debentures of ₹100 each issued at 10% discount, underwriting commission 2% on issue price. Face value = ₹2,00,000. Issue price = ₹1,80,000. Discount = ₹20,000. Commission = ₹3,600. Total capital loss = ₹23,600. Annual write-off = ₹4,720.\nEntries:\n(a) Bank A/c Dr. 1,80,000; Discount on Issue of Debentures A/c Dr. 20,000; To 10% Debentures A/c 2,00,000.\n(b) Underwriting Commission A/c Dr. 3,600; To Bank A/c 3,600.\n(c) Statement of Profit & Loss A/c Dr. 4,720; To Discount on Issue of Debentures A/c 4,000; To Underwriting Commission A/c 720.\nA poor answer (e.g., mixing commission with discount account, or not separating the two) reveals inability to handle multiple deferred charges with different origins but similar treatment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_01_008",
+   "title": "c12_hist_cbse_01_008",
+   "questions": [
+    {
+     "q": "Name two Harappan settlements that were specialized centres for shell working and state their geographical location.",
+     "a": "Nageshwar and Balakot, both located near the coast in Gujarat (Nageshwar) and Pakistan (Balakot) respectively. A wrong answer (e.g., naming Mohenjodaro or Harappa) reveals the student confuses large urban centres with specialized craft-production sites and misses the link between resource location (shell) and settlement placement.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why archaeologists consider waste material (e.g., stone chips, shell fragments) a key indicator of craft production rather than finished objects.",
+     "a": "Waste accumulates at the production site because finished goods are transported away; thus, concentrations of debitage, broken blanks, and raw material nodules pinpoint where objects were made. A wrong answer (e.g., “finished beads are found there”) shows the student does not grasp the archaeological principle that production debris is more diagnostic than the product itself.",
+     "self_check": true
+    },
+    {
+     "q": "A carnelian bead from Chanhudaro shows a white etched design on a red body. Using the NCERT description, reconstruct the sequence of techniques applied to achieve this effect.",
+     "a": "Nodule chipped → flaked to shape → ground → polished → drilled → etched with alkali/plant juice → fired to develop red colour → etched areas remain white. A wrong sequence (e.g., firing before etching) reveals misunderstanding of the chemical process: etching creates a resist that prevents reddening during firing.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the procurement strategies for lapis lazuli and copper. What does the difference tell you about Harappan organization?",
+     "a": "Lapis lazuli came from a single distant source (Shortughai, Afghanistan) via a dedicated settlement; copper came from multiple sources (Khetri, Rajasthan; Oman; possibly Ganeshwar-Jodhpura culture) via expeditions and trade. This shows a tiered strategy: direct control for ultra-rare high-value goods, diversified networks for essential metals. A wrong answer treating both as “trade” misses the distinction between colonial outpost and exchange partnership.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: “Harappan craft specialization proves the existence of a centralized state authority.” Use evidence from the chapter.",
+     "a": "Specialization (standardized bricks, weights, beads across 1000 km) suggests coordination, but no palaces, royal burials, or ruler depictions exist. Alternative: corporate/oligarchic management. A one-sided “yes” ignores the “priest-king” ambiguity and the chapter’s explicit debate (Section 8.1); a one-sided “no” overlooks the massive labour mobilization for platforms and walls.",
+     "self_check": true
+    },
+    {
+     "q": "Design a museum display panel (100 words) that explains how a steatite micro-bead was made, using only archaeological evidence — no written records.",
+     "a": "Panel should mention: steatite powder paste → moulding → firing → drilling (specialized drills found at Chanhudaro/Lothal/Dholavira) → stringing. Must acknowledge the micro-bead drilling technique remains experimentally unresolved. A poor answer invents tools not found (e.g., “tiny bow drill”) or omits the “puzzle” aspect highlighted in NCERT.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

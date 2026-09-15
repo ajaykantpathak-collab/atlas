@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_14_009",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_14_009",
+   "title": "c12_geo_cbse_14_009",
+   "questions": [
+    {
+     "q": "Name the six major IT hubs of India as per NCERT and identify the common institutional feature each hosts that supplies skilled labour.",
+     "a": "The six hubs are Bengaluru, Hyderabad, Pune, Chennai, Gurugram-Noida (NCR), and Mumbai. Each hosts premier engineering/research institutes (IISc/IITs/NITs/IIITs/University departments) that produce a steady stream of STEM graduates. A wrong answer listing only cities or missing the institute link shows the student memorises locations but not the *talent pipeline* mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the IT industry is called \"footloose\" and why it still clusters in a few metros instead of dispersing to low-cost tier-2 towns.",
+     "a": "Footloose means neither raw-material nor market orientation ties it to a specific site — it can locate anywhere with power, telecom, and talent. Clustering persists due to agglomeration economies: knowledge spillovers, shared specialised labour pool, venture capital networks, and global connectivity (airports, submarine cable landing stations). A student who says \"low rent attracts IT to small towns\" misses the *agglomeration* logic that outweighs rent savings.",
+     "self_check": true
+    },
+    {
+     "q": "Given the table below, calculate the percentage share of Bengaluru in total software exports if India's software exports were ₹12 lakh crore and Bengaluru's share was ₹4.8 lakh crore. Then interpret what this concentration implies for regional disparity.\n\n| Metric | Value |\n|--------|-------|\n| India software exports (2023-24) | ₹12,00,000 crore |\n| Bengaluru software exports (2023-24) | ₹4,80,000 crore |",
+     "a": "Step 1: Share = (Bengaluru exports / India exports) × 100 = (4,80,000 / 12,00,000) × 100 = 40%. Step 2: Interpretation — 40% from one city shows extreme spatial concentration; other hubs (Hyderabad, Pune, Chennai) share most of the rest, leaving vast hinterland untouched. This mirrors the \"core-periphery\" pattern in c11_geo_cbse_17_004 (urbanisation). A student who only computes 40% without linking to regional imbalance fails the geographical interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the locational advantages of Hyderabad and Pune for IT industry. Why did both emerge *after* Bengaluru despite similar initial conditions (universities, climate)?",
+     "a": "Hyderabad leveraged proactive state policy (HITEC City, single-window clearance) and pharma/biotech synergy; Pune leveraged auto-engineering ecosystem (Chakan) and proximity to Mumbai's finance/VC. Both lacked Bengaluru's early start (1980s Texas Instruments, 1990s Infosys/Wipro) and brand equity. A student listing only \"good climate\" or \"cheap land\" misses the *policy entrepreneurship* and *sectoral synergy* differentiators.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The IT industry has solved India's unemployment problem.\" Use data on employment share vs GDP share.",
+     "a": "IT employs ~5.4 million directly (2023) — <1% of India's 500+ million workforce — while contributing ~7.5% of GDP. It creates high-skill, high-wage jobs but cannot absorb low-skill labour displaced from agriculture. The statement is false; IT deepens the *skill divide*. A student citing absolute job numbers without comparing to labour force size commits the \"large number fallacy\".",
+     "self_check": true
+    },
+    {
+     "q": "Design a three-point policy package to develop a tier-2 city (e.g., Bhubaneswar, Coimbatore, Indore) into a credible IT hub within 10 years. Justify each point with a locational factor from c12_geo_cbse_14_002.",
+     "a": "1. Talent: Upgrade local engineering colleges to IIIT status + industry-curriculum co-design (addresses *skilled labour*). 2. Infrastructure: Build a 100-acre plug-and-play STPI campus with 100 Gbps dark fibre, 24/7 power, and direct flight connectivity (addresses *infrastructure*). 3. Policy: Offer 10-year SGST refund, rent subsidy, and single-window clearance via a dedicated nodal agency (addresses *government policy*). A generic \"give tax breaks\" answer fails to tie each lever to a specific location factor.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

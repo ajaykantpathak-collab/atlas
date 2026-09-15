@@ -1,0 +1,592 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 9,
+ "chapter_title": "Perimeter and Area",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\fegp106.txt",
+ "concepts": [
+  {
+   "id": "c7m9.1.1",
+   "title": "Area of a Parallelogram",
+   "section": "9.1",
+   "definition": "Area of a parallelogram = base x height. Any side can be the base; the perpendicular from the opposite side is the height.",
+   "formula": "area = base x height = b x h",
+   "key_idea": "Area of parallelogram = base x height.",
+   "textbook_ref": "gemh109.txt lines 1-81",
+   "question_patterns": [
+    "find area of parallelogram",
+    "find the area of the parallelogram",
+    "base and height of parallelogram",
+    "find height if area and base given",
+    "find base if area and height given",
+    "parallelogram with sides and height",
+    "two sides of parallelogram find area"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify base and height",
+     "explain": "Base is any side, height is perpendicular to it"
+    },
+    {
+     "step": 2,
+     "action": "apply formula",
+     "explain": "Area = base x height"
+    },
+    {
+     "step": 3,
+     "action": "if finding height",
+     "explain": "height = Area / base"
+    },
+    {
+     "step": 4,
+     "action": "if finding base",
+     "explain": "base = Area / height"
+    }
+   ]
+  },
+  {
+   "id": "c7m9.2.1",
+   "title": "Area of a Triangle",
+   "section": "9.2",
+   "definition": "Area of a triangle = (1/2) x base x height. A triangle is half of a parallelogram with the same base and height.",
+   "formula": "area = (1/2) x base x height",
+   "key_idea": "Area of triangle = half of base x height.",
+   "textbook_ref": "gemh109.txt lines 82-264",
+   "question_patterns": [
+    "find area of triangle",
+    "find the area of the triangle",
+    "find base if area and height given",
+    "find height if area and base given",
+    "area of right angled triangle",
+    "area of isosceles triangle",
+    "find bc if area and height given",
+    "find qm if area and base given",
+    "triangle abc right angled find area and ad"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify base and height",
+     "explain": "Base is any side, height is perpendicular to it (may be outside for obtuse)"
+    },
+    {
+     "step": 2,
+     "action": "apply formula",
+     "explain": "Area = (1/2) x base x height"
+    },
+    {
+     "step": 3,
+     "action": "if finding height",
+     "explain": "height = (2 x Area) / base"
+    },
+    {
+     "step": 4,
+     "action": "if finding base",
+     "explain": "base = (2 x Area) / height"
+    }
+   ]
+  },
+  {
+   "id": "c7m9.3.1",
+   "title": "Circumference of a Circle",
+   "section": "9.3.1",
+   "definition": "Circumference of a circle = pi x diameter = 2 x pi x radius. pi = 22/7 or 3.14. The ratio of circumference to diameter is constant (pi).",
+   "formula": "c = pi x d = 2 x pi x r; pi = 22/7 or 3.14",
+   "key_idea": "Circumference = 2 x pi x r = pi x d.",
+   "textbook_ref": "gemh109.txt lines 304-467",
+   "question_patterns": [
+    "find circumference of circle",
+    "what is the circumference",
+    "circumference of circular disc",
+    "length of tape to wrap around pipe",
+    "find perimeter of semicircle",
+    "perimeter of semicircular disc",
+    "perimeter of shape with semicircles",
+    "find radius if circumference given",
+    "find diameter if circumference given",
+    "gardener fence circular garden",
+    "saima lace on table cover",
+    "wire bent into circle find radius",
+    "wheel rotations to go distance",
+    "minute hand tip move in 1 hour"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given",
+     "explain": "Radius or diameter? Use pi = 22/7 or 3.14 as specified"
+    },
+    {
+     "step": 2,
+     "action": "if radius given",
+     "explain": "C = 2 x pi x r"
+    },
+    {
+     "step": 3,
+     "action": "if diameter given",
+     "explain": "C = pi x d"
+    },
+    {
+     "step": 4,
+     "action": "if finding radius",
+     "explain": "r = C / (2 x pi)"
+    },
+    {
+     "step": 5,
+     "action": "for semicircle",
+     "explain": "Circumference of semicircle = (1/2) x pi x d. Perimeter of semicircular disc = pi x r + 2 x r (includes diameter)"
+    }
+   ]
+  },
+  {
+   "id": "c7m9.3.2",
+   "title": "Area of a Circle",
+   "section": "9.3.2",
+   "definition": "Area of a circle = pi x r^2 where r is the radius. pi = 22/7 or 3.14.",
+   "formula": "area = pi x r^2; pi = 22/7 or 3.14",
+   "key_idea": "Area of circle = pi x r squared.",
+   "textbook_ref": "gemh109.txt lines 468-542",
+   "question_patterns": [
+    "find area of circle",
+    "find the area of the circle",
+    "area of circular garden",
+    "area of circular sheet",
+    "area between two concentric circles",
+    "find area if diameter given",
+    "find area if circumference given",
+    "circle cut from square find remaining",
+    "circular flower bed with path",
+    "sprinkler cover area",
+    "circular card sheet with removed circles"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify given",
+     "explain": "Radius or diameter? Use pi = 22/7 or 3.14"
+    },
+    {
+     "step": 2,
+     "action": "if diameter given",
+     "explain": "r = d / 2"
+    },
+    {
+     "step": 3,
+     "action": "apply formula",
+     "explain": "Area = pi x r^2"
+    },
+    {
+     "step": 4,
+     "action": "if finding radius from circumference",
+     "explain": "r = C / (2 x pi), then Area = pi x r^2"
+    },
+    {
+     "step": 5,
+     "action": "for area between circles",
+     "explain": "shaded area = area of larger - area of smaller"
+    }
+   ]
+  },
+  {
+   "id": "c7m9.3.3",
+   "title": "Applications of Perimeter and Area",
+   "section": "9.3",
+   "definition": "Apply perimeter and area formulas to solve real-world problems: fencing, polishing, cost calculations, comparing shapes.",
+   "formula": "cost = rate x area or rate x perimeter",
+   "key_idea": "Apply formulas to real situations with cost calculations.",
+   "textbook_ref": "gemh109.txt lines 543-602",
+   "question_patterns": [
+    "find cost of fencing",
+    "find cost of polishing",
+    "find cost of lace",
+    "find cost of rope",
+    "which figure encloses more area",
+    "compare area of circle and square",
+    "how many revolutions of wheel",
+    "find remaining area after removal"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify what to find",
+     "explain": "Perimeter, area, or cost?"
+    },
+    {
+     "step": 2,
+     "action": "apply formula",
+     "explain": "Use appropriate perimeter or area formula"
+    },
+    {
+     "step": 3,
+     "action": "calculate cost",
+     "explain": "cost = rate x quantity (perimeter or area)"
+    },
+    {
+     "step": 4,
+     "action": "for comparisons",
+     "explain": "Calculate both and compare"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gemh109.txt lines 153-161",
+   "concept": "c7m9.1.1",
+   "question_type": "find_parallelogram_area",
+   "question_pattern": "base = {b} cm, height = {h} cm. find area of parallelogram.",
+   "extracted_variables": {
+    "b": "base",
+    "h": "height"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply formula",
+     "explain": "Area = b x h",
+     "compute": "b * h"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gemh109.txt lines 163-173",
+   "concept": "c7m9.1.1",
+   "question_type": "find_height_parallelogram",
+   "question_pattern": "area = {area} cm^2, base = {b} cm. find height.",
+   "extracted_variables": {
+    "area": "area of parallelogram",
+    "b": "base"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply formula",
+     "explain": "Area = b x h"
+    },
+    {
+     "step": 2,
+     "action": "solve for h",
+     "explain": "h = Area / b",
+     "compute": "area / b"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "gemh109.txt lines 178-201",
+   "concept": "c7m9.1.1",
+   "question_type": "two_sides_find_height",
+   "question_pattern": "two sides {a} and {b}, height to base {b} is {h}. find area and height to other base.",
+   "extracted_variables": {
+    "a": "first side",
+    "b": "second side (base)",
+    "h": "height to base b"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find area",
+     "explain": "Area = b x h",
+     "compute": "b * h"
+    },
+    {
+     "step": 2,
+     "action": "find other height",
+     "explain": "h2 = Area / a",
+     "compute": "(b * h) / a"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "gemh109.txt lines 203-219",
+   "concept": "c7m9.2.1",
+   "question_type": "find_triangle_area",
+   "question_pattern": "find area of triangle with base {b} and height {h}",
+   "extracted_variables": {
+    "b": "base",
+    "h": "height"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply formula",
+     "explain": "Area = (1/2) x b x h",
+     "compute": "0.5 * b * h"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "gemh109.txt lines 224-237",
+   "concept": "c7m9.2.1",
+   "question_type": "find_base_triangle",
+   "question_pattern": "area = {area} cm^2, height = {h} cm. find base.",
+   "extracted_variables": {
+    "area": "area of triangle",
+    "h": "height"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply formula",
+     "explain": "Area = (1/2) x b x h"
+    },
+    {
+     "step": 2,
+     "action": "solve for b",
+     "explain": "b = (2 x Area) / h",
+     "compute": "(2 * area) / h"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "gemh109.txt lines 239-261",
+   "concept": "c7m9.2.1",
+   "question_type": "find_area_and_height",
+   "question_pattern": "triangle PQR. PR = {pr}, QR = {qr}, PL = {pl}. find area and QM.",
+   "extracted_variables": {
+    "pr": "side PR",
+    "qr": "side QR (base)",
+    "pl": "height PL"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find area",
+     "explain": "Area = (1/2) x qr x pl",
+     "compute": "0.5 * qr * pl"
+    },
+    {
+     "step": 2,
+     "action": "find QM",
+     "explain": "Use PR as base: Area = (1/2) x pr x QM, so QM = (2 x Area) / pr",
+     "compute": "(2 * 0.5 * qr * pl) / pr"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "gemh109.txt lines 398-403",
+   "concept": "c7m9.3.1",
+   "question_type": "circumference_from_diameter",
+   "question_pattern": "circumference of circle of diameter {d} cm (pi = 3.14)",
+   "extracted_variables": {
+    "d": "diameter"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply formula",
+     "explain": "C = pi x d",
+     "compute": "3.14 * d"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "gemh109.txt lines 405-415",
+   "concept": "c7m9.3.1",
+   "question_type": "circumference_from_radius",
+   "question_pattern": "circumference of circular disc of radius {r} cm (pi = 22/7)",
+   "extracted_variables": {
+    "r": "radius"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply formula",
+     "explain": "C = 2 x pi x r",
+     "compute": "2 * (22/7) * r"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "gemh109.txt lines 417-425",
+   "concept": "c7m9.3.1",
+   "question_type": "tape_around_pipe",
+   "question_pattern": "radius of pipe {r} cm. length of tape to wrap once (pi = 3.14)",
+   "extracted_variables": {
+    "r": "radius of pipe"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "circumference = tape length",
+     "explain": "Tape length = circumference = 2 x pi x r",
+     "compute": "2 * 3.14 * r"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "gemh109.txt lines 428-444",
+   "concept": "c7m9.3.1",
+   "question_type": "perimeter_with_semicircles",
+   "question_pattern": "perimeter of shape with semicircles on sides of square, diameter {d}",
+   "extracted_variables": {
+    "d": "diameter of each semicircle",
+    "n": "number of semicircles"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find semicircle circumference",
+     "explain": "Each semicircle = (1/2) x pi x d"
+    },
+    {
+     "step": 2,
+     "action": "total perimeter",
+     "explain": "perimeter = n x (1/2) x pi x d",
+     "compute": "n * 0.5 * (22/7) * d"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "gemh109.txt lines 452-467",
+   "concept": "c7m9.3.1",
+   "question_type": "perimeter_semicircular_disc",
+   "question_pattern": "circular disc radius {r} divided in two. perimeter of each semicircular part.",
+   "extracted_variables": {
+    "r": "radius of disc"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find semicircle arc",
+     "explain": "Arc = pi x r (half of 2*pi*r)",
+     "compute": "(22/7) * r"
+    },
+    {
+     "step": 2,
+     "action": "add diameter",
+     "explain": "Perimeter = arc + diameter = pi*r + 2*r",
+     "compute": "(22/7) * r + 2 * r"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "gemh109.txt lines 512-515",
+   "concept": "c7m9.3.2",
+   "question_type": "area_circle_from_radius",
+   "question_pattern": "area of circle of radius {r} cm (pi = 3.14)",
+   "extracted_variables": {
+    "r": "radius"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply formula",
+     "explain": "Area = pi x r^2",
+     "compute": "3.14 * r * r"
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "gemh109.txt lines 517-522",
+   "concept": "c7m9.3.2",
+   "question_type": "area_circle_from_diameter",
+   "question_pattern": "diameter of circular garden {d} m. find area.",
+   "extracted_variables": {
+    "d": "diameter"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find radius",
+     "explain": "r = d / 2",
+     "compute": "d / 2"
+    },
+    {
+     "step": 2,
+     "action": "apply formula",
+     "explain": "Area = pi x r^2 = (22/7) x r^2",
+     "compute": "(22/7) * (d/2) * (d/2)"
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "gemh109.txt lines 524-542",
+   "concept": "c7m9.3.2",
+   "question_type": "area_between_circles",
+   "question_pattern": "two concentric circles. larger radius {R}, smaller radius {r}. find shaded area.",
+   "extracted_variables": {
+    "R": "larger radius",
+    "r": "smaller radius"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find larger area",
+     "explain": "Area_large = pi x R^2"
+    },
+    {
+     "step": 2,
+     "action": "find smaller area",
+     "explain": "Area_small = pi x r^2",
+     "compute": "3.14 * r * r"
+    },
+    {
+     "step": 3,
+     "action": "shaded area",
+     "explain": "shaded = Area_large - Area_small"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex9.1",
+   "source_ref": "gemh109.txt lines 266-303",
+   "questions": [
+    "Find area of each parallelogram (5 figures)",
+    "Find area of each triangle (4 figures)",
+    "Find missing values: Base, Height, Area of Parallelogram (4 rows)",
+    "Find missing values: Base, Height, Area of Triangle (3 rows)",
+    "PQRS parallelogram. QM height to SR, QN height to PS. SR=12, QM=7.6. Find area and QN if PS=8.",
+    "DL and BM heights on AB and AD. Area=1470, AB=35, AD=49. Find BM and DL.",
+    "ABC right angled at A. AD perpendicular to BC. AB=5, BC=13, AC=12. Find area and AD.",
+    "ABC isosceles AB=AC=7.5, BC=9. Height AD=6. Find area and CE (height from C to AB)."
+   ]
+  },
+  {
+   "id": "ex9.2",
+   "source_ref": "gemh109.txt lines 544-602",
+   "questions": [
+    "Find circumference: radius 14 cm, 28 mm, 21 cm (pi=22/7)",
+    "Find area: radius 14 mm, diameter 49 m, radius 5 cm (pi=22/7)",
+    "Circumference 154 m. Find radius and area (pi=22/7)",
+    "Gardener fence circular garden diameter 21m. 2 rounds. Cost Rs 4/m (pi=22/7)",
+    "Circular sheet radius 4 cm, circle radius 3 cm removed. Find remaining area (pi=3.14)",
+    "Saima lace on circular table cover diameter 1.5m. Find length and cost at Rs 15/m (pi=3.14)",
+    "Find perimeter of semicircle including diameter",
+    "Cost of polishing circular table-top diameter 1.6m at Rs 15/m^2 (pi=3.14)",
+    "Wire 44 cm bent into circle. Find radius and area. If bent into square, find side. Which encloses more area? (pi=22/7)",
+    "Circular card radius 14 cm, two circles radius 3.5 cm and rectangle 3x1 removed. Find remaining area (pi=22/7)",
+    "Circle radius 2 cm cut from square sheet side 6 cm. Find remaining area (pi=3.14)",
+    "Circumference 31.4 cm. Find radius and area (pi=3.14)",
+    "Circular flower bed diameter 66m, path 4m wide. Find area of path (pi=3.14)",
+    "Circular garden area 314 m^2. Sprinkler covers radius 12m. Will it water entire garden? (pi=3.14)",
+    "Find circumference of inner and outer circles (pi=3.14)",
+    "Wheel radius 28 cm. How many rotations to go 352 m? (pi=22/7)",
+    "Minute hand 15 cm long. How far does tip move in 1 hour? (pi=3.14)"
+   ]
+  }
+ ],
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)",
+ "source_link": "re-linked to new cache"
+}

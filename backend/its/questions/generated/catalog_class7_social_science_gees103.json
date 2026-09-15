@@ -1,0 +1,89 @@
+{
+ "catalog": "catalog_class7_social_science_gees103",
+ "concepts": [
+  {
+   "id": "gees.3.1",
+   "title": "Weather versus Climate",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Weather versus Climate' refers to.",
+     "a": "Weather is the atmosphere's state right now, while climate is the average pattern of weather of a region over many years; Chennai may have a cool day, but its climate stays coastal and warm.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Weather versus Climate'.",
+     "a": "Climate is the habit, weather the mood: one place, two time scales.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Weather versus Climate', in plain ASCII form.",
+     "a": "climate = average of weather over many years",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gees.3.2",
+   "title": "Why India's Climate Is So Diverse",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Why India's Climate Is So Diverse' refers to.",
+     "a": "Latitude, the seas on three sides, the mountains in the north and the monsoon winds together make India's climate swing from Himalayan snow to equatorial warmth and from desert dryness to Meghalaya's rain.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Why India's Climate Is So Diverse'.",
+     "a": "One country spans many climates because place and wind shape each region differently.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Why India's Climate Is So Diverse' taught, and from which source text?",
+     "a": "Factors of diversity (source: gees103.txt, Factors of diversity)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gees.3.3",
+   "title": "The Seasons of India",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Seasons of India' refers to.",
+     "a": "Indian climate runs in seasons: a cold season, a hot season, the advancing monsoon that brings most rain, and the retreating monsoon with its storms, each changing farm work and festivals.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Seasons of India'.",
+     "a": "The monsoon is the heart of the Indian year: seasons are counted by its coming and going.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Seasons of India' taught, and from which source text?",
+     "a": "Seasons (source: gees103.txt, Seasons)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gees.3.4",
+   "title": "Climate Change and Preventive Measures",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Climate Change and Preventive Measures' refers to.",
+     "a": "Climate is not fixed: human activity is warming the planet, bringing harsher heat, irregular rain and storms; the chapter asks groups to discuss preventive measures, from saving energy to planting trees.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Climate Change and Preventive Measures'.",
+     "a": "Climate change is a shared problem: small preventive acts, multiplied by millions, blunt it.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Climate Change and Preventive Measures' taught, and from which source text?",
+     "a": "Preventive measures (source: gees103.txt, Preventive measures)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

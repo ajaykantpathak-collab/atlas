@@ -1,0 +1,697 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "chapter": 202,
+ "chapter_title": "Wave Optics",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/leph202.txt",
+ "concepts": [
+  {
+   "id": "leph.10.1.1",
+   "title": "Light Velocity in Optical Medium",
+   "section": "10.1",
+   "definition": "The phase velocity of an electromagnetic wave in a dense optical medium is calculated by dividing the speed of light in vacuum by the medium refractive index.",
+   "formula": "speed_medium = speed_vacuum / refractive_index",
+   "key_idea": "Speed of light decreases proportionally to the refractive index when propagating through matter.",
+   "textbook_ref": "leph202.txt lines 30-50",
+   "question_patterns": [
+    "in Class 12 Wave Optics find the speed of light in glass given refractive index",
+    "calculate the velocity of light in a liquid with known refractive index",
+    "what is the speed of light wave in medium with refractive index n",
+    "determine light propagation speed inside a transparent medium",
+    "compute the speed of light in water given its refractive index"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide vacuum speed of light by refractive index",
+     "explain": "refractive index is the ratio of speed of light in vacuum to speed in medium",
+     "compute": "speed_medium = speed_vacuum / refractive_index"
+    }
+   ]
+  },
+  {
+   "id": "leph.10.3.1",
+   "title": "Wavelength Alteration in Refracted Waves",
+   "section": "10.3.1",
+   "definition": "When light refracts into a medium of higher refractive index, its spatial wavelength shortens while its temporal frequency remains unchanged.",
+   "formula": "wavelength_medium = wavelength_vacuum / refractive_index",
+   "key_idea": "Light wavelength scales inversely with the refractive index of the medium.",
+   "textbook_ref": "leph202.txt lines 90-120",
+   "question_patterns": [
+    "in Class 12 Wave Optics calculate the wavelength of light in water",
+    "find the reduced wavelength of monochromatic light in glass",
+    "determine the light wavelength inside a medium with refractive index n",
+    "what is the wavelength of light after entering a denser medium",
+    "compute wavelength of refracted ray in medium of refractive index"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide vacuum wavelength by refractive index",
+     "explain": "frequency remains constant during refraction so wavelength decreases by factor of n",
+     "compute": "wavelength_medium = wavelength_vacuum / refractive_index"
+    }
+   ]
+  },
+  {
+   "id": "leph.10.3.2",
+   "title": "Critical Angle for Total Internal Reflection",
+   "section": "10.3.2",
+   "definition": "The sine of the critical angle of incidence is equal to the ratio of the refractive index of the rarer medium to that of the denser medium.",
+   "formula": "sin_ic = n_rarer / n_denser",
+   "key_idea": "At angles of incidence beyond the critical angle light undergoes total internal reflection.",
+   "textbook_ref": "leph202.txt lines 130-150",
+   "question_patterns": [
+    "in Class 12 Wave Optics calculate sine of critical angle for interface",
+    "find sin of critical angle between glass and air",
+    "determine the sine value of critical angle for water glass boundary",
+    "what is the sine of critical angle when light travels from dense to rare medium",
+    "compute sin of critical angle for total internal reflection"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide rarer refractive index by denser refractive index",
+     "explain": "sine of critical angle equals ratio of refractive indices n2 over n1",
+     "compute": "sin_ic = n_rarer / n_denser"
+    }
+   ]
+  },
+  {
+   "id": "leph.10.4.1",
+   "title": "Interference Resultant Intensity",
+   "section": "10.4",
+   "definition": "The net intensity produced by two coherent sources of equal amplitude varies as four times individual source intensity multiplied by cosine squared of half phase difference.",
+   "formula": "intensity = 4 * unit_intensity * cos_half_phase_sq",
+   "key_idea": "Superposition produces constructive intensity up to four times single source intensity.",
+   "textbook_ref": "leph202.txt lines 170-200",
+   "question_patterns": [
+    "in Class 12 Wave Optics find resultant intensity for phase difference",
+    "calculate interference light intensity given individual intensity and cos squared half phase",
+    "determine resultant intensity at a point on screen in double slit interference",
+    "what is the net intensity when two coherent light waves interfere",
+    "compute interference intensity for given phase angle component"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply four times source intensity by square of cosine of half phase angle",
+     "explain": "interference formula gives I = 4 * I0 * cos^2(phase/2)",
+     "compute": "intensity = 4 * unit_intensity * cos_half_phase_sq"
+    }
+   ]
+  },
+  {
+   "id": "leph.10.5.1",
+   "title": "Bright Fringe Position in Young Double Slit",
+   "section": "10.5",
+   "definition": "The distance from central bright maximum to the nth bright fringe on an observation screen equals n times wavelength times screen distance divided by slit separation.",
+   "formula": "fringe_position = order * wavelength * screen_distance / slit_separation",
+   "key_idea": "Bright fringe positions scale linearly with order number, wavelength, and distance to screen.",
+   "textbook_ref": "leph202.txt lines 210-235",
+   "question_patterns": [
+    "in Class 12 Wave Optics calculate the position of nth bright fringe",
+    "find distance of fourth bright fringe from central maximum",
+    "determine bright fringe location in Young double slit experiment",
+    "what is the position of bright fringe on screen given wavelength and geometry",
+    "compute distance of bright fringe in interference pattern"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply fringe order by wavelength and screen distance",
+     "explain": "calculate path difference condition product for bright fringe",
+     "compute": "numerator = order * wavelength * screen_distance"
+    },
+    {
+     "step": 2,
+     "action": "divide by slit separation",
+     "explain": "divide numerator by distance between the two slits",
+     "compute": "fringe_position = numerator / slit_separation"
+    }
+   ]
+  },
+  {
+   "id": "leph.10.5.2",
+   "title": "Interference Fringe Width",
+   "section": "10.5",
+   "definition": "The constant spatial distance separating adjacent bright or dark interference fringes on a screen in Young double slit setup.",
+   "formula": "fringe_width = wavelength * screen_distance / slit_separation",
+   "key_idea": "Fringe width is directly proportional to wavelength and screen distance, and inversely proportional to slit distance.",
+   "textbook_ref": "leph202.txt lines 220-240",
+   "question_patterns": [
+    "in Class 12 Wave Optics calculate the fringe width in Young double slit experiment",
+    "find fringe spacing given wavelength screen distance and slit separation",
+    "determine distance between consecutive bright fringes on screen",
+    "what is the fringe width of interference pattern",
+    "compute fringe width in double slit setup"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply wavelength by screen distance",
+     "explain": "product of wavelength and screen separation distance",
+     "compute": "numerator = wavelength * screen_distance"
+    },
+    {
+     "step": 2,
+     "action": "divide numerator by slit separation",
+     "explain": "fringe width beta equals lambda D over d",
+     "compute": "fringe_width = numerator / slit_separation"
+    }
+   ]
+  },
+  {
+   "id": "leph.10.6.1",
+   "title": "Single Slit Diffraction Minimum Angle",
+   "section": "10.6.1",
+   "definition": "The sine of angular position for nth diffraction minimum produced by a single slit equals n times wavelength divided by slit width.",
+   "formula": "sin_theta = order * wavelength / slit_width",
+   "key_idea": "Diffraction minima occur where secondary wavelets from opposite halves of the slit destructively interfere.",
+   "textbook_ref": "leph202.txt lines 245-270",
+   "question_patterns": [
+    "in Class 12 Wave Optics find sine of diffraction angle for first minimum",
+    "calculate sin theta for single slit diffraction minimum",
+    "determine sine of angular direction of nth dark fringe in diffraction",
+    "what is sin theta for diffraction minimum with given slit width",
+    "compute sine of angle of diffraction dark band"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply order by wavelength and divide by slit width",
+     "explain": "sin theta equals n times lambda divided by slit width a",
+     "compute": "sin_theta = order * wavelength / slit_width"
+    }
+   ]
+  },
+  {
+   "id": "leph.10.7.1",
+   "title": "Polarized Light Transmission and Malus Law",
+   "section": "10.7",
+   "definition": "According to Malus law the transmitted intensity of linearly polarized light through an analyzer equals initial intensity times cosine squared of angle between transmission axes.",
+   "formula": "transmitted_intensity = initial_intensity * cos_angle_sq",
+   "key_idea": "Intensity of transmitted polarized wave varies with the square of cosine of transmission angle.",
+   "textbook_ref": "leph202.txt lines 280-310",
+   "question_patterns": [
+    "in Class 12 Wave Optics calculate transmitted intensity using Malus law",
+    "find light intensity after passing through secondary polaroid",
+    "determine transmitted intensity given initial polarized intensity and cosine squared angle",
+    "what is the final light intensity emerging from analyzer polaroid",
+    "compute light intensity after polaroid filter using Malus law"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply initial polarized intensity by square of cosine of orientation angle",
+     "explain": "Malus law relates transmitted intensity to cosine square of axis angle",
+     "compute": "transmitted_intensity = initial_intensity * cos_angle_sq"
+    }
+   ]
+  },
+  {
+   "id": "leph.10.2.1",
+   "title": "Wavefront Propagation Distance",
+   "section": "10.2",
+   "definition": "The outward spatial distance traveled by a wavefront during time interval t is equal to wave propagation velocity multiplied by time.",
+   "formula": "wavefront_distance = wave_speed * time",
+   "key_idea": "Wavefronts expand as secondary wavelets propagate outward at wave speed.",
+   "textbook_ref": "leph202.txt lines 50-75",
+   "question_patterns": [
+    "in Class 12 Wave Optics calculate wavefront distance traveled in given time",
+    "find distance secondary wavelets travel in time interval",
+    "determine radius of spherical secondary wavelet after time t",
+    "what distance does a light wavefront advance in medium",
+    "compute displacement of wavefront during time duration"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply wave speed by time interval",
+     "explain": "distance equals velocity times time according to Huygens wavelet expansion",
+     "compute": "wavefront_distance = wave_speed * time"
+    }
+   ]
+  },
+  {
+   "id": "leph.10.3.3",
+   "title": "Wavefront Transformation by Lenses and Mirrors",
+   "section": "10.3.3",
+   "definition": "Refraction or reflection by optical elements reshapes incident plane wavefronts into spherical or tilted surfaces while preserving equal travel time across all rays.",
+   "formula": "optical_path_time = path_length / phase_velocity",
+   "key_idea": "The total travel time from object to image is identical along all ray paths.",
+   "textbook_ref": "leph202.txt lines 155-175",
+   "question_patterns": [
+    "in Class 12 Wave Optics explain how plane wavefront changes on passing through convex lens",
+    "describe wavefront transformation after reflection from concave mirror",
+    "why is travel time along all rays equal when real image is formed by convex lens",
+    "what shape does plane wavefront take after traversing thin glass prism",
+    "explain wavefront distortion during refraction through converging optical element"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify phase delays across wavefront",
+     "explain": "different parts of wavefront experience different thickness of medium, delaying central or peripheral portions"
+    },
+    {
+     "step": 2,
+     "action": "determine emerging wavefront shape",
+     "explain": "emerging wavefront bends into spherical shape converging toward focal point or tilts depending on element shape"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "NCERT Exercise 10.3(a)",
+   "concept": "leph.10.1.1",
+   "question_type": "compute",
+   "question_pattern": "The refractive index of glass is {refractive_index}. What is the speed of light in glass if speed in vacuum is {speed_vacuum} m s-1?",
+   "extracted_variables": {
+    "refractive_index": 1.5,
+    "speed_vacuum": 300000000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide vacuum speed of light by refractive index",
+     "explain": "refractive index is the ratio of speed of light in vacuum to speed in medium",
+     "compute": "speed_medium = speed_vacuum / refractive_index"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "NCERT Exercise 10.1 adapted",
+   "concept": "leph.10.1.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the speed of light in water having refractive index {refractive_index} given speed in vacuum is {speed_vacuum} m s-1.",
+   "extracted_variables": {
+    "refractive_index": 1.33,
+    "speed_vacuum": 300000000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide vacuum speed of light by refractive index",
+     "explain": "refractive index is the ratio of speed of light in vacuum to speed in medium",
+     "compute": "speed_medium = speed_vacuum / refractive_index"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "NCERT Exercise 10.1(b)",
+   "concept": "leph.10.3.1",
+   "question_type": "compute",
+   "question_pattern": "Monochromatic light of wavelength {wavelength_vacuum} m in air enters water with refractive index {refractive_index}. Find wavelength in water.",
+   "extracted_variables": {
+    "wavelength_vacuum": 5.89e-07,
+    "refractive_index": 1.33
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide vacuum wavelength by refractive index",
+     "explain": "frequency remains constant during refraction so wavelength decreases by factor of n",
+     "compute": "wavelength_medium = wavelength_vacuum / refractive_index"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "Textbook refraction example",
+   "concept": "leph.10.3.1",
+   "question_type": "compute",
+   "question_pattern": "Yellow light of wavelength {wavelength_vacuum} m enters glass of refractive index {refractive_index}. Find its wavelength in glass.",
+   "extracted_variables": {
+    "wavelength_vacuum": 6e-07,
+    "refractive_index": 1.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide vacuum wavelength by refractive index",
+     "explain": "frequency remains constant during refraction so wavelength decreases by factor of n",
+     "compute": "wavelength_medium = wavelength_vacuum / refractive_index"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "Textbook section 10.3.2 example",
+   "concept": "leph.10.3.2",
+   "question_type": "compute",
+   "question_pattern": "Find sine of critical angle for light traveling from glass with index {n_denser} to air with index {n_rarer}.",
+   "extracted_variables": {
+    "n_denser": 1.5,
+    "n_rarer": 1.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide rarer refractive index by denser refractive index",
+     "explain": "sine of critical angle equals ratio of refractive indices n2 over n1",
+     "compute": "sin_ic = n_rarer / n_denser"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "Textbook section 10.3.2 practice",
+   "concept": "leph.10.3.2",
+   "question_type": "compute",
+   "question_pattern": "Determine sin of critical angle for water with refractive index {n_denser} and air with index {n_rarer}.",
+   "extracted_variables": {
+    "n_denser": 1.33,
+    "n_rarer": 1.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide rarer refractive index by denser refractive index",
+     "explain": "sine of critical angle equals ratio of refractive indices n2 over n1",
+     "compute": "sin_ic = n_rarer / n_denser"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "NCERT Exercise 10.5 adaptation",
+   "concept": "leph.10.4.1",
+   "question_type": "compute",
+   "question_pattern": "When path difference is lambda/3 the phase term cos squared half phase is {cos_half_phase_sq}. Find resultant intensity if maximum unit intensity is {unit_intensity}.",
+   "extracted_variables": {
+    "cos_half_phase_sq": 0.25,
+    "unit_intensity": 100
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply four times source intensity by square of cosine of half phase angle",
+     "explain": "interference formula gives I = 4 * I0 * cos^2(phase/2)",
+     "compute": "intensity = 4 * unit_intensity * cos_half_phase_sq"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "Textbook section 10.4 example",
+   "concept": "leph.10.4.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate resultant intensity for phase difference corresponding to cos squared half phase value {cos_half_phase_sq} and individual source intensity {unit_intensity}.",
+   "extracted_variables": {
+    "cos_half_phase_sq": 0.75,
+    "unit_intensity": 20
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply four times source intensity by square of cosine of half phase angle",
+     "explain": "interference formula gives I = 4 * I0 * cos^2(phase/2)",
+     "compute": "intensity = 4 * unit_intensity * cos_half_phase_sq"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "NCERT Exercise 10.4 adaptation",
+   "concept": "leph.10.5.1",
+   "question_type": "compute",
+   "question_pattern": "In Young double slit experiment with order {order}, wavelength {wavelength} m, screen distance {screen_distance} m, and slit distance {slit_separation} m, find bright fringe position.",
+   "extracted_variables": {
+    "order": 4,
+    "wavelength": 6e-07,
+    "screen_distance": 1.4,
+    "slit_separation": 0.00028
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply fringe order by wavelength and screen distance",
+     "explain": "calculate path difference condition product for bright fringe",
+     "compute": "numerator = order * wavelength * screen_distance"
+    },
+    {
+     "step": 2,
+     "action": "divide by slit separation",
+     "explain": "divide numerator by distance between the two slits",
+     "compute": "fringe_position = numerator / slit_separation"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "Textbook section 10.5 example",
+   "concept": "leph.10.5.1",
+   "question_type": "compute",
+   "question_pattern": "Find position of second bright fringe with order {order}, wavelength {wavelength} m, screen distance {screen_distance} m, and slit separation {slit_separation} m.",
+   "extracted_variables": {
+    "order": 2,
+    "wavelength": 5e-07,
+    "screen_distance": 1.0,
+    "slit_separation": 0.0002
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply fringe order by wavelength and screen distance",
+     "explain": "calculate path difference condition product for bright fringe",
+     "compute": "numerator = order * wavelength * screen_distance"
+    },
+    {
+     "step": 2,
+     "action": "divide by slit separation",
+     "explain": "divide numerator by distance between the two slits",
+     "compute": "fringe_position = numerator / slit_separation"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "Textbook section 10.5 fringe width",
+   "concept": "leph.10.5.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate fringe width for light of wavelength {wavelength} m with screen distance {screen_distance} m and slit spacing {slit_separation} m.",
+   "extracted_variables": {
+    "wavelength": 5e-07,
+    "screen_distance": 0.05,
+    "slit_separation": 2.5e-05
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply wavelength by screen distance",
+     "explain": "product of wavelength and screen separation distance",
+     "compute": "numerator = wavelength * screen_distance"
+    },
+    {
+     "step": 2,
+     "action": "divide numerator by slit separation",
+     "explain": "fringe width beta equals lambda D over d",
+     "compute": "fringe_width = numerator / slit_separation"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "NCERT Exercise 10.6(a) practice",
+   "concept": "leph.10.5.2",
+   "question_type": "compute",
+   "question_pattern": "Determine fringe width in Young double slit using wavelength {wavelength} m, screen distance {screen_distance} m, and slit distance {slit_separation} m.",
+   "extracted_variables": {
+    "wavelength": 6.5e-07,
+    "screen_distance": 1.2,
+    "slit_separation": 0.0005
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply wavelength by screen distance",
+     "explain": "product of wavelength and screen separation distance",
+     "compute": "numerator = wavelength * screen_distance"
+    },
+    {
+     "step": 2,
+     "action": "divide numerator by slit separation",
+     "explain": "fringe width beta equals lambda D over d",
+     "compute": "fringe_width = numerator / slit_separation"
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "Textbook section 10.6.1 example",
+   "concept": "leph.10.6.1",
+   "question_type": "compute",
+   "question_pattern": "Find sin theta for first diffraction minimum with order {order}, light wavelength {wavelength} m, and slit width {slit_width} m.",
+   "extracted_variables": {
+    "order": 1,
+    "wavelength": 6e-07,
+    "slit_width": 0.00012
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply order by wavelength and divide by slit width",
+     "explain": "sin theta equals n times lambda divided by slit width a",
+     "compute": "sin_theta = order * wavelength / slit_width"
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "Textbook section 10.6.1 practice",
+   "concept": "leph.10.6.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate sine of diffraction minimum angle for order {order}, wavelength {wavelength} m, and slit aperture width {slit_width} m.",
+   "extracted_variables": {
+    "order": 2,
+    "wavelength": 5e-07,
+    "slit_width": 0.0001
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply order by wavelength and divide by slit width",
+     "explain": "sin theta equals n times lambda divided by slit width a",
+     "compute": "sin_theta = order * wavelength / slit_width"
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "NCERT Example 10.2 adaptation",
+   "concept": "leph.10.7.1",
+   "question_type": "compute",
+   "question_pattern": "Linearly polarized light of intensity {initial_intensity} W m-2 is incident on analyzer. Given cos squared of angle is {cos_angle_sq}, find transmitted intensity.",
+   "extracted_variables": {
+    "initial_intensity": 50,
+    "cos_angle_sq": 0.75
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply initial polarized intensity by square of cosine of orientation angle",
+     "explain": "Malus law relates transmitted intensity to cosine square of axis angle",
+     "compute": "transmitted_intensity = initial_intensity * cos_angle_sq"
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "Textbook section 10.7 example",
+   "concept": "leph.10.7.1",
+   "question_type": "compute",
+   "question_pattern": "Determine transmitted intensity according to Malus law for initial intensity {initial_intensity} W m-2 and cos squared orientation angle {cos_angle_sq}.",
+   "extracted_variables": {
+    "initial_intensity": 100,
+    "cos_angle_sq": 0.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply initial polarized intensity by square of cosine of orientation angle",
+     "explain": "Malus law relates transmitted intensity to cosine square of axis angle",
+     "compute": "transmitted_intensity = initial_intensity * cos_angle_sq"
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "Textbook section 10.2 construction",
+   "concept": "leph.10.2.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate wavefront propagation distance in time {time} s for light wave speed {wave_speed} m s-1.",
+   "extracted_variables": {
+    "time": 1e-08,
+    "wave_speed": 300000000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply wave speed by time interval",
+     "explain": "distance equals velocity times time according to Huygens wavelet expansion",
+     "compute": "wavefront_distance = wave_speed * time"
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "Textbook section 10.2 exercise",
+   "concept": "leph.10.2.1",
+   "question_type": "compute",
+   "question_pattern": "Find radius of secondary wavelet expanding for time {time} s in medium where wave speed is {wave_speed} m s-1.",
+   "extracted_variables": {
+    "time": 5e-09,
+    "wave_speed": 225000000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply wave speed by time interval",
+     "explain": "distance equals velocity times time according to Huygens wavelet expansion",
+     "compute": "wavefront_distance = wave_speed * time"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex10.1",
+   "source_ref": "leph202.txt line 330",
+   "questions": [
+    "Monochromatic light of wavelength 589 nm is incident from air on a water surface. What are the wavelength, frequency and speed of (a) reflected, and (b) refracted light? Refractive index of water is 1.33."
+   ]
+  },
+  {
+   "id": "ex10.2",
+   "source_ref": "leph202.txt line 335",
+   "questions": [
+    "What is the shape of the wavefront in each of the following cases: (a) Light diverging from a point source. (b) Light emerging out of a convex lens when a point source is placed at its focus. (c) The portion of the wavefront of light from a distant star intercepted by the Earth."
+   ]
+  },
+  {
+   "id": "ex10.3",
+   "source_ref": "leph202.txt line 342",
+   "questions": [
+    "(a) The refractive index of glass is 1.5. What is the speed of light in glass? (Speed of light in vacuum is 3.0 x 10^8 m s-1) (b) Is the speed of light in glass independent of the colour of light?"
+   ]
+  },
+  {
+   "id": "ex10.4",
+   "source_ref": "leph202.txt line 348",
+   "questions": [
+    "In a Young double-slit experiment, the slits are separated by 0.28 mm and the screen is placed 1.4 m away. The distance between the central bright fringe and the fourth bright fringe is measured to be 1.2 cm. Determine the wavelength of light used in the experiment."
+   ]
+  },
+  {
+   "id": "ex10.5",
+   "source_ref": "leph202.txt line 354",
+   "questions": [
+    "In Young double-slit experiment using monochromatic light of wavelength lambda, the intensity of light at a point on the screen where path difference is lambda, is K units. What is the intensity of light at a point where path difference is lambda/3?"
+   ]
+  },
+  {
+   "id": "ex10.6",
+   "source_ref": "leph202.txt line 360",
+   "questions": [
+    "A beam of light consisting of two wavelengths, 650 nm and 520 nm, is used to obtain interference fringes in a Young double-slit experiment. (a) Find the distance of the third bright fringe on the screen from the central maximum for wavelength 650 nm. (b) What is the least distance from the central maximum where the bright fringes due to both the wavelengths coincide?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_05_009",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_05_009",
+   "title": "c11_hs_cbse_05_009",
+   "questions": [
+    {
+     "q": "Define 'selvedge' in a woven fabric and state its functional significance during fabric manufacturing and end-use.",
+     "a": "Selvedge is the self-finished lengthwise edge of a woven fabric formed by the weft yarn reversing direction at the loom's edge, running parallel to warp yarns. It prevents fraying, maintains fabric width during finishing, and indicates grain direction for garment cutting. A wrong answer (e.g., \"the cut edge of fabric\" or \"the widthwise edge\") reveals confusion between selvedge (bound, lengthwise) and cut edges (raw, widthwise), and ignorance of its role in maintaining tension during weaving and guiding pattern placement.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a weft-knitted fabric unravels from the last-knitted end but a warp-knitted fabric does not, using the loop structure of each.",
+     "a": "In weft knitting, a single yarn forms horizontal courses where each loop pulls through the previous course's loops; the last course has no subsequent loops securing it, so pulling the free end releases all loops sequentially. In warp knitting, each warp yarn forms vertical wales with loops interlocked laterally; every loop is secured by adjacent wales, so no single free end can unravel the structure. A wrong answer focusing only on \"machine type\" or \"speed\" misses the structural mechanics: weft = horizontal dependency chain, warp = vertical independence with lateral locking.",
+     "self_check": true
+    },
+    {
+     "q": "A designer needs a fabric for a reusable shopping bag that must: (a) carry 10 kg without stretching, (b) resist tearing when snagged, (c) be produced at lowest cost per square metre. Recommend woven, weft-knitted, warp-knitted, or non-woven — justify with structural reasoning.",
+     "a": "Woven (plain weave) is optimal. (a) Warp/weft interlacing at 90° distributes load bidirectionally with minimal elongation — knits stretch due to loop geometry; non-wovens lack yarn-level strength. (b) Snag resistance: woven yarns are firmly interlaced; a snag displaces one yarn but adjacent yarns hold. In knits, a snag pulls a loop chain (run); in non-wovens, fibres pull out easily. (c) Weaving is the highest-speed, lowest-cost mass production for stable fabrics. Non-wovens are cheaper per kg but require higher basis weight for equivalent strength, increasing cost/m².",
+     "self_check": true
+    },
+    {
+     "q": "Compare the dimensional stability of a plain-woven cotton fabric versus a single-jersey knitted cotton fabric after repeated washing cycles. Analyse at yarn-level and fabric-level mechanisms.",
+     "a": "Plain weave: high dimensional stability. Yarn-level: warp/weft crimp is geometrically locked; swelling during wash tightens interlacing, causing minimal relaxation shrinkage (<3%). Fabric-level: balanced tension, no loop rearrangement. Single jersey: low dimensional stability. Yarn-level: loops are free to rearrange; fibre swelling + mechanical agitation causes loop tightening (relaxation shrinkage 8-15%). Fabric-level: asymmetric structure (face/back different) creates torque, leading to skewing and spirality. Key difference: weaving locks geometry; knitting stores geometric energy released by moisture/heat/agitation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Non-woven fabrics are inferior to woven fabrics for all apparel applications.\" Defend or refute with three specific counter-examples where non-wovens outperform wovens.",
+     "a": "Refute. Non-wovens outperform wovens in: (1) Disposable surgical gowns — non-wovens (spunbond-meltblown-spunbond) provide superior barrier protection (hydrostatic head >50 cm) with breathability (MVTR >2000 g/m²/day) at lower cost; woven gowns require tight weaves + coatings, reducing comfort. (2) Interlinings/fusibles — non-wovens (needle-punched polyester) offer isotropic stability, no grain distortion, and consistent adhesive bonding; woven interlinings have directional bias and fray. (3) Moulded bra cups — thermally bonded non-wovens conform to complex 3D shapes without darts/seams; woven fabrics require piecing, creating pressure points. The claim ignores that \"inferior\" is application-dependent: non-wovens trade durability for engineered functionality, cost, and formability.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hybrid fabric structure for a compression sports sleeve that combines knitting and non-woven technologies. Specify: (a) which zones use which method, (b) transition mechanism between zones, (c) how the structure achieves graduated compression (20-30 mmHg at ankle, 10-15 mmHg at thigh).",
+     "a": "(a) Ankle-to-calf: warp-knitted spacer fabric (3D structure, high elasticity, breathability). Calf-to-knee: weft-knitted single jersey with plated elastane (controlled compression). Thigh: thermally bonded non-woven elastic web (low profile, smooth transition to skin). (b) Transition: knit-to-knit via gradual stitch density change (course/cm increase 15→25); knit-to-non-woven via ultrasonic welding of non-woven web onto knitted selvedge. (c) Graduated compression: warp-knit zone uses higher elastane % (25%) and tighter loop length (2.8 mm) for high pressure; weft-knit zone reduces elastane (18%) and increases loop length (3.5 mm); non-woven zone uses basis weight gradient (80→40 g/m²) and bond pattern density. A poor answer proposes only one method or ignores transition integrity/seam comfort.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

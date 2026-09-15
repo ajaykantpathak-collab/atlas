@@ -1,0 +1,78 @@
+{
+ "catalog": "catalog_class11_economics_keec106",
+ "concepts": [
+  {
+   "id": "keec.106.1.1",
+   "title": "Workers, Workforce and Labour Force",
+   "questions": [
+    {
+     "q": "Calculate the unemployment rate from the given data. Use the method 'Workers, Workforce and Labour Force'. Work with: labour_force = 10, unemployed = 50. Carry the chain through step by step and give the final value of unemployment_rate.",
+     "a": "500 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Compute the participation rate of a population. Use the method 'Workers, Workforce and Labour Force'. Work with: labour_force = 3, unemployed = 8. Carry the chain through step by step and give the final value of unemployment_rate.",
+     "a": "266.6667 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Workers, Workforce and Labour Force' refers to.",
+     "a": "A worker is any person engaged in an economic activity, the workforce is the number of persons actually working, and the labour force equals the workforce plus the unemployed who are seeking work; labour force participation rate is the labour force as a percentage of the population.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Workers, Workforce and Labour Force'.",
+     "a": "The workforce participation rate divides the workforce by the population, showing how many of hundred persons are working.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Workers, Workforce and Labour Force', in plain ASCII form.",
+     "a": "unemployment_rate = unemployed / labour_force * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.106.2.1",
+   "title": "Types of Unemployment: Rural and Urban",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Types of Unemployment: Rural and Urban' refers to.",
+     "a": "Rural areas show seasonal unemployment in agriculture and disguised unemployment where extra workers do not add to output, while urban areas show educated unemployment among degree holders, and unemployment harms both the individual and the economy's output.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Types of Unemployment: Rural and Urban'.",
+     "a": "Disguised unemployment means removal of some workers leaves output unchanged, a common feature of crowded Indian farms.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Types of Unemployment: Rural and Urban' taught, and from which source text?",
+     "a": "Types of unemployment (source: keec106.txt unemployment types sections)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.106.3.1",
+   "title": "Formal and Informal Employment; Jobless Growth Issues",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Formal and Informal Employment; Jobless Growth Issues' refers to.",
+     "a": "Formal employment carries written contract, regular salary and social security benefits, while informal employment lacks such protection and dominates Indian employment; the share of formal sector is small and jobless growth raises concern since output rises without matching employment.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Formal and Informal Employment; Jobless Growth Issues'.",
+     "a": "Only about half the workforce receives social security, so extending formality to informal workers is a policy challenge.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Formal and Informal Employment; Jobless Growth Issues' taught, and from which source text?",
+     "a": "Formal and informal employment (source: keec106.txt formal informal sections)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

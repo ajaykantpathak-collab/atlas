@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_11_002",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_11_002",
+   "title": "c12_hs_cbse_11_002",
+   "questions": [
+    {
+     "q": "List the four stages of the guest cycle in correct sequence and state one key activity performed by the front office in each stage.",
+     "a": "Correct sequence: 1) Pre-arrival — quoting rates and reserving rooms via central reservation system; 2) Arrival — guest registration/check-in and room allocation; 3) Occupancy — coordinating guest services, ensuring security, maintaining satisfaction for loyalty; 4) Departure — check-out, bill settlement, updating guest history with feedback. A wrong answer (e.g., swapping arrival and occupancy, or omitting pre-arrival) reveals the student views the guest cycle as only physical stay, missing the critical revenue-generating pre-arrival and loyalty-building departure stages.",
+     "self_check": true
+    },
+    {
+     "q": "A hotel guest complains that their room has not been cleaned by 11 AM despite checking out at 8 AM. Trace the communication flow between front office and housekeeping that should have prevented this, naming the specific roles and the control desk function.",
+     "a": "Correct flow: Front office receptionist updates departure at check-out → Front office cashier settles bill → Desk control supervisor (housekeeping) receives departure information from front office → Desk control supervisor assigns room attendant to clean vacated room → Floor supervisor inspects and hands over cleaned room to front office for re-sale. A wrong answer (e.g., \"housekeeper cleans when they see empty room\") reveals the student misses the 24-hour control desk coordination mechanism and thinks housekeeping works reactively, not on systematic information flow.",
+     "self_check": true
+    },
+    {
+     "q": "The executive housekeeper must prepare a duty roster for a 100-room hotel with 3 shifts. Each room attendant cleans 16 rooms per shift. Public areas require 4 housemen per shift. Florist/gardener works 1 shift. Linen room needs 2 staff per shift. Calculate the minimum total staff required per day (all shifts combined) and explain why multi-tasking might reduce this number in a small hotel.",
+     "a": "Room attendants: 100 rooms ÷ 16 = 6.25 → 7 attendants per shift × 3 shifts = 21. Housemen: 4 × 3 = 12. Florist: 1 × 1 = 1 (single shift). Linen: 2 × 3 = 6. Total = 21 + 12 + 1 + 6 = 40 staff/day. Multi-tasking reduces this because in small hotels, one person may cover linen + uniform room, or florist + gardener, or housemen may assist in public areas and heavy room cleaning, collapsing roles. A wrong answer (e.g., 7 attendants total) reveals the student forgot to multiply by 3 shifts or confused per-shift with per-day staffing.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the material resource requirements for cleaning marble flooring in a hotel lobby versus wooden furniture in guest rooms. Specify the cleaning agent, tool, and precaution for each, and explain why interchanging them causes damage.",
+     "a": "Marble lobby: pH-neutral stone cleaner (not acid/alkali), soft microfiber mop, precaution — avoid vinegar/ammonia which etch calcium carbonate. Wooden furniture: wood-specific polish or mild soap solution, soft cotton cloth, precaution — avoid water soaking which swells wood grain. Interchanging: acid on marble → permanent dull spots; water on wood → warping/stains. A wrong answer (e.g., \"use detergent for both\") reveals the student treats all surfaces as generic, ignoring material chemistry — a costly error in hospitality where surface replacement costs ₹2,000–5,000/sq.ft.",
+     "self_check": true
+    },
+    {
+     "q": "A hotel switches from conventional laundry to \"chemical-free, water-based, hypoallergenic, biodegradable\" agents and places cards urging towel reuse. Evaluate this change on three dimensions: (a) environmental impact, (b) guest perception, (c) operational cost. Justify whether this is a net positive for a mid-scale hotel.",
+     "a": "(a) Environmental: +ve — reduces chemical runoff, water pollution, detergent use; (b) Guest perception: +ve — appeals to eco-conscious travelers, but some guests may perceive \"chemical-free\" as less hygienic unless communicated well; (c) Operational cost: initially higher (eco-agents cost 20–30% more), but towel reuse saves water, electricity, labor, extending linen life — break-even in 6–12 months. Net positive for mid-scale hotel if marketed as \"sustainable stay\" attracting premium segment. A wrong answer (e.g., \"cost increases so it's bad\") reveals the student evaluates only immediate expense, not lifecycle savings and brand value — a classic short-termism error in hospitality management.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-day spring cleaning schedule for a 20-room boutique hotel that minimizes guest disruption. Specify: (a) which areas are cleaned each day, (b) which housekeeping sections handle them, (c) what specialized equipment/agents are needed beyond daily supplies, (d) how front office coordinates room availability.",
+     "a": "Good answer criteria: Day 1 — corridors, lobby, banquet hall (public area brigade + housemen; rotary floor machine, carpet shampooer; front office blocks 0 rooms). Day 2 — guest rooms deep clean (room attendants + floor supervisor; steam cleaner, mattress vacuum, grout brush; front office keeps 20% rooms vacant via yield management). Day 3 — kitchen stewarding areas, linen room, garden (kitchen stewards + florist; degreaser, high-pressure washer; front office coordinates with restaurant for timing). Poor answer: cleaning all rooms same day → full closure, revenue loss; or missing specialized equipment → incomplete cleaning. Reveals inability to sequence interdependent tasks and coordinate departments — a core management skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

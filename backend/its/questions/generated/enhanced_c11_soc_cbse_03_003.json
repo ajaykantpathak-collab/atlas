@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_03_003",
+   "title": "c11_soc_cbse_03_003",
+   "questions": [
+    {
+     "q": "Define consanguineous kin and affinal kin as per the sociological understanding in the NCERT textbook.",
+     "a": "Consanguineous kin are relatives related by blood/descent (e.g., parents, siblings, children). Affinal kin are relatives related through marriage (e.g., spouse, in-laws). A wrong answer that confuses the two (e.g., calling a brother-in-law consanguineous) reveals the student has not grasped the fundamental distinction between descent-based and marriage-based ties.",
+     "self_check": true
+    },
+    {
+     "q": "In a patrilineal Hindu family, a woman's brother is her consanguineous kin, but her husband's brother is her affinal kin. Explain why this distinction matters for understanding kinship obligations in Indian society.",
+     "a": "The distinction determines the nature of rights and obligations: consanguineous ties involve lifelong duties of support, inheritance, and ritual roles (e.g., a brother's duty to protect his sister), while affinal ties create new alliances and reciprocal obligations between families (e.g., a woman's duty towards her husband's family). A wrong answer that treats both as identical reveals the misconception that kinship is purely emotional rather than a structured system of social expectations.",
+     "self_check": true
+    },
+    {
+     "q": "Draw a simple kinship diagram for 'Ego' (a male) showing his parents, his sister, his wife, his wife's brother, and his sister's husband. Label each tie as consanguineous (C) or affinal (A). Then, identify which of these relatives belong to Ego's family of orientation and which to his family of procreation.",
+     "a": "- Parents: C, family of orientation.\n- Sister: C, family of orientation.\n- Wife: A, family of procreation.\n- Wife's brother: A (affinal, related through marriage), not in Ego's family of procreation (he is in wife's family of orientation).\n- Sister's husband: A (affinal), not in Ego's family of orientation or procreation (he is in sister's family of procreation).\nA wrong answer that mislabels the sister's husband as consanguineous or places the wife in the family of orientation reveals confusion between descent and marriage ties.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the kinship terminology of a North Indian Hindi-speaking family and a South Indian Tamil-speaking family for the following relations: father's brother, mother's brother, father's sister's husband. What does the difference in terminology reveal about the underlying kinship structure (patrilineal vs. matrilineal emphasis)?",
+     "a": "In Hindi, father's brother is 'chacha' (distinct from father), mother's brother is 'mama', and father's sister's husband is 'phupha' (affinal). In Tamil, father's brother is 'periyappa' or 'chittappa', mother's brother is 'mama', but father's sister's husband is 'mamanar' (affinal). The consistent distinction between consanguineous and affinal terms in both shows the universal recognition of the blood/marriage divide, but the specific terms for paternal vs. maternal uncles reflect the patrilineal bias in North India (where father's brother is more significant for inheritance) and the more symmetrical treatment in some South Indian systems. A wrong answer that claims the terms are identical or misses the affinal distinction reveals a failure to analyze how language encodes kinship structure.",
+     "self_check": true
+    },
+    {
+     "q": "\"In modern urban India, affinal ties are becoming more important than consanguineous ties for emotional support and caregiving.\" Evaluate this statement using sociological reasoning, considering both the persistence of joint family obligations and the rise of nuclear families.",
+     "a": "The statement is partially true but overstated. While nuclear families and migration increase reliance on spouses and in-laws for daily support, consanguineous ties remain crucial for ritual duties, inheritance, and crisis support (e.g., during illness or old age). Sociological studies show a reconfiguration rather than replacement: affinal ties gain prominence in everyday life, but consanguineous ties retain structural significance in rites of passage and property. A wrong answer that fully agrees or disagrees without nuance reveals an inability to evaluate social change as a complex interplay of continuity and transformation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a fictional case study of an Indian family where a conflict arises due to competing demands from consanguineous and affinal kin (e.g., a married woman torn between her natal family's ritual expectations and her husband's family's demands). Write a 150-word narrative and then identify the kinship principles at play.",
+     "a": "A good narrative will show a specific conflict (e.g., a woman expected to observe a festival at her parental home but her in-laws insist she stay). It should identify principles: patrilocal residence (wife moves to husband's home), affinal obligation (duty to husband's family), consanguineous ritual role (daughter's role in natal family rituals), and the structural tension between family of orientation and family of procreation. A poor answer that lacks clear kinship terminology or treats the conflict as purely personal reveals failure to apply the structural concept of kinship ties.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

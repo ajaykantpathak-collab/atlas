@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_10_003",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_10_003",
+   "title": "c11_geo_cbse_10_003",
+   "questions": [
+    {
+     "q": "State the typical duration (months) of the Southwest Monsoon season as defined by the India Meteorological Department (IMD) and name the two branches into which it divides over the Indian subcontinent.",
+     "a": "The Southwest Monsoon season lasts from June to September. It splits into the Arabian Sea branch and the Bay of Bengal branch. A wrong answer (e.g., saying May-October or naming only one branch) reveals the student lacks the basic IMD seasonal calendar and the fundamental spatial split of the monsoon current, which is essential for understanding regional rainfall distribution.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Coromandel Coast (Tamil Nadu) receives most of its annual rainfall during the Retreating Monsoon season (October-November) rather than the Southwest Monsoon season.",
+     "a": "During the Southwest Monsoon, the Coromandel Coast lies in the rain shadow of the Western Ghats for the Arabian Sea branch and is parallel to the Bay of Bengal branch winds, receiving little rain. In the Retreating Monsoon, the ITCZ shifts south, establishing northeasterly winds that pick up moisture over the Bay of Bengal and strike the coast as onshore winds, causing heavy rainfall. A wrong answer indicates the student cannot apply rain shadow and wind direction concepts to a specific coastal region.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following January temperature data for two stations: Station A (Leh, 3500 m): -10°C; Station B (Chennai, 7 m): 25°C. Calculate the expected temperature at Leh if it were at sea level using the normal lapse rate (6.5°C/km), and explain why the actual temperature difference between the two stations is larger than the altitude-corrected difference.",
+     "a": "Step 1: Altitude difference = 3.5 km. Step 2: Lapse rate correction = 3.5 × 6.5 = 22.75°C. Step 3: Sea-level equivalent temperature for Leh = -10 + 22.75 = 12.75°C. Step 4: Altitude-corrected difference = 25 - 12.75 = 12.25°C. Step 5: Actual difference = 35°C. The larger actual difference is due to continentality (Leh's inland location causing extreme winter cooling) and latitude (Leh at 34°N vs Chennai at 13°N). A wrong calculation or missing the continentality/latitude factors shows inability to integrate multiple temperature controls.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pressure and wind patterns over North India during the Winter season and the Summer season. Identify the key difference in the origin of the winds and its consequence for precipitation.",
+     "a": "Winter: High pressure over Central Asia/North India → cold, dry northeasterly winds (continental origin) → little to no rain except Western Disturbances. Summer: Intense heating creates low pressure over NW India/Thar → hot, dry westerly winds (Loo) and eventual attraction of moist southeasterlies from Bay of Bengal → pre-monsoon showers. Key difference: Winter winds are cold/dry from land; Summer winds transition from hot/dry (Loo) to moist (monsoon onset). A wrong comparison (e.g., saying both are dry) misses the seasonal reversal that defines the monsoon climate.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Retreating Monsoon season is meteorologically insignificant because it contributes less than 15% of India's annual rainfall.\" Provide a reasoned judgment considering agriculture and regional disparities.",
+     "a": "The statement is misleading. While nationally the Retreating Monsoon contributes ~12% of annual rainfall, it is critical for: (1) Rabi crop sowing (wheat, mustard) in NW India via Western Disturbances triggered by the westerly jet; (2) 50-60% of annual rainfall for Tamil Nadu and coastal Andhra Pradesh; (3) Recharging soil moisture and reservoirs before the dry winter. Judging by national average ignores regional agricultural dependence. A student agreeing with the statement fails to evaluate spatial variability and sectoral significance.",
+     "self_check": true
+    },
+    {
+     "q": "Design a month-by-month agricultural advisory calendar for a farmer in the Malwa Plateau (Madhya Pradesh) showing the primary crop activity (sowing/harvesting/fallow) for Kharif and Rabi seasons, linked to the four meteorological seasons and their characteristic weather hazards.",
+     "a": "A good answer maps: Summer (Mar-May) → land preparation, Kharif sowing with onset of SW Monsoon (Jun); SW Monsoon (Jun-Sep) → Kharif growth (soybean, maize), hazard: waterlogging/flash floods; Retreating Monsoon (Oct-Nov) → Kharif harvest, Rabi sowing (wheat, chickpea), hazard: untimely rain damaging harvest; Winter (Dec-Feb) → Rabi growth, hazard: frost/cold wave, Western Disturbance rain beneficial. Poor answer shows generic crop calendar without linking specific weather hazards of each season to the Malwa Plateau's black soil and semi-arid context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

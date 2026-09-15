@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_chem_ch2_7",
+ "concepts": [
+  {
+   "id": "enh:c9_chem_ch2_7",
+   "title": "c9_chem_ch2_7",
+   "questions": [
+    {
+     "q": "State the valency of an element with atomic number 15 and write its electron distribution showing the valence shell.",
+     "a": "Atomic number 15 is phosphorus. Electron distribution: K=2, L=8, M=5. Valence electrons = 5. Since 5 ≥ 5, valency = 8 − 5 = 3. A wrong answer (e.g., valency = 5) reveals the student applies the \"valency = valence electrons\" rule for all cases, not recognizing the octet-completion logic for elements with 5–7 valence electrons.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why both sodium (Z=11) and chlorine (Z=17) form ions with a noble gas configuration, but sodium forms a cation while chlorine forms an anion.",
+     "a": "Sodium (2,8,1) has 1 valence electron; losing it gives Ne configuration (2,8), forming Na⁺. Chlorine (2,8,7) has 7 valence electrons; gaining 1 gives Ar configuration (2,8,8), forming Cl⁻. Both achieve octet. A wrong answer that says \"sodium gains 7 electrons\" or \"chlorine loses 7\" shows the student does not connect valency to the minimum energy path to octet and confuses the direction of electron transfer.",
+     "self_check": true
+    },
+    {
+     "q": "An element X has atomic number 12. Element Y has atomic number 16. Write the electron distribution of each, determine their valencies, and predict the formula of the compound they form.",
+     "a": "X (Z=12): 2,8,2 → valence e⁻ = 2 → valency = 2. Y (Z=16): 2,8,6 → valence e⁻ = 6 → valency = 8−6 = 2. Both have valency 2, so formula = XY (e.g., MgS). Steps: (1) Write e⁻ distribution using 2n². (2) Identify valence electrons. (3) Apply valency rule. (4) Cross-multiply valencies for formula. A wrong formula like X₂Y or XY₂ reveals the student cannot cross-valency or miscalculates valency for Y as 6 instead of 2.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the valency of carbon (Z=6) and silicon (Z=14). Both have 4 valence electrons. Why do they show the same valency despite different periods? What does this imply about group-wise valency trends?",
+     "a": "Carbon: 2,4 → valence e⁻ = 4 → valency = 4. Silicon: 2,8,4 → valence e⁻ = 4 → valency = 4. Same group (Group 14) → same valence electron count → same valency. Valency depends only on valence electrons, not the principal quantum number (shell). A wrong answer stating \"silicon has valency 8 because it has more shells\" shows the student confuses total electrons with valence electrons and does not understand group periodicity.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the valency of nitrogen (Z=7) as 5 because its electron distribution is 2,5. Evaluate this answer. Is it correct? If not, identify the error and give the correct valency with reasoning.",
+     "a": "Incorrect. Nitrogen: 2,5 → valence e⁻ = 5. Since 5 ≥ 5, valency = 8 − 5 = 3 (not 5). The student applied the \"valency = valence electrons\" rule meant for 1–4 valence electrons. Correct valency = 3 (e.g., NH₃, NCl₃). This error is the most common board-level mistake — forgetting the octet-completion rule for p-block elements with 5–7 valence electrons.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple rule-based flowchart (in words) that a Class 9 student can follow to find the valency of any element with Z=1–20, starting from its atomic number. Include decision points for the octet/duplet rule.",
+     "a": "Flowchart: (1) Write atomic number Z. (2) Distribute electrons in shells K, L, M, N using 2n² (max 2, 8, 8, 2 for Z≤20). (3) Note electrons in outermost shell = V. (4) If V = 0 or 8 (or 2 for K-shell only), valency = 0. (5) Else if V ≤ 4, valency = V. (6) Else (V = 5,6,7), valency = 8 − V. (7) Output valency. A poor answer that misses the duplet exception for helium or the V=0 case shows incomplete algorithmic thinking and inability to handle edge cases.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

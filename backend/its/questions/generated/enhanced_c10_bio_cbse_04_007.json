@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_04_007",
+   "title": "c10_bio_cbse_04_007",
+   "questions": [
+    {
+     "q": "State the four postulates of Darwin's theory of natural selection in the correct logical sequence.",
+     "a": "The four postulates in sequence are: (1) Individuals within a population show variation in traits. (2) These variations are heritable (passed from parent to offspring). (3) More offspring are produced than the environment can support, leading to a struggle for existence. (4) Individuals with advantageous variations survive and reproduce more successfully, passing those traits to the next generation. A wrong answer (e.g., listing \"survival of fittest\" as the first postulate or omitting heritability) reveals the student has memorised phrases but not the logical causal chain that Darwin built.",
+     "self_check": true
+    },
+    {
+     "q": "A population of beetles lives on green bushes. Some beetles are green, some are brown. Birds eat the beetles. Over several generations, the population becomes mostly green. Explain why this happens using Darwin's postulates, and identify which postulate is demonstrated by the fact that green beetles produce green offspring.",
+     "a": "Green beetles are camouflaged on green bushes, so birds spot and eat brown beetles more easily (differential survival). Green beetles survive longer and produce more offspring. Because colour is heritable (postulate 2), green offspring inherit the advantage. The population shifts to green. The heritability postulate is shown by green beetles producing green offspring. A wrong answer that says \"beetles turn green to hide\" reveals Lamarckian thinking — the student thinks the environment induces the change directly, not that selection acts on random variation.",
+     "self_check": true
+    },
+    {
+     "q": "In a hospital, a patient is treated with antibiotic X for a bacterial infection. After 3 days, symptoms return. The doctor switches to antibiotic Y, which works. Using natural selection, explain why antibiotic X failed and why antibiotic Y might also fail eventually. Include the role of random mutation.",
+     "a": "Step 1: Bacterial population has random mutations; a few bacteria by chance have a mutation making them resistant to antibiotic X. Step 2: Antibiotic X kills non-resistant bacteria (selection pressure). Step 3: Resistant bacteria survive and reproduce rapidly (differential reproduction). Step 4: The population becomes predominantly resistant to X — antibiotic X fails. Step 5: The same process can occur with antibiotic Y if a random mutation conferring resistance to Y arises. A wrong answer stating \"bacteria mutate because they need to resist the antibiotic\" reveals the misconception that mutations are directed by the environment (Lamarckian), not random.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast Darwin's natural selection and Lamarck's inheritance of acquired characters using the example of giraffe neck length. Create a table with two columns: \"Darwin\" and \"Lamarck\", and four rows: (i) Source of variation, (ii) Role of environment, (iii) Mechanism of change, (iv) Timescale.",
+     "a": "Darwin: (i) Random genetic variation exists in neck length. (ii) Environment (tall trees) selects existing long-neck variants. (iii) Differential survival/reproduction of long-necked individuals. (iv) Gradual over many generations. Lamarck: (i) Variation arises from use/disuse (stretching neck). (ii) Environment induces the change directly. (iii) Acquired longer neck passed to offspring. (iv) Can occur within a single generation. A wrong answer that mixes the two (e.g., \"Darwin says stretching causes longer necks\") shows the student cannot distinguish the fundamental difference: selection vs. induction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Natural selection creates new traits that help organisms survive.\" Is it correct? Justify your answer with reference to the source of variation.",
+     "a": "The statement is incorrect. Natural selection does not create new traits; it only filters existing variation. New traits arise from random mutations and genetic recombination (sexual reproduction). Selection increases the frequency of advantageous traits that already exist in the population. A student who agrees with the statement confuses the creative role of mutation with the filtering role of selection — a classic board exam error that costs marks in \"explain\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple thought experiment (no lab needed) to demonstrate that natural selection requires heritable variation. Describe the initial population, the selective pressure, and the expected outcome after 5 generations if (a) variation is heritable, (b) variation is not heritable (acquired).",
+     "a": "Thought experiment: Population of 100 imaginary insects on grey bark. 10 are grey (camouflaged), 90 are white. Birds eat visible insects. (a) Heritable: Grey insects survive, reproduce; grey offspring inherit colour. After 5 generations, population is mostly grey. (b) Non-heritable (acquired): Grey insects survive but produce white offspring (colour not genetic). After 5 generations, population remains 90% white. A poor answer that shows the same outcome for both reveals the student does not grasp that heritability is the essential link between selection and evolutionary change.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

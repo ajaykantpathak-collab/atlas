@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_12_006",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_12_006",
+   "title": "c12_geo_cbse_12_006",
+   "questions": [
+    {
+     "q": "Name the barrage that serves as the headworks of the Indira Gandhi Canal and the two rivers whose confluence it regulates.",
+     "a": "Harike Barrage, at the confluence of the Sutlej and Beas rivers in Punjab. A wrong answer (e.g., \"Bhakra Dam\" or \"Sutlej alone\") reveals confusion between storage dams and diversion barrages, and ignorance of the specific river system feeding the canal — a common error because Bhakra-Nangal (on Sutlej) is more famous but does not directly feed this canal.",
+     "self_check": true
+    },
+    {
+     "q": "Why was the Indira Gandhi Canal routed through the Thar Desert instead of following a more direct path to the fertile plains of Rajasthan?",
+     "a": "The canal was deliberately routed through the Thar Desert to bring irrigation to the most water-deficit region, enabling desert reclamation, checking desertification, and providing drinking water to scattered settlements. A student who says \"to avoid hills\" or \"shorter distance\" misunderstands the project's core objective: **targeted development of the arid zone**, not efficient water delivery to already-irrigated areas. The Thar's extreme aridity (≤100 mm rain) and high groundwater salinity made it the priority command area.",
+     "self_check": true
+    },
+    {
+     "q": "Using the concept of command area, calculate the approximate irrigated area added in Stage II of the Indira Gandhi Canal if the total culturable command area (CCA) is 1.4 million hectares and Stage I covered 0.5 million hectares. What percentage of the total CCA does Stage II represent?",
+     "a": "Step 1: Total CCA = 1.4 million ha. Stage I = 0.5 million ha.  \nStep 2: Stage II CCA = Total − Stage I = 1.4 − 0.5 = 0.9 million ha.  \nStep 3: Percentage = (Stage II / Total) × 100 = (0.9 / 1.4) × 100 = 64.3%.  \nAnswer: Stage II added ~0.9 million ha (64.3% of total CCA). A wrong calculation (e.g., using gross command area instead of CCA, or mis-subtracting) shows inability to distinguish between **culturable command area** (actually irrigable) and **gross command area** (total geographic extent including uncultivable land) — a frequent board-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Indira Gandhi Canal and the Narmada Valley Project (Sardar Sarovar) on: (a) source river and basin type, (b) primary beneficiary states, (c) major socio-environmental controversy. Present as a 3-row table.",
+     "a": "| Aspect | Indira Gandhi Canal | Narmada Valley (Sardar Sarovar) |\n|--------|---------------------|--------------------------------|\n| Source river & basin | Sutlej-Beas (Indus basin) — inter-basin transfer from Indus to desert | Narmada (west-flowing peninsular river) — intra-basin development |\n| Primary beneficiary states | Rajasthan (mainly), Punjab, Haryana (water sharing) | Gujarat (irrigation), Madhya Pradesh (hydropower), Maharashtra, Rajasthan (water supply) |\n| Major controversy | Waterlogging & salinity in command area; Punjab-Rajasthan sharing disputes | Large-scale displacement of tribals (Narmada Bachao Andolan); inter-state height disputes |\n\nA superficial answer listing only \"displacement\" for both misses the **structural difference**: Indira Gandhi Canal's controversy is ecological (waterlogging/salinity from over-irrigation), while Narmada's is socio-political (rehabilitation, submergence, inter-state tribunal awards).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Indira Gandhi Canal has fully solved the water scarcity problem of western Rajasthan.\" Provide three geographical arguments with evidence.",
+     "a": "The statement is **false**. Three arguments:  \n1. **Waterlogging & secondary salinization**: Over-irrigation in Stage I areas (e.g., Sri Ganganagar) raised water table to <2 m, bringing salts to surface — 30% of irrigated land now suffers salinity (CAZRI data).  \n2. **Incomplete coverage**: Stage II command area (Jaisalmer, Barmer) still has >40% CCA unirrigated due to sandy terrain, high seepage losses, and inadequate field channels.  \n3. **Climate vulnerability**: Canal depends on Sutlej-Beas flow, which is declining due to glacier retreat in Himalayas and upstream diversions (e.g., SYL Canal dispute) — long-term supply is uncertain.  \nA \"true\" answer ignores the **environmental carrying capacity** of desert soils and the **political hydrology** of inter-state river sharing.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sustainable cropping pattern for a 10-hectare farm in the Indira Gandhi Canal command area (Stage II, Jaisalmer district) that maximizes water-use efficiency and minimizes salinity risk. Specify crops for Kharif and Rabi, irrigation method, and one soil-management practice.",
+     "a": "**Proposed plan:**  \n- **Kharif**: Pearl millet (bajra) + moth bean (intercropped) — both drought-tolerant, low water demand (~300 mm), deep roots.  \n- **Rabi**: Mustard (irrigated) + chickpea (rainfed on residual moisture) — mustard uses 350 mm, chickpea fixes nitrogen.  \n- **Irrigation**: Drip for mustard (60% water saving vs flood); sprinkler for bajra if supplemental needed.  \n- **Soil practice**: Gypsum application (5 t/ha every 3 years) + green manuring (dhaincha) pre-Kharif to counter sodicity.  \n**Reasoning**: Replaces water-intensive wheat/rice (which caused salinity in Stage I) with **climate-smart, salt-tolerant crops**; drip/sprinkler reduces percolation losses that raise water table. A poor answer suggests rice-wheat rotation or flood irrigation — replicating the Punjab model in a desert, which is ecologically disastrous.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

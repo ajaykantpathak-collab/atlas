@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_15_005",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_15_005",
+   "title": "c11_ps_cbse_15_005",
+   "questions": [
+    {
+     "q": "Which constitutional article exclusively governs the Supreme Court's original jurisdiction, and what is the ONE type of dispute it CANNOT hear under this jurisdiction even if it involves the Government of India?",
+     "a": "Article 131 governs original jurisdiction. It cannot hear disputes arising from pre-Constitution treaties, agreements, or similar instruments (Article 131 proviso). A wrong answer (e.g., citing Article 32 or saying \"any dispute involving the Centre\") reveals confusion between original jurisdiction and writ jurisdiction, or ignorance of the explicit constitutional limitation in the proviso to Article 131.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Constitution makers create a separate original jurisdiction for inter-state and Centre-State disputes instead of letting them start in High Courts like ordinary civil suits?",
+     "a": "Because federal disputes involve sovereign entities (Union and States) where no High Court has territorial jurisdiction over both parties, and because allowing one High Court to adjudicate would compromise federal neutrality. A wrong answer focusing on \"speed\" or \"importance\" misses the structural federalism rationale: the Supreme Court as the sole common forum for coordinate governments is a constitutional design choice, not mere convenience.",
+     "self_check": true
+    },
+    {
+     "q": "A High Court convicts a person under Section 302 IPC and sentences them to life imprisonment. The convict wants to appeal to the Supreme Court. Under which TWO appellate jurisdiction articles can this appeal be filed, and what is the key procedural difference between them?",
+     "a": "Article 134(1)(a) (appeal as of right where High Court reversed acquittal and awarded death/life) and Article 136 (Special Leave Petition — discretionary). The key difference: Article 134(1)(a) is a statutory right of appeal; Article 136 requires the Supreme Court's discretion to grant leave. A wrong answer citing only Article 136 or only Article 132 reveals failure to distinguish constitutional appeals (Article 132) from criminal appeals (Article 134) and ignorance of the right-vs-discretion distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the binding nature of the Supreme Court's judgment under Article 131 (original) versus Article 143 (advisory). Why does this difference exist constitutionally?",
+     "a": "Article 131 judgments are binding and enforceable as law declared by the Supreme Court (Article 141); Article 143 opinions are explicitly non-binding — the President \"may\" act on them. The difference exists because Article 131 resolves actual legal disputes between governments (adjudication), while Article 143 seeks judicial guidance for the executive on hypothetical or pending questions (consultation). A wrong answer claiming both are binding confuses advisory opinion with judicial precedent.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"The Special Leave Petition (Article 136) has effectively swallowed the entire appellate jurisdiction of the Supreme Court, making Articles 132-134 redundant.\" Is this a valid critique? Justify with constitutional design reasoning.",
+     "a": "Not entirely valid. Articles 132-134 create statutory rights of appeal in specific categories (constitutional interpretation, substantial question of law, death/life sentence), ensuring access to the apex court for fundamental matters. Article 136 is a residual discretionary power for \"any judgment... by any court/tribunal\" — it fills gaps but does not create a right. The Constitution deliberately provides both: guaranteed appeals for core rights, discretionary review for everything else. A wrong answer agreeing wholly misses the constitutional hierarchy: rights-based appeals vs. grace-based review.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph advisory reference (as if from the President under Article 143) on a contemporary federalism issue involving GST Council decisions. Include the specific question of law and why it qualifies for advisory jurisdiction.",
+     "a": "A strong answer: \"Whether the GST Council's recommendation on compensation cess extension binds States that voted against it, given Article 279A(9) requires a three-fourths majority — qualifies because it involves interpretation of a constitutional body's decision-making procedure affecting fiscal federalism, is of public importance, and has not yet been litigated.\" A poor answer asks a purely political question (e.g., \"Should GST rates be lowered?\") or a factual question already decided by courts, revealing misunderstanding of \"question of law\" and \"public importance\" thresholds.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

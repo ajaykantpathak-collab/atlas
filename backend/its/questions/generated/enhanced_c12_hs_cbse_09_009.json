@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_09_009",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_09_009",
+   "title": "c12_hs_cbse_09_009",
+   "questions": [
+    {
+     "q": "A REMEMBER level question: State the ICMR 2020 Recommended Dietary Allowance (RDA) for protein for a 70-year-old man weighing 60 kg, and for calcium for a 70-year-old woman.",
+     "a": "Correct answer: Protein RDA = 1.2 g/kg body weight/day → 72 g/day for a 60 kg man. Calcium RDA = 1200 mg/day for women ≥60 years. A wrong answer (e.g., using adult RDA of 0.8 g/kg protein or 1000 mg calcium) reveals the student has not updated from adult values to elderly-specific RDAs, a frequent board exam error where marks are lost for quoting outdated figures.",
+     "self_check": true
+    },
+    {
+     "q": "An UNDERSTAND level question: Mrs. Iyer, 75, says 'I don't feel thirsty so I don't drink water unless with meals.' Explain the physiological basis for her reduced thirst sensation and calculate her minimum daily fluid requirement if she weighs 50 kg. Why is relying on thirst dangerous in this age group?",
+     "a": "Correct answer: Age-related blunting of osmoreceptor sensitivity in the hypothalamus and reduced renal concentrating ability diminish thirst drive. Minimum fluid = 30 mL/kg × 50 kg = 1500 mL/day. Relying on thirst leads to chronic mild dehydration, exacerbating constipation, urinary tract infections, and cognitive impairment. A wrong answer that only states 'drink 8 glasses' without the physiological explanation or weight-based calculation shows superficial understanding — the student memorized a rule but cannot justify or individualize it.",
+     "self_check": true
+    },
+    {
+     "q": "An APPLY level question: A 68-year-old vegetarian woman (weight 55 kg) has early satiety and cannot eat large meals. Design a 6-meal pattern (with approximate timings) that delivers ≥55 g protein and ≥1200 mg calcium using only vegetarian sources. List each meal's main protein/calcium contributor.",
+     "a": "Correct answer (example):\n- 7:00 AM: Milk 200 mL (7 g protein, 240 mg Ca)\n- 9:30 AM: Curd 100 g + 1 tsp roasted chana powder (5 g protein, 120 mg Ca)\n- 1:00 PM: Lunch — Dal 30 g raw + 1 roti + 100 g paneer (14 g protein, 250 mg Ca)\n- 4:00 PM: Soy milk shake 150 mL + 2 almonds (6 g protein, 100 mg Ca)\n- 7:00 PM: Dinner — Khichdi (rice+moong 30 g) + 50 g paneer (10 g protein, 150 mg Ca)\n- 9:30 PM: Warm milk 150 mL + 1 tsp sesame seeds (5 g protein, 140 mg Ca)\nTotal ≈ 47 g protein, 1000 mg Ca — still short; need to increase portions or add fortified foods. A wrong answer that gives three large meals or omits calcium-rich snacks shows failure to apply 'small frequent meals' and 'nutrient density' principles simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "An ANALYZE level question: Compare the impact of atrophic gastritis (common in elderly) on vitamin B12 absorption vs. iron absorption. Why does B12 deficiency develop insidiously over years while iron deficiency may appear sooner? Include the role of intrinsic factor and hepatic stores.",
+     "a": "Correct answer: Atrophic gastritis reduces gastric acid and intrinsic factor (IF) secretion. B12 requires acid to separate from food proteins and IF for ileal absorption; without IF, absorption drops to ~1% (passive diffusion). Hepatic B12 stores (2-5 mg) last 3-5 years, so deficiency manifests slowly. Iron (non-heme) needs acid for reduction to Fe²⁺ and solubilization; low acid reduces iron absorption immediately, but body iron stores (ferritin) are smaller (300-1000 mg in women) and turnover is faster, so deficiency can appear within months. A wrong answer that conflates the two mechanisms or ignores hepatic stores reveals a lack of analytical depth — the student knows both are affected but cannot differentiate the kinetics.",
+     "self_check": true
+    },
+    {
+     "q": "An EVALUATE level question: A popular health blog claims 'Elderly should avoid dairy because it causes bloating and kidney stones.' Critique this claim using evidence on lactose intolerance prevalence, calcium-oxalate stone pathophysiology, and the risk-benefit ratio of dairy exclusion for bone health in a 72-year-old woman with osteopenia.",
+     "a": "Correct answer: The claim is misleading. (1) Primary lactose intolerance prevalence in Indian elderly is ~60-70%, but most tolerate 150-200 mL milk (6-8 g lactose) per serving, especially fermented dairy (curd, buttermilk) where lactose is pre-digested. (2) Calcium from dairy binds dietary oxalate in the gut, reducing urinary oxalate and stone risk; restriction increases stone risk. (3) For a woman with osteopenia, dairy provides highly bioavailable calcium (300 mg/200 mL) plus protein, phosphorus, and often fortified vitamin D — excluding it without adequate substitution (e.g., 600 g leafy greens daily) drastically increases fracture risk. The benefit of bone protection far outweighs manageable bloating. A wrong answer that agrees with the blog or dismisses lactose intolerance entirely shows inability to weigh evidence and apply risk-benefit reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "A CREATE level question: Develop a one-page 'Elderly Nutrition Quick-Guide' for community health workers that includes: (a) 5 red-flag signs of malnutrition, (b) 3 simple food-based strategies to boost protein in a vegetarian diet, (c) a hydration schedule for a bed-bound 80-year-old, and (d) two locally available, low-cost calcium-rich recipes (ingredients + method). The guide must use simple Hindi/English terms and visual cues.",
+     "a": "Expected answer criteria: (a) Red flags: unplanned weight loss >5% in 6 months, loose clothing/ring, reduced grip strength, frequent infections, slow wound healing. (b) Protein boosters: (i) add 2 tbsp roasted chana/sattu powder to rotis/dal, (ii) mix 1 tbsp skim milk powder in kneaded dough or porridge, (iii) include 50 g paneer/soya chunks daily. (c) Hydration schedule: 100 mL every 2 hours from 7 AM–9 PM (total 1500 mL) using marked bottle; offer buttermilk, soup, dal water, not just plain water. (d) Recipes: (i) Ragi ladoo (ragi flour, jaggery, ghee, sesame seeds — steam/roast), (ii) Amaranth (rajgira) porridge with milk and nuts. Poor answers omit red flags, suggest expensive supplements, give rigid water-only schedules, or use non-local ingredients (e.g., kale, quinoa) — indicating failure to translate knowledge into practical, culturally appropriate tools.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

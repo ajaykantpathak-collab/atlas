@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_12_005",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_12_005",
+   "title": "c11_phy_cbse_12_005",
+   "questions": [
+    {
+     "q": "State the law of equipartition of energy and write the average energy per molecule for a single quadratic degree of freedom at temperature T.",
+     "a": "The law of equipartition of energy states that in thermal equilibrium, each quadratic degree of freedom contributes (1/2)k_BT to the average energy per molecule. A wrong answer (e.g., stating k_BT or (3/2)k_BT) reveals confusion between total translational energy and energy per degree of freedom, or misunderstanding that the theorem applies per quadratic term, not per molecule overall.",
+     "self_check": true
+    },
+    {
+     "q": "A diatomic gas molecule is modeled as a rigid rotator at room temperature. How many degrees of freedom does it have? If the temperature is raised high enough to excite vibrational modes, how many additional degrees of freedom appear, and why?",
+     "a": "A rigid diatomic molecule has 5 degrees of freedom (3 translational + 2 rotational). When vibration is excited, it adds 2 degrees of freedom (one kinetic, one potential) because vibrational energy contains two quadratic terms: (1/2)μ(dy/dt)² and (1/2)ky². A wrong answer (e.g., saying 1 extra degree) shows the student misses that vibration contributes two independent quadratic terms, not one.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the molar specific heat at constant volume (C_v) and the ratio of specific heats (γ) for a monatomic ideal gas. Use R = 8.31 J mol⁻¹ K⁻¹.",
+     "a": "Monatomic gas: 3 translational degrees of freedom → U = (3/2)RT → C_v = dU/dT = (3/2)R = 12.465 J mol⁻¹ K⁻¹. C_p = C_v + R = (5/2)R = 20.775 J mol⁻¹ K⁻¹. γ = C_p/C_v = 5/3 ≈ 1.67. A wrong answer (e.g., C_v = (5/2)R) indicates the student used diatomic degrees of freedom instead of monatomic.",
+     "self_check": true
+    },
+    {
+     "q": "Experimental C_v for chlorine gas (Cl₂) at 300 K is about 25.0 J mol⁻¹ K⁻¹, while the rigid diatomic model predicts 20.8 J mol⁻¹ K⁻¹. Explain this discrepancy using the equipartition theorem.",
+     "a": "The rigid diatomic model (5 degrees of freedom) gives C_v = (5/2)R = 20.8 J mol⁻¹ K⁻¹. The higher experimental value indicates that vibrational modes are partially excited even at room temperature for Cl₂, adding extra degrees of freedom. Since each vibrational mode contributes R to C_v (2 × (1/2)R), the data suggests about 0.5 vibrational modes are active. A wrong answer (e.g., \"experimental error\") shows failure to connect equipartition to temperature-dependent activation of vibrational modes.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since a polyatomic molecule has 3 rotational degrees of freedom, its C_v should always be (6/2)R = 3R if vibrations are ignored.\" Evaluate this statement.",
+     "a": "The statement is correct for a non-linear polyatomic molecule (3 translational + 3 rotational = 6 degrees of freedom → C_v = 3R). However, for a linear polyatomic molecule (e.g., CO₂), there are only 2 rotational degrees of freedom, giving C_v = (5/2)R. A wrong evaluation (e.g., agreeing without distinguishing linear vs. non-linear) reveals the student doesn't know that linear molecules have only 2 rotational axes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple thought experiment using the equipartition theorem to explain why the specific heat of solid carbon (diamond) at room temperature is significantly lower than 3R, while most other solids obey the Dulong-Petit law (C_v ≈ 3R).",
+     "a": "In the Einstein/Debye model, each atom in a solid has 3 vibrational degrees of freedom (kinetic + potential in x, y, z → 6 quadratic terms → 3k_BT per atom → C_v = 3R per mole). For diamond, the high Debye temperature (~2230 K) means vibrational modes are \"frozen out\" at room temperature (300 K) because k_BT is much smaller than the vibrational quantum. The equipartition theorem (classical) fails here; quantum effects suppress contributions. A poor answer (e.g., \"carbon is light\") misses the quantum-classical crossover and the role of Debye temperature.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

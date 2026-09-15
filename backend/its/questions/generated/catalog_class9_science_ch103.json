@@ -1,0 +1,225 @@
+{
+ "catalog": "catalog_class9_science_ch103.json",
+ "concepts": [
+  {
+   "id": "iesc.103.1",
+   "title": "Division of Labour and Cellular Hierarchy in Tissues",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What does 'division of labour' mean in multicellular organisms?",
+     "a": "Different cells specialise for different jobs - muscle cells contract, nerve cells carry signals - making the organism efficient.",
+     "self_check": true
+    },
+    {
+     "q": "What is the order of organisation: cell to organism?",
+     "a": "Cell -> tissue -> organ -> organ system -> organism.",
+     "self_check": true
+    },
+    {
+     "q": "Why can't a single-celled organism afford specialisation?",
+     "a": "One cell must do every life function itself; only many cells can share out the work.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.103.2",
+   "title": "Plant Meristematic Tissues",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is meristematic tissue?",
+     "a": "Plant tissue of actively dividing cells, found at growing tips, responsible for plant growth.",
+     "self_check": true
+    },
+    {
+     "q": "Name the three kinds of meristems by position.",
+     "a": "Apical (tips of roots and shoots), lateral (sides, for girth) and intercalary (at nodes/bases of leaves).",
+     "self_check": true
+    },
+    {
+     "q": "Why do meristem cells have thin walls and dense cytoplasm?",
+     "a": "They are busy dividing; thin walls ease division and dense cytoplasm supports rapid growth with no storage vacuoles.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.103.3",
+   "title": "Simple Permanent Plant Tissues",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the three simple permanent tissues of plants.",
+     "a": "Parenchyma, collenchyma and sclerenchyma.",
+     "self_check": true
+    },
+    {
+     "q": "Which simple tissue gives flexible support to leaf stalks?",
+     "a": "Collenchyma - living cells with thickened corners that bend without breaking.",
+     "self_check": true
+    },
+    {
+     "q": "What makes sclerenchyma stiff and dead at maturity?",
+     "a": "Its cell walls are thickened with lignin; the dead hard cells give mechanical strength.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.103.4",
+   "title": "Complex Permanent Tissues and Vascular Systems",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the two complex permanent tissues of plants.",
+     "a": "Xylem and phloem.",
+     "self_check": true
+    },
+    {
+     "q": "Why are xylem and phloem called complex tissues?",
+     "a": "Each is made of more than one type of cell working together as a transport unit.",
+     "self_check": true
+    },
+    {
+     "q": "What do xylem and phloem transport?",
+     "a": "Xylem carries water and minerals upward from roots; phloem carries food from leaves to other parts.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.103.5",
+   "title": "Epithelial Tissues in Animals",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is epithelial tissue and where is it found?",
+     "a": "A sheet of tightly packed cells covering body surfaces and lining cavities and organs.",
+     "self_check": true
+    },
+    {
+     "q": "Name two jobs of epithelial tissue.",
+     "a": "Protection against injury and germs, and secretion/absorption (as in gland and gut linings).",
+     "self_check": true
+    },
+    {
+     "q": "How are epithelial cells suited to their job?",
+     "a": "They fit closely with almost no cementing material between them, forming continuous sheets.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.103.6",
+   "title": "Connective Tissues in Animals",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are the parts of connective tissue?",
+     "a": "Scattered cells embedded in an abundant matrix, which may be solid, jelly-like or fluid.",
+     "self_check": true
+    },
+    {
+     "q": "Name three types of connective tissue with one example each.",
+     "a": "Loose connective (areolar under skin), dense (tendons, ligaments), and specialised (bone, cartilage, blood).",
+     "self_check": true
+    },
+    {
+     "q": "Why is blood called a connective tissue?",
+     "a": "It has cells (RBC, WBC, platelets) in a fluid plasma matrix and connects body parts by transport.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.103.7",
+   "title": "Muscular Tissues - Skeletal, Smooth, and Cardiac",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the three kinds of muscle tissue.",
+     "a": "Skeletal (voluntary, striped), smooth (involuntary, unstriated) and cardiac (heart) muscle.",
+     "self_check": true
+    },
+    {
+     "q": "Which muscle type works without our will and is found in the gut?",
+     "a": "Smooth (unstriated) muscle moves food along the gut involuntarily.",
+     "self_check": true
+    },
+    {
+     "q": "What is special about cardiac muscle?",
+     "a": "It is involuntary, striped, with branched fibres, and never tires - it beats throughout life.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.103.8",
+   "title": "Structure and Function of Nervous Tissue and Neurons",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the parts of a neuron.",
+     "a": "Cell body (cyton), dendrites, axon and axon terminals.",
+     "self_check": true
+    },
+    {
+     "q": "Which part of a neuron receives signals and which sends them onward?",
+     "a": "Dendrites receive information; the axon carries it away to the nerve endings.",
+     "self_check": true
+    },
+    {
+     "q": "Why can a nerve impulse travel so fast?",
+     "a": "The signal is electrical along the axon, and chemical transfer occurs only at the tiny synapse gaps.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.103.9",
+   "title": "Joint Types in the Musculoskeletal System",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the four main types of joints in the human body.",
+     "a": "Ball and socket, hinge, pivot and fixed (immovable) joints.",
+     "self_check": true
+    },
+    {
+     "q": "Which joint lets the arm rotate in all directions?",
+     "a": "The ball-and-socket joint of the shoulder (and hip).",
+     "self_check": true
+    },
+    {
+     "q": "Where are fixed joints found?",
+     "a": "In the skull - the bony plates meet at immovable joints that protect the brain.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.103.10",
+   "title": "Estimation of Tree Age from Annual Growth Rings",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How can the age of a tree be estimated?",
+     "a": "By counting the annual rings (growth rings) seen in a cross-section of its trunk.",
+     "self_check": true
+    },
+    {
+     "q": "What causes annual rings to form?",
+     "a": "Wood grows at different speeds in different seasons, making alternating light and dark rings each year.",
+     "self_check": true
+    },
+    {
+     "q": "Does the trunk diameter grow evenly through the year?",
+     "a": "No - growth is more in favourable seasons and less in unfavourable ones, giving ring boundaries.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

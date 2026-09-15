@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch4_7",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch4_7",
+   "title": "c8_physics_ch4_7",
+   "questions": [
+    {
+     "q": "What is the fundamental cause of wind, and in which direction does air move relative to atmospheric pressure?",
+     "a": "Wind is caused by differences in atmospheric pressure. Air moves horizontally from regions of higher pressure to regions of lower pressure. A wrong answer (e.g., \"wind blows from low to high pressure\" or \"wind is caused by temperature alone\") reveals the student confuses the direction of airflow or thinks temperature directly creates wind without the intermediate step of pressure difference.",
+     "self_check": true
+    },
+    {
+     "q": "Two locations A and B are at the same altitude. Location A has atmospheric pressure 1015 hPa, and location B has 1005 hPa. In which direction will the wind blow at ground level between them, and why does the air move in that direction?",
+     "a": "Wind will blow from location A (1015 hPa) toward location B (1005 hPa) because air moves from higher pressure to lower pressure. The pressure difference creates a net force (pressure gradient force) pushing air molecules from the denser, higher-pressure region toward the less dense, lower-pressure region. A wrong answer (e.g., \"from B to A\" or \"no wind because pressures are close\") reveals the student either reverses the direction or does not understand that even small pressure differences drive air movement.",
+     "self_check": true
+    },
+    {
+     "q": "During the day, the land heats up faster than the sea. The air above the land warms, expands, and rises. The air above the sea remains cooler. If the atmospheric pressure at sea level over the land drops to 1008 hPa and over the sea remains 1012 hPa, what is the pressure difference driving the sea breeze, and which way does the wind blow at the surface?",
+     "a": "Pressure difference = 1012 hPa – 1008 hPa = 4 hPa. Wind blows from the sea (higher pressure, 1012 hPa) toward the land (lower pressure, 1008 hPa) at the surface. This is the sea breeze. Steps: (1) Identify higher pressure (sea, 1012 hPa) and lower pressure (land, 1008 hPa). (2) Subtract: 1012 – 1008 = 4 hPa. (3) Apply rule: air moves high → low. (4) Direction: sea to land. A wrong answer (e.g., \"land to sea\" or \"4 hPa but wrong direction\") shows the student can compute the difference but misapplies the high-to-low rule.",
+     "self_check": true
+    },
+    {
+     "q": "A weather map shows isobars (lines of equal pressure) spaced closely together over Rajasthan and widely spaced over Kerala. Assuming similar latitudes, where would you expect stronger surface winds, and why? Explain using the concept of pressure gradient.",
+     "a": "Stronger winds over Rajasthan. Closely spaced isobars indicate a steep pressure gradient (large pressure change over a short distance), which produces a stronger pressure gradient force and thus faster wind. Widely spaced isobars over Kerala indicate a gentle pressure gradient and lighter winds. A wrong answer (e.g., \"Kerala because it's coastal\" or \"same wind speed\") reveals the student does not connect isobar spacing to pressure gradient magnitude and wind speed.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Wind is caused by the rotation of the Earth. That's why we have trade winds blowing from east to west.\" Evaluate this statement. Is it correct, partially correct, or incorrect? Justify your answer.",
+     "a": "The statement is incorrect. Wind is fundamentally caused by pressure differences (pressure gradient force), not directly by Earth's rotation. Earth's rotation (Coriolis effect) deflects the wind's path but does not create the initial pressure difference or the driving force. Trade winds blow from subtropical high-pressure belts toward equatorial low-pressure belts; the Coriolis effect then deflects them westward. A wrong evaluation (e.g., \"correct, rotation causes wind\") shows the student confuses the deflecting force with the generating force.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom experiment using two containers, hot water, cold water, and a lightweight indicator (like a strip of tissue paper or smoke) to demonstrate that air moves from high pressure to low pressure. Describe the setup, what you observe, and how it models wind formation.",
+     "a": "Setup: Place a container of hot water (heats air above it → rises → creates low pressure) and a container of cold water (cools air above it → sinks → creates high pressure) side by side with a gap between them. Hold a tissue paper strip or incense smoke in the gap. Observation: The indicator moves from the cold-water side toward the hot-water side. Explanation: Cold air is denser (higher pressure), hot air rises (lower pressure). Air flows horizontally from cold to hot, mimicking sea breeze (sea = cold, land = hot). A poor answer (e.g., \"smoke goes up only\" or no pressure explanation) reveals the student cannot link the convection setup to horizontal pressure-driven flow.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

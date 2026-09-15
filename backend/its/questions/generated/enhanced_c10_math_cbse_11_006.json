@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_11_006",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_11_006",
+   "title": "c10_math_cbse_11_006",
+   "questions": [
+    {
+     "q": "Write the formula for the area of a minor segment of a circle of radius r cm with central angle θ degrees. State the meaning of each symbol used.",
+     "a": "Correct answer: Area = (θ/360) × πr² − ½r²sinθ, where r = radius of circle (cm), θ = central angle subtended by the chord (degrees), π = 22/7 or 3.14. A wrong answer like \"Area = (θ/360)πr²\" reveals the student is confusing segment with sector — they forgot to subtract the triangle area. Another wrong answer \"Area = ½r²(θ − sinθ)\" without converting θ to radians reveals confusion between degree and radian measure.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the area of a minor segment with r = 14 cm, θ = 60° as: Area = (60/360) × (22/7) × 14² − ½ × 14² × sin60°. They get 102.67 − 84.87 = 17.8 cm². Is this correct? Explain why the triangle area formula ½r²sinθ works here.",
+     "a": "Yes, the calculation is correct. The triangle OAB is isosceles with OA = OB = r = 14 cm and ∠AOB = 60°. The area of any triangle with two sides a, b and included angle C is ½ab sin C. Here a = b = r, C = θ, so area = ½r²sinθ. A wrong answer saying \"triangle area = ½ × base × height\" shows the student doesn't connect the trigonometric formula to the isosceles triangle geometry. They would need to first find the perpendicular from O to AB (using r cos(θ/2)) and chord length (2r sin(θ/2)), making it longer but equivalent.",
+     "self_check": true
+    },
+    {
+     "q": "Find the area of the minor segment of a circle of radius 21 cm if the central angle is 90°. Use π = 22/7. Show all steps.",
+     "a": "Step 1: Area of sector = (90/360) × (22/7) × 21² = ¼ × (22/7) × 441 = 346.5 cm²\nStep 2: Area of ΔOAB = ½ × 21² × sin90° = ½ × 441 × 1 = 220.5 cm²\nStep 3: Area of minor segment = 346.5 − 220.5 = 126 cm²\nA wrong answer of 346.5 cm² means the student gave the sector area, not the segment. A wrong answer using sin90° = 0 (confusing with cos90°) would give 346.5 cm² again. A calculation error in 21² (writing 421) would propagate through both terms.",
+     "self_check": true
+    },
+    {
+     "q": "In a circle of radius 10 cm, a chord subtends an angle of 120° at the centre. Compare the area of the minor segment and the major segment. Which is larger and by how much? (Use π = 3.14, √3 = 1.732)",
+     "a": "Minor segment area = (120/360) × 3.14 × 100 − ½ × 100 × sin120° = 104.67 − 43.3 = 61.37 cm²\nMajor segment area = πr² − minor = 314 − 61.37 = 252.63 cm²\nMajor segment is larger by 252.63 − 61.37 = 191.26 cm².\nA wrong answer saying \"minor segment is larger\" reveals the student thinks larger angle → larger segment, not understanding that minor segment corresponds to θ ≤ 180° and major to 360°−θ. A wrong answer using sin120° = sin60° = 0.866 but forgetting the ½ factor would give triangle area = 86.6, minor segment = 18.07, which is incorrect.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved: \"Find area of minor segment, r = 7 cm, θ = 45°\" as follows:\nArea = (45/360) × (22/7) × 7² − ½ × 7² × sin45°\n= (1/8) × 22 × 7 − ½ × 49 × 0.707\n= 19.25 − 17.32 = 1.93 cm²\nIdentify the error and give the correct answer.",
+     "a": "Error: (45/360) = 1/8, but (1/8) × (22/7) × 49 = (1/8) × 22 × 7 = 19.25 is correct. However, sin45° = 1/√2 ≈ 0.7071, so ½ × 49 × 0.7071 = 17.32 is correct. The subtraction 19.25 − 17.32 = 1.93 is correct. Actually, there is NO error — the answer 1.93 cm² is correct! A student who says \"error: should use π = 3.14\" reveals they don't know both π approximations are acceptable unless specified. A student who says \"sin45° = 0.5\" reveals confusion with sin30°.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem where finding the area of a major segment is necessary. Your problem must involve a circular garden, a straight path (chord), and planting grass in the larger region. Specify all measurements and ask for the grass area.",
+     "a": "Good answer example: \"A circular garden of radius 14 m has a straight walking path (chord) that subtends 60° at the centre. Grass is to be planted in the larger part of the garden divided by the path. Find the grass area. (Use π = 22/7)\"\nSolution: Minor segment = (60/360)×(22/7)×196 − ½×196×sin60° = 102.67 − 84.87 = 17.8 cm²? Wait, units: 102.67 m² − 84.87 m² = 17.8 m². Circle area = 616 m². Major segment = 616 − 17.8 = 598.2 m².\nA poor answer gives a problem asking for minor segment area, or forgets to specify the angle, or uses inconsistent units (cm for radius, m for area), revealing lack of understanding of when major vs minor segment is needed.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

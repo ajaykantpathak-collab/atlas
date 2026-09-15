@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_biology_ch09_006",
+ "concepts": [
+  {
+   "id": "enh:c6_biology_ch09_006",
+   "title": "c6_biology_ch09_006",
+   "questions": [
+    {
+     "q": "What do we call the first organism in any food chain that makes its own food using sunlight?",
+     "a": "They are called producers. A wrong answer (like \"consumer\") reveals the student does not understand that only plants (producers) start the energy flow by capturing sunlight.",
+     "self_check": true
+    },
+    {
+     "q": "If a deer eats grass and a lion eats the deer, explain why the grass is not a consumer.",
+     "a": "The grass is a producer because it creates its own food, whereas consumers must eat other organisms to survive. A wrong answer suggests the student thinks anything living that is eaten is a consumer.",
+     "self_check": true
+    },
+    {
+     "q": "In a chain: Plant -> Rabbit -> Fox, if the number of plants suddenly decreases, what happens to the energy available for the fox?",
+     "a": "The energy available for the fox decreases. This is because the rabbit has less food, leading to fewer rabbits, which reduces the energy source for the fox; a wrong answer shows the student doesn't see the chain as a dependent sequence.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the role of a carnivore in a food chain. Why can't a carnivore be the first link?",
+     "a": "A carnivore cannot be the first link because it cannot create its own energy from the sun and requires other animals to provide the energy it needs. A wrong answer indicates the student does not understand the difference between primary energy production and energy transfer.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Every food chain must eventually end because energy is lost at every step.\" Do you agree?",
+     "a": "Yes, because as energy moves from plants to consumers, much of it is used for life processes or lost as heat, leaving less for the next level. A wrong answer suggests the student believes energy remains infinite or does not transfer between levels.",
+     "self_check": true
+    },
+    {
+     "q": "Design a food chain involving a common Indian bird (like a sparrow) and explain the role of each organism.",
+     "a": "A correct response would be: Grain (Producer) -> Sparrow (Primary Consumer) -> Hawk (Secondary Consumer). A poor response lacks the correct order or confuses the roles (e.g., placing the hawk as the producer).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

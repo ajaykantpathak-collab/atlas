@@ -1,0 +1,568 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 5,
+ "chapter_title": "Universal Franchise and India's Electoral System",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hees105.txt",
+ "concepts": [
+  {
+   "id": "c8ss.5.1",
+   "title": "Meaning of Universal Adult Franchise",
+   "section": "Universal Adult Franchise",
+   "definition": "Universal adult franchise is the principle that all adult citizens of a country, irrespective of wealth, caste, religion, or gender, have the right to vote in elections.",
+   "formula": "",
+   "key_idea": "Every adult citizen has an equal vote, making the principle 'one person, one vote, one value' the foundation of democracy.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is meant by universal adult franchise?",
+    "Explain the principle of 'one person, one vote, one value'.",
+    "Why is universal adult franchise considered essential for democracy?",
+    "How does universal adult franchise promote equality among citizens?",
+    "Distinguish between universal adult franchise and limited franchise."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the voting group",
+     "explain": "Check whether all adult citizens are granted the right to vote without discrimination."
+    },
+    {
+     "step": 2,
+     "action": "Verify equality of vote value",
+     "explain": "Confirm that each vote carries equal weight regardless of the voter's status."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on the principle",
+     "explain": "State that if all adult citizens vote equally, the system follows universal adult franchise."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Does a system where only property-owning men can vote follow universal adult franchise?",
+     "solution": "The system excludes women and non-property owners, so it does not grant the vote to all adult citizens equally.",
+     "answer": "No, it does not follow universal adult franchise because it discriminates among adult citizens."
+    },
+    {
+     "question": "Why is universal adult franchise important for democracy?",
+     "solution": "It ensures that every adult citizen has an equal say in choosing representatives, making government accountable to all.",
+     "answer": "Universal adult franchise makes government accountable to all citizens by giving each an equal vote."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define universal adult franchise in one sentence.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the meaning of 'one person, one vote, one value'.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.5.2",
+   "title": "Right to Vote and Voter Eligibility",
+   "section": "Right to Vote",
+   "definition": "The right to vote is the legal entitlement of every Indian citizen aged 18 years or above, whose name is registered in the electoral roll, to cast a vote in elections.",
+   "formula": "",
+   "key_idea": "Voting is both a right and a duty; eligibility requires Indian citizenship, a minimum age of 18, and registration in the voters' list.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the qualifications required to vote in India?",
+    "At what age does an Indian citizen become eligible to vote?",
+    "What is the electoral roll and why is it important?",
+    "Explain the difference between the right to vote and the duty to vote.",
+    "Can a non-citizen resident of India vote in elections? Justify."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check citizenship and age",
+     "explain": "Verify that the person is an Indian citizen and is at least 18 years old."
+    },
+    {
+     "step": 2,
+     "action": "Confirm registration in electoral roll",
+     "explain": "Ensure the voter's name appears in the electoral roll of the relevant constituency."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on eligibility",
+     "explain": "If both conditions are met, the person is eligible to vote; otherwise the right does not apply."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A 17-year-old Indian citizen wants to vote. Is he eligible?",
+     "solution": "The minimum voting age in India is 18, so a 17-year-old is not eligible to vote even though he is a citizen.",
+     "answer": "No, he is not eligible because the minimum voting age is 18 years."
+    },
+    {
+     "question": "An Indian citizen living abroad for work wants to vote. Can she do so?",
+     "solution": "An Indian citizen residing abroad remains a citizen and can be enrolled as an overseas voter, so she is eligible if registered.",
+     "answer": "Yes, if her name is in the electoral roll as an overseas voter, she can vote."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the three conditions required for a person to vote in India.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why the electoral roll is necessary for voting.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.5.3",
+   "title": "Election Commission of India",
+   "section": "Election Commission of India",
+   "definition": "The Election Commission of India is an independent constitutional body that conducts, directs, and controls the preparation of electoral rolls and the conduct of elections to Parliament, state legislatures, and the offices of the President and Vice-President.",
+   "formula": "",
+   "key_idea": "The Election Commission ensures free and fair elections by supervising the entire electoral process impartially.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the Election Commission of India?",
+    "Mention the main functions of the Election Commission.",
+    "Why is the independence of the Election Commission important?",
+    "Who appoints the Chief Election Commissioner of India?",
+    "How does the Election Commission ensure free and fair elections?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the body",
+     "explain": "Recognise the Election Commission as a constitutional body established under Article 324."
+    },
+    {
+     "step": 2,
+     "action": "List its functions",
+     "explain": "Note its role in preparing electoral rolls and conducting and supervising elections."
+    },
+    {
+     "step": 3,
+     "action": "Explain its independence",
+     "explain": "State that an independent Commission is needed to conduct elections free from government pressure."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is the Election Commission given constitutional protection?",
+     "solution": "Constitutional protection allows the Commission to function without fear of removal, ensuring impartial conduct of elections.",
+     "answer": "It is protected so that it can conduct elections independently and impartially."
+    },
+    {
+     "question": "Name two functions of the Election Commission of India.",
+     "solution": "It prepares the electoral rolls and conducts elections to Parliament and state legislatures.",
+     "answer": "Two functions are preparing electoral rolls and conducting elections."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State any three functions of the Election Commission of India.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why the Election Commission must be independent.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.5.4",
+   "title": "Electoral Process in India",
+   "section": "Electoral Process",
+   "definition": "The electoral process is the sequence of steps from the announcement of elections and filing of nominations to voting, counting of votes, and declaration of results.",
+   "formula": "",
+   "key_idea": "The electoral process follows a fixed schedule of nomination, scrutiny, withdrawal, campaigning, polling, counting, and result declaration.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Describe the main stages of the electoral process in India.",
+    "What is the purpose of nomination and scrutiny in elections?",
+    "Explain the role of the Model Code of Conduct during elections.",
+    "How are votes counted and results declared in a general election?",
+    "Why is the campaign period regulated during elections?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Outline the stages",
+     "explain": "List nomination, scrutiny, withdrawal, campaigning, polling, counting, and result declaration."
+    },
+    {
+     "step": 2,
+     "action": "Explain each stage",
+     "explain": "Describe how candidates file nominations, campaign under the Model Code of Conduct, and face polling."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on the process",
+     "explain": "State that following these stages in order ensures an orderly and fair election."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Arrange in order: polling, nomination, counting, campaigning.",
+     "solution": "The correct order is nomination, campaigning, polling, and counting.",
+     "answer": "Nomination -> campaigning -> polling -> counting."
+    },
+    {
+     "question": "What is the Model Code of Conduct and when does it come into force?",
+     "solution": "It is a set of guidelines for parties and candidates that comes into force from the date the election schedule is announced.",
+     "answer": "The Model Code of Conduct regulates campaigning and applies from the announcement of the election schedule."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the stages of the electoral process in correct order.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the purpose of the Model Code of Conduct.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.5.5",
+   "title": "Lok Sabha Elections and Seat Calculation",
+   "section": "Lok Sabha and Rajya Sabha Elections",
+   "definition": "Lok Sabha elections are direct elections in which the candidate who wins the most votes in a constituency is elected; the Lok Sabha has a maximum of 552 members, of which 530 represent states and 20 represent union territories.",
+   "formula": "seats_won = constituencies_won; majority = total_seats / 2 + 1",
+   "key_idea": "The party or coalition winning more than half the Lok Sabha seats (273 or more) can form the government.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How are members elected to the Lok Sabha?",
+    "What is the maximum strength of the Lok Sabha?",
+    "How many seats are needed to form a government in the Lok Sabha?",
+    "Explain the difference between direct and indirect elections with reference to the Lok Sabha.",
+    "Why is the Lok Sabha called the House of the People?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine total seats",
+     "explain": "Identify the total number of Lok Sabha seats contested in the election.",
+     "compute": "total_seats = 543"
+    },
+    {
+     "step": 2,
+     "action": "Compute the majority mark",
+     "explain": "Calculate half the total seats plus one to find the majority needed to form government.",
+     "compute": "majority = total_seats // 2 + 1"
+    },
+    {
+     "step": 3,
+     "action": "Compare seats won",
+     "explain": "Compare the seats won by a party or coalition with the majority mark to decide if it can form the government."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "In a Lok Sabha election, a coalition wins 290 out of 543 seats. Can it form the government?",
+     "solution": "Majority needed = 543 / 2 + 1 = 272. Since 290 is greater than 272, the coalition can form the government.",
+     "answer": "Yes, the coalition can form the government because 290 is more than the majority mark of 272."
+    },
+    {
+     "question": "A party wins 250 out of 543 Lok Sabha seats. Does it have a majority?",
+     "solution": "Majority needed = 272. Since 250 is less than 272, the party does not have a majority.",
+     "answer": "No, the party does not have a majority because 250 is less than 272."
+    },
+    {
+     "question": "How many seats are needed to reach the majority mark in a 543-seat Lok Sabha?",
+     "solution": "Majority = 543 // 2 + 1 = 271 + 1 = 272 seats.",
+     "answer": "A minimum of 272 seats is needed for a majority."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A party wins 275 of 543 Lok Sabha seats. Can it form the government? Show the calculation.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain why the Lok Sabha is called the House of the People.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.5.6",
+   "title": "Rajya Sabha Elections",
+   "section": "Lok Sabha and Rajya Sabha Elections",
+   "definition": "Rajya Sabha elections are indirect elections in which members are elected by the elected members of the state legislative assemblies; the Rajya Sabha is a permanent house with a maximum of 250 members.",
+   "formula": "",
+   "key_idea": "The Rajya Sabha represents the states and is not subject to dissolution; one-third of its members retire every two years.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How are members elected to the Rajya Sabha?",
+    "Why is the Rajya Sabha called a permanent house?",
+    "What is the term of a Rajya Sabha member?",
+    "Distinguish between the methods of election to the Lok Sabha and the Rajya Sabha.",
+    "Why does one-third of the Rajya Sabha retire every two years?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the method of election",
+     "explain": "Note that Rajya Sabha members are elected indirectly by elected members of state legislative assemblies."
+    },
+    {
+     "step": 2,
+     "action": "Examine the term and continuity",
+     "explain": "Recognise that each member serves a six-year term and the house is never dissolved."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on the nature of the house",
+     "explain": "State that because it is not dissolved and members retire in rotation, it is a permanent house representing the states."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is the Rajya Sabha called a permanent house?",
+     "solution": "The Rajya Sabha is never dissolved as a whole and one-third of its members retire every two years, so it always remains in existence.",
+     "answer": "It is permanent because it is never dissolved and members retire in rotation."
+    },
+    {
+     "question": "How does the election of a Rajya Sabha member differ from that of a Lok Sabha member?",
+     "solution": "A Lok Sabha member is elected directly by voters, while a Rajya Sabha member is elected indirectly by elected members of the state legislative assembly.",
+     "answer": "Lok Sabha members are elected directly; Rajya Sabha members are elected indirectly."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State the term of a Rajya Sabha member.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why the Rajya Sabha is described as a permanent house.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.5.7",
+   "title": "Role of Political Parties",
+   "section": "Role of Political Parties",
+   "definition": "Political parties are organised groups of people who share common political views and seek to win elections in order to form the government and implement their policies.",
+   "formula": "",
+   "key_idea": "Political parties contest elections, form governments, shape public opinion, and provide a choice of policies to voters.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a political party?",
+    "Mention the main functions of political parties in a democracy.",
+    "How do political parties help in forming a government?",
+    "Distinguish between a ruling party and an opposition party.",
+    "Why are political parties considered essential for representative democracy?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the group",
+     "explain": "Recognise an organised group sharing common political aims that contests elections."
+    },
+    {
+     "step": 2,
+     "action": "List its functions",
+     "explain": "Note that parties contest elections, form or oppose the government, and mobilise public opinion."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on importance",
+     "explain": "State that without parties voters would lack organised choices, making them essential for democracy."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How do political parties provide choice to voters?",
+     "solution": "Each party presents a different set of policies and candidates, allowing voters to choose the one that matches their preferences.",
+     "answer": "Parties provide choice by offering different policies and candidates to voters."
+    },
+    {
+     "question": "What is the role of an opposition party in the legislature?",
+     "solution": "The opposition questions and criticises the government's actions and policies, ensuring accountability.",
+     "answer": "The opposition holds the government accountable by questioning its actions."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List any three functions of political parties.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Distinguish between a ruling party and an opposition party.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.5.8",
+   "title": "Free and Fair Elections",
+   "section": "Free and Fair Elections",
+   "definition": "Free and fair elections are elections in which voters can freely choose among candidates without pressure, and the process is conducted impartially according to established rules.",
+   "formula": "",
+   "key_idea": "Free and fair elections require an independent election authority, a neutral voters' list, secret ballot, and equal opportunity for all candidates.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is meant by free and fair elections?",
+    "Mention any four conditions necessary for free and fair elections.",
+    "How does the secret ballot ensure free elections?",
+    "Why is an independent Election Commission necessary for fair elections?",
+    "Explain how a level playing field among candidates is ensured."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check freedom of choice",
+     "explain": "Verify that voters can choose candidates without fear, pressure, or coercion."
+    },
+    {
+     "step": 2,
+     "action": "Check fairness of process",
+     "explain": "Confirm an independent authority conducts elections with a neutral voters' list and secret ballot."
+    },
+    {
+     "step": 3,
+     "action": "Conclude on the election",
+     "explain": "If both freedom and fairness are present, the election is free and fair."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does the secret ballot contribute to free elections?",
+     "solution": "The secret ballot ensures that no one can know how a person voted, protecting the voter from pressure or retaliation.",
+     "answer": "The secret ballot protects voter freedom by keeping the vote private."
+    },
+    {
+     "question": "Why is a neutral and updated electoral roll important for fair elections?",
+     "solution": "A neutral electoral roll ensures that only eligible voters are listed and no eligible voter is excluded, preventing manipulation.",
+     "answer": "It prevents manipulation by ensuring only eligible voters are included and none are wrongly excluded."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List four conditions necessary for free and fair elections.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how an independent Election Commission ensures fair elections.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8ss.5.9",
+   "title": "Challenges in the Indian Electoral System",
+   "section": "Challenges in Indian Electoral System",
+   "definition": "The Indian electoral system faces challenges such as misuse of money and muscle power, criminalisation of politics, booth capturing, and the influence of caste and religion on voting.",
+   "formula": "",
+   "key_idea": "Despite free and fair principles, elections in India are affected by money power, criminal candidates, and identity-based voting that weaken democracy.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the main challenges faced by the Indian electoral system?",
+    "How does the use of money power affect elections?",
+    "What is meant by the criminalisation of politics?",
+    "How do caste and religion influence voting behaviour in India?",
+    "Suggest two measures to reform the electoral system in India."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the challenge",
+     "explain": "Recognise the issue such as money power, criminal candidates, or caste-based voting."
+    },
+    {
+     "step": 2,
+     "action": "Explain its effect",
+     "explain": "Describe how the challenge distorts voter choice or the fairness of the process."
+    },
+    {
+     "step": 3,
+     "action": "Suggest a remedy",
+     "explain": "State a reform such as stricter disclosure rules, caps on spending, or disqualification of criminal candidates."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does money power harm the electoral process?",
+     "solution": "Money power allows wealthy candidates to influence voters through spending, giving them an unfair advantage over others.",
+     "answer": "Money power gives wealthy candidates an unfair advantage and distorts voter choice."
+    },
+    {
+     "question": "What is the criminalisation of politics and why is it a concern?",
+     "solution": "It is the participation of candidates with criminal charges in elections, which undermines the integrity of democratic institutions.",
+     "answer": "Criminalisation of politics allows criminals to enter legislatures, weakening democracy."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List three challenges faced by the Indian electoral system.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Suggest one measure to reduce the influence of money in elections.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "exgen.c8ss.5.5.1",
+   "source_ref": "generated practice sample aligned to hees105.txt",
+   "concept": "c8ss.5.5",
+   "question_type": "compute",
+   "question_pattern": "Calculate the majority step by step for a case with the values named in each step.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute total seats",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "total_seats = 543"
+    },
+    {
+     "step": 2,
+     "action": "compute majority",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "majority = total_seats // 2 + 1"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8ss.5.5.2",
+   "source_ref": "generated practice sample aligned to hees105.txt",
+   "concept": "c8ss.5.5",
+   "question_type": "compute",
+   "question_pattern": "Calculate the majority step by step for a case with the values named in each step.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute total seats",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "total_seats = 543"
+    },
+    {
+     "step": 2,
+     "action": "compute majority",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "majority = total_seats // 2 + 1"
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

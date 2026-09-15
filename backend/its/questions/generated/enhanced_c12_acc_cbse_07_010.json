@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_07_010",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_07_010",
+   "title": "c12_acc_cbse_07_010",
+   "questions": [
+    {
+     "q": "A company's trial balance shows \"Salaries\" ₹6,00,000. Additional information: \"Salaries for March ₹50,000 are unpaid.\" What is the correct amount to be shown under \"Employee Benefits Expense\" in the Statement of Profit and Loss?",
+     "a": "₹6,50,000. The trial balance shows salaries paid for 11 months (₹6,00,000). The outstanding March salary (₹50,000) is an expense of the current year but not yet paid, so it must be added. A wrong answer of ₹6,00,000 reveals the student ignores outstanding expenses. A wrong answer of ₹5,50,000 reveals confusion between outstanding and prepaid.",
+     "self_check": true
+    },
+    {
+     "q": "In the Statement of Profit and Loss as per Schedule III, where is \"Interest on Debentures\" presented — under \"Finance Costs\" or \"Other Expenses\"? Explain why the classification matters for analysis.",
+     "a": "\"Interest on Debentures\" is presented under **Finance Costs** (Note 4 of Schedule III), not Other Expenses. This classification matters because Finance Costs are separated to calculate operating profit (EBIT) and to assess the company's cost of borrowing. A student placing it in Other Expenses reveals they don't understand Schedule III's mandatory line-item structure and will distort ratio analysis (e.g., interest coverage ratio).",
+     "self_check": true
+    },
+    {
+     "q": "Trial balance shows: \"Insurance Premium\" ₹1,20,000 (paid for 12 months ending 30th June 2024). Financial year ends 31st March 2024. Calculate the Insurance Expense for the Statement of Profit and Loss and the Prepaid Insurance to be shown in the Balance Sheet.",
+     "a": "Insurance Expense (P&L) = ₹90,000 (9 months: April–December 2023). Prepaid Insurance (Balance Sheet) = ₹30,000 (3 months: January–March 2024). The premium covers 12 months; 9 months expire in the current year, 3 months relate to next year. A student answering ₹1,20,000 expense / ₹0 prepaid fails to time-apportion. A student answering ₹30,000 expense / ₹90,000 prepaid reverses the periods.",
+     "self_check": true
+    },
+    {
+     "q": "A company has Trade Receivables ₹10,00,000. Additional information: \"Create a provision for doubtful debts @ 5% on debtors.\" The trial balance already shows \"Provision for Doubtful Debts\" (credit balance) ₹30,000. Calculate the additional provision to be charged to P&L and the new provision balance.",
+     "a": "Required provision = 5% of ₹10,00,000 = ₹50,000. Existing provision = ₹30,000. **Additional provision charged to P&L = ₹20,000** (₹50,000 – ₹30,000). New provision balance = ₹50,000. A student charging the full ₹50,000 to P&L ignores the existing provision (double-counting error). A student showing ₹30,000 as expense fails to adjust to the required level.",
+     "self_check": true
+    },
+    {
+     "q": "\"Manager's Commission is payable @ 10% of Net Profit *before* charging such commission.\" Net Profit before commission is ₹11,00,000. Evaluate whether the commission amount is ₹1,10,000 or ₹1,00,000, and justify your answer with the correct formula.",
+     "a": "**₹1,00,000** is correct. Formula: Commission = (Rate / (100 + Rate)) × Net Profit before commission = (10/110) × ₹11,00,000 = ₹1,00,000. If commission were ₹1,10,000, profit after commission = ₹9,90,000, and 10% of that is ₹99,000 ≠ ₹1,10,000 (circular inconsistency). A student calculating ₹1,10,000 uses the wrong base (profit before commission instead of profit after commission). This is the classic \"commission on profit before vs after\" trap in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new adjustment scenario (not from textbook) involving **two simultaneous adjustments** that affect the *same* P&L line item but have opposite Balance Sheet effects. Write the adjusting entries and show the net P&L impact.",
+     "a": "**Scenario:** Trial balance shows \"Rent Paid\" ₹3,60,000. Adjustments: (a) Rent for March ₹30,000 outstanding; (b) Rent for April 2024 ₹30,000 paid in advance.\n**Entries:** (a) Rent A/c Dr. 30,000 → Outstanding Rent A/c 30,000; (b) Prepaid Rent A/c Dr. 30,000 → Rent A/c 30,000.\n**Net P&L Impact:** Rent Expense = ₹3,60,000 + ₹30,000 – ₹30,000 = **₹3,60,000** (no change).\n**Balance Sheet:** Current Liability (Outstanding Rent) +₹30,000; Current Asset (Prepaid Rent) +₹30,000.\nA poor answer shows only one adjustment or nets them incorrectly in P&L (e.g., ₹3,90,000 or ₹3,30,000), revealing the student doesn't grasp that each adjustment is recorded separately even if they offset.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

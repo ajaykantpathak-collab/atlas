@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_chemistry_ch04_008",
+ "concepts": [
+  {
+   "id": "enh:c6_chemistry_ch04_008",
+   "title": "c6_chemistry_ch04_008",
+   "questions": [
+    {
+     "q": "Name two physical properties that generally distinguish metals from non-metals.",
+     "a": "Metals are typically lustrous (shiny) and good conductors of electricity, while non-metals are typically dull and poor conductors. A wrong answer here suggests the student is confusing physical properties with chemical ones or simply guessing without reading the definitions.",
+     "self_check": true
+    },
+    {
+     "q": "If you find a material that is dull and breaks easily when you hit it with a hammer, is it likely a metal or a non-metal?",
+     "a": "It is likely a non-metal. If a student says \"metal,\" they have failed to connect the property of \"hardness\" and \"lustre\" to the definition of metals, indicating a need to re-examine the physical characteristics provided in the text.",
+     "self_check": true
+    },
+    {
+     "q": "A piece of copper wire conducts electricity, but a piece of plastic tube does not. How does this help us categorize them?",
+     "a": "Copper is a metal because it conducts electricity, and plastic is a non-metal because it is a poor conductor. The student must use the property of conductivity as a test; a wrong answer shows they are not applying the \"conductor\" criteria to the classification process.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we say that \"all that glitters is not gold\" when classifying metals?",
+     "a": "Some non-metals or synthetic materials can be made to look shiny through polishing or coatings, even though they aren't metals. A wrong answer indicates the student is over-relying on the single property of \"shine\" without considering other properties like hardness or conductivity.",
+     "self_check": true
+    },
+    {
+     "q": "If an object is very hard but does not conduct heat, would you classify it as a metal? Why or why not?",
+     "a": "No, it is likely not a metal because metals generally possess both hardness and the ability to conduct heat. A wrong answer shows the student thinks one property (hardness) is enough for classification, ignoring the requirement for multiple properties.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple test to determine if a mysterious, unlabelled rod found in your garage is a metal.",
+     "a": "The student should suggest: 1) Checking if it is shiny (lustre), 2) Checking if it is hard (cannot be scratched by a fingernail), and 3) Testing if it conducts electricity (using a battery and bulb). A poor answer fails to list at least two distinct properties, showing a lack of systematic observation skills.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

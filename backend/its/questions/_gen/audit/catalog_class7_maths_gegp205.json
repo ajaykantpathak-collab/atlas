@@ -1,0 +1,190 @@
+{
+ "catalog": "catalog_class7_maths_gegp205.json",
+ "concepts": [
+  {
+   "id": "gegp2.5.1",
+   "family": "counting_sets",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 3 * 6"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pairs = 5 * 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "subsets = 2 ** 5"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rels = 2 ** (6 * 6)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "ways = 5 * 4 * 3 * 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "ways = 120 / (6 * 2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total = 3 * 6"
+   ]
+  },
+  {
+   "id": "gegp2.5.2",
+   "family": "central_tendency",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = sum((7, 36, 39, 7, 26))",
+      "mean = total / 5"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "med = 28"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "med = 33"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "med = (15 + 42) / 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mode = 4"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "rng = max(53, 22, 31, 14) - min(53, 22, 31, 14)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "gegp2.5.3",
+   "family": "central_tendency",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = sum((38, 19, 16, 15, 9))",
+      "mean = total / 5"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "med = 8"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "med = 23"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "med = (20 + 48) / 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mode = 4"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "rng = max(53, 33, 51, 51) - min(53, 33, 51, 51)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total = sum((38, 19, 16, 15, 9))",
+    "mean = total / 5"
+   ]
+  },
+  {
+   "id": "gegp2.5.4",
+   "family": "dispersion",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mean = (3 + 14 + 2) / 3",
+      "md = (abs(3 - mean) + abs(14 - mean) + abs(2 - mean)) / 3"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mean = (1 + 1 + 4 + 2) / 4",
+      "sq = (1 - mean) ** 2 + (1 - mean) ** 2 + (4 - mean) ** 2 + (2 - mean) ** 2",
+      "var = sq / 4"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "sd = sqrt(9)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "cv = 4 / 40 * 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "iqr = 60 - 13"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "pos = 3 * (7 + 1) / 4"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "mean = (3 + 14 + 2) / 3",
+    "md = (abs(3 - mean) + abs(14 - mean) + abs(2 - mean)) / 3"
+   ]
+  }
+ ]
+}

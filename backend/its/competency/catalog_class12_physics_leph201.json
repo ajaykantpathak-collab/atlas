@@ -1,0 +1,665 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "chapter": 201,
+ "chapter_title": "Ray Optics and Optical Instruments",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leph201.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leph201.9.2.2.1",
+   "title": "Focal Length of Spherical Mirrors",
+   "section": "9.2.2",
+   "definition": "The focal length of a spherical mirror is the gap between its pole and the principal focus, and paraxial geometry fixes it at exactly half the radius of curvature.",
+   "formula": "focal_len = radius_curv / 2",
+   "key_idea": "The focus sits midway between the pole and the centre of curvature, so halving R gives f for both mirror types.",
+   "textbook_ref": "leph201.txt section 9.2.2 (small-angle derivation of f = R/2)",
+   "question_patterns": [
+    "find the focal length of a concave mirror whose radius of curvature is 36 cm",
+    "a convex mirror has a radius of curvature of 3 m; calculate its focal length",
+    "what is the focal length of a shaving mirror with radius of curvature 40 cm",
+    "determine f for a spherical mirror given its radius of curvature as 60 cm",
+    "how far from the pole does the principal focus of a mirror with radius 24 cm sit",
+    "compute the focal length of a rear-view mirror whose curvature radius equals 2 m"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "halve the radius of curvature",
+     "explain": "paraxial reflection puts the focus exactly halfway from the pole to the centre of curvature",
+     "compute": "focal_len = radius_curv / 2"
+    }
+   ]
+  },
+  {
+   "id": "leph201.9.2.3.1",
+   "title": "Mirror Equation for Image Distance",
+   "section": "9.2.3",
+   "definition": "Object distance, image distance and focal length of any spherical mirror are locked together by one reciprocal relation, so two of the three quantities fix the third.",
+   "formula": "1/v + 1/u = 1/f",
+   "key_idea": "With Cartesian signs a single formula handles concave and convex mirrors and every object position.",
+   "textbook_ref": "leph201.txt section 9.2.3 (Eq. 9.7 and Example 9.3)",
+   "question_patterns": [
+    "an object sits 27 cm from a concave mirror of focal length 18 cm; find the image distance",
+    "calculate where the image forms for an object 10 cm in front of a mirror with f = -7.5 cm",
+    "use the mirror formula to locate the image of a pin held 12 cm from a convex mirror of focal length 15 cm",
+    "what is the image position for an object placed beyond the focus of a concave mirror with focal length 15 cm",
+    "determine v from the mirror equation when u and f are given with proper signs",
+    "solve for the image distance of a candle 36 cm away from a mirror whose focal length is 18 cm"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "invert the object distance",
+     "explain": "the mirror equation works with reciprocals of the signed distances",
+     "compute": "inv_u = 1 / obj_dist"
+    },
+    {
+     "step": 2,
+     "action": "invert the focal length",
+     "explain": "the signed focal length converts to its reciprocal",
+     "compute": "inv_f = 1 / focal_len"
+    },
+    {
+     "step": 3,
+     "action": "subtract to isolate 1/v",
+     "explain": "rearranging 1/v + 1/u = 1/f gives 1/v = 1/f - 1/u",
+     "compute": "inv_v = inv_f - inv_u"
+    },
+    {
+     "step": 4,
+     "action": "invert the result",
+     "explain": "the reciprocal of 1/v is the signed image distance",
+     "compute": "img_dist = 1 / inv_v"
+    }
+   ]
+  },
+  {
+   "id": "leph201.9.2.3.2",
+   "title": "Linear Magnification by a Mirror",
+   "section": "9.2.3",
+   "definition": "Linear magnification reports how many times taller the image is than the object; for a spherical mirror it equals minus the image distance divided by the object distance.",
+   "formula": "m = -v / u",
+   "key_idea": "A negative value flags an inverted real image while a positive one marks an erect virtual image.",
+   "textbook_ref": "leph201.txt section 9.2.3 (Eq. 9.9, magnification after the mirror equation)",
+   "question_patterns": [
+    "find the magnification when the image distance is -30 cm and the object distance is -10 cm",
+    "calculate the image-to-object size ratio for a mirror with v = 15 cm and u = -5 cm",
+    "what is the linear magnification of a mirror forming an image at -60 cm for an object at -20 cm",
+    "an image forms at -12 cm while the object sits at -36 cm; compute m and state whether the image is erect",
+    "determine the magnification produced by a concave mirror for known object and image distances",
+    "how many times enlarged is the image when v and u are measured for a spherical mirror"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide image distance by object distance and flip the sign",
+     "explain": "the signed magnification is minus v over u, so erect images get positive values",
+     "compute": "mag = -1 * img_dist / obj_dist"
+    }
+   ]
+  },
+  {
+   "id": "leph201.9.3.1",
+   "title": "Refractive Index as a Speed Ratio",
+   "section": "9.3",
+   "definition": "A medium's refractive index compares how much slower light travels inside it than in vacuum; Snell's law expresses the same optical fact through the ratio of sines of the incidence and refraction angles.",
+   "formula": "refr_index = speed_vacuum / speed_medium",
+   "key_idea": "Optical density tracks the slowing of light, not mass density, so the index runs one and up for transparent media.",
+   "textbook_ref": "leph201.txt section 9.3 (Snell's law Eq. 9.10 and the optical-density note)",
+   "question_patterns": [
+    "light races through a medium at 2.25e8 m/s; find the refractive index",
+    "calculate the refractive index of glass if light travels there at 2e8 m/s",
+    "what is the refractive index of a liquid that slows light to 2.5e8 m/s",
+    "the vacuum speed is 3e8 m/s but only 1.24e8 m/s inside diamond; determine the refractive index",
+    "find n for a medium whose measured light speed is 1.99e8 m/s",
+    "compute the refractive index from the vacuum and in-medium speeds of light"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide the vacuum speed by the medium speed",
+     "explain": "the refractive index is exactly the factor by which the medium slows light",
+     "compute": "refr_index = speed_vacuum / speed_medium"
+    }
+   ]
+  },
+  {
+   "id": "leph201.9.3.2",
+   "title": "Apparent Depth in a Refracting Medium",
+   "section": "9.3",
+   "definition": "Seen from almost directly above, refraction lifts submerged objects toward the surface: the apparent depth comes out as the true depth split by the refractive index.",
+   "formula": "app_depth = real_depth / refr_index",
+   "key_idea": "The larger the refractive index, the shallower a tank bottom appears to a viewer above it.",
+   "textbook_ref": "leph201.txt section 9.3 (apparent depth of a water-filled tank, near-normal viewing)",
+   "question_patterns": [
+    "a coin lies on the bottom of an 80 cm deep water tank; find its apparent depth for near-normal viewing at index 1.33",
+    "calculate how much the bottom of a swimming pool seems raised when water has refractive index 1.33",
+    "what apparent depth does a needle 12.5 cm under water of index 1.33 show",
+    "a beaker holds 20 cm of liquid of index 1.4; compute where its bottom seems to sit",
+    "determine the apparent depth for vertical viewing from the real depth and the refractive index",
+    "find where the bottom of a liquid column of index 1.5 and depth 30 cm appears to be"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "split the true depth by the refractive index",
+     "explain": "refraction bends rays at the surface so the bottom appears raised toward the viewer",
+     "compute": "app_depth = real_depth / refr_index"
+    }
+   ]
+  },
+  {
+   "id": "leph201.9.4.1",
+   "title": "Critical Angle and Total Internal Reflection",
+   "section": "9.4",
+   "definition": "For light leaving a denser medium, the critical angle is the incidence angle whose refracted ray just grazes the boundary at 90 degrees; past it, refraction fails and every ray turns back inside.",
+   "formula": "sine_crit = 1 / refr_index",
+   "key_idea": "Diamond's small critical angle near 24.4 degrees traps light by repeated total reflections, which makes the stone sparkle.",
+   "textbook_ref": "leph201.txt section 9.4 (Eq. 9.12 and Table 9.1 of critical angles)",
+   "question_patterns": [
+    "find the sine of the critical angle for glass of refractive index 1.5 facing air",
+    "calculate sin of the critical angle when light passes from water of index 1.33 into air",
+    "what value does the critical-angle sine take for dense flint glass of index 1.62",
+    "determine 1/n for a diamond-air boundary and say what it represents",
+    "a medium has refractive index 2.42; compute the sine of its critical angle with air",
+    "work out the grazing-angle sine for total internal reflection at a glass-air interface"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the reciprocal of the refractive index",
+     "explain": "Snell's law with a 90 degree refraction angle gives sin(ic) = 1/n for the denser medium against air",
+     "compute": "sine_crit = 1 / refr_index"
+    }
+   ]
+  },
+  {
+   "id": "leph201.9.5.1.1",
+   "title": "Refraction at a Single Spherical Surface",
+   "section": "9.5.1",
+   "definition": "When rays cross one curved boundary between media of indices n1 and n2, the object and image distances connect through a relation that also carries the surface radius R.",
+   "formula": "n2/v - n1/u = (n2 - n1)/R",
+   "key_idea": "Applying this single-surface relation at both faces of a lens and adding the pieces builds the lens maker's formula.",
+   "textbook_ref": "leph201.txt section 9.5.1 (Eq. 9.16 and Example 9.5)",
+   "question_patterns": [
+    "light from a point source in air strikes a convex glass surface of radius 20 cm from 100 cm away; find the image position",
+    "use the spherical-surface relation to locate the image for n1 = 1, n2 = 1.5, R = 20 cm and u = -100 cm",
+    "a real object sits 50 cm from a curved interface of radius 10 cm between air and glass of index 1.5; calculate v",
+    "determine the image distance for refraction at one spherical boundary with given indices and radius",
+    "an object in air stands 25 cm from a glass surface of curvature radius 15 cm; where does its image form",
+    "compute v from the single-surface formula when u, R and both indices are supplied"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "form the curvature term",
+     "explain": "the surface strength is the index gap divided by the radius",
+     "compute": "surf_power = (n_two - n_one) / radius"
+    },
+    {
+     "step": 2,
+     "action": "add the object-side term",
+     "explain": "the rearranged relation reads n2/v = (n2 - n1)/R + n1/u",
+     "compute": "inv_v_scaled = surf_power + n_one / obj_dist"
+    },
+    {
+     "step": 3,
+     "action": "scale by the second index",
+     "explain": "the running sum holds n2/v, so the image distance is n2 over it",
+     "compute": "img_dist = n_two / inv_v_scaled"
+    }
+   ]
+  },
+  {
+   "id": "leph201.9.5.2.1",
+   "title": "Thin Lens Equation",
+   "section": "9.5.2",
+   "definition": "For a thin lens the reciprocals of image distance and object distance combine into the reciprocal of the focal length, whatever the lens type or the nature of the image.",
+   "formula": "1/v - 1/u = 1/f",
+   "key_idea": "Signs carry the physics: u is negative for a real object, f positive for a convex lens and negative for a concave one.",
+   "textbook_ref": "leph201.txt section 9.5.2 (Eq. 9.23 and Exercise 9.9)",
+   "question_patterns": [
+    "an object stands 14 cm from a concave lens of focal length 21 cm; find the image distance",
+    "calculate where a convex lens of focal length 12 cm forms the image of an object at 18 cm",
+    "what is v for a lens with f = 30 cm when the object sits 40 cm away",
+    "determine the image position from the thin lens formula given object distance and focal length with signs",
+    "a bulb is 40 cm from a convex lens of focal length 30 cm; locate the image",
+    "solve the lens equation for the image distance of a placed object"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "invert the focal length",
+     "explain": "the lens equation runs on reciprocal distances",
+     "compute": "inv_f = 1 / focal_len"
+    },
+    {
+     "step": 2,
+     "action": "invert the object distance",
+     "explain": "the signed object distance joins as its reciprocal",
+     "compute": "inv_u = 1 / obj_dist"
+    },
+    {
+     "step": 3,
+     "action": "add the reciprocals",
+     "explain": "rearranging 1/v - 1/u = 1/f gives 1/v = 1/f + 1/u",
+     "compute": "inv_v = inv_f + inv_u"
+    },
+    {
+     "step": 4,
+     "action": "invert the sum",
+     "explain": "the reciprocal of 1/v is the signed image distance",
+     "compute": "img_dist = 1 / inv_v"
+    }
+   ]
+  },
+  {
+   "id": "leph201.9.5.2.2",
+   "title": "Lens Maker's Formula",
+   "section": "9.5.2",
+   "definition": "The focal length a lensmaker can build in follows from the material index relative to the surroundings together with the two surface radii of curvature.",
+   "formula": "1/f = (n2/n1 - 1) * (1/R1 - 1/R2)",
+   "key_idea": "The same glass immersed in water gains focal length because the relative index gap shrinks.",
+   "textbook_ref": "leph201.txt section 9.5.2 (Eq. 9.21 and Example 9.7 part ii)",
+   "question_patterns": [
+    "find the focal length of a double convex lens with radii 10 cm and -15 cm made of glass of index 1.5",
+    "calculate the focal length of an equiconvex lens of index 1.55 whose faces have 20 cm radius in air",
+    "what focal length does a lens of relative index 1.47 give when both surfaces curve at 20 cm",
+    "determine the focal length from the lens maker's relation for supplied radii and refractive index",
+    "a biconvex lens has equal 25 cm radii and index 1.5; compute its focal length in air",
+    "use the lens maker's formula to design a lens of wanted focal length from surface radii and index"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "form the relative index",
+     "explain": "divide the lens index by the index of the surrounding medium",
+     "compute": "n_rel = n_lens / n_medium"
+    },
+    {
+     "step": 2,
+     "action": "combine the surface curvatures",
+     "explain": "the shape factor is 1/R1 minus 1/R2 with signed radii",
+     "compute": "shape_term = 1 / radius_one - 1 / radius_two"
+    },
+    {
+     "step": 3,
+     "action": "multiply the two factors",
+     "explain": "the formula multiplies the index gap by the shape factor to give 1/f",
+     "compute": "inv_f = (n_rel - 1) * shape_term"
+    },
+    {
+     "step": 4,
+     "action": "invert for the focal length",
+     "explain": "the reciprocal of 1/f is the focal length itself",
+     "compute": "focal_len = 1 / inv_f"
+    }
+   ]
+  },
+  {
+   "id": "leph201.9.5.3.1",
+   "title": "Power of a Lens",
+   "section": "9.5.3",
+   "definition": "Lens power measures how strongly a lens converges or diverges light, quoted in dioptres once the focal length is written in metres.",
+   "formula": "P = 1 / f",
+   "key_idea": "A shorter focal length means more power; converging lenses carry positive power and diverging ones negative.",
+   "textbook_ref": "leph201.txt section 9.5.3 (Eq. 9.25, dioptre unit, Example 9.7 part i)",
+   "question_patterns": [
+    "find the power of a lens whose focal length is 0.5 m",
+    "calculate the dioptre value of a convex lens of focal length 25 cm",
+    "what is the power of a concave lens of focal length -2 m",
+    "an optician prescribes a lens of focal length 40 cm; determine its power",
+    "compute P for a lens of focal length 2 m and name the unit",
+    "how many dioptres does a lens of 50 cm focal length carry"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "invert the metre-valued focal length",
+     "explain": "power in dioptres equals one over the focal length expressed in metres",
+     "compute": "lens_power = 1 / focal_len"
+    }
+   ]
+  },
+  {
+   "id": "leph201.9.5.4.1",
+   "title": "Combining Thin Lenses in Contact",
+   "section": "9.5.4",
+   "definition": "Thin lenses placed touching act as one lens whose inverse focal length is the sum of the individual inverse focal lengths.",
+   "formula": "1/f = 1/f1 + 1/f2",
+   "key_idea": "Powers add algebraically, so a convex and a concave lens in contact can partly cancel each other.",
+   "textbook_ref": "leph201.txt section 9.5.4 (Eqs. 9.30-9.32 and Exercise 9.10)",
+   "question_patterns": [
+    "a convex lens of focal length 30 cm touches a concave lens of focal length 20 cm; find the combination's focal length",
+    "calculate the effective focal length when two thin lenses of 40 cm and 60 cm are placed in contact",
+    "what is the net focal length of touching lenses with f1 = 10 cm and f2 = -10 cm",
+    "determine the single-lens equivalent of two contacting thin lenses of given focal lengths",
+    "find the effective focal length of a contact pair made of one 25 cm converging and one 50 cm diverging lens",
+    "compute the combined focal length for thin lenses held in contact"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the reciprocal focal lengths",
+     "explain": "each touching lens contributes additively to 1/f",
+     "compute": "inv_f_total = 1 / focal_one + 1 / focal_two"
+    },
+    {
+     "step": 2,
+     "action": "invert the sum",
+     "explain": "the pair behaves as one lens with this focal length",
+     "compute": "focal_total = 1 / inv_f_total"
+    }
+   ]
+  },
+  {
+   "id": "leph201.9.6.1",
+   "title": "Thin Prism Deviation",
+   "section": "9.6",
+   "definition": "A prism with a small refracting angle deflects a ray only slightly, and the deflection equals the relative-index gap multiplied by the prism angle.",
+   "formula": "dev_angle = (n_rel - 1) * prism_angle",
+   "key_idea": "For thin prisms the minimum deviation grows in direct proportion to the refracting angle.",
+   "textbook_ref": "leph201.txt section 9.6 (thin-prism limit after Eq. 9.38)",
+   "question_patterns": [
+    "find the deviation produced by a thin prism of angle 5 degrees and refractive index 1.5",
+    "calculate the angle of deviation for a small-angle prism with A = 6 degrees made of glass of index 1.52",
+    "what deviation does a thin prism of refracting angle 4 degrees and index 1.45 give",
+    "determine the small-angle deviation when the prism angle and refractive index are known",
+    "a thin glass prism has an apex angle of 7.5 degrees and n = 1.5; compute the ray deviation",
+    "compute how much a thin prism bends light, given its index and refracting angle"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "scale the prism angle by the index gap",
+     "explain": "the thin-prism limit multiplies (n - 1) by the small refracting angle",
+     "compute": "dev_angle = (n_rel - 1) * prism_angle"
+    }
+   ]
+  },
+  {
+   "id": "leph201.9.6.2",
+   "title": "Minimum Deviation Through a Prism",
+   "section": "9.6",
+   "definition": "At minimum deviation the ray inside the prism runs parallel to the base, incidence and emergence angles match, and the material index follows from the prism angle A with the minimum deviation Dm.",
+   "formula": "n21 = sin((A + Dm)/2) / sin(A/2)",
+   "key_idea": "Measuring A and Dm on the bench pins down the prism material's refractive index.",
+   "textbook_ref": "leph201.txt section 9.6 (Eqs. 9.34-9.38 and Exercise 9.6)",
+   "question_patterns": [
+    "explain why the ray inside a prism travels parallel to its base at minimum deviation",
+    "show that at minimum deviation the incidence and emergence angles are equal",
+    "how do you extract a prism's refractive index from a measured minimum deviation",
+    "state the relation linking A, Dm and refractive index at minimum deviation",
+    "why does the deviation-versus-incidence curve dip to a single minimum",
+    "derive that each refraction angle equals half the prism angle at minimum deviation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "impose the symmetric passage",
+     "explain": "at the dip of the deviation curve, i equals e and r1 equals r2"
+    },
+    {
+     "step": 2,
+     "action": "use the prism angle relation",
+     "explain": "r1 + r2 = A forces each refraction angle to A/2"
+    },
+    {
+     "step": 3,
+     "action": "substitute into Snell's law",
+     "explain": "sin i over sin r becomes sin((A + Dm)/2) over sin(A/2), which yields the index"
+    }
+   ]
+  },
+  {
+   "id": "leph201.9.7.1.1",
+   "title": "Simple Microscope Magnification",
+   "section": "9.7.1",
+   "definition": "A single convex lens held near the eye serves as a magnifier; with the final image at the near point its magnifying power is one plus the near-point distance over the focal length.",
+   "formula": "m = 1 + D/f",
+   "key_idea": "Placing the image at infinity trades a little magnification for relaxed viewing.",
+   "textbook_ref": "leph201.txt section 9.7.1 (Eq. 9.39 and the f = 5 cm example)",
+   "question_patterns": [
+    "find the magnifying power of a simple microscope of focal length 5 cm with the image at the near point",
+    "calculate the magnification of a magnifying glass of focal length 10 cm when the image sits at 25 cm",
+    "what magnification does a convex lens of focal length 6 cm give as a simple microscope at the near point",
+    "determine the magnifying power for a magnifier of focal length 2.5 cm forming the image at the least distance of distinct vision",
+    "a card is viewed through a lens of focal length 9 cm with the image at the near point; compute m",
+    "compute 1 + D/f for a magnifying glass of given focal length and near point 25 cm"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide the near point by the focal length",
+     "explain": "D is about 25 cm for a normal eye and f is the lens focal length",
+     "compute": "mag_ratio = near_point / focal_len"
+    },
+    {
+     "step": 2,
+     "action": "add one",
+     "explain": "the near-point image adds the unity factor to the ratio",
+     "compute": "mag_power = 1 + mag_ratio"
+    }
+   ]
+  },
+  {
+   "id": "leph201.9.7.1.2",
+   "title": "Compound Microscope Magnification",
+   "section": "9.7.1",
+   "definition": "A compound microscope chains a short-focus objective to an eyepiece; the objective magnifies linearly by L/fo while the eyepiece acts as a magnifier, so the two magnifications multiply.",
+   "formula": "m = (L/fo) * (D/fe)",
+   "key_idea": "Both focal lengths must be short, and a longer tube length L raises the total magnification.",
+   "textbook_ref": "leph201.txt section 9.7.1 (Eqs. 9.43-9.45 and the fo = 1 cm, fe = 2 cm example)",
+   "question_patterns": [
+    "find the magnifying power of a compound microscope with objective focal length 1 cm, eyepiece focal length 2 cm and tube length 20 cm",
+    "calculate the total magnification when L = 15 cm, fo = 2 cm and fe = 6.25 cm for a normal near point",
+    "what is the magnifying power of a microscope whose objective and eyepiece focal lengths and tube length are given",
+    "determine the overall magnification of a compound microscope forming its final image at infinity",
+    "compute the product of L over fo and D over fe for a microscope with supplied parameters",
+    "a microscope has an 8 mm objective, a 2.5 cm eyepiece and 16 cm tube length; estimate its magnifying power"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "magnification of the objective",
+     "explain": "the first image forms near the focal plane, so the linear factor is L/fo",
+     "compute": "mag_objective = tube_len / focal_objective"
+    },
+    {
+     "step": 2,
+     "action": "magnification of the eyepiece",
+     "explain": "the eyepiece behaves like a simple microscope with the image at infinity",
+     "compute": "mag_eyepiece = near_point / focal_eyepiece"
+    },
+    {
+     "step": 3,
+     "action": "multiply the two stages",
+     "explain": "the total magnifying power is the product of the stage magnifications",
+     "compute": "mag_total = mag_objective * mag_eyepiece"
+    }
+   ]
+  },
+  {
+   "id": "leph201.9.7.2.1",
+   "title": "Telescope Magnifying Power",
+   "section": "9.7.2",
+   "definition": "An astronomical telescope magnifies angles rather than objects; in normal adjustment its magnifying power is the objective focal length divided by the eyepiece focal length.",
+   "formula": "m = fo / fe",
+   "key_idea": "The tube length is the sum of the focal lengths, and a wide objective gathers more light and resolves finer detail.",
+   "textbook_ref": "leph201.txt section 9.7.2 (Eq. 9.46 and the 144 cm / 6 cm telescope)",
+   "question_patterns": [
+    "find the magnifying power of a telescope with a 144 cm objective and a 6 cm eyepiece",
+    "calculate the angular magnification of a refracting telescope whose objective has focal length 15 m and eyepiece 1 cm",
+    "what is the magnifying power in normal adjustment when fo and fe are given",
+    "determine the focal-length ratio and magnifying power of a small astronomical telescope",
+    "a telescope objective of focal length 140 cm works with a 5 cm eyepiece; compute the magnifying power",
+    "compute m as fo over fe for a telescope set for relaxed viewing"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide the objective focal length by the eyepiece focal length",
+     "explain": "normal adjustment puts the final image at infinity, giving the angular ratio fo/fe",
+     "compute": "mag_power = focal_objective / focal_eyepiece"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_leph201_1",
+   "source_ref": "leph201.txt Example 9.3 part (i)",
+   "concept": "leph201.9.2.3.1",
+   "question_type": "mirror_image_distance_and_magnification",
+   "question_pattern": "An object is placed {u} cm in front of a concave mirror whose focal length is {f} cm. Where does the image form, and what magnification results?",
+   "extracted_variables": {"u": -10, "f": -7.5},
+   "solution_template": [
+    {"step": 1, "action": "invert the object distance", "explain": "reciprocal of the signed u", "compute": "inv_u = 1 / u"},
+    {"step": 2, "action": "invert the focal length", "explain": "reciprocal of the signed f", "compute": "inv_f = 1 / f"},
+    {"step": 3, "action": "subtract to get 1/v", "explain": "mirror equation rearranged", "compute": "inv_v = inv_f - inv_u"},
+    {"step": 4, "action": "invert for v", "explain": "signed image distance", "compute": "img_dist = 1 / inv_v"},
+    {"step": 5, "action": "divide by u with a sign flip", "explain": "magnification is -v/u", "compute": "mag = -1 * img_dist / u"}
+   ]
+  },
+  {
+   "id": "we_leph201_2",
+   "source_ref": "leph201.txt Example 9.7 part (ii)",
+   "concept": "leph201.9.5.2.2",
+   "question_type": "lens_makers_focal_length",
+   "question_pattern": "A double convex lens made of glass of refractive index {n_lens} has faces of radii {r1} cm and {r2} cm. What focal length does it have in air?",
+   "extracted_variables": {"n_lens": 1.5, "r1": 10, "r2": -15},
+   "solution_template": [
+    {"step": 1, "action": "take air as the surround", "explain": "the surrounding medium is air", "compute": "n_medium = 1.0"},
+    {"step": 2, "action": "form the relative index", "explain": "lens index over surround index", "compute": "n_rel = n_lens / n_medium"},
+    {"step": 3, "action": "combine the curvatures", "explain": "1/R1 minus 1/R2 with signs", "compute": "shape_term = 1 / r1 - 1 / r2"},
+    {"step": 4, "action": "multiply the factors", "explain": "index gap times shape factor", "compute": "inv_f = (n_rel - 1) * shape_term"},
+    {"step": 5, "action": "invert for f", "explain": "focal length in cm", "compute": "focal_len = 1 / inv_f"}
+   ]
+  },
+  {
+   "id": "we_leph201_3",
+   "source_ref": "leph201.txt Exercise 9.9 data",
+   "concept": "leph201.9.5.2.1",
+   "question_type": "thin_lens_image_distance",
+   "question_pattern": "An object stands {u} cm from a concave lens of focal length {f} cm. Locate the image.",
+   "extracted_variables": {"u": -14, "f": -21},
+   "solution_template": [
+    {"step": 1, "action": "invert the focal length", "explain": "reciprocal of f", "compute": "inv_f = 1 / f"},
+    {"step": 2, "action": "invert the object distance", "explain": "reciprocal of u", "compute": "inv_u = 1 / u"},
+    {"step": 3, "action": "add the reciprocals", "explain": "1/v = 1/f + 1/u", "compute": "inv_v = inv_f + inv_u"},
+    {"step": 4, "action": "invert for v", "explain": "signed image distance", "compute": "img_dist = 1 / inv_v"}
+   ]
+  },
+  {
+   "id": "we_leph201_4",
+   "source_ref": "leph201.txt section 9.7.2 telescope example",
+   "concept": "leph201.9.7.2.1",
+   "question_type": "telescope_magnifying_power",
+   "question_pattern": "A small telescope has an objective of focal length {fo} cm and an eyepiece of focal length {fe} cm. Find its magnifying power for normal adjustment.",
+   "extracted_variables": {"fo": 144, "fe": 6},
+   "solution_template": [
+    {"step": 1, "action": "divide the focal lengths", "explain": "power equals fo over fe", "compute": "mag_power = fo / fe"}
+   ]
+  },
+  {
+   "id": "we_leph201_5",
+   "source_ref": "leph201.txt section 9.7.1 compound microscope example",
+   "concept": "leph201.9.7.1.2",
+   "question_type": "compound_microscope_magnification",
+   "question_pattern": "A compound microscope has an objective of focal length {fo} cm, an eyepiece of focal length {fe} cm and a tube length of {tube_len} cm. What is its magnifying power for the final image at infinity (near point 25 cm)?",
+   "extracted_variables": {"fo": 1, "fe": 2, "tube_len": 20, "near_point": 25},
+   "solution_template": [
+    {"step": 1, "action": "objective magnification", "explain": "L/fo", "compute": "mag_objective = tube_len / fo"},
+    {"step": 2, "action": "eyepiece magnification", "explain": "D/fe with D = 25 cm", "compute": "mag_eyepiece = near_point / fe"},
+    {"step": 3, "action": "multiply the stages", "explain": "total magnifying power", "compute": "mag_total = mag_objective * mag_eyepiece"}
+   ]
+  },
+  {
+   "id": "we_leph201_6",
+   "source_ref": "leph201.txt section 9.7.1 simple microscope example",
+   "concept": "leph201.9.7.1.1",
+   "question_type": "simple_microscope_magnification",
+   "question_pattern": "What magnifying power does a simple microscope of focal length {f} cm deliver with the image at the near point of {near_point} cm?",
+   "extracted_variables": {"f": 5, "near_point": 25},
+   "solution_template": [
+    {"step": 1, "action": "divide the near point by f", "explain": "ratio D/f", "compute": "mag_ratio = near_point / f"},
+    {"step": 2, "action": "add one", "explain": "near-point magnifying power", "compute": "mag_power = 1 + mag_ratio"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_leph201_9_1_to_9_5",
+   "source_ref": "leph201.txt end-of-chapter exercises 9.1-9.5",
+   "questions": [
+    "A 2.5 cm candle stands 27 cm before a concave mirror of radius 36 cm; where should a screen go for a sharp image, and how large is the image?",
+    "A 4.5 cm needle sits 12 cm in front of a convex mirror, f = 15 cm; locate the image and give its magnification.",
+    "Water fills a tank to 12.5 cm and a microscope reads the bottom needle at 9.4 cm; what refractive index follows, and how far must the focus move if a liquid of index 1.63 replaces the water?",
+    "A bulb rests 80 cm under water of index 1.33; find the water-surface area through which its light can escape."
+   ]
+  },
+  {
+   "id": "ex_leph201_9_6_to_9_10",
+   "source_ref": "leph201.txt end-of-chapter exercises 9.6-9.10",
+   "questions": [
+    "A prism shows a 40 degrees minimum deviation at a 60 degrees refracting angle; find the glass index, then the new minimum deviation once the prism sits under water of index 1.33.",
+    "For glass of index 1.55 shaped as an equiconvex lens, what radius of curvature yields a 20 cm focal length?",
+    "A beam converges toward a point 12 cm beyond a lens; where does it focus if the lens is a 20 cm convex or a 16 cm concave one?",
+    "Contact a 30 cm convex lens with a 20 cm concave lens; what focal length results and does the pair converge or diverge?"
+   ]
+  },
+  {
+   "id": "ex_leph201_9_11_to_9_15",
+   "source_ref": "leph201.txt end-of-chapter exercises 9.11-9.15",
+   "questions": [
+    "With a 2 cm objective and a 6.25 cm eyepiece set 15 cm apart, where must the object sit for the final image at the near point and at infinity, and what magnifying power follows in each case?",
+    "An observatory refractor has a 15 m objective; with a 1 cm eyepiece what angular magnification appears, and how wide is the lunar image the objective casts?",
+    "Use the mirror equation to argue that a convex mirror always returns a virtual, diminished image parked between focus and pole."
+   ]
+  },
+  {
+   "id": "ex_leph201_9_16_to_9_20",
+   "source_ref": "leph201.txt end-of-chapter exercises 9.16-9.20",
+   "questions": [
+    "A pin watched from 50 cm above a 15 cm thick glass slab of index 1.5 seems raised by how much, and does the slab's placement matter?",
+    "A light pipe has core index 1.68 inside cladding of 1.44; find the range of entry angles that keeps rays totally reflecting, and the answer without cladding.",
+    "Object and screen sit 90 cm apart and a convex lens gives sharp images at two positions 20 cm apart; what is the focal length?"
+   ]
+  },
+  {
+   "id": "ex_leph201_9_21_to_9_26",
+   "source_ref": "leph201.txt end-of-chapter exercises 9.21-9.26",
+   "questions": [
+    "At what incidence angle does a 60 degrees prism of index 1.524 just manage total internal reflection on its second face?",
+    "A 30X magnifying power is wanted from a 1.25 cm objective with a 5 cm eyepiece; how should the compound microscope be set up?",
+    "Explain why the focal length of a magnifier cannot keep shrinking without limit even though power grows as 1/f."
+   ]
+  },
+  {
+   "id": "ex_leph201_9_27_to_9_31",
+   "source_ref": "leph201.txt end-of-chapter exercises 9.27-9.31",
+   "questions": [
+    "A 140 cm objective works with a 5 cm eyepiece; find the magnifying power for normal adjustment and for a final image at 25 cm.",
+    "A Cassegrain telescope carries its mirrors 20 mm apart, the primary of radius 220 mm and the secondary of 140 mm; where does the final image of a distant object form?",
+    "A galvanometer mirror turns through 3.5 degrees; how far does the reflected spot travel across a screen 1.5 m away?"
+   ]
+  }
+ ]
+}

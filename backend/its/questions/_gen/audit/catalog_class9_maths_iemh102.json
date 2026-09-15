@@ -1,0 +1,134 @@
+{
+ "catalog": "catalog_class9_maths_iemh102.json",
+ "concepts": [
+  {
+   "id": "iemh.102.2.1",
+   "family": "expr_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 3 * 4 + 5"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 3 * 6 * 6 + 8 * 6 + 5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "coef = 6 + 5 - 7"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = 7 * 5 + 7 * 5"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 6 + 9 * 3"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = (2 + 4) * 4"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "iemh.102.2.2",
+   "family": "circle_area",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "circ = 2 * 22 / 7 * 77"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "circ = 22 / 7 * 42"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "area = 22 / 7 * 56 * 56"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "area = 22 / 7 * (112 * 112 - 42 * 42)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "arc = 90 / 360 * 2 * 22 / 7 * 70"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "sector = 60 / 360 * 22 / 7 * 70 * 70"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "iemh.102.2.3",
+   "family": "linear_eq",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "x = (19 - 15) / 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "x = (3 + 15) / 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "x = (6 - ((-22))) / 7"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "x = (5 + 37) / 7"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "x = (62 - 6) / (8 - 1)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "x = (36 / 6) - 3"
+     ]
+    }
+   ],
+   "steps_chain": []
+  }
+ ]
+}

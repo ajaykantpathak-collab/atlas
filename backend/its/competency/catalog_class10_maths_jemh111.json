@@ -1,0 +1,230 @@
+{
+ "class": 10,
+ "subject": "maths",
+ "chapter": 11,
+ "chapter_title": "Areas Related to Circles",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jemh111.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "jemh.111.12.1",
+   "title": "Areas of Sector and Segment of a Circle",
+   "section": "11.1",
+   "definition": "The sector of a circle is the region enclosed by two radii and their arc, and the segment is the region between a chord and its arc; their areas are fractions of the circle's area, decided by the central angle - sector area equals angle over 360 times pi r squared.",
+   "formula": "sector = (angle / 360) * pi * r * r",
+   "key_idea": "Angle decides the share: 90 degrees earns a quarter of pi r squared.",
+   "textbook_ref": "jemh111.txt section 12.1 (areas of sector and segment of a circle)",
+   "question_patterns": [
+    "find the area of a sector of a circle of radius 14 cm with central angle 90 degrees",
+    "find the area of the segment when the chord and angle are given",
+    "what fraction of the circle's area is the given sector",
+    "calculate the sector area for the given radius and angle",
+    "the sector area is given - find the angle of the sector",
+    "distinguish a sector from a segment with a diagram"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the angle fraction",
+     "explain": "Divide the central angle by 360.",
+     "compute": "fraction = angle / 360"
+    },
+    {
+     "step": 2,
+     "action": "scale the circle area",
+     "explain": "Multiply by pi r squared for the sector area.",
+     "compute": "sector = fraction * pi * r * r"
+    }
+   ]
+  },
+  {
+   "id": "jemh.111.12.2",
+   "title": "Length of an Arc of a Circle",
+   "section": "11.1",
+   "definition": "The length of an arc subtending angle theta at the centre is the same fraction of the circumference: arc equals angle over 360 times 2 pi r.",
+   "formula": "arc = (angle / 360) * 2 * pi * r",
+   "key_idea": "The arc's share of the boundary equals the angle's share of the full turn.",
+   "textbook_ref": "jemh111.txt section on length of an arc",
+   "question_patterns": [
+    "find the length of the arc subtending 60 degrees in a circle of radius 21 cm",
+    "the arc length is given - find the angle it subtends",
+    "what part of the circumference is an arc of the given angle",
+    "calculate the arc length for the given radius and angle",
+    "the minute hand sweeps the given angle - find the distance of its tip",
+    "compare arcs of the same angle in two circles"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the angle fraction",
+     "explain": "Angle over 360 degrees.",
+     "compute": "fraction = angle / 360"
+    },
+    {
+     "step": 2,
+     "action": "scale the circumference",
+     "explain": "Multiply by 2 pi r.",
+     "compute": "arc = fraction * 2 * pi * r"
+    }
+   ]
+  },
+  {
+   "id": "jemh.111.12.3",
+   "title": "Areas of Combinations of Plane Figures",
+   "section": "11.2",
+   "definition": "Real designs - flower beds on square corners, circular tablecloths on tables, sectors in designs - are combinations of plane figures; their areas are found by adding or subtracting the basic circle, square and triangle areas as the design dictates.",
+   "formula": "-",
+   "key_idea": "Add the wanted parts, subtract the unwanted: composition solves composite areas.",
+   "textbook_ref": "jemh111.txt section 12.2 (areas of combinations of plane figures)",
+   "question_patterns": [
+    "find the area of the design formed by circles on a square as in the chapter",
+    "a square has circles at its corners - find the area left unoccupied",
+    "how much canvas does the given tent-top design need - compute the area",
+    "find the area swept by the minute hand in the given time",
+    "add and subtract the basic areas to find the shaded region",
+    "the cost of carpeting the region is given per unit - find the cost"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "decompose the design",
+     "explain": "Split the figure into circles, sectors, squares and triangles."
+    },
+    {
+     "step": 2,
+     "action": "compute each basic area",
+     "explain": "Use pi r squared, side squared or half base times height as needed."
+    },
+    {
+     "step": 3,
+     "action": "combine with logic",
+     "explain": "Add included regions and subtract excluded ones for the shaded area."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jemh111.txt sector area examples",
+   "concept": "jemh.111.12.1",
+   "question_type": "compute",
+   "question_pattern": "Find the area of a sector of a circle of radius {r} cm with central angle {angle} degrees.",
+   "extracted_variables": {
+    "r": "radius of the circle in cm",
+    "angle": "central angle in degrees"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the angle fraction",
+     "explain": "Angle over 360.",
+     "compute": "fraction = angle / 360"
+    },
+    {
+     "step": 2,
+     "action": "scale pi r squared",
+     "explain": "Multiply the circle's area by the fraction.",
+     "compute": "sector = fraction * pi * r * r"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jemh111.txt sector practice",
+   "concept": "jemh.111.12.1",
+   "question_type": "compute",
+   "question_pattern": "A sector of angle {angle} degrees is cut from a circle of radius {r} cm. Find its area.",
+   "extracted_variables": {
+    "angle": "central angle in degrees",
+    "r": "radius in cm"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the angle fraction",
+     "explain": "Fraction of the full circle.",
+     "compute": "fraction = angle / 360"
+    },
+    {
+     "step": 2,
+     "action": "scale the circle area",
+     "explain": "Multiply by pi r squared.",
+     "compute": "sector = fraction * pi * r * r"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jemh111.txt arc length examples",
+   "concept": "jemh.111.12.2",
+   "question_type": "compute",
+   "question_pattern": "Find the length of an arc of angle {angle} degrees in a circle of radius {r} cm.",
+   "extracted_variables": {
+    "angle": "central angle in degrees",
+    "r": "radius in cm"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the angle fraction",
+     "explain": "Angle over 360.",
+     "compute": "fraction = angle / 360"
+    },
+    {
+     "step": 2,
+     "action": "scale the circumference",
+     "explain": "Multiply by 2 pi r.",
+     "compute": "arc = fraction * 2 * pi * r"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jemh111.txt arc practice",
+   "concept": "jemh.111.12.2",
+   "question_type": "compute",
+   "question_pattern": "The minute hand of length {r} cm sweeps {angle} degrees. Find the distance its tip travels.",
+   "extracted_variables": {
+    "angle": "angle swept in degrees",
+    "r": "length of the hand in cm"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the angle fraction",
+     "explain": "Fraction of the full turn.",
+     "compute": "fraction = angle / 360"
+    },
+    {
+     "step": 2,
+     "action": "scale the circumference",
+     "explain": "The tip travels that part of 2 pi r.",
+     "compute": "arc = fraction * 2 * pi * r"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex12.1",
+   "source_ref": "jemh111.txt EXERCISE 12.1-12.2",
+   "questions": [
+    "Find the areas of the sectors of the given circles.",
+    "Find the lengths of the arcs subtending the given angles.",
+    "Find the areas of the segments for the given chords and angles."
+   ]
+  },
+  {
+   "id": "ex12.2",
+   "source_ref": "jemh111.txt combination problems",
+   "questions": [
+    "Find the area of the design formed on the square with circular corners.",
+    "Find the area swept by the minute hand in the given time."
+   ]
+  }
+ ]
+}

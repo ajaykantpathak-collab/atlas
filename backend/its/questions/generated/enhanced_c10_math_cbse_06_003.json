@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_06_003",
+   "title": "c10_math_cbse_06_003",
+   "questions": [
+    {
+     "q": "State the Basic Proportionality Theorem (Thales' Theorem) with all necessary conditions. Draw a labelled diagram showing the triangle, the parallel line, and the four segments whose ratio is equal.",
+     "a": "Correct answer: \"If a line is drawn parallel to one side of a triangle intersecting the other two sides at distinct points, then it divides those two sides in the same ratio. In ΔABC with DE || BC intersecting AB at D and AC at E, we have AD/DB = AE/EC. Conditions: DE must be parallel to BC, and D, E must lie on segments AB, AC (not extensions).\" A wrong answer (e.g., missing \"parallel\" condition, or writing AD/AB = AE/AC) reveals the student has memorised a formula without understanding the geometric configuration — they will misapply it when the line is not parallel or when segments are on extensions.",
+     "self_check": true
+    },
+    {
+     "q": "In ΔPQR, a line ST is drawn intersecting PQ at S and PR at T. A student writes PS/SQ = PT/TR and claims BPT applies. What is the ONE essential condition the student must verify before using this proportion? Explain why this condition is necessary using the area-based proof logic.",
+     "a": "The student must verify that ST || QR. This is necessary because the area proof relies on ΔSQT and ΔSRT having equal areas (same base ST, between parallels ST and QR). If ST is not parallel to QR, these triangles do not lie between the same parallels, their areas are not equal, and the ratio equality fails. A wrong answer (e.g., \"triangle must be similar\" or \"angles must be equal\") shows the student does not understand the proof mechanism and will blindly apply the formula in invalid configurations.",
+     "self_check": true
+    },
+    {
+     "q": "In ΔABC, DE || BC. If AD = 2.4 cm, DB = 3.6 cm, and AC = 10 cm, find AE. Show all steps including the proportion setup and algebraic solving.",
+     "a": "Steps:\n1. BPT gives AD/DB = AE/EC → 2.4/3.6 = AE/EC → 2/3 = AE/EC\n2. Let AE = 2k, EC = 3k (since ratio 2:3)\n3. AC = AE + EC = 2k + 3k = 5k = 10 cm → k = 2 cm\n4. AE = 2k = 4 cm\nAnswer: AE = 4 cm. A wrong answer (e.g., 6 cm from AD/AB = AE/AC) reveals the student confuses internal division ratio with whole-side ratio — a classic board exam trap where students use AD/AB = AE/AC instead of AD/DB = AE/EC.",
+     "self_check": true
+    },
+    {
+     "q": "In ΔXYZ, line PQ intersects XY at P and XZ at Q. Given XP = 3 cm, PY = 6 cm, XQ = 4 cm, QZ = 8 cm. Can you conclude PQ || YZ? Justify using BPT and its converse logic (without stating the converse theorem).",
+     "a": "Yes, PQ || YZ. Compute XP/PY = 3/6 = 1/2 and XQ/QZ = 4/8 = 1/2. The ratios are equal. By the area proof logic: if PQ were not parallel to YZ, the areas of ΔPYQ and ΔPZQ would differ, making the ratios unequal. Since ratios are equal, the triangles must have equal area, forcing PQ and YZ to be parallel. A wrong answer (e.g., \"cannot conclude without converse theorem\") shows the student treats theorems as isolated facts rather than understanding the bidirectional area-reasoning that underlies both BPT and its converse.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves this problem: \"In ΔABC, DE || BC. AD = x, DB = x+2, AE = x+1, EC = x+3. Find x.\" Their working:\nAD/DB = AE/EC → x/(x+2) = (x+1)/(x+3) → x(x+3) = (x+1)(x+2) → x²+3x = x²+3x+2 → 0=2. They conclude \"no solution\". Is the student correct? Explain the error.",
+     "a": "The student is correct that the equation leads to 0=2 (contradiction), meaning NO such triangle exists with these segment lengths and DE || BC. The error is in the problem statement itself — the given lengths violate BPT, so the configuration is impossible. A student who says \"x = -1\" or \"x = 2\" by forcing a solution reveals they mechanically solve equations without checking geometric feasibility. In board exams, such problems test whether students recognise impossible configurations — the correct answer is \"No real value of x satisfies the conditions; the given lengths contradict BPT.\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context: farming, construction, tailoring, etc.) that requires BPT to solve. The problem must involve a triangle with a parallel line dividing sides, give three segment lengths, and ask for the fourth. Write the problem statement and the complete solution.",
+     "a": "Sample problem: \"A triangular field ABC has a boundary wall along BC. A farmer wants to put a fence DE parallel to BC connecting sides AB and AC. He measures AD = 15 m, DB = 25 m, and AE = 18 m. How much fencing wire does he need for EC?\" Solution: AD/DB = AE/EC → 15/25 = 18/EC → 3/5 = 18/EC → EC = 30 m. A poor problem (e.g., missing parallel condition, or asking for a length not determinable by BPT) reveals the student does not understand what BPT actually determines — they confuse it with similarity or Pythagoras.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

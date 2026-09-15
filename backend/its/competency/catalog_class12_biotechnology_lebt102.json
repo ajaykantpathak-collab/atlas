@@ -1,0 +1,398 @@
+{
+ "class": 12,
+ "subject": "biotechnology",
+ "chapter": 2,
+ "chapter_title": "Host-Vector System",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lebt102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lebt102.1",
+   "title": "Two-Component Cloning System and Vector Features",
+   "section": "2.1-2.3",
+   "definition": "Gene cloning pairs a carrier with a workhorse: the insert is spliced into a vector, the recombinant DNA enters a host, and the host's enzymes multiply the construct; E. coli K12, doubling about every twenty minutes, leads the prokaryotic hosts with Bacillus subtilis for secreted proteins and yeast for eukaryotes, while a usable vector must stay small, carry an origin of replication, offer unique restriction sites and bear at least one selectable marker such as tetracycline or ampicillin resistance.",
+   "formula": "-",
+   "key_idea": "Host supplies the replication machinery, vector supplies the control sequences - and four features make a vector worth using.",
+   "textbook_ref": "lebt102.txt sections 2.1-2.3, Fig. 2.1-2.2",
+   "question_patterns": [
+    "describe the two key components of recombinant DNA technology with a schematic of gene cloning",
+    "list the four features every cloning vector must possess",
+    "why is E. coli K12 the most extensively used host for gene cloning",
+    "which host would you choose to secrete a protein encoded by a cloned gene",
+    "what happens to a vector that carries too many restriction sites",
+    "name the antibiotic resistance markers commonly used to screen transformants"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "build the construct",
+     "explain": "Isolate the insert, ligate it into the cut vector, and transform the host."
+    },
+    {
+     "step": 2,
+     "action": "check the vector",
+     "explain": "Small size, an ori for autonomous replication, unique cloning sites and a selectable marker are non-negotiable."
+    },
+    {
+     "step": 3,
+     "action": "pick the host",
+     "explain": "Match host to purpose - fast propagation in E. coli, secretion in Bacillus, eukaryotic folding in yeast."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which E. coli strain leads prokaryotic cloning hosts: K12 or O157?",
+     "a": "K12"
+    }
+   ]
+  },
+  {
+   "id": "lebt102.2",
+   "title": "Plasmid Copy Number and Vector Engineering",
+   "section": "2.3.1",
+   "definition": "Plasmids are circular extrachromosomal DNAs from a few kilobases to over a hundred: relaxed high-copy plasmids escape chromosome control to reach ten to thirty copies per cell and stronger screening signals, whereas stringent low-copy plasmids hold one or a few; engineers then trim and recombine natural plasmids - nine-kilobase pBR313 with tetR and ampR lost its non-essential bulk to become the 4,361 bp pBR322, and later pUC19 at 2.686 kb added a synthetic polylinker and blue-white selection through lacZ.",
+   "formula": "deleted_bp = old_size_bp - new_size_bp",
+   "key_idea": "Subtract the engineered size from the natural one to price the deleted non-essential DNA.",
+   "textbook_ref": "lebt102.txt section 2.3.1, Figs. 2.3-2.5",
+   "question_patterns": [
+    "pBR313 measured about 9 kb and pBR322 was trimmed to 4361 bp - how many base pairs were deleted",
+    "what percent of the pBR313 DNA was removed during construction of pBR322",
+    "differentiate relaxed replication of high copy plasmids from stringent replication of low copy plasmids",
+    "how many copies per cell do high-copy plasmids maintain and why does that help screening",
+    "what is a multiple cloning site and which vector first popularised it with blue-white selection",
+    "name the two selectable markers carried by pBR322 and the enzymes whose sites flank them",
+    "what are episomes and which plasmid categories carry colicin or transfer genes"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract the sizes",
+     "explain": "Deletion equals the natural size minus the engineered size.",
+     "compute": "deleted_bp = old_size_bp - new_size_bp"
+    },
+    {
+     "step": 2,
+     "action": "percent the removal",
+     "explain": "Deleted bases over the original size times one hundred.",
+     "compute": "deleted_pct = deleted_bp * 100 / old_size_bp"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Relaxed high-copy plasmids reach how many copies per cell: ten to thirty, or one?",
+     "a": "ten to thirty"
+    }
+   ]
+  },
+  {
+   "id": "lebt102.3",
+   "title": "Lambda Phage Genome and Its Vectors",
+   "section": "2.3.2",
+   "definition": "Lambda's linear 48,490 bp genome carries twelve-base cohesive ends that anneal inside E. coli to close a 48,502 bp circle at the cos site; about one-third of the middle region, the lysogeny genes, is dispensable for lytic growth, so vectors replace that stretch with inserts sized 38-52 kbp for packaging - insertion vectors such as lambda gt10 and gt11 taking up to about 7 kbp, and replacement vectors like EMBL3 trading their stuffer for 20 kbp inserts.",
+   "formula": "circular_bp = linear_bp + cos_pairs",
+   "key_idea": "Add the paired cohesive bases to the linear length for the circular genome, and divide by three to find the replaceable middle.",
+   "textbook_ref": "lebt102.txt section 2.3.2, Figs. 2.6-2.8, Table 2.1",
+   "question_patterns": [
+    "a lambda genome of 48490 bp linear DNA closes through 12-base cohesive ends - compute the circular length",
+    "roughly what fraction of the lambda genome is dispensable for lytic infection",
+    "why must recombinant lambda DNA lie between 38 and 52 kbp",
+    "differentiate insertion vectors from replacement vectors of lambda phage",
+    "state the maximum insert sizes of lambda gt10 lambda gt11 and lambda EMBL3",
+    "what happens at the cos site during rolling circle replication and packaging"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "close the ends",
+     "explain": "The two complementary cohesive ends pair, adding their overlap to the length.",
+     "compute": "circular_bp = linear_bp + cos_pairs"
+    },
+    {
+     "step": 2,
+     "action": "take the dispensable third",
+     "explain": "One-third of the genome, the lysogeny region, can be swapped for inserts.",
+     "compute": "dispensable_kbp = circular_kbp / 3"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many base pairs long is lambda's linear genome: 48,490 or 4,849?",
+     "a": "48490"
+    }
+   ]
+  },
+  {
+   "id": "lebt102.4",
+   "title": "M13 Filamentous Phage Vectors",
+   "section": "2.3.2",
+   "definition": "M13 threads a 6.4 kb single-stranded circular genome through a tube-shaped capsid, infecting only F-pilus-bearing E. coli without lysing them; inside, the strand becomes a double-stranded replicative form exploited for cloning inserts into the non-essential intergenic region, and vectors like M13mp18 add blue-white screening while yielding abundant single-stranded template.",
+   "formula": "-",
+   "key_idea": "Clone into the intergenic region of the replicative form and harvest single-stranded DNA from the medium without killing the host.",
+   "textbook_ref": "lebt102.txt section 2.3.2 (M13), Figs. 2.9-2.10",
+   "question_patterns": [
+    "why does bacteriophage M13 infect only E. coli cells carrying the F plasmid",
+    "what is the replicative form of M13 DNA and how is it used for cloning",
+    "into which region of the M13 genome is foreign DNA inserted and why there",
+    "which M13 vector supports blue-white selection of recombinants",
+    "how large an insert can M13-based cloning accommodate",
+    "differentiate the lytic lifestyle of lambda from the non-lytic export of M13"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "enter through the pilus",
+     "explain": "M13 attaches only to F-pilus-bearing cells and injects its single-stranded circle."
+    },
+    {
+     "step": 2,
+     "action": "make the double strand",
+     "explain": "Host enzymes build the replicative form, which serves as the cloning substrate."
+    },
+    {
+     "step": 3,
+     "action": "export progeny",
+     "explain": "Packaged single-stranded genomes leave through the membrane without lysis."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "M13 infects only E. coli bearing which structure: the F-pilus or a flagellum?",
+     "a": "the F-pilus"
+    }
+   ]
+  },
+  {
+   "id": "lebt102.5",
+   "title": "Cosmids and Phasmids as Hybrid Vectors",
+   "section": "2.3.3-2.3.4",
+   "definition": "Two hybrids stretch cloning capacity: a cosmid grafts as little as 250 bp of lambda DNA carrying the cos junction onto plasmid functions, letting recombinants of up to about 45 kbp be packaged in vitro into phage heads yet propagate as plasmids; a phasmid keeps whole lambda lytic genes at its ends around a central plasmid, replicating as a phage unless a lambda repressor gene flips it to plasmid mode.",
+   "formula": "-",
+   "key_idea": "Cos sites win phage packaging, plasmid ori wins propagation - combine both and large inserts travel either way.",
+   "textbook_ref": "lebt102.txt sections 2.3.3-2.3.4, Figs. 2.11-2.12",
+   "question_patterns": [
+    "how many base pairs of lambda DNA suffice to provide the cos junction of a cosmid",
+    "differentiate a cosmid from a phasmid on the basis of the lambda DNA each carries",
+    "up to what insert size do most cosmid vectors accommodate",
+    "what decides whether a phasmid replicates as a phage or as a plasmid",
+    "why can cosmids be packaged in vitro into lambda phage coats",
+    "which selectable features does a typical cosmid borrow from its plasmid part"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "inspect the parts",
+     "explain": "Cosmids: plasmid ori, markers, polylinker plus a cos segment; phasmids: full lambda lytic arms around a plasmid middle."
+    },
+    {
+     "step": 2,
+     "action": "follow the replication route",
+     "explain": "Cosmids always propagate as plasmids; phasmids choose phage or plasmid mode by the repressor gene."
+    },
+    {
+     "step": 3,
+     "action": "note the capacity",
+     "explain": "Cosmid inserts reach about 45 kbp thanks to in vitro packaging."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A cosmid grafts lambda's what onto plasmid functions: the cos junction or its tail?",
+     "a": "the cos junction"
+    }
+   ]
+  },
+  {
+   "id": "lebt102.6",
+   "title": "Artificial Chromosomes YAC BAC and PAC",
+   "section": "2.4 and Table 2.2",
+   "definition": "Eukaryotic introns force cloning of huge fragments, so artificial chromosomes were built: yeast artificial chromosomes string two telomeres, a centromere, an ARS origin and markers into a linear yeast chromosome carrying 200-500 kb inserts while keeping a circular bacterial form; bacterial and phage artificial chromosomes extend the same idea from plasmid and phage parts, with capacities stepping from plasmid's ten kilobases up to about half a megabase.",
+   "formula": "yac_range = yac_max - yac_min",
+   "key_idea": "Subtract the capacity floor from the ceiling to size each vector class, and average the two for a typical insert.",
+   "textbook_ref": "lebt102.txt section 2.4, Fig. 2.13, Table 2.2",
+   "question_patterns": [
+    "state the insert size ranges of plasmid bacteriophage cosmid PAC BAC and YAC vectors",
+    "a YAC accepts 200 to 500 kb inserts - what is the width of this capacity range",
+    "which four sequences must a YAC vector contain and what does each do",
+    "why do eukaryotic genes demand artificial chromosomes rather than plasmids",
+    "which organism donates the host functions of a YAC and why is Saccharomyces cerevisiae GRAS listed",
+    "how do the circular and linear forms of a YAC differ in the host they grow in"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract capacity floor from ceiling",
+     "explain": "The range width shows how flexible the vector is.",
+     "compute": "yac_range = yac_max - yac_min"
+    },
+    {
+     "step": 2,
+     "action": "average the extremes",
+     "explain": "The midpoint estimates a typical clonable insert.",
+     "compute": "yac_mid = (yac_min + yac_max) / 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "YACs carry inserts of 200 to how many kilobases: 500 or 50?",
+     "a": "500"
+    }
+   ]
+  },
+  {
+   "id": "lebt102.7",
+   "title": "Expression Vectors and Heterologous Expression",
+   "section": "2.5",
+   "definition": "Expression vectors do more than carry DNA - an inducible promoter upstream, a ribosome binding site, unique insertion sites and a downstream terminator wrap the cloned gene into an expression cassette that the host transcribes and translates on command; eukaryotic genes expressed in prokaryotes must arrive intron-free and need no post-translational dressing such as glycosylation to work.",
+   "formula": "-",
+   "key_idea": "Promoter before, terminator after, inducible control throughout - and intron-free inserts when the host cannot splice.",
+   "textbook_ref": "lebt102.txt section 2.5, Fig. 2.14",
+   "question_patterns": [
+    "label the components of an expression cassette in an expression vector",
+    "why are the promoters of expression vectors generally inducible in nature",
+    "what two conditions must a eukaryotic gene satisfy for heterologous expression in a prokaryotic host",
+    "what is heterologous gene expression - define with an example",
+    "which sequences ensure correct termination of transcription of the cloned gene",
+    "why is an expression vector sometimes called a sandwich expression vector"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the cassette",
+     "explain": "Promoter-operator, ribosome binding site, polylinker and terminator bracket the insert."
+    },
+    {
+     "step": 2,
+     "action": "check the biology",
+     "explain": "Splicing is absent in prokaryotes, so the insert must be intron-free."
+    },
+    {
+     "step": 3,
+     "action": "assess the product",
+     "explain": "Proteins needing glycosylation or other modifications fail without a suitable host."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Eukaryotic genes expressed in prokaryotes must arrive without what: introns or exons?",
+     "a": "introns"
+    }
+   ]
+  },
+  {
+   "id": "lebt102.8",
+   "title": "Shuttle Vectors between Two Hosts",
+   "section": "2.6",
+   "definition": "Shuttle vectors pack two origins of replication and dual selection systems so one construct lives in E. coli for engineering and in yeast, plant or animal cells for expression, with only one origin active in any given host; most eukaryotic vectors are in fact such shuttles built by recombinant DNA methods.",
+   "formula": "-",
+   "key_idea": "Two origins, two markers, one plasmid - build in bacteria, express in the eukaryote.",
+   "textbook_ref": "lebt102.txt section 2.6, Fig. 2.15",
+   "question_patterns": [
+    "why does a shuttle vector carry two origins of replication and how are they used",
+    "label the bacterial and eukaryotic components of a shuttle vector for E. coli and yeast",
+    "between which pairs of hosts can shuttle vectors shuttle",
+    "why are most eukaryotic vectors considered shuttle vectors",
+    "what distinguishes the eukaryotic terminator of a shuttle vector - which signal ends its transcripts",
+    "how does a multiple cloning site serve a shuttle vector built by recombinant methods"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "spot the dual origins",
+     "explain": "One bacterial ori and one eukaryotic origin, only one active per host."
+    },
+    {
+     "step": 2,
+     "action": "check the dual markers",
+     "explain": "Antibiotic resistance for bacteria and a eukaryotic selectable gene with promoter and poly-A signal."
+    },
+    {
+     "step": 3,
+     "action": "run the workflow",
+     "explain": "Manipulate in E. coli, then transfer to the eukaryotic host where the second origin takes over."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many origins of replication does a shuttle vector pack: two or none?",
+     "a": "two"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "lebt102.txt section 2.3.2 (48,490 bp linear, 12-base cos, 48,502 bp circular)",
+   "concept": "lebt102.3",
+   "question_type": "compute",
+   "question_pattern": "The lambda phage genome is {linear_bp} bp of linear DNA whose ends carry {cos_pairs}-base cohesive ends. Find the length of the circular form inside the host, and the approximate size of the dispensable middle region in kbp.",
+   "extracted_variables": {
+    "linear_bp": "linear genome length in base pairs",
+    "cos_pairs": "base pairs formed by the paired cohesive ends"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "close the circle",
+     "explain": "Pairing the cohesive ends adds their overlap to the genome.",
+     "compute": "circular_bp = linear_bp + cos_pairs"
+    },
+    {
+     "step": 2,
+     "action": "take the third",
+     "explain": "The lysogeny region is about one-third of the genome.",
+     "compute": "dispensable_kbp = circular_kbp / 3"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "lebt102.txt section 2.3.1 (pBR313 about 9 kb trimmed to pBR322 of 4,361 bp)",
+   "concept": "lebt102.2",
+   "question_type": "compute",
+   "question_pattern": "Plasmid pBR313 measured {old_size_bp} bp, and engineering produced pBR322 of {new_size_bp} bp. Find the base pairs deleted and the percent of the original plasmid removed.",
+   "extracted_variables": {
+    "old_size_bp": "size of the parent plasmid in bp",
+    "new_size_bp": "size of the engineered plasmid in bp"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract the sizes",
+     "explain": "Deletion equals parent minus engineered size.",
+     "compute": "deleted_bp = old_size_bp - new_size_bp"
+    },
+    {
+     "step": 2,
+     "action": "percent of the parent",
+     "explain": "Deleted bases over the original length times one hundred.",
+     "compute": "deleted_pct = deleted_bp * 100 / old_size_bp"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lebt102-ex1",
+   "source_ref": "lebt102.txt Exercises (questions 1-14)",
+   "questions": [
+    "Describe the importance of the host vector system in rDNA technology.",
+    "What are the major characteristics of a vector and why is a vector required for cloning a gene?",
+    "What is a plasmid and what are its different types including copy-number classes?",
+    "Discuss the strategy applied for the development of pBR322 plasmid cloning vectors.",
+    "Briefly describe the structure of lambda bacteriophage and the role of lambda phage based vectors.",
+    "Differentiate between cosmids and phagemids, and between relaxed and stringent replication.",
+    "Identify the incorrect match among multicopy plasmid with stringent replication, Col plasmid with killing bacteria, pBR322 as a plasmid, and prophage as integrated phage genome.",
+    "How can a large-size eukaryotic gene insert be cloned - explain with artificial chromosomes."
+   ]
+  }
+ ]
+}

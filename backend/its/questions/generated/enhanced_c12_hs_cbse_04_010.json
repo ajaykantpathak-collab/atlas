@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_04_010",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_04_010",
+   "title": "c12_hs_cbse_04_010",
+   "questions": [
+    {
+     "q": "List the five elements of design and the five principles of design used in apparel. Give one clothing example for each element.",
+     "a": "**Elements:** Line (e.g., vertical seams on a shirt), Shape/Form (e.g., A-line skirt), Space (e.g., negative space in a cut-out back), Texture (e.g., nubby tweed fabric), Color (e.g., red bindi on white kurta). **Principles:** Balance (symmetrical button placket), Proportion (long kurta over short leggings), Emphasis (embroidered neckline), Rhythm (repeated pleats), Harmony (matching thread color on collar and cuffs). A wrong answer that swaps elements and principles (e.g., calling \"balance\" an element) reveals confusion between the visual *tools* and the *organizational rules*.",
+     "self_check": true
+    },
+    {
+     "q": "A designer uses a bold, wide horizontal stripe on the hip area of a dress. Explain which element and which principle are primarily at work, and predict the visual effect on the wearer's hips.",
+     "a": "The **element** is **line** (horizontal stripe). The **principle** is **emphasis** (the stripe draws the eye to that area). The visual effect is that the hips appear **wider** because horizontal lines expand visual width. A student who says \"the stripe makes hips look slimmer\" has the classic misconception that stripes always slim; they confuse vertical vs. horizontal line effects.",
+     "self_check": true
+    },
+    {
+     "q": "You have a client with a pear-shaped body (wider hips, narrower shoulders). Using at least two elements and two principles, describe a design strategy to visually balance the silhouette.",
+     "a": "**Strategy:** Use **color** (element) — lighter/brighter top, darker bottom — to apply **emphasis** (principle) on the upper body. Use **line** (element) — boat neck or shoulder pads — to create **horizontal lines** at shoulders, and **proportion** (principle) to make shoulders appear wider, balancing hip width. A wrong answer that suggests adding volume at hips (e.g., gathered skirt) shows inability to apply principles to correct body proportions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare symmetrical balance and asymmetrical balance in apparel. Give one garment example for each and explain which is more formal and why.",
+     "a": "**Symmetrical balance:** Mirror-image halves (e.g., straight kurta with centered button placket). **Asymmetrical balance:** Unequal but visually weighted halves (e.g., one-shoulder dress with diagonal hem). Symmetrical is more formal because it conveys order, stability, and tradition — associated with ceremonial/official wear. Asymmetrical suggests movement, modernity, informality. A student who claims asymmetrical is more formal because \"it looks unique\" confuses novelty with formality codes.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this design choice: \"A petite woman wears a large, bold floral print on a long, full-flared maxi dress.\" Identify which elements/principles are violated for her body type and suggest two specific corrections.",
+     "a": "**Violations:** **Scale/proportion** (principle) — large print overwhelms small frame; **line** (element) — full flare adds horizontal volume at hem, shortening legs visually; **space** (element) — long unbroken vertical space without interruption makes her look shorter. **Corrections:** (1) Small-scale print (proportion to body), (2) A-line instead of full flare (shape/form), (3) Empire waist or high waistline to create vertical line and raise eye level. A student who only says \"it doesn't look good\" without naming principles fails to demonstrate analytical vocabulary.",
+     "self_check": true
+    },
+    {
+     "q": "Create a design concept for a unisex jacket using **repetition** (rhythm) and **texture contrast** as the dominant principle and element. Sketch or describe: fabric choices, placement of texture, type of repetition, and the intended visual message.",
+     "a": "**Concept:** Jacket in matte wool (smooth texture) with **repeated** leather patches (rough texture) on elbows, pocket flaps, and collar — **repetition** creates rhythm; **texture contrast** (smooth vs. rough) creates tactile and visual interest. **Message:** Utilitarian, durable, modern — suited for urban commuting. A poor answer uses only one texture or random placement without repetition, showing lack of understanding that rhythm requires *organized* repetition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_10_008",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_10_008",
+   "title": "c12_biotech_cbse_10_008",
+   "questions": [
+    {
+     "q": "Define pharmacogenomics and state how it differs from pharmacogenetics in scope and clinical application.",
+     "a": "Pharmacogenomics studies genome-wide variation (multiple genes, gene-gene interactions, non-coding regions) influencing drug response, while pharmacogenetics focuses on single-gene variants affecting drug metabolism/transport. Pharmacogenomics enables polygenic risk scores and comprehensive panels; pharmacogenetics typically tests one gene (e.g., TPMT before azathioprine). A wrong answer that equates the two terms reveals the student misses the critical distinction: pharmacogenomics is broader, capturing combined effects of metabolic enzymes, transporters, and targets, which is essential for drugs with complex pathways (e.g., warfarin requires CYP2C9 + VKORC1).",
+     "self_check": true
+    },
+    {
+     "q": "A patient is prescribed clopidogrel 75 mg daily after coronary stent placement. Genotyping reveals CYP2C19 *2/*2 (poor metabolizer). Explain the molecular mechanism why this genotype increases stent thrombosis risk, and state the current guideline-recommended alternative.",
+     "a": "Clopidogrel is a prodrug requiring CYP2C19-mediated bioactivation to its active thiol metabolite that irreversibly inhibits P2Y12 receptor on platelets. CYP2C19 *2/*2 results in no functional enzyme → negligible active metabolite → inadequate platelet inhibition → higher stent thrombosis risk. Guidelines (CPIC/FDA) recommend alternative antiplatelet: prasugrel or ticagrelor (not metabolized by CYP2C19). A wrong answer citing \"reduced clopidogrel absorption\" or suggesting \"increase clopidogrel dose\" shows misunderstanding of prodrug activation and the fact that dose escalation cannot overcome complete loss-of-function.",
+     "self_check": true
+    },
+    {
+     "q": "A 7-year-old with acute lymphoblastic leukemia is started on 6-mercaptopurine (6-MP). Pre-therapeutic TPMT genotyping shows *1/*3A (intermediate metabolizer). Calculate the recommended starting dose reduction percentage and explain the biochemical basis for TPMT deficiency causing hematopoietic toxicity.",
+     "a": "TPMT *1/*3A (intermediate metabolizer) → reduce 6-MP dose to 30-50% of standard (typically 30-40% reduction, i.e., 60-70% of standard dose). Biochemical basis: TPMT normally methylates 6-MP (and its active thioguanine nucleotides) using S-adenosylmethionine, diverting it from incorporation into DNA/RNA. Low TPMT activity → shunting of 6-MP toward active thioguanine nucleotides (TGNs) → excessive TGN accumulation in hematopoietic progenitors → DNA incorporation → myelosuppression. A wrong answer stating \"increase dose for better efficacy\" or citing \"CYP450 involvement\" reveals confusion between TPMT (phase II methylation) and oxidative metabolism.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the clinical implementation strategies for HLA-B*57:01 screening before abacavir vs. CYP2D6 genotyping before codeine. Address: (a) type of adverse reaction prevented, (b) screening approach (pre-emptive vs. reactive), (c) ethnic variability in allele frequency, and (d) consequence of false negative.",
+     "a": "(a) HLA-B*57:01 prevents abacavir hypersensitivity syndrome (HSR), a potentially fatal immune-mediated reaction; CYP2D6 prevents codeine-induced respiratory depression in ultrarapid metabolizers (UMs) or lack of analgesia in poor metabolizers (PMs). (b) HLA-B*57:01 is mandated pre-emptive screening (FDA black box) before first dose; CYP2D6 is often reactive or pre-emptive in pediatrics/post-tonsillectomy. (c) HLA-B*57:01 frequency: 5-8% Europeans, 1-2% Africans, <1% East Asians; CYP2D6 UM: 1-2% Nordics, 10-30% Ethiopians/Saudis, PM: 5-10% Europeans, 1-2% Asians. (d) False negative HLA-B*57:01 → fatal HSR (high stakes); false negative CYP2D6 UM → respiratory depression (serious but monitorable). A wrong answer treating both as \"pre-emptive only\" or ignoring ethnic variability shows lack of nuance in implementation science.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Pharmacogenomic testing should be implemented universally for all patients before prescribing any drug because it eliminates adverse drug reactions.\" Evaluate scientific validity, cost-effectiveness, and ethical implications.",
+     "a": "The statement is scientifically invalid and ethically problematic. Scientific: PGx explains only 10-30% of drug response variability; non-genetic factors (age, organ function, drug interactions, adherence, epigenetics) dominate for most drugs. Evidence for universal screening is lacking — only ~15 drug-gene pairs have strong guidelines (CPIC Level A). Cost-effectiveness: Pre-emptive panel testing ($200-$500) is cost-effective only for high-risk drugs/populations (e.g., HLA-B*57:01/abacavir, TPMT/thiopurines); universal screening yields low incremental benefit for low-risk drugs. Ethical: Incidental findings (e.g., APOE4 Alzheimer risk), genetic discrimination (despite GINA), equity gaps (underrepresentation of non-European populations in PGx databases), and informed consent complexity. A wrong answer endorsing universal testing ignores evidence hierarchy, health economics, and justice principles.",
+     "self_check": true
+    },
+    {
+     "q": "Design a pharmacogenomic implementation protocol for a tertiary care hospital in India introducing pre-emptive CYP2C19 genotyping for clopidogrel in PCI patients. Include: (a) sample type and turnaround time target, (b) variant panel selection for Indian population, (c) reporting format for clinicians, (d) EHR integration strategy, and (e) equity safeguard for uninsured patients.",
+     "a": "(a) EDTA whole blood; target TAT ≤24h (rapid PCR/array) or ≤72h (NGS) for pre-emptive use; point-of-care genotyping (e.g., Spartan RX) for urgent PCI. (b) Panel: CYP2C19 *2 (rs4244285), *3 (rs4986893), *17 (rs12248560) — covers >95% Indian variation; add *8, *9 if South Asian-specific data supports. (c) Structured report: Phenotype (PM/IM/NM/RM/UM), CPIC guideline recommendation (avoid clopidogrel in PM/IM → use ticagrelor/prasugrel), alternative dosing, and \"Result does not rule out rare variants\" disclaimer. (d) EHR: discrete phenotype field, CDS alert at clopidogrel order entry with \"Click to order alternative\" button, FHIR-standardized PGx data exchange. (e) Hospital-funded testing for BPL/ Ayushman Bharat patients; consent in regional languages; community engagement to address distrust. A poor answer omits Indian allele frequencies, uses generic \"genotype result\" without actionable phenotype, or ignores TAT constraints for acute PCI.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

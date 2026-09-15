@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_07_006",
+   "title": "c11_ip_cbse_07_006",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between ALTER TABLE and DROP TABLE in terms of data preservation and table existence after execution?",
+     "a": "ALTER TABLE modifies the structure of an existing table while preserving all data and keeping the table intact; DROP TABLE permanently deletes the entire table including its structure, data, indexes, and constraints. A wrong answer (e.g., \"both delete data\" or \"ALTER TABLE creates a new table\") reveals the student confuses schema modification with data deletion or object recreation, indicating they don't understand DDL operations operate on metadata vs. data.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: `ALTER TABLE STUDENTS ADD COLUMN Email VARCHAR(50) NOT NULL;` on a table that already has 200 rows. Explain why this statement will fail in MySQL and how to fix it.",
+     "a": "The statement fails because adding a NOT NULL column to a non-empty table requires a DEFAULT value for existing rows; MySQL cannot assign NULL to NOT NULL columns. Fix: either provide a DEFAULT clause (`ADD COLUMN Email VARCHAR(50) NOT NULL DEFAULT 'not_provided@school.edu'`) or add the column as nullable first, update values, then modify to NOT NULL. A wrong answer (e.g., \"it works fine\" or \"use UPDATE after\") shows the student doesn't understand constraint enforcement during schema changes on populated tables.",
+     "self_check": true
+    },
+    {
+     "q": "Write the MySQL statement to add a foreign key constraint named `fk_student_class` on column `Class_ID` in table `STUDENTS` referencing `Class_ID` in table `CLASSES`, assuming both tables exist with matching data types.",
+     "a": "`ALTER TABLE STUDENTS ADD CONSTRAINT fk_student_class FOREIGN KEY (Class_ID) REFERENCES CLASSES(Class_ID);` A wrong answer (missing CONSTRAINT keyword, wrong column order, or using ADD COLUMN syntax) reveals confusion between column-level and table-level constraint syntax, or misunderstanding that foreign keys are constraints added via ALTER TABLE, not column modifications.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effects of `DROP TABLE STUDENTS;` vs `DROP TABLE IF EXISTS STUDENTS;` when the table does not exist in the database. Why is the second form preferred in scripts?",
+     "a": "`DROP TABLE STUDENTS;` throws an error (ERROR 1051: Unknown table) and halts script execution; `DROP TABLE IF EXISTS STUDENTS;` succeeds silently with a warning, allowing the script to continue. The second form is preferred in deployment scripts to make them idempotent (re-runnable without errors). A wrong answer (e.g., \"both do the same\" or \"IF EXISTS deletes data differently\") shows the student doesn't understand error handling in DDL scripts or the concept of idempotency.",
+     "self_check": true
+    },
+    {
+     "q": "A database has tables ORDERS (Order_ID, Customer_ID, Order_Date) and CUSTOMERS (Customer_ID, Name). The foreign key `fk_orders_customer` exists on ORDERS.Customer_ID referencing CUSTOMERS.Customer_ID. Evaluate whether `DROP TABLE CUSTOMERS;` will succeed and justify your answer.",
+     "a": "It will fail with ERROR 3730 (Cannot drop table referenced by a foreign key constraint) because CUSTOMERS is the parent table referenced by ORDERS. To drop it, you must first drop the foreign key constraint in ORDERS (`ALTER TABLE ORDERS DROP FOREIGN KEY fk_orders_customer;`) or drop ORDERS first. A wrong answer (e.g., \"it succeeds and cascades\" or \"it succeeds but leaves orphaned rows\") reveals the student doesn't understand referential integrity enforcement prevents dropping referenced parent tables.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sequence of ALTER TABLE statements to transform a table EMPLOYEES (Emp_ID INT, Name VARCHAR(50), Dept_Code CHAR(3)) into a new structure: add Email VARCHAR(100) with UNIQUE constraint, change Dept_Code to Dept_ID INT with a foreign key to DEPARTMENTS(Dept_ID), and remove the Name column—all while preserving existing data where possible. Explain data loss implications.",
+     "a": "1. `ALTER TABLE EMPLOYEES ADD COLUMN Email VARCHAR(100) UNIQUE;` (existing rows get NULL, UNIQUE allows multiple NULLs)\n2. `ALTER TABLE EMPLOYEES MODIFY COLUMN Dept_Code INT;` (fails if CHAR data not convertible to INT—data loss risk)\n3. `ALTER TABLE EMPLOYEES CHANGE COLUMN Dept_Code Dept_ID INT;` (renames and changes type)\n4. `ALTER TABLE EMPLOYEES ADD CONSTRAINT fk_emp_dept FOREIGN KEY (Dept_ID) REFERENCES DEPARTMENTS(Dept_ID);` (fails if existing Dept_ID values don't match DEPARTMENTS)\n5. `ALTER TABLE EMPLOYEES DROP COLUMN Name;` (permanent data loss). A poor answer misses conversion risks, constraint validation, or the irreversible nature of DROP COLUMN.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

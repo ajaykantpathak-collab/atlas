@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_08_005",
+   "title": "c12_geo_cbse_08_005",
+   "questions": [
+    {
+     "q": "Name the terminal cities of the Trans-Siberian Railway and state its total length.",
+     "a": "Moscow (west) to Vladivostok (east), 9,289 km. A wrong answer (e.g., St. Petersburg to Vladivostok, or 7,000 km) reveals the student confuses the historical starting point (St. Petersburg was the imperial capital) with the operational terminus, or misremembers the length — a common error when memorising facts without understanding the route's geographic logic.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Trans-Canadian Railway follow a southern route near the US border instead of a more direct central path through the Canadian Shield?",
+     "a": "The Canadian Shield's ancient hard rock terrain makes construction extremely difficult and expensive; the southern route follows the fertile prairie belt and passes through major cities (Winnipeg, Calgary, Vancouver) ensuring traffic revenue. A student who answers \"shorter distance\" or \"avoiding mountains\" shows they haven't analysed the interplay of geology, settlement, and economics — they're applying a simplistic \"shortest path\" logic.",
+     "self_check": true
+    },
+    {
+     "q": "On a world outline map, mark the route of the Union Pacific Railroad (First Transcontinental US) and identify the mountain range where the \"Golden Spike\" was driven at Promontory Summit.",
+     "a": "Route: Omaha, Nebraska (east) → across Great Plains → through Rocky Mountains (South Pass, Wyoming) → across Great Basin → Sierra Nevada (Donner Pass) → Sacramento, California (west). Golden Spike at Promontory Summit, Utah (Rocky Mountains). A wrong mountain range (e.g., Sierra Nevada) indicates the student conflates the two major barriers; the Sierra Nevada crossing (Donner Pass) was the western challenge, but the ceremonial meeting point was in the Rockies.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the economic rationale for building the Australian Trans-Continental Railway (Port Augusta to Kalgoorlie) with that of the Trans-Siberian Railway. Identify one key similarity and one key difference.",
+     "a": "Similarity: Both linked isolated resource-rich interiors (gold fields in WA; Siberia's timber/minerals) to coastal ports for export. Difference: Trans-Siberian was state-driven for strategic integration of a vast empire; Australian line was primarily driven by gold rush economics and later national unity. A student citing only \"connecting east and west\" misses the distinct political-economic drivers — a surface-level comparison.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Orient Express was Europe's first trans-continental railway.\" Justify your answer with two geographical arguments.",
+     "a": "False. (1) The Orient Express was a luxury passenger service using existing national networks (Paris–Vienna–Istanbul), not a newly built trans-continental line. (2) It connected Western Europe to the Ottoman Empire's edge, not across a single continent's breadth like the others. A student agreeing reveals confusion between a branded train service and infrastructure — a critical distinction in transport geography.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical trans-continental railway for South America connecting the Pacific port of Callao (Peru) to the Atlantic port of Santos (Brazil). Sketch the route on a mental map, naming three major physical barriers and two cities it would serve. Explain your alignment choice in 3 sentences.",
+     "a": "Route: Callao → cross Andes at Ticlio Pass (4,818 m) → descend to Amazon Basin → follow Madeira River → cross Brazilian Shield → Santos. Barriers: Andes (extreme altitude), Amazon rainforest (flooding, disease), Brazilian Shield (hard rock). Cities: Cusco, Manaus. Alignment follows the historic \"Interoceanic Highway\" corridor, minimising Andean tunnelling by using the lowest feasible pass, then leveraging river valleys for easier grading. A poor answer proposes a straight line ignoring the Andes' width or suggests a coastal route (impossible due to Atacama Desert) — showing no topographic reasoning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

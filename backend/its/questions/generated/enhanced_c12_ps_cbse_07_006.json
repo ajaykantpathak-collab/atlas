@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_07_006",
+   "title": "c12_ps_cbse_07_006",
+   "questions": [
+    {
+     "q": "Define \"environmental security\" and name the 1994 UNDP report that first popularized the human security framework including its environmental dimension.",
+     "a": "Environmental security is the protection from threats arising from environmental degradation and resource scarcity that can trigger conflict and instability. The 1994 UNDP Human Development Report introduced human security with seven dimensions, including environmental security. A wrong answer (e.g., \"environmental security means protecting forests only\" or citing the 1992 Rio Summit) reveals confusion between environmental *conservation* and environmental *security* as a political concept, and ignorance of the seminal UNDP framework.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why climate change is called a \"threat multiplier\" rather than a direct cause of war. Use the Syrian civil war (2011–present) as an illustration.",
+     "a": "Climate change is a threat multiplier because it amplifies pre-existing vulnerabilities — poverty, governance failures, ethnic tensions — rather than directly causing conflict. In Syria, a 2006–2011 drought (linked to climate change) caused crop failure and mass rural-to-urban migration, straining cities already burdened by inequality and repression. This *interacted* with political grievances to fuel uprising. A wrong answer claiming \"drought caused the Syrian war\" misses the multiplicative logic: environmental stress + weak institutions + social fracture = conflict. The student confuses correlation with causal mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the Indus Waters Treaty (1960) as an environmental security mechanism. How does it manage water scarcity between India and Pakistan, and what climate change challenge now threatens its viability?",
+     "a": "The IWT allocates eastern rivers (Sutlej, Beas, Ravi) to India and western rivers (Indus, Jhelum, Chenab) to Pakistan, with a Permanent Indus Commission for dispute resolution. It has survived wars because it treats water as a *shared resource* requiring cooperation, not zero-sum competition. Climate change threatens it by altering glacial melt patterns in the Himalayas — reducing long-term flow while increasing short-term floods — making fixed volumetric allocations obsolete. A wrong answer focusing only on \"India can turn off the tap\" reflects a militarized, state-centric view ignoring the treaty's cooperative design and the hydro-climatic reality that neither side controls the glaciers.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the security implications of *sudden-onset* (e.g., cyclone) vs. *slow-onset* (e.g., desertification) environmental hazards. Which poses a greater challenge to state capacity and why?",
+     "a": "Sudden-onset disasters (cyclones, floods) test immediate state capacity: rescue, relief, infrastructure repair. Slow-onset hazards (desertification, sea-level rise, glacial retreat) erode the *resource base* of the state — agriculture, habitable land, freshwater — over decades, undermining legitimacy and triggering migration and resource competition. The latter is a greater long-term security challenge because it is irreversible, transcends borders, and cannot be solved by emergency response alone. A wrong answer equating both as \"disasters needing relief\" misses the structural, conflict-generating nature of slow-onset change.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"The UN Security Council should formally recognize climate change as a threat to international peace and security under Chapter VII of the UN Charter.\"",
+     "a": "Arguments for: Climate change drives displacement, resource wars, and state failure — core security threats. Chapter VII enables binding action (sanctions, peacekeeping). Arguments against: Securitizing climate may militarize responses, bypass climate justice (CBDR principle), and empower the P5 to impose measures on vulnerable states. The UNSC has debated it (2007, 2011, 2021) but no consensus. A balanced evaluation acknowledges the security reality but warns against securitization that undermines the UNFCCC's equity framework. A wrong answer taking a simplistic \"yes/no\" without addressing the tension between security logic and climate justice reveals inability to weigh competing normative frameworks.",
+     "self_check": true
+    },
+    {
+     "q": "Design a transboundary water governance mechanism for the Mekong River that addresses both current dam-building conflicts and future climate-induced flow variability. Specify: (a) institutional structure, (b) allocation principle, (c) dispute resolution, (d) climate adaptation clause.",
+     "a": "A strong answer proposes: (a) A Mekong River Commission upgraded to a treaty-based body with *all* riparians (China, Myanmar, Laos, Thailand, Cambodia, Vietnam) and binding decisions; (b) Allocation based on *equitable and reasonable utilization* (UN Watercourses Convention) with minimum ecological flows; (c) Compulsory third-party mediation + joint technical fact-finding; (d) A \"climate review trigger\" every 5 years to adjust allocations based on observed glacial melt/rainfall shifts. A weak answer replicates the current weak MRC (no China/Myanmar binding role, no climate clause) or suggests purely technical fixes — showing failure to integrate political cooperation with hydro-climatic uncertainty.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

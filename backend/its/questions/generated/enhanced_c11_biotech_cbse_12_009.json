@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_12_009",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_12_009",
+   "title": "c11_biotech_cbse_12_009",
+   "questions": [
+    {
+     "q": "What is the fundamental principle that allows a Southern blot to detect a specific DNA sequence among thousands of fragments on a membrane?",
+     "a": "The fundamental principle is complementary base pairing between a labeled single-stranded DNA probe and its target sequence immobilized on the membrane. A wrong answer (e.g., \"antibody binding\" or \"size separation\") reveals the student confuses Southern blotting with Western blotting or thinks the gel itself identifies the sequence, missing the hybridization step that provides specificity.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Northern blotting is just Southern blotting but with RNA instead of DNA, so the protocol is identical.\" Explain why this statement is incorrect by identifying two critical differences in the procedure.",
+     "a": "Two critical differences: (1) RNA is highly susceptible to degradation by RNases, requiring stringent RNase-free conditions and often formaldehyde/denaturing gels to prevent secondary structure, unlike DNA which is more stable; (2) RNA probes (riboprobes) or cDNA probes are used, and hybridization conditions (temperature, buffer) differ due to RNA-DNA hybrid thermodynamics. A wrong answer indicates the student overlooks the biochemical instability of RNA and the need for denaturing electrophoresis, a classic senior-secondary error.",
+     "self_check": true
+    },
+    {
+     "q": "You have a protein sample suspected to contain a 50 kDa phosphorylated kinase. Design a Western blotting strategy to confirm its presence and phosphorylation state. Specify: (a) gel type, (b) transfer method, (c) primary antibody choice, (d) detection system.",
+     "a": "(a) SDS-PAGE (10-12% acrylamide) for size separation; (b) Wet/tank transfer (or semi-dry) onto PVDF membrane (better protein binding); (c) Two primary antibodies: one against the kinase (total protein) and one phospho-specific antibody recognizing the phosphorylated epitope; (d) HRP-conjugated secondary antibody + chemiluminescent substrate for sensitive detection. A wrong answer (e.g., using agarose gel or DNA probe) shows confusion between nucleic acid and protein blotting workflows.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the information obtained from a Southern blot vs. a Western blot for the same gene. Why might the Southern blot show a single band while the Western blot shows multiple bands? Provide a molecular explanation.",
+     "a": "Southern blot detects the gene (DNA) – typically one band per allele (two bands max for diploid). Western blot detects the protein product – multiple bands can arise from alternative splicing (different isoforms), post-translational modifications (phosphorylation, glycosylation), or proteolytic cleavage. A wrong answer (e.g., \"Western is less specific\") misses the biological reality that one gene can yield multiple protein forms, a key concept in molecular biology.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher performs a Northern blot to study gene expression in heat-shocked plants. The autoradiograph shows a strong band at 2.5 kb in heat-shocked samples but no band in control samples. The student concludes: \"The gene is not present in the control plants.\" Evaluate this conclusion and propose the correct interpretation.",
+     "a": "The conclusion is incorrect. Northern blot detects mRNA (transcript), not the gene itself. The absence of a band in controls means the gene is not transcribed (or mRNA is below detection limit) under normal conditions, not that the gene is absent. The correct interpretation: The gene is heat-inducible; its expression is upregulated upon heat shock. A wrong answer reveals the common misconception that Northern blot detects genomic DNA rather than RNA.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel diagnostic scenario where a combination of Southern, Northern, and Western blotting would be required to fully characterize a genetic disorder caused by a triplet repeat expansion. Describe what each blot would reveal.",
+     "a": "Scenario: Fragile X syndrome (CGG repeat expansion in FMR1 gene). Southern blot: Genomic DNA digested with restriction enzyme, probed for FMR1 – reveals size of repeat expansion (full mutation >200 repeats vs premutation 55-200). Northern blot: mRNA from patient cells – shows if expanded repeat affects transcription level or mRNA stability (often reduced mRNA in full mutation). Western blot: Protein lysate probed with anti-FMRP antibody – shows absence of FMRP protein in full mutation. A poor answer would use only one blot or misassign what each detects (e.g., Southern for protein).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

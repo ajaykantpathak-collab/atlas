@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_01_001",
+   "title": "c12_eco_cbse_01_001",
+   "questions": [
+    {
+     "q": "Define scarcity in economics. How does it differ from a shortage?",
+     "a": "Scarcity is a permanent, universal condition where resources are insufficient to satisfy all human wants; a shortage is a temporary market imbalance where quantity demanded exceeds quantity supplied at a given price. A wrong answer (e.g., \"scarcity means shortage\") reveals confusion between a fundamental economic problem and a market disequilibrium — the student has not grasped that scarcity exists even in well-supplied markets.",
+     "self_check": true
+    },
+    {
+     "q": "\"Opportunity cost is the money you spend on a choice.\" Explain why this statement is incorrect using the concept of implicit costs.",
+     "a": "Opportunity cost includes both explicit (monetary) and implicit (non-monetary) costs — e.g., a student choosing college over a ₹3 lakh/year job incurs ₹3 lakh implicit cost (foregone earnings) plus tuition (explicit). A wrong answer reveals the student equates cost only with out-of-pocket expenditure, ignoring the value of the next best alternative — a critical error for PPF and comparative advantage problems.",
+     "self_check": true
+    },
+    {
+     "q": "A factory has 100 machine-hours and 50 labour-hours daily. It produces two goods: A (requires 2 machine-hours, 1 labour-hour per unit) and B (requires 1 machine-hour, 2 labour-hours per unit). If the factory currently produces 20 units of A and 10 units of B, calculate the opportunity cost of producing 5 more units of A in terms of B forgone, assuming full resource utilisation.",
+     "a": "Current usage: A=20 → 40 machine-hrs, 20 labour-hrs; B=10 → 10 machine-hrs, 20 labour-hrs. Total used: 50 machine-hrs, 40 labour-hrs. Slack: 50 machine-hrs, 10 labour-hrs. To produce 5 more A: needs 10 machine-hrs, 5 labour-hrs — feasible within slack. Opportunity cost = 0 units of B (no trade-off yet). If instead at full capacity (e.g., 30A, 10B uses 70 machine, 50 labour), 5 more A needs 10 machine, 5 labour → must reduce B by 5 units (releases 5 machine, 10 labour). Opportunity cost = 5 units of B. A wrong answer (e.g., \"5 units of B\" without checking slack) reveals failure to verify binding constraints — a common error in linear programming and PPF questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how scarcity manifests for a household versus the Government of India. Use the concepts of budget constraint and fiscal deficit in your answer.",
+     "a": "A household faces a hard budget constraint: spending ≤ income + borrowing; choices are private (consumption vs saving). The Government faces a softer constraint: it can borrow (fiscal deficit), print money (inflation tax), or tax — but scarcity still binds because resources (labour, capital, natural) are finite. A wrong answer (e.g., \"government has no scarcity because it prints money\") ignores that printing money doesn't create real resources — it redistributes purchasing power, causing inflation. This confusion undermines understanding of fiscal policy limits (c12_eco_cbse_01_008, c12_eco_cbse_01_009).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"If India discovers a massive new oil reserve, the problem of scarcity is solved.\" Consider both micro and macro perspectives.",
+     "a": "False. The discovery alleviates *one* resource constraint (energy) but scarcity persists: (a) oil is still finite and extraction has opportunity cost (land, labour, capital, environment); (b) other resources (water, skilled labour, clean air) remain scarce; (c) at macro level, new revenue creates new allocation choices (Dutch disease, inflation, inequality). A wrong answer (\"yes, scarcity solved\") reveals a misunderstanding that scarcity is about *all* resources relative to *all* wants, not a single commodity — and ignores dynamic wants expansion.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-life scenario involving a Class 12 student choosing between three activities on a Sunday: (a) studying Economics for 4 hours, (b) working a part-time tutoring job earning ₹500, (c) attending a cricket match with friends. Identify the opportunity cost of each choice and explain how the concept of \"margin\" applies.",
+     "a": "If the student chooses (a), opportunity cost = max(₹500, enjoyment of match). If (b), opportunity cost = max(grade improvement from 4 hrs study, match enjoyment). If (c), opportunity cost = max(₹500, grade improvement). At the margin, the student compares *additional* benefit of 1 more hour of study vs 1 more hour of work/leisure. A good answer explicitly ranks alternatives and recognises opportunity cost is the *next best* (not sum of all). A poor answer lists all forgone options as cost — revealing confusion between opportunity cost and total forgone alternatives.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_07_005",
+   "title": "c12_phy_cbse_07_005",
+   "questions": [
+    {
+     "q": "What is the expression for the impedance Z of a series LCR circuit in terms of R, X_L, and X_C? State the SI unit of Z.",
+     "a": "Z = √[R² + (X_L - X_C)²], unit: ohm (Ω). A wrong answer like Z = R + X_L + X_C reveals the student is adding magnitudes algebraically instead of as phasors (vector addition), ignoring the 90° phase differences between V_R, V_L, and V_C.",
+     "self_check": true
+    },
+    {
+     "q": "In a series LCR circuit, if X_C > X_L, does the current lead or lag the source voltage? Explain using the phasor diagram.",
+     "a": "Current **leads** the voltage. Since X_C > X_L, the net reactive phasor (V_L - V_C) points downward (capacitive), making the phase angle φ = tan⁻¹((X_L - X_C)/R) negative. In the phasor diagram, the current phasor I is the reference; the source voltage phasor V lags behind I, meaning I leads V. A student who says \"current lags\" is confusing the sign convention: they may think a negative φ always means lag, but φ = φ_V - φ_I, so φ < 0 ⇒ φ_I > φ_V ⇒ current leads.",
+     "self_check": true
+    },
+    {
+     "q": "A series LCR circuit has R = 40 Ω, L = 0.12 H, C = 25 μF, and is connected to a 230 V, 50 Hz AC supply. Calculate (a) the impedance Z, (b) the rms current I, and (c) the phase angle φ.",
+     "a": "Given: f = 50 Hz → ω = 2πf = 100π ≈ 314.16 rad/s.  \nX_L = ωL = 314.16 × 0.12 = 37.7 Ω.  \nX_C = 1/(ωC) = 1/(314.16 × 25×10⁻⁶) = 1/(0.007854) ≈ 127.3 Ω.  \n(a) Z = √[40² + (37.7 - 127.3)²] = √[1600 + (-89.6)²] = √[1600 + 8028] = √9628 ≈ 98.1 Ω.  \n(b) I = V/Z = 230 / 98.1 ≈ 2.34 A.  \n(c) φ = tan⁻¹((X_L - X_C)/R) = tan⁻¹(-89.6/40) = tan⁻¹(-2.24) ≈ -66.0°.  \nA wrong answer with Z = R + X_L + X_C = 205 Ω would give I = 1.12 A, missing the phasor subtraction. Forgetting to convert μF to F (using 25 instead of 25×10⁻⁶) gives X_C = 0.00127 Ω, a gross unit error.",
+     "self_check": true
+    },
+    {
+     "q": "At resonance in a series LCR circuit, the voltage across the inductor is measured as 150 V (rms) and the voltage across the capacitor is also 150 V (rms). The source voltage is 20 V (rms). Explain how the source voltage can be smaller than the individual voltages across L and C.",
+     "a": "At resonance, X_L = X_C, so V_L = I X_L and V_C = I X_C are equal in magnitude but 180° out of phase (V_L leads I by 90°, V_C lags by 90°). Their phasor sum is zero: the net voltage across the LC combination is zero. The source voltage appears entirely across the resistor: V = V_R = I R. Since R can be much smaller than X_L or X_C, V_R can be much smaller than V_L or V_C. The \"missing\" voltage is not missing — it cancels out vectorially. A student who says \"Kirchhoff's voltage law is violated\" fails to account for phase differences; instantaneous voltages always sum to the source voltage, but rms voltages add as phasors, not scalars.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"At resonance, the impedance of a series LCR circuit becomes zero because X_L = X_C.\" Evaluate this statement and correct it if necessary.",
+     "a": "The statement is **incorrect**. At resonance, X_L = X_C, so the *reactive part* of impedance (X_L - X_C) becomes zero. The total impedance Z = √[R² + (X_L - X_C)²] = √[R² + 0] = R, which is the **resistance** of the circuit, not zero (unless R = 0, which is an idealization). Impedance is minimum, not zero. The student confused \"reactance cancels\" with \"impedance becomes zero\", overlooking the resistive component R which is always present in a real circuit.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a series LCR circuit (with a variable capacitor) to demonstrate resonance. List the apparatus, the procedure, and the observation that confirms resonance.",
+     "a": "Apparatus: AC signal generator (variable frequency or fixed frequency with variable C), series LCR board (R ≈ 10–100 Ω, L ≈ 10–100 mH, C variable 0.01–1 μF), AC voltmeter/ammeter. Procedure: (1) Set generator to fixed frequency (e.g., 1 kHz). (2) Vary C and measure rms current I. (3) Plot I vs C. Observation: I shows a sharp maximum at a particular C. At that C, measure V_L and V_C — they are large and nearly equal; V_R ≈ source voltage. This confirms resonance when X_L = X_C. A poor answer would only say \"measure current\" without varying a parameter or checking voltage magnification, missing the key signature of resonance: maximum current at the condition X_L = X_C.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

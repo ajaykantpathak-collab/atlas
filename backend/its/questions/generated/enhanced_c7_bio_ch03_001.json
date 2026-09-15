@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_bio_ch03_001",
+ "concepts": [
+  {
+   "id": "enh:c7_bio_ch03_001",
+   "title": "c7_bio_ch03_001",
+   "questions": [
+    {
+     "q": "What is the primary role of sunlight in plant growth?",
+     "a": "Sunlight provides the light energy required for the plant to produce its own food through photosynthesis. A wrong answer like \"sunlight keeps the plant warm so it doesn't freeze\" reveals a misunderstanding of energy conversion, confusing thermal heat with the light energy trapped by pigments.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a plant wilt and eventually stop growing if it is not watered for several days?",
+     "a": "Water maintains turgor pressure within plant cells to keep them firm and acts as the medium for transporting dissolved minerals from the roots to the rest of the plant. A wrong answer like \"water is only used to wash dust off the leaves\" shows a lack of comprehension regarding internal transport and cellular hydration.",
+     "self_check": true
+    },
+    {
+     "q": "A potted hibiscus plant is placed in a bright room, but its soil is kept completely dry. Over two weeks, the plant stops growing and its leaves droop. Which growth factor is primarily missing, and how does this affect the plant?",
+     "a": "Step 1: Identify the missing factor as water, since the soil is kept completely dry. Step 2: Recall that water is essential for maintaining cell rigidity and transporting minerals. Step 3: Conclude that without water, nutrient transport ceases and cells lose turgor pressure, causing drooping and halted growth. A wrong answer stating that the plant lacks sunlight reveals a failure to differentiate between light deprivation symptoms (yellowing) and water deprivation symptoms (wilting).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of soil and sunlight in plant growth. How do they differ in terms of what they provide to the plant?",
+     "a": "Sunlight provides radiant energy used to convert carbon dioxide and water into chemical energy (food), whereas soil provides physical anchorage and mineral nutrients (such as nitrogen, phosphorus, and potassium) that act as building blocks for plant structures. A wrong answer suggests that soil provides food for the plant, confusing the plant's autotrophic nature with animal nutrition.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that plants can grow taller and healthier in a dark room as long as they are given plenty of water and rich soil. Evaluate this claim using biological reasoning.",
+     "a": "The claim is false because water and soil minerals alone cannot drive growth without energy. Without sunlight, the plant cannot perform photosynthesis to synthesize the sugars necessary for cellular respiration and tissue building, leading to exhaustion of stored energy and eventual death. A wrong answer indicates the student believes soil contains ready-made food that the plant absorbs directly to grow.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple comparative observation experiment using two identical potted bean seedlings to prove that sunlight is necessary for plant growth. What variables would you control?",
+     "a": "A good response involves placing one seedling in a sunny spot (control) and the other in a dark box (experimental), while keeping water and soil type identical for both. A poor answer fails to mention keeping water or soil constant, which would invalidate the experiment by introducing multiple variables.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

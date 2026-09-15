@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_06_010",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_06_010",
+   "title": "c11_bio_cbse_06_010",
+   "questions": [
+    {
+     "q": "Name the two lateral meristems responsible for secondary growth in dicot stems and state the main commercial product derived from each.",
+     "a": "Vascular cambium produces secondary xylem (wood/timber) and secondary phloem (bast fibers, resins); cork cambium (phellogen) produces phellem (cork). A wrong answer (e.g., \"apical meristem produces wood\") reveals confusion between primary growth (length) and secondary growth (girth), and ignorance that commercial wood is secondary xylem, not primary xylem.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why heartwood is more valuable than sapwood for high-quality furniture and construction, referencing its anatomical and chemical differences.",
+     "a": "Heartwood is darker, denser, and more durable due to deposition of tannins, resins, oils, gums, and tyloses blocking vessels, making it resistant to decay and termites. Sapwood is lighter, living, conducts water, lacks these deposits, and is prone to fungal/insect attack. A wrong answer focusing only on color or age misses the functional anatomy: tyloses and chemical deposits are the direct cause of durability, a classic board exam distinction.",
+     "self_check": true
+    },
+    {
+     "q": "A furniture maker selects \"teak\" (Tectona grandis) over \"chir pine\" (Pinus roxburghii) for outdoor furniture. Using knowledge of secondary xylem anatomy, justify this choice based on porosity, fiber content, and natural durability.",
+     "a": "Teak is a diffuse-porous hardwood (dicot) with high fiber density, abundant tyloses, and natural oils (tectoquinones) in heartwood, giving high density, strength, and termite/weather resistance. Chir pine is a non-porous softwood (gymnosperm, not even a dicot) with tracheids only, low density, no tyloses, and requires chemical treatment. A wrong answer confusing hardwood/softwood with density, or missing tyloses/oils, shows inability to link wood anatomy to end-use performance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the commercial extraction of cork (Quercus suber) and rubber (Hevea brasiliensis) in terms of the tissue of origin, harvesting method, and sustainability. What anatomical feature allows repeated cork harvesting without killing the tree?",
+     "a": "Cork comes from phellem (cork cambium product) in the periderm; harvested by stripping outer bark every 9-12 years — sustainable because cork cambium regenerates new phellem. Rubber comes from latex in laticifers (specialized secondary phloem parenchyma) of Hevea; harvested by tapping bark (incisions) — repeated tapping damages cambium and reduces yield over time. The key anatomical feature: cork cambium is a lateral meristem that remains active and regenerates, whereas laticifers are non-meristematic secretory structures. A wrong answer stating both come from \"bark\" or \"phloem\" fails to distinguish meristematic vs. secretory tissues and their regenerative capacities.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Anomalous secondary growth in Dracaena and Bougainvillea produces commercially useful timber comparable to normal dicot wood.\" Support your judgment with structural evidence.",
+     "a": "False. Anomalous secondary growth (e.g., scattered vascular bundles in Dracaena, successive cambia in Bougainvillea) produces wood that is structurally irregular, lacks distinct growth rings, uniform density, and long fibers — making it unsuitable for standard timber uses (construction, furniture). It may have niche uses (craft, fuel) but cannot replace normal ring-porous/diffuse-porous dicot wood. A wrong answer accepting the statement ignores that \"anomalous\" means deviation from the organized ring structure essential for predictable mechanical properties and machining quality.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field investigation to determine whether a given log section is from a ring-porous or diffuse-porous tree, and explain how this classification affects its commercial grading for furniture vs. plywood.",
+     "a": "Cut a smooth transverse section; observe vessel distribution under a hand lens: ring-porous (e.g., oak, ash) has large earlywood vessels in a distinct ring, small latewood vessels — ideal for strong, decorative furniture (grain pattern). Diffuse-porous (e.g., maple, birch) has uniform vessel size throughout — preferred for plywood, veneers, turned items (even texture). Record vessel diameter, frequency, ring distinctness. A poor investigation only notes \"hard/soft\" without linking vessel anatomy to grading standards (ISI/ISO) for specific end-uses.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

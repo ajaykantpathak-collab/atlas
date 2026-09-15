@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_06_001",
+   "title": "c11_psy_cbse_06_001",
+   "questions": [
+    {
+     "q": "Define the three stages of memory in the Information Processing Model and name the memory store associated with each stage.",
+     "a": "The three stages are encoding (input), storage (retention), and retrieval (output). Encoding occurs when information first enters sensory memory; storage is the holding of information in short-term or long-term memory; retrieval is the recovery of information from long-term memory back into awareness. A wrong answer that merges stages (e.g., “encoding is storage”) or misassigns stores (e.g., “retrieval happens in sensory memory”) shows the student has not distinguished the temporal sequence of processes from the structural stores.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a student who reads a definition once but cannot recall it five minutes later has experienced a failure at which specific stage and store of the Stage Model.",
+     "a": "The failure is at the encoding-to-storage transition: the information entered sensory memory but did not receive selective attention, so it never reached short-term memory, and without maintenance or elaborative rehearsal it decayed. A wrong answer that blames “long-term memory retrieval failure” reveals the misconception that all learned material automatically reaches long-term memory; the student does not grasp that information must survive sensory and short-term bottlenecks first.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher presents a 12-digit number: 987654321012. The student chunks it as 987-654-321-012 and recalls it perfectly after 20 seconds. Identify the control process used, the store whose capacity was effectively expanded, and the typical duration of that store without rehearsal.",
+     "a": "The student used chunking, a control process that expands the capacity of short-term memory (STM). STM’s typical duration without rehearsal is less than 30 seconds. A wrong answer that says “elaborative rehearsal expanded long-term memory capacity” confuses chunking (organizing within STM) with elaborative rehearsal (linking to LTM) and misattributes the store.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast maintenance rehearsal and elaborative rehearsal in terms of (a) cognitive effort, (b) effect on short-term memory duration, and (c) likelihood of transferring information to long-term memory.",
+     "a": "Maintenance rehearsal involves low-effort repetition, extends STM duration only while rehearsal continues, and rarely transfers information to LTM. Elaborative rehearsal involves deep semantic processing (linking to existing knowledge), can extend STM duration more robustly, and strongly promotes LTM storage. A wrong answer that claims both rehearsals equally aid LTM transfer shows the student has not internalized the levels-of-processing distinction embedded in the Stage Model’s control processes.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the claim: “The Stage Model is obsolete because the case of patient KF (intact LTM, impaired STM) proves information can reach long-term memory without passing through short-term memory.”",
+     "a": "The claim overstates the evidence. KF’s case challenges the strict serial assumption but does not invalidate the model; it suggests alternative pathways (e.g., direct sensory-to-LTM routes) or that STM is not unitary (leading to Working Memory theory). A good critique acknowledges the model’s heuristic value while noting its modification by later research. A wrong answer that simply agrees or dismisses the model entirely fails to evaluate scientific models as evolving frameworks.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration (using only a list of words and a stopwatch) that would allow students to observe the capacity limit of short-term memory and the effect of chunking. Describe the procedure, predicted results, and how they map onto the Stage Model.",
+     "a": "Procedure: Read 15 unrelated words at 1-second intervals; students write down as many as they can immediately. Repeat with 15 words that form 3 meaningful chunks (e.g., categories). Predicted: ~7±2 words recalled in first trial; ~12+ in chunked trial. Mapping: first trial shows STM’s 7±2 capacity; second shows chunking expands effective capacity by organizing input into larger units. A poor demonstration that uses only one list or no time pressure fails to isolate STM from LTM contributions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

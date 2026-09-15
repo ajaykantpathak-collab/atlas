@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_10_002",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_10_002",
+   "title": "c12_bio_cbse_10_002",
+   "questions": [
+    {
+     "q": "Name the fungus that produces penicillin and the bacterial genus that produces streptomycin. State one medical use for each.",
+     "a": "Penicillin is produced by *Penicillium notatum* (now *P. chrysogenum*); streptomycin is produced by *Streptomyces griseus*. Penicillin treats Gram-positive infections (e.g., streptococcal pharyngitis); streptomycin treats tuberculosis (Gram-negative *Mycobacterium*). A wrong answer (e.g., naming *Aspergillus* for penicillin) reveals confusion between antibiotic-producing fungi and enzyme-producing fungi.",
+     "self_check": true
+    },
+    {
+     "q": "Why are antibiotics like penicillin called secondary metabolites, and how does this affect the timing of harvest in industrial fermentation?",
+     "a": "Secondary metabolites are not essential for growth; they are synthesized after the logarithmic phase (idiophase) when nutrients become limited. Harvesting during late stationary phase maximizes yield. If a student says \"during exponential growth\", they misunderstand the growth-phase dependence of secondary metabolism versus primary metabolites (e.g., amino acids).",
+     "self_check": true
+    },
+    {
+     "q": "A biotechnologist wants to increase penicillin yield. She considers: (a) adding more phenylacetic acid precursor, (b) increasing temperature from 25°C to 37°C, (c) reducing aeration. Which single change will most likely increase yield and why?",
+     "a": "Adding phenylacetic acid (precursor for side chain of penicillin G) increases yield because it directs biosynthesis toward the desired penicillin variant. Raising temperature to 37°C would denature the fungal enzymes (optimum ~25°C). Reducing aeration lowers oxygen needed for aerobic respiration and β-lactam ring formation. Wrong choice indicates poor grasp of precursor feeding and fungal physiology.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mode of action of penicillin (β-lactam) and streptomycin (aminoglycoside) at the molecular level. Which one is bactericidal against Gram-negative bacteria and why?",
+     "a": "Penicillin inhibits transpeptidase (penicillin-binding proteins) blocking peptidoglycan cross-linking → cell lysis (bactericidal, mainly Gram-positive). Streptomycin binds 30S ribosomal subunit causing misreading of mRNA → faulty proteins (bactericidal, broad-spectrum including Gram-negative). Streptomycin penetrates Gram-negative outer membrane via porins; penicillin cannot. Confusing the targets (ribosome vs cell wall) is a common error.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Industrial enzymes like streptokinase are produced by pathogenic bacteria, so the final product is unsafe for human injection.\" Justify your answer with purification steps.",
+     "a": "The statement is false. Streptokinase is produced by *Streptococcus* (pathogen) but downstream processing (cell removal by filtration, precipitation, chromatography, viral clearance) removes all microbial cells, DNA, endotoxins, and pyrogens. The purified protein is sterile and safe. A student who agrees fails to understand that purification separates product from producer organism.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple lab-scale experiment to test whether a soil isolate produces an antibiotic effective against *Staphylococcus aureus*. List controls, measurable outcome, and one safety precaution.",
+     "a": "Streak isolate on agar perpendicular to a lawn of *S. aureus* (cross-streak method). Controls: (1) known penicillin producer (positive), (2) non-producer (negative). Measure zone of inhibition after 24h at 37°C. Safety: work in biosafety cabinet, autoclave plates before disposal. Poor design (e.g., no controls, using pathogenic tester without precautions) shows lack of experimental rigor.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

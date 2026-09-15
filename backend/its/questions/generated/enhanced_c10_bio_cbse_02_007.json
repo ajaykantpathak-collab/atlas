@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_02_007",
+   "title": "c10_bio_cbse_02_007",
+   "questions": [
+    {
+     "q": "Name the plant hormone primarily responsible for phototropism and state where it is synthesized in the shoot.",
+     "a": "Auxin (specifically indole-3-acetic acid, IAA) is the hormone responsible for phototropism; it is synthesized in the shoot apex (apical meristem). A wrong answer (e.g., gibberellin or cytokinin) reveals that the student confuses the hormone that causes differential cell elongation in response to light with hormones that promote overall stem elongation or cell division.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a seed fails to germinate even when water, oxygen, and suitable temperature are provided, and name the hormone whose application can break this dormancy.",
+     "a": "The seed may be dormant due to high levels of abscisic acid (ABA), which inhibits germination; applying gibberellin (GA) can break dormancy by stimulating the synthesis of hydrolytic enzymes that mobilize stored food. A wrong answer (e.g., saying auxin breaks dormancy) shows the student does not understand the antagonistic roles of ABA (inhibitor) and gibberellin (promoter) in seed dormancy.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer wants to promote rooting in stem cuttings of a rose plant. Which hormone should she apply, and at which concentration (high or low) would it be effective? Justify your answer.",
+     "a": "The farmer should apply auxin (e.g., IBA or NAA) at a low concentration because auxin promotes root initiation at low concentrations but inhibits root growth at high concentrations. A wrong answer (e.g., high concentration of auxin or using cytokinin) indicates the student does not know the concentration-dependent dual role of auxin in root vs. shoot growth.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of cytokinin and abscisic acid in leaf senescence. How do they antagonize each other?",
+     "a": "Cytokinin delays leaf senescence by promoting nutrient mobilization and protein synthesis, while abscisic acid promotes senescence and leaf abscission. They antagonize each other: cytokinin maintains chlorophyll and delays aging, whereas ABA accelerates aging under stress. A wrong answer that says both promote senescence or both delay it shows the student cannot distinguish their opposing functions.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Gibberellin is only needed for stem elongation; it has no role in seed germination.\" Evaluate this statement and provide evidence from plant physiology.",
+     "a": "The statement is false. Gibberellin breaks seed dormancy and stimulates germination by inducing the production of amylase in the aleurone layer of cereal grains, which digests stored starch. A wrong evaluation (agreeing with the statement) reveals the student has not connected gibberellin's role in germination (a key Class 10 concept) and only remembers its effect on stem elongation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to demonstrate that auxin produced in the shoot tip is responsible for phototropic bending in a coleoptile. Include control, observation, and conclusion.",
+     "a": "A good experiment: (1) Use three coleoptiles: (a) intact, (b) tip removed, (c) tip covered with opaque cap. (2) Expose to unilateral light. (3) Observe bending: (a) bends toward light, (b) no bending, (c) no bending. (4) Conclusion: Auxin from the tip causes phototropism. A poor answer (e.g., no control, or using roots instead of coleoptiles) shows the student cannot design a controlled experiment to test hormone function.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

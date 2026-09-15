@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_02_003",
+   "title": "c11_cs_cbse_02_003",
+   "questions": [
+    {
+     "q": "What is the output of the Boolean expression (1 AND 0) OR (NOT 1)?",
+     "a": "The correct answer is 0. Step-by-step: 1 AND 0 = 0; NOT 1 = 0; 0 OR 0 = 0. A wrong answer (e.g., 1) reveals that the student may not understand the precedence of NOT over AND/OR, or may be confusing OR with exclusive OR, or may be evaluating left-to-right without operator precedence.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the NOT operation is called a unary operation while AND and OR are binary operations.",
+     "a": "NOT is unary because it operates on a single Boolean input (it flips 0 to 1 and 1 to 0). AND and OR are binary because they require two Boolean inputs to produce an output. A wrong answer that says NOT takes two inputs or that AND/OR take one input shows a fundamental misunderstanding of arity in Boolean operations.",
+     "self_check": true
+    },
+    {
+     "q": "A safety system for a machine requires two sensors (A and B) to both detect an obstacle (value 1) to stop the machine. Write the Boolean expression that represents the stop condition and evaluate it for A=1, B=0.",
+     "a": "The stop condition is A AND B. For A=1, B=0: 1 AND 0 = 0 (machine does not stop). A wrong expression like A OR B would stop the machine incorrectly, showing the student cannot map the real-world \"both must be true\" requirement to the AND operation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the truth tables of AND and OR. Identify the input combination where they produce the same output and the combinations where they differ.",
+     "a": "AND and OR produce the same output for inputs (0,0) -> both give 0, and (1,1) -> both give 1. They differ for (0,1) and (1,0): AND gives 0, OR gives 1. A student who cannot identify these shows they have memorized tables but not analyzed the relationship between the operations.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that NOT (A AND B) is equivalent to (NOT A) AND (NOT B). Evaluate this claim using a truth table and state whether it is correct.",
+     "a": "The claim is incorrect. For A=1, B=0: NOT (1 AND 0) = NOT 0 = 1. But (NOT 1) AND (NOT 0) = 0 AND 1 = 0. The correct equivalence is De Morgan's law: NOT (A AND B) = (NOT A) OR (NOT B). A student who agrees with the claim is confusing AND with OR in De Morgan's theorem, a common error.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (different from the locker example) that requires all three operations (AND, OR, NOT) in a single Boolean expression. Write the expression and explain the role of each operation.",
+     "a": "Example: A smart irrigation system waters the garden if (soil is dry AND it is not raining) OR (manual override is on). Expression: (Dry AND NOT Raining) OR Override. Here AND combines two required conditions, NOT inverts the rain sensor, OR allows an alternative trigger. A poor answer would use only one or two operations, or not explain each operation's role.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

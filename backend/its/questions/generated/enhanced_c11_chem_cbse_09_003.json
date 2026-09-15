@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_09_003",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_09_003",
+   "title": "c11_chem_cbse_09_003",
+   "questions": [
+    {
+     "q": "Name the gas evolved when zinc granules react with dilute sulphuric acid. Write the balanced chemical equation.",
+     "a": "The gas is dihydrogen (H₂). Equation: Zn(s) + H₂SO₄(aq) → ZnSO₄(aq) + H₂(g). A wrong answer (e.g., naming oxygen or writing Zn + H₂SO₄ → ZnSO₄ + H₂O) reveals confusion between acid-metal reaction and acid-base neutralisation, or forgetting that hydrogen is displaced from acid, not water.",
+     "self_check": true
+    },
+    {
+     "q": "Why is copper not used for laboratory preparation of dihydrogen from dilute acids?",
+     "a": "Copper lies below hydrogen in the reactivity series, so it cannot reduce H⁺ to H₂. A wrong answer (e.g., \"copper reacts slowly\" or \"copper forms a protective layer\") shows misunderstanding of the thermodynamic requirement: the metal must have a more negative reduction potential than hydrogen.",
+     "self_check": true
+    },
+    {
+     "q": "Balance the equation for steam reforming of methane: CH₄(g) + H₂O(g) → CO(g) + H₂(g). Then calculate the volume of H₂ at STP produced from 16 g of CH₄ assuming 100% yield.",
+     "a": "Balanced: CH₄(g) + H₂O(g) → CO(g) + 3H₂(g). Moles of CH₄ = 16/16 = 1 mol → 3 mol H₂ = 67.2 L at STP. A wrong balance (e.g., 2H₂) or volume (e.g., 22.4 L) reveals inability to balance redox reactions or apply molar volume concept.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the purity of dihydrogen obtained from (a) Zn + dilute HCl and (b) electrolysis of acidified water. Which method gives higher purity and why?",
+     "a": "Electrolysis gives higher purity (99.9%) because only H₂ and O₂ are produced; Zn/HCl gives H₂ contaminated with acid vapours and arsine/phosphine if impure zinc is used. A wrong comparison (e.g., \"both are equally pure\") indicates lack of awareness of impurities from reagents.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the reaction of zinc with NaOH as: Zn + 2NaOH → Na₂ZnO₂ + H₂. Identify the error and write the correct equation with state symbols.",
+     "a": "Error: sodium zincate is Na₂[Zn(OH)₄] (or Na₂ZnO₂·2H₂O), not Na₂ZnO₂ alone. Correct: Zn(s) + 2NaOH(aq) + 2H₂O(l) → Na₂[Zn(OH)₄](aq) + H₂(g). A wrong answer shows ignorance of the coordination complex formed in aqueous alkali.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory setup to collect dry dihydrogen gas from the reaction of zinc with dilute H₂SO₄. List the components and explain the function of each.",
+     "a": "Setup: Woulfe's bottle (generation) → delivery tube → wash bottle with water (remove acid spray) → drying tube with anhydrous CaCl₂ (remove moisture) → gas jar (collection by downward displacement of water). A poor answer omits drying or uses upward delivery, revealing misunderstanding of H₂'s low solubility and need for dryness.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,174 @@
+{
+ "class": 10,
+ "subject": "science",
+ "chapter": 109,
+ "chapter_title": "Light – Reflection and Refraction",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jesc109.txt",
+ "concepts": [
+  {
+   "id": "jesc.109.1",
+   "title": "Mirror Formula",
+   "section": "9.2.4",
+   "definition": "In brief, a mathematical relation connecting the object distance, image distance, and focal length for any spherical mirror.",
+   "formula": "1/v + 1/u = 1/f",
+   "key_idea": "In brief, Relates distances of object and image from the pole to the mirror's focal length.",
+   "textbook_ref": "jesc109.txt lines 360-375",
+   "question_patterns": [
+    "calculate the image distance",
+    "find the position of the image",
+    "at what distance should the screen be placed",
+    "determine where the image is formed"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the reciprocal of the focal length",
+     "explain": "f is the focal length",
+     "compute": "inv_f = 1 / f"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the reciprocal of the object distance",
+     "explain": "u is the object distance",
+     "compute": "inv_u = 1 / u"
+    },
+    {
+     "step": 3,
+     "action": "Find the reciprocal of the image distance",
+     "explain": "Using 1/v = 1/f - 1/u",
+     "compute": "inv_v = inv_f - inv_u"
+    },
+    {
+     "step": 4,
+     "action": "Calculate image distance",
+     "explain": "v = 1 / inv_v",
+     "compute": "v = 1 / inv_v"
+    }
+   ]
+  },
+  {
+   "id": "jesc.109.2",
+   "title": "Magnification of Mirrors",
+   "section": "9.2.4",
+   "definition": "In brief, in brief, the ratio of the image's height to the object's height, which also relates to the distances from the mirror.",
+   "formula": "m = h'/h = -v/u",
+   "key_idea": "In brief, In brief, In brief, Indicates how much larger or smaller the image is compared to the object.",
+   "textbook_ref": "jesc109.txt lines 380-400",
+   "question_patterns": [
+    "find the magnification",
+    "calculate the size of the image",
+    "what is the height of the image",
+    "determine the nature and size of the image"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate magnification",
+     "explain": "m = -v / u",
+     "compute": "m = -v / u"
+    },
+    {
+     "step": 2,
+     "action": "Calculate image height",
+     "explain": "h' = m * h",
+     "compute": "h_prime = m * h"
+    }
+   ]
+  },
+  {
+   "id": "jesc.109.3",
+   "title": "Lens Formula",
+   "section": "9.3.7",
+   "definition": "In brief, a mathematical expression relating the object distance, image distance, and focal length for spherical lenses.",
+   "formula": "1/v - 1/u = 1/f",
+   "key_idea": "Determines image position for lenses using the Cartesian sign convention.",
+   "textbook_ref": "jesc109.txt lines 780-795",
+   "question_patterns": [
+    "find the image distance for the lens",
+    "calculate where the image is formed",
+    "at what distance should the object be placed",
+    "determine the focal length of the lens"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate reciprocal of image distance",
+     "explain": "Using 1/v = 1/f + 1/u",
+     "compute": "inv_v = (1 / f) + (1 / u)"
+    },
+    {
+     "step": 2,
+     "action": "Calculate image distance",
+     "explain": "v = 1 / inv_v",
+     "compute": "v = 1 / inv_v"
+    }
+   ]
+  },
+  {
+   "id": "jesc.109.4",
+   "title": "Power of a Lens",
+   "section": "9.3.8",
+   "definition": "In brief, In brief, In brief, a gauge of the degree of convergence or divergence of light rays, equal to one divided by the focal length in meters.",
+   "formula": "P = 1/f",
+   "key_idea": "In brief, Power is measured in dioptres (D) when focal length is in meters.",
+   "textbook_ref": "jesc109.txt lines 860-880",
+   "question_patterns": [
+    "calculate the power of the lens",
+    "find the focal length from power",
+    "what is the power of a lens with given focal length",
+    "determine the dioptre value"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate power",
+     "explain": "P = 1 / f (where f is in meters)",
+     "compute": "power = 1 / f"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jesc109.txt lines 405-425",
+   "concept": "jesc.109.1",
+   "question_type": "compute",
+   "question_pattern": "radius of curvature is {R} and object distance is {u}, find position of image",
+   "extracted_variables": {
+    "R": "3.00",
+    "u": "-5.00"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "focal length calculation",
+     "explain": "f = R/2",
+     "compute": "f = R / 2"
+    },
+    {
+     "step": 2,
+     "action": "mirror formula application",
+     "explain": "1/v = 1/f - 1/u"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex9.1",
+   "source_ref": "jesc109.txt lines 930-950",
+   "questions": [
+    "Find the focal length of a convex mirror whose radius of curvature is 32 cm.",
+    "A concave mirror produces three times magnified real image of an object placed at 10 cm. Where is the image located?",
+    "Find the power of a concave lens of focal length 2 m."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

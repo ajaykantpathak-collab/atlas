@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_08_004",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_08_004",
+   "title": "c12_phy_cbse_08_004",
+   "questions": [
+    {
+     "q": "State the mutual orientation of the electric field **E**, magnetic field **B**, and propagation vector **k** in a plane electromagnetic wave travelling in vacuum. Give the SI unit of the wave number \\(k\\).",
+     "a": "**E**, **B**, and **k** are mutually perpendicular (orthogonal triad). The wave number \\(k\\) has SI unit rad/m (or m⁻¹). A wrong answer (e.g., **E** parallel to **k**) reveals confusion with longitudinal waves like sound; missing unit indicates lack of dimensional awareness.",
+     "self_check": true
+    },
+    {
+     "q": "A plane EM wave in vacuum has electric field amplitude \\(E_0 = 120 \\text{ N/C}\\). Without calculating, explain why the magnetic field amplitude must be \\(B_0 = 4.0 \\times 10^{-7} \\text{ T}\\). What physical principle fixes this ratio?",
+     "a": "From Maxwell’s equations, the wave speed \\(c = E_0/B_0\\). Since \\(c = 3.00 \\times 10^8 \\text{ m/s}\\), \\(B_0 = E_0/c = 120 / (3 \\times 10^8) = 4.0 \\times 10^{-7} \\text{ T}\\). The principle is the intrinsic coupling of **E** and **B** in free space — they are not independent; the wave impedance of vacuum \\(Z_0 = \\sqrt{\\mu_0/\\varepsilon_0} = E_0/H_0\\) fixes the ratio. A student who says “they are just proportional” misses the quantitative origin from \\(\\mu_0\\) and \\(\\varepsilon_0\\).",
+     "self_check": true
+    },
+    {
+     "q": "A radio station broadcasts at \\(f = 98.3 \\text{ MHz}\\) with an average intensity \\(I = 2.5 \\times 10^{-6} \\text{ W/m}^2\\) at a certain distance. Calculate (a) the wavelength \\(\\lambda\\), (b) the electric field amplitude \\(E_0\\), and (c) the radiation pressure on a perfectly absorbing surface at that location.",
+     "a": "(a) \\(\\lambda = c/f = (3.00 \\times 10^8) / (98.3 \\times 10^6) = 3.05 \\text{ m}\\).  \n(b) \\(I = \\frac{1}{2}\\varepsilon_0 c E_0^2 \\Rightarrow E_0 = \\sqrt{2I/(\\varepsilon_0 c)} = \\sqrt{2 \\times 2.5 \\times 10^{-6} / (8.85 \\times 10^{-12} \\times 3.00 \\times 10^8)} = 1.37 \\text{ V/m}\\).  \n(c) \\(P_{\\text{abs}} = I/c = 2.5 \\times 10^{-6} / (3.00 \\times 10^8) = 8.33 \\times 10^{-15} \\text{ Pa}\\).  \nA wrong \\(\\lambda\\) (e.g., using \\(v = 3 \\times 10^8\\) but wrong exponent) shows unit mishandling; forgetting the 1/2 in intensity formula is a common error from confusing peak with RMS.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the average electric energy density \\(\\langle u_E \\rangle\\) and average magnetic energy density \\(\\langle u_B \\rangle\\) in a plane EM wave in vacuum. If the wave enters a dielectric with \\(\\varepsilon_r = 4\\), \\(\\mu_r = 1\\), how do \\(\\langle u_E \\rangle\\) and \\(\\langle u_B \\rangle\\) change relative to each other? Justify.",
+     "a": "In vacuum, \\(\\langle u_E \\rangle = \\langle u_B \\rangle = \\frac{1}{4}\\varepsilon_0 E_0^2 = \\frac{1}{4\\mu_0}B_0^2\\). In a dielectric, the wave speed \\(v = c/\\sqrt{\\varepsilon_r\\mu_r} = c/2\\). The amplitude ratio becomes \\(E_0/B_0 = v = c/2\\). Since \\(\\langle u_E \\rangle = \\frac{1}{4}\\varepsilon E_0^2\\) and \\(\\langle u_B \\rangle = \\frac{1}{4\\mu}B_0^2\\), substituting \\(B_0 = 2E_0/c\\) and \\(\\varepsilon = 4\\varepsilon_0\\), \\(\\mu = \\mu_0\\) gives \\(\\langle u_E \\rangle = \\varepsilon_0 E_0^2\\) and \\(\\langle u_B \\rangle = \\frac{1}{\\mu_0}(E_0^2/c^2) = \\varepsilon_0 E_0^2\\). They remain equal! The equality \\(\\langle u_E \\rangle = \\langle u_B \\rangle\\) holds in any linear medium because it follows from Maxwell’s equations, not just vacuum constants. A student who claims they become unequal misunderstands the symmetry of Maxwell’s equations.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: “Since light carries momentum, a flashlight should recoil like a gun when turned on. Why don’t we observe this?” Evaluate this statement quantitatively. Estimate the recoil force of a 5 W flashlight and compare it to the weight of a mosquito (\\(mg \\approx 2 \\times 10^{-5} \\text{ N}\\)).",
+     "a": "The student is correct in principle: light carries momentum \\(p = U/c\\), so power \\(P\\) exerts force \\(F = P/c\\) (for absorption). For a 5 W flashlight, \\(F = 5 / (3 \\times 10^8) = 1.67 \\times 10^{-8} \\text{ N}\\). This is \\(\\sim 1000\\times\\) smaller than a mosquito’s weight (\\(2 \\times 10^{-5} \\text{ N}\\)), hence imperceptible. The statement is physically sound but the effect is negligible for everyday power levels. A wrong evaluation might say “light has no mass so no momentum” (confusing rest mass with relativistic momentum) or overestimate force by using \\(F = P/v\\) with wrong \\(v\\).",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment using a torsion balance to measure radiation pressure of a laser beam. Specify the key measurable quantities, the expected deflection angle formula, and one major systematic error to control.",
+     "a": "Suspend a lightweight mirror (area \\(A\\), mass \\(m\\)) on a torsion fiber (torsion constant \\(\\kappa\\)). Reflect a laser of power \\(P\\) normally onto the mirror. Radiation pressure \\(P_{\\text{rad}} = 2P/(cA)\\) exerts force \\(F = 2P/c\\). Torque \\(\\tau = F \\cdot d\\) (where \\(d\\) is lever arm) twists fiber by angle \\(\\theta = \\tau/\\kappa = (2Pd)/(\\kappa c)\\). Measure \\(\\theta\\) with an optical lever. Major systematic error: heating of the mirror causes air currents/convection producing spurious torque. Control by using a pulsed laser with low duty cycle or performing in vacuum. A poor answer omits the factor of 2 for reflection or ignores thermal effects.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

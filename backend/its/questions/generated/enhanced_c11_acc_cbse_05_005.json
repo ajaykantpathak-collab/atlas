@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_05_005",
+   "title": "c11_acc_cbse_05_005",
+   "questions": [
+    {
+     "q": "What is the immediate effect on the bank passbook when a customer directly deposits money into the firm's account?",
+     "a": "The bank credits the firm's account immediately, increasing the passbook balance. A wrong answer (e.g., \"passbook balance decreases\" or \"no effect\") reveals the student doesn't understand that the bank records the deposit when it happens, while the firm remains unaware.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Direct deposits by customers increase the cash book balance because the firm receives the money.\" Explain why this statement is incorrect.",
+     "a": "The cash book is maintained by the firm. Since the firm doesn't know about the deposit until the bank statement arrives, the cash book is not updated at the time of deposit. The passbook balance increases, but the cash book balance stays the same. A wrong explanation indicates confusion between who records the transaction and when.",
+     "self_check": true
+    },
+    {
+     "q": "On 31st March, the cash book shows a bank balance of ₹50,000. The passbook shows ₹62,000. The only difference is a direct deposit of ₹12,000 by a customer on 28th March. If you start the bank reconciliation statement with the cash book balance, what adjustment will you make for the direct deposit?",
+     "a": "Add ₹12,000 to the cash book balance. Since the passbook balance is higher due to the direct deposit, we must increase the cash book balance to reach the passbook balance. A wrong adjustment (e.g., subtracting) shows the student hasn't grasped the direction of the difference.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the effect of \"direct deposits by customers\" with \"cheques deposited but not yet collected\" on the cash book and passbook balances.",
+     "a": "Direct deposits: passbook balance > cash book balance (bank records first). Cheques deposited but not collected: cash book balance > passbook balance (firm records first). Both are timing differences but in opposite directions. A wrong comparison indicates the student treats all timing differences uniformly.",
+     "self_check": true
+    },
+    {
+     "q": "A firm discovers a direct deposit of ₹25,000 in the passbook that was never recorded in the cash book. The accountant argues: \"Since the money is already in the bank, we don't need to record it in the cash book; the reconciliation will take care of it.\" Evaluate this argument.",
+     "a": "The argument is flawed. The cash book must be updated for all transactions to reflect the correct bank balance for internal decision-making. Reconciliation only explains the difference; it doesn't replace recording. If unrecorded, the cash book will perpetually understate the bank balance. A student who agrees misses the purpose of maintaining accurate books.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario (with amounts) where a firm has two direct deposits from different customers on different dates, and the bank statement arrives after the month-end. Show how you would present these in a bank reconciliation statement starting from the passbook balance.",
+     "a": "Example: Cash book balance ₹40,000. Passbook shows ₹52,000. Direct deposits: ₹7,000 on 25th March and ₹5,000 on 28th March. Starting from passbook balance (₹52,000), deduct ₹12,000 (total direct deposits) to arrive at cash book balance. A good answer includes correct direction (deduct from passbook), clear labeling, and correct total. A poor answer adds instead of deducts or omits one deposit.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

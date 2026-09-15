@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_19_002",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_19_002",
+   "title": "c11_eng_w_cbse_19_002",
+   "questions": [
+    {
+     "q": "What is the primary structural difference between a narrative poem (like \"The Rime of the Ancient Mariner\") and a lyric ode (like \"Ode to a Nightingale\") in terms of plot?",
+     "a": "A narrative poem follows an external sequence of events with characters, setting, and a chronological plot (e.g., a ship's voyage). A lyric ode has no external plot; its \"narrative\" is the internal movement of the speaker's consciousness across stanzas. A wrong answer (e.g., \"both tell a story\") reveals the student conflates *story* with *structure* and cannot distinguish event-driven vs. consciousness-driven progression.",
+     "self_check": true
+    },
+    {
+     "q": "In \"Ode to a Nightingale,\" the speaker says, \"Forlorn! the very word is like a bell / To toll me back from thee to my sole self!\" Explain in your own words what structural function this moment serves in the poem's narrative arc.",
+     "a": "The word \"forlorn\" acts as the structural *turn* (volta) that collapses the imaginative flight (stanzas 4–7) and forces the speaker back to the painful reality established in stanzas 1–3. It is the narrative climax where the illusion of escape shatters. A wrong answer (e.g., \"it shows he is sad\") misses the structural role: the bell metaphor marks the precise point where the poem's movement reverses direction.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"narrative arc\" to the first three stanzas of the poem. Identify the exposition, inciting incident, and rising action using only the speaker's mental states.",
+     "a": "Exposition (Stanza 1): Speaker's numb, aching sensorium — baseline reality. Inciting Incident: The nightingale's song pierces this numbness, triggering not envy but \"too happy in thine happiness.\" Rising Action (Stanzas 2–3): Speaker actively seeks escape via wine (\"draught of vintage\") and catalogues the human miseries he wants to flee (weariness, fever, death). A wrong answer listing physical actions (drinking, flying) shows the student cannot map abstract mental states onto narrative structure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the structural role of the bird's song in Stanza 1 (\"Singest of summer in full-throated ease\") with its role in Stanza 7 (\"The voice I hear this passing night was heard / In ancient days by emperor and clown\"). How does the *same* sound generate two different narrative functions?",
+     "a": "In Stanza 1, the song is a *catalyst* — an external stimulus that initiates the speaker's internal journey. In Stanza 7, the song becomes a *symbol of permanence* — the speaker projects immortality onto it, expanding the narrative from personal escape to universal human history. A wrong answer treating both as \"beautiful description\" fails to see how the narrative *recontextualizes* the same auditory image to advance the psychological plot.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The poem's ending ('Was it a vision, or a waking dream? / Fled is that music:—Do I wake or sleep?') is a narrative failure because it leaves the conflict unresolved.\"",
+     "a": "The ending is a structural *success*: the unresolved question *is* the resolution. The narrative arc completes a full circle — the speaker returns to the exact sensory confusion of Stanza 1 (\"My heart aches, and a drowsy numbness pains / My sense\") but now with earned self-knowledge. The ambiguity enacts the poem's central tension: happiness is elusive *because* consciousness cannot sustain the ideal. A wrong answer demanding a \"clear ending\" imposes novelistic closure on a lyric structure designed to remain open.",
+     "self_check": true
+    },
+    {
+     "q": "Create a six-panel storyboard (describe each panel in one sentence) that visualizes the poem's narrative structure as a hero's journey, where the \"hero\" is the speaker's consciousness and the \"dragon\" is mortality.",
+     "a": "Panel 1: Hero paralyzed by poison (hemlock/opiate) in the ordinary world. Panel 2: Hero hears a supernatural call (nightingale) and desires a magic potion (wine) to cross the threshold. Panel 3: Hero sees the wasteland of human suffering (palsy, youth dying) and commits to the quest. Panel 4: Hero flies on \"viewless wings of Poesy\" into the bird's immortal forest. Panel 5: Hero confronts the dragon (death) and finds it \"easeful\" — a moment of false victory. Panel 6: A single word (\"forlorn\") shatters the spell; hero falls back, wounded but awake, questioning the reality of the quest. A poor answer draws literal birds/forests, missing that the *consciousness* is the protagonist.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_economics_ch11_005",
+ "concepts": [
+  {
+   "id": "enh:c6_economics_ch11_005",
+   "title": "c6_economics_ch11_005",
+   "questions": [
+    {
+     "q": "In ancient China, why did merchants start using paper receipts instead of carrying coins?\n[Recall: Must be answered in 1-2 sentences.]",
+     "a": "Merchants used paper receipts because coins were very heavy and difficult to transport in large quantities. A wrong answer here suggests the student thinks paper money was invented for beauty rather than for the practical need for portability.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why paper money is considered an \"innovation\" compared to metal coins.\n[Understand: Must expose the misconception that value comes from the material.]",
+     "a": "Paper money is an innovation because it is lightweight and easier to carry, making trade faster. A wrong answer suggests the student believes money must be made of \"valuable\" material like gold or silver to be valid, missing the point of convenience.",
+     "self_check": true
+    },
+    {
+     "q": "If you have 500 rupees in a digital bank account, where is that \"money\" physically located?\n[Apply: Test if the student understands digital money as a ledger entry.]",
+     "a": "The money is not physically in your pocket; it exists as a digital record in the bank's system showing you have the right to withdraw that amount. A wrong answer suggests the student thinks the mobile phone itself contains the physical cash.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the use of metal coins in the past to digital payments today. What is the biggest difference in how we \"carry\" our wealth?\n[Analyze: Break down the relationship between physicality and access.]",
+     "a": "Coins required physical possession to transfer value, while digital payments use a secure network to change account balances. A wrong answer reveals a failure to distinguish between \"carrying an object\" and \"authorizing a transfer.\"",
+     "self_check": true
+    },
+    {
+     "q": "Is digital money \"safer\" than paper money? Justify your answer.\n[Evaluate: Critically assess the convenience vs. risk.]",
+     "a": "Digital money is often safer from theft because it is password-protected and can be tracked, but it requires technology to access. A wrong answer fails to acknowledge that both systems rely on different types of security.",
+     "self_check": true
+    },
+    {
+     "q": "If paper money were to disappear tomorrow, what problems would a shopkeeper in your neighborhood face?\n[Create: Propose a scenario based on the dependency on currency types.]",
+     "a": "The shopkeeper would need a fully digital system; if the internet or power failed, they could not verify payments. A poor answer ignores the technological infrastructure needed for modern money.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,321 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 203,
+ "chapter_title": "Proportional Reasoning-2",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hegp203.txt",
+ "concepts": [
+  {
+   "id": "hegp.3.3.1",
+   "title": "Multi-term Proportionality",
+   "section": "3.3",
+   "definition": "A relationship where multiple quantities maintain a constant ratio such that each term changes by the same scaling factor.",
+   "formula": "a/p = b/q = c/r = d/s",
+   "key_idea": "All parts of a multi-term ratio scale by the same multiplier.",
+   "textbook_ref": "hegp203.txt lines 135-155",
+   "question_patterns": [
+    "find the missing ingredient quantity given the ratio",
+    "calculate the amount of each part for a multi-term ratio",
+    "determine the required quantity of components for a specific total",
+    "how much of each item is needed to maintain the ratio",
+    "compute the missing values in a proportional multi-term sequence"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find the scaling factor",
+     "explain": "Divide the target quantity by the corresponding ratio part",
+     "compute": "factor = target_part / ratio_part"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the unknown quantity",
+     "explain": "Multiply the specific ratio term by the scaling factor",
+     "compute": "result = ratio_term * factor"
+    }
+   ]
+  },
+  {
+   "id": "hegp.3.4.1",
+   "title": "Dividing a Whole in Ratio",
+   "section": "3.4",
+   "definition": "The process of partitioning a total quantity into segments based on a defined ratio of parts.",
+   "formula": "part_value = total * (ratio_term / sum_of_ratio_terms)",
+   "key_idea": "Total quantity is distributed based on the fractional weight of each ratio term.",
+   "textbook_ref": "hegp203.txt lines 185-215",
+   "question_patterns": [
+    "divide the total into the given ratio",
+    "calculate the share of each component in the total",
+    "how many units of each part are needed for the total",
+    "distribute the quantity according to the specified ratio",
+    "find the individual portions of a whole based on the ratio"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum the ratio terms",
+     "explain": "Calculate the total number of parts",
+     "compute": "total_parts = sum_of_terms"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the specific part",
+     "explain": "Multiply the total quantity by the fraction of the specific term",
+     "compute": "result = total * (term / total_parts)"
+    }
+   ]
+  },
+  {
+   "id": "hegp.3.6.1",
+   "title": "Inverse Proportions",
+   "section": "3.6",
+   "definition": "A relationship between two variables where an increase in one causes a proportional decrease in the other, keeping their product constant.",
+   "formula": "x1 * y1 = x2 * y2",
+   "key_idea": "The product of inversely proportional quantities remains invariant.",
+   "textbook_ref": "hegp203.txt lines 285-325",
+   "question_patterns": [
+    "calculate the time taken if the number of workers changes",
+    "find the new duration given a change in speed",
+    "determine the quantity needed if the time factor is adjusted",
+    "how many days will the provisions last for a different number of people",
+    "compute the missing value in an inverse proportion table"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Establish the constant product",
+     "explain": "Multiply the known pair of values",
+     "compute": "k = x1 * y1"
+    },
+    {
+     "step": 2,
+     "action": "Solve for the unknown",
+     "explain": "Divide the constant product by the new value of the other variable",
+     "compute": "result = k / x2"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hegp203.txt line 160",
+   "concept": "hegp.3.3.1",
+   "question_type": "compute",
+   "question_pattern": "If white paint is {white_parts} parts and we have {total_white} litres, find red paint which is {red_parts} parts.",
+   "extracted_variables": {
+    "white_parts": 5,
+    "total_white": 10,
+    "red_parts": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find factor",
+     "compute": "factor = total_white / white_parts"
+    },
+    {
+     "step": 2,
+     "action": "Calculate red",
+     "compute": "result = red_parts * factor"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hegp203.txt line 290",
+   "concept": "hegp.3.6.1",
+   "question_type": "compute",
+   "question_pattern": "{workers1} workers take {days1} days, how many days for {workers2} workers?",
+   "extracted_variables": {
+    "workers1": 20,
+    "days1": 4,
+    "workers2": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find constant",
+     "compute": "k = workers1 * days1"
+    },
+    {
+     "step": 2,
+     "action": "Calculate days",
+     "compute": "result = k / workers2"
+    }
+   ]
+  },
+  {
+   "id": "exgen.hegp.3.3.1.2",
+   "source_ref": "generated practice sample aligned to hegp203.txt",
+   "concept": "hegp.3.3.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the result step by step for a case with {target_part}, {ratio_part}, {ratio_term}.",
+   "extracted_variables": {
+    "target_part": "target part (given value)",
+    "ratio_part": "ratio part (given value)",
+    "ratio_term": "ratio term (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute factor",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "factor = target_part / ratio_part"
+    },
+    {
+     "step": 2,
+     "action": "compute result",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "result = ratio_term * factor"
+    }
+   ]
+  },
+  {
+   "id": "exgen.hegp.3.3.1.3",
+   "source_ref": "generated practice sample aligned to hegp203.txt",
+   "concept": "hegp.3.3.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the result step by step for a case with {target_part}, {ratio_part}, {ratio_term}.",
+   "extracted_variables": {
+    "target_part": "target part (given value)",
+    "ratio_part": "ratio part (given value)",
+    "ratio_term": "ratio term (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute factor",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "factor = target_part / ratio_part"
+    },
+    {
+     "step": 2,
+     "action": "compute result",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "result = ratio_term * factor"
+    }
+   ]
+  },
+  {
+   "id": "exgen.hegp.3.4.1.1",
+   "source_ref": "generated practice sample aligned to hegp203.txt",
+   "concept": "hegp.3.4.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the result step by step for a case with {sum_of_terms}, {total}, {term}.",
+   "extracted_variables": {
+    "sum_of_terms": "sum of terms (given value)",
+    "total": "total (given value)",
+    "term": "term (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute total parts",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "total_parts = sum_of_terms"
+    },
+    {
+     "step": 2,
+     "action": "compute result",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "result = total * (term / total_parts)"
+    }
+   ]
+  },
+  {
+   "id": "exgen.hegp.3.4.1.2",
+   "source_ref": "generated practice sample aligned to hegp203.txt",
+   "concept": "hegp.3.4.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the result step by step for a case with {sum_of_terms}, {total}, {term}.",
+   "extracted_variables": {
+    "sum_of_terms": "sum of terms (given value)",
+    "total": "total (given value)",
+    "term": "term (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute total parts",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "total_parts = sum_of_terms"
+    },
+    {
+     "step": 2,
+     "action": "compute result",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "result = total * (term / total_parts)"
+    }
+   ]
+  },
+  {
+   "id": "exgen.hegp.3.6.1.2",
+   "source_ref": "generated practice sample aligned to hegp203.txt",
+   "concept": "hegp.3.6.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the result step by step for a case with {x1}, {y1}, {x2}.",
+   "extracted_variables": {
+    "x1": "x1 (given value)",
+    "y1": "y1 (given value)",
+    "x2": "x2 (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute k",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "k = x1 * y1"
+    },
+    {
+     "step": 2,
+     "action": "compute result",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "result = k / x2"
+    }
+   ]
+  },
+  {
+   "id": "exgen.hegp.3.6.1.3",
+   "source_ref": "generated practice sample aligned to hegp203.txt",
+   "concept": "hegp.3.6.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the result step by step for a case with {x1}, {y1}, {x2}.",
+   "extracted_variables": {
+    "x1": "x1 (given value)",
+    "y1": "y1 (given value)",
+    "x2": "x2 (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute k",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "k = x1 * y1"
+    },
+    {
+     "step": 2,
+     "action": "compute result",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "result = k / x2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.4",
+   "source_ref": "hegp203.txt lines 225-230",
+   "questions": [
+    "A cricket coach schedules practice sessions in ratio 3:4:3:5. If session is 150 minutes, find time for each activity.",
+    "Divide 288 Odiya books in ratio 3:2:1 for Hindi and English books."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

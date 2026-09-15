@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_s_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_s_cbse_05_002",
+   "title": "c11_eng_s_cbse_05_002",
+   "questions": [
+    {
+     "q": "Identify the five stages of Freytag's Pyramid (exposition, rising action, climax, falling action, resolution) and match each to a specific segment of \"The Tale of Melon City.\"",
+     "a": "Exposition: The just/placid king orders an arch built (stanzas 1-2). Rising action: Crown lost → blame shifts from builders → workmen → masons → architect → king's amendments (stanzas 3-7). Climax: King measured for noose and hanged by own decree (stanza 8). Falling action: Ministers crown a melon as next king (stanzas 9-10). Resolution: People accept melon king for peace/liberty; laissez-faire established (stanza 11). A wrong answer (e.g., placing climax at architect's blame) reveals inability to distinguish peak tension from complication.",
+     "self_check": true
+    },
+    {
+     "q": "Explain how the poem's verse form (rhyming couplets, steady meter) influences the narrative pacing during the blame-shifting sequence (workmen → masons → architect).",
+     "a": "The AABB couplets create a rapid, almost mechanical rhythm that mimics bureaucratic buck-passing: each stanza delivers a complete blame-transfer in two rhymed lines, accelerating the pace like a conveyor belt. The steady meter prevents emotional lingering, reinforcing the satire's detached tone. A wrong answer focusing only on \"rhyme makes it musical\" misses how form enacts content — the structure *performs* the mindless efficiency of the justice system.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"in media res\" to this poem: Does the narrative begin in media res? Justify using the opening stanzas.",
+     "a": "No. The poem begins *ab ovo* (from the beginning): \"In the city of which I sing / There was a just and placid King. / The King proclaimed an arch should be / Constructed...\" It establishes status quo before disruption. A student answering \"yes\" because \"action starts quickly\" confuses brisk pacing with in media res. Correct application requires recognizing that backstory (king's nature, arch purpose) is given before the inciting incident (crown loss).",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the structural function of the \"wisest man\" episode (stanza 7). How does this scene serve as a structural pivot between rising action and climax?",
+     "a": "The wiseman's verdict (\"hang the arch\") appears to resolve the blame-chain (falling action), but the councillor's objection (\"What touched your head?\") triggers the king's realization that *he* fits the noose. This false resolution — a structural feint — heightens the climax's irony. The pivot works because the poem *seems* to shift toward denouement before the trap snaps shut. A wrong answer treating the wiseman as true climax misses the delayed peak tension.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the circular narrative structure (king hanged → melon crowned → people accept) in delivering the poem's satire on governance. Is the resolution earned or arbitrary?",
+     "a": "The resolution is *structurally earned* through the logic of the king's own \"justice\": his insistence on immediate hanging (\"Someone must be hanged\") creates the condition where only he fits the noose. The melon choice follows the stated \"custom\" (next passerby chooses ruler). The circularity — law's rigidity producing absurdity — is the satire's engine. Calling it \"arbitrary\" ignores how each step follows inexorably from the king's initial decree. A weak evaluation treats the melon as random nonsense rather than systemic consequence.",
+     "self_check": true
+    },
+    {
+     "q": "Create a six-panel storyboard outline for a graphic novel adaptation of the poem, labeling each panel with the corresponding narrative stage and the key visual metaphor you would use.",
+     "a": "Panel 1 (Exposition): Crowned king pointing at blueprint; arch schematic glowing — *visual metaphor: blueprint as cage*. Panel 2 (Inciting Incident): King under arch, crown falling; arch too low — *metaphor: crown as loose tooth*. Panel 3 (Rising Action): Blame conveyor belt — builders → workmen → masons → architect → king — each figure pointing at next. Panel 4 (False Climax): Ancient wiseman carried in, pointing at arch — *metaphor: scales of justice tipped by senility*. Panel 5 (True Climax): King measured, noose fitted, crown on ground — *metaphor: king's body as measuring rod for his own law*. Panel 6 (Resolution): Melon on throne, citizens shrugging — *metaphor: melon as hollow crown*. Poor answers list events without visual metaphors or mislabel stages.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

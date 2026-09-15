@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_03_003",
+   "title": "c12_ip_cbse_03_003",
+   "questions": [
+    {
+     "q": "Define bus topology and state the function of terminators at both ends of the backbone cable.",
+     "a": "**Correct answer:** Bus topology uses a single central cable (backbone) to which all nodes connect via drop lines/taps. Terminators absorb signals at both ends to prevent signal reflection, which would cause data collisions and network errors.  \n**Misconception revealed:** A student who says \"terminators boost the signal\" or \"terminators connect the ends to form a ring\" confuses terminators with repeaters or misunderstands signal propagation. This error leads to wrong answers in board questions about signal bounce and collision domains.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a star topology is generally preferred over a bus topology for a modern school computer lab, even though it requires more cable.",
+     "a": "**Correct answer:** Star topology isolates failures — a cable break affects only one node, whereas in bus topology a backbone break brings down the entire network. Star also allows easy addition/removal of nodes without disrupting others, and the central switch provides dedicated bandwidth per port (no collisions). The extra cable cost is offset by lower maintenance and higher reliability.  \n**Misconception revealed:** A student who claims \"star is better because it is faster\" without mentioning fault isolation or collision domains shows superficial understanding. Board examiners look for specific technical reasons like \"single point of failure shifted to switch\" and \"no shared medium\".",
+     "self_check": true
+    },
+    {
+     "q": "A small office has 8 computers connected in a ring topology using a single ring cable. One workstation’s network card fails and stops forwarding tokens. Describe the exact impact on the network and the minimum hardware change required to restore connectivity without rewiring the entire ring.",
+     "a": "**Correct answer:** In a single-ring topology, a node failure breaks the ring, stopping token circulation and halting all communication. The minimum fix is to install a **dual-ring** (or use a MAU — Multistation Access Unit) that can bypass the failed node, converting to a fault-tolerant ring. Simply replacing the NIC does not restore the ring unless the bypass mechanism exists.  \n**Misconception revealed:** Students often say \"replace the NIC and it works\" ignoring that the physical ring is broken. They miss the distinction between single-ring (no redundancy) and dual-ring (FDDI-style) topologies. This is a classic CUET trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare tree and star topologies for a bank branch network with 50 nodes where the core banking server must remain accessible even if one department’s switch fails. Which topology better satisfies this requirement and why?",
+     "a": "**Correct answer:** Tree topology is better. In a tree, departments are separate star segments connected to a root backbone. If one department’s switch fails, only that segment goes down; the core server (connected to the root) remains reachable from other segments. In a pure star with a single central switch, that switch is a single point of failure for all 50 nodes.  \n**Misconception revealed:** Students who choose star because \"it’s simpler\" fail to analyse hierarchical fault domains. They treat tree as just \"multiple stars\" without recognising the root backbone’s role in isolating segment failures.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Bus topology is obsolete and should never be used in any modern network.\" Provide two scenarios where bus topology (or its logical equivalent) is still a valid design choice.",
+     "a": "**Correct answer:** The statement is false. Bus topology (or its logical equivalent) is still used in: (1) **Backplane buses** inside a PC (PCIe, SATA) where short distances, controlled environment, and deterministic arbitration make it efficient. (2) **Industrial fieldbuses** (CAN bus in automobiles, PROFIBUS in factories) where a single cable reduces wiring harness cost/weight and nodes are simple microcontrollers.  \n**Misconception revealed:** Students who equate \"bus topology\" only with 10BASE2/10BASE5 coaxial Ethernet miss its modern incarnations. Competitive exams test awareness that topologies are abstract patterns applied in many contexts, not just LAN cabling.",
+     "self_check": true
+    },
+    {
+     "q": "Design a network topology for a university campus with three buildings (Engineering, Science, Arts) each having 100 nodes. The campus backbone must support 1 Gbps between buildings, and a building’s internal failure must not affect inter-building traffic. Draw a labelled diagram and specify the topology used at each level (building-internal and campus-backbone).",
+     "a": "**Expected answer:**  \n- **Building-internal:** Star topology (each floor → floor switch → building core switch). Provides fault isolation per node, easy expansion, and dedicated bandwidth.  \n- **Campus-backbone:** Tree topology with a core router/switch at the center connecting three building core switches (root with three branches). Alternatively, a partial mesh of building cores for redundancy.  \n- **Diagram:** Show three star clusters (one per building) connected via a central root node. Label cables: \"Cat6a 1Gbps\" for building-internal, \"Fiber 1Gbps+\" for backbone.  \n**Poor answer reveals:** Using bus for backbone (no fault isolation), or using a single star for entire campus (single point of failure at central switch). The student fails to apply hierarchical design principles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

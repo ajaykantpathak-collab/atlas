@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_02_002",
+   "title": "c11_soc_cbse_02_002",
+   "questions": [
+    {
+     "q": "Define a quasi-group and give two examples from everyday life that are NOT mentioned in the textbook.",
+     "a": "A quasi-group is an aggregate of people who share a physical or social space but lack persistent interaction, a sense of belonging, shared norms, or a definable structure — members are largely unaware of each other as a collective. Examples: (1) Commuters waiting at a bus stop; (2) Shoppers in a mall food court. A wrong answer (e.g., \"a crowd at a concert is a social group because they cheer together\") reveals the student conflates temporary collective behaviour with the sustained, structured interaction required for a social group.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a classroom of 40 students is a secondary group while a close-knit circle of four friends within that classroom is a primary group. Use at least three distinguishing characteristics.",
+     "a": "The classroom is secondary because: (i) interaction is formal/impersonal (teacher-student, roll-call), (ii) it is goal-oriented (curriculum completion, exams), (iii) relationships are segmental (limited to academic roles). The friend circle is primary because: (i) interaction is intimate/face-to-face, (ii) it is person-oriented (emotional support, shared secrets), (iii) it has a strong \"we-feeling\" and informal norms. A wrong answer that focuses only on size (\"classroom is large, friend circle is small\") misses the sociological core: *quality of interaction* and *orientation* define the type, not mere numbers.",
+     "self_check": true
+    },
+    {
+     "q": "A village panchayat introduces a new rule: \"All households must segregate waste; non-compliance attracts a fine.\" Identify whether the panchayat is functioning as a primary or secondary group in this scenario, and justify using two characteristics.",
+     "a": "The panchayat acts as a **secondary group** here. Characteristics: (1) The interaction is formal, rule-bound, and impersonal (written notice, fine) — not based on personal ties. (2) It is goal-oriented (waste management compliance) rather than person-oriented. Even though panchayat members may know each other personally, the *context* shifts the collectivity to a secondary mode. A wrong answer calling it primary because \"villagers know each other\" ignores that group type is determined by the *nature of interaction in a specific situation*, not by the pre-existing relationships of members.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"in-group/out-group\" dynamics with \"reference group\" dynamics. How can the same collectivity be an in-group for one person and a reference group for another? Give a concrete Indian example.",
+     "a": "In-group/out-group is about **membership and boundary** (\"us vs. them\") — you *belong* to the in-group and *exclude* the out-group. Reference group is about **aspiration and emulation** — you *do not belong* but use the group's lifestyle as a benchmark. The same collectivity (e.g., the Indian Civil Services) can be an in-group for an IAS officer (they belong, share identity, norms) and a reference group for a UPSC aspirant (they emulate its prestige, lifestyle, but are not yet members). A wrong answer that treats both as \"groups we like\" misses the structural difference: membership vs. non-membership, and boundary maintenance vs. normative emulation.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: \"In modern urban India, primary groups are disappearing and only secondary groups remain.\" Use the concepts of community/association and the textbook's observation about formal groups becoming \"just like family\" over time.",
+     "a": "The statement is **oversimplified**. While urbanisation expands secondary groups (offices, apps, gig platforms), primary groups *persist and transform*: nuclear families, close friend circles, WhatsApp family groups, and even resident welfare associations that start formal but develop intimacy over years (as Activity 4 notes). The community/association dichotomy (Tönnies) is not a zero-sum replacement; they coexist and interpenetrate. A wrong answer that agrees entirely ignores the textbook's explicit warning: \"concepts are not fixed and frozen entities\" and the empirical reality that secondary groups often *acquire* primary characteristics (e.g., a startup team becoming a \"work family\").",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-minute classroom activity that would help Class 11 students *experience* the difference between a quasi-group and a social group without using any sociological jargon. Describe the steps and the debrief question.",
+     "a": "**Activity**: \"Silent Line-Up\". Step 1: Ask students to stand randomly in the classroom (quasi-group — no interaction, no shared goal). Step 2: Give a task: \"Without speaking, arrange yourselves in order of birth date (day/month) in 2 minutes.\" Step 3: Observe — they must interact, develop gestures, cooperate, feel a \"we\" against the clock. Step 4: Debrief: \"What changed between the random standing and the line-up? Did you feel part of something? What made that happen?\" A poor activity would just ask \"list differences\" — missing the *experiential* shift from aggregate to group that the sociological definition captures.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

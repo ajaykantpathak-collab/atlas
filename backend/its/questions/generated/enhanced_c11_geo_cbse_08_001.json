@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_08_001",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_08_001",
+   "title": "c11_geo_cbse_08_001",
+   "questions": [
+    {
+     "q": "State the latitudinal and longitudinal extent of mainland India in degrees and minutes, and name the southernmost point of the Indian union (including islands).",
+     "a": "Mainland India: 8°4'N to 37°6'N latitude, 68°7'E to 97°25'E longitude. Southernmost point of the Indian union: Indira Point (6°45'N), Andaman & Nicobar Islands. A wrong answer (e.g., citing Kanyakumari 8°4'N as southernmost) reveals the student confuses mainland extent with union territory extent — a critical board exam distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Tropic of Cancer (23°30'N) is considered a significant geographical divider for India's climate, referencing the latitudinal position of Delhi (28°36'N) and Thiruvananthapuram (8°31'N).",
+     "a": "The Tropic of Cancer divides India into subtropical/temperate north (Delhi at 28°36'N experiences distinct seasons, cold winters) and tropical south (Thiruvananthapuram at 8°31'N has near-uniform temperatures year-round). A wrong answer focusing only on \"hot/cold\" without linking latitude to solar incidence angle and seasonal variation shows superficial understanding of latitudinal climate control.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the local time difference between Dwarka (69°05'E, Gujarat) and Itanagar (93°36'E, Arunachal Pradesh) using the 1° longitude = 4 minutes rule. Show steps.",
+     "a": "Step 1: Longitudinal difference = 93°36'E - 69°05'E = 24°31'. Step 2: Convert to decimal: 24 + 31/60 = 24.5167°. Step 3: Time difference = 24.5167° × 4 min/° = 98.067 min ≈ 1 hour 38 minutes. Step 4: Itanagar is ahead (east). A wrong answer using 30° × 4 = 120 min (2 hours) reveals the student approximates extent instead of using precise coordinates — a common error in board numerical questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the latitudinal spread of India (8°4'N–37°6'N) with that of Brazil (5°16'N–33°45'S) and explain why India experiences greater seasonal temperature contrast despite smaller latitudinal range.",
+     "a": "India's range = 29°2' entirely in Northern Hemisphere; Brazil's = 39°1' straddling equator. India's north lies in mid-latitudes (37°N) where seasonal solar altitude variation is extreme (summer 77°, winter 30° at 37°N), while Brazil's equatorial zone has minimal variation. A wrong answer citing \"India is farther from equator\" without explaining solar geometry and hemisphere confinement shows inability to analyze latitudinal climate mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's longitudinal extent of ~30° justifies adopting two time zones (like the USA) for energy efficiency and circadian alignment.\" Support with geographical reasoning.",
+     "a": "The statement is geographically valid (30° ≈ 2 hours) but administratively impractical. India's east-west population density is skewed (Gangetic plains vs sparse northeast), creating coordination chaos for railways, defence, and financial markets. A single IST (82°30'E) minimizes transaction costs. A wrong answer endorsing two zones without addressing India's unitary federal structure, strategic communication needs, or the negligible energy savings from shifting clocks shows failure to evaluate geographical decisions in socio-political context.",
+     "self_check": true
+    },
+    {
+     "q": "Design a map-based activity for Class 9 students to discover why the Tropic of Cancer passes through 8 Indian states but the Equator passes through none. Specify the map layers, measurement steps, and inference they must draw.",
+     "a": "Activity: Provide outline map with latitude lines. Step 1: Plot 23°30'N line; mark states intersected (Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, WB, Tripura, Mizoram). Step 2: Plot 0° line; confirm no intersection. Step 3: Measure India's northernmost (37°6'N) and southernmost mainland (8°4'N) — both north of equator. Inference: India lies entirely north of equator; Tropic of Cancer cuts through because 23°30'N falls between 8°4'N and 37°6'N. Poor activity design omits measurement or fails to link latitude range to line intersection — revealing inability to create scaffolded geographical inquiry.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

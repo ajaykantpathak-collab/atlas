@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_02_011",
+   "title": "c12_ip_cbse_02_011",
+   "questions": [
+    {
+     "q": "What is the default behaviour of `DataFrame.to_csv()` regarding the row index and column headers?",
+     "a": "By default, `to_csv()` writes the row index as the first column and includes the column headers as the first row. A wrong answer (e.g., \"index is not written\" or \"headers are omitted\") reveals the student confuses the default with the common `index=False, header=False` usage pattern seen in board exam questions.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `df.to_csv('data.csv', sep='|', index=False)` but finds the file opens in Excel with all data in column A. Explain why this happens and how to fix it without changing the separator.",
+     "a": "Excel's default CSV parser expects a comma separator; a pipe-delimited file will not split columns automatically. The fix is to open Excel → Data → From Text/CSV and specify the delimiter as '|', or change `sep=','` in the code. A wrong answer (e.g., \"pandas wrote it wrong\") shows the student does not understand that CSV is a text format and the separator is a convention, not a pandas-enforced standard.",
+     "self_check": true
+    },
+    {
+     "q": "Given a DataFrame `df` with a MultiIndex (two-level row index) and columns ['Name', 'Marks'], write the exact `to_excel` call that exports only the 'Marks' column, writes the index, names the sheet 'Scores', and represents missing values as 'ABSENT'.",
+     "a": "`df[['Marks']].to_excel('scores.xlsx', sheet_name='Scores', index=True, na_rep='ABSENT')`. A wrong answer (e.g., missing `df[['Marks']]` selection, using `columns=` parameter which doesn't exist, or forgetting `na_rep`) reveals gaps in chaining column selection with export and handling MultiIndex export.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the memory and performance implications of exporting a 10,000-row DataFrame to CSV vs Excel (.xlsx). Which format should you choose for archival storage and why?",
+     "a": "CSV is plain text, smaller on disk, faster to write/read, and human-readable; Excel (.xlsx) is a zipped XML package, larger, slower, but supports multiple sheets, formatting, and data types. For archival storage, CSV is preferred because it is portable, version-controllable, and requires no proprietary software. A wrong answer (e.g., \"Excel is better because it's binary\") shows misunderstanding of .xlsx internals and archival best practices.",
+     "self_check": true
+    },
+    {
+     "q": "A board exam question asks: \"Write Python code to export DataFrame `student_data` to 'marks.csv' without the index column and with a semicolon separator.\" A student writes: `student_data.to_csv('marks.csv', sep=';')`. Evaluate this answer — is it fully correct? If not, what is missing?",
+     "a": "The answer is incomplete — it misses `index=False`. Without it, the row index (0,1,2...) will be written as the first column, which the question explicitly forbids. Full credit requires `student_data.to_csv('marks.csv', sep=';', index=False)`. A student who omits `index=False` loses the mark for \"without the index column\" — a classic CBSE 1-mark deduction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a reusable function `export_dataframe(df, filepath, fmt='csv', **kwargs)` that exports `df` to CSV or Excel based on `fmt`, uses sensible defaults (no index, UTF-8 encoding, na_rep='NA'), and allows overriding any parameter via `kwargs`. Provide the complete function with docstring.",
+     "a": "```python\ndef export_dataframe(df, filepath, fmt='csv', **kwargs):\n    \"\"\"\n    Export DataFrame to CSV or Excel with sensible defaults.\n    Parameters:\n        df (pd.DataFrame): DataFrame to export.\n        filepath (str): Output file path.\n        fmt (str): 'csv' or 'excel'.\n        **kwargs: Passed to to_csv/to_excel; overrides defaults.\n    \"\"\"\n    defaults = {'index': False, 'na_rep': 'NA'}\n    if fmt == 'csv':\n        defaults['encoding'] = 'utf-8'\n        defaults.update(kwargs)\n        df.to_csv(filepath, **defaults)\n    elif fmt == 'excel':\n        defaults.update(kwargs)\n        df.to_excel(filepath, **defaults)\n    else:\n        raise ValueError(\"fmt must be 'csv' or 'excel'\")\n```\nA poor answer hardcodes parameters, ignores `**kwargs`, or doesn't handle the two formats separately — showing lack of abstraction skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

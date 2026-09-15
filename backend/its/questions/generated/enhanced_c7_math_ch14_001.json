@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch14_001",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch14_001",
+   "title": "c7_math_ch14_001",
+   "questions": [
+    {
+     "q": "What are the only two permitted tools allowed in classical geometric constructions according to Euclidean rules?",
+     "a": "A ruler (straightedge) and a pair of compasses. A wrong answer—such as including a protractor or a set square—reveals a misunderstanding of classical Euclidean construction rules, where measurement instruments are replaced by pure locus and intersection principles.",
+     "self_check": true
+    },
+    {
+     "q": "Why must you never change the compass width once it has been set to measure a specific radius during an arc-drawing sequence?",
+     "a": "Keeping the compass width fixed guarantees that all points drawn along the arc maintain an equal, exact distance from the center, which is essential for creating congruent lengths and equilateral shapes. A wrong answer shows that the student views the compass merely as a drawing aid rather than a precision tool for maintaining invariant distance.",
+     "self_check": true
+    },
+    {
+     "q": "If you set your compass to a width of 5.4 cm using a ruler and draw an arc from point A, what is the exact distance from point A to any point lying on that arc?",
+     "a": "The exact distance is 5.4 cm. Working steps: 1. Identify the fixed radius set on the compass, which is given as 5.4 cm. 2. Recall the definition of a circle or arc: every point on the boundary of an arc drawn with a compass is equidistant from the center. 3. Conclude that the distance from the center A to the arc is equal to the radius span. 4. State the final answer with units as 5.4 cm. A wrong answer indicates confusion between the radius of an arc and the diameter, or a failure to understand that a compass maintains a constant distance.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the difference between using a ruler with measurement markings versus using an ungraduated straightedge in geometric constructions. Why is an ungraduated straightedge preferred in strict geometric proofs?",
+     "a": "An ungraduated straightedge is used solely to connect two points with a straight line, preventing reliance on numerical measurement errors, whereas a ruler with markings invites rounding and visual measurement mistakes. A wrong answer suggests the student thinks construction is just about drawing pretty pictures rather than establishing logical, exact geometric relationships.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following student procedure: \"To copy a line segment AB, I looked at my plastic ruler, saw it was 6.2 cm, and drew a new line using the 0 to 6.2 cm markings on the ruler.\" Is this a valid geometric construction using a compass and ruler?",
+     "a": "No, this is not a valid construction method. While the resulting line is 6.2 cm, classical geometric construction requires using the compass to transfer the length directly from the original segment without reading numerical values from a scale. A wrong answer shows the student does not distinguish between measurement (using numbers) and construction (using geometric relationships and tools).",
+     "self_check": true
+    },
+    {
+     "q": "Design a short set of instructions using only an ungraduated straightedge and a compass to verify if two separate line segments drawn on your paper are of equal length.",
+     "a": "Place the metal pointer of the compass at one end of the first line segment and adjust the pencil end so it touches the other end. Without changing the compass width, lift it and place the metal pointer at one end of the second line segment; if the pencil end touches the exact opposite endpoint, the segments are equal in length. A poor answer that suggests using a ruler's numerical scale reveals a failure to grasp how compasses transfer lengths independently of numbers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_chem_ch3_6",
+ "concepts": [
+  {
+   "id": "enh:c9_chem_ch3_6",
+   "title": "c9_chem_ch3_6",
+   "questions": [
+    {
+     "q": "What is the valency cross method rule for writing the chemical formula of a compound formed between a cation of valency 'x' and an anion of valency 'y'?",
+     "a": "The rule: write the symbols of the cation and anion side by side, write their valencies above each symbol, cross the valencies down to become subscripts of the opposite ion, and simplify the subscripts to the lowest whole-number ratio. If the anion is a polyatomic ion, enclose it in brackets before writing the subscript. A wrong answer (e.g., \"just write the valencies as subscripts without crossing\" or \"never use brackets\") reveals the student has memorized the steps mechanically without understanding the charge-balance principle behind the cross-over.",
+     "self_check": true
+    },
+    {
+     "q": "Why must we enclose a polyatomic ion in brackets when its crossed valency subscript is greater than 1, but we do not use brackets for a monatomic ion in the same situation?",
+     "a": "Brackets are used for polyatomic ions (e.g., NO₃⁻, SO₄²⁻) to indicate that the subscript applies to the entire group of atoms as a single unit. Without brackets, a formula like CaNO₃₂ would be misinterpreted as one calcium, one nitrogen, and thirty-two oxygen atoms, instead of one calcium, two nitrogens, and six oxygens. Monatomic ions (e.g., Cl⁻, O²⁻) consist of a single atom, so the subscript directly indicates the number of those atoms without ambiguity. A wrong answer (e.g., \"brackets are only for covalent compounds\") shows the student does not grasp that polyatomic ions behave as a single charged entity in ionic compounds.",
+     "self_check": true
+    },
+    {
+     "q": "Write the chemical formula for aluminium sulfate using the valency cross method. Show all steps including the valencies used.",
+     "a": "Step 1: Identify ions – Aluminium ion = Al³⁺ (valency 3), Sulfate ion = SO₄²⁻ (valency 2).\nStep 2: Write symbols with valencies: Al³⁺, SO₄²⁻.\nStep 3: Cross valencies: Al gets subscript 2, SO₄ gets subscript 3 → Al₂(SO₄)₃.\nStep 4: Check simplification – subscripts 2 and 3 have no common factor, so formula is Al₂(SO₄)₃.\nStep 5: Verify charge balance: 2×(+3) + 3×(-2) = 0. Correct.\nA wrong answer like AlSO₄ or Al₃(SO₄)₂ reveals the student either did not cross the valencies correctly, forgot brackets for the polyatomic ion, or does not know the fixed valencies of common ions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the formulae of magnesium oxide (MgO) and magnesium peroxide (MgO₂). Both contain Mg²⁺ and oxygen-based anions. Explain why the valency cross method gives different subscripts for oxygen in these two compounds.",
+     "a": "In MgO, the anion is oxide O²⁻ (valency 2). Cross valencies: Mg²⁺ and O²⁻ → Mg₂O₂ → simplify to MgO (1:1 ratio). In MgO₂, the anion is peroxide O₂²⁻ (valency 2 as a diatomic unit). Cross valencies: Mg²⁺ and (O₂)²⁻ → Mg₂(O₂)₂ → simplify to Mg(O₂) or MgO₂. The difference arises because the peroxide ion is a polyatomic ion with a 2- charge on the O₂ unit, so the crossed subscript applies to the whole O₂ group, giving two oxygen atoms per magnesium. A wrong answer that treats both as O²⁻ shows the student cannot distinguish between monoatomic and polyatomic anions with the same charge magnitude.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the formula of calcium phosphate as Ca₃(PO₄)₂. Another student writes it as Ca₂(PO₄)₃. Evaluate which formula is correct and justify your evaluation using the valency cross method.",
+     "a": "Calcium ion = Ca²⁺ (valency 2), Phosphate ion = PO₄³⁻ (valency 3). Cross valencies: Ca gets subscript 3, PO₄ gets subscript 2 → Ca₃(PO₄)₂. Charge check: 3×(+2) + 2×(-3) = 0. The second formula Ca₂(PO₄)₃ would give charge: 2×(+2) + 3×(-3) = -5 ≠ 0, so it is not neutral. The correct formula is Ca₃(PO₄)₂. A wrong evaluation (choosing the second formula) reveals the student crossed the valencies incorrectly (e.g., swapped the valencies) or does not verify charge neutrality.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple card-game activity for your classmates to practice the valency cross method. The game must include at least 10 cation cards, 10 anion cards (including polyatomic ions), and a rule for scoring based on correctly written formulae. Describe the game setup and rules in 4-5 sentences.",
+     "a": "Create two decks: Cation cards (e.g., Na⁺, Mg²⁺, Al³⁺, NH₄⁺, Ca²⁺, Fe²⁺, Fe³⁺, Cu⁺, Cu²⁺, Zn²⁺) and Anion cards (e.g., Cl⁻, O²⁻, OH⁻, NO₃⁻, CO₃²⁻, SO₄²⁻, PO₄³⁻, CH₃COO⁻, S²⁻, HCO₃⁻). Each player draws one cation and one anion card, writes the formula on a whiteboard using the cross method, and shows it. Other players verify: correct formula with brackets and simplification = 2 points; correct but missing brackets/simplification = 1 point; incorrect = 0. The player with the highest score after 5 rounds wins. A poor answer (e.g., no brackets rule, no polyatomic ions) reveals the student hasn't internalized the critical nuances of the method.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

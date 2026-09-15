@@ -1,0 +1,569 @@
+# ISC Class 11 Biology — Problem Type Definitions
+
+problem_types:
+
+  # ── TAXONOMY ──────────────────────────────────────────────────────────────
+
+  - id: TAXONOMY_CLASSIFICATION
+    display_name: "Taxonomic Classification"
+    description: "Classify organism using dichotomous key through taxonomic hierarchy"
+    topics: [taxonomy, five_kingdom, binomial_nomenclature]
+    bloom_levels: [Applying, Analyzing]
+    competency: standard
+    difficulty: medium
+    required_params: [organism_name, kingdom, key_traits]
+    step_sequence: [ST_GIVEN, ST_CLASSIFY, ST_NUMERICAL_CHECK]
+    solver_method: solve_taxonomy_classification
+    misconception_tags: [kingdom_vs_phylum, binomial_nomenclature, taxonomic_rank_order]
+
+  - id: TAXONOMY_INDIAN
+    display_name: "Taxonomy — Indian Organisms"
+    description: "Classify an Indian organism (plant/animal/fungus) into taxonomic groups"
+    topics: [taxonomy_india, five_kingdom]
+    bloom_levels: [Applying, Creating]
+    competency: competency
+    difficulty: medium
+    required_params: [organism_name, region, key_traits]
+    step_sequence: [ST_GIVEN, ST_CLASSIFY, ST_INDIAN_APPLY, ST_INNOVATION]
+    solver_method: solve_taxonomy_indian
+    misconception_tags: [kingdom_vs_phylum, binomial_nomenclature]
+
+  - id: FUNGI_CLASSIFICATION
+    display_name: "Fungi Classification"
+    description: "Classify fungi into major groups using morphological features"
+    topics: [kingdom_fungi]
+    bloom_levels: [Understanding, Applying]
+    competency: standard
+    difficulty: medium
+    required_params: [fungus_type, mycelium, spore_type, fruiting_body]
+    step_sequence: [ST_GIVEN, ST_CLASSIFY, ST_CRITICAL_ANALYSIS]
+    solver_method: solve_fungi_classification
+    misconception_tags: [zygomycetes_vs_ascomycetes, saprophytic_vs_parasitic]
+
+  - id: FUNGI_INDIAN
+    display_name: "Fungi of India — Economic Importance"
+    description: "Analyze economic importance of fungi in India (mushrooms, antibiotics, diseases)"
+    topics: [fungi_india, economic_biology]
+    bloom_levels: [Analyzing, Creating]
+    competency: competency
+    difficulty: medium
+    required_params: [fungus_name, economic_use, indian_region, production_data]
+    step_sequence: [ST_GIVEN, ST_CRITICAL_ANALYSIS, ST_INDIAN_APPLY, ST_INNOVATION]
+    solver_method: solve_fungi_indian
+    misconception_tags: [edible_vs_poisonous_mushrooms, antibiotic_production]
+
+  - id: PLANT_KINGDOM_CLASSIFICATION
+    display_name: "Plant Kingdom — Major Groups"
+    description: "Classify plants into Bryophyta, Pteridophyta, Gymnosperms, Angiosperms"
+    topics: [kingdom_plantae]
+    bloom_levels: [Understanding, Applying]
+    competency: standard
+    difficulty: medium
+    required_params: [plant_group, vascular_tissue, seed_type, dominant_generation]
+    step_sequence: [ST_GIVEN, ST_CLASSIFY, ST_CRITICAL_ANALYSIS]
+    solver_method: solve_plant_kingdom
+    misconception_tags: [bryophyte_vs_pteridophyte, gymnosperm_vs_angiosperm]
+
+  - id: ANIMALIA_CLASSIFICATION
+    display_name: "Animal Kingdom — Phylum Identification"
+    description: "Identify phylum of an animal using morphological characteristics"
+    topics: [kingdom_animalia]
+    bloom_levels: [Understanding, Applying]
+    competency: standard
+    difficulty: medium
+    required_params: [animal_name, phylum_key_features, coelom_type, symmetry]
+    step_sequence: [ST_GIVEN, ST_CLASSIFY, ST_CRITICAL_ANALYSIS]
+    solver_method: solve_animalia_classification
+    misconception_tags: [porifera_vs_coelenterata, chordata_features]
+
+  - id: MONERA_PROTISTA
+    display_name: "Monera and Protista Classification"
+    description: "Distinguish between Monera and Protista based on key characteristics"
+    topics: [kingdom_monera, kingdom_protista]
+    bloom_levels: [Understanding]
+    competency: standard
+    difficulty: easy
+    required_params: [organism_type, cell_wall, nucleus_present, locomotion]
+    step_sequence: [ST_GIVEN, ST_CLASSIFY, ST_INFERENCE]
+    solver_method: solve_monera_protista
+    misconception_tags: [prokaryote_vs_eukaryote, unicellular_vs_multicellular]
+
+  # ── PHOTOSYNTHESIS ────────────────────────────────────────────────────────
+
+  - id: PHOTOSYNTHESIS_RATE
+    display_name: "Photosynthesis Rate Calculation"
+    description: "Calculate photosynthetic rate under varying light, CO2, temperature"
+    topics: [photosynthesis, light_reaction, calvin_cycle]
+    bloom_levels: [Applying, Analyzing]
+    competency: standard
+    difficulty: medium
+    required_params: [light_intensity, co2_conc, temperature, plant_type]
+    step_sequence: [ST_GIVEN, ST_METABOLIC_EQN, ST_ENERGY_CALC, ST_PHOTOSYNTHESIS_ANALYSIS, ST_NUMERICAL_CHECK]
+    solver_method: solve_photosynthesis_rate
+    misconception_tags: [light_dependent_vs_independent, atp_nadph_usage]
+
+  - id: PHOTOSYNTHESIS_INDIAN
+    display_name: "Photosynthesis and Crop Yield (Indian Context)"
+    description: "Analyze how photosynthesis affects crop productivity in Indian farming conditions"
+    topics: [photosynthesis_india, crop_productivity]
+    bloom_levels: [Analyzing, Creating]
+    competency: competency
+    difficulty: hard
+    required_params: [crop_name, region, light_conditions, yield_data, improvement_strategy]
+    step_sequence: [ST_GIVEN, ST_PHOTOSYNTHESIS_ANALYSIS, ST_INDIAN_APPLY, ST_INNOVATION, ST_NUMERICAL_CHECK]
+    solver_method: solve_photosynthesis_indian
+    misconception_tags: [photorespiration_loss, c3_c4_adaptation]
+
+  - id: C3_C4_PHOTOSYNTHESIS
+    display_name: "C3 vs C4 Photosynthesis"
+    description: "Compare C3 and C4 pathways and their adaptive significance"
+    topics: [c3_c4_photosynthesis, plant_adaptations]
+    bloom_levels: [Analyzing, Evaluating]
+    competency: standard
+    difficulty: hard
+    required_params: [plant_type, temperature, water_availability, photorespiration_rate]
+    step_sequence: [ST_GIVEN, ST_CRITICAL_ANALYSIS, ST_INFERENCE, ST_PHOTOSYNTHESIS_ANALYSIS]
+    solver_method: solve_c3_c4_comparison
+    misconception_tags: [kranz_anatomy, pep_carboxylase_vs_rubisco]
+
+  - id: FACTORS_PHOTOSYNTHESIS
+    display_name: "Factors Affecting Photosynthesis"
+    description: "Analyze effect of light intensity, CO2, and temperature on photosynthesis rate"
+    topics: [photosynthesis_factors]
+    bloom_levels: [Analyzing]
+    competency: standard
+    difficulty: medium
+    required_params: [factor_name, factor_value, control_value, rate_change]
+    step_sequence: [ST_GIVEN, ST_PHOTOSYNTHESIS_ANALYSIS, ST_CRITICAL_ANALYSIS]
+    solver_method: solve_factors_photosynthesis
+    misconception_tags: [limiting_factor, saturation_point, compensation_point]
+
+  # ── RESPIRATION ───────────────────────────────────────────────────────────
+
+  - id: RESPIRATION_ATP
+    display_name: "Cellular Respiration — ATP Yield"
+    description: "Calculate ATP from glycolysis, Krebs cycle, and electron transport"
+    topics: [glycolysis, krebs_cycle, electron_transport]
+    bloom_levels: [Applying]
+    competency: standard
+    difficulty: medium
+    required_params: [glucose_molecules, pathway_stage]
+    step_sequence: [ST_GIVEN, ST_METABOLIC_EQN, ST_ENERGY_CALC, ST_RESPIRATION_ANALYSIS, ST_NUMERICAL_CHECK]
+    solver_method: solve_respiration_atp
+    misconception_tags: [substrate_level_vs_oxidative, anaerobic_vs_aerobic]
+
+  - id: RESPIRATION_INDIAN
+    display_name: "Respiration and Crop Storage (Indian Context)"
+    description: "Analyze respiration in harvested crops and post-harvest losses in India"
+    topics: [respiration_india, post_harvest_losses]
+    bloom_levels: [Analyzing, Creating]
+    competency: competency
+    difficulty: hard
+    required_params: [crop_name, storage_condition, respiration_rate, temperature, loss_percentage]
+    step_sequence: [ST_GIVEN, ST_RESPIRATION_ANALYSIS, ST_INDIAN_APPLY, ST_INNOVATION, ST_NUMERICAL_CHECK]
+    solver_method: solve_respiration_indian
+    misconception_tags: [aerobic_vs_anaerobic_storage, q10_effect]
+
+  - id: ANAEROBIC_RESPIRATION
+    display_name: "Anaerobic Respiration (Fermentation)"
+    description: "Compare aerobic and anaerobic respiration and calculate ATP yield difference"
+    topics: [fermentation, anaerobic_respiration]
+    bloom_levels: [Applying, Analyzing]
+    competency: standard
+    difficulty: medium
+    required_params: [glucose_molecules, pathway_type]
+    step_sequence: [ST_GIVEN, ST_METABOLIC_EQN, ST_ENERGY_CALC, ST_RESPIRATION_ANALYSIS, ST_NUMERICAL_CHECK]
+    solver_method: solve_anaerobic_respiration
+    misconception_tags: [lactic_acid_vs_alcoholic_fermentation, net_atp_aerobic]
+
+  # ── PLANT GROWTH AND DEVELOPMENT ──────────────────────────────────────────
+
+  - id: PHYTOHORMONES
+    display_name: "Phytohormones and Their Functions"
+    description: "Identify phytohormones and their effects on plant growth"
+    topics: [phytohormones, plant_growth]
+    bloom_levels: [Understanding, Applying]
+    competency: standard
+    difficulty: medium
+    required_params: [hormone_name, function, plant_response]
+    step_sequence: [ST_GIVEN, ST_HORMONE_ANALYSIS, ST_CRITICAL_ANALYSIS]
+    solver_method: solve_phytohormones
+    misconception_tags: [auxin_vs_gibberellin, synthetic_vs_natural_pgr]
+
+  - id: PHYTOHORMONES_INDIAN
+    display_name: "Plant Growth Regulators in Indian Agriculture"
+    description: "Analyze the use of PGRs in Indian horticulture and cash crops"
+    topics: [phytohormones_india, horticulture_india]
+    bloom_levels: [Analyzing, Creating]
+    competency: competency
+    difficulty: hard
+    required_params: [hormone_name, crop_name, application, indian_state, yield_improvement]
+    step_sequence: [ST_GIVEN, ST_HORMONE_ANALYSIS, ST_INDIAN_APPLY, ST_INNOVATION]
+    solver_method: solve_phytohormones_indian
+    misconception_tags: [auxin_vs_gibberellin, synthetic_vs_natural_pgr]
+
+  - id: PHOTOPERIODISM
+    display_name: "Photoperiodism and Vernalization"
+    description: "Classify plants based on photoperiodic response and analyze vernalization"
+    topics: [photoperiodism, vernalization, plant_growth]
+    bloom_levels: [Understanding, Applying]
+    competency: standard
+    difficulty: medium
+    required_params: [plant_name, photoperiod_type, critical_day_length, vernalization_required]
+    step_sequence: [ST_GIVEN, ST_HORMONE_ANALYSIS, ST_CRITICAL_ANALYSIS]
+    solver_method: solve_photoperiodism
+    misconception_tags: [short_day_vs_long_day, sd_vs_ld_plants, vernalization_mechanism]
+
+  - id: SEED_DORMANCY
+    display_name: "Seed Dormancy and Germination"
+    description: "Analyze causes of seed dormancy and methods to break it"
+    topics: [seed_dormancy, seed_germination]
+    bloom_levels: [Analyzing]
+    competency: standard
+    difficulty: medium
+    required_params: [seed_type, dormancy_cause, germination_requirement]
+    step_sequence: [ST_GIVEN, ST_HORMONE_ANALYSIS, ST_CRITICAL_ANALYSIS]
+    solver_method: solve_seed_dormancy
+    misconception_tags: [exogenous_vs_endogenous_dormancy, gibberellin_breaks_dormancy]
+
+  # ── HUMAN PHYSIOLOGY ──────────────────────────────────────────────────────
+
+  - id: DIGESTION_SYSTEM
+    display_name: "Human Digestive System"
+    description: "Identify digestive organs, enzymes, and end products of digestion"
+    topics: [digestive_system, digestion_enzymes]
+    bloom_levels: [Understanding, Applying]
+    competency: standard
+    difficulty: medium
+    required_params: [food_type, enzyme, organ, end_product]
+    step_sequence: [ST_GIVEN, ST_DIGESTION_CALC, ST_CRITICAL_ANALYSIS]
+    solver_method: solve_digestion_system
+    misconception_tags: [amylase_vs_pepsin, small_intestine_absorption]
+
+  - id: DIGESTION_INDIAN
+    display_name: "Nutrition and Digestion (Indian Diet Context)"
+    description: "Analyze nutritional content of Indian meals and digestive efficiency"
+    topics: [nutrition_india, digestive_system]
+    bloom_levels: [Analyzing, Creating]
+    competency: competency
+    difficulty: hard
+    required_params: [meal_name, food_items, caloric_content, nutritional_balance]
+    step_sequence: [ST_GIVEN, ST_DIGESTION_CALC, ST_CRITICAL_ANALYSIS, ST_INDIAN_APPLY, ST_NUMERICAL_CHECK]
+    solver_method: solve_digestion_indian
+    misconception_tags: [protein_calorie_malnutrition, balanced_diet_components]
+
+  - id: RESPIRATORY_SYSTEM
+    display_name: "Human Respiratory System"
+    description: "Calculate lung volumes, capacities, and gas exchange efficiency"
+    topics: [respiratory_system, breathing]
+    bloom_levels: [Applying]
+    competency: standard
+    difficulty: medium
+    required_params: [tidal_volume, inspiratory_reserve, expiratory_reserve, residual_volume]
+    step_sequence: [ST_GIVEN, ST_RESPIRATORY_CALC, ST_NUMERICAL_CHECK]
+    solver_method: solve_respiratory_system
+    misconception_tags: [tidal_vs_vital_capacity, external_vs_internal_respiration]
+
+  - id: RESPIRATORY_INDIAN
+    display_name: "Respiratory Health in India"
+    description: "Analyze respiratory disease burden (asthma, COPD, pneumonia) in Indian cities"
+    topics: [respiratory_diseases_india]
+    bloom_levels: [Analyzing, Creating]
+    competency: competency
+    difficulty: hard
+    required_params: [disease_name, city, pollution_level, prevalence_rate, intervention]
+    step_sequence: [ST_GIVEN, ST_RESPIRATORY_CALC, ST_CRITICAL_ANALYSIS, ST_INDIAN_APPLY, ST_INNOVATION]
+    solver_method: solve_respiratory_indian
+    misconception_tags: [asthma_vs_copd, outdoor_vs_indoor_air_pollution]
+
+  - id: BODY_FLUIDS
+    display_name: "Body Fluids — Blood Components"
+    description: "Calculate RBC, WBC, and platelet counts; analyze blood composition"
+    topics: [blood_composition, body_fluids]
+    bloom_levels: [Applying]
+    competency: standard
+    difficulty: easy
+    required_params: [blood_component, normal_count, observed_count, unit]
+    step_sequence: [ST_GIVEN, ST_RESPIRATORY_CALC, ST_NUMERICAL_CHECK]
+    solver_method: solve_body_fluids
+    misconception_tags: [rbc_vs_wbc, hemoglobin_function]
+
+  - id: EXCRETION
+    display_name: "Excretory System"
+    description: "Trace the path of urine formation and calculate kidney function parameters"
+    topics: [excretory_system, nephron]
+    bloom_levels: [Understanding, Applying]
+    competency: standard
+    difficulty: medium
+    required_params: [glomerular_pressure, Bowman_capsule_pressure, plasma_protein_osmotic]
+    step_sequence: [ST_GIVEN, ST_RESPIRATORY_CALC, ST_NUMERICAL_CHECK]
+    solver_method: solve_excretion
+    misconception_tags: [glomerular_filtration, tubular_reabsorption, urine_concentration]
+
+  - id: EXCRETION_INDIAN
+    display_name: "Kidney Disease Burden in India"
+    description: "Analyze prevalence of kidney diseases and dialysis access in India"
+    topics: [kidney_disease_india]
+    bloom_levels: [Analyzing, Creating]
+    competency: competency
+    difficulty: hard
+    required_params: [disease_type, state_prevalence, dialysis_centers, transplant_data]
+    step_sequence: [ST_GIVEN, ST_RESPIRATORY_CALC, ST_CRITICAL_ANALYSIS, ST_INDIAN_APPLY, ST_INNOVATION]
+    solver_method: solve_excretion_indian
+    misconception_tags: [ckd_stages, dialysis_vs_transplant]
+
+  - id: LOCOMOTION
+    display_name: "Locomotion and Movement"
+    description: "Analyze muscle contraction mechanism and types of movement"
+    topics: [locomotion, muscles, skeleton]
+    bloom_levels: [Understanding, Applying]
+    competency: standard
+    difficulty: medium
+    required_params: [muscle_type, contraction_type, atp_involved]
+    step_sequence: [ST_GIVEN, ST_RESPIRATORY_CALC, ST_NUMERICAL_CHECK]
+    solver_method: solve_locomotion
+    misconception_tags: [actin_myosin_sliding, isotonic_vs_isometric]
+
+  - id: LOCOMOTION_INDIAN
+    display_name: "Physical Activity and Health (Indian Context)"
+    description: "Analyze physical activity levels and lifestyle diseases in India"
+    topics: [physical_activity_india, lifestyle_diseases]
+    bloom_levels: [Analyzing, Creating]
+    competency: competency
+    difficulty: medium
+    required_params: [activity_level, bmi_category, state, recommended_activity]
+    step_sequence: [ST_GIVEN, ST_CRITICAL_ANALYSIS, ST_INDIAN_APPLY, ST_INNOVATION]
+    solver_method: solve_locomotion_indian
+    misconception_tags: [sedentary_lifestyle_impact, physical_activity_guidelines]
+
+  - id: NEURAL_CONTROL
+    display_name: "Neural Control and Coordination"
+    description: "Analyze neuron structure, nerve impulse transmission, and reflex arcs"
+    topics: [neural_control, neurons, reflex_arc]
+    bloom_levels: [Understanding, Applying]
+    competency: standard
+    difficulty: medium
+    required_params: [neuron_part, signal_direction, synapse_type]
+    step_sequence: [ST_GIVEN, ST_NEURAL_ANALYSIS, ST_CRITICAL_ANALYSIS]
+    solver_method: solve_neural_control
+    misconception_tags: [resting_potential_vs_action_potential, saltatory_conduction]
+
+  - id: CHEMICAL_COORDINATION
+    display_name: "Chemical Coordination — Endocrine System"
+    description: "Identify endocrine glands, hormones, and their target organs"
+    topics: [endocrine_system, hormones]
+    bloom_levels: [Understanding, Applying]
+    competency: standard
+    difficulty: medium
+    required_params: [gland_name, hormone, target_organ, effect]
+    step_sequence: [ST_GIVEN, ST_NEURAL_ANALYSIS, ST_CRITICAL_ANALYSIS]
+    solver_method: solve_chemical_coordination
+    misconception_tags: [endocrine_vs_exocrine, hypothalamus_pituitary]
+
+  - id: ENDOCRINE_INDIAN
+    display_name: "Endocrine Disorders in India"
+    description: "Analyze prevalence of diabetes, thyroid disorders, and other endocrine diseases in India"
+    topics: [endocrine_disorders_india, diabetes_india]
+    bloom_levels: [Analyzing, Creating]
+    competency: competency
+    difficulty: hard
+    required_params: [disorder_name, prevalence_india, state_data, management_approach]
+    step_sequence: [ST_GIVEN, ST_CRITICAL_ANALYSIS, ST_INDIAN_APPLY, ST_INNOVATION]
+    solver_method: solve_endocrine_indian
+    misconception_tags: [t1dm_vs_t2dm, hypothyroidism_vs_hyperthyroidism]
+
+  # ── MOLECULAR BIOLOGY (Class 11 basics) ───────────────────────────────────
+
+  - id: TRANSCRIPTION_C11
+    display_name: "DNA Transcription (Class 11)"
+    description: "Write mRNA from a DNA template strand"
+    topics: [transcription_c11, dna_structure]
+    bloom_levels: [Applying]
+    competency: standard
+    difficulty: easy
+    required_params: [dna_sequence, strand_type]
+    step_sequence: [ST_GIVEN, ST_COMPLEMENT, ST_TRANSCRIPTION, ST_NUMERICAL_CHECK]
+    solver_method: solve_transcription_c11
+    misconception_tags: [template_vs_coding, uracil_not_thymine]
+
+  - id: TRANSLATION_C11
+    display_name: "Translation to Polypeptide (Class 11)"
+    description: "Convert mRNA to amino acid sequence using genetic code"
+    topics: [translation_c11, genetic_code]
+    bloom_levels: [Applying]
+    competency: standard
+    difficulty: medium
+    required_params: [mrna_sequence]
+    step_sequence: [ST_GIVEN, ST_TRANSCRIPTION, ST_TRANSLATION, ST_NUMERICAL_CHECK]
+    solver_method: solve_translation_c11
+    misconception_tags: [codons_3_bases, start_stop_codon]
+
+  - id: GC_CONTENT_C11
+    display_name: "GC Content Calculation (Class 11)"
+    description: "Calculate GC content of a DNA sequence"
+    topics: [dna_structure_c11]
+    bloom_levels: [Applying]
+    competency: standard
+    difficulty: easy
+    required_params: [dna_sequence]
+    step_sequence: [ST_GIVEN, ST_APPLY_FORMULA, ST_NUMERICAL_CHECK]
+    solver_method: solve_gc_content_c11
+    misconception_tags: [gc_formula, at_gc_pairing]
+
+  - id: CELL_CYCLE
+    display_name: "Cell Cycle and Mitosis"
+    description: "Identify phases of cell cycle and events in mitosis"
+    topics: [cell_cycle, mitosis, meiosis]
+    bloom_levels: [Understanding, Applying]
+    competency: standard
+    difficulty: medium
+    required_params: [phase_name, events, chromosome_count_start, chromosome_count_end]
+    step_sequence: [ST_GIVEN, ST_CRITICAL_ANALYSIS, ST_INFERENCE]
+    solver_method: solve_cell_cycle
+    misconception_tags: [mitosis_vs_meiosis, chromosome_vs_chromatid, cell_cycle_phases]
+
+  # ── ECOLOGY (Class 11 basics) ──────────────────────────────────────────────
+
+  - id: POPULATION_GROWTH_C11
+    display_name: "Population Growth"
+    description: "Apply exponential and logistic population growth equations"
+    topics: [population_growth_c11]
+    bloom_levels: [Applying]
+    competency: standard
+    difficulty: medium
+    required_params: [initial_population, growth_rate, time_period, growth_model]
+    step_sequence: [ST_GIVEN, ST_APPLY_FORMULA, ST_POPULATION_MODEL, ST_NUMERICAL_CHECK]
+    solver_method: solve_population_growth_c11
+    misconception_tags: [exponential_vs_logistic, carrying_capacity]
+
+  - id: POPULATION_GROWTH_INDIAN_C11
+    display_name: "Indian Population Analysis (Class 11)"
+    description: "Analyze India's population data and trends"
+    topics: [population_ecology_india_c11]
+    bloom_levels: [Analyzing, Creating]
+    competency: competency
+    difficulty: hard
+    required_params: [year, population_data, growth_rate, state_name]
+    step_sequence: [ST_GIVEN, ST_POPULATION_MODEL, ST_CRITICAL_ANALYSIS, ST_INDIAN_APPLY]
+    solver_method: solve_population_growth_indian_c11
+    misconception_tags: [census_vs_estimation, decennial_growth]
+
+  - id: ECOSYSTEM_INDIAN
+    display_name: "Indian Ecosystems"
+    description: "Analyze characteristics of an Indian ecosystem (forest, grassland, desert, wetland)"
+    topics: [ecosystem_india]
+    bloom_levels: [Analyzing, Creating]
+    competency: competency
+    difficulty: medium
+    required_params: [ecosystem_type, location, dominant_species, key_features]
+    step_sequence: [ST_GIVEN, ST_ECOLOGY_CALC, ST_CRITICAL_ANALYSIS, ST_INDIAN_APPLY]
+    solver_method: solve_ecosystem_indian
+    misconception_tags: [terrestrial_vs_aquatic, food_web_vs_food_chain]
+
+  - id: ENERGY_FLOW_C11
+    display_name: "Ecological Pyramids"
+    description: "Calculate energy transfer between trophic levels"
+    topics: [ecological_pyramids, energy_flow]
+    bloom_levels: [Applying, Analyzing]
+    competency: standard
+    difficulty: medium
+    required_params: [producer_energy, trophic_levels, efficiency_percentage]
+    step_sequence: [ST_GIVEN, ST_APPLY_FORMULA, ST_ECOLOGY_CALC, ST_NUMERICAL_CHECK]
+    solver_method: solve_energy_flow_c11
+    misconception_tags: [10_percent_rule, pyramid_types]
+
+  - id: BIOGEOCHEMICAL_CYCLES
+    display_name: "Biogeochemical Cycles"
+    description: "Trace carbon, nitrogen, or phosphorus cycle with Indian context"
+    topics: [biogeochemical_cycles]
+    bloom_levels: [Understanding, Applying]
+    competency: standard
+    difficulty: medium
+    required_params: [cycle_name, reservoir, biotic_processes, indian_context]
+    step_sequence: [ST_GIVEN, ST_ECOLOGY_CALC, ST_CRITICAL_ANALYSIS]
+    solver_method: solve_biogeochemical_cycles
+    misconception_tags: [carbon_cycle_vs_nitrogen_cycle, reservoir_vs_exchange]
+
+  - id: NITROGEN_CYCLE_INDIAN
+    display_name: "Nitrogen Cycle and Indian Agriculture"
+    description: "Analyze nitrogen fixation and fertilizer use in Indian agriculture"
+    topics: [nitrogen_cycle_india, fertilizers_india]
+    bloom_levels: [Analyzing, Creating]
+    competency: competency
+    difficulty: hard
+    required_params: [fertilizer_type, nitrogen_content, crop_name, state_name, application_rate]
+    step_sequence: [ST_GIVEN, ST_ECOLOGY_CALC, ST_CRITICAL_ANALYSIS, ST_INDIAN_APPLY, ST_INNOVATION]
+    solver_method: solve_nitrogen_cycle_indian
+    misconception_tags: [biological_vs_industrial_nfixation, nitrate_vs_ammonium]
+
+  # ── GENETICS (Class 11 basics) ────────────────────────────────────────────
+
+  - id: MONOHYBRID_CROSS_C11
+    display_name: "Monohybrid Cross (Class 11)"
+    description: "Predict offspring from a single-gene cross using Punnett square"
+    topics: [monohybrid_cross_c11]
+    bloom_levels: [Applying]
+    competency: standard
+    difficulty: easy
+    required_params: [parent1_alleles, parent2_alleles, dominant_allele, trait_name]
+    step_sequence: [ST_GIVEN, ST_PUNNETT_SQUARE, ST_RATIO, ST_VERIFY_GENETICS]
+    solver_method: solve_monohybrid_cross_c11
+    misconception_tags: [homozygous_vs_heterozygous, genotypic_vs_phenotypic]
+
+  - id: HARDY_WEINBERG_C11
+    display_name: "Hardy-Weinberg Principle (Class 11)"
+    description: "Calculate allele and genotype frequencies in a population"
+    topics: [hardy_weinberg_c11]
+    bloom_levels: [Applying, Analyzing]
+    competency: standard
+    difficulty: medium
+    required_params: [dominant_phenotype_freq, population_size]
+    step_sequence: [ST_GIVEN, ST_HW_SETUP, ST_HW_CALC, ST_NUMERICAL_CHECK]
+    solver_method: solve_hardy_weinberg_c11
+    misconception_tags: [pq_equals_1, genotype_freq_formula]
+
+  standard_problem_types:
+    - TAXONOMY_CLASSIFICATION
+    - FUNGI_CLASSIFICATION
+    - PLANT_KINGDOM_CLASSIFICATION
+    - ANIMALIA_CLASSIFICATION
+    - MONERA_PROTISTA
+    - PHOTOSYNTHESIS_RATE
+    - C3_C4_PHOTOSYNTHESIS
+    - FACTORS_PHOTOSYNTHESIS
+    - RESPIRATION_ATP
+    - ANAEROBIC_RESPIRATION
+    - PHYTOHORMONES
+    - PHOTOPERIODISM
+    - SEED_DORMANCY
+    - DIGESTION_SYSTEM
+    - RESPIRATORY_SYSTEM
+    - BODY_FLUIDS
+    - EXCRETION
+    - LOCOMOTION
+    - NEURAL_CONTROL
+    - CHEMICAL_COORDINATION
+    - TRANSCRIPTION_C11
+    - TRANSLATION_C11
+    - GC_CONTENT_C11
+    - CELL_CYCLE
+    - POPULATION_GROWTH_C11
+    - ENERGY_FLOW_C11
+    - BIOGEOCHEMICAL_CYCLES
+    - MONOHYBRID_CROSS_C11
+    - HARDY_WEINBERG_C11
+
+  competency_problem_types:
+    - TAXONOMY_INDIAN
+    - FUNGI_INDIAN
+    - PHOTOSYNTHESIS_INDIAN
+    - RESPIRATION_INDIAN
+    - DIGESTION_INDIAN
+    - RESPIRATORY_INDIAN
+    - EXCRETION_INDIAN
+    - LOCOMOTION_INDIAN
+    - ENDOCRINE_INDIAN
+    - PHYTOHORMONES_INDIAN
+    - POPULATION_GROWTH_INDIAN_C11
+    - ECOSYSTEM_INDIAN
+    - NITROGEN_CYCLE_INDIAN

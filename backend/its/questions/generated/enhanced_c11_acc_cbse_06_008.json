@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_06_008",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_06_008",
+   "title": "c11_acc_cbse_06_008",
+   "questions": [
+    {
+     "q": "What is the primary purpose of opening a suspense account when a trial balance does not tally?",
+     "a": "The primary purpose is to temporarily balance the trial balance by placing the difference on the shorter side, enabling the preparation of financial statements while errors are being investigated. A wrong answer (e.g., \"to correct the error permanently\" or \"to record missing transactions\") reveals the student confuses the suspense account's temporary holding function with the actual rectification process or with a regular adjustment entry.",
+     "self_check": true
+    },
+    {
+     "q": "A trial balance shows excess debit of ₹8,000. The accountant credits the suspense account with ₹8,000. Later, it is discovered that the sales book was overcast by ₹3,000. Explain why the rectification entry for this error will debit the suspense account.",
+     "a": "Sales book overcast means the sales account was credited in excess by ₹3,000 (since sales book total is posted to credit of sales account). This excess credit caused the credit column of the trial balance to be higher by ₹3,000, which actually *reduced* the original debit excess. To rectify, we must debit sales account (to reduce the excess credit) and credit suspense account (to reduce the credit balance we initially created). A wrong answer (e.g., debiting suspense) shows the student cannot trace how the original error affected the trial balance difference and thus cannot determine the correct direction of the suspense account entry.",
+     "self_check": true
+    },
+    {
+     "q": "Pass the rectification entry through suspense account for: \"Cash received from Rahul ₹5,000 was posted to his account as ₹500.\" The trial balance had shown an excess credit, so suspense account was opened on the debit side.",
+     "a": "**Correct Entry:**  \nSuspense A/c Dr. 4,500  \n  To Rahul's A/c 4,500  \n**Reasoning:** Rahul's account was credited only ₹500 instead of ₹5,000 → short credit of ₹4,500 in Rahul's account. To rectify, we need to give additional credit of ₹4,500 to Rahul. Since the error is one-sided (only Rahul's account is wrong; cash book was correct), the other side goes to suspense. Because we are crediting Rahul, we debit suspense. A wrong answer (e.g., debiting Rahul or using ₹5,000) reveals the student cannot compute the short/excess amount or confuses the side of the original posting.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: (a) Errors rectified through suspense account vs. (b) Errors rectified by direct journal entry without suspense account. Give one example of each.",
+     "a": "(a) One-sided errors affecting only one account (e.g., sales book overcast, partial omission of posting) require suspense account because the other side of the double entry is missing. Example: Purchases book undercast by ₹1,000 → Purchases A/c Dr. 1,000 To Suspense A/c 1,000.  \n(b) Two-sided errors affecting two accounts (e.g., complete omission, error of principle, commission in two accounts) are rectified by a direct journal entry between the two affected accounts. Example: Credit sales to Mohan ₹10,000 recorded in purchases book → Mohan's A/c Dr. 10,000 To Sales A/c 10,000 and Purchases A/c Dr. 10,000 To Mohan's A/c 10,000 (or combined). A wrong answer that classifies a two-sided error as requiring suspense account shows the student has not mastered the distinction between errors disclosed/not disclosed by trial balance (c11_acc_cbse_06_003).",
+     "self_check": true
+    },
+    {
+     "q": "\"After rectifying all located errors, the suspense account still shows a debit balance of ₹12,000.\" Evaluate what this implies about the accounting records and the next steps.",
+     "a": "A remaining debit balance in suspense account means there are still undiscovered one-sided errors whose net effect is an excess debit (or short credit) of ₹12,000 in the ledger. The balance must be carried forward to the next accounting period and shown in the balance sheet (as an asset if debit, liability if credit). The accountant must continue searching for errors. A wrong answer (e.g., \"close it by transferring to P&L\" or \"it means all errors are fixed\") reveals the student treats suspense account as a regular nominal/real account rather than a temporary discrepancy holder.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a trial balance disagrees by ₹6,000 (excess credit). Invent two one-sided errors that could cause this difference, and show the suspense account ledger after opening and after rectifying both errors.",
+     "a": "**Scenario:** Trial balance: Debit ₹5,00,000, Credit ₹5,06,000 → Excess credit ₹6,000. Open Suspense A/c on Debit side with ₹6,000.  \n**Error 1:** Sales return book overcast by ₹2,000 → Sales Return A/c credited excess → Rectification: Suspense A/c Dr. 2,000 To Sales Return A/c 2,000.  \n**Error 2:** Cash paid to creditor ₹8,000 not posted to creditor's account → Creditor's A/c short debit ₹8,000 → Rectification: Creditor's A/c Dr. 8,000 To Suspense A/c 8,000.  \n**Suspense A/c Ledger:**  \nDr. Side: Diff. as per TB 6,000 | Cr. Side: Sales Return 2,000, Creditor 8,000 → Total Cr. 10,000 → Balance c/d 4,000 (Cr.).  \nA poor answer (errors not one-sided, amounts not netting to the difference, or wrong ledger posting) reveals the student cannot synthesize the full cycle: disagreement → opening entry → rectification entries → closing balance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

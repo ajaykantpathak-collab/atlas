@@ -1,0 +1,405 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 405,
+ "chapter_title": "Outcomes of Democracy",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jess405.txt",
+ "concepts": [
+  {
+   "id": "jess.405.1.1",
+   "title": "Assessing Democratic Outcomes",
+   "section": "How do we assess democracy's outcomes?",
+   "definition": "Evaluation of democratic systems requires viewing democracy as a set of favorable framework conditions rather than a direct solution to every socio-economic challenge.",
+   "formula": "N/A",
+   "key_idea": "Democracy establishes supportive conditions that require active citizen participation to realize outcomes.",
+   "textbook_ref": "jess405.txt page 64",
+   "question_patterns": [
+    "how do we evaluate the outcomes of democratic governance in Class 10 Civics",
+    "why is democracy considered better than dictatorship despite its practical shortcomings",
+    "explain the difference between moral and prudential reasons for supporting democratic systems",
+    "assess how democracy creates conditions for achieving socio-economic goals",
+    "analyze why expectations from democracy often differ from its practical reality"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify core democratic principles",
+     "explain": "Democracy promotes equality, enhances dignity, improves decision quality, resolves conflicts, and allows correction of errors."
+    },
+    {
+     "step": 2,
+     "action": "Distinguish between conditions and results",
+     "explain": "Recognize that democratic institutions create enabling conditions, but outcomes depend on citizens utilizing these opportunities."
+    }
+   ]
+  },
+  {
+   "id": "jess.405.2.1",
+   "title": "Accountable and Responsive Governance",
+   "section": "Accountable, responsive and legitimate government",
+   "definition": "A political setup where rulers are chosen and monitored by citizens, ensuring governance addresses public demands while remaining answerable.",
+   "formula": "N/A",
+   "key_idea": "Elected leaders must remain answerable to the electorate and attentive to public demands.",
+   "textbook_ref": "jess405.txt page 65",
+   "question_patterns": [
+    "how does democracy ensure accountable and responsive governance in Class 10 Social Science",
+    "explain why democratic decisions are more acceptable to people despite delays",
+    "examine the mechanisms through which citizens hold an elected government accountable",
+    "compare the responsiveness of democratic regimes with non-democratic regimes",
+    "what makes a democratic government attentive to the needs of its citizens"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine accountability mechanisms",
+     "explain": "Citizens exercise control through regular, free, and fair elections and public participation in decision-making."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate deliberative decision cost",
+     "explain": "Though democratic negotiation takes time, decisions following due process are more acceptable and durable."
+    }
+   ]
+  },
+  {
+   "id": "jess.405.2.2",
+   "title": "Transparency and Deliberative Decision-Making",
+   "section": "Accountable, responsive and legitimate government",
+   "definition": "The structural feature of democracy where official choices follow established procedures, enabling citizens to examine the decision-making process.",
+   "formula": "N/A",
+   "key_idea": "Institutionalized procedures and open information enable citizens to inspect government actions.",
+   "textbook_ref": "jess405.txt pages 65-66",
+   "question_patterns": [
+    "what is transparency in democratic decision making in Class 10 Civics",
+    "how does procedural decision making enhance the legitimacy of government actions",
+    "evaluate the role of public debate and right to information in democratic systems",
+    "why are non-democratic governments faster but potentially less effective in implementation",
+    "explain how citizens can verify if decisions were made using correct norms"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define transparency in governance",
+     "explain": "Transparency gives citizens the right and means to inspect whether official decisions followed prescribed norms."
+    },
+    {
+     "step": 2,
+     "action": "Contrast with non-democratic decision making",
+     "explain": "Non-democratic regimes make quick choices without public deliberation, leading to potential resistance and inefficiency."
+    }
+   ]
+  },
+  {
+   "id": "jess.405.2.3",
+   "title": "Legitimate Government and Public Mandate",
+   "section": "Accountable, responsive and legitimate government",
+   "definition": "A state of authority where the administration operates on the explicit consent and vote of the governed, making it the people's own rule.",
+   "formula": "N/A",
+   "key_idea": "Public preference for democratic rule stems from its fundamental legitimacy as citizen-governed rule.",
+   "textbook_ref": "jess405.txt page 66",
+   "question_patterns": [
+    "why is democratic government recognized as a legitimate government in Class 10 Civics",
+    "explain why people prefer democracy over military or monarchical rule",
+    "analyze the overwhelming global support for elected representative rule",
+    "how does democracy generate its own political support across South Asia",
+    "discuss why legitimacy makes democracy superior to non-democratic alternatives"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define political legitimacy",
+     "explain": "A democratic government is legitimate because it is formed by representatives chosen directly by the people."
+    },
+    {
+     "step": 2,
+     "action": "Analyze public support trends",
+     "explain": "Data across South Asia shows widespread preference for representative government over non-democratic alternatives."
+    }
+   ]
+  },
+  {
+   "id": "jess.405.3.1",
+   "title": "Economic Growth Rate Comparison",
+   "section": "Economic growth and development",
+   "definition": "Comparative assessment of wealth generation rates between dictatorial and democratic political systems across developing economies.",
+   "formula": "growth_gap = dictatorial_growth - democratic_growth",
+   "key_idea": "Economic growth rates between dictatorships and democracies show minimal difference in developing nations.",
+   "textbook_ref": "jess405.txt pages 67-68",
+   "question_patterns": [
+    "calculate the economic growth gap between dictatorial and democratic regimes",
+    "find the difference in growth rates between poor countries under dictatorship and democracy",
+    "how much higher is the growth rate of dictatorships compared to democracies",
+    "compute the growth difference using regime data from Class 10 Civics",
+    "determine the economic performance gap across different regime types"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate economic growth gap",
+     "explain": "Subtract democratic growth rate from dictatorial growth rate to evaluate the growth performance difference.",
+     "compute": "growth_gap = dictatorial_growth - democratic_growth"
+    }
+   ]
+  },
+  {
+   "id": "jess.405.4.1",
+   "title": "National Income Share Disparity",
+   "section": "Reduction of inequality and poverty",
+   "definition": "The structural gap between the proportion of total national wealth accumulated by the wealthiest quintile and the poorest quintile.",
+   "formula": "income_gap = top_share - bottom_share",
+   "key_idea": "Democracies often struggle to narrow the sharp concentration of wealth among top earners.",
+   "textbook_ref": "jess405.txt pages 68-69",
+   "question_patterns": [
+    "calculate the national income share gap between top 20 percent and bottom 20 percent",
+    "find the income disparity percentage in democratic nations like South Africa or Brazil",
+    "compute the wealth concentration gap using country income distribution data",
+    "what is the difference in income share between rich and poor segments",
+    "determine the disparity index between the top and bottom quintiles"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate income share gap",
+     "explain": "Subtract bottom twenty percent share from top twenty percent share to quantify inequality.",
+     "compute": "income_gap = top_share - bottom_share"
+    }
+   ]
+  },
+  {
+   "id": "jess.405.5.1",
+   "title": "Accommodation of Social Diversity",
+   "section": "Accommodation of social diversity",
+   "definition": "The ability of democratic systems to peacefully negotiate internal ethnic, religious, and linguistic divisions through power sharing and fluid majorities.",
+   "formula": "N/A",
+   "key_idea": "Democracy handles social conflicts by preventing majority rule from turning into permanent community dominance.",
+   "textbook_ref": "jess405.txt pages 70-71",
+   "question_patterns": [
+    "under what conditions do democracies successfully accommodate social diversity",
+    "explain why majority rule must not mean rule by a permanent majority community",
+    "how does democratic competition prevent social divisions from turning violent",
+    "examine the role of minority cooperation in maintaining political stability",
+    "contrast how democratic and non-democratic regimes handle internal social differences"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State first condition of accommodation",
+     "explain": "Majority must work together with minority groups so that decisions reflect the overall interest."
+    },
+    {
+     "step": 2,
+     "action": "State second condition of accommodation",
+     "explain": "Majority status must remain fluid across issues and elections, rather than tied permanently to birth or religion."
+    }
+   ]
+  },
+  {
+   "id": "jess.405.6.1",
+   "title": "Dignity and Legal Rights of Citizens",
+   "section": "Dignity and freedom of the citizens",
+   "definition": "The constitutional and moral empowerment of individuals, particularly women and historically marginalized castes, to challenge oppression.",
+   "formula": "N/A",
+   "key_idea": "Democratic recognition gives citizens legal and moral basis to fight social inequalities.",
+   "textbook_ref": "jess405.txt pages 71-72",
+   "question_patterns": [
+    "how does democracy promote the dignity and freedom of citizens in Class 10 Civics",
+    "explain how democratic principles help women wage struggles against discrimination",
+    "analyze the impact of democracy on strengthening claims of disadvantaged castes",
+    "why do moral and legal foundations in democracy help reduce social atrocities",
+    "discuss how recognition of equal status transforms individuals from subjects to citizens"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify moral and legal basis",
+     "explain": "Democracy grounds individual freedom and dignity in law, enabling marginalized groups to challenge discrimination."
+    },
+    {
+     "step": 2,
+     "action": "Assess impact on social equality",
+     "explain": "Recognizing rights empowers women and disadvantaged castes to demand equal status and fair treatment."
+    }
+   ]
+  },
+  {
+   "id": "jess.405.6.2",
+   "title": "Continuous Public Evaluation and Voter Efficacy",
+   "section": "Dignity and freedom of the citizens",
+   "definition": "The ongoing process where citizens continuously critique governance, reflecting awareness and confidence in the power of their vote.",
+   "formula": "N/A",
+   "key_idea": "Public complaints and expectations demonstrate the active success and deepening of democratic consciousness.",
+   "textbook_ref": "jess405.txt page 72",
+   "question_patterns": [
+    "why are continuous complaints by citizens seen as a testimony to democracy's success",
+    "explain what is meant by belief in the efficacy of vote in Class 10 Civics",
+    "how does democracy transform individuals from passive subjects into active citizens",
+    "examine why democratic examination never gets over",
+    "what does high voter belief in election impact signify for democratic health"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze public dissatisfaction as evidence of success",
+     "explain": "Complaints signify that citizens have developed critical awareness and hold expectations from rulers."
+    },
+    {
+     "step": 2,
+     "action": "Explain political efficacy",
+     "explain": "Belief that one's vote influences government decisions converts individuals from passive subjects into empowered citizens."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jess405.txt page 68 Table 1",
+   "concept": "jess.405.3.1",
+   "question_type": "compute",
+   "question_pattern": "calculate the economic growth gap between dictatorial regimes at {dictatorial_growth} percent and democratic regimes at {democratic_growth} percent",
+   "extracted_variables": {
+    "dictatorial_growth": 4.42,
+    "democratic_growth": 3.95
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate economic growth gap",
+     "explain": "Subtract democratic growth rate from dictatorial growth rate.",
+     "compute": "growth_gap = dictatorial_growth - democratic_growth"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jess405.txt page 68 Table 1",
+   "concept": "jess.405.3.1",
+   "question_type": "compute",
+   "question_pattern": "find the growth difference between poor countries under dictatorship with growth rate {dictatorial_growth} and poor countries under democracy with growth rate {democratic_growth}",
+   "extracted_variables": {
+    "dictatorial_growth": 4.34,
+    "democratic_growth": 4.28
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate economic growth gap",
+     "explain": "Subtract democratic growth rate from dictatorial growth rate.",
+     "compute": "growth_gap = dictatorial_growth - democratic_growth"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jess405.txt page 68 Table 2",
+   "concept": "jess.405.4.1",
+   "question_type": "compute",
+   "question_pattern": "calculate the income share gap in South Africa where top 20 percent holds {top_share} percent and bottom 20 percent holds {bottom_share} percent",
+   "extracted_variables": {
+    "top_share": 64.8,
+    "bottom_share": 2.9
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate income share gap",
+     "explain": "Subtract bottom twenty percent share from top twenty percent share.",
+     "compute": "income_gap = top_share - bottom_share"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jess405.txt page 68 Table 2",
+   "concept": "jess.405.4.1",
+   "question_type": "compute",
+   "question_pattern": "determine the income disparity percentage in Denmark where top 20 percent has {top_share} percent income and bottom 20 percent has {bottom_share} percent income",
+   "extracted_variables": {
+    "top_share": 34.5,
+    "bottom_share": 9.6
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate income share gap",
+     "explain": "Subtract bottom twenty percent share from top twenty percent share.",
+     "compute": "income_gap = top_share - bottom_share"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "jess405.txt page 73 exercise 1",
+   "questions": [
+    "How does democracy produce an accountable, responsive and legitimate government?"
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jess405.txt page 73 exercise 2",
+   "questions": [
+    "What are the conditions under which democracies accommodate social diversities?"
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jess405.txt page 73 exercise 3",
+   "questions": [
+    "Give arguments to support or oppose the following assertions: Industrialised countries can afford democracy but the poor need dictatorship to become rich.",
+    "Give arguments to support or oppose the following assertions: Democracy cannot reduce inequality of incomes between different citizens.",
+    "Give arguments to support or oppose the following assertions: Government in poor countries should spend less on poverty reduction, health, education and spend more on industries and infrastructure.",
+    "Give arguments to support or oppose the following assertions: In democracy all citizens have one vote, which means that there is absence of any domination and conflict."
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jess405.txt page 73 exercise 4",
+   "questions": [
+    "Identify the challenges to democracy in the following descriptions. Also suggest policy institutional mechanism to deepen democracy in the given situations: Following a High Court directive, a temple in Orissa that had separate entry doors for dalits and non-dalits allowed entry for all from the same door.",
+    "Identify the challenges to democracy in the following descriptions. Also suggest policy institutional mechanism to deepen democracy in the given situations: A large number of farmers are committing suicide in different states of India.",
+    "Identify the challenges to democracy in the following descriptions. Also suggest policy institutional mechanism to deepen democracy in the given situations: Following an allegation of killing of three civilians in Gandwara in a fake encounter by Jammu and Kashmir police, an enquiry has been ordered."
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "jess405.txt page 73 exercise 5",
+   "questions": [
+    "In the context of democracies, which of the following ideas is correct - democracies have successfully eliminated: A. conflicts among people, B. economic inequalities among people, C. differences of opinion about how marginalised sections are to be treated, D. the idea of political inequality"
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "jess405.txt page 73 exercise 6",
+   "questions": [
+    "In the context of assessing democracy, which among the following is the odd one out. Democracies need to ensure: A. free and fair elections, B. dignity of the individual, C. majority rule, D. equal treatment before law"
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "jess405.txt page 73 exercise 7",
+   "questions": [
+    "Studies on political and social inequalities in democracy show that: A. democracy and development go together, B. inequalities exist in democracies, C. inequalities do not exist under dictatorship, D. dictatorship is better than democracy"
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "jess405.txt page 74 exercise 8",
+   "questions": [
+    "Read the passage regarding Nannu filing an application under the Right to Information Act. What does Nannu example show? What impact did Nannu action have on officials?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

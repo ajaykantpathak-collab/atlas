@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_07_009",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_07_009",
+   "title": "c12_acc_cbse_07_009",
+   "questions": [
+    {
+     "q": "State the fundamental difference between a provision and a reserve in one sentence.",
+     "a": "A provision is a charge against profit to meet a known liability of uncertain amount/timing, while a reserve is an appropriation of profit to strengthen the financial position. A wrong answer (e.g., \"both are the same\" or \"reserve is for liability\") reveals confusion between charge vs. appropriation and misclassification in the Balance Sheet.",
+     "self_check": true
+    },
+    {
+     "q": "A company creates a \"Provision for Warranty Claims\" of ₹2,00,000. Explain whether this is a charge against profit or an appropriation of profit, and where it appears in the Balance Sheet.",
+     "a": "It is a charge against profit because it provides for a known obligation (warranty claims) with uncertain amount; it appears under 'Short-term Provisions' (or Long-term Provisions if warranty period > 12 months) in Current/Non-current Liabilities. A wrong answer placing it under Reserves and Surplus shows misunderstanding of the liability nature of provisions.",
+     "self_check": true
+    },
+    {
+     "q": "From the following items, classify each as Provision (P) or Reserve (R) and state the Schedule III sub-head where it would be disclosed:\n(a) Provision for Doubtful Debts\n(b) Capital Redemption Reserve\n(c) Provision for Taxation\n(d) General Reserve\n(e) Workmen Compensation Fund",
+     "a": "(a) P – Short-term Provisions (Current Liabilities)\n(b) R – Reserves and Surplus → Capital Redemption Reserve\n(c) P – Short-term Provisions (Current Liabilities)\n(d) R – Reserves and Surplus → General Reserve\n(e) P – Long-term Provisions (Non-current Liabilities) if not payable within 12 months, else Short-term Provisions.\nMisclassification indicates inability to map items to Schedule III structure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact on the Statement of Profit and Loss and the Balance Sheet when a company creates (i) a provision for depreciation and (ii) a general reserve. Use a numerical example: Profit before tax ₹10,00,000, provision for depreciation ₹2,00,000, transfer to general reserve ₹1,00,000. Show the final Profit after tax (tax rate 30%) and the Balance Sheet effect.",
+     "a": "(i) Provision for depreciation: Charge against profit → Profit before tax reduces to ₹8,00,000; tax = ₹2,40,000; Profit after tax = ₹5,60,000. Balance Sheet: Accumulated Depreciation (contra-asset) increases by ₹2,00,000; no separate liability.\n(ii) General reserve: Appropriation of profit after tax → Profit after tax = ₹7,00,000 (₹10,00,000 - ₹3,00,000 tax); then ₹1,00,000 transferred to General Reserve → Surplus (Retained Earnings) increases by ₹6,00,000; General Reserve increases by ₹1,00,000.\nA wrong answer that treats reserve as a charge before tax shows fundamental confusion.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement: \"Since both provisions and reserves reduce the profit available for distribution, they are essentially the same and can be merged under one head 'Reserves and Provisions' in the Balance Sheet.\" Provide at least three arguments based on accounting principles and Schedule III.",
+     "a": "Arguments: (1) Provisions are charges against profit (deducted before arriving at net profit), reserves are appropriations (deducted after net profit). (2) Provisions represent liabilities (obligations to outsiders), reserves represent owners' equity (internal sources). (3) Schedule III mandates separate presentation: Provisions under 'Non-current/Current Liabilities', Reserves under 'Shareholders' Funds – Reserves and Surplus'. Merging violates the principle of fair presentation and legal compliance.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scenario where a company has Profit before tax ₹50,00,000. It needs to create a provision for taxation (30%), a provision for doubtful debts (2% of debtors ₹2,00,000), and transfer ₹5,00,000 to General Reserve. Prepare the Profit and Loss Appropriation section and the relevant Balance Sheet extracts (Shareholders' Funds and Current Liabilities) showing correct disclosure.",
+     "a": "Profit before tax = ₹50,00,000\nLess: Provision for doubtful debts = ₹4,000 (charge) → Profit before tax = ₹49,96,000\nLess: Provision for taxation @30% = ₹14,98,800 (charge) → Profit after tax = ₹34,97,200\nLess: Transfer to General Reserve = ₹5,00,000 (appropriation) → Surplus = ₹29,97,200\nBalance Sheet:\nShareholders' Funds: Reserves and Surplus → General Reserve ₹5,00,000; Surplus ₹29,97,200\nCurrent Liabilities: Short-term Provisions → Provision for Taxation ₹14,98,800; Provision for Doubtful Debts ₹4,000\nA poor answer misses the order (charge before tax, appropriation after tax) or misplaces items.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

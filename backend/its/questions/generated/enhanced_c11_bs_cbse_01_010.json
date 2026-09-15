@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_01_010",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_01_010",
+   "title": "c11_bs_cbse_01_010",
+   "questions": [
+    {
+     "q": "Define business risk as per NCERT Class 11. How does it differ from the general dictionary meaning of \"risk\"?",
+     "a": "Business risk is the possibility of inadequate profits or losses due to uncertainties/unexpected events in business. Unlike general risk (which can be any danger), business risk specifically relates to profit/loss outcomes from business operations. A wrong answer (e.g., \"risk of losing money in stock market\") reveals the student confuses business risk with investment/financial risk, not operational business uncertainty.",
+     "self_check": true
+    },
+    {
+     "q": "\"Risk can be completely eliminated if a business plans carefully enough.\" Explain why this statement is false using the NCERT concept of 'nature of business risk'.",
+     "a": "False. NCERT states risk is an essential part of every business and can be minimised but never eliminated because it arises from uncertainties (future unknowns like natural calamities, policy changes) which no planning can fully control. A student agreeing reveals they misunderstand 'uncertainty' vs 'controllable variables' — they think all risks are manageable operational errors.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer grows wheat. Classify each event into the four cause categories: (a) Flood destroys crop, (b) Labourers go on strike during harvest, (c) Government reduces MSP (Minimum Support Price) after sowing, (d) Tractor engine fails due to manufacturing defect.",
+     "a": "(a) Natural cause (flood), (b) Human cause (strike), (c) Economic cause (price policy change), (d) Other cause (mechanical failure). A wrong classification (e.g., putting strike as economic) shows the student cannot distinguish human behaviour causes from market/price causes — a common confusion in exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare speculative risk and pure risk. Give one business example of each that is NOT from the textbook.",
+     "a": "Speculative risk: chance of gain OR loss (e.g., launching a new flavour of soft drink — may succeed or fail). Pure risk: only loss or no loss (e.g., warehouse fire — either burns or doesn't, no gain possible). A student giving \"investing in shares\" as speculative risk shows they confuse financial investment risk with business speculative risk (which arises from market conditions like demand/supply/fashion changes).",
+     "self_check": true
+    },
+    {
+     "q": "\"Large businesses always face higher risk than small businesses.\" Evaluate this statement using the NCERT principle on 'degree of risk'.",
+     "a": "Not always. NCERT says degree of risk depends MAINLY on nature AND size. A large FMCG company (stable demand, essential goods) may have lower risk than a small fashion boutique (highly volatile tastes). A student saying \"yes, large = more capital at stake\" ignores the 'nature of business' factor — a classic oversimplification error.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini-case study (3-4 sentences) of a business facing simultaneous risks from THREE different cause categories. Label each risk with its category.",
+     "a": "Example: \"Rohan runs a hill-station cafe. (1) Landslide blocks the only access road for a week (Natural). (2) His chef quits without notice during peak season (Human). (3) New GST rate increases his input costs by 12% overnight (Economic).\" A poor answer would list three risks from same category (e.g., three natural disasters) or mislabel categories, showing inability to apply the classification framework to a integrated scenario.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

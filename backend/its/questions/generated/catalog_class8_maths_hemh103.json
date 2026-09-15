@@ -1,0 +1,169 @@
+{
+ "catalog": "catalog_class8_maths_hemh103.json",
+ "concepts": [
+  {
+   "id": "hemh.103.3.1",
+   "title": "Classification of Polygons",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 55 gives 35",
+     "compute": "other = 90 - 55"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 55 degrees, find the other.",
+     "a": "35",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 76 degrees, find the other.",
+     "a": "104",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 59 degrees; find the other.",
+     "a": "121",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 21 degrees and 37 degrees, find the remaining angle.",
+     "a": "302",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 21 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "159",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 118 degrees. Find its co-interior partner.",
+     "a": "62",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.103.3.2",
+   "title": "Sum of the Measures of Exterior Angles of a Polygon",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 37 degrees, find the other.",
+     "a": "53",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 89 degrees, find the other.",
+     "a": "91",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 42 degrees; find the other.",
+     "a": "138",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 87 degrees and 70 degrees, find the remaining angle.",
+     "a": "203",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 52 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "128",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 126 degrees. Find its co-interior partner.",
+     "a": "54",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.103.3.3",
+   "title": "Sum of Interior Angles of a Polygon",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 74 degrees, find the other.",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 65 degrees, find the other.",
+     "a": "115",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 19 degrees; find the other.",
+     "a": "161",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 93 degrees and 167 degrees, find the remaining angle.",
+     "a": "100",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 57 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "123",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 98 degrees. Find its co-interior partner.",
+     "a": "82",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.103.3.4",
+   "title": "Parallelogram Properties",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the quadrilateral property to compute the value",
+     "explain": "use the quadrilateral property to compute the value: adj = 180 - 120 gives 60",
+     "compute": "adj = 180 - 120"
+    }
+   ],
+   "questions": [
+    {
+     "q": "In a parallelogram one angle is 120 degrees. Find the adjacent angle.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "A parallelogram has adjacent sides 11 cm and 13 cm. Find its perimeter.",
+     "a": "48",
+     "self_check": false
+    },
+    {
+     "q": "The diagonals of a parallelogram bisect each other. If one diagonal is 28 cm, what is the length of each half of it?",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "Find the side of a rhombus whose diagonals are 16 cm and 16 cm (two decimal places).",
+     "a": "11.31",
+     "self_check": false
+    },
+    {
+     "q": "In an isosceles right triangle each equal leg is 7 cm. Find the hypotenuse in exact-surds-free decimal (two decimal places).",
+     "a": "9.9",
+     "self_check": false
+    },
+    {
+     "q": "A kite has one pair of equal angles. If the angle between the unequal sides is 60 degrees and the kite is symmetric, the sum of the two equal opposite angles is 360 - 60 - the other given angle of 80 degrees. Find the sum of the two equal angles.",
+     "a": "220",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

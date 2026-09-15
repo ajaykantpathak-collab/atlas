@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch6_1",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch6_1",
+   "title": "c8_physics_ch6_1",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a concave mirror and a convex mirror in terms of which spherical surface acts as the reflecting surface?",
+     "a": "A concave mirror has the inner surface of the sphere as the reflecting surface (caves in), while a convex mirror has the outer surface of the sphere as the reflecting surface (bulges out). A wrong answer reveals the student is confusing the shape names with the reflecting side — e.g., thinking \"concave\" means the reflecting side bulges out because it looks like a cave from the outside.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a stainless steel spoon show an inverted image on one side when held at arm's length but an upright image on the other side at the same distance?",
+     "a": "The inner side of the spoon is a concave mirror, which can form real, inverted images when the object is beyond the focal point; the outer side is a convex mirror, which always forms virtual, erect, diminished images regardless of object distance. A wrong answer reveals the student does not yet connect the curvature direction to the type of image formed — they may think both sides should behave similarly because both are curved.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"A concave mirror is just a piece of a sphere, so any spherical piece of glass with a shiny coating is a concave mirror.\" Is this statement correct? Explain why or why not.",
+     "a": "The statement is incorrect — a spherical mirror is defined by which surface is the reflecting one. If the inner (concave) surface is silvered, it is a concave mirror; if the outer (convex) surface is silvered, it is a convex mirror. The same spherical shell can be either, depending on which side is polished. A wrong answer reveals the student thinks the mirror type is fixed by the glass shape alone, not by which surface reflects light.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reflecting surfaces of a concave mirror, a convex mirror, and a plane mirror. What geometric property distinguishes all three?",
+     "a": "A plane mirror has a flat (zero curvature) reflecting surface; a concave mirror has a reflecting surface that curves inward (negative curvature, centre of curvature in front); a convex mirror has a reflecting surface that curves outward (positive curvature, centre of curvature behind). A wrong answer reveals the student cannot articulate the geometric distinction — they may describe only the \"cave\" vs \"bulge\" without referencing the centre of curvature or surface orientation.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher shows a spherical glass shell silvered on the inside and asks: \"Is this a concave or convex mirror?\" The student replies: \"It's convex because the glass bulges out.\" Evaluate this response.",
+     "a": "The response is incorrect. The mirror type is determined by the reflecting surface, not the outer shape of the glass. Since the inner surface is silvered, light reflects off the concave (inward-curving) surface — so it is a concave mirror. A wrong answer reveals the student confuses the physical shape of the object with the optical definition of the mirror.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple activity using household items to demonstrate the difference between concave and convex mirrors to a Class 6 student. List the items needed and the steps.",
+     "a": "Items: a stainless steel spoon, a shiny steel bowl (katori), a flat steel plate. Steps: (1) Look at your reflection in the flat plate — note the image is same size, upright. (2) Look in the inner side of the spoon (concave) — move it closer and farther, observe image changes from inverted to upright and magnified. (3) Look in the outer side of the spoon (convex) — image is always upright and smaller. (4) Repeat with the bowl: inner side = concave, outer side = convex. A good answer identifies both sides of each object and links curvature to image behaviour. A poor answer only lists items without explaining what to observe or why the two sides differ.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,144 @@
+{
+  "class": 11,
+  "subject": "political_science",
+  "chapter": 208,
+  "chapter_title": "Local Governments",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keps208.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keps208.1.1",
+      "title": "Why Local Government: Democracy at the Doorstep",
+      "section": "1.1",
+      "definition": "Local needs -- water, sanitation, street lights, schools -- are best judged where people live, so democratic theory reserves a tier of government for them. Local bodies bring government within reach: citizens can meet their representatives daily, and problems of the neighbourhood get institutions of their own.",
+      "formula": "",
+      "key_idea": "The problems closest to home need governments closest to home -- democracy scales down as well as up.",
+      "textbook_ref": "keps208.txt lines 15-110 (introduction, why local governments, gandhi's gram swaraj idea, local needs and participation)",
+      "question_patterns": [
+        "why do democracies need local self government",
+        "in class 11 local governments chapter: what kinds of problems are best handled locally",
+        "how does local government deepen democracy beyond state and centre",
+        "connect gandhi's idea of gram swaraj with local self government",
+        "what are the advantages of solving problems at the local level",
+        "can national governments effectively manage local services"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "match problems to scale", "explain": "Water supply, sanitation and local roads affect one locality, so decisions about them belong to that locality's elected body."},
+        {"step": 2, "action": "widen participation", "explain": "Small units let ordinary citizens contest, vote knowledgeably and watch results face to face."},
+        {"step": 3, "action": "train democracy", "explain": "Local bodies are schools of citizenship, breeding future leaders and habits of self-government."}
+      ]
+    },
+    {
+      "id": "keps208.1.2",
+      "title": "73rd and 74th Amendments: Constitutional Status to Local Bodies",
+      "section": "1.2",
+      "definition": "Before 1992 local bodies lived at the mercy of state governments, frequently superseded. The 73rd and 74th Amendments (1992) changed that: panchayats and municipalities became constitutional institutions with regular five-year elections, reserved seats for Scheduled Castes, Scheduled Tribes and women, and State Election Commissions to conduct their polls.",
+      "formula": "",
+      "key_idea": "From favours to rights -- the 1992 amendments made local elections mandatory, not optional.",
+      "textbook_ref": "keps208.txt lines 110-240 (73rd amendment and panchayati raj, 74th amendment and municipalities, five year term, reservations, state election commission)",
+      "question_patterns": [
+        "what changes did the 73rd and 74th amendments bring",
+        "in class 11 local governments chapter: why were local bodies given constitutional status",
+        "how are elections to panchayats and municipalities conducted",
+        "what reservations exist in local bodies and why",
+        "what happens if a panchayat is dissolved before its term ends",
+        "distinguish rural and urban local government under the two amendments"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "note the constitutional anchor", "explain": "Part IX (panchayats) and Part IXA (municipalities) made three-tier rural and urban local government a constitutional requirement."},
+        {"step": 2, "action": "note the electoral guarantee", "explain": "Elections every five years, independent State Election Commissions, and fresh polls within six months of dissolution are mandatory."},
+        {"step": 3, "action": "note the inclusion guarantee", "explain": "Seats and chairperson posts are reserved for SCs, STs and -- one-third -- women, remaking who rules locally."}
+      ]
+    },
+    {
+      "id": "keps208.1.3",
+      "title": "Panchayati Raj: The Three-Tier Rural Structure",
+      "section": "1.3",
+      "definition": "Rural local government now runs in three tiers -- gram panchayat at village level, panchayat samiti or block level, and zilla parishad at district level -- with the gram sabha of all voters above each panchayat. The eleventh schedule lists 29 subjects, from agriculture to rural housing, that state legislatures may devolve.",
+      "formula": "",
+      "key_idea": "Village to block to district -- three rungs of elected rural self-rule, capped by the assembly of all voters.",
+      "textbook_ref": "keps208.txt lines 240-360 (three tier structure, gram panchayat gram sabha panchayat samiti zilla parishad, eleventh schedule subjects, functions and finances)",
+      "question_patterns": [
+        "describe the three tier structure of panchayati raj",
+        "in class 11 local governments chapter: what is the gram sabha and why is it important",
+        "how many subjects does the eleventh schedule cover",
+        "what sources of revenue do panchayats have",
+        "compare the functions of gram panchayat and zilla parishad",
+        "why has devolution of powers to panchayats remained uneven"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "map the tiers", "explain": "Village gram panchayats, block panchayat samitis, and district zilla parishads form the ladder, with direct election at the base."},
+        {"step": 2, "action": "place the gram sabha", "explain": "Every adult voter of the village area sits in the gram sabha, which approves plans and audits the panchayat's work."},
+        {"step": 3, "action": "check the devolution", "explain": "The eleventh schedule's 29 subjects become real powers only when each state legislature passes them down with funds and functionaries."}
+      ]
+    },
+    {
+      "id": "keps208.1.4",
+      "title": "Urban Local Government and Women's Leadership",
+      "section": "1.4",
+      "definition": "The 74th Amendment mapped urban areas to municipal corporations, municipal councils and nagar panchayats by size, with ward committees below. Reservation for women -- a third of seats and chairposts -- produced over a million elected women in local bodies, the world's largest cohort of women in public office, gradually shifting gender expectations of leadership.",
+      "formula": "",
+      "key_idea": "Cities get their own elected governments; women get seats by law -- and leadership follows the seat.",
+      "textbook_ref": "keps208.txt lines 360-480 (municipal corporations councils nagar panchayats, ward committees, women's reservation and sarpanch pati phenomenon, significance of women in local politics)",
+      "question_patterns": [
+        "which types of urban local bodies exist after the 74th amendment",
+        "in class 11 local governments chapter: how does reservation affect women's political participation",
+        "what is the sarpanch pati phenomenon and why is it criticised",
+        "compare municipal corporations and municipal councils",
+        "why are urban local bodies called institutions of self government",
+        "has women's reservation changed leadership at the grassroots"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "map the urban bodies", "explain": "Big cities get municipal corporations, towns municipal councils, and transitional areas nagar panchayats, all directly elected by wards."},
+        {"step": 2, "action": "apply the reservation", "explain": "One-third of seats and chairperson positions are reserved for women, rotated among constituencies."},
+        {"step": 3, "action": "assess the transformation", "explain": "Beyond the early proxy-husband problem, evidence shows women representatives investing in water and services and normalising women's authority in public life."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keps208.txt lines 110-240 (73rd amendment)",
+      "concept": "keps208.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Before 1992 a state government routinely suspended panchayats for years and ruled through its own nominees. Explain which changes after the 73rd Amendment prevent this.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "cite the term guarantee", "explain": "Panchayats now enjoy a fixed five-year term, and any dissolution must be followed by fresh elections within six months."},
+        {"step": 2, "action": "cite the independent referee", "explain": "The State Election Commission, insulated from the government, conducts and schedules these polls."},
+        {"step": 3, "action": "conclude", "explain": "Suspension can no longer be a governing tool -- the amendment converted survival of panchayats into a constitutional right of local voters."}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keps208.txt lines 360-480 (women's reservation)",
+      "concept": "keps208.1.4",
+      "question_type": "verify_property",
+      "question_pattern": "A newly elected woman sarpanch finds her husband signing papers and answering meetings in her name. What does this reveal, and how do the amendment's design and experience address it?",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "name the phenomenon", "explain": "This is the sarpanch pati problem -- proxy rule by male relatives of women who hold reserved seats."},
+        {"step": 2, "action": "note the design features", "explain": "Direct election of the woman to the seat, gram sabha oversight, and rotation of reserved seats limit how long proxy rule can last."},
+        {"step": 3, "action": "weigh the evidence", "explain": "Over terms, many women representatives overcome proxies and govern actively -- reservation builds leadership even if its first years are uneven."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keps208.txt end-of-chapter exercises, reworded",
+      "questions": [
+        "Why is local government important in a democracy?",
+        "Explain the main provisions of the 73rd and 74th Constitutional Amendments.",
+        "Describe the three-tier structure of rural local government.",
+        "What is the composition and role of the gram sabha?",
+        "Discuss the significance of reservation for women in local bodies.",
+        "Why has devolution of the 29 listed subjects to panchayats been uneven across states?"
+      ]
+    }
+  ]
+}

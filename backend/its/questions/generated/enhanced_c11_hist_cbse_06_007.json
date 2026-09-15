@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_06_007",
+   "title": "c11_hist_cbse_06_007",
+   "questions": [
+    {
+     "q": "In which year did Pope Gregory VII issue the Dictatus Papae asserting papal authority to depose emperors, and what specific feudal practice did this directly challenge?",
+     "a": "1075 CE; it challenged lay investiture — the practice where secular rulers (kings, dukes) appointed bishops and abbots and invested them with the symbols of spiritual office (ring and staff), treating ecclesiastical offices as royal patronage. A wrong answer (e.g., naming 1054 or 1215, or citing clerical marriage) reveals confusion between the Investiture Controversy, the East-West Schism, and the Fourth Lateran Council — three distinct crises of papal authority.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Cluniac reform movement (from 910 CE) insist that monasteries be exempt from episcopal control and directly subject to the Pope?",
+     "a": "Because local bishops often treated monasteries as sources of revenue, appointing lay abbots (commendatory abbots) who diverted monastic lands to secular use; papal exemption (exemption privilege) protected the strict observance of the Benedictine Rule (ora et labora) from feudal corruption. A wrong answer focusing only on \"spiritual purity\" misses the material conflict: the struggle was over control of land and labour, not just prayer.",
+     "self_check": true
+    },
+    {
+     "q": "A historian argues that the Cistercian order (founded 1098) was \"the first multinational corporation in Europe.\" Using evidence from their grange system, general chapter meetings, and wool trade, evaluate this claim.",
+     "a": "The claim holds analytically: Cistercians operated standardised granges (agricultural estates) across Europe, held annual General Chapters at Cîteaux for centralised governance (like a board meeting), and dominated the international wool trade connecting England, Flanders, and Italy — creating a transnational economic network with uniform accounting and quality control. A weak answer lists only their piety or architecture, missing the organisational innovation that made them economic actors rivaling Italian merchant houses.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sources of authority for a medieval bishop: which derived from the Church (canon law, apostolic succession) and which from the feudal contract (homage, fealty, regalia)? How did this dual loyalty create the Investiture Controversy?",
+     "a": "Spiritual authority: ordination, sacramental power, canon law jurisdiction — derived from the Pope. Temporal authority: control of diocesan lands (regalia), military obligations, seat in royal councils — derived from the king via homage. The Controversy erupted because both Pope and king claimed the right to \"invest\" the bishop with the symbols of both offices; the compromise (Concordat of Worms, 1122) split the symbols: ring/staff (spiritual) from Pope, sceptre (temporal) from king. A confused answer treats the bishop as purely a Church officer, ignoring his role as a feudal vassal holding a fief.",
+     "self_check": true
+    },
+    {
+     "q": "Assess the statement: \"The Avignon Papacy (1309–1377) weakened the Church more by damaging its spiritual credibility than by its financial exactions.\" Support your judgment with two specific consequences.",
+     "a": "The statement is defensible: (1) The perception of the Pope as a French puppet (all seven Avignon popes were French, 113 of 134 cardinals French) shattered the claim of universal impartiality, fuelling nationalist anti-papalism (e.g., Statutes of Provisors in England, 1351). (2) The Great Schism (1378–1417) followed directly from the Roman populace demanding an Italian pope after Gregory XI's return, splitting Christendom for 40 years. Financial exactions (annates, reservations) were resented but not unprecedented; the credibility loss was structural. A weak answer focuses only on taxation, missing the legitimation crisis.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a historical argument explaining why the mendicant orders (Franciscans, Dominicans, early 13th century) succeeded where older monastic orders failed in addressing the spiritual needs of the new urban population.",
+     "a": "Argument: Mendicants adapted the monastic ideal to the town by (a) rejecting land ownership (corporate poverty) — avoiding the feudal entanglements that compromised Cluny/Cîteaux; (b) locating convents in cities, not rural valleys — accessible to merchants, artisans, and the poor; (c) specialising in preaching and confession in vernacular languages — meeting laity's demand for instruction; (d) aligning with papal policy (Inquisition, universities) — gaining institutional protection. Their mobility and intellectual engagement (Aquinas, Bonaventure) made them the Church's \"shock troops\" in the urban frontier. A poor answer merely contrasts \"poverty vs wealth\" without linking to urbanisation (c11_hist_cbse_06_008) and the crisis of parish religion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

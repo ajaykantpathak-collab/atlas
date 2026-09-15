@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_03_001",
+   "title": "c10_bio_cbse_03_001",
+   "questions": [
+    {
+     "q": "Define reproduction in biological terms and state why it is considered a characteristic of life, but not essential for the survival of an individual organism.",
+     "a": "Reproduction is the biological process by which organisms produce new individuals of their own kind, ensuring species continuity and genetic transmission. It is a characteristic of life because all living organisms reproduce at some stage, but it is not essential for individual survival because an organism can live its full lifespan without reproducing (e.g., a sterile mule or a person who chooses not to have children). A wrong answer — such as \"reproduction keeps the organism alive\" or \"reproduction provides energy\" — reveals the student confuses reproduction with metabolic processes like nutrition or respiration, which sustain the individual.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Asexual reproduction is better because it produces many offspring quickly without needing a partner.\" Explain why this statement is incomplete by comparing the long-term evolutionary consequences of asexual vs sexual reproduction in a changing environment.",
+     "a": "The statement is incomplete because it ignores the critical trade-off: asexual reproduction produces genetically identical clones, so a single environmental change (new disease, temperature shift, predator) can wipe out the entire population since no variant may survive. Sexual reproduction, though slower and energetically costlier, generates genetic variation through meiosis and fertilisation, providing raw material for natural selection — some variants will survive the change. A wrong answer that only lists \"asexual is faster\" or \"sexual needs two parents\" reveals the student views reproduction only from the individual's immediate reproductive output, not from the population-level evolutionary perspective that Class 10 board exams test.",
+     "self_check": true
+    },
+    {
+     "q": "A bacterium divides by binary fission every 20 minutes under ideal conditions. A flowering plant produces seeds after pollination and fertilisation, which takes weeks. If both start with a single individual, which population will show greater genetic diversity after 100 generations? Justify your answer by naming the cell division processes involved.",
+     "a": "The flowering plant population will show far greater genetic diversity. The bacterium reproduces asexually via binary fission (mitosis), producing genetically identical clones — mutations are the only source of variation, which are rare. The flowering plant reproduces sexually: meiosis in anthers and ovules produces genetically unique haploid gametes, and random fertilisation combines two different genomes. After 100 generations, the plant population accumulates variation through independent assortment, crossing over, and random fusion of gametes. A wrong answer claiming the bacterium has more diversity because it reproduces faster reveals confusion between rate of reproduction and mechanism of variation generation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two scenarios and identify which represents asexual reproduction and which represents sexual reproduction. Explain your reasoning by linking the cellular process to the genetic outcome.\nScenario A: A strawberry plant sends out runners (stolons) that root at nodes and form new plants.\nScenario B: A mango tree produces flowers; pollen from one flower fertilises the ovule of another flower, forming a seed.",
+     "a": "Scenario A is asexual reproduction (vegetative propagation via runners). The new plants arise from mitotic divisions of somatic cells in the runner — no gamete formation, no fertilisation, offspring are genetic clones of the parent. Scenario B is sexual reproduction. Pollen (male gamete) and ovule (female gamete) are formed by meiosis in the anther and ovule respectively; their fusion (fertilisation) restores diploidy and creates a genetically unique zygote. A wrong answer that identifies both as \"reproduction\" without distinguishing the cell division type (mitosis vs meiosis) or genetic outcome (identical vs diverse) shows the student has memorised examples but not the defining mechanistic criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Since asexual reproduction produces offspring faster and with less energy, it is the superior mode of reproduction and sexual reproduction should have been eliminated by natural selection.\" Provide a biological argument for why both modes coexist across taxa.",
+     "a": "The claim is false. Natural selection does not \"eliminate\" sexual reproduction because it provides a crucial advantage in unpredictable or changing environments: genetic variation. Asexual reproduction is superior in stable, favourable environments where a well-adapted genotype can proliferate rapidly (e.g., bacteria in nutrient-rich media, aphids in spring). Sexual reproduction is superior when environments change — pathogens evolve, climate shifts, new competitors appear — because the reshuffled genotypes increase the probability that some offspring survive. Many organisms (e.g., aphids, hydra, some plants) switch between modes depending on conditions. A wrong answer that says \"sexual reproduction is better because it creates variation\" without acknowledging the context-dependent fitness trade-off reveals a simplistic \"one mode is better\" mindset that board exam competency questions penalise.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple investigation using readily available materials (yeast, sugar, water, test tubes, microscope) to demonstrate the difference between asexual reproduction (budding) in yeast and the absence of sexual structures under the same conditions. State your observation plan and expected conclusion.",
+     "a": "Prepare two test tubes: Tube A with yeast + sugar solution (favourable for asexual budding); Tube B with yeast + sugar solution + nutrient stress (e.g., high salt or low nitrogen) known to induce sexual reproduction in some yeast species. Observe under microscope at 0, 2, 4, 6 hours. In Tube A, expect to see small buds forming on parent cells (asexual budding, mitosis). In Tube B, if sexual reproduction is triggered, expect to see formation of shmoo projections, cell fusion, and eventually ascus with ascospores (meiosis). Conclusion: Yeast reproduces asexually by budding (mitosis) when conditions are favourable; sexual reproduction (meiosis) is induced by stress. A poor answer that only describes budding without a comparative stress condition or fails to link budding to mitosis and sexual structures to meiosis reveals the student cannot design a controlled investigation linking cellular process to environmental trigger.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

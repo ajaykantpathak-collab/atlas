@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_03_010",
+   "title": "c11_hist_cbse_03_010",
+   "questions": [
+    {
+     "q": "Name the approximate chronological boundaries of \"Late Antiquity\" as used in current historiography and state the two traditional competing narratives (labels only) that historians use to characterize this period.",
+     "a": "Correct answer: Late Antiquity spans roughly 250–750 CE. The two traditional narratives are \"Decline and Fall\" (Gibbon) and \"Transformation\" (Peter Brown). A wrong answer (e.g., \"476–1453\" or \"Renaissance vs Reformation\") reveals the student confuses Late Antiquity with the Middle Ages or Early Modern period and has not grasped the historiographical debate central to this synthesis node.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the survival of the Byzantine Empire is considered a \"continuity\" rather than a \"rupture,\" while the establishment of Barbarian kingdoms in the West is classified as a \"rupture\" in political structure.",
+     "a": "Correct answer: Byzantium maintained continuous Roman imperial administration, law (Justinian's Code), taxation, and diplomatic ideology centered on Constantinople — the state never ceased to exist. Barbarian kingdoms ruptured the unified imperial command structure, replaced Roman provincial government with personal loyalty bonds (feudal precursors), and fragmented the single legal-tax space into multiple sovereign entities. A wrong answer that calls both \"continuities\" because \"Romans still lived there\" misses the structural distinction between state continuity and demographic continuity.",
+     "self_check": true
+    },
+    {
+     "q": "Using the sibling node on the Rise of Islam (c11_hist_cbse_03_006), identify one economic continuity and one cultural rupture caused by the early Islamic conquests (632–750 CE) in the Eastern Mediterranean.",
+     "a": "Correct answer: Continuity — the Mediterranean trade network persisted; Muslim rulers maintained and expanded existing trade routes (Red Sea, Persian Gulf), and gold coinage (solidus/dinar) continued circulating. Rupture — Arabic replaced Greek as the administrative and high-cultural language in Syria, Egypt, and North Africa within a century, and the religious landscape shifted from Chalcedonian Christianity to Islam as the elite faith. A wrong answer focusing only on \"war destruction\" misses the nuanced coexistence of economic continuity with cultural rupture.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of the Christian Church in the West (c11_hist_cbse_03_003) and the East (c11_hist_cbse_03_005) during 400–700 CE. How does the East-West Schism (c11_hist_cbse_03_008) represent both a continuity and a rupture?",
+     "a": "Correct answer: Continuity — both churches preserved Roman institutional hierarchy (bishops, councils, canon law), literacy, and social welfare functions. Rupture — the West developed papal monarchy independent of imperial control (due to political vacuum), while the East maintained Caesaropapism (emperor appoints patriarch). The 1054 Schism (rooted in 5th–7th century theological/political divergences) is a rupture in communion but a continuity in the shared Nicene creed and episcopal structure. A wrong answer treating the Schism as a sudden 1054 event ignores the centuries-long drift analyzed in sibling nodes.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Sassanid Empire (c11_hist_cbse_03_007) was a mirror-image continuity of the Achaemenid tradition, not a rupture from it.\" Use evidence from Roman-Sassanid relations and internal administration.",
+     "a": "Correct answer: The claim is partially valid but oversimplified. Continuity: Sassanids revived Achaemenid title \"King of Kings,\" centralized bureaucracy, Zoroastrian orthodoxy, and satrapal provinces. Rupture: They developed a more militarized, feudal nobility (wuzurgan) dependent on heavy cavalry, created a rigid social hierarchy absent in Achaemenid flexibility, and engaged in total-war ideology with Rome unlike Achaemenid limited warfare. The 602–628 CE war exhausted both empires, enabling the Islamic rupture. A wrong answer calling it \"pure continuity\" ignores the Sassanid innovations that shaped early Islamic administration (diwan system).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a three-period timeline (250–450, 450–650, 650–750 CE) with one labeled event per period for EACH of the three clusters: Roman Legacy, Religious Transformation, New Powers. Then write a one-sentence synthesis statement connecting all nine events.",
+     "a": "Expected answer: Timeline example — 250–450: Crisis of Third Century (Roman Legacy), Council of Nicaea (Religious), Shapur I's conquests (New Powers); 450–650: Justinian's Code (Roman), Chalcedon Schism (Religious), Islamic Conquests (New Powers); 650–750: Iconoclasm begins (Roman), Abbasid Revolution (New Powers), Monastic reform (Religious). Synthesis: \"Across 500 years, Roman legal-administrative frameworks adapted to serve Christian and then Islamic universalisms, while Mediterranean connectivity persisted despite political fragmentation.\" A poor answer lists random dates without clustering or writes a synthesis that merely summarizes rather than identifies the structural pattern.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

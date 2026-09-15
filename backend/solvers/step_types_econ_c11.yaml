@@ -1,0 +1,573 @@
+step_types:
+  - step_type: econ_c11_stats_arithmetic_mean
+    title: Arithmetic Mean (Statistics)
+    category: Statistics
+    fields:
+      - name: values
+        label: Data Values
+        type: number_list
+        placeholder: "e.g. 10, 20, 30, 40, 50"
+        help_text: "Enter comma-separated observations"
+      - name: frequencies
+        label: Frequencies
+        type: number_list
+        placeholder: "e.g. 2, 3, 5, 4, 1"
+        help_text: "Enter corresponding frequencies (leave blank if ungrouped)"
+
+  - step_type: econ_c11_stats_median
+    title: Median (Statistics)
+    category: Statistics
+    fields:
+      - name: values
+        label: Data Values
+        type: number_list
+        placeholder: "e.g. 5, 10, 15, 20, 25"
+        help_text: "Comma-separated observations (sorted or unsorted)"
+      - name: n
+        label: Total Frequency
+        type: number
+        placeholder: "e.g. 15"
+        help_text: "Total number of observations"
+
+  - step_type: econ_c11_stats_mode
+    title: Mode (Statistics)
+    category: Statistics
+    fields:
+      - name: modal_class
+        label: Modal Class Interval
+        type: text
+        placeholder: "e.g. 10-20"
+        help_text: "The class interval with highest frequency"
+      - name: l
+        label: Lower Limit of Modal Class
+        type: number
+        placeholder: "e.g. 10"
+        help_text: "Lower boundary of modal class"
+      - name: h
+        label: Class Interval Width
+        type: number
+        placeholder: "e.g. 10"
+        help_text: "Width of the class interval"
+      - name: f1
+        label: Frequency of Modal Class
+        type: number
+        placeholder: "e.g. 20"
+        help_text: "Frequency of modal class"
+      - name: f0
+        label: Frequency of Preceding Class
+        type: number
+        placeholder: "e.g. 12"
+        help_text: "Frequency of class before modal class"
+      - name: f2
+        label: Frequency of Succeeding Class
+        type: number
+        placeholder: "e.g. 8"
+        help_text: "Frequency of class after modal class"
+
+  - step_type: econ_c11_stats_mean_deviation
+    title: Mean Deviation
+    category: Statistics
+    fields:
+      - name: values
+        label: Data Values
+        type: number_list
+        placeholder: "e.g. 2, 4, 6, 8, 10"
+        help_text: "Comma-separated observations"
+      - name: mean
+        label: Mean Value
+        type: number
+        placeholder: "e.g. 6"
+        help_text: "Mean of the data (auto-calculated if blank)"
+
+  - step_type: econ_c11_stats_std_deviation
+    title: Standard Deviation
+    category: Statistics
+    fields:
+      - name: values
+        label: Data Values
+        type: number_list
+        placeholder: "e.g. 2, 4, 6, 8, 10"
+        help_text: "Comma-separated observations"
+      - name: is_sample
+        label: Sample or Population
+        type: select
+        options:
+          - Population
+          - Sample
+        default: Population
+        help_text: "Use n for population, n-1 for sample"
+
+  - step_type: econ_c11_stats_correlation
+    title: Karl Pearson's Correlation Coefficient
+    category: Statistics
+    fields:
+      - name: x_values
+        label: X Series Values
+        type: number_list
+        placeholder: "e.g. 10, 20, 30, 40, 50"
+        help_text: "Values of variable X"
+      - name: y_values
+        label: Y Series Values
+        type: number_list
+        placeholder: "e.g. 12, 24, 36, 48, 60"
+        help_text: "Values of variable Y"
+
+  - step_type: econ_c11_stats_index_number
+    title: Index Numbers
+    category: Statistics
+    fields:
+      - name: base_year_prices
+        label: Base Year Prices
+        type: number_list
+        placeholder: "e.g. 10, 20, 30, 40"
+        help_text: "Prices in the base year"
+      - name: current_year_prices
+        label: Current Year Prices
+        type: number_list
+        placeholder: "e.g. 12, 25, 36, 50"
+        help_text: "Prices in the current year"
+      - name: base_year_qty
+        label: Base Year Quantities
+        type: number_list
+        placeholder: "e.g. 5, 10, 15, 20"
+        help_text: "Quantities in the base year"
+      - name: current_year_qty
+        label: Current Year Quantities
+        type: number_list
+        placeholder: "e.g. 6, 11, 16, 22"
+        help_text: "Quantities in the current year"
+      - name: method
+        label: Method
+        type: select
+        options:
+          - Laspeyre's
+          - Paasche's
+          - Fisher's Ideal
+        default: Laspeyre's
+        help_text: "Choose the index number method"
+
+  - step_type: econ_c11_demand_law
+    title: Law of Demand
+    category: Demand
+    fields:
+      - name: price_initial
+        label: Initial Price
+        type: number
+        placeholder: "e.g. 50"
+        help_text: "Initial price of the commodity"
+      - name: price_final
+        label: New Price
+        type: number
+        placeholder: "e.g. 40"
+        help_text: "New/changed price of the commodity"
+      - name: qty_initial
+        label: Initial Quantity Demanded
+        type: number
+        placeholder: "e.g. 100"
+        help_text: "Initial quantity demanded"
+      - name: qty_final
+        label: New Quantity Demanded
+        type: number
+        placeholder: "e.g. 150"
+        help_text: "New quantity demanded"
+
+  - step_type: econ_c11_demand_schedule
+    title: Demand Schedule
+    category: Demand
+    fields:
+      - name: prices
+        label: Prices
+        type: number_list
+        placeholder: "e.g. 10, 20, 30, 40, 50"
+        help_text: "Different price levels"
+      - name: quantities
+        label: Quantities Demanded
+        type: number_list
+        placeholder: "e.g. 200, 150, 100, 50, 20"
+        help_text: "Corresponding quantities demanded"
+
+  - step_type: econ_c11_demand_elasticity_price
+    title: Price Elasticity of Demand
+    category: Demand
+    fields:
+      - name: qty_initial
+        label: Initial Quantity Demanded
+        type: number
+        placeholder: "e.g. 100"
+        help_text: "Original quantity demanded"
+      - name: qty_final
+        label: New Quantity Demanded
+        type: number
+        placeholder: "e.g. 120"
+        help_text: "New quantity demanded"
+      - name: price_initial
+        label: Initial Price
+        type: number
+        placeholder: "e.g. 50"
+        help_text: "Original price"
+      - name: price_final
+        label: New Price
+        type: number
+        placeholder: "e.g. 40"
+        help_text: "New price"
+      - name: method
+        label: Method
+        type: select
+        options:
+          - Percentage Method
+          - Total Expenditure Method
+          - Geometric / Arc Method
+        default: Percentage Method
+        help_text: "Method for calculating elasticity"
+
+  - step_type: econ_c11_demand_elasticity_income
+    title: Income Elasticity of Demand
+    category: Demand
+    fields:
+      - name: qty_initial
+        label: Initial Quantity Demanded
+        type: number
+        placeholder: "e.g. 50"
+        help_text: "Initial quantity demanded"
+      - name: qty_final
+        label: New Quantity Demanded
+        type: number
+        placeholder: "e.g. 65"
+        help_text: "New quantity demanded"
+      - name: income_initial
+        label: Initial Income
+        type: number
+        placeholder: "e.g. 10000"
+        help_text: "Initial consumer income"
+      - name: income_final
+        label: New Income
+        type: number
+        placeholder: "e.g. 12000"
+        help_text: "New consumer income"
+      - name: good_type
+        label: Type of Good
+        type: select
+        options:
+          - Normal
+          - Inferior
+          - Luxury
+          - Necessity
+        default: Normal
+        help_text: "Nature of the commodity"
+
+  - step_type: econ_c11_demand_elasticity_cross
+    title: Cross Elasticity of Demand
+    category: Demand
+    fields:
+      - name: qty_x_initial
+        label: Initial Qty of Good X
+        type: number
+        placeholder: "e.g. 100"
+        help_text: "Initial quantity demanded of Good X"
+      - name: qty_x_final
+        label: New Qty of Good X
+        type: number
+        placeholder: "e.g. 120"
+        help_text: "New quantity demanded of Good X"
+      - name: price_y_initial
+        label: Initial Price of Good Y
+        type: number
+        placeholder: "e.g. 20"
+        help_text: "Initial price of related Good Y"
+      - name: price_y_final
+        label: New Price of Good Y
+        type: number
+        placeholder: "e.g. 25"
+        help_text: "New price of related Good Y"
+      - name: relation
+        label: Relation between Goods
+        type: select
+        options:
+          - Substitutes
+          - Complements
+        default: Substitutes
+        help_text: "Relationship between Good X and Good Y"
+
+  - step_type: econ_c11_demand_slope
+    title: Slope of Demand Curve
+    category: Demand
+    fields:
+      - name: delta_price
+        label: Change in Price
+        type: number
+        placeholder: "e.g. -5"
+        help_text: "Change in price (P2 - P1)"
+      - name: delta_qty
+        label: Change in Quantity
+        type: number
+        placeholder: "e.g. 10"
+        help_text: "Change in quantity demanded (Q2 - Q1)"
+
+  - step_type: econ_c11_supply_law
+    title: Law of Supply
+    category: Supply
+    fields:
+      - name: price_initial
+        label: Initial Price
+        type: number
+        placeholder: "e.g. 30"
+        help_text: "Initial price of the commodity"
+      - name: price_final
+        label: New Price
+        type: number
+        placeholder: "e.g. 50"
+        help_text: "New/changed price of the commodity"
+      - name: qty_initial
+        label: Initial Quantity Supplied
+        type: number
+        placeholder: "e.g. 100"
+        help_text: "Initial quantity supplied"
+      - name: qty_final
+        label: New Quantity Supplied
+        type: number
+        placeholder: "e.g. 200"
+        help_text: "New quantity supplied"
+
+  - step_type: econ_c11_supply_schedule
+    title: Supply Schedule
+    category: Supply
+    fields:
+      - name: prices
+        label: Prices
+        type: number_list
+        placeholder: "e.g. 10, 20, 30, 40, 50"
+        help_text: "Different price levels"
+      - name: quantities
+        label: Quantities Supplied
+        type: number_list
+        placeholder: "e.g. 20, 50, 100, 150, 200"
+        help_text: "Corresponding quantities supplied"
+
+  - step_type: econ_c11_supply_elasticity_price
+    title: Price Elasticity of Supply
+    category: Supply
+    fields:
+      - name: qty_initial
+        label: Initial Quantity Supplied
+        type: number
+        placeholder: "e.g. 100"
+        help_text: "Initial quantity supplied"
+      - name: qty_final
+        label: New Quantity Supplied
+        type: number
+        placeholder: "e.g. 140"
+        help_text: "New quantity supplied"
+      - name: price_initial
+        label: Initial Price
+        type: number
+        placeholder: "e.g. 20"
+        help_text: "Initial price"
+      - name: price_final
+        label: New Price
+        type: number
+        placeholder: "e.g. 25"
+        help_text: "New price"
+      - name: method
+        label: Method
+        type: select
+        options:
+          - Percentage Method
+          - Geometric Method
+        default: Percentage Method
+        help_text: "Method for calculating elasticity"
+
+  - step_type: econ_c11_supply_slope
+    title: Slope of Supply Curve
+    category: Supply
+    fields:
+      - name: delta_price
+        label: Change in Price
+        type: number
+        placeholder: "e.g. 10"
+        help_text: "Change in price (P2 - P1)"
+      - name: delta_qty
+        label: Change in Quantity
+        type: number
+        placeholder: "e.g. 50"
+        help_text: "Change in quantity supplied (Q2 - Q1)"
+
+  - step_type: econ_c11_equilibrium
+    title: Market Equilibrium
+    category: Demand and Supply
+    fields:
+      - name: demand_function_a
+        label: Demand (P = a - bQ)
+        type: text
+        placeholder: "e.g. P = 100 - 2Q"
+        help_text: "Demand equation in terms of P and Q"
+      - name: supply_function_c
+        label: Supply (P = c + dQ)
+        type: text
+        placeholder: "e.g. P = 20 + 2Q"
+        help_text: "Supply equation in terms of P and Q"
+      - name: equilibrium_price
+        label: Equilibrium Price
+        type: number
+        placeholder: "e.g. 60"
+        help_text: "Price where demand equals supply (optional)"
+      - name: equilibrium_qty
+        label: Equilibrium Quantity
+        type: number
+        placeholder: "e.g. 20"
+        help_text: "Quantity where demand equals supply (optional)"
+
+  - step_type: econ_c11_consumer_surplus
+    title: Consumer Surplus
+    category: Demand
+    fields:
+      - name: max_price
+        label: Maximum Price Willing to Pay
+        type: number
+        placeholder: "e.g. 100"
+        help_text: "Y-intercept of demand curve (maximum price)"
+      - name: equilibrium_price
+        label: Market Price
+        type: number
+        placeholder: "e.g. 40"
+        help_text: "Actual market (equilibrium) price"
+      - name: equilibrium_qty
+        label: Equilibrium Quantity
+        type: number
+        placeholder: "e.g. 30"
+        help_text: "Quantity at market price"
+      - name: shape
+        label: Demand Curve Shape
+        type: select
+        options:
+          - Linear
+          - Non-Linear
+        default: Linear
+        help_text: "Type of demand curve for CS calculation"
+
+  - step_type: econ_c11_producer_surplus
+    title: Producer Surplus
+    category: Supply
+    fields:
+      - name: min_price
+        label: Minimum Price Willing to Accept
+        type: number
+        placeholder: "e.g. 20"
+        help_text: "Y-intercept of supply curve (minimum price)"
+      - name: equilibrium_price
+        label: Market Price
+        type: number
+        placeholder: "e.g. 60"
+        help_text: "Actual market (equilibrium) price"
+      - name: equilibrium_qty
+        label: Equilibrium Quantity
+        type: number
+        placeholder: "e.g. 30"
+        help_text: "Quantity at market price"
+
+  - step_type: econ_c11_shifts_demand
+    title: Shifts in Demand
+    category: Demand
+    fields:
+      - name: direction
+        label: Direction of Shift
+        type: select
+        options:
+          - Increase (Rightward)
+          - Decrease (Leftward)
+        default: Increase
+        help_text: "Direction of demand curve shift"
+      - name: cause
+        label: Cause of Shift
+        type: select
+        options:
+          - Price of Related Good
+          - Income Change
+          - Taste and Preferences
+          - Number of Consumers
+          - Government Policy
+          - Season/Climate
+        default: Price of Related Good
+        help_text: "Factor causing the shift (non-price determinant)"
+
+  - step_type: econ_c11_shifts_supply
+    title: Shifts in Supply
+    category: Supply
+    fields:
+      - name: direction
+        label: Direction of Shift
+        type: select
+        options:
+          - Increase (Rightward)
+          - Decrease (Leftward)
+        default: Increase
+        help_text: "Direction of supply curve shift"
+      - name: cause
+        label: Cause of Shift
+        type: select
+        options:
+          - Change in Input Prices
+          - Technology Improvement
+          - Number of Sellers
+          - Government Policy
+          - Natural Factors
+          - Transport Cost
+        default: Change in Input Prices
+        help_text: "Factor causing the shift (non-price determinant)"
+
+  - step_type: econ_c11_stats_quartile_deviation
+    title: Quartile Deviation
+    category: Statistics
+    fields:
+      - name: values
+        label: Data Values
+        type: number_list
+        placeholder: "e.g. 10, 20, 30, 40, 50, 60"
+        help_text: "Comma-separated observations"
+      - name: n
+        label: Total Frequency
+        type: number
+        placeholder: "e.g. 20"
+        help_text: "Total number of observations"
+
+  - step_type: econ_c11_stats_coefficient_variation
+    title: Coefficient of Variation
+    category: Statistics
+    fields:
+      - name: std_dev
+        label: Standard Deviation
+        type: number
+        placeholder: "e.g. 12"
+        help_text: "Standard deviation of the series"
+      - name: mean
+        label: Arithmetic Mean
+        type: number
+        placeholder: "e.g. 60"
+        help_text: "Mean of the series"
+
+  - step_type: econ_c11_stats_skewness
+    title: Skewness
+    category: Statistics
+    fields:
+      - name: mode
+        label: Mode
+        type: number
+        placeholder: "e.g. 45"
+        help_text: "Mode of the distribution"
+      - name: mean
+        label: Mean
+        type: number
+        placeholder: "e.g. 55"
+        help_text: "Mean of the distribution"
+      - name: median
+        label: Median
+        type: number
+        placeholder: "e.g. 50"
+        help_text: "Median of the distribution"
+      - name: method
+        label: Method
+        type: select
+        options:
+          - Karl Pearson's
+          - Bowley's
+        default: Karl Pearson's
+        help_text: "Method for calculating skewness"

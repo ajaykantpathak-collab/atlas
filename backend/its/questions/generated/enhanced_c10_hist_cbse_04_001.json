@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_hist_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c10_hist_cbse_04_001",
+   "title": "c10_hist_cbse_04_001",
+   "questions": [
+    {
+     "q": "What was the 'putting-out system' in proto-industrialisation, and who controlled the production process — the peasant or the merchant?",
+     "a": "The putting-out system was a production arrangement where merchants gave raw materials (e.g., cotton, wool) to peasant households in rural areas, who processed them into finished goods (e.g., spun yarn, woven cloth) at home using their own tools; the merchant then collected the finished goods and paid the peasants by the piece. The merchant controlled the process — they decided what to produce, supplied inputs, owned the output, and sold it in distant markets. A wrong answer (e.g., \"peasants controlled production\" or \"work happened in factories\") reveals confusion between proto-industrial and factory systems, or misunderstanding of who held economic power.",
+     "self_check": true
+    },
+    {
+     "q": "Why did merchants in 17th-century England prefer rural peasant households over urban guild craftsmen for producing goods for export markets?",
+     "a": "Urban guilds regulated production strictly — they controlled entry, fixed prices, limited output, and enforced quality standards that raised costs. Rural peasants had no guild restrictions, accepted lower piece-rates (supplementing farm income), and could be hired/fired freely. Merchants thus bypassed guild monopolies to produce cheaper goods for expanding colonial markets. A wrong answer (e.g., \"peasants had better skills\" or \"factories didn't exist yet\") misses the core economic motive: guilds made urban production expensive and inflexible, while rural labour was cheap, abundant, and unregulated.",
+     "self_check": true
+    },
+    {
+     "q": "A historian argues: \"Proto-industrialisation was not just about production; it transformed rural family life and gender roles.\" Using your knowledge, explain TWO ways the putting-out system changed the daily lives of peasant families in England.",
+     "a": "(1) Income supplementation: Peasant households combined farming with spinning/weaving — women and children spun yarn while men wove, making the whole family part of the production unit. (2) Loss of autonomy: Families became dependent on merchant advances for raw materials and credit, tying them to market demands; they could no longer decide what/when to produce. A weak answer (e.g., \"they earned more money\" without explaining structural dependency) shows superficial understanding — the shift was from subsistence + local exchange to integration into capitalist market networks.",
+     "self_check": true
+    },
+    {
+     "q": "Compare proto-industrial production and early factory production on these four parameters: (a) location of work, (b) ownership of tools, (c) labour discipline, (d) market orientation. Present as a table.",
+     "a": "| Parameter | Proto-Industrial (Putting-Out) | Early Factory System |\n|-----------|-------------------------------|----------------------|\n| (a) Location | Rural homes / cottages | Centralised factory buildings |\n| (b) Tool ownership | Peasant households (looms, spinning wheels) | Capitalist / factory owner (machines) |\n| (c) Labour discipline | Flexible, family-based, seasonal | Strict, time-based, supervised by overseers |\n| (d) Market orientation | Merchant-controlled, export/colonial markets | Capitalist-controlled, mass domestic & export markets |\nA wrong comparison (e.g., saying factories used hand tools or proto-industry had strict clocks) confuses the two systems. The key analytical point: proto-industry was merchant capital + rural labour + hand tools; factories were industrial capital + wage labour + machines.",
+     "self_check": true
+    },
+    {
+     "q": "\"Proto-industrialisation was a necessary precursor to the Industrial Revolution.\" Evaluate this statement with THREE pieces of evidence from 18th-century Britain.",
+     "a": "The statement is largely valid. Evidence: (1) Capital accumulation: Merchant profits from proto-industrial trade (especially colonial textiles) financed early factories and canals. (2) Market creation: Proto-industry built global networks (e.g., Atlantic trade) that factories later supplied at scale. (3) Labour discipline: Rural workers already accustomed to piece-rates, deadlines, and merchant control transitioned more easily to factory time-discipline. However, it wasn't inevitable — some regions proto-industrialised but didn't industrialise (e.g., parts of India). A weak evaluation (e.g., \"yes because it came first\") lacks causal reasoning; the link is functional (capital, markets, labour), not just chronological.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 5-event timeline (with years) showing the transition from proto-industrialisation to early factory industrialisation in Britain. For each event, write one sentence explaining its significance in the transition.",
+     "a": "A strong timeline (sample):\n1. 1660s – Navigation Acts boost English colonial trade → merchants expand putting-out to meet demand.\n2. 1733 – John Kay's flying shuttle (handloom) → increases weaving speed, creates yarn shortage.\n3. 1764 – Hargreaves' spinning jenny → multiplies yarn output, still home-based.\n4. 1769 – Arkwright's water frame (patented) → requires water power, leads to first factories.\n5. 1780s – Steam-powered cotton mills (Boulton & Watt) → factories become independent of rivers, full factory system emerges.\nSignificance sentences must link each innovation to the shift from decentralised to centralised production. A poor timeline lists inventions without explaining how they disrupted the putting-out system (e.g., missing the yarn shortage → spinning innovations → factory logic chain).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

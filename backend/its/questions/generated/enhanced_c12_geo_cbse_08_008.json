@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_08_008",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_08_008",
+   "title": "c12_geo_cbse_08_008",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between personal communication and mass communication in terms of audience and direction of flow?",
+     "a": "Personal communication is two-way between specific individuals or small groups (e.g., a phone call), while mass communication is one-to-many from a single source to a large, anonymous audience (e.g., a TV broadcast). A wrong answer that confuses the two (e.g., calling a newspaper personal communication) reveals the student hasn't grasped the audience scale and directionality.",
+     "self_check": true
+    },
+    {
+     "q": "Why has the distinction between personal and mass communication blurred with the advent of the internet and social media? Explain with an example.",
+     "a": "The internet enables platforms like Facebook or YouTube where a user can send a private message (personal) and also post a video viewed by millions (mass) using the same account. A wrong answer that says they remain completely separate ignores convergence; the student fails to see that technology now allows both modes on the same network.",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of India, mark and label: (a) a major city with high teledensity, (b) a state with low internet penetration, (c) the headquarters of All India Radio. What pattern do you observe?",
+     "a": "(a) Mumbai/Delhi (high teledensity), (b) Bihar/Jharkhand (low internet penetration), (c) New Delhi (AIR headquarters). The pattern shows urban-metropolitan areas have dense communication infrastructure while rural/poor states lag, reflecting the digital divide. A wrong mapping (e.g., marking a rural area for high teledensity) indicates the student doesn't link communication infrastructure to urbanization and economic development.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of personal communication (like mobile phones) and mass communication (like community radio) in empowering rural women in India. Which is more effective for spreading health awareness? Justify.",
+     "a": "Mass communication (community radio) is more effective for broad health awareness because it reaches many illiterate women simultaneously in local languages, while personal communication (mobile) allows follow-up and personalized advice. A wrong answer that picks only one without context shows inability to evaluate complementary roles; the student misses that both are needed for different stages of behaviour change.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The expansion of 4G/5G networks in India has made mass communication redundant because everyone can now access information personally.\" Provide two arguments for and against.",
+     "a": "For: Personal devices give on-demand access; algorithms personalize content. Against: Mass media (TV, radio) still reach non-smartphone users, provide shared national experiences (e.g., emergency alerts), and are more reliable during disasters when networks fail. A wrong answer that agrees entirely ignores the digital divide and the public service role of mass media; the student fails to critically assess equity and resilience.",
+     "self_check": true
+    },
+    {
+     "q": "Design a communication strategy for a new government scheme targeting farmers in a remote district. Specify which personal and mass communication channels you would use, and explain how they complement each other.",
+     "a": "Use mass channels: local radio (for broad awareness in local dialect), TV (for visual demonstration), and posters at panchayat offices. Use personal channels: SMS/voice calls to registered farmers (for reminders), WhatsApp groups (for peer discussion), and helpline numbers. They complement: mass builds awareness, personal enables enrollment and feedback. A poor answer that lists only one type shows lack of integrated planning; the student doesn't understand the need for both reach and engagement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

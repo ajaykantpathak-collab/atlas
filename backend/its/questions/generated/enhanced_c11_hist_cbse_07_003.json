@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_07_003",
+   "title": "c11_hist_cbse_07_003",
+   "questions": [
+    {
+     "q": "What was the primary language of the Greek classical texts brought to Italy by Byzantine scholars after 1453, and why did this create a translation bottleneck in Western Europe?",
+     "a": "The primary language was Greek. The bottleneck arose because very few Western European scholars knew Greek before c. 1397 (when Manuel Chrysoloras began teaching in Florence); most classical texts had been accessible only in medieval Latin translations, often derived from Arabic versions, which introduced errors and omissions. A wrong answer (e.g., \"Latin\" or \"Arabic\") reveals the student confuses the *original* language of the texts with the *mediating* languages through which they reached the West.",
+     "self_check": true
+    },
+    {
+     "q": "Why did humanists like Lorenzo Valla and Erasmus practice *textual criticism* (collating multiple manuscripts to reconstruct the most authentic version) instead of accepting the received medieval Latin texts as authoritative?",
+     "a": "Humanists recognised that centuries of monastic copying had introduced scribal errors, glosses mistaken for text, and deliberate theological alterations (e.g., Valla proved the *Donation of Constantine* was a forgery using philological analysis). They sought the *author's original words* (ad fontes) to recover authentic classical thought, not medieval interpretations. A wrong answer (e.g., \"to make the texts easier to read\") misses the epistemological shift: authority shifted from *tradition* to *evidence-based reconstruction*.",
+     "self_check": true
+    },
+    {
+     "q": "A 15th-century Italian scholar wants to study Aristotle's *Poetics*. He has access to: (a) a 13th-century Latin translation from Arabic by Hermannus Alemannus, (b) a Greek manuscript brought from Constantinople in 1420, (c) a newly printed 1498 Aldine edition in Greek edited by Marcus Musurus. Rank these sources by reliability for recovering Aristotle's original Greek thought, and justify your ranking.",
+     "a": "Most reliable: (c) Aldine edition — based on collated Greek manuscripts, edited by a competent Greek scholar, standardised. Second: (b) Greek manuscript — direct access to original language but single witness, may have copyist errors. Least: (a) Latin-from-Arabic — double translation (Greek→Arabic→Latin) with significant philosophical distortion (e.g., Avicennian interpretations inserted). A wrong ranking reveals misunderstanding of *transmission chains* and the value of *direct access to the original language* combined with *critical editing*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of the *Fall of Constantinople (1453)* and the *invention of the printing press (c. 1450)* in the revival of classical learning. Which had a more transformative long-term impact on the *standardisation* of texts across Europe? Explain with two specific examples.",
+     "a": "The printing press had greater long-term impact on standardisation. Constantinople's fall dispersed Greek scholars and manuscripts (e.g., Bessarion's library to Venice), providing *raw material*. But printing *fixed* texts: Aldus Manutius's 1495–1515 Greek editions (Aristotle, Plato, Aristophanes) created identical copies across Europe, enabling scholars to cite exact pages/lines. Erasmus's 1516 *Novum Testamentum* (Greek NT with Latin translation) replaced the variable Vulgate manuscripts. Without printing, each manuscript copy would diverge; with it, a *shared textual baseline* emerged for debate. A wrong answer attributing standardisation to 1453 alone confuses *supply* with *stabilisation*.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The revival of classical learning was primarily a recovery of *pagan* texts that undermined Christian theology.\" Use evidence from the *types* of texts recovered and the *religious identity* of the humanists involved.",
+     "a": "The claim is largely false. Most recovered texts were *not* anti-Christian: Aristotle's logic/ethics, Plato's *Timaeus* (compatible with creation), Cicero's moral philosophy, Vitruvius' architecture, Galen's medicine, Ptolemy's geography. Key humanists were devout Christians (Erasmus, More, Colet, Lefèvre d'Étaples) who used classical learning to *reform* Christianity (e.g., Erasmus's *Philosophia Christi*). Only a minority (e.g., Pomponazzi on soul's mortality) touched theological nerve centres. The revival *enabled* Reformation critiques but was not inherently subversive. A wrong answer reveals a secularist projection: assuming \"classical = anti-religious\" rather than seeing how Renaissance Christians *appropriated* antiquity.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a historical argument (150 words) explaining how the *methods* developed for editing classical texts (collation, stemmatics, conjectural emendation) became the model for *scientific observation and verification* in the 16th–17th centuries. Cite one specific textual practice and one scientific practice.",
+     "a": "A strong answer links: *Textual practice* — Angelo Poliziano's *Miscellaneorum* (1489) used manuscript genealogy (stemmatics) to reject a single authority in favour of reconstructing the archetype through comparative evidence. *Scientific practice* — Vesalius's *De humani corporis fabrica* (1543) rejected Galen's textual authority by *direct anatomical observation*, comparing multiple cadavers (like collating manuscripts) to correct errors (e.g., human jawbone vs. dog). Both treat the \"received text/tradition\" as a hypothesis to be tested against *multiple empirical witnesses* (manuscripts/specimens). A weak answer merely lists both without showing the *methodological transfer*: evidence-based correction of authority through systematic comparison.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

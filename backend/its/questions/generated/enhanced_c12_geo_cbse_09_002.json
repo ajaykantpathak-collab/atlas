@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_09_002",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_09_002",
+   "title": "c12_geo_cbse_09_002",
+   "questions": [
+    {
+     "q": "What is the arithmetic density of population of India as per the 2011 Census, and which state/UT records the highest and lowest densities?",
+     "a": "India's arithmetic density in 2011 was 382 persons/km²; the highest density was in NCT of Delhi (11,297 persons/km²) and the lowest in Arunachal Pradesh (17 persons/km²). A wrong answer (e.g., quoting 324 persons/km² or naming Bihar as highest) reveals the student is using outdated Census data or confusing arithmetic density with physiological density.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Northern Plains region (Bihar, West Bengal, Uttar Pradesh) have high population density while the Himalayan states (Jammu & Kashmir, Himachal Pradesh, Uttarakhand, Arunachal Pradesh) have low density? Explain using physical factors.",
+     "a": "The Northern Plains have flat terrain, fertile alluvial soil, adequate rainfall, and perennial rivers — ideal for intensive agriculture and dense settlement. Himalayan states have rugged topography, steep slopes, cold climate, thin soils, and limited arable land, which restrict agriculture and human habitation. A wrong answer that cites only \"flat land\" or \"good climate\" without linking soil fertility, water availability, and agricultural potential shows incomplete understanding of the physical factor complex.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the physiological density for a hypothetical state with total population 50 million, total area 100,000 km², and net cultivated area 40,000 km². Then explain why physiological density is more meaningful than arithmetic density for an agrarian economy.",
+     "a": "Physiological density = 50,000,000 / 40,000 = 1,250 persons/km² of cultivated land. Arithmetic density = 50,000,000 / 100,000 = 500 persons/km². Physiological density reveals the actual pressure on productive farmland, which is critical where most people depend on agriculture. A student who only computes arithmetic density or fails to interpret the difference misses the concept that not all land is cultivable.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the density patterns of Kerala (859 persons/km²) and Rajasthan (moderate density). Identify the physical and human factors that allow Kerala to sustain higher density despite smaller size and rugged Western Ghats terrain.",
+     "a": "Kerala's high density stems from high rainfall, fertile coastal plains, extensive backwater irrigation, cash-crop plantations, high literacy, and historical maritime trade — compensating for limited flat land. Rajasthan's moderate density is constrained by the Thar Desert (arid, low rainfall), though irrigation (Indira Gandhi Canal) and mineral resources create localised concentrations. A wrong answer attributing Kerala's density solely to \"high rainfall\" ignores the role of human capital, irrigation infrastructure, and non-farm employment.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Union Territories (excluding Andaman & Nicobar) have very high population densities solely because they are small in area.\" Use Census 2011 data to support your judgement.",
+     "a": "The statement is partially true but misleading. Small area inflates arithmetic density, but UTs like Delhi, Chandigarh, and Puducherry also attract massive migration due to administrative, commercial, and industrial functions, leading to genuine high human pressure. Andaman & Nicobar (low density despite being a UT) proves area alone isn't decisive. A student agreeing fully misses the pull factors of urbanisation and economic opportunities that concentrate population in UTs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a choropleth map legend (with 5 classes) to depict the 2011 state-wise population density of India. Justify your class intervals using the data range (17 to 11,297 persons/km²) and explain how you would treat the outlier (Delhi) to avoid visual distortion.",
+     "a": "A good legend might use: 0-100, 100-300, 300-600, 600-1000, >1000 persons/km², with Delhi shown as a separate symbol (e.g., hatch pattern) or inset map because its value (11,297) is an extreme outlier that would compress all other states into the lowest class if included in a continuous scale. A poor answer uses equal intervals (e.g., 0-2256, 2256-4512…) which would render the map uninformative, showing most states in the first class.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

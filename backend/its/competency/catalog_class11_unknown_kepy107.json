@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "psychology",
+  "chapter": 107,
+  "chapter_title": "Thinking",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kepy107.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kepy107.1.1",
+      "title": "Nature of Thinking and Mental Imagery",
+      "section": "7.1",
+      "definition": "Thinking is the mental manipulation of representations -- concepts, images and symbols -- when the actual object is absent. It needs no immediate stimulus, works through internal symbols, and often borrows mental imagery, as when you picture your route home before setting out.",
+      "formula": "",
+      "key_idea": "Thinking moves the world inside the head -- absent objects handled as concepts and images.",
+      "textbook_ref": "kepy107.txt nature sections (describe the nature of thinking, mental imagery, concepts as building blocks, tools of thinking)",
+      "question_patterns": [
+        "define thinking and list its characteristics",
+        "in class 11 thinking chapter: what are concepts and why are they called building blocks of thought",
+        "what is mental imagery give an example",
+        "how does thinking differ from perception",
+        "explain the role of language in thinking",
+        "describe a situation where you used mental imagery to solve a problem"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "note the absence of objects",
+          "explain": "Thinking works on representations -- internal stand-ins for things not present."
+        },
+        {
+          "step": 2,
+          "action": "name the tools",
+          "explain": "Concepts categorise the world; images picture it; language symbolises and shares it."
+        },
+        {
+          "step": 3,
+          "action": "manipulate the representations",
+          "explain": "Combining, comparing and transforming these tools is the work called thinking."
+        }
+      ]
+    },
+    {
+      "id": "kepy107.1.2",
+      "title": "Reasoning and Problem Solving",
+      "section": "7.2",
+      "definition": "Reasoning draws conclusions from given information -- inductively from cases or deductively from premises. Problem solving runs through steps: identify the problem, represent it, form strategies like means-end analysis or algorithms, apply them and evaluate; mental set and functional fixedness are the classic obstacles.",
+      "formula": "",
+      "key_idea": "From premises to conclusions, from obstacle to strategy -- problem solving is thinking with a destination.",
+      "textbook_ref": "kepy107.txt reasoning sections (nature of thinking and reasoning, inductive deductive reasoning, steps of problem solving, strategies obstacles mental set functional fixedness)",
+      "question_patterns": [
+        "distinguish inductive from deductive reasoning with examples",
+        "in class 11 thinking chapter: list the steps of problem solving",
+        "what is means end analysis as a problem solving strategy",
+        "explain mental set with an example",
+        "what is functional fixedness and how does it block solutions",
+        "solve a given problem by stating your representation and strategy"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "classify the inference",
+          "explain": "Induction generalises from instances; deduction derives what must follow from premises."
+        },
+        {
+          "step": 2,
+          "action": "sequence the solving",
+          "explain": "Identify, represent, plan, execute and evaluate -- the standard route through any problem."
+        },
+        {
+          "step": 3,
+          "action": "clear the blocks",
+          "explain": "Watch for mental set -- old habits of solution -- and functional fixedness -- seeing objects in only one role."
+        }
+      ]
+    },
+    {
+      "id": "kepy107.1.3",
+      "title": "Decision Making, Judgment and Creative Thinking",
+      "section": "7.3",
+      "definition": "Judgment and decision making weigh options under uncertainty, often using shortcuts that can bias us. Creative thinking breaks set: it is novel, useful and fluent, nourished by brainstorming, divergent production and tolerance of unusual ideas -- the opposite of rigid, convergent habit.",
+      "formula": "",
+      "key_idea": "Decisions use shortcuts; creation breaks them -- fluency, flexibility and originality mark the creative mind.",
+      "textbook_ref": "kepy107.txt decision sections (judgment decision making, shortcuts and biases, nature of creative thinking, brainstorming, divergent thinking)",
+      "question_patterns": [
+        "how do people make judgments under uncertainty",
+        "in class 11 thinking chapter: describe brainstorming as a technique of creative thinking",
+        "distinguish convergent from divergent thinking",
+        "what makes an idea creative",
+        "give an example of a common shortcut or bias in decision making",
+        "suggest ways of developing creative thinking in students"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "see the shortcuts",
+          "explain": "Judgments lean on availability and representativeness -- fast, useful, but systematically biased."
+        },
+        {
+          "step": 2,
+          "action": "define creativity",
+          "explain": "Creative thinking produces ideas both novel and appropriate; tests measure fluency, flexibility and originality."
+        },
+        {
+          "step": 3,
+          "action": "cultivate it",
+          "explain": "Defer judgment, brainstorm quantities of ideas, seek unusual combinations -- divergent habits that feed creativity."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kepy107.txt reasoning sections",
+      "concept": "kepy107.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "A student insists on solving every maths problem with the first formula she learned, even when it does not fit. Name and explain the obstacle.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "name the obstacle",
+          "explain": "This is mental set -- a previously successful approach applied regardless of fit."
+        },
+        {
+          "step": 2,
+          "action": "show the cost",
+          "explain": "The habit blinds her to simpler or correct strategies the new problems need."
+        },
+        {
+          "step": 3,
+          "action": "state the cure",
+          "explain": "Representing each problem freshly -- asking what type it is before choosing tools -- dissolves the set."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kepy107.txt decision sections",
+      "concept": "kepy107.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "A group must invent uses for a brick. Explain how brainstorming should be conducted to maximise creative output.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "defer all judgment",
+          "explain": "No criticism while ideas flow -- evaluation freezes divergent thinking."
+        },
+        {
+          "step": 2,
+          "action": "chase quantity and wildness",
+          "explain": "Many ideas, including odd ones (doorstop, soil anchor, game piece), raise the odds of original ones."
+        },
+        {
+          "step": 3,
+          "action": "combine later",
+          "explain": "Only after the flow stops do the group sift, combine and refine -- evaluation has its own turn."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kepy107.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Explain the nature of thinking and its tools.",
+        "Distinguish inductive and deductive reasoning with examples.",
+        "Describe the steps involved in problem solving.",
+        "What are mental set and functional fixedness? Illustrate.",
+        "Explain brainstorming and its rules.",
+        "How is creative thinking different from ordinary problem solving?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch1_10",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch1_10",
+   "title": "c9_bio_ch1_10",
+   "questions": [
+    {
+     "q": "Name the three main types of plastids found in plant cells and state the primary pigment or storage product associated with each.",
+     "a": "The three main types are: (1) Chloroplasts – contain chlorophyll (green pigment) for photosynthesis; (2) Chromoplasts – contain carotenoids (yellow, orange, red pigments) for coloration; (3) Leucoplasts – lack pigments, store starch (amyloplasts), oils (elaioplasts), or proteins (proteinoplasts). A wrong answer (e.g., listing \"vacuole\" as a plastid type or saying chromoplasts store starch) reveals the student cannot categorize plastids by their defining biochemical role and confuses plastids with other organelles.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes a green mango turning yellow as it ripens. They claim, \"The chloroplasts in the mango skin have died and disappeared, so the yellow color appears.\" Is this explanation correct? Explain why or why not.",
+     "a": "The explanation is incorrect. During ripening, chloroplasts do not die; they differentiate into chromoplasts. The thylakoid membranes break down, chlorophyll is degraded, and carotenoid pigments (like β-carotene) are synthesized or unmasked in the same organelle, which is now a chromoplast. A wrong answer indicates the student holds the misconception that plastid interconversion involves cell death or organelle loss rather than structural remodeling and metabolic reprogramming.",
+     "self_check": true
+    },
+    {
+     "q": "Potato tubers are underground stems that store starch in leucoplasts (amyloplasts). If a potato is left in sunlight for several days, its skin turns green. Identify the plastid transformation occurring and explain the environmental trigger.",
+     "a": "The leucoplasts (amyloplasts) in the potato skin differentiate into chloroplasts. The environmental trigger is light exposure, which activates genes for chlorophyll synthesis and thylakoid membrane formation in the proplastid/leucoplast lineage. A wrong answer (e.g., \"new chloroplasts are made from scratch\" or \"chloroplasts move from the leaves\") reveals the student does not understand that plastids are semi-autonomous and can interconvert based on developmental cues, and that they are not imported from other tissues.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the internal membrane organization of a chloroplast and a chromoplast. How does this structural difference relate to their respective functions?",
+     "a": "Chloroplasts have a highly organized system of flattened thylakoids stacked into grana, providing a large surface area for photosynthetic pigments and electron transport chains. Chromoplasts lack grana; their internal membranes are often arranged as tubules, sheets, or crystalloid structures that serve as scaffolds for massive carotenoid accumulation (e.g., pigment globules). A wrong answer (e.g., \"both have grana\" or \"chromoplasts have more grana for more photosynthesis\") shows the student cannot link membrane architecture to the functional shift from light-harvesting to pigment storage.",
+     "self_check": true
+    },
+    {
+     "q": "A biology textbook states: \"Leucoplasts are non-functional, colorless organelles that only take up space in root cells.\" Evaluate this statement and provide a corrected version.",
+     "a": "The statement is false. Leucoplasts are metabolically active: amyloplasts synthesize and store starch (energy reserve), elaioplasts store oils (lipid reserve), and proteinoplasts store proteins (nitrogen reserve). In roots, amyloplasts also function as statoliths for gravity sensing (gravitropism). Corrected version: \"Leucoplasts are colorless, non-photosynthetic plastids that perform essential storage and biosynthetic functions, including starch, lipid, and protein accumulation, and in some cells, gravity perception.\" A wrong evaluation reveals the student equates \"colorless\" with \"non-functional\" and ignores the diverse metabolic roles of leucoplasts.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple investigation using locally available plant material to demonstrate that plastids can interconvert from one type to another. Specify the material, conditions, observations, and conclusion.",
+     "a": "Material: Potato tubers (or cauliflower curds) and spinach/coriander leaves. Conditions: Keep one set of potato slices in complete darkness (control) and expose another set to bright sunlight for 3-5 days. Observations: The light-exposed potato slices develop green patches on the cut surface; microscopic examination shows chloroplasts with grana where only starch-filled leucoplasts were present. The dark control remains white. Conclusion: Light triggers the differentiation of leucoplasts into chloroplasts, proving plastid interconversion. A poor answer (e.g., \"put a leaf in dark and see if it turns white\" without a control or microscopic evidence) reveals the student cannot design a controlled experiment to test a dynamic cellular process.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

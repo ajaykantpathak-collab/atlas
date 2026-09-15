@@ -1,0 +1,128 @@
+{
+ "class": 11,
+ "subject": "geography",
+ "chapter": 208,
+ "chapter_title": "Solar Radiation, Heat Balance and Temperature",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kegy208.txt",
+ "concepts": [
+  {
+   "id": "kegy.208.1.1",
+   "title": "Insolation, Heat Budget and Albedo",
+   "section": "",
+   "definition": "Insolation is the incoming solar radiation received at the top of the atmosphere, of which about 35 units are reflected back by clouds, dust and surfaces as albedo, and the balance heats the land, water and air, so the earth maintains a heat budget of gains equal to losses.",
+   "formula": "",
+   "key_idea": "The earth as a whole neither warms nor cools because the incoming shortwave radiation balances the outgoing longwave terrestrial radiation.",
+   "textbook_ref": "kegy208.txt insolation and heat budget sections",
+   "question_patterns": [
+    "define insolation and the factors controlling it",
+    "explain the heat budget of the earth with units",
+    "what is albedo and its values for different surfaces",
+    "differentiate shortwave and longwave radiation",
+    "why does the atmosphere get heated from below",
+    "state the factors affecting the amount of insolation received"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.208.2.1",
+   "title": "Temperature Distribution and Its Controlling Factors",
+   "section": "",
+   "definition": "Temperature distribution over the globe follows latitude, altitude, distance from the sea, ocean currents, air masses and slope aspects, and is shown by isotherms that bend across continents and oceans between January and July.",
+   "formula": "",
+   "key_idea": "Isotherms generally run east-west but deviate over land and sea, showing higher temperatures over continents in summer and lower in winter at the same latitude.",
+   "textbook_ref": "kegy208.txt temperature distribution sections",
+   "question_patterns": [
+    "state the factors controlling temperature of a place",
+    "what are isotherms and how do they bend",
+    "compare january and july isotherm patterns",
+    "how do ocean currents affect coastal temperatures",
+    "explain the effect of altitude on temperature",
+    "why do continents show greater temperature range than oceans"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.208.3.1",
+   "title": "Latitudinal Heat Balance and Its Global Effects",
+   "section": "Heat balance and temperature",
+   "definition": "The latitudinal heat balance shows surplus net radiation between the tropics and deficit towards the poles, and atmospheric and oceanic circulation transfer the surplus heat polewards, keeping the tropics from overheating and the poles from freezing.",
+   "formula": "",
+   "key_idea": "Without this poleward heat transport by winds and currents, the equator would grow steadily hotter and high latitudes steadily colder.",
+   "textbook_ref": "kegy208.txt latitudinal balance sections",
+   "question_patterns": [
+    "explain the latitudinal heat balance of the earth",
+    "how is surplus heat transferred from tropics to poles",
+    "what role do winds and ocean currents play in heat transfer",
+    "why do the tropics not keep getting hotter",
+    "define net radiation and its variation by latitude",
+    "state the effects of heat imbalance on global circulation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kegy208.txt exercises",
+   "questions": [
+    "Multiple choice on insolation and heat balance.",
+    "Explain the heat budget of the earth with a diagram.",
+    "Define insolation and albedo.",
+    "Describe the factors controlling the temperature distribution of the world.",
+    "How do isotherms show land and sea temperature contrasts?"
+   ]
+  }
+ ]
+}

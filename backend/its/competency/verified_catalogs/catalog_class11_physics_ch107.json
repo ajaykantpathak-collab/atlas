@@ -1,0 +1,209 @@
+{
+ "class": 11,
+ "subject": "physics",
+ "chapter": 107,
+ "chapter_title": "Gravitation",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\keph107.txt",
+ "concepts": [
+  {
+   "id": "keph.7.3.1",
+   "title": "Universal Law of Gravitation",
+   "section": "7.3",
+   "definition": "Every pair of objects in the universe exerts an attractive force on each other that is proportional to the product of their masses and inversely proportional to the square of their separation distance.",
+   "formula": "force = (G * mass1 * mass2) / (distance**2)",
+   "key_idea": "Gravitational attraction is a mutual force dependent on mass and distance.",
+   "textbook_ref": "keph107.txt lines 145-155",
+   "question_patterns": [
+    "calculate the gravitational force between two masses",
+    "find the attraction force given two masses and distance",
+    "what is the force of gravitation between two point masses",
+    "how much force acts between two objects of given mass",
+    "determine the gravitational pull between two bodies"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply masses and gravitational constant",
+     "explain": "numerator of the universal law formula",
+     "compute": "6.67e-11 * mass1 * mass2"
+    },
+    {
+     "step": 2,
+     "action": "divide by square of distance",
+     "explain": "inverse square law application",
+     "compute": "numerator / (distance**2)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving universal law of gravitation.",
+     "solution": "Step 1: multiply masses and gravitational constant. Step 2: divide by square of distance. Working: 6.67e-11 * mass1 * mass2, numerator / (distance**2).",
+     "answer": "Universal Law of Gravitation applied step by step gives the required result."
+    },
+    {
+     "question": "Apply universal law of gravitation to a fresh example and interpret the result.",
+     "solution": "Step 1: multiply masses and gravitational constant. Step 2: divide by square of distance. Working: 6.67e-11 * mass1 * mass2, numerator / (distance**2).",
+     "answer": "The method of universal law of gravitation leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.7.5.1",
+   "title": "Acceleration Due to Gravity",
+   "section": "7.5",
+   "definition": "The rate at which an object accelerates towards the center of a massive body like Earth, determined by the body's mass and the distance from its center.",
+   "formula": "g = (G * mass_earth) / (radius_earth**2)",
+   "key_idea": "Gravity is the acceleration produced by a planet's mass at its surface.",
+   "textbook_ref": "keph107.txt lines 255-265",
+   "question_patterns": [
+    "find the acceleration due to gravity on a planet",
+    "calculate the value of g for a given mass and radius",
+    "what is the gravitational acceleration at the surface",
+    "how much is the acceleration due to gravity",
+    "determine g using earth mass and radius"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the radius",
+     "explain": "denominator of the gravity formula",
+     "compute": "radius**2"
+    },
+    {
+     "step": 2,
+     "action": "calculate g",
+     "explain": "G times mass divided by radius squared",
+     "compute": "(6.67e-11 * mass) / r_sq"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving acceleration due to gravity.",
+     "solution": "Step 1: square the radius. Step 2: calculate g. Working: radius**2, (6.67e-11 * mass) / r_sq.",
+     "answer": "Acceleration Due to Gravity applied step by step gives the required result."
+    },
+    {
+     "question": "Apply acceleration due to gravity to a fresh example and interpret the result.",
+     "solution": "Step 1: square the radius. Step 2: calculate g. Working: radius**2, (6.67e-11 * mass) / r_sq.",
+     "answer": "The method of acceleration due to gravity leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.7.8.1",
+   "title": "Escape Speed",
+   "section": "7.8",
+   "definition": "The minimum initial speed required for an object to break free from the gravitational influence of a massive body and reach infinity.",
+   "formula": "v_escape = sqrt(2 * G * mass / radius)",
+   "key_idea": "Minimum velocity to overcome gravitational potential energy.",
+   "textbook_ref": "keph107.txt lines 350-365",
+   "question_patterns": [
+    "calculate the escape speed from a planet",
+    "find the minimum velocity to escape gravity",
+    "what is the escape speed given mass and radius",
+    "how fast must an object be launched to escape",
+    "determine the escape velocity of a body"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate the ratio of mass to radius",
+     "explain": "part of the escape speed formula",
+     "compute": "mass / radius"
+    },
+    {
+     "step": 2,
+     "action": "compute escape speed",
+     "explain": "square root of 2 times G times the ratio",
+     "compute": "sqrt(2 * 6.67e-11 * ratio)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving escape speed.",
+     "solution": "Step 1: calculate the ratio of mass to radius. Step 2: compute escape speed. Working: mass / radius, sqrt(2 * 6.67e-11 * ratio).",
+     "answer": "Escape Speed applied step by step gives the required result."
+    },
+    {
+     "question": "Apply escape speed to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate the ratio of mass to radius. Step 2: compute escape speed. Working: mass / radius, sqrt(2 * 6.67e-11 * ratio).",
+     "answer": "The method of escape speed leads to the required value or conclusion."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "keph107.txt lines 160-180",
+   "concept": "keph.7.3.1",
+   "question_type": "compute",
+   "question_pattern": "calculate force between mass1={mass1} and mass2={mass2} at distance={distance}",
+   "extracted_variables": {
+    "mass1": 100,
+    "mass2": 100,
+    "distance": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute numerator",
+     "explain": "G * m1 * m2",
+     "compute": "numerator = 6.67e-11 * 100 * 100"
+    },
+    {
+     "step": 2,
+     "action": "compute force",
+     "explain": "numerator / distance squared",
+     "compute": "force = numerator / (1**2)"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "keph107.txt lines 370-380",
+   "concept": "keph.7.8.1",
+   "question_type": "compute",
+   "question_pattern": "find escape speed for mass={mass} and radius={radius}",
+   "extracted_variables": {
+    "mass": 6e+24,
+    "radius": 6400000.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute ratio",
+     "explain": "mass / radius",
+     "compute": "ratio = 6e24 / 6.4e6"
+    },
+    {
+     "step": 2,
+     "action": "compute speed",
+     "explain": "sqrt(2 * G * ratio)",
+     "compute": "v_escape = sqrt(2 * 6.67e-11 * ratio)"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex7.17",
+   "source_ref": "keph107.txt line 450",
+   "questions": [
+    "A rocket is fired vertically with a speed of 5 km/s. How far from the earth does it go?"
+   ]
+  },
+  {
+   "id": "ex7.19",
+   "source_ref": "keph107.txt line 460",
+   "questions": [
+    "How much energy is needed to rocket a 200 kg satellite out of earth's gravitational influence?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

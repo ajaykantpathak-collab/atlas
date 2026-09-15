@@ -1,0 +1,223 @@
+{
+ "catalog": "catalog_class12_computer_science_lecs106",
+ "concepts": [
+  {
+   "id": "lecs106.1",
+   "title": "Comparisons Made by Linear Search",
+   "questions": [
+    {
+     "q": "How many comparisons does linear search make to find 17 in the list [8, -4, 7, 17, 0, 2, 19]? Use the method 'Comparisons Made by Linear Search'. Work with: size = 1024, zero_index = 5. Carry the chain through step by step and give the final value of unchecked.",
+     "a": "1018 units",
+     "self_check": false
+    },
+    {
+     "q": "Determine the position of 8, 1, 99 and 44 in the list [1, -2, 32, 8, 17, 19, 42, 13, 0, 44] by linear search and note the comparisons each takes.. Use the method 'Comparisons Made by Linear Search'. Work with: size = 1024, zero_index = 100. Carry the chain through step by step and give the final value of unchecked.",
+     "a": "923 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Comparisons Made by Linear Search' refers to.",
+     "a": "Linear search compares the key with each element from the first onwards and stops at the first match; the key sitting at zero-based index i costs i plus one comparisons, and the rest of the list stays unchecked.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Comparisons Made by Linear Search'.",
+     "a": "Finding 17 in [8, -4, 7, 17, 0, 2, 19] takes 4 comparisons because three elements precede it.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Comparisons Made by Linear Search', in plain ASCII form.",
+     "a": "unchecked = size - (zero_index + 1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs106.2",
+   "title": "Best and Worst Work of Linear Search",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Best and Worst Work of Linear Search' refers to.",
+     "a": "The workload of linear search swings with the key's location: a key at the front needs a single comparison, while a key at the last position, or one that is absent, forces comparisons with all n elements.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Best and Worst Work of Linear Search'.",
+     "a": "Searching for 43 in an 11-element list that ends with 43 costs the full 11 comparisons.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Best and Worst Work of Linear Search', in plain ASCII form.",
+     "a": "best = 1 comparison; worst = n comparisons",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs106.3",
+   "title": "Middle Position in Binary Search",
+   "questions": [
+    {
+     "q": "Using the method 'Middle Position in Binary Search', work with: first = 400, last = 80. Carry the chain through step by step and give the final value of mid.",
+     "a": "240 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Middle Position in Binary Search' and work with: first = 3, last = 20. Carry the chain through step by step and give the final value of mid.",
+     "a": "11 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Middle Position in Binary Search' refers to.",
+     "a": "Binary search keeps two markers, first and last, on a sorted list and probes the midpoint computed by floor-dividing their sum by two, so for ten elements the probe lands on index 5, the sixth element.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Middle Position in Binary Search'.",
+     "a": "When the middle element equals the key the search ends immediately, as 17 found at index 7 shows.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Middle Position in Binary Search', in plain ASCII form.",
+     "a": "mid = (first + last) // 2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs106.4",
+   "title": "Halving the Search Area",
+   "questions": [
+    {
+     "q": "Using the method 'Halving the Search Area', work with: size = 512. Carry the chain through step by step and give the final value of after_three.",
+     "a": "64 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Halving the Search Area' and work with: size = 2048. Carry the chain through step by step and give the final value of after_three.",
+     "a": "256 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Halving the Search Area' refers to.",
+     "a": "After every unsuccessful midpoint comparison, binary search discards half the remaining list, so a 15-element search area shrinks to 7, then 3, then 1 element across successive iterations.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Halving the Search Area'.",
+     "a": "Searching key 2 in the 15-element list takes four iterations because 15 halves to 7, 3 and finally 1.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Halving the Search Area', in plain ASCII form.",
+     "a": "remaining = previous // 2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs106.5",
+   "title": "Linear versus Binary Workload",
+   "questions": [
+    {
+     "q": "Using the method 'Linear versus Binary Workload', work with: exponent = 3. Carry the chain through step by step and give the final value of half.",
+     "a": "4 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Linear versus Binary Workload' and work with: exponent = 8. Carry the chain through step by step and give the final value of half.",
+     "a": "128 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Linear versus Binary Workload' refers to.",
+     "a": "Locating a record at the exact middle of a sorted database costs one comparison for binary search but about half the database for linear search, which is why ordered data rewards binary searching enormously.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Linear versus Binary Workload'.",
+     "a": "For 2 to the power 30 records, a middle-position hit costs one comparison in binary search but 536870912 in linear search.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Linear versus Binary Workload', in plain ASCII form.",
+     "a": "half = 2 ** exponent / 2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs106.6",
+   "title": "Hash Value by Remainder Method",
+   "questions": [
+    {
+     "q": "Using the method 'Hash Value by Remainder Method', work with: element = 10, table_size = 512. Carry the chain through step by step and give the final value of position.",
+     "a": "11 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Hash Value by Remainder Method' and work with: element = 6, table_size = 4096. Carry the chain through step by step and give the final value of position.",
+     "a": "7 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Hash Value by Remainder Method' refers to.",
+     "a": "Hashing computes an element's home slot directly: the remainder method divides the element by the hash table size and uses the remainder as the index, so checking presence needs just one comparison regardless of list size.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Hash Value by Remainder Method'.",
+     "a": "In the table of size 10, element 16 lands in slot 6 and is reported at position 7.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Hash Value by Remainder Method', in plain ASCII form.",
+     "a": "position = element % table_size + 1",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs106.7",
+   "title": "Collision and Perfect Hash Functions",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Collision and Perfect Hash Functions' refers to.",
+     "a": "A collision happens when two elements share one hash slot, as 16 and 26 both mapping to 6 under a modulo-10 function; a hash function that gives every element a unique slot is called perfect, and collision resolution decides where the extras go.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Collision and Perfect Hash Functions'.",
+     "a": "With a perfect hash function, collisions never arise and every search stays a single comparison.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Collision and Perfect Hash Functions', in plain ASCII form.",
+     "a": "h(16) = 6 and h(26) = 6 -> collision",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs106.8",
+   "title": "Sorted List Requirement for Binary Search",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Sorted List Requirement for Binary Search' refers to.",
+     "a": "Binary search only works when the list is already ordered, because each midpoint comparison decides which half can still hold the key; on unsorted data it would discard the wrong half, so the data must be sorted first.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sorted List Requirement for Binary Search'.",
+     "a": "A dictionary search for Zoology starts in the second half only because the words are alphabetically arranged.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Sorted List Requirement for Binary Search', in plain ASCII form.",
+     "a": "sorted list + mid comparison -> discard one half",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

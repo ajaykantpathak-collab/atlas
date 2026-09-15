@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_05_001",
+   "title": "c11_acc_cbse_05_001",
+   "questions": [
+    {
+     "q": "Define 'Bank Reconciliation Statement' in one sentence using the precise terminology required for CBSE board exam answer writing.",
+     "a": "A Bank Reconciliation Statement is a statement prepared on a specific date to reconcile the bank balance as per the Cash Book with the balance as per the Pass Book/Bank Statement by identifying, explaining, and adjusting for the causes of difference — namely timing differences in recording transactions and errors committed by the business or the bank. A wrong answer (e.g., \"a statement to check bank balance\" or \"a statement to correct errors\") reveals the student has memorised a vague description without the technical precision: it omits the two specific balances being reconciled, the two categories of causes (timing/errors), and the purpose (reconciliation, not correction).",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"The Cash Book shows a debit balance of ₹20,000 and the Pass Book shows a credit balance of ₹20,000. Since both are ₹20,000, there is no need for a Bank Reconciliation Statement.\" Explain why this reasoning is flawed, using the concept of 'entity perspective'.",
+     "a": "The reasoning is flawed because the Cash Book and Pass Book are maintained by two different entities — the business and the bank — and they follow opposite debit/credit conventions. A debit balance in the Cash Book (asset for business) corresponds to a credit balance in the Pass Book (liability for bank). Even if the amounts are numerically equal, a BRS is still needed to verify that the *same transactions* constitute those balances. Differences can exist in composition (e.g., unpresented cheques, uncredited deposits) even when the net balances coincidentally match. A wrong answer reveals the student confuses \"balance equality\" with \"transaction-level agreement\" and does not grasp the dual-entity, dual-perspective nature of bank recording.",
+     "self_check": true
+    },
+    {
+     "q": "On 31st March, M/s Sharma Traders issued a cheque of ₹15,000 to a supplier and recorded it in the Cash Book. The supplier presented the cheque on 5th April. The bank statement is dated 31st March. Will this transaction cause a difference between the Cash Book and Pass Book balances on 31st March? If yes, which balance will be higher and by how much?",
+     "a": "Yes, it causes a difference. The Cash Book balance will be **lower by ₹15,000** than the Pass Book balance on 31st March. Reasoning: The business recorded the payment immediately (credit Cash Book → bank balance decreases), but the bank will debit the account only when the cheque is presented (5th April). On 31st March, the bank has not yet debited the account, so the Pass Book balance remains higher. A wrong answer (e.g., \"Pass Book lower\" or \"no difference\") reveals the student cannot trace the timeline: they miss that the *recording* happens at different times by different entities, and they confuse the direction of the effect (issuing a cheque reduces Cash Book balance immediately, but Pass Book balance only later).",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast 'Timing Differences' and 'Errors' as causes of difference between Cash Book and Pass Book balances. Give one original example of each that is NOT from the NCERT textbook.",
+     "a": "**Timing Differences** arise from the inherent time lag between a transaction occurring and being recorded by the other party — they are systematic, recurring, and resolve automatically over time. Example: A customer pays ₹25,000 via NEFT on 30th March; the bank credits it instantly, but the business learns of it only on 3rd April when the bank statement arrives. **Errors** arise from mistakes in recording (omission, commission, principle) by either the business or the bank — they are accidental, non-recurring, and require rectification entries. Example: The bank wrongly debits ₹1,200 for another customer's loan instalment to M/s Sharma Traders' account. A weak answer treats both as just \"mistakes\" or gives textbook examples, showing inability to distinguish structural vs. accidental causes and to generate novel illustrations.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"A Bank Reconciliation Statement is prepared to *correct* the errors in the Cash Book and Pass Book so that both show the same balance.\" Is it True or False? Justify your answer with reference to the purpose of BRS.",
+     "a": "**False.** A Bank Reconciliation Statement is prepared to *reconcile* (explain and tally) the two balances, not to *correct* them. The BRS is a **statement**, not a rectification entry. It identifies differences so that: (a) genuine timing differences are acknowledged and will reverse automatically, and (b) errors are identified for *separate* rectification in the respective books (Cash Book errors corrected by business, Pass Book errors reported to bank). The BRS itself does not alter any ledger account. A \"True\" answer reveals the fundamental misconception that BRS is a correction tool rather than a reconciliation tool — confusing the *diagnostic* function with the *curative* function.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario (3-4 transactions) for a small business where the Cash Book balance is **higher** than the Pass Book balance on the reconciliation date. List each transaction and explain *why* it pushes the Cash Book balance higher. Ensure at least one timing difference and one error are included.",
+     "a": "**Scenario for M/s Gupta Electronics (31st March):**\n1. **Cheques issued but not presented (₹12,000):** Business credited Cash Book; bank hasn't debited yet → Cash Book lower? Wait — *credit* in Cash Book *reduces* bank balance. So Cash Book balance is **lower** by ₹12,000. (This would make Pass Book higher. Need opposite.)\n   *Correction:* To make Cash Book **higher**, we need items that **increase** Cash Book balance or **decrease** Pass Book balance.\n   \n   **Valid scenario (Cash Book > Pass Book):**\n   1. **Cheques deposited but not collected (₹20,000):** Business debited Cash Book (balance ↑); bank hasn't credited yet → Cash Book higher by ₹20,000. *(Timing difference)*\n   2. **Bank charges debited by bank not recorded in Cash Book (₹500):** Bank debited Pass Book (balance ↓); Cash Book untouched → Cash Book higher by ₹500. *(Timing difference)*\n   3. **Cheque of ₹3,000 recorded in Cash Book as ₹300 (Error by business):** Cash Book debited ₹3,000; actual deposit ₹300 → Cash Book higher by ₹2,700. *(Error)*\n   4. **Direct payment of insurance premium by bank (₹4,000) not recorded in Cash Book:** Bank debited Pass Book; Cash Book untouched → Cash Book higher by ₹4,000. *(Timing difference)*\n   \n   **Net: Cash Book balance higher by ₹27,200.**\n   A poor answer includes items that push balances the wrong way (e.g., unpresented cheques) or omits the directional reasoning, showing the student cannot apply the \"Cash Book higher/lower\" logic — the core skill for BRS preparation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,394 @@
+{
+ "catalog": "catalog_class12_maths_lemh203.json",
+ "concepts": [
+  {
+   "id": "lemh.203.9.2.1",
+   "title": "Differential Equations and Their Order",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 4 * 3 * 3 + 1 * 3 + 8 gives 47",
+     "compute": "val = 4 * 3 * 3 + 1 * 3 + 8"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate the limit of 4x^2 + 1x + 8 as x approaches 3 (direct substitution).",
+     "a": "47",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 5x^2 is 10x^1. Find the derivative's value at x = 3.",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "For y = 1x^2 + 1x + 4, find the slope of the tangent at x = 4.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "For y = 1x^2 + 1x + 4 at x = 4, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.11",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 1.",
+     "a": "735",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.203.9.2.2",
+   "title": "Degree of a Differential Equation",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 3 * 3 * 3 + 5 * 3 + 2 gives 44",
+     "compute": "val = 3 * 3 * 3 + 5 * 3 + 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate the limit of 3x^2 + 5x + 2 as x approaches 3 (direct substitution).",
+     "a": "44",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 1x^4 is 4x^3. Find the derivative's value at x = 3.",
+     "a": "108",
+     "self_check": false
+    },
+    {
+     "q": "For y = 2x^2 + 3x + 7, find the slope of the tangent at x = 2.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "For y = 2x^2 + 3x + 7 at x = 2, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.09",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 5.",
+     "a": "10935",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.203.9.3.1",
+   "title": "General and Particular Solutions",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (22 - 8) / 7 gives 2",
+     "compute": "x = (22 - 8) / 7"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Solve for x: 7x + 8 = 22.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6x - 8 = 58.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 8x - 23 = 9.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 3x - 7 = 5.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4x + 4 = 1x + 10.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 2(x + 5) = 22.",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.203.9.3.2",
+   "title": "Verifying a Candidate Solution by Substitution",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 1 * 2 * 2 + 8 * 2 + 4 gives 24",
+     "compute": "val = 1 * 2 * 2 + 8 * 2 + 4"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate the limit of 1x^2 + 8x + 4 as x approaches 2 (direct substitution).",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 1x^3 is 3x^2. Find the derivative's value at x = 2.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "For y = 1x^2 + 6x + 3, find the slope of the tangent at x = 1.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "For y = 1x^2 + 6x + 3 at x = 1, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.12",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 3.",
+     "a": "4335",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.203.9.4.1",
+   "title": "Solving by Separation of Variables",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 7 + 9 gives 30",
+     "compute": "val = 3 * 7 + 9"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate 3x + 9 when x = 7.",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 3x^2 + 6x + 5 when x = 4.",
+     "a": "77",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 2x + 5x - 4x and give the coefficient of x.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 7 x (9 + 9) equals 7 x 9 + 7 x 9. Compute it.",
+     "a": "126",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 5 + 6 x 8 (respect the order of operations).",
+     "a": "53",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (8 + 2) x 7.",
+     "a": "70",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.203.9.4.2",
+   "title": "Homogeneous Equations and the y equals vx Substitution",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (20 - 14) / 6 gives 1",
+     "compute": "x = (20 - 14) / 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Solve for x: 6x + 14 = 20.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 7x - 15 = 27.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 2x - 15 = 3.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 3x - 10 = 2.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4x + 8 = 2x + 24.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 5(x + 1) = 35.",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.203.9.4.3",
+   "title": "First Order Linear Equations and the Integrating Factor",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the exponent law to the given powers",
+     "explain": "apply the exponent law to the given powers: val = 2 ** (3 + 2) gives 32",
+     "compute": "val = 2 ** (3 + 2)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Using the law a^m x a^n = a^(m+n), evaluate 2^3 x 2^2.",
+     "a": "32",
+     "self_check": false
+    },
+    {
+     "q": "Using a^m / a^n = a^(m-n), evaluate 5^6 / 5^1.",
+     "a": "3125",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (2^2)^3 using the power of a power law.",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 2^2 x 4^2 using a^m x b^m = (ab)^m.",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 8^0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 5^(-2) and give the value as a fraction.",
+     "a": "1/25",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.203.9.4.3.2",
+   "title": "Integrating Factor and Product Solution for P equal to a Constant over x",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Evaluate the limit of 3x^2 + 1x + 4 as x approaches 1 (direct substitution).",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 2x^2 is 4x^1. Find the derivative's value at x = 1.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "For y = 4x^2 + 1x + 8, find the slope of the tangent at x = 2.",
+     "a": "17",
+     "self_check": false
+    },
+    {
+     "q": "For y = 4x^2 + 1x + 8 at x = 2, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.06",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 3.",
+     "a": "4335",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.203.9.3.3",
+   "title": "Particular Solution from an Initial Condition for a Constant Rate",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "First principles: for f(x) = x^2 at x = 4 with h = 0.01, compute the difference quotient (f(x+h) - f(x)) / h (two decimal places).",
+     "a": "8.01",
+     "self_check": false
+    },
+    {
+     "q": "Continuity check: f(x) = x for x < 2 and f(x) = 2x - 2 for x >= 2. Find the gap RHL - LHL at x = 2 (0 means continuous).",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Discontinuity size: f(x) = x + 1 for x < 1 and f(x) = 3x for x >= 1. Compute RHL - LHL at x = 1.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "The equation d^2y/dx^2 + 2 dy/dx + y = 0 has highest derivative of order 2. What is its order?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "For (d^3y/dx^3)^4 + y = 0 the power of the highest derivative is its degree. What is the degree?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Verify y = 3x satisfies dy/dx = 3: the derivative equals what constant?",
+     "a": "3",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

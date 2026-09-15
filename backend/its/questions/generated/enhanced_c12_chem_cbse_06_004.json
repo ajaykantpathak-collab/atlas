@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_06_004",
+   "title": "c12_chem_cbse_06_004",
+   "questions": [
+    {
+     "q": "Write the initiation step for the free radical chlorination of methane using UV light. Show the bond breaking with proper arrow notation.",
+     "a": "Cl-Cl → 2 Cl• (UV light). The single-headed arrows (fishhooks) show homolytic fission: one electron goes to each chlorine atom. Wrong answer: writing Cl₂ → Cl⁺ + Cl⁻ (heterolytic fission) reveals confusion between ionic and radical mechanisms — a critical error because radical reactions require unpaired electrons, not charges.",
+     "self_check": true
+    },
+    {
+     "q": "Why does free radical bromination of 2-methylbutane give predominantly 2-bromo-2-methylbutane (tertiary bromide) while chlorination gives a more mixed product distribution?",
+     "a": "Bromination has a higher activation energy and is more selective (ΔH ≈ +ve for H-abstraction) — the transition state resembles the radical intermediate, so stability differences (3° > 2° > 1°) are magnified. Chlorination is exothermic (ΔH ≈ -ve), early transition state, less selective. Wrong answer: \"bromine is less reactive so it picks the easiest hydrogen\" without mentioning transition state theory reveals superficial understanding — competitive exams test the Hammond postulate connection.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the statistical ratio of 1-chloropropane to 2-chloropropane expected from free radical chlorination of propane, then explain why the experimental ratio differs.",
+     "a": "Propane has 6 equivalent primary H (two CH₃) and 2 secondary H (CH₂). Statistical ratio = 6:2 = 3:1 (1-chloro:2-chloro). Experimentally, 2-chloropropane predominates (~55% vs 45%) because secondary radical is more stable than primary. Wrong answer: only giving 3:1 without explaining the reactivity order 3° > 2° > 1° shows inability to apply relative reactivity factors (k_3°/k_1° ≈ 5 for Cl₂) — a common JEE trap.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze: \"Free radical chlorination of neopentane, (CH₃)₄C, gives only one monochlorinated product.\" Is this statement correct? Justify.",
+     "a": "Correct. Neopentane has 12 equivalent primary hydrogens (four identical CH₃ groups) and no 2°/3° H. All H are equivalent → only one product: (CH₃)₃C-CH₂Cl. Wrong answer: \"neopentane has no hydrogen on the central carbon so it cannot react\" reveals misunderstanding that reaction occurs at C-H bonds, not at the central quaternary carbon — a structural misreading common in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"Free radical fluorination of alkanes is a practical laboratory method for preparing fluoroalkanes.\" True or false? Explain with thermodynamic data.",
+     "a": "False. Fluorination is highly exothermic (ΔH = -431 kJ/mol for CH₄ + F₂), explosive, uncontrollable, and gives polyfluorinated mixtures. Industrial fluorination uses electrochemical methods (Simon process) or CoF₃. Wrong answer: \"fluorine is too reactive\" without quantitative ΔH comparison (Cl₂: -104 kJ/mol, Br₂: +73 kJ/mol) shows lack of thermodynamic reasoning — NEET often asks to compare halogen reactivity trends.",
+     "self_check": true
+    },
+    {
+     "q": "Design an experiment to distinguish between free radical chlorination and electrophilic aromatic substitution of benzene using Cl₂/UV vs Cl₂/FeCl₃. List observations and products.",
+     "a": "Set up two test tubes: (A) cyclohexane + Cl₂ in UV light; (B) benzene + Cl₂ with anhydrous FeCl₃ in dark. (A) decolorizes Cl₂ slowly, gives HCl gas (white fumes with NH₃), product is chlorocyclohexane (liquid). (B) decolorizes Cl₂ rapidly, gives HCl, product is chlorobenzene (liquid, separable). Key distinction: UV light vs Lewis acid catalyst; saturated vs aromatic substrate; radical vs electrophilic mechanism. Poor answer: only stating \"different products\" without mechanistic rationale shows inability to connect conditions to mechanism — a competency question requirement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_01_010",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_01_010",
+   "title": "c11_geo_cbse_01_010",
+   "questions": [
+    {
+     "q": "Name the two primary sub-fields of Physical Geography discussed in this node and give one key process studied in each.",
+     "a": "The two primary sub-fields are Geomorphology and Climatology. Geomorphology studies processes like weathering, erosion, and plate tectonics that shape landforms. Climatology studies processes like insolation, pressure belt formation, and atmospheric circulation that determine climate patterns. A wrong answer (e.g., naming Oceanography or Biogeography) reveals the student cannot distinguish core sub-fields from allied branches or confuses Physical Geography's internal structure.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the windward side of the Western Ghats receives heavy rainfall while the leeward side remains relatively dry, using concepts from both Geomorphology and Climatology.",
+     "a": "The Western Ghats act as a geomorphological barrier (orographic lift) forcing moisture-laden Southwest Monsoon winds (climatology) to rise, cool adiabatically, and condense, causing heavy rainfall on the windward side. On the leeward side, descending air warms adiabatically, reducing humidity and creating a rain-shadow zone. A wrong answer that only mentions \"mountains block rain\" without explaining adiabatic cooling/heating or wind dynamics shows a lack of integration between the two sub-fields.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that the Thar Desert exists solely because of low rainfall (climatology). Using geomorphological evidence, evaluate this claim and identify the missing factor.",
+     "a": "The claim is incomplete. While low rainfall (climatology) is necessary, the Thar's aridity is amplified by geomorphological factors: its location on the leeward side of the Aravalli Range (which runs parallel to monsoon winds, failing to force uplift), sandy soil with high infiltration/low water retention, and lack of perennial rivers. A wrong answer focusing only on rainfall reveals a single-factor determinism misconception, ignoring the role of landform orientation and surface characteristics in modifying climatic effects.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of endogenic forces in the formation of the Himalayas with the role of exogenic forces in the formation of the Northern Plains. How do these two geomorphological processes interact over geological time?",
+     "a": "Endogenic forces (convergent plate collision of Indian and Eurasian plates) uplifted the Himalayas, creating high relief and steep gradients. Exogenic forces (river erosion by Indus, Ganga, Brahmaputra) then transported vast sediments from these mountains, depositing them in the foreland basin to form the Northern Plains. The interaction is cyclical: uplift increases erosion potential, while erosion isostatically rebounds the crust, sustaining the cycle. A wrong answer treating them as separate, one-time events misses the dynamic feedback loop central to geomorphology.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Climatology is only about recording temperature and rainfall data.\" Provide a counter-argument using the concept of atmospheric circulation.",
+     "a": "The statement reduces Climatology to mere data collection (meteorology). True Climatology explains *why* patterns exist: it analyzes the mechanisms of atmospheric circulation — Hadley, Ferrel, and Polar cells driven by differential heating — which create pressure belts (ITCZ, subtropical highs) and wind systems (trade winds, westerlies) that *determine* the spatial distribution of temperature and rainfall. A wrong answer equating climatology with weather recording shows confusion between weather (short-term state) and climate (long-term pattern + causal mechanisms).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field investigation for your school campus that integrates one geomorphological and one climatological observation. State the hypothesis, method, and expected geographical insight.",
+     "a": "Hypothesis: \"Micro-topography influences local temperature variation.\" Method: (1) Geomorphology: Map small landforms (slope, depression, flat ground) on campus using a clinometer and tape. (2) Climatology: Place identical thermometers at 3 representative sites for a week, recording max/min at same time daily. Insight: Depressions may show lower minimum temperatures (cold air drainage) and slopes aspect-dependent heating. A poor answer proposes two unrelated observations (e.g., \"measure rain and count trees\") without a linking geographical hypothesis or process-based reasoning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_04_005",
+   "title": "c10_civ_cbse_04_005",
+   "questions": [
+    {
+     "q": "What is the most fundamental feature of internal democracy in a political party that is violated when top leaders unilaterally decide all candidates for elections without any member consultation or voting?",
+     "a": "The fundamental feature violated is **participatory decision-making through free and fair organizational elections or structured member consultation**. A wrong answer (e.g., \"the party doesn't hold national elections\") reveals the student confuses *external* elections (Lok Sabha/Assembly) with *internal* party elections. The student fails to distinguish between a party's role in the electoral system and its own organizational functioning.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Election Commission of India (ECI) require political parties to hold organizational elections under Section 29A of the Representation of the People Act, 1951, even though the Constitution does not explicitly mandate internal party democracy?",
+     "a": "The ECI uses Section 29A (registration of parties) as a regulatory lever: parties must submit their constitution containing provisions for organizational elections to get registered and retain recognition/symbols. This is an *administrative inference* — since parties are essential to the electoral process (Class 9: c9_civ_ch2_5), their internal health affects the quality of democracy. A wrong answer (e.g., \"Article 324 gives ECI power over parties\") shows confusion: Article 324 governs *conduct of elections*, not party registration. The student mixes up constitutional provisions with statutory powers under the RP Act.",
+     "self_check": true
+    },
+    {
+     "q": "In Party X, the president has held the post for 20 years without any organizational election. The \"national executive\" is nominated by the president, and candidates for Assembly elections are announced via a press release by the president's office. Identify *two* specific features of internal democracy missing here and explain how each weakens the party's link with voters.",
+     "a": "Missing features: (1) **Regular organizational elections for leadership** — absence means no accountability, leader becomes unchallengeable, disconnects from grassroots feedback. (2) **Transparent, participatory candidate selection** — opaque top-down distribution ignores local workers' aspirations, breeds resentment, and often imposes unpopular candidates, reducing electoral viability. A wrong answer listing only \"no elections\" without explaining the *causal link* to voter disconnect (e.g., \"workers feel ignored so they don't campaign\") shows superficial understanding — the student recalls features but cannot analyze functional consequences for the party-voter linkage (Class 9 concept).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the internal democracy deficit in a national party where the same family has held the top post for three generations (via unanimous \"elections\" with no rival candidates) versus a regional party where the founder-leader nominates all office-bearers but holds open primaries for candidate selection in 50% of seats. Which scenario poses a greater long-term threat to democratic values? Justify.",
+     "a": "The national party with hereditary leadership poses greater long-term threat. **Reasoning**: (1) **Scale of impact** — national parties govern at Centre, set national agenda; dynastic control at this level normalizes hereditary politics as a model for all parties. (2) **Institutionalization of succession** — \"unanimous elections\" create a facade of democracy, making the deficit harder to challenge legally or morally. (3) **Systemic contagion** — regional parties often mimic national parties; a dynastic national party legitimizes the model. The regional party's partial primaries, while limited, show *some* institutionalized member participation — a seed for internal democracy. A wrong answer choosing the regional party because \"nominations are undemocratic\" ignores the *systemic normalization* of dynastic rule and the difference between a *complete facade* and *partial but real* democratic practice.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this argument: \"Internal party democracy is irrelevant because voters only care about the party's manifesto and the PM/CM candidate. As long as the party wins elections, how it chooses leaders internally doesn't matter.\"",
+     "a": "The argument is flawed because: (1) **Accountability chain** — if leaders aren't accountable to party members, they are accountable only to themselves/financiers, not voters. (2) **Candidate quality** — opaque selection often rewards loyalty over merit, leading to legislators who serve the leader, not constituents (weakening representative democracy). (3) **Policy capture** — centralized parties formulate manifestos without grassroots input, making promises disconnected from ground realities. (4) **Democratic culture** — parties are \"schools of democracy\" (Class 9); undemocratic parties produce undemocratic leaders. A wrong answer agreeing with the argument reveals a **procedural-only view of democracy** (elections as events) ignoring the *substantive* requirement of continuous accountability and participation — a classic Class 10 board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 3-point \"Internal Democracy Charter\" for a new political party that addresses the core deficits (leadership accountability, candidate selection, policy input) while being practically enforceable by the ECI under current law (Section 29A, RP Act). Each point must be verifiable.",
+     "a": "**Charter**: (1) **Leadership elections**: Mandatory secret-ballot elections for all national/state office-bearers every 4 years; results with voter turnout % submitted to ECI within 30 days (verifiable via ECI scrutiny of records). (2) **Candidate selection**: For every Lok Sabha/Assembly seat, a screening committee (50% elected by local members, 50% nominated by state unit) shortlists 3 names via recorded vote; final choice by state president with written justification if overruling committee (verifiable via committee minutes submitted to ECI). (3) **Policy input**: Annual \"Member Manifesto Survey\" (digital/paper) on 10 key issues; results published on party website and submitted to ECI; manifesto must reference top 5 member priorities (verifiable via survey data and manifesto comparison). A poor answer proposes vague points like \"regular meetings\" without *verifiable metrics* (turnout %, recorded votes, documented justification) — the student fails to understand that legal enforceability requires *auditable evidence*, not just good intentions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

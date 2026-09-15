@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_05_009",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_05_009",
+   "title": "c11_geo_cbse_05_009",
+   "questions": [
+    {
+     "q": "State the two primary agents of metamorphism and give one natural source for each agent.",
+     "a": "The two primary agents are heat and pressure. Heat sources: magma intrusions (contact metamorphism) or deep burial (geothermal gradient). Pressure sources: lithostatic pressure from overlying rock column or directed tectonic stress from plate convergence. A wrong answer (e.g., \"weathering and erosion\") reveals confusion between metamorphism and sedimentary processes — the student has not grasped that metamorphism occurs in solid state, below the surface.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a shale baked by a granite intrusion becomes hornfels (non-foliated) while the same shale subjected to continental collision becomes slate (foliated). Use the terms \"heat,\" \"pressure,\" and \"directed stress\" in your answer.",
+     "a": "Contact metamorphism: dominant agent is heat from magma; pressure is nearly equal in all directions (lithostatic), so minerals recrystallize randomly → non-foliated hornfels. Regional metamorphism: both heat and directed tectonic pressure act together; platy minerals (clay → mica) align perpendicular to maximum stress → foliation in slate. A wrong answer (e.g., \"hornfels forms from more heat\") misses the critical role of directed stress in creating foliation — a fundamental Class 11 distinction.",
+     "self_check": true
+    },
+    {
+     "q": "A limestone protolith at 3 km depth experiences a geothermal gradient of 25°C/km and lithostatic pressure of ~27 MPa/km. Calculate the approximate temperature and pressure conditions. Would this produce low-grade or medium-grade metamorphism? Justify using the concept of metamorphic grade.",
+     "a": "Step 1: Temperature = surface temp (assume 20°C) + gradient × depth = 20 + 25×3 = 95°C. Step 2: Pressure = 27 MPa/km × 3 km = 81 MPa. Step 3: Metamorphic grade is defined by temperature primarily. Low-grade: ~200–350°C; medium-grade: ~350–500°C. At 95°C, this is **diagenesis/very low-grade**, not true metamorphism. A wrong answer (e.g., \"medium grade because of high pressure\") reveals the misconception that pressure alone determines grade — temperature is the primary control on mineral reactions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast contact metamorphism and regional metamorphism across these four dimensions: (a) spatial extent, (b) pressure regime, (c) typical metamorphic grade, (d) resultant rock textures.",
+     "a": "(a) Contact: localized (meters to hundreds of meters around intrusion); Regional: extensive (100s of km across orogenic belts). (b) Contact: lithostatic pressure dominates (near-equal); Regional: directed tectonic stress dominates. (c) Contact: high-grade near intrusion, grades outward; Regional: systematic grade increase from low to high across zones. (d) Contact: non-foliated (hornfels, marble, quartzite); Regional: foliated (slate, phyllite, schist, gneiss). A wrong answer conflating the two (e.g., \"both produce foliation\") shows failure to link stress regime to texture — a core analytical skill for board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Hydrothermal metamorphism is simply a combination of heat and pressure, so it does not need a separate classification.\" Use the role of chemically active fluids in mineral reactions.",
+     "a": "The statement is incorrect. Hydrothermal metamorphism involves hot, ion-rich fluids (H₂O, CO₂, metals) that act as catalysts for ion exchange, enabling reactions at lower temperatures and transporting material (e.g., forming ore veins). Heat and pressure alone cannot explain metasomatism (chemical change) or vein mineralization. A wrong answer accepting the statement reveals a gap: the student treats fluids as passive heat carriers, not active chemical agents — a senior-secondary error where \"agents\" are reduced to just T and P.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field investigation plan to distinguish whether a given metamorphic outcrop in the Himalayan foothills formed by contact or regional metamorphism. List three observable criteria and the expected observation for each.",
+     "a": "Criterion 1: Foliation orientation — regional shows consistent regional foliation parallel to fold axes; contact shows random or concentric foliation. Criterion 2: Metamorphic zonation — regional shows wide, mappable isograds (e.g., chlorite → biotite → garnet zones); contact shows narrow, concentric aureole. Criterion 3: Igneous association — contact has cross-cutting igneous intrusion with chilled margins; regional lacks direct intrusive contact. A poor plan (e.g., \"check hardness\") misses structural and spatial reasoning — the student cannot apply concepts to field evidence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_26_008",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_26_008",
+   "title": "c11_eng_w_cbse_26_008",
+   "questions": [
+    {
+     "q": "What is the primary difference between a simile and a metaphor, and which one does Forster use when he writes, \"It runs like a backbone—or may I say a tape-worm\"?",
+     "a": "A simile uses \"like\" or \"as\" to compare two things; a metaphor states one thing *is* another directly. Forster uses a **simile** here (\"runs **like** a backbone\"), though he immediately pivots to the metaphorical identity \"a tape-worm\" (implying the story *is* a parasite). A wrong answer (e.g., calling it a metaphor) reveals the student confuses explicit comparison (simile) with implicit equation (metaphor), missing Forster's deliberate shift from structural support (\"backbone\") to parasitic dependence (\"tape-worm\").",
+     "self_check": true
+    },
+    {
+     "q": "Forster describes the primitive audience as \"an audience of shock-heads, gaping round the campfire, fatigued with contending against the mammoth or the woolly rhinoceros.\" Identify **two** distinct sensory images in this sentence and explain the *combined* effect they create on the reader's understanding of \"suspense.\"",
+     "a": "Visual: \"shock-heads, gaping round the campfire\" (disheveled, wide-eyed faces lit by fire). Tactile/Kinesthetic: \"fatigued with contending against the mammoth\" (physical exhaustion, muscle memory of struggle). Combined, they ground the abstract concept of \"suspense\" in visceral survival: suspense is not intellectual curiosity but a biological necessity that keeps exhausted bodies awake. A wrong answer listing only one sense or treating them as mere decoration misses how Forster uses imagery to argue that the story's power is *primordial and physiological*, not aesthetic.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"vehicle\" and \"tenor\" (from I.A. Richards) to Forster's metaphor: **\"The novelist droned on and, as soon as the audience guessed what happened next, they either fell asleep or killed him.\"** Identify the tenor, the vehicle, and the *specific* quality transferred.",
+     "a": "Tenor: The novelist/storyteller. Vehicle: A drone (monotonous sound) / A sacrificial victim. Transferred quality: The storyteller's voice is reduced to a mindless, mechanical buzz (\"droned\"), and their life depends entirely on the audience's *unpredictable* curiosity—if the audience \"guesses\" (solves the mystery), the storyteller loses their function and is destroyed. A wrong answer (e.g., \"the vehicle is the audience\") shows inability to map the metaphor's direction: the *storyteller* is described *in terms of* the drone/victim, not vice versa.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the **extended metaphor of the \"tape-worm\"** (Paragraph 3) structurally mirrors Forster's argument about the **arbitrariness of narrative beginnings and endings**. Use the terms \"arbitrary,\" \"interminable,\" and \"wriggling\" in your explanation.",
+     "a": "The tape-worm metaphor maps the story's **arbitrary** start/end points to the worm's segmented, endless body—no segment is inherently the \"head\" or \"tail.\" \"Interminable\" reflects the worm's potential for endless growth (Scheherazade's 1001 nights). \"Wriggling\" captures the story's mindless, instinctual vitality: it has no *teleology* (purpose), only forward motion. The metaphor *enacts* the argument: just as a tape-worm has no noble shape, the isolated story has no \"finer growths\"—it is pure, ugly continuity. A wrong answer treats the metaphor as ornamental illustration rather than *structural proof* of Forster's thesis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of Forster's **clock imagery** (\"I hear the clock ticking... in a novel, there is always a clock\") versus his **organic imagery** (\"backbone,\" \"tape-worm,\" \"pinnacles\") for conveying the dual nature of the novel (time vs. values). Which image system better serves his argument? Justify.",
+     "a": "The **clock imagery** (mechanical, external, tyrannical) perfectly represents the \"life in time\"—rigid, inescapable, measurable. The **organic imagery** (backbone, tape-worm, pinnacles, wall/cloud/sun) represents the \"life by values\"—internal, irregular, intensity-based. The clock is *better* for the novel's constraint (the novelist *must* cling to the thread); the organic images are *better* for the novel's achievement (piling up pinnacles). A weak evaluation picks one as \"better\" overall; a strong evaluation recognizes Forster *needs both* to dramatize the \"double allegiance\": the clock is the scaffold, the organism is the building.",
+     "self_check": true
+    },
+    {
+     "q": "Create a **new metaphor** (not a simile) that captures Forster's idea that \"daily life... is practically composed of two lives—the life in time and the life by values.\" Write the metaphor and a 2-sentence explanation of the mapping (tenor/vehicle).",
+     "a": "**Metaphor:** \"Daily life is a **double-exposed photograph**: the sharp, sequential frames of clock-time overlaid with the blurred, luminous ghosts of valued moments.\" **Mapping:** Tenor = Daily life's dual nature. Vehicle = Double-exposed photograph. Quality transferred: Both layers exist simultaneously on the same strip (same life); the \"time\" layer provides structure/sequence (frames), the \"value\" layer provides emotional density/ghostly presence (blur/light); neither erases the other, but the \"value\" layer is only visible *through* the time layer. A poor answer creates a simile (\"life is *like* a photo\") or a metaphor with no clear mapping (e.g., \"life is a sandwich\").",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

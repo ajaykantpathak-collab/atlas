@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_01_003",
+   "title": "c11_cs_cbse_01_003",
+   "questions": [
+    {
+     "q": "List any four input devices mentioned in the NCERT textbook and state the type of data each primarily captures (e.g., text, positional, image, audio).",
+     "a": "Correct answer: Keyboard (text/character codes), Mouse (relative positional coordinates), Scanner (image/pixel matrix), Microphone (audio waveforms). Touch screen and braille keyboard are also valid. A wrong answer (e.g., listing \"monitor\" or \"printer\") reveals the student confuses input with output devices. Listing \"CPU\" or \"RAM\" reveals confusion between processing/storage and input. Omitting the data-type mapping shows the student memorizes device names without understanding the *nature of data* each captures.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a keyboard is classified as a \"discrete-input device\" while a mouse is a \"continuous-input device\". How does this difference affect the way the OS handles their data streams?",
+     "a": "Correct answer: A keyboard generates discrete events (key-down/key-up) each producing a distinct scan code; the data stream is a sequence of isolated symbols. A mouse reports a continuous stream of (Δx, Δy) displacement values at a high polling rate (e.g., 125–1000 Hz), representing analog-like motion. The OS handles keyboard input via interrupt-driven event queues (character buffer), while mouse input is often sampled periodically by a cursor-positioning routine that accumulates deltas. A wrong answer that says \"both send binary data\" misses the crucial distinction in *temporal pattern* and *OS handling*. Saying \"mouse sends pixels\" confuses the sensor output with the transmitted data.",
+     "self_check": true
+    },
+    {
+     "q": "A school library wants to digitize 500 old printed question papers (A4 size, text + diagrams) into searchable PDFs. The budget allows only one device purchase. Choose between a flatbed scanner, a sheet-fed scanner, and a smartphone camera app. Justify your choice with three technical reasons.",
+     "a": "Correct choice: Flatbed scanner. Reasons: (1) **Non-destructive**: Bound/fragile pages can be placed face-down without feeding rollers that tear paper. (2) **Uniform illumination & focus**: Fixed optics and controlled light source give consistent 300–600 DPI resolution across the whole page, essential for OCR accuracy on diagrams. (3) **Large platen**: Accommodates A4 fully; smartphone cameras suffer from perspective distortion, uneven lighting, and limited resolution at the edges. A wrong choice of sheet-fed scanner reveals ignorance of physical document handling constraints. Choosing smartphone camera shows lack of understanding of OCR requirements (resolution, distortion, lighting).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the data-representation formats produced by: (a) a keyboard pressing 'A', (b) a scanner digitizing the printed letter 'A' at 300 DPI, (c) a microphone recording the spoken letter 'A'. How do storage requirements differ for these three representations of the *same semantic character*?",
+     "a": "Correct answer: (a) Keyboard → 1–2 bytes (ASCII/Unicode code point, e.g., 0x41). (b) Scanner → ~300×300 pixels × 1 bit (bilevel) ≈ 11 KB raw; compressed (CCITT Group 4) ~1–2 KB. (c) Microphone → 8 kHz sampling × 16-bit × 0.5 sec ≈ 8 KB raw (WAV); compressed (MP3) ~1 KB. Storage grows from bytes (symbolic) to kilobytes (image) to kilobytes (audio) because symbolic encoding captures *meaning*, while image/audio capture *physical manifestation*. A wrong answer stating \"all are same size\" or \"scanner is smallest\" reveals confusion between semantic encoding and raw sensory capture.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A touch screen makes both a keyboard and a mouse obsolete for general-purpose computing.\" Provide two arguments supporting and two arguments refuting it, referencing human-factor and technical constraints.",
+     "a": "Supporting: (1) Direct manipulation reduces cognitive load (no mapping between hand movement and cursor). (2) Saves physical space — critical for tablets/kiosks. Refuting: (1) **Ergonomics**: Vertical touch screens cause \"gorilla arm\" fatigue; no tactile feedback reduces typing speed/accuracy vs. physical keyboard. (2) **Precision**: Finger tip contact area (~10 mm) is far coarser than mouse cursor (1 pixel), making pixel-level editing (CAD, coding) impractical without a stylus. A one-sided answer reveals failure to evaluate trade-offs. Claiming \"touch screens are always better\" ignores accessibility needs (motor-impaired users may prefer switches/voice).",
+     "self_check": true
+    },
+    {
+     "q": "Design an input-system block diagram for a \"Smart Attendance Terminal\" used by construction workers wearing gloves and helmets in noisy, dusty outdoors. Label each block (sensor, transducer, encoder, interface) and specify the device chosen for each input: worker ID, presence verification, and override command. Justify each choice in one sentence.",
+     "a": "Expected blocks: (1) **RFID reader** (sensor: antenna; transducer: inductive coupling; encoder: Manchester-coded bit stream; interface: USB/UART) for Worker ID — works through gloves/helmets, no contact. (2) **IR proximity + thermal sensor** (sensor: photodiode/thermopile; transducer: photon/heat → voltage; encoder: ADC → digital pulse; interface: GPIO) for Presence — detects living human, not just card. (3) **Rugged capacitive touch button** (sensor: conductive pad; transducer: capacitance change; encoder: debounced key-code; interface: I2C) for Override — large, gloved-finger operable, sealed against dust. A poor answer uses fingerprint scanner (fails with gloves/dirt), keyboard (dust ingress), or microphone (noise). Missing encoder/interface labels shows incomplete system-view.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

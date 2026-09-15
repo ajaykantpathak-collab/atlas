@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch4_8",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch4_8",
+   "title": "c9_bio_ch4_8",
+   "questions": [
+    {
+     "q": "What are the two components of a binomial scientific name and how are they formatted according to international rules?",
+     "a": "The two components are the genus name (capitalized) and the specific epithet (lowercase), both italicized in print or underlined when handwritten, e.g., *Mangifera indica*. A wrong answer such as \"both words capitalized\" or \"only the first word italicized\" reveals the student has memorized the term 'binomial' but not the precise formatting conventions required for board exam answer writing.",
+     "self_check": true
+    },
+    {
+     "q": "Why did scientists adopt a Latin-based naming system instead of using common names in local languages for scientific work?",
+     "a": "Latin is a dead language with fixed meanings, so it does not evolve or vary by region, providing stability and universality; common names differ across languages and even within a language (e.g., 'seagull' refers to many species), causing confusion. If a student says \"Latin is the language of science\" without explaining the problem of common names, they have not grasped the *reason* for the convention, only the fact.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the scientific name of the mango tree as *mangifera Indica*. Identify the two formatting errors and write the correct version.",
+     "a": "Errors: genus name 'mangifera' should be capitalized (*Mangifera*), and specific epithet 'Indica' should be lowercase (*indica*). Correct: *Mangifera indica*. A student who only fixes capitalization but not italics, or writes 'Mangifera Indica' (both capitalized), shows incomplete understanding of the three simultaneous rules: genus capitalized, species lowercase, both italicized.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the information conveyed by the names *Panthera leo* and *Panthera tigris* versus the common names 'lion' and 'tiger'. What additional biological relationship does the binomial system reveal?",
+     "a": "The shared genus *Panthera* indicates that lions and tigers belong to the same genus and are closely related evolutionarily, a relationship invisible in the common names. If a student only says \"they are both big cats\" without referencing the genus-level grouping, they miss the hierarchical information embedded in the binomial system that connects to the classification hierarchy (c9_bio_ch4_7).",
+     "self_check": true
+    },
+    {
+     "q": "A textbook states: \"The scientific name of the house crow is *Corvus splendens*. In a list of Indian birds, it can be abbreviated as *C. splendens* after the first full mention.\" Evaluate whether this statement follows correct nomenclatural practice and justify your answer.",
+     "a": "Yes, the statement is correct. International rules allow abbreviating the genus to its initial capital letter followed by a period once the full genus has been written in the same context, provided no ambiguity arises (e.g., no other genus starting with C in the same list). A student who says \"never abbreviate\" or \"abbreviate both words\" misunderstands the specific convention for subsequent mentions in a single document.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-project for your class: create a 'Scientific Name Directory' for 10 common organisms found in your neighborhood (plants, animals, microbes). For each, provide the binomial name, the meaning of the genus and species epithets (if known), and one reason why the common name is insufficient.",
+     "a": "A good answer includes 10 correctly formatted names (e.g., *Azadirachta indica* – neem, *Mus musculus* – house mouse), etymological meanings (e.g., *Azadirachta* = 'free tree', *indica* = 'from India'), and a specific reason like \"Neem is called 'Indian lilac' in English but 'veppam' in Tamil, causing confusion in research papers.\" A poor answer copies names without meanings or gives generic reasons like \"common names vary\" without a concrete example.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

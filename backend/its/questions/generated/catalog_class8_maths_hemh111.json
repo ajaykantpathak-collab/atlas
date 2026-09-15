@@ -1,0 +1,124 @@
+{
+ "catalog": "catalog_class8_maths_hemh111.json",
+ "concepts": [
+  {
+   "id": "hemh.111.11.1",
+   "title": "Direct Proportion",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Write the ratio 10 : 18 in its simplest form and give the first term of the simplest form.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Rs 200 is divided between two friends in the ratio 2 : 8. Find the smaller share.",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "Rs 240 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "120",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 3 : 7 = 15 : ?  (give the fourth term).",
+     "a": "35",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 3 : 7 :: 15 : 35 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 2 notebooks cost Rs 40, what will 4 notebooks cost at the same rate (direct proportion)?",
+     "a": "80",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.111.11.2",
+   "title": "Inverse Proportion",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Write the ratio 6 : 42 in its simplest form and give the first term of the simplest form.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Rs 540 is divided between two friends in the ratio 3 : 6. Find the smaller share.",
+     "a": "180",
+     "self_check": false
+    },
+    {
+     "q": "Rs 600 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "300",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 7 : 4 = 35 : ?  (give the fourth term).",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 7 : 4 :: 35 : 20 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 2 notebooks cost Rs 120, what will 20 notebooks cost at the same rate (direct proportion)?",
+     "a": "1200",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.111.11.3",
+   "title": "Telling Direct and Inverse Apart",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 24 / 8 gives 3",
+     "compute": "t1 = 24 / 8"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Write the ratio 24 : 88 in its simplest form and give the first term of the simplest form.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Rs 600 is divided between two friends in the ratio 1 : 9. Find the smaller share.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "Rs 240 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "120",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 5 : 6 = 20 : ?  (give the fourth term).",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 5 : 6 :: 20 : 24 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 4 notebooks cost Rs 60, what will 12 notebooks cost at the same rate (direct proportion)?",
+     "a": "180",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,612 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 1,
+ "chapter_title": "Understanding Social Science",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iest101.txt",
+ "concepts": [
+  {
+   "id": "c9ss.1.1",
+   "title": "Meaning and Scope of Social Science",
+   "section": "1.1",
+   "definition": "Social science is the study of human society and social relationships, covering how people live, organise themselves, and interact with one another and their environment.",
+   "formula": "",
+   "key_idea": "Social science explores human society, behaviour, and relationships across time and space.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is social science?",
+    "What does social science study?",
+    "Why is social science called a study of society?",
+    "What is the scope of social science?",
+    "How does social science differ from natural science?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define social science",
+     "explain": "Social science is the study of human society and the relationships among individuals within that society."
+    },
+    {
+     "step": 2,
+     "action": "Describe its scope",
+     "explain": "Its scope includes how people live, organise themselves, govern, earn a living, and interact with their environment."
+    },
+    {
+     "step": 3,
+     "action": "Contrast with natural science",
+     "explain": "Natural science studies the physical world, while social science studies human behaviour and society."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is social science?",
+     "solution": "Social science is the study of human society and social relationships.",
+     "answer": "The study of human society and social relationships."
+    },
+    {
+     "question": "How does social science differ from natural science?",
+     "solution": "Natural science studies the physical world, while social science studies human behaviour and society.",
+     "answer": "Natural science studies the physical world; social science studies human society."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What does social science study?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why is social science called a study of society?",
+     "type": "verify_property"
+    },
+    {
+     "question": "What is the scope of social science?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.1.2",
+   "title": "Branches of Social Science: History",
+   "section": "1.2",
+   "definition": "History is the study of past events, societies, and civilisations, based on written records and archaeological evidence, to understand how human societies have changed over time.",
+   "formula": "",
+   "key_idea": "History helps us understand the present by studying the past events and societies that shaped it.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is history as a branch of social science?",
+    "What does history study?",
+    "Why is the study of history important?",
+    "What sources do historians use?",
+    "How does history help us understand the present?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define history",
+     "explain": "History is the study of past events, societies, and civilisations."
+    },
+    {
+     "step": 2,
+     "action": "Identify the sources used",
+     "explain": "Historians use written records, inscriptions, and archaeological evidence to reconstruct the past."
+    },
+    {
+     "step": 3,
+     "action": "Explain its purpose",
+     "explain": "History helps us understand how societies changed over time and how the past shapes the present."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is history as a branch of social science?",
+     "solution": "History is the study of past events, societies, and civilisations based on records and evidence.",
+     "answer": "The study of past events and societies."
+    },
+    {
+     "question": "Why is the study of history important?",
+     "solution": "History helps us understand how societies changed over time and how the past shapes the present.",
+     "answer": "It helps us understand the present by studying the past."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What sources do historians use?",
+     "type": "verify_property"
+    },
+    {
+     "question": "How does history help us understand the present?",
+     "type": "verify_property"
+    },
+    {
+     "question": "What does history study?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.1.3",
+   "title": "Branches of Social Science: Geography",
+   "section": "1.3",
+   "definition": "Geography is the study of the Earth's surface, its physical features, climate, and the relationship between humans and their environment.",
+   "formula": "",
+   "key_idea": "Geography links natural features of the Earth with how humans use and adapt to their environment.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is geography as a branch of social science?",
+    "What does geography study?",
+    "How does geography link nature and human life?",
+    "What are the two main branches of geography?",
+    "Why is geography considered a bridge between natural and social sciences?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define geography",
+     "explain": "Geography is the study of the Earth's surface, its physical features, and climate."
+    },
+    {
+     "step": 2,
+     "action": "Identify its two branches",
+     "explain": "Physical geography studies natural features, and human geography studies how people interact with their environment."
+    },
+    {
+     "step": 3,
+     "action": "Explain the link to human life",
+     "explain": "Geography shows how natural features like rivers and mountains influence where and how people live."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is geography as a branch of social science?",
+     "solution": "Geography is the study of the Earth's surface, its features, climate, and the human-environment relationship.",
+     "answer": "The study of the Earth's surface and human-environment relations."
+    },
+    {
+     "question": "What are the two main branches of geography?",
+     "solution": "Physical geography studies natural features, and human geography studies people and their environment.",
+     "answer": "Physical geography and human geography."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How does geography link nature and human life?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why is geography considered a bridge between natural and social sciences?",
+     "type": "verify_property"
+    },
+    {
+     "question": "What does geography study?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.1.4",
+   "title": "Branches of Social Science: Political Science",
+   "section": "1.4",
+   "definition": "Political science is the study of government, political processes, and institutions, and how power and authority are organised and used in society.",
+   "formula": "",
+   "key_idea": "Political science studies how governments work and how power is organised and used in society.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is political science?",
+    "What does political science study?",
+    "Why is political science important in a democracy?",
+    "What are the main institutions studied in political science?",
+    "How does political science help citizens?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define political science",
+     "explain": "Political science is the study of government, political processes, and institutions."
+    },
+    {
+     "step": 2,
+     "action": "Identify its main focus",
+     "explain": "It studies how power and authority are organised, distributed, and used in society."
+    },
+    {
+     "step": 3,
+     "action": "Explain its importance",
+     "explain": "Political science helps citizens understand their rights and duties and how democracy works."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is political science?",
+     "solution": "Political science is the study of government, political processes, and how power is organised in society.",
+     "answer": "The study of government and political processes."
+    },
+    {
+     "question": "Why is political science important in a democracy?",
+     "solution": "It helps citizens understand their rights, duties, and how democratic institutions work.",
+     "answer": "It helps citizens understand rights, duties, and democratic institutions."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What does political science study?",
+     "type": "verify_property"
+    },
+    {
+     "question": "What are the main institutions studied in political science?",
+     "type": "verify_property"
+    },
+    {
+     "question": "How does political science help citizens?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.1.5",
+   "title": "Branches of Social Science: Economics",
+   "section": "1.5",
+   "definition": "Economics is the study of how people, businesses, and governments produce, distribute, and consume goods and services to satisfy human wants.",
+   "formula": "",
+   "key_idea": "Economics studies how resources are used to produce and distribute goods and services to meet human needs.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is economics as a branch of social science?",
+    "What does economics study?",
+    "Why is the study of economics important?",
+    "What are the main questions economics tries to answer?",
+    "How does economics affect daily life?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define economics",
+     "explain": "Economics is the study of how people produce, distribute, and consume goods and services."
+    },
+    {
+     "step": 2,
+     "action": "Identify its main questions",
+     "explain": "Economics asks what to produce, how to produce, and for whom to produce."
+    },
+    {
+     "step": 3,
+     "action": "Explain its importance",
+     "explain": "Economics helps us understand how resources are used and how choices affect daily life and society."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is economics as a branch of social science?",
+     "solution": "Economics is the study of how people produce, distribute, and consume goods and services.",
+     "answer": "The study of production, distribution, and consumption of goods and services."
+    },
+    {
+     "question": "What are the main questions economics tries to answer?",
+     "solution": "Economics asks what to produce, how to produce, and for whom to produce.",
+     "answer": "What, how, and for whom to produce."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why is the study of economics important?",
+     "type": "verify_property"
+    },
+    {
+     "question": "How does economics affect daily life?",
+     "type": "verify_property"
+    },
+    {
+     "question": "What does economics study?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.1.6",
+   "title": "Relevance of Social Science",
+   "section": "1.6",
+   "definition": "Social science is relevant because it helps us understand society, solve social problems, make informed decisions, and become responsible citizens.",
+   "formula": "",
+   "key_idea": "Social science is relevant because it builds awareness of society and helps citizens make informed decisions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why is social science relevant today?",
+    "How does social science help solve social problems?",
+    "How does social science make us better citizens?",
+    "Give two examples of how social science is useful in daily life.",
+    "Why should students study social science?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the relevance",
+     "explain": "Social science helps us understand society and the forces that shape human life."
+    },
+    {
+     "step": 2,
+     "action": "Link to problem solving",
+     "explain": "It helps identify and solve social problems such as poverty, inequality, and conflict."
+    },
+    {
+     "step": 3,
+     "action": "Link to citizenship",
+     "explain": "It makes students aware of their rights and duties, helping them become responsible citizens."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is social science relevant today?",
+     "solution": "Social science helps us understand society, solve social problems, and become responsible citizens.",
+     "answer": "It helps us understand society and become responsible citizens."
+    },
+    {
+     "question": "How does social science help solve social problems?",
+     "solution": "It helps identify the causes of problems like poverty and inequality and suggests ways to address them.",
+     "answer": "It identifies causes and suggests solutions to social problems."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How does social science make us better citizens?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give two examples of how social science is useful in daily life.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why should students study social science?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.1.7",
+   "title": "Indian Perspective on Social Science",
+   "section": "1.7",
+   "definition": "The Indian perspective on social science draws on India's diverse cultures, traditions, and historical experiences to understand society, emphasising unity in diversity and the country's plural heritage.",
+   "formula": "",
+   "key_idea": "The Indian perspective views social science through the lens of India's diversity, plural heritage, and unity in diversity.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the Indian perspective on social science?",
+    "How does India's diversity shape its social science?",
+    "What does unity in diversity mean in the Indian context?",
+    "How do Indian traditions contribute to social science?",
+    "Why is the Indian perspective important in social science?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the Indian perspective",
+     "explain": "The Indian perspective uses India's cultures, traditions, and history to study society."
+    },
+    {
+     "step": 2,
+     "action": "Explain unity in diversity",
+     "explain": "India has many languages, religions, and customs, yet its people share a common identity as Indians."
+    },
+    {
+     "step": 3,
+     "action": "Link to the plural heritage",
+     "explain": "India's plural heritage of many cultures and traditions enriches the study of social science."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the Indian perspective on social science?",
+     "solution": "It is the study of society using India's diverse cultures, traditions, and historical experiences.",
+     "answer": "Studying society through India's diversity and heritage."
+    },
+    {
+     "question": "What does unity in diversity mean in the Indian context?",
+     "solution": "India has many languages, religions, and customs, yet its people share a common identity as Indians.",
+     "answer": "Many cultures sharing a common Indian identity."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How does India's diversity shape its social science?",
+     "type": "verify_property"
+    },
+    {
+     "question": "How do Indian traditions contribute to social science?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why is the Indian perspective important in social science?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.1.8",
+   "title": "Interconnections Between Disciplines",
+   "section": "1.8",
+   "definition": "The branches of social science are interconnected because history, geography, political science, and economics all influence one another and together explain human society.",
+   "formula": "",
+   "key_idea": "The branches of social science are linked; events and processes studied in one branch often affect the others.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How are the branches of social science interconnected?",
+    "Give an example of how history and geography are linked.",
+    "How does economics connect with political science?",
+    "Why is it important to study the branches together?",
+    "What happens when we study only one branch of social science?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the interconnection",
+     "explain": "History, geography, political science, and economics all influence one another and together explain society."
+    },
+    {
+     "step": 2,
+     "action": "Give an example",
+     "explain": "A region's geography affects its economy, which in turn shapes its politics and history."
+    },
+    {
+     "step": 3,
+     "action": "Explain the value of studying them together",
+     "explain": "Studying the branches together gives a complete picture of society that a single branch cannot."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How are the branches of social science interconnected?",
+     "solution": "History, geography, political science, and economics influence one another and together explain society.",
+     "answer": "The branches influence one another and together explain society."
+    },
+    {
+     "question": "Give an example of how history and geography are linked.",
+     "solution": "A region's geography, such as rivers and mountains, shapes its history by influencing where settlements and trade develop.",
+     "answer": "Geography shapes where settlements and trade develop, shaping history."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How does economics connect with political science?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why is it important to study the branches together?",
+     "type": "verify_property"
+    },
+    {
+     "question": "What happens when we study only one branch of social science?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.1.9",
+   "title": "Methods of Social Science",
+   "section": "1.9",
+   "definition": "Methods of social science are the ways social scientists study society, including observation, surveys, interviews, case studies, and analysis of sources and data.",
+   "formula": "",
+   "key_idea": "Social scientists use methods like observation, surveys, and source analysis to study society systematically.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the methods of social science?",
+    "How do social scientists collect information?",
+    "What is the difference between a survey and a case study?",
+    "Why are methods important in social science?",
+    "Give two examples of methods used by social scientists."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the main methods",
+     "explain": "Social scientists use observation, surveys, interviews, case studies, and source analysis."
+    },
+    {
+     "step": 2,
+     "action": "Explain how data is collected",
+     "explain": "They collect information by asking questions, observing behaviour, and studying records and documents."
+    },
+    {
+     "step": 3,
+     "action": "Explain why methods matter",
+     "explain": "Systematic methods make findings reliable and help build accurate knowledge about society."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the methods of social science?",
+     "solution": "They include observation, surveys, interviews, case studies, and analysis of sources and data.",
+     "answer": "Observation, surveys, interviews, case studies, and source analysis."
+    },
+    {
+     "question": "What is the difference between a survey and a case study?",
+     "solution": "A survey collects information from many people, while a case study examines one event or group in detail.",
+     "answer": "A survey covers many people; a case study examines one in detail."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How do social scientists collect information?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why are methods important in social science?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give two examples of methods used by social scientists.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c9ss.1.10",
+   "title": "Sources and Evidence in Social Science",
+   "section": "1.10",
+   "definition": "Sources and evidence in social science are the materials and records, such as documents, artefacts, oral traditions, and data, that scholars use to build and support their understanding of society.",
+   "formula": "",
+   "key_idea": "Social science relies on sources and evidence, both primary and secondary, to build reliable knowledge about society.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are sources in social science?",
+    "What is the difference between primary and secondary sources?",
+    "Give two examples of primary sources.",
+    "Why is evidence important in social science?",
+    "How do social scientists check the reliability of a source?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define sources and evidence",
+     "explain": "Sources are materials like documents, artefacts, and oral traditions that provide evidence about society."
+    },
+    {
+     "step": 2,
+     "action": "Distinguish primary and secondary sources",
+     "explain": "Primary sources are original records from the time, while secondary sources are later accounts built on primary ones."
+    },
+    {
+     "step": 3,
+     "action": "Explain the role of evidence",
+     "explain": "Evidence supports claims and makes conclusions reliable, so scholars check sources for accuracy and bias."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the difference between primary and secondary sources?",
+     "solution": "Primary sources are original records from the time, while secondary sources are later accounts based on them.",
+     "answer": "Primary sources are original; secondary sources are later accounts."
+    },
+    {
+     "question": "Give two examples of primary sources.",
+     "solution": "A government order from a period and a letter written by a person at the time are primary sources.",
+     "answer": "A government order and a personal letter from the time."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What are sources in social science?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why is evidence important in social science?",
+     "type": "verify_property"
+    },
+    {
+     "question": "How do social scientists check the reliability of a source?",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus, iest101 = Ch 1 Understanding Social Science)"
+}

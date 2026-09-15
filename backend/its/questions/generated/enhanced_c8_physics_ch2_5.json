@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch2_5",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch2_5",
+   "title": "c8_physics_ch2_5",
+   "questions": [
+    {
+     "q": "What is the key property of an electromagnet that makes it suitable for use in a lifting magnet at a scrapyard, which a permanent magnet does not have?",
+     "a": "An electromagnet's magnetism can be turned **on and off** by controlling the electric current. A permanent magnet is always magnetic and cannot release the load at will. If a student says \"electromagnet is stronger\", that reveals they confuse strength with controllability; a permanent magnet can be very strong but cannot drop the load on command.",
+     "self_check": true
+    },
+    {
+     "q": "In an electric bell, the hammer strikes the gong repeatedly as long as the push button is pressed. Explain why the hammer moves back and forth automatically without the person pressing the button repeatedly.",
+     "a": "The hammer is attached to a springy metal strip (armature) that forms part of the circuit. When the electromagnet pulls the armature, the hammer strikes the gong **and** the contact screw separates from the armature, breaking the circuit. Current stops, magnetism vanishes, the spring pulls the armature back, remaking the contact, restarting the cycle. A wrong answer like \"the spring pushes it back\" without mentioning the circuit break reveals the student misses the crucial make-and-break mechanism linking magnetism to circuit continuity.",
+     "self_check": true
+    },
+    {
+     "q": "A lifting magnet uses a soft iron core with 500 turns of insulated copper wire. When connected to a 12 V battery, it lifts a 200 kg iron plate. If the number of turns is doubled to 1000 while keeping the same battery and core, what will happen to the lifting capacity? (Assume the wire thickness and battery internal resistance remain unchanged.)",
+     "a": "**Step 1:** Identify given: N₁ = 500 turns, lifts 200 kg. N₂ = 1000 turns, same voltage (12 V), same core.  \n**Step 2:** Recall from c8_physics_ch2_4: Magnetic strength ∝ Number of turns (N) × Current (I).  \n**Step 3:** Doubling turns doubles the resistance of the wire (R ∝ length). With same voltage, current I = V/R will **halve** (I₂ = I₁/2).  \n**Step 4:** New strength ∝ N₂ × I₂ = (2N₁) × (I₁/2) = N₁ × I₁. Strength remains **unchanged**.  \n**Step 5:** Lifting capacity stays ~200 kg.  \nA wrong answer \"it will lift 400 kg\" shows the student only considered turns increase but ignored the resulting current decrease due to higher resistance – a classic oversight of the circuit as a whole system.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the core material choice for a lifting magnet versus an electric bell. Both use soft iron, but why is \"soft\" iron specifically critical for the electric bell's rapid operation (hundreds of cycles per second)?",
+     "a": "Soft iron has **high magnetic permeability** (magnetizes strongly with small current) and **very low retentivity/coercivity** (loses magnetism instantly when current stops). In a lifting magnet, the magnet stays on for seconds/minutes; a slight delay in demagnetization is tolerable. In an electric bell, the make-and-break cycle occurs ~100–200 times per second; if the core retained even slight residual magnetism (like hard steel), the armature would stick and the bell would stop ringing. A student who says \"soft iron is a better conductor\" confuses electrical conductivity with magnetic properties.",
+     "self_check": true
+    },
+    {
+     "q": "A student constructs an electric bell but finds that the hammer strikes the gong only once and then stops, even though the push button is held down. The connections are correct and the battery is new. Evaluate which of the following faults is most likely and justify: (a) The electromagnet core is made of steel instead of soft iron. (b) The contact screw is adjusted too far from the armature. (c) The spring on the armature is too stiff.",
+     "a": "**Most likely fault: (b) Contact screw too far from armature.**  \n**Reasoning:** For the make-and-break action, the armature **must** physically touch the contact screw when at rest to complete the circuit initially. If the gap is too large, the circuit is never made, so the electromagnet never activates – but the problem says it strikes *once*. If it strikes once, the circuit was initially complete. After the strike, the armature moves away, breaking contact. If the contact screw is too far, the returning armature (pulled by spring) **cannot reach** the screw to remake the circuit. The cycle stops after one strike.  \n(a) Steel core would cause residual magnetism, making the hammer stick *on* the gong, not stop after one strike. (c) Stiff spring would reduce frequency but not stop after one strike. A wrong choice reveals inability to trace the complete circuit path through the moving contact.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a battery, insulated wire, an iron nail, and a switch to demonstrate the working principle of a lifting magnet. Your design must show how to **quantify** the lifting capacity (e.g., number of paper clips lifted) and test the effect of **one variable** (number of turns or current). Write the procedure in 4 steps.",
+     "a": "**Good answer criteria:**  \n1. Wind 50 turns of wire on nail, connect to battery via switch.  \n2. Close switch, dip nail tip into a tray of identical paper clips, count how many cling. Open switch, count how many fall (should be all). Record.  \n3. Repeat with 100 turns (same battery, same nail) – keep current variable constant by using same battery.  \n4. Compare counts; plot turns vs. clips lifted.  \n**Poor answer reveals:** If the student changes both turns *and* battery (e.g., uses 2 cells for 100 turns), they fail to isolate variables. If they don't include the \"switch off and count fallen clips\" step, they miss the core concept of temporary magnetism.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch04_006",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch04_006",
+   "title": "c7_geo_ch04_006",
+   "questions": [
+    {
+     "q": "What are the four primary environmental pillars that determine agricultural patterns in any region of India?",
+     "a": "The four pillars are climate, soil, water, and farming. A wrong answer—such as naming specific crops like wheat and rice—reveals that the student is confusing the agricultural output (the crops themselves) with the physical environmental factors that make growing those crops possible.",
+     "self_check": true
+    },
+    {
+     "q": "Why is an area with high summer temperatures and heavy seasonal rainfall ideal for growing rice rather than wheat?",
+     "a": "Rice is a kharif crop that requires standing water and high humidity to develop its grains, which matches the intense monsoon rainfall and warm climate of regions like the Northern Plains and Coastal Plains. A wrong answer suggests the student thinks all crops have identical weather requirements, overlooking how plant physiology depends on specific thermal and precipitation ranges.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Punjab has fertile alluvial soil and access to canal irrigation, but winter temperatures drop significantly. Which cropping season is best suited for this winter period, and why?",
+     "a": "Steps: \n1. Identify the season associated with winter in India (Rabi season). \n2. Match the temperature condition (cool winters) to a suitable crop. \n3. Recognize that wheat thrives in cooler winter temperatures with moderate irrigation. \n4. Conclude that wheat is the ideal rabi crop for Punjab. \nA wrong answer shows the student does not understand how seasonal temperature shifts dictate the choice between kharif and rabi crops.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the agricultural challenges of the Thar Desert region with the Northern Plains in terms of water and soil interaction.",
+     "a": "In the Thar Desert, sandy soil has high permeability and poor water retention, combined with extremely low rainfall, which severely limits farming unless intensive irrigation is available. Conversely, the Northern Plains feature fertile alluvial soil deposited by rivers and regular monsoon rainfall, supporting multi-season intensive farming. A wrong answer reveals a failure to link soil porosity and regional precipitation directly to agricultural viability.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"With modern tube wells and chemical fertilizers, Indian farmers no longer need to worry about local climate and natural soil quality.\"",
+     "a": "This statement is false because while technology can supplement water and nutrients, it cannot completely override regional climate limits (such as frost or extreme heat) or permanently fix degraded soil structure without sustainable management. A wrong answer indicates over-reliance on modern technology as a magical solution, ignoring fundamental physical geography constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Design a basic agricultural profile for a newly discovered flat river basin that experiences heavy monsoon rains and high temperatures, specifying soil type, water source, and the most suitable major crop.",
+     "a": "The profile should specify alluvial soil (due to the river basin setting), river or rainwater harvesting for water, and rice as the primary crop because of the high temperature and heavy rainfall. A poor answer might suggest dryland crops like bajra, showing a failure to match wet tropical climatic conditions with appropriate aquatic-loving vegetation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

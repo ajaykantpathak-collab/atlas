@@ -1,0 +1,204 @@
+{
+ "catalog": "catalog_class11_political_science_ch6",
+ "concepts": [
+  {
+   "id": "c11ps.6.1",
+   "title": "Meaning and Importance of Judiciary",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Meaning and Importance of Judiciary' refers to.",
+     "a": "The judiciary is the organ of government that interprets laws, administers justice, and protects the rights of citizens by adjudicating disputes and reviewing the legality of executive and legislative actions.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Meaning and Importance of Judiciary'.",
+     "a": "The judiciary is the guardian of the Constitution and the rights of citizens; it resolves disputes, interprets laws, and ensures that the other organs of government act within constitutional limits.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Meaning and Importance of Judiciary' taught, and from which source text?",
+     "a": "Meaning and Importance of Judiciary",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11ps.6.2",
+   "title": "Independence of the Judiciary",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Independence of the Judiciary' refers to.",
+     "a": "The independence of the judiciary means that the judiciary is free from the control of the executive and the legislature in the appointment, tenure, and functioning of judges, enabling it to decide cases impartially and without fear or favour.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Independence of the Judiciary'.",
+     "a": "An independent judiciary is essential for the rule of law; it is secured through protections for judges' appointment, tenure, salary, and removal, so that they can decide cases without external pressure.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Independence of the Judiciary' taught, and from which source text?",
+     "a": "Independence of the Judiciary",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11ps.6.3",
+   "title": "Supreme Court of India",
+   "questions": [
+    {
+     "q": "Using the method 'Supreme Court of India', work with: chief_justice = 20, other_judges = 50. Carry the chain through step by step and give the final value of the result.",
+     "a": "70 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Supreme Court of India' and work with: chief_justice = 4, other_judges = 100. Carry the chain through step by step and give the final value of the result.",
+     "a": "104 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Supreme Court of India' refers to.",
+     "a": "The Supreme Court of India is the highest court of the land, located at the apex of the judicial hierarchy, consisting of the Chief Justice and other judges, with original, appellate, and advisory jurisdictions.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Supreme Court of India'.",
+     "a": "The Supreme Court is the apex court with the power of judicial review, original jurisdiction over federal disputes, appellate jurisdiction over High Court decisions, and advisory jurisdiction to advise the President on legal questions.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Supreme Court of India', in plain ASCII form.",
+     "a": "total_judges = chief_justice + other_judges",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11ps.6.4",
+   "title": "High Courts",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'High Courts' refers to.",
+     "a": "A High Court is the highest court of justice in a state, having jurisdiction over the whole or part of a state, with original and appellate powers, and standing at the head of the state's judicial administration above subordinate courts.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'High Courts'.",
+     "a": "High Courts are the apex courts of the states with the power of judicial review, writ jurisdiction under Article 226, and appellate jurisdiction over subordinate courts, forming the middle tier of India's judicial hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'High Courts' taught, and from which source text?",
+     "a": "High Courts",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11ps.6.5",
+   "title": "Subordinate Courts",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Subordinate Courts' refers to.",
+     "a": "Subordinate courts are the courts below the High Court in the judicial hierarchy, including district courts and other lower courts, which handle the bulk of civil and criminal cases at the district and lower levels.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Subordinate Courts'.",
+     "a": "Subordinate courts form the base of the judicial pyramid, handling most cases at the district level, and are supervised by the High Court, ensuring justice reaches the grassroots.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Subordinate Courts' taught, and from which source text?",
+     "a": "Subordinate Courts",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11ps.6.6",
+   "title": "Judicial Review",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Judicial Review' refers to.",
+     "a": "Judicial review is the power of the judiciary to examine the constitutionality of legislative enactments and executive orders, and to declare them void if they violate the provisions of the Constitution.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Judicial Review'.",
+     "a": "Judicial review is the mechanism by which the judiciary ensures that the legislature and the executive act within the limits set by the Constitution, making it a cornerstone of constitutional governance.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Judicial Review' taught, and from which source text?",
+     "a": "Judicial Review",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11ps.6.7",
+   "title": "Writs: Habeas Corpus, Mandamus, Certiorari, Quo Warranto",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Writs: Habeas Corpus, Mandamus, Certiorari, Quo Warranto' refers to.",
+     "a": "Writs are formal written orders issued by the Supreme Court under Article 32 and High Courts under Article 226 to enforce fundamental rights and other legal rights; the main writs are habeas corpus, mandamus, certiorari, prohibition, and quo warranto.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Writs: Habeas Corpus, Mandamus, Certiorari, Quo Warranto'.",
+     "a": "Writs are powerful judicial tools that allow courts to protect rights and correct legal errors; habeas corpus protects personal liberty, mandamus compels duty, certiorari quashes orders, and quo warranto questions unlawful holding of office.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Writs: Habeas Corpus, Mandamus, Certiorari, Quo Warranto'.",
+     "a": "What are writs and who can issue them?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11ps.6.8",
+   "title": "Public Interest Litigation (PIL)",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Public Interest Litigation (PIL)' refers to.",
+     "a": "Public Interest Litigation is a legal action initiated in a court for the enforcement of public interest or the rights of disadvantaged groups, in which the strict rule of locus standi is relaxed so that any public-spirited person can file a petition on behalf of affected persons.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Public Interest Litigation (PIL)'.",
+     "a": "PIL allows any public-spirited citizen or organisation to approach the court on behalf of those who cannot approach it themselves, making justice accessible to the poor and marginalised and enabling the courts to address broad issues of public concern.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Public Interest Litigation (PIL)' taught, and from which source text?",
+     "a": "Public Interest Litigation",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11ps.6.9",
+   "title": "Judicial Activism",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Judicial Activism' refers to.",
+     "a": "Judicial activism refers to the proactive role of the judiciary in protecting the rights of citizens and ensuring good governance by interpreting the Constitution expansively, intervening in matters of public interest, and compelling the executive to perform its duties.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Judicial Activism'.",
+     "a": "Judicial activism is the judiciary going beyond its traditional role of interpreting laws to actively protect rights and ensure justice, often through PILs and expansive interpretations of fundamental rights.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Judicial Activism' taught, and from which source text?",
+     "a": "Judicial Activism",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

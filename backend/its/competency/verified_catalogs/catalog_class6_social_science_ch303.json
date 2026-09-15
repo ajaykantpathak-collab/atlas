@@ -1,0 +1,362 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 303,
+ "chapter_title": "What is Government?",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\fees101.txt",
+ "concepts": [
+  {
+   "id": "fess.303.1.1",
+   "title": "Meaning and Functions of Government",
+   "section": "What is Government?",
+   "definition": "An organized governing body that holds the authority to make collective decisions, manage resources, maintain order, and provide public services for a country or community.",
+   "formula": "",
+   "key_idea": "A central authority that manages public affairs, makes rules, and protects the territory.",
+   "textbook_ref": "fess303.txt lines 28-55",
+   "question_patterns": [
+    "What do you understand by the term government?",
+    "Explain the primary functions of a government in a nation.",
+    "How does a government help in managing public resources and services?",
+    "Identify three essential activities performed by a governing body.",
+    "Why is an organized authority necessary for people living together?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the central organization",
+     "explain": "Locate the governing body or authority mentioned in the scenario."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the roles",
+     "explain": "Describe its roles such as decision-making, law enforcement, and public welfare."
+    },
+    {
+     "step": 3,
+     "action": "Conclude the definition",
+     "explain": "Synthesize how these roles define the core functions of a government."
+    }
+   ]
+  },
+  {
+   "id": "fess.303.1.2",
+   "title": "Levels of Government",
+   "section": "Levels of Government",
+   "definition": "The hierarchical division of administrative authority into local, state, and national tiers to manage public affairs efficiently at different geographic scales.",
+   "formula": "",
+   "key_idea": "Governance is divided into local, state, and national levels to address issues at appropriate scales.",
+   "textbook_ref": "fess303.txt lines 56-85",
+   "question_patterns": [
+    "What are the three levels of government in India?",
+    "Distinguish between local level and state level government.",
+    "At which level of government is a decision regarding international relations made?",
+    "Classify the decision to build a village well into its appropriate level of governance.",
+    "How does the national level of government differ from the state level?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze the geographic scope",
+     "explain": "Determine if the decision or action affects a village/town, an entire state, or the whole country."
+    },
+    {
+     "step": 2,
+     "action": "Map to the appropriate tier",
+     "explain": "Map local scope to local level, state-wide scope to state level, and country-wide scope to national/central level."
+    },
+    {
+     "step": 3,
+     "action": "Verify the level",
+     "explain": "Confirm and assign the correct tier of government based on administrative jurisdiction."
+    }
+   ]
+  },
+  {
+   "id": "fess.303.1.3",
+   "title": "Laws and the Government",
+   "section": "Laws and the Government",
+   "definition": "The rules established by the governing authority that all citizens must follow, backed by the power of enforcement through penalties or legal actions.",
+   "formula": "",
+   "key_idea": "Laws are meaningless without the authority and mechanisms to enforce them.",
+   "textbook_ref": "fess303.txt lines 86-115",
+   "question_patterns": [
+    "Why does the government need to make and enforce laws?",
+    "What can citizens do if they feel a particular law is not being followed?",
+    "Explain the relationship between decision-making power and law enforcement.",
+    "How do courts assist in the enforcement of laws and resolving disputes?",
+    "What are the consequences of driving a motor vehicle without a license according to the law?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the specific rule",
+     "explain": "Determine the rule or law in question and its purpose."
+    },
+    {
+     "step": 2,
+     "action": "Explain the enforcement mechanism",
+     "explain": "Describe how the government uses fines, penalties, or the judicial system to ensure compliance."
+    },
+    {
+     "step": 3,
+     "action": "Outline citizen recourse",
+     "explain": "Detail how citizens can approach courts if laws are violated or not followed fairly."
+    }
+   ]
+  },
+  {
+   "id": "fess.303.1.4",
+   "title": "Democratic Government",
+   "section": "Types of Government",
+   "definition": "A system of governance where the supreme power is vested in the people, who exercise it directly or through elected representatives.",
+   "formula": "",
+   "key_idea": "In a democracy, the government is accountable to the people and must explain its decisions.",
+   "textbook_ref": "fess303.txt lines 116-135",
+   "question_patterns": [
+    "What is a democratic government?",
+    "Who gives the government power to make decisions in a democracy?",
+    "State the main features of a democratic system of governance.",
+    "Why must a democratic government explain its actions to its citizens?",
+    "How do citizens participate in a democratic setup?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the source of authority",
+     "explain": "Recognize that power comes from the citizens through elections."
+    },
+    {
+     "step": 2,
+     "action": "Describe the election process",
+     "explain": "Explain how citizens vote to choose representatives who form the government."
+    },
+    {
+     "step": 3,
+     "action": "Highlight accountability",
+     "explain": "Show that the government must defend and explain its decisions to the public."
+    }
+   ]
+  },
+  {
+   "id": "fess.303.1.5",
+   "title": "Monarchy",
+   "section": "Types of Government",
+   "definition": "A form of government where a single ruler, such as a king or queen, holds supreme political power, often inherited, and is not accountable to the public.",
+   "formula": "",
+   "key_idea": "A monarch makes final decisions without needing to explain or defend them to the citizens.",
+   "textbook_ref": "fess303.txt lines 136-155",
+   "question_patterns": [
+    "What is a monarchy?",
+    "How does a monarchy differ from a democracy in decision-making?",
+    "Does a king or queen have to explain their decisions to the people?",
+    "Who holds the final decision-making power in a monarchical system?",
+    "Describe the role of advisors in a monarchy."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the ruler",
+     "explain": "Recognize that a king or queen holds the primary authority, usually through inheritance."
+    },
+    {
+     "step": 2,
+     "action": "Examine decision-making",
+     "explain": "Note that while advisors may exist, the final decision-making power rests solely with the monarch."
+    },
+    {
+     "step": 3,
+     "action": "Analyze accountability",
+     "explain": "Observe that monarchs do not have to explain or defend their actions to the public."
+    }
+   ]
+  },
+  {
+   "id": "fess.303.1.6",
+   "title": "Representative Democracy",
+   "section": "Democratic Governments",
+   "definition": "A type of democracy where citizens elect representatives to make laws and govern the country on their behalf, rather than voting on laws directly.",
+   "formula": "",
+   "key_idea": "Modern democracies function through elected representatives who make decisions for the entire population.",
+   "textbook_ref": "fess303.txt lines 156-175",
+   "question_patterns": [
+    "What is meant by representative democracy?",
+    "How do people participate in a representative democracy?",
+    "Why do modern democracies use representatives instead of direct participation?",
+    "Explain how decisions are made for the entire population in representative systems.",
+    "Contrast representative democracy with direct democracy."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the role of citizens",
+     "explain": "Citizens participate by voting in elections to choose leaders."
+    },
+    {
+     "step": 2,
+     "action": "Explain representative action",
+     "explain": "These elected representatives meet to debate and make decisions for the entire population."
+    },
+    {
+     "step": 3,
+     "action": "Connect to modern governance",
+     "explain": "Show that this indirect participation is the standard model for large modern nations."
+    }
+   ]
+  },
+  {
+   "id": "fess.303.1.7",
+   "title": "Universal Adult Franchise",
+   "section": "Democratic Governments",
+   "definition": "The constitutional right of all adult citizens of a country to vote in elections, without discrimination based on gender, wealth, property, or education.",
+   "formula": "",
+   "key_idea": "A government cannot claim to be democratic without granting voting rights to all adults.",
+   "textbook_ref": "fess303.txt lines 176-210",
+   "question_patterns": [
+    "What is universal adult franchise?",
+    "Why did Gandhiji advocate for universal adult franchise in Young India?",
+    "How does restricting voting rights to property owners affect a democracy?",
+    "Explain the significance of the right to vote for all adults.",
+    "What was the voting situation in India before independence?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the term",
+     "explain": "Explain that it means all adult citizens in the country are allowed to vote."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the principle of equality",
+     "explain": "Show that it rejects discrimination based on wealth, property, gender, or literacy."
+    },
+    {
+     "step": 3,
+     "action": "Relate to democratic legitimacy",
+     "explain": "Explain that true democracy requires the participation of the entire adult population."
+    }
+   ]
+  },
+  {
+   "id": "fess.303.1.8",
+   "title": "Women's Suffrage Movement",
+   "section": "Democratic Governments",
+   "definition": "The organized political struggle by women, particularly active during the early 20th century, to secure the legal right to vote in public elections.",
+   "formula": "",
+   "key_idea": "Women and the poor had to fight intense struggles to gain equal participation in governance.",
+   "textbook_ref": "fess303.txt lines 211-245",
+   "question_patterns": [
+    "What was the women's suffrage movement?",
+    "How did the First World War help the cause of women's right to vote?",
+    "When did women in the USA and UK get the right to vote?",
+    "What methods did the suffragettes use to demand their rights?",
+    "Why did the war change stereotypes about what women were capable of doing?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define suffrage",
+     "explain": "Clarify that suffrage means the right to vote."
+    },
+    {
+     "step": 2,
+     "action": "Describe the historical context",
+     "explain": "Explain how World War I forced women into jobs previously done by men, challenging traditional stereotypes."
+    },
+    {
+     "step": 3,
+     "action": "Identify key milestones",
+     "explain": "Note that American women got the vote in 1920, and UK women in 1928, after intense protests and hunger strikes."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fess303.txt exercise section",
+   "concept": "fess.303.1.2",
+   "question_type": "classification",
+   "question_pattern": "Classify the following decision: The decision of the Government of Haryana to provide free electricity for all farmers.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the scope of the decision",
+     "explain": "The decision is made by the Government of Haryana and applies to farmers within that state."
+    },
+    {
+     "step": 2,
+     "action": "Match the scope to the levels of government",
+     "explain": "Decisions covering an entire state belong to the State level of government."
+    },
+    {
+     "step": 3,
+     "action": "Verify the level",
+     "explain": "Therefore, this decision belongs to the State level."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fess303.txt page 31-32",
+   "concept": "fess.303.1.4",
+   "question_type": "comparison",
+   "question_pattern": "In which form of government does the ruler not have to explain or defend their decisions to the citizens?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Recall the features of democracy and monarchy",
+     "explain": "In a democracy, the government is accountable to the people and must explain its actions. In a monarchy, the king or queen holds absolute power."
+    },
+    {
+     "step": 2,
+     "action": "Analyze accountability",
+     "explain": "Monarchs do not have to explain their actions or defend their decisions to anyone."
+    },
+    {
+     "step": 3,
+     "action": "Conclude the answer",
+     "explain": "The form of government is Monarchy."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "fess303.txt page 34",
+   "questions": [
+    "What do you understand by the word 'government'? List five ways in which you think the government affects your daily life.",
+    "Why do you think the government needs to make rules for everyone in the form of laws?",
+    "Name two essential features of a democratic government.",
+    "What was the suffrage movement? What did it accomplish?",
+    "Gandhiji strongly believed that every adult in India should be given the right to vote. However, a few people don't share his views. They feel that illiterate people, who are mainly poor, should not be given the right to vote. What do you think? Do you think this would be a form of discrimination? Give five points to support your view and share these with the class."
+   ]
+  },
+  {
+   "id": "ex3.2",
+   "source_ref": "fess303.txt page 34 table",
+   "questions": [
+    "Classify the following statement: The decision of the Government of India to maintain peaceful relations with Russia.",
+    "Classify the following statement: The decision of the Government of West Bengal on whether to have Board exam in Class 8 for all government schools.",
+    "Classify the following statement: Introduction of two new trains between Dibrugarh and Kanyakumari.",
+    "Classify the following statement: The decision to locate a common well in a particular area of the village.",
+    "Classify the following statement: Decision to construct a big children's park in Patna.",
+    "Classify the following statement: The decision of the Government of Haryana to provide free electricity for all farmers.",
+    "Classify the following statement: Introduction of a new 1000 rupee note."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "title-matched to new cache"
+}

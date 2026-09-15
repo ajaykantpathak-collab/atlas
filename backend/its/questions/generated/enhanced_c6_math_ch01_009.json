@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch01_009",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch01_009",
+   "title": "c6_math_ch01_009",
+   "questions": [
+    {
+     "q": "What is the standard order of columns when subtracting two 5-digit numbers?",
+     "a": "Subtraction must start from the ones place (the far right) and move leftwards toward the ten-thousands place. A student who says \"start from the left\" misunderstands place value and will fail to execute borrowing correctly.",
+     "self_check": true
+    },
+    {
+     "q": "If you are subtracting 5 from 2 in the ones column, why do we \"borrow\" from the tens column?",
+     "a": "We borrow because the ones column alone is insufficient to perform the subtraction without resulting in a negative value. A student who says \"just flip the numbers to do 5 - 2\" has failed to understand that subtraction is not commutative; they have missed the fundamental concept of magnitude.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate: 40,000 - 12,345.",
+     "a": "The answer is 27,655. To solve, you must borrow repeatedly across the zeros in the thousands, hundreds, and tens places. A student who gets 38,765 likely forgot to reduce the zeros correctly, revealing a weakness in handling \"borrowing from zero.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare the subtraction of 500 - 300 and 502 - 305. Why is the second one more complex?",
+     "a": "The second subtraction requires borrowing because 2 < 5, whereas 500 - 300 can be solved using basic place value subtraction without borrowing. A student who finds the same complexity in both has not identified the necessity of borrowing as a tool for \"insufficient\" top digits.",
+     "self_check": true
+    },
+    {
+     "q": "If a student subtracts 5,432 from 8,967 and gets 3,535, is this reasonable? Justify your judgment.",
+     "a": "Yes, it is reasonable because 8,000 - 5,000 is 3,000, and 967 - 432 is roughly 500. A student who struggles with this estimation likely has not grasped the \"whole\" magnitude of the numbers and is focused only on digits.",
+     "self_check": true
+    },
+    {
+     "q": "Create a subtraction problem using the digits 1, 2, 3, 4, 5 that requires at least two instances of borrowing.",
+     "a": "A valid example is 51,234 - 12,345. A student who creates a problem like 54,321 - 12,345 shows they understand the conditions required to trigger the \"borrowing\" mechanism.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

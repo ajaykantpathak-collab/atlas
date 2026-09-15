@@ -1,0 +1,253 @@
+{
+ "catalog": "catalog_class11_informatics_practices_keip102",
+ "concepts": [
+  {
+   "id": "keip102.1",
+   "title": "Machine Learning Model Accuracy",
+   "questions": [
+    {
+     "q": "Using the method 'Machine Learning Model Accuracy', work with: correct_predictions = 300, total_test_cases = 240. Carry the chain through step by step and give the final value of accuracy_percent.",
+     "a": "125 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Machine Learning Model Accuracy' and work with: correct_predictions = 360, total_test_cases = 12. Carry the chain through step by step and give the final value of accuracy_percent.",
+     "a": "3000 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Machine Learning Model Accuracy' refers to.",
+     "a": "Machine learning is the branch of AI where a computer tunes its own model from examples rather than following hand-written rules. The model is first fitted on training data and then judged on separate testing data; its accuracy is the share of test cases it gets right, expressed as a percentage.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Machine Learning Model Accuracy'.",
+     "a": "Train on one batch, judge on another; accuracy is simply right answers divided by total test answers times 100.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Machine Learning Model Accuracy', in plain ASCII form.",
+     "a": "accuracy_percent = correct_predictions / total_test_cases * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip102.2",
+   "title": "Big Data Characteristics: the Five V",
+   "questions": [
+    {
+     "q": "Using the method 'Big Data Characteristics: the Five V', work with: value = 5000, variety = 5, velocity = 400, veracity = 30, volume = 24. Carry the chain through step by step and give the final value of big_data_traits.",
+     "a": "5459 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Big Data Characteristics: the Five V' and work with: value = 1200, variety = 3, velocity = 75, veracity = 4, volume = 50. Carry the chain through step by step and give the final value of big_data_traits.",
+     "a": "1332 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Big Data Characteristics: the Five V' refers to.",
+     "a": "Data sets too large or messy for ordinary DBMS tools are called big data. Five traits set such data apart: sheer size (Volume), the speed at which it arrives (Velocity), the mix of structured and unstructured forms (Variety), how trustworthy the readings are (Veracity), and the useful knowledge hidden inside that justifies processing cost (Value).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Big Data Characteristics: the Five V'.",
+     "a": "Remember the five V labels and what each guards against: size, speed, mixture, reliability, and worth.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Big Data Characteristics: the Five V', in plain ASCII form.",
+     "a": "big_data_traits = volume + velocity + variety + veracity + value",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip102.3",
+   "title": "Big Data Volume Growth Arithmetic",
+   "questions": [
+    {
+     "q": "Using the method 'Big Data Volume Growth Arithmetic', work with: daily_bytes = 512, days_in_year = 1000. Carry the chain through step by step and give the final value of yearly_bytes.",
+     "a": "512000 years",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Big Data Volume Growth Arithmetic' and work with: daily_bytes = 256, days_in_year = 200. Carry the chain through step by step and give the final value of yearly_bytes.",
+     "a": "51200 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Big Data Volume Growth Arithmetic' refers to.",
+     "a": "Web traffic, smartphone posts and sensor feeds together create data on a colossal scale, roughly 2.5 quintillion bytes every day. Converting such a flow into hourly or yearly totals is straightforward division and multiplication on the byte count.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Big Data Volume Growth Arithmetic'.",
+     "a": "A per-day rate turns into any other period by dividing or multiplying by the number of hours or days in that period.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Big Data Volume Growth Arithmetic', in plain ASCII form.",
+     "a": "yearly_bytes = daily_bytes * days_in_year",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip102.4",
+   "title": "Cloud Service Models IaaS PaaS SaaS",
+   "questions": [
+    {
+     "q": "Using the method 'Cloud Service Models IaaS PaaS SaaS', work with: iaas_bottom = 18, paas_middle = 10, saas_top = 10. Carry the chain through step by step and give the final value of service_stack_layers.",
+     "a": "38 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Cloud Service Models IaaS PaaS SaaS' and work with: iaas_bottom = 4, paas_middle = 5, saas_top = 400. Carry the chain through step by step and give the final value of service_stack_layers.",
+     "a": "409 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Cloud Service Models IaaS PaaS SaaS' refers to.",
+     "a": "Cloud providers deliver three standard service levels: IaaS rents raw computing hardware such as virtual machines and storage, PaaS hands developers a ready-made build-and-run platform with the needed software pre-installed, and SaaS gives end users on-demand access to finished applications on subscription.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cloud Service Models IaaS PaaS SaaS'.",
+     "a": "The lower the model in the stack, the more the user configures; the higher, the more is managed by the provider.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Cloud Service Models IaaS PaaS SaaS', in plain ASCII form.",
+     "a": "service_stack_layers = iaas_bottom + paas_middle + saas_top",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip102.5",
+   "title": "Pay Per Use Cloud Billing",
+   "questions": [
+    {
+     "q": "Using the method 'Pay Per Use Cloud Billing', work with: compute_hours = 30, rate_per_hour = 15, storage_gb = 1000, storage_rate = 15. Carry the chain through step by step and give the final value of total_bill.",
+     "a": "15450 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Pay Per Use Cloud Billing' and work with: compute_hours = 20, rate_per_hour = 8, storage_gb = 1000, storage_rate = 15. Carry the chain through step by step and give the final value of total_bill.",
+     "a": "15160 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Pay Per Use Cloud Billing' refers to.",
+     "a": "Cloud resources are charged like electricity: the customer pays only for what was consumed. A typical bill adds a usage charge for computing time to a separate charge for stored data, each computed at its own rate.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Pay Per Use Cloud Billing'.",
+     "a": "Bill each consumed resource at its own rate, then add the parts; no upfront investment is needed.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Pay Per Use Cloud Billing', in plain ASCII form.",
+     "a": "total_bill = compute_hours * rate_per_hour + storage_gb * storage_rate",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip102.6",
+   "title": "Grid Computing Parallel Task Split",
+   "questions": [
+    {
+     "q": "Using the method 'Grid Computing Parallel Task Split', work with: grid_nodes = 80, minutes_per_unit = 5, total_units = 75. Carry the chain through step by step and give the final value of wall_minutes.",
+     "a": "0 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Grid Computing Parallel Task Split' and work with: grid_nodes = 400, minutes_per_unit = 25, total_units = 3. Carry the chain through step by step and give the final value of wall_minutes.",
+     "a": "0 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Grid Computing Parallel Task Split' refers to.",
+     "a": "A grid joins geographically scattered computers, called nodes, into a kind of virtual supercomputer. A large job is divided into subtasks that run in parallel on the nodes at the same time, so the waiting time shrinks roughly in proportion to how many nodes share the work.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Grid Computing Parallel Task Split'.",
+     "a": "Splitting one job across n parallel nodes makes each node do a fraction of the units, cutting total waiting time.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Grid Computing Parallel Task Split', in plain ASCII form.",
+     "a": "wall_minutes = units_per_node * minutes_per_unit",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip102.7",
+   "title": "Blockchain Append Only Ledger",
+   "questions": [
+    {
+     "q": "Using the method 'Blockchain Append Only Ledger', work with: node_count = 4. Carry the chain through step by step and give the final value of ledger_copy_count.",
+     "a": "4 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Blockchain Append Only Ledger' and work with: node_count = 25. Carry the chain through step by step and give the final value of ledger_copy_count.",
+     "a": "25 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Blockchain Append Only Ledger' refers to.",
+     "a": "A blockchain keeps a shared ledger on every participating computer instead of one central database. Valid transactions are sealed into blocks, each block carries a header visible to all nodes while private data stays with its owner, and a new block joins the chain only after every node authenticates it, which makes the record practically impossible to alter secretly.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Blockchain Append Only Ledger'.",
+     "a": "Every node holds the full chain, so a change must fool all copies at once; entries are added but never silently edited.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Blockchain Append Only Ledger', in plain ASCII form.",
+     "a": "ledger_copy_count = node_count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip102.8",
+   "title": "Internet of Things and Web of Things",
+   "questions": [
+    {
+     "q": "Using the method 'Internet of Things and Web of Things', work with: devices_on_network = 40. Carry the chain through step by step and give the final value of connected_things.",
+     "a": "40 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Internet of Things and Web of Things' and work with: devices_on_network = 50. Carry the chain through step by step and give the final value of connected_things.",
+     "a": "50 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Internet of Things and Web of Things' refers to.",
+     "a": "The Internet of Things links everyday objects fitted with embedded hardware and software so they can exchange data over a network, letting users control appliances remotely. The Web of Things goes one step further by using standard web services as the single interface, avoiding the need for one separate app per device. Sensors such as the accelerometer and gyroscope in a phone feed these systems with real-world input.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Internet of Things and Web of Things'.",
+     "a": "IoT connects objects to each other; WoT reuses the web itself as the one interface for all of them.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Internet of Things and Web of Things', in plain ASCII form.",
+     "a": "connected_things = devices_on_network",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

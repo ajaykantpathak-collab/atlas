@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch04_006",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch04_006",
+   "title": "c7_math_ch04_006",
+   "questions": [
+    {
+     "q": "Which of the following pairs of terms are considered \"like terms\" in an algebraic expression?\nA) $4x$ and $4y$\nB) $7x^2$ and $3x$\nC) $-5ab$ and $12ba$\nD) $2xy$ and $2xz$",
+     "a": "The correct answer is C) $-5ab$ and $12ba$. Like terms must have the exact same variables, and the order of multiplied variables does not matter because multiplication is commutative ($ab = ba$). A wrong answer choosing A or D reveals that the student confuses different variables ($x, y, z$) as being alike simply because they are letters. A wrong answer choosing B reveals that the student does not realize exponents must also match ($x^2$ and $x$ are unlike terms).",
+     "self_check": true
+    },
+    {
+     "q": "A student simplifies the expression $8x - 3x + 2$ and writes the answer as $7x$. Explain why this answer is incorrect and identify the misconception.",
+     "a": "The correct simplified expression is $5x + 2$. The student's answer of $7x$ is incorrect because they mistakenly combined a variable term ($3x$) with a constant term ($2$), treating the constant as if it had an $x$ attached to it. Constants and variable terms are unlike terms and cannot be added together into a single term. A wrong answer here indicates that the student fails to distinguish between terms with variables and standalone numbers (constants).",
+     "self_check": true
+    },
+    {
+     "q": "Simplify the following algebraic expression completely: $12a - 5b + 3a + 8b - 4$.",
+     "a": "The correct answer is $15a + 3b - 4$. \nStep 1: Identify and group the like terms together: $(12a + 3a) + (-5b + 8b) - 4$.\nStep 2: Combine the coefficients of the $a$ terms: $12 + 3 = 15$, so we get $15a$.\nStep 3: Combine the coefficients of the $b$ terms using integer rules: $-5 + 8 = 3$, so we get $+3b$.\nStep 4: Bring down the constant term $-4$ since it has no other like terms to combine with.\nStep 5: Write the final combined expression: $15a + 3b - 4$. A wrong answer usually stems from integer sign errors when combining $-5b$ and $+8b$, or mistakenly combining the constant $-4$ with the variable terms.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the two expressions below and determine if they are equivalent for all values of $x$: \nExpression 1: $6x + 9 - 2x + 4$ \nExpression 2: $4x + 13$\nAre they equivalent, and why?",
+     "a": "Yes, Expression 1 and Expression 2 are entirely equivalent. \nAnalysis: For Expression 1, grouping like terms gives $(6x - 2x) + (9 + 4)$. Simplifying the $x$ terms gives $4x$, and simplifying the constants gives $+13$. This results in $4x + 13$, which matches Expression 2 exactly. A wrong answer reveals that the student either grouped unlike terms together or made an arithmetic error with the constants (e.g., $9 - 4$ instead of $9 + 4$).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the student's work for simplifying: $10x^2 - 4x + 3x^2 + 7x$.\nStudent's Step 1: Group like terms: $(10x^2 + 3x^2) + (-4x + 7x)$\nStudent's Step 2: Combine coefficients: $13x^4 + 3x^2$\nIs the student's final answer correct? If not, identify the exact step where the error occurred.",
+     "a": "The student's final answer is incorrect. The error occurred in Step 2. When combining like terms, the student incorrectly added the exponents of the variables ($x^2 + x^2 = x^4$) instead of keeping the variable part ($x^2$) identical. The correct Step 2 should combine only the numerical coefficients: $(10 + 3)x^2 + (-4 + 7)x = 13x^2 + 3x$. A student who agrees with the work does not understand that exponents do not change during addition and subtraction of like terms.",
+     "self_check": true
+    },
+    {
+     "q": "Create an algebraic expression containing at least five terms with two different variables ($x$ and $y$) and at least one constant, such that when fully simplified, the result is $5x - 2y + 6$.",
+     "a": "An acceptable response is any expression that expands out or rearranges to $5x - 2y + 6$, such as $3x - y + 2x - y + 6$. \nCriteria for evaluation: The student must include terms with $x$, terms with $y$, and constants that, when grouped and combined according to integer rules, yield exactly $5x$, $-2y$, and $+6$. A poor answer shows terms that cannot be simplified to these exact coefficients or mixes up variable powers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

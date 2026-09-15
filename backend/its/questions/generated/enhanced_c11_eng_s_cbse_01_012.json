@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_s_cbse_01_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_s_cbse_01_012",
+   "title": "c11_eng_s_cbse_01_012",
+   "questions": [
+    {
+     "q": "Identify whether the following question is literal or inferential: \"What was the name of the farmer who visited Aram's house looking for his stolen horse?\"",
+     "a": "**Answer:** Literal. The name \"John Byro\" is explicitly stated in the text when the farmer visits Aram's house.  \n**Wrong answer reveals:** If a student classifies this as inferential, they confuse \"not immediately remembered\" with \"not explicitly stated.\" Literal questions test retrieval of stated facts, even if the fact appears later in the text.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words the difference between a literal question and an inferential question, using one example from \"The Summer of the Beautiful White Horse\" for each type.",
+     "a": "**Answer:** A literal answer is found directly in the text (e.g., \"What did Mourad name the horse?\" → \"My Heart\"). An inferential answer requires connecting clues (e.g., \"Why did Mourad return the horse?\" → Not stated directly; inferred from the family's honesty reputation, John Byro's trust in that reputation, and Mourad's final decision).  \n**Wrong answer reveals:** If a student gives two literal examples or says inferential means \"your opinion,\" they haven't grasped that inferences must be *textually grounded*, not imagined.",
+     "self_check": true
+    },
+    {
+     "q": "The text states: \"We were poor. We had no money. Our whole tribe was poverty-stricken.\" Later, Aram says: \"Maybe it wasn't stealing at all. If you were crazy about horses the way my cousin Mourad and I were, it wasn't stealing.\" Based *only* on these two excerpts, infer why Aram rationalizes that taking the horse isn't stealing. Provide two pieces of evidence.",
+     "a": "**Answer:** Aram rationalizes because (1) their extreme poverty makes buying a horse impossible, so the only way to experience riding is to take one temporarily, and (2) their obsession with horses (\"crazy about horses\") overrides moral judgment — the desire to ride outweighs the ethical violation. Both inferences are drawn *only* from the provided excerpts.  \n**Wrong answer reveals:** If a student says \"because Mourad is crazy\" or \"because they're poor\" without linking *both* factors to the rationalization, they're making a partial inference or relying on memory of the full story instead of the given evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the answering strategy for these two questions:  \n(A) \"Where did Mourad hide the horse?\"  \n(B) \"Why did Mourad choose Fetvajian's deserted vineyard barn?\"  \nExplain how your approach differs for each.",
+     "a": "**Answer:** For (A), scan the text for location keywords (\"barn,\" \"deserted vineyard,\" \"Fetvajian\") and quote the exact sentence. For (B), no single sentence answers it; you must synthesize: the barn had oats/alfalfa (care for horse), it was deserted (secrecy), and Fetvajian was a former proud farmer (irony/backstory). Strategy: (A) = retrieval; (B) = synthesis of setting details + character motive.  \n**Wrong answer reveals:** If the student uses the same \"find the sentence\" method for both, they treat inferential questions as hidden literal questions, missing the need for multi-evidence reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this answer to an inferential question: \"Mourad returned the horse because his conscience bothered him.\" Evaluate this answer. Is it sufficient for a CBSE Class 11 exam? Why or why not?",
+     "a": "**Answer:** Insufficient. It states a conclusion without textual evidence. A board-level answer must cite: (1) Mourad's roar \"Are you inviting a member of the Garoghlanian family to steal?\" showing family honour as the driver, (2) the specific timeline \"In six months at the latest,\" and (3) the contrast with Aram's willingness to keep it a year. The answer confuses *plausible guess* with *text-supported inference*.  \n**Wrong answer reveals:** If the student defends it as \"obvious from the story,\" they don't understand that inferential answers in exams are judged on *evidence citation*, not intuitive correctness.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own inferential question about the episode where John Byro examines the horse's mouth and says, \"Tooth for tooth... I would swear it is my horse if I didn't know your parents.\" Then write a model answer using PEEL structure.",
+     "a": "**Sample Question:** \"Why does John Byro choose not to accuse the boys despite recognizing his horse?\"  \n**Model PEEL Answer:**  \n**Point:** John Byro trusts the Garoghlanian family's reputation over his own eyes.  \n**Evidence:** He says, \"The fame of your family for honesty is well known to me... A suspicious man would believe his eyes instead of his heart.\"  \n**Explanation:** Byro values the tribe's 11-century honour more than recovering his property through conflict; his \"heart\" represents faith in communal values.  \n**Link:** This moment proves the story's central theme — honesty as an active, community-enforced principle, not just personal virtue.  \n**Poor answer reveals:** If the student writes \"Because he's nice\" or \"He didn't want trouble,\" they produce a literal-level response to an inferential prompt.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

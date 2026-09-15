@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_14_006",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_14_006",
+   "title": "c11_bio_cbse_14_006",
+   "questions": [
+    {
+     "q": "Name the specific brain region that houses the respiratory rhythm centre and state its primary function in breathing regulation.",
+     "a": "The respiratory rhythm centre is located in the medulla oblongata; it generates the basic rhythmic pattern of inspiration and expiration by sending periodic signals to the diaphragm and intercostal muscles. A wrong answer (e.g., \"pons\" or \"cerebrum\") reveals confusion between the rhythm-generating centre and the modulating pneumotaxic centre, or between voluntary and involuntary respiratory control.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the pneumotaxic centre in the pons reduces the duration of inspiration when activated, and what would happen to breathing pattern if this centre were damaged.",
+     "a": "The pneumotaxic centre sends inhibitory signals to the inspiratory area of the respiratory rhythm centre, limiting the burst of action potentials to the diaphragm and external intercostals, thereby shortening inspiration and increasing respiratory rate. If damaged, inspiration would be prolonged (apneustic breathing) with gasping pauses, because the \"off-switch\" for inspiration is lost. A wrong answer indicates the student thinks the pneumotaxic centre initiates inspiration rather than terminates it.",
+     "self_check": true
+    },
+    {
+     "q": "A person voluntarily hyperventilates for 2 minutes. Predict the immediate effect on arterial pCO₂, CSF pH, and the subsequent drive to breathe, explaining the role of central chemoreceptors.",
+     "a": "Hyperventilation blows off excess CO₂, lowering arterial pCO₂; CO₂ diffuses out of CSF, raising CSF pH (alkalosis); central chemoreceptors detect this alkalosis and strongly inhibit the respiratory rhythm centre, causing apnoea or markedly reduced ventilation until pCO₂ normalises. A wrong answer (e.g., \"drive increases due to low O₂\") reveals the misconception that O₂ is the primary chemical driver of respiration.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the stimuli detected by central chemoreceptors versus peripheral chemoreceptors, and explain why central chemoreceptors respond more to CO₂ than to H⁺ in arterial blood.",
+     "a": "Central chemoreceptors (medulla) detect H⁺ in CSF, which reflects arterial pCO₂ because CO₂ diffuses freely across the blood-brain barrier and forms H⁺ via carbonic anhydrase; H⁺ from blood cannot cross the barrier easily. Peripheral chemoreceptors (carotid/aortic bodies) detect arterial pO₂, pCO₂, and pH directly. A wrong answer shows the student doesn't understand the blood-brain barrier's selective permeability or that central chemoreceptors are indirectly stimulated by CO₂ via CSF pH change.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"In a patient with chronic obstructive pulmonary disease (COPD) who has chronically elevated arterial pCO₂, the respiratory drive becomes dependent on hypoxaemia rather than hypercapnia.\" Is this correct? Justify using chemoreceptor physiology.",
+     "a": "Correct. Chronic hypercapnia desensitises central chemoreceptors (they reset to higher pCO₂), so the CO₂/H⁺ drive diminishes. Peripheral chemoreceptors remain sensitive to low pO₂, becoming the primary ventilatory drive. Giving high-flow O₂ to such a patient can remove this hypoxic drive, causing dangerous respiratory depression. A wrong evaluation indicates the student doesn't grasp chemoreceptor adaptation/resetting in chronic conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a spirometer and controlled gas mixtures to demonstrate that CO₂ is a more potent stimulator of ventilation than O₂ lack in healthy humans. Outline the protocol, variables, and expected results.",
+     "a": "Protocol: Measure baseline ventilation (TV × RR) breathing room air. Then have subject breathe: (a) 5% CO₂ in air, (b) 10% O₂ in N₂ (hypoxia), (c) 5% CO₂ + 10% O₂. Variables: independent = gas mixture; dependent = minute ventilation. Expected: 5% CO₂ causes large ventilation increase; 10% O₂ causes modest increase; combination is additive/synergistic. A poor design (e.g., no baseline, no control for order effects) reveals inability to isolate variables or understand the relative potency of chemical stimuli.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

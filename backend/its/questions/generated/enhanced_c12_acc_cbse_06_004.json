@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_06_004",
+   "title": "c12_acc_cbse_06_004",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between debentures issued as collateral security and debentures issued for cash subscription?",
+     "a": "Correct answer: Debentures issued for cash create a new liability and bring in funds; debentures issued as collateral security do not create a new liability (unless default occurs) and do not bring in any cash — they are merely a secondary pledge against an existing loan.  \nA wrong answer (e.g., \"both bring cash\" or \"both are recorded the same way\") reveals the student confuses collateral security with a fresh issue for fundraising, missing the core concept that collateral debentures are contingent liabilities, not actual borrowings.",
+     "self_check": true
+    },
+    {
+     "q": "A company issues 10,000 9% debentures of ₹100 each as collateral security for a bank loan of ₹8,00,000. The accountant records:  \nBank A/c Dr. 10,00,000  \nTo 9% Debentures A/c 10,00,000  \nIdentify the error and explain why it violates the accounting treatment for collateral security.",
+     "a": "Correct answer: The entry incorrectly debits Bank A/c — no cash is received when debentures are issued as collateral security. The correct treatment under the journal entry method is: Debenture Suspense A/c Dr. 10,00,000 To 9% Debentures A/c 10,00,000. The loan of ₹8,00,000 was already recorded when sanctioned.  \nA wrong answer (e.g., \"the amount is wrong\" or \"debentures should be credited at premium\") shows the student treats collateral issue as a cash issue, failing to grasp that no asset inflow occurs and the debentures are held in suspense, not as an active liability.",
+     "self_check": true
+    },
+    {
+     "q": "XYZ Ltd. has a bank loan of ₹20,00,000 secured by land. It issues 25,000 8% debentures of ₹100 each as collateral security. Show the journal entry under the \"Debenture Suspense Method\" and the disclosure in Notes to Accounts under Schedule III.",
+     "a": "Correct answer:  \nJournal Entry:  \nDebenture Suspense A/c Dr. 25,00,000  \nTo 8% Debentures A/c 25,00,000  \n(Being 25,000 8% debentures of ₹100 each issued as collateral security)  \n\nNotes to Accounts (Schedule III):  \nUnder \"Long-term Borrowings\" — \"Secured Loans\": Bank Loan ₹20,00,000 (secured by land and 25,000 8% debentures of ₹100 each as collateral security).  \nUnder \"Contingent Liabilities\" (if required): \"25,000 8% debentures of ₹100 each issued as collateral security to bank.\"  \nA wrong answer (e.g., showing debentures as a separate liability under Long-term Borrowings without linking to the loan) reveals the student does not understand that collateral debentures are not an independent liability and must be disclosed as security for the existing loan.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"No Entry Method\" and \"Debenture Suspense Method\" for collateral security. Which method provides better internal control and why? In which method does the Debenture Suspense Account appear on the asset side of the Balance Sheet?",
+     "a": "Correct answer: The Debenture Suspense Method provides better internal control because it creates a memo record (Debenture Suspense A/c on asset side and Debentures A/c on liability side) that tracks the contingent obligation. The No Entry Method only discloses in notes — no ledger trail. Under the Debenture Suspense Method, the Debenture Suspense Account (debit balance) appears on the asset side under \"Other Non-current Assets\" (or \"Non-current Assets\") as a deduction from the Debentures Account in the Notes to Accounts.  \nA wrong answer (e.g., \"both are same\" or \"suspense account goes to liability side\") shows the student cannot distinguish the control purpose of the suspense account and misplaces it in the Balance Sheet.",
+     "self_check": true
+    },
+    {
+     "q": "A company issues debentures as collateral security for a loan. The loan is repaid in full after two years. Explain the accounting treatment at the time of repayment under both methods. Why is no gain/loss recognized?",
+     "a": "Correct answer:  \nUnder No Entry Method: Only a note in the accounts is removed — no journal entry.  \nUnder Debenture Suspense Method:  \n8% Debentures A/c Dr. 25,00,000  \nTo Debenture Suspense A/c 25,00,000  \n(Being collateral debentures cancelled on repayment of loan)  \nNo gain/loss arises because the debentures were never a true liability — they were a contingent pledge. The company never received funds, never paid interest on them (unless specified), and they merely secured an already-recorded loan.  \nA wrong answer (e.g., \"profit on cancellation credited to P&L\" or \"loss debited\") reveals the student treats collateral debentures as a live liability that generates P&L impact on cancellation, violating the principle that no economic sacrifice occurred.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a company issues debentures as collateral security at a discount. Explain how the discount on issue is treated differently (or not) compared to a normal cash issue at discount. Draft the journal entries for both methods.",
+     "a": "Expected answer:  \nScenario: ABC Ltd. takes ₹10,00,000 loan, issues 12,000 10% debentures of ₹100 each at 10% discount as collateral.  \nNormal cash issue at discount:  \nBank A/c Dr. 10,80,000  \nDiscount on Issue of Debentures A/c Dr. 1,20,000  \nTo 10% Debentures A/c 12,00,000  \nDiscount is written off over time as finance cost.  \n\nCollateral issue at discount — No Entry Method: No entry; only note disclosure. Discount is NOT recorded because no cash received, no loss incurred.  \nCollateral issue at discount — Suspense Method:  \nDebenture Suspense A/c Dr. 12,00,000  \nTo 10% Debentures A/c 12,00,000  \n(No entry for discount — debentures recorded at face value in suspense)  \nReason: Discount on issue is a cost of raising funds. Collateral issue raises no funds, so no discount expense arises. The face value is used for security coverage.  \nA poor answer (recording discount in collateral issue) shows the student mechanically applies cash-issue rules without analyzing the economic substance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

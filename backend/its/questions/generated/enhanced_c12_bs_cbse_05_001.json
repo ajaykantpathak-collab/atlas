@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_05_001",
+   "title": "c12_bs_cbse_05_001",
+   "questions": [
+    {
+     "q": "Define organising according to Louis Allen. Use the exact wording from the textbook.",
+     "a": "Correct answer: \"Organising is the process of identifying and grouping the work to be performed, defining and delegating responsibility and authority, and establishing relationships for the purpose of enabling people to work most effectively together in accomplishing objectives.\" A wrong answer that omits \"identifying and grouping work\" or \"defining and delegating responsibility and authority\" reveals the student has memorised a fragmented definition. They likely confuse organising with just \"making a structure\" or \"dividing work,\" missing the critical elements of authority delegation and relationship establishment that make it a dynamic process.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Organising is just making an organisation chart with boxes and lines.\" Explain why this statement is incomplete using the concept of 'establishing authority and reporting relationships'.",
+     "a": "Correct explanation: An organisation chart is a static *outcome* of organising, not the process itself. Organising is the *active process* of defining jobs, grouping them into departments, assigning duties to specific individuals, and then *establishing* the authority relationships (who can give orders to whom) and reporting relationships (who is accountable to whom). The chart merely depicts the result. If a student thinks the chart *is* organising, they confuse the tool (chart) with the function (process). This misconception leads to believing that drawing a chart once solves organising forever, ignoring that relationships must be continuously clarified as work changes.",
+     "self_check": true
+    },
+    {
+     "q": "\"GreenLeaf Organics\" is a startup with 15 employees. Currently, everyone does everything: the same person handles procurement, production, and customer complaints. The founder wants to implement organising. Apply the first two steps of the organising process (identification & division of work, departmentalisation) to design a basic structure for GreenLeaf. List the specific activities you would identify and the departments you would create.",
+     "a": "Step 1: Identify and divide work into manageable activities: (a) Procuring raw materials (organic ingredients, packaging), (b) Production (recipe formulation, baking, quality check), (c) Marketing & Sales (social media, farmer's market stall, B2B pitches), (d) Finance & Accounts (invoicing, GST, payroll), (e) Customer Service (queries, feedback, returns), (f) Compliance (FSSAI, organic certification). Step 2: Departmentalise by grouping similar activities: (1) Operations Department (Procurement + Production), (2) Marketing & Sales Department, (3) Finance & Admin Department (Finance + Compliance + Customer Service). A wrong answer that creates a separate department for each activity (6 departments for 15 people) shows misunderstanding of departmentalisation — it must balance specialisation with coordination and span of management. A wrong answer that groups by \"senior vs junior staff\" instead of \"nature of work\" violates the principle of grouping similar activities.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the importance of 'Optimum utilisation of resources' and 'Adaptation to change' in the context of a company facing a sudden raw material shortage due to a supply chain disruption. Which importance point becomes more critical *during* the crisis, and which is more critical *for preventing* the crisis? Justify.",
+     "a": "During the crisis: Adaptation to change is more critical. Organising allows the structure to be modified quickly — e.g., creating a temporary \"alternative sourcing task force\" cutting across procurement and production departments, revising reporting lines so the production head directly coordinates with the new supplier. This flexibility is the essence of adaptation. For preventing the crisis: Optimum utilisation of resources is more critical. A well-organised company would have had clear procurement roles, inventory tracking systems, and supplier relationship management embedded in its structure, avoiding duplication of orders or stockouts. A student who reverses these shows they don't understand that adaptation is about *structural agility* in response to external shocks, while optimum utilisation is about *internal efficiency* in steady state.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Organising stifles creativity because it forces people into rigid boxes (departments, job descriptions).\" Use the importance points 'Development of personnel' and 'Effective administration' to support your evaluation.",
+     "a": "The statement is a half-truth that confuses *bureaucracy* with *organising*. Effective organising actually enables creativity through two mechanisms: (1) Development of personnel: By delegating routine tasks (e.g., data entry) to subordinates, managers get time to innovate. Subordinates, when given clear authority and responsibility, develop decision-making skills and latent abilities — the textbook explicitly says this \"strengthens the company's competitive position.\" (2) Effective administration: Clarity in roles *reduces* confusion and duplication, freeing mental bandwidth for creative problem-solving instead of turf wars. A rigid, poorly designed structure stifles creativity; a well-designed organising process creates the *framework* within which creativity can be directed toward organisational goals. A student who agrees with the statement likely conflates organising with excessive formalisation and misses the delegation-development link.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel analogy (not school fest, not factory) to explain the *entire* concept of organising (meaning + all 7 importance points) to a Class 10 student. Your analogy must have distinct characters/elements mapping to: work division, departmentalisation, assignment of duties, authority relationships, and each of the 7 importance points.",
+     "a": "Good answer example: \"Organising is like a **professional kitchen in a 5-star hotel**. \n- Work division: The menu is broken into stations — Garde Manger (cold), Saucier (sauces), Patissier (pastry), Poissonnier (fish). \n- Departmentalisation: Stations grouped into 'Hot Kitchen' and 'Cold Kitchen' brigades. \n- Assignment of duties: Each chef de partie gets a station matching their skill (the saucier doesn't bake croissants). \n- Authority relationships: Executive Chef → Sous Chef → Chefs de Partie → Commis. Orders flow down, plated dishes flow up. \nImportance points: \n1. Specialisation: The Saucier makes 200 perfect hollandaise a day — mastery through repetition. \n2. Clarity: Commis knows exactly who to ask for a missing herb (their Chef de Partie), not the Executive Chef. \n3. Optimum utilisation: No two stations prep the same mise en place; shared expensive equipment (pacojet) scheduled centrally. \n4. Adaptation: When a VIP guest has an allergy, the structure allows the Sous Chef to reassign the Poissonnier to create a special dish without shutting down the line. \n5. Effective administration: The Executive Chef manages by exception — only steps in when a station fails, because roles are clear. \n6. Development: Commis rotates stations every 6 months, learning all skills, becoming future Sous Chefs. \n7. Expansion: New cuisine? Add a 'Boulangerie' station under Cold Kitchen without disrupting Hot Kitchen.\" \nA poor answer uses a vague analogy like \"a football team\" without mapping each element, showing they see organising as a blur rather than a precise set of interlocking mechanisms.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

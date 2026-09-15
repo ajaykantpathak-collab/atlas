@@ -1,0 +1,1086 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 404,
+ "chapter_title": "Industries (Manufacturing)",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jess106.txt",
+ "concepts": [
+  {
+   "id": "hess.404.1",
+   "title": "Secondary Activities and Concept of Industry",
+   "section": "Industries",
+   "definition": "Economic operations that convert raw resources into finished items with higher utility and market value, covering production, mining, and service provision.",
+   "formula": "none",
+   "key_idea": "Manufacturing adds value to basic resources, creating goods and services of greater utility.",
+   "textbook_ref": "hess404.txt lines 10-30",
+   "question_patterns": [
+    "what is meant by the term industry in Class 8 social science",
+    "define secondary activities and explain their role in manufacturing",
+    "how do secondary activities add value to raw materials",
+    "explain the difference between resource extraction and manufacturing industry",
+    "give examples of secondary economic activities"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify secondary activity characteristics",
+     "explain": "Secondary activities transform raw goods into processed commodities with enhanced value."
+    },
+    {
+     "step": 2,
+     "action": "categorize industrial economic scope",
+     "explain": "Industries encompass production of physical goods, mineral extraction, and service delivery."
+    },
+    {
+     "step": 3,
+     "action": "explain value addition through manufacturing",
+     "explain": "Manufacturing converts basic resources into finished goods of greater utility and higher market value, distinguishing secondary activities from primary extraction"
+    }
+   ]
+  },
+  {
+   "id": "hess.404.2",
+   "title": "Classification of Industries by Raw Material",
+   "section": "Classification of Industries",
+   "definition": "Grouping of manufacturing units based on whether their essential inputs derive from agriculture, minerals, marine life, or forest resources.",
+   "formula": "none",
+   "key_idea": "Industries are categorized as agro-based, mineral-based, marine-based, or forest-based depending on input origins.",
+   "textbook_ref": "hess404.txt lines 31-50",
+   "question_patterns": [
+    "classify industries on the basis of raw materials",
+    "distinguish between agro-based and mineral-based industries",
+    "what are marine-based and forest-based industries",
+    "identify raw material categories for textile and paper manufacturing",
+    "give examples of agro-based and forest-based industries"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine the origin of raw material",
+     "explain": "Examine whether inputs come from plants/animals, mineral ores, oceans, or forests."
+    },
+    {
+     "step": 2,
+     "action": "assign industry classification category",
+     "explain": "Categorize as agro-based, mineral-based, marine-based, or forest-based accordingly."
+    },
+    {
+     "step": 3,
+     "action": "provide examples for each category",
+     "explain": "Agro-based includes textile and sugar industries, mineral-based includes iron and steel, marine-based includes fish processing, and forest-based includes paper and furniture"
+    }
+   ]
+  },
+  {
+   "id": "hess.404.3",
+   "title": "Classification of Industries by Size",
+   "section": "Classification of Industries",
+   "definition": "Categorization of industrial units according to capital invested, labor force size, and quantum of production into small-scale and large-scale enterprises.",
+   "formula": "none",
+   "key_idea": "Industrial size reflects financial investment, employment scale, and production volume.",
+   "textbook_ref": "hess404.txt lines 51-68",
+   "question_patterns": [
+    "how are industries classified on the basis of size",
+    "differentiate between small scale and large scale industries",
+    "what are cottage or household industries",
+    "how does capital investment differ in small and large scale units",
+    "give examples of household and large scale manufacturing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "assess investment and scale criteria",
+     "explain": "Evaluate capital amount, labor count, and technology used."
+    },
+    {
+     "step": 2,
+     "action": "classify into small scale cottage or large scale enterprise",
+     "explain": "Artisan handcrafting belongs to cottage units while automated mass production belongs to large scale."
+    },
+    {
+     "step": 3,
+     "action": "differentiate household and large scale examples",
+     "explain": "Household industries like basket weaving use minimal capital and labor, while large scale units like automobile plants require heavy investment and mass output"
+    }
+   ]
+  },
+  {
+   "id": "hess.404.4",
+   "title": "Classification of Industries by Ownership",
+   "section": "Classification of Industries",
+   "definition": "Division of enterprises based on entity control and equity into private, public, joint, and cooperative sector categories.",
+   "formula": "none",
+   "key_idea": "Ownership reflects who invests in, manages, and operates the enterprise.",
+   "textbook_ref": "hess404.txt lines 69-85",
+   "question_patterns": [
+    "classify industries on the basis of ownership",
+    "distinguish between public sector and joint sector industries",
+    "what is a cooperative sector industry",
+    "give examples of state owned and private sector enterprises",
+    "how does joint sector ownership operate"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify managing entity",
+     "explain": "Check if controlled by individuals, state government, combined partners, or producer cooperatives."
+    },
+    {
+     "step": 2,
+     "action": "label ownership category",
+     "explain": "Assign private, public, joint, or cooperative sector classification."
+    },
+    {
+     "step": 3,
+     "action": "provide examples of each ownership type",
+     "explain": "Private sector includes Reliance, public sector includes SAIL, joint sector includes Tata Motors, and cooperative sector includes Anand Milk Union"
+    }
+   ]
+  },
+  {
+   "id": "hess.404.5",
+   "title": "Factors Affecting Location of Industries",
+   "section": "Factors Affecting Location of Industries",
+   "definition": "Geographical and socio-economic variables including raw materials, land, water, labor, power, capital, transport, and market that determine factory siting.",
+   "formula": "none",
+   "key_idea": "Industries locate where essential production inputs and logistical facilities are optimal and affordable.",
+   "textbook_ref": "hess404.txt lines 86-98",
+   "question_patterns": [
+    "which are the main factors which influence the location of an industry",
+    "how do governmental incentives influence industrial location",
+    "why are industries situated near water and power sources",
+    "explain the role of transport and market in factory location",
+    "what factors drive industrial growth in backward areas"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list essential locational resources",
+     "explain": "Evaluate proximity to raw materials, land, water, labor, power, capital, transport, and market."
+    },
+    {
+     "step": 2,
+     "action": "evaluate state policy impacts",
+     "explain": "Subsidies and infrastructure incentives encourage regional industrial balance."
+    },
+    {
+     "step": 3,
+     "action": "determine optimal factory location",
+     "explain": "Industries locate where essential production inputs and logistical facilities are optimal and affordable, balancing all factors for maximum efficiency"
+    }
+   ]
+  },
+  {
+   "id": "hess.404.6",
+   "title": "Industrial System Framework",
+   "section": "Industrial System",
+   "definition": "Operational structure of manufacturing comprising inputs, transformation processes, and finished output products with economic value.",
+   "formula": "outputs = processes(inputs)",
+   "key_idea": "Raw materials and labor (inputs) are converted through manufacturing operations (processes) into final goods (outputs).",
+   "textbook_ref": "hess404.txt lines 99-115",
+   "question_patterns": [
+    "what is an industrial system",
+    "describe the inputs processes and outputs of textile industry",
+    "explain the components of an industrial system with an example",
+    "what constitute inputs and outputs in shoe manufacturing",
+    "trace the process stages in manufacturing finished goods"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify raw inputs",
+     "explain": "Inputs include raw materials, power, human labor, land, and transport costs."
+    },
+    {
+     "step": 2,
+     "action": "map operational processes",
+     "explain": "Processes entail conversion activities like ginning, spinning, weaving, or smelting."
+    },
+    {
+     "step": 3,
+     "action": "determine final outputs",
+     "explain": "Outputs represent the market-ready end products and profit generated."
+    }
+   ]
+  },
+  {
+   "id": "hess.404.7",
+   "title": "Global and Indian Industrial Regions",
+   "section": "Industrial Regions",
+   "definition": "Geographical clusters where multiple manufacturing units locate closely to share infrastructural and economic benefits.",
+   "formula": "none",
+   "key_idea": "Agglomeration benefits encourage dense grouping of factories near ports, coalfields, and urban corridors.",
+   "textbook_ref": "hess404.txt lines 116-130",
+   "question_patterns": [
+    "what are industrial regions and how do they emerge",
+    "name major industrial regions of the world",
+    "list key industrial belts located in India",
+    "why are major global industrial clusters situated near coalfields and seaports",
+    "identify the major industrial clusters in western and eastern India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain spatial clustering benefits",
+     "explain": "Industries benefit from shared infrastructure, transport, and commercial networks."
+    },
+    {
+     "step": 2,
+     "action": "locate prominent global and Indian belts",
+     "explain": "Identify regions like Eastern North America, Hugli, Mumbai-Pune, and Chottanagpur."
+    },
+    {
+     "step": 3,
+     "action": "explain why clusters form near ports and coalfields",
+     "explain": "agglomeration benefits encourage dense grouping of factories near ports, coalfields, and urban corridors to share transport and market access"
+    }
+   ]
+  },
+  {
+   "id": "hess.404.8",
+   "title": "Industrial Disasters and Risk Reduction Measures",
+   "section": "Industrial Disaster",
+   "definition": "Catastrophic workplace accidents stemming from technical malfunctions or hazardous chemical releases, requiring strict spatial zoning and safety protocols.",
+   "formula": "none",
+   "key_idea": "Hazard mitigation demands separating residential areas, limiting chemical storage, and installing early warning systems.",
+   "textbook_ref": "hess404.txt lines 131-160",
+   "question_patterns": [
+    "what causes industrial disasters",
+    "describe the lessons learned from the Bhopal gas tragedy",
+    "list risk reduction measures for chemical and manufacturing industries",
+    "how can industrial accident risks be mitigated in populated areas",
+    "explain safety guidelines for handling hazardous material in plants"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify disaster causes",
+     "explain": "Technical errors or improper toxic substance handling trigger industrial disasters."
+    },
+    {
+     "step": 2,
+     "action": "formulate preventive risk reduction steps",
+     "explain": "Implement buffer zones, restrict toxic storage volumes, and enhance firefighting systems."
+    },
+    {
+     "step": 3,
+     "action": "cite lessons from the Bhopal gas tragedy",
+     "explain": "the Bhopal disaster demonstrated the need for separating residential areas from hazardous plants and installing early warning systems"
+    }
+   ]
+  },
+  {
+   "id": "hess.404.9",
+   "title": "Major World Industries and Sunrise Industries",
+   "section": "Distribution of Major Industries",
+   "definition": "Global distribution of established heavy sectors like steel and textiles alongside rapidly expanding contemporary domains known as sunrise industries.",
+   "formula": "none",
+   "key_idea": "Traditional sectors anchor heavy manufacturing while sunrise sectors like IT and biotechnology drive modern expansion.",
+   "textbook_ref": "hess404.txt lines 161-180",
+   "question_patterns": [
+    "what are sunrise industries and give examples",
+    "which are the world's major traditional industries",
+    "where are major information technology hubs located globally",
+    "why is iron and steel called a feeder industry",
+    "identify key countries for global textile manufacturing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "distinguish traditional and emerging sectors",
+     "explain": "Iron, steel, and textiles are mature sectors, while IT, wellness, and knowledge are sunrise industries."
+    },
+    {
+     "step": 2,
+     "action": "map key geographical manufacturing centers",
+     "explain": "Locate Silicon Valley, Bangalore, and steel centers across major industrial nations."
+    },
+    {
+     "step": 3,
+     "action": "explain the role of iron and steel as a feeder industry",
+     "explain": "iron and steel is called a feeder industry because its output serves as raw material for many other industries like automobiles and machinery"
+    }
+   ]
+  },
+  {
+   "id": "hess.404.10",
+   "title": "Steel Production Raw Material Input Ratios",
+   "section": "Iron and Steel Industry",
+   "definition": "Quantitative proportional requirement of coal, iron ore, and limestone inputs required to manufacture crude steel in a blast furnace.",
+   "formula": "coal = 8 x steel, iron_ore = 4 x steel, limestone = 1 x steel",
+   "key_idea": "Producing one unit mass of steel requires eight units of coal, four units of iron ore, and one unit of limestone.",
+   "textbook_ref": "hess404.txt lines 181-195",
+   "question_patterns": [
+    "calculate total coal needed to produce steel_tonnes of steel",
+    "how much raw material input is required for steel_tonnes tonnes of finished steel",
+    "find amount of iron ore coal and limestone for steel_tonnes tonnes steel",
+    "compute total weight of raw inputs to make steel_tonnes tonnes of steel",
+    "what is the raw material proportion for manufacturing steel_tonnes tonnes steel"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate coal requirement",
+     "explain": "Multiply desired steel tonnage by 8 tonnes of coal per tonne of steel",
+     "compute": "coal = 8 * steel_tonnes"
+    },
+    {
+     "step": 2,
+     "action": "calculate iron ore requirement",
+     "explain": "Multiply desired steel tonnage by 4 tonnes of iron ore per tonne of steel",
+     "compute": "iron_ore = 4 * steel_tonnes"
+    },
+    {
+     "step": 3,
+     "action": "calculate limestone requirement",
+     "explain": "Multiply desired steel tonnage by 1 tonne of limestone per tonne of steel",
+     "compute": "limestone = 1 * steel_tonnes"
+    },
+    {
+     "step": 4,
+     "action": "sum total raw material weight",
+     "explain": "Add coal, iron ore, and limestone weights to obtain total input tonnage",
+     "compute": "total_inputs = coal + iron_ore + limestone"
+    }
+   ]
+  },
+  {
+   "id": "hess.404.11",
+   "title": "Case Study - Jamshedpur Iron and Steel Center",
+   "section": "Jamshedpur",
+   "definition": "Historical development of India's premier integrated steel hub (TISCO) at Sakchi due to optimal natural resource proximity and transport access.",
+   "formula": "none",
+   "key_idea": "Jamshedpur offers ideal industrial location near coalfields, ore deposits, river water, and railway connections.",
+   "textbook_ref": "hess404.txt lines 210-245",
+   "question_patterns": [
+    "why was Sakchi chosen for setting up the TISCO steel plant",
+    "which rivers provide adequate water supply to Jamshedpur steel plant",
+    "where does TISCO obtain its iron ore coal and limestone from",
+    "describe the geographical advantages of Jamshedpur as an industrial center",
+    "explain how Jamshedpur spurred rapid industrial development in India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify resource supply points for TISCO",
+     "explain": "Coal comes from Jharia; iron ore, dolomite, and limestone come from Odisha and Chhattisgarh."
+    },
+    {
+     "step": 2,
+     "action": "evaluate water and logistics factors",
+     "explain": "Subarnarekha and Kharkai rivers provide water; proximity to Kalimati railway line links Kolkata market."
+    },
+    {
+     "step": 3,
+     "action": "summarize why Sakchi was the ideal site",
+     "explain": "Jamshedpur offered optimal industrial location near coalfields, ore deposits, river water, and railway connections, spurring rapid industrial development"
+    }
+   ]
+  },
+  {
+   "id": "hess.404.12",
+   "title": "Case Study - Pittsburgh Steel Region",
+   "section": "Pittsburgh",
+   "definition": "Major industrial steel center in the United States leveraging local coal, Minnesota iron ore transported via Great Lakes, and river network water.",
+   "formula": "none",
+   "key_idea": "Pittsburgh's success stems from cheap inland waterway transportation and proximity to raw material zones.",
+   "textbook_ref": "hess404.txt lines 246-270",
+   "question_patterns": [
+    "what locational advantages favor the steel industry at Pittsburgh",
+    "how is iron ore transported from Minnesota mines to Pittsburgh",
+    "name the rivers providing water supply to Pittsburgh steel mills",
+    "which Great Lakes route serves the Pittsburgh steel industry",
+    "explain why finished steel from Pittsburgh has easy market access"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace raw material supply routes",
+     "explain": "Iron ore moves from Minnesota via the Great Lakes shipping waterway and rail."
+    },
+    {
+     "step": 2,
+     "action": "identify water and regional factors",
+     "explain": "Ohio, Monongahela, and Allegheny rivers furnish reliable water supply for mills."
+    },
+    {
+     "step": 3,
+     "action": "explain market access for finished steel",
+     "explain": "cheap inland waterway transportation and proximity to raw material zones give Pittsburgh finished steel easy access to major markets"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hess404.txt Figure 4.5",
+   "concept": "hess.404.10",
+   "question_type": "compute",
+   "question_pattern": "Calculate total raw material inputs needed to produce {steel_tonnes} tonnes of crude steel.",
+   "extracted_variables": {
+    "steel_tonnes": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate coal requirement",
+     "explain": "8 tonnes of coal are needed per tonne of steel",
+     "compute": "coal = 8 * steel_tonnes"
+    },
+    {
+     "step": 2,
+     "action": "calculate iron ore requirement",
+     "explain": "4 tonnes of iron ore are needed per tonne of steel",
+     "compute": "iron_ore = 4 * steel_tonnes"
+    },
+    {
+     "step": 3,
+     "action": "calculate limestone requirement",
+     "explain": "1 tonne of limestone is needed per tonne of steel",
+     "compute": "limestone = 1 * steel_tonnes"
+    },
+    {
+     "step": 4,
+     "action": "sum total raw material weight",
+     "explain": "Total input equals combined weight of coal, iron ore, and limestone",
+     "compute": "total_inputs = coal + iron_ore + limestone"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hess404.txt Figure 4.5",
+   "concept": "hess.404.10",
+   "question_type": "compute",
+   "question_pattern": "If an industrial plant aims to produce {steel_tonnes} tonnes of steel, how many tonnes of raw inputs must be supplied in total?",
+   "extracted_variables": {
+    "steel_tonnes": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate coal requirement",
+     "explain": "8 tonnes of coal are needed per tonne of steel",
+     "compute": "coal = 8 * steel_tonnes"
+    },
+    {
+     "step": 2,
+     "action": "calculate iron ore requirement",
+     "explain": "4 tonnes of iron ore are needed per tonne of steel",
+     "compute": "iron_ore = 4 * steel_tonnes"
+    },
+    {
+     "step": 3,
+     "action": "calculate limestone requirement",
+     "explain": "1 tonne of limestone is needed per tonne of steel",
+     "compute": "limestone = 1 * steel_tonnes"
+    },
+    {
+     "step": 4,
+     "action": "sum total raw material weight",
+     "explain": "Total input equals combined weight of coal, iron ore, and limestone",
+     "compute": "total_inputs = coal + iron_ore + limestone"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.404.1",
+   "question_type": "verify_property",
+   "question_pattern": "what is meant by the term industry in Class 8 social science",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify secondary activity characteristics",
+     "explain": "Secondary activities transform raw goods into processed commodities with enhanced value."
+    },
+    {
+     "step": 2,
+     "action": "categorize industrial economic scope",
+     "explain": "Industries encompass production of physical goods, mineral extraction, and service delivery."
+    },
+    {
+     "step": 3,
+     "action": "explain value addition through manufacturing",
+     "explain": "Manufacturing converts basic resources into finished goods of greater utility and higher market value, distinguishing secondary activities from primary extraction"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.404.1",
+   "question_type": "verify_property",
+   "question_pattern": "define secondary activities and explain their role in manufacturing",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify secondary activity characteristics",
+     "explain": "Secondary activities transform raw goods into processed commodities with enhanced value."
+    },
+    {
+     "step": 2,
+     "action": "categorize industrial economic scope",
+     "explain": "Industries encompass production of physical goods, mineral extraction, and service delivery."
+    },
+    {
+     "step": 3,
+     "action": "explain value addition through manufacturing",
+     "explain": "Manufacturing converts basic resources into finished goods of greater utility and higher market value, distinguishing secondary activities from primary extraction"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.404.2",
+   "question_type": "verify_property",
+   "question_pattern": "classify industries on the basis of raw materials",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "determine the origin of raw material",
+     "explain": "Examine whether inputs come from plants/animals, mineral ores, oceans, or forests."
+    },
+    {
+     "step": 2,
+     "action": "assign industry classification category",
+     "explain": "Categorize as agro-based, mineral-based, marine-based, or forest-based accordingly."
+    },
+    {
+     "step": 3,
+     "action": "provide examples for each category",
+     "explain": "Agro-based includes textile and sugar industries, mineral-based includes iron and steel, marine-based includes fish processing, and forest-based includes paper and furniture"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.404.2",
+   "question_type": "verify_property",
+   "question_pattern": "distinguish between agro-based and mineral-based industries",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "determine the origin of raw material",
+     "explain": "Examine whether inputs come from plants/animals, mineral ores, oceans, or forests."
+    },
+    {
+     "step": 2,
+     "action": "assign industry classification category",
+     "explain": "Categorize as agro-based, mineral-based, marine-based, or forest-based accordingly."
+    },
+    {
+     "step": 3,
+     "action": "provide examples for each category",
+     "explain": "Agro-based includes textile and sugar industries, mineral-based includes iron and steel, marine-based includes fish processing, and forest-based includes paper and furniture"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.404.3",
+   "question_type": "verify_property",
+   "question_pattern": "how are industries classified on the basis of size",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "assess investment and scale criteria",
+     "explain": "Evaluate capital amount, labor count, and technology used."
+    },
+    {
+     "step": 2,
+     "action": "classify into small scale cottage or large scale enterprise",
+     "explain": "Artisan handcrafting belongs to cottage units while automated mass production belongs to large scale."
+    },
+    {
+     "step": 3,
+     "action": "differentiate household and large scale examples",
+     "explain": "Household industries like basket weaving use minimal capital and labor, while large scale units like automobile plants require heavy investment and mass output"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.404.3",
+   "question_type": "verify_property",
+   "question_pattern": "differentiate between small scale and large scale industries",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "assess investment and scale criteria",
+     "explain": "Evaluate capital amount, labor count, and technology used."
+    },
+    {
+     "step": 2,
+     "action": "classify into small scale cottage or large scale enterprise",
+     "explain": "Artisan handcrafting belongs to cottage units while automated mass production belongs to large scale."
+    },
+    {
+     "step": 3,
+     "action": "differentiate household and large scale examples",
+     "explain": "Household industries like basket weaving use minimal capital and labor, while large scale units like automobile plants require heavy investment and mass output"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.404.4",
+   "question_type": "verify_property",
+   "question_pattern": "classify industries on the basis of ownership",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify managing entity",
+     "explain": "Check if controlled by individuals, state government, combined partners, or producer cooperatives."
+    },
+    {
+     "step": 2,
+     "action": "label ownership category",
+     "explain": "Assign private, public, joint, or cooperative sector classification."
+    },
+    {
+     "step": 3,
+     "action": "provide examples of each ownership type",
+     "explain": "Private sector includes Reliance, public sector includes SAIL, joint sector includes Tata Motors, and cooperative sector includes Anand Milk Union"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.404.4",
+   "question_type": "verify_property",
+   "question_pattern": "distinguish between public sector and joint sector industries",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify managing entity",
+     "explain": "Check if controlled by individuals, state government, combined partners, or producer cooperatives."
+    },
+    {
+     "step": 2,
+     "action": "label ownership category",
+     "explain": "Assign private, public, joint, or cooperative sector classification."
+    },
+    {
+     "step": 3,
+     "action": "provide examples of each ownership type",
+     "explain": "Private sector includes Reliance, public sector includes SAIL, joint sector includes Tata Motors, and cooperative sector includes Anand Milk Union"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.404.5",
+   "question_type": "verify_property",
+   "question_pattern": "which are the main factors which influence the location of an industry",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list essential locational resources",
+     "explain": "Evaluate proximity to raw materials, land, water, labor, power, capital, transport, and market."
+    },
+    {
+     "step": 2,
+     "action": "evaluate state policy impacts",
+     "explain": "Subsidies and infrastructure incentives encourage regional industrial balance."
+    },
+    {
+     "step": 3,
+     "action": "determine optimal factory location",
+     "explain": "Industries locate where essential production inputs and logistical facilities are optimal and affordable, balancing all factors for maximum efficiency"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.404.5",
+   "question_type": "verify_property",
+   "question_pattern": "how do governmental incentives influence industrial location",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list essential locational resources",
+     "explain": "Evaluate proximity to raw materials, land, water, labor, power, capital, transport, and market."
+    },
+    {
+     "step": 2,
+     "action": "evaluate state policy impacts",
+     "explain": "Subsidies and infrastructure incentives encourage regional industrial balance."
+    },
+    {
+     "step": 3,
+     "action": "determine optimal factory location",
+     "explain": "Industries locate where essential production inputs and logistical facilities are optimal and affordable, balancing all factors for maximum efficiency"
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.404.6",
+   "question_type": "verify_property",
+   "question_pattern": "what is an industrial system",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify raw inputs",
+     "explain": "Inputs include raw materials, power, human labor, land, and transport costs."
+    },
+    {
+     "step": 2,
+     "action": "map operational processes",
+     "explain": "Processes entail conversion activities like ginning, spinning, weaving, or smelting."
+    },
+    {
+     "step": 3,
+     "action": "determine final outputs",
+     "explain": "Outputs represent the market-ready end products and profit generated."
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.404.6",
+   "question_type": "verify_property",
+   "question_pattern": "describe the inputs processes and outputs of textile industry",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify raw inputs",
+     "explain": "Inputs include raw materials, power, human labor, land, and transport costs."
+    },
+    {
+     "step": 2,
+     "action": "map operational processes",
+     "explain": "Processes entail conversion activities like ginning, spinning, weaving, or smelting."
+    },
+    {
+     "step": 3,
+     "action": "determine final outputs",
+     "explain": "Outputs represent the market-ready end products and profit generated."
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.404.7",
+   "question_type": "verify_property",
+   "question_pattern": "what are industrial regions and how do they emerge",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "explain spatial clustering benefits",
+     "explain": "Industries benefit from shared infrastructure, transport, and commercial networks."
+    },
+    {
+     "step": 2,
+     "action": "locate prominent global and Indian belts",
+     "explain": "Identify regions like Eastern North America, Hugli, Mumbai-Pune, and Chottanagpur."
+    },
+    {
+     "step": 3,
+     "action": "explain why clusters form near ports and coalfields",
+     "explain": "agglomeration benefits encourage dense grouping of factories near ports, coalfields, and urban corridors to share transport and market access"
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.404.7",
+   "question_type": "verify_property",
+   "question_pattern": "name major industrial regions of the world",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "explain spatial clustering benefits",
+     "explain": "Industries benefit from shared infrastructure, transport, and commercial networks."
+    },
+    {
+     "step": 2,
+     "action": "locate prominent global and Indian belts",
+     "explain": "Identify regions like Eastern North America, Hugli, Mumbai-Pune, and Chottanagpur."
+    },
+    {
+     "step": 3,
+     "action": "explain why clusters form near ports and coalfields",
+     "explain": "agglomeration benefits encourage dense grouping of factories near ports, coalfields, and urban corridors to share transport and market access"
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.404.8",
+   "question_type": "verify_property",
+   "question_pattern": "what causes industrial disasters",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify disaster causes",
+     "explain": "Technical errors or improper toxic substance handling trigger industrial disasters."
+    },
+    {
+     "step": 2,
+     "action": "formulate preventive risk reduction steps",
+     "explain": "Implement buffer zones, restrict toxic storage volumes, and enhance firefighting systems."
+    },
+    {
+     "step": 3,
+     "action": "cite lessons from the Bhopal gas tragedy",
+     "explain": "the Bhopal disaster demonstrated the need for separating residential areas from hazardous plants and installing early warning systems"
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.404.8",
+   "question_type": "verify_property",
+   "question_pattern": "describe the lessons learned from the Bhopal gas tragedy",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify disaster causes",
+     "explain": "Technical errors or improper toxic substance handling trigger industrial disasters."
+    },
+    {
+     "step": 2,
+     "action": "formulate preventive risk reduction steps",
+     "explain": "Implement buffer zones, restrict toxic storage volumes, and enhance firefighting systems."
+    },
+    {
+     "step": 3,
+     "action": "cite lessons from the Bhopal gas tragedy",
+     "explain": "the Bhopal disaster demonstrated the need for separating residential areas from hazardous plants and installing early warning systems"
+    }
+   ]
+  },
+  {
+   "id": "ex19",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.404.9",
+   "question_type": "verify_property",
+   "question_pattern": "what are sunrise industries and give examples",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "distinguish traditional and emerging sectors",
+     "explain": "Iron, steel, and textiles are mature sectors, while IT, wellness, and knowledge are sunrise industries."
+    },
+    {
+     "step": 2,
+     "action": "map key geographical manufacturing centers",
+     "explain": "Locate Silicon Valley, Bangalore, and steel centers across major industrial nations."
+    },
+    {
+     "step": 3,
+     "action": "explain the role of iron and steel as a feeder industry",
+     "explain": "iron and steel is called a feeder industry because its output serves as raw material for many other industries like automobiles and machinery"
+    }
+   ]
+  },
+  {
+   "id": "ex20",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.404.9",
+   "question_type": "verify_property",
+   "question_pattern": "which are the world's major traditional industries",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "distinguish traditional and emerging sectors",
+     "explain": "Iron, steel, and textiles are mature sectors, while IT, wellness, and knowledge are sunrise industries."
+    },
+    {
+     "step": 2,
+     "action": "map key geographical manufacturing centers",
+     "explain": "Locate Silicon Valley, Bangalore, and steel centers across major industrial nations."
+    },
+    {
+     "step": 3,
+     "action": "explain the role of iron and steel as a feeder industry",
+     "explain": "iron and steel is called a feeder industry because its output serves as raw material for many other industries like automobiles and machinery"
+    }
+   ]
+  },
+  {
+   "id": "ex21",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.404.11",
+   "question_type": "verify_property",
+   "question_pattern": "why was Sakchi chosen for setting up the TISCO steel plant",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify resource supply points for TISCO",
+     "explain": "Coal comes from Jharia; iron ore, dolomite, and limestone come from Odisha and Chhattisgarh."
+    },
+    {
+     "step": 2,
+     "action": "evaluate water and logistics factors",
+     "explain": "Subarnarekha and Kharkai rivers provide water; proximity to Kalimati railway line links Kolkata market."
+    },
+    {
+     "step": 3,
+     "action": "summarize why Sakchi was the ideal site",
+     "explain": "Jamshedpur offered optimal industrial location near coalfields, ore deposits, river water, and railway connections, spurring rapid industrial development"
+    }
+   ]
+  },
+  {
+   "id": "ex22",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.404.11",
+   "question_type": "verify_property",
+   "question_pattern": "which rivers provide adequate water supply to Jamshedpur steel plant",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify resource supply points for TISCO",
+     "explain": "Coal comes from Jharia; iron ore, dolomite, and limestone come from Odisha and Chhattisgarh."
+    },
+    {
+     "step": 2,
+     "action": "evaluate water and logistics factors",
+     "explain": "Subarnarekha and Kharkai rivers provide water; proximity to Kalimati railway line links Kolkata market."
+    },
+    {
+     "step": 3,
+     "action": "summarize why Sakchi was the ideal site",
+     "explain": "Jamshedpur offered optimal industrial location near coalfields, ore deposits, river water, and railway connections, spurring rapid industrial development"
+    }
+   ]
+  },
+  {
+   "id": "ex23",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.404.12",
+   "question_type": "verify_property",
+   "question_pattern": "what locational advantages favor the steel industry at Pittsburgh",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "trace raw material supply routes",
+     "explain": "Iron ore moves from Minnesota via the Great Lakes shipping waterway and rail."
+    },
+    {
+     "step": 2,
+     "action": "identify water and regional factors",
+     "explain": "Ohio, Monongahela, and Allegheny rivers furnish reliable water supply for mills."
+    },
+    {
+     "step": 3,
+     "action": "explain market access for finished steel",
+     "explain": "cheap inland waterway transportation and proximity to raw material zones give Pittsburgh finished steel easy access to major markets"
+    }
+   ]
+  },
+  {
+   "id": "ex24",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.404.12",
+   "question_type": "verify_property",
+   "question_pattern": "how is iron ore transported from Minnesota mines to Pittsburgh",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "trace raw material supply routes",
+     "explain": "Iron ore moves from Minnesota via the Great Lakes shipping waterway and rail."
+    },
+    {
+     "step": 2,
+     "action": "identify water and regional factors",
+     "explain": "Ohio, Monongahela, and Allegheny rivers furnish reliable water supply for mills."
+    },
+    {
+     "step": 3,
+     "action": "explain market access for finished steel",
+     "explain": "cheap inland waterway transportation and proximity to raw material zones give Pittsburgh finished steel easy access to major markets"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "hess404.txt Chapter Exercises Q1",
+   "questions": [
+    "What is meant by the term industry?",
+    "Which are the main factors which influence the location of an industry?",
+    "Which industry is often referred to as the backbone of modern industry and why?"
+   ]
+  },
+  {
+   "id": "ex4.2",
+   "source_ref": "hess404.txt Chapter Exercises Q2",
+   "questions": [
+    "Distinguish between Agro-based and mineral based industry",
+    "Distinguish between Public sector and joint sector industry"
+   ]
+  },
+  {
+   "id": "ex4.3",
+   "source_ref": "hess404.txt Chapter Exercises Q3",
+   "questions": [
+    "Give two examples of Raw Materials",
+    "Give two examples of End products",
+    "Give two examples of Tertiary Activities",
+    "Give two examples of Agro-based Industries",
+    "Give two examples of Cottage Industries",
+    "Give two examples of Co-operatives"
+   ]
+  }
+ ],
+ "gate_problems": [
+  "chapter_title does not match the file opening: wrong or mislabeled source file"
+ ],
+ "gate_status": "GATE_FAIL",
+ "source_link": "re-linked to new cache"
+}

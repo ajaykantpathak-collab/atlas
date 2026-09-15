@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_01_001",
+   "title": "c12_math_cbse_01_001",
+   "questions": [
+    {
+     "q": "State the precise mathematical condition for a relation R on a set A to be reflexive. Use set notation and quantifiers.",
+     "a": "A relation R on a set A is reflexive if ∀ a ∈ A, (a, a) ∈ R. A wrong answer like \"R contains (1,1), (2,2), ...\" without the universal quantifier reveals the student thinks reflexivity only requires some diagonal pairs, not all. Another error: writing \"(a,a) ∈ R for some a\" confuses reflexivity with merely having a loop.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The relation R = {(x, y) ∈ Z × Z : x − y is even} is symmetric because if x − y is even, then y − x is also even.\" Is this reasoning correct? Explain why or why not, and identify what additional step is needed to fully verify symmetry.",
+     "a": "The reasoning is correct in spirit but incomplete as a proof. The student correctly notes that x − y even ⇒ y − x = −(x − y) is even. However, to fully verify symmetry, one must explicitly state: Let (x, y) ∈ R be arbitrary. Then x − y is even ⇒ y − x is even ⇒ (y, x) ∈ R. Since (x, y) was arbitrary, R is symmetric. A wrong answer that just says \"yes it's symmetric\" without the arbitrary-element argument shows the student doesn't understand the universal quantifier in the definition.",
+     "self_check": true
+    },
+    {
+     "q": "Let A = {1, 2, 3, 4} and R = {(1,1), (2,2), (3,3), (4,4), (1,2), (2,1), (2,3), (3,2)}. Determine whether R is reflexive, symmetric, and transitive. Show your work for each property.",
+     "a": "Reflexive: Yes, because (1,1), (2,2), (3,3), (4,4) ∈ R — all elements of A have self-pairs.\nSymmetric: Check each non-diagonal pair: (1,2) ∈ R and (2,1) ∈ R ✓; (2,3) ∈ R and (3,2) ∈ R ✓. No other non-diagonal pairs exist. So R is symmetric.\nTransitive: Check (1,2) ∈ R and (2,3) ∈ R ⇒ need (1,3) ∈ R. But (1,3) ∉ R. So R is NOT transitive.\nA wrong answer claiming transitivity because \"most pairs work\" reveals the student doesn't understand that a single counterexample is enough to disprove transitivity.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the relation R on the set of real numbers ℝ defined by R = {(x, y) : x ≤ y²}. Without testing specific numbers, explain why R cannot be symmetric. What property of the squaring function makes this fail?",
+     "a": "Symmetry requires: if x ≤ y² then y ≤ x². But squaring is not order-preserving in both directions. For example, take x = 0, y = 2: 0 ≤ 4 is true, but 2 ≤ 0 is false. The key is that y² grows faster than y for |y| > 1, so the inequality x ≤ y² does not force y ≤ x². A student who says \"it's not symmetric because x ≤ y² is not the same as y ≤ x²\" has the right idea but hasn't identified the role of the non-linear squaring function. The deeper misconception is thinking order relations are symmetric when they involve non-linear terms.",
+     "self_check": true
+    },
+    {
+     "q": "A student's solution to Exercise 1.1 Question 4 (NCERT): \"R = {(a, b) : a ≤ b} on ℝ. Reflexive: a ≤ a is true. Symmetric: a ≤ b ⇒ b ≤ a is false (e.g., 1 ≤ 2 but 2 ≤ 1 false). Transitive: a ≤ b and b ≤ c ⇒ a ≤ c is true.\" The student concludes R is reflexive and transitive but not symmetric. Is this solution complete and correct for full marks in the board exam? Justify.",
+     "a": "The solution is mathematically correct but incomplete for board exam marking scheme. CBSE expects: (1) Explicit statement \"∀ a ∈ ℝ, a ≤ a ⇒ (a,a) ∈ R\" for reflexivity; (2) For symmetry, a general argument or a specific counterexample with the pair (1,2) and (2,1) clearly shown as (1,2) ∈ R but (2,1) ∉ R; (3) For transitivity, the chain a ≤ b ≤ c ⇒ a ≤ c must be written. The student's answer would likely get 2/3 marks — missing the formal \"for all\" language and the explicit counterexample pair. The misconception: thinking a verbal explanation suffices without the formal set-theoretic justification.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a relation R on the set A = {1, 2, 3} that is reflexive and symmetric but NOT transitive. Write R as a set of ordered pairs and prove each property (or disprove transitivity with a counterexample).",
+     "a": "One valid answer: R = {(1,1), (2,2), (3,3), (1,2), (2,1), (2,3), (3,2)}.\nReflexive: (1,1), (2,2), (3,3) ∈ R ✓.\nSymmetric: (1,2)↔(2,1), (2,3)↔(3,2) ✓.\nNot transitive: (1,2) ∈ R and (2,3) ∈ R but (1,3) ∉ R ✓.\nA poor answer might give R = {(1,1), (2,2), (3,3)} (which IS transitive) or R = {(1,1), (2,2), (3,3), (1,2), (2,1)} (also transitive because no chain of two non-diagonal pairs exists). This reveals the student doesn't understand that transitivity requires checking ALL possible chains (a,b) and (b,c) — if no such chain exists, transitivity holds vacuously.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

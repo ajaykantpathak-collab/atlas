@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_05_008",
+   "title": "c11_soc_cbse_05_008",
+   "questions": [
+    {
+     "q": "Define 'stratification' in the statistical sense used in sampling theory, and explain how it differs from the sociological concept of stratification studied in Chapter 4.",
+     "a": "Statistical stratification is the subdivision of a population into distinct, non-overlapping sub-groups (strata) based on relevant criteria (e.g., rural/urban, gender, age) to ensure each sub-group is proportionally represented in the sample. Sociological stratification (Chapter 4) refers to the hierarchical arrangement of social categories (class, caste, gender) involving unequal access to resources and power. A wrong answer that conflates the two reveals the student has not distinguished between a methodological sampling technique and a substantive sociological concept — a critical error in board exams where terminology precision is marked.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to study voting behaviour in a state with 60% rural and 40% urban population. They select a sample of 1,000 voters by randomly choosing 500 from rural areas and 500 from urban areas. Is this a proportionate stratified random sample? Explain why or why not.",
+     "a": "No, this is a disproportionate stratified sample. In proportionate stratification, the sample must mirror the population proportions: 600 rural (60%) and 400 urban (40%) voters. Selecting 500 from each stratum over-represents urban voters and under-represents rural voters relative to their population share. A student answering \"yes\" misunderstands that stratification requires proportional representation unless there is a specific analytical reason for disproportionate sampling (e.g., ensuring minimum sub-group size for comparison), which must be justified and weighted during analysis.",
+     "self_check": true
+    },
+    {
+     "q": "You are designing a survey to study the relationship between family size and academic performance among Class 11 students in a city with 50 schools. The population is 10,000 students. Describe a 3-stage sampling design using stratification and randomisation at each stage, specifying the strata at each level.",
+     "a": "Stage 1: Stratify the 50 schools by type (government/private/aided) and size (large/medium/small), then randomly select 15 schools proportionate to each stratum. Stage 2: Within each selected school, stratify Class 11 students by stream (Science/Commerce/Humanities) and gender, then randomly select students proportionate to each stratum. Stage 3: From the selected students, stratify by family size categories (1 sibling, 2 siblings, 3+ siblings, only child) and randomly select the final respondents. A poor answer that suggests simple random sampling of all 10,000 students ignores practical constraints (no master list exists) and fails to ensure representation of key sub-groups like stream or school type, which are known to affect both family size and academic outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "The National Statistical Organisation (NSO) surveys 1.2 lakh households (approx. 6 lakh persons) out of India's 1.4 billion population — a mere 0.043% sample fraction. Yet its estimates are considered highly reliable. Explain the statistical principle that makes this possible, and identify the one condition that must be met for this principle to hold.",
+     "a": "The principle is the Law of Large Numbers / Central Limit Theorem: a scientifically selected random sample's statistics converge to population parameters regardless of sample fraction, provided the sample is truly representative. The critical condition is that the sample selection must be based on probability-based randomisation (every unit has a known, non-zero chance of selection) combined with stratification covering all relevant sub-groups. A student who claims \"large sample size alone ensures accuracy\" misses the point: a biased sample of 10 lakh is worse than a random sample of 10,000. The NCERT explicitly states \"its mode of selection is even more important\" than size.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this survey claim: \"A television channel conducted an online poll asking viewers whether they support a new law. 15 lakh people responded, and 78% opposed the law. The channel concludes that the majority of Indians oppose the law.\" Identify at least three distinct methodological flaws.",
+     "a": "Flaw 1: Self-selection bias (non-probability sampling) — only viewers with internet access, motivation, and strong opinions respond, violating randomisation. Flaw 2: Coverage error — excludes non-viewers, non-internet users, and those unaware of the poll, making the sampling frame non-representative of the Indian population. Flaw 3: No stratification — the sample composition by region, class, caste, gender, education is unknown and uncontrolled. Flaw 4: Non-sampling error — question wording, social desirability bias, and lack of \"don't know\" option distort responses. A student identifying only \"small sample size\" as the problem fundamentally misunderstands that 15 lakh is large but useless without probability-based selection; this confusion between sample size and sample quality is the most common senior-secondary error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-survey research proposal (150 words) to study \"Awareness of Fundamental Duties among Class 11 students in your district.\" Include: research question, population definition, sampling frame, stratification criteria, sample size justification, randomisation method, and one anticipated non-sampling error with mitigation strategy.",
+     "a": "Research Question: What is the level of awareness of Fundamental Duties (Article 51A) among Class 11 students in [District], and does it vary by school type and stream? Population: All ~12,000 Class 11 students in 85 recognised schools. Sampling Frame: District Education Office enrolment list. Stratification: School type (Govt/Aided/Private) × Stream (Sci/Com/Arts) × Gender — 12 strata. Sample Size: 400 (3.3%), calculated for 95% CI, ±5% margin, 50% prevalence, design effect 1.5. Randomisation: Probability Proportional to Size (PPS) at school level; systematic random sampling within strata using random start. Non-sampling error: Social desirability bias (students over-report awareness). Mitigation: Anonymous self-administered questionnaire with \"I don't know\" option; avoid teacher presence during administration. A weak proposal omits stratification rationale, uses convenience sampling, or ignores non-sampling errors — revealing inability to translate theory into practice.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

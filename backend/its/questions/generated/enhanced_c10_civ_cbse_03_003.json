@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_03_003",
+   "title": "c10_civ_cbse_03_003",
+   "questions": [
+    {
+     "q": "What are the two Constitutional Amendments that mandated reservation of one-third seats for women in Panchayats and Municipalities, and which Articles did they insert?",
+     "a": "The 73rd Constitutional Amendment Act (1992) inserted Article 243D for Panchayats, and the 74th Constitutional Amendment Act (1992) inserted Article 243T for Municipalities. Both mandate reservation of not less than one-third of total seats for women, including seats reserved for SCs/STs. A wrong answer (e.g., citing the 106th Amendment or Article 330/332) reveals confusion between local body reservation (already implemented) and legislative reservation (recently passed but not yet implemented), or confusion between caste-based reservation (Articles 330/332) and gender-based reservation.",
+     "self_check": true
+    },
+    {
+     "q": "India has had Universal Adult Franchise since 1950 (Article 326). Yet, women's representation in Lok Sabha has never exceeded 15%. Explain why the right to vote alone has not ensured adequate representation for women.",
+     "a": "Universal Adult Franchise guarantees the *right to vote* (formal equality), but representation requires the *capacity to contest and win elections*. Structural barriers prevent this: (1) Sexual division of labour (Node 001) burdens women with unpaid care work, leaving no time/resources for politics. (2) Public/private divide (Node 002) treats politics as a \"male domain,\" denying women access to party tickets, funding, and patronage networks. (3) Patriarchal social norms discourage female leadership. A wrong answer focusing only on \"illiteracy\" or \"lack of interest\" reveals a victim-blaming misconception that ignores systemic structural inequalities rooted in the gendered organisation of society.",
+     "self_check": true
+    },
+    {
+     "q": "A Gram Panchayat has 15 wards. The state law provides 50% reservation for women (exceeding the constitutional minimum of 33%). The Panchayat also has 3 seats reserved for Scheduled Castes (SCs). Applying the constitutional principle of \"horizontal reservation,\" calculate how many seats will be reserved for women *in total*, and how many of the SC seats must be filled by SC women.",
+     "a": "Step 1: Total seats = 15. Step 2: 50% reservation for women → 8 seats reserved for women (rounding up). Step 3: SC reserved seats = 3. Step 4: Horizontal reservation rule (Article 243D) requires that within *every* reserved category (SC/ST/General), one-third (or the state-mandated percentage) must be women. Step 5: Of the 3 SC seats, at least 1 (33%) or 2 (50% per state law) must be reserved for SC women. Assuming state law applies 50% horizontally: 2 SC seats reserved for SC women. Step 6: Total women seats = 8 (including the 2 SC women seats). A wrong answer (e.g., \"8 women seats + 3 SC seats = 11 reserved seats\") reveals a fundamental misunderstanding of *vertical* (category-wise) vs. *horizontal* (gender within category) reservation — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of reservation in Panchayats (since 1993) vs. the proposed impact of the 106th Amendment (Parliament/Assemblies). Identify two key differences in scale, nature of power, and the \"proxy representation\" challenge.",
+     "a": "Difference 1: **Scale & Power**: Panchayats are local executive bodies implementing schemes (MGNREGA, sanitation); Reservation here brought 1.4 million women into *administrative* governance. Parliament/Assemblies are *legislative* bodies making national/state laws; Reservation here would directly shape legal frameworks (e.g., property rights, labour codes). Difference 2: **Proxy Representation (\"Pradhan Pati\")**: In Panchayats, elected women often act as proxies for male relatives due to low literacy/autonomy. In legislatures, candidates need higher political capital; proxy risk exists but is mitigated by party scrutiny and public visibility. A wrong answer treating both levels identically (\"reservation works the same everywhere\") fails to analyze the distinct institutional logics — a key analytical skill for case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the argument: \"Reserving seats for women violates Article 14 (Right to Equality) because it discriminates against male candidates who cannot contest from those seats.\"",
+     "a": "The argument confuses *formal equality* (identical treatment) with *substantive equality* (equitable outcomes). Article 14 permits \"reasonable classification\" and Article 15(3) explicitly empowers the State to make \"special provisions for women and children.\" The Supreme Court (e.g., *K. Krishnamurthy v. Union of India*, 2010) upheld local body reservation as a valid affirmative action to remedy historical exclusion. Reservation is a *temporary*, *proportionate* measure (33%, not 100%) targeting a documented structural disadvantage. A wrong answer agreeing with the critique reveals a formalistic misunderstanding of equality — a common error where students quote Article 14 but ignore Article 15(3) and the constitutional vision of substantive justice.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"Reservation Implementation Checklist\" for a state government preparing for the 106th Amendment (Lok Sabha/Assembly reservation). Include 4 specific steps addressing: (a) delimitation dependency, (b) intersectionality with SC/ST quotas, (c) rotation mechanism, (d) preventing proxy representation.",
+     "a": "A good answer includes: (a) **Delimitation Trigger**: \"Wait for next Census + Delimitation Commission report (per 106th Amendment) to identify which specific constituencies become reserved.\" (b) **Intersectionality**: \"Apply horizontal reservation: within every SC/ST reserved constituency (Art 330/332), reserve 33% for SC/ST women — do not create separate 'women-only' seats overlapping caste quotas.\" (c) **Rotation**: \"Design a lottery-based rotation system (like Panchayats) ensuring no constituency is reserved for women for more than two consecutive terms, preventing entrenchment.\" (d) **Anti-Proxy Measures**: \"Mandate minimum educational qualification? No (excludes marginalized women). Instead: (i) Capacity-building grants for women candidates, (ii) Strict enforcement of anti-defection/party whip rules to ensure elected women vote independently, (iii) Social audit of MP/MLA funds by women's collectives.\" A poor answer misses the delimitation dependency (crucial for 106th Amendment) or suggests separate women seats *outside* caste quotas (violating intersectionality).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

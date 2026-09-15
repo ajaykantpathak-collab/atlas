@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_07_003",
+   "title": "c12_geo_cbse_07_003",
+   "questions": [
+    {
+     "q": "Name the five principal modes of world transportation and state the primary medium (land, water, air) for each.",
+     "a": "The five principal modes are: (1) Roadways — land, (2) Railways — land, (3) Waterways (inland and ocean) — water, (4) Airways — air, (5) Pipelines — land (buried) for liquids/gases. A wrong answer (e.g., listing \"trucks\" and \"ships\" as separate modes, or omitting pipelines) reveals the student confuses vehicles with modes or misses the distinct infrastructure category of pipelines.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why road transport is described as \"cheaper and faster over short distances and for door-to-door services\" while railways are \"most suited for large volumes of bulky materials over long distances within a country.\"",
+     "a": "Roads require lower fixed infrastructure cost per km and provide flexible routing, making average cost lower for short hauls; trucks offer direct origin-destination service without transshipment. Railways have high fixed cost (tracks, stations) but low variable cost per tonne-km due to low rolling friction and high capacity per train, so average cost falls with distance and volume. A wrong answer that cites only \"speed\" or \"cost\" without linking to fixed vs variable cost structure and transshipment penalties shows lack of understanding of transport economics.",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturer in Ludhiana (Punjab) needs to ship 500 tonnes of machine parts (high value, low volume) to a port for export to Europe. The distance to Mumbai port is 1,400 km by rail and 1,500 km by road. Air freight is available from Delhi (300 km from Ludhiana). Using the modal choice criteria from the text, determine the most appropriate mode and justify in three steps.",
+     "a": "Step 1: Identify cargo characteristics — high value, low volume (low weight), not perishable but time-sensitive for export schedule. Step 2: Compare modes — Road/rail: 1,400+ km with transshipment at port; Air: 300 km to Delhi + air haul. Step 3: Apply criteria — For high-value, low-volume goods over long international distance, air transport's speed and reliability outweigh high cost; the short road haul to Delhi airport is efficient. Answer: Air transport (via Delhi) is most appropriate. A wrong choice of rail/road ignores the value-density criterion and the fact that international export from Mumbai would still require sea freight, adding weeks.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Rhine Waterway and the Volga Waterway in terms of (a) economic hinterland served, (b) connectivity to ocean routes, and (c) volume of traffic. What geographical factors explain the difference in traffic intensity?",
+     "a": "(a) Rhine serves the highly industrialised Ruhr region and connects Switzerland, Germany, France, Belgium, Netherlands — a dense manufacturing hinterland. Volga serves Russian interior, connecting to Caspian Sea (landlocked) and via canals to Moscow/Black Sea. (b) Rhine links directly to North Atlantic Sea Route (busiest ocean route); Volga connects to Caspian (no ocean outlet) and via Volga-Don Canal to Black Sea (limited access). (c) Rhine: >20,000 ocean-going ships + 200,000 inland vessels/year; Volga: significant but lower intensity. Geographical factors: Rhine's navigable length (700 km) through core European industrial zone with direct ocean access vs Volga's 11,200 km but landlocked terminus and single-canal ocean linkage. A wrong answer that only compares lengths misses the critical role of ocean connectivity and industrial hinterland density.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Pipelines are the most efficient mode for transporting petroleum and natural gas because they offer uninterrupted flow and lowest energy cost per tonne-km.\" Consider limitations that might make other modes preferable in specific scenarios.",
+     "a": "The statement is generally true for continuous, high-volume, point-to-point movement of liquids/gases over land (e.g., Big Inch pipeline, Gulf to Northeast USA). However, pipelines have extremely high fixed capital cost, inflexible routing, and cannot handle small volumes or multiple destinations economically. For offshore fields, tankers are essential; for distributed consumer supply (LPG cylinders), road tankers provide last-mile flexibility. A wrong evaluation that ignores capital intensity, inflexibility, and the \"last mile\" problem shows inability to assess modal limits beyond theoretical efficiency.",
+     "self_check": true
+    },
+    {
+     "q": "Design a multimodal transport plan for exporting 10,000 tonnes of iron ore from a mine in Chhattisgarh (central India) to a steel plant in Jamshedpur (Jharkhand), and then shipping finished steel coils (2,000 tonnes) to a port for export to Japan. Specify modes for each leg, transfer points, and justify each choice using cost-distance-productivity logic.",
+     "a": "Leg 1 (Mine to Railhead): Road trucks (short distance, flexible, mine may lack rail siding). Leg 2 (Chhattisgarh to Jamshedpur): Railway — bulk, heavy, long-distance (approx. 400 km), low value-to-weight. Leg 3 (Jamshedpur to Port, e.g., Paradip/Kolkata): Railway — bulk coils, ~400 km. Leg 4 (Port to Japan): Ocean freighter (bulk carrier) — lowest cost per tonne-km for transoceanic bulk. Transfer points: mine siding, Jamshedpur yard, port. Justification: Each mode operates in its comparative advantage zone (road: collection/distribution; rail: long-haul bulk; sea: intercontinental bulk). A poor plan using road for Leg 2 or air for Leg 4 ignores the cost penalty for bulk low-value goods.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

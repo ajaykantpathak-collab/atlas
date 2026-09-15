@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_08_002",
+   "title": "c11_chem_cbse_08_002",
+   "questions": [
+    {
+     "q": "State the oxidation number of each element in the following species: (a) MnO₄⁻ (b) Cr₂O₇²⁻ (c) H₂O₂ (d) NaH",
+     "a": "(a) Mn = +7, O = -2 each; (b) Cr = +6 each, O = -2 each; (c) H = +1, O = -1 each (peroxide exception); (d) Na = +1, H = -1 (metal hydride exception). A wrong answer like Mn = +6 in MnO₄⁻ reveals the student forgot the overall -1 charge must be accounted for. Writing O = -2 in H₂O₂ reveals they don't know the peroxide exception. Writing H = +1 in NaH reveals they apply the \"hydrogen is +1\" rule without checking if it's a metal hydride.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the oxidation number of oxygen is -1 in H₂O₂ but -2 in H₂O, using electronegativity arguments. Why is fluorine always -1 in its compounds?",
+     "a": "In H₂O, oxygen (EN = 3.44) is more electronegative than hydrogen (2.20), so it gains both bonding electrons → -2. In H₂O₂, the O-O bond is between identical atoms (equal EN), so electrons are shared equally; each oxygen only gains one electron from its H bond → -1. Fluorine (EN = 3.98) is the most electronegative element, so it always gains the bonding electron → always -1. A student saying \"oxygen is always -2\" hasn't understood that oxidation number depends on relative electronegativity, not a fixed rule.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the oxidation number of sulfur in each: (a) SO₂ (b) SO₃ (c) H₂SO₄ (d) S₂O₃²⁻ (e) S₄O₆²⁻. Show your working for (d) and (e).",
+     "a": "(a) S = +4; (b) S = +6; (c) S = +6; (d) Let S avg = x: 2x + 3(-2) = -2 → 2x = +4 → x = +2 (average); (e) 4x + 6(-2) = -2 → 4x = +10 → x = +2.5 (average). For (d), the two S atoms are inequivalent: central S = +5, terminal S = -1 (structural knowledge). For (e), it's a tetrathionate with S-S bonds; two central S = +5, two terminal S = 0. A student giving only the average for (d)/(e) without noting inequivalence shows they treat oxidation numbers as purely algebraic without structural awareness.",
+     "self_check": true
+    },
+    {
+     "q": "In the reaction: 2MnO₄⁻ + 5C₂O₄²⁻ + 16H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O, identify which element is oxidized and which is reduced. Calculate the total electrons transferred.",
+     "a": "Mn in MnO₄⁻: +7 → Mn²⁺: +2 (gain 5e⁻ per Mn, reduced). C in C₂O₄²⁻: +3 → CO₂: +4 (lose 1e⁻ per C, oxidized). Total electrons: 2 Mn × 5e⁻ = 10e⁻ gained; 10 C × 1e⁻ = 10e⁻ lost. Balanced. A student saying carbon goes from +2 to +4 miscalculated C₂O₄²⁻ oxidation state (forgot the -2 charge). A student saying 5 electrons total forgot to multiply by stoichiometric coefficients.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the oxidation numbers in NH₄NO₃ as: N = -3, H = +1, N = +5, O = -2. Is this correct? If not, identify the error and explain why the two nitrogen atoms have different oxidation numbers in the same compound.",
+     "a": "Correct. NH₄NO₃ is an ionic compound: NH₄⁺ (ammonium) and NO₃⁻ (nitrate). In NH₄⁺: N + 4(+1) = +1 → N = -3. In NO₃⁻: N + 3(-2) = -1 → N = +5. The two nitrogens are in different chemical environments (different ions), so they have different oxidation numbers. A student giving a single average value like +1 for both nitrogens fails to recognize this is an ionic compound with distinct polyatomic ions, not a covalent molecule with equivalent atoms.",
+     "self_check": true
+    },
+    {
+     "q": "Design a set of rules (in your own words) that a Class 10 student could use to assign oxidation numbers without memorizing exceptions. Test your rules on: OF₂, H₂S₂O₈ (peroxydisulfuric acid), and Fe₃O₄.",
+     "a": "Good rules: (1) Identify the most electronegative element (gets negative ON equal to its typical charge). (2) Assign ON to other elements using charge balance. (3) For same-element bonds, split electrons equally. Test: OF₂ → F = -1 (most EN), so O = +2. H₂S₂O₈ → O in -O-O- = -1, other O = -2, H = +1, solve for S = +6 each. Fe₃O₄ → treat as FeO·Fe₂O₃ → one Fe²⁺ (+2), two Fe³⁺ (+3). A student who just memorizes \"oxygen = -2\" will fail all three. This tests if they understand the underlying principle (electronegativity hierarchy) vs rote rules.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_bio_ch2_12",
+ "concepts": [
+  {
+   "id": "enh:c8_bio_ch2_12",
+   "title": "c8_bio_ch2_12",
+   "questions": [
+    {
+     "q": "What is the chemical name and formula of 'alum', a substance commonly used in water purification as a coagulant?",
+     "a": "Potassium aluminium sulfate, with the formula $KAl(SO_4)_2 \\cdot 12H_2O$. A wrong answer indicates confusion with common salt or washing soda, revealing a failure to recall specific chemical compounds used in daily water treatment.",
+     "self_check": true
+    },
+    {
+     "q": "Why is chlorination preferred over boiling as a large-scale public water disinfection method in municipal water supply systems?",
+     "a": "Chlorination provides a residual disinfecting effect that protects water throughout distribution pipelines, whereas boiling only kills pathogens present at the moment of heating and leaves water vulnerable to recontamination. A wrong answer suggests the student thinks boiling is practical for entire cities, missing the concept of continuous chemical protection in public infrastructure.",
+     "self_check": true
+    },
+    {
+     "q": "A municipal water treatment plant tests raw river water and finds high turbidity due to suspended clay particles. If 50 mg of alum ($KAl(SO_4)_2 \\cdot 12H_2O$) is added per liter of water, what primary physical and chemical action does the alum perform to clear the turbidity?",
+     "a": "Alum dissolves to release aluminium ions ($Al^{3+}$) which neutralize the negative electrical charges on suspended clay colloids, causing them to aggregate into larger flocs that settle rapidly by gravity (sedimentation). A wrong answer reveals a misunderstanding of coagulation, often mistaking it for simple filtration or chemical neutralization of acids.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the role of pH in the effectiveness of chlorine disinfection in public water supplies. Why might highly alkaline water reduce the disinfecting efficiency of chlorine gas ($Cl_2$)?",
+     "a": "When chlorine dissolves in water, it forms hypochlorous acid ($HOCl$), which is the active germicidal agent, and hydrochloric acid ($HCl$). In alkaline (high pH) water, $HOCl$ dissociates into hypochlorite ions ($OCl^-$), which have significantly lower disinfection efficiency than un-dissociated $HOCl$. A wrong answer shows a lack of awareness of how chemical equilibrium and pH alter the chemical species responsible for pathogen destruction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether adding common salt ($NaCl$) to turbid pond water can serve as an effective substitute for alum in municipal water coagulation. Justify your answer chemically.",
+     "a": "Adding $NaCl$ is not an effective substitute because sodium ($Na^+$) is a monovalent ion, whereas aluminium ($Al^{3+}$) is trivalent. According to the Schulze-Hardy rule in colloid chemistry, multivalent ions ($Al^{3+}$) are vastly more effective at neutralizing colloidal charges than monovalent ions ($Na^+$). A wrong answer indicates confusion between ionic charge valence and simple solute addition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple four-step community water purification procedure using household materials to make muddy well water safe for drinking in a rural Indian village.",
+     "a": "The procedure should include: (1) Coagulation using crushed alum to settle suspended mud; (2) Sedimentation allowing flocs to settle; (3) Filtration through layers of fine sand, coarse gravel, and charcoal to remove residual particles; (4) Disinfection by boiling or adding measured chlorine tablets. A poor answer lacks chemical sequence, such as trying to filter before settling or omitting disinfection.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

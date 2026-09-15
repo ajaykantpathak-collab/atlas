@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_geo_ch2_8",
+ "concepts": [
+  {
+   "id": "enh:c8_geo_ch2_8",
+   "title": "c8_geo_ch2_8",
+   "questions": [
+    {
+     "q": "On which continent is the Andes mountain range located, and what is its primary spatial orientation?",
+     "a": "The Andes mountain range is located in South America along its western coast, running in a predominantly north-south orientation. A wrong answer (e.g., choosing North America or an east-west orientation) reveals that the student is confusing the Andes with the Rockies or Himalayas due to a lack of continent-to-landform spatial mapping.",
+     "self_check": true
+    },
+    {
+     "q": "Why do geographers classify the Himalayas as the \"highest\" mountain range while classifying the Andes as the \"longest\" mountain range on land?",
+     "a": "The Himalayas contain the world's highest peaks measured by height above sea level (including Mount Everest at 8,848+ meters), but cover a continuous distance of about 2,400 km. The Andes have lower maximum peak heights (Aconcagua at ~6,961 meters), but extend over approximately 7,000 km from north to south, making them much longer in distance. A wrong answer showing confusion between height and length indicates the student treats all \"large\" landform measurements as identical.",
+     "self_check": true
+    },
+    {
+     "q": "A geographer tracks two air masses: Mass A moves eastwards hitting an east-west aligned range in Europe (the Alps), while Mass B moves eastwards across North America hitting a north-south aligned range (the Rockies). Which mountain range acts as a continuous long wall blocking east-west moving moisture over several thousand kilometers from north to south?",
+     "a": "The Rockies act as a continuous north-south wall across North America, blocking moist air moving inland from the Pacific Ocean across many degrees of latitude. Steps: 1. Determine orientation of Rockies (north-south along western North America). 2. Determine orientation of Alps (arc shaping east-west across southern Europe). 3. Compare blocking profile against east-moving air: A north-south wall creates a broad barrier to west-to-east moving winds. A wrong answer selecting the Alps reveals an inability to visualize how line orientation (north-south vs east-west) interacts with wind movement patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the physical location and orientation of the Alps in Europe with the Himalayas in Asia. What primary similarity do they share in their spatial alignment?",
+     "a": "Both the Alps and the Himalayas share a predominantly east-west orientation across their respective continents (southern Europe and southern Asia), acting as northern or central latitude barriers. A wrong answer stating they run north-south shows a failure to read directional trends on physical map projections.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Because Mount Everest is in Asia, the Himalayas must be both the highest and the longest mountain chain on Earth.\" Critique this statement using geographical facts.",
+     "a": "The statement is false. While the Himalayas are indeed the highest mountain range containing Mount Everest, the longest continental mountain range on Earth is the Andes in South America (~7,000 km continuous chain), whereas the Himalayas span about 2,400 km. A wrong answer accepting the student's claim shows an error where a single extreme property (highest peak) is incorrectly generalized to all dimensions of a geographical feature.",
+     "self_check": true
+    },
+    {
+     "q": "Design a summary key for a world physical atlas that categorizes the four major mountain ranges (Himalayas, Andes, Rockies, Alps) based on two criteria: Continent and Primary Alignment Trend (North-South or East-West).",
+     "a": "A complete answer must organize the four ranges accurately:\n1. Himalayas: Asia | East-West alignment\n2. Alps: Europe | East-West alignment\n3. Andes: South America | North-South alignment\n4. Rockies: North America | North-South alignment\nA poor answer will misplace continents (e.g., swapping Andes and Rockies) or confuse vertical versus horizontal alignment on the world map.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_21_004",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_21_004",
+   "title": "c11_geo_cbse_21_004",
+   "questions": [
+    {
+     "q": "List the three National Waterways operational in India as of 2014 (before the 2016 Act declared 111 NWs) and the primary river system each utilizes.",
+     "a": "Correct answer: NW-1 (Ganga-Bhagirathi-Hooghly: Prayagraj-Haldia, 1620 km), NW-2 (Brahmaputra: Sadiya-Dhubri, 891 km), NW-3 (West Coast Canal: Kottapuram-Kollam, 205 km). A wrong answer (e.g., listing NW-4 or NW-5 as pre-2016 operational) reveals the student cannot distinguish between 'declared' and 'operational' waterways – a critical board exam distinction. Many students memorize the 2016 list of 111 NWs but fail to know which three were actually developed and functional earlier.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the Brahmaputra (NW-2) navigable for larger vessels (up to 2000 DWT) in its Assam stretch despite having a braided channel, while the Ganga (NW-1) requires constant dredging to maintain 2.5m depth for 1500-2000 DWT vessels?",
+     "a": "Correct reasoning: Brahmaputra in Assam carries high discharge (avg. 19,800 m³/s) from Himalayan snowmelt + monsoon, maintaining depth naturally despite braiding; its sediment is finer (silt/clay) allowing dredging to sustain depth. Ganga in lower reaches (Bihar/UP) has lower dry-season discharge, high sediment load (coarse sand), and shifting thalweg, requiring intensive capital dredging. A wrong answer attributing it solely to 'river size' or 'rainfall' misses the sediment regime and hydraulic geometry concepts (Class 11 Geomorphology link) – a common error where students ignore fluvial processes in transport geography.",
+     "self_check": true
+    },
+    {
+     "q": "A thermal power plant in Bihar needs 5 million tonnes of coal annually from Talcher (Odisha). Compare the logistics cost (₹/tonne) for three routes: (A) Rail: Talcher → Bihar (800 km), (B) Inland Waterway: Talcher → Paradip (coastal) → Haldia (NW-1) → Bihar (river), (C) Coastal shipping + rail: Talcher → Paradip → Haldia → rail to plant. Assume rail ₹1.5/tonne-km, IWT ₹0.5/tonne-km, coastal ₹0.3/tonne-km, last-mile rail ₹2/tonne-km. Which is cheapest? Show calculations.",
+     "a": "Step 1: Route A (All rail) = 800 km × ₹1.5 = ₹1200/tonne. Step 2: Route B: Talcher-Paradip rail ~100km (₹150) + Paradip-Haldia coastal 400km (₹120) + Haldia-Bihar NW-1 600km (₹300) + last-mile rail 50km (₹100) = ₹670/tonne. Step 3: Route C: Talcher-Paradip rail (₹150) + Paradip-Haldia coastal (₹120) + Haldia-plant rail 650km (₹1300) = ₹1570/tonne. Cheapest: Route B (₹670). Wrong answer (choosing A or C) reveals inability to model multimodal logistics – students often forget last-mile connectivity costs or assume coastal shipping serves inland directly. Board exams test this integrated costing.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why the East Coast ports (Kolkata/Haldia, Paradip, Visakhapatnam, Chennai, Tuticorin) collectively handle ~60% of India's major port traffic despite the West Coast having more natural harbours and the industrial hub of Mumbai-Pune.",
+     "a": "Correct analysis: East Coast ports serve mineral-rich hinterlands (Chotanagpur, Odisha, Chhattisgarh) generating massive bulk exports (iron ore, coal, manganese) – high volume, low value – ideal for water transport. Paradip and Visakhapatnam are deep-water, handling Capesize vessels. West Coast ports (Mumbai, JNPT, Kandla, Mormugao, Mangalore, Kochi) handle more containerized/POL cargo (higher value, lower volume). Also, Suez route favors West Coast for Europe/US trade, but East Coast dominates Southeast Asia/Australia trade. A wrong answer citing 'more ports on East Coast' or 'better infrastructure' ignores the resource geography (Class 10 Minerals chapter) – the fundamental driver of port traffic is hinterland resource endowment, not port count.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The 2016 National Waterways Act (declaring 111 NWs) will revolutionize India's freight modal share from 6% to 15% by 2030.\" Consider physical, institutional, and economic constraints.",
+     "a": "Evaluation: Overly optimistic. Physical: 90% of new NWs are on seasonal Peninsular rivers (Godavari, Krishna, Cauvery, Barak) requiring massive capital dredging, barrages, locks – environmentally contentious (inter-state water disputes). Institutional: IWAI lacks funding/manpower; state governments control water (State List) – coordination failures (e.g., NW-4 Buckingham Canal stalled for decades). Economic: Cargo must be available at both ends (backhaul problem); most new NWs lack industrial clusters. Realistic share: 8-9% by 2030. A wrong answer accepting the target uncritically shows inability to apply critical evaluation – a board exam requirement for 'analyze/evaluate' questions. Students must link to federalism (Polity) and river ecology (Environment).",
+     "self_check": true
+    },
+    {
+     "q": "Design a multimodal logistics corridor for exporting automobiles from a proposed plant in Chennai to Europe, using at least two water transport legs. Annotate a mental map with: origin, port(s), shipping route, transshipment hub(s), destination port, and justify each mode choice.",
+     "a": "Good answer: Chennai plant → (rail/road 30km) → Kamarajar Port (Ennore) → (coastal shipping 1200km) → JNPT (Nhava Sheva) → (mother vessel via Suez Canal) → Rotterdam (Netherlands) → (inland barge Rhine River) → Duisburg (Germany). Justification: Ennore has dedicated car terminal (Ro-Ro); coastal shipping to JNPT avoids road congestion; JNPT is India's only port with 15m draft for Post-Panamax vessels to Europe; Suez is shortest route; Rhine barge is cheapest last-mile in Europe. Poor answer uses only one port (e.g., direct Chennai-Rotterdam) ignoring draft limits at Chennai (13m) and lack of direct mainline service – reveals ignorance of port hierarchy and shipping network topology.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

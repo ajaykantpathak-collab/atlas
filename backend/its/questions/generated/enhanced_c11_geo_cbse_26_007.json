@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_26_007",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_26_007",
+   "title": "c11_geo_cbse_26_007",
+   "questions": [
+    {
+     "q": "In a standard False Colour Composite (FCC) image from IRS LISS-III, healthy wheat crop in March appears in which colour, and which spectral band combination produces this colour?",
+     "a": "Healthy wheat in March appears bright red in standard FCC. This is produced by assigning Near Infrared (NIR, Band 4: 0.77-0.86 µm) to red, Red (Band 3: 0.62-0.68 µm) to green, and Green (Band 2: 0.52-0.59 µm) to blue. A wrong answer (e.g., \"green\" or \"dark blue\") reveals the student confuses FCC with true colour composites or misunderstands that healthy vegetation strongly reflects NIR (assigned to red channel) while absorbing red.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the same IRS LISS-IV image (5.8 m resolution) show individual tree crowns in a teak plantation in Madhya Pradesh but cannot distinguish separate trees in a dense sal forest in Jharkhand, even though both are captured at the same spatial resolution?",
+     "a": "In teak plantations, trees are uniformly spaced (3m × 3m or wider) with open canopy, so each crown exceeds the 5.8m pixel size and casts distinct spectral signature. In dense sal forests, crowns interlock with spacing <2m, causing multiple crowns to fall within one pixel - the sensor records a mixed signal (mixed pixel problem). A wrong answer focusing only on \"resolution is too coarse\" misses the critical concept of crown architecture and canopy closure determining effective resolvability, not just sensor specification.",
+     "self_check": true
+    },
+    {
+     "q": "A flood monitoring team uses IRS AWiFS data (56 m resolution, 5-day revisit) to map inundation in the Ganga-Brahmaputra delta during July 2023. They acquire images on July 5, 10, 15, and 20. On July 15, cloud cover obscures 40% of the study area. Calculate the maximum continuous cloud-free monitoring gap possible, and explain which alternative Indian sensor could fill this gap with higher temporal resolution.",
+     "a": "Maximum continuous cloud-free gap = 10 days (July 10 to July 20, since July 15 is cloudy). Alternative: INSAT-3D/3DR imager provides 15-30 minute temporal resolution in visible/IR bands (1 km resolution) for real-time flood extent tracking, though at coarser spatial detail. A wrong answer calculating 5 days reveals misunderstanding of \"continuous\" - the gap spans two revisit cycles. Missing INSAT connection shows failure to link geostationary satellites (c11_geo_cbse_26_002) with disaster monitoring needs.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the suitability of IRS LISS-III (23.5 m, 4 bands, 24-day revisit) versus Sentinel-2 (10 m, 13 bands, 5-day revisit) for operational kharif rice area estimation in West Bengal. Which would you recommend for district-level production forecasting and why?",
+     "a": "Recommend IRS LISS-III for operational use despite coarser resolution. Reasons: (1) 24-day revisit aligns with key phenological stages (transplanting, tillering, flowering, harvest) when timed correctly; (2) 4 bands (Green, Red, NIR, SWIR) suffice for NDVI and LSWI indices that separate rice from other crops; (3) Data continuity since 1995 enables long-term trend analysis; (4) Indian ground segment (NRSC) provides orthorectified, radiometrically corrected products ready for Mahalanobis National Crop Forecast Centre (MNCFC) workflows. Sentinel-2's 5-day revisit creates massive data volumes without proportional accuracy gain for district-level estimates. Wrong choice of Sentinel-2 ignores operational constraints: processing infrastructure, historical baseline, and institutional mandate.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Since IRS Resourcesat-2A LISS-IV provides 5.8 m resolution, it should replace LISS-III (23.5 m) for all forest cover mapping in India's biennial Forest Survey of India (FSI) assessments.\"",
+     "a": "The statement is flawed. LISS-IV's 5.8 m resolution with 70 km swath would require ~200 scenes to cover India's forest area vs ~25 scenes for LISS-III (141 km swath), increasing processing time, cost, and geometric correction complexity 8-fold. FSI's two-tier approach uses LISS-III for wall-to-wall forest cover mapping (3 ha minimum mappable unit) and LISS-IV only for sample-based accuracy assessment and change detection in critical corridors. Replacing LISS-III would break 30-year comparability of forest cover time series. A student agreeing reveals ignorance of scale-swath trade-offs, institutional workflows, and the Minimum Mappable Unit concept in operational mapping.",
+     "self_check": true
+    },
+    {
+     "q": "Design a remote sensing-based workflow to assess drought impact on rabi crops in Bundelkhand region (Uttar Pradesh-Madhya Pradesh) using only Indian satellite data. Specify: (a) sensors and bands, (b) acquisition timeline, (c) indices to compute, (d) ground validation strategy, and (e) output product for state agriculture department.",
+     "a": "(a) Resourcesat-2A AWiFS (56 m, 5-day revisit): Green, Red, NIR, SWIR bands; (b) Fortnightly acquisitions from November (sowing) to March (harvest) for 2023-24 and 2022-23 (normal year); (c) NDVI for vegetation vigour, VCI (Vegetation Condition Index) for anomaly detection, LSWI (Land Surface Water Index) for soil moisture stress; (d) 50 stratified random field plots per district measuring crop height, biomass, soil moisture via gravimetric method, correlated with pixel values; (e) District-level drought severity map (Normal/Mild/Moderate/Severe) with estimated yield reduction percentage, delivered as GIS-ready shapefile and PDF atlas. Poor answers omit temporal baseline comparison, use only NDVI (insensitive to water stress), or suggest sensors without Indian ground segment access.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

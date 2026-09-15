@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_07_005",
+   "title": "c10_geo_cbse_07_005",
+   "questions": [
+    {
+     "q": "Name the National Waterway that runs on the Ganga-Bhagirathi-Hooghly river system from Prayagraj to Haldia, and state its number and approximate length.",
+     "a": "National Waterway 1 (NW-1) on the Ganga-Bhagirathi-Hooghly system from Prayagraj to Haldia, approximately 1,620 km long. A wrong answer (e.g., naming NW-2 or confusing the terminal points) reveals the student has not memorised the flagship waterway's basic identity — a frequent 1-mark board question.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Brahmaputra (NW-2) remains navigable throughout the year while many peninsular rivers like the Godavari (NW-4) face seasonal navigation constraints.",
+     "a": "The Brahmaputra receives perennial flow from Himalayan snowmelt and heavy monsoon rainfall in its upper catchment, maintaining depth year-round; peninsular rivers like Godavari depend solely on monsoon rainfall, causing drastic seasonal water-level fluctuations. A wrong answer attributing it only to \"rainfall\" without distinguishing snowmelt vs. rain-fed regimes shows confusion between Himalayan and peninsular river regimes (c6_geography_ch03_016, c7_geo_ch01_009).",
+     "self_check": true
+    },
+    {
+     "q": "A barge on NW-1 carries 1,500 tonnes of coal. If one railway wagon holds 60 tonnes and one truck holds 10 tonnes, calculate how many wagons and trucks would be needed to move the same load. Then state the fuel efficiency ratio (waterway : rail : road) approximately.",
+     "a": "Wagons: 1,500 ÷ 60 = 25 wagons. Trucks: 1,500 ÷ 10 = 150 trucks. Fuel efficiency ratio (tonne-km per litre): waterway ~105, rail ~85, road ~24 → approximate ratio 4.4 : 3.6 : 1. A student who only calculates vehicle counts but misses the fuel ratio fails to grasp the core economic argument for waterways — a common 3-mark board trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the hinterland connectivity challenges of Kandla (west coast) and Paradip (east coast) major ports. How does the Sagarmala programme address these differently for each?",
+     "a": "Kandla serves the vast north-western hinterland (Rajasthan, Gujarat, Delhi) but lacks dedicated rail/road corridors; Paradip serves mineral-rich Odisha-Jharkhand-Chhattisgarh but suffers from last-mile rail congestion. Sagarmala addresses Kandla via the Delhi-Mumbai Industrial Corridor integration and Paradip via the East Coast Railway doubling and slurry pipelines. A generic \"improves connectivity\" answer without port-specific infrastructure projects shows lack of case-based analysis skill.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Declaring 111 new National Waterways in 2016 automatically increased India's inland water transport share from 2% to a significant level.\" Support your judgment with two geographical constraints.",
+     "a": "The statement is false. Declaration alone does not create navigability; two constraints: (1) Most new NWs lie on seasonal peninsular rivers lacking perennial flow and minimum depth (1.5-2 m) without massive dredging; (2) Absence of terminal infrastructure (jetties, warehouses, multimodal links) makes them commercially non-viable. A student agreeing with the statement confuses policy announcement with physical-operational readiness — a critical evaluation error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a multimodal logistics plan to transport 50,000 tonnes of iron ore from Bellary (Karnataka) to a steel plant in Durgapur (West Bengal) using at least two waterway segments and one rail segment. Annotate the route on a mental map.",
+     "a": "Bellary → (rail) → Beypore/Kochi (minor port) → (coastal shipping NW-3/west coast) → Kolkata/Haldia (major port, NW-1) → (barge on NW-1 Ganga) → Farakka → (rail) → Durgapur. Good answer identifies NW-3 (West Coast Canal) and NW-1 as waterway segments, recognises need for rail first/last mile, and names specific ports. Poor answer uses only roads or ignores peninsular river non-perennial nature.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_12_007",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_12_007",
+   "title": "c11_bio_cbse_12_007",
+   "questions": [
+    {
+     "q": "State the net ATP yield from one molecule of glucose during aerobic respiration as per the theoretical respiratory balance sheet, and list the four main stages contributing to this total.",
+     "a": "The theoretical net yield is 38 ATP per glucose. The four stages are glycolysis, pyruvate oxidation (link reaction), Krebs cycle (TCA cycle), and oxidative phosphorylation (electron transport chain). A wrong answer (e.g., 36 ATP or 2 ATP) reveals the student either recalls the shuttle-adjusted yield without stating the theoretical maximum, or confuses aerobic yield with anaerobic fermentation yield.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the 2 NADH produced in glycolysis yield either 6 ATP or 4 ATP in the final balance sheet, depending on the shuttle system operating in the cell.",
+     "a": "Glycolysis occurs in the cytosol, but oxidative phosphorylation occurs in the mitochondrial matrix. Cytosolic NADH cannot cross the inner mitochondrial membrane directly; it must transfer its reducing equivalents via shuttle systems. The malate-aspartate shuttle transfers electrons to mitochondrial NAD⁺, yielding 3 ATP per NADH (total 6 ATP). The glycerol-3-phosphate shuttle transfers electrons to mitochondrial FAD, yielding 2 ATP per NADH (total 4 ATP). A wrong answer indicates the student does not understand compartmentalization of respiration or the existence of different NADH shuttles.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher measures ATP production in two cell types: liver cells (using malate-aspartate shuttle) and skeletal muscle cells (using glycerol-3-phosphate shuttle). Calculate the net ATP yield per glucose for each cell type, showing the contribution from each stage.",
+     "a": "Liver (malate-aspartate): Glycolysis: 2 ATP (substrate) + 6 ATP (2 NADH) = 8; Pyruvate oxidation: 6 ATP (2 NADH); Krebs cycle: 2 ATP (2 GTP) + 18 ATP (6 NADH) + 4 ATP (2 FADH₂) = 24; Total = 38 ATP. Muscle (glycerol-3-phosphate): Glycolysis: 2 ATP + 4 ATP (2 NADH) = 6; Pyruvate oxidation: 6 ATP; Krebs cycle: 24 ATP; Total = 36 ATP. A wrong answer suggests the student cannot apply shuttle-specific ATP yields or miscounts the number of NADH/FADH₂ per stage.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the assumptions of the theoretical respiratory balance sheet with the reality of a living cell. Identify three assumptions that are violated in vivo and explain how each violation reduces the actual ATP yield below 38.",
+     "a": "1) Sequential pathway assumption violated: pathways operate simultaneously, intermediates are siphoned for biosynthesis (anabolism), reducing carbon flow through complete oxidation. 2) NADH shuttle assumption violated: not all cells use the malate-aspartate shuttle; muscle uses glycerol-3-phosphate shuttle, lowering yield by 2 ATP per glucose. 3) Exclusive glucose assumption violated: fatty acids and amino acids enter the pathway, altering the NADH/FADH₂ ratio and proton motive force. A wrong answer shows the student treats the balance sheet as a fixed biological constant rather than a theoretical model.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since fermentation yields only 2 ATP per glucose and aerobic respiration yields 38 ATP, aerobic respiration is 19 times more efficient.\" Evaluate this statement using the concept of energy capture efficiency relative to the total free energy of glucose oxidation (ΔG°' = -2870 kJ/mol). Assume ATP synthesis requires ~50 kJ/mol under cellular conditions.",
+     "a": "The statement is incorrect. Efficiency = (ATP yield × energy per ATP) / |ΔG°'|. Fermentation: (2 × 50) / 2870 ≈ 3.5%. Aerobic: (38 × 50) / 2870 ≈ 66%. Aerobic respiration is ~19 times more efficient in ATP yield, but the efficiency ratio is not 19:1 because the denominator (total energy) is the same. The student's claim confuses \"fold increase in ATP count\" with \"fold increase in energy capture efficiency.\" A wrong answer reveals confusion between absolute ATP numbers and thermodynamic efficiency.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using yeast to demonstrate that the ATP yield from glucose is significantly lower under anaerobic conditions than aerobic conditions, without directly measuring ATP. Specify the measurable parameter, expected results, and how they relate to ATP yield.",
+     "a": "Measure CO₂ production rate in yeast suspensions with glucose under aerobic (shaking) vs anaerobic (sealed with N₂) conditions. Aerobic: high CO₂ rate (complete oxidation via Krebs cycle). Anaerobic: low CO₂ rate (only glycolysis + fermentation, 2 ATP/glucose). Since CO₂ evolution correlates with carbon flux through oxidative pathways, the drastic reduction in CO₂ rate under anaerobiosis reflects the ~19-fold lower ATP yield. A poor answer might measure only ethanol production or fail to link CO₂ rate to the extent of glucose oxidation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

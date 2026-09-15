@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_01_007",
+   "title": "c11_geo_cbse_01_007",
+   "questions": [
+    {
+     "q": "Name the two specific laws of physics that directly explain why the equator receives more annual insolation than the poles, and state the geological process responsible for the uplift of the Himalaya.",
+     "a": "Correct answer: (1) Inverse Square Law of radiation (intensity ∝ 1/d²) combined with Lambert's Cosine Law (insolation ∝ cos θ, where θ is solar zenith angle) explain latitudinal insolation gradient. (2) Continent-continent convergent plate boundary collision (Indian Plate vs Eurasian Plate) driven by mantle convection causes Himalayan orogeny. A wrong answer (e.g., \"distance from sun\" or \"volcanoes\") reveals the student confuses seasonal distance variation with axial tilt geometry, and confuses orogeny types (collision vs subduction volcanism).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Coriolis effect deflects winds to the right in the Northern Hemisphere, and why this deflection is zero at the equator but maximum at the poles — linking the physics of rotating reference frames to the geographical pattern of pressure belts and wind systems.",
+     "a": "Correct answer: Coriolis acceleration = 2Ωv sin φ, where Ω = Earth's angular velocity (7.292×10⁻⁵ rad/s), v = wind speed, φ = latitude. At equator φ=0°, sin 0°=0 → no deflection. At poles φ=90°, sin 90°=1 → maximum deflection. This creates the geographical pattern: subtropical highs at ~30°N/S (descending air deflected into anticyclones), subpolar lows at ~60°N/S, and the westerlies/easterlies. A wrong answer (e.g., \"centrifugal force\" or \"magnetic field\") reveals confusion between fictitious forces in rotating frames and real forces, and inability to connect the mathematical sine-latitude dependence to the observed global circulation cells.",
+     "self_check": true
+    },
+    {
+     "q": "APPLY: Using the hypsometric formula ΔP/Δz = -ρg and the dry adiabatic lapse rate (DALR = 9.8°C/km), calculate the temperature at the summit of Doddabetta (2,637 m, Nilgiris) if the temperature at Coimbatore (400 m) is 32°C. Then explain why the actual temperature is usually higher than your calculation.",
+     "a": "Correct working: Step 1: Elevation difference = 2,637 - 400 = 2,237 m = 2.237 km. Step 2: Temperature drop (DALR) = 9.8°C/km × 2.237 km = 21.9°C. Step 3: Calculated summit temperature = 32 - 21.9 = 10.1°C. Step 4: Actual temperature is higher because (a) environmental lapse rate (ELR) averages 6.5°C/km due to latent heat release, radiation, and mixing, not DALR; (b) Doddabetta's exposed summit experiences strong insolation and turbulent mixing. A wrong calculation (using 6.5°C/km directly, or ignoring elevation difference) reveals inability to distinguish between dry adiabatic process (parcel theory) and actual atmospheric profile, and confusion between physics-derived constants and observed geographical averages.",
+     "self_check": true
+    },
+    {
+     "q": "ANALYZE: Compare the geological structure and geomorphic evolution of the Western Ghats (fault-block escarpment) and the Eastern Ghats (discontinuous relict mountains) using the concepts of isostasy, denudation chronology, and drainage divide migration. Why does the Western Ghats act as a climatic divide while the Eastern Ghats do not?",
+     "a": "Correct analysis: Western Ghats = uplifted fault-block margin of the Deccan Plateau (Cretaceous rifting, isostatic compensation), steep west-facing scarp traps SW monsoon (orographic lift), drainage divide lies 30-50 km east of crest → short west-flowing rivers, long east-flowing rivers. Eastern Ghats = deeply dissected, relict mountains of Archaean-Proterozoic charnockites/khondalites, no recent tectonic uplift, low elevation (<1,500 m), divided by major river gaps (Godavari, Krishna, Mahanadi) → no continuous barrier, monsoon winds pass through. Isostasy maintains Western Ghats elevation via erosional unloading; Eastern Ghats are isostatically compensated relicts. A wrong answer (treating both as \"fold mountains\" or \"same age\") reveals confusion between tectonic origin types (rift margin vs ancient orogen) and inability to link geological structure to climatic function.",
+     "self_check": true
+    },
+    {
+     "q": "EVALUATE: \"The Indian monsoon is purely a thermal phenomenon driven by differential heating of land and sea; geological factors like the Himalaya and Tibetan Plateau play no causal role.\" Critique this statement using dynamical meteorology (vorticity, potential temperature) and paleoclimate evidence.",
+     "a": "Correct evaluation: Statement is false. Thermal contrast (land-sea breeze scaled up) initiates monsoon onset, but the Himalaya-Tibetan complex acts as: (1) Mechanical barrier blocking cold, dry mid-latitude air (conservation of potential vorticity: f/h changes as air crosses topography); (2) Elevated heat source (Tibetan Plateau ~4,500 m) creating upper-tropospheric anticyclone (Tibetan High) that drives easterly jet and monsoon trough via Sverdrup balance; (3) Paleoclimate data (loess-paleosol sequences, speleothems) show monsoon intensification correlates with Himalayan uplift phases (8 Ma, 2.7 Ma). Without orography, models show weak, disorganized rainfall. A wrong evaluation (agreeing or citing only \"rain shadow\") reveals ignorance of dynamical meteorology (vorticity, quasi-geostrophic theory) and inability to integrate geological timescales with atmospheric physics.",
+     "self_check": true
+    },
+    {
+     "q": "CREATE: Design a 3-week interdisciplinary field study plan for a Class 11 project investigating how the geology of the Chotanagpur Plateau (gneissic basement, Gondwana coal measures, laterite caps) controls its drainage pattern (radial/trellis), soil chemistry (lateritic vs alluvial), and microclimate (temperature inversion in Damodar valley). Specify the physics/geology measurements, instruments, and geographical mapping techniques required.",
+     "a": "Expected answer criteria: (1) Geology: Brunton compass for foliation/joint mapping in gneiss; stratigraphic logging of Gondwana sequence (Talchir, Barakar, Raniganj); laterite thickness/profile description. (2) Physics: Stevenson screen + dataloggers for 48-hr temp/RH at valley floor vs plateau top (inversion detection); Kestrel meter for wind profiling; infiltrometer for hydraulic conductivity of laterite vs alluvium. (3) Geography: SOI toposheet (1:50,000) drainage ordering (Strahler); GIS (QGIS) for DEM-derived slope/aspect/curvature; soil sampling grid (pH, EC, NPK) correlated with parent rock. (4) Synthesis: Cross-section showing geological control on valley asymmetry; scatter plots of soil pH vs rock type; diurnal temperature curves proving inversion. Poor answer (only \"collect rocks and measure rain\") reveals no grasp of interdisciplinary methodology, instrument principles, or spatial analysis frameworks.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,569 @@
+{
+ "class": 11,
+ "subject": "accountancy",
+ "chapter": 105,
+ "chapter_title": "Bank Reconciliation Statement",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keac105.txt",
+ "concepts": [
+  {
+   "id": "keac.105.1",
+   "title": "Bank Reconciliation Statement Overview",
+   "section": "5.1",
+   "definition": "A schedule compiled periodically to reconcile discrepancies between the cash book bank column balance and the bank passbook balance.",
+   "formula": "Cash Book Balance + Adjustments = Passbook Balance",
+   "key_idea": "Identifies and explains variations between firm records and bank records as of a given date.",
+   "textbook_ref": "keac105.txt lines 30-50",
+   "question_patterns": [
+    "what is a bank reconciliation statement",
+    "why is a bank reconciliation statement prepared",
+    "state the purpose of preparing bank reconciliation statement",
+    "explain the need for bank reconciliation",
+    "explain bank reconciliation statement overview"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify starting balance",
+     "explain": "Determine whether reconciliation starts from cash book balance or passbook balance."
+    },
+    {
+     "step": 2,
+     "action": "Compare transactions",
+     "explain": "Cross-check debit and credit entries between cash book and bank passbook to find mismatched items."
+    },
+    {
+     "step": 3,
+     "action": "Summarize reconciling differences",
+     "explain": "List timing differences and errors that cause the variance between both records."
+    }
+   ]
+  },
+  {
+   "id": "keac.105.2",
+   "title": "Reconciliation from Favourable Cash Book Balance",
+   "section": "5.2.1(a)",
+   "definition": "Ascertaining the bank passbook balance starting from a positive debit balance shown in the cash book.",
+   "formula": "passbook_balance = cash_book_balance + cheques_issued_unpresented + direct_credits - cheques_deposited_uncleared - direct_debits",
+   "key_idea": "Add items that increase passbook balance relative to cash book and deduct items that decrease it.",
+   "textbook_ref": "keac105.txt lines 120-150",
+   "question_patterns": [
+    "calculate passbook balance given favourable cash book balance",
+    "find balance as per passbook starting from cash book debit balance",
+    "compute passbook balance from cash book balance",
+    "prepare bank reconciliation statement with positive cash book balance",
+    "calculate reconciliation from favourable cash book balance for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate total additions",
+     "explain": "Sum up unpresented cheques issued and direct bank credits like interest or dividends.",
+     "compute": "total_additions = cheques_issued_unpresented + direct_credits"
+    },
+    {
+     "step": 2,
+     "action": "Calculate total deductions",
+     "explain": "Sum up uncleared deposited cheques and direct bank debits like bank charges.",
+     "compute": "total_deductions = cheques_deposited_uncleared + direct_debits"
+    },
+    {
+     "step": 3,
+     "action": "Determine passbook balance",
+     "explain": "Add total additions to cash book balance and subtract total deductions.",
+     "compute": "passbook_balance = cash_book_balance + total_additions - total_deductions"
+    }
+   ]
+  },
+  {
+   "id": "keac.105.3",
+   "title": "Reconciliation from Favourable Pass Book Balance",
+   "section": "5.2.1(a)",
+   "definition": "Determining the cash book balance starting from a positive credit balance in the bank passbook.",
+   "formula": "cash_book_balance = passbook_balance + cheques_deposited_uncleared + direct_debits - cheques_issued_unpresented - direct_credits",
+   "key_idea": "Reverse the treatment used when starting from cash book balance.",
+   "textbook_ref": "keac105.txt lines 150-180",
+   "question_patterns": [
+    "calculate cash book balance given passbook credit balance",
+    "find balance as per cash book starting from passbook balance",
+    "compute cash book balance from passbook balance",
+    "prepare bank reconciliation statement starting with passbook balance",
+    "calculate reconciliation from favourable pass book balance for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate total additions",
+     "explain": "Sum up uncleared deposited cheques and direct debits made by the bank.",
+     "compute": "total_additions = cheques_deposited_uncleared + direct_debits"
+    },
+    {
+     "step": 2,
+     "action": "Calculate total deductions",
+     "explain": "Sum up unpresented cheques issued and direct credits collected by the bank.",
+     "compute": "total_deductions = cheques_issued_unpresented + direct_credits"
+    },
+    {
+     "step": 3,
+     "action": "Determine cash book balance",
+     "explain": "Add total additions to passbook balance and subtract total deductions.",
+     "compute": "cash_book_balance = passbook_balance + total_additions - total_deductions"
+    }
+   ],
+   "worked_examples": [
+    {
+     "id": "ex_re_keac.105.3_1",
+     "source_ref": "review enrichment (arithmetically verified)",
+     "concept": "keac.105.3",
+     "question_type": "compute",
+     "extracted_variables": {
+      "cheques_deposited_uncleared": "10",
+      "cheques_issued_unpresented": "10",
+      "direct_credits": "10",
+      "direct_debits": "10",
+      "passbook_balance": "10"
+     },
+     "solution_template": [
+      {
+       "step": 1,
+       "action": "Calculate total additions",
+       "explain": "Sum up uncleared deposited cheques and direct debits made by the bank.",
+       "compute": "total_additions = cheques_deposited_uncleared + direct_debits"
+      },
+      {
+       "step": 2,
+       "action": "Calculate total deductions",
+       "explain": "Sum up unpresented cheques issued and direct credits collected by the bank.",
+       "compute": "total_deductions = cheques_issued_unpresented + direct_credits"
+      },
+      {
+       "step": 3,
+       "action": "Determine cash book balance",
+       "explain": "Add total additions to passbook balance and subtract total deductions.",
+       "compute": "cash_book_balance = passbook_balance + total_additions - total_deductions"
+      }
+     ],
+     "question_pattern": "calculate cash book balance given passbook credit balance (given {cheques_deposited_uncleared}, {cheques_issued_unpresented}, {direct_credits}, {direct_debits}, {passbook_balance})"
+    }
+   ]
+  },
+  {
+   "id": "keac.105.4",
+   "title": "Reconciliation from Cash Book Overdraft Balance",
+   "section": "5.2.1(b)",
+   "definition": "Calculating passbook overdraft balance starting from a credit (unfavourable) balance in the cash book.",
+   "formula": "passbook_overdraft = cash_book_overdraft + cheques_deposited_uncleared + direct_debits - cheques_issued_unpresented - direct_credits",
+   "key_idea": "Items increasing bank draft/liability are added while items reducing overdraft are deducted.",
+   "textbook_ref": "keac105.txt lines 185-215",
+   "question_patterns": [
+    "calculate passbook balance given overdraft as per cash book",
+    "find overdraft as per passbook starting from cash book credit balance",
+    "compute bank statement balance starting from cash book overdraft",
+    "prepare BRS with credit balance as per cash book",
+    "calculate reconciliation from cash book overdraft balance for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate total additions to overdraft",
+     "explain": "Add cheques deposited but not collected and charges debited by bank.",
+     "compute": "total_additions = cheques_deposited_uncleared + direct_debits"
+    },
+    {
+     "step": 2,
+     "action": "Calculate total deductions from overdraft",
+     "explain": "Subtract cheques issued but not presented and direct collections by bank.",
+     "compute": "total_deductions = cheques_issued_unpresented + direct_credits"
+    },
+    {
+     "step": 3,
+     "action": "Determine passbook overdraft balance",
+     "explain": "Add additions to cash book overdraft and subtract deductions.",
+     "compute": "passbook_overdraft = cash_book_overdraft + total_additions - total_deductions"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate passbook balance given overdraft as per cash book (take cash_book_overdraft = 10, cheques_deposited_uncleared = 10, cheques_issued_unpresented = 10, direct_credits = 10, direct_debits = 10)",
+     "solution": "Applying the concept's compute chain with cash_book_overdraft = 10, cheques_deposited_uncleared = 10, cheques_issued_unpresented = 10, direct_credits = 10, direct_debits = 10 gives 10.0.",
+     "answer": "10.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.105.5",
+   "title": "Reconciliation from Pass Book Overdraft Balance",
+   "section": "5.2.1(b)",
+   "definition": "Calculating cash book balance or overdraft starting from a debit (unfavourable) balance in the passbook.",
+   "formula": "cash_book_overdraft = passbook_overdraft + cheques_issued_unpresented + direct_credits - cheques_deposited_uncleared - direct_debits",
+   "key_idea": "Reverse the operations applied for cash book overdraft balance.",
+   "textbook_ref": "keac105.txt lines 215-250",
+   "question_patterns": [
+    "calculate cash book balance given overdraft as per passbook",
+    "find overdraft as per cash book starting from passbook debit balance",
+    "compute cash book overdraft from passbook overdraft balance",
+    "prepare BRS starting with overdraft as per passbook",
+    "calculate reconciliation from pass book overdraft balance for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate total additions to passbook overdraft",
+     "explain": "Add cheques issued but not presented and direct credits made by bank.",
+     "compute": "total_additions = cheques_issued_unpresented + direct_credits"
+    },
+    {
+     "step": 2,
+     "action": "Calculate total deductions from passbook overdraft",
+     "explain": "Subtract cheques deposited but not cleared and direct debits made by bank.",
+     "compute": "total_deductions = cheques_deposited_uncleared + direct_debits"
+    },
+    {
+     "step": 3,
+     "action": "Determine cash book overdraft balance",
+     "explain": "Add additions to passbook overdraft and subtract deductions.",
+     "compute": "cash_book_overdraft = passbook_overdraft + total_additions - total_deductions"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "calculate cash book balance given overdraft as per passbook (take cheques_deposited_uncleared = 10, cheques_issued_unpresented = 10, direct_credits = 10, direct_debits = 10, passbook_overdraft = 10)",
+     "solution": "Applying the concept's compute chain with cheques_deposited_uncleared = 10, cheques_issued_unpresented = 10, direct_credits = 10, direct_debits = 10, passbook_overdraft = 10 gives 10.0.",
+     "answer": "10.0"
+    },
+    {
+     "question": "calculate cash book balance given overdraft as per passbook (take cheques_deposited_uncleared = 10, cheques_issued_unpresented = 10, direct_credits = 10, direct_debits = 10, passbook_overdraft = 2)",
+     "solution": "Applying the concept's compute chain with cheques_deposited_uncleared = 10, cheques_issued_unpresented = 10, direct_credits = 10, direct_debits = 10, passbook_overdraft = 2 gives 2.0.",
+     "answer": "2.0"
+    }
+   ]
+  },
+  {
+   "id": "keac.105.6",
+   "title": "Timing Differences in Bank Transactions",
+   "section": "5.1.1",
+   "definition": "Variances caused by the difference in time of entering a transaction in the firm's cash book versus bank's ledger.",
+   "formula": "time_lag = transaction_date_passbook - transaction_date_cashbook",
+   "key_idea": "Discrepancies arise naturally due to processing delay for cheques clearing, direct deposits, or standing instructions.",
+   "textbook_ref": "keac105.txt lines 60-110",
+   "question_patterns": [
+    "identify timing differences between cash book and passbook",
+    "state causes of difference due to time gap",
+    "explain why unpresented cheques cause difference in balance",
+    "what are time lag differences in bank reconciliation",
+    "explain timing differences in bank transactions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify event",
+     "explain": "Check if transaction was recorded in one book but delayed in another due to clearance or notification gap."
+    },
+    {
+     "step": 2,
+     "action": "Classify timing factor",
+     "explain": "Determine if it relates to uncollected cheques, unpresented cheques, direct collections, or standing orders."
+    }
+   ]
+  },
+  {
+   "id": "keac.105.7",
+   "title": "Errors in Cash Book and Bank Pass Book",
+   "section": "5.1.2",
+   "definition": "Inconsistencies resulting from incorrect recording, omission, or casting errors made by the firm or the bank.",
+   "formula": "error_amount = recorded_amount - actual_amount",
+   "key_idea": "Clerical mistakes in recording numbers or sides in cash book/passbook lead to balance differences.",
+   "textbook_ref": "keac105.txt lines 110-130",
+   "question_patterns": [
+    "identify errors committed by firm or bank",
+    "explain errors causing difference between cash book and passbook",
+    "how to adjust wrong recording of cheques in cash book",
+    "state examples of bank errors and cash book errors",
+    "explain errors in cash book and bank pass book"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Locate mistake",
+     "explain": "Find whether the wrong entry, double entry, or casting error occurred in the cash book or passbook."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate impact",
+     "explain": "Determine if the error inflated or deflated the cash book or passbook balance relative to the correct figure."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Illustration 1, Page 168",
+   "concept": "keac.105.2",
+   "question_type": "compute",
+   "question_pattern": "From the following particulars of Mr. Vinod, prepare bank reconciliation statement as on March 31, 2017: Bank balance as per cash book {cash_book_balance}, Cheques issued but not presented {cheques_issued_unpresented}, Dividends collected by bank {direct_credits}, Cheque deposited but not collected {cheques_deposited_uncleared}, Bank charges {direct_debits}.",
+   "extracted_variables": {
+    "cash_book_balance": 50000,
+    "cheques_issued_unpresented": 6000,
+    "direct_credits": 8000,
+    "cheques_deposited_uncleared": 6000,
+    "direct_debits": 400
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate total additions",
+     "explain": "Sum of cheques issued but not presented and dividend collected by bank.",
+     "compute": "total_additions = cheques_issued_unpresented + direct_credits"
+    },
+    {
+     "step": 2,
+     "action": "Calculate total deductions",
+     "explain": "Sum of cheques deposited but not credited and bank charges.",
+     "compute": "total_deductions = cheques_deposited_uncleared + direct_debits"
+    },
+    {
+     "step": 3,
+     "action": "Determine passbook balance",
+     "explain": "Add total additions to cash book balance and subtract total deductions.",
+     "compute": "passbook_balance = cash_book_balance + total_additions - total_deductions"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Illustration 2, Page 168",
+   "concept": "keac.105.2",
+   "question_type": "compute",
+   "question_pattern": "Prepare bank reconciliation statement of Anil & Co. as on August 31, 2017: Balance as per cash book {cash_book_balance}, Incidental charges debited by bank {direct_debits}, Cheques deposited but not collected {cheques_deposited_uncleared}, Cheque issued but not presented {cheques_issued_unpresented}.",
+   "extracted_variables": {
+    "cash_book_balance": 54000,
+    "direct_debits": 100,
+    "cheques_deposited_uncleared": 5400,
+    "cheques_issued_unpresented": 20000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate total additions",
+     "explain": "Cheques issued but not presented.",
+     "compute": "total_additions = cheques_issued_unpresented + 0"
+    },
+    {
+     "step": 2,
+     "action": "Calculate total deductions",
+     "explain": "Sum of cheques deposited not credited and bank incidental charges.",
+     "compute": "total_deductions = cheques_deposited_uncleared + direct_debits"
+    },
+    {
+     "step": 3,
+     "action": "Determine passbook balance",
+     "explain": "Add total additions to cash book balance and subtract total deductions.",
+     "compute": "passbook_balance = cash_book_balance + total_additions - total_deductions"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "Illustration 3, Page 169",
+   "concept": "keac.105.3",
+   "question_type": "compute",
+   "question_pattern": "The bank passbook of M/s. Boss & Co. showed a balance of {passbook_balance} on May 31, 2017. Cheques issued not presented {cheques_issued_unpresented}, Cheques deposited not credited {cheques_deposited_uncleared}, Cheque dishonoured debited in passbook {direct_debits}. Find cash book balance.",
+   "extracted_variables": {
+    "passbook_balance": 45000,
+    "cheques_issued_unpresented": 25940,
+    "cheques_deposited_uncleared": 6250,
+    "direct_debits": 2500
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate total additions",
+     "explain": "Sum of cheques deposited not credited and dishonoured cheque debited.",
+     "compute": "total_additions = cheques_deposited_uncleared + direct_debits"
+    },
+    {
+     "step": 2,
+     "action": "Calculate total deductions",
+     "explain": "Cheques issued but not presented.",
+     "compute": "total_deductions = cheques_issued_unpresented + 0"
+    },
+    {
+     "step": 3,
+     "action": "Determine cash book balance",
+     "explain": "Add total additions to passbook balance and subtract total deductions.",
+     "compute": "cash_book_balance = passbook_balance + total_additions - total_deductions"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "Illustration 4, Page 169",
+   "concept": "keac.105.4",
+   "question_type": "compute",
+   "question_pattern": "Rakesh had an overdraft of {cash_book_overdraft} as shown by cash book. Cheques paid in not collected {cheques_deposited_uncleared}, Cheques issued not presented {cheques_issued_unpresented}, Debit in passbook for interest and bank charges {direct_debits}. Find passbook overdraft.",
+   "extracted_variables": {
+    "cash_book_overdraft": 8000,
+    "cheques_deposited_uncleared": 2000,
+    "cheques_issued_unpresented": 800,
+    "direct_debits": 160
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate total additions to overdraft",
+     "explain": "Sum of cheques deposited but uncollected and interest/bank charges.",
+     "compute": "total_additions = cheques_deposited_uncleared + direct_debits"
+    },
+    {
+     "step": 2,
+     "action": "Calculate total deductions from overdraft",
+     "explain": "Cheques issued but not presented.",
+     "compute": "total_deductions = cheques_issued_unpresented + 0"
+    },
+    {
+     "step": 3,
+     "action": "Determine passbook overdraft",
+     "explain": "Add additions to cash book overdraft and subtract deductions.",
+     "compute": "passbook_overdraft = cash_book_overdraft + total_additions - total_deductions"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex105.1",
+   "source_ref": "Numerical Questions 1, Page 174",
+   "questions": [
+    "From the following particulars, prepare a bank reconciliation statement as at March 31, 2017: (i) Balance as per cash book Rs 3,200 (ii) Cheque issued but not presented for payment Rs 1,800 (iii) Cheque deposited but not collected upto March 31, 2017 Rs 2,000 (iv) Bank charges debited by bank Rs 150."
+   ]
+  },
+  {
+   "id": "ex105.2",
+   "source_ref": "Numerical Questions 2, Page 175",
+   "questions": [
+    "On March 31, 2017 the cash book showed a balance of Rs 3,700 as cash at bank, but the bank passbook made up to same date showed that cheques for Rs 700, Rs 300 and Rs 180 respectively had not presented for payment, Also, a cheque amounting to Rs 1,200 deposited into the account had not been credited. Prepare a bank reconciliation statement."
+   ]
+  },
+  {
+   "id": "ex105.3",
+   "source_ref": "Numerical Questions 3, Page 175",
+   "questions": [
+    "The cash book shows a bank balance of Rs 7,800. Discrepancies: (a) Cheque deposited in bank but not credited Rs 3,000 (b) Cheque issued but not yet present for payment Rs 1,500 (c) Insurance premium paid by the bank Rs 2,000 (d) Bank interest credit by the bank Rs 400 (e) Bank charges Rs 100 (f) Directly deposited by a customer Rs 4,000. Prepare BRS."
+   ]
+  },
+  {
+   "id": "ex105.4",
+   "source_ref": "Numerical Questions 4, Page 175",
+   "questions": [
+    "Bank balance of Rs 40,000 showed by cash book of Atul on December 31, 2016. Cheques of Rs 2,000, Rs 5,000 and Rs 8,000 deposited were not credited till January 02, 2017. Cheques of Rs 7,000 and Rs 8,000 issued were not presented till January 03, 2017. Bank credited Rs 325 as interest and debited Rs 50 for bank charges not in cash book. Prepare BRS."
+   ]
+  },
+  {
+   "id": "ex105.5",
+   "source_ref": "Numerical Questions 5, Page 175",
+   "questions": [
+    "Cash book bank balance Rs 40,960 on March 31, 2017. Items: (a) Bank charges Rs 100 not in cash book. (b) Debtor paid Rs 2,000 directly to bank not in cash book. (c) Cheques totaling Rs 12,980 issued not presented. (d) Bill for Rs 6,900 discounted entered in cash book without discount charge of Rs 800. (e) Rs 3,520 deposited not credited. (f) Dishonour of cheque Rs 650 not in cash book. Prepare BRS."
+   ]
+  },
+  {
+   "id": "ex105.6",
+   "source_ref": "Numerical Questions 6, Page 176",
+   "questions": [
+    "Prepare BRS on Dec 31, 2017. Passbook balance Rs 7,000. (a) Cheque Rs 1,000 directly deposited by customer. (b) Bank credited Rs 700 interest. (c) Out of Rs 3,000 cheques issued, Rs 1,000 not presented. Find cash book balance."
+   ]
+  },
+  {
+   "id": "ex105.7",
+   "source_ref": "Numerical Questions 7, Page 176",
+   "questions": [
+    "Prepare BRS showing balance as per cash book on Dec 31, 2016. Passbook balance Rs 50,000. (a) Cheques Rs 2,000 and Rs 5,000 paid in October not credited till Dec. (b) Cheque Rs 800 entered in cash book omitted to be banked. (c) Cheques Rs 10,000 issued in Nov not credited. (d) Interest on investment Rs 1,000 collected by bank."
+   ]
+  },
+  {
+   "id": "ex105.8",
+   "source_ref": "Numerical Questions 8, Page 176",
+   "questions": [
+    "Passbook balance of Mr. Kumar Rs 3,000. (a) Cheques paid in not cleared: Ram Kumar Rs 1,000, Kishore Kumar Rs 500. (b) Bank charges Rs 300. (c) Cheques issued not presented: Hameed Rs 2,000, Kapoor Rs 500. (d) Interest in passbook not in cash book Rs 100. Prepare BRS."
+   ]
+  },
+  {
+   "id": "ex105.9",
+   "source_ref": "Numerical Questions 9, Page 176",
+   "questions": [
+    "Passbook current account credit balance Rs 20,000 on Dec 31, 2016. (i) Cheque Rs 400 drawn on savings account shown in current account. (ii) Issued two cheques Rs 300 and Rs 500, only 1st presented. (iii) Cheque of Rs 500 issued not presented but recorded twice in cash book. Find cash book balance."
+   ]
+  },
+  {
+   "id": "ex105.10",
+   "source_ref": "Numerical Questions 10, Page 177",
+   "questions": [
+    "On Jan 1, 2017, Rakesh had overdraft Rs 8,000 in cash book. Cheques Rs 2,000 paid in not collected. Issued cheques Rs 800 not presented. Passbook debit of Rs 60 interest and Rs 100 bank charges. Prepare BRS."
+   ]
+  },
+  {
+   "id": "ex105.11",
+   "source_ref": "Numerical Questions 11, Page 177",
+   "questions": [
+    "Prepare BRS: (i) Overdraft as per cash book on Dec 31, 2017 Rs 10,000. (ii) Bank charges debited Rs 100. (iii) Interest on overdraft debited Rs 380. (iv) Cheques issued not encashed Rs 2,150. (v) Interest on investment collected Rs 600. (vi) Cheques paid in not cleared Rs 1,100."
+   ]
+  },
+  {
+   "id": "ex105.12",
+   "source_ref": "Numerical Questions 12, Page 177",
+   "questions": [
+    "Kumar's cash book shows credit balance Rs 90,600 on Dec 31, 2017. Post-dated cheque Rs 1,000 debited in cash book not presented. Cheque Rs 8,000 drawn not presented. Cheques Rs 1,500 deposited not collected. Cheque Rs 5,000 dishonoured. Find passbook overdraft."
+   ]
+  },
+  {
+   "id": "ex105.13",
+   "source_ref": "Numerical Questions 13, Page 177",
+   "questions": [
+    "Cash book overdraft Rs 6,920 on Dec 31, 2017. (1) Debited by bank Rs 200 interest on overdraft and Rs 50 collection charges. (2) Cheques drawn not encashed Rs 4,000. (3) Bank collected interest credited Rs 600. (4) Bill discounted dishonoured debited Rs 700. (5) Cheques paid in not collected Rs 6,000. Find passbook balance."
+   ]
+  },
+  {
+   "id": "ex105.14",
+   "source_ref": "Numerical Questions 14, Page 178",
+   "questions": [
+    "Prepare BRS of Shri Bhandari as on March 31, 2017. Passbook overdraft Rs 20,000. (i) Cheque payment Rs 550 recorded twice in passbook. (ii) Passbook withdrawal column undercast by Rs 200. (iii) Cheque Rs 200 debited in cash book not sent to bank. (iv) Cheque Rs 300 debited in cash book not sent to bank. (v) Dishonoured cheque Rs 500 in passbook not in cash book. Find cash book overdraft."
+   ]
+  },
+  {
+   "id": "ex105.15",
+   "source_ref": "Numerical Questions 15, Page 178",
+   "questions": [
+    "Passbook overdraft of Mr. Murli is Rs 20,000 on March 31, 2017. (i) Bank charges debited Rs 500. (ii) Cheques recorded in cash book not sent to bank Rs 2,500. (iii) Direct payment from customer Rs 4,600. (iv) Cheque issued not presented Rs 6,980. (v) Interest credited by bank Rs 100. (vi) LIC paid by bank Rs 2,500. (vii) Cheques deposited not collected Rs 3,500. Find cash book overdraft."
+   ]
+  },
+  {
+   "id": "ex105.16",
+   "source_ref": "Numerical Questions 16, Page 178",
+   "questions": [
+    "Raghav & Co. Account No. I: Overdraft as per passbook Rs 18,990 on March 31, 2017. (i) Cheques paid in not credited Rs 10,000. (ii) Fund transfer from Account II to Account I recorded by bank on March 31 but in cash book later Rs 8,000. (iii) Cheques issued not presented Rs 7,429. (iv) Bank charges not in cash book Rs 200. (v) Interest debited by bank not in cash book Rs 580. Find cash book balance."
+   ]
+  },
+  {
+   "id": "ex105.17",
+   "source_ref": "Numerical Questions 17, Page 178",
+   "questions": [
+    "Passbook balance overdrawn Rs 20,000 on March 31, 2017. (ii) Interest on overdraft not in cash book Rs 2,000. (iii) Insurance premium paid by bank Rs 200. (iv) Cheques drawn not cleared Rs 3,000 and Rs 3,500. (v) Cheques deposited not credited Rs 6,000. (vi) Wrongly debited by bank Rs 500. Find cash book balance."
+   ]
+  },
+  {
+   "id": "ex105.18",
+   "source_ref": "Numerical Questions 18, Page 179",
+   "questions": [
+    "Passbook overdraft Rs 40,950 on March 31, 2017. (i) Out of Rs 8,000 cheques drawn, Rs 3,000 encashed in April. (ii) Bank credited Rs 3,800 interest collected not in cash book. (iii) Out of Rs 10,900 paid in, cheques of Rs 3,800 collected in April. (iv) Cheque Rs 780 dishonoured debited in passbook on April 1 not recorded in cash book till April 15. Prepare BRS."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

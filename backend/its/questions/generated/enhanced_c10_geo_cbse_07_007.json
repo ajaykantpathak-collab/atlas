@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_07_007",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_07_007",
+   "title": "c10_geo_cbse_07_007",
+   "questions": [
+    {
+     "q": "What is the primary difference between personal communication and mass communication? Give one example of each from the Indian context.",
+     "a": "Personal communication involves direct exchange between two or more specific individuals (e.g., a phone call, a letter via India Post, a WhatsApp message). Mass communication disseminates information to a large, anonymous audience simultaneously (e.g., Doordarshan TV broadcast, All India Radio, a national newspaper like The Hindu). A wrong answer that confuses the two (e.g., calling a newspaper personal communication) reveals the student cannot distinguish the audience scale and directionality of information flow, a fundamental classification tested in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Why does India Post still remain relevant in the age of smartphones and internet, especially in rural and remote areas?",
+     "a": "India Post provides last-mile connectivity where private telecom/internet infrastructure is unviable, offers financial inclusion services (Post Office Savings Bank, Postal Life Insurance, India Post Payments Bank), and handles physical parcels (e-commerce, government documents) that digital communication cannot. A wrong answer focusing only on letters shows the student misses the multi-functional role of the postal network as a physical and financial infrastructure, a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Mobile telephony has solved India's communication gap completely.\" Using the concept of teledensity and the rural-urban divide, evaluate this statement with two specific pieces of evidence.",
+     "a": "The statement is false. Evidence 1: Urban teledensity exceeds 130% while rural teledensity is around 60% (TRAI data), showing a persistent digital divide. Evidence 2: Internet penetration in rural India is below 40%, limiting access to digital services like e-governance, online education, and digital payments. A wrong answer that ignores the rural-urban disparity or cites only national average teledensity reveals inability to analyze spatial inequality in infrastructure — a key geographical skill.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of All India Radio (AIR) and private FM radio stations in mass communication. How does their geographical reach and content mandate differ?",
+     "a": "AIR, as a public broadcaster, has near-universal geographical coverage (including border, tribal, and island areas) and a mandate for education, agriculture, disaster warnings, and national integration. Private FM stations are concentrated in urban metros (Tier-1/2 cities), focus on entertainment/advertising, and lack mandatory public service content. A wrong answer that treats them as identical ignores the public service obligation and spatial equity dimension central to India's communication policy.",
+     "self_check": true
+    },
+    {
+     "q": "Assess the impact of the Digital India programme on mass communication patterns in India. Is it sufficient to bridge the communication divide? Justify with two arguments.",
+     "a": "Digital India has expanded internet access (BharatNet, Common Service Centres) and promoted digital payments, e-governance, and online education, shifting mass communication toward interactive, on-demand digital platforms. However, it is insufficient alone because: (1) Digital literacy and device affordability remain low among elderly, women, and poor households; (2) Last-mile connectivity and electricity reliability in remote areas (Northeast, Himalayas, deserts) are still inadequate. A wrong answer that only lists benefits without critical evaluation shows lack of balanced geographical judgment.",
+     "self_check": true
+    },
+    {
+     "q": "Design a communication strategy for a new government scheme targeting farmers in a drought-prone district of Maharashtra. Specify which personal and mass communication channels you would use and why.",
+     "a": "A good answer combines: Mass channels — AIR local station (krishi programmes), Doordarshan regional channel, Marathi newspapers (wide reach, credibility), SMS advisories via mKisan portal. Personal channels — WhatsApp groups of Farmer Producer Organisations, calls from Kisan Call Centre (1800-180-1551), visits by postmen (India Post) delivering scheme forms. Justification must link channel choice to literacy levels, internet access, language, and trust. A poor answer that relies only on digital apps or only on TV reveals failure to match communication mode to the target audience's socio-geographical context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

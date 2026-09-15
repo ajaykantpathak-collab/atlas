@@ -1,0 +1,130 @@
+{
+ "catalog": "catalog_class11_biology_kebo112",
+ "concepts": [
+  {
+   "id": "kebo.112.1.1",
+   "title": "Glycolysis and Its Net ATP Gain",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Glycolysis and Its Net ATP Gain' refers to.",
+     "a": "Glycolysis is the partial oxidation of one glucose molecule to two molecules of pyruvic acid through ten enzymatic steps in the cytoplasm, producing a net gain of two ATP and two NADH under anaerobic conditions.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Glycolysis and Its Net ATP Gain'.",
+     "a": "Glycolysis splits hexose into two triose sugars through a prepatory phase using ATP and a payoff phase generating ATP and NADH, and it is common to aerobic and anaerobic respiration.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Glycolysis and Its Net ATP Gain' taught, and from which source text?",
+     "a": "12.2 Glycolysis (source: kebo112.txt section 12.2)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.112.2.1",
+   "title": "Fermentation: Anaerobic Fate of Pyruvate",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Fermentation: Anaerobic Fate of Pyruvate' refers to.",
+     "a": "Under anaerobic conditions pyruvic acid is reduced by NADH to lactic acid in muscles or to ethanol and carbon dioxide in yeast, and fermentation yields only a net gain of two ATP per glucose with far less energy released than aerobic respiration.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Fermentation: Anaerobic Fate of Pyruvate'.",
+     "a": "The enzymes pyruvic acid decarboxylase and alcohol dehydrogenase carry out alcoholic fermentation in yeast, and lactic acid fermentation happens in muscle cells during exercise.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Fermentation: Anaerobic Fate of Pyruvate' taught, and from which source text?",
+     "a": "12.3 Fermentation (source: kebo112.txt section 12.3)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.112.3.1",
+   "title": "Aerobic Respiration: Link Reaction, Krebs Cycle and ETS Net ATP",
+   "questions": [
+    {
+     "q": "How many atp are produced from one glucose molecule in aerobic respiration? Use the method 'Aerobic Respiration: Link Reaction, Krebs Cycle and ETS Net ATP'. Work with: glucose_molecules = 100. Carry the chain through step by step and give the final value of net_atp.",
+     "a": "3800 units",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the total atp from a given number of glucose molecules oxidised. Use the method 'Aerobic Respiration: Link Reaction, Krebs Cycle and ETS Net ATP'. Work with: glucose_molecules = 300. Carry the chain through step by step and give the final value of net_atp.",
+     "a": "11400 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Aerobic Respiration: Link Reaction, Krebs Cycle and ETS Net ATP' refers to.",
+     "a": "Aerobic respiration oxidises pyruvate through the link reaction forming acetyl CoA, the Krebs cycle in the mitochondrial matrix, and the electron transport system on the inner membrane with oxidative phosphorylation, giving a net gain of thirty-eight ATP molecules from one glucose molecule.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Aerobic Respiration: Link Reaction, Krebs Cycle and ETS Net ATP'.",
+     "a": "The complete oxidation of one glucose through glycolysis, link reaction, Krebs cycle and ETS accounts for thirty-eight ATP, with most ATP arising from NADH and FADH2 oxidation in oxidative phosphorylation.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Aerobic Respiration: Link Reaction, Krebs Cycle and ETS Net ATP', in plain ASCII form.",
+     "a": "net_atp = glucose_molecules * 38",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.112.4.1",
+   "title": "Respiratory Quotient of Substrates",
+   "questions": [
+    {
+     "q": "Using the method 'Respiratory Quotient of Substrates', work with: co2_released = 5, o2_consumed = 400. Carry the chain through step by step and give the final value of rq.",
+     "a": "0.0125 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Respiratory Quotient of Substrates' and work with: co2_released = 4, o2_consumed = 400. Carry the chain through step by step and give the final value of rq.",
+     "a": "0.01 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Respiratory Quotient of Substrates' refers to.",
+     "a": "The respiratory quotient is the ratio of the volume of carbon dioxide released to the volume of oxygen consumed in respiration, and it equals one for carbohydrates, is less than one for fats and proteins, and can exceed one for organic acids.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Respiratory Quotient of Substrates'.",
+     "a": "The RQ of germinating fats like castor seeds is less than one because fat oxidation consumes more oxygen than the carbon dioxide it releases, while succulents show RQ of zero in daylight.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Respiratory Quotient of Substrates', in plain ASCII form.",
+     "a": "rq = co2_released / o2_consumed",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.112.5.1",
+   "title": "Amphibolic Pathway and Respiratory Balance Sheet",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Amphibolic Pathway and Respiratory Balance Sheet' refers to.",
+     "a": "Respiration is an amphibolic pathway because the respiratory intermediates serve both catabolism and anabolism, and the respiratory balance sheet is theoretical since ATP amounts depend on the shuttle of electrons, the mitochondrial state and the pathway taken.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Amphibolic Pathway and Respiratory Balance Sheet'.",
+     "a": "Acetyl CoA drawn from fats, carbohydrates and proteins enters the same Krebs cycle, proving the amphibolic nature of respiration.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Amphibolic Pathway and Respiratory Balance Sheet' taught, and from which source text?",
+     "a": "12.4.4 The Respiratory Balance Sheet, 12.4.5 Amphibolic Pathway (source: kebo112.txt sections 12.4.4, 12.4.5)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_08_001",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_08_001",
+   "title": "c11_phy_cbse_08_001",
+   "questions": [
+    {
+     "q": "A steel rod of cross-sectional area 2.5 cm² is subjected to a tensile force of 10 kN. What is the magnitude of stress developed in the rod? Express your answer in pascals.",
+     "a": "4.0 × 10⁷ Pa. A wrong answer like 4.0 × 10³ Pa reveals the student forgot to convert cm² to m² (1 cm² = 10⁻⁴ m²). An answer of 2.5 × 10⁷ Pa indicates they used area as 4 cm² instead of 2.5 cm². The correct unit analysis: F = 10⁴ N, A = 2.5 × 10⁻⁴ m² → σ = 10⁴ / 2.5 × 10⁻⁴ = 4.0 × 10⁷ N·m⁻².",
+     "self_check": true
+    },
+    {
+     "q": "Why is stress considered a scalar quantity even though it originates from a vector force? Explain using the definition of stress at a point on a cross-sectional plane.",
+     "a": "Stress is scalar because it is defined as the magnitude of the restoring force per unit area acting normal (for normal stress) or tangential (for shear stress) to a specific plane. At a given point on a given plane, the direction is fixed by the plane's orientation (normal or tangential), so only magnitude matters. A wrong answer claiming \"stress is a vector because force is a vector\" shows confusion between force (vector acting on a body) and stress (intensity of internal force on a specific plane). The key is that stress is associated with a plane, not a direction in space.",
+     "self_check": true
+    },
+    {
+     "q": "A cylindrical aluminum rod of radius 4 mm and length 50 cm is compressed by a force of 500 N along its axis. Calculate the compressive stress in the rod. If the same force is applied tangentially to the top face while the bottom face is fixed, what type of stress develops and what is its magnitude?",
+     "a": "Compressive stress = 9.95 × 10⁶ Pa; Shearing stress = 9.95 × 10⁶ Pa. Steps: Area = πr² = π(4×10⁻³)² = 5.027×10⁻⁵ m². σ = F/A = 500 / 5.027×10⁻⁵ = 9.95×10⁶ Pa. Same magnitude because area is identical. A wrong answer with different magnitudes for the two cases reveals the student thinks the area changes with force direction. The cross-sectional area perpendicular to the force is the same in both cases (circular face).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the stress developed in two wires of the same material and length: Wire A has radius 1 mm, Wire B has radius 2 mm. Both are stretched by the same force of 100 N. Which wire experiences greater stress and by what factor? Relate this to the design of crane cables.",
+     "a": "Wire A experiences 4 times greater stress than Wire B. Stress ∝ 1/r². r_A = 1 mm, r_B = 2 mm → (r_B/r_A)² = 4. Crane cables use multiple thin wires braided together (like pigtails) rather than a single thick rod to increase total cross-sectional area for a given radius, reducing stress and preventing permanent deformation. A wrong answer saying \"same stress because same force\" ignores the area dependence. This tests understanding of σ = F/A and engineering application.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Hydraulic stress is just compressive stress applied from all sides, so it's the same as compressive stress.\" Evaluate this statement. Is it correct? Justify your answer with reference to the nature of the deforming force and the resulting strain.",
+     "a": "The statement is incorrect. Hydraulic stress (pressure) acts perpendicular to the surface at every point, is uniform in all directions, and produces volumetric strain (ΔV/V) without shape change. Compressive stress acts only along one axis (normal to opposite faces), produces longitudinal strain (ΔL/L), and changes shape (length decreases, lateral dimensions may increase via Poisson effect). A wrong evaluation accepting the statement shows confusion between uniaxial and hydrostatic stress states. The key distinction: hydraulic stress is isotropic (same in all directions), compressive stress is anisotropic.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate the difference between shearing stress and tensile stress. List materials, procedure, and what you would observe to distinguish the two types of stress.",
+     "a": "Materials: Rubber eraser, two wooden blocks, heavy book, spring balance. Procedure: (1) Tensile: Glue eraser between two blocks, pull blocks apart with spring balance — observe elongation. (2) Shearing: Fix bottom block to table, apply horizontal force to top block — observe sideways displacement without length change. Observation: Tensile stress increases length; shearing stress changes shape (angle). A poor answer using only stretching for both shows inability to visualize tangential force application. The eraser's rectangular shape makes shear deformation (parallelogram) clearly visible.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

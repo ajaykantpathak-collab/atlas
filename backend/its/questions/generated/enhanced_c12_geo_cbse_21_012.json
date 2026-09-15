@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_21_012",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_21_012",
+   "title": "c12_geo_cbse_21_012",
+   "questions": [
+    {
+     "q": "What are the two primary spatial data formats used in GIS, and which one is more compatible with satellite imagery?",
+     "a": "The two primary formats are **raster** (grid of cells/pixels) and **vector** (points, lines, polygons defined by coordinates). **Raster** is more compatible with satellite imagery because satellite sensors capture data as a regular grid of pixels.  \nA wrong answer (e.g., saying vector is better for satellite imagery) reveals the student confuses the *native format of remote sensing data* (raster) with the *format preferred for precise boundary representation* (vector). This is a common trap in board MCQs.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the NCERT textbook use the Aligarh urban land-use change (1974 vs. 2001) as an example of **overlay analysis** rather than buffer analysis?",
+     "a": "Overlay analysis combines *two thematic layers of the same area from different times* to detect **changes** (e.g., urban expansion, land transformation). Buffer analysis creates **proximity zones** around features (e.g., distance from hospitals). Aligarh's comparison of two land-use maps requires overlaying them pixel-by-pixel or polygon-by-polygon to identify *what changed where* — a classic change-detection application.  \nIf a student says \"buffer analysis shows change over time,\" they confuse **temporal comparison** (overlay) with **spatial proximity** (buffer). This distinction is frequently tested in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "A planner wants to identify all villages within 5 km of a proposed highway alignment in Madhya Pradesh to assess land acquisition impact. The highway alignment is a vector line layer; village boundaries are a vector polygon layer. Which GIS operation should be used, and what will the output geometry be?",
+     "a": "**Operation:** Buffer analysis on the highway line layer with a 5 km distance.  \n**Output geometry:** A **polygon** layer (buffer zone) around the line. The planner then performs an **overlay (intersect)** between this buffer polygon and the village polygon layer to list affected villages.  \nSteps:  \n1. Load highway line layer (projected coordinate system, metres).  \n2. Run Buffer tool: distance = 5000 m, dissolve = yes.  \n3. Load village polygon layer (same projection).  \n4. Run Intersect tool: buffer polygon ∩ village polygons → output polygon layer with attributes of both.  \n5. Export attribute table for village names, area, population.  \nA wrong answer (e.g., \"use overlay directly without buffer\") shows the student does not understand that **buffer creates the proximity zone** which is then overlaid. Board exams often ask for the *sequence* of operations.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the suitability of **raster** vs. **vector** data for the following three Indian applications. Justify each choice in one sentence.  \n(a) Monitoring daily flood extent in the Brahmaputra floodplain using Sentinel-1 SAR imagery.  \n(b) Mapping the exact boundary of a new wildlife corridor between Kanha and Pench tiger reserves.  \n(c) Calculating the shortest road distance from every village in a district to the nearest Primary Health Centre.",
+     "a": "(a) **Raster** — SAR imagery is natively raster; flood extent is a continuous phenomenon best represented as a grid of water/non-water pixels.  \n(b) **Vector** — Legal/administrative boundaries require precise coordinates and topology; vector polygons maintain exact edges and allow attribute attachment (e.g., legal status).  \n(c) **Vector** — Network analysis (shortest path) relies on graph topology (nodes, edges, connectivity) which is native to vector line networks; raster network analysis is approximate and computationally heavier.  \nA wrong assignment (e.g., vector for flood extent) reveals the student does not link **data nature** (continuous vs. discrete) and **analysis type** (overlay vs. network) to format choice — a key competency in CUET/JEE-style geography questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: *\"Bhuvan, India's geoportal, makes GIS accessible to every citizen, so we no longer need to teach GIS concepts in schools.\"* Consider data democracy, analytical capability, and decision-support.",
+     "a": "**Evaluation: The statement is false.**  \n**Reasoning:**  \n1. **Data access ≠ analytical skill** — Bhuvan provides *visualisation* and *pre-processed layers* (e.g., land use, soil, groundwater). It does not let users perform custom overlay, buffer, or network analysis without understanding GIS concepts (projection, topology, attribute linkage).  \n2. **Decision-support requires modelling** — A farmer checking soil moisture on Bhuvan gets a map; a planner designing a watershed project must *integrate* slope, soil, rainfall, and land use — which demands knowledge of *how* overlay works, *why* projection matters, and *what* errors arise from mismatched scales.  \n3. **Critical thinking** — Without understanding raster/vector trade-offs, metadata, and error propagation, users misinterpret Bhuvan outputs (e.g., treating a 30 m pixel as exact field boundary).  \nA student who agrees shows **uncritical acceptance of technology** — a common pitfall in competency questions that test \"evaluating the role of technology in governance.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-project for your Class 12 practical file: *Use Bhuvan to map the change in water-body area of a local lake/reservoir over the last 10 years and suggest one management action.* Outline the **exact steps** you would perform on Bhuvan, the **data layers** you would use, and the **output** you would submit.",
+     "a": "**Expected answer structure (not a single right answer, but must include):**  \n1. **Problem definition:** Select a lake (e.g., Chilika, Kolleru, or a local reservoir).  \n2. **Data acquisition on Bhuvan:**  \n   - Open Bhuvan → \"Thematic Services\" → \"Water Resources\" → \"Water Body Extent\" (or use \"Time Series\" if available).  \n   - Download two layers: *earliest available* (e.g., 2014) and *latest* (e.g., 2024) — both as shapefiles or GeoTIFFs.  \n3. **Pre-processing (if needed):** Reproject to same CRS (WGS 84 / UTM zone), clip to lake boundary.  \n4. **Change detection (overlay):** In QGIS (or Bhuvan's analysis tool if enabled):  \n   - Load both layers → Intersect / Difference → calculate area loss/gain.  \n   - Create a *change map* (three classes: persistent water, lost water, new water).  \n5. **Quantify:** Attribute table → sum area for each class → percentage change.  \n6. **Management action:** Based on pattern (e.g., shrinkage due to encroachment → \"demarcate and fence buffer zone\"; sedimentation → \"desilting plan\").  \n7. **Output for practical file:**  \n   - Screenshots of Bhuvan layers with metadata.  \n   - Change map with legend, scale, north arrow.  \n   - Table of area statistics.  \n   - One-paragraph recommendation with geographic justification.  \nA poor answer skips metadata, uses only visual comparison without quantification, or suggests generic actions (\"save water\") without linking to the *spatial pattern* observed. This tests the **create** competency: designing a complete GIS workflow from problem to policy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

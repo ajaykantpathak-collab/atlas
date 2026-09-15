@@ -1,0 +1,243 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 5,
+ "chapter_title": "Measurement of Length and Motion",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fecu105.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fecu.5.1",
+   "title": "How Do We Measure?",
+   "section": "How do we measure",
+   "definition": "Measuring means comparing with a standard: hand spans and footsteps differ from person to person, so we need fixed units that give the same answer in every hand.",
+   "formula": "",
+   "key_idea": "A measurement is only as good as its unit: body measures vary, standard units do not.",
+   "textbook_ref": "fecu105.txt, How do we measure",
+   "question_patterns": [
+    "why are handspan and cubit not reliable units",
+    "what does it mean to measure a length",
+    "how would two people disagree using handspans",
+    "what makes a unit a standard unit",
+    "which units did elders use before metric units",
+    "measure your desk with two different units and compare"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "fecu.5.2",
+   "title": "Standard Units of Length",
+   "section": "Standard units",
+   "definition": "The world measures length in SI units: the metre is the standard unit, with centimetre and millimetre for small lengths and kilometre for great distances, each step a clean multiple of ten.",
+   "formula": "1 m = 100 cm, 1 cm = 10 mm, 1 km = 1000 m",
+   "key_idea": "One agreed unit ends all arguments: a metre in Delhi is a metre anywhere on earth.",
+   "textbook_ref": "fecu105.txt, Standard units",
+   "question_patterns": [
+    "what is the si unit of length",
+    "how many centimetres make a metre",
+    "which unit suits measuring the length of a pencil",
+    "which unit measures the distance between two towns",
+    "convert 250 cm into metres",
+    "why do scientists use standard units"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  },
+  {
+   "id": "fecu.5.3",
+   "title": "Correct Way of Measuring Length",
+   "section": "Correct way of measuring",
+   "definition": "Good measurement has rules: place the scale along the object, begin at the zero or a clear mark, keep the eye vertically above the reading, and if the scale is broken or worn, subtract the starting reading from the ending reading.",
+   "formula": "length = end_reading - start_reading",
+   "key_idea": "Parallax and offset are the two classic errors: eye straight above the mark, and difference cancels a missing zero.",
+   "textbook_ref": "fecu105.txt, Correct way of measuring",
+   "question_patterns": [
+    "why must the eye be directly above the scale",
+    "how do you measure with a broken scale",
+    "an object reads 1.0 cm to 10.4 cm what is its length",
+    "why should the scale lie along the object",
+    "what is the correct position of the eye while reading",
+    "why begin measuring from the zero mark"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the starting mark",
+     "explain": "Note where the object begins on the scale.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "read the ending mark",
+     "explain": "Note where the object ends on the scale.",
+     "compute": null
+    },
+    {
+     "step": 3,
+     "action": "subtract start from end",
+     "explain": "The difference is the length, safe even when the zero is missing.",
+     "compute": "length = end_mark - start_mark"
+    }
+   ]
+  },
+  {
+   "id": "fecu.5.4",
+   "title": "Describing Position and Types of Motion",
+   "section": "Position and motion",
+   "definition": "An object's position is stated from a chosen reference point, and motion is change of position with time; motion is classified as rectilinear in a straight line, circular about a fixed centre, rotational about an axis, or periodic, repeating at intervals.",
+   "formula": "",
+   "key_idea": "Name the reference point first, then the path: with these two, any motion can be described and classified.",
+   "textbook_ref": "fecu105.txt, Position and motion",
+   "question_patterns": [
+    "how do we describe the position of an object",
+    "what is rectilinear motion with an example",
+    "how does circular motion differ from rotational motion",
+    "what is periodic motion give two examples",
+    "is the motion of a swing periodic",
+    "which type of motion does a rolling ball on a straight road show"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "fecu105.txt",
+   "concept": "fecu.5.2",
+   "question_type": "compute",
+   "question_pattern": "A scale whose zero mark is worn gives a reading of 1.0 cm at the start of the object and 10.4 cm at the end. Find the true length.",
+   "extracted_variables": {
+    "start_mark": "scale reading at the start of the object",
+    "end_mark": "scale reading at the end of the object"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "note both readings",
+     "explain": "Read the scale at the beginning and the end of the object.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "subtract to correct",
+     "explain": "The difference of the readings cancels the worn-out beginning.",
+     "compute": "length = end_mark - start_mark"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "fecu105.txt",
+   "concept": "fecu.5.2",
+   "question_type": "compute",
+   "question_pattern": "An object starts at the 0.5 cm mark and ends at the 8.7 cm mark of a scale. What is its length?",
+   "extracted_variables": {
+    "start_mark": "scale reading at the start of the object",
+    "end_mark": "scale reading at the end of the object"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the start and end marks",
+     "explain": "The object lies between the two readings.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "take the difference",
+     "explain": "Subtracting the start from the end gives the length.",
+     "compute": "length = end_mark - start_mark"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fecu105.txt",
+   "concept": "fecu.5.2",
+   "question_type": "verify_property",
+   "question_pattern": "what is the correct way of measuring length with a scale?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fecu105.txt, Let us enhance our learning",
+   "questions": [
+    "Why do we need standard units of measurement?",
+    "What is the correct way of measuring length with a scale?",
+    "Name the types of motion with one example each.",
+    "Measure the length of your notebook using a worn scale and correct the reading.",
+    "Watch five moving things and classify each kind of motion."
+   ]
+  }
+ ]
+}

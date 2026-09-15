@@ -1,0 +1,205 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 2,
+ "chapter_title": "Oceans and Continents",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fees102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fees.2.1",
+   "title": "Oceans and Continents: The Blue Planet",
+   "section": "The Distribution of Water and Land",
+   "definition": "Seen from space the Earth looks blue because almost three-fourths of its surface is water; the largest water bodies are oceans and the largest continuous land areas are continents.",
+   "formula": "earth = about 3/4 water + about 1/4 land",
+   "key_idea": "The blue planet divides into great waters and great lands, and both shape climate, life and history.",
+   "textbook_ref": "fees102.txt, The Distribution of Water and Land",
+   "question_patterns": [
+    "why is the earth called the blue planet",
+    "what is the difference between an ocean and a continent",
+    "how much of the earth's surface is covered with water",
+    "what is a landmass and when is it called a continent",
+    "how do oceans and continents affect life on earth",
+    "which vedic deity is invoked in the indian navy emblem"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.2.2",
+   "title": "Water and Land in the Two Hemispheres",
+   "section": "Distribution of Water and Land",
+   "definition": "Oceans and continents are not spread equally: maps drawn from above the North and South Poles show that most land gathers in the Northern Hemisphere while water dominates the Southern Hemisphere.",
+   "formula": "",
+   "key_idea": "Looking from each pole gives two different pictures of the same planet.",
+   "textbook_ref": "fees102.txt, Distribution of Water and Land",
+   "question_patterns": [
+    "which hemisphere holds more of the earth's land",
+    "what do the pole-centred maps of the earth show",
+    "what are the smaller extensions of oceans called",
+    "how are oceans and continents distributed between the hemispheres",
+    "why do maps seen from the two poles look so different",
+    "name the circular lines seen on the polar maps"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.2.3",
+   "title": "The Seven Continents of the Earth",
+   "section": "Continents",
+   "definition": "The Earth's land is grouped into seven continents: Asia, the largest, then Africa, North America, South America, Antarctica, Europe and Australia; islands such as ours sit near or within them.",
+   "formula": "",
+   "key_idea": "Continents are the great land containers of the world, each with its own size, climate and life.",
+   "textbook_ref": "fees102.txt, Continents",
+   "question_patterns": [
+    "name the seven continents of the earth",
+    "which is the largest continent and which the smallest",
+    "on which continent is india located",
+    "what makes antarctica different from the other continents",
+    "how are islands related to continents",
+    "why is asia called the largest continent"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.2.4",
+   "title": "The Five Oceans of the Earth",
+   "section": "Oceans",
+   "definition": "The world's waters form five oceans, the Pacific, Atlantic, Indian, Arctic and Southern, joined into one great body that stirs climate and carries ships between continents.",
+   "formula": "",
+   "key_idea": "All oceans are one connected water body, divided by human naming into five.",
+   "textbook_ref": "fees102.txt, Oceans",
+   "question_patterns": [
+    "name the five oceans of the earth",
+    "which is the largest ocean in the world",
+    "which ocean lies to the south of india",
+    "how are seas and gulfs related to oceans",
+    "why do oceans matter for climate and trade",
+    "what did jules verne say about the ocean in this chapter"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fees102.txt",
+   "concept": "fees.2.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why does the Earth appear mostly blue from outer space?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the cover",
+     "explain": "Water covers almost three-fourths of the surface of the planet."
+    },
+    {
+     "step": 2,
+     "action": "state the result",
+     "explain": "Sunlight on that vast water makes the whole planet glow blue to astronauts."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fees102.txt",
+   "concept": "fees.2.2",
+   "question_type": "verify_property",
+   "question_pattern": "How does a sea differ from an ocean?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "place the two",
+     "explain": "An ocean is one of the five great bodies; a sea, bay or gulf is its smaller extension."
+    },
+    {
+     "step": 2,
+     "action": "give an example",
+     "explain": "Waters nearer the land, like a bay or a gulf, are named seas in everyday use."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fees102.txt, Let us explore",
+   "questions": [
+    "How much of the globe does water cover?",
+    "What does the emblem of the Indian Navy depict?",
+    "Compare the two pole-centred maps and state the main difference.",
+    "List the continents in order from largest to smallest.",
+    "Which oceans would you cross sailing from Mumbai to London?"
+   ]
+  }
+ ]
+}

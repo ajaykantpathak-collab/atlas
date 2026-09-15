@@ -1,0 +1,209 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 109,
+ "chapter_title": "The Living Organisms — Characteristics and Habitats",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iesc111.txt",
+ "concepts": [
+  {
+   "id": "fesc.9.2.1",
+   "title": "Adaptation",
+   "section": "9.2",
+   "definition": "The development of specific physical traits or behavioral habits that allow an organism to thrive in its natural environment.",
+   "formula": "survival = adaptation + environment",
+   "key_idea": "Organisms evolve specific features to survive in their unique habitats.",
+   "textbook_ref": "fesc109.txt lines 135-145",
+   "question_patterns": [
+    "what is adaptation",
+    "define adaptation in organisms",
+    "how do specific features help an animal survive",
+    "why is adaptation necessary for survival",
+    "list the main features of adaptation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify habitat",
+     "explain": "determine the environmental conditions of the region."
+    },
+    {
+     "step": 2,
+     "action": "match traits",
+     "explain": "link physical features (e.g., gills, thick fur) to environmental challenges (e.g., water, cold)."
+    },
+    {
+     "step": 3,
+     "action": "verify survival advantage",
+     "explain": "confirm that each matched trait directly improves the organism's ability to obtain food, water, or shelter in that habitat."
+    }
+   ]
+  },
+  {
+   "id": "fesc.9.2.2",
+   "title": "Habitat Classification",
+   "section": "9.2",
+   "definition": "The natural environment where an organism lives, categorized primarily by whether it is on land or in water.",
+   "formula": "habitat = terrestrial + aquatic",
+   "key_idea": "Habitats provide essential resources like food, water, and shelter.",
+   "textbook_ref": "fesc109.txt lines 145-160",
+   "question_patterns": [
+    "distinguish between terrestrial and aquatic habitats",
+    "what is a habitat",
+    "give examples of aquatic habitats",
+    "classify the given environment as terrestrial or aquatic",
+    "explain habitat classification in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check medium",
+     "explain": "determine if the organism lives on land or in water."
+    },
+    {
+     "step": 2,
+     "action": "classify",
+     "explain": "assign to terrestrial if land-based, aquatic if water-based."
+    },
+    {
+     "step": 3,
+     "action": "list examples",
+     "explain": "provide representative organisms for the category (e.g., desert fox and camel for terrestrial, fish and lotus for aquatic) to confirm the classification."
+    }
+   ]
+  },
+  {
+   "id": "fesc.9.2.3",
+   "title": "Biotic and Abiotic Components",
+   "section": "9.2",
+   "definition": "The ecosystem is made up of living organisms (biotic) and non-living factors (abiotic) that influence them.",
+   "formula": "ecosystem = biotic_components + abiotic_components",
+   "key_idea": "Living things interact with non-living factors like sunlight, air, and water.",
+   "textbook_ref": "fesc109.txt lines 160-170",
+   "question_patterns": [
+    "list the abiotic components of a habitat",
+    "differentiate between biotic and abiotic factors",
+    "are rocks biotic or abiotic",
+    "how do abiotic factors affect plant growth",
+    "list the main features of biotic and abiotic components"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "categorize items",
+     "explain": "separate items into living (biotic) and non-living (abiotic)."
+    },
+    {
+     "step": 2,
+     "action": "identify interactions",
+     "explain": "describe how biotic components depend on abiotic factors, such as plants needing sunlight, water, and air."
+    },
+    {
+     "step": 3,
+     "action": "verify ecosystem balance",
+     "explain": "confirm that both biotic and abiotic components are present and interacting, since an ecosystem requires both to function."
+    }
+   ]
+  },
+  {
+   "id": "fesc.9.4.1",
+   "title": "Characteristics of Living Things",
+   "section": "9.4",
+   "definition": "A set of observable processes including respiration, excretion, growth, and reproduction that distinguish life from non-life.",
+   "formula": "life = growth + respiration + reproduction + response_to_stimuli",
+   "key_idea": "Living things share common life processes that non-living things lack.",
+   "textbook_ref": "fesc109.txt lines 250-350",
+   "question_patterns": [
+    "list common characteristics of living things",
+    "why is respiration important",
+    "how do plants show response to stimuli",
+    "is a car living because it moves",
+    "justify why characteristics of living things matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate criteria",
+     "explain": "check if the object performs all life processes."
+    },
+    {
+     "step": 2,
+     "action": "test each life process",
+     "explain": "verify growth, respiration, excretion, response to stimuli, and reproduction individually against the object."
+    },
+    {
+     "step": 3,
+     "action": "conclude living or non-living",
+     "explain": "if any essential life process is absent, classify the object as non-living even if it shows one life-like trait such as movement."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "fesc109.txt",
+   "concept": "fesc.9.2.1",
+   "question_type": "short_answer",
+   "question_pattern": "what is adaptation",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify habitat",
+     "explain": "determine the environmental conditions of the region."
+    },
+    {
+     "step": 2,
+     "action": "match traits",
+     "explain": "link physical features (e.g., gills, thick fur) to environmental challenges (e.g., water, cold)."
+    },
+    {
+     "step": 3,
+     "action": "verify survival advantage",
+     "explain": "confirm that each matched trait directly improves the organism's ability to obtain food, water, or shelter in that habitat."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "fesc109.txt",
+   "concept": "fesc.9.2.2",
+   "question_type": "short_answer",
+   "question_pattern": "distinguish between terrestrial and aquatic habitats",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "check medium",
+     "explain": "determine if the organism lives on land or in water."
+    },
+    {
+     "step": 2,
+     "action": "classify",
+     "explain": "assign to terrestrial if land-based, aquatic if water-based."
+    },
+    {
+     "step": 3,
+     "action": "list examples",
+     "explain": "provide representative organisms for the category (e.g., desert fox and camel for terrestrial, fish and lotus for aquatic) to confirm the classification."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "fesc109.txt line 400",
+   "questions": [
+    "What is a habitat?",
+    "How are cactus adapted to survive in a desert?",
+    "List the common characteristics of living things."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

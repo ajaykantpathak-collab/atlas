@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_10_005",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_10_005",
+   "title": "c11_biotech_cbse_10_005",
+   "questions": [
+    {
+     "q": "A researcher has a 150-residue protein sequence with no significant BLAST hit against PDB (E-value > 0.01). Which computational method should they attempt FIRST: homology modelling, threading, or ab initio modelling? State the method and the one-line reason.",
+     "a": "Threading (fold recognition) should be attempted first. Reason: When no homologue exists in PDB, threading searches for compatible folds in the structure database using sequence-structure alignment, which can detect remote evolutionary relationships missed by sequence-sequence comparison. A wrong answer (choosing ab initio first) reveals the misconception that threading and ab initio are interchangeable or that ab initio is the default when homology fails, ignoring the hierarchical decision tree in Fig. 10.1.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why threading is described as \"forcing the sequence to take the conformation of the backbone of a protein with known structure\" (NCERT wording). What does \"forcing\" imply about the computational process?",
+     "a": "\"Forcing\" means the target sequence is computationally threaded onto each candidate template backbone in the fold library, and a scoring function (energy, statistical potential) evaluates how well the sequence fits that fixed backbone geometry — the backbone is NOT remodelled to fit the sequence. The method tests compatibility of the sequence with a pre-existing fold. A wrong answer (e.g., \"the template structure is mutated to match the target\") reveals confusion with homology modelling where the template backbone is adjusted; it shows the student does not grasp that threading keeps the template fold rigid and only aligns the sequence onto it.",
+     "self_check": true
+    },
+    {
+     "q": "A protein sequence of 200 residues is submitted to a threading server (e.g., Threader). The top hit returns a Z-score of 6.5 against a TIM-barrel fold template. The second hit returns a Z-score of 4.2 against a Rossmann fold. Which fold is more likely correct? What does the Z-score represent in this context?",
+     "a": "The TIM-barrel fold (Z-score 6.5) is more likely correct. In threading, Z-score = (raw score - mean score of random sequences) / standard deviation; a higher Z-score indicates the target sequence fits that specific fold significantly better than random sequences would. A Z-score > 5–6 is generally considered significant. A wrong answer (choosing Rossmann fold or ignoring Z-score) reveals the student does not understand statistical significance in fold recognition or confuses Z-score with sequence identity percentage.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the computational cost (time/resources) and expected accuracy of threading versus ab initio modelling for a 100-residue protein. Which method is more compute-intensive and why?",
+     "a": "Threading is less compute-intensive (minutes to hours) because it searches a discrete library of ~1,500–20,000 known folds using sequence-structure alignment. Ab initio modelling is far more compute-intensive (hours to weeks) because it performs conformational search in continuous 3D space (sampling φ/ψ angles, side-chain rotamers) and evaluates energy functions for billions of conformations. Accuracy: threading can be high if a correct fold exists in the library; ab initio is historically lower for >100 residues but improving with deep learning (AlphaFold2). A wrong answer (claiming ab initio is faster) reveals ignorance of the combinatorial explosion in conformational space versus discrete fold library search.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Since QUARK performs ab initio prediction, it does not use any database of known structures during its computation.\" Is this true or false? Justify with the distinction between template-based and template-free methods.",
+     "a": "False. While QUARK is an ab initio (template-free) method for *global* fold assembly, modern ab initio algorithms often use fragment libraries derived from known PDB structures (e.g., 3–9 residue fragments) to guide conformational sampling, and may use statistical potentials trained on known structures. \"Ab initio\" means no *single* template is used for the whole chain; it does not mean zero knowledge from structural databases. A wrong answer (true) reveals the misconception that \"ab initio = purely physics-based with no database input,\" confusing the *method category* with the *implementation details*.",
+     "self_check": true
+    },
+    {
+     "q": "Design a decision flowchart (text-based) for a structural biologist who has just obtained a novel 180-residue protein sequence. Include decision nodes for: BLAST against PDB, threading, ab initio, and experimental validation. Use YES/NO branches.",
+     "a": "Expected flowchart logic:\n1. BLAST sequence against PDB (E-value < 10⁻³?) → YES → Homology modelling (SWISS-MODEL/MODELLER) → Validate → DONE.\n2. NO → Run threading (Threader/LIBELLULA) → Significant hit (Z-score > 5)? → YES → Build model from threading alignment → Validate → DONE.\n3. NO → Run ab initio (QUARK/Rosetta) → Generate top 5 models → Validate (Ramachandran, Verify3D) → Select best → Experimental validation (CD, NMR, crystallography).\nA poor answer (missing validation steps, skipping threading, or jumping straight to ab initio) reveals the student has not internalised the hierarchical prediction pipeline in Fig. 10.1 and treats methods as parallel options rather than a sequential decision tree.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

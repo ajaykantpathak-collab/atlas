@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch06_006",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch06_006",
+   "title": "c7_physics_ch06_006",
+   "questions": [
+    {
+     "q": "What celestial bodies must align in a straight line for any eclipse to occur on Earth?",
+     "a": "The Sun, Earth, and Moon must align in a straight line. A wrong answer shows confusion with phases of the Moon or planetary rotation, failing to recognize that casting a shadow requires a light source, an opaque blocker, and a screen or recipient body.",
+     "self_check": true
+    },
+    {
+     "q": "Why does an eclipse not occur every single month when the Moon comes between the Earth and the Sun during a new moon?",
+     "a": "An eclipse does not happen every month because the Moon's orbital plane is tilted by about 5 degrees relative to Earth's orbital plane. A wrong answer suggests the Moon stops moving or changes size, missing the crucial spatial geometry of orbital tilt.",
+     "self_check": true
+    },
+    {
+     "q": "If the Moon's orbital tilt is 5 degrees and its diameter spans about 0.5 degrees in the sky, calculate the maximum angular distance from the orbital node where a solar eclipse can still initiate, assuming the shadow margin allows a tolerance of 0.25 degrees.",
+     "a": "Step 1: Identify the given angular values: Moon's orbital tilt = 5 degrees, angular size = 0.5 degrees, shadow tolerance margin = 0.25 degrees. Step 2: Identify the condition for alignment overlap: overlap occurs when the center of the Moon is within the combined radii of the Sun and Moon plus alignment tolerance from the node intersection line. Step 3: Compute the limiting node distance: $\\text{Limit} = \\text{Angular Size}/2 + \\text{Tolerance} = 0.25^\\circ + 0.25^\\circ = 0.5^\\circ$. Step 4: Track unit cancellation and verify physical limits: degrees remain in degrees, giving $0.5^\\circ$ alignment window. Step 5: Answer: $0.5^\\circ$ from the node. A wrong answer indicates improper addition of angular sizes or ignoring the orbital plane intersection criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze what happens to the shadow cast by the Moon on Earth if the Moon's orbital tilt were reduced from 5 degrees to 0 degrees while maintaining the same Earth-Sun-Moon distance.",
+     "a": "If the orbital tilt became 0 degrees, the Moon's path would lie entirely in Earth's orbital plane, causing a solar eclipse every single new moon and a lunar eclipse every single full moon. A wrong answer indicates misunderstanding of orbital intersection and geometry.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A lunar eclipse can happen during any phase of the Moon as long as the Earth is directly between the Sun and the Moon.\" Is this correct? Justify your reasoning.",
+     "a": "The statement is incorrect because a lunar eclipse requires the specific phase of a full moon, where the Moon is positioned opposite the Sun with Earth in the middle. Even if aligned, if it is a crescent or quarter moon, the Earth's shadow misses the Moon entirely. A wrong answer shows a failure to link lunar phases with exact spatial positions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple model using a torch, a tennis ball, and a marble to demonstrate why eclipses do not occur during every lunar orbit. Describe how you would show the orbital tilt.",
+     "a": "The model should feature a fixed torch as the Sun, a tennis ball held at eye level as the Earth, and a marble as the Moon orbiting around the tennis ball. To show the tilt, the marble should be moved in a plane angled slightly above and below the horizontal table level, showing that the shadow misses the Earth/Moon except when crossing the table plane. A poor answer fails to incorporate the 3D tilt or treats the setup as completely flat.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_english_u1_006",
+ "concepts": [
+  {
+   "id": "enh:c6_english_u1_006",
+   "title": "c6_english_u1_006",
+   "questions": [
+    {
+     "q": "What are the three essential components that make a poem a \"narrative\" poem?",
+     "a": "A narrative poem must have characters, a setting, and a plot (sequence of events). A student who lists only \"rhyme\" or \"feelings\" shows they are confusing narrative poetry with general lyric or sound-based poetry.",
+     "self_check": true
+    },
+    {
+     "q": "If a poem describes the beauty of a sunset without mentioning any characters or actions, is it a narrative poem? Why or why not?",
+     "a": "No, it is not a narrative poem because it lacks a plot, characters, and a sequence of events. A wrong answer suggests the student thinks any poem that uses descriptive words is a story.",
+     "self_check": true
+    },
+    {
+     "q": "A short poem describes a squirrel finding an acorn, hiding it, and then forgetting where it buried it. Identify the plot sequence here.",
+     "a": "Beginning: The squirrel finds the acorn. Middle: The squirrel hides it. End: The squirrel forgets the location. Failing to identify these shows the student is not tracking the action sequence.",
+     "self_check": true
+    },
+    {
+     "q": "How does the presence of a \"problem\" or \"conflict\" help a narrative poem move from the beginning to the end?",
+     "a": "The problem creates a reason for characters to act, pushing the plot forward toward a solution. If a student says \"it makes the poem sad,\" they are focusing on mood rather than the structural role of conflict in a narrative.",
+     "self_check": true
+    },
+    {
+     "q": "In \"The Raven and the Fox,\" the fox tricks the raven to get the food. Does this make it a narrative poem? Explain your reasoning.",
+     "a": "Yes, because it has characters (Raven, Fox), a setting (a tree in the woods), and a plot (the fox tricks the raven, the raven loses its food). A wrong answer indicates the student is not distinguishing between \"event-driven\" stories and simple descriptions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a one-sentence \"beginning\" for a narrative poem about a boy who finds a lost puppy.",
+     "a": "The answer must include a character and a starting action (e.g., \"Rohan walked through the park and heard a soft whimper behind the bushes\"). A poor answer would be \"The puppy was very cute,\" as it is a description, not an event that starts a plot.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

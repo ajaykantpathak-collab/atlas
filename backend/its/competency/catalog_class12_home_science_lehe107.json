@@ -1,0 +1,680 @@
+{
+ "class": 12,
+ "subject": "home_science",
+ "chapter": 7,
+ "chapter_title": "Management of Support Services, Institutions and Programmes for Children, Youth and Elderly",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lehe107.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "drafter draft; gate-validated; review pending",
+ "concepts": [
+  {
+   "id": "lehe107.1",
+   "title": "Why Society Builds Support Services",
+   "section": "Significance",
+   "definition": "A family, though the basic unit of society, cannot deliver every specialised need of its members -- schooling, hospitals, training and recreation -- so communities raise extra structures, and the state steps in further where poverty or separation leaves members unable to cope.",
+   "formula": "need chain -- family plus community structures plus state institutions cover member needs",
+   "key_idea": "With about a third of the world's poor living in India, state programmes and NGO effort must backstop struggling families.",
+   "textbook_ref": "lehe107.txt, Significance section and poverty box (approx lines 21-101)",
+   "question_patterns": [
+    "why are services, institutions and programmes needed for children, youth and the elderly",
+    "why cannot the family alone meet all needs of its members",
+    "when does the state step in on behalf of family members",
+    "name the community structures that deliver specialised services",
+    "what distinguishes a holistic programme from a single need programme"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the responsibility chain",
+     "explain": "family first, community structures next, government and society as the final guarantor of a decent life"
+    },
+    {
+     "step": 2,
+     "action": "note the trigger for state action",
+     "explain": "resource poor families and members cut off from family support"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which unit of society cannot deliver every specialised need alone: the family or the factory?",
+     "a": "the family"
+    }
+   ]
+  },
+  {
+   "id": "lehe107.2",
+   "title": "Vulnerability of Children, Youth and Elderly",
+   "section": "Basic Concepts",
+   "definition": "A person or group is vulnerable when adverse circumstances strike harder and more often; children qualify because rapid, interconnected development stalls when food, health, love and stimulation are missing, and youth and the elderly qualify through the special pressures and losses of their stages.",
+   "formula": "vulnerability = unmet needs multiplied by stage specific exposure",
+   "key_idea": "Two thirds of under fives face moderate or severe malnutrition, three million children live on the streets, and 17 million children work by official count.",
+   "textbook_ref": "lehe107.txt, vulnerability concept and children statistics (approx lines 103-161)",
+   "question_patterns": [
+    "what does the term vulnerable mean",
+    "why are children, youth and the elderly called vulnerable groups",
+    "why does unmet need make a person vulnerable",
+    "state the statistics that show the needs of Indian children are unmet",
+    "why do adverse experiences leave a lasting mark on a young child"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define vulnerability",
+     "explain": "greater likelihood and greater harm from adverse circumstances"
+    },
+    {
+     "step": 2,
+     "action": "apply to each group",
+     "explain": "children: fast linked development; youth: adult role pressures; elderly: health and support losses"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A person or group struck harder by adverse circumstances is called what: vulnerable or volatile?",
+     "a": "vulnerable"
+    }
+   ]
+  },
+  {
+   "id": "lehe107.3",
+   "title": "Juvenile Justice Act and Children in Need",
+   "section": "Institutions, Programmes and Initiatives for Children",
+   "definition": "The Juvenile Justice (Care and Protection of Children) Act of 2000, India's first juvenile justice framework, separates children who clash with the law from those needing care and protection -- the abandoned, the abused, the trafficked, disaster victims and others -- and demands a child friendly approach for their rehabilitation.",
+   "formula": "two categories -- in conflict with law plus in need of care and protection",
+   "key_idea": "The Act aligns with the Child Rights Convention and lists exactly which children count as needing care and protection.",
+   "textbook_ref": "lehe107.txt, Juvenile Justice Act (approx lines 162-215)",
+   "question_patterns": [
+    "which two categories of children does the Juvenile Justice Act 2000 cover",
+    "who is a juvenile in conflict with law",
+    "list the children considered in need of care and protection",
+    "what does the Juvenile Justice Act provide for rehabilitation",
+    "with which international convention is the Act compliant"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "separate the two categories",
+     "explain": "delinquency cases versus protection cases such as abandoned, abused or trafficked children"
+    },
+    {
+     "step": 2,
+     "action": "state the Act's approach",
+     "explain": "care, protection, treatment, development needs and child friendly adjudication"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which act of 2000 framed India's juvenile justice: the Juvenile Justice Act or the Consumer Act?",
+     "a": "the Juvenile Justice Act"
+    }
+   ]
+  },
+  {
+   "id": "lehe107.4",
+   "title": "ICDS and the Anganwadi",
+   "section": "Institutions, Programmes and Initiatives for Children",
+   "definition": "The Integrated Child Development Services, the largest early childhood programme anywhere, bundles health, nutrition, stimulation and early learning for children under six with education for mothers, immunisation and growth monitoring, all delivered through the neighbourhood anganwadi centre.",
+   "formula": "integrated bundle -- health plus nutrition plus preschool plus immunisation through one centre",
+   "key_idea": "Over 41 million children are covered; non formal preschool runs for the three to six band and supplementary feeding for all under six.",
+   "textbook_ref": "lehe107.txt, ICDS description (approx lines 224-240)",
+   "question_patterns": [
+    "what services does the ICDS deliver through the anganwadi",
+    "why is ICDS called the world's largest early childhood programme",
+    "which age groups does ICDS serve and how",
+    "what health inputs accompany the anganwadi programme",
+    "how does ICDS support pregnant and nursing mothers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the integrated services",
+     "explain": "supplementary feeding, immunisation, vitamin A, growth monitoring, non formal preschool, maternal education"
+    },
+    {
+     "step": 2,
+     "action": "name the delivery point",
+     "explain": "the anganwadi childcare centre"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which is the largest early childhood programme anywhere: ICDS or NSS?",
+     "a": "ICDS"
+    }
+   ]
+  },
+  {
+   "id": "lehe107.5",
+   "title": "SOS Children's Villages and Children's Homes",
+   "section": "Institutions, Programmes and Initiatives for Children",
+   "definition": "SOS Children's Villages give orphaned and abandoned children a trained mother, ten to fifteen siblings and a family style home clustered into a village, while the state runs observation homes for investigation stays, special homes for juveniles found guilty and children's homes for those with no traceable family.",
+   "formula": "care ladder -- SOS family home to observation home to special home to children's home",
+   "key_idea": "The first Indian SOS village opened in 1964; today about 6000 children live across 40 villages, and emergency relief after disasters often becomes permanent village capacity.",
+   "textbook_ref": "lehe107.txt, SOS Villages and three kinds of homes (approx lines 243-287)",
+   "question_patterns": [
+    "describe the family approach of SOS Children's Villages",
+    "differentiate between observation homes, special homes and juvenile homes",
+    "who is the mother in an SOS home and how many children does she care for",
+    "since when has SOS worked in India and how large is its network now",
+    "what does the government provide for children in children's homes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain the SOS model",
+     "explain": "a mother, a sibling group, a village of such families woven into the local community"
+    },
+    {
+     "step": 2,
+     "action": "sort the three state homes by purpose",
+     "explain": "temporary investigation stay, custodial sentence stay, long term care when family is gone"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "In SOS Children's Villages, orphaned children get a trained what: mother or manager?",
+     "a": "mother"
+    }
+   ]
+  },
+  {
+   "id": "lehe107.6",
+   "title": "Adoption and CARA",
+   "section": "Institutions, Programmes and Initiatives for Children",
+   "definition": "Adoption in India moved from a family bound religious practice to an institutionalised legal route; the Central Adoption Resource Authority, created on the Supreme Court's advice, writes the guidelines that guard the welfare and rights of adopted children, with NGOs running the delivery systems.",
+   "formula": "adoption route -- policy plus CARA guidelines plus NGO delivery",
+   "key_idea": "CARA exists to strengthen adoption rules and protect the child's interests.",
+   "textbook_ref": "lehe107.txt, Adoption paragraph (approx lines 291-303)",
+   "question_patterns": [
+    "how has adoption practice changed in India over time",
+    "what is CARA and why was it constituted",
+    "which bodies handle policy and which handle delivery of adoption",
+    "what safeguards guide adoption in India today"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the shift",
+     "explain": "within family custom to beyond family legal institution"
+    },
+    {
+     "step": 2,
+     "action": "assign the roles",
+     "explain": "governments make policy, CARA sets guidelines, NGOs operate the process"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which authority writes India's adoption guidelines: CARA or NASA?",
+     "a": "CARA"
+    }
+   ]
+  },
+  {
+   "id": "lehe107.7",
+   "title": "Youth Vulnerability and Needs",
+   "section": "Why are Youth Vulnerable?",
+   "definition": "The National Youth Policy of 2014 places youth in the fifteen to twenty nine band, with adolescents at thirteen to nineteen; the stage strains under body changes, livelihood and marriage preparation, competition and peer pressure, and can slide into substance abuse, with rural, tribal, out of school, female, disabled and trafficked youth most exposed.",
+   "formula": "age bands -- adolescents 13 to 19, youth 15 to 29",
+   "key_idea": "Youth need education, training, jobs, shelter, health services, protection from exploitation and a voice in decisions that concern them.",
+   "textbook_ref": "lehe107.txt, youth vulnerability and needs (approx lines 304-355)",
+   "question_patterns": [
+    "how does the National Youth Policy 2014 define youth",
+    "which age band names adolescents",
+    "why is youth called a vulnerable period",
+    "which groups of youth face special vulnerability",
+    "list the requisites for youth to become socially useful and economically productive",
+    "how do peer pressure and competition affect adolescents"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the definitions",
+     "explain": "youth 15 to 29, adolescents 13 to 19"
+    },
+    {
+     "step": 2,
+     "action": "map pressures to risks",
+     "explain": "body and identity changes, livelihood stress, substance abuse, reproductive health risks, with sub groups most exposed"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The National Youth Policy 2014 places youth in the fifteen to what age band: twenty-nine or ninety?",
+     "a": "twenty-nine"
+    }
+   ]
+  },
+  {
+   "id": "lehe107.8",
+   "title": "Youth Programmes in India",
+   "section": "Youth Programmes in India",
+   "definition": "Government channels youth energy through the National Service Scheme for college volunteers, the National Service Volunteer Scheme with Nehru Yuva Kendras for rural non student youth, adventure promotion, Scouts and Guides, the Commonwealth Youth Programme with its Chandigarh centre, and integration visits between states.",
+   "formula": "programme set -- NSS plus NSVS plus adventure plus scouts plus Commonwealth plus integration",
+   "key_idea": "The National Youth Policy was adopted in 2003 by the Ministry of Youth Affairs and Sports; Kendra activities build literacy, self reliance and scientific temper among rural youth.",
+   "textbook_ref": "lehe107.txt, youth programmes (approx lines 356-450)",
+   "question_patterns": [
+    "describe the work of the National Service Scheme",
+    "how does the National Service Volunteer Scheme differ from NSS",
+    "what role do Nehru Yuva Kendras play for rural youth",
+    "which activities fall under promotion of adventure",
+    "what do Scouts and Guides aim to build",
+    "where is the Asia Pacific Regional Centre of the Commonwealth Youth Programme located",
+    "how does the government promote national integration among youth"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "pair each programme with its audience",
+     "explain": "college students, degree holders serving one or two years, rural non student youth, school age boys and girls"
+    },
+    {
+     "step": 2,
+     "action": "state the common goal",
+     "explain": "character, service, self reliance and integration"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which scheme channels college volunteers: the National Service Scheme or a defence scheme?",
+     "a": "the National Service Scheme"
+    }
+   ]
+  },
+  {
+   "id": "lehe107.9",
+   "title": "Elderly Vulnerability in India",
+   "section": "Why are the Elderly Vulnerable?",
+   "definition": "India counts senior citizens from sixty years; falling physiological reserves bring illness and disabilities like cataract, deafness and arthritis, while children moving away, city fragmentation of families, financial dependence and rising living costs leave many elders lonely and unsupported.",
+   "formula": "risk stack -- health decline plus isolation plus money dependence",
+   "key_idea": "Eighty per cent of the elderly live in villages, thirty per cent are below the poverty line, and most sixty plus Indians still work; the National Policy for Older Persons arrived in 1999.",
+   "textbook_ref": "lehe107.txt, elderly vulnerability and features (approx lines 451-516)",
+   "question_patterns": [
+    "from which age is a person a senior citizen in India",
+    "why are the elderly more vulnerable to disease",
+    "which disabilities commonly accompany ageing",
+    "how do city life features reduce family support for the aged",
+    "what is meant by feminisation of the elderly population",
+    "state the special features of India's elderly population",
+    "which national policy addresses older persons and from when"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "stack the health risks",
+     "explain": "low reserves, cataract, nerve deafness, arthritis, loss of self care"
+    },
+    {
+     "step": 2,
+     "action": "stack the social risks",
+     "explain": "empty nest, nuclear families, space and money pressures, changing values"
+    },
+    {
+     "step": 3,
+     "action": "add the counterpoint",
+     "explain": "many elders live fruitfully and most remain economically active, so they are a human resource"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "India counts senior citizens from what age: sixty or sixteen?",
+     "a": "sixty"
+    }
+   ]
+  },
+  {
+   "id": "lehe107.10",
+   "title": "Programmes for the Elderly",
+   "section": "Some Programmes for the Elderly",
+   "definition": "Public and voluntary effort runs old age homes, respite and continuous care homes, multi service day centres, mobile medicare units for remote areas, dementia day care, help lines, mental health and physiotherapy services, caregiver training, awareness drives and the National Old Age Pension Scheme for destitute persons above sixty five.",
+   "formula": "programme set -- shelter plus health plus counselling plus pension plus awareness",
+   "key_idea": "NOAPS pension reaches destitute seniors over sixty five who must prove age and destitution, and states may top up the amount.",
+   "textbook_ref": "lehe107.txt, programmes for the elderly list (approx lines 528-619)",
+   "question_patterns": [
+    "name four programmes run for the elderly in India",
+    "who qualifies for the National Old Age Pension Scheme",
+    "how do mobile medicare units serve the elderly",
+    "what is a respite care home",
+    "which facility serves Alzheimer patients during the day",
+    "what do awareness generation programmes teach older persons and caregivers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "group the programmes",
+     "explain": "basic needs, institutional and non institutional care, health services, awareness and training, pension"
+    },
+    {
+     "step": 2,
+     "action": "detail NOAPS eligibility",
+     "explain": "destitute status, age above sixty five, proof documents, optional state top up"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which scheme pensions destitute seniors above sixty-five: NOAPS or NREGA?",
+     "a": "NOAPS"
+    }
+   ]
+  },
+  {
+   "id": "lehe107.11",
+   "title": "Managing Institutions and Programmes",
+   "section": "Preparing for a Career",
+   "definition": "Running a service organisation calls for people skills -- community ownership through participatory planning, private sector partnership, government liaison and harmonious internal relations -- plus administrative grip on finance, recruitment, records and equipment, all steered by a personal vision for the target group.",
+   "formula": "manager profile -- people skills plus administrative skills plus vision",
+   "key_idea": "Programmes planned with the community from the start earn the ownership that keeps them alive.",
+   "textbook_ref": "lehe107.txt, management skills (approx lines 620-696)",
+   "question_patterns": [
+    "which four sets of people must a programme manager interact with",
+    "why is participatory planning called the pillar of effective programmes",
+    "how can the private sector support social programmes",
+    "list the administrative tasks involved in running an institution",
+    "what aspects must an entrepreneur weigh before starting a new organisation",
+    "why does a manager need vision"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "lay out the people skills",
+     "explain": "community, private sector, government officials, colleagues and beneficiaries"
+    },
+    {
+     "step": 2,
+     "action": "add administration and vision",
+     "explain": "finances, staff, space, records, registration, evaluation, all under a committed long term aim"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Programmes planned with the community earn what: ownership or boredom?",
+     "a": "ownership"
+    }
+   ]
+  },
+  {
+   "id": "lehe107.12",
+   "title": "Career Routes in Support Services",
+   "section": "Preparing for a Career and Scope",
+   "definition": "Entry runs through an undergraduate degree in Home Science, Social Work or allied social sciences, with IGNOU and state open universities adding a certificate in NGO management or a diploma in youth development work; careers open as founder of one's own institution, manager of an established one, functionary at any cadre, or researcher evaluating programmes.",
+   "formula": "route -- degree plus open university courses to founder or manager or functionary or researcher",
+   "key_idea": "Distance learning can run alongside a regular degree to build the specialised knowledge base.",
+   "textbook_ref": "lehe107.txt, knowledge base, courses and career avenues (approx lines 697-743)",
+   "question_patterns": [
+    "which degrees prepare one for managing programmes for vulnerable groups",
+    "name the IGNOU courses useful for this career",
+    "what career avenues exist in the field of support services",
+    "how can open and distance learning help an aspiring manager",
+    "what does a researcher in this field do"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the study route",
+     "explain": "undergraduate degree plus optional certificate or diploma through open universities"
+    },
+    {
+     "step": 2,
+     "action": "map the four career paths",
+     "explain": "set up, manage, serve, or research and evaluate"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Entry runs through a degree in Home Science, Social Work or allied what: social sciences or sports?",
+     "a": "social sciences"
+    }
+   ]
+  },
+  {
+   "id": "lehe107.13",
+   "title": "SOS Village Capacity Arithmetic",
+   "section": "Institutions: SOS Children's Villages",
+   "definition": "When a network states its total child count and its number of villages, the average load per village is the total divided by the count of villages.",
+   "formula": "children_per_village = total_children / village_count",
+   "key_idea": "About 6000 children across 40 villages puts roughly 150 children in each village, housed in family homes of ten to fifteen.",
+   "textbook_ref": "lehe107.txt, SOS Villages figures (approx lines 256-258)",
+   "question_patterns": [
+    "an SOS network cares for 6000 children in 40 villages; find the average number of children per village",
+    "compute the average village load when the total children and the number of villages are stated",
+    "if an organisation houses T children across V villages, how many children does each village hold on average",
+    "find the mean number of children per village from the network's totals",
+    "a care network reports its strength and its village count; work out children per village"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide the children by the villages",
+     "explain": "the quotient is the average village strength",
+     "compute": "children_per_village = total_children / village_count"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "6000 children across 40 villages puts how many children per village on average: 150 or 1500?",
+     "a": "150"
+    }
+   ]
+  },
+  {
+   "id": "lehe107.14",
+   "title": "Life Expectancy Gain",
+   "section": "Why are the Elderly Vulnerable: life expectancy",
+   "definition": "The rise in how long people live is the difference between the current expectancy figure and the historical one, and that gain is what swells the elderly population the chapter describes.",
+   "formula": "expectancy_gain = current_expectancy - past_expectancy",
+   "key_idea": "Expectancy climbed from about 29 years in 1947 to 69.3 years for females and 65.8 for males in 2009-13.",
+   "textbook_ref": "lehe107.txt, life expectancy figures (approx lines 454-457)",
+   "question_patterns": [
+    "female life expectancy rose from 29 years in 1947 to 69.3 years; how many years were gained",
+    "compute the gain in life expectancy when the historical and current figures are given",
+    "male expectancy stands at 65.8 years against about 29 in 1947; find the increase",
+    "by how many years did expectancy rise between the two quoted years",
+    "work out the improvement in years of life from the two expectancy values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract the old figure from the new one",
+     "explain": "the difference is the gain in years of life",
+     "compute": "expectancy_gain = current_expectancy - past_expectancy"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Life expectancy climbed from about 29 years in 1947 to what female figure by 2013: 69.3 or 29.3?",
+     "a": "69.3"
+    }
+   ]
+  },
+  {
+   "id": "lehe107.15",
+   "title": "Elderly Population Shares",
+   "section": "Why are the Elderly Vulnerable: population features",
+   "definition": "Applying a stated percentage to the total elderly count prices each feature of the group: the village dwelling share, the poverty line share or any other quoted fraction becomes an absolute number of persons.",
+   "formula": "elderly_count = total_elderly * share_pct / 100",
+   "key_idea": "Eighty per cent rural and thirty per cent poor are the two big shares to convert into head counts.",
+   "textbook_ref": "lehe107.txt, special features of the elderly (approx lines 461-475)",
+   "question_patterns": [
+    "a district has 200000 elderly residents and 80 percent live in villages; compute the rural elderly count",
+    "if 30 percent of E million senior citizens are below the poverty line, calculate their number",
+    "convert a stated share of the elderly population into an absolute head count",
+    "a state has 500000 older persons; how many of them live below the poverty line at a 30 percent rate",
+    "find the number of village dwelling elders when the total and the rural percentage are given"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the share to the total",
+     "explain": "multiply the total by the percentage and divide by one hundred",
+     "compute": "elderly_count = total_elderly * share_pct / 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Thirty percent of India's elderly are below the what line: poverty or finish?",
+     "a": "poverty"
+    }
+   ]
+  },
+  {
+   "id": "lehe107.16",
+   "title": "School Retention Rate",
+   "section": "Children statistics box",
+   "definition": "The share of enrolled children who stay the course to a later standard is the still enrolled count expressed as a percentage of the intake -- the survival measure behind the finding that only about a third of Standard I entrants reach Standard VIII.",
+   "formula": "retention_pct = reached_count / enrolled_count * 100",
+   "key_idea": "A little over one in three entrants survives to Standard VIII, so the rest drop out along the way.",
+   "textbook_ref": "lehe107.txt, children statistics box (approx lines 154-156)",
+   "question_patterns": [
+    "of 120 children enrolled in Standard I only 40 reach Standard VIII; find the retention percentage",
+    "calculate the percentage of entrants who persist when the intake and the survivors are stated",
+    "a cohort of 300 shrinks to 90 by Standard VIII; what per cent stayed in school",
+    "compute the survival rate of an enrolled batch from the two counts",
+    "express the reaching count as a percentage of the enrolled count for a school cohort"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide survivors by entrants",
+     "explain": "the ratio compares the persisting few with the starting batch",
+     "compute": "survival_ratio = reached_count / enrolled_count"
+    },
+    {
+     "step": 2,
+     "action": "scale to a percentage",
+     "explain": "multiply by one hundred to state the retention rate",
+     "compute": "retention_pct = survival_ratio * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Only about a third of Standard I entrants reach which standard: VIII or XVIII?",
+     "a": "VIII"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lehe107.txt SOS Children's Villages figures",
+   "concept": "lehe107.13",
+   "question_type": "numeric",
+   "question_pattern": "SOS Children's Villages care for about {total_children} children in {village_count} villages. Find the average number of children per village.",
+   "extracted_variables": {
+    "total_children": 6000,
+    "village_count": 40
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide the totals",
+     "explain": "6000 / 40 = 150 children per village",
+     "compute": "children_per_village = total_children / village_count"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lehe107.txt life expectancy figures",
+   "concept": "lehe107.14",
+   "question_type": "numeric",
+   "question_pattern": "Life expectancy for females climbed from about {past_expectancy} years in 1947 to {current_expectancy} years. Compute the gain in years.",
+   "extracted_variables": {
+    "past_expectancy": 29,
+    "current_expectancy": 69.3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract the old from the new",
+     "explain": "69.3 - 29 = 40.3 years gained",
+     "compute": "expectancy_gain = current_expectancy - past_expectancy"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lehe107.txt children statistics box",
+   "concept": "lehe107.16",
+   "question_type": "numeric",
+   "question_pattern": "In a school, {enrolled_count} children entered Standard I but only {reached_count} reached Standard VIII. Find the retention percentage.",
+   "extracted_variables": {
+    "enrolled_count": 120,
+    "reached_count": 40
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "form the ratio",
+     "explain": "40 / 120 = 0.333",
+     "compute": "survival_ratio = reached_count / enrolled_count"
+    },
+    {
+     "step": 2,
+     "action": "scale up",
+     "explain": "0.333 x 100 gives about 33 per cent, matching the one third finding",
+     "compute": "retention_pct = survival_ratio * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "lehe107.txt Juvenile Justice Act section",
+   "concept": "lehe107.3",
+   "question_type": "short_answer",
+   "question_pattern": "A sixteen year old is caught for theft and a nine year old is found abandoned at a railway platform. Under which categories of the Juvenile Justice Act 2000 does each child fall and what happens next?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "classify each child",
+     "explain": "the sixteen year old is a juvenile in conflict with law; the abandoned nine year old is in need of care and protection"
+    },
+    {
+     "step": 2,
+     "action": "state the institutional response",
+     "explain": "conflict with law leads through observation and special homes; the abandoned child moves to care and rehabilitation through a children's home"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-rv-1",
+   "source_ref": "lehe107.txt Review Questions 1-6",
+   "questions": [
+    "Why are children, youth and the elderly counted as vulnerable?",
+    "Which programmes suit the needs of youth?",
+    "What are the main concerns regarding the elderly?",
+    "Describe two programmes each for children, youth and the elderly.",
+    "What advice would you give a person planning to start an institution for children, youth or the elderly?",
+    "Which knowledge and skills does managing institutions and programmes demand?"
+   ]
+  },
+  {
+   "id": "ex-pr-1",
+   "source_ref": "lehe107.txt Practical 1 and Practical 2",
+   "questions": [
+    "Write and enact a fifteen minute role play about the dynamics of a large joint family, giving the grandparents an important place, and discuss the well being of every member afterwards.",
+    "Prepare a booklet of four line illustrated poems on environment, birds or animals using four by six inch cards, a title cover and string binding.",
+    "Analyse how such a poem booklet supports language development in young children."
+   ]
+  }
+ ]
+}

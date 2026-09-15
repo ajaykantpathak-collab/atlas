@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_04_001",
+   "title": "c11_geo_cbse_04_001",
+   "questions": [
+    {
+     "q": "State the name of the supercontinent and the global ocean in Wegener's theory, and give the approximate geological time when Pangaea began to break apart.",
+     "a": "Pangaea (supercontinent) and Panthalassa (global ocean); breakup began around 200 million years ago (Late Triassic/Early Jurassic). A wrong answer (e.g., \"Gondwana and Laurasia\" or \"100 million years\") reveals confusion between the *supercontinent* and its *daughter continents*, or ignorance of the geological timescale — both critical for sequencing later plate tectonics events.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Wegener use the distribution of *Glossopteris* fossils across India, Antarctica, Australia, Africa, and South America as evidence for continental drift, rather than just the jigsaw fit of coastlines?",
+     "a": "*Glossopteris* was a heavy-seeded fern whose seeds could not disperse across oceans; its presence on five now-separated southern continents proves these lands were once joined. A wrong answer (e.g., \"wind carried the seeds\" or \"coastlines change due to erosion\") shows the student misses the *biological impossibility* of trans-oceanic dispersal for this taxon, which is the core logical strength of paleontological evidence over geometric fit alone.",
+     "self_check": true
+    },
+    {
+     "q": "On a blank outline map of the Southern Hemisphere, plot the locations of *Mesosaurus* fossil finds (Brazil, South Africa) and the Gondwana glacial deposits (tillites in India, Africa, South America, Australia, Antarctica). Then draw the reconstructed Pangaea configuration that explains both datasets simultaneously.",
+     "a": "Steps: (1) Mark fossil sites on current map — they are separated by Atlantic Ocean. (2) Mark glacial striations/tillites — they radiate from a common center in southern Africa/Antarctica. (3) Rotate continents to close Atlantic: South America fits against Africa; India/Australia/Antarctica attach to Africa's east. (4) Glacial center now lies over South Pole — consistent with ice sheet flow outward. (5) *Mesosaurus* habitats become contiguous freshwater lakes. A wrong reconstruction (e.g., not rotating Antarctica to the pole) reveals inability to synthesize multiple evidence types into a single coherent paleogeography.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the rock sequences of the Karroo System (South Africa) and the Gondwana Sequence (India). Identify three specific lithological and stratigraphic similarities that Wegener cited, and explain why these cannot be explained by uniformitarian processes acting on fixed continents.",
+     "a": "Similarities: (1) Basal tillites (glacial), (2) Coal-bearing shales with *Glossopteris*, (3) Overlying basaltic lava flows (Karoo/Drake volcanics). On fixed continents, identical glacial→coal→volcanic sequences on now-separated landmasses would require improbable parallel evolution of environments. A wrong answer focusing only on \"similar rocks\" without the *stratigraphic order* and *paleoclimatic inconsistency* (coal in Antarctica today) shows superficial pattern-missing — the student sees correlation but not the *impossibility* under static continents.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Wegener's theory was rejected because his evidence was weak.\" Support your judgment with three specific historical criticisms raised by geophysicists in the 1920s.",
+     "a": "The statement is false — evidence was strong (fit, fossils, rocks, paleoclimate). Rejection was due to: (1) **No mechanism**: Wegener proposed \"polflucht\" (centrifugal force) and tidal drag, both calculated to be 10^4–10^5 times too weak to move continents through rigid oceanic crust. (2) **Fixed ocean basins**: Prevailing view held ocean floors were permanent, not created/destroyed. (3) **Isostasy misunderstanding**: Critics argued continents \"float\" on sima but cannot \"plow\" through it. A student blaming \"weak evidence\" confuses *evidentiary strength* with *mechanistic plausibility* — a classic senior-secondary error that persists into plate tectonics learning.",
+     "self_check": true
+    },
+    {
+     "q": "Design a physical model using modeling clay on a spherical balloon to demonstrate the breakup of Pangaea from 200 Ma to present. Your model must show: (a) initial supercontinent configuration, (b) formation of Tethys Sea, (c) separation of Gondwana and Laurasia, (d) opening of Atlantic and Indian Oceans. Label each stage with geological period names.",
+     "a": "A good model: (1) Covers balloon with single clay mass (Pangaea, Triassic). (2) Indents clay to form Tethys embayment (Jurassic). (3) Splits into northern (Laurasia) and southern (Gondwana) masses. (4) Pulls South America from Africa (Cretaceous) — Atlantic opens. (5) Pulls India from Antarctica/Africa, rotates north (Cenozoic) — Indian Ocean opens. Poor models keep continents as rigid blocks without *internal deformation* (e.g., India's collision with Asia) or mis-time events (e.g., Atlantic opening before Tethys). This reveals whether the student grasps *sequential, diachronous* rifting versus simultaneous breakup.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

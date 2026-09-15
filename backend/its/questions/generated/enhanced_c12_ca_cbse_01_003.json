@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ca_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c12_ca_cbse_01_003",
+   "title": "c12_ca_cbse_01_003",
+   "questions": [
+    {
+     "q": "A student writes: \"Simple and Integrated means the software is easy to use and has a simple interface.\" What specific NCERT-defined functionality is missing from this answer?",
+     "a": "The answer misses the core NCERT requirement: \"automate and integrate all business operations such as sales, finance, purchase, inventory and manufacturing\" and \"integrated with enhanced MIS, Multi-lingual and Data Organisation capabilities.\" A wrong answer reveals the student confuses \"simple\" (user-friendly UI) with \"simple and integrated\" (cross-functional automation and MIS integration). The student has memorised the label but not the operational meaning.",
+     "self_check": true
+    },
+    {
+     "q": "In a manual system, a purchase invoice is entered in the Purchase Book, then posted to the supplier's ledger, then to the Purchase Ledger, then to the Control Account. In CAS, the same invoice is entered once as a Purchase Voucher. Which salient feature does this demonstrate, and WHY does it matter for \"Transparency and Control\"?",
+     "a": "This demonstrates \"Simple and Integrated\" — single entry updates all linked modules (purchase register, supplier ledger, stock, GST returns) simultaneously. It matters for Transparency and Control because the audit trail is automatic: every rupee flows through one entry point, so the owner can trace any payment to its source document instantly without cross-referencing multiple books. A wrong answer (e.g., \"Accuracy and Speed\") shows the student cannot distinguish between integration (structural) and speed (performance).",
+     "self_check": true
+    },
+    {
+     "q": "A mid-sized manufacturing firm using CAS experiences a sudden 300% order surge during festival season. The software handles the increased voucher volume without performance degradation or needing new hardware. Which feature is being tested, and what specific NCERT phrase describes this capability?",
+     "a": "The feature is Scalability. The NCERT phrase: \"CAS enables in changing the volume of data processing in tune with the change in the size of the business. The software can be used for any size of the business and type of the organisation.\" A wrong answer (e.g., \"Reliability\") confuses data security with volume handling. The student must link \"volume of data processing\" to \"change in size of business\" — not just \"works fast.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare \"Accuracy and Speed\" vs \"Reliability\" in CAS. A student claims: \"If the system is accurate and fast, it is automatically reliable.\" Analyse this claim using the NCERT definitions. Identify the specific scenario where accuracy/speed exist but reliability fails.",
+     "a": "The claim is false. NCERT defines Accuracy/Speed as: \"user-definable templates for fast, accurate data entry\" and \"generalising desired documents and reports.\" Reliability is: \"makes sure that the generalised critical financial information is accurate, controlled and secured.\" A system can be accurate/fast but unreliable if: (a) no password security → unauthorised edits, (b) no data audit → changes untraceable, (c) no encryption → data stolen. Example: Tally processes 10,000 vouchers/hour accurately, but if the hard disk crashes and no backup vault exists, reliability fails. The student must distinguish operational performance (accuracy/speed) from data governance (reliability).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement for a board exam answer: \"Transparency and Control in CAS means the owner can see all transactions on screen.\" Is this sufficient for 2 marks? Justify using NCERT wording.",
+     "a": "Insufficient for 2 marks. NCERT specifies: \"provides sufficient time to plan, increases data accessibility and enhances user satisfaction... greater transparency for day-to-day business operations and access to the vital information.\" A 2-mark answer must include: (1) planning enablement (time to plan), (2) data accessibility (not just \"see on screen\" but structured access), (3) vital information access (decision-useful data, not raw entries). The student's answer misses \"planning\" and \"vital information\" — it describes visibility, not transparency for decision-making.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-feature checklist (exclude Scalability) that an auditor would use to verify CAS compliance in a GST-registered firm. For each feature, specify one test the auditor would perform.",
+     "a": "Checklist with auditor tests:\n1. Simple & Integrated: Test — Enter one Sales Voucher; verify auto-update in Sales Register, Customer Ledger, Stock Register, GSTR-1 JSON simultaneously.\n2. Transparency & Control: Test — Pick a random GST payment; trace from Payment Voucher → Bank Ledger → GSTR-3B liability → Challan — all in <30 seconds without manual cross-reference.\n3. Accuracy & Speed: Test — Process 500 vouchers via import; verify zero arithmetic mismatch between voucher total and ledger balances; time < 2 minutes.\n4. Reliability: Test — Simulate power failure during posting; verify data vault (encrypted backup) restores to last committed transaction with audit trail intact.\nA poor answer lists features without testable verification steps — shows theoretical knowledge without audit application.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

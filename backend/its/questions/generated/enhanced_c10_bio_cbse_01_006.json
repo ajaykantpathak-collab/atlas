@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_01_006",
+   "title": "c10_bio_cbse_01_006",
+   "questions": [
+    {
+     "q": "Name the three major enzymes present in pancreatic juice and state the specific substrate each acts upon.",
+     "a": "Pancreatic amylase acts on starch (carbohydrates), trypsin acts on proteins, and pancreatic lipase acts on fats (lipids). A wrong answer (e.g., listing pepsin or salivary amylase) reveals the student confuses pancreatic enzymes with gastric or salivary enzymes, indicating they haven't distinguished the site-specific enzyme sources.",
+     "self_check": true
+    },
+    {
+     "q": "Why is bile essential for fat digestion even though it contains no digestive enzymes?",
+     "a": "Bile salts emulsify large fat globules into tiny droplets, dramatically increasing the surface area for pancreatic lipase to act efficiently. Without emulsification, lipase cannot access the interior of large fat globules. A wrong answer (e.g., \"bile digests fats\" or \"bile neutralizes acid only\") shows the student misses the physical (not chemical) role of bile and the concept of surface-area-dependent enzyme action.",
+     "self_check": true
+    },
+    {
+     "q": "A patient has a blocked bile duct. Predict which nutrient's digestion will be most severely affected and explain why the other two major nutrients are less affected.",
+     "a": "Fat digestion will be most severely affected because bile is essential for emulsification of fats; without bile, pancreatic lipase cannot act effectively. Carbohydrate and protein digestion are less affected because pancreatic amylase and trypsin do not require bile for their action (they work on water-soluble substrates). A wrong prediction (e.g., \"protein digestion stops\") reveals the student doesn't understand the substrate-specific requirement for bile.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the absorption pathways of glucose and fatty acids in the villi. Why do they enter different vessels?",
+     "a": "Glucose and amino acids are water-soluble, so they diffuse into blood capillaries and travel via the hepatic portal vein to the liver. Fatty acids and glycerol are lipid-soluble; they are reassembled into triglycerides inside epithelial cells, packaged into chylomicrons, and enter lacteals (lymphatic capillaries) to bypass the liver initially. A wrong comparison (e.g., \"both enter blood\") shows the student overlooks the solubility difference and the structural adaptation of lacteals for lipid transport.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Villi increase surface area for absorption, so if a person has shorter villi due to a disease, they will absorb fewer nutrients but the *rate* of absorption per unit area remains unchanged.\" Is this correct? Justify.",
+     "a": "The statement is correct. Villi increase total surface area; shorter villi reduce total area, lowering total absorption capacity. However, the intrinsic transport mechanisms (carrier proteins, diffusion gradients) per unit area are unaffected by villi length alone. A wrong evaluation (e.g., \"rate per unit area also decreases\") confuses total capacity with cellular-level transport kinetics, missing the distinction between structural adaptation and molecular mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using dialysis tubing to model the selective absorption of nutrients in the small intestine. Specify what you would put inside the tubing, what the outside solution would be, and how you would test for absorption of glucose vs. starch.",
+     "a": "Fill dialysis tubing with a mixture of starch and glucose solution (simulating chyme). Place tubing in a beaker of water (simulating blood). After 20 minutes, test the outside water for glucose (Benedict's test) and starch (iodine test). Glucose will diffuse out (small molecules), starch will not (large molecules). A poor design (e.g., using same test for both, or not controlling temperature) reveals the student doesn't grasp molecular size selectivity or proper experimental controls.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

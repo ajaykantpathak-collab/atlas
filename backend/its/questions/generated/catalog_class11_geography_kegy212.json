@@ -1,0 +1,41 @@
+{
+  "catalog": "catalog_class11_geography_kegy212",
+  "concepts": [
+    {
+      "id": "kegy.212.1.1",
+      "questions": [
+        {"q": "Average ocean salinity is about 35 parts per what? (one word)", "a": "thousand"},
+        {"q": "Average ocean water is about what per cent salt? (give the per cent)", "a": "3.5"},
+        {"q": "Open-ocean salinity varies between about 32 and how many parts per thousand? (number)", "a": "37"},
+        {"q": "Which shallow, gently sloping part of the ocean floor lies nearest the coast? (two words)", "a": "continental shelf"},
+        {"q": "Which steep descent follows the continental shelf? (two words)", "a": "continental slope"},
+        {"q": "Which deep, flat parts cover most of the ocean floor? (three words)", "a": "deep sea plain"},
+        {"q": "A basin holds 350 grams of salt dissolved in 10,000 grams of water. What is its salinity in parts per thousand? (number)", "a": "35"}
+      ]
+    },
+    {
+      "id": "kegy.212.2.1",
+      "questions": [
+        {"q": "Ocean temperature falls with latitude and with what below the surface? (one word)", "a": "depth"},
+        {"q": "Which cycle do the oceans drive by evaporating water that returns as rain? (two words)", "a": "hydrological cycle"},
+        {"q": "The sea's high capacity for storing what moderates earth's climate? (one word)", "a": "heat"},
+        {"q": "Is surface ocean water warmer at the equator or at the poles? (one word)", "a": "equator"},
+        {"q": "Which sphere of water vapour returns ocean moisture to land as precipitation? (one word)", "a": "atmosphere"},
+        {"q": "Does the ocean heat up or cool down slowly compared with land? (one word)", "a": "slowly"},
+        {"q": "The hydrological cycle moves water between the sea, the air and the what? (one word)", "a": "land"}
+      ]
+    },
+    {
+      "id": "kegy.212.3.1",
+      "questions": [
+        {"q": "Which ocean food industry employs millions? (one word)", "a": "fisheries"},
+        {"q": "Name one mineral obtained from the seabed besides oil and natural gas. (two words)", "a": "polymetallic nodules"},
+        {"q": "Which two fossil fuels come from beneath the sea floor? (two words)", "a": "oil, natural gas"},
+        {"q": "Which renewable ocean energy source rises and falls twice a day? (one word)", "a": "tides"},
+        {"q": "What carry most of the world's traded goods between continents? (two words)", "a": "sea routes"},
+        {"q": "How many ocean mineral-energy resources are named besides fisheries (oil, gas, nodules, tidal, wave)? (number)", "a": "5"},
+        {"q": "Which ocean resource matters most to future food security? (one word)", "a": "fisheries"}
+      ]
+    }
+  ]
+}

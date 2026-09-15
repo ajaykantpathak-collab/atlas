@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch01_012",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch01_012",
+   "title": "c6_math_ch01_012",
+   "questions": [
+    {
+     "q": "What is the rule for rounding a digit if the digit to its right is 4 or less?",
+     "a": "You keep the digit the same and replace all digits to the right with zeros. A student who says \"round up\" has confused the rule for digits 5-9 with the rule for digits 0-4.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we estimate a sum instead of just calculating the exact answer every time?",
+     "a": "Estimation saves time and helps verify if an exact answer is logical (reasonable). Answering that \"it's just a guess\" misses the point that estimation is a strategic tool for checking work.",
+     "self_check": true
+    },
+    {
+     "q": "Estimate the sum of 4,321 and 2,789 by rounding to the nearest thousand.",
+     "a": "Round 4,321 to 4,000 and 2,789 to 3,000. 4,000 + 3,000 = 7,000. Errors here usually stem from rounding 2,789 to 2,000 instead of 3,000, indicating a misunderstanding of the \"5 or more\" rule.",
+     "self_check": true
+    },
+    {
+     "q": "If you are estimating the difference between 8,912 and 3,145 by rounding to the nearest thousand, why is 6,000 a better estimate than 5,000?",
+     "a": "8,912 rounds to 9,000 and 3,145 rounds to 3,000; 9,000 - 3,000 = 6,000. If a student chooses 5,000, they likely rounded 8,912 incorrectly to 8,000, failing to recognize that 9 is greater than 5.",
+     "self_check": true
+    },
+    {
+     "q": "Is it more accurate to estimate 452 + 312 by rounding to the nearest ten or the nearest hundred? Justify your choice.",
+     "a": "Rounding to the nearest ten (450 + 310 = 760) is more accurate because it retains more information about the digits than rounding to the nearest hundred (500 + 300 = 800). Choosing the \"hundreds\" shows the student understands the method but lacks awareness of precision.",
+     "self_check": true
+    },
+    {
+     "q": "Create an estimation problem involving rupees where rounding to the nearest hundred would give a helpful answer for a shopper.",
+     "a": "\"I have ₹1000. If I buy a shirt for ₹420 and pants for ₹580, do I have enough?\" Answering with a problem like \"Estimate 123 + 456\" is technically correct but lacks the requested real-world context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

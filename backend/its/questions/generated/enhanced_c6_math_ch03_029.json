@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch03_029",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch03_029",
+   "title": "c6_math_ch03_029",
+   "questions": [
+    {
+     "q": "In the fraction 3/4, what do the numbers 3 and 4 represent?",
+     "a": "3 is the numerator (parts we have) and 4 is the denominator (total equal parts). If a student says 3 is the top and 4 is the bottom, they recall the position but not the meaning; if they flip them, they misunderstand the core concept of a share.",
+     "self_check": true
+    },
+    {
+     "q": "If you divide a chocolate bar into 5 parts, but they are all different sizes, can you say one piece is 1/5 of the bar? Why or why not?",
+     "a": "No, because fractions require equal parts. If the pieces are different sizes, they are not \"equal shares,\" and therefore we cannot use a single fraction to describe a part of that whole.",
+     "self_check": true
+    },
+    {
+     "q": "You have 1 kg of apples and divide them into 4 equal bags. What fraction of the total weight is in one bag?",
+     "a": "The fraction is 1/4. We identify the whole (1 kg) and divide by the number of equal parts (4). Answering 4/1 shows the student has reversed the numerator and denominator, which is a common error.",
+     "self_check": true
+    },
+    {
+     "q": "If you have 1/6 of a cake and your friend has 1/3 of the same cake, who has a larger piece? Explain why.",
+     "a": "The friend with 1/3 has a larger piece. Because 1/3 means the cake is cut into only 3 big pieces, while 1/6 means it is cut into 6 smaller pieces; dividing a whole into more parts makes each part smaller.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible to have a fraction like 5/0? Why or why not?",
+     "a": "No, the denominator cannot be zero because you cannot divide a whole into zero parts. Division by zero is undefined, and a fraction represents an actual division of a physical or numerical whole.",
+     "self_check": true
+    },
+    {
+     "q": "Draw a square. Show how you would shade 3/4 of it. If you had to create a different shape representing 3/4, how would you change your approach?",
+     "a": "The student should divide the square into 4 equal parts and shade 3. For a different shape (like a circle), they must still ensure 4 equal parts are created. Poor answers fail to keep the parts equal in size.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

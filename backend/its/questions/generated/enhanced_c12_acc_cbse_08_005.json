@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_08_005",
+   "title": "c12_acc_cbse_08_005",
+   "questions": [
+    {
+     "q": "What is the correct formula for calculating percentage change in a Comparative Statement of Profit and Loss, and why is the previous year's figure used as the base?",
+     "a": "Percentage Change = ((Current Year Amount – Previous Year Amount) / Previous Year Amount) × 100. The previous year is the base because we measure growth/decline relative to the starting point — just as a 50% increase from ₹100 to ₹150 uses ₹100 as base. A wrong answer using Current Year as base (e.g., (Change/Current Year) × 100) reveals confusion between growth rate and margin concepts, leading to incorrect trend interpretation in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A student prepares a Comparative Statement and finds that Revenue from Operations increased by 20% but Cost of Materials Consumed increased by 35%. The student concludes \"profitability has improved because revenue grew.\" Explain why this conclusion is flawed and what the student should analyse instead.",
+     "a": "The conclusion is flawed because profitability depends on the relationship between revenue and cost growth, not revenue growth alone. If costs grow faster than revenue (35% > 20%), gross margin compresses. The student should calculate Gross Profit for both years and its percentage change, then compare Gross Profit Ratio (Gross Profit/Revenue × 100) across years. A wrong answer focusing only on absolute revenue increase shows inability to analyse cost structure impact — a common error in 4-marker \"interpret the comparative statement\" board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Given: Previous Year Revenue from Operations = ₹12,00,000; Current Year Revenue from Operations = ₹15,00,000; Previous Year Cost of Materials Consumed = ₹7,20,000; Current Year Cost of Materials Consumed = ₹9,60,000. Prepare the comparative rows for these two items and determine whether Gross Profit margin improved or deteriorated.",
+     "a": "Revenue: Absolute Change = ₹3,00,000; % Change = 25%. Cost of Materials: Absolute Change = ₹2,40,000; % Change = 33.33%. Gross Profit PY = ₹4,80,000 (40% margin); CY = ₹5,40,000 (36% margin). Margin deteriorated by 4 percentage points despite absolute Gross Profit increasing by ₹60,000 (12.5%). A wrong answer stating \"margin improved because Gross Profit increased\" reveals confusion between absolute profit growth and margin percentage — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "In a Comparative Statement of Profit and Loss, Employee Benefits Expense decreased by 10% while Revenue from Operations increased by 15%. However, the percentage of Employee Benefits Expense to Revenue decreased from 20% to 15.65%. Explain how both statements can be true simultaneously and which metric is more meaningful for efficiency analysis.",
+     "a": "Both are true because the base for expense % change is Previous Year Expense, while the expense-to-revenue ratio uses Revenue as base. Let PY Revenue = ₹100, PY Expense = ₹20 (20%). CY Revenue = ₹115 (+15%), CY Expense = ₹18 (-10%). Expense/Revenue = 18/115 = 15.65%. The expense-to-revenue ratio is more meaningful for efficiency as it shows resource consumption per revenue rupee. A wrong answer claiming contradiction reveals inability to distinguish between growth rates and structural ratios — critical for CUET case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "A company's Comparative Statement shows: Finance Costs increased by 200% (from ₹50,000 to ₹1,50,000), while Profit Before Tax decreased by 40%. The management argues \"Finance Costs are only 3% of Revenue, so the increase is insignificant.\" Evaluate this argument using the concept of operating leverage and interest coverage.",
+     "a": "The argument is flawed. A 200% increase in Finance Costs signals high financial risk regardless of its revenue percentage. Interest Coverage Ratio (EBIT/Interest) would have plummeted — if PY EBIT = ₹5,00,000, coverage = 10×; CY EBIT = ₹3,00,000 (40% drop), coverage = 2× — near danger zone. High operating leverage (fixed finance costs) amplifies profit volatility. A wrong answer accepting the \"3% of revenue\" logic ignores leverage risk — a key distinction between board-level analysis and competitive-exam depth (JEE/CUET finance questions).",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini Comparative Statement of Profit and Loss for a hypothetical startup showing: Revenue growth of 50%, but all expense categories growing at 60-80%, resulting in a shift from Profit to Loss. Include 5 line items with realistic Indian Rupee amounts. Explain what this pattern indicates about the business model.",
+     "a": "Example: PY Revenue ₹20L, CY ₹30L (+50%). PY Expenses: Materials ₹8L→₹13.6L (+70%), Employee ₹4L→₹7.2L (+80%), Marketing ₹3L→₹5.4L (+80%), Admin ₹2L→₹3.2L (+60%), Depreciation ₹1L→₹1.5L (+50%). PY Profit ₹2L, CY Loss ₹0.9L. Pattern indicates unsustainable customer acquisition — expenses scaling faster than revenue, typical of early-stage startups burning cash for growth. A poor answer showing all expenses growing slower than revenue misses the core concept of \"margin destruction during scaling\" — essential for modern business analysis in competitive exams.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch4_9",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch4_9",
+   "title": "c9_physics_ch4_9",
+   "questions": [
+    {
+     "q": "State the SI unit of power and write its relationship with joule and second.",
+     "a": "The SI unit of power is watt (W). 1 W = 1 J/s. A wrong answer like \"joule\" or \"newton\" reveals the student confuses power with work or force. Writing \"W = J × s\" shows they misunderstand the rate concept as multiplication instead of division.",
+     "self_check": true
+    },
+    {
+     "q": "Two students, A and B, each lift a 20 kg box to a height of 2 m. Student A takes 4 seconds, student B takes 8 seconds. Who has greater power? Explain why the work done is the same but power differs.",
+     "a": "Student A has greater power. Work done = mgh = 20 × 10 × 2 = 400 J for both. Power of A = 400/4 = 100 W; Power of B = 400/8 = 50 W. Same work, less time means higher power. A wrong answer claiming B has more power because \"he took more time\" reveals the misconception that power increases with time, confusing total energy with rate.",
+     "self_check": true
+    },
+    {
+     "q": "A 1.5 kW water pump runs for 2 hours daily. Calculate the electrical energy consumed in one day in joules and in kilowatt-hours (kWh).",
+     "a": "Power = 1.5 kW = 1500 W. Time = 2 h = 7200 s. Energy in joules = P × t = 1500 × 7200 = 10,800,000 J = 1.08 × 10^7 J. Energy in kWh = 1.5 kW × 2 h = 3 kWh. A wrong answer of 3000 J (using kW × seconds without conversion) reveals unit inconsistency: mixing kW with seconds instead of hours for kWh, or forgetting to convert kW to W for joules.",
+     "self_check": true
+    },
+    {
+     "q": "A graph shows work done (y-axis) versus time (x-axis) for two machines: Machine X is a straight line through origin with slope 500; Machine Y is a horizontal line at 2000 J after 2 seconds. Compare their power outputs and explain the physical meaning of the slope.",
+     "a": "Machine X has constant power of 500 W (slope = ΔW/Δt = power). Machine Y does 2000 J in 2 s (average power 1000 W) then stops (power becomes 0). The slope of work-time graph gives instantaneous power. A wrong answer saying both have same power because \"both reach 2000 J\" ignores the time dimension and the meaning of slope as rate.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"A 100 W bulb runs for 5 hours. Energy = 100 × 5 = 500 J.\" Evaluate this solution. Identify the error and give the correct energy in joules and kWh.",
+     "a": "The solution is incorrect. Error: used power in watts and time in hours directly, giving watt-hours, not joules. Correct: Energy = 100 W × (5 × 3600) s = 1,800,000 J = 1.8 × 10^6 J. In kWh: 0.1 kW × 5 h = 0.5 kWh. A student who accepts 500 J reveals they treat units as labels without dimensional consistency.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to compare the power output of two different electric bulbs (e.g., LED vs incandescent) without using a power meter. Describe the procedure, measurements, and calculation.",
+     "a": "Good answer: Use a calorimeter (or water container) to measure heat energy produced. Immerse each bulb in a known mass of water, run for fixed time, measure temperature rise. Heat energy = mcΔT. Power = energy/time. Compare powers. Poor answer: \"Look at brightness\" or \"check the wattage written on bulb\" reveals inability to design a measurement-based experiment and confusion between rated power and actual power.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

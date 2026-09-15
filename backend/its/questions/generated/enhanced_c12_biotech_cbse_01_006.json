@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_01_006",
+   "title": "c12_biotech_cbse_01_006",
+   "questions": [
+    {
+     "q": "What are the two *cis*-acting DNA sequences absolutely required for T-DNA transfer from *Agrobacterium* to the plant genome, and what is their consensus length and orientation?",
+     "a": "The left border (LB) and right border (RB), each a 25-bp direct repeat (consensus: 5'-TGGT...-3') flanking the T-DNA; they are in the *same* orientation (direct repeats), not inverted. A wrong answer (e.g., “inverted repeats” or “10-bp borders”) reveals the student confuses T-DNA borders with transposon inverted repeats or restriction sites, and does not understand that border *orientation* determines the direction of T-strand synthesis (nick at RB → 5'→3' synthesis toward LB).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a wild-type Ti plasmid cannot be used directly as a cloning vector for plant transformation, and describe the precise genetic modification that converts it into a “disarmed” vector.",
+     "a": "Wild-type Ti plasmid carries oncogenes (*iaaM*, *iaaH*, *ipt*) in the T-DNA that cause uncontrolled tumor (crown gall) formation; using it directly would produce transgenic plants with developmental abnormalities, not the desired trait. “Disarming” = precise deletion (or inactivation) of all oncogenes within the T-DNA while retaining the LB and RB *cis*-elements and the *vir* genes (on the same or a separate plasmid). A wrong answer (“remove the whole T-DNA” or “delete *vir* genes”) shows the student does not grasp that *vir* genes act in *trans* and borders act in *cis* — both must be preserved for transfer competence.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher constructs a binary vector system: pBIN19 (carrying T-DNA with LB/RB, *nptII* selectable marker, and a 3.2 kb *cry1Ac* gene) in *E. coli*, then mobilizes it into *Agrobacterium* strain LBA4404 (which carries a disarmed Ti plasmid with functional *vir* genes but no T-DNA). During plant transformation, the *cry1Ac* gene integrates but *nptII* does not. Propose a molecular explanation consistent with T-DNA processing mechanics.",
+     "a": "T-DNA transfer initiates at the RB nick and proceeds 5'→3' toward LB; if the T-DNA is large (>10 kb) or the *vir* genes are weak, transfer often terminates prematurely before reaching the LB. Genes closer to RB (*cry1Ac* inserted near RB) transfer efficiently; genes near LB (*nptII*) are lost. This “right-border priority” is a hallmark of T-strand synthesis. A wrong answer (“*nptII* mutated” or “*Agrobacterium* lost pBIN19”) ignores the polar, processive nature of T-DNA transfer and the known size-dependent truncation effect.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the co-integrate vector strategy (e.g., pGV3850) and the binary vector strategy (e.g., pBIN19 + pAL4404) for Ti plasmid-mediated transformation. Which strategy is preferred for routine cloning in *E. coli* and why?",
+     "a": "Co-integrate: single large plasmid (~150 kb) formed by homologous recombination between a T-DNA clone (in *E. coli*) and a disarmed Ti plasmid (in *Agrobacterium*); T-DNA and *vir* genes on same molecule. Binary: two separate plasmids — small T-DNA vector (replicates in *E. coli* via pBR322 ori, in *Agrobacterium* via pVS1 ori) + helper Ti plasmid with *vir* genes. Binary is preferred for routine cloning because the T-DNA vector is small (<15 kb), high-copy in *E. coli*, easy to manipulate, and avoids laborious homologous recombination in *Agrobacterium*. A wrong answer (“co-integrate is smaller” or “binary requires recombination”) reverses the key practical advantages.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: “*Agrobacterium tumefaciens* can transform any plant species, including monocots like rice and wheat, with equal efficiency.” Justify your evaluation with two specific biological constraints.",
+     "a": "Statement is **false**. Constraints: (1) **Host range limitation** — natural *Agrobacterium* strains attach poorly to monocots due to lack of specific phenolic receptors (e.g., acetosyringone) and absence of compatible attachment proteins (e.g., *chvA*, *chvB* loci). (2) **T-DNA integration efficiency** — monocots often show low frequency of stable integration and high somaclonal variation during tissue culture. Modern “super-binary” vectors (e.g., pTOK233) with additional *vir* genes (e.g., *virG*^c^) and optimized tissue culture protocols (e.g., scutellum callus, supervirulent strains like EHA105) partially overcome these, but efficiency remains genotype-dependent. A wrong answer (“it works equally well” or “monocots lack nuclei”) shows ignorance of the historical monocot recalcitrance and the molecular basis of host recognition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical binary vector for producing marker-free transgenic tomato expressing a fruit-specific *polygalacturonase* antisense gene. Specify: (a) T-DNA composition (promoter, gene, terminator, borders), (b) selection strategy that avoids antibiotic resistance in the final plant, and (c) *Agrobacterium* strain and *vir* gene enhancements you would use for high efficiency.",
+     "a": "(a) T-DNA: LB – *E8* (fruit-ripening promoter) – *polygalacturonase* antisense cDNA – *nos* terminator – RB. (b) Use **CRE/loxP** or **FLP/FRT** site-specific recombination: include *nptII* flanked by loxP sites for kanamycin selection during tissue culture, then cross with a *CRE*-expressing line (or transiently express CRE) to excise *nptII*, leaving only the antisense cassette. (c) Strain **EHA105** (supervirulent, *virG*^c^ on chromosome) + binary vector with **extra *vir* genes** (e.g., *virE*, *virG* on helper plasmid) and **acetosyringone (200 µM)** during co-cultivation. A poor answer omits the excision system (leaving antibiotic marker), uses constitutive promoter (CaMV 35S) for fruit-specific trait, or ignores *vir* enhancements for tomato.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

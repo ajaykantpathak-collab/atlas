@@ -1,0 +1,151 @@
+{
+ "catalog": "catalog_class12_sociology_lesy107",
+ "concepts": [
+  {
+   "id": "lesy107.1",
+   "title": "Choosing a Research Question and a Suitable Method",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Choosing a Research Question and a Suitable Method' refers to.",
+     "a": "Every research question needs an appropriate method: a given question may admit several methods, but no single method suits all questions, so after pinning down a specific question from a broad topic - comparing co-educational, boys-only and girls-only schools on happiness, say - the researcher selects a method on technical grounds of question-method compatibility and practical grounds of available time, people, materials and circumstances.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Choosing a Research Question and a Suitable Method'.",
+     "a": "First narrow the broad topic into one specific question; only then can the limited menu of suitable methods be weighed against the time and resources at hand.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Choosing a Research Question and a Suitable Method', in plain ASCII form.",
+     "a": "method_choice = question_method_compatibility + practical_constraints (time, people, materials, circumstances)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy107.2",
+   "title": "Survey Method: Coverage, Fixed Questions and Response Rates",
+   "questions": [
+    {
+     "q": "Using the method 'Survey Method: Coverage, Fixed Questions and Response Rates', work with: complete_forms = 12, distributed_forms = 240, returned_forms = 25. Carry the chain through step by step and give the final value of usable_rate.",
+     "a": "48 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Survey Method: Coverage, Fixed Questions and Response Rates' and work with: complete_forms = 100, distributed_forms = 45, returned_forms = 15. Carry the chain through step by step and give the final value of usable_rate.",
+     "a": "666.6667 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Survey Method: Coverage, Fixed Questions and Response Rates' refers to.",
+     "a": "A survey asks a relatively large number of people - 30, 100 or 2000, depending on context - the same fixed set of questions, either read out by an investigator or handed over for self-filling; its strength is representative coverage of a population, while its weaknesses are the frozen question list, the impossibility of probing an interesting answer, and the snapshot quality that misses before and after. Distributed questionnaires rarely all come back complete, so the researcher must compute how many returned and how many of those are usable.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Survey Method: Coverage, Fixed Questions and Response Rates'.",
+     "a": "Multiply the returned share and the complete share to see how much of the survey actually speaks - and decide whether to chase incomplete forms or drop them.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Survey Method: Coverage, Fixed Questions and Response Rates', in plain ASCII form.",
+     "a": "response_rate = returned_forms / distributed_forms * 100 ; usable_rate = complete_forms / returned_forms * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy107.3",
+   "title": "Interview Method: Few Respondents, Long Conversations",
+   "questions": [
+    {
+     "q": "Using the method 'Interview Method: Few Respondents, Long Conversations', work with: hours_per_visit = 200, respondents_interviewed = 75, visits_per_respondent = 120. Carry the chain through step by step and give the final value of field_hours.",
+     "a": "1800000 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Interview Method: Few Respondents, Long Conversations' and work with: hours_per_visit = 60, respondents_interviewed = 4, visits_per_respondent = 10. Carry the chain through step by step and give the final value of field_hours.",
+     "a": "2400 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Interview Method: Few Respondents, Long Conversations' refers to.",
+     "a": "The interview is always conducted in person with far fewer people - as few as 5, 20 or 40 - and may be structured along a pre-decided question pattern or unstructured around a set of topics that grow into conversation; sessions may run two to three hours or repeat across visits for a really detailed story. Its flexibility lets promising topics be pursued, questions refined and clarifications sought, at the cost of covering only a select group's views.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Interview Method: Few Respondents, Long Conversations'.",
+     "a": "Multiply respondents by repeat visits and hours per visit to budget the fieldwork time an interview study demands.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Interview Method: Few Respondents, Long Conversations', in plain ASCII form.",
+     "a": "field_hours = respondents_interviewed * visits_per_respondent * hours_per_visit",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy107.4",
+   "title": "Observation Method: Watching Systematically",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Observation Method: Watching Systematically' refers to.",
+     "a": "Observation requires the researcher to watch and record systematically what happens in the chosen setting without pre-judging what counts as relevant - and sometimes what does not happen matters most, as when a class of people is simply never seen entering a public space. The method sounds simple but takes care in practice to log events fairly before any judgement about the study.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Observation Method: Watching Systematically'.",
+     "a": "The silence in the data - the group that never appears - can answer the research question as loudly as any visible act.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Observation Method: Watching Systematically', in plain ASCII form.",
+     "a": "observation_rule = systematic_watch + record_without_prejudging ; non_happening = as_informative_as_events",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy107.5",
+   "title": "Combining Methods to Approach a Question",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Combining Methods to Approach a Question' refers to.",
+     "a": "Methods can be combined so the same research question is attacked from different angles - often highly recommended, as when the changing place of newspapers and television is studied by pairing a survey of what happens today with archival methods that show what the media were like in the past; each method covers the other's blind side.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Combining Methods to Approach a Question'.",
+     "a": "One method's snapshot plus another's history turns a single-angle answer into a rounded one.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Combining Methods to Approach a Question', in plain ASCII form.",
+     "a": "combined_design = today_method (survey) + past_method (archival) -> fuller_answer",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy107.6",
+   "title": "Project Themes and Matching Topics to Methods",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Project Themes and Matching Topics to Methods' refers to.",
+     "a": "The chapter lists themes - public transport (including the Delhi Metro's imagined future), communication media in social life, household appliances and the domestic division of labour, use of public space, changing aspirations of age groups, and the biography of a commodity - and a matching table pairs each with methods: behaviour and etiquette at a bus station go to observation, opinions on appliance changes to surveys, history of change to archival sources, views of regular versus occasional users to interviews; aspiration studies skip observation as unsuitable, and interviewees should not come from the researcher's own school.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Project Themes and Matching Topics to Methods'.",
+     "a": "Topics are only starting points - the specific question chosen must suit the method, and familiar places make the best observation sites.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Project Themes and Matching Topics to Methods', in plain ASCII form.",
+     "a": "topic_method_pairs = transport_observation + appliance_surveys + history_archival + user_views_interviews ; aspirations -> observation_not_suitable",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

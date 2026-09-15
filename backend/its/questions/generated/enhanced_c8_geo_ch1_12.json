@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_geo_ch1_12",
+ "concepts": [
+  {
+   "id": "enh:c8_geo_ch1_12",
+   "title": "c8_geo_ch1_12",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a sustainable resource practice and a regenerative resource practice?",
+     "a": "A sustainable practice aims to maintain natural resources at their current state without further depletion, whereas a regenerative practice actively restores and improves damaged ecosystems to increase their natural resource capacity. A wrong answer stating that both mean the exact same thing shows that the student treats conservation as passive preservation rather than recognizing regeneration's active ecological restoration component.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a simple linear economic model (\"extract, manufacture, consume, discard\") environmentally unstable for a country's natural resource base?",
+     "a": "A linear economic model continuously drains finite natural raw materials and releases unmanaged waste back into nature, exceeding both the carrying capacity and the natural regeneration rate of the biosphere. A wrong answer suggesting that linear models work fine as long as technology improves reveals a misconception that human engineering can permanently replace natural resource cycles without ecological feedback loops.",
+     "self_check": true
+    },
+    {
+     "q": "A degraded agricultural block of 100 hectares in Rajasthan receives 400 mm of annual rainfall, but 70% of it is lost as surface runoff, leaving soil moisture depleted. If a watershed project installs continuous contour trenches and bunds that reduce runoff to 20%, how many additional cubic meters of rainwater are retained in the local soil system annually?",
+     "a": "1. Total volume of rainfall = Area × Depth = 100 ha × 10,000 m²/ha × 0.40 m = 400,000 m³.\n2. Initial water lost as runoff = 70% of 400,000 m³ = 280,000 m³; Initial retained = 30% = 120,000 m³.\n3. New runoff under watershed management = 20% of 400,000 m³ = 80,000 m³; New retained = 80% = 320,000 m³.\n4. Additional rainwater retained = 320,000 m³ - 120,000 m³ = 200,000 m³.\nA wrong answer calculated by taking 50% of depth without converting units shows a failure to integrate spatial unit conversion (hectares to square meters) with runoff percentage calculations.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two farming villages in the Deccan Plateau: Village A practices monoculture with high synthetic inputs, maintaining stable yields for 5 years before experiencing soil salinization. Village B practices crop rotation with leguminous cover crops, bio-composting, and rainwater harvesting. Why is Village B’s system classified as regenerative while Village A’s is extractive?",
+     "a": "Village A extracts nutrients and disrupts natural soil structure, degrading the long-term fertility and water retention capacity of the land. Village B builds topsoil organic content, fixes natural nitrogen, recharges underground aquifers, and enhances biological diversity, allowing nature to replenish itself while supporting human economic activity. A wrong answer focusing solely on crop yield amounts shows a failure to evaluate long-term ecological balance over immediate commercial output.",
+     "self_check": true
+    },
+    {
+     "q": "A urban development board proposes building a paved industrial zone over an urban wetland, offering to offset it by planting 5,000 ornamental trees along roadsides. Evaluate this plan from a regenerative geography perspective.",
+     "a": "The plan is non-regenerative and ecologically unsound. Replacing an urban wetland—which provides critical ecosystem services like flood absorption, groundwater recharge, and water purification—with roadside ornamental trees does not restore the lost hydrological and biological function of the wetland system. A wrong answer accepting the tree planting as an equal trade-off reveals a lack of understanding regarding ecosystem services and spatial ecological functions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a basic 3-step regenerative land-use strategy for a degraded semi-arid district in Gujarat that suffers from overgrazing, soil erosion, and declining water tables.",
+     "a": "A complete strategy should include: 1) Physical hydrological restoration (building check dams, contour bunds, and percolation tanks to slow water runoff and recharge groundwater); 2) Biological restoration (establishing silvopasture with native drought-resistant trees and managed rotational grazing to allow grass roots to anchor topsoil); 3) Circular agricultural loops (utilizing livestock manure for biogas and compost to restore soil microbial health). A poor answer that suggests chemical treatments or total fencing without community water management fails to address integrated natural systems.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

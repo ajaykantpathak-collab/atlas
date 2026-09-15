@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_04_009",
+   "title": "c11_ps_cbse_04_009",
+   "questions": [
+    {
+     "q": "Define \"capability\" in Sen's framework and give one example distinguishing it from \"functioning.\"",
+     "a": "Capability is the *set of feasible functionings* a person can achieve — their real freedom to choose among valuable beings and doings. Functioning is an achieved state (e.g., *being well-nourished*); capability is the *opportunity set* (e.g., *ability to access nutritious food, cook it, absorb nutrients*). A wrong answer (e.g., \"capability means skill\") reveals confusion between human capital (skills) and substantive freedom (opportunity set), a common Category Error at this level.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Sen argues that equality of primary goods (Rawls) fails to guarantee equality of capabilities, using the concept of \"conversion factors.\" Provide a concrete Indian example involving disability.",
+     "a": "Primary goods (income, rights, liberties) are *inputs*; capabilities are *outputs* mediated by personal (disability, metabolism), social (caste, gender norms), and environmental (infrastructure, climate) conversion factors. A wheelchair user and an able-bodied person receiving identical income (primary good) have vastly different capabilities for mobility, employment, and social participation because the built environment acts as a negative conversion factor for the former. A wrong answer focusing only on \"needs\" misses the structural insight: injustice lies in the *mismatch* between resources and the freedom they generate, not in needs per se.",
+     "self_check": true
+    },
+    {
+     "q": "A state government replaces the Public Distribution System (PDS) with Direct Benefit Transfer (DBT) of cash for food. Using Sen's framework, analyze whether this enhances or reduces capabilities for three groups: (a) elderly women in tribal areas with no bank access, (b) migrant workers in cities, (c) large landowning farmers. Identify the conversion factors at play.",
+     "a": "(a) **Reduces capability**: Personal (low literacy, age), social (gender norms restricting mobility), environmental (no banks/ATMs, poor connectivity) conversion factors prevent converting cash into food. (b) **Enhances capability**: Portability of cash suits mobility; environmental factor (urban banking) works positively. (c) **Neutral/positive**: High conversion efficiency. A wrong answer treating all groups identically (\"cash gives choice\") commits the *resource fetishism* Sen critiques — ignoring how conversion factors make identical resources yield unequal freedoms.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Sen's critique of utilitarianism with his critique of Rawls. In what way do *both* theories commit \"informational exclusion,\" and what distinct informational spaces does each ignore?",
+     "a": "Utilitarianism excludes *distribution* and *agency* — it aggregates utilities, ignoring who enjoys them and whether people value the process of choosing. Rawls excludes *heterogeneity in conversion* — primary goods assume a \"standard\" person who converts goods into welfare at the same rate. Sen argues justice requires information on *capabilities* (what people can do/be) and *agency* (their ability to pursue valued goals). A wrong answer conflating the two critiques (\"both ignore equality\") misses Sen's precise epistemological point: different theories truncate the informational base of justice in *different* ways.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Sen's capability approach provides a definitive list of capabilities for constitutional adjudication in India.\" Justify with reference to Sen's own methodological stance and the Indian Supreme Court's use of \"dignity\" (Article 21).",
+     "a": "The claim is **false**. Sen *deliberately refuses* a fixed, universal list, arguing capabilities must be democratically debated and contextually specified — a \"procedural\" not \"architectonic\" approach. The Indian Supreme Court (e.g., *Navtej Johar*, *Puttaswamy*) uses \"dignity\" under Article 21 as an open-ended capability-like standard, aligning with Sen's insistence on public reasoning. A wrong answer citing Nussbaum's list (which *is* fixed) or treating the approach as a rigid checklist reveals a failure to grasp Sen's meta-theoretical commitment to democratic deliberation over philosophical pre-specification.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph policy brief for a District Collector arguing why a \"capability audit\" of the Mid-Day Meal Scheme (MDMS) is superior to a \"utilization audit\" (funds spent, meals served). Specify three capability-relevant indicators the audit must measure.",
+     "a": "A utilization audit asks: \"Was money spent? Were meals cooked?\" A capability audit asks: \"Did children *actually gain* the capability to be well-nourished, attend school regularly, and learn effectively?\" Three indicators: (1) **Anemia prevalence decline** (biological conversion factor — nutrition absorption), (2) **Gender-disaggregated attendance retention** (social conversion factor — caste/gender norms affecting who eats), (3) **Cognitive learning outcomes** (personal conversion factor — health enabling education capability). A poor answer lists input/output metrics (calories served, enrollment numbers), missing the *freedom-to-achieve* core of the approach.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

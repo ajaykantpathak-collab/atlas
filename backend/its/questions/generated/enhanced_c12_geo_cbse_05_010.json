@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_05_010",
+   "title": "c12_geo_cbse_05_010",
+   "questions": [
+    {
+     "q": "Name the five major world regions where Mediterranean agriculture is practiced and state the latitudinal range they occupy.",
+     "a": "The five regions are: (1) Mediterranean Basin (Europe, Africa, Asia), (2) California (USA), (3) Central Chile, (4) Cape Town region (South Africa), (5) Southwest and South Australia. They lie between 30° and 45° north and south of the equator. A wrong answer (e.g., listing tropical regions or missing one) reveals confusion between Mediterranean climate and other subtropical climates, or inability to recall the global pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Mediterranean farmers grow crops like olives and grapes that are deep‑rooted and drought‑resistant, linking your answer to the seasonal rainfall pattern.",
+     "a": "Mediterranean climate receives rainfall only in winter (mid‑latitude cyclones). Summers are hot and dry due to subtropical high pressure. Deep‑rooted perennials (olives, grapes) tap groundwater during summer drought, while shallow‑rooted annuals would fail. A wrong answer that cites “summer rain” or “irrigation only” shows misunderstanding of the climate’s seasonality and the adaptation of natural vegetation.",
+     "self_check": true
+    },
+    {
+     "q": "A market gardener near Bengaluru grows spinach, coriander, and marigold on 2 hectares using drip irrigation and sells daily at the city market. Calculate the approximate annual revenue if spinach yields 25 tonnes/ha at ₹20/kg, coriander 10 tonnes/ha at ₹40/kg, and marigold 8 tonnes/ha at ₹60/kg. Assume two crops per year for spinach and coriander, one for marigold.",
+     "a": "Spinach: 2 ha × 25 t/ha × 2 crops × ₹20,000/t = ₹20,00,000. Coriander: 2 ha × 10 t/ha × 2 crops × ₹40,000/t = ₹16,00,000. Marigold: 2 ha × 8 t/ha × 1 crop × ₹60,000/t = ₹9,60,000. Total = ₹45,60,000. A wrong answer often misses the number of crops per year, unit conversion (tonne to kg), or assumes all crops have same cycles. This tests application of intensity and perishability concepts.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the land‑use intensity, capital investment, and market orientation of Mediterranean agriculture and market gardening. Why are both considered commercial farming despite these differences?",
+     "a": "Mediterranean agriculture: extensive land use (large farms), moderate capital (machinery for harvesting, processing), export‑oriented (olive oil, wine). Market gardening: intensive land use (small plots), high capital (greenhouses, irrigation, fertilizers), local urban market‑oriented. Both are commercial because production is primarily for sale, not subsistence, and they respond to market signals. A wrong answer that equates their intensity or misses the export vs local distinction shows superficial understanding of commercial farming subtypes.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the sustainability challenges faced by Mediterranean agriculture in the context of climate change and water scarcity. Suggest two adaptation strategies.",
+     "a": "Challenges: increasing summer temperatures, reduced winter rainfall, groundwater depletion, soil salinization from irrigation. Adaptation: (1) shift to more drought‑tolerant varieties, deficit irrigation, rainwater harvesting; (2) diversify into high‑value crops (e.g., pomegranate, figs) with lower water footprint, or adopt agroforestry. A wrong answer that only mentions “use more irrigation” ignores the water scarcity root cause and shows lack of evaluative depth.",
+     "self_check": true
+    },
+    {
+     "q": "Design a land‑use plan for a 50‑hectare peri‑urban farm near Hyderabad that integrates market gardening with a small Mediterranean‑style orchard (citrus, pomegranate). Specify crop allocation, irrigation method, and marketing channel for each component. Justify your choices based on climate, water availability, and market access.",
+     "a": "A good plan: 40 ha market gardening (leafy vegetables, flowers) with drip irrigation, sold through daily wholesale market; 10 ha citrus/pomegranate orchard with micro‑sprinklers, sold to juice processors/export. Justification: Hyderabad’s semi‑arid climate suits citrus (winter rain, dry summer); market gardening exploits proximity to 10M consumers; water scarcity favors drip/micro‑sprinkler. A poor plan allocates equal area without considering perishability, water needs, or market linkage.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch03_010",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch03_010",
+   "title": "c7_physics_ch03_010",
+   "questions": [
+    {
+     "q": "Which method of heat transfer is primarily responsible for the handle of a metal frying pan staying relatively cool or being made of insulating plastic?",
+     "a": "Conduction. The metal pan body conducts heat efficiently from the stove to the food, but a bad conductor (insulator) is used for the handle to minimize conductive heat transfer to your hand. A wrong answer like \"radiation\" shows confusion between how heat travels through empty space versus direct physical contact through solids.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why chimneys in factories and traditional kitchens are built very tall and placed high up near the roof.",
+     "a": "Chimneys are placed high up because hot gases, smoke, and exhaust are less dense than cooler surrounding air and rise naturally via convection currents. A wrong answer stating that smoke travels by conduction reveals a failure to understand that fluids (liquids and gases) move heat and mass upward due to density changes in convection.",
+     "self_check": true
+    },
+    {
+     "q": "A stainless steel container has a mass of 500 g and its temperature increases by 40 °C when it absorbs 8400 Joules of heat energy from a stove burner. Calculate the rate of heat absorption if this process takes 10 seconds.",
+     "a": "Steps:\n1. Identify given quantities: Heat energy $Q = 8400\\text{ J}$, time $t = 10\\text{ s}$.\n2. Identify the formula for power or rate of heat transfer: $P = \\frac{Q}{t}$.\n3. Substitute values with units: $P = \\frac{8400\\text{ J}}{10\\text{ s}}$.\n4. Compute and track unit cancellation: $P = 840\\text{ J/s}$ or $840\\text{ W}$.\n5. Verify answer: 840 Watts is a reasonable heating rate for a kitchen burner transferring energy to a vessel.\nAnswer: 840 Watts (W) or Joules per second (J/s). A wrong answer usually results from dividing time by energy or misplaced decimal points, indicating poor algebraic setup of rates.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effectiveness of a white-painted corrugated metal roof versus a black-painted corrugated metal roof on a house in a hot Indian summer. Which one keeps the indoor rooms cooler, and why?",
+     "a": "The white-painted roof keeps the rooms cooler because white and light-colored surfaces reflect most of the thermal radiation from the sun, whereas black surfaces absorb radiation intensely. A wrong answer indicating that a black roof keeps the house cooler confuses the concept of radiative absorption with emission or wrongly assumes dark colors repel heat.",
+     "self_check": true
+    },
+    {
+     "q": "A student designs a homemade cooler box using a cardboard box lined with crumpled newspaper and aluminium foil on the inner walls. She claims this will keep ice cubes from melting because foil blocks conduction and newspaper blocks radiation. Is her physical reasoning correct? Evaluate her claim.",
+     "a": "Her reasoning is partially swapped: shiny aluminium foil actually reflects radiant heat rather than blocking conduction, while trapped air spaces in crumpled newspaper act as poor conductors (insulators) to block conduction. A wrong answer would accept her statement blindly without analyzing which material property corresponds to which specific mode of heat transfer.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple, low-cost solar cooker using everyday household materials available in India, explaining how it traps or utilizes conduction, convection, and radiation to cook food.",
+     "a": "A good design uses a cardboard box lined with aluminium foil (reflects and directs radiation onto a black-painted vessel inside) and a glass sheet covering the top (traps heat inside via the greenhouse effect, stopping convective air currents from escaping). A poor answer fails to mention how all three heat transfer methods are addressed or relies solely on open heating without trapping convective losses.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

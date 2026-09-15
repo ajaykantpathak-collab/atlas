@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_10_002",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_10_002",
+   "title": "c11_biotech_cbse_10_002",
+   "questions": [
+    {
+     "q": "Define isoelectric point (pI) of a protein and state its significance in protein purification by isoelectric focusing.",
+     "a": "Isoelectric point (pI) is the pH at which the net charge on a protein molecule is zero. At this pH, proteins have minimum solubility and precipitate, making isoelectric focusing an effective purification technique where proteins migrate in a pH gradient until they reach their pI and stop. A wrong answer (e.g., defining pI as the pH of maximum charge or confusing it with optimal activity pH) reveals the student does not understand the electrostatic basis of protein separation.",
+     "self_check": true
+    },
+    {
+     "q": "A protein has a computed pI of 5.2. Explain whether this protein is acidic or basic, and predict its migration direction in an electric field at pH 7.0 during isoelectric focusing.",
+     "a": "The protein is acidic (pI < 7). At pH 7.0 (above its pI), the protein carries a net negative charge and will migrate toward the anode (positive electrode) in isoelectric focusing. A wrong answer (e.g., calling it basic or predicting cathode migration) indicates confusion between pI classification and charge behavior at a given pH.",
+     "self_check": true
+    },
+    {
+     "q": "Given the peptide sequence: Ala-Val-Ile-Leu (AVIL), and the Kyte-Doolittle hydropathy values: Ala=1.8, Val=4.2, Ile=4.5, Leu=3.8. Calculate the GRAVY value and interpret the result.",
+     "a": "GRAVY = (1.8 + 4.2 + 4.5 + 3.8) / 4 = 14.3 / 4 = 3.575. Positive GRAVY indicates a hydrophobic peptide. A wrong answer (e.g., forgetting to divide by residue count, or misinterpreting positive GRAVY as hydrophilic) shows the student cannot execute the formula or misunderstands the hydrophobicity scale convention.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the aliphatic index and instability index as predictors of protein stability. Which index would you prioritize for a protein intended for industrial enzyme application at 60°C, and why?",
+     "a": "Aliphatic index directly correlates with thermal stability (high AI = more aliphatic side chains = stable at high temperatures). Instability index predicts in vitro shelf-life (II < 40 = stable). For an industrial enzyme at 60°C, prioritize aliphatic index because thermostability is the primary requirement. A wrong answer (prioritizing instability index for thermal stability) reveals inability to distinguish between thermodynamic stability (thermal) and kinetic stability (proteolytic/degradation).",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"A protein with instability index 35 and aliphatic index 120 is ideal for both long-term storage at 4°C and high-temperature industrial catalysis at 80°C.\"",
+     "a": "The statement is partially flawed. Instability index 35 (<40) predicts good in vitro stability (long-term storage), and aliphatic index 120 (very high) suggests excellent thermostability. However, aliphatic index is a relative volume measure; extremely high values may indicate reduced flexibility needed for catalysis at 80°C. A good answer acknowledges both indices support the claim but notes that catalytic efficiency requires balanced flexibility, not just rigidity. A wrong answer (fully agreeing without caveats) shows lack of critical evaluation of index limitations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical 10-residue peptide sequence that would have: (a) GRAVY < -0.5 (hydrophilic), (b) aliphatic index < 50, and (c) instability index < 40. Justify your residue choices.",
+     "a": "Example sequence: Asp-Glu-Lys-Arg-Asn-Gln-Ser-Thr-Pro-Gly (DEKRNSQTPG). Rationale: Charged residues (D,E,K,R) and polar uncharged (N,Q,S,T) give negative hydropathy values lowering GRAVY; absence of A,V,I,L keeps aliphatic index low; Pro and Gly are known stabilizing residues. A poor answer (using hydrophobic residues or ignoring instability index rules) reveals inability to integrate multiple parameter constraints simultaneously.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

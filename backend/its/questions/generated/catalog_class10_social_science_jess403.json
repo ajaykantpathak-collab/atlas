@@ -1,0 +1,224 @@
+{
+ "catalog": "catalog_class10_social_science_jess403",
+ "concepts": [
+  {
+   "id": "jess.403.1.1",
+   "title": "Public Private Division and Feminist Movements",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Public Private Division and Feminist Movements' refers to.",
+     "a": "Society splits life into a public world of work and politics run mostly by men, and a private household world where unpaid labour falls on women, and feminist movements arose to demand equal political and legal rights for women against this patriarchal division.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Public Private Division and Feminist Movements'.",
+     "a": "An average Indian woman works one hour more than an average man every day, yet much of her work is unpaid and therefore unvalued, which is why housework remains invisible.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Public Private Division and Feminist Movements' taught, and from which source text?",
+     "a": "Public and Private Divisions (source: jess403.txt lines 100-175)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.403.1.2",
+   "title": "Literacy Gap between Women and Men",
+   "questions": [
+    {
+     "q": "Calculate the gap between male and female literacy rates. Use the method 'Literacy Gap between Women and Men'. Work with: female_literacy = 5, male_literacy = 18. Carry the chain through step by step and give the final value of literacy_gap.",
+     "a": "13 per cent",
+     "self_check": false
+    },
+    {
+     "q": "How many percentage points do women trail men in literacy? Use the method 'Literacy Gap between Women and Men'. Work with: female_literacy = 20, male_literacy = 20. Carry the chain through step by step and give the final value of literacy_gap.",
+     "a": "0 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Literacy Gap between Women and Men' refers to.",
+     "a": "Women's literacy trails men's by the difference of the two literacy rates, and this gap in percentage points captures gender disadvantage in education.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Literacy Gap between Women and Men'.",
+     "a": "With women's literacy at 54 per cent against men's 76 per cent, the gap of about 22 percentage points shows why girls drop out as parents prefer spending on boys.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Literacy Gap between Women and Men', in plain ASCII form.",
+     "a": "literacy_gap = male_literacy - female_literacy",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.403.1.3",
+   "title": "Child Sex Ratio from Births Data",
+   "questions": [
+    {
+     "q": "Calculate the child sex ratio from the number of girls and boys. Use the method 'Child Sex Ratio from Births Data'. Work with: boy_children = 4, girl_children = 6. Carry the chain through step by step and give the final value of child_sex_ratio.",
+     "a": "1500 times",
+     "self_check": false
+    },
+    {
+     "q": "How many girl children are there per thousand boys? Use the method 'Child Sex Ratio from Births Data'. Work with: boy_children = 400, girl_children = 5. Carry the chain through step by step and give the final value of child_sex_ratio.",
+     "a": "12.5 times",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Child Sex Ratio from Births Data' refers to.",
+     "a": "The child sex ratio counts girl children per thousand boys, found by dividing the number of girls by the number of boys and scaling to a thousand; sex-selective abortion has pushed the ratio down to 919 nationally and below 850 in some states.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Child Sex Ratio from Births Data'.",
+     "a": "Preference for sons and misuse of technology have made the ratio fall below 850 or even 800 in some states, as the Census 2011 map shows.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Child Sex Ratio from Births Data', in plain ASCII form.",
+     "a": "child_sex_ratio = girl_children / boy_children * 1000",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.403.1.4",
+   "title": "Women's Political Representation and Reservation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Women's Political Representation and Reservation' refers to.",
+     "a": "Women's share in legislatures stays very low, touching 14.36 per cent of the Lok Sabha only in 2019 and under 5 per cent in state assemblies, which is why feminists demand reservation, and panchayats and municipalities already reserve at least one-third of seats for women.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Women's Political Representation and Reservation'.",
+     "a": "The Equal Remuneration Act of 1976 promises equal wages for equal work, but reservation of elected seats is seen as the surest way to let women control power and attention to their problems.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Women's Political Representation and Reservation' taught, and from which source text?",
+     "a": "Women's Political Representation (source: jess403.txt lines 271-405)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.403.2.1",
+   "title": "Communalism and Its Forms",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Communalism and Its Forms' refers to.",
+     "a": "Communalism treats followers of one religion as a single political community with interests opposed to others, ranging from everyday beliefs in the superiority of one's religion to majoritarian dominance and finally to communal riots and violence.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Communalism and Its Forms'.",
+     "a": "A communal mind sees one's own religion as superior and the nation as an expression of one major religion, and the ugliest form appeared in communal riots at the time of the partition of the country.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Communalism and Its Forms' taught, and from which source text?",
+     "a": "Communalism and Secularism (source: jess403.txt lines 407-590)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.403.2.2",
+   "title": "Secularism in the Indian Constitution",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Secularism in the Indian Constitution' refers to.",
+     "a": "India chose a secular constitutional model with no official state religion: the Constitution gives individuals and communities freedom to profess and practise their religion, and bars discrimination on religious grounds.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Secularism in the Indian Constitution'.",
+     "a": "Unlike states that protect one religion, the Indian Constitution works through three strategies of non-interference, accommodation and non-discrimination, making secularism more than a mere ideology.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Secularism in the Indian Constitution' taught, and from which source text?",
+     "a": "Secularism and Secular State (source: jess403.txt lines 588-660)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.403.3.1",
+   "title": "Caste Inequalities: SC, ST and OBC Shares",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Caste Inequalities: SC, ST and OBC Shares' refers to.",
+     "a": "Census data show the Scheduled Castes at 16.6 per cent and the Scheduled Tribes at 8.6 per cent of the population, while the National Sample Survey puts Other Backward Classes at around 41 per cent, so together these groups form about two-thirds of the country.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Caste Inequalities: SC, ST and OBC Shares'.",
+     "a": "The Census does not count OBCs separately; caste untouchability is outlawed but its economic effects persist, and urban life weakens caste's daily grip.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Caste Inequalities: SC, ST and OBC Shares' taught, and from which source text?",
+     "a": "Caste in Politics (source: jess403.txt lines 700-800, 830-870)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.403.3.2",
+   "title": "Casteism in Electoral Politics",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Casteism in Electoral Politics' refers to.",
+     "a": "Caste enters politics when parties choose candidates and constituencies with caste arithmetic in mind, yet no parliamentary constituency has a single-caste majority, so candidates must appeal beyond one caste to win.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Casteism in Electoral Politics'.",
+     "a": "Universal adult franchise and one-person-one-vote pushed political leaders to mobilise caste groups, but no caste can win an election alone in most constituencies.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Casteism in Electoral Politics' taught, and from which source text?",
+     "a": "Caste in Politics (source: jess403.txt lines 830-950)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.403.3.3",
+   "title": "Combined Share of Backward Groups",
+   "questions": [
+    {
+     "q": "Calculate the combined population share of sc st and obc groups. Use the method 'Combined Share of Backward Groups'. Work with: obc_share = 0.25, sc_share = 0.8, st_share = 0.35. Carry the chain through step by step and give the final value of combined_share.",
+     "a": "1.4 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the total share when group percentages are given. Use the method 'Combined Share of Backward Groups'. Work with: obc_share = 0.8, sc_share = 0.3, st_share = 0.5. Carry the chain through step by step and give the final value of combined_share.",
+     "a": "1.6 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Combined Share of Backward Groups' refers to.",
+     "a": "The combined population share of several social groups is the sum of their individual shares, so the SC, ST and OBC populations can be added as percentages of the whole country.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Combined Share of Backward Groups'.",
+     "a": "Adding 16.6 per cent, 8.6 per cent and roughly 41 per cent yields about two-thirds of the population belonging to SC, ST and OBC groups.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Combined Share of Backward Groups', in plain ASCII form.",
+     "a": "combined_share = sc_share + st_share + obc_share",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

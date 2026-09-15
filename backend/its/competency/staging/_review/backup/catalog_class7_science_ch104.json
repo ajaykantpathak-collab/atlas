@@ -1,0 +1,121 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 104,
+ "chapter_title": "Acids, Bases and Salts",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/gesc104.txt",
+ "concepts": [
+  {
+   "id": "gesc.4.1.1",
+   "title": "Properties of Acids and Bases",
+   "section": "4.1",
+   "definition": "Acids are substances that taste sour and have an acidic chemical nature, while bases are substances that taste bitter, feel soapy to the touch, and have a basic chemical nature.",
+   "formula": "N/A",
+   "key_idea": "In brief, In brief, In brief, In brief, Acids are indeed sour; bases are both bitter and soapy.",
+   "textbook_ref": "gesc104.txt lines 10-35",
+   "question_patterns": [
+    "what are the characteristics of acids",
+    "how do bases feel when touched",
+    "identify the nature of a substance based on taste",
+    "distinguish between acidic and basic substances"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check taste and texture",
+     "explain": "Acids taste sour; bases taste bitter and feel soapy."
+    }
+   ]
+  },
+  {
+   "id": "gesc.4.2.1",
+   "title": "Indicators",
+   "section": "4.2",
+   "definition": "In brief, Indicators are special substances that change their color when exposed to acidic or basic solutions, allowing us to identify their chemical nature without tasting them.",
+   "formula": "N/A",
+   "key_idea": "Indicators signal acidity or basicity through color change.",
+   "textbook_ref": "gesc104.txt lines 36-50",
+   "question_patterns": [
+    "what is an indicator",
+    "how do indicators help identify substances",
+    "list some natural indicators",
+    "what happens to litmus in an acidic solution"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Observe color change",
+     "explain": "Litmus turns red in acid and blue in base."
+    }
+   ]
+  },
+  {
+   "id": "gesc.4.3.1",
+   "title": "Neutralisation Reaction",
+   "section": "4.3",
+   "definition": "In brief, Neutralisation is a chemical process where an acid and a base react to form both salt and water, releasing heat in the process.",
+   "formula": "acid + base = salt + water + heat",
+   "key_idea": "Acid and base cancel each other's effects to create both both both both both both both both both both both both both both both both both both both both both both both both salt and water.",
+   "textbook_ref": "gesc104.txt lines 140-165",
+   "question_patterns": [
+    "define neutralisation",
+    "what are the products of a neutralisation reaction",
+    "does neutralisation release heat",
+    "calculate the outcome of mixing acid and base"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Combine reactants",
+     "explain": "Acid and base are mixed in suitable amounts."
+    },
+    {
+     "step": 2,
+     "action": "Account for energy",
+     "explain": "Heat is evolved during the reaction."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gesc104.txt lines 150-160",
+   "concept": "gesc.4.3.1",
+   "question_type": "verify_property",
+   "question_pattern": "What happens when {acid} reacts with {base}?",
+   "extracted_variables": {
+    "acid": "hydrochloric acid",
+    "base": "sodium hydroxide"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify reaction",
+     "explain": "Neutralisation occurs between HCl and NaOH."
+    },
+    {
+     "step": 2,
+     "action": "Determine products",
+     "explain": "The reaction produces sodium chloride (salt) and water."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "gesc104.txt lines 180-210",
+   "questions": [
+    "State differences between acids and bases.",
+    "Describe the process of neutralisation with an example.",
+    "How will you identify hydrochloric acid, sodium hydroxide, and sugar solution using turmeric?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

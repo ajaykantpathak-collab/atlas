@@ -1,0 +1,196 @@
+{
+ "catalog": "catalog_class10_science_jesc109.json",
+ "concepts": [
+  {
+   "id": "jesc.109.9.1",
+   "title": "Reflection of Light by Spherical Mirrors",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "State the laws of reflection of light.",
+     "a": "The angle of incidence equals the angle of reflection, and the incident ray, reflected ray and normal all lie in the same plane.",
+     "self_check": true
+    },
+    {
+     "q": "Define principal focus of a concave mirror.",
+     "a": "The point on the principal axis where rays parallel to the axis actually meet after reflection.",
+     "self_check": true
+    },
+    {
+     "q": "What is the radius of curvature of a mirror of focal length 10 cm?",
+     "a": "R = 2f = 20 cm.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.109.9.2",
+   "title": "Mirror Formula, Magnification and Refraction",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "m_from_heights",
+     "expr": "image_height / object_height",
+     "explain": "magnification is also image height over object height"
+    },
+    {
+     "step": 2,
+     "name": "m_percent",
+     "expr": "m_from_heights * 100",
+     "explain": "image size as per cent of the object"
+    },
+    {
+     "step": 3,
+     "name": "m_from_distances",
+     "expr": "(0 - v) / u",
+     "explain": "mirror check: m = -v/u"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A mirror makes a 6 cm tall image of a 2 cm tall object placed at u = -30 cm, image at v = -60 cm. Find the magnification from the heights and check it from the distances.",
+     "vals": {
+      "image_height": 6,
+      "object_height": 2,
+      "v": -60,
+      "u": -30
+     },
+     "unit": "",
+     "steps": null,
+     "a": "-2",
+     "self_check": false
+    },
+    {
+     "q": "An image 4 cm tall forms of a 2 cm object with v = -30 cm and u = -15 cm. Compute m both ways.",
+     "vals": {
+      "image_height": 4,
+      "object_height": 2,
+      "v": -30,
+      "u": -15
+     },
+     "unit": "",
+     "steps": null,
+     "a": "-2",
+     "self_check": false
+    },
+    {
+     "q": "A 3 cm object gives a 1.5 cm image (v = -20 cm, u = -40 cm). Calculate the magnification from heights and from distances.",
+     "vals": {
+      "image_height": 1.5,
+      "object_height": 3,
+      "v": -20,
+      "u": -40
+     },
+     "unit": "",
+     "steps": null,
+     "a": "-0.5",
+     "self_check": false
+    },
+    {
+     "q": "A convex mirror makes a 2.5 cm image of a 5 cm object with v = +10 cm, u = -30 cm. Find m.",
+     "vals": {
+      "image_height": 2.5,
+      "object_height": 5,
+      "v": 10,
+      "u": -30
+     },
+     "unit": "",
+     "steps": null,
+     "a": "0.333333",
+     "self_check": false
+    },
+    {
+     "q": "An inverted image of height -4.5 cm forms of a 1.5 cm object (v = -60 cm, u = -20 cm). Find the magnification.",
+     "vals": {
+      "image_height": -4.5,
+      "object_height": 1.5,
+      "v": -60,
+      "u": -20
+     },
+     "unit": "",
+     "steps": null,
+     "a": "-3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.109.9.3",
+   "title": "Power of a Lens and Image Formation by Lenses",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "focal_cm",
+     "expr": "f_m * 100",
+     "explain": "record the focal length in cm for reference"
+    },
+    {
+     "step": 2,
+     "name": "focal_mm",
+     "expr": "focal_cm * 10",
+     "explain": "focal length in millimetres"
+    },
+    {
+     "step": 3,
+     "name": "power_d",
+     "expr": "1 / f_m",
+     "explain": "dioptres = 1 / focal length in metres"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A lens has focal length 0.4 m. Find its power in dioptres.",
+     "vals": {
+      "f_m": 0.4
+     },
+     "unit": "D",
+     "steps": null,
+     "a": "2.5 D",
+     "self_check": false
+    },
+    {
+     "q": "Compute the power of a lens of focal length 0.25 m.",
+     "vals": {
+      "f_m": 0.25
+     },
+     "unit": "D",
+     "steps": null,
+     "a": "4 D",
+     "self_check": false
+    },
+    {
+     "q": "What is the power of a lens whose focal length is 0.5 m?",
+     "vals": {
+      "f_m": 0.5
+     },
+     "unit": "D",
+     "steps": null,
+     "a": "2 D",
+     "self_check": false
+    },
+    {
+     "q": "A concave lens has focal length -0.25 m. Find its signed power.",
+     "vals": {
+      "f_m": -0.25
+     },
+     "unit": "D",
+     "steps": null,
+     "a": "-4 D",
+     "self_check": false
+    },
+    {
+     "q": "A lens of focal length 0.1 m is prescribed. What is its power?",
+     "vals": {
+      "f_m": 0.1
+     },
+     "unit": "D",
+     "steps": null,
+     "a": "10 D",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

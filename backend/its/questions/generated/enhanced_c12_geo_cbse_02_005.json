@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_02_005",
+   "title": "c12_geo_cbse_02_005",
+   "questions": [
+    {
+     "q": "Define Crude Birth Rate (CBR) and state its formula with all variables.",
+     "a": "CBR = (Number of live births in a year / Estimated mid-year population) × 1000. Variables: B = live births during the year; P = estimated mid-year population. A wrong answer (e.g., using total population instead of mid-year, or forgetting the ×1000) reveals confusion between a rate per thousand and a simple percentage, or misunderstanding the time reference for the denominator.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the actual growth rate of a city can be higher than its natural growth rate even when birth rates are falling.",
+     "a": "Actual growth = Natural growth (Births – Deaths) + Net Migration (In-migration – Out-migration). A city with declining birth rates can still grow rapidly if it attracts large numbers of migrants (e.g., Bengaluru, Hyderabad). If a student says \"because birth rate is high,\" they confuse natural increase with actual growth and ignore the migration component.",
+     "self_check": true
+    },
+    {
+     "q": "A district has a mid-year population of 2,50,000. During the year, 4,500 live births and 2,000 deaths were registered. Net in-migration was 1,200. Calculate the CBR, CDR, natural growth rate, and actual growth rate (all per 1000).",
+     "a": "CBR = (4500/250000)×1000 = 18 per 1000. CDR = (2000/250000)×1000 = 8 per 1000. Natural growth rate = CBR – CDR = 10 per 1000. Net migration rate = (1200/250000)×1000 = 4.8 per 1000. Actual growth rate = 10 + 4.8 = 14.8 per 1000. A wrong answer often misses the migration rate or uses the wrong denominator (e.g., end-year population).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the push factors driving out-migration from Bundelkhand (UP/MP) with the pull factors attracting migrants to Surat (Gujarat). Identify two push and two pull factors from the NCERT classification.",
+     "a": "Push (Bundelkhand): drought/unpleasant climate, unemployment/poor living conditions. Pull (Surat): better job opportunities (textile/diamond industries), better civic amenities/education/medical facilities. If a student lists \"poverty\" for both, they fail to distinguish origin-specific push from destination-specific pull.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Migration always reduces population pressure in the place of origin and increases it in the destination.\" Use the concepts of remittances, skill drain, and urban infrastructure strain.",
+     "a": "Migration can relieve pressure by reducing local resource demand and sending remittances that improve origin livelihoods. However, it may cause skill drain (loss of educated youth) and feminisation of agriculture. In destinations, it strains housing, water, and transport (e.g., Mumbai's slums). A one-sided answer ignores these feedback loops.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-point survey questionnaire to investigate the reasons for seasonal migration from a tribal village in Jharkhand to brick kilns in Punjab. Include questions that capture both push and pull factors.",
+     "a": "1. What are the main crops grown in your village and how many months of employment do they provide? (Push: agricultural seasonality) 2. What is the average household income during lean months? (Push: poverty) 3. How did you first hear about work in Punjab's brick kilns? (Pull: information networks) 4. What is the advance payment offered by the contractor? (Pull: immediate cash) 5. Do you plan to return after the season? (Nature: temporary/seasonal). A poor questionnaire mixes push/pull or omits the seasonal aspect.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

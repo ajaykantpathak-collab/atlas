@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch03_009",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch03_009",
+   "title": "c7_eco_ch03_009",
+   "questions": [
+    {
+     "q": "What type of jobs are created immediately on an infrastructure construction site, such as workers laying bricks or engineers building a bridge?",
+     "a": "Direct employment. A student who answers \"indirect employment\" confuses the jobs on the physical project site with the jobs created in factories supplying materials. Direct employment refers specifically to the workers hired directly by the project contractors and agencies.",
+     "self_check": true
+    },
+    {
+     "q": "Why does building a rural road network in India lead to long-term employment growth even after construction machinery leaves the area?",
+     "a": "A rural road lowers transport costs, allowing farmers to quickly bring perishable goods to larger urban markets without spoilage, which encourages them to expand production and hire more farm workers. A student who thinks roads only create temporary construction jobs misses how permanent physical infrastructure transforms trade and stimulates long-term service and agricultural jobs.",
+     "self_check": true
+    },
+    {
+     "q": "If a government highway project directly employs 500 construction workers and generates an indirect employment multiplier of 1.8 in supporting industries like cement and transport, how many total jobs are created by the project?",
+     "a": "Total jobs created = Direct jobs multiplied by the employment multiplier = 500 * 1.8 = 900 total jobs. A student who only counts the 500 direct jobs ignores the secondary supply chain jobs created in cement factories, transport services, and equipment maintenance.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the difference between building an urban metro rail network and building a rural irrigation canal in terms of which economic sectors experience immediate job creation.",
+     "a": "An urban metro project immediately creates jobs in heavy engineering, electrical signaling, and urban construction, primarily boosting the secondary and tertiary sectors. A rural irrigation canal immediately creates jobs in earthmoving, masonry, and agricultural support, directly benefiting rural labor and the primary agricultural sector. A student who treats all infrastructure as creating the same kind of jobs ignores how sector-specific investments target different labor pools.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument that spending money on social infrastructure like schools and hospitals creates more sustainable, high-quality employment than spending solely on physical infrastructure like highways.",
+     "a": "Social infrastructure creates sustainable employment because educated and healthy workers possess higher human capital, enabling them to secure high-productivity jobs in technology, healthcare, and education over decades. While physical infrastructure creates rapid initial construction jobs, social infrastructure builds the permanent skills needed for a modern service economy. A student who claims physical infrastructure is always superior ignores how long-term economic growth depends on the health and education of the workforce.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple local infrastructure project for your town (such as a solar micro-grid or a paved market road) and list three distinct types of direct jobs and two distinct types of indirect jobs it would generate.",
+     "a": "A good answer proposes a realistic project (e.g., solar micro-grid) and correctly lists direct jobs (solar panel installers, electrical technicians, site managers) and indirect jobs (battery manufacturing workers, local electricians supplying wiring). A poor answer lists vague or unrelated jobs like software engineers or store cashiers that have no connection to installing a local solar micro-grid.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_06_010",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_06_010",
+   "title": "c12_psy_cbse_06_010",
+   "questions": [
+    {
+     "q": "Define prejudice and state its three components (A-B-C) as described in the NCERT textbook.",
+     "a": "Prejudice is a negative attitude toward a group, comprising a cognitive component (stereotypes), an affective component (dislike/hatred), and a behavioural component (discrimination). A wrong answer that lists only \"stereotypes\" or only \"discrimination\" reveals confusion between the components and the overall construct; it shows the student cannot distinguish the attitude (prejudice) from its individual parts.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between a stereotype and a prejudice. Can a person hold a stereotype without being prejudiced? Give an example.",
+     "a": "A stereotype is a cognitive cluster of beliefs about a group's characteristics; prejudice is an attitude that includes that stereotype plus negative affect and a tendency to discriminate. Yes, a person can hold a stereotype (e.g., \"Elderly people are forgetful\") without negative affect or discriminatory intent — this is a neutral or even positive stereotype, not prejudice. A wrong answer that equates the two shows the student misses the affective and behavioural dimensions that turn a belief into an attitude.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher believes that \"boys are naturally better at mathematics than girls\" but treats all students equally in class and gives equal encouragement. Identify which components of prejudice (cognitive, affective, behavioural) are present and which are absent. Is this prejudice?",
+     "a": "The teacher holds a stereotype (cognitive component) but shows no negative affect toward girls (affective absent) and no discriminatory behaviour (behavioural absent). This is a stereotype, not full prejudice, because prejudice requires all three components, especially the negative affective charge. A wrong answer that labels this as prejudice indicates the student thinks any group-based belief is automatically prejudiced, ignoring the affective and behavioural requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the LaPiere study (attitude-behaviour inconsistency) with the statement \"Prejudice can exist without discrimination and discrimination can exist without prejudice.\" What does this tell us about the relationship between the cognitive/affective components and the behavioural component?",
+     "a": "LaPiere found that hotel managers expressed negative attitudes (cognitive/affective) toward Chinese guests but actually served them (positive behaviour) — prejudice without discrimination. Conversely, discrimination can occur without prejudice when behaviour is driven by social norms or laws rather than personal attitude (e.g., segregated seating enforced by law). This shows the behavioural component is not automatically determined by the cognitive/affective components; external pressures can decouple them. A wrong answer that claims attitudes always predict behaviour misses the core lesson of LaPiere and the distinction between prejudice and discrimination.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"If we eliminate all stereotypes, prejudice will automatically disappear.\" Use the A-B-C model and the concept of kernel of truth to support your judgment.",
+     "a": "The claim is false. Prejudice has affective (dislike/hatred) and behavioural (discrimination) components that can persist even if stereotypes are challenged. The kernel of truth concept shows people cling to stereotypes because they believe \"there must be some truth,\" but even if stereotypes are disproven, the affective component may remain due to ingroup bias or scapegoating. A wrong answer that agrees reveals the student reduces prejudice to only its cognitive component and ignores the emotional and behavioural roots.",
+     "self_check": true
+    },
+    {
+     "q": "Create a short scenario (3-4 sentences) that illustrates all three components of prejudice (A-B-C) toward a fictional group, and then write a one-sentence intervention that targets only the behavioural component without changing the cognitive or affective components.",
+     "a": "Example scenario: \"Residents of Town X believe that the newly arrived 'Zorb' community are unhygienic (cognitive). They feel disgusted when Zorbs move nearby (affective). They refuse to rent houses to Zorbs (behavioural).\" Intervention: \"The local government passes a law prohibiting housing discrimination based on community origin.\" A poor answer would target beliefs or feelings (e.g., \"educate residents about Zorb hygiene\") which address cognitive/affective components, not behavioural.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

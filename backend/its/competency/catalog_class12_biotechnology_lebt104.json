@@ -1,0 +1,420 @@
+{
+ "class": 12,
+ "subject": "biotechnology",
+ "chapter": 4,
+ "chapter_title": "Applications of Recombinant DNA Technology",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lebt104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lebt104.1",
+   "title": "DNA Fingerprinting and VNTR Variation",
+   "section": "4.1",
+   "definition": "People share 99.9 percent of their 3.2 billion base genomes, so Alec Jeffreys' 1984 fingerprinting hunts the variable remainder: tandem repeats called VNTRs - microsatellites of 1-9 bp units and minisatellites of 10-100 bp - are cut by restriction enzymes, separated on gels, blotted to nylon and probed through Southern hybridisation, yielding RFLP band patterns unique enough for forensics, paternity and evolutionary comparisons.",
+   "formula": "variable_bp = genome_bp * variation_pct / 100",
+   "key_idea": "Multiply the genome by the variable fraction to size the discriminating DNA; the band pattern of repeats is the fingerprint.",
+   "textbook_ref": "lebt104.txt section 4.1, Figs. 4.1-4.3",
+   "question_patterns": [
+    "the human genome spans 3.2 billion bp and varies by 0.1 percent between people - how many base pairs carry the variation",
+    "differentiate microsatellites from minisatellites by the length of their repeat units",
+    "list the steps of DNA fingerprinting from sample collection to band comparison",
+    "why are VNTR patterns inherited and how does that settle paternity disputes",
+    "what does RFLP stand for and how does restriction digestion reveal polymorphism",
+    "name three applications of DNA fingerprinting beyond criminal identification",
+    "why is PCR often combined with fingerprinting of tiny crime-scene samples"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the variable share",
+     "explain": "Only the variation percentage differs among individuals.",
+     "compute": "variable_bp = genome_bp * variation_pct / 100"
+    },
+    {
+     "step": 2,
+     "action": "find the shared remainder",
+     "explain": "The identical portion is what the variation leaves behind.",
+     "compute": "identical_bp = genome_bp - variable_bp"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Who invented DNA fingerprinting in 1984: Alec Jeffreys or Mullis?",
+     "a": "Alec Jeffreys"
+    }
+   ]
+  },
+  {
+   "id": "lebt104.2",
+   "title": "Transgenic Plants via Agrobacterium and Biolistics",
+   "section": "4.2.2-4.2.3",
+   "definition": "Transgenesis plants a foreign gene and watches it pass to progeny: Agrobacterium tumefaciens, the natural genetic engineer, donates its Ti plasmid T-DNA once tumor genes are disarmed and swapped for genes of interest plus markers; where dicots yield to this vector, cereals take DNA bullets instead - gold or tungsten particles shot by a gene gun - and protoplasts accept naked DNA helped by PEG or electric pulses, feeding crops like Bt cotton, grown commercially in India since 2002, along with herbicide-tolerant and virus-resistant varieties.",
+   "formula": "-",
+   "key_idea": "Disarm the T-DNA, load your gene, and let the bacterium or a gene gun carry it past the plant cell wall.",
+   "textbook_ref": "lebt104.txt sections 4.2.2-4.2.3, Figs. 4.4-4.5, Box 3",
+   "question_patterns": [
+    "why is Agrobacterium tumefaciens called the natural genetic engineer",
+    "what is disarming of the Ti plasmid and which genes replace the tumor-inducing ones",
+    "differentiate vector-mediated from vector-less methods of plant gene transfer",
+    "how does particle bombardment deliver DNA into cereal cells that Agrobacterium cannot",
+    "which cry genes protect cotton from bollworms and which from corn borers",
+    "name two crops engineered for virus resistance and two for herbicide tolerance",
+    "how does antisense RNA technology make tobacco resistant to Meloidogyne incognita"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "choose the delivery route",
+     "explain": "Agrobacterium for many dicots, gene gun for monocots and chloroplasts, protoplast methods for regenerable cultures."
+    },
+    {
+     "step": 2,
+     "action": "select the transformants",
+     "explain": "Antibiotic or herbicide markers eliminate non-transformed cells during regeneration."
+    },
+    {
+     "step": 3,
+     "action": "read the trait",
+     "explain": "Cry toxins, osmolyte overexpression or viral coat proteins show up as the engineered phenotype."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which soil bacterium donates T-DNA to plants: Agrobacterium tumefaciens or Bacillus thuringiensis?",
+     "a": "Agrobacterium tumefaciens"
+    }
+   ]
+  },
+  {
+   "id": "lebt104.3",
+   "title": "Transgenic Animals and Molecular Pharming",
+   "section": "4.2.2-4.2.4",
+   "definition": "Animal pharming turns livestock into bioreactors: pronuclear microinjection into the larger male pronucleus, embryonic stem-cell transfer through the blastocyst inner cell mass, or single-copy retroviral insertion build the transgenics - Tracy the ewe secreted alpha1-antitrypsin in milk, Rosie the 1997 cow enriched milk with human alpha-lactalbumin, and goat-made ATryn won FDA approval in 2009 - while chimeric mice and GEAC oversight frame the research and its ethics.",
+   "formula": "-",
+   "key_idea": "Inject, electrify or infect the embryo, then harvest the human protein from milk - with regulators watching the ethics.",
+   "textbook_ref": "lebt104.txt sections 4.2.2-4.2.4, Figs. 4.5, Boxes 2-3, Table 4.2",
+   "question_patterns": [
+    "describe pronuclear microinjection and state two limitations that lower its success rate",
+    "how are embryonic stem cells used to build transgenic animals",
+    "why does retrovirus-mediated transfer integrate only a single transgene copy",
+    "which human proteins have been harvested from the milk of transgenic goats cows and rabbits",
+    "what is a chimeric mouse and how does coat colour reveal its mixed cell lineages",
+    "which committee regulates GMO manufacture import and storage in India",
+    "why was Tracy the ewe an important early success of molecular pharming"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "pick the technique",
+     "explain": "Microinjection for random insertion, ES cells for targeted change, retrovirus for single-copy stable integration."
+    },
+    {
+     "step": 2,
+     "action": "build the animal",
+     "explain": "Cultured embryos or manipulated blastocysts go into foster mothers."
+    },
+    {
+     "step": 3,
+     "action": "harvest and regulate",
+     "explain": "Milk-borne proteins are purified for therapy while bodies like GEAC guard biosafety."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which ewe secreted alpha1-antitrypsin in her milk: Tracy or Rosie?",
+     "a": "Tracy"
+    }
+   ]
+  },
+  {
+   "id": "lebt104.4",
+   "title": "Gene Therapy Approaches and Delivery",
+   "section": "4.3",
+   "definition": "Gene therapy repairs faulty genes by delivering correct copies - the 1990 ADA-SCID treatment of a four-year-old girl set the precedent - through three strategies: replacement or augmentation of the missing function as with CFTR or p53, inhibition of dominant rogue genes by antisense means, and CRISPR-Cas9 editing that snips mutations out; delivery runs ex vivo through cultured cells or in vivo by direct vectors, and only somatic changes stay non-heritable.",
+   "formula": "-",
+   "key_idea": "Replace, silence or edit - and choose ex vivo convenience or in vivo directness, remembering germ-line edits are heritable.",
+   "textbook_ref": "lebt104.txt section 4.3, Figs. 4.6-4.8",
+   "question_patterns": [
+    "describe the steps of the first gene therapy performed in 1990 for ADA-deficient SCID",
+    "differentiate gene replacement gene inhibition and gene repair strategies",
+    "how do ex vivo and in vivo gene delivery differ in procedure and difficulty",
+    "why is germ-line gene therapy ethically controversial while somatic therapy is accepted",
+    "which protein is defective in cystic fibrosis and which gene would therapy restore",
+    "how does the CRISPR-Cas9 system borrowed from bacteria edit human genes",
+    "list three demerits or risks of current gene therapy practice"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "diagnose the defect",
+     "explain": "Identify whether the gene is missing, overactive or mutated to pick replacement, inhibition or editing."
+    },
+    {
+     "step": 2,
+     "action": "choose the delivery",
+     "explain": "Remove-and-return cell therapy or direct in vivo vectors with retroviral carriers."
+    },
+    {
+     "step": 3,
+     "action": "weigh the cell type",
+     "explain": "Somatic edits die with the patient; germ-line edits pass to offspring and demand ethical review."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The 1990 gene therapy precedent treated which immune deficiency: ADA-SCID or diabetes?",
+     "a": "ADA-SCID"
+    }
+   ]
+  },
+  {
+   "id": "lebt104.5",
+   "title": "Recombinant Vaccines from Subunit to mRNA",
+   "section": "4.4",
+   "definition": "Recombinant vaccines trade whole pathogens for precision: live genetically modified or vector-based vaccines such as recombinant vaccinia carrying about 200 genes' worth of foreign antigens; subunit vaccines brewing hepatitis B surface antigen in Saccharomyces cerevisiae since the 1987 Recombivax licence; DNA vaccines shot into muscle by gene gun; and mRNA vaccines wrapped in lipid nanoparticles that powered COVID-19 responses alongside Covaxin and Covishield, with edible banana-based HBsAg vaccines on the horizon.",
+   "formula": "-",
+   "key_idea": "Deliver only the antigen gene or its message - safer than live pathogen, faster to update for new variants.",
+   "textbook_ref": "lebt104.txt section 4.4, Figs. 4.9-4.10, Boxes 4-5",
+   "question_patterns": [
+    "differentiate live genetically modified subunit DNA and RNA vaccines with one example of each",
+    "how is the HBsAg gene expressed in yeast to manufacture the hepatitis B subunit vaccine",
+    "why can vaccinia virus carry genes of several pathogens to make polyvalent vaccines",
+    "what protects mRNA vaccines from degradation inside the body and during storage",
+    "how does a DNA vaccine delivered by gene gun provoke both humoral and cellular immunity",
+    "which Indian COVID-19 vaccines were used and what platform does each employ",
+    "why are banana plants considered ideal for edible vaccine production"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify the platform",
+     "explain": "Live attenuated or vector, protein subunit, DNA plasmid or mRNA-lipid particle."
+    },
+    {
+     "step": 2,
+     "action": "trace the antigen",
+     "explain": "Pathogen gene to vector to host expression - bacterial, yeast, plant or the vaccinee's own cells."
+    },
+    {
+     "step": 3,
+     "action": "weigh safety and speed",
+     "explain": "No live pathogen reactivation, quick redesign for variants, and cold-chain demands for RNA."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The subunit hepatitis B vaccine brews its antigen in which organism: Saccharomyces cerevisiae or E. coli?",
+     "a": "Saccharomyces cerevisiae"
+    }
+   ]
+  },
+  {
+   "id": "lebt104.6",
+   "title": "Monoclonal Antibodies by Hybridoma Technology",
+   "section": "4.5",
+   "definition": "Koehler and Milstein's 1975 hybridoma trick fuses short-lived antibody-producing B plasma cells with immortal myeloma cells using polyethylene glycol; HAT medium kills unfused myelomas and aged B cells alike so only hybridomas endure, secreting monoclonal antibodies aimed at one epitope - later humanised with mouse-human chimeric segments for therapy, diagnostics like pregnancy kits and tumor-targeted drug delivery.",
+   "formula": "-",
+   "key_idea": "Fuse mortality with immortality: only the B-cell-and-myeloma hybrid survives HAT medium and keeps secreting one specific antibody.",
+   "textbook_ref": "lebt104.txt section 4.5, Fig. 4.11",
+   "question_patterns": [
+    "describe hybridoma technology with the role of polyethylene glycol and HAT medium",
+    "why do unfused myeloma cells die in HAT medium while hybridomas survive",
+    "differentiate polyclonal from monoclonal antibodies on the basis of epitope specificity",
+    "what are humanised or chimeric antibodies and why are they preferred in therapy",
+    "name two diagnostic applications of monoclonal antibodies",
+    "why are B cells cultured alone unsuitable for large-scale antibody production",
+    "list the five antibody classes present in human serum"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "immunise and harvest",
+     "explain": "Antigen exposure yields antibody-secreting plasma cells from the animal."
+    },
+    {
+     "step": 2,
+     "action": "fuse with myeloma",
+     "explain": "PEG fuses B cells to immortal myeloma cells; HAT medium selects the hybrids."
+    },
+    {
+     "step": 3,
+     "action": "clone and apply",
+     "explain": "Screened hybridoma clones supply uniform monoclonal antibody for diagnosis or therapy."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which medium kills unfused myelomas in hybridoma work: HAT or LB?",
+     "a": "HAT"
+    }
+   ]
+  },
+  {
+   "id": "lebt104.7",
+   "title": "Engineered Insulin Chain Arithmetic",
+   "section": "4.5",
+   "definition": "Insulin's active form holds a 21-residue A chain bonded to a 30-residue B chain, carved from an 86-residue proinsulin whose 31-residue C chain and four connecting residues are trimmed away; bacteria cannot perform this editing, so engineers clone the A and B genes separately beside beta-galactosidase, release the chains with cyanogen bromide and re-oxidise the disulfides - yielding Humulin, marketed from 1982.",
+   "formula": "insulin_len = a_chain + b_chain",
+   "key_idea": "Add the two chains for the active hormone; subtract it from proinsulin to price the editing the pancreas does and bacteria cannot.",
+   "textbook_ref": "lebt104.txt section 4.5, Figs. 4.12-4.14, Box 6",
+   "question_patterns": [
+    "insulin has a 21-residue A chain and a 30-residue B chain - compute the length of active insulin",
+    "an 86-residue proinsulin yields a 51-residue insulin - how many amino acids are cleaved away in total",
+    "how many amino acids does the C chain of proinsulin carry and what else accompanies its removal",
+    "why must the A and B chain genes be cloned separately in bacteria for insulin production",
+    "which chemical cleaves the beta-galactosidase fusion protein to free the insulin chains",
+    "under what brand and in which year did engineered human insulin reach the market",
+    "why can pig or cow insulin trigger allergic responses in some diabetic patients"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the two chains",
+     "explain": "Active insulin is the sum of its A and B chains.",
+     "compute": "insulin_len = a_chain + b_chain"
+    },
+    {
+     "step": 2,
+     "action": "subtract from proinsulin",
+     "explain": "Proinsulin loses the C chain and connector residues during maturation.",
+     "compute": "cleaved_off = proinsulin_len - insulin_len"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many residues does insulin's A chain hold?",
+     "a": "21"
+    }
+   ]
+  },
+  {
+   "id": "lebt104.8",
+   "title": "Human Growth Hormone Gene Engineering",
+   "section": "4.5",
+   "definition": "Growth hormone deficiency once demanded pituitaries from more than eighty cadavers per year of treatment and risked prion disease, so engineers rebuilt the gene: the cDNA encodes mature 191-residue HGH plus a 26-residue signal peptide, EcoRI excision removes the signal and a further 24 residues, and a chemically synthesised 24-residue segment is ligated back before expression in E. coli - products Humatrope and Protropin from 1985.",
+   "formula": "intermediate_len = mature_len + signal_extra",
+   "key_idea": "Add the signal peptide to size the cDNA product, subtract the excised codons, then add back the synthetic piece to restore the full hormone.",
+   "textbook_ref": "lebt104.txt section 4.5, Fig. 4.17, Box 7",
+   "question_patterns": [
+    "the HGH cDNA codes for 191 mature residues plus a 26-residue signal peptide - find the intermediate length",
+    "EcoRI cleavage removes 50 codons and a synthetic 24-residue piece is ligated back - how long is the final expressed hormone",
+    "why must the signal peptide sequence be removed before expressing HGH in bacteria",
+    "why was cadaver-derived growth hormone treatment risky and costly",
+    "under which brand names did engineered human growth hormone reach the market and in which year",
+    "which enzyme performed the excision that no other restriction site matched in the HGH cDNA",
+    "what deficiency disease does growth hormone therapy treat and at which life stage"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the signal peptide",
+     "explain": "The cDNA product carries the mature hormone plus its signal extension.",
+     "compute": "intermediate_len = mature_len + signal_extra"
+    },
+    {
+     "step": 2,
+     "action": "remove the excised codons",
+     "explain": "EcoRI cleavage deletes the signal and extra residues together.",
+     "compute": "after_cut = intermediate_len - removed_codons"
+    },
+    {
+     "step": 3,
+     "action": "restore the synthetic piece",
+     "explain": "A chemically made segment is ligated back to complete the gene.",
+     "compute": "restored_len = after_cut + synthetic_len"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many residues long is mature human growth hormone: 191 or 26?",
+     "a": "191"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "lebt104.txt section 4.5 (21-residue A chain, 30-residue B chain, 86-residue proinsulin)",
+   "concept": "lebt104.7",
+   "question_type": "compute",
+   "question_pattern": "Human insulin carries an A chain of {a_chain} residues and a B chain of {b_chain} residues, cut from a proinsulin of {proinsulin_len} residues. Find the active insulin length and the total residues cleaved away.",
+   "extracted_variables": {
+    "a_chain": "residues in the A chain",
+    "b_chain": "residues in the B chain",
+    "proinsulin_len": "residues in proinsulin"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the chains",
+     "explain": "The mature hormone joins both chains.",
+     "compute": "insulin_len = a_chain + b_chain"
+    },
+    {
+     "step": 2,
+     "action": "subtract from proinsulin",
+     "explain": "The difference is the C chain plus connectors removed in maturation.",
+     "compute": "cleaved_off = proinsulin_len - insulin_len"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "lebt104.txt section 4.5 Fig. 4.17 (191-residue HGH, 26-residue signal, 50 removed, 24 restored)",
+   "concept": "lebt104.8",
+   "question_type": "compute",
+   "question_pattern": "The HGH cDNA product is a {mature_len}-residue hormone plus a {signal_extra}-residue signal peptide. EcoRI removes {removed_codons} codons and a synthetic segment of {synthetic_len} residues is ligated back. Find the intermediate length, the length after cleavage, and the final expressed hormone length.",
+   "extracted_variables": {
+    "mature_len": "residues in mature HGH",
+    "signal_extra": "residues of the signal peptide",
+    "removed_codons": "codons removed by EcoRI cleavage",
+    "synthetic_len": "residues in the chemically synthesised segment"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the signal",
+     "explain": "The cDNA encodes hormone plus signal peptide.",
+     "compute": "intermediate_len = mature_len + signal_extra"
+    },
+    {
+     "step": 2,
+     "action": "apply the cut",
+     "explain": "Excision removes signal and extra codons together.",
+     "compute": "after_cut = intermediate_len - removed_codons"
+    },
+    {
+     "step": 3,
+     "action": "restore the segment",
+     "explain": "The synthetic piece completes the engineered gene.",
+     "compute": "restored_len = after_cut + synthetic_len"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lebt104-ex1",
+   "source_ref": "lebt104.txt Exercises (questions 1-29)",
+   "questions": [
+    "What do you mean by DNA fingerprinting - explain it through RFLP and the role of VNTR probes.",
+    "What are GMOs - describe the development of transgenic plants by Agrobacterium and by the gene gun.",
+    "What is molecular pharming - give applications of transgenic animals with named examples.",
+    "Describe the procedure for developing recombinant subunit vaccines and write a short note on DNA vaccines.",
+    "Briefly describe the development of Humulin and of Humatrope and Protropin through rDNA technology.",
+    "Differentiate ex vivo from in vivo gene therapy and somatic from germ-line therapy with their ethical issues.",
+    "Evaluate the assertions on hybridoma fusion with myeloma cells and on disulfide-linked insulin chains with C-peptide removal.",
+    "From which organism are cry genes obtained, which bacterium produced engineered insulin, and by what technology are monoclonal antibodies made?"
+   ]
+  }
+ ]
+}

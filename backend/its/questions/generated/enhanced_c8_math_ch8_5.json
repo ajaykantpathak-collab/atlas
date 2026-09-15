@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch8_5",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch8_5",
+   "title": "c8_math_ch8_5",
+   "questions": [
+    {
+     "q": "What is the formula to express quantity P as a percentage of quantity Q?",
+     "a": "The formula is (P/Q) × 100%. A wrong answer like (Q/P) × 100% reveals the student confuses which quantity is the part and which is the whole. A student writing just P/Q without ×100% shows they understand the fraction but not the conversion to percentage.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul says: \"To find 25 as a percentage of 200, I divide 200 by 25 and multiply by 100.\" Is Rahul correct? Explain why or why not.",
+     "a": "Rahul is incorrect. He reversed the division: 200/25 = 8, giving 800%, but 25 is only 12.5% of 200. The correct calculation is (25/200) × 100% = 12.5%. This error reveals the student does not understand that the quantity being expressed as a percentage (the part) must be the numerator, and the reference quantity (the whole) must be the denominator.",
+     "self_check": true
+    },
+    {
+     "q": "A water tank holds 500 litres. Currently it contains 325 litres. What percentage of the tank is filled? Show all steps.",
+     "a": "Step 1: Identify part = 325 litres, whole = 500 litres.\nStep 2: Write fraction = 325/500.\nStep 3: Simplify fraction = 13/20 (dividing by 25).\nStep 4: Convert to percentage = (13/20) × 100% = 13 × 5% = 65%.\nStep 5: Interpret: The tank is 65% full.\nA wrong answer of 153.8% (from 500/325 × 100) shows the part-whole confusion. An answer of 0.65 without % shows incomplete conversion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare: 18 kg as a percentage of 60 kg, and 18 g as a percentage of 60 g. Are the percentages equal? Explain without calculating both fully.",
+     "a": "Yes, the percentages are equal (both 30%). The units (kg or g) cancel out in the fraction (18/60) because both quantities use the same unit. This tests whether the student understands that percentage is a unitless ratio. A student who says they are different because \"kg is bigger than g\" fails to grasp that the ratio is independent of the unit magnitude when units match.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved: \"Express 45 cm as a percentage of 3 m.\" Their working: (45/3) × 100% = 1500%. Identify the error and give the correct answer.",
+     "a": "The error: units are not the same. 3 m = 300 cm. The student used 3 instead of 300. Correct working: (45/300) × 100% = (3/20) × 100% = 15%. A student who does not catch the unit mismatch reveals they treat numbers without considering their units, a critical error in real-world problems.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem where expressing one quantity as a percentage of another is useful, but the quantities are initially in different units (e.g., metres and centimetres, rupees and paise). Write the problem and solve it completely.",
+     "a": "Example problem: \"A rope is 2.5 m long. A piece of 75 cm is cut from it. What percentage of the original rope was cut off?\" Solution: Convert 2.5 m = 250 cm. Fraction = 75/250 = 3/10. Percentage = 30%. A good answer shows unit conversion, correct fraction formation, and percentage calculation. A poor answer either skips conversion or reverses the fraction, showing lack of conceptual understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

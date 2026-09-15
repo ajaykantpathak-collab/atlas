@@ -1,0 +1,131 @@
+{
+ "catalog": "catalog_class9_science_iesc106.json",
+ "concepts": [
+  {
+   "id": "iesc.106.6.1",
+   "title": "Balanced and Unbalanced Forces",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Define balanced forces.",
+     "a": "Forces equal in size and opposite in direction; net force zero, so the state of motion does not change.",
+     "self_check": true
+    },
+    {
+     "q": "What happens when forces are unbalanced?",
+     "a": "The object accelerates in the direction of the net force - it starts, stops or changes motion.",
+     "self_check": true
+    },
+    {
+     "q": "A book rests on a table. Name the balanced forces on it.",
+     "a": "Its weight downward and the table's normal reaction upward.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.106.6.2",
+   "title": "Newton's Laws of Motion and Inertia",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "double_mass_force",
+     "expr": "(mass * 2) * acceleration",
+     "explain": "force for double the mass"
+    },
+    {
+     "step": 2,
+     "name": "half_mass_force",
+     "expr": "(mass / 2) * acceleration",
+     "explain": "force for half the mass"
+    },
+    {
+     "step": 3,
+     "name": "force",
+     "expr": "mass * acceleration",
+     "explain": "newton's second law: F = ma"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A 4 kg block accelerates at 3 m/s2. Find the applied force.",
+     "vals": {
+      "mass": 4,
+      "acceleration": 3
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "12 N",
+     "self_check": false
+    },
+    {
+     "q": "A 0.2 kg ball accelerates at 50 m/s2. Calculate the force.",
+     "vals": {
+      "mass": 0.2,
+      "acceleration": 50
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "10 N",
+     "self_check": false
+    },
+    {
+     "q": "What force accelerates a 2500 kg truck at 0.4 m/s2?",
+     "vals": {
+      "mass": 2500,
+      "acceleration": 0.4
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "1000 N",
+     "self_check": false
+    },
+    {
+     "q": "Find the force that gives a 12 kg cart an acceleration of 5 m/s2.",
+     "vals": {
+      "mass": 12,
+      "acceleration": 5
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "60 N",
+     "self_check": false
+    },
+    {
+     "q": "A 1.5 kg book is pushed so that it speeds up at 4 m/s2. Compute the force.",
+     "vals": {
+      "mass": 1.5,
+      "acceleration": 4
+     },
+     "unit": "N",
+     "steps": null,
+     "a": "6 N",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.106.6.3",
+   "title": "Action-Reaction and Conservation of Momentum",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "State Newton's third law of motion.",
+     "a": "Every action has an equal and opposite reaction, acting on different bodies.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a gun recoil when fired?",
+     "a": "The forward push on the bullet has an equal backward push on the gun.",
+     "self_check": true
+    },
+    {
+     "q": "How does a rocket move upward?",
+     "a": "Hot gases rush down; the equal and opposite reaction pushes the rocket up.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

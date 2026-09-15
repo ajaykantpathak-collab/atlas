@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_10_005",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_10_005",
+   "title": "c12_math_cbse_10_005",
+   "questions": [
+    {
+     "q": "State the formula for the cross product **a** × **b** of two vectors **a** = a₁**î** + a₂**ĵ** + a₃**k̂** and **b** = b₁**î** + b₂**ĵ** + b₃**k̂** in terms of a determinant, and write the resulting vector components explicitly.",
+     "a": "**a** × **b** = det |**î** **ĵ** **k̂**; a₁ a₂ a₃; b₁ b₂ b₃| = (a₂b₃ − a₃b₂)**î** + (a₃b₁ − a₁b₃)**ĵ** + (a₁b₂ − a₂b₁)**k̂**. A wrong answer (e.g., missing the minus sign on the **ĵ** component, or swapping a₂b₃ and a₃b₂) reveals the student has memorised the pattern without understanding the determinant expansion or the cyclic order î → ĵ → k̂ → î. This leads to sign errors in JEE problems where direction matters (e.g., torque, angular momentum).",
+     "self_check": true
+    },
+    {
+     "q": "Two vectors **a** and **b** have an angle of 60° between them. A student claims that |**a** × **b**| = |**a**||**b**| cos 60°. Is this correct? Explain why or why not, and state the correct expression for |**a** × **b**|.",
+     "a": "The student is incorrect. The magnitude of the cross product is |**a** × **b**| = |**a**||**b**| sin θ, not cos θ. The dot product uses cos θ: **a**·**b** = |**a**||**b**| cos θ. Confusing sin and cos is a very common error — it swaps the geometric meaning: dot product measures alignment (projection), cross product measures perpendicularity (area). If the student uses cos 60° = 1/2 instead of sin 60° = √3/2, the magnitude will be wrong by a factor of √3, causing errors in area calculations and physics problems (torque, magnetic force).",
+     "self_check": true
+    },
+    {
+     "q": "Compute **a** × **b** for **a** = 2**î** − 3**ĵ** + **k̂** and **b** = **î** + 4**ĵ** − 2**k̂**. Show all steps of the determinant expansion.",
+     "a": "**a** × **b** = det |**î** **ĵ** **k̂**; 2 −3 1; 1 4 −2|  \n= **î**[(−3)(−2) − (1)(4)] − **ĵ**[(2)(−2) − (1)(1)] + **k̂**[(2)(4) − (−3)(1)]  \n= **î**[6 − 4] − **ĵ**[−4 − 1] + **k̂**[8 + 3]  \n= 2**î** + 5**ĵ** + 11**k̂**.  \nA wrong answer (e.g., 2**î** − 5**ĵ** + 11**k̂** or 2**î** + 5**ĵ** − 11**k̂**) reveals sign errors in the cofactor expansion — specifically, forgetting the minus sign before the **ĵ** term or miscalculating the 2×2 determinants. This is the #1 computational error in board exams; students must write the cofactor signs explicitly: + − + for the first row.",
+     "self_check": true
+    },
+    {
+     "q": "Given **a** = **î** + 2**ĵ** + 3**k̂** and **b** = 2**î** + 4**ĵ** + 6**k̂**, find **a** × **b** without computing the determinant. Explain your reasoning using a property of the cross product.",
+     "a": "Observe that **b** = 2**a**, so **a** and **b** are collinear (parallel). For any two parallel vectors, the angle θ = 0 or π, so sin θ = 0, and **a** × **b** = **0**. The cross product of collinear vectors is always the zero vector. A student who computes the determinant and gets **0** is correct but misses the efficient property-based reasoning. A student who gets a non-zero vector has made an arithmetic error or doesn't recognise collinearity (components proportional). This property is frequently tested in MCQs: \"If **a** × **b** = **0**, then **a** and **b** are ______.\"",
+     "self_check": true
+    },
+    {
+     "q": "A student solves for the area of a triangle with vertices A(1, 2, 3), B(4, 5, 6), C(7, 8, 9) as follows:  \n**AB** = 3**î** + 3**ĵ** + 3**k̂**, **AC** = 6**î** + 6**ĵ** + 6**k̂**  \n**AB** × **AC** = det |**î** **ĵ** **k̂**; 3 3 3; 6 6 6| = **0**  \nArea = ½ |**0**| = 0  \nThe student concludes the triangle has zero area. Is this conclusion correct? Justify.",
+     "a": "Yes, the conclusion is correct. **AC** = 2**AB**, so the vectors are collinear, meaning points A, B, C lie on a straight line — the triangle is degenerate (area = 0). The student's computation is correct. However, if a student *incorrectly* computes a non-zero cross product due to arithmetic mistakes and then calculates a non-zero area, they fail to recognise the collinearity. In board exams, always check if vectors are proportional before computing the determinant — it saves time and catches degenerate cases.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world problem (Indian context) where the cross product of two vectors is used to find a physical quantity. Define the vectors clearly with units, state what the cross product represents physically, and write the mathematical expression for it.",
+     "a": "Example: A force **F** = (3**î** + 4**ĵ**) N is applied at a point with position vector **r** = (2**î** + **ĵ** + **k̂**) m relative to a pivot. The torque **τ** = **r** × **F** (in N·m) measures the turning effect.  \n**τ** = det |**î** **ĵ** **k̂**; 2 1 1; 3 4 0| = **î**(0−4) − **ĵ**(0−3) + **k̂**(8−3) = −4**î** + 3**ĵ** + 5**k̂** N·m.  \nA poor answer uses vague vectors without units, confuses torque with work (dot product), or writes **F** × **r** instead of **r** × **F** (wrong direction by right-hand rule). This tests whether the student can map the mathematical operation to physics and apply the correct order.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

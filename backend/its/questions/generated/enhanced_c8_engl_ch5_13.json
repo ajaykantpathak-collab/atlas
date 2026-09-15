@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_engl_ch5_13",
+ "concepts": [
+  {
+   "id": "enh:c8_engl_ch5_13",
+   "title": "c8_engl_ch5_13",
+   "questions": [
+    {
+     "q": "What is the difference between a poem's summary and its central idea?",
+     "a": "A summary retells *what happens* in the poem (the sequence of images/events) in order, while the central idea states *what it means* — the universal message about life, human nature, or the world. A wrong answer (e.g., \"They are the same thing\" or \"Summary is shorter\") reveals the student conflates plot-level retelling with thematic interpretation, a carryover from prose summary tasks in Class 6-7 where plot and theme are often taught separately.",
+     "self_check": true
+    },
+    {
+     "q": "In the bird poem, the poet describes Claribel floating \"upside down\" in zero gravity. If a student writes in their summary: \"The bird was confused and scared,\" what comprehension error have they made?",
+     "a": "The student has imposed human emotions (confusion, fear) onto the bird without textual evidence — the poem describes *physical disorientation* (floating, claws finding no grip), not the bird's internal state. A wrong answer here reveals the student defaulting to anthropomorphism (a habit from Class 6 fables like *The Day the River Spoke*) instead of observing the poem's precise, objective imagery. This misreading will lead to a flawed central idea about \"overcoming fear\" rather than \"adapting to a new reality.\"",
+     "self_check": true
+    },
+    {
+     "q": "Apply the \"One-Phrase-Per-Stanza\" method to the first three stanzas of the bird poem. Write your three phrases below.",
+     "a": "Expected phrases (variations accepted if textually grounded): Stanza 1: \"Bird released into weightless cabin.\" Stanza 2: \"Bird tumbles, unable to perch.\" Stanza 3: \"Bird discovers wing-beats stabilize flight.\" A student who writes \"Bird is sad\" or \"Astronauts watch the bird\" has failed to apply the method — they are summarizing the *story context* (from the prose chapter) rather than the *poem's own focus*. This shows they cannot isolate the poetic text from the prose narrative.",
+     "self_check": true
+    },
+    {
+     "q": "The poem ends with Claribel singing. A student claims the central idea is \"Birds make people happy.\" Analyze why this is an incomplete central idea for *this specific poem*.",
+     "a": "\"Birds make people happy\" is a generic truism that ignores the poem's specific setting (space station), the bird's physical adaptation (learning to fly in zero-g), and the astronauts' isolation. The poem's central idea must encompass *both* the bird's resilience *and* the humans' need for connection in an alien environment. A wrong answer reveals the student extracts a cliché instead of synthesizing the poem's unique juxtaposition of technology (space station) and nature (bird song).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's central idea statement: \"The poem teaches us that even in space, nature finds a way to survive.\" Is this a strong or weak interpretation? Justify.",
+     "a": "It is a *moderately strong* interpretation but incomplete. It captures the survival/adaptation theme (nature's resilience) but misses the *reciprocal* emotional dimension: the astronauts need the bird as much as the bird adapts to them. The poem is not just about the bird surviving; it's about mutual companionship in isolation. A student calling it \"perfect\" reveals they read for a single theme (survival) and miss the layered human-animal bond central to the chapter's themes (c8_engl_ch5_6, c8_engl_ch5_7).",
+     "self_check": true
+    },
+    {
+     "q": "Create a 2-sentence \"elevator pitch\" for the bird poem that combines its summary and central idea, as if recommending it to a Class 7 student.",
+     "a": "Strong answer: \"A canary named Claribel learns to fly in zero gravity on a space station, her cheerful song becoming a lifeline of home for lonely astronauts — showing that companionship transcends gravity and technology.\" Weak answers will either omit the space setting, the mutual need, or the song's significance. This tests if the student can *synthesize* (Bloom's Create) the two distinct skills (summary + central idea) into one coherent articulation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

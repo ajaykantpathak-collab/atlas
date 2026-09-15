@@ -1,0 +1,336 @@
+{
+ "class": 11,
+ "subject": "business_studies",
+ "chapter": 104,
+ "chapter_title": "Business Services",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/kebs104.txt",
+ "concepts": [
+  {
+   "id": "kebs.104.1",
+   "title": "Characteristics of Services",
+   "section": "4.2",
+   "definition": "The distinct behavioral and operational attributes that separate services from physical products, characterized by the five Is: intangibility, inconsistency, inseparability, lack of inventory, and customer involvement.",
+   "formula": "",
+   "key_idea": "Services are experiential, non-standardized activities performed in real-time with customer participation.",
+   "textbook_ref": "kebs104.txt lines 81-115",
+   "question_patterns": [
+    "What are the five Is of services?",
+    "Explain the distinct features of services.",
+    "How do services differ from goods based on inventory and involvement?",
+    "Describe the nature of services with examples."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the five core characteristics",
+     "explain": "The five characteristics are Intangibility, Inconsistency, Inseparability, Inventory (less), and Involvement."
+    },
+    {
+     "step": 2,
+     "action": "Explain each characteristic",
+     "explain": "Intangibility means they cannot be touched; Inconsistency means they vary per delivery; Inseparability means production and consumption happen together; Inventory-less means they cannot be stored; Involvement means the customer participates in delivery."
+    }
+   ]
+  },
+  {
+   "id": "kebs.104.2",
+   "title": "Types of Services",
+   "section": "4.3",
+   "definition": "The classification of services into three primary categories based on their target users and objectives: business, social, and personal services.",
+   "formula": "",
+   "key_idea": "Services are categorized by whether they support commercial activities, community welfare, or individual preferences.",
+   "textbook_ref": "kebs104.txt lines 116-145",
+   "question_patterns": [
+    "Classify the different types of services.",
+    "What is the difference between business services and social services?",
+    "Define personal services with suitable examples.",
+    "Under which category do banking and tourism fall?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Categorize the service based on its primary objective",
+     "explain": "Determine if the service is used for business operations (business), social upliftment (social), or personal enjoyment (personal)."
+    }
+   ]
+  },
+  {
+   "id": "kebs.104.3",
+   "title": "Primary Functions of Commercial Banks",
+   "section": "4.4.2",
+   "definition": "The core financial services executed by commercial banking institutions, primarily consisting of accepting public deposits and lending funds.",
+   "formula": "",
+   "key_idea": "Banks act as financial intermediaries by borrowing from depositors and lending to borrowers.",
+   "textbook_ref": "kebs104.txt lines 210-250",
+   "question_patterns": [
+    "What are the primary functions of commercial banks?",
+    "Explain how commercial banks accept deposits and lend funds.",
+    "Describe the different types of bank accounts available to depositors.",
+    "What is the role of commercial banks in credit creation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify deposit acceptance mechanisms",
+     "explain": "Banks accept funds through savings accounts, current accounts, and fixed deposits."
+    },
+    {
+     "step": 2,
+     "action": "Identify lending mechanisms",
+     "explain": "Banks advance loans via overdrafts, cash credits, term loans, and discounting bills."
+    }
+   ]
+  },
+  {
+   "id": "kebs.104.4",
+   "title": "e-Banking and Digital Payments",
+   "section": "4.4.3",
+   "definition": "The delivery of banking services and execution of financial transactions electronically over the internet using digital devices.",
+   "formula": "",
+   "key_idea": "e-Banking provides round-the-clock banking access, reducing transaction costs and physical branch load.",
+   "textbook_ref": "kebs104.txt lines 251-300",
+   "question_patterns": [
+    "What is e-banking and what are its benefits?",
+    "Explain the different modes of electronic fund transfer.",
+    "How do NEFT and RTGS differ as digital payment methods?",
+    "What advantages does internet banking offer to customers and banks?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the electronic channel used",
+     "explain": "Transactions are conducted via ATMs, EFT, NEFT, RTGS, or credit/debit cards."
+    },
+    {
+     "step": 2,
+     "action": "Determine the benefits of the digital transaction",
+     "explain": "Provides 24/7 access, transparency, and lower processing costs."
+    }
+   ]
+  },
+  {
+   "id": "kebs.104.5",
+   "title": "Principle of Utmost Good Faith",
+   "section": "4.5.3(i)",
+   "definition": "The fundamental insurance principle (Uberrimae Fidei) requiring both the insurer and the insured to make complete and honest disclosure of all material facts.",
+   "formula": "",
+   "key_idea": "Non-disclosure of material facts by either party makes the insurance contract voidable.",
+   "textbook_ref": "kebs104.txt lines 340-365",
+   "question_patterns": [
+    "Explain the principle of utmost good faith in insurance.",
+    "What happens if an insured hides a material fact from the insurer?",
+    "Define Uberrimae Fidei with an example.",
+    "Why is full disclosure mandatory in an insurance proposal?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine the disclosure of facts",
+     "explain": "Verify if the proposer disclosed all critical details (e.g., medical history for life insurance, building structure for fire insurance)."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate the validity of the contract",
+     "explain": "If any material fact was concealed, the contract becomes voidable at the option of the insurer."
+    }
+   ]
+  },
+  {
+   "id": "kebs.104.6",
+   "title": "Principle of Insurable Interest",
+   "section": "4.5.3(ii)",
+   "definition": "The legal requirement that the insured must have a direct pecuniary or financial stake in the safety and preservation of the subject matter of insurance.",
+   "formula": "",
+   "key_idea": "The insured must suffer financial loss from the damage or destruction of the insured item or life.",
+   "textbook_ref": "kebs104.txt lines 366-385",
+   "question_patterns": [
+    "What is insurable interest?",
+    "Explain the principle of insurable interest with examples.",
+    "When must insurable interest exist in life, fire, and marine insurance?",
+    "Can a person insure a neighbor's house under the principle of insurable interest?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the financial relationship",
+     "explain": "Check if the insured stands to suffer financially if the subject matter is damaged."
+    },
+    {
+     "step": 2,
+     "action": "Check timing requirements",
+     "explain": "In life insurance, it must exist at inception; in fire, both at inception and loss; in marine, at the time of loss."
+    }
+   ]
+  },
+  {
+   "id": "kebs.104.7",
+   "title": "Principle of Indemnity",
+   "section": "4.5.3(iii)",
+   "definition": "The rule ensuring that the insurer compensates the insured only for the actual financial loss suffered, restoring them to their pre-loss financial position without profit.",
+   "formula": "",
+   "key_idea": "Insurance is meant for compensation of loss, not for making a profit; this principle does not apply to life insurance.",
+   "textbook_ref": "kebs104.txt lines 386-400",
+   "question_patterns": [
+    "Explain the principle of indemnity.",
+    "Why is the principle of indemnity not applicable to life insurance?",
+    "How is compensation calculated under a contract of indemnity?",
+    "Show how indemnity prevents an insured from profiting from a loss."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Verify the type of insurance",
+     "explain": "Indemnity applies to fire and marine insurance, but not to life insurance."
+    },
+    {
+     "step": 2,
+     "action": "Determine the maximum compensation payable",
+     "explain": "The compensation is limited to the actual loss incurred or the sum insured, whichever is lower."
+    }
+   ]
+  },
+  {
+   "id": "kebs.104.8",
+   "title": "Principle of Contribution",
+   "section": "4.5.3(vi)",
+   "definition": "The right of an insurer who has paid a full claim to recover proportional shares of the loss from other co-insurers covering the same risk.",
+   "formula": "contribution = (insurer_policy_limit / total_sum_insured) * actual_loss",
+   "key_idea": "In double insurance, the insurers share the actual loss in proportion to the sum assured by each.",
+   "textbook_ref": "kebs104.txt lines 415-425",
+   "question_patterns": [
+    "Calculate the contribution of each insurer in case of double insurance.",
+    "Explain the principle of contribution with a numerical example.",
+    "If a property is insured with two companies, how is the claim settled?",
+    "What is the formula for calculating proportional liability of co-insurers?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum the policy limits of all insurers",
+     "explain": "Calculate the total sum insured by adding the individual policy limits.",
+     "compute": "total_sum_insured = policy_a + policy_b"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the proportional contribution of Insurer A",
+     "explain": "Divide Insurer A's policy limit by the total sum insured, then multiply by the actual loss.",
+     "compute": "contribution_a = (policy_a / total_sum_insured) * actual_loss"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the proportional contribution of Insurer B",
+     "explain": "Divide Insurer B's policy limit by the total sum insured, then multiply by the actual loss.",
+     "compute": "contribution_b = (policy_b / total_sum_insured) * actual_loss"
+    }
+   ]
+  },
+  {
+   "id": "kebs.104.9",
+   "title": "Types of Warehouses",
+   "section": "4.5",
+   "definition": "The classification of storage facilities based on ownership, operation, and regulatory status, including private, public, bonded, government, and cooperative warehouses.",
+   "formula": "",
+   "key_idea": "Different warehouses cater to specific business needs, such as tax deferral (bonded) or cost-effective public storage.",
+   "textbook_ref": "kebs104.txt lines 580-630",
+   "question_patterns": [
+    "What are the different types of warehouses?",
+    "Explain the utility of bonded warehouses for importers.",
+    "How do public warehouses differ from private warehouses?",
+    "Describe government and cooperative warehouses."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the ownership and regulatory status of the warehouse",
+     "explain": "Determine if the warehouse is owned by a private firm (private), licensed for public use (public), customs-controlled (bonded), state-owned (government), or run by a cooperative society."
+    }
+   ]
+  },
+  {
+   "id": "kebs.104.10",
+   "title": "Functions of Warehousing",
+   "section": "4.5",
+   "definition": "The logistical and value-adding operations performed by modern warehouses to facilitate smooth distribution, including consolidation, breaking bulk, stockpiling, and price stabilization.",
+   "formula": "",
+   "key_idea": "Modern warehouses act as dynamic logistics hubs rather than mere static storage units.",
+   "textbook_ref": "kebs104.txt lines 631-670",
+   "question_patterns": [
+    "Explain the primary functions of warehousing.",
+    "How do warehouses help in price stabilization?",
+    "What is meant by consolidation and breaking bulk in warehousing?",
+    "Describe the financing and value-added services provided by warehouses."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the specific logistical function performed",
+     "explain": "Determine if the activity involves combining shipments (consolidation), dividing large shipments (break-bulk), seasonal storage (stockpiling), or packaging/labeling (value-added services)."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebs104.txt lines 415-425",
+   "concept": "kebs.104.8",
+   "question_type": "compute",
+   "question_pattern": "A merchant insures his warehouse with Insurer A for Rs. {policy_a} and with Insurer B for Rs. {policy_b}. A fire causes an actual loss of Rs. {actual_loss}. Calculate the liability contribution of Insurer A.",
+   "extracted_variables": {
+    "policy_a": "The policy limit of the first insurer",
+    "policy_b": "The policy limit of the second insurer",
+    "actual_loss": "The actual financial damage caused by the fire"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum the policy limits of all insurers",
+     "explain": "Calculate the total sum insured by adding the individual policy limits.",
+     "compute": "total_sum_insured = policy_a + policy_b"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the proportional contribution of Insurer A",
+     "explain": "Divide Insurer A's policy limit by the total sum insured, then multiply by the actual loss.",
+     "compute": "contribution_a = (policy_a / total_sum_insured) * actual_loss"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "kebs104.txt lines 700-715",
+   "questions": [
+    "Define services and goods.",
+    "What is e-banking. What are the advantages of e-banking?",
+    "Write a note on various telecom services available for enhancing business.",
+    "Explain briefly the principles of insurance with suitable examples.",
+    "Explain warehousing and its functions."
+   ]
+  },
+  {
+   "id": "ex4.2",
+   "source_ref": "kebs104.txt lines 716-730",
+   "questions": [
+    "What are services? Explain their distinct characteristics.",
+    "Explain the functions of commercial banks with an example of each.",
+    "Write a detailed note on various facilities offered by Indian Postal Department.",
+    "Describe various types of insurance and examine the nature of risks protected by each type of insurance.",
+    "Explain in detail the warehousing services."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

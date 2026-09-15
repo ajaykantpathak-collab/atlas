@@ -1,0 +1,128 @@
+{
+ "class": 11,
+ "subject": "geography",
+ "chapter": 103,
+ "chapter_title": "Drainage System",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kegy103.txt",
+ "concepts": [
+  {
+   "id": "kegy.103.1.1",
+   "title": "Drainage Patterns and the Himalayan Rivers",
+   "section": "Drainage system",
+   "definition": "The drainage system of India follows the uplift of the Himalayas and the peninsular slope, showing dendritic, trellis, radial and rectangular patterns; the Himalayan rivers Indus, Ganga and Brahmaputra are perennial, snow fed and form big basins with gorges, meanders and deltas.",
+   "formula": "",
+   "key_idea": "The Indus rises near Mansarovar with five tributaries of Jhelum, Chenab, Ravi, Beas and Sutlej, while the Ganga basin and Brahmaputra carry the largest water volume.",
+   "textbook_ref": "kegy103.txt himalayan rivers section",
+   "question_patterns": [
+    "name the major himalayan rivers and their tributaries",
+    "explain dendritic and trellis drainage patterns",
+    "why are himalayan rivers perennial",
+    "describe the course of the indus system in india",
+    "compare ganga and brahmaputra river systems",
+    "what is a river basin and drainage divide"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.103.2.1",
+   "title": "Peninsular Rivers, River Regimes and Pollution",
+   "section": "Peninsular drainage",
+   "definition": "Peninsular rivers like the Mahanadi, Godavari, Krishna, Kaveri, Narmada and Tapi are rain fed and seasonal, flowing through hard rock terrain with estuaries instead of large deltas, and their flow regimes depend on the monsoon; rivers face pollution and inter-state disputes requiring water quality management.",
+   "formula": "",
+   "key_idea": "The east flowing rivers form deltas while the west flowing Narmada and Tapi occupy rift valleys making estuaries, which shows the structural control of peninsular drainage.",
+   "textbook_ref": "kegy103.txt peninsular rivers and pollution sections",
+   "question_patterns": [
+    "compare east flowing and west flowing peninsular rivers",
+    "why do narmada and tapi form estuaries",
+    "name the himalayan and peninsular drainage systems",
+    "describe the regime of peninsular rivers",
+    "what are the causes of river pollution in india",
+    "explain the evolution of the peninsular drainage system"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.103.3.1",
+   "title": "Important Rivers and Water Resources Management",
+   "section": "Drainage system",
+   "definition": "India's rivers carry about 1869 cubic km of water annually, and their basins support hydel power, irrigation and inland navigation, so water management through multipurpose projects, pollution control and inter-state cooperation is central to the drainage geography of the country.",
+   "formula": "",
+   "key_idea": "Multipurpose river valley projects like the Bhakra Nangal and Damodar Valley combine irrigation, power, flood control and navigation on the major river systems.",
+   "textbook_ref": "kegy103.txt water resources discussion",
+   "question_patterns": [
+    "name the multipurpose projects built on indian rivers",
+    "what are the benefits of river valley projects",
+    "how can river pollution be controlled",
+    "why do inter state river disputes arise and how are they settled",
+    "state the uses of the ganga and indus river waters",
+    "what is the role of rivers in indian agriculture"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kegy103.txt exercises",
+   "questions": [
+    "Name the major drainage patterns with examples.",
+    "Why are the Himalayan rivers perennial and peninsular rivers seasonal?",
+    "Describe the drainage pattern of peninsular rivers.",
+    "What is meant by a drainage divide?",
+    "Write a note on river pollution and its control."
+   ]
+  }
+ ]
+}

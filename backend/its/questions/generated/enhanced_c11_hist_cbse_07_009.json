@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_07_009",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_07_009",
+   "title": "c11_hist_cbse_07_009",
+   "questions": [
+    {
+     "q": "In what year and location was Vitruvius's *De Architectura* rediscovered, and who found it?",
+     "a": "Correct: 1414, Abbey of St. Gall (Switzerland), discovered by Poggio Bracciolini. A wrong answer (e.g., \"1450s, Rome, Alberti\") reveals the student confuses the *rediscovery* of the text with its *first printed edition* (1486) or Alberti's *De Re Aedificatoria* (1452), missing the chronological trigger for the entire movement.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Renaissance architects treat Vitruvius as an authority rather than just an ancient curiosity?",
+     "a": "Correct: Vitruvius provided the *only* systematic theoretical framework linking architecture to mathematics, nature, and cosmic order—his triad (*firmitas, utilitas, venustas*) and modular proportions gave architects a \"scientific\" basis to claim professional status equal to painters/sculptors. A wrong answer (\"they liked Roman buildings\") shows the student misses the *intellectual* shift: architecture became a *discipline* governed by rules, not just a craft of copying ruins.",
+     "self_check": true
+    },
+    {
+     "q": "Brunelleschi's dome for Florence Cathedral (1420–36) uses a double-shell structure with herringbone brickwork. Which Vitruvian principle does this innovation *most directly* embody, and why?",
+     "a": "Correct: *Firmitas* (structural stability). Vitruvius emphasised that materials must be used according to their nature (Book II); Brunelleschi's herringbone pattern exploits brick's tensile weakness by converting shear forces into compression, and the double shell distributes thrust—both are *applied* Vitruvian material science. A wrong answer (\"Venustas because it looks beautiful\") confuses aesthetic outcome with structural reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Alberti's façade of Santa Maria Novella (1456–70) with Palladio's Villa Rotonda (1566–85). How does each architect *interpret* Vitruvius's concept of *symmetria* (modular proportion) differently?",
+     "a": "Correct: Alberti uses *symmetria* as a *façade composition* tool—pilasters, entablatures, and scrolls organise the surface into proportional rectangles (root-2 ratios), treating the front as a painted plane. Palladio extends *symmetria* into *three-dimensional spatial organisation*: the central dome and four identical porticoes radiate from a square core, making proportion govern *circulation and siting*, not just elevation. A wrong answer (\"both use columns\") misses the shift from *surface* to *volume* in Vitruvian application.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Palladio's *I Quattro Libri dell'Architettura* (1570) made Vitruvius obsolete for Renaissance architects.\"",
+     "a": "Correct: False. Palladio *translated* Vitruvius into a practical pattern book—adding measured drawings of Roman ruins, his own villas, and clear rules for the five orders—making Vitruvian principles *accessible* to builders across Europe. He didn't replace Vitruvius; he operationalised him. A wrong answer (\"True, Palladio was better\") reveals a misunderstanding of textual transmission: Palladio cites Vitruvius 100+ times; his authority *derives* from Vitruvius.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 150-word museum label for a 1550 edition of *De Architectura* that explains to a Class 11 student why this \"old book\" changed how buildings look today.",
+     "a": "Expected: Label must mention (1) 1414 rediscovery, (2) the triad *firmitas/utilitas/venustas*, (3) modular proportion linking human body to building (Vitruvian Man), (4) treatises by Alberti/Palladio as mediators, (5) legacy in government buildings, banks, universities worldwide. Poor answer lists dates without explaining *conceptual* impact—shows student sees history as timeline, not idea-flow.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_05_009",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_05_009",
+   "title": "c11_stat_cbse_05_009",
+   "questions": [
+    {
+     "q": "State the formula for Geometric Mean of n positive observations \\( x_1, x_2, ..., x_n \\) and explain why all observations must be strictly positive.",
+     "a": "The formula is \\( GM = (x_1 \\times x_2 \\times ... \\times x_n)^{1/n} \\) or equivalently \\( \\log(GM) = \\frac{1}{n} \\sum \\log x_i \\). All observations must be positive because the logarithm of zero or negative numbers is undefined in real numbers, and the product of an even number of negative values could yield a positive product with a real root, but the logarithmic method (standard for computation) would fail. A wrong answer (e.g., \"zero is allowed\" or \"we can use absolute values\") reveals the student does not understand the logarithmic foundation of GM computation and the domain restrictions of the log function.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the average growth rate of a bacteria culture that doubles every hour for 3 hours as \\( \\frac{2+2+2}{3} = 2 \\) (200% per hour). Explain why this is incorrect and what the correct Geometric Mean growth factor is.",
+     "a": "The student used Arithmetic Mean on growth factors (2, 2, 2), but growth is multiplicative: starting with 1 unit, after 3 hours it becomes \\( 1 \\times 2 \\times 2 \\times 2 = 8 \\). The constant hourly growth factor \\( r \\) satisfies \\( r^3 = 8 \\), so \\( r = 2 \\) – here AM = GM because all values are equal. However, if growth rates were 2, 3, 4 (factors), AM = 3 but GM = \\( \\sqrt[3]{24} \\approx 2.88 \\). The error reveals the student treats multiplicative growth as additive, confusing growth factors with percentage changes. They must understand that GM operates on the ratio scale, not the interval scale.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the Geometric Mean of the data set: 4, 9, 16 using the logarithmic method. Show all steps including finding antilog.",
+     "a": "Step 1: Take log of each value: log 4 = 0.6021, log 9 = 0.9542, log 16 = 1.2041. Step 2: Sum = 2.7604. Step 3: Divide by n=3: 2.7604/3 = 0.9201. Step 4: Antilog(0.9201) = 8.318 ≈ 8.32. Step 5: Verify: \\( \\sqrt[3]{4 \\times 9 \\times 16} = \\sqrt[3]{576} = 8.32 \\). A wrong answer (e.g., using natural log but base-10 antilog, or forgetting to divide by n) reveals confusion between log bases or the formula structure. The student must consistently use the same log base and remember the division by n corresponds to the n-th root.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Geometric Mean and Arithmetic Mean for the data: 2, 8, 32. Prove that GM ≤ AM and explain when equality holds. What does this inequality imply for average returns on investment?",
+     "a": "AM = (2+8+32)/3 = 14. GM = \\( \\sqrt[3]{2 \\times 8 \\times 32} = \\sqrt[3]{512} = 8 \\). Indeed 8 ≤ 14. Equality holds iff all observations are equal (AM-GM inequality). For investment returns, this means the arithmetic average return overstates the actual compound growth rate. If an asset returns 100%, 300%, 700% in three years, AM = 367% but GM = 300% (since growth factors 2, 4, 8 give GM=4, i.e., 300% per year). The investor who relies on AM expects higher terminal wealth than reality. A wrong answer (e.g., \"AM is always better\" or \"GM can exceed AM\") reveals fundamental misunderstanding of the inequality and its financial implication.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"For calculating average speed over a journey with equal distances at different speeds, we should use Geometric Mean of the speeds.\" Provide a counterexample and the correct average.",
+     "a": "The statement is FALSE. For equal distances, average speed = Harmonic Mean of speeds, not Geometric Mean. Counterexample: 60 km at 30 km/h (2 h) and 60 km at 60 km/h (1 h). Total distance 120 km, total time 3 h → average speed = 40 km/h. HM = \\( \\frac{2}{\\frac{1}{30}+\\frac{1}{60}} = 40 \\). GM = \\( \\sqrt{30 \\times 60} \\approx 42.4 \\) km/h (incorrect). GM is for multiplicative growth (ratios), HM for rates with fixed numerator (distance). A student choosing GM confuses the structure of the problem: speed = distance/time, so time = distance/speed – the additive quantity is time (reciprocal of speed), requiring HM. This reveals confusion between when to use GM (product of ratios) vs HM (sum of reciprocals).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem from Indian economics where Geometric Mean is the ONLY appropriate average, and Arithmetic Mean would give a misleading result. Specify the data, compute both, and explain the interpretation difference.",
+     "a": "Problem: India's GDP growth rates over 5 years: 8%, 7%, -5%, 9%, 6%. Growth factors: 1.08, 1.07, 0.95, 1.09, 1.06. AM of rates = (8+7-5+9+6)/5 = 5%. GM of factors = \\( \\sqrt[5]{1.08 \\times 1.07 \\times 0.95 \\times 1.09 \\times 1.06} = \\sqrt[5]{1.267} \\approx 1.0486 \\) → 4.86% annualised. If ₹100 crore initial GDP: AM predicts ₹100 × (1.05)^5 = ₹127.63 cr. Actual: ₹100 × 1.267 = ₹126.7 cr. GM matches reality; AM overstates by ₹0.93 cr. A poor answer uses positive-only data (no negative growth) where AM and GM are close, missing the critical role of GM in handling volatility and negative values. The student must recognise that GM captures compounding and volatility drag.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

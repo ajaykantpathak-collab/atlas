@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_05_004",
+   "title": "c11_ip_cbse_05_004",
+   "questions": [
+    {
+     "q": "What is the value of the expression `result = greet()` if `greet` is defined as `def greet(): print(\"Namaste\")` and the function is called?",
+     "a": "The value of `result` is `None`. The function `greet` prints \"Namaste\" but has no `return` statement, so it implicitly returns `None`. A common wrong answer is `\"Namaste\"` — this reveals the student confuses *printing* (side effect) with *returning* (value passed back to caller). Another wrong answer is `undefined` or `error` — this reveals the student doesn't know Python functions always return something (default `None`).",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the following code prints `None`:\n```python\ndef add(a, b):\n    print(a + b)\n\noutput = add(5, 3)\nprint(output)\n```",
+     "a": "The function `add` prints the sum (8) but does not execute a `return` statement with a value, so it implicitly returns `None`. The variable `output` captures this `None`, and the final `print(output)` displays `None`. A wrong explanation like \"the function returns the sum but print shows None\" reveals the student thinks `print` inside the function sends the value back to the caller — confusing output stream with return value.",
+     "self_check": true
+    },
+    {
+     "q": "Write a function `calculate_discount(price, discount_percent)` that returns the discounted price (price after discount). Then write code that calls this function with `price=1200` and `discount_percent=15`, stores the returned value, and prints the final price as \"Final price: ₹X\".",
+     "a": "```python\ndef calculate_discount(price, discount_percent):\n    discount_amount = price * discount_percent / 100\n    return price - discount_amount\n\nfinal = calculate_discount(1200, 15)\nprint(\"Final price: ₹\", final)\n```\nOutput: `Final price: ₹ 1020.0`. A wrong answer that uses `print(price - discount_amount)` inside the function and then tries to use the return value reveals the student doesn't understand that `return` is required to pass the computed value back for further use.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the behavior of these two functions when called in an `if` condition:\n```python\ndef is_even_v1(n):\n    return n % 2 == 0\n\ndef is_even_v2(n):\n    print(n % 2 == 0)\n```\nWhat happens when you write `if is_even_v1(4): print(\"Even\")` versus `if is_even_v2(4): print(\"Even\")`? Explain the difference.",
+     "a": "`is_even_v1(4)` returns `True`, so the `if` condition is satisfied and \"Even\" prints. `is_even_v2(4)` prints `True` but returns `None`; since `None` is falsy, the `if` block does not execute — nothing prints after the function's own print. A wrong answer claiming both work the same reveals the student doesn't grasp that `return` provides the value *tested* by `if`, while `print` only produces console output.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this function to find the maximum of three numbers:\n```python\ndef max_of_three(a, b, c):\n    if a >= b and a >= c:\n        return a\n    elif b >= a and b >= c:\n        return b\n    else:\n        return c\n```\nThey claim: \"The last `else` doesn't need `return c` because the function will automatically return the last evaluated expression.\" Evaluate this claim and correct the misconception.",
+     "a": "The claim is false. Python does **not** implicitly return the last expression like some other languages (e.g., Ruby). If the `else` block had no `return`, and all `if`/`elif` conditions were false (impossible here but logically), the function would return `None`. Even in this specific case where one branch always executes, omitting `return c` would make the function return `None` when the `else` branch runs. The student's error comes from confusing Python with expression-based languages. Every path that should produce a value must explicitly use `return`.",
+     "self_check": true
+    },
+    {
+     "q": "Design a function `split_bill(total, num_people)` that returns **two values**: the amount each person pays (rounded to 2 decimals) and the remainder (in paise) that one person covers extra. Example: `split_bill(1000, 3)` → each pays 333.33, remainder 1 paise. Show how to call it and unpack the two returned values into separate variables.",
+     "a": "```python\ndef split_bill(total, num_people):\n    each = round(total / num_people, 2)\n    remainder_paise = round((total - each * num_people) * 100)\n    return each, remainder_paise\n\nshare, extra = split_bill(1000, 3)\nprint(f\"Each pays: ₹{share}, Extra covered: {extra} paise\")\n```\nOutput: `Each pays: ₹333.33, Extra covered: 1 paise`. A poor answer that returns only one value or uses global variables reveals the student doesn't know Python functions can return multiple values as a tuple, and that tuple unpacking (`share, extra = ...`) captures them cleanly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_07_007",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_07_007",
+   "title": "c12_eco_cbse_07_007",
+   "questions": [
+    {
+     "q": "List the three phases of circular flow in their correct sequence.",
+     "a": "The three phases are: (1) Production phase, (2) Income generation phase, (3) Expenditure phase. A wrong answer (e.g., listing expenditure before income) reveals the student does not grasp the causal chain: production must occur first to generate factor incomes, which then enable expenditure.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the production phase necessarily precede the income generation phase in the circular flow? Explain using the concept of factor services.",
+     "a": "Production requires factor services (land, labour, capital, entrepreneurship). Firms hire these services from households and pay factor incomes (rent, wages, interest, profit). Without production, there is no demand for factor services, hence no factor income is generated. A wrong answer (e.g., \"income comes first because households need money to buy\") confuses the logical sequence with the financial needs of households; the circular flow is a real flow of goods/services and factor services, with monetary flows mirroring them.",
+     "self_check": true
+    },
+    {
+     "q": "In a simple economy, firms produce 10,000 units of a good at ₹50 per unit. They pay ₹2,00,000 as wages, ₹50,000 as rent, ₹30,000 as interest, and the rest as profit. Calculate the profit and verify that total factor income equals the value of output.",
+     "a": "Value of output = 10,000 × ₹50 = ₹5,00,000. Total factor income (wages+rent+interest) = ₹2,00,000+₹50,000+₹30,000 = ₹2,80,000. Profit = ₹5,00,000 - ₹2,80,000 = ₹2,20,000. Total factor income including profit = ₹2,80,000+₹2,20,000 = ₹5,00,000 = value of output. A wrong answer (e.g., forgetting to include profit as factor income) shows misunderstanding that profit is also a factor income (reward for entrepreneurship).",
+     "self_check": true
+    },
+    {
+     "q": "Suppose households decide to save a portion of their income instead of spending all on goods. Trace the effect through the three phases. What happens to the production phase in the next period?",
+     "a": "If households save, expenditure phase decreases → firms face unsold stocks → in next period, firms reduce production → demand for factor services falls → income generation phase shrinks → further reduces expenditure. This is the paradox of thrift. A wrong answer (e.g., \"savings increase investment so production rises\") ignores the immediate demand reduction and assumes automatic investment response, which is not guaranteed in a simple two-sector model without financial sector.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"In the circular flow, the expenditure phase is the most important because it drives production.\" Consider the interdependence of phases.",
+     "a": "The statement is misleading. All three phases are interdependent and simultaneous in a continuous flow. Expenditure cannot occur without prior income generation, which requires production. Emphasizing one phase over others leads to incomplete analysis (e.g., Keynesian focus on demand vs. classical focus on supply). A wrong answer that agrees reveals a demand-side bias without recognizing the supply-side constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple circular flow diagram for a village economy with only farming households and a local market. Label the real and monetary flows in each of the three phases.",
+     "a": "A good answer will show: Production phase – farms produce crops using land, labour, capital; real flow: crops to market. Income phase – farms pay wages (to labourers), rent (to landowners), interest (on capital), profit (to farmer); monetary flow: factor payments. Expenditure phase – households buy crops and other goods; monetary flow: consumption spending; real flow: goods to households. A poor answer misses one flow direction or confuses real vs. monetary flows.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

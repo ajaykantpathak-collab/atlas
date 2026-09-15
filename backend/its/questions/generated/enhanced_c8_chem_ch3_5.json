@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_chem_ch3_5",
+ "concepts": [
+  {
+   "id": "enh:c8_chem_ch3_5",
+   "title": "c8_chem_ch3_5",
+   "questions": [
+    {
+     "q": "Name the physical change of state that occurs when water vapor turns back into liquid water droplets on a cold glass plate.",
+     "a": "Condensation. \n\n*What a wrong answer reveals:* If a student writes \"evaporation\" or \"melting,\" they are confusing the direction of the phase change (gas-to-liquid vs. liquid-to-gas or solid-to-liquid). If they write \"precipitation,\" they are using meteorological terms instead of the specific chemical physical change term.",
+     "self_check": true
+    },
+    {
+     "q": "Why is simple filtration ineffective at separating dissolved salt from water, whereas evaporation works perfectly? Explain in terms of particle size.",
+     "a": "When salt dissolves in water, it breaks down into individual ions ($Na^+$ and $Cl^-$) which are extremely small (less than 1 nanometer in size) and easily pass through the microscopic pores of filter paper. Evaporation works because it relies on the difference in volatility: water easily transitions into a gas at boiling temperatures, while salt remains a solid due to its extremely high boiling point.\n\n*What a wrong answer reveals:* If the student says \"filtration doesn't work because salt is liquid when dissolved,\" they misunderstand solubility, falsely believing that dissolving changes the state of the solute to a liquid rather than dispersing it as microscopic particles in a solvent.",
+     "self_check": true
+    },
+    {
+     "q": "A student is given $100\\text{ mL}$ of a muddy salt-water mixture. Outline the sequence of two different separation methods required to obtain dry, clean salt.",
+     "a": "1. **Step 1 (Filtration):** Pass the muddy salt-water mixture through filter paper. The insoluble mud particles will be trapped on the filter paper as residue, while the clear salt-water solution passes through as the filtrate.\n2. **Step 2 (Evaporation):** Heat the clear salt-water filtrate in an evaporating dish. The water will evaporate into the air as steam, leaving behind dry, white crystals of common salt ($NaCl$) in the dish.\n\n*What a wrong answer reveals:* If a student suggests evaporating the muddy salt-water directly, they fail to realize that both mud and salt are non-volatile, meaning they would end up with a dirty, unusable mixture of salt and mud. This shows a lack of systematic planning in separation schemes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the boiling of a salt solution to the natural evaporation of seawater in a salt pan. Identify one similarity and one key difference between these two processes.",
+     "a": "*   **Similarity:** In both processes, liquid water undergoes a physical change to become water vapor, leaving the non-volatile dissolved salt behind.\n*   **Difference:** Boiling is a rapid process that occurs throughout the entire volume of the liquid at a specific temperature ($100^\\circ\\text{C}$ for pure water) using artificial heating, whereas natural evaporation is a slow surface phenomenon that occurs at any temperature below the boiling point, driven by solar energy and wind.\n\n*What a wrong answer reveals:* If a student states that boiling produces salt but natural evaporation does not, they do not understand that the chemical mechanism of water loss is identical in both cases, differing only in rate and temperature.",
+     "self_check": true
+    },
+    {
+     "q": "A student wants to recover both pure water and dry salt from a salt-water mixture. They set up an open beaker of salt-water and boil it until only dry salt is left. Have they successfully achieved their goal? Evaluate their method and suggest a correction if needed.",
+     "a": "No, they have only partially succeeded. While they recovered dry salt, they lost all the water because it escaped into the atmosphere as water vapor. To recover the water as well, they must perform the evaporation in a closed system (like a distillation flask) connected to a condenser. The condenser will cool the escaping water vapor, causing it to undergo condensation and drip into a separate collection flask as pure liquid water.\n\n*What a wrong answer reveals:* If the student says \"Yes, the method is correct,\" they are overlooking the requirement to recover the *liquid solvent* (water), indicating they do not realize that once vapor escapes into the open air, it cannot be collected.",
+     "self_check": true
+    },
+    {
+     "q": "Design an experiment using everyday household items to demonstrate both evaporation and condensation to a younger sibling.",
+     "a": "1. **Materials:** A glass mug, hot water, a spoonful of salt, a small metal plate, and ice cubes.\n2. **Procedure:** Dissolve the salt in the hot water inside the mug. Place the metal plate over the top of the mug as a lid, and place a few ice cubes on top of the plate.\n3. **Observation of Evaporation:** The hot salt-water will produce invisible water vapor rising up inside the mug.\n4. **Observation of Condensation:** The rising water vapor will hit the cold underside of the metal plate (cooled by the ice), lose heat, and form clear liquid water droplets that cling to the plate. Tasting these droplets will reveal they are fresh, not salty, proving the salt stayed behind.\n\n*What a poor answer reveals:* A poor answer might lack a cooling mechanism (like ice) to force condensation, or fail to explain how the experiment proves that the salt was separated from the water, showing a lack of understanding of the role of temperature differentials in condensation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

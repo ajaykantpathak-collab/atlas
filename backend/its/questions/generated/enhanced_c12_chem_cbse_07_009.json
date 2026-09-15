@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_07_009",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_07_009",
+   "title": "c12_chem_cbse_07_009",
+   "questions": [
+    {
+     "q": "State the reagents and conditions for Kolbe's reaction and name the major product obtained after acidification.",
+     "a": "Kolbe's reaction: Phenol + NaOH → sodium phenoxide; then CO₂ gas at 4–7 atm and 400 K → sodium salicylate; acidification gives **ortho-hydroxybenzoic acid (salicylic acid)**. A wrong answer (e.g., using CO₂ without pressure, or giving para product) reveals the student does not recall the specific industrial conditions or the ortho-directing nature of phenoxide.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why phenoxide ion undergoes electrophilic substitution with CO₂ (a weak electrophile) while phenol itself does not.",
+     "a": "Phenoxide ion carries a negative charge delocalised into the ring (resonance structures place negative charge at ortho and para positions), making the ring highly electron-rich and activating it toward even weak electrophiles like CO₂. Phenol's –OH group donates electron density but the neutral molecule is less activated. If a student says \"phenol is more reactive because –OH is activating\", they confuse the relative activation of phenol vs phenoxide.",
+     "self_check": true
+    },
+    {
+     "q": "Write the stepwise mechanism for the Reimer-Tiemann reaction starting from phenol, chloroform, and NaOH, showing the formation of the electrophile and its attack on the ring.",
+     "a": "Step 1: NaOH deprotonates chloroform to give trichloromethanide anion (CCl₃⁻). Step 2: CCl₃⁻ loses Cl⁻ to form dichlorocarbene (:CCl₂). Step 3: Phenol is deprotonated to phenoxide. Step 4: :CCl₂ attacks ortho position of phenoxide (electrophilic aromatic substitution) giving a dichloromethyl intermediate. Step 5: Hydrolysis of the –CCl₂ group under basic conditions yields –CHO. Step 6: Acid work-up gives salicylaldehyde. A wrong mechanism (e.g., direct attack of CHCl₃, or missing carbene formation) shows the student does not understand the role of base in generating the true electrophile.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the directing effects in Kolbe's and Reimer-Tiemann reactions when phenol has a meta-directing group (e.g., –NO₂) at the para position. Predict the major product in each case.",
+     "a": "Both reactions are ortho/para-directing due to phenoxide activation. If a meta-directing group like –NO₂ is at para, the ortho positions relative to –OH are still activated, but steric hindrance may favour the less hindered ortho position. Kolbe's reaction with CO₂ gives ortho-hydroxybenzoic acid derivative; Reimer-Tiemann gives ortho-formyl derivative. If a student predicts meta substitution, they have not grasped that –OH/–O⁻ is a stronger activator than –NO₂ is a deactivator, and the ortho positions to –OH remain preferred.",
+     "self_check": true
+    },
+    {
+     "q": "A student carries out Reimer-Tiemann reaction on p-cresol (4-methylphenol). They obtain a mixture of two aldehydes. Identify the two products and explain why both are formed.",
+     "a": "p-Cresol has –OH at position 1 and –CH₃ at position 4. The ortho positions to –OH are C-2 and C-6. Both are activated, but C-6 is sterically hindered by the para-methyl group? Actually both ortho positions are equivalent? Wait: p-cresol is symmetric? No, the ring is symmetric with respect to the –OH and –CH₃ para to each other. The two ortho positions to –OH are C-2 and C-6; they are equivalent by symmetry (mirror plane through 1-4 axis). So only one product? Actually p-cresol has a plane of symmetry through the 1-4 axis, so the two ortho positions are equivalent. Therefore only one product: 2-hydroxy-5-methylbenzaldehyde (or 6-methylsalicylaldehyde). But if the student says two products, they might think the methyl group directs independently. The correct answer: only one product because the two ortho positions are equivalent. If a student says two products (e.g., 2-formyl and 6-formyl), they fail to recognise molecular symmetry.",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-step synthesis of 2,4-dihydroxybenzoic acid from phenol using Kolbe's reaction and another electrophilic substitution. Specify reagents and conditions for each step.",
+     "a": "Step 1: Kolbe's reaction on phenol → salicylic acid (2-hydroxybenzoic acid). Step 2: Nitration of salicylic acid (using dilute HNO₃ at low temperature) gives 5-nitrosalicylic acid? Actually we want 2,4-dihydroxybenzoic acid. Better: Kolbe's reaction on phenol gives salicylic acid. Then hydroxylation at para position? But direct hydroxylation is not standard. Alternative: Start with phenol, do Reimer-Tiemann to get salicylaldehyde, then oxidise aldehyde to acid? That gives same salicylic acid. To get 2,4-dihydroxybenzoic acid, one could do Kolbe's on resorcinol (1,3-dihydroxybenzene). But the question asks from phenol. A feasible route: Phenol → (Kolbe) → salicylic acid → (nitration) → 5-nitrosalicylic acid → (reduction) → 5-aminosalicylic acid → (diazotisation + hydrolysis) → 2,4-dihydroxybenzoic acid. That's multi-step. A good answer shows understanding of ortho/para directing and functional group interconversion. A poor answer might suggest direct hydroxylation with H₂O₂ or something not in syllabus.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

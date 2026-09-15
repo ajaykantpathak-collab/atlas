@@ -1,0 +1,419 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 101,
+ "chapter_title": "The Living World",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/kebo101.txt",
+ "concepts": [
+  {
+   "id": "kebo.101.1",
+   "title": "Biodiversity",
+   "section": "1.1",
+   "definition": "The total variety and number of distinct living organisms existing on Earth, currently estimated to be between 1.7 and 1.8 million described species.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "In brief, In brief, In brief, In brief, Represents the immense range of life forms inhabiting the biosphere.",
+   "textbook_ref": "kebo101.txt lines 60-80",
+   "question_patterns": [
+    "What is biodiversity and what is its estimated range?",
+    "How many species have been described so far on Earth?",
+    "Define biodiversity according to taxonomic studies.",
+    "What does the term biodiversity refer to?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the definition of biodiversity",
+     "explain": "Biodiversity refers to the number and types of organisms present on Earth."
+    },
+    {
+     "step": 2,
+     "action": "State the range of described species",
+     "explain": "The number of known and described species ranges between 1.7 to 1.8 million."
+    }
+   ]
+  },
+  {
+   "id": "kebo.101.2",
+   "title": "Nomenclature and Identification",
+   "section": "1.1",
+   "definition": "Nomenclature is indeed the standardized naming of organisms so they are known by the same name globally, which requires correct description and identification first.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Standardizing names prevents confusion caused by local vernacular names.",
+   "textbook_ref": "kebo101.txt lines 85-110",
+   "question_patterns": [
+    "Why is there a need for nomenclature of living organisms?",
+    "What is the difference between identification and nomenclature?",
+    "Explain the role of ICBN and ICZN in naming organisms.",
+    "How do biologists ensure that each organism has only one scientific name?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define identification",
+     "explain": "Identification is describing an organism correctly to know what name should be attached to it."
+    },
+    {
+     "step": 2,
+     "action": "Define nomenclature",
+     "explain": "Nomenclature is the process of assigning a standardized scientific name to an identified organism."
+    },
+    {
+     "step": 3,
+     "action": "Identify naming codes",
+     "explain": "ICBN (International Code for Botanical Nomenclature) is used for plants, and ICZN (International Code of Zoological Nomenclature) is used for animals."
+    }
+   ]
+  },
+  {
+   "id": "kebo.101.3",
+   "title": "Binomial Nomenclature",
+   "section": "1.1",
+   "definition": "A standardized naming system introduced by Carolus Linnaeus where each scientific name is made up of two parts: a generic name and a specific epithet.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "A two-word format using Latinized terms to uniquely identify species.",
+   "textbook_ref": "kebo101.txt lines 110-145",
+   "question_patterns": [
+    "What is binomial nomenclature and who proposed it?",
+    "State the universal rules of binomial nomenclature.",
+    "How is the scientific name of mango written correctly?",
+    "Explain the components of a biological name with an example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the two components of a biological name",
+     "explain": "The first word is the Genus (capitalized) and the second is the specific epithet (lowercase)."
+    },
+    {
+     "step": 2,
+     "action": "Apply formatting rules",
+     "explain": "Scientific names are Latinized, written in italics when printed, or separately underlined when handwritten."
+    },
+    {
+     "step": 3,
+     "action": "Include author citation if applicable",
+     "explain": "The author's abbreviated name appears at the end, e.g., Mangifera indica Linn."
+    }
+   ]
+  },
+  {
+   "id": "kebo.101.4",
+   "title": "Taxonomy and Taxa",
+   "section": "1.1",
+   "definition": "In brief, In brief, Taxonomy is the study of classification of living organisms into different categories called taxa using their characteristics.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Taxa represent categories of classification at different hierarchical levels.",
+   "textbook_ref": "kebo101.txt lines 145-180",
+   "question_patterns": [
+    "What is taxonomy and what are its basic processes?",
+    "Define the term taxon with examples.",
+    "Explain how taxa can represent categories at different levels.",
+    "What are the essential bases of modern taxonomic studies?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define taxonomy",
+     "explain": "Taxonomy is the process of classifying organisms into categories based on their characteristics."
+    },
+    {
+     "step": 2,
+     "action": "Identify the four basic processes of taxonomy",
+     "explain": "Characterisation, identification, classification, and nomenclature are fundamental to taxonomy."
+    },
+    {
+     "step": 3,
+     "action": "Explain taxon with examples",
+     "explain": "A taxon (plural: taxa) is a scientific term for a classification category, such as Dogs, Mammals, or Plants, which exist at different hierarchical levels."
+    }
+   ]
+  },
+  {
+   "id": "kebo.101.5",
+   "title": "Systematics",
+   "section": "1.1",
+   "definition": "In brief, a branch of biology concerned with the systematic arrangement of organisms, taking into account their evolutionary relationships.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Systematics goes beyond taxonomy by incorporating evolutionary history (phylogeny).",
+   "textbook_ref": "kebo101.txt lines 180-195",
+   "question_patterns": [
+    "What is systematics and how does it differ from taxonomy?",
+    "What does the word systematics originate from?",
+    "Which book was published by Linnaeus using a related term?",
+    "Why are evolutionary relationships important in systematics?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the origin of systematics",
+     "explain": "Derived from the Latin word 'systema', meaning systematic arrangement of organisms."
+    },
+    {
+     "step": 2,
+     "action": "Identify the scope of systematics",
+     "explain": "It includes identification, nomenclature, classification, and evolutionary relationships between organisms."
+    }
+   ]
+  },
+  {
+   "id": "kebo.101.6",
+   "title": "Taxonomic Hierarchy",
+   "section": "1.2",
+   "definition": "In brief, In brief, In brief, In brief, the systematic arrangement of taxonomic categories in an ascending or descending order, where each step represents a distinct rank or taxon.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "In brief, In brief, In brief, As we move from species to kingdom, the number of shared characteristics decreases.",
+   "textbook_ref": "kebo101.txt lines 196-225",
+   "question_patterns": [
+    "What is a taxonomic hierarchy?",
+    "List the taxonomic categories in ascending order.",
+    "What happens to the number of common characteristics as we go higher in the hierarchy?",
+    "Why does classification become more complex at higher taxonomic levels?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the hierarchical ranks",
+     "explain": "The categories from lowest to highest are Species, Genus, Family, Order, Class, Phylum (or Division for plants), and Kingdom."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the trend of characteristics",
+     "explain": "Lower taxa share more common characteristics, while higher categories share fewer common features, making relationships harder to determine."
+    }
+   ]
+  },
+  {
+   "id": "kebo.101.7",
+   "title": "Species",
+   "section": "1.2.1",
+   "definition": "The lowest and most basic taxonomic category, consisting of a group of individual organisms sharing fundamental morphological and genetic similarities.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Distinct morphological differences allow one species to be distinguished from other closely related ones.",
+   "textbook_ref": "kebo101.txt lines 226-245",
+   "question_patterns": [
+    "Define species as a taxonomic category.",
+    "Give examples of specific epithets for mango, potato, and lion.",
+    "How is a species distinguished from closely related species?",
+    "What is the species name of human beings?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define species",
+     "explain": "A species is a group of individual organisms with fundamental similarities."
+    },
+    {
+     "step": 2,
+     "action": "Provide examples of species",
+     "explain": "In Mangifera indica, Solanum tuberosum, and Panthera leo, the specific epithets are indica, tuberosum, and leo."
+    }
+   ]
+  },
+  {
+   "id": "kebo.101.8",
+   "title": "Genus",
+   "section": "1.2.2",
+   "definition": "A taxonomic category that comprises a group of closely related species which share more common characteristics with each other than with species of other genera.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "In brief, In brief, In brief, an aggregate of closely related species.",
+   "textbook_ref": "kebo101.txt lines 246-255",
+   "question_patterns": [
+    "What is a genus in biological classification?",
+    "Explain genus with examples of Solanum and Panthera.",
+    "How does genus differ from species?",
+    "Which genus do potato and brinjal belong to?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define genus",
+     "explain": "A genus is an aggregate of closely related species sharing several common features."
+    },
+    {
+     "step": 2,
+     "action": "Provide examples of genera",
+     "explain": "The genus Solanum includes potato and brinjal; the genus Panthera includes lion, leopard, and tiger."
+    }
+   ]
+  },
+  {
+   "id": "kebo.101.9",
+   "title": "Family",
+   "section": "1.2.3",
+   "definition": "A taxonomic category that groups related genera together, characterized by having fewer similarities compared to the genus and species levels.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "In brief, In brief, Grouping using both both both both both both both both both both both both both both both both both both both both both both both both vegetative and reproductive features in plants, and general similarities in animals.",
+   "textbook_ref": "kebo101.txt lines 256-270",
+   "question_patterns": [
+    "Define family as a taxonomic category.",
+    "On what basis are plant families characterized?",
+    "Name the family that includes Solanum, Petunia, and Datura.",
+    "Distinguish between the families Felidae and Canidae."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define family",
+     "explain": "A family is a group of related genera with fewer similarities than genus and species."
+    },
+    {
+     "step": 2,
+     "action": "Explain plant family characterization",
+     "explain": "Plant families are characterized based on both vegetative and reproductive features."
+    },
+    {
+     "step": 3,
+     "action": "Provide animal family examples",
+     "explain": "Cats (Felis) and leopards (Panthera) are in Felidae, while dogs are in Canidae."
+    }
+   ]
+  },
+  {
+   "id": "kebo.101.10",
+   "title": "Higher Taxonomic Categories",
+   "section": "1.2.4-1.2.7",
+   "definition": "Broad taxonomic ranks (Order, Class, Phylum/Division, Kingdom) established by assembling lower categories using shared aggregates of characteristics.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Higher categories represent broader assemblages with fewer shared specific traits.",
+   "textbook_ref": "kebo101.txt lines 271-315",
+   "question_patterns": [
+    "Explain the higher taxonomic categories with examples.",
+    "What is the difference between Phylum and Division?",
+    "Which families are included in the order Carnivora?",
+    "What is the highest category in biological classification?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define Order and Class",
+     "explain": "Order is an assemblage of families (e.g., Carnivora includes Felidae and Canidae). Class includes related orders (e.g., Mammalia includes Primata and Carnivora)."
+    },
+    {
+     "step": 2,
+     "action": "Define Phylum/Division and Kingdom",
+     "explain": "Phylum (animals) or Division (plants) groups related classes. Kingdom is the highest category (e.g., Kingdom Animalia and Kingdom Plantae)."
+    }
+   ]
+  },
+  {
+   "id": "kebo.101.11",
+   "title": "Taxonomic Classification of Common Organisms",
+   "section": "Table 1.1",
+   "definition": "The specific hierarchical classification of common organisms like Man, Housefly, Mango, and Wheat from genus to phylum/division.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "In brief, Memorizing and identifying the exact taxonomic categories of key model organisms.",
+   "textbook_ref": "kebo101.txt Table 1.1",
+   "question_patterns": [
+    "What is the taxonomic classification of housefly?",
+    "To which family and order does mango belong?",
+    "State the class and phylum of human beings.",
+    "Give the complete biological classification of wheat."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify classification of Man",
+     "explain": "Homo sapiens: Genus Homo, Family Hominidae, Order Primata, Class Mammalia, Phylum Chordata."
+    },
+    {
+     "step": 2,
+     "action": "Identify classification of Housefly",
+     "explain": "Musca domestica: Genus Musca, Family Muscidae, Order Diptera, Class Insecta, Phylum Arthropoda."
+    },
+    {
+     "step": 3,
+     "action": "Identify classification of Mango",
+     "explain": "Mangifera indica: Genus Mangifera, Family Anacardiaceae, Order Sapindales, Class Dicotyledonae, Division Angiospermae."
+    },
+    {
+     "step": 4,
+     "action": "Identify classification of Wheat",
+     "explain": "Triticum aestivum: Genus Triticum, Family Poaceae, Order Poales, Class Monocotyledonae, Division Angiospermae."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebo101.txt Table 1.1",
+   "concept": "kebo.101.11",
+   "question_type": "verify_property",
+   "question_pattern": "Identify the family, order, class, and phylum/division of {organism}.",
+   "extracted_variables": {
+    "organism": "housefly"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the scientific name and genus",
+     "explain": "The housefly is Musca domestica, belonging to the genus Musca."
+    },
+    {
+     "step": 2,
+     "action": "Determine the family and order",
+     "explain": "It belongs to the family Muscidae and order Diptera."
+    },
+    {
+     "step": 3,
+     "action": "Determine the class and phylum",
+     "explain": "It belongs to class Insecta and phylum Arthropoda."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kebo101.txt Section 1.1",
+   "concept": "kebo.101.3",
+   "question_type": "verify_property",
+   "question_pattern": "Determine which of the following is the correctly written scientific name for mango: {name_option_a} or {name_option_b}.",
+   "extracted_variables": {
+    "name_option_a": "Mangifera Indica",
+    "name_option_b": "Mangifera indica"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Check capitalization rules of binomial nomenclature",
+     "explain": "The generic name must start with a capital letter (Mangifera), and the specific epithet must start with a small letter (indica)."
+    },
+    {
+     "step": 2,
+     "action": "Select the correct option",
+     "explain": "Therefore, 'Mangifera indica' is correct, while 'Mangifera Indica' is incorrect because 'Indica' is capitalized."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "kebo101.txt Exercises",
+   "questions": [
+    "Why are living organisms classified?",
+    "Why are the classification systems changing every now and then?",
+    "What different criteria would you choose to classify people that you meet often?",
+    "What do we learn from identification of individuals and populations?",
+    "Given below is the scientific name of Mango. Identify the correctly written name. Mangifera Indica / Mangifera indica",
+    "Define a taxon. Give some examples of taxa at different hierarchical levels.",
+    "Can you identify the correct sequence of taxonomical categories? (a) Species Order Phylum Kingdom, (b) Genus Species Order Kingdom, (c) Species Genus Order Phylum",
+    "Try to collect all the currently accepted meanings for the word 'species'. Discuss with your teacher the meaning of species in case of higher plants and animals on one hand, and bacteria on the other hand.",
+    "Define and understand the following terms: (i) Phylum (ii) Class (iii) Family (iv) Order (v) Genus",
+    "Illustrate the taxonomical hierarchy with suitable examples of a plant and an animal."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

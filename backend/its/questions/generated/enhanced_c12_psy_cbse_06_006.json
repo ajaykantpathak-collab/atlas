@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_06_006",
+   "title": "c12_psy_cbse_06_006",
+   "questions": [
+    {
+     "q": "What is the core proposition of Festinger's Cognitive Dissonance Theory regarding inconsistent cognitions?",
+     "a": "The core proposition is that holding two or more psychologically inconsistent cognitions creates an aversive motivational state called cognitive dissonance, which drives the individual to reduce the inconsistency by changing a cognition, adding consonant cognitions, or trivialising the conflict. A wrong answer (e.g., \"people ignore inconsistencies\" or \"dissonance leads to behaviour change only\") reveals the student confuses dissonance with simple conflict avoidance or believes behaviour always follows attitude, missing the motivational force of dissonance and the specific reduction strategies.",
+     "self_check": true
+    },
+    {
+     "q": "In the Festinger and Carlsmith (1959) experiment, why did the $1 group rate the boring task as more enjoyable than the $20 group?",
+     "a": "The $1 group experienced dissonance between \"the task was boring\" and \"I told someone it was interesting for only $1\" — the external justification ($1) was insufficient to justify the lie, so they reduced dissonance by changing their attitude toward the task (\"it was actually interesting\"). The $20 group had sufficient external justification ($20), so no dissonance arose and no attitude change occurred. A wrong answer (e.g., \"$1 group liked it more because they were paid less\" or \"$20 group lied more\") reveals the student misunderstands the role of *insufficient justification* and confuses the direction of the effect — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A student strongly believes \"cheating is wrong\" but cheats on an exam because \"everyone else does it.\" After the exam, the student says, \"Cheating isn't that bad if the system is unfair.\" Identify the two dissonant cognitions and the dissonance reduction strategy used.",
+     "a": "Dissonant cognitions: (1) \"Cheating is wrong\" (moral belief) and (2) \"I cheated on the exam\" (behaviour). Reduction strategy: **Changing a cognition** — specifically, modifying the moral belief to \"Cheating isn't that bad if the system is unfair\" (adding a consonant cognition: \"the system is unfair\" makes cheating justified). A wrong answer that identifies \"everyone does it\" as the changed cognition or says \"the student stopped cheating\" reveals the student cannot distinguish between the *source* of dissonance (behaviour-belief clash) and the *reduction method* (attitude change vs. behaviour change), a critical distinction for case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast Heider's Balance Theory (P-O-X) and Festinger's Cognitive Dissonance Theory in terms of: (a) the unit of analysis, (b) the nature of inconsistency, and (c) the predicted outcome.",
+     "a": "(a) Balance Theory analyses *interpersonal* triads (Person-Other-Object); Dissonance Theory analyses *intrapersonal* cognitions within one individual. (b) Balance Theory: inconsistency = imbalanced sentiment relations (e.g., 2 positive, 1 negative link); Dissonance Theory: inconsistency = logical contradiction between cognitions (e.g., \"I value health\" vs \"I smoke\"). (c) Both predict change toward consistency, but Balance Theory predicts attitude change toward *any* balanced state (3 positive or 2 negative + 1 positive), while Dissonance Theory predicts change that *reduces psychological discomfort*, often via minimal justification effects. A wrong answer that treats them as identical or says Balance Theory is about \"cognitive elements\" reveals the student misses the interpersonal vs. intrapersonal distinction — a frequent CUET/board comparative question.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following claim using evidence from the Festinger & Carlsmith study: \"Larger rewards always produce greater attitude change in the direction of the advocated position.\"",
+     "a": "The claim is **false**. Festinger & Carlsmith found the *opposite*: the $1 group (smaller reward) showed *greater* attitude change (rated task as more interesting) than the $20 group (larger reward). This is the **insufficient justification effect** — small rewards create dissonance (\"I lied for almost nothing\"), forcing internal attitude change; large rewards provide sufficient external justification (\"I lied for $20\"), eliminating dissonance. A wrong answer agreeing with the claim reveals the student relies on common-sense reinforcement logic (bigger reward → bigger effect) instead of the counterintuitive dissonance prediction — exactly the trap the experiment was designed to expose.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-life scenario (Indian context) where cognitive dissonance would predict attitude change via insufficient justification. Specify the two dissonant cognitions, the external justification manipulation, and the predicted attitude shift.",
+     "a": "Scenario: A college student volunteers for a \"Clean Campus\" drive for **only a certificate** (low justification) vs. **₹500 + certificate** (high justification). Dissonant cognitions: (1) \"Cleaning roads is unpleasant/dirty work\" and (2) \"I spent 3 hours cleaning roads.\" Low-justification group (certificate only): predicts attitude change → \"Cleaning is actually meaningful / I care about the environment.\" High-justification group (₹500): no attitude change → \"I did it for the money.\" A poor answer that uses high justification for attitude change or omits the *comparison group* reveals the student doesn't grasp the *relative* nature of insufficient justification — the theory predicts a *difference* between conditions, not just any attitude change.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

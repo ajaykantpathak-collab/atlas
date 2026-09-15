@@ -1,0 +1,257 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 8,
+ "chapter_title": "Banks and the Magic of Finance",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gees208.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gees2.8.1",
+   "title": "Why Banks Matter",
+   "section": "Introduction",
+   "definition": "Banks keep the community's money safe and put it to work: they accept deposits, lend to businesses and families, and thus turn idle savings into productive credit, as Schumpeter's words on the banker suggest.",
+   "formula": "",
+   "key_idea": "A bank is a bridge between savers and borrowers: both sides gain, and ideas get funded.",
+   "textbook_ref": "gees208.txt, Introduction",
+   "question_patterns": [
+    "why do people keep money in banks",
+    "how do banks use the money we deposit",
+    "what does the schumpeter quotation say about bankers",
+    "how does a bank help an entrepreneur",
+    "what happens if everyone withdraws money at once",
+    "name the banks working in your area"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  },
+  {
+   "id": "gees2.8.2",
+   "title": "Types of Bank Accounts",
+   "section": "Bank accounts",
+   "definition": "Banks offer different accounts for different needs: a savings account for storing money with interest, a current account for business with many transactions, and fixed deposit accounts that lock money for a term at a higher rate.",
+   "formula": "",
+   "key_idea": "Match the account to the purpose: daily convenience, safe saving or locked growth.",
+   "textbook_ref": "gees208.txt, Bank accounts",
+   "question_patterns": [
+    "name the types of bank accounts",
+    "which account suits a shopkeeper with many daily payments",
+    "what is a fixed deposit and why does it pay more interest",
+    "how does a savings account help a family",
+    "what is the difference between savings and current account",
+    "which account would you open for your pocket money and why"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set the two sides",
+     "explain": "Write the two ideas, places or periods side by side."
+    },
+    {
+     "step": 2,
+     "action": "mark what differs",
+     "explain": "Note the points on which they differ and one point they share."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State in one line what the comparison teaches."
+    }
+   ]
+  },
+  {
+   "id": "gees2.8.3",
+   "title": "Interest and the Magic of Compounding",
+   "section": "Compounding",
+   "definition": "Interest is payment for the use of money; with compounding, interest is paid on interest too, so a deposit of 1000 at 6 percent a year grows to 1060 in one year and about 2012 in twelve years.",
+   "formula": "amount = principal * (1 + rate / 100) ** years",
+   "key_idea": "Compounding rewards patience: money grows slowly at first, then faster every year, like a snowball.",
+   "textbook_ref": "gees208.txt, Compounding",
+   "question_patterns": [
+    "what is interest and why do banks pay it",
+    "how much does 1000 rupees become in one year at 6 percent",
+    "what is compounding and how does it work",
+    "why does money grow faster the longer it stays deposited",
+    "compute the amount after 2 years on 1000 at 6 percent",
+    "why is compounding called a powerful financial idea"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "turn the rate into a fraction",
+     "explain": "Divide the annual rate by 100.",
+     "compute": "rate_frac = rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "build the yearly growth factor",
+     "explain": "Add one to the rate fraction; the balance multiplies by this each year.",
+     "compute": "growth = 1 + rate_frac"
+    },
+    {
+     "step": 3,
+     "action": "compound over the years",
+     "explain": "Multiply the principal by the factor raised to the number of years.",
+     "compute": "amount = principal * growth ** years"
+    }
+   ]
+  },
+  {
+   "id": "gees2.8.4",
+   "title": "Loans and the Discipline of Credit",
+   "section": "Credit",
+   "definition": "Banks lend depositors' money as loans for homes, studies, farm and business; credit must be used with discipline, since every loan must be repaid with interest, and default harms both borrower and bank.",
+   "formula": "",
+   "key_idea": "Credit is a tool with two edges: wise loans create income that repays them, reckless ones bury households in debt.",
+   "textbook_ref": "gees208.txt, Credit",
+   "question_patterns": [
+    "why do people take loans from banks",
+    "what must a borrower repay to the bank",
+    "how does a farm loan help a farmer",
+    "what happens when a borrower cannot repay",
+    "why should we check the interest rate before borrowing",
+    "how does productive credit differ from wasteful borrowing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gees208.txt, compounding example",
+   "concept": "gees2.3.3",
+   "question_type": "compute",
+   "question_pattern": "You deposit Rs 1000 at 6% annual interest. Find the amount after 2 years with compounding.",
+   "extracted_variables": {
+    "principal": "amount deposited",
+    "rate": "annual interest rate in percent",
+    "years": "years kept deposited"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "turn the rate into a fraction",
+     "explain": "Divide the percentage rate by 100.",
+     "compute": "rate_frac = rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "build the yearly growth factor",
+     "explain": "Each year the balance multiplies by one plus the rate fraction.",
+     "compute": "growth = 1 + rate_frac"
+    },
+    {
+     "step": 3,
+     "action": "compound for the years",
+     "explain": "Raise the factor to the number of years and multiply by the principal.",
+     "compute": "amount = principal * growth ** years"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gees208.txt, compounding example",
+   "concept": "gees2.3.3",
+   "question_type": "compute",
+   "question_pattern": "If the same Rs 1000 stays deposited at 6% for 12 years, what amount does it grow to?",
+   "extracted_variables": {
+    "principal": "amount deposited",
+    "rate": "annual interest rate in percent",
+    "years": "years kept deposited"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "turn the rate into a fraction",
+     "explain": "6 percent becomes 0.06.",
+     "compute": "rate_frac = rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "build the yearly growth factor",
+     "explain": "The factor is 1.06 every year.",
+     "compute": "growth = 1 + rate_frac"
+    },
+    {
+     "step": 3,
+     "action": "compound for 12 years",
+     "explain": "1000 times 1.06 to the 12th power gives about 2012, as the chapter shows.",
+     "compute": "amount = principal * growth ** years"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gees208.txt",
+   "concept": "gees2.8.2",
+   "question_type": "verify_property",
+   "question_pattern": "which types of bank accounts does the chapter list?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gees208.txt, Let us explore",
+   "questions": [
+    "What does the chapter say about how your savings increase over time?",
+    "Which types of bank accounts does the chapter list?",
+    "How does credit help entrepreneurs, according to Schumpeter?",
+    "Ask your family how a bank account and a fixed deposit differ.",
+    "Study figure 8.18 and explain the compounding example in your own words."
+   ]
+  }
+ ]
+}

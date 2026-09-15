@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch2_12",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch2_12",
+   "title": "c8_eco_ch2_12",
+   "questions": [
+    {
+     "q": "What is the \"Age Dependency Ratio\" (ADR), and which three age groups are used to calculate it?",
+     "a": "The Age Dependency Ratio (ADR) is the ratio of dependents (people who are generally not in the labor force, aged 0-14 and 65+) to the working-age population (aged 15-64), expressed as a percentage. The three age groups used are children (0-14 years), the working-age population (15-64 years), and the elderly (65+ years). \n\n*What a wrong answer reveals:* If a student includes the entire population in the denominator or confuses the age cohorts (e.g., including 15-18 year olds as dependents), it shows they do not understand that the ratio measures the economic burden supported specifically by the active working-age cohort.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a state like Kerala, which has a very low birth rate and high life expectancy, must plan its public infrastructure differently than a state like Bihar, which has a high birth rate and a young population.",
+     "a": "Kerala has an aging demographic profile with a high proportion of elderly citizens. Therefore, its government must prioritize elder-centric social infrastructure, such as geriatric wards in hospitals, pension support schemes, and community care homes. Bihar, having a youthful population, has a high child dependency ratio. It must allocate its budget toward primary and secondary schools, maternal healthcare, immunization drives, and vocational training centers to support its growing youth cohort. \n\n*What a wrong answer reveals:* A wrong answer suggests the student believes that \"development\" is generic and that all growing or large populations require the exact same type of infrastructure, failing to see how age structure dictates the specific type of public services required.",
+     "self_check": true
+    },
+    {
+     "q": "A district has a working-age population (15-64) of 50,000, a child population (0-14) of 15,000, and an elderly population (65+) of 5,000. Calculate the Child Dependency Ratio (CDR) and the Old-Age Dependency Ratio (ODR) for this district.",
+     "a": "**Step 1:** Identify the formula for Child Dependency Ratio: $CDR = (\\text{Population } 0\\text{-}14 / \\text{Population } 15\\text{-}64) \\times 100$.\n**Step 2:** Substitute the values: $CDR = (15,000 / 50,000) \\times 100 = 0.3 \\times 100 = 30\\%$.\n**Step 3:** Identify the formula for Old-Age Dependency Ratio: $ODR = (\\text{Population } 65+ / \\text{Population } 15\\text{-}64) \\times 100$.\n**Step 4:** Substitute the values: $ODR = (5,000 / 50,000) \\times 100 = 0.1 \\times 100 = 10\\%$.\n\n*What a wrong answer reveals:* If the student divides by the total population (70,000) instead of the working-age population (50,000), they fail to grasp that dependency ratios measure dependents relative to the *supporting workforce*, not the total population.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how a sudden increase in rural-to-urban migration among working-age individuals (18-45 years) affects government planning for public transport and housing in destination cities.",
+     "a": "An influx of working-age migrants increases the urban population density rapidly. Since these individuals are entering the local workforce, the city's government must use this demographic trend to expand physical infrastructure, specifically public transit networks (metro/bus routes) to connect residential areas to industrial hubs, and invest in affordable rental housing. Failing to use this data leads to traffic congestion and the growth of unplanned, informal settlements (slums).\n\n*What a wrong answer reveals:* A wrong answer suggests the student struggles to link demographic movement (migration) to physical infrastructure needs, or assumes migration only impacts social services like schools rather than spatial and transportation planning.",
+     "self_check": true
+    },
+    {
+     "q": "A state government decides to build 100 new primary schools in a district where birth rates have steadily declined by 5% annually for the last decade, while the youth population (15-24) has grown by 30%. Evaluate the economic efficiency of this government decision.",
+     "a": "This is an economically inefficient decision. A declining birth rate over ten years means the population of primary school-aged children (6-10 years) is shrinking, which will leave these new schools underutilized. Meanwhile, the 30% growth in the 15-24 cohort indicates an urgent, rising demand for high schools, colleges, and technical training institutes. The government has misallocated scarce resources by failing to align its physical infrastructure expansion with the shifting age cohorts of its population.\n\n*What a wrong answer reveals:* A wrong answer indicates that the student evaluates all educational spending as positive, failing to recognize that \"efficiency\" in public economics requires matching specific infrastructure supply with the actual demographic demand.",
+     "self_check": true
+    },
+    {
+     "q": "You are a town planner. A new census report shows that a rural block's population density has doubled over the past 5 years due to suburban expansion. Propose a simple three-step infrastructure development plan to address this specific demographic change.",
+     "a": "A highly effective plan would include:\n1. **Utility Upgrades:** Expand utility infrastructure (piped drinking water systems and electricity grids) to handle the higher density of households.\n2. **Sanitation & Waste Management:** Establish a centralized waste collection and sewage treatment system, as higher density makes open dumping or septic tanks a major health hazard.\n3. **Transportation:** Upgrade narrow rural roads to paved, multi-lane roads and introduce public transport connectivity to nearby urban employment hubs.\n\n*What a poor answer reveals:* A weak plan might focus on building specialized facilities (like high-end hospitals or universities) without first addressing the core physical and utility infrastructure strain caused directly by doubling population density.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

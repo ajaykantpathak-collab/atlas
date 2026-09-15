@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch3_8",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch3_8",
+   "title": "c9_math_ch3_8",
+   "questions": [
+    {
+     "q": "What condition on the denominator q (in simplest form) guarantees that the rational number p/q has a non-terminating recurring decimal expansion?",
+     "a": "The denominator q must have at least one prime factor other than 2 and 5. If a student answers \"q is not divisible by 2 or 5\", that is incorrect because q could be 6 (has factor 2 and 3) which still gives a recurring decimal. The misconception is that students think the denominator must be coprime to 10; actually, it only needs at least one prime factor different from 2 and 5.",
+     "self_check": true
+    },
+    {
+     "q": "When dividing 1 by 7 using long division, the remainders you get are 1, 3, 2, 6, 4, 5, and then 1 again. Explain why the decimal expansion of 1/7 must start repeating at this point, and what is the length of the repeating block?",
+     "a": "The decimal expansion repeats because the remainder 1 has occurred again, and the division process from this remainder onward will be identical to the first step. The repeating block length is 6 (the number of distinct remainders before repetition). A wrong answer like \"length 7\" reveals the student counts the number of steps including the repeated remainder instead of distinct remainders, or they think the repetition starts only when the same digit appears, not the same remainder.",
+     "self_check": true
+    },
+    {
+     "q": "Convert the fraction 5/12 into its decimal form. Show the long division steps and clearly indicate the recurring part with a bar.",
+     "a": "Step 1: 12 goes into 5 zero times, write 0. and bring down 0 → 50.\nStep 2: 12 × 4 = 48, remainder 2. Write 4.\nStep 3: Bring down 0 → 20. 12 × 1 = 12, remainder 8. Write 1.\nStep 4: Bring down 0 → 80. 12 × 6 = 72, remainder 8. Write 6.\nStep 5: Remainder 8 repeats, so digit 6 will repeat. Decimal = 0.41\\overline{6}.\nA wrong answer like 0.4166... without a bar or with bar over 16 shows the student did not recognize that only the 6 repeats because the remainder 8 repeated, not the remainder 2.",
+     "self_check": true
+    },
+    {
+     "q": "The decimal expansion of 1/7 is 0.\\overline{142857} (period 6). The decimal expansion of 1/14 is 0.0\\overline{714285} (period 6 as well). Explain why both have the same period length even though 14 = 2 × 7.",
+     "a": "The period of a rational number p/q in simplest form depends only on the prime factors of q other than 2 and 5. The factor 2 in 14 only adds a non-repeating digit (the 0 after the decimal point) because 2 divides 10. The repeating part is governed by the factor 7, so the period remains 6. A student who says \"period changes because denominator doubled\" misunderstands that factors 2 and 5 only affect the non-recurring prefix.",
+     "self_check": true
+    },
+    {
+     "q": "A student converts 0.\\overline{6} to a fraction as follows: Let x = 0.\\overline{6}. Then 10x = 6.\\overline{6}. Subtracting: 10x - x = 6.\\overline{6} - 0.\\overline{6} → 9x = 6 → x = 6/9 = 2/3. Is this correct? If not, identify the error and give the correct fraction.",
+     "a": "The student's work is actually correct. 0.\\overline{6} = 2/3. A common error would be to write 10x = 6.6 (without the bar) and then subtract to get 9x = 6, which accidentally gives the same result but for the wrong reason. If a student says it's incorrect because \"you should multiply by 100 for two digits\", they misunderstand that the number of digits in the repeating block determines the multiplier, not the number of decimal places written.",
+     "self_check": true
+    },
+    {
+     "q": "Create a fraction in simplest form whose decimal expansion has a recurring block of exactly 3 digits, and the decimal has no non-recurring prefix (i.e., it is a pure recurring decimal). Explain how you chose the denominator.",
+     "a": "Choose a denominator that is a factor of 999 but not of 9 or 99, e.g., 27 (since 999 = 27 × 37). Then 1/27 = 0.\\overline{037} has period 3. A good answer must justify that the denominator's prime factors (only 3) are not 2 or 5, and that the multiplicative order of 10 modulo that denominator is 3. A poor answer picks a random denominator like 3 and gives 0.\\overline{3} (period 1), showing they don't understand the link between denominator and period length.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

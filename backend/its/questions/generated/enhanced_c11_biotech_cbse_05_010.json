@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_05_010",
+   "title": "c11_biotech_cbse_05_010",
+   "questions": [
+    {
+     "q": "Name the cyclin-CDK complex that is primarily responsible for phosphorylating the retinoblastoma protein (Rb) in mid-to-late G1 phase, and state the immediate consequence of this phosphorylation for E2F transcription factors.",
+     "a": "Correct answer: Cyclin D-CDK4/6 complex phosphorylates Rb in mid-to-late G1, leading to partial inactivation of Rb and release of E2F transcription factors, which then activate genes required for S phase entry including cyclin E. A wrong answer (e.g., naming cyclin B-CDK1 or stating that Rb phosphorylation activates Rb) reveals the student confuses the G1/S regulatory axis with the G2/M axis or misunderstands that Rb is a transcriptional repressor that must be inactivated to permit S phase progression.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher observes that a mammalian cell line arrests in G2 phase with high levels of cyclin B and CDK1 protein, but the CDK1 kinase activity remains low. Explain the most likely molecular defect in terms of CDK1 post-translational modification, and name the enzyme that normally reverses this modification.",
+     "a": "Correct answer: CDK1 is likely maintained in an inactive state by inhibitory phosphorylation on Thr14 and Tyr15 (by Wee1 and Myt1 kinases). The enzyme that reverses this is the Cdc25 phosphatase (specifically Cdc25C in G2/M). A wrong answer (e.g., suggesting cyclin B is absent, or that activating phosphorylation by CAK is missing) reveals the student does not distinguish between the three regulatory layers of CDK1: cyclin binding, activating phosphorylation (Thr161 by CAK), and inhibitory phosphorylation (Thr14/Tyr15 by Wee1/Myt1), and that the G2/M transition is primarily gated by removal of inhibitory phosphates.",
+     "self_check": true
+    },
+    {
+     "q": "A mutation in the gene encoding p21^Cip1^ (a Cip/Kip family CKI) renders it unable to bind CDK2. Predict the effect on the G1/S transition in a cell exposed to DNA damage, and justify your prediction by describing the normal p53-p21-CDK2 axis.",
+     "a": "Correct answer: The G1/S checkpoint will fail; the cell will enter S phase despite DNA damage. Normally, DNA damage activates p53, which transcriptionally induces p21; p21 binds and inhibits cyclin E-CDK2 and cyclin A-CDK2, preventing Rb hyperphosphorylation and blocking S phase entry. A wrong answer (e.g., predicting arrest or no change) reveals the student does not understand that p21 is the key effector of the p53-dependent G1/S checkpoint, or that Cip/Kip proteins inhibit CDK2 (not CDK4/6) to enforce the checkpoint.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of the SCF ubiquitin ligase complex and the APC/C ubiquitin ligase complex in cyclin degradation. Which cyclins are degraded by each, and at which cell cycle transitions does this degradation occur?",
+     "a": "Correct answer: SCF (specifically SCF^Skp2^) targets cyclin E (and cyclin D in some contexts) for degradation in late G1/early S phase, contributing to the inactivation of CDK2 after origin firing. APC/C^Cdc20^ targets cyclin A in metaphase and cyclin B in anaphase, driving exit from mitosis. A wrong answer (e.g., swapping the ligases or the cyclins) reveals the student confuses the two major ubiquitin ligase systems and their temporal roles: SCF acts primarily at the G1/S transition, while APC/C acts at metaphase-anaphase and mitotic exit.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Overexpression of cyclin D alone is sufficient to drive a quiescent (G0) cell into S phase in the absence of growth factors.\" Provide a mechanistic justification for your evaluation.",
+     "a": "Correct evaluation: False. Cyclin D synthesis is itself dependent on growth factor signaling (via Ras/MAPK and PI3K/Akt pathways); moreover, cyclin D-CDK4/6 only partially phosphorylates Rb. Full Rb inactivation and E2F release require subsequent cyclin E-CDK2 activity, which is also growth-factor-dependent. Overexpressed cyclin D without upstream signaling may form inactive complexes or be sequestered by CKIs. A wrong evaluation (True) reveals the student thinks cyclin D is a standalone oncogene that bypasses all upstream signaling, ignoring the requirement for mitogen-dependent transcription of cyclin D, assembly with CDK4/6, and the sequential requirement for cyclin E-CDK2.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical experiment using temperature-sensitive mutants of CDK1 in fission yeast (Schizosaccharomyces pombe) to demonstrate that CDK1 activity is both necessary and sufficient for the G2/M transition. Outline the key experimental steps and the expected phenotypes at permissive and restrictive temperatures.",
+     "a": "Expected answer: 1) Isolate a ts-cdc2 (CDK1) mutant that is functional at 25°C but inactive at 36°C. 2) Synchronize cells in G2 (e.g., by nitrogen starvation). 3) Shift to restrictive temperature: cells arrest in G2 with unreplicated DNA? No, they arrest with 2C DNA content, condensed chromosomes? Actually, cdc2 mutants arrest in G2 with unseparated chromosomes. 4) Shift back to permissive temperature: cells synchronously enter mitosis. 5) For sufficiency, use a constitutively active CDK1 mutant (e.g., cdc2-AF lacking inhibitory phosphorylation sites) and show it drives premature mitosis even in S phase. A poor answer (e.g., only describing arrest without the rescue, or confusing with cdc25 mutants) reveals the student cannot design a classic genetic experiment that separates necessity (loss-of-function arrest) from sufficiency (gain-of-function premature entry).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

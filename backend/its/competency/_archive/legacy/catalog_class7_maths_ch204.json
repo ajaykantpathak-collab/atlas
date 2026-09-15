@@ -1,0 +1,494 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 204,
+ "chapter_title": "Another Peek Beyond the Point",
+ "source_file": [
+  "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gegp204.txt",
+  "another peek beyond the point 4 4 1 a quick recap of decimals recall that decimals are the natural extension of the indian place value system to represent decimal fractions   1 10  1 100  1 1000  and so on  and their sums  for example  27 53 refers to a quantity that has    2 tens   7 units  ones    5 tenths   3 hundredths we have already learned how to multiply and divide fractions  in this chapter  we will learn how to perform these operations with decimals  you will see that the procedures for multiplying and dividing decimals are natural extensions of the procedures for multiplying and dividing counting numbers  jonali and pallabi play a game  jonali says a fraction and pallabi gives the equivalent decimal  write pallabi s answer in the blank spaces  jonali goes to the market to buy spices  she purchases 50 g of cinnamon  100 g of cumin seeds  25 g of cardamom and 250 g of pepper  express each of the quantities in kilograms by writing them in terms of fractions as well as decimals  the fractions jonali gave pallabi have denominators 10  100  1000  and so on   ganita prakash   grade 7   part ii write the following fractions as a sum of fractions and also as decimals  fraction expanding the numerator sum of one tenths  one hundredths  one thousands     decimals 254 1000 200 1000   50 1000   4 1000   2 10   5 100   4 1000 0 2   0 05   0 004 0 254 847 10000 173 100 23 1000 can you give a simple rule to divide any number by a number of the form 1 followed by zeroes   10  100  "
+ ],
+ "concepts": [
+  {
+   "id": "gegp.4.1.1",
+   "title": "Multiplying and Dividing Decimals by Powers of Ten",
+   "section": "4.1 / 4.3",
+   "definition": "Scaling a decimal number by ten or its powers shifts the decimal point right for multiplication and left for division by the number of zeroes.",
+   "formula": "scaled_result = decimal_num * power_of_ten or decimal_num / power_of_ten",
+   "key_idea": "Shift the decimal point right when multiplying by 10, 100, 1000 and left when dividing.",
+   "textbook_ref": "gegp204.txt lines 30-65, 180-210",
+   "question_patterns": [
+    "find the result when {decimal_num} is multiplied by {power_of_ten}",
+    "divide {decimal_num} by {power_of_ten}",
+    "calculate {decimal_num} divided by {power_of_ten}",
+    "what is the value of {decimal_num} times {power_of_ten}",
+    "explain multiplying and dividing decimals by powers of ten with an example",
+    "short note on multiplying and dividing decimals by powers of ten",
+    "why is multiplying and dividing decimals by powers of ten important",
+    "give one everyday example of multiplying and dividing decimals by powers of ten",
+    "describe multiplying and dividing decimals by powers of ten in your own words",
+    "what do you understand by multiplying and dividing decimals by powers of ten",
+    "list the main points about multiplying and dividing decimals by powers of ten"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply scale factor to decimal number",
+     "explain": "divide the decimal number by the given power of ten",
+     "compute": "scaled_result = decimal_num / power_of_ten"
+    }
+   ]
+  },
+  {
+   "id": "gegp.4.2.1",
+   "title": "Multiplication of a Decimal by a Whole Number",
+   "section": "4.2",
+   "definition": "The product of a decimal and an integer is computed by multiplying them as whole numbers and preserving the total decimal places in the final result.",
+   "formula": "product_val = decimal_factor * whole_number",
+   "key_idea": "Multiply ignoring the decimal point, then place the decimal point so the product has the same decimal places.",
+   "textbook_ref": "gegp204.txt lines 70-100",
+   "question_patterns": [
+    "multiply {decimal_factor} by {whole_number}",
+    "find the product of {decimal_factor} and {whole_number}",
+    "calculate the total value when {decimal_factor} is taken {whole_number} times",
+    "how much is {decimal_factor} times {whole_number}",
+    "explain multiplication of a decimal by a whole number with an example",
+    "short note on multiplication of a decimal by a whole number",
+    "why is multiplication of a decimal by a whole number important",
+    "give one everyday example of multiplication of a decimal by a whole number",
+    "describe multiplication of a decimal by a whole number in your own words",
+    "what do you understand by multiplication of a decimal by a whole number",
+    "list the main points about multiplication of a decimal by a whole number"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply decimal by whole number",
+     "explain": "multiply factors and place decimal point according to the decimal factor",
+     "compute": "product_val = decimal_factor * whole_number"
+    }
+   ]
+  },
+  {
+   "id": "gegp.4.2.2",
+   "title": "Multiplication of Two Decimal Numbers",
+   "section": "4.2",
+   "definition": "To multiply two decimals, multiply the numbers as integers and set the product's decimal places equal to the sum of decimal places in both factors.",
+   "formula": "product_val = decimal_a * decimal_b",
+   "key_idea": "The total decimal places in the product equal the sum of decimal places in the multiplier and multiplicand.",
+   "textbook_ref": "gegp204.txt lines 105-150",
+   "question_patterns": [
+    "find the product of {decimal_a} and {decimal_b}",
+    "calculate {decimal_a} multiplied by {decimal_b}",
+    "what is the area of a rectangle with length {decimal_a} and breadth {decimal_b}",
+    "multiply {decimal_a} by {decimal_b}",
+    "explain multiplication of two decimal numbers with an example",
+    "short note on multiplication of two decimal numbers",
+    "why is multiplication of two decimal numbers important",
+    "give one everyday example of multiplication of two decimal numbers",
+    "describe multiplication of two decimal numbers in your own words",
+    "what do you understand by multiplication of two decimal numbers",
+    "list the main points about multiplication of two decimal numbers"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply two decimal numbers",
+     "explain": "multiply ignoring decimals and assign total decimal places equal to sum of places in both factors",
+     "compute": "product_val = decimal_a * decimal_b"
+    }
+   ]
+  },
+  {
+   "id": "gegp.4.2.3",
+   "title": "Magnitude Properties of Decimal Multiplication",
+   "section": "4.2",
+   "definition": "When factors are greater than 1, their product exceeds both; when factors lie between 0 and 1, their product is smaller than both.",
+   "formula": "product_val = factor_a * factor_b",
+   "key_idea": "Product magnitude relative to factors depends on whether factors are greater than or less than 1.",
+   "textbook_ref": "gegp204.txt lines 155-180",
+   "question_patterns": [
+    "verify if the product of {factor_a} and {factor_b} is smaller than both numbers",
+    "check whether multiplying {factor_a} by {factor_b} gives a result greater than 1",
+    "determine if the product of {factor_a} and {factor_b} is less than {factor_a}",
+    "is the product of {factor_a} and {factor_b} greater than both factors",
+    "explain magnitude properties of decimal multiplication with an example",
+    "short note on magnitude properties of decimal multiplication",
+    "why is magnitude properties of decimal multiplication important",
+    "give one everyday example of magnitude properties of decimal multiplication",
+    "describe magnitude properties of decimal multiplication in your own words",
+    "what do you understand by magnitude properties of decimal multiplication",
+    "list the main points about magnitude properties of decimal multiplication"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine factor ranges relative to 1",
+     "explain": "check if factor_a and factor_b are each less than 1 or greater than 1"
+    },
+    {
+     "step": 2,
+     "action": "compare product with original factors",
+     "explain": "if both factors are between 0 and 1, the product is smaller than both factors"
+    }
+   ]
+  },
+  {
+   "id": "gegp.4.3.1",
+   "title": "Division of Whole Numbers with Decimal Quotient",
+   "section": "4.3",
+   "definition": "When dividing whole numbers with a remainder, continue long division into tenths and hundredths by inserting a decimal point in the quotient.",
+   "formula": "quotient_val = dividend_val / divisor_val",
+   "key_idea": "Regroup remaining ones into tenths and hundredths to obtain a complete decimal quotient.",
+   "textbook_ref": "gegp204.txt lines 215-270",
+   "question_patterns": [
+    "divide {dividend_val} by {divisor_val} to get a decimal quotient",
+    "find the decimal value of {dividend_val} divided by {divisor_val}",
+    "calculate {dividend_val} ÷ {divisor_val}",
+    "express the division {dividend_val} by {divisor_val} as a decimal",
+    "explain division of whole numbers with decimal quotient with an example",
+    "short note on division of whole numbers with decimal quotient",
+    "why is division of whole numbers with decimal quotient important",
+    "give one everyday example of division of whole numbers with decimal quotient",
+    "describe division of whole numbers with decimal quotient in your own words",
+    "what do you understand by division of whole numbers with decimal quotient",
+    "list the main points about division of whole numbers with decimal quotient"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide dividend by divisor",
+     "explain": "perform division and extend through decimal place values until zero remainder",
+     "compute": "quotient_val = dividend_val / divisor_val"
+    }
+   ]
+  },
+  {
+   "id": "gegp.4.3.2",
+   "title": "Division of a Decimal Number by a Whole Number",
+   "section": "4.3",
+   "definition": "Dividing a decimal by a natural number uses standard division while inserting a decimal point in the quotient before dividing the tenths digit.",
+   "formula": "quotient_val = decimal_dividend / whole_divisor",
+   "key_idea": "Place the decimal point in the quotient as soon as division reaches the tenths digit.",
+   "textbook_ref": "gegp204.txt lines 275-310",
+   "question_patterns": [
+    "divide {decimal_dividend} by {whole_divisor}",
+    "find the quotient of {decimal_dividend} ÷ {whole_divisor}",
+    "calculate the share when {decimal_dividend} is split equally among {whole_divisor}",
+    "what is {decimal_dividend} divided by {whole_divisor}",
+    "explain division of a decimal number by a whole number with an example",
+    "short note on division of a decimal number by a whole number",
+    "why is division of a decimal number by a whole number important",
+    "give one everyday example of division of a decimal number by a whole number",
+    "describe division of a decimal number by a whole number in your own words",
+    "what do you understand by division of a decimal number by a whole number",
+    "list the main points about division of a decimal number by a whole number"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide decimal dividend by whole divisor",
+     "explain": "execute place value division inserting decimal point at the tenths boundary",
+     "compute": "quotient_val = decimal_dividend / whole_divisor"
+    }
+   ]
+  },
+  {
+   "id": "gegp.4.3.3",
+   "title": "Division by a Decimal Divisor",
+   "section": "4.3",
+   "definition": "To divide by a decimal, transform the divisor into an integer by multiplying both dividend and divisor by a suitable power of 10.",
+   "formula": "quotient_val = decimal_dividend / decimal_divisor",
+   "key_idea": "Scale both numbers by ten or its powers to eliminate decimals from the divisor.",
+   "textbook_ref": "gegp204.txt lines 315-350",
+   "question_patterns": [
+    "divide {decimal_dividend} by {decimal_divisor}",
+    "calculate {decimal_dividend} ÷ {decimal_divisor}",
+    "find the average speed when covering {decimal_dividend} km in {decimal_divisor} hours",
+    "what is the quotient of {decimal_dividend} divided by {decimal_divisor}",
+    "explain division by a decimal divisor with an example",
+    "short note on division by a decimal divisor",
+    "why is division by a decimal divisor important",
+    "give one everyday example of division by a decimal divisor",
+    "describe division by a decimal divisor in your own words",
+    "what do you understand by division by a decimal divisor",
+    "list the main points about division by a decimal divisor"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide dividend by decimal divisor",
+     "explain": "convert divisor to whole number by scaling dividend and divisor equally then divide",
+     "compute": "quotient_val = decimal_dividend / decimal_divisor"
+    }
+   ]
+  },
+  {
+   "id": "gegp.4.3.4",
+   "title": "Non-Terminating and Repeating Decimal Expansions",
+   "section": "4.3",
+   "definition": "Divisions where remainders repeat cyclically generate non-terminating decimals with infinitely repeating sequences of quotient digits.",
+   "formula": "dividend_val / divisor_val = repeating_decimal",
+   "key_idea": "Divisions with non-zero repeating remainders produce infinite repeating decimal patterns.",
+   "textbook_ref": "gegp204.txt lines 355-410",
+   "question_patterns": [
+    "explain why {dividend_val} divided by {divisor_val} does not terminate",
+    "show that the decimal form of {dividend_val} ÷ {divisor_val} has a repeating block",
+    "check if division of {dividend_val} by {divisor_val} terminates or repeats",
+    "find the repeating cycle of digits in {dividend_val} ÷ {divisor_val}",
+    "explain non-terminating and repeating decimal expansions with an example",
+    "short note on non-terminating and repeating decimal expansions",
+    "why is non-terminating and repeating decimal expansions important",
+    "give one everyday example of non-terminating and repeating decimal expansions",
+    "describe non-terminating and repeating decimal expansions in your own words",
+    "what do you understand by non-terminating and repeating decimal expansions",
+    "list the main points about non-terminating and repeating decimal expansions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "perform long division tracking remainders",
+     "explain": "divide step-by-step and observe remainder pattern after each subtraction"
+    },
+    {
+     "step": 2,
+     "action": "identify cycle repetition",
+     "explain": "note when a previously seen remainder reappears, establishing a non-terminating repeating decimal"
+    }
+   ]
+  },
+  {
+   "id": "gegp.4.4.1",
+   "title": "Real-World Multi-Step Problems with Decimals",
+   "section": "4.4",
+   "definition": "Practical applications utilize sequential decimal operations to calculate total price, quantity, speed, or overall profit.",
+   "formula": "total_cost = unit_price * quantity",
+   "key_idea": "Translate verbal problem statements into step-by-step decimal arithmetic.",
+   "textbook_ref": "gegp204.txt lines 415-470",
+   "question_patterns": [
+    "calculate total cost for {quantity} items at {unit_price} each",
+    "find the profit made when buying {quantity} items at {unit_price} and selling at higher rate",
+    "how much is spent on purchasing {quantity} units costing {unit_price} per unit",
+    "what is the total distance covered in {quantity} trips of {unit_price} km each",
+    "explain real-world multi-step problems with decimals with an example",
+    "short note on real-world multi-step problems with decimals",
+    "why is real-world multi-step problems with decimals important",
+    "give one everyday example of real-world multi-step problems with decimals",
+    "describe real-world multi-step problems with decimals in your own words",
+    "what do you understand by real-world multi-step problems with decimals",
+    "list the main points about real-world multi-step problems with decimals"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute total amount",
+     "explain": "multiply unit price or quantity by factor to find cumulative total",
+     "compute": "total_cost = unit_price * quantity"
+    }
+   ]
+  },
+  {
+   "id": "gegp.4.4.2",
+   "title": "Unit Conversions using Decimal Operations",
+   "section": "4.4",
+   "definition": "Converting metric units involves shifting place values by multiplying or dividing decimals by 10, 100, or 1000.",
+   "formula": "converted_value = initial_value * conversion_factor",
+   "key_idea": "Multiply by conversion factor to move to smaller metric units and divide for larger units.",
+   "textbook_ref": "gegp204.txt lines 475-520",
+   "question_patterns": [
+    "convert {initial_value} km into metres",
+    "express {initial_value} grams in kilograms",
+    "convert {initial_value} centimetres to millimetres",
+    "how many litres is {initial_value} millilitres",
+    "explain unit conversions using decimal operations with an example",
+    "short note on unit conversions using decimal operations",
+    "why is unit conversions using decimal operations important",
+    "give one everyday example of unit conversions using decimal operations",
+    "describe unit conversions using decimal operations in your own words",
+    "what do you understand by unit conversions using decimal operations",
+    "list the main points about unit conversions using decimal operations"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply metric unit conversion factor",
+     "explain": "multiply initial value by conversion factor to obtain required unit",
+     "compute": "converted_value = initial_value * conversion_factor"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gegp204.txt Example 1, page 69",
+   "concept": "gegp.4.2.1",
+   "question_type": "compute",
+   "question_pattern": "Arshad purchases {whole_number} pens at ₹{decimal_factor} each. How much should he pay?",
+   "extracted_variables": {
+    "decimal_factor": 9.5,
+    "whole_number": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply unit price by quantity",
+     "explain": "multiply 9.5 by 5 to find total cost",
+     "compute": "product_val = decimal_factor * whole_number"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gegp204.txt Example 2, page 69",
+   "concept": "gegp.4.2.2",
+   "question_type": "compute",
+   "question_pattern": "A car travels {decimal_a} km per litre of petrol. What is the distance covered with {decimal_b} litres of petrol?",
+   "extracted_variables": {
+    "decimal_a": 12.5,
+    "decimal_b": 7.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply two decimal quantities",
+     "explain": "multiply rate of distance by volume of petrol",
+     "compute": "product_val = decimal_a * decimal_b"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "gegp204.txt Example 9, page 81",
+   "concept": "gegp.4.3.1",
+   "question_type": "compute",
+   "question_pattern": "Find the value of {dividend_val} ÷ {divisor_val}.",
+   "extracted_variables": {
+    "dividend_val": 237,
+    "divisor_val": 8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide whole numbers into decimal quotient",
+     "explain": "divide 237 by 8 placing decimal point when regrouping ones to tenths",
+     "compute": "quotient_val = dividend_val / divisor_val"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "gegp204.txt Example 10, page 82",
+   "concept": "gegp.4.3.2",
+   "question_type": "compute",
+   "question_pattern": "A shopkeeper has {decimal_dividend} kg of sugar and packs it equally in {whole_divisor} bags. What is the weight of each bag?",
+   "extracted_variables": {
+    "decimal_dividend": 9.5,
+    "whole_divisor": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide total weight by number of bags",
+     "explain": "divide decimal 9.5 by 4",
+     "compute": "quotient_val = decimal_dividend / whole_divisor"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "gegp204.txt Example 12, page 84",
+   "concept": "gegp.4.3.3",
+   "question_type": "compute",
+   "question_pattern": "Ravi travelled {decimal_dividend} km in {decimal_divisor} hours. What was his average speed?",
+   "extracted_variables": {
+    "decimal_dividend": 126,
+    "decimal_divisor": 2.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide distance by decimal time",
+     "explain": "multiply dividend and divisor by 10 then divide 1260 by 25",
+     "compute": "quotient_val = decimal_dividend / decimal_divisor"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "gegp204.txt Example 6, page 74",
+   "concept": "gegp.4.1.1",
+   "question_type": "compute",
+   "question_pattern": "Anuja cuts a {decimal_num} m length of ribbon into {power_of_ten} equal pieces. What is the length of each piece?",
+   "extracted_variables": {
+    "decimal_num": 3.9,
+    "power_of_ten": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide decimal length by power of ten",
+     "explain": "shift decimal point one place to left for division by 10",
+     "compute": "scaled_result = decimal_num / power_of_ten"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "gegp204.txt Figure it Out, page 73",
+   "questions": [
+    "Find the products: 27.34 x 6, 4.23 x 3.7, 0.432 x 0.23",
+    "Thejus needs 1.65 m of cloth for a shirt. How many metres of cloth are needed for 3 shirts?",
+    "Meenu bought 4 notebooks at Rs 15.50 each and 3 erasers at Rs 2.75 each. How much did she spend in all?",
+    "The thickness of a rupee coin is 1.45 mm. What is the total height in cm of 36 coins stacked together?",
+    "Dwarakanath purchases notebooks wholesale at Rs 23.6 per piece and sells each at Rs 30. How much profit does he make selling 50 books?"
+   ]
+  },
+  {
+   "id": "ex4.2",
+   "source_ref": "gegp204.txt Figure it Out, page 83",
+   "questions": [
+    "Find quotient by converting denominator to power of 10 and verify by long division: 18/5, 415/4, 1217/2, 4827/8",
+    "Choose correct answer: 1526 / 4, 3567 / 8",
+    "Find quotient for 132/4, 13.2/4, 1.32/4, 0.132/4"
+   ]
+  },
+  {
+   "id": "ex4.3",
+   "source_ref": "gegp204.txt Figure it Out, pages 86-87",
+   "questions": [
+    "Express fractions in decimal form: 2/5, 13/4, 4/50, 5/8",
+    "Find quotients: 24.86 ÷ 1.2, 5.728 ÷ 1.52",
+    "A 4 m long wooden block is cut into 5 equal pieces. Find length of each piece.",
+    "Perimeter of regular polygon with 12 sides is 208.8 cm. What is the length of each side?",
+    "3 litres of juice is shared equally among 8 friends. How much juice in ml does each get?",
+    "A car covers 234.45 km using 12.6 litres of petrol. Find distance per litre.",
+    "13.5 kg of flour distributed equally among 15 students. How much flour per student?"
+   ]
+  },
+  {
+   "id": "ex4.4",
+   "source_ref": "gegp204.txt Figure it Out, pages 93-94",
+   "questions": [
+    "A 210g packet of chikki costs Rs 70.5, while 110g chips costs Rs 33.25. Which is cheaper per gram?",
+    "Shyamala bought 3 kg bananas at Rs 30 per kg (35 bananas total) and sold each for Rs 5. Find her profit.",
+    "A bookshelf is 160 cm long. How many 2.5 cm thick books fit on it?",
+    "Fill blanks: 5.5 km = ___ m, 35 cm = ___ m, 14.5 cm = ___ mm, 68 g = ___ kg, 9.02 m = ___ mm, 125.5 ml = ___ l"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)",
+ "source_link": "re-linked to new cache"
+}

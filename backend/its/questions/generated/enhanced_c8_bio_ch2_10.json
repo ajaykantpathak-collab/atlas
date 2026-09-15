@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_bio_ch2_10",
+ "concepts": [
+  {
+   "id": "enh:c8_bio_ch2_10",
+   "title": "c8_bio_ch2_10",
+   "questions": [
+    {
+     "q": "What is the primary chemical property of a soap molecule that enables it to remove oily dirt and destroy pathogen cell membranes during handwashing?",
+     "a": "A soap molecule has a dual structure containing a hydrophobic (water-fearing) hydrocarbon tail that dissolves in oils and grease, and a hydrophilic (water-loving) ionic head that dissolves in water. A wrong answer often assumes soap simply melts dirt with heat or uses acid to burn it away, revealing a misunderstanding of surfactant chemistry and intermolecular interactions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why rinsing your hands with plain cold water is chemically insufficient to remove greasy residues and microbes compared to washing with soap.",
+     "a": "Grease and pathogen lipid membranes are hydrophobic and insoluble in water due to strong non-polar interactions, meaning water molecules cannot bond with or lift them away. A wrong answer suggests water washes away all substances equally, demonstrating a failure to grasp the concept of solubility and polar versus non-polar substances.",
+     "self_check": true
+    },
+    {
+     "q": "During an epidemic prevention drive, a local municipality uses bleaching powder ($CaOCl_2$) to disinfect community water storage tanks. If 50 grams of bleaching powder is dissolved in water to release chlorine gas, which acts as a disinfecting agent, calculate the mass percentage of chlorine in pure calcium oxychloride, assuming the chemical formula is $CaOCl_2$ (Atomic masses: Ca = 40 u, O = 16 u, Cl = 35.5 u).",
+     "a": "Steps: 1. Identify the molar mass of each component in $CaOCl_2$: Ca = 40 u, O = 16 u, 2 $\\times$ Cl = 2 $\\times$ 35.5 = 71 u. 2. Calculate the total molar mass of $CaOCl_2$: 40 + 16 + 71 = 127 g/mol. 3. Identify the total mass contributed by chlorine atoms: 71 g/mol. 4. Calculate the mass percentage of chlorine: $(\\text{Mass of Cl} / \\text{Total Molar Mass}) \\times 100 = (71 / 127) \\times 100 \\approx 55.91\\%$. 5. Verify the calculation and include proper units (%). A wrong answer usually results from forgetting that there are two chlorine atoms in the formula or incorrectly adding atomic masses, showing a weakness in stoichiometry and molar mass calculations.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how improper disposal of domestic organic waste in a community affects both water chemistry (dissolved oxygen levels) and community health.",
+     "a": "Organic waste dumped into water bodies undergoes microbial decomposition, a process that consumes dissolved oxygen ($O_2$), leading to aquatic hypoxia (low oxygen) and the proliferation of harmful anaerobic bacteria and vector-borne disease mosquitoes. A wrong answer claims that organic waste simply dissolves harmlessly like sugar, showing a lack of understanding regarding biochemical oxygen demand and environmental chemical degradation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Using harsh industrial acids for daily personal hand hygiene is more effective than using mild soap because acids kill germs faster.\" Is this statement scientifically sound?",
+     "a": "The statement is scientifically unsound because strong industrial acids cause severe chemical burns by destroying human skin tissue (proteins and lipids), whereas mild soaps safely emulsify pathogen lipid membranes and lift them off via water rinsing without harming epidermal tissue. A wrong answer agrees that stronger chemicals are always better, revealing a dangerous misunderstanding of skin compatibility, chemical hazards, and safe hygiene practices.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple, low-cost community hygiene protocol for a rural Indian village experiencing seasonal waterborne infections during the monsoon, specifying the chemical or physical agents used at each step.",
+     "a": "A robust protocol includes: 1. Boiling drinking water or treating it with chlorine tablets to kill pathogenic bacteria. 2. Constructing covered drainage systems and spraying bleaching powder to prevent mosquito breeding. 3. Implementing compulsory handwashing stations with ash or soap before mid-day meals. A poor answer suggests just telling villagers to drink rainwater without treatment, ignoring the chemical and biological contaminants present during monsoons.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+  "class": 11,
+  "subject": "unknown",
+  "chapter": 105,
+  "chapter_title": "Astronomy in India",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keks105.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keks105.1.1",
+      "title": "Astronomy: An Ancient Science Born of Wonder",
+      "section": "1.1",
+      "definition": "Astronomy studies the objects seen in the sky, and it is an ancient science -- perhaps as old as the day humans left their caves for the open. The phases of the moon, eclipses and other celestial phenomena drew wonder and awe, and that wonder grew into careful, regular observation.",
+      "formula": "",
+      "key_idea": "Wonder at the sky was the first laboratory -- watching moon and eclipses nightly made astronomy a science.",
+      "textbook_ref": "keks105.txt opening (astronomy study of objects in sky, ancient science, phases of the moon, eclipses, celestial phenomena, wonder and awe)",
+      "question_patterns": [
+        "what does astronomy study",
+        "in class 11 astronomy chapter: why is astronomy called an ancient science",
+        "which celestial phenomena drew early human attention",
+        "how did wonder and awe become systematic observation",
+        "why did early humans watch the phases of the moon",
+        "what is the difference between astrology and astronomy in the chapter's terms"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "define the science", "explain": "Astronomy is the study of sky objects -- their motions and patterns."},
+        {"step": 2, "action": "date the beginnings", "explain": "Its data-collection began in prehistory, with moon phases and eclipses the most striking recurring events."},
+        {"step": 3, "action": "mark the scientific turn", "explain": "Repeated observation turned awe into prediction -- the birth of a science of the sky."}
+      ]
+    },
+    {
+      "id": "keks105.1.2",
+      "title": "Indian Astronomical Tradition: Calendars and the Nakshatra Sky",
+      "section": "1.2",
+      "definition": "Indian astronomers mapped the sky into nakshatras -- lunar mansions -- and built calendars that tracked the sun and moon together, fixing festivals, seasons and agricultural timings. Eclipses, once feared, came to be calculated, showing the tradition's move from belief to computation.",
+      "formula": "",
+      "key_idea": "Stars became a calendar -- nakshatra tracks and sun-moon reckoning turned the sky into social time.",
+      "textbook_ref": "keks105.txt tradition sections (nakshatra, calendar, tithi, eclipses calculated, festivals and seasons, panchanga)",
+      "question_patterns": [
+        "what are nakshatras and how were they used",
+        "in class 11 astronomy chapter: how were eclipses explained in the indian tradition",
+        "how did astronomers build calendars for society",
+        "what is the use of knowing the positions of the moon and sun",
+        "relate festivals to astronomical events",
+        "why was predicting eclipses important for the tradition"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "map the sky", "explain": "The moon's monthly path was divided into nakshatra stations, giving a reference grid of stars."},
+        {"step": 2, "action": "build the timekeeping", "explain": "Combining solar and lunar motions produced calendars -- tithis, months, festival dates, sowing seasons."},
+        {"step": 3, "action": "tame the eclipses", "explain": "Understanding the moon's shadow geometry let astronomers calculate eclipses, replacing fear with prediction."}
+      ]
+    },
+    {
+      "id": "keks105.1.3",
+      "title": "Astronomy in Service of Life",
+      "section": "1.3",
+      "definition": "Astronomy in India was never detached from life: it fixed the agricultural calendar, guided navigation and travel, and ordered ritual and social time. The same observations that satisfied wonder also served farms, festivals and journeys -- knowledge woven into society.",
+      "formula": "",
+      "key_idea": "Sky knowledge fed the field and the festival -- astronomy worked as society's clock and compass.",
+      "textbook_ref": "keks105.txt application sections (agriculture seasons, navigation, rituals and time, astronomy in daily life)",
+      "question_patterns": [
+        "how did astronomy serve agriculture in india",
+        "in class 11 astronomy chapter: what social uses did astronomy have",
+        "why do festivals fall on astronomically fixed dates",
+        "how was the sky used in travel and navigation",
+        "explain the link between seasons and sky observation",
+        "show how astronomy connected ritual and farming"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "serve the fields", "explain": "Seasonal markers read from the sky told farmers when to sow and harvest."},
+        {"step": 2, "action": "serve the calendar", "explain": "Ritual dates, fixed astronomically, coordinated communities across regions."},
+        {"step": 3, "action": "serve the traveller", "explain": "Star positions guided journeys, making the same sky a compass as well as a clock."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keks105.txt tradition sections",
+      "concept": "keks105.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Explain how the nakshatra division of the sky helped ancient astronomers keep track of time.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "recall the grid", "explain": "The moon's path was marked into nakshatra stations along the ecliptic."},
+        {"step": 2, "action": "follow the pointer", "explain": "Each night the moon sits near a known station, so its position reads off the date of the lunar month."},
+        {"step": 3, "action": "state the result", "explain": "The sky thus functioned as a public calendar readable by trained observers."}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keks105.txt application sections",
+      "concept": "keks105.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "A farmer in early India decides when to sow. Show how astronomical knowledge guided the decision.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "read the sky signal", "explain": "The sun's shift into a known constellation and the moon's phase marked the season's turn."},
+        {"step": 2, "action": "connect to climate", "explain": "Such markers preceded the rains regularly, so they served as a forecast."},
+        {"step": 3, "action": "conclude", "explain": "Sowing timed to the sky tied agriculture to astronomy -- knowledge serving subsistence."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keks105.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Why is astronomy considered an ancient science?",
+        "What celestial phenomena impressed early observers most and why?",
+        "Explain the nakshatra system and its uses.",
+        "How were eclipses understood and predicted in the Indian tradition?",
+        "Show how astronomy served agriculture and festivals.",
+        "Distinguish wonder-based belief from calculated astronomy."
+      ]
+    }
+  ]
+}

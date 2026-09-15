@@ -1,0 +1,368 @@
+{
+ "catalog": "catalog_class7_maths_ch3_data_handling.json",
+ "concepts": [
+  {
+   "id": "c7m3.2.1",
+   "title": "Arithmetic Mean",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A trader buys an article for Rs 400 and sells it for Rs 560. Find the profit.",
+     "a": "160",
+     "self_check": false
+    },
+    {
+     "q": "Cost price Rs 400, selling price Rs 560. Find the profit percentage.",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "An article costing Rs 400 is sold for Rs 300. Find the loss percentage.",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "A shopkeeper wants a 10% profit on an article costing Rs 250. At what price should he sell it?",
+     "a": "275",
+     "self_check": false
+    },
+    {
+     "q": "The marked price of a jacket is Rs 500 and the shop offers a 25% discount. What is the sale price?",
+     "a": "375",
+     "self_check": false
+    },
+    {
+     "q": "An item marked at Rs 500 sells for Rs 375 after a discount. Find the discount percentage.",
+     "a": "25",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m3.2.2",
+   "title": "Range",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A trader buys an article for Rs 120 and sells it for Rs 168. Find the profit.",
+     "a": "48",
+     "self_check": false
+    },
+    {
+     "q": "Cost price Rs 120, selling price Rs 168. Find the profit percentage.",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "An article costing Rs 120 is sold for Rs 96. Find the loss percentage.",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "A shopkeeper wants a 10% profit on an article costing Rs 500. At what price should he sell it?",
+     "a": "550",
+     "self_check": false
+    },
+    {
+     "q": "The marked price of a jacket is Rs 400 and the shop offers a 30% discount. What is the sale price?",
+     "a": "280",
+     "self_check": false
+    },
+    {
+     "q": "An item marked at Rs 400 sells for Rs 280 after a discount. Find the discount percentage.",
+     "a": "30",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m3.3.1",
+   "title": "Mode",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A trader buys an article for Rs 400 and sells it for Rs 500. Find the profit.",
+     "a": "100",
+     "self_check": false
+    },
+    {
+     "q": "Cost price Rs 400, selling price Rs 500. Find the profit percentage.",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "An article costing Rs 400 is sold for Rs 300. Find the loss percentage.",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "A shopkeeper wants a 50% profit on an article costing Rs 300. At what price should he sell it?",
+     "a": "450",
+     "self_check": false
+    },
+    {
+     "q": "The marked price of a jacket is Rs 1000 and the shop offers a 10% discount. What is the sale price?",
+     "a": "900",
+     "self_check": false
+    },
+    {
+     "q": "An item marked at Rs 1000 sells for Rs 900 after a discount. Find the discount percentage.",
+     "a": "10",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m3.3.2",
+   "title": "Mode of Large Data",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 14, 14, 11, 20, 40.",
+     "a": "19.8",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 1, 16, 20, 20, 32 (already in increasing order).",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 19, 31. A seventh value 55 is added, making 7 values. Find the median of the 7 values.",
+     "a": "31",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 27 and 33. Find the median.",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 8 times, 5 occurs 3 times and 6 occurs 3 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 51, 30, 35, 27.",
+     "a": "24",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m3.4.1",
+   "title": "Median",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 31, 8, 11, 28, 25.",
+     "a": "20.6",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 8, 17, 18, 36, 45 (already in increasing order).",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 4, 33. A seventh value 41 is added, making 7 values. Find the median of the 7 values.",
+     "a": "33",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 6 and 32. Find the median.",
+     "a": "19",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 6 times, 5 occurs 3 times and 6 occurs 3 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 21, 48, 49, 19.",
+     "a": "30",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m3.5.1",
+   "title": "Bar Graphs",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 25 / 5 gives 5",
+     "compute": "t1 = 25 / 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Write the ratio 25 : 40 in its simplest form and give the first term of the simplest form.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Rs 520 is divided between two friends in the ratio 4 : 9. Find the smaller share.",
+     "a": "160",
+     "self_check": false
+    },
+    {
+     "q": "Rs 600 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "300",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 7 : 3 = 14 : ?  (give the fourth term).",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 7 : 3 :: 14 : 6 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 10 notebooks cost Rs 40, what will 8 notebooks cost at the same rate (direct proportion)?",
+     "a": "32",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m3.5.2",
+   "title": "Double Bar Graphs",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 3 + 6 + 2 gives 11",
+     "compute": "total = 3 + 6 + 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "In a frequency table the rows have frequencies 3, 6 and 2. Find the total frequency.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "A pictograph uses one symbol for 5 units. If a row shows 9 symbols, what value does it represent?",
+     "a": "45",
+     "self_check": false
+    },
+    {
+     "q": "In a pictograph with key 1 symbol = 5 units, how many symbols represent 15 units?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "In a bar graph, 1 unit of bar height stands for 10 books. A bar is 11 units tall. How many books does it show?",
+     "a": "110",
+     "self_check": false
+    },
+    {
+     "q": "A bar must show a frequency of 65 with scale 1 unit = 5. How tall is the bar in units?",
+     "a": "13",
+     "self_check": false
+    },
+    {
+     "q": "A pie chart sector represents 50 out of 200 people. Find its central angle in degrees.",
+     "a": "90",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m3.5.3",
+   "title": "Choosing Appropriate Representative Value",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the mean/median/mode definition",
+     "explain": "apply the mean/median/mode definition: total = sum((38, 29, 32, 40, 16)) gives 155",
+     "compute": "total = sum((38, 29, 32, 40, 16))"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 31",
+     "compute": "mean = total / 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 38, 29, 32, 40, 16.",
+     "a": "31",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 7, 17, 30, 34, 39 (already in increasing order).",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 4, 27. A seventh value 53 is added, making 7 values. Find the median of the 7 values.",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 21 and 46. Find the median.",
+     "a": "33.5",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 4 times, 5 occurs 2 times and 6 occurs 3 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 40, 40, 44, 18.",
+     "a": "26",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c7m3.6.1",
+   "title": "Probability and Chance",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A die is rolled once. What is the probability of getting a number greater than 5? (give the fraction)",
+     "a": "1/6",
+     "self_check": false
+    },
+    {
+     "q": "A die is rolled once. What is the probability of getting a prime number (2, 3 or 5)? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "Two coins are tossed together. What is the probability of getting exactly one head? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "2 fair coins are tossed together. What is the total number of possible outcomes?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled together. How many outcomes are in the sample space?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled. Find the probability of getting a sum of 5 (there are 3 such outcomes). (give the fraction)",
+     "a": "1/12",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

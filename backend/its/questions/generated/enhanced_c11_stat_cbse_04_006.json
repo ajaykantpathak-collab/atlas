@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_04_006",
+   "title": "c11_stat_cbse_04_006",
+   "questions": [
+    {
+     "q": "What are the exact two steps required to convert a completed histogram into a frequency polygon?",
+     "a": "Step 1: Mark the mid-point of the top horizontal side of every rectangle in the histogram. Step 2: Join these mid-points sequentially with straight lines, and extend the line at both ends to meet the horizontal axis at the mid-points of the two classes with zero frequency immediately preceding the first class and immediately following the last class. A wrong answer (e.g., \"join the upper right corners of rectangles\" or \"forget to extend to the base line\") reveals the student confuses the polygon's vertices with rectangle corners or does not understand the area-preservation property of the polygon.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it necessary to extend the frequency polygon to the horizontal axis at the mid-points of the two classes with zero frequency at the ends of the distribution?",
+     "a": "Extending the polygon to the base line at the mid-points of the zero-frequency classes ensures that the total area enclosed by the frequency polygon and the horizontal axis exactly equals the total area of the histogram rectangles, which represents the total frequency (sample size). Without these extensions, the polygon would remain open at the ends, and the area under it would underestimate the total frequency. A wrong answer (e.g., \"to make the graph look symmetric\" or \"to connect the first and last points\") shows the student treats the polygon as a mere line chart without understanding its area-equivalence property to the histogram.",
+     "self_check": true
+    },
+    {
+     "q": "A histogram has three consecutive classes: 10–20 (frequency 4), 20–30 (frequency 9), 30–40 (frequency 6). The classes are continuous. Plot the coordinates of all points needed to draw the frequency polygon for this histogram, including the two extra points at the ends.",
+     "a": "Class marks: 15, 25, 35. Extra class marks: 5 (for 0–10) and 45 (for 40–50). Points: (5, 0), (15, 4), (25, 9), (35, 6), (45, 0). A wrong answer (e.g., using class boundaries like (10,4), (20,9), (30,6) or forgetting the zero-frequency points) reveals the student does not distinguish between class boundaries (used for histogram rectangles) and class marks (used for polygon vertices), or does not grasp the closure requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Consider a histogram with unequal class intervals where the rectangles are drawn with heights proportional to frequency density (frequency/width). If you join the mid-points of the tops of these rectangles, will the resulting frequency polygon have an area equal to the total frequency? Justify your answer.",
+     "a": "No. When class intervals are unequal, the histogram uses frequency density on the vertical axis so that rectangle areas represent frequencies. The mid-points of the tops of these rectangles lie at heights equal to frequency density, not frequency. Joining them produces a polygon whose vertical scale is frequency density; the area under this polygon will not equal the total frequency (it will equal total frequency only if all class widths are 1). To preserve area equivalence, a frequency polygon for unequal intervals must be drawn by plotting frequency (not density) against class marks, which means it cannot be derived directly from the frequency-density histogram by simply joining rectangle mid-points. A wrong answer (\"yes, because the method is the same\") reveals the student has not analysed the difference between the vertical scales of histograms for equal vs. unequal intervals.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since a frequency polygon is just a line graph of class marks versus frequencies, I can draw it directly from the frequency table without ever drawing a histogram. The histogram step is unnecessary.\" Evaluate this claim in the context of the NCERT definition and the purpose of the frequency polygon.",
+     "a": "The student's claim is partially correct in practice (you can plot points directly from the table) but misses the pedagogical and conceptual link the NCERT emphasizes. The NCERT defines the frequency polygon as *derived from the histogram* (\"The simplest method of drawing a frequency polygon is to join the midpoints of the topside of the consecutive rectangles of the histogram\"). This derivation highlights that the polygon is an *alternative representation of the same area-based data* as the histogram, preserving the total frequency as area. Drawing it directly from the table obscures this geometric relationship and the reason for extending to zero-frequency classes (to close the area). A wrong evaluation (\"the student is right, histogram is a waste of time\") shows the student views statistical diagrams as isolated plotting exercises rather than interconnected representations with specific geometric properties.",
+     "self_check": true
+    },
+    {
+     "q": "Create a grouped frequency distribution with 5 classes such that its frequency polygon is a perfect symmetric triangle (isosceles triangle with base on the horizontal axis). Provide the class intervals, frequencies, and a rough sketch description of the resulting histogram and polygon.",
+     "a": "Example: Classes 0–10, 10–20, 20–30, 30–40, 40–50 (equal width 10). Frequencies: 0, 5, 10, 5, 0. Class marks: 5, 15, 25, 35, 45. Polygon points: (5,0), (15,5), (25,10), (35,5), (45,0) — forms a symmetric triangle. Histogram: rectangles of heights 0, 5, 10, 5, 0 (first and last rectangles have zero height, so effectively three rectangles). A poor answer (e.g., asymmetric frequencies or forgetting zero-frequency end classes) reveals the student cannot reverse-engineer the polygon's geometry to design a matching distribution, indicating a lack of synthesis between tabular data and graphical shape.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

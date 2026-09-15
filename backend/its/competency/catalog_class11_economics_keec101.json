@@ -1,0 +1,129 @@
+{
+ "class": 11,
+ "subject": "economics",
+ "chapter": 101,
+ "chapter_title": "Development Policies and Experience 1947-90: An Overview",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keec101.txt",
+ "concepts": [
+  {
+   "id": "keec.101.1.1",
+   "title": "Overview of the Indian Economy at Independence",
+   "section": "Development policies",
+   "definition": "At the eve of independence India was an agrarian economy with a large share of workforce in agriculture, low industrial base, widespread poverty and low literacy, so development policy after 1947 had to rebuild agriculture, industry and social sectors together.",
+   "formula": "",
+   "key_idea": "The unit overview frames the questions of growth, modernisation, self-reliance and equity that guided planning from 1947 to 1990.",
+   "textbook_ref": "keec101.txt unit overview",
+   "question_patterns": [
+    "what was the state of the indian economy at independence",
+    "which sectors dominated employment at the time of independence",
+    "what development challenges did india face after 1947",
+    "how did planning aim to transform the economy",
+    "state the goals of indian development planning",
+    "why was industrialisation a policy priority"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "note the base year conditions",
+     "explain": "Recall agriculture dominance, low industry and poverty."
+    },
+    {
+     "step": 2,
+     "action": "link to policy goals",
+     "explain": "Connect conditions to planning objectives."
+    },
+    {
+     "step": 3,
+     "action": "summarise the trajectory",
+     "explain": "State how policies addressed the gaps up to 1990."
+    }
+   ]
+  },
+  {
+   "id": "keec.101.2.1",
+   "title": "Sectoral Structure: Agriculture, Industry and Services",
+   "section": "Sectoral structure",
+   "definition": "The economy divides into primary agriculture and allied activities, secondary industry and manufacturing, and tertiary services, and the movement of workers and output among these sectors measures structural change in development.",
+   "formula": "",
+   "key_idea": "A falling share of agriculture in output with rising industry and services shares marks the structural transformation targeted by development policy.",
+   "textbook_ref": "keec101.txt sectoral structure overview",
+   "question_patterns": [
+    "define primary secondary and tertiary sectors of the economy",
+    "how is structural change in an economy measured",
+    "what share of workforce did agriculture hold at independence",
+    "why is the industrial sector important for development",
+    "explain the role of the service sector in growth",
+    "compare output share and employment share across sectors"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sort the activities",
+     "explain": "Place each activity in primary, secondary or tertiary sector."
+    },
+    {
+     "step": 2,
+     "action": "compare the shares",
+     "explain": "Note output and workforce shares of each sector."
+    },
+    {
+     "step": 3,
+     "action": "interpret the pattern",
+     "explain": "State what the pattern says about development."
+    }
+   ]
+  },
+  {
+   "id": "keec.101.3.1",
+   "title": "Planning Goals: Growth, Modernisation, Self-reliance and Equity",
+   "section": "Development policies",
+   "definition": "Development planning in India from 1951 onward pursued four interlinked goals: economic growth raising aggregate output, modernisation of technology and social outlook, self-reliance reducing dependence on imports and aid, and equity spreading growth benefits to weaker sections.",
+   "formula": "",
+   "key_idea": "These goals sometimes conflict in the short run, so plans had to balance rapid growth with distribution and self-reliance with openness.",
+   "textbook_ref": "keec101.txt unit overview",
+   "question_patterns": [
+    "state the four goals of indian development planning",
+    "how do growth and equity goals pull in different directions",
+    "what is meant by modernisation as a plan goal",
+    "why was self reliance emphasised in planning",
+    "define growth as an objective of planning",
+    "how did plans balance competing goals of development"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "name the goals",
+     "explain": "Recall growth, modernisation, self-reliance and equity."
+    },
+    {
+     "step": 2,
+     "action": "explain each goal",
+     "describe": null,
+     "explain": "Define the meaning and measure of each goal."
+    },
+    {
+     "step": 3,
+     "action": "note the tradeoffs",
+     "explain": "State conflicts among goals and how plans balanced them."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "keec101.txt unit overview",
+   "questions": [
+    "Describe the state of the Indian economy on the eve of independence.",
+    "What were the main development challenges after 1947?",
+    "Define the three sectors of the economy with examples.",
+    "Why did India adopt planning for development?",
+    "How is structural change measured in an economy?"
+   ]
+  }
+ ]
+}

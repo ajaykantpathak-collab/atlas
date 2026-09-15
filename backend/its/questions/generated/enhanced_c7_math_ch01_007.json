@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch01_007",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch01_007",
+   "title": "c7_math_ch01_007",
+   "questions": [
+    {
+     "q": "What is the rule for deciding whether to round up or round down when rounding a number to the nearest 100?",
+     "a": "Look at the tens digit. If it is 0, 1, 2, 3, or 4, round down by keeping the hundreds digit the same and changing the tens and units to zero. If it is 5, 6, 7, 8, or 9, round up by increasing the hundreds digit by 1 and changing the tens and units to zero. A wrong answer reveals confusion between the place value being rounded to and the test digit to its right (e.g., looking at the thousands digit instead of the tens digit).",
+     "self_check": true
+    },
+    {
+     "q": "Why does the number 456 rounded to the nearest 100 become 500 instead of 400? Explain the reasoning using distance on a number line.",
+     "a": "On a number line between 400 and 500, 456 lies past the midpoint 450. Since the distance from 456 to 500 is 44 units, while the distance from 456 to 400 is 56 units, 456 is physically closer to 500. A wrong answer shows a misconception that numbers always round down or that rounding depends on the first digit rather than the relative distance between consecutive multiples of the target place value.",
+     "self_check": true
+    },
+    {
+     "q": "Round the number 7,842 to the nearest 100. Show your place-value identification and result.",
+     "a": "To round 7,842 to the nearest 100: Step 1, identify the hundreds digit, which is 8. Step 2, look at the digit to its immediate right in the tens place, which is 4. Step 3, since 4 is less than 5, keep the hundreds digit 8 unchanged and replace the tens and units digits with zeros. Final answer: 7,800. A wrong answer (such as 7,900) indicates the student looked at the wrong digit or misapplied the less-than-5 rule.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the results of rounding 4,450 to the nearest 10, the nearest 100, and the nearest 1000. Why are the three rounded answers different?",
+     "a": "Rounding 4,450 to the nearest 10 gives 4,450 (already a multiple of 10). To the nearest 100, it gives 4,500 (since the tens digit is 5, we round up). To the nearest 1000, it gives 4,000 (since the hundreds digit is 4, we round down). They differ because each target place value creates a different grid size of measurement, changing the benchmark multiples we measure against. A wrong answer reveals a failure to change the target place value for each distinct operation.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that rounding 3,499 to the nearest 1,000 gives 4,000 because the digit 9 in the hundreds place is big. Evaluate this claim and correct any errors in reasoning.",
+     "a": "The student's claim is incorrect. When rounding to the nearest 1,000, we must look strictly at the digit in the hundreds place, which is 4. Since 4 is less than 5, we round down, keeping the thousands digit as 3 and replacing all subsequent digits with zeros, giving 3,000. The student was misled by seeing a large digit (9) elsewhere in the number rather than looking at the specific test digit in the hundreds place. A wrong answer shows persistent confusion regarding which digit acts as the decider for a given place value.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-digit number that rounds to 5,000 when rounded to the nearest 1,000, but rounds to 4,800 when rounded to the nearest 100. Explain how you constructed it.",
+     "a": "A valid number is 4,785. Construction explanation: To round to 4,800 to the nearest 100, the thousands must be 4 and the hundreds must be 8 (or 7 with a tens digit of 5 or more). Let's check 4,785: rounded to the nearest 100, the tens digit is 8 (>=5), so it rounds up to 4,800. Rounded to the nearest 1,000, the hundreds digit is 7 (>=5), so it rounds up to 5,000. A poor answer fails to satisfy both rounding constraints simultaneously, often missing how tens and hundreds interact across different place value thresholds.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_01_006",
+   "title": "c12_ip_cbse_01_006",
+   "questions": [
+    {
+     "q": "What is the result of `SELECT COUNT(*), COUNT(commission) FROM SALE;` if the SALE table has 6 rows and the commission column has 4 non‑NULL values and 2 NULL values?",
+     "a": "The result is `COUNT(*) = 6` and `COUNT(commission) = 4`. COUNT(*) counts all rows regardless of NULLs, while COUNT(column) counts only non‑NULL values in that column. A wrong answer (e.g., both 6) reveals the student does not understand the difference between COUNT(*) and COUNT(column) regarding NULL handling.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the query `SELECT EmpID, SUM(SalePrice) FROM SALE GROUP BY EmpID;` returns one row per employee, but `SELECT EmpID, SUM(SalePrice) FROM SALE;` without GROUP BY returns an error in standard SQL (or a single row with the total sum in MySQL with ONLY_FULL_GROUP_BY disabled).",
+     "a": "With GROUP BY EmpID, rows are partitioned by employee and the aggregate is computed per partition, so each employee gets a row. Without GROUP BY, the aggregate runs over the whole table producing a single value, but EmpID is not aggregated and not functionally dependent on the grouping set, so standard SQL rejects it. A wrong answer indicates confusion about the granularity change caused by GROUP BY and the requirement that non‑aggregated columns in SELECT must appear in GROUP BY.",
+     "self_check": true
+    },
+    {
+     "q": "Write a query to display each car model (Model column) and the average price of cars of that model from the INVENTORY table, but only for models that have at least 2 cars. Round the average to 2 decimal places.",
+     "a": "```sql\nSELECT Model, ROUND(AVG(Price), 2) AS AvgPrice\nFROM INVENTORY\nGROUP BY Model\nHAVING COUNT(*) >= 2;\n```\nSteps: 1) Group by Model. 2) Compute AVG(Price) per group. 3) Filter groups with HAVING COUNT(*) >= 2. 4) Round the average. A wrong answer (e.g., using WHERE for the count, or missing ROUND) shows inability to combine grouping, aggregation, and post‑aggregation filtering correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the SALE table. A student writes: `SELECT CustID, COUNT(*) FROM SALE WHERE SalePrice > 600000 GROUP BY CustID HAVING COUNT(*) > 1;`. Another student writes the same but moves the condition `SalePrice > 600000` into the HAVING clause. Are the two queries equivalent? Explain.",
+     "a": "They are not equivalent. The first query filters rows before grouping (only sales > 600000 are considered), then groups and keeps groups with more than one such sale. The second query would include all sales in groups, then try to filter groups based on an aggregate of SalePrice (e.g., HAVING SUM(SalePrice) > 600000) – but the condition `SalePrice > 600000` in HAVING is invalid because SalePrice is not aggregated nor in GROUP BY. A wrong answer reveals misunderstanding of the order of execution: WHERE → GROUP BY → HAVING.",
+     "self_check": true
+    },
+    {
+     "q": "A query uses `SELECT COUNT(DISTINCT Model) FROM INVENTORY;`. The table has 8 rows with Model values: LXI, VXI, Sigma1.2, Delta1.2, 5 STR STD, CARE, LXI, VXI. What is the result? If a student answers 8, what misconception does that indicate?",
+     "a": "The result is 6 (distinct models: LXI, VXI, Sigma1.2, Delta1.2, 5 STR STD, CARE). Answering 8 means the student thinks COUNT(DISTINCT Model) counts all rows, ignoring the DISTINCT keyword. This shows confusion between COUNT(*) / COUNT(column) and COUNT(DISTINCT column).",
+     "self_check": true
+    },
+    {
+     "q": "Design a real‑world scenario (different from car showroom) where you would need to use GROUP BY with two grouping columns and two different aggregate functions. Write the SQL query for your scenario.",
+     "a": "Scenario: A school database with a table EXAM(StudentID, Subject, Marks). To get each student's total marks and number of subjects per subject? Actually, better: A library table LOANS(BookID, MemberID, LoanDate, ReturnDate). Query: For each member and each book category (assume Category column), find the number of loans and the average loan duration in days. SQL:\n```sql\nSELECT MemberID, Category, COUNT(*) AS LoanCount, AVG(DATEDIFF(ReturnDate, LoanDate)) AS AvgDuration\nFROM LOANS\nGROUP BY MemberID, Category;\n```\nA poor answer uses only one grouping column or only one aggregate, indicating the student cannot synthesize a multi‑dimensional grouping requirement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

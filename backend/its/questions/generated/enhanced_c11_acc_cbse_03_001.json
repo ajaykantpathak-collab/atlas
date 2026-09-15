@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_03_001",
+   "title": "c11_acc_cbse_03_001",
+   "questions": [
+    {
+     "q": "A student says: \"When my father gives me ₹500 as pocket money, that's a business transaction because money changed hands.\" Is the student correct? Explain why or why not using the definition of a business transaction.",
+     "a": "No, the student is incorrect. A business transaction must involve an exchange between a business entity and another party that changes the financial position of the business. Pocket money is a personal gift within a family — no business entity is involved, no goods/services are exchanged for business purposes, and it doesn't affect a firm's assets, liabilities, or capital. This error reveals the student confuses any money transfer with a business transaction, missing the organizational and economic-exchange criteria.",
+     "self_check": true
+    },
+    {
+     "q": "A shopkeeper sells goods worth ₹2,000 to a customer on credit. No invoice is issued, but the shopkeeper records it in a personal diary from memory. Is the diary entry a valid source document? Why or why not?",
+     "a": "No, the diary entry is not a valid source document. Source documents must be original, objective, verifiable records created at the time of the transaction (e.g., sales invoice, cash memo). A personal diary entry from memory lacks objectivity, is not independently verifiable, and can be altered — violating the evidentiary purpose of source documents. This misconception shows the student thinks any written record qualifies, not understanding the legal and audit requirements of authenticity and contemporaneity.",
+     "self_check": true
+    },
+    {
+     "q": "Identify the source document for each: (a) Business deposits ₹50,000 cash into bank. (b) Business buys furniture on credit from M/s Delhi Furnishers. (c) Business pays ₹15,000 salary via cheque. (d) Business returns defective goods to supplier.",
+     "a": "(a) Pay-in-slip (bank deposit slip) — evidences cash deposited into bank. (b) Purchase invoice (received from supplier) — evidences credit purchase. (c) Cheque counterfoil or bank statement entry — evidences payment by cheque. (d) Debit note (issued by buyer to supplier) — evidences return of goods. If a student confuses (a) with cash memo or (d) with credit note, they misunderstand the direction and purpose of each document — a common error in distinguishing buyer- vs seller-initiated documents.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast a source document and an accounting voucher. Give one example where a voucher is prepared *without* an external source document.",
+     "a": "A source document is the original evidence of a transaction created by the parties involved (e.g., invoice from supplier). An accounting voucher is an internal document prepared by the firm *based on* the source document to authorize and record the entry. Example: Petty cash expenses like auto-rickshaw fare (₹80) where no receipt is given — the firm prepares a petty cash voucher internally, approved by a manager. If a student says \"voucher comes first,\" they reverse the causality: source document → voucher → journal entry.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"A transaction without a source document cannot be recorded in the books of accounts.\" Is it always true? Justify with a Class 11-level example.",
+     "a": "The statement is generally true but has an exception. Normally, no entry without a source document (verifiable evidence). However, for petty expenses (e.g., ₹50 for refreshments) where no external document exists, the firm prepares an *internal voucher* (approved by authority) which then acts as the source document. So the corrected principle: \"Every recorded transaction must be supported by a source document — either external (invoice, cheque) or internal (approved voucher).\" A student who says \"always true\" misses the internal voucher exception; one who says \"never true\" ignores the evidentiary foundation of accounting.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario of a business transaction involving three parties where *two different source documents* are generated for the *same economic event* from different perspectives. Name the documents and explain why both are needed.",
+     "a": "Scenario: M/s Sharma Traders (buyer) orders goods from M/s Gupta Wholesalers (seller). M/s Gupta delivers goods via M/s Speedy Transport (carrier). Two source documents: (1) **Sales Invoice** from M/s Gupta to M/s Sharma — records sale, amount, GST. (2) **Lorry Receipt (LR)** from M/s Speedy Transport to M/s Gupta — evidences dispatch, enables buyer to claim goods. Both are needed: invoice for accounting/tax, LR for logistics/title transfer. A good answer shows understanding that one event (delivery) generates multiple documents for different purposes (legal, accounting, operational). A poor answer gives only one document or confuses perspectives.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_08_011",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_08_011",
+   "title": "c12_cs_cbse_08_011",
+   "questions": [
+    {
+     "q": "**REMEMBER**: State the full form of LIFO and FIFO. Which principle does a stack follow, and which does a queue follow?",
+     "a": "**Answer**: LIFO = Last-In-First-Out (stack); FIFO = First-In-First-Out (queue).  \n**Wrong answer reveals**: If a student swaps them (e.g., says stack is FIFO), they have memorised the acronyms but not the physical analogy (pile vs line). This confusion propagates to every subsequent application question.",
+     "self_check": true
+    },
+    {
+     "q": "**UNDERSTAND**: Explain in your own words why a stack is suitable for evaluating a postfix expression, but a queue is not. Use the concept of “order of operand consumption”.",
+     "a": "**Answer**: In postfix evaluation, when an operator is encountered, the *two most recent operands* must be combined. A stack’s LIFO behaviour gives exactly those two operands (pop twice). A queue would give the *oldest* operands, breaking the expression’s semantics.  \n**Wrong answer reveals**: If the student says “both can work” or focuses only on “stack stores operands”, they miss the critical link between **operator position** and **required operand order**. This is a classic board-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "**APPLY**: A program executes the following sequence on an initially empty stack *S* and queue *Q*:  \n`push(S, 10); enqueue(Q, 20); push(S, 30); enqueue(Q, 40); pop(S); dequeue(Q); push(S, 50); enqueue(Q, 60);`  \nWrite the final contents of *S* (top to bottom) and *Q* (front to rear).",
+     "a": "**Answer**:  \nStack *S* (top→bottom): 50, 10  \nQueue *Q* (front→rear): 40, 60  \n**Steps**:  \n1. push 10 → S=[10]  \n2. enqueue 20 → Q=[20]  \n3. push 30 → S=[30,10]  \n4. enqueue 40 → Q=[20,40]  \n5. pop → removes 30 → S=[10]  \n6. dequeue → removes 20 → Q=[40]  \n7. push 50 → S=[50,10]  \n8. enqueue 60 → Q=[40,60]  \n**Wrong answer reveals**: If the student writes S=[10,50] (bottom-to-top) or Q=[60,40], they confuse the *view direction* (top/front vs bottom/rear). Board marking schemes require the correct orientation.",
+     "self_check": true
+    },
+    {
+     "q": "**ANALYZE**: Compare the **space overhead** of implementing a stack vs a queue using a *singly linked list* with only a *head pointer*. Which requires an extra pointer (tail) for O(1) enqueue, and why?",
+     "a": "**Answer**: A queue implemented with a singly linked list **must maintain a tail pointer** to achieve O(1) enqueue; otherwise enqueue becomes O(n) traversal. A stack needs only a head pointer (top) because both push and pop occur at the head.  \n**Wrong answer reveals**: If the student claims both need only a head pointer, they overlook that queue insertion happens at the *rear*, which is inaccessible from the head in a singly linked list. This is a frequent JEE Main implementation question.",
+     "self_check": true
+    },
+    {
+     "q": "**EVALUATE**: A student claims: “Since both stack and queue can be implemented with arrays, we can always replace a queue with a stack by simply reversing the array indices.” Critique this statement with a concrete counterexample involving a **breadth-first search (BFS)** traversal.",
+     "a": "**Answer**: The statement is **false**. BFS requires FIFO ordering to visit nodes level by level. Reversing array indices turns a queue into a stack (LIFO), which would produce a **depth-first search (DFS)** order, not BFS. For example, on a binary tree with root A, children B,C, and grandchildren D,E,F,G, BFS order is A,B,C,D,E,F,G. Using a stack (even with reversed indices) gives A,C,G,F,B,E,D — a completely different traversal.  \n**Wrong answer reveals**: If the student agrees, they confuse *implementation* (array vs linked list) with *abstract behavior* (FIFO vs LIFO). Competitive exams test this distinction explicitly.",
+     "self_check": true
+    },
+    {
+     "q": "**CREATE**: Design a real-world scenario (Indian context) that **requires both a stack and a queue working together**. Describe the interaction and specify which operation (push/pop/enqueue/dequeue) each structure performs.",
+     "a": "**Expected answer**: Example: **Railway ticket booking system with “undo” and “waitlist”**.  \n- **Queue (waitlist)**: `enqueue` when a new request arrives; `dequeue` when a seat is confirmed.  \n- **Stack (user’s recent actions)**: `push` when user selects a train/date; `pop` when user clicks “Undo” to revert the last selection.  \nThe two structures operate independently but share the same user session.  \n**Poor answer reveals**: If the student gives a scenario that only needs one structure (e.g., only undo → stack), they haven’t grasped *complementary* use cases. Board case-study questions often ask for such combined designs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

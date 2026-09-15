@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_09_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_09_012",
+   "title": "c11_eng_h_cbse_09_012",
+   "questions": [
+    {
+     "q": "What is the difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal comprehension question has an answer directly stated in the text (e.g., \"How many people are in the photograph?\"), while an inferential comprehension question requires the reader to deduce an answer using textual clues and reasoning (e.g., \"Why does the poet say 'the sea holiday was her past, mine is her laughter'?\"). A wrong answer that swaps the definitions shows the student cannot distinguish explicit from implicit information, leading to answers that either over-rely on quotes for inference or miss deeper meaning for literal questions.",
+     "self_check": true
+    },
+    {
+     "q": "In the poem \"A Photograph,\" the line \"The sea holiday was her past, mine is her laughter\" appears. Is the question \"What does the poet mean by 'mine is her laughter'?\" literal or inferential? Explain.",
+     "a": "It is an inferential question because the phrase \"mine is her laughter\" is metaphorical; the poet does not literally possess the laughter but inherits the memory of it. The answer requires interpreting the contrast between the mother's past (the holiday) and the poet's present (the memory of laughter). A student who labels it literal may think the poet physically owns the laughter, missing the metaphorical transfer of memory across generations.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the PEEL structure (Point, Evidence, Explanation, Link) to answer the inferential question: \"Why does the poet describe the photograph as 'a cardboard'?\"",
+     "a": "Point: The word \"cardboard\" emphasizes the photograph's physical fragility and the fragility of memory. Evidence: The poem opens with \"The cardboard shows me how it was...\" Explanation: Cardboard is stiff, ordinary, and deteriorates over time, mirroring how the mother's memory is fading and the past is reduced to a mere object. Link: This connects to the theme of transience and the inadequacy of physical objects to capture living moments. A wrong answer that only quotes the line without explaining the symbolism shows inability to move from evidence to interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the shift in the poem from the first stanza (the photograph scene) to the third stanza (the poet's present). What does this structural shift infer about the poet's state of mind?",
+     "a": "The shift from a lively beach scene to the silent present infers the poet's grief and the finality of death. The first stanza captures a moment of joy frozen in time; the third stanza reveals that both the mother and the cousins are gone, leaving only the poet's silence. The structural movement from past to present, from noise to silence, infers the poet's acceptance of loss and the inability of words to express it. A student who only describes the two scenes without connecting them to the emotional arc misses the analytical depth.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the poet's use of the phrase \"laboured ease of loss\" in conveying the complexity of grief. Is this a literal or inferential evaluation?",
+     "a": "This is an evaluative question that requires inferential reasoning. The phrase \"laboured ease\" is an oxymoron; \"laboured\" suggests the heavy effort of grieving, while \"ease\" suggests the eventual acceptance or the naturalness of loss. The effectiveness lies in capturing the paradox that grief is both a struggle and a surrender. A student who treats this as literal might look for a definition of \"laboured ease\" in the dictionary, missing the poetic compression of contradictory emotions.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own inferential question based on the second stanza of the poem (\"Some twenty-thirty years later...\") and provide a model answer using textual evidence.",
+     "a": "Sample question: \"Why does the mother laugh at the snapshot 'betraying' her past?\" Model answer: The mother laughs because the photograph captures a moment of carefree childhood that contrasts with her later life; the word \"betraying\" suggests the photo reveals a self she has left behind. Evidence: \"She'd laugh at the snapshot. 'See Betty and Dolly,' she'd say, 'and look how they dressed us for the beach.'\" The laughter is nostalgic, tinged with the irony that the past is both preserved and exposed. A poor question would be literal (e.g., \"Who are Betty and Dolly?\") showing inability to generate higher-order questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

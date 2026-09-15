@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch2_12",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch2_12",
+   "title": "c8_math_ch2_12",
+   "questions": [
+    {
+     "q": "State the zero exponent rule for any non-zero base \\(a\\).",
+     "a": "\\(a^0 = 1\\) for \\(a \\neq 0\\). A wrong answer like \\(a^0 = 0\\) reveals the student thinks \"zero exponent means zero\", confusing the exponent with multiplication by zero.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \\(5^0 = 1\\) using the quotient rule for exponents (\\(a^m \\div a^n = a^{m-n}\\)).",
+     "a": "\\(5^0 = 5^{3-3} = 5^3 \\div 5^3 = 125 \\div 125 = 1\\). A wrong answer that says \"because any number to the power zero is 1 by definition\" without using the quotient rule shows lack of understanding of the derivation.",
+     "self_check": true
+    },
+    {
+     "q": "Simplify: \\(\\left(\\frac{3}{4}\\right)^0 + (-7)^0 \\times 2^0\\).",
+     "a": "\\(\\left(\\frac{3}{4}\\right)^0 = 1\\), \\((-7)^0 = 1\\), \\(2^0 = 1\\). So \\(1 + 1 \\times 1 = 1 + 1 = 2\\). A wrong answer might incorrectly compute \\((-7)^0\\) as \\(-1\\) or \\(0\\), revealing sign confusion or the misconception that a negative base yields a negative result.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the expressions: \\((x^2)^0\\) and \\(x^{2 \\times 0}\\). Are they equal for all non-zero \\(x\\)? Justify.",
+     "a": "\\((x^2)^0 = 1\\) (since base \\(x^2 \\neq 0\\)). \\(x^{2 \\times 0} = x^0 = 1\\). They are equal. A wrong answer might say they are different because one is a power of a power and the other is a product, showing misunderstanding of the power-of-a-power rule and zero exponent.",
+     "self_check": true
+    },
+    {
+     "q": "A student simplifies \\((2^3 \\times 2^{-3})\\) as \\(2^0 = 1\\). Is this correct? If yes, explain why the step is valid even though negative exponents are not yet formally introduced.",
+     "a": "Yes, it is correct because \\(2^3 \\times 2^{-3} = 2^{3+(-3)} = 2^0 = 1\\), and also \\(2^3 \\times \\frac{1}{2^3} = 8 \\times \\frac{1}{8} = 1\\). The step uses the product rule extended to negative exponents. A wrong answer might say it's invalid because negative exponents aren't allowed, showing rigidity in applying rules only to familiar cases.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem involving repeated halving (or doubling) where the zero exponent naturally appears as the starting quantity. Write the problem and solve it.",
+     "a": "Example: \"A ball is dropped from a height of 10 metres. Each bounce reaches half the previous height. Write an expression for the height after \\(n\\) bounces. What is the height after 0 bounces?\" Solution: height \\(= 10 \\times \\left(\\frac{1}{2}\\right)^n\\). For \\(n=0\\), height \\(= 10 \\times \\left(\\frac{1}{2}\\right)^0 = 10 \\times 1 = 10\\) metres. A poor answer might not connect zero exponent to the initial condition or might use an incorrect base.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

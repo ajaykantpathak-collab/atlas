@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_05_012",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_05_012",
+   "title": "c11_chem_cbse_05_012",
+   "questions": [
+    {
+     "q": "Define vapour pressure and state the two factors on which it depends at a given temperature.",
+     "a": "Vapour pressure is the pressure exerted by a vapour in thermodynamic equilibrium with its condensed phases (solid or liquid) at a given temperature in a closed system. At a fixed temperature, it depends only on the nature of the liquid (intermolecular forces) and temperature itself. A wrong answer like \"depends on volume of container\" reveals the student confuses vapour pressure with gas pressure in open systems, not understanding dynamic equilibrium in a closed system.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why diethyl ether has a higher vapour pressure than water at 298 K, even though both are liquids at room temperature.",
+     "a": "Diethyl ether has weaker intermolecular forces (dipole-dipole and London forces) compared to water's strong hydrogen bonding. More ether molecules can overcome these weaker forces and escape into the vapour phase at the same temperature, establishing a higher equilibrium vapour pressure. A wrong answer citing molar mass or boiling point without linking to intermolecular forces shows the student memorizes trends but doesn't understand the molecular mechanism connecting forces to escape tendency.",
+     "self_check": true
+    },
+    {
+     "q": "A sealed container contains liquid water at 300 K. The volume of the container is suddenly doubled by moving a piston while keeping temperature constant. What happens to the vapour pressure immediately after expansion and after equilibrium is re-established? Explain.",
+     "a": "Immediately after expansion, vapour pressure drops because the same number of vapour molecules now occupy double the volume (Boyle's law). However, the system is no longer at equilibrium (rate of evaporation > rate of condensation). More liquid evaporates until the original vapour pressure is restored at 300 K. Final vapour pressure equals initial vapour pressure because vapour pressure at constant temperature is independent of volume. A wrong answer stating final pressure remains halved reveals the student treats vapour as an ideal gas without recognizing the liquid reservoir maintains equilibrium pressure.",
+     "self_check": true
+    },
+    {
+     "q": "Plot a qualitative graph of vapour pressure vs temperature for water and ethanol on the same axes. Label the normal boiling points. Explain why the curves are not linear and why they converge at the critical point (conceptually).",
+     "a": "Both curves rise exponentially (non-linear) because the fraction of molecules with energy > intermolecular forces increases exponentially with temperature (Maxwell-Boltzmann distribution). Water's curve lies below ethanol's at all temperatures because water's hydrogen bonding is stronger than ethanol's hydrogen bonding + London forces. Normal boiling points: water at 373 K (1 atm), ethanol at 351 K (1 atm). At the critical temperature, the liquid-vapour distinction disappears and vapour pressure curves end. A wrong linear graph shows the student doesn't connect vapour pressure to the exponential energy distribution of molecules.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"At the normal boiling point of a liquid, its vapour pressure equals 1 bar.\" Is this correct according to current IUPAC standard state definition? Justify.",
+     "a": "The statement is incorrect. Since 1982, IUPAC defines standard pressure as 1 bar (0.987 atm), not 1 atm. Normal boiling point is defined at 1 atm (101.325 kPa), while standard boiling point is at 1 bar (100 kPa). Water's normal boiling point is 373.15 K (1 atm), but its standard boiling point is 372.78 K (1 bar). A student saying \"yes, 1 bar = 1 atm\" reveals outdated knowledge of standard state definitions and confusion between normal vs standard conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate that vapour pressure increases with temperature. List materials, procedure, observation, and the molecular explanation a Class 11 student should give.",
+     "a": "Materials: Two identical syringes (10 mL), hot water bath, cold water bath, small amount of volatile liquid (perfume/acetone/nail polish remover). Procedure: Pull plunger to 5 mL, add 0.5 mL liquid, seal tip, push plunger to 1 mL (trapping liquid + vapour). Place one syringe in hot water, one in cold. Observe plunger movement. Hot syringe plunger moves out more (higher vapour pressure). Molecular explanation: At higher temperature, more molecules have kinetic energy > intermolecular forces, increasing evaporation rate until new equilibrium at higher pressure. A poor answer that just says \"heat expands gas\" misses the phase equilibrium concept and the role of the liquid reservoir.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

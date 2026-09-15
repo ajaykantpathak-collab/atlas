@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch2_1",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch2_1",
+   "title": "c8_math_ch2_1",
+   "questions": [
+    {
+     "q": "If you fold a paper in half 3 times, how many layers of paper will there be?",
+     "a": "8 layers. A wrong answer of 6 reveals the student is adding 2 each time (linear thinking: 2, 4, 6) instead of multiplying by 2 (2, 4, 8). A wrong answer of 9 suggests they might be squaring the fold number (3²) instead of doubling repeatedly.",
+     "self_check": true
+    },
+    {
+     "q": "Riya says: \"After 5 folds, the paper will have 10 layers because each fold adds 2 layers.\" Is Riya correct? Explain why or why not using the folding process.",
+     "a": "Riya is incorrect. The first fold gives 2 layers. The second fold doubles it to 4 (not 2+2=4 by coincidence). The third fold doubles 4 to 8, not 6. Each fold doubles the existing layers, so after 5 folds it's 2×2×2×2×2 = 32 layers. A student who agrees with Riya is applying additive reasoning (constant difference) instead of multiplicative reasoning (constant ratio).",
+     "self_check": true
+    },
+    {
+     "q": "A piece of paper is folded in half repeatedly. After 4 folds there are 16 layers. How many layers will there be after 6 folds? Show your steps.",
+     "a": "After 4 folds: 16 layers. 5th fold: 16 × 2 = 32 layers. 6th fold: 32 × 2 = 64 layers. Answer: 64 layers. A wrong answer of 20 (adding 4) or 24 (adding 8) shows the student is not carrying forward the multiplicative pattern. A wrong answer of 256 (squaring 16) shows confusion between repeated multiplication and exponentiation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the doubling pattern from paper folding (2, 4, 8, 16, 32…) with the pattern of adding 2 each time (2, 4, 6, 8, 10…). After 10 steps, which pattern gives a larger number and by approximately how many times larger?",
+     "a": "Doubling pattern after 10 folds: 2^10 = 1024. Adding-2 pattern after 10 steps: 2 + 2×9 = 20. The doubling pattern is 1024/20 ≈ 51 times larger. A student who says \"about 10 times larger\" or \"only a little larger\" has not grasped the explosive nature of multiplicative growth compared to linear growth.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If I fold a paper 7 times, I get 128 layers. If I fold it 8 times, I get 256 layers. The difference between 7 and 8 folds is 128 layers, which is exactly the number of layers at 7 folds. This pattern of differences will continue forever.\" Evaluate this claim.",
+     "a": "The claim is correct and insightful. In a doubling pattern, the difference between consecutive terms equals the previous term (because 2^(n+1) - 2^n = 2^n). This property holds for all n. A student who says \"it won't continue forever because paper can't be folded that many times\" is confusing the physical limitation with the mathematical pattern. A student who says the difference stays constant (128) is still thinking linearly.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world situation (other than paper folding) that follows the same doubling pattern. Describe the situation and write the first 5 terms of the sequence.",
+     "a": "Example: A single bacterium divides into two every 20 minutes. Starting with 1 bacterium, the population after each 20-minute interval: 1, 2, 4, 8, 16. A good answer identifies a process where each step multiplies the quantity by 2. A poor answer gives an additive situation (e.g., \"saving ₹2 every day\") or a multiplicative situation with a different factor (e.g., tripling).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

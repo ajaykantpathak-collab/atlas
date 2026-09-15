@@ -1,0 +1,128 @@
+{
+ "class": 11,
+ "subject": "geography",
+ "chapter": 105,
+ "chapter_title": "Natural Vegetation",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kegy105.txt",
+ "concepts": [
+  {
+   "id": "kegy.105.1.1",
+   "title": "Types of Forests in India",
+   "section": "Natural vegetation",
+   "definition": "India's natural vegetation ranges from tropical evergreen and semi-evergreen forests in heavy rainfall areas, tropical deciduous or monsoon forests of moist and dry types, tropical thorn forests of arid zones, montane forests by altitude, to littoral and swamp forests of mangroves in deltas.",
+   "formula": "",
+   "key_idea": "Tropical deciduous forests are the most widespread, shedding leaves in the dry season, while evergreen forests show multi-storeyed diversity above 200 cm rainfall.",
+   "textbook_ref": "kegy105.txt types of forests section",
+   "question_patterns": [
+    "classify the forest types of india with rainfall zones",
+    "differentiate moist and moist dry deciduous forests",
+    "describe montane forests by altitude",
+    "what are mangrove or littoral forests and where do they grow",
+    "name the trees of tropical evergreen forests",
+    "where are thorn forests found and what trees grow there"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.105.2.1",
+   "title": "Forest Conservation and Social Forestry",
+   "section": "Forest conservation",
+   "definition": "Forest conservation rests on joint forest management with local communities, social forestry of farm and avenue planting, protection of biodiversity through national parks and sanctuaries, and wildlife protection laws against depletion of forest cover.",
+   "formula": "",
+   "key_idea": "The Forest Conservation policy and joint forest management involve villagers in protecting degraded forests, sharing benefits of regeneration.",
+   "textbook_ref": "kegy105.txt conservation section",
+   "question_patterns": [
+    "explain joint forest management and its benefits",
+    "define social forestry and its components",
+    "how do national parks and sanctuaries protect wildlife",
+    "state the causes of depletion of forest resources",
+    "what measures conserve natural vegetation",
+    "describe the wildlife protection policy of india"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.105.3.1",
+   "title": "Forest Cover, Uses and Biodiversity Value",
+   "section": "Natural vegetation",
+   "definition": "Forests cover about a fifth of India's area, providing timber, fuel, fodder, bamboo, medicinal plants and habitat for biodiversity, and the National Forest Policy aims at one third of the land under forest to maintain ecological balance.",
+   "formula": "",
+   "key_idea": "Forests regulate climate, hold soils against erosion and recharge water, so their conservation serves both economic use and ecological stability.",
+   "textbook_ref": "kegy105.txt forest uses and policy sections",
+   "question_patterns": [
+    "what does the national forest policy aim at",
+    "state the direct and indirect uses of forests",
+    "how do forests prevent soil erosion and floods",
+    "why are forests called biodiversity hotspots",
+    "compare reserved protected and unclassed forests",
+    "how does deforestation affect the environment"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kegy105.txt exercises",
+   "questions": [
+    "Choose the right answer about forest types.",
+    "Explain the types of natural vegetation of India.",
+    "What is social forestry? State its objectives.",
+    "Describe the features of tropical deciduous forests.",
+    "Why are mangroves important for the coast?"
+   ]
+  }
+ ]
+}

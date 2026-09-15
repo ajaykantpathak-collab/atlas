@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_11_011",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_11_011",
+   "title": "c12_eng_k_cbse_11_011",
+   "questions": [
+    {
+     "q": "Identify the rhyme scheme of the first stanza of \"The Wild Swans at Coole\" as represented in the NCERT text (A, B, C, B, D, E) and state the grammatical function of the inversion in the opening line \"The trees are in their autumn beauty.\"",
+     "a": "The rhyme scheme is ABCBDE (beauty/A, dry/B, water/C, sky/B, stones/D, swans/E). The inversion in \"The trees are in their autumn beauty\" (standard order: \"The trees in their autumn beauty are\") front-loads the subject \"The trees\" and delays the verb \"are,\" creating a static, tableau-like opening that mirrors the stillness of the scene. A wrong answer (e.g., claiming the rhyme scheme is AABBCC or missing the inversion) reveals the student cannot map sound patterns or recognize syntactic deviation from standard prose word order.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Yeats shifts from present perfect tense (\"The nineteenth autumn has come upon me / Since I first made my count\") to simple past (\"I saw, before I had well finished, / All suddenly mount\") in stanza 2, and what this shift suggests about the speaker's relationship to time.",
+     "a": "The present perfect (\"has come\") frames the nineteen autumns as a continuous duration stretching from the past into the present moment of speaking, emphasizing the weight of accumulated years. The sudden shift to simple past (\"saw,\" \"mount\") isolates a single, vivid memory — the moment the swans took flight — as a completed event distinct from the ongoing flow of time. This grammatical contrast enacts the poem's theme: the speaker ages continuously (perfect aspect), while the swans' actions remain perpetually present and repeatable. A wrong answer that treats the shift as random or merely narrative exposes a misunderstanding of how aspect (perfect vs. simple) encodes temporal perspective.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following prose sentence using poetic inversion and a compound adjective in the style of Yeats: \"The loud sound of their wings beat like a bell above my head as I walked with a lighter step.\" Then label the two grammatical changes you made.",
+     "a": "\"Bell-beat of their wings above my head, / Trod with a lighter tread.\" Changes: (1) Inversion — the prepositional phrase \"Above my head\" and the subject \"The bell-beat of their wings\" are fronted before the verb (implied \"sounded\" or \"rang\"), delaying the verb for rhythmic emphasis. (2) Compound adjective formation — \"bell-beat\" (noun + verb participle) replaces the clause \"The loud sound of their wings beat like a bell,\" compressing a simile into a single hyphenated modifier. A student who merely rearranges words without creating a compound or who keeps the full clause misses the compression characteristic of Yeats's late style.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the use of simple present tense in stanza 3 (\"Unwearied still, lover by lover, / They paddle in the cold / Companionable streams or climb the air\") with the simple present in stanza 5 (\"But now they drift on the still water, / Mysterious, beautiful\"). How does the same grammatical tense create different effects in the two stanzas?",
+     "a": "In stanza 3, the simple present (\"paddle,\" \"climb\") denotes habitual, timeless action — the swans' eternal, unchanging routine across years, reinforced by \"Unwearied still\" and \"lover by lover.\" In stanza 5, the same tense (\"drift\") captures a single, static moment suspended in the present, heightened by the adjectives \"Mysterious, beautiful\" which function as nominative absolutes. The first usage suggests iteration and endurance; the second suggests a tableau, a freeze-frame. The grammatical form is identical, but the aspectual nuance shifts from iterative to stative through lexical context. A wrong answer that treats both as identical \"present tense\" fails to see how aspect interacts with lexical aspect (Aktionsart) to produce meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Yeats's use of archaic forms like 'trod,' 'unwearied,' and 'attend upon' alienates the modern reader and weakens the poem's emotional impact.\" Support your judgment with two specific grammatical observations from the text.",
+     "a": "The claim is invalid. First, \"trod\" (past tense of \"tread\") is not merely archaic; it is the only form that maintains the poem's rhyme (trod/tread) and meter (monosyllabic, stressed), and its irregularity mirrors the speaker's \"lighter tread\" — a physical lightness contrasting with his \"sore heart.\" Second, \"attend upon\" (phrasal verb with \"upon\") carries a nuance of devoted service that \"attend\" alone lacks; it elevates the swans' passion/conquest to a ritual, reinforcing the theme of eternal, almost sacred vitality. These forms are not decorative; they are structurally and semantically necessary. A student who agrees with the claim confuses register with archaism and misses how grammatical form enacts content.",
+     "self_check": true
+    },
+    {
+     "q": "Write a four-line stanza (any rhyme scheme) about a natural scene observed over years, using at least three of these grammatical features: (a) present perfect tense for accumulated time, (b) inversion of standard SVO order, (c) a hyphenated compound adjective, (d) an elliptical clause (omitted subject/auxiliary). Label each feature in your stanza.",
+     "a": "Example: \"Ten monsoons have washed the stone steps clean (a) / Moss-green the courtyard lies in morning light (b) / Silent-footed, the heron waits, unmoved (c) / Counted each ripple, remembered each flight (d).\" Feature (a) present perfect \"have washed\"; (b) inversion \"Moss-green the courtyard lies\" (OSV); (c) compound adjective \"Silent-footed\"; (d) elliptical clause \"[I have] Counted each ripple\" (subject + auxiliary omitted). A poor answer uses the features mechanically without integrating them into a coherent scene, revealing a lack of synthesis between grammatical knowledge and poetic craft.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

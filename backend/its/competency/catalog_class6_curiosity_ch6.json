@@ -1,0 +1,491 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 6,
+ "chapter_title": "Materials Around Us",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fecu106.txt",
+ "concepts": [
+  {
+   "id": "c6cu.6.1",
+   "title": "Classification of Materials - Solids, Liquids, Gases",
+   "section": "6.1 STATES OF MATTER",
+   "definition": "Materials are classified as solids, liquids, or gases based on their shape, volume, and how tightly their particles are packed.",
+   "formula": "",
+   "key_idea": "Solids have a fixed shape and volume, liquids have a fixed volume but take the shape of the container, and gases have neither a fixed shape nor a fixed volume.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "how are materials classified into solids liquids and gases",
+    "what is the difference between a solid and a liquid",
+    "which state of matter has a fixed shape and fixed volume",
+    "why do gases have no fixed shape or volume",
+    "give two examples each of solids liquids and gases"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Observe the shape of the material",
+     "explain": "Check whether the material keeps its own shape (solid), takes the shape of the container (liquid), or fills the whole container (gas)."
+    },
+    {
+     "step": 2,
+     "action": "Observe the volume of the material",
+     "explain": "Check whether the material has a fixed volume (solid and liquid) or expands to fill any container (gas)."
+    },
+    {
+     "step": 3,
+     "action": "Classify the material as solid, liquid, or gas",
+     "explain": "Fixed shape and volume -> solid; fixed volume but changing shape -> liquid; no fixed shape or volume -> gas."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Classify a stone, water, and air as solid, liquid, or gas.",
+     "solution": "A stone has a fixed shape and volume, so it is a solid. Water has a fixed volume but takes the shape of its container, so it is a liquid. Air has no fixed shape or volume and fills any container, so it is a gas.",
+     "answer": "Stone - solid; Water - liquid; Air - gas.",
+     "_n": 1
+    },
+    {
+     "question": "Why does a gas have neither a fixed shape nor a fixed volume?",
+     "solution": "The particles of a gas are far apart and move freely, so a gas spreads to fill the shape and volume of any container it is placed in.",
+     "answer": "Because gas particles are far apart and move freely, filling any container.",
+     "_n": 2
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State two differences between solids and liquids.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example each of a solid, a liquid, and a gas found at home.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.6.2",
+   "title": "Properties of Materials - Hardness",
+   "section": "6.2 PROPERTIES OF MATERIALS",
+   "definition": "Hardness is the property of a material that describes how difficult it is to scratch, dent, or compress it.",
+   "formula": "",
+   "key_idea": "Hard materials like iron and diamond resist scratching, while soft materials like sponge and chalk are easily scratched or compressed.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is hardness of a material",
+    "which material is harder iron or sponge",
+    "how do we compare the hardness of two materials",
+    "give two examples of hard and soft materials",
+    "why is a diamond called a hard material"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Select two materials to compare",
+     "explain": "Choose the materials whose hardness you wish to compare, such as iron and sponge."
+    },
+    {
+     "step": 2,
+     "action": "Test resistance to scratching or compression",
+     "explain": "Try to scratch or press each material; the one that resists scratching and compression is harder, and the one that is easily marked is softer."
+    },
+    {
+     "step": 3,
+     "action": "Classify as hard or soft",
+     "explain": "Rank the materials by hardness: hard materials resist scratching (e.g., iron, diamond), while soft materials are easily scratched or compressed (e.g., sponge, chalk)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which is harder -- iron or sponge -- and why?",
+     "solution": "Iron resists scratching and compression, so it is hard. Sponge is easily compressed, so it is soft. Therefore iron is harder than sponge.",
+     "answer": "Iron is harder than sponge."
+    },
+    {
+     "question": "Why is diamond called the hardest natural material?",
+     "solution": "Diamond cannot be scratched by any other natural material, which is why it is called the hardest natural material.",
+     "answer": "Diamond resists scratching by all other natural materials."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define hardness and give one example each of a hard and a soft material.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain how you would test which of two materials is harder.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.6.3",
+   "title": "Properties of Materials - Transparency",
+   "section": "6.2 PROPERTIES OF MATERIALS",
+   "definition": "Transparency is the property of a material that describes how much light can pass through it; materials are classified as transparent, translucent, or opaque.",
+   "formula": "",
+   "key_idea": "Transparent materials allow light to pass through clearly, translucent materials allow partial passage of light, and opaque materials do not allow any light to pass through.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is transparency of a material",
+    "what is the difference between transparent and opaque",
+    "give examples of transparent translucent and opaque materials",
+    "is a glass window transparent or opaque",
+    "classify paper glass and wood by transparency"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Place the material between a light source and the eye",
+     "explain": "Hold the material in front of a light source and observe how much light passes through it."
+    },
+    {
+     "step": 2,
+     "action": "Observe how clearly objects can be seen through it",
+     "explain": "If objects are seen clearly, the material is transparent; if seen dimly, it is translucent; if nothing is seen, it is opaque."
+    },
+    {
+     "step": 3,
+     "action": "Classify as transparent, translucent, or opaque",
+     "explain": "Glass is transparent, butter paper is translucent, and wood or metal is opaque, based on how much light passes through."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Classify glass, butter paper, and wood as transparent, translucent, or opaque.",
+     "solution": "Glass allows light to pass through clearly, so it is transparent. Butter paper allows partial light, so it is translucent. Wood does not allow any light, so it is opaque.",
+     "answer": "Glass - transparent; Butter paper - translucent; Wood - opaque."
+    },
+    {
+     "question": "Why can we see through a glass window but not through a wooden door?",
+     "solution": "Glass is transparent and allows light to pass through so objects behind it are visible. Wood is opaque and blocks light completely, so nothing can be seen through it.",
+     "answer": "Glass is transparent; wood is opaque."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define transparent, translucent, and opaque materials with one example each.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Classify the following as transparent, translucent, or opaque: clear plastic, oiled paper, cardboard.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.6.4",
+   "title": "Properties of Materials - Solubility",
+   "section": "6.2 PROPERTIES OF MATERIALS",
+   "definition": "Solubility is the property that describes whether a material dissolves in a liquid (solvent) to form a uniform mixture called a solution.",
+   "formula": "",
+   "key_idea": "Soluble substances like salt and sugar dissolve in water, while insoluble substances like sand and chalk powder do not; some liquids like oil are immiscible with water.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is solubility",
+    "which substances are soluble in water",
+    "is salt soluble or insoluble in water",
+    "why does oil not dissolve in water",
+    "give two examples of soluble and insoluble substances"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add the material to a solvent such as water",
+     "explain": "Place the material in a container of water and stir it to check whether it dissolves."
+    },
+    {
+     "step": 2,
+     "action": "Observe whether the material dissolves",
+     "explain": "If the material disappears and forms a uniform mixture, it is soluble; if it remains visible or settles, it is insoluble."
+    },
+    {
+     "step": 3,
+     "action": "Classify as soluble or insoluble",
+     "explain": "Salt and sugar are soluble in water, while sand, chalk powder, and oil are insoluble, based on whether they dissolve."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Is salt soluble or insoluble in water?",
+     "solution": "When salt is added to water and stirred, it dissolves completely to form a uniform salt solution, so salt is soluble in water.",
+     "answer": "Salt is soluble in water."
+    },
+    {
+     "question": "Why does oil form a separate layer when mixed with water?",
+     "solution": "Oil is insoluble in water and does not mix with it, so it forms a separate layer on top of the water.",
+     "answer": "Oil is insoluble in water and forms a separate layer."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define solubility and give two examples each of soluble and insoluble substances in water.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain why sand is called insoluble in water.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.6.6",
+   "title": "Metals and Non-Metals",
+   "section": "6.4 METALS AND NON-METALS",
+   "definition": "Metals are materials that are typically hard, lustrous, malleable, ductile, and good conductors of heat and electricity; non-metals lack these properties.",
+   "formula": "",
+   "key_idea": "Metals like iron, copper, and aluminium are shiny and conduct heat and electricity, while non-metals like sulphur, carbon, and oxygen are dull and are poor conductors.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what are metals and non-metals",
+    "give two properties of metals",
+    "is iron a metal or non-metal",
+    "what is lustre in metals",
+    "how are metals different from non-metals"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Observe the appearance of the material",
+     "explain": "Check whether the material is shiny (lustrous), which is a property of metals, or dull, which is typical of non-metals."
+    },
+    {
+     "step": 2,
+     "action": "Test for hardness, malleability, and conduction",
+     "explain": "Metals are generally hard, can be beaten into sheets (malleable), drawn into wires (ductile), and conduct heat and electricity; non-metals are usually soft and poor conductors."
+    },
+    {
+     "step": 3,
+     "action": "Classify as metal or non-metal",
+     "explain": "If the material is lustrous, hard, malleable, ductile, and a good conductor, it is a metal (e.g., iron, copper); otherwise it is a non-metal (e.g., sulphur, carbon)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "List three properties that distinguish metals from non-metals.",
+     "solution": "Metals are lustrous (shiny), malleable and ductile, and good conductors of heat and electricity. Non-metals are usually dull, brittle, and poor conductors.",
+     "answer": "Metals are lustrous, malleable/ductile, and good conductors; non-metals are dull, brittle, and poor conductors."
+    },
+    {
+     "question": "Is copper a metal or a non-metal? Give a reason.",
+     "solution": "Copper is shiny, can be drawn into wires, and conducts electricity well, so it is a metal.",
+     "answer": "Copper is a metal because it is lustrous, ductile, and a good conductor."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State any three properties of metals with examples.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Classify the following as metal or non-metal: aluminium, sulphur, gold, carbon.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.6.7",
+   "title": "Natural and Synthetic Materials",
+   "section": "6.5 NATURAL AND SYNTHETIC MATERIALS",
+   "definition": "Natural materials are obtained directly from nature (plants, animals, or the earth), while synthetic materials are made by humans through chemical processes.",
+   "formula": "",
+   "key_idea": "Wood, cotton, and leather are natural, whereas plastics, nylon, and synthetic fibres are man-made (synthetic).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what are natural and synthetic materials",
+    "is cotton natural or synthetic",
+    "give two examples of synthetic materials",
+    "how is plastic different from wood",
+    "why are synthetic materials called man-made"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the source of the material",
+     "explain": "Determine whether the material comes directly from nature (plants, animals, earth) or is produced in a factory through chemical processes."
+    },
+    {
+     "step": 2,
+     "action": "Check whether the material has been chemically manufactured",
+     "explain": "If the material is created by humans using chemicals, it is synthetic; if it is obtained in a ready form from nature, it is natural."
+    },
+    {
+     "step": 3,
+     "action": "Classify as natural or synthetic",
+     "explain": "Wood, cotton, and leather are natural materials, while plastic, nylon, and polyester are synthetic materials."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Classify cotton and nylon as natural or synthetic.",
+     "solution": "Cotton is obtained from plants, so it is natural. Nylon is made by humans through chemical processes, so it is synthetic.",
+     "answer": "Cotton - natural; Nylon - synthetic."
+    },
+    {
+     "question": "Why is plastic called a synthetic material?",
+     "solution": "Plastic is produced in factories by chemical processing of petroleum and does not occur naturally, so it is called a synthetic (man-made) material.",
+     "answer": "Plastic is man-made, produced by chemical processes, so it is synthetic."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define natural and synthetic materials with one example each.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Classify the following as natural or synthetic: wood, polyester, leather, plastic.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.6.8",
+   "title": "Uses of Materials Based on Properties",
+   "section": "6.6 USES OF MATERIALS",
+   "definition": "Materials are chosen for specific uses based on their properties such as hardness, transparency, conductivity, solubility, and lustre.",
+   "formula": "",
+   "key_idea": "The property of a material decides its use -- metals are used for wires because they conduct electricity, glass for windows because it is transparent, and plastics for handles because they are insulators.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "why are metals used to make electric wires",
+    "why is glass used to make windows",
+    "why are cooking utensils made of metals",
+    "how does the property of a material decide its use",
+    "why are plastic handles used on cooking pans"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the required property for the use",
+     "explain": "Determine what property the object needs, such as conductivity for wires or transparency for windows."
+    },
+    {
+     "step": 2,
+     "action": "Match the property to a suitable material",
+     "explain": "Select a material that has the required property, e.g., metals for conduction, glass for transparency, plastic for insulation."
+    },
+    {
+     "step": 3,
+     "action": "Justify the choice of material",
+     "explain": "Explain that the material is chosen because its property matches the need, such as copper for wires because it conducts electricity well."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why are electric wires made of copper?",
+     "solution": "Copper is a metal and a good conductor of electricity, so it allows electric current to flow easily, which is why it is used for wires.",
+     "answer": "Copper is used because it is a good conductor of electricity."
+    },
+    {
+     "question": "Why is glass used to make windows?",
+     "solution": "Glass is transparent, allowing light to pass through, so it is used for windows to let in light while keeping out wind and rain.",
+     "answer": "Glass is transparent, so it lets light pass through."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain with two examples how the property of a material decides its use.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why are the handles of cooking pans made of plastic and not metal?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.6.9",
+   "title": "Mixtures and Pure Substances",
+   "section": "6.7 MIXTURES AND PURE SUBSTANCES",
+   "definition": "A pure substance is made of only one kind of material, while a mixture contains two or more substances that are not chemically combined and can be separated by physical methods.",
+   "formula": "",
+   "key_idea": "Pure substances like distilled water and sugar have fixed composition, while mixtures like salt water and air contain more than one substance mixed together.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is the difference between a mixture and a pure substance",
+    "is salt water a mixture or pure substance",
+    "give two examples of mixtures",
+    "what is a pure substance",
+    "can the components of a mixture be separated"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine the composition of the material",
+     "explain": "Check whether the material is made of only one kind of substance or contains more than one substance."
+    },
+    {
+     "step": 2,
+     "action": "Determine whether the components are chemically combined",
+     "explain": "In a pure substance the components are not separable by physical means, while in a mixture the components are only physically mixed and can be separated."
+    },
+    {
+     "step": 3,
+     "action": "Classify as pure substance or mixture",
+     "explain": "If the material has a fixed composition of one substance, it is pure (e.g., distilled water, sugar); if it contains two or more physically mixed substances, it is a mixture (e.g., salt water, air)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Is salt water a pure substance or a mixture? Explain.",
+     "solution": "Salt water contains two substances -- salt and water -- that are physically mixed and can be separated by evaporation, so it is a mixture.",
+     "answer": "Salt water is a mixture because it contains salt and water that can be separated physically."
+    },
+    {
+     "question": "Give one example each of a pure substance and a mixture.",
+     "solution": "Distilled water is a pure substance because it contains only water. Air is a mixture because it contains several gases such as nitrogen, oxygen, and carbon dioxide.",
+     "answer": "Pure substance - distilled water; Mixture - air."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between a pure substance and a mixture with one example each.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Classify the following as pure substance or mixture: sugar, lemonade, distilled water, soil.",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "fecu106.txt",
+   "concept": "c6cu.6.1",
+   "question_type": "short_answer",
+   "question_pattern": "Classify a stone, water, and air as solid, liquid, or gas.",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "A stone has a fixed",
+     "explain": "A stone has a fixed shape and volume, so it is a solid. Water has a fixed volume but takes the shape of its container, so it is a liquid. Air has no fixed shape or volume and fills any container, so it is a gas."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "fecu106.txt",
+   "concept": "c6cu.6.1",
+   "question_type": "short_answer",
+   "question_pattern": "Why does a gas have neither a fixed shape nor a fixed volume?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "The particles of a gas",
+     "explain": "The particles of a gas are far apart and move freely, so a gas spreads to fill the shape and volume of any container it is placed in."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

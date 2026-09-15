@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch7_10",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch7_10",
+   "title": "c8_physics_ch7_10",
+   "questions": [
+    {
+     "q": "What is the essential alignment of the Sun, Moon, and Earth required for a solar eclipse to occur, and during which Moon phase does this alignment happen?",
+     "a": "The Sun, Moon, and Earth must be nearly in a straight line with the Moon in the middle. This occurs only during the New Moon phase. A wrong answer (e.g., \"Full Moon\" or \"Earth in the middle\") reveals the student confuses solar eclipses with lunar eclipses (c8_physics_ch7_9) or does not understand the geometry of shadow casting (c6_physics_ch11_038).",
+     "self_check": true
+    },
+    {
+     "q": "The Sun is about 400 times larger in diameter than the Moon, yet they appear almost the same size in the sky. Explain why this coincidence is crucial for the occurrence of total solar eclipses.",
+     "a": "Because the Sun is ~400 times farther away than the Moon, their angular diameters are nearly equal (~0.5°). This allows the Moon to just barely cover the Sun's disk completely, creating a brief totality. If the Moon appeared significantly smaller, only annular eclipses would occur; if larger, the corona would be hidden. A wrong answer (e.g., \"The Moon is actually bigger than the Sun\") reveals a lack of understanding of angular size versus physical size, a concept built on rectilinear propagation of light (c6_physics_ch11_036).",
+     "self_check": true
+    },
+    {
+     "q": "During a solar eclipse, an observer in City A sees a total eclipse, while an observer in City B, 500 km away, sees only a partial eclipse. Using the terms umbra and penumbra, explain why the two observers see different types of eclipses.",
+     "a": "City A lies within the Moon's umbra (the dark, central shadow cone where the Sun is completely blocked), while City B lies within the penumbra (the outer, lighter shadow where only part of the Sun is blocked). The umbra's diameter on Earth is at most ~270 km, so a small shift in location changes the eclipse type. A wrong answer (e.g., \"City B has clouds\") reveals the student does not grasp that the shadow is a 3D cone intersecting Earth's surface, not a uniform darkness.",
+     "self_check": true
+    },
+    {
+     "q": "The Moon's orbit is tilted about 5° relative to Earth's orbit around the Sun. Analyze why this tilt prevents a solar eclipse from occurring every New Moon. Include a description of the \"line of nodes\" in your reasoning.",
+     "a": "During most New Moons, the Moon passes above or below the Sun-Earth line because its orbital plane is tilted. The line of nodes is the intersection of the Moon's orbital plane with the ecliptic (Earth's orbital plane). A solar eclipse only occurs when the New Moon happens near a node (within about 18.5°), so the Moon's shadow falls on Earth. A wrong answer (e.g., \"The Moon is too far away\") reveals the student thinks distance is the only factor, missing the 3D geometry of orbital planes introduced in Class 7 (c7_physics_ch06_006).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"An annular solar eclipse is just a partial eclipse that lasts longer.\" Evaluate this statement. Is it correct? Justify your answer using the geometry of the umbra and the Moon's distance from Earth.",
+     "a": "The statement is incorrect. An annular eclipse occurs when the Moon is near apogee (farthest from Earth), so its angular diameter is smaller than the Sun's. The Moon's umbra does not reach Earth's surface; observers see the Sun as a bright ring (annulus) around the Moon. A partial eclipse occurs when the observer is in the penumbra, outside the umbra/antumbra path. An annular eclipse is a central eclipse (Moon centered on Sun), not a partial one. A wrong evaluation reveals confusion between the antumbra (annular) and penumbra (partial) regions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration using a torch (representing the Sun), a small ball (Moon), and a large ball (Earth) to show why the Moon's shadow on Earth is small and why totality lasts only a few minutes. List the materials, setup steps, and the key observation students should make.",
+     "a": "Materials: Torch (preferably with a single LED or small bulb), a 2 cm ball (Moon), a 20 cm ball (Earth), a dark room. Setup: Place torch and Earth ball 5 m apart. Hold Moon ball close to Earth ball (~10 cm) and move it slowly across the light beam. Observation: The Moon's shadow on Earth is a tiny dark spot (umbra) moving rapidly; totality at a fixed point on Earth lasts only seconds. A poor design (e.g., using a large diffuse light source) fails to produce a clear umbra, missing the point that the Sun's angular size creates the umbra-penumbra structure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

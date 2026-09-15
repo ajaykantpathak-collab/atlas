@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_07_001",
+   "title": "c12_ip_cbse_07_001",
+   "questions": [
+    {
+     "q": "Define cyber safety in one sentence focusing on the individual perspective, and name two distinct categories of personal digital assets it protects.",
+     "a": "Cyber safety is the practice of protecting an individual's digital identity, data, devices, and online accounts from unauthorized access, theft, or misuse while using internet-connected technologies. Two asset categories: (1) personally identifiable information (Aadhaar, PAN, biometrics, photos) and (2) financial credentials (bank login, UPI PIN, card details, OTPs). A wrong answer that only mentions \"computers\" or \"viruses\" reveals the student equates cyber safety with device-level antivirus only, missing the human-centric focus on identity, privacy, and financial assets — a critical gap for board exam case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 12 student says: \"I don't need cyber safety because I don't have money in my bank account and I don't post anything secret.\" Explain why this reasoning is flawed, using at least three distinct risk categories that apply to teenagers.",
+     "a": "The reasoning is flawed because cyber safety risks extend far beyond direct financial loss. Three categories affecting teenagers: (1) Identity theft — attackers use stolen Aadhaar/PAN/school ID to open fraudulent loan accounts or SIM cards in the student's name, damaging credit history before adulthood. (2) Device compromise — malware can turn the student's phone into a botnet for DDoS attacks or crypto-mining, slowing device, draining battery, and implicating the student legally. (3) Privacy exploitation — private chats, photos, or location history can be harvested for cyberbullying, sextortion, or targeted scams against family. A wrong answer focusing only on \"money\" shows the student hasn't internalized the non-financial, long-term consequences emphasized in CBSE competency questions.",
+     "self_check": true
+    },
+    {
+     "q": "You receive an email claiming to be from CBSE with subject \"Urgent: Class 12 Admit Card Correction Required\" — it asks you to download an attached PDF and fill in your Aadhaar, parent's PAN, and school login credentials. Apply the cyber safety decision framework to list the exact steps you would take before interacting with this email.",
+     "a": "Step 1: Verify sender — check email domain (official CBSE uses @cbse.gov.in, not @gmail.com or @cbse-exam.in). Step 2: Check for urgency pressure — legitimate boards never demand immediate credential submission via email attachment. Step 3: Inspect attachment — do NOT open; PDFs can embed malware (Class 11: c11_ip_cbse_08_008). Step 4: Cross-verify — visit cbse.gov.in directly or contact school; CBSE communicates admit card issues through school or official portal, not email attachments. Step 5: Report — forward to school IT admin and report at cybercrime.gov.in. A wrong answer that suggests \"scan with antivirus then open\" reveals the student relies on reactive tools instead of proactive verification — a trap in JEE-style scenario questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cyber safety risks for an individual using public Wi-Fi at a café versus home Wi-Fi with a weak password. Analyze which scenario poses a greater threat for (a) credential sniffing, (b) device compromise, and (c) legal liability, justifying each.",
+     "a": "(a) Credential sniffing: Public Wi-Fi > Home weak password. Public networks lack encryption; attackers use packet sniffers (Wireshark) to capture unencrypted HTTP/POP3/SMTP traffic. Home weak password only risks neighbors connecting, but traffic stays within encrypted WPA2/WPA3 tunnel once connected. (b) Device compromise: Public Wi-Fi > Home weak password. Public networks enable man-in-the-middle (MITM) attacks, rogue access points (evil twin), and drive-by downloads. Home weak password mainly risks bandwidth theft; device compromise requires additional exploitation. (c) Legal liability: Home weak password > Public Wi-Fi. If home Wi-Fi is used for illegal activity (downloading pirated content, cybercrime), the subscriber (student's parent) is legally accountable under IT Act Section 79. Public Wi-Fi liability falls on the café owner. A wrong answer that rates them equal shows inability to analyze threat vectors contextually — a key skill for CUET case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Cyber safety is primarily the responsibility of the government and tech companies; individuals cannot do much against sophisticated attacks.\" Defend or refute with three specific individual actions that mitigate advanced threats, referencing Indian legal provisions.",
+     "a": "Refute. While governments (CERT-In, IT Act 2000/2008 amendments) and platforms (Google Safe Browsing, Meta security) provide infrastructure, individual agency is the first and most effective defence layer. Three actions: (1) Enable 2FA on all critical accounts (email, banking, social media) — defeats credential stuffing and SIM-swap attacks even if passwords are breached (IT Rules 2021 mandate 2FA for significant intermediaries). (2) Practice zero-trust verification — never share OTP, PIN, or credentials regardless of caller identity; this neutralizes vishing/smishing which bypass technical controls. (3) Regular offline backups of essential data (photos, documents) — ensures recovery from ransomware without paying, reducing attacker incentive. A wrong answer agreeing with the statement reveals learned helplessness; board exams test proactive citizen behaviour under Digital India framework.",
+     "self_check": true
+    },
+    {
+     "q": "Create a personal cyber safety checklist for a Class 12 student preparing for board exams and competitive entrances (JEE/NEET/CUET), covering five distinct threat categories relevant to their specific context (online mock tests, coaching portals, admit card downloads, scholarship applications, peer collaboration). Format as a table with columns: Threat Category, Specific Scenario, Preventive Action, Legal Recourse (IT Act section).",
+     "a": "A strong answer produces a table like:\n| Threat Category | Specific Scenario | Preventive Action | Legal Recourse |\n|---|---|---|---|\n| Phishing | Fake JEE mock test link sent via WhatsApp asking for login | Verify domain (jeeadv.ac.in only), use bookmarked URLs, enable 2FA on coaching portal | Sec 66C (identity theft), Sec 66D (cheating by personation) |\n| Credential Stuffing | Reused password from coaching site leaked, used on scholarship portal | Unique passphrase per site via password manager, check haveibeenpwned.com | Sec 43 (unauthorized access), Sec 66 (computer-related offence) |\n| Malware | Pirated \"previous year papers\" PDF with embedded trojan | Download only from official sites (ncert.nic.in, jeeadv.ac.in), scan with updated antivirus | Sec 43(c) (introducing virus), Sec 66F (cyber terrorism if critical infra) |\n| Privacy Violation | Coaching app requests excessive permissions (contacts, SMS, location) | Review permissions, use web version, deny non-essential access | IT Rules 2021 Rule 4(2) (data minimization), Sec 43A (negligent data handling) |\n| Social Engineering | \"Senior\" on Telegram offers \"leaked paper\" for UPI payment | Recognize advance-fee fraud, never pay for illegal material, report to cybercrime.gov.in | Sec 66D (cheating), Sec 420 IPC (cheating) |\n\nA poor answer lists generic tips (strong password, antivirus) without mapping to the student's specific high-stakes context, showing inability to contextualize — a competency gap for CUET/board case studies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

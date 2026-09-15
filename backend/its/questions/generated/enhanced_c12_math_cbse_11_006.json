@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_11_006",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_11_006",
+   "title": "c12_math_cbse_11_006",
+   "questions": [
+    {
+     "q": "State the normal form of a plane equation and the conditions on the coefficients.",
+     "a": "The normal form is \\(lx + my + nz = d\\), where \\(l, m, n\\) are direction cosines of the unit normal vector (so \\(l^2+m^2+n^2=1\\)) and \\(d \\ge 0\\) is the perpendicular distance from the origin to the plane. A wrong answer (e.g., writing \\(Ax+By+Cz=D\\) without the unit normal condition) reveals the student confuses the general form with the normal form and does not recognize that the coefficients must be direction cosines.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why, when converting the general plane equation \\(Ax+By+Cz+D=0\\) to normal form, we must divide by \\(\\pm\\sqrt{A^2+B^2+C^2}\\) and choose the sign opposite to that of \\(D\\) (if \\(D \\neq 0\\)).",
+     "a": "We divide by \\(\\pm\\sqrt{A^2+B^2+C^2}\\) to make the coefficients of \\(x, y, z\\) into direction cosines (so their squares sum to 1). The sign is chosen so that the constant term becomes positive (\\(d \\ge 0\\)), because distance is non-negative. If the sign is chosen incorrectly, the constant term becomes negative, violating the definition of normal form. A student who says \"we divide by \\(\\sqrt{A^2+B^2+C^2}\\) and ignore the sign\" does not understand the geometric requirement \\(d \\ge 0\\).",
+     "self_check": true
+    },
+    {
+     "q": "Convert the plane equation \\(2x - 3y + 6z - 14 = 0\\) to normal form and state the perpendicular distance from the origin and the direction cosines of the unit normal.",
+     "a": "Given: \\(2x - 3y + 6z - 14 = 0\\) → \\(2x - 3y + 6z = 14\\).  \n\\(\\sqrt{A^2+B^2+C^2} = \\sqrt{4+9+36} = \\sqrt{49} = 7\\).  \nThe constant term is already positive (14), so we divide by \\(+7\\):  \n\\(\\frac{2}{7}x - \\frac{3}{7}y + \\frac{6}{7}z = 2\\).  \nDirection cosines: \\(l = 2/7, m = -3/7, n = 6/7\\) (check: \\(4/49+9/49+36/49=1\\)).  \nPerpendicular distance \\(d = 2\\) units.  \nA common error is dividing by \\(-7\\) and getting \\(-\\frac{2}{7}x + \\frac{3}{7}y - \\frac{6}{7}z = -2\\), which gives a negative distance and wrong direction cosines.",
+     "self_check": true
+    },
+    {
+     "q": "A plane has normal form \\(\\frac{1}{3}x - \\frac{2}{3}y - \\frac{2}{3}z = 4\\). Another plane has equation \\(2x - 4y - 4z = 24\\). Are they the same plane? Justify by comparing their normal forms.",
+     "a": "Yes, they represent the same plane. The second equation: divide by \\(\\sqrt{4+16+16} = \\sqrt{36} = 6\\). The constant is positive (24), so divide by \\(+6\\): \\(\\frac{2}{6}x - \\frac{4}{6}y - \\frac{4}{6}z = 4\\) → \\(\\frac{1}{3}x - \\frac{2}{3}y - \\frac{2}{3}z = 4\\), which matches the first normal form exactly. A student who says \"no\" or only compares the general coefficients without normalizing fails to recognize that the normal form is unique for a given plane (up to the sign of the normal, but \\(d \\ge 0\\) fixes the sign).",
+     "self_check": true
+    },
+    {
+     "q": "A student converts \\(x + 2y - 2z + 3 = 0\\) to normal form and writes: \\(\\frac{1}{3}x + \\frac{2}{3}y - \\frac{2}{3}z = 1\\). Is this correct? If not, identify the error and give the correct normal form.",
+     "a": "The student's answer is incorrect. The given equation is \\(x + 2y - 2z = -3\\). The constant term is negative. To get \\(d \\ge 0\\), we must multiply the equation by \\(-1\\) first: \\(-x - 2y + 2z = 3\\). Then divide by \\(\\sqrt{1+4+4}=3\\): \\(-\\frac{1}{3}x - \\frac{2}{3}y + \\frac{2}{3}z = 1\\). The student forgot to flip the sign to make the constant positive. The correct normal form has direction cosines \\(l = -1/3, m = -2/3, n = 2/3\\) and \\(d = 1\\).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world problem (using Indian context: e.g., a rooftop water tank, a sloping roof, a kite) that requires finding the normal form of a plane given the perpendicular distance from the origin and the angles the normal makes with the coordinate axes. Provide the solution.",
+     "a": "Problem: A sloping roof of a house is at a perpendicular distance of 6 metres from the corner of the room (taken as origin). The normal to the roof makes angles \\(60^\\circ, 60^\\circ, 45^\\circ\\) with the positive x, y, z axes. Find the equation of the roof plane in normal form.  \nSolution: Direction cosines: \\(l = \\cos 60^\\circ = 1/2\\), \\(m = 1/2\\), \\(n = \\cos 45^\\circ = 1/\\sqrt{2}\\). Check: \\(1/4+1/4+1/2=1\\). Normal form: \\(\\frac{1}{2}x + \\frac{1}{2}y + \\frac{1}{\\sqrt{2}}z = 6\\). A good answer includes the correct setup and arithmetic. A poor answer uses the angles directly as coefficients or forgets the unit normal condition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

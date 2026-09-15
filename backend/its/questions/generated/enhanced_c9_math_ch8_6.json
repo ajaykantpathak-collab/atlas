@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch8_6",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch8_6",
+   "title": "c9_math_ch8_6",
+   "questions": [
+    {
+     "q": "Write the formula for the sum of the first n terms of an AP with first term a and common difference d. Then state what each variable represents.",
+     "a": "S_n = n/2 [2a + (n-1)d]; a = first term, d = common difference, n = number of terms, S_n = sum of first n terms. If a student writes S_n = n(a + l)/2 but cannot define l, or writes S_n = n/2 [a + (n-1)d] missing the factor 2, they have not memorized the correct formula structure.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the formula S_n = n/2 (a + l) works for any arithmetic progression. Use the idea of pairing terms.",
+     "a": "In an AP, the sum of the first and last term equals the sum of the second and second-last term, and so on, because each pair adds to a + l. There are n/2 such pairs, so total sum = n/2 (a + l). If a student says \"it's just the average of first and last times n\" without explaining the pairing property, they are stating the result without understanding the structural reason.",
+     "self_check": true
+    },
+    {
+     "q": "Find the sum of the first 15 terms of the AP: 7, 12, 17, 22, ...",
+     "a": "Given AP: a = 7, d = 5, n = 15.\nStep 1: Identify formula S_n = n/2 [2a + (n-1)d].\nStep 2: Substitute: S_15 = 15/2 [2(7) + (15-1)(5)].\nStep 3: Simplify inside brackets: 2(7) = 14, (14)(5) = 70, so 14 + 70 = 84.\nStep 4: Multiply: S_15 = 15/2 × 84 = 15 × 42 = 630.\nAnswer: 630. If a student gets 615, they likely used d = 5 but miscalculated (n-1)d as 15×5 instead of 14×5.",
+     "self_check": true
+    },
+    {
+     "q": "The sum of the first 10 terms of an AP is 150. The first term is 5. Find the common difference d. Then find the 10th term.",
+     "a": "Given S_10 = 150, a = 5, n = 10.\nStep 1: Use S_n = n/2 [2a + (n-1)d] → 150 = 10/2 [2(5) + 9d] = 5[10 + 9d].\nStep 2: Divide by 5: 30 = 10 + 9d → 9d = 20 → d = 20/9.\nStep 3: Find 10th term: a_10 = a + 9d = 5 + 9(20/9) = 5 + 20 = 25.\nAnswer: d = 20/9, 10th term = 25. If a student uses S_n = n/2 (a + l) but doesn't know l, they might get stuck. A wrong answer like d = 5 reveals they solved 150 = 5[10 + 9d] → 30 = 10 + 9d → 9d = 20 but then wrote d = 20/9 incorrectly as 2.22 or mis-simplified.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved: \"Find sum of first 20 terms of AP: 3, 8, 13, ...\" and wrote: S_20 = 20/2 [2(3) + 20(5)] = 10[6 + 100] = 1060. Is this correct? If not, identify the error and give the correct sum.",
+     "a": "The student's answer is incorrect. The error is using n instead of (n-1) in the formula: they wrote 20(5) instead of 19(5). Correct: S_20 = 20/2 [2(3) + 19(5)] = 10[6 + 95] = 10 × 101 = 1010. If the student defends 1060, they confuse the number of terms with the number of steps between terms.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (Indian context) that requires finding the sum of an AP where the common difference is negative. Provide the problem statement and the solution.",
+     "a": "Example problem: \"A water tank has 5000 litres. Each day 150 litres are used and not replenished. How much water remains after 20 days? Also find the total water used in 20 days.\" Solution: Water used forms AP: 150, 150, ... (actually constant, but if usage increases by 10 litres each day: 150, 160, 170,...). Better: \"A penalty for late return of a library book is ₹5 on day 1, ₹4 on day 2, ₹3 on day 3, decreasing by ₹1 each day. Find total penalty for 5 days.\" AP: a=5, d=-1, n=5. S_5 = 5/2[10 + 4(-1)] = 2.5[6] = 15. If the student creates a problem with positive d only, they haven't grasped negative common difference.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

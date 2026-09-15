@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_chem_ch1_9",
+ "concepts": [
+  {
+   "id": "enh:c9_chem_ch1_9",
+   "title": "c9_chem_ch1_9",
+   "questions": [
+    {
+     "q": "Define a suspension and state the minimum particle size required for a mixture to be classified as one.",
+     "a": "A suspension is a heterogeneous mixture in which solid particles larger than 1000 nm (1 micron) are dispersed in a fluid medium. The particles are large enough to be visible under a microscope, settle on standing, and can be separated by filtration. A wrong answer (e.g., \"particle size >1 nm\") confuses suspensions with colloids, which have particles 1-1000 nm.",
+     "self_check": true
+    },
+    {
+     "q": "You are given three mixtures: A (salt in water), B (milk in water), C (chalk powder in water). Which is a suspension? Justify using two properties.",
+     "a": "C (chalk powder in water) is a suspension. Justification: (1) Chalk particles are >1000 nm and settle at the bottom on standing. (2) Chalk can be separated by simple filtration using filter paper, leaving a residue. A is a true solution (particles <1 nm, no settling). B is a colloid (particles 1-1000 nm, shows Tyndall effect but does not settle). A wrong answer selecting B reveals confusion between colloids and suspensions based on cloudiness alone.",
+     "self_check": true
+    },
+    {
+     "q": "A suspension of flour in water is left undisturbed for 30 minutes. Describe what happens and explain why.",
+     "a": "The flour particles gradually settle at the bottom of the container, and the upper layer of water becomes clearer. This happens because flour particles are >1000 nm and denser than water, so gravity overcomes the random Brownian motion that keeps smaller particles (in solutions and colloids) suspended. A wrong answer (e.g., \"nothing happens, it stays uniform\") reveals the misconception that all cloudy mixtures are stable like colloids.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a suspension and a colloid in terms of: (i) particle size, (ii) stability, (iii) filtration behavior, (iv) Tyndall effect. Present in a table.",
+     "a": "| Property | Suspension | Colloid |\n|---|---|---|\n| Particle size | >1000 nm | 1-1000 nm |\n| Stability | Unstable, particles settle | Stable, particles remain dispersed |\n| Filtration | Separable by filter paper | Passes through filter paper |\n| Tyndall effect | May show (particles large) | Shows strongly |\nA wrong answer claiming colloids are filterable by ordinary filter paper reveals misunderstanding that filter paper pores (~1000 nm) trap suspension particles but let colloids pass.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"If a mixture is cloudy, it must be a suspension.\" Evaluate with two counterexamples.",
+     "a": "The statement is false. Counterexample 1: Milk is cloudy but is a colloid (particle size 100-1000 nm), not a suspension — it does not settle on standing and passes through filter paper. Counterexample 2: Starch solution is cloudy but is a colloid — it shows Tyndall effect but does not settle and is not filterable. Cloudiness only indicates that particles are large enough to scatter light (>40 nm), which includes both colloids and suspensions. The distinguishing test is settling and filtration, not cloudiness. A wrong evaluation (agreeing) reveals reliance on visual appearance instead of particle size and stability criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Design an experiment to separate the components of a mixture containing salt, sand, and starch using only water, filter paper, a beaker, and a heat source. Explain the order of separation.",
+     "a": "Step 1: Add water to the mixture and stir. Salt dissolves (true solution), sand remains as suspension, starch forms a colloid. Step 2: Filter through filter paper. Sand (suspension, >1000 nm) is trapped as residue. Salt solution and starch colloid pass through as filtrate. Step 3: Heat the filtrate to evaporate water. Salt crystallises out (solid residue). Starch remains as a residue if heated to dryness. Order: sand first (filtration), then salt (evaporation), starch last (remaining solid). A poor design (e.g., filtering first without adding water) reveals inability to exploit solubility differences for sequential separation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

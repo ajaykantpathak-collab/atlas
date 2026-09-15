@@ -1,0 +1,369 @@
+{
+ "catalog": "catalog_class12_biology_lebo104",
+ "concepts": [
+  {
+   "id": "lebo104.4.1.1",
+   "title": "Mendel's Pea Experiments and True-Breeding Lines",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Mendel's Pea Experiments and True-Breeding Lines' refers to.",
+     "a": "Gregor Mendel spent 1856-1863 crossing true-breeding pea lines that differed in one clear character at a time, and he backed his tallies with large samples and statistics -- the first mathematical attack on a biological question, which uncovered the rules governing how characters pass to offspring.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Mendel's Pea Experiments and True-Breeding Lines'.",
+     "a": "Seven clean contrasting trait pairs, huge sample sizes and confirmation over successive generations made pea crosses the perfect window into heredity.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Mendel's Pea Experiments and True-Breeding Lines' taught, and from which source text?",
+     "a": "4.1 (source: lebo104.txt lines 104-141 (section 4.1, Mendel's method and the seven trait pairs))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo104.4.2.1",
+   "title": "Monohybrid Cross, Dominance and the 3:1 Ratio",
+   "questions": [
+    {
+     "q": "Using the method 'Monohybrid Cross, Dominance and the 3:1 Ratio', work with: the fixed constants of the method. Carry the chain through step by step and give the final value of dominant_fraction_f2.",
+     "a": "0.75 as a fraction",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Monohybrid Cross, Dominance and the 3:1 Ratio' and work with: the fixed constants of the method. Carry the chain through step by step and give the final value of dominant_fraction_f2.",
+     "a": "0.75 as a fraction",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Monohybrid Cross, Dominance and the 3:1 Ratio' refers to.",
+     "a": "Crossing two pure lines that differ in one character gives an F1 in which only the dominant trait appears; selfing that F1 produces an F2 split three-quarters dominant to one-quarter recessive in appearance while the underlying genotypes run TT:Tt:tt in a 1:2:1 order -- characters stay discrete instead of blending.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Monohybrid Cross, Dominance and the 3:1 Ratio'.",
+     "a": "A recessive trait can vanish in the F1 and reappear in the F2 unchanged, which shows particles (alleles), not blended fluids, carry the characters.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Monohybrid Cross, Dominance and the 3:1 Ratio', in plain ASCII form.",
+     "a": "dominant_fraction_f2 = 3 / 4",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo104.4.2.2",
+   "title": "Law of Segregation and the Test Cross",
+   "questions": [
+    {
+     "q": "Using the method 'Law of Segregation and the Test Cross', work with: the fixed constants of the method. Carry the chain through step by step and give the final value of heterozygote_testcross_ratio.",
+     "a": "1 times",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Law of Segregation and the Test Cross' and work with: the fixed constants of the method. Carry the chain through step by step and give the final value of heterozygote_testcross_ratio.",
+     "a": "1 times",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Law of Segregation and the Test Cross' refers to.",
+     "a": "When gametes form, the paired alleles separate cleanly so each gamete carries just one of them; because dominance hides genotypes behind phenotypes, an unknown tall plant is bred with a homozygous dwarf partner -- every offspring tall means the unknown is TT, while a 1:1 tall-to-dwarf split exposes a Tt heterozygote.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Law of Segregation and the Test Cross'.",
+     "a": "Segregation is the physical parting of allele partners during meiosis, and the test cross converts breeding outcomes back into a genotype reading.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Law of Segregation and the Test Cross', in plain ASCII form.",
+     "a": "heterozygote_testcross_ratio = 1 / 1",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo104.4.2.3",
+   "title": "Incomplete Dominance in Snapdragon Flower Colour",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Incomplete Dominance in Snapdragon Flower Colour' refers to.",
+     "a": "In the dog flower the heterozygote Rr is pink, sitting between RR red and rr white, so selfing the F1 gives an F2 reading 1 red : 2 pink : 1 white; the genotype order stays 1:2:1 and only the phenotype ratio departs from 3:1, because the dominant allele cannot fully cover the recessive one.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Incomplete Dominance in Snapdragon Flower Colour'.",
+     "a": "With incomplete dominance the heterozygote is visibly distinct, so the outward appearance itself reports the genotype.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Incomplete Dominance in Snapdragon Flower Colour', in plain ASCII form.",
+     "a": "snapdragon_f2_ratio = 1 : 2 : 1",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo104.4.2.4",
+   "title": "Co-dominance, ABO Blood Groups and Multiple Alleles",
+   "questions": [
+    {
+     "q": "Using the method 'Co-dominance, ABO Blood Groups and Multiple Alleles', work with: allele_count = 3. Carry the chain through step by step and give the final value of genotype_count.",
+     "a": "6 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Co-dominance, ABO Blood Groups and Multiple Alleles' and work with: allele_count = 3. Carry the chain through step by step and give the final value of genotype_count.",
+     "a": "6 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Co-dominance, ABO Blood Groups and Multiple Alleles' refers to.",
+     "a": "The single human blood-group gene I exists in three allele forms -- IA, IB and i -- though any one person carries only two of them; IA and IB each make their own red-cell surface sugar and both show through in type AB, while i makes no sugar, so six genotypes collapse into just four phenotypes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Co-dominance, ABO Blood Groups and Multiple Alleles'.",
+     "a": "When both members of an allele pair express their own products side by side the trait is co-dominant, and a gene with more than two alleles only reveals its full spread across a population.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Co-dominance, ABO Blood Groups and Multiple Alleles', in plain ASCII form.",
+     "a": "genotype_count = allele_count * (allele_count + 1) / 2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo104.4.3.1",
+   "title": "Dihybrid Cross and the Law of Independent Assortment",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Dihybrid Cross and the Law of Independent Assortment' refers to.",
+     "a": "Following two characters at once -- seed colour plus seed shape -- a cross of yellow-round with green-wrinkled pure lines yields RrYy hybrids whose F2 offspring spread into nine round-yellow, three wrinkled-yellow, three round-green and one wrinkled-green; each allele pair segregates as though the other pair did not exist.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Dihybrid Cross and the Law of Independent Assortment'.",
+     "a": "Two independent 3:1 monohybrid ratios multiplied together build the 9:3:3:1 dihybrid outcome -- assortment of one character pair never constrains the other.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Dihybrid Cross and the Law of Independent Assortment', in plain ASCII form.",
+     "a": "f2_phenotypic_ratio = 9 : 3 : 3 : 1",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo104.4.3.2",
+   "title": "Chromosomal Theory of Inheritance",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Chromosomal Theory of Inheritance' refers to.",
+     "a": "Sutton and Boveri saw that chromosomes behave exactly as Mendel's factors should -- occurring in pairs, copying and parting at meiosis, assorting independently -- and concluded that genes ride on chromosomes; Morgan's fruit-fly experiments then gave this union of cytology and Mendelian genetics its experimental proof.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Chromosomal Theory of Inheritance'.",
+     "a": "Rediscovery of Mendel in 1900 plus sharper microscopes let Sutton and Boveri anchor the abstract factors to real chromosome movements in the nucleus.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Chromosomal Theory of Inheritance' taught, and from which source text?",
+     "a": "4.3.2 (source: lebo104.txt lines 605-704 (rediscovery, Sutton-Boveri uniting chromosome movement with Mendel, Morgan's flies))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo104.4.3.3",
+   "title": "Linkage, Recombination and Genetic Maps",
+   "questions": [
+    {
+     "q": "Using the method 'Linkage, Recombination and Genetic Maps', work with: recombinant_count = 1024, total_progeny = 400. Carry the chain through step by step and give the final value of recombination_percent.",
+     "a": "256 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Linkage, Recombination and Genetic Maps' and work with: recombinant_count = 8192, total_progeny = 6. Carry the chain through step by step and give the final value of recombination_percent.",
+     "a": "136533.3333 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Linkage, Recombination and Genetic Maps' refers to.",
+     "a": "Genes seated on the same chromosome travel together more often than free assortment predicts -- Morgan named this physical association linkage -- while crossing over builds non-parental combinations, called recombination; Sturtevant turned the recombination percentage between two gene pairs into a ruler that plots their order along the chromosome.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Linkage, Recombination and Genetic Maps'.",
+     "a": "Tight linkage means low recombination and nearby loci; loosely linked genes recombine often and map far apart.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Linkage, Recombination and Genetic Maps', in plain ASCII form.",
+     "a": "recombination_percent = recombinant_count / total_progeny * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo104.4.4.1",
+   "title": "Polygenic Inheritance",
+   "questions": [
+    {
+     "q": "Using the method 'Polygenic Inheritance', work with: gene_pairs = 200. Carry the chain through step by step and give the final value of phenotypic_classes.",
+     "a": "401 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Polygenic Inheritance' and work with: gene_pairs = 500. Carry the chain through step by step and give the final value of phenotypic_classes.",
+     "a": "1001 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Polygenic Inheritance' refers to.",
+     "a": "Characters such as human skin colour or height spread across a gradient because three or more genes each contribute an additive dose of effect, with the environment stacked on top; the more dominant capital alleles a genotype stacks, the darker or taller the resulting individual.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Polygenic Inheritance'.",
+     "a": "Additive alleles plus environmental influence turn a handful of genes into a continuous spectrum rather than a set of discrete alternatives.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Polygenic Inheritance', in plain ASCII form.",
+     "a": "phenotypic_classes = 2 * gene_pairs + 1",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo104.4.5.1",
+   "title": "Pleiotropy: One Gene, Many Effects",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Pleiotropy: One Gene, Many Effects' refers to.",
+     "a": "A single gene can steer several phenotypes at once when its product sits early in a metabolic pathway; phenylketonuria demonstrates this -- one defective phenylalanine hydroxylase gene brings mental retardation together with reduced hair and skin pigment in the same individual.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Pleiotropy: One Gene, Many Effects'.",
+     "a": "The gene product's shared role across pathways explains why one mutation fans out into several symptoms.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Pleiotropy: One Gene, Many Effects' taught, and from which source text?",
+     "a": "4.5 (source: lebo104.txt lines 768-778 (pleiotropic genes and phenylketonuria))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo104.4.6.1",
+   "title": "Sex Determination: XO, XY, ZW and Haplodiploidy",
+   "questions": [
+    {
+     "q": "Using the method 'Sex Determination: XO, XY, ZW and Haplodiploidy', work with: female_bee_chromosome_number = 256. Carry the chain through step by step and give the final value of drone_chromosome_number.",
+     "a": "128 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Sex Determination: XO, XY, ZW and Haplodiploidy' and work with: female_bee_chromosome_number = 256. Carry the chain through step by step and give the final value of drone_chromosome_number.",
+     "a": "128 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Sex Determination: XO, XY, ZW and Haplodiploidy' refers to.",
+     "a": "Chromosome constitution settles sex in several ways: grasshoppers use XO with males lacking the second X, humans and Drosophila use XY where the father's sperm casts the deciding vote, birds reverse the roles so ZW females are the heterogametic sex, and honey bees go by ploidy -- fertilised eggs become females while unfertilised ones turn into haploid males.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sex Determination: XO, XY, ZW and Haplodiploidy'.",
+     "a": "Male heterogamety (XY, XO) and female heterogamety (ZW) both rest on which gamete supplies which sex chromosome; bees swap chromosome identity for chromosome count.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Sex Determination: XO, XY, ZW and Haplodiploidy', in plain ASCII form.",
+     "a": "drone_chromosome_number = female_bee_chromosome_number / 2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo104.4.7.1",
+   "title": "Mutation: Point Changes, Frame Shifts and Mutagens",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Mutation: Point Changes, Frame Shifts and Mutagens' refers to.",
+     "a": "Any heritable alteration of the DNA sequence is a mutation: losing or gaining whole chromosome segments distorts the chromosome set, a swap of one single base pair is a point mutation such as the one behind sickle-cell anaemia, and insertions or deletions of bases shove the reading frame off course; agents like UV radiation that provoke such changes are mutagens.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Mutation: Point Changes, Frame Shifts and Mutagens'.",
+     "a": "Mutation and recombination are the two standing sources of genetic variation in any population.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Mutation: Point Changes, Frame Shifts and Mutagens' taught, and from which source text?",
+     "a": "4.7 (source: lebo104.txt lines 915-938 (mutation types, point mutation, mutagens))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo104.4.8.1",
+   "title": "Pedigree Analysis and Mendelian Disorders",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Pedigree Analysis and Mendelian Disorders' refers to.",
+     "a": "Since controlled crosses cannot be run on humans, family trees drawn with standard symbols track a trait across generations; a pedigree separates dominant from recessive and sex-linked from autosomal patterns, and it exposes single-gene disorders -- haemophilia and colour blindness as X-linked recessives, sickle-cell anaemia, phenylketonuria and thalassemia as autosomal recessives.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Pedigree Analysis and Mendelian Disorders'.",
+     "a": "Carrier mother to son transmission flags an X-linked recessive trait, while an autosomal recessive disease can surface from two unaffected carrier parents and skip generations.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Pedigree Analysis and Mendelian Disorders' taught, and from which source text?",
+     "a": "4.8.1, 4.8.2 (source: lebo104.txt lines 940-1068 (pedigree method, haemophilia, colour blindness, sickle-cell anaemia, phenylketonuria, thalassemia))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo104.4.8.2",
+   "title": "Chromosomal Disorders: Aneuploidy and Polyploidy",
+   "questions": [
+    {
+     "q": "Using the method 'Chromosomal Disorders: Aneuploidy and Polyploidy', work with: the fixed constants of the method. Carry the chain through step by step and give the final value of down_syndrome_karyotype_count.",
+     "a": "47 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Chromosomal Disorders: Aneuploidy and Polyploidy' and work with: the fixed constants of the method. Carry the chain through step by step and give the final value of down_syndrome_karyotype_count.",
+     "a": "47 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Chromosomal Disorders: Aneuploidy and Polyploidy' refers to.",
+     "a": "Chromosome-number mistakes form their own disease class: failed chromatid separation adds or drops a single chromosome (aneuploidy), while cytokinesis failure after telophase doubles an entire set (polyploidy, common in plants); one extra chromosome 21 gives Down's syndrome, an extra X gives Klinefelter's 47,XXY, and a missing X gives Turner's 45,XO.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Chromosomal Disorders: Aneuploidy and Polyploidy'.",
+     "a": "Aneuploidy shifts one chromosome's count while polyploidy shifts every set, and the human syndromes are named by exactly which chromosome is extra or missing.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Chromosomal Disorders: Aneuploidy and Polyploidy', in plain ASCII form.",
+     "a": "down_syndrome_karyotype_count = 46 + 1",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

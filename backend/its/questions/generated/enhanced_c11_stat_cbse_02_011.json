@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_02_011",
+   "title": "c11_stat_cbse_02_011",
+   "questions": [
+    {
+     "q": "Name the two main national-level agencies in India that collect, process, and tabulate statistical data on socio-economic issues, as mentioned in the NCERT textbook for Class 11 Statistics.",
+     "a": "The two main agencies are Census of India and National Sample Survey Office (NSSO). A wrong answer (e.g., listing CSO or Labour Bureau as the primary ones) reveals that the student has not distinguished the two flagship sources explicitly highlighted in the chapter recap and may confuse the roles of various statistical organisations.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the Census of India is called a \"complete enumeration\" while the NSSO surveys are called \"sample surveys,\" and state one consequence of this difference for the frequency of data availability.",
+     "a": "Census covers every household in the country (complete enumeration), so it is conducted only once every ten years due to massive cost and logistics; NSSO surveys a scientifically selected representative sample, allowing it to conduct multiple rounds every year. A wrong answer that claims both are done annually or that NSSO also covers every household shows confusion between census and sampling methodology and their practical implications for data frequency.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to study the trend in literacy rates across Indian states for the period 1991–2021. Which source should she primarily use for the years 1991, 2001, 2011, and why can she not rely solely on that source for the intercensal years (e.g., 1995, 2005)?",
+     "a": "She should use Census of India for 1991, 2001, 2011 because it provides complete enumeration literacy data for those exact census years. She cannot rely solely on Census for intercensal years because Census is conducted only decennially; for intermediate years she must use NSSO education rounds (e.g., 52nd, 64th, 71st, 75th rounds) which provide sample-based literacy estimates. A wrong choice (e.g., using NSSO for census years) ignores the superior accuracy and completeness of Census for benchmark years.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sampling error and non-sampling error profiles of Census of India and NSSO surveys. Which source is more vulnerable to non-sampling errors, and why?",
+     "a": "Census has zero sampling error (complete enumeration) but is highly vulnerable to non-sampling errors like coverage error, response error, and processing error due to the massive scale of field operations involving millions of enumerators. NSSO has sampling error (because it uses samples) but can control non-sampling errors better through intensive training, smaller field teams, and rigorous supervision. A wrong answer claiming Census has no errors at all reveals a fundamental misunderstanding that non-sampling errors exist even in complete enumeration and can be larger in magnitude than sampling errors.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement: \"For estimating the current monthly per capita consumer expenditure (MPCE) in India, the Census of India is the best source because it covers the entire population.\"",
+     "a": "The statement is flawed. Census does not collect detailed consumer expenditure data; NSSO's Consumer Expenditure Survey (CES) rounds (e.g., 68th round 2011-12, HCES 2022-23) are specifically designed for MPCE estimation using stratified multi-stage sampling. Census lacks the questionnaire depth, recall periods, and item classification needed for expenditure analysis. A student who agrees with the statement confuses population coverage with subject-matter suitability and ignores the purpose-specific design of NSSO rounds.",
+     "self_check": true
+    },
+    {
+     "q": "Design a research plan to estimate the impact of the COVID-19 pandemic on rural employment in India during 2020-21. Specify which data source(s) you would use, the specific round(s) or year(s), and justify why other sources are inadequate.",
+     "a": "Use NSSO Periodic Labour Force Survey (PLFS) quarterly bulletins for July 2019–June 2020 and July 2020–June 2021, which provide quarterly employment-unemployment indicators (WPR, LFPR, UR) for rural/urban separately. Census 2011 is too old and lacks quarterly frequency; Census 2021 was postponed. NSSO's Employment-Unemployment rounds (pre-PLFS) are discontinued. A poor plan that relies only on Census or administrative data shows inability to match data source characteristics (frequency, variables, recency) to the research question.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

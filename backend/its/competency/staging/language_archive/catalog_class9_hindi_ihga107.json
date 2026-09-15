@@ -1,0 +1,278 @@
+{
+ "class": 9,
+ "subject": "hindi",
+ "chapter": 7,
+ "chapter_title": "मैं और मेरा देश",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/ihga107.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "ihga.107.1.1",
+   "title": "व्यक्ति और राष्ट्र का अविभाज्य संबंध",
+   "section": "1",
+   "definition": "लेखक की पूर्णता घर, पड़ोस और नगर की सीमाओं में पाकर भी अधूरी लगती है, क्योंकि व्यक्ति की पहचान राष्ट्र की पहचान से जुड़ी होती है; निबंध का निष्कर्ष है कि 'मैं और मेरा देश दो अलग चीजें हैं ही नहीं' - नागरिक और देश को बाँधने वाली गाँठ अटूट है।",
+   "formula": "-",
+   "key_idea": "व्यक्ति की पूर्णता केवल निज उपलब्धियों से नहीं, राष्ट्र की पहचान के साथ जुड़ने से बनती है।",
+   "textbook_ref": "ihga107.txt lines 15-20 (प्रस्तावना) तथा lines 27-39 (घर-पड़ोस-नगर से पूर्णता का वर्णन)",
+   "question_patterns": [
+    "vyakti aur rashtra ka sambandh kis vidha sathapit hua hai",
+    "main aur mera desh do alag cheez kyon nahi hain",
+    "vyakti ki purnata kis-kis se juri hoti hai",
+    "nagrik aur desh ko jodne wali ganth ka kya arth hai",
+    "ghar pados nagar ki seemaon mein lekhak ki sthiti kaisi thi",
+    "vyakti aur desh ka antarsambandh udaharan sahit samjhaiye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "विकास-क्रम याद कीजिए",
+     "explain": "लेखक पहले परिवार और नगर में ही संपूर्ण मानते थे।"},
+    {"step": 2, "action": "दरार का भाव देखिए",
+     "explain": "आनंद की दीवार में दरार ही देश-संबंध की चेतना जगाती है।"},
+    {"step": 3, "action": "निष्कर्ष बाँधिए",
+     "explain": "नागरिक की हीनता-गौरव दोनों देश की हीनता-गौरव बनकर लौटते हैं।"}
+   ]
+  },
+  {
+   "id": "ihga.107.1.2",
+   "title": "लाला लाजपत राय का अनुभव: गुलामी का कलंक और मानसिक भूकंप",
+   "section": "1",
+   "definition": "लालाजी का कथन है कि अमेरिका-इंग्लैंड-फ्रांस घूमने पर भी भारत की गुलामी की लज्जा का कलंक उनके माथे से नहीं गया; यही अनुभव लेखक के मानस में भूकंप बन जाता है - यदि देश पराधीन हो तो व्यक्ति के पास साधन और उपहार कितने भी हों, वे उसे गौरव नहीं दे सकते।",
+   "formula": "-",
+   "key_idea": "देश की पराधीनता व्यक्ति की सबसे बड़ी हीनता है - यही दरार पैदा करने वाला भूकंप है।",
+   "textbook_ref": "ihga107.txt lines 58-82 (लालाजी का अनुभव और उसका प्रभाव)",
+   "question_patterns": [
+    "Lala Lajpat Rai ka anubhav kaun sa bhukamp tha",
+    "gulami ka kalank kaun sa tha",
+    "desh gulam ho to sadhan aur uphar gaurav kyon nahi dete",
+    "deewar mein darar kaise padi",
+    "paradhinata ke din deen kyon kaha gaye",
+    "lekhak par Lala Lajpat Rai ke vicharon ka kya prabhav pada"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "कथन का सार रखिए",
+     "explain": "विदेश-भ्रमण की सारी चकाचौंध के बावजूद पराधीनता का कलंक साथ चला।"},
+    {"step": 2, "action": "प्रभाव जोड़िए",
+     "explain": "लेखक की पूर्णता का भ्रम एक ठसक में अपूर्णता की कसक बन गया।"},
+    {"step": 3, "action": "दर्शन निकालिए",
+     "explain": "राष्ट्रीय स्वतंत्रता ही व्यक्तिगत गौरव की पहली शर्त है।"}
+   ]
+  },
+  {
+   "id": "ihga.107.1.3",
+   "title": "नागरिक का अधिकार और कर्तव्य",
+   "section": "1",
+   "definition": "निबंध के अनुसार नागरिक का कर्तव्य है कि वह ऐसा कोई काम न करे जिससे देश की स्वतंत्रता अर्थात सम्मान को धक्का लगे और उसकी किसी शक्ति में कमी आए; बदले में उसका अधिकार है कि देश के सम्मान में पूरा भाग मिले और उसकी शक्तियों से अपने सम्मान की रक्षा का भरोसा रहे।",
+   "formula": "-",
+   "key_idea": "अधिकार और कर्तव्य दो किनारे हैं - देश का सम्मान इन्हीं के बीच खड़ा रहता है।",
+   "textbook_ref": "ihga107.txt lines 77-82 (कर्तव्य और अधिकार का संतुलन)",
+   "question_patterns": [
+    "nagrik ke adhikar aur kartavya mein kya antar hai",
+    "desh ke samman ko dhakka kyon na lage",
+    "nagrik ka kartavya kya hai is nibandh ke anusaar",
+    "desh ki shaktiyon se sahara pana kaisa adhikar hai",
+    "swatantrata aur samman ka sambandh samjhaiye",
+    "nagrik dharm ka palan kaise hota hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "कर्तव्य पक्ष पहचानिए",
+     "explain": "देश की स्वतंत्रता और शक्ति को क्षति न पहुँचाना पहला नियम है।"},
+    {"step": 2, "action": "अधिकार पक्ष जोड़िए",
+     "explain": "सम्मान में हिस्सेदारी और सुरक्षा की गारंटी देश की ओर से मिलती है।"},
+    {"step": 3, "action": "संतुलन बताइए",
+     "explain": "दोनों बातें एक-दूसरे पर टिकी हैं, इनमें से एक भी टूटे तो राष्ट्र टूटता है।"}
+   ]
+  },
+  {
+   "id": "ihga.107.1.4",
+   "title": "साधारण नागरिक भी कुछ कर सकता है: 'अकेला चना' कहावत का खंडन",
+   "section": "1",
+   "definition": "लेखक युद्ध के उदाहरण से दिखाते हैं कि लड़ने वालों के साथ रसद पहुँचाने वाले किसान और 'जय' बोलने वाले दर्शक भी उतने ही महत्वपूर्ण हैं, जैसे तालियों से गिरते खिलाड़ी उभर आते हैं; 'अकेला चना क्या भाड़ फोड़े' कहावत को वे इतिहास की गवाही से सौ फीसदी झूठ घोषित करते हैं।",
+   "formula": "-",
+   "key_idea": "कार्य का आकार नहीं, भावना उसकी कीमत तय करती है - छोटा नागरिक भी इतिहास बदल सकता है।",
+   "textbook_ref": "ihga107.txt lines 83-116 (साधारण नागरिक की भूमिका और कहावत का खंडन)",
+   "question_patterns": [
+    "akela chana bhad nahi phode kahavat ko lekhak jhuth kyon kehte hain",
+    "jay bolne walon ka bhi mahatva kyon hai",
+    "sadharan nagrik desh ke liye kya kar sakta hai",
+    "jeevan ko yuddh kyon kaha gaya hai",
+    "rased pahuchane walon ki bhumika kya hai",
+    "khiladi aur darshak ke uddaharan se kya sandesh milta hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "प्रश्न चुनिए",
+     "explain": "प्रश्न है - दाल-रोटी की फिक्र में लगा आदमी देश के लिए क्या करेगा।"},
+    {"step": 2, "action": "उत्तर की बहुस्तरीयता दिखाइए",
+     "explain": "जीवन बहुमुखी है, इसलिए योगदान के भी अनेक द्वार हैं।"},
+    {"step": 3, "action": "कहावत का खंडन रखिए",
+     "explain": "इतिहास में अकेले व्यक्तियों ने ही बार-बार ऐसा भाड़ फोड़ा है कि निशान तक न रहा।"}
+   ]
+  },
+  {
+   "id": "ihga.107.1.5",
+   "title": "दो युवकों की दो घटनाएँ: देश का गौरव और कलंक",
+   "section": "1",
+   "definition": "जापान के एक युवक ने स्वामी रामतीर्थ को ताजे फल देकर मूल्य के रूप में यही माँगा कि आप यह न कहें कि जापान में अच्छे फल नहीं मिलते - देश का सिर ऊँचा हुआ; दूसरी ओर एक विदेशी विद्यार्थी ने पुस्तकालय की पुस्तक से चित्र चुराए तो उसके देश के निवासियों पर प्रवेश-प्रतिबंध लग गया - एक ही क्रिया में देश कलंकित हुआ।",
+   "formula": "-",
+   "key_idea": "हर नागरिक का छोटा-सा आचरण देश की छवि ऊपर भी उठा सकता है और नीचे भी गिरा सकता है।",
+   "textbook_ref": "ihga107.txt lines 117-160 (स्वामी रामतीर्थ का प्रसंग और पुस्तकालय वाली घटना)",
+   "question_patterns": [
+    "Swami Ramtirth ko phal dene wale yuvak ka mullo kya tha",
+    "yuvak Japan ka gaurav kaise badhaya",
+    "pustakalay wali ghatna mein desh ko kya hani hui",
+    "donon ghatnaon mein ki ganth kahan hai",
+    "nagrik ke aacharan se desh ki chhavi kaise badalti hai",
+    "yuvak ki chatra ki chhavi apne shabdon mein likhiye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "दोनों घटनाएँ समानांतर रखिए",
+     "explain": "एक युवक देश का गौरव बढ़ाता है, दूसरा कलंक लगाता है।"},
+    {"step": 2, "action": "मूल्य का भाव देखिए",
+     "explain": "फलों की कीमत नहीं, देश-गौरव की अपेक्षा थी - यही लेखक को मुग्ध करती है।"},
+    {"step": 3, "action": "निष्कर्ष गाँथिए",
+     "explain": "नागरिक की हीनता-गौरव का फल देश को भी मिलता है।"}
+   ]
+  },
+  {
+   "id": "ihga.107.1.6",
+   "title": "महत्व कार्य की विशालता में नहीं, भावना में है",
+   "section": "1",
+   "definition": "तुर्की के राष्ट्रपति कमालपाशा तीस मील पैदल चलकर आए बूढ़े किसान की पाव-भर शहद की हँडिया उसी विश्राम-वस्त्र में स्वीकार करते हैं और उसकी भावना को सर्वोत्तम उपहार बताते हैं; नेहरूजी भी खाट लेकर आए किसान को दस्तखती फोटो देते हैं - छोटे से छोटा कार्य अच्छी भावना हो तो महान हो जाता है।",
+   "formula": "-",
+   "key_idea": "बड़े कार्य को भावना ही ऊँचा उठाती है - मूल्य वस्तु का नहीं, हृदय का होता है।",
+   "textbook_ref": "ihga107.txt lines 167-201 (कमालपाशा-शहद और नेहरू-खाट की कथाएँ)",
+   "question_patterns": [
+    "Kamal Pasha ne budhe kisan ka uphar kaise swikar kiya",
+    "shaheed honey ki handiya ka kya mahatva tha",
+    "Nehru ji ne khaat wale kisan ko kya diya aur kyon",
+    "mahatva kisi karya ki vishalta mein kyon nahi hota",
+    "bhavna ke bal par chota karya mahatva kaise ban jata hai",
+    "dastkhati photo dene ka kya bhaav tha"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "दोनों कथाएँ याद कीजिए",
+     "explain": "शहद की हँडिया और रंगीन सुतली की खाट - दोनों उपहार साधारण हैं।"},
+    {"step": 2, "action": "भावना का भार देखिए",
+     "explain": "तीस मील की पैदल यात्रा और रेल से खाट ढोना - प्रेम का वहन ही असली उपहार है।"},
+    {"step": 3, "action": "सूत्र बाँधिए",
+     "explain": "जिस काम के पीछे शुद्ध हृदय हो, वही नेता-प्रजा के बीच सेतु बनाता है।"}
+   ]
+  },
+  {
+   "id": "ihga.107.1.7",
+   "title": "शक्ति-बोध और सौंदर्य-बोध: देश की दो जरूरतें",
+   "section": "1",
+   "definition": "लेखक कहते हैं कि देश को सबसे पहले शक्ति-बोध और सौंदर्य-बोध की जरूरत है; विदेशों से तुलना में अपने देश को हीन कहना सामूहिक मानसिक बल को चोट है - जैसे शल्य के बार-बार अर्जुन का उल्लेख ने कर्ण के आत्मविश्वास में संदेह की तरेड़ डाली; वैसे ही थूकना, कूड़ा फेंकना, गाली-गलौज और गंदगी सौंदर्य-बोध को आघात पहुँचाते हैं।",
+   "formula": "-",
+   "key_idea": "देश को कमजोर मत बनाओ और उसकी सुंदरता को ठेस मत दो - यही दोनों बोध की सीख है।",
+   "textbook_ref": "ihga107.txt lines 208-235 (शक्ति-बोध, शल्य-कर्ण कथा और सौंदर्य-बोध के प्रश्न)",
+   "question_patterns": [
+    "shakti-bodh aur saundarya-bodh kya hain",
+    "des ko heen aur doosre des ko shreshth batana kya nuksan karta hai",
+    "Shalya ne Karna ke atmavishwas ko kaise hilaya",
+    "kela khakar chhilka phenkna kis bodh ko chot pahunchata hai",
+    "swachchhata aur aacharan desh ki sanskriti se kaise jude hain",
+    "samaajik mansik bal ka hras kaise hota hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "दोनों बोध परिभाषित कीजिए",
+     "explain": "शक्ति-बोध आत्मबल की चेतना है, सौंदर्य-बोध सुरुचि और सफाई की संवेदना।"},
+    {"step": 2, "action": "उदाहरण से पुष्टि कीजिए",
+     "explain": "शल्य-कर्ण की कथा बताती है कि बार-बार की हीनता की बातें पराजय की नींव रखती हैं।"},
+    {"step": 3, "action": "व्यावहारिक सीख दीजिए",
+     "explain": "सार्वजनिक स्थानों की सफाई और शिष्ट आचरण राष्ट्र-संस्कृति की रक्षा है।"}
+   ]
+  },
+  {
+   "id": "ihga.107.1.8",
+   "title": "देश की उच्चता-हीनता की कसौटी: चुनाव",
+   "section": "1",
+   "definition": "लेखक के अनुसार देश की ऊँचाई और नीचाई की कसौटी चुनाव है - जिन नागरिकों को समझ है कि किसे मत देना चाहिए, वह देश उच्च है; उत्तेजक नारों या गलत प्रभाव में मत देने वाला देश हीन है; इसीलिए ठीक मनुष्य को मत देना प्रत्येक नागरिक का कर्तव्य और अपना मत दिए बिना किसी को सत्ता न मिलना उसका अधिकार है।",
+   "formula": "-",
+   "key_idea": "मतदान की समझ ही लोकतंत्र की ऊँचाई है - वोट व्यक्ति को नहीं, मूल्यों को दिया जाता है।",
+   "textbook_ref": "ihga107.txt lines 236-246 (कसौटी-चुनाव और मत का कर्तव्य-अधिकार)",
+   "question_patterns": [
+    "desh ki uchchata aur hinata ki kasauti kya hai",
+    "chunav mein sahi mat dene ka kya mahatva hai",
+    "galat prabhav mein mat dene se kya hota hai",
+    "nagrik ka mat dene wala adhikar kya hai",
+    "loktantr mein nagrik ki jimmedari kya hai",
+    "achhe ummeedwar ki pehchan kaise hoti hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "कसौटी पहचानिए",
+     "explain": "चुनाव में मत का चुनाव ही नागरिक-चेतना का पैमाना है।"},
+    {"step": 2, "action": "दोनों दशाएँ तुलना कीजिए",
+     "explain": "समझदार मत उच्चता और नारों का मत हीनता दर्शाता है।"},
+    {"step": 3, "action": "कर्तव्य-अधिकार जोड़िए",
+     "explain": "ठीक आदमी को वोट देना कर्तव्य और बिना मत सत्ता न मिलना अधिकार है।"}
+   ]
+  },
+  {
+   "id": "ihga.107.1.9",
+   "title": "निबंध विधा और प्रश्नोत्तर शैली",
+   "section": "1",
+   "definition": "निबंध गद्य की वह विधा है जिसमें रचनाकार अपने अनुभव और विचारों को तार्किक, क्रमबद्ध और साहित्यिक रूप में बाँधता है - इसकी विशेषताएँ हैं विषय-केंद्रीयता, तार्किकता, संक्षिप्तता-स्पष्टता और चित्रात्मकता; 'मैं और मेरा देश' की संरचना प्रश्नोत्तर शैली में है, जिसमें हर बात एक प्रश्न से खुलकर उत्तर तक जाती है।",
+   "formula": "-",
+   "key_idea": "प्रश्नोत्तर शैली निबंध को व्याख्यान से उठाकर संवाद बना देती है।",
+   "textbook_ref": "ihga107.txt lines 356-392 (निबंध की विशेषताएँ और प्रश्नोत्तर शैली की पड़ताल)",
+   "question_patterns": [
+    "nibandh ke mukhya bindu kaun se hain",
+    "prashnottar shaili se kya abhipray hai",
+    "is nibandh ki shaili vishesh kyon hai",
+    "nibandh aur kahani mein kya antar hai",
+    "sambhadatmak shaili nibandh ko kaise jivit karti hai",
+    "nibandh ki tarkikta aur spashtata ka udaharan likhiye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "विधा की विशेषताएँ सूचिबद्ध कीजिए",
+     "explain": "आरेख में आठ बिंदु हैं - विषय-केंद्रीयता से साहित्यिक सौंदर्य तक।"},
+    {"step": 2, "action": "शैली की पहचान कीजिए",
+     "explain": "'क्या कोई भूकंप आया था?' जैसे प्रश्न और उनके उत्तर ही पाठ की रीढ़ हैं।"},
+    {"step": 3, "action": "प्रभाव बताइए",
+     "explain": "प्रश्नोत्तर ढाँचा पाठक को बातचीत में शामिल कर लेता है।"}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex7.1",
+   "source_ref": "ihga107.txt lines 252-291 (मेरे उत्तर मेरे तर्क - बहुविकल्पीय)",
+   "questions": [
+    "'आनंद की दीवार में दरार' पंक्ति में 'दरार' किस ओर संकेत करती है?",
+    "लेखक को किस तरह के प्रश्नों का उत्तर देने में अपूर्व आनंद आता है?",
+    "पराधीनता के दिनों को दीन कहा गया है क्योंकि पराधीन भारत में क्या था?",
+    "मनुष्य साधन-संपन्न होते हुए भी गौरव का अनुभव कब नहीं कर सकते?",
+    "'गाँठ' किन दो बातों को साथ बाँधती है?",
+    "इस निबंध में मुख्यतः कौन-सा भाव व्यक्त हुआ है?"
+   ]
+  },
+  {
+   "id": "ex7.2",
+   "source_ref": "ihga107.txt lines 292-298 (मेरी समझ मेरे विचार)",
+   "questions": [
+    "स्वामी रामतीर्थ फल देने वाले युवक का उत्तर सुनकर मुग्ध क्यों हो गए?",
+    "युवक ने फलों के मूल्य के रूप में क्या माँगा और उसके व्यक्तित्व की कौन-सी छवि उभरती है?",
+    "'मैं और मेरा देश दो अलग चीजें तो हैं ही नहीं' - इसके पीछे के तर्क उदाहरण सहित स्पष्ट कीजिए।"
+   ]
+  },
+  {
+   "id": "ex7.3",
+   "source_ref": "ihga107.txt lines 408-424 (चुनाव एवं आपके अनुभव) तथा lines 457-505 (व्याकरण)",
+   "questions": [
+    "चुनाव प्रक्रिया में किस तरह की गतिविधियाँ होती हैं?",
+    "एक अच्छे उम्मीदवार में क्या-क्या गुण होने चाहिए?",
+    "'दरार', 'गाँठ', 'पानी' शब्दों के संदर्भ के अनुसार भिन्न-भिन्न अर्थ लिखिए।",
+    "अपूर्णता जैसे शब्दों में उपसर्ग और प्रत्यय पहचानकर मूल शब्द लिखिए।"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_08_012",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_08_012",
+   "title": "c11_hs_cbse_08_012",
+   "questions": [
+    {
+     "q": "A child with spastic cerebral palsy frequently chokes on thin liquids like water and clear soup. What is the FIRST dietary adaptation recommended in the NCERT textbook for this specific problem?",
+     "a": "The first adaptation is to thicken thin liquids using agents like rice flour, cornstarch, or commercial thickeners to a nectar or honey consistency, which slows the flow rate and allows better oral control, reducing aspiration risk. A wrong answer (e.g., \"give only solid foods\" or \"use a feeding tube immediately\") reveals the student does not understand the graded approach: texture modification is the first-line intervention before considering tube feeding, and eliminating liquids entirely causes dehydration.",
+     "self_check": true
+    },
+    {
+     "q": "A 6-year-old child with autism refuses all foods that are white in colour (rice, milk, curd, potato) and gags when offered mixed textures like vegetable pulao. Explain why this happens and name the specific sensory processing issue involved.",
+     "a": "This is a sensory-based food aversion common in autism spectrum disorder, specifically tactile and visual sensory over-responsivity—the child's nervous system interprets certain colours, textures, or mixed textures as threatening, triggering a gag reflex. A wrong answer (e.g., \"the child is being stubborn\" or \"force-feed to break the habit\") reveals the student misattributes a neurological sensory processing difference to behavioural non-compliance, which leads to traumatic mealtimes and worsened food refusal.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-day meal plan with texture adaptations for a 5-year-old child with spastic diplegia who: (a) cannot chew hard foods, (b) aspirates on thin liquids, (c) has poor trunk control and cannot sit unsupported, and (d) shows fatigue after 15 minutes of eating. Include specific food items, texture modifications, positioning, and adaptive equipment.",
+     "a": "Breakfast: Ragi porridge thickened to spoon-thick consistency (prevents aspiration), fed in semi-reclined position (45°) with head support using a corner chair, using a maroon spoon (angled, thick handle) for better grip. Mid-morning: Mashed banana with ghee (smooth, calorie-dense). Lunch: Khichdi (rice + moong dal + carrot) pressure-cooked and blended to smooth paste, thickened with rice flour; served in small volumes every 10 minutes with rest breaks. Evening: Curd thickened with roasted gram flour (besan) to prevent thin-liquid aspiration. Dinner: Soft idli soaked in thick sambar, mashed. Equipment: Non-slip mat, weighted cup with lid and angled spout. A wrong answer missing any one component (e.g., no positioning strategy, no rest breaks, or giving thin buttermilk) reveals incomplete mapping of each observed deficit to its specific adaptation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the feeding adaptation priorities for a low birth weight infant (1.8 kg at birth, now 3 months corrected age) versus a 7-year-old child with autism who has extreme food selectivity (eats only 5 foods). Identify two similarities and two critical differences in approach.",
+     "a": "Similarities: (1) Both require calorie-dense, nutrient-dense foods in small volumes; (2) Both need close monitoring of growth parameters and deficiency signs. Differences: (1) LBW infant: primary focus is on breast milk fortification (calcium, phosphorus, vitamins, iron) and meeting high metabolic needs per kg body weight; autism: primary focus is sensory desensitization, food chaining, and preventing nutritional gaps from extreme selectivity. (2) LBW infant: feeding is caregiver-directed with responsive feeding cues; autism: feeding must respect autonomy, avoid pressure, and use systematic exposure therapy. A wrong answer that treats both with \"high-calorie diet\" alone reveals failure to distinguish between a metabolic/physiological deficit (LBW) and a sensory-behavioural feeding disorder (autism).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"For a child with cerebral palsy who cannot self-feed, the most efficient approach is for the caregiver to feed them quickly to ensure adequate calorie intake, even if the child resists.\" Justify your evaluation with reference to the three aspects mentioned in the NCERT textbook (Observations, Developing eating skills, Special diets).",
+     "a": "The statement is incorrect and harmful. NCERT emphasizes: (1) Observations—resistance signals distress, aspiration risk, or sensory overload; ignoring it misses critical cues. (2) Developing eating skills—rushing prevents skill acquisition; the child needs time to practice oral-motor patterns, even if messy. (3) Special diets—force-feeding creates negative associations, worsening food refusal long-term. The correct approach: slow-paced, responsive feeding with adaptive equipment to build independence, accepting mess as part of learning. A wrong answer supporting the statement reveals the student prioritizes short-term calorie delivery over long-term feeding competence and psychological well-being.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel \"Feeding Adaptation Decision Tree\" flowchart (describe in text) that a community health worker could use to decide between: (a) texture modification only, (b) adaptive equipment + texture modification, (c) feeding tube referral, for children with special needs in a rural setting. Include 4 decision nodes with yes/no branches.",
+     "a": "Decision Tree: \nNode 1: \"Does the child choke/cough on thin liquids?\" → YES → Thicken all liquids (nectar/honey consistency) → go to Node 2. NO → go to Node 2.\nNode 2: \"Can the child sit with trunk support for 20 minutes?\" → YES → Provide corner seat/roll → go to Node 3. NO → Semi-reclined positioning (45°), head support → go to Node 3.\nNode 3: \"Can the child manipulate a spoon/fingers to bring food to mouth?\" → YES → Provide thick-handled angled spoon, non-slip bowl → Texture modification as needed → Monitor. NO → Caregiver-assisted feeding with adaptive cup/spoon + texture modification → go to Node 4.\nNode 4: \"After 3 months of consistent adaptation, is weight gain < 15g/day (infant) or < 100g/month (child) OR recurrent aspiration pneumonia?\" → YES → Refer for feeding tube assessment (NG/G-tube). NO → Continue current plan with monthly review.\nA poor answer (e.g., a linear list without branching logic) reveals inability to synthesize assessment criteria into a clinical decision-making tool for resource-limited settings.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,234 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 7,
+ "chapter_title": "Finding the Unknown",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gegp207.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gegp2.7.1",
+   "title": "Find the Unknowns: Balance Puzzles",
+   "section": "Finding the Unknown",
+   "definition": "A weighing balance hides numbers: when a pan with unknown weights balances a known total, the unknown is found by removing the known part, the same move equations make with subtraction.",
+   "formula": "unknown = total - known",
+   "key_idea": "Balance is the picture of equality: whatever one side hides, the other side's surplus reveals.",
+   "textbook_ref": "gegp207.txt, Finding the Unknown",
+   "question_patterns": [
+    "two weights balance 15 kg and one is 8 kg find the other",
+    "find the unknown weight in the given balance puzzle",
+    "why does subtracting the known weight find the unknown",
+    "write the balance statement of the given puzzle as numbers",
+    "check your unknown by adding back",
+    "make a balance puzzle for your friend"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "write the balance",
+     "explain": "State that the parts together equal the whole.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "remove the known part",
+     "explain": "Subtract the known weight from the total.",
+     "compute": "unknown = total - known"
+    }
+   ]
+  },
+  {
+   "id": "gegp2.7.2",
+   "title": "Equations as Balanced Scales",
+   "section": "Equations",
+   "definition": "An equation like x + 4 = 11 is a balance in symbols: the equals sign promises both sides weigh the same, so whatever is done to one side must be done to the other to keep the balance true.",
+   "formula": "",
+   "key_idea": "The equals sign is the balance beam: treat both sides identically and the equation stays honest.",
+   "textbook_ref": "gegp207.txt, Equations",
+   "question_patterns": [
+    "solve x + 4 = 11",
+    "what happens to an equation when we add to only one side",
+    "solve 3x = 12 and check",
+    "write the equation for the given balance picture",
+    "why must both sides of an equation be treated equally",
+    "check your solution by substituting it back"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-checking, then conclude."
+    }
+   ]
+  },
+  {
+   "id": "gegp2.7.3",
+   "title": "One-Step Equations with Sharing",
+   "section": "Sharing and unknowns",
+   "definition": "When a total is shared equally and only the share is known, the unknown count multiplies: 3 bags hold 12 kg in all, so each bag holds 12 divided by 3, turning sharing stories into division equations.",
+   "formula": "x = diff / n",
+   "key_idea": "Sharing splits a total into equal unknowns: divide the known difference or total by the number of shares.",
+   "textbook_ref": "gegp207.txt, Sharing and unknowns",
+   "question_patterns": [
+    "3 equal bags hold 12 kg find the weight of one bag",
+    "solve 4x = 20 for x",
+    "write the equation for a total shared equally into 5 parts of 6",
+    "check a shared total by multiplying back",
+    "make a sharing story for the equation 5x = 30",
+    "why does sharing lead to division"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find the remaining total",
+     "explain": "Work out what the equal shares together must add to.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "divide by the number of shares",
+     "explain": "Each unknown share is the remaining total divided by the count.",
+     "compute": "x = diff / n"
+    }
+   ]
+  },
+  {
+   "id": "gegp2.7.4",
+   "title": "From Stories to Equations",
+   "section": "Stories to equations",
+   "definition": "Word problems become equations by naming the unknown with a letter and translating each phrase: more than becomes addition, together becomes a sum, and left becomes subtraction, ready to be solved.",
+   "formula": "",
+   "key_idea": "Translation is the whole trick: read the story once more and each phrase hands over its operation.",
+   "textbook_ref": "gegp207.txt, Stories to equations",
+   "question_patterns": [
+    "write the equation for a number increased by 7 equals 15",
+    "translate a story sum into an equation and solve",
+    "which words in a problem suggest subtraction",
+    "make a story for the equation x - 5 = 9",
+    "name the unknown with a letter in the given problem",
+    "solve your equation and re-read the story to check"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-checking, then conclude."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "gegp207.txt",
+   "concept": "gegp2.7.1",
+   "question_type": "compute",
+   "question_pattern": "Two weights together balance 15 kg, and one of them is 8 kg. Find the other.",
+   "extracted_variables": {
+    "total": "the total on the balancing side",
+    "known": "the known weight"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "write the balance",
+     "explain": "The two weights together equal the total.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "take away the known part",
+     "explain": "The unknown is what remains of the total.",
+     "compute": "unknown = total - known"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "gegp207.txt",
+   "concept": "gegp2.7.1",
+   "question_type": "compute",
+   "question_pattern": "A bag with books weighs 20 kg; the books alone weigh 12 kg. Find the weight of the bag.",
+   "extracted_variables": {
+    "total": "the total on the balancing side",
+    "known": "the known weight"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "write the balance",
+     "explain": "Bag plus books equals the total weight.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "take away the known part",
+     "explain": "Subtract the books to leave the bag's weight.",
+     "compute": "unknown = total - known"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gegp207.txt",
+   "concept": "gegp2.7.2",
+   "question_type": "verify_property",
+   "question_pattern": "solve x + 4 = 11.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gegp207.txt, Figure it Out",
+   "questions": [
+    "Two weights balance 15 kg and one is 8 kg; find the other.",
+    "Solve x + 4 = 11.",
+    "3 equal bags hold 12 kg; find the weight of one bag.",
+    "Write the equation for a number increased by 7 equals 15.",
+    "Why must both sides of an equation be treated equally?"
+   ]
+  }
+ ]
+}

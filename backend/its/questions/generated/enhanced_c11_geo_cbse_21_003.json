@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_21_003",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_21_003",
+   "title": "c11_geo_cbse_21_003",
+   "questions": [
+    {
+     "q": "What are the three gauge systems of Indian Railways and their respective track widths in millimeters?",
+     "a": "The three gauge systems are: Broad Gauge (1676 mm), Meter Gauge (1000 mm), and Narrow Gauge (762 mm and 610 mm). A wrong answer (e.g., confusing meter gauge with 1000 cm or stating only two gauges) reveals that the student has not memorized the standard gauge dimensions, which are fundamental to understanding gauge conversion and network compatibility.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Indian Railways historically develop multiple gauge systems instead of a single uniform gauge?",
+     "a": "Multiple gauges emerged due to historical, economic, and topographical reasons: Broad gauge for trunk routes with heavy traffic, meter gauge for cheaper construction in less developed regions, and narrow gauge for difficult mountainous terrain (e.g., Darjeeling, Kalka-Shimla). A wrong answer attributing it solely to British policy or ignoring terrain constraints shows a lack of understanding of the interplay between physical geography and economic decisions in infrastructure development.",
+     "self_check": true
+    },
+    {
+     "q": "Given a map of India showing railway lines, identify the gauge type likely used in the following corridors and justify: (a) Delhi-Mumbai main line, (b) Nilgiri Mountain Railway, (c) A branch line in rural Gujarat before gauge conversion.",
+     "a": "(a) Delhi-Mumbai main line: Broad Gauge (trunk route, high traffic). (b) Nilgiri Mountain Railway: Narrow Gauge (mountainous terrain, sharp curves). (c) Rural Gujarat branch line before conversion: Meter Gauge (lower cost, lighter traffic). Steps: 1) Recognize corridor importance and terrain. 2) Recall gauge selection criteria. 3) Apply to each corridor. A wrong assignment (e.g., broad gauge for mountain railway) indicates inability to link gauge choice to physical and economic factors.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the route length distribution of broad gauge, meter gauge, and narrow gauge in India as of the latest railway budget. What does the trend indicate about the Unigauge policy?",
+     "a": "As per recent data, Broad Gauge constitutes over 90% of route length, Meter Gauge less than 5%, Narrow Gauge around 2%. The trend shows aggressive gauge conversion to Broad Gauge under Unigauge policy, aiming for seamless connectivity, reduced transshipment costs, and higher capacity. A student who only quotes outdated percentages or misses the policy implication fails to analyze the dynamic nature of network evolution.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Gauge conversion to Broad Gauge is always economically beneficial for all regions of India.\"",
+     "a": "Not always. While broad gauge increases capacity and speed, conversion costs are enormous (₹10-15 crore/km). In low-traffic remote areas (e.g., parts of Northeast, hilly regions), the return on investment may be negative; maintaining meter/narrow gauge or alternative transport might be more sustainable. A student who agrees without qualification ignores regional disparities in traffic density, terrain difficulty, and opportunity cost of capital.",
+     "self_check": true
+    },
+    {
+     "q": "Design a proposal for a new railway link connecting a mineral-rich but remote district in Chhattisgarh to the nearest broad gauge main line. Specify the gauge choice, alignment considerations, and expected socio-economic benefits.",
+     "a": "A good proposal: Choose Broad Gauge for future-proofing and interoperability. Alignment should minimize gradients and curves, avoid dense forests and tribal lands, follow river valleys. Benefits: evacuation of minerals (iron ore, coal), employment generation, integration of backward region. A poor proposal might choose meter gauge to save cost, ignoring long-term network integration, or ignore environmental and social impact assessment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

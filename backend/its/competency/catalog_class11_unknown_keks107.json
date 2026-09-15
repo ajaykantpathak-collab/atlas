@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "english",
+  "chapter": 107,
+  "chapter_title": "The Science of Life: Ayurveda",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keks107.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keks107.1.1",
+      "title": "Ayurveda: The Science of Life",
+      "section": "1.1",
+      "definition": "Ayurveda, literally the science of life, is a holistic health system covering physical, physiological, psychological, environmental and ecological well-being. It aims not merely at curing disease but at preserving the health of the healthy and restoring balance in the ill.",
+      "formula": "",
+      "key_idea": "Science of life, not just medicine -- Ayurveda treats the whole person in a whole environment.",
+      "textbook_ref": "keks107.txt opening (science of life, holistic health system, physical physiological psychological environmental ecological well being)",
+      "question_patterns": [
+        "what does the word ayurveda literally mean",
+        "in class 11 ayurveda chapter: why is ayurveda called a holistic health system",
+        "what aspects of well being does ayurveda cover",
+        "state the twin aims of ayurveda",
+        "how does ayurveda differ from treatment of disease alone",
+        "explain the ecological dimension of ayurveda"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "translate the name",
+          "explain": "Ayus means life, veda means knowledge -- ayurveda is the knowledge of life."
+        },
+        {
+          "step": 2,
+          "action": "map the coverage",
+          "explain": "Its concerns run from body and mind to environment and ecology -- health as a whole system."
+        },
+        {
+          "step": 3,
+          "action": "state the aims",
+          "explain": "To protect the health of the healthy and to cure the diseases of the diseased -- prevention first."
+        }
+      ]
+    },
+    {
+      "id": "keks107.1.2",
+      "title": "Doshas, Balance and Diagnosis",
+      "section": "1.2",
+      "definition": "Ayurveda reads the body through the three doshas -- moving principles whose balance defines health and whose derangement defines disease. Diagnosis examines pulse, appearance, habits and history to find which dosha is disturbed; treatment then restores balance through diet, herbs, routine and therapies.",
+      "formula": "",
+      "key_idea": "Health is balance and disease is imbalance -- treatment means restoring the doshas, not just silencing symptoms.",
+      "textbook_ref": "keks107.txt dosha sections (three doshas, balance and imbalance, diagnosis, treatment diet herbs routine)",
+      "question_patterns": [
+        "name the three doshas of ayurveda",
+        "in class 11 ayurveda chapter: how does ayurveda define health and disease",
+        "what methods does ayurvedic diagnosis use",
+        "explain how diet acts as medicine in ayurveda",
+        "what daily routine does ayurveda recommend for health",
+        "how does treatment aim at balance rather than symptoms"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "meet the doshas",
+          "explain": "Three governing principles -- vata, pitta, kapha -- combine in each person in a characteristic pattern."
+        },
+        {
+          "step": 2,
+          "action": "diagnose the imbalance",
+          "explain": "Through pulse and observation of body, appetite and habits, the physician locates the disturbed dosha."
+        },
+        {
+          "step": 3,
+          "action": "restore the balance",
+          "explain": "Correct diet, herbs, regulated routine and therapies bring the doshas back to their healthy accord."
+        }
+      ]
+    },
+    {
+      "id": "keks107.1.3",
+      "title": "Ayurveda as a Contemporary Treasure House",
+      "section": "1.3",
+      "definition": "The chapter presents Ayurveda as a vast treasure house of ideas interesting and contemporary: emphasis on diet and lifestyle, prevention, plant-based remedies and ecological balance anticipates today's wellness concerns, and its classical texts remain subjects of active study and research.",
+      "formula": "",
+      "key_idea": "An ancient system speaking to modern worries -- lifestyle, prevention and ecology were Ayurveda's themes all along.",
+      "textbook_ref": "keks107.txt contemporary sections (classical texts, plant remedies, prevention and lifestyle, research on ayurveda, relevance today)",
+      "question_patterns": [
+        "why is ayurveda called relevant to modern times",
+        "in class 11 ayurveda chapter: what lifestyle advice of ayurveda is valued today",
+        "how does ayurveda emphasise prevention",
+        "what role do plant based remedies play in ayurveda",
+        "name the classical texts of ayurveda mentioned in the chapter",
+        "compare ayurveda's preventive approach with modern wellness ideas"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "read the classics",
+          "explain": "Classical compendia codified diagnosis, treatment and regimens that practitioners still consult."
+        },
+        {
+          "step": 2,
+          "action": "extract the modern echoes",
+          "explain": "Diet discipline, lifestyle balance and prevention match contemporary public-health advice."
+        },
+        {
+          "step": 3,
+          "action": "support with study",
+          "explain": "Research on plant remedies and regimens continues testing and extending the treasure house."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keks107.txt dosha sections",
+      "concept": "keks107.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "A patient complains of poor digestion and disturbed sleep. Describe how an Ayurvedic physician would approach the case.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "examine and diagnose",
+          "explain": "Pulse, tongue and history point to which dosha is deranged and by what habits."
+        },
+        {
+          "step": 2,
+          "action": "trace the causes",
+          "explain": "Irregular meals and late nights are identified as the aggravating routine."
+        },
+        {
+          "step": 3,
+          "action": "restore balance",
+          "explain": "Corrected meal times, calming herbs and a regular sleep regimen aim at the imbalance itself."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keks107.txt contemporary sections",
+      "concept": "keks107.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "Why is a chapter written on an ancient system placed in a modern textbook? Argue using Ayurveda's contemporary relevance.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "cite the shared concerns",
+          "explain": "Diet, lifestyle, prevention and ecology are today's health headlines and Ayurveda's old themes."
+        },
+        {
+          "step": 2,
+          "action": "cite the living practice",
+          "explain": "Classical texts and plant remedies remain in use and under research."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "The system's continuity and relevance justify its place in modern education."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keks107.txt end-of-chapter questions, reworded",
+      "questions": [
+        "What is the literal meaning of Ayurveda and why is it apt?",
+        "Explain the three doshas and their role in health.",
+        "How does Ayurveda approach diagnosis and treatment?",
+        "Why is diet considered central in Ayurvedic healing?",
+        "Show the contemporary relevance of Ayurvedic ideas.",
+        "What are the twin aims of Ayurveda as a health system?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_10_008",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_10_008",
+   "title": "c12_soc_cbse_10_008",
+   "questions": [
+    {
+     "q": "Define a political party in one sentence and state the two constitutional means it uses to achieve its goal.",
+     "a": "A political party is an organised group of citizens sharing a common ideology/programme that seeks to capture state power through constitutional means — primarily contesting elections and forming government. A wrong answer (e.g., \"a group that protests on streets\" or \"any NGO\") reveals confusion between political parties and pressure groups/social movements — parties uniquely aim for *direct* control of government via elections, not just influence from outside.",
+     "self_check": true
+    },
+    {
+     "q": "The Election Commission recognises a party as a \"National Party\" if it secures 6% of valid votes in any four or more states in a Lok Sabha or Assembly election AND wins at least four Lok Sabha seats. A student argues: \"If a party gets 6% votes in 4 states but wins zero Lok Sabha seats, it should still be a national party because vote share shows national presence.\" Explain why this argument is incorrect using the EC's criteria.",
+     "a": "The EC criteria are conjunctive (BOTH conditions must be met): 6% vote share in ≥4 states **AND** ≥4 Lok Sabha seats. Vote share alone is insufficient because a party could have scattered national support without winning any seat — winning seats proves *electoral viability* and ability to translate votes into legislative representation. A wrong answer reveals the student treats criteria as alternative (OR) rather than cumulative (AND), a common error in board exams where students quote only the vote-share condition.",
+     "self_check": true
+    },
+    {
+     "q": "In the 2019 Lok Sabha election, Party X won 303 seats with 37.4% vote share nationally, but in State A it won 0 out of 25 seats with 12% vote share, while in State B it won 22 out of 25 seats with 55% vote share. Using sociological concepts, explain why a national party's vote-to-seat conversion varies so sharply across states.",
+     "a": "FPTP (First-Past-The-Post) system amplifies regional concentration of support: Party X's votes are *efficiently concentrated* in State B (winning 88% seats with 55% votes) but *wasted* in State A (12% votes yield 0 seats because they finish second/third everywhere). Sociologically, this reflects **cleavage alignment** — Party X's core social base (e.g., upper castes + OBCs + specific religious group) is geographically clustered in State B but dispersed/minority in State A. A wrong answer focusing only on \"popularity\" misses the *spatial distribution of social groups* and the mechanical effect of FPTP — a key Class 12 board + CUET concept.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sociological bases of support for a typical \"national party\" (e.g., BJP or INC) versus a \"regional party\" (e.g., DMK, TMC, BJD). Why does the same caste group (e.g., Yadavs) vote for a national party in one state but a regional party in another?",
+     "a": "National parties build **cross-cutting coalitions** across castes, regions, religions (e.g., BJP: upper castes + OBCs + Dalits + tribals + Hindus across states) using ideology (Hindutva, nationalism, welfarism) as the umbrella. Regional parties mobilise **sub-national identity** (language, culture, regional pride) + **dominant caste** in that state (e.g., DMK: Tamil pride + non-Brahmin castes; RJD: Yadav-Muslim in Bihar). The same caste (Yadavs) votes differently because *political entrepreneurship* differs: in UP, Yadavs align with SP (regional, caste-based); in Bihar, with RJD (regional); but in Gujarat/Madhya Pradesh, many Yadavs vote BJP (national, ideology + welfare). A wrong answer treats caste as a fixed \"vote bank\" ignoring *party agency* and *state-level political history* — a classic board exam simplification.",
+     "self_check": true
+    },
+    {
+     "q": "\"India's multi-party system is a weakness — it leads to unstable coalitions, policy paralysis, and horse-trading. A two-party system like the UK would be better for governance.\" Evaluate this statement using evidence from 1989–2014 (coalition era) and 2014–present (single-party majority).",
+     "a": "The statement is **partially valid but sociologically incomplete**. Coalition era (1989–2014): 9 governments in 25 years, frequent collapses (e.g., V.P. Singh, Deve Gowda, Gujral, Vajpayee 13-day), but also *consensus-building* (Common Minimum Programmes), *federal accommodation* (regional parties got ministries), and *policy innovations* (RTI, NREGA, Nuclear Deal). Single-party majority (2014–present): stability, decisive action (Art 370, GST, Farm Laws), but *centralisation* (weakened federalism, Governor misuse, Opposition marginalisation). The multi-party system reflects India's *cleavage structure* (linguistic, religious, caste, regional) — forcing a two-party system would *suppress* diversity, not manage it. A wrong answer picks one side without weighing *representativeness vs efficiency* — the core democratic trade-off.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical political party for a new Indian state \"Purvanchal\" (carved out of eastern UP + western Bihar). Specify: (a) name, (b) core ideology, (c) primary social base (caste/community), (d) one regional demand, (e) one national issue it would champion. Justify each choice sociologically.",
+     "a": "Example answer: (a) **Purvanchal Vikas Party (PVP)**; (b) **Sub-national development + social justice** (combines regional deprivation narrative with caste equity); (c) **Non-dominant OBCs (Kurmi, Koeri, Yadav) + Dalits (Chamar, Musahar) + Muslims** — groups historically marginalised by both UP and Bihar power structures; (d) **Separate statehood + dedicated Purvanchal Development Board** — addresses *relative deprivation* (resource drain to Lucknow/Patna); (e) **Caste Census + OBC sub-categorisation** — national issue directly benefiting its base. Justification: Uses **Srinivas's \"dominant caste\" concept** — Purvanchal lacks a single dominant caste, so a *rainbow coalition* of subordinate groups is viable. A poor answer picks a single caste or copies existing parties — fails to show *original sociological reasoning* about cleavage alignment in a new polity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

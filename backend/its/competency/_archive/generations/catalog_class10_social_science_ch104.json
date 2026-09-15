@@ -1,0 +1,431 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 104,
+ "chapter_title": "Agriculture",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jess104.txt",
+ "concepts": [
+  {
+   "id": "jess.104.1.1",
+   "title": "Primitive Subsistence Farming and Shifting Cultivation",
+   "section": "Types of Farming - Primitive Subsistence",
+   "definition": "Traditional cultivation carried out on small plots using basic hand tools and family labor, heavily reliant on natural soil renewal and rainfall.",
+   "formula": "",
+   "key_idea": "Clearing forest patches for crop growth and relocating once land nutrients deplete.",
+   "textbook_ref": "jess104.txt lines 15-55",
+   "question_patterns": [
+    "in Class 10 geography: describe the features of primitive subsistence farming",
+    "explain how slash and burn agriculture works in traditional Indian farming",
+    "identify the regional names given to shifting cultivation across different Indian states",
+    "what are the main characteristics of slash and burn farming",
+    "contrast primitive subsistence farming with modern commercial agriculture"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify tools and labor type",
+     "explain": "Uses primitive tools like hoe, dao, digging sticks, and family or community labor."
+    },
+    {
+     "step": 2,
+     "action": "Examine environmental dependencies",
+     "explain": "Relies entirely on monsoons, natural soil fertility, and environmental suitability."
+    },
+    {
+     "step": 3,
+     "action": "Detail shifting mechanism",
+     "explain": "Farmers clear a fresh forest patch when soil fertility declines to allow natural soil replenishment."
+    }
+   ]
+  },
+  {
+   "id": "jess.104.1.2",
+   "title": "Intensive Subsistence Farming",
+   "section": "Types of Farming - Intensive Subsistence",
+   "definition": "High-density agricultural practice on smaller land holdings where heavy chemical inputs and manual labor are applied to maximize crop yields.",
+   "formula": "",
+   "key_idea": "High output extraction from divided land parcels caused by generational inheritance rights.",
+   "textbook_ref": "jess104.txt lines 60-80",
+   "question_patterns": [
+    "in Class 10 social science: detail the causes of high pressure on land in intensive subsistence farming",
+    "explain why landholdings become smaller across generations in India",
+    "what inputs are heavily utilized in intensive subsistence agricultural practices",
+    "analyze why farmers continue intensive farming on small plots despite low efficiency",
+    "outline the key features of intensive subsistence farming"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify demographic context",
+     "explain": "Practised in regions with dense population pressure on agricultural land."
+    },
+    {
+     "step": 2,
+     "action": "Analyze land subdivision cause",
+     "explain": "Right of inheritance divides land across successive generations, making landholding sizes small."
+    },
+    {
+     "step": 3,
+     "action": "Specify high-yield inputs",
+     "explain": "Requires heavy doses of biochemical inputs and irrigation to obtain maximum yield from limited space."
+    }
+   ]
+  },
+  {
+   "id": "jess.104.1.3",
+   "title": "Commercial Farming and Plantation Agriculture",
+   "section": "Types of Farming - Commercial Farming",
+   "definition": "Agricultural production aimed primarily at market sales using high-yielding seeds, chemical agents, and capital-heavy plantation systems.",
+   "formula": "",
+   "key_idea": "Large-scale monoculture serving industrial production with integrated transport links.",
+   "textbook_ref": "jess104.txt lines 85-125",
+   "question_patterns": [
+    "in Class 10 geography: define plantation agriculture and state its chief characteristics",
+    "explain how modern inputs enhance productivity in commercial farming",
+    "identify major plantation crops grown in southern and north-eastern India",
+    "how does commercial farming bridge agriculture and industrial raw material supply",
+    "compare commercial farming practices between different Indian states"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Characterize input requirements",
+     "explain": "Uses modern inputs like HYV seeds, chemical fertilizers, insecticides, and pesticides for higher productivity."
+    },
+    {
+     "step": 2,
+     "action": "Define plantation model",
+     "explain": "Single crop grown over vast land tracts using capital-intensive methods and migrant labor."
+    },
+    {
+     "step": 3,
+     "action": "Highlight market and industrial links",
+     "explain": "All produce serves as raw material for processing industries, requiring good transport networks."
+    }
+   ]
+  },
+  {
+   "id": "jess.104.2.1",
+   "title": "Cropping Seasons in India",
+   "section": "Cropping Pattern",
+   "definition": "The division of the agricultural year into distinct sowing and harvesting cycles based on seasonal weather patterns and monsoon arrivals.",
+   "formula": "",
+   "key_idea": "Three annual cropping cycles known as Rabi, Kharif, and Zaid govern Indian crop schedules.",
+   "textbook_ref": "jess104.txt lines 130-170",
+   "question_patterns": [
+    "in Class 10 social science: differentiate between Rabi and Kharif cropping seasons",
+    "what is the Zaid season and which crops are harvested during this period",
+    "list the major crops sown during the winter Rabi season in northern India",
+    "explain the role of western temperate cyclones in supporting Rabi crop yield",
+    "identify the sowing and harvesting months for Kharif crops"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze Rabi cycle",
+     "explain": "Sown in winter (October-December) and harvested in summer (April-June); crops include wheat, barley, peas."
+    },
+    {
+     "step": 2,
+     "action": "Analyze Kharif cycle",
+     "explain": "Sown with monsoon onset and harvested in September-October; crops include paddy, maize, cotton."
+    },
+    {
+     "step": 3,
+     "action": "Analyze Zaid cycle",
+     "explain": "Short summer season between Rabi and Kharif; produces watermelon, muskmelon, cucumber, and fodder crops."
+    }
+   ]
+  },
+  {
+   "id": "jess.104.3.1",
+   "title": "Major Cereal Crops: Rice and Wheat",
+   "section": "Major Crops - Rice and Wheat",
+   "definition": "The primary staple grain crops of India requiring distinct climatic conditions, rainfall levels, and geographical landscapes for growth.",
+   "formula": "",
+   "key_idea": "Rice thrives in warm humid monsoon zones while wheat requires cooler growing temperatures and bright sunshine during ripening.",
+   "textbook_ref": "jess104.txt lines 175-235",
+   "question_patterns": [
+    "in Class 10 geography: describe the geographical conditions needed for growing rice",
+    "what climate and soil conditions are required for optimal wheat cultivation",
+    "identify top rice and wheat producing states across India",
+    "explain how canal irrigation enabled paddy growth in dry north-western states",
+    "compare temperature and annual rainfall requirements for rice and wheat"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Specify rice conditions",
+     "explain": "Kharif crop needing temperature above 25 deg C, high humidity, and annual rainfall above 100 cm."
+    },
+    {
+     "step": 2,
+     "action": "Specify wheat conditions",
+     "explain": "Rabi crop requiring cool growing season, bright sunshine at ripening, and 50 to 75 cm annual rainfall."
+    },
+    {
+     "step": 3,
+     "action": "Identify key growing belts",
+     "explain": "Rice in northern and coastal plains/deltas; Wheat in Ganga-Satluj plains and Deccan black soil region."
+    }
+   ]
+  },
+  {
+   "id": "jess.104.3.2",
+   "title": "Coarse Grains and Pulses",
+   "section": "Major Crops - Millets and Pulses",
+   "definition": "Nutritious coarse grains adapted to dry climates alongside leguminous pulse crops that restore soil fertility.",
+   "formula": "",
+   "key_idea": "Coarse grains thrive in arid conditions while nitrogen-fixing pulses restore soil health in crop rotation systems.",
+   "textbook_ref": "jess104.txt lines 240-290",
+   "question_patterns": [
+    "in Class 10 social science: explain why pulses are vital in crop rotation",
+    "name the chief millet crops grown in India and highlight their nutritional value",
+    "which states are major producers of Jowar, Bajra, and Ragi",
+    "describe the soil and rainfall conditions necessary for growing Bajra and Ragi",
+    "identify why arhar differs from other pulse crops regarding soil fertility restoration"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Detail millet characteristics",
+     "explain": "Jowar, Bajra, and Ragi are coarse grains with high nutritional value (iron, calcium) suitable for dry/rain-fed areas."
+    },
+    {
+     "step": 2,
+     "action": "Detail pulse importance",
+     "explain": "Major vegetarian protein source surviving in dry conditions with low moisture requirements."
+    },
+    {
+     "step": 3,
+     "action": "Explain nitrogen fixation",
+     "explain": "Leguminous nature enables pulses (except arhar) to fix atmospheric nitrogen and restore soil fertility."
+    }
+   ]
+  },
+  {
+   "id": "jess.104.4.1",
+   "title": "Commercial Food Crops: Sugarcane, Oilseeds, Tea, and Coffee",
+   "section": "Food Crops Other Than Grains",
+   "definition": "Non-grain cash crops grown for culinary, industrial, and beverage consumption under specific tropical and subtropical climates.",
+   "formula": "",
+   "key_idea": "Cash crops require substantial labor, moist frost-free weather, or tropical heat to yield commercial produce.",
+   "textbook_ref": "jess104.txt lines 295-365",
+   "question_patterns": [
+    "in Class 10 geography: outline climatic requirements for tea plantation growth",
+    "what conditions favour sugarcane cultivation and which states lead in its output",
+    "identify major oilseeds grown in India and their industrial uses",
+    "explain the significance of Arabica coffee variety cultivated in India",
+    "describe horticulture crops produced in various geographical zones of India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine Sugarcane and Oilseeds",
+     "explain": "Sugarcane needs hot humid climate (21 to 27 deg C, 75-100 cm rain); Oilseeds cover 12% cropped area as edible oil and industrial inputs."
+    },
+    {
+     "step": 2,
+     "action": "Examine Tea Plantation",
+     "explain": "Grows in deep, fertile, humus-rich soil; requires warm, moist frost-free climate with frequent showers and abundant labor."
+    },
+    {
+     "step": 3,
+     "action": "Examine Coffee and Horticulture",
+     "explain": "Yemeni Arabica coffee grown on Baba Budan Hills; wide array of tropical/temperate fruits and vegetables produced."
+    }
+   ]
+  },
+  {
+   "id": "jess.104.5.1",
+   "title": "Non-Food Crops: Rubber, Cotton, and Jute",
+   "section": "Non-Food Crops",
+   "definition": "Industrial raw material crops including natural rubber and plant fibers cultivated under specific humidity and soil conditions.",
+   "formula": "",
+   "key_idea": "Fibre and rubber crops depend heavily on high rainfall, frost-free days, or fertile renewed floodplains.",
+   "textbook_ref": "jess104.txt lines 370-420",
+   "question_patterns": [
+    "in Class 10 social science: why is jute known as the golden fibre",
+    "describe the geographical conditions ideal for cotton cultivation",
+    "what climatic conditions are essential for growing natural rubber",
+    "identify major cotton and jute manufacturing states in India",
+    "explain the term sericulture and state how silk fibre is obtained"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze Rubber requirements",
+     "explain": "Equatorial/tropical crop needing moist humid climate, over 200 cm rainfall, and temperature above 25 deg C."
+    },
+    {
+     "step": 2,
+     "action": "Analyze Cotton requirements",
+     "explain": "Grows in Deccan black soil; requires high temperature, light rainfall/irrigation, 210 frost-free days, and bright sunshine."
+    },
+    {
+     "step": 3,
+     "action": "Analyze Jute requirements",
+     "explain": "Known as golden fibre; grows on renewed fertile floodplain soils under high growth temperatures."
+    }
+   ]
+  },
+  {
+   "id": "jess.104.6.1",
+   "title": "Technological and Institutional Reforms in Indian Agriculture",
+   "section": "Technological and Institutional Reforms",
+   "definition": "Government policies, modernization initiatives, and financial safeguards introduced to enhance agricultural productivity and farmer security.",
+   "formula": "",
+   "key_idea": "Land consolidation, Green Revolution, crop insurance, KCC, and MSP safeguard farming livelihoods against market and climate risks.",
+   "textbook_ref": "jess104.txt lines 425-470",
+   "question_patterns": [
+    "in Class 10 geography: list major institutional reforms introduced in Indian agriculture post independence",
+    "explain how Kisan Credit Card and PAIS support rural farmers",
+    "what is Minimum Support Price and how does it protect agriculturalists",
+    "describe the impact of Green Revolution and White Revolution on Indian farming",
+    "why were land consolidation and abolition of zamindari prioritized in early Five Year Plans"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify early post-independence reforms",
+     "explain": "Collectivisation, consolidation of holdings, cooperation, and abolition of zamindari prioritized in First Five Year Plan."
+    },
+    {
+     "step": 2,
+     "action": "Highlight technological strategies",
+     "explain": "Green Revolution (package technology) and White Revolution (Operation Flood) introduced in 1960s-1970s."
+    },
+    {
+     "step": 3,
+     "action": "List modern financial and support schemes",
+     "explain": "Crop insurance, Kisan Credit Card (KCC), Personal Accident Insurance Scheme (PAIS), Grameen banks, and Minimum Support Price (MSP)."
+    }
+   ]
+  },
+  {
+   "id": "jess.104.6.2",
+   "title": "Bhoodan - Gramdan Movement",
+   "section": "Bhoodan - Gramdan",
+   "definition": "A voluntary land-reform movement led by Vinoba Bhave involving non-violent donation of land to landless villagers, termed the Bloodless Revolution.",
+   "formula": "",
+   "key_idea": "Land donation by wealthy landowners to landless peasants facilitated social equity without state coercion.",
+   "textbook_ref": "jess104.txt lines 475-510",
+   "question_patterns": [
+    "in Class 10 social science: explain the origin and significance of Bhoodan Gramdan movement",
+    "who initiated the Bloodless Revolution in Indian agricultural history",
+    "describe Shri Ram Chandra Reddy's contribution to Pochampally land distribution",
+    "why did some landowners voluntarily donate land under the Gramdan movement",
+    "how did Vinoba Bhave carry forward Mahatma Gandhi's concept of Gram Swarajya"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify leader and philosophy",
+     "explain": "Initiated by Vinoba Bhave, Mahatma Gandhi's spiritual heir, to spread the message of Gram Swarajya."
+    },
+    {
+     "step": 2,
+     "action": "Trace Bhoodan origin",
+     "explain": "Shri Ram Chandra Reddy offered 80 acres of land to 80 landless villagers at Pochampally, starting Bhoodan."
+    },
+    {
+     "step": 3,
+     "action": "Define Gramdan and Bloodless Revolution",
+     "explain": "Zamindars donated entire villages (Gramdan); voluntary non-violent land transfer earned the name Bloodless Revolution."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jess104.txt lines 130-170",
+   "concept": "jess.104.2.1",
+   "question_type": "conceptual_explanation",
+   "question_pattern": "Explain the three cropping seasons of India with suitable crop examples for each.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Detail Rabi Season",
+     "explain": "Rabi crops are sown in winter (October to December) and harvested in summer (April to June). Key crops include wheat, barley, peas, gram, and mustard."
+    },
+    {
+     "step": 2,
+     "action": "Detail Kharif Season",
+     "explain": "Kharif crops are sown at the onset of monsoon and harvested in September-October. Key crops include paddy, maize, jowar, bajra, cotton, and jute."
+    },
+    {
+     "step": 3,
+     "action": "Detail Zaid Season",
+     "explain": "Zaid is a short summer cropping season between Rabi and Kharif. Key crops include watermelon, muskmelon, cucumber, and fodder crops."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jess104.txt lines 425-470",
+   "concept": "jess.104.6.1",
+   "question_type": "institutional_analysis",
+   "question_pattern": "Enlist major institutional and technological reforms initiated by the Indian government to boost agricultural growth.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Outline Land Reforms",
+     "explain": "Land consolidation, collectivisation, cooperation, and abolition of zamindari were prioritized in the First Five Year Plan."
+    },
+    {
+     "step": 2,
+     "action": "Outline Technological Initiatives",
+     "explain": "The Green Revolution and White Revolution (Operation Flood) introduced package technology and modern inputs in the 1960s and 1970s."
+    },
+    {
+     "step": 3,
+     "action": "Outline Financial and Support Schemes",
+     "explain": "Provision of crop insurance, establishment of Grameen Banks, Kisan Credit Card (KCC), Personal Accident Insurance Scheme (PAIS), and Minimum Support Price (MSP)."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "jess104.txt lines 515-535",
+   "questions": [
+    "Which one of the following describes a system of agriculture where a single crop is grown on a large area? (a) Shifting Agriculture (b) Plantation Agriculture (c) Horticulture (d) Intensive Agriculture",
+    "Which one of the following is a rabi crop? (a) Rice (b) Gram (c) Millets (d) Cotton",
+    "Which one of the following is a leguminous crop? (a) Pulses (b) Jawar (c) Millets (d) Sesamum"
+   ]
+  },
+  {
+   "id": "ex2.1",
+   "source_ref": "jess104.txt lines 536-545",
+   "questions": [
+    "Name one important beverage crop and specify the geographical conditions required for its growth.",
+    "Name one staple crop of India and the regions where it is produced.",
+    "Enlist the various institutional reform programmes introduced by the government in the interest of farmers."
+   ]
+  },
+  {
+   "id": "ex3.1",
+   "source_ref": "jess104.txt lines 546-555",
+   "questions": [
+    "Suggest the initiative taken by the government to ensure the increase in agricultural production.",
+    "Describe the geographical conditions required for the growth of rice."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

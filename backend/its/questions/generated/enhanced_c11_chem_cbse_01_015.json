@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_01_015",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_01_015",
+   "title": "c11_chem_cbse_01_015",
+   "questions": [
+    {
+     "q": "What is the molar volume of an ideal gas at STP (Standard Temperature and Pressure: 0°C, 1 bar) as per current IUPAC convention, and how does it differ from the pre-1982 convention?",
+     "a": "Correct answer: At STP (0°C, 1 bar), molar volume = 22.7 L/mol. The pre-1982 convention (0°C, 1 atm) gave 22.4 L/mol. A wrong answer (using 22.4 L/mol) reveals the student is relying on outdated textbook values without knowing IUPAC redefined STP pressure from 1 atm to 1 bar in 1982. This causes systematic errors in board exams where 22.7 L/mol is now the standard.",
+     "self_check": true
+    },
+    {
+     "q": "In the reaction 2Al + 3Cl₂ → 2AlCl₃, 5.4 g Al reacts with 7.1 g Cl₂. A student calculates moles Al = 0.2 mol, moles Cl₂ = 0.1 mol, and concludes Al is limiting because 0.2 > 0.1. Explain why this reasoning is chemically incorrect.",
+     "a": "Correct reasoning: Limiting reagent is determined by comparing the actual mole ratio to the stoichiometric mole ratio, not by comparing absolute mole values. Stoichiometric ratio required = 2 mol Al : 3 mol Cl₂ = 0.667. Actual ratio = 0.2/0.1 = 2.0. Since actual ratio > required ratio, Al is in excess and Cl₂ is limiting. The wrong answer reveals a fundamental Class 11 misconception: treating \"limiting\" as \"smaller number of moles\" rather than \"insufficient relative to stoichiometric demand.\"",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the mass of CaCO₃ (molar mass = 100 g/mol) required to completely react with 250 mL of 0.5 M HCl. Reaction: CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂.",
+     "a": "Steps: (1) Moles HCl = 0.250 L × 0.5 mol/L = 0.125 mol. (2) Stoichiometry: 2 mol HCl : 1 mol CaCO₃ → moles CaCO₃ needed = 0.125/2 = 0.0625 mol. (3) Mass CaCO₃ = 0.0625 mol × 100 g/mol = 6.25 g. A wrong answer of 12.5 g reveals using 1:1 ratio ignoring the coefficient 2 for HCl. An answer of 3.125 g reveals inverting the ratio. An answer of 6250 g reveals forgetting to convert mL to L.",
+     "self_check": true
+    },
+    {
+     "q": "Two students solve: \"10 g H₂ reacts with 64 g O₂ to form water. Find mass of water formed and identify limiting reagent.\" Student A gets 90 g H₂O, O₂ limiting. Student B gets 112.5 g H₂O, H₂ limiting. Analyze both approaches and determine who is correct.",
+     "a": "Correct: Moles H₂ = 10/2 = 5 mol, moles O₂ = 64/32 = 2 mol. Reaction: 2H₂ + O₂ → 2H₂O. Required H₂:O₂ = 2:1 = 2. Actual ratio = 5/2 = 2.5 > 2 → O₂ is limiting. From 2 mol O₂ → 4 mol H₂O = 72 g H₂O. Student A's 90 g suggests they incorrectly used H₂ as limiting (5 mol H₂ → 5 mol H₂O = 90 g). Student B's 112.5 g suggests a calculation error. The wrong answers reveal inability to correctly apply limiting reagent logic with non-stoichiometric amounts.",
+     "self_check": true
+    },
+    {
+     "q": "A problem states: \"5.6 L of gas X at STP reacts with excess Y to give 11.2 L of gas Z at STP. Molar mass of X = 28 g/mol, Z = 44 g/mol. Identify X and Z and write the balanced equation.\" A student proposes: X = N₂, Z = CO₂, equation: N₂ + 2O₂ → 2CO₂. Evaluate this answer.",
+     "a": "Evaluation: Incorrect. At STP, volume ratio = mole ratio. 5.6 L X : 11.2 L Z = 1:2 mole ratio. So 1 mol X → 2 mol Z. Molar mass X = 28 g/mol suggests N₂. Molar mass Z = 44 g/mol suggests CO₂. But N₂ + 2O₂ → 2CO₂ violates mass conservation (nitrogen atoms disappear). Correct: X = C₂H₄ (ethene, 28 g/mol), Z = CO₂, equation: C₂H₄ + 3O₂ → 2CO₂ + 2H₂O. The wrong answer reveals matching molar masses while ignoring elemental conservation - a critical stoichiometric reasoning error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a word problem requiring ALL these steps: (a) calculate molarity from mass/volume, (b) use dilution formula M₁V₁ = M₂V₂, (c) stoichiometry with limiting reagent, (d) calculate percentage yield. Provide the problem statement and solution outline.",
+     "a": "Sample problem: \"A student prepares 250 mL of 0.2 M Na₂CO₃ by dissolving Na₂CO₃·10H₂O (M = 286 g/mol). They take 25 mL and dilute to 100 mL. This is mixed with 50 mL of 0.15 M CaCl₂. The CaCO₃ precipitate weighs 0.45 g after drying. Calculate: (i) mass of hydrate used, (ii) molarity after dilution, (iii) theoretical yield of CaCO₃, (iv) percentage yield.\" Solution: (i) Moles Na₂CO₃ = 0.25×0.2 = 0.05 mol → mass = 0.05×286 = 14.3 g. (ii) M₁V₁ = M₂V₂ → 0.2×25 = M₂×100 → M₂ = 0.05 M. (iii) Moles CaCO₃ from limiting reagent (CaCl₂: 0.05×0.15 = 0.0075 mol; Na₂CO₃: 0.025×0.05 = 0.00125 mol → Na₂CO₃ limiting). Theoretical yield = 0.00125×100 = 0.125 g. (iv) % yield = 0.45/0.125×100 = 360% → impossible, indicating impure product or measurement error. A poor answer reveals compartmentalized learning - inability to chain concepts sequentially.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

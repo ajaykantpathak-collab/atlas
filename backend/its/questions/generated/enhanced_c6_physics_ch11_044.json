@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch11_044",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch11_044",
+   "title": "c6_physics_ch11_044",
+   "questions": [
+    {
+     "q": "What is the primary function of a microscope compared to a telescope?",
+     "a": "A microscope magnifies very small objects to reveal details like cells, while a telescope magnifies very distant objects like planets and stars. A wrong answer here suggests confusion between \"distance\" and \"size,\" indicating the student hasn't differentiated between observing the \"micro\" world and the \"macro\" world.",
+     "self_check": true
+    },
+    {
+     "q": "If you want to see the specific colors that make up a beam of sunlight, which optical instrument would you choose?",
+     "a": "You would use a spectroscope. If a student chooses a microscope or telescope, they likely believe all optical instruments are just for \"making things look bigger\" rather than understanding that they have different, specialized functions.",
+     "self_check": true
+    },
+    {
+     "q": "Why can't you use a microscope to look at the craters on the Moon?",
+     "a": "A microscope is designed for extremely close-up work on tiny objects and lacks the ability to capture light from immense distances, unlike a telescope. Answering this incorrectly shows a lack of understanding regarding the intended physical scale each instrument is designed for.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a camera and the human eye: how do both use light to create an image?",
+     "a": "Both use a lens to focus light onto a surface (the film/sensor in a camera, and the retina in the eye) to create an image. Confusion here usually stems from not recognizing that the \"focusing\" action of a lens is a universal requirement for forming clear images in both biology and technology.",
+     "self_check": true
+    },
+    {
+     "q": "Could a telescope be used to identify the component colors of a distant star's light?",
+     "a": "Yes, but only if it is fitted with a spectroscope, because the telescope collects the light, but the spectroscope is needed to split that light into colors. This tests the understanding that instruments can sometimes be used together, not just in isolation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to demonstrate that light can be \"captured\" (like a camera) or \"magnified\" (like a telescope).",
+     "a": "A good answer would suggest using a magnifying glass to focus sunlight onto a piece of paper (demonstrating magnification/focusing) or using a dark box with a small pinhole to project an image on a wall (demonstrating the basic principle of a camera). Poor answers fail to connect the tool to the specific action of manipulating light.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,237 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 2,
+ "chapter_title": "Understanding the Weather",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gees102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gees.2.1",
+   "title": "Weather and Its Elements",
+   "section": "What is weather",
+   "definition": "Weather is the state of the atmosphere at a place and time, described by elements such as temperature, rainfall, humidity and wind, which can change within hours.",
+   "formula": "",
+   "key_idea": "Weather is the day-to-day mood of the air: hot or cold, wet or dry, still or windy.",
+   "textbook_ref": "gees102.txt, What is weather",
+   "question_patterns": [
+    "what is weather and what are its elements",
+    "how does weather change during a single day",
+    "which element of weather matters most to farmers",
+    "how is weather different from climate",
+    "what makes the air humid",
+    "describe today's weather using all its elements"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  },
+  {
+   "id": "gees.2.2",
+   "title": "Reading the Weather Data Table",
+   "section": "Weather data",
+   "definition": "Newspaper weather tables report each station's maximum and minimum temperature, the normal values for the date, and the departure DEP, which is the actual ACT reading minus the normal NOR reading.",
+   "formula": "dep = act - nor",
+   "key_idea": "The departure column condenses the day's story: a positive DEP means warmer than normal, a negative one cooler.",
+   "textbook_ref": "gees102.txt, Weather data",
+   "question_patterns": [
+    "what do act nor and dep mean in a weather table",
+    "how is the departure of temperature calculated",
+    "what does a negative departure tell us",
+    "which unit records rainfall in the weather table",
+    "why do newspapers print normal values beside actual ones",
+    "find the station with the highest maximum temperature in the table"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the actual and normal columns",
+     "explain": "Locate the ACT and NOR values for maximum or minimum temperature.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "subtract normal from actual",
+     "explain": "DEP = ACT minus NOR, so positive means above normal.",
+     "compute": "dep = act - nor"
+    }
+   ]
+  },
+  {
+   "id": "gees.2.3",
+   "title": "Weather in Daily Life",
+   "section": "Krishnan's dialogue",
+   "definition": "Through Krishnan of Chennai talking with a friend, the chapter shows how weather steers daily choices, from clothes and travel to farming, fishing and festival plans.",
+   "formula": "",
+   "key_idea": "Everyone plans around the weather: the same shower delights a farmer and delays a traveller.",
+   "textbook_ref": "gees102.txt, Krishnan's dialogue",
+   "question_patterns": [
+    "how does weather affect daily life in chennai",
+    "what would you wear in humid weather and why",
+    "how do fishermen use weather information",
+    "why is weather news important for farmers",
+    "describe situations where weather changed your plans",
+    "how do people prepare for heavy rain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  },
+  {
+   "id": "gees.2.4",
+   "title": "Measuring the Elements of Weather",
+   "section": "Measuring weather",
+   "definition": "Each element of weather is measured with an instrument: thermometers record maximum and minimum temperature, a rain gauge collects rainfall, and humidity and wind have their own measures.",
+   "formula": "",
+   "key_idea": "Careful measurement turns weather from talk into data that can be compared across days and places.",
+   "textbook_ref": "gees102.txt, Measuring weather",
+   "question_patterns": [
+    "which instrument measures temperature",
+    "how does a rain gauge work",
+    "what does a maximum minimum thermometer record",
+    "how is humidity of air expressed",
+    "why must weather be measured at fixed hours",
+    "make your own weather record for a week"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gees102.txt, weather data table",
+   "concept": "gees.2.2",
+   "question_type": "compute",
+   "question_pattern": "In the weather table, the Srinagar row shows maximum temperature ACT 6.5 degrees C and NOR 8.9 degrees C. Find the DEP.",
+   "extracted_variables": {
+    "act": "actual maximum temperature",
+    "nor": "normal maximum temperature"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the two columns",
+     "explain": "Take the actual and the normal maximum temperature from the row.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "subtract to get the departure",
+     "explain": "The departure is the actual reading minus the normal reading.",
+     "compute": "dep = act - nor"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gees102.txt, weather data table",
+   "concept": "gees.2.2",
+   "question_type": "compute",
+   "question_pattern": "A station records minimum temperature ACT 2.0 and NOR 2.4 degrees C. What is the DEP of the minimum temperature?",
+   "extracted_variables": {
+    "act": "actual minimum temperature",
+    "nor": "normal minimum temperature"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "pick the minimum columns",
+     "explain": "Use the minimum temperature ACT and NOR values of the row.",
+     "compute": null
+    },
+    {
+     "step": 2,
+     "action": "compute the departure",
+     "explain": "A negative departure means the night was colder than normal.",
+     "compute": "dep = act - nor"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gees102.txt",
+   "concept": "gees.2.2",
+   "question_type": "verify_property",
+   "question_pattern": "discuss situations in which weather changed your plans.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gees102.txt, Let us explore",
+   "questions": [
+    "Imagine Krishnan from Chennai speaking about weather: what does he say?",
+    "Discuss situations in which weather changed your plans.",
+    "Read the weather table at the end and find the departures.",
+    "Choose a site for a weather station and list what you would record daily.",
+    "Compare the maximum temperatures of two stations from the table."
+   ]
+  }
+ ]
+}

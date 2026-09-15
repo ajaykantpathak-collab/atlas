@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_06_002",
+   "title": "c12_phy_cbse_06_002",
+   "questions": [
+    {
+     "q": "State Lenz's law in your own words and write the mathematical expression of Faraday's law that incorporates it. What is the SI unit of the quantity represented by the negative sign?",
+     "a": "Lenz's law: The induced current flows in a direction such that its magnetic field opposes the change in magnetic flux that produced it. Faraday's law with Lenz's law: \\(\\mathcal{E} = -N \\frac{d\\Phi_B}{dt}\\). The negative sign is dimensionless; the SI unit of induced emf \\(\\mathcal{E}\\) is volt (V). A wrong answer (e.g., stating the induced current *aids* the flux change, or giving the unit of the negative sign as volt) reveals confusion between the *magnitude* of emf (Faraday) and its *direction* (Lenz), or a misunderstanding that the negative sign carries units.",
+     "self_check": true
+    },
+    {
+     "q": "A circular loop lies in the plane of this paper. A uniform magnetic field points perpendicularly *into* the paper and is increasing steadily with time. Using Lenz's law, determine the direction of the induced current in the loop as seen from above. Explain why the induced magnetic field must point *out of* the paper.",
+     "a": "The induced current flows **counterclockwise** (as seen from above). Since the external field into the paper is increasing, the induced magnetic field must point out of the paper to oppose this increase. By the right-hand thumb rule, a counterclockwise current produces a field out of the paper. A wrong answer (clockwise) indicates the student thinks the induced field should *align* with the external field, violating energy conservation — they have not grasped that \"oppose the change\" means oppose the *increase*, not the field itself.",
+     "self_check": true
+    },
+    {
+     "q": "A rectangular loop of wire (width \\(w = 0.20\\ \\text{m}\\), length \\(l = 0.40\\ \\text{m}\\)) is pulled at constant velocity \\(v = 0.10\\ \\text{m/s}\\) out of a region of uniform magnetic field \\(B = 0.50\\ \\text{T}\\) directed into the page. The loop's plane is perpendicular to the field. At the instant when half the loop is still in the field, find (a) the magnitude of the induced emf, and (b) the direction of the induced current.",
+     "a": "(a) The flux through the loop is \\(\\Phi_B = B \\times A_{\\text{inside}}\\). As the loop exits, the area inside the field decreases at rate \\(\\frac{dA}{dt} = -w v\\). Magnitude of induced emf: \\(|\\mathcal{E}| = B w v = (0.50)(0.20)(0.10) = 0.010\\ \\text{V} = 10\\ \\text{mV}\\).  \n(b) Flux into the page is *decreasing*. To oppose this decrease, induced current must produce a field *into* the page. By right-hand rule, this requires a **clockwise** current.  \nA wrong magnitude (e.g., using total area \\(wl\\) instead of rate of change of area) shows confusion between flux and rate of change of flux. A wrong direction (counterclockwise) shows failure to apply \"oppose the *change*\" — they opposed the field direction rather than its decrease.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical circular loops, Loop A and Loop B, are placed coaxially. Loop A carries a steady current \\(I\\) clockwise as seen from the left. Loop B is initially at rest. If Loop B is moved *toward* Loop A along the common axis, what is the direction of the induced current in Loop B as seen from the left? Justify using Lenz's law and the concept of magnetic flux.",
+     "a": "The current in Loop A produces a magnetic field pointing *to the right* along the axis (right-hand rule for clockwise current). As Loop B approaches, the flux through Loop B *to the right* increases. To oppose this increase, the induced current in Loop B must produce a field *to the left*. By right-hand rule, this requires a **counterclockwise** current as seen from the left. A wrong answer (clockwise) indicates the student used the direction of the *source* current rather than the direction of the *flux change* — a common error when multiple loops are involved.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"In Experiment 6.1 (NCERT), when the north pole of a magnet is pushed toward a coil, the induced current creates a north pole facing the magnet. This *attracts* the magnet, so the magnet accelerates *toward* the coil without any external work. This violates conservation of energy, so Lenz's law must be wrong.\" Identify the flaw in this argument and explain what actually happens.",
+     "a": "The flaw: The student claims the induced north pole *attracts* the approaching north pole. In reality, like poles **repel**. The induced current creates a north pole facing the approaching north pole, producing a **repulsive** force. The external agent must do work against this repulsion to push the magnet; that work appears as Joule heating in the coil. If the induced pole were south (as the student implicitly assumes), it would attract, violating energy conservation. The wrong argument reveals a sign error in applying the right-hand rule or confusion about pole interaction — a critical error that would lose marks in both board and JEE/NEET.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only a bar magnet, a copper tube (length ~50 cm, inner diameter slightly larger than the magnet), and a stopwatch to demonstrate Lenz's law qualitatively. Describe what you would observe and how it proves that the induced current opposes the cause.",
+     "a": "Drop the magnet through the copper tube and time its fall. Compare with a non-magnetic object (e.g., a steel ball of similar mass) dropped through the same tube. Observation: The magnet falls **significantly slower** than the steel ball. Explanation: As the magnet falls, flux through each cross-section of the tube changes, inducing eddy currents. These currents create magnetic fields that oppose the magnet's motion (upward force), slowing its fall. The mechanical work done by gravity is converted to heat in the tube. A poor answer (e.g., \"magnet sticks to tube\" or \"no difference\") shows lack of understanding that Lenz's law produces a *force* opposing motion, not just a current.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch5_11",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch5_11",
+   "title": "c8_math_ch5_11",
+   "questions": [
+    {
+     "q": "In the cryptarithm AB + BA = CDC, why must C be 1?",
+     "a": "AB and BA are both two-digit numbers (maximum 99 + 99 = 198), so their sum CDC is a three-digit number at most 198. Since C is the hundreds digit and the sum cannot exceed 198, C must be 1 (it cannot be 0 because CDC is a three-digit number, and it cannot be 2 or more because 99+99=198). A wrong answer like \"C can be any digit\" reveals the student has not applied the constraint that the maximum sum of two two-digit numbers is 198, missing the bounding logic that forces C = 1.",
+     "self_check": true
+    },
+    {
+     "q": "In the cryptarithm ONE + ONE = TWO, if O = 2, find T and explain your reasoning.",
+     "a": "Since ONE + ONE = TWO and O = 2, the sum TWO starts with T. The maximum value of ONE (with O=2) is 299, so ONE + ONE is at most 598. Since TWO is a three-digit number starting with T, and the sum is between 400 (200+200) and 598, T must be 4 or 5. More precisely: if there is no carry from the tens column, T = 4; if there is a carry, T = 5. A wrong answer that states T = 2 (same as O) reveals the student has confused the letter-to-digit mapping (each letter is a DIFFERENT digit) and has not analyzed the carry structure.",
+     "self_check": true
+    },
+    {
+     "q": "Why can the leading letter of any number in a cryptarithm never represent 0?",
+     "a": "A leading digit of 0 would make the number have fewer digits than its position implies — for example, if S = 0 in SEND, then SEND is actually a three-digit number, not four. In standard notation, we do not write leading zeros, so the first letter of any multi-digit number must represent a digit from 1-9. A wrong answer like \"0 is allowed because it is a digit\" reveals the student does not understand the place value convention that leading zeros are not used in standard number representation.",
+     "self_check": true
+    },
+    {
+     "q": "Solve: AB + A = 68. Find A and B.",
+     "a": "Since AB is a two-digit number (10A + B) and A is a single digit, we have (10A + B) + A = 68, so 11A + B = 68. Since B is a single digit (0-9), 11A must be between 59 and 68. The only multiple of 11 in that range is 66 (11 × 6), so A = 6 and B = 68 - 66 = 2. Check: 62 + 6 = 68. A wrong answer that guesses randomly without setting up the equation reveals the student has not translated the cryptarithm into an algebraic equation using place value.",
+     "self_check": true
+    },
+    {
+     "q": "In the cryptarithm AA + BB = CCB, where A, B, C are distinct digits, what can you deduce about B?",
+     "a": "AA = 11 × A (since 10A + A = 11A), BB = 11 × B, so AA + BB = 11(A + B). The result is CCB = 110 × C + B. So 11(A + B) = 110C + B, which gives 11A + 10B = 110C, or A + (10/11)B = 10C. Since A, B, C are integers, 10B must be divisible by 11, which means B must be divisible by 11. Since B is a single digit (0-9), the only possibility is B = 0. A wrong answer that ignores the divisibility constraint reveals the student has set up the equation but cannot apply number theory reasoning to constrain the solution.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own simple cryptarithm using two 2-digit numbers that sum to a 3-digit number, with a unique solution. Explain how you ensured uniqueness.",
+     "a": "A good example: AB + BA = 132 where A and B are distinct. This gives 11A + 11B = 132, so A + B = 12. Pairs: (3,9), (4,8), (5,7), (7,5), (8,4), (9,3). To ensure uniqueness, add a constraint like \"A > B\" which gives (9,3), (8,4), (7,5) — still not unique. Better: specify \"A is odd\" giving (9,3) and (7,5) — still two. Specify \"B is a perfect square\" giving (9,9) — not distinct. A truly unique puzzle needs tighter constraints or more columns. A poor answer that creates a puzzle with multiple solutions reveals the student has not verified uniqueness by checking all digit combinations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

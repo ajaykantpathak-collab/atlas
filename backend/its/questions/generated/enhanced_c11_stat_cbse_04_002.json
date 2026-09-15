@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_04_002",
+   "title": "c11_stat_cbse_04_002",
+   "questions": [
+    {
+     "q": "List all eight parts of a statistical table in the order they appear from top to bottom.",
+     "a": "The eight parts in order: (1) Table Number, (2) Title, (3) Captions/Column Headings, (4) Stubs/Row Headings, (5) Body of the Table, (6) Unit of Measurement, (7) Source, (8) Note. A wrong answer (e.g., missing \"Note\" or placing \"Source\" before \"Body\") reveals the student has memorised parts as a set rather than understanding their structural hierarchy — each part serves a specific function in the reader's top-to-bottom scanning process.",
+     "self_check": true
+    },
+    {
+     "q": "A student creates a table showing \"Literacy Rate by State and Gender\" with states as rows and gender as columns. The cells contain percentages like 82.1, 65.5. The student writes \"Percentage\" as the table title. Explain why this is insufficient and what the title should include instead.",
+     "a": "The title \"Percentage\" is insufficient because it does not convey *what* percentage, *for whom*, *when*, or *where*. A complete title must answer: variable (literacy rate), classification (by state and gender), population (aged 7+), time (Census 2011), and space (India). Correct title: \"Literacy Rates of Major Indian States by Sex, Census 2011 (Population aged 7 years and above)\". A wrong answer shows the student confuses the unit of measurement (which goes with captions/stubs) with the title's descriptive role.",
+     "self_check": true
+    },
+    {
+     "q": "Given raw data: \"In a survey of 200 households in Delhi, 120 use LPG, 50 use PNG, 30 use firewood. Of the LPG users, 70 are from South Delhi, 50 from North Delhi. Of PNG users, 20 from South, 30 from North. Firewood: 10 South, 20 North.\" Construct a two-way classification table with appropriate parts. Identify the classification type.",
+     "a": "**Table 1: Cooking Fuel Usage by Region in Delhi (200 households)**\n| Region \\ Fuel | LPG | PNG | Firewood | Total |\n|---|---|---|---|---|\n| South Delhi | 70 | 20 | 10 | 100 |\n| North Delhi | 50 | 30 | 20 | 100 |\n| **Total** | **120** | **50** | **30** | **200** |\n*Source: Household Survey, 2024. Note: Figures are actual counts.*\nClassification: Qualitative (both fuel type and region are attributes). Steps: (1) Identify two qualitative variables → two-way classification. (2) Choose stubs (region) and captions (fuel). (3) Fill body from given data. (4) Add totals (marginal frequencies). (5) Add title, source, note. Wrong answers typically omit marginal totals or misplace variables, showing inability to map raw data to row-column structure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Table 4.1 (Literacy by sex and location) and Table 4.2 (Age distribution of respondents) from NCERT. Why is Table 4.1 a 3×3 table with 9 cells while Table 4.2 has 7 rows (age groups) but only 3 columns? What does this reveal about the *nature* of classification in each?",
+     "a": "Table 4.1 uses **qualitative classification** on two attributes (sex: 3 categories including total; location: 3 categories including total) → 3×3 = 9 cells. Table 4.2 uses **quantitative classification** on one variable (age) grouped into 7 class intervals (20-30, ..., 80-90) plus a total row → 7 data rows + 1 total row = 8 rows; columns are fixed at 3 (age group, number, percent). The difference reveals: qualitative classification creates a *matrix* (row attribute × column attribute), while quantitative classification creates a *frequency distribution* (class intervals × statistics). A wrong answer (e.g., \"both are just tables\") misses the fundamental structural distinction that determines how we read and analyse them.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher presents a table titled \"Income Distribution of Farmers in Punjab\" with class intervals: 0-50000, 50000-100000, 100000-200000, 200000-500000, 500000+. The frequencies are 15, 45, 80, 35, 5. The table has no \"Note\" section. Evaluate whether this omission is acceptable. Justify your answer.",
+     "a": "The omission is **not acceptable**. The class intervals are **unequal in width** (50000, 50000, 100000, 300000, open-ended). Without a Note explaining: (a) the open-ended class \"500000+\" has no upper limit, (b) widths vary, so frequency density (not raw frequency) should be used for histogram comparison, (c) the first class \"0-50000\" includes zero income which may need special handling — the table misleads users into thinking intervals are equal. A Note is mandatory whenever data has non-standard features not self-evident from stubs/captions. A wrong answer (\"it's fine, the table is clear\") shows the student treats Note as optional decoration rather than a critical integrity safeguard.",
+     "self_check": true
+    },
+    {
+     "q": "Design a three-way classification table for \"Student Performance in Class 11\" using: Stream (Science, Commerce, Arts), Gender (Male, Female), and Result Category (Distinction, First Class, Second Class, Pass, Fail). Specify the stubs, captions, and how the body would be structured. Explain why this requires a three-way table and not two separate two-way tables.",
+     "a": "**Stubs (rows):** Stream × Gender combinations → 3 streams × 2 genders = 6 row categories (Science-Male, Science-Female, Commerce-Male, Commerce-Female, Arts-Male, Arts-Female). **Captions (columns):** Result Category (5 columns) + Total. **Body:** 6 rows × 5 columns = 30 cells, each showing count of students. **Why three-way:** Two separate two-way tables (Stream × Result, Gender × Result) would lose the *interaction* — e.g., \"Science-Female-Distinction\" count cannot be recovered from marginal totals alone. Three-way preserves the joint distribution of all three variables simultaneously. A poor answer (e.g., \"just make two tables\") fails to grasp that classification dimension = number of variables whose *joint* frequency is needed.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

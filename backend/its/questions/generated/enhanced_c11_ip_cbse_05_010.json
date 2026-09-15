@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_05_010",
+   "title": "c11_ip_cbse_05_010",
+   "questions": [
+    {
+     "q": "What is the correct file extension and naming convention for a Python user-defined module that you intend to import with `import myutils`?",
+     "a": "The file must be named `myutils.py` (lowercase, no spaces, valid identifier). A wrong answer like `myutils.txt` or `MyUtils.py` (case-sensitive on Linux) reveals the student does not understand that the module name in the import statement must exactly match the filename (without `.py`) and that the filesystem case-sensitivity matters.",
+     "self_check": true
+    },
+    {
+     "q": "You have created a module `geometry.py` with a function `area_circle(radius)`. In your main script you write `import geometry` and then call `area_circle(5)`. Why does this raise a `NameError`, and how do you fix it?",
+     "a": "The `NameError` occurs because `import geometry` places the module object in the namespace `geometry`, not its functions directly. The function must be called as `geometry.area_circle(5)`. A wrong answer suggests the student thinks `import` dumps all names into the global namespace (like `from geometry import *`), confusing it with `from-import` (covered in the next node).",
+     "self_check": true
+    },
+    {
+     "q": "Your module `stats.py` contains a function `mean(data)` and a print statement `print(\"Module loaded\")` at the top level. You run `main.py` which contains `import stats` twice. How many times will \"Module loaded\" be printed, and why?",
+     "a": "\"Module loaded\" prints exactly once. Python caches imported modules in `sys.modules`; the second `import stats` retrieves the already-loaded module object without re-executing the module's code. A wrong answer (e.g., \"twice\") reveals the misconception that every `import` statement re-runs the module file.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the behavior of a module when run directly (`python utils.py`) versus when imported (`import utils` in another script). What is the purpose of the `if __name__ == '__main__':` block?",
+     "a": "When run directly, `__name__` is `'__main__'`, so code inside the block executes (useful for testing). When imported, `__name__` is the module name (`'utils'`), so the block is skipped, preventing test code from running during import. A wrong answer indicates the student does not grasp the dual role of a `.py` file as both a script and a module.",
+     "self_check": true
+    },
+    {
+     "q": "A student creates `helpers.py` in `C:\\Projects\\utils` and tries to import it from `C:\\Projects\\main.py` using `import helpers`. It fails with `ModuleNotFoundError`. List two distinct ways to fix this without moving `helpers.py`.",
+     "a": "1. Add `C:\\Projects\\utils` to `sys.path` at runtime: `sys.path.append(r'C:\\Projects\\utils')` before import. 2. Set the `PYTHONPATH` environment variable to include `C:\\Projects\\utils`. A wrong answer (e.g., \"use `from helpers import *`\") shows confusion between import syntax and module search path resolution.",
+     "self_check": true
+    },
+    {
+     "q": "Design a user-defined module `temperature.py` that provides two functions: `c_to_f(celsius)` and `f_to_c(fahrenheit)`. Include a test block that prints a conversion table for 0°C to 100°C in steps of 10°C when the module is run directly, but does nothing when imported. Write the complete code.",
+     "a": "```python",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch04_004",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch04_004",
+   "title": "c7_geo_ch04_004",
+   "questions": [
+    {
+     "q": "Which cropping season does rice belong to, and why does it require standing water during its early growth stage?",
+     "a": "Rice is a Kharif crop grown during the monsoon season because it requires high humidity, heavy rainfall, and flooded fields to suppress weeds and ensure grain development. A wrong answer reveals a confusion between Kharif and Rabi seasons, or a lack of understanding that paddy cultivation depends heavily on monsoon inundation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why wheat cannot be successfully grown in the hot, wet coastal plains of Kerala or Tamil Nadu during their main agricultural season.",
+     "a": "Wheat is a Rabi crop that requires a cool growing season and bright sunshine at ripening, conditions found in northern India during winter. The coastal plains of Kerala remain warm year-round and experience heavy tropical moisture unsuited for wheat's cool-climate germination and tillering stages. A wrong answer shows a misunderstanding of temperature limits for temperate-origin cereals like wheat.",
+     "self_check": true
+    },
+    {
+     "q": "If a state has alluvial soil, an average annual rainfall above 100 cm, and high summer temperatures, which major crop is most suitable for cultivation without heavy artificial irrigation?",
+     "a": "Rice is the most suitable crop. \nSteps: \n1. Identify rainfall requirement: >100 cm matches rice and sugarcane. \n2. Identify soil type: Alluvial soil is ideal for both rice and wheat. \n3. Match temperature: High summer temperature combined with heavy rainfall points directly to Kharif rice cultivation. \nA wrong answer indicates the student cannot synthesize multiple environmental factors (soil, rain, temperature) to match a specific crop profile.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why sugarcane cultivation is concentrated heavily in the northern plains (Uttar Pradesh) and parts of the tropical southern peninsula (Maharashtra), despite requiring nearly a year to mature.",
+     "a": "Sugarcane requires a long, frost-free growing season with high temperatures (21°C to 27°C) and abundant moisture (75-100 cm rainfall or heavy irrigation). Uttar Pradesh provides fertile alluvial plains with extensive canal networks, while Maharashtra benefits from tropical warmth and cooperative irrigation. A wrong answer shows a failure to recognize that tropical cash crops need both long thermal periods and massive water inputs, whether from monsoons or perennial rivers.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether it is sustainable to grow water-intensive crops like rice and sugarcane in semi-arid regions of Punjab and interior Maharashtra using deep tube-well irrigation.",
+     "a": "It is unsustainable in the long term because continuous extraction of groundwater far exceeds natural recharge rates, leading to severe water table depletion and soil salinization. While short-term economic gains exist, ecological balance requires shifting toward water-efficient crops in dry zones. A wrong answer shows a lack of critical thinking regarding human intervention in natural hydrological cycles.",
+     "self_check": true
+    },
+    {
+     "q": "Design an agricultural zoning plan for a newly irrigated district in central India that experiences moderate rainfall (75 cm) and warm winters, dividing land appropriately between wheat and rice.",
+     "a": "A successful plan would allocate low-lying, canal-fed plots for localized rice trials while dedicating higher, well-drained loamy soils to wheat during the Rabi season, reserving drought-resilient areas for non-cereal crops. A poor answer ignores local rainfall and soil drainage limits, placing water-thirsty crops in unsuitable arid patches.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

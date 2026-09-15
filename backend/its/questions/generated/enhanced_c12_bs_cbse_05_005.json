@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_05_005",
+   "title": "c12_bs_cbse_05_005",
+   "questions": [
+    {
+     "q": "A company manufacturing only one type of product (cement) with a single plant in one state adopts a divisional structure based on product lines. Is this appropriate? State Yes/No and give one reason from NCERT suitability criteria.",
+     "a": "No. NCERT states divisional structure is suitable when \"a large variety of products are manufactured using different productive resources.\" A single-product company has no product diversity to justify separate divisions; functional structure would be more economical as it avoids duplication of functions. A wrong \"Yes\" answer reveals the student memorised \"divisional = good for large companies\" without understanding the specific condition of product variety.",
+     "self_check": true
+    },
+    {
+     "q": "\"In a divisional structure, each division has its own marketing, finance, and production departments.\" Explain why this statement describes BOTH an advantage and a disadvantage simultaneously, using the terms 'autonomy' and 'duplication'.",
+     "a": "It is an advantage because each division gains autonomy — its marketing/finance/production teams focus solely on that product, enabling faster decisions and product specialisation. It is a disadvantage because the same functional departments are duplicated across divisions (e.g., three separate HR departments), increasing costs. A student who only cites \"advantage: specialisation\" or only \"disadvantage: costly\" misses the dual nature — this exact duality is what NCERT highlights in the comparative table under 'Cost' and 'Managerial Development'.",
+     "self_check": true
+    },
+    {
+     "q": "\"StyleCraft Ltd.\" manufactures three product lines: ethnic wear, western wear, and accessories. It currently uses a functional structure. The CEO wants to switch to divisional structure. Identify TWO specific advantages from NCERT that StyleCraft will gain, and ONE disadvantage it must guard against.",
+     "a": "Advantages: (1) Product specialisation — each divisional head gains experience in all functions (production, marketing, finance) for their product line, preparing them for top management (NCERT: \"development of varied skills... prepares him for higher positions\"). (2) Clear accountability — revenues/costs of ethnic wear vs western wear become separately identifiable, fixing responsibility for profit/loss (NCERT: \"revenues and costs related to different departments can be easily identified and assigned\"). Disadvantage to guard: Inter-divisional conflict over fund allocation — the ethnic wear division may demand more ad budget at the expense of accessories (NCERT: \"conflict may arise among different divisions with reference to allocation of funds\"). A generic answer like \"better coordination\" without naming the specific NCERT advantage loses marks.",
+     "self_check": true
+    },
+    {
+     "q": "Compare divisional and functional structures on the parameter \"Managerial Development\" using the NCERT comparative table. Why does the table say functional structure makes it \"difficult\" while divisional makes it \"easier\"? Explain the mechanism in 3 steps.",
+     "a": "Step 1: In functional structure, a marketing manager only handles marketing across all products — they never experience production/finance, so they lack cross-functional exposure needed for top management. Step 2: In divisional structure, the ethnic wear divisional head oversees marketing, production, AND finance for ethnic wear — they perform multiple functions, gaining holistic experience. Step 3: This autonomy + multi-function exposure develops general management skills (decision-making, resource allocation, P&L responsibility) that functional heads don't get. A student who only writes \"divisional heads do more functions\" without explaining the cross-functional exposure mechanism misses the analytical depth required for 4-mark questions.",
+     "self_check": true
+    },
+    {
+     "q": "A large FMCG company with 5 product divisions (soaps, shampoos, detergents, toothpaste, packaged food) faces declining profits. The CFO proposes merging all divisional finance departments into one centralised corporate finance department to \"eliminate duplication and save costs.\" Evaluate this proposal using TWO NCERT disadvantages of divisional structure and ONE advantage that would be lost.",
+     "a": "The proposal addresses the NCERT disadvantage \"duplication of activities across products increases expenditure\" — centralising finance would reduce costs. However, it undermines two key advantages: (1) Accountability — divisional heads lose control over their costs/revenues, making profit-centre evaluation impossible (NCERT: \"revenues and costs related to different departments can be easily identified and assigned to them\"). (2) Flexibility/quick decisions — finance approvals would now need corporate clearance, slowing responses to market changes (NCERT: \"each division functions as an autonomous unit which leads to faster decision making\"). The trade-off is cost saving vs. loss of divisional autonomy and accountability. A student who only sees \"cost reduction = good\" fails to evaluate the strategic cost of centralisation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a divisional structure diagram for \"AgroTech Ltd.\" which manufactures tractors, harvesters, and irrigation systems. Each division must show its internal functional departments. Then write a 2-sentence justification for why this structure suits AgroTech better than functional structure, using the NCERT suitability criterion.",
+     "a": "Diagram: Managing Director at top → three divisional boxes (Tractors Division, Harvesters Division, Irrigation Division) → each division contains four functional boxes (Production, Marketing, Finance, HR) reporting to Divisional Head. Justification: AgroTech manufactures \"a large variety of products using different productive resources\" (tractors need heavy engineering, irrigation needs plastic/pump tech) — NCERT suitability condition met. Functional structure would force one production head to manage completely different technologies, causing coordination problems and lack of product focus. A poor answer draws the diagram correctly but gives generic justification like \"good for large companies\" without citing the specific NCERT criterion of product variety + different resources.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

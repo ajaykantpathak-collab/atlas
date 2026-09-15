@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_08_003",
+   "title": "c11_eco_cbse_08_003",
+   "questions": [
+    {
+     "q": "State the precise formula for annual population growth rate using crude birth rate (CBR), crude death rate (CDR), and net migration rate (NMR). Define each variable and its unit.",
+     "a": "Annual population growth rate (%) = (CBR – CDR + NMR) / 10, where CBR = live births per 1,000 population per year, CDR = deaths per 1,000 population per year, NMR = (immigrants – emigrants) per 1,000 population per year. Division by 10 converts per-thousand to percent. A wrong answer (e.g., omitting NMR or forgetting division by 10) reveals confusion between rate per thousand and percentage, or ignorance of migration's role — a common error when textbooks only emphasise natural increase.",
+     "self_check": true
+    },
+    {
+     "q": "Using Table 8.1 data, explain why China's population density (150 persons/sq.km) is lower than India's (473 persons/sq.km) even though their total populations are nearly equal (1,411 vs 1,428 million).",
+     "a": "Density = Population / Land Area. China's land area (~9.6 million sq.km) is about 2.9 times India's (~3.3 million sq.km). With similar populations, China's density is roughly one-third of India's. A wrong answer that attributes the difference to \"China's one-child policy\" confuses a flow variable (growth rate) with a stock variable (density) and ignores the geographic denominator — a classic stock-flow confusion.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the approximate number of annual live births in Pakistan in 2021–23 using its estimated population (240 million) and the crude birth rate implied by its fertility rate of 3.4. (Hint: Assume a rough conversion: TFR ≈ CBR / 30 for a stable population; but for Pakistan's young population, use CBR ≈ 27 per 1,000 as a reasonable estimate from World Bank data.) Show steps.",
+     "a": "Step 1: Estimated CBR for Pakistan ≈ 27 per 1,000 (from external data consistent with TFR 3.4). Step 2: Population = 240 million = 240,000 thousand. Step 3: Annual births = CBR × Population (in thousands) = 27 × 240,000 = 6,480,000 ≈ 6.48 million. Step 4: Interpret: This high absolute number of births drives Pakistan's 1.96% growth despite a lower population base. A wrong answer using TFR directly (e.g., 3.4 × 240 million) reveals misunderstanding that TFR is a synthetic cohort measure, not a period birth count.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sex ratios of the three countries (India 930, China 898, Pakistan 948 females per 1,000 males). Analyse why all three are below 1,000 despite different population policies, and explain why China's ratio is the lowest even after relaxing the one-child norm.",
+     "a": "All three ratios below 1,000 indicate son preference — a cultural norm leading to sex-selective abortion, female infanticide, or neglect of girl children. China's ratio is lowest because the one-child norm (1979–2015) intensified son preference: with only one permitted birth, couples strongly preferred a male heir, leading to massive sex-selective abortions. The policy's legacy persists due to cultural momentum and skewed cohorts now entering reproductive age. A wrong answer blaming only \"poverty\" or \"illiteracy\" ignores that China's ratio is worse than India's despite higher income and literacy — showing policy interaction with culture.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Pakistan's high urbanisation rate (38%) compared to India (36%) indicates better economic development.\" Use Table 8.1 and Table 8.3 (sectoral workforce distribution) to support your judgment.",
+     "a": "The claim is flawed. Urbanisation % alone is a weak development proxy. Table 8.3 shows Pakistan's urban workforce (38%) is still largely in low-productivity services (55% of GVA) with 36% workforce in agriculture (24% GVA). India's lower urbanisation (36%) coexists with a larger industrial GVA share (28% vs 21%) and higher per capita income ($9,047 vs $5,501 PPP). Urbanisation without structural transformation (shift from agriculture to industry) can reflect \"urbanisation of poverty\" — slum growth without productivity gains. A wrong answer equating urbanisation % with development level ignores sectoral composition and productivity differences.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a demographic profile for a hypothetical fourth country \"Neighbourland\" that would lie between India and China on all six Table 8.1 indicators. Provide plausible numbers for each indicator and justify each choice in one sentence.",
+     "a": "Profile: Population 1,000 million (between 240 and 1,411); Growth rate 0.4% (between –0.10% and 0.81%); Density 300 persons/sq.km (between 150 and 473); Sex ratio 915 (between 898 and 930); Fertility rate 1.6 (between 1.2 and 2.0); Urbanisation 50% (between 36% and 65%). Justification: Each value is a plausible midpoint reflecting a country further along the demographic transition than India but not as advanced as China, with moderate policy intervention. A poor answer picks numbers outside the range or copies one country's values, showing inability to interpolate demographic trends.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

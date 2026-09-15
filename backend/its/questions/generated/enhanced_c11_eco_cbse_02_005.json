@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_02_005",
+   "title": "c11_eco_cbse_02_005",
+   "questions": [
+    {
+     "q": "What are the four essential components of the Green Revolution technology package for wheat and rice in India?",
+     "a": "The four components are: (1) High Yielding Variety (HYV) seeds, (2) assured irrigation, (3) chemical fertilisers (especially nitrogen), and (4) pesticides. A wrong answer (e.g., listing \"tractors\" or \"mechanisation\") reveals the student confuses the Green Revolution with general agricultural modernisation; the GR was specifically a *biological-chemical* package where seeds were the catalyst but required the other three to express their yield potential.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Green Revolution initially benefit only wheat-growing regions (like Punjab, Haryana, Western UP) and not rice-growing regions to the same extent in Phase I (mid-1960s to mid-1970s)?",
+     "a": "Wheat HYV seeds (dwarf Mexican varieties) were available earlier (1963-65) and responded dramatically to fertiliser and irrigation in the well-irrigated Indo-Gangetic plains. Rice HYV seeds (IR-8, Jaya, etc.) came later and required more precise water control (standing water) which was harder to assure. A wrong answer (e.g., \"rice farmers were lazy\") reveals a misunderstanding of the *technical and agro-climatic* reasons: wheat is a rabi (winter) crop grown with assured irrigation, while rice is a kharif (monsoon) crop where water control was more difficult before tubewell expansion.",
+     "self_check": true
+    },
+    {
+     "q": "In 1965-66, India produced 10.4 million tonnes of wheat. By 1970-71, production reached 23.8 million tonnes. Calculate the Compound Annual Growth Rate (CAGR) of wheat production over this 5-year period. Use the formula: CAGR = (Ending Value / Beginning Value)^(1/n) - 1.",
+     "a": "CAGR = (23.8 / 10.4)^(1/5) - 1 = (2.288)^(0.2) - 1 ≈ 1.179 - 1 = 0.179 = **17.9% per annum**. A wrong answer (e.g., simple average growth of 25.6%) reveals the student does not distinguish between simple and compound growth rates, a critical error when evaluating plan-period performance. The high CAGR reflects the low base and the dramatic impact of HYV wheat in its early adoption phase.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT text states: \"The portion of agricultural produce which is sold in the market by the farmers is called marketed surplus.\" If a farmer produces 100 quintals of wheat, consumes 20 quintals, pays 10 quintals as rent/credit repayment, and gifts 5 quintals, what is the marketed surplus? Explain how a rise in marketed surplus during the Green Revolution helped the urban poor.",
+     "a": "Marketed surplus = Total production - (self-consumption + payments in kind + gifts) = 100 - (20 + 10 + 5) = **65 quintals**. A rise in marketed surplus increases the supply of food grains in the market, causing relative food prices to fall. Since the urban poor spend a large share of their income on food, lower food prices raise their real wages and purchasing power. A wrong answer (e.g., \"marketed surplus is total production\") shows confusion between *output* and *marketable surplus*, missing the distributional impact of the Green Revolution.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: \"The Green Revolution would have favoured only rich farmers if the state had not played an extensive role.\" Use the concepts of input affordability, risk-bearing ability, and government interventions (credit, subsidies, research).",
+     "a": "The statement is **valid**. HYV technology required purchased inputs (seeds, fertiliser, pesticide, irrigation) which poor/small farmers could not afford upfront. They also faced higher risk: HYV crops were more pest-susceptible, and a crop failure could mean destitution. The state intervened by: (a) providing low-interest crop loans through cooperatives and commercial banks, (b) subsidising fertilisers to lower per-hectare cost, (c) establishing research institutes (like IARI, PAU) for pest-resistant varieties and extension services. Without these, adoption would have been limited to large farmers with own capital and risk-bearing capacity, widening inequality. A wrong evaluation (e.g., \"market forces would have eventually included small farmers\") ignores the *liquidity constraint* and *covariate risk* that markets fail to address in early-stage agricultural transformation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a policy intervention for a hypothetical state in 1970 that has high wheat potential but low HYV adoption among marginal farmers (<1 hectare). Your policy must address three constraints: credit, water, and price risk. Specify one instrument for each.",
+     "a": "A good answer includes: (1) **Credit**: Kisan Credit Card-type scheme with crop-loan limit based on scale of finance, disbursed timely before sowing. (2) **Water**: Community tubewell with subsidised electricity/diesel, managed by a water-users' association to ensure equitable access. (3) **Price risk**: Minimum Support Price (MSP) announced before sowing, backed by government procurement centres within 10 km radius. A poor answer lists generic \"subsidies\" without targeting the specific constraint (e.g., \"give free fertiliser\" does not solve water or price risk).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

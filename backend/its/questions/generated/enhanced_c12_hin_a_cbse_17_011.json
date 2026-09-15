@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_17_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_17_011",
+   "title": "c12_hin_a_cbse_17_011",
+   "questions": [
+    {
+     "q": "Identify the Sanskrit root (धातु) and the primary suffix (प्रत्यय) used in the formation of the word \"आँगनट\" as discussed in the text, and state the grammatical gender assigned to it in the passage.",
+     "a": "Correct answer: The word \"आँगनट\" derives from the Sanskrit root \"आङ्गण\" (courtyard) + the suffix \"ट\" (टन् प्रत्यय) forming a masculine noun (पुल्लिङ्ग) denoting a diminutive or specific instance of a courtyard. A wrong answer (e.g., identifying the root as \"आँगन\" without the Sanskrit etymon, or assigning neuter gender) reveals the student cannot trace Hindi tadbhava words back to their Sanskrit sources or recognize the grammatical gender markers that the author exploits for philosophical effect.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the author distinguishes between \"आँगन\" (आँगन), \"आँगनट\" (आँगनट), and \"आँगनुह\" (आँगनुह) instead of using a single term throughout the essay, and what grammatical feature enables this distinction.",
+     "a": "Correct answer: The author exploits Sanskrit's threefold gender system (पुल्लिङ्ग आँगनट, स्त्रीलिङ्ग आँगनुह, नपुंसकलिङ्ग आँगन) to show that the *same physical space* acquires different social meanings depending on the grammatical gender assigned to it — masculine for the public/formal courtyard, feminine for the domestic/intimate courtyard, neuter for the abstract concept. A wrong answer (e.g., \"they are just synonyms\" or \"the author uses them for variety\") reveals the student misses the core linguistic argument: grammatical gender in Sanskrit/Hindi is not arbitrary but encodes social role, and the author uses this to prove \"नाम समाज-लिंग है\".",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"रूप व्यक्ति-लिंग है, नाम समाज-लिंग\", identify the grammatical case (कारक) of \"व्यक्ति-लिंग\" and \"समाज-लिंग\", and explain how the case ending contributes to the philosophical contrast between \"रूप\" and \"नाम\".",
+     "a": "Correct answer: Both \"व्यक्ति-लिंग\" and \"समाज-लिंग\" are in the nominative case (प्रथमा विभक्ति, एकवचन) as subject complements (विधेय) in a nominal sentence (कर्तृवाक्य). The identical case ending creates a parallel structure that forces the reader to compare the two compounds: \"व्यक्ति-लिंग\" (individual gender/identity) vs \"समाज-लिंग\" (social gender/identity). A wrong answer (e.g., identifying them as accusative or instrumental) reveals the student cannot parse nominal sentences in Hindi/Sanskrit, missing how grammatical parallelism structures the author's argument.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the morphological structure of the compound \"लक्सम्यो\" (लक्ष्म्यौ) as it appears in the Sanskrit verse \"लक्ष्म्यौ लक्ष्म्योस् लक्ष्म्याम्\". Identify the base form (प्रातिपदिक), the case (विभक्ति), and the number (वचन), and explain why the author quotes this specific paradigm.",
+     "a": "Correct answer: Base form = \"लक्ष्मी\" (स्त्रीलिङ्ग, इकारान्त); Case = Dual (द्विवचन) — \"लक्ष्म्यौ\" = प्रथमा/द्वितीया द्विवचन, \"लक्ष्म्योस्\" = तृतीया/चतुर्थी/पञ्चमी द्विवचन, \"लक्ष्म्याम्\" = षष्ठी/सप्तमी द्विवचन. The author quotes the full dual paradigm of \"लक्ष्मी\" to demonstrate how Sanskrit grammar encodes *relationship* (two entities) into the word-form itself — reinforcing his point that language (नाम) structures social reality (लक्ष्मी as prosperity shared between two). A wrong answer (e.g., treating them as singular forms or misidentifying the base) reveals the student cannot recognize Sanskrit declension patterns, missing the textual evidence for the author's linguistic philosophy.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The author's use of Sanskrit grammatical terminology (धातु, प्रत्यय, लिङ्ग, विभक्ति) in a Hindi essay is merely decorative and does not advance his argument about social identity.\" Defend your evaluation with specific evidence from the text.",
+     "a": "Correct evaluation: The claim is false. The author systematically uses Sanskrit grammatical categories as *analytical tools*: (1) He derives \"आँगनट/आँगनुह/आँगन\" from धातु+प्रत्यय+लिङ्ग to show how the *same root* yields socially distinct realities; (2) He cites the \"लक्ष्मी\" paradigm to prove language encodes relationality; (3) He contrasts \"नाम\" (socially assigned, fixed by convention) vs \"रूप\" (individually experienced, fluid) using the grammatical distinction between लिङ्ग (gender) as social category vs लिङ्ग as biological category. A wrong evaluation (agreeing with the claim) reveals the student reads the terminology as jargon rather than as the *method* of the essay's philosophical inquiry.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new Hindi sentence pair that mirrors the author's \"रूप व्यक्ति-लिंग है, नाम समाज-लिंग\" structure, using a different pair of concepts (e.g., \"भाव/अभिव्यक्ति\", \"सत्य/तथ्य\", \"स्वतंत्रता/अधिकार\") and maintaining the same grammatical parallelism (nominal sentence, identical case, compound nouns ending in -लिंग or equivalent). Explain your morphological choices.",
+     "a": "Sample answer: \"भाव अनुभूति-लिंग है, अभिव्यक्ति भाषा-लिंग।\" Morphological choices: (1) Both predicates are nominal compounds ending in \"-लिंग\" (तत्पुरुष समास) to preserve the author's pattern; (2) Both subjects are abstract nouns in प्रथमा एकवचन; (3) \"अनुभूति-लिंग\" (experience-gender) parallels \"व्यक्ति-लिंग\" (individual-gender) — internal, subjective; (4) \"भाषा-लिंग\" (language-gender) parallels \"समाज-लिंग\" (social-gender) — external, conventional. A poor answer (e.g., \"भाव व्यक्तिगत है, अभिव्यक्ति सामाजिक है\") uses adjectives instead of compounds, breaking the grammatical parallelism that makes the author's structure philosophically potent.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

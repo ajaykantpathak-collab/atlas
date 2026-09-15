@@ -1,0 +1,412 @@
+{
+ "class": 12,
+ "subject": "business_studies",
+ "chapter": 108,
+ "chapter_title": "Controlling",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lebs108.txt",
+ "concepts": [
+  {
+   "id": "lebs.108.1",
+   "title": "Concept and Nature of Controlling",
+   "section": "Meaning of Controlling",
+   "definition": "Managerial function of monitoring activities to ensure alignment with pre-established targets and executing corrective action to achieve organizational goals.",
+   "formula": "",
+   "key_idea": "Controlling keeps organizational performance continuously aligned with established benchmarks.",
+   "textbook_ref": "lebs108.txt lines 25-50",
+   "question_patterns": [
+    "explain the meaning of controlling",
+    "what are the key characteristics of controlling",
+    "how does controlling regulate organizational activities",
+    "define controlling in managerial operations"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify benchmark standards",
+     "explain": "Determine planned targets set during the planning function."
+    },
+    {
+     "step": 2,
+     "action": "observe execution",
+     "explain": "Track operational execution across all management levels."
+    },
+    {
+     "step": 3,
+     "action": "verify conformity",
+     "explain": "Ensure ongoing performance matches established plans and organizational goals."
+    }
+   ]
+  },
+  {
+   "id": "lebs.108.2",
+   "title": "Importance of Controlling",
+   "section": "Importance of Controlling",
+   "definition": "Evaluation framework that assists in goal achievement, standard accuracy verification, efficient resource utilization, staff motivation, order maintenance, and functional coordination.",
+   "formula": "",
+   "key_idea": "Effective control systems optimize resource utilization and guide the organization toward its target goals.",
+   "textbook_ref": "lebs108.txt lines 51-110",
+   "question_patterns": [
+    "why is controlling important for an organization",
+    "explain how controlling helps in accomplishing organizational goals",
+    "what are the main benefits of an effective control system",
+    "how does controlling improve employee motivation and discipline"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate target alignment and standards",
+     "explain": "Measure progress toward goals and verify standard accuracy."
+    },
+    {
+     "step": 2,
+     "action": "assess resource efficiency and motivation",
+     "explain": "Check for waste reduction and clear employee performance benchmarks."
+    },
+    {
+     "step": 3,
+     "action": "confirm discipline and coordination",
+     "explain": "Maintain order across departments through synchronized standard tracking."
+    }
+   ]
+  },
+  {
+   "id": "lebs.108.3",
+   "title": "Limitations of Controlling",
+   "section": "Limitations of Controlling",
+   "definition": "Operational constraints faced by control mechanisms due to non-quantifiable standards, unpredictable external factors, employee resistance, and high financial expenditure.",
+   "formula": "",
+   "key_idea": "Control systems face friction from qualitative factors, external environment changes, expenses, and employee pushback.",
+   "textbook_ref": "lebs108.txt lines 111-150",
+   "question_patterns": [
+    "what are the limitations of controlling",
+    "explain why setting quantitative standards is difficult",
+    "how do external factors restrict managerial control",
+    "why do employees resist control systems in an enterprise"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify non-quantifiable areas",
+     "explain": "Recognize qualitative aspects like morale or job satisfaction that resist numerical standard setting."
+    },
+    {
+     "step": 2,
+     "action": "analyze external influence",
+     "explain": "Account for external elements such as government policy and technology beyond corporate control."
+    },
+    {
+     "step": 3,
+     "action": "evaluate human and financial constraints",
+     "explain": "Assess workforce resistance to monitoring and the cost-benefit ratio of control installation."
+    }
+   ]
+  },
+  {
+   "id": "lebs.108.4",
+   "title": "Relationship between Planning and Controlling",
+   "section": "Relationship between Planning and Controlling",
+   "definition": "Interdependent management relationship where planning establishes benchmarks for control, while controlling provides performance feedback to refine future plans.",
+   "formula": "",
+   "key_idea": "Planning establishes standards for controlling, and controlling delivers insights to improve future planning.",
+   "textbook_ref": "lebs108.txt lines 151-200",
+   "question_patterns": [
+    "explain the relationship between planning and controlling",
+    "why are planning and controlling called inseparable twins",
+    "how is planning forward-looking and controlling backward-looking",
+    "discuss how planning and controlling reinforce each other"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "establish target benchmark from plans",
+     "explain": "Use planned targets as the starting baseline for control."
+    },
+    {
+     "step": 2,
+     "action": "monitor performance and detect deviations",
+     "explain": "Check real-time execution against baseline plans."
+    },
+    {
+     "step": 3,
+     "action": "feed control insights into future planning",
+     "explain": "Apply deviation cause analysis to refine future planning cycles."
+    }
+   ]
+  },
+  {
+   "id": "lebs.108.5",
+   "title": "Steps in Controlling Process",
+   "section": "Controlling Process",
+   "definition": "Sequential procedure of defining performance standards, measuring actual output, comparing output with standards, analyzing deviation causes, and executing corrective actions.",
+   "formula": "",
+   "key_idea": "Standardized five-step operational cycle to identify performance gaps and restore planned progress.",
+   "textbook_ref": "lebs108.txt lines 201-240",
+   "question_patterns": [
+    "describe the steps in the controlling process",
+    "what is the sequence of steps followed in management control",
+    "explain standard setting and performance measurement in controlling",
+    "what actions are taken in the final step of controlling"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set performance standards",
+     "explain": "Establish clear quantitative or qualitative criteria for evaluation."
+    },
+    {
+     "step": 2,
+     "action": "measure performance and compare",
+     "explain": "Gather actual performance data using identical units and compare against standard benchmarks."
+    },
+    {
+     "step": 3,
+     "action": "analyze deviations and take corrective action",
+     "explain": "Determine root causes for significant variations and execute necessary corrective steps."
+    }
+   ]
+  },
+  {
+   "id": "lebs.108.6",
+   "title": "Critical Point Control and Management by Exception",
+   "section": "Analysing Deviations",
+   "definition": "Selective controlling techniques that direct management attention strictly to Key Result Areas (KRAs) and deviations exceeding predefined tolerance limits.",
+   "formula": "",
+   "key_idea": "Focusing on critical activities and exceptional variations saves managerial time and maximizes efficiency.",
+   "textbook_ref": "lebs108.txt lines 241-280",
+   "question_patterns": [
+    "explain critical point control and management by exception",
+    "what are key result areas in controlling",
+    "why should a manager not attempt to control everything",
+    "how does management by exception save managerial time"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify key result areas",
+     "explain": "Locate critical operations whose failure impacts organizational success."
+    },
+    {
+     "step": 2,
+     "action": "set tolerance range for deviations",
+     "explain": "Establish permissible upper and lower variation bounds for operational parameters."
+    },
+    {
+     "step": 3,
+     "action": "report exceptional variations",
+     "explain": "Escalate only those variations that surpass tolerance limits or affect KRAs to top management."
+    }
+   ]
+  },
+  {
+   "id": "lebs.108.7",
+   "title": "Performance Deviation Calculation",
+   "section": "Analysing Deviations",
+   "definition": "Quantitative determination of operational variance and percentage gap between actual achievements and standard benchmarks.",
+   "formula": "deviation = actual_performance - standard_performance",
+   "key_idea": "Quantifying output variance reveals whether performance falls within acceptable tolerance limits.",
+   "textbook_ref": "lebs108.txt lines 230-260",
+   "question_patterns": [
+    "calculate the deviation in production output",
+    "find the percentage variance between standard target and actual target",
+    "determine performance gap when standard performance is ... and actual performance is ...",
+    "calculate deviation percentage for production output"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute absolute deviation",
+     "explain": "Subtract standard performance benchmark from actual performance value.",
+     "compute": "deviation = actual_performance - standard_performance"
+    },
+    {
+     "step": 2,
+     "action": "compute percentage deviation gap",
+     "explain": "Calculate the percentage gap relative to standard benchmark.",
+     "compute": "deviation_percentage = (deviation / standard_performance) * 100"
+    }
+   ]
+  },
+  {
+   "id": "lebs.108.8",
+   "title": "Return on Investment Control Technique",
+   "section": "Key Terms / Summary",
+   "definition": "Financial control ratio evaluating managerial productivity by comparing net profit generated against overall capital invested.",
+   "formula": "roi_percentage = (net_profit / capital_employed) * 100",
+   "key_idea": "Evaluates overall efficiency with which invested capital generates corporate earnings.",
+   "textbook_ref": "lebs108.txt lines 290-310",
+   "question_patterns": [
+    "calculate return on investment for the enterprise",
+    "find the roi percentage given net profit and capital employed",
+    "determine return on capital employed for controlling evaluation",
+    "what is the roi percentage when net profit is ... and capital employed is ..."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute profit ratio",
+     "explain": "Divide net profit by capital employed.",
+     "compute": "profit_ratio = net_profit / capital_employed"
+    },
+    {
+     "step": 2,
+     "action": "calculate ROI percentage",
+     "explain": "Multiply profit ratio by 100 to convert to percentage ROI.",
+     "compute": "roi_percentage = profit_ratio * 100"
+    }
+   ]
+  },
+  {
+   "id": "lebs.108.9",
+   "title": "Breakeven Point Analysis",
+   "section": "Key Terms / Summary",
+   "definition": "Quantitative control technique determining the sales volume at which total revenues equal total expenses, leaving zero profit or loss.",
+   "formula": "breakeven_units = fixed_cost / (selling_price - variable_cost)",
+   "key_idea": "Identifies minimum sales volume needed to avoid operational losses.",
+   "textbook_ref": "lebs108.txt lines 290-310",
+   "question_patterns": [
+    "calculate breakeven point in units",
+    "find breakeven output level given fixed cost and unit contribution",
+    "determine output volume required to achieve zero profit loss status",
+    "how many units must be sold to cover fixed cost and variable cost"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate unit contribution margin",
+     "explain": "Subtract unit variable cost from unit selling price.",
+     "compute": "contribution_margin = selling_price - variable_cost"
+    },
+    {
+     "step": 2,
+     "action": "calculate breakeven units",
+     "explain": "Divide total fixed cost by unit contribution margin.",
+     "compute": "breakeven_units = fixed_cost / contribution_margin"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lebs108.txt Section: Analysing Deviations",
+   "concept": "lebs.108.7",
+   "question_type": "compute",
+   "question_pattern": "A plant sets a standard production benchmark of {standard_performance} units per week. The actual production achieved by workers was {actual_performance} units. Compute the deviation and deviation percentage.",
+   "extracted_variables": {
+    "standard_performance": "standard production target in units",
+    "actual_performance": "actual production output in units"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute absolute deviation",
+     "explain": "Subtract standard output target from actual output.",
+     "compute": "deviation = actual_performance - standard_performance"
+    },
+    {
+     "step": 2,
+     "action": "compute percentage deviation gap",
+     "explain": "Find deviation ratio relative to standard benchmark and convert to percentage.",
+     "compute": "deviation_percentage = (deviation / standard_performance) * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lebs108.txt Section: Key Terms",
+   "concept": "lebs.108.8",
+   "question_type": "compute",
+   "question_pattern": "An enterprise generates a net profit of {net_profit} with total capital employed of {capital_employed}. Calculate the Return on Investment (ROI) percentage.",
+   "extracted_variables": {
+    "net_profit": "annual net earnings in currency",
+    "capital_employed": "total capital deployed in business"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute profit ratio",
+     "explain": "Divide net profit by capital employed.",
+     "compute": "profit_ratio = net_profit / capital_employed"
+    },
+    {
+     "step": 2,
+     "action": "calculate ROI percentage",
+     "explain": "Multiply profit ratio by 100.",
+     "compute": "roi_percentage = profit_ratio * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lebs108.txt Section: Key Terms",
+   "concept": "lebs.108.9",
+   "question_type": "compute",
+   "question_pattern": "A manufacturing firm incurs fixed costs of {fixed_cost}. The product is sold at {selling_price} per unit with variable cost of {variable_cost} per unit. Calculate the breakeven point in units.",
+   "extracted_variables": {
+    "fixed_cost": "total overhead fixed cost",
+    "selling_price": "unit selling price",
+    "variable_cost": "unit variable cost"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate unit contribution margin",
+     "explain": "Subtract unit variable cost from selling price.",
+     "compute": "contribution_margin = selling_price - variable_cost"
+    },
+    {
+     "step": 2,
+     "action": "calculate breakeven units",
+     "explain": "Divide total fixed cost by unit contribution margin.",
+     "compute": "breakeven_units = fixed_cost / contribution_margin"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex108.vsa",
+   "source_ref": "lebs108.txt lines 312-325",
+   "questions": [
+    "State the meaning of controlling.",
+    "Name the principle that a manager should consider while dealing with deviations effectively.",
+    "State any one situation in which an organisation's control system loses its effectiveness.",
+    "Give any two standards that can be used by a company to evaluate the performance of its Finance & Accounting department.",
+    "Which term is used to indicate the difference between standard performance and actual performance?"
+   ]
+  },
+  {
+   "id": "ex108.sa",
+   "source_ref": "lebs108.txt lines 326-340",
+   "questions": [
+    "'Planning is looking ahead and controlling is looking back.' Comment.",
+    "'An effort to control everything may end up in controlling nothing.' Explain.",
+    "Explain how management audit serves as an effective technique of controlling.",
+    "Mr. Arfaaz requested CEO Ms. Vasundhara to terminate Mr. Bhanu Prasad for falling short of daily target by 10 units for two days. Explain the principle of management control Ms. Vasundhara should consider."
+   ]
+  },
+  {
+   "id": "ex108.la",
+   "source_ref": "lebs108.txt lines 341-370",
+   "questions": [
+    "Explain the various steps involved in the process of control.",
+    "Explain the techniques of managerial control.",
+    "Explain the importance of controlling in an organisation. What are the problems faced by the organisation in implementing an effective control system?",
+    "Discuss the relationship between planning and controlling.",
+    "A company 'M' Limited is facing reduced market share due to new players and missed targets. Identify benefits of a good control system and outline steps in the control process to remove its problems.",
+    "Mr. Shantanu instructed the production manager to keep continuous check on activities to follow plans and track performance. Describe features and importance of controlling highlighted in this situation."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_05_005",
+   "title": "c12_hs_cbse_05_005",
+   "questions": [
+    {
+     "q": "List the seven steps of the rational decision-making process in the correct order as per NCERT Class 12 Home Science.",
+     "a": "Correct sequence: (1) Identify the problem/need, (2) Gather relevant information, (3) Generate possible alternatives, (4) Evaluate alternatives against criteria, (5) Select the best alternative, (6) Implement the decision, (7) Review/Evaluate the outcome. A wrong answer (e.g., putting \"select\" before \"evaluate\" or omitting \"review\") reveals the student treats decision-making as a single choice event rather than a structured process, leading to impulsive decisions in board case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "A family decides to buy a new washing machine because their old one broke down. They compare three brands on price, warranty, and energy rating, choose one, buy it, and use it. After two months they notice it vibrates excessively. Which step of the rational decision-making process did they most likely skip or do poorly, and why does this matter?",
+     "a": "They likely skipped or poorly executed Step 7 (Review/Evaluate the outcome). The vibration defect appeared only after use, so post-implementation review would have caught it within the warranty period. A wrong answer (e.g., saying they skipped \"gather information\") shows the student confuses pre-decision research with post-decision monitoring — a distinction CBSE case-based questions frequently test.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each decision below by type (Routine / Strategic / Crisis) and by participation (Individual / Group). Justify each classification in one sentence.\n(a) Mother decides tonight's dinner menu.\n(b) Parents decide to sell ancestral land to fund a child's medical treatment abroad.\n(c) Father buys a specific brand of toothpaste while shopping alone.",
+     "a": "(a) Routine, Individual — low stakes, recurring, made by one person. (b) Strategic, Group — high stakes, long-term impact, irreversible, requires family consensus. (c) Routine, Individual — habitual purchase, low involvement, solo. A wrong classification (e.g., calling (b) \"crisis\" because of medical urgency) reveals confusion: crisis decisions are time-pressured with limited information; strategic decisions are planned, high-impact choices even if triggered by a crisis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare \"bounded rationality\" (Herbert Simon) with the \"rational decision-making model\" taught in NCERT. In a family with limited time, money, and information, which model better explains how they actually choose a school for their child? Explain with two specific constraints.",
+     "a": "The rational model assumes complete information, unlimited time, and optimisation; bounded rationality acknowledges cognitive limits, time pressure, and \"satisficing\" (choosing the first acceptable option). For school choice, constraints are: (1) admission deadlines force a decision before all schools are visited, (2) parents cannot know every school's true teaching quality — they rely on proxies (reputation, neighbour feedback). A student who says \"rational model because parents research\" misses that satisficing, not optimising, is the realistic behaviour CBSE expects in application questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"In family resource management, group decisions are always better than individual decisions because they consider everyone's needs.\" Use concepts of decision-making types and resource constraints.",
+     "a": "The statement is false. Group decisions suffer from groupthink, dominance by vocal members, and time costs — critical in crisis decisions (e.g., evacuating during a flood) where speed saves lives. Routine decisions (daily meal, transport mode) waste resources if made collectively. CBSE marking awards points for nuance: \"Group decisions suit strategic, high-stakes choices; individual decisions suit routine/crisis situations.\" A student agreeing without qualification loses marks for ignoring context.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new 4-step \"Quick Decision Framework\" for a college student managing a monthly budget of ₹8,000 who faces an unexpected ₹3,000 laptop repair. The framework must be usable in under 10 minutes and incorporate at least two principles from the rational model.",
+     "a": "Example framework: (1) Define the \"must-have\" outcome (laptop functional for exams), (2) List only 3 feasible alternatives within constraints (repair, borrow, use college lab), (3) Score each on 2 criteria: cost and exam-readiness (weighted 60/40), (4) Pick highest score and act immediately. A poor answer copies the 7-step model verbatim — it fails the \"under 10 minutes\" constraint, showing inability to adapt theory to real-world bounded rationality.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

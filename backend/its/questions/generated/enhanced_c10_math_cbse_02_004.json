@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_02_004",
+   "title": "c10_math_cbse_02_004",
+   "questions": [
+    {
+     "q": "How many real zeros can a cubic polynomial with real coefficients have? List all possibilities and give an example polynomial for each case.",
+     "a": "A cubic polynomial with real coefficients can have 1, 2, or 3 real zeros (counting multiplicity). Examples: (i) 1 real zero: p(x) = x³ + x (zero at x = 0 only, since x² + 1 = 0 has no real roots); (ii) 2 real zeros: p(x) = x³ - x² = x²(x - 1) (zeros at x = 0 with multiplicity 2, and x = 1); (iii) 3 real zeros: p(x) = x³ - 6x² + 11x - 6 = (x - 1)(x - 2)(x - 3) (zeros at x = 1, 2, 3). A wrong answer like \"always 3 zeros\" reveals the student confuses the Fundamental Theorem of Algebra (which counts complex zeros) with real zeros only. A wrong answer like \"0 zeros\" reveals the student forgets that every real cubic must cross the x-axis at least once because its ends go in opposite directions.",
+     "self_check": true
+    },
+    {
+     "q": "The graph of y = p(x) touches the x-axis at x = 2 but does not cross it, and crosses the x-axis at x = -1. If p(x) is a cubic polynomial with leading coefficient 1, write p(x) in factored form and explain why the graph behaves this way at x = 2.",
+     "a": "p(x) = (x - 2)²(x + 1). At x = 2, the factor (x - 2) has multiplicity 2 (even), so the graph touches the x-axis and turns back (like a parabola at its vertex). At x = -1, the factor (x + 1) has multiplicity 1 (odd), so the graph crosses the x-axis. The leading coefficient is 1 (positive), so as x → -∞, y → -∞ and as x → +∞, y → +∞. A wrong answer like p(x) = (x - 2)(x + 1)² shows the student swapped the multiplicities. A wrong answer like p(x) = (x - 2)(x + 1) shows the student thinks both are simple zeros and misses that \"touches but does not cross\" implies even multiplicity ≥ 2. This misconception is common in board exams where students lose marks for not linking multiplicity to graph behaviour.",
+     "self_check": true
+    },
+    {
+     "q": "Sketch the graph of p(x) = -2(x + 3)(x - 1)². Clearly mark the x-intercepts, y-intercept, and end behaviour. How many turning points does the graph have?",
+     "a": "Step 1: Identify zeros and multiplicities: x = -3 (multiplicity 1, odd → crosses), x = 1 (multiplicity 2, even → touches).\nStep 2: Leading coefficient = -2 (negative), degree = 3. End behaviour: as x → -∞, y → +∞; as x → +∞, y → -∞.\nStep 3: y-intercept: p(0) = -2(3)(-1)² = -6. Point (0, -6).\nStep 4: Plot: crosses at (-3, 0), touches at (1, 0), y-intercept (0, -6). Sketch smooth curve from top-left, crossing at -3, going down to (0, -6), rising to touch at (1, 0), then going down to bottom-right.\nStep 5: Turning points: A cubic has at most 2 turning points. Here, one between -3 and 1 (local minimum), and one at x = 1 (touching point acts as turning point). So 2 turning points.\nWrong answer revealing error: Student draws graph crossing at x = 1 → ignores multiplicity. Student draws both arms going up → forgets negative leading coefficient flips end behaviour. Student says 3 turning points → confuses degree with max turning points (max = degree - 1 = 2).",
+     "self_check": true
+    },
+    {
+     "q": "Two students, Rahul and Priya, are discussing the cubic polynomial p(x) = x³ - 3x² + 4.\nRahul says: \"This cubic has only one real zero because the discriminant is negative.\"\nPriya says: \"This cubic has three real zeros because it's a cubic.\"\nWho is correct? Justify your answer by finding the actual zeros and explaining the graph's behaviour.",
+     "a": "Rahul is correct that there is only one distinct real zero, but his reasoning about discriminant is not a Class 10 concept. Priya is wrong — a cubic can have 1 or 3 real zeros. Let's find zeros: Try x = -1: (-1)³ - 3(-1)² + 4 = -1 - 3 + 4 = 0. So (x + 1) is a factor. Divide: p(x) = (x + 1)(x² - 4x + 4) = (x + 1)(x - 2)². Zeros: x = -1 (multiplicity 1, crosses), x = 2 (multiplicity 2, touches). So there are 2 distinct real zeros (-1 and 2), but 3 real zeros counting multiplicity. The graph crosses at x = -1, touches at x = 2. Leading coefficient positive → ends: bottom-left to top-right. Wrong answer \"Priya is correct\" reveals the misconception that every cubic must have 3 distinct x-intercepts. Wrong answer \"Rahul is correct with 1 zero\" reveals confusion between distinct zeros and zeros counting multiplicity. Board exams often ask \"number of real zeros\" meaning distinct zeros — students must clarify.",
+     "self_check": true
+    },
+    {
+     "q": "A student sketches the graph of y = x³ - 4x and claims: \"The graph crosses the x-axis at x = 0, x = 2, and x = -2. Since all zeros have multiplicity 1, the graph must have two turning points, one between -2 and 0, and one between 0 and 2.\" Evaluate this claim. Is the student's reasoning about turning points fully correct? Explain.",
+     "a": "The student's claim about zeros is correct: p(x) = x(x² - 4) = x(x - 2)(x + 2), zeros at -2, 0, 2 all multiplicity 1. The graph does cross at all three. However, the reasoning about turning points is incomplete. A cubic with 3 distinct real zeros MUST have exactly 2 turning points (one local max, one local min) by Rolle's Theorem / shape of cubic. The student correctly identifies the intervals but doesn't justify WHY there must be turning points there. The full reasoning: between any two distinct real zeros of a continuous differentiable function, there is at least one turning point (derivative zero). Since there are 3 distinct zeros, there are 2 intervals → at least 2 turning points. A cubic has at most 2 turning points → exactly 2. A wrong evaluation saying \"student is fully correct\" misses that the student stated the conclusion without mathematical justification — board exams require reasoning, not just pattern observation. A wrong evaluation saying \"student is wrong about turning points\" reveals the evaluator doesn't know cubic graphs always have 2 turning points when 3 distinct real zeros exist.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context: e.g., profit of a small business, trajectory of a ball, water level in a tank) that can be modelled by a cubic polynomial with exactly two distinct real zeros, one of which has multiplicity 2. Write the polynomial, explain what each zero represents in your context, and describe the graph's shape.",
+     "a": "Example problem: \"A startup in Bengaluru models its monthly profit (in lakhs ₹) after x months by P(x) = -2(x - 6)²(x - 12). The business breaks even at month 6 and month 12. At month 6, the profit touches zero but doesn't become negative — the business stabilises briefly before growing again. At month 12, the profit crosses zero and becomes negative — the business starts losing money.\" Polynomial: P(x) = -2(x - 6)²(x - 12). Zeros: x = 6 (multiplicity 2, touch point — break-even with stabilisation), x = 12 (multiplicity 1, crossing — break-even then loss). Leading coefficient -2: as x → -∞, P → +∞ (not relevant for x ≥ 0); as x → +∞, P → -∞ (eventual losses). Graph for x ≥ 0: starts at P(0) = -2(36)(-12) = 864 lakhs (high initial investment return?), crosses? Wait, P(0) = 864 positive. Actually, better context: \"Water level in a tank (metres) over time: h(t) = -(t - 2)²(t - 5). Tank fills, level touches 0 at t=2 (sensor glitch?), then rises, then crosses 0 at t=5 (empty).\" A good answer must have: (a) cubic with one double zero and one single zero, (b) meaningful context where multiplicity 2 zero represents \"touch and go\" behaviour, (c) correct end behaviour interpretation. Poor answer: uses quadratic, or has 3 distinct zeros, or ignores multiplicity meaning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

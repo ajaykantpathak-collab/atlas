@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_16_007",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_16_007",
+   "title": "c11_bio_cbse_16_007",
+   "questions": [
+    {
+     "q": "Name the crystalline salt most commonly found in human renal calculi and state the urinary condition that promotes its precipitation.",
+     "a": "Calcium oxalate is the most common constituent; precipitation occurs when urine becomes supersaturated with calcium and oxalate ions due to low urine volume (concentrated urine) or hypercalciuria/hyperoxaluria. A wrong answer like \"uric acid crystals\" or \"dehydration alone\" reveals confusion between stone types and the specific solubility product concept.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why hemodialysis fluid (dialysate) is prepared with an electrolyte composition similar to plasma but completely devoid of urea and creatinine.",
+     "a": "The dialysate mimics plasma osmolarity to prevent net water shift (osmotic balance) and maintain electrolyte gradients for essential ions (Na⁺, K⁺, HCO₃⁻), while the zero concentration of nitrogenous wastes creates a steep diffusion gradient for their removal from blood. A wrong answer focusing only on \"removing wastes\" misses the critical concept of preventing electrolyte disequilibrium syndrome.",
+     "self_check": true
+    },
+    {
+     "q": "A patient with chronic kidney disease (CKD) has a GFR of 12 mL/min, serum potassium 6.2 mmol/L, and hemoglobin 7.8 g/dL. Predict which two complications will NOT be corrected by hemodialysis alone and justify.",
+     "a": "Anemia (low erythropoietin production) and renal osteodystrophy (impaired calcitriol synthesis) will persist because hemodialysis only replaces filtration/excretion, not the endocrine functions of the kidney. A wrong answer listing hyperkalemia or uremia shows misunderstanding of what dialysis actually clears versus what requires hormonal replacement.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pathogenesis of calcium oxalate stones versus uric acid stones in terms of urinary pH, solubility, and dietary risk factors.",
+     "a": "Calcium oxalate stones form in neutral to alkaline urine where oxalate solubility is low; risk factors include high oxalate diet (spinach, nuts) and low citrate. Uric acid stones precipitate in persistently acidic urine (pH < 5.5) because undissociated uric acid is poorly soluble; risk factors include high purine intake (organ meats) and gout. A wrong answer that swaps pH dependencies reveals a fundamental confusion about acid-base chemistry of stone formation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Kidney transplantation from a living related donor is always superior to hemodialysis for a 65-year-old diabetic patient with end-stage renal disease.\"",
+     "a": "False. While transplantation offers better long-term survival and quality of life, a 65-year-old diabetic has higher surgical risk, cardiovascular comorbidity, and infection susceptibility from immunosuppression. Hemodialysis may be safer initially. A blanket \"always superior\" answer ignores individualized risk-benefit analysis required in clinical decision-making.",
+     "self_check": true
+    },
+    {
+     "q": "Design a public health awareness poster for a rural Indian community that explains the link between three modifiable lifestyle factors and kidney stone prevention, using only local language concepts (no medical jargon).",
+     "a": "A good poster would depict: (1) \"Drink 8-10 glasses of water daily\" (prevents concentrated urine), (2) \"Limit salt and pickles\" (reduces calcium excretion), (3) \"Eat seasonal vegetables, not just spinach/tomatoes daily\" (dietary oxalate variety). A poor answer uses terms like \"hypercalciuria\" or \"citrate supplementation\" which are inaccessible to the target audience.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

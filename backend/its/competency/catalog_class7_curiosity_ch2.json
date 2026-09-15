@@ -1,0 +1,649 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 2,
+ "chapter_title": "Exploring Substances - Acidic, Basic, Neutral",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gecu102.txt",
+ "concepts": [
+  {
+   "id": "c7cu.2.1",
+   "title": "Acids and Their Properties",
+   "section": "2.1",
+   "definition": "Acids are substances that taste sour, turn blue litmus red, and release hydrogen ions in water.",
+   "formula": "",
+   "key_idea": "Acids are sour substances that turn blue litmus paper red.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is an acid?",
+    "What are the properties of acids?",
+    "How does an acid affect blue litmus paper?",
+    "Give one example of a natural acid.",
+    "Why do acids taste sour?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the substance",
+     "explain": "Check whether the substance is sour to taste or known to be acidic."
+    },
+    {
+     "step": 2,
+     "action": "Test with litmus",
+     "explain": "Dip blue litmus paper into the substance and see if it turns red."
+    },
+    {
+     "step": 3,
+     "action": "Conclude",
+     "explain": "If blue litmus turns red, the substance is an acid."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is an acid?",
+     "solution": "An acid is a substance that tastes sour, turns blue litmus red, and releases hydrogen ions in water.",
+     "answer": "A sour substance that turns blue litmus red."
+    },
+    {
+     "question": "Give one example of a natural acid.",
+     "solution": "Lemon juice contains citric acid, which is a natural acid.",
+     "answer": "Citric acid in lemon juice."
+    },
+    {
+     "question": "How does an acid affect blue litmus paper?",
+     "solution": "An acid turns blue litmus paper red.",
+     "answer": "It turns blue litmus red."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What are the properties of acids?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of an acid found at home.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why do acids taste sour?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.2.2",
+   "title": "Bases and Their Properties",
+   "section": "2.2",
+   "definition": "Bases are substances that taste bitter, feel soapy to touch, turn red litmus blue, and release hydroxide ions in water.",
+   "formula": "",
+   "key_idea": "Bases are bitter, soapy substances that turn red litmus paper blue.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a base?",
+    "What are the properties of bases?",
+    "How does a base affect red litmus paper?",
+    "Give one example of a common base.",
+    "Why do bases feel soapy?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the substance",
+     "explain": "Check whether the substance is bitter or feels soapy."
+    },
+    {
+     "step": 2,
+     "action": "Test with litmus",
+     "explain": "Dip red litmus paper into the substance and see if it turns blue."
+    },
+    {
+     "step": 3,
+     "action": "Conclude",
+     "explain": "If red litmus turns blue, the substance is a base."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a base?",
+     "solution": "A base is a substance that tastes bitter, feels soapy, turns red litmus blue, and releases hydroxide ions in water.",
+     "answer": "A bitter, soapy substance that turns red litmus blue."
+    },
+    {
+     "question": "Give one example of a common base.",
+     "solution": "Baking soda (sodium bicarbonate) is a common base used at home.",
+     "answer": "Baking soda."
+    },
+    {
+     "question": "How does a base affect red litmus paper?",
+     "solution": "A base turns red litmus paper blue.",
+     "answer": "It turns red litmus blue."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What are the properties of bases?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of a base found at home.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why do bases feel soapy to touch?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.2.3",
+   "title": "Indicators: Litmus, Turmeric, Phenolphthalein",
+   "section": "2.3",
+   "definition": "Indicators are substances that change colour in acidic or basic solutions, helping us identify whether a substance is an acid or a base.",
+   "formula": "",
+   "key_idea": "Indicators change colour to show whether a solution is acidic or basic.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is an indicator?",
+    "How does litmus paper indicate acids and bases?",
+    "What happens to turmeric in a basic solution?",
+    "What colour does phenolphthalein turn in a base?",
+    "Give one example of a natural indicator."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Choose an indicator",
+     "explain": "Select a suitable indicator such as litmus, turmeric, or phenolphthalein."
+    },
+    {
+     "step": 2,
+     "action": "Add to the solution",
+     "explain": "Add the indicator to the solution and observe the colour change."
+    },
+    {
+     "step": 3,
+     "action": "Interpret the colour",
+     "explain": "Use the known colour change to decide if the solution is acidic or basic."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is an indicator?",
+     "solution": "An indicator is a substance that changes colour in acidic or basic solutions to help identify them.",
+     "answer": "A substance that changes colour in acids and bases."
+    },
+    {
+     "question": "How does litmus paper indicate acids and bases?",
+     "solution": "Acids turn blue litmus red, and bases turn red litmus blue.",
+     "answer": "Acids turn blue litmus red; bases turn red litmus blue."
+    },
+    {
+     "question": "What happens to turmeric in a basic solution?",
+     "solution": "Turmeric turns red or reddish-brown in a basic solution.",
+     "answer": "Turmeric turns red in a basic solution."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What colour does phenolphthalein turn in a base?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of a natural indicator.",
+     "type": "verify_property"
+    },
+    {
+     "question": "How does turmeric help identify a base?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.2.4",
+   "title": "Neutral Substances",
+   "section": "2.4",
+   "definition": "Neutral substances are neither acidic nor basic; they do not change the colour of litmus paper.",
+   "formula": "",
+   "key_idea": "Neutral substances do not change the colour of litmus paper.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a neutral substance?",
+    "How does a neutral substance affect litmus paper?",
+    "Give one example of a neutral substance.",
+    "Is distilled water acidic, basic, or neutral?",
+    "How can you test if a substance is neutral?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Test with litmus",
+     "explain": "Dip both red and blue litmus paper into the substance."
+    },
+    {
+     "step": 2,
+     "action": "Observe colour change",
+     "explain": "Check whether either litmus paper changes colour."
+    },
+    {
+     "step": 3,
+     "action": "Conclude",
+     "explain": "If neither litmus paper changes colour, the substance is neutral."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a neutral substance?",
+     "solution": "A neutral substance is neither acidic nor basic and does not change litmus paper colour.",
+     "answer": "A substance that is neither acidic nor basic."
+    },
+    {
+     "question": "Give one example of a neutral substance.",
+     "solution": "Distilled water is a neutral substance.",
+     "answer": "Distilled water."
+    },
+    {
+     "question": "How does a neutral substance affect litmus paper?",
+     "solution": "A neutral substance does not change the colour of red or blue litmus paper.",
+     "answer": "It does not change litmus paper colour."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Is distilled water acidic, basic, or neutral?",
+     "type": "verify_property"
+    },
+    {
+     "question": "How can you test if a substance is neutral?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of a neutral liquid.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.2.5",
+   "title": "Neutralization Reactions",
+   "section": "2.5",
+   "definition": "Neutralization is the reaction between an acid and a base to form a salt and water, reducing the acidic and basic properties.",
+   "formula": "acid + base -> salt + water",
+   "key_idea": "When an acid reacts with a base, they neutralize each other to form salt and water.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a neutralization reaction?",
+    "What are the products of a neutralization reaction?",
+    "Give one example of neutralization in daily life.",
+    "Why does an antacid tablet help acidity?",
+    "Write the general equation for neutralization."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the acid and base",
+     "explain": "Note the acid and the base that are reacting."
+    },
+    {
+     "step": 2,
+     "action": "Write the reaction",
+     "explain": "The acid and base react to form a salt and water."
+    },
+    {
+     "step": 3,
+     "action": "Explain the result",
+     "explain": "The resulting solution is less acidic and less basic, often neutral."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a neutralization reaction?",
+     "solution": "A neutralization reaction is the reaction of an acid with a base to form a salt and water.",
+     "answer": "Acid + base forms salt and water."
+    },
+    {
+     "question": "Give one example of neutralization in daily life.",
+     "solution": "Taking an antacid tablet neutralizes excess stomach acid and gives relief.",
+     "answer": "Antacid neutralizes stomach acid."
+    },
+    {
+     "question": "Write the general equation for neutralization.",
+     "solution": "The general equation is: acid + base -> salt + water.",
+     "answer": "acid + base -> salt + water."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What are the products of a neutralization reaction?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why does an antacid tablet help acidity?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of neutralization in agriculture.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.2.6",
+   "title": "The pH Scale",
+   "section": "2.6",
+   "definition": "The pH scale measures how acidic or basic a solution is, ranging from 0 (very acidic) to 14 (very basic), with 7 being neutral.",
+   "formula": "pH range: 0 to 14 (7 is neutral)",
+   "key_idea": "The pH scale tells us how acidic or basic a solution is.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the pH scale?",
+    "What does a pH of 7 indicate?",
+    "Is a solution with pH 3 acidic or basic?",
+    "Is a solution with pH 11 acidic or basic?",
+    "What is the pH range of the scale?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find the pH value",
+     "explain": "Note the pH number of the solution."
+    },
+    {
+     "step": 2,
+     "action": "Compare with 7",
+     "explain": "If pH is less than 7 it is acidic, if more than 7 it is basic, and if equal to 7 it is neutral."
+    },
+    {
+     "step": 3,
+     "action": "Conclude",
+     "explain": "State whether the solution is acidic, basic, or neutral based on the pH value."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the pH scale?",
+     "solution": "The pH scale measures how acidic or basic a solution is, from 0 to 14.",
+     "answer": "A scale from 0 to 14 measuring acidity or basicity."
+    },
+    {
+     "question": "Is a solution with pH 3 acidic or basic?",
+     "solution": "Since 3 is less than 7, the solution is acidic.",
+     "answer": "Acidic."
+    },
+    {
+     "question": "Is a solution with pH 11 acidic or basic?",
+     "solution": "Since 11 is more than 7, the solution is basic.",
+     "answer": "Basic."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What does a pH of 7 indicate?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Is a solution with pH 2 acidic, basic, or neutral?",
+     "type": "verify_property"
+    },
+    {
+     "question": "What is the pH range of the scale?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.2.7",
+   "title": "Acids and Bases in Daily Life",
+   "section": "2.7",
+   "definition": "Acids and bases are found in many everyday items such as lemon juice, vinegar, soap, and baking soda, and they play important roles in cooking, cleaning, and health.",
+   "formula": "",
+   "key_idea": "Many common household items are acids or bases used in daily life.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Give one example of an acid used in cooking.",
+    "Give one example of a base used in cleaning.",
+    "Why is vinegar used in pickles?",
+    "How is baking soda used in cooking?",
+    "Name one acid and one base found at home."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the item",
+     "explain": "Note the everyday item being studied, such as lemon juice or soap."
+    },
+    {
+     "step": 2,
+     "action": "Classify as acid or base",
+     "explain": "Determine whether the item is acidic or basic using its properties or an indicator."
+    },
+    {
+     "step": 3,
+     "action": "Explain the use",
+     "explain": "Describe how the acidic or basic nature makes the item useful."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Give one example of an acid used in cooking.",
+     "solution": "Lemon juice, which contains citric acid, is used to add sour taste in cooking.",
+     "answer": "Lemon juice (citric acid) in cooking."
+    },
+    {
+     "question": "Give one example of a base used in cleaning.",
+     "solution": "Soap is a base that helps remove grease and dirt from surfaces.",
+     "answer": "Soap is a base used for cleaning."
+    },
+    {
+     "question": "Why is vinegar used in pickles?",
+     "solution": "Vinegar is acidic and helps preserve pickles by preventing the growth of germs.",
+     "answer": "Vinegar's acidity preserves pickles."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How is baking soda used in cooking?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Name one acid and one base found at home.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why is soap good for cleaning?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.2.8",
+   "title": "Uses of Acids and Bases",
+   "section": "2.8",
+   "definition": "Acids and bases have many uses in industry, medicine, and daily life, such as making fertilizers, cleaning agents, and medicines.",
+   "formula": "",
+   "key_idea": "Acids and bases are useful in many fields including industry, medicine, and households.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Give one use of sulfuric acid.",
+    "How is sodium hydroxide used?",
+    "Why is hydrochloric acid important in the stomach?",
+    "Give one use of a base in industry.",
+    "Name one medicine that uses an acid or a base."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the acid or base",
+     "explain": "Note the name of the acid or base being studied."
+    },
+    {
+     "step": 2,
+     "action": "Find its use",
+     "explain": "Determine where and how the acid or base is used."
+    },
+    {
+     "step": 3,
+     "action": "Explain the benefit",
+     "explain": "Describe how the acidic or basic property makes it useful for that purpose."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Give one use of sulfuric acid.",
+     "solution": "Sulfuric acid is used in making fertilizers and in car batteries.",
+     "answer": "Fertilizers and car batteries."
+    },
+    {
+     "question": "How is sodium hydroxide used?",
+     "solution": "Sodium hydroxide is used in making soap and cleaning agents.",
+     "answer": "Making soap and cleaning agents."
+    },
+    {
+     "question": "Why is hydrochloric acid important in the stomach?",
+     "solution": "Hydrochloric acid in the stomach helps digest food and kills harmful germs.",
+     "answer": "It digests food and kills germs."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Give one use of a base in industry.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Name one medicine that uses an acid or a base.",
+     "type": "verify_property"
+    },
+    {
+     "question": "How is citric acid useful?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.2.9",
+   "title": "Calculating pH from Acid and Base Amounts",
+   "section": "2.9",
+   "definition": "We can compare pH values to decide how acidic or basic a solution is, and count the number of acidic, basic, and neutral samples in a set.",
+   "formula": "total samples = acidic + basic + neutral",
+   "key_idea": "Adding the counts of acidic, basic, and neutral samples gives the total number of samples tested.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "A lab tests 4 acidic, 3 basic, and 2 neutral samples. How many samples were tested in total?",
+    "Count the total samples if there are 5 acidic and 5 basic samples.",
+    "How many samples are there if 2 are acidic, 4 are basic, and 1 is neutral?",
+    "Find the total number of samples given 3 acidic and 6 neutral samples.",
+    "If a set has 7 acidic, 2 basic, and 1 neutral samples, what is the total?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the counts of each type",
+     "explain": "Write down how many samples are acidic, basic, and neutral."
+    },
+    {
+     "step": 2,
+     "action": "Add the counts",
+     "explain": "Sum the counts of all types to get the total number of samples."
+    },
+    {
+     "step": 3,
+     "action": "Verify the total",
+     "explain": "Check that the total equals the sum of the individual counts."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A lab tests 4 acidic, 3 basic, and 2 neutral samples. How many samples were tested in total?",
+     "solution": "Add the counts: 4 + 3 + 2 = 9.",
+     "answer": "9 samples."
+    },
+    {
+     "question": "Count the total samples if there are 5 acidic and 5 basic samples.",
+     "solution": "Add the counts: 5 + 5 = 10.",
+     "answer": "10 samples."
+    },
+    {
+     "question": "If a set has 7 acidic, 2 basic, and 1 neutral samples, what is the total?",
+     "solution": "Add the counts: 7 + 2 + 1 = 10.",
+     "answer": "10 samples."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A lab tests 3 acidic and 6 neutral samples. Find the total number of samples.",
+     "type": "compute"
+    },
+    {
+     "question": "Count the total samples if there are 4 acidic, 4 basic, and 2 neutral samples.",
+     "type": "compute"
+    },
+    {
+     "question": "If there are 2 acidic and 8 basic samples, what is the total?",
+     "type": "compute"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "reviewer-added",
+   "concept": "c7cu.2.1",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain acids and their properties with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the substance",
+     "explain": "Check whether the substance is sour to taste or known to be acidic."
+    },
+    {
+     "step": 2,
+     "action": "Test with litmus",
+     "explain": "Dip blue litmus paper into the substance and see if it turns red."
+    },
+    {
+     "step": 3,
+     "action": "Conclude",
+     "explain": "If blue litmus turns red, the substance is an acid."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "reviewer-added",
+   "concept": "c7cu.2.2",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain bases and their properties with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the substance",
+     "explain": "Check whether the substance is bitter or feels soapy."
+    },
+    {
+     "step": 2,
+     "action": "Test with litmus",
+     "explain": "Dip red litmus paper into the substance and see if it turns blue."
+    },
+    {
+     "step": 3,
+     "action": "Conclude",
+     "explain": "If red litmus turns blue, the substance is a base."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)"
+}

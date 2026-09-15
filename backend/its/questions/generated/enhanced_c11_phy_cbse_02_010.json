@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_02_010",
+   "title": "c11_phy_cbse_02_010",
+   "questions": [
+    {
+     "q": "A car travels at 20 m/s. The driver's reaction time is 0.5 s. What is the reaction distance traveled before brakes are applied?",
+     "a": "10 m. Reaction distance = v₀ × tᵣ = 20 m/s × 0.5 s = 10 m. A wrong answer (e.g., 5 m or 20 m) reveals the student either halves the time incorrectly or confuses reaction distance with braking distance, not recognizing that during reaction time velocity is constant so s = vt applies directly.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the ruler-drop experiment use the formula tᵣ = √(2d/g) instead of tᵣ = d/v? Explain the physical reasoning.",
+     "a": "The ruler starts from rest (u = 0) and accelerates uniformly at g, so displacement d = ½gtᵣ². Using tᵣ = d/v would assume constant velocity, which is false — the ruler's velocity increases from 0 to gtᵣ during the fall. A student giving tᵣ = d/v confuses the ruler's motion (free fall) with the car's motion during reaction time (constant velocity).",
+     "self_check": true
+    },
+    {
+     "q": "A scooter moving at 15 m/s decelerates at 3 m/s² after a reaction time of 0.6 s. Calculate the total stopping distance.",
+     "a": "Step 1: Reaction distance = v₀tᵣ = 15 × 0.6 = 9 m.\nStep 2: Braking distance = v₀²/(2a) = 15²/(2×3) = 225/6 = 37.5 m.\nStep 3: Total stopping distance = 9 + 37.5 = 46.5 m.\nA wrong answer like 37.5 m (omitting reaction distance) or 54 m (using a = 3 m/s² in s = vt + ½at² for reaction phase) shows failure to separate the two distinct motion phases: constant velocity then constant deceleration.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical cars have the same deceleration. Car A travels at 30 km/h, Car B at 60 km/h. If both drivers have the same reaction time, what is the ratio of their total stopping distances? Explain why it is not 2:1.",
+     "a": "Convert speeds: 30 km/h = 8.33 m/s, 60 km/h = 16.67 m/s.\nReaction distance ratio = 1:2 (linear in v₀).\nBraking distance ratio = 1:4 (quadratic in v₀).\nTotal stopping distance ratio = (8.33tᵣ + 8.33²/2a) : (16.67tᵣ + 16.67²/2a).\nFor typical tᵣ = 0.5 s, a = 5 m/s²: Car A = 4.17 + 6.94 = 11.11 m; Car B = 8.33 + 27.78 = 36.11 m. Ratio ≈ 1:3.25.\nA student answering 2:1 ignores the quadratic braking component and treats total stopping distance as purely linear in speed.",
+     "self_check": true
+    },
+    {
+     "q": "A student measures reaction time using the ruler-drop method and gets d = 18 cm. They calculate tᵣ = √(2×18/9.8) = 1.92 s. Is this physically reasonable? Justify.",
+     "a": "No, 1.92 s is unreasonably long for human visual-motor reaction time (typical 0.15–0.30 s). The error: using d = 18 cm in meters? 18 cm = 0.18 m. Correct: tᵣ = √(2×0.18/9.8) = √0.0367 = 0.19 s. The student forgot to convert cm to m, yielding a 10× overestimate. This reveals a unit-conversion blind spot common in ruler-drop calculations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world experiment to measure a two-wheeler rider's reaction time without a ruler, using only a smartphone and a marked straight road. Describe the procedure and the formula you would use.",
+     "a": "Procedure: Mark a \"stimulus line\" and a \"brake line\" 5 m apart. Rider approaches at constant known speed v₀ (measured via phone GPS). At stimulus line, co-rider shouts \"brake\"; rider applies brakes. Phone video records time from shout to brake-light onset (tᵣ). Alternatively, use phone's audio sensor: record shout sound and brake-squeal sound; time difference = tᵣ. Formula: tᵣ = (distance from stimulus line to actual brake application point) / v₀. A good answer includes synchronization method, constant-speed verification, and recognition that reaction distance = v₀tᵣ. A poor answer uses speedometer reading without verifying constancy or ignores video-frame synchronization error.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

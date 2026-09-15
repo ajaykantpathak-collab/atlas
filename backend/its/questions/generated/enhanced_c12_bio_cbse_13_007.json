@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_13_007",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_13_007",
+   "title": "c12_bio_cbse_13_007",
+   "questions": [
+    {
+     "q": "Define predation and give one example each of a predator and its prey from an Indian ecosystem.",
+     "a": "Predation is an interaction where a predator kills and eats a prey. Example: Bengal tiger (predator) and chital deer (prey) in Indian forests. A wrong answer (e.g., \"lion eats grass\" or \"parasite is a predator\") reveals confusion between predation, herbivory, and parasitism — the student hasn't grasped that predation always involves killing and direct consumption of another animal.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why two species competing for the exact same resource cannot coexist indefinitely (competitive exclusion principle), and describe one way they might avoid exclusion in nature.",
+     "a": "If two species have identical niches, the superior competitor will drive the other to local extinction because resources are finite. They can avoid exclusion by resource partitioning (e.g., feeding at different times, different heights, or different prey sizes). A wrong answer that says \"they will share equally\" or \"the weaker one will just move away\" shows misunderstanding of the principle's inevitability and the role of niche differentiation.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer notices that after introducing a new insecticide, the pest population initially crashes but later rebounds to even higher numbers. Using predator-prey dynamics, explain a likely reason.",
+     "a": "The insecticide likely killed both the pest and its natural predators. With predators gone, the pest's death rate drops, allowing rapid exponential growth (release from top-down control). A wrong answer blaming only pesticide resistance misses the ecological release concept — the student hasn't linked predator removal to prey population explosion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare intraspecific and interspecific competition. Which is generally more intense? Justify with an example from plants.",
+     "a": "Intraspecific competition (same species) is more intense because individuals have identical resource needs. Example: dense wheat plants compete for identical light, water, nutrients. Interspecific competition (different species) may be less intense if niches differ slightly. A wrong answer claiming interspecific is always stronger ignores niche overlap degree — the student hasn't realized that similarity of needs drives intensity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Predators always control prey populations and prevent them from exceeding carrying capacity.\" Is this always true? Provide a counterexample.",
+     "a": "Not always. Predators can regulate prey, but if prey has a refuge or high reproductive rate, predators may not suppress them below K. Counterexample: locust swarms — predators (birds) cannot control explosive growth. A wrong answer agreeing without nuance shows the student treats predator-prey as a simple linear control, ignoring density dependence, refuges, and time lags.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field experiment to test whether two grass species compete for soil nitrogen in a meadow. List the treatment groups, what you would measure, and the expected result if competition occurs.",
+     "a": "Treatment groups: (1) Species A alone, (2) Species B alone, (3) Both together at same total density. Measure biomass and leaf nitrogen content after a growing season. If competition occurs, biomass and N content in mixed plots will be lower than in monocultures. A poor design that doesn't control density or measure a resource-specific trait reveals the student cannot translate competition concept into a testable hypothesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

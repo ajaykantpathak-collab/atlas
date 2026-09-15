@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_02_001",
+   "title": "c10_bio_cbse_02_001",
+   "questions": [
+    {
+     "q": "What are the two main systems responsible for control and coordination in animals, and what type of signal does each use?",
+     "a": "The two systems are the nervous system (uses electrical impulses called nerve impulses transmitted along neurons) and the endocrine system (uses chemical messengers called hormones transported by blood). A wrong answer that mentions only one system or confuses the signal type (e.g., saying hormones are electrical) reveals the student hasn't distinguished the dual mechanism unique to animals.",
+     "self_check": true
+    },
+    {
+     "q": "Why do plants not have a nervous system, and how does this affect the speed of their responses compared to animals?",
+     "a": "Plants lack neurons and specialized nervous tissue entirely; their coordination relies on phytohormones diffusing through cells or moving via xylem/phloem, which is much slower than electrical conduction along axons. A wrong answer that claims plants have nerves or that their responses are equally fast shows a misunderstanding of the structural basis for speed differences.",
+     "self_check": true
+    },
+    {
+     "q": "A student touches a mimosa plant and it folds its leaves. The same student touches a hot object and withdraws their hand. Identify the type of signal (electrical/chemical) and the approximate time scale (milliseconds/seconds/minutes) for the response in each case.",
+     "a": "Mimosa: chemical signal (phytohormone/electrochemical wave), response in seconds to minutes. Hand withdrawal: electrical impulse along sensory-interneuron-motor pathway, response in milliseconds. A wrong answer assigning electrical signals to mimosa or milliseconds to plant response indicates confusion about signal nature and conduction velocity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of the circulatory system in coordination in animals versus plants. Why is blood critical for one but not the other?",
+     "a": "In animals, blood transports hormones from endocrine glands to target organs, making circulation essential for endocrine coordination. In plants, phytohormones move mainly by diffusion, active transport, or through xylem/phloem (which transport water/nutrients, not primarily hormones), so a dedicated circulatory fluid for hormonal transport is absent. A wrong answer stating plants use blood-like fluid for hormone transport shows failure to distinguish vascular tissue function from animal circulation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Plants are less coordinated than animals because they lack a brain.\" Is this biologically accurate? Justify.",
+     "a": "The statement is inaccurate. Coordination does not require a brain; plants achieve effective coordination (e.g., phototropism, stress responses) through distributed chemical signaling and modular organization. \"Less coordinated\" is a value judgment; plants are differently coordinated — slower but suited to sessile life. A wrong answer agreeing with the statement reveals an anthropocentric misconception equating coordination solely with nervous systems.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to demonstrate that a plant's response to light (phototropism) involves a chemical signal produced in the shoot tip, using two potted bean seedlings, aluminum foil, and a light source from one side.",
+     "a": "Cover the shoot tip of seedling A with opaque foil cap; leave seedling B uncovered. Place both with light from one side. After 2–3 days, seedling B bends toward light, seedling A does not. This shows the tip perceives light and sends a chemical signal (auxin) downward. A poor answer that covers the whole plant or uses no control reveals inability to isolate the site of perception and signal production.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

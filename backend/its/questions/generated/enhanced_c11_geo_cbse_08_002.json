@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_08_002",
+   "title": "c11_geo_cbse_08_002",
+   "questions": [
+    {
+     "q": "Name the seven countries with which India shares a land boundary and the two countries with which it shares a maritime boundary.",
+     "a": "Land neighbours (7): Pakistan, China, Nepal, Bhutan, Bangladesh, Myanmar, Afghanistan. Maritime neighbours (2): Sri Lanka, Maldives. A wrong answer—such as omitting Afghanistan or including Tibet as a separate country—reveals that the student is relying on a mental map from lower classes where Afghanistan's tiny 106 km border with India (in PoK) is often overlooked, or confuses the political status of Tibet with that of a sovereign neighbour.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the India–Bangladesh boundary is described as \"riverine and highly indented\" whereas the India–Pakistan boundary in the Rann of Kachchh is described as \"arid and featureless.\"",
+     "a": "The India–Bangladesh boundary follows numerous distributaries of the Ganga–Brahmaputra delta (e.g., Ichamati, Raimangal, Hariabhanga) creating a complex, shifting, and indented line that required the 2015 Land Boundary Agreement to resolve enclaves. In contrast, the India–Pakistan boundary across the Rann of Kachchh runs through a seasonal salt marsh with no permanent drainage or relief, making it a straight-line, featureless sector demarcated by pillars. A wrong answer that attributes the Bangladesh boundary's complexity to \"mountains\" or the Rann boundary to \"river disputes\" shows the student cannot link boundary morphology to the underlying physiography studied in Class 6 (Northern Plains vs. Desert Region).",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of India (scale 1:15,000,000), the measured map distance between Border Pillar No. 1 (India–Pakistan–Afghanistan trijunction) and Border Pillar No. 912 (India–China–Myanmar trijunction) along the northern watershed is 18.4 cm. Calculate the approximate ground length of the India–China boundary in km. Show your working.",
+     "a": "Step 1: Convert map scale to ground distance: 1 cm on map = 150 km on ground (15,000,000 cm = 150 km).  \nStep 2: Multiply measured map distance by scale factor: 18.4 cm × 150 km/cm = 2,760 km.  \nStep 3: Compare with official figure (~3,488 km) and note the difference arises because the measured line follows the watershed crest on a small-scale map, generalising the intricate alignment.  \nA wrong answer that directly uses 18.4 × 15 = 276 km (misreading scale as 1:1,500,000) or forgets to convert cm to km reveals the student lacks map-scale arithmetic—a core skill from Class 9 \"Map Projections\" and Class 10 \"Map Reading\".",
+     "self_check": true
+    },
+    {
+     "q": "Compare the strategic vulnerability of the \"Chicken's Neck\" (Siliguri Corridor) with that of the \"Siachen Glacier\" sector. Identify the common geographical factor that makes both sectors critical for India's internal connectivity and external defence.",
+     "a": "The Siliguri Corridor (≈22 km wide) connects the Northeast to mainland India; its narrowness between Nepal and Bangladesh creates a choke point for road/rail links. The Siachen Glacier (≈76 km long) sits on the Saltoro Ridge overlooking the Nubra Valley and the Karakoram Pass; control of its heights prevents a Pakistan–China link-up via the Shaksgam Valley. The common geographical factor is **topographic constriction**—a narrow land bridge or a dominating ridge—that allows a small force to interdict movement across a vast hinterland. A wrong answer focusing only on \"border disputes\" or \"altitude\" misses the geomorphological concept of \"choke points\" taught in Class 9 \"Landforms\" and Class 10 \"Transport Geography\".",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The 1974 and 1976 India–Sri Lanka maritime boundary agreements successfully resolved all fishing disputes in the Palk Strait and Gulf of Mannar.\" Provide two pieces of evidence to support your judgement.",
+     "a": "The statement is **not fully correct**. Evidence 1: The agreements delimited the International Maritime Boundary Line (IMBL) using the equidistance/median line principle and placed Katchatheevu island on the Sri Lankan side, but did not regulate traditional fishing rights, leading to continued arrests of Indian fishermen crossing the IMBL. Evidence 2: The 1976 agreement explicitly allowed Indian fishermen to use Katchatheevu for drying nets and the annual St. Anthony's festival, yet Sri Lankan naval enforcement has restricted even this access, showing the agreements lack an enforceable joint management mechanism. A wrong answer that calls the agreements \"fully successful\" ignores the ongoing humanitarian and livelihood dimension—a gap between legal delimitation and resource-use reality studied in Class 10 \"International Trade\" and Class 11 \"India's Coastline\".",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page annotated sketch map for a Class 11 geography project titled \"India's Northern Frontier: From the Karakoram to the Arakan Yoma.\" List the five essential map elements you would include and explain why each is necessary for a senior-secondary level submission.",
+     "a": "Essential elements: (1) **Title and scale** (1:5,000,000) to define scope and enable distance measurement; (2) **Physiographic base**—Himalayan ranges (Karakoram, Ladakh, Zanskar, Great Himalaya, Purvanchal) shaded by elevation—to show the orographic barrier; (3) **Boundary alignment**—solid line for settled sectors (e.g., Nepal, Bhutan), dashed line for disputed sectors (Aksai Chin, Arunachal Pradesh, Shaksgam), with pillar numbers—to distinguish legal status; (4) **Strategic annotations**—Siachen Glacier, Daulat Beg Oldi, Lipulekh Pass, Doklam, Diphu Pass, Chicken's Neck—labelled with one-sentence significance; (5) **Inset locator map** of South Asia showing India's position relative to China, Pakistan, Central Asia—to provide regional context. A poor answer that omits the disputed-sector symbology or the strategic annotations treats the map as a mere political outline, missing the analytical depth expected at Class 11.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "class": 9,
+ "subject": "maths",
+ "chapter": 3,
+ "chapter_title": "The World of Numbers",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iemh103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iemh.103.3.1",
+   "title": "Integers and Their Operations",
+   "section": "3.3",
+   "definition": "Integers extend the natural numbers with zero and negatives; addition and subtraction move along the number line, multiplication follows sign rules, and division of integers keeps closure except when the divisor is zero.",
+   "formula": "-",
+   "key_idea": "The number line is the map: right for positive moves, left for negative ones.",
+   "textbook_ref": "iemh103.txt section 3.3 (integers)",
+   "question_patterns": [
+    "add the given integers using the number line",
+    "find the product of the given integers with sign rules",
+    "why is division of two integers not always an integer - justify",
+    "arrange the given integers in increasing order",
+    "evaluate the given expression with brackets and signs",
+    "what is the additive identity among integers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "place the numbers on the line",
+     "explain": "The number line fixes order and sign behaviour."},
+    {"step": 2, "action": "apply the sign rules",
+     "explain": "Same signs give positive products, unlike signs negative."},
+    {"step": 3, "action": "check the operation",
+     "explain": "Note which operations keep the result an integer."}
+   ]
+  },
+  {
+   "id": "iemh.103.3.2",
+   "title": "Rational Numbers on the Number Line",
+   "section": "3.5",
+   "definition": "Rational numbers fill the number line as fractions a over b with nonzero b; between any two rationals lie infinitely many more, and every rational has a terminating or repeating decimal form.",
+   "formula": "-",
+   "key_idea": "Rationals are dense: no gap exists between two of them that more rationals cannot fill.",
+   "textbook_ref": "iemh103.txt section 3.5 (rational numbers)",
+   "question_patterns": [
+    "insert three rational numbers between the given pair",
+    "find the decimal expansion of the given rational number",
+    "which of the given decimals represent rational numbers - justify",
+    "locate the given rational number on the number line",
+    "why are rationals called dense on the number line",
+    "convert the given repeating decimal into a fraction"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "write the fraction form",
+     "explain": "Put the number as a over b with b nonzero."},
+    {"step": 2, "action": "check the decimal",
+     "explain": "Terminating or repeating decimals confirm rationality."},
+    {"step": 3, "action": "place on the line",
+     "explain": "Compare with nearby integers to fix the position."}
+   ]
+  },
+  {
+   "id": "iemh.103.3.3",
+   "title": "Irrational Numbers",
+   "section": "3.5",
+   "definition": "Numbers whose decimals go on forever without repeating - like the square root of 2 or pi - cannot be written as fractions and are called irrational; the diagonal of a unit square was history's first meeting with such a number.",
+   "formula": "-",
+   "key_idea": "No fraction can catch them: non-terminating, non-repeating decimals are irrational.",
+   "textbook_ref": "iemh103.txt sections 3.5-3.6 (irrational numbers)",
+   "question_patterns": [
+    "is the square root of 2 rational or irrational - justify",
+    "which of the given numbers are irrational",
+    "what is the difference between rational and irrational numbers",
+    "why does the decimal of an irrational number never repeat",
+    "classify the given decimals as rational or irrational",
+    "give two examples of irrational numbers from geometry"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "test the fraction form",
+     "explain": "Try writing the number as a over b; irrationals refuse."},
+    {"step": 2, "action": "inspect the decimal",
+     "explain": "Non-terminating and non-repeating decimals mark irrationals."},
+    {"step": 3, "action": "place in the family",
+     "explain": "Irrationals join rationals to fill the real line completely."}
+   ]
+  },
+  {
+   "id": "iemh.103.3.4",
+   "title": "Real Numbers",
+   "section": "3.6",
+   "definition": "Rational and irrational numbers together form the real numbers, which fill every point of the number line with no gaps left; real numbers support the usual order and arithmetic, forming the complete stage for school mathematics.",
+   "formula": "-",
+   "key_idea": "Rationals plus irrationals equals the whole line: every point is a real number.",
+   "textbook_ref": "iemh103.txt section 3.6 (real numbers), 3.7 (conclusion)",
+   "question_patterns": [
+    "define real numbers with examples",
+    "is every rational number a real number - justify",
+    "are all real numbers rational - explain",
+    "arrange the given real numbers in increasing order",
+    "what fills the gaps left by rational numbers on the number line",
+    "classify the given numbers into rational, irrational and real"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "combine the families",
+     "explain": "Rationals and irrationals together give the reals."},
+    {"step": 2, "action": "check completeness",
+     "explain": "Every point of the number line carries a real number."},
+    {"step": 3, "action": "classify samples",
+     "explain": "Sort given numbers into the two sub-families of reals."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "iemh103.txt exercises on integers and rationals",
+   "questions": [
+     "Evaluate the given integer expressions.",
+     "Find three rational numbers between the given pair.",
+     "Find the decimal expansion and identify its type."
+   ]
+  },
+  {
+   "id": "ex3.2",
+   "source_ref": "iemh103.txt exercises on irrationals and reals",
+   "questions": [
+     "Classify the given numbers as rational or irrational.",
+     "Mark the given real numbers on the number line."
+   ]
+  }
+ ]
+}

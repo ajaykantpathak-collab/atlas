@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_09_011",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_09_011",
+   "title": "c11_math_cbse_09_011",
+   "questions": [
+    {
+     "q": "Write the general term of the AGP formed by the AP: 3, 7, 11, 15, ... and GP: 1, 2, 4, 8, ...",
+     "a": "The AP has a=3, d=4; GP has r=2. The AGP general term is Tₙ = [3 + (n-1)4] × 2ⁿ⁻¹ = (4n-1)2ⁿ⁻¹. A wrong answer like (3+4n)2ⁿ reveals confusion between 0-indexed and 1-indexed term numbering, or forgetting that the first GP term is r⁰=1, not r¹.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the method of subtracting r×Sₙ from Sₙ works for summing an AGP but fails if you instead try to subtract Sₙ from r×Sₙ.",
+     "a": "Subtracting rSₙ from Sₙ gives Sₙ(1-r) = a + dr + dr² + ... + drⁿ⁻¹ - [a+(n-1)d]rⁿ, where the middle terms form a GP (summable). Reversing the subtraction gives Sₙ(r-1) = -a - dr - dr² - ... + [a+(n-1)d]rⁿ, which is algebraically equivalent but the negative signs increase sign errors. A student who cannot explain this likely memorizes the formula without understanding the telescoping structure.",
+     "self_check": true
+    },
+    {
+     "q": "Find the sum of the first 5 terms of the AGP: 2 + 5×3 + 8×3² + 11×3³ + 14×3⁴.",
+     "a": "AP: a=2, d=3; GP: r=3; n=5. \nS₅ = 2 + 15 + 72 + 297 + 1134 = 1520.\nUsing formula: S₅ = 2/(1-3) + 3×3(1-3⁴)/(1-3)² - [2+12]×3⁵/(1-3) = -1 + 9(-80)/4 - 14×243/(-2) = -1 - 180 + 1701 = 1520.\nWrong answer 1518 suggests arithmetic error in 3⁵=243 or sign error in denominator (1-3)=-2.",
+     "self_check": true
+    },
+    {
+     "q": "An AGP has first term 1, common difference 2, common ratio 1/2. Compare the sum of first 10 terms with the infinite sum. What percentage of the infinite sum is captured in the first 10 terms?",
+     "a": "S₁₀ = 1/(1-0.5) + 2×0.5(1-0.5⁹)/(1-0.5)² - [1+18]×0.5¹⁰/(1-0.5) = 2 + 1(1-1/512)/0.25 - 19/1024 = 2 + 4(511/512) - 19/1024 = 2 + 2044/512 - 19/1024 = 2 + 4088/1024 - 19/1024 = 2 + 4069/1024 ≈ 5.97.\nS∞ = a/(1-r) + dr/(1-r)² = 2 + 1/0.25 = 6.\nPercentage = (5.97/6)×100 ≈ 99.5%.\nWrong analysis: using AP sum formula or ignoring the -[a+(n-1)d]rⁿ term shows misunderstanding of the remainder term's role.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The sum of infinite AGP with a=5, d=3, r=1/3 is 5/(1-1/3) = 7.5.\" Evaluate this claim and identify the error.",
+     "a": "The claim is incorrect. The infinite AGP sum is S∞ = a/(1-r) + dr/(1-r)² = 5/(2/3) + 3×(1/3)/(2/3)² = 7.5 + 1/(4/9) = 7.5 + 2.25 = 9.75. The student used only the first term of the formula, ignoring the dr/(1-r)² contribution from the arithmetic progression's common difference. This reveals the misconception that infinite AGP sum equals infinite GP sum of the first term only.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) that requires finding the sum of an AGP with n=6, a=1000, d=500, r=1.05. Write the problem statement and the expression for the answer (do not compute).",
+     "a": "Problem: \"Riya invests ₹1000 in a recurring deposit in January. Each month she increases her deposit by ₹500. The bank gives 5% monthly compound interest. Find the total amount after 6 months.\" Expression: S₆ = 1000 + 1500(1.05) + 2000(1.05)² + 2500(1.05)³ + 3000(1.05)⁴ + 3500(1.05)⁵. Poor answer: using simple interest or treating as pure GP/AP shows failure to recognize the combined growth pattern.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

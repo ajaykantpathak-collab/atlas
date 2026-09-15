@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_13_002",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_13_002",
+   "title": "c11_phy_cbse_13_002",
+   "questions": [
+    {
+     "q": "State the defining equation for displacement in SHM and name each symbol with its SI unit.",
+     "a": "The defining equation is \\( x(t) = A \\cos(\\omega t + \\phi) \\). Here \\( x \\) is displacement from mean position (metre, m), \\( A \\) is amplitude (metre, m), \\( \\omega \\) is angular frequency (radian per second, rad/s), \\( t \\) is time (second, s), and \\( \\phi \\) is phase constant (radian, rad). A wrong answer (e.g., writing \\( x = A \\sin(\\omega t) \\) without phase, or confusing \\( \\omega \\) with frequency \\( \\nu \\)) reveals the student has not internalised the general form with phase constant or the distinction between angular frequency and ordinary frequency.",
+     "self_check": true
+    },
+    {
+     "q": "A particle moves according to \\( x(t) = 5 \\cos(2t) + 3 \\sin(2t) \\). Is this SHM? Explain why or why not without solving for a single sinusoidal function.",
+     "a": "Yes, it is SHM. The function is a linear combination of sine and cosine with the *same* angular frequency \\( \\omega = 2 \\) rad/s. Any such linear combination \\( A \\cos \\omega t + B \\sin \\omega t \\) can be rewritten as a single sinusoid \\( D \\cos(\\omega t + \\phi) \\) with \\( D = \\sqrt{A^2+B^2} \\) and \\( \\phi = \\tan^{-1}(-B/A) \\), which is the standard SHM form. A wrong answer (e.g., saying it is not SHM because it has two terms) shows the student does not recognise that superposition of same-frequency sinusoids yields another sinusoid of that frequency – a key property of linear SHM.",
+     "self_check": true
+    },
+    {
+     "q": "The displacement of a particle is given by \\( x(t) = 0.04 \\cos(10\\pi t + \\pi/3) \\) metre. Calculate the amplitude, period, frequency, and phase constant. Show unit analysis.",
+     "a": "Given: \\( x(t) = 0.04 \\cos(10\\pi t + \\pi/3) \\) m.\n- Amplitude \\( A = 0.04 \\) m (coefficient of cosine).\n- Angular frequency \\( \\omega = 10\\pi \\) rad/s.\n- Period \\( T = \\frac{2\\pi}{\\omega} = \\frac{2\\pi}{10\\pi} = 0.2 \\) s. Unit check: rad/(rad/s) = s.\n- Frequency \\( \\nu = \\frac{1}{T} = \\frac{1}{0.2} = 5 \\) Hz. Unit check: 1/s = Hz.\n- Phase constant \\( \\phi = \\pi/3 \\) rad (the constant added to \\( \\omega t \\)).\nA wrong answer (e.g., \\( T = 10\\pi/2\\pi = 5 \\) s) reveals confusion between \\( \\omega \\) and \\( \\nu \\) or incorrect inversion of the period formula.",
+     "self_check": true
+    },
+    {
+     "q": "Two displacement functions are given: (i) \\( x_1 = A \\cos(\\omega t) \\) and (ii) \\( x_2 = A \\cos(\\omega t) + B \\cos(2\\omega t) \\). Which represents SHM? Which is periodic but not SHM? Justify using the definition of SHM and the concept of periodicity.",
+     "a": "(i) \\( x_1 = A \\cos(\\omega t) \\) is SHM because it is a single sinusoid with angular frequency \\( \\omega \\). (ii) \\( x_2 = A \\cos(\\omega t) + B \\cos(2\\omega t) \\) is periodic (period \\( T = 2\\pi/\\omega \\)) but **not** SHM because it contains two different angular frequencies (\\( \\omega \\) and \\( 2\\omega \\)). SHM requires *exactly one* angular frequency; the superposition of two different frequencies yields a non-sinusoidal periodic function. A wrong answer (e.g., claiming both are SHM) shows the student equates \"periodic\" with \"simple harmonic\" and misses the single-frequency requirement.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Any motion that repeats after a fixed time interval is SHM.\" Evaluate this statement. Give a counterexample from the NCERT textbook (or your own) that is periodic but not SHM.",
+     "a": "The statement is **false**. Periodicity is necessary but not sufficient for SHM. SHM additionally requires the restoring force to be linear in displacement (\\( F \\propto -x \\)) or equivalently the displacement to be a single sinusoidal function of time. Counterexample: Uniform circular motion is periodic but not oscillatory (hence not SHM). Another example: a ball bouncing elastically on a floor – its motion is periodic (parabolic segments) but the force is constant (\\( mg \\)) except at impact, not proportional to displacement. A wrong evaluation (e.g., agreeing with the statement) reveals the student conflates \"periodic motion\" with \"simple harmonic motion\" and has not grasped the defining linearity condition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a spring and a mass to verify whether the oscillation is SHM. What measurements would you take, and how would you analyse the data to confirm the linear force law \\( F = -kx \\)?",
+     "a": "Hang a spring vertically, attach a mass, and let it oscillate with small amplitude. Use a motion sensor or video analysis to record displacement \\( x(t) \\). Plot \\( x \\) vs \\( t \\); fit to \\( A \\cos(\\omega t + \\phi) \\). If the fit is excellent (residuals near zero), the motion is sinusoidal → SHM. Alternatively, measure the period \\( T \\) for different amplitudes; in SHM, \\( T \\) is independent of amplitude (isochronism). To directly test \\( F = -kx \\), hang different known masses and measure static extension \\( x \\); plot \\( F = mg \\) vs \\( x \\). A straight line through origin confirms Hooke's law. A poor answer (e.g., just saying \"measure time period\") shows the student does not connect the definition to experimental verification of the linear restoring force.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

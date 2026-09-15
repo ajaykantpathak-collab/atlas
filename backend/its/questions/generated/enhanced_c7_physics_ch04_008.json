@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch04_008",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch04_008",
+   "title": "c7_physics_ch04_008",
+   "questions": [
+    {
+     "q": "A car travels along a straight highway, covering exactly 50 meters every 5 seconds. Is this motion uniform or non-uniform, and why?",
+     "a": "This is uniform motion because the car covers equal distances (50 m) in equal intervals of time (5 s) continuously. A student who answers \"non-uniform\" likely confuses changing position with changing speed, forgetting that if the distance per time interval is constant, the motion is uniform.",
+     "self_check": true
+    },
+    {
+     "q": "During a 10-second run, a sprinter covers 2 meters in the first second, 4 meters in the second second, and 6 meters in the third second. Explain whether the sprinter's motion is uniform or non-uniform.",
+     "a": "The motion is non-uniform because the sprinter covers unequal distances (2 m, 4 m, 6 m) in equal time intervals (1 s each). A student who says it is uniform because the distance increases is confusing a steady increase in total distance with a constant speed per second.",
+     "self_check": true
+    },
+    {
+     "q": "A toy train travels along a straight track. It covers 12 meters in the first 3 seconds, 12 meters in the next 3 seconds, and 12 meters in the final 3 seconds. Calculate its speed in each 3-second interval.",
+     "a": "Steps:\n1. Identify given values for each interval: Distance ($d$) = 12 m, Time ($t$) = 3 s.\n2. Recall the speed formula: Speed ($v$) = $\\frac{d}{t}$.\n3. Substitute values for the first interval: $v_1 = \\frac{12\\text{ m}}{3\\text{ s}}$.\n4. Compute and track units: $v_1 = 4\\text{ m/s}$. Since every interval has 12 m in 3 s, $v_2 = 4\\text{ m/s}$ and $v_3 = 4\\text{ m/s}$.\nAnswer: The speed in each interval is 4 m/s, confirming uniform motion. A student who incorrectly divides time by distance gets an inverted unit like s/m, showing a failure to connect formula variables correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following distance-time data for a bicycle moving in a straight line: At t=0s, d=0m; at t=2s, d=10m; at t=4s, d=25m; at t=6s, d=45m. Determine if the motion is uniform or non-uniform and explain your reasoning using interval calculations.",
+     "a": "The motion is non-uniform. Interval 1 (0 to 2 s): speed = $\\frac{10\\text{ m}}{2\\text{ s}} = 5\\text{ m/s}$. Interval 2 (2 to 4 s): distance covered = $25 - 10 = 15\\text{ m}$, time = $2\\text{ s}$, speed = $\\frac{15\\text{ m}}{2\\text{ s}} = 7.5\\text{ m/s}$. Since the speeds in consecutive intervals are different ($5\\text{ m/s} \\neq 7.5\\text{ m/s}$), the motion is non-uniform. A student who just checks total distance divided by total time without checking intervals misses that speed is changing mid-journey.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If a vehicle travels a total distance of 100 km in 2 hours, its motion must be uniform throughout the entire journey.\" Is this statement valid? Justify your answer.",
+     "a": "The statement is false and invalid. Knowing only the total distance and total time gives the *average* speed ($50\\text{ km/h}$), but it tells us nothing about individual intervals. The vehicle could have sped up, stopped at traffic lights, or moved at varying speeds, meaning the motion could easily be non-uniform. A student who answers \"yes\" assumes that an average speed implies a constant, unvarying speed throughout the entire trip.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple home experiment using a rolling marble, a long straight ruler or wooden plank, and a stopwatch to demonstrate the difference between uniform and non-uniform linear motion. Describe what you would measure.",
+     "a": "To demonstrate non-uniform motion, let a marble roll freely down a tilted wooden plank and record the distance it covers every 1 second; the distances will grow larger each second. To demonstrate uniform motion, have the marble roll across a flat, smooth floor after getting an initial push, marking distances at 1-second intervals where the distances covered in each second become nearly equal. A poor answer would involve circular rolling or fail to measure time intervals alongside distances, missing the core definition of uniform and non-uniform speed.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

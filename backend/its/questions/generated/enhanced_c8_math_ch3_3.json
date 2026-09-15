@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch3_3",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch3_3",
+   "title": "c8_math_ch3_3",
+   "questions": [
+    {
+     "q": "What is the standard grouping pattern used in the tally system, and how is the fifth mark represented?",
+     "a": "The standard grouping is five marks: four vertical lines (||||) and the fifth as a diagonal line crossing them (||||). A wrong answer (e.g., grouping by tens or using a circle for the fifth mark) reveals the student does not recall the conventional tally grouping convention.",
+     "self_check": true
+    },
+    {
+     "q": "Why is grouping tally marks in fives more efficient than grouping in tens or not grouping at all? Explain using the concept of subitizing (instant recognition of small quantities).",
+     "a": "Grouping in fives leverages subitizing: humans can instantly recognize up to 4-5 items without counting. The diagonal fifth mark creates a distinct group of five that is quickly recognizable. Grouping in tens would require counting up to ten each time, which is slower. A wrong answer (e.g., \"it's just tradition\") shows a lack of understanding of the cognitive basis for the grouping size.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher records attendance for a month (30 days) using tally marks. On the 15th day, she has 4 groups of five and 3 extra marks. How many students attended up to day 15? Show the tally representation for 23 students.",
+     "a": "4 groups of 5 = 20, plus 3 = 23. Tally for 23: four groups of five (4 × ||||) and three vertical marks (|||). Steps: 1) Each group of five = 5. 2) 4 groups = 20. 3) Add 3 singles = 23. 4) Draw tally: |||| |||| |||| |||| |||. A wrong answer might miscount groups or misinterpret the diagonal as an extra mark beyond five.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the tally system (base-5 grouping) with the Hindu-Arabic place value system (base-10). Identify two similarities and two differences in how they represent quantities.",
+     "a": "Similarities: Both use grouping to represent larger numbers; both can represent any quantity by adding more groups/digits. Differences: Tally is additive (no place value), each group has the same value; Hindu-Arabic uses positional notation with different place values (ones, tens, hundreds). Tally becomes unwieldy for large numbers; Hindu-Arabic scales efficiently. A wrong answer might confuse additive vs. positional representation.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that the tally system is better than the Hindu-Arabic system for counting votes in an election because it's simpler. Evaluate this claim. Is it always true? Provide a reasoned argument.",
+     "a": "The claim is not always true. Tally is simple for small counts and ongoing recording, but for large numbers (e.g., thousands of votes), tally becomes cumbersome to count and sum. Hindu-Arabic allows quick addition and comparison. The student overlooks scalability. A wrong answer might agree without considering large numbers or the need for arithmetic operations on the counts.",
+     "self_check": true
+    },
+    {
+     "q": "Design a modified tally system for a base-6 grouping (instead of base-5). Describe how you would represent the sixth mark and explain one advantage and one disadvantage compared to the standard base-5 tally.",
+     "a": "For base-6, we could use five vertical marks and the sixth as a diagonal crossing all five, or a different symbol like a horizontal line. Advantage: Might align with base-6 systems (like time: 60 seconds = 1 minute). Disadvantage: Subitizing limit is around 5, so recognizing a group of 6 at a glance is harder, increasing counting errors. A poor answer would not address the cognitive aspect of subitizing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch3_5",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch3_5",
+   "title": "c8_eco_ch3_5",
+   "questions": [
+    {
+     "q": "Which two economic sectors dominate the economic activities found in urban centers compared to rural areas?",
+     "a": "The secondary sector (manufacturing, industry, construction) and the tertiary sector (services, trade, banking, transport). A wrong answer (e.g., claiming the primary sector dominates) reveals a misunderstanding of the fundamental economic distinction between urban settlements (non-agricultural) and rural settlements (agricultural).",
+     "self_check": true
+    },
+    {
+     "q": "Why do software companies, financial institutions, and legal firms tend to cluster together in specific commercial districts of major cities rather than spreading out into isolated rural areas?",
+     "a": "They cluster to benefit from \"agglomeration economies,\" including access to specialized high-speed communication infrastructure, a dense pool of skilled professionals, and proximity to corporate clients. A wrong answer (e.g., assuming they move to cities just to pay higher land rent) reveals a failure to understand how shared resources and business proximity lower operational and transaction costs.",
+     "self_check": true
+    },
+    {
+     "q": "In a small city with a total workforce of 200,000 people, 25% work in secondary sector manufacturing, 45% work in formal tertiary services (banking, retail, education), and 30% work in informal tertiary services (street vendors, rickshaw drivers, domestic help). Calculate the total number of service sector workers (formal + informal) and express this as a percentage of the total workforce.",
+     "a": "Step 1: Formal tertiary workers = $200,000 \\times 0.45 = 90,000$.\nStep 2: Informal tertiary workers = $200,000 \\times 0.30 = 60,000$.\nStep 3: Total tertiary service workers = $90,000 + 60,000 = 150,000$.\nStep 4: Service sector share = $(150,000 / 200,000) \\times 100 = 75\\%$.\nA wrong answer reveals either an arithmetic error or the incorrect exclusion of informal workers from the tertiary service sector classification.",
+     "self_check": true
+    },
+    {
+     "q": "Town X relies entirely on a single large coal mine and power plant for 85% of its local jobs. Town Y has garment factories, software firms, wholesale grain markets, tourism services, and transport logistics. If coal demand drops due to clean energy policies, which town will face worse economic devastation and why?",
+     "a": "Town X will face severe economic devastation because its economy lacks diversity; the failure of its single main industry leaves workers without alternative local jobs. Town Y is economically resilient because its diverse economic activities spread risk across multiple industries. A wrong answer reveals a failure to understand how economic diversification in urban areas protects communities from market shocks.",
+     "self_check": true
+    },
+    {
+     "q": "A municipal authority decides to ban all informal street food vendors and rickshaw operators from a city center to make it look \"modern,\" arguing that only formal tax-paying businesses contribute to the economy. Evaluate this policy from an economic perspective.",
+     "a": "The policy is economically harmful because informal workers provide vital low-cost transport and affordable meals that lower living expenses for formal workers, while generating livelihoods for low-skilled households. Removing them disrupts urban consumer convenience and reduces total economic circulation. A wrong answer reveals the misconception that informal economic activities are unproductive burdens rather than functional components of the urban economic ecosystem.",
+     "self_check": true
+    },
+    {
+     "q": "You are hired as an urban economic consultant for a town of 40,000 people whose economy relies purely on selling raw sugarcane. Propose three distinct non-agricultural economic activities (secondary or tertiary) to transform it into a thriving economic center.",
+     "a": "A correct proposal should include: 1) Secondary sector: Establish sugar refining and confectionery manufacturing factories to process raw sugarcane locally; 2) Tertiary sector: Set up a regional agricultural transport and warehouse hub; 3) Tertiary sector: Establish micro-finance banks and machinery repair workshops. A poor answer proposes more sugarcane farming (primary sector) or fails to link the new activities to value addition and urban service creation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

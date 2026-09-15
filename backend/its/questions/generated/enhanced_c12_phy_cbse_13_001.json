@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_13_001",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_13_001",
+   "title": "c12_phy_cbse_13_001",
+   "questions": [
+    {
+     "q": "State the definition of atomic mass unit (u) and give its value in kg. What is the atomic number and mass number of a neutral atom of \\(^{23}_{11} Na\\)?",
+     "a": "Atomic mass unit (u) = 1/12th the mass of a carbon-12 atom = 1.660539 × 10⁻²⁷ kg. For \\(^{23}_{11} Na\\): atomic number Z = 11, mass number A = 23. A wrong answer (e.g., confusing u with kg, or swapping Z and A) reveals the student has not internalized the definition of u or the nuclide notation convention (superscript = A, subscript = Z).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why chlorine has an atomic mass of 35.46 u even though no single chlorine atom has that exact mass. Use the terms isotopes and weighted average in your explanation.",
+     "a": "Chlorine exists as two stable isotopes: \\(^{35}_{17} Cl\\) (75.4% abundance, mass ≈ 34.98 u) and \\(^{37}_{17} Cl\\) (24.6% abundance, mass ≈ 36.98 u). The quoted atomic mass (35.46 u) is the weighted average: (0.754 × 34.98) + (0.246 × 36.98) ≈ 35.46 u. No individual atom has this mass. A wrong answer (e.g., \"chlorine atoms have fractional neutrons\") reveals the misconception that atomic mass is the mass of a single atom rather than an average over a natural sample.",
+     "self_check": true
+    },
+    {
+     "q": "A nuclide has 26 protons and 30 neutrons. Write its nuclide symbol. If its atomic mass is 55.934939 u, calculate its mass defect in u using proton mass = 1.00727 u and neutron mass = 1.00866 u. (Do not convert to kg or energy yet.)",
+     "a": "Nuclide symbol: \\(^{56}_{26} Fe\\). Mass of constituents = 26 × 1.00727 u + 30 × 1.00866 u = 26.18902 u + 30.2598 u = 56.44882 u. Mass defect ΔM = 56.44882 u - 55.934939 u = 0.513881 u. A wrong answer (e.g., using electron mass, or subtracting in reverse order) shows confusion about what constitutes the nucleus (protons + neutrons only) and the definition of mass defect (constituents minus actual nucleus).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following pairs and classify each as isotopes, isobars, or isotones: (a) \\(^{14}_6 C\\) and \\(^{14}_7 N\\); (b) \\(^{12}_6 C\\) and \\(^{13}_6 C\\); (c) \\(^{40}_{18} Ar\\) and \\(^{40}_{20} Ca\\); (d) \\(^{14}_6 C\\) and \\(^{15}_7 N\\). Explain your reasoning for each.",
+     "a": "(a) Isobars (same A=14, different Z). (b) Isotopes (same Z=6, different A). (c) Isobars (same A=40, different Z). (d) Isotones (same N=8: for C-14, N=8; for N-15, N=8). A wrong classification (e.g., calling (a) isotopes) reveals the student is matching only one parameter (A or Z) without checking both. The key is: isotopes = same Z; isobars = same A; isotones = same N.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The mass number of an element is the weighted average of its isotopic masses.\" Evaluate this statement. Is it correct? If not, correct it and explain the difference between mass number and atomic mass.",
+     "a": "The statement is incorrect. Mass number (A) is an integer: the total number of protons plus neutrons in a specific nucleus. Atomic mass (or atomic weight) is the weighted average of the naturally occurring isotopic masses, expressed in u, and is usually not an integer. For example, carbon has mass numbers 12, 13, 14 for its isotopes, but its atomic mass is 12.011 u. Confusing these two is a classic board-exam error that leads to wrong answers in binding energy calculations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple card-sorting activity for Class 11 students to help them distinguish between isotopes, isobars, and isotones. Specify what information each card should show, how many cards you would make, and the sorting rules.",
+     "a": "Create cards each showing a nuclide symbol \\(^A_Z X\\) and its neutron number N. Make 12 cards: 4 isotopes of oxygen (Z=8, A=16,17,18,19), 4 isobars with A=40 (Ar, K, Ca, Sc), 4 isotones with N=20 (e.g., \\(^{36}_{16} S\\), \\(^{38}_{18} Ar\\), \\(^{40}_{20} Ca\\), \\(^{42}_{22} Ti\\)). Sorting rule: Group by same Z → isotopes; same A → isobars; same N → isotones. A poor activity (e.g., cards missing N, or only showing element names) fails to make the neutron number visible, which is essential for identifying isotones.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

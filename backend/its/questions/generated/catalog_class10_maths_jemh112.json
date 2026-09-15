@@ -1,0 +1,124 @@
+{
+ "catalog": "catalog_class10_maths_jemh112.json",
+ "concepts": [
+  {
+   "id": "jemh.112.12.1",
+   "title": "Surface Area of a Combination of Solids",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the area of a rectangle measuring 20 cm by 10 cm.",
+     "a": "200",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a square of side 7 m.",
+     "a": "49",
+     "self_check": false
+    },
+    {
+     "q": "A 8 m x 11 m garden has a 4 m x 7 m flower bed inside it. Find the area of the remaining garden.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "A rectangle has area 120 sq cm and length 12 cm. Find its breadth.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Tiling costs Rs 20 per square metre. Find the cost of tiling a 13 m x 9 m floor.",
+     "a": "2340",
+     "self_check": false
+    },
+    {
+     "q": "How many tiles of side 4 m (square tiles) fit in a 16 m x 12 m hall?",
+     "a": "12",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.112.12.2",
+   "title": "Volume of a Combination of Solids",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the volume of a cuboid 3 cm x 9 cm x 12 cm.",
+     "a": "324",
+     "self_check": false
+    },
+    {
+     "q": "Find the total surface area of a cuboid 3 cm x 5 cm x 5 cm.",
+     "a": "110",
+     "self_check": false
+    },
+    {
+     "q": "Find the volume of a cube of edge 7 cm.",
+     "a": "343",
+     "self_check": false
+    },
+    {
+     "q": "Find the total surface area of a cube of edge 6 cm.",
+     "a": "216",
+     "self_check": false
+    },
+    {
+     "q": "Find the volume of a cylinder of radius 14 cm and height 18 cm (pi = 22/7).",
+     "a": "11088",
+     "self_check": false
+    },
+    {
+     "q": "Find the curved surface area of a cylinder of radius 84 cm and height 16 cm (pi = 22/7).",
+     "a": "8448",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.112.12.3",
+   "title": "Conversion of Solids from One Shape to Another",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the round solid's formula with pi = 22/7",
+     "explain": "apply the round solid's formula with pi = 22/7: vol = 22 / 7 * 56 * 56 * 21 / 3 gives 68992",
+     "compute": "vol = 22 / 7 * 56 * 56 * 21 / 3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the volume of a cone of radius 56 cm and height 21 cm (pi = 22/7).",
+     "a": "68992",
+     "self_check": false
+    },
+    {
+     "q": "Find the volume of a sphere of radius 21 cm (pi = 22/7).",
+     "a": "38808",
+     "self_check": false
+    },
+    {
+     "q": "Find the curved surface area of a hemisphere of radius 14 cm (pi = 22/7).",
+     "a": "1232",
+     "self_check": false
+    },
+    {
+     "q": "Find the total surface area of a solid hemisphere of radius 14 cm (pi = 22/7).",
+     "a": "1848",
+     "self_check": false
+    },
+    {
+     "q": "Find the volume of a hemispherical bowl of radius 7 cm (pi = 22/7).",
+     "a": "718.667",
+     "self_check": false
+    },
+    {
+     "q": "A tent is a cylinder of radius 56 m and height 26 m, capped by a cone of the same radius and height 26 m. Find the tent's volume (pi = 22/7).",
+     "a": "341675",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

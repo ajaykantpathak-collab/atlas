@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "english",
+  "chapter": 112,
+  "chapter_title": "Let Me Not to the Marriage of True Minds",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keww112.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keww112.1.1",
+      "title": "True Minds and the Impediments Love Admits Not",
+      "section": "1",
+      "definition": "Shakespeare's sonnet 116 opens with the poet refusing to obstruct the marriage of true minds: love that alters when it finds alteration, or removes when the beloved departs, is not love. The phrase 'marriage of true minds' shifts marriage from bodies and contracts to faithful union of souls.",
+      "formula": "",
+      "key_idea": "Real love admits no impediment -- it neither bends to change nor leaves in absence.",
+      "textbook_ref": "keww112.txt opening lines (marriage of true minds, admit impediments, love that alters is not love, removal bears it out)",
+      "question_patterns": [
+        "what does shakespeare mean by the marriage of true minds",
+        "in class 11 let me not to the marriage of true minds: what kind of love does the poet reject",
+        "explain the phrase admit impediments in the sonnet",
+        "according to the poem when is love not really love",
+        "why does the poet talk of minds rather than bodies",
+        "what does removal mean in the context of the poem"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "read the refusal",
+          "explain": "The poet will not stand between true minds uniting -- such love needs no permission and brooks no barrier."
+        },
+        {
+          "step": 2,
+          "action": "define the negative",
+          "explain": "Whatever alters when circumstances alter, or departs when the beloved leaves, was never love."
+        },
+        {
+          "step": 3,
+          "action": "define the positive",
+          "explain": "True love is fixed, constant -- a marriage of minds that outfaces change and distance alike."
+        }
+      ]
+    },
+    {
+      "id": "keww112.1.2",
+      "title": "The North Star and Time's Bent Sickle",
+      "section": "1",
+      "definition": "Love is an ever-fixed mark looked on from tempests and never shaken; it is the star to every wandering bark, whose worth is unknown though its height be taken. Time, though its bending sickle reaps lips and cheeks, cannot touch love within his brief hours and weeks -- it outlasts the doom of physical beauty.",
+      "formula": "",
+      "key_idea": "Love is the fixed star that weathers every tempest -- Time may harvest beauty, never constancy.",
+      "textbook_ref": "keww112.txt metaphor lines (ever fixed mark, star to every wandering bark, time's bending sickle, physical beauty reaped, love alters not with time)",
+      "question_patterns": [
+        "why is love compared to a star in the sonnet",
+        "in class 11 let me not to the marriage of true minds: explain the figure of time's bending sickle",
+        "what is meant by an ever fixed mark that looks on tempests",
+        "how does time fail against true love in the poem",
+        "what does the wandering bark metaphor suggest",
+        "explain love's worth although his height be taken"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "unfold the lighthouse image",
+          "explain": "Love is a beacon every storm can see but no storm can move -- permanence made visible."
+        },
+        {
+          "step": 2,
+          "action": "unfold the star image",
+          "explain": "Like the pole star it guides every wandering bark; its value beyond measure is known only to the faithful."
+        },
+        {
+          "step": 3,
+          "action": "face the reaper",
+          "explain": "Time's sickle cuts down rosy lips and cheeks, the body's beauty, yet passes love by unchanged."
+        }
+      ]
+    },
+    {
+      "id": "keww112.1.3",
+      "title": "The Daring Couplet: If This Be Error",
+      "section": "1",
+      "definition": "The sonnet ends in defiance: if this be error and the poet proved mistaken, then he never wrote, and no man ever loved. The hyperbole stakes the poet's entire life and craft on love's constancy -- a wager that turns definition into declaration.",
+      "formula": "",
+      "key_idea": "All or nothing for love -- the poet bets his pen and mankind's heart on his definition.",
+      "textbook_ref": "keww112.txt closing couplet (if this be error and upon me proved, i never writ, nor no man ever loved)",
+      "question_patterns": [
+        "explain the final couplet of the sonnet",
+        "in class 11 let me not to the marriage of true minds: what does the poet stake in the last two lines",
+        "is the ending a proof or a challenge discuss",
+        "why does shakespeare claim no man ever loved if his definition fails",
+        "what is the effect of the hyperbole in the closing couplet",
+        "how does the couplet summarise the whole sonnet's argument"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "read the wager",
+          "explain": "The poet says: if my account of love is error, then wipe out my writings and every love ever felt."
+        },
+        {
+          "step": 2,
+          "action": "read the confidence",
+          "explain": "The exaggeration is rhetorical -- it claims such constancy is the common experience of lovers."
+        },
+        {
+          "step": 3,
+          "action": "see the form",
+          "explain": "The couplet turns a cool definition into a ringing personal declaration -- form serving argument."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keww112.txt metaphor lines",
+      "concept": "keww112.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Explain the double metaphor of love as an ever-fixed mark and as the star to every wandering bark.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "take the mark",
+          "explain": "An ever-fixed mark is a beacon or landmark: visible through tempests, unmoved by them."
+        },
+        {
+          "step": 2,
+          "action": "take the star",
+          "explain": "The guiding star steers every wandering ship; sailors measure its height though its worth is beyond measure."
+        },
+        {
+          "step": 3,
+          "action": "combine them",
+          "explain": "Together the images give love both stability -- it does not move -- and guidance -- it orients the lost."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keww112.txt metaphor lines",
+      "concept": "keww112.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Time is personified as a reaper in the sonnet. Explain the personification and its effect.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "identify the personification",
+          "explain": "Time carries a bending sickle like Father Time, harvesting what grows -- rosy lips and cheeks."
+        },
+        {
+          "step": 2,
+          "action": "note the target",
+          "explain": "The sickle's reach is physical beauty, which fades within time's brief hours and weeks."
+        },
+        {
+          "step": 3,
+          "action": "state the contrast",
+          "explain": "Love escapes the harvest: it does not alter with time's hours and weeks, but endures to the edge of doom."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keww112.txt end-of-chapter questions, reworded",
+      "questions": [
+        "What is the central idea of Sonnet 116?",
+        "Explain the metaphors of the star and the ever-fixed mark.",
+        "How is Time treated in the sonnet?",
+        "Comment on the last couplet and its effect.",
+        "What kinds of love does the poem reject?",
+        "Discuss the structure of the sonnet as an argument."
+      ]
+    }
+  ]
+}

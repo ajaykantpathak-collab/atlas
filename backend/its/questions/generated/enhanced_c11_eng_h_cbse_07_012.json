@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_07_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_07_012",
+   "title": "c11_eng_h_cbse_07_012",
+   "questions": [
+    {
+     "q": "What is the defining difference between a literal comprehension question and an inferential comprehension question in the CBSE Class 11 English exam context?",
+     "a": "A literal question's answer is explicitly stated in the text and can be located in one or two contiguous sentences; an inferential question's answer is not directly written but must be derived by logically combining two or more textual clues with reasonable reasoning. A wrong answer (e.g., \"inferential means guessing\") reveals the student conflates inference with speculation and does not grasp that inferences are evidence-bound.",
+     "self_check": true
+    },
+    {
+     "q": "Read this question on \"The Adventure\": \"What does Professor Gaitonde's experience at Azad Maidan reveal about his character?\" Classify it as literal or inferential and explain your classification in one sentence.",
+     "a": "Inferential — the text describes Gaitonde's actions at Azad Maidan (climbing the dais, addressing the crowd, being ejected) but never explicitly labels his character traits; the student must synthesise those actions into traits like \"courageous\" or \"impulsive.\" A wrong classification (literal) shows the student mistakes descriptive narration for explicit character statements.",
+     "self_check": true
+    },
+    {
+     "q": "Given the textual clue: \"The page he turned to was about the Battle of Panipat. It said the Marathas won handsomely,\" and the question: \"How did the history book in the alternate world differ from the real history book?\" Write a 2-sentence literal answer using only the provided clue.",
+     "a": "The alternate history book stated that the Marathas won the Battle of Panipat handsomely, whereas the real history records their defeat. This answer stays strictly within the given sentence and does not import outside knowledge — a wrong answer adding \"because Vishwasrao survived\" introduces an inference not present in the clue.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the following two questions on \"The Adventure\" and explain which requires a multi-clue inference chain and why:\n(a) \"Where did Professor Gaitonde stay in Bombay?\"\n(b) \"Why did the audience at Azad Maidan react violently to Gaitonde's lecture?\"",
+     "a": "Question (b) requires a multi-clue inference chain: Clue 1 — Gaitonde insists on presiding over an empty chair; Clue 2 — the audience considers the chair sacred/symbolic; Clue 3 — they physically remove him. The chain: empty chair → symbolic violation → violent reaction. Question (a) is literal — the text explicitly names \"Guest House\" or \"hotel.\" A wrong analysis treating both as literal shows inability to spot implicit cause-effect relationships.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's inferential answer: \"Gaitonde returned to his original world because he wanted to.\" The text states: \"Gaitonde was found unconscious in the Azad Maidan. He had suffered a severe blow on the head.\" Judge whether the answer is valid and justify.",
+     "a": "Invalid — the answer invents a motive (\"wanted to\") with zero textual support; the only evidence is physical trauma and unconsciousness, suggesting an involuntary return. A valid inference would be: \"The blow to Gaitonde's head likely triggered his return to the original reality.\" A student defending the original answer confuses personal speculation with text-grounded inference.",
+     "self_check": true
+    },
+    {
+     "q": "Create an inferential question on \"The Adventure\" that requires combining evidence from the Rajendra Deshpande dialogue and the final library scene, then provide the 3-step inference chain a model answer would follow.",
+     "a": "Question: \"How does Rajendra Deshpande's explanation of 'catastrophe theory' prepare the reader to understand Gaitonde's final discovery in the library?\" Chain: Step 1 — Rajendra explains small changes can flip a system (catastrophe theory); Step 2 — Gaitonde finds the history book showing Maratha victory (the flipped state); Step 3 — The theory frames the book as evidence of a bifurcation point, not mere fantasy. A poor question would be literal (\"What theory does Rajendra mention?\") or unanswerable from the text.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

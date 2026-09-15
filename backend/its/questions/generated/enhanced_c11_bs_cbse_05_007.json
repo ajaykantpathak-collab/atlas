@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_05_007",
+   "title": "c11_bs_cbse_05_007",
+   "questions": [
+    {
+     "q": "What is the fundamental distinction between 'horizontal' and 'vertical' BPO services? Give one Indian industry example of each.",
+     "a": "Horizontal BPO services are generic, industry-agnostic processes (e.g., payroll processing, customer support, HR administration) that are similar across sectors. Vertical BPO services are industry-specific processes requiring domain knowledge (e.g., insurance claims adjudication, medical coding/billing, mortgage processing). Indian example: Horizontal — Wipro's finance & accounting outsourcing for multiple clients across industries; Vertical — TCS providing claims processing specifically for US health insurance companies. A wrong answer (e.g., \"horizontal means domestic, vertical means international\") reveals confusion with geographic classification rather than process classification.",
+     "self_check": true
+    },
+    {
+     "q": "A Mumbai-based fintech startup outsources its customer onboarding KYC verification to a specialised BPO vendor. The startup's founder argues: \"This is not BPO because KYC is a core regulatory requirement for our business — it's central to what we do.\" Evaluate this statement using the concept of 'core competency' vs 'core activity'.",
+     "a": "The founder confuses 'core activity' (essential for operations) with 'core competency' (source of competitive advantage). KYC verification is a core *activity* (mandatory, operationally essential) but not a core *competency* — it doesn't differentiate the fintech's product or create unique value; any compliant vendor can do it. BPO targets non-core *competencies*, not non-core *activities*. A wrong answer (\"KYC is core so it can't be outsourced\") reveals the misconception that BPO only applies to peripheral/optional tasks, ignoring that even mandatory processes can be outsourced if they don't drive competitive differentiation.",
+     "self_check": true
+    },
+    {
+     "q": "A US healthcare provider wants to outsource medical transcription (converting doctor voice notes to electronic records). They receive two proposals: Vendor A (Indian firm, 500 transcriptionists, HIPAA-certified, ₹8/line) and Vendor B (US firm, 50 transcriptionists, HIPAA-certified, ₹45/line). Using BPO scope concepts, explain which vendor represents a 'vertical' BPO play and why the cost difference exists.",
+     "a": "Medical transcription is a *vertical* BPO service — it requires specialised domain knowledge (medical terminology, HIPAA compliance, clinical workflow integration) unlike horizontal services like generic data entry. Vendor A (Indian firm) represents vertical BPO with scale: 500 transcriptionists indicate process standardisation, training infrastructure, and quality systems specific to healthcare. The 5.6x cost difference (₹8 vs ₹45/line) stems from labour cost arbitrage (Indian wage levels) combined with economies of scale (large dedicated workforce). A wrong answer focusing only on \"cheaper labour\" misses the vertical-specific capability building (training, certification, quality control) that makes Vendor A a true vertical BPO partner, not just low-cost labour.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 'captive BPO' model (e.g., GE's GECIS in India, now Genpact) with the 'third-party BPO' model (e.g., Infosys BPM serving multiple clients). Analyse the strategic trade-offs for a multinational corporation deciding between these two models for its finance & accounting processes.",
+     "a": "Captive BPO (wholly-owned subsidiary): Full control over processes, data security, IP protection, and cultural alignment; but high setup cost, limited scale economies (single client), and management distraction. Third-party BPO (vendor like Infosys BPM): Lower capital investment, immediate access to scaled infrastructure/best practices/talent pool, multi-client benchmarking; but less control, vendor dependency, data sharing risks, and potential misalignment. For finance & accounting (horizontal process with regulatory standardisation), third-party often wins on cost/speed; for highly proprietary processes (e.g., algorithmic trading ops), captive may be preferred. A wrong answer (\"captive is always better for control\") ignores that third-party vendors often have *better* controls (ISO/SOC certifications) than a fledgling captive unit.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the term \"sweat-shopping\" as applied to the BPO industry. Using the features of BPO (process standardisation, skill requirements, career progression), argue whether this label accurately describes modern Indian BPO operations like those in Bengaluru, Hyderabad, or Gurugram.",
+     "a": "\"Sweat-shopping\" implies low-skill, repetitive, exploitative labour with no upward mobility — a mischaracterisation of modern BPO. Modern Indian BPO features: (1) Process standardisation *requires* analytical thinking (e.g., fraud detection in transaction monitoring), not just rote execution; (2) Skill requirements include domain certifications (CPA for F&A, medical coding certs for healthcare), language proficiency, and tech fluency (RPA tools, CRM platforms); (3) Career progression exists: agent → team lead → process manager → domain consultant → delivery head, with lateral moves to analytics/consulting. The label may have fit early 'voice support' call centres (c. 2000s) but ignores the industry's evolution into KPO (Knowledge Process Outsourcing) and high-value verticals. A wrong answer accepting \"sweat-shopping\" uncritically reveals failure to distinguish early-stage commoditised voice BPO from today's multi-tiered, skill-intensive industry.",
+     "self_check": true
+    },
+    {
+     "q": "Design a BPO engagement model for an Indian ed-tech company (like BYJU'S or Unacademy) that wants to outsource its *student doubt-resolution* process (students post questions, experts provide video/text solutions within 30 minutes). Specify: (a) Horizontal or vertical classification with justification, (b) Captive vs third-party recommendation with 2 reasons, (c) Two key SLAs (Service Level Agreements) you would include in the contract.",
+     "a": "(a) **Vertical BPO** — Requires deep domain expertise (JEE/NEET syllabus mastery, pedagogical skill to explain concepts), not generic process skill. Unlike horizontal customer support, the 'product' here is *educational content quality*, directly impacting learning outcomes and brand reputation. (b) **Third-party recommended** — (i) Demand is highly seasonal (peaks during exam prep months); third-party provides elastic capacity without fixed cost burden. (ii) Access to distributed network of verified subject-matter experts (IITians, doctors, PhDs) is a vendor's core asset, hard to replicate in-house. (c) **Key SLAs**: (1) *First Response Time*: ≤ 15 minutes for 90% of doubts during peak hours (6–10 PM); (2) *Solution Accuracy Rate*: ≥ 98% verified by random audit of 5% sample by client's academic team. A poor answer classifying this as horizontal misses that the *output quality* is the educational product itself, not a support function.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

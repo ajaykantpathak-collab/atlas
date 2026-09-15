@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_12_001",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_12_001",
+   "title": "c11_math_cbse_12_001",
+   "questions": [
+    {
+     "q": "What are the coordinates of a point that lies on the positive x-axis at a distance of 7 units from the origin?",
+     "a": "The coordinates are (7, 0, 0). A point on the x-axis has both y and z coordinates equal to zero because it lies in both the XY-plane and XZ-plane simultaneously. Since it's on the positive x-axis, the x-coordinate is positive. A wrong answer like (0, 7, 0) reveals confusion between axes; (7, 7, 0) reveals misunderstanding that points on axes must have two zero coordinates.",
+     "self_check": true
+    },
+    {
+     "q": "A point P has coordinates (-3, 4, -5). In which octant does P lie? Explain how the signs of the coordinates determine the octant.",
+     "a": "Point P(-3, 4, -5) lies in octant VI (X'OYZ'). The signs (-, +, -) mean: negative x (left of YZ-plane), positive y (right of ZX-plane), negative z (below XY-plane). A wrong answer like octant II (+, +, -) reveals the student doesn't know the octant numbering convention or sign-to-octant mapping. The NCERT convention numbers octants starting with XOYZ as I, then anticlockwise around the z-axis for I-IV, and V-VIII below the XY-plane.",
+     "self_check": true
+    },
+    {
+     "q": "Find the coordinates of the foot of the perpendicular drawn from point A(2, -3, 6) to the XY-plane. Also find its distance from the XY-plane.",
+     "a": "Foot of perpendicular: (2, -3, 0). Distance from XY-plane: |6| = 6 units. The foot retains x and y coordinates but sets z=0 because the XY-plane has equation z=0. The distance is the absolute value of the z-coordinate. A wrong answer like (0, -3, 6) reveals confusion about which coordinate becomes zero for which plane. Forgetting absolute value for distance reveals misunderstanding that distance is non-negative.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the number of coordinates needed to specify a point on a line, in a plane, and in space. Explain why the number increases with dimension.",
+     "a": "Line: 1 coordinate (distance from origin along the line). Plane: 2 coordinates (distances from two perpendicular axes). Space: 3 coordinates (distances from three mutually perpendicular planes). Each new dimension adds a degree of freedom - an independent direction in which the point can move. A wrong answer stating \"plane needs 3 coordinates\" reveals the student hasn't grasped that coordinates correspond to independent axes/planes, not just \"dimensions\" as a vague concept.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that the point (0, 0, -4) lies on the z-axis and also in the XY-plane. Evaluate this claim and correct any error.",
+     "a": "The claim is partially correct but contains an error. (0, 0, -4) does lie on the z-axis (both x=0 and y=0). However, it does NOT lie in the XY-plane because points in the XY-plane must have z=0, but here z=-4. The point is 4 units below the XY-plane. A student agreeing with the full claim reveals confusion between \"on an axis\" (two coordinates zero) and \"in a plane\" (one coordinate zero).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem from Indian context (like a warehouse, metro station, or cricket stadium) that requires specifying a location using 3D coordinates. Define your origin, axes directions, and units. Give coordinates for at least 3 specific locations.",
+     "a": "Example: Delhi Metro station with origin at the southwest corner of the ground-level concourse. x-axis: eastward along platform, y-axis: northward across concourse, z-axis: upward (floors). Units: metres. Ticket counter: (15, 10, 0). Platform 2 bench: (40, 5, 0). Food court on mezzanine: (20, 30, 6). A poor answer uses vague directions like \"left/right\" without defining axes, or uses inconsistent units, or gives 2D coordinates for a 3D scenario.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

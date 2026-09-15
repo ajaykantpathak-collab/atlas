@@ -1,0 +1,50 @@
+# ── Backend Dockerfile (production) ────────────────────────────
+# Multi-stage build: install deps → run app with uvicorn workers
+# Uses Python 3.13-slim for smaller image size.
+
+FROM python:3.13-slim AS base
+
+# Set environment variables
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PIP_NO_CACHE_DIR=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1
+
+# Install system dependencies required by psycopg2, sympy, etc.
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    libpq-dev \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+# Copy requirements first for better layer caching
+COPY requirements.txt .
+
+# Install Python dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy application code
+COPY backend/ ./backend/
+COPY cbse_data/ ./cbse_data/ 2>/dev/null || true
+
+# Expose the backend port
+EXPOSE 8000
+
+# Health check — hit the /health endpoint
+HEALTHCHECK --interval=30s --timeout=10s --start-period=40s --retries=3 \
+    CMD curl -f http://localhost:8000/health || exit 1
+
+# Run with gunicorn + uvicorn workers for production
+# 4 workers is a good default for a 2-core machine; tune via UVICORN_WORKERS env
+CMD gunicorn backend.app:app \
+    --worker-class uvicorn.workers.UvicornWorker \
+    --workers ${UVICORN_WORKERS:-4} \
+    --bind 0.0.0.0:8000 \
+    --timeout 120 \
+    --keep-alive 5 \
+    --max-requests 1000 \
+    --max-requests-jitter 50 \
+    --access-logfile - \
+    --error-logfile -

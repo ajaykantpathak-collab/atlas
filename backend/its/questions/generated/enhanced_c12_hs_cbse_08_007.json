@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_08_007",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_08_007",
+   "title": "c12_hs_cbse_08_007",
+   "questions": [
+    {
+     "q": "A student is asked to define \"occupational dressing\" in the context of apparel design. They answer: \"Occupational dressing means wearing a uniform provided by the company.\" What does this answer reveal about the student's understanding?",
+     "a": "The student's answer is incomplete. Occupational dressing includes uniforms but also encompasses corporate professional attire (business suits, smart casuals), protective gear (lab coats, high-visibility vests), and role-specific clothing (chef's whites, medical scrubs) — each chosen for safety, hierarchy signalling, brand identity, and functional performance. The wrong answer reveals a narrow \"uniform-only\" misconception, ignoring the design decisions (fabric durability, colour coding for departments, ergonomic fit) that apply even when no strict uniform exists.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a navy blue structured blazer with a crisp white shirt and tailored trousers creates a more effective \"formal occupational\" impression for a job interview than a black kurta with heavy embroidery, using the principles of design and colour theory.",
+     "a": "The blazer ensemble uses formal balance (symmetrical vertical line), proportion (jacket ending at hip ≈ 3:5 ratio with trousers), and emphasis on the face (white shirt frames face, lapels direct eye upward). Navy blue (low intensity, cool hue) conveys authority and trust (colour psychology); white provides high value contrast for emphasis. The embroidered kurta, while elegant, uses applied design (embroidery) that creates visual weight at the hem/neck, disrupting vertical rhythm; heavy texture competes with the face for emphasis; and the cultural coding reads \"festive/formal social\" not \"professional occupational.\" The student who misses this confuses \"formal\" (dressy) with \"formal occupational\" (professional authority coding).",
+     "self_check": true
+    },
+    {
+     "q": "A college student with a pear-shaped figure (wider hips, narrower shoulders) needs a casual daytime outfit for a campus fest. They choose: (A) A hip-length boxy tunic in stiff cotton with horizontal stripes across the hip area, paired with skinny jeans. (B) An A-line kurta in soft rayon with vertical pinstripes, ending below the hip, paired with palazzos. Using design principles, evaluate which choice better balances the figure and why.",
+     "a": "Choice B is correct. The A-line silhouette (structural design) flares from bust, skimming hips — creating proportion via unequal division (kurta longer than 3:5 ratio hides hip volume). Vertical pinstripes (line direction) elongate the torso. Soft rayon (texture: fluid drape) follows body contours without adding bulk. Palazzos (wide leg) balance hip width. Choice A fails: boxy tunic (shape) adds volume at hip; horizontal stripes (line) widen the hip visually; stiff cotton (texture: crisp) stands away from body, exaggerating hip width; skinny jeans (shape) create bottom-heavy contrast. A student choosing A misapplies \"casual = loose fit\" without analysing figure-type interaction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the role of \"texture\" in casual vs. formal occupational dressing. Give one specific fabric example for each and explain how the texture communicates the occasion's functional and psychological needs.",
+     "a": "Casual: Texture prioritises comfort, ease, approachability. Example: Cotton jersey (knit, soft, matte, slight stretch). Communicates relaxation, breathability, informal hierarchy. Formal occupational: Texture signals competence, durability, structure. Example: Wool gabardine (tight twill weave, smooth, crisp, resilient). Communicates authority, polish, endurance through long hours. Contrast: Casual textures are often high-loft, napped, or stretchy (absorb movement); formal occupational textures are low-loft, tightly woven, wrinkle-resistant (maintain sharp lines). A student who says \"cotton for both\" misses that weave/finish (texture) changes the message — poplin (formal shirt) vs. flannel (casual shirt) are both cotton but communicate differently.",
+     "self_check": true
+    },
+    {
+     "q": "A fashion blogger claims: \"For any formal evening event, a black floor-length gown is always the safest and most correct choice.\" Critique this statement using design principles, cultural context, and occasion-specific nuances. Provide a counter-example where this choice would be inappropriate.",
+     "a": "The claim is flawed. \"Formal evening\" varies: Black-tie (Western) → black gown works (harmony via achromatic elegance, emphasis on jewellery/face). But Indian formal evening (wedding reception) → black is culturally inauspicious; deep jewel tones (emerald, maroon) with gold embroidery (complementary harmony) are expected. Daytime formal (award ceremony) → floor-length gown reads \"evening\"; knee-length tailored dress/co-ord set (proportion: 5:8 jacket:skirt) is correct. Creative industry gala → avant-garde silhouette (asymmetrical hem, structural draping) beats classic gown. The blogger ignores: (1) Cultural colour symbolism, (2) Time-of-day formality codes, (3) Industry/creative norms, (4) Figure-type suitability (empire waist vs. mermaid for apple shape). A student agreeing shows \"rule-based\" not \"principle-based\" thinking.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-piece capsule wardrobe (top, bottom, layer) for a 22-year-old female software engineer starting her first full-time job in a \"smart casual\" tech office in Bengaluru. The wardrobe must work for: (a) daily desk work, (b) client video calls, (c) after-work networking dinner. Specify each piece's colour, fabric, silhouette, and design details. Justify every choice using design principles and colour theory.",
+     "a": "A strong answer includes:\n1. **Top**: White cotton-poplin shirt with subtle texture (pinpoint oxford), mandarin collar, ¾ sleeves. *Why*: High value (white) = clean/professional on camera; poplin (crisp texture) holds structure; mandarin collar (line) frames face without tie; ¾ sleeves (proportion) show wrist = approachable.\n2. **Bottom**: Navy blue wool-blend tailored trousers, mid-rise, straight leg. *Why*: Navy (low intensity cool hue) = authority; wool-blend (texture: resilient, wrinkle-resistant) survives long sitting; straight leg (shape) balances hip/shoulder; mid-rise (proportion) elongates leg.\n3. **Layer**: Charcoal grey lightweight merino cardigan, hip-length, open front. *Why*: Grey (neutral) bridges navy/white (achromatic harmony); merino (texture: soft, thermoregulating) for AC office; hip-length (proportion: 3:5 with torso) covers hip; open front (line: vertical) maintains vertical rhythm.\nColour scheme: Monochromatic navy/white + achromatic grey = versatile, mixable. All pieces transition desk → call (top+layer) → dinner (remove layer, add statement earrings for emphasis). Weak answers list random items without principle-based justification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

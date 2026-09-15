@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_07_004",
+   "title": "c11_eco_cbse_07_004",
+   "questions": [
+    {
+     "q": "Define Air Quality Index (AQI) and list the six pollutants it monitors under the National Air Quality Standards (NAAQS) in India. What does an AQI value of 401-500 signify?",
+     "a": "AQI is a single number/colour-coded index that communicates air quality status by converting concentrations of six criteria pollutants (PM2.5, PM10, NO2, SO2, CO, O3) into sub-indices; the worst sub-index determines the overall AQI. An AQI of 401-500 falls in the \"Severe\" category, meaning air quality poses serious health risks to the general population and severe impacts on those with existing respiratory/cardiovascular conditions. A wrong answer (e.g., listing only PM2.5 or confusing AQI with PM2.5 concentration in µg/m³) reveals the student conflates the index with a single pollutant or does not know the NAAQS framework.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why vehicular emissions are described in the textbook as \"ground level sources\" having \"maximum impact on the general population\" compared to industrial emissions from tall stacks. Use the concept of assimilative capacity and population exposure.",
+     "a": "Vehicular emissions are released at breathing height (1-2 metres) in densely populated urban areas where people live, work, and commute, leading to direct inhalation exposure before atmospheric dispersion dilutes pollutants. Industrial stacks release pollutants at height (50-200m), allowing some dispersion before ground-level concentrations peak, though they contribute to regional pollution. The assimilative capacity of the urban airshed is exceeded locally because emission density (mass per unit area per time) from millions of vehicles overwhelms the atmosphere's ability to disperse and chemically transform pollutants. A wrong answer focusing only on \"vehicles are more numerous\" misses the critical spatial dimension of exposure and the distinction between emission rate and ambient concentration at receptor height.",
+     "self_check": true
+    },
+    {
+     "q": "In 2022, India had 35 crore registered vehicles, of which 85% were two-wheelers and cars. If two-wheelers emit 0.5 g/km of PM2.5 and cars emit 0.05 g/km (BS-VI norms), and average annual distance is 10,000 km per vehicle, calculate the total annual PM2.5 load from these two categories alone. Express in tonnes.",
+     "a": "Step 1: Total vehicles = 35 crore = 350 million. Two-wheelers + cars = 85% = 297.5 million vehicles.\nStep 2: Assume 70% two-wheelers, 30% cars of this 85% (typical fleet composition). Two-wheelers = 0.7 × 297.5M = 208.25M. Cars = 0.3 × 297.5M = 89.25M.\nStep 3: Annual PM2.5 from two-wheelers = 208.25M × 10,000 km × 0.5 g/km = 1.04125 × 10¹² g = 1,041,250 tonnes.\nStep 4: Annual PM2.5 from cars = 89.25M × 10,000 km × 0.05 g/km = 4.4625 × 10¹⁰ g = 44,625 tonnes.\nStep 5: Total = 1,085,875 tonnes ≈ 1.09 million tonnes PM2.5/year.\nA wrong answer (e.g., using 35 crore directly without 85% filter, or mixing g/kg) reveals inability to handle unit conversions (g to tonnes) or filter relevant fleet segments — a common error in board exam numerical questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the odd-even rationing scheme (Delhi) and the Graded Response Action Plan (GRAP) as emergency air pollution control measures. Which addresses the stock pollutant problem and which addresses the flow pollutant problem? Justify using economic concepts of stock vs flow.",
+     "a": "Odd-even is a flow control measure: it restricts the daily flow of vehicles (flow of emissions) on high-pollution days, reducing incremental emissions entering the airshed. GRAP is a stock-management framework: it triggers staged actions (construction ban, generator ban, school closure) based on accumulated pollutant concentrations (stock of pollution in the atmosphere) persisting over days. Odd-even reduces the inflow; GRAP responds when the stock exceeds critical thresholds (AQI bands). A wrong answer treating both as \"emergency measures\" without distinguishing flow reduction vs stock response shows failure to apply stock-flow dynamics — a core concept in environmental economics (c11_eco_cbse_07_001 assimilative capacity as stock).",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Switching Delhi's public transport to CNG solved the city's air pollution problem.\" Use data trends (PM2.5 levels pre-2002 vs post-2020) and the concept of rebound effect / offsetting sources.",
+     "a": "The statement is false. While CNG conversion (2000-2002) reduced SO2 and CO significantly, PM2.5 and NOx trends show a rebound: after initial improvement (2002-2007), PM2.5 rose due to (a) explosive growth in private vehicle fleet (35 crore nationally, Delhi adding ~1,400 vehicles/day), (b) increased diesel car share (pre-BS-VI), (c) regional contributions (stubble burning, brick kilns, thermal plants), and (d) secondary aerosol formation from NOx/VOCs. CNG addressed point-source vehicular emissions but not the systemic drivers: inadequate public transport capacity, urban sprawl, and weak enforcement of industrial standards. A good critique uses the \"pollution haven\" and \"rebound effect\" concepts; a weak answer cites only \"more cars\" without linking to the offsetting mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Design a three-pillar air quality management strategy for a Tier-2 Indian city (e.g., Lucknow or Patna) that integrates: (i) emission reduction technology, (ii) institutional governance, and (iii) behavioural nudges. Specify one measurable target for each pillar with a 5-year horizon.",
+     "a": "Pillar 1 (Technology): Mandate BS-VI fuel + vehicle retrofit for commercial fleets; target: 90% BS-VI compliance in 5 years, measured by PUC certification data.\nPillar 2 (Governance): Establish city-level Air Quality Management Committee with statutory powers under Air Act 1981; target: 100% industrial CEMS (Continuous Emission Monitoring Systems) data publicly reported monthly within 2 years.\nPillar 3 (Behaviour): Congestion pricing in core zone + subsidised e-bus fleet; target: 15% modal shift from private to public transport in 5 years, measured by traffic count surveys.\nA poor answer lists generic \"awareness campaigns\" without measurable targets or ignores the institutional pillar (who enforces?), revealing a techno-centric bias common in student responses.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_13_005",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_13_005",
+   "title": "c12_hs_cbse_13_005",
+   "questions": [
+    {
+     "q": "A student writes: \"Adulteration means mixing something cheap with something expensive. Misleading advertising means lying in ads. Unfair trade practice means cheating customers.\" Identify which part of this statement is legally imprecise under the Consumer Protection Act 2019 and explain why.",
+     "a": "The statement oversimplifies all three concepts and misses legal nuances. Adulteration under FSSAI/CPA includes not just \"mixing cheap with expensive\" but also abstraction of vital components (e.g., removing cream from milk), substitution (e.g., argemone oil in mustard oil), and contamination beyond permissible limits — even if no \"cheap\" substance is added. Misleading advertising legally includes omission of material facts (e.g., not disclosing side effects), not just affirmative lies. Unfair trade practice is a defined legal category under Section 2(47) CPA 2019 covering 8 specific practices (false representation, bait advertising, free gifts with hidden conditions, etc.), not a generic synonym for \"cheating.\" A wrong answer reveals the student is using colloquial definitions instead of statutory definitions — a critical error in board exams where precise legal terminology fetches marks.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a \"Buy 1 Get 1 Free\" offer on a product whose price was quietly doubled two weeks before the offer constitutes an unfair trade practice, but the same offer on a genuinely priced product does not. Use the concept of \"deceptive pricing\" and \"bait advertising\" in your answer.",
+     "a": "The first scenario is an unfair trade practice under Section 2(47)(vi) CPA 2019 (bait advertising) and Section 2(47)(i) (false representation of price) because the \"free\" item's cost is recovered through the artificially inflated base price — the reference price is fictitious, creating a false impression of bargain. The second scenario is a legitimate sales promotion because the reference price is genuine (the product was actually sold at that price for a reasonable period). A wrong answer typically confuses \"any discount\" with \"deceptive discount\" — students miss that the legality hinges on the authenticity of the reference price, not the discount mechanics itself. This distinction is frequently tested in case-based board questions.",
+     "self_check": true
+    },
+    {
+     "q": "A packaged juice label states \"No Added Sugar\" in large font. The ingredient list shows \"Apple Juice Concentrate (60%), Water, Acidity Regulator (330), Vitamin C.\" The juice tastes very sweet. Is this misleading advertising? Analyse using FSSAI labelling regulations and CPA 2019 definitions.",
+     "a": "Yes, this is potentially misleading advertising. FSSAI regulations require that \"No Added Sugar\" claims must not be used if the product contains sugars from concentrated fruit juices used for sweetening purposes — the concentrate here (60%) is the primary sweetening agent. The claim creates a false impression that the product is low-sugar or sugar-free, violating Section 2(28) CPA 2019 (misleading advertisement: false representation of quality/quantity). The natural sugars from concentrate are functionally \"added\" for sweetening. A wrong answer focuses only on the literal absence of \"sucrose\" in ingredients, missing that the regulatory test is the overall impression on an average consumer, not technical literalism. Board exams test this \"substance over form\" reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: (a) Selling milk diluted with water, and (b) Selling \"herbal weight-loss tea\" containing undeclared sibutramine (a banned pharmaceutical). Which violates more consumer rights simultaneously? Justify using the six consumer rights framework.",
+     "a": "(a) Diluted milk primarily violates Right to Safety (health risk from contaminants), Right to Information (false \"pure milk\" claim), and Right to Value for Money (paying for milk solids not received). (b) Herbal tea with hidden sibutramine violates ALL six rights: Safety (serious cardiovascular risk), Information (undeclared drug), Choice (consumer cannot choose drug-free option), Redressal (hard to trace harm to product), Consumer Education (exploits trust in \"herbal\"), and Healthy Environment (unregulated pharma in food chain). The tea case is aggravated adulteration + misleading advertising + unfair practice combined. A wrong answer treats both as simple \"adulteration\" missing the multiplicative rights violation in (b). Competitive exams like CUET test this multi-rights analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The Consumer Protection Act 2019 made misleading advertising a criminal offence for the first time in India.\" Is this true or false? Defend your answer with specific sections and historical context.",
+     "a": "FALSE. Misleading advertising was already an offence under: (1) Drugs and Magic Remedies (Objectionable Advertisements) Act 1954, (2) Cable Television Networks (Regulation) Act 1995, (3) Food Safety and Standards Act 2006 (Section 53), and (4) ASCI Code (self-regulatory, but recognised by courts). CPA 2019 strengthened it by: defining \"misleading advertisement\" explicitly in Section 2(28), enabling CCPA to impose penalties up to ₹10 lakh (Section 21), and allowing class actions (Section 35). But it did not create the offence de novo. A wrong answer reveals the student hasn't studied the legislative evolution — a common gap where students think CPA 2019 invented consumer law rather than consolidated and strengthened it. Board marking schemes penalise this historical inaccuracy.",
+     "self_check": true
+    },
+    {
+     "q": "Create a composite consumer complaint scenario involving a single product that simultaneously embodies adulteration, misleading advertising, AND an unfair trade practice. Write the complaint notice draft citing specific sections of CPA 2019 and FSS Act 2006.",
+     "a": "Scenario: \"ImmunityBoost Chyawanprash\" — Label claims \"100% Ayurvedic, No Preservatives, Clinically Proven Immunity\" (Misleading Ad: Sec 2(28) CPA, Sec 53 FSSAI). Lab test reveals: (1) Contains undeclared steroids (dexamethasone) — Adulteration (Sec 3(a) FSSAI, Sec 2(1)(b) CPA). (2) Sold at \"MRP ₹450, Special Offer ₹299\" but MRP was never the actual selling price — Unfair Trade Practice: Bait Advertising (Sec 2(47)(vi) CPA) and False Reference Price (Sec 2(47)(i)). Complaint notice must cite: CCPA jurisdiction (Sec 18), product liability (Sec 84), and seek refund + compensation + punitive damages. A poor answer lists violations separately without showing how one product creates a compound violation — missing the integrative thinking board exams reward.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

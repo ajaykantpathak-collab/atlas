@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_01_005",
+   "title": "c12_ps_cbse_01_005",
+   "questions": [
+    {
+     "q": "What does the acronym SALT stand for, and which two superpowers were the primary negotiators in the SALT process?",
+     "a": "SALT stands for Strategic Arms Limitation Talks; the negotiators were the United States and the Soviet Union. A wrong answer (e.g., \"Strategic Arms Limitation Treaty\" or naming NATO/Warsaw Pact as negotiators) reveals confusion between the negotiation process and the final treaty, or misunderstanding that these were bilateral US-USSR talks, not multilateral alliance negotiations.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Anti-Ballistic Missile (ABM) Treaty of 1972 limit each side to only two ABM deployment sites (later reduced to one), rather than allowing unlimited missile defence systems?",
+     "a": "Unlimited ABM systems would undermine mutually assured destruction (MAD) by making a first strike thinkable — if one side could intercept retaliation, it might be tempted to strike first. Limiting ABMs preserved the strategic balance of terror. A wrong answer focusing only on \"cost savings\" or \"fairness\" misses the core strategic logic: missile defence is destabilising because it erodes the vulnerability that deters attack.",
+     "self_check": true
+    },
+    {
+     "q": "In 1974, the US deployed MIRV (Multiple Independently targetable Reentry Vehicle) technology on its Minuteman III and Poseidon missiles. How did MIRVs undermine the quantitative limits set by the SALT I Interim Agreement, and why was this a major flaw in SALT I?",
+     "a": "SALT I froze the number of launchers (silos/submarines) but did not limit warheads per missile. MIRVs allowed one launcher to carry multiple warheads (up to 10-14), so the US could vastly increase warheads without violating the launcher ceiling. The USSR soon followed. A wrong answer that says \"MIRVs were banned by SALT I\" or \"SALT I limited warheads\" reveals ignorance of the critical distinction between launchers and warheads — a favourite exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the outcomes of SALT I (1972) and SALT II (1979). Why was SALT I ratified and implemented while SALT II was signed but never ratified by the US Senate?",
+     "a": "SALT I (Interim Agreement + ABM Treaty) was ratified because it addressed immediate crisis stability (ABM limits) and froze launchers at rough parity during a period of improved relations. SALT II set detailed numerical limits on launchers and MIRVs but was overtaken by the Soviet invasion of Afghanistan (Dec 1979), which destroyed the political trust needed for ratification. The US Senate never voted on it, though both sides informally observed its limits until 1986. A wrong answer attributing SALT II's failure solely to \"US domestic politics\" or \"Soviet cheating\" misses the geopolitical trigger: Afghanistan ended the détente framework itself.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Détente and SALT were failures because they did not stop the arms race — both sides continued building more warheads throughout the 1970s.\" Provide two pieces of evidence for and two against this view.",
+     "a": "Evidence FOR: (1) Total warheads rose from ~7,000 (1972) to ~25,000 (1979) due to MIRVing; (2) New systems (Trident, SS-18, cruise missiles) were developed under SALT loopholes. Evidence AGAINST: (1) ABM Treaty prevented a destabilising defence race and lasted 30 years; (2) SALT created verification mechanisms (NTM — National Technical Means) and a diplomatic channel that survived crises; (3) It established the principle of parity and rules-based competition. A one-sided answer shows inability to weigh structural constraints against political achievements — a key evaluative skill for board \"assess\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a hypothetical Article X for a \"SALT III\" treaty (1985) that addresses the verification loophole exploited in SALT I/II: the inability to distinguish between single-warhead and MIRVed missiles via satellite imagery (National Technical Means). Your article must specify a cooperative measure that does not require on-site inspections (which the USSR rejected).",
+     "a": "Strong answer: \"Article X: Each Party shall declare the number of warheads attributed to each deployed ICBM and SLBM type and shall provide telemetric data from flight tests of new or modified missiles to enable the other Party to verify warhead loading using National Technical Means. Data shall be exchanged within 30 days of each test.\" This mirrors the actual SALT II Protocol and later START solutions (telemetry sharing). A weak answer proposing \"on-site inspections\" ignores the historical Soviet refusal (until Gorbachev), showing lack of context awareness.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

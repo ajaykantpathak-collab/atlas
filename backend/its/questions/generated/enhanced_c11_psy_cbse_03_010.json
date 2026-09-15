@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_03_010",
+   "title": "c11_psy_cbse_03_010",
+   "questions": [
+    {
+     "q": "Define \"menarche\" and \"spermarche\" precisely, and state the typical age range for each in the Indian context.",
+     "a": "Menarche is the onset of menstruation, marking female reproductive maturity, typically occurring at 10-14 years (mean ~12.5 years) in India. Spermarche is the first ejaculation of semen containing viable sperm, marking male reproductive maturity, typically at 12-16 years (mean ~13.5 years). A wrong answer (e.g., \"menarche is first period at age 8\" or confusing spermarche with first nocturnal emission) reveals the student cannot distinguish between the biological event and its social awareness, or lacks precision in developmental milestones—critical for board exam definitions.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 9 student argues: \"If I can solve algebra problems, I'm already in formal operations. My 10-year-old brother can't, so he's not smart.\" Using Piaget's theory, explain why this reasoning is flawed and what cognitive ability truly distinguishes formal from concrete operations.",
+     "a": "The flaw: concrete operational children (7-11 years) CAN solve algebra if taught procedurally—the distinction is NOT problem-solving ability but the NATURE of reasoning. Formal operations (11-15+) involve hypothetical-deductive reasoning: generating ALL possible variables, systematically testing hypotheses mentally (e.g., pendulum task), and reasoning about abstract propositions without concrete referents. The student's error reveals confusion between \"content of thought\" (what problems one solves) and \"structure of thought\" (how one reasons)—a senior-secondary misconception where students equate academic advancement with cognitive stage.",
+     "self_check": true
+    },
+    {
+     "q": "Priya (15) refuses to attend a family wedding because of a small facial pimple, saying \"Everyone will stare at me.\" Her brother Rohan (12) says \"No one cares, just go.\" Analyse both statements using Elkind's adolescent egocentrism. Identify which component each reflects and explain the developmental reason for the difference.",
+     "a": "Priya exhibits \"imaginary audience\"—belief that others are as preoccupied with her appearance as she is, causing extreme self-consciousness. Rohan's response reflects concrete operational thinking: he evaluates the situation objectively (others' attention is limited) and cannot simulate Priya's subjective experience. The developmental reason: formal operational thought enables second-order thinking (thinking about others' thoughts about oneself), which emerges ~11-15 years. A wrong answer attributing Priya's behaviour to \"vanity\" or \"insecurity\" misses the cognitive-structural basis—this is not a personality flaw but a normative cognitive distortion of early formal operations.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast Erikson's \"identity vs. role confusion\" and Marcia's four identity statuses. Using a vocational choice example, illustrate how an adolescent could move from identity diffusion to identity achievement through moratorium.",
+     "a": "Erikson provides the psychosocial FRAMEWORK (crisis: establish coherent self vs. confusion); Marcia operationalises it via two dimensions: exploration (crisis) and commitment. Statuses: Diffusion (no exploration, no commitment), Foreclosure (commitment without exploration—parental imposition), Moratorium (active exploration, no commitment), Achievement (exploration + commitment). Example: At 16, Rahul has no career thought (diffusion). At 17, parents insist he become a doctor (foreclosure). At 18, he explores engineering, psychology, design—internships, counselling (moratorium). At 20, he chooses UX design after evaluating fit (achievement). Wrong answers that treat statuses as fixed traits or skip moratorium reveal misunderstanding of identity as a dynamic process.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this school policy: \"To prevent eating disorders, we will ban all discussions of calories, dieting, and body weight in school.\" Consider biological, cognitive, and socio-cultural factors from the NCERT text. Is this policy likely effective? Justify.",
+     "a": "The policy is WELL-INTENTIONED BUT INSUFFICIENT. NCERT identifies three interacting causes: (1) Biological—puberty increases body fat (especially girls), triggering body dissatisfaction; (2) Cognitive—imaginary audience amplifies perceived scrutiny, personal fable fosters \"unique vulnerability\"; (3) Socio-cultural—media projects thinness as ideal, peer comparisons reinforce it. Banning discussions addresses only ONE socio-cultural pathway (explicit talk) but ignores: internalised media ideals, peer modelling, cognitive distortions, and biological changes. Effective prevention requires: media literacy (cognitive), body-function appreciation (biological), and supportive peer culture (socio-cultural). A \"yes/no\" answer without multi-factorial analysis reveals inability to integrate domains—a key board exam competency.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 5-minute role-play script for a peer-education session where two Class 11 students demonstrate the difference between \"positive peer pressure\" and \"negative peer pressure\" in the context of substance use. Include dialogue showing how formal operational thinking (hypothetical reasoning) helps resist negative pressure.",
+     "a": "A strong script shows: Character A (pressuring): \"Everyone's trying this vape at the party—don't be a baby.\" Character B (resisting): \"If I try it once, I might get addicted because nicotine rewires adolescent brains faster than adults. Also, if my parents find out, I lose their trust for my internship. I'll instead suggest we play FIFA.\" This demonstrates: hypothetical-deductive reasoning (if-then chains), future orientation, and identity commitment (internship). A weak script has B simply say \"No, it's bad\" (moral reasoning without cognitive mediation) or gives in. Poor answers reveal inability to translate cognitive theory into behavioural skill—the essence of applied psychology.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_08_003",
+   "title": "c12_geo_cbse_08_003",
+   "questions": [
+    {
+     "q": "Name the three categories of ports based on cargo handled, and give one example of each from the NCERT text.",
+     "a": "Correct: Industrial Ports (e.g., handling bulk grain, ore, oil), Commercial Ports (e.g., packaged/manufactured goods, passenger traffic), Comprehensive Ports (e.g., Rotterdam, Singapore — handle both bulk and general cargo in large volumes). A wrong answer that lists “major/minor ports” or “natural/artificial harbours” reveals confusion between functional classification (cargo type) and physical/administrative classification — a common board-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Why are inland ports like Kolkata (on Hooghly) and Manchester (on Manchester Ship Canal) located far from the sea coast? Explain the geographical requirement that makes this possible.",
+     "a": "Correct: Inland ports are located on navigable rivers or canals that connect to the sea. They require sufficient depth (maintained by dredging/tidal bore), width, and minimal gradient to allow flat-bottom vessels/barges to reach them. Kolkata uses the tidal Hooghly; Manchester uses a canal with locks. A wrong answer citing “proximity to coal fields” or “historical accident” misses the necessary physical condition — a perennial, navigable waterway linking to the ocean — and confuses locational advantage with enabling geography.",
+     "self_check": true
+    },
+    {
+     "q": "A bulk carrier loads 150,000 tonnes of iron ore at Port Hedland (Australia) for Qingdao (China). The voyage distance via the shortest great-circle route is 4,800 nautical miles. If the vessel averages 14 knots, calculate the minimum sailing days (ignore loading/unloading, currents, and stops). Show steps.",
+     "a": "Step 1: Distance = 4,800 nautical miles. Step 2: Speed = 14 knots (nautical miles per hour). Step 3: Time (hours) = Distance / Speed = 4,800 / 14 ≈ 342.86 hours. Step 4: Time (days) = 342.86 / 24 ≈ 14.29 days. Step 5: Minimum sailing days ≈ 14.3 days (round to 14 days 7 hours). A wrong answer using statute miles (1 nm = 1.15 mi) or km without conversion reveals unit mismatch — a frequent error in competitive exams where distances are given in mixed units.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Rhine inland waterway (Europe) and the Ganga-Brahmaputra inland waterway (India) on three geographical parameters that determine their commercial viability. Why does the Rhine carry significantly higher freight tonnage despite being shorter?",
+     "a": "Parameters: (1) Perennial flow with regulated depth (Rhine: canalised, locks, consistent discharge; Ganga-Brahmaputra: highly seasonal, braiding, siltation). (2) Industrial hinterland density (Rhine: Ruhr, Basel, Rotterdam — heavy industry, containers; Ganga: agricultural, limited industrial clusters). (3) Cross-border governance (Rhine: international commission, standardized vessel dimensions; Ganga-Brahmaputra: interstate/inter-country disputes, no unified navigation authority). The Rhine’s higher tonnage stems from reliable year-round navigation, dense industrial demand, and institutional coordination — not length. A wrong answer focusing only on “Europe is more developed” misses the specific physical-institutional interplay.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: “The Suez Canal’s 2015 expansion (new parallel channel) eliminated the geopolitical risk of chokepoint closure.” Use evidence from recent events (e.g., 2021 Ever Given grounding, 2024 Red Sea attacks) to support your judgment.",
+     "a": "The statement is false. The expansion doubled transit capacity and reduced waiting time, but did not remove the single-point-of-failure risk: (1) Ever Given (2021) blocked the entire canal for 6 days despite two channels — the vessel grounded in the single-lane southern section. (2) 2024 Houthi attacks on Red Sea shipping forced major lines to reroute via Cape of Good Hope, adding 10-14 days and 30% freight cost — the canal’s strategic vulnerability persists. A wrong answer claiming “expansion solved congestion, so risk is gone” confuses capacity with resilience; it ignores that chokepoint risk is geopolitical, not just hydraulic.",
+     "self_check": true
+    },
+    {
+     "q": "Design a feasibility checklist for declaring a 200 km stretch of the Godavari River (between Rajahmundry and Bhadrachalam) as a National Waterway. Include at least five criteria covering physical, economic, and institutional dimensions.",
+     "a": "A good checklist: (1) Minimum navigable depth ≥ 2.5 m (LAD) for 300 days/year (physical). (2) Channel width ≥ 45 m for two-way barge traffic (physical). (3) Existing/terminal cargo demand ≥ 2 MTPA from hinterland industries (thermal power, cement, agro) (economic). (4) Intermodal connectivity: rail/road links within 5 km of proposed terminals (economic). (5) Clearance from Central Water Commission, State Water Resources Dept., and Inland Waterways Authority of India (institutional). (6) Environmental Impact Assessment clearance for dredging and terminal construction (institutional). A poor answer listing only “depth and width” ignores the demand-institution nexus that determines actual utilization — a key reason many Indian waterways remain underused.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

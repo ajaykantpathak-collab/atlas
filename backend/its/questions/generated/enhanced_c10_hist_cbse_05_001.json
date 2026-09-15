@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_hist_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c10_hist_cbse_05_001",
+   "title": "c10_hist_cbse_05_001",
+   "questions": [
+    {
+     "q": "What is the name and approximate date of the world's oldest dated printed book, and in which country was it produced?",
+     "a": "The *Diamond Sutra*, dated 868 CE (9th year of Xiantong era), produced in China during the Tang Dynasty. A wrong answer (e.g., \"Gutenberg Bible, 1450s, Germany\") reveals the student confuses woodblock printing with movable-type printing and does not know the Chinese origins of print technology.",
+     "self_check": true
+    },
+    {
+     "q": "Why did woodblock printing first develop and spread in East Asia rather than in Europe during the same period (7th–9th centuries)?",
+     "a": "Woodblock printing emerged in China due to the convergence of three factors: (1) the invention of paper (Han Dynasty, 2nd century BCE) provided a cheap, absorbent medium; (2) the logographic Chinese script (thousands of characters) made movable type impractical initially, favoring whole-page blocks; (3) Buddhist monastic culture demanded mass reproduction of sutras for merit-making. Europe lacked paper (used parchment), used alphabetic scripts better suited to movable type later, and had no equivalent mass-demand for identical religious texts. A wrong answer focusing only on \"China was more advanced\" misses the specific material, scriptural, and religious causes.",
+     "self_check": true
+    },
+    {
+     "q": "A historian finds a fragment of a printed Buddhist charm (dharani) in a Japanese temple excavation dated to 770 CE. The text is in Chinese characters but the paper fiber analysis shows it was made locally in Japan. What does this evidence suggest about the transmission of printing technology to Japan?",
+     "a": "It suggests that printing technology (not just printed texts) was transmitted from China to Japan by the mid-8th century, and Japanese artisans had already mastered paper-making and block-carving to produce prints locally. The use of Chinese characters indicates the texts were initially imported as religious canon, but local production began quickly. A wrong answer claiming \"Japan imported all printed books from China\" ignores the evidence of local manufacture and the role of Japanese state sponsorship (Empress Shōtoku's million charms).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the social purpose of the earliest woodblock prints in China (e.g., *Diamond Sutra*) and Japan (e.g., *Hyakumanto Darani*). How were they similar and how did they differ?",
+     "a": "Similarity: Both were Buddhist texts produced for religious merit — copying/distributing sutras was believed to generate spiritual merit for the sponsor and recipient. Difference: The *Diamond Sutra* (China, 868 CE) was a complete scholarly sutra for monastic study and dissemination; the *Hyakumanto Darani* (Japan, 764–770 CE) were tiny charm scrolls placed inside miniature wooden pagodas, mass-produced by imperial order to pacify spirits after a rebellion. The Japanese case shows state-directed mass printing for political-religious legitimation, while the Chinese example reflects monastic textual preservation. A wrong answer treating both as \"just religious books\" misses the distinct political function in Japan.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Woodblock printing in Tang China was a 'revolution' comparable to Gutenberg's press in 15th-century Europe.\" Use evidence from the 7th–9th centuries to support your judgment.",
+     "a": "The claim is overstated. Woodblock printing in Tang China did not cause a \"revolution\" in literacy, book prices, or information circulation comparable to Gutenberg's press. Evidence: (1) Print runs were small (hundreds, not thousands); (2) Books remained expensive luxury items for elites/monasteries; (3) No widespread vernacular literacy emerged; (4) The state did not regulate or censor print (unlike later Europe). However, it *did* establish the technological and cultural foundation for later print culture. A wrong answer saying \"yes, it was a revolution\" confuses technological invention with social transformation; a wrong answer saying \"no impact\" ignores its role in preserving texts and enabling later movable type.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-panel storyboard (describe each panel in 1–2 sentences) showing the journey of a Buddhist sutra from a Chinese monastery scriptorium to a Japanese temple in 800 CE, highlighting the roles of paper, carving, trade routes, and reception.",
+     "a": "Panel 1: In a Tang monastery, a scribe writes the *Heart Sutra* on thin paper with brush and ink; the abbot orders 100 copies for distribution. Panel 2: A block-cutter pastes the manuscript face-down on a pear-wood block, carves away the white space, leaving characters in relief; ink is applied, paper pressed — 100 prints dry in the sun. Panel 3: A merchant caravan loads the printed scrolls onto camels at Dunhuang; they travel the Silk Route through the Hexi Corridor, cross the Taklamakan, reach Korea, then a ship to Japan. Panel 4: At a Nara temple, Japanese monks receive the scrolls, study the Chinese text, and commission local carvers to make new blocks for Japanese disciples. A poor answer omits the material steps (paper, carving, transport) or treats transmission as instant.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

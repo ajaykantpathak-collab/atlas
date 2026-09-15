@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_01_002",
+   "title": "c10_chem_cbse_01_002",
+   "questions": [
+    {
+     "q": "Write the balanced chemical equation for the reaction: Hydrogen gas burns in oxygen gas to form liquid water. Include physical states.",
+     "a": "Correct answer: 2H₂(g) + O₂(g) → 2H₂O(l). A wrong answer like H₂ + O₂ → H₂O reveals the student recalls the reaction but fails to apply the Law of Conservation of Mass — they have not balanced oxygen atoms (2 on left, 1 on right). Another error: writing H₂O(g) instead of (l) shows confusion about water's state at room temperature, a common board exam marking penalty.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the skeleton equation for heating calcium carbonate as: CaCO₃(s) → CaO(s) + CO₂(g). They claim it is already balanced. Is the student correct? Explain why or why not by counting atoms of each element on both sides.",
+     "a": "Yes, the student is correct. Left side: Ca=1, C=1, O=3. Right side: Ca=1 (in CaO), C=1 (in CO₂), O=1+2=3. All atoms match. A wrong answer claiming it is unbalanced reveals the student does not recognize that polyatomic ions (CO₃²⁻) break apart in decomposition — they may incorrectly treat CO₃ as a unit that must stay intact, a misconception from not understanding ionic dissociation in thermal decomposition.",
+     "self_check": true
+    },
+    {
+     "q": "Balance the following skeleton equation by inspection: Fe(s) + H₂O(g) → Fe₃O₄(s) + H₂(g). Show all steps and verify the final atom count.",
+     "a": "Step 1: Count atoms: Fe: 1 vs 3, H: 2 vs 2, O: 1 vs 4. Step 2: Balance Fe first (appears in one compound each side): place 3 before Fe → 3Fe + H₂O → Fe₃O₄ + H₂. Step 3: Balance O: 4 on right, so place 4 before H₂O → 3Fe + 4H₂O → Fe₃O₄ + H₂. Step 4: Balance H: 8 on left, so place 4 before H₂ → 3Fe + 4H₂O → Fe₃O₄ + 4H₂. Step 5: Verify: Fe=3, H=8, O=4 on both sides. Balanced: 3Fe(s) + 4H₂O(g) → Fe₃O₄(s) + 4H₂(g). A wrong answer like Fe + 4H₂O → Fe₃O₄ + 4H₂ shows the student balanced O and H but forgot to go back and balance Fe — a classic \"start over\" error when elements are interdependent.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the balancing approach for these two reactions: (i) Na(s) + Cl₂(g) → NaCl(s) and (ii) P₄(s) + Cl₂(g) → PCl₃(l). Which reaction requires balancing the diatomic element first? Justify your answer by analyzing the element inventory.",
+     "a": "Reaction (ii) requires balancing the diatomic element (Cl₂) first. In (i), Na and Cl₂ both appear once; we balance Cl by putting 2 before NaCl, then 2 before Na. In (ii), P₄ has 4 P atoms, so we put 4 before PCl₃, giving 12 Cl on right. Then we balance Cl₂ by putting 6 before it. If a student starts with P₄ in (i) or Cl₂ in (ii) without checking which element appears in multiple compounds, they create fractional coefficients or dead ends. Wrong answer reveals inability to strategize — they follow a rigid \"left to right\" rule instead of analyzing the equation structure.",
+     "self_check": true
+    },
+    {
+     "q": "A student balances the double displacement reaction: BaCl₂(aq) + Na₂SO₄(aq) → BaSO₄(s) + NaCl(aq) as: BaCl₂ + Na₂SO₄ → BaSO₄ + 2NaCl. They argue it is balanced because Ba, Cl, Na, S, O counts match. Evaluate this claim and identify the error if any.",
+     "a": "The claim is wrong. Atom count: Left: Ba=1, Cl=2, Na=2, S=1, O=4. Right: Ba=1, S=1, O=4, Na=2, Cl=2. Atoms match, BUT the student wrote NaCl instead of 2NaCl in the skeleton. The error is in the skeleton equation: Na₂SO₄ provides 2 Na⁺, so product must be 2NaCl, not NaCl. The student \"balanced\" by changing the formula of sodium chloride from NaCl to 2NaCl (coefficient) but the skeleton itself was incorrectly written as NaCl (implying 1 Na). This reveals confusion between coefficient (stoichiometric number) and subscript (formula composition) — a critical board exam distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step experimental procedure to prove that the reaction between iron nails and copper sulphate solution follows the balanced equation: Fe(s) + CuSO₄(aq) → FeSO₄(aq) + Cu(s). Your procedure must include how to verify the stoichiometric ratio 1:1:1:1.",
+     "a": "Good answer: Step 1: Weigh a clean iron nail (mass m₁). Step 2: Immerse in 50 mL of 0.1 M CuSO₄ solution until reaction stops (blue colour fades, reddish Cu deposits). Step 3: Remove nail, wash, dry, weigh again (mass m₂). Mass loss = m₁ - m₂ = mass of Fe reacted. Filter and dry the Cu deposit, weigh (mass m₃). Calculate moles: n(Fe) = (m₁-m₂)/56, n(Cu) = m₃/63.5. If n(Fe) ≈ n(Cu), 1:1 ratio verified. Poor answer: \"Observe colour change\" — reveals inability to connect symbolic equation to quantitative experimental verification, a key competency in CBSE practical assessment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

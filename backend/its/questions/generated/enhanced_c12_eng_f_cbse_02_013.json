@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_f_cbse_02_013",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_f_cbse_02_013",
+   "title": "c12_eng_f_cbse_02_013",
+   "questions": [
+    {
+     "q": "Define 'critical interpretation' in the context of studying a non-fiction narrative like \"Lost Spring\". How does it differ from literal comprehension?",
+     "a": "Critical interpretation involves analyzing the author's choices (selection of details, narrative voice, structure) to uncover implicit arguments about society, power, and human dignity, and evaluating their validity. Literal comprehension only retrieves explicit facts (e.g., \"Saheb earns 800 rupees\"). A wrong answer that lists plot points reveals the student is still operating at recall level, not analysis.",
+     "self_check": true
+    },
+    {
+     "q": "The author writes: \"Garbage to them is gold.\" Explain what this metaphor reveals about the children's perception versus the adults' reality, and why the author chooses this specific comparison.",
+     "a": "The metaphor reveals that for children, rag-picking retains a sense of wonder and possibility (finding a rupee feels like treasure), while for adults it is grim survival. The author uses \"gold\" to highlight the tragic inversion: waste becomes value only because poverty has stripped away all other options. A wrong answer that only defines metaphor misses the socio-psychological contrast the author constructs.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of 'dramatic irony' to the episode where the author jokingly asks Saheb if he would come to her school, and he later asks, \"Is your school ready?\" What does this irony expose about the relationship between the privileged observer and the marginalized child?",
+     "a": "The irony exposes the power imbalance: the author's casual promise becomes a lifeline for Saheb, revealing how easily the privileged make commitments they cannot keep, while the poor internalize them as hope. The child's trust contrasts with the author's embarrassment, underscoring that good intentions without structural power are cruel. A wrong answer that only defines dramatic irony fails to connect it to the text's critique of performative empathy.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the two narratives (Saheb in Seemapuri, Mukesh in Firozabad) function together to build a composite argument about child labour in India. What does the structural pairing achieve that a single story could not?",
+     "a": "The pairing shows two distinct traps: Saheb represents the migrant, stateless child trapped in informal waste economy with no identity; Mukesh represents the generational, caste-bound artisan trapped in hazardous traditional industry. Together they prove child labour is not monolithic — it adapts to urban informality and rural tradition alike — and that escape requires different interventions (school access vs breaking caste-industry nexus). A wrong answer that merely summarizes both stories misses the structural argument.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the author's decision to end with Mukesh's limited dream (\"I want to drive a car... Few airplanes fly over Firozabad\"). Is this a hopeful or hopeless ending? Justify with evidence from the text.",
+     "a": "It is a deliberately constrained hope: Mukesh dares to dream (agency), but his dream is grounded in his reality (cars, not planes), showing awareness of structural limits. The author refuses false optimism — no NGO arrives, no law is enforced — leaving the reader with the uncomfortable truth that individual resilience is insufficient without systemic change. A wrong answer that calls it purely hopeful ignores the \"Few airplanes\" line; one that calls it hopeless ignores Mukesh's determination.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-line dialogue between Saheb and Mukesh if they met at a traffic signal in Delhi. Each must speak in character, revealing their distinct worldviews without stating them directly.",
+     "a": "Saheb: (polishing a car window) \"This glass shines like the bangles back home.\"\nMukesh: (leaning on a cart) \"Bang blinds you. This glass shows you the road.\"\nSaheb: \"I once held a ten-rupee note. Felt like a king.\"\nMukesh: \"Kings don't wash cars. They fix the engine.\"\nA poor answer would have them discuss their backgrounds explicitly; a good answer uses their respective metaphors (garbage/gold, bangles/blindness) to show, not tell.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

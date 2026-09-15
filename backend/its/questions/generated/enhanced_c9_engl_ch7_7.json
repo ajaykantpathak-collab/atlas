@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_engl_ch7_7",
+ "concepts": [
+  {
+   "id": "enh:c9_engl_ch7_7",
+   "title": "c9_engl_ch7_7",
+   "questions": [
+    {
+     "q": "Define \"context clue\" and name the four main types used to determine word meaning in a text.",
+     "a": "A context clue is a hint within the surrounding text (sentences before/after) that helps a reader infer the meaning of an unfamiliar word. The four main types are: 1) Definition/Explanation (the author defines the word directly), 2) Synonym/Restatement (a simpler word or phrase is used nearby), 3) Antonym/Contrast (a word with opposite meaning is signaled by words like 'but', 'however', 'unlike'), 4) Inference/General Context (meaning is derived from the overall situation, tone, or examples). A wrong answer (e.g., \"looking in a dictionary\" or \"guessing\") reveals the student confuses external resources with internal textual evidence and cannot articulate the specific strategies needed for board-level unseen passages.",
+     "self_check": true
+    },
+    {
+     "q": "In the phrase \"The *arid* landscape stretched endlessly, broken only by thorny bushes,\" explain how the phrase \"broken only by thorny bushes\" acts as a context clue for \"arid.\" What does \"arid\" imply about the soil and rainfall that \"dry\" might not?",
+     "a": "\"Broken only by thorny bushes\" is an **inference/example clue**: it shows the extreme scarcity of vegetation, implying the land cannot support much life. \"Arid\" specifically means *receiving very little precipitation, barren, and infertile* — a climatic classification — whereas \"dry\" is a temporary state (a towel is dry; a desert is arid). A wrong answer focusing only on \"no water\" misses the nuance of *permanent climatic barrenness* crucial for describing the Thar setting in board answers. It also reveals the student treats synonyms as interchangeable, ignoring connotation.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the \"substitution test\" to determine the meaning of \"consignment\" in this sentence from the text: \"Khetaram carefully loaded the *consignment* of letters and parcels onto his bicycle.\" Write the substituted word/phrase and explain why \"delivery\" is a weaker substitute than \"shipment\" or \"batch of goods.\"",
+     "a": "Substitution: \"Khetaram carefully loaded the **shipment/batch of goods** of letters and parcels onto his bicycle.\" Steps: 1) Identify the part of speech (noun, object of 'loaded'). 2) Note the contents: \"letters and parcels\" (plural, tangible items). 3) Note the verb \"loaded\" implying weight/volume. 4) Test \"delivery\" — \"loaded the delivery\" sounds odd; delivery is the *act* of delivering, not the *items*. 5) \"Consignment\" = a batch of goods entrusted for delivery. A wrong answer using \"delivery\" shows the student ignores collocation (verb-noun partnerships) and grammatical function, a common error in board vocabulary questions.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the author's word choice in: \"The *relentless* sun beat down on the *solitary* figure of the postman.\" Compare the effect of \"relentless\" vs. \"hot\" and \"solitary\" vs. \"alone.\" How do these specific choices deepen the theme of **duty in extreme conditions** (linking to node c9_engl_ch7_3)?",
+     "a": "\"Relentless\" (meaning *persistent, unyielding, never stopping*) personifies the sun as an active, hostile opponent that *attacks* continuously, unlike the neutral descriptor \"hot.\" \"Solitary\" (meaning *alone, isolated, often by circumstance or choice, with a tone of dignity/resilience*) emphasizes Khetaram's isolation as a *condition of his role*, whereas \"alone\" is a neutral physical state. Together, they frame the environment as an antagonist and Khetaram as a resilient protagonist, directly supporting the theme of duty. A wrong answer treating them as simple synonyms fails the board requirement to \"analyze the effect of language\" and misses the thematic link to c9_engl_ch7_3.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's claim: \"The word 'connectivity' in the chapter title 'Carrier of Words' and in the phrase 'digital connectivity' means the same thing: internet access.\" Is the claim correct? Justify using the text's context (rural India, physical letters, Gramin Dak Sewak).",
+     "a": "The claim is **incorrect**. In the chapter, \"connectivity\" (or the concept thereof) refers to **physical, human-mediated communication links** — the postman *is* the connectivity, bridging remote villages (node c9_engl_ch7_4) through tangible letters. \"Digital connectivity\" implies technological/internet infrastructure. The text contrasts the *absence* of digital connectivity (no internet, poor roads) with the *presence* of postal connectivity (Khetaram). Evaluating this requires distinguishing **denotation** (linking things) from **contextual connotation** (the *mode* of linking). A wrong answer reveals the student imposes modern technical meaning onto a historical/social context, a frequent board exam error in \"vocabulary in context\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Create two original sentences using the word **\"dispatch\"** (noun or verb) — one reflecting the **postal service context** (sending letters officially) and one reflecting a **general/administrative context** (sending someone/something quickly for a purpose). Ensure the grammatical form differs (e.g., noun vs. verb).",
+     "a": "Postal: \"The morning **dispatch** (noun) of registered letters left the post office before dawn.\" (Refers to the official batch sent off). Administrative: \"The manager **dispatched** (verb) a team to inspect the flooded warehouse immediately.\" (Refers to sending people urgently). A good answer shows distinct grammatical forms and context-appropriate collocations (\"dispatch of letters\", \"dispatched a team\"). A poor answer uses the same structure for both (e.g., both verbs) or uses \"dispatch\" loosely as \"send\" without the nuance of *official, organized, speedy sending*, showing shallow lexical knowledge.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

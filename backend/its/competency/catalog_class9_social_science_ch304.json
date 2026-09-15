@@ -1,0 +1,1219 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 304,
+ "chapter_title": "Forest Society and Colonialism",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gees104.txt",
+ "concepts": [
+  {
+   "id": "iess.304.1.1",
+   "title": "Expansion of Agriculture and Land Improvement",
+   "section": "1.1",
+   "definition": "The colonial strategy of clearing forests to extend cultivated fields for cash crops and maximize state land revenue.",
+   "formula": "",
+   "key_idea": "Forest clearance driven by demographic pressure, commercial crop demands, and revenue generation.",
+   "textbook_ref": "iess304.txt lines 65-95",
+   "question_patterns": [
+    "explain why the British colonial administration encouraged agricultural expansion",
+    "what were the main causes of land clearance for farming in colonial India",
+    "discuss how demand for commercial crops led to deforestation",
+    "how did colonial revenue policies promote the transformation of forests into farmland",
+    "describe the reasons for expanding cultivation between 1880 and 1920"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify commercial crop demands",
+     "explain": "Europe required foodgrains like wheat and industrial raw materials like jute, sugar, and cotton."
+    },
+    {
+     "step": 2,
+     "action": "Analyze state revenue motives",
+     "explain": "Colonial authorities viewed natural uncultivated forests as unproductive wilderness yielding no tax income."
+    },
+    {
+     "step": 3,
+     "action": "Conclude impact on forest land",
+     "explain": "Expanding farmland directly resulted in extensive woodland clearing across India."
+    }
+   ]
+  },
+  {
+   "id": "iess.304.1.2",
+   "title": "Railway Sleepers and Timber Demand Calculation",
+   "section": "1.2",
+   "definition": "Quantifying timber volume and tree requirement for railway track construction based on track mileage, sleeper density, and tree yield.",
+   "formula": "trees_needed = (track_miles * sleepers_per_mile) / sleepers_per_tree",
+   "key_idea": "Determining tree felling requirements for railway sleepers across defined track distances.",
+   "textbook_ref": "iess304.txt lines 100-125",
+   "question_patterns": [
+    "calculate the number of trees required to lay a given length of railway track",
+    "find how many trees must be cut for laying sleepers across a track of distance miles",
+    "determine the total tree demand for railway sleepers given track distance and yield",
+    "how many trees are needed to supply sleepers for a railway line of specified length",
+    "compute the required number of felled trees for a railway track section"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate total sleepers required for track distance",
+     "explain": "Multiply track distance in miles by the required number of sleepers per mile.",
+     "compute": "total_sleepers = track_miles * sleepers_per_mile"
+    },
+    {
+     "step": 2,
+     "action": "Calculate total trees needed to yield sleepers",
+     "explain": "Divide total required sleepers by average sleepers yielded per tree.",
+     "compute": "trees_needed = total_sleepers / sleepers_per_tree"
+    }
+   ]
+  },
+  {
+   "id": "iess.304.1.3",
+   "title": "Expansion of Commercial Plantations",
+   "section": "1.3",
+   "definition": "The conversion of natural woodlands into large single-crop estates to meet European market demands for tea, coffee, and rubber.",
+   "formula": "",
+   "key_idea": "Enclosure and clearing of natural forests for European commercial plantation owners.",
+   "textbook_ref": "iess304.txt lines 130-145",
+   "question_patterns": [
+    "explain the growth of tea coffee and rubber plantations under colonial rule",
+    "how did European commodity demands drive the clearing of natural forests",
+    "describe the takeover of forest lands for commercial plantation farming",
+    "what factors led colonial authorities to grant vast forest tracks to European planters",
+    "analyse the impact of cash crop plantation estates on natural forest cover"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify European market needs",
+     "explain": "European markets demanded rising supplies of tea, coffee, and rubber."
+    },
+    {
+     "step": 2,
+     "action": "Examine colonial land allocation",
+     "explain": "The British administration acquired forests and leased cheap land parcels to European planters."
+    },
+    {
+     "step": 3,
+     "action": "Summarize ecological transformation",
+     "explain": "Diverse wild forests were enclosed and replaced with monoculture plantation crops."
+    }
+   ]
+  },
+  {
+   "id": "iess.304.2.0",
+   "title": "Scientific Forestry and Legal Frameworks",
+   "section": "2.0",
+   "definition": "A state-regulated forest management regime focusing on timber production through systematic harvesting, replanting, and statutory enactments.",
+   "formula": "",
+   "key_idea": "Replacing diverse natural forests with controlled single-species plantations under strict state legislation.",
+   "textbook_ref": "iess304.txt lines 150-180",
+   "question_patterns": [
+    "explain what is meant by scientific forestry introduced during the British period",
+    "how did the Indian Forest Act of 1865 and its amendments classify forest lands",
+    "discuss the role of Dietrich Brandis in establishing colonial forest management",
+    "what was the primary objective of creating reserved and protected forest categories",
+    "describe how the Imperial Forest Research Institute promoted commercial forestry"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define scientific forestry principles",
+     "explain": "Natural mixed forests were cleared and replanted with single species like teak or sal in straight rows."
+    },
+    {
+     "step": 2,
+     "action": "Detail institutional and legal milestones",
+     "explain": "Dietrich Brandis established the Indian Forest Service in 1864 and helped draft the Forest Act of 1865."
+    },
+    {
+     "step": 3,
+     "action": "Outline forest classification",
+     "explain": "The 1878 Act categorized forests into reserved, protected, and village forests."
+    }
+   ]
+  },
+  {
+   "id": "iess.304.2.1",
+   "title": "Impact of Colonial Forest Laws on Rural Life",
+   "section": "2.1",
+   "definition": "The severe disruption of traditional rural livelihoods resulting from state restrictions on gathering forest products, grazing, and wood collection.",
+   "formula": "",
+   "key_idea": "Criminalization of everyday forest access leading to hardship and harassment for rural villagers.",
+   "textbook_ref": "iess304.txt lines 185-220",
+   "question_patterns": [
+    "how did colonial forest acts affect the daily lives of villagers and forest dwellers",
+    "explain why gathering fuelwood and grazing livestock became illegal under British rule",
+    "describe the hardships faced by women and forest communities due to forest laws",
+    "what were the conflicting views of foresters and villagers regarding ideal forests",
+    "discuss how local people adapted to restrictions on collecting forest produce"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Contrast forester and villager needs",
+     "explain": "Villagers preferred multi-species forests for fruit, fuel, and fodder, whereas foresters sought tall straight timber trees."
+    },
+    {
+     "step": 2,
+     "action": "Identify prohibited customary practices",
+     "explain": "Cutting house wood, grazing cattle, gathering fruits, and fishing became illegal offences."
+    },
+    {
+     "step": 3,
+     "action": "Describe social consequences",
+     "explain": "Villagers faced extortion, bribery, and harassment from forest guards and police officials."
+    }
+   ]
+  },
+  {
+   "id": "iess.304.2.2",
+   "title": "Ban on Shifting Cultivation",
+   "section": "2.2",
+   "definition": "The legal prohibition of swidden agriculture due to colonial concerns over timber damage, fire risks, and tax collection difficulties.",
+   "formula": "",
+   "key_idea": "Prohibition of rotational forest burning leading to displacement and forced occupational changes.",
+   "textbook_ref": "iess304.txt lines 225-250",
+   "question_patterns": [
+    "why did European colonial authorities decide to ban shifting cultivation",
+    "explain the process and local terms used for swidden agriculture in different regions",
+    "how did the ban on shifting farming displace indigenous communities from forests",
+    "what arguments did colonial foresters present against rotational forest burning",
+    "describe how forest communities resisted the prohibition of swidden agriculture"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe swidden agriculture methods",
+     "explain": "Plots were cut and burnt in rotation, sowed with mixed seeds after rain, and left fallow for 12 to 18 years."
+    },
+    {
+     "step": 2,
+     "action": "Explain colonial administrative objections",
+     "explain": "Foresters feared fire damage to timber trees and faced difficulties assessing land tax on moving plots."
+    },
+    {
+     "step": 3,
+     "action": "State social consequences",
+     "explain": "Forest dwellers were forcibly displaced, forced into new livelihoods, or driven to armed rebellion."
+    }
+   ]
+  },
+  {
+   "id": "iess.304.2.3",
+   "title": "Control of Hunting and Big Game Sports",
+   "section": "2.3",
+   "definition": "The suppression of customary subsistence hunting alongside the institutionalized slaughter of wild animals for colonial sports rewards.",
+   "formula": "",
+   "key_idea": "Outlawing local subsistence hunting while promoting large-scale commercial and elite hunting.",
+   "textbook_ref": "iess304.txt lines 255-285",
+   "question_patterns": [
+    "how did British forest legislation alter traditional hunting rights of local dwellers",
+    "explain the distinction between illegal poaching by villagers and colonial sport hunting",
+    "what reasons were given by the British administration for rewarding tiger extermination",
+    "describe how extensive hunting of large animals affected wildlife populations",
+    "discuss the transition from elite sport hunting to modern wildlife conservation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain prohibition of local subsistence hunting",
+     "explain": "Customary hunting of deer and small game by forest dwellers was banned as poaching."
+    },
+    {
+     "step": 2,
+     "action": "Analyze state incentives for killing large beasts",
+     "explain": "The British considered dangerous predators signs of wildness and offered cash rewards to exterminate them."
+    },
+    {
+     "step": 3,
+     "action": "Highlight ecological consequences",
+     "explain": "Tens of thousands of tigers, leopards, and wolves were slaughtered, bringing species near extinction."
+    }
+   ]
+  },
+  {
+   "id": "iess.304.2.4",
+   "title": "Commercial Trade, Forced Labor, and Social Displacement",
+   "section": "2.4",
+   "definition": "The monopolization of forest trade by European corporations and the subjugation of pastoralists and tribal groups into commercial plantation labor.",
+   "formula": "",
+   "key_idea": "State control of forest commerce resulting in criminalization of nomadic groups and harsh labor conditions.",
+   "textbook_ref": "iess304.txt lines 290-325",
+   "question_patterns": [
+    "how did colonial forest trade policies impact traditional nomadic trade networks",
+    "explain why certain pastoral communities were designated as criminal tribes",
+    "describe the working conditions of recruited tribal laborers in tea plantations",
+    "what was the impact of European corporate monopolies on forest commodity trade",
+    "discuss how indigenous groups like the Mundurucu adapted to commercial rubber collection"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Detail state trade regulation",
+     "explain": "The colonial government awarded exclusive monopoly trade rights over forest produce to large European firms."
+    },
+    {
+     "step": 2,
+     "action": "Explain criminalization of nomadic communities",
+     "explain": "Pastoral groups like Korava and Karacha lost grazing rights and were branded as criminal tribes forced into factory labor."
+    },
+    {
+     "step": 3,
+     "action": "Examine plantation recruitment",
+     "explain": "Adivasis recruited for Assam tea gardens suffered low wages, bad living conditions, and restricted movement."
+    }
+   ]
+  },
+  {
+   "id": "iess.304.3.1",
+   "title": "Community Beliefs and Resource Sharing in Bastar",
+   "section": "3.1",
+   "definition": "The customary ecological practices and spiritual beliefs governing land stewardship, boundary respect, and resource payments among Bastar tribes.",
+   "formula": "",
+   "key_idea": "Sacred reverence for nature and structured village inter-community resource management.",
+   "textbook_ref": "iess304.txt lines 330-355",
+   "question_patterns": [
+    "describe the cultural beliefs and community governance of forest resources in Bastar",
+    "what customary fees like devsari or dand were paid for using another village forest",
+    "explain how tribal communities in Bastar protected their territorial forest boundaries",
+    "how did the people of Bastar express respect to earth and natural spirits",
+    "what role did pargana level headmen meetings play in Bastar forest administration"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Outline spiritual beliefs",
+     "explain": "Bastar communities believed land was bestowed by Earth and made offerings at seasonal festivals."
+    },
+    {
+     "step": 2,
+     "action": "Explain boundary resource rules",
+     "explain": "Taking wood from another village required paying small customary fees termed devsari, dand, or man."
+    },
+    {
+     "step": 3,
+     "action": "Describe village forest protection",
+     "explain": "Villages hired watchmen funded by grain contributions and held annual pargana headmen assemblies."
+    }
+   ]
+  },
+  {
+   "id": "iess.304.3.2",
+   "title": "The Bastar Rebellion of 1910",
+   "section": "3.2",
+   "definition": "An armed tribal uprising against forest reservations, land rent increases, forced labor, and famine conditions in Bastar.",
+   "formula": "",
+   "key_idea": "Collective tribal mobilization through symbolic messages leading to the reduction of reserved forest areas.",
+   "textbook_ref": "iess304.txt lines 360-405",
+   "question_patterns": [
+    "what primary grievances triggered the Bastar rebellion of 1910",
+    "explain how symbols like mango boughs and chillies were used to organize the Bastar revolt",
+    "describe the key events and actions taken by rebels during the 1910 Bastar uprising",
+    "how did British forces respond to suppress the Bastar forest movement",
+    "what were the main outcomes and concessions gained by the Bastar rebels"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify rebellion causes",
+     "explain": "Proposal to reserve two-thirds of forest in 1905, forced labor, rising rent, and famines triggered intense anger."
+    },
+    {
+     "step": 2,
+     "action": "Describe secret mobilization",
+     "explain": "Mango boughs, lumps of earth, chillies, and arrows circulated across villages under leadership like Gunda Dhur."
+    },
+    {
+     "step": 3,
+     "action": "Summarize British response and concessions",
+     "explain": "British troops suppressed the revolt after three months, but temporarily suspended reservation and halved the target area."
+    }
+   ]
+  },
+  {
+   "id": "iess.304.4.1",
+   "title": "The Kalangs of Java and Colonial Forest Control",
+   "section": "4.1",
+   "definition": "The resistance of Java's skilled woodcutting community against forced labor and Dutch state control over teak forests.",
+   "formula": "",
+   "key_idea": "Expertise of Kalang timber workers and their armed opposition to Dutch colonial authority.",
+   "textbook_ref": "iess304.txt lines 410-440",
+   "question_patterns": [
+    "who were the Kalangs of Java and why were they valuable to local rulers",
+    "how did the Dutch attempt to control Kalang woodcutters for teak harvesting",
+    "describe the resistance of Kalangs against Dutch colonial rule in 1770",
+    "what restrictions were imposed on Javanese villagers under Dutch forest laws",
+    "explain the socio-economic importance of skilled timber cutters in Java"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the Kalang community",
+     "explain": "The Kalangs were expert forest cutters and shifting cultivators split between Javanese kingdoms in 1755."
+    },
+    {
+     "step": 2,
+     "action": "Explain Dutch attempts at control",
+     "explain": "When the Dutch asserted forest dominance, they forced Kalangs to harvest teak exclusively for colonial needs."
+    },
+    {
+     "step": 3,
+     "action": "Recount Kalang resistance",
+     "explain": "In 1770, Kalangs staged an armed uprising by attacking a Dutch fort at Joana before being suppressed."
+    }
+   ]
+  },
+  {
+   "id": "iess.304.4.2",
+   "title": "Dutch Blandongdiensten System and Scientific Forestry",
+   "section": "4.2",
+   "definition": "A colonial labor system in Java exchanging forest land rent exemptions for compulsory timber extraction and haulage work.",
+   "formula": "",
+   "key_idea": "Forced labor obligations imposed on Javanese forest villages for teak extraction.",
+   "textbook_ref": "iess304.txt lines 445-465",
+   "question_patterns": [
+    "explain the working mechanism of the Dutch blandongdiensten system in Java",
+    "how did the Dutch forest service organize teak timber extraction for railways and ships",
+    "what was the transition from rent exemption to small wage labor in Javanese forest management",
+    "describe the regulations imposed by Dutch scientific forestry on Javanese peasants",
+    "compare Dutch forest management in Java with British forest policies in India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define blandongdiensten system",
+     "explain": "The Dutch levied rents on forest land and exempted specific villages if they provided free timber felling labor and buffaloes."
+    },
+    {
+     "step": 2,
+     "action": "Explain evolution of labor control",
+     "explain": "Rent exemptions were later replaced by minimal wages alongside tight restrictions on land cultivation."
+    },
+    {
+     "step": 3,
+     "action": "Summarize state restrictions",
+     "explain": "Villagers were penalized for grazing cattle, carrying wood without permits, or driving carts on forest roads."
+    }
+   ]
+  },
+  {
+   "id": "iess.304.4.3",
+   "title": "The Saminist Movement in Java",
+   "section": "4.3",
+   "definition": "A non-violent anti-colonial movement led by Surontiko Samin challenging state ownership of natural elements and forest land.",
+   "formula": "",
+   "key_idea": "Passive resistance against state land ownership, taxation, and compulsory labor in Java.",
+   "textbook_ref": "iess304.txt lines 470-490",
+   "question_patterns": [
+    "what core arguments were raised by Surontiko Samin against Dutch forest ownership",
+    "explain the non-violent methods of protest used by Saminists in Java",
+    "how did Surontiko Samin organize villagers to oppose colonial land surveys and taxes",
+    "describe the spread and influence of the Saminist movement in teak forest villages",
+    "discuss why Samin questioned state claims over wind water earth and wood"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain Saminist philosophy",
+     "explain": "Surontiko Samin argued that since the state did not create earth, water, wind, or wood, it could not own them."
+    },
+    {
+     "step": 2,
+     "action": "Identify protest strategies",
+     "explain": "Protesters lay down on land during surveys, refused to pay taxes or fines, and rejected forced labor."
+    },
+    {
+     "step": 3,
+     "action": "Highlight movement growth",
+     "explain": "By 1907, over 3,000 families adopted Saminist principles across Randublatung teak forest villages."
+    }
+   ]
+  },
+  {
+   "id": "iess.304.4.4",
+   "title": "Wartime Deforestation and Community Participatory Forestry",
+   "section": "4.4",
+   "definition": "The destruction of global forest ecosystems during World Wars and the shift towards community-based participatory forest conservation.",
+   "formula": "",
+   "key_idea": "Scorched earth tactics and reckless war exploitation yielding to local community forest management.",
+   "textbook_ref": "iess304.txt lines 495-535",
+   "question_patterns": [
+    "how did the First World War and Second World War accelerate global deforestation",
+    "explain the Dutch scorched earth policy implemented in Java before Japanese occupation",
+    "what was the impact of Japanese war industries on Indonesian teak forests",
+    "describe recent developments in forestry that involve local communities in conservation",
+    "how do sacred groves like sarnas help preserve biodiversity in local forest regions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze wartime deforestation impacts",
+     "explain": "Working plans were abandoned; the Dutch burned giant teak logs under scorched earth policy, and Japanese forces logged recklessly."
+    },
+    {
+     "step": 2,
+     "action": "Identify failures of state exclusion policies",
+     "explain": "Scientific forestry caused endless conflicts with communities needing agricultural land."
+    },
+    {
+     "step": 3,
+     "action": "Explain modern community conservation",
+     "explain": "Governments now involve local inhabitants, recognizing traditional sacred groves like sarnas and village patrols."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Page 81, Activity calculation",
+   "concept": "iess.304.1.2",
+   "question_type": "compute",
+   "question_pattern": "calculate the number of trees required to lay {track_miles} miles of railway track if each mile needs {sleepers_per_mile} sleepers and each tree yields {sleepers_per_tree} sleepers",
+   "extracted_variables": {
+    "track_miles": 1,
+    "sleepers_per_mile": 2000,
+    "sleepers_per_tree": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate total sleepers required for track distance",
+     "explain": "Multiply track distance in miles by the required number of sleepers per mile.",
+     "compute": "total_sleepers = track_miles * sleepers_per_mile"
+    },
+    {
+     "step": 2,
+     "action": "Calculate total trees needed to yield sleepers",
+     "explain": "Divide total required sleepers by average sleepers yielded per tree.",
+     "compute": "trees_needed = total_sleepers / sleepers_per_tree"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Page 81, Source B line calculation",
+   "concept": "iess.304.1.2",
+   "question_type": "compute",
+   "question_pattern": "find how many trees must be cut for laying sleepers across a track of {track_miles} miles given {sleepers_per_mile} sleepers per mile and {sleepers_per_tree} sleepers per tree",
+   "extracted_variables": {
+    "track_miles": 300,
+    "sleepers_per_mile": 2000,
+    "sleepers_per_tree": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate total sleepers required for track distance",
+     "explain": "Multiply track distance in miles by the required number of sleepers per mile.",
+     "compute": "total_sleepers = track_miles * sleepers_per_mile"
+    },
+    {
+     "step": 2,
+     "action": "Calculate total trees needed to yield sleepers",
+     "explain": "Divide total required sleepers by average sleepers yielded per tree.",
+     "compute": "trees_needed = total_sleepers / sleepers_per_tree"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.304.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "explain why the British colonial administration encouraged agricultural expansion",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify commercial crop demands",
+     "explain": "Europe required foodgrains like wheat and industrial raw materials like jute, sugar, and cotton."
+    },
+    {
+     "step": 2,
+     "action": "Analyze state revenue motives",
+     "explain": "Colonial authorities viewed natural uncultivated forests as unproductive wilderness yielding no tax income."
+    },
+    {
+     "step": 3,
+     "action": "Conclude impact on forest land",
+     "explain": "Expanding farmland directly resulted in extensive woodland clearing across India."
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.304.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "what were the main causes of land clearance for farming in colonial India",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify commercial crop demands",
+     "explain": "Europe required foodgrains like wheat and industrial raw materials like jute, sugar, and cotton."
+    },
+    {
+     "step": 2,
+     "action": "Analyze state revenue motives",
+     "explain": "Colonial authorities viewed natural uncultivated forests as unproductive wilderness yielding no tax income."
+    },
+    {
+     "step": 3,
+     "action": "Conclude impact on forest land",
+     "explain": "Expanding farmland directly resulted in extensive woodland clearing across India."
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.304.1.3",
+   "question_type": "verify_property",
+   "question_pattern": "explain the growth of tea coffee and rubber plantations under colonial rule",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify European market needs",
+     "explain": "European markets demanded rising supplies of tea, coffee, and rubber."
+    },
+    {
+     "step": 2,
+     "action": "Examine colonial land allocation",
+     "explain": "The British administration acquired forests and leased cheap land parcels to European planters."
+    },
+    {
+     "step": 3,
+     "action": "Summarize ecological transformation",
+     "explain": "Diverse wild forests were enclosed and replaced with monoculture plantation crops."
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.304.1.3",
+   "question_type": "verify_property",
+   "question_pattern": "how did European commodity demands drive the clearing of natural forests",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify European market needs",
+     "explain": "European markets demanded rising supplies of tea, coffee, and rubber."
+    },
+    {
+     "step": 2,
+     "action": "Examine colonial land allocation",
+     "explain": "The British administration acquired forests and leased cheap land parcels to European planters."
+    },
+    {
+     "step": 3,
+     "action": "Summarize ecological transformation",
+     "explain": "Diverse wild forests were enclosed and replaced with monoculture plantation crops."
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.304.2.0",
+   "question_type": "verify_property",
+   "question_pattern": "explain what is meant by scientific forestry introduced during the British period",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define scientific forestry principles",
+     "explain": "Natural mixed forests were cleared and replanted with single species like teak or sal in straight rows."
+    },
+    {
+     "step": 2,
+     "action": "Detail institutional and legal milestones",
+     "explain": "Dietrich Brandis established the Indian Forest Service in 1864 and helped draft the Forest Act of 1865."
+    },
+    {
+     "step": 3,
+     "action": "Outline forest classification",
+     "explain": "The 1878 Act categorized forests into reserved, protected, and village forests."
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.304.2.0",
+   "question_type": "verify_property",
+   "question_pattern": "how did the Indian Forest Act of 1865 and its amendments classify forest lands",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define scientific forestry principles",
+     "explain": "Natural mixed forests were cleared and replanted with single species like teak or sal in straight rows."
+    },
+    {
+     "step": 2,
+     "action": "Detail institutional and legal milestones",
+     "explain": "Dietrich Brandis established the Indian Forest Service in 1864 and helped draft the Forest Act of 1865."
+    },
+    {
+     "step": 3,
+     "action": "Outline forest classification",
+     "explain": "The 1878 Act categorized forests into reserved, protected, and village forests."
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.304.2.1",
+   "question_type": "verify_property",
+   "question_pattern": "how did colonial forest acts affect the daily lives of villagers and forest dwellers",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Contrast forester and villager needs",
+     "explain": "Villagers preferred multi-species forests for fruit, fuel, and fodder, whereas foresters sought tall straight timber trees."
+    },
+    {
+     "step": 2,
+     "action": "Identify prohibited customary practices",
+     "explain": "Cutting house wood, grazing cattle, gathering fruits, and fishing became illegal offences."
+    },
+    {
+     "step": 3,
+     "action": "Describe social consequences",
+     "explain": "Villagers faced extortion, bribery, and harassment from forest guards and police officials."
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.304.2.1",
+   "question_type": "verify_property",
+   "question_pattern": "explain why gathering fuelwood and grazing livestock became illegal under British rule",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Contrast forester and villager needs",
+     "explain": "Villagers preferred multi-species forests for fruit, fuel, and fodder, whereas foresters sought tall straight timber trees."
+    },
+    {
+     "step": 2,
+     "action": "Identify prohibited customary practices",
+     "explain": "Cutting house wood, grazing cattle, gathering fruits, and fishing became illegal offences."
+    },
+    {
+     "step": 3,
+     "action": "Describe social consequences",
+     "explain": "Villagers faced extortion, bribery, and harassment from forest guards and police officials."
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.304.2.2",
+   "question_type": "verify_property",
+   "question_pattern": "why did European colonial authorities decide to ban shifting cultivation",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Describe swidden agriculture methods",
+     "explain": "Plots were cut and burnt in rotation, sowed with mixed seeds after rain, and left fallow for 12 to 18 years."
+    },
+    {
+     "step": 2,
+     "action": "Explain colonial administrative objections",
+     "explain": "Foresters feared fire damage to timber trees and faced difficulties assessing land tax on moving plots."
+    },
+    {
+     "step": 3,
+     "action": "State social consequences",
+     "explain": "Forest dwellers were forcibly displaced, forced into new livelihoods, or driven to armed rebellion."
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.304.2.2",
+   "question_type": "verify_property",
+   "question_pattern": "explain the process and local terms used for swidden agriculture in different regions",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Describe swidden agriculture methods",
+     "explain": "Plots were cut and burnt in rotation, sowed with mixed seeds after rain, and left fallow for 12 to 18 years."
+    },
+    {
+     "step": 2,
+     "action": "Explain colonial administrative objections",
+     "explain": "Foresters feared fire damage to timber trees and faced difficulties assessing land tax on moving plots."
+    },
+    {
+     "step": 3,
+     "action": "State social consequences",
+     "explain": "Forest dwellers were forcibly displaced, forced into new livelihoods, or driven to armed rebellion."
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.304.2.3",
+   "question_type": "verify_property",
+   "question_pattern": "how did British forest legislation alter traditional hunting rights of local dwellers",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Explain prohibition of local subsistence hunting",
+     "explain": "Customary hunting of deer and small game by forest dwellers was banned as poaching."
+    },
+    {
+     "step": 2,
+     "action": "Analyze state incentives for killing large beasts",
+     "explain": "The British considered dangerous predators signs of wildness and offered cash rewards to exterminate them."
+    },
+    {
+     "step": 3,
+     "action": "Highlight ecological consequences",
+     "explain": "Tens of thousands of tigers, leopards, and wolves were slaughtered, bringing species near extinction."
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.304.2.3",
+   "question_type": "verify_property",
+   "question_pattern": "explain the distinction between illegal poaching by villagers and colonial sport hunting",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Explain prohibition of local subsistence hunting",
+     "explain": "Customary hunting of deer and small game by forest dwellers was banned as poaching."
+    },
+    {
+     "step": 2,
+     "action": "Analyze state incentives for killing large beasts",
+     "explain": "The British considered dangerous predators signs of wildness and offered cash rewards to exterminate them."
+    },
+    {
+     "step": 3,
+     "action": "Highlight ecological consequences",
+     "explain": "Tens of thousands of tigers, leopards, and wolves were slaughtered, bringing species near extinction."
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.304.2.4",
+   "question_type": "verify_property",
+   "question_pattern": "how did colonial forest trade policies impact traditional nomadic trade networks",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Detail state trade regulation",
+     "explain": "The colonial government awarded exclusive monopoly trade rights over forest produce to large European firms."
+    },
+    {
+     "step": 2,
+     "action": "Explain criminalization of nomadic communities",
+     "explain": "Pastoral groups like Korava and Karacha lost grazing rights and were branded as criminal tribes forced into factory labor."
+    },
+    {
+     "step": 3,
+     "action": "Examine plantation recruitment",
+     "explain": "Adivasis recruited for Assam tea gardens suffered low wages, bad living conditions, and restricted movement."
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.304.2.4",
+   "question_type": "verify_property",
+   "question_pattern": "explain why certain pastoral communities were designated as criminal tribes",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Detail state trade regulation",
+     "explain": "The colonial government awarded exclusive monopoly trade rights over forest produce to large European firms."
+    },
+    {
+     "step": 2,
+     "action": "Explain criminalization of nomadic communities",
+     "explain": "Pastoral groups like Korava and Karacha lost grazing rights and were branded as criminal tribes forced into factory labor."
+    },
+    {
+     "step": 3,
+     "action": "Examine plantation recruitment",
+     "explain": "Adivasis recruited for Assam tea gardens suffered low wages, bad living conditions, and restricted movement."
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.304.3.1",
+   "question_type": "verify_property",
+   "question_pattern": "describe the cultural beliefs and community governance of forest resources in Bastar",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Outline spiritual beliefs",
+     "explain": "Bastar communities believed land was bestowed by Earth and made offerings at seasonal festivals."
+    },
+    {
+     "step": 2,
+     "action": "Explain boundary resource rules",
+     "explain": "Taking wood from another village required paying small customary fees termed devsari, dand, or man."
+    },
+    {
+     "step": 3,
+     "action": "Describe village forest protection",
+     "explain": "Villages hired watchmen funded by grain contributions and held annual pargana headmen assemblies."
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.304.3.1",
+   "question_type": "verify_property",
+   "question_pattern": "what customary fees like devsari or dand were paid for using another village forest",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Outline spiritual beliefs",
+     "explain": "Bastar communities believed land was bestowed by Earth and made offerings at seasonal festivals."
+    },
+    {
+     "step": 2,
+     "action": "Explain boundary resource rules",
+     "explain": "Taking wood from another village required paying small customary fees termed devsari, dand, or man."
+    },
+    {
+     "step": 3,
+     "action": "Describe village forest protection",
+     "explain": "Villages hired watchmen funded by grain contributions and held annual pargana headmen assemblies."
+    }
+   ]
+  },
+  {
+   "id": "ex19",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.304.3.2",
+   "question_type": "verify_property",
+   "question_pattern": "what primary grievances triggered the Bastar rebellion of 1910",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify rebellion causes",
+     "explain": "Proposal to reserve two-thirds of forest in 1905, forced labor, rising rent, and famines triggered intense anger."
+    },
+    {
+     "step": 2,
+     "action": "Describe secret mobilization",
+     "explain": "Mango boughs, lumps of earth, chillies, and arrows circulated across villages under leadership like Gunda Dhur."
+    },
+    {
+     "step": 3,
+     "action": "Summarize British response and concessions",
+     "explain": "British troops suppressed the revolt after three months, but temporarily suspended reservation and halved the target area."
+    }
+   ]
+  },
+  {
+   "id": "ex20",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.304.3.2",
+   "question_type": "verify_property",
+   "question_pattern": "explain how symbols like mango boughs and chillies were used to organize the Bastar revolt",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify rebellion causes",
+     "explain": "Proposal to reserve two-thirds of forest in 1905, forced labor, rising rent, and famines triggered intense anger."
+    },
+    {
+     "step": 2,
+     "action": "Describe secret mobilization",
+     "explain": "Mango boughs, lumps of earth, chillies, and arrows circulated across villages under leadership like Gunda Dhur."
+    },
+    {
+     "step": 3,
+     "action": "Summarize British response and concessions",
+     "explain": "British troops suppressed the revolt after three months, but temporarily suspended reservation and halved the target area."
+    }
+   ]
+  },
+  {
+   "id": "ex21",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.304.4.1",
+   "question_type": "verify_property",
+   "question_pattern": "who were the Kalangs of Java and why were they valuable to local rulers",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Describe the Kalang community",
+     "explain": "The Kalangs were expert forest cutters and shifting cultivators split between Javanese kingdoms in 1755."
+    },
+    {
+     "step": 2,
+     "action": "Explain Dutch attempts at control",
+     "explain": "When the Dutch asserted forest dominance, they forced Kalangs to harvest teak exclusively for colonial needs."
+    },
+    {
+     "step": 3,
+     "action": "Recount Kalang resistance",
+     "explain": "In 1770, Kalangs staged an armed uprising by attacking a Dutch fort at Joana before being suppressed."
+    }
+   ]
+  },
+  {
+   "id": "ex22",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.304.4.1",
+   "question_type": "verify_property",
+   "question_pattern": "how did the Dutch attempt to control Kalang woodcutters for teak harvesting",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Describe the Kalang community",
+     "explain": "The Kalangs were expert forest cutters and shifting cultivators split between Javanese kingdoms in 1755."
+    },
+    {
+     "step": 2,
+     "action": "Explain Dutch attempts at control",
+     "explain": "When the Dutch asserted forest dominance, they forced Kalangs to harvest teak exclusively for colonial needs."
+    },
+    {
+     "step": 3,
+     "action": "Recount Kalang resistance",
+     "explain": "In 1770, Kalangs staged an armed uprising by attacking a Dutch fort at Joana before being suppressed."
+    }
+   ]
+  },
+  {
+   "id": "ex23",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.304.4.2",
+   "question_type": "verify_property",
+   "question_pattern": "explain the working mechanism of the Dutch blandongdiensten system in Java",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define blandongdiensten system",
+     "explain": "The Dutch levied rents on forest land and exempted specific villages if they provided free timber felling labor and buffaloes."
+    },
+    {
+     "step": 2,
+     "action": "Explain evolution of labor control",
+     "explain": "Rent exemptions were later replaced by minimal wages alongside tight restrictions on land cultivation."
+    },
+    {
+     "step": 3,
+     "action": "Summarize state restrictions",
+     "explain": "Villagers were penalized for grazing cattle, carrying wood without permits, or driving carts on forest roads."
+    }
+   ]
+  },
+  {
+   "id": "ex24",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.304.4.2",
+   "question_type": "verify_property",
+   "question_pattern": "how did the Dutch forest service organize teak timber extraction for railways and ships",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define blandongdiensten system",
+     "explain": "The Dutch levied rents on forest land and exempted specific villages if they provided free timber felling labor and buffaloes."
+    },
+    {
+     "step": 2,
+     "action": "Explain evolution of labor control",
+     "explain": "Rent exemptions were later replaced by minimal wages alongside tight restrictions on land cultivation."
+    },
+    {
+     "step": 3,
+     "action": "Summarize state restrictions",
+     "explain": "Villagers were penalized for grazing cattle, carrying wood without permits, or driving carts on forest roads."
+    }
+   ]
+  },
+  {
+   "id": "ex25",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.304.4.3",
+   "question_type": "verify_property",
+   "question_pattern": "what core arguments were raised by Surontiko Samin against Dutch forest ownership",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Explain Saminist philosophy",
+     "explain": "Surontiko Samin argued that since the state did not create earth, water, wind, or wood, it could not own them."
+    },
+    {
+     "step": 2,
+     "action": "Identify protest strategies",
+     "explain": "Protesters lay down on land during surveys, refused to pay taxes or fines, and rejected forced labor."
+    },
+    {
+     "step": 3,
+     "action": "Highlight movement growth",
+     "explain": "By 1907, over 3,000 families adopted Saminist principles across Randublatung teak forest villages."
+    }
+   ]
+  },
+  {
+   "id": "ex26",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.304.4.3",
+   "question_type": "verify_property",
+   "question_pattern": "explain the non-violent methods of protest used by Saminists in Java",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Explain Saminist philosophy",
+     "explain": "Surontiko Samin argued that since the state did not create earth, water, wind, or wood, it could not own them."
+    },
+    {
+     "step": 2,
+     "action": "Identify protest strategies",
+     "explain": "Protesters lay down on land during surveys, refused to pay taxes or fines, and rejected forced labor."
+    },
+    {
+     "step": 3,
+     "action": "Highlight movement growth",
+     "explain": "By 1907, over 3,000 families adopted Saminist principles across Randublatung teak forest villages."
+    }
+   ]
+  },
+  {
+   "id": "ex27",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.304.4.4",
+   "question_type": "verify_property",
+   "question_pattern": "how did the First World War and Second World War accelerate global deforestation",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze wartime deforestation impacts",
+     "explain": "Working plans were abandoned; the Dutch burned giant teak logs under scorched earth policy, and Japanese forces logged recklessly."
+    },
+    {
+     "step": 2,
+     "action": "Identify failures of state exclusion policies",
+     "explain": "Scientific forestry caused endless conflicts with communities needing agricultural land."
+    },
+    {
+     "step": 3,
+     "action": "Explain modern community conservation",
+     "explain": "Governments now involve local inhabitants, recognizing traditional sacred groves like sarnas and village patrols."
+    }
+   ]
+  },
+  {
+   "id": "ex28",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.304.4.4",
+   "question_type": "verify_property",
+   "question_pattern": "explain the Dutch scorched earth policy implemented in Java before Japanese occupation",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze wartime deforestation impacts",
+     "explain": "Working plans were abandoned; the Dutch burned giant teak logs under scorched earth policy, and Japanese forces logged recklessly."
+    },
+    {
+     "step": 2,
+     "action": "Identify failures of state exclusion policies",
+     "explain": "Scientific forestry caused endless conflicts with communities needing agricultural land."
+    },
+    {
+     "step": 3,
+     "action": "Explain modern community conservation",
+     "explain": "Governments now involve local inhabitants, recognizing traditional sacred groves like sarnas and village patrols."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex96.1",
+   "source_ref": "Page 96, Question 1",
+   "questions": [
+    "Discuss how the changes in forest management in the colonial period affected the following groups of people: Shifting cultivators, Nomadic and pastoralist communities, Firms trading in timber/forest produce, Plantation owners, Kings/British officials engaged in shikar (hunting)."
+   ]
+  },
+  {
+   "id": "ex96.2",
+   "source_ref": "Page 96, Question 2",
+   "questions": [
+    "What are the similarities between colonial management of the forests in Bastar and in Java?"
+   ]
+  },
+  {
+   "id": "ex96.3",
+   "source_ref": "Page 96, Question 3",
+   "questions": [
+    "Between 1880 and 1920, forest cover in the Indian subcontinent declined by 9.7 million hectares, from 108.6 million hectares to 98.9 million hectares. Discuss the role of the following factors in this decline: Railways, Shipbuilding, Agricultural expansion, Commercial farming, Tea/Coffee plantations, Adivasis and other peasant users."
+   ]
+  },
+  {
+   "id": "ex96.4",
+   "source_ref": "Page 96, Question 4",
+   "questions": [
+    "Why are forests affected by wars?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

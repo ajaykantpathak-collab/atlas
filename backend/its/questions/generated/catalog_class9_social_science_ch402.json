@@ -1,0 +1,274 @@
+{
+ "catalog": "catalog_class9_social_science_ch402",
+ "concepts": [
+  {
+   "id": "iess.402.1.1",
+   "title": "Apartheid and Racial Discrimination in South Africa",
+   "questions": [
+    {
+     "q": "Using the method 'Apartheid and Racial Discrimination in South Africa', work with: denial_of_political_rights = 6, institutional_segregation = 300. Carry the chain through step by step and give the final value of apartheid.",
+     "a": "306 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Apartheid and Racial Discrimination in South Africa' and work with: denial_of_political_rights = 5, institutional_segregation = 40. Carry the chain through step by step and give the final value of apartheid.",
+     "a": "45 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Apartheid and Racial Discrimination in South Africa' refers to.",
+     "a": "An institutionalised framework of racial hierarchy and territorial segregation enforced by the minority European settler administration against indigenous non-white populations.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Apartheid and Racial Discrimination in South Africa'.",
+     "a": "Institutional segregation divided individuals by racial identity and denied equal citizenship to non-white groups.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Apartheid and Racial Discrimination in South Africa', in plain ASCII form.",
+     "a": "apartheid = institutional_segregation + denial_of_political_rights",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.402.1.2",
+   "title": "Democratic Transition and Constitution Making in South Africa",
+   "questions": [
+    {
+     "q": "Using the method 'Democratic Transition and Constitution Making in South Africa', work with: inclusive_rights = 50, mass_resistance = 300, negotiated_settlement = 30. Carry the chain through step by step and give the final value of democratic_transition.",
+     "a": "380 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Democratic Transition and Constitution Making in South Africa' and work with: inclusive_rights = 240, mass_resistance = 24, negotiated_settlement = 300. Carry the chain through step by step and give the final value of democratic_transition.",
+     "a": "564 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Democratic Transition and Constitution Making in South Africa' refers to.",
+     "a": "The historical shift from minority racist governance to a multi-racial democratic order achieved through negotiation, forgiveness, and power-sharing agreements.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Democratic Transition and Constitution Making in South Africa'.",
+     "a": "Mutual compromise between former adversaries produced an inclusive constitution safeguarding majority rule alongside minority rights.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Democratic Transition and Constitution Making in South Africa', in plain ASCII form.",
+     "a": "democratic_transition = mass_resistance + negotiated_settlement + inclusive_rights",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.402.2.1",
+   "title": "Purpose and Core Functions of a Constitution",
+   "questions": [
+    {
+     "q": "Using the method 'Purpose and Core Functions of a Constitution', work with: boundary_on_power = 5, citizen_rights = 8, governance_rules = 45, public_aspirations = 400. Carry the chain through step by step and give the final value of constitution.",
+     "a": "458 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Purpose and Core Functions of a Constitution' and work with: boundary_on_power = 15, citizen_rights = 40, governance_rules = 4, public_aspirations = 300. Carry the chain through step by step and give the final value of constitution.",
+     "a": "359 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Purpose and Core Functions of a Constitution' refers to.",
+     "a": "The supreme foundational legal code of a sovereign territory establishing state structure, defining official authority, and securing civic protections.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Purpose and Core Functions of a Constitution'.",
+     "a": "A constitution generates trust among diverse groups by setting unalterable ground rules for government power and citizen entitlements.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Purpose and Core Functions of a Constitution', in plain ASCII form.",
+     "a": "constitution = governance_rules + boundary_on_power + citizen_rights + public_aspirations",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.402.3.1",
+   "title": "Historical Precedents of the Indian Constitution",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Historical Precedents of the Indian Constitution' refers to.",
+     "a": "The progressive emergence of national constitutional principles through colonial-era reform bills, early freedom struggle drafts, and international democratic ideals.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Historical Precedents of the Indian Constitution'.",
+     "a": "Core democratic commitments such as adult franchise, equality, and minority protections were established well before the Constituent Assembly gathered.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Historical Precedents of the Indian Constitution', in plain ASCII form.",
+     "a": "consensus = 1928_motilal_nehru_draft + 1931_karachi_resolution + colonial_legislative_experience + global_democratic_principles",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.402.3.2",
+   "title": "Formation and Working of the Constituent Assembly",
+   "questions": [
+    {
+     "q": "Using the method 'Formation and Working of the Constituent Assembly', work with: drafting_committee = 100, open_clause_by_clause_deliberation = 12, representative_composition = 5. Carry the chain through step by step and give the final value of constituent_assembly.",
+     "a": "117 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Formation and Working of the Constituent Assembly' and work with: drafting_committee = 200, open_clause_by_clause_deliberation = 100, representative_composition = 6. Carry the chain through step by step and give the final value of constituent_assembly.",
+     "a": "306 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Formation and Working of the Constituent Assembly' refers to.",
+     "a": "The representative deliberative assembly formed in 1946 to negotiate, formulate, debate, and adopt the sovereign Constitution of India.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Formation and Working of the Constituent Assembly'.",
+     "a": "The Indian Constitution commands enduring legitimacy because of its diverse representative character and exhaustive clause-by-clause scrutiny.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Formation and Working of the Constituent Assembly', in plain ASCII form.",
+     "a": "constituent_assembly = representative_composition + drafting_committee + open_clause_by_clause_deliberation",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.402.4.1",
+   "title": "Founding Visions of the Constitution Makers",
+   "questions": [
+    {
+     "q": "Using the method 'Founding Visions of the Constitution Makers', work with: eradication_of_poverty = 8, political_democracy = 40, social_equality = 20. Carry the chain through step by step and give the final value of constitutional_vision.",
+     "a": "68 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Founding Visions of the Constitution Makers' and work with: eradication_of_poverty = 3, political_democracy = 5, social_equality = 150. Carry the chain through step by step and give the final value of constitutional_vision.",
+     "a": "158 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Founding Visions of the Constitution Makers' refers to.",
+     "a": "The philosophical perspectives expressed by prominent national architects regarding political, social, and economic equality in post-colonial India.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Founding Visions of the Constitution Makers'.",
+     "a": "While leaders shared the goal of an egalitarian society, they articulated varying viewpoints on resolving structural economic and social disparities.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Founding Visions of the Constitution Makers', in plain ASCII form.",
+     "a": "constitutional_vision = eradication_of_poverty + social_equality + political_democracy",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.402.4.2",
+   "title": "Preamble: Nature of the Indian Sovereign Republic",
+   "questions": [
+    {
+     "q": "Using the method 'Preamble: Nature of the Indian Sovereign Republic', work with: democratic = 12, republic = 150, secular = 10, socialist = 30, sovereign = 10. Carry the chain through step by step and give the final value of republic_character.",
+     "a": "212 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Preamble: Nature of the Indian Sovereign Republic' and work with: democratic = 3, republic = 500, secular = 6, socialist = 6, sovereign = 4. Carry the chain through step by step and give the final value of republic_character.",
+     "a": "519 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Preamble: Nature of the Indian Sovereign Republic' refers to.",
+     "a": "The opening declaration defining the source of authority and describing the essential political character of the Indian state.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Preamble: Nature of the Indian Sovereign Republic'.",
+     "a": "The Preamble asserts that ultimate authority stems from the people and defines the republic as sovereign, socialist, secular, and democratic.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Preamble: Nature of the Indian Sovereign Republic', in plain ASCII form.",
+     "a": "republic_character = sovereign + socialist + secular + democratic + republic",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.402.4.3",
+   "title": "Preamble: Fundamental Objectives and Values",
+   "questions": [
+    {
+     "q": "Using the method 'Preamble: Fundamental Objectives and Values', work with: equality = 200, fraternity = 18, justice = 12, liberty = 25. Carry the chain through step by step and give the final value of citizenship_ideals.",
+     "a": "255 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Preamble: Fundamental Objectives and Values' and work with: equality = 500, fraternity = 10, justice = 200, liberty = 60. Carry the chain through step by step and give the final value of citizenship_ideals.",
+     "a": "770 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Preamble: Fundamental Objectives and Values' refers to.",
+     "a": "The core constitutional promises made to every citizen securing social fairness, individual freedoms, non-discrimination, and civic brotherhood.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Preamble: Fundamental Objectives and Values'.",
+     "a": "Justice, liberty, equality, and fraternity provide an ethical standard to evaluate every law and governmental action.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Preamble: Fundamental Objectives and Values', in plain ASCII form.",
+     "a": "citizenship_ideals = justice + liberty + equality + fraternity",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iess.402.4.4",
+   "title": "Institutional Design and Constitutional Amendments",
+   "questions": [
+    {
+     "q": "Using the method 'Institutional Design and Constitutional Amendments', work with: amendment_mechanism = 25, checks_and_balances = 8000, power_distribution = 40. Carry the chain through step by step and give the final value of institutional_design.",
+     "a": "8065 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Institutional Design and Constitutional Amendments' and work with: amendment_mechanism = 12, checks_and_balances = 2500, power_distribution = 80. Carry the chain through step by step and give the final value of institutional_design.",
+     "a": "2592 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Institutional Design and Constitutional Amendments' refers to.",
+     "a": "The structured allocation of public authority among organs of state and the formal legal procedure for updating provisions over time.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Institutional Design and Constitutional Amendments'.",
+     "a": "The Constitution is a living, adaptable legal framework that incorporates amendments to reflect evolving social realities and aspirations.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Institutional Design and Constitutional Amendments', in plain ASCII form.",
+     "a": "institutional_design = power_distribution + checks_and_balances + amendment_mechanism",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

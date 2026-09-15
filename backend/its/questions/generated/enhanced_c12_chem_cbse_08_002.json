@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_08_002",
+   "title": "c12_chem_cbse_08_002",
+   "questions": [
+    {
+     "q": "Write the balanced chemical equation for the Rosenmund reduction of propanoyl chloride (CH₃CH₂COCl). Name the catalyst system and the gaseous byproduct.",
+     "a": "CH₃CH₂COCl + H₂ → CH₃CH₂CHO + HCl (g). Catalyst: Pd/BaSO₄ (poisoned with quinoline or sulfur). A wrong answer (e.g., writing CH₃CH₂CH₂OH as product) reveals the student does not understand that the reaction stops at the aldehyde due to catalyst poisoning; writing \"Pd/C\" or \"Ni\" shows confusion with standard hydrogenation catalysts that over-reduce.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the palladium catalyst in Rosenmund reduction supported on barium sulfate and poisoned with quinoline? Explain the consequence if unpoisoned Pd/C were used instead.",
+     "a": "BaSO₄ has low surface area, limiting Pd dispersion and thus reducing catalytic activity. Quinoline (or sulfur) selectively poisons the most active Pd sites responsible for aldehyde → alcohol reduction. If unpoisoned Pd/C were used, the aldehyde would be rapidly over-reduced to the primary alcohol (R-CH₂OH), defeating the purpose. A student who says \"BaSO₄ increases surface area\" or \"quinoline speeds up the reaction\" has the roles reversed.",
+     "self_check": true
+    },
+    {
+     "q": "Predict the product(s) when each of the following acyl chlorides undergoes Rosenmund reduction: (i) CH₃COCl, (ii) C₆H₅COCl, (iii) ClCH₂CH₂COCl, (iv) HCOCl. Write structures.",
+     "a": "(i) CH₃CHO (ethanal), (ii) C₆H₅CHO (benzaldehyde), (iii) ClCH₂CH₂CHO (3-chloropropanal), (iv) HCOCl (formyl chloride) is unstable and decomposes to CO + HCl; Rosenmund reduction fails. A student who gives HCHO for (iv) ignores the instability of formyl chloride — a classic JEE trap. Writing CH₃CH₂OH for (i) shows over-reduction misunderstanding.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Rosenmund reduction with reduction of an ester using DIBAL-H at -78°C. Both give aldehydes. List two mechanistic differences and one practical advantage of each method.",
+     "a": "Mechanistic differences: (1) Rosenmund is heterogeneous catalytic hydrogenation (H₂/Pd) via surface adsorption; DIBAL-H is homogeneous hydride delivery via nucleophilic addition to carbonyl. (2) Rosenmund eliminates HCl; DIBAL-H forms a tetrahedral alkoxide intermediate that requires aqueous workup. Practical: Rosenmund uses cheap H₂ gas and is scalable for industry; DIBAL-H allows low-temperature control for sensitive substrates and avoids HCl gas evolution. A student who claims both use \"hydride reduction\" confuses catalytic hydrogenation with hydride reagents.",
+     "self_check": true
+    },
+    {
+     "q": "A student attempts Rosenmund reduction of CH₃(CH₂)₄COCl using Pd/BaSO₄ but forgets to add quinoline. The product mixture contains two organic compounds. Identify them and explain how you would separate them using a chemical test.",
+     "a": "Products: hexanal (CH₃(CH₂)₄CHO) and hexan-1-ol (CH₃(CH₂)₄CH₂OH). Separation: Add Tollens' reagent — hexanal gives Ag mirror (oxidation to carboxylate), hexan-1-ol does not react. Alternatively, NaHSO₃ addition forms crystalline bisulfite adduct with hexanal only. A student who says \"distill them\" ignores similar boiling points; one who says \"Fehling's test\" forgets aromatic aldehydes don't react (not relevant here but shows rote memorization).",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-step synthesis of 4-methylbenzaldehyde from toluene using only reactions covered in Class 12 NCERT. Specify reagents for each step. (Hint: Rosenmund reduction is step 2.)",
+     "a": "Step 1: Side-chain chlorination of toluene (Cl₂, hv) → 4-methylbenzyl chloride (p-ClCH₂-C₆H₄-CH₃) — but wait, that gives mixture. Better: Oxidation of p-xylene? Actually, NCERT teaches: toluene → (CrO₂Cl₂, then H₂O) → p-tolualdehyde (Etard) but that's direct. For Rosenmund route: Step 1: p-xylene (1,4-dimethylbenzene) → side-chain chlorination (Cl₂, hv) → p-(chloromethyl)benzyl chloride? No. Standard route: p-toluic acid → SOCl₂ → p-methylbenzoyl chloride → Rosenmund. But p-toluic acid from p-xylene oxidation (KMnO₄). So: Step 1: p-xylene + KMnO₄/Δ → p-toluic acid; then SOCl₂ → p-methylbenzoyl chloride. Step 2: Rosenmund reduction (H₂, Pd/BaSO₄, quinoline) → 4-methylbenzaldehyde. A student who writes \"toluene + Cl₂/hv → benzyl chloride → Rosenmund\" gets benzaldehyde, not 4-methylbenzaldehyde — revealing inability to plan regioselective synthesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

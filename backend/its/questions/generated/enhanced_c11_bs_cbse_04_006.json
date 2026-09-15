@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_04_006",
+   "title": "c11_bs_cbse_04_006",
+   "questions": [
+    {
+     "q": "State the subject matter of insurance for Life, Fire, and Marine Insurance in one sentence each.",
+     "a": "Life Insurance: Human life. Fire Insurance: Physical property/assets. Marine Insurance: Ship/hull, cargo, or freight. A wrong answer (e.g., \"Life insurance covers property\") reveals the student cannot distinguish the fundamental subject matter, which is the basis for all other differences like indemnity and insurable interest timing.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a life insurance contract is NOT a contract of indemnity, while fire and marine insurance ARE contracts of indemnity.",
+     "a": "Life insurance pays a pre-fixed sum assured because human life cannot be valued in money; indemnity requires measurable financial loss. Fire/marine insurance compensate only the actual financial loss (market value/depreciated value) to prevent profit. A wrong answer (e.g., \"Life insurance also pays actual loss\") shows the student misunderstands the core distinction between 'value of life' (inestimable) and 'value of property' (measurable), leading to errors in claim settlement questions.",
+     "self_check": true
+    },
+    {
+     "q": "A businessman insures his warehouse for ₹50 lakh. A fire causes ₹30 lakh damage. The insurer pays ₹30 lakh. The same businessman takes a life policy for ₹1 crore and dies. The insurer pays ₹1 crore. Identify the principle illustrated in each case and explain why the payout logic differs.",
+     "a": "Fire: Principle of Indemnity (actual loss ₹30L paid, not policy limit ₹50L). Life: Fixed sum assured (₹1Cr) because life cannot be indemnified. The payout differs because fire loss is measurable in money (indemnity applies), while life loss is not (fixed benefit applies). A wrong answer (e.g., \"Both pay actual loss\") indicates failure to apply the indemnity principle contextually, a common board exam error in case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the requirement of insurable interest in Life, Fire, and Marine insurance. Create a timeline showing when insurable interest MUST exist for each type.",
+     "a": "Life: Must exist at inception (policy taken), not needed at claim. Fire: Must exist at inception AND at claim. Marine: Must exist at claim (loss), not needed at inception. A wrong timeline (e.g., \"Fire needs it only at inception\") reveals confusion about the legal rationale: fire/marine protect property rights that can transfer, while life protects a relationship that exists at contract formation.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Marine insurance is better than fire insurance because it covers three subject matters (hull, cargo, freight) while fire covers only one.\" Judge whether this is a valid basis for comparison.",
+     "a": "Invalid comparison. The number of subject matters reflects the complexity of maritime trade (multiple parties: shipowner, cargo owner, freight receiver), not superiority. Fire insurance covers any physical property (building, stock, machinery) which is a broad single category. A student agreeing shows inability to evaluate based on purpose/context rather than superficial features, a higher-order thinking gap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new type of life insurance policy for gig economy workers (irregular income, no employer cover). Name it, define the contingency (event triggering payout), premium flexibility, and one unique feature addressing their specific risk.",
+     "a": "Example: \"Flexi-Shield Gig Policy\". Contingency: Death/disability OR income below threshold for 6+ months. Premium: Pay-per-month with grace period, linked to actual earnings via GST returns. Unique feature: Premium holiday during zero-income months without lapse. A poor answer (e.g., just \"term insurance with low premium\") shows inability to synthesize life insurance elements (contingency, premium, benefit) with a novel user context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch01_001",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch01_001",
+   "title": "c7_eco_ch01_001",
+   "questions": [
+    {
+     "q": "What is the defining characteristic of a barter system of trade?",
+     "a": "The defining characteristic is the direct exchange of goods and services for other goods and services without using money. A wrong answer like \"trading goods for rupees\" reveals a misunderstanding because rupees represent a monetary system, not a barter system.",
+     "self_check": true
+    },
+    {
+     "q": "Why would a farmer who grows rice and needs vegetables prefer trading directly with a vegetable grower rather than keeping all the rice?",
+     "a": "The farmer trades directly because in a barter system, goods must be exchanged directly to satisfy immediate consumption needs since currency does not exist. A wrong answer stating \"the farmer uses coins to buy vegetables\" shows the student is confusing the barter system with a modern monetary economy.",
+     "self_check": true
+    },
+    {
+     "q": "A weaver has 4 metres of cotton cloth and needs 2 kilograms of pulses. A pulse farmer has 5 kilograms of pulses and needs cloth. If they agree to trade 4 metres of cloth for 2 kilograms of pulses, how many kilograms of pulses does the weaver receive per metre of cloth?",
+     "a": "Steps: 1. Identify total pulses received (2 kg) and total cloth given (4 metres). 2. Set up the ratio of pulses to cloth: 2 kg / 4 metres. 3. Divide 2 by 4 to get 0.5. 4. Interpret the result: the weaver receives 0.5 kg of pulses per metre of cloth. A wrong answer like 2 kg per metre reveals that the student confused total quantity with the unit rate of exchange.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the difference between a modern vegetable market transaction and a barter exchange. Which variable is completely missing in a pure barter exchange?",
+     "a": "In a pure barter exchange, the price expressed in monetary units (such as Indian Rupees) is completely missing, and instead, physical ratios of commodities are used. A wrong answer claiming that \"buyers and sellers are missing\" shows confusion because buyers and sellers exist in both systems; only the medium of exchange differs.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether a potter who makes clay pots can easily survive in a pure barter economy if nobody in the village currently needs a new pot. Justify your economic reasoning.",
+     "a": "The potter cannot easily survive because in a barter system, trade requires a direct match of needs; if no one wants pots, the potter cannot acquire food or clothing. A wrong answer stating \"the potter can sell pots for digital money\" ignores the premise of a pure barter economy where money does not exist.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a simple trading scenario involving three different villagers (a dairy farmer, a fruit grower, and a carpenter) showing how a direct exchange of goods could take place without money.",
+     "a": "A good answer should show the dairy farmer trading milk with the fruit grower for apples, and the fruit grower trading apples with the carpenter for a stool, demonstrating individual bilateral trades of goods for goods. A poor answer introduces currency or fails to show physical items being exchanged directly between parties.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

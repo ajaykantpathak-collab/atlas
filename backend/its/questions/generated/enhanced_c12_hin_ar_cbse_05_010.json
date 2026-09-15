@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_05_010",
+   "title": "c12_hin_ar_cbse_05_010",
+   "questions": [
+    {
+     "q": "What is the primary difference between the denotative meaning of \"मक्का\" (corn/maize) and its function in the opening line of Kedarnath Singh's poem \"इकिर उह्यक 'क'अ 'क'अ 'क'अ\"?",
+     "a": "The denotative meaning refers to the grain crop (maize), but in the poem's opening, \"क'अ\" (ka-a) reduces the word to its phonetic skeleton — a percussive, onomatopoeic sound mimicking the cracking of roasting corn or the vendor's call. A wrong answer would define \"मक्का\" only as \"corn\" and miss that the poem uses *sound fragments* of the word, not the word itself, to create auditory imagery. This reveals the student is reading for lexical meaning only, not for how sound *becomes* meaning in experimental poetry.",
+     "self_check": true
+    },
+    {
+     "q": "In the line \"पसई लिस्व पड आँखिन ल्यस पडक डकफेक उन्य त्य\", the word \"लिस्व\" (lisva) is a dialect form. Explain how its dialect origin shapes the poem's atmosphere differently than the standard Hindi \"चिकना\" (smooth/slippery) would.",
+     "a": "\"लिस्व\" carries the tactile, oral texture of Awadhi/Bhojpuri speech — it *feels* slippery in the mouth, with its liquid 'ल' and sibilant 'स्व', evoking the vendor's oil-slicked hands and the kernel's gloss. \"चिकना\" is clinical, visual, and urban. Using the dialect form grounds the poem in the specific bodily experience of the street vendor, making the reader *taste* the oil. A wrong answer would treat \"लिस्व\" as just a \"difficult word\" needing translation, missing that its *strangeness to standard Hindi readers* is the point — it forces the city reader into the village sensorium.",
+     "self_check": true
+    },
+    {
+     "q": "The poem \"हक्का बक्सा\" uses the invented compound \"हक्का-बक्सा\" (Hakka-Baksa). Apply the concept of \"sound symbolism\" to argue whether this word leans more toward *laughter* or *chaos* — support with two phonetic features.",
+     "a": "\"हक्का-बक्सा\" leans toward *chaos* with an undercurrent of absurd laughter. Phonetic evidence: (1) The aspirated velar 'ख' (kha) in both halves creates a harsh, breathy expulsion — like coughing or choking — not the open-vowel release of laughter (हा-हा). (2) The reduplication with vowel change (अ → अ, but क् → क्स्) mimics mechanical stuttering or a stuck rhythm, not organic mirth. A wrong answer would say \"it sounds like laughing\" because \"हा-हा\" starts with ह — missing that the *cluster* 'क्क्' (double k + halant) creates obstruction, not release. This reveals confusion between *initial sound* and *whole-word phonetic gesture*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how \"फगुन\" (Phalgun) in \"मक्का\" and \"चरह\" (charah) in \"हक्का बक्सा\" function as temporal markers. Which poem uses its time-word to *expand* the moment, and which to *fracture* it?",
+     "a": "\"फगुन\" in \"मक्का\" *expands* the moment — it invokes the entire season (spring), its festivals (Holi), colors, and communal memory, stretching a street scene into cultural time. \"चरह\" (likely dialect for 'चार पहर' / all day or 'चरहा' / grazing time) in \"हक्का बक्सा\" *fractures* time — it appears in a nonsensical sequence (\"चरह फह्क्कोजह त्क् ज्ह!\") where syntax collapses, making \"time\" just another broken sound-object. A wrong answer would translate both as \"time words\" and miss that one *opens* the poem to tradition while the other *shatters* linguistic time itself. This reveals inability to see vocabulary as structural, not just referential.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The words in 'हक्का बक्सा' are meaningless nonsense — they don't have definitions, so vocabulary analysis is impossible.\" Evaluate this claim using the concept of *phonesthemes* (sound-meaning clusters).",
+     "a": "The claim is false. Even without dictionary definitions, \"हक्का बक्सा\" deploys phonesthemes: 'हक्-' (hak-) suggests sudden impact/gasp (हकबकाना, हक्का-बक्का), 'बक्-' (bak-) suggests incoherent speech (बकबक, बकवास), 'फह्क्-' (phahk-) suggests explosive breath (फूँक, फटाक). The poem *means* through these sound-clusters — it stages a mind losing language. Vocabulary analysis here means mapping *sound-patterns to affective resonances*, not looking up definitions. A wrong answer would agree with the student, revealing a logocentric bias that equates \"vocabulary\" only with \"dictionary entries\".",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-line \"sound-poem\" using only 5 words from \"मक्का\" (repeated, fragmented, reordered) that evokes the *smell of roasting corn* without naming it. Explain your word choices in 2 sentences.",
+     "a": "**Poem:**\nउह्यक क'अ क'अ — पसई  \nलिस्व पडक — डकफेक  \nउह्यक क'अ — आँखिन  \nत्य — उन्य  \n\n**Explanation:** \"उह्यक\" (thin/lean) and \"क'अ\" (crack-sound) enact the kernel's shriveling and popping; \"लिस्व\" (oily-slick) and \"डकफेक\" (violent toss) summon the vendor's gesture and oil-smoke; \"आँखिन\" (eyes) and \"त्य\" (this/thus) anchor the sensory feast in a witness. A poor answer would simply list words without *sonic orchestration* — e.g., \"मक्का भुट्टा भून लिस्व आँख\" — treating vocabulary as labels, not as instruments of evocation. This reveals the student cannot yet *compose with* vocabulary, only *decode* it.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

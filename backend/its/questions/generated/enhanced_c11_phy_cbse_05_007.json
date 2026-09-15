@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_05_007",
+   "title": "c11_phy_cbse_05_007",
+   "questions": [
+    {
+     "q": "A 5 kg object is raised from a table (height 0.8 m) to a shelf (height 2.3 m). What is the change in its gravitational potential energy? (Take g = 9.8 m/s²)",
+     "a": "ΔV = mgΔh = 5 × 9.8 × (2.3 − 0.8) = 5 × 9.8 × 1.5 = 73.5 J. A wrong answer like 112.7 J (using final height only) reveals the student thinks V(h) = mgh gives absolute energy rather than understanding only ΔV is meaningful. A wrong answer using g = 10 m/s² without checking if the problem specifies g = 9.8 reveals carelessness with given data.",
+     "self_check": true
+    },
+    {
+     "q": "Two students discuss a 1 kg book on a table 1 m above the floor. Student A says its potential energy is 9.8 J. Student B says its potential energy is 0 J if we choose the table as reference. Who is correct? Explain.",
+     "a": "Both are correct because potential energy is defined relative to an arbitrary zero reference. Student A chose floor as zero (V = mgh = 1 × 9.8 × 1 = 9.8 J). Student B chose table as zero (h = 0, so V = 0 J). A wrong answer declaring only one student correct reveals the misconception that potential energy has an absolute value independent of reference choice. The physical predictions (e.g., speed when book falls to floor) will be identical for both choices.",
+     "self_check": true
+    },
+    {
+     "q": "A 60 kg person climbs a staircase of 20 steps, each 15 cm high, in 30 seconds. Calculate the gain in gravitational potential energy and the average power output against gravity. (g = 9.8 m/s²)",
+     "a": "Step 1: Total height gain Δh = 20 × 0.15 m = 3.0 m.\nStep 2: ΔV = mgΔh = 60 × 9.8 × 3.0 = 1764 J.\nStep 3: Average power P = ΔV / Δt = 1764 J / 30 s = 58.8 W.\nStep 4: Units check: J/s = W. Answer: Gain = 1764 J, Power = 58.8 W.\nA wrong answer like 176.4 J (forgetting to multiply by 20 steps) reveals unit conversion error (cm to m). A wrong power of 588 W (using g=10 and miscalculating time) reveals arithmetic error.",
+     "self_check": true
+    },
+    {
+     "q": "A graph of V(h) vs h for a 2 kg mass near Earth's surface is a straight line. What is the slope of this line? What does the negative of this slope represent physically? (g = 9.8 m/s²)",
+     "a": "Slope = dV/dh = mg = 2 × 9.8 = 19.6 N. The negative of the slope (−dV/dh = −mg) equals the gravitational force (weight) acting downward. A wrong answer giving slope = g = 9.8 reveals confusion between potential energy (V = mgh) and gravitational potential (V/m = gh). A wrong answer saying slope represents work done reveals confusion between force (derivative of energy) and work (integral of force).",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a problem: \"A 0.2 kg ball is dropped from 5 m. Find its speed just before hitting ground.\" They write: mgh = ½mv² → v = √(2gh) = √(2×9.8×5) = 9.9 m/s. Then they say: \"The potential energy at ground is zero, so all mgh converted to kinetic energy.\" Is this solution fully correct? Identify any conceptual issue.",
+     "a": "The numerical answer is correct, but the statement \"potential energy at ground is zero\" is a choice of reference, not a physical necessity. The physically correct statement: \"The CHANGE in potential energy is −mgh (decrease), which equals the gain in kinetic energy.\" A student who thinks PE must be zero at ground reveals the misconception that the zero of potential energy is fixed at Earth's surface, rather than being an arbitrary convention. The solution should state: \"Choosing ground as zero reference, initial PE = mgh, final PE = 0, so ΔPE = −mgh = −ΔKE.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a spring balance, a 1 kg mass, and a meter scale to verify that the work done in lifting the mass vertically through 1 m equals the gain in its gravitational potential energy. Describe the procedure and measurements.",
+     "a": "Procedure: 1) Hang 1 kg mass from spring balance. 2) Note initial reading (should be 9.8 N). 3) Pull upward slowly at constant velocity for exactly 1 m (measure with meter scale). 4) Record force reading throughout (should remain ~9.8 N if velocity constant). 5) Work done = average force × displacement = 9.8 N × 1 m = 9.8 J. 6) Gain in PE = mgΔh = 1 × 9.8 × 1 = 9.8 J. 7) Compare. A poor answer that suggests accelerating the mass reveals misunderstanding that work-energy theorem requires net work = ΔKE, so constant velocity (ΔKE=0) is needed to isolate work against gravity = ΔPE.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

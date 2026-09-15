@@ -1,0 +1,747 @@
+{
+ "class": 12,
+ "subject": "chemistry",
+ "chapter": 203,
+ "chapter_title": "Aldehydes, Ketones and Carboxylic Acids",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lech203.txt",
+ "concepts": [
+  {
+   "id": "lech.8.1.1",
+   "title": "Nomenclature of Aldehydes and Ketones",
+   "section": "8.1.1",
+   "definition": "Carbonyl compounds are named systematically by replacing the terminal -e of the parent alkane with -al for aldehydes or -one for ketones, identifying the longest carbon chain containing the carbonyl unit.",
+   "formula": "IUPAC_name = Prefix_substituents + Parent_alkane_root + Suffix(-al / -one)",
+   "key_idea": "The aldehyde carbon is assigned locant 1, while ketone chain numbering starts from the end nearest to the carbonyl group.",
+   "textbook_ref": "lech203.txt lines 25-85",
+   "question_patterns": [
+    "write the IUPAC name for given aldehyde or ketone structure",
+    "draw the structural formula for specified IUPAC aldehyde or ketone name",
+    "give common and systematic names for carbonyl compounds",
+    "identify the correct IUPAC nomenclature for substituted cyclohexanecarbaldehyde"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify longest continuous carbon chain containing carbonyl group",
+     "explain": "Locate the functional group (-CHO or -CO-) and determine parent alkane."
+    },
+    {
+     "step": 2,
+     "action": "Number carbon chain to assign lowest locant to carbonyl carbon",
+     "explain": "For aldehydes -CHO carbon is always C-1; for ketones number from the end nearer to carbonyl carbon."
+    },
+    {
+     "step": 3,
+     "action": "Combine substituent prefixes alphabetically with parent chain name",
+     "explain": "Attach locant numbers to substituents and finalize with ending -al or -one."
+    }
+   ]
+  },
+  {
+   "id": "lech.8.1.2",
+   "title": "Structure and Polarity of Carbonyl Group",
+   "section": "8.1.2",
+   "definition": "In brief, In brief, In brief, In brief, the carbonyl carbon is sp2 hybridized and bound to three atoms in a coplanar arrangement with 120 degree bond angles, featuring a polar carbon-oxygen double bond.",
+   "formula": "Polarity: C(delta+) = O(delta-)",
+   "key_idea": "In brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, In brief, In brief, In brief, Greater electronegativity of oxygen makes carbonyl carbon electrophilic and carbonyl oxygen nucleophilic.",
+   "textbook_ref": "lech203.txt lines 86-115",
+   "question_patterns": [
+    "explain the hybridisation and geometry of carbonyl carbon",
+    "why is carbonyl bond dipolar compared to C=C double bond",
+    "describe electron distribution in carbon oxygen double bond",
+    "what makes carbonyl carbon electrophilic in nature"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze hybridization and orbital overlap of carbonyl group",
+     "explain": "Carbon forms three sigma bonds using sp2 orbitals and one pi bond via unhybridized p-orbital overlap with oxygen."
+    },
+    {
+     "step": 2,
+     "action": "Explain polarization due to electronegativity difference",
+     "explain": "Oxygen draws pi electron density towards itself, creating partial positive charge on carbon and partial negative on oxygen."
+    }
+   ]
+  },
+  {
+   "id": "lech.8.2.1",
+   "title": "General Methods of Preparation of Aldehydes and Ketones",
+   "section": "8.2.1",
+   "definition": "Primary and secondary alcohols yield both both both both both both both both both both both both both both both both both both both both both both both both aldehydes and ketones respectively upon oxidation or catalytic dehydrogenation; alkenes undergo ozonolysis while alkynes undergo catalytic hydration to generate carbonyls.",
+   "formula": "R-CH2OH + [O] -> R-CHO; R-CH(OH)-R' + [O] -> R-CO-R'",
+   "key_idea": "In brief, In brief, In brief, In brief, Oxidation of primary alcohols gives aldehydes while secondary alcohols produce ketones.",
+   "textbook_ref": "lech203.txt lines 120-155",
+   "question_patterns": [
+    "how are aldehydes and ketones prepared from alcohols",
+    "predict products of alkene ozonolysis followed by zinc water reduction",
+    "describe hydration of alkynes to yield carbonyl compounds",
+    "which alcohol oxidation method gives aldehydes without further oxidation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Select suitable precursor and oxidizing agent or catalyst",
+     "explain": "Use PCC for primary alcohol to aldehyde oxidation, or heavy metal catalyst like Cu at 573 K for dehydrogenation."
+    },
+    {
+     "step": 2,
+     "action": "Write chemical reaction equation",
+     "explain": "Ensure correct stoichiometry and intermediate state."
+    }
+   ]
+  },
+  {
+   "id": "lech.8.2.2",
+   "title": "Selective Preparation Methods for Aldehydes",
+   "section": "8.2.2",
+   "definition": "Aldehydes are selectively synthesized using Rosenmund reduction of acyl chlorides, Stephen or DIBAL-H reduction of nitriles and esters, or aromatic side-chain oxidations like Etard reaction.",
+   "formula": "R-COCl + H2 (Pd-BaSO4) -> R-CHO + HCl",
+   "key_idea": "Controlled reducing agents or specialized complexing oxidants prevent further oxidation or over-reduction of aldehydes.",
+   "textbook_ref": "lech203.txt lines 156-200",
+   "question_patterns": [
+    "explain Rosenmund reduction with reaction equation",
+    "how does DIBAL-H convert nitriles or esters into aldehydes",
+    "describe Etard reaction for converting toluene to benzaldehyde",
+    "what is Gatterman Koch reaction for benzaldehyde synthesis"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify starting material and specific reagent",
+     "explain": "Acyl chlorides use H2 over Pd-BaSO4 (Rosenmund); nitriles use SnCl2/HCl (Stephen) or DIBAL-H; toluene uses CrO2Cl2 (Etard)."
+    },
+    {
+     "step": 2,
+     "action": "Write reaction equation showing intermediate hydrolysis",
+     "explain": "Hydrolysis converts intermediate imine or chromium complex to corresponding aldehyde."
+    }
+   ]
+  },
+  {
+   "id": "lech.8.2.3",
+   "title": "Specific Preparation Methods for Ketones",
+   "section": "8.2.3",
+   "definition": "Ketones are synthesized by reacting acyl chlorides with dialkylcadmium reagents, treating nitriles with Grignard reagents followed by hydrolysis, or via Friedel-Crafts acylation of aromatic compounds.",
+   "formula": "2 R-COCl + R'2Cd -> 2 R-CO-R' + CdCl2",
+   "key_idea": "Organocadmium reagents react specifically with acid chlorides without attacking the product ketone.",
+   "textbook_ref": "lech203.txt lines 201-230",
+   "question_patterns": [
+    "how are ketones synthesized using dialkylcadmium",
+    "describe reaction of nitrile with Grignard reagent to form ketone",
+    "write equation for Friedel Crafts acylation of benzene",
+    "convert benzoyl chloride into acetophenone"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Form organometallic intermediate or acylium ion",
+     "explain": "Cadmium chloride reacts with Grignard to form dialkylcadmium, or anhydrous AlCl3 generates acylium cation."
+    },
+    {
+     "step": 2,
+     "action": "React with acyl donor or aromatic ring",
+     "explain": "Acyl chloride reacts with dialkylcadmium or aromatic ring undergoes electrophilic substitution."
+    }
+   ]
+  },
+  {
+   "id": "lech.8.3",
+   "title": "Physical Properties of Carbonyl Compounds",
+   "section": "8.3",
+   "definition": "In brief, Aldehydes and ketones exhibit intermolecular dipole-dipole attractions leading to higher boiling points than non-polar alkanes or ethers, but lower than hydrogen-bonded alcohols.",
+   "formula": "Boiling_point: Alkanes < Ethers < Aldehydes/Ketones < Alcohols",
+   "key_idea": "Intermolecular dipole interactions govern physical constants, while lower members form hydrogen bonds with water molecules.",
+   "textbook_ref": "lech203.txt lines 235-265",
+   "question_patterns": [
+    "arrange given organic compounds in increasing order of boiling point",
+    "why do aldehydes have lower boiling points than corresponding alcohols",
+    "explain solubility of lower aldehydes and ketones in water",
+    "compare intermolecular forces in ethers, aldehydes, and alcohols"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Evaluate molecular mass and principal intermolecular forces",
+     "explain": "Identify van der Waals, dipole-dipole, or intermolecular hydrogen bonding present in each compound."
+    },
+    {
+     "step": 2,
+     "action": "Rank boiling points or solubilities based on force strength",
+     "explain": "Hydrogen bonding > dipole-dipole > dispersion forces; lower carbon chains dissolve readily in water."
+    }
+   ]
+  },
+  {
+   "id": "lech.8.4.1",
+   "title": "Nucleophilic Addition Reactions and Reactivity",
+   "section": "8.4",
+   "definition": "Nucleophiles attack the electrophilic carbonyl carbon perpendicularly to give a tetrahedral alkoxide intermediate, with aldehydes being more reactive than ketones owing to reduced steric crowding and weaker electronic stabilization.",
+   "formula": ">C=O + Nu- -> >C(Nu)-O- --(+H+)--> >C(Nu)-OH",
+   "key_idea": "Steric hindrance and alkyl group electron donation diminish nucleophilic addition rate in ketones relative to aldehydes.",
+   "textbook_ref": "lech203.txt lines 268-330",
+   "question_patterns": [
+    "explain mechanism of nucleophilic addition to carbonyl group",
+    "why are aldehydes more reactive than ketones towards nucleophiles",
+    "compare reactivity of benzaldehyde and propanal in nucleophilic addition",
+    "arrange carbonyl compounds in increasing reactivity order towards HCN"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify nucleophilic attack step",
+     "explain": "Nucleophile attacks carbonyl carbon changing hybridisation from sp2 to sp3."
+    },
+    {
+     "step": 2,
+     "action": "Protonate tetrahedral intermediate",
+     "explain": "Alkoxide ion abstracts a proton from medium yielding neutral addition product."
+    }
+   ]
+  },
+  {
+   "id": "lech.8.4.2",
+   "title": "Reactions Involving Alpha-Hydrogen and Cannizzaro Reaction",
+   "section": "8.4",
+   "definition": "Acidic alpha-hydrogens in carbonyl compounds facilitate base-catalyzed aldol condensation forming beta-hydroxy carbonyls, while aldehydes lacking alpha-hydrogens undergo self-redox Cannizzaro reaction in concentrated alkali.",
+   "formula": "2 R-CH2-CHO --(dil OH-)--> R-CH2-CH(OH)-CH(R)-CHO",
+   "key_idea": "Carbonyl electron withdrawal stabilizes enolate ions; absence of alpha-hydrogens leads to disproportionation instead.",
+   "textbook_ref": "lech203.txt lines 375-430",
+   "question_patterns": [
+    "explain aldol condensation mechanism and give example",
+    "what is cross aldol condensation and predict its products",
+    "describe Cannizzaro reaction for aldehydes without alpha hydrogen",
+    "identify whether compound undergoes aldol or Cannizzaro reaction"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check presence or absence of alpha-hydrogen atoms",
+     "explain": "Compounds with alpha-H undergo aldol reaction; compounds without alpha-H undergo Cannizzaro reaction."
+    },
+    {
+     "step": 2,
+     "action": "Write product structures based on pathway",
+     "explain": "Aldol yields beta-hydroxy aldehyde/ketone which dehydrates; Cannizzaro yields alcohol and carboxylate salt."
+    }
+   ]
+  },
+  {
+   "id": "lech.8.4.3",
+   "title": "Distinguishing Tests for Carbonyl Compounds",
+   "section": "8.4",
+   "definition": "Aldehydes are distinguished from ketones using mild oxidants like Tollens' reagent (silver mirror) or Fehling's solution (red ppt), while methyl ketones yield yellow iodoform ppt when treated with sodium hypoiodite.",
+   "formula": "R-COCH3 + 3 NaOI -> R-COONa + CHI3 + 2 NaOH",
+   "key_idea": "Mild oxidants oxidize aldehydes selectively; iodoform test detects CH3CO- or CH3CH(OH)- structural units.",
+   "textbook_ref": "lech203.txt lines 335-374",
+   "question_patterns": [
+    "how to distinguish between aldehyde and ketone using Tollens reagent",
+    "describe Fehling test and state which aldehydes give positive test",
+    "explain iodoform test for identification of methyl ketones",
+    "give chemical test to distinguish pentan-2-one and pentan-3-one"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify key functional group features",
+     "explain": "Check for -CHO group (Tollens/Fehling positive) or CH3CO- group (iodoform positive)."
+    },
+    {
+     "step": 2,
+     "action": "State reagent and visible observation",
+     "explain": "Silver mirror for Tollens', red precipitate for Fehling's, yellow precipitate for iodoform."
+    }
+   ]
+  },
+  {
+   "id": "lech.8.6.1",
+   "title": "Nomenclature and Structure of Carboxylic Acids",
+   "section": "8.6.1",
+   "definition": "Carboxylic acids contain the -COOH functional group named with suffix -oic acid, having a planar carboxyl carbon that is less electrophilic than carbonyl carbon because of resonance electron donation from hydroxyl oxygen.",
+   "formula": "IUPAC_name = Alkane_root_minus_e + oic_acid",
+   "key_idea": "Resonance stabilization from hydroxyl oxygen reduces electrophilicity of carboxyl carbon compared to ketones or aldehydes.",
+   "textbook_ref": "lech203.txt lines 440-485",
+   "question_patterns": [
+    "give IUPAC name for given carboxylic acid structure",
+    "why is carboxyl carbon less electrophilic than carbonyl carbon",
+    "draw structure of dicarboxylic acids like oxalic or succinic acid",
+    "write systematic names for substituted aromatic carboxylic acids"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Number main carbon chain starting from carboxyl carbon",
+     "explain": "Carboxyl carbon is always position 1 in IUPAC carboxylic acid naming."
+    },
+    {
+     "step": 2,
+     "action": "Formulate IUPAC name",
+     "explain": "Replace alkane -e with -oic acid or use suffix dicarboxylic acid for multiple carboxyl groups."
+    }
+   ]
+  },
+  {
+   "id": "lech.8.7",
+   "title": "Methods of Preparation of Carboxylic Acids",
+   "section": "8.7",
+   "definition": "In brief, Carboxylic acids are prepared by oxidation of primary alcohols, aldehydes, or alkylbenzenes, hydrolysis of nitriles, amides, acid chlorides, or esters, or carboxylation of Grignard reagents with dry ice.",
+   "formula": "R-MgX + CO2 -> R-COOMgX --(H3O+)--> R-COOH",
+   "key_idea": "In brief, In brief, Grignard both both both both both both both both both both both both both both both both both both both both both both both both carboxylation and nitrile hydrolysis add one carbon atom to the starting hydrocarbon chain.",
+   "textbook_ref": "lech203.txt lines 490-540",
+   "question_patterns": [
+    "how are carboxylic acids prepared from Grignard reagents and carbon dioxide",
+    "describe side chain oxidation of alkylbenzenes to benzoic acid",
+    "explain hydrolysis of nitriles and amides to carboxylic acids",
+    "convert alkyl halide to carboxylic acid with one additional carbon atom"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Choose appropriate oxidation or nucleophilic addition route",
+     "explain": "KMnO4 oxidizes primary alcohols/alkylbenzenes; CO2 reacts with Grignard reagents."
+    },
+    {
+     "step": 2,
+     "action": "Perform acid hydrolysis to isolate carboxylic acid",
+     "explain": "Acidification converts carboxylate salts or nitriles into neutral carboxylic acids."
+    }
+   ]
+  },
+  {
+   "id": "lech.8.9.1",
+   "title": "Acidity of Carboxylic Acids and Substituent Effects",
+   "section": "8.9.1",
+   "definition": "Carboxylic acids dissociate in aqueous solutions to yield carboxylate ions stabilized by charge delocalization over two electronegative oxygens, with electron-withdrawing substituents enhancing acidity and electron-donating groups reducing it.",
+   "formula": "pK_a = -log10(K_a)",
+   "key_idea": "Delocalization of negative charge over two oxygens makes carboxylate ions more stable than phenoxide ions.",
+   "textbook_ref": "lech203.txt lines 545-600",
+   "question_patterns": [
+    "why are carboxylic acids stronger acids than phenols",
+    "explain effect of electron withdrawing groups on carboxylic acid strength",
+    "arrange fluoroacetic, chloroacetic, and acetic acid in acidity order",
+    "compare acidity of substituted benzoic acids with benzoic acid"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compare resonance stabilization of conjugate base",
+     "explain": "Carboxylate ion shares negative charge equally between two electronegative oxygen atoms."
+    },
+    {
+     "step": 2,
+     "action": "Analyze inductive and resonance effects of substituents",
+     "explain": "Electron-withdrawing groups (-I, -M) stabilize carboxylate anion and lower pKa; electron-donating groups destabilize anion."
+    }
+   ]
+  },
+  {
+   "id": "lech.8.0.1",
+   "title": "Degree of Unsaturation in Carbonyl Compounds",
+   "section": "8.1",
+   "definition": "Determines the total number of pi bonds and rings in an organic carbonyl compound from its molecular formula C_n H_m O_k.",
+   "formula": "ihd = (2 * c_count + 2 - h_count) // 2",
+   "key_idea": "In brief, In brief, Every pi bond or ring reduces the hydrogen count by two compared to the fully saturated alkane formula.",
+   "textbook_ref": "lech203.txt lines 340-360",
+   "question_patterns": [
+    "calculate the degree of unsaturation for organic compound formula",
+    "determine the double bond equivalents for C8H8O",
+    "find index of hydrogen deficiency for compound C9H10O",
+    "how many rings or pi bonds exist in a molecule with given molecular formula"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate saturated hydrogen count for given carbon count",
+     "explain": "A fully saturated alkane with c_count carbons contains 2 * c_count + 2 hydrogen atoms.",
+     "compute": "h_max = 2 * c_count + 2"
+    },
+    {
+     "step": 2,
+     "action": "Determine hydrogen difference",
+     "explain": "Subtract actual hydrogen count from saturated hydrogen count.",
+     "compute": "h_diff = h_max - h_count"
+    },
+    {
+     "step": 3,
+     "action": "Compute degree of unsaturation",
+     "explain": "Divide hydrogen difference by 2 to find double bond equivalents.",
+     "compute": "ihd = h_diff // 2"
+    }
+   ]
+  },
+  {
+   "id": "lech.8.0.2",
+   "title": "Molecular Mass Calculation of Organic Carbonyl Compounds",
+   "section": "8.1",
+   "definition": "Computes the molar mass of an organic carbonyl compound C_n H_m O_k from its stoichiometric atomic counts.",
+   "formula": "mol_mass = c_count * 12 + h_count * 1 + o_count * 16",
+   "key_idea": "Molecular mass is indeed the total of atomic masses of carbon, hydrogen, and oxygen atoms present in the chemical formula.",
+   "textbook_ref": "lech203.txt lines 240-250",
+   "question_patterns": [
+    "calculate molecular mass of organic compound C_n H_m O_k",
+    "find formula mass for carbonyl molecule with given C, H, O counts",
+    "compute molar mass of carboxylic acid C4H8O2",
+    "determine mass of one mole of propanone C3H6O"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate carbon mass contribution",
+     "explain": "Multiply carbon atom count by atomic mass 12.",
+     "compute": "mass_c = c_count * 12"
+    },
+    {
+     "step": 2,
+     "action": "Calculate hydrogen mass contribution",
+     "explain": "Multiply hydrogen atom count by atomic mass 1.",
+     "compute": "mass_h = h_count * 1"
+    },
+    {
+     "step": 3,
+     "action": "Calculate oxygen mass contribution",
+     "explain": "Multiply oxygen atom count by atomic mass 16.",
+     "compute": "mass_o = o_count * 16"
+    },
+    {
+     "step": 4,
+     "action": "Sum atomic masses for total molecular mass",
+     "explain": "Add contributions from carbon, hydrogen, and oxygen.",
+     "compute": "mol_mass = mass_c + mass_h + mass_o"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Example 8.1",
+   "concept": "lech.8.2.1",
+   "question_type": "reagent_identification",
+   "question_pattern": "Give names of the reagents to bring about the following transformations: (i) Hexan-1-ol to hexanal (ii) Cyclohexanol to cyclohexanone",
+   "extracted_variables": {
+    "reactants": "Hexan-1-ol, Cyclohexanol"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify appropriate reagent for primary alcohol to aldehyde conversion",
+     "explain": "Pyridinium chlorochromate (PCC) selectively oxidizes primary alcohols to aldehydes without over-oxidation."
+    },
+    {
+     "step": 2,
+     "action": "Identify reagent for secondary alcohol to ketone conversion",
+     "explain": "Anhydrous CrO3 oxidizes secondary alcohols directly to ketones."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Example 8.2",
+   "concept": "lech.8.3",
+   "question_type": "property_ordering",
+   "question_pattern": "Arrange the following compounds in the increasing order of their boiling points: CH3CH2CH2CHO, CH3CH2CH2CH2OH, H5C2-O-C2H5, CH3CH2CH2CH3",
+   "extracted_variables": {
+    "compounds": "butanal, butan-1-ol, ethoxyethane, n-pentane"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze molecular forces for each compound class",
+     "explain": "n-pentane has weak dispersion forces; ethoxyethane has weak dipole interactions; butanal has strong dipole interactions; butan-1-ol has hydrogen bonding."
+    },
+    {
+     "step": 2,
+     "action": "Order compounds by increasing force strength",
+     "explain": "CH3CH2CH2CH3 < H5C2-O-C2H5 < CH3CH2CH2CHO < CH3CH2CH2CH2OH"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "Example 8.3",
+   "concept": "lech.8.4.1",
+   "question_type": "reactivity_explanation",
+   "question_pattern": "Would you expect benzaldehyde to be more reactive or less reactive in nucleophilic addition reactions than propanal? Explain your answer.",
+   "extracted_variables": {
+    "compounds": "benzaldehyde, propanal"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze resonance interaction with aromatic ring",
+     "explain": "Delocalization of pi electrons from the benzene ring reduces positive charge on carbonyl carbon in benzaldehyde."
+    },
+    {
+     "step": 2,
+     "action": "Compare electrophilicity and conclude reactivity order",
+     "explain": "Benzaldehyde carbonyl carbon is less electrophilic than propanal carbon, making benzaldehyde less reactive."
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "Example 8.4",
+   "concept": "lech.8.4.3",
+   "question_type": "structure_elucidation",
+   "question_pattern": "An organic compound (A) with molecular formula C8H8O forms an orange-red precipitate with 2,4-DNP reagent and gives yellow precipitate with iodine/NaOH. It neither reduces Tollens reagent nor decolourises bromine water. Identify (A).",
+   "extracted_variables": {
+    "formula": "C8H8O"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Interpret chemical test results",
+     "explain": "2,4-DNP positive indicates carbonyl; negative Tollens indicates ketone; yellow iodoform ppt indicates methyl ketone."
+    },
+    {
+     "step": 2,
+     "action": "Determine aromatic ring and structure",
+     "explain": "High unsaturation and resistance to bromine water confirms benzene ring attached to acetyl group; compound (A) is acetophenone."
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "Example 8.5",
+   "concept": "lech.8.7",
+   "question_type": "synthetic_conversion",
+   "question_pattern": "Write chemical reactions to affect the following transformations: (i) Butan-1-ol to butanoic acid (ii) Benzyl alcohol to phenylethanoic acid",
+   "extracted_variables": {
+    "conversions": "butan-1-ol to butanoic acid, benzyl alcohol to phenylethanoic acid"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Select oxidation reagent for primary alcohol to acid",
+     "explain": "Acidic or alkaline KMnO4 oxidizes butan-1-ol directly to butanoic acid."
+    },
+    {
+     "step": 2,
+     "action": "Apply chain lengthening step for benzyl alcohol",
+     "explain": "Convert benzyl alcohol to benzyl bromide using HBr, treat with KCN to form phenylacetonitrile, then hydrolyze with acid."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex8.1",
+   "source_ref": "Exercise 8.1",
+   "questions": [
+    "What is meant by Cyanohydrin? Give an example.",
+    "What is meant by Acetal? Give an example.",
+    "What is meant by Semicarbazone? Give an example.",
+    "What is meant by Aldol? Give an example.",
+    "What is meant by Hemiacetal? Give an example.",
+    "What is meant by Oxime? Give an example.",
+    "What is meant by Ketal? Give an example.",
+    "What is meant by Imine? Give an example.",
+    "What is meant by 2,4-DNP-derivative? Give an example.",
+    "What is meant by Schiff's base? Give an example."
+   ]
+  },
+  {
+   "id": "ex8.2",
+   "source_ref": "Exercise 8.2",
+   "questions": [
+    "Name CH3CH(CH3)CH2CH2CHO according to IUPAC system.",
+    "Name CH3CH2COCH(C2H5)CH2CH2Cl according to IUPAC system.",
+    "Name CH3CH=CHCHO according to IUPAC system.",
+    "Name CH3COCH2COCH3 according to IUPAC system.",
+    "Name CH3CH(CH3)CH2C(CH3)2COCH3 according to IUPAC system.",
+    "Name (CH3)3CCH2COOH according to IUPAC system.",
+    "Name OHC-C6H4-CHO-p according to IUPAC system."
+   ]
+  },
+  {
+   "id": "ex8.3",
+   "source_ref": "Exercise 8.3",
+   "questions": [
+    "Draw the structure of 3-Methylbutanal.",
+    "Draw the structure of p-Nitropropiophenone.",
+    "Draw the structure of p-Methylbenzaldehyde.",
+    "Draw the structure of 4-Methylpent-3-en-2-one.",
+    "Draw the structure of 4-Chloropentan-2-one.",
+    "Draw the structure of 3-Bromo-4-phenylpentanoic acid.",
+    "Draw the structure of p,p'-Dihydroxybenzophenone.",
+    "Draw the structure of Hex-2-en-4-ynoic acid."
+   ]
+  },
+  {
+   "id": "ex8.4",
+   "source_ref": "Exercise 8.4",
+   "questions": [
+    "Write IUPAC and common names for CH3CO(CH2)4CH3.",
+    "Write IUPAC and common names for CH3CH2CHBrCH2CH(CH3)CHO.",
+    "Write IUPAC and common names for CH3(CH2)5CHO.",
+    "Write IUPAC and common names for Ph-CH=CH-CHO.",
+    "Write IUPAC and common names for cyclopentanecarbaldehyde.",
+    "Write IUPAC and common names for PhCOPh."
+   ]
+  },
+  {
+   "id": "ex8.5",
+   "source_ref": "Exercise 8.5",
+   "questions": [
+    "Draw structures of the 2,4-dinitrophenylhydrazone of benzaldehyde.",
+    "Draw structure of cyclopropanone oxime.",
+    "Draw structure of acetaldehydedimethylacetal.",
+    "Draw structure of the semicarbazone of cyclobutanone.",
+    "Draw structure of the ethylene ketal of hexan-3-one.",
+    "Draw structure of the methyl hemiacetal of formaldehyde."
+   ]
+  },
+  {
+   "id": "ex8.6",
+   "source_ref": "Exercise 8.6",
+   "questions": [
+    "Predict products formed when cyclohexanecarbaldehyde reacts with PhMgBr and then H3O+.",
+    "Predict products formed when cyclohexanecarbaldehyde reacts with Tollens' reagent.",
+    "Predict products formed when cyclohexanecarbaldehyde reacts with Semicarbazide and weak acid.",
+    "Predict products formed when cyclohexanecarbaldehyde reacts with excess ethanol and acid.",
+    "Predict products formed when cyclohexanecarbaldehyde reacts with Zinc amalgam and dilute HCl."
+   ]
+  },
+  {
+   "id": "ex8.7",
+   "source_ref": "Exercise 8.7",
+   "questions": [
+    "Which of Methanal, 2-Methylpentanal, Benzaldehyde, Benzophenone, Cyclohexanone, 1-Phenylpropanone, Phenylacetaldehyde, Butan-1-ol, 2,2-Dimethylbutanal undergo aldol condensation, Cannizzaro reaction, or neither?"
+   ]
+  },
+  {
+   "id": "ex8.8",
+   "source_ref": "Exercise 8.8",
+   "questions": [
+    "How will you convert ethanal into Butane-1,3-diol?",
+    "How will you convert ethanal into But-2-enal?",
+    "How will you convert ethanal into But-2-enoic acid?"
+   ]
+  },
+  {
+   "id": "ex8.9",
+   "source_ref": "Exercise 8.9",
+   "questions": [
+    "Write structural formulas and names of four possible aldol condensation products from propanal and butanal."
+   ]
+  },
+  {
+   "id": "ex8.10",
+   "source_ref": "Exercise 8.10",
+   "questions": [
+    "An organic compound C9H10O forms 2,4-DNP derivative, reduces Tollens reagent, undergoes Cannizzaro reaction, and gives 1,2-benzenedicarboxylic acid on oxidation. Identify the compound."
+   ]
+  },
+  {
+   "id": "ex8.11",
+   "source_ref": "Exercise 8.11",
+   "questions": [
+    "An organic compound (A) C8H16O2 was hydrolysed with dilute sulphuric acid to give carboxylic acid (B) and alcohol (C). Oxidation of (C) with chromic acid produced (B). Dehydration of (C) gives but-1-ene. Write equations."
+   ]
+  },
+  {
+   "id": "ex8.12",
+   "source_ref": "Exercise 8.12",
+   "questions": [
+    "Arrange Acetaldehyde, Acetone, Di-tert-butyl ketone, Methyl tert-butyl ketone in increasing reactivity towards HCN.",
+    "Arrange CH3CH2CH(Br)COOH, CH3CH(Br)CH2COOH, (CH3)2CHCOOH, CH3CH2CH2COOH in increasing acid strength.",
+    "Arrange Benzoic acid, 4-Nitrobenzoic acid, 3,4-Dinitrobenzoic acid, 4-Methoxybenzoic acid in increasing acid strength."
+   ]
+  },
+  {
+   "id": "ex8.13",
+   "source_ref": "Exercise 8.13",
+   "questions": [
+    "Give simple chemical tests to distinguish Propanal and Propanone.",
+    "Give simple chemical tests to distinguish Acetophenone and Benzophenone.",
+    "Give simple chemical tests to distinguish Phenol and Benzoic acid.",
+    "Give simple chemical tests to distinguish Benzoic acid and Ethyl benzoate.",
+    "Give simple chemical tests to distinguish Pentan-2-one and Pentan-3-one.",
+    "Give simple chemical tests to distinguish Benzaldehyde and Acetophenone.",
+    "Give simple chemical tests to distinguish Ethanal and Propanal."
+   ]
+  },
+  {
+   "id": "ex8.14",
+   "source_ref": "Exercise 8.14",
+   "questions": [
+    "How will you prepare Methyl benzoate from benzene?",
+    "How will you prepare m-Nitrobenzoic acid from benzene?",
+    "How will you prepare p-Nitrobenzoic acid from benzene?",
+    "How will you prepare Phenylacetic acid from benzene?",
+    "How will you prepare p-Nitrobenzaldehyde from benzene?"
+   ]
+  },
+  {
+   "id": "ex8.15",
+   "source_ref": "Exercise 8.15",
+   "questions": [
+    "Convert Propanone to Propene in not more than two steps.",
+    "Convert Benzoic acid to Benzaldehyde in not more than two steps.",
+    "Convert Ethanol to 3-Hydroxybutanal in not more than two steps.",
+    "Convert Benzene to m-Nitroacetophenone in not more than two steps.",
+    "Convert Benzaldehyde to Benzophenone in not more than two steps.",
+    "Convert Bromobenzene to 1-Phenylethanol in not more than two steps.",
+    "Convert Benzaldehyde to 3-Phenylpropan-1-ol in not more than two steps.",
+    "Convert Benzaldehyde to alpha-Hydroxyphenylacetic acid in not more than two steps.",
+    "Convert Benzoic acid to m-Nitrobenzyl alcohol in not more than two steps."
+   ]
+  },
+  {
+   "id": "ex8.16",
+   "source_ref": "Exercise 8.16",
+   "questions": [
+    "Describe Acetylation.",
+    "Describe Cannizzaro reaction.",
+    "Describe Cross aldol condensation.",
+    "Describe Decarboxylation."
+   ]
+  },
+  {
+   "id": "ex8.17",
+   "source_ref": "Exercise 8.17",
+   "questions": [
+    "Complete reaction scheme for aromatic formylation and acyl substitutions presented in Figure 8.17."
+   ]
+  },
+  {
+   "id": "ex8.18",
+   "source_ref": "Exercise 8.18",
+   "questions": [
+    "Why does cyclohexanone form cyanohydrin in good yield while 2,2,6-trimethylcyclohexanone does not?",
+    "Why is only one NH2 group in semicarbazide involved in semicarbazone formation?",
+    "Why should water or ester be removed continuously during esterification?"
+   ]
+  },
+  {
+   "id": "ex8.19",
+   "source_ref": "Exercise 8.19",
+   "questions": [
+    "An organic compound contains 69.77% carbon, 11.63% hydrogen, rest oxygen. Molecular mass is 86. It does not reduce Tollens reagent but forms NaHSO3 adduct and gives iodoform test. On oxidation it gives ethanoic and propanoic acid. Write structure."
+   ]
+  },
+  {
+   "id": "ex8.20",
+   "source_ref": "Exercise 8.20",
+   "questions": [
+    "Although phenoxide ion has more resonating structures than carboxylate ion, carboxylic acid is a stronger acid than phenol. Why?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

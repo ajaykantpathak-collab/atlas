@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch11_007",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch11_007",
+   "title": "c7_math_ch11_007",
+   "questions": [
+    {
+     "q": "What is the definition of the Least Common Multiple (LCM) of two numbers?",
+     "a": "The LCM is the smallest non-zero positive integer that is a multiple of both given numbers. A student who answers that LCM is the largest common factor confuses LCM with HCF (Highest Common Factor), showing a mix-up between division-based factors and multiplication-based multiples.",
+     "self_check": true
+    },
+    {
+     "q": "When listing multiples to find the LCM of 4 and 6, why do we stop listing once we find the first number that appears in both lists?",
+     "a": "We stop at the first matching multiple because the LCM, by definition, is the *least* (smallest) common multiple, and any subsequent common multiples will only be larger than the first one found. A student who thinks we must list all infinite multiples misses the fundamental definition of \"least\" and wastes time searching for non-existent lower values.",
+     "self_check": true
+    },
+    {
+     "q": "Find the LCM of 5 and 7 by listing their first few multiples.",
+     "a": "Multiples of 5: 5, 10, 15, 20, 25, 30, 35, 40... Multiples of 7: 7, 14, 21, 28, 35, 42... The first common multiple is 35. Therefore, LCM(5, 7) = 35. A student who answers 70 found a common multiple but failed to check if it was the *least* one, or multiplied the numbers blindly without listing.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the LCM of 4 and 8 with the original numbers. What pattern do you observe when one number is a multiple of the other?",
+     "a": "Multiples of 4: 4, 8, 12... Multiples of 8: 8, 16, 24... The LCM is 8, which is the larger of the two numbers. When a larger number is a direct multiple of a smaller number, the larger number is always their LCM because it is the first multiple of itself. A student who tries to calculate a new larger product fails to notice the divisibility relationship between the numbers.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that the LCM of 6 and 9 is 18, and lists multiples of 6 as 6, 12, 24, 30 and multiples of 9 as 9, 18, 27. Is the student's LCM correct, and is their listing process accurate?",
+     "a": "The LCM value of 18 is correct because 18 is indeed the smallest common multiple of 6 and 9. However, the student's listing process for 6 is flawed because they skipped 18 in their list of multiples of 6 (6, 12, 18, 24...). A student who agrees with the listing process misses the skipped value and fails to verify that every table step is complete.",
+     "self_check": true
+    },
+    {
+     "q": "Create a pair of numbers whose LCM is 12, other than 3 and 4 or 12 and 1, and show how the listing method proves it.",
+     "a": "Numbers 2 and 6. Multiples of 2: 2, 4, 6, 8, 10, 12... Multiples of 6: 6, 12, 18... The first common multiple appearing in both lists is 12, proving the LCM is 12. A poor answer gives numbers whose LCM is not 12, such as 3 and 5 (LCM 15), showing a failure to work backward from a target LCM.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

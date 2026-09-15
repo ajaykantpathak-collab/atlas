@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_03_010",
+   "title": "c12_chem_cbse_03_010",
+   "questions": [
+    {
+     "q": "State the two main criteria that a collision between reactant molecules must satisfy to be considered an \"effective collision\" according to collision theory.",
+     "a": "The two criteria are: (1) the colliding molecules must have a relative kinetic energy equal to or greater than the activation energy (Ea) of the reaction, and (2) they must be oriented properly in space so that the reacting bonds can break and new bonds can form. A wrong answer that mentions only energy or only orientation reveals that the student has missed the dual requirement central to collision theory.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why not all collisions between reactant molecules that possess energy greater than the activation energy lead to product formation.",
+     "a": "Even when the energy criterion is met, the molecules must also collide with the correct spatial orientation. If the reactive sites (e.g., the atoms that need to form new bonds) are not aligned properly, the collision is ineffective — the molecules simply bounce apart without reacting. A student who claims \"all energetic collisions react\" confuses the necessary condition (energy) with the sufficient condition (energy + orientation).",
+     "self_check": true
+    },
+    {
+     "q": "For a bimolecular gas‑phase reaction A + B → Products, the collision frequency Z_AB is 5.0 × 10¹⁰ L mol⁻¹ s⁻¹ at 300 K. The activation energy Ea = 50 kJ mol⁻¹ and the steric factor P = 0.1. Calculate the rate constant k using the collision theory expression. (R = 8.314 J mol⁻¹ K⁻¹)",
+     "a": "Step 1: Compute the Boltzmann factor: e^{-Ea/RT} = e^{-50000/(8.314×300)} = e^{-20.05} = 1.96 × 10⁻⁹.  \nStep 2: Apply k = P·Z_AB·e^{-Ea/RT} = 0.1 × (5.0 × 10¹⁰) × (1.96 × 10⁻⁹) = 9.8 × 10⁻³ L mol⁻¹ s⁻¹.  \nA common error is forgetting the steric factor P or using log₁₀ instead of natural log, which would give a wrong exponent. Missing P entirely would overestimate k by a factor of 10.",
+     "self_check": true
+    },
+    {
+     "q": "The rate constant for a bimolecular reaction is 2.5 × 10⁻³ L mol⁻¹ s⁻¹ at 300 K. The collision frequency Z_AB is 1.0 × 10¹¹ L mol⁻¹ s⁻¹ and the steric factor P is 0.05. Calculate the activation energy Ea. (R = 8.314 J mol⁻¹ K⁻¹)",
+     "a": "Rearrange k = P·Z_AB·e^{-Ea/RT} → e^{-Ea/RT} = k/(P·Z_AB) = 2.5×10⁻³/(0.05×1.0×10¹¹) = 5.0×10⁻¹³.  \nTake natural log: -Ea/RT = ln(5.0×10⁻¹³) = -28.33 → Ea = 28.33 × 8.314 × 300 = 70,700 J mol⁻¹ = 70.7 kJ mol⁻¹.  \nA wrong answer often results from using log₁₀ instead of ln (giving Ea ≈ 163 kJ mol⁻¹) or misplacing the decimal in the ratio.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Increasing the temperature increases the rate constant mainly because it increases the collision frequency Z_AB.\" Evaluate this statement using collision theory.",
+     "a": "The statement is incomplete and misleading. While Z_AB does increase with √T, the dominant effect of temperature is the exponential increase in the fraction of molecules with energy ≥ Ea (the e^{-Ea/RT} term). For a typical Ea ≈ 50 kJ mol⁻¹, a 10 K rise near 300 K roughly doubles the rate constant, whereas Z_AB increases by only ~1.6%. A student who agrees fully has not grasped the relative magnitudes of the two factors.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using everyday materials to demonstrate that molecular orientation affects the rate of a chemical reaction.",
+     "a": "A good answer: Use a matchbox — striking the match on the side (proper orientation of the match head against the abrasive strip) produces fire, whereas just heating the match head with a flame (random orientation of heat) does not light it as reliably. Alternatively, mix baking soda and vinegar by pouring one into the other (random orientation) vs. shaking the mixture vigorously (forcing more oriented collisions) and observe the difference in gas evolution rate. A poor answer only varies temperature or concentration, missing the orientation aspect entirely.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

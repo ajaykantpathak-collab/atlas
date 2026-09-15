@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch2_2",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch2_2",
+   "title": "c9_math_ch2_2",
+   "questions": [
+    {
+     "q": "What is the degree of the polynomial \\(7x - 3\\)? State the leading coefficient and the constant term.",
+     "a": "The degree is 1, the leading coefficient is 7, and the constant term is -3. A wrong answer (e.g., degree 0, or leading coefficient -3) reveals the student confuses the constant term with the coefficient of \\(x\\), or thinks the degree is the number of terms rather than the highest power of the variable.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the polynomial \\(5 - 2x\\) and says \"the leading coefficient is 5 because it comes first.\" Explain why this reasoning is incorrect and identify the actual leading coefficient and constant term.",
+     "a": "The leading coefficient is -2 (the coefficient of \\(x\\)) and the constant term is 5. The student's error reveals the misconception that \"leading\" refers to the first term written, rather than the term with the highest power of the variable. In standard form \\(ax + b\\), the term with \\(x\\) (power 1) is the leading term regardless of writing order.",
+     "self_check": true
+    },
+    {
+     "q": "Find the degree, leading coefficient, and constant term of the polynomial \\(\\frac{3}{4}x + \\frac{1}{2}\\). Then evaluate the polynomial at \\(x = 4\\).",
+     "a": "Degree = 1, leading coefficient = \\(\\frac{3}{4}\\), constant term = \\(\\frac{1}{2}\\). At \\(x = 4\\): \\(\\frac{3}{4}(4) + \\frac{1}{2} = 3 + \\frac{1}{2} = \\frac{7}{2}\\) or 3.5. A wrong evaluation (e.g., \\(\\frac{3}{4} \\times 4 = 12\\)) reveals the student multiplies numerator by 4 without dividing by 4, showing weak fraction arithmetic.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the polynomials \\(P(x) = 2x + 5\\) and \\(Q(x) = 5x + 2\\). Compare their degrees, leading coefficients, and constant terms. If \\(x\\) represents hours worked and the polynomials represent earnings in rupees, which plan pays more per hour? Which has a higher starting bonus?",
+     "a": "Both have degree 1. \\(P(x)\\): leading coefficient 2, constant 5. \\(Q(x)\\): leading coefficient 5, constant 2. \\(Q(x)\\) pays more per hour (₹5 vs ₹2). \\(P(x)\\) has higher starting bonus (₹5 vs ₹2). A wrong comparison reveals the student cannot interpret coefficients contextually — they see numbers but not the rate vs fixed amount distinction.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The polynomial \\(0x + 7\\) is linear because it has an \\(x\\) term.\" Evaluate this claim. Is the polynomial linear? Justify your answer using the definition of a linear polynomial.",
+     "a": "The claim is false. \\(0x + 7\\) simplifies to 7, which is a constant polynomial of degree 0. For a polynomial to be linear, the coefficient of \\(x\\) must be non-zero (\\(a \\neq 0\\)). The student's error reveals they focus on the presence of the symbol \\(x\\) rather than the mathematical condition \\(a \\neq 0\\).",
+     "self_check": true
+    },
+    {
+     "q": "Create a linear polynomial in \\(x\\) that represents this situation: \"A taxi charges ₹15 per kilometre plus a fixed boarding charge of ₹25.\" Identify its degree, leading coefficient, and constant term. Then write a different linear polynomial where the per-km rate is higher but the boarding charge is lower.",
+     "a": "First polynomial: \\(15x + 25\\). Degree = 1, leading coefficient = 15, constant term = 25. Second example: \\(20x + 10\\) (or any \\(ax + b\\) with \\(a > 15\\) and \\(b < 25\\)). A poor answer (e.g., \\(x + 40\\) or \\(15x^2 + 25\\)) reveals the student cannot translate rates to coefficients, or confuses linear with quadratic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

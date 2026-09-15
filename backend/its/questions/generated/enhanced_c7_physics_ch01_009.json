@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch01_009",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch01_009",
+   "title": "c7_physics_ch01_009",
+   "questions": [
+    {
+     "q": "What is the primary goal of applying scientific methods to environmental challenges?",
+     "a": "The primary goal is to systematically observe, measure, and understand ecological issues so that evidence-based, sustainable solutions can be developed. A wrong answer often assumes science's role is merely to exploit natural resources faster or ignores the importance of data collection, revealing a lack of understanding of scientific temper.",
+     "self_check": true
+    },
+    {
+     "q": "Why is monitoring energy consumption in households and schools considered a crucial part of addressing global environmental challenges?",
+     "a": "Most electricity generation relies on burning fossil fuels, which releases greenhouse gases and causes pollution; therefore, reducing energy consumption directly lowers our carbon footprint. A wrong answer might claim that saving energy only saves money on utility bills without linking it to atmospheric science and climate change, showing a fragmented view of science and society.",
+     "self_check": true
+    },
+    {
+     "q": "A school uses 500 kWh of electrical energy per month. If a solar panel installation reduces this grid energy consumption by 40%, how much grid energy does the school consume per month now?",
+     "a": "Steps: \n1. Identify initial energy consumption = 500 kWh and reduction percentage = 40%.\n2. Calculate the energy reduced: (40 / 100) * 500 kWh = 200 kWh.\n3. Subtract the reduced energy from the initial consumption: 500 kWh - 200 kWh = 300 kWh.\n4. Verify unit consistency and physical reasonableness: energy saved is in kWh, and remaining grid energy is 300 kWh.\nAnswer: 300 kWh per month. A wrong answer often results from calculating 40% and forgetting to subtract it from the total, indicating a procedural math error in percentage application.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the difference between using incandescent bulbs and LED bulbs in terms of energy efficiency and environmental impact. Why does replacing incandescent bulbs help mitigate environmental challenges?",
+     "a": "Incandescent bulbs convert a large portion of electrical energy into thermal energy (heat) rather than light, requiring more power generation from fossil fuels. LED bulbs convert electrical energy much more efficiently into light with minimal heat wastage, thereby reducing total power demand, fuel combustion, and carbon emissions. A wrong answer assumes all bulbs have the same environmental impact because they produce light, ignoring energy conversion efficiency.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Planting trees in urban areas only improves how the city looks and has no measurable physical effect on environmental challenges.\" Is this correct? Justify your answer.",
+     "a": "The claim is false because trees provide shade and undergo transpiration, which lowers local ambient temperatures through evaporative cooling, counteracting the urban heat island effect. Furthermore, they absorb carbon dioxide during photosynthesis, directly addressing greenhouse gas accumulation. A wrong answer agrees with the claim, showing a failure to connect biological and physical processes to environmental mitigation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple, low-cost scientific investigation using household materials to test how different surfaces (such as dark soil, white paper, and green grass) absorb radiant heat from the sun, and explain how this relates to urban environmental heating.",
+     "a": "A good design places identical thermometers under or on top of samples of dark soil, white paper, and green grass placed in sunlight, recording temperature changes every 5 minutes for 20 minutes. It should explain that darker surfaces absorb more solar radiation while lighter surfaces reflect it, which helps us understand why concrete cities get hotter than vegetated rural areas. A poor design lacks measurable variables or fails to connect surface color to heat absorption and environmental temperature.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

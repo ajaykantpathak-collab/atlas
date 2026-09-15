@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_05_010",
+   "title": "c10_math_cbse_05_010",
+   "questions": [
+    {
+     "q": "State the formula that relates the nth term a_n of an AP to the sum of first n terms S_n and the sum of first (n-1) terms S_{n-1}. Also state the value of a_1 in terms of S_1.",
+     "a": "The relationship is a_n = S_n - S_{n-1} for n ≥ 2, and a_1 = S_1. A wrong answer like a_n = S_n + S_{n-1} or a_n = S_{n-1} - S_n reveals the student confuses the direction of subtraction. Writing a_1 = S_1 - S_0 (where S_0 is undefined) shows they don't understand the base case n=1 is special because there is no \"sum of zero terms\" defined in the standard AP sum formula.",
+     "self_check": true
+    },
+    {
+     "q": "If S_n = 3n^2 + 5n for an AP, explain why a_n = S_n - S_{n-1} will always give a linear expression in n (i.e., of the form A + Bn), and why this confirms the sequence is an AP.",
+     "a": "Since S_n is a quadratic polynomial in n (degree 2), S_{n-1} is also quadratic. Their difference S_n - S_{n-1} eliminates the n^2 term, leaving a linear expression in n (degree 1). A linear nth term a_n = A + Bn means the common difference is constant (B), which is the definition of an AP. If a student says \"because the formula says so\" or \"S_n is quadratic so a_n is linear\" without showing the cancellation of n^2 terms, they lack conceptual understanding of why the degree drops by 1.",
+     "self_check": true
+    },
+    {
+     "q": "For an AP, the sum of first n terms is given by S_n = 2n^2 + 3n. Find the 10th term of this AP.",
+     "a": "Given S_n = 2n^2 + 3n.\nStep 1: Find S_10 = 2(10)^2 + 3(10) = 200 + 30 = 230.\nStep 2: Find S_9 = 2(9)^2 + 3(9) = 162 + 27 = 189.\nStep 3: a_10 = S_10 - S_9 = 230 - 189 = 41.\nAlternatively, derive general a_n: S_{n-1} = 2(n-1)^2 + 3(n-1) = 2(n^2 - 2n + 1) + 3n - 3 = 2n^2 - 4n + 2 + 3n - 3 = 2n^2 - n - 1.\na_n = S_n - S_{n-1} = (2n^2 + 3n) - (2n^2 - n - 1) = 4n + 1.\nThen a_10 = 4(10) + 1 = 41.\nA wrong answer like 40 or 42 usually comes from arithmetic errors in expanding (n-1)^2 or sign errors in subtracting S_{n-1}. Writing a_10 = S_10 directly (230) shows confusion between term and sum.",
+     "self_check": true
+    },
+    {
+     "q": "The nth term of an AP is given by a_n = 7 - 2n. Two students find S_n differently:\nStudent A uses S_n = n/2 [2a + (n-1)d] after finding a = 5, d = -2.\nStudent B uses S_n = Σ_{k=1}^n (7 - 2k) and sums separately.\nWill they get the same formula for S_n? Justify your answer by deriving S_n using both methods.",
+     "a": "Yes, both methods yield the same S_n.\nMethod A: a_1 = 7-2 = 5, d = a_2 - a_1 = (7-4) - 5 = -2. S_n = n/2 [2(5) + (n-1)(-2)] = n/2 [10 - 2n + 2] = n/2 [12 - 2n] = 6n - n^2.\nMethod B: S_n = Σ(7 - 2k) = 7n - 2 Σk = 7n - 2[n(n+1)/2] = 7n - n(n+1) = 7n - n^2 - n = 6n - n^2.\nBoth give S_n = 6n - n^2. If a student says \"Method B is wrong because you can't split the sum\" or gets different answers, they don't understand the linearity of summation or the equivalence of the two sum formulas. This tests deep understanding that the sum formula is derivable from the nth term formula.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If S_n = 5n^2 - 3n for an AP, then the common difference d = 10 because the coefficient of n^2 is 5, and d = 2 × (coefficient of n^2).\" Evaluate this claim. Is the student's reasoning correct? If not, what is the correct value of d and why?",
+     "a": "The student's final answer d = 10 is correct, but the reasoning \"d = 2 × coefficient of n^2\" is a shortcut that works only when S_n is expressed as a polynomial in n with no constant term. The correct derivation: a_n = S_n - S_{n-1} = (5n^2 - 3n) - [5(n-1)^2 - 3(n-1)] = 5n^2 - 3n - [5n^2 - 10n + 5 - 3n + 3] = 10n - 8. Then d = a_n - a_{n-1} = (10n - 8) - (10(n-1) - 8) = 10. The coefficient of n^2 in S_n is 5, and indeed d = 2 × 5 = 10. However, if S_n had a constant term (e.g., S_n = 5n^2 - 3n + 2), the sequence would not be an AP (S_1 ≠ a_1). The student's reasoning is incomplete without verifying S_0 = 0 or deriving properly. A wrong answer like \"d = -3\" (coefficient of n) shows confusion between nth term and sum formulas.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (Indian context: savings, instalments, seating arrangement, etc.) where the sum of first n terms S_n is given as a quadratic expression, and the question asks to find a specific term (e.g., \"Find the amount saved in the 8th month\"). Provide the complete problem statement, the S_n formula you choose, and the full solution.",
+     "a": "Problem: \"Meena starts a recurring deposit where she saves ₹200 in the first month and increases her monthly deposit by ₹50 every month. The total amount saved after n months is given by S_n = 25n^2 + 175n. How much does she deposit in the 8th month?\"\nSolution: S_8 = 25(64) + 175(8) = 1600 + 1400 = 3000. S_7 = 25(49) + 175(7) = 1225 + 1225 = 2450. Deposit in 8th month = S_8 - S_7 = 3000 - 2450 = ₹550.\nCheck: a = 200, d = 50. a_8 = 200 + 7(50) = 550. ✓\nA good answer includes a realistic context, correct S_n formula matching the story (quadratic with no constant term, positive coefficients), and correct use of a_n = S_n - S_{n-1}. A poor answer gives S_n with a constant term (invalid for AP sum), or asks for S_n instead of a_n, or has arithmetic errors.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

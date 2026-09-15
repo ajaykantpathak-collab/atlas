@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch1_1",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch1_1",
+   "title": "c8_eco_ch1_1",
+   "questions": [
+    {
+     "q": "What are the two primary components that make up any basic economic production process?",
+     "a": "The two primary components are inputs and outputs. A student who answers incorrectly by naming only money or factories is confusing the general definition of production with specific types of capital or financial resources.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a wooden chair considered an output rather than an input when a carpenter finishes making it in a workshop?",
+     "a": "A wooden chair is an output because it is the final product created after transforming raw materials, whereas inputs are the resources like wood, nails, and tools used to make it. A student who thinks the chair is an input fails to understand that outputs are the final goods or services resulting from a production process.",
+     "self_check": true
+    },
+    {
+     "q": "A local pottery maker uses 5 kilograms of clay, worth ₹150, and spends 2 hours of labor valued at ₹100 to make 2 finished clay pots that sell for ₹200 each. Calculate the total value of inputs and the total value of outputs.",
+     "a": "Step 1: Identify material input cost = ₹150. Step 2: Identify labor input cost = ₹100. Step 3: Calculate total input value = ₹150 + ₹100 = ₹250. Step 4: Calculate total output value = 2 pots × ₹200 = ₹400. A student who calculates only the material cost and forgets labor is missing the complete definition of production input costs.",
+     "self_check": true
+    },
+    {
+     "q": "How does the transformation of raw cotton into a finished school uniform demonstrate the core concept of the production process?",
+     "a": "Raw cotton, buttons, and thread serve as inputs, which are processed using sewing machines and tailoring labor (the transformation), resulting in a school uniform (the output) that has a higher utility and economic value than raw cotton alone. A student who argues that cotton and uniforms are identical ignores how processing adds value and utility to materials.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether a computer software program created by an IT firm in Bengaluru fits the definition of an output in the production process, even though it is intangible.",
+     "a": "Yes, software is an output because production includes the creation of both physical goods and intangible services that satisfy human needs, utilizing computer hardware, electricity, and software engineers as inputs. A student who claims only physical objects can be outputs has a narrow view of production that ignores the modern service economy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple production process for making fresh lemonade at a school stall, clearly identifying at least two inputs and one output.",
+     "a": "A complete answer must list specific inputs (e.g., lemons, sugar, water, ice, plastic cups, knife, squeezer, student labor) and an output (glasses of fresh lemonade ready for sale). A poor answer lists random items without showing how they are transformed into a final consumable product.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

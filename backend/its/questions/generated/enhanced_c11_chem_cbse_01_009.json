@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_01_009",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_01_009",
+   "title": "c11_chem_cbse_01_009",
+   "questions": [
+    {
+     "q": "Calculate the percentage composition of carbon in glucose (C₆H₁₂O₆) given atomic masses: C = 12.01 u, H = 1.008 u, O = 16.00 u.",
+     "a": "Correct answer: 40.00%. Molar mass of glucose = 6(12.01) + 12(1.008) + 6(16.00) = 180.156 g/mol. Mass of carbon = 6 × 12.01 = 72.06 g. %C = (72.06/180.156)×100 = 40.00%. A wrong answer like 40% without decimal places reveals the student is rounding atomic masses prematurely (using 12, 1, 16) which gives 40.0% but loses precision needed for empirical formula work. An answer of 33.3% reveals the student divided by number of elements (3) instead of calculating mass contribution.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates %O in H₂SO₄ as (16/98)×100 = 16.33%. Explain why this is incorrect and give the correct calculation.",
+     "a": "The student used atomic mass of one oxygen atom (16 u) instead of total mass of oxygen in the formula unit. H₂SO₄ has 4 oxygen atoms, so total oxygen mass = 4 × 16.00 = 64.00 g/mol. Molar mass = 2(1.008) + 32.06 + 64.00 = 98.076 g/mol. Correct %O = (64.00/98.076)×100 = 65.26%. This error reveals the student confuses \"atomic mass of an element\" with \"total mass of that element in one formula unit\" - a critical distinction for polyatomic compounds.",
+     "self_check": true
+    },
+    {
+     "q": "A 5.00 g sample of a compound containing only C, H, and O gives 11.00 g CO₂ and 4.50 g H₂O on complete combustion. Find the percentage composition of each element in the compound.",
+     "a": "Step 1: Moles CO₂ = 11.00/44.01 = 0.2499 mol → moles C = 0.2499 mol → mass C = 0.2499 × 12.01 = 3.001 g.\nStep 2: Moles H₂O = 4.50/18.015 = 0.2498 mol → moles H = 2 × 0.2498 = 0.4996 mol → mass H = 0.4996 × 1.008 = 0.5036 g.\nStep 3: Mass O = 5.00 - 3.001 - 0.5036 = 1.495 g.\nStep 4: %C = (3.001/5.00)×100 = 60.02%; %H = (0.5036/5.00)×100 = 10.07%; %O = (1.495/5.00)×100 = 29.91%.\nA wrong answer where %C+%H+%O ≠ 100% reveals arithmetic errors or forgetting that oxygen mass is found by difference. Using 44 and 18 instead of 44.01 and 18.015 gives slightly off values (60.0%, 10.0%, 30.0%) - acceptable for board exams but shows rounding awareness.",
+     "self_check": true
+    },
+    {
+     "q": "Two samples of a compound are analyzed. Sample A: 40.0% C, 6.7% H, 53.3% O. Sample B: 40.0% C, 6.7% H, 53.3% O. Both have molar mass 180 g/mol. Are they necessarily the same compound? Explain.",
+     "a": "Yes, they are the same compound. Identical percentage composition means identical empirical formula (CH₂O, empirical mass = 30 g/mol). With molar mass 180 g/mol, n = 180/30 = 6, giving molecular formula C₆H₁₂O₆ for both. The Law of Definite Proportions states a given compound always has the same elemental composition by mass. A \"no\" answer reveals confusion: the student might think different structural isomers (like glucose vs fructose) are \"different compounds\" in terms of percentage composition - but isomers have identical % composition. This question tests understanding that % composition determines empirical formula, and with molar mass, molecular formula - but not structure.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since NaCl is 39.3% Na and 60.7% Cl, in 100 g of NaCl there are 39.3 g Na atoms and 60.7 g Cl atoms.\" Evaluate this statement.",
+     "a": "The statement is correct in terms of mass but chemically imprecise. \"Na atoms\" and \"Cl atoms\" is wrong - in solid NaCl, there are no discrete Na atoms or Cl atoms; there are Na⁺ ions and Cl⁻ ions in a crystal lattice. The masses are correct: 39.3 g of sodium (as Na⁺ ions) and 60.7 g of chlorine (as Cl⁻ ions). A fully correct statement: \"In 100 g of NaCl, the mass of sodium is 39.3 g and mass of chlorine is 60.7 g.\" This evaluates understanding of ionic vs molecular compounds and precision in chemical language - crucial for board exam answer writing.",
+     "self_check": true
+    },
+    {
+     "q": "Design a method to check the purity of a commercial sample of washing soda (Na₂CO₃·10H₂O) using only percentage composition analysis. What %Na would you expect for pure sample?",
+     "a": "Expected %Na for pure Na₂CO₃·10H₂O: Molar mass = 2(23) + 12 + 3(16) + 10(18) = 286 g/mol. Mass Na = 46 g. %Na = (46/286)×100 = 16.08%. Method: Accurately weigh ~2 g sample, dissolve, precipitate carbonate as CaCO₃ using excess CaCl₂, filter, dry, weigh CaCO₃. From mass CaCO₃, calculate mass CO₃²⁻, then mass Na₂CO₃, then %Na. Compare to 16.08%. Lower %Na indicates impurities (like NaCl, Na₂SO₄) or partial dehydration. A poor answer would suggest \"measure %Na directly\" without a chemical method, or forget the water of crystallization in molar mass (giving %Na = 46/106 = 43.4% for anhydrous). This tests application to real-world quality control and hydrate handling.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_10_010",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_10_010",
+   "title": "c11_cs_cbse_10_010",
+   "questions": [
+    {
+     "q": "What is the exact position where a new element is inserted during an enqueue operation in a linear queue, and what happens to the rear pointer?",
+     "a": "The new element is inserted at the rear end (the position currently pointed to by the rear pointer), and then the rear pointer is incremented by one to point to the next available position. A wrong answer (e.g., \"insert at front\" or \"rear moves left\") reveals the student is confusing queue with stack (LIFO) or does not understand the directional nature of FIFO.",
+     "self_check": true
+    },
+    {
+     "q": "If a queue currently contains [10, 20, 30] with front at index 0 and rear at index 3 (size 5), what will be the queue contents and front/rear positions after performing dequeue() followed by enqueue(40)?",
+     "a": "After dequeue(): queue becomes [20, 30], front moves to index 1, rear stays at 3. After enqueue(40): queue becomes [20, 30, 40], front at 1, rear moves to 4. A wrong answer (e.g., front stays at 0, or 40 inserted at index 0) shows the student thinks dequeue removes from rear or enqueue inserts at front, violating FIFO.",
+     "self_check": true
+    },
+    {
+     "q": "Write the pseudocode for the enqueue operation in a linear queue of fixed size MAX, including the overflow check. Assume the queue is implemented using an array with front and rear indices.",
+     "a": "```\nENQUEUE(value):\n    IF rear == MAX:\n        PRINT \"Overflow\"\n        RETURN\n    queue[rear] = value\n    rear = rear + 1\n```\nA wrong answer missing the overflow check or using `rear == MAX-1` (off-by-one) reveals the student does not understand that rear points to the next free slot, not the last occupied slot, or ignores boundary conditions critical in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the time complexity of enqueue and dequeue in a linear queue implemented with an array where dequeue shifts all elements left versus one where front pointer simply increments. Which is better and why?",
+     "a": "Shifting elements makes dequeue O(n) because all remaining elements move one position left. Using a moving front pointer makes dequeue O(1) but wastes memory as the array space before front becomes unusable. The moving-front approach is better for performance; the shifting approach is only used when memory is extremely constrained. A student who says both are O(1) or both O(n) fails to analyze the impact of implementation choices on complexity.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In a queue, if I enqueue 5, then 10, then dequeue, then enqueue 15, the order of elements from front to rear is 10, 5, 15.\" Evaluate this claim and correct it if wrong.",
+     "a": "The claim is wrong. Correct order: enqueue(5) → [5]; enqueue(10) → [5,10]; dequeue() removes 5 → [10]; enqueue(15) → [10,15]. Front to rear is 10, 15. The student likely thinks dequeue removes the most recent (stack behavior) or that enqueue adds at front. This reveals a fundamental confusion between LIFO and FIFO.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (not a ticket counter) where a queue is the appropriate data structure, and write a sequence of 5 enqueue/dequeue operations that demonstrates a non-trivial state change (e.g., queue becomes empty then non-empty again).",
+     "a": "Scenario: A printer queue in a school computer lab. Operations: enqueue(DocA), enqueue(DocB), dequeue() → prints DocA, dequeue() → prints DocB (queue empty), enqueue(DocC). Final queue: [DocC]. A poor answer uses a stack-like scenario (e.g., undo button) or operations that don't show empty-to-non-empty transition, indicating inability to map FIFO to real life.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

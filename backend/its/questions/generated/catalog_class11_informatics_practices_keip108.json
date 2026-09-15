@@ -1,0 +1,253 @@
+{
+ "catalog": "catalog_class11_informatics_practices_keip108",
+ "concepts": [
+  {
+   "id": "keip108.1",
+   "title": "CHAR versus VARCHAR Storage",
+   "questions": [
+    {
+     "q": "Using the method 'CHAR versus VARCHAR Storage', work with: char_width = 30, entered_chars = 20, row_count = 500. Carry the chain through step by step and give the final value of bytes_saved.",
+     "a": "5000 bytes",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'CHAR versus VARCHAR Storage' and work with: char_width = 400, entered_chars = 75, row_count = 100. Carry the chain through step by step and give the final value of bytes_saved.",
+     "a": "32500 bytes",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'CHAR versus VARCHAR Storage' refers to.",
+     "a": "CHAR(n) reserves room for exactly n characters and pads shorter entries with trailing spaces, while VARCHAR(n) only caps the length and stores just the characters actually typed. Choosing VARCHAR over CHAR for short entries in a wide table therefore saves the padding on every single row.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'CHAR versus VARCHAR Storage'.",
+     "a": "Fixed width pays for the padding on every row; variable width pays only for what is typed.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'CHAR versus VARCHAR Storage', in plain ASCII form.",
+     "a": "bytes_saved = table_bytes_char - table_bytes_varchar",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip108.2",
+   "title": "MySQL Data Types and Constraints",
+   "questions": [
+    {
+     "q": "Using the method 'MySQL Data Types and Constraints', work with: yyyy_mm_dd = 24. Carry the chain through step by step and give the final value of date_format.",
+     "a": "24 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'MySQL Data Types and Constraints' and work with: yyyy_mm_dd = 3. Carry the chain through step by step and give the final value of date_format.",
+     "a": "3 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'MySQL Data Types and Constraints' refers to.",
+     "a": "Every column gets a data type: INT for whole numbers (4 bytes each, BIGINT 8), FLOAT for decimals (4 bytes), DATE for calendar values written as yyyy-mm-dd, CHAR and VARCHAR for text. Constraints then police the values: NOT NULL forbids blanks, UNIQUE forbids repeats, DEFAULT supplies a fallback, PRIMARY KEY identifies each row, and FOREIGN KEY points at another table's key.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'MySQL Data Types and Constraints'.",
+     "a": "Types decide what a column can hold, constraints decide what it must obey; together they keep data reliable.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'MySQL Data Types and Constraints', in plain ASCII form.",
+     "a": "date_format = yyyy_mm_dd",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip108.3",
+   "title": "DDL: CREATE, ALTER, DROP, DESCRIBE",
+   "questions": [
+    {
+     "q": "Using the method 'DDL: CREATE, ALTER, DROP, DESCRIBE', work with: add_or_modify_or_drop = 75. Carry the chain through step by step and give the final value of alter_statement.",
+     "a": "75 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'DDL: CREATE, ALTER, DROP, DESCRIBE' and work with: add_or_modify_or_drop = 240. Carry the chain through step by step and give the final value of alter_statement.",
+     "a": "240 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'DDL: CREATE, ALTER, DROP, DESCRIBE' refers to.",
+     "a": "Structure is managed with the Data Definition Language: CREATE DATABASE and CREATE TABLE build the containers, USE selects the active database, DESCRIBE (or DESC) prints a table's columns and types, ALTER TABLE adds, modifies or drops columns and constraints, and DROP removes a table or whole database permanently and irreversibly.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'DDL: CREATE, ALTER, DROP, DESCRIBE'.",
+     "a": "CREATE builds, DESCRIBE inspects, ALTER adjusts structure, DROP destroys without any undo.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'DDL: CREATE, ALTER, DROP, DESCRIBE', in plain ASCII form.",
+     "a": "alter_statement = add_or_modify_or_drop",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip108.4",
+   "title": "DML: INSERT, UPDATE, DELETE",
+   "questions": [
+    {
+     "q": "Using the method 'DML: INSERT, UPDATE, DELETE', work with: column_count = 25. Carry the chain through step by step and give the final value of insert_values_match.",
+     "a": "25 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'DML: INSERT, UPDATE, DELETE' and work with: column_count = 10. Carry the chain through step by step and give the final value of insert_values_match.",
+     "a": "10 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'DML: INSERT, UPDATE, DELETE' refers to.",
+     "a": "Rows are maintained with three statements: INSERT INTO puts new records in, naming columns explicitly when only some values are known; UPDATE ... SET rewrites existing values and must carry a WHERE clause to spare the other rows; DELETE FROM removes matching rows, and omitting its WHERE clause wipes the entire table.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'DML: INSERT, UPDATE, DELETE'.",
+     "a": "Insert adds rows, update edits them, delete removes them; without WHERE the last two hit every row.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'DML: INSERT, UPDATE, DELETE', in plain ASCII form.",
+     "a": "insert_values_match = column_count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip108.5",
+   "title": "Annual Salary Computed Column",
+   "questions": [
+    {
+     "q": "Using the method 'Annual Salary Computed Column', work with: monthly_bonus = 240, monthly_salary = 8000, pay_months = 20. Carry the chain through step by step and give the final value of annual_total.",
+     "a": "164800 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Annual Salary Computed Column' and work with: monthly_bonus = 6, monthly_salary = 2500, pay_months = 500. Carry the chain through step by step and give the final value of annual_total.",
+     "a": "1253000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Annual Salary Computed Column' refers to.",
+     "a": "A SELECT list may hold arithmetic on columns, not just raw columns: multiplying the pay column by 12 produces each employee's yearly figure, and the keyword AS renames the computed output for display. Such a calculated column exists only in the query result and never becomes a stored column.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Annual Salary Computed Column'.",
+     "a": "Arithmetic inside the SELECT list computes per row; AS only relabels the output column.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Annual Salary Computed Column', in plain ASCII form.",
+     "a": "annual_total = monthly_gross * pay_months",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip108.6",
+   "title": "Net Profit of Movies",
+   "questions": [
+    {
+     "q": "Find the net profit of each movie in the MOVIE table showing its ID, name and net profit. Use the method 'Net Profit of Movies'. Work with: business_cost = 12000, production_cost = 80000. Carry the chain through step by step and give the final value of margin_percent.",
+     "a": "-85 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Compute the net profit of the movie with production cost 124500 and business cost 130000. Use the method 'Net Profit of Movies'. Work with: business_cost = 2500, production_cost = 500. Carry the chain through step by step and give the final value of margin_percent.",
+     "a": "400 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Net Profit of Movies' refers to.",
+     "a": "Two stored columns can be subtracted inside a query to yield a business answer: for each movie, the net profit is the business cost minus the production cost, and expressing that profit as a percentage of the production cost shows the return margin. For an unreleased movie both figures are unknown, so the computed result stays unknown too.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Net Profit of Movies'.",
+     "a": "Business cost minus production cost gives the profit row by row; divide by the production cost for the margin percent.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Net Profit of Movies', in plain ASCII form.",
+     "a": "net_profit = business_cost - production_cost",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip108.7",
+   "title": "Department Salary Aggregate",
+   "questions": [
+    {
+     "q": "Find the total of the salaries paid in department D01 of the EMPLOYEE table. Use the method 'Department Salary Aggregate'. Work with: dept_employee_count = 100, salary_one = 50000, salary_three = 500, salary_two = 12000. Carry the chain through step by step and give the final value of dept_salary_average.",
+     "a": "625 years",
+     "self_check": false
+    },
+    {
+     "q": "Compute the average salary of the three employees of department D01. Use the method 'Department Salary Aggregate'. Work with: dept_employee_count = 360, salary_one = 50000, salary_three = 5000, salary_two = 1200. Carry the chain through step by step and give the final value of dept_salary_average.",
+     "a": "156.1111 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Department Salary Aggregate' refers to.",
+     "a": "A WHERE clause can first filter the rows of one department, and the filtered salaries can then be totalled or averaged exactly as in arithmetic: add the selected figures, then divide by how many employees were selected. For the chapter's EMPLOYEE table, department D01 holds the salaries 60000, 45000 and 15000.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Department Salary Aggregate'.",
+     "a": "Filter first with WHERE, then sum the surviving values and divide by their count for the department average.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Department Salary Aggregate', in plain ASCII form.",
+     "a": "dept_salary_average = dept_salary_total / dept_employee_count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip108.8",
+   "title": "DISTINCT, ORDER BY, LIKE and NULL Refinement",
+   "questions": [
+    {
+     "q": "Using the method 'DISTINCT, ORDER BY, LIKE and NULL Refinement', work with: unique_values_only = 500. Carry the chain through step by step and give the final value of distinct_rows.",
+     "a": "500 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'DISTINCT, ORDER BY, LIKE and NULL Refinement' and work with: unique_values_only = 50000. Carry the chain through step by step and give the final value of distinct_rows.",
+     "a": "50000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'DISTINCT, ORDER BY, LIKE and NULL Refinement' refers to.",
+     "a": "Query output is polished with four tools: DISTINCT strips repeated values from a column, ORDER BY arranges rows ascending by default or descending with DESC, LIKE matches text patterns using percent for any run of characters and underscore for exactly one, and IS NULL or IS NOT NULL tests for missing values, since comparing against NULL with equals never works.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'DISTINCT, ORDER BY, LIKE and NULL Refinement'.",
+     "a": "DISTINCT de-duplicates, ORDER BY sorts, LIKE patterns with % and _, and only IS NULL finds blanks.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'DISTINCT, ORDER BY, LIKE and NULL Refinement', in plain ASCII form.",
+     "a": "distinct_rows = unique_values_only",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

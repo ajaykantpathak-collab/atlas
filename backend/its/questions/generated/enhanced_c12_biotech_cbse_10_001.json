@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_10_001",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_10_001",
+   "title": "c12_biotech_cbse_10_001",
+   "questions": [
+    {
+     "q": "What is the specific antigenic component used in the recombinant Hepatitis B vaccine, and in which host organism is it commercially produced?",
+     "a": "The recombinant Hepatitis B vaccine uses the Hepatitis B surface antigen (HBsAg) produced in Saccharomyces cerevisiae (baker's yeast). A wrong answer (e.g., \"whole killed virus\" or \"E. coli\") reveals the student confuses recombinant subunit vaccines with conventional inactivated vaccines or doesn't know the expression host — a frequent board exam error where students write \"E. coli\" because it's the default cloning host they've practiced.",
+     "self_check": true
+    },
+    {
+     "q": "Why can't E. coli be used as the expression host for commercial Hepatitis B vaccine production, even though it's the standard host for recombinant protein cloning in Class 11 practicals?",
+     "a": "E. coli lacks the eukaryotic machinery for proper disulfide bond formation and glycosylation required for HBsAg to fold correctly and self-assemble into immunogenic virus-like particles (VLPs); it forms inclusion bodies instead. A wrong answer (e.g., \"E. coli grows too fast\" or \"yeast is cheaper\") shows the student memorizes hosts without understanding protein folding constraints — a NEET trap where they pick E. coli for \"high yield\" ignoring conformational epitopes.",
+     "self_check": true
+    },
+    {
+     "q": "A biotech company wants to produce a recombinant vaccine for a new virus whose surface glycoprotein requires N-linked glycosylation for neutralizing epitopes. They have the gene cloned. Design the expression strategy: choose the host, vector features, and one critical downstream step to ensure particle formation.",
+     "a": "Host: Pichia pastoris or mammalian cells (CHO) — both perform N-glycosylation. Vector: methanol-inducible AOX1 promoter (Pichia) or CMV promoter (CHO) with secretion signal (α-factor for yeast, IgG signal for CHO). Critical downstream step: density gradient ultracentrifugation to isolate assembled VLPs from misfolded aggregates. A wrong answer choosing E. coli with \"refolding from inclusion bodies\" fails because bacterial refolding rarely restores complex glycan-dependent conformational epitopes — a JEE Advanced-level design flaw.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the immunogenicity mechanism of recombinant HBsAg VLPs with that of a live attenuated vaccine. Why does the recombinant vaccine require alum adjuvant while the live vaccine often doesn't?",
+     "a": "HBsAg VLPs are particulate (22 nm) with repetitive surface epitopes that efficiently cross-link B-cell receptors, but they cannot replicate or infect antigen-presenting cells, so they lack endogenous danger signals (PAMPs) → weak innate immune activation → need alum to induce inflammasome/Th2 response. Live attenuated vaccines replicate, produce dsRNA/PAMPs, trigger TLRs → strong innate activation → self-adjuvanting. A wrong answer saying \"VLPs are weaker antigens\" misses the structural immunology: VLPs are actually highly immunogenic structurally but lack infection-mimicking signals.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The recombinant Hepatitis B vaccine is safer than the plasma-derived vaccine because it contains no viral DNA.\" Is this the complete safety rationale? Defend or critique with two additional safety dimensions.",
+     "a": "The statement is true but incomplete. Two additional safety dimensions: (1) Zero risk of blood-borne pathogen transmission (HIV, HCV, prions) since no human plasma is used — the plasma-derived vaccine had documented HIV transmission cases in the 1980s. (2) Consistent batch-to-batch purity: recombinant process eliminates variability in host antibody/protein contaminants from donor plasma. A critique that only mentions \"no viral DNA\" shows superficial understanding — boards/NEET expect awareness of the historical plasma-safety crisis that drove recombinant development.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel scenario: A new hepatitis virus (HepX) has a surface protein that forms VLPs in yeast but is poorly immunogenic in mice. Propose two protein engineering strategies to enhance immunogenicity without changing the VLP structure, and explain the immunological basis for each.",
+     "a": "Strategy 1: Genetic fusion of a universal T-helper epitope (e.g., PADRE sequence) into a surface-exposed loop of HepX VLP → provides CD4+ T-cell help for B-cell affinity maturation and class switching. Strategy 2: Chemical conjugation of TLR agonist (e.g., CpG-ODN) to surface lysines on purified VLPs → converts VLPs into self-adjuvanting particles that activate dendritic cells via TLR9. Both preserve VLP geometry (critical for conformational B-cell epitopes). A poor answer suggesting \"increase dose\" or \"use stronger adjuvant\" ignores structural vaccinology principles tested in CUET/NEET PG.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_10_011",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_10_011",
+   "title": "c11_hs_cbse_10_011",
+   "questions": [
+    {
+     "q": "Name any four savings/investment avenues available in India that offer a sovereign (government) guarantee on the principal amount.",
+     "a": "Public Provident Fund (PPF), National Savings Certificate (NSC), Senior Citizens Savings Scheme (SCSS), and Sukanya Samriddhi Yojana (SSY) — all are backed by the Government of India. A wrong answer (e.g., listing bank FDs, mutual funds, or corporate bonds) reveals the student confuses \"regulated by RBI/SEBI\" with \"sovereign guarantee on principal\"; bank FDs are insured only up to ₹5 lakh by DICGC, not fully guaranteed.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a family saving for a daughter's marriage in 12 years might prefer Public Provident Fund (PPF) over a 5-year bank Fixed Deposit (FD), even if the FD currently offers a slightly higher interest rate.",
+     "a": "PPF offers a 15-year tenure (extendable in 5-year blocks), tax-free interest and maturity under Section 80C/10(11), and sovereign guarantee — aligning with a 12-year goal without reinvestment risk. A 5-year FD matures twice before the goal, forcing reinvestment at unknown future rates, and its interest is taxable, reducing net return. A student who says \"FD is better because rate is higher today\" ignores reinvestment risk, tax drag, and tenure mismatch — a classic senior-secondary error of comparing nominal rates without adjusting for horizon and taxation.",
+     "self_check": true
+    },
+    {
+     "q": "A household has ₹50,000 surplus per month. They want to build an emergency fund (3 months' expenses = ₹1.5 lakh) within 6 months, and simultaneously start a retirement corpus for 25 years later. Recommend one avenue for each goal with justification.",
+     "a": "Emergency fund: High-liquidity savings account or liquid mutual fund — instant redemption, capital stability, no lock-in. Retirement: Equity-oriented mutual fund (SIP) or NPS Tier I — long horizon absorbs volatility, potential for inflation-beating returns, tax benefits under 80CCD. A wrong answer (e.g., PPF for emergency fund, or bank FD for 25-year retirement) shows inability to match liquidity/horizon to instrument characteristics.",
+     "self_check": true
+    },
+    {
+     "q": "Compare National Savings Certificate (NSC) and Kisan Vikas Patra (KVP) on: (a) tenure, (b) tax treatment of interest, (c) premature withdrawal rules, (d) suitability for Section 80C deduction.",
+     "a": "(a) NSC: 5 years fixed; KVP: ~9 years 7 months (doubles). (b) NSC interest is taxable annually but deemed reinvested qualifies for 80C (except final year); KVP interest fully taxable, no 80C benefit. (c) NSC: no premature withdrawal except death/forfeiture; KVP: allowed after 2.5 years with penalty. (d) NSC principal + deemed reinvested interest qualifies for 80C; KVP does not. A student who says \"both are same because both are post office schemes\" misses critical structural differences affecting tax planning and liquidity.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Investing in gold jewellery is the best way to save for the long term because gold prices always go up and you can wear it.\"",
+     "a": "Flaws: (1) Jewellery includes making charges (8-25%) and GST (3%), which are sunk costs — not recovered on sale. (2) Purity/resale issues: hallmarking helps but buy-back spreads remain wide. (3) No yield (no interest/dividend) — only capital appreciation, which historically trails equities over 20+ years. (4) Storage/insurance costs. (5) \"Always goes up\" is false — gold had negative real returns 1980-2000. Better long-term avenues: sovereign gold bonds (SGB) offer 2.5% interest + capital gain tax exemption on maturity, or gold ETFs for pure price exposure. A student agreeing with the statement ignores transaction costs, opportunity cost, and the distinction between consumption and investment.",
+     "self_check": true
+    },
+    {
+     "q": "Design a three-tier investment plan for a 35-year-old salaried individual (₹1.2 lakh/month surplus) with goals: (1) emergency fund in 3 months, (2) house down-payment in 5 years (₹25 lakh), (3) retirement in 25 years. Specify instrument, monthly allocation, and rationale for each tier.",
+     "a": "Tier 1 (Emergency): ₹30,000/month × 3 months → ₹90,000 in liquid fund/savings account — high liquidity, capital protection. Tier 2 (House): ₹60,000/month in 5-year recurring deposit or short-duration debt fund — low volatility, predictable accumulation, some tax efficiency via indexation if >3 years. Tier 3 (Retirement): ₹30,000/month in NPS (75% equity) + ₹10,000/month in PPF — maximizes 80C/80CCD(1B), long horizon for equity compounding, sovereign guarantee on PPF portion. A poor answer allocates lump sums without monthly cash-flow matching, ignores tax efficiency, or uses equity for 5-year goal.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

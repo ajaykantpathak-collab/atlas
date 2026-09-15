@@ -1,0 +1,141 @@
+{
+ "catalog": "catalog_class10_maths_jemh112.json",
+ "concepts": [
+  {
+   "id": "jemh.112.12.1",
+   "family": "area_rect",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "area = 20 * 10"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 7 * 7"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total = 8 * 11",
+      "bed = 4 * 7",
+      "left = total - bed"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "width = 120 / 12"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "area = 13 * 9",
+      "cost = area * 20"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 16 * 12 / (4 * 4)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "jemh.112.12.2",
+   "family": "solid_rect",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "vol = 3 * 9 * 12"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "tsa = 2 * (3 * 5 + 5 * 5 + 5 * 3)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "vol = 7 ** 3"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "tsa = 6 * 6 * 6"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "vol = 22 / 7 * 14 * 14 * 18"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "csa = 2 * 22 / 7 * 84 * 16"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "jemh.112.12.3",
+   "family": "solid_round",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "vol = 22 / 7 * 56 * 56 * 21 / 3"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "vol = 4 / 3 * 22 / 7 * 21 * 21 * 21"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "csa = 2 * 22 / 7 * 14 * 14"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "tsa = 3 * 22 / 7 * 14 * 14"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "vol = 2 / 3 * 22 / 7 * 7 * 7 * 7"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "cyl = 22 / 7 * 56 * 56 * 26",
+      "cone = cyl / 3",
+      "vol = cyl + cone"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "vol = 22 / 7 * 56 * 56 * 21 / 3"
+   ]
+  }
+ ]
+}

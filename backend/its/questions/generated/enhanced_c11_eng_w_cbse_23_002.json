@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_23_002",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_23_002",
+   "title": "c11_eng_w_cbse_23_002",
+   "questions": [
+    {
+     "q": "What is the primary difference between \"plot\" in a fictional story and \"narrative structure\" in a non-fiction essay like \"What is a Good Book?\"?",
+     "a": "In fiction, plot is a sequence of invented events linked by cause-and-effect involving characters; in a non-fiction essay, narrative structure is the logical arrangement of ideas, arguments, and illustrative anecdotes to advance a thesis. A wrong answer would treat the essay as having a \"story\" with a protagonist and conflict, missing that the \"events\" are intellectual moves (e.g., introducing a criterion, giving an example, refuting a counter-view).",
+     "self_check": true
+    },
+    {
+     "q": "The essay opens with Bond's childhood memory of reading \"The Coral Island.\" Explain how this anecdote functions structurally in the essay—does it act as a hook, a thesis statement, evidence, or a structural pillar? Justify your choice.",
+     "a": "It functions as a structural pillar (and a hook). The anecdote establishes the author's personal authority and introduces the central theme (lasting impact of childhood reading) that recurs throughout. A student who calls it merely a \"hook\" misses its recurring role; one who calls it \"evidence\" confuses illustrative example with logical proof. The correct answer recognizes that the memory reappears implicitly when Bond later evaluates books by their \"staying power.\"",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"non-linear narrative structure\" to the essay: Identify one place where Bond departs from strict chronological order of his reading life and explain the thematic reason for that departure.",
+     "a": "Bond discusses adult re-reading of childhood favorites (e.g., \"Treasure Island\") before finishing the chronological account of his early reading. This thematic grouping—juxtaposing past and present reading experiences—serves to demonstrate how a \"good book\" withstands the test of time, which is a criterion he explicitly states later. A wrong answer would simply list the books mentioned without linking the temporal shift to the essay's argumentative purpose.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the paragraph where Bond lists qualities of a good book (e.g., \"a good book is one that you want to read again...\"). How does the internal structure of this paragraph—its use of parallelism, repetition, and accumulation—mirror the essay's overall narrative strategy?",
+     "a": "The paragraph uses anaphoric repetition (\"A good book is...\") to accumulate criteria, mirroring the essay's macro-structure of building a definition layer by layer through additive examples. Each clause acts like a mini-anecdote. A student who only identifies the device (parallelism) without connecting it to the essay's accumulative argumentative arc fails to analyze structure-function relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the essay's ending—where Bond returns to the image of his grandfather's library—as a structural resolution. Does it provide closure to the \"argument\" or open new questions? Defend your view.",
+     "a": "It provides thematic closure by circling back to the physical space (grandfather's library) that framed the opening anecdote, creating a circular structure that reinforces the idea of books as enduring companions. However, it opens the question of whether the reader's own \"library\" will hold such books, transferring the essay's inquiry to the audience. A weak evaluation would call it merely \"a nice ending\" without analyzing the structural circularity or its rhetorical effect.",
+     "self_check": true
+    },
+    {
+     "q": "Create a one-paragraph \"micro-essay\" on \"What makes a good teacher?\" that deliberately uses the same narrative structure as Bond's essay: opening personal anecdote → accumulation of criteria through illustrative examples → circular return to the opening image.",
+     "a": "A strong response will open with a specific memory (e.g., \"I still see Mrs. Sharma's chalk-dusted fingers...\"), list 3-4 criteria each grounded in a brief classroom scene (\"A good teacher notices the quiet child...\", \"A good teacher admits when they don't know...\"), and close by returning to the opening image transformed (\"Now when I walk past Room 12, I hear her questions in my own voice\"). A poor answer will list abstract qualities without narrative grounding or omit the circular return.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

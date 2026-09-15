@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_06_009",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_06_009",
+   "title": "c11_hs_cbse_06_009",
+   "questions": [
+    {
+     "q": "Define 'media' in the context of communication and state the one characteristic that distinguishes mass media from interpersonal communication channels.",
+     "a": "Media is the means that uses various communication methods to disseminate and share ideas, thoughts, feelings, innovations, and experiences. The distinguishing characteristic of mass media is that it is always meant for heterogeneous, anonymous, and large audience groups separated from the communicator in time and space. A wrong answer (e.g., \"media is only TV and radio\") reveals the student conflates media with specific technologies rather than understanding it as a functional category of communication channels.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Traditional media are just old technologies like radio and newspapers, while modern media are new technologies like smartphones.\" Explain why this statement is incorrect using the NCERT classification criteria.",
+     "a": "The statement is incorrect because radio and newspapers are classified as MODERN media in NCERT (along with satellite TV, films, cable, mobile phones), while traditional media include folk theatre (Jatra, Nautanki), puppetry, folk songs/dances, fairs, festivals, rituals, and print materials like charts/posters. The classification is based on cultural rootedness, interpersonal/group communication nature, and minimal technology dependence — not merely age. A wrong answer reveals the student uses a chronological rather than a structural/cultural classification criterion.",
+     "self_check": true
+    },
+    {
+     "q": "A rural health worker wants to promote breastfeeding practices among young mothers in a tribal village in Chhattisgarh. She has access to: (a) a community radio station, (b) a puppetry troupe that performs traditional Gond folk tales, (c) a WhatsApp group for ASHA workers. Classify each as traditional or modern media and justify which would be MOST effective for BEHAVIOURAL CHANGE (one of the nine functions) in this context.",
+     "a": "Community radio = modern media (electronic technology, mass reach); puppetry troupe = traditional media (folk form, culturally embedded, interpersonal/group); WhatsApp group = modern media (digital, interactive). For BEHAVIOURAL CHANGE in a tribal village, the puppetry troupe (traditional) would be most effective because: (1) it uses familiar cultural symbols and local dialect, (2) allows immediate feedback and discussion (two-way), (3) leverages trust in local performers, (4) involves multiple senses (audio-visual + live presence), aligning with the 90% retention principle from the textbook. A wrong choice (e.g., community radio) reveals failure to match media type to audience homogeneity, cultural context, and the persuasion/motivation function needed for behavioural change.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how the 'Transmission of values' function (function #5) is served differently by a traditional Bhavai folk theatre performance in a Gujarat village versus a prime-time TV serial broadcast nationally. Analyze using: cultural specificity, audience interpretation, and feedback mechanism.",
+     "a": "Bhavai (traditional): Values transmitted are culturally specific (local legends, community norms), interpreted through shared cultural codes with immediate clarification possible via post-performance discussion (direct feedback). TV serial (modern): Values are generalized/universalized for heterogeneous national audience, interpreted diversely with no shared cultural code, feedback is delayed/cumulative (TRPs, letters) and cannot clarify misinterpretation. A weak answer (e.g., \"both teach values\") reveals inability to analyze how medium structure shapes the SAME function differently — a key analytical skill for board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Modern media have made traditional media obsolete for development communication in rural India.\" Use at least three functions of media and specific examples from the textbook to defend your position.",
+     "a": "The claim is FALSE. Traditional media remain vital for: (1) PERSUASION/MOTIVATION — folk theatre (Nautanki) uses local idioms and trusted performers to motivate behaviour change (e.g., sanitation) more effectively than top-down TV ads; (2) EDUCATION/TRAINING — puppetry in local language addresses local problems (e.g., pesticide safety) with interactive demonstration, unlike standardized TV programmes; (3) TRANSMISSION OF VALUES — rituals/festivals embed values in lived community experience, not passive viewing. NCERT explicitly states: \"Inter-personal communication media largely remains the most used and effective medium of communication in rural and remote areas.\" A wrong evaluation reveals over-reliance on technology access metrics while ignoring cultural mediation and two-way communication needs for development.",
+     "self_check": true
+    },
+    {
+     "q": "Design a media strategy for a new government scheme on millet promotion targeting three distinct audiences: (a) tribal farmers in Odisha, (b) urban millennials in Bengaluru, (c) policy makers in Delhi. Specify ONE traditional and ONE modern media for each audience with justification linked to specific media functions.",
+     "a": "(a) Tribal farmers: Traditional = Chhau dance-drama (function: persuasion/motivation + behavioural change via cultural resonance); Modern = Community radio in Kui language (function: information + education/training). (b) Urban millennials: Traditional = None suitable (cultural disconnect); Modern = Instagram reels by nutrition influencers (function: entertainment + interpretation via visual infographics). (c) Policy makers: Traditional = None; Modern = Policy briefs via email/portal + video conferencing (function: coordination + information exchange). A poor answer uses the same media for all audiences or ignores function-audience-media alignment, revealing failure to apply the 'homogeneous receiver group' principle from the SMCRE model.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

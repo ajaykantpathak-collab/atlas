@@ -1,0 +1,93 @@
+{
+ "catalog": "catalog_class6_science_fecu112.json",
+ "concepts": [
+  {
+   "id": "fecu.12.1",
+   "title": "Stars and Constellations",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are stars and constellations?",
+     "a": "Stars are burning balls of gas; constellations are groups of stars forming patterns, like the Big Dipper (Saptarshi).",
+     "self_check": true
+    },
+    {
+     "q": "Name one famous constellation.",
+     "a": "Saptarshi (Big Dipper/Ursa Major) - seven bright stars like a ladle.",
+     "self_check": true
+    },
+    {
+     "q": "Why do stars look tiny though they are huge?",
+     "a": "They are unimaginably far away, so their light reaches us from tiny points.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.12.2",
+   "title": "Watching the Night Sky",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is best for watching the night sky?",
+     "a": "A dark, open place away from city lights; binoculars or a telescope help.",
+     "self_check": true
+    },
+    {
+     "q": "Name two objects visible in the night sky without a telescope.",
+     "a": "The moon and bright planets like Venus (and stars).",
+     "self_check": true
+    },
+    {
+     "q": "Why do stars seem to twinkle?",
+     "a": "Their light bends through moving layers of air, changing brightness.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.12.3",
+   "title": "Our Solar System",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the members of our solar system.",
+     "a": "The sun, eight planets, their moons, asteroids and comets.",
+     "self_check": true
+    },
+    {
+     "q": "Which is the largest planet of the solar system?",
+     "a": "Jupiter - a giant ball of gas with many moons.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the sun look bigger than other stars?",
+     "a": "It is the nearest star to us; other stars are light-years away.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fecu.12.4",
+   "title": "The Milky Way and the Universe",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is the Milky Way?",
+     "a": "Our galaxy - a huge wheel of billions of stars including our sun, seen as a milky band at night.",
+     "self_check": true
+    },
+    {
+     "q": "How far is the sun from us compared to other stars?",
+     "a": "Nearest - about 150 million km; other stars are trillions of times farther.",
+     "self_check": true
+    },
+    {
+     "q": "What is a light-year?",
+     "a": "The distance light travels in one year - used to measure vast space distances.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

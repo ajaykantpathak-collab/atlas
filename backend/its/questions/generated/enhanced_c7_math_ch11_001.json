@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch11_001",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch11_001",
+   "title": "c7_math_ch11_001",
+   "questions": [
+    {
+     "q": "What is the definition of a common factor of two numbers?",
+     "a": "A common factor is a number that divides both given numbers completely without leaving a remainder. A wrong answer like \"a number that is added to both\" shows confusion between factors and addition, or confusing factors with multiples.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the number 1 always a common factor for any two positive whole numbers? Explain briefly.",
+     "a": "The number 1 is a universal factor because 1 divides every whole number exactly (e.g., $a \\div 1 = a$ with a remainder of 0). A wrong answer stating that 1 is only a factor of odd numbers reveals a fundamental misunderstanding of divisibility rules for 1.",
+     "self_check": true
+    },
+    {
+     "q": "Find all the common factors of the numbers 24 and 36.",
+     "a": "Steps: 1) List factors of 24: 1, 2, 3, 4, 6, 8, 12, 24. 2) List factors of 36: 1, 2, 3, 4, 6, 9, 12, 18, 36. 3) Compare the lists to find matches. 4) The common factors are 1, 2, 3, 4, 6, and 12. A wrong answer like just listing 12 shows the student found the highest common factor instead of listing all common factors.",
+     "self_check": true
+    },
+    {
+     "q": "If a number $C$ is a common factor of $A$ and $B$, what must be true about the relationship between $C$ and $A$, and between $C$ and $B$?",
+     "a": "$C$ must be less than or equal to both $A$ and $B$ (except when $A$ or $B$ is negative, but in whole numbers, $C \\le A$ and $C \\le B$). A wrong answer suggesting $C$ can be larger than $A$ or $B$ confuses factors with multiples.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that the common factors of 15 and 25 are 1, 3, and 5. Is this correct? Justify your evaluation.",
+     "a": "This is incorrect. While 1 and 5 are factors of both 15 and 25, 3 is only a factor of 15 ($15 \\div 3 = 5$) and does not divide 25 ($25 \\div 3 = 8$ R 1). The true common factors are only 1 and 5. A wrong answer agreeing with the student shows a failure to verify divisibility across both numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Create a pair of numbers between 10 and 30 that share exactly three common factors. Show your work.",
+     "a": "An example pair is 12 and 18. Factors of 12 are 1, 2, 3, 4, 6, 12. Factors of 18 are 1, 2, 3, 6, 9, 18. Their common factors are 1, 2, 3, and 6 (which is four common factors). Let's try 8 and 12: Factors of 8: 1, 2, 4, 8. Factors of 12: 1, 2, 3, 4, 6, 12. Common factors: 1, 2, 4 (exactly three). A poor answer lists numbers with random factors without verifying the count.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

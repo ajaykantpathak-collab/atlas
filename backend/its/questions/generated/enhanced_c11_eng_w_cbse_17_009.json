@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_17_009",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_17_009",
+   "title": "c11_eng_w_cbse_17_009",
+   "questions": [
+    {
+     "q": "Define irony and symbolism in your own words, giving one general example of each (not from the poem).",
+     "a": "Irony: a contrast between expectation and reality (e.g., a fire station burning down). Symbolism: an object representing an abstract idea (e.g., a dove representing peace). A wrong answer that defines irony as \"a funny coincidence\" reveals confusion between irony and mere chance; a wrong answer that says a symbol is \"just a picture\" shows the student misses the abstract representational layer.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the specific irony in the consul's line: \"If you've got no passport you're officially dead\" when the speaker replies, \"But we are still alive, my dear.\"",
+     "a": "The consul's bureaucratic definition of \"dead\" (lacking a passport) is ironically contradicted by the biological reality that the refugees are living, breathing, and speaking. The irony is situational: the document meant to certify life becomes the instrument of social death. A wrong answer that calls this \"sad\" or \"unfair\" misses the structural contradiction between legal fiction and lived reality that defines the irony.",
+     "self_check": true
+    },
+    {
+     "q": "Identify one symbol in the poem (other than the passport) and explain what abstract idea it represents, using a specific line as evidence.",
+     "a": "The yew tree in the village churchyard symbolizes natural renewal and rooted belonging. Evidence: \"Every spring it blossoms anew: / Old passports can't do that, my dear.\" The tree's cyclical rebirth contrasts with the passport's permanent expiration. A wrong answer that says \"the tree represents nature\" is too vague; it must link the tree's *renewal* to the refugees' *denied* renewal.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the freedom of the poodle in a jacket and the cat let in the door with the situation of the German Jews. What ironic contrast does Auden create?",
+     "a": "Auden creates situational irony: animals receive care, shelter, and legal entry (the open door) solely because they are not \"German Jews,\" while humans with identities, histories, and rights are denied all three. The poodle's \"jacket fastened with a pin\" symbolizes the trivial comforts afforded to beasts that are withheld from people. A wrong answer that merely lists the animals without naming the *contrast* fails to analyze the irony.",
+     "self_check": true
+    },
+    {
+     "q": "Which device — irony or symbolism — do you think more powerfully conveys the poem's central theme of dehumanization? Justify your choice with two textual references.",
+     "a": "Irony is more powerful because it structures the entire poem's argument: every stanza presents a system (consul, committee, public meeting, Hitler, nature, transport, shelter) that *should* protect humans but *instead* excludes them. The refrain \"my dear\" becomes an ironic address to a world that refuses to recognize their humanity. Symbolism supports this (e.g., the thousand-floor building with \"not one of them ours\"), but irony is the engine. A wrong answer that picks symbolism without explaining how irony *organizes* the poem's critique shows incomplete analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Write a two-stanza blues-style poem (4 lines each, with a refrain) about a modern displaced group (e.g., climate migrants, stateless children) that uses at least one irony and one symbol.",
+     "a": "A strong answer will: (1) adopt the AABB or ABCB blues rhythm with a repeated refrain, (2) include a clear situational or verbal irony (e.g., \"The ice melts fast, my dear, but borders freeze\"), and (3) use a concrete symbol (e.g., a melted glacier, a blank birth certificate) that carries abstract meaning. A weak answer will lack the refrain, use only literal description, or confuse symbolism with simple imagery.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

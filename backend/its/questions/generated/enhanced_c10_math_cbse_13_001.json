@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_13_001",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_13_001",
+   "title": "c10_math_cbse_13_001",
+   "questions": [
+    {
+     "q": "What is the class mark of the class interval 20-30, and why do we use the class mark instead of the actual data values when calculating the mean of grouped data?",
+     "a": "The class mark is (20+30)/2 = 25. We use the class mark because in grouped data, individual observations within a class interval are not known; we assume all observations in that interval are concentrated at its midpoint for calculation purposes. A wrong answer (e.g., using 20 or 30 as the representative value) reveals the student does not understand that class mark represents the estimated central value of the interval, not a boundary.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the mean of the following distribution and gets 28.5. The class intervals are 0-10, 10-20, 20-30, 30-40, 40-50 with frequencies 5, 8, 12, 7, 3. Without redoing the full calculation, explain how you can quickly check if 28.5 is a reasonable answer.",
+     "a": "The class marks are 5, 15, 25, 35, 45. The highest frequency (12) is at class mark 25, and frequencies are skewed slightly toward higher classes (7+3=10 above vs 5+8=13 below). The mean should be slightly above 25 but not near 35. 28.5 is reasonable. A wrong judgment (e.g., saying it's impossible) reveals the student cannot estimate the mean's location from the frequency distribution's shape — a key skill for verifying answers in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Find the mean of the following grouped data using the direct method:\nClass Interval: 10-20, 20-30, 30-40, 40-50, 50-60\nFrequency: 4, 6, 10, 8, 2",
+     "a": "Step 1: Class marks: 15, 25, 35, 45, 55\nStep 2: \\(f_i x_i\\): 4×15=60, 6×25=150, 10×35=350, 8×45=360, 2×55=110\nStep 3: Σf_i = 4+6+10+8+2 = 30\nStep 4: Σf_i x_i = 60+150+350+360+110 = 1030\nStep 5: Mean = 1030/30 = 34.33\nA wrong answer (e.g., 34.33 but using class boundaries instead of marks, giving 1000/30 = 33.33) reveals the student used lower/upper limits instead of midpoints — the most common computational error in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Two students, A and B, calculate the mean of the same grouped data. Student A uses the direct method. Student B uses the assumed mean method with assumed mean = 35. Both get the same final answer. Explain why the methods give identical results even though the intermediate steps differ.",
+     "a": "Both methods are algebraically equivalent. The assumed mean method uses the identity \\(\\bar{x} = a + \\frac{\\sum f_i d_i}{\\sum f_i}\\) where \\(d_i = x_i - a\\). Substituting \\(d_i\\) gives \\(\\bar{x} = a + \\frac{\\sum f_i (x_i - a)}{\\sum f_i} = a + \\frac{\\sum f_i x_i - a\\sum f_i}{\\sum f_i} = \\frac{\\sum f_i x_i}{\\sum f_i}\\), which is the direct method formula. The intermediate deviations \\(d_i\\) only shift the calculation center; the final result is invariant. A wrong answer (e.g., \"assumed mean is faster so it's different\") reveals the student treats methods as unrelated tricks rather than algebraic transformations of the same formula.",
+     "self_check": true
+    },
+    {
+     "q": "A student's solution for finding the mean of grouped data is shown below. Identify the error and correct it.\nClass Interval: 0-10, 10-20, 20-30, 30-40\nFrequency: 5, 10, 8, 7\nStudent's working:\nClass marks: 0, 10, 20, 30\nf_i x_i: 0, 100, 160, 210\nΣf_i = 30, Σf_i x_i = 470\nMean = 470/30 = 15.67",
+     "a": "The error: class marks are incorrectly taken as lower limits (0, 10, 20, 30) instead of midpoints (5, 15, 25, 35). Correct class marks: 5, 15, 25, 35. Correct \\(f_i x_i\\): 25, 150, 200, 245. Σf_i x_i = 620. Correct mean = 620/30 = 20.67. The student's answer 15.67 is wrong. This exposes the most frequent board exam error: confusing class boundaries with class marks.",
+     "self_check": true
+    },
+    {
+     "q": "Create a grouped frequency distribution with 5 class intervals of equal width where the mean calculated by the direct method is exactly 50. Provide the class intervals, frequencies, and show the verification.",
+     "a": "Example: Class intervals 30-40, 40-50, 50-60, 60-70, 70-80 (width 10). Class marks: 35, 45, 55, 65, 75. Choose symmetric frequencies around 55: e.g., 2, 3, 5, 3, 2. Σf_i = 15. Σf_i x_i = 2(35)+3(45)+5(55)+3(65)+2(75) = 70+135+275+195+150 = 825. Mean = 825/15 = 55. To get mean 50, shift: use class marks 30,40,50,60,70 with frequencies 1,2,5,2,1. Σf_i=11, Σf_i x_i=550, mean=50. A poor answer uses unequal widths or non-symmetric frequencies without verification, revealing inability to reverse-engineer the formula.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

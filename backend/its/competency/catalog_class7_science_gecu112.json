@@ -1,0 +1,215 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 12,
+ "chapter_title": "Earth, Moon, and the Sun",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gecu112.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gecu.12.1",
+   "title": "Rotation of the Earth: Day and Night",
+   "section": "Rotation",
+   "definition": "Rashmika's shifting shadows hold a clue: the earth spins about its axis once in about 24 hours, so each place turns into sunlight for day and away into darkness for night.",
+   "formula": "day + night = one rotation of the earth",
+   "key_idea": "Day and night are a dance of rotation: the sun does not rise, the earth turns us towards it.",
+   "textbook_ref": "gecu112.txt, Rotation",
+   "question_patterns": [
+    "what causes day and night on the earth",
+    "how long does the earth take for one rotation",
+    "what is the axis of the earth",
+    "why do shadows change length during the day",
+    "demonstrate day and night with a globe and lamp",
+    "why does the sun appear to move across the sky"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "observe the change or behaviour",
+     "explain": "Note exactly what happens in the activity."
+    },
+    {
+     "step": 2,
+     "action": "record the pattern",
+     "explain": "Write down which cases show it and which do not."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the rule your observations reveal."
+    }
+   ]
+  },
+  {
+   "id": "gecu.12.2",
+   "title": "Revolution of the Earth and the Seasons",
+   "section": "Revolution",
+   "definition": "While spinning, the earth also travels around the sun once in about 365 days; because its axis stays tilted, each hemisphere leans towards or away from the sun in turn, giving the seasons.",
+   "formula": "1 year = 1 revolution of the earth around the sun",
+   "key_idea": "Seasons are geometry in motion: a tilted, revolving planet shares sunlight unequally through the year.",
+   "textbook_ref": "gecu112.txt, Revolution",
+   "question_patterns": [
+    "what causes the change of seasons on the earth",
+    "how long does one revolution of the earth take",
+    "why does the axis of the earth stay tilted",
+    "why are days longer in summer than in winter",
+    "show seasons with a globe moving around a lamp",
+    "compare rotation and revolution of the earth"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set the two sides",
+     "explain": "Write the two ideas or groups side by side."
+    },
+    {
+     "step": 2,
+     "action": "mark what differs",
+     "explain": "Note the points on which they differ and one point they share."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State in one line what the comparison teaches."
+    }
+   ]
+  },
+  {
+   "id": "gecu.12.3",
+   "title": "Eclipses: Shadows in the Sky",
+   "section": "Eclipses",
+   "definition": "Eclipses are shadows on a cosmic scale: when the moon slides into the earth's shadow we see a lunar eclipse, and when the moon's shadow falls on the earth, a solar eclipse darkens a strip of day.",
+   "formula": "eclipse = shadow of one body falling on another",
+   "key_idea": "An eclipse is geometry caught in the act: sun, moon and earth line up, and a shadow tells the story.",
+   "textbook_ref": "gecu112.txt, Eclipses",
+   "question_patterns": [
+    "what is a solar eclipse and how does it occur",
+    "what is a lunar eclipse and when does it occur",
+    "why do eclipses not happen every month",
+    "demonstrate an eclipse with a ball and a lamp",
+    "why should we not view a solar eclipse directly",
+    "draw the alignment of bodies in a solar eclipse"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  },
+  {
+   "id": "gecu.12.4",
+   "title": "Modelling the Sky with Globe and Shadows",
+   "section": "Modelling the sky",
+   "definition": "The chapter's activities turn the sky into a laboratory: globes, lamps and balls model rotation, revolution and eclipse, while shadow records across a day pin down the sun's apparent path.",
+   "formula": "",
+   "key_idea": "Models shrink the universe to a tabletop: play with them and the sky's motions become visible sense.",
+   "textbook_ref": "gecu112.txt, Modelling the sky",
+   "question_patterns": [
+    "how can a globe and lamp model the day night cycle",
+    "record shadows at different hours and what do they show",
+    "build a model of the solar eclipse",
+    "why do scientists make models of the sky",
+    "what did Rashmika's shadow observation prove",
+    "design a classroom activity to show the seasons"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gecu112.txt",
+   "concept": "gecu.12.1",
+   "question_type": "verify_property",
+   "question_pattern": "why did the coconut tree shadows change length through the day?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gecu112.txt",
+   "concept": "gecu.12.2",
+   "question_type": "verify_property",
+   "question_pattern": "how do rotation and revolution of the earth differ?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gecu112.txt, Let us enhance our learning",
+   "questions": [
+    "Why did the coconut tree shadows change length through the day?",
+    "How do rotation and revolution of the earth differ?",
+    "Explain solar and lunar eclipses with models.",
+    "Explore with a globe and lamp: show day, night and the seasons.",
+    "Record shadow lengths at four times of day and plot your results."
+   ]
+  }
+ ]
+}

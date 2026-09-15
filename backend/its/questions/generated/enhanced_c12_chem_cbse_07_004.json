@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_07_004",
+   "title": "c12_chem_cbse_07_004",
+   "questions": [
+    {
+     "q": "Write the balanced chemical equation for the conversion of aniline to phenol via diazotisation and hydrolysis, showing all reagents and conditions for each step.",
+     "a": "Step 1 (Diazotisation): C₆H₅NH₂ + NaNO₂ + 2HCl → C₆H₅N₂⁺Cl⁻ + NaCl + 2H₂O (at 273–278 K).\nStep 2 (Hydrolysis): C₆H₅N₂⁺Cl⁻ + H₂O → C₆H₅OH + N₂↑ + HCl (warm).\nCommon error: Students write only \"C₆H₅NH₂ + HNO₂ → C₆H₅OH\" skipping the diazonium salt isolation and conditions. This reveals they don't understand the two-step sequence, the role of nitrous acid generated in situ, or the temperature sensitivity of diazonium salts.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why diazotisation of aniline must be carried out at 273–278 K, and what happens if the temperature rises above 283 K.",
+     "a": "Arenediazonium salts are stable only at low temperatures (0–5°C). Above 283 K, the diazonium cation decomposes via SN1 pathway: C₆H₅N₂⁺ → C₆H₅⁺ + N₂, generating a phenyl cation that reacts with water (giving phenol), chloride (giving chlorobenzene), or undergoes coupling/rearrangement — yielding a mixture. Students who say \"reaction becomes fast\" miss the decomposition and side-product formation. This tests understanding of kinetic vs thermodynamic control and the instability of the –N₂⁺ leaving group.",
+     "self_check": true
+    },
+    {
+     "q": "A student treats p-toluidine (4-methylaniline) with NaNO₂/HCl at 273 K, then warms the diazonium solution with water. Draw the structure of the product and write its IUPAC name.",
+     "a": "Product: 4-methylphenol (p-cresol). Structure: CH₃–C₆H₄–OH with OH at position 1, CH₃ at position 4.\nSteps: (1) Diazotisation: p-CH₃C₆H₄NH₂ → p-CH₃C₆H₄N₂⁺Cl⁻. (2) Hydrolysis: –N₂⁺ replaced by –OH. The methyl group remains untouched because it's not reactive under these conditions.\nWrong answer (e.g., 2-methylphenol or benzoic acid) reveals confusion about regiochemistry — the –OH goes exactly where –NH₂ was (ipso substitution), not ortho/para directing effects.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cumene process and the diazonium salt method for phenol preparation in terms of: (a) raw materials, (b) by-products, (c) scalability, (d) suitability for substituted phenols.",
+     "a": "(a) Cumene: benzene + propene (petrochemicals); Diazonium: aniline (from nitrobenzene) + NaNO₂/HCl.\n(b) Cumene: acetone (valuable co-product); Diazonium: N₂ gas + HCl.\n(c) Cumene: continuous flow, millions of tonnes/year; Diazonium: batch, lab-scale, limited by diazonium stability.\n(d) Cumene: only unsubstituted phenol; Diazonium: any substituted phenol if substituted aniline is available.\nError: Saying \"cumene gives higher yield\" without qualifying scale — diazonium gives excellent yield for lab prep. Reveals confusion between laboratory and industrial chemistry contexts.",
+     "self_check": true
+    },
+    {
+     "q": "A reaction sequence claims: Cumene + O₂ → Cumene hydroperoxide → (dil. H₂SO₄) → Phenol + Propanone. Identify the error in the second product name and write the correct IUPAC name.",
+     "a": "Error: \"Propanone\" is correct IUPAC for CH₃COCH₃ (acetone). Wait — the question tricks you! Propanone IS the correct IUPAC name for acetone. The error is if a student writes \"propanal\" (CH₃CH₂CHO) or \"2-propanol\". The correct co-product is propanone (acetone).\nIf a student says \"the error is propanone should be acetone\", they confuse common vs IUPAC naming. This tests precise nomenclature: propanone = acetone, both correct. The reaction is correctly written.",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-step laboratory synthesis of 3-bromophenol starting from benzene. Specify reagents, conditions, and intermediate structures. (Hint: You need to introduce –Br and –OH at specific positions.)",
+     "a": "Step 1: Nitration of benzene → nitrobenzene (conc. HNO₃ + conc. H₂SO₄, 323–333 K).\nStep 2: Reduction of nitrobenzene → aniline (Sn/HCl or H₂/Pd).\nStep 3: Diazotisation of aniline → benzenediazonium chloride (NaNO₂/HCl, 273–278 K).\nStep 4: Sandmeyer reaction → bromobenzene (CuBr/HBr) — but this gives bromobenzene, not 3-bromophenol.\nCorrect route for 3-bromophenol: Benzene → (Friedel-Crafts acylation, CH₃COCl/AlCl₃) → acetophenone → (bromination, Br₂/FeBr₃) → m-bromoacetophenone (meta due to –COCH₃ meta-directing) → (haloform reaction, NaOH/I₂) → 3-bromobenzoic acid → (decarboxylation? No).\nBetter: Benzene → (sulphonation, oleum) → benzenesulphonic acid → (fusion NaOH) → phenol → (bromination, Br₂/CS₂, 273 K) → o/p-bromophenol mixture — not 3-bromo.\nTrue 3-bromophenol synthesis: Benzene → (nitration) → nitrobenzene → (bromination, Br₂/FeBr₃) → m-bromonitrobenzene (–NO₂ meta-directing) → (reduction, Sn/HCl) → m-bromoaniline → (diazotisation + hydrolysis) → 3-bromophenol.\nThis tests multi-step retrosynthetic analysis combining electrophilic substitution directing effects with diazonium chemistry.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_06_006",
+   "title": "c10_math_cbse_06_006",
+   "questions": [
+    {
+     "q": "State the SSS similarity criterion for two triangles in your own words. What must be true about the sides?",
+     "a": "**Correct Answer:** If the three sides of one triangle are proportional to the three corresponding sides of another triangle, then the triangles are similar. That is, for ΔABC and ΔDEF, if AB/DE = BC/EF = CA/FD, then ΔABC ~ ΔDEF.\n\n**Misconception Revealed:** If a student says \"the sides must be equal\" or \"two sides proportional is enough,\" they are confusing SSS similarity with SSS congruence (equal sides) or SAS similarity (two sides and included angle). This shows they haven't distinguished between *proportional* (similarity) and *equal* (congruence), or they think only two ratios are needed.",
+     "self_check": true
+    },
+    {
+     "q": "Two triangles have side lengths 6 cm, 8 cm, 10 cm and 9 cm, 12 cm, 15 cm. A student says: \"The sides are not equal, so the triangles are not similar.\" Is the student correct? Explain why or why not using the definition of similarity.",
+     "a": "**Correct Answer:** The student is **incorrect**. Similarity requires *proportional* sides, not equal sides. Check the ratios: 6/9 = 2/3, 8/12 = 2/3, 10/15 = 2/3. All three ratios are equal (2/3), so by SSS criterion, the triangles are similar. The student confused similarity (same shape, proportional sides) with congruence (same shape and size, equal sides).\n\n**Misconception Revealed:** This is the classic \"similarity = congruence\" error. The student thinks \"not equal\" means \"not similar,\" missing the core concept of a constant scale factor. They likely memorized \"SSS\" from congruence without understanding the proportionality condition for similarity.",
+     "self_check": true
+    },
+    {
+     "q": "ΔPQR has sides PQ = 4 cm, QR = 6 cm, RP = 8 cm. ΔXYZ has sides XY = 6 cm, YZ = 9 cm, ZX = 12 cm. Are ΔPQR and ΔXYZ similar by SSS criterion? If yes, find the scale factor from ΔPQR to ΔXYZ and the length of the altitude from X to YZ if the corresponding altitude in ΔPQR is 3 cm.",
+     "a": "**Correct Answer with Steps:**\n1. Identify corresponding sides in order: PQ ↔ XY (smallest), QR ↔ YZ (middle), RP ↔ ZX (largest).\n2. Compute ratios: PQ/XY = 4/6 = 2/3; QR/YZ = 6/9 = 2/3; RP/ZX = 8/12 = 2/3.\n3. All three ratios equal 2/3 → ΔPQR ~ ΔXYZ by SSS criterion.\n4. Scale factor from ΔPQR to ΔXYZ = XY/PQ = 6/4 = 3/2 = 1.5 (or ratio of corresponding sides = 3/2).\n5. Altitudes in similar triangles are in the same ratio as sides. Altitude from X = 3 cm × (3/2) = 4.5 cm.\n\n**Misconception Revealed:** If a student matches sides in the wrong order (e.g., PQ with YZ), they get unequal ratios and wrongly conclude \"not similar.\" This shows they don't understand *corresponding* sides must be matched by relative length (smallest to smallest, etc.) or by angle correspondence. Also, forgetting that altitudes scale with the same factor is a common gap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: SSS Congruence Criterion (Class 7/9) vs. SSS Similarity Criterion (Class 10). Given ΔABC with sides 5 cm, 12 cm, 13 cm and ΔDEF with sides 10 cm, 24 cm, 26 cm. Are they congruent? Are they similar? Explain the relationship between the two criteria.",
+     "a": "**Correct Answer:**\n- **SSS Congruence:** Requires three sides of one triangle to be **exactly equal** to three sides of another → triangles are identical in size and shape.\n- **SSS Similarity:** Requires three sides of one triangle to be **proportional** to three sides of another → triangles have same shape, sizes may differ.\n- For given triangles: Sides of ΔDEF are exactly double those of ΔABC (10/5 = 24/12 = 26/13 = 2).\n- They are **similar** (ratio 2:1) but **NOT congruent** (sides not equal).\n- **Relationship:** Congruence is a special case of similarity where the scale factor = 1. All congruent triangles are similar, but similar triangles need not be congruent.\n\n**Misconception Revealed:** If a student says \"they are congruent because sides are in ratio 2:1\" or \"they are neither because sides aren't equal,\" they fundamentally misunderstand the difference between equality and proportionality. This confusion costs marks in board exams where both criteria appear.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves this problem: \"ΔABC ~ ΔDEF by SSS. AB = 9, BC = 12, CA = 15. DE = 6. Find EF and FD.\" The student writes: AB/DE = BC/EF → 9/6 = 12/EF → EF = 8. Then writes: AB/DE = CA/FD → 9/6 = 15/FD → FD = 10. The student concludes EF = 8, FD = 10. Is the solution fully correct? Evaluate the reasoning.",
+     "a": "**Correct Answer:** The **numerical answers are correct** (EF = 8, FD = 10), but the **reasoning is incomplete** for a board exam. The student used only two ratios (AB/DE = BC/EF and AB/DE = CA/FD) but did not explicitly verify the third ratio (BC/EF = CA/FD) or state that all three ratios are equal. For SSS similarity, **all three pairs** must be proportional. The student assumed similarity from the start (\"ΔABC ~ ΔDEF by SSS\") but didn't demonstrate the verification step. In a board exam, they would lose 1 mark for incomplete justification.\n\n**Misconception Revealed:** Students often treat \"given similar\" as a license to skip the proportionality check. But if the problem asks \"Prove ΔABC ~ ΔDEF by SSS,\" they must show all three ratios equal. Even when similarity is given, board marking schemes expect the student to acknowledge the constant ratio k = AB/DE = BC/EF = CA/FD. Skipping the third ratio is a habitual error.",
+     "self_check": true
+    },
+    {
+     "q": "Create a pair of triangles that are similar by SSS criterion but NOT congruent, using integer side lengths between 1 and 20. Write the side lengths of both triangles, show the three equal ratios, and state the scale factor. Then, explain how you would construct the larger triangle if you only had the smaller triangle and a ruler (no compass).",
+     "a": "**Expected Answer (example):**\n- Triangle 1: 3 cm, 4 cm, 5 cm\n- Triangle 2: 6 cm, 8 cm, 10 cm\n- Ratios: 3/6 = 4/8 = 5/10 = 1/2. Scale factor from Δ1 to Δ2 = 2.\n- Construction method: Extend each side of the smaller triangle to twice its length using a ruler (measure 3 cm → mark 6 cm on same ray, etc.). Join the endpoints. This works because SSS similarity guarantees the angles remain the same when sides are scaled uniformly.\n\n**Poor Answer Reveals:** If a student gives non-integer ratios (e.g., 3,5,7 and 6,10,14 — valid but harder to construct) or cannot explain the construction, they lack geometric intuition about similarity as uniform scaling. If they suggest using a protractor to copy angles, they are relying on AAA, not SSS. The best answers show understanding that SSS similarity *is* scaling.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

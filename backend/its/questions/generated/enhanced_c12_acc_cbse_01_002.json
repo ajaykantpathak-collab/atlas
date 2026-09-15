@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_01_002",
+   "title": "c12_acc_cbse_01_002",
+   "questions": [
+    {
+     "q": "What is the minimum number of clauses a Partnership Deed must contain to be valid under the Indian Partnership Act, 1932?",
+     "a": "There is no statutory minimum number of clauses. A Partnership Deed can be oral or written; the Act does not mandate a written deed or prescribe specific clauses. However, for accounting and evidence purposes, a written deed with clauses covering profit sharing ratio, capital contributions, interest on capital/drawings, partner's salary/commission, goodwill valuation method, and dispute resolution is essential. A wrong answer (e.g., \"5 clauses\" or \"must be registered\") reveals the student confuses legal validity requirements with accounting best practices.",
+     "self_check": true
+    },
+    {
+     "q": "A partnership deed states: \"Profits shall be shared equally. Interest on capital @ 10% p.a. shall be allowed. Partner A's capital is ₹10 lakh, Partner B's capital is ₹5 lakh. Net profit before interest is ₹3 lakh.\" Explain why the accountant cannot simply credit ₹1.5 lakh each to Partner A and B's capital accounts.",
+     "a": "The deed mandates interest on capital (₹1 lakh for A, ₹50,000 for B = ₹1.5 lakh total) as an appropriation of profit BEFORE profit sharing. Net profit ₹3 lakh minus interest ₹1.5 lakh leaves ₹1.5 lakh distributable profit, shared equally (₹75,000 each). Final credits: A = ₹1,00,000 + ₹75,000 = ₹1,75,000; B = ₹50,000 + ₹75,000 = ₹1,25,000. A wrong answer (equal split of ₹3 lakh) reveals the student treats interest on capital as a charge against profit (expense) rather than an appropriation, or ignores the deed's sequencing clause.",
+     "self_check": true
+    },
+    {
+     "q": "A firm's Partnership Deed is silent on interest on drawings. Partner X draws ₹2,000 on 1st of every month for 12 months. The accountant charges interest on drawings @ 6% p.a. using the average period method. Is the accountant correct? Justify with reference to the Indian Partnership Act, 1932.",
+     "a": "No. Under Section 13(c) of the Indian Partnership Act, 1932, when the deed is silent, no interest is charged on drawings. The accountant can only charge interest if the deed explicitly provides for it. The average period method (6.5 months) calculation (₹2,000 × 12 × 6% × 6.5/12 = ₹780) is mathematically correct but legally unauthorized. A wrong answer (\"yes, it's standard practice\") reveals the student confuses common accounting practice with statutory default rules.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the accounting treatment of \"Partner's Salary\" and \"Interest on Capital\" when the Partnership Deed provides for both but the firm incurs a loss. How does the deed's wording (\"shall be paid\" vs \"shall be allowed out of profits\") change the outcome?",
+     "a": "If the deed says \"shall be paid\" (charge against profit): both are debited to Profit & Loss Account, increasing the loss. Partners' capital accounts are credited. If the deed says \"shall be allowed out of profits\" (appropriation): neither is recorded if there is no profit; the loss is shared in profit sharing ratio. The wording determines whether they are expenses (charge) or distributions (appropriation). A wrong answer (treat both identically) reveals the student misses the critical legal distinction between \"charge\" and \"appropriation\" embedded in deed drafting.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this Partnership Deed clause: \"Goodwill shall be valued at 3 years' purchase of average profits of last 5 years. On admission of a new partner, the new partner shall bring goodwill in cash which shall be distributed to old partners in their capital ratio.\" Identify two accounting/legal flaws.",
+     "a": "Flaw 1: Goodwill on admission must be shared by old partners in their **sacrificing ratio** (old share – new share), not capital ratio. Capital ratio ignores profit sacrifice. Flaw 2: The clause forces cash payment for goodwill; AS 26 permits recognition only for purchased goodwill. If the new partner cannot bring cash, the clause creates a deadlock. Better: \"Goodwill adjusted through capital/current accounts in sacrificing ratio.\" A poor answer (only mentions valuation method) reveals the student focuses on calculation mechanics but misses the allocation principle and accounting standard compliance.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a Partnership Deed clause for a 3-partner firm (A: capital ₹50L, active; B: capital ₹30L, sleeping; C: capital ₹20L, active) that addresses: (i) profit sharing reflecting effort and capital, (ii) interest on capital capped at 10% but only if profit > ₹20L, (iii) goodwill valuation method for admission/retirement, (iv) dispute resolution without court.",
+     "a": "Sample clause: \"Profits shall be shared: A 40% (20% for capital + 20% for active management), B 20% (capital only), C 40% (20% capital + 20% management). Interest on capital @ 10% p.a. shall be allowed as appropriation only if net profit before interest exceeds ₹20 lakh; otherwise no interest. Goodwill for admission/retirement shall be valued at 2 years' purchase of weighted average profits of last 3 years (weights 3,2,1). Disputes shall be resolved by arbitration under Arbitration & Conciliation Act, 1996 with a sole arbitrator mutually appointed.\" A poor answer (generic equal sharing, no conditions) reveals the student cannot translate business reality into deed clauses that drive accounting entries.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

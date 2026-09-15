@@ -1,0 +1,439 @@
+{
+ "class": 12,
+ "subject": "english",
+ "chapter": 111,
+ "chapter_title": "Poetry",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lekl111.txt",
+ "concepts": [
+  {
+   "id": "lekl.111.1",
+   "title": "Metaphysical Poetry and Donne's Shadow Conceit",
+   "section": "11111",
+   "definition": "A style of seventeenth-century poetry that utilizes elaborate, intellectually rigorous metaphors (conceits) to examine psychological and philosophical aspects of human relationships.",
+   "formula": "",
+   "key_idea": "The physical progression of shadows throughout the day serves as a metaphor for the development, maturity, and potential decline of love.",
+   "textbook_ref": "lekl111.txt lines 25-93",
+   "question_patterns": [
+    "How do the shadows before noon differ from those after noon in Donne's poem?",
+    "Explain the central philosophy of love presented in A Lecture Upon the Shadow.",
+    "What do the morning and afternoon shadows represent in John Donne's work?",
+    "Analyze the use of light and shadow as a conceit in metaphysical poetry."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the central metaphor",
+     "explain": "The position of the sun and the shadows cast by the lovers represent different developmental stages of their relationship."
+    },
+    {
+     "step": 2,
+     "action": "Contrast morning and afternoon shadows",
+     "explain": "Morning shadows represent early disguises and mutual insecurities that disappear at noon (perfect love), while afternoon shadows represent growing deceit and decline."
+    },
+    {
+     "step": 3,
+     "action": "Deduce the final warning",
+     "explain": "If love does not remain constant at its peak (noon), it will rapidly decay into darkness and blindness."
+    }
+   ]
+  },
+  {
+   "id": "lekl.111.2",
+   "title": "Milton's Conception of Time and Eternity",
+   "section": "22222",
+   "definition": "The poetic contrast between the slow, destructive nature of mortal time and the joyful, unchanging state of spiritual eternity.",
+   "formula": "",
+   "key_idea": "Temporal existence is transient and self-consuming, while spiritual triumph leads to eternal peace.",
+   "textbook_ref": "lekl111.txt lines 94-135",
+   "question_patterns": [
+    "How does Milton contrast mortal time with eternity in On Time?",
+    "What does the poet mean by envious Time and leaden-stepping hours?",
+    "Explain the ultimate triumph over death and chance in Milton's poem.",
+    "Analyze the transition from temporal loss to eternal gain in On Time."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the depiction of mortal Time",
+     "explain": "Time is characterized as a greedy, slow-moving force ('leaden-stepping') that only consumes false, vain, and mortal things."
+    },
+    {
+     "step": 2,
+     "action": "Contrast with the arrival of Eternity",
+     "explain": "Once mortal things are consumed, Eternity greets the soul with divine truth, peace, and love."
+    },
+    {
+     "step": 3,
+     "action": "Explain the final spiritual triumph",
+     "explain": "The human soul, freed from earthly grossness, achieves final victory over Time, Death, and Chance."
+    }
+   ]
+  },
+  {
+   "id": "lekl.111.3",
+   "title": "Milton's Tribute to Shakespeare",
+   "section": "22222",
+   "definition": "The idea that a great writer's true monument is built in the minds and hearts of their readers, rather than through physical structures like stone tombs.",
+   "formula": "",
+   "key_idea": "Intellectual and artistic legacy outlasts physical monuments.",
+   "textbook_ref": "lekl111.txt lines 136-175",
+   "question_patterns": [
+    "Why does Milton believe Shakespeare does not need a monument of piled stones?",
+    "What is the weak witness of thy name in Milton's On Shakespeare?",
+    "How does Shakespeare build a live-long monument according to Milton?",
+    "Explain the phrase make us Marble with too much conceaving."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the inadequacy of physical monuments",
+     "explain": "Milton argues that physical structures like pyramids are weak witnesses compared to Shakespeare's literary genius."
+    },
+    {
+     "step": 2,
+     "action": "Describe the impact of Shakespeare's poetry",
+     "explain": "His easy-flowing, inspired lines deeply impress and captivate his readers, leaving a lasting impression."
+    },
+    {
+     "step": 3,
+     "action": "Clarify the concept of the living monument",
+     "explain": "The awe and imaginative engagement of readers turn them into living monuments of his art, making physical tombs unnecessary."
+    }
+   ]
+  },
+  {
+   "id": "lekl.111.4",
+   "title": "Blake's Contrasting States of the Human Soul",
+   "section": "33333",
+   "definition": "The dialectical relationship between innocence and experience, showing how divine virtues in their pure state become corrupted by social and mental constructs.",
+   "formula": "",
+   "key_idea": "Virtues like mercy and pity are divine when practiced directly, but can stem from inequality and deceit in a fallen world.",
+   "textbook_ref": "lekl111.txt lines 176-245",
+   "question_patterns": [
+    "Contrast the depiction of human virtues in The Divine Image and The Human Abstract.",
+    "How do Mercy, Pity, Peace, and Love get distorted in the human brain?",
+    "What does the Tree of Mystery represent in Blake's poetry?",
+    "Explain how pity and mercy depend on suffering and poverty in The Human Abstract."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze 'The Divine Image'",
+     "explain": "In the state of innocence, Mercy, Pity, Peace, and Love are identified as both divine attributes and the essence of humanity."
+    },
+    {
+     "step": 2,
+     "action": "Analyze 'The Human Abstract'",
+     "explain": "In the state of experience, Pity and Mercy are shown to exist only because of poverty and unhappiness created by human cruelty."
+    },
+    {
+     "step": 3,
+     "action": "Explain the 'Tree of Mystery'",
+     "explain": "The tree grows in the human brain as a symbol of deceit, fear, and intellectual corruption, distorting natural human virtues."
+    }
+   ]
+  },
+  {
+   "id": "lekl.111.5",
+   "title": "Coleridge's Romanticism and the Supernatural",
+   "section": "44444",
+   "definition": "The poetic blending of real geographical elements with dreamlike, surreal, and supernatural imagery to evoke a sense of awe and artistic ecstasy.",
+   "formula": "",
+   "key_idea": "The creative imagination can construct a miraculous world out of subconscious visions.",
+   "textbook_ref": "lekl111.txt lines 246-325",
+   "question_patterns": [
+    "How does Coleridge combine the real and the imaginary in Kubla Khan?",
+    "What are the contrasting images of the pleasure dome and the caves of ice?",
+    "Explain the significance of the ancestral voices prophesying war.",
+    "What is poetic ecstasy compared to at the end of Kubla Khan?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the setting of Xanadu",
+     "explain": "A sunny pleasure-dome is built near a deep, savage chasm and a sunless sea, mixing geography with fantasy."
+    },
+    {
+     "step": 2,
+     "action": "Note the juxtaposition of contrasting elements",
+     "explain": "The poem juxtaposes fire/sun with ice, and order (the dome) with chaotic nature (the sacred river and caverns)."
+    },
+    {
+     "step": 3,
+     "action": "Explain the role of creative ecstasy",
+     "explain": "The poet's vision of the Abyssinian maid inspires a state of creative frenzy, equating artistic creation to divine madness."
+    }
+   ]
+  },
+  {
+   "id": "lekl.111.6",
+   "title": "Emily Dickinson's Nature Imagery and Style",
+   "section": "55555",
+   "definition": "A poetic style marked by unconventional punctuation, capitalization, and vivid, miniature details that capture the transient beauty of a summer day.",
+   "formula": "",
+   "key_idea": "Nature's fleeting moments are more magnificent than any artistic representation.",
+   "textbook_ref": "lekl111.txt lines 326-380",
+   "question_patterns": [
+    "What imagery does Emily Dickinson use to describe a summer day?",
+    "Explain the meaning of Psalteries of Summer in Dickinson's poem.",
+    "How does Dickinson use capitalization and dashes to create meaning?",
+    "What is the significance of comparing flowers to Hindered Flags?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the personification of natural elements",
+     "explain": "Trees swing like tassels and miniature creatures make music, attributing human qualities to nature."
+    },
+    {
+     "step": 2,
+     "action": "Explain the role of the sun",
+     "explain": "The sun appears optional and controls its own estates of clouds, emphasizing its majestic and whimsical nature."
+    },
+    {
+     "step": 3,
+     "action": "Describe the poet's assertion on art",
+     "explain": "The poet asserts that even the finest paintings (Vandyke's delineation) cannot match the lived experience of nature's beauty."
+    }
+   ]
+  },
+  {
+   "id": "lekl.111.7",
+   "title": "Yeats's Symbolism and the Transient vs Eternal",
+   "section": "66666",
+   "definition": "The contrast between the aging, weary human observer and the timeless, unwearied beauty and passion of wild swans.",
+   "formula": "",
+   "key_idea": "Human life is subject to decay and change, whereas nature's symbols retain eternal youth and passion.",
+   "textbook_ref": "lekl111.txt lines 381-440",
+   "question_patterns": [
+    "How does Yeats contrast the swans with his own aging self?",
+    "What do the dry paths and October twilight symbolize in Yeats's poem?",
+    "Why does the poet's heart feel sore when looking at the swans?",
+    "Explain the significance of the swans' unwearied nature."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Establish the setting of autumn and twilight",
+     "explain": "The dry paths and October twilight mirror the poet's own late stage of life and sense of decay."
+    },
+    {
+     "step": 2,
+     "action": "Contrast the poet with the swans",
+     "explain": "The poet's heavy tread and sore heart contrast with the swans' light, unwearied flight and companionable paddling."
+    },
+    {
+     "step": 3,
+     "action": "Conclude the symbolic meaning",
+     "explain": "The swans represent an unchanging world of passion and beauty that will outlast the poet's presence."
+    }
+   ]
+  },
+  {
+   "id": "lekl.111.8",
+   "title": "Ramanujan's Imagery of Time and Communal Harmony",
+   "section": "77777",
+   "definition": "The representation of diverse human beliefs, conflicts, and natural forces through the discordant chiming and destruction of city clocktowers.",
+   "formula": "",
+   "key_idea": "Human divisions and structures are fragile and easily disrupted by both societal violence and natural events.",
+   "textbook_ref": "lekl111.txt lines 441-495",
+   "question_patterns": [
+    "What do the different chimes of the clocktowers represent in Ramanujan's poem?",
+    "How does the poet connect clockworks with communal alliances and feuds?",
+    "Why is the act of nature described as precise in Time and Time Again?",
+    "Explain the impact of human violence on the city's timekeeping."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the differences in clock chimes",
+     "explain": "The different clocktowers chime slightly out of sync due to material differences, distance, or donor whims."
+    },
+    {
+     "step": 2,
+     "action": "Link clockworks to human divisions",
+     "explain": "These differences represent the shifting alliances and feuds among different religious communities."
+    },
+    {
+     "step": 3,
+     "action": "Describe the impact of destructive forces",
+     "explain": "Riots, bombs, or a precise strike of lightning can instantly silence these human-made systems of order."
+    }
+   ]
+  },
+  {
+   "id": "lekl.111.9",
+   "title": "Kamala Das's Themes of Heritage, Class, and Nostalgia",
+   "section": "88888",
+   "definition": "An exploration of ancestral pride, class distinctions, and the painful decay of a family's physical and cultural heritage.",
+   "formula": "",
+   "key_idea": "The conflict between a deep, inherited connection to one's lineage and the inability to preserve its physical ruins.",
+   "textbook_ref": "lekl111.txt lines 496-610",
+   "question_patterns": [
+    "How does Kamala Das depict the physical decay of her ancestral home?",
+    "What is the significance of the oldest blood in the poem Blood?",
+    "How does the poet contrast her grandmother's blood with that of the poor and new-rich?",
+    "Why does the poet seek forgiveness from her great-grandmother?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the physical decay of the house",
+     "explain": "The crumbling three-hundred-year-old house with cracked walls, falling tiles, and invading rats represents the decline of a lineage."
+    },
+    {
+     "step": 2,
+     "action": "Explain the grandmother's pride in her blood",
+     "explain": "The grandmother's pride in her noble, ancient blood is contrasted with the 'thick' blood of the poor and new-rich."
+    },
+    {
+     "step": 3,
+     "action": "Analyze the poet's guilt and sense of defeat",
+     "explain": "The poet feels guilt and a sense of defeat for failing to fulfill her childhood promise to rebuild the house, leaving it to decay."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lekl111.txt lines 30-60",
+   "concept": "lekl.111.1",
+   "question_type": "verify_property",
+   "question_pattern": "In John Donne's 'A Lecture Upon the Shadow', how do the shadows created in the morning differ from those created in the afternoon, and what do they symbolize?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the central metaphor",
+     "explain": "The position of the sun and the shadows cast by the lovers represent different developmental stages of their relationship."
+    },
+    {
+     "step": 2,
+     "action": "Contrast morning and afternoon shadows",
+     "explain": "Morning shadows represent early disguises and mutual insecurities that disappear at noon (perfect love), while afternoon shadows represent growing deceit and decline."
+    },
+    {
+     "step": 3,
+     "action": "Deduce the final warning",
+     "explain": "If love does not remain constant at its peak (noon), it will rapidly decay into darkness and blindness."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lekl111.txt lines 180-230",
+   "concept": "lekl.111.4",
+   "question_type": "verify_property",
+   "question_pattern": "How does William Blake contrast the human soul's states of innocence and experience in 'The Divine Image' and 'The Human Abstract'?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze 'The Divine Image'",
+     "explain": "In the state of innocence, Mercy, Pity, Peace, and Love are identified as both divine attributes and the essence of humanity."
+    },
+    {
+     "step": 2,
+     "action": "Analyze 'The Human Abstract'",
+     "explain": "In the state of experience, Pity and Mercy are shown to exist only because of poverty and unhappiness created by human cruelty."
+    },
+    {
+     "step": 3,
+     "action": "Explain the 'Tree of Mystery'",
+     "explain": "The tree grows in the human brain as a symbol of deceit, fear, and intellectual corruption, distorting natural human virtues."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex111.1",
+   "source_ref": "lekl111.txt lines 85-93",
+   "questions": [
+    "How do the shadows before noon differ from the shadows after noon? What do the two kinds of shadow represent?",
+    "Love is described as light. What makes the poet talk about shadows?",
+    "Comment on the use of the image of the shadows for the idea that the poet wants to convey."
+   ]
+  },
+  {
+   "id": "ex111.2",
+   "source_ref": "lekl111.txt lines 130-135",
+   "questions": [
+    "Why has the poet pitted the flight of Time against the 'lazy leaden-stepping hours' and 'the heavy Plummets pace'?",
+    "What are the things associated with the temporal and what are associated with the eternal?",
+    "What guides human souls towards divinity? Who is the final winner in the race against Time?"
+   ]
+  },
+  {
+   "id": "ex111.3",
+   "source_ref": "lekl111.txt lines 170-175",
+   "questions": [
+    "Why does Milton feel it is not necessary to put up a monument in stone for Shakespeare?",
+    "What does the 'weak witness of thy name' refer to?",
+    "How does Milton describe Shakespeare as the source of inspiration for all succeeding generations of poets?"
+   ]
+  },
+  {
+   "id": "ex111.4",
+   "source_ref": "lekl111.txt lines 240-245",
+   "questions": [
+    "How are these two matched poems related to each other in content? How is the human being depicted in the Song of Innocence and how is he/she depicted in the Song of Experience?",
+    "How do Mercy, Pity, Peace and Love get distorted in the human brain?"
+   ]
+  },
+  {
+   "id": "ex111.5",
+   "source_ref": "lekl111.txt lines 320-325",
+   "questions": [
+    "Does the poem have a real geographical location? How does the poet mix up the real and the imaginary to give a sense of the surreal?",
+    "What is the discordant note heard at the end of the third stanza? Can we relate this to the grandeur and turmoil that are a part of an emperor's life?"
+   ]
+  },
+  {
+   "id": "ex111.6",
+   "source_ref": "lekl111.txt lines 375-380",
+   "questions": [
+    "What imagery does the poet use to delineate Summer's day more picturesquely than any painter could?",
+    "What do you understand by 'Psalteries of Summer'?",
+    "How would you explain the image of the 'Hindered Flags'?"
+   ]
+  },
+  {
+   "id": "ex111.7",
+   "source_ref": "lekl111.txt lines 435-440",
+   "questions": [
+    "How do the 'trees in their autumn beauty', 'dry woodland paths', 'October twilight', 'still sky' connect to the poet's own life?",
+    "What is the contrast between the liveliness of the swans and human life?"
+   ]
+  },
+  {
+   "id": "ex111.8",
+   "source_ref": "lekl111.txt lines 490-495",
+   "questions": [
+    "What makes for the differences between the timekeeping of the various clocks? What is the implicit comparison?",
+    "Why is the act of nature described as 'precise'?"
+   ]
+  },
+  {
+   "id": "ex111.9",
+   "source_ref": "lekl111.txt lines 605-610",
+   "questions": [
+    "What makes the depiction of a crumbling village house so authentic in the poem? Is this a common feature of most village houses in the context of rapid urbanisation?",
+    "Does the poem bring out the contrast between tradition and modernity? Illustrate your answer with examples from the poem.",
+    "What do you understand of the conflict in the poet's conscience?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

@@ -1,0 +1,423 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 102,
+ "chapter_title": "Components of Food",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gecu109.txt",
+ "concepts": [
+  {
+   "id": "fesc.2.1.1",
+   "title": "Major Nutrients in Food",
+   "section": "2.1",
+   "definition": "Essential substances contained in food that nourish the body, build structures, provide energy, and sustain biological functions.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Dietary food comprises five primary nutrient groups along with fibre and water.",
+   "textbook_ref": "fesc102.txt lines 20-45",
+   "question_patterns": [
+    "what are the major nutrients present in our food",
+    "list the essential components required by the human body",
+    "name the five main classes of dietary nutrients",
+    "which substances in food support life and growth",
+    "what do you understand by major nutrients in food"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify nutrient categories",
+     "explain": "The main nutrients are carbohydrates, proteins, fats, vitamins, and minerals."
+    },
+    {
+     "step": 2,
+     "action": "identify secondary components",
+     "explain": "Dietary fibre (roughage) and water are essential additions to daily intake."
+    },
+    {
+     "step": 3,
+     "action": "classify each nutrient by function",
+     "explain": "Group the nutrients as energy-giving (carbohydrates, fats), body-building (proteins), and protective (vitamins, minerals) to understand their distinct roles."
+    }
+   ]
+  },
+  {
+   "id": "fesc.2.1.2",
+   "title": "Test for Starch",
+   "section": "2.1",
+   "definition": "A chemical procedure where dilute iodine solution is added to a food sample to detect complex carbohydrates through color change.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "A dark blue-black color change confirms the presence of starch.",
+   "textbook_ref": "fesc102.txt lines 50-65",
+   "question_patterns": [
+    "how do you test for the presence of starch in a food item",
+    "describe the iodine test for carbohydrates",
+    "what color indicates a positive result for starch test",
+    "calculate or identify the reaction result when iodine hits potato sample",
+    "justify why test for starch matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "prepare sample",
+     "explain": "Place a small portion of raw or cooked food item in a container."
+    },
+    {
+     "step": 2,
+     "action": "apply reagent",
+     "explain": "Add 2 to 3 drops of diluted iodine solution onto the food sample."
+    },
+    {
+     "step": 3,
+     "action": "observe color change",
+     "explain": "A blue-black tint confirms the presence of starch."
+    }
+   ]
+  },
+  {
+   "id": "fesc.2.1.3",
+   "title": "Test for Proteins",
+   "section": "2.1",
+   "definition": "A biochemical test where aqueous copper both sulphate and caustic soda solutions react with proteins to yield a violet solution.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Formation of a distinct violet color indicates protein content.",
+   "textbook_ref": "fesc102.txt lines 66-90",
+   "question_patterns": [
+    "how can you test a food sample for protein presence",
+    "what chemicals are used to detect protein in food items",
+    "describe the chemical steps of testing groundnut or egg for proteins",
+    "what color change confirms proteins during chemical testing",
+    "describe test for proteins with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "prepare food suspension",
+     "explain": "Grind food sample into fine powder/paste and mix with 10 drops of water in a test tube."
+    },
+    {
+     "step": 2,
+     "action": "add chemical reagents",
+     "explain": "Dispense 2 drops of copper sulphate solution followed by 10 drops of caustic soda solution."
+    },
+    {
+     "step": 3,
+     "action": "check color formation",
+     "explain": "Mix and allow to stand; a violet color verifies protein presence."
+    }
+   ]
+  },
+  {
+   "id": "fesc.2.1.4",
+   "title": "Test for Fats",
+   "section": "2.1",
+   "definition": "A physical test where food is pressed on paper to leave a translucent greasy spot that remains visible after drying.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "A persistent oily mark on paper demonstrates lipid content.",
+   "textbook_ref": "fesc102.txt lines 91-115",
+   "question_patterns": [
+    "how do you test a food item for fat content",
+    "describe the paper spot test for lipids",
+    "how to differentiate oily patches from water spots on paper",
+    "what observation indicates that a food contains fat",
+    "justify why test for fats matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "wrap and crush",
+     "explain": "Enclose food item in paper and crush gently without rupturing the sheet."
+    },
+    {
+     "step": 2,
+     "action": "dry the paper",
+     "explain": "Unfold paper and allow time for any water moisture to evaporate."
+    },
+    {
+     "step": 3,
+     "action": "inspect against light",
+     "explain": "Hold paper to light; a translucent greasy spot confirms presence of fat."
+    }
+   ]
+  },
+  {
+   "id": "fesc.2.2.1",
+   "title": "Carbohydrates and Fats as Energy Sources",
+   "section": "2.2",
+   "definition": "Nutrient categories that undergo cellular respiration to generate biological fuel, with lipids providing higher caloric yield per mass.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Both Fats and carbohydrates supply bodily energy, with fats yielding significantly more.",
+   "textbook_ref": "fesc102.txt lines 116-140",
+   "question_patterns": [
+    "which nutrients are called energy giving foods",
+    "compare energy output from equal amounts of fat and carbohydrate",
+    "why does the body require carbohydrates and fats",
+    "which nutrient group provides maximum energy to humans",
+    "give one everyday example of carbohydrates and fats as energy sources"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify function",
+     "explain": "Carbohydrates and fats act as fuel for cellular metabolic processes."
+    },
+    {
+     "step": 2,
+     "action": "compare energy densities",
+     "explain": "Gram for gram, fats provide roughly double the energy supplied by carbohydrates."
+    },
+    {
+     "step": 3,
+     "action": "link to everyday food sources",
+     "explain": "Connect the nutrients to common foods such as rice and wheat for carbohydrates and butter and oil for fats, confirming their energy-giving role."
+    }
+   ]
+  },
+  {
+   "id": "fesc.2.2.2",
+   "title": "Functions of Dietary Proteins",
+   "section": "2.2",
+   "definition": "Structural biological molecules essential for tissue construction, cellular repair, and physical growth of the body.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Proteins are body-building nutrients vital for both growth and tissue renewal.",
+   "textbook_ref": "fesc102.txt lines 141-155",
+   "question_patterns": [
+    "why are proteins called body building foods",
+    "what biological roles do proteins perform in humans",
+    "which nutrient is necessary for repairing broken tissue and muscle growth",
+    "name plant and animal sources rich in proteins",
+    "list the main features of functions of dietary proteins"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify core physiological role",
+     "explain": "Proteins synthesize structural components required for cellular growth and tissue repair."
+    },
+    {
+     "step": 2,
+     "action": "classify category",
+     "explain": "Foods high in protein are grouped under body-building nutrition."
+    },
+    {
+     "step": 3,
+     "action": "identify dietary sources",
+     "explain": "Recall protein-rich foods such as pulses, eggs, meat, milk, and fish to confirm the body-building role through everyday diet."
+    }
+   ]
+  },
+  {
+   "id": "fesc.2.2.3",
+   "title": "Functions of Vitamins and Minerals",
+   "section": "2.2",
+   "definition": "Micronutrients required in trace quantities to safeguard against physiological disorders and support skeletal and systemic health.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Both Vitamins and minerals act as protective nutrients maintaining immune defense and metabolic balance.",
+   "textbook_ref": "fesc102.txt lines 156-185",
+   "question_patterns": [
+    "why are vitamins referred to as protective foods",
+    "what is the role of Vitamin A, C, and D in human health",
+    "which mineral is required for strong teeth and bones",
+    "how does iron or iodine contribute to human metabolic health",
+    "state two key points about functions of vitamins and minerals"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "specify vitamin protection functions",
+     "explain": "Vitamin A maintains skin and vision, Vitamin C aids immune defense, Vitamin D enables calcium uptake."
+    },
+    {
+     "step": 2,
+     "action": "specify mineral structural roles",
+     "explain": "Calcium hardens bone matrix, Iron produces blood hemoglobin, Iodine enables thyroid gland synthesis."
+    },
+    {
+     "step": 3,
+     "action": "summarize as protective foods",
+     "explain": "Conclude that vitamins and minerals are called protective foods because they guard the body against disease and keep organs functioning properly."
+    }
+   ]
+  },
+  {
+   "id": "fesc.2.2.4",
+   "title": "Role of Roughage and Water",
+   "section": "2.2",
+   "definition": "Non-caloric food components consisting of indigestible plant fibers and liquid solvent necessary for digestion and excretion.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Roughage prevents constipation while water dissolves nutrients and removes body wastes.",
+   "textbook_ref": "fesc102.txt lines 186-210",
+   "question_patterns": [
+    "what is dietary fibre or roughage and why is it necessary",
+    "how does water assist in body metabolic functions",
+    "why must we consume dietary components that provide no nutrients",
+    "which food items supply maximum dietary fiber",
+    "how does role of roughage and water work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain roughage function",
+     "explain": "Dietary fibre adds bulk to digestive waste, enabling efficient movement through intestines."
+    },
+    {
+     "step": 2,
+     "action": "explain water function",
+     "explain": "Water acts as a solvent for nutrient absorption and flushes waste out through sweat and urine."
+    },
+    {
+     "step": 3,
+     "action": "identify food sources of roughage",
+     "explain": "Recall that whole grains, fresh fruits, vegetables, and leafy greens supply dietary fibre, confirming the practical link between these foods and healthy digestion."
+    }
+   ]
+  },
+  {
+   "id": "fesc.2.3.1",
+   "title": "Balanced Diet and Preservation of Nutrients",
+   "section": "2.3",
+   "definition": "A meal plan delivering all essential dietary components in appropriate proportions while employing proper cooking to prevent nutrient destruction.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "A balanced meal covers all nutritional requirements without excess calorie or nutrient loss during preparation.",
+   "textbook_ref": "fesc102.txt lines 211-250",
+   "question_patterns": [
+    "what constitutes a balanced diet",
+    "how does improper cooking or excessive washing reduce nutritional value",
+    "why should fruits and vegetables not be washed after peeling",
+    "which vitamin gets destroyed easily by heat during cooking",
+    "short note on balanced diet and preservation of nutrients"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define balance requirements",
+     "explain": "Incorporate suitable quantities of energy foods, proteins, vitamins, minerals, roughage, and water."
+    },
+    {
+     "step": 2,
+     "action": "identify nutrient preservation practices",
+     "explain": "Avoid repetitive washing of peeled produce and excessive heating, which degrades water-soluble vitamins like Vitamin C."
+    },
+    {
+     "step": 3,
+     "action": "verify the meal plan is complete",
+     "explain": "Check that the diet includes all nutrient groups in correct proportions and that cooking methods retain maximum nutritional value."
+    }
+   ]
+  },
+  {
+   "id": "fesc.2.4.1",
+   "title": "Nutrient Deficiency Diseases",
+   "section": "2.4",
+   "definition": "Pathological conditions arising in an organism due to long-term insufficient intake of specific dietary nutrients.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Prolonged omission of key vitamins or minerals causes specific clinical disorders preventable by a balanced diet.",
+   "textbook_ref": "fesc102.txt lines 251-295",
+   "question_patterns": [
+    "what are deficiency diseases",
+    "which disease is caused by lack of Vitamin D or Vitamin C",
+    "identify symptoms of goitre, scurvy, or beriberi",
+    "how can deficiency disorders be prevented",
+    "how does nutrient deficiency diseases work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define concept",
+     "explain": "Disorders resulting from sustained lack of particular nutrients over long periods."
+    },
+    {
+     "step": 2,
+     "action": "associate nutrients with specific conditions",
+     "explain": "Vitamin A deficiency causes night blindness; B1 causes Beriberi; C causes Scurvy; D causes Rickets; Calcium causes tooth/bone decay; Iodine causes Goitre; Iron causes Anemia."
+    },
+    {
+     "step": 3,
+     "action": "determine prevention strategy",
+     "explain": "Conclude that each deficiency disease can be prevented by eating a balanced diet that supplies the missing nutrient in adequate amounts."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fesc102.txt lines 50-65",
+   "concept": "fesc.2.1.2",
+   "question_type": "verification",
+   "question_pattern": "A student added drops of iodine solution to a slice of raw {food_item}. The slice turned blue-black. What nutrient is present?",
+   "extracted_variables": {
+    "food_item": "potato"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "analyze reagent and result",
+     "explain": "Iodine solution interacting with a sample yields a blue-black color specifically in the presence of starch."
+    },
+    {
+     "step": 2,
+     "action": "conclude nutrient",
+     "explain": "The blue-black reaction confirms that the raw potato contains starch (carbohydrates)."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fesc102.txt lines 251-295",
+   "concept": "fesc.2.4.1",
+   "question_type": "identification",
+   "question_pattern": "A child presents with soft and bent leg bones. Name the deficiency disease and missing {nutrient}.",
+   "extracted_variables": {
+    "nutrient": "vitamin"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify symptoms",
+     "explain": "Softened, weak, and bowed leg bones are characteristic symptoms of rickets."
+    },
+    {
+     "step": 2,
+     "action": "identify missing nutrient",
+     "explain": "Rickets is caused by a long-term dietary deficiency of Vitamin D."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "fesc102.txt lines 310-315",
+   "questions": [
+    "Name the major nutrients in our food.",
+    "Name the nutrients which mainly give energy to our body.",
+    "Name the nutrients that are needed for the growth and maintenance of our body.",
+    "Name a vitamin required for maintaining good eyesight.",
+    "Name a mineral that is required for keeping our bones healthy."
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "fesc102.txt lines 316-325",
+   "questions": [
+    "Name two foods each rich in fats, starch, dietary fibre, and protein.",
+    "Tick the statements that are correct: By eating rice alone, we can fulfill nutritional requirement of our body.",
+    "Deficiency diseases can be prevented by eating a balanced diet.",
+    "Fill in the blank: Rickets is caused by deficiency of Vitamin D.",
+    "Fill in the blank: Deficiency of Vitamin B1 causes a disease known as beri-beri.",
+    "Fill in the blank: Deficiency of Vitamin C causes a disease known as scurvy."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

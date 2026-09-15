@@ -1,0 +1,362 @@
+{
+ "catalog": "catalog_class11_applied_maths_am11_008_calculus.json",
+ "concepts": [
+  {
+   "id": "am11_008.1",
+   "title": "Functions and Their Evaluation",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A set has 5 elements. How many elements are in its identity relation (a, a) for every element?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "A set with 5 elements: how many pairs are in the full universal relation A x A?",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "How many pairs are in the empty relation on any set?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "A reflexive relation on a set of 5 elements must contain at least how many pairs?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Set A = {5}. How many elements does the singleton set A have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many elements are in the empty set (its cardinality)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_008.2",
+   "title": "Domain and Range of a Function",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 5 gives 5",
+     "compute": "count = 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A set has 5 elements. How many elements are in its identity relation (a, a) for every element?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "A set with 5 elements: how many pairs are in the full universal relation A x A?",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "How many pairs are in the empty relation on any set?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "A reflexive relation on a set of 5 elements must contain at least how many pairs?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Set A = {1}. How many elements does the singleton set A have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many elements are in the empty set (its cardinality)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_008.3",
+   "title": "Types of Functions",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the exponent law to the given powers",
+     "explain": "apply the exponent law to the given powers: val = 3 ** (3 + 4) gives 2187",
+     "compute": "val = 3 ** (3 + 4)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Using the law a^m x a^n = a^(m+n), evaluate 3^3 x 3^4.",
+     "a": "2187",
+     "self_check": false
+    },
+    {
+     "q": "Using a^m / a^n = a^(m-n), evaluate 2^3 / 2^2.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (5^2)^2 using the power of a power law.",
+     "a": "625",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 4^3 x 3^3 using a^m x b^m = (ab)^m.",
+     "a": "1728",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 6^0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 8^(-3) and give the value as a fraction.",
+     "a": "1/512",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_008.4",
+   "title": "Limits by Substitution and Cancellation",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Evaluate the limit of 2x^2 + 8x + 4 as x approaches 4 (direct substitution).",
+     "a": "68",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 1x^4 is 4x^3. Find the derivative's value at x = 4.",
+     "a": "256",
+     "self_check": false
+    },
+    {
+     "q": "For y = 3x^2 + 5x + 4, find the slope of the tangent at x = 2.",
+     "a": "17",
+     "self_check": false
+    },
+    {
+     "q": "For y = 3x^2 + 5x + 4 at x = 2, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.06",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 3.",
+     "a": "4335",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_008.5",
+   "title": "Continuity of a Function at a Point",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 2 gives 2",
+     "compute": "lines = 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "How many lines of symmetry does a rectangle have?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "What is the order of rotational symmetry of a regular hexagon?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a kite have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "A line segment has two endpoints; how many endpoints does a ray have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many end points does a line have (a line extends endlessly in both directions)?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Two distinct lines in a plane meet in at most how many points?",
+     "a": "1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_008.6",
+   "title": "Average and Instantaneous Rate of Change",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 40, 28, 35, 38, 14.",
+     "a": "31",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 2, 9, 10, 13, 22 (already in increasing order).",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 14, 39. A seventh value 43 is added, making 7 values. Find the median of the 7 values.",
+     "a": "39",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 12 and 44. Find the median.",
+     "a": "28",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 6 times, 5 occurs 2 times and 6 occurs 1 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 28, 16, 43, 7.",
+     "a": "36",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_008.7",
+   "title": "Derivative of a Polynomial by the Power Rule",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Evaluate the limit of 4x^2 + 2x + 4 as x approaches 4 (direct substitution).",
+     "a": "76",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 4x^3 is 12x^2. Find the derivative's value at x = 4.",
+     "a": "192",
+     "self_check": false
+    },
+    {
+     "q": "For y = 2x^2 + 3x + 4, find the slope of the tangent at x = 2.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "For y = 2x^2 + 3x + 4 at x = 2, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.09",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 4.",
+     "a": "7260",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_008.8",
+   "title": "Chain Rule for Composite Functions",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two numbers 10 and 2 have HCF 2 with coprime multipliers 5 and 1. Verify by computing hcf = 2 x 1; then find the HCF value.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Find the LCM of 10 and 2 given their HCF is 2 and HCF x LCM = product of the numbers.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "The LCM of 10 and 2 is 10. Use HCF x LCM = a x b to find their HCF.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Two ropes of lengths 10 cm and 2 cm are cut into equal pieces of greatest length. What is the length of each piece?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Two bells ring together now. They ring at intervals of 10 minutes and 2 minutes. After how many minutes will they next ring together?",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "How many multiples of 18 are there up to 96?",
+     "a": "5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_008.9",
+   "title": "Tangent Line to a Curve",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the circumference of a circle of radius 63 cm (take pi = 22/7).",
+     "a": "396",
+     "self_check": false
+    },
+    {
+     "q": "A circle has diameter 35 cm. Find its circumference (pi = 22/7).",
+     "a": "110",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a circle of radius 14 cm (pi = 22/7).",
+     "a": "616",
+     "self_check": false
+    },
+    {
+     "q": "Two concentric circles have radii 35 cm and 70 cm. Find the area of the ring between them (pi = 22/7).",
+     "a": "11550",
+     "self_check": false
+    },
+    {
+     "q": "Find the length of an arc that subtends 120 degrees at the centre of a circle of radius 77 cm (pi = 22/7).",
+     "a": "161.333",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a sector with central angle 60 degrees in a circle of radius 56 cm (pi = 22/7).",
+     "a": "1642.67",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

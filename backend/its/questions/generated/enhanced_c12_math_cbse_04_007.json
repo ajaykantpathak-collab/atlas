@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_04_007",
+   "title": "c12_math_cbse_04_007",
+   "questions": [
+    {
+     "q": "State the formula for the inverse of a 3×3 matrix A using its adjoint. What condition must be satisfied for the inverse to exist?",
+     "a": "The inverse is A⁻¹ = (1/|A|) adj A, provided |A| ≠ 0. A wrong answer (e.g., A⁻¹ = adj A without division, or saying inverse always exists) reveals the student does not understand the scaling role of the determinant or the singularity condition. They may confuse adjoint with inverse or forget the non-zero determinant requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the formula A⁻¹ = (1/|A|) adj A works. Use the identity A(adj A) = |A|I in your reasoning.",
+     "a": "Starting from A(adj A) = |A|I, if |A| ≠ 0, we can multiply both sides on the right by (1/|A|)A⁻¹ (or simply divide the matrix equation by the scalar |A|): A(adj A)(1/|A|) = I. This shows A[(1/|A|) adj A] = I, so (1/|A|) adj A is the right inverse. A similar argument gives the left inverse. A student who cannot trace this derivation likely memorizes the formula without understanding the theorem linking adjoint, determinant, and identity.",
+     "self_check": true
+    },
+    {
+     "q": "Find the inverse of A = [[2, 1], [3, 4]] using the adjoint method. Show all steps: determinant, cofactor matrix, adjoint, and final inverse.",
+     "a": "Step 1: |A| = (2)(4) - (1)(3) = 8 - 3 = 5 ≠ 0, so inverse exists.\nStep 2: Cofactors: A₁₁ = 4, A₁₂ = -3, A₂₁ = -1, A₂₂ = 2.\nStep 3: Cofactor matrix = [[4, -3], [-1, 2]]. Adjoint = transpose = [[4, -1], [-3, 2]].\nStep 4: A⁻¹ = (1/5)[[4, -1], [-3, 2]] = [[4/5, -1/5], [-3/5, 2/5]].\nStep 5: Verify: A A⁻¹ = [[2,1],[3,4]] [[4/5,-1/5],[-3/5,2/5]] = [[1,0],[0,1]] = I.\nA wrong sign in cofactors (e.g., forgetting (-1)^(i+j)) or skipping transpose reveals the most common procedural error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the adjoint method and elementary row operations for finding A⁻¹. When would you prefer each method for a 3×3 matrix in a board exam vs. a JEE problem with parameters?",
+     "a": "Adjoint method: direct formula, good for 2×2 and symbolic 3×3 (parameters like a, b, c) because it yields an algebraic expression for A⁻¹. Row operations: better for numerical 3×3 with many zeros or when only one column of A⁻¹ is needed. In board exams, adjoint is often expected for \"find inverse\" questions; in JEE, row operations can be faster for specific numerical matrices. A student who cannot articulate this trade-off lacks strategic problem-solving awareness.",
+     "self_check": true
+    },
+    {
+     "q": "A student computes A⁻¹ for A = [[1, 2, 3], [0, 1, 4], [5, 6, 0]] and gets A⁻¹ = [[-24, 18, 5], [20, -15, -4], [-5, 4, 1]] without dividing by |A|. Identify the error and find the correct inverse.",
+     "a": "The student computed adj A but forgot to divide by |A|. First, |A| = 1(0-24) - 2(0-20) + 3(0-5) = -24 + 40 - 15 = 1. Since |A| = 1, the student's answer accidentally equals the correct inverse. But the method is wrong — if |A| were 2, the answer would be off by factor 2. Correct inverse = (1/1) adj A = adj A = [[-24, 18, 5], [20, -15, -4], [-5, 4, 1]]. This exposes the \"missing division\" misconception that only shows up when |A| ≠ 1.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 3×3 matrix with integer entries whose inverse also has only integer entries. Explain your construction method.",
+     "a": "A matrix with integer entries has an integer inverse iff |A| = ±1 (since A⁻¹ = (1/|A|) adj A and adj A has integer entries). Example: A = [[1, 0, 0], [0, 1, 0], [0, 0, 1]] (identity, |A|=1). Non-trivial: A = [[1, 2, 3], [0, 1, 4], [5, 6, 0]] has |A|=1 as computed above. A student who cannot produce such a matrix or explain the |A|=±1 condition does not grasp the divisibility requirement in the inverse formula.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

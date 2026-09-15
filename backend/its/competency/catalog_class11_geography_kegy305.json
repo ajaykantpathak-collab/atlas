@@ -1,0 +1,114 @@
+{
+ "class": 11,
+ "subject": "geography",
+ "chapter": 305,
+ "chapter_title": "Topographical Maps",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kegy305.txt",
+ "concepts": [
+  {
+   "id": "kegy.305.1.1",
+   "title": "Topographical Maps: Conventional Signs, Colours and Marginal Information",
+   "section": "",
+   "definition": "Topographical maps drawn by the Survey of India on scales of 1:250,000, 1:50,000 and 1:25,000 show relief by contours and spot heights, and use conventional signs in colours of black for names, blue for water, brown for contours, green for vegetation, red and yellow for roads and settlements, with marginal information of sheet number, scale and administrative details.",
+   "formula": "",
+   "key_idea": "",
+   "textbook_ref": "Reading the margin first tells the sheet number, scale, grid references and the administrative data of the mapped area.",
+   "question_patterns": "kegy305.txt signs and marginal information sections",
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the tool or method",
+     "explain": "Note the map element or technique the question asks about."
+    },
+    {
+     "step": 2,
+     "action": "apply the rule or procedure",
+     "explain": "Follow the chapter's procedure or definition precisely."
+    },
+    {
+     "step": 3,
+     "action": "state the result or conclusion",
+     "explain": "Summarise the answer with the correct map terminology."
+    }
+   ]
+  },
+  {
+   "id": "kegy.305.2.1",
+   "title": "Reading Relief: Contours, Slopes and Drainage on Topo Sheets",
+   "section": "",
+   "definition": "Contours join points of equal height, and their spacing and pattern reveal concave, convex, uniform and terraced slopes, V-shaped contours crossing rivers, hills, plateaus, ridges, spurs, passes and valleys, so the physical and cultural landscape of the mapped region can be reconstructed from the sheet.",
+   "formula": "",
+   "key_idea": "",
+   "textbook_ref": "Closely spaced contours mean steep slope, wide spacing means gentle slope, and evenly spaced contours mean uniform slope.",
+   "question_patterns": "kegy305.txt contour reading sections",
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the tool or method",
+     "explain": "Note the map element or technique the question asks about."
+    },
+    {
+     "step": 2,
+     "action": "apply the rule or procedure",
+     "explain": "Follow the chapter's procedure or definition precisely."
+    },
+    {
+     "step": 3,
+     "action": "state the result or conclusion",
+     "explain": "Summarise the answer with the correct map terminology."
+    }
+   ]
+  },
+  {
+   "id": "kegy.305.3.1",
+   "title": "Interpretation of Human and Economic Features on Topo Sheets",
+   "section": "Interpreting topo sheets",
+   "definition": "Beyond relief, topo sheets reveal settlement patterns of nucleated or dispersed villages, land use of cultivated and wasteland, transport routes, wells, tanks, temples and post offices, so the interpreter reconstructs the economy and life of the region from conventional signs.",
+   "formula": "",
+   "key_idea": "Green wash with field boundaries shows agriculture, blue tanks show irrigation, and lines of huts along roads show ribbon settlement.",
+   "textbook_ref": "kegy305.txt interpretation sections",
+   "question_patterns": [
+    "how do you identify settlement patterns on a topo sheet",
+    "what do broken black rectangles on a topo sheet indicate",
+    "interpret irrigation features shown on a topo sheet",
+    "how can occupation of people be inferred from a topo sheet",
+    "describe the road and rail symbols of topo sheets",
+    "what signs indicate dry and perennial water sources"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the tool or method",
+     "explain": "Note the map element or technique the question asks about."
+    },
+    {
+     "step": 2,
+     "action": "apply the rule or procedure",
+     "explain": "Follow the chapter's procedure or definition precisely."
+    },
+    {
+     "step": 3,
+     "action": "state the result or conclusion",
+     "explain": "Summarise the answer with the correct map terminology."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kegy305.txt exercises",
+   "questions": [
+    "What are topographical maps? State their uses.",
+    "Name the colours used on a topo sheet and their meanings.",
+    "How do contours indicate the nature of slopes?",
+    "Explain the marginal information given on a topo sheet.",
+    "Describe the drainage pattern of the given topo sheet."
+   ]
+  }
+ ]
+}

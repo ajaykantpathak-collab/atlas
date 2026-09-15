@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ca_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c12_ca_cbse_01_005",
+   "title": "c12_ca_cbse_01_005",
+   "questions": [
+    {
+     "q": "What are the two broad categories of activities performed when using CAS software, and give one example of each?",
+     "a": "The two categories are one-time activities (e.g., creating organisation details, accounting year, ledger masters) and recurring activities (e.g., entering a sales voucher, generating a trial balance). A wrong answer that lists \"installing software\" as a one-time activity reveals confusion between IT installation and accounting master data setup; listing \"backup\" as recurring shows misunderstanding of the accounting cycle vs IT maintenance.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"In CAS, once I create the ledger masters, I can directly print the Balance Sheet without entering any vouchers.\" Explain why this statement is incorrect, referencing the data flow in CAS.",
+     "a": "The statement is incorrect because ledger masters only define the chart of accounts (account names, codes, groups). The Balance Sheet is generated from balances that arise after transactions are recorded through vouchers (recurring activities) and posted to ledgers. Without voucher entry, all ledger balances remain zero, so the Balance Sheet would show only zero balances. A student who agrees misses the core data flow: masters → vouchers → ledgers → trial balance → financial statements.",
+     "self_check": true
+    },
+    {
+     "q": "A business receives a cheque of ₹50,000 from a customer against a credit sale made last week. Which voucher type should be used in CAS to record this receipt, and why is it not a Sales Voucher?",
+     "a": "A Bank Receipt Voucher (or Bank Voucher) should be used because the transaction involves receipt of money through bank, not the sale itself. The sale was already recorded earlier via a Sales Voucher (credit sale). Recording it again as a Sales Voucher would duplicate revenue. A wrong choice of Sales Voucher indicates confusion between the accrual event (sale) and the cash flow event (collection).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the purpose of Data Audit and Data Vault in CAS. If a dishonest employee changes a ₹10,000 expense to ₹1,000 after the books are closed, which feature would help detect this, and which would prevent the altered data from being read if the backup is stolen?",
+     "a": "Data Audit (audit trail) logs who made the change, when, and what the old/new values were — it detects the manipulation. Data Vault (encryption) scrambles the data so that even if the backup file is stolen, the thief cannot read the altered (or original) figures without the decryption key. A student who swaps the two functions confuses detection (audit) with confidentiality (encryption).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Password security in CAS is sufficient to ensure data integrity; Data Audit and Data Vault are unnecessary extras.\" Provide two arguments against this statement.",
+     "a": "The statement is flawed. First, passwords only control access at entry point; they cannot detect or trace changes made by authorised users (e.g., an accountant altering entries). Data Audit provides accountability. Second, if the database file is copied physically (stolen laptop, backup drive), passwords can be bypassed; Data Vault (encryption) protects data at rest. A student who agrees overlooks insider threats and physical data theft scenarios.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-time setup checklist for a new CAS implementation for a partnership firm starting on 1st July 2024. Include at least 5 specific master data items that must be created before any voucher entry, and explain why each is needed.",
+     "a": "Checklist: (1) Organisation Master — firm name, address, GSTIN, PAN; needed for all reports and statutory compliance. (2) Accounting Year — 1-Jul-2024 to 30-Jun-2025; defines the financial period for closing. (3) Chart of Accounts (Ledger Masters) — grouped per Schedule III (Capital, Loans, Fixed Assets, Debtors, Creditors, Sales, Purchases, Expenses); without this, vouchers have no accounts to post to. (4) Voucher Types Configuration — enable required voucher types (Cash, Bank, Purchase, Sales, Journal, Contra); ensures correct transaction classification. (5) Security Setup — create users (Partner, Accountant) with role-based passwords; enforces segregation of duties. A poor answer lists generic items like \"install software\" or misses the linkage to voucher entry.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

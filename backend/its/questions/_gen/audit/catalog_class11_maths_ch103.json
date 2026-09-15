@@ -1,0 +1,394 @@
+{
+ "catalog": "catalog_class11_maths_ch103.json",
+ "concepts": [
+  {
+   "id": "kemh.3.1",
+   "family": "authored",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 8 + 3"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 4 + 3"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "val = 5 + 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = 9 + 4"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 6 + 9"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = 3 + 9"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "kemh.3.2",
+   "family": "authored",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 5 + 9"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 9 + 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "val = 5 + 7"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = 4 + 7"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 2 + 6"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = 6 + 5"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "kemh.3.3",
+   "family": "circle_area",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "circ = 2 * 22 / 7 * 84"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "circ = 22 / 7 * 28"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "area = 22 / 7 * 77 * 77"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "area = 22 / 7 * (70 * 70 - 21 * 21)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "arc = 90 / 360 * 2 * 22 / 7 * 84"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "sector = 30 / 360 * 22 / 7 * 84 * 84"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "kemh.3.4",
+   "family": "trig_ratios",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "s = 10 / 26"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "c_val = 24 / 26"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "t = 10 / 24"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "cs = 26 / 10"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "sec = 26 / 24"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "t = (10 / 26) / (24 / 26)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "kemh.3.5",
+   "family": "trig_ratios",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "s = 7 / 25"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "c_val = 24 / 25"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "t = 7 / 24"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "cs = 25 / 7"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "sec = 25 / 24"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "t = (7 / 25) / (24 / 25)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "kemh.3.6",
+   "family": "angle_pairs",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "other = 90 - 44"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "other = 180 - 152"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "other = 180 - 26"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rest = 360 - 128 - 94"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "adj = 180 - 76"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "partner = 180 - 39"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "kemh.3.7",
+   "family": "angle_pairs",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "other = 90 - 71"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "other = 180 - 134"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "other = 180 - 10"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rest = 360 - 65 - 86"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "adj = 180 - 48"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "partner = 180 - 59"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "kemh.3.8",
+   "family": "identities",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 12 * 12 + 2 * 12 * 4 + 4 * 4"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 28 * 28 - 2 * 28 * 9 + 9 * 9"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "val = 11 * 11 - 2 * 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = 3 * 3 + (4 + 6) * 3 + 4 * 6"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 10000 + 2 * 100 * 3 + 3 * 3"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = 100 * 100 - 2 * 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "val = 12 * 12 + 2 * 12 * 4 + 4 * 4"
+   ]
+  },
+  {
+   "id": "kemh.3.9",
+   "family": "angle_pairs",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "other = 90 - 10"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "other = 180 - 112"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "other = 180 - 30"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rest = 360 - 139 - 54"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "adj = 180 - 71"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "partner = 180 - 76"
+     ]
+    }
+   ],
+   "steps_chain": []
+  }
+ ]
+}

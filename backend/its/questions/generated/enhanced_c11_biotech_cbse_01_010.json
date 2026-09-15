@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_01_010",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_01_010",
+   "title": "c11_biotech_cbse_01_010",
+   "questions": [
+    {
+     "q": "Define \"Biosafety Level 2 (BSL-2)\" by stating the risk group of agents handled, the primary containment requirement beyond BSL-1, and one specific administrative control mandatory at this level.",
+     "a": "BSL-2 handles Risk Group 2 agents (moderate individual risk, low community risk, e.g., *Staphylococcus aureus*, Hepatitis B virus). Primary containment requires a Class II Biosafety Cabinet (BSC) for aerosol-generating procedures. A mandatory administrative control is restricted laboratory access during work and mandatory biohazard signage. A wrong answer (e.g., citing BSL-3 agents like *Mycobacterium tuberculosis* or omitting the BSC requirement) reveals the student memorizes level numbers without linking them to specific agent hazard characteristics or engineering controls.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since *E. coli* K-12 is a Risk Group 1 organism, any recombinant DNA experiment using this host can be performed at BSL-1 without IBSC notification.\" Explain why this statement is incorrect in the context of Indian regulations.",
+     "a": "The statement is incorrect because Indian regulations (Recombinant DNA Safety Guidelines, 1990) require IBSC notification and approval for *all* rDNA work, regardless of the host's risk group. Furthermore, the risk classification of the *recombinant* organism depends on the insert (e.g., a toxin gene or oncogene inserted into *E. coli* K-12 elevates the risk group). A wrong answer indicates the student conflates the host's intrinsic safety with the recombinant construct's risk and ignores the mandatory regulatory trigger of \"rDNA technology use\" itself.",
+     "self_check": true
+    },
+    {
+     "q": "A biotech startup wants to conduct confined field trials of a GM mustard variety expressing *Barnase/Barstar* for hybrid seed production. List the sequential regulatory bodies (with their acronyms expanded) that must approve this trial in India, and state the specific scientific data each body evaluates at its stage.",
+     "a": "1. **IBSC (Institutional Biosafety Committee)**: Evaluates lab-level containment, researcher training, and initial construct safety (vector, insert, host).\n2. **RCGM (Review Committee on Genetic Manipulation)**: Evaluates biosafety data from contained experiments, molecular characterization (copy number, insert stability), and preliminary environmental risk assessment for confined trials.\n3. **GEAC (Genetic Engineering Appraisal Committee)**: Evaluates comprehensive environmental risk assessment (gene flow, non-target effects), agronomic data, and food/feed safety assessment for final commercial release approval. A wrong sequence (e.g., GEAC before RCGM) or missing the RCGM's role in confined trials reveals a lack of understanding of the tiered risk assessment hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the \"Precautionary Principle\" as applied in the Cartagena Protocol on Biosafety with the \"Substantial Equivalence\" concept used in food safety assessment of GM foods. How do they differ in their burden of proof?",
+     "a": "The **Precautionary Principle** (Cartagena Protocol, Article 10.6) allows a country to restrict/ban a GMO import *even without full scientific certainty* of harm if there is a plausible risk, placing the burden of proof on the *developer/exporter* to demonstrate safety. **Substantial Equivalence** (Codex Alimentarius) is a comparative safety assessment starting point: if the GM food is compositionally/phenotypically equivalent to its conventional counterpart (history of safe use), it is presumed as safe, placing the burden on *regulators* to identify differences requiring further testing. A wrong answer conflating them as \"both require absolute proof of safety\" misses the fundamental policy difference: one is a risk-management trigger for trade/environment, the other a scientific comparator for food safety.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this proposed protocol: \"For expressing a human cytokine gene in *Pichia pastoris* (Risk Group 1 yeast), the lab plans to use BSL-1 practices with the addition of a Class II BSC during centrifugation steps only. They argue the yeast is non-pathogenic and the product is human protein.\" Identify three specific biosafety violations in this protocol.",
+     "a": "1. **Incorrect BSL assignment**: rDNA work *mandates* at least BSL-2 in India (per DBT guidelines), regardless of host risk group, because the recombinant organism is a new entity with uncharacterized hazards.\n2. **Inadequate containment**: BSL-2 requires *all* aerosol-generating procedures (pipetting, vortexing, sonication, not just centrifugation) inside a Class II BSC.\n3. **Missing administrative controls**: No mention of IBSC approval, restricted access, biohazard signage, or medical surveillance (e.g., baseline serum banking for recombinant human protein exposure risk). A poor answer focusing only on \"yeast is safe\" fails to apply the regulatory principle that *the process* (rDNA) dictates the baseline containment, not just the *host*.",
+     "self_check": true
+    },
+    {
+     "q": "Design a risk assessment matrix for a hypothetical GM rice event expressing *Cry1Ac* (Bt toxin) and *bar* (glufosinate tolerance) genes. Define three hazard identification categories, two exposure pathways for each, and one mitigation measure per pathway. Present as a structured table.",
+     "a": "A good answer produces a table with columns: Hazard Category | Exposure Pathway | Mitigation Measure.\nExample rows:\n1. **Human/Animal Toxicity/Allergenicity** | (a) Dietary consumption of grain | (a) Compositional analysis + 90-day rodent feeding study; (b) Occupational inhalation during processing | (b) Dust control/PPE in mills.\n2. **Gene Flow to Wild Relatives** | (a) Pollen dispersal to weedy rice (*O. rufipogon*) | (a) Spatial isolation distances + male sterility trait; (b) Seed spillage during transport | (b) Dedicated supply chain/containers.\n3. **Non-target Organism Effects** | (a) *Cry1Ac* exposure to beneficial insects via pollen/plant debris | (a) Tier-1/2 non-target testing (e.g., silkworm, bees); (b) Soil accumulation affecting microbiota | (b) Post-harvest residue management + soil monitoring.\nA poor answer lists generic hazards without specific exposure pathways or proposes mitigations not feasible for rice (e.g., \"greenhouse containment\" for field trials).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

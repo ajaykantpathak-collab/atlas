@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_07_009",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_07_009",
+   "title": "c11_hs_cbse_07_009",
+   "questions": [
+    {
+     "q": "A student says: \"I have 24 hours like everyone else, but I still can't finish my work. Time management doesn't work for me because my schedule is unpredictable.\" Identify the TWO fundamental characteristics of time as a resource that this student is ignoring, and explain why unpredictability makes planning MORE necessary, not less.",
+     "a": "The two characteristics are: (1) Time is limited (fixed 24 hours/day) and (2) Time is irreversible (cannot be stored, borrowed, or recovered once passed). The student's unpredictability argument is a misconception — unpredictable schedules (emergencies, family demands) are exactly WHY buffer time (Step h: \"keep extra time margin\") and prioritisation (Step c) exist. A plan without buffers fails; a plan with buffers absorbs unpredictability. Wrong answer reveals: student views time as flexible/expandable and planning as rigid rather than adaptive.",
+     "self_check": true
+    },
+    {
+     "q": "In the NCERT time plan example (p.112), the Class XII student allocates 3:00–4:00 PM for \"Resting/sleeping\" and 4:00–6:00 PM for \"studying\". Using the work curve concept (NCERT p.117), explain why this sequence is physiologically sound, and what would happen if the student reversed these two blocks.",
+     "a": "The work curve shows: a→b = warming up, c = plateau of maximum ability, d = fatigue fall. Post-lunch (2:10 PM arrival), the student is in a natural post-prandial dip (low alertness). A 60-minute rest (3–4 PM) allows recovery to the \"warming up\" phase, so 4–6 PM hits the \"plateau c\" for deep study. Reversing them forces study during the fatigue dip (d), producing shallow learning, longer hours for same output, and cumulative sleep debt. Wrong answer reveals: student treats all hours as equal productivity units, ignoring biological rhythms.",
+     "self_check": true
+    },
+    {
+     "q": "A rural homemaker's time plan (NCERT p.113) shows 4:00–5:00 AM \"feeds and milks the cow\" and 5:30–7:00 AM \"cooks and serves meal\". Identify the peak load period here, and redesign the 4:00–7:00 AM window using work simplification Level 1 (change in hand/body motions) to reduce physical strain without changing the output.",
+     "a": "Peak load = 4:00–7:00 AM (three consecutive high-energy tasks: milking, bathing/prayer, cooking). Level 1 simplification: (1) Combine motions — place milk vessels on a waist-high stand to eliminate bending (improves posture per Figure 2/3, NCERT p.117–118). (2) Improve sequence — prep cooking ingredients night before (eliminates morning chopping). (3) Develop skill — practice one-handed milking to free other hand for carrying. (4) Posture — use a milking stool with back support instead of squatting. Output unchanged; strain reduced. Wrong answer reveals: student suggests buying a machine (Level 2) or changing menu (Level 3), missing Level 1's zero-cost motion economy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the time plan of the Class XII student (p.112) and the rural homemaker (p.113). Both have \"rest periods\" but at different times and durations. Analyse how the PRINCIPLE of rest periods (NCERT p.117: \"neither too long nor too short\") applies differently to each, considering their work curves and peak loads.",
+     "a": "Student: 1-hour nap (3–4 PM) after school — short, aligns with post-lunch circadian dip, prevents evening fatigue (d), enables 4–6 PM study plateau (c). Homemaker: 2-hour rest (10:30 AM–12:30 PM) including knitting/chatting — longer because morning peak load (4–9 AM: milking, cooking, fieldwork) is physically heavier; the \"active rest\" (knitting) maintains rhythm without full shutdown. Principle holds: rest duration matches preceding load intensity. Wrong answer reveals: student prescribes identical rest for all, ignoring that rest period design depends on work curve shape (physical vs mental fatigue).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"A 'To Do' list (NCERT p.114) is just a wish list unless it includes three specific columns.\" Name the three columns from the NCERT format, and defend why EACH is necessary for converting intentions into completed actions.",
+     "a": "The three columns: (1) Activity — defines WHAT specifically (vague \"study\" → \"solve 10 physics numericals\"). (2) Day/date of completion — creates deadline accountability (Parkinson's Law: work expands to fill time). (3) Reason for carrying out — links to goals/motivation (e.g., \"physics numericals → board exam prep → engineering admission\"). Without (1), no measurability; without (2), no urgency; without (3), no persistence when difficult. Wrong answer reveals: student treats listing as the goal, not execution; misses that the columns operationalise the planning steps (c: prioritise, h: schedule, i: written plan).",
+     "self_check": true
+    },
+    {
+     "q": "CREATE a 24-hour time plan for a Class 11 student who: (a) commutes 1.5 hours each way to school, (b) has tuition 6–8 PM, (c) needs 8 hours sleep, (d) helps with dinner prep 30 min daily. Use the NCERT format (p.112) and explicitly label each block as Compulsory/Optional and Daily/Weekly/Monthly. Justify your placement of the single \"study block\" using peak load and work curve principles.",
+     "a": "Sample plan (key blocks):\n5:00–5:30 AM: Wake, hygiene (Compulsory, Daily)\n5:30–6:30 AM: STUDY BLOCK — peak load (fresh mind, no distractions) (Compulsory, Daily)\n6:30–7:00 AM: Breakfast, pack (Compulsory, Daily)\n7:00–8:30 AM: Commute (Compulsory, Daily)\n8:30 AM–2:30 PM: School (Compulsory, Daily)\n2:30–4:00 PM: Commute + unwind (Compulsory, Daily)\n4:00–4:30 PM: Power nap / rest (Compulsory, Daily) — recovery for tuition\n4:30–5:30 PM: Light review / homework (Optional, Daily)\n5:30–6:00 PM: Dinner prep help (Compulsory, Daily)\n6:00–8:00 PM: Tuition (Compulsory, Daily)\n8:00–8:30 PM: Dinner (Compulsory, Daily)\n8:30–9:30 PM: Leisure / family (Optional, Daily)\n9:30–10:00 PM: Wind down (Compulsory, Daily)\n10:00 PM–5:00 AM: Sleep (Compulsory, Daily)\nJustification: Single study block at 5:30–6:30 AM hits natural cortisol peak (alertness), precedes all decision fatigue, and uses \"warming up → plateau\" before school drain. Wrong answer reveals: student scatters study in low-energy fragments (post-tuition, late night), ignores commute as dead time, or sacrifices sleep.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

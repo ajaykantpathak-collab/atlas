@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_10_002",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_10_002",
+   "title": "c12_biotech_cbse_10_002",
+   "questions": [
+    {
+     "q": "Define \"edible vaccine\" and name two specific examples of antigens that have been successfully expressed in plants for oral immunization.",
+     "a": "An edible vaccine is a plant-produced subunit vaccine where a gene encoding a pathogenic antigen is stably integrated into the plant genome, leading to antigen expression in edible tissues; oral delivery induces mucosal and systemic immunity. Examples: Hepatitis B surface antigen (HBsAg) in potato/banana, Cholera toxin B subunit (CTB) in potato/lettuce. A wrong answer (e.g., \"eating weakened virus\" or \"plant extract injected\") reveals confusion between edible vaccines and live-attenuated or injectable subunit vaccines, ignoring the core concept of *in planta* antigen expression and oral delivery.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why edible vaccines are classified as \"mucosal vaccines\" and describe the role of M cells and gut-associated lymphoid tissue (GALT) in generating immunity after oral antigen delivery.",
+     "a": "Edible vaccines target mucosal surfaces (gut) because the antigen is released in the intestine, taken up by M cells overlying Peyer's patches, and presented to immune cells in GALT, triggering secretory IgA (mucosal) and IgG (systemic) responses. A wrong answer that only mentions \"stomach digestion\" or \"bloodstream absorption\" misses the specialized M-cell transcytosis and GALT activation — a classic board exam trap where students confuse oral *delivery* with oral *absorption* like a drug.",
+     "self_check": true
+    },
+    {
+     "q": "A team wants to produce an edible vaccine for Norwalk virus capsid protein in tomato. They have the gene, a binary vector with CaMV 35S promoter and nptII selectable marker, and *Agrobacterium tumefaciens* LBA4404. Outline the 5 key laboratory steps from *Agrobacterium* transformation to obtaining homozygous transgenic tomato lines ready for expression analysis.",
+     "a": "1. Electroporate binary vector into *A. tumefaciens* LBA4404 and select on kanamycin. 2. Co-cultivate tomato cotyledon/leaf explants with transformed *Agrobacterium* (with acetosyringone). 3. Transfer explants to selection medium (kanamycin + cefotaxime) to kill *Agrobacterium* and select transformed plant cells. 4. Regenerate shoots → roots → whole plants (T0). 5. Self-pollinate T0, screen T1 progeny for 3:1 kanamycin resistance (single-locus insertion), identify homozygous T2 lines. Missing steps like *Agrobacterium* elimination (cefotaxime) or homozygosity screening reveals incomplete grasp of plant transformation workflow — a frequent NEET practical-based question.",
+     "self_check": true
+    },
+    {
+     "q": "Compare banana and potato as production hosts for an edible vaccine targeting a tropical developing country. Analyze four factors: (a) consumption form (raw vs cooked), (b) growth cycle & climate suitability, (c) dosage consistency, (d) glycosylation pattern similarity to humans.",
+     "a": "Banana: eaten raw (antigen intact), perennial tropical crop (year-round harvest), but fruit size/ripeness causes dosage variability; plant glycosylation (β1,2-xylose, α1,3-fucose) differs from humans, risking altered immunogenicity/allergenicity. Potato: requires cooking (may denature antigen), temperate/seasonal, but tuber uniformity allows better dose control; same glycosylation issue. A wrong answer that ignores cooking denaturation or glycosylation differences shows superficial analysis — JEE/NEET expects evaluation of *post-translational modification* impact on vaccine efficacy.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Edible vaccines will completely replace injectable vaccines within a decade because they are cheaper and needle-free.\" Provide three scientific/regulatory arguments against this claim.",
+     "a": "1. Dosage imprecision: antigen content varies with plant age, tissue, environment — impossible to standardize without purification (defeating cost advantage). 2. Oral tolerance risk: repeated feeding of antigen may induce immune tolerance instead of immunity. 3. Regulatory & biosafety: GM food vaccines face stringent GMO regulations, environmental containment (gene flow), and public hesitancy; no edible vaccine has yet cleared Phase III trials. A wrong answer citing only \"cost\" or \"needle fear\" ignores the scientific barriers (tolerance, glycosylation, stability) that competitive exams test.",
+     "self_check": true
+    },
+    {
+     "q": "Design a strategy to produce an edible vaccine for a novel viral antigen (e.g., SARS-CoV-2 RBD) in lettuce, addressing: (a) vector design for high expression and correct folding, (b) choice of plant tissue and harvest time, (c) method to ensure consistent dosing without purification, (d) one preclinical test to confirm immunogenicity.",
+     "a": "(a) Use a plant-optimized codon RBD gene fused to a carrier (e.g., CTB) for mucosal targeting, under a strong inducible promoter (e.g., estrogen-inducible) to avoid metabolic burden; include ER-retention signal (KDEL) to enhance stability and reduce glycosylation complexity. (b) Express in leaves (high biomass, uniform), harvest at fixed developmental stage (e.g., 6-week rosette). (c) Lyophilize (freeze-dry) leaves into standardized powder capsules — converts variable fresh weight to fixed antigen dose per capsule. (d) Oral gavage in mice → measure fecal IgA and serum IgG against RBD, plus viral neutralization assay. A poor answer suggests \"just feed lettuce leaves\" without addressing folding, glycosylation, or dose standardization — missing the bioprocess engineering depth required at this level.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

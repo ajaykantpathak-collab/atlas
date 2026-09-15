@@ -1,0 +1,214 @@
+{
+ "catalog": "catalog_class11_political_science_ch5",
+ "concepts": [
+  {
+   "id": "c11ps.5.1",
+   "title": "Meaning and Need for Legislature",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Meaning and Need for Legislature' refers to.",
+     "a": "The legislature is the law-making organ of government that debates, passes, amends, and repeals laws and also exercises control over the executive through financial and other means.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Meaning and Need for Legislature'.",
+     "a": "The legislature is the representative body that makes laws, controls finances, and holds the executive accountable, making it central to democratic government.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Meaning and Need for Legislature' taught, and from which source text?",
+     "a": "Meaning and Need for Legislature",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11ps.5.2",
+   "title": "Types of Legislature: Unicameral and Bicameral",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Types of Legislature: Unicameral and Bicameral' refers to.",
+     "a": "A unicameral legislature has a single house or chamber, while a bicameral legislature has two houses -- usually a lower house and an upper house -- that share law-making power.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Types of Legislature: Unicameral and Bicameral'.",
+     "a": "Bicameralism provides a second look at legislation and representation for diverse units, while unicameralism is simpler and faster; the choice depends on the size and federal character of the country.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Types of Legislature: Unicameral and Bicameral' taught, and from which source text?",
+     "a": "Types of Legislature",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11ps.5.3",
+   "title": "Parliament of India: Lok Sabha",
+   "questions": [
+    {
+     "q": "Using the method 'Parliament of India: Lok Sabha', work with: elected_members = 4096, nominated_members = 4096. Carry the chain through step by step and give the final value of the result.",
+     "a": "8192 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Parliament of India: Lok Sabha' and work with: elected_members = 256, nominated_members = 4096. Carry the chain through step by step and give the final value of the result.",
+     "a": "4352 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Parliament of India: Lok Sabha' refers to.",
+     "a": "The Lok Sabha or House of the People is the directly elected lower house of India's Parliament, currently consisting of 543 members chosen by direct election from territorial constituencies under the first-past-the-post system.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Parliament of India: Lok Sabha'.",
+     "a": "The Lok Sabha is the popular house directly elected by the people, with a maximum strength of 552 members, a term of five years, and the power to make laws and control the executive through collective responsibility.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Parliament of India: Lok Sabha', in plain ASCII form.",
+     "a": "total_members = elected_members + nominated_members",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11ps.5.4",
+   "title": "Parliament of India: Rajya Sabha",
+   "questions": [
+    {
+     "q": "Using the method 'Parliament of India: Rajya Sabha', work with: nominated_members = 4096, state_representatives = 10, union_territory_representatives = 3. Carry the chain through step by step and give the final value of the result.",
+     "a": "4109 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Parliament of India: Rajya Sabha' and work with: nominated_members = 256, state_representatives = 80, union_territory_representatives = 6. Carry the chain through step by step and give the final value of the result.",
+     "a": "342 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Parliament of India: Rajya Sabha' refers to.",
+     "a": "The Rajya Sabha or Council of States is the upper house of India's Parliament, a permanent body of 245 members elected indirectly by the elected members of State Legislative Assemblies, representing the states and union territories.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Parliament of India: Rajya Sabha'.",
+     "a": "The Rajya Sabha is a permanent house that cannot be dissolved, with members serving six-year terms with one-third retiring every two years, representing the federal principle by giving states an equal voice in legislation.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Parliament of India: Rajya Sabha', in plain ASCII form.",
+     "a": "total_members = state_representatives + union_territory_representatives + nominated_members",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11ps.5.5",
+   "title": "Law-Making Process in Parliament",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Law-Making Process in Parliament' refers to.",
+     "a": "The law-making process is the procedure by which a bill passes through three readings in each house of Parliament, is examined by committees, and receives the President's assent to become an Act.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Law-Making Process in Parliament'.",
+     "a": "A bill must pass through first reading (introduction), second reading (detailed scrutiny and discussion), and third reading (voting) in both houses before receiving the President's assent to become law.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Law-Making Process in Parliament' taught, and from which source text?",
+     "a": "Law-Making Process",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11ps.5.6",
+   "title": "Parliamentary Committees",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Parliamentary Committees' refers to.",
+     "a": "Parliamentary committees are small groups of members appointed or elected by Parliament to examine bills, budgets, and government policies in detail and report back to the house, enabling detailed scrutiny that the full house cannot perform.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Parliamentary Committees'.",
+     "a": "Parliamentary committees do the detailed work of examining bills, budgets, and government accounts, allowing Parliament to scrutinize legislation and expenditure efficiently.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Parliamentary Committees' taught, and from which source text?",
+     "a": "Parliamentary Committees",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11ps.5.7",
+   "title": "Role of the Opposition",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Role of the Opposition' refers to.",
+     "a": "The opposition in Parliament consists of the party or parties that are not part of the government; their role is to criticise government policies, offer alternative policies, and hold the government accountable to the legislature and the public.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Role of the Opposition'.",
+     "a": "A strong opposition is essential to democracy because it scrutinises the government, exposes its shortcomings, provides alternative policies, and ensures that the ruling party remains responsive and accountable.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Role of the Opposition' taught, and from which source text?",
+     "a": "Role of the Opposition",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11ps.5.8",
+   "title": "Legislative-Executive Relations",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Legislative-Executive Relations' refers to.",
+     "a": "Legislative-executive relations refer to the constitutional relationship between the legislature and the executive, in which the executive is drawn from and collectively responsible to the legislature, especially the lower house, in a parliamentary system.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Legislative-Executive Relations'.",
+     "a": "In India's parliamentary system, the executive is part of and accountable to the legislature; the Council of Ministers is collectively responsible to the Lok Sabha, linking the two organs closely.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Legislative-Executive Relations' taught, and from which source text?",
+     "a": "Legislative-Executive Relations",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11ps.5.9",
+   "title": "Parliamentary Privileges",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Parliamentary Privileges' refers to.",
+     "a": "Parliamentary privileges are special rights, immunities, and exemptions enjoyed by Parliament, its members, and committees, which are necessary for the proper functioning and dignity of the legislature.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Parliamentary Privileges'.",
+     "a": "Parliamentary privileges allow members to speak freely in the house, protect them from legal action for speeches and votes, and empower Parliament to punish for breach of privilege, ensuring independent functioning of the legislature.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Parliamentary Privileges' taught, and from which source text?",
+     "a": "Parliamentary Privileges",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

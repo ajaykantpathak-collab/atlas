@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_06_011",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_06_011",
+   "title": "c11_eco_cbse_06_011",
+   "questions": [
+    {
+     "q": "Define 'real wage' and explain how it differs from 'nominal wage' in the context of assessing employment quality. Why is real wage a better indicator of worker welfare than nominal wage?",
+     "a": "Real wage = Nominal wage / Consumer Price Index (CPI) × 100 (base year). It measures purchasing power — the quantity of goods/services a wage can buy. Nominal wage is the money amount received. A wrong answer (e.g., \"real wage is just wage after tax\") reveals confusion between deductions and inflation adjustment, or inability to distinguish money income from command over resources — a fundamental error in welfare economics.",
+     "self_check": true
+    },
+    {
+     "q": "A construction worker in Delhi earned ₹400/day in 2018-19 and ₹500/day in 2023-24. The CPI (base 2012=100) was 140 in 2018-19 and 180 in 2023-24. Calculate the real wage in both years (base 2012=100) and determine whether the worker's purchasing power improved. Show all steps.",
+     "a": "Step 1: Real wage 2018-19 = (400/140)×100 = ₹285.71 (2012 prices). Step 2: Real wage 2023-24 = (500/180)×100 = ₹277.78 (2012 prices). Step 3: Real wage FELL by ₹7.93 despite 25% nominal increase. Step 4: Purchasing power declined because inflation (28.6%) outpaced nominal wage growth (25%). A wrong answer (e.g., \"real wage increased because nominal wage increased\") reveals failure to apply the inflation adjustment formula — a critical error in interpreting wage data for policy analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Using PLFS 2022-23 data: 58.4% self-employed, 21.7% regular salaried, 19.9% casual wage labourers. In 2011-12: 52.0% self-employed, 18.0% regular salaried, 30.0% casual wage. Analyze the trend in casualisation between 2011-12 and 2022-23. What does this imply for social security coverage? (Hint: regular salaried jobs in formal enterprises typically provide EPF/ESI; casual and self-employed largely do not).",
+     "a": "Casual wage share FELL from 30.0% to 19.9% (de-casualisation), regular salaried ROSE from 18.0% to 21.7%, self-employed ROSE from 52.0% to 58.4%. Implication: While casualisation reversed, the rise in self-employment (mostly own-account workers, informal) means social security coverage likely remains low — regular salaried formal jobs are the primary vehicle for EPF/ESI. A wrong answer (e.g., \"casualisation increased because self-employment rose\") confuses self-employment with casual wage labour — distinct status categories with different vulnerability profiles.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two workers: Worker A (regular salaried in a registered factory with 50 workers) and Worker B (casual loader in an unregistered warehouse with 8 workers). List the specific social security benefits each is legally entitled to under current Indian law (EPF Act, ESI Act, Gratuity Act, Maternity Benefit Act). Explain why Worker B's employment quality is lower even if daily wages are identical.",
+     "a": "Worker A: EPF (12% employer+employee), ESI (3.25% employer+0.75% employee), Gratuity (15 days wage/year after 5 years), Maternity Benefit (26 weeks paid). Worker B: NONE — enterprise <10 workers exempt from EPF/ESI; casual status excludes gratuity/maternity. Quality gap: Worker B bears 100% income risk during illness, old age, maternity; no asset accumulation via EPF; no job security. A wrong answer (e.g., \"both get EPF if they contribute\") ignores the 10-worker threshold and employment status conditions — a common statutory misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The rise of platform/gig work (Swiggy, Uber, Urban Company) has improved employment quality for urban youth by creating flexible, well-paid opportunities.\" Use the three pillars of employment quality (wages, conditions, social security) and Indian data on gig worker earnings and protections to justify your assessment.",
+     "a": "Assessment: Largely FALSE for employment quality. Wages: Net earnings often below minimum wage after fuel, maintenance, platform commissions (studies show ₹150-200/hr gross → ₹80-100/hr net). Conditions: Algorithmic control, no fixed hours, safety risks (road accidents), no paid leave. Social Security: Zero statutory coverage — classified as 'partners', not employees; no EPF/ESI/gratuity; recent state schemes (Rajasthan, Karnataka) provide limited accident insurance only. Flexibility is often illusory due to rating systems and incentive structures. A wrong answer (e.g., \"it's good because they earn more than unemployment\") ignores the structural precarity and regulatory gap — a policy-relevant analytical error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal social security package for informal sector workers (covering 89% of workforce per 2019-20 data) that addresses the three pillars of employment quality. Specify: (a) core benefits, (b) financing mechanism (contributory/non-contributory), (c) delivery architecture (leveraging existing identifiers like Aadhaar, Jan Dhan, e-Shram), (d) fiscal cost estimate as % of GDP. Justify each choice.",
+     "a": "Good answer criteria: (a) Core: Old-age pension (₹3,000/mo), health insurance (₹5 lakh/family), maternity (₹6,000), disability/life cover — aligning with PM-SYM, PM-JAY, PMMVY. (b) Financing: Partially contributory (worker ₹50-100/mo, matched by govt) + tax-funded for poorest — balances sustainability and inclusion. (c) Delivery: e-Shram portal for registration, Aadhaar for authentication, Jan Dhan for DBT — uses digital public infrastructure. (d) Cost: ~1.5-2% GDP (comparable to Brazil's Bolsa Família + Previdência). Poor answer: Proposes universal basic income without targeting, ignores fiscal constraints, or replicates failed schemes (e.g., RSBY's low enrollment) — shows lack of implementation awareness.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

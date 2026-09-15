@@ -1,0 +1,171 @@
+{
+ "class": 9,
+ "subject": "maths",
+ "chapter": 7,
+ "chapter_title": "The Mathematics of Maybe: Introduction to Probability",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iemh107.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iemh.107.7.1",
+   "title": "What Is Probability",
+   "section": "7.1",
+   "definition": "Probability puts a number on uncertainty: it measures how likely an event is on a scale from 0 for the impossible to 1 for the certain, so statements like likely or unlikely become exact fractions between these poles.",
+   "formula": "-",
+   "key_idea": "Uncertainty becomes arithmetic: 0 impossible, 1 certain, fractions in between.",
+   "textbook_ref": "iemh107.txt section 7.1 (what is probability)",
+   "question_patterns": [
+    "define probability in your own words",
+    "what is the probability of an impossible event",
+    "what is the probability of a certain event",
+    "can the probability of an event exceed 1 - justify",
+    "assign the given events their positions on the probability scale",
+    "explain the mathematics of maybe with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "place the poles",
+     "explain": "Impossible events get 0; sure events get 1."},
+    {"step": 2, "action": "read intermediate values",
+     "explain": "Real events sit between as proper fractions."},
+    {"step": 3, "action": "interpret the number",
+     "explain": "Closer to 1 means more likely; closer to 0 means less likely."}
+   ]
+  },
+  {
+   "id": "iemh.107.7.2",
+   "title": "Measuring Probability Objectively",
+   "section": "7.2",
+   "definition": "When all outcomes are equally likely, probability is measured objectively as the ratio of favourable outcomes to total outcomes - tossing a fair coin gives one head among two outcomes, a probability of one half.",
+   "formula": "probability = favourable / total",
+   "key_idea": "Count fair: favourable outcomes over all equally likely outcomes.",
+   "textbook_ref": "iemh107.txt sections 7.2-7.3 (measuring probability, elements)",
+   "question_patterns": [
+    "find the probability of getting a head when a fair coin is tossed",
+    "a die is rolled once - find the probability of a number greater than 4",
+    "find the probability of drawing a red ball from the given bag",
+    "what is the probability of the complement of the given event",
+    "out of the given cards find the probability of the stated draw",
+    "compute the probability of getting at least one head in two tosses"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "count the favourable outcomes",
+     "explain": "List outcomes matching the event.",
+     "compute": "favourable = favourable_count"},
+    {"step": 2, "action": "divide by the total",
+     "explain": "All equally likely outcomes form the denominator.",
+     "compute": "probability = favourable / total"}
+   ]
+  },
+  {
+   "id": "iemh.107.7.3",
+   "title": "Tree Diagrams for Combined Experiments",
+   "section": "7.4",
+   "definition": "When an experiment has stages - like tossing two coins or drawing twice - a tree diagram lays out every path of outcomes; counting the branches that favour the event and dividing by all branches gives its probability.",
+   "formula": "-",
+   "key_idea": "Branch by branch: the tree turns a compound experiment into a countable list.",
+   "textbook_ref": "iemh107.txt section 7.4 (tree diagrams)",
+   "question_patterns": [
+    "draw a tree diagram for tossing two coins and list the outcomes",
+    "how many outcomes does the given two-stage experiment have",
+    "use the tree diagram to find the probability of the given event",
+    "in the tree of two draws which branches favour the event",
+    "list the sample space of the given compound experiment",
+    "why does a tree diagram prevent missing outcomes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "draw the stages",
+     "explain": "One level of branches per stage of the experiment."},
+    {"step": 2, "action": "list the paths",
+     "explain": "Every root-to-tip path is one outcome of the combined experiment."},
+    {"step": 3, "action": "count and compute",
+     "explain": "Favourable paths over total paths give the probability."}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iemh107.txt section 7.2 coin example",
+   "concept": "iemh.107.7.2",
+   "question_type": "compute",
+   "question_pattern": "A fair coin is tossed. Find the probability of the event with {favourable_count} favourable outcome(s) out of {total} outcomes.",
+   "extracted_variables": {
+    "favourable_count": "number of favourable outcomes",
+    "total": "total equally likely outcomes"
+   },
+   "solution_template": [
+    {"step": 1, "action": "divide favourable by total",
+     "explain": "The ratio is the probability.",
+     "compute": "probability = favourable_count / total"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iemh107.txt section 7.2 die example",
+   "concept": "iemh.107.7.2",
+   "question_type": "compute",
+   "question_pattern": "A die is rolled once. Find the probability of the event having {favourable_count} favourable faces out of {total}.",
+   "extracted_variables": {
+    "favourable_count": "favourable faces",
+    "total": "faces of the die"
+   },
+   "solution_template": [
+    {"step": 1, "action": "divide favourable by total",
+     "explain": "Favourable over total gives the chance.",
+     "compute": "probability = favourable_count / total"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "iemh107.txt complement discussion",
+   "concept": "iemh.107.7.2",
+   "question_type": "compute",
+   "question_pattern": "The probability of an event is {probability}. Find the probability that it does not happen.",
+   "extracted_variables": {
+    "probability": "probability of the event"
+   },
+   "solution_template": [
+    {"step": 1, "action": "subtract from 1",
+     "explain": "The complement takes the remaining share of certainty.",
+     "compute": "complement = 1 - probability"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "iemh107.txt complement practice",
+   "concept": "iemh.107.7.2",
+   "question_type": "compute",
+   "question_pattern": "If the chance of rain today is {probability}, what is the chance that it does not rain?",
+   "extracted_variables": {
+    "probability": "probability of rain"
+   },
+   "solution_template": [
+    {"step": 1, "action": "subtract from 1",
+     "explain": "Event and complement together fill 1.",
+     "compute": "complement = 1 - probability"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex7.1",
+   "source_ref": "iemh107.txt probability exercises",
+   "questions": [
+     "Find the probabilities of the given events with dice and coins.",
+     "Find the probability of drawing the stated balls from the bag.",
+     "Place the given events on the probability scale."
+   ]
+  },
+  {
+   "id": "ex7.2",
+   "source_ref": "iemh107.txt tree diagram exercises",
+   "questions": [
+     "Draw tree diagrams for the given two-stage experiments.",
+     "Use the tree diagram to compute the stated probabilities."
+   ]
+  }
+ ]
+}

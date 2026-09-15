@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_07_011",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_07_011",
+   "title": "c11_math_cbse_07_011",
+   "questions": [
+    {
+     "q": "State the fundamental criterion to decide between using permutation P(n,r) and combination C(n,r) in a given step of a problem.",
+     "a": "**Correct answer:** Use permutation when the order of the chosen objects matters (i.e., different arrangements are counted as different outcomes), and use combination when only the selection of objects matters (order is irrelevant).  \n**Misconception revealed:** If a student says \"permutation is for arranging, combination is for choosing\" without referencing **order**, they are memorising labels instead of understanding the mathematical distinction. This leads to errors in problems where \"choosing a team with captain\" requires both: choosing the team (C) then choosing captain from them (P).",
+     "self_check": true
+    },
+    {
+     "q": "A problem asks: \"In how many ways can a committee of 4 be formed from 6 men and 4 women if the committee must include at least 2 women?\" A student writes: C(4,2) × C(8,2). Explain why this is incorrect and what the correct approach is.",
+     "a": "**Correct answer:** The student's expression C(4,2) × C(8,2) counts committees with **exactly** 2 women (choose 2 women from 4, then 2 others from the remaining 8 people). It misses committees with 3 women and 4 women. The correct approach is case analysis: (exactly 2 women) + (exactly 3 women) + (exactly 4 women) = C(4,2)C(6,2) + C(4,3)C(6,1) + C(4,4)C(6,0).  \n**Misconception revealed:** If a student thinks \"at least 2\" means \"choose 2 first then fill the rest freely\", they are overcounting (each 3-woman committee gets counted 3 times, once for each pair of women designated as the \"first 2\"). This is a classic **\"pre-selection\" error** where a mandatory minimum is treated as a fixed initial choice.",
+     "self_check": true
+    },
+    {
+     "q": "From 5 different Mathematics books and 4 different Physics books, how many ways can you select 3 Mathematics and 2 Physics books and arrange them on a shelf so that all Mathematics books are together?",
+     "a": "**Step-by-step solution:**  \n1. Select 3 Math books from 5: C(5,3) = 10 ways.  \n2. Select 2 Physics books from 4: C(4,2) = 6 ways.  \n3. Treat the 3 chosen Math books as a single block. Now we have 1 block + 2 Physics books = 3 items to arrange: 3! = 6 ways.  \n4. Within the Math block, the 3 books can be arranged in 3! = 6 ways.  \n5. Total = C(5,3) × C(4,2) × 3! × 3! = 10 × 6 × 6 × 6 = **2160 ways**.  \n**Misconception revealed:** A wrong answer of 10 × 6 × 5! = 7200 means the student arranged all 5 books linearly without enforcing the \"Math books together\" constraint. An answer of 10 × 6 × 3! = 360 means they forgot to arrange books inside the block.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the number of ways to form a 4-digit PIN code from digits {1,2,3,4,5,6} with no repetition, versus the number of ways to choose a 4-member subcommittee from 6 people. Are they equal? Justify.",
+     "a": "**Correct answer:** No, they are not equal. PIN code: order matters → P(6,4) = 6×5×4×3 = 360. Subcommittee: order does not matter → C(6,4) = 15. The PIN code counts each set of 4 digits in 4! = 24 different orders, while the subcommittee counts each set once.  \n**Misconception revealed:** If a student says \"both are choosing 4 from 6 so they are the same\", they confuse **selection of a subset** with **arrangement of a sequence**. This shows they cannot distinguish contexts where positions are distinct (1st digit, 2nd digit...) from contexts where positions are identical (member 1, member 2...).",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Number of 5-letter words from 'EDUCATION' with vowels together\" as: Treat vowels (E,U,A,I,O) as one block → 5 items (block + 4 consonants) → 5! × 5! = 14400. Identify the error and give the correct answer.",
+     "a": "**Error identified:** The word \"EDUCATION\" has 9 letters: 5 vowels (E,U,A,I,O) and 4 consonants (D,C,T,N). The student correctly grouped vowels as a block but then arranged 5 items (block + 4 consonants) in 5! ways and vowels inside block in 5! ways. **This is actually correct for \"all vowels together\"** because all 5 vowels are distinct and all 4 consonants are distinct.  \n**Wait — the student's answer 14400 is correct!** The error would be if they used 9P5 or forgot the block arrangement. A common *wrong* version: \"Choose 5 positions for vowels: C(9,5) × 5! × 4!\" which overcounts because it allows vowels to be separated.  \n**Pedagogical note:** This question tests if the student can **validate a correct solution** rather than just find errors. Many students incorrectly \"correct\" a right answer due to lack of confidence.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context: rupees, people, objects) that requires BOTH permutation and combination in its solution, with at least two cases. State the problem clearly and outline the solution structure (do not compute final number).",
+     "a": "**Sample problem:** \"A school has 8 teachers (5 male, 3 female). A committee of 5 must be formed with a Chairperson, Secretary, and 3 ordinary members. The committee must have at least 2 female teachers. In how many ways can this be done?\"  \n**Solution structure:**  \nCase 1: Exactly 2 females. Choose 2 females from 3: C(3,2). Choose 3 males from 5: C(5,3). From these 5 chosen people, assign Chairperson and Secretary (ordered): P(5,2). The remaining 3 are ordinary members (no further arrangement).  \nCase 2: Exactly 3 females. Choose 3 females from 3: C(3,3). Choose 2 males from 5: C(5,2). Assign Chairperson and Secretary from the 5: P(5,2).  \nTotal = [C(3,2)C(5,3) + C(3,3)C(5,2)] × P(5,2).  \n**Poor answer reveals:** If the student creates a problem with only one case, or uses only C or only P, or has no \"at least\" constraint, they haven't synthesised the mixed nature of the topic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

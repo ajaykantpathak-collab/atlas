@@ -1,0 +1,322 @@
+{
+ "class": 12,
+ "subject": "english",
+ "chapter": 124,
+ "chapter_title": "Why the Novel Matters",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lekl124.txt",
+ "concepts": [
+  {
+   "id": "lekl.124.1",
+   "title": "Concept of Man Alive",
+   "section": "Why the Novel Matters - Main Essay",
+   "definition": "Human existence viewed as an integrated, vital whole encompassing body, mind, and spirit as one unified entity rather than isolated physical or mental components.",
+   "formula": "man_alive = physical_body + consciousness + vital_spirit",
+   "key_idea": "True human life resides in the totality of the living person, not in separate abstract parts like soul or intellect.",
+   "textbook_ref": "lekl124.txt lines 15-95",
+   "question_patterns": [
+    "explain D.H. Lawrence's concept of man alive",
+    "how does the author distinguish between man alive and bits of man",
+    "describe why the living body is central to Lawrence's philosophy",
+    "what marks animate things from inanimate objects in the essay",
+    "analyze the author's critique of spiritual and scientific views of humanity"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the core concept",
+     "explain": "Lawrence asserts that human identity resides in the entirety of the living organism, termed 'man alive'."
+    },
+    {
+     "step": 2,
+     "action": "contrast whole with components",
+     "explain": "He refutes scientists, philosophers, and clergy who reduce humans to isolated parts such as soul, mind, brain, or organs."
+    },
+    {
+     "step": 3,
+     "action": "conclude literary significance",
+     "explain": "The complete living individual is greater than any individual constituent part."
+    }
+   ]
+  },
+  {
+   "id": "lekl.124.2",
+   "title": "Supremacy of the Novel",
+   "section": "Why the Novel Matters - Main Essay",
+   "definition": "The characterization of narrative fiction as the primary literary form capable of engaging and reflecting the entire living human being rather than fragmented aspects.",
+   "formula": "novel_impact = engagement_of_whole_person",
+   "key_idea": "The novel stands above science, philosophy, and poetry because it alone presents character and life in full wholeness.",
+   "textbook_ref": "lekl124.txt lines 110-160",
+   "question_patterns": [
+    "why does the author consider the novel superior to philosophy and science",
+    "how does the novel reflect the wholeness of a human being",
+    "explain the phrase 'the novel is the one bright book of life'",
+    "contrast the scope of the novel with that of poetry and religion",
+    "what makes the novel uniquely capable of capturing dynamic life"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine the author's argument for fiction",
+     "explain": "Philosophy and science focus on isolated thoughts or dead specimens, whereas the novel depicts living human beings in action."
+    },
+    {
+     "step": 2,
+     "action": "evaluate the holistic nature of novels",
+     "explain": "A novel presents characters whose physical, emotional, and moral life functions dynamically without rigid abstraction."
+    }
+   ]
+  },
+  {
+   "id": "lekl.124.3",
+   "title": "Tremulations on the Ether",
+   "section": "Why the Novel Matters - Main Essay",
+   "definition": "A metaphor describing written words and ideas as aerial vibrations that remain lifeless until received and vitalized by an active human reader.",
+   "formula": "vital_literary_effect = ether_vibration * living_response",
+   "key_idea": "Textual messages are mere vibrations on ether; their value arises when they stimulate the whole living person.",
+   "textbook_ref": "lekl124.txt lines 65-135",
+   "question_patterns": [
+    "what does the author mean by 'tremulations on ether'",
+    "explain 'the novel as a tremulation' in Lawrence's essay",
+    "how do written words achieve vitality according to Lawrence",
+    "describe the interaction between a book's message and 'man alive'",
+    "analyze how book tremulations differ between novels and philosophical texts"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the literal metaphor",
+     "explain": "Words in books are compared to radio waves or ether vibrations that travel across space."
+    },
+    {
+     "step": 2,
+     "action": "relate to human consciousness",
+     "explain": "These vibrations take on real life only when received by a living reader who quivers into fresh awareness."
+    }
+   ]
+  },
+  {
+   "id": "lekl.124.4",
+   "title": "Integrity versus Consistency",
+   "section": "Why the Novel Matters - Main Essay",
+   "definition": "The philosophical distinction between living personal authenticity (integrity) through continuous adaptation and dynamic change, versus static adherence to fixed behavioral rules (consistency).",
+   "formula": "integrity = dynamic_change + authentic_consciousness",
+   "key_idea": "Living individuals maintain true integrity by changing fluidly, whereas forced consistency turns living people into dead patterns.",
+   "textbook_ref": "lekl124.txt lines 150-210",
+   "question_patterns": [
+    "how does Lawrence reconcile inconsistency of behavior with integrity",
+    "explain the difference between moral consistency and human integrity",
+    "why does sticking to a fixed pattern make a character dead in a novel",
+    "discuss the relationship between dynamic change and emotional vitality",
+    "analyze why right and wrong are instincts of the whole consciousness"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze dynamic human nature",
+     "explain": "People naturally experience shifting feelings and perspectives over time."
+    },
+    {
+     "step": 2,
+     "action": "contrast dynamic integrity with rigid consistency",
+     "explain": "Fixing oneself to a rigid ideal turns a person into an unliving object, whereas responding fluidly preserves vital integrity."
+    }
+   ]
+  },
+  {
+   "id": "lekl.124.5",
+   "title": "Intransitive Verbs and Complements",
+   "section": "Language Work - Grammar",
+   "definition": "Verbs that express complete action without taking a direct object, often followed by prepositional or adverbial phrases serving as complements.",
+   "formula": "intransitive_clause = subject + intransitive_verb + optional_prepositional_complement",
+   "key_idea": "Intransitive verbs do not transfer action to an object and use optional complements to complete circumstantial context.",
+   "textbook_ref": "lekl124.txt lines 240-275",
+   "question_patterns": [
+    "identify the intransitive verb in the given sentence",
+    "explain the function of a complement following an intransitive verb",
+    "determine whether the verb in the sentence takes a direct object",
+    "classify the prepositional phrase following the intransitive verb",
+    "analyze the structure of sentences containing intransitive verbs"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check for direct object",
+     "explain": "Observe if the verb transfers action to a noun phrase object."
+    },
+    {
+     "step": 2,
+     "action": "identify adverbial or prepositional complement",
+     "explain": "Note prepositional phrases modifying time, place, or manner after the verb."
+    }
+   ]
+  },
+  {
+   "id": "lekl.124.6",
+   "title": "Copulas and Predicate Complements",
+   "section": "Language Work - Grammar",
+   "definition": "Linking verbs such as be, become, and seem that connect a subject to a noun phrase or adjective phrase acting as a predicate complement.",
+   "formula": "copula_clause = subject + copula + predicate_complement",
+   "key_idea": "A copula links the subject to a descriptor or identity phrase, which can be nominal or adjectival.",
+   "textbook_ref": "lekl124.txt lines 255-295",
+   "question_patterns": [
+    "identify the copula verb in the sentence",
+    "determine the syntactic category of the complement after the copula",
+    "classify whether the complement is a noun phrase or an adjective phrase",
+    "explain the linking role of copular verbs like be, become, and seem",
+    "find examples of copulas with adjective phrase complements in the text"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "locate the linking verb",
+     "explain": "Identify copular verbs such as forms of be, become, or seem."
+    },
+    {
+     "step": 2,
+     "action": "categorize the complement",
+     "explain": "Determine if the following phrase is an Adjective Phrase (AP) or Noun Phrase (NP)."
+    }
+   ]
+  },
+  {
+   "id": "lekl.124.7",
+   "title": "Phonetic Realizations of Digraph 'ch'",
+   "section": "Spelling and Pronunciation",
+   "definition": "The pronunciation rules for the letter combination 'ch', which yields /k/ in words of Greek/Latin origin, /ʃ/ in French borrowings, and /tʃ/ in traditional English words.",
+   "formula": "ch_sound = choice_of(/k/, /tʃ/, /ʃ/) based on etymology",
+   "key_idea": "Etymology determines whether 'ch' is pronounced as a plosive /k/, affricate /tʃ/, or fricative /ʃ/.",
+   "textbook_ref": "lekl124.txt lines 300-345",
+   "question_patterns": [
+    "what sound does 'ch' represent in words of Greek or Latin origin",
+    "classify the pronunciation of 'ch' in given vocabulary words",
+    "identify words where 'ch' is pronounced as /k/ versus /tʃ/",
+    "determine the phonetic value of 'ch' in French loanwords",
+    "explain why 'ch' before a consonant is pronounced /k/"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine word etymology or letter context",
+     "explain": "Determine if the word originates from Greek/Latin (/k/), French (/ʃ/), or native English (/tʃ/)."
+    },
+    {
+     "step": 2,
+     "action": "assign phonetic symbol",
+     "explain": "Match to /k/, /tʃ/, or /ʃ/ accordingly."
+    }
+   ]
+  },
+  {
+   "id": "lekl.124.8",
+   "title": "Phonetic Realizations of Digraph 'gh'",
+   "section": "Spelling and Pronunciation",
+   "definition": "The pronunciation rules for 'gh', which renders /g/ word-initially, and either /f/ or silent in medial and word-final positions.",
+   "formula": "gh_sound = initial(/g/) or non_initial(/f/ or silent)",
+   "key_idea": "Initial 'gh' is always voiced /g/, while non-initial 'gh' alternates between /f/ and silent status.",
+   "textbook_ref": "lekl124.txt lines 340-375",
+   "question_patterns": [
+    "how is initial 'gh' pronounced in English words",
+    "identify words where 'gh' is silent versus pronounced as /f/",
+    "classify the phonetic realization of 'gh' in given examples",
+    "explain the variation of 'gh' in word medial and final positions",
+    "group words according to whether 'gh' represents /g/, /f/, or no sound"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check letter position",
+     "explain": "Determine whether 'gh' occurs at the beginning, middle, or end of the word."
+    },
+    {
+     "step": 2,
+     "action": "identify sound category",
+     "explain": "Assign /g/ for initial position, and distinguish /f/ from silent for non-initial positions."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Understanding the Text Q1",
+   "concept": "lekl.124.2",
+   "question_type": "literary_analysis",
+   "question_pattern": "How does the novel reflect the wholeness of a human being?",
+   "extracted_variables": {
+    "text_type": "novel",
+    "target_aspect": "wholeness of human being"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "explain holistic portrayal",
+     "explain": "The novel depicts characters as complete individuals operating with body, emotions, and thoughts simultaneously."
+    },
+    {
+     "step": 2,
+     "action": "contrast with partial views",
+     "explain": "Unlike science or philosophy which isolate specific components, fiction captures living human beings in dynamic action."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Language Work B - Copulas",
+   "concept": "lekl.124.6",
+   "question_type": "grammar_analysis",
+   "question_pattern": "Identify the copula and complement category in: 'Right and wrong is an instinct.'",
+   "extracted_variables": {
+    "sentence": "Right and wrong is an instinct"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify copula",
+     "explain": "The verb 'is' serves as the copula linking subject and predicate."
+    },
+    {
+     "step": 2,
+     "action": "classify complement",
+     "explain": "'an instinct' is a Noun Phrase complement."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex124.1",
+   "source_ref": "Understanding the Text",
+   "questions": [
+    "1. How does the novel reflect the wholeness of a human being?",
+    "2. Why does the author consider the novel superior to philosophy, science or even poetry?",
+    "3. What does the author mean by 'tremulations on ether' and 'the novel as a tremulation'?",
+    "4. What are the arguments presented in the essay against the denial of the body by spiritual thinkers?"
+   ]
+  },
+  {
+   "id": "ex124.2",
+   "source_ref": "Language Work - Grammar Task 1",
+   "questions": [
+    "Identify the intransitive verbs and copulas in the given sentences and state the complement category."
+   ]
+  },
+  {
+   "id": "ex124.3",
+   "source_ref": "Language Work - Spelling and Pronunciation",
+   "questions": [
+    "Look for other words with 'ch' and 'gh' letter combinations and guess how they are pronounced."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

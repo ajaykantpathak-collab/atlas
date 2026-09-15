@@ -1,0 +1,328 @@
+{
+ "class": 12,
+ "subject": "english",
+ "chapter": 117,
+ "chapter_title": "Poetry",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lekl112.txt",
+ "concepts": [
+  {
+   "id": "lekl.117.1.1",
+   "title": "Metaphysical Poetry Characteristics",
+   "section": "John Donne",
+   "definition": "A 17th-century poetic style that uses intellectual wit, complex logic, and startling imagery to explore philosophical and spiritual ideas.",
+   "formula": "wit + logic + startling_imagery = metaphysical_mode",
+   "key_idea": "Startling the reader into new ways of seeing through intellectual rigor rather than pure emotion.",
+   "textbook_ref": "lekl117.txt lines 30-45",
+   "question_patterns": [
+    "What are the defining traits of metaphysical poetry?",
+    "How does John Donne use wit in his poems?",
+    "Identify the metaphysical elements in the text.",
+    "Describe the preference for direct utterance in Donne's work.",
+    "Why is Donne considered a representative metaphysical poet?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify intellectual conceits",
+     "explain": "Look for elaborate or unusual metaphors that link physical reality to abstract concepts."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the diction",
+     "explain": "Check if the language is modeled on direct, conversational speech rather than flowery verse."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate the intent",
+     "explain": "Determine if the poem aims to startle the reader into intellectual realization."
+    }
+   ]
+  },
+  {
+   "id": "lekl.117.2.1",
+   "title": "Temporal vs Eternal Time",
+   "section": "On Time",
+   "definition": "The poetic contrast between the slow, decaying nature of earthly time and the unchanging, joyous state of spiritual eternity.",
+   "formula": "earthly_time = dross; eternity = bliss",
+   "key_idea": "Time only consumes what is false, while truth and love remain eternal.",
+   "textbook_ref": "lekl117.txt lines 130-155",
+   "question_patterns": [
+    "How does Milton contrast temporal hours with eternity?",
+    "What are the things associated with the temporal in the poem?",
+    "Who is the final winner in the race against time?",
+    "Explain the phrase 'lazy leaden-stepping hours'.",
+    "What guides the soul toward divinity in Milton's view?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify temporal markers",
+     "explain": "Look for words like 'plummet', 'hours', and 'mortal dross' that signify earthly decay."
+    },
+    {
+     "step": 2,
+     "action": "Identify eternal markers",
+     "explain": "Look for 'Truth', 'Peace', and 'Love' as elements that shine forever."
+    }
+   ]
+  },
+  {
+   "id": "lekl.117.2.2",
+   "title": "French Etymological Influence",
+   "section": "Language Study",
+   "definition": "The estimation of the proportion of the English vocabulary derived from French origins following historical linguistic shifts.",
+   "formula": "french_words = total_words * 30 / 100",
+   "key_idea": "Approximately thirty percent of the English language consists of borrowings from French.",
+   "textbook_ref": "lekl117.txt lines 195-205",
+   "question_patterns": [
+    "Calculate the number of French-derived words in a text of {total_words} words.",
+    "How many words are likely from French origin in a {total_words} word passage?",
+    "Estimate the French borrowing count for a {total_words} word essay.",
+    "Based on the 30 percent rule, find French words in a {total_words} word text.",
+    "What is the expected number of French words in a {total_words} word sample?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Apply the 30 percent ratio",
+     "explain": "Multiply the total word count by 30 and divide by 100 to find the French origin count.",
+     "compute": "french_words = total_words * 30 / 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using French Etymological Influence, compute the result for total_words = 3.",
+     "solution": "Step 1: Apply the 30 percent ratio: french_words = total_words * 30 / 100 = 0.9 Final result: 0.9",
+     "answer": "0.9"
+    },
+    {
+     "question": "Using French Etymological Influence, compute the result for total_words = 4.",
+     "solution": "Step 1: Apply the 30 percent ratio: french_words = total_words * 30 / 100 = 1.2 Final result: 1.2",
+     "answer": "1.2"
+    }
+   ]
+  },
+  {
+   "id": "lekl.117.3.1",
+   "title": "Contraries of the Human Soul",
+   "section": "William Blake",
+   "definition": "The juxtaposition of the state of 'Innocence' (divine virtues) and 'Experience' (socially-constructed cruelty and deceit).",
+   "formula": "Innocence = Mercy + Pity + Peace + Love; Experience = Cruelty + Deceit",
+   "key_idea": "Humanity exists in two contrary states: one divine and one fallen into discord.",
+   "textbook_ref": "lekl117.txt lines 215-230",
+   "question_patterns": [
+    "How are the poems 'The Divine Image' and 'The Human Abstract' related?",
+    "Contrast the depiction of the human being in Innocence and Experience.",
+    "How do divine virtues get distorted in the human brain?",
+    "Explain the symbolism of the Tree of Mystery.",
+    "What does Blake mean by 'the human form divine'?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify virtues in Innocence",
+     "explain": "Note the personification of Mercy, Pity, Peace, and Love as both God and Man."
+    },
+    {
+     "step": 2,
+     "action": "Identify distortions in Experience",
+     "explain": "Observe how Pity and Mercy depend on poverty and unhappiness in the fallen state."
+    }
+   ]
+  },
+  {
+   "id": "lekl.117.3.2",
+   "title": "Poetic Foot Calculation",
+   "section": "Language Work",
+   "definition": "Determining the number of poetic feet in a line based on the count of syllables, where two syllables constitute one foot.",
+   "formula": "feet_count = syllable_count / 2",
+   "key_idea": "A foot is a basic unit of meter consisting of a specific number of syllables, usually two.",
+   "textbook_ref": "lekl117.txt lines 315-325",
+   "question_patterns": [
+    "How many feet are in a line of {syllable_count} syllables?",
+    "Calculate the number of poetic feet for a {syllable_count} syllable verse.",
+    "If a line has {syllable_count} syllables, what is the foot count?",
+    "Find the poetic feet in a verse containing {syllable_count} syllables.",
+    "What is the foot count for a line with {syllable_count} syllables?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide syllables by two",
+     "explain": "Since two syllables make one foot, divide the total syllable count by 2.",
+     "compute": "feet_count = syllable_count / 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Poetic Foot Calculation, compute the result for syllable_count = 3.",
+     "solution": "Step 1: Divide syllables by two: feet_count = syllable_count / 2 = 1.5 Final result: 1.5",
+     "answer": "1.5"
+    },
+    {
+     "question": "Using Poetic Foot Calculation, compute the result for syllable_count = 4.",
+     "solution": "Step 1: Divide syllables by two: feet_count = syllable_count / 2 = 2.0 Final result: 2.0",
+     "answer": "2.0"
+    }
+   ]
+  },
+  {
+   "id": "lekl.117.6.1",
+   "title": "Symbolism of the Wild Swans",
+   "section": "W.B. Yeats",
+   "definition": "The use of swans to symbolize unchanging passion, vitality, and permanence in contrast to the aging and mortality of the human observer.",
+   "formula": "swans = unwearied_passion; poet = sore_heart",
+   "key_idea": "Nature's brilliant creatures remain unwearied while human life is subject to change and decay.",
+   "textbook_ref": "lekl117.txt lines 475-500",
+   "question_patterns": [
+    "What is the contrast between the swans and human life?",
+    "What do the 'light tread' and 'sore heart' refer to?",
+    "How does the poet use the setting of autumn and twilight?",
+    "Why does the poet describe the swans as 'unwearied still'?",
+    "What contributes to the mystery of the swans' lives?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Contrast the two states",
+     "explain": "Compare the 'bell-beat' of the swans' wings with the poet's 'sore heart' and 'nineteenth autumn'."
+    },
+    {
+     "step": 2,
+     "action": "Identify the theme of change",
+     "explain": "Note that 'All's changed' for the poet, but the swans' hearts 'have not grown old'."
+    }
+   ]
+  },
+  {
+   "id": "lekl.117.7.1",
+   "title": "Communal Discord and Time",
+   "section": "A.K. Ramanujan",
+   "definition": "The exploration of how urban timekeeping and social conflicts reflect the fragmented, often violent history of human communities.",
+   "formula": "clock_towers + communal_feuds = fragmented_time",
+   "key_idea": "Time is not a singular constant but is affected by human accidents, feuds, and nature's precision.",
+   "textbook_ref": "lekl117.txt lines 530-550",
+   "question_patterns": [
+    "What causes the differences in timekeeping between the various clocks?",
+    "How does the poet reflect communal disharmony?",
+    "Why is the act of nature described as 'precise'?",
+    "What is the significance of the 'knocked-out clockworks'?",
+    "How does the poem represent the average Indian feeling toward violence?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze the clock metaphor",
+     "explain": "Observe how clocks are 'slightly off' each other, symbolizing social and religious divisions."
+    },
+    {
+     "step": 2,
+     "action": "Identify the cause of silence",
+     "explain": "Note that clocks become 'eyeless' and 'silent' due to riots or lightning, linking human and natural fury."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lekl117.txt",
+   "concept": "lekl.117.2.2",
+   "question_type": "estimate",
+   "question_pattern": "Estimate the number of French-derived words in a text of {total_words} words.",
+   "extracted_variables": {
+    "total_words": 1000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Apply the 30 percent ratio",
+     "explain": "Multiply the total word count by 30 and divide by 100 to find the French origin count.",
+     "compute": "french_words = total_words * 30 / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lekl117.txt",
+   "concept": "lekl.117.2.2",
+   "question_type": "estimate",
+   "question_pattern": "How many words are likely from French origin in a {total_words} word passage?",
+   "extracted_variables": {
+    "total_words": 500
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Apply the 30 percent ratio",
+     "explain": "Multiply the total word count by 30 and divide by 100 to find the French origin count.",
+     "compute": "french_words = total_words * 30 / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lekl117.txt",
+   "concept": "lekl.117.3.2",
+   "question_type": "calculate",
+   "question_pattern": "How many feet are in a line of {syllable_count} syllables?",
+   "extracted_variables": {
+    "syllable_count": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide syllables by two",
+     "explain": "Since two syllables make one foot, divide the total syllable count by 2.",
+     "compute": "feet_count = syllable_count / 2"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "lekl117.txt",
+   "concept": "lekl.117.3.2",
+   "question_type": "calculate",
+   "question_pattern": "Calculate the number of poetic feet for a {syllable_count} syllable verse.",
+   "extracted_variables": {
+    "syllable_count": 14
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide syllables by two",
+     "explain": "Since two syllables make one foot, divide the total syllable count by 2.",
+     "compute": "feet_count = syllable_count / 2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex117.1",
+   "source_ref": "lekl117.txt",
+   "questions": [
+    "How do the shadows before noon differ from the shadows after noon?",
+    "What do the two kinds of shadow represent?",
+    "Love is described as light. What makes the poet talk about shadows?",
+    "What are the things associated with the temporal and what are associated with the eternal?",
+    "How are these two matched poems by Blake related to each other in content?",
+    "How do Mercy, Pity, Peace and Love get distorted in the human brain?",
+    "Does the poem Kubla Khan have a real geographical location?",
+    "What imagery does the poet Dickinson use to delineate Summer's day?",
+    "What is the contrast between the liveliness of the swans and human life?",
+    "What makes for the differences between the timekeeping of the various clocks?",
+    "Does the poem Blood bring out the contrast between tradition and modernity?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

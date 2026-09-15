@@ -1,0 +1,378 @@
+{
+ "catalog": "catalog_class12_economics_leec106",
+ "concepts": [
+  {
+   "id": "leec.106.1.1",
+   "title": "Open Economy and Its Three Linkages",
+   "questions": [
+    {
+     "q": "Using the method 'Open Economy and Its Three Linkages', work with: financial_market = 24, labour_market = 15, output_market = 30. Carry the chain through step by step and give the final value of open_economy_linkages.",
+     "a": "69 years",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Open Economy and Its Three Linkages' and work with: financial_market = 300, labour_market = 300, output_market = 10. Carry the chain through step by step and give the final value of open_economy_linkages.",
+     "a": "610 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Open Economy and Its Three Linkages' refers to.",
+     "a": "An economy is open when residents trade goods and services abroad, buy and sell foreign financial assets, and workers and firms can locate across borders; the first two channels matter most for macro analysis.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Open Economy and Its Three Linkages'.",
+     "a": "Openness lets buyers choose between home and foreign goods and investors choose between home and foreign assets.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Open Economy and Its Three Linkages', in plain ASCII form.",
+     "a": "open_economy_linkages = output_market + financial_market + labour_market",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.106.1.2",
+   "title": "Balance of Payments: Current Account and Capital Account",
+   "questions": [
+    {
+     "q": "Using the method 'Balance of Payments: Current Account and Capital Account', work with: capital_account = 50000, current_account = 18, errors_and_omissions = 400. Carry the chain through step by step and give the final value of balance_of_payments.",
+     "a": "50418 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Balance of Payments: Current Account and Capital Account' and work with: capital_account = 50000, current_account = 500, errors_and_omissions = 6. Carry the chain through step by step and give the final value of balance_of_payments.",
+     "a": "50506 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Balance of Payments: Current Account and Capital Account' refers to.",
+     "a": "The balance of payments is the annual record of a country's transactions with the rest of the world, split into a current account covering goods, services and transfers, and a capital account covering asset purchases and sales such as FDI, portfolio flows and borrowings.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Balance of Payments: Current Account and Capital Account'.",
+     "a": "One book keeps two ledgers: flows of goods, services and gifts, and flows of claims on wealth.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Balance of Payments: Current Account and Capital Account', in plain ASCII form.",
+     "a": "balance_of_payments = current_account + capital_account + errors_and_omissions",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.106.1.3",
+   "title": "Balance of Trade, Net Invisibles and Current Account Balance",
+   "questions": [
+    {
+     "q": "Compute the current account balance from the trade balance and net invisibles. Use the method 'Balance of Trade, Net Invisibles and Current Account Balance'. Work with: exports_of_goods = 6, imports_of_goods = 6, income_balance = 5000, services_balance = 1200, transfers_balance = 2500. Carry the chain through step by step and give the final value of current_account_balance.",
+     "a": "8700 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the trade balance when merchandise exports and imports are given. Use the method 'Balance of Trade, Net Invisibles and Current Account Balance'. Work with: exports_of_goods = 500, imports_of_goods = 18, income_balance = 5000, services_balance = 50000, transfers_balance = 500. Carry the chain through step by step and give the final value of current_account_balance.",
+     "a": "55982 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Balance of Trade, Net Invisibles and Current Account Balance' refers to.",
+     "a": "The trade balance nets merchandise exports against merchandise imports; adding net invisibles - services trade, factor income and transfers - gives the current account balance, whose surplus marks a lender nation and whose deficit a borrower.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Balance of Trade, Net Invisibles and Current Account Balance'.",
+     "a": "Goods trade plus invisible flows together decide whether the current account lends or borrows.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Balance of Trade, Net Invisibles and Current Account Balance', in plain ASCII form.",
+     "a": "current_account_balance = trade_balance + net_invisibles",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.106.1.4",
+   "title": "BoP Balance, Official Reserves and Overall Balance",
+   "questions": [
+    {
+     "q": "Compute the overall balance of payments from its three parts. Use the method 'BoP Balance, Official Reserves and Overall Balance'. Work with: capital_account_balance = 2500, current_account_balance = 5000, errors_and_omissions = 80. Carry the chain through step by step and give the final value of change_in_reserves.",
+     "a": "-7580 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the change in reserves implied by an overall BoP deficit. Use the method 'BoP Balance, Official Reserves and Overall Balance'. Work with: capital_account_balance = 50000, current_account_balance = 50000, errors_and_omissions = 45. Carry the chain through step by step and give the final value of change_in_reserves.",
+     "a": "-100045 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'BoP Balance, Official Reserves and Overall Balance' refers to.",
+     "a": "A current account gap must be met by a capital account surplus or by the central bank selling foreign exchange; the overall balance sums the current account, capital account and errors and omissions, and the matching change in official reserves records the BoP deficit or surplus.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'BoP Balance, Official Reserves and Overall Balance'.",
+     "a": "The monetary authority is the final financier: reserve falls mark a BoP deficit, reserve rise a BoP surplus.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'BoP Balance, Official Reserves and Overall Balance', in plain ASCII form.",
+     "a": "overall_balance = current_account_balance + capital_account_balance + errors_and_omissions",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.106.1.5",
+   "title": "Autonomous and Accommodating Transactions",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Autonomous and Accommodating Transactions' refers to.",
+     "a": "Transactions undertaken for their own sake - profit, consumption or investment motives - are autonomous and sit above the line; those undertaken to cover whatever gap the autonomous flows leave, chiefly official reserve moves, are accommodating and sit below the line.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Autonomous and Accommodating Transactions'.",
+     "a": "Only above-the-line items reveal a true BoP surplus or deficit; below-the-line items simply finance it.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Autonomous and Accommodating Transactions', in plain ASCII form.",
+     "a": "BoP_gap = autonomous_receipts - autonomous_payments",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.106.2.1",
+   "title": "Foreign Exchange Rate and the Forex Market",
+   "questions": [
+    {
+     "q": "Using the method 'Foreign Exchange Rate and the Forex Market', work with: exchange_rate_rupees_per_dollar = 12, foreign_price = 500. Carry the chain through step by step and give the final value of rupee_cost_of_import.",
+     "a": "6000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Foreign Exchange Rate and the Forex Market' and work with: exchange_rate_rupees_per_dollar = 25, foreign_price = 8000. Carry the chain through step by step and give the final value of rupee_cost_of_import.",
+     "a": "200000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Foreign Exchange Rate and the Forex Market' refers to.",
+     "a": "The foreign exchange rate is the price of one currency in terms of another, quoted in a worldwide market of banks, brokers and monetary authorities; residents demand forex to buy foreign goods, gifts and assets, while exports, remittances and asset sales supply it.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Foreign Exchange Rate and the Forex Market'.",
+     "a": "A dearer dollar makes imports costlier in rupees and Indian goods cheaper in dollars, moving both sides of the market.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Foreign Exchange Rate and the Forex Market', in plain ASCII form.",
+     "a": "rupee_cost_of_import = foreign_price * exchange_rate_rupees_per_dollar",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.106.2.2",
+   "title": "Flexible Exchange Rates: Depreciation and Appreciation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Flexible Exchange Rates: Depreciation and Appreciation' refers to.",
+     "a": "Under a floating regime the exchange rate settles where currency demand meets supply; when more rupees are needed per dollar the rupee has depreciated, when fewer are needed it has appreciated, and shifts in import demand, interest differentials, income growth and speculation move the rate.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Flexible Exchange Rates: Depreciation and Appreciation'.",
+     "a": "Market forces alone set the rate, and a higher rupee price of the dollar is precisely a weaker rupee.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Flexible Exchange Rates: Depreciation and Appreciation', in plain ASCII form.",
+     "a": "currency_movement = direction_of(exchange_rate_rupees_per_dollar) (up = depreciation of rupee)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.106.2.3",
+   "title": "Fixed Rates, Devaluation, Revaluation and Managed Floating",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Fixed Rates, Devaluation, Revaluation and Managed Floating' refers to.",
+     "a": "A government may peg the exchange rate, buying or selling reserves to absorb any gap between market demand and supply; raising the peg cheapens the currency (devaluation), lowering it strengthens the peg (revaluation), and most countries now mix the two in a managed float, with inadequate reserves inviting speculative attacks.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Fixed Rates, Devaluation, Revaluation and Managed Floating'.",
+     "a": "A peg is only as strong as the reserves behind it, and intermittent intervention describes today's dirty float.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Fixed Rates, Devaluation, Revaluation and Managed Floating', in plain ASCII form.",
+     "a": "peg_gap = supply_of_dollars - demand_for_dollars (absorbed by central bank intervention)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.106.2.4",
+   "title": "Purchasing Power Parity Theory",
+   "questions": [
+    {
+     "q": "Using the method 'Purchasing Power Parity Theory', work with: domestic_price_of_good = 120000, foreign_price_of_good = 1200. Carry the chain through step by step and give the final value of ppp_exchange_rate.",
+     "a": "100 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Purchasing Power Parity Theory' and work with: domestic_price_of_good = 120000, foreign_price_of_good = 80000. Carry the chain through step by step and give the final value of ppp_exchange_rate.",
+     "a": "1.5 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Purchasing Power Parity Theory' refers to.",
+     "a": "In the long run, with trade barriers absent, exchange rates adjust until an identical product costs the same everywhere once converted, so the rupee-dollar rate should equal the ratio of the good's rupee price to its dollar price and then track relative inflation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Purchasing Power Parity Theory'.",
+     "a": "Equal purchasing power everywhere is the long-run anchor: the currency of the higher-inflation country depreciates.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Purchasing Power Parity Theory', in plain ASCII form.",
+     "a": "ppp_exchange_rate = domestic_price_of_good / foreign_price_of_good",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.106.2.5",
+   "title": "Nominal versus Real Exchange Rate",
+   "questions": [
+    {
+     "q": "Calculate the real exchange rate from the nominal rate and both price levels. Use the method 'Nominal versus Real Exchange Rate'. Work with: domestic_price_level = 12000, foreign_price_level = 8000, quoted_yen_per_rupee = 80. Carry the chain through step by step and give the final value of real_exchange_rate.",
+     "a": "0.0083 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Compute the real rupee-yen rate from a yen-per-rupee quote and two price levels. Use the method 'Nominal versus Real Exchange Rate'. Work with: domestic_price_level = 80000, foreign_price_level = 8000, quoted_yen_per_rupee = 15. Carry the chain through step by step and give the final value of real_exchange_rate.",
+     "a": "0.0067 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Nominal versus Real Exchange Rate' refers to.",
+     "a": "The nominal rate quotes currency for currency, while the real exchange rate multiplies the nominal rate by the foreign-to-domestic price level ratio, measuring how many domestic goods one foreign good costs - the figure that matters for buying decisions.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Nominal versus Real Exchange Rate'.",
+     "a": "Only the real rate says whether foreign goods are actually dearer; nominal rates ignore price levels.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Nominal versus Real Exchange Rate', in plain ASCII form.",
+     "a": "real_exchange_rate = nominal_exchange_rate * foreign_price_level / domestic_price_level",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.106.3.1",
+   "title": "National Income Identity for an Open Economy",
+   "questions": [
+    {
+     "q": "Using the method 'National Income Identity for an Open Economy', work with: consumption = 100, exports = 30, government_spending = 360, imports = 3, investment = 10. Carry the chain through step by step and give the final value of gdp_open.",
+     "a": "497 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'National Income Identity for an Open Economy' and work with: consumption = 15, exports = 10, government_spending = 360, imports = 45, investment = 200. Carry the chain through step by step and give the final value of gdp_open.",
+     "a": "540 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'National Income Identity for an Open Economy' refers to.",
+     "a": "With trade, domestic output absorbed at home equals consumption, investment and government spending minus the part falling on foreign goods, plus exports; net exports - exports minus imports - capture the trade surplus or deficit inside the identity.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'National Income Identity for an Open Economy'.",
+     "a": "Exports add foreign demand for domestic goods while imports divert demand abroad, and their difference is net exports.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'National Income Identity for an Open Economy', in plain ASCII form.",
+     "a": "gdp_open = consumption + investment + government_spending + net_exports",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.106.3.2",
+   "title": "Marginal Propensity to Import and Open Economy Equilibrium",
+   "questions": [
+    {
+     "q": "Find the marginal propensity to import from the import function. Use the method 'Marginal Propensity to Import and Open Economy Equilibrium'. Work with: autonomous_expenditure = 60, autonomous_imports = 10, income = 2500, marginal_propensity_to_import = 5, marginal_propensity_to_save = 12. Carry the chain through step by step and give the final value of equilibrium_income_open.",
+     "a": "3.5294 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Compute equilibrium income in an open economy with a given import function. Use the method 'Marginal Propensity to Import and Open Economy Equilibrium'. Work with: autonomous_expenditure = 45, autonomous_imports = 12, income = 80000, marginal_propensity_to_import = 25, marginal_propensity_to_save = 8. Carry the chain through step by step and give the final value of equilibrium_income_open.",
+     "a": "1.3636 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Marginal Propensity to Import and Open Economy Equilibrium' refers to.",
+     "a": "Imports rise with income: the fraction of an extra rupee spent on foreign goods is the marginal propensity to import, an additional leakage that shrinks equilibrium income to autonomous spending divided by one minus the propensity to consume plus the propensity to import.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Marginal Propensity to Import and Open Economy Equilibrium'.",
+     "a": "Every round of induced spending now leaks partly abroad, so income settles at a lower multiple of autonomous demand.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Marginal Propensity to Import and Open Economy Equilibrium', in plain ASCII form.",
+     "a": "equilibrium_income_open = autonomous_expenditure / total_leakage_rate",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.106.3.3",
+   "title": "Open Economy Multiplier and the Net Export Balance",
+   "questions": [
+    {
+     "q": "Calculate the open economy multiplier for given propensities to save and import. Use the method 'Open Economy Multiplier and the Net Export Balance'. Work with: autonomous_imports = 6, equilibrium_income_open = 12000, exports = 500, marginal_propensity_to_import = 10, marginal_propensity_to_save = 20. Carry the chain through step by step and give the final value of net_export_balance.",
+     "a": "-119506 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the effect of an export rise on equilibrium income. Use the method 'Open Economy Multiplier and the Net Export Balance'. Work with: autonomous_imports = 500, equilibrium_income_open = 20000, exports = 8, marginal_propensity_to_import = 12, marginal_propensity_to_save = 20. Carry the chain through step by step and give the final value of net_export_balance.",
+     "a": "-240492 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Open Economy Multiplier and the Net Export Balance' refers to.",
+     "a": "Because part of each round's spending leaks into imports, the open economy multiplier - one over the saving plus import leakages - is smaller than the closed economy one, and equilibrium net exports fall whenever domestic income rises through the import function.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Open Economy Multiplier and the Net Export Balance'.",
+     "a": "The import leakage mutes the multiplier, and export shocks help income while import shocks hurt it.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Open Economy Multiplier and the Net Export Balance', in plain ASCII form.",
+     "a": "open_economy_multiplier = 1 / total_leakage_rate",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

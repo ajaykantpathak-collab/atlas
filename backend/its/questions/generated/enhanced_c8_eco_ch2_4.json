@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch2_4",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch2_4",
+   "title": "c8_eco_ch2_4",
+   "questions": [
+    {
+     "q": "What are the four primary dimensions that define a population's socio-economic structure?",
+     "a": "Age, gender, education, and occupation. A student who lists physical infrastructure or market types instead is confusing population structure with economic infrastructure or commercial organization.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the working-age group (typically defined as ages 15 to 59) considered crucial for analyzing a nation's economic output?",
+     "a": "The working-age group constitutes the primary labor supply that produces goods and services, earning incomes that drive savings, investment, and market demand. A wrong answer often assumes that all age groups contribute equally to production, ignoring that children and the elderly are dependents who require support from the working population.",
+     "self_check": true
+    },
+    {
+     "q": "A town has a total population of 10,000 people. If 5,500 are in the working-age group (15-59), 3,500 are children (0-14), and 1,000 are elderly (60+), what is the dependency ratio (total dependents per 100 working-age individuals)?",
+     "a": "Total dependents = 3,500 (children) + 1,000 (elderly) = 4,500. Working-age population = 5,500. Dependency ratio = (4,500 / 5,500) * 100 = 81.82 dependents per 100 working-age individuals. A wrong answer that divides working age by total dependents reveals a failure to understand the ratio formula where dependents are measured relative to producers.",
+     "self_check": true
+    },
+    {
+     "q": "How does a shift in occupational structure from primary activities (agriculture) to secondary and tertiary activities (manufacturing and services) typically impact a region's average income level?",
+     "a": "Secondary and tertiary activities generally generate higher value-added per worker compared to traditional subsistence agriculture, leading to higher average incomes and greater economic resilience. A wrong answer assumes that all sectors contribute equally to gross domestic product regardless of technology and skill intensity.",
+     "self_check": true
+    },
+    {
+     "q": "The region faces a structural mismatch where employers cannot find skilled labor locally, leading to underemployment among residents and lost economic growth opportunities, while high-wage jobs go to workers migrating from elsewhere. A wrong answer suggests that any number of workers is sufficient regardless of their educational attainment and skill matching.",
+     "a": "Population structure refers to the composition of a population by age, gender, education, and occupation. Age structure shows the proportion of young, working-age, and elderly people. Gender structure shows the ratio of males to females. Education structure shows literacy levels. Occupation structure shows the distribution across primary, secondary, and tertiary sectors. A wrong answer that only mentions \"number of people\" reveals the student confuses population size with population structure - the latter describes composition, not count.",
+     "self_check": true
+    },
+    {
+     "q": "Propose a data collection framework for a local municipal council to assess whether its workforce needs more vocational training or general higher education.",
+     "a": "The framework should survey the local population's current educational attainment, cross-reference it with local industry job openings across primary, secondary, and tertiary sectors, and calculate skill gaps to recommend targeted training programs. A poor answer merely suggests counting total heads without analyzing educational levels or job market demand.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

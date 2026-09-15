@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_04_006",
+   "title": "c11_psy_cbse_04_006",
+   "questions": [
+    {
+     "q": "Define selective attention and state its primary function according to the filter theory of attention.",
+     "a": "Selective attention is the process of choosing a limited number of stimuli from a large pool for further processing. According to Broadbent's filter theory (1956), its primary function is to act as a selective filter that allows only one stimulus to pass through to higher-level processing (short-term memory and consciousness) while blocking others, creating a \"bottleneck\" due to limited capacity. A wrong answer (e.g., \"selective attention means paying attention to everything important\") reveals the student confuses the outcome (what we attend to) with the mechanism (filtering due to capacity limits) and hasn't grasped the structural limitation central to the theory.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why divided attention is possible for an experienced driver talking to a passenger but dangerous for a novice driver doing the same. Use the concept of automatic processing.",
+     "a": "Divided attention works for the experienced driver because driving has become automatic through extensive practice - it occurs without intention, unconsciously, and requires minimal cognitive resources (automatic processing characteristics), leaving capacity for conversation. For the novice, driving requires controlled processing (conscious, effortful, intentional), consuming most attentional capacity, so adding conversation causes performance breakdown. A wrong answer (e.g., \"experienced drivers are just better at multitasking\") reveals the student misses the critical distinction between automatic vs. controlled processing and the resource allocation mechanism, treating attention as a fixed trait rather than a dynamic capacity allocation.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims they can \"easily study while watching an exciting cricket match because they have good divided attention.\" Design a brief experiment to test this claim using the concepts of automatic vs. controlled processing and span of attention.",
+     "a": "Experiment: Have the student study a new psychology concept (controlled processing - requires effort) while watching a live match (highly engaging, unpredictable). Measure: (1) Recall of studied material after 20 mins vs. control condition (studying in silence). (2) Digit span test (span of attention) during both conditions. Prediction: Recall will be significantly lower in match condition; digit span may reduce from 7±2 to 4-5 items. This demonstrates that both tasks require controlled processing, exceeding capacity. A wrong answer (e.g., \"just ask them how much they remember\") reveals inability to operationalize attention concepts into testable variables and confusion between subjective feeling (\"I think I studied well\") and objective performance measures.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast Broadbent's filter theory and Treisman's filter-attenuation theory regarding the fate of unattended stimuli. Which theory better explains the \"cocktail party effect\" (hearing your name in an unattended conversation)?",
+     "a": "Broadbent: Unattended stimuli are completely blocked at the selective filter; only the attended stimulus passes to higher processing. Treisman: Unattended stimuli are not blocked but attenuated (weakened); they can still reach higher processing if they have personal relevance or low threshold (e.g., own name). Treisman's theory better explains the cocktail party effect because personally relevant stimuli (own name) can \"slip through\" the attenuated filter despite not being the focus of attention. A wrong answer (e.g., \"both say unattended stimuli are processed equally\") reveals failure to grasp the crucial theoretical distinction: complete blocking vs. weakening, and inability to link theory to a classic empirical phenomenon.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Sustained attention (vigilance) is simply selective attention maintained over time.\" Use evidence from factors influencing sustained attention (sensory modality, temporal/spatial uncertainty) to support your judgment.",
+     "a": "The claim is partially true but incomplete. While both involve focusing on relevant stimuli and ignoring distractors, sustained attention has unique demands: (1) It requires maintaining readiness over long durations where signals are rare/unpredictable (temporal uncertainty), unlike selective attention's momentary selection. (2) Performance differs by modality (auditory > visual for vigilance) - not a typical selective attention finding. (3) Spatial uncertainty (random signal locations) degrades vigilance more than selective attention tasks. (4) Vigilance decrement (performance decline over time) is a hallmark of sustained attention, not selective attention. Thus, sustained attention involves additional mechanisms: arousal maintenance, expectation, and motor readiness. A wrong answer (e.g., \"yes, they're the same\") reveals inability to differentiate cognitive processes that share surface similarity but have distinct operational characteristics and neural correlates.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) illustrating all three attention types operating simultaneously. Label each component and explain the cognitive transitions between them.",
+     "a": "Scenario: A Delhi Metro train operator (motorman) during peak hour. \n- Sustained attention: Continuously monitoring signals, speed, track ahead for 4-hour shift (vigilance). \n- Selective attention: Suddenly noticing a person on tracks (salient, intense stimulus captures focus via filter/attenuation). \n- Divided attention: After emergency braking, simultaneously coordinating with control room via radio (practiced procedure) while monitoring passenger safety displays (automatic processing for radio protocol). \nTransitions: Routine monitoring (sustained) → salient hazard triggers orienting response (selective capture) → practiced emergency protocol frees capacity for concurrent tasks (divided via automaticity). \nGood answer shows clear labeling, theoretical mechanisms (filter/attenuation for capture, automaticity for division), and dynamic transitions. Poor answer (e.g., \"he does all three at once\") reveals static understanding, missing the temporal dynamics and capacity trade-offs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

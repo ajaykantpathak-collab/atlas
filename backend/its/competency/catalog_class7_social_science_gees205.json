@@ -1,0 +1,210 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 5,
+ "chapter_title": "India, a Home to Many",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gees205.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gees2.5.1",
+   "title": "Vasudhaiva Kutumbakam: The World as One Family",
+   "section": "Introduction",
+   "definition": "The Hitopadesha verse that opens the chapter says the noble-minded count the whole world as one family, vasudhaiva kutumbakam; India has lived this ideal by welcoming peoples of many lands and faiths.",
+   "formula": "",
+   "key_idea": "Stranger-hood is a habit of small minds: India's civilisational habit has been to make newcomers its own.",
+   "textbook_ref": "gees205.txt, Introduction",
+   "question_patterns": [
+    "what does vasudhaiva kutumbakam mean",
+    "which text calls the whole world one family",
+    "how does the verse distinguish the narrow minded from the noble",
+    "how has india lived the ideal of one family",
+    "what did swami vivekananda say about making the world one's own",
+    "why should we treat strangers as family"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  },
+  {
+   "id": "gees2.5.2",
+   "title": "Communities that Made India Home",
+   "section": "Communities of settlers",
+   "definition": "Over the centuries Jews, Christians, Zoroastrians, Muslims and others reached India's coasts and courts, fleeing persecution or seeking trade; each was allowed to worship, work and settle, and each enriched the land.",
+   "formula": "",
+   "key_idea": "Refugees became neighbours, and neighbours became Indians: acceptance turned arrival into belonging.",
+   "textbook_ref": "gees205.txt, Communities of settlers",
+   "question_patterns": [
+    "which communities came from abroad and settled in india",
+    "why did the parsis come to india and where did they settle",
+    "how did indian rulers treat the newcomers",
+    "what did the jewish and christian communities build in india",
+    "how did muslim communities become part of indian life",
+    "give one contribution of each settler community"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  },
+  {
+   "id": "gees2.5.3",
+   "title": "Acceptance as an Indian Value",
+   "section": "Acceptance",
+   "definition": "Acceptance is not mere tolerance: India's traditions taught that truth has many paths, so the newcomer's god, food and festival were given room beside one's own.",
+   "formula": "",
+   "key_idea": "Tolerance merely permits; acceptance honours: the deeper value made India a home rather than a camp.",
+   "textbook_ref": "gees205.txt, Acceptance",
+   "question_patterns": [
+    "what is the difference between tolerance and acceptance",
+    "how do indian traditions speak of many paths to truth",
+    "how does acceptance make a country a home",
+    "give an example of acceptance from your neighbourhood",
+    "why is acceptance hard and how can we practise it",
+    "what did the chapter mean by india a home to many"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  },
+  {
+   "id": "gees2.5.4",
+   "title": "How the Communities Enriched India",
+   "section": "Contributions",
+   "definition": "The communities that made India home gave generously: Parsi enterprise built industry, Syrian Christian and Jewish traditions enriched trade and letters, Islamic art and cuisine reshaped tastes, and all joined the common chorus of India.",
+   "formula": "",
+   "key_idea": "Diversity is a treasury: every community that arrived left the country richer than it found it.",
+   "textbook_ref": "gees205.txt, Contributions",
+   "question_patterns": [
+    "name contributions of the parsis to india",
+    "how did incoming communities enrich indian art and food",
+    "which trades did the settler communities strengthen",
+    "how do festivals of different communities share joys",
+    "why is variety called a treasure for the nation",
+    "what has your own region gained from newcomer communities"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gees205.txt",
+   "concept": "gees2.5.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why do we say India was a home and not merely a destination for newcomers?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "follow the newcomers",
+     "explain": "Each arriving community kept its faith and gained a secure place to live and work."
+    },
+    {
+     "step": 2,
+     "action": "state the difference",
+     "explain": "A destination is passed through; a home gives belonging, and India gave every community roots."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gees205.txt",
+   "concept": "gees2.5.2",
+   "question_type": "verify_property",
+   "question_pattern": "which communities does the chapter describe as making india their home?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gees205.txt, Let us explore",
+   "questions": [
+    "What does the Hitopadesha verse about vasudhaiva kutumbakam teach?",
+    "Which communities does the chapter describe as making India their home?",
+    "What did Swami Vivekananda advise about no one being a stranger?",
+    "Prepare a short profile of one settler community of India.",
+    "List the foods, words and crafts that came to India from abroad."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,603 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 9,
+ "chapter_title": "Methods of Separation in Everyday Life",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fecu109.txt",
+ "concepts": [
+  {
+   "id": "c6cu.9.1",
+   "title": "Need for Separation of Substances",
+   "section": "9.1",
+   "definition": "Substances often need to be separated to remove harmful or unwanted components, to obtain a useful component, or to separate two useful components from a mixture.",
+   "formula": "",
+   "key_idea": "Separation is needed to make a substance safe, clean, or usable for its intended purpose.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "why do we need to separate substances",
+    "what are the reasons for separating components of a mixture",
+    "give one everyday example where separation is necessary",
+    "how does separation help in obtaining useful materials",
+    "explain the need for separation of substances"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the mixture",
+     "explain": "Determine what mixture is present and which components it contains."
+    },
+    {
+     "step": 2,
+     "action": "Determine the purpose",
+     "explain": "Decide whether the goal is to remove an unwanted part, to obtain a useful part, or to separate two useful parts."
+    },
+    {
+     "step": 3,
+     "action": "Justify the separation",
+     "explain": "Confirm that separation makes the substance safer, cleaner, or more useful, such as removing stones from rice before cooking."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why do we remove stones from rice before cooking?",
+     "solution": "Stones are unwanted and harmful components in rice. Removing them makes the rice safe to eat.",
+     "answer": "To remove harmful or unwanted components so the rice is safe for consumption.",
+     "_n": 1
+    },
+    {
+     "question": "A mixture contains salt and sand. Why might we need to separate them?",
+     "solution": "Salt is a useful component needed for food, while sand is an unwanted impurity. Separation lets us obtain pure salt.",
+     "answer": "To obtain the useful component (salt) and remove the unwanted component (sand).",
+     "_n": 2
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List three reasons why separation of substances is necessary in everyday life.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example where separation is used to obtain a useful component from a mixture.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.9.2",
+   "title": "Handpicking as a Method of Separation",
+   "section": "9.2",
+   "definition": "Handpicking is the method of separating slightly larger unwanted substances from a useful material by picking them out by hand.",
+   "formula": "",
+   "key_idea": "Handpicking works when the unwanted particles are large enough to be seen and picked individually.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is handpicking",
+    "when is handpicking used to separate substances",
+    "how would you separate stones from a small quantity of rice",
+    "give one everyday example of handpicking",
+    "explain the method of handpicking with its limitation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine the mixture",
+     "explain": "Check whether the unwanted particles are large, visible, and present in a small quantity."
+    },
+    {
+     "step": 2,
+     "action": "Pick out unwanted particles",
+     "explain": "Remove the larger unwanted substances by hand one by one."
+    },
+    {
+     "step": 3,
+     "action": "Verify the result",
+     "explain": "Confirm that the useful material is now free of the unwanted particles, noting that handpicking is practical only for small quantities."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How would you separate small stones from a handful of rice?",
+     "solution": "Since the stones are larger and visible, they can be picked out by hand from the rice.",
+     "answer": "By handpicking, because the stones are large and present in a small quantity."
+    },
+    {
+     "question": "Why is handpicking not suitable for separating salt from water?",
+     "solution": "Salt dissolves in water and its particles are too small to be seen or picked by hand.",
+     "answer": "Handpicking cannot be used because the dissolved salt particles are too small and invisible."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define handpicking and state one situation where it is useful.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why is handpicking not practical for very large quantities of a mixture?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.9.3",
+   "title": "Sieving as a Method of Separation",
+   "section": "9.2",
+   "definition": "Sieving is the method of separating particles of different sizes by passing a mixture through a sieve with holes of a specific size.",
+   "formula": "",
+   "key_idea": "A sieve allows smaller particles to pass through while retaining larger particles on top.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is sieving",
+    "how does a sieve separate particles",
+    "how would you separate bran from flour",
+    "explain the principle behind sieving",
+    "give one everyday example of sieving"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Choose the right sieve",
+     "explain": "Select a sieve whose hole size lets the desired component pass through while holding back the unwanted component."
+    },
+    {
+     "step": 2,
+     "action": "Pass the mixture through the sieve",
+     "explain": "Shake or tap the mixture on the sieve so smaller particles fall through and larger particles stay on top."
+    },
+    {
+     "step": 3,
+     "action": "Collect the separated parts",
+     "explain": "Gather the fine particles that passed through and the coarse particles left on the sieve, confirming they are now separated by size."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How is bran separated from flour?",
+     "solution": "Flour particles are smaller than bran particles. Passing the mixture through a fine sieve lets flour pass through while bran stays on top.",
+     "answer": "By sieving, since bran particles are larger and remain on the sieve while flour passes through."
+    },
+    {
+     "question": "How can pebbles be separated from sand at a construction site?",
+     "solution": "A sieve with holes larger than sand grains but smaller than pebbles is used. Sand passes through and pebbles are retained.",
+     "answer": "By sieving, because pebbles are larger than sand grains and stay on the sieve."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how sieving separates particles of different sizes.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Name one household task where sieving is commonly used.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.9.4",
+   "title": "Winnowing as a Method of Separation",
+   "section": "9.2",
+   "definition": "Winnowing is the method of separating lighter husk from heavier grains by using wind or blowing air.",
+   "formula": "",
+   "key_idea": "Wind carries away the lighter husk while the heavier grains fall back down close to the winnower.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is winnowing",
+    "how is husk separated from grains",
+    "explain the principle of winnowing",
+    "when is winnowing a suitable method",
+    "give one everyday example of winnowing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Drop the mixture from a height",
+     "explain": "Allow the mixture of grain and husk to fall slowly in front of a current of air."
+    },
+    {
+     "step": 2,
+     "action": "Let wind act on the falling mixture",
+     "explain": "The lighter husk is carried away by the wind while the heavier grains fall almost straight down."
+    },
+    {
+     "step": 3,
+     "action": "Collect the separated grains",
+     "explain": "Gather the clean grains that fell near the winnower, confirming the lighter husk has been blown farther away."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does a farmer separate husk from grain?",
+     "solution": "The farmer drops the mixture from a height in the wind. The lighter husk is blown away and the heavier grain falls nearby.",
+     "answer": "By winnowing, using wind to blow away the lighter husk while the heavier grains fall down."
+    },
+    {
+     "question": "Why is winnowing not effective on a windless day?",
+     "solution": "Winnowing depends on moving air to carry the lighter husk away. Without wind, both husk and grain fall together.",
+     "answer": "Because there is no air current to separate the lighter husk from the heavier grain."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define winnowing and explain the role of wind in it.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why can winnowing not separate two substances of the same weight?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.9.5",
+   "title": "Filtration as a Method of Separation",
+   "section": "9.3",
+   "definition": "Filtration is the method of separating an insoluble solid from a liquid by passing the mixture through a filter that allows the liquid to pass but holds back the solid.",
+   "formula": "",
+   "key_idea": "A filter has pores small enough to trap solid particles while letting the liquid pass through as the filtrate.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is filtration",
+    "how is a solid separated from a liquid",
+    "explain how a filter paper works",
+    "how would you separate sand from water",
+    "give one everyday example of filtration"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Choose a suitable filter",
+     "explain": "Select filter paper or cloth whose pores are smaller than the solid particles to be trapped."
+    },
+    {
+     "step": 2,
+     "action": "Pour the mixture through the filter",
+     "explain": "The liquid passes through the pores as filtrate while the insoluble solid is held back as residue."
+    },
+    {
+     "step": 3,
+     "action": "Collect filtrate and residue",
+     "explain": "Gather the clear liquid (filtrate) below and the trapped solid (residue) on the filter, confirming the two are now separated."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How would you separate sand from a sand-water mixture?",
+     "solution": "Pour the mixture through filter paper. Water passes through as filtrate and sand is left behind as residue.",
+     "answer": "By filtration, since sand is insoluble and is trapped on the filter while water passes through."
+    },
+    {
+     "question": "Why is filtration used to clean muddy water?",
+     "solution": "Mud particles are insoluble solids. A filter traps them while allowing clear water to pass through.",
+     "answer": "Because the filter holds back the insoluble mud particles and lets the water pass through."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define filtration and distinguish between filtrate and residue.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Can filtration separate salt dissolved in water? Explain why or why not.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.9.6",
+   "title": "Sedimentation and Decantation",
+   "section": "9.3",
+   "definition": "Sedimentation is the process of letting heavier insoluble particles settle at the bottom of a liquid, and decantation is the process of pouring off the clear liquid above the settled sediment without disturbing it.",
+   "formula": "",
+   "key_idea": "Gravity makes heavy particles settle down, after which the clear upper liquid can be carefully poured off.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is sedimentation",
+    "what is decantation",
+    "how are sedimentation and decantation used together",
+    "how would you separate sand from water without a filter",
+    "give one everyday example of sedimentation and decantation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Allow the mixture to stand",
+     "explain": "Leave the mixture undisturbed so the heavier insoluble particles settle at the bottom as sediment."
+    },
+    {
+     "step": 2,
+     "action": "Pour off the upper liquid",
+     "explain": "Carefully tilt the container and pour the clear upper liquid (supernatant) into another vessel without disturbing the sediment."
+    },
+    {
+     "step": 3,
+     "action": "Verify the separation",
+     "explain": "Confirm that the sediment remains in the original container and the clear liquid has been collected separately through decantation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How would you separate sand from water without using a filter?",
+     "solution": "Let the mixture stand so sand settles at the bottom (sedimentation), then pour off the clear water (decantation).",
+     "answer": "By sedimentation followed by decantation, letting sand settle and then pouring off the clear water."
+    },
+    {
+     "question": "Why is it sometimes useful to let muddy water stand before filtering it?",
+     "solution": "Standing allows heavier mud particles to settle, which makes later filtration quicker and easier.",
+     "answer": "Because sedimentation reduces the amount of solid that the filter has to handle."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the difference between sedimentation and decantation.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Describe how you would obtain clean water from a mixture of water and soil.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.9.7",
+   "title": "Evaporation as a Method of Separation",
+   "section": "9.4",
+   "definition": "Evaporation is the process of converting a liquid into vapour, used to separate a dissolved solid from a liquid by boiling away the liquid.",
+   "formula": "",
+   "key_idea": "When the liquid evaporates, the dissolved solid is left behind as a residue.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is evaporation",
+    "how can salt be obtained from salt solution",
+    "explain how evaporation separates a dissolved solid",
+    "what is left behind when water evaporates from a salt solution",
+    "give one everyday example of evaporation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Heat the solution gently",
+     "explain": "Place the solution over a heat source so the liquid begins to turn into vapour."
+    },
+    {
+     "step": 2,
+     "action": "Allow the liquid to evaporate",
+     "explain": "Continue heating until the liquid has escaped as vapour, leaving the dissolved solid behind."
+    },
+    {
+     "step": 3,
+     "action": "Collect the remaining solid",
+     "explain": "Confirm that the solid residue left in the container is the substance that was dissolved in the liquid."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How can salt be obtained from a salt solution?",
+     "solution": "Heat the salt solution so the water evaporates. The salt is left behind as a white solid residue.",
+     "answer": "By evaporation, where water turns into vapour and salt remains in the container."
+    },
+    {
+     "question": "Why does a puddle of sea water leave salt behind after drying in the sun?",
+     "solution": "The sun heats the water, causing it to evaporate, and the dissolved salt is left behind on the ground.",
+     "answer": "Because evaporation removes the water and leaves the dissolved salt behind."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define evaporation and explain how it separates a dissolved solid from a liquid.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why cannot filtration alone separate salt dissolved in water?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.9.8",
+   "title": "Condensation",
+   "section": "9.4",
+   "definition": "Condensation is the process of converting water vapour back into liquid water, often observed when vapour cools on a cold surface.",
+   "formula": "",
+   "key_idea": "Cooling water vapour causes it to change back into liquid droplets, which is the reverse of evaporation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is condensation",
+    "how is water vapour converted back to liquid water",
+    "explain why water droplets appear on a cold surface",
+    "how are evaporation and condensation related",
+    "give one everyday example of condensation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the vapour source",
+     "explain": "Recognise that water vapour is present in the air or rising from a hot liquid."
+    },
+    {
+     "step": 2,
+     "action": "Cool the vapour",
+     "explain": "Bring the vapour into contact with a colder surface so it loses heat energy."
+    },
+    {
+     "step": 3,
+     "action": "Observe liquid droplets",
+     "explain": "Confirm that the cooled vapour has changed back into liquid water droplets on the cold surface, which is condensation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why do water droplets appear on the outside of a glass of cold water?",
+     "solution": "Water vapour in the air touches the cold glass, loses heat, and condenses into liquid droplets on the outer surface.",
+     "answer": "Due to condensation of water vapour from the air on the cold surface of the glass."
+    },
+    {
+     "question": "How can condensation be used to obtain pure water from salt water?",
+     "solution": "Heat salt water so it evaporates into vapour, then cool the vapour so it condenses into pure liquid water, leaving salt behind.",
+     "answer": "By evaporating the salt water and then condensing the vapour to collect pure water."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define condensation and state how it is the reverse of evaporation.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain how condensation helps in obtaining pure water from impure water.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.9.9",
+   "title": "Use of More Than One Method of Separation",
+   "section": "9.5",
+   "definition": "Sometimes a single method is not enough to separate all components of a mixture, so a combination of two or more methods is used in sequence.",
+   "formula": "",
+   "key_idea": "Complex mixtures often require multiple separation methods applied one after another to obtain each pure component.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "why is more than one method of separation needed",
+    "how would you separate sand and salt from a mixture",
+    "explain the use of multiple separation methods with an example",
+    "what methods would you use to obtain salt from a sand-salt-water mixture",
+    "give one everyday example where two separation methods are combined"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyse the mixture components",
+     "explain": "Identify each component and its properties, such as solubility, size, or whether it is soluble or insoluble."
+    },
+    {
+     "step": 2,
+     "action": "Choose the first method",
+     "explain": "Apply the method that removes the easiest component first, for example filtration to remove insoluble sand from a salt solution."
+    },
+    {
+     "step": 3,
+     "action": "Apply the next method",
+     "explain": "Use a second method on the remaining mixture, such as evaporation to obtain salt from the filtered salt solution, confirming all components are now separated."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How would you separate sand and salt from a mixture of sand, salt, and water?",
+     "solution": "First filter the mixture to remove insoluble sand. Then evaporate the remaining salt solution to obtain salt.",
+     "answer": "By filtration to remove sand, followed by evaporation to obtain salt from the solution."
+    },
+    {
+     "question": "A mixture contains husk, sand, and salt. How can all three be separated?",
+     "solution": "First winnow to remove the lighter husk. Then add water and filter to remove insoluble sand. Finally evaporate the filtrate to get salt.",
+     "answer": "By winnowing (husk), then filtration (sand), then evaporation (salt) in sequence."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain why a mixture of sand and salt in water needs more than one separation method.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Describe the sequence of methods used to obtain pure salt from muddy salt water.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.9.10",
+   "title": "Magnetic Separation",
+   "section": "9.5",
+   "definition": "Magnetic separation is the method of separating magnetic substances, such as iron, from a mixture by using a magnet that attracts them.",
+   "formula": "",
+   "key_idea": "A magnet attracts magnetic materials like iron and pulls them away from non-magnetic materials in a mixture.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is magnetic separation",
+    "how can iron pieces be separated from a mixture",
+    "explain how a magnet is used in separation",
+    "which substances can be separated using a magnet",
+    "give one everyday example of magnetic separation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the magnetic component",
+     "explain": "Check whether the mixture contains a magnetic substance such as iron filings or iron nails."
+    },
+    {
+     "step": 2,
+     "action": "Move a magnet over the mixture",
+     "explain": "Bring a magnet close to or move it through the mixture so the magnetic particles cling to it."
+    },
+    {
+     "step": 3,
+     "action": "Remove the magnetic particles",
+     "explain": "Lift the magnet away and brush off the attracted particles, confirming the magnetic and non-magnetic parts are now separated."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How can iron filings be separated from a mixture of iron filings and sand?",
+     "solution": "Move a magnet through the mixture. The iron filings stick to the magnet and the sand is left behind.",
+     "answer": "By magnetic separation, since iron is magnetic and is attracted to the magnet while sand is not."
+    },
+    {
+     "question": "Why does a magnet not separate copper coins from sand?",
+     "solution": "Copper is a non-magnetic material, so a magnet does not attract it.",
+     "answer": "Because copper is not magnetic and is not attracted to the magnet."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define magnetic separation and name one magnetic substance.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain how a magnet can help remove iron nails mixed with sawdust.",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "fecu109.txt",
+   "concept": "c6cu.9.1",
+   "question_type": "short_answer",
+   "question_pattern": "Why do we remove stones from rice before cooking?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Stones are unwanted and harmful",
+     "explain": "Stones are unwanted and harmful components in rice. Removing them makes the rice safe to eat."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "fecu109.txt",
+   "concept": "c6cu.9.1",
+   "question_type": "short_answer",
+   "question_pattern": "A mixture contains salt and sand. Why might we need to separate them?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Salt is a useful component",
+     "explain": "Salt is a useful component needed for food, while sand is an unwanted impurity. Separation lets us obtain pure salt."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_08_010",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_08_010",
+   "title": "c12_hist_cbse_08_010",
+   "questions": [
+    {
+     "q": "What term did Mughal sources use for village menial-cum-agricultural labourers, and which caste-like groups were typically relegated to this status?",
+     "a": "Mughal sources used the term **majur** for menial-agricultural labourers. Groups such as halalkhoran (scavengers) in Muslim communities and mallahzadas (boatmen’s sons) in Bihar were confined to these roles, correlating caste, poverty, and low status at the bottom of the rural hierarchy. A wrong answer (e.g., \"kisan\" or \"raiyat\") reveals confusion between cultivating peasants and landless menials, missing the critical distinction that majurs lacked land rights and were caste-bound to degrading labour.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the distinction between \"artisan\" and \"peasant\" in Mughal villages was often fluid, citing two specific seasonal or economic reasons from the period.",
+     "a": "The distinction was fluid because (1) cultivators engaged in craft production (dyeing, textile printing, pottery, tool repair) during agricultural lulls between sowing/weeding and weeding/harvesting, and (2) many artisan households also cultivated small plots, blurring occupational boundaries. A wrong answer that treats artisans and peasants as rigidly separate categories ignores the NCERT evidence that \"many groups performed the tasks of both\" and misses the adaptive household economy that characterised Mughal villages.",
+     "self_check": true
+    },
+    {
+     "q": "A historian finds a 17th-century Maratha revenue record stating that a village carpenter holds 2 acres of cultivable waste as *miras* (hereditary holding) granted by the panchayat. Using the jajmani framework, explain what service obligation this land likely entailed and why the panchayat — not the zamindar — sanctioned it.",
+     "a": "The *miras* land compensated the carpenter for hereditary service (jajmani) to specific peasant households — repairing ploughs, carts, and wooden implements — paid as a share of harvest or land allotment rather than cash. The panchayat sanctioned it because jajmani was a village-level caste-corporate arrangement: the panchayat allocated cultivable waste from the common pool to maintain essential artisans, ensuring the entire community’s production needs were met. A wrong answer attributing the grant to the zamindar confuses state revenue assignments (jagir/milkiyat) with community-based artisan maintenance, missing the decentralized, caste-mediated nature of jajmani.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the jajmani system’s reciprocity with the European guild system (c11_hist_cbse_06_009). Identify one structural similarity and one fundamental difference in how each regulated artisan production and social mobility.",
+     "a": "**Similarity:** Both systems regulated artisanal services through hereditary, corporate structures — jati panchayats in India, guilds in Europe — controlling entry, standards, and disputes. **Difference:** European guilds were urban, market-oriented, and allowed some vertical mobility (apprentice → master), whereas jajmani was village-based, caste-locked, and tied artisans to patron families through hereditary service obligations with no occupational exit. A wrong answer claiming guilds were also caste-based or that jajmani allowed free mobility ignores the caste-enforced closure that defined Indian artisan life.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The jajmani system was primarily an exploitative mechanism by which dominant castes extracted free labour from artisan and menial castes.\" Use evidence from the NCERT text (petitions to panchayats, *miras* land, goods-for-services) to support your judgment.",
+     "a": "The statement is **partially correct but incomplete**. Evidence of exploitation exists: petitions to panchayats complained of *begar* (unpaid labour) demanded by \"superior\" castes, and menial castes (halalkhoran, mallahzadas) faced caste-bound poverty. However, the system also provided **security and reciprocity**: artisans received hereditary *miras/watan* land, fixed harvest shares, and daily allowances (e.g., Bengal zamindars paying blacksmiths \"diet money\"), guaranteeing livelihood in a cash-scarce economy. The NCERT notes \"an element of reciprocity, paternalism and patronage\" alongside exploitation. A one-sided answer (purely exploitative or purely benevolent) fails to grasp the dialectical nature of jajmani as both a safety net and a cage.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 4-tier diagram showing the caste-occupational hierarchy of a typical north Indian Mughal village (c. 1650), labelling each tier with: (a) caste/jati examples, (b) primary economic role, (c) land/asset access, (d) jajmani relationship (patron/client). Use only categories explicitly mentioned in the NCERT chapter.",
+     "a": "**Tier 1 (Dominant cultivators):** Rajputs, Jats, Ahirs, Gujars, Malis — peasant proprietors (khud-kashta) — own/cultivate land — *jajmans* (patrons) to artisans.  \n**Tier 2 (Intermediate/Service castes):** Sadgops, Kaivartas (east); Gauravas (seeking Rajput status) — cultivators/pastoralists — moderate land access — both *jajmans* and *kamins* (clients).  \n**Tier 3 (Village artisans):** Potters, blacksmiths, carpenters, barbers, goldsmiths — craft specialists — *miras/watan* land or harvest share — *kamins* (hereditary clients) to Tier 1/2.  \n**Tier 4 (Menial labourers):** Majurs, halalkhoran, mallahzadas — landless wage labour — no land, caste-bound menial tasks — excluded from jajmani reciprocity, subject to *begar*.  \nA poor answer merges Tiers 3 and 4 or omits the *jajman/kamin* terminology, missing the hierarchical reciprocity that defined village exchange.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

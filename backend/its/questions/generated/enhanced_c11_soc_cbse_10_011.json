@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_10_011",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_10_011",
+   "title": "c11_soc_cbse_10_011",
+   "questions": [
+    {
+     "q": "Name the four sociologists compared in this node and state the one-word label (e.g., 'indological', 'Marxist', 'structural-functionalist', 'dialectical') that best captures each one's core theoretical orientation.",
+     "a": "Ghurye — indological/structuralist; Mukerji — dialectical/tradition-centred; Desai — Marxist/historical materialist; Srinivas — structural-functionalist. A wrong answer (e.g., labelling Ghurye as 'functionalist' or Desai as 'indological') reveals the student has memorised names but not grasped the distinct intellectual genealogies each scholar draws upon — Ghurye from Sanskritist diffusionism, Desai from Marxist political economy, Srinivas from British social anthropology, Mukerji from a synthesis of Marxism and Indian philosophy.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Ghurye characterised Indian tribes as 'backward Hindus' rather than distinct cultural groups, and contrast this with the protectionist view of Verrier Elwin. What does this disagreement reveal about their differing visions of the Indian nation?",
+     "a": "Ghurye argued tribes were never isolated but had long interacted with Hinduism, differing only in degree of assimilation; Elwin saw them as distinct cultures needing state protection from exploitative assimilation. Ghurye's nationalist vision prioritised integration into a unified Hindu civilisation; Elwin's protectionist vision prioritised cultural autonomy. A wrong answer that treats this as merely an academic dispute about tribal identity misses the deeper political stakes: Ghurye's view aligned with a homogenising postcolonial nation-building project, while Elwin's aligned with a pluralist, rights-based framework — a tension still alive in debates over Schedule V/VI areas and forest rights.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: 'Mukerji and Desai are both Marxists, so their approaches to Indian sociology are essentially the same.' Using the concepts of 'living tradition' (Mukerji) and 'welfare state as myth' (Desai), demonstrate why this claim is incorrect by identifying two fundamental differences in how they theorise social change in India.",
+     "a": "Difference 1: Mukerji sees change driven by collective experience (anubhava) within tradition — e.g., bhakti/Sufi movements transform orthodoxy from within — while Desai sees change driven by class contradiction and colonial capitalism's structural transformations. Difference 2: Mukerji insists sociologists must *participate* in folk-ways/mores to understand society ('be an Indian first'), whereas Desai adopts a detached, critical Marxist standpoint to expose the state's class character. A wrong answer that equates them because both read Marx fails to see Mukerji's rejection of economic determinism and his insistence on culture as the primary site of Indian social reality.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Srinivas's defence of the village as a sociological unit with Louis Dumont's critique. Then analyse how Srinivas's concept of 'dominant caste' resolves (or fails to resolve) Dumont's objection that caste, not village, is the enduring institution.",
+     "a": "Dumont argued villages are ephemeral collections; caste travels with individuals. Srinivas countered that villages have historical unity and are sites where caste, economy, and politics intersect concretely. The 'dominant caste' concept — a caste that owns land, holds numerical strength, and wields political power *in a specific village* — operationalises caste *within* the village, showing caste's local manifestation. However, it does not fully answer Dumont because dominant caste varies village-to-village while caste structure remains pan-regional. A weak answer merely lists the debate; a strong answer shows how Srinivas's concept makes the village analytically indispensable for studying *how* caste power works on the ground, even if caste is the deeper structure.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: 'Ghurye's six features of caste provide a timeless definition, while Srinivas's Sanskritisation shows caste is fluid — therefore they contradict each other.' Defend or refute using the distinction between *normative structure* and *empirical process*.",
+     "a": "Refute: Ghurye's six features (segmental division, hierarchy, restrictions, differential rights, hereditary occupation, endogamy) describe the *normative-structural ideal type* of caste as a system; Sanskritisation describes an *empirical process* of mobility *within* that structure. They operate at different analytical levels — one defines the system's logic, the other explains its dynamic. Ghurye himself noted actual practice deviates from prescription. A wrong answer treats them as competing factual claims rather than complementary analytical tools, revealing a misunderstanding of how sociological concepts work at different levels of abstraction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a research question for a contemporary study of a rural Indian community that *requires* integrating at least two of the four approaches (e.g., Ghurye + Srinivas, or Desai + Mukerji). Justify why a single approach would be insufficient.",
+     "a": "Example: 'How do land-owning dominant castes in a Telangana village use traditional ritual hierarchy (Ghurye's normative caste features) and electoral politics (Desai's class-state analysis) to control irrigation water distribution, while lower-caste collectives draw on folk traditions of resistance (Mukerji's anubhava) to challenge this?' Single-approach insufficiency: Ghurye alone misses state power and class; Desai alone misses ritual legitimacy and cultural grammar; Mukerji alone misses structural hierarchy and political economy; Srinivas alone misses the normative text and the colonial-capitalist legacy. A good answer identifies a concrete empirical puzzle where cultural, structural, political-economic, and experiential dimensions are empirically entangled.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

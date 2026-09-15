@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "psychology",
+  "chapter": 103,
+  "chapter_title": "Human Development",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kepy103.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kepy103.1.1",
+      "title": "Development: Meaning and Principles",
+      "section": "3.1",
+      "definition": "Development is the pattern of orderly, sequential change that continues through life -- gains and losses alike -- from conception to old age. Its principles: development proceeds in definite directions, at individual rates, in interrelated dimensions, and through the joint action of heredity and environment.",
+      "formula": "",
+      "key_idea": "Lifelong, orderly and joint-made -- development is change with a pattern, not a race with a finish line.",
+      "textbook_ref": "kepy103.txt development sections (meaning and process of development, principles of development, growth versus development)",
+      "question_patterns": [
+        "define development and distinguish it from growth",
+        "in class 11 human development: state the principles of development with examples",
+        "why is development called a lifelong process",
+        "how do the dimensions of development influence each other",
+        "explain development proceeding from general to specific",
+        "does development always mean improvement discuss"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "define the term",
+          "explain": "Development covers organised change across physical, cognitive and socio-emotional dimensions through the whole life span."
+        },
+        {
+          "step": 2,
+          "action": "apply the principles",
+          "explain": "Direction, individual rate, interrelation and continuity describe how change unfolds."
+        },
+        {
+          "step": 3,
+          "action": "name the sources",
+          "explain": "Heredity supplies potentials; environment and context decide how they unfold."
+        }
+      ]
+    },
+    {
+      "id": "kepy103.1.2",
+      "title": "Heredity, Environment and Context",
+      "section": "3.2",
+      "definition": "The nature-nurture issue asks how much genes and how much environment shape us. Developmental psychology answers: jointly -- genes set ranges, environments select points within them, and cultural context colours every stage's meaning and timetable.",
+      "formula": "",
+      "key_idea": "Genes write in pencil, environment fills the ink -- context decides what each stage means.",
+      "textbook_ref": "kepy103.txt influence sections (heredity genes, environment, context and culture, nature nurture interaction)",
+      "question_patterns": [
+        "explain the influence of heredity on human development",
+        "in class 11 human development: how does environment interact with heredity",
+        "what is meant by context in developmental psychology",
+        "give an example of nature and nurture acting together",
+        "why is the nature nurture debate considered misleading today",
+        "how does culture change the meaning of a developmental stage"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "grant the genes",
+          "explain": "Heredity supplies the inherited blueprint -- potentials, temperament, ranges of possibility."
+        },
+        {
+          "step": 2,
+          "action": "grant the environment",
+          "explain": "Nutrition, family, schooling and culture realise, restrict or redirect those potentials."
+        },
+        {
+          "step": 3,
+          "action": "insist on interaction",
+          "explain": "Development is the negotiated product of both, read always within its context."
+        }
+      ]
+    },
+    {
+      "id": "kepy103.1.3",
+      "title": "Stages of the Life Span",
+      "section": "3.3",
+      "definition": "The life span divides into stages -- prenatal, infancy, childhood, adolescence, adulthood and old age -- each with characteristic physical, cognitive and socio-emotional tasks, from attachment and language in infancy to identity in adolescence and integrity in old age.",
+      "formula": "",
+      "key_idea": "One life span, several stages -- each with its own jobs of growth to finish before the next begins.",
+      "textbook_ref": "kepy103.txt stages sections (prenatal infancy childhood adolescence adulthood old age, developmental tasks, stages of development)",
+      "question_patterns": [
+        "list the stages of the human life span with one feature of each",
+        "in class 11 human development: what tasks mark adolescence as a stage",
+        "what developments characterise infancy",
+        "how does old age differ as a developmental stage",
+        "what is meant by developmental tasks of a stage",
+        "match given behaviours to life span stages"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "order the stages",
+          "explain": "Prenatal to old age in sequence, with infancy and childhood building attachment, language and thought."
+        },
+        {
+          "step": 2,
+          "action": "centre on adolescence",
+          "explain": "Identity formation, puberty and heightened peer orientation define the stage the reader is in."
+        },
+        {
+          "step": 3,
+          "action": "close the span",
+          "explain": "Adulthood centres on work and relationships; old age brings integration, wisdom and adjustment to loss."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kepy103.txt influence sections",
+      "concept": "kepy103.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Two identical twins are raised in different cities and grow into adults with different interests. Explain using heredity-environment interaction.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "note the shared heredity",
+          "explain": "Identical genes give the twins the same potentials and temperamental starting point."
+        },
+        {
+          "step": 2,
+          "action": "note the differing environments",
+          "explain": "Different schools, peers and city cultures offered different models and opportunities."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "One blueprint, two realisations -- development is the joint product, never genes alone."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kepy103.txt stages sections",
+      "concept": "kepy103.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "Match each behaviour to its stage: babbling; identity crisis; retirement planning; first steps.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "place infancy behaviours",
+          "explain": "Babbling belongs to infancy; first steps to late infancy or early childhood."
+        },
+        {
+          "step": 2,
+          "action": "place adolescence",
+          "explain": "Identity crisis is adolescence's signature search."
+        },
+        {
+          "step": 3,
+          "action": "place late adulthood",
+          "explain": "Retirement planning belongs to late adulthood's task of adjustment and integrity."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kepy103.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Define development and explain its principles.",
+        "Distinguish growth from development with examples.",
+        "Discuss the roles of heredity and environment in development.",
+        "Describe the stages of the life span with one task each.",
+        "Why is adolescence called a period of identity formation?",
+        "How does context influence the meaning of developmental stages?"
+      ]
+    }
+  ]
+}

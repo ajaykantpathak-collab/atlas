@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_18_011",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_18_011",
+   "title": "c11_ps_cbse_18_011",
+   "questions": [
+    {
+     "q": "Which article of the Indian Constitution explicitly abolishes untouchability and forbids its practice in any form?",
+     "a": "Article 17. A wrong answer (e.g., Article 15 or 16) reveals confusion between the general non-discrimination guarantee (Article 15) and the specific eradication of a caste-based social disability (Article 17), indicating the student does not grasp the Constitution's targeted attack on the caste system's ritual core.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Constitution makers include Directive Principles of State Policy (Part IV) as non-justiciable guidelines rather than enforceable Fundamental Rights, despite their transformative potential for social justice?",
+     "a": "The framers recognized that socio-economic rights (e.g., right to work, education, living wage) require substantial resources and progressive realization; making them immediately justiciable in a poor, newly independent country would have led to unimplementable court orders and institutional paralysis. A wrong answer suggests the student views Directive Principles as \"less important\" rather than as a distinct constitutional strategy for gradual transformation.",
+     "self_check": true
+    },
+    {
+     "q": "A state government enacts a law providing 60% reservation in medical college admissions for SCs, STs, and OBCs. A student challenges it under Article 14 (equality before law). As a legal intern, how would you use Articles 15(4) and 16(4) to defend the law?",
+     "a": "Articles 15(4) and 16(4) are enabling provisions that permit the state to make special provisions for the advancement of socially and educationally backward classes, SCs, and STs as exceptions to Articles 15(1) and 16(1). The defense must argue the law satisfies the \"substantive equality\" test but note the Supreme Court's 50% cap (Indra Sawhney, 1992) makes 60% vulnerable unless exceptional circumstances are proven. A wrong answer treats reservations as a violation of equality rather than a constitutional mandate for substantive equality.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the transformative potential of Article 17 (abolition of untouchability) and Article 23 (prohibition of forced labour). Which addresses a more deeply embedded social hierarchy and why?",
+     "a": "Article 17 targets the caste system's ritualistic hierarchy — a uniquely Indian social structure that denies dignity based on birth — making it more deeply embedded than the economic exploitation addressed by Article 23. Both are transformative, but Article 17 strikes at the ideological foundation of caste. A wrong answer equates the two as merely \"prohibitions\" without analyzing the specific social hierarchies each dismantles.",
+     "self_check": true
+    },
+    {
+     "q": "Assess the statement: \"The Constitution's transformative vision has been largely realized through judicial activism expanding Article 21 (right to life) to include rights to education, health, and livelihood.\" Provide two arguments for and two against.",
+     "a": "For: (1) Judicial expansion filled legislative vacuums (e.g., Unnikrishnan judgment → Right to Education Act, 2009). (2) Courts enforced socio-economic rights as facets of Article 21 (e.g., right to health in Paschim Banga Khet Mazdoor Samity). Against: (1) Judicial overreach encroaches on legislative domain and budgetary priorities. (2) Declaratory judgments often lack implementation mechanisms, leaving transformation incomplete without executive action. A wrong answer treats judicial activism as wholly positive or negative without institutional balance.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a constitutional provision (one article) addressing a contemporary inequality not explicitly covered in the original Constitution (e.g., digital divide, LGBTQ+ rights, climate justice). Explain which part (Fundamental Rights or Directive Principles) it would fit into and why.",
+     "a": "A strong answer proposes, e.g., \"Article 21B: The State shall ensure universal, affordable digital access for all citizens\" under Fundamental Rights (Part III) as a facet of Article 21 (right to life with dignity in the digital age), or a new Directive Principle \"Article 48B: The State shall strive to achieve climate justice...\" under Part IV for progressive realization. A poor answer places it arbitrarily without justifying the justiciable vs. non-justiciable distinction or the transformative logic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

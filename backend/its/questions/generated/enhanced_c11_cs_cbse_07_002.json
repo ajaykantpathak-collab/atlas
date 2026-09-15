@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_07_002",
+   "title": "c11_cs_cbse_07_002",
+   "questions": [
+    {
+     "q": "What is the output of the following code and why?\n```python\nt = (10,)\nprint(type(t))\nprint(t[0])\n```",
+     "a": "Output:\n```\n<class 'tuple'>\n10\n```\nThe trailing comma in `(10,)` makes it a tuple; without the comma, `(10)` is just an integer. A wrong answer (e.g., saying type is `int`) reveals the student misses the critical comma rule for single-element tuples — a frequent board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why `t = tuple(\"HELLO\")` creates a 5-element tuple `('H','E','L','L','O')` while `t = (\"HELLO\",)` creates a 1-element tuple. What would `tuple(123)` produce?",
+     "a": "`tuple(\"HELLO\")` iterates over the string, treating each character as an element. `(\"HELLO\",)` uses packing syntax with a comma, making the whole string one element. `tuple(123)` raises `TypeError: 'int' object is not iterable` because integers are not iterable. A wrong answer (e.g., saying both produce same result) shows confusion between iterable unpacking and tuple packing — a core conceptual gap.",
+     "self_check": true
+    },
+    {
+     "q": "Given `data = (10, 20, 30, 40, 50)`, write the slice expression to extract `(30, 40)` using:\n(a) positive indices only\n(b) negative indices only\n(c) stride of 2 to get `(10, 30, 50)`",
+     "a": "(a) `data[2:4]` → indices 2,3 (stop at 4 exclusive)\n(b) `data[-3:-1]` → -3=30, -2=40, stop at -1 (50) exclusive\n(c) `data[::2]` → start default 0, stop default end, step 2\nA wrong answer (e.g., `data[2:3]` for (a)) reveals off-by-one errors in slice stop index or misunderstanding of negative index mapping.",
+     "self_check": true
+    },
+    {
+     "q": "Compare `t1 = (1, 2, 3)` and `t2 = tuple([1, 2, 3])`. Are they identical? What about `t3 = 1, 2, 3` (no parentheses)? Explain the role of parentheses in tuple creation.",
+     "a": "All three create identical tuples: `(1, 2, 3)`. Parentheses are optional for packing (comma-separated values) but required for empty tuple `()` and to disambiguate in expressions like function calls. `t3 = 1, 2, 3` is tuple packing — parentheses are syntactic sugar. A wrong answer (e.g., saying `t3` is not a tuple) shows the student thinks parentheses are mandatory, missing Python's packing mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `coords = (10, 20)` and then `coords[0] = 15`. Python raises `TypeError`. The student argues: \"But I can do `coords = coords + (15,)` — so tuples are mutable!\" Evaluate this claim.",
+     "a": "The claim is false. `coords + (15,)` creates a **new** tuple `(10, 20, 15)` and rebinds the variable `coords` to it — the original tuple `(10, 20)` remains unchanged in memory. Mutability means in-place modification without creating a new object. A wrong evaluation (agreeing with student) confuses variable rebinding with object mutation — a critical distinction for immutability (next node).",
+     "self_check": true
+    },
+    {
+     "q": "Design a tuple to store a student's record: (roll_no, name, [marks_list]). Why is the marks list inside a tuple problematic? Create a 3-element tuple where the third element is immutable.",
+     "a": "The tuple is immutable, but the **list inside is mutable** — `record[2].append(95)` works, violating the expectation that the entire record is fixed. Better: `record = (101, \"Amit\", (90, 85, 88))` using a nested tuple for marks. A poor answer (e.g., saying it's fine because tuple is immutable) misses that immutability is shallow — only the top-level references are fixed, not nested mutable objects.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

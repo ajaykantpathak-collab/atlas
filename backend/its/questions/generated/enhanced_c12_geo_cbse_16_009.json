@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_16_009",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_16_009",
+   "title": "c12_geo_cbse_16_009",
+   "questions": [
+    {
+     "q": "Name the two primary modes through which most of India's foreign trade is carried, and identify the neighbouring countries connected by land routes.",
+     "a": "Correct answer: Most of India's foreign trade is carried through **sea and air routes**. Land routes connect India with **Nepal, Bhutan, Bangladesh, Pakistan, and Myanmar**.  \nA wrong answer (e.g., \"land and sea\" or missing Bhutan/Myanmar) reveals the student has not distinguished the dominant modes (sea+air handle >95% by value) or lacks awareness of all five land neighbours with operational trade crossings.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why air cargo accounts for a small percentage of India's total trade volume but a disproportionately high percentage of trade value.",
+     "a": "Correct answer: Air cargo is **expensive per kg** (high freight cost) and has **limited capacity** (weight/volume constraints of aircraft), so it carries only **high-value, low-weight, time-sensitive goods** (gems, jewellery, pharmaceuticals, electronics, perishables). Sea/land carry bulk/low-value goods.  \nA wrong answer (e.g., \"air cargo is cheaper\" or \"airports are everywhere\") shows confusion between cost/volume trade-offs and ignorance of commodity profiles — a classic board exam trap where students conflate \"major mode\" with \"major value\".",
+     "self_check": true
+    },
+    {
+     "q": "A pharmaceutical company in Hyderabad needs to export temperature-sensitive vaccines to Europe urgently. Using the airport list from the textbook, identify the nearest major international cargo airport and explain two geographical advantages it offers for this shipment.",
+     "a": "**Steps:**  \n1. Locate Hyderabad on map → nearest major international airport from textbook list: **Hyderabad (Rajiv Gandhi International Airport)** is itself a major airport.  \n2. If Hyderabad were not listed, next nearest: **Bengaluru** or **Chennai** (both in textbook's 25 major airports).  \n3. Advantages: (a) **Direct/short-haul connectivity** to Middle East hubs (Dubai, Doha) for onward Europe links, reducing transit time. (b) **Cold-chain infrastructure** (temperature-controlled storage) at major metros for perishables.  \n**Answer:** Hyderabad airport; advantages = direct global connectivity + cold-chain facilities.  \nA wrong answer (e.g., choosing Delhi for Hyderabad shipment) reveals poor spatial awareness of airport hierarchy and ignores perishable logistics — a common error in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the commodity composition of India's air cargo exports versus land route exports to Bangladesh. Why do they differ?",
+     "a": "Correct answer:  \n- **Air cargo exports**: Gems & jewellery, pharmaceuticals, engineering goods, electronics, perishables (high value/kg, low volume).  \n- **Land route exports to Bangladesh**: Cotton, machinery, petroleum products, foodgrains, vehicles (bulk, lower value/kg, high volume).  \n**Reason for difference**: Air freight cost ~₹100-200/kg vs land ~₹2-5/kg; air capacity ~100 tons/flight vs trucks ~20 tons; Bangladesh shares 4,096 km border with multiple ICPs (Petrapole, Ghojadanga, etc.) enabling bulk movement.  \nA wrong answer (listing similar commodities) shows failure to link transport economics (cost, capacity, speed) to commodity geography — a key analytical skill for 150-word board answers.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The UDAN scheme has significantly boosted India's international air cargo capacity.\" Support your judgment with evidence from the textbook and logical reasoning.",
+     "a": "**Judgment: Partially true but overstated.**  \n**Evidence from text**: UDAN (since 2017) operationalized **73 unserved/underserved airports + 9 heliports + 2 water aerodromes** — primarily for **domestic regional connectivity** (Tier-2/3 cities).  \n**Reasoning**: International cargo requires **customs, cold storage, long runways, freighter aircraft** — concentrated at 6-8 metro hubs (Delhi, Mumbai, Bengaluru, Chennai, Hyderabad, Kolkata). UDAN airports lack these. However, UDAN *indirectly* helps by feeding domestic cargo to hubs (e.g., perishables from Nashik → Mumbai).  \nA wrong answer (\"UDAN directly increased international cargo\") confuses domestic connectivity with international freight infrastructure — a competitive exam trap (CUET/UPSC) testing policy nuance.",
+     "self_check": true
+    },
+    {
+     "q": "Design a land trade corridor proposal for enhancing India-Nepal petroleum trade. Specify: (a) existing ICP to upgrade, (b) infrastructure needed, (c) one geographical constraint to overcome.",
+     "a": "**Expected criteria for good answer:**  \n(a) **Raxaul-Birgunj ICP** (busiest India-Nepal land crossing, handles ~60% of Nepal's trade).  \n(b) **Dedicated petroleum pipeline** (like Motihari-Amlekhganj pipeline already operational), **wider roads for tankers**, **24×7 customs clearance**, **storage depots**.  \n(c) **Constraint**: **Flood-prone Terai plains** — monsoon disrupts roads/rail; pipeline is flood-resilient.  \n**Poor answer**: Vague ICP name, missing pipeline, ignoring Terai floods — shows lack of applied geographical thinking (infrastructure + physical geography integration).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

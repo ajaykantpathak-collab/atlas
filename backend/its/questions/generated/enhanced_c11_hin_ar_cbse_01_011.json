@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_01_011",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_01_011",
+   "title": "c11_hin_ar_cbse_01_011",
+   "questions": [
+    {
+     "q": "What is the grammatical term for the verb form \"कराए गए\" in the sentence \"कागज़ात जमा कराए गए\", and what does it indicate about agency in the context of the story?",
+     "a": "The form \"कराए गए\" is a **causative passive** construction (कर्मवाच्य + causative). It indicates that the subject (कागज़ात) undergoes an action caused by an unnamed agent (the clerk/bureaucracy), obscuring human responsibility. A wrong answer (e.g., calling it simple past active) reveals the student cannot distinguish voice and causation, missing how grammar hides power.",
+     "self_check": true
+    },
+    {
+     "q": "In the peasant's dialogue \"हमरे भाग्य मा यहीं लिखल बा\", identify two dialectal features that mark this as Avadhi-influenced Hindi and explain how they distance the speaker from the clerk's register.",
+     "a": "Features: (1) \"हमरे\" for \"हमारे\" (possessive pronoun with /r/ insertion), (2) \"लिखल बा\" for \"लिखा है\" (perfective participle + auxiliary \"बा\" from Avadhi). These mark the speaker as rural, uneducated in colonial administration, and linguistically marginalized. A wrong answer listing only vocabulary (\"भाग्य\") shows the student confuses lexical choice with grammatical dialect markers.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the clerk's line \"आपको नक्शा दिखाना पड़ेगा\" into the peasant's register using appropriate pronoun, verb agreement, and dialect marker. Explain each change.",
+     "a": "Peasant register: \"तुझको नक्शा देखब पड़ै\". Changes: (1) \"आपको\" → \"तुझको\" (intimate/inferior pronoun), (2) \"दिखाना पड़ेगा\" (standard infinitive + modal) → \"देखब पड़ै\" (Avadhi future passive \"देखब\" + \"पड़ै\" for \"पड़ेगा\"), (3) honorific plural verb \"पड़ेगा\" → singular \"पड़ै\". A wrong answer keeping \"आपको\" or \"पड़ेगा\" shows failure to map register to social role.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sentence structure of the narrator's opening description (\"इज्सेपन/3\" paragraph) with the clerk's first spoken line. How do syntactic complexity and clause embedding reflect their respective positions in the colonial hierarchy?",
+     "a": "The narrator uses long, hypotactic sentences with multiple subordinate clauses (\"जिसमें...वहाँ...जहाँ...\") reflecting educated, analytical distance. The clerk's speech is paratactic, imperative-heavy (\"दिखाइए...जाइए...लाइए\"), reflecting bureaucratic authority that demands obedience. A wrong answer focusing only on vocabulary misses how syntax enacts power.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Premchand's use of the idiom 'अंधे के हाथ बटेर लगना' in the peasant's internal monologue is merely decorative.\" Defend your judgment with textual evidence.",
+     "a": "The claim is false. The idiom occurs when the peasant unexpectedly gets the map, but its folk imagery (blind man, partridge) contrasts with the clerk's legalistic language, emphasizing that the peasant's 'luck' is fragile and unintelligible to the system. It also foreshadows the map's uselessness. A wrong answer accepting the claim shows inability to link idiom to theme and character perspective.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new dialogue exchange (4-5 lines) between the clerk and a *different* peasant who is slightly literate, mixing standard Hindi verb forms with two Avadhi dialect markers. Annotate each dialect marker.",
+     "a": "Example:\nक्लर्क: \"आपका नाम क्या है?\"\nकिसान: \"हमार नाम रामदीन बा, बाबू साहब। हम पढ़ल बानी।\"\nAnnotations: (1) \"हमार\" for \"हमारा\" (possessive + /r/), (2) \"बा\" for \"है\" (Avadhi copula), (3) \"पढ़ल बानी\" for \"पढ़ा हूँ\" (perfective + 1st person auxiliary). A poor answer uses only vocabulary substitutions (\"बाबू\" → \"मालिक\") without grammatical dialect markers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch07_077",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch07_077",
+   "title": "c6_math_ch07_077",
+   "questions": [
+    {
+     "q": "What are the three dimensions that define a 3D shape?",
+     "a": "The three dimensions are length, width, and depth (or height). A wrong answer suggests the student is still thinking in terms of 2D shapes, which only have length and width.",
+     "self_check": true
+    },
+    {
+     "q": "If you hold a ball, does it have any edges or vertices? Explain why.",
+     "a": "No, a sphere has no edges or vertices because it has a perfectly smooth, curved surface with no flat faces meeting. A student saying it has \"one edge\" is confusing the curvature of the object with a linear edge.",
+     "self_check": true
+    },
+    {
+     "q": "A cuboid has 6 faces. If you paint all the faces of a cuboid, how many edges would you need to be careful not to get paint on if you were only handling it by the lines where the faces meet?",
+     "a": "You would need to watch out for 12 edges. Counting faces and edges accurately requires visualizing the 3D structure; an incorrect answer suggests the student is miscounting or missing hidden edges.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a cylinder and a cone. How are their circular faces different in terms of how they meet other parts of the shape?",
+     "a": "A cylinder has two flat circular faces and a curved surface, whereas a cone has only one circular face that tapers into a single point (vertex). Confusing these suggests the student isn't visualizing the tapering effect of a cone.",
+     "self_check": true
+    },
+    {
+     "q": "Can a pyramid have a circular base? Why or why not?",
+     "a": "No, by definition, a pyramid has a polygon base (a shape with straight edges) and triangular faces that meet at a point. If the base were circular, it would be a cone, not a pyramid.",
+     "self_check": true
+    },
+    {
+     "q": "Describe a new 3D object found in your kitchen that is not a cube or sphere, and identify its faces, edges, and vertices.",
+     "a": "A good answer would describe a cereal box (cuboid) with 6 rectangular faces, 12 edges, and 8 vertices. An incomplete answer shows the student has not yet generalized the definition to objects beyond the textbook examples.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

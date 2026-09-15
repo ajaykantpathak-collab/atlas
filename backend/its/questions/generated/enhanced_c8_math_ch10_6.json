@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch10_6",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch10_6",
+   "title": "c8_math_ch10_6",
+   "questions": [
+    {
+     "q": "If 5 metres of cloth cost ₹350, what is the cost of 1 metre? Write the ratio that stays constant in this situation.",
+     "a": "Cost of 1 metre = ₹350 ÷ 5 = ₹70. The constant ratio is cost/metres = 350/5 = 70, or metres/cost = 5/350 = 1/70. A wrong answer like ₹350 × 5 = ₹1750 reveals the student multiplies instead of dividing, confusing \"cost per metre\" with \"total cost for multiple metres\". It shows they don't recognize the constant ratio as cost per unit quantity.",
+     "self_check": true
+    },
+    {
+     "q": "A table shows: x = 2, 4, 6, 8 and y = 10, 20, 30, 40. Is y directly proportional to x? Explain how you know WITHOUT calculating every single ratio.",
+     "a": "Yes, y is directly proportional to x because y/x = 5 for the first pair (10/2 = 5), and the pattern shows y increases by 10 when x increases by 2, maintaining the same rate. The ratio y/x = 5 is constant. A wrong answer like \"yes because both increase\" reveals the student thinks any increasing pattern is direct proportion, missing the requirement of CONSTANT ratio. They confuse \"both go up\" with \"go up at the same rate\".",
+     "self_check": true
+    },
+    {
+     "q": "The cost of 7 kg of wheat is ₹294. Write the algebraic equation relating cost (C) and weight (w). Then find the cost of 15 kg of wheat.",
+     "a": "Step 1: Find constant k = C/w = 294/7 = 42.\nStep 2: Equation: C = 42w.\nStep 3: For w = 15, C = 42 × 15 = 630.\nAnswer: ₹630.\nA wrong answer like C = 294w or C = 7w reveals the student uses the given numbers directly as the constant instead of computing the unit rate. They don't understand k represents cost PER kg, not total cost for the given weight.",
+     "self_check": true
+    },
+    {
+     "q": "Two students fill a table for direct proportion: x = 3, 6, 9 and y = 12, 24, 36. Student A says k = 4. Student B says k = 1/4. Who is correct? What does each student's k represent?",
+     "a": "Student A is correct: y/x = 12/3 = 24/6 = 36/9 = 4, so y = 4x. Student B computed x/y = 3/12 = 1/4, which is the reciprocal — it represents how many units of x per unit of y (metres per rupee instead of rupees per metre). A wrong answer like \"both are correct\" reveals the student doesn't understand k must be defined consistently as dependent/independent variable ratio. They miss that k = y/x assumes y depends on x.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate solves: \"8 pens cost ₹96. Find cost of 20 pens.\" They write: 8/96 = 20/x, so x = 20 × 96 / 8 = 240. Is their method correct? Is their answer correct? Explain.",
+     "a": "The answer ₹240 is correct, but the method 8/96 = 20/x sets up pens/cost = pens/cost, which is valid because both ratios are inverse of the unit rate. However, the standard direct proportion setup is cost/pens = cost/pens → 96/8 = x/20. The student's method works accidentally because they inverted both ratios consistently. A wrong evaluation like \"method is wrong because pens should be on top\" reveals the student memorizes a fixed format without understanding that equal ratios can be inverted as long as both sides are inverted. They lack flexibility in proportional reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem where two quantities are in direct proportion. Make a table with 4 pairs of values, write the algebraic equation, and explain what the constant represents in your situation.",
+     "a": "Example: \"Auto-rickshaw fare: ₹25 for first km, then ₹12 per km.\" Table: km = 1, 2, 3, 4; fare = 25, 37, 49, 61. Wait — this is NOT direct proportion because of the fixed starting fare! A correct example: \"Petrol consumption: 1 litre = 15 km.\" Table: litres = 1, 2, 3, 4; distance = 15, 30, 45, 60. Equation: d = 15l. Constant 15 = km per litre (mileage). A poor answer using a fixed-charge scenario reveals the student confuses \"linear with intercept\" with \"direct proportion through origin\". They don't grasp that direct proportion requires zero quantity → zero cost.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

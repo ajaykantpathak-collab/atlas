@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_bio_ch2_4",
+ "concepts": [
+  {
+   "id": "enh:c8_bio_ch2_4",
+   "title": "c8_bio_ch2_4",
+   "questions": [
+    {
+     "q": "Which of the following classes of infectious pathogens consists of obligate intracellular parasites that require a living host cell to reproduce?\nA) Bacteria\nB) Fungi\nC) Viruses\nD) Protozoa",
+     "a": "The correct answer is C) Viruses. Viruses lack cellular machinery of their own and must hijack a host cell's metabolic processes to replicate. A student who incorrectly chooses bacteria likely confuses unicellular prokaryotic organisms with non-living infectious particles that cannot reproduce independently outside a host.",
+     "self_check": true
+    },
+    {
+     "q": "Why are bacterial infections typically treated with antibiotics, whereas viral infections generally do not respond to antibiotics?\nA) Viruses have stronger cell walls than bacteria.\nB) Antibiotics specifically target cellular structures and metabolic pathways unique to bacteria, which viruses do not possess.\nC) Viruses reproduce too slowly for antibiotics to take effect.\nD) Antibiotics destroy human white blood cells instead of viruses.",
+     "a": "The correct answer is B) Antibiotics specifically target cellular structures and metabolic pathways unique to bacteria, which viruses do not possess. Since viruses lack cell walls, ribosomes, and independent metabolism, antibiotic drugs have no cellular target to disrupt. A student who chooses A believes that physical strength or structural hardness determines drug effectiveness rather than specific biochemical target sites.",
+     "self_check": true
+    },
+    {
+     "q": "A student classifies tuberculosis (TB) as a viral infection and influenza (flu) as a bacterial infection. Evaluate this classification and correct any errors using your knowledge of pathogen types.",
+     "a": "Steps to solve:\n1. Identify the causative agent of tuberculosis (TB): *Mycobacterium tuberculosis*, which is a bacterium.\n2. Identify the causative agent of influenza: Influenza virus, which is a viral pathogen.\n3. Compare the student's classification with established microbiological facts.\n4. Correct the classification: Tuberculosis is bacterial, and influenza is viral.\nReasoning: Swapping pathogen categories leads to inappropriate medical expectations, such as attempting to treat a viral flu with antibacterial medications. A student making this error fails to distinguish between cellular prokaryotes and non-cellular viral particles.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how environmental factors such as temperature and humidity influence the transmission and growth of fungal infections compared to viral infections.",
+     "a": "The correct answer is that fungal pathogens thrive in warm, humid environments (like skin folds during the Indian monsoon) because moisture and heat facilitate spore germination and hyphae growth. In contrast, environmental humidity has a less direct structural impact on viral stability, though temperature and droplet evaporation rates can affect airborne viral droplet survival. A student who thinks fungi and viruses respond identically to weather conditions overlooks the distinct biological structures, such as fungal chitin cell walls versus viral protein capsids.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"All microscopic organisms that enter the human body cause infectious diseases.\" Is this scientifically accurate? Justify your answer.",
+     "a": "The statement is false. Not all microorganisms cause disease; the human body hosts trillions of beneficial microbes (such as gut microbiota aiding digestion and normal skin flora) that protect against pathogenic invasion. A student who agrees with the statement fails to differentiate between harmless or symbiotic commensal microorganisms and harmful pathogenic microbes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple observational classification scheme to differentiate between a suspected bacterial skin infection (like impetigo) and a fungal skin infection (like ringworm) based on visual symptoms and environmental triggers.",
+     "a": "A good response should propose checking for characteristics such as circular, scaly, itchy patches exacerbated by sweat and humidity (indicating fungal ringworm) versus localized pus-filled blisters or honey-colored crusts (indicating bacterial infection). A poor response merely guesses names of diseases without establishing observable physical criteria or environmental contexts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

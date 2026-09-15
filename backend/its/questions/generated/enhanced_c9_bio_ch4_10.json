@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch4_10",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch4_10",
+   "title": "c9_bio_ch4_10",
+   "questions": [
+    {
+     "q": "Define 'extinction' and distinguish it from 'local extinction (extirpation)' using a specific Indian example.",
+     "a": "Extinction is the global, permanent loss of a species when the last individual dies (e.g., Indian Cheetah *Acinonyx jubatus venaticus* declared extinct in India in 1952). Local extinction/extirpation is disappearance from a specific region while the species survives elsewhere (e.g., Tigers locally extinct in Sariska Tiger Reserve in 2005 but surviving in other reserves). A wrong answer confusing the two reveals the student cannot scale conservation planning - global extinction requires species-level recovery programmes, while local extinction allows reintroduction from source populations.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Habitat loss is just one of many equal threats to biodiversity.\" Using the HIPPO framework, explain why this statement is biologically inaccurate for the current extinction crisis.",
+     "a": "Habitat loss and fragmentation (H in HIPPO) is the primary driver for ~85% of threatened species globally because it simultaneously reduces population size, isolates subpopulations (preventing gene flow), and increases edge effects. In India, conversion of grasslands to agriculture caused the Great Indian Bustard's decline more directly than hunting. A wrong answer treating all HIPPO factors as equal reveals the student cannot prioritise conservation resources - protecting habitat addresses the root cause for most species, whereas anti-poaching alone fails if no habitat remains.",
+     "self_check": true
+    },
+    {
+     "q": "The Great Indian Bustard (*Ardeotis nigriceps*) population dropped from ~1,500 in 2000 to <150 today despite legal protection. Apply the extinction vortex concept to explain why legal protection alone failed, identifying at least three interacting factors.",
+     "a": "Step 1: Habitat loss (grasslands converted to agriculture/solar parks) reduced carrying capacity. Step 2: Small fragmented populations led to inbreeding depression (reduced fertility, chick survival). Step 3: Demographic stochasticity - with few males, mating success dropped (Allee effect). Step 4: Environmental stochasticity - droughts or disease now wipe out larger % of remaining population. Step 5: These factors reinforce each other in a vortex. Legal protection stopped hunting but didn't reverse habitat loss or genetic erosion. A wrong answer citing only one factor shows the student misses the synergistic nature of extinction drivers.",
+     "self_check": true
+    },
+    {
+     "q": "Compare in-situ and ex-situ conservation for the Gharial (*Gavialis gangeticus*). Analyze why a combined approach is necessary, referencing specific threats (sand mining, fishing nets, river fragmentation).",
+     "a": "In-situ (protected river stretches like National Chambal Sanctuary) preserves natural breeding behaviour, ecological interactions, and genetic diversity in wild context but cannot eliminate sand mining or net entanglement immediately. Ex-situ (captive breeding at Kukrail, Lucknow; head-starting hatchlings) bypasses high egg/juvenile mortality but risks domestication selection and cannot replace wild populations long-term. A wrong answer favouring only one approach reveals inability to match strategy to threat: ex-situ buys time for critically small populations while in-situ addresses root causes; both needed for species with complex life cycles in degraded habitats.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The Wildlife Protection Act 1972 (amended 2022) listing a species in Schedule I guarantees its recovery.\" Provide a biological argument using the concept of 'paper parks' and implementation gaps.",
+     "a": "Schedule I provides highest legal protection (hunting banned, strict penalties) but recovery requires: (1) habitat protection enforcement (many PAs are 'paper parks' with staff vacancies, e.g., some tiger reserves), (2) addressing threats outside PAs (linear infrastructure, human-wildlife conflict), (3) population monitoring and active management (e.g., tiger translocations for genetic rescue). The Great Indian Bustard is Schedule I but declining due to unprotected grasslands and power line collisions. A wrong answer accepting the claim shows confusion between legal status and ecological recovery - laws enable action but don't substitute for it.",
+     "self_check": true
+    },
+    {
+     "q": "Design a community-based conservation model for a hypothetical endangered freshwater turtle species in the Ganga basin that addresses both nest poaching and bycatch in fishing nets, incorporating traditional knowledge of riverine communities.",
+     "a": "Good answer includes: (1) Nest protection incentives - pay fisherfolk per protected nest (higher than egg market value), using local knowledge of nesting sites. (2) Bycatch reduction - co-design turtle excluder devices (TEDs) for local nets, test with fishers. (3) Monitoring - train community members as 'turtle guardians' with smartphone reporting. (4) Livelihood linkage - ecotourism (turtle watching) or alternative income during nesting season. (5) Cultural integration - involve local festivals/rituals honouring turtles. Poor answer focusing only on enforcement or only on awareness reveals failure to align conservation with human incentives and local ecological knowledge.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

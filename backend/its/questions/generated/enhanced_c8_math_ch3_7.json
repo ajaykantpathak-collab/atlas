@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch3_7",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch3_7",
+   "title": "c8_math_ch3_7",
+   "questions": [
+    {
+     "q": "What symbol did the Bakhshali Manuscript use to represent zero, and in what two roles does it appear in the manuscript?",
+     "a": "The Bakhshali Manuscript used a dot (·) for zero. It appears as a placeholder in place-value notation (e.g., 205 written as 2·5) and as a number in subtraction results (e.g., 3 − 3 = ·). A wrong answer (e.g., “circle” or “no zero”) shows the student confuses Bakhshali with later Gwalior inscription (circle) or thinks zero came only from Arabia.",
+     "self_check": true
+    },
+    {
+     "q": "Why is Aryabhata’s approximation π = 62832/20000 considered more advanced than the common 22/7 used in his time?",
+     "a": "62832/20000 = 3.1416 is accurate to four decimal places, while 22/7 ≈ 3.142857 errs in the third decimal. Aryabhata derived it from a 3.1416 circumference of a circle with diameter 20000, showing a systematic measurement-to-fraction approach. A wrong answer (e.g., “both are same”) reveals the student cannot evaluate numerical accuracy or connect fraction to decimal precision.",
+     "self_check": true
+    },
+    {
+     "q": "Use the Bakhshali square-root formula √(A² + b) ≈ A + b/(2A) − b²/(8A³) to approximate √50. Take A = 7 (since 7² = 49). Show all steps and give the result as a decimal rounded to 4 places.",
+     "a": "Given A = 7, b = 1.\nStep 1: A = 7\nStep 2: b/(2A) = 1/(14) ≈ 0.0714286\nStep 3: b²/(8A³) = 1/(8×343) = 1/2744 ≈ 0.0003644\nStep 4: √50 ≈ 7 + 0.0714286 − 0.0003644 = 7.0710642 ≈ 7.0711\nActual √50 ≈ 7.0710678. Error ≈ 3.6×10⁻⁶. A wrong answer (e.g., forgetting the third term) shows the student treats it as linear approximation only.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the computational steps needed to multiply 235 × 47 in (a) Roman numerals (CCXXXV × XLVII) and (b) Indian place-value with zero. Identify two specific difficulties in the Roman method that the Indian system eliminates.",
+     "a": "Roman: Must convert to additive groups (CCXXXV = CC + XXX + V), use repeated addition/doubling tables, no algorithm for partial products; handling subtraction (XL = 50−10) during multiplication is error-prone. Indian: Write 235 × 47, multiply 235×7, 235×40, add using place-value columns; zero holds places automatically. Difficulties eliminated: (1) No need for ad-hoc doubling tables; (2) Zero as placeholder avoids misalignment of partial products. A wrong answer (e.g., “Roman is harder” without specifics) shows lack of algorithmic analysis.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: “Aryabhata invented the symbol ‘0’ because he used zero in his place-value system.” Evaluate this claim using evidence from the Bakhshali Manuscript and Aryabhata’s own writings (Āryabhaṭīya).",
+     "a": "The claim is false. Bakhshali (3rd–4th c.) already used a dot for zero as placeholder and number — centuries before Aryabhata. Aryabhata’s Āryabhaṭīya (499 CE) uses a word-based place-value system (kha for zero) but no symbol; the modern circle ‘0’ appears first in the 876 CE Gwalior inscription. A wrong answer (accepting the claim) shows the student conflates “using zero concept” with “inventing the symbol” and ignores chronological evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem in the style of the Bakhshali Manuscript that involves: (i) a fraction of a quantity, (ii) an unknown number, and (iii) a negative intermediate result (like a debt). Write the problem in English and show how the manuscript’s notation (dot for zero, fraction line) would represent the equation.",
+     "a": "Example problem: “A merchant has a stock of cloth. He sells 3/7 of it, then buys 15 metres more, but later returns 20 metres (a debt of 5 metres). He now has 50 metres. Find the original stock.”\nLet original = x. Equation: x − (3/7)x + 15 − 20 = 50 → (4/7)x − 5 = 50.\nBakhshali notation: x (written as unknown placeholder) 4/7 (fraction with numerator above denominator, no line) · (dot for zero in 50) etc. A poor answer (no negative step, or modern algebraic notation only) shows inability to synthesize historical style with mathematical structure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

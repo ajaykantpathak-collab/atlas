@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_01_002",
+   "title": "c12_bs_cbse_01_002",
+   "questions": [
+    {
+     "q": "State the three basic features of science as per NCERT and identify which ONE feature management does NOT fully satisfy. Explain why in one sentence.",
+     "a": "The three features: (1) Systematised body of knowledge, (2) Principles based on experimentation, (3) Universal validity. Management does NOT fully satisfy universal validity because management principles deal with human behaviour, making outcomes unpredictable and non-replicable across situations — hence management is an \"inexact science.\" A wrong answer (e.g., saying management lacks systematised knowledge) reveals confusion between \"having a knowledge base\" and \"universal applicability of that knowledge.\"",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Management is an art because managers are creative.\" Why is this answer incomplete for a 3-mark board question? What TWO specific NCERT criteria for art must be added?",
+     "a": "The answer is incomplete because \"creativity\" alone covers only ONE of three NCERT features of art. The missing criteria: (1) Existence of theoretical knowledge (management has vast literature in marketing, finance, HR), and (2) Personalised application (each manager applies principles uniquely to their situation). A student giving only \"creativity\" shows they memorised a keyword but didn't learn the structured definition — a common 1-mark vs 3-mark error.",
+     "self_check": true
+    },
+    {
+     "q": "APPLY: \"GreenFields Agro Ltd.\" hires a farm manager with an MBA from IIM Ahmedabad and another manager with 20 years' experience but no formal degree. Both succeed. Using the NCERT criteria for profession, explain why this scenario proves management lacks \"restricted entry.\" What would restricted entry look like in contrast (give a real profession example)?",
+     "a": "Restricted entry means entry ONLY through a prescribed examination/degree (e.g., CA via ICAI exam, lawyer via Bar Council). In the scenario, the non-degree holder succeeds as manager — proving no mandatory qualification exists. If management had restricted entry, the experienced manager would be legally barred. Students often confuse \"desirable qualification\" (MBA preferred) with \"mandatory qualification\" (CA required) — this distinction is the core of the profession debate.",
+     "self_check": true
+    },
+    {
+     "q": "ANALYSE: Compare the \"ethical code of conduct\" criterion for profession in medicine (Hippocratic Oath, MCI enforcement) vs management (AIMA code, voluntary membership). Why does NCERT conclude management does NOT meet this criterion? Identify the missing element.",
+     "a": "The missing element is *statutory enforcement with compulsory membership*. Doctors MUST register with MCI/NMC to practice; the oath is binding and violations lead to licence cancellation. AIMA membership is voluntary, its code lacks legal backing, and non-members face no sanction. Students often cite \"AIMA has a code\" as proof — but they miss that a profession requires *compulsory* adherence enforced by a *statutory body*, not a voluntary association.",
+     "self_check": true
+    },
+    {
+     "q": "EVALUATE: \"Management is becoming a full profession because top companies now hire only MBA graduates.\" Critique this statement using NCERT's profession criteria. Is the premise valid? Is the conclusion valid?",
+     "a": "Premise is partially true (market preference for MBAs), but conclusion is invalid per NCERT. Hiring preference ≠ restricted entry — anyone can still be *appointed* manager without an MBA (unlike CA/lawyer). Also, ethical code lacks statutory enforcement, and service motive is diluted by profit-maximisation. A strong answer acknowledges the trend toward professionalisation but distinguishes \"market-driven preference\" from \"institutionally mandated entry\" — a nuance that separates 4-mark from 6-mark answers.",
+     "self_check": true
+    },
+    {
+     "q": "CREATE: Design a 3-column table: \"Science Features → Management Evidence → Verdict (Fully/Partially/Not Met)\". Fill it for all three science features. Then write a 2-sentence synthesis: \"Management is a science because ______, but an inexact science because ______.\"",
+     "a": "| Science Feature | Management Evidence | Verdict |\n|---|---|---|\n| Systematised knowledge | Own theory/principles (Taylor, Fayol) + draws from Economics, Psychology, Sociology | Fully Met |\n| Experimentation | Principles evolved through observation in organisations over time | Partially Met (human element limits controlled experiments) |\n| Universal validity | Principles need modification per situation; not universally applicable | Not Met |\n\nSynthesis: Management is a science because it has a systematised body of knowledge derived from experimentation, but an inexact science because its principles lack universal validity due to the unpredictability of human behaviour. A poor answer blurs \"partially met\" and \"not met\" or omits the human-behaviour justification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

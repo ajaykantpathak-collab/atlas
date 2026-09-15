@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_08_001",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_08_001",
+   "title": "c12_chem_cbse_08_001",
+   "questions": [
+    {
+     "q": "Name the reagent and condition that converts butan-1-ol to butanal without further oxidation to butanoic acid.",
+     "a": "**Answer:** PCC (pyridinium chlorochromate) in anhydrous CH₂Cl₂ at room temperature.  \n**Why wrong answers reveal misunderstanding:** If a student writes KMnO₄ or K₂Cr₂O₇/H₂SO₄, they confuse strong oxidants (which over-oxidise primary alcohols to carboxylic acids) with selective oxidants. If they write Cu/573 K, they correctly identify dehydrogenation but miss the laboratory-scale reagent PCC which is the standard answer for \"controlled oxidation\" in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why 2-methylpropan-2-ol (tert-butyl alcohol) does not give a carbonyl compound on oxidation with K₂Cr₂O₇/H₂SO₄.",
+     "a": "**Answer:** Tertiary alcohols have no α-hydrogen on the carbon bearing the –OH group. Oxidation of alcohols to carbonyls requires removal of two hydrogen atoms (one from O–H, one from C–H). Without an α-H, the C–O bond cannot become C=O; instead, under strong acidic conditions, tertiary alcohols undergo dehydration to form alkenes (elimination).  \n**Why wrong answers reveal misunderstanding:** Students often say \"tertiary alcohols are resistant to oxidation\" without mentioning the α-hydrogen requirement. Some incorrectly claim the carbon skeleton prevents oxidation, confusing steric hindrance with the fundamental mechanistic need for α-H abstraction.",
+     "self_check": true
+    },
+    {
+     "q": "Write the balanced chemical equation for the oxidation of pentan-2-ol to pentan-2-one using acidified potassium dichromate. Include the change in oxidation state of the α-carbon.",
+     "a": "**Answer:**  \nCH₃CH₂CH₂CH(OH)CH₃ + [O] → CH₃CH₂CH₂COCH₃ + H₂O  \nFull ionic: 3CH₃CH₂CH₂CH(OH)CH₃ + Cr₂O₇²⁻ + 8H⁺ → 3CH₃CH₂CH₂COCH₃ + 2Cr³⁺ + 7H₂O  \nOxidation state of α-carbon: in alcohol = –1 (bonded to H, C, C, O), in ketone = +1 (bonded to C, C, O). Change = +2 (loss of 2 electrons).  \n**Why wrong answers reveal misunderstanding:** Students often forget to balance the redox half-reactions, writing only the organic transformation. They may assign oxidation states incorrectly (e.g., counting the C–O bond as –2 for carbon in both alcohol and ketone). The +2 change is crucial for JEE stoichiometry problems linking moles of alcohol to moles of K₂Cr₂O₇.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the products when (i) ethanol vapour is passed over heated copper at 573 K and (ii) ethanol is heated with acidified K₂Cr₂O₇. Explain the difference in terms of reaction conditions and mechanism.",
+     "a": "**Answer:**  \n(i) Cu/573 K → dehydrogenation: CH₃CH₂OH → CH₃CHO + H₂ (g) — vapour-phase, no water, reversible, industrial.  \n(ii) K₂Cr₂O₇/H₂SO₄ (heat) → oxidation: CH₃CH₂OH → CH₃COOH (carboxylic acid) — aqueous, strong oxidant, over-oxidation occurs because aldehyde hydrate is further oxidised.  \n**Why wrong answers reveal misunderstanding:** Many students write acetaldehyde for both, missing that aqueous K₂Cr₂O₇ over-oxidises primary alcohols to acids. They confuse \"dehydrogenation\" (removal of H₂) with \"oxidation\" (gain of O/loss of H₂) and don't realise the aldehyde hydrate in water is the species that gets over-oxidised.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Using excess PCC on a primary alcohol will give the carboxylic acid because PCC is an oxidising agent.\" Evaluate this statement.",
+     "a": "**Answer:** False. PCC (pyridinium chlorochromate) in anhydrous CH₂Cl₂ stops at the aldehyde because the reaction medium lacks water. Aldehydes hydrate to gem-diols in water, which are easily oxidised further; in anhydrous CH₂Cl₂, the aldehyde cannot hydrate, so over-oxidation does not occur. Excess PCC only ensures complete conversion of alcohol to aldehyde.  \n**Why wrong answers reveal misunderstanding:** Students treat all oxidising agents as \"strong\" or \"weak\" without considering the medium. They miss the key concept: **hydration of aldehyde** is the gateway to over-oxidation. This is a classic JEE trap — questions often ask \"why does PCC not over-oxidise?\" and the answer is \"anhydrous medium prevents gem-diol formation\".",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-step sequence to convert cyclohexanol to cyclohexanone oxime. Specify reagents for each step.",
+     "a": "**Answer:**  \nStep 1: Oxidation of secondary alcohol to ketone.  \nReagent: K₂Cr₂O₇/H₂SO₄ (heat) **or** Cu/573 K (dehydrogenation).  \nProduct: Cyclohexanone.  \nStep 2: Nucleophilic addition of hydroxylamine to carbonyl.  \nReagent: NH₂OH·HCl + base (NaOAc/pyridine).  \nProduct: Cyclohexanone oxime.  \n**Why poor answers reveal misunderstanding:** Students may try to use PCC (unnecessary for secondary alcohol), or suggest direct conversion of alcohol to oxime (no such reagent). They might forget the acid-base workup for hydroxylamine hydrochloride. This tests forward synthesis planning — a key competency for JEE Advanced.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

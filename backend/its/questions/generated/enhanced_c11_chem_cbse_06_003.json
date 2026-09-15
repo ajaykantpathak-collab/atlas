@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_06_003",
+   "title": "c11_chem_cbse_06_003",
+   "questions": [
+    {
+     "q": "State the precise thermodynamic definition of enthalpy (H) including all variables, and write the condition under which ΔH equals the heat exchanged (q_p).",
+     "a": "Correct answer: H = U + pV, where U is internal energy, p is pressure, V is volume. ΔH = q_p only for a process at constant pressure with only pV-work. A wrong answer (e.g., \"H = heat content\" or \"ΔH = q always\") reveals the misconception that enthalpy is \"heat\" rather than a state function, and ignores the constant-pressure restriction — a classic board exam error where students apply ΔH = q to bomb calorimeter (constant volume) data.",
+     "self_check": true
+    },
+    {
+     "q": "For the reaction N₂(g) + 3H₂(g) ⇌ 2NH₃(g), explain why ΔH ≠ ΔU and derive the exact relationship between them at 298 K. Identify the sign of Δn_g and predict whether |ΔH| > |ΔU| or |ΔH| < |ΔU|.",
+     "a": "Correct: Δn_g = 2 – (1+3) = –2. ΔH = ΔU + Δn_gRT = ΔU – 2RT. Since Δn_g is negative, ΔH is more negative than ΔU (|ΔH| > |ΔU| for exothermic). A wrong answer (e.g., ΔH = ΔU or Δn_g = +2) reveals failure to count stoichiometric gas moles correctly or confusion between reactants/products. Students often forget Δn_g = moles of gaseous products – moles of gaseous reactants, or use ΔH = ΔU + Δn_gRT without verifying constant temperature assumption.",
+     "self_check": true
+    },
+    {
+     "q": "A gaseous reaction at 300 K has ΔU = –120 kJ mol⁻¹ and Δn_g = +1.5. Calculate ΔH. If the same reaction were run in a bomb calorimeter (constant volume), what would be the measured heat? In an open beaker (constant pressure), what would be the measured heat? (R = 8.314 J K⁻¹ mol⁻¹)",
+     "a": "ΔH = ΔU + Δn_gRT = –120 kJ + (1.5)(8.314×10⁻³ kJ K⁻¹ mol⁻¹)(300 K) = –120 + 3.74 = –116.26 kJ mol⁻¹. Bomb calorimeter (constant V): q_v = ΔU = –120 kJ mol⁻¹. Open beaker (constant p): q_p = ΔH = –116.26 kJ mol⁻¹. Wrong answers (e.g., same value for both, or wrong sign on Δn_gRT term) reveal confusion between q_v/ΔU and q_p/ΔH equivalence, and inability to convert R to kJ units.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reactions: (i) H₂(g) + ½O₂(g) → H₂O(l) and (ii) H₂(g) + ½O₂(g) → H₂O(g). For which is |ΔH – ΔU| larger? Justify using Δn_g and the physical state of water. At 298 K, estimate the numerical difference for each.",
+     "a": "For (i): Δn_g = 0 – 1.5 = –1.5 → |ΔH – ΔU| = 1.5RT ≈ 3.7 kJ. For (ii): Δn_g = 1 – 1.5 = –0.5 → |ΔH – ΔU| = 0.5RT ≈ 1.2 kJ. Reaction (i) has larger difference because liquid water contributes zero gas moles. Wrong answer (e.g., same difference, or (ii) larger) reveals failure to account for phase in Δn_g counting — a frequent board error where students treat H₂O(l) and H₂O(g) identically in gas mole tally.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"For the reaction CaCO₃(s) → CaO(s) + CO₂(g), ΔH = ΔU because solids don't contribute to volume change.\" Evaluate this statement. Calculate ΔH – ΔU at 1100 K.",
+     "a": "Statement is false. Δn_g = 1 – 0 = +1 (only CO₂ is gas). ΔH – ΔU = Δn_gRT = (1)(8.314×10⁻³)(1100) = 9.15 kJ mol⁻¹. The student incorrectly assumes solids have no effect on Δn_g; the error is ignoring that Δn_g counts ONLY gaseous species. Solids/liquids are excluded from Δn_g, but the gas produced makes Δn_g non-zero. This misconception leads to wrong ΔH from calorimetry data.",
+     "self_check": true
+    },
+    {
+     "q": "Design a constant-pressure experiment to determine ΔH for the neutralisation HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l) using only a thermometer, polystyrene cup, and standard solutions. Explain why ΔH ≈ ΔU for this reaction, and identify one systematic error that would make |ΔH| appear smaller than true value.",
+     "a": "Experiment: Mix known volumes of 1M HCl and 1M NaOH in insulated cup, measure ΔT. q_p = (total mass)×c×ΔT = ΔH (constant p, negligible volume change). ΔH ≈ ΔU because Δn_g = 0 (no gases) and Δ(pV) ≈ 0 for condensed phases. Systematic error: heat loss to surroundings (cup not perfectly adiabatic) → smaller ΔT → smaller |q_p| → |ΔH| underestimated. Good answer shows understanding of constant-p setup, condensed-phase approximation, and error analysis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

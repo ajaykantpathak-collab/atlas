@@ -1,0 +1,153 @@
+{
+ "catalog": "catalog_class7_science_ch102.json",
+ "concepts": [
+  {
+   "id": "gesc.102.1",
+   "title": "Stages of Animal Nutrition",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the five steps of animal nutrition in order.",
+     "a": "Ingestion, digestion, absorption, assimilation and egestion.",
+     "self_check": true
+    },
+    {
+     "q": "What happens during assimilation of food?",
+     "a": "Absorbed nutrients are used by body cells for energy, growth and repair.",
+     "self_check": true
+    },
+    {
+     "q": "Define egestion.",
+     "a": "Removal of undigested food as faeces through the anus.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.102.2",
+   "title": "Role of Villi in Absorption",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "absorption_capacity",
+     "expr": "surface_area * efficiency_factor",
+     "explain": "bigger villi surface absorbs more food each hour"
+    },
+    {
+     "step": 2,
+     "name": "half_surface_capacity",
+     "expr": "(surface_area / 2) * efficiency_factor",
+     "explain": "capacity if the villi surface halved"
+    },
+    {
+     "step": 3,
+     "name": "absorbed_per_10",
+     "expr": "absorption_capacity * 10",
+     "explain": "capacity over ten hours of digestion"
+    }
+   ],
+   "questions": [
+    {
+     "q": "If villi give a surface factor of 6 units with efficiency 1.5, find the absorption capacity and its value over 10 hours.",
+     "vals": {
+      "surface_area": 6,
+      "efficiency_factor": 1.5
+     },
+     "unit": "units",
+     "steps": null,
+     "a": "90 units",
+     "self_check": false
+    },
+    {
+     "q": "A gut with surface factor 4 and efficiency 2 works how well? Compute capacity and the 10-hour value.",
+     "vals": {
+      "surface_area": 4,
+      "efficiency_factor": 2
+     },
+     "unit": "units",
+     "steps": null,
+     "a": "80 units",
+     "self_check": false
+    },
+    {
+     "q": "With surface area factor 8 and efficiency 1.25, what is the absorption capacity?",
+     "vals": {
+      "surface_area": 8,
+      "efficiency_factor": 1.25
+     },
+     "unit": "units",
+     "steps": null,
+     "a": "100 units",
+     "self_check": false
+    },
+    {
+     "q": "Surface factor 5, efficiency 1.6: find capacity and its 10-hour total.",
+     "vals": {
+      "surface_area": 5,
+      "efficiency_factor": 1.6
+     },
+     "unit": "units",
+     "steps": null,
+     "a": "80 units",
+     "self_check": false
+    },
+    {
+     "q": "If disease shrinks the surface factor from 8 to 4 (efficiency 2), what capacity is lost, and what is the new 10-hour value?",
+     "vals": {
+      "surface_area": 4,
+      "efficiency_factor": 2
+     },
+     "unit": "units",
+     "steps": null,
+     "a": "80 units",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gesc.102.3",
+   "title": "Rumination Process",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is rumination?",
+     "a": "Cattle swallow grass quickly, store it, then bring it back and chew it thoroughly - 'chewing the cud'.",
+     "self_check": true
+    },
+    {
+     "q": "Name two ruminant animals.",
+     "a": "Cow and buffalo (also goat, sheep).",
+     "self_check": true
+    },
+    {
+     "q": "Which stomach chamber stores half-chewed grass in ruminants?",
+     "a": "The rumen, the largest chamber where the cud is stored.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.102.4",
+   "title": "Amoeba Feeding Mechanism",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How does amoeba ingest food?",
+     "a": "It wraps food with finger-like pseudopodia forming a food vacuole.",
+     "self_check": true
+    },
+    {
+     "q": "Where is food digested in amoeba?",
+     "a": "Inside the food vacuole, where juices break the food down.",
+     "self_check": true
+    },
+    {
+     "q": "What is a pseudopodium?",
+     "a": "A temporary 'false foot' - a finger-like projection amoeba pushes out to move and catch food.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

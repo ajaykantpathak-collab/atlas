@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_18_004",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_18_004",
+   "title": "c11_ps_cbse_18_004",
+   "questions": [
+    {
+     "q": "What was the precise constitutional question referred to the 13-judge Bench in Kesavananda Bharati v. State of Kerala (1973)?",
+     "a": "The Bench was asked to determine the extent of Parliament's power to amend the Constitution under Article 368 — specifically, whether there are any implied or inherent limitations on that power, and if so, whether Fundamental Rights (especially property rights under Articles 19(1)(f) and 31) form part of such limitations. A wrong answer (e.g., \"whether land reform laws are valid\") reveals confusion between the specific Kerala land reform statutes challenged and the broader constitutional reference on amending power.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Supreme Court reject the argument that Article 368 grants Parliament unlimited amending power, including the power to abrogate Fundamental Rights?",
+     "a": "The Court held that \"amendment\" under Article 368 means a change that preserves the Constitution's identity and framework; a power to destroy the Constitution's basic structure would be a power to repeal and replace it, which constitutes exercising constituent power (belonging to \"We the People\"), not derived constituent power (delegated to Parliament). A wrong answer (e.g., \"because Fundamental Rights are natural rights\") reveals a misunderstanding of the structural/interpretive reasoning (preserving constitutional identity) versus a natural-law justification.",
+     "self_check": true
+    },
+    {
+     "q": "A constitutional amendment passed by special majority under Article 368 replaces the parliamentary system with a presidential system and abolishes judicial review. Applying the Basic Structure Doctrine, would this amendment be valid? Explain your reasoning in three steps.",
+     "a": "Step 1: Identify the basic structure elements affected — parliamentary democracy (republican/democratic form) and judicial review (separation of powers/rule of law). Step 2: Recall that Kesavananda Bharati explicitly lists \"democratic form of government\" and \"separation of powers\" as basic features (per Sikri CJ, Shelat & Grover JJ, etc.). Step 3: Conclude the amendment violates the basic structure and would be struck down. A wrong answer (e.g., \"valid because passed by special majority\") reveals failure to grasp that procedural compliance with Article 368 is necessary but not sufficient; substantive limits apply.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reasoning in Golaknath (1967) and Kesavananda Bharati (1973) on Parliament's power to amend Fundamental Rights. Identify two key doctrinal shifts.",
+     "a": "Shift 1: Golaknath held Parliament has NO power to amend Part III (Fundamental Rights) at all, treating amendment as \"law\" under Article 13(2); Kesavananda overruled this, holding Parliament CAN amend Fundamental Rights via Article 368. Shift 2: Golaknath relied on Article 13(2) as a textual limit; Kesavananda introduced an implied structural limit (basic structure) independent of Article 13. A wrong answer (e.g., \"both cases said Fundamental Rights cannot be amended\") reveals inability to distinguish the \"no amendment at all\" rule from the \"amendment permitted but not destruction of basic structure\" rule.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the criticism that the Basic Structure Doctrine amounts to \"judicial supremacy\" over Parliament's democratically exercised constituent power. Provide two arguments for and two against.",
+     "a": "For: (1) Unelected judges defining vague \"basic structure\" usurps sovereign will; (2) No textual basis in Article 368 — judiciary invents limits. Against: (1) Constitution's supremacy requires a guardian against legislative majoritarianism; (2) The doctrine preserves the Constitution's identity, ensuring amendments don't become a tool for authoritarian takeover (as attempted via 39th/42nd Amendments). A weak evaluation (e.g., \"it's good because courts protect rights\") reveals lack of engagement with the democratic legitimacy counter-argument.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph \"Basic Structure Clause\" that could have been inserted into Article 368 in 1973 to codify the Kesavananda principle, using precise constitutional language.",
+     "a": "A good answer: \"Notwithstanding anything in this article, no amendment of this Constitution shall have the effect of altering its basic structure or framework, including but not limited to the supremacy of the Constitution, the republican and democratic form of government, the secular character of the State, the separation of powers between the legislature, executive and judiciary, the federal character of the Constitution, and the unity and integrity of the Nation.\" A poor answer (e.g., \"Parliament cannot change Fundamental Rights\") reveals failure to distinguish basic structure from Fundamental Rights and to use the Court's own enumerated features.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

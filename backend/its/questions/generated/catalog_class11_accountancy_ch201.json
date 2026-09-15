@@ -1,0 +1,315 @@
+{
+ "catalog": "catalog_class11_accountancy_ch201",
+ "concepts": [
+  {
+   "id": "keac.8.2.1",
+   "title": "Classification of Capital and Revenue Expenditures",
+   "questions": [
+    {
+     "q": "Using the method 'Classification of Capital and Revenue Expenditures', work with: capital_expenditure = 12000, revenue_expenditure = 5000. Carry the chain through step by step and give the final value of total_expenditure.",
+     "a": "17000 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Classification of Capital and Revenue Expenditures' and work with: capital_expenditure = 50000, revenue_expenditure = 5000. Carry the chain through step by step and give the final value of total_expenditure.",
+     "a": "55000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Classification of Capital and Revenue Expenditures' refers to.",
+     "a": "Expenditures that yield enduring advantages across multiple accounting cycles and enhance asset capacity are capital, whereas outlays consumed entirely within the current accounting period to support routine operations are revenue.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Classification of Capital and Revenue Expenditures'.",
+     "a": "Capital outlays provide multi-period benefits and go to the balance sheet, while revenue outlays maintain ongoing business activities and appear in the income statement.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Classification of Capital and Revenue Expenditures', in plain ASCII form.",
+     "a": "total_expenditure = capital_expenditure + revenue_expenditure",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.8.2.2",
+   "title": "Capital Receipts and Revenue Receipts",
+   "questions": [
+    {
+     "q": "Using the method 'Capital Receipts and Revenue Receipts', work with: capital_receipts = 20000, revenue_receipts = 5000. Carry the chain through step by step and give the final value of total_receipts.",
+     "a": "25000 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Capital Receipts and Revenue Receipts' and work with: capital_receipts = 120000, revenue_receipts = 50000. Carry the chain through step by step and give the final value of total_receipts.",
+     "a": "170000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Capital Receipts and Revenue Receipts' refers to.",
+     "a": "Monetary inflows that establish a future settlement obligation or arise from disposing of long-term assets are capital receipts, whereas inflows generated from ordinary sales and recurring investments are revenue receipts.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Capital Receipts and Revenue Receipts'.",
+     "a": "Capital receipts create claims or decrease fixed assets, whereas revenue receipts augment routine trading income.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Capital Receipts and Revenue Receipts', in plain ASCII form.",
+     "a": "total_receipts = capital_receipts + revenue_receipts",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.8.4.1",
+   "title": "Computation of Cost of Goods Sold",
+   "questions": [
+    {
+     "q": "Calculate the cost of goods sold from the given balances. Use the method 'Computation of Cost of Goods Sold'. Work with: closing_stock = 25, direct_expenses = 20000, opening_stock = 45, purchases = 8000, purchases_return = 1200. Carry the chain through step by step and give the final value of cogs.",
+     "a": "26820 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the cost of goods sold during the year. Use the method 'Computation of Cost of Goods Sold'. Work with: closing_stock = 500, direct_expenses = 80000, opening_stock = 18, purchases = 20000, purchases_return = 80000. Carry the chain through step by step and give the final value of cogs.",
+     "a": "19518 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Computation of Cost of Goods Sold' refers to.",
+     "a": "Cost of goods sold measures the direct cost of inventory and manufacturing effort incurred to produce the volume of goods actually sold during the accounting period.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Computation of Cost of Goods Sold'.",
+     "a": "Sum opening inventory, purchases net of returns, and direct manufacturing costs, then deduct unsold closing inventory.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Computation of Cost of Goods Sold', in plain ASCII form.",
+     "a": "cost_of_goods_sold = opening_stock + net_purchases + direct_expenses - closing_stock",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.8.4.2",
+   "title": "Computation of Gross Profit or Gross Loss",
+   "questions": [
+    {
+     "q": "Calculate gross profit from the following details. Use the method 'Computation of Gross Profit or Gross Loss'. Work with: closing_stock = 12, direct_expenses = 50000, opening_stock = 20, purchases = 12000, purchases_return = 80000, sales = 12000, sales_return = 12000. Carry the chain through step by step and give the final value of gross_profit.",
+     "a": "17992 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the gross margin when net sales are ... and cost of goods sold is .... Use the method 'Computation of Gross Profit or Gross Loss'. Work with: closing_stock = 80, direct_expenses = 2500, opening_stock = 150, purchases = 500, purchases_return = 2500, sales = 20000, sales_return = 12000. Carry the chain through step by step and give the final value of gross_profit.",
+     "a": "7430 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Computation of Gross Profit or Gross Loss' refers to.",
+     "a": "Gross profit represents the surplus of net operational sales over the cost of goods sold, reflecting the direct trading profitability of the enterprise.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Computation of Gross Profit or Gross Loss'.",
+     "a": "Net sales minus the sum of opening inventory, purchases, and direct costs adjusted for closing stock gives gross profit.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Computation of Gross Profit or Gross Loss', in plain ASCII form.",
+     "a": "gross_profit = net_sales - cost_of_goods_sold",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.8.4.3",
+   "title": "Preparation of Trading Account and Closing Entries",
+   "questions": [
+    {
+     "q": "Using the method 'Preparation of Trading Account and Closing Entries', work with: closing_stock = 400, direct_expenses = 8000, net_purchases = 2500, net_sales = 1200, opening_stock = 4. Carry the chain through step by step and give the final value of trading_account_balance.",
+     "a": "-8904 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Preparation of Trading Account and Closing Entries' and work with: closing_stock = 6, direct_expenses = 1200, net_purchases = 500, net_sales = 12000, opening_stock = 500. Carry the chain through step by step and give the final value of trading_account_balance.",
+     "a": "9806 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Preparation of Trading Account and Closing Entries' refers to.",
+     "a": "The trading account is the initial segment of the income statement designed to establish direct operational results through ledger closing entries transferring trading items.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Preparation of Trading Account and Closing Entries'.",
+     "a": "Direct manufacturing and acquisition balances are closed to debit of trading account, and sales revenue to credit.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Preparation of Trading Account and Closing Entries', in plain ASCII form.",
+     "a": "trading_account_balance = net_sales + closing_stock - (opening_stock + net_purchases + direct_expenses)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.8.4.4",
+   "title": "Computation of Net Profit or Net Loss",
+   "questions": [
+    {
+     "q": "Calculate net profit from the given profit and loss account balances. Use the method 'Computation of Net Profit or Net Loss'. Work with: gross_profit = 1200, indirect_expenses = 80000, other_incomes = 80000. Carry the chain through step by step and give the final value of net_profit.",
+     "a": "1200 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Compute net profit or net loss for the year ended .... Use the method 'Computation of Net Profit or Net Loss'. Work with: gross_profit = 8000, indirect_expenses = 50000, other_incomes = 20000. Carry the chain through step by step and give the final value of net_profit.",
+     "a": "-22000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Computation of Net Profit or Net Loss' refers to.",
+     "a": "Net profit is the definitive earnings figure of a firm for an accounting year after incorporating all secondary incomes and deducting administrative, selling, financial, and other indirect operating and non-operating expenses from gross profit.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Computation of Net Profit or Net Loss'.",
+     "a": "Net profit equals gross profit plus non-trading revenues less all indirect administrative, selling, and general expenses.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Computation of Net Profit or Net Loss', in plain ASCII form.",
+     "a": "net_profit = gross_profit + other_incomes - indirect_expenses",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.8.5.1",
+   "title": "Computation of Operating Profit (EBIT)",
+   "questions": [
+    {
+     "q": "Calculate operating profit from the given particulars. Use the method 'Computation of Operating Profit (EBIT)'. Work with: net_profit = 1200, non_operating_expenses = 5000, non_operating_incomes = 80000. Carry the chain through step by step and give the final value of operating_profit.",
+     "a": "-73800 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the operating profit (EBIT) of the firm. Use the method 'Computation of Operating Profit (EBIT)'. Work with: net_profit = 5000, non_operating_expenses = 1200, non_operating_incomes = 120000. Carry the chain through step by step and give the final value of operating_profit.",
+     "a": "-113800 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Computation of Operating Profit (EBIT)' refers to.",
+     "a": "Operating profit measures earnings derived exclusively from the core commercial activities of an enterprise prior to deducting non-operating finance charges and abnormal losses, and before adding extraneous investment gains.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Computation of Operating Profit (EBIT)'.",
+     "a": "Earnings before interest, taxes, and abnormal events isolate regular operational earnings from financial financing decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Computation of Operating Profit (EBIT)', in plain ASCII form.",
+     "a": "operating_profit = net_profit + non_operating_expenses - non_operating_incomes",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.8.6.1",
+   "title": "Computation of Closing Capital in Balance Sheet",
+   "questions": [
+    {
+     "q": "Calculate closing capital to be shown in the balance sheet. Use the method 'Computation of Closing Capital in Balance Sheet'. Work with: drawings = 4, income_tax = 20, net_profit = 8000, opening_capital = 12000. Carry the chain through step by step and give the final value of closing_capital.",
+     "a": "19976 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Compute the owner's net equity at the end of the year. Use the method 'Computation of Closing Capital in Balance Sheet'. Work with: drawings = 240, income_tax = 12, net_profit = 50000, opening_capital = 2500. Carry the chain through step by step and give the final value of closing_capital.",
+     "a": "52248 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Computation of Closing Capital in Balance Sheet' refers to.",
+     "a": "Closing capital represents the proprietor's net residual equity at the end of the period, obtained by augmenting beginning capital with net profit and reducing it by drawings, income tax, and personal withdrawals.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Computation of Closing Capital in Balance Sheet'.",
+     "a": "The owner's opening equity increases with annual profits and decreases with personal cash or goods drawings and income tax outlays.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Computation of Closing Capital in Balance Sheet', in plain ASCII form.",
+     "a": "closing_capital = opening_capital + net_profit - drawings - income_tax",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.8.6.2",
+   "title": "Marshalling and Grouping of Balance Sheet Items",
+   "questions": [
+    {
+     "q": "Using the method 'Marshalling and Grouping of Balance Sheet Items', work with: current_assets = 80000, non_current_assets = 50000. Carry the chain through step by step and give the final value of total_assets.",
+     "a": "130000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Marshalling and Grouping of Balance Sheet Items' and work with: current_assets = 8000, non_current_assets = 500. Carry the chain through step by step and give the final value of total_assets.",
+     "a": "8500 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Marshalling and Grouping of Balance Sheet Items' refers to.",
+     "a": "Marshalling is the systematic sequence of presenting assets and liabilities in the position statement under either the order of permanence or the order of liquidity, grouped under appropriate category headings.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Marshalling and Grouping of Balance Sheet Items'.",
+     "a": "Order of permanence lists least convertible assets and owner's equity first, whereas order of liquidity starts with cash and short-term debt.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Marshalling and Grouping of Balance Sheet Items', in plain ASCII form.",
+     "a": "total_assets = current_assets + non_current_assets",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.8.7.1",
+   "title": "Recording the Opening Journal Entry",
+   "questions": [
+    {
+     "q": "Using the method 'Recording the Opening Journal Entry', work with: closing_capital = 2500, total_credit_liabilities = 25. Carry the chain through step by step and give the final value of total_debit_assets.",
+     "a": "2525 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Recording the Opening Journal Entry' and work with: closing_capital = 5000, total_credit_liabilities = 8. Carry the chain through step by step and give the final value of total_debit_assets.",
+     "a": "5008 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Recording the Opening Journal Entry' refers to.",
+     "a": "An opening journal entry is passed on the first day of an accounting period to record the carried-forward balances of assets, liabilities, and proprietor's capital from the prior year's balance sheet.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Recording the Opening Journal Entry'.",
+     "a": "All individual asset accounts are debited, while liability accounts and owner's capital account are credited.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Recording the Opening Journal Entry', in plain ASCII form.",
+     "a": "total_debit_assets = total_credit_liabilities + closing_capital",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

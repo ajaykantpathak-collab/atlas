@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_09_009",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_09_009",
+   "title": "c12_biotech_cbse_09_009",
+   "questions": [
+    {
+     "q": "A REMEMBER level question: List the four categories of stem cell potency (totipotent, pluripotent, multipotent, unipotent) and give one example of a stem cell type for each category as per NCERT classification.",
+     "a": "Correct answer: Totipotent – zygote/early blastomeres; Pluripotent – embryonic stem cells (inner cell mass); Multipotent – hematopoietic stem cells (HSCs) or mesenchymal stem cells (MSCs); Unipotent – epidermal stem cells. A wrong answer (e.g., calling HSCs pluripotent) reveals confusion between potency hierarchy and source classification; the student likely memorised terms without linking potency to the range of cell types producible (NCERT Fig. 9.1).",
+     "self_check": true
+    },
+    {
+     "q": "An UNDERSTAND level question: Explain why mesenchymal stem cells (MSCs) are preferred over embryonic stem cells (ESCs) for cartilage repair in arthritis, despite ESCs having greater differentiation potential. Use the terms \"immune rejection\", \"tumour formation\", and \"multipotent\" in your answer.",
+     "a": "Correct answer: MSCs are multipotent adult stem cells that can differentiate into chondrocytes (cartilage cells) and are autologous or immune-privileged, avoiding rejection. ESCs are pluripotent and allogeneic, requiring immunosuppression, and their unlimited self-renewal risks teratoma formation. A wrong answer that says \"ESCs are better because they can become any cell\" shows failure to weigh clinical trade-offs (safety, immunogenicity) against potency — a classic board-exam trap where students ignore translational constraints.",
+     "self_check": true
+    },
+    {
+     "q": "An APPLY level question: A researcher wants to model Amyotrophic Lateral Sclerosis (ALS) in vitro for drug screening. She has access to: (i) patient fibroblasts, (ii) healthy donor ESCs, (iii) patient-derived iPSCs. Which source should she choose to best recapitulate the patient's genetic background while avoiding ethical concerns, and what is the first step to generate motor neurons?",
+     "a": "Correct answer: Choose patient-derived iPSCs (source iii). First step: reprogram fibroblasts to iPSCs using Yamanaka factors (Oct4, Sox2, Klf4, c-Myc), then direct differentiation toward motor neurons via retinoic acid and sonic hedgehog signaling. A wrong answer choosing ESCs ignores the need for patient-specific genetics; choosing fibroblasts directly ignores that fibroblasts cannot become neurons without reprogramming. This tests application of iPSC technology (node 006) to disease modeling (NCERT 9.1.3 last paragraph).",
+     "self_check": true
+    },
+    {
+     "q": "An ANALYZE level question: Compare the structural and functional outcomes of \"histotypic culture\" vs. \"organotypic culture\" for generating a liver organoid. Why does organotypic culture better predict in vivo drug metabolism?",
+     "a": "Correct answer: Histotypic culture uses a single purified cell type (e.g., hepatocytes) at high density on scaffolds, lacking non-parenchymal cells (Kupffer, stellate, endothelial). Organotypic culture co-cultures multiple lineages (hepatocytes + fibroblasts + endothelial cells) in 3D, recreating cell-cell contacts, paracrine signaling, and tissue architecture (e.g., bile canaliculi). This preserves cytochrome P450 activity and drug transporter polarization lost in monoculture. A wrong answer focusing only on \"3D vs 2D\" misses the critical role of heterologous cell interactions (NCERT 9.2.3, Box 3).",
+     "self_check": true
+    },
+    {
+     "q": "An EVALUATE level question: \"Bone marrow transplantation is the only widely established, cost-effective stem cell therapy.\" Critique this statement using NCERT-listed challenges (immunological rejection, tumorigenicity, infection risk) and the concept of autologous iPSCs.",
+     "a": "Correct answer: The statement is largely true for *current* clinical practice. HSC transplantation works because: (1) HLA-matched donors reduce rejection, (2) HSCs are multipotent (no teratoma risk), (3) protocol is standardized. iPSCs promise autologous therapy (no rejection) but currently face: genomic instability, incomplete reprogramming, high cost, and no large-scale trial success. A wrong answer claiming \"iPSCs have solved rejection\" overstates readiness; a wrong answer ignoring infection risk in immunosuppressed transplant recipients misses a key NCERT challenge (9.1.3, \"Stem Cell Research Challenges\").",
+     "self_check": true
+    },
+    {
+     "q": "A CREATE level question: Design a stepwise strategy to generate a vascularized cardiac patch from a patient's own cells for post-infarction repair. Specify: (a) starting cell source, (b) reprogramming/differentiation steps, (c) scaffold requirements, (d) pre-transplantation validation assays.",
+     "a": "Expected answer: (a) Patient dermal fibroblasts or peripheral blood mononuclear cells. (b) Reprogram to iPSCs (Yamanaka factors) → differentiate to cardiac mesoderm (Activin A + BMP4) → purify cardiomyocytes (mitochondrial dye) + endothelial cells (VEGF) + fibroblasts. (c) Decellularized cardiac ECM hydrogel or fibrin-collagen scaffold with VEGF-releasing microspheres for vascularization. (d) Validate: spontaneous beating, calcium transients, force measurement, electrophysiological coupling, absence of pluripotency markers (OCT4, NANOG), karyotype stability, sterility. A poor answer omits vascularization (critical for graft survival) or skips safety assays (tumorigenicity), showing lack of translational thinking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

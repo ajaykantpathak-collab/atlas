@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_06_005",
+   "title": "c10_math_cbse_06_005",
+   "questions": [
+    {
+     "q": "In ΔXYZ and ΔLMN, ∠X = 40°, ∠Y = 80°, ∠L = 40°, ∠M = 80°. State the similarity criterion used and write the correct similarity statement with vertex correspondence.",
+     "a": "Correct answer: By AA criterion, ΔXYZ ~ ΔLMN (with X↔L, Y↔M, Z↔N). A wrong answer like \"ΔXYZ ~ ΔLNM\" reveals the student does not understand that vertex order in the similarity statement must match corresponding equal angles. Writing \"AAA criterion\" instead of \"AA criterion\" shows they don't recognize that two angles are sufficient — they think all three must be explicitly given.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In ΔABC and ΔDEF, ∠A = ∠D and ∠B = ∠E. But we cannot say the triangles are similar because we haven't checked ∠C and ∠F.\" Explain why this student is incorrect using the angle sum property.",
+     "a": "Correct explanation: In any triangle, sum of angles = 180°. ∠C = 180° – (∠A + ∠B) and ∠F = 180° – (∠D + ∠E). Since ∠A = ∠D and ∠B = ∠E, the sums (∠A+∠B) and (∠D+∠E) are equal, so ∠C = ∠F automatically. Thus all three angles are equal and AAA holds. A wrong answer that says \"we need to measure ∠C and ∠F\" reveals the misconception that AA is not sufficient — they don't grasp that the third angle is mathematically determined by the first two.",
+     "self_check": true
+    },
+    {
+     "q": "In ΔPQR, ∠P = 55°, ∠Q = 65°. In ΔSTU, ∠S = 55°, ∠T = 70°. Are the triangles similar? Show all steps.",
+     "a": "Step 1: Find third angle in ΔPQR: ∠R = 180° – (55° + 65°) = 60°.\nStep 2: Find third angle in ΔSTU: ∠U = 180° – (55° + 70°) = 55°.\nStep 3: Compare angles: ΔPQR has angles 55°, 65°, 60°. ΔSTU has angles 55°, 70°, 55°.\nStep 4: Only one angle matches (55°). The other two are different (65° vs 70°, 60° vs 55°).\nStep 5: Conclusion: Triangles are NOT similar. A wrong answer \"Yes, because ∠P = ∠S = 55°\" reveals the student thinks one equal angle is enough — they confuse AA with a single-angle check.",
+     "self_check": true
+    },
+    {
+     "q": "ΔABC ~ ΔDEF by AA criterion. ∠A = 3x + 10°, ∠D = 70°, ∠B = 2x + 20°, ∠E = 50°. Find x and all angles of both triangles.",
+     "a": "Step 1: By AA, corresponding angles are equal: ∠A = ∠D and ∠B = ∠E.\nStep 2: 3x + 10 = 70 → 3x = 60 → x = 20.\nStep 3: 2x + 20 = 50 → 2x = 30 → x = 15. Contradiction! \nStep 4: Re-check correspondence: The given angle equalities might not be in order. Since AA only requires two pairs, try ∠A = ∠E and ∠B = ∠D.\nStep 5: 3x + 10 = 50 → 3x = 40 → x = 40/3 ≈ 13.33; 2x + 20 = 70 → 2x = 50 → x = 25. Still contradiction.\nStep 6: The problem data is inconsistent for similarity. No such x exists. A wrong answer that forces x=20 and ignores the second equation reveals the student assumes the vertex order given (A↔D, B↔E) is correct without verifying both pairs match.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"In ΔABC and ΔPQR, ∠A = 60°, ∠B = 50°, ∠P = 60°, ∠Q = 70°. Since ∠A = ∠P, by AA criterion ΔABC ~ ΔPQR.\" Evaluate this solution and identify the error.",
+     "a": "The solution is incorrect. Error: AA criterion requires TWO pairs of corresponding angles to be equal. Here only ∠A = ∠P (60°). ∠B (50°) ≠ ∠Q (70°). The student incorrectly applied AA with only one angle match. Correct evaluation: Triangles are not similar because the second pair of angles differs. A student who says \"the solution is correct\" reveals they think one equal angle implies similarity — confusing AA with a single-angle condition.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) where AA similarity is used to find the height of a tree using a pole and shadows. Provide the problem statement, diagram description, and solution outline.",
+     "a": "Good answer: Problem: \"A 2 m pole casts a 1.5 m shadow at 10 AM. At the same time, a tree casts a 12 m shadow. Find the tree's height.\" Diagram: Two right triangles formed by pole/tree (vertical), shadows (horizontal), and sun rays (hypotenuse). Sun rays are parallel → corresponding angles equal → AA similarity. Solution: Δpole ~ Δtree by AA (right angle + equal sun elevation angle). Height/2 = 12/1.5 → Height = 16 m. A poor answer that uses trigonometry (tan) or Pythagoras instead of AA similarity reveals the student doesn't recognize the classic shadow problem as an AA application.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

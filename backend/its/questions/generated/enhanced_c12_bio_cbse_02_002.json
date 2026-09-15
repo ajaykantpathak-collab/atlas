@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_02_002",
+   "title": "c12_bio_cbse_02_002",
+   "questions": [
+    {
+     "q": "Name the four wall layers of a mature microsporangium (anther wall) in correct order from outermost to innermost, and state the ploidy level of the cells in each layer.",
+     "a": "Correct answer: Epidermis (diploid, 2n) → Endothecium (diploid, 2n) → Middle layers (1–3 layers, diploid, 2n) → Tapetum (diploid, 2n, but often becomes binucleate or polyploid). A wrong answer such as \"tapetum is haploid\" reveals the student confuses the wall layers (sporophytic, 2n) with the sporogenous tissue inside (which gives rise to haploid microspores). Another common error is omitting the middle layers or reversing endothecium and tapetum order, indicating rote memorisation without spatial understanding of the anther cross-section.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the tapetum is described as the \"nursing layer\" of the anther. What would happen to pollen development if the tapetum fails to degenerate at the right time?",
+     "a": "Correct answer: The tapetum supplies enzymes (callase to dissolve callose wall of microspore tetrads), nutrients (starch, lipids, proteins), sporopollenin (for exine), and hormones to developing microspores. If it fails to degenerate, the microspores remain trapped in callose walls, cannot acquire sporopollenin for exine formation, and lack nutrition — leading to sterile, non-viable pollen. A wrong answer that only says \"it provides food\" misses the specific biochemical contributions (sporopollenin, callase) and the critical timing of programmed cell death (PCD) — a concept that links to apoptosis studied in Class 11 (c11_biotech_cbse_05_008).",
+     "self_check": true
+    },
+    {
+     "q": "A student observes a transverse section of an anther where the endothecium lacks fibrous thickenings and the stomium is not differentiated. Predict the consequence for pollen release and justify your answer.",
+     "a": "Correct answer: The anther will fail to dehisce (split open) at maturity, trapping pollen inside. The endothecial fibrous thickenings (α-cellulose bands) generate mechanical tension upon dehydration, causing the anther wall to split along the stomium (line of dehiscence). Without these, no tension develops → no dehiscence → pollen cannot be dispersed → male sterility. A wrong answer like \"pollen will not form\" confuses dehiscence (release) with microsporogenesis (formation). This tests application of structure-function reasoning to a developmental defect.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the wall layers of a microsporangium (anther) with those of an ovule (integuments, nucellus). Identify two structural similarities and two functional differences.",
+     "a": "Correct answer: Similarities: (1) Both are diploid (sporophytic) protective layers surrounding the sporogenous tissue. (2) Both have an outermost epidermal layer. Differences: (1) Anther wall has a specialised nutritive tapetum; ovule lacks an equivalent layer — the nucellus provides nutrition but is not a dedicated secretory layer. (2) Anther wall undergoes programmed degeneration (especially tapetum and middle layers) to release pollen; ovule integuments persist and develop into seed coat (testa) after fertilisation. A wrong answer that says \"both protect the gametes\" is too vague and misses the developmental fate difference — anther wall is transient, ovule integuments are permanent.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The tapetum is the only anther wall layer that contributes directly to the pollen wall (exine).\" Is this true or false? Justify with evidence.",
+     "a": "Correct answer: TRUE. The tapetum (specifically the secretory/glandular type) synthesises and deposits sporopollenin onto the microspore surface via Ubisch bodies (orbicules), forming the exine. No other wall layer produces sporopollenin. The endothecium contributes to anther dehiscence, not pollen wall. The epidermis and middle layers are protective and transient. A wrong answer of \"False, endothecium also contributes\" reveals confusion between anther wall function and pollen wall composition. This is a classic NEET trap — sporopollenin is exclusively tapetal in origin.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple staining experiment using a young anther to distinguish between a functional tapetum and a degenerating tapetum. Specify the stain, expected observation, and biological interpretation.",
+     "a": "Correct answer: Use **aceto-carmine** or **iodine-potassium iodide (IKI)** stain on a squash preparation of a young anther. Functional tapetum: densely cytoplasmic, deeply stained (aceto-carmine stains nuclei and cytoplasm; IKI shows starch granules). Degenerating tapetum: vacuolated, shrunken, poorly stained, with fragmented nuclei. Biological interpretation: Dense staining = active metabolism, nutrient storage, sporopollenin synthesis; loss of staining = onset of PCD, nutrient release into locule. A poor answer that only says \"use safranin\" without linking stain chemistry to tapetal physiology shows lack of experimental design skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

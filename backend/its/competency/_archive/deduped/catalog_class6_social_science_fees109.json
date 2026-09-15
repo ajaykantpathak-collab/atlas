@@ -1,0 +1,205 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 9,
+ "chapter_title": "Family and Community",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fees109.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fees.9.1",
+   "title": "The Family: Basic Unit of Society",
+   "section": "Family",
+   "definition": "The family is the fundamental and most ancient unit of society, where children are born, nurtured and taught values; Indian families range from joint households to nuclear ones.",
+   "formula": "",
+   "key_idea": "Society is built family by family: the first lessons of living together are learned at home.",
+   "textbook_ref": "fees109.txt, Family",
+   "question_patterns": [
+    "why is the family called the basic unit of society",
+    "what do children learn inside a family",
+    "who are the members of a family you know",
+    "how does a family support its weakest members",
+    "what does tiruvalluvar compare family life to",
+    "how do families celebrate together"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.9.2",
+   "title": "Joint and Nuclear Families",
+   "section": "Types of families",
+   "definition": "A joint family keeps several generations under one roof, grandparents, parents, uncles, aunts and cousins, while a nuclear family is only a couple with their children; Indian languages even name relations that English must borrow words for.",
+   "formula": "",
+   "key_idea": "Family shape changes but the web of relations stays dense: bua, tau, chacha and nani name bonds that matter.",
+   "textbook_ref": "fees109.txt, Types of families",
+   "question_patterns": [
+    "what is the difference between a joint family and a nuclear family",
+    "who lives together in a joint family",
+    "why do indian languages have many words for family relations",
+    "why is there no common word for cousin in most indian languages",
+    "which type of family is more frequent in your neighbourhood",
+    "what are the benefits of living in a joint family"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.9.3",
+   "title": "Dharma and Values within the Family",
+   "section": "Values and the Shalini story",
+   "definition": "The family is a school of values where children learn ahimsa, dana, seva and tyaga; in the story, Shalini gives up her expected silk dress so the whole family can share clothes for Onam with her uncle's household.",
+   "formula": "",
+   "key_idea": "Following dharma in a family often means giving up a small wish so that others are not left out.",
+   "textbook_ref": "fees109.txt, Values and the Shalini story",
+   "question_patterns": [
+    "what values does the family teach according to the chapter",
+    "what did shalini give up for the festival of onam",
+    "why did shalini's family buy clothes for chittappa's household",
+    "what did acchamma explain to shalini",
+    "what does tyaga mean in family life",
+    "how do families share what they have in hard times"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.9.4",
+   "title": "Community: Beyond the Family",
+   "section": "Community",
+   "definition": "Beyond kin, people live in communities bound by place, work or faith, jatis and neighbourhoods, temples and schools; a community shares joys, helps in trouble and sets some rules of its own.",
+   "formula": "",
+   "key_idea": "Community extends the family's care: neighbours and fellow members become a wider circle of support.",
+   "textbook_ref": "fees109.txt, Community",
+   "question_patterns": [
+    "what is a community and how is it different from a family",
+    "which communities do you belong to",
+    "how does a community help its members",
+    "what role do jatis and associations play in society",
+    "how do communities celebrate festivals together",
+    "why does society need both families and communities"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fees109.txt",
+   "concept": "fees.9.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why does the chapter call the family a school?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the values",
+     "explain": "Ahimsa, dana, seva and tyaga are learned first at home."
+    },
+    {
+     "step": 2,
+     "action": "see the teaching",
+     "explain": "In the Onam story, Shalini learns giving by watching her parents share with her uncle's family."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fees109.txt",
+   "concept": "fees.9.2",
+   "question_type": "verify_property",
+   "question_pattern": "How does a joint family cushion a sudden loss of income?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "look at the story",
+     "explain": "When Shalini's uncle lost his job, the whole household adjusted its spending."
+    },
+    {
+     "step": 2,
+     "action": "draw the lesson",
+     "explain": "Shared income and shared needs mean one member's hardship is softened by all."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fees109.txt, Let us discuss",
+   "questions": [
+    "What are the Big Questions of this chapter?",
+    "Retell the story of Shalini and the Onam clothes.",
+    "List the family terms in Hindi mentioned in the chapter.",
+    "What kind of attitude does Shalini's story teach?",
+    "Think about underprivileged children and how communities can help them."
+   ]
+  }
+ ]
+}

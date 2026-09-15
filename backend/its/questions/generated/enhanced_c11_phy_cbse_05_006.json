@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_05_006",
+   "title": "c11_phy_cbse_05_006",
+   "questions": [
+    {
+     "q": "State the work-energy theorem for a variable force in one dimension, defining all symbols and giving the SI unit of each term.",
+     "a": "The theorem: \\(K_f - K_i = \\int_{x_i}^{x_f} F_{\\text{net}}(x) \\, dx\\). \\(K_f, K_i\\) are final and initial kinetic energies (J), \\(F_{\\text{net}}(x)\\) is net force as a function of position (N), \\(x_i, x_f\\) are initial and final positions (m), and the integral yields work in joules (J). A wrong answer (e.g., writing \\(W = F\\Delta x\\) or omitting the integral) reveals the student still thinks work is only force times distance and has not internalized the limiting process for variable forces.",
+     "self_check": true
+    },
+    {
+     "q": "A block moves along the x-axis under a force \\(F(x) = 3x^2\\) N from \\(x = 1\\) m to \\(x = 3\\) m. Explain why the work done cannot be calculated by multiplying the force at the midpoint by the displacement, and describe the correct geometric interpretation.",
+     "a": "Force varies with \\(x\\), so \\(F\\) is not constant; using a single force value ignores how \\(F\\) changes across the displacement. The correct interpretation: work done equals the area under the \\(F(x)\\) vs. \\(x\\) curve from \\(x=1\\) to \\(x=3\\). A student who says \"use average force\" without justification (e.g., for linear forces only) shows they don't understand that the integral is the exact area, not an approximation, and that the \"average force\" shortcut only works for linear \\(F(x)\\).",
+     "self_check": true
+    },
+    {
+     "q": "A 2 kg object initially at rest at \\(x=0\\) is acted upon by a net force \\(F(x) = 4x\\) N. Calculate its speed at \\(x = 2\\) m. Show all steps with units.",
+     "a": "Step 1: \\(W = \\int_0^2 4x \\, dx = 4 \\left[ \\frac{x^2}{2} \\right]_0^2 = 4 \\times \\frac{4}{2} = 8\\) J.  \nStep 2: \\(\\Delta K = \\frac{1}{2} m v_f^2 - 0 = \\frac{1}{2}(2)v_f^2 = v_f^2\\).  \nStep 3: \\(v_f^2 = 8 \\Rightarrow v_f = \\sqrt{8} = 2\\sqrt{2} \\approx 2.83\\) m/s.  \nUnit check: N·m = J = kg·m²/s², so \\(v_f\\) in m/s. A wrong answer (e.g., 4 m/s) usually comes from forgetting the 1/2 in kinetic energy or integrating incorrectly (e.g., treating \\(4x\\) as constant).",
+     "self_check": true
+    },
+    {
+     "q": "The force-displacement graph for a particle is a straight line passing through (0, 0) and (4 m, 8 N). The particle's mass is 0.5 kg and its initial speed at \\(x=0\\) is 2 m/s. Determine its kinetic energy at \\(x=4\\) m without explicitly integrating, and explain the shortcut used.",
+     "a": "The graph is a triangle: base = 4 m, height = 8 N. Area = \\(\\frac{1}{2} \\times 4 \\times 8 = 16\\) J = work done. Initial \\(K_i = \\frac{1}{2}(0.5)(2)^2 = 1\\) J. \\(K_f = K_i + W = 1 + 16 = 17\\) J. The shortcut: for a linear force \\(F(x) = kx\\), the area is a triangle, so work = \\(\\frac{1}{2} F_{\\text{max}} \\Delta x\\). A student who sets up \\(\\int_0^4 2x \\, dx\\) and integrates correctly gets the same answer but misses the geometric insight that the integral of a linear function is exactly the triangle area.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a problem where \\(F(x) = \\frac{k}{x}\\) acts from \\(x_i = 1\\) m to \\(x_f = e\\) m (e ≈ 2.718). They write \\(W = k \\ln(e) = k\\) J and claim the work done is \\(k\\) joules. Evaluate whether this is dimensionally consistent if \\(k = 5\\) N·m. If not, correct the student's expression for \\(k\\)'s units.",
+     "a": "\\(F = k/x\\) so \\(k = F \\cdot x\\) has units N·m = J. The integral \\(\\int \\frac{k}{x} dx = k \\ln(x)\\) gives \\(k \\ln(e) = k\\). Since \\(k\\) is in joules, the work is \\(k\\) joules, which is dimensionally consistent. The student's claim is correct. A wrong evaluation would say \"\\(\\ln(e)\\) is dimensionless so work has units of \\(k\\)\" and then question \\(k\\)'s units; this shows confusion about the units of the argument of \\(\\ln\\) (must be dimensionless, so \\(x\\) is implicitly divided by 1 m) and the fact that \\(k\\) itself carries the energy units.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a spring, a dynamics cart, and a motion sensor (or smartphone video analysis) to verify the work-energy theorem for the variable spring force \\(F = -kx\\). List the measurements needed, the graph to plot, and how you would extract the spring constant \\(k\\) from the data.",
+     "a": "Measurements: cart mass \\(m\\), spring compression \\(x_i\\) (initial), and cart speed \\(v\\) at several positions \\(x\\) as the spring expands. Plot \\(v^2\\) vs. \\(x^2\\). From \\(\\frac{1}{2}mv^2 = \\frac{1}{2}k(x_i^2 - x^2)\\), we get \\(v^2 = \\frac{k}{m}(x_i^2 - x^2)\\). The slope of \\(v^2\\) vs. \\(x^2\\) is \\(-k/m\\), giving \\(k\\). A poor answer would only say \"measure speed and compression\" without specifying the linearization (\\(v^2\\) vs. \\(x^2\\)) or how to isolate \\(k\\), indicating the student cannot translate the theorem into a testable graphical method.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

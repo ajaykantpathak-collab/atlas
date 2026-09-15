@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_01_002",
+   "title": "c12_hin_ar_cbse_01_002",
+   "questions": [
+    {
+     "q": "Identify the **four stages of narrative arc** (exposition, rising action, climax, resolution) and match each to the correct stanza range in \"विराम चिह्न\". Use stanza numbers as they appear in the NCERT text.",
+     "a": "Correct mapping: Exposition = Stanzas 1-3 (poet introduces himself and his craft); Rising Action = Stanzas 4-8 (punctuation marks enter as speaking characters); Climax = Stanza 9 (poet rejects their authority: \"मैं न कभी विराम चिह्नों का गुलाम हुआ\"); Resolution = Stanza 10 (poet addresses reader directly: \"तुम्हीं कहो...\"). A wrong answer (e.g., placing climax at stanza 5) reveals the student is tracking **content** (what is said) not **structural function** (how tension peaks). They confuse the punctuation marks' speeches (rising tension) with the poet's rebuttal (release of tension).",
+     "self_check": true
+    },
+    {
+     "q": "In \"विराम चिह्न\", Nirala uses **direct speech** for both the poet and the punctuation marks. Explain **why** this structural choice is essential for the poem's narrative drive — contrast with what would be lost if the punctuation marks' arguments were reported indirectly (e.g., \"The comma said that...\").",
+     "a": "Direct speech creates **immediacy and dramatic confrontation** — the reader hears each voice in real time, making the conflict visceral. Indirect speech would flatten the narrative into a summary, killing the tension between the poet's creative freedom and the punctuation marks' rigid rules. A wrong answer (e.g., \"It makes the poem more poetic\") shows the student treats direct speech as decorative, not structural. They miss that **voice = character** in narrative poetry; removing direct speech removes the characters.",
+     "self_check": true
+    },
+    {
+     "q": "**Apply** the concept of \"narrative hook\" to the opening stanza of \"विराम चिह्न\":  \n\"व्याख्यान एकौक / कविता की एकौक / ...\" (paraphrased). Write a 2-sentence analysis identifying the hook and explaining how it launches the narrative question that drives the poem.",
+     "a": "**Hook**: The poet's paradoxical self-definition — \"I am the lecture of solitude / the solitude of poetry\" — immediately poses the narrative question: *Can solitude be articulated without being violated by language's rules?* This launches the central conflict. A weak answer (e.g., \"It introduces the poet\") only identifies the speaker, not the **structural function** of the hook. The student fails to see that a narrative hook in poetry must **generate tension**, not just present information.",
+     "self_check": true
+    },
+    {
+     "q": "**Analyze** how Nirala uses **stanza length variation** (3-line vs 4-line stanzas) as a structural device in \"विराम चिह्न\". Map each stanza length to its narrative stage and explain the effect.",
+     "a": "3-line stanzas (tercets) dominate the exposition (stanzas 1-3) and resolution (stanza 10) — creating **breathless urgency** in the poet's solitary voice. 4-line stanzas (quatrains) appear during the punctuation marks' speeches (stanzas 4-8) — their **regularity mimics the rigid rules** they enforce. The climax (stanza 9) breaks pattern with a **5-line stanza**, mirroring the poet's explosive refusal to conform. A wrong answer (e.g., \"It looks nice\") treats form as aesthetic, not **narrative syntax**. The student misses that stanza length **is** the structural heartbeat of the poem's drama.",
+     "self_check": true
+    },
+    {
+     "q": "**Evaluate** this claim: \"The resolution of 'विराम चिह्न' fails because the poet doesn't defeat the punctuation marks — he just appeals to the reader.\" Defend or refute using structural evidence.",
+     "a": "**Refute**. The resolution **intentionally avoids victory** — that's the point. Structurally, the poem shifts from **monologue (stanzas 1-3) → dialogue (4-9) → address to reader (10)**. By ending with \"तुम्हीं कहो...\" (you decide), Nirala transfers the narrative agency to the reader, making the poem an **open-ended democratic act** — the ultimate rebellion against fixed rules. A student who \"agrees\" expects a conventional protagonist-vs-antagonist win, missing that **narrative structure in modernist poetry often resolves by expanding the frame**, not closing it.",
+     "self_check": true
+    },
+    {
+     "q": "**Create** a 3-stanza narrative poem (4 lines each) that mirrors the structural arc of \"विराम चिह्न\":  \nStanza 1: Speaker introduces their creative act.  \nStanza 2: A \"rule\" or \"convention\" speaks back as a character.  \nStanza 3: Speaker refuses and addresses the reader.  \nUse direct speech for the rule/convention. Title it.",
+     "a": "**Title**: \"रंग का विद्रोह\" (Colour's Rebellion)  \n*Stanza 1 (Exposition)*:  \nमैं रंग हूँ, कैनवास का मौन गीत  \nब्रश की नोक से बहता, बिन रोक-टोक  \nकोई सीमा नहीं, कोई किनारा नहीं  \nबस प्रकाश की लकीर, अनंत की ओर।  \n\n*Stanza 2 (Rising Action — Rule speaks)*:  \nबोला फ्रेम, ठहरो! तुम मेरी सीमा हो  \nचौखट के बाहर तुम अस्तित्व नहीं रखते  \nरेखा, आकार, अनुपात — मेरा विधान  \nइसी में तुम्हारी सुन्दरता, तुम्हारा मान।  \n\n*Stanza 3 (Climax + Resolution)*:  \nमैं हँसा, फूटा फ्रेम, कैनवास फाड़ दिया  \nरंग हूँ, नियम नहीं, तुम बाँध न सकोगे  \nदर्शक, तुम ही बताओ — कला बन्धन में?  \nया मुक्ति की वह लकीर, जो तुममें भी बहे?  \n\nA poor answer writes a lyrical poem without **speaker confrontation** or **reader address** — missing that narrative structure requires **conflict between voices**, not just pretty images.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

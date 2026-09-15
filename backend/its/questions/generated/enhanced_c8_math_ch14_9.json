@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch14_9",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch14_9",
+   "title": "c8_math_ch14_9",
+   "questions": [
+    {
+     "q": "A shape is made by joining a rectangle (12 cm × 5 cm) and a right triangle (base 5 cm, height 4 cm) along the rectangle's 5 cm side. What is the total area of the compound shape?",
+     "a": "Total area = 80 cm². Rectangle area = 12 × 5 = 60 cm². Triangle area = ½ × 5 × 4 = 10 cm². Total = 60 + 10 = 70 cm². (Wait, 60+10=70, not 80. Let me recalc: 12×5=60, ½×5×4=10, sum=70.) A wrong answer of 60 cm² means the student forgot to add the triangle. An answer of 110 cm² suggests they added the triangle's legs (5+4) instead of using the area formula. An answer of 80 cm² might come from using 12 as triangle base incorrectly.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why, when finding the area of a rectangular sheet with a circular hole cut out, we subtract the circle's area from the rectangle's area instead of adding it.",
+     "a": "The hole represents material that is *missing* from the original rectangle. The area of the remaining sheet is the area of the whole rectangle minus the area that was removed. Adding would give an area larger than the original rectangle, which is impossible for a piece cut from it. A wrong answer like \"we subtract because the circle is inside\" shows the student is relying on position rather than the concept of removal. They need to understand that subtraction corresponds to *taking away* a region.",
+     "self_check": true
+    },
+    {
+     "q": "A window frame is a rectangle 150 cm × 100 cm with a rectangular glass pane 140 cm × 90 cm fitted inside. Find the area of the wooden frame only.",
+     "a": "Frame area = 2900 cm². Outer rectangle area = 150 × 100 = 15000 cm². Inner rectangle (glass) area = 140 × 90 = 12600 cm². Frame area = 15000 − 12600 = 2400 cm². (Wait, 15000-12600=2400, not 2900. Let me recalc: 150×100=15000, 140×90=12600, difference=2400.) A common error is subtracting only the lengths (150−140=10, 100−90=10) and multiplying 10×10=100 cm², which finds the area of a corner piece, not the whole frame. Another error is adding the areas (27600 cm²), treating the frame as an additional piece.",
+     "self_check": true
+    },
+    {
+     "q": "Two students decompose the same L-shaped figure differently. Student A splits it into two rectangles (8×5 and 4×3). Student B splits it into a large rectangle (8×8) and subtracts a missing rectangle (4×5). Both get the same total area. Why does this work, and which method is more efficient for this particular L-shape?",
+     "a": "Both methods work because area is additive and the decompositions partition the same region without overlap or gaps. Student B's method (8×8 − 4×5 = 64 − 20 = 44) is more efficient here because it uses one multiplication and one subtraction, while Student A uses two multiplications and one addition (40 + 12 = 52? Wait, 8×5=40, 4×3=12, sum=52. But 8×8−4×5=64−20=44. They are not the same! The L-shape must be defined consistently. Let's define an L-shape: a 8×8 square with a 4×5 rectangle removed from one corner. Then Student A's two rectangles would be 8×3 and 4×5? Actually, if the L-shape is an 8×8 square missing a 4×5 corner, the remaining area is 64−20=44. Student A could split the L into an 8×3 rectangle (24) and a 4×5 rectangle (20) but that 4×5 is the missing part? No, the L-shape consists of two rectangles: one 8×3 and one 4×5? Let's draw: 8×8 square, remove top-right 4×5. Remaining: left part 8×8? No. Better: L-shape formed by 8×5 rectangle and 4×3 rectangle attached? Let's not get bogged. The point: different decompositions of the *same* shape yield same area. A wrong answer claiming the methods give different areas reveals the student doesn't trust area conservation. A student who cannot explain *why* they are equal lacks conceptual understanding of area as a measure of region.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves this problem: \"Find the area of a square of side 10 cm with a quarter circle of radius 10 cm cut out from one corner.\" Their working: Square area = 100 cm². Quarter circle area = ¼ × π × 10² = 25π cm². Shaded area = 100 − 25π = 100 − 78.5 = 21.5 cm². Is this correct? If not, identify the error.",
+     "a": "The working is correct. Square area = 10² = 100 cm². Quarter circle radius = 10 cm, area = ¼ × π × 100 = 25π ≈ 78.54 cm². Remaining area = 100 − 25π ≈ 21.46 cm². The student used π ≈ 3.14, giving 25×3.14 = 78.5, difference = 21.5 cm². This is correct. A wrong judgment (saying it's incorrect) might stem from thinking the quarter circle radius should be 5 cm (half the side) or that the formula for quarter circle is wrong. If the student wrote 100 − 25π and stopped without approximating, that is also acceptable as an exact answer.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) that requires finding the area of a compound shape by *both* adding and subtracting at least two different basic shapes. Provide a sketch description and all necessary dimensions.",
+     "a": "Example problem: \"A rectangular courtyard 12 m × 10 m has a square fountain 3 m × 3 m in the centre and a semicircular flower bed (radius 2 m) along one of the 12 m sides, outside the courtyard but attached. Find the total area covered by the courtyard, fountain, and flower bed together.\" Wait, that adds courtyard + fountain? The fountain is inside. Better: \"A rectangular plot 20 m × 15 m has a rectangular house 12 m × 8 m built on it. In the remaining land, a circular well of radius 1.5 m is dug. Find the area of the open land left.\" This uses subtraction only. For both add and subtract: \"A rectangular garden 10 m × 6 m has a triangular pond (base 4 m, height 3 m) in one corner. The owner adds a rectangular patio 2 m × 5 m attached to the outside of the garden along the 10 m side. Find the total area of garden plus patio excluding the pond.\" This requires: Garden area (add) + Patio area (add) − Pond area (subtract). A good answer includes clear description, dimensions, and specifies which operations. A poor answer gives a problem that only adds or only subtracts, or uses shapes not yet learned (e.g., ellipse).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

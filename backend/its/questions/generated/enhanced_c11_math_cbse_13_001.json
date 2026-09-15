@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_13_001",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_13_001",
+   "title": "c11_math_cbse_13_001",
+   "questions": [
+    {
+     "q": "What is the value of lim_{x→3} (x² - 9)/(x - 3)? Choose the correct statement: (A) The limit is 0 because the numerator is 0 at x=3. (B) The limit is 6 because the function simplifies to x+3 for x≠3. (C) The limit does not exist because the function is undefined at x=3. (D) The limit is 3 because x approaches 3.",
+     "a": "Correct answer: (B) The limit is 6 because for x ≠ 3, (x² - 9)/(x - 3) = (x-3)(x+3)/(x-3) = x+3, which approaches 6 as x→3. A wrong answer (A) reveals confusion between the limit and the numerator's value; (C) reveals the misconception that a limit requires the function to be defined at the point; (D) reveals confusion between the input value and the output value.",
+     "self_check": true
+    },
+    {
+     "q": "Consider f(x) = { x² if x < 2; 5 if x = 2; x+2 if x > 2 }. A student claims \"lim_{x→2} f(x) does not exist because f(2) = 5, not 4.\" Explain why this reasoning is flawed and state the correct limit.",
+     "a": "The student incorrectly equates the function value at the point with the limit. The limit depends on values *near* 2, not *at* 2. As x→2⁻, f(x) = x² → 4. As x→2⁺, f(x) = x+2 → 4. Since LHL = RHL = 4, the limit exists and equals 4. f(2) = 5 is irrelevant. A wrong explanation reveals the student thinks limit = function value, a fundamental misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate lim_{x→0} (|x|/x) by constructing a table of values for x = -0.1, -0.01, -0.001, 0.001, 0.01, 0.1. What do you conclude about the limit?",
+     "a": "For x < 0: |x|/x = -x/x = -1. For x > 0: |x|/x = x/x = 1. Table: x=-0.1 → -1, -0.01 → -1, -0.001 → -1; x=0.001 → 1, 0.01 → 1, 0.1 → 1. LHL = -1, RHL = 1. Since LHL ≠ RHL, the limit does not exist. A wrong conclusion (e.g., limit = 0) reveals the student averaged the two sides or ignored the sign of x.",
+     "self_check": true
+    },
+    {
+     "q": "Given that lim_{x→a} f(x) = 5 and lim_{x→a} g(x) = 3, which of the following MUST be true? (i) lim_{x→a} [f(x) + g(x)] = 8. (ii) lim_{x→a} [f(x) · g(x)] = 15. (iii) f(a) = 5 and g(a) = 3. (iv) lim_{x→a} [f(x)/g(x)] = 5/3.",
+     "a": "(i), (ii), and (iv) must be true by the algebra of limits (sum, product, quotient rules). (iii) is NOT necessarily true — limits describe behaviour near a, not at a. f(a) and g(a) could be undefined or different values. Choosing (iii) reveals the persistent confusion between limit and function value.",
+     "self_check": true
+    },
+    {
+     "q": "A student evaluates lim_{x→2} (x² - 4)/(x - 2) by direct substitution: (4 - 4)/(2 - 2) = 0/0 = 0. Identify the error and explain the correct approach.",
+     "a": "The error is treating 0/0 as 0. 0/0 is an indeterminate form — it gives no information about the limit. The correct approach: simplify the expression for x ≠ 2: (x-2)(x+2)/(x-2) = x+2, then take the limit as x→2 to get 4. Alternatively, use a table of values approaching 2. The mistake reveals the student does not recognise indeterminate forms and applies arithmetic rules to limit evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a piecewise function f(x) such that: (a) lim_{x→1} f(x) exists, (b) f(1) is defined but f(1) ≠ lim_{x→1} f(x), and (c) f(x) is not continuous at x=1. Write the function and verify all three conditions.",
+     "a": "Example: f(x) = { x² if x ≠ 1; 5 if x = 1 }. (a) For x≠1, f(x)=x² → 1 as x→1, so limit = 1. (b) f(1)=5 ≠ 1. (c) Since limit ≠ function value, f is discontinuous at x=1. A poor answer (e.g., a function where limit doesn't exist) reveals the student cannot construct examples meeting multiple constraints, indicating weak conceptual synthesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

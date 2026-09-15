@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_09_004",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_09_004",
+   "title": "c11_bio_cbse_09_004",
+   "questions": [
+    {
+     "q": "Name the three chemical components of a nucleotide and specify which component differs between DNA and RNA nucleotides.",
+     "a": "A nucleotide consists of a nitrogenous base (adenine, guanine, cytosine, thymine, or uracil), a pentose sugar (ribose or 2'-deoxyribose), and a phosphate group. The sugar differs: DNA contains 2'-deoxyribose (H at 2' carbon), RNA contains ribose (OH at 2' carbon). A wrong answer (e.g., \"phosphate differs\" or \"base differs\") reveals confusion between nucleoside/base/sugar roles and failure to recognize that the 2'-OH group in RNA makes it more labile to alkaline hydrolysis — a key chemical distinction tested in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why adenine pairs specifically with thymine (two hydrogen bonds) and guanine with cytosine (three hydrogen bonds) in DNA, and why this specificity fails if you try to pair adenine with cytosine.",
+     "a": "Adenine and thymine have complementary hydrogen bond donor/acceptor patterns: A (donor at N6, acceptor at N1) matches T (acceptor at O4, donor at N3), forming two H-bonds. Guanine (donor at N1, N2; acceptor at O6) matches cytosine (acceptor at N3, O2; donor at N4), forming three H-bonds. Adenine-cytosine pairing would create steric clash and mismatched donor/acceptor geometry (A's N6 donor faces C's N4 donor — repulsion). A wrong answer (e.g., \"size complementarity\" or \"random\") shows lack of understanding of hydrogen bond directionality and the chemical basis of Chargaff's rules.",
+     "self_check": true
+    },
+    {
+     "q": "A DNA segment has the sequence 5'-ATGCCTAG-3' on one strand. Write the sequence of the complementary strand in the 5'→3' direction and calculate the %GC content of this double-stranded segment.",
+     "a": "Step 1: Write complement base-by-base (A↔T, G↔C): 3'-TACGGATC-5'. Step 2: Reverse to 5'→3' direction: 5'-CTAGG CAT-3' (5'-CTAGGCAT-3'). Step 3: Count bases in 8 bp duplex: G=3, C=3, A=2, T=2. Step 4: %GC = (G+C)/total × 100 = 6/8 × 100 = 75%. Wrong answers (e.g., writing complement in 3'→5' direction, or calculating %GC on single strand only) reveal confusion about antiparallel polarity and Chargaff's rule application to double-stranded DNA.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the structural consequences of the 2'-OH group in RNA versus its absence in DNA on: (a) helical geometry, (b) chemical stability, and (c) biological function.",
+     "a": "(a) 2'-OH forces RNA into A-form helix (shorter, wider, deep major groove) vs DNA's B-form; (b) 2'-OH makes RNA susceptible to base-catalyzed hydrolysis (2'-OH attacks adjacent phosphodiester bond) while DNA is stable; (c) RNA's lability suits transient roles (mRNA turnover, catalytic ribozymes), DNA's stability suits long-term genetic storage. Wrong answers (e.g., \"RNA is double helix like DNA\" or \"2'-OH has no effect\") indicate failure to connect chemical structure to biological role — a frequent board exam long-answer requirement.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since DNA and RNA both carry genetic information, viruses with RNA genomes (like SARS-CoV-2) must use the same base pairing rules as DNA.\" Evaluate this statement.",
+     "a": "Partially correct but incomplete. RNA viruses DO use Watson-Crick base pairing (A-U, G-C) for replication and transcription, but: (1) RNA uses uracil instead of thymine (methyl group difference affects recognition by repair enzymes), (2) RNA genomes are often single-stranded and fold into complex secondary structures (hairpins, pseudoknots) that regulate replication, (3) RNA-dependent RNA polymerase lacks proofreading, leading to higher mutation rates. A wrong evaluation (fully agree/disagree without nuance) shows inability to distinguish conserved pairing principles from context-dependent structural/functional differences.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only household materials (paper, scissors, tape) to demonstrate why DNA strands must be antiparallel for complementary base pairing to work.",
+     "a": "Cut two paper strips (representing strands). Mark 5' and 3' ends with arrows. Write base letters (A,T,G,C) on one strip 5'→3'. On second strip, write complements. Try aligning both 5'→3' (parallel) — bases won't match. Flip second strip (antiparallel) — bases align perfectly. Tape to show H-bonds form only in antiparallel orientation. Good answer includes directional arrows and explains that 3'-OH of one nucleotide attacks 5'-phosphate of next, fixing polarity. Poor answer (parallel alignment works) reveals misunderstanding of phosphodiester bond directionality and polymerase mechanism.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

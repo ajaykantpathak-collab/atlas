@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ca_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c12_ca_cbse_02_001",
+   "title": "c12_ca_cbse_02_001",
+   "questions": [
+    {
+     "q": "What is the cell address of the cell located at the intersection of column IV and row 65536 in Excel 2007, and how many total cells exist in one worksheet?",
+     "a": "The cell address is IV65536. Total cells = 65,536 rows × 256 columns = 16,777,216 cells. A wrong answer like \"IV65536 has 1,65,00,000 cells\" reveals the student misread the NCERT approximation (1.65 crore) as exact, or confused 256 columns (A to IV) with 256 rows — a common error when students don't verify column count: A=1, Z=26, AA=27, ..., IV=256.",
+     "self_check": true
+    },
+    {
+     "q": "In cell E4 you enter the formula `=B4*C4` to calculate Revenue (Qty × Price). You copy this formula down to E5:E100. What happens to the cell references, and why is this behavior called \"relative referencing\"?",
+     "a": "In E5 the formula becomes `=B5*C5`, in E6 `=B6*C6`, ..., in E100 `=B100*C100`. The row numbers adjust automatically because the references B4 and C4 are relative (no $ signs). A wrong answer like \"references stay B4 and C4\" or \"references become $B$4 and $C$4\" reveals the student confuses relative with absolute referencing — a critical error because if the formula didn't adjust, every row would multiply the same Qty and Price from Row 4, giving identical (wrong) revenue for all 100 sales.",
+     "self_check": true
+    },
+    {
+     "q": "You have GST rate 18% in cell G1. In column F you want GST Amount = Revenue × GST_Rate for rows 2 to 100. Write the formula for F2 using absolute referencing so it copies correctly down to F100. Then explain what happens if you mistakenly use relative reference `=E2*G1` and copy down.",
+     "a": "Correct formula: `=E2*$G$1` (or `=E2*G$1` since only row must lock). When copied to F3, it becomes `=E3*$G$1` — column G and row 1 stay fixed. If you use `=E2*G1` (relative), in F3 it becomes `=E3*G2` — G2 is empty/zero, so GST calculates as zero for all rows below Row 2. This \"shifting reference\" error is the #1 cause of silent calculation mistakes in board practical exams — students see correct Row 2, assume all rows work, and lose marks.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the formulas `=IF(A2>10000, \"High\", \"Low\")` and `=IF(A2>10000, \"High\", IF(A2>5000, \"Medium\", \"Low\"))`. For a value of 7500 in A2, what does each return? Explain the logic flow of the nested IF.",
+     "a": "First formula returns \"Low\" (7500 ≤ 10000). Second formula: outer IF checks 7500>10000 → FALSE → goes to value_if_false which is another IF: inner IF checks 7500>5000 → TRUE → returns \"Medium\". A wrong answer like \"both return Low\" or \"nested IF gives error\" reveals the student doesn't trace the FALSE branch into the nested IF — they treat nested IF as parallel rather than sequential. In board exams, nested IF questions often test this exact \"fall-through\" logic for slab-based calculations (tax, commission, grading).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `=VLOOKUP(100, A2:D10, 5, FALSE)` to find a value in the 5th column of a 4-column table (A:D). What error will Excel return, and why? Propose two ways to fix it without changing the table range.",
+     "a": "Excel returns `#REF!` because `col_index_num=5` exceeds the 4 columns in `table_array=A2:D10`. Fix 1: change 5 to 4 (if 4th column has desired data). Fix 2: use `=INDEX(D2:D10, MATCH(100, A2:A10, 0))` — INDEX/MATCH doesn't require column index within table_array. A wrong answer like \"#N/A\" or \"#VALUE!\" reveals confusion between \"column not found\" (#REF!) vs \"lookup value not found\" (#N/A). This distinction is tested in CBSE practical viva: \"Why did your VLOOKUP give #REF! not #N/A?\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-spreadsheet (describe layout, not build) to calculate EMI for a ₹10 lakh home loan at 8.5% p.a. for 20 years, using the PMT function. Specify: (a) which cells hold inputs (rate, nper, pv), (b) the exact PMT formula with correct sign convention, (c) how to make it a what-if model so changing rate in one cell updates EMI instantly.",
+     "a": "(a) B2=Annual Rate (8.5%), B3=Years (20), B4=Loan Amount (1000000). (b) In B6: `=PMT(B2/12, B3*12, -B4)` → returns positive EMI (≈ ₹8,678). Sign convention: pv negative (money received), pmt positive (money paid out). (c) All inputs in separate cells (B2, B3, B4), formula references them — change B2 to 9%, EMI recalculates automatically. A poor answer puts numbers directly in PMT (`=PMT(8.5%/12,240,-1000000)`) — not a what-if model. Or misses `/12` and `*12` conversion, giving wildly wrong EMI. This tests whether the student understands financial function arguments must match periodicity (monthly rate, monthly periods) — a classic JEE/CUET trap.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

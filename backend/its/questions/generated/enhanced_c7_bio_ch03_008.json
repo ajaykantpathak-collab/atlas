@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_bio_ch03_008",
+ "concepts": [
+  {
+   "id": "enh:c7_bio_ch03_008",
+   "title": "c7_bio_ch03_008",
+   "questions": [
+    {
+     "q": "What is the primary substance transported upward through the xylem tissue in plants?",
+     "a": "Water and dissolved minerals from the soil. A wrong answer like \"prepared food\" or \"glucose\" reveals a confusion between xylem and phloem functions, mixing up water transport with food transport.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it necessary for plants to have a specialized transport tissue like xylem rather than relying solely on simple cell-to-cell movement?",
+     "a": "Simple cell-to-cell movement (diffusion) is too slow to supply water efficiently to tall plants or large trees. A wrong answer assuming diffusion is sufficient for all plant sizes shows a misunderstanding of how physical limits affect biological transport over large distances.",
+     "self_check": true
+    },
+    {
+     "q": "A gardener accidentally cuts a ring of outer bark around a mango tree branch while keeping the inner wood intact, yet the leaves on the branch initially remain green. What does this tell you about the location and function of the water-transporting tissue?",
+     "a": "The water-transporting tissue (xylem) is located deeper inside the stem (in the wood), not in the outer bark, because water continues to reach the leaves. A wrong answer stating that xylem is in the outer bark shows a failure to differentiate between the outer protective layers and the inner vascular cylinders of a stem.",
+     "self_check": true
+    },
+    {
+     "q": "If a potted plant is placed inside a sealed, transparent polythene bag under bright sunlight, tiny water droplets appear on the inner surface of the bag. How does this observation relate to the functioning of the xylem?",
+     "a": "Water droplets form because water transported up the xylem evaporates from the leaves (transpiration), creating the upward pull that keeps the water column moving. A wrong answer suggesting the plant is sweating like an animal reveals a lack of understanding of plant-specific evaporation processes.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that if all the leaves are removed from a balsam plant, water will travel up the stem much faster because there is less resistance. Evaluate this claim using your knowledge of water transport.",
+     "a": "The claim is false because removing the leaves eliminates transpiration, which provides the pull drawing water up the xylem; without leaves, water movement actually slows down significantly. A wrong answer agreeing with the student indicates a failure to recognize that evaporation from leaves is the driving force for xylem transport.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom experiment using a white-flowered plant (like a tuberose or carnation) and colored dye to demonstrate how xylem transports water to different parts of the shoot.",
+     "a": "A good design involves placing the freshly cut stem of a white flower in a beaker of red-colored water for a few hours, then observing how the flower petals and stem veins turn red, proving upward transport through distinct channels. A poor answer that just suggests pouring colored water onto the soil misses the role of cut stems and root absorption mechanisms.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

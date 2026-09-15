@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_geo_ch1_7",
+ "concepts": [
+  {
+   "id": "enh:c9_geo_ch1_7",
+   "title": "c9_geo_ch1_7",
+   "questions": [
+    {
+     "q": "Define weathering and state how it differs from erosion in terms of material movement.",
+     "a": "Weathering is the in-situ breakdown of rocks without significant movement of the fragments, while erosion involves the removal and transportation of weathered material by agents like water, wind, or ice. A wrong answer that conflates the two (e.g., \"weathering moves rocks downhill\") reveals the student has not grasped the stationary nature of weathering versus the dynamic nature of erosion, a fundamental distinction for understanding landform evolution.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why chemical weathering is more intense in the humid tropics (like the Western Ghats) than in the Thar Desert, even though both regions have high temperatures.",
+     "a": "Chemical weathering requires water as a medium for reactions (hydrolysis, oxidation, carbonation). The Western Ghats receive >2000 mm annual rainfall providing ample moisture, while the Thar Desert gets <250 mm, limiting water availability despite high temperatures. A wrong answer focusing only on temperature (\"both are hot so chemical weathering is same\") shows the student misunderstands that moisture is the limiting factor for chemical reactions, not just heat.",
+     "self_check": true
+    },
+    {
+     "q": "A sandstone cliff in the Vindhya Range shows honeycomb-like cavities (tafoni). Identify the dominant weathering process and explain the mechanism using the concept of salt crystallization.",
+     "a": "The dominant process is physical weathering by salt crystallization (haloclasty). Steps: 1) Identify rock: sandstone is porous and permeable. 2) Recall principle: saline groundwater rises by capillary action in arid/semi-arid zones. 3) Apply: water evaporates in pores, salts crystallize, exerting pressure > rock tensile strength. 4) Analyze: repeated cycles widen pores into cavities. 5) Verify: tafoni are common in semi-arid regions like central India. A wrong answer citing only \"wind erosion\" misses the critical role of salt crystallization within pores, confusing erosion with weathering.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the weathering profiles of basalt in the Deccan Plateau (forming laterite) and granite in the Himalayan foothills (forming grus). Analyze how climate and rock mineralogy interact to produce these different residues.",
+     "a": "Basalt (mafic, rich in Fe/Mg) in the hot, humid Deccan undergoes intense chemical weathering (hydrolysis, oxidation) leaching silica/bases, leaving Fe/Al oxides → laterite. Granite (felsic, quartz-rich) in cooler, seasonal Himalayan foothills weathers physically (frost wedging, thermal stress) and chemically (feldspar hydrolysis to clay) but quartz resists → grus (coarse sand). A wrong answer attributing laterite solely to climate (\"tropics make laterite\") ignores that basalt's mineralogy makes it susceptible; granite in tropics forms kaolinite, not laterite.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Biological weathering is insignificant compared to physical and chemical weathering in shaping Indian landforms.\" Provide evidence from at least two Indian regions.",
+     "a": "The statement is false. Biological weathering is significant: 1) In the Western Ghats, dense root systems (tree roots, lichens) fracture lateritic crusts and accelerate soil formation. 2) In the Gangetic Plains, burrowing organisms (earthworms, termites) churn alluvium, enhancing aeration and chemical weathering. 3) Human activity (mining, agriculture) accelerates weathering exponentially. A wrong answer agreeing with the statement reveals underestimation of biotic factors, especially in tropical rainforests and alluvial plains where biological activity is a primary soil-forming agent.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field investigation plan for a Class 9 project to compare weathering rates on north-facing vs. south-facing slopes of a hill in your local area (e.g., Aravallis or Shivaliks). Include hypotheses, measurable indicators, and methods.",
+     "a": "A good plan: Hypothesis: South-facing slopes (more insolation) show faster physical weathering (crack density, fragment size); north-facing slopes (more moisture) show faster chemical weathering (clay content, pH). Indicators: crack spacing (mm), fragment size distribution, soil pH, clay %. Methods: select comparable lithology, measure 10 cracks per slope, collect soil samples at 0-15 cm, use simple pH strips. A poor plan that only photographs rocks without measurable data or ignores aspect-related microclimate reveals inability to design a geographical investigation with controlled variables.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

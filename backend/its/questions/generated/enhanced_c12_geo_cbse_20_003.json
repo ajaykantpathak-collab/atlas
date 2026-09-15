@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_20_003",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_20_003",
+   "title": "c12_geo_cbse_20_003",
+   "questions": [
+    {
+     "q": "Define a rectangular diagram and a pie diagram. State the geometric property (length, area, angle, volume) that represents the data value in each.",
+     "a": "A rectangular diagram uses rectangles where **area** (length × breadth) is proportional to the data value. A pie diagram uses a circle divided into sectors where the **central angle** of each sector is proportional to the category's share of the total. A wrong answer (e.g., saying \"length of rectangle\" or \"radius of pie slice\") reveals the student is still thinking in one-dimensional terms and has not grasped that 2D diagrams encode magnitude in two dimensions simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "Why can't we simply use the length of a rectangle (like a bar diagram) to represent data in a two-dimensional diagram? Explain the conceptual error that would arise if we kept breadth constant and varied only length.",
+     "a": "If breadth is fixed and only length varies, the diagram reverts to a **one-dimensional bar diagram** because area becomes directly proportional to length (Area = length × constant). The conceptual error is treating a 2D diagram as 1D: it wastes the second dimension and misleads the reader into comparing areas visually while only length carries information. A student who says \"it's easier to draw\" misses the pedagogical purpose — 2D diagrams are chosen specifically when we want area to represent magnitude, allowing visual comparison of large ranges without excessive lengths.",
+     "self_check": true
+    },
+    {
+     "q": "The table below shows India's export share to major regions in 2020-21. Calculate the central angle for each region to construct a pie diagram. Show all steps.\n\n| Region | % Share |\n|--------|---------|\n| Asia & ASEAN | 52.4 |\n| Europe | 18.7 |\n| America | 14.2 |\n| Africa | 7.8 |\n| Others | 6.9 |\n| **Total** | **100.0** |",
+     "a": "**Step 1:** Verify percentages sum to 100 (52.4+18.7+14.2+7.8+6.9 = 100).  \n**Step 2:** Use formula: Angle = % × 3.6° (since 360°/100 = 3.6°).  \n**Step 3:** Calculate:  \n- Asia & ASEAN: 52.4 × 3.6 = **188.64°** → 189°  \n- Europe: 18.7 × 3.6 = **67.32°** → 67°  \n- America: 14.2 × 3.6 = **51.12°** → 51°  \n- Africa: 7.8 × 3.6 = **28.08°** → 28°  \n- Others: 6.9 × 3.6 = **24.84°** → 25°  \n**Step 4:** Check sum: 189+67+51+28+25 = 360° (rounding adjusted).  \nA wrong answer (e.g., using 360/5 = 72° for each) reveals the student thinks pie diagrams divide the circle equally regardless of data — a fundamental misunderstanding of proportional representation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a rectangular diagram and a pie diagram for the same dataset: \"Land use in India — Net sown area 46%, Forest 22%, Fallow 8%, Culturable waste 5%, Pasture 5%, Not available 14%.\" Which diagram type better highlights the dominance of net sown area? Which better allows comparison of the three smallest categories (fallow, culturable waste, pasture)? Justify.",
+     "a": "**Pie diagram** better highlights dominance of net sown area (46% → 166° slice visually dominates the circle). **Rectangular diagram** (especially divided rectangle) better allows comparison of the three smallest categories (8%, 5%, 5%) because their rectangular segments can be placed side-by-side with a common baseline, making small differences in length/area easier to judge than thin pie slices near the centre. A student who picks only one diagram for both tasks fails to understand that diagram choice depends on the *analytical question* — a key competency for board case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "A student constructs a pie diagram for the export data in Diagnostic Question 3 but draws the largest sector (Asia & ASEAN, 189°) first, then adds others clockwise. The final sector (Others) ends up at 22° instead of 25°. Evaluate the error and prescribe the correct drawing sequence.",
+     "a": "**Error:** Starting with the largest angle accumulates rounding/protractor errors, distorting the smallest sectors at the end. **Correct sequence:** Arrange angles in **ascending order** (25°, 28°, 51°, 67°, 189°) and draw **smallest first** clockwise. This confines cumulative error to the largest sector where a 1-2° discrepancy is visually negligible. A student who says \"order doesn't matter\" ignores the practical geometry of protractor use — a specific procedural trap in CBSE practical exams.",
+     "self_check": true
+    },
+    {
+     "q": "Design a divided rectangular diagram to represent the following data for two years. Explain how you will choose the rectangle's total area, the scale, and the subdivision method to enable visual comparison of change over time.\n\n| Land Use Category | 1950-51 (% of total area) | 2018-19 (% of total area) |\n|-------------------|---------------------------|---------------------------|\n| Net Sown Area | 42 | 46 |\n| Forest | 14 | 22 |\n| Not available for cultivation | 17 | 14 |\n| Fallow Land | 10 | 8 |\n| Pasture & Tree | 9 | 5 |\n| Culturable Waste | 8 | 5 |",
+     "a": "**Design:** Draw two rectangles of **equal total area** (e.g., 10 cm × 10 cm = 100 cm² each) side-by-side, one for each year. Since percentages sum to 100, 1 cm² = 1%. Subdivide each rectangle vertically into segments whose heights = percentage values (e.g., Net Sown 1950: 42 cm height, 2018: 46 cm height). Use identical colour/shading for same category across both rectangles. **Why this works:** Equal total area forces visual comparison of *proportional change* (forest 14→22 cm², net sown 42→46 cm²) without absolute magnitude distortion. A poor answer uses different total areas or stacks segments horizontally, making cross-year comparison impossible — a common error in board practical files.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

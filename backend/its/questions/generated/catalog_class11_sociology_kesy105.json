@@ -1,0 +1,89 @@
+{
+ "catalog": "catalog_class11_sociology_kesy105",
+ "concepts": [
+  {
+   "id": "kesy105.1.1",
+   "title": "Why Sociology is a Science: Method and Objectivity",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Why Sociology is a Science: Method and Objectivity' refers to.",
+     "a": "Sociology earns the name of science less from laboratories than from method: systematic observation, comparison and evidence open to checking by others. Its object -- human beings who think and react -- makes controlled experiment hard, so objectivity means disciplined self-awareness about one's own biases rather than a value-free machine.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Why Sociology is a Science: Method and Objectivity'.",
+     "a": "Science is a discipline of evidence, not a place -- sociology studies people systematically while admitting the observer's presence.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Why Sociology is a Science: Method and Objectivity' taught, and from which source text?",
+     "a": "1.1 (source: kesy105.txt lines 15-130 (introduction, sociology as a science, objectivity, difficulties of studying human behaviour, method as disciplined procedure))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kesy105.1.2",
+   "title": "Sources of Data: Primary and Secondary",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Sources of Data: Primary and Secondary' refers to.",
+     "a": "Social researchers draw on primary data collected first-hand from the field -- interviews, observation, questionnaires -- and secondary data already recorded by others -- censuses, official reports, newspapers, parish or panchayat records. Each source has strengths and blind spots, so studies often mix them.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sources of Data: Primary and Secondary'.",
+     "a": "First-hand fieldwork or second-hand records -- know what each source can and cannot tell you.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Sources of Data: Primary and Secondary' taught, and from which source text?",
+     "a": "1.2 (source: kesy105.txt lines 130-240 (sources of data, primary and secondary sources, census and survey material, documents and records, advantages and limitations))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kesy105.1.3",
+   "title": "The Survey, Sampling and the Questionnaire",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Survey, Sampling and the Questionnaire' refers to.",
+     "a": "A survey asks standardised questions of many respondents to map patterns across a population. Since interviewing everyone is impossible, researchers sample -- selecting a smaller set chosen so that it represents the whole -- and questionnaires or schedules collect the answers for quantitative analysis.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Survey, Sampling and the Questionnaire'.",
+     "a": "Ask the same questions of a well-chosen few and read the many -- that is the survey's craft.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Survey, Sampling and the Questionnaire' taught, and from which source text?",
+     "a": "1.3 (source: kesy105.txt lines 240-360 (survey method, sampling, population and sample, questionnaire and schedule, advantages and limitations of surveys))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kesy105.1.4",
+   "title": "Interview, Observation and Fieldwork in Anthropological Tradition",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Interview, Observation and Fieldwork in Anthropological Tradition' refers to.",
+     "a": "Qualitative methods probe meaning: interviews range from free conversation to guided discussions, letting respondents speak in their own terms; participant observation -- living among the people studied, as in classic village and slum studies -- records social life from inside. Fieldwork of this kind trades scale for depth and context.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Interview, Observation and Fieldwork in Anthropological Tradition'.",
+     "a": "Live among, listen to, and record -- qualitative methods capture what numbers leave out: meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Interview, Observation and Fieldwork in Anthropological Tradition' taught, and from which source text?",
+     "a": "1.4 (source: kesy105.txt lines 360-470 (interview method, participant observation, fieldwork tradition in sociology and anthropology, strengths and weaknesses of qualitative methods))",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

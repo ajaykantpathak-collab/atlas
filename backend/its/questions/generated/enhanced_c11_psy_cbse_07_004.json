@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_07_004",
+   "title": "c11_psy_cbse_07_004",
+   "questions": [
+    {
+     "q": "What are the seven mental operations involved in problem solving, in the correct sequential order as per NCERT Table 7.1?",
+     "a": "The seven operations in order are: (1) Identify the problem, (2) Represent the problem, (3) Plan the solution (set sub-goals), (4) Evaluate all solutions, (5) Select one solution and execute it, (6) Evaluate the outcome, (7) Rethink and redefine problems and solutions. A wrong answer (e.g., skipping representation or putting execution before evaluation) reveals the student views problem solving as a linear \"find answer quickly\" act rather than a cyclic, reflective process with distinct representation and monitoring phases.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves five consecutive math problems using the formula \"B – A – 2C\". On the sixth problem, the same formula works but a simpler direct method (A → C) exists. The student persists with the longer formula. Which obstacle is operating, and why is it NOT functional fixedness?",
+     "a": "The obstacle is mental set—a tendency to repeat a previously successful strategy. It is not functional fixedness because functional fixedness involves fixating on an object's conventional *function* (e.g., using a book only for reading, not as a hammer), whereas here the student is fixated on a *solution procedure*, not an object's use. A wrong answer conflating the two shows the student memorizes definitions without analyzing the cognitive mechanism: mental set = procedural rigidity; functional fixedness = object-use rigidity.",
+     "self_check": true
+    },
+    {
+     "q": "You have three bottles: A (15 ml), B (40 ml), C (5 ml). You need exactly 30 ml of water. Using the standard sequence B – A – 2C (fill B, pour into A, then pour into C twice), show the step-by-step water transfers and the final amount in B. Does this sequence work? If not, what simpler method works?",
+     "a": "Step 1: Fill B (40 ml). Step 2: Pour from B to A until A full → B has 25 ml (40-15). Step 3: Pour from B to C until C full → B has 20 ml (25-5). Step 4: Empty C. Step 5: Pour from B to C again → B has 15 ml (20-5). Final amount in B = 15 ml, not 30 ml. The sequence fails. Simpler method: Fill A (15 ml) twice → 30 ml. Or fill B (40 ml) and pour into C (5 ml) twice → 30 ml remains in B. A wrong answer indicates the student cannot simulate mental operations stepwise or blindly applies a memorized sequence without checking goal satisfaction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast how \"lack of motivation\" differs from \"mental set\" as an obstacle to problem solving in terms of (a) cognitive mechanism, (b) typical behavioral manifestation, and (c) remediation strategy.",
+     "a": "(a) Mental set is a cognitive rigidity from overlearned procedures; lack of motivation is an affective/volitional deficit in initiating or sustaining effort. (b) Mental set shows as repeated wrong method despite failure; lack of motivation shows as giving up early, not starting, or superficial engagement. (c) Mental set remediation: force novel perspective (e.g., \"think of three alternative first steps\"). Lack of motivation remediation: increase goal value (rewards, relevance), self-efficacy (scaffolded success), or reduce task aversion (chunking). A wrong answer treats both as \"thinking errors\" ignoring the motivational/emotional dimension of the latter.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Algorithms guarantee a correct solution, so they are always the best problem-solving strategy.\" Use the concepts of problem space, time constraints, and mental set to justify your evaluation.",
+     "a": "The statement is flawed. Algorithms (exhaustive step-by-step procedures) guarantee correctness *if* the problem space is finite and fully searchable, but they are often computationally intractable (e.g., chess moves, traveling salesman). Under time constraints (exams, emergencies), heuristics (rules of thumb) are adaptive despite occasional errors. Moreover, overreliance on algorithmic routines *creates* mental set, blocking insight-based solutions. A good answer acknowledges algorithms' role in well-defined problems (math formulas) but defends heuristics for ill-defined, real-world problems. A wrong answer uncritically favors algorithms, ignoring ecological rationality and cognitive economy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a novel \"water bottle\" problem (like NCERT Activity 7.2) that *requires* breaking mental set to solve efficiently. Specify bottle capacities, target volume, the misleading sequence that works for 3-4 warm-up problems, and the simpler insight solution for the critical problem.",
+     "a": "Example: Bottles A=8 ml, B=27 ml, C=3 ml. Target=20 ml. Warm-up problems (targets 19, 22, 24) solvable by B–A–C (27-8=19; 27-8+3=22; 27-3=24). Critical problem: target=20 ml. B–A–C gives 19 ml (fail). Insight: Fill A (8) twice → 16, then add C (3) → 19? No. Better: Fill C (3) seven times? No. Real insight: Fill B (27), pour into A (8) → 19 left, pour into C (3) → 16 left... Actually, a cleaner design: A=6, B=19, C=5. Warm-ups: targets 13 (B-A), 18 (B-C), 14 (B-A+C). Critical: target=12. B-A-C gives 8. Insight: A+C+C = 6+5+5=16? Hmm. Let's use NCERT's logic: A=23, B=49, C=3. Target=20. Warm-ups use B-A-2C. Critical: target=20. B-A-2C = 49-23-6=20? That works. Need target where B-A-2C fails but A→C works. NCERT Problem 6: Target=20, A=23, B=49, C=3. B-A-2C = 49-23-6=20 (works). Problem 7: Target=25, A=28, B=76, C=3. B-A-2C = 76-28-6=42 (fails). Insight: A-C = 28-3=25. So student's problem must have similar structure. A good answer demonstrates understanding of mental set induction and insight design. A poor answer creates a problem solvable by the same sequence, missing the \"critical problem\" concept.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

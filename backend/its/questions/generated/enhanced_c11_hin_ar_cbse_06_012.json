@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_06_012",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_06_012",
+   "title": "c11_hin_ar_cbse_06_012",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a literal comprehension question and an inferential comprehension question in the context of board exam pattern?",
+     "a": "A literal question asks for information directly stated in the text (e.g., \"What subject does Jatuh teach?\"), while an inferential question requires drawing a conclusion using textual clues (e.g., \"Why does Jatuh risk her job to protect Vipin?\"). A wrong answer that defines both as \"questions based on the text\" reveals the student cannot distinguish explicit vs. implicit meaning — a critical gap because board marking schemes allocate different weightage and expect different answer structures for each type.",
+     "self_check": true
+    },
+    {
+     "q": "In the play \"जतन\", Jatuh says: \"मैंने पहली बार देखा कि वे बच्चे जो मार खाते हैं, वे मार खाने के आदी हो जाते हैं।\" If a question asks: \"What does this statement reveal about Jatuh's perspective on corporal punishment?\", is this literal or inferential? Justify your classification in two sentences.",
+     "a": "This is an inferential question. The statement is a direct quote (literal fact), but the question asks what it \"reveals about her perspective\" — an interpretation of her attitude, not a restatement of the quote. A student who labels this \"literal because it's a direct quote\" confuses the *source* (explicit text) with the *task* (interpretation). Board exams frequently use direct quotes as springboards for inferential questions; recognizing this pattern prevents misclassification.",
+     "self_check": true
+    },
+    {
+     "q": "Given the exchange where the Headmaster says: \"नियम! जानती हो तुम्हारा विद्यालय कितने नियमों से चलता है?\" and Jatuh replies: \"नियम तोड़ने के लिए नहीं, निभाने के लिए होते हैं।\" Answer this inferential question using the PEEL structure: \"How does this exchange establish the central conflict between institutional authority and individual conscience?\" Provide Point, Evidence (paraphrased), Explanation, Link.",
+     "a": "**Point:** The exchange frames the conflict as rules-as-control vs. rules-as-moral-duty. **Evidence:** Headmaster uses \"नियम\" to justify administrative power (\"कितने नियमों से चलता है\"), while Jatuh redefines \"नियम\" as ethical obligation (\"निभाने के लिए\"). **Explanation:** Headmaster's tone implies rules are tools for compliance; Jatuh's rebuttal claims rules serve justice. This clash mirrors the larger Vipin case where the system demands procedural conformity (signing false complaint) but conscience demands truth. **Link:** Thus, the dialogue microcosms the play's core tension — bureaucracy vs. humanity. A wrong answer quoting only Jatuh's line without contrasting the Headmaster's framing shows inability to analyze dialogue as dramatic conflict, not just character speech.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the literal information about Vipin's academic performance (marks: Physics 86, Chemistry 80, Biology 88, Hindi 82, Maths 90) with Jatuh's inference: \"वह लड़का पढ़ने में बहुत तेज है।\" Analyze how the playwright uses specific numerical data to build an inferential portrait of Vipin that contrasts with the Headmaster's reduction of him to \"कॉपी जाँचने वाला\".",
+     "a": "The literal marks (all above 80, Maths 90) objectively establish Vipin's academic excellence across subjects. Jatuh's inference \"बहुत तेज\" synthesizes this data into a character trait. The Headmaster's reduction to \"कॉपी जाँचने वाला\" strips away the human achiever, keeping only bureaucratic utility. The playwright's technique: concrete numbers (literal) → teacher's professional judgment (inferential) → administrator's dehumanizing label (critical irony). A student who merely lists the marks misses the structural contrast — the numbers exist precisely to make the Headmaster's dismissal palpable. Wrong answers treat the marks as \"extra information\" rather than evidentiary foundation for inference.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's answer to an inferential question: \"Why does Jatuh visit the Headmaster's house at night?\" — Student writes: \"Because she wants to complain about Vipin's punishment.\" The text shows Jatuh visiting *after* the Headmaster refuses to act at school. Is this answer acceptable for full marks in CBSE Class 11? Defend your evaluation.",
+     "a": "Unacceptable for full marks. The answer states a literal plot point (visit occurs) but misattributes the *motive* (complaining about punishment) when the text implies she goes to *persuade* the Headmaster to retract the false complaint against Vipin — a nuanced inferential distinction. CBSE marking scheme requires: (1) accurate inference of intent, (2) textual anchor (e.g., \"after Headmaster refuses at school\"), (3) connection to her ethical stance. The student's answer scores 1/3 (knows visit happens) but loses 2 marks for wrong motive and no evidence. This reveals the common error: confusing *sequence of events* (literal) with *character motivation* (inferential).",
+     "self_check": true
+    },
+    {
+     "q": "Create an inferential question based on the final scene where the Headmaster signs the retraction paper, and write a model PEEL answer using evidence from Jatuh's earlier dialogue: \"मैंने पहली बार देखा कि वे बच्चे जो मार खाते हैं, वे मार खाने के आदी हो जाते हैं।\"",
+     "a": "**Question:** \"How does the Headmaster's final signing of the retraction paper reflect a subtle shift in the power dynamic established through Jatuh's earlier insight about corporal punishment?\" **Model Answer:** **Point:** The signing marks institutional power yielding to moral authority. **Evidence:** Jatuh's earlier insight — \"मार खाने के आदी हो जाते हैं\" — exposes punishment as creating compliance, not change. **Explanation:** The Headmaster, who wielded punishment (Vipin's 72 marks cut, false complaint), finally submits to Jatuh's paper — a non-violent, procedural act. He becomes the one \"adapted\" to her method. **Link:** Thus, the play ends not with systemic revolution but with one administrator internalizing the teacher's lesson: true authority comes from conscience, not cane. A poor answer describes the signing as \"Headmaster agrees\" without linking to the punishment-insight motif, showing inability to trace thematic threads across scenes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

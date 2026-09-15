@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_10_004",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_10_004",
+   "title": "c11_eng_w_cbse_10_004",
+   "questions": [
+    {
+     "q": "Who is the protagonist of Sonnet 116, and what grammatical evidence in the first quatrain establishes this character as an active agent rather than a passive concept?",
+     "a": "The protagonist is Love personified, established as an active agent through its role as grammatical subject performing actions: \"Love is not love / Which alters...\" and \"Love... bends with the remover to remove.\" A wrong answer identifying \"the poet\" or \"true minds\" as protagonist reveals confusion between the poetic speaker (who appears only in the couplet) and the personified abstraction that dominates the three quatrains, or failure to recognize subject-verb agency in the syntax.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Shakespeare chooses to define Love primarily through negatives (\"not love,\" \"alters not,\" \"never shaken,\" \"not Time's fool\") rather than positive assertions, and what this reveals about the protagonist's character.",
+     "a": "The negative definition establishes Love by what it refuses to do — yielding to change, submitting to time, admitting impediments — portraying the protagonist as defined by resistance and constancy rather than active pursuit. This via negativa characterisation suggests Love's essence is immutable boundary-setting. A wrong answer claiming \"Shakespeare didn't know positive words\" or \"it's just poetic style\" misses the deliberate characterisation strategy: a protagonist defined by what it withstands, not what it seeks.",
+     "self_check": true
+    },
+    {
+     "q": "In the second quatrain, Love is compared to \"an ever-fixed mark\" and \"the star to every wandering bark.\" Apply the concept of extended metaphor to analyse what specific character traits these two images attribute to the protagonist, and how they differ from each other.",
+     "a": "The \"ever-fixed mark\" (lighthouse/sea-mark) characterises Love as stationary, reliable, a reference point that endures \"tempests\" without moving — trait: steadfast endurance. The \"star\" (Polaris) characterises Love as a navigational guide for others (\"every wandering bark\") whose \"worth's unknown\" though \"height be taken\" — trait: selfless guidance with transcendent value beyond measurement. The first image emphasises Love's own immovability; the second emphasises Love's function for others. A wrong answer treating both images as identical \"metaphors for constancy\" fails to distinguish the protagonist's dual characterisation as both anchor and guide.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the relationship between the protagonist Love and the antagonist Time across the third quatrain. How does Shakespeare's use of personification for both entities transform an abstract conflict into a dramatic character confrontation?",
+     "a": "Time is personified as a grim reaper figure with \"bending sickle's compass\" who claims \"rosy lips and cheeks\" as victims within his \"brief hours and weeks\" — antagonist characterised by physical destruction and temporal limitation. Love is personified as the resistant force who \"alters not,\" \"bears it out even to the edge of doom\" — protagonist characterised by moral endurance transcending physicality. The dramatic confrontation elevates the theme from philosophical statement to character-driven narrative: Love refuses to be \"Time's fool\" (subservient jester), asserting autonomy against Time's tyranny. A wrong answer listing \"Time destroys beauty, Love lasts longer\" misses the personification-as-characterisation technique that makes this a protagonist-antagonist dynamic.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the poetic speaker's decision to appear only in the final couplet (\"If this be error, and upon me proved, / I never writ, nor no man ever loved\"). Does this strengthen or weaken the protagonist Love's characterisation, and why?",
+     "a": "The speaker's delayed entrance strengthens Love's characterisation by making the entire preceding argument a disinterested, objective definition — Love speaks for itself through its actions across three quatrains. The speaker then stakes his own credibility (\"I never writ\") and the entire human experience of love (\"nor no man ever loved\") on Love's truth, transforming the poem from definition into existential wager. This retrospective validation makes Love's characterisation feel earned, not asserted. A wrong answer claiming \"the speaker is the real protagonist\" or \"the couplet is just a standard sonnet ending\" fails to evaluate the strategic characterisation effect of withholding the \"I\" until the final verdict.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-line stanza in Shakespearean sonnet rhythm (iambic pentameter, ABAB rhyme) that introduces a new antagonist for the protagonist Love (e.g., Doubt, Distance, Silence) and shows Love's characteristic response, maintaining the personification and negative-definition pattern established in the poem.",
+     "a": "Example: \"Let not Doubt whisper in Love's steadfast ear, / Nor Distance stretch its weary miles between; / Love scorns the void, draws distant hearts more near, / Unmoved by gaps where silence reigns unseen.\" A strong answer maintains iambic pentameter, ABAB rhyme, personifies both antagonist and Love, uses negative construction (\"Let not,\" \"Nor,\" \"scorns,\" \"Unmoved\"), and shows Love's active resistance. A poor answer breaks meter, uses simple positive statements (\"Love is strong\"), or fails to personify the antagonist — revealing inability to internalise the poem's characterisation logic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,528 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "chapter": 107,
+ "chapter_title": "Alternating Current",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/leph107.txt",
+ "concepts": [
+  {
+   "id": "leph.7.2.1",
+   "title": "Root Mean Square (RMS) Values of AC Voltage and Current",
+   "section": "7.2",
+   "definition": "The effective or root mean square value of an alternating current represents the equivalent steady direct current that produces the identical rate of heating across a given resistance.",
+   "formula": "rms_voltage = peak_voltage / sqrt(2); rms_current = peak_current / sqrt(2)",
+   "key_idea": "RMS values are equal to peak amplitudes divided by the square root of two.",
+   "textbook_ref": "leph107.txt lines 70-120",
+   "question_patterns": [
+    "calculate the rms voltage for an alternating voltage having peak amplitude of ...",
+    "find the peak voltage when the rms supply voltage is ...",
+    "what is the rms current corresponding to a peak current of ...",
+    "determine the peak current given that the effective current is ..."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide peak value by square root of 2",
+     "explain": "rms value is the peak value divided by sqrt(2)",
+     "compute": "rms_value = peak_value / sqrt(2)"
+    }
+   ]
+  },
+  {
+   "id": "leph.7.2.2",
+   "title": "AC Power Dissipated in a Purely Resistive Circuit",
+   "section": "7.2",
+   "definition": "The average electrical energy transformed per unit time into thermal energy within a resistive element connected to an alternating source.",
+   "formula": "power = (rms_voltage ** 2) / resistance",
+   "key_idea": "In brief, In brief, In brief, In brief, In a pure resistor, the alternating both current and voltage stay perfectly in phase, dissipating average power same as the result of multiplying rms voltage and rms current.",
+   "textbook_ref": "leph107.txt lines 90-135",
+   "question_patterns": [
+    "calculate the average power consumed by a resistor connected to an ac supply",
+    "find the resistance and rms current for an electric bulb rated at ... connected to ...",
+    "what is the net power dissipated across a resistor of ... with an applied rms voltage of ...",
+    "determine the power consumed over a complete cycle in a pure resistor"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute power from rms voltage and resistance",
+     "explain": "average power equals rms voltage squared divided by resistance",
+     "compute": "power = (rms_voltage ** 2) / resistance"
+    }
+   ]
+  },
+  {
+   "id": "leph.7.4.1",
+   "title": "Inductive Reactance and Current in a Pure Inductor",
+   "section": "7.4",
+   "definition": "The effective opposition offered by an inductor to the flow of sinusoidal alternating current, arising from self-induced electromotive force.",
+   "formula": "inductive_reactance = 2 * pi * frequency * inductance",
+   "key_idea": "Opposition scales directly with frequency and inductance, causing the current to lag the applied voltage by a quarter of a cycle.",
+   "textbook_ref": "leph107.txt lines 175-225",
+   "question_patterns": [
+    "find the inductive reactance of an inductor of inductance ... at frequency ...",
+    "calculate the rms current through a pure inductor connected to an ac source",
+    "what is the inductive reactance when an ac voltage is applied across an inductor of ...",
+    "determine the current flowing in a purely inductive circuit of ..."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate inductive reactance",
+     "explain": "multiply two times pi, frequency, and inductance",
+     "compute": "inductive_reactance = 2 * pi * frequency * inductance"
+    },
+    {
+     "step": 2,
+     "action": "determine rms current",
+     "explain": "divide rms voltage by inductive reactance",
+     "compute": "rms_current = rms_voltage / inductive_reactance"
+    }
+   ]
+  },
+  {
+   "id": "leph.7.5.1",
+   "title": "Capacitive Reactance and Current in a Pure Capacitor",
+   "section": "7.5",
+   "definition": "The opposition presented by a capacitor to the flow of alternating current, governed by the rate of cyclic accumulation and release of electric charge on its plates.",
+   "formula": "capacitive_reactance = 1 / (2 * pi * frequency * capacitance)",
+   "key_idea": "In brief, Capacitive opposition varies in inverse proportion with frequency and capacitance, leading to current being ninety degrees ahead of voltage.",
+   "textbook_ref": "leph107.txt lines 255-300",
+   "question_patterns": [
+    "find the capacitive reactance of a capacitor of capacitance ... at frequency ...",
+    "calculate the rms current through a capacitor connected to an ac voltage of ...",
+    "what is the capacitive reactance and peak current for a capacitor of ...",
+    "determine the opposition offered by a capacitor in an ac circuit of frequency ..."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate capacitive reactance",
+     "explain": "capacitive reactance equals the reciprocal of two times pi times frequency times capacitance",
+     "compute": "capacitive_reactance = 1 / (2 * pi * frequency * capacitance)"
+    },
+    {
+     "step": 2,
+     "action": "determine rms current",
+     "explain": "divide rms voltage by capacitive reactance",
+     "compute": "rms_current = rms_voltage / capacitive_reactance"
+    }
+   ]
+  },
+  {
+   "id": "leph.7.6.1",
+   "title": "Impedance of a Series LCR Circuit",
+   "section": "7.6",
+   "definition": "The total effective opposition encountered by alternating current traversing a series arrangement of a resistor, an inductor, and a capacitor.",
+   "formula": "impedance = sqrt(resistance ** 2 + (inductive_reactance - capacitive_reactance) ** 2)",
+   "key_idea": "Total impedance is the hypotenuse in a right-angled impedance triangle where resistance is horizontal and net reactance is perpendicular.",
+   "textbook_ref": "leph107.txt lines 340-410",
+   "question_patterns": [
+    "calculate the impedance of a series LCR circuit with resistance ..., inductance ..., and capacitance ...",
+    "find the total impedance and current amplitude in an LCR network",
+    "what is the impedance of a circuit containing a resistor and a capacitor in series",
+    "determine the alternating current through a series combination of R, L, and C"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute inductive reactance",
+     "explain": "find opposition of inductor",
+     "compute": "inductive_reactance = 2 * pi * frequency * inductance"
+    },
+    {
+     "step": 2,
+     "action": "compute capacitive reactance",
+     "explain": "find opposition of capacitor",
+     "compute": "capacitive_reactance = 1 / (2 * pi * frequency * capacitance)"
+    },
+    {
+     "step": 3,
+     "action": "calculate net impedance",
+     "explain": "take the square root of sum of resistance squared and difference of reactances squared",
+     "compute": "impedance = sqrt(resistance ** 2 + (inductive_reactance - capacitive_reactance) ** 2)"
+    },
+    {
+     "step": 4,
+     "action": "compute rms current",
+     "explain": "divide applied voltage by total impedance",
+     "compute": "rms_current = rms_voltage / impedance"
+    }
+   ]
+  },
+  {
+   "id": "leph.7.6.2",
+   "title": "Phase Angle in a Series LCR Circuit",
+   "section": "7.6.1",
+   "definition": "The angular lead or lag of current relative to the driving alternating voltage in a series circuit containing reactive and resistive elements.",
+   "formula": "tan_phi = (capacitive_reactance - inductive_reactance) / resistance",
+   "key_idea": "In brief, In brief, the phase's tangent difference equals the ratio of net reactance to resistance, indicating whether current leads or lags.",
+   "textbook_ref": "leph107.txt lines 380-415",
+   "question_patterns": [
+    "determine the phase difference between voltage and current in a series LCR circuit",
+    "calculate the tangent of the phase angle for a circuit with R = ..., XL = ..., XC = ...",
+    "is the current leading or lagging the voltage in a series LCR circuit with ...",
+    "find the phase relation between the alternating current and applied voltage"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find net reactance",
+     "explain": "subtract inductive reactance from capacitive reactance",
+     "compute": "net_reactance = capacitive_reactance - inductive_reactance"
+    },
+    {
+     "step": 2,
+     "action": "calculate tangent of phase angle",
+     "explain": "divide net reactance by resistance",
+     "compute": "tan_phi = net_reactance / resistance"
+    }
+   ]
+  },
+  {
+   "id": "leph.7.6.3",
+   "title": "Resonant Frequency in a Series LCR Circuit",
+   "section": "7.6.2",
+   "definition": "The unique angular frequency at which inductive and capacitive reactances become identical in magnitude, reducing the overall circuit impedance strictly to its resistance.",
+   "formula": "resonant_angular_frequency = 1 / sqrt(inductance * capacitance)",
+   "key_idea": "At resonance, the reactive voltages fully cancel each other out, making current reach its maximum achievable amplitude.",
+   "textbook_ref": "leph107.txt lines 420-475",
+   "question_patterns": [
+    "calculate the resonant angular frequency of a series LCR circuit",
+    "find the natural frequency of electrical oscillations for an LC circuit",
+    "at what frequency does resonance occur for an inductor of ... and capacitor of ...",
+    "determine the resonating frequency and current amplitude at resonance"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate resonant angular frequency",
+     "explain": "resonant angular frequency is the reciprocal of the square root of L times C",
+     "compute": "resonant_angular_frequency = 1 / sqrt(inductance * capacitance)"
+    },
+    {
+     "step": 2,
+     "action": "calculate linear resonant frequency",
+     "explain": "divide angular frequency by two pi",
+     "compute": "resonant_frequency = resonant_angular_frequency / (2 * pi)"
+    }
+   ]
+  },
+  {
+   "id": "leph.7.7.1",
+   "title": "Power Factor and Average Power in AC Circuits",
+   "section": "7.7",
+   "definition": "The measure of actual real power transferred to an alternating current circuit relative to the apparent volt-ampere product, quantified by the phase's cosine difference.",
+   "formula": "power_factor = resistance / impedance; average_power = rms_voltage * rms_current * power_factor",
+   "key_idea": "Only the resistive part of an AC circuit dissipates energy, meaning average power depends on the phase's cosine angle.",
+   "textbook_ref": "leph107.txt lines 480-545",
+   "question_patterns": [
+    "calculate the power factor of a series LCR circuit",
+    "find the average power dissipated over a cycle in an ac circuit with ...",
+    "determine the power factor given resistance and total impedance",
+    "what is the power dissipated in a circuit having a phase lag of ..."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate power factor",
+     "explain": "power factor is the ratio of resistance to circuit impedance",
+     "compute": "power_factor = resistance / impedance"
+    },
+    {
+     "step": 2,
+     "action": "calculate average power",
+     "explain": "multiply rms voltage, rms current, and power factor",
+     "compute": "average_power = rms_voltage * rms_current * power_factor"
+    }
+   ]
+  },
+  {
+   "id": "leph.7.8.1",
+   "title": "Transformation Ratio and Voltage-Current Relations in a Transformer",
+   "section": "7.8",
+   "definition": "The relationship governing the stepping up or stepping down of alternating both both both both both both both both both both both both both both both both both both both both both both both both voltages and currents in mutual induction coils using their winding turn counts.",
+   "formula": "secondary_voltage = primary_voltage * (secondary_turns / primary_turns)",
+   "key_idea": "For an ideal lossless transformer, electric power is conserved, causing current to change in inverse proportion to the turn ratio.",
+   "textbook_ref": "leph107.txt lines 610-685",
+   "question_patterns": [
+    "find the secondary voltage of a transformer with primary voltage ... and turns ratio ...",
+    "calculate the current in the secondary winding of an ideal transformer",
+    "what is the output voltage when primary turns are ... and secondary turns are ...",
+    "determine secondary current given primary current and turn ratio"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate secondary voltage",
+     "explain": "secondary voltage equals primary voltage multiplied by secondary to primary turn ratio",
+     "compute": "secondary_voltage = primary_voltage * (secondary_turns / primary_turns)"
+    },
+    {
+     "step": 2,
+     "action": "calculate secondary current",
+     "explain": "by power conservation, secondary current equals primary current divided by the turn ratio",
+     "compute": "secondary_current = primary_current * (primary_turns / secondary_turns)"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex7.1",
+   "source_ref": "Example 7.1, page 180",
+   "concept": "leph.7.2.2",
+   "question_type": "compute",
+   "question_pattern": "A light bulb is rated at {power} W for a {rms_voltage} V supply. Find (a) the resistance of the bulb; (b) the peak voltage of the source; and (c) the rms current through the bulb.",
+   "extracted_variables": {
+    "power": "rated electric power in watts",
+    "rms_voltage": "supply rms voltage in volts"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate resistance of the bulb",
+     "explain": "resistance is the square of rms voltage divided by rated power",
+     "compute": "resistance = (rms_voltage ** 2) / power"
+    },
+    {
+     "step": 2,
+     "action": "find peak voltage",
+     "explain": "peak voltage is rms voltage multiplied by sqrt(2)",
+     "compute": "peak_voltage = rms_voltage * sqrt(2)"
+    },
+    {
+     "step": 3,
+     "action": "find rms current",
+     "explain": "rms current is power divided by rms voltage",
+     "compute": "rms_current = power / rms_voltage"
+    }
+   ]
+  },
+  {
+   "id": "ex7.2",
+   "source_ref": "Example 7.2, page 183",
+   "concept": "leph.7.4.1",
+   "question_type": "compute",
+   "question_pattern": "A pure inductor of {inductance} H is connected to a source of {rms_voltage} V. Find the inductive reactance and rms current in the circuit if the frequency of the source is {frequency} Hz.",
+   "extracted_variables": {
+    "inductance": "inductance of the pure inductor in henrys",
+    "rms_voltage": "rms voltage of ac supply in volts",
+    "frequency": "source frequency in hertz"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute inductive reactance",
+     "explain": "reactance is two times pi times frequency times inductance",
+     "compute": "inductive_reactance = 2 * pi * frequency * inductance"
+    },
+    {
+     "step": 2,
+     "action": "compute rms current",
+     "explain": "rms current is rms voltage divided by inductive reactance",
+     "compute": "rms_current = rms_voltage / inductive_reactance"
+    }
+   ]
+  },
+  {
+   "id": "ex7.4",
+   "source_ref": "Example 7.4, page 185",
+   "concept": "leph.7.5.1",
+   "question_type": "compute",
+   "question_pattern": "A {capacitance} F capacitor is connected to a {rms_voltage} V, {frequency} Hz source. Find the capacitive reactance and the current (rms and peak) in the circuit.",
+   "extracted_variables": {
+    "capacitance": "capacitance in farads",
+    "rms_voltage": "source rms voltage in volts",
+    "frequency": "supply frequency in hertz"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute capacitive reactance",
+     "explain": "capacitive reactance is the reciprocal of two times pi times frequency times capacitance",
+     "compute": "capacitive_reactance = 1 / (2 * pi * frequency * capacitance)"
+    },
+    {
+     "step": 2,
+     "action": "calculate rms current",
+     "explain": "rms current is rms voltage divided by capacitive reactance",
+     "compute": "rms_current = rms_voltage / capacitive_reactance"
+    },
+    {
+     "step": 3,
+     "action": "calculate peak current",
+     "explain": "peak current is rms current multiplied by sqrt(2)",
+     "compute": "peak_current = rms_current * sqrt(2)"
+    }
+   ]
+  },
+  {
+   "id": "ex7.6",
+   "source_ref": "Example 7.6, page 190",
+   "concept": "leph.7.6.1",
+   "question_type": "compute",
+   "question_pattern": "A resistor of {resistance} ohm and a capacitor of {capacitance} F are connected in series to a {rms_voltage} V, {frequency} Hz ac source. Calculate the current in the circuit.",
+   "extracted_variables": {
+    "resistance": "resistance in ohms",
+    "capacitance": "capacitance in farads",
+    "rms_voltage": "source rms voltage in volts",
+    "frequency": "frequency in hertz"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate capacitive reactance",
+     "explain": "reactance is 1 divided by (2 * pi * frequency * capacitance)",
+     "compute": "capacitive_reactance = 1 / (2 * pi * frequency * capacitance)"
+    },
+    {
+     "step": 2,
+     "action": "calculate circuit impedance",
+     "explain": "impedance is square root of resistance squared plus reactance squared",
+     "compute": "impedance = sqrt(resistance ** 2 + capacitive_reactance ** 2)"
+    },
+    {
+     "step": 3,
+     "action": "calculate circuit rms current",
+     "explain": "current is voltage divided by impedance",
+     "compute": "rms_current = rms_voltage / impedance"
+    }
+   ]
+  },
+  {
+   "id": "ex7.8",
+   "source_ref": "Example 7.8, page 192",
+   "concept": "leph.7.7.1",
+   "question_type": "compute",
+   "question_pattern": "A sinusoidal voltage of peak value {peak_voltage} V and frequency {frequency} Hz is applied to a series LCR circuit in which R = {resistance} ohm, L = {inductance} H, and C = {capacitance} F. Find the impedance of the circuit and the power factor.",
+   "extracted_variables": {
+    "peak_voltage": "voltage amplitude in volts",
+    "frequency": "supply frequency in hertz",
+    "resistance": "resistance in ohms",
+    "inductance": "inductance in henrys",
+    "capacitance": "capacitance in farads"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate inductive reactance",
+     "explain": "inductive reactance is 2 * pi * frequency * inductance",
+     "compute": "inductive_reactance = 2 * pi * frequency * inductance"
+    },
+    {
+     "step": 2,
+     "action": "calculate capacitive reactance",
+     "explain": "capacitive reactance is 1 / (2 * pi * frequency * capacitance)",
+     "compute": "capacitive_reactance = 1 / (2 * pi * frequency * capacitance)"
+    },
+    {
+     "step": 3,
+     "action": "compute impedance",
+     "explain": "impedance is square root of R squared plus net reactance squared",
+     "compute": "impedance = sqrt(resistance ** 2 + (inductive_reactance - capacitive_reactance) ** 2)"
+    },
+    {
+     "step": 4,
+     "action": "determine power factor",
+     "explain": "power factor is resistance divided by impedance",
+     "compute": "power_factor = resistance / impedance"
+    }
+   ]
+  },
+  {
+   "id": "ex7.9",
+   "source_ref": "Example 7.9, page 193",
+   "concept": "leph.7.6.3",
+   "question_type": "compute",
+   "question_pattern": "For a series circuit with L = {inductance} H and C = {capacitance} F, find the angular resonant frequency and cyclic resonant frequency.",
+   "extracted_variables": {
+    "inductance": "inductance in henrys",
+    "capacitance": "capacitance in farads"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate angular resonant frequency",
+     "explain": "angular resonant frequency is 1 / sqrt(inductance * capacitance)",
+     "compute": "resonant_angular_frequency = 1 / sqrt(inductance * capacitance)"
+    },
+    {
+     "step": 2,
+     "action": "calculate linear resonant frequency",
+     "explain": "frequency in Hz is angular frequency divided by 2 * pi",
+     "compute": "resonant_frequency = resonant_angular_frequency / (2 * pi)"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex7.1",
+   "source_ref": "Exercise 7.1, page 200",
+   "questions": [
+    "A 100 ohm resistor is connected to a 220 V, 50 Hz ac supply. (a) What is the rms value of current in the circuit? (b) What is the net power consumed over a full cycle?"
+   ]
+  },
+  {
+   "id": "ex7.2",
+   "source_ref": "Exercise 7.2, page 200",
+   "questions": [
+    "(a) The peak voltage of an ac supply is 300 V. What is the rms voltage? (b) The rms value of current in an ac circuit is 10 A. What is the peak current?"
+   ]
+  },
+  {
+   "id": "ex7.3",
+   "source_ref": "Exercise 7.3, page 200",
+   "questions": [
+    "A 44 mH inductor is connected to 220 V, 50 Hz ac supply. Determine the rms value of the current in the circuit."
+   ]
+  },
+  {
+   "id": "ex7.4",
+   "source_ref": "Exercise 7.4, page 200",
+   "questions": [
+    "A 60 microfarad capacitor is connected to a 110 V, 60 Hz ac supply. Determine the rms value of the current in the circuit."
+   ]
+  },
+  {
+   "id": "ex7.5",
+   "source_ref": "Exercise 7.5, page 200",
+   "questions": [
+    "In Exercises 7.3 and 7.4, what is the net power absorbed by each circuit over a complete cycle. Explain your answer."
+   ]
+  },
+  {
+   "id": "ex7.6",
+   "source_ref": "Exercise 7.6, page 200",
+   "questions": [
+    "A charged 30 microfarad capacitor is connected to a 27 mH inductor. What is the angular frequency of free oscillations of the circuit?"
+   ]
+  },
+  {
+   "id": "ex7.7",
+   "source_ref": "Exercise 7.7, page 200",
+   "questions": [
+    "A series LCR circuit with R = 20 ohm, L = 1.5 H and C = 35 microfarad is connected to a variable-frequency 200 V ac supply. When the frequency of the supply equals the natural frequency of the circuit, what is the average power transferred to the circuit in one complete cycle?"
+   ]
+  },
+  {
+   "id": "ex7.8",
+   "source_ref": "Exercise 7.8, page 200",
+   "questions": [
+    "Figure 7.17 shows a series LCR circuit connected to a variable frequency 230 V source. L = 5.0 H, C = 80 microfarad, R = 40 ohm. (a) Determine the source frequency which drives the circuit in resonance. (b) Obtain the impedance of the circuit and the amplitude of current at the resonating frequency. (c) Determine the rms potential drops across the three elements of the circuit. Show that the potential drop across the LC combination is zero at the resonating frequency."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

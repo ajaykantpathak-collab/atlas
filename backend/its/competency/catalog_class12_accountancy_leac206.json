@@ -1,0 +1,383 @@
+{
+ "class": 12,
+ "subject": "accountancy",
+ "chapter": 6,
+ "chapter_title": "Cash Flow Statement",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leac206.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leac.206.3.1",
+   "title": "Cash and Cash Equivalents",
+   "section": "6.3",
+   "definition": "For this statement, cash means cash in hand and demand deposits, while cash equivalents are short-term, highly liquid placements -- typically marketable securities and bank or short-term deposits falling due within about three months -- that can be converted into known amounts of cash without material risk.",
+   "formula": "cash_and_equivalents = cash_in_hand + demand_deposits + short_term_marketable_investments",
+   "key_idea": "Bank overdraft, cash credit and short-term deposits sit with the equivalents, so movements inside this family are not cash flows at all.",
+   "textbook_ref": "leac206.txt section 6.3 (lines 109-124)",
+   "question_patterns": [
+    "what counts as cash and cash equivalents in a cash flow statement",
+    "why are bank overdraft and cash credit taken as cash equivalents",
+    "state the maturity window for a deposit to qualify as a cash equivalent",
+    "are marketable securities treated as cash equivalents",
+    "what does a movement between cash and equivalents mean for the statement",
+    "distinguish cash from cash equivalents with instances"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "test liquidity", "explain": "the item must be convertible into a known amount of cash quickly and without significant risk"},
+    {"step": 2, "action": "test the maturity", "explain": "short-term deposits and securities maturing within roughly three months qualify; longer placements are investments"},
+    {"step": 3, "action": "bundle the overdraft", "explain": "bank overdrafts repayable on demand are carried as part of cash and equivalents, closing the family"}
+   ]
+  },
+  {
+   "id": "leac.206.4.1",
+   "title": "Objectives and Benefits of a Cash Flow Statement",
+   "section": "6.2",
+   "definition": "The statement traces where the cash of an enterprise came from and where it went across the period, helping users judge the firm's capacity to generate cash, meet obligations and pay returns, beyond what profit figures alone reveal.",
+   "formula": "statement_purpose = cash_sources + cash_uses + future_capacity_signal",
+   "key_idea": "Profit is an opinion on accruals; the cash flow statement shows the money that actually moved.",
+   "textbook_ref": "leac206.txt sections 6.1-6.2 (lines 44-108)",
+   "question_patterns": [
+    "why does a company prepare a cash flow statement",
+    "what can a user judge from a cash flow statement",
+    "how does the statement help in planning short-term needs",
+    "state the benefits of studying cash movements",
+    "what does the statement show that a profit statement does not",
+    "how does cash flow information aid lenders and investors"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "state the core purpose", "explain": "report inflows and outflows of cash and equivalents from operating, investing and financing activities"},
+    {"step": 2, "action": "state the judgement uses", "explain": "users assess the firm's ability to generate cash, pay debts, distribute dividends and meet obligations on time"},
+    {"step": 3, "action": "note the profit bridge", "explain": "reconciling net profit with net operating cash exposes the accrual versus cash gap"}
+   ]
+  },
+  {
+   "id": "leac.206.5.1",
+   "title": "Classification into Operating, Investing and Financing Activities",
+   "section": "6.5",
+   "definition": "Every cash movement lands in one of three buckets: operating activities from the main revenue-producing work, investing activities from buying and selling long-term assets and investments, and financing activities from changing the equity and borrowing base.",
+   "formula": "net_increase_in_cash = operating_flows + investing_flows + financing_flows",
+   "key_idea": "Classification is by the nature of the business event, not by the account title -- the same item can shift buckets between enterprises.",
+   "textbook_ref": "leac206.txt sections 6.5-6.5.3, Exhibit 6.2 (lines 138-312, 358-374)",
+   "question_patterns": [
+    "classify cash flows into operating, investing and financing activities",
+    "under which head does the purchase of machinery fall",
+    "where do proceeds from issuing shares appear in the statement",
+    "is cash received from trade receivables an operating flow",
+    "classify redemption of preference shares in the statement",
+    "how do the three activity heads join into the net change in cash"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "test for operations", "explain": "receipts and payments of the main revenue activity -- sales collections, supplier payments, wages, taxes -- are operating"},
+    {"step": 2, "action": "test for investments", "explain": "purchase and sale of fixed assets, non-current investments and the interest or dividend earned on them are investing"},
+    {"step": 3, "action": "test for financing", "explain": "share issues, debentures, long-term loans, their repayments, interest and dividends paid are financing; the three totals add to the net change in cash"}
+   ]
+  },
+  {
+   "id": "leac.206.5.4",
+   "title": "Treatment of Peculiar Items",
+   "section": "6.5.4",
+   "definition": "Special items follow fixed homes: income tax rides with operating flows unless tied to investing or financing, interest and dividends paid and received go to financing and investing for a non-financial enterprise (all operating for a financial one), extraordinary items are disclosed separately, and non-cash deals never enter the statement.",
+   "formula": "peculiar_items = income_taxes + interest_and_dividend + extraordinary_items + non_cash_transactions",
+   "key_idea": "Machinery bought by issuing shares changes no cash, so it is disclosed outside the statement, not inside it.",
+   "textbook_ref": "leac206.txt section 6.5.4 (lines 313-353)",
+   "question_patterns": [
+    "how are interest paid and dividend paid classified for a non-financial company",
+    "under which head does income tax paid appear",
+    "where do extraordinary cash flows go in the statement",
+    "why is machinery purchased by issuing shares left out of the statement",
+    "how does classification differ for a financial enterprise",
+    "treat capital gains tax on sale of a fixed asset in the statement"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "place the taxes", "explain": "taxes on income default to operating; capital gains tax follows the investing sale; dividend tax follows the financing payment"},
+    {"step": 2, "action": "place interest and dividends", "explain": "non-financial enterprise: interest and dividends paid under financing, received under investing; financial enterprise: all under operating except dividends paid"},
+    {"step": 3, "action": "screen out non-cash", "explain": "assets acquired through share issues and debentures redeemed by shares are disclosed in notes, never as cash flows"}
+   ]
+  },
+  {
+   "id": "leac.206.6.1",
+   "title": "Net Profit before Tax and Extraordinary Items",
+   "section": "6.6.1",
+   "definition": "The indirect method starts not from the bottom-line profit but from profit before tax and extraordinary items, built by adding back the tax provision (and any financing charges like the previous year's proposed dividend) to the net profit reported.",
+   "formula": "profit_before_tax_and_extraordinary = net_profit_after_tax + provision_for_tax_made",
+   "key_idea": "Tax is deducted only once -- at the very end, as the actual tax paid -- so it must first be added back to the reported profit.",
+   "textbook_ref": "leac206.txt section 6.6.1, Illustration 2 working note (lines 604-662)",
+   "question_patterns": [
+    "calculate net profit before tax and extraordinary items from net profit",
+    "why does the indirect method start from profit before tax",
+    "add back the provision for taxation to the reported profit",
+    "where does proposed dividend of the previous year enter the calculation",
+    "what is the starting point of cash flows from operating activities",
+    "restate profit after tax as the pre-tax figure"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "add back the tax provision", "explain": "net profit after tax plus the provision for tax made in the profit statement", "compute": "profit_before_tax_and_extraordinary = net_profit_after_tax + provision_for_tax_made"}
+   ]
+  },
+  {
+   "id": "leac.206.6.2",
+   "title": "Cash Flow from Operating Activities (Indirect Method)",
+   "section": "6.6.1",
+   "definition": "From the pre-tax profit, add back non-cash charges and financing costs, drop non-operating incomes, then adjust for working capital movements -- rises in current assets and falls in current liabilities come off, falls in current assets and rises in current liabilities go on -- and finally deduct the tax actually paid.",
+   "formula": "net_cash_from_operating_activities = profit_before_tax_and_extraordinary + non_cash_expenses - non_operating_incomes - increase_in_current_assets - decrease_in_current_liabilities + increase_in_current_liabilities - income_tax_paid",
+   "key_idea": "The accrual profit walks to cash through four stops: non-cash items, non-operating items, working capital, tax paid.",
+   "textbook_ref": "leac206.txt section 6.6.1, Exhibit 6.4, Illustrations 2-3 (lines 469-662, 663-800)",
+   "question_patterns": [
+    "calculate cash flow from operating activities by the indirect method",
+    "adjust net profit for depreciation and working capital changes",
+    "prepare the operating activities section of a cash flow statement",
+    "why is depreciation added back and an increase in debtors deducted",
+    "find cash generated from operations and then the net operating cash flow",
+    "how does tax paid enter the operating activities computation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "start from the pre-tax profit", "explain": "net profit after tax plus the tax provision made", "compute": "profit_before_tax_and_extraordinary = net_profit_after_tax + provision_for_tax_made"},
+    {"step": 2, "action": "strip non-cash and non-operating effects", "explain": "add depreciation, goodwill written off and finance costs; subtract incomes like profit on sale of machinery", "compute": "operating_profit_before_wc = profit_before_tax_and_extraordinary + non_cash_expenses + finance_costs - non_operating_incomes"},
+    {"step": 3, "action": "work the working capital changes", "explain": "deduct increases in current assets and decreases in current liabilities; add decreases in current assets and increases in current liabilities", "compute": "cash_generated_from_operations = operating_profit_before_wc - increase_in_current_assets - decrease_in_current_liabilities + increase_in_current_liabilities"},
+    {"step": 4, "action": "deduct the tax actually paid", "explain": "income tax paid comes off last to give net cash from operating activities", "compute": "net_cash_from_operating_activities = cash_generated_from_operations - income_tax_paid"}
+   ]
+  },
+  {
+   "id": "leac.206.6.3",
+   "title": "Income Tax Paid from the Provision Account",
+   "section": "6.6.1",
+   "definition": "When only provision balances and the year's charge are known, tax actually paid is found by balancing the provision for taxation account: opening provision plus the current charge minus the closing provision.",
+   "formula": "income_tax_paid = opening_provision_for_tax + provision_made_during_year - closing_provision_for_tax",
+   "key_idea": "The unpaid remainder just rolls into the closing balance; only the debited amount actually left the bank.",
+   "textbook_ref": "leac206.txt section 6.6.1, Illustration 3 data (lines 663-770)",
+   "question_patterns": [
+    "compute income tax paid from the provision for taxation account",
+    "find the tax actually paid during the year from opening and closing provisions",
+    "how much tax was deposited when only provisions are given",
+    "balance the taxation provision to derive the payment",
+    "does the provision made equal the tax paid in cash",
+    "derive the cash outflow for tax from provision data"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "balance the provision account", "explain": "opening provision plus the charge made in the profit statement, less the closing provision, is what was paid", "compute": "income_tax_paid = opening_provision_for_tax + provision_made_during_year - closing_provision_for_tax"}
+   ]
+  },
+  {
+   "id": "leac.206.6.4",
+   "title": "Cash Collected from Customers",
+   "section": "6.6",
+   "definition": "Under the direct view, cash collected from customers is the period's revenue from operations adjusted for the movement in trade receivables: open with revenue, add receivables outstanding at the start, take away those still outstanding at the end.",
+   "formula": "cash_received_from_customers = revenue_from_operations + opening_trade_receivables - closing_trade_receivables",
+   "key_idea": "Sales not yet collected sit in receivables, so growth in debtors silently holds cash back.",
+   "textbook_ref": "leac206.txt section 6.6, Test your Understanding II (lines 941-1000)",
+   "question_patterns": [
+    "compute cash collected from customers during the year",
+    "convert revenue from operations into cash receipts from debtors",
+    "adjust sales for opening and closing trade receivables",
+    "how much cash did the customers actually pay",
+    "does a rise in debtors reduce cash collected from sales",
+    "derive the receipt figure from revenue and receivable balances"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "adjust revenue for receivables movement", "explain": "opening receivables join the period's revenue; closing receivables have not yet paid", "compute": "cash_received_from_customers = revenue_from_operations + opening_trade_receivables - closing_trade_receivables"}
+   ]
+  },
+  {
+   "id": "leac.206.7.1",
+   "title": "Machinery Purchased (Balancing the Asset Account)",
+   "section": "6.7",
+   "definition": "When only balances and sale details are known, the cash spent on new machinery is the balancing figure of the machinery account: closing balance plus the cost of machines sold during the year minus the opening balance.",
+   "formula": "machinery_purchased = closing_machinery_at_cost + cost_of_machinery_sold - opening_machinery_at_cost",
+   "key_idea": "Carry assets at cost, park depreciation in its own account, and the missing figure -- the purchase -- falls out of the account.",
+   "textbook_ref": "leac206.txt section 6.7, Illustration 5 (lines 1047-1135)",
+   "question_patterns": [
+    "calculate the cost of machinery purchased during the year",
+    "find the cash spent on new machines from the asset account",
+    "balance the machinery account to get the purchase figure",
+    "how much machinery was bought when one machine was sold",
+    "derive the investing outflow on plant from opening and closing balances",
+    "what was the balancing figure in the machinery account"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "balance the asset account", "explain": "closing machinery plus the cost of machines removed by sale, less opening machinery, is the year's purchase", "compute": "machinery_purchased = closing_machinery_at_cost + cost_of_machinery_sold - opening_machinery_at_cost"}
+   ]
+  },
+  {
+   "id": "leac.206.7.2",
+   "title": "Depreciation Provided (Balancing Accumulated Depreciation)",
+   "section": "6.7",
+   "definition": "The year's depreciation charge is the balancing figure of the accumulated depreciation account: closing balance plus depreciation removed with the sold asset minus opening balance.",
+   "formula": "depreciation_provided = closing_accumulated_depreciation + accumulated_depreciation_on_sold_asset - opening_accumulated_depreciation",
+   "key_idea": "This recovered charge is the non-cash expense that gets added back inside operating activities.",
+   "textbook_ref": "leac206.txt section 6.7, Illustration 5 working notes (lines 1063-1135)",
+   "question_patterns": [
+    "calculate the depreciation provided during the year",
+    "balance the accumulated depreciation account for the charge",
+    "how much depreciation was charged when an asset was sold",
+    "find the depreciation to add back in operating activities",
+    "derive the year's charge from opening and closing accumulated depreciation",
+    "what depreciation travelled with the asset sold"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "balance the depreciation account", "explain": "closing accumulated depreciation plus the depreciation on the asset sold, less opening, gives the year's charge", "compute": "depreciation_provided = closing_accumulated_depreciation + accumulated_depreciation_on_sold_asset - opening_accumulated_depreciation"}
+   ]
+  },
+  {
+   "id": "leac.206.7.3",
+   "title": "Borrowings Raised (Balancing the Loan Account)",
+   "section": "6.7",
+   "definition": "Fresh long-term borrowings are the balancing figure of the loan account: closing loan balance plus loans repaid during the year minus the opening balance, and the figure becomes a financing inflow.",
+   "formula": "borrowings_raised = closing_long_term_loans + loans_repaid - opening_long_term_loans",
+   "key_idea": "The account tells both sides of the financing story -- the repayment that went out and the fresh money that came in.",
+   "textbook_ref": "leac206.txt section 6.7, Illustration 6 (lines 1119-1160)",
+   "question_patterns": [
+    "calculate the proceeds from long-term borrowings during the year",
+    "balance the loan account to find the fresh loan raised",
+    "how much was borrowed when part of the loan was repaid",
+    "find the financing inflow from movement in long-term loans",
+    "derive new borrowings from opening and closing balances and repayments",
+    "what does the balancing figure of the loan account represent"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "balance the loan account", "explain": "closing balance plus repayments made, less opening balance, is the fresh money raised", "compute": "borrowings_raised = closing_long_term_loans + loans_repaid - opening_long_term_loans"}
+   ]
+  },
+  {
+   "id": "leac.206.8.1",
+   "title": "Net Increase in Cash and Closing Balance",
+   "section": "6.8",
+   "definition": "The three activity totals -- operating, investing and financing -- add to the net increase or decrease in cash and equivalents, and adding that change to the opening balance produces the closing cash and equivalents that must tie to the balance sheet.",
+   "formula": "closing_cash_and_equivalents = opening_cash_and_equivalents + operating_flows + investing_flows + financing_flows",
+   "key_idea": "The closing figure is the proof line: if it does not match the bank and cash balances, an item is misclassified or missing.",
+   "textbook_ref": "leac206.txt section 6.8, Exhibit 6.2 (lines 358-374, 1203-1230)",
+   "question_patterns": [
+    "compute the net increase or decrease in cash for the year",
+    "add the three activity totals into one cash movement",
+    "find the closing cash and cash equivalents from the statement",
+    "how does the opening balance become the closing balance",
+    "verify the cash flow statement against the bank balances",
+    "what does a net decrease in cash reveal about the year"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "total the three flows", "explain": "operating plus investing plus financing gives the net movement", "compute": "net_increase_in_cash = operating_flows + investing_flows + financing_flows"},
+    {"step": 2, "action": "roll the balance forward", "explain": "opening cash and equivalents plus the net movement is the closing balance", "compute": "closing_cash_and_equivalents = opening_cash_and_equivalents + net_increase_in_cash"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "leac206.txt Illustration 2 working note (pre-tax profit)",
+   "concept": "leac.206.6.1",
+   "question_type": "numeric",
+   "question_pattern": "Net profit after tax is Rs.{net_profit_after_tax} and the provision for taxation made in the statement is Rs.{provision_for_tax_made}. State the net profit before tax and extraordinary items.",
+   "extracted_variables": {
+    "net_profit_after_tax": 32000,
+    "provision_for_tax_made": 10000
+   },
+   "solution_template": [
+    {"step": 1, "action": "add back the tax provision", "explain": "32000 + 10000 = 42000", "compute": "profit_before_tax_and_extraordinary = net_profit_after_tax + provision_for_tax_made"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "leac206.txt Illustration 2 (operating activities, indirect method)",
+   "concept": "leac.206.6.2",
+   "question_type": "numeric",
+   "question_pattern": "With profit before tax Rs.{profit_before_tax_and_extraordinary}, depreciation Rs.{non_cash_expenses}, current assets up Rs.{increase_in_current_assets}, payables down Rs.{decrease_in_current_liabilities}, accrued expenses up Rs.{increase_in_current_liabilities} and tax paid Rs.{income_tax_paid}, find net cash from operating activities.",
+   "extracted_variables": {
+    "net_profit_after_tax": 32000,
+    "provision_for_tax_made": 10000,
+    "non_cash_expenses": 20000,
+    "finance_costs": 0,
+    "non_operating_incomes": 0,
+    "increase_in_current_assets": 8500,
+    "decrease_in_current_liabilities": 2000,
+    "increase_in_current_liabilities": 1000,
+    "income_tax_paid": 11000
+   },
+   "solution_template": [
+    {"step": 1, "action": "start from the pre-tax profit", "explain": "32000 + 10000 = 42000", "compute": "profit_before_tax_and_extraordinary = net_profit_after_tax + provision_for_tax_made"},
+    {"step": 2, "action": "strip non-cash and non-operating effects", "explain": "42000 + 20000 + 0 - 0 = 62000", "compute": "operating_profit_before_wc = profit_before_tax_and_extraordinary + non_cash_expenses + finance_costs - non_operating_incomes"},
+    {"step": 3, "action": "work the working capital changes", "explain": "62000 - 8500 - 2000 + 1000 = 52500", "compute": "cash_generated_from_operations = operating_profit_before_wc - increase_in_current_assets - decrease_in_current_liabilities + increase_in_current_liabilities"},
+    {"step": 4, "action": "deduct the tax actually paid", "explain": "52500 - 11000 = 41500", "compute": "net_cash_from_operating_activities = cash_generated_from_operations - income_tax_paid"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "leac206.txt Illustration 5 (Welprint Ltd)",
+   "concept": "leac.206.7.1",
+   "question_type": "numeric",
+   "question_pattern": "Machinery at cost was Rs.{opening_machinery_at_cost} last year and Rs.{closing_machinery_at_cost} now; a machine costing Rs.{cost_of_machinery_sold} was sold. What machinery was purchased?",
+   "extracted_variables": {
+    "opening_machinery_at_cost": 50000,
+    "closing_machinery_at_cost": 60000,
+    "cost_of_machinery_sold": 25000
+   },
+   "solution_template": [
+    {"step": 1, "action": "balance the asset account", "explain": "60000 + 25000 - 50000 = 35000 purchased", "compute": "machinery_purchased = closing_machinery_at_cost + cost_of_machinery_sold - opening_machinery_at_cost"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "leac206.txt Illustration 6 (financing activities)",
+   "concept": "leac.206.7.3",
+   "question_type": "numeric",
+   "question_pattern": "Long-term loans moved from Rs.{opening_long_term_loans} to Rs.{closing_long_term_loans} while Rs.{loans_repaid} were repaid. What fresh borrowing was raised?",
+   "extracted_variables": {
+    "opening_long_term_loans": 200000,
+    "closing_long_term_loans": 250000,
+    "loans_repaid": 100000
+   },
+   "solution_template": [
+    {"step": 1, "action": "balance the loan account", "explain": "250000 + 100000 - 200000 = 150000 raised", "compute": "borrowings_raised = closing_long_term_loans + loans_repaid - opening_long_term_loans"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-practice-1",
+   "source_ref": "leac206.txt Questions for Practice, Short Answer Q1-Q5",
+   "questions": [
+    "state the meaning of a cash flow statement",
+    "what is the use of studying cash flows of an enterprise",
+    "define cash equivalents with instances",
+    "name the three activity heads of the statement",
+    "why are non-cash transactions left out of the statement"
+   ]
+  },
+  {
+   "id": "ex-practice-2",
+   "source_ref": "leac206.txt Questions for Practice, Long Answer Q1-Q4",
+   "questions": [
+    "explain the preparation of the operating activities section by the indirect method",
+    "distinguish the direct and indirect ways of arriving at operating cash flow",
+    "describe the classification of cash flows with instances of each head",
+    "how are taxes, interest and dividends classified in the statement"
+   ]
+  },
+  {
+   "id": "ex-numerical-1",
+   "source_ref": "leac206.txt Illustrations 2-3",
+   "questions": [
+    "adjust net profit for depreciation and working capital changes and arrive at net operating cash flow",
+    "balance the taxation provision to find the tax actually paid during the year"
+   ]
+  },
+  {
+   "id": "ex-numerical-2",
+   "source_ref": "leac206.txt Illustrations 5-6",
+   "questions": [
+    "from opening and closing machinery and accumulated depreciation with one machine sold, compute the purchase and depreciation figures",
+    "from the movement in long-term loans and the repayment made, find the fresh borrowing raised"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,256 @@
+{
+ "catalog": "catalog_class11_economics_ch103",
+ "concepts": [
+  {
+   "id": "keec.103.1",
+   "title": "Gross Value Added (GVA) Calculation",
+   "questions": [
+    {
+     "q": "Calculate the Gross Value Added. Use the method 'Gross Value Added (GVA) Calculation'. Work with: gdp = 5000, gdp_with_subsidies = 500, indirect_taxes = 5, subsidies = 300. Carry the chain through step by step and give the final value of the result.",
+     "a": "495 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the GVA from the given GDP, production subsidies, and indirect taxes. Use the method 'Gross Value Added (GVA) Calculation'. Work with: gdp = 1200, gdp_with_subsidies = 50000, indirect_taxes = 25, subsidies = 200. Carry the chain through step by step and give the final value of the result.",
+     "a": "49975 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Gross Value Added (GVA) Calculation' refers to.",
+     "a": "A measure of economic output that calculates the value of goods and services produced in an economy after adjusting GDP for subsidies and indirect taxes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Gross Value Added (GVA) Calculation'.",
+     "a": "GVA represents the actual value added by producers, obtained by adding subsidies to GDP and subtracting indirect taxes.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Gross Value Added (GVA) Calculation', in plain ASCII form.",
+     "a": "gva = gdp + subsidies - indirect_taxes",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.103.2",
+   "title": "Disinvestment Target Achievement",
+   "questions": [
+    {
+     "q": "Calculate the disinvestment surplus or deficit. Use the method 'Disinvestment Target Achievement'. Work with: actual_mobilised = 300, target_disinvestment = 15. Carry the chain through step by step and give the final value of the result.",
+     "a": "285 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the difference between actual disinvestment mobilization and the target. Use the method 'Disinvestment Target Achievement'. Work with: actual_mobilised = 300, target_disinvestment = 80. Carry the chain through step by step and give the final value of the result.",
+     "a": "220 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Disinvestment Target Achievement' refers to.",
+     "a": "The quantitative measure of whether the government met, exceeded, or fell short of its annual target for mobilizing capital through selling public sector equity.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Disinvestment Target Achievement'.",
+     "a": "Subtracting the target disinvestment from the actual amount mobilized to evaluate fiscal performance.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Disinvestment Target Achievement', in plain ASCII form.",
+     "a": "disinvestment_surplus = actual_mobilised - target_disinvestment",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.103.3",
+   "title": "Stabilisation vs Structural Reforms",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Stabilisation vs Structural Reforms' refers to.",
+     "a": "The classification of economic reforms into short-term stabilization policies to handle immediate balance of payments and inflation crises, and long-term structural reforms to improve overall economic efficiency.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Stabilisation vs Structural Reforms'.",
+     "a": "Stabilisation manages immediate financial crises, while structural reforms restructure the economy for long-term growth.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Stabilisation vs Structural Reforms' taught, and from which source text?",
+     "a": "3.2 (source: keec103.txt Section 3.2)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.103.4",
+   "title": "Deregulation of Industrial Sector",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Deregulation of Industrial Sector' refers to.",
+     "a": "The dismantling of regulatory barriers such as industrial licensing, public sector monopoly reservations, and price controls to allow free entry and operation of private firms.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Deregulation of Industrial Sector'.",
+     "a": "Abolishing licensing and opening up reserved sectors to allow market forces to determine production and pricing.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Deregulation of Industrial Sector' taught, and from which source text?",
+     "a": "3.3 (source: keec103.txt Section 3.3 (Deregulation of Industrial Sector))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.103.5",
+   "title": "Financial Sector Reforms",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Financial Sector Reforms' refers to.",
+     "a": "Policy measures designed to transition the role of the central bank from a rigid regulator to a facilitator, encouraging competition through private and foreign bank participation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Financial Sector Reforms'.",
+     "a": "Reducing central bank control over interest rates, branch expansion, and lending to encourage private and foreign investment.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Financial Sector Reforms' taught, and from which source text?",
+     "a": "3.3 (source: keec103.txt Section 3.3 (Financial Sector Reforms))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.103.6",
+   "title": "Tax Reforms and Fiscal Policy",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Tax Reforms and Fiscal Policy' refers to.",
+     "a": "Reforms concerning government taxation and public expenditure policies, aimed at lowering tax rates, simplifying procedures, and introducing unified taxes like GST to improve compliance.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Tax Reforms and Fiscal Policy'.",
+     "a": "Lowering direct tax rates to encourage voluntary disclosure and compliance, and simplifying indirect taxes (like introducing GST).",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Tax Reforms and Fiscal Policy' taught, and from which source text?",
+     "a": "3.3 (source: keec103.txt Section 3.3 (Tax Reforms))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.103.7",
+   "title": "Foreign Exchange Reforms and Devaluation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Foreign Exchange Reforms and Devaluation' refers to.",
+     "a": "The deliberate reduction in the value of the domestic currency relative to foreign currencies to stimulate exports and transition to a market-determined exchange rate system.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Foreign Exchange Reforms and Devaluation'.",
+     "a": "Devaluation of the rupee in 1991 to boost exports and foreign exchange inflows, followed by freeing the exchange rate to market forces.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Foreign Exchange Reforms and Devaluation' taught, and from which source text?",
+     "a": "3.3 (source: keec103.txt Section 3.3 (Foreign Exchange Reforms))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.103.8",
+   "title": "Trade and Investment Policy Reforms",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Trade and Investment Policy Reforms' refers to.",
+     "a": "The removal of quantitative restrictions on imports and exports, reduction of import tariffs, and dismantling of import licensing to enhance domestic industrial competitiveness.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Trade and Investment Policy Reforms'.",
+     "a": "Removing protectionist trade barriers to increase local industrial efficiency and competitiveness.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Trade and Investment Policy Reforms' taught, and from which source text?",
+     "a": "3.3 (source: keec103.txt Section 3.3 (Trade and Investment Policy Reforms))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.103.9",
+   "title": "Privatisation and Disinvestment",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Privatisation and Disinvestment' refers to.",
+     "a": "The process of reducing government ownership or management in public sector enterprises, either by outright sale or by selling a portion of equity to the public (disinvestment).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Privatisation and Disinvestment'.",
+     "a": "Shedding government ownership in public enterprises to improve financial discipline, modernize management, and attract private capital.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Privatisation and Disinvestment' taught, and from which source text?",
+     "a": "3.4 (source: keec103.txt Section 3.4)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.103.10",
+   "title": "Globalisation and Outsourcing",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Globalisation and Outsourcing' refers to.",
+     "a": "The integration of a country's economy with the global economy, characterized by outsourcing business operations to external nations where skilled labor is available at lower costs.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Globalisation and Outsourcing'.",
+     "a": "Creating a borderless world through communication technology, where companies hire external services (like BPOs) from other nations.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Globalisation and Outsourcing' taught, and from which source text?",
+     "a": "3.5 (source: keec103.txt Section 3.5)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keec.103.11",
+   "title": "World Trade Organisation (WTO) Role",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'World Trade Organisation (WTO) Role' refers to.",
+     "a": "An international trade organization established in 1995 to succeed GATT, aiming to establish a rule-based, non-discriminatory global trading regime by reducing tariffs and trade barriers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'World Trade Organisation (WTO) Role'.",
+     "a": "Promoting free trade by removing tariff and non-tariff barriers and providing equal opportunities to all member nations.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'World Trade Organisation (WTO) Role' taught, and from which source text?",
+     "a": "3.5 (source: keec103.txt Section 3.5 (World Trade Organisation))",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

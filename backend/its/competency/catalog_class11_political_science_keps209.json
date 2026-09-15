@@ -1,0 +1,144 @@
+{
+  "class": 11,
+  "subject": "political_science",
+  "chapter": 209,
+  "chapter_title": "Constitution as a Living Document",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keps209.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keps209.1.1",
+      "title": "A Living Document: Constitution Across Generations",
+      "section": "1.1",
+      "definition": "A constitution written in one era must govern many others, so it must be neither frozen nor flimsy. India's text has endured by adapting: over a hundred amendments, landmark interpretations and steady practice have let the same framework serve a changing society -- the meaning of a living document.",
+      "formula": "",
+      "key_idea": "Rigid enough to endure, flexible enough to grow -- a living constitution changes without dying.",
+      "textbook_ref": "keps209.txt lines 15-110 (introduction, constitution as a living document, why it survives across generations, amendment and interpretation as modes of change)",
+      "question_patterns": [
+        "why is the indian constitution called a living document",
+        "in class 11 constitution as a living document: how does a constitution balance stability with change",
+        "what would happen if a constitution were completely rigid",
+        "how does a constitution survive changing times",
+        "explain the difference between formal amendment and informal change",
+        "is flexibility a strength or weakness of a constitution"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "state the tension", "explain": "Too much rigidity makes a constitution obsolete; too much flexibility makes it plaything of majorities."},
+        {"step": 2, "action": "identify the adaptation channels", "explain": "Change arrives by formal amendment, by judicial interpretation, and by evolving conventions of practice."},
+        {"step": 3, "action": "see the design", "explain": "The Indian Constitution's moderate amendment rules let it evolve while its core -- basic structure -- stays anchored."}
+      ]
+    },
+    {
+      "id": "keps209.1.2",
+      "title": "The Amendment Procedure: Article 368",
+      "section": "1.2",
+      "definition": "Article 368 lets Parliament amend most provisions by a special majority -- more than half the total membership and two-thirds of those present. Some federal features additionally need ratification by half the state legislatures. No provision, however, is formally beyond amendment -- a choice that keeps the text amendable yet hard to touch casually.",
+      "formula": "",
+      "key_idea": "Special majority, sometimes plus half the states -- amendment is possible but never cheap.",
+      "textbook_ref": "keps209.txt lines 110-220 (amendment procedure, article 368, special majority, ratification by states, comparison with rigid and flexible constitutions)",
+      "question_patterns": [
+        "describe the amendment procedure of the indian constitution",
+        "in class 11 constitution as a living document: what majority is needed to amend the constitution",
+        "which amendments require ratification by state legislatures",
+        "is any part of the indian constitution unamendable",
+        "compare the indian amendment procedure with those of the usa and uk",
+        "why did the makers choose a moderately difficult amendment process"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "state the ordinary route", "explain": "Most articles change by special majority of both houses under Article 368."},
+        {"step": 2, "action": "state the federal route", "explain": "Amendments touching federal provisions -- election of the President, distribution of powers, the judiciary -- must also be ratified by half the state legislatures."},
+        {"step": 3, "action": "note the openness", "explain": "Parliament may amend any provision in form; the limit on content came from courts, not the text."}
+      ]
+    },
+    {
+      "id": "keps209.1.3",
+      "title": "Basic Structure and Landmark Amendments",
+      "section": "1.3",
+      "definition": "Parliament's amendments collided with the courts. Golak Nath blocked amending rights; Parliament answered with the 24th Amendment; Kesavananda Bharati then ruled that amendments cannot destroy the Constitution's basic structure -- democracy, secularism, judicial review, federalism. The 42nd Amendment tried total parliamentary supremacy; Minerva Mills struck its sweep down. Thus courts, not text, drew the final line.",
+      "formula": "",
+      "key_idea": "Parliament can amend anything but cannot kill the Constitution's identity -- the basic structure doctrine is the living document's spine.",
+      "textbook_ref": "keps209.txt lines 220-380 (golak nath kesavananda bharati minerva mills, basic structure doctrine, 24th 42nd and 44th amendments, judicial review of amendments)",
+      "question_patterns": [
+        "what is the basic structure doctrine of the indian constitution",
+        "in class 11 constitution as a living document: what did kesavananda bharati case decide",
+        "why is the 42nd amendment called the mini constitution",
+        "how did the golak nath case restrict amendment of fundamental rights",
+        "which features form part of the basic structure according to courts",
+        "can parliament amend away judicial review or secularism"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "trace the conflict", "explain": "Land reform amendments met court resistance; Golak Nath barred touching fundamental rights; the 24th Amendment asserted full parliamentary power."},
+        {"step": 2, "action": "state the settlement", "explain": "Kesavananda Bharati (1973) allowed amendment but forbade damaging the basic structure -- an unwritten ceiling on a written power."},
+        {"step": 3, "action": "confirm the line", "explain": "Minerva Mills (1980) voided clauses that made amendments immune from review, sealing the balance between Parliament and the Constitution."}
+      ]
+    },
+    {
+      "id": "keps209.1.4",
+      "title": "Constitution as an Instrument of Social Change",
+      "section": "1.4",
+      "definition": "Amendments have pushed society, not just machinery: the 73rd and 74th Amendments brought panchayats and municipalities into the Constitution, the 86th made elementary education a right, the 101st introduced the goods and services tax. Interpretation too widened rights -- reading life and liberty expansively, recognizing dignity in new spheres.",
+      "formula": "",
+      "key_idea": "Amendments and interpretations have aimed the Constitution at inequality itself -- law as engine of social transformation.",
+      "textbook_ref": "keps209.txt lines 380-470 (contributions of amendments to social change, panchayati raj amendments, right to education, integration of princely states mention, evolving interpretation)",
+      "question_patterns": [
+        "how has the indian constitution acted as an instrument of social change",
+        "in class 11 constitution as a living document: give examples of amendments that changed society",
+        "how did the 86th amendment transform education policy",
+        "how has judicial interpretation expanded fundamental rights",
+        "can constitutional amendments end social discrimination",
+        "compare constitutional change through amendment and through interpretation"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "count the structural changes", "explain": "Local self-government, education as a right, and tax integration entered by amendment, remaking governance and entitlements."},
+        {"step": 2, "action": "count the interpretive changes", "explain": "Courts read Article 21 to cover dignity, livelihood and environment, growing rights without new text."},
+        {"step": 3, "action": "judge the transformation", "explain": "The living document has served as both shield against power and lever against social inequality."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keps209.txt lines 220-380 (basic structure)",
+      "concept": "keps209.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "Parliament passes, by special majority, an amendment abolishing judicial review of laws. Can it survive? Trace the doctrine that decides this.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "grant the formal power", "explain": "Article 368's special majority is satisfied, and no article is formally unamendable."},
+        {"step": 2, "action": "apply the basic structure test", "explain": "Judicial review is part of the basic structure identified since Kesavananda Bharati and Minerva Mills."},
+        {"step": 3, "action": "conclude", "explain": "The Supreme Court would strike the amendment down -- content, not just procedure, limits amendment."}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keps209.txt lines 380-470 (amendments for social change)",
+      "concept": "keps209.1.4",
+      "question_type": "verify_property",
+      "question_pattern": "Children of poor families stay out of school despite laws. Explain how the 86th Amendment addressed this and why a constitutional amendment was thought necessary.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "state the amendment", "explain": "The 86th Amendment inserted Article 21A making free and compulsory education for ages six to fourteen a fundamental right."},
+        {"step": 2, "action": "explain the upgrade", "explain": "Moving education from directive principle to fundamental right made the state's failure challengeable in court."},
+        {"step": 3, "action": "draw the lesson", "explain": "When ordinary law proves too weak, the living document's amendment route can raise the stakes for social change."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keps209.txt end-of-chapter exercises, reworded",
+      "questions": [
+        "Why is the Constitution of India described as a living document?",
+        "Explain the amendment procedure under Article 368 with its two routes.",
+        "Trace the conflict between Parliament and the Supreme Court over amendment of fundamental rights.",
+        "What is the basic structure doctrine and which features does it cover?",
+        "Give examples of constitutional amendments that brought social change.",
+        "Is the balance struck between flexibility and rigidity in the Indian Constitution appropriate? Discuss."
+      ]
+    }
+  ]
+}

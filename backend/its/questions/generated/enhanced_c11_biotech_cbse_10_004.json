@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_10_004",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_10_004",
+   "title": "c11_biotech_cbse_10_004",
+   "questions": [
+    {
+     "q": "What is the fundamental biological principle that makes homology modelling possible, and what is the minimum sequence identity generally required for reliable global structure prediction?",
+     "a": "The fundamental principle is that homologous proteins (descended from a common ancestor) conserve their three-dimensional fold more strongly than their amino acid sequence. For reliable global structure prediction, a minimum of ~30% sequence identity over the aligned region is typically required. A wrong answer (e.g., \"sequence identity is irrelevant\" or \"10% is sufficient for global modelling\") reveals the student confuses homology modelling with threading/ab initio methods or underestimates the alignment accuracy threshold.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If I have 40% sequence identity between my target and a template, the homology model will be as accurate as an experimentally determined structure.\" Explain why this statement is incorrect, referencing specific sources of error in homology modelling.",
+     "a": "Even at 40% identity, homology models contain errors from: (1) alignment inaccuracies in loop/insertion regions, (2) side-chain packing differences due to non-conserved residues, (3) template structure errors (experimental resolution limits), and (4) conformational changes induced by ligand binding or crystal packing absent in the template. The model is a *prediction*, not an experimental observation; its RMSD from the true structure is typically 1.5–3.5 Å at this identity. A wrong answer ignoring these error sources shows the student treats computational predictions as equivalent to experimental data.",
+     "self_check": true
+    },
+    {
+     "q": "You are given a target protein sequence of 250 residues. A BLAST search against PDB returns a template with 28% sequence identity over 180 aligned residues (covering 72% of the target). The template has 2.0 Å resolution. Can you build a reliable global homology model? Justify your answer with specific thresholds.",
+     "a": "No, a reliable *global* model cannot be built. Although the template resolution is good (2.0 Å), the sequence identity (28%) is below the ~30% threshold for reliable global fold assignment, and the alignment covers only 72% of the target (leaving 70 residues unmodelled). This falls in the \"twilight zone\" where alignment errors are significant. You could attempt *local* modelling of the aligned domain, but the full-length model would be unreliable. A wrong answer (\"yes, because identity >25%\") confuses the local modelling threshold (25%) with the global threshold (30%) and ignores coverage.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the information required and the computational cost of homology modelling versus threading (fold recognition). Why is threading more compute-intensive despite not requiring a homologous template?",
+     "a": "Homology modelling requires a *homologous* template (detectable by sequence alignment) and uses spatial restraints from the alignment; it is relatively fast (minutes to hours). Threading does *not* require detectable sequence homology — it evaluates the compatibility of the target sequence with *all* known folds in a library by threading the sequence onto each fold and scoring with energy functions (pairwise potentials, solvation, etc.). This exhaustive fold-library search and energy evaluation for each fold makes threading far more compute-intensive (hours to days). A wrong answer that claims threading is faster or requires a homologous template misunderstands the fundamental algorithmic difference.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following protocol: \"To build a homology model, I will use the first BLAST hit as template, run a single alignment with ClustalW, build one model with MODELLER, and submit it without validation.\" Identify at least three critical flaws.",
+     "a": "Three critical flaws: (1) **Template selection**: The first BLAST hit may not be the best template (consider resolution, coverage, ligand-bound state, oligomeric state). Multiple templates should be evaluated. (2) **Alignment refinement**: ClustalW is a general MSA tool; homology modelling requires structure-guided alignment (e.g., using PROMALS3D or manual correction of loop regions) because sequence-only alignments misalign structurally equivalent residues in variable regions. (3) **Model sampling and validation**: A single MODELLER run does not sample conformational space adequately; dozens/hundreds of models should be generated and ranked by DOPE/GA341 scores, followed by Ramachandran/ProSA validation. Skipping validation risks propagating gross errors. A poor critique misses the distinction between sequence alignment and structure-guided alignment.",
+     "self_check": true
+    },
+    {
+     "q": "Design a homology modelling workflow for a hypothetical protein with 35% sequence identity to a template over 90% coverage, but the template has a missing loop (residues 120–135) in its crystal structure. Specify how you would handle the missing loop and validate the final model.",
+     "a": "Workflow: (1) **Template preparation**: Download template PDB, check for missing atoms/residues. (2) **Loop modelling**: Since the template lacks residues 120–135, use *ab initio* loop modelling (e.g., MODELLER's loop refinement or Rosetta loop modelling) to build this region *de novo* using the target sequence, constrained by the flanking anchor residues. (3) **Alignment**: Generate structure-guided alignment (e.g., with PROMALS3D) incorporating the template structure and target sequence. (4) **Model building**: Generate 50–100 models with MODELLER using the alignment and loop modelling protocol. (5) **Selection**: Rank by DOPE score and GA341; select top 5. (6) **Refinement**: Energy-minimize selected models in explicit solvent (e.g., GROMACS). (7) **Validation**: Ramachandran plot (>90% favored), Verify3D, ProSA Z-score, and MolProbity clashscore. A poor answer omits *ab initio* loop modelling for the missing template region or relies solely on sequence alignment without structural guidance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

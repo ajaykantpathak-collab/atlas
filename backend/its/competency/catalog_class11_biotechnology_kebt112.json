@@ -1,0 +1,403 @@
+{
+ "class": 11,
+ "subject": "biotechnology",
+ "chapter": 12,
+ "chapter_title": "Tools and Techniques",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kebt112.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kebt112.1",
+   "title": "Microscope Magnification and Its Many Forms",
+   "section": "12.1",
+   "definition": "A compound microscope multiplies the objective's power by the eyepiece's power - a 10x eyepiece with the 100x oil objective yields a thousand-fold view - while resolving power names the closest pair of points still seen as two; variants then bend light differently: dark field blocks central rays, phase contrast converts density into contrast, fluorophore stains glow in fluorescence microscopy, electron beams shortened a hundred thousand-fold give transmission and scanning modes, and confocal optics sharpen labelled fixed cells.",
+   "formula": "total_power = objective_mag * eyepiece_mag",
+   "key_idea": "Multiply objective by eyepiece for total magnification; pick the microscopy variant by what must be seen - surfaces, organelles or glowing probes.",
+   "textbook_ref": "kebt112.txt sections 12.1-12.1.3, Figs. 12.1-12.2",
+   "question_patterns": [
+    "a student microscope carries a 15x eyepiece and a 45x objective - compute the total magnification",
+    "which combination of the 4x 10x 40x and 100x objectives with a 10x eyepiece gives 400x",
+    "differentiate transmission from scanning electron microscopy on the basis of how the image forms",
+    "why does phase contrast microscopy suit organelles and chromosomes without staining",
+    "how many times shorter is the electron beam wavelength than visible light",
+    "which microscopy form identifies bacteria or viruses in immunodiagnosis and why",
+    "what can resolving power measure that magnification alone cannot"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the two lenses",
+     "explain": "The objective magnifies first and the eyepiece enlarges that image again.",
+     "compute": "total_power = objective_mag * eyepiece_mag"
+    },
+    {
+     "step": 2,
+     "action": "scale the specimen",
+     "explain": "Multiply the real size by the total power for the apparent size.",
+     "compute": "apparent_size = real_size * total_power"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A 10x eyepiece with the 100x oil objective gives what total magnification?",
+     "a": "1000"
+    }
+   ]
+  },
+  {
+   "id": "kebt112.2",
+   "title": "Centrifugation and Its Types",
+   "section": "12.2",
+   "definition": "Spinning samples around an axis lets centrifugal force sort particles by density: differential centrifugation exploits differing sedimentation rates to drop nuclei, mitochondria or chloroplasts in turn, density-gradient runs settle molecules at levels matching their densities inside a preformed gradient, and ultracentrifugation pushes past one hundred thousand times gravity to separate dissolved molecules.",
+   "formula": "-",
+   "key_idea": "Rate of sedimentation sorts by size and density in differential runs; a gradient sorts similar-sized particles purely by density.",
+   "textbook_ref": "kebt112.txt sections 12.2-12.2.1, Fig. 12.3",
+   "question_patterns": [
+    "differentiate differential density-gradient and ultracentrifugation with one application of each",
+    "at what minimum relative centrifugal force does ultracentrifugation begin",
+    "which centrifuge type would first pellet nuclei and then mitochondria from a cell extract",
+    "why do heavier molecules travel outward faster in a density gradient",
+    "name the three commonly used centrifuge instruments in a laboratory",
+    "what does rpm measure in a spinning centrifuge rotor"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the goal",
+     "explain": "Whole organelles call for differential runs; similar-sized particles call for gradients; dissolved molecules need ultracentrifugation."
+    },
+    {
+     "step": 2,
+     "action": "check the force",
+     "explain": "Speeds at or above 100,000 x g define ultracentrifugation."
+    },
+    {
+     "step": 3,
+     "action": "collect the fractions",
+     "explain": "Pellets form at tube bottoms in differential runs; bands sit at their density levels in gradients."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which centrifugation exploits differing sedimentation rates: differential or density-gradient?",
+     "a": "differential"
+    }
+   ]
+  },
+  {
+   "id": "kebt112.3",
+   "title": "Electrophoresis of DNA and Proteins",
+   "section": "12.3",
+   "definition": "An electric field walks charged macromolecules through a gel at speeds set by their charge-to-size ratio: negatively charged DNA threads from the wells toward the anode with short pieces outrunning long ones across an 80-120 volt run, while SDS coats proteins uniformly negative so polyacrylamide gels - loose at 4-8 percent for big proteins, hard at 12-20 percent for small ones - resolve them, with bromophenol blue racing ahead as the tracking dye and ethidium bromide or Coomassie blue making the bands visible.",
+   "formula": "-",
+   "key_idea": "DNA sorts by size alone toward the anode; SDS-PAGE sorts proteins by size after the detergent equalises their charge.",
+   "textbook_ref": "kebt112.txt sections 12.3-12.3.4, Figs. 12.4-12.5, Box 1",
+   "question_patterns": [
+    "why do shorter DNA fragments migrate faster than longer ones in agarose gel electrophoresis",
+    "toward which electrode does DNA move and which phosphate-bearing feature gives it that charge",
+    "which voltage range runs a standard agarose DNA gel",
+    "a 4 percent and a 12 percent polyacrylamide gel are prepared - which resolves low molecular weight proteins and why",
+    "what roles do the tracking dye and the DNA ladder play in a gel run",
+    "why must ethidium bromide be handled with great care and how does it reveal DNA under UV",
+    "who first observed electrophoretic migration and in which year"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set the matrix",
+     "explain": "Agarose gels suit nucleic acids; polyacrylamide with crosslinker suits proteins."
+    },
+    {
+     "step": 2,
+     "action": "equalise the charge if needed",
+     "explain": "SDS wraps proteins in uniform negative charge so separation follows size."
+    },
+    {
+     "step": 3,
+     "action": "stain and read",
+     "explain": "EtBr fluoresces under UV for DNA; Coomassie stains protein bands blue; the dye front signals when to stop."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Negatively charged DNA migrates toward which electrode: the anode or the cathode?",
+     "a": "the anode"
+    }
+   ]
+  },
+  {
+   "id": "kebt112.4",
+   "title": "ELISA Formats for Antigen and Antibody",
+   "section": "12.4",
+   "definition": "Engvall and Perlman's 1971 enzyme-linked immunosorbent assay quantifies antigen or antibody through an enzyme's colour signal: direct ELISA coats antigen and adds one labelled antibody; indirect adds an unlabelled primary then a labelled secondary for extra sensitivity; sandwich traps antigen between a captured and a second labelled antibody for high specificity; and competitive ELISA reads antigen amounts inversely, more antigen meaning weaker colour.",
+   "formula": "-",
+   "key_idea": "Count the antibodies and which one carries the enzyme - that tells you the format and what the colour measures.",
+   "textbook_ref": "kebt112.txt section 12.4, Figs. 12.6-12.8",
+   "question_patterns": [
+    "differentiate direct indirect sandwich and competitive ELISA with the antibodies used in each",
+    "in competitive ELISA why does a higher antigen concentration give a weaker colour",
+    "which ELISA format needs no secondary antibody and which gains sensitivity from multiple labelled secondaries",
+    "what is an epitope and why does sandwich ELISA use antibodies to two different epitopes",
+    "who invented ELISA and in which year",
+    "name three applications of ELISA in diagnosis and the food industry"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check what is coated",
+     "explain": "Antigen-coated wells suit direct and indirect; antibody-coated wells suit sandwich; antigen-coated with pre-incubation signals competitive."
+    },
+    {
+     "step": 2,
+     "action": "follow the labelled antibody",
+     "explain": "Direct uses one enzyme-conjugated antibody; indirect and sandwich add a labelled secondary; competitive measures what failed to bind."
+    },
+    {
+     "step": 3,
+     "action": "read the colour",
+     "explain": "Substrate turnover measured by an ELISA reader converts colour intensity into concentration via a standard curve."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which ELISA traps antigen between two antibodies: sandwich or direct?",
+     "a": "sandwich"
+    }
+   ]
+  },
+  {
+   "id": "kebt112.5",
+   "title": "Chromatography Modes from Adsorption to Gas",
+   "section": "12.5",
+   "definition": "Chromatography races solutes between a moving eluent and a held stationary phase, each molecule eluting in step with its affinity: adsorption onto polar surfaces, partitioning between immiscible solvents, ion-exchange electrostatics, molecular sieving in gel filtration, biospecific ligand capture in affinity columns, high-pressure liquid runs through fine particles, and gas chromatography for volatiles - all traced as peaks on a chromatogram.",
+   "formula": "-",
+   "key_idea": "Name the mode by what holds the solute back - surface, solvent, charge, pore, ligand, pressure or volatility.",
+   "textbook_ref": "kebt112.txt section 12.5, Figs. 12.9-12.10",
+   "question_patterns": [
+    "match adsorption partition ion-exchange gel filtration affinity HPLC and gas chromatography with the principle each exploits",
+    "what is a chromatogram and what do its peaks represent",
+    "which chromatography mode purifies a protein through the binding specificity of an immobilised ligand",
+    "how does gel filtration separate molecules - on what property of the solute",
+    "why must the mobile phase be pumped under high pressure in HPLC",
+    "which chromatography suits volatile alcohols and ketones and which suits antibiotic fractionation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the stationary phase",
+     "explain": "Silica, resin, gel beads, ligand or fine particles reveal the separation principle."
+    },
+    {
+     "step": 2,
+     "action": "predict the order",
+     "explain": "Weakly held solutes elute first; size, charge or affinity decides the rest."
+    },
+    {
+     "step": 3,
+     "action": "read the output",
+     "explain": "Collected fractions and chromatogram peaks report the separation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which chromatography uses biospecific ligand capture: affinity or gas?",
+     "a": "affinity"
+    }
+   ]
+  },
+  {
+   "id": "kebt112.6",
+   "title": "Beer-Lambert Law Quantitation",
+   "section": "12.6 and Box 2",
+   "definition": "Light lost equals solute present: the Beer-Lambert law writes absorbance as the molar absorptivity times path length times concentration, with transmittance as the ratio of transmitted to incident intensity, so a colorimeter with its filters or a spectrophotometer with its prism turns any coloured solution into a number - and the same spectroscopy family, from infrared to NMR and mass spectrometry, identifies functional groups, metals and molecular structures.",
+   "formula": "conc = absorbance / (epsilon_val * path_length)",
+   "key_idea": "Divide the measured absorbance by absorptivity times path length to recover the concentration; transmittance is simply transmitted over incident.",
+   "textbook_ref": "kebt112.txt sections 12.6-12.6.2, Box 2, Table 12.1",
+   "question_patterns": [
+    "a solution reads absorbance 0.45 in a 1 cm cuvette with molar absorptivity 900 - compute its concentration",
+    "state the Beer-Lambert law defining each symbol in the equation",
+    "incident light of 100 units falls on a sample and 25 units emerge - find the transmittance",
+    "how does a spectrophotometer select one wavelength while a colorimeter uses a filter bandwidth",
+    "list the components of a spectrophotometer from source to digital display",
+    "which spectroscopic technique detects trace metals and which reveals atomic chemical environments"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "solve for concentration",
+     "explain": "Rearranging absorbance equals absorptivity times path times concentration gives the concentration.",
+     "compute": "conc = absorbance / (epsilon_val * path_length)"
+    },
+    {
+     "step": 2,
+     "action": "ratio the light intensities",
+     "explain": "Transmittance divides the emerging intensity by the incident one.",
+     "compute": "transmittance = i_out / i_in"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "In the Beer-Lambert law, absorbance equals absorptivity times path length times what: concentration or colour?",
+     "a": "concentration"
+    }
+   ]
+  },
+  {
+   "id": "kebt112.7",
+   "title": "Automated DNA Sequencing Speed",
+   "section": "12.9",
+   "definition": "Sanger's chain-termination chemistry - ddNTPs lacking the 3-prime hydroxyl stopping each growing strand, four tubes then a PAGE read bottom-up - became the gold standard, while Maxam-Gilbert cleaved bases chemically; automation replaced radioactivity with four fluorescent rhodamine ddNTPs in one capillary tube, so a task needing a person's whole year of manual work, twenty to fifty thousand bases, now finishes in a few hours at roughly half the material cost.",
+   "formula": "speed_fold = year_hours / automated_hours",
+   "key_idea": "Divide the year's hours by the automated run's hours to price the speed-up that fluorescent automation delivered.",
+   "textbook_ref": "kebt112.txt sections 12.9-12.9.2, Figs. 12.17-12.20, Box 3",
+   "question_patterns": [
+    "manual sequencing yields 40000 bases per person-year while an automated sequencer needs only 4 hours for the same - compute the fold speed-up",
+    "why does a dideoxynucleotide terminate chain growth - name the missing group",
+    "what goes into each of the four tubes of a classic Sanger reaction and what ends every fragment in a lane",
+    "differentiate the Sanger method from the Maxam-Gilbert chemical degradation method",
+    "which four fluorescent dyes label the four ddNTPs in automated sequencing",
+    "how does next-generation sequencing differ from Sanger sequencing in scale and validation use",
+    "in which order is a Sanger gel read on the X-ray film"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "rate the manual work",
+     "explain": "Divide the yearly base output by the hours in a year.",
+     "compute": "manual_rate = manual_bases / year_hours"
+    },
+    {
+     "step": 2,
+     "action": "compare the machines",
+     "explain": "Dividing the year's hours by the automated hours gives the fold speed-up.",
+     "compute": "speed_fold = year_hours / automated_hours"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Sanger's chain termination lacks which group to stop strands: the 3-prime hydroxyl or the base?",
+     "a": "the 3-prime hydroxyl"
+    }
+   ]
+  },
+  {
+   "id": "kebt112.8",
+   "title": "FISH, Microarray and Flow Cytometry Profiling",
+   "section": "12.8, 12.10-12.11",
+   "definition": "Three probes-on-cells techniques close the toolkit: fluorescent in situ hybridisation anneals a labelled DNA probe to its chromosome site and even paints every chromosome a different colour; DNA microarrays hybridise Cy3/Cy5-labelled cDNA onto thousands of immobilised probes to flag upregulated and downregulated genes; and flow cytometry streams single cells past lasers - a Coulter-counter idea from the late 1950s - reading scattered and fluorescent light to count and sort labelled populations.",
+   "formula": "-",
+   "key_idea": "Label the probe or the cell, let complementarity or a laser do the sorting, and read the colours as biology.",
+   "textbook_ref": "kebt112.txt sections 12.8, 12.10-12.11, Figs. 12.15-12.23",
+   "question_patterns": [
+    "list the main steps of a FISH experiment from probe design to fluorescent microscopy",
+    "how does chromosome painting assign a unique colour to every chromosome",
+    "arrange the four steps of a DNA microarray experiment in order",
+    "why are upregulated genes shown green and downregulated red on a microarray scan",
+    "which dyes commonly label cDNA for microarray hybridisation",
+    "explain the principle of flow cytometry from the Coulter counter to laser-based sorting",
+    "which technique quantifies expression of thousands of genes in parallel and which locates a gene on its chromosome"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "prepare the probe",
+     "explain": "Design a complementary, fluorescently labelled molecule - FISH probe or cDNA fragment."
+    },
+    {
+     "step": 2,
+     "action": "hybridise or stream",
+     "explain": "Anneal to denatured chromosomes or array spots; in cytometry, stream single cells past the laser."
+    },
+    {
+     "step": 3,
+     "action": "read the signal",
+     "explain": "Fluorescent spots map genes, colour ratios report expression, and scatter plus fluorescence classify each cell."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which technique anneals a labelled DNA probe to its chromosome site: FISH or flow cytometry?",
+     "a": "FISH"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "kebt112.txt section 12.1.2 (eyepiece and objective powers)",
+   "concept": "kebt112.1",
+   "question_type": "compute",
+   "question_pattern": "A cell of {real_size} micrometres is viewed with a {eyepiece_mag}x eyepiece and a {objective_mag}x objective. Find the total magnification and the apparent size of the cell.",
+   "extracted_variables": {
+    "eyepiece_mag": "eyepiece magnifying power",
+    "objective_mag": "objective magnifying power",
+    "real_size": "real size of the object in micrometres"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the lenses",
+     "explain": "Objective times eyepiece gives total magnification.",
+     "compute": "total_power = objective_mag * eyepiece_mag"
+    },
+    {
+     "step": 2,
+     "action": "scale the object",
+     "explain": "Apparent size equals real size times total magnification.",
+     "compute": "apparent_size = real_size * total_power"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "kebt112.txt section 12.9.2 (manual vs automated sequencing)",
+   "concept": "kebt112.7",
+   "question_type": "compute",
+   "question_pattern": "A worker sequencing manually completes {manual_bases} bases in a year of {year_hours} working hours, while an automated sequencer finishes the same in {automated_hours} hours. Find the manual hourly rate and the fold speed-up of the machine.",
+   "extracted_variables": {
+    "manual_bases": "bases sequenced manually in a year",
+    "year_hours": "working hours per year",
+    "automated_hours": "hours taken by the automated sequencer"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "rate the manual output",
+     "explain": "Bases per hour for the human worker.",
+     "compute": "manual_rate = manual_bases / year_hours"
+    },
+    {
+     "step": 2,
+     "action": "price the speed-up",
+     "explain": "Year hours divided by machine hours gives the fold improvement.",
+     "compute": "speed_fold = year_hours / automated_hours"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "kebt112-ex1",
+   "source_ref": "kebt112.txt Exercises (questions 1-18)",
+   "questions": [
+    "What is the function of ethidium bromide in electrophoresis - choose from tracking, visualising, separating or charging DNA.",
+    "Match each chromatography type - affinity, gas and ion-exchange - with the separation it performs.",
+    "Mass spectrometry is used to identify, elucidate structure of and quantify compounds - which option is correct?",
+    "Match the antigen-antibody arrangements with direct, indirect and sandwich ELISA procedures.",
+    "In agarose gel electrophoresis which fragments stay near the wells and which reach the positive end - pick the correct pair of statements.",
+    "Which microscope gives a resolved image of an object's surface - TEM, SEM, phase contrast or fluorescence?",
+    "Two polyacrylamide gels carry 4 percent and 12 percent acrylamide - which is harder, which offers more friction, and which resolves low molecular weight proteins?",
+    "Define chromatogram, explain the principle of FISH and chromosome painting, and write the principle of flow cytometry."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_23_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_23_012",
+   "title": "c11_eng_w_cbse_23_012",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal question asks for information directly stated in the text (e.g., \"Which poet does Chandrasekhar call a scientist's poet?\"), while an inferential question asks for a conclusion drawn from textual clues (e.g., \"Why does Chandrasekhar prefer Shelley over Wordsworth?\"). A wrong answer reveals the student thinks both question types are answered by copying sentences, missing that inferential answers require synthesis.",
+     "self_check": true
+    },
+    {
+     "q": "In the essay, Chandrasekhar quotes Wordsworth: \"We murder to dissect.\" Explain in your own words what this line literally means in the context of the poet's view of science.",
+     "a": "Literally, Wordsworth argues that scientific analysis (\"dissect\") destroys the natural beauty (\"murder\") of things like a rainbow. A wrong answer reveals the student paraphrases without anchoring to the text (e.g., \"Science is bad\") or misattributes the view to Chandrasekhar, showing confusion between author voice and quoted voice.",
+     "self_check": true
+    },
+    {
+     "q": "Using the essay, answer this literal question: \"Which two scientists does Chandrasekhar contrast with the poets Wordsworth and Keats?\" Provide the exact textual evidence.",
+     "a": "Chandrasekhar contrasts Darwin and Faraday with Wordsworth and Keats. Evidence: Darwin's confession about losing taste for poetry (para 5) and Faraday's response to Gladstone (para 6). A wrong answer reveals the student cannot locate specific names in a dense non-fiction text or confuses the scientists with the poets.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following inferential question: \"What does Chandrasekhar imply by stating that Shelley's poetry 'fuses together a creative myth, a scientific monograph, and a gay picaresque tale'?\" Break down the inference into two textual supports.",
+     "a": "Inference: Chandrasekhar implies Shelley integrates science and poetry seamlessly. Support 1: The Cloud is described as a \"scientific monograph\" (explicit). Support 2: Shelley is called \"a scientist's poet\" whose attitude is \"at the opposite pole to that of Wordsworth\" (explicit). A wrong answer reveals the student treats \"fuses\" as decorative language rather than a structural claim needing evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student answer to an inferential question: \"Chandrasekhar thinks science and poetry are enemies because he quotes Lowes Dickinson: 'When Science arrives, it expels Literature.'\" Is this a valid inference? Justify.",
+     "a": "Invalid inference. Chandrasekhar explicitly counters this view by quoting Peter Medawar and then Shelley, arguing for complementarity. The student ignored the author's rebuttal structure. A wrong answer reveals the student treats the first quoted opinion as the author's final stance, missing the essay's dialectic structure.",
+     "self_check": true
+    },
+    {
+     "q": "Create one literal question and one inferential question based on the final paragraph of the essay (starting \"On reading Shelley's A Defence of Poetry...\"). Provide the answer key for both.",
+     "a": "Literal: \"What question 'insistently occurs' to Chandrasekhar on reading Shelley's Defence of Poetry?\" Answer: Why there is no similar Defence of Science by a scientist of equal endowment. Inferential: \"What does this final question suggest about Chandrasekhar's view of the science-poetry relationship?\" Answer: It suggests he sees an asymmetry — poetry has articulated its value, but science has not — implying a need for scientists to reflect on creativity. A poor answer creates questions that are either both literal or unanswerable from the text.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

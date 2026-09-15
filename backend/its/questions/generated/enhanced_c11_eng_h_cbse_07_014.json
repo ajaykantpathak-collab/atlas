@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_07_014",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_07_014",
+   "title": "c11_eng_h_cbse_07_014",
+   "questions": [
+    {
+     "q": "List the six writing formats taught in the NCERT writing skills section for this chapter.",
+     "a": "The six formats are: note-making, summarising, sub-titling, essay-writing, letter-writing, and creative writing. A wrong answer (e.g., listing \"diary entry\" or \"report writing\") reveals the student has not reviewed the textbook's writing skills section and is confusing this chapter's prescribed formats with other writing tasks.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why note-making requires converting verbs to nouns and omitting articles, prepositions, and conjunctions.",
+     "a": "Note-making aims for concise, phrase-based points that capture maximum information in minimum words; converting verbs to nouns (nominalisation) and dropping grammatical words achieves this density. A wrong answer (e.g., \"to make it look neat\") shows the student misunderstands the functional purpose of note-form and may write full sentences, defeating the skill.",
+     "self_check": true
+    },
+    {
+     "q": "Given a paragraph from \"The Adventure\" describing the alternative Battle of Panipat, write three note-making points using the correct format (hierarchical numbering, abbreviations, phrase form).",
+     "a": "Example points:\n1. Alt. Battle of Panipat – Marathas win\n   1.1 Abdali defeated – Vishwasrao survives\n   1.2 Boosts Maratha morale – delays British expansion\n2. Prof. Gaitonde witnesses – reads Bakhar in library\n3. Quantum explanation – catastrophe theory applied to history\nA wrong answer using full sentences (\"The Marathas won the battle because...\") or lacking hierarchy shows the student cannot apply the note-making steps (underline → question → phrase → combine → number) to new content.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the structure of a summary and an essay based on the same chapter. What are the key differences in purpose, length, and use of evidence?",
+     "a": "A summary condenses the entire narrative chronologically in ~80-100 words without analysis; an essay presents a thesis (e.g., \"The Adventure blends science and history to critique determinism\") in 300-400 words, using selective evidence to argue. A wrong answer that treats both as \"retelling the story\" misses the analytical demand of an essay and the compression skill of a summary.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes a letter from Professor Gaitonde to his son describing his experience in the alternative world. Assess whether the letter captures the character's voice and the chapter's scientific concepts. What would you improve?",
+     "a": "A good letter uses formal tone, addresses the son affectionately, explains the quantum transition (\"I found myself in a world where the Marathas won Panipat\"), and references the catastrophe theory. Improvements: add specific sensory details from the text (the \"Azad Maidan\" crowd, the missing British buildings), ensure the scientific explanation is accurate but accessible, and close with a fatherly concern. A wrong assessment that only checks format (salutation, signature) ignores persona adoption and content integration—the core competencies.",
+     "self_check": true
+    },
+    {
+     "q": "Write a creative piece (150 words) that imagines a different historical event turning out differently, inspired by the alternative history premise of \"The Adventure\".",
+     "a": "A strong piece establishes a clear divergence point (e.g., \"What if the 1857 Revolt had succeeded?\"), uses first-person narration like Gaitonde's, incorporates period-appropriate details, and hints at a scientific or metaphysical rationale (a mysterious manuscript, a dream). A weak piece merely lists changed events without narrative voice or thematic depth, showing the student cannot transfer the chapter's technique to original creation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

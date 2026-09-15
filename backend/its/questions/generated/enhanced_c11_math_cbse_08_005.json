@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_08_005",
+   "title": "c11_math_cbse_08_005",
+   "questions": [
+    {
+     "q": "Write the general term \\(T_{r+1}\\) in the expansion of \\((2x^3 - \\frac{1}{x})^9\\). Do not simplify the coefficient.",
+     "a": "\\(T_{r+1} = \\binom{9}{r} (2x^3)^{9-r} \\left(-\\frac{1}{x}\\right)^r\\). A wrong answer (e.g., forgetting the binomial coefficient, misplacing the minus sign, or writing the powers incorrectly) reveals that the student has not internalised the structure of the general term from node c11_math_cbse_08_002 and needs to practise writing it for various binomials before attempting coefficient extraction.",
+     "self_check": true
+    },
+    {
+     "q": "In the expansion of \\((x^2 + \\frac{2}{x})^6\\), a student claims the coefficient of \\(x^3\\) is obtained by setting the exponent of \\(x\\) in the general term equal to 3 and solving \\(2(6-r) - r = 3\\). Is the student’s equation correct? Explain why or why not.",
+     "a": "Yes, the equation is correct. The general term is \\(\\binom{6}{r} (x^2)^{6-r} \\left(\\frac{2}{x}\\right)^r = \\binom{6}{r} 2^r x^{12-2r-r} = \\binom{6}{r} 2^r x^{12-3r}\\). Setting \\(12-3r = 3\\) gives \\(r=3\\). A wrong answer (e.g., writing \\(2(6-r)+r=3\\) or ignoring the exponent from the denominator) shows the student cannot combine exponent laws when the same variable appears in both terms of the binomial.",
+     "self_check": true
+    },
+    {
+     "q": "Find the coefficient of \\(x^4\\) in the expansion of \\((3x - \\frac{2}{x^2})^7\\).",
+     "a": "General term: \\(T_{r+1} = \\binom{7}{r} (3x)^{7-r} \\left(-\\frac{2}{x^2}\\right)^r = \\binom{7}{r} 3^{7-r} (-2)^r x^{7-r-2r} = \\binom{7}{r} 3^{7-r} (-2)^r x^{7-3r}\\).\nSet \\(7-3r = 4 \\Rightarrow 3r = 3 \\Rightarrow r = 1\\).\nCoefficient = \\(\\binom{7}{1} 3^{6} (-2)^1 = 7 \\times 729 \\times (-2) = -10206\\).\nA wrong answer (e.g., \\(r=2\\) giving exponent 1, or miscalculating \\(\\binom{7}{1}\\)) indicates the student struggles with solving the linear equation for \\(r\\) or with arithmetic of binomial coefficients and powers.",
+     "self_check": true
+    },
+    {
+     "q": "The coefficient of \\(x^5\\) in the expansion of \\((ax^2 + \\frac{b}{x})^6\\) is 192. If \\(a\\) and \\(b\\) are positive integers, find all possible pairs \\((a, b)\\).",
+     "a": "General term: \\(T_{r+1} = \\binom{6}{r} (ax^2)^{6-r} \\left(\\frac{b}{x}\\right)^r = \\binom{6}{r} a^{6-r} b^r x^{12-2r-r} = \\binom{6}{r} a^{6-r} b^r x^{12-3r}\\).\nFor \\(x^5\\): \\(12-3r = 5 \\Rightarrow 3r = 7 \\Rightarrow r = 7/3\\), not an integer.\nHence the coefficient of \\(x^5\\) is **0** for all \\(a, b\\). The given condition “coefficient is 192” is impossible. A student who forces \\(r=2\\) or \\(r=3\\) and solves \\(a,b\\) shows they do not check whether \\(r\\) is an integer in the valid range — a critical analytical step.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves “Find the coefficient of \\(x^2\\) in \\((2x^2 - \\frac{3}{x})^5\\)” as follows:\nGeneral term: \\(\\binom{5}{r} (2x^2)^{5-r} (-\\frac{3}{x})^r = \\binom{5}{r} 2^{5-r} (-3)^r x^{10-2r-r}\\).\nSet \\(10-3r = 2 \\Rightarrow r = 8/3\\). Since \\(r\\) is not an integer, the student writes “Coefficient = 0”.\nIs the student’s conclusion correct? Justify.",
+     "a": "Yes, the conclusion is correct. The exponent of \\(x\\) in the general term is \\(10-3r\\). For \\(r = 0,1,2,3,4,5\\) the exponents are \\(10, 7, 4, 1, -2, -5\\). None equals 2, so \\(x^2\\) does not appear and its coefficient is 0. A student who instead plugs \\(r=8/3\\) into the coefficient formula and computes a non‑zero value has failed to understand that \\(r\\) must be an integer index of a term in the finite expansion.",
+     "self_check": true
+    },
+    {
+     "q": "Create a binomial expression of the form \\((px^m + qx^n)^k\\) (with integer \\(p,q,m,n,k\\), \\(k>0\\)) such that the coefficient of \\(x^0\\) (the constant term) is 240. Provide the expression and verify the constant term.",
+     "a": "Example: \\((2x^2 + \\frac{3}{x})^6\\). General term: \\(\\binom{6}{r} (2x^2)^{6-r} (3x^{-1})^r = \\binom{6}{r} 2^{6-r} 3^r x^{12-2r-r} = \\binom{6}{r} 2^{6-r} 3^r x^{12-3r}\\).\nConstant term ⇒ \\(12-3r = 0 \\Rightarrow r=4\\).\nCoefficient = \\(\\binom{6}{4} 2^{2} 3^4 = 15 \\times 4 \\times 81 = 4860\\) (not 240).\nA correct example: \\((x^3 + \\frac{2}{x})^4\\). General term: \\(\\binom{4}{r} (x^3)^{4-r} (2x^{-1})^r = \\binom{4}{r} 2^r x^{12-3r-?}\\) Wait: \\((x^3)^{4-r} = x^{12-3r}\\), times \\(x^{-r}\\) gives \\(x^{12-4r}\\). Set \\(12-4r=0 \\Rightarrow r=3\\). Coefficient = \\(\\binom{4}{3} 2^3 = 4 \\times 8 = 32\\).\nAnother try: \\((2x + \\frac{3}{x^2})^6\\). Exponent: \\(1\\cdot(6-r) + (-2)r = 6-3r\\). Constant ⇒ \\(r=2\\). Coefficient = \\(\\binom{6}{2} 2^4 3^2 = 15 \\times 16 \\times 9 = 2160\\).\nA valid answer: \\((2x^2 + \\frac{5}{x})^3\\)? Exponent: \\(2(3-r) - r = 6-3r\\). Constant ⇒ \\(r=2\\). Coefficient = \\(\\binom{3}{2} 2^1 5^2 = 3 \\times 2 \\times 25 = 150\\).\nTo get 240: need \\(\\binom{k}{r} p^{k-r} q^r = 240\\) with exponent condition. One solution: \\((2x^2 + \\frac{3}{x})^5\\)? Exponent: \\(2(5-r)-r=10-3r\\). Constant ⇒ \\(10-3r=0\\) no integer.\n\\((x + \\frac{2}{x})^6\\): exponent \\(6-r - r = 6-2r\\), constant ⇒ \\(r=3\\), coeff = \\(\\binom{6}{3} 2^3 = 20 \\times 8 = 160\\).\n\\((2x + \\frac{3}{x})^4\\): exponent \\(4-r - r = 4-2r\\), constant ⇒ \\(r=2\\), coeff = \\(\\binom{4}{2} 2^2 3^2 = 6 \\times 4 \\times 9 = 216\\).\n\\((3x + \\frac{2}{x})^4\\): constant ⇒ \\(r=2\\), coeff = \\(\\binom{4}{2} 3^2 2^2 = 6 \\times 9 \\times 4 = 216\\).\n\\((2x^3 + \\frac{5}{x})^4\\): exponent \\(3(4-r)-r=12-4r\\), constant ⇒ \\(r=3\\), coeff = \\(\\binom{4}{3} 2^1 5^3 = 4 \\times 2 \\times 125 = 1000\\).\n\\((x^2 + \\frac{4}{x})^6\\): exponent \\(2(6-r)-r=12-3r\\), constant ⇒ \\(r=4\\), coeff = \\(\\binom{6}{4} 1^2 4^4 = 15 \\times 256 = 3840\\).\nA student who produces any binomial with a constant term and correctly verifies it shows synthesis ability. A poor answer gives a binomial where the constant term does not exist or the verification is miscalculated.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

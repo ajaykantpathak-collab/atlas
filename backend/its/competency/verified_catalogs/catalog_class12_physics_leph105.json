@@ -1,0 +1,588 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "chapter": 105,
+ "chapter_title": "Magnetism and Matter",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leph105.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leph105.5.2.1.1",
+   "title": "Bar Magnet and Its Field Lines",
+   "section": "5.2.1",
+   "definition": "Iron filings around a magnet trace curves that always run north to south outside and close through the magnet itself; the tangent at any point gives the local field direction, and two such curves can never meet.",
+   "formula": "field_direction = tangent of field line at each point",
+   "key_idea": "Because isolated poles cannot be cut off a magnet, every field-line loop is closed; denser lines mean a stronger field.",
+   "textbook_ref": "leph105.txt section 5.2.1 (field-line properties i-iv, Fig. 5.1-5.2)",
+   "question_patterns": [
+    "why do magnetic field lines always close on themselves",
+    "can two field lines cross each other in a magnetic field",
+    "what does the tangent to a field line tell you about the field there",
+    "a bar magnet is sliced in half; what happens to its poles",
+    "how do the field patterns of a magnet and a current-carrying solenoid compare",
+    "where around a bar magnet is the field strongest according to the line density"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the loops",
+     "explain": "lines leave the north face, swing around outside, and re-enter the south face with no start or end"
+    },
+    {
+     "step": 2,
+     "action": "read direction and strength",
+     "explain": "tangent gives B direction; crowding of lines gives B magnitude"
+    },
+    {
+     "step": 3,
+     "action": "test for crossings",
+     "explain": "an intersection would give two field directions at once, which is impossible"
+    }
+   ]
+  },
+  {
+   "id": "leph105.5.2.2.1",
+   "title": "Solenoid Picture of a Bar Magnet",
+   "section": "5.2.2",
+   "definition": "A magnetised bar behaves like a tightly wound coil of circulating currents: slicing it yields two weaker magnets just as cutting a solenoid yields two shorter ones, and its moment equals that of the matching coil.",
+   "formula": "far_field = mu0 * mag_moment / (4 * pi * dist ** 3)",
+   "key_idea": "Far along the axis, solenoid and bar magnet produce the same 1 over distance cubed field, so the two are interchangeable as dipoles.",
+   "textbook_ref": "leph105.txt section 5.2.2 (Eq. 5.1, finite solenoid axial field, Example 5.1)",
+   "question_patterns": [
+    "explain why a bar magnet can be treated as a solenoid with circulating currents",
+    "what do you get when a magnet is broken across its middle",
+    "compare the far axial field of a finite solenoid with that of a magnet",
+    "an iron nail near a magnet feels a pull but a needle in a uniform field does not; why",
+    "how would you decide which of two identical bars is the magnetised one using only the bars",
+    "does every magnetic setup need a distinct north and south face"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "replace the magnet by circulating currents",
+     "explain": "each current loop adds a dipole moment pointing the same way"
+    },
+    {
+     "step": 2,
+     "action": "cut and compare",
+     "explain": "halving the bar halves the coil, giving two weaker dipoles with fresh pole pairs"
+    },
+    {
+     "step": 3,
+     "action": "match the far field",
+     "explain": "the 1 over distance cubed axial decay agrees for coil and bar, fixing the equivalent moment"
+    }
+   ]
+  },
+  {
+   "id": "leph105.5.2.3.1",
+   "title": "Torque on a Magnetic Dipole",
+   "section": "5.2.3",
+   "definition": "A compass needle free to swing in a uniform field feels a restoring twist of size mB sin(theta) that tries to line its moment up with the field; uniformity removes any net push, leaving pure rotation.",
+   "formula": "dipole_torque = mag_moment * mag_field * sin_tilt",
+   "key_idea": "The twist vanishes when the needle sits along the field and peaks at right angles, which is how a suspended magnet settles north-south.",
+   "textbook_ref": "leph105.txt section 5.2.3 (Eq. 5.2, Fig. 5.3b, Exercise 5.1)",
+   "question_patterns": [
+    "a short bar magnet sits at 30 degrees to a 0.25 T field with torque 4.5e-2 J; find its moment",
+    "compute the twist on a magnet of moment m in a uniform field at angle theta",
+    "why does a magnet in a uniform field rotate but not translate",
+    "find mB sin(theta) for the given needle and field values",
+    "what orientation of a suspended magnet gives zero and maximum torque",
+    "a solenoid hangs with its axis at an angle to a horizontal field; what torque acts on it"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply moment by field",
+     "explain": "the scale of the interaction is the product mB",
+     "compute": "moment_b = mag_moment * mag_field"
+    },
+    {
+     "step": 2,
+     "action": "apply the tilt factor",
+     "explain": "the twist magnitude is mB sin(theta)",
+     "compute": "dipole_torque = moment_b * sin_tilt"
+    }
+   ]
+  },
+  {
+   "id": "leph105.5.2.3.2",
+   "title": "Potential Energy of a Tilted Dipole",
+   "section": "5.2.3",
+   "definition": "Turning a needle away from the field stores energy; with the zero chosen at right angles, the energy at tilt theta reads minus mB cos(theta), lowest when aligned and highest when flipped.",
+   "formula": "dipole_energy = -mag_moment * mag_field * cos_tilt",
+   "key_idea": "Alignment is the energy minimum at -mB, the flipped state the maximum at +mB, so the needle spontaneously settles along the field.",
+   "textbook_ref": "leph105.txt section 5.2.3 (Eq. 5.3, energy minimum and maximum, Exercise 5.2)",
+   "question_patterns": [
+    "write the potential energy of a magnetic dipole at angle theta to the field",
+    "a 0.32 J/T magnet in a 0.15 T field sits stable and then flipped; give both energies",
+    "why is the aligned position of a magnet the most stable one",
+    "evaluate minus mB cos(theta) for a needle at right angles to the field",
+    "where is the zero of dipole potential energy usually placed",
+    "compare the energy of a magnet pointing with and against the applied field"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "form the mB scale",
+     "explain": "energy swings between plus and minus this product",
+     "compute": "moment_b = mag_moment * mag_field"
+    },
+    {
+     "step": 2,
+     "action": "apply the cosine of the tilt",
+     "explain": "U = -mB cos(theta) with zero at 90 degrees",
+     "compute": "dipole_energy = -moment_b * cos_tilt"
+    }
+   ]
+  },
+  {
+   "id": "leph105.5.2.3.3",
+   "title": "Work to Rotate a Magnet in a Field",
+   "section": "5.2.3",
+   "definition": "An external agent swinging a magnet between two tilts must supply the change in dipole energy, mB times the cosine gap between the start and finish angles.",
+   "formula": "work_turn = mag_moment * mag_field * (cos_start - cos_final)",
+   "key_idea": "Swinging from aligned to perpendicular costs mB; carrying on to antiparallel doubles the bill to 2mB.",
+   "textbook_ref": "leph105.txt section 5.2.3 (energy integration, Exercise 5.5 work parts)",
+   "question_patterns": [
+    "how much work turns a magnet from along the field to across it",
+    "compute the energy needed to flip a magnet to point against the field",
+    "a 1.5 J/T magnet aligned in a 0.22 T field is turned normal; find the work done",
+    "what external work moves a dipole from tilt one to tilt two",
+    "find mB times the cosine difference for a rotation in a uniform field",
+    "is the torque nonzero after the magnet is held normal to the field"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "energy at the start tilt",
+     "explain": "U1 = -mB cos(theta1)",
+     "compute": "energy_start = -mag_moment * mag_field * cos_start"
+    },
+    {
+     "step": 2,
+     "action": "energy at the final tilt",
+     "explain": "U2 = -mB cos(theta2)",
+     "compute": "energy_final = -mag_moment * mag_field * cos_final"
+    },
+    {
+     "step": 3,
+     "action": "take the increase",
+     "explain": "the applied work equals U2 minus U1",
+     "compute": "work_turn = energy_final - energy_start"
+    }
+   ]
+  },
+  {
+   "id": "leph105.5.2.4.1",
+   "title": "Axial Field of a Short Bar Magnet",
+   "section": "5.2.4",
+   "definition": "On the magnet's axis, far compared with its length, the field is twice the dipole benchmark: mu0 times 2m over 4 pi r cubed, pointing along the moment.",
+   "formula": "axial_field = 2 * mu0 * mag_moment / (4 * pi * dist ** 3)",
+   "key_idea": "The axial point gets double weight because the two pole contributions add along the axis instead of partly cancelling.",
+   "textbook_ref": "leph105.txt section 5.2.4 (Eq. 5.5, Table 5.1 axial row, Example 5.7 data)",
+   "question_patterns": [
+    "a 0.48 J/T magnet sits 10 cm away on its axis; find the field there",
+    "compute mu0 2m over 4 pi r cubed for a short magnet",
+    "what field does a bar magnet produce at a point on its axis far away",
+    "compare the axial and equatorial field strengths of the same magnet",
+    "determine the on-axis field at a stated distance from a magnet's centre",
+    "how does the axial field fall when the distance from the magnet doubles"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "dipole benchmark field",
+     "explain": "the base cube-law term is mu0 m over 4 pi r cubed",
+     "compute": "base_field = mu0 * mag_moment / (4 * pi * dist ** 3)"
+    },
+    {
+     "step": 2,
+     "action": "double for the axial point",
+     "explain": "B axial equals 2 times the base term",
+     "compute": "axial_field = 2 * base_field"
+    }
+   ]
+  },
+  {
+   "id": "leph105.5.2.4.2",
+   "title": "Equatorial Field of a Short Bar Magnet",
+   "section": "5.2.4",
+   "definition": "On the magnet's perpendicular bisector, again far out, the field is the single dipole benchmark mu0 m over 4 pi r cubed, aimed opposite the moment direction.",
+   "formula": "equat_field = mu0 * mag_moment / (4 * pi * dist ** 3)",
+   "key_idea": "Equator to axis strength runs 1 to 2 for the same distance, mirroring the electric dipole pattern with mu0 standing in for 1 over epsilon0.",
+   "textbook_ref": "leph105.txt section 5.2.4 (Eq. 5.4, Table 5.1 equatorial row)",
+   "question_patterns": [
+    "find the field of a 0.48 J/T magnet on its normal bisector 10 cm out",
+    "compute mu0 m over 4 pi r cubed at an equatorial point",
+    "what is the field on the perpendicular bisector of a short magnet",
+    "why does the equatorial field point opposite to the magnetic moment",
+    "how many times weaker is the equatorial field than the axial one at equal distance",
+    "determine the sideways field of a bar magnet at a far-off bisector point"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate the benchmark cube-law term",
+     "explain": "the equatorial result is exactly mu0 m over 4 pi r cubed",
+     "compute": "equat_field = mu0 * mag_moment / (4 * pi * dist ** 3)"
+    }
+   ]
+  },
+  {
+   "id": "leph105.5.3.1",
+   "title": "Gauss Law for Magnetic Fields",
+   "section": "5.3",
+   "definition": "Wrap any closed surface around magnets, coils or empty space: the outward and inward field-line counts always balance, so the total magnetic flux through the surface adds to zero because no isolated pole exists.",
+   "formula": "net_flux = 0 for every closed surface",
+   "key_idea": "Zero net flux is the magnetic twin of Gauss's electric law with the charge side missing, and a hypothetical monopole would restore a mu0 qm right side.",
+   "textbook_ref": "leph105.txt section 5.3 (Eq. 5.6, Example 5.3-5.4 flux and monopole discussion)",
+   "question_patterns": [
+    "state the flux rule that holds for every closed surface in magnetism",
+    "why is the total B-flux through a closed box around a magnet zero",
+    "how would the magnetic flux law change if monopoles were discovered",
+    "which of the drawn field-line pictures violate the flux rule",
+    "compare Gauss's law for magnetic and electric fields",
+    "do field lines emanating from a single point describe a possible magnetic field"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "split the surface into patches",
+     "explain": "each patch carries a flux B dot dS in or out"
+    },
+    {
+     "step": 2,
+     "action": "add signed fluxes",
+     "explain": "every entering line must leave somewhere, so contributions cancel"
+    },
+    {
+     "step": 3,
+     "action": "conclude zero",
+     "explain": "the sum over all patches vanishes for any closed surface because dipole lines never terminate"
+    }
+   ]
+  },
+  {
+   "id": "leph105.5.4.1",
+   "title": "Magnetisation of a Sample",
+   "section": "5.4",
+   "definition": "A material's magnetisation is its net dipole moment squeezed into each unit volume, quoted in A/m; atomic loop moments add vectorially to build it.",
+   "formula": "magnetisation = net_moment / volume",
+   "key_idea": "M measures how strongly a chunk of matter is magnetised per unit volume, independent of how big the chunk is.",
+   "textbook_ref": "leph105.txt section 5.4 (Eq. 5.7, dimensions L-1 A, units A m-1)",
+   "question_patterns": [
+    "define the magnetisation vector of a material sample",
+    "compute moment per unit volume for a specimen of known net moment",
+    "what are the units of magnetisation and how is it built from atomic moments",
+    "a core carries net moment in a given volume; find M",
+    "how does magnetisation differ from the total magnetic moment",
+    "find the A/m value of M for a small magnetised rod"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide moment by volume",
+     "explain": "M is defined as net dipole moment over sample volume",
+     "compute": "magnetisation = net_moment / volume"
+    }
+   ]
+  },
+  {
+   "id": "leph105.5.4.2",
+   "title": "Magnetisation M and Intensity H",
+   "section": "5.4",
+   "definition": "The intensity H keeps track of only the free driving current (n times I inside a solenoid), while M records the material's own response; together they rebuild the total field as B = mu0 (H + M).",
+   "formula": "intensity_field = turns_per_len * current",
+   "key_idea": "H is material-blind: the same solenoid current gives the same H whether the core is empty, glass or iron.",
+   "textbook_ref": "leph105.txt section 5.4 (Eqs. 5.8, 5.11-5.12, Example 5.5 part a)",
+   "question_patterns": [
+    "compute H inside a solenoid of 1000 turns per metre carrying 2 A",
+    "what does the magnetic intensity H depend on and what does it ignore",
+    "relate B, H and M for material inside a current-carrying coil",
+    "find nI for the given winding density and current",
+    "why is H independent of the core filling the solenoid",
+    "a wound core carries current I; obtain the intensity inside it"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply winding density by current",
+     "explain": "for a solenoid the intensity is simply H = nI",
+     "compute": "intensity_field = turns_per_len * current"
+    }
+   ]
+  },
+  {
+   "id": "leph105.5.4.3",
+   "title": "Field Inside a Material Core",
+   "section": "5.4",
+   "definition": "Filling a solenoid with matter of relative permeability mur multiplies the vacuum field: B = mu0 mur H, so a mur of 400 boosts the interior field four-hundredfold over the empty coil.",
+   "formula": "core_field = mu0 * perm_rel * intensity_field",
+   "key_idea": "The material's aligned moments add their own field Bm = mu0 M on top of the driving field, which is how iron cores strengthen electromagnets.",
+   "textbook_ref": "leph105.txt section 5.4 (Eqs. 5.9-5.10, 5.14-5.15, Example 5.5 parts b-d)",
+   "question_patterns": [
+    "a solenoid with 1000 turns per metre and 2 A has a core of relative permeability 400; find B",
+    "compute the interior field when a magnetic core fills a current-carrying coil",
+    "how much does a high-permeability core raise the solenoid field",
+    "evaluate mu0 mur H for the given core and winding data",
+    "find the extra field contributed by a magnetised core over the vacuum value",
+    "work out the magnetising current that would replace an iron core"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "intensity from the windings",
+     "explain": "H = nI comes from the free current alone",
+     "compute": "intensity_field = turns_per_len * current"
+    },
+    {
+     "step": 2,
+     "action": "scale by permeabilities",
+     "explain": "B = mu0 mur H multiplies the vacuum response by mur",
+     "compute": "core_field = mu0 * perm_rel * intensity_field"
+    }
+   ]
+  },
+  {
+   "id": "leph105.5.4.4",
+   "title": "Susceptibility and Permeability Relations",
+   "section": "5.4",
+   "definition": "For a linear material the response is proportional to the drive, M = chi H, and the bookkeeping closes with mur = 1 + chi and mu = mu0 mur, so one number fixes all three.",
+   "formula": "perm_rel = 1 + chi",
+   "key_idea": "Susceptibility chi is the dial that separates material classes: slightly negative for diamagnets, slightly positive for paramagnets, huge for ferromagnets.",
+   "textbook_ref": "leph105.txt section 5.4 (Eqs. 5.13-5.15, Table 5.2 chi and mur ranges)",
+   "question_patterns": [
+    "how are susceptibility, relative permeability and permeability linked",
+    "given chi find mur and mu for a material",
+    "what sign and size of chi marks a diamagnet, paramagnet and ferromagnet",
+    "compute mur = 1 + chi for a stated susceptibility",
+    "why is only one of chi, mur and mu independent",
+    "relate M to H for a linear magnetic material"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "scale the response",
+     "explain": "M = chi H says the material's moment density follows the drive linearly"
+    },
+    {
+     "step": 2,
+     "action": "shift by one",
+     "explain": "relative permeability is mur = 1 + chi"
+    },
+    {
+     "step": 3,
+     "action": "fold into mu0",
+     "explain": "the absolute permeability mu = mu0 mur carries the same units as mu0"
+    }
+   ]
+  },
+  {
+   "id": "leph105.5.5.1",
+   "title": "Diamagnetic Behaviour",
+   "section": "5.5.1",
+   "definition": "Materials whose atoms carry no net moment develop an induced moment opposing an applied field, so they drift toward weaker field regions and are gently pushed away from a magnet; chi is small and negative.",
+   "formula": "chi less than 0 with mur less than 1",
+   "key_idea": "Lenz-law induced currents inside atoms explain the repulsion; superconductors are the extreme case with chi = -1, expelling field completely (Meissner effect).",
+   "textbook_ref": "leph105.txt section 5.5.1 (diamagnetic list, superconductors, Table 5.2)",
+   "question_patterns": [
+    "why is a diamagnetic bar repelled by a magnet rather than attracted",
+    "what happens to field lines entering a diamagnetic sample",
+    "name a few diamagnetic materials and their susceptibility range",
+    "how do orbiting electrons explain diamagnetism",
+    "what makes a superconductor a perfect diamagnet",
+    "a diamagnetic rod rests in a non-uniform field; which way does it drift"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "induce opposing moments",
+     "explain": "the applied field slows electrons orbiting one way and speeds the others, a Lenz-law effect leaving an opposing net moment"
+    },
+    {
+     "step": 2,
+     "action": "watch the field thin out",
+     "explain": "field lines partially avoid the sample, lowering B inside by about one part in 1e5"
+    },
+    {
+     "step": 3,
+     "action": "sort by chi",
+     "explain": "negative susceptibility places the substance in the diamagnetic class; -1 marks the perfect case"
+    }
+   ]
+  },
+  {
+   "id": "leph105.5.5.2",
+   "title": "Paramagnetic Behaviour",
+   "section": "5.5.2",
+   "definition": "Atoms with permanent moments line up only feebly with an applied field because heat keeps scrambling them, so these substances are weakly pulled toward strong field regions; chi is small and positive.",
+   "formula": "chi greater than 0 with mur slightly above 1",
+   "key_idea": "Cooling or strengthening the field increases alignment until saturation, where every atomic moment points along the field.",
+   "textbook_ref": "leph105.txt section 5.5.2 (paramagnetic list, temperature dependence, Fig. 5.7b)",
+   "question_patterns": [
+    "why does a paramagnetic rod move into the stronger part of a field",
+    "how do temperature and field strength control paramagnetic alignment",
+    "name some paramagnetic substances",
+    "what is saturation magnetisation in a paramagnet",
+    "compare the field inside a paramagnet with the applied field",
+    "how do thermal motions prevent full alignment of atomic moments"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the built-in moments",
+     "explain": "each atom owns a permanent dipole moment even before any field arrives"
+    },
+    {
+     "step": 2,
+     "action": "partially align against heat",
+     "explain": "the field tips moments toward itself while thermal motion resists, giving a slight interior field boost"
+    },
+    {
+     "step": 3,
+     "action": "track the trend",
+     "explain": "lower temperature or stronger field raises M until every moment points along B"
+    }
+   ]
+  },
+  {
+   "id": "leph105.5.5.3",
+   "title": "Ferromagnetism and Domains",
+   "section": "5.5.3",
+   "definition": "In iron-group substances, neighbouring atomic moments lock into meter-scale-swaths called domains that snap into common alignment under even tiny fields, giving susceptibilities in the thousands and a strong pull toward magnets.",
+   "formula": "chi much greater than 1 with mur much greater than 1",
+   "key_idea": "Hard ferromagnets keep their magnetisation after the field leaves (permanent magnets); soft ones lose it; strong heating destroys domains and turns the sample paramagnetic.",
+   "textbook_ref": "leph105.txt section 5.5.3 (domains, hard vs soft materials, temperature loss)",
+   "question_patterns": [
+    "what are domains and how do they explain strong magnetisation",
+    "why does soft iron lose its magnetisation while alnico keeps it",
+    "what happens to a ferromagnet heated well above its transition temperature",
+    "how do field lines behave around and inside a ferromagnetic sample",
+    "distinguish hard and soft ferromagnetic materials with examples",
+    "why is the relative permeability of iron above one thousand"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "picture the domains",
+     "explain": "quantum coupling aligns millions of atomic moments inside each domain even with no external field"
+    },
+    {
+     "step": 2,
+     "action": "grow the aligned domains",
+     "explain": "an applied field enlarges favourably oriented domains and rotates the rest, concentrating field lines strongly"
+    },
+    {
+     "step": 3,
+     "action": "test what remains",
+     "explain": "removing the field leaves hard materials magnetised and soft ones demagnetised; high temperature collapses the domain order"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_leph105_1",
+   "source_ref": "leph105.txt Exercise 5.1 (torque 4.5e-2 J at 30 degrees in 0.25 T)",
+   "concept": "leph105.5.2.3.1",
+   "question_type": "moment_from_torque",
+   "question_pattern": "A short bar magnet tilted {tilt_deg} degrees from a {mag_field} T field feels a twist of {dipole_torque} J. What is its magnetic moment?",
+   "extracted_variables": {"mag_field": 0.25, "sin_tilt": 0.5, "dipole_torque": 0.045},
+   "solution_template": [
+    {"step": 1, "action": "field times tilt factor", "explain": "the torque reads mB sin(theta)", "compute": "denom_term = mag_field * sin_tilt"},
+    {"step": 2, "action": "solve for the moment", "explain": "divide the torque by B sin(theta)", "compute": "mag_moment = dipole_torque / denom_term"}
+   ]
+  },
+  {
+   "id": "we_leph105_2",
+   "source_ref": "leph105.txt Exercise 5.2 (m = 0.32 J/T in 0.15 T field)",
+   "concept": "leph105.5.2.3.2",
+   "question_type": "dipole_energy_extremes",
+   "question_pattern": "A magnet of moment {mag_moment} J/T sits in a {mag_field} T field. Give its potential energy when aligned and when flipped against the field.",
+   "extracted_variables": {"mag_moment": 0.32, "mag_field": 0.15, "cos_tilt": -1.0},
+   "solution_template": [
+    {"step": 1, "action": "mB scale", "explain": "energies swing between plus and minus mB", "compute": "moment_b = mag_moment * mag_field"},
+    {"step": 2, "action": "energy at the flipped tilt", "explain": "cos is -1 there, giving plus mB; aligned gives minus mB", "compute": "dipole_energy = -moment_b * cos_tilt"}
+   ]
+  },
+  {
+   "id": "we_leph105_3",
+   "source_ref": "leph105.txt Exercise 5.3 (800-turn solenoid, area 2.5e-4 m2, 3.0 A)",
+   "concept": "leph105.5.2.2.1",
+   "question_type": "solenoid_moment",
+   "question_pattern": "A tightly wound solenoid of {turns} turns and cross-section {area} m2 carries {current} A. What dipole moment does it present as a bar magnet?",
+   "extracted_variables": {"turns": 800.0, "area": 2.5e-04, "current": 3.0},
+   "solution_template": [
+    {"step": 1, "action": "multiply turns, current, area", "explain": "m = N I A for the equivalent dipole", "compute": "mag_moment = turns * current * area"}
+   ]
+  },
+  {
+   "id": "we_leph105_4",
+   "source_ref": "leph105.txt Exercise 5.5 (m = 1.5 J/T in 0.22 T field, rotations)",
+   "concept": "leph105.5.2.3.3",
+   "question_type": "work_to_rotate_magnet",
+   "question_pattern": "A {mag_moment} J/T magnet lies along a {mag_field} T field. How much work turns it (i) normal and (ii) opposite to the field?",
+   "extracted_variables": {"mag_moment": 1.5, "mag_field": 0.22, "cos_start": 1.0, "cos_final": 0.0},
+   "solution_template": [
+    {"step": 1, "action": "start energy", "explain": "aligned means cos 1, U = -mB", "compute": "energy_start = -mag_moment * mag_field * cos_start"},
+    {"step": 2, "action": "final energy", "explain": "normal means cos 0, U = 0; opposite gives +mB", "compute": "energy_final = -mag_moment * mag_field * cos_final"},
+    {"step": 3, "action": "work applied", "explain": "W = U2 minus U1", "compute": "work_turn = energy_final - energy_start"}
+   ]
+  },
+  {
+   "id": "we_leph105_5",
+   "source_ref": "leph105.txt Example 5.5 (core of relative permeability 400, n = 1000/m, I = 2 A)",
+   "concept": "leph105.5.4.3",
+   "question_type": "core_field_and_intensity",
+   "question_pattern": "A solenoid wound at {turns_per_len} turns/m carries {current} A around a core of relative permeability {perm_rel}. Find H and B inside.",
+   "extracted_variables": {"turns_per_len": 1000.0, "current": 2.0, "perm_rel": 400.0, "mu0": 1.2566e-06},
+   "solution_template": [
+    {"step": 1, "action": "intensity", "explain": "H = nI ignores the core", "compute": "intensity_field = turns_per_len * current"},
+    {"step": 2, "action": "core field", "explain": "B = mu0 mur H", "compute": "core_field = mu0 * perm_rel * intensity_field"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_leph105_5_1_to_5_3",
+   "source_ref": "leph105.txt end-of-chapter exercises 5.1-5.3",
+   "questions": [
+    "A short bar magnet at 30 degrees to a 0.25 T uniform field feels a 4.5e-2 J torque; what is its magnetic moment?",
+    "A 0.32 J/T magnet in a 0.15 T field rotates freely in the field plane; which alignments are stable and unstable, and what energy belongs to each?",
+    "An 800-turn solenoid of cross-section 2.5e-4 m2 carries 3.0 A; in what sense is it a bar magnet and what moment goes with it?"
+   ]
+  },
+  {
+   "id": "ex_leph105_5_4_to_5_5",
+   "source_ref": "leph105.txt end-of-chapter exercises 5.4-5.5",
+   "questions": [
+    "If that solenoid can swivel and a 0.25 T horizontal field is applied, what torque appears when its axis sits 30 degrees off the field?",
+    "A 1.5 J/T magnet aligned with a 0.22 T field is turned by an external agent: find the work for (i) normal and (ii) opposite alignment, plus the torque in each final position."
+   ]
+  },
+  {
+   "id": "ex_leph105_5_6_to_5_7",
+   "source_ref": "leph105.txt end-of-chapter exercises 5.6-5.7",
+   "questions": [
+    "A 2000-turn solenoid of cross-section 1.6e-4 m2 with 4.0 A hangs pivoted at its centre: find its moment, then the force and torque in a 7.5e-2 T field at 30 degrees to its axis.",
+    "A 0.48 J/T short magnet: give the direction and size of its field 10 cm from its centre on the axis and on the equatorial line."
+   ]
+  }
+ ]
+}

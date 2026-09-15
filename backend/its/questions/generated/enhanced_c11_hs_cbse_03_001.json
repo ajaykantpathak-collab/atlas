@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_03_001",
+   "title": "c11_hs_cbse_03_001",
+   "questions": [
+    {
+     "q": "Define \"food\" according to the NCERT Class 11 Home Science textbook. Your answer must include the three key processes (ingestion, digestion, assimilation) and the outcome.",
+     "a": "Food is anything solid or liquid which when swallowed, digested and assimilated in the body provides it with essential substances called nutrients and keeps it well. A wrong answer that omits \"assimilated\" or says \"gives energy only\" reveals the student is using a Class 6–7 definition (fuel-only) and has not updated to the senior secondary definition that includes structural, regulatory, and protective roles.",
+     "self_check": true
+    },
+    {
+     "q": "A student says, \"Nutrition and food mean the same thing — what you eat.\" Explain why this statement is incorrect using the precise NCERT definitions of both terms.",
+     "a": "Food is the substance consumed; nutrition is the *science* of foods, nutrients, and their actions within the body (ingestion, digestion, absorption, metabolism, excretion) including social, psychological, and economic dimensions. A wrong answer that equates the two shows the student confuses the *object* (food) with the *process/study* (nutrition) — a classic category error that leads to mistakes in later nodes like RDA interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each of the following as a macronutrient or micronutrient source: (a) wheat roti, (b) spinach, (c) ghee, (d) iodised salt. Justify each classification using the quantity criterion (grams vs milligrams/micrograms per day).",
+     "a": "(a) Wheat roti → macronutrient source (carbohydrate, required ~130 g/day). (b) Spinach → micronutrient source (iron, folate, vitamin A required in mg/µg/day) though it also provides fibre (macronutrient). (c) Ghee → macronutrient source (fat, required ~25–30 g/day). (d) Iodised salt → micronutrient source (iodine required ~150 µg/day). A wrong answer that calls spinach a \"macronutrient food\" because \"we eat a lot of it\" confuses *portion size* with *physiological requirement quantity* — the defining criterion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the energy contribution of 20 g of carbohydrate vs 20 g of fat. Then analyse why the NCERT textbook lists fibre and water under macronutrients even though they provide negligible energy.",
+     "a": "20 g carbohydrate = 80 kcal (20 × 4); 20 g fat = 180 kcal (20 × 9). Fibre and water are classified as macronutrients because they are required in *large quantities* (grams per day: fibre ~25–30 g, water ~2–3 L) — the classification is based on *quantity needed*, not energy yield. A wrong answer that says \"fibre gives energy\" or \"water is not a nutrient\" reveals the student is using energy-yield as the classification criterion instead of the NCERT's quantity-based criterion.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Since rice provides energy, protein, and B-vitamins, eating only rice in sufficient quantity can meet all nutrient needs.\" Use the concept of nutrient density and the four functions of food to justify your evaluation.",
+     "a": "The claim is false. Rice is low in fat (essential fatty acids), vitamin A, vitamin C, vitamin B12, calcium, and iron — nutrients critical for regulation (vitamins), protection (antioxidants), and structure (calcium). No single food has high nutrient density for *all* essential nutrients; the \"variety\" principle in balanced diets exists precisely because nutrient profiles are complementary, not redundant. A wrong answer that agrees reveals the student thinks \"energy + some protein + some vitamins = complete nutrition,\" missing the *qualitative* dimension of nutrient adequacy.",
+     "self_check": true
+    },
+    {
+     "q": "Create a one-day meal plan for a Class 11 student that explicitly demonstrates all four functions of food (energy, growth/repair, regulation, protection). Label each food item with its primary function(s) and the nutrient(s) responsible.",
+     "a": "Example: Breakfast — milk (growth/repair: protein, calcium; energy: lactose, fat), whole wheat toast (energy: carbohydrate; regulation: fibre, B-vitamins), banana (protection: potassium, vitamin B6; energy: carbohydrate). Lunch — dal (growth/repair: protein; regulation: fibre), rice (energy), spinach sabzi (protection: vitamin A, iron, folate; regulation: fibre), curd (growth/repair: protein, calcium; regulation: probiotics). Snack — roasted chana (energy: carb; growth/repair: protein; regulation: fibre). Dinner — fish/chicken or paneer (growth/repair: protein, B12), roti (energy), salad with lemon (protection: vitamin C; regulation: fibre). A poor answer lists foods without linking to specific functions/nutrients, showing the student cannot operationalise the four-role framework.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

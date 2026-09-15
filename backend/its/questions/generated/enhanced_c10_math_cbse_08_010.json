@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_08_010",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_08_010",
+   "title": "c10_math_cbse_08_010",
+   "questions": [
+    {
+     "q": "Write the three fundamental Pythagorean trigonometric identities from memory, and state the condition on angle θ for which each is valid.",
+     "a": "The three identities are: (1) sin²θ + cos²θ = 1, (2) 1 + tan²θ = sec²θ, (3) 1 + cot²θ = cosec²θ. All are valid for 0° ≤ θ ≤ 90° (where all ratios are defined; tanθ and secθ are undefined at 90°, cotθ and cosecθ are undefined at 0°). A wrong answer reveals the student has memorised identities without understanding domain restrictions — they might apply 1+tan²θ=sec²θ at θ=90° where both sides are undefined, losing marks in board exams for incomplete statements.",
+     "self_check": true
+    },
+    {
+     "q": "A student simplifies (sec²θ - 1) / tan²θ as follows: \"sec²θ - 1 = tan²θ from the identity, so the expression becomes tan²θ / tan²θ = 1.\" Is this simplification valid for θ = 0°? Explain why or why not.",
+     "a": "No, it is not valid at θ = 0°. At θ = 0°, tan 0° = 0, so the original expression has denominator tan²0° = 0, making it undefined (division by zero). The identity 1 + tan²θ = sec²θ holds at θ = 0° (both sides = 1), but the algebraic step of cancelling tan²θ assumes tan²θ ≠ 0. A wrong answer reveals the student cancels terms without checking for zero denominators — a classic board exam error where they simplify 0/0 to 1 and lose the \"condition\" mark.",
+     "self_check": true
+    },
+    {
+     "q": "Simplify completely: (cosec²θ - cot²θ) / (1 + cosθ)(1 - cosθ) for 0° < θ < 90°. Show every step.",
+     "a": "Step 1: Numerator: cosec²θ - cot²θ = 1 (using identity 1 + cot²θ = cosec²θ ⇒ cosec²θ - cot²θ = 1).\nStep 2: Denominator: (1 + cosθ)(1 - cosθ) = 1 - cos²θ (difference of squares).\nStep 3: 1 - cos²θ = sin²θ (using sin²θ + cos²θ = 1).\nStep 4: Expression = 1 / sin²θ = cosec²θ.\nAnswer: cosec²θ.\nA wrong answer (e.g., 1 or sin²θ) reveals the student either doesn't recognise the denominator as 1-cos²θ, or forgets the reciprocal identity 1/sin²θ = cosec²θ, or incorrectly applies the Pythagorean identity as cos²θ - 1 = sin²θ (sign error).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the simplification paths for these two expressions:\n(A) (sin⁴θ - cos⁴θ) / (sin²θ - cos²θ)\n(B) (sin⁴θ + cos⁴θ) / (sin²θ + cos²θ)\nExplain why the algebraic strategy differs and what identity each requires.",
+     "a": "For (A): Numerator is difference of squares: (sin²θ - cos²θ)(sin²θ + cos²θ). Denominator is (sin²θ - cos²θ). Cancel to get sin²θ + cos²θ = 1. Uses identity sin²θ + cos²θ = 1.\nFor (B): Numerator is sum of squares — cannot factor over reals. Rewrite sin⁴θ + cos⁴θ = (sin²θ + cos²θ)² - 2sin²θcos²θ = 1 - 2sin²θcos²θ. Denominator = 1. Result = 1 - 2sin²θcos²θ (or 1 - ½sin²2θ, but double-angle is Class 11). Strategy differs because (A) has factorable difference of squares, (B) requires completing the square. A wrong answer reveals the student tries to factor sum of squares as (sin²θ + cos²θ)², confusing (a²+b²) with (a+b)² — a fundamental algebra error from Class 8 (c8_math_ch6_7).",
+     "self_check": true
+    },
+    {
+     "q": "A student's solution to simplify tanθ · cotθ + secθ · cosθ:\n\"tanθ = sinθ/cosθ, cotθ = cosθ/sinθ, so tanθ·cotθ = 1.\nsecθ = 1/cosθ, so secθ·cosθ = 1.\nTotal = 1 + 1 = 2.\"\nIdentify if this is fully correct for all θ in (0°, 90°). If not, state the missing condition.",
+     "a": "The simplification is algebraically correct for all θ where all ratios are defined, i.e., 0° < θ < 90°. At θ = 0°, cotθ and cosecθ are undefined; at θ = 90°, tanθ and secθ are undefined. The student's working is correct but incomplete — they should explicitly state \"for 0° < θ < 90°\" or \"where all ratios are defined\". Board exams deduct ½ mark for missing domain specification. A wrong answer (claiming it's valid at 0° or 90°) reveals the student ignores the domain of reciprocal ratios — a frequent error in competency questions asking \"state the condition\".",
+     "self_check": true
+    },
+    {
+     "q": "Create a trigonometric simplification problem that requires using BOTH the identity 1 + tan²θ = sec²θ AND the complementary angle relation sin(90°-θ) = cosθ in sequence. The final answer should be a single trigonometric ratio. Provide the problem and its step-by-step solution.",
+     "a": "Problem: Simplify sec(90°-θ) · tanθ / (1 + tan²θ).\nSolution:\nStep 1: sec(90°-θ) = cosecθ (complementary: sec(90°-θ) = cosecθ).\nStep 2: Expression = cosecθ · tanθ / (1 + tan²θ).\nStep 3: 1 + tan²θ = sec²θ (Pythagorean identity).\nStep 4: Expression = cosecθ · tanθ / sec²θ.\nStep 5: tanθ = sinθ/cosθ, cosecθ = 1/sinθ, sec²θ = 1/cos²θ.\nStep 6: = (1/sinθ) · (sinθ/cosθ) / (1/cos²θ) = (1/cosθ) · cos²θ = cosθ.\nAnswer: cosθ.\nA poor answer creates a problem that only uses one identity, or makes the complementary angle substitution incorrect (e.g., writes sec(90°-θ) = cosθ), revealing confusion between complementary pairs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

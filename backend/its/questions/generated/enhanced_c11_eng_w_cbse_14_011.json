@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_14_011",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_14_011",
+   "title": "c11_eng_w_cbse_14_011",
+   "questions": [
+    {
+     "q": "Define personification in grammatical terms: which specific part of speech and grammatical choice primarily enables personification in poetry?",
+     "a": "Personification is grammatically enacted primarily through **verb selection**—attributing human-action verbs (e.g., \"cut off,\" \"gave,\" \"asked\") to non-human subjects (reed, quill). A wrong answer (e.g., \"using adjectives like 'kind'\") reveals the student conflates personification with descriptive imagery rather than recognizing that *syntax*—specifically subject-verb agreement with human verbs—performs the personification.",
+     "self_check": true
+    },
+    {
+     "q": "In the first stanza, the reed \"said,\" \"gave,\" \"asked.\" In the second, it \"cut off its hand\" and \"gave it to me.\" Explain how the *shift in verb semantics* (meaning of the verbs) changes the reed's portrayal from a conversational partner to a sacrificial servant.",
+     "a": "The first stanza uses speech-act verbs (\"said,\" \"asked\") and a simple transfer verb (\"gave\"), framing the reed as a dialogue partner. The second stanza replaces these with a violent, self-mutilating verb phrase (\"cut off its hand\") followed by \"gave,\" transforming the reed into a willing martyr. A wrong answer focusing only on \"the reed becomes more helpful\" misses the grammatical mechanism: the shift from *communication verbs* to *bodily sacrifice verbs* redefines the reed's agency grammatically.",
+     "self_check": true
+    },
+    {
+     "q": "APPLY: Below is a new four-line stanza. Identify every imperative structure and explain how each creates urgency.\n\"Listen, river, speak to me.\nFlow faster, reach her door.\nCarry my voice, do not pause.\nArrive before the dawn breaks.\"",
+     "a": "Imperatives: \"Listen,\" \"speak,\" \"Flow faster,\" \"reach,\" \"Carry,\" \"do not pause,\" \"Arrive.\" Seven imperatives in four lines create relentless forward momentum. The negative imperative \"do not pause\" intensifies urgency by forbidding delay. A wrong answer listing only \"Listen\" and \"Flow faster\" reveals inability to recognize imperative forms without explicit subjects (elliptical \"you\") and missing negative imperatives.",
+     "self_check": true
+    },
+    {
+     "q": "ANALYZE: Compare the tense usage in stanza 1 (\"I approached... asked... he said... gave... asked\") and stanza 2 (\"The reed cut off... gave... said... I too am her servant\"). What does the tense shift reveal about the poem's temporal structure?",
+     "a": "Stanza 1 uses simple past throughout, framing the encounter as a completed narrative. Stanza 2 opens with past (\"cut off,\" \"gave,\" \"said\") but closes with present tense (\"I too am her servant\"), pulling the reed's declaration into the eternal present. This shift grammaticalizes the poem's argument: the reed's servitude to Dogri is not a past event but an ongoing identity. A wrong answer stating \"both are past tense\" misses the final present-tense declaration that anchors the poem's timeless claim.",
+     "self_check": true
+    },
+    {
+     "q": "EVALUATE: Which grammatical feature—imperative mood, verb choice for personification, or pronoun reference—most effectively conveys the poet's emotional attachment to Dogri? Justify with two specific textual reasons.",
+     "a": "Pronoun reference most effectively conveys attachment because: (1) The shift from \"he\" (reed) to \"she\" (Shahni/Dogri) grammatically enacts the metaphor's revelation—the reed is merely a conduit; the true addressee is the feminine \"Shahni.\" (2) The first-person plural \"we\" implied in \"I am not the only one / Working for her\" expands the poet's individual devotion into collective service. A wrong answer choosing \"imperative mood\" overlooks that urgency ≠ attachment; the pronouns map the *relationship* grammatically.",
+     "self_check": true
+    },
+    {
+     "q": "CREATE: Write four original lines personifying a tree through verb choice alone (no adjectives, no explicit metaphors). Use at least two different verb types (e.g., volitional, sensory, bodily).",
+     "a": "Example: \"The oak *decided* to stay / Its roots *gripped* the stubborn clay / It *refused* the axe's smile / And *watched* the seasons pass awhile.\" Verbs: \"decided\" (volitional), \"gripped\" (bodily), \"refused\" (volitional), \"watched\" (sensory). A poor answer using \"The tree stood tall and strong\" relies on adjectives (\"tall,\" \"strong\") and a stative verb (\"stood\"), failing to enact personification through *action* verbs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

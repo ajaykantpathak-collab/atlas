@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_03_002",
+   "title": "c10_math_cbse_03_002",
+   "questions": [
+    {
+     "q": "State the algebraic condition for a pair of linear equations to have a unique solution.",
+     "a": "For a₁x + b₁y = c₁ and a₂x + b₂y = c₂, the condition for a unique solution is a₁/a₂ ≠ b₁/b₂. A wrong answer (e.g., \"a₁/a₂ = b₁/b₂\" or \"a₁/a₂ = b₁/b₂ = c₁/c₂\") confuses the unique solution case with parallel or coincident lines.",
+     "self_check": true
+    },
+    {
+     "q": "Without graphing, determine whether the system 3x + 2y = 7 and 2x + 3y = 8 has a unique solution.",
+     "a": "Check: a₁/a₂ = 3/2 and b₁/b₂ = 2/3. Since 3/2 ≠ 2/3, the condition a₁/a₂ ≠ b₁/b₂ is satisfied, so the system has a unique solution. A wrong answer (e.g., \"yes, because both equations have the same coefficients\") shows the student does not understand the ratio comparison.",
+     "self_check": true
+    },
+    {
+     "q": "A system has a₁/a₂ = 5/3 and b₁/b₂ = 5/3. What can you conclude about the number of solutions?",
+     "a": "Since a₁/a₂ = b₁/b₂, the lines are either parallel (no solution) or coincident (infinitely many solutions). We need to check c₁/c₂: if c₁/c₂ = 5/3, the lines are coincident (infinitely many solutions); if c₁/c₂ ≠ 5/3, the lines are parallel (no solution). A wrong answer (e.g., \"unique solution\") shows the student does not recognise that equal ratios of a and b mean the lines are NOT intersecting.",
+     "self_check": true
+    },
+    {
+     "q": "The system 2x + y = 5 and 4x + 2y = 10 has a₁/a₂ = 2/4 = 1/2, b₁/b₂ = 1/2, c₁/c₂ = 5/10 = 1/2. What type of system is this?",
+     "a": "Since a₁/a₂ = b₁/b₂ = c₁/c₂ = 1/2, the lines are coincident (the same line), so the system has infinitely many solutions (dependent system). A wrong answer (e.g., \"unique solution\" or \"no solution\") shows the student does not distinguish between the three cases using all three ratios.",
+     "self_check": true
+    },
+    {
+     "q": "Why do two lines with different slopes always intersect at exactly one point?",
+     "a": "Two lines with different slopes are not parallel. In a plane, two non-parallel lines must cross at exactly one point (Euclid's axiom). If they had the same slope, they would be parallel (no intersection) or coincident (same line, infinitely many intersections). A wrong answer (e.g., \"they might not intersect if they are far apart\") shows a geometric misconception — in a plane, non-parallel lines always intersect.",
+     "self_check": true
+    },
+    {
+     "q": "Given the system x + 2y = 4 and 2x + 3y = 7, find the unique solution using substitution and verify it satisfies both equations.",
+     "a": "From the first equation: x = 4 − 2y. Substitute into the second: 2(4 − 2y) + 3y = 7 ⇒ 8 − 4y + 3y = 7 ⇒ 8 − y = 7 ⇒ y = 1. Then x = 4 − 2(1) = 2. Solution: (2, 1). Verify: 2 + 2(1) = 4 ✓ and 2(2) + 3(1) = 7 ✓. A wrong answer (e.g., x = 1, y = 2) shows an algebraic error in substitution or solving.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

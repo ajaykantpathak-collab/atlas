@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_05_008",
+   "title": "c12_hs_cbse_05_008",
+   "questions": [
+    {
+     "q": "Define 'work simplification' and state the three levels of change proposed by Mundel for achieving it.",
+     "a": "Work simplification is the conscious effort to reduce the energy, time, and effort required to complete a task without compromising output quality. Mundel's three levels of change are: (1) Change in hand and body motions — e.g., using both hands symmetrically, reducing reaching distance; (2) Change in tools, equipment, or workplace layout — e.g., using a long-handled brush to avoid bending, adjusting counter height; (3) Change in the sequence or method of work — e.g., combining steps, eliminating unnecessary trips. A wrong answer that only lists \"using better tools\" reveals the student confuses work simplification with mere mechanization and misses the hierarchy from motion to method to sequence.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Ergonomics is only about buying expensive adjustable chairs for offices.\" Explain why this statement is incorrect using two specific ergonomic principles applicable to a home kitchen.",
+     "a": "The statement is incorrect because ergonomics is a systemic design approach, not furniture procurement. Two kitchen principles: (1) Work height principle — the primary work surface should be 5–10 cm below elbow height for precision tasks (chopping) and 10–15 cm below for forceful tasks (kneading), preventing shoulder elevation or trunk flexion; (2) Reach zone principle — frequently used items (spices, oil) must be placed in the primary reach zone (within 30–40 cm from body midline at elbow height), while infrequent items go to secondary zones, minimizing trunk rotation and overhead reaching. A student who only mentions \"comfortable chairs\" shows they view ergonomics as passive comfort rather than active spatial-motion design.",
+     "self_check": true
+    },
+    {
+     "q": "Your family has a top-loading washing machine placed on a 30 cm high platform. The user (height 160 cm) must load wet laundry (5 kg per load) from a basket on the floor. Analyze the ergonomic risk using posture and force principles, and propose two work simplification changes at different Mundel levels.",
+     "a": "Risk analysis: The platform raises the drum opening to ~110 cm (above elbow height of ~100 cm for 160 cm user), forcing shoulder abduction >60° and trunk flexion >45° to reach the basket, creating high compressive load on L5/S1 disc and rotator cuff strain. Wet laundry weight (5 kg) exceeds recommended single-hand lift limit (2–3 kg) at that posture. Changes: Level 1 (motion) — use a wheeled laundry basket at same height as drum to eliminate floor-to-drum lift; Level 2 (tool/layout) — install a front-loading machine at 60–70 cm height or lower platform so drum opening aligns with knuckle height (~70 cm), enabling neutral spine and elbow-in loading. A student who only suggests \"bend knees\" misses that the platform itself creates the hazard and that Mundel Level 2 (equipment change) is more effective than Level 1 (behavior change).",
+     "self_check": true
+    },
+    {
+     "q": "Compare physiological fatigue and psychological fatigue in terms of causation, recovery mechanism, and one measurable indicator for each.",
+     "a": "Physiological fatigue: caused by metabolic byproduct accumulation (lactate, H⁺, inorganic phosphate) and substrate depletion (glycogen, ATP) in muscles; recovery via rest, sleep, nutrition restoring homeostasis; measurable indicator — blood lactate concentration or heart rate recovery time. Psychological fatigue: caused by sustained cognitive load, monotony, stress, or lack of motivation affecting central nervous system drive; recovery via task variation, mental breaks, motivation restoration; measurable indicator — reaction time variability or critical flicker fusion frequency. A student who says \"both are tiredness\" fails to distinguish peripheral vs. central mechanisms and cannot select appropriate countermeasures (rest vs. job rotation).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Gilbreth's motion economy principles are outdated because modern appliances automate most household motions.\" Provide a reasoned judgment with two specific examples where motion economy still applies despite automation.",
+     "a": "The claim is invalid. Automation changes but does not eliminate human motion. Example 1: Microwave oven — motion economy principle \"both hands should begin and end motions simultaneously\" applies when placing/removing containers; asymmetrical door opening forces one-handed operation, increasing shoulder rotation. Example 2: Modular kitchen with pull-out drawers — principle \"locate tools and materials in fixed positions within the normal working area\" applies to drawer organization; if heavy pots are in low deep drawers, user still performs deep trunk flexion. Motion economy governs human-appliance interface, not just manual tasks. A student who agrees with the claim confuses automation of the primary process with elimination of all human interaction motions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a work simplification plan for a home-based pickle-making activity (washing, cutting, sun-drying, mixing spices, bottling 10 kg mangoes) that reduces total energy expenditure by at least 30%. Specify changes at all three Mundel levels and justify each with ergonomic principles.",
+     "a": "A strong plan includes: Level 1 (motion) — use a mandoline slicer on a table at elbow height to replace knife cutting on floor, reducing wrist deviation and trunk flexion; use both hands to feed mangoes symmetrically. Level 2 (tool/layout) — install a waist-height stainless steel table with integrated washing basin and draining rack; use a pulley-operated shade frame for sun-drying trays to eliminate ground-level bending; pre-measure spices into portion cups. Level 3 (sequence) — batch process: wash all → cut all → dry all → mix all → bottle all (single-pass flow) instead of per-jar repetition; assign family members to stations creating an assembly line. Justification: Level 1 reduces joint moments; Level 2 aligns work heights with anthropometry; Level 3 eliminates 90% of walking/turning motions. A poor answer lists only \"buy a slicer\" showing inability to systematize across Mundel's hierarchy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

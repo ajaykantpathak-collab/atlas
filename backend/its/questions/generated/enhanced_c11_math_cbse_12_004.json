@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_12_004",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_12_004",
+   "title": "c11_math_cbse_12_004",
+   "questions": [
+    {
+     "q": "What is the midpoint of the line segment joining points A(1, -2, 3) and B(5, 4, -1)?",
+     "a": "The midpoint is (3, 1, 1). Calculation: x = (1+5)/2 = 3, y = (-2+4)/2 = 1, z = (3+(-1))/2 = 1. A wrong answer like (3, 1, 2) reveals the student incorrectly computed (3 + 1)/2 = 2 instead of (3 + (-1))/2 = 1, showing a sign error with negative coordinates. A wrong answer like (6, 2, 2) reveals the student forgot to divide by 2 and just added coordinates.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the midpoint formula in 3D uses the average of coordinates, and why the order of points (which is P and which is Q) does not affect the result.",
+     "a": "The midpoint divides the segment in ratio 1:1, so by the section formula, coordinates are (1·x₂+1·x₁)/(1+1) = (x₁+x₂)/2, and similarly for y and z. This is the arithmetic mean. Order doesn't matter because addition is commutative: x₁+x₂ = x₂+x₁. A wrong explanation like \"the formula is derived from distance formula\" shows the student doesn't connect it to the section formula. A student who says \"order matters because P comes first\" misunderstands that the midpoint is symmetric.",
+     "self_check": true
+    },
+    {
+     "q": "The midpoint of segment PQ is M(2, -1, 3). If P has coordinates (4, 0, 5), find the coordinates of Q.",
+     "a": "Let Q = (x, y, z). Using midpoint formula: (4+x)/2 = 2 → 4+x = 4 → x = 0. (0+y)/2 = -1 → y = -2. (5+z)/2 = 3 → 5+z = 6 → z = 1. So Q = (0, -2, 1). A wrong answer like (0, 2, 1) reveals the student solved (0+y)/2 = -1 as y/2 = -1 → y = -2 but then wrote +2, showing sign carelessness. A wrong answer like (8, -2, 11) reveals the student used (x₁ + x₂) = 2x_mid instead of (x₁+x₂)/2, doubling instead of averaging.",
+     "self_check": true
+    },
+    {
+     "q": "Points A(2, 3, 4), B(6, 7, 8), and C(0, -1, 2) are given. Without calculating all midpoints, determine which pair of points has a midpoint with the largest x-coordinate, and explain your reasoning.",
+     "a": "The midpoint's x-coordinate is (x₁+x₂)/2. To maximize this, we need the pair with the largest sum of x-coordinates. x-coordinates: A=2, B=6, C=0. Sums: A+B=8, A+C=2, B+C=6. Largest sum is 8 for A and B, so midpoint of AB has largest x-coordinate = 4. A wrong answer choosing B and C shows the student compared individual x-values (6 and 0) instead of sums. A wrong answer choosing A and C shows the student misunderstood \"largest x-coordinate of midpoint\" as \"largest individual x-coordinate\".",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If M is the midpoint of AB, then AM = MB = AB/2, so the distance from A to M is half the distance from A to B.\" Is this statement correct? Justify your answer.",
+     "a": "Yes, the statement is correct. By definition, the midpoint divides the segment into two equal parts, so AM = MB. Since AM + MB = AB, we have 2·AM = AB, so AM = AB/2. In 3D, this holds using the distance formula: distance AM = √[((x₁+x₂)/2 - x₁)² + ...] = √[((x₂-x₁)/2)² + ...] = (1/2)√[(x₂-x₁)² + ...] = AB/2. A wrong answer saying \"only true in 2D\" reveals the student thinks 3D distance behaves differently. A wrong answer saying \"only true if coordinates are positive\" reveals confusion about coordinate signs not affecting distances.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem where finding the midpoint in 3D is necessary. The problem must involve three-dimensional coordinates (not just 2D) and require the midpoint formula to solve. State the problem clearly with given coordinates and what needs to be found.",
+     "a": "Example problem: \"A drone flies from point A(100, 50, 200) to point B(300, 150, 400) in metres (x=east, y=north, z=altitude). The drone's battery is low and it must land exactly halfway. Find the landing coordinates.\" Answer: M = (200, 100, 300). A poor problem like \"find midpoint of (1,2) and (3,4)\" is only 2D. A poor problem like \"find the centre of a circle\" doesn't require 3D. A good problem uses all three coordinates meaningfully (e.g., altitude changes, or finding centre of a sphere given diameter endpoints).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

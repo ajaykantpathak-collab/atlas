@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_04_002",
+   "title": "c12_geo_cbse_04_002",
+   "questions": [
+    {
+     "q": "State the three quantitative criteria used by the Census of India 2011 to define a census town (statutory towns are defined differently).",
+     "a": "The three criteria are: (1) minimum population of 5,000; (2) at least 75% of male main workers engaged in non-agricultural activities; (3) population density of at least 400 persons per square kilometre. A wrong answer (e.g., citing only population size or using 10,000 as the threshold) reveals the student is confusing Census town criteria with state-level municipal act thresholds or misremembering the 1991/2001 criteria which differed slightly.",
+     "self_check": true
+    },
+    {
+     "q": "A settlement has 6,200 people, density 450 persons/km², and 80% of male workers in manufacturing. Yet the state government has not notified it as a municipality. How will the Census classify it, and why does this create a \"census town\" category distinct from statutory towns?",
+     "a": "It will be classified as a census town because it meets all three Census criteria, even though it lacks statutory municipal governance. A wrong answer (calling it a village or statutory town) shows the student does not grasp that administrative status (municipality notification) and Census classification are independent dimensions — a core Class 12 concept that explains why India had 3,894 census towns in 2011, many functioning urbanistically but governed rurally.",
+     "self_check": true
+    },
+    {
+     "q": "Given the data below for two settlements in Maharashtra, classify each as rural or urban per Census 2011 and justify.\nSettlement A: Population 4,800; Density 380/km²; 65% male workers in agriculture.\nSettlement B: Population 5,500; Density 520/km²; 70% male workers in services.",
+     "a": "Settlement A: Rural (fails population <5,000, fails workforce <75% non-agri, fails density <400). Settlement B: Rural (passes population and density, but fails workforce criterion at 70% non-agri — needs ≥75%). A student classifying B as urban has missed the strict 75% threshold; this is the most common error in board exams where students round 70% to \"mostly non-agricultural\" and ignore the exact cut-off.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the morphological criteria (built-up area contiguity, street pattern) and functional criteria (economic base, service provision) for distinguishing rural from urban settlements. Why might a settlement appear urban morphologically but remain rural functionally? Give an Indian example.",
+     "a": "Morphological criteria focus on physical form: continuous built-up area, paved roads, multi-storey structures, planned layouts. Functional criteria focus on economic activity: % workforce in secondary/tertiary sectors, availability of banking, healthcare, education, transport. A settlement can be morphologically urban (dense housing, concrete roads) but functionally rural if most workers commute to farms or lack urban services — e.g., many \"census towns\" in Kerala (like Perinthalmanna) have urban densities but agrarian economies. A wrong answer conflating the two criteria shows inability to analyse multi-dimensional classification.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The rural-urban dichotomy is outdated; India should adopt a rural-urban continuum model for policy-making.\" Use Census 2011 data on census towns and outgrowths to support your judgment.",
+     "a": "The statement is largely valid. Census 2011 recorded 3,894 census towns and 981 outgrowths — settlements that are statistically urban but administratively rural — proving the binary fails to capture transitional forms. Policy based on dichotomy (e.g., MGNREGA for rural, AMRUT for urban) excludes these hybrid settlements from both benefit streams. A student calling the dichotomy \"perfectly adequate\" ignores the 4,875 settlements that defy binary classification and the planning distortions this creates.",
+     "self_check": true
+    },
+    {
+     "q": "Design a decision-flowchart that a district planner could use to classify any settlement in their district using Census 2011 criteria, including the statutory town pathway. The flowchart must have decision nodes for population, workforce, density, and municipal notification.",
+     "a": "A good flowchart starts: \"Is the settlement notified as Municipality/Corporation/Cantonment Board? → YES → Statutory Town. NO → Check Census criteria: Population ≥5,000? → NO → Rural. YES → Density ≥400/km²? → NO → Rural. YES → ≥75% male main workers non-agricultural? → NO → Rural. YES → Census Town.\" A poor flowchart omits the statutory town branch, uses wrong thresholds, or treats criteria as interchangeable rather than sequential AND-gates.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

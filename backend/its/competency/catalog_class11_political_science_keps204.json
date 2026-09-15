@@ -1,0 +1,144 @@
+{
+  "class": 11,
+  "subject": "political_science",
+  "chapter": 204,
+  "chapter_title": "Executive",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keps204.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keps204.1.1",
+      "title": "What is the Executive: Political and Permanent",
+      "section": "1.1",
+      "definition": "The executive is the organ that implements laws and runs the administration day to day. It has two layers: the political executive -- ministers who head departments and answer to the people through elections -- and the permanent executive or civil services, career officers who provide expertise and continuity beneath the ministers.",
+      "formula": "",
+      "key_idea": "Ministers decide, civil servants execute -- one gives direction and accountability, the other expertise and stability.",
+      "textbook_ref": "keps204.txt lines 15-110 (introduction, what is an executive, political executive, permanent executive and bureaucracy)",
+      "question_patterns": [
+        "who is included in the executive of a government",
+        "in class 11 executive chapter: distinguish the political executive from the permanent executive",
+        "why are civil servants called the permanent executive",
+        "what functions does the executive perform besides implementing laws",
+        "how do ministers and civil servants share administrative work",
+        "why does democracy need both elected and permanent executives"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "define the organ", "explain": "The executive executes policy: it administers departments, frames rules, and runs daily governance."},
+        {"step": 2, "action": "split the layers", "explain": "Political executives (President, Prime Minister, ministers) are elected or accountable to elected bodies; permanent executives are recruited by merit and serve irrespective of governments."},
+        {"step": 3, "action": "relate the layers", "explain": "Ministers supply direction and bear responsibility; the civil service supplies technical continuity under their control."}
+      ]
+    },
+    {
+      "id": "keps204.1.2",
+      "title": "Parliamentary and Presidential Executives Compared",
+      "section": "1.2",
+      "definition": "In a parliamentary form the legislature chooses and can dismiss the executive: the Prime Minister heads a council of ministers responsible to the Lok Sabha, and the head of state acts largely on advice. In a presidential form the people elect the President directly or nearly so, who appoints ministers not answerable to the legislature -- power is separated rather than fused.",
+      "formula": "",
+      "key_idea": "Fusion with responsibility, or separation with fixed tenure -- the two great designs of executive power.",
+      "textbook_ref": "keps204.txt lines 110-230 (parliamentary executive, presidential executive, prime minister and president, collective responsibility, comparison of the two systems)",
+      "question_patterns": [
+        "compare parliamentary and presidential forms of executive",
+        "in class 11 executive chapter: why did india adopt the parliamentary system",
+        "what does collective responsibility of the council of ministers mean",
+        "how is a prime minister removed from office",
+        "can a president remove ministers in a presidential system",
+        "which system provides a fixed term for the executive"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "trace the source of office", "explain": "Parliamentary ministers sit in and survive on legislative confidence; presidential ministers serve at the president's pleasure with fixed terms."},
+        {"step": 2, "action": "trace accountability", "explain": "The council of ministers is collectively responsible to the Lok Sabha and falls with a lost confidence vote; a president continues even when the legislature opposes him."},
+        {"step": 3, "action": "judge the trade-offs", "explain": "Parliamentary fusion gives responsiveness but can make governments fragile; presidential separation gives stability but risks deadlock."}
+      ]
+    },
+    {
+      "id": "keps204.1.3",
+      "title": "Prime Minister and Council of Ministers",
+      "section": "1.3",
+      "definition": "The Prime Minister is the real head of government: he recommends ministers, allocates and reshuffles portfolios, chairs the cabinet, and coordinates all policy. The Council of Ministers works under collective responsibility -- sink or swim together with the government -- and individual responsibility for each department.",
+      "formula": "",
+      "key_idea": "First among equals who is actually first -- the PM steers the cabinet and the cabinet answers to the house.",
+      "textbook_ref": "keps204.txt lines 230-340 (prime minister and council of ministers, appointment, powers of the prime minister, collective and individual responsibility)",
+      "question_patterns": [
+        "describe the powers of the prime minister of india",
+        "in class 11 executive chapter: what is meant by collective responsibility",
+        "how are ministers appointed to the council of ministers",
+        "distinguish cabinet ministers ministers of state and deputy ministers",
+        "what happens to the government when the lok sabha passes a no confidence motion",
+        "why is the prime minister called the keystone of the cabinet arch"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "trace the formation", "explain": "The majority party's leader is appointed Prime Minister, who then advises the President on the rest of the council."},
+        {"step": 2, "action": "map the powers", "explain": "Portfolio allocation, cabinet chairing, coordination, and the power to advise dissolution all concentrate in the PM."},
+        {"step": 3, "action": "fix the accountability", "explain": "The council stands or falls together on confidence votes, while each minister answers individually for the department."}
+      ]
+    },
+    {
+      "id": "keps204.1.4",
+      "title": "President of India: Election, Powers and Discretion",
+      "section": "1.4",
+      "definition": "The President is the constitutional head of state, elected indirectly by an electoral college of MPs and MLAs. Formally every action is taken in the President's name, but normally on the aid and advice of the council of ministers; however, the office retains discretionary moments -- appointing a Prime Minister in a hung house, or returning advice once for reconsideration.",
+      "formula": "",
+      "key_idea": "A head of state who must normally obey ministers, but who keeps judgement for the rare hung-house and reconsideration moments.",
+      "textbook_ref": "keps204.txt lines 340-460 (president of india, indirect election, electoral college, powers of the president, discretionary powers, veto and pocket veto)",
+      "question_patterns": [
+        "how is the president of india elected",
+        "in class 11 executive chapter: in what situations can the president exercise discretionary powers",
+        "what is a pocket veto",
+        "explain the position of the president with respect to the council of ministers",
+        "who forms the electoral college for the presidential election",
+        "can the president return advice given by the council of ministers"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "trace the election", "explain": "An electoral college of elected MPs and elected MLAs of states chooses the President by proportional, single-transferable vote."},
+        {"step": 2, "action": "map the normal working", "explain": "The 42nd and 44th Amendments bind the President to act on ministerial advice, making the office constitutional rather than executive."},
+        {"step": 3, "action": "mark the discretion zones", "explain": "Hung-parliament invitations, once-only return of advice, and the pocket veto on unsigned bills are the recognised discretionary spaces."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keps204.txt lines 110-230 (parliamentary vs presidential)",
+      "concept": "keps204.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "A Lok Sabha majority withdraws support from the government mid-term. Trace what follows under India's parliamentary system, and contrast with what would happen under a presidential system.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "apply collective responsibility", "explain": "Loss of confidence obliges the council of ministers to resign as one body."},
+        {"step": 2, "action": "follow the chain of consequence", "explain": "The President invites another claimant who can command the house, or dissolves the house for fresh elections."},
+        {"step": 3, "action": "contrast the alternative", "explain": "Under a presidential system the President's fixed term is untouched by legislative defeat -- the design difference in one episode."}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keps204.txt lines 340-460 (president's discretion)",
+      "concept": "keps204.1.4",
+      "question_type": "verify_property",
+      "question_pattern": "After a general election no single party has a majority. Describe the President's role in government formation and how the constitution keeps this role bounded.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "identify the discretion", "explain": "With no clear majority, the President exercises judgement in inviting the claim most likely to secure confidence."},
+        {"step": 2, "action": "note the boundary", "explain": "The invitee must prove majority on the floor within a set time, so the choice stays testable and temporary."},
+        {"step": 3, "action": "conclude", "explain": "Discretion operates at the seam of the system but quickly hands power back to parliamentary arithmetic."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keps204.txt end-of-chapter exercises, reworded",
+      "questions": [
+        "Distinguish between the political and permanent executive with examples.",
+        "Why did India choose a parliamentary form of executive over a presidential one?",
+        "Explain collective responsibility and individual responsibility of ministers.",
+        "Describe the discretionary powers available to the President of India.",
+        "How is the President of India elected and what is the composition of the electoral college?",
+        "Compare the position of the Prime Minister and the President as heads of government and state."
+      ]
+    }
+  ]
+}

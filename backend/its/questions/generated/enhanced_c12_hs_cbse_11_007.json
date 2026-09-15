@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_11_007",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_11_007",
+   "title": "c12_hs_cbse_11_007",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between savings and investment in terms of risk and purpose?",
+     "a": "Savings are low-risk funds set aside for short-term needs or emergencies, typically kept in highly liquid instruments like savings accounts. Investment involves committing money to assets with higher risk for potential growth over medium to long term. A wrong answer that equates the two or says savings are for growth reveals confusion between preservation and wealth creation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a 5-year bank fixed deposit might be more suitable than equity shares for a family saving for a child's school admission next year.",
+     "a": "A 5-year FD offers capital safety and guaranteed returns with low liquidity (penalty for early withdrawal), matching a short-term, non-negotiable goal. Equity shares are volatile and could lose value in the short term, risking the goal. A wrong answer that picks equity for higher return ignores the principle of matching time horizon and safety to the goal.",
+     "self_check": true
+    },
+    {
+     "q": "A family has ₹1,00,000 to invest for 3 years. They are considering: (a) Public Provident Fund (PPF), (b) Equity mutual fund, (c) Bank recurring deposit. Using the principles of sound investment, which would you recommend and why?",
+     "a": "For a 3-year horizon, a bank recurring deposit (or FD) is best: it offers safety, fixed return, and maturity matches the goal. PPF has a 15-year lock-in (low liquidity for 3 years). Equity mutual funds carry market risk unsuitable for a short, certain goal. A wrong answer choosing PPF or equity fund shows failure to apply liquidity and time-horizon principles.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the risk-return-liquidity profiles of gold (physical) and government bonds. How does diversification reduce overall portfolio risk when both are included?",
+     "a": "Gold has moderate liquidity (making charges, purity issues), no periodic income, acts as inflation hedge. Government bonds offer sovereign safety, fixed interest, moderate liquidity (tradable). Their returns are often uncorrelated: gold rises during uncertainty, bonds provide steady income. Holding both reduces portfolio volatility. A wrong answer that says both are equally liquid or both give regular income misses the distinct roles.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The best investment is the one with the highest return.\" Use principles of sound investment to justify your answer.",
+     "a": "The statement ignores safety, liquidity, time horizon, and tax efficiency. Highest return often comes with highest risk (e.g., small-cap stocks, crypto), which may lead to capital loss when funds are needed. Sound investment matches the instrument to the investor's goal, risk appetite, and horizon. A wrong answer agreeing with the statement reveals a return-chasing mindset without risk awareness.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple investment plan for a family with ₹2,00,000 surplus, aiming for: (i) emergency fund (6 months expenses ₹1,20,000), (ii) daughter's marriage in 10 years (₹80,000). Specify avenues, amounts, and principles applied.",
+     "a": "Emergency fund: ₹1,20,000 in savings account / liquid mutual fund / sweep-in FD (high liquidity, safety). Marriage goal: ₹80,000 in PPF (safety, tax-free, 15-year lock-in but partial withdrawal after 7 years) or equity mutual fund SIP (growth potential for 10 years). Principles: safety & liquidity for emergency; long-term growth & tax efficiency for marriage. A poor answer puts all in one avenue or ignores liquidity for emergency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

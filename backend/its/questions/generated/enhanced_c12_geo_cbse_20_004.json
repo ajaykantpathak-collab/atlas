@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_20_004",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_20_004",
+   "title": "c12_geo_cbse_20_004",
+   "questions": [
+    {
+     "q": "What is the fundamental geometric principle that distinguishes the construction of a cube diagram from a simple bar diagram?",
+     "a": "In a cube diagram, the **volume** of the cube (side³) is proportional to the data value, so the side length is proportional to the cube root of the data value. In a simple bar diagram, the **height** (length) of the bar is directly proportional to the data value. A wrong answer (e.g., \"side length is directly proportional to data\") reveals the student is applying 1D linear scaling logic to a 3D volumetric representation, which is the most common and critical error in this topic.",
+     "self_check": true
+    },
+    {
+     "q": "Why can't we use the same scale factor (e.g., 1 cm = 10 million tonnes) for both a bar diagram and a cube diagram when representing the same dataset?",
+     "a": "A bar diagram uses a linear scale where 1 cm length represents a fixed quantity. A cube diagram uses a volumetric scale where 1 cm³ volume represents a fixed quantity. If you used the same numerical scale factor, the cube's side length would be the cube root of the bar's height, producing a completely different visual magnitude. A student who says \"we can use the same scale because both represent the same data\" fails to understand that the *dimension of representation* (length vs. volume) dictates the scale's physical meaning and the resulting geometry.",
+     "self_check": true
+    },
+    {
+     "q": "The production of iron ore in four states is: Odisha (120 Mt), Chhattisgarh (40 Mt), Jharkhand (30 Mt), Karnataka (10 Mt). Choose a suitable volumetric scale (1 cm³ = 10 Mt) and calculate the side length (in cm, to two decimals) of the cube for Chhattisgarh.",
+     "a": "Step 1: Data value for Chhattisgarh = 40 Mt. Step 2: Scale = 1 cm³ = 10 Mt. Step 3: Volume of cube = 40 / 10 = 4 cm³. Step 4: Side length = ∛4 ≈ 1.59 cm. A wrong answer of 4 cm (using linear scaling) or 2 cm (∛8, miscalculating volume) shows the student either forgot the cube root or miscomputed the volume. Correct working must show the division by scale factor *before* taking the cube root.",
+     "self_check": true
+    },
+    {
+     "q": "Two students construct cube diagrams for the same dataset (State A: 64 units, State B: 27 units). Student X uses scale 1 cm³ = 1 unit. Student Y uses scale 1 cm³ = 8 units. Compare the side lengths of State A's cube in both diagrams. What does this comparison reveal about the role of scale in 3D diagrams?",
+     "a": "Student X: Volume = 64 cm³ → Side = ∛64 = 4 cm. Student Y: Volume = 64/8 = 8 cm³ → Side = ∛8 = 2 cm. The side length halves when the scale factor increases 8-fold (because volume scales linearly with scale factor, but side scales as cube root of volume). This reveals that **scale choice dramatically affects physical size in 3D diagrams** — a small change in volumetric scale causes a cube-root change in linear dimensions. A student who says \"side length becomes 1/8th\" is applying linear reasoning to a cubic relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the suitability of cube diagrams versus multiple bar diagrams for representing the *decadal growth* of India's urban population (1951–2011) given in the NCERT textbook (Table 3.5). Justify your evaluation with two geographical reasoning points.",
+     "a": "Cube diagrams are **unsuitable** for this time-series data. Reason 1: Decadal growth rates are *rate/percentage* data, not volumetric stocks — cubes imply a 3D volume (stock) which misrepresents a flow/rate. Reason 2: Time-series data requires sequential comparison along a time axis; cubes placed side-by-side lose the temporal continuity that a line graph or bar diagram preserves. A student who argues \"cubes show magnitude better\" misses that graphical method must match data *nature* (stock vs. flow) and *analytical purpose* (trend vs. magnitude). This tests the higher-order competency of method selection.",
+     "self_check": true
+    },
+    {
+     "q": "Design a cube diagram to represent the *total forest cover volume* (in million m³ of timber) for three states: Madhya Pradesh (450), Arunachal Pradesh (320), Chhattisgarh (280). Specify the scale, calculate all side lengths, and explain how you would arrange the cubes on the page to maximize comparative clarity while following cartographic design rules.",
+     "a": "Scale selection: Max value = 450. Choose 1 cm³ = 50 million m³ → largest volume = 9 cm³ → side = ∛9 ≈ 2.08 cm (fits easily). Volumes: MP = 9 cm³ (side 2.08 cm), AP = 6.4 cm³ (side 1.86 cm), CG = 5.6 cm³ (side 1.78 cm). Arrangement: Place cubes in descending order (MP, AP, CG) along a baseline with equal spacing (2 cm gaps). Label each cube with state name and value. Include a volumetric scale legend (e.g., a 1 cm³ reference cube = 50 M m³). A poor answer would omit the legend, use random order, or choose a scale making the largest cube >5 cm (too big for A4). This tests synthesis of scaling, computation, and cartographic design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

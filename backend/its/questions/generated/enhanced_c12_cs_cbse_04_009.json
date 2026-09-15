@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_04_009",
+   "title": "c12_cs_cbse_04_009",
+   "questions": [
+    {
+     "q": "What is the exact condition that a foreign key column must satisfy to maintain referential integrity?",
+     "a": "A foreign key column must contain either a value that matches a primary key value in the referenced table or a NULL value (if the column permits NULLs). A wrong answer such as \"foreign key must be unique\" reveals confusion with primary key constraints; \"foreign key cannot be NULL\" reveals ignorance of the NULL exception; \"foreign key must match a candidate key\" is technically correct but imprecise — the standard requires referencing a primary key (or a unique constraint) in the parent table.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why referential integrity is called \"referential\" and what \"integrity\" means in this context.",
+     "a": "\"Referential\" comes from the fact that the foreign key *refers* to a row in another table; \"integrity\" means the reference is always valid — there are no dangling pointers. A wrong answer like \"it ensures data is accurate\" is too vague; \"it prevents duplicate rows\" confuses it with entity integrity; \"it means the foreign key is a primary key\" is a fundamental category error.",
+     "self_check": true
+    },
+    {
+     "q": "Given tables `DEPT(DeptID, DeptName)` and `EMP(EmpID, Name, DeptID)` where `EMP.DeptID` references `DEPT.DeptID` with `ON DELETE CASCADE`. The DEPT table has rows (10, 'CS') and (20, 'Math'). EMP has rows (101, 'Asha', 10) and (102, 'Ravi', 10). What happens when `DELETE FROM DEPT WHERE DeptID = 10;` is executed? Show the final state of both tables.",
+     "a": "Step 1: Identify the foreign key constraint: EMP.DeptID references DEPT.DeptID with ON DELETE CASCADE.  \nStep 2: The DELETE removes the row with DeptID=10 from DEPT.  \nStep 3: Because of CASCADE, all rows in EMP with DeptID=10 are automatically deleted.  \nStep 4: Final state: DEPT has only (20, 'Math'); EMP becomes empty.  \nA wrong answer that leaves the EMP rows unchanged reveals the student thinks CASCADE only works on UPDATE; an answer that says \"error because child rows exist\" reveals they think the default is RESTRICT.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the three referential actions RESTRICT, CASCADE, and SET NULL when a parent row is deleted. For each, give a realistic scenario where that action is the most appropriate choice.",
+     "a": "RESTRICT: prevents deletion of parent if any child rows reference it; appropriate for `ORDER` table referencing `CUSTOMER` — you cannot delete a customer who has placed orders.  \nCASCADE: automatically deletes all referencing child rows; appropriate for `ORDER_ITEM` referencing `ORDER` — when an order is cancelled, its line items should disappear.  \nSET NULL: sets the foreign key in child rows to NULL; appropriate for `EMPLOYEE` referencing `DEPARTMENT` — if a department is dissolved, employees remain but become unassigned.  \nA wrong answer that swaps the scenarios (e.g., CASCADE for customer-order) shows the student doesn't grasp the semantic meaning of each action.",
+     "self_check": true
+    },
+    {
+     "q": "A database designer argues: \"We should always use ON DELETE CASCADE because it keeps the database clean automatically.\" Evaluate this statement. Provide two distinct reasons why this is dangerous advice.",
+     "a": "Reason 1: CASCADE can cause massive unintended data loss — deleting one parent row might silently wipe out thousands of child rows across multiple tables (transitive cascades), which is rarely desired for audit-critical data like financial transactions.  \nReason 2: CASCADE makes it impossible to maintain historical records; for example, if a `PRODUCT` is deleted, `ORDER_LINE` rows referencing it would vanish, destroying the ability to reconstruct past orders.  \nA wrong answer that only says \"it deletes data\" misses the nuance of silent propagation and audit requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Design a small database schema (3 tables) for a hospital system where: patients are assigned to a ward; each ward has a supervising doctor; a doctor can supervise multiple wards. Specify primary keys, foreign keys, and choose the most appropriate referential action for each foreign key when the referenced row is deleted. Justify each choice.",
+     "a": "Table `DOCTOR(DocID PK, Name, Specialty)`  \nTable `WARD(WardID PK, WardName, DocID FK references DOCTOR(DocID) ON DELETE SET NULL)` — if a doctor leaves, the ward remains but becomes unsupervised.  \nTable `PATIENT(PatientID PK, Name, WardID FK references WARD(WardID) ON DELETE RESTRICT)` — a ward cannot be deleted while it still has patients; they must be discharged/transferred first.  \nA poor answer uses CASCADE for both, which would delete patients when a ward is deleted, or uses SET NULL for PATIENT.WardID, leaving patients without a ward assignment — both are clinically unsafe.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

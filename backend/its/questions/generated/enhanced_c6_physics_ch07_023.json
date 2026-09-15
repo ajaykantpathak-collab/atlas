@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch07_023",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch07_023",
+   "title": "c6_physics_ch07_023",
+   "questions": [
+    {
+     "q": "What is the primary source of energy that drives the entire water cycle?",
+     "a": "The Sun. A wrong answer here suggests the student does not understand that the water cycle requires a constant energy input to move water from the liquid phase to the vapour phase.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the moist air containing water vapour rise into the atmosphere?",
+     "a": "Because warm air is less dense than the surrounding cooler air, it rises through the process of convection. A student saying \"because it is light\" is partially correct but missing the formal concept of convection currents.",
+     "self_check": true
+    },
+    {
+     "q": "If you place a bowl of water in the shade versus in direct sunlight, which will evaporate faster? Why?",
+     "a": "The bowl in direct sunlight will evaporate faster because it receives more radiation from the Sun, increasing the temperature of the water molecules. A wrong answer indicates a failure to link heat energy (radiation) to the rate of evaporation.",
+     "self_check": true
+    },
+    {
+     "q": "How does the cooling of air high in the atmosphere affect the water vapour within it?",
+     "a": "Cooling causes the water vapour to lose energy and condense into liquid water droplets, which form clouds. A wrong answer suggests the student thinks water vapour stays a gas regardless of temperature.",
+     "self_check": true
+    },
+    {
+     "q": "Could the water cycle occur if the Earth were not receiving any heat from the Sun?",
+     "a": "No, because without the Sun's radiation, there would be no energy to cause evaporation, and therefore no water vapour to rise and form clouds. This tests the student’s ability to judge the necessity of energy input in a physical system.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a glass of ice water on a hot day to represent part of the water cycle.",
+     "a": "The student should describe how water droplets form on the outside of a cold glass. This represents condensation, the opposite of evaporation, showing the phase change triggered by cooling.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

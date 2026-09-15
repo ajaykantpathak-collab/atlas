@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_01_003",
+   "title": "c12_eco_cbse_01_003",
+   "questions": [
+    {
+     "q": "What does a point lying exactly on the Production Possibility Frontier represent?",
+     "a": "A point on the PPF represents a combination of two goods that is productively efficient — the economy is using all its available resources fully and with the best available technology. A wrong answer (e.g., \"it shows what the economy should produce\" or \"it shows maximum profit\") reveals confusion between positive description (what can be produced) and normative judgment (what ought to be produced), or a misunderstanding that efficiency is about profit rather than resource utilization.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the Production Possibility Frontier downward sloping from left to right?",
+     "a": "The PPF slopes downward because resources are scarce and have alternative uses: to produce more of one good, resources must be diverted from the other good, reducing its output. This reflects the concept of opportunity cost. A wrong answer (e.g., \"because of the law of demand\" or \"because prices fall\") confuses the PPF — a production-side concept — with demand-side reasoning, showing the student has not internalized that the PPF is about technological constraints, not market behavior.",
+     "self_check": true
+    },
+    {
+     "q": "An economy produces only robots and corn. The following production possibilities schedule is given:\nCombination | Robots (units) | Corn (tonnes)\nA | 0 | 100\nB | 1 | 95\nC | 2 | 85\nD | 3 | 70\nE | 4 | 50\nF | 5 | 25\nG | 6 | 0\nPlot the PPF on graph paper (Robots on X-axis, Corn on Y-axis). Which combination shows the maximum corn production? What is the opportunity cost of moving from combination C to D in terms of corn forgone per robot gained?",
+     "a": "Steps: (1) Label axes: X = Robots (0-6), Y = Corn (0-100). (2) Plot points A(0,100), B(1,95), C(2,85), D(3,70), E(4,50), F(5,25), G(6,0). (3) Join with a smooth concave curve. (4) Maximum corn is at combination A (0 robots, 100 tonnes). (5) Moving from C to D: robots increase by 1 (2→3), corn decreases by 15 (85→70). Opportunity cost = 15 tonnes of corn per robot. A wrong answer (e.g., stating opportunity cost as 1 robot per 15 corn, or using the wrong combination) shows difficulty with the \"per unit\" concept or misreading the table.",
+     "self_check": true
+    },
+    {
+     "q": "Consider two economies, Alpha and Beta, each producing only capital goods and consumer goods. Alpha's PPF is a straight line; Beta's PPF is concave to the origin. What does the difference in shape imply about the opportunity cost of producing capital goods in each economy? Which economy faces increasing opportunity cost?",
+     "a": "A straight-line PPF (Alpha) implies constant opportunity cost — resources are perfectly substitutable (e.g., land equally good for both goods). A concave PPF (Beta) implies increasing opportunity cost — resources are specialized (e.g., land better for consumer goods, machinery better for capital goods). As Beta shifts production toward capital goods, it starts using less suitable resources, so each additional unit of capital goods costs more consumer goods. Beta faces increasing opportunity cost. A wrong answer (e.g., saying both have increasing cost or confusing which shape corresponds to which cost pattern) indicates the student has not linked the geometry of the PPF to the underlying resource heterogeneity.",
+     "self_check": true
+    },
+    {
+     "q": "\"Points inside the PPF are undesirable because they represent unemployment of resources.\" Evaluate this statement. Is it always true that an economy operating inside its PPF is failing to use its resources fully? Provide one real-world situation where being inside the PPF might be a deliberate policy choice.",
+     "a": "The statement is generally true in a static efficiency sense: points inside indicate productive inefficiency — resources are either unemployed or misallocated. However, it is not always a \"failure.\" During a recession, an economy may deliberately operate inside the PPF due to deficient aggregate demand (Keynesian view); forcing full employment might cause inflation. Also, an economy might choose to keep some resources idle for environmental conservation or strategic reserves. A wrong evaluation (e.g., \"inside points are always bad\" or \"inside points mean the PPF is wrong\") shows a lack of nuance between positive analysis and normative policy, and ignorance of macroeconomic fluctuations.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a hypothetical production possibilities schedule for an economy that produces only smartphones and solar panels. Assume the economy has 100 units of labor, and each smartphone requires 2 units of labor while each solar panel requires 5 units of labor. Labor is homogeneous. Write the schedule for 0 to 50 smartphones (in steps of 10), calculate the corresponding solar panels, plot the PPF, and explain its shape.",
+     "a": "Schedule: Smartphones (X) | Labor used | Labor left | Solar Panels (Y = labor left / 5)\n0 | 0 | 100 | 20\n10 | 20 | 80 | 16\n20 | 40 | 60 | 12\n30 | 60 | 40 | 8\n40 | 80 | 20 | 4\n50 | 100 | 0 | 0\nPlot: X-axis 0-50, Y-axis 0-20. Points form a straight line from (0,20) to (50,0). Shape is a straight line because labor is homogeneous (constant opportunity cost: each smartphone always costs 0.4 solar panels). A poor answer (e.g., drawing a concave curve or miscalculating solar panels) reveals the student assumes increasing opportunity cost even when resources are perfectly substitutable, or cannot translate a linear resource constraint into a schedule.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

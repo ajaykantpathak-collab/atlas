@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_01_011",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_01_011",
+   "title": "c10_bio_cbse_01_011",
+   "questions": [
+    {
+     "q": "Name the two main vascular tissues in plants and state the primary substance each transports. Also, specify the direction of transport in each.",
+     "a": "Xylem transports water and minerals upward (unidirectional, root to shoot). Phloem transports food (mainly sucrose) bidirectionally (source to sink). A wrong answer (e.g., \"xylem transports food\" or \"phloem transports water upward only\") reveals confusion between the two transport systems and ignorance of directionality — a common 1-mark board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why xylem transport is described as a 'passive process' while phloem transport requires 'living companion cells'. What would happen to phloem transport if companion cells were killed by a metabolic inhibitor?",
+     "a": "Xylem uses dead vessels/tracheids; water moves by physical forces (transpiration pull, cohesion, adhesion) without metabolic energy. Phloem loading of sucrose into sieve tubes requires ATP-driven active transport by living companion cells; killing them stops loading, collapsing the osmotic gradient, and halting translocation. A wrong answer (e.g., \"both need energy\" or \"xylem uses root pressure only\") shows misunderstanding of energy sources — a frequent 2-mark board question trap.",
+     "self_check": true
+    },
+    {
+     "q": "A student ties a plastic bag around a leafy branch of a mango tree in the afternoon. After 2 hours, water droplets collect inside the bag. Identify the process, name the driving force, and state two environmental factors that would increase the rate of this process.",
+     "a": "Process: Transpiration (specifically stomatal transpiration). Driving force: Transpiration pull (cohesion-tension) created by evaporation from stomata. Factors increasing rate: (1) High temperature, (2) Low humidity / wind speed. A wrong answer confusing this with guttation (which occurs at night, high humidity, root pressure) or naming photosynthesis as the driver reveals a critical confusion between transpiration and guttation — a classic board exam case-study error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mechanism of water movement in xylem (cohesion-tension theory) with food movement in phloem (pressure-flow hypothesis) in a table with columns: Driving Force, Role of Living Cells, Direction, Energy Requirement, Evidence (one experiment each).",
+     "a": "| Aspect | Xylem (Cohesion-Tension) | Phloem (Pressure-Flow) |\n|--------|--------------------------|------------------------|\n| Driving Force | Transpiration pull (negative pressure/tension) | Osmotic pressure gradient (positive pressure) |\n| Living Cells | Not required (vessels/tracheids dead) | Essential (companion cells load/unload sucrose) |\n| Direction | Unidirectional (upward) | Bidirectional (source to sink) |\n| Energy | Passive (solar energy drives evaporation) | Active loading/unloading (ATP from companion cells) |\n| Key Experiment | Transpiration pull shown by suction in cut stem / potometer | Girdling/ringing experiment (phloem removed → swelling above cut) |\n\nA wrong table swapping driving forces or claiming xylem needs ATP shows failure to analyze the fundamental physical vs. physiological distinction — a 3-5 mark board question.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Root pressure is the main force pushing water up tall trees like Eucalyptus (height > 50 m).\" Justify your answer with two pieces of evidence from plant physiology.",
+     "a": "Statement is FALSE. Evidence: (1) Root pressure can only push water up a few meters (max ~10-20 m) — insufficient for tall trees. (2) Transpiration pull (cohesion-tension) operates continuously during day and can lift water >100 m due to water's high tensile strength from cohesion-adhesion. Root pressure mainly causes guttation at night in small herbs. A student agreeing reveals over-reliance on root pressure and ignorance of cohesion-tension theory's dominance — a conceptual error costing marks in assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a potted plant, oil, and a weighing balance to prove that most water absorbed by roots is lost by transpiration, not used in growth. List materials, steps, control, observation, and conclusion.",
+     "a": "Materials: Potted plant, water, oil layer (to prevent soil evaporation), weighing balance, polythene bag (to cover soil). Steps: (1) Water plant, cover soil with oil + bag. (2) Weigh initial mass. (3) Keep in sunlight for 4 hours. (4) Weigh final mass. Control: Identical setup without plant (or with dead plant) to account for pot evaporation. Observation: Significant mass loss only in live plant. Conclusion: Mass loss = water transpired; growth uses <5% of absorbed water. A poor design missing the oil layer or control shows inability to isolate variables — a practical-based board exam skill gap.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

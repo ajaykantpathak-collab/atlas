@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_08_004",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_08_004",
+   "title": "c11_cs_cbse_08_004",
+   "questions": [
+    {
+     "q": "What is the output of the following code?\n```python\ndef greet(name, greeting):\n    print(greeting + \", \" + name + \"!\")\n\ngreet(\"Hello\", \"Amit\")\n```",
+     "a": "The output is `Hello, Amit!`. The first argument `\"Hello\"` binds to parameter `name`, and the second argument `\"Amit\"` binds to parameter `greeting`, so the printed string uses them in that order. A wrong answer (e.g., `Amit, Hello!`) reveals that the student thinks parameter names control the mapping rather than position, confusing positional with keyword arguments.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the following function call produces an incorrect result for calculating the area of a rectangle:\n```python\ndef area(length, breadth):\n    return length * breadth\n\nprint(area(5, 10))   # correct call\nprint(area(10, 5))   # swapped call\n```\nBoth calls return 50, but the second call is logically wrong for a rectangle with length 5 and breadth 10. Why?",
+     "a": "Although both calls return the same numeric value (50) because multiplication is commutative, the second call semantically swaps the meaning: it treats 10 as length and 5 as breadth. In a real program where length and breadth might be used differently (e.g., for perimeter or for display), the swap would cause errors. A student who says \"both are correct because the answer is the same\" misses the point that positional arguments carry semantic meaning tied to their position; the function's contract expects the first argument to be length and the second breadth.",
+     "self_check": true
+    },
+    {
+     "q": "Write a function `calc_simple_interest(principal, rate, time)` that returns the simple interest using the formula (P * R * T) / 100. Then show the exact call to compute interest on ₹2000 at 5% per annum for 3 years using positional arguments.",
+     "a": "```python\ndef calc_simple_interest(principal, rate, time):\n    return (principal * rate * time) / 100\n\ninterest = calc_simple_interest(2000, 5, 3)   # positional: 2000→principal, 5→rate, 3→time\nprint(interest)   # 300.0\n```\nA wrong answer might swap rate and time (e.g., `calc_simple_interest(2000, 3, 5)`), which would still produce 300.0 by coincidence, or might use keyword arguments. The correct call must place the arguments in the exact order of the parameters: principal, rate, time.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the function:\n```python\ndef format_address(house_no, street, city):\n    return f\"{house_no}, {street}, {city}\"\n```\nA student calls it as `format_address(\"M.G. Road\", 12, \"Bengaluru\")`. Identify the error and explain what the returned string would be. How would you fix it without changing the function definition?",
+     "a": "The call passes arguments in the order: street, house_no, city. The function binds `\"M.G. Road\"` to `house_no`, `12` to `street`, and `\"Bengaluru\"` to `city`, returning `\"M.G. Road, 12, Bengaluru\"`. The fix is to reorder the call to `format_address(12, \"M.G. Road\", \"Bengaluru\")`. A student who cannot identify the mismatch or suggests changing the function definition instead of the call has not grasped that the caller must adapt to the function's parameter order.",
+     "self_check": true
+    },
+    {
+     "q": "A team member argues: \"Since Python is dynamically typed, the order of positional arguments doesn't matter as long as the values are of the correct type.\" Evaluate this statement and give a concrete counterexample where type correctness is satisfied but the result is wrong.",
+     "a": "The statement is false. Positional argument order always matters because parameters are bound by position, not by type. Counterexample:\n```python\ndef divide(dividend, divisor):\n    return dividend / divisor\n\nprint(divide(10, 2))   # 5.0\nprint(divide(2, 10))   # 0.2\n```\nBoth calls pass two integers (correct types), but the results are completely different. A student who agrees with the statement confuses dynamic typing with argument binding rules.",
+     "self_check": true
+    },
+    {
+     "q": "Design a function `calculate_discount(price, discount_percent)` that returns the discounted price. Then create two different valid calls that both produce a final price of ₹900, but with different original prices and discount percentages. Show the calls and explain why both are valid positional calls.",
+     "a": "```python\ndef calculate_discount(price, discount_percent):\n    return price * (100 - discount_percent) / 100",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

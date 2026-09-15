@@ -1,0 +1,280 @@
+{
+ "catalog": "catalog_class12_applied_maths_am12_004_probability_distributions.json",
+ "concepts": [
+  {
+   "id": "am12_004.1",
+   "title": "Random Variables Discrete and Continuous",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide favourable outcomes by total outcomes",
+     "explain": "divide favourable outcomes by total outcomes: p = 3 / 6 gives 0.5",
+     "compute": "p = 3 / 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A die is rolled once. What is the probability of getting a number greater than 3? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "A die is rolled once. What is the probability of getting a prime number (2, 3 or 5)? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "Two coins are tossed together. What is the probability of getting exactly one head? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "3 fair coins are tossed together. What is the total number of possible outcomes?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled together. How many outcomes are in the sample space?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled. Find the probability of getting a sum of 4 (there are 2 such outcomes). (give the fraction)",
+     "a": "1/18",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_004.2",
+   "title": "Probability Distribution of Discrete Random Variable",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A die is rolled once. What is the probability of getting a number greater than 1? (give the fraction)",
+     "a": "5/6",
+     "self_check": false
+    },
+    {
+     "q": "A die is rolled once. What is the probability of getting a prime number (2, 3 or 5)? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "Two coins are tossed together. What is the probability of getting exactly one head? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "3 fair coins are tossed together. What is the total number of possible outcomes?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled together. How many outcomes are in the sample space?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled. Find the probability of getting a sum of 3 (there are 1 such outcomes). (give the fraction)",
+     "a": "1/36",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_004.3",
+   "title": "Mean of Random Variable Expectation",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A die is rolled once. What is the probability of getting a number greater than 3? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "A die is rolled once. What is the probability of getting a prime number (2, 3 or 5)? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "Two coins are tossed together. What is the probability of getting exactly one head? (give the fraction)",
+     "a": "1/2",
+     "self_check": false
+    },
+    {
+     "q": "2 fair coins are tossed together. What is the total number of possible outcomes?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled together. How many outcomes are in the sample space?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Two dice are rolled. Find the probability of getting a sum of 5 (there are 3 such outcomes). (give the fraction)",
+     "a": "1/12",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_004.4",
+   "title": "Variance and Standard Deviation of Distribution",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean deviation about the mean of 4, 15, 11 (two decimal places).",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the variance of 9, 7, 3, 6 (two decimal places).",
+     "a": "4.69",
+     "self_check": false
+    },
+    {
+     "q": "A data set has variance 64. Find its standard deviation.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Find the coefficient of variation (in percent) when the standard deviation is 4 and the mean is 80.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "The first and third quartiles of a data set are 22 and 33. Find the interquartile range.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "For 15 ordered observations, find the position of the upper quartile using 3(n + 1) / 4.",
+     "a": "12",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_004.5",
+   "title": "Bernoulli Trials and Binomial Distribution",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Add the integers 7 and 2.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "A point starts at -17 on a number line and moves -17 steps (negative means left). Where does it finish?",
+     "a": "-34",
+     "self_check": false
+    },
+    {
+     "q": "Multiply the integers -10 and 0.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Divide 52 by -3.",
+     "a": "-17.3333",
+     "self_check": false
+    },
+    {
+     "q": "Find the additive inverse of 7 and return it.",
+     "a": "-7",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law to evaluate 5 x 2 + 5 x 7 as 5 x (2 + 7).",
+     "a": "45",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_004.6",
+   "title": "Poisson Distribution Rare Events",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the integer operation sign rules",
+     "explain": "apply the integer operation sign rules: total = 10 + (5) gives 15",
+     "compute": "total = 10 + (5)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Add the integers 10 and 5.",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "A point starts at 30 on a number line and moves 18 steps (negative means left). Where does it finish?",
+     "a": "48",
+     "self_check": false
+    },
+    {
+     "q": "Multiply the integers 1 and 1.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Divide 59 by 4.",
+     "a": "14.75",
+     "self_check": false
+    },
+    {
+     "q": "Find the additive inverse of 12 and return it.",
+     "a": "-12",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law to evaluate 7 x 7 + 7 x 8 as 7 x (7 + 8).",
+     "a": "105",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_004.7",
+   "title": "Normal Distribution and Z Score",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Add the integers -25 and -10.",
+     "a": "-35",
+     "self_check": false
+    },
+    {
+     "q": "A point starts at 9 on a number line and moves -14 steps (negative means left). Where does it finish?",
+     "a": "-5",
+     "self_check": false
+    },
+    {
+     "q": "Multiply the integers 12 and 7.",
+     "a": "84",
+     "self_check": false
+    },
+    {
+     "q": "Divide 53 by -4.",
+     "a": "-13.25",
+     "self_check": false
+    },
+    {
+     "q": "Find the additive inverse of -8 and return it.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law to evaluate 2 x 4 + 2 x 6 as 2 x (4 + 6).",
+     "a": "20",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,325 @@
+{
+ "class": 12,
+ "subject": "computer_science",
+ "chapter": 1,
+ "chapter_title": "Exception Handling in Python",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lecs101.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lecs101.1",
+   "title": "Syntax Errors versus Exceptions",
+   "section": "1.2 and 1.3",
+   "definition": "A syntax error, also called a parsing error, breaks the language rules and stops the program before any statement runs; an exception, by contrast, is a Python object representing an error that appears mid-execution even when the code is syntactically correct, such as opening a missing file or dividing by zero.",
+   "formula": "syntax error -> before execution; exception -> during execution",
+   "key_idea": "Every syntax error surfaces as a SyntaxError exception, but most exceptions arise in perfectly well-formed programs.",
+   "textbook_ref": "lecs101.txt, sections 1.2 and 1.3",
+   "question_patterns": [
+    "Justify the statement: every syntax error is an exception, but every exception is not a syntax error.",
+    "What is another name for a syntax error, and when does the interpreter report it?",
+    "Give two examples of errors that occur even when a program is syntactically correct.",
+    "Why will a script containing a parsing error never begin executing?",
+    "How does the interpreter report a syntax error in shell mode versus script mode?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify by execution stage",
+     "explain": "Parsing failures block the run from starting; exceptions are raised while statements execute, and each is handled so the program does not crash."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which error kind stops a program before any statement runs?",
+     "a": "syntax error"
+    }
+   ]
+  },
+  {
+   "id": "lecs101.2",
+   "title": "Built-in Exceptions of Python",
+   "section": "1.4 and Table 1.1",
+   "definition": "Python's standard library predefines commonly occurring errors as built-in exceptions, each with a fixed trigger: ValueError for right type but wrong value, IOError for an unopenable file, ImportError for a missing module, ZeroDivisionError, IndexError, NameError, TypeError, IndentationError and others.",
+   "formula": "ZeroDivisionError -> denominator 0; IndexError -> subscript out of range; NameError -> undefined name",
+   "key_idea": "When a built-in exception fires, the interpreter prints its name plus a reason, and the programmer supplies the handler.",
+   "textbook_ref": "lecs101.txt, section 1.4 and Table 1.1",
+   "question_patterns": [
+    "When are ImportError, IOError, NameError and ZeroDivisionError raised? Support each with an example.",
+    "Which built-in exception appears when an operator receives a value of the wrong data type?",
+    "A sequence subscript exceeds its range. Which exception is raised?",
+    "Name the exception raised when input() reaches end of file without reading data.",
+    "Which exception signals wrong indentation of program code?",
+    "What triggers an OverFlowError in a calculation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "match the situation to the exception name",
+     "explain": "Read the failing operation, note the violated condition, and pick the built-in whose trigger description fits it."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which built-in exception fires when a program divides by zero?",
+     "a": "ZeroDivisionError"
+    }
+   ]
+  },
+  {
+   "id": "lecs101.3",
+   "title": "Guarded Division and Remainder",
+   "section": "1.6.3 and Program 1-2",
+   "definition": "The chapter's running example guards a division inside a try block so a zero denominator jumps to the except block; for a valid denominator the division also decomposes into a floor quotient and a remainder via // and %.",
+   "formula": "leftover = numerator % denominator",
+   "key_idea": "The try block holds the risky statement, and only a non-zero denominator ever reaches the division itself.",
+   "textbook_ref": "lecs101.txt, Programs 1-2 and 1-3",
+   "question_patterns": [
+    "For numerator 50 and denominator 3, what whole part and remainder does the guarded division produce?",
+    "Rewrite Program 1-2 so a zero denominator raises an appropriate exception instead of crashing.",
+    "What happens in Program 1-2 when the user enters 0 as denominator, and which block runs?",
+    "Compute the floor quotient and the leftover when 50 is divided by 7.",
+    "Why is the risky division statement placed inside the try block rather than outside it?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the floor quotient",
+     "explain": "Floor division counts how many times the denominator fits wholly.",
+     "compute": "whole_part = numerator // denominator"
+    },
+    {
+     "step": 2,
+     "action": "take the remainder",
+     "explain": "The modulus keeps whatever cannot form another whole denominator.",
+     "compute": "leftover = numerator % denominator"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A guarded division computes 22 // 5 as 4. What remainder does 22 % 5 leave?",
+     "a": "2"
+    }
+   ]
+  },
+  {
+   "id": "lecs101.4",
+   "title": "Raising IndexError beyond the List",
+   "section": "1.5.1 and Figure 1.6",
+   "definition": "The raise statement throws an exception on demand; the chapter's demo requests a length larger than the list named numbers holds, so raising IndexError manually mirrors what the interpreter would do on a bad subscript, and the statements after raise never execute.",
+   "formula": "gap = length - size",
+   "key_idea": "A positive gap between the demanded length and the real list size is exactly the condition that fires the manual raise.",
+   "textbook_ref": "lecs101.txt, section 1.5.1 and Figure 1.6",
+   "question_patterns": [
+    "A list holds 5 numbers but the variable length is 9. By how much does the demand exceed the list before IndexError is raised?",
+    "What is the syntax of the raise statement, and what does its optional argument display?",
+    "Why is the statement after a raise never executed in the same block?",
+    "Write a statement that manually throws IndexError for an oversized demand on a list.",
+    "What additional structured text does Python print alongside a raised exception, and what does it contain?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "mark the highest legal index",
+     "explain": "A list of the given size ends at index size minus 1.",
+     "compute": "last_valid = size - 1"
+    },
+    {
+     "step": 2,
+     "action": "measure the excess demand",
+     "explain": "The requested length minus the real size is the gap that triggers the manual raise.",
+     "compute": "gap = length - size"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A list named numbers holds 5 elements and a demo demands a length of 8 before raising IndexError. What is the gap between demand and real size?",
+     "a": "3"
+    }
+   ]
+  },
+  {
+   "id": "lecs101.5",
+   "title": "The raise and assert Statements",
+   "section": "1.5.1 and 1.5.2",
+   "definition": "raise throws an exception immediately with an optional message, while assert tests an expression and throws AssertionError carrying its message only when the expression evaluates false, which makes assert handy for validating inputs at the start of a function.",
+   "formula": "assert Expression[, arguments]",
+   "key_idea": "In Program 1-1 the assert lets 100 pass and prints its square, but -350 trips the guard with the message about a negative number.",
+   "textbook_ref": "lecs101.txt, sections 1.5.1, 1.5.2 and Program 1-1",
+   "question_patterns": [
+    "Rewrite the division program of question 3 using assert so a zero denominator trips AssertionError.",
+    "In Program 1-1, why does negativecheck(100) print a value while negativecheck(-350) aborts?",
+    "State the syntax of the assert statement and explain what happens when its expression is false.",
+    "What is the difference between raising an exception with raise and with assert?",
+    "Which exception does a failed assert raise, and how is its message shown?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate the assert expression",
+     "explain": "A true expression lets execution continue normally; a false one raises AssertionError with the supplied argument and skips the remaining statements."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which statement throws an exception on demand?",
+     "a": "raise"
+    }
+   ]
+  },
+  {
+   "id": "lecs101.6",
+   "title": "The try, except and else Clauses",
+   "section": "1.6.3 and 1.6.4",
+   "definition": "Suspicious statements go inside a try block; each except clause names an exception and holds the handler that runs instead of the rest of the try block; an optional else clause runs only when no exception occurred at all.",
+   "formula": "no exception -> else runs; exception -> matching except runs",
+   "key_idea": "Once an exception fires inside try, the remaining statements of that block are abandoned immediately.",
+   "textbook_ref": "lecs101.txt, sections 1.6.3, 1.6.4 and Programs 1-2, 1-5",
+   "question_patterns": [
+    "In Program 1-5, which messages print when the user enters 4, and which when the user enters 0?",
+    "When does the else clause of a try..except statement execute?",
+    "Why are handlers kept separate from the main logic of the program?",
+    "A division succeeds inside try. Do any except blocks run, and what follows?",
+    "Explain the process of throwing and catching an exception using the call stack."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the three paths",
+     "explain": "Clean run: try body then else. Caught error: partial try body then the matching except. Nothing else changes the program's onward flow."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which block holds the suspicious statements?",
+     "a": "try"
+    }
+   ]
+  },
+  {
+   "id": "lecs101.7",
+   "title": "Multiple Handlers and the Bare except",
+   "section": "1.6.3 and Program 1-4",
+   "definition": "One try block may be followed by several except clauses, each catching a different exception type; a final except written without any exception name acts as the catch-all for anything the named handlers miss.",
+   "formula": "named except first, bare except last",
+   "key_idea": "Entering a non-integer in Program 1-4 finds no ValueError handler match for ZeroDivisionError, so the unnamed final except absorbs it.",
+   "textbook_ref": "lecs101.txt, Programs 1-3 and 1-4",
+   "question_patterns": [
+    "Fill the blanks in the question 7 code: which exception names guard integer input and a non-zero denominator?",
+    "Why must the except clause without an exception name be written last?",
+    "In Program 1-3, what happens when the user enters 0, and what when they enter 'two'?",
+    "How many except blocks can follow a single try block?",
+    "What happens if an exception is raised for which no handler exists anywhere in the program?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "search the handlers in order",
+     "explain": "The interpreter checks each named except against the raised exception top to bottom and falls back to the unnamed clause when nothing matches."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A final except written without any exception name acts as the what for everything the named handlers miss?",
+     "a": "catch-all"
+    }
+   ]
+  },
+  {
+   "id": "lecs101.8",
+   "title": "The finally Clause",
+   "section": "1.7 and Programs 1-6, 1-7",
+   "definition": "A finally clause runs no matter what happened above it, which is why file closing code lives there; unlike except, running finally does not end a still-unhandled exception, which is re-raised after the block finishes.",
+   "formula": "finally -> always executes, error or not",
+   "key_idea": "In Program 1-7 the message 'OVER AND OUT' appears even when a non-numeric input raises an unhandled exception.",
+   "textbook_ref": "lecs101.txt, section 1.7 and Programs 1-6, 1-7",
+   "question_patterns": [
+    "Why is the finally clause the standard place to close a file object?",
+    "In Program 1-6, which messages print for input 0, and which for input 2?",
+    "What happens to an unhandled exception after the finally block completes?",
+    "Where must finally be placed relative to the except and else blocks?",
+    "Complete the question 7 code: which keyword starts the block that prints 'JOB OVER... GO GET SOME REST'?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "run the cleanup unconditionally",
+     "explain": "finally executes on success, after a handled exception, and before an unhandled one is re-raised, so cleanup code there can never be skipped."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which clause runs no matter what happened above it?",
+     "a": "finally"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "lecs101.we1",
+   "title": "Guarded division of 50 by 3",
+   "concept_id": "lecs101.3",
+   "problem": "In a try block the user enters 3 as denominator for numerator 50. Compute the floor quotient and the remainder that the division produces.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "floor quotient",
+     "explain": "3 fits 16 whole times into 50.",
+     "compute": "whole_part = 50 // 3"
+    },
+    {
+     "step": 2,
+     "action": "remainder",
+     "explain": "Two units remain after sixteen full threes.",
+     "compute": "leftover = 50 % 3"
+    }
+   ],
+   "answer_note": "The division yields whole part 16 with leftover 2, so the exact quotient is 16.666..."
+  },
+  {
+   "id": "lecs101.we2",
+   "title": "Manual IndexError guard",
+   "concept_id": "lecs101.4",
+   "problem": "A program mimics Figure 1.6: the list numbers holds 5 elements and the variable length is set to 9 before the raise check. Compute the gap that triggers IndexError.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "highest legal index",
+     "explain": "Five elements end at index 4.",
+     "compute": "last_valid = 5 - 1"
+    },
+    {
+     "step": 2,
+     "action": "excess of the demand",
+     "explain": "Requested length 9 minus actual size 5.",
+     "compute": "gap = 9 - 5"
+    }
+   ],
+   "answer_note": "The demand exceeds the list by 4, so the manual raise fires and 'NO EXECUTION' never prints."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lecs101.ex1",
+   "source_ref": "NCERT Class 12 Computer Science, Chapter 1 Exercise (items reworded)",
+   "questions": [
+    "Justify: every syntax error is an exception but every exception cannot be a syntax error.",
+    "State when ImportError, IOError, NameError and ZeroDivisionError are raised, with one example each.",
+    "Write code that accepts two numbers, prints the quotient, and raises a suitable exception when the denominator is zero.",
+    "Redo the previous program using an assert statement to test the division.",
+    "Define exception handling, throwing an exception, and catching an exception.",
+    "Fill the blanks in the given try..except code so only integers are accepted, a zero denominator is refused, success is congratulated in else, and finally prints the closing message.",
+    "Call sqrt() with the wrong number of arguments inside a try block and catch the ValueError that results.",
+    "What is the use of the finally clause? Add it to the filled-in program of the previous questions."
+   ]
+  }
+ ]
+}

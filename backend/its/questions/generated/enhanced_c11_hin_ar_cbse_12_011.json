@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_12_011",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_12_011",
+   "title": "c11_hin_ar_cbse_12_011",
+   "questions": [
+    {
+     "q": "What is meant by 'language usage' in the context of a literary text?",
+     "a": "Language usage refers to the writer's deliberate choices in words, sentence structures, and grammatical forms to achieve artistic effects. A wrong answer (e.g., \"it means the language of the text\") shows the student confuses the analytical concept with mere identification of the language used.",
+     "self_check": true
+    },
+    {
+     "q": "In the poem, the word 'phUgrh' is used. Explain why the poet might have chosen this non-standard form instead of standard Hindi 'padhna' or 'parhna'.",
+     "a": "The poet uses 'phUgrh' (Bhojpuri dialect) to authentically represent the village woman's speech, establishing her character, social background, and the poem's rural setting. A wrong answer (e.g., \"it's a mistake\" or \"the poet didn't know standard Hindi\") reveals the student doesn't understand dialect as a deliberate stylistic choice for characterization.",
+     "self_check": true
+    },
+    {
+     "q": "Identify two sentences in the poem where the verb comes at the end (SOV order) but with a non-standard auxiliary or verb ending, and rewrite them in standard Hindi.",
+     "a": "Example 1: \"paik dkys dkys vPNj ugha phUgrh\" → Standard: \"पाइक धीरे-धीरे नहीं पढ़ती।\" (Non-standard: *phUgrh* for *padhti*). Example 2: \"rqe dkxn gh xksnk djrs gks fnu Hkj\" → Standard: \"तुम दिन भर दिन ही काटते हो।\" (Non-standard: *dkxn* for *din*, *xksnk* for *kate*, *gh* emphatic particle, *fnu Hkj* for *din bhar*). Steps: locate non-standard verb forms, identify dialect features, convert to standard Hindi. Wrong answer indicates inability to distinguish dialect grammar from standard grammar.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the language of the pawn (paik) and the poet-narrator. How do their grammatical differences reflect their social positions?",
+     "a": "The pawn uses rural dialect (Bhojpuri), simple sentences, non-standard verb endings (*phUgrh*, *djrs gks*), and colloquial vocabulary (*dkxn*, *fnu Hkj*). The narrator uses standard Hindi, complex sentences, tatsam vocabulary (*cksypky*, *pqVhyk*, *ukVdh;*), and literary register. This contrast highlights the education gap, social hierarchy, and the central conflict between oral folk culture and formal literacy. Wrong answer shows failure to link grammatical choices to characterization and theme.",
+     "self_check": true
+    },
+    {
+     "q": "Do you think the use of dialect words like 'dkys dkys', 'pqipki', 'ckye' enriches the poem or makes it inaccessible? Justify.",
+     "a": "It enriches the poem by adding authenticity, rhythmic texture, and cultural specificity; the context and provided glosses make it accessible to non-dialect speakers. A one-sided answer (only \"enriches\" or \"inaccessible\") without textual justification shows superficial evaluation. Strong answers note that the dialect *is* the poem's music — removing it would flatten the pawn's voice.",
+     "self_check": true
+    },
+    {
+     "q": "Write a four-line stanza in your mother tongue/dialect about a daily activity, then translate it into standard Hindi, noting what is lost/gained.",
+     "a": "Student produces a stanza in their dialect, translates it, and comments on loss of flavor/rhythm/cultural nuance versus gain of wider comprehensibility. Poor answer: only translation without reflection on the linguistic trade-offs, indicating they haven't grasped the functional value of dialect in literature.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

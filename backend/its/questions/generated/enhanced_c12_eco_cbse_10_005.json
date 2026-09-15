@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_10_005",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_10_005",
+   "title": "c12_eco_cbse_10_005",
+   "questions": [
+    {
+     "q": "Define autonomous investment and induced investment. Give one real-world example of each in the Indian context.",
+     "a": "**Correct answer:** Autonomous investment (Iₐ) is investment that does not depend on the current level of national income (Y); it is determined by exogenous factors like technology, population growth, government policy, and business expectations. Example: A solar power plant built under the PM-KUSUM scheme regardless of current GDP. Induced investment is investment that varies positively with national income; it is captured by the marginal propensity to invest (MPI = ΔI/ΔY). Example: A textile factory in Tirupur adding looms because rising per capita income has increased domestic demand for garments.  \n**What a wrong answer reveals:** If a student says \"autonomous investment is government investment\" they confuse *sector* with *behaviour* — private firms also undertake autonomous investment (e.g., R&D driven). If they say \"induced investment depends on interest rates\" they confuse the *investment function* (I = f(r)) with the *income-investment relationship* (I = Iₐ + bY) taught in this chapter.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the investment function I = Iₐ + bY has a positive intercept (Iₐ > 0) and a positive slope (b > 0) in the Keynesian cross model. What would happen to the AD curve if Iₐ increased but b remained unchanged?",
+     "a": "**Correct answer:** The intercept Iₐ > 0 because even at zero national income, firms undertake some investment driven by long-term expectations, technology, and policy (e.g., infrastructure projects). The slope b = MPI > 0 because higher income raises aggregate demand, encouraging firms to expand capacity. If Iₐ increases (say, due to a new PLI scheme) while b is unchanged, the investment function shifts **upward parallelly**, raising aggregate demand (AD = C + I + G + NX) at every income level. The AD curve shifts upward by exactly ΔIₐ, leading to a multiplied increase in equilibrium income ΔY = k × ΔIₐ where k = 1/(1 - c - b) is the investment-augmented multiplier.  \n**What a wrong answer reveals:** If a student says \"the AD curve becomes steeper\" they confuse a change in autonomous investment (parallel shift) with a change in MPI (rotation). If they say \"equilibrium income increases by exactly ΔIₐ\" they forget the multiplier process — this is a critical board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "An economy has the investment function I = 2000 + 0.15Y (in ₹ crore). Calculate: (a) autonomous investment, (b) marginal propensity to invest, (c) induced investment when Y = 40,000 crore, (d) total investment at Y = 40,000 crore.",
+     "a": "**Correct answer with steps:**  \nStep 1: Identify the investment function form I = Iₐ + bY.  \nStep 2: Compare with given I = 2000 + 0.15Y → Iₐ = 2000 crore (autonomous investment).  \nStep 3: MPI = b = 0.15 (induced investment rises by ₹0.15 for every ₹1 rise in income).  \nStep 4: Induced investment at Y = 40,000 = bY = 0.15 × 40,000 = 6,000 crore.  \nStep 5: Total investment = Iₐ + bY = 2000 + 6000 = 8,000 crore.  \n**What a wrong answer reveals:** If a student writes MPI = 15% instead of 0.15, they confuse percentage with decimal — board exams require decimal form for multiplier calculations. If they calculate induced investment as 0.15 × 2000 = 300, they multiply MPI by autonomous investment instead of by income — a fundamental misunderstanding of the function.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two economies: Economy A has I = 1000 + 0.1Y and Economy B has I = 500 + 0.2Y. Both have the same consumption function C = 2000 + 0.8Y and no government or foreign trade. Which economy has a higher equilibrium income? Which has a larger multiplier? Explain the economic intuition.",
+     "a": "**Correct answer:**  \nEquilibrium condition: Y = C + I = (2000 + 0.8Y) + (Iₐ + bY) → Y - 0.8Y - bY = 2000 + Iₐ → Y(1 - 0.8 - b) = 2000 + Iₐ → Y = (2000 + Iₐ)/(0.2 - b).  \nEconomy A: b = 0.1 → Y_A = (2000 + 1000)/(0.2 - 0.1) = 3000/0.1 = 30,000 crore. Multiplier k_A = 1/(1 - 0.8 - 0.1) = 1/0.1 = 10.  \nEconomy B: b = 0.2 → Y_B = (2000 + 500)/(0.2 - 0.2) = 2500/0 → **undefined (infinite)** because 0.2 - b = 0.  \n**Interpretation:** Economy B has MPI = 0.2 which equals the marginal propensity to save (MPS = 1 - MPC = 0.2). This makes the denominator zero — the multiplier explodes, meaning no finite equilibrium exists (the AD curve is parallel to the 45° line). Economy A has a stable equilibrium at ₹30,000 crore with multiplier 10.  \n**What a wrong answer reveals:** If a student only compares autonomous investment (1000 vs 500) and says Economy A has higher equilibrium income, they ignore the crucial role of MPI in determining the multiplier. This is a classic JEE/NEET trap — the *slope* of the investment function matters as much as the intercept.",
+     "self_check": true
+    },
+    {
+     "q": "\"During a recession, the government should focus on boosting autonomous investment rather than induced investment because induced investment depends on income which is already low.\" Evaluate this statement using the concepts of the investment function and the multiplier.",
+     "a": "**Correct answer:** The statement is **partially correct but incomplete**.  \n- Correct part: Autonomous investment (Iₐ) is the *policy lever* — government can directly increase Iₐ via PLI schemes, infrastructure spending, tax incentives, or interest rate cuts. Induced investment (bY) cannot be directly targeted because it is an *outcome* of higher income.  \n- Incomplete part: Once autonomous investment rises, it **generates induced investment** through the multiplier process: ΔY = k × ΔIₐ, and this ΔY then triggers ΔI_induced = b × ΔY. The total investment increase is ΔI_total = ΔIₐ + b × ΔY = ΔIₐ(1 + bk). Ignoring induced investment underestimates the total impact.  \n- Policy implication: The government should boost Iₐ *precisely because* it activates the induced investment channel. The statement wrongly treats them as substitutes; they are sequential links in the multiplier chain.  \n**What a wrong answer reveals:** If a student agrees fully and says \"induced investment is useless in a recession,\" they miss the dynamic feedback — induced investment *amplifies* the initial autonomous boost. If they disagree and say \"focus on induced investment,\" they confuse the *instrument* (policy controls Iₐ) with the *mechanism* (induced investment follows).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a numerical example showing how a ₹1,000 crore increase in autonomous investment (Iₐ) affects equilibrium income in an economy with MPC = 0.75 and MPI = 0.1. Show the round-by-round expansion of income, consumption, and induced investment for the first 3 rounds. What is the total multiplier?",
+     "a": "**Correct answer:**  \nMultiplier k = 1/(1 - MPC - MPI) = 1/(1 - 0.75 - 0.1) = 1/0.15 = 6.67.  \nTotal ΔY = k × ΔIₐ = 6.67 × 1000 = ₹6,667 crore (approx).  \n\n**Round-by-round (simplified, assuming instantaneous consumption/investment response):**  \nRound 0 (Initial): ΔIₐ = +1000 → ΔY₁ = 1000  \nRound 1: ΔC₁ = MPC × ΔY₁ = 0.75 × 1000 = 750; ΔI_induced₁ = MPI × ΔY₁ = 0.1 × 1000 = 100 → ΔAD₁ = 850 → ΔY₂ = 850  \nRound 2: ΔC₂ = 0.75 × 850 = 637.5; ΔI_induced₂ = 0.1 × 850 = 85 → ΔAD₂ = 722.5 → ΔY₃ = 722.5  \nRound 3: ΔC₃ = 0.75 × 722.5 = 541.875; ΔI_induced₃ = 0.1 × 722.5 = 72.25 → ΔAD₃ = 614.125 → ΔY₄ = 614.125  \nCumulative ΔY after 3 rounds = 1000 + 850 + 722.5 + 614.125 = 3,186.625 crore (converging to 6,667).  \n**What a poor answer reveals:** If a student uses the simple multiplier k = 1/(1 - MPC) = 4, they ignore MPI — a major error because induced investment *adds* to the multiplier. If they stop at Round 1 and say \"total ΔY = 1850,\" they don't understand the iterative process. Board exams often ask for the *formula* k = 1/(1 - c - b) and its derivation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

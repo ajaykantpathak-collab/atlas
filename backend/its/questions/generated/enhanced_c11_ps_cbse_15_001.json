@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_15_001",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_15_001",
+   "title": "c11_ps_cbse_15_001",
+   "questions": [
+    {
+     "q": "Which constitutional article explicitly directs the State to separate the judiciary from the executive in public services?",
+     "a": "Article 50 (Directive Principle of State Policy) directs the State to take steps to separate the judiciary from the executive in public services. A wrong answer (e.g., Article 124 or 217) reveals confusion between the directive principle and the operational provisions for Supreme Court/High Court appointments, indicating the student hasn't distinguished between constitutional aspiration and institutional design.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution guarantee fixed tenure and salary protection for judges rather than leaving these to ordinary legislation?",
+     "a": "Fixed tenure (until age 65 for SC, 62 for HC) and salaries charged on the Consolidated Fund prevent the executive/legislature from punishing or rewarding judges for decisions, securing decisional independence. A wrong answer focusing only on \"job security\" misses the structural point: it's about removing leverage that political branches could use to influence rulings, especially in cases involving government actions.",
+     "self_check": true
+    },
+    {
+     "q": "A state government passes a law restricting protests near legislative assemblies. The High Court strikes it down citing Article 19(1)(a). The Chief Minister publicly criticizes the judgment and proposes a bill to reduce the High Court's budget by 40%. Which principle of judicial independence is threatened, and why?",
+     "a": "Financial autonomy is threatened — control over budget is a classic tool to coerce courts. The principle is that judicial independence requires institutional insulation, not just personal tenure; if the legislature can retaliate financially, courts cannot effectively check legislative overreach. A wrong answer focusing only on \"freedom of speech\" misses the structural threat to the separation of powers itself.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of an independent judiciary in a unitary system (e.g., UK) versus a federal system (e.g., India). Why is independence more structurally critical in a federation?",
+     "a": "In a federation, the judiciary resolves disputes between Centre and States (Article 131) and interprets the division of powers (Seventh Schedule). If the judiciary is perceived as aligned with the Centre, States lose trust in the federal bargain, risking secessionist pressures. In a unitary system, no such intergovernmental arbitration exists. A wrong answer treating both systems identically ignores the federation's need for a neutral umpire to maintain the federal compact.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Judicial independence means judges can decide cases however they want without accountability.\" Is this true in the Indian constitutional scheme?",
+     "a": "False. Independence means freedom from external pressure, not absence of accountability. Indian judges are accountable through: (1) constitutional oath to uphold the Constitution, (2) impeachment (Articles 124(4), 217(1)(b)), (3) appellate review, (4) contempt powers, (5) public reasoning in judgments, and (6) the 'basic structure' doctrine limiting even judicial power. A wrong answer conflates independence with arbitrariness, missing that constitutional independence is bounded by law and institutional checks.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph constitutional provision for a new democracy that guarantees judicial independence, incorporating at least three distinct safeguards (tenure, financial, institutional) and explaining the purpose of each in one sentence.",
+     "a": "A strong answer includes: (1) Tenure safeguard: \"Judges shall hold office during good behaviour until a fixed retirement age, removable only by a two-thirds legislative vote for proven misbehaviour or incapacity\" — prevents arbitrary removal. (2) Financial safeguard: \"Salaries and administrative expenses shall be charged on the Consolidated Fund, not subject to annual vote\" — prevents budgetary coercion. (3) Institutional safeguard: \"Appointment shall be by a commission comprising judicial, executive, and legislative representatives\" — prevents single-branch control. A poor answer lists safeguards without linking each to the specific threat it counters.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

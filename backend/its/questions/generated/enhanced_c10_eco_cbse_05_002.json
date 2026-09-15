@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_05_002",
+   "title": "c10_eco_cbse_05_002",
+   "questions": [
+    {
+     "q": "State the four fundamental consumer rights guaranteed under the Consumer Protection Act in India.",
+     "a": "The four fundamental consumer rights are: (1) Right to Safety, (2) Right to Information, (3) Right to Choice, and (4) Right to Redressal. A wrong answer (e.g., listing \"Right to Education\" or \"Right to Discount\") reveals the student is confusing consumer rights with fundamental rights or general entitlements, indicating they have not memorised the specific consumer protection framework.",
+     "self_check": true
+    },
+    {
+     "q": "A consumer buys a packet of biscuits but the packet does not mention the date of manufacture, expiry date, or ingredients. Which consumer right is violated? Explain why this right matters for making a rational purchase decision.",
+     "a": "The Right to Information is violated. This right ensures consumers have access to complete, accurate, and truthful details about goods/services (quality, quantity, potency, purity, standard, price) so they can make informed choices. A wrong answer (e.g., \"Right to Safety\" because biscuits could be stale) shows the student conflates missing information with direct physical harm, not understanding that Information is a distinct right enabling decision-making before purchase.",
+     "self_check": true
+    },
+    {
+     "q": "In a village fair, a shopkeeper sells only one brand of toothpaste at ₹50 per tube, claiming \"no other stock\". A consumer wants a cheaper herbal alternative but cannot find it. Identify the violated right and calculate the potential monetary loss if the herbal brand costs ₹35 and the consumer buys 4 tubes a year.",
+     "a": "Right to Choice is violated — consumers must have access to a variety of goods at competitive prices. Monetary loss = (₹50 - ₹35) × 4 = ₹60 per year. A wrong answer (e.g., identifying Right to Information or calculating ₹50×4=₹200) reveals the student either misidentifies the right or misunderstands \"loss\" as total expenditure rather than excess payment due to forced choice.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two situations: (A) A mobile phone battery explodes while charging, injuring the user. (B) A mobile phone stops working after 10 days, but the seller refuses repair/replacement citing \"no warranty card\". Analyse which right is primarily violated in each and explain why the remedy differs.",
+     "a": "(A) Right to Safety violated — protection against hazardous goods. Remedy: compensation for injury, recall of dangerous product. (B) Right to Redressal violated — right to fair settlement of genuine grievances. Remedy: repair, replacement, or refund. A wrong answer (e.g., saying both are Safety or both Redressal) shows the student cannot distinguish between physical harm from defects (Safety) and denial of post-purchase remedy (Redressal), a critical distinction in board exam case studies.",
+     "self_check": true
+    },
+    {
+     "q": "\"Right to Choice means a consumer can demand any product at any price they want.\" Evaluate this statement. Is it correct? Justify your answer with reference to market realities and the legal scope of the right.",
+     "a": "The statement is incorrect. Right to Choice means access to a variety of goods/services at competitive prices, not the power to dictate prices or demand unavailable products. It ensures no forced bundling, no monopoly restriction, and fair competition — but operates within market supply and seller's pricing freedom. A wrong answer (agreeing with the statement) reveals a fundamental misconception: confusing consumer sovereignty with absolute buyer power, ignoring that Choice is about fair market access, not price control.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-panel comic strip storyboard (describe each panel in 1-2 sentences) showing a consumer experiencing violation of all four rights while buying a ceiling fan, and then using COPRA to seek redressal. Panel 1: Purchase scene. Panel 2: Violation of Safety & Information. Panel 3: Violation of Choice & Redressal. Panel 4: Legal action.",
+     "a": "Panel 1: Ramesh buys a ceiling fan from \"Bharat Electronics\" — no box, just loose fan. Panel 2: Fan falls due to faulty wiring (Safety violated); no manual, no ISI mark, no voltage rating (Information violated). Panel 3: Shop has only this brand; owner refuses return saying \"sold as is\" (Choice and Redressal violated). Panel 4: Ramesh files complaint at District Consumer Forum under COPRA, gets ₹10,000 compensation. A poor answer (e.g., missing one right, showing police instead of consumer forum) reveals inability to integrate all four rights in a single narrative and confusion about the correct redressal mechanism.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

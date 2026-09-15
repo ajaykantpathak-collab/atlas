@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_11_004",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_11_004",
+   "title": "c12_biotech_cbse_11_004",
+   "questions": [
+    {
+     "q": "What is the molecular form of the Cry protein as it is stored in *Bacillus thuringiensis* crystals and initially expressed in Bt cotton plants, and what is its approximate molecular weight?",
+     "a": "The Cry protein is stored and initially expressed as an **inactive protoxin (δ-endotoxin)** of approximately **130–140 kDa**. A wrong answer (e.g., \"active toxin of 65 kDa\") reveals the student confuses the protoxin with the activated toxin formed after proteolytic cleavage in the insect midgut — a critical distinction because the protoxin's stability allows accumulation in plant tissues without harming the plant.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Cry1Ac protein kill cotton bollworm (*Helicoverpa armigera*) larvae but not harm humans or other mammals that might consume Bt cottonseed oil?",
+     "a": "Cry1Ac requires **alkaline pH (9–11)** for solubilization and **specific lepidopteran midgut proteases** for activation to the 65 kDa toxin, followed by binding to **cadherin-like receptors** unique to lepidopteran midgut epithelial cells. Mammals have acidic stomachs (pH 1.5–3.5), lack the activating proteases, and lack the specific receptors — so the protoxin remains insoluble, undigested, and passes through harmlessly. A wrong answer citing \"mammals don't eat cotton\" ignores the biochemical specificity that is the foundation of Bt safety assessment.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer plants Bt cotton expressing *cry1Ac* but notices increasing bollworm survival after 5 years. Design a two-gene pyramided Bt cotton strategy to delay resistance, specifying the second *cry* gene and explaining the genetic basis for its effectiveness.",
+     "a": "Pyramid *cry1Ac* with **cry2Ab** (or *cry1F*). *cry2Ab* encodes a structurally distinct Cry protein that binds to **different midgut receptors** (e.g., ABC transporters) than Cry1Ac (which binds cadherin). Resistance to Cry1Ac (often via cadherin mutation) does not confer cross-resistance to Cry2Ab. An insect must simultaneously possess two independent, rare resistance mutations to survive — probability = (mutation rate)² — drastically delaying resistance evolution. A wrong answer choosing another *cry1* gene (e.g., *cry1F*) fails because they often share receptors, allowing cross-resistance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the receptor-binding step of Cry1Ac and Cry2Ab toxins in lepidopteran midgut cells. How does this difference underpin the \"pyramiding\" resistance management strategy?",
+     "a": "Cry1Ac binds primarily to **cadherin-like proteins (CaLP)** and secondarily to aminopeptidase N (APN) and alkaline phosphatase (ALP). Cry2Ab binds to **ATP-binding cassette (ABC) transporters (e.g., ABCC2)**. Because the receptors are **molecularly distinct and genetically unlinked**, a mutation conferring resistance to one toxin (e.g., cadherin truncation) does not affect binding of the other. Pyramiding exploits this **lack of cross-resistance** — an insect needs simultaneous mutations in two different receptor genes, which is evolutionarily improbable. A wrong answer stating \"both bind to the same receptor\" misses the entire mechanistic basis of pyramiding.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Planting a 20% non-Bt cotton refuge is sufficient to prevent resistance evolution in pink bollworm (*Pectinophora gossypiella*) to Bt cotton expressing *cry1Ac* and *cry2Ab*.\"",
+     "a": "The statement is **incomplete and potentially dangerous**. While a 20% refuge is a standard starting point, its sufficiency depends on: (1) **refuge compliance** (farmers often plant less), (2) **pest biology** (pink bollworm has low dispersal, so refuges must be close/structured), (3) **dominance of resistance** (if resistance is not fully recessive, refuges are less effective), (4) **fitness costs** of resistance (if low, resistance spreads faster), and (5) **gene pyramiding efficacy** (only works if no cross-resistance). In India, pink bollworm resistance to Cry1Ac evolved despite refuges due to non-compliance and possible incomplete recessivity. A blanket \"sufficient\" claim ignores these ecological and genetic nuances — a common error in board answers that quote refuge percentage without conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a schematic flowchart (describe in words) showing the complete sequence from *cry1Ac* gene integration in cotton genome to bollworm death, including: transformation method, expression cassette components, protein processing in plant, ingestion by larva, activation steps, receptor binding, pore formation, and death. Indicate where *Agrobacterium*-mediated transformation (from sibling node) fits.",
+     "a": "**Flowchart (textual):**\n1. **Gene construct**: *cry1Ac* coding sequence (codon-optimized for plants) + **CaMV 35S promoter** (constitutive) or **tissue-specific promoter** (e.g., *Cry1Ac* under *GhSCP1* for green tissue) + **nos terminator** + selectable marker (e.g., *nptII*) → cloned into **T-DNA binary vector**.\n2. **Transformation**: *Agrobacterium tumefaciens* (strain LBA4404/EHA105) carrying vector infects cotton hypocotyl/embryo explants → **T-DNA integration** into cotton genome (via non-homologous end joining) → selection on kanamycin → regeneration of transgenic shoots (ref: c12_biotech_cbse_11_002).\n3. **Expression in plant**: Transcription → mRNA processing → translation in cytoplasm → **130 kDa protoxin accumulates in chloroplasts/cytoplasm** (stable, inactive at plant pH ~7).\n4. **Insect ingestion**: Bollworm larva feeds on Bt cotton leaf/boll → ingests protoxin.\n5. **Midgut activation**: Protoxin solubilized at **pH 9.5–10.5** → cleaved by **trypsin-like proteases** at specific sites → N-terminal ~17 kDa and C-terminal ~45 kDa peptides removed → **65 kDa active toxin** (core domain I, II, III).\n6. **Receptor binding**: Domain II binds **cadherin (CaLP)** → facilitates oligomerization (pre-pore) → Domain I inserts → binds **APN/ALP** → stable pore.\n7. **Pore formation**: Oligomer (tetramer) forms **cation-selective pores** → osmotic imbalance → cell swelling/lysis → gut epithelium destruction.\n8. **Death**: Septicemia (gut bacteria enter hemocoel) + starvation → larva dies in 24–72 h.\n\nA poor answer omits the promoter choice, codon optimization, or the two-step receptor binding (cadherin then APN/ALP), showing incomplete mechanistic understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,525 @@
+{
+ "class": 12,
+ "subject": "biology",
+ "chapter": 101,
+ "chapter_title": "Sexual Reproduction in Flowering Plants",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lebo101.txt",
+ "concepts": [
+  {
+   "id": "lebo.101.1",
+   "title": "Microsporogenesis and Pollen Yield Calculation",
+   "section": "1.2.1",
+   "definition": "The meiotic formation of haploid microspores arranged in tetrads from diploid pollen mother cells inside the microsporangium of an anther.",
+   "formula": "microspores = pmc_count * 4",
+   "key_idea": "In brief, In brief, In brief, In brief, Each diploid pollen mother cell undergoes one meiotic division to generate four functional microspores.",
+   "textbook_ref": "lebo101.txt lines 65-105",
+   "question_patterns": [
+    "calculate the number of pollen grains produced from a given number of pollen mother cells",
+    "find how many microspores are formed from sporogenous cells",
+    "determine the microspores produced by anther PMCs",
+    "how many pollen grains will develop from microspore mother cells"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply PMC count by 4",
+     "explain": "Each PMC yields 4 haploid microspores via meiotic division",
+     "compute": "microspores = pmc_count * 4"
+    }
+   ]
+  },
+  {
+   "id": "lebo.101.2",
+   "title": "Male Gamete Production from Pollen Grains",
+   "section": "1.2.1",
+   "definition": "In brief, In brief, the generative's mitotic division cell within a pollen grain to produce two non-motile male gametes for double fertilization.",
+   "formula": "male_gametes = pollen_grains * 2",
+   "key_idea": "Every single pollen grain provides two functional male gametes through generative cell mitosis.",
+   "textbook_ref": "lebo101.txt lines 106-150",
+   "question_patterns": [
+    "how many male gametes are produced from a number of pollen grains",
+    "calculate the total male gametes released by germinating pollen",
+    "find the number of male gametes from pollen count",
+    "determine total sperm nuclei delivered into embryo sacs"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate male gametes from pollen count",
+     "explain": "Each pollen grain generates two male gametes",
+     "compute": "male_gametes = pollen_grains * 2"
+    }
+   ]
+  },
+  {
+   "id": "lebo.101.3",
+   "title": "Structure and Layers of Microsporangium",
+   "section": "1.2.1",
+   "definition": "The concentric cellular organization of an anther consisting of outer epidermis, endothecium, middle layers for protection and dehiscence, and innermost multinucleate tapetum for nourishment.",
+   "formula": "microsporangium_layers = epidermis + endothecium + middle_layers + tapetum",
+   "key_idea": "In brief, In brief, In brief, In brief, the outer three wall layers both protect and assist dehiscence, while the nutritive tapetum feeds developing microspores.",
+   "textbook_ref": "lebo101.txt lines 60-80",
+   "question_patterns": [
+    "explain the wall layers of a microsporangium and their functions",
+    "what is the role of tapetum in anther development",
+    "describe the transverse section of a mature microsporangium",
+    "verify the function of endothecium and tapetal cells in microsporogenesis"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify outer protective wall layers",
+     "explain": "Epidermis, endothecium, and middle layers provide structural integrity and help in anther dehiscence."
+    },
+    {
+     "step": 2,
+     "action": "specify innermost nutritive layer",
+     "explain": "Tapetum possesses dense cytoplasm with multiple nuclei and nourishes developing microspores."
+    }
+   ]
+  },
+  {
+   "id": "lebo.101.4",
+   "title": "Megasporogenesis and Monosporic Embryo Sac Development",
+   "section": "1.2.2",
+   "definition": "The differentiation of a single diploid megaspore mother cell in the nucellus undergoing meiosis to form four megaspores, whereof three degenerate and one functional megaspore undergoes three rounds of free-nuclear mitosis.",
+   "formula": "nuclei_in_mature_gametophyte = 2 ** mitotic_cycles",
+   "key_idea": "A single functional megaspore undergoes three successive free nuclear mitotic divisions to produce an 8-nucleate female gametophyte.",
+   "textbook_ref": "lebo101.txt lines 190-250",
+   "question_patterns": [
+    "explain monosporic development of the female gametophyte",
+    "how many mitotic divisions occur in the functional megaspore to form an embryo sac",
+    "describe the steps from megaspore mother cell to mature embryo sac",
+    "calculate the number of meiotic divisions required to produce functional megaspores"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "meiotic reduction of megaspore mother cell",
+     "explain": "MMC (2n) undergoes meiosis yielding a linear tetrad of four haploid megaspores."
+    },
+    {
+     "step": 2,
+     "action": "degeneration and functional megaspore selection",
+     "explain": "Three megaspores at the micropylar end degenerate; one chalazal megaspore remains functional."
+    },
+    {
+     "step": 3,
+     "action": "three successive free-nuclear mitotic divisions",
+     "explain": "Functional megaspore nucleus divides mitotically three times to produce 8 haploid nuclei."
+    }
+   ]
+  },
+  {
+   "id": "lebo.101.5",
+   "title": "Organization of 7-Celled 8-Nucleate Embryo Sac",
+   "section": "1.2.2",
+   "definition": "The spatial architecture of the mature female gametophyte containing an egg apparatus with two both synergids and one egg at the micropylar end, three antipodals at the chalazal end, and two polar nuclei in a central cell.",
+   "formula": "total_cells = synergids + egg_cell + central_cell + antipodals",
+   "key_idea": "Cellularization after 8-nucleate stage produces 7 distinct cells with 8 haploid nuclei.",
+   "textbook_ref": "lebo101.txt lines 240-270",
+   "question_patterns": [
+    "why is the mature angiosperm embryo sac described as 7-celled and 8-nucleate",
+    "describe the components of the egg apparatus and their function",
+    "identify the cells situated at micropylar and chalazal poles of embryo sac",
+    "what is the role of filiform apparatus in the synergids"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "enumerate micropylar apparatus",
+     "explain": "Egg apparatus comprises 1 egg cell and 2 synergids bearing filiform apparatus to guide pollen tube."
+    },
+    {
+     "step": 2,
+     "action": "enumerate chalazal apparatus",
+     "explain": "Chalazal pole comprises 3 antipodal cells."
+    },
+    {
+     "step": 3,
+     "action": "account for central binucleate cell",
+     "explain": "The large central cell encloses 2 polar nuclei, making the embryo sac 7-celled and 8-nucleate."
+    }
+   ]
+  },
+  {
+   "id": "lebo.101.6",
+   "title": "Mechanisms and Adaptations of Pollination",
+   "section": "1.2.3",
+   "definition": "In brief, In brief, the action of transferring pollen grains from the anther to the stigma categorized into autogamy, geitonogamy, and xenogamy depending on the floral genetic source.",
+   "formula": "pollination_type = classify(source_plant, source_flower)",
+   "key_idea": "Xenogamy introduces novel genetic combinations, while both both both both both both both both both both both both both both both both both both both both both both both both autogamy and geitonogamy retain genetic similarity to the parent plant.",
+   "textbook_ref": "lebo101.txt lines 275-350",
+   "question_patterns": [
+    "differentiate between autogamy, geitonogamy and xenogamy",
+    "what are cleistogamous flowers and their reproductive advantages",
+    "explain adaptations of wind and water pollinated flowers",
+    "compare chasmogamous and cleistogamous pollination mechanisms"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "distinguish pollen transfer categories",
+     "explain": "Autogamy occurs in the same flower, geitonogamy between flowers of the same plant, and xenogamy between flowers of different plants."
+    },
+    {
+     "step": 2,
+     "action": "evaluate floral adaptations for abiotic and biotic agents",
+     "explain": "Wind pollination uses light, dry pollen with feathery stigmas; biotic pollination uses large, colourful, nectar-rich flowers."
+    }
+   ]
+  },
+  {
+   "id": "lebo.101.7",
+   "title": "Outbreeding Devices and Artificial Hybridization",
+   "section": "1.2.3",
+   "definition": "Structural and physiological strategies including dichogamy, herkogamy, self-incompatibility, and dioecy that prevent self-fertilization, complemented by both both both both both both both both both both both both both both both both both both both both both both both both emasculation and bagging in plant breeding.",
+   "formula": "hybridization_steps = emasculation + bagging + dusting + rebagging",
+   "key_idea": "Outbreeding prevents inbreeding depression, and controlled hybridization avoids unwanted cross-contamination using both both both both both both both both both both both both both both both both both both both both both both both both emasculation and bagging.",
+   "textbook_ref": "lebo101.txt lines 380-450",
+   "question_patterns": [
+    "list the natural outbreeding devices developed by flowering plants",
+    "explain the steps involved in artificial hybridization of bisexual flowers",
+    "why is emasculation not necessary in unisexual female parents",
+    "what is self-incompatibility and how does it prevent inbreeding"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify outbreeding mechanisms",
+     "explain": "Non-synchronous maturation, spatial separation of anther-stigma, self-incompatibility genes, and unisexuality curb self-pollination."
+    },
+    {
+     "step": 2,
+     "action": "execute emasculation and bagging protocol",
+     "explain": "Anthers are excised prior to dehiscence from bisexual bud, covered with butter paper, hand-pollinated upon maturity, and rebagged."
+    }
+   ]
+  },
+  {
+   "id": "lebo.101.8",
+   "title": "Double Fertilization and Nuclear Fusion",
+   "section": "1.3",
+   "definition": "The concurrent occurrence of syngamy to produce a diploid zygote and triple fusion to generate a triploid primary endosperm nucleus within the angiosperm embryo sac.",
+   "formula": "fused_nuclei = syngamy_nuclei + triple_fusion_nuclei",
+   "key_idea": "Double fertilization combines syngamy (1 sperm + 1 egg = 2n zygote) and triple fusion (1 sperm + 2 polar nuclei = 3n PEN).",
+   "textbook_ref": "lebo101.txt lines 455-490",
+   "question_patterns": [
+    "explain double fertilization and its significance in flowering plants",
+    "what is triple fusion and name the nuclei involved in it",
+    "determine the ploidy level of zygote and primary endosperm nucleus",
+    "how many male gametes and nuclei participate in double fertilization"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "syngamy fusion",
+     "explain": "One haploid male gamete (n) fuses with haploid egg nucleus (n) to produce diploid zygote (2n)."
+    },
+    {
+     "step": 2,
+     "action": "triple fusion",
+     "explain": "The second haploid male gamete (n) fuses with two haploid polar nuclei (n + n) in the central cell to produce triploid PEN (3n)."
+    }
+   ]
+  },
+  {
+   "id": "lebo.101.9",
+   "title": "Meiotic Divisions Required for Seed Production",
+   "section": "1.4.3",
+   "definition": "The computation of total meiotic divisions needed to produce a given number of viable seeds using both both both both both both both both both both both both both both both both both both both both both both both both microsporogenesis and megasporogenesis requirements.",
+   "formula": "total_meiosis = (seeds + 3) // 4 + seeds",
+   "key_idea": "In brief, In brief, In brief, Four functional pollen grains come from one meiotic division, but each functional megaspore requires one full meiotic division.",
+   "textbook_ref": "lebo101.txt lines 65-105, 190-250, 520-560",
+   "question_patterns": [
+    "calculate the minimum number of meiotic divisions required to produce a number of seeds",
+    "how many meiotic divisions are needed to form seeds in angiosperms",
+    "find total reduction divisions to produce seeds in wheat or cyperus",
+    "determine meiotic divisions for formation of viable grains"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate PMCs required for pollen",
+     "explain": "One meiotic division produces 4 functional microspores, so divide seed count by 4 with ceiling",
+     "compute": "pollen_meiosis = (seeds + 3) // 4"
+    },
+    {
+     "step": 2,
+     "action": "calculate MMCs required for ovules",
+     "explain": "One meiotic division yields only 1 functional megaspore, so ovule meiosis equals seed count",
+     "compute": "ovule_meiosis = seeds"
+    },
+    {
+     "step": 3,
+     "action": "sum pollen and ovule meiotic divisions",
+     "explain": "Total meiotic divisions is the sum of microspore and megaspore mother cell divisions",
+     "compute": "total_meiosis = pollen_meiosis + ovule_meiosis"
+    }
+   ]
+  },
+  {
+   "id": "lebo.101.10",
+   "title": "Post-Fertilization Seed and Fruit Structures",
+   "section": "1.4.3",
+   "definition": "In brief, In brief, In brief, In brief, the development of fertilized ovules into both seeds and the ovary into pericarp, distinguishing true, false (involving thalamus), and parthenocarpic (seedless) fruits, together with endospermic and perispermic states.",
+   "formula": "fruit_wall = pericarp",
+   "key_idea": "Ovules become seeds, ovary wall becomes pericarp, persistent nucellus forms perisperm, and non-fertilized ovary development gives parthenocarpic fruit.",
+   "textbook_ref": "lebo101.txt lines 520-590",
+   "question_patterns": [
+    "differentiate between true fruit, false fruit and parthenocarpic fruit",
+    "what is perisperm and give examples of seeds containing it",
+    "distinguish between albuminous and ex-albuminous seeds",
+    "explain post-fertilization changes occurring in flower parts"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify fruit origin",
+     "explain": "True fruits derive solely from the ovary; false fruits include floral parts like thalamus (apple, strawberry); parthenocarpic fruits develop without fertilization (banana)."
+    },
+    {
+     "step": 2,
+     "action": "classify residual seed tissues",
+     "explain": "Albuminous seeds retain endosperm; ex-albuminous completely consume it; perisperm represents persistent nucellus (black pepper, beet)."
+    }
+   ]
+  },
+  {
+   "id": "lebo.101.11",
+   "title": "Apomixis and Polyembryony",
+   "section": "1.5",
+   "definition": "Asexual seed development bypassing fertilization (apomixis) and the presence of multiple embryos within a single seed (polyembryony) arising from diploid maternal tissues like nucellus.",
+   "formula": "apomictic_embryos = maternal_tissue_proliferation",
+   "key_idea": "Apomixis produces clonal seeds without segregation of hybrid characters, maintaining parental vigour across generations.",
+   "textbook_ref": "lebo101.txt lines 600-645",
+   "question_patterns": [
+    "what is apomixis and why is it important in hybrid agriculture",
+    "explain how polyembryony occurs in Citrus and mango",
+    "why do farmers need to purchase hybrid seeds every year unless they are apomictic",
+    "how does apomixis mimic sexual reproduction"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define apomixis pathway",
+     "explain": "Diploid egg cell or nucellar cells develop directly into embryos without undergoing fertilization."
+    },
+    {
+     "step": 2,
+     "action": "evaluate agricultural significance",
+     "explain": "Apomixis prevents segregation of desirable traits in hybrid crop progeny, saving seed production costs."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lebo101.txt lines 65-105",
+   "concept": "lebo.101.1",
+   "question_type": "compute",
+   "question_pattern": "Calculate the total number of microspores formed from {pmc_count} pollen mother cells in an anther.",
+   "extracted_variables": {
+    "pmc_count": "number of microspore mother cells"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply PMC count by 4",
+     "explain": "Each PMC yields 4 haploid microspores via meiotic division",
+     "compute": "microspores = pmc_count * 4"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lebo101.txt lines 106-150",
+   "concept": "lebo.101.2",
+   "question_type": "compute",
+   "question_pattern": "Find how many male gametes will be produced by {pollen_grains} mature pollen grains upon shedding at the 3-celled stage.",
+   "extracted_variables": {
+    "pollen_grains": "number of mature pollen grains"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate male gametes from pollen count",
+     "explain": "Each pollen grain generates two male gametes",
+     "compute": "male_gametes = pollen_grains * 2"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lebo101.txt lines 520-560",
+   "concept": "lebo.101.9",
+   "question_type": "compute",
+   "question_pattern": "What is the minimum number of meiotic divisions required to produce {seeds} seeds in a flowering plant?",
+   "extracted_variables": {
+    "seeds": "number of viable seeds formed"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate PMCs required for pollen",
+     "explain": "One meiotic division produces 4 functional microspores, so divide seed count by 4 with ceiling",
+     "compute": "pollen_meiosis = (seeds + 3) // 4"
+    },
+    {
+     "step": 2,
+     "action": "calculate MMCs required for ovules",
+     "explain": "One meiotic division yields only 1 functional megaspore, so ovule meiosis equals seed count",
+     "compute": "ovule_meiosis = seeds"
+    },
+    {
+     "step": 3,
+     "action": "sum pollen and ovule meiotic divisions",
+     "explain": "Total meiotic divisions is the sum of microspore and megaspore mother cell divisions",
+     "compute": "total_meiosis = pollen_meiosis + ovule_meiosis"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex101.1",
+   "source_ref": "lebo101.txt line 655",
+   "questions": [
+    "Name the parts of an angiosperm flower in which development of male and female gametophyte take place."
+   ]
+  },
+  {
+   "id": "ex101.2",
+   "source_ref": "lebo101.txt lines 656-658",
+   "questions": [
+    "Differentiate between microsporogenesis and megasporogenesis. Which type of cell division occurs during these events? Name the structures formed at the end of these two events."
+   ]
+  },
+  {
+   "id": "ex101.3",
+   "source_ref": "lebo101.txt lines 659-661",
+   "questions": [
+    "Arrange the following terms in the correct developmental sequence: Pollen grain, sporogenous tissue, microspore tetrad, pollen mother cell, male gametes."
+   ]
+  },
+  {
+   "id": "ex101.4",
+   "source_ref": "lebo101.txt lines 662-663",
+   "questions": [
+    "With a neat, labelled diagram, describe the parts of a typical angiosperm ovule."
+   ]
+  },
+  {
+   "id": "ex101.5",
+   "source_ref": "lebo101.txt line 664",
+   "questions": [
+    "What is meant by monosporic development of female gametophyte?"
+   ]
+  },
+  {
+   "id": "ex101.6",
+   "source_ref": "lebo101.txt lines 665-666",
+   "questions": [
+    "With a neat diagram explain the 7-celled, 8-nucleate nature of the female gametophyte."
+   ]
+  },
+  {
+   "id": "ex101.7",
+   "source_ref": "lebo101.txt lines 667-668",
+   "questions": [
+    "What are chasmogamous flowers? Can cross-pollination occur in cleistogamous flowers? Give reasons for your answer."
+   ]
+  },
+  {
+   "id": "ex101.8",
+   "source_ref": "lebo101.txt line 669",
+   "questions": [
+    "Mention two strategies evolved to prevent self-pollination in flowers."
+   ]
+  },
+  {
+   "id": "ex101.9",
+   "source_ref": "lebo101.txt lines 670-671",
+   "questions": [
+    "What is self-incompatibility? Why does self-pollination not lead to seed formation in self-incompatible species?"
+   ]
+  },
+  {
+   "id": "ex101.10",
+   "source_ref": "lebo101.txt lines 672-673",
+   "questions": [
+    "What is bagging technique? How is it useful in a plant breeding programme?"
+   ]
+  },
+  {
+   "id": "ex101.11",
+   "source_ref": "lebo101.txt lines 674-675",
+   "questions": [
+    "What is triple fusion? Where and how does it take place? Name the nuclei involved in triple fusion."
+   ]
+  },
+  {
+   "id": "ex101.12",
+   "source_ref": "lebo101.txt lines 676-677",
+   "questions": [
+    "Why do you think the zygote is dormant for sometime in a fertilised ovule?"
+   ]
+  },
+  {
+   "id": "ex101.13",
+   "source_ref": "lebo101.txt lines 678-682",
+   "questions": [
+    "Differentiate between: (a) hypocotyl and epicotyl; (b) coleoptile and coleorrhiza; (c) integument and testa; (d) perisperm and pericarp."
+   ]
+  },
+  {
+   "id": "ex101.14",
+   "source_ref": "lebo101.txt lines 683-684",
+   "questions": [
+    "Why is apple called a false fruit? Which part(s) of the flower forms the fruit?"
+   ]
+  },
+  {
+   "id": "ex101.15",
+   "source_ref": "lebo101.txt lines 685-686",
+   "questions": [
+    "What is meant by emasculation? When and why does a plant breeder employ this technique?"
+   ]
+  },
+  {
+   "id": "ex101.16",
+   "source_ref": "lebo101.txt lines 687-689",
+   "questions": [
+    "If one can induce parthenocarpy through the application of growth substances, which fruits would you select to induce parthenocarpy and why?"
+   ]
+  },
+  {
+   "id": "ex101.17",
+   "source_ref": "lebo101.txt line 690",
+   "questions": [
+    "Explain the role of tapetum in the formation of pollen-grain wall."
+   ]
+  },
+  {
+   "id": "ex101.18",
+   "source_ref": "lebo101.txt line 691",
+   "questions": [
+    "What is apomixis and what is its importance?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

@@ -1,0 +1,255 @@
+{
+ "catalog": "catalog_class11_biology_ch108",
+ "concepts": [
+  {
+   "id": "kebo.108.1",
+   "title": "Cell Theory and Classical Discoveries",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Cell Theory and Classical Discoveries' refers to.",
+     "a": "The foundational biological principles asserting that all living organisms are built of cells and cell products, with new cells arising exclusively from pre-existing cell division.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cell Theory and Classical Discoveries'.",
+     "a": "Cells form the universal both structural and functional basis of life, generated solely through pre-existing cellular division.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Cell Theory and Classical Discoveries', in plain ASCII form.",
+     "a": "All living units = pre-existing cells + cellular products",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.108.2",
+   "title": "Prokaryotic Cell Envelope and Modifications",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Prokaryotic Cell Envelope and Modifications' refers to.",
+     "a": "A complex three-tiered protective covering in prokaryotes comprising an outer glycocalyx, middle cell wall, and inner plasma membrane, along with specialized membrane infoldings like mesosomes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Prokaryotic Cell Envelope and Modifications'.",
+     "a": "Prokaryotic cell envelopes provide protection, structural stability, and specialized infoldings for replication and respiration.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Prokaryotic Cell Envelope and Modifications', in plain ASCII form.",
+     "a": "Cell envelope = glycocalyx + cell wall + plasma membrane",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.108.3",
+   "title": "Prokaryotic Ribosomes and Inclusion Bodies",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Prokaryotic Ribosomes and Inclusion Bodies' refers to.",
+     "a": "Membraneless 70S ribonucleoprotein particles involved in protein translation, alongside non-membrane bound cytoplasmic granules that store reserve nutrients.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Prokaryotic Ribosomes and Inclusion Bodies'.",
+     "a": "Prokaryotes utilize membrane-associated 70S ribosomes for translation and naked cytoplasmic inclusions for nutrient storage.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Prokaryotic Ribosomes and Inclusion Bodies', in plain ASCII form.",
+     "a": "70S ribosome = 50S subunit + 30S subunit",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.108.4",
+   "title": "Plasma Membrane Fluidity and Solute Transport",
+   "questions": [
+    {
+     "q": "Calculate the remaining chemical component percentage in a cell membrane given protein and lipid percentages. Use the method 'Plasma Membrane Fluidity and Solute Transport'. Work with: lipid_percentage = 20, protein_percentage = 25. Carry the chain through step by step and give the final value of other_percentage.",
+     "a": "55 per cent",
+     "self_check": false
+    },
+    {
+     "q": "How much non-protein non-lipid content exists in an erythrocyte membrane with 52 percent protein and 40 percent lipid? Use the method 'Plasma Membrane Fluidity and Solute Transport'. Work with: lipid_percentage = 5, protein_percentage = 15. Carry the chain through step by step and give the final value of other_percentage.",
+     "a": "80 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Plasma Membrane Fluidity and Solute Transport' refers to.",
+     "a": "A fluid mosaic phospholipid bilayer with mosaic both integral and peripheral proteins that mediates cell growth, secretion, passive diffusion, osmosis, and active ion pumping.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Plasma Membrane Fluidity and Solute Transport'.",
+     "a": "The lipid bilayer's fluid nature allows protein movement and selectively regulates molecule exchange across cell boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Plasma Membrane Fluidity and Solute Transport', in plain ASCII form.",
+     "a": "other_percentage = 100 - (protein_percentage + lipid_percentage)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.108.5",
+   "title": "Cell Wall and Intercellular Junctions",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Cell Wall and Intercellular Junctions' refers to.",
+     "a": "A non-living rigid outer layer in plants, fungi, and algae that provides structural integrity, protection against infection, and intercellular connection via plasmodesmata.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cell Wall and Intercellular Junctions'.",
+     "a": "Plant cell walls provide mechanical strength while middle both lamellae and plasmodesmata join neighboring cells.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Cell Wall and Intercellular Junctions', in plain ASCII form.",
+     "a": "Middle lamella = calcium pectate adhesive layer",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.108.6",
+   "title": "Endomembrane System and Vacuolar Dynamics",
+   "questions": [
+    {
+     "q": "Calculate the volume occupied by a plant vacuole given cell volume and volume percentage. Use the method 'Endomembrane System and Vacuolar Dynamics'. Work with: total_cell_volume = 3, vacuole_percentage = 12. Carry the chain through step by step and give the final value of vacuole_volume.",
+     "a": "0.36 units",
+     "self_check": false
+    },
+    {
+     "q": "Find how much space the vacuole takes in a plant cell of specific volume. Use the method 'Endomembrane System and Vacuolar Dynamics'. Work with: total_cell_volume = 240, vacuole_percentage = 25. Carry the chain through step by step and give the final value of vacuole_volume.",
+     "a": "60 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Endomembrane System and Vacuolar Dynamics' refers to.",
+     "a": "A functionally coordinated organelle network comprising the ER, Golgi apparatus, lysosomes, and vacuoles that works together to synthesize, modify, package, and segregate cellular products.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Endomembrane System and Vacuolar Dynamics'.",
+     "a": "Coordinated membrane organelles process and route proteins, lipids, and cellular wastes inside eukaryotic cells.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Endomembrane System and Vacuolar Dynamics', in plain ASCII form.",
+     "a": "vacuole_volume = total_cell_volume * (vacuole_percentage / 100)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.108.7",
+   "title": "Mitochondrial Structure and Energy Generation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Mitochondrial Structure and Energy Generation' refers to.",
+     "a": "A double-membrane organelle containing folded inner cristae, circular DNA, 70S ribosomes, and respiratory enzymes responsible for generating ATP through aerobic respiration.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Mitochondrial Structure and Energy Generation'.",
+     "a": "Mitochondria act as cellular powerhouses, producing ATP across inner membranes expanded by cristae infoldings.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Mitochondrial Structure and Energy Generation', in plain ASCII form.",
+     "a": "Mitochondrial lumen = outer compartment + inner matrix",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.108.8",
+   "title": "Plastids and Chloroplast Architecture",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Plastids and Chloroplast Architecture' refers to.",
+     "a": "Pigment- or nutrient-storing double-membrane organelles in plants, including light-harvesting chloroplasts organized into fluid stroma and stacked thylakoid grana.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Plastids and Chloroplast Architecture'.",
+     "a": "Chloroplasts harvest solar energy within thylakoid membrane stacks to synthesize organic compounds in the stroma.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Plastids and Chloroplast Architecture', in plain ASCII form.",
+     "a": "Plastids = Chloroplasts + Chromoplasts + Leucoplasts",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.108.9",
+   "title": "Cilia, Flagella, and Centrosome Microtubular Architecture",
+   "questions": [
+    {
+     "q": "Calculate the total number of individual microtubules in a standard 9 plus 2 axoneme. Use the method 'Cilia, Flagella, and Centrosome Microtubular Architecture'. Work with: central_singlets = 40, peripheral_doublets = 3. Carry the chain through step by step and give the final value of total_microtubules.",
+     "a": "46 units",
+     "self_check": false
+    },
+    {
+     "q": "Find how many microtubules make up the peripheral doublets and central pair of a cilium. Use the method 'Cilia, Flagella, and Centrosome Microtubular Architecture'. Work with: central_singlets = 8, peripheral_doublets = 3. Carry the chain through step by step and give the final value of total_microtubules.",
+     "a": "14 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Cilia, Flagella, and Centrosome Microtubular Architecture' refers to.",
+     "a": "Motility and structural organelles made up of tubulin protein arrangements, featuring a 9+2 axoneme array in cilia/flagella and a cartwheel triplet pattern in centrioles.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cilia, Flagella, and Centrosome Microtubular Architecture'.",
+     "a": "Nine radially arranged peripheral microtubule doublets surrounding two central singlets form the core eukaryotic locomotory axoneme.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Cilia, Flagella, and Centrosome Microtubular Architecture', in plain ASCII form.",
+     "a": "total_microtubules = (peripheral_doublets * 2) + central_singlets",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.108.10",
+   "title": "Nuclear Structure and Chromosome Morphologies",
+   "questions": [
+    {
+     "q": "Calculate the average length of DNA per chromosome given total DNA length and total chromosome number. Use the method 'Nuclear Structure and Chromosome Morphologies'. Work with: total_chromosomes = 15, total_dna_length = 150. Carry the chain through step by step and give the final value of avg_length_per_chromosome.",
+     "a": "10 units",
+     "self_check": false
+    },
+    {
+     "q": "Find how much DNA length is present per chromosome in a human cell with 2 meters of DNA and 46 chromosomes. Use the method 'Nuclear Structure and Chromosome Morphologies'. Work with: total_chromosomes = 200, total_dna_length = 18. Carry the chain through step by step and give the final value of avg_length_per_chromosome.",
+     "a": "0.09 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Nuclear Structure and Chromosome Morphologies' refers to.",
+     "a": "A double-membrane bound nuclear envelope containing nucleoplasm, nucleoli, and chromatin, which condenses into distinct chromosomes categorized by centromere location.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Nuclear Structure and Chromosome Morphologies'.",
+     "a": "Nuclear DNA packages into chromatin and distinct chromosomes classified into metacentric, sub-metacentric, acrocentric, or telocentric using centromere position.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Nuclear Structure and Chromosome Morphologies', in plain ASCII form.",
+     "a": "avg_length_per_chromosome = total_dna_length / total_chromosomes",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

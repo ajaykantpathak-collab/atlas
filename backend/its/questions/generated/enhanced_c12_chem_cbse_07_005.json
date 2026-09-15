@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_07_005",
+   "title": "c12_chem_cbse_07_005",
+   "questions": [
+    {
+     "q": "State the primary reason why ethanol (C₂H₅OH) has a higher boiling point than propane (C₃H₈) despite having nearly the same molecular mass (46 vs 44 g/mol).",
+     "a": "Ethanol has an –OH group enabling intermolecular hydrogen bonding, a strong dipole-dipole interaction, while propane is nonpolar and only experiences weak London dispersion forces. Hydrogen bonding requires significantly more energy to overcome, raising the boiling point. A wrong answer (e.g., \"ethanol has higher molecular mass\") reveals the student ignores intermolecular forces and focuses only on molar mass, a common Class 11 carryover error.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the boiling point of butan-1-ol (CH₃CH₂CH₂CH₂OH) is higher than that of 2-methylpropan-2-ol (tert-butanol, (CH₃)₃COH), even though both have the same molecular formula C₄H₁₀O.",
+     "a": "Butan-1-ol is a straight-chain alcohol with larger surface area, leading to stronger van der Waals forces in addition to hydrogen bonding. Tert-butanol is highly branched (spherical), reducing surface area and weakening van der Waals forces. Both have similar H-bonding capacity (one –OH), so the difference arises from London forces. A wrong answer (e.g., \"tert-butanol has more H-bonds\") shows confusion about H-bonding sites — each molecule has only one –OH regardless of branching.",
+     "self_check": true
+    },
+    {
+     "q": "Arrange the following in increasing order of boiling point: pentan-1-ol, n-butane, pentanal, ethoxyethane. Justify your ordering using intermolecular forces.",
+     "a": "n-Butane (only London forces) < ethoxyethane (dipole-dipole, no H-bond donor) < pentanal (dipole-dipole, no H-bond donor but larger dipole) < pentan-1-ol (intermolecular H-bonding). Pentan-1-ol has the highest bp due to H-bonding; ethoxyethane and pentanal have comparable masses but ethers have weaker polarity than aldehydes. A wrong ordering (e.g., placing pentanal above pentan-1-ol) indicates the student underestimates H-bonding strength relative to dipole-dipole interactions.",
+     "self_check": true
+    },
+    {
+     "q": "Phenol (C₆H₅OH) has a boiling point of 455 K, while toluene (C₆H₅CH₃) boils at 384 K. Both have similar molecular masses (94 vs 92 g/mol). Analyze this difference in terms of molecular structure and intermolecular forces.",
+     "a": "Phenol has an –OH group directly attached to the sp² hybridised aromatic ring, allowing intermolecular hydrogen bonding and a net dipole moment. Toluene has a –CH₃ group, is nonpolar, and only experiences London forces. Despite similar mass, H-bonding in phenol dominates, giving a much higher boiling point. A wrong answer citing \"phenyl group polarity\" shows misunderstanding — the phenyl ring itself is nonpolar; the –OH group creates the polarity and H-bonding.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"All alcohols are miscible with water in all proportions because they have an –OH group.\" Evaluate this statement and correct it with a specific counterexample.",
+     "a": "The statement is false. Only lower molecular mass alcohols (methanol, ethanol, propan-1-ol) are miscible in all proportions. As the alkyl chain lengthens (e.g., butan-1-ol, pentan-1-ol), the hydrophobic hydrocarbon portion dominates, reducing solubility. For example, butan-1-ol solubility is ~9 g/100 mL water, while hexan-1-ol is barely soluble (~0.6 g/100 mL). The student overlooks the increasing hydrophobic effect of the alkyl chain — a classic \"functional group fixation\" error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory experiment to demonstrate that branching in alcohols lowers boiling point, using only common lab chemicals (butan-1-ol, 2-methylpropan-2-ol, thermometer, heat source). Outline the procedure, expected observations, and the conclusion linking structure to property.",
+     "a": "Procedure: Place 5 mL of butan-1-ol in a test tube with a thermometer, heat gently in a water bath, record boiling point. Repeat with 2-methylpropan-2-ol. Observation: Butan-1-ol boils at ~390 K, tert-butanol at ~356 K. Conclusion: Both have same formula (C₄H₁₀O) and one –OH group, so H-bonding is similar. The lower bp of tert-butanol is due to its compact, branched structure reducing surface area and weakening London dispersion forces. A poor design (e.g., open flame heating) reveals safety ignorance; a vague conclusion (\"branching changes bp\") shows lack of mechanistic reasoning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

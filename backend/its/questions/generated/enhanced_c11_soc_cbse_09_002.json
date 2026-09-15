@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_09_002",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_09_002",
+   "title": "c11_soc_cbse_09_002",
+   "questions": [
+    {
+     "q": "Identify the three distinct intellectual traditions that Marx synthesized, and name one key figure from each tradition who directly influenced him.",
+     "a": "The three traditions are: (1) German classical philosophy — G.W.F. Hegel (dialectical method) and Ludwig Feuerbach (materialist inversion of Hegel); (2) French revolutionary socialism — Henri de Saint-Simon, Charles Fourier, or Pierre-Joseph Proudhon (critique of private property, vision of association); (3) British classical political economy — Adam Smith and David Ricardo (labour theory of value, analysis of capital accumulation). A wrong answer that lists only \"Hegel and Engels\" reveals the student conflates Marx's collaborator with his intellectual sources, missing the crucial French and British inputs that gave Marx's materialism its empirical and revolutionary edge.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Marx's move from Berlin to Paris in 1843 was a theoretical turning point, not merely a geographical relocation.",
+     "a": "In Berlin, Marx operated within the Young Hegelian circle, critiquing religion and the Prussian state at an abstract philosophical level. Paris forced a confrontation with living socialist movements (Blanquists, Fourierists, Proudhon), actual industrial workers, and French political economy—transforming his critique from \"critique of heaven\" (religion/ideology) to \"critique of earth\" (material conditions, labour, property). A wrong answer focusing only on \"meeting Engels\" or \"escaping censorship\" misses the epistemological shift: Paris supplied the empirical subject (the proletariat) that German philosophy lacked, making historical materialism possible.",
+     "self_check": true
+    },
+    {
+     "q": "Marx's doctoral thesis (1841) analysed the difference between Democritean and Epicurean philosophy of nature. How does this early work foreshadow his later materialist method, and why is it misleading to call him a \"philosopher\" in the conventional academic sense?",
+     "a": "The thesis defends Epicurus's \"clinamen\" (atomic swerve) as a principle of self-determination against deterministic necessity—anticipating Marx's later insistence on human agency within material constraints. However, by 1845 (Theses on Feuerbach), Marx explicitly rejects philosophy as a separate sphere: \"Philosophers have only interpreted the world; the point is to change it.\" He abandons academic philosophy for revolutionary praxis. A wrong answer that treats the thesis as \"early Marxism\" or labels Marx a \"materialist philosopher\" fails to grasp the rupture: Marx dissolves philosophy into social science and political action, refusing the contemplative stance the thesis still occupies.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the intellectual formation of Marx and Durkheim (c11_soc_cbse_09_005) on three dimensions: (a) disciplinary training, (b) relationship to the state/university, (c) primary intellectual problem each sought to solve.",
+     "a": "(a) Marx: law, philosophy, self-taught political economy; Durkheim: philosophy, then sociology via empirical method. (b) Marx: exiled, stateless, outside academia; Durkheim: institutionalised, first sociology professor at Sorbonne, state-sponsored. (c) Marx: how to overthrow capitalism and end exploitation (emancipation); Durkheim: how modern society maintains cohesion despite division of labour (solidarity). A wrong answer that says \"both studied society\" or \"both were German\" misses the structural opposition: Marx's thought is forged in opposition to the state; Durkheim's is forged to serve the republican state's need for scientific social knowledge.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Communist Manifesto (1848) is best understood as a political pamphlet, not a sociological text, and therefore belongs to history, not sociology.\"",
+     "a": "The claim is partially true but sociologically reductive. The Manifesto *is* a party programme—urgent, polemical, predictive—but it also condenses the core sociological categories Marx will elaborate for decades: class as relation to means of production, history as class struggle, base/superstructure, world market, proletariat as universal class. Sociology studies it not for its predictions (many failed) but for its conceptual architecture that still frames class analysis. A wrong answer that agrees wholly (\"it's propaganda\") or disagrees wholly (\"it's pure science\") fails the disciplinary test: sociology examines how theory and politics intertwine in the *formation* of concepts, not just their final polished form.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a \"genealogy map\" of Marx's *Capital* (1867) showing how each of the three intellectual streams (German, French, British) contributes a specific analytical tool that appears in Volume I. Represent this as a diagram or structured list.",
+     "a": "Expected structure:\n- German dialectic (Hegel/Feuerbach) → dialectical method: contradiction, negation of the negation, commodity fetishism as inverted subject-object relation.\n- French socialism (Saint-Simon/Fourier/Proudhon) → critique of private property, concept of \"association of free producers,\" analysis of exploitation as appropriation of surplus labour.\n- British political economy (Smith/Ricardo) → labour theory of value, categories of constant/variable capital, surplus value, accumulation, reproduction schemas.\nA poor answer lists influences without specifying the *analytical tool* each contributes (e.g., \"Hegel gave dialectics\" without naming fetishism; \"Ricardo gave value theory\" without distinguishing labour-power from labour). This reveals the student sees influences as vague \"ideas\" rather than operative concepts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

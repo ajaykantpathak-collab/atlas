@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_03_007",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_03_007",
+   "title": "c11_phy_cbse_03_007",
+   "questions": [
+    {
+     "q": "State the formula for the scalar product of two vectors **A** = Aₓî + Aᵧĵ + A_zk̂ and **B** = Bₓî + Bᵧĵ + B_zk̂ in terms of their components. What is the SI unit of the dot product if **A** is force (N) and **B** is displacement (m)?",
+     "a": "**A·B = AₓBₓ + AᵧBᵧ + A_zB_z**. The SI unit is N·m = joule (J). A wrong answer (e.g., giving the cross product formula or forgetting the z-component) reveals the student confuses dot and cross products or treats vectors as purely 2D. Missing the unit indicates they don't track dimensional consistency.",
+     "self_check": true
+    },
+    {
+     "q": "Two vectors **A** and **B** have magnitudes 5 units and 8 units respectively. Their dot product is 20. Find the angle between them. Explain why the dot product is maximum when the angle is 0° and zero when the angle is 90°.",
+     "a": "cosθ = (A·B)/(|A||B|) = 20/(5×8) = 0.5 → θ = 60°. At 0°, cosθ = 1, so **A·B = |A||B|** (maximum projection). At 90°, cosθ = 0, so **A·B = 0** (no projection; vectors are perpendicular). A wrong answer (e.g., using sinθ or getting θ = 30°) shows the student misremembers the definition or misapplies inverse cosine. Not explaining the physical meaning of projection indicates rote memorization.",
+     "self_check": true
+    },
+    {
+     "q": "A force **F** = (3î + 4ĵ) N acts on a particle that undergoes a displacement **s** = (2î − 5ĵ) m. Calculate the work done by the force. Is the work positive or negative? What does the sign tell you about the angle between **F** and **s**?",
+     "a": "Work W = **F·s** = (3)(2) + (4)(−5) = 6 − 20 = −14 J. Negative work means the angle between **F** and **s** is > 90° (obtuse); the force has a component opposite to displacement. A wrong answer (e.g., 26 J by adding magnitudes, or forgetting the minus sign) reveals the student either uses |F||s|cosθ without finding θ, or mishandles negative components. Not interpreting the sign shows lack of physical understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Vector **A** = 2î + 3ĵ and vector **B** = 4î − 6ĵ. Without calculating the exact angle, determine whether the angle between them is acute, obtuse, or right. Justify using the dot product.",
+     "a": "**A·B** = (2)(4) + (3)(−6) = 8 − 18 = −10. Since the dot product is negative, cosθ < 0, so θ is obtuse (between 90° and 180°). A wrong answer (e.g., saying acute because magnitudes are positive) shows the student doesn't connect the sign of the dot product to the angle's quadrant. This is a key analytical skill: using the sign to classify the angle without computation.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If **A·B** = **A·C** and **A** ≠ 0, then **B** must equal **C**.\" Evaluate this statement. Is it true or false? Provide a counterexample or proof.",
+     "a": "False. **A·B = A·C** implies **A·(B−C) = 0**, meaning **A** is perpendicular to **(B−C)**. This does **not** force **B = C**; it only forces the difference **B−C** to be orthogonal to **A**. Counterexample: **A** = î, **B** = ĵ, **C** = 2ĵ. Then **A·B = 0**, **A·C = 0**, but **B ≠ C**. A student who says \"true\" is incorrectly canceling **A** like a scalar, ignoring that dot product is not invertible.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a spring balance, a wooden block, and a protractor to verify that the work done by a constant force is given by the dot product **W = F s cosθ**. Describe the measurements you would take and how you would compute the work for θ = 30°, 60°, and 90°.",
+     "a": "Pull the block horizontally with the spring balance at a fixed angle θ to the horizontal. Measure the force F (spring reading) and the horizontal displacement s (using a meter scale). Compute work as W = F s cosθ. For θ = 90° (pulling vertically), the block doesn't move horizontally (if frictionless) or the horizontal displacement is zero → W = 0, matching cos90° = 0. For θ = 30° and 60°, compare measured W with F s cosθ. A poor answer would omit measuring the angle, confuse vertical/horizontal displacement, or suggest measuring work via kinetic energy change without isolating the force's component.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch04_008",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch04_008",
+   "title": "c7_math_ch04_008",
+   "questions": [
+    {
+     "q": "What term in algebra is used to describe finding a general rule for a sequence of numbers using a letter like $n$?",
+     "a": "The correct answer is generalisation or algebraic generalisation. A wrong answer like \"multiplication\" or \"substitution\" shows that the student confuses the overall process of finding a rule with just one arithmetic operation used during the calculation.",
+     "self_check": true
+    },
+    {
+     "q": "A student looks at the pattern 4, 7, 10, 13 and says the rule is just $3n$ because it increases by 3 each time. Why is this explanation incomplete for finding the 4th term?",
+     "a": "The correct answer is that $3n$ gives 3, 6, 9, 12 for $n = 1, 2, 3, 4$, which misses every term by exactly 1; the complete rule must be $3n + 1$. A wrong answer claiming $3n$ is completely correct reveals that the student forgot to test their rule against the initial term in the sequence.",
+     "self_check": true
+    },
+    {
+     "q": "In a pattern of matchstick squares, 1 square uses 4 sticks, 2 attached squares use 7 sticks, and 3 squares use 10 sticks. Use the general rule $3n + 1$ to calculate the exact number of matchsticks needed for 25 connected squares.",
+     "a": "The correct answer is 76 matchsticks. Working steps: \n1. Identify the general rule given: $3n + 1$.\n2. Identify the given position number: $n = 25$.\n3. Substitute the value of $n$ into the algebraic expression: $3(25) + 1$.\n4. Multiply: $3 \\times 25 = 75$.\n5. Add the remaining constant: $75 + 1 = 76$. \nA wrong answer of 75 indicates the student forgot to add the starting baseline stick (+1) to the sequence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two patterns: Pattern A is 5, 8, 11, 14 and Pattern B is 2, 5, 8, 11. How do their algebraic generalisations differ?",
+     "a": "The correct answer is that both share the same common difference of 3 (giving $3n$), but Pattern A starts higher and has the rule $3n + 2$, whereas Pattern B has the rule $3n - 1$. A wrong answer stating they have completely different algebraic structures shows the student does not recognize that parallel growth rates produce expressions with identical coefficients.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul wrote the algebraic rule $5n - 2$ for a sequence. When $n = 3$, he calculated the term value as $5(3) - 2 = 13$. When $n = 4$, he calculated $5(4) - 2 = 18$. Is Rahul's sequence generation consistent, and what is the common difference?",
+     "a": "The correct answer is yes, it is consistent, and the common difference is 5. Working justification: The difference between the 4th term (18) and the 3rd term (13) is 5, which matches the coefficient of $n$ in the expression. A wrong answer stating the difference is 3 or 2 reveals that the student looked at constants or operations rather than the multiplier attached to the variable.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own number sequence where the 4th term is 19 and the common difference between consecutive terms is 4. Write down the first four terms and the algebraic generalisation rule for your sequence.",
+     "a": "The expected answer should provide a sequence starting with 7, 11, 15, 19, with the algebraic rule $4n + 3$. A poor answer that lists random numbers without a constant difference of 4 shows a failure to grasp how linear sequences maintain a uniform growth rate linked to the coefficient of $n$.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

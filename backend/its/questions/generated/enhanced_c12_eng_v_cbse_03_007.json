@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_v_cbse_03_007",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_v_cbse_03_007",
+   "title": "c12_eng_v_cbse_03_007",
+   "questions": [
+    {
+     "q": "What is a secondary theme in literature, and how does it differ from the primary theme?",
+     "a": "A secondary theme is a supporting idea that runs parallel to the primary theme, adding depth, nuance, or a different perspective without overtaking the central message. The primary theme is the \"main argument\" (here: Antarctica as a window to Earth's climate trajectory); secondary themes are the \"supporting arguments\" (e.g., youth engagement, geological time scale). A wrong answer (e.g., \"secondary theme means less important\") reveals the student confuses *hierarchy* with *function* — secondary themes are structurally essential, not optional decorations.",
+     "self_check": true
+    },
+    {
+     "q": "In the chapter, Doshi writes: \"Take care of the small things and the big things will fall into place.\" Which secondary theme does this metaphor of phytoplankton represent, and why is it placed near the end of the chapter?",
+     "a": "This represents the secondary theme of **ecological interconnectedness / micro-macro causality**. It is placed near the end as a synthesizing metaphor: after showing the vast geological history (macro) and human disruption (macro), Doshi zooms to the microscopic phytoplankton to prove that planetary-scale outcomes depend on microscopic processes. A wrong answer (e.g., \"it's just about saving plankton\") misses the *structural role* — the metaphor bridges the scientific evidence (ice cores) to the moral imperative (act now) by showing the mechanism of collapse.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"geological time vs. human time\" to explain why Doshi calls human civilisation \"a paltry 12,000 years — barely a few seconds on the geological clock.\"",
+     "a": "Step 1: Identify the two time scales — geological (millions of years, Gondwana, Himalayas forming) and human (12,000 years since agriculture/cities). Step 2: Note the comparison device — \"geological clock\" metaphor compresses 4.5 billion years into 24 hours. Step 3: Calculate roughly: 12,000 / 4,500,000,000 ≈ 0.00027% → indeed seconds. Step 4: Explain the *rhetorical purpose* — to shock the reader into realizing our \"dominance\" is a blink, yet our *impact* is outsized. A wrong answer that only defines the time scales without explaining the *contrast's persuasive function* shows inability to analyze authorial intent.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the secondary theme of \"youth as agents of change\" (Students on Ice) with the secondary theme of \"geological history as teacher.\" How do they work together to create urgency?",
+     "a": "\"Geological history as teacher\" provides the *evidence* (ice cores show CO2-temperature link, past extinctions) — the \"what we know.\" \"Youth as agents of change\" provides the *agency* (Geoff Green's programme targets future policymakers at an age to \"absorb, learn, and act\") — the \"what we must do.\" Together they close the knowing-doing gap: the past teaches the stakes; the youth embody the response. A wrong answer that treats them as separate topics misses the *dialectic* — the text explicitly links them: \"impossible to go near the South Pole and not be affected... when you visibly see glaciers retreating... you realise the threat is real.\" The experience (youth) validates the data (geology).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the \"walk on the ocean\" episode (65.55° S) as a narrative device to convey the secondary theme of **interconnectedness**. Is it more powerful than the scientific data (ice cores, phytoplankton)? Justify.",
+     "a": "The walk is *more effective for emotional resonance* but *less effective for evidentiary rigor* — and the text needs both. Effectiveness criteria: (1) **Visceral immediacy** — \"metre-thick ice pack, underneath 180m living salt water\" makes abstract connectivity physical. (2) **Symbolic compression** — seals \"like stray dogs under banyan tree\" collapses Antarctic/Indian familiarities, enforcing \"everything connects.\" (3) **Narrative climax** — placed after data-heavy sections, it converts knowledge into epiphany. However, without the ice-core data earlier, the walk would be mere tourism. A wrong answer that picks one over the other fails to see Doshi's *dual strategy*: science convinces the intellect; experience convinces the heart. The board exam rewards this \"both/and\" evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-line stanza or a 3-sentence micro-paragraph that captures the secondary theme of \"balance and beauty in a fragile world\" using imagery from the chapter (ice, light, silence, seals, phytoplankton).",
+     "a": "**Criteria for a good answer:** (1) Uses at least two concrete images from the text (e.g., \"24-hour austral light,\" \"calving ice sheet,\" \"Crabeater seals,\" \"phytoplankton\"). (2) Conveys *fragility* (e.g., \"metre-thin ice,\" \"depletion,\" \"silence interrupted\"). (3) Conveys *balance* (e.g., \"food chain sustained,\" \"beauty of balance\"). (4) Shows the *human stake* implicitly. **Example micro-paragraph:** \"Under a sun that never sets, we walk on a metre of ice floating over 180 metres of breathing ocean; seals lounge like dogs, unaware the phytoplankton beneath them hold the carbon ledger. One ozone hole, one degree warmer — the ledger tips, the silence breaks, the balance we witnessed vanishes.\" A poor answer uses generic nature imagery (\"snow is white, seals are cute\") without textual anchoring or the tension between beauty and fragility.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

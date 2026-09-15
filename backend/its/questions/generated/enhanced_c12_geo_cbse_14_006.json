@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_14_006",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_14_006",
+   "title": "c12_geo_cbse_14_006",
+   "questions": [
+    {
+     "q": "Name the two most important locational factors for aluminium smelting in India and state which one is decisive.",
+     "a": "Correct answer: Bauxite availability and cheap electricity; cheap electricity is decisive because electrolysis requires ~15,000 kWh/tonne, making power cost 30-40% of production cost. A wrong answer that prioritises bauxite proximity reveals the student hasn't grasped the weight-losing nature of alumina-to-aluminium (only 2 tonnes bauxite → 1 tonne alumina → 0.5 tonne Al) and the overwhelming energy intensity.",
+     "self_check": true
+    },
+    {
+     "q": "Why do cement plants in India cluster along the Vindhyan and Cuddapah limestone belts rather than near coal fields or markets?",
+     "a": "Correct answer: Cement is a weight-losing industry (1.5 tonnes limestone → 1 tonne clinker) so transport cost of the heaviest raw material (limestone) dominates; limestone is geographically restricted to sedimentary basins, whereas coal can be transported and markets are widespread. A wrong answer citing coal or market proximity shows confusion with iron & steel industry (which uses coking coal) or consumer goods industries.",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of India, mark and label: (a) Koraput, (b) Ratnagiri, (c) Muri, (d) Alupuram. For each, write the primary reason for its aluminium smelter location.",
+     "a": "Correct answer: (a) Koraput (Odisha) – Hirakud hydroelectric power + bauxite in Kalahandi; (b) Ratnagiri (Maharashtra) – imported alumina + thermal power; (c) Muri (Jharkhand) – Subarnarekha hydro power + nearby bauxite; (d) Alupuram (Kerala) – hydroelectric power from Periyar. Steps: 1) Recall major aluminium centres from NCERT table. 2) Associate each with power source (hydro/thermal). 3) Note bauxite proximity where applicable. A wrong mapping or reason indicates rote memorisation without understanding the power–raw material trade-off.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the locational logic of the cement industry in Gujarat (e.g., Porbandar, Jamnagar) with that in Rajasthan (e.g., Chittorgarh, Beawar). Identify one common factor and one differing factor.",
+     "a": "Correct answer: Common – both sit on extensive limestone deposits (Gujarat: Saurashtra coast; Rajasthan: Vindhyan range). Differing – Gujarat plants use coastal slag/gypsum and export via ports; Rajasthan plants rely on inland rail transport and local gypsum from Bikaner. A wrong answer that says \"both use imported coal\" misses that Rajasthan uses local lignite/coal from nearby fields, while Gujarat imports coal at ports.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the sustainability of locating a new aluminium smelter in a bauxite-rich but power-deficit region of Chhattisgarh versus importing alumina to a coastal site with dedicated thermal power. Consider economic, environmental, and strategic dimensions.",
+     "a": "Correct answer: Coastal import-based smelter is more sustainable economically (assured power, export logistics) but strategically risky (import dependence). Inland smelter supports regional development but requires massive power investment (thermal → emissions, hydro → displacement). Environmentally, coastal site avoids forest clearance for power lines but may cause marine pollution. A one-sided answer ignoring strategic or environmental aspects shows lack of holistic geographical evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a locational decision matrix for a new cement plant in Madhya Pradesh. Choose four criteria, assign weights, and score two hypothetical sites: Site A (limestone mine adjacent, 50 km from railhead, coal 200 km away) and Site B (limestone 30 km away, on railway line, coal 100 km away). Justify your weights.",
+     "a": "Expected answer: Criteria & weights – Limestone proximity 40%, Rail connectivity 25%, Coal access 20%, Water/land 15%. Site A scores high on limestone (9/10) but low on rail (4/10) and coal (5/10) → weighted 6.65. Site B scores moderate on limestone (7/10), high on rail (9/10), coal (7/10) → weighted 7.6. Site B wins. A poor answer uses equal weights or ignores that limestone transport cost dominates (highest weight).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

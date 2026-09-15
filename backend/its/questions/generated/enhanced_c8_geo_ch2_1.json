@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_geo_ch2_1",
+ "concepts": [
+  {
+   "id": "enh:c8_geo_ch2_1",
+   "title": "c8_geo_ch2_1",
+   "questions": [
+    {
+     "q": "What specific geometric term best describes the actual shape of the Earth, and which region has a larger diameter?",
+     "a": "The correct term is an oblate spheroid (or geoid), and the Earth has a larger diameter across the Equator (~12,756 km) than across the Poles (~12,714 km). If a student answers \"a perfect sphere,\" it reveals that they rely on visual oversimplifications from standard school globes and do not recognize the physical impacts of Earth's rotation.",
+     "self_check": true
+    },
+    {
+     "q": "Why does Earth bulge around the Equator rather than around the North and South Poles?",
+     "a": "Earth bulges at the Equator because the equatorial region is furthest from the axis of rotation, moving at the highest speed (~1,670 km/h) and generating maximum outward centrifugal force. A wrong answer claiming \"gravity pulls Earth outward at the equator\" reveals a fundamental confusion between inward gravitational pull and outward rotational force.",
+     "self_check": true
+    },
+    {
+     "q": "If Earth's equatorial radius is 6,378 km and its polar radius is 6,357 km, calculate the total difference in diameter between the Equator and the Poles. Show your steps.",
+     "a": "1. Equatorial diameter = $2 \\times 6,378\\text{ km} = 12,756\\text{ km}$.\n2. Polar diameter = $2 \\times 6,357\\text{ km} = 12,714\\text{ km}$.\n3. Difference = $12,756\\text{ km} - 12,714\\text{ km} = 42\\text{ km}$.\nA wrong answer of 21 km reveals that the student confused radius with diameter, failing to multiply the radii by 2 before subtracting.",
+     "self_check": true
+    },
+    {
+     "q": "An expedition team measures their weight using a precision spring balance at Indira Point (near the Equator) and again at the North Pole. Assuming their mass remains constant, where will they weigh slightly more and why?",
+     "a": "They will weigh slightly more at the North Pole because the polar surface is closer (~21 km closer) to Earth's center of mass than the Equatorial surface, increasing gravitational attraction, and there is zero centrifugal force pushing outward at the pole. A wrong answer choosing the Equator shows the student incorrectly assumes a larger distance from the center increases surface gravity.",
+     "self_check": true
+    },
+    {
+     "q": "A student states: \"Because Earth is flattened at the poles by only 42 km, modern mapmakers can easily flatten Earth onto a sheet of paper without distorting country shapes or sizes.\" Evaluate this statement.",
+     "a": "The statement is incorrect. Although 42 km is small relative to Earth's size, any curved 3D surface—whether a perfect sphere or an oblate spheroid—cannot be flattened onto a 2D plane without stretching, shrinking, or tearing surface features. A wrong answer agreeing with the student shows a misunderstanding of spatial projection limitations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple hands-on classroom experiment using flexible plastic strips, a wooden skewer, and tape to demonstrate how Earth's rotation transforms a sphere into an oblate spheroid.",
+     "a": "A successful design involves joining strips of flexible paper/plastic into a circular loop, attaching the top to a fixed point on a central wooden skewer, leaving the bottom loop free to slide up or down the skewer, and spinning the skewer rapidly between hands; as it spins, outward force pushes the middle bulge outwards, pulling the top down and flattening the shape. A poor answer that just spins a rigid ball fails to model deformation caused by rotational force.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

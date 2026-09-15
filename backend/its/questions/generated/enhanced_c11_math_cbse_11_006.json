@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_11_006",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_11_006",
+   "title": "c11_math_cbse_11_006",
+   "questions": [
+    {
+     "q": "State the geometric definition of an ellipse and write the standard equation of an ellipse with centre at the origin, major axis along the x-axis, and semi-major axis length \\(a\\), semi-minor axis length \\(b\\).",
+     "a": "An ellipse is the set of all points in a plane such that the sum of their distances from two fixed points (foci) is a constant greater than the distance between the foci. The standard equation is \\(\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1\\) with \\(a > b > 0\\). A wrong answer (e.g., giving the circle definition \\(x^2 + y^2 = r^2\\) or writing \\(\\frac{x^2}{b^2} + \\frac{y^2}{a^2} = 1\\) for horizontal major axis) reveals the student confuses the ellipse definition with a circle or does not understand which denominator corresponds to the major axis.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the constant sum of distances in the ellipse definition must be strictly greater than the distance between the two foci. What happens if the constant sum equals the distance between the foci?",
+     "a": "If the constant sum equals the distance between the foci (\\(2a = 2c \\Rightarrow a = c\\)), then \\(b^2 = a^2 - c^2 = 0\\), so the ellipse collapses to the line segment joining the foci — not a closed curve. If the sum is less than the distance between foci, no point satisfies the condition (triangle inequality). A wrong answer (e.g., \"it becomes a circle\" or \"it's still an ellipse\") shows the student has not connected the algebraic condition \\(a > c\\) (or \\(b^2 > 0\\)) to the geometric definition.",
+     "self_check": true
+    },
+    {
+     "q": "Find the centre, vertices, co-vertices, foci, and lengths of major and minor axes of the ellipse given by \\(4x^2 + 9y^2 = 36\\). Sketch the ellipse labelling all these features.",
+     "a": "**Step 1:** Rewrite in standard form: divide by 36 → \\(\\frac{x^2}{9} + \\frac{y^2}{4} = 1\\).  \n**Step 2:** Identify \\(a^2 = 9\\), \\(b^2 = 4\\) → \\(a = 3\\), \\(b = 2\\). Since \\(a^2\\) is under \\(x^2\\), major axis is horizontal.  \n**Step 3:** Centre = \\((0,0)\\). Vertices = \\((\\pm a, 0) = (\\pm 3, 0)\\). Co-vertices = \\((0, \\pm b) = (0, \\pm 2)\\).  \n**Step 4:** \\(c^2 = a^2 - b^2 = 9 - 4 = 5\\) → \\(c = \\sqrt{5}\\). Foci = \\((\\pm \\sqrt{5}, 0)\\).  \n**Step 5:** Major axis length = \\(2a = 6\\), minor axis length = \\(2b = 4\\).  \n**Sketch:** Draw axes, mark vertices at \\((\\pm3,0)\\), co-vertices at \\((0,\\pm2)\\), foci at \\((\\pm\\sqrt{5},0) \\approx (\\pm2.24,0)\\), draw smooth oval.  \nA wrong answer (e.g., vertices at \\((0,\\pm3)\\) or \\(c^2 = a^2 + b^2 = 13\\)) reveals confusion about which denominator is \\(a^2\\) or mixing up the ellipse/hyperbola relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the equations \\(\\frac{x^2}{16} + \\frac{y^2}{25} = 1\\) and \\(\\frac{x^2}{25} + \\frac{y^2}{16} = 1\\). How are their graphs related? Without plotting, determine which ellipse has its foci on the x-axis and which on the y-axis.",
+     "a": "Both ellipses have the same semi-axis lengths (\\(a=5, b=4\\)) but swapped denominators. The first has \\(a^2=25\\) under \\(y^2\\) → major axis vertical, foci on y-axis at \\((0,\\pm3)\\). The second has \\(a^2=25\\) under \\(x^2\\) → major axis horizontal, foci on x-axis at \\((\\pm3,0)\\). They are reflections of each other across the line \\(y=x\\). A wrong answer (e.g., \"both have foci on x-axis\" or \"first has foci on x-axis\") shows the student does not recognise that the larger denominator determines the major axis direction.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the standard equation of an ellipse with vertices \\((\\pm 5, 0)\\) and foci \\((\\pm 4, 0)\\) as \\(\\frac{x^2}{16} + \\frac{y^2}{25} = 1\\). Is this correct? If not, identify the error and give the correct equation.",
+     "a": "**Incorrect.** The student swapped \\(a^2\\) and \\(b^2\\). Vertices \\((\\pm5,0)\\) mean \\(a=5\\) → \\(a^2=25\\). Foci \\((\\pm4,0)\\) mean \\(c=4\\) → \\(c^2=16\\). Then \\(b^2 = a^2 - c^2 = 25 - 16 = 9\\). Since major axis is horizontal, the correct equation is \\(\\frac{x^2}{25} + \\frac{y^2}{9} = 1\\). The student's equation has \\(a^2=16\\) (under \\(y^2\\)) which would give vertices \\((0,\\pm4)\\) and foci \\((0,\\pm\\sqrt{7})\\) — a completely different ellipse. This error reveals the student memorises the formula without understanding which parameter corresponds to which geometric feature.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world problem (with numerical values) that requires finding the standard equation of an ellipse given its geometric description. The problem must involve an Indian context (e.g., a whispering gallery in a historical monument, a planetary orbit, or a sports stadium design).",
+     "a": "**Example problem:** \"The Gol Gumbaz in Vijayapura has a whispering gallery shaped as an ellipse. The two foci are 10 metres apart. A person standing at one focus whispers, and the sound reflects off the curved wall to be heard clearly at the other focus. If the total path length of the sound from one focus to the wall and to the other focus is 26 metres, find the standard equation of the ellipse (assume centre at origin, major axis horizontal).\"  \n**Solution:** Distance between foci = \\(2c = 10\\) → \\(c = 5\\). Constant sum = \\(2a = 26\\) → \\(a = 13\\). Then \\(b^2 = a^2 - c^2 = 169 - 25 = 144\\). Equation: \\(\\frac{x^2}{169} + \\frac{y^2}{144} = 1\\).  \nA poor answer (e.g., using \\(a=10, c=26\\) or giving a circle equation) reveals the student cannot translate the verbal description into the parameters \\(a, b, c\\) and their geometric meanings.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+  "class": 11,
+  "subject": "unknown",
+  "chapter": 105,
+  "chapter_title": "The Adventure",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kehb105.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kehb105.1.1",
+      "title": "Gangadharpant's Jolt into Another History",
+      "section": "1",
+      "definition": "Professor Gaitonde, a historian of five books, meets a bus collision in Pune and wakes in an India that never was: the East India Company defeated at Panipat, Maratha power intact, and Bombay a Maratha-ruled city. His scientific 'adventure' is Jayant Narlikar's device for asking what history is and how it might have differed.",
+      "formula": "",
+      "key_idea": "One collision, two histories -- the professor crosses from what happened into what might have been.",
+      "textbook_ref": "kehb105.txt opening sections (gaitonde historian, bus collision, alternative history india, panipat outcome reversed)",
+      "question_patterns": [
+        "how does gangadharpant enter a different india in the adventure",
+        "in class 11 the adventure: what change in history does gaitonde find after his accident",
+        "why is gaitonde called a historian in the story",
+        "what was different about bombay in the parallel world",
+        "which battle's outcome changed in the alternative history",
+        "describe the professor's state of mind on entering the strange city"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "trigger the transition", "explain": "A collision with a bus flings the professor between worlds, landing him in a parallel India."},
+        {"step": 2, "action": "list the differences", "explain": "Panipat was lost by the Company, the Marathas rule, and English influence is checked -- history took another road."},
+        {"step": 3, "action": "note his response", "explain": "As a historian he resists wonder and hunts evidence -- library, books, records -- to test the impossible."}
+      ]
+    },
+    {
+      "id": "kehb105.1.2",
+      "title": "Evidence Hunting: Library, Books and the Maratha World",
+      "section": "1",
+      "definition": "In the Asiatic Society library Gaitonde finds his own five-volume history rewritten in six volumes, with the third recording a Maratha victory at Panipat and treaties that ended Company ambitions. Town names, currency and Rajavidyalaya's absence confirm a self-consistent world -- fiction built on real historical possibility.",
+      "formula": "",
+      "key_idea": "A consistent other-world proves the point: history had live alternatives, and Panipat was one hinge.",
+      "textbook_ref": "kehb105.txt library sections (asiatic society library, sixth volume, panipat victory of marathas, treaties, rajavidyalaya, evidence of parallel world)",
+      "question_patterns": [
+        "what did gaitonde discover in the asiatic society library",
+        "in class 11 the adventure: how did the third volume of history differ in the parallel world",
+        "which treaty ended company ambitions in the other india",
+        "why is the parallel world described as consistent",
+        "what proof convinced gaitonde he was in another history",
+        "explain the significance of the battle of panipat in the story"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "open the six volumes", "explain": "His familiar five-volume history exists with a different third volume -- the first hard evidence."},
+        {"step": 2, "action": "read the changed battle", "explain": "Marathas win Panipat; the Company is confined, treaties redirect trade, and India modernises without subjugation."},
+        {"step": 3, "action": "test the world", "explain": "Streets, institutions and accounts all corroborate, showing Narlikar's alternate history as coherent counterfactual, not fantasy."}
+      ]
+    },
+    {
+      "id": "kehb105.1.3",
+      "title": "The Science Behind the Adventure: Quantum Reality",
+      "section": "1",
+      "definition": "The story's turn to science comes through Rajendra Deshpande, who invokes quantum theory: reality at its base is probabilistic, so the same past can branch into different worlds. Cataclysmic events -- like the collision -- may flip awareness from one branch to another; the lacking world can even pop in and out of existence.",
+      "formula": "",
+      "key_idea": "Physics lends the mystery a ladder -- probability, branching worlds and missing matter explain the impossible journey.",
+      "textbook_ref": "kehb105.txt science sections (rajendra deshpande, quantum theory, catastrophe theory, lack of matter, world popping in and out, british readers tom barker mention)",
+      "question_patterns": [
+        "how does quantum theory explain gaitonde's experience",
+        "in class 11 the adventure: what role does rajendra deshpande play in the story",
+        "explain the idea of the world popping in and out of existence",
+        "what is the significance of the missing ball of matter",
+        "how does catastrophe theory apply to the professor's transition",
+        "why does narlikar use science in a historical fantasy"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "state the principle", "explain": "Rajendra reminds Gaitonde that quantum physics replaced certainty with probability -- many outcomes possible from one past."},
+        {"step": 2, "action": "apply to the collision", "explain": "The bus accident serves as the cataclysm that shifted the professor's consciousness into the branch where Panipat was won."},
+        {"step": 3, "action": "close the loop", "explain": "The unaccounted matter missing from experimental records even allows worlds to pop in and out -- fiction resting on real physics talk."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kehb105.txt library sections (third volume)",
+      "concept": "kehb105.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "What single document most convinces Gaitonde that he is in a parallel world, and why does it convince him?",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "name the document", "explain": "The third volume of his own history, containing a Maratha victory at Panipat he never wrote."},
+        {"step": 2, "action": "explain its force", "explain": "As author he knows his text; a materially different edition of his own book cannot be misremembered."},
+        {"step": 3, "action": "state the implication", "explain": "The book anchors the parallel world in his own scholarship, making the counterfactual vivid and believable."}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kehb105.txt science sections (quantum explanation)",
+      "concept": "kehb105.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "Rajendra says reality is probabilistic. Explain how this idea supports the story's central adventure.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "state the physics", "explain": "At the quantum level, events resolve from a spread of possibilities; certainty belongs only to measurement."},
+        {"step": 2, "action": "scale it up in the story", "explain": "Narlikar extends this to worlds: both Panipat-outcomes existed as possibilities, each realised in its own branch."},
+        {"step": 3, "action": "apply to Gaitonde", "explain": "His collision let his mind cross branches -- the adventure becomes a thought experiment on probability and history."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kehb105.txt end-of-chapter questions, reworded",
+      "questions": [
+        "How did Gangadharpant's experience begin and where did it land him?",
+        "What differences did he find in the parallel India at the library and in the town?",
+        "Explain Rajendra Deshpande's scientific explanation of the professor's transition.",
+        "Why does the author call the story 'The Adventure'? What kind of adventure is it?",
+        "What does the story suggest about the relation between history and chance?",
+        "Comment on the blend of history and science in the chapter."
+      ]
+    }
+  ]
+}

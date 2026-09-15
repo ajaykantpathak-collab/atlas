@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "english",
+  "chapter": 114,
+  "chapter_title": "Essay-writing",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kehb114.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kehb114.1.1",
+      "title": "Getting Started: Brainstorming and Idea Collection",
+      "section": "4",
+      "definition": "Beginning is the hardest part of essay-writing, so the chapter offers warm-up methods: brainstorming ideas in a group or alone on paper, asking questions about the topic, and collecting everything relevant before judging it. Quantity first, selection later.",
+      "formula": "",
+      "key_idea": "Draft nothing yet -- first flood the page with ideas, then choose among them.",
+      "textbook_ref": "kehb114.txt opening (difficulty of beginning, brainstorming, group ideas, putting down thoughts on paper)",
+      "question_patterns": [
+        "why is beginning an essay difficult",
+        "in class 11 essay writing: what is brainstorming and how does it help",
+        "describe ways of collecting ideas for an essay topic",
+        "how does group brainstorming differ from individual brainstorming",
+        "what should be done with the ideas collected for an essay",
+        "prepare an idea list for a given essay topic"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "generate freely",
+          "explain": "Set judgment aside and list every idea the topic suggests -- group or solo, fast and unfiltered."
+        },
+        {
+          "step": 2,
+          "action": "question the topic",
+          "explain": "Interrogate it: what, why, how, for whom -- each question shakes loose new material."
+        },
+        {
+          "step": 3,
+          "action": "select later",
+          "explain": "Only after the flood, sort the ideas into usable and unusable for the essay's purpose."
+        }
+      ]
+    },
+    {
+      "id": "kehb114.1.2",
+      "title": "Structure: Beginning, Middle and End",
+      "section": "4",
+      "definition": "A good essay is architecturally ordered: an introduction that catches interest and states the approach, a middle that develops the argument in orderly paragraphs each with one central idea, and a conclusion that gathers the threads and leaves a considered final impression.",
+      "formula": "",
+      "key_idea": "Introduction opens the door, body walks the rooms, conclusion locks up -- one idea per paragraph.",
+      "textbook_ref": "kehb114.txt structure sections (introduction, body paragraphs, one central idea per paragraph, conclusion, linking)",
+      "question_patterns": [
+        "describe the structure of a good essay",
+        "in class 11 essay writing: what should the introduction of an essay achieve",
+        "why should each paragraph carry only one central idea",
+        "what makes an effective conclusion to an essay",
+        "how are paragraphs linked in a well written essay",
+        "plan the structure of an essay on a given topic"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "plan the opening",
+          "explain": "Decide how to hook the reader and signal the essay's direction in the first paragraph."
+        },
+        {
+          "step": 2,
+          "action": "arrange the body",
+          "explain": "Order the main ideas logically, one to a paragraph, with links joining each to the next."
+        },
+        {
+          "step": 3,
+          "action": "close deliberately",
+          "explain": "End by pulling the strands together -- summary, implication or image -- without introducing new arguments."
+        }
+      ]
+    },
+    {
+      "id": "kehb114.1.3",
+      "title": "Characteristics of a Good Essay: Unity and Coherence",
+      "section": "4",
+      "definition": "The chapter lists the hallmarks of a good essay: unity, where every paragraph sticks to the main subject and is clearly linked to it; coherence, where sentences follow a logical sequence; and full development of each point, as shown in the model essay on hobbies.",
+      "formula": "",
+      "key_idea": "Unity keeps every paragraph on the subject; coherence keeps the sentences in step -- together they make an essay read as one piece.",
+      "textbook_ref": "kehb114.txt later sections (characteristics of a good essay: unity, coherence, development; model essay on hobbies)",
+      "question_patterns": [
+        "what are the characteristics of a good essay",
+        "in class 11 essay writing: explain unity and coherence with examples",
+        "why should every part of an essay be linked to the main subject",
+        "what is meant by logical sequence of thought in an essay",
+        "study the model essay on hobbies and point out its unity",
+        "how does coherence differ from unity in essay writing"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "test unity",
+          "explain": "Read each paragraph against the title; anything not clearly serving the main subject must go or be justified."
+        },
+        {
+          "step": 2,
+          "action": "test coherence",
+          "explain": "Check that sentences follow one another logically, with linking words showing the connections."
+        },
+        {
+          "step": 3,
+          "action": "test development",
+          "explain": "Confirm each announced idea is actually developed with examples or reasons, as the hobbies model essay does."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kehb114.txt opening (brainstorming)",
+      "concept": "kehb114.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "Carry out a brainstorm for the topic 'The Value of Outdoor Games' and list the usable ideas.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "flood the page",
+          "explain": "List freely: fitness, teamwork, discipline, fun, fees, time, safety, screens competing for children's hours."
+        },
+        {
+          "step": 2,
+          "action": "sort the list",
+          "explain": "Keep fitness, teamwork, discipline and the screens contrast; drop the weak or off-topic items."
+        },
+        {
+          "step": 3,
+          "action": "seed the essay",
+          "explain": "Each kept idea can head one body paragraph -- brainstorming has built the plan."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kehb114.txt structure guidance",
+      "concept": "kehb114.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "A student's essay on pollution ends with a brand-new argument about electric cars in the final line. What does the chapter advise instead?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "diagnose the fault",
+          "explain": "New arguments belong in the body, not the conclusion."
+        },
+        {
+          "step": 2,
+          "action": "apply the structure rule",
+          "explain": "The conclusion should gather what has been argued, not open a fresh front."
+        },
+        {
+          "step": 3,
+          "action": "repair it",
+          "explain": "Move the electric-car point into the body as a paragraph, and close with a gathering statement."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kehb114.txt end-of-chapter tasks, reworded",
+      "questions": [
+        "Brainstorm and plan an essay on a given topic.",
+        "Write the introduction and conclusion for a planned essay.",
+        "Rewrite a paragraph to carry only one central idea.",
+        "Revise a faulty draft, listing the corrections made.",
+        "Explain the difference between drafting and polishing.",
+        "Suggest how links between paragraphs can be made smoother."
+      ]
+    }
+  ]
+}

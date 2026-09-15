@@ -1,0 +1,674 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 11,
+ "chapter_title": "Grassroots Democracy -- Part 2: Local Government in Rural Areas",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fees111.txt",
+ "concepts": [
+  {
+   "id": "c6ss.11.1",
+   "title": "Panchayati Raj System -- An Overview",
+   "section": "Introduction to Grassroots Democracy",
+   "definition": "The Panchayati Raj system is a three-tier structure of local self-government in rural India that brings democracy to the village level through elected councils.",
+   "formula": "",
+   "key_idea": "Power is decentralised to village-level institutions so that rural citizens can govern their own affairs and solve local problems.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the Panchayati Raj system?",
+    "Why is the Panchayati Raj system called grassroots democracy?",
+    "Explain the meaning of decentralisation in rural governance.",
+    "How does the Panchayati Raj system connect citizens to government?",
+    "What are the three tiers of the Panchayati Raj system?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the system",
+     "explain": "The Panchayati Raj system is a three-tier local self-government structure for rural areas consisting of Gram, Block and Zila levels."
+    },
+    {
+     "step": 2,
+     "action": "Explain grassroots democracy",
+     "explain": "It is called grassroots democracy because decision-making power reaches the lowest level -- the village -- where ordinary people participate directly."
+    },
+    {
+     "step": 3,
+     "action": "Explain decentralisation",
+     "explain": "Decentralisation means transferring authority from central and state governments to local bodies so that villages manage their own development and welfare."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is the Panchayati Raj system described as grassroots democracy?",
+     "solution": "Because it places elected councils at the village level, allowing ordinary rural citizens to take part in decision-making and solve local problems themselves.",
+     "answer": "It brings democracy to the village level through elected local councils."
+    },
+    {
+     "question": "Name the three tiers of the Panchayati Raj system.",
+     "solution": "The three tiers are the Gram Panchayat at the village level, the Panchayat Samiti at the block level, and the Zila Parishad at the district level.",
+     "answer": "Gram Panchayat, Panchayat Samiti, Zila Parishad."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is meant by the Panchayati Raj system?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is decentralisation important in rural governance?",
+     "type": "short_answer"
+    },
+    {
+     "question": "How does the Panchayati Raj system strengthen grassroots democracy?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.11.2",
+   "title": "Gram Sabha -- The Village Assembly",
+   "section": "Gram Sabha",
+   "definition": "The Gram Sabha is the general body of all adult voters registered in a village; it is the foundation of the Panchayati Raj system where villagers meet to discuss and approve local matters.",
+   "formula": "",
+   "key_idea": "The Gram Sabha is a direct democracy in which every eligible villager can participate, making it the bedrock of rural self-government.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a Gram Sabha?",
+    "Who can become a member of the Gram Sabha?",
+    "What is the difference between Gram Sabha and Gram Panchayat?",
+    "What role does the Gram Sabha play in village governance?",
+    "How often does the Gram Sabha meet?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define Gram Sabha",
+     "explain": "The Gram Sabha is the assembly of all adult voters whose names are on the electoral roll of a village."
+    },
+    {
+     "step": 2,
+     "action": "Distinguish from Gram Panchayat",
+     "explain": "The Gram Sabha is the general body of all voters, while the Gram Panchayat is the smaller elected executive body that implements decisions."
+    },
+    {
+     "step": 3,
+     "action": "Explain functions",
+     "explain": "The Gram Sabha approves the village budget, reviews accounts, selects beneficiaries for welfare schemes and supervises the work of the Gram Panchayat."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Who are the members of a Gram Sabha?",
+     "solution": "All adults whose names appear on the electoral rolls of the village are members of the Gram Sabha.",
+     "answer": "All registered adult voters of the village."
+    },
+    {
+     "question": "How does the Gram Sabha differ from the Gram Panchayat?",
+     "solution": "The Gram Sabha is the full assembly of all voters and acts as a supervisory body, whereas the Gram Panchayat is the elected executive council that carries out day-to-day administration.",
+     "answer": "Gram Sabha = all voters (supervisory); Gram Panchayat = elected executive body."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define Gram Sabha.",
+     "type": "short_answer"
+    },
+    {
+     "question": "State two functions of the Gram Sabha.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How does the Gram Sabha supervise the Gram Panchayat?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.11.3",
+   "title": "Gram Panchayat -- The Village Council",
+   "section": "Gram Panchayat",
+   "definition": "The Gram Panchayat is the elected executive body at the village level responsible for implementing development programmes and providing basic services to the village.",
+   "formula": "",
+   "key_idea": "The Gram Panchayat is the executive arm of rural local government that turns the Gram Sabha's decisions into action.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a Gram Panchayat?",
+    "How are members of the Gram Panchayat elected?",
+    "What is the term of office of a Gram Panchayat?",
+    "What are the main responsibilities of the Gram Panchayat?",
+    "How is the Sarpanch related to the Gram Panchayat?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define Gram Panchayat",
+     "explain": "The Gram Panchayat is the elected council at the village level that executes development and welfare work."
+    },
+    {
+     "step": 2,
+     "action": "Explain election and term",
+     "explain": "Members called Panchs are elected by the villagers through direct election, and the council normally serves a five-year term."
+    },
+    {
+     "step": 3,
+     "action": "Explain leadership",
+     "explain": "The Sarpanch or Pradhan is the elected head of the Gram Panchayat who presides over meetings and represents the village to higher authorities."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How are the members of a Gram Panchayat chosen?",
+     "solution": "Members called Panchs are elected directly by the adult voters of the village through secret ballot, usually for a five-year term.",
+     "answer": "Direct election by village voters for a five-year term."
+    },
+    {
+     "question": "What is the role of the Sarpanch in a Gram Panchayat?",
+     "solution": "The Sarpanch is the elected head who chairs meetings, signs official documents and coordinates the work of the Panchs.",
+     "answer": "The Sarpanch is the elected head who leads and represents the Gram Panchayat."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is a Gram Panchayat?",
+     "type": "short_answer"
+    },
+    {
+     "question": "What is the normal term of a Gram Panchayat?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Who is the Sarpanch and what does he or she do?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.11.4",
+   "title": "Three-Tier Structure -- Gram, Block and Zila Levels",
+   "section": "Structure of Panchayati Raj",
+   "definition": "The Panchayati Raj system is organised in three tiers: the Gram Panchayat at the village level, the Panchayat Samiti at the block level, and the Zila Parishad at the district level.",
+   "formula": "",
+   "key_idea": "Each tier handles problems at its own geographical scale, with the village tier closest to the people and the district tier coordinating wider development.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the three tiers of the Panchayati Raj system?",
+    "What is a Panchayat Samiti?",
+    "What is a Zila Parishad?",
+    "How do the three tiers of Panchayati Raj work together?",
+    "Which tier of Panchayati Raj operates at the block level?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the village tier",
+     "explain": "The Gram Panchayat is the lowest tier, operating at the village level and closest to the people."
+    },
+    {
+     "step": 2,
+     "action": "Identify the block tier",
+     "explain": "The Panchayat Samiti operates at the block or tehsil level, coordinating the work of several Gram Panchayats."
+    },
+    {
+     "step": 3,
+     "action": "Identify the district tier",
+     "explain": "The Zila Parishad is the highest tier at the district level, supervising and funding the work of the Panchayat Samitis across the district."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Name the three tiers of the Panchayati Raj system and state where each operates.",
+     "solution": "Gram Panchayat at the village level, Panchayat Samiti at the block level, and Zila Parishad at the district level.",
+     "answer": "Gram Panchayat (village), Panchayat Samiti (block), Zila Parishad (district)."
+    },
+    {
+     "question": "What is the main function of the Zila Parishad?",
+     "solution": "The Zila Parishad coordinates development activities across the whole district, allocates funds to lower tiers and supervises the Panchayat Samitis.",
+     "answer": "It coordinates and supervises district-level rural development."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the three tiers of the Panchayati Raj system.",
+     "type": "short_answer"
+    },
+    {
+     "question": "At which level does the Panchayat Samiti function?",
+     "type": "short_answer"
+    },
+    {
+     "question": "How does the Zila Parishad support the lower tiers?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.11.5",
+   "title": "Functions of the Gram Panchayat",
+   "section": "Functions of Gram Panchayat",
+   "definition": "The Gram Panchayat performs civic functions for the village such as supplying drinking water, maintaining roads and drains, street lighting, sanitation and running welfare schemes.",
+   "formula": "",
+   "key_idea": "The Gram Panchayat provides the everyday services and development work that villagers need most directly.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "List four important functions of a Gram Panchayat.",
+    "How does the Gram Panchayat maintain village sanitation?",
+    "What development work does the Gram Panchayat carry out?",
+    "How does the Gram Panchayat help in providing drinking water?",
+    "What role does the Gram Panchayat play in village welfare schemes?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify civic services",
+     "explain": "The Gram Panchayat supplies drinking water, maintains village roads and drains, arranges street lighting and manages waste and sanitation."
+    },
+    {
+     "step": 2,
+     "action": "Identify development work",
+     "explain": "It constructs community buildings, develops local infrastructure and runs government welfare and employment schemes."
+    },
+    {
+     "step": 3,
+     "action": "Explain welfare role",
+     "explain": "The Panchayat selects beneficiaries for housing, pension and ration schemes and ensures that help reaches the neediest families in the village."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Give four examples of work done by a Gram Panchayat.",
+     "solution": "Supplying drinking water, repairing village roads, maintaining street lights and organising waste collection.",
+     "answer": "Drinking water, road repair, street lighting, waste collection."
+    },
+    {
+     "question": "How does the Gram Panchayat contribute to village sanitation?",
+     "solution": "It builds and maintains drains, arranges garbage disposal, constructs public toilets and runs awareness campaigns on cleanliness.",
+     "answer": "It builds drains, manages waste and promotes cleanliness."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List any four functions of the Gram Panchayat.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How does the Gram Panchayat provide drinking water to villagers?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the welfare role of the Gram Panchayat.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.11.6",
+   "title": "Elections to Panchayats",
+   "section": "Elections to Panchayats",
+   "definition": "Panchayat elections are direct elections held every five years in which village voters choose their Panchs and Sarpanch, with seats reserved for women and marginalised groups.",
+   "formula": "",
+   "key_idea": "Regular, direct elections with reservations ensure that all sections of village society get representation in local government.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How are members of a Gram Panchayat elected?",
+    "What is the term of a Panchayat?",
+    "What is the purpose of reservation of seats in Panchayat elections?",
+    "Which groups get reserved seats in Panchayat elections?",
+    "Why are regular elections important for Panchayats?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the election process",
+     "explain": "Village voters cast secret ballots to directly elect Panchs and the Sarpanch, usually once every five years."
+    },
+    {
+     "step": 2,
+     "action": "Explain reservations",
+     "explain": "A fixed proportion of seats is reserved for women, Scheduled Castes and Scheduled Tribes so that these groups are represented."
+    },
+    {
+     "step": 3,
+     "action": "Explain importance of regular elections",
+     "explain": "Holding elections every five years keeps the Panchayat accountable to the villagers and gives people the power to change their representatives."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why are some seats in Panchayat elections reserved for women and marginalised groups?",
+     "solution": "Reservation ensures that women, Scheduled Castes and Scheduled Tribes get a fair chance to participate in decision-making and are not left out of local governance.",
+     "answer": "To ensure representation of women and marginalised groups in local government."
+    },
+    {
+     "question": "What is the normal term of a Gram Panchayat and why are regular elections held?",
+     "solution": "The term is five years; regular elections are held so that villagers can hold representatives accountable and elect new ones if needed.",
+     "answer": "Five-year term with regular elections for accountability."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How are the Sarpanch and Panchs of a Gram Panchayat elected?",
+     "type": "short_answer"
+    },
+    {
+     "question": "What is the purpose of reserving seats in Panchayat elections?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why are regular elections important for Panchayats?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.11.7",
+   "title": "Role of the Sarpanch and Panch",
+   "section": "Sarpanch and Panch",
+   "definition": "The Sarpanch is the elected head of the Gram Panchayat who leads meetings and represents the village, while Panchs are elected members who look after specific wards and assist in decision-making.",
+   "formula": "",
+   "key_idea": "The Sarpanch and Panchs together form the executive team that runs the village council and serves the needs of the villagers.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Who is a Sarpanch?",
+    "What are the duties of a Panch?",
+    "How is the Sarpanch elected?",
+    "What is the relationship between the Sarpanch and the Panchs?",
+    "How do the Sarpanch and Panchs serve the village?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the Sarpanch",
+     "explain": "The Sarpanch or Pradhan is the elected head of the Gram Panchayat who presides over meetings, signs official records and represents the village to higher authorities."
+    },
+    {
+     "step": 2,
+     "action": "Define the Panch",
+     "explain": "Panchs are elected members of the Gram Panchayat, each usually representing a ward or section of the village."
+    },
+    {
+     "step": 3,
+     "action": "Explain teamwork",
+     "explain": "The Sarpanch and Panchs work together: Panchs raise the problems of their wards while the Sarpanch coordinates solutions and implements decisions of the council."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the main duties of the Sarpanch?",
+     "solution": "The Sarpanch chairs Gram Panchayat meetings, signs official documents, supervises development work and represents the village at block and district meetings.",
+     "answer": "Chairs meetings, supervises work and represents the village."
+    },
+    {
+     "question": "How do Panchs help in running the Gram Panchayat?",
+     "solution": "Each Panch looks after a ward, brings local problems to the meetings, takes part in decisions and helps implement schemes in their area.",
+     "answer": "Panchs represent wards, raise issues and help implement decisions."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Who is a Sarpanch and how is he or she chosen?",
+     "type": "short_answer"
+    },
+    {
+     "question": "State two duties of a Panch.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How do the Sarpanch and Panchs work together?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.11.8",
+   "title": "Sources of Income for Panchayats",
+   "section": "Sources of Income",
+   "definition": "Gram Panchayats raise money from taxes on houses, water and property, fees for services, and grants received from state and central governments.",
+   "formula": "",
+   "key_idea": "A Panchayat needs a steady income from local taxes and government grants to carry out its development and service work.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the main sources of income of a Gram Panchayat?",
+    "How do Gram Panchayats raise money locally?",
+    "What government grants do Panchayats receive?",
+    "Why does a Gram Panchayat need its own income?",
+    "Give examples of taxes collected by a Gram Panchayat."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify local taxes",
+     "explain": "Gram Panchayats collect house tax, water tax, property tax and taxes on village markets and fairs."
+    },
+    {
+     "step": 2,
+     "action": "Identify fees and charges",
+     "explain": "They also earn money from fees for issuing certificates, licences, and charges for services like water supply and street lighting."
+    },
+    {
+     "step": 3,
+     "action": "Identify government grants",
+     "explain": "Panchayats receive funds from the state government, central government schemes and the Finance Commission grants for development work."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "List three local sources of income for a Gram Panchayat.",
+     "solution": "House tax, water tax and fees collected from village markets are three local sources of income.",
+     "answer": "House tax, water tax, market fees."
+    },
+    {
+     "question": "Why do Panchayats need grants from the state and central governments?",
+     "solution": "Local taxes are often not enough to fund large development projects, so government grants help Panchayats build roads, schools and water systems.",
+     "answer": "Grants supplement local taxes for larger development work."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name three sources of income of a Gram Panchayat.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Give two examples of taxes collected by a Gram Panchayat.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why do Panchayats need government grants?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.11.9",
+   "title": "Importance of Local Self-Government in Rural Areas",
+   "section": "Importance of Local Self-Government",
+   "definition": "Local self-government in rural areas empowers villagers to manage their own affairs, solve local problems quickly and participate directly in democracy.",
+   "formula": "",
+   "key_idea": "When villagers govern themselves through Panchayats, decisions are faster, more relevant and more inclusive than when made by distant authorities.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why is local self-government important in rural areas?",
+    "How does the Panchayati Raj system help villagers?",
+    "What are the benefits of grassroots democracy?",
+    "How does local self-government make administration faster?",
+    "In what ways does the Panchayati Raj system promote participation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain quick problem-solving",
+     "explain": "Local bodies understand village problems best and can solve them quickly without waiting for distant officials."
+    },
+    {
+     "step": 2,
+     "action": "Explain participation",
+     "explain": "Through the Gram Sabha and elections, every villager can take part in decisions, making democracy truly participatory."
+    },
+    {
+     "step": 3,
+     "action": "Explain inclusive development",
+     "explain": "Reservations and direct involvement ensure that women and marginalised groups benefit from development, making growth fair and inclusive."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Give two reasons why local self-government is important for villages.",
+     "solution": "It allows villagers to solve local problems quickly and gives every citizen a direct role in decision-making.",
+     "answer": "Quick local problem-solving and direct citizen participation."
+    },
+    {
+     "question": "How does the Panchayati Raj system make development more inclusive?",
+     "solution": "By reserving seats for women and marginalised groups and holding open Gram Sabha meetings, it ensures that all sections of village society share in development.",
+     "answer": "Reservations and open meetings ensure all groups benefit from development."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why is local self-government important in rural areas?",
+     "type": "short_answer"
+    },
+    {
+     "question": "How does the Panchayati Raj system speed up problem-solving?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how grassroots democracy promotes participation.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.11.10",
+   "title": "Computing Quorum and Seat Reservation in Panchayats",
+   "section": "Elections and Reservations",
+   "definition": "Panchayat rules require a minimum number of members (quorum) to hold a valid meeting and reserve a fixed fraction of total seats for women and marginalised groups.",
+   "formula": "reserved_seats = round(total_seats * reservation_fraction)",
+   "key_idea": "Using simple fractions and rounding, one can calculate how many seats in a Panchayat must be reserved for women or marginalised groups.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Calculate the number of seats reserved for women if a Gram Panchayat has 10 seats and one-third are reserved.",
+    "How many seats are reserved for women in a Panchayat of 12 seats with one-third reservation?",
+    "Find the reserved seats when the reservation fraction is 0.5 and total seats are 8.",
+    "Compute the number of women-reserved seats for a 15-seat Panchayat with one-third reservation.",
+    "If 2 out of 9 seats are reserved for SC, what fraction is reserved?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify total seats and reservation fraction",
+     "explain": "Read the total number of seats in the Panchayat and the fraction that must be reserved.",
+     "compute": "reserved = total_seats * reservation_fraction"
+    },
+    {
+     "step": 2,
+     "action": "Multiply and round to the nearest whole number",
+     "explain": "Multiply total seats by the reservation fraction and round to the nearest whole number since seats cannot be fractional.",
+     "compute": "total_seats * reservation_fraction"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the result",
+     "explain": "The rounded number tells how many seats are set aside for the reserved category; the remaining seats are general.",
+     "compute": "general_seats = total_seats - reserved_seats"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A Gram Panchayat has 10 seats and one-third are reserved for women. How many seats are reserved?",
+     "solution": "One-third of 10 = 10 * 1/3 = 3.33, which rounds to 3 seats.",
+     "answer": "3 seats reserved for women."
+    },
+    {
+     "question": "A Panchayat has 12 seats with 50% reserved for women. How many seats are general?",
+     "solution": "50% of 12 = 6 seats reserved, so general seats = 12 - 6 = 6.",
+     "answer": "6 general seats."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A Gram Panchayat has 15 seats with one-third reserved for women. How many seats are reserved?",
+     "type": "compute"
+    },
+    {
+     "question": "If a Panchayat has 8 seats and 25% are reserved for SC, how many seats are general?",
+     "type": "compute"
+    },
+    {
+     "question": "Explain why seat reservation is important in Panchayat elections.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "reviewer-added",
+   "concept": "c6ss.11.10",
+   "question_type": "compute_drill",
+   "question_pattern": "Worked drill: with {total_seats} = 6, {reservation_fraction} = 9, {reserved_seats} = 12, compute the computing quorum and seat reservation in panchayats step by step.",
+   "extracted_variables": {
+    "total_seats": "6",
+    "reservation_fraction": "9",
+    "reserved_seats": "12"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify total seats and reservation fraction",
+     "explain": "Read the total number of seats in the Panchayat and the fraction that must be reserved.",
+     "compute": "reserved = total_seats * reservation_fraction"
+    },
+    {
+     "step": 2,
+     "action": "Multiply and round to the nearest whole number",
+     "explain": "Multiply total seats by the reservation fraction and round to the nearest whole number since seats cannot be fractional.",
+     "compute": "total_seats * reservation_fraction"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the result",
+     "explain": "The rounded number tells how many seats are set aside for the reserved category; the remaining seats are general.",
+     "compute": "general_seats = total_seats - reserved_seats"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "reviewer-added",
+   "concept": "c6ss.11.1",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain panchayati raj system -- an overview with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define the system",
+     "explain": "The Panchayati Raj system is a three-tier local self-government structure for rural areas consisting of Gram, Block and Zila levels."
+    },
+    {
+     "step": 2,
+     "action": "Explain grassroots democracy",
+     "explain": "It is called grassroots democracy because decision-making power reaches the lowest level -- the village -- where ordinary people participate directly."
+    },
+    {
+     "step": 3,
+     "action": "Explain decentralisation",
+     "explain": "Decentralisation means transferring authority from central and state governments to local bodies so that villages manage their own development and welfare."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_04_005",
+   "title": "c12_cs_cbse_04_005",
+   "questions": [
+    {
+     "q": "Define the term \"Candidate Key\" in the context of the relational model. How does it differ from a \"Super Key\"?",
+     "a": "A **Candidate Key** is a minimal super key — a set of attributes that uniquely identifies each tuple, and no proper subset of it has this uniqueness property. A **Super Key** is any set of attributes that uniquely identifies tuples (may contain extra attributes). The difference: every candidate key is a super key, but not every super key is a candidate key (minimality). A wrong answer that says \"Candidate key is just any unique column\" reveals the student misses the minimality requirement and confuses super keys with candidate keys.",
+     "self_check": true
+    },
+    {
+     "q": "Consider a relation `Employee(EmpID, Aadhar, PAN, Email, DeptID)` where EmpID, Aadhar, PAN, and Email are all unique for each employee. The database designer chooses EmpID as the primary key. List all candidate keys and alternate keys. Explain why DeptID is NOT a candidate key.",
+     "a": "Candidate keys: {EmpID}, {Aadhar}, {PAN}, {Email} (each single attribute uniquely identifies a tuple). Primary key: {EmpID}. Alternate keys: {Aadhar}, {PAN}, {Email}. DeptID is not a candidate key because multiple employees can belong to the same department, so DeptID does not uniquely identify a tuple. A wrong answer that includes DeptID as a candidate key shows the student does not understand the uniqueness requirement for candidate keys.",
+     "self_check": true
+    },
+    {
+     "q": "Given two relations: `Student(AdmNo, Name, Class)` with primary key AdmNo, and `LibraryCard(CardNo, AdmNo, IssueDate)` where CardNo is primary key and AdmNo is a foreign key referencing Student(AdmNo). If a student with AdmNo = 'S101' is deleted from Student, what happens to the corresponding row(s) in LibraryCard under (a) ON DELETE CASCADE, (b) ON DELETE SET NULL, (c) ON DELETE RESTRICT? Assume AdmNo in LibraryCard allows NULL.",
+     "a": "(a) CASCADE: The row(s) in LibraryCard with AdmNo='S101' are automatically deleted. (b) SET NULL: The AdmNo in those LibraryCard row(s) becomes NULL (since it allows NULL). (c) RESTRICT: The deletion from Student is rejected (error) because matching rows exist in LibraryCard. A wrong answer that says \"the student cannot be deleted in any case\" reveals the student does not know the referential action options and assumes RESTRICT is the only behavior.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following statement: \"A foreign key must always reference the primary key of the referenced table.\" Is this true or false? Justify your answer with reference to the relational model.",
+     "a": "**False.** A foreign key can reference **any candidate key** (primary or alternate) of the referenced relation, not necessarily the primary key. The SQL standard allows referencing a UNIQUE constraint (which implements an alternate key). The relational model requires the referenced attributes to be a candidate key (unique and minimal). A student who answers \"True\" is confusing the common practice (referencing PK) with the theoretical requirement (referencing any candidate key).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the design decision: In a `Course` table, the primary key is `CourseCode`. Another table `Enrollment` has `StudentID` and `CourseCode` as foreign keys. The designer proposes making `(StudentID, CourseCode)` the primary key of `Enrollment`. Is this a good design? Discuss the implications for a student enrolling in the same course multiple times (e.g., retaking).",
+     "a": "Making `(StudentID, CourseCode)` the primary key of `Enrollment` enforces that a student can enroll in a given course **at most once**. If the business rule allows retaking a course (multiple enrollments), this design is **incorrect** because it would prevent a second enrollment row for the same student and course. A better design: add a surrogate key `EnrollmentID` as primary key, and keep `(StudentID, CourseCode)` as a unique constraint only if retakes are not allowed. A student who says \"It's fine because primary key must be unique\" misses the semantic requirement that the key must match the real-world cardinality.",
+     "self_check": true
+    },
+    {
+     "q": "Create a small relational schema (3 tables) for a \"Movie Booking\" system: `Movie`, `CinemaHall`, `Show`. Define primary keys, candidate keys, alternate keys (if any), and foreign keys. Ensure a show links a movie to a hall at a specific date-time. Write the schema in a clear notation.",
+     "a": "**Expected schema:**\n- `Movie(MovieID, Title, Genre, Duration)` — PK: MovieID; Candidate: {MovieID}; Alternate: none (unless Title+Genre unique, but unlikely).\n- `CinemaHall(HallID, Name, Capacity, ScreenType)` — PK: HallID; Candidate: {HallID}; Alternate: none.\n- `Show(ShowID, MovieID, HallID, ShowDateTime, Price)` — PK: ShowID; Candidate: {ShowID}, {MovieID, HallID, ShowDateTime} (if a hall cannot have two shows at same time); Alternate: {MovieID, HallID, ShowDateTime} if ShowID is PK. Foreign keys: MovieID → Movie(MovieID), HallID → CinemaHall(HallID).\nA poor answer that omits the composite candidate key in Show or forgets foreign keys reveals inability to identify uniqueness from business rules.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

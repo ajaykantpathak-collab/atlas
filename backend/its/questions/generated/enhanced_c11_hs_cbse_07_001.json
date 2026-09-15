@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_07_001",
+   "title": "c11_hs_cbse_07_001",
+   "questions": [
+    {
+     "q": "State the exact WHO definition of health as given in your NCERT textbook, including all three dimensions and the qualifying phrase about disease.",
+     "a": "Correct answer: \"Health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity.\" A wrong answer typically omits \"complete,\" leaves out one dimension (usually social), or forgets the \"not merely absence of disease\" clause. This reveals the student has memorised a simplified version rather than the precise definition required for board exams. The phrase \"not merely absence of disease\" is the conceptual hinge—without it, the definition collapses to the biomedical model the WHO explicitly rejected.",
+     "self_check": true
+    },
+    {
+     "q": "A 16-year-old student, Rohan, has no diagnosed illness. He plays football daily (physical), but feels constant pressure to top his class, experiences panic attacks before exams, and has stopped attending family gatherings because \"they're a waste of time.\" Using the NCERT indicators for mental and social health, explain which dimensions of Rohan's health are compromised and why physical fitness alone does not make him \"healthy\" per WHO.",
+     "a": "Rohan's mental health is compromised: he cannot \"handle normal levels of stress\" (panic attacks), fears exams, and likely feels \"defeated or depressed for unusually long periods.\" His social health is compromised: he cannot \"function as a member of society\" (avoids family gatherings), lacks \"satisfying relationships,\" and has withdrawn from social institutions. Physical fitness alone doesn't satisfy WHO's \"complete well-being\" because health is the intersection of all three dimensions—deficiency in one diminishes the whole. A wrong answer focusing only on physical health or listing symptoms without mapping to NCERT indicators shows the student cannot operationalise the definition.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT lists five social determinants of health: employment status, workplace safety, access to health services, cultural/religious beliefs, and socio-economic/environmental conditions. Select ANY TWO and explain, with a concrete example for each, how they directly influence an individual's social health dimension.",
+     "a": "Example 1: Employment status → A daily-wage construction worker with irregular income cannot access consistent nutrition or healthcare, leading to frequent illness that forces withdrawal from community events and erodes social support networks—directly impairing \"ability to function as a member of society.\" Example 2: Cultural/religious beliefs → In a community where menstruating girls are barred from kitchens and temples, the taboo isolates them from social rituals, damages peer relationships, and internalises stigma—violating \"social skills and ability to function as a member of society.\" A wrong answer gives generic statements like \"money affects health\" without linking the determinant to a specific NCERT social health indicator (social support, social functioning, equal opportunity).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the NCERT's indicators of \"positive mental health\" with the common layperson's understanding of mental health as \"not having a mental illness.\" Identify THREE specific indicators from the textbook that the layperson's view misses entirely, and explain why each matters for adolescent well-being.",
+     "a": "Three missed indicators: (1) \"Can lead an independent life\" — lay view ignores functional autonomy; an adolescent who cannot make decisions or manage daily tasks without constant parental intervention has compromised mental health even without diagnosis. (2) \"Does not fear things\" — lay view equates mental health with absence of pathology, missing that irrational fears (e.g., school refusal, social avoidance) signal poor coping. (3) \"Has satisfying relationships\" — lay view is individualistic; the NCERT explicitly ties mental health to relational quality. An adolescent with top grades but zero friendships and family conflict has poor mental health per WHO. A wrong answer lists symptoms (anxiety, depression) rather than positive indicators, showing confusion between mental illness and mental health.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement using the WHO definition and NCERT dimensions: \"The government's free vaccination programme ensures the health of all children in the district.\" Your critique must address at least two dimensions beyond physical health.",
+     "a": "The statement is incomplete. Vaccination addresses only the physical dimension (disease prevention/resistance to infection). It does not guarantee: (1) Mental health—children may still face academic pressure, bullying, family conflict, or trauma with no counselling support, violating indicators like \"can handle stress,\" \"satisfying relationships,\" \"cope and recover.\" (2) Social health—children in unsafe neighbourhoods, child labour, or discriminatory schools lack \"equal opportunity and access to goods/services essential for good health\" and \"social support to cope with problems.\" Health requires simultaneous investment in school mental health programmes, safe public spaces, nutrition (mid-day meals), and anti-discrimination enforcement. A wrong answer that agrees with the statement or only mentions \"nutrition\" misses the dimensional analysis the WHO definition demands.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"Health Dimension Audit\" checklist for a Class 11 student to self-assess their own health across all three WHO dimensions. The checklist must have exactly 3 items per dimension, each item phrased as an observable behaviour or experience (not a feeling), directly drawn from NCERT indicators.",
+     "a": "**Physical:** (1) I can climb 3 flights of stairs without unusual breathlessness or fatigue. (2) I recover from common colds/fever within 3-4 days without complications. (3) I participate in at least 60 minutes of moderate physical activity daily (walking, sports, cycling). **Mental:** (1) I completed my last 5 assignments on time without panic or all-nighters. (2) I disagreed with a friend/parent recently and resolved it without shouting or shutting down. (3) I made a decision about my stream/subjects independently after weighing options. **Social:** (1) I attended a family/community event in the last month and interacted with at least 3 people outside my immediate circle. (2) I asked a teacher/peer for help when stuck on a concept instead of hiding confusion. (3) I know the location and contact of the nearest PHC/health centre and how to access it. A poor checklist uses vague items like \"I feel happy\" or \"I am fit\"—these are not observable or tied to NCERT indicators.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

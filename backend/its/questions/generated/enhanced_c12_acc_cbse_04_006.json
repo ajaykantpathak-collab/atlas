@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_04_006",
+   "title": "c12_acc_cbse_04_006",
+   "questions": [
+    {
+     "q": "What is the priority order of payments on dissolution of a partnership firm according to the Indian Partnership Act, 1932 (and NCERT)?",
+     "a": "Correct order: (1) External creditors, (2) Partner's loan to the firm, (3) Partner's capital accounts. A wrong answer like \"Partner's capital before partner's loan\" reveals the student confuses loan (a liability) with capital (equity) and violates Section 48 of the Partnership Act. This error leads to incorrect journal entries and balance sheet presentation in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A firm owes ₹30,000 to partner X as a loan. On dissolution, the firm gives an unrecorded asset worth ₹30,000 to X in full settlement of his loan. Pass the journal entry.",
+     "a": "Correct entry:  \nPartner X's Loan A/c Dr. 30,000  \n  To Realisation A/c 30,000  \n(Being loan settled by transferring unrecorded asset)  \nA wrong entry like \"To Bank A/c\" or \"To X's Capital A/c\" reveals the student doesn't understand that (a) no cash moves, so Bank is not credited, and (b) loan is a liability, not capital, so Capital A/c is never used for loan settlement.",
+     "self_check": true
+    },
+    {
+     "q": "After realisation, a firm has cash ₹1,20,000. External creditors ₹40,000, Partner A's loan ₹30,000, Capitals: A ₹80,000, B ₹60,000. Show the cash distribution.",
+     "a": "Step 1: Pay creditors ₹40,000 → Cash left ₹80,000.  \nStep 2: Pay A's loan ₹30,000 → Cash left ₹50,000.  \nStep 3: Distribute ₹50,000 to capitals in profit-sharing ratio (assume equal): A ₹25,000, B ₹25,000.  \nFinal capital balances: A ₹55,000 unpaid, B ₹35,000 unpaid (loss borne equally).  \nA wrong answer paying capitals before loan, or ignoring the loan, shows the student hasn't internalised the statutory payment hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the accounting treatment of \"Partner's Loan\" vs \"Partner's Capital\" when the firm gives an asset in settlement. How do the journal entries differ?",
+     "a": "For Loan: Partner's Loan A/c Dr. → To Realisation A/c (asset given).  \nFor Capital: Partner's Capital A/c Dr. → To Realisation A/c (asset given).  \nThe *difference* is the account debited: Loan A/c (liability) vs Capital A/c (equity). A student who debits Capital A/c for loan settlement confuses liability with equity — a fundamental error that cascades into wrong final accounts.",
+     "self_check": true
+    },
+    {
+     "q": "\"Partner's loan can be transferred to the Realisation Account.\" Evaluate this statement. Is it ever correct? Justify.",
+     "a": "False. Partner's loan is **never** transferred to Realisation Account. Realisation Account records only asset realisation and liability payment *gains/losses*. Partner's loan is paid directly: Partner's Loan A/c Dr. → To Bank/Realisation A/c (if asset given). Transferring it to Realisation A/c would incorrectly treat it as a realisation expense or income. This is a common competitive-exam trap (CUET/JEE-style true/false).",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini-case: A firm has two partners, P and Q. P has a loan of ₹40,000 and capital ₹1,00,000. Q has capital ₹60,000. External creditors ₹20,000. Assets realise ₹1,50,000. Realisation profit ₹10,000. Write the full settlement sequence with journal entries.",
+     "a": "1. Realisation Profit distributed: P ₹5,000, Q ₹5,000 → Capitals become P ₹1,05,000, Q ₹65,000.  \n2. Cash ₹1,50,000. Pay creditors ₹20,000 → left ₹1,30,000.  \n3. Pay P's loan ₹40,000 → left ₹90,000.  \n4. Pay capitals: P ₹1,05,000, Q ₹65,000 (total ₹1,70,000) but only ₹90,000 cash → shortfall ₹80,000 borne in profit-sharing ratio.  \nEntries:  \nRealisation A/c Dr. 10,000 → To P's Capital 5,000, To Q's Capital 5,000.  \nCreditors A/c Dr. 20,000 → To Bank 20,000.  \nP's Loan A/c Dr. 40,000 → To Bank 40,000.  \nP's Capital A/c Dr. 1,05,000, Q's Capital A/c Dr. 65,000 → To Bank 90,000 (and deficiency carried to personal accounts).  \nA poor answer misses the profit distribution *before* capital payment or pays loan after capital.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

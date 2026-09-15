@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_chem_ch3_4",
+ "concepts": [
+  {
+   "id": "enh:c8_chem_ch3_4",
+   "title": "c8_chem_ch3_4",
+   "questions": [
+    {
+     "q": "What physical property of the components in a mixture allows insoluble solid particles to separate through sedimentation?",
+     "a": "The difference in density and the effect of gravity, where denser solid particles settle at the bottom. A wrong answer reveals a confusion between solubility (which deals with homogeneous solutions where particles dissolve completely) and suspension density.",
+     "self_check": true
+    },
+    {
+     "q": "Why is filtration ineffective for separating a mixture of common salt dissolved in water?",
+     "a": "Because salt forms a homogeneous solution where individual ions/particles are smaller than the microscopic pores of filter paper and pass right through. A wrong answer reveals a misunderstanding of the difference between insoluble suspensions and soluble solutions.",
+     "self_check": true
+    },
+    {
+     "q": "A student has a mixture of sand, salt, and water. What is the correct sequence of separation methods to recover dry sand and dry salt separately?",
+     "a": "Steps: 1. Add water to dissolve the salt (making sand insoluble). 2. Filter the mixture to trap the sand on the filter paper (filtration). 3. Heat the remaining salt solution to evaporate the water and recover the salt (evaporation). A wrong answer reveals an inability to sequence physical separation techniques based on solubility and particle size.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze what happens to the rate of sedimentation if the suspended particles in a liquid are extremely small and light, like colloidal clay. How does this affect the choice between sedimentation and filtration?",
+     "a": "Very small and light particles take an extremely long time to settle or may remain suspended indefinitely due to Brownian motion, making plain sedimentation impractical. Therefore, filtration with finer filter media or chemical coagulants (like alum loading) must be used. A wrong answer shows a lack of analytical connection between particle size, mass, and gravitational settling speed.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the student procedure: \"To separate chalk powder from water, I will pour the mixture directly through a standard kitchen cloth sieve, and the clean water that passes through is pure water.\" Is this evaluation scientifically sound? Why or why not?",
+     "a": "The evaluation is partially flawed. While a cloth sieve will trap large chalk particles, microscopic chalk dust can pass through larger cloth pores, meaning the water is only partially cleared, not chemically pure (it is still a filtrate containing microscopic suspended particles or dissolved impurities). A wrong answer indicates an overestimation of rough filtering barriers and confusion between physical clarity and chemical purity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple, low-cost water filtration unit using everyday household materials found in an Indian home (e.g., plastic bottle, gravel, sand, cotton cloth, charcoal) to clear muddy water, and explain the role of each layer.",
+     "a": "A good design uses an inverted plastic bottle with layers: cotton cloth at the bottom neck for fine straining, followed by fine sand, coarse sand, gravel, and activated charcoal at the top to absorb odors and trap large debris. A poor answer fails to order the layers by decreasing particle size or misses the physical mechanism of porous trapping.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

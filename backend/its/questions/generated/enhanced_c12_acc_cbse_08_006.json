@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_08_006",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_08_006",
+   "title": "c12_acc_cbse_08_006",
+   "questions": [
+    {
+     "q": "What is the standard base (denominator) used to calculate the common-size percentage for each item in a Common Size Balance Sheet?",
+     "a": "The standard base is **Total Assets** (which equals Total Liabilities and Equity). A wrong answer (e.g., \"Total Liabilities only\" or \"Share Capital\") reveals the student confuses the Balance Sheet identity (Assets = Liabilities + Equity) and does not understand that vertical analysis requires a single common base representing 100% of the resources controlled by the entity.",
+     "self_check": true
+    },
+    {
+     "q": "A student prepares a Common Size Balance Sheet and writes \"Current Assets: 120%\". Without seeing the original Balance Sheet, explain why this answer is definitely incorrect and what conceptual error the student has made.",
+     "a": "The sum of all asset percentages must equal exactly 100% because Total Assets is the base (100%). Current Assets is a *subset* of Total Assets, so its percentage cannot exceed 100%. The error reveals the student likely used the wrong denominator (e.g., divided Current Assets by Current Liabilities instead of Total Assets) or misunderstood that the base is the *total* of the same side of the Balance Sheet.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following Balance Sheet extract, calculate the Common Size percentage for 'Trade Receivables'. Show the formula and calculation.\n- Total Assets: ₹20,00,000\n- Trade Receivables: ₹4,00,000",
+     "a": "**Formula:** (Individual Item / Total Assets) × 100\n**Calculation:** (₹4,00,000 / ₹20,00,000) × 100 = **20%**.\nA wrong answer (e.g., 5% or 0.2) indicates either a calculation error (misplaced decimal) or forgetting to multiply by 100 to express as a percentage. This is a basic arithmetic application of the vertical analysis formula.",
+     "self_check": true
+    },
+    {
+     "q": "Two companies, A and B, have the following Common Size Balance Sheet percentages for Inventories and Cash:\n- Company A: Inventories 60%, Cash 5%\n- Company B: Inventories 20%, Cash 25%\nAnalyse and compare the liquidity risk and operational strategy implied by these structures.",
+     "a": "Company A has high inventory (60%) and low cash (5%), indicating potential liquidity risk — funds are tied up in stock, which may be slow-moving or obsolete. It suggests a speculative or bulk-purchasing strategy. Company B has low inventory (20%) and high cash (25%), indicating strong liquidity and a conservative, possibly just-in-time or service-oriented model. The student must recognise that common-size percentages reveal *structural* differences invisible in absolute numbers. A wrong analysis would focus only on absolute values or miss the liquidity implication of the composition.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"A Common Size Balance Sheet prepared using Total Liabilities as the base (instead of Total Assets) is equally valid for inter-firm comparison because Total Assets = Total Liabilities.\"",
+     "a": "The statement is **false**. While the accounting equation ensures Total Assets = Total Liabilities + Equity, using \"Total Liabilities\" alone as the base excludes Shareholders' Funds (Equity). This would make the sum of percentages on the liabilities side exceed 100% (since Equity is missing from the base), breaking the fundamental property that all items on a side sum to 100%. The correct base must be the *total* of the side being analysed: Total Assets for assets, Total Liabilities and Equity for liabilities/equity. A student agreeing with the statement confuses the equation's equality with the analytical requirement of a complete base.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical Common Size Balance Sheet (only percentages) for a startup technology company that is asset-light, funded primarily by equity, and holds minimal inventory. Provide percentages for at least 5 major line items (Share Capital, Reserves, Long-term Borrowings, Fixed Assets, Cash, Trade Receivables) that sum to 100% on each side. Justify your numbers in one sentence.",
+     "a": "**Liabilities & Equity Side:** Share Capital 50%, Reserves & Surplus 30%, Long-term Borrowings 5%, Trade Payables 10%, Short-term Provisions 5% (Total 100%).\n**Assets Side:** Fixed Assets 15%, Cash & Cash Equivalents 40%, Trade Receivables 25%, Short-term Loans & Advances 10%, Other Current Assets 10% (Total 100%).\n**Justification:** High equity (80%) and cash (40%) with low fixed assets (15%) and zero inventory reflect an asset-light, low-debt, cash-rich tech startup model. A poor answer would include high inventory, high debt, or percentages not summing to 100%, showing lack of understanding of both the format and the business model implications.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

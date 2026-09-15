@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_03_008",
+   "title": "c11_geo_cbse_03_008",
+   "questions": [
+    {
+     "q": "Define geothermal gradient and state its standard unit of measurement. Give the typical range for stable continental crust.",
+     "a": "Geothermal gradient is the rate of temperature increase with depth in the Earth, measured in °C/km (or K/km). In stable continental crust, the typical range is 15–30°C/km. A wrong answer (e.g., stating units as °C/m or giving a range of 100–200°C/km) reveals confusion between gradient and heat flow, or mixing up crustal values with hydrothermal/volcanic settings.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the geothermal gradient is steeper in the upper crust than in the lower crust and mantle, even though temperature increases continuously with depth.",
+     "a": "The gradient is steeper in the upper crust because heat is transported primarily by conduction through rocks with low thermal conductivity (granites, sediments), and radiogenic heat production from U, Th, K decay is concentrated in the upper crust. In the lower crust and mantle, higher thermal conductivity and the onset of advective heat transfer (convection) reduce the conductive gradient. A wrong answer attributing it solely to \"higher temperature\" or \"pressure\" misses the role of heat production and heat transfer mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "A borehole in the Singhbhum craton (Jharkhand) records temperatures of 28°C at 500 m depth and 46°C at 1500 m depth. Calculate the average geothermal gradient for this interval. If the surface temperature is 25°C, estimate the temperature at 3 km depth assuming a constant gradient.",
+     "a": "Step 1: Gradient = (T2 - T1) / (z2 - z1) = (46 - 28)°C / (1500 - 500)m = 18°C / 1000m = 18°C/km.\nStep 2: Temperature at 3 km = Surface temp + (gradient × depth) = 25°C + (18°C/km × 3 km) = 25 + 54 = 79°C.\nA wrong calculation (e.g., using 500m as denominator, or forgetting surface temperature) reveals inability to apply the gradient formula correctly or confusion between depth intervals and absolute depth.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the geothermal gradient and heat flow in three settings: (a) a stable craton (e.g., Bundelkhand), (b) a rift zone (e.g., Cambay basin), and (c) a subduction zone (e.g., Andaman arc). Explain the tectonic controls on each.",
+     "a": "(a) Craton: Low gradient (15–20°C/km), low heat flow (30–45 mW/m²) — thick, cold lithosphere, low radiogenic heat. (b) Rift: High gradient (40–80°C/km), high heat flow (80–120 mW/m²) — lithospheric thinning, mantle upwelling, advective heat. (c) Subduction: Variable — low gradient in forearc (cold slab), very high in volcanic arc (magmatic advection). A wrong answer that gives similar values for all three or ignores advection in rift/arc settings shows failure to link thermal structure to plate tectonics (c9_geo_ch1_2).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"High geothermal gradient always indicates good potential for geothermal energy exploitation.\" Consider technical, economic, and geological factors.",
+     "a": "The statement is false. High gradient alone is insufficient: (1) Permeability and fluid presence are needed for hydrothermal systems (e.g., Puga valley, Ladakh has high gradient but limited recharge). (2) Enhanced Geothermal Systems (EGS) require fractureable rock at depth. (3) Economic viability needs sustained flow rates >50 kg/s and temperatures >150°C for electricity. (4) Some high-gradient areas (volcanic arcs) are too remote or seismically hazardous. A simple \"true\" answer ignores reservoir engineering and economic geography.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field investigation to map the geothermal gradient across the Son-Narmada-Tapti lineament zone in central India. Specify: (a) minimum number and depth of boreholes, (b) temperature measurement protocol, (c) how you would correct for groundwater advection, and (d) how results would distinguish between crustal thinning vs. radiogenic heat anomalies.",
+     "a": "(a) Minimum 10 boreholes, 500–1000 m deep, spaced 20–30 km along a transect perpendicular to the lineament. (b) Use calibrated thermistors/thermocouples; log temperatures after thermal equilibrium (≥6 months post-drilling); measure at 10 m intervals. (c) Correct for advection by: (i) measuring hydraulic head and permeability, (ii) comparing gradient in cased vs. open holes, (iii) using Bullard plot (temperature vs. thermal resistance) to identify non-linearities. (d) Crustal thinning shows regional, broad gradient increase with high heat flow; radiogenic anomaly shows localized high gradient with normal heat flow (since heat is generated in situ). A poor answer omits equilibrium time, advection correction, or cannot distinguish the two mechanisms.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

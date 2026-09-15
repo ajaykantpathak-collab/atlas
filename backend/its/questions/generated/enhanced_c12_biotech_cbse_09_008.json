@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_09_008",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_09_008",
+   "title": "c12_biotech_cbse_09_008",
+   "questions": [
+    {
+     "q": "Define \"directed differentiation\" of stem cells in one sentence and name the two fundamental properties of stem cells that make directed differentiation possible.",
+     "a": "Directed differentiation is the intentional guidance of stem cells toward a specific lineage using defined extrinsic cues. The two enabling properties are *pluripotency/multipotency* (ability to choose multiple fates) and *self-renewal* (ability to expand before differentiation). A wrong answer that only says \"making stem cells change\" misses the *controlled, stepwise* nature; a wrong answer that lists \"totipotency\" as a property confuses the starting material (we rarely use totipotent zygotes for directed differentiation).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Adding BMP4 to hiPSCs will directly give neurons because BMP4 is a neural inducer.\" Identify the error and explain the correct role of BMP4 in early germ layer patterning.",
+     "a": "The error: BMP4 *inhibits* neural fate and *promotes* mesoderm/epidermis. In the default model, neural induction occurs when BMP/TGF-β signaling is *blocked* (e.g., by Noggin, SB431542). BMP4 added to pluripotent cells drives them toward mesoderm (and later cardiac, blood) or trophoblast. A student making this error has confused the \"default pathway\" concept and the context-dependent action of morphogens.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-day protocol to differentiate hiPSCs into definitive endoderm (DE) using only two small molecules/growth factors. Specify the concentration range for each and the key marker you would check by flow cytometry on Day 3 to confirm DE identity.",
+     "a": "Day 0-1: Activin A (100 ng/mL) + CHIR99021 (3 µM) in RPMI/B27 minus insulin. Day 1-3: Activin A (100 ng/mL) alone. Day 3 analysis: CXCR4+/SOX17+ double-positive >80% by flow cytometry. A wrong answer using BMP4 or FGF2 would yield mesoderm/ectoderm; omitting CHIR (Wnt activator) gives poor DE efficiency; checking AFP or Albumin (hepatocyte markers) is too early — those appear weeks later.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"embryoid body (EB)-based differentiation\" vs \"monolayer (2D) directed differentiation\" for generating cardiomyocytes. List two advantages and one limitation of each method.",
+     "a": "EB: Advantages — (1) mimics 3D cell-cell contacts and endogenous signaling gradients; (2) simple, no coating required. Limitation — heterogeneous size/shape leads to variable differentiation efficiency. Monolayer: Advantages — (1) highly reproducible, scalable, amenable to automation; (2) precise temporal control of factor addition. Limitation — lacks 3D microenvironment, often yields immature fetal-like cardiomyocytes. A wrong answer that says \"EB is always better\" ignores scalability needs for clinical translation.",
+     "self_check": true
+    },
+    {
+     "q": "A research team reports a new small molecule \"X\" that replaces Activin A in definitive endoderm induction. They show SOX17+ cells at Day 3 but no functional hepatocytes after 20 days. Critique their claim that \"X fully replaces Activin A\" and propose two additional experiments to validate true functional equivalence.",
+     "a": "The claim is premature. Early marker expression (SOX17) does not guarantee correct *epigenetic priming* or *competence* for later stages. Activin A activates SMAD2/3 and also induces FOXA2, GATA4, and HNF4α in a specific temporal wave. Experiments needed: (1) RNA-seq time course (Days 0, 1, 3, 5) comparing X vs Activin A to check global transcriptome trajectory; (2) Functional assay: transplant Day 20 cells into Fah−/− mice and measure survival/repopulation — only true hepatocyte progenitors rescue the phenotype.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel 4-step differentiation scheme to generate *pancreatic β-like cells* from hiPSCs using only *three* defined factors (one per step, Step 1 uses two). Justify each factor's developmental role.",
+     "a": "Example scheme: Step 1 (DE): Activin A + CHIR99021 (Wnt activation synergizes with Nodal/Activin for robust DE). Step 2 (Primitive gut tube): Retinoic Acid (RA, 2 µM) — posteriorizes endoderm to foregut/midgut boundary. Step 3 (Pancreatic progenitor): FGF10 (50 ng/mL) + KAAD-cyclopamine (Shh inhibitor) — but since only *one* factor allowed, use *FGF10* (mitogenic, maintains progenitors). Step 4 (Endocrine maturation): Betacellulin (10 ng/mL) + thyroid hormone T3 (10 nM) — but again one factor: *T3* (drives metabolic maturation and insulin secretion). A poor answer lists random factors without developmental logic (e.g., \"NGF for β-cells\" — NGF is neuronal).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

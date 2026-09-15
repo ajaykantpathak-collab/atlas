@@ -1,0 +1,214 @@
+{
+ "catalog": "catalog_class11_biology_ch111",
+ "concepts": [
+  {
+   "id": "kebo.111.1",
+   "title": "Photosynthesis Fundamentals",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Photosynthesis Fundamentals' refers to.",
+     "a": "A biological process where green plants transform solar energy into chemical energy to synthesize organic nutrients from inorganic raw materials.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Photosynthesis Fundamentals'.",
+     "a": "Plants act as primary producers by converting light into food and releasing oxygen.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Photosynthesis Fundamentals', in plain ASCII form.",
+     "a": "6CO2 + 12H2O -> C6H12O6 + 6H2O + 6O2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.111.2",
+   "title": "Photosynthetic Pigments and Spectra",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Photosynthetic Pigments and Spectra' refers to.",
+     "a": "Specific molecules like chlorophyll a, b, xanthophylls, and carotenoids that capture light at distinct wavelengths.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Photosynthetic Pigments and Spectra'.",
+     "a": "Chlorophyll a is indeed the primary pigment, while others act as accessory pigments to broaden the absorption range.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Photosynthetic Pigments and Spectra', in plain ASCII form.",
+     "a": "Efficiency = f(wavelength)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.111.3",
+   "title": "Photolysis of Water",
+   "questions": [
+    {
+     "q": "Calculate the number of electrons released from water. Use the method 'Photolysis of Water'. Work with: water_moles = 75. Carry the chain through step by step and give the final value of oxygen_yield.",
+     "a": "37.5 units",
+     "self_check": false
+    },
+    {
+     "q": "How many water molecules are needed to produce oxygen? Use the method 'Photolysis of Water'. Work with: water_moles = 25. Carry the chain through step by step and give the final value of oxygen_yield.",
+     "a": "12.5 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Photolysis of Water' refers to.",
+     "a": "The light-dependent splitting of water molecules associated with Photosystem II to provide electrons for the transport chain.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Photolysis of Water'.",
+     "a": "Splitting of water replaces the electrons PS II loses and gives off oxygen in the process.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Photolysis of Water', in plain ASCII form.",
+     "a": "2H2O -> 4H+ + O2 + 4e-",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.111.4",
+   "title": "Z-Scheme Electron Transport",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Z-Scheme Electron Transport' refers to.",
+     "a": "The sequential movement of electrons from PS II to PS I, resulting in the reduction of NADP+ and synthesis of ATP.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Z-Scheme Electron Transport'.",
+     "a": "Electrons move in a zig-zag pattern across photosystems to create chemical energy carriers.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Z-Scheme Electron Transport', in plain ASCII form.",
+     "a": "Redox Potential = f(carrier_sequence)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.111.5",
+   "title": "Chemiosmotic ATP Synthesis",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Chemiosmotic ATP Synthesis' refers to.",
+     "a": "The mechanism of ATP production driven by a proton gradient established across the thylakoid membrane.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Chemiosmotic ATP Synthesis'.",
+     "a": "Proton accumulation in the lumen creates a gradient that powers ATP synthase.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Chemiosmotic ATP Synthesis', in plain ASCII form.",
+     "a": "ATP_yield = f(proton_gradient)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.111.6",
+   "title": "Calvin Cycle Stoichiometry",
+   "questions": [
+    {
+     "q": "Calculate ATP required for glucose synthesis. Use the method 'Calvin Cycle Stoichiometry'. Work with: glucose_moles = 150. Carry the chain through step by step and give the final value of total_nadph.",
+     "a": "1800 units",
+     "self_check": false
+    },
+    {
+     "q": "How many NADPH are used for a given amount of CO2? Use the method 'Calvin Cycle Stoichiometry'. Work with: glucose_moles = 4. Carry the chain through step by step and give the final value of total_nadph.",
+     "a": "48 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Calvin Cycle Stoichiometry' refers to.",
+     "a": "The cyclic pathway in the stroma where CO2 is fixed into glucose using ATP and NADPH from light reactions.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Calvin Cycle Stoichiometry'.",
+     "a": "Six turns of the cycle are indeed required to produce one hexose sugar molecule.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Calvin Cycle Stoichiometry', in plain ASCII form.",
+     "a": "1_Glucose = 6_CO2 + 18_ATP + 12_NADPH",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.111.7",
+   "title": "C4 Pathway and Kranz Anatomy",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'C4 Pathway and Kranz Anatomy' refers to.",
+     "a": "An adaptive photosynthetic pathway in tropical plants that minimizes photorespiration using specialized leaf structures.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'C4 Pathway and Kranz Anatomy'.",
+     "a": "Spatial separation of CO2 fixation (mesophyll) and the Calvin cycle (bundle sheath) increases efficiency.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'C4 Pathway and Kranz Anatomy', in plain ASCII form.",
+     "a": "CO2 + PEP -> OAA",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.111.8",
+   "title": "Photorespiration",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Photorespiration' refers to.",
+     "a": "A wasteful process where RuBisCO binds with oxygen instead of carbon dioxide, leading to CO2 loss without ATP production.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Photorespiration'.",
+     "a": "High oxygen concentration and temperature trigger the oxygenase activity of RuBisCO.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Photorespiration', in plain ASCII form.",
+     "a": "RuBP + O2 -> Phosphoglycerate + Phosphoglycolate",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.111.9",
+   "title": "Blackman's Law of Limiting Factors",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Blackman's Law of Limiting Factors' refers to.",
+     "a": "The principle stating that the rate of a multi-factor process is indeed limited by the factor present at the lowest level.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Blackman's Law of Limiting Factors'.",
+     "a": "The slowest step or scarcest resource determines the overall photosynthetic speed.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Blackman's Law of Limiting Factors', in plain ASCII form.",
+     "a": "Rate = min(factor_A, factor_B, factor_C)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

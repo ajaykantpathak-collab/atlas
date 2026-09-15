@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch07_078",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch07_078",
+   "title": "c6_math_ch07_078",
+   "questions": [
+    {
+     "q": "What is a line of symmetry in a 2D shape?",
+     "a": "It is an imaginary line that divides a shape into two identical mirror-image halves. A wrong answer like \"any line drawn through a shape\" shows the student doesn't understand that the two halves must match perfectly upon folding.",
+     "self_check": true
+    },
+    {
+     "q": "Does a circle have a limited number of lines of symmetry? Explain your reasoning.",
+     "a": "No, a circle has infinitely many lines of symmetry because any straight line passing through its center acts as a line of symmetry. Students who answer \"one\" or \"zero\" likely confuse a line of symmetry with a diagonal of a polygon.",
+     "self_check": true
+    },
+    {
+     "q": "If you draw a rectangle that is not a square, how many lines of symmetry can you find?",
+     "a": "A rectangle has exactly two lines of symmetry: one horizontal and one vertical. If a student answers \"four,\" they are incorrectly assuming all four-sided shapes (quadrilaterals) have the same symmetry as a square.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the letter \"A\" and the letter \"B.\" Which one has a line of symmetry? Where is it located?",
+     "a": "The letter \"A\" has one vertical line of symmetry down its center, while the letter \"B\" has one horizontal line of symmetry through its middle. Students failing this often struggle to visualize the shape reflected across an axis versus just looking at the shape as a whole.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Every triangle has at least one line of symmetry.\" Is this true?",
+     "a": "This is false; a scalene triangle has no lines of symmetry because all three sides have different lengths, making it impossible to fold into identical halves. If a student says \"true,\" they are over-generalizing from equilateral or isosceles triangles.",
+     "self_check": true
+    },
+    {
+     "q": "Draw a shape that has exactly three lines of symmetry. Label where these lines would be.",
+     "a": "An equilateral triangle is the correct shape. If a student draws a shape with two or four lines, they have failed to identify the unique geometric properties of the equilateral triangle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

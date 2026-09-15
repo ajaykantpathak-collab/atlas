@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_12_004",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_12_004",
+   "title": "c12_math_cbse_12_004",
+   "questions": [
+    {
+     "q": "State the exact mathematical condition that distinguishes a bounded feasible region from an unbounded one in a two-variable linear programming problem.",
+     "a": "A feasible region is bounded if it can be enclosed within a circle of finite radius (i.e., it does not extend infinitely in any direction); it is unbounded if it extends infinitely in at least one direction. A wrong answer (e.g., \"bounded means it has corners\" or \"bounded means all constraints are ≤\") reveals the student is relying on visual heuristics rather than the precise topological definition, which leads to errors when the region is a strip or a wedge that appears \"closed\" but is actually unbounded.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Theorem 2 (\"If R is bounded, then Z has both a maximum and a minimum on R\") fails if the feasible region R is unbounded. Give a concrete example of an unbounded region where the objective function has no maximum.",
+     "a": "Theorem 2 relies on the Extreme Value Theorem for continuous functions on compact sets; a bounded feasible region (closed and bounded in ℝ²) is compact, guaranteeing attainment of max/min. An unbounded region is not compact, so the linear function can increase/decrease without bound along an unbounded edge. Example: Maximize Z = x + y subject to x ≥ 0, y ≥ 0, x + y ≥ 1. The feasible region is the first quadrant minus a triangle; it is unbounded. As x → ∞, y = 0, Z → ∞, so no maximum exists. A student who says \"Theorem 2 still works because corner points exist\" misunderstands that unbounded regions may have corners but the objective can escape to infinity along rays.",
+     "self_check": true
+    },
+    {
+     "q": "Determine whether the feasible region for the following constraints is bounded or unbounded. If unbounded, state the direction(s) in which it extends infinitely.\nConstraints: x + 2y ≥ 10, 3x + 4y ≤ 24, x ≥ 0, y ≥ 0.",
+     "a": "Graph the lines: x + 2y = 10 (intercepts (10,0), (0,5)) and 3x + 4y = 24 (intercepts (8,0), (0,6)). The inequality x + 2y ≥ 10 gives the half-plane above the first line; 3x + 4y ≤ 24 gives the half-plane below the second line. Together with x ≥ 0, y ≥ 0, the feasible region is the quadrilateral with vertices (0,5), (0,6), (8,0), (10,0)? Wait: check intersection of x+2y=10 and 3x+4y=24 → multiply first by 2: 2x+4y=20, subtract from second: x=4, then y=3. So intersection is (4,3). The region is bounded by (0,5), (4,3), (8,0), and the axes? But x+2y ≥ 10 cuts off the origin. The feasible region is the polygon with vertices (0,5), (4,3), (8,0) — it is **bounded** (a triangle). A student who says \"unbounded because ≥ constraint\" reveals the misconception that any ≥ constraint makes the region unbounded; they must check intersection of all half-planes.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the LPP: Minimize Z = -50x + 20y subject to 2x - y ≥ -5, 3x + y ≥ 3, 2x - 3y ≤ 12, x ≥ 0, y ≥ 0. The corner points are (0,5), (0,3), (1,0), (6,0). The smallest value of Z at these corners is -300 at (6,0). A student claims the minimum is -300. Is the student correct? Justify using the half-plane test.",
+     "a": "The student is **incorrect**. The feasible region is unbounded (extends infinitely in the positive x and y directions). For an unbounded region, the smallest corner value is only a candidate. We must test the open half-plane -50x + 20y < -300, i.e., -5x + 2y < -30. Graph this line: when x=0, y=-15; when y=0, x=6. The half-plane below this line (since inequality is <) contains points like (7,0): -35 < -30 true. (7,0) satisfies all constraints? Check: 2(7)-0=14 ≥ -5 ✓; 3(7)+0=21 ≥ 3 ✓; 2(7)-0=14 ≤ 12 ✗. So (7,0) is not feasible. But (10,10): -50+20=-30 < -30? No, -30 < -30 false. Try (20,0): -100 < -30 true. Check constraints: 40 ≥ -5 ✓; 60 ≥ 3 ✓; 40 ≤ 12 ✗. The half-plane -5x+2y < -30 includes points with large x and small y, but 2x-3y ≤ 12 restricts x. Actually, the feasible region is bounded by 2x-3y=12 on the right. Let's find if any feasible point satisfies -5x+2y < -30. Solve 2x-3y=12 and -5x+2y=-30. From first: y = (2x-12)/3. Substitute: -5x + 2(2x-12)/3 = -30 → -15x + 4x -24 = -90 → -11x = -66 → x=6, y=0. That's the corner. The line -5x+2y=-30 intersects the boundary only at (6,0). For points on 2x-3y=12 with x>6, y>0: say x=9, y=2. Then -5(9)+2(2)=-45+4=-41 < -30. Check constraints: 2(9)-2=16 ≥ -5 ✓; 27+2=29 ≥ 3 ✓; 18-6=12 ≤ 12 ✓. So (9,2) is feasible and gives Z = -41 < -30. Thus the half-plane has common points with feasible region → **no minimum exists**. The student forgot the half-plane test for unbounded regions.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves an LPP with an unbounded feasible region and finds the maximum value of Z at a corner point. They then check the half-plane Z > M and find it has NO common points with the feasible region. They conclude the maximum is M. Another student argues: \"Since the region is unbounded, the maximum cannot exist.\" Who is correct? Explain the logical error in the second student's reasoning.",
+     "a": "The **first student is correct**. The second student incorrectly assumes \"unbounded region ⇒ no optimal value\". Theorem 1 states: if an optimal value exists, it occurs at a corner point. Theorem 2 says boundedness guarantees existence. For unbounded regions, existence is not guaranteed but is possible. The half-plane test (Step 3(ii) of Corner Point Method) is the precise criterion: if the open half-plane ax + by > M has no intersection with the feasible region, then M is indeed the maximum. The second student's error is confusing \"existence is not guaranteed\" with \"existence is impossible\". This is a critical logical distinction tested in JEE Advanced.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a linear programming problem (objective function and constraints) such that:\n- The feasible region is unbounded.\n- The objective function has a finite maximum but no minimum.\nProvide the constraints, objective function, and a brief justification.",
+     "a": "Example: Maximize/Minimize Z = -x + y subject to x ≥ 1, y ≥ 0, x + y ≥ 2.\nFeasible region: x ≥ 1 (vertical strip right of x=1), y ≥ 0 (upper half-plane), x+y ≥ 2 (above line through (2,0) and (0,2)). Intersection is unbounded, extending infinitely upward and rightward.\nCorner points: intersection of x=1 and x+y=2 → (1,1); intersection of x=1 and y=0 → (1,0) but x+y=1 ≥2? No, (1,0) gives 1≥2 false. So (1,0) not feasible. Intersection of y=0 and x+y=2 → (2,0). So corners: (1,1) and (2,0).\nZ at (1,1) = -1+1=0; at (2,0) = -2+0=-2.\nCheck maximum: candidate M=0 at (1,1). Half-plane -x+y > 0 → y > x. Does this intersect feasible region? Feasible region has x ≥ 1, y ≥ 0, y ≥ 2-x. For y > x, need x < y. But y ≥ 2-x and x ≥ 1. If y > x, then y ≥ x+1 (since integers? continuous). At x=1, y>1, say y=2: 1+2=3≥2 ✓. So (1,2) is feasible and gives Z=1 > 0. Thus half-plane intersects → maximum does not exist? Wait, we need a finite maximum. Let's adjust: Make objective Z = -x - y (so it decreases as x,y increase). Then at (1,1) Z=-2; at (2,0) Z=-2. But region extends to infinity, Z → -∞, so no minimum. Maximum? Z is negative and becomes more negative, so maximum is at corners? Check half-plane -x-y > -2 → x+y < 2. Feasible region requires x+y ≥ 2. So intersection is empty → maximum is -2. Minimum? Half-plane -x-y < -2 → x+y > 2. This intersects feasible region (e.g., (1,2): 3>2). So no minimum. Perfect.\nFinal answer: Minimize Z = -x - y subject to x ≥ 1, y ≥ 0, x + y ≥ 2. Feasible region unbounded. Maximum = -2 at (1,1) and (2,0) (and entire segment). No minimum. Justification: Half-plane for max (x+y<2) has no feasible points; half-plane for min (x+y>2) has feasible points (e.g., (1,2)).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

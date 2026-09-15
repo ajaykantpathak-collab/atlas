@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_10_002",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_10_002",
+   "title": "c11_phy_cbse_10_002",
+   "questions": [
+    {
+     "q": "State the exact numerical values (with units) of the ice point and steam point on the Celsius, Fahrenheit, and Kelvin scales.",
+     "a": "Ice point: 0 °C, 32 °F, 273.15 K. Steam point: 100 °C, 212 °F, 373.15 K. A wrong answer (e.g., 273 K for ice point, or 100 K for steam point) reveals that the student has memorised the Celsius values but not the Kelvin offsets, or confuses the triple point (273.16 K) with the ice point (273.15 K).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Kelvin scale is called an \"absolute\" temperature scale, whereas Celsius and Fahrenheit are \"relative\" scales. Use the ideal gas law in your reasoning.",
+     "a": "The Kelvin scale sets its zero at absolute zero (–273.15 °C), the temperature at which an ideal gas would exert zero pressure at constant volume (extrapolated from P ∝ T). Celsius and Fahrenheit zeros are arbitrarily chosen at the ice point and a salt-ice mixture respectively, not at a fundamental physical limit. A student who says \"Kelvin starts at zero so it's absolute\" without mentioning the gas thermometer extrapolation misses the physical basis; they are recalling a label, not the thermodynamic reason.",
+     "self_check": true
+    },
+    {
+     "q": "A laboratory thermometer reads –40 °C. What is this temperature in Fahrenheit and Kelvin? Show all steps with units.",
+     "a": "Step 1: Identify given: tC = –40 °C. Step 2: Use conversion formulas: tF = (9/5)tC + 32, T = tC + 273.15. Step 3: tF = (9/5)(–40) + 32 = –72 + 32 = –40 °F. Step 4: T = –40 + 273.15 = 233.15 K. Step 5: Check: –40 °C = –40 °F is a known coincidence; 233.15 K is positive and > 0 K, physically reasonable. A common error is forgetting the +32 in the Fahrenheit formula, giving –72 °F, or using 273 instead of 273.15 for Kelvin, giving 233 K (loss of precision).",
+     "self_check": true
+    },
+    {
+     "q": "Two constant-volume gas thermometers, one with helium and one with nitrogen, are calibrated at the triple point of water (273.16 K). They give slightly different pressures at the normal boiling point of sulphur. Explain why this happens and what procedure reduces the discrepancy.",
+     "a": "Real gases deviate from ideal behaviour; the pressure-temperature linearity is not perfect, especially at higher temperatures. The discrepancy arises because helium and nitrogen have different intermolecular forces and molecular volumes. To reduce it, perform measurements at several low pressures and extrapolate P → 0 (ideal gas limit) for each thermometer; the extrapolated temperatures will agree. A student who says \"the thermometers are faulty\" or \"use the same gas\" misses the point: the ideal gas scale is defined by the limiting behaviour, not by any single real gas.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since the size of a degree is the same on the Celsius and Kelvin scales, a temperature difference of 10 °C is equal to a temperature difference of 10 K, but a temperature of 10 °C is not equal to 10 K.\" Evaluate this statement and justify your answer.",
+     "a": "The statement is correct. Temperature differences are equal because ΔT/K = Δt/°C (the 273.15 offset cancels). However, absolute temperatures differ by the offset: 10 °C = 283.15 K ≠ 10 K. A student who says \"they are the same scale\" confuses interval equality with numerical equality of readings; this is a critical distinction for using gas laws (which require absolute temperature) versus calorimetry (which uses temperature differences).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only a mercury-in-glass thermometer, ice, water, and a burner to verify the linear relationship between the Celsius and Fahrenheit scales. Describe the procedure, the data to collect, and how you would analyse it.",
+     "a": "Procedure: (1) Prepare an ice-water bath (0 °C, 32 °F) and record the mercury length L0. (2) Heat water to boiling (100 °C, 212 °F) at 1 atm and record length L100. (3) At several intermediate temperatures (e.g., 20, 40, 60, 80 °C), record mercury length L_t and the corresponding Fahrenheit reading from a second thermometer or by calculation. (4) Plot tF vs. tC; the points should lie on a straight line. (5) Fit a line tF = m tC + c; verify m ≈ 9/5 = 1.8 and c ≈ 32. A poor answer would just say \"measure at two points\" — that assumes linearity rather than verifying it.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

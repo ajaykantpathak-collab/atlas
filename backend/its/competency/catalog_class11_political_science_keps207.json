@@ -1,0 +1,144 @@
+{
+  "class": 11,
+  "subject": "political_science",
+  "chapter": 207,
+  "chapter_title": "Federalism",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keps207.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keps207.1.1",
+      "title": "Federalism: Meaning and Key Features",
+      "section": "1.1",
+      "definition": "Federalism is a form of government in which sovereignty is constitutionally divided between a central authority and constituent units, each supreme in its own sphere. Its markers are two constitutionally guaranteed tiers of government, a written division of powers, and courts to arbitrate disputes between the tiers.",
+      "formula": "",
+      "key_idea": "Two governments, one constitution, no overlapping sovereignty -- federalism is power shared by design.",
+      "textbook_ref": "keps207.txt lines 15-120 (introduction and meaning of federalism, key features, dual polity, division of powers, written constitution, arbitration by courts)",
+      "question_patterns": [
+        "define federalism and list its essential features",
+        "in class 11 federalism chapter: how does a federal government differ from a unitary government",
+        "what is meant by a dual polity",
+        "why does federalism require a written constitution",
+        "who settles disputes between the union and the states",
+        "give examples of federal countries and unitary countries"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "identify the tiers", "explain": "A federation has a national government plus provincial or state governments, each constitutionally created."},
+        {"step": 2, "action": "check the division", "explain": "Powers are enumerated and divided so each tier is supreme within its sphere -- neither can abolish the other."},
+        {"step": 3, "action": "locate the umpire", "explain": "Independent courts interpret the division and settle intergovernmental disputes."}
+      ]
+    },
+    {
+      "id": "keps207.1.2",
+      "title": "Federalism in the Indian Constitution: Union, States and Lists",
+      "section": "1.2",
+      "definition": "The Indian Constitution creates a two-tier federation with a strong centre. The seventh schedule splits subjects into the union list, state list and concurrent list; residuary powers rest with the Union; and in emergencies the system bends toward unity, with Parliament empowered to legislate on state subjects.",
+      "formula": "",
+      "key_idea": "A federation with a unitary tilt -- three lists, residuary power at the centre, and emergency levers that reshape the balance.",
+      "textbook_ref": "keps207.txt lines 120-250 (federalism in the indian constitution, union state and concurrent lists, residuary powers, emergency provisions, strong centre)",
+      "question_patterns": [
+        "explain the division of subjects among the union state and concurrent lists",
+        "in class 11 federalism chapter: why is the indian federation described as holding together",
+        "who has residuary powers under the indian constitution",
+        "how do emergency provisions alter the federal balance",
+        "on concurrent list subjects which law prevails in a clash",
+        "why is india called a federation with a strong centre"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "map the lists", "explain": "Union list covers defence, currency and foreign affairs; state list covers police, agriculture, public health; concurrent list carries education and forests where both may act."},
+        {"step": 2, "action": "place the residue", "explain": "Any subject left unlisted belongs to the Union -- the centre's safety net."},
+        {"step": 3, "action": "note the emergency shift", "explain": "During national emergency Parliament may legislate on state subjects, converting the federation temporarily toward a unitary working."}
+      ]
+    },
+    {
+      "id": "keps207.1.3",
+      "title": "Conflict-Resolving Federalism: Language, Autonomy and Asymmetric Provisions",
+      "section": "1.3",
+      "definition": "Indian federalism has survived diversity by adjusting. The linguistic reorganisation of states in 1956 honoured language identities without breaking the union; special provisions under Articles 371 and former Article 370 accommodated particular histories; official bilingual policy and state autonomy demands show federation as continuous negotiation.",
+      "formula": "",
+      "key_idea": "Flexibility over rigidity -- redrawing boundaries and granting accommodations kept the union together where rigidity would have split it.",
+      "textbook_ref": "keps207.txt lines 250-380 (linguistic states, jvp committee and states reorganisation act 1956, official language compromise, special provisions article 370 and 371, demands for autonomy)",
+      "question_patterns": [
+        "why were states reorganised on linguistic lines in 1956",
+        "in class 11 federalism chapter: how did the constitution accommodate special provisions for certain states",
+        "how was the official language controversy resolved",
+        "what are the demands for greater state autonomy",
+        "explain asymmetric federalism with indian examples",
+        "did linguistic reorganisation weaken or strengthen indian unity"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "trace the linguistic settlement", "explain": "After the Andhra movement, the States Reorganisation Act of 1956 redrew boundaries mainly on language, absorbing identity into federal design."},
+        {"step": 2, "action": "trace the language settlement", "explain": "Hindi became official language with English retained indefinitely by compromise, defusing anti-Hindi agitations."},
+        {"step": 3, "action": "trace the special arrangements", "explain": "Articles like 370 (Jammu and Kashmir, until 2019) and 371 series gave tailored provisions, showing asymmetric accommodation inside one federation."}
+      ]
+    },
+    {
+      "id": "keps207.1.4",
+      "title": "Centre-State Relations and Instruments of Central Control",
+      "section": "1.4",
+      "definition": "Besides the lists, the centre holds levers that tilt the federation: governors appointed by the centre, the President's rule under Article 356, central grants and finance commission allocations, and all-India services staffing state administrations. Sarkaria and Punchhi commissions urged restraint in using these levers so cooperative federalism can work.",
+      "formula": "",
+      "key_idea": "Governors, Article 356, grants and shared services -- the centre's levers, and the case for using them sparingly.",
+      "textbook_ref": "keps207.txt lines 380-500 (centre state relations, role of governor, presidents rule article 356, sarkaria commission, finance commission, cooperative federalism)",
+      "question_patterns": [
+        "what instruments give the centre control over the states",
+        "in class 11 federalism chapter: what is presidents rule under article 356",
+        "what are the recommendations of the sarkaria commission on centre state relations",
+        "how does the role of the governor create federal friction",
+        "how do finance commission grants affect centre state balance",
+        "explain cooperative federalism with examples"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "list the constitutional levers", "explain": "Appointment of governors, emergency powers under 356, reserve legislation in emergencies, and financial dependence on central transfers."},
+        {"step": 2, "action": "recall the checks and norms", "explain": "S.R. Bommai's ruling made President's rule judicially reviewable; commissions urged it as a last resort with prior warning."},
+        {"step": 3, "action": "toward cooperation", "explain": "Councils, commissions and consultation aim to convert hierarchical control into negotiated, cooperative federalism."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keps207.txt lines 120-250 (division of powers)",
+      "concept": "keps207.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "A state passes a law on electricity tariffs while Parliament passes another on the same subject, and the two conflict. Which list covers electricity, and whose law prevails?",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "place the subject", "explain": "Electricity sits in the concurrent list, so both levels may legislate on it."},
+        {"step": 2, "action": "apply the clash rule", "explain": "On concurrent subjects, a Union law prevails over a state law to the extent of the repugnance."},
+        {"step": 3, "action": "note the exception", "explain": "A state law can survive with presidential assent where the Constitution so provides -- the federal safety valve."}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keps207.txt lines 380-500 (article 356)",
+      "concept": "keps207.1.4",
+      "question_type": "verify_property",
+      "question_pattern": "A state government loses its majority and the centre imposes President's rule within hours. Explain the safeguards now placed on such an action after the Bommai judgement.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "state the power", "explain": "Article 356 lets the centre take over a state when its constitutional machinery fails."},
+        {"step": 2, "action": "state the judicial check", "explain": "In S.R. Bommai, the Supreme Court made proclamations judicially reviewable and required testing the majority on the floor first."},
+        {"step": 3, "action": "conclude", "explain": "President's rule is now a last resort -- floor test, parliamentary approval within two months, and possible revocation by courts."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keps207.txt end-of-chapter exercises, reworded",
+      "questions": [
+        "What are the main features of a federal form of government?",
+        "Explain the three lists of the Seventh Schedule with examples of subjects under each.",
+        "Why is India described as an asymmetric federation? Illustrate with examples.",
+        "How was the demand for linguistic states settled, and with what consequences?",
+        "Discuss the role of Governors and Article 356 in centre-state relations.",
+        "What is cooperative federalism and how can it be strengthened in India?"
+      ]
+    }
+  ]
+}

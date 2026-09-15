@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_05_007",
+   "title": "c11_geo_cbse_05_007",
+   "questions": [
+    {
+     "q": "Define mechanically formed sedimentary rocks and name the two most common examples studied in Class 11 Geography.",
+     "a": "Mechanically formed sedimentary rocks are rocks formed from the lithification of clastic sediments derived from mechanical weathering of pre-existing rocks; the two most common examples are sandstone and shale. A wrong answer (e.g., \"rocks formed from evaporation\" or naming limestone/coal) reveals confusion between clastic and chemical/organic sedimentary processes — the student has not distinguished the sediment source (weathered fragments vs. dissolved ions/organic matter).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why sandstone forms in high-energy environments like river channels and beaches, while shale forms in low-energy settings like deep lakes and offshore marine basins.",
+     "a": "Sand-sized grains (0.0625–2 mm) require stronger currents to stay in suspension and are deposited when flow velocity drops abruptly in channels or shore zones; clay/silt particles (<0.0625 mm) remain suspended in weak currents and settle only in quiet, low-energy water. A wrong answer attributing the difference to \"chemical composition\" or \"climate\" shows the student misses the hydraulic sorting principle — the core link between fluid energy, grain size, and depositional facies.",
+     "self_check": true
+    },
+    {
+     "q": "A sandstone sample from the Vindhyan Supergroup (Central India) shows well-rounded, well-sorted quartz grains with silica cement and large-scale cross-bedding. Identify the most likely depositional environment and justify using three sedimentary features.",
+     "a": "Aeolian (desert) sand dune environment. Steps: (1) Well-rounded grains indicate prolonged abrasion during wind transport. (2) Well-sorted grains reflect selective wind transport (only sand moves, dust is winnowed away). (3) Large-scale cross-bedding records migrating dune slip faces. (4) Silica cement is typical of arid settings where groundwater circulates slowly. A wrong answer (e.g., \"river channel\") ignores that rivers produce smaller cross-sets and less rounding; the student fails to link specific textures to specific agents.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reservoir potential of sandstone and shale in the context of groundwater and hydrocarbon exploration in the Cambay Basin (Gujarat).",
+     "a": "Sandstone acts as a reservoir rock: interconnected pore spaces (primary porosity 15–25%) store and transmit water/oil/gas. Shale acts as a seal (cap rock): ultra-low permeability (<0.001 mD) traps hydrocarbons; also serves as source rock when organic-rich (Type II/III kerogen). In Cambay Basin, Eocene sandstone reservoirs are sealed by overlying shale. A wrong answer reversing the roles shows the student cannot apply porosity/permeability concepts to real exploration geology — a key Class 11 competency.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"All shales are impermeable and therefore useless for groundwater extraction.\"",
+     "a": "The statement is false. While intact shale has very low matrix permeability, fractured or weathered shale can yield groundwater (secondary porosity). In the Deccan Traps region, weathered shale interbeds act as local aquifers. Also, shale gas exploitation (e.g., Cambay, KG Basin) relies on induced hydraulic fracturing to create permeability. A wrong answer accepting the statement reveals a static view of rock properties — the student misses that permeability is scale-dependent and modifiable by tectonics/weathering.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field observation checklist for a Class 11 student visiting a roadcut exposing alternating sandstone and shale layers in the Siwalik Hills (Himalayan foreland basin) to distinguish fluvial channel sandstones from overbank floodplain shales.",
+     "a": "Checklist: (1) Sandstone: trough cross-bedding, channel scour base, coarse tail, fining-upward sequence, intraformational clay clasts → channel deposit. (2) Shale: parallel lamination, root traces, mud cracks, pedogenic carbonate nodules, fossil soil horizons (paleosols) → floodplain. (3) Lateral continuity: sandstone lenses pinch out; shale sheets extend laterally. (4) Grain size trend: sandstone coarsens at base; shale fines upward. Poor answer listing only \"sandstone is hard, shale is soft\" shows inability to read process from architecture — the core skill of facies analysis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

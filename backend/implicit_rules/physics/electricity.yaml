@@ -1,0 +1,127 @@
+# Implicit Value Rules — Physics: Electricity & Magnetism
+
+rules:
+  - rule_id: "IMPL_ELC_001"
+    priority: 10
+    patterns:
+      - "open circuit"
+      - "broken circuit"
+      - "no current flows"
+      - "circuit is open"
+    conditions:
+      - concept_tag in ["PHY_ELC"]
+      - not already_bound["I"]
+    bindings:
+      - symbol: "I"
+        value: 0.0
+        unit: "A"
+        reason: "Open circuit means no current flows (I = 0)."
+    confidence: 1.0
+
+  - rule_id: "IMPL_ELC_002"
+    priority: 10
+    patterns:
+      - "short circuit"
+      - "ideal wire"
+      - "perfect conductor"
+      - "no resistance"
+    conditions:
+      - concept_tag in ["PHY_ELC"]
+      - not already_bound["R"]
+    bindings:
+      - symbol: "R"
+        value: 0.0
+        unit: "ohm"
+        reason: "Short circuit / ideal wire has zero resistance."
+    confidence: 1.0
+
+  - rule_id: "IMPL_ELC_003"
+    priority: 8
+    patterns:
+      - "just after switching"
+      - "immediately after"
+      - "just after closing"
+      - "at t = 0"
+    conditions:
+      - concept_tag in ["PHY_ELC", "PHY_EMI"]
+      - not already_bound["I_initial"]
+    bindings:
+      - symbol: "I_initial"
+        value: 0.0
+        unit: "A"
+        reason: "Just after switching on a DC circuit with inductor, current is zero."
+    confidence: 0.85
+
+  - rule_id: "IMPL_ELC_010"
+    priority: 7
+    patterns:
+      - "ideal battery"
+      - "ideal cell"
+      - "no internal resistance"
+    conditions:
+      - concept_tag in ["PHY_ELC"]
+    bindings:
+      - symbol: "r"
+        value: 0.0
+        unit: "ohm"
+        reason: "Ideal battery has zero internal resistance."
+    confidence: 1.0
+
+  - rule_id: "IMPL_ELC_020"
+    priority: 8
+    patterns:
+      - "in series"
+      - "series combination"
+    conditions:
+      - concept_tag in ["PHY_ELC"]
+    bindings:
+      - symbol: "connection"
+        value: 1.0
+        unit: ""
+        reason: "Series connection: resistances add (R = R1 + R2 + ...)."
+    confidence: 1.0
+
+  - rule_id: "IMPL_ELC_021"
+    priority: 8
+    patterns:
+      - "in parallel"
+      - "parallel combination"
+    conditions:
+      - concept_tag in ["PHY_ELC"]
+    bindings:
+      - symbol: "connection"
+        value: 2.0
+        unit: ""
+        reason: "Parallel connection: 1/R = 1/R1 + 1/R2 + ..."
+    confidence: 1.0
+
+  # ── Electrostatics constants ──
+  - rule_id: "IMPL_ELC_030"
+    priority: 5
+    patterns:
+      - "coulomb"
+      - "electrostatic"
+      - "charge"
+      - "point charge"
+    conditions:
+      - not already_bound["k"]
+    bindings:
+      - symbol: "k"
+        value: 9.0e9
+        unit: "N*m^2/C^2"
+        reason: "Coulomb's constant k = 9×10⁹ N⋅m²/C²."
+    confidence: 0.9
+
+  - rule_id: "IMPL_ELC_031"
+    priority: 5
+    patterns:
+      - "permittivity"
+      - "dielectric"
+    conditions:
+      - not already_bound["epsilon_0"]
+    bindings:
+      - symbol: "epsilon_0"
+        value: 8.854e-12
+        unit: "F/m"
+        reason: "Permittivity of free space ε₀ = 8.854×10⁻¹² F/m."
+    confidence: 0.9

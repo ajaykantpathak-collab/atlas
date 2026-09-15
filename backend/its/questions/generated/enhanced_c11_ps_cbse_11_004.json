@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_11_004",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_11_004",
+   "title": "c11_ps_cbse_11_004",
+   "questions": [
+    {
+     "q": "Which constitutional article explicitly abolishes untouchability and makes its practice in any form a punishable offence under law?",
+     "a": "Article 17. A wrong answer (e.g., Article 15 or Article 14) reveals the student conflates general non-discrimination with the specific abolition of untouchability. Article 17 is unique because it operates horizontally against private individuals, not just the State, and does not require a \"discrimination\" analysis—untouchability itself is the offence.",
+     "self_check": true
+    },
+    {
+     "q": "A state government issues an order reserving 50% seats in government medical colleges for Scheduled Castes and Scheduled Tribes. A general category student challenges this under Article 15(1). Explain why the court would likely uphold the reservation using Article 15(4).",
+     "a": "Article 15(4) is an enabling provision that permits the State to make special provisions for socially and educationally backward classes (SEBCs), SCs, and STs, notwithstanding Article 15(1) or Article 29(2). The court applies the \"compelling state interest\" test: remedying historical exclusion qualifies. A wrong answer treating Article 15(4) as an exception rather than an enabling provision, or ignoring the 50% ceiling rule (Indra Sawhney), shows misunderstanding of the constitutional balance between formal and substantive equality.",
+     "self_check": true
+    },
+    {
+     "q": "A private unaided engineering college refuses admission to a Muslim student solely based on religion. The student files a writ petition under Article 32 citing Article 15(1). Will the petition succeed? Explain the State action doctrine in this context.",
+     "a": "The petition will likely fail against the private college under Article 15(1) because Article 15(1) binds only the \"State\" (defined in Article 12). Private unaided institutions are not \"State\" unless performing governmental functions (T.M.A. Pai Foundation). However, Article 15(2) applies to \"shops, public restaurants, hotels, and places of public entertainment\" — if the college is deemed a place of public entertainment, 15(2) might apply. A wrong answer claiming Article 15(1) directly binds all private entities reveals confusion between vertical (State-citizen) and horizontal (citizen-citizen) application of Fundamental Rights.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the scope of \"discrimination\" under Article 15(1) and \"untouchability\" under Article 17. Why did the Constituent Assembly include both instead of relying only on Article 15(1)?",
+     "a": "Article 15(1) prohibits discrimination on five specific grounds (religion, race, caste, sex, place of birth) by the State. Article 17 abolishes untouchability as a social practice in any form, binds private individuals, and criminalizes its practice. The Assembly included both because untouchability was a unique, pervasive, caste-based disability not fully captured by \"discrimination\" — it involved pollution-purity notions, social boycott, and denial of basic human dignity beyond State action. A wrong answer treating them as overlapping or redundant misses the historical specificity: Article 17 targets a practice, Article 15(1) targets a classification.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the constitutional validity of the 103rd Constitutional Amendment (2019) providing 10% EWS reservation in educational institutions (including private unaided) under Article 15(6). Does it violate the basic structure doctrine?",
+     "a": "The Supreme Court upheld it in Janhit Abhiyan (2022) by 3:2 majority. The majority held economic criteria alone can be a basis for classification under Article 15(6), the 50% ceiling is not inflexible for EWS, and private unaided institutions can be regulated under Article 19(1)(g) read with Article 15(6). The dissent argued it violates the basic structure by exceeding 50% and using purely economic criteria without social backwardness. A student answering \"clearly unconstitutional\" or \"clearly valid\" without engaging the competing interpretations of \"equality\" and \"basic structure\" shows evaluative deficiency.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph provision for a hypothetical \"Article 15(7)\" that addresses algorithmic discrimination in public sector hiring using AI systems, consistent with the constitutional scheme of Articles 15-17.",
+     "a": "A strong answer: \"Nothing in Article 15(1) or Article 16(1) shall prevent the State from mandating algorithmic transparency, bias audits, and human oversight in automated decision-making systems used for public employment or education admissions, to ensure that such systems do not replicate historical discrimination on grounds prohibited under Article 15(1) or perpetuate untouchability practices prohibited under Article 17.\" Weak answers either ignore the State action requirement, fail to link to prohibited grounds, or propose blanket bans on AI without constitutional anchoring.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

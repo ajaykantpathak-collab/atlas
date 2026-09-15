@@ -1,0 +1,377 @@
+{
+ "catalog": "catalog_class12_accountancy_leac203",
+ "concepts": [
+  {
+   "id": "leac.203.1.1",
+   "title": "Meaning of Financial Statements",
+   "questions": [
+    {
+     "q": "Using the method 'Meaning of Financial Statements', work with: balance_sheet = 12000, cash_flow_statement = 200, statement_of_profit_and_loss = 80000. Carry the chain through step by step and give the final value of financial_statements.",
+     "a": "92200 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Meaning of Financial Statements' and work with: balance_sheet = 2500, cash_flow_statement = 200, statement_of_profit_and_loss = 80000. Carry the chain through step by step and give the final value of financial_statements.",
+     "a": "82700 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Meaning of Financial Statements' refers to.",
+     "a": "Financial statements are the formal yearly reports through which a company's management tells outsiders how the business fared: the balance sheet at period end, the statement of profit and loss for the period, and the cash flow statement.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Meaning of Financial Statements'.",
+     "a": "They are the summarised end product of the whole accounting cycle, built to help owners, lenders and the state take economic decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Meaning of Financial Statements', in plain ASCII form.",
+     "a": "financial_statements = balance_sheet + statement_of_profit_and_loss + cash_flow_statement",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.203.2.1",
+   "title": "Nature of Financial Statements",
+   "questions": [
+    {
+     "q": "Using the method 'Nature of Financial Statements', work with: accounting_conventions = 3, personal_judgements = 45, recorded_facts = 24. Carry the chain through step by step and give the final value of statement_figures.",
+     "a": "72 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Nature of Financial Statements' and work with: accounting_conventions = 200, personal_judgements = 8, recorded_facts = 40. Carry the chain through step by step and give the final value of statement_figures.",
+     "a": "248 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Nature of Financial Statements' refers to.",
+     "a": "The figures in financial statements rest on recorded facts expressed in money, on accounting conventions the preparers adopt, and on personal judgements about matters like asset lives and provision levels, so the statements describe but never photograph reality.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Nature of Financial Statements'.",
+     "a": "Because conventions and judgement enter the numbers, two honest accountants can produce slightly different statements for the same business.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Nature of Financial Statements', in plain ASCII form.",
+     "a": "statement_figures = recorded_facts + accounting_conventions + personal_judgements",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.203.3.1",
+   "title": "Objectives of Financial Statements",
+   "questions": [
+    {
+     "q": "Using the method 'Objectives of Financial Statements', work with: management_needs = 50, position_information = 500, profitability_information = 1200. Carry the chain through step by step and give the final value of reporting_objective.",
+     "a": "1750 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Objectives of Financial Statements' and work with: management_needs = 500, position_information = 60, profitability_information = 80000. Carry the chain through step by step and give the final value of reporting_objective.",
+     "a": "80560 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Objectives of Financial Statements' refers to.",
+     "a": "The statements exist to hand shareholders and outsiders reliable information about operating results and financial health, and to give management a base for planning, decision making and control.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Objectives of Financial Statements'.",
+     "a": "One package, two jobs: prove performance to outsiders and feed internal decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Objectives of Financial Statements', in plain ASCII form.",
+     "a": "reporting_objective = profitability_information + position_information + management_needs",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.203.4.1",
+   "title": "Types of Financial Statements",
+   "questions": [
+    {
+     "q": "Using the method 'Types of Financial Statements', work with: balance_sheet = 120000, cash_flow_statement = 300, notes_to_accounts = 30, profit_and_loss_statement = 1200. Carry the chain through step by step and give the final value of statement_set.",
+     "a": "121530 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Types of Financial Statements' and work with: balance_sheet = 120000, cash_flow_statement = 8, notes_to_accounts = 30, profit_and_loss_statement = 50000. Carry the chain through step by step and give the final value of statement_set.",
+     "a": "170038 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Types of Financial Statements' refers to.",
+     "a": "A company prepares a balance sheet and a statement of profit and loss for external reporting, plus a cash flow statement that tracks fund movements, and every company registered under the Act follows the revised Schedule III format for all of them.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Types of Financial Statements'.",
+     "a": "Schedule III dictates the shape; accounting standards dictate the meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Types of Financial Statements', in plain ASCII form.",
+     "a": "statement_set = balance_sheet + profit_and_loss_statement + cash_flow_statement + notes_to_accounts",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.203.4.2",
+   "title": "Schedule III Balance Sheet Heads",
+   "questions": [
+    {
+     "q": "Using the method 'Schedule III Balance Sheet Heads', work with: current_liabilities = 3, non_current_liabilities = 3, shareholders_funds = 0.45. Carry the chain through step by step and give the final value of total_equity_and_liabilities.",
+     "a": "6.45 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Schedule III Balance Sheet Heads' and work with: current_liabilities = 15, non_current_liabilities = 10, shareholders_funds = 0.2. Carry the chain through step by step and give the final value of total_equity_and_liabilities.",
+     "a": "25.2 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Schedule III Balance Sheet Heads' refers to.",
+     "a": "The Schedule III balance sheet runs vertically: first Equity and Liabilities split into shareholders' funds, non-current liabilities and current liabilities; then Assets split into non-current and current, each head carrying fixed sub-items with figures for both reporting dates.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Schedule III Balance Sheet Heads'.",
+     "a": "Every item has a fixed home in the format -- debentures under long-term borrowings, loose tools inside inventories -- and notes carry the details.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Schedule III Balance Sheet Heads', in plain ASCII form.",
+     "a": "total_equity_and_liabilities = shareholders_funds + non_current_liabilities + current_liabilities",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.203.4.3",
+   "title": "Current versus Non-current Classification",
+   "questions": [
+    {
+     "q": "Using the method 'Current versus Non-current Classification', work with: twelve_months_or_operating_cycle = 200. Carry the chain through step by step and give the final value of classification_horizon.",
+     "a": "200 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Current versus Non-current Classification' and work with: twelve_months_or_operating_cycle = 80. Carry the chain through step by step and give the final value of classification_horizon.",
+     "a": "80 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Current versus Non-current Classification' refers to.",
+     "a": "An asset or liability is current when the business expects to realise or settle it within twelve months or the operating cycle, whichever fits; loans repayable on demand are always short-term, and deferred tax always stays non-current.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Current versus Non-current Classification'.",
+     "a": "The operating cycle, not the calendar alone, decides the split; the portion of long-term debt due within a year moves to current maturities.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Current versus Non-current Classification', in plain ASCII form.",
+     "a": "classification_horizon = twelve_months_or_operating_cycle",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.203.4.4",
+   "title": "Reserves and Surplus Note",
+   "questions": [
+    {
+     "q": "Compute the reserves and surplus figure for the balance sheet note. Use the method 'Reserves and Surplus Note'. Work with: preliminary_expenses = 12000, securities_premium = 500, surplus_in_profit_and_loss = 2500. Carry the chain through step by step and give the final value of reserves_and_surplus.",
+     "a": "-9000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the reserve figure when preliminary expenses exceed the premium. Use the method 'Reserves and Surplus Note'. Work with: preliminary_expenses = 1200, securities_premium = 80000, surplus_in_profit_and_loss = 8000. Carry the chain through step by step and give the final value of reserves_and_surplus.",
+     "a": "86800 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Reserves and Surplus Note' refers to.",
+     "a": "In the note, reserves and surplus starts with the securities premium, knocks out unwritten preliminary expenses, and adds the credit balance of the statement of profit and loss to arrive at the single figure shown under shareholders' funds.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Reserves and Surplus Note'.",
+     "a": "Preliminary expenses must be written off at once -- first from premium, the rest from profit -- so they shrink the reserve note immediately.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Reserves and Surplus Note', in plain ASCII form.",
+     "a": "reserves_and_surplus = securities_premium - preliminary_expenses + surplus_in_profit_and_loss",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.203.4.5",
+   "title": "Balance Sheet Total",
+   "questions": [
+    {
+     "q": "Find the total of the balance sheet from the given items. Use the method 'Balance Sheet Total'. Work with: current_liabilities = 240, non_current_liabilities = 45, reserves_and_surplus = 5, share_capital = 0.8. Carry the chain through step by step and give the final value of balance_sheet_total.",
+     "a": "290.8 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Compute the closing balance sheet total after classifying items. Use the method 'Balance Sheet Total'. Work with: current_liabilities = 240, non_current_liabilities = 40, reserves_and_surplus = 400, share_capital = 0.4. Carry the chain through step by step and give the final value of balance_sheet_total.",
+     "a": "680.4 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Balance Sheet Total' refers to.",
+     "a": "The grand total of the company balance sheet is the sum of shareholders' funds, non-current liabilities and current liabilities, and it must equal the total of non-current and current assets on the other side.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Balance Sheet Total'.",
+     "a": "Both sides carry the same total by construction; any gap means an item landed in the wrong head.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Balance Sheet Total', in plain ASCII form.",
+     "a": "balance_sheet_total = shareholders_funds + non_current_liabilities + current_liabilities",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.203.4.6",
+   "title": "Statement of Profit and Loss Format",
+   "questions": [
+    {
+     "q": "Using the method 'Statement of Profit and Loss Format', work with: total_expenses = 12000, total_revenue = 120000. Carry the chain through step by step and give the final value of profit_before_tax.",
+     "a": "108000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Statement of Profit and Loss Format' and work with: total_expenses = 12000, total_revenue = 50000. Carry the chain through step by step and give the final value of profit_before_tax.",
+     "a": "38000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Statement of Profit and Loss Format' refers to.",
+     "a": "The Schedule III profit statement runs from revenue from operations plus other income, through classified expenses (materials, employees, finance, depreciation, others), to profit before tax, then tax, to the profit for the period, ending with earnings per share.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Statement of Profit and Loss Format'.",
+     "a": "Employee benefit expenses collect wages and salaries into one line; finance cost holds only interest -- bank charges go elsewhere.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Statement of Profit and Loss Format', in plain ASCII form.",
+     "a": "profit_before_tax = total_revenue - total_expenses",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.203.4.7",
+   "title": "Profit before Tax under Schedule III",
+   "questions": [
+    {
+     "q": "Compute profit before tax as per Schedule III. Use the method 'Profit before Tax under Schedule III'. Work with: cost_of_materials = 120000, depreciation = 80000, finance_costs = 500, other_income = 8000, revenue_from_operations = 80000, salaries = 8, wages = 25. Carry the chain through step by step and give the final value of profit_before_tax.",
+     "a": "-112533 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Work out the profit a company reports before tax from given balances. Use the method 'Profit before Tax under Schedule III'. Work with: cost_of_materials = 8000, depreciation = 12000, finance_costs = 8000, other_income = 8000, revenue_from_operations = 80000, salaries = 60, wages = 150. Carry the chain through step by step and give the final value of profit_before_tax.",
+     "a": "59790 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Profit before Tax under Schedule III' refers to.",
+     "a": "Profit before tax is what remains of revenue from operations and other income after meeting the classified expense lines, with the expense sub-totals such as employee benefits built up in the notes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Profit before Tax under Schedule III'.",
+     "a": "Each expense head is one note line, so the statement face stays short while the arithmetic sits in the notes.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Profit before Tax under Schedule III', in plain ASCII form.",
+     "a": "profit_before_tax = (revenue_from_operations + other_income) - (cost_of_materials + employee_benefits + finance_costs + depreciation)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.203.5.1",
+   "title": "Uses and Users of Financial Statements",
+   "questions": [
+    {
+     "q": "Using the method 'Uses and Users of Financial Statements', work with: creditors = 45, employees = 120, government = 500, investors = 3, management = 150. Carry the chain through step by step and give the final value of statement_users.",
+     "a": "818 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Uses and Users of Financial Statements' and work with: creditors = 8, employees = 25, government = 100, investors = 3, management = 2600. Carry the chain through step by step and give the final value of statement_users.",
+     "a": "2736 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Uses and Users of Financial Statements' refers to.",
+     "a": "Management, investors, lenders, employees, government and the public each read the same statements for their own reason -- performance, security, wages, taxation or regulation -- which is why the disclosures must stay standard.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Uses and Users of Financial Statements'.",
+     "a": "One standard package serves many decisions: lending, taxing, investing, bargaining and regulating.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Uses and Users of Financial Statements', in plain ASCII form.",
+     "a": "statement_users = management + investors + creditors + government + employees",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.203.6.1",
+   "title": "Limitations of Financial Statements",
+   "questions": [
+    {
+     "q": "Using the method 'Limitations of Financial Statements', work with: full_picture = 50, unmeasured_factors = 8. Carry the chain through step by step and give the final value of statement_reliability.",
+     "a": "42 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Limitations of Financial Statements' and work with: full_picture = 120, unmeasured_factors = 15. Carry the chain through step by step and give the final value of statement_reliability.",
+     "a": "105 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Limitations of Financial Statements' refers to.",
+     "a": "The statements report only what money can measure, lean on historical cost, hide qualitative strengths, and depend on estimates and window dressing, so they guide but cannot guarantee a full picture of the business.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Limitations of Financial Statements'.",
+     "a": "Intangibles like skill and brand, inflation effects and management bias stay outside the numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Limitations of Financial Statements', in plain ASCII form.",
+     "a": "statement_reliability = full_picture - unmeasured_factors",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

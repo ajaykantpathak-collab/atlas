@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch7_6",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch7_6",
+   "title": "c9_math_ch7_6",
+   "questions": [
+    {
+     "q": "A bag contains 3 red, 4 blue, and 5 green marbles. One marble is drawn at random. What is the total number of outcomes in the sample space?",
+     "a": "12. The sample space consists of each individual marble as a distinct outcome, so total outcomes = 3+4+5 = 12. A wrong answer of 3 (counting only colours) reveals the student thinks outcomes are colour categories rather than distinct marbles, ignoring the equally likely requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Two coins are tossed simultaneously. A student says the sample space is {2 Heads, 1 Head 1 Tail, 2 Tails} and claims total outcomes = 3. Explain why this sample space is incorrect for classical probability.",
+     "a": "The outcomes are not equally likely: P(2 Heads)=1/4, P(1 Head 1 Tail)=1/2, P(2 Tails)=1/4. The correct sample space is {HH, HT, TH, TT} with 4 equally likely outcomes. If the student says \"it's still three outcomes\" they confuse distinct results with equally likely elementary events.",
+     "self_check": true
+    },
+    {
+     "q": "A die is rolled once. Event E: \"getting a prime number\". List the favourable outcomes and state n(E).",
+     "a": "Sample space = {1,2,3,4,5,6}. Prime numbers are 2,3,5. Favourable outcomes = {2,3,5}, so n(E)=3. A wrong answer including 1 (not prime) or missing 2 (smallest prime) shows confusion about prime definition or careless listing.",
+     "self_check": true
+    },
+    {
+     "q": "A card is drawn from a well-shuffled standard deck of 52 cards. Event A: \"card is a face card\". Event B: \"card is a spade\". Compare n(A) and n(B). Which is larger and by how much?",
+     "a": "n(A)=12 (J,Q,K of 4 suits), n(B)=13 (13 spades). n(B) is larger by 1. A student saying n(A)=16 (counting Ace as face) or n(B)=12 (forgetting one spade) reveals misunderstanding of deck composition.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Two dice are rolled. Total outcomes = 6+6=12.\" Identify the error and give the correct total outcomes.",
+     "a": "Error: Adding instead of multiplying. The two dice are independent; each of the 6 outcomes of the first die pairs with 6 outcomes of the second, giving 6×6=36 ordered pairs. If the student says \"12 is correct because there are two dice\" they lack the fundamental counting principle.",
+     "self_check": true
+    },
+    {
+     "q": "Create a random experiment with exactly 8 equally likely outcomes. Define an event that has exactly 3 favourable outcomes. Write the sample space and the event as sets.",
+     "a": "Example: Draw a ticket numbered 1 to 8 from a box. Sample space S={1,2,3,4,5,6,7,8}. Event E = \"number is a multiple of 3\" = {3,6}. That's only 2 favourable. Better: E = \"number is even and less than 7\" = {2,4,6} → n(E)=3. A poor answer uses non-equally likely outcomes (e.g., \"pick a student from class\") or wrong count.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

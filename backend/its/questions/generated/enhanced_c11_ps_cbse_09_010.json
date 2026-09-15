@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_09_010",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_09_010",
+   "title": "c11_ps_cbse_09_010",
+   "questions": [
+    {
+     "q": "Define 'state security' and 'human security' in one sentence each, and name the UN report that popularized the seven dimensions of human security.",
+     "a": "State security refers to the protection of a state's sovereignty, territorial integrity, and political independence primarily from external military threats. Human security is an approach that prioritizes the safety and well-being of individuals across seven dimensions: economic, food, health, environmental, personal, community, and political security. The 1994 UNDP Human Development Report introduced this framework. A wrong answer that equates human security with humanitarian aid or misses the seven dimensions reveals a superficial understanding of the paradigm shift.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the shift from state security to human security is described as 'widening' the concept of security. Use the distinction between 'negative peace' and 'positive peace' in your answer.",
+     "a": "The shift is called 'widening' because it expands the referent object (from state to individual), the types of threats (from military to include hunger, disease, climate), and the means of response (from military force to development, governance, rights). Negative peace is the absence of direct violence/war — a state-security concern. Positive peace requires the absence of structural violence (poverty, discrimination) — a human-security concern. Thus, human security operationalizes positive peace. A wrong answer that only lists new threats without linking to the referent object or positive peace shows incomplete comprehension.",
+     "self_check": true
+    },
+    {
+     "q": "A small island nation faces rising sea levels that threaten to submerge its territory within 50 years. The government requests international funds to build sea walls and also to relocate communities. Using the human security framework, identify which three dimensions are most directly threatened and argue whether a state-security approach alone would be sufficient.",
+     "a": "The most directly threatened dimensions are environmental security (climate change), community security (loss of homeland and culture), and personal security (displacement risks). A state-security approach focusing on territorial defense (sea walls) addresses only the physical territory, not the survival and dignity of the people. Relocation requires economic, health, and political security guarantees. A state-centric view might even treat displaced populations as a security threat rather than rights-holders. A wrong answer that says 'state security is enough because it protects borders' misses the core insight that the state may survive physically while its people perish.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the critique of human security from a realist perspective (state-centric) with the feminist critique. How do their objections differ in focus?",
+     "a": "Realists argue human security dilutes the clear, actionable concept of national security, risks mission creep for militaries, and undermines state sovereignty — the primary actor in international anarchy. Feminists argue human security still often ignores gendered insecurities (sexual violence, care economy) and can be co-opted by states to justify intervention ('protection' rhetoric). The realist focus is on systemic order and state capacity; the feminist focus is on invisible power structures and intersectional vulnerabilities. A wrong answer that conflates the two or says both 'oppose human security' fails to analyze the distinct theoretical lenses.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Human security makes state security obsolete.\" Provide two arguments for and two against, then state your reasoned position.",
+     "a": "For: (1) Many modern threats (pandemics, climate) cannot be deterred by armies; (2) States that ignore human security often collapse from within (failed states). Against: (1) Without state security (border defense, rule of law), human security cannot be delivered — the state provides the framework; (2) Human security lacks a clear enforcement mechanism — the UN cannot compel action like a sovereign state can. Position: They are complementary; state security is a necessary but insufficient condition for human security. A wrong answer that picks one side without acknowledging the interdependence shows poor evaluative judgment.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph 'Human Security Clause' for a hypothetical national constitution that obligates the government to protect all seven dimensions. Include a justiciable enforcement mechanism.",
+     "a": "\"The State shall guarantee human security to every person within its jurisdiction, encompassing economic, food, health, environmental, personal, community, and political security. The Government shall allocate a minimum of 15% of annual budget to human security programs, subject to audit by an independent Human Security Commission. Any citizen may approach the High Court for violation of this clause, and the Court may issue binding directives including budgetary reallocation.\" A poor answer lists aspirations without enforceability or misses dimensions, revealing inability to translate theory into institutional design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

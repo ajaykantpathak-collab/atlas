@@ -1,0 +1,545 @@
+{
+ "class": 9,
+ "subject": "science",
+ "chapter": 104,
+ "chapter_title": "Describing Motion Around Us",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iesc104.txt",
+ "concepts": [
+  {
+   "id": "iesc.104.1",
+   "title": "Average Speed",
+   "section": "4.1.3",
+   "definition": "The rate of total distance covered by an object over a specific duration of time.",
+   "formula": "avg_speed = total_distance / time_interval",
+   "key_idea": "Total path length divided by total time.",
+   "textbook_ref": "iesc104.txt lines 255-260",
+   "question_patterns": [
+    "calculate the average speed",
+    "what is the average speed of the object",
+    "find average speed given distance and time",
+    "how much is the average speed",
+    "find the required value in a average speed problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide distance by time",
+     "explain": "average speed is total distance travelled per unit time interval",
+     "compute": "avg_speed = total_distance / time_interval"
+    },
+    {
+     "step": 2,
+     "action": "check unit consistency",
+     "explain": "ensure distance and time units are compatible so the resulting speed has correct units (e.g. m/s or km/h)",
+     "compute": "avg_speed = total_distance / time_interval  # verify units match"
+    },
+    {
+     "step": 3,
+     "action": "verify the result is positive and reasonable",
+     "explain": "average speed must be non-negative and should not exceed plausible physical limits for the object in question"
+    }
+   ]
+  },
+  {
+   "id": "iesc.104.2",
+   "title": "Average Velocity",
+   "section": "4.1.3",
+   "definition": "The ratio of the net change in position (displacement) of an object to the total time taken for that change.",
+   "formula": "avg_velocity = displacement / time_interval",
+   "key_idea": "Displacement per unit time.",
+   "textbook_ref": "iesc104.txt lines 280-285",
+   "question_patterns": [
+    "calculate the average velocity",
+    "what is the average velocity",
+    "find the average velocity of the object",
+    "how much is the average velocity",
+    "compute the answer step by step for average velocity"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide displacement by time",
+     "explain": "average velocity is the net change in position over the time interval",
+     "compute": "avg_velocity = displacement / time_interval"
+    },
+    {
+     "step": 2,
+     "action": "determine direction of velocity",
+     "explain": "the sign of avg_velocity indicates direction: positive means motion along the chosen positive axis, negative means motion in the opposite direction"
+    },
+    {
+     "step": 3,
+     "action": "verify magnitude does not exceed average speed",
+     "explain": "since displacement magnitude is at most equal to total distance, the magnitude of average velocity cannot exceed the average speed"
+    }
+   ]
+  },
+  {
+   "id": "iesc.104.3",
+   "title": "Average Acceleration",
+   "section": "4.1.4",
+   "definition": "The rate at which an object's velocity changes over a given time interval.",
+   "formula": "avg_acceleration = (final_velocity - initial_velocity) / time_interval",
+   "key_idea": "Change in velocity divided by time.",
+   "textbook_ref": "iesc104.txt lines 320-330",
+   "question_patterns": [
+    "calculate the average acceleration",
+    "what is the average acceleration",
+    "find the acceleration of the vehicle",
+    "how much does the velocity change per second",
+    "calculate average acceleration for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate change in velocity",
+     "explain": "find the difference between final and initial velocity",
+     "compute": "delta_v = final_velocity - initial_velocity"
+    },
+    {
+     "step": 2,
+     "action": "divide by time",
+     "explain": "acceleration is the rate of change of velocity",
+     "compute": "avg_acceleration = delta_v / time_interval"
+    },
+    {
+     "step": 3,
+     "action": "verify sign and reasonableness of acceleration",
+     "explain": "a positive acceleration means the object is speeding up along the chosen axis, while a negative value means it is slowing down or accelerating in the opposite direction"
+    }
+   ]
+  },
+  {
+   "id": "iesc.104.4",
+   "title": "Kinematic Equation: Final Velocity",
+   "section": "4.3",
+   "definition": "Relates final velocity to initial velocity, constant acceleration, and time.",
+   "formula": "v = u + a * t",
+   "key_idea": "Velocity at time t with constant acceleration.",
+   "textbook_ref": "iesc104.txt lines 510-515",
+   "question_patterns": [
+    "find the final velocity",
+    "what will be the velocity after time t",
+    "calculate velocity using acceleration",
+    "how fast is the object moving after t seconds",
+    "work out the value using kinematic equation: final velocity"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply acceleration by time",
+     "explain": "calculate the total change in velocity",
+     "compute": "change = a * t"
+    },
+    {
+     "step": 2,
+     "action": "add initial velocity",
+     "explain": "final velocity is initial plus the change",
+     "compute": "v = u + change"
+    },
+    {
+     "step": 3,
+     "action": "verify final velocity is physically consistent",
+     "explain": "check that the computed final velocity has the correct sign and magnitude consistent with the direction of acceleration and the initial velocity"
+    }
+   ]
+  },
+  {
+   "id": "iesc.104.5",
+   "title": "Kinematic Equation: Displacement",
+   "section": "4.3",
+   "definition": "Calculates the total displacement using initial velocity, time, and constant acceleration.",
+   "formula": "s = u * t + 0.5 * a * t**2",
+   "key_idea": "Distance covered under uniform acceleration.",
+   "textbook_ref": "iesc104.txt lines 530-535",
+   "question_patterns": [
+    "calculate the distance travelled",
+    "what is the displacement after time t",
+    "find the position change",
+    "how far does the object travel",
+    "find the required value in a kinematic equation: displacement problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate initial velocity component",
+     "explain": "distance due to initial velocity",
+     "compute": "term1 = u * t"
+    },
+    {
+     "step": 2,
+     "action": "calculate acceleration component",
+     "explain": "distance due to acceleration",
+     "compute": "term2 = 0.5 * a * t**2"
+    },
+    {
+     "step": 3,
+     "action": "sum components",
+     "explain": "total displacement is the sum of both parts",
+     "compute": "s = term1 + term2"
+    }
+   ]
+  },
+  {
+   "id": "iesc.104.6",
+   "title": "Kinematic Equation: Velocity-Displacement",
+   "section": "4.3",
+   "definition": "Relates final velocity, initial velocity, acceleration, and displacement without needing time.",
+   "formula": "v**2 = u**2 + 2 * a * s",
+   "key_idea": "Velocity squared relation for constant acceleration.",
+   "textbook_ref": "iesc104.txt lines 545-555",
+   "question_patterns": [
+    "find final velocity given displacement",
+    "calculate the stopping distance",
+    "what is the velocity after distance s",
+    "find initial velocity using displacement",
+    "calculate kinematic equation: velocity-displacement for the given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate squared terms",
+     "explain": "prepare values for the kinematic relation",
+     "compute": "u_sq = u**2"
+    },
+    {
+     "step": 2,
+     "action": "calculate acceleration product",
+     "explain": "product of 2, acceleration, and displacement",
+     "compute": "acc_disp = 2 * a * s"
+    },
+    {
+     "step": 3,
+     "action": "find final velocity",
+     "compute": "v = sqrt(u_sq + acc_disp)",
+     "explain": "add the squared speed and the acceleration-displacement term, then take the square root"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iesc104.txt lines 360-375",
+   "concept": "iesc.104.3",
+   "question_type": "compute",
+   "question_pattern": "bus velocity changes from {u} to {v} in {t} seconds",
+   "extracted_variables": {
+    "u": "initial velocity",
+    "v": "final velocity",
+    "t": "time interval"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate change",
+     "compute": "delta_v = v - u"
+    },
+    {
+     "step": 2,
+     "action": "calculate acceleration",
+     "compute": "a = delta_v / t"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "iesc104.txt lines 255-260",
+   "concept": "iesc.104.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute average speed step by step",
+   "extracted_variables": {
+    "total_distance": "value of total_distance",
+    "time_interval": "value of time_interval"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide distance by time",
+     "explain": "average speed is total distance travelled per unit time interval",
+     "compute": "avg_speed = total_distance / time_interval"
+    }
+   ]
+  },
+  {
+   "id": "exauto2",
+   "source_ref": "iesc104.txt lines 280-285",
+   "concept": "iesc.104.2",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute average velocity step by step",
+   "extracted_variables": {
+    "displacement": "value of displacement",
+    "time_interval": "value of time_interval"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide displacement by time",
+     "explain": "average velocity is the net change in position over the time interval",
+     "compute": "avg_velocity = displacement / time_interval"
+    }
+   ]
+  },
+  {
+   "id": "exauto3",
+   "source_ref": "iesc104.txt lines 320-330",
+   "concept": "iesc.104.3",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute average acceleration step by step",
+   "extracted_variables": {
+    "final_velocity": "value of final_velocity",
+    "initial_velocity": "value of initial_velocity",
+    "time_interval": "value of time_interval"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate change in velocity",
+     "explain": "find the difference between final and initial velocity",
+     "compute": "delta_v = final_velocity - initial_velocity"
+    },
+    {
+     "step": 2,
+     "action": "divide by time",
+     "explain": "acceleration is the rate of change of velocity",
+     "compute": "avg_acceleration = delta_v / time_interval"
+    }
+   ]
+  },
+  {
+   "id": "exauto4",
+   "source_ref": "iesc104.txt lines 510-515",
+   "concept": "iesc.104.4",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute kinematic equation: final velocity step by step",
+   "extracted_variables": {
+    "a": "value of a",
+    "t": "value of t",
+    "u": "value of u"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply acceleration by time",
+     "explain": "calculate the total change in velocity",
+     "compute": "change = a * t"
+    },
+    {
+     "step": 2,
+     "action": "add initial velocity",
+     "explain": "final velocity is initial plus the change",
+     "compute": "v = u + change"
+    }
+   ]
+  },
+  {
+   "id": "exauto5",
+   "source_ref": "iesc104.txt lines 530-535",
+   "concept": "iesc.104.5",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute kinematic equation: displacement step by step",
+   "extracted_variables": {
+    "u": "value of u",
+    "t": "value of t",
+    "a": "value of a"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate initial velocity component",
+     "explain": "distance due to initial velocity",
+     "compute": "term1 = u * t"
+    },
+    {
+     "step": 2,
+     "action": "calculate acceleration component",
+     "explain": "distance due to acceleration",
+     "compute": "term2 = 0.5 * a * t**2"
+    },
+    {
+     "step": 3,
+     "action": "sum components",
+     "explain": "total displacement is the sum of both parts",
+     "compute": "s = term1 + term2"
+    }
+   ]
+  },
+  {
+   "id": "exauto6",
+   "source_ref": "iesc104.txt lines 545-555",
+   "concept": "iesc.104.6",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute kinematic equation: velocity-displacement step by step",
+   "extracted_variables": {
+    "u": "value of u",
+    "a": "value of a",
+    "s": "value of s"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate squared terms",
+     "explain": "prepare values for the kinematic relation",
+     "compute": "u_sq = u**2"
+    },
+    {
+     "step": 2,
+     "action": "calculate acceleration product",
+     "explain": "product of 2, acceleration, and displacement",
+     "compute": "acc_disp = 2 * a * s"
+    },
+    {
+     "step": 3,
+     "action": "find final velocity",
+     "compute": "v = sqrt(u_sq + acc_disp)",
+     "explain": "add the squared speed and the acceleration-displacement term, then take the square root"
+    }
+   ]
+  },
+  {
+   "id": "exauto7",
+   "source_ref": "iesc104.txt lines 255-260",
+   "concept": "iesc.104.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute average speed step by step",
+   "extracted_variables": {
+    "total_distance": "value of total_distance",
+    "time_interval": "value of time_interval"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide distance by time",
+     "explain": "average speed is total distance travelled per unit time interval",
+     "compute": "avg_speed = total_distance / time_interval"
+    }
+   ]
+  },
+  {
+   "id": "exauto8",
+   "source_ref": "iesc104.txt lines 280-285",
+   "concept": "iesc.104.2",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute average velocity step by step",
+   "extracted_variables": {
+    "displacement": "value of displacement",
+    "time_interval": "value of time_interval"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide displacement by time",
+     "explain": "average velocity is the net change in position over the time interval",
+     "compute": "avg_velocity = displacement / time_interval"
+    }
+   ]
+  },
+  {
+   "id": "exauto9",
+   "source_ref": "iesc104.txt lines 510-515",
+   "concept": "iesc.104.4",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute kinematic equation: final velocity step by step",
+   "extracted_variables": {
+    "a": "value of a",
+    "t": "value of t",
+    "u": "value of u"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply acceleration by time",
+     "explain": "calculate the total change in velocity",
+     "compute": "change = a * t"
+    },
+    {
+     "step": 2,
+     "action": "add initial velocity",
+     "explain": "final velocity is initial plus the change",
+     "compute": "v = u + change"
+    }
+   ]
+  },
+  {
+   "id": "exauto10",
+   "source_ref": "iesc104.txt lines 530-535",
+   "concept": "iesc.104.5",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute kinematic equation: displacement step by step",
+   "extracted_variables": {
+    "u": "value of u",
+    "t": "value of t",
+    "a": "value of a"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate initial velocity component",
+     "explain": "distance due to initial velocity",
+     "compute": "term1 = u * t"
+    },
+    {
+     "step": 2,
+     "action": "calculate acceleration component",
+     "explain": "distance due to acceleration",
+     "compute": "term2 = 0.5 * a * t**2"
+    },
+    {
+     "step": 3,
+     "action": "sum components",
+     "explain": "total displacement is the sum of both parts",
+     "compute": "s = term1 + term2"
+    }
+   ]
+  },
+  {
+   "id": "exauto11",
+   "source_ref": "iesc104.txt lines 545-555",
+   "concept": "iesc.104.6",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute kinematic equation: velocity-displacement step by step",
+   "extracted_variables": {
+    "u": "value of u",
+    "a": "value of a",
+    "s": "value of s"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate squared terms",
+     "explain": "prepare values for the kinematic relation",
+     "compute": "u_sq = u**2"
+    },
+    {
+     "step": 2,
+     "action": "calculate acceleration product",
+     "explain": "product of 2, acceleration, and displacement",
+     "compute": "acc_disp = 2 * a * s"
+    },
+    {
+     "step": 3,
+     "action": "find final velocity",
+     "compute": "v = sqrt(u_sq + acc_disp)",
+     "explain": "add the squared speed and the acceleration-displacement term, then take the square root"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "iesc104.txt lines 630-635",
+   "questions": [
+    "Calculate the average acceleration and distance travelled for a car starting from rest to 24 m/s in 6 s."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

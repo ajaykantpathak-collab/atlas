@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_01_010",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_01_010",
+   "title": "c12_psy_cbse_01_010",
+   "questions": [
+    {
+     "q": "A researcher wants to screen 200 Class 9 students for a giftedness program in a single morning session. Which test administration type is most appropriate and why?",
+     "a": "Group test administration is most appropriate because it allows simultaneous testing of large numbers, is time-efficient, and uses standardized multiple-choice format suitable for mass screening. A wrong answer (individual test) reveals the student doesn't understand the practical constraints of large-scale assessment — individual tests require one examiner per student, making 200 administrations in one morning impossible.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Raven's Progressive Matrices (RPM) is classified as a non-verbal test but NOT automatically a culture-fair test.",
+     "a": "RPM is non-verbal because it uses abstract geometric patterns requiring no language for instructions or responses. However, it is not automatically culture-fair because: (1) familiarity with geometric reasoning and matrix logic varies across cultures, (2) test-taking attitude toward abstract puzzles is culturally influenced, and (3) norms are often based on Western populations. A wrong answer conflates \"non-verbal\" with \"culture-fair\" — students often assume no language = no culture bias, missing that cultural values shape cognitive styles even for abstract tasks.",
+     "self_check": true
+    },
+    {
+     "q": "A psychologist must assess the intelligence of a 10-year-old child with hearing impairment who uses sign language. The child attends a regular school but struggles with verbal instructions. Select the optimal test type combination (administration × response format × cultural loading) and justify each choice.",
+     "a": "Optimal combination: Individual administration × Performance/Non-verbal format × Culture-fair loading. Justification: (1) Individual — allows examiner to establish rapport, modify instructions using gestures/signs, observe problem-solving process; (2) Performance/Non-verbal — eliminates language barrier, uses object manipulation (e.g., Kohs' Block Design) or visual patterns (RPM); (3) Culture-fair — minimizes school-based cultural bias since child's educational experience is atypical. Wrong combinations (e.g., group verbal test) reveal failure to match test features to examinee's specific constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Bhatia's Battery of Performance Tests and CIE Verbal Group Test of Intelligence across all three classification dimensions. Create a 2×3 comparison table.",
+     "a": "| Dimension | Bhatia's Battery | CIE Verbal Group Test |\n|-----------|------------------|----------------------|\n| Administration | Individual | Group |\n| Response Format | Performance (manipulate blocks, draw, sort) | Verbal (written/oral language responses) |\n| Cultural Loading | Culture-fair (minimal language, familiar materials) | Culture-biased (language-dependent, urban middle-class norms) |\nA wrong answer that labels Bhatia's as \"verbal\" or CIE as \"individual\" reveals confusion between test origin (Indian vs. Western) and test structure. Students often assume Indian tests are automatically culture-fair or that all group tests are non-verbal.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"For identifying intellectually gifted children in tribal schools, we should use group verbal tests because they are standardized and efficient.\"",
+     "a": "The statement is flawed on three grounds: (1) Group administration misses nuanced gifted behaviors (creative problem-solving, extended focus) observable only in individual testing; (2) Verbal format disadvantages tribal children whose language of instruction differs from test language, conflating language proficiency with intelligence; (3) Standardization on urban populations makes norms invalid for tribal contexts. A better approach: individual, performance-based, culture-fair tests (e.g., RPM, Bhatia's Battery) with local norms. A wrong answer accepting the statement reveals uncritical acceptance of \"standardized = fair\" and ignorance of cultural bias in test design.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-item mini-test battery for assessing fluid intelligence in 12-year-olds from diverse linguistic backgrounds in a single classroom period. Specify for each item: (a) format, (b) administration mode, (c) why it reduces cultural bias.",
+     "a": "Item 1: Figure Classification (RPM-style) — Non-verbal, Group, Culture-fair (abstract patterns, no language).\nItem 2: Block Design (Kohs' style) — Performance, Individual (sub-sample), Culture-fair (concrete manipulation, universal spatial skill).\nItem 3: Number Series Completion — Non-verbal symbolic, Group, Culture-reduced (numerals are near-universal, minimal language).\nGood answer shows: variety of formats, mix of group/individual for depth/breadth balance, explicit cultural bias reduction rationale. Poor answer uses verbal items, all-group administration, or ignores cultural loading — revealing failure to integrate all three classification dimensions in test design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

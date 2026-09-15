@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_03_006",
+   "title": "c12_bio_cbse_03_006",
+   "questions": [
+    {
+     "q": "What specific biochemical change occurs in the sperm plasma membrane during capacitation that is essential for subsequent acrosome reaction?",
+     "a": "Correct answer: Removal of cholesterol and glycoproteins (decapacitation factors) from the sperm plasma membrane increases membrane fluidity and exposes ZP3-binding receptors. A wrong answer (e.g., \"sperm gains mitochondria\" or \"acrosome forms during capacitation\") reveals confusion between spermatogenesis (where acrosome forms) and capacitation (functional maturation in female tract), and ignorance of membrane remodeling as the core event.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the acrosome reaction occur ONLY after the sperm binds to the zona pellucida, not spontaneously in the fallopian tube fluid?",
+     "a": "Correct answer: ZP3 glycoprotein in the zona pellucida acts as a ligand that binds to specific receptors on the capacitated sperm membrane, triggering a calcium influx (via CatSper channels) that initiates the acrosome reaction. A wrong answer (e.g., \"high pH triggers it\" or \"progesterone alone causes it\") reveals misunderstanding that ZP3 binding is the specific physiological trigger; progesterone and pH modulate but cannot substitute for zona contact.",
+     "self_check": true
+    },
+    {
+     "q": "A patient's sperm show normal count, motility, and morphology but fail to penetrate zona pellucida in vitro. Which specific step is most likely defective, and what diagnostic test would confirm it?",
+     "a": "Correct answer: Defective acrosome reaction. Diagnostic test: Calcium ionophore (A23187) induced acrosome reaction assay — if sperm undergo reaction with ionophore but not with zona pellucida, the defect is in ZP3-receptor binding or signal transduction, not in acrosome competence. A wrong answer (e.g., \"low motility\" or \"DNA fragmentation test\") reveals failure to distinguish pre-acrosomal defects (capacitation, binding) from post-acrosomal defects, and ignorance of functional assays vs. static parameters.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the fast block and slow block to polyspermy in human fertilization. Which is mediated by the cortical reaction, and what is the molecular consequence for ZP3?",
+     "a": "Correct answer: Fast block = electrical depolarization of oocyte membrane (milliseconds, transient); slow block = cortical reaction releasing cortical granule enzymes (ovastacin) that cleave ZP3, preventing further sperm binding (permanent). A wrong answer (e.g., \"cortical reaction causes electrical block\" or \"ZP3 is degraded by acrosin\") reveals confusion between species-specific mechanisms (sea urchin vs. human) and misattribution of enzyme sources (acrosin from sperm vs. ovastacin from oocyte).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"ICSI bypasses the need for capacitation and acrosome reaction, so sperm selection for ICSI does not require assessment of these functions.\" Is this correct? Justify.",
+     "a": "Correct answer: Incorrect. ICSI bypasses zona binding and acrosome reaction mechanically, but capacitation-like chromatin remodeling and oocyte activation factors (PLCζ) from the sperm are still required for successful syngamy and embryonic development. Sperm with defective PLCζ cause fertilization failure even with ICSI. A wrong answer (agreeing with statement) reveals the misconception that ICSI eliminates all physiological requirements, ignoring post-fusion sperm factors essential for oocyte activation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using fluorescent probes to demonstrate that capacitation increases sperm membrane fluidity. Specify the probe, expected result, and control.",
+     "a": "Correct answer: Use Merocyanine 540 (binds to disordered phospholipids) or Laurdan (GP imaging). Incubate sperm in capacitating vs. non-capacitating medium. Expected: Increased fluorescence intensity (Merocyanine) or decreased generalized polarization (Laurdan) in capacitated sperm. Control: Sperm in non-capacitating medium + cholesterol-loaded cyclodextrin (prevents cholesterol efflux). A poor answer (using DNA dye or mitochondrial probe) reveals confusion between membrane fluidity and other sperm parameters.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

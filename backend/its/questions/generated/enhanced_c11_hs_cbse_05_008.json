@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_05_008",
+   "title": "c11_hs_cbse_05_008",
+   "questions": [
+    {
+     "q": "Name the six sequential stages of staple-fibre yarn processing from raw bale to ring-spun yarn, and state the primary output form (lap, sliver, roving, etc.) after each stage.",
+     "a": "Correct sequence: 1) Cleaning/Blowroom → Lap (rolled sheet); 2) Carding → Card sliver; 3) Combing (optional) → Combed sliver; 4) Drawing → Drawn sliver; 5) Roving → Roving (≈1/4–1/8 original sliver diameter, slight twist); 6) Ring Spinning → Yarn (final count, target twist). A wrong answer—such as listing \"spinning\" first or omitting drawing—reveals the student views yarn-making as a single magic step rather than a controlled attenuation hierarchy where each stage prepares the fibre mass for the next.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why carding alone produces a yarn with more neps, short fibres, and lower lustre compared to a combed yarn, using the terms \"fibre alignment,\" \"short-fibre removal,\" and \"hook straightening.\"",
+     "a": "Carding disentangles and parallels fibres but leaves leading/trailing hooks, retains fibres below effective length, and cannot remove fine trash. Combing straightens hooks, eliminates shorts (<12–15 mm), and extracts remaining neps/trash, yielding a sliver with higher mean length, better alignment, and uniformity. A student who says \"combing just makes it cleaner\" misses the structural transformation: combing changes the fibre-length distribution and orientation, which directly determines yarn evenness, strength, and pilling resistance.",
+     "self_check": true
+    },
+    {
+     "q": "A spinning mill produces 40s Ne (English count) carded cotton yarn at 150 m/min delivery speed with 800 twist per metre (tpm). Calculate the spindle speed (rpm) required, assuming a twist multiplier of 3.8 for carded cotton. Show all steps.",
+     "a": "Step 1: Convert Ne to Tex for SI consistency. Tex = 590.5 / Ne = 590.5 / 40 = 14.76 Tex.  \nStep 2: Twist per inch (TPI) = Twist Multiplier × √Ne = 3.8 × √40 = 3.8 × 6.325 = 24.04 TPI.  \nStep 3: Convert TPI to tpm: 24.04 × 39.37 = 946 tpm (theoretical).  \nStep 4: Spindle speed (rpm) = tpm × Delivery speed (m/min) = 946 × 150 = 141,900 rpm.  \nStep 5: Practical check—modern ring frames run 15,000–20,000 rpm; the discrepancy shows the given 800 tpm is actual (lower than theoretical), so actual spindle speed = 800 × 150 = 120,000 rpm → still high, indicating the 800 tpm figure may be for a different count or the delivery speed is lower. A student who multiplies 40 × 150 directly confuses count with twist and ignores the √count relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the fibre-path geometry in carding (cylinder-doffer) versus combing (nipper-comb) and analyse how each geometry influences fibre hook orientation and nep formation.",
+     "a": "Carding: Cylinder (swift) and doffer wires oppose; fibres transfer via point-to-point contact, creating leading/trailing hooks (≈50% each) and generating neps from fibre entanglement at high speed. Combing: Nipper assembly holds fibre fringe while comb needles penetrate; only leading hooks presented to comb, trailing hooks straightened—result: hook elimination, short-fibre removal, nep extraction. A student describing both as \"brushing\" fails to see that carding is a randomised transfer while combing is a controlled fringe-by-fringe operation, fundamentally altering the fibre-length histogram.",
+     "self_check": true
+    },
+    {
+     "q": "A fabric designer must choose between 2/40s Ne combed cotton yarn and 2/40s Ne carded cotton yarn for a premium bedsheet requiring high lustre, low pilling, and 200+ wash durability. Evaluate which yarn structure better meets all three criteria and justify with fibre-level reasoning.",
+     "a": "Combed 2/40s is superior. Reasoning: 1) Lustre—combed yarn has parallel fibres with fewer protruding ends, reflecting light uniformly. 2) Pilling—shorter fibres (removed in combing) are primary pill progenitors; their absence delays fuzz formation. 3) Wash durability—higher tenacity from better fibre alignment and longer mean length reduces strength loss during abrasive laundering. Carded yarn retains 15–20% short fibres and hooks, causing rapid surface fibrillation. A student selecting carded yarn for \"cost saving\" ignores the performance specification; the evaluation must weigh lifecycle cost, not just procurement price.",
+     "self_check": true
+    },
+    {
+     "q": "Design a blended yarn recipe (fibre %, staple length, fineness) for a \"cool-touch summer shirting\" that combines cotton's moisture management with polyester's wrinkle resistance. Specify the processing route modifications needed at drawing and roving to handle the fibre-diameter differential.",
+     "a": "Recipe: 60% cotton (28 mm, 4.5 µg/inch) + 40% polyester (38 mm, 1.5 dpf) cut to 32 mm. Processing mods: 1) Drawing—use double-apron drafting with higher back-roller pressure to control polyester's lower cohesion; add a third drawing passage for blend homogeneity. 2) Roving—reduce roving hank (coarser) to accommodate polyester's higher draft limit; lower flyer speed to limit false twist on slick polyester. 3) Spinning—optimise twist multiplier (≈3.4) for blend; use traveller profile reducing balloon tension. A poor answer lists only percentages without staple-length matching or drafting adjustments, revealing ignorance of how fibre physics dictates machine settings.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

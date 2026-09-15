@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_07_004",
+   "title": "c11_bs_cbse_07_004",
+   "questions": [
+    {
+     "q": "List the five compulsory clauses of the Memorandum of Association in the correct order as they appear in Table A of Schedule I of the Companies Act, 2013.",
+     "a": "The five clauses in order are: (1) Name Clause, (2) Registered Office Clause, (3) Objects Clause, (4) Liability Clause, (5) Capital Clause. A wrong answer (e.g., missing the Liability Clause or reversing the order) reveals that the student is memorising clauses as a set rather than understanding the logical flow: identity → location → purpose → risk → resource. This misunderstanding leads to errors in drafting or identifying defects in a given MoA.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the Objects Clause is considered the most important clause of the MoA, and state the legal consequence if a company enters into a contract that falls outside the objects stated in this clause.",
+     "a": "The Objects Clause defines the purpose for which the company is formed and sets the boundary of its legal capacity. Any act or contract beyond these objects is ultra vires (beyond powers) and is void ab initio — it cannot be enforced by either party, nor can it be ratified even by a unanimous resolution of all shareholders. A wrong answer that suggests ratification is possible or that the contract is merely voidable reveals confusion with the Articles of Association, where ultra vires acts can be ratified if they don't violate the MoA. This misconception undermines the fundamental protective function of the MoA for creditors and shareholders.",
+     "self_check": true
+    },
+    {
+     "q": "\"GreenEnergy Ltd.\" is a public company with an Objects Clause stating: \"To manufacture and sell solar panels.\" The Board of Directors, without altering the MoA, enters into a contract to purchase a fleet of electric delivery vans for a new logistics division. Is this contract binding on the company? Apply the ultra vires doctrine step by step.",
+     "a": "Step 1: Identify the main object from the Objects Clause — manufacturing and selling solar panels. Step 2: Identify the proposed activity — operating a logistics division using electric vans. Step 3: Determine if the activity is essential or incidental to the main object — logistics is a separate business line, not incidental to manufacturing. Step 4: Apply ultra vires doctrine — the contract is beyond the company's legal capacity. Step 5: Conclude — the contract is void ab initio and cannot be enforced against the company; the directors may be personally liable for breach of fiduciary duty. A wrong answer that validates the contract shows failure to apply the \"essential or incidental\" test and confusion between managerial discretion and legal capacity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the MoA requirements for a public company versus a private company with respect to: (a) minimum number of signatories, (b) wording of the Name Clause, (c) Capital Clause disclosure. Present your answer in a table format.",
+     "a": "| Aspect | Public Company | Private Company |\n|--------|----------------|-----------------|\n| Minimum Signatories | 7 | 2 |\n| Name Clause Suffix | \"Limited\" | \"Private Limited\" |\n| Capital Clause | Must state authorised capital divided into shares of fixed face value; no minimum paid-up capital required under 2013 Act. | Same requirement; however, private companies often have lower authorised capital. |\nA wrong answer that states the same number of signatories for both or omits the \"Private Limited\" suffix reveals lack of attention to the statutory distinctions that examiners frequently test in distinction-type questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"Since the shareholders are the owners of the company, they can unanimously ratify a contract entered into by the directors that is beyond the Objects Clause of the MoA.\" Defend your position with reference to the Companies Act, 2013 and the doctrine of ultra vires.",
+     "a": "The statement is false. Under the Companies Act, 2013 and established common law (Ashbury Railway Carriage Co. v. Riche), an ultra vires act is void ab initio and cannot be ratified even by unanimous consent of all shareholders. The MoA is a public document that defines the company's legal capacity; allowing ratification would defeat the protection it offers to creditors and shareholders who rely on the stated objects. The only remedy is to alter the MoA under Section 13 (with special resolution and, for public companies, Central Government approval) before undertaking the new activity. A wrong answer that supports ratification confuses the MoA (charter) with the AoA (internal rules), where ratification is possible for acts ultra vires the AoA but intra vires the MoA.",
+     "self_check": true
+    },
+    {
+     "q": "Draft the Name Clause and Registered Office Clause for a proposed One Person Company (OPC) named \"TechSprint Solutions\" to be registered in the state of Maharashtra. Ensure compliance with the Companies (Incorporation) Rules, 2014.",
+     "a": "Name Clause: \"The name of the company is TechSprint Solutions (OPC) Private Limited.\" (Note: OPC must include \"(OPC)\" and end with \"Private Limited\".) Registered Office Clause: \"The registered office of the company will be situated in the State of Maharashtra.\" A poor answer that omits \"(OPC)\" or uses \"Limited\" instead of \"Private Limited\" shows ignorance of the specific naming mandatory for OPCs under Rule 8 of the Incorporation Rules. This error would cause the Registrar to reject the name reservation (Form SPICe+ Part A).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

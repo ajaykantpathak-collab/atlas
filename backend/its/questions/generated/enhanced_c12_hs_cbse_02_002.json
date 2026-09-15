@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_02_002",
+   "title": "c12_hs_cbse_02_002",
+   "questions": [
+    {
+     "q": "A student writes: \"The physiological function of food is to provide energy.\" Is this statement complete? If not, what are the TWO other physiological functions missing?",
+     "a": "The statement is incomplete. The three physiological functions are: (1) providing energy, (2) building and repairing body tissues (growth/maintenance), and (3) regulating and protecting metabolic processes (enzymes, hormones, immunity). A wrong answer revealing only \"energy\" shows the student has memorised a partial definition and cannot recall the full NCERT classification. This error costs 1-2 marks in board exams where \"List the physiological functions of food\" is a standard 2-3 mark question.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"eating ice cream after a breakup\" is primarily a psychological function of food, not a physiological one. Use the terms \"satiety,\" \"emotional comfort,\" and \"coping mechanism\" in your answer.",
+     "a": "Eating ice cream after a breakup serves the psychological function because the person is not physically hungry (satiety signals are absent or ignored); instead, the sweet, cold texture provides sensory pleasure that temporarily alleviates emotional distress, acting as a coping mechanism. The food is consumed for emotional comfort and security, not for energy or tissue repair. A wrong answer focusing on \"sugar gives energy\" confuses physiological rationale with psychological motivation — a common error where students conflate nutrient composition with the *reason* for eating in that context.",
+     "self_check": true
+    },
+    {
+     "q": "A family serves *dal-chawal* (lentils and rice) daily but prepares *puran poli* (sweet stuffed flatbread) only during Ganesh Chaturthi. Classify the function of each food practice and explain how the *same ingredient* (wheat flour) serves different functions in these two contexts.",
+     "a": "*Dal-chawal* daily: primarily physiological (energy, protein) with secondary psychological (comfort of routine). *Puran poli* on Ganesh Chaturthi: primarily socio-cultural (religious offering, festival identity, family tradition) with secondary psychological (festive joy) and physiological (energy). Wheat flour in *dal-chawal* (as chapati) functions as staple energy source; in *puran poli*, the same flour becomes a vehicle for cultural expression. A wrong answer saying \"both are physiological because both give energy\" fails to analyse context — a critical error in case-based board questions where the *occasion* determines the dominant function.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the socio-cultural function of \"langar in a gurudwara\" with \"business lunch at a five-star hotel.\" Identify TWO similarities and TWO differences in how food operates as a social tool in these settings.",
+     "a": "Similarities: (1) Both use food to build/maintain social bonds — langar fosters equality and community; business lunch builds professional rapport. (2) Both communicate values — langar embodies seva (service) and equality; business lunch signals status and hospitality. Differences: (1) Langar erases hierarchy (everyone sits together, same food); business lunch often reinforces hierarchy (seating, menu choices, who pays). (2) Langar is religiously mandated, non-reciprocal giving; business lunch is transactional, expecting future reciprocity. A weak answer listing only \"both involve eating together\" misses the sociological depth required for 4-mark \"analyse\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"In modern urban India, the socio-cultural function of food is declining because people eat more processed foods alone.\" Provide evidence for and against, then give your reasoned judgment.",
+     "a": "Evidence for: Rise in solo dining, food delivery apps, loss of communal cooking, decline in festival-specific preparations. Evidence against: Food blogging/Instagram creates new digital food communities; office potlucks replace home gatherings; \"foodie\" culture turns dining into identity performance; religious festivals still anchor traditional foods. Judgment: The socio-cultural function is *transforming*, not declining — shifting from kinship/religion-based to interest/identity-based communities. A one-sided answer (\"yes it's declining because of junk food\") shows inability to evaluate complex social change — a key competency in CBSE's new case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-meal menu for a 17-year-old student living in a hostel that deliberately addresses ALL THREE functions of food. For each meal, specify the food items and label which function(s) each item serves. Justify your choices in 2 sentences.",
+     "a": "**Breakfast:** *Besan chilla* (physiological: protein/energy; psychological: comfort of familiar taste) + *banana* (physiological: potassium/fibre; psychological: easy to eat, sweet satisfaction). **Lunch:** *Rajma-chawal* (physiological: complete protein + carb; socio-cultural: connects to home/regional identity; psychological: comfort food) + *curd* (physiological: probiotic/calcium). **Dinner:** *Khichdi with ghee* (physiological: easy digestion, energy; psychological: soothing, \"hug in a bowl\"; socio-cultural: traditional healing food shared during illness). A poor menu listing only nutrients (e.g., \"high protein breakfast\") ignores psychological/socio-cultural dimensions — exactly the reductionist error board examiners penalise.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

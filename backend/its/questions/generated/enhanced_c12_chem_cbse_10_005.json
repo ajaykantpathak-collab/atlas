@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_10_005",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_10_005",
+   "title": "c12_chem_cbse_10_005",
+   "questions": [
+    {
+     "q": "Name the functional groups present in an α-amino acid and state which carbon they are attached to. How many chiral centers does glycine have?",
+     "a": "An α-amino acid contains an amino group (–NH₂) and a carboxyl group (–COOH) both attached to the α-carbon (the carbon adjacent to the carbonyl carbon). Glycine has R=H, so its α-carbon bears two hydrogens → no chiral center (achiral). A wrong answer (e.g., \"glycine is chiral\" or \"groups on different carbons\") reveals confusion about α-carbon definition and chirality requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why amino acids exist predominantly as zwitterions in aqueous solution at neutral pH, and why this makes them amphoteric. Use the terms pKa, proton transfer, and conjugate acid/base in your answer.",
+     "a": "In water, the carboxyl group (pKa ~2) loses a proton to become –COO⁻, while the amino group (pKa ~9-10) accepts a proton to become –NH₃⁺. The resulting dipolar ion (zwitterion) has both positive and negative charges but net zero charge. It can donate a proton from –NH₃⁺ (acting as acid) or accept a proton at –COO⁻ (acting as base) → amphoteric. A wrong answer (e.g., \"zwitterion forms only in solid state\" or \"amino group loses proton\") shows misunderstanding of relative acidity/basicity and pKa values.",
+     "self_check": true
+    },
+    {
+     "q": "Write the balanced chemical equation for the formation of the dipeptide Ala-Gly (alanyl-glycine) from alanine and glycine. Identify the N-terminal and C-terminal residues, and calculate the molecular formula of the dipeptide given: Ala = C₃H₇NO₂, Gly = C₂H₅NO₂.",
+     "a": "C₃H₇NO₂ (Ala) + C₂H₅NO₂ (Gly) → C₅H₁₀N₂O₃ (Ala-Gly) + H₂O. N-terminal = alanine (free –NH₂), C-terminal = glycine (free –COOH). Steps: (1) Write molecular formulas; (2) Combine: C₅H₁₂N₂O₄; (3) Subtract H₂O (condensation) → C₅H₁₀N₂O₃. A wrong formula (e.g., forgetting water loss, wrong atom count) indicates failure to apply condensation stoichiometry.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the peptide bond (–CO–NH–) with a typical amide bond in a simple amide like acetamide (CH₃CONH₂). What structural feature of the peptide bond restricts rotation, and how does this influence protein secondary structure?",
+     "a": "Both are amide bonds, but the peptide bond has resonance delocalization of the nitrogen lone pair into the carbonyl π* orbital, giving it ~40% double-bond character. This makes the C–N bond shorter and planar, restricting rotation around C–N. The allowed rotations are φ (N–Cα) and ψ (Cα–C) dihedral angles, which define the Ramachandran plot and constrain α-helix/β-sheet geometries. A wrong answer (e.g., \"free rotation around C–N\" or \"no resonance\") shows lack of connection between bond character and macromolecular folding.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"All 20 standard amino acids are essential because proteins require all of them.\" Evaluate this statement. List two essential and two non-essential amino acids with their one-letter codes.",
+     "a": "The claim is false. Essential amino acids (cannot be synthesized by humans, must come from diet): Valine (V), Leucine (L), Lysine (K), Phenylalanine (F), etc. (10 total). Non-essential (synthesized in body): Alanine (A), Glycine (G), Serine (S), Glutamic acid (E), etc. A wrong answer (e.g., \"all are essential\" or misclassifying Lysine as non-essential) reveals confusion between dietary requirement and protein composition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using Ninhydrin reagent to detect the presence of free amino groups in a solution of (a) free amino acids, (b) a dipeptide, and (c) a denatured protein. Predict the color outcomes and explain the chemical basis.",
+     "a": "Ninhydrin reacts with free α-amino groups (–NH₂) to give a deep blue/purple color (Ruhemann's purple). (a) Free amino acids: strong positive (blue). (b) Dipeptide: only N-terminal has free –NH₂ → positive but half intensity per mole. (c) Denatured protein: many free N-termini if hydrolyzed, but native/denatured intact protein has only one N-terminal per chain → very faint unless hydrolyzed first. Chemical basis: oxidative decarboxylation of α-amino acid yields aldehyde, CO₂, and reduced ninhydrin which condenses with another ninhydrin to form the chromophore. A poor answer (e.g., \"all give same color\" or \"denatured protein gives no color\") shows ignorance of N-terminal availability and hydrolysis requirement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

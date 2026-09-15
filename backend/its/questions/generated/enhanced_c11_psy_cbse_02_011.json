@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_02_011",
+   "title": "c11_psy_cbse_02_011",
+   "questions": [
+    {
+     "q": "List the five ethical principles in psychological research as specified in the NCERT Class 11 textbook.",
+     "a": "The five principles are: (1) Voluntary Participation, (2) Informed Consent, (3) Debriefing, (4) Sharing Results of the Study, (5) Confidentiality of Data Source. A wrong answer (e.g., listing \"honesty\" or \"objectivity\") reveals the student is confusing general scientific values with the specific *participant-protection* principles mandated for human research. This suggests they haven't distinguished between research *methodology* standards and research *ethics* standards.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher tells participants: \"Sign this form agreeing to participate in a study on memory.\" The form doesn't mention that participants will receive false failure feedback to induce stress. Which principle is violated, and why is a signature alone insufficient?",
+     "a": "Informed Consent is violated. A signature only documents *agreement*, not *informed* agreement. True informed consent requires: (a) full disclosure of procedures (including deception), risks (psychological stress), and benefits; (b) comprehension by the participant; (c) voluntariness without coercion; (d) ongoing right to withdraw. If the student says \"consent was given because they signed,\" they're confusing procedural compliance with ethical substance — a critical error in board exam answers.",
+     "self_check": true
+    },
+    {
+     "q": "Dr. Rao wants to study cheating behaviour. She tells Class 11 students it's a \"problem-solving ability test,\" leaves the room, and secretly records whether they use hidden notes. Identify every ethical principle violated and explain how to redesign the study ethically.",
+     "a": "Violations: (1) Informed Consent — deception about true purpose; (2) Voluntary Participation — students couldn't choose knowing real aim; (3) Debriefing — not mentioned; (4) Confidentiality — recording identifiable cheating behaviour risks exposure; (5) Sharing Results — not addressed. Ethical redesign: Use a hypothetical scenario questionnaire (\"What would you do if...?\") with anonymous responses, full disclosure of purpose, explicit right to skip questions, and debriefing explaining the research on academic integrity. If the student only fixes deception but keeps identifiable data, they miss the confidentiality violation — showing compartmentalised rather than systemic ethical thinking.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ethical challenges in Milgram's (1963) obedience study (deception, psychological stress, no withdrawal) versus a modern online survey on adolescent anxiety (anonymous, voluntary, minimal risk). Which principles were violated in each, and why does the *type* of method change the ethical profile?",
+     "a": "Milgram violated all five: deception (fake shocks/learners), no true voluntary participation (prods to continue), no debriefing (initially), no sharing results with participants, confidentiality breached (identifiable reactions filmed). Online survey primarily risks: Informed Consent (if terms buried in fine print), Confidentiality (if IP addresses logged), Sharing Results (rarely done). The method changes the profile because *experimental manipulation* creates active harm risk (stress, deception), while *survey* creates informational risk (privacy, data misuse). A student who says \"both violate consent equally\" misses that deception in experiments undermines consent *before* it's given, whereas survey consent failures are usually about *transparency* — a distinction examiners look for.",
+     "self_check": true
+    },
+    {
+     "q": "\"Deception is never justified in psychological research.\" Evaluate this statement using the principles of beneficence (protecting from harm) and the scientific need for valid results. Give one example where deception *might* be ethically defensible with safeguards.",
+     "a": "The statement is too absolute. Deception *can* be justified when: (a) no alternative method exists to study the phenomenon (e.g., bystander effect requires real emergency illusion); (b) harm is minimised and temporary; (c) full debriefing restores psychological state; (d) IRB/ethics committee approves. Example: Latane & Darley's smoke-filled room study (Box 2.1) used deception (confederates ignoring smoke) to study bystander apathy — impossible to study authentically otherwise. Safeguards: minimal stress (smoke not dangerous), immediate debriefing, confidentiality. A student who says \"deception is always wrong\" shows rigid rule-following without understanding the *risk-benefit analysis* central to research ethics. A student who says \"deception is fine if results are important\" misses the harm-minimisation requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page consent form for a study: \"Social Media Usage Patterns and Anxiety Levels in Class 11 Students (CBSE Schools, Delhi NCR).\" Your form must explicitly address all five NCERT ethical principles. Include a section for parental consent (participants are minors).",
+     "a": "A strong answer includes: Title, Researcher details, Purpose (in simple language), Procedures (anonymous online questionnaire, 15 mins), Risks (minimal — mild discomfort reflecting on anxiety), Benefits (contribute to student mental health research), **Voluntary Participation** (explicit \"may withdraw anytime without penalty\"), **Informed Consent** (checkboxes for each procedure, separate student/parent signatures), **Confidentiality** (no names/IPs collected, data encrypted, reported only in aggregates), **Debriefing** (summary emailed post-study, counsellor contact provided), **Sharing Results** (school-level summary shared with principal/participants). Poor answers miss parental consent, use jargon (\"anonymised\"), omit withdrawal rights, or treat debriefing as \"thank you note\" — revealing they see ethics as paperwork, not participant protection.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

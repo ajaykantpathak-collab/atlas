@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_06_008",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_06_008",
+   "title": "c12_math_cbse_06_008",
+   "questions": [
+    {
+     "q": "State the definition of a critical point of a function \\( f(x) \\). Give an example of a function that has a critical point where the derivative does not exist.",
+     "a": "A critical point of \\( f(x) \\) is a point \\( x=c \\) in the domain of \\( f \\) where either \\( f'(c)=0 \\) or \\( f \\) is not differentiable at \\( c \\). Example: \\( f(x)=|x| \\) has a critical point at \\( x=0 \\) because \\( f'(0) \\) does not exist (left derivative = -1, right derivative = 1). A wrong answer (e.g., \"critical point only where \\( f'(x)=0 \\)\") reveals the student ignores non-differentiable points, a common error in board exams when dealing with modulus or piecewise functions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \\( f(x)=x^3 \\) has a critical point at \\( x=0 \\) but it is NOT a local maximum or minimum. What is it instead?",
+     "a": "\\( f'(x)=3x^2 \\), so \\( f'(0)=0 \\) → critical point. But \\( f'(x) \\) does not change sign around 0 (it is positive on both sides), so by the first derivative test, \\( x=0 \\) is neither a local max nor min — it is a **point of inflection**. A student who says \"it's a minimum because \\( f''(0)=0 \\) and \\( f'''(0)>0 \\)\" confuses higher-order tests; NCERT only uses first/second derivative tests. This misconception leads to misclassifying saddle points as extrema in JEE.",
+     "self_check": true
+    },
+    {
+     "q": "Find all critical points of \\( f(x)=x^3-3x^2+4 \\) and classify each using the second derivative test. Also find any inflection points.",
+     "a": "\\( f'(x)=3x^2-6x=3x(x-2) \\). Critical points: \\( x=0, 2 \\).\n\\( f''(x)=6x-6 \\).\nAt \\( x=0 \\): \\( f''(0)=-6<0 \\) → local maximum, value \\( f(0)=4 \\).\nAt \\( x=2 \\): \\( f''(2)=6>0 \\) → local minimum, value \\( f(2)=0 \\).\nInflection point: \\( f''(x)=0 \\Rightarrow x=1 \\). Check sign change: \\( f''(0.5)=-3<0 \\), \\( f''(1.5)=3>0 \\) → concavity changes from down to up. Inflection point at \\( (1, f(1)) = (1, 2) \\).\nA wrong answer (e.g., missing \\( x=0 \\) or not checking sign change for inflection) reveals incomplete critical point analysis or confusion between \\( f'=0 \\) and \\( f''=0 \\).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If \\( f''(c)=0 \\), then \\( x=c \\) is always an inflection point.\" Is this true? Justify with a counterexample.",
+     "a": "False. \\( f''(c)=0 \\) is necessary but not sufficient; the sign of \\( f'' \\) must change across \\( c \\). Counterexample: \\( f(x)=x^4 \\), \\( f''(x)=12x^2 \\), \\( f''(0)=0 \\) but \\( f''(x) \\ge 0 \\) on both sides (no sign change). So \\( x=0 \\) is not an inflection point (it's a local minimum). A student who says \"true\" confuses the condition \\( f''(c)=0 \\) with the definition of inflection point, a frequent trap in MCQs (e.g., JEE Main 2021).",
+     "self_check": true
+    },
+    {
+     "q": "Consider \\( f(x)=x^3-6x^2+9x+15 \\) on \\( [0, 5] \\). A student finds critical points \\( x=1, 3 \\) and evaluates \\( f(0)=15, f(1)=19, f(3)=15, f(5)=35 \\). They conclude absolute maximum is 35 at \\( x=5 \\) and absolute minimum is 15 at \\( x=0 \\) and \\( x=3 \\). Is this correct? If not, identify the error.",
+     "a": "The absolute maximum is correct (35 at \\( x=5 \\)). But the absolute minimum is **not** 15 — the function values at endpoints are 15 and 35, and at critical points are 19 and 15. The minimum value is 15, occurring at \\( x=0 \\) and \\( x=3 \\). The student's conclusion is actually correct in this case, but their method missed checking \\( f(3)=15 \\) properly? Wait, they listed \\( f(3)=15 \\). The error is subtle: they said \"absolute minimum is 15 at \\( x=0 \\) and \\( x=3 \\)\" — that is correct. But if they had missed \\( f(3) \\) or miscomputed, that would be an error. The diagnostic tests whether the student evaluates **all** critical points **and** endpoints. A common error is forgetting endpoints or critical points where \\( f' \\) does not exist.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a function \\( f(x) \\) defined on \\( \\mathbb{R} \\) that has exactly two critical points: one local maximum and one inflection point (but no local minimum). Sketch its graph roughly and explain your reasoning.",
+     "a": "Example: \\( f(x) = -x^3 + 3x \\). \\( f'(x) = -3x^2 + 3 = -3(x-1)(x+1) \\). Critical points: \\( x=-1, 1 \\).\n\\( f''(x) = -6x \\).\nAt \\( x=-1 \\): \\( f''(-1)=6>0 \\) → local minimum? Wait, we want local maximum. Let's adjust: \\( f(x) = x^3 - 3x \\). \\( f'(x)=3x^2-3=3(x-1)(x+1) \\). Critical points: \\( x=-1, 1 \\).\n\\( f''(x)=6x \\).\nAt \\( x=-1 \\): \\( f''(-1)=-6<0 \\) → local maximum.\nAt \\( x=1 \\): \\( f''(1)=6>0 \\) → local minimum. That gives both max and min.\nTo have max and inflection but no min: need a critical point where \\( f'=0 \\) but \\( f''=0 \\) and no sign change of \\( f' \\) (so not extremum) and another where \\( f'=0 \\) and \\( f''<0 \\). Try \\( f(x) = -x^3 \\)? \\( f'(x)=-3x^2 \\), critical point at \\( x=0 \\) only.\nBetter: \\( f(x) = -(x-1)^3 + 3(x-1) \\)? Same shape.\nActually, a cubic always has either 0 or 2 critical points, and if two, one is max and one is min. So a cubic cannot have max and inflection without min.\nNeed a function with a critical point that is an inflection point (like \\( x^3 \\) at 0) and another that is a max. Example: \\( f(x) = x^3 - 3x^2 \\)? \\( f'(x)=3x^2-6x=3x(x-2) \\). Critical points: 0, 2. \\( f''(x)=6x-6 \\). At \\( x=0 \\): \\( f''(0)=-6<0 \\) → max. At \\( x=2 \\): \\( f''(2)=6>0 \\) → min. Still both.\nWhat about \\( f(x) = x^4 - 4x^3 \\)? \\( f'(x)=4x^3-12x^2=4x^2(x-3) \\). Critical points: \\( x=0 \\) (double root), \\( x=3 \\). \\( f''(x)=12x^2-24x=12x(x-2) \\). At \\( x=0 \\): \\( f''(0)=0 \\), check sign of \\( f' \\): \\( f'(x)=4x^2(x-3) \\). For \\( x<0 \\), \\( f'<0 \\); for \\( 0<x<3 \\), \\( f'<0 \\). So \\( f' \\) does not change sign at 0 → inflection point (since \\( f'' \\) changes sign? \\( f''(x)=12x(x-2) \\), at \\( x=0 \\), \\( f'' \\) changes from positive (for x<0) to negative (for 0<x<2) → yes, inflection point). At \\( x=3 \\): \\( f''(3)=36>0 \\) → local minimum. That gives inflection and min, not max.\nTry \\( f(x) = -x^4 + 4x^3 \\). \\( f'(x) = -4x^3+12x^2 = -4x^2(x-3) \\). Critical points: 0, 3. \\( f''(x) = -12x^2+24x = -12x(x-2) \\). At \\( x=0 \\): \\( f''(0)=0 \\), \\( f' \\) sign: for x<0, \\( f'>0 \\); for 0<x<3, \\( f'>0 \\) → no sign change, \\( f'' \\) changes from negative to positive? For x<0, \\( f''(x) = -12x(x-2) \\), x negative, (x-2) negative → product positive? Wait: x<0, -12x >0, (x-2)<0 → f''<0. For 0<x<2, -12x<0, (x-2)<0 → f''>0. So f'' changes sign → inflection point at 0. At \\( x=3 \\): \\( f''(3) = -12*3*1 = -36 <0 \\) → local maximum. So we have inflection at 0 and local max at 3, no local min. Function: \\( f(x) = -x^4 + 4x^3 \\). Good.\nA good answer provides such a function with correct derivative analysis. A poor answer gives a cubic or fails to verify sign changes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

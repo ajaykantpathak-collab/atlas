@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_03_006",
+   "title": "c11_bs_cbse_03_006",
+   "questions": [
+    {
+     "q": "State the three industries that remained exclusively reserved for the public sector after the 2001 policy change.",
+     "a": "The three industries reserved exclusively for the public sector after 2001 are atomic energy, arms (defence), and rail transport. A wrong answer (e.g., including coal, banking, or telecommunications) reveals the student has not memorised the final reserved list and confuses the 1991 reduction (to 8 industries) with the 2001 reduction (to 3 industries).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the government introduced the Memorandum of Understanding (MoU) system for PSUs instead of continuing with direct ministerial control.",
+     "a": "The MoU system was introduced to grant PSUs operational autonomy (freedom in day-to-day decisions, pricing, procurement) while holding them accountable for specific performance targets (profitability, productivity, quality). A wrong answer that says \"to increase government control\" or \"to privatise PSUs\" shows the student misunderstands the MoU as a tool for autonomy-with-accountability, not tighter control or outright sale.",
+     "self_check": true
+    },
+    {
+     "q": "A loss-making PSU in the non-strategic sector has accumulated losses of ₹5,000 crore. The government decides to disinvest 74% of its equity to a strategic buyer. Calculate the minimum amount the government must receive if the enterprise value is assessed at ₹2,000 crore, and explain one non-financial objective this disinvestment achieves.",
+     "a": "Minimum proceeds = 74% of ₹2,000 crore = ₹1,480 crore. One non-financial objective: transferring commercial risk to the private sector and introducing corporate governance practices (professional management, board independence) that were absent under government control. A wrong calculation (e.g., using ₹5,000 crore losses as base) or missing the governance objective shows the student confuses book losses with enterprise valuation and views disinvestment only as revenue generation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pre-1991 and post-1991 approaches to sick public sector units. Why was the Board for Industrial and Financial Reconstruction (BIFR) given jurisdiction over PSUs?",
+     "a": "Pre-1991: Sick PSUs were kept alive indefinitely through budgetary support, leading to a drain on public finances. Post-1991: Sick PSUs were referred to BIFR (same as private firms) to decide revival or closure based on viability. BIFR was given jurisdiction to ensure a uniform, market-oriented exit mechanism and prevent endless taxpayer-funded bailouts. A wrong answer that says \"BIFR was created only for PSUs\" or \"to protect workers' jobs at all costs\" reveals confusion about BIFR's pre-existence for private firms and the shift to viability-based decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: \"Disinvestment of non-strategic PSUs has successfully released public resources for social sectors like health and education.\" Provide two arguments for and two against, using data trends since 1991.",
+     "a": "Arguments for: (1) Cumulative disinvestment receipts exceeded ₹4 lakh crore (1991-2023), funding schemes like NHM and SSA. (2) Reduced fiscal deficit and interest burden by retiring high-cost debt. Arguments against: (1) Receipts often used to plug revenue deficit rather than create new social assets (fungibility issue). (2) Strategic sales (e.g., Air India, BPCL) faced delays, valuation disputes, and worker protests, limiting actual resource release. A one-sided answer shows inability to weigh fiscal outcomes against implementation gaps.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step policy framework for a newly appointed Disinvestment Secretary to decide whether a PSU in the tourism hotel sector (non-strategic) should be closed, strategically sold, or minority-stake disinvested via OFS (Offer for Sale). Justify each step with a criterion from the 1991 policy.",
+     "a": "Step 1: Viability test — assess if the PSU can be revived with reasonable investment (criterion: \"Restructure and revive potentially viable PSUs\"). Step 2: Strategic classification — confirm it is non-strategic (not atomic, defence, rail) so equity can be reduced to 26% or lower (criterion: \"Bring down government equity in non-strategic PSUs to 26% or lower\"). Step 3: Mode selection — if viable and market depth exists, do strategic sale (transfer management control); if viable but market thin, do minority OFS (retain control, raise funds); if unviable, close after worker VRS (criterion: \"Close down PSUs which cannot be revived\" + \"Protect workers' interest via NRF\"). A framework missing the viability-strategic mode linkage shows failure to integrate the four 1991 policy pillars.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

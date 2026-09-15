@@ -1,0 +1,336 @@
+{
+ "catalog": "catalog_class12_accountancy_leac204",
+ "concepts": [
+  {
+   "id": "leac.204.1.1",
+   "title": "Meaning of Financial Statement Analysis",
+   "questions": [
+    {
+     "q": "Using the method 'Meaning of Financial Statement Analysis', work with: classification_of_data = 20, interpretation = 3, relationships_among_items = 6. Carry the chain through step by step and give the final value of financial_analysis.",
+     "a": "29 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Meaning of Financial Statement Analysis' and work with: classification_of_data = 12, interpretation = 18, relationships_among_items = 30. Carry the chain through step by step and give the final value of financial_analysis.",
+     "a": "60 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Meaning of Financial Statement Analysis' refers to.",
+     "a": "Financial statement analysis is the systematic study of the figures inside a company's statements -- sorting, relating and reading them -- so that the profitability, efficiency and health of the firm can be judged and decisions taken.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Meaning of Financial Statement Analysis'.",
+     "a": "Analysis simplifies the raw data first; interpretation then turns the simplified figures into judgements about the firm.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Meaning of Financial Statement Analysis', in plain ASCII form.",
+     "a": "financial_analysis = classification_of_data + relationships_among_items + interpretation",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.204.2.1",
+   "title": "Significance of Financial Statement Analysis",
+   "questions": [
+    {
+     "q": "Using the method 'Significance of Financial Statement Analysis', work with: financial_strengths = 360, financial_weaknesses = 12. Carry the chain through step by step and give the final value of analysis_output.",
+     "a": "372 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Significance of Financial Statement Analysis' and work with: financial_strengths = 6, financial_weaknesses = 6. Carry the chain through step by step and give the final value of analysis_output.",
+     "a": "12 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Significance of Financial Statement Analysis' refers to.",
+     "a": "By setting statement items side by side, analysis exposes the strengths and weaknesses of a firm, and each reader -- management inside, creditors, investors and government outside -- extracts the answer to its own question.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Significance of Financial Statement Analysis'.",
+     "a": "The same analysed numbers let management steer, lenders secure and investors choose.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Significance of Financial Statement Analysis', in plain ASCII form.",
+     "a": "analysis_output = financial_strengths + financial_weaknesses",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.204.3.1",
+   "title": "Objectives of Financial Statement Analysis",
+   "questions": [
+    {
+     "q": "Using the method 'Objectives of Financial Statement Analysis', work with: comparison_base = 18, profitability_judgement = 500, solvency_test = 18. Carry the chain through step by step and give the final value of analysis_goals.",
+     "a": "536 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Objectives of Financial Statement Analysis' and work with: comparison_base = 10, profitability_judgement = 50000, solvency_test = 45. Carry the chain through step by step and give the final value of analysis_goals.",
+     "a": "50055 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Objectives of Financial Statement Analysis' refers to.",
+     "a": "Analysis aims at judging the earning capacity and efficiency of the firm, testing its ability to meet short-term and long-term obligations, and enabling comparison of performance across years and across firms.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Objectives of Financial Statement Analysis'.",
+     "a": "Every objective reduces to one move: put two figures beside each other and ask what the gap means.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Objectives of Financial Statement Analysis', in plain ASCII form.",
+     "a": "analysis_goals = profitability_judgement + solvency_test + comparison_base",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.204.4.1",
+   "title": "Tools of Financial Analysis",
+   "questions": [
+    {
+     "q": "Using the method 'Tools of Financial Analysis', work with: cash_flow_analysis = 120, common_size_statements = 256, comparative_statements = 150, ratio_analysis = 60, trend_analysis = 30. Carry the chain through step by step and give the final value of toolkit.",
+     "a": "616 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Tools of Financial Analysis' and work with: cash_flow_analysis = 120, common_size_statements = 8192, comparative_statements = 50, ratio_analysis = 300, trend_analysis = 360. Carry the chain through step by step and give the final value of toolkit.",
+     "a": "9022 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Tools of Financial Analysis' refers to.",
+     "a": "The analyst's toolkit holds comparative statements, common size statements, trend analysis, ratio analysis and cash flow analysis; the first two run side by side (horizontal) while common size percentages read down the statement (vertical).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Tools of Financial Analysis'.",
+     "a": "Comparative work is horizontal analysis across periods; common size work is vertical analysis inside one period.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Tools of Financial Analysis', in plain ASCII form.",
+     "a": "toolkit = comparative_statements + common_size_statements + trend_analysis + ratio_analysis + cash_flow_analysis",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.204.4.2",
+   "title": "Trend Percentage",
+   "questions": [
+    {
+     "q": "Compute the trend percentage taking a given year as base. Use the method 'Trend Percentage'. Work with: item_value_in_base_year = 25, item_value_in_given_year = 50. Carry the chain through step by step and give the final value of trend_percentage.",
+     "a": "200 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Find the trend index of sales for the third year. Use the method 'Trend Percentage'. Work with: item_value_in_base_year = 1500, item_value_in_given_year = 500. Carry the chain through step by step and give the final value of trend_percentage.",
+     "a": "33.3333 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Trend Percentage' refers to.",
+     "a": "A trend percentage shows how each item of a chosen year stands against the same item of a fixed base year, with the base year itself read as one hundred.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Trend Percentage'.",
+     "a": "One fixed base year turns scattered yearly figures into a long-run direction line for every item.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Trend Percentage', in plain ASCII form.",
+     "a": "trend_percentage = item_value_in_given_year / item_value_in_base_year * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.204.5.1",
+   "title": "Comparative Statement: Absolute Change",
+   "questions": [
+    {
+     "q": "Find the absolute increase or decrease between two years. Use the method 'Comparative Statement: Absolute Change'. Work with: current_year_figure = 100, previous_year_figure = 10. Carry the chain through step by step and give the final value of absolute_change.",
+     "a": "90 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Compute the change in rupees for an item in a comparative statement. Use the method 'Comparative Statement: Absolute Change'. Work with: current_year_figure = 100, previous_year_figure = 500. Carry the chain through step by step and give the final value of absolute_change.",
+     "a": "-400 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Comparative Statement: Absolute Change' refers to.",
+     "a": "In a comparative statement the change column is found by subtracting each previous year figure from the matching current year figure, and the result is read as an increase or a decrease in rupees.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Comparative Statement: Absolute Change'.",
+     "a": "A positive difference is an increase shown with a plus sign; a negative one is a decrease shown with a minus sign.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Comparative Statement: Absolute Change', in plain ASCII form.",
+     "a": "absolute_change = current_year_figure - previous_year_figure",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.204.5.2",
+   "title": "Comparative Statement: Percentage Change",
+   "questions": [
+    {
+     "q": "Calculate the percentage increase shown in a comparative statement. Use the method 'Comparative Statement: Percentage Change'. Work with: current_year_figure = 10, previous_year_figure = 200. Carry the chain through step by step and give the final value of percentage_change.",
+     "a": "-95 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Find the percentage decrease in a cost item between two years. Use the method 'Comparative Statement: Percentage Change'. Work with: current_year_figure = 10, previous_year_figure = 50. Carry the chain through step by step and give the final value of percentage_change.",
+     "a": "-80 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Comparative Statement: Percentage Change' refers to.",
+     "a": "The percentage column of a comparative statement divides the absolute change by the first year figure and multiplies by one hundred, showing how fast the item moved relative to where it started.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Comparative Statement: Percentage Change'.",
+     "a": "Rupees say how much moved; the percentage says how big the move was against the base, which is what makes years comparable.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Comparative Statement: Percentage Change', in plain ASCII form.",
+     "a": "percentage_change = absolute_change / previous_year_figure * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.204.5.3",
+   "title": "Profit after Tax in a Comparative Statement",
+   "questions": [
+    {
+     "q": "Find profit after tax for both years in a comparative statement. Use the method 'Profit after Tax in a Comparative Statement'. Work with: tax_rate = 18, total_expenses = 80000, total_revenue = 50000. Carry the chain through step by step and give the final value of profit_after_tax.",
+     "a": "510000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Compute the tax charge for each year at the given rates. Use the method 'Profit after Tax in a Comparative Statement'. Work with: tax_rate = 15, total_expenses = 80000, total_revenue = 2500. Carry the chain through step by step and give the final value of profit_after_tax.",
+     "a": "1085000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Profit after Tax in a Comparative Statement' refers to.",
+     "a": "Each year's column in a comparative profit statement runs from total revenue, through expenses, to profit before tax, then tax at that year's rate, and finally profit after tax -- and the change columns compare the two years' bottom lines.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Profit after Tax in a Comparative Statement'.",
+     "a": "Tax belongs inside each year's column, so both the absolute and percentage comparisons of profit after tax are fair.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Profit after Tax in a Comparative Statement', in plain ASCII form.",
+     "a": "profit_after_tax = profit_before_tax - profit_before_tax * tax_rate",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.204.6.1",
+   "title": "Common Size Statement Percentage",
+   "questions": [
+    {
+     "q": "Using the method 'Common Size Statement Percentage', work with: item_amount = 120000, revenue_from_operations = 8000. Carry the chain through step by step and give the final value of common_size_percentage.",
+     "a": "1500 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Common Size Statement Percentage' and work with: item_amount = 8000, revenue_from_operations = 5000. Carry the chain through step by step and give the final value of common_size_percentage.",
+     "a": "160 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Common Size Statement Percentage' refers to.",
+     "a": "A common size statement re-expresses every item as a percentage of one chosen base for the same period -- revenue from operations in the profit statement, total assets or total liabilities in the balance sheet.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Common Size Statement Percentage'.",
+     "a": "Because every item becomes a share of the same hundred, statements of firms of very different sizes become comparable.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Common Size Statement Percentage', in plain ASCII form.",
+     "a": "common_size_percentage = item_amount / base_amount * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.204.6.2",
+   "title": "Inter-firm Use of Common Size Analysis",
+   "questions": [
+    {
+     "q": "Using the method 'Inter-firm Use of Common Size Analysis', work with: firm_a_percentages_versus_firm_b_percentages = 12. Carry the chain through step by step and give the final value of structure_comparison.",
+     "a": "12 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Inter-firm Use of Common Size Analysis' and work with: firm_a_percentages_versus_firm_b_percentages = 15. Carry the chain through step by step and give the final value of structure_comparison.",
+     "a": "15 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Inter-firm Use of Common Size Analysis' refers to.",
+     "a": "Stripping out absolute sizes, common size percentages let an analyst compare the structure of statements of firms of different magnitudes in one industry, and track how one firm's structure shifts year after year.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Inter-firm Use of Common Size Analysis'.",
+     "a": "Percentages kill the size advantage: a small firm and a giant can be read on the same page.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Inter-firm Use of Common Size Analysis', in plain ASCII form.",
+     "a": "structure_comparison = firm_a_percentages_versus_firm_b_percentages",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.204.7.1",
+   "title": "Limitations of Financial Analysis",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Limitations of Financial Analysis' refers to.",
+     "a": "Analysis inherits every weakness of the statements behind it: it ignores price level changes, stumbles on undisclosed accounting policy changes, reads only monetary data, and studies past reports rather than live conditions.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Limitations of Financial Analysis'.",
+     "a": "Windows dressed for presentation and personal judgement inside the figures pass straight through into every tool's output.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Limitations of Financial Analysis', in plain ASCII form.",
+     "a": "analysis_reliability = statement_quality - price_level_effects - non_monetary_gaps",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

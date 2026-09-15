@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_01_010",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_01_010",
+   "title": "c12_hin_a_cbse_01_010",
+   "questions": [
+    {
+     "q": "Define 'contextual meaning' (प्रसंगिक अर्थ) and distinguish it from 'dictionary meaning' (कोशीय अर्थ) using one word from \"नसोल्सुक का छर\" as an example.",
+     "a": "Contextual meaning is the specific sense a word acquires within a particular literary situation, shaped by imagery, tone, and cultural associations; dictionary meaning is its general, decontextualized definition. For example, 'लाफ्र' (NCERT: ,df=kr) literally means 'accomplished/perfected,' but in the poem's opening line \"एसौ लाफ्र थौ लफप्र\" it suggests a life *ritually completed* through sacrifice, echoing the Vedic ideal of कृतकृत्यता — a nuance absent in the dictionary. A wrong answer that only gives the dictionary meaning reveals the student treats vocabulary as static lookup rather than dynamic textual evidence.",
+     "self_check": true
+    },
+    {
+     "q": "In the line \"ज्फेर लोइउ धे एकेक्देक;क एसा र्कु मब्क्जा\" (नसोल्सुक का छर), the word 'ज्फेर' is glossed as 'ifjJe djosQ Fkdk gqvk' (one who has attained the goal). Explain why the poet chooses 'ज्फेर' instead of the more common 'सिद्ध' or 'सफल' in this specific context.",
+     "a": "'ज्फेर' (from Sanskrit ज्येष्ठ/ज्यैष्ठ्य via Prakrit) carries the connotation of *eldest, foremost, or one who has crossed the final threshold* — it implies a spiritual seniority and finality that 'सिद्ध' (accomplished) or 'सफल' (successful) lack. In the poem, Nasoluk addresses the *victorious ancestor* who has already crossed into legend; 'ज्फेर' elevates him to a quasi-mythic status, aligning with the poem's theme of ancestral memory (पितृ-स्मृति). A student who answers only with the NCERT gloss ('ifjJe djosQ Fkdk gqvk') without explaining the *connotative superiority* over synonyms shows they can retrieve definitions but cannot perform connotation analysis — a skill explicitly tested in CBSE 3-mark questions.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the 'context-clue method' to determine the meaning of 'मुहन्ह' in the line \"इफ्क्द मुअन्ह ज्क्फ्र एसा फ्द्लुस\" (नसोल्सुक का छर) *without* using the NCERT gloss. Show each clue you use.",
+     "a": "Step 1: Identify grammatical role — 'मुहन्ह' modifies 'ज्क्फ्र' (listening), so it is an adverbial/adjectival phrase describing *how* the listening happens. Step 2: Analyse morphology — 'मुह्' (mouth/face) + 'न्ह' (suffix denoting manner) → 'मुख से निकला हुआ' or 'मुख के समान'. Step 3: Use syntactic neighbours — 'इफ्क्द' (this very) + 'ज्क्फ्र' (listening/obedience) suggests immediacy and directness. Step 4: Infer meaning — 'मुहन्ह' = 'directly from the mouth/face', i.e., 'first-hand, unmediated, face-to-face'. Step 5: Verify with NCERT gloss — 'उहन से Hkjह ग्क्ब्ज' matches. A student who guesses 'angrily' or 'loudly' ignores the morphological clue 'मुख' and imposes external emotion — a common error when students skip word-structure analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the use of 'फोग्क्ष' in \"ल्र`.क न्ह्ब फ्द्क्थ\" (नसोल्सुक का छर) with its use in standard modern Hindi (e.g., 'सीमा पर फोग्क्ष छिड़ गयी'). What semantic shift occurs, and how does the poetic context *reclaim* an older sense?",
+     "a": "In modern Hindi, 'फोग्क्ष' (vèkZjkf=k esa xk;k tkus okyk jkx) means 'organized armed conflict between states' — a political/legal term. In the poem, 'ल्र`.क न्ह्ब फ्द्क्थ' (beauty manifested in the battlefield), 'फोग्क्ष' reverts to its root sense 'विक्षेप/विक्षुब्ध क्षेत्र' (a space of churning, testing, inner turmoil). The poet reclaims the *epic* sense (Mahabharata's 'धर्मक्षेत्रे कुरुक्षेत्रे') where the battlefield is a crucible for character, not geopolitics. This semantic shift — from *external war* to *internal trial* — is the poem's central metaphor. A student who only gives the modern meaning misses the intertextual resonance with the Gita, which the poet (a scholar of Sanskrit/epics) deliberately invokes.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following student claim: \"In 'डकुस्ज़्यक का छर', the word 'एकेक्दे' (feBkl से Hkjk ग्क्ब्ज) is just a fancy synonym for 'प्राचीन' (ancient). The poet could have used 'प्राचीन' without changing the meaning.\" Defend or refute with textual evidence.",
+     "a": "Refute. 'एकेक्दे' (from ऐतिहासिक/एतद् + देश/काल) means 'originating from or belonging to the *original/primal time* (आदिकाल)' — it carries a *sacral, foundational* weight: the time *before* history, when gods walked. 'प्राचीन' merely means 'old, of long ago' — a chronological label. In the line \"व्ज्क .क ;ग एकेक्दे न्स'क गेक्ज्क\" (Victory! This primal land is ours), the poet invokes *civilizational continuity* (ऋषि परंपरा, वेदिक विरासत), not mere antiquity. Replacing 'एकेक्दे' with 'प्राचीन' would reduce a *mytho-poetic claim* to a *historical fact*, stripping the poem of its nationalist-romantic charge (cf. the poet's bio: 'जक\"व्नह त्क्क्ष.क दक लोज izeq[k गसा'). A student who calls them synonyms fails the 'connotative precision' competency required for 5-mark board answers.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 2-stanza poem (4 lines each) in Hindi that uses *at least three* words from the NCERT glossary of these two poems (e.g., लाफ्र, उह्जोर्क, वुआर, फोग्क्ष, एकेक्दे, र्केज्ल) in *new contexts* that preserve their poetic connotations but shift the theme to a modern student's life (exams, future, identity).",
+     "a": "A strong answer will: (1) Select 3+ glossary words correctly. (2) Deploy each in a syntactic frame that mirrors its original grammatical role (e.g., 'उह्जोर्क' as adjective for a burden). (3) Preserve the *connotative core* (e.g., 'फोग्क्ष' as internal struggle, not a fight with friends). (4) Achieve thematic coherence — the poem should read as a unified expression of student anxiety/hope.\nExample snippet:\n\"लाफ्र हुये न कोइ अधूरा ख्वाब, / उह्जोर्क बोझ लिये चलता हूँ शाम।\nफोग्क्ष यहाँ नहीं सीमा पर कहीं, / एकेक्दे आत्मा से माँगता हूँ नाम।\"\nA weak answer uses words as decorative labels (e.g., \"मुझे वुआर पसंद है\") showing no grasp of connotation or grammatical function.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

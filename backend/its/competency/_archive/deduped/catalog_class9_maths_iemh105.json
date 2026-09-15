@@ -1,0 +1,199 @@
+{
+ "class": 9,
+ "subject": "maths",
+ "chapter": 5,
+ "chapter_title": "I'm Up and Down, and Round and Round",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iemh105.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iemh.105.5.1",
+   "title": "The Circle and Its Symmetries",
+   "section": "5.2",
+   "definition": "A circle is the set of all points at one fixed distance, the radius, from a centre; every diameter halves it, rotation about the centre maps the circle onto itself, and every chord has a matching reflection - making the circle the most symmetric of figures.",
+   "formula": "-",
+   "key_idea": "One centre, one radius, endless symmetry: turn or fold, the circle covers itself.",
+   "textbook_ref": "iemh105.txt sections 5.1-5.2 (definitions, symmetries of a circle)",
+   "question_patterns": [
+    "define a circle with its centre and radius",
+    "how many lines of symmetry does a circle have",
+    "explain the rotational symmetry of a circle",
+    "what is a chord and how is it different from a diameter",
+    "state the relation between radius and diameter",
+    "why is a circle called a symmetric figure"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "check the definition",
+     "explain": "All points equidistant from the centre form the circle."},
+    {"step": 2, "action": "fold mentally",
+     "explain": "Any diameter is a line of symmetry; the centre is the rotation point."},
+    {"step": 3, "action": "name the parts",
+     "explain": "Chord, arc, sector and diameter follow from the same picture."}
+   ]
+  },
+  {
+   "id": "iemh.105.5.2",
+   "title": "Equal Chords Subtend Equal Angles",
+   "section": "5.4",
+   "definition": "Chords of equal length cut off equal angles at the centre, and the converse holds too; measuring angles at the centre by the arcs they open gives the standard method of comparing chords.",
+   "formula": "-",
+   "key_idea": "Same chord length, same central angle: the centre is the fair judge of chords.",
+   "textbook_ref": "iemh105.txt section 5.4 (chords and the angles they subtend)",
+   "question_patterns": [
+    "show that equal chords of a circle subtend equal angles at the centre",
+    "two chords subtend equal angles at the centre - what can you say about the chords",
+    "prove the chord-angle theorem with congruent triangles",
+    "compare the two chords from the given central angles",
+    "state the converse of the equal chords theorem",
+    "apply the theorem to find the given angle"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "join the radii",
+     "explain": "Connect the centre to the endpoints of both chords."},
+    {"step": 2, "action": "prove congruence",
+     "explain": "Equal radii and equal chords give congruent triangles by SSS."},
+    {"step": 3, "action": "read off the angles",
+     "explain": "Corresponding parts of congruent triangles give equal central angles."}
+   ]
+  },
+  {
+   "id": "iemh.105.5.3",
+   "title": "Perpendicular from the Centre to a Chord",
+   "section": "5.5",
+   "definition": "The perpendicular dropped from the centre on a chord always bisects the chord; the converse also holds - the line joining the centre to the midpoint of a chord is perpendicular to it - and both facts follow from congruent right triangles on either side.",
+   "formula": "-",
+   "key_idea": "Centre to chord, straight and perpendicular: the chord splits into two equal halves.",
+   "textbook_ref": "iemh105.txt section 5.5 (midpoints and perpendicular bisectors of chords)",
+   "question_patterns": [
+    "prove that the perpendicular from the centre bisects the chord",
+    "a chord of length the given value is at the given distance from the centre - find the radius",
+    "state the converse of the perpendicular bisector theorem",
+    "find the midpoint length of the chord from the given data",
+    "why is the line from the centre to the chord's midpoint perpendicular",
+    "apply the theorem to the given circle figure"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "drop the perpendicular",
+     "explain": "Draw the segment from the centre meeting the chord at right angles."},
+    {"step": 2, "action": "form right triangles",
+     "explain": "The two triangles on either side share a leg and hypotenuse equal to the radius."},
+    {"step": 3, "action": "conclude bisection",
+     "explain": "RHS congruence gives equal halves of the chord."}
+   ]
+  },
+  {
+   "id": "iemh.105.5.4",
+   "title": "Chord Length from Radius and Distance",
+   "section": "5.6",
+   "definition": "The perpendicular from the centre builds a right triangle with the radius as hypotenuse, so a chord at distance d from the centre has length 2 times the square root of (radius squared minus distance squared) - farther chords are shorter.",
+   "formula": "chord = 2 * sqrt(r * r - d * d)",
+   "key_idea": "Radius is the slant, distance the leg: half the chord completes the right triangle.",
+   "textbook_ref": "iemh105.txt section 5.6 (distance of chords from the centre)",
+   "question_patterns": [
+    "find the length of a chord at distance 5 cm from the centre of a circle of radius 13 cm",
+    "a chord of the given length is at the given distance from the centre - verify",
+    "which of two chords is longer given their distances from the centre",
+    "find the distance of the chord from the centre",
+    "why do chords nearer the centre run longer",
+    "compute the half-chord using the Pythagorean relation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "square and subtract",
+     "explain": "Radius squared minus distance squared gives half-chord squared.",
+     "compute": "half_sq = r * r - d * d"},
+    {"step": 2, "action": "root and double",
+     "explain": "The square root is the half-chord; doubling gives the chord.",
+     "compute": "chord = 2 * sqrt(half_sq)"}
+   ]
+  },
+  {
+   "id": "iemh.105.5.5",
+   "title": "Angles in the Same Segment",
+   "section": "5.7",
+   "definition": "Angles subtended by the same arc at the circumference are equal, and the angle in a semicircle is a right angle; equal arcs give equal chords, so arcs, chords and angles order themselves consistently around the circle.",
+   "formula": "-",
+   "key_idea": "One arc, many viewing points, one angle: the same-segment theorem in one line.",
+   "textbook_ref": "iemh105.txt section 5.7 (angles subtended by an arc)",
+   "question_patterns": [
+    "prove that angles in the same segment are equal",
+    "show that the angle in a semicircle is a right angle",
+    "find the angle subtended by the given arc at the remaining circle",
+    "equal arcs of a circle subtend what kind of angles - justify",
+    "apply the same segment theorem to find the unknown angle",
+    "compare the angle at the centre and at the circumference for the same arc"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "fix the arc",
+     "explain": "Choose the arc whose subtended angles are being compared."},
+    {"step": 2, "action": "use the central angle",
+     "explain": "The central angle doubles any angle at the circumference on the same arc."},
+    {"step": 3, "action": "conclude equality",
+     "explain": "Two angles viewing the same arc from the same segment must be equal."}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iemh105.txt section 5.6 chord-distance example",
+   "concept": "iemh.105.5.4",
+   "question_type": "compute",
+   "question_pattern": "Find the length of a chord at distance {d} cm from the centre of a circle of radius {r} cm.",
+   "extracted_variables": {
+    "r": "radius of the circle in cm",
+    "d": "distance of the chord from the centre in cm"
+   },
+   "solution_template": [
+    {"step": 1, "action": "square and subtract",
+     "explain": "r squared minus d squared gives half-chord squared.",
+     "compute": "half_sq = r * r - d * d"},
+    {"step": 2, "action": "root and double",
+     "explain": "Double the half-chord for the full length.",
+     "compute": "chord = 2 * sqrt(half_sq)"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iemh105.txt section 5.6 practice",
+   "concept": "iemh.105.5.4",
+   "question_type": "compute",
+   "question_pattern": "A circle of radius {r} cm has a chord {d} cm from the centre. How long is the chord?",
+   "extracted_variables": {
+    "r": "radius in cm",
+    "d": "distance from the centre in cm"
+   },
+   "solution_template": [
+    {"step": 1, "action": "square and subtract",
+     "explain": "Compute the half-chord squared.",
+     "compute": "half_sq = r * r - d * d"},
+    {"step": 2, "action": "root and double",
+     "explain": "The full chord is twice the root.",
+     "compute": "chord = 2 * sqrt(half_sq)"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "iemh105.txt chord theorem exercises",
+   "questions": [
+     "Prove that equal chords subtend equal angles at the centre.",
+     "Prove that the perpendicular from the centre bisects a chord.",
+     "Find the radius when chord and distance from the centre are given."
+   ]
+  },
+  {
+   "id": "ex5.2",
+   "source_ref": "iemh105.txt arc and segment exercises",
+   "questions": [
+     "Show that angles in the same segment are equal.",
+     "Prove that the angle in a semicircle is a right angle."
+   ]
+  }
+ ]
+}

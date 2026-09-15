@@ -1,0 +1,198 @@
+{
+ "catalog": "catalog_class8_maths_hemh107.json",
+ "concepts": [
+  {
+   "id": "hemh.107.7.1",
+   "title": "Ratio and Percentage Recap",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find 10% of 600.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "Convert the fraction 2/5 into a percentage.",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "Express the decimal 0.12 as a percentage.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "The price of a cycle rose from Rs 151 to Rs 203. Find the percentage increase (rounded to two decimal places).",
+     "a": "34.44",
+     "self_check": false
+    },
+    {
+     "q": "A quantity fell from 175 to 118. What is the percentage decrease (two decimal places)?",
+     "a": "32.57",
+     "self_check": false
+    },
+    {
+     "q": "What percentage of 150 is 75?",
+     "a": "50",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.107.7.2",
+   "title": "Finding Discounts",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A trader buys an article for Rs 200 and sells it for Rs 240. Find the profit.",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "Cost price Rs 200, selling price Rs 240. Find the profit percentage.",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "An article costing Rs 200 is sold for Rs 160. Find the loss percentage.",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "A shopkeeper wants a 10% profit on an article costing Rs 400. At what price should he sell it?",
+     "a": "440",
+     "self_check": false
+    },
+    {
+     "q": "The marked price of a jacket is Rs 500 and the shop offers a 10% discount. What is the sale price?",
+     "a": "450",
+     "self_check": false
+    },
+    {
+     "q": "An item marked at Rs 500 sells for Rs 450 after a discount. Find the discount percentage.",
+     "a": "10",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.107.7.3",
+   "title": "Sales Tax and Value Added Tax",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A trader buys an article for Rs 150 and sells it for Rs 187. Find the profit.",
+     "a": "37",
+     "self_check": false
+    },
+    {
+     "q": "Cost price Rs 150, selling price Rs 187. Find the profit percentage.",
+     "a": "24.6667",
+     "self_check": false
+    },
+    {
+     "q": "An article costing Rs 150 is sold for Rs 113. Find the loss percentage.",
+     "a": "24.6667",
+     "self_check": false
+    },
+    {
+     "q": "A shopkeeper wants a 10% profit on an article costing Rs 250. At what price should he sell it?",
+     "a": "275",
+     "self_check": false
+    },
+    {
+     "q": "The marked price of a jacket is Rs 600 and the shop offers a 20% discount. What is the sale price?",
+     "a": "480",
+     "self_check": false
+    },
+    {
+     "q": "An item marked at Rs 600 sells for Rs 480 after a discount. Find the discount percentage.",
+     "a": "20",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.107.7.4",
+   "title": "Compound Interest",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the simple interest on Rs 8000 at 10% per annum for 4 years.",
+     "a": "3200",
+     "self_check": false
+    },
+    {
+     "q": "Rs 8000 is deposited at 10% simple interest per annum for 4 years. Find the maturity amount.",
+     "a": "11200",
+     "self_check": false
+    },
+    {
+     "q": "A sum lent at 10% per annum simple interest earns Rs 3200 in 4 years. Find the principal (two decimal places).",
+     "a": "8000",
+     "self_check": false
+    },
+    {
+     "q": "Find the compound interest on Rs 8000 at 10% per annum for 3 years, compounded annually (two decimal places).",
+     "a": "2648",
+     "self_check": false
+    },
+    {
+     "q": "What amount is owed after Rs 8000 grows for 3 years at 10% per annum compounded annually (two decimal places)?",
+     "a": "10648",
+     "self_check": false
+    },
+    {
+     "q": "Find the amount on Rs 8000 at 8% per annum compounded half-yearly for 2 years (two decimal places).",
+     "a": "9358.87",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.107.7.5",
+   "title": "Growth and Decay Applications",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the simple or compound interest formula",
+     "explain": "apply the simple or compound interest formula: si = 5000 * 8 * 4 / 100 gives 1600",
+     "compute": "si = 5000 * 8 * 4 / 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the simple interest on Rs 5000 at 8% per annum for 4 years.",
+     "a": "1600",
+     "self_check": false
+    },
+    {
+     "q": "Rs 5000 is deposited at 8% simple interest per annum for 4 years. Find the maturity amount.",
+     "a": "6600",
+     "self_check": false
+    },
+    {
+     "q": "A sum lent at 8% per annum simple interest earns Rs 1600 in 4 years. Find the principal (two decimal places).",
+     "a": "5000",
+     "self_check": false
+    },
+    {
+     "q": "Find the compound interest on Rs 5000 at 8% per annum for 2 years, compounded annually (two decimal places).",
+     "a": "832",
+     "self_check": false
+    },
+    {
+     "q": "What amount is owed after Rs 5000 grows for 2 years at 8% per annum compounded annually (two decimal places)?",
+     "a": "5832",
+     "self_check": false
+    },
+    {
+     "q": "Find the amount on Rs 5000 at 10% per annum compounded half-yearly for 2 years (two decimal places).",
+     "a": "6077.53",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

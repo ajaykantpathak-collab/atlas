@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch01_005",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch01_005",
+   "title": "c7_eco_ch01_005",
+   "questions": [
+    {
+     "q": "What was the primary economic advantage of stamping official seals on metal coins compared to raw chunks of metal?",
+     "a": "Official seals guaranteed the exact weight and purity of the metal. This eliminated the need for merchants to constantly weigh and test metal purity during every transaction, which greatly reduced transaction time and costs. A wrong answer usually reveals that the student thinks money's value comes from government decoration rather than its actual material and trust properties.",
+     "self_check": true
+    },
+    {
+     "q": "Why did heavy metals like iron or copper eventually get supplemented by precious metals like silver and gold for higher-value transactions?",
+     "a": "Precious metals have high value stored in a small volume and weight, making them much easier to transport for high-value transactions compared to bulky base metals like iron. A wrong answer suggests the student confuses aesthetic beauty with economic liquidity and portability requirements in trade.",
+     "self_check": true
+    },
+    {
+     "q": "A local merchant in 16th-century India accepts a silver coin whose actual silver content is worth 90 rupees in the market, but the coin is stamped with a face value of 100 rupees by the king. If the king suddenly reduces the silver content inside identical newly minted coins to worth only 70 rupees while keeping the face value at 100 rupees, what immediate economic temptation does this create for dishonest traders?",
+     "a": "Steps:\n1. Identify original coin value: Face value = 100 rupees, Intrinsic metal value = 90 rupees.\n2. Identify new coin value: Face value = 100 rupees, Intrinsic metal value = 70 rupees.\n3. Compare the gap: Traders can melt down the older, heavier 90-rupee silver coins for their metal value or hoard them, while passing off the lighter 70-rupee coins in trade.\n4. Conclude economic temptation: Dishonest traders will melt heavy coins or clip their edges to extract and sell raw silver, leading to a phenomenon known as Gresham's Law where \"bad money drives out good money.\"\nA wrong answer reveals a misunderstanding of the difference between the face value of money and the intrinsic value of its underlying metal.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why a society transitioning from cowrie shells and grain to metallic coins would experience an increase in market size and long-distance trade.",
+     "a": "Metallic coins do not spoil, are easily divisible, and possess high value in small bulk. Unlike perishable grain or bulky cowrie shells, merchants could travel across distant regions with a small pouch of coins, ensuring consistent purchasing power and secure transactions with strangers. A wrong answer shows the student does not understand how durability and portability are prerequisites for expanding markets beyond local villages.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"A government should make coins out of paper-thin aluminum rather than gold or silver because aluminum is cheaper to produce.\" Is this economically sound for early monetary systems?",
+     "a": "This is economically unsound for early metallic monetary systems because people trusted coins based partly on the intrinsic value of the precious metal and the difficulty of counterfeiting it. If coins were made of cheap, widely available material without strict controls, anyone could replicate them, leading to severe inflation and loss of trust in the medium of exchange. A wrong answer indicates the student overlooks the crucial role of trust and scarcity in early currency systems.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical currency system for a remote island that has plenty of copper and coconut trees. Propose whether you would choose copper coins or dried coconuts as currency, and justify your choice using three economic properties of money.",
+     "a": "A strong answer would propose copper coins, justifying that copper is more durable (does not rot like coconuts), more uniform (easier to standardize into exact weights), and more portable (a small coin has high value compared to a bulky coconut). A poor answer suggests coconuts because they are natural, showing a failure to understand that currency requires durability, portability, and uniformity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

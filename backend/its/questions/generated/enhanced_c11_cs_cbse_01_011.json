@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_01_011",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_01_011",
+   "title": "c11_cs_cbse_01_011",
+   "questions": [
+    {
+     "q": "What is the base (radix) of the hexadecimal number system, and how many distinct digits/symbols does it use?",
+     "a": "The hexadecimal system has base 16 and uses 16 distinct symbols: 0-9 and A-F (where A=10, B=11, C=12, D=13, E=14, F=15). A wrong answer (e.g., \"base 15\" or \"uses digits 0-9 only\") reveals the student confuses the base with the highest digit value, or doesn't know that letters represent digit values 10-15.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the binary number 1011₂ and the decimal number 1011₁₀ represent completely different quantities, even though they look identical.",
+     "a": "In binary, 1011₂ = 1×2³ + 0×2² + 1×2¹ + 1×2⁰ = 8+0+2+1 = 11₁₀. In decimal, 1011₁₀ = 1×10³ + 0×10² + 1×10¹ + 1×10⁰ = 1000+0+10+1 = 1011₁₀. The base determines the positional weights (powers of 2 vs powers of 10). A wrong answer indicates the student thinks the digit string itself has an absolute value independent of base, missing the core concept of positional notation.",
+     "self_check": true
+    },
+    {
+     "q": "Which of the following are VALID numbers in their respective systems? (a) 782₈ (b) 1A3F₁₆ (c) 10201₂ (d) 9G5₁₆",
+     "a": "Valid: (b) 1A3F₁₆ and (c) 10201₂. Invalid: (a) 782₈ contains digit 8 (octal only allows 0-7), (d) 9G5₁₆ contains G (hexadecimal only allows A-F). A wrong answer (e.g., accepting 782₈) reveals the student doesn't know the exact digit set boundaries for each base.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the positional weight of the leftmost digit in a 4-digit number across binary, octal, and hexadecimal systems. Which system gives the largest weight to that position, and why?",
+     "a": "For a 4-digit number, leftmost position index is 3 (from right, starting at 0). Weights: binary = 2³ = 8, octal = 8³ = 512, hexadecimal = 16³ = 4096. Hexadecimal gives the largest weight because it has the largest base (16 > 8 > 2), so powers grow fastest. A wrong answer (e.g., \"binary gives largest weight because it has more digits\") shows confusion between number of digits needed and positional weight magnitude.",
+     "self_check": true
+    },
+    {
+     "q": "A programmer says: \"Hexadecimal is just a shorthand for binary because each hex digit represents exactly 4 binary bits.\" Evaluate this statement. Is it always true? Justify your answer.",
+     "a": "The statement is TRUE and mathematically precise. Since 16 = 2⁴, each hexadecimal digit (0-F) maps uniquely to a 4-bit binary pattern (0000-1111). This 1:4 mapping makes hex a perfect compact representation of binary. A wrong evaluation (e.g., \"it's approximate\" or \"sometimes 3 bits\") reveals the student doesn't understand the power-of-2 relationship between bases (16 = 2⁴, 8 = 2³) that enables exact grouping.",
+     "self_check": true
+    },
+    {
+     "q": "Design a base-5 (quinary) number system for a fictional alien species with 5 fingers. Specify: (a) the digit symbols, (b) the base, (c) the positional weights for the first 4 positions, and (d) write the quinary representation of decimal 42.",
+     "a": "(a) Digits: {0,1,2,3,4} (any 5 distinct symbols). (b) Base = 5. (c) Weights: 5⁰=1, 5¹=5, 5²=25, 5³=125. (d) 42₁₀ = 1×25 + 3×5 + 2×1 = 132₅. A poor answer (e.g., using digit 5, or wrong weights) shows inability to generalize the positional notation principle to an arbitrary base.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,195 @@
+{
+ "class": 11,
+ "subject": "chemistry",
+ "chapter": 201,
+ "chapter_title": "Redox Reactions",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kech201.txt",
+ "concepts": [
+  {
+   "id": "kech.201.1.1",
+   "title": "Oxidation, Reduction and Redox Reactions",
+   "section": "Redox reactions",
+   "definition": "A redox reaction couples oxidation, the loss of electrons or gain of oxygen, with reduction, the gain of electrons or loss of hydrogen, so that one species is oxidised and another reduced in the same reaction, and the species supplying electrons is the reducing agent while the one accepting them is the oxidising agent.",
+   "formula": "",
+   "key_idea": "Oxidation number increases during oxidation and decreases during reduction, giving a bookkeeping method that applies even to covalent compounds.",
+   "textbook_ref": "kech201.txt redox concepts sections",
+   "question_patterns": [
+    "define oxidation and reduction in terms of electrons",
+    "identify the oxidising agent and reducing agent in a reaction",
+    "what is meant by redox reaction with example",
+    "how does classical oxidation number definition differ from electronic",
+    "explain oxidation number change in a redox reaction",
+    "state the competitive electron transfer view of redox reactions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "assign oxidation numbers",
+     "explain": "Write oxidation numbers of each atom before and after."
+    },
+    {
+     "step": 2,
+     "action": "spot the changes",
+     "explain": "Note which species is oxidised and which is reduced."
+    },
+    {
+     "step": 3,
+     "action": "name the agents",
+     "explain": "Label the electron donor and acceptor."
+    }
+   ]
+  },
+  {
+   "id": "kech.201.2.1",
+   "title": "Assigning Oxidation Number by the Sum Rule",
+   "section": "Oxidation number",
+   "definition": "Oxidation number is assigned by rules of ion charge and electronegativity, and in any neutral molecule the sum of oxidation numbers of all atoms is zero while in a polyatomic ion it equals the charge of the ion, letting the unknown oxidation number be solved from the known ones.",
+   "formula": "unknown_ox = (charge_total - known_sum) / n_atoms",
+   "key_idea": "Fluorine always shows -1, oxygen usually -2 and hydrogen +1 in compounds, providing the fixed values for the sum rule.",
+   "textbook_ref": "kech201.txt oxidation number section",
+   "question_patterns": [
+    "state the rules for assigning oxidation numbers",
+    "calculate the oxidation number of sulphur in sulphuric acid",
+    "find the oxidation number of the central atom in an ion",
+    "what is the sum of oxidation numbers in a neutral molecule",
+    "assign oxidation numbers to all atoms of a compound",
+    "explain the stock notation of oxidation number"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the sum rule",
+     "explain": "Subtract the sum of known oxidation numbers from the total charge and divide by the number of unknown atoms",
+     "compute": "unknown_ox = (charge_total - known_sum) / n_atoms"
+    }
+   ]
+  },
+  {
+   "id": "kech.201.3.1",
+   "title": "Balancing Redox Reactions: Oxidation Number and Half Reaction Methods",
+   "section": "Balancing redox reactions",
+   "definition": "Redox equations are balanced either by the oxidation number method, equalising total increase and decrease in oxidation numbers, or by the ion electron half reaction method, where oxidation and reduction half reactions are balanced separately for atoms, charge, oxygen with water and hydrogen with hydrogen ion, then added.",
+   "formula": "",
+   "key_idea": "Redox reactions are classified into combination, decomposition, displacement and disproportionation types, the last being a reaction in which the same element is both oxidised and reduced.",
+   "textbook_ref": "kech201.txt balancing sections",
+   "question_patterns": [
+    "explain the oxidation number method of balancing redox equations",
+    "describe the half reaction or ion electron method",
+    "define disproportionation reaction with an example",
+    "classify redox reactions into their types",
+    "balance a redox reaction in acidic medium",
+    "what are the steps of the ion electron method"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "split into half reactions",
+     "explain": "Separate oxidation and reduction halves."
+    },
+    {
+     "step": 2,
+     "action": "balance atoms and charge",
+     "explain": "Balance elements, then oxygen with water, hydrogen with hydrogen ion, and charge with electrons."
+    },
+    {
+     "step": 3,
+     "action": "combine the halves",
+     "explain": "Add the halves after equalising electron transfer."
+    }
+   ]
+  },
+  {
+   "id": "kech.201.4.1",
+   "title": "Redox Reactions in Daily Life and Electrode Processes",
+   "section": "Applications of redox",
+   "definition": "Redox reactions underlie electrochemical cells where oxidation occurs at the anode and reduction at the cathode, batteries and fuel cells, corrosion of metals, and electrolysis, connecting chemistry to energy technology and metallurgy.",
+   "formula": "",
+   "key_idea": "In a galvanic cell the spontaneous redox reaction generates current, and electrode potential measures the tendency of an electrode to lose or gain electrons.",
+   "textbook_ref": "kech201.txt applications sections",
+   "question_patterns": [
+    "explain the electrode processes in an electrochemical cell",
+    "how are redox reactions used in batteries and fuel cells",
+    "describe corrosion as a redox process",
+    "define anode cathode and electrode potential",
+    "what happens at each electrode during electrolysis",
+    "give examples of redox reactions in everyday life"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "locate the electrodes",
+     "explain": "Identify anode for oxidation and cathode for reduction."
+    },
+    {
+     "step": 2,
+     "action": "follow the electron flow",
+     "explain": "Trace electrons from anode through the circuit to cathode."
+    },
+    {
+     "step": 3,
+     "action": "relate to the application",
+     "explain": "Link the cell to battery, corrosion or electrolysis use."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kech201.txt oxidation number section",
+   "concept": "kech.201.2.1",
+   "question_type": "compute_oxidation_number",
+   "question_pattern": "In a neutral molecule of sulphuric acid the two hydrogen atoms are +1 each and the four oxygen atoms are -2 each. Taking the total charge as {charge_total}, calculate the oxidation number of the single sulphur atom.",
+   "extracted_variables": {
+    "charge_total": 0,
+    "known_sum": 6,
+    "n_atoms": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the sum rule",
+     "explain": "Subtract the sum of known oxidation numbers from the total charge and divide by the number of unknown atoms",
+     "compute": "unknown_ox = (charge_total - known_sum) / n_atoms"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kech201.txt oxidation number section",
+   "concept": "kech.201.2.1",
+   "question_type": "compute_oxidation_number",
+   "question_pattern": "Find the oxidation number of chromium in a dichromate ion of total charge {charge_total}, given seven oxygen atoms at -2 each, so the known sum is {known_sum} over {n_atoms} chromium atom.",
+   "extracted_variables": {
+    "charge_total": -2,
+    "known_sum": -14,
+    "n_atoms": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the sum rule",
+     "explain": "Subtract the sum of known oxidation numbers from the total charge and divide by the number of unknown atoms",
+     "compute": "unknown_ox = (charge_total - known_sum) / n_atoms"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kech201.txt exercises",
+   "questions": [
+    "Assign oxidation numbers to the underlined elements in the given species.",
+    "Justify that the given reactions are redox reactions.",
+    "Balance the following redox reactions by ion electron method.",
+    "What is disproportionation? Give two examples.",
+    "Identify the oxidising and reducing agents in the given reactions."
+   ]
+  }
+ ]
+}

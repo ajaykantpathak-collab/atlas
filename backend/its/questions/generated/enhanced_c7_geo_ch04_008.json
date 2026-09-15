@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch04_008",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch04_008",
+   "title": "c7_geo_ch04_008",
+   "questions": [
+    {
+     "q": "What primary advantage do hybrid seeds provide to farmers compared to traditional open-pollinated seeds?",
+     "a": "Hybrid seeds provide significantly higher yields per hectare, improved resistance to specific pests and diseases, and often faster maturation rates. If a student answers that hybrid seeds require no water or fertilizers, it reveals a dangerous misconception that seeds alone can override basic soil and climate requirements without chemical and hydrological support.",
+     "self_check": true
+    },
+    {
+     "q": "Why is drip irrigation considered much more water-efficient than traditional surface flooding, especially in semi-arid regions like western Rajasthan?",
+     "a": "Drip irrigation delivers water directly to the plant root zone drop by drop, which minimizes water loss through surface evaporation and deep percolation. A wrong answer—such as thinking drip irrigation cools the entire atmosphere—shows confusion between atmospheric weather regulation and targeted root-zone hydration, missing the core purpose of conserving scarce water resources in dry regions.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in a peninsular plateau region with undulating rocky terrain wants to tractor-plough a 5-hectare plot. If a tractor can plough 1 hectare in 2 hours on flat land, but rocky terrain reduces efficiency by 25%, how many total hours will it take to plough the entire plot?",
+     "a": "Step 1: Calculate the base time needed for flat land: 5 hectares × 2 hours/hectare = 10 hours. Step 2: Determine the efficiency reduction factor: 25% slower means it takes 100% + 25% = 125% of the original time, or time is multiplied by 1.25. Step 3: Compute the adjusted total time: 10 hours × 1.25 = 12.5 hours. Step 4: Verify the calculation: 10 hours plus 25% of 10 hours (2.5 hours) equals 12.5 hours. A wrong answer reveals a failure to calculate percentage increases correctly or to adjust machinery performance variables based on physical terrain constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the combination of hybrid wheat seeds and tube-well irrigation transformed the agricultural landscape of Punjab during the Green Revolution compared to rainfed eastern plateau regions.",
+     "a": "The combination allowed Punjab farmers to bypass unpredictable monsoon timings by pumping groundwater on demand while using lodging-resistant, high-yielding hybrid seeds that could absorb heavy nutrient inputs without falling over. A wrong answer suggests the student thinks seeds and irrigation work independently of regional groundwater availability and topography, ignoring how physical water access dictates where modern inputs succeed.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether widespread adoption of tube-well irrigation and tractors is sustainable in regions experiencing declining groundwater tables like Punjab and Haryana.",
+     "a": "While these technologies maximize immediate crop yields and operational speed, their intensive use is unsustainable over the long term because unregulated tube-wells deplete deep aquifers faster than monsoon percolation can recharge them, risking future agricultural collapse. A student who argues that technology completely eliminates natural limits fails to recognize the finite nature of groundwater resources and ecological feedback loops.",
+     "self_check": true
+    },
+    {
+     "q": "Design a modern irrigation and seed selection strategy for a newly developed agricultural plot in a drought-prone district of interior Karnataka, ensuring high crop survival and minimal water wastage.",
+     "a": "A strong proposal should recommend drought-tolerant hybrid seeds (such as millets or short-duration pulses), coupled with a pressurized drip irrigation system connected to a farm-pond rainwater harvesting unit, powered by solar pumps. A poor answer would suggest flooding fields with canal water or using water-intensive crops like paddy, revealing a total disconnect between physical water scarcity and technological crop choice.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_05_004",
+   "title": "c11_math_cbse_05_004",
+   "questions": [
+    {
+     "q": "State the product of \\(z_1 = 2 + 3i\\) and \\(z_2 = 1 - 4i\\) in the form \\(a + ib\\).",
+     "a": "Correct answer: \\(14 - 5i\\). A wrong answer like \\(2 - 12i\\) reveals the student forgot to replace \\(i^2\\) with \\(-1\\) (they computed \\(3i \\times -4i = -12i\\) instead of \\(-12i^2 = 12\\)). An answer of \\(14 + 5i\\) shows a sign error when combining the imaginary parts \\((-8i + 3i = -5i)\\).",
+     "self_check": true
+    },
+    {
+     "q": "If \\(z = x + iy\\) satisfies \\(z \\cdot (2 - 3i) = 5 + 12i\\), explain why we cannot simply \"divide both sides by \\(2-3i\\)\" at this stage, and write the two linear equations in \\(x\\) and \\(y\\) obtained by expanding the product.",
+     "a": "Correct explanation: Division of complex numbers is not yet defined; we only know multiplication. Expanding gives \\((2x+3y) + i(2y-3x) = 5+12i\\), yielding \\(2x+3y=5\\) and \\(2y-3x=12\\). A student who attempts \"division\" reveals they are importing real-number algebra rules without recognizing that complex division requires the conjugate (next node). A student who writes only one equation misses the equality of imaginary parts.",
+     "self_check": true
+    },
+    {
+     "q": "Multiply \\((1 + i)(2 + i)(3 + i)\\) and express the result in standard form.",
+     "a": "Correct answer: \\(10i\\). Steps: First multiply \\((1+i)(2+i) = 2 + i + 2i + i^2 = 2 + 3i -1 = 1+3i\\). Then multiply \\((1+3i)(3+i) = 3 + i + 9i + 3i^2 = 3 + 10i -3 = 10i\\). A wrong answer like \\(6 + 11i\\) (from \\((1+i)(2+i)=1+3i\\) then \\(1+3i)(3+i)\\) miscalculated as \\(3+10i-3\\) but forgetting \\(i^2=-1\\) in first step) shows inconsistent application of \\(i^2=-1\\). An answer of \\(10\\) reveals the student treated \\(i\\) as a variable and ignored \\(i^2=-1\\) entirely.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the products \\(z_1 z_2\\) and \\(z_2 z_1\\) for \\(z_1 = a+ib\\) and \\(z_2 = c+id\\). Using the multiplication formula, prove that multiplication of complex numbers is commutative.",
+     "a": "Correct proof: \\(z_1 z_2 = (ac-bd) + i(ad+bc)\\). \\(z_2 z_1 = (ca-db) + i(cb+da) = (ac-bd) + i(ad+bc)\\) because real multiplication is commutative. Hence \\(z_1 z_2 = z_2 z_1\\). A student who only verifies with numeric examples (e.g., \\(z_1=1+i, z_2=2-i\\)) shows they understand the property but not the general proof. A student who claims \"it's obvious because multiplication is commutative\" misses that the formula must be checked since \\(i\\) is not a real number.",
+     "self_check": true
+    },
+    {
+     "q": "A student computes \\((3 + 2i)^2\\) as \\(9 + 4i^2 = 5\\). Identify the error and give the correct product.",
+     "a": "Error: The student used \\((a+b)^2 = a^2 + b^2\\) instead of \\((a+b)^2 = a^2 + 2ab + b^2\\). Correct expansion: \\((3+2i)^2 = 9 + 2(3)(2i) + 4i^2 = 9 + 12i - 4 = 5 + 12i\\). This misconception is extremely common: students forget the middle term \\(2ab\\) when squaring binomials involving \\(i\\), treating \\(i\\) as if it cancels the cross term.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem involving a real-life situation (e.g., electrical circuits, signal processing) where two quantities are represented as complex numbers and must be multiplied. Define the numbers, state the question, and solve it.",
+     "a": "Example: \"In an AC circuit, impedance \\(Z_1 = 4 + 3j\\) ohms and \\(Z_2 = 2 - j\\) ohms are connected in series. Find the total impedance.\" (Note: series adds, parallel multiplies reciprocals; better: \"A signal passes through two filters with transfer functions \\(H_1 = 1+2i\\) and \\(H_2 = 3-i\\). Find the overall transfer function.\") Solution: \\((1+2i)(3-i) = 3 - i + 6i - 2i^2 = 5 + 5i\\). A poor answer uses addition instead of multiplication, or gives non-complex quantities, showing the student cannot map the physical situation to the mathematical operation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

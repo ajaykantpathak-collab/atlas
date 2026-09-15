@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_05_005",
+   "title": "c11_hs_cbse_05_005",
+   "questions": [
+    {
+     "q": "A student claims: \"Cotton and linen are both cellulosic fibres from plants, so they should behave identically in dyeing and moisture absorption.\" Identify the specific property difference that makes this statement incorrect, and name the structural reason for that difference.",
+     "a": "Correct answer: Linen has lower dye affinity than cotton despite similar moisture absorbency. Structural reason: Linen fibres are longer, finer, and more highly crystalline (oriented cellulose chains) with fewer amorphous regions, reducing dye penetration compared to cotton's shorter, less crystalline fibres with more accessible amorphous zones. A wrong answer (e.g., \"linen absorbs less moisture\") reveals confusion between moisture regain (similar for both) and dye uptake (different due to crystallinity and fibre maturity).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why jute and hemp, despite being bast fibres like linen, are unsuitable for fine apparel fabrics but excel in gunny bags and ropes. Your answer must link botanical structure to at least two specific fibre properties.",
+     "a": "Correct answer: Jute and hemp have high lignin content and thick, coarse ultimate cells with low flexibility (high stiffness) due to their structural role in the plant stem, resulting in poor drape and harsh hand feel. However, their high tensile strength and low extensibility make them ideal for load-bearing applications like sacks and ropes. A wrong answer focusing only on \"coarseness\" without linking lignin content to stiffness and strength reveals surface-level memorisation without understanding structure-property relationships.",
+     "self_check": true
+    },
+    {
+     "q": "A fabric sample burns with a steady flame, smells like burning paper, leaves a light grey feathery ash that retains the fabric's shape, and continues to glow after removal from flame. The fibre length measured under microscope averages 25 mm with a diameter of 18 µm. Identify the fibre and justify using both burning test and morphological evidence.",
+     "a": "Correct answer: Cotton. Burning test matches cellulosic profile (paper smell, feathery ash, afterglow). Morphology: 25 mm length and 18 µm diameter fall within cotton's staple range (10–50 mm length, 12–20 µm diameter), distinguishing it from linen (longer, finer: 300–900 mm, 12–16 µm) and jute/hemp (coarser, longer). A wrong answer of \"linen\" ignores the length mismatch; \"rayon\" ignores the natural staple length variation (rayon is uniform).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the retting process for linen (flax) with the ginning process for cotton. Analyse how each process targets the specific non-fibrous material that must be removed, and explain why mechanical ginning cannot replace retting for bast fibres.",
+     "a": "Correct answer: Ginning mechanically separates cotton seed hairs from seeds (discrete particles). Retting uses microbial/enzymatic action to degrade pectins and hemicelluloses binding bast fibre bundles to the woody core (shive) and epidermis — a chemical bonding that mechanical action alone cannot cleanly separate without fibre damage. A wrong answer stating \"both remove seeds\" or \"retting is just soaking\" reveals misunderstanding of the biochemical nature of bast fibre extraction versus mechanical seed separation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim for a summer shirt fabric: \"A cotton-linen blend (50:50) will combine cotton's dye brightness with linen's cool feel, making it superior to either pure fibre.\" Identify two potential drawbacks of this blend that the claim overlooks, based on fibre property interactions.",
+     "a": "Correct answer: (1) Differential shrinkage: cotton shrinks more than linen, causing puckering and distortion after washing unless sanforised. (2) Uneven dye uptake: cotton dyes deeper than linen, leading to a heathered/melange effect that may be undesirable for solid colours. A wrong answer focusing only on \"cost\" or \"availability\" misses the technical performance trade-offs inherent in blending fibres with different dimensional stability and dye affinity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple identification flowchart using only three observable tests (no microscope, no chemicals) that a consumer could use at home to distinguish cotton, linen, jute, and hemp fabrics. Specify the test, the observation for each fibre, and the decision logic.",
+     "a": "Good answer criteria: Flowchart uses (1) Burning test — all four smell like paper/ash but cotton/linen have afterglow, jute/hemp may show less afterglow due to lignin; (2) Hand feel/lustre — linen > cotton > hemp > jute in smoothness/lustre; (3) Water absorption speed — linen fastest, then cotton, hemp, jute slowest due to lignin hydrophobicity. Decision logic must sequentially separate pairs. A poor answer uses only one test or ignores lignin's effect on jute/hemp wettability, showing incomplete property integration.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

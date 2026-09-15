@@ -1,0 +1,377 @@
+{
+  "class": 12,
+  "subject": "maths",
+  "chapter": 12,
+  "chapter_title": "Linear Programming",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lemh206.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "provenance": "drafter agent author-first draft; gate-validated; review pending",
+  "concepts": [
+    {
+      "id": "lemh.206.12.2.1",
+      "title": "Formulating a Linear Programming Problem",
+      "section": "12.2.1",
+      "definition": "Translate a resource-planning story into mathematics by naming the decision variables, writing the linear objective worth optimising, and listing every linear restriction including non-negativity of the variables.",
+      "formula": "Z = a * x + b * y subject to linear constraints",
+      "key_idea": "Objective function plus linear constraints plus non-negative variables.",
+      "textbook_ref": "lemh206.txt section 12.2.1 furniture dealer example (lines ~14-59, 64-110)",
+      "question_patterns": [
+        "formulate the given word problem as a linear programming problem",
+        "write the objective function and the constraints for the dealer problem",
+        "identify the decision variables in the planning problem",
+        "what are the non-negative restrictions in this problem",
+        "convert the investment story into constraints and an objective",
+        "define the terms objective function and constraints with an example"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Name the decision variables",
+          "explain": "Let x and y count the two controllable quantities."
+        },
+        {
+          "step": 2,
+          "action": "Write the objective function",
+          "explain": "Express the profit, cost or other target as Z = ax + by."
+        },
+        {
+          "step": 3,
+          "action": "List the constraints",
+          "explain": "Translate money, space or material limits into linear inequalities."
+        },
+        {
+          "step": 4,
+          "action": "Add non-negativity",
+          "explain": "State x >= 0 and y >= 0."
+        }
+      ]
+    },
+    {
+      "id": "lemh.206.12.2.2",
+      "title": "Feasible Region of the Constraints",
+      "section": "12.2.2",
+      "definition": "Graphing every constraint as a half plane, their common area is the feasible region; its points are the feasible solutions, everything outside is infeasible, and the region is always convex, being bounded or unbounded.",
+      "formula": "feasible region equals the overlap of all constraint half planes",
+      "key_idea": "The feasible region is the shared area of all half planes including the axes.",
+      "textbook_ref": "lemh206.txt section 12.2.2 definitions with fig 12.1 (lines ~135-171)",
+      "question_patterns": [
+        "determine the feasible region of the constraint system graphically",
+        "shade the common region satisfying all the given inequalities",
+        "check whether the given point is a feasible solution",
+        "is the point inside or outside the feasible region",
+        "explain the difference between feasible and infeasible solutions",
+        "is the feasible region of this problem bounded or unbounded"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Draw each constraint line",
+          "explain": "Turn each inequality into its boundary line."
+        },
+        {
+          "step": 2,
+          "action": "Shade the correct half plane",
+          "explain": "Pick the side that satisfies the inequality, using a test point if needed."
+        },
+        {
+          "step": 3,
+          "action": "Keep the common area",
+          "explain": "The overlap of all half planes with x, y >= 0 is the feasible region."
+        }
+      ]
+    },
+    {
+      "id": "lemh.206.12.2.3",
+      "title": "Corner Point Method",
+      "section": "12.2.2",
+      "definition": "The optimum of a linear objective over a feasible region sits at a vertex, so list the corner points, evaluate the objective at each, and read off the largest or smallest value; for two corners tied at the optimum, the whole joining segment is optimal.",
+      "formula": "the optimal value of Z occurs at a corner point of the feasible region",
+      "key_idea": "Check Z only at the vertices; the best one answers the problem.",
+      "textbook_ref": "lemh206.txt corner point method steps with examples 1-3 (lines ~196-353)",
+      "question_patterns": [
+        "solve the linear programming problem graphically by the corner point method",
+        "find the maximum value of the objective function and where it occurs",
+        "evaluate the objective at every vertex and pick the optimum",
+        "determine the corner points of the feasible region and the optimal value",
+        "at which vertex does the objective attain its minimum",
+        "use the vertices of the feasible region to optimise Z"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Find the corner points",
+          "explain": "Read them off the graph or solve the pairs of boundary equations meeting there."
+        },
+        {
+          "step": 2,
+          "action": "Evaluate Z at each corner",
+          "explain": "Substitute every vertex into Z = ax + by."
+        },
+        {
+          "step": 3,
+          "action": "Select the optimum",
+          "explain": "For a bounded region the largest (or smallest) entry is the answer; for an unbounded region confirm with a half plane test."
+        }
+      ]
+    },
+    {
+      "id": "lemh.206.12.2.4",
+      "title": "Objective Value at a Corner Point",
+      "section": "12.2.2",
+      "definition": "The profit or cost standing of any candidate plan follows by substituting the plan's coordinates into the linear objective, which is exactly the per-corner arithmetic of the corner point method.",
+      "formula": "objective_value = obj_a * x + obj_b * y",
+      "key_idea": "Weight the coordinates by the objective coefficients and add.",
+      "textbook_ref": "lemh206.txt corner value tables with examples 1-2 (lines ~199-308)",
+      "question_patterns": [
+        "evaluate the objective function at the given corner point",
+        "compute the value of Z at the vertex with the given coordinates",
+        "what is the profit at the corner point with the given plan",
+        "calculate the objective value for the stated values of x and y",
+        "find the cost value of the objective at the listed vertex",
+        "how much is Z worth at the given corner"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Weight each coordinate by its objective coefficient",
+          "explain": "Multiply x by the x-coefficient and y by the y-coefficient of Z.",
+          "compute": "objective_value = obj_a * x + obj_b * y"
+        }
+      ]
+    },
+    {
+      "id": "lemh.206.12.2.5",
+      "title": "Intersection of Two Boundary Lines",
+      "section": "12.2.2",
+      "definition": "A corner point of the feasible region is where two constraint boundary lines cross, so solving those two linear equations together supplies the vertex coordinates needed for the corner point method.",
+      "formula": "vertex coordinates come from solving the two boundary equations",
+      "key_idea": "Vertices are pair-wise crossings of the constraint lines.",
+      "textbook_ref": "lemh206.txt corner point method step 1 with fig 12.1 (lines ~196-201, 226-231)",
+      "question_patterns": [
+        "find the corner point where the two constraint lines meet",
+        "solve the two boundary equations simultaneously to get the vertex",
+        "determine the intersection of the two given constraint lines",
+        "which point is shared by both boundary lines of the region",
+        "compute the coordinates of the vertex formed by the two constraints",
+        "locate the corner of the feasible region by solving the pair of equations"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Write both boundary equations",
+          "explain": "Each constraint line contributes one linear equation in x and y."
+        },
+        {
+          "step": 2,
+          "action": "Eliminate one variable",
+          "explain": "Subtract a scaled multiple of one equation from the other."
+        },
+        {
+          "step": 3,
+          "action": "Back-substitute for the second variable",
+          "explain": "The pair of values is the corner point."
+        }
+      ]
+    },
+    {
+      "id": "lemh.206.12.2.6",
+      "title": "Bounded and Unbounded Feasible Regions",
+      "section": "12.2.2",
+      "definition": "A bounded feasible region guarantees both a maximum and a minimum of the objective, each at a vertex; an unbounded region may deliver neither, and a candidate value counts only if the open half plane of strictly better values never meets the region.",
+      "formula": "a bounded feasible region forces both an optimum maximum and minimum of Z",
+      "key_idea": "Bounded means both extremes exist; unbounded needs the half plane check.",
+      "textbook_ref": "lemh206.txt theorems 1-2 with example 4 (lines ~184-245, 358-405)",
+      "question_patterns": [
+        "does the objective have a maximum on the unbounded feasible region",
+        "explain when the minimum value of Z may fail to exist",
+        "state the guarantee for a bounded feasible region",
+        "why is the smallest corner value not automatically the minimum for an unbounded region",
+        "check whether the objective has a finite optimum on the given region",
+        "how do you confirm an optimal value for an unbounded region"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Decide whether the region is bounded",
+          "explain": "Bounded means the region fits inside some circle."
+        },
+        {
+          "step": 2,
+          "action": "Bounded case",
+          "explain": "Both maximum and minimum of Z exist and occur at corner points."
+        },
+        {
+          "step": 3,
+          "action": "Unbounded case",
+          "explain": "Graph the half plane of strictly better Z values; an empty overlap certifies the optimum, otherwise none exists."
+        }
+      ]
+    },
+    {
+      "id": "lemh.206.12.2.7",
+      "title": "Multiple Optimal Solutions",
+      "section": "12.2.2",
+      "definition": "When two corner points deliver the same optimal value, every plan on the segment joining them matches it, so the problem has infinitely many optimal solutions along that edge.",
+      "formula": "equal optimal values at two corners make the joining segment optimal",
+      "key_idea": "A tie between vertices spreads the optimum along the connecting segment.",
+      "textbook_ref": "lemh206.txt example 3 remark (lines ~345-353, 421-433)",
+      "question_patterns": [
+        "show that the minimum of Z occurs at more than two points",
+        "what happens when two corner points give the same maximum value",
+        "identify all the optimal solutions of the linear programming problem",
+        "does the problem have multiple optimal solutions",
+        "explain why every point on the joining edge gives the same optimum",
+        "find the segment of optimal plans for the tied vertices"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Evaluate Z at all corners",
+          "explain": "Look for two vertices sharing the best value."
+        },
+        {
+          "step": 2,
+          "action": "Confirm the tie",
+          "explain": "Equal optimal values at two corners signal multiple optima."
+        },
+        {
+          "step": 3,
+          "action": "State the optimal set",
+          "explain": "Every point on the segment joining the tied corners is optimal."
+        }
+      ]
+    },
+    {
+      "id": "lemh.206.12.2.8",
+      "title": "Infeasible Constraint Systems",
+      "section": "12.2.2",
+      "definition": "If the constraint half planes share no common point, the feasible region is empty, the problem admits no feasible solution, and no optimum can be reported.",
+      "formula": "an empty overlap of constraint half planes means no feasible solution",
+      "key_idea": "No common region means the problem has no answer to optimise.",
+      "textbook_ref": "lemh206.txt example 5 (lines ~406-420)",
+      "question_patterns": [
+        "check whether the given constraints admit a feasible region",
+        "does the linear programming problem have any feasible solution",
+        "show that the constraint system has no common region",
+        "why can no optimum be reported for this problem",
+        "determine if the half planes overlap for the given inequalities",
+        "is the feasible region of this problem empty"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Graph all the constraint half planes",
+          "explain": "Draw each boundary and shade the satisfying side."
+        },
+        {
+          "step": 2,
+          "action": "Look for common area",
+          "explain": "Search for points obeying every inequality at once."
+        },
+        {
+          "step": 3,
+          "action": "Report infeasibility if empty",
+          "explain": "With no feasible point, the problem has no solution to optimise."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "ex1",
+      "source_ref": "lemh206.txt section 12.2 strategy table (lines ~57-59, 196-220)",
+      "concept": "lemh.206.12.2.4",
+      "question_type": "objective at a corner",
+      "question_pattern": "The profit is Z = {obj_a} x + {obj_b} y. Evaluate Z at the corner point ({x}, {y}).",
+      "extracted_variables": {"obj_a": 250, "obj_b": 75, "x": 10, "y": 50},
+      "solution_template": [
+        {"step": 1, "action": "Weight and add", "explain": "250 times 10 plus 75 times 50 gives 6250 rupees.", "compute": "objective_value = obj_a * x + obj_b * y"}
+      ]
+    },
+    {
+      "id": "ex2",
+      "source_ref": "lemh206.txt example 1 corner table (lines ~248-291)",
+      "concept": "lemh.206.12.2.4",
+      "question_type": "objective at a corner",
+      "question_pattern": "For the objective Z = {obj_a} x + {obj_b} y, compute the value of Z at the vertex ({x}, {y}).",
+      "extracted_variables": {"obj_a": 4, "obj_b": 1, "x": 30, "y": 0},
+      "solution_template": [
+        {"step": 1, "action": "Weight and add", "explain": "4 times 30 plus 1 times 0 gives 120.", "compute": "objective_value = obj_a * x + obj_b * y"}
+      ]
+    },
+    {
+      "id": "ex3",
+      "source_ref": "lemh206.txt example 2 corner table (lines ~269-308)",
+      "concept": "lemh.206.12.2.4",
+      "question_type": "objective at a corner",
+      "question_pattern": "Evaluate the objective Z = {obj_a} x + {obj_b} y at the feasible corner ({x}, {y}).",
+      "extracted_variables": {"obj_a": 200, "obj_b": 500, "x": 4, "y": 3},
+      "solution_template": [
+        {"step": 1, "action": "Weight and add", "explain": "200 times 4 plus 500 times 3 gives 2300.", "compute": "objective_value = obj_a * x + obj_b * y"}
+      ]
+    },
+    {
+      "id": "ex4",
+      "source_ref": "lemh206.txt furniture dealer formulation (lines ~14-59)",
+      "concept": "lemh.206.12.2.1",
+      "question_type": "formulation",
+      "question_pattern": "A dealer buys {x} tables at {obj_a} rupees each and {y} chairs; formulate the profit objective and constraints.",
+      "extracted_variables": {"obj_a": 2500, "x": 20, "y": 60, "obj_b": 75},
+      "solution_template": [
+        {"step": 1, "action": "Name the variables", "explain": "x counts tables, y counts chairs."},
+        {"step": 2, "action": "Write the objective", "explain": "Z = 250x + 75y."},
+        {"step": 3, "action": "Write the constraints", "explain": "2500x + 500y <= 50000, x + y <= 60, x >= 0, y >= 0."}
+      ]
+    },
+    {
+      "id": "ex5",
+      "source_ref": "lemh206.txt example 3 (lines ~309-353)",
+      "concept": "lemh.206.12.2.7",
+      "question_type": "multiple optima",
+      "question_pattern": "For Z = 3x + 9y over the region with corners (0, 10), (5, 5), (15, 15) and (0, 20), find all optimal solutions.",
+      "extracted_variables": {"x": 0},
+      "solution_template": [
+        {"step": 1, "action": "Evaluate Z at all corners", "explain": "Values are 90, 60, 180 and 180."},
+        {"step": 2, "action": "Spot the tie", "explain": "The maximum 180 occurs at (15, 15) and (0, 20)."},
+        {"step": 3, "action": "State the optimal set", "explain": "Every point on the segment joining them is also optimal."}
+      ]
+    },
+    {
+      "id": "ex6",
+      "source_ref": "lemh206.txt corner point method step 1 (lines ~226-231)",
+      "concept": "lemh.206.12.2.5",
+      "question_type": "corner point intersection",
+      "question_pattern": "Find the corner point where the lines {a1} x + y = {c1} and x + y = {c2} meet.",
+      "extracted_variables": {"a1": 5, "c1": 100, "c2": 60},
+      "solution_template": [
+        {"step": 1, "action": "Subtract the equations", "explain": "Subtracting gives 4x = 40."},
+        {"step": 2, "action": "Solve for x", "explain": "x = 10."},
+        {"step": 3, "action": "Back-substitute", "explain": "y = 50, so the vertex is (10, 50)."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex12.1",
+      "source_ref": "lemh206.txt exercise 12.1 (lines ~434-470)",
+      "questions": [
+        "Maximise 3x + 4y over the first-quadrant triangle cut by x + y <= 4.",
+        "Minimise -3x + 4y subject to two upper-bound constraints.",
+        "Maximise 5x + 3y subject to two resource constraints.",
+        "Minimise 3x + 5y subject to two lower-bound constraints.",
+        "Maximise 3x + 2y subject to two constraints.",
+        "Minimise x + 2y and show the minimum occurs at more than two points.",
+        "Minimise and maximise 5x + 10y and x + 2y over mixed constraint systems.",
+        "Maximise -x + 2y and x + y over systems that may be unbounded or infeasible."
+      ]
+    }
+  ]
+}

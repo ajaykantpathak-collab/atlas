@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_05_001",
+   "title": "c11_hs_cbse_05_001",
+   "questions": [
+    {
+     "q": "Define 'textile' and explain how it differs from 'fabric' and 'fibre' in the context of the fibre-yarn-fabric hierarchy.",
+     "a": "Textile is the collective term encompassing fibres, yarns, and fabrics — all stages of the manufacturing continuum. Fibre is the fundamental hair-like unit (natural or manufactured), yarn is the continuous strand formed by twisting/laying fibres together, and fabric is the planar structure created by interlacing/interlooping yarns (or bonding fibres directly). A wrong answer reveals the student conflates the material stage with the product category, e.g., calling cotton a 'fabric' instead of a 'fibre', indicating they cannot distinguish hierarchical levels.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"All natural fibres are staple fibres and all manufactured fibres are filament fibres.\" Evaluate this statement using two specific counter-examples from the NCERT classification.",
+     "a": "The statement is false. Counter-example 1: Silk is a natural protein fibre but is a continuous filament (up to 1000m), not staple. Counter-example 2: Manufactured fibres like rayon and polyester are initially produced as filaments but are deliberately cut into staple lengths (e.g., 38-51mm) for blending with cotton on spinning machinery. A wrong answer reveals the student memorises categories without understanding that fibre length (staple vs filament) is a processing choice independent of origin (natural vs manufactured).",
+     "self_check": true
+    },
+    {
+     "q": "You are given an unlabelled fabric sample. Describe a systematic 4-step procedure using only visual/tactile inspection and a burning test to narrow down whether it is cellulosic, protein, or synthetic. Specify the key observation at each step.",
+     "a": "Step 1: Visual/tactile — cellulosic fabrics (cotton, linen) feel cool, crisp, and crease easily; protein fabrics (wool, silk) feel warm, resilient, and have natural crimp/lustre; synthetics feel smooth, slick, and spring back instantly. Step 2: Burning test — approach flame: cellulosic catches fire immediately without shrinking; protein curls away; synthetic shrinks and melts. Step 3: In flame — cellulosic burns rapidly with yellow flame; protein burns slowly, self-extinguishes; synthetic melts and drips. Step 4: Odour and residue — cellulosic smells like burning paper, leaves soft grey ash; protein smells like burning hair, leaves brittle crushable bead; synthetic smells acrid/plastic, leaves hard uncrushable bead. A wrong answer reveals inability to sequence diagnostic tests logically or confusion between melting (synthetic) and afterglow (cellulosic).",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the yarn processing route for cotton (staple fibre) versus nylon (manufactured filament) from raw material to finished yarn. Identify the stage where their paths fundamentally diverge and explain why.",
+     "a": "Cotton: ginning → cleaning → carding → combing → drawing → roving → spinning (twist insertion). Nylon: polymerisation → melt spinning through spinnerette → drawing/heat setting → (optional: cutting to staple → then same spinning route as cotton). Fundamental divergence: Cotton requires mechanical cleaning, disentangling, and parallelisation of discrete staple fibres before twist can bind them; nylon emerges from spinnerette as continuous filaments already aligned, needing only drawing for orientation and optional texturising. The divergence occurs at the 'sliver formation' stage — cotton must create a sliver from loose fibres; nylon bypasses this entirely unless cut to staple. A wrong answer reveals the student thinks all fibres go through carding/combing, not recognising that manufactured filaments skip staple preparation.",
+     "self_check": true
+    },
+    {
+     "q": "A school uniform specification requires: high abrasion resistance for daily wear, moisture absorbency for comfort in humid climate, easy care (wrinkle resistance), and cost-effectiveness. Evaluate whether a 65/35 polyester/cotton blend or 100% cotton twill better meets these criteria. Justify with fibre property trade-offs.",
+     "a": "65/35 polyester/cotton blend is superior. Reasoning: Polyester contributes high abrasion resistance (tenacity ~5-7 g/denier vs cotton ~3-5), wrinkle resistance (low moisture regain 0.4% vs cotton 8.5%), and dimensional stability; cotton contributes moisture absorbency and skin comfort. The blend balances: polyester's hydrophobic nature reduces overall absorbency but 35% cotton retains sufficient wicking; polyester's low cost reduces blend price vs 100% cotton. 100% cotton twill fails wrinkle resistance (requires ironing daily) and has lower abrasion resistance than blend. A wrong answer reveals the student focuses on single properties (e.g., 'cotton is natural so better') without systems thinking about property trade-offs in blends.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 'fabric diary' template for a Class 11 student to record one full day's textile interactions (minimum 10 entries). The template must capture: time, context (self/surrounding), product, fibre content (inferred), yarn type (staple/filament), fabric construction (woven/knit/non-woven), and one functional property linked to end-use. Provide three filled examples.",
+     "a": "Template columns: Time | Context | Product | Fibre Content (Inferred) | Yarn Type | Fabric Construction | Functional Property for End-Use.\nExample 1: 06:00 | Self | Bath towel | Cotton (cellulosic) | Staple spun | Woven (terry pile) | High absorbency (moisture regain 8.5%) for drying.\nExample 2: 07:30 | Self | School socks | Nylon/elastane blend | Filament + elastane core-spun | Warp knit | Elastic recovery + abrasion resistance for fit and durability.\nExample 3: 08:00 | Surrounding | Car seat cover | Polyester | Filament | Warp knit (tricot) | UV resistance + dimensional stability for outdoor exposure.\nA poor answer uses vague terms ('soft', 'strong') without linking to fibre-level mechanisms, revealing inability to connect hierarchy levels to function.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

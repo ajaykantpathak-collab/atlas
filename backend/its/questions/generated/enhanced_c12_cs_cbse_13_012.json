@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_13_012",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_13_012",
+   "title": "c12_cs_cbse_13_012",
+   "questions": [
+    {
+     "q": "What is the primary goal of Green Computing?",
+     "a": "The primary goal of Green Computing is to reduce the environmental impact of computing resources by minimizing energy consumption, reducing electronic waste, and promoting sustainable practices throughout the lifecycle of technology. A wrong answer (e.g., \"making computers faster\" or \"reducing cost only\") reveals that the student confuses green computing with performance optimization or cost-cutting, missing the environmental focus.",
+     "self_check": true
+    },
+    {
+     "q": "Explain how virtualization contributes to green computing.",
+     "a": "Virtualization allows multiple virtual machines to run on a single physical server, increasing hardware utilization and reducing the number of physical servers needed. This leads to lower energy consumption, less cooling requirement, and reduced e-waste. A wrong answer that only describes virtualization as \"running multiple OS\" without linking to energy savings shows the student understands the mechanism but not its environmental benefit.",
+     "self_check": true
+    },
+    {
+     "q": "A school has 50 desktop computers each consuming 120W. They replace them with thin clients consuming 20W each, connected to a virtualized server consuming 500W total. Calculate the percentage reduction in power consumption.",
+     "a": "Original power = 50 × 120W = 6000W. New power = (50 × 20W) + 500W = 1000W + 500W = 1500W. Reduction = 6000W - 1500W = 4500W. Percentage reduction = (4500/6000) × 100 = 75%. A wrong answer (e.g., forgetting to add server power, or miscalculating percentage) reveals the student cannot apply the concept to a real-world scenario or makes arithmetic errors.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the environmental impact of cloud computing versus traditional on-premise data centers for a small business. Identify two factors that could make cloud computing less green.",
+     "a": "Cloud computing can be greener due to economies of scale, efficient cooling, and higher server utilization. However, factors that could make it less green: (1) if the cloud provider uses non-renewable energy sources, (2) network data transfer energy overhead for remote access. A wrong answer that only lists benefits without critical analysis shows the student cannot evaluate trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Buying a new energy-efficient laptop is always better for the environment than continuing to use an old one.\"",
+     "a": "The statement is not always true. Manufacturing a new laptop has a significant carbon footprint (embodied energy). If the old laptop meets the user's needs, extending its lifespan avoids the environmental cost of production and e-waste. A wrong answer that agrees without considering embodied energy reveals the student overlooks lifecycle analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Design a green computing policy for a college computer lab with 100 computers. Include at least three specific measures with justification.",
+     "a": "A good policy includes: (1) Enable power management (sleep/hibernate after 15 minutes idle) to cut idle energy waste. (2) Implement virtualization for servers to reduce hardware count. (3) Establish e-waste collection partnership with certified recycler for end-of-life devices. (4) Procure Energy Star certified equipment. Justification links each measure to energy reduction, resource efficiency, or responsible disposal. A poor answer lists generic measures without justification or context-specific details.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

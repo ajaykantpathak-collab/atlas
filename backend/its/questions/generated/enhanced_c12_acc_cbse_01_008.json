@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_01_008",
+   "title": "c12_acc_cbse_01_008",
+   "questions": [
+    {
+     "q": "State the correct accounting treatment (charge vs appropriation) for: (a) Partner's Salary, (b) Partner's Commission, (c) Interest on Partner's Loan. Give one-line reason for each.",
+     "a": "(a) Appropriation — salary rewards effort, paid only from profits. (b) Appropriation — commission is a share of profit. (c) Charge — interest on loan is a contractual obligation payable even in loss, deducted before arriving at net profit.  \nA wrong answer (e.g., treating salary as a charge) reveals confusion between **expense** (incurred to earn revenue) and **appropriation** (distribution of earned profit). This leads to incorrect Profit and Loss Account and misstated net profit.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Interest on Partner's Loan is debited to Profit and Loss Account, while Partner's Salary is debited to Profit and Loss Appropriation Account. Use the terms \"charge against profit\" and \"appropriation of profit\" in your answer.",
+     "a": "Interest on loan is a **charge against profit** — it is an expense incurred to borrow funds, obligatory irrespective of profit/loss, and deducted to arrive at true net profit. Partner's salary is an **appropriation of profit** — it is a distribution of profit to a partner for services rendered, contingent on profit availability. Debiting salary to P&L Account would understate net profit and mislead stakeholders.  \nA wrong answer that swaps the two accounts shows the student hasn't grasped the fundamental distinction between **expenses** (matched with revenues) and **appropriations** (division of residual profit).",
+     "self_check": true
+    },
+    {
+     "q": "A partner is entitled to a commission of 10% on the net profit **after** charging such commission. The net profit before commission is ₹4,40,000. Calculate the commission amount. Show the formula used.",
+     "a": "Commission = Profit before commission × Rate / (100 + Rate) = ₹4,40,000 × 10 / 110 = ₹40,000.  \nVerification: Profit after commission = ₹4,40,000 – ₹40,000 = ₹4,00,000; 10% of ₹4,00,000 = ₹40,000. ✓  \nA wrong answer of ₹44,000 (10% of ₹4,40,000) reveals the student used the \"before commission\" formula instead of the \"after commission\" formula — a classic trap in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact on the firm's financial statements if: (i) Partner's Salary is incorrectly debited to Profit and Loss Account, (ii) Interest on Partner's Loan is incorrectly credited to Profit and Loss Appropriation Account. Which error is more serious for external users? Why?",
+     "a": "(i) Salary as charge: Net Profit **understated** by salary amount; Profit and Loss Appropriation Account shows **higher divisible profit** → partners' capital accounts overstated.  \n(ii) Loan interest as appropriation: Net Profit **overstated** (interest not deducted); Appropriation Account shows **lower divisible profit** → partners' capital understated.  \nError (i) is more serious for external users (banks, investors) because **Net Profit** is the key metric for assessing profitability and creditworthiness. Understated net profit may lead to loan rejection or lower valuation.  \nA wrong comparison that focuses only on capital accounts misses the **external reporting** implication — a critical board exam evaluation point.",
+     "self_check": true
+    },
+    {
+     "q": "The partnership deed provides for a partner's commission of 12% on net profit **before** charging commission. The accountant computes it as 12% on profit **after** commission. Evaluate the effect on (a) the partner's commission, (b) the divisible profit, (c) the firm's tax liability. Assume profit before commission = ₹5,00,000, tax rate 30%.",
+     "a": "Correct commission (before) = ₹5,00,000 × 12% = ₹60,000.  \nIncorrect commission (after) = ₹5,00,000 × 12/112 = ₹53,571.  \n(a) Partner loses ₹6,429. (b) Divisible profit increases by ₹6,429 (since less appropriation). (c) Tax liability: Correct net profit = ₹5,00,000 – ₹60,000 = ₹4,40,000; Tax = ₹1,32,000. Incorrect net profit = ₹5,00,000 – ₹53,571 = ₹4,46,429; Tax = ₹1,33,929. **Firm pays ₹1,929 extra tax** because commission (an appropriation) is not tax-deductible, but the error reduces the charge against profit? Wait — commission is an appropriation, not a charge. So taxable profit is **Profit before appropriations** = ₹5,00,000 in both cases. Tax is unchanged! The error only affects internal distribution.  \nA student who says tax changes reveals they think commission is a charge. This tests deep understanding: **appropriations do not affect taxable income**.",
+     "self_check": true
+    },
+    {
+     "q": "Create a partnership deed clause for a new firm that includes: (a) Monthly salary to working partner, (b) Commission on profit after commission, (c) Interest on partner's loan at 8% p.a. (deed overrides Act). Write the clause in formal language and specify the accounting treatment for each.",
+     "a": "Sample clause:  \n\"1. Partner A shall receive a monthly salary of ₹25,000 for active management, payable only out of profits and debited to Profit and Loss Appropriation Account.  \n2. Partner A shall also be entitled to a commission of 8% on the net profit after charging such commission, calculated as: Commission = Profit before commission × 8/108.  \n3. Any loan advanced by a partner beyond his capital shall carry interest at 8% per annum, payable as a charge against profit and debited to Profit and Loss Account, irrespective of profits.\"  \nA poor answer omits the **calculation formula** for after-commission or fails to specify the **account** (P&L vs Appropriation) — showing the student cannot translate legal terms into accounting entries.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

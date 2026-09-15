@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch4_12",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch4_12",
+   "title": "c8_physics_ch4_12",
+   "questions": [
+    {
+     "q": "What is the direction of deflection of wind due to the Coriolis Effect in the Northern Hemisphere?",
+     "a": "In the Northern Hemisphere, wind is deflected to the right of its direction of motion. A wrong answer (e.g., \"left\" or \"no deflection\") reveals the student has not internalized the hemisphere-specific rule and may be confusing it with the Southern Hemisphere or thinking Earth's rotation doesn't affect wind direction.",
+     "self_check": true
+    },
+    {
+     "q": "Why does air moving from the equator toward the North Pole curve to the east (right) instead of traveling in a straight line?",
+     "a": "Air at the equator has a higher eastward velocity (due to Earth's larger circumference) than air at higher latitudes. As it moves north, it conserves this eastward momentum, so it moves eastward faster than the ground beneath it, appearing to curve right. A wrong answer (e.g., \"Earth's magnetic field pulls it\" or \"pressure gradient pushes it east\") reveals confusion between Coriolis Effect and real forces like pressure gradient or magnetism.",
+     "self_check": true
+    },
+    {
+     "q": "A wind blows at 20 km/h from the south toward the north at a latitude of 30°N in the Northern Hemisphere. In which cardinal direction will the wind be deflected due to the Coriolis Effect?",
+     "a": "The wind will be deflected toward the east (right). Steps: 1) Identify hemisphere: Northern (30°N). 2) Identify wind direction: from south to north. 3) Apply Northern Hemisphere rule: deflect to the right of motion. 4) Right of north is east. A wrong answer (e.g., \"west\") reveals the student applied the Southern Hemisphere rule or confused \"right of motion\" with \"right on a map\" without orienting properly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Coriolis deflection of two identical wind masses: one at 10°N latitude and another at 60°N latitude, both moving north at 15 m/s. Which experiences greater deflection and why?",
+     "a": "The wind at 60°N experiences greater deflection. The Coriolis Effect increases with latitude because the difference in eastward ground speed between the starting and ending latitudes is larger at higher latitudes (the component of Earth's rotation perpendicular to the surface, sin(latitude), is larger). A wrong answer (e.g., \"same deflection\" or \"greater at 10°N\") reveals the student thinks Coriolis Effect is constant globally or decreases with latitude, missing the sin(latitude) dependence.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The Coriolis Effect causes cyclones to rotate clockwise in the Northern Hemisphere because the winds are deflected to the right.\" Evaluate this statement.",
+     "a": "The statement is incorrect. In the Northern Hemisphere, winds spiral *inward* toward a low-pressure center. Each wind is deflected to its right, which creates a *counterclockwise* rotation around the center. The student correctly identified rightward deflection but incorrectly deduced the net rotation direction. A wrong evaluation (e.g., \"statement is correct\") reveals the student cannot translate individual wind deflection into the collective rotational pattern of a cyclone.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple demonstration using a rotating turntable (like a lazy Susan) and a marker to show the Coriolis Effect for a Class 8 science fair. Describe the setup, procedure, and what the curved line represents.",
+     "a": "Setup: Place a paper on a lazy Susan. Rotate it counterclockwise (simulating Northern Hemisphere). Draw a straight line from center to edge while rotating. The line curves right. Procedure: 1) Mark center as \"pole\", edge as \"equator\". 2) Rotate steadily. 3) Draw line from center outward (pole to equator) – it curves left (opposite to wind going equator-to-pole). 4) Draw line from edge to center (equator to pole) – it curves right. The curved line represents the apparent deflection of wind due to Earth's rotation. A poor answer (e.g., no rotation, or straight line drawn) reveals the student doesn't grasp the need for a rotating reference frame or the direction of curvature relative to motion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

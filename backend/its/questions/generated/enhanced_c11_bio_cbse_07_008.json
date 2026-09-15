@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_07_008",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_07_008",
+   "title": "c11_bio_cbse_07_008",
+   "questions": [
+    {
+     "q": "How many chambers are present in the heart of a frog, and what are their names?",
+     "a": "The frog heart has three chambers: two atria (right and left) and one ventricle. A wrong answer (e.g., \"four chambers\" or \"two chambers\") reveals the student is either recalling the human heart structure from Class 10 or confusing frogs with fish (two-chambered heart), indicating failure to distinguish vertebrate heart evolution trends.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the frog's single ventricle not result in complete mixing of oxygenated and deoxygenated blood?",
+     "a": "The ventricle's internal trabeculae carneae (spongy muscular ridges) and the sequential contraction of atria (right atrium contracts slightly before left) create directional streaming: deoxygenated blood from the right atrium enters the ventricle first and is directed into the pulmocutaneous arches, while oxygenated blood from the left atrium enters later and is directed into the systemic arches via the conus arteriosus spiral valve. A wrong answer (e.g., \"blood mixes completely\" or \"there is a septum\") shows the student assumes anatomical separation is the only way to achieve functional separation, missing the physiological mechanism unique to amphibians.",
+     "self_check": true
+    },
+    {
+     "q": "A frog's hepatic portal vein is ligated (tied off) during an experiment. Predict the immediate effect on nutrient transport from the intestine to the liver.",
+     "a": "Nutrients absorbed in the intestine (glucose, amino acids) will no longer be delivered directly to the liver via the hepatic portal vein; instead, they will enter the systemic circulation via the posterior vena cava, bypassing the liver's first-pass metabolism. This impairs the liver's ability to regulate blood glucose and detoxify absorbed substances. A wrong answer (e.g., \"blood flow stops completely\" or \"no effect\") reveals misunderstanding of portal systems as alternative venous routes, not the sole drainage path.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the renal portal system of a frog with the renal circulation in humans. What functional advantage does the frog's system provide during hibernation?",
+     "a": "In frogs, the renal portal vein brings blood directly from the hindlimbs and pelvic region to the kidney capillaries before it enters the posterior vena cava, allowing the kidney to filter waste from the lower body without first passing through the heart. In humans, renal arteries branch directly from the aorta (arterial supply). During hibernation, when the frog's heart rate drops drastically, the renal portal system maintains glomerular filtration using venous pressure from the hindlimbs, ensuring nitrogenous waste removal even with reduced cardiac output. A wrong answer (e.g., \"humans also have a renal portal vein\") indicates confusion between portal venous systems and arterial supply, and failure to link circulatory adaptation to physiological state.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The frog's circulatory system is less efficient than the human system because it has single circulation and a three-chambered heart.\"",
+     "a": "The statement is an oversimplification. While single circulation with a three-chambered heart limits maximum metabolic rate (supporting ectothermy), it is highly efficient for the frog's ecological niche: the partial separation in the ventricle, cutaneous/pulmonary respiratory flexibility, and portal systems allow adequate oxygen delivery at low energy cost. During hibernation/aestivation, the system functions with minimal cardiac work. Calling it \"less efficient\" imposes an endothermic standard on an ectotherm. A wrong evaluation (agreeing without qualification) reveals teleological thinking — judging adaptations by human standards rather than fitness in the organism's environment.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a live frog (ethically approved) to demonstrate that cutaneous respiration contributes significantly to gas exchange when the frog is submerged in water.",
+     "a": "Place a frog in a respirometer with oxygenated water but no air access. Measure dissolved oxygen concentration in the water over time using a dissolved oxygen probe. Simultaneously, ligate the pulmonary arteries (or use a frog with surgically occluded lungs) in a control group. A significant drop in water oxygen in the experimental group compared to controls demonstrates cutaneous uptake. A poor design (e.g., \"observe skin color change\" or \"measure heart rate only\") shows inability to isolate cutaneous respiration from pulmonary respiration and lack of quantitative experimental thinking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

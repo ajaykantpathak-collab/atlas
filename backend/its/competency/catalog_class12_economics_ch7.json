@@ -1,0 +1,558 @@
+{
+ "class": 12,
+ "subject": "economics",
+ "chapter": 7,
+ "chapter_title": "Current Challenges facing Indian Economy",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\keec104.txt",
+ "concepts": [
+  {
+   "id": "c12eco.7.1",
+   "title": "Human Capital Formation in India",
+   "section": "7.1",
+   "definition": "Human capital formation refers to the process of adding to the stock of human skills, knowledge, and health over time through education, training, and medical care, which raises the productive capacity of a nation.",
+   "formula": "",
+   "key_idea": "Investment in people through education and health converts raw labour into a productive asset that drives long-run economic growth.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is human capital formation and why is it important for India",
+    "explain the sources of human capital formation in India",
+    "how does investment in education contribute to human capital",
+    "distinguish between human capital and human development",
+    "why does human capital formation raise the productivity of a nation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the inputs that build human capital",
+     "explain": "List education expenditure, on-the-job training, health care, and migration as the main sources of human capital formation."
+    },
+    {
+     "step": 2,
+     "action": "Trace the link between human capital and productivity",
+     "explain": "Explain how better educated and healthier workers produce more output per unit of time and adopt new technology faster."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate the role of government policy",
+     "explain": "Assess how public spending on schools, colleges, and public health programmes expands the stock of human capital in India."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain how expenditure on education is a source of human capital formation.",
+     "solution": "Spending on education raises the skill and knowledge level of individuals, which increases their earning capacity and the productive capacity of the economy.",
+     "answer": "Education expenditure adds to the stock of human capital by raising workers' skills and productivity."
+    },
+    {
+     "question": "Distinguish between human capital and human development.",
+     "solution": "Human capital treats human beings as a means to increase productivity, while human development treats people as ends in themselves whose well-being must be improved.",
+     "answer": "Human capital is a means to growth; human development is an end goal of well-being."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is human capital formation? Discuss its sources.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does investment in health contribute to human capital formation?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Distinguish between human capital and human development.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.7.2",
+   "title": "Rural Development",
+   "section": "7.2",
+   "definition": "Rural development is a comprehensive process of improving the quality of life and economic well-being of people living in rural areas through credit, marketing, diversification, and infrastructure support.",
+   "formula": "",
+   "key_idea": "Rural development goes beyond farming to include credit facilities, marketing systems, diversification toward non-farm activities, and basic infrastructure.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is meant by rural development in the Indian context",
+    "explain the importance of rural credit for rural development",
+    "how does agricultural marketing support rural development",
+    "why is diversification into non-farm activities needed in rural areas",
+    "discuss the role of rural banking and self-help groups in rural development"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the components of rural development",
+     "explain": "List rural credit, agricultural marketing, diversification of activities, and rural infrastructure as key pillars."
+    },
+    {
+     "step": 2,
+     "action": "Examine the role of rural credit",
+     "explain": "Explain how institutional credit from banks and cooperatives frees farmers from moneylenders and funds productive investment."
+    },
+    {
+     "step": 3,
+     "action": "Assess diversification and infrastructure",
+     "explain": "Evaluate how shifting into allied activities like dairy, poultry, and cottage industries reduces dependence on crop income."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is rural credit essential for rural development?",
+     "solution": "Rural credit provides funds for seeds, fertilisers, equipment, and consumption needs, enabling farmers to invest in production without selling assets.",
+     "answer": "Rural credit finances productive and consumption needs, preventing distress asset sales."
+    },
+    {
+     "question": "What is the role of agricultural marketing in rural development?",
+     "solution": "A good marketing system ensures farmers get remunerative prices, reduces exploitation by middlemen, and integrates rural producers with urban markets.",
+     "answer": "Agricultural marketing ensures fair prices and market access for rural producers."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the role of credit in rural development.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is agricultural marketing? Mention its importance.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss the need for diversification of rural activities.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.7.3",
+   "title": "Formal and Informal Employment",
+   "section": "7.3",
+   "definition": "Formal employment provides job security, social security, and regulated working conditions, while informal employment lacks these protections and operates outside the regulatory framework.",
+   "formula": "",
+   "key_idea": "India's workforce is overwhelmingly informal; formal sector jobs are a small minority concentrated in organised public and private enterprises.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "distinguish between formal and informal employment in India",
+    "what are the characteristics of informal sector workers",
+    "why is the informal sector large in the Indian economy",
+    "how does informal employment affect worker welfare",
+    "explain the difference between organised and unorganised sector employment"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define formal sector employment",
+     "explain": "Identify jobs with written contracts, social security, and coverage under labour laws as formal employment."
+    },
+    {
+     "step": 2,
+     "action": "Define informal sector employment",
+     "explain": "Identify jobs without written contracts, social security, or legal protection as informal employment."
+    },
+    {
+     "step": 3,
+     "action": "Compare the two sectors in India",
+     "explain": "Note that the majority of Indian workers are in the informal sector with low wages and no job security."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "State the main differences between formal and informal employment.",
+     "solution": "Formal jobs have contracts, social security, and legal protection; informal jobs lack all three and often pay lower wages.",
+     "answer": "Formal employment has legal protection and social security; informal employment does not."
+    },
+    {
+     "question": "Why is the informal sector so large in India?",
+     "solution": "Slow growth of formal manufacturing and services, combined with a large agricultural workforce and weak enforcement of labour laws, keeps most workers informal.",
+     "answer": "Slow formal-sector growth and large agriculture keep most Indian workers informal."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between formal and informal sector employment.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is the share of informal workers high in India?",
+     "type": "short_answer"
+    },
+    {
+     "question": "What problems do informal sector workers face?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.7.4",
+   "title": "Growth of Employment and Workforce Participation",
+   "section": "7.3",
+   "definition": "Employment growth measures the rate at which new jobs are created over time, while workforce participation rate is the share of the population that is economically active.",
+   "formula": "workforce_participation_rate = (labour_force / total_population) * 100",
+   "key_idea": "Employment growth in India has lagged behind GDP growth, producing jobless growth, and female workforce participation remains low.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate the workforce participation rate given labour force and population",
+    "what is meant by jobless growth in the Indian economy",
+    "how is employment growth different from GDP growth",
+    "why is female workforce participation low in India",
+    "explain the relationship between employment growth and GDP growth"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the labour force and total population",
+     "explain": "Collect the number of employed plus unemployed persons and the total population from the data.",
+     "compute": "labour_force = employed + unemployed"
+    },
+    {
+     "step": 2,
+     "action": "Compute the ratio of labour force to population",
+     "explain": "Divide the labour force by the total population to get the participation ratio.",
+     "compute": "ratio = labour_force / total_population"
+    },
+    {
+     "step": 3,
+     "action": "Convert the ratio to a percentage",
+     "explain": "Multiply the ratio by 100 to express the workforce participation rate as a percentage.",
+     "compute": "workforce_participation_rate = ratio * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "The labour force of a country is 40 crore and the total population is 100 crore. Calculate the workforce participation rate.",
+     "solution": "Workforce participation rate = (labour force / total population) x 100 = (40 / 100) x 100 = 40 percent.",
+     "answer": "40 percent"
+    },
+    {
+     "question": "If the labour force is 25 crore and the population is 125 crore, find the workforce participation rate.",
+     "solution": "Workforce participation rate = (25 / 125) x 100 = 20 percent.",
+     "answer": "20 percent"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the workforce participation rate when labour force is 35 crore and population is 70 crore.",
+     "type": "compute"
+    },
+    {
+     "question": "What is jobless growth? Explain with reference to India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is female workforce participation low in India?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.7.5",
+   "title": "Sustainable Development",
+   "section": "7.4",
+   "definition": "Sustainable development is development that meets the needs of the present generation without compromising the ability of future generations to meet their own needs.",
+   "formula": "",
+   "key_idea": "Sustainable development balances economic growth with environmental protection and intergenerational equity in resource use.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is sustainable development and why is it needed",
+    "explain the concept of intergenerational equity in development",
+    "how does economic growth affect the environment",
+    "what strategies can promote sustainable development in India",
+    "distinguish between growth and development in the sustainability context"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define sustainable development",
+     "explain": "State the Brundtland definition of meeting present needs without harming future generations' capacity."
+    },
+    {
+     "step": 2,
+     "action": "Identify the pillars of sustainability",
+     "explain": "List economic efficiency, environmental protection, and social equity as the three interlinked pillars."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate strategies for India",
+     "explain": "Assess measures such as renewable energy, water conservation, and pollution control for achieving sustainability."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Define sustainable development.",
+     "solution": "Sustainable development is development that meets present needs without compromising the ability of future generations to meet their own needs.",
+     "answer": "Sustainable development balances present needs with future generations' capacity."
+    },
+    {
+     "question": "Mention two strategies to promote sustainable development in India.",
+     "solution": "Promoting renewable energy sources like solar and wind power, and enforcing stricter pollution control norms on industries.",
+     "answer": "Renewable energy promotion and stricter pollution control are two strategies."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is sustainable development? Explain its importance.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Mention any three strategies for sustainable development in India.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How does rapid economic growth threaten sustainability?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.7.6",
+   "title": "Environment and Development",
+   "section": "7.4",
+   "definition": "Environment and development examines the two-way relationship between economic progress and the natural environment, where growth can degrade nature and environmental degradation can in turn limit future growth.",
+   "formula": "",
+   "key_idea": "Economic development often imposes costs on the environment through resource depletion and pollution, which must be internalised for sustainable growth.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "how does economic development affect the environment",
+    "explain the relationship between environment and development",
+    "what are the costs of environmental degradation for the economy",
+    "how can India balance development with environmental protection",
+    "discuss the impact of air and water pollution on economic growth"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the impact of growth on environment",
+     "explain": "List resource depletion, air and water pollution, and deforestation as costs of rapid economic growth."
+    },
+    {
+     "step": 2,
+     "action": "Identify the feedback from environment to growth",
+     "explain": "Explain how degraded environment reduces agricultural productivity and health, lowering future growth."
+    },
+    {
+     "step": 3,
+     "action": "Propose corrective measures",
+     "explain": "Suggest pollution taxes, regulation, and green technology adoption to reconcile growth with environmental health."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does economic development cause environmental degradation?",
+     "solution": "Industrialisation, urbanisation, and intensive agriculture deplete resources and generate pollution, degrading air, water, and soil quality.",
+     "answer": "Industrialisation and urbanisation deplete resources and generate pollution."
+    },
+    {
+     "question": "Give two examples of environmental damage caused by development in India.",
+     "solution": "Air pollution in Delhi from vehicles and industry, and water pollution of the Ganga from industrial effluents.",
+     "answer": "Delhi air pollution and Ganga water pollution are two examples."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the relationship between environment and development.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Give two examples of environmental degradation caused by development in India.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How can India balance development with environmental protection?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.7.7",
+   "title": "Poverty in India",
+   "section": "7.5",
+   "definition": "Poverty is a state in which a person or household lacks the income required to meet a minimum standard of living, measured in India by a poverty line based on calorie intake and consumption expenditure.",
+   "formula": "poverty_ratio = (number_below_poverty_line / total_population) * 100",
+   "key_idea": "Poverty in India is measured by a consumption expenditure poverty line; despite a decline over decades, a large absolute number of people remain poor.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate the poverty ratio given the number of poor and total population",
+    "what is the poverty line and how is it determined in India",
+    "explain the trend of poverty in India since independence",
+    "what are the causes of poverty in India",
+    "discuss the anti-poverty measures adopted by the government of India"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the number of people below the poverty line",
+     "explain": "Obtain the count of persons whose consumption expenditure is below the poverty line threshold.",
+     "compute": "number_below_poverty_line = poor_persons"
+    },
+    {
+     "step": 2,
+     "action": "Identify the total population",
+     "explain": "Obtain the total population of the region or country from the same data source.",
+     "compute": "total_population = all_persons"
+    },
+    {
+     "step": 3,
+     "action": "Compute the poverty ratio as a percentage",
+     "explain": "Divide the number below the poverty line by the total population and multiply by 100.",
+     "compute": "poverty_ratio = (number_below_poverty_line / total_population) * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "In a population of 200 million, 40 million people are below the poverty line. Calculate the poverty ratio.",
+     "solution": "Poverty ratio = (40 / 200) x 100 = 20 percent.",
+     "answer": "20 percent"
+    },
+    {
+     "question": "If 27 crore people are below the poverty line in a population of 135 crore, find the poverty ratio.",
+     "solution": "Poverty ratio = (27 / 135) x 100 = 20 percent.",
+     "answer": "20 percent"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the poverty ratio when 30 million are poor in a population of 150 million.",
+     "type": "compute"
+    },
+    {
+     "question": "What is the poverty line? How is it determined in India?",
+     "type": "long_answer"
+    },
+    {
+     "question": "Mention three anti-poverty measures of the Government of India.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.7.8",
+   "title": "Food Security in India",
+   "section": "7.6",
+   "definition": "Food security means ensuring availability, accessibility, and affordability of food to all people at all times so that no one goes hungry or suffers from malnutrition.",
+   "formula": "",
+   "key_idea": "Food security rests on three pillars: availability of food, access to food, and absorption of food through clean water and sanitation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is food security and what are its dimensions",
+    "explain the role of the public distribution system in food security",
+    "how does the green revolution contribute to food security in India",
+    "what is buffer stock and why is it maintained",
+    "discuss the importance of food security for a country like India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the dimensions of food security",
+     "explain": "List availability, accessibility, and affordability as the three core dimensions of food security."
+    },
+    {
+     "step": 2,
+     "action": "Examine the role of the public distribution system",
+     "explain": "Explain how the PDS distributes subsidised food grains through fair price shops to vulnerable households."
+    },
+    {
+     "step": 3,
+     "action": "Assess the role of buffer stock",
+     "explain": "Evaluate how the Food Corporation of India maintains buffer stocks to stabilise prices and supply."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the three dimensions of food security?",
+     "solution": "The three dimensions are availability of food, accessibility to food, and affordability of food.",
+     "answer": "Availability, accessibility, and affordability are the three dimensions."
+    },
+    {
+     "question": "What is the role of the public distribution system in food security?",
+     "solution": "The PDS distributes subsidised food grains through fair price shops to targeted households, ensuring access to food for the poor.",
+     "answer": "The PDS provides subsidised food grains to vulnerable households."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define food security. Explain its dimensions.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is the role of buffer stock in food security?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the functioning of the public distribution system in India.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.7.9",
+   "title": "Infrastructure and Economic Development",
+   "section": "7.7",
+   "definition": "Infrastructure refers to the supporting framework of physical facilities such as power, transport, communication, and social services like health and education that are essential for economic activity.",
+   "formula": "",
+   "key_idea": "Adequate infrastructure, both physical and social, is a prerequisite for sustained economic growth and improvement in the quality of life.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is infrastructure and why is it important for development",
+    "distinguish between economic and social infrastructure",
+    "how does inadequate infrastructure affect economic growth",
+    "explain the state of infrastructure in India",
+    "discuss the role of energy infrastructure in economic development"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define infrastructure and classify it",
+     "explain": "Distinguish economic infrastructure (power, transport, communication) from social infrastructure (health, education)."
+    },
+    {
+     "step": 2,
+     "action": "Examine the link between infrastructure and growth",
+     "explain": "Explain how reliable power and transport lower production costs and raise productivity."
+    },
+    {
+     "step": 3,
+     "action": "Assess India's infrastructure situation",
+     "explain": "Note the gaps in power supply, rural roads, and public health that constrain Indian growth."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Distinguish between economic and social infrastructure.",
+     "solution": "Economic infrastructure supports production directly (power, transport, communication); social infrastructure supports human capital (health, education).",
+     "answer": "Economic infrastructure supports production; social infrastructure supports human capital."
+    },
+    {
+     "question": "Why is infrastructure important for economic development?",
+     "solution": "Infrastructure like power and transport reduces costs, raises productivity, and enables firms to operate efficiently, driving growth.",
+     "answer": "Infrastructure lowers costs and raises productivity, enabling growth."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between economic and social infrastructure.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is infrastructure important for economic development?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss the state of infrastructure in India.",
+     "type": "long_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

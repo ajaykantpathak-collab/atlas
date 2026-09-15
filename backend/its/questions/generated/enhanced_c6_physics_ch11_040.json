@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch11_040",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch11_040",
+   "title": "c6_physics_ch11_040",
+   "questions": [
+    {
+     "q": "What is the special term used to describe why your right hand appears as your left hand in a mirror?",
+     "a": "The term is \"lateral inversion.\" Answering incorrectly often suggests the student confuses this with \"reflection\" or \"inversion\" (turning upside down), revealing they haven't distinguished between vertical flipping and horizontal swapping.",
+     "self_check": true
+    },
+    {
+     "q": "If you stand 2 metres in front of a plane mirror, how far behind the mirror does your image appear to be?",
+     "a": "It appears 2 metres behind the mirror. A wrong answer (like \"0 metres\" or \"4 metres\") shows the student does not understand that the image distance behind the mirror matches the object distance in front.",
+     "self_check": true
+    },
+    {
+     "q": "You write the word \"SCIENCE\" on a piece of paper and hold it up to a plane mirror. What will the word look like in the reflection?",
+     "a": "It will appear as a laterally inverted reflection where the letters are reversed (ECNEICS). If the student writes it normally, they have failed to apply the property of lateral inversion to physical objects.",
+     "self_check": true
+    },
+    {
+     "q": "Why is an image formed by a plane mirror called a \"virtual\" image?",
+     "a": "It is called virtual because it cannot be projected onto a screen; it only appears to exist behind the mirror. Answering \"because it is fake\" is partially correct but misses the technical requirement that it cannot be captured on a surface.",
+     "self_check": true
+    },
+    {
+     "q": "If an object is 5 cm tall, how tall will its image be in a plane mirror?",
+     "a": "The image will be 5 cm tall. Answering \"larger\" or \"smaller\" suggests a misunderstanding of the \"same size\" property, likely influenced by experiences with magnifying glasses or distant objects.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple test to prove that an image in a plane mirror is at the same distance behind the mirror as the object is in front.",
+     "a": "Place a pencil 10 cm from the mirror, then place a second pencil behind the mirror at the position where the image appears; if the second pencil matches the image's location, it proves the equal distance. Poor answers describe only looking at the image without providing a way to measure or verify the position behind the mirror.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

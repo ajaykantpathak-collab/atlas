@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_05_002",
+   "title": "c12_bio_cbse_05_002",
+   "questions": [
+    {
+     "q": "Define a monohybrid cross and state the phenotypic ratio Mendel observed in the F2 generation for a trait showing complete dominance.",
+     "a": "A monohybrid cross is a cross between two parents differing in a single trait controlled by one gene with two alleles. For complete dominance, the F2 phenotypic ratio is 3 dominant : 1 recessive. A wrong answer (e.g., \"9:3:3:1\" or \"1:2:1\") reveals confusion with dihybrid ratios or genotypic ratios — the student cannot distinguish between phenotypic and genotypic outcomes or between mono- and dihybrid crosses.",
+     "self_check": true
+    },
+    {
+     "q": "In a monohybrid cross between true-breeding tall (TT) and dwarf (tt) pea plants, all F1 plants are tall. Explain why the dwarf phenotype disappears in F1 but reappears in F2 in a 3:1 ratio, using the law of segregation.",
+     "a": "The dwarf allele (t) is recessive and masked by the dominant tall allele (T) in F1 heterozygotes (Tt). During gamete formation in F1, the two alleles segregate — each gamete receives either T or t with equal probability. Random fertilization in F2 produces TT, Tt, tT, tt genotypes (1:2:1). Since T is dominant, TT and Tt/tT both show tall phenotype (3/4), while only tt shows dwarf (1/4). A wrong answer (e.g., \"dwarf allele is lost\" or \"blending occurs\") reveals the misconception that recessive alleles disappear or blend, violating segregation.",
+     "self_check": true
+    },
+    {
+     "q": "A heterozygous tall pea plant (Tt) is crossed with a dwarf plant (tt). Predict the phenotypic and genotypic ratios of the offspring. Show the Punnett square.",
+     "a": "Parental genotypes: Tt × tt. Gametes: T, t from Tt parent; t only from tt parent. Punnett square yields: Tt, Tt, tt, tt. Genotypic ratio: 1 Tt : 1 tt (or 2:2 simplified). Phenotypic ratio: 1 tall : 1 dwarf (2:2). A wrong answer (e.g., 3:1 phenotypic or 1:2:1 genotypic) reveals the student applied the F2 selfing ratio instead of analyzing the specific cross — they memorized ratios without understanding gamete contribution from each parent.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the genotypic ratio (1:2:1) and phenotypic ratio (3:1) in a standard F2 monohybrid cross. Why are they different? What would the phenotypic ratio be if the alleles showed incomplete dominance instead?",
+     "a": "Genotypic ratio counts distinct genotypes (TT, Tt, tt = 1:2:1). Phenotypic ratio groups genotypes by observable trait — TT and Tt both show dominant phenotype, so 3 dominant : 1 recessive. With incomplete dominance, heterozygote shows intermediate phenotype, so all three genotypes have distinct phenotypes → phenotypic ratio = genotypic ratio = 1:2:1. A wrong answer (e.g., \"ratios are always the same\" or \"incomplete dominance gives 3:1\") reveals failure to link dominance relationship to phenotype expression.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In a monohybrid cross Tt × Tt, the probability of getting a tall plant is 3/4, so if we examine 4 offspring, exactly 3 will be tall.\" Evaluate this statement.",
+     "a": "The statement is incorrect. 3/4 is the expected probability per offspring, not a guarantee for small samples. Each fertilization is an independent event — outcomes follow binomial distribution. In 4 offspring, probabilities are: 0 tall (1/256), 1 tall (12/256), 2 tall (54/256), 3 tall (108/256), 4 tall (81/256). Exactly 3 tall occurs only ~42% of the time. A wrong evaluation (e.g., \"statement is correct\") reveals confusion between theoretical probability and exact small-sample outcomes — a common error in both board and NEET questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a monohybrid cross experiment to determine whether a tall pea plant from an unknown lineage is homozygous (TT) or heterozygous (Tt). Describe the cross, expected outcomes for each case, and how you would conclude.",
+     "a": "Cross the unknown tall plant with a homozygous recessive dwarf plant (tt) — this is a test cross. If unknown is TT: all gametes carry T → all offspring Tt → 100% tall. If unknown is Tt: gametes T and t (1:1) → offspring Tt (tall) and tt (dwarf) in 1:1 ratio. Observe F1 phenotypes: all tall → homozygous; 1 tall : 1 dwarf → heterozygous. A poor answer (e.g., \"self the plant and wait for F2\") works but takes an extra generation — reveals lack of knowledge of test cross as a direct diagnostic tool.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

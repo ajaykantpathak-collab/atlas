@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_05_003",
+   "title": "c11_acc_cbse_05_003",
+   "questions": [
+    {
+     "q": "A business receives a cheque of ₹25,000 from a customer on March 30th and deposits it the same day. The cheque is an outstation cheque drawn on a bank in another city. On March 31st (year-end), the bank statement does not show this deposit. The cash book shows a debit balance of ₹1,00,000. What is the balance as per passbook BEFORE preparing BRS, and why?",
+     "a": "The passbook balance will be ₹75,000 (₹1,00,000 - ₹25,000). The cash book recorded the deposit immediately on March 30th (debit entry), but the bank has not yet collected the outstation cheque by March 31st, so it does not appear in the passbook. A wrong answer of ₹1,25,000 reveals the student thinks the bank credits immediately or confuses this with \"cheques issued but not presented\" where passbook balance is higher. A wrong answer of ₹1,00,000 reveals the student doesn't understand that cash book and passbook balances differ due to timing.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why \"cheques deposited but not collected\" creates a difference between cash book and passbook balances. Use the terms \"debit side of cash book\" and \"credit by bank\" in your explanation.",
+     "a": "When a business receives cheques, it records them on the **debit side of the cash book** (bank column) immediately upon deposit, increasing the cash book balance. However, the bank credits the customer's account only when the cheque is **actually collected and realized** through the clearing process. Until collection, the bank statement (passbook) does not show this deposit. Therefore, cash book balance > passbook balance. A wrong explanation that says \"bank debits the account\" or \"cash book credits\" reveals confusion about debit/credit rules from the business vs bank perspective. A wrong explanation that mentions \"cheque dishonour\" reveals confusion with a different cause (node 006).",
+     "self_check": true
+    },
+    {
+     "q": "In a BRS problem, the starting point is \"Overdraft as per passbook ₹50,000\". The problem states: \"Cheques deposited but not collected ₹12,000\". Should this ₹12,000 be added or deducted to arrive at cash book balance? Show the calculation.",
+     "a": "**ADD ₹12,000**. Reasoning: Overdraft as per passbook = ₹50,000 (credit balance in passbook = negative/unfavourable). Cheques deposited but not collected means cash book already includes this ₹12,000 (debit entry made), but passbook does not. So cash book overdraft is LESS than passbook overdraft by ₹12,000. Starting from passbook overdraft ₹50,000, we add ₹12,000 to get cash book overdraft ₹38,000. A wrong answer of \"deduct\" reveals the student memorized \"deduct for cheques deposited not collected\" without understanding it applies ONLY when starting from cash book balance. They haven't grasped the reverse logic for passbook starting point.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"Cheques deposited but not collected\" with \"Cheques received but not deposited in bank\". How does the treatment differ in BRS when starting from cash book balance?",
+     "a": "**Cheques deposited but not collected**: Cheque physically deposited in bank, cash book debited, bank yet to credit → Cash book > Passbook → **Deduct** from cash book balance.\n**Cheques received but not deposited**: Cheque received from customer but not yet sent to bank, cash book debited (if recorded), bank has no record → Same effect on balances (Cash book > Passbook) → **Deduct** from cash book balance.\n**Key difference**: The first is a bank delay (clearing time); the second is a business delay (not depositing). In BRS from cash book, both are deducted. But if the cheque received was NOT recorded in cash book, then it's not a difference at all — it's an error/omission. A wrong answer that treats them identically without noting the recording distinction reveals superficial understanding. A wrong answer saying \"add for second one\" reveals confusion with \"direct deposits by customer\" (node 005).",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since cheques deposited but not collected increase cash book balance, they should always be ADDED in BRS.\" Evaluate this statement and explain why it is correct or incorrect with reference to starting points.",
+     "a": "The statement is **INCORRECT**. The treatment depends entirely on the **starting point** of the BRS:\n- Starting from **Cash Book balance** (favourable): Cheques deposited not collected make cash book higher → **DEDUCT** to reach passbook.\n- Starting from **Cash Book balance** (unfavourable/overdraft): Cheques deposited not collected make cash book overdraft lower (less negative) → **ADD** to reach passbook overdraft.\n- Starting from **Passbook balance** (favourable): Cheques deposited not collected make passbook lower → **ADD** to reach cash book.\n- Starting from **Passbook balance** (unfavourable/overdraft): Cheques deposited not collected make passbook overdraft higher → **DEDUCT** to reach cash book overdraft.\nA student who says \"always add\" has memorized a rule without understanding the logic of reconciliation direction. This is a classic board exam trap — questions often switch starting points.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic BRS problem (with numbers) where \"cheques deposited but not collected\" appears alongside TWO other timing differences, and the starting point is \"Credit balance as per passbook ₹40,000\". Provide the complete BRS solution with proper format.",
+     "a": "**Problem**: As on March 31, 2024, passbook shows credit balance ₹40,000. (1) Cheques deposited but not collected ₹15,000. (2) Cheques issued but not presented ₹8,000. (3) Bank charges debited by bank not in cash book ₹500.\n**Solution**:\nBank Reconciliation Statement as on March 31, 2024\n| Particulars | (+) Amount ₹ | (-) Amount ₹ |\n|-------------|-------------|-------------|\n| Credit balance as per passbook | 40,000 | |\n| Add: Cheques deposited but not collected | 15,000 | |\n| Less: Cheques issued but not presented | | 8,000 |\n| Less: Bank charges not in cash book | | 500 |\n| **Debit balance as per cash book** | | **46,500** |\n| **Total** | **55,000** | **55,000** |\nA poor answer would use wrong signs, wrong format, or miss that credit passbook = favourable = starting point. A good answer shows understanding that from passbook, we reverse the cash book logic: cheques deposited not collected → ADD (cash book has it, passbook doesn't), cheques issued not presented → LESS (passbook has it, cash book doesn't), bank charges → LESS (passbook deducted, cash book didn't).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

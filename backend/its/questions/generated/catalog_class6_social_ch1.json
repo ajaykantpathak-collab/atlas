@@ -1,0 +1,203 @@
+{
+ "catalog": "catalog_class6_social_ch1",
+ "concepts": [
+  {
+   "id": "c6ss.1.1",
+   "title": "Globe and Latitudes",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Globe and Latitudes' refers to.",
+     "a": "A globe is a spherical model of the Earth; latitudes are imaginary horizontal lines running east-west, parallel to the equator.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Globe and Latitudes'.",
+     "a": "Latitudes measure distance north or south of the equator and help locate places on Earth.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Globe and Latitudes'.",
+     "a": "explain latitudes on a globe",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.1.2",
+   "title": "Longitudes and Time Zones",
+   "questions": [
+    {
+     "q": "Using the method 'Longitudes and Time Zones', work with: longitude = 300, longitude_diff = 40, prime_meridian = 0. Carry the chain through step by step and give the final value of timezone.",
+     "a": "20 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Longitudes and Time Zones' and work with: longitude = 60, longitude_diff = 30, prime_meridian = 0. Carry the chain through step by step and give the final value of timezone.",
+     "a": "4 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Longitudes and Time Zones' refers to.",
+     "a": "Longitudes are imaginary vertical lines running from pole to pole; they determine time zones.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Longitudes and Time Zones'.",
+     "a": "Longitudes measure distance east or west of the Prime Meridian and are used to calculate time differences.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Longitudes and Time Zones'.",
+     "a": "explain longitudes and time zones",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.1.3",
+   "title": "Map Reading and Symbols",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Map Reading and Symbols' refers to.",
+     "a": "A map is a representation of the Earth's surface or part of it on a flat surface using symbols.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Map Reading and Symbols'.",
+     "a": "Maps use conventional symbols to represent features like roads, rivers, railways and buildings.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Map Reading and Symbols'.",
+     "a": "explain map symbols and reading",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.1.4",
+   "title": "Directions and Compass",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Directions and Compass' refers to.",
+     "a": "Directions are determined using a compass; cardinal directions are North, South, East, and West.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Directions and Compass'.",
+     "a": "A compass needle points to magnetic north, helping find all four cardinal and four intermediate directions.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Directions and Compass'.",
+     "a": "explain directions and compass use",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.1.5",
+   "title": "Scale of a Map",
+   "questions": [
+    {
+     "q": "Using the method 'Scale of a Map', work with: ground_distance = 200, map_dist = 75, map_distance = 240, scale_factor = 25. Carry the chain through step by step and give the final value of ground_dist.",
+     "a": "1875 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Scale of a Map' and work with: ground_distance = 100, map_dist = 360, map_distance = 4, scale_factor = 15. Carry the chain through step by step and give the final value of ground_dist.",
+     "a": "5400 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Scale of a Map' refers to.",
+     "a": "Scale is the ratio between distance on a map and actual distance on the ground.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Scale of a Map'.",
+     "a": "Map scale allows conversion between map distances and real-world distances.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Scale of a Map'.",
+     "a": "explain map scale",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.1.6",
+   "title": "Kinds of Maps",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Kinds of Maps' refers to.",
+     "a": "Maps are classified as physical, political, and thematic based on the information they show.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Kinds of Maps'.",
+     "a": "Different map types serve different purposes -- physical maps show natural features, political maps show boundaries, thematic maps show specific data.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Kinds of Maps'.",
+     "a": "explain types of maps",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.1.7",
+   "title": "Hemispheres of Earth",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Hemispheres of Earth' refers to.",
+     "a": "The Earth is divided into hemispheres by the equator (northern/southern) and the Prime Meridian (eastern/western).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Hemispheres of Earth'.",
+     "a": "Hemispheres help divide Earth into halves for geographical study.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Hemispheres of Earth'.",
+     "a": "explain hemispheres of earth",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c6ss.1.8",
+   "title": "Finding Locations Using Coordinates",
+   "questions": [
+    {
+     "q": "Using the method 'Finding Locations Using Coordinates', work with: lat = 100, lon = 100. Carry the chain through step by step and give the final value of location.",
+     "a": "100 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Finding Locations Using Coordinates' and work with: lat = 500, lon = 24. Carry the chain through step by step and give the final value of location.",
+     "a": "24 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Finding Locations Using Coordinates' refers to.",
+     "a": "The exact location of any place on Earth can be found using its latitude and longitude coordinates.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Finding Locations Using Coordinates'.",
+     "a": "Latitude and longitude together form a grid that uniquely identifies any point on Earth.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Finding Locations Using Coordinates'.",
+     "a": "explain finding locations using coordinates",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

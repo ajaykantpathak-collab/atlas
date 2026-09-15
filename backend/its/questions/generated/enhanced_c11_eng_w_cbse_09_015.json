@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_09_015",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_09_015",
+   "title": "c11_eng_w_cbse_09_015",
+   "questions": [
+    {
+     "q": "What are the two discussion prompts explicitly given in the NCERT \"Try This Out\" section for \"The Peacock\"?",
+     "a": "The two prompts are: (1) \"In English the peacock is associated with pride. 'As proud as a peacock' is a commonly used simile. With what qualities is the peacock associated in the literature of your language?\" and (2) \"The peacock is the national bird of India. Why do you think the peacock has been chosen?\" A wrong answer (e.g., \"Discuss the poem's theme\") reveals the student has not located the textbook's designated speaking task and may improvise irrelevant topics.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the \"Try This Out\" prompts are placed after the analytical questions (Understanding the Poem) rather than before them.",
+     "a": "The analytical questions (1-5) build close-reading evidence (colour imagery, cues of presence, tail-eyes connection, elusiveness) that students need to draw on for the broader cultural discussion. If discussion came first, students would rely on stereotypes (pride, beauty) without textual grounding. A wrong answer (\"It doesn't matter\") shows the student doesn't see discussion as evidence-dependent and may treat it as free-floating opinion-sharing.",
+     "self_check": true
+    },
+    {
+     "q": "You are leading a discussion on Prompt 1. A peer says: \"In my language, the peacock is just a pretty bird — no special associations.\" Using the poem, how would you invite them to discover a deeper connection?",
+     "a": "Step 1: Acknowledge their observation. Step 2: Direct attention to stanza 2 — the peacock appears only when \"you begin to live inside the book\" and \"the steady hum of bees will stop.\" Step 3: Ask: \"Could the peacock represent a moment of sudden insight that arrives only in deep concentration, not a decorative symbol?\" Step 4: Connect to their language's literature: \"Does any poem in your language describe inspiration as a fleeting, coloured visitor?\" A wrong response (\"That's not in our syllabus\") reveals inability to bridge textual detail to cross-cultural comparison.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the peacock's \"dark glowing eyes / Violet fringed with golden amber\" (tail-eyes) with the \"blue shadow\" that falls on the reader. What relationship between perception and inspiration does this imagery suggest?",
+     "a": "The tail-eyes \"blink\" (shut) when the bird turns away, while the reader's attention is broken — suggesting inspiration is perceived peripherally, not by direct stare. The \"blue shadow\" falls *on* the reader, implying the creative impulse chooses the observer, not vice versa. A wrong answer (\"They are both colourful\") misses the functional contrast: one is a defensive display (tail-eyes closing), the other an involuntary arrival (shadow falling).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The poem argues that poetry cannot be pursued directly; it must be waited for like the peacock.\" Defend or challenge using two specific textual moments.",
+     "a": "Defend with: (1) \"you have to sit in the veranda / And read a book... with great concentration\" — the deliberate act of reading (not writing) creates the condition; (2) \"The moment you begin to live inside the book / A blue shadow will fall over you\" — the poetic visitation is a consequence of immersion, not intention. A wrong evaluation (\"I agree because it's pretty\") fails to anchor judgment in the poem's causal logic (reading → immersion → shadow → glimpse).",
+     "self_check": true
+    },
+    {
+     "q": "Create a third discussion prompt for \"The Peacock\" that requires synthesizing the poem's imagery with a contemporary issue (e.g., attention economy, biodiversity loss, cultural appropriation of symbols).",
+     "a": "Strong prompt: \"The peacock appears only when 'the steady hum of bees / In the bushes nearby will stop' — a silence that signals its arrival. In an age of constant notification and background noise, what 'hum' must we silence to glimpse the 'blue shadow' of deep attention? Is the poem prescribing a digital detox?\" Weak prompt (\"Do you like peacocks?\") reveals inability to transfer poetic imagery to modern critical discourse.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

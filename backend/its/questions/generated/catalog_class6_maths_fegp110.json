@@ -1,0 +1,169 @@
+{
+ "catalog": "catalog_class6_maths_fegp110.json",
+ "concepts": [
+  {
+   "id": "fegp.10.1",
+   "title": "The Other Side of Zero: Negative Numbers",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate the polynomial or use the root relations",
+     "explain": "evaluate the polynomial or use the root relations: val = 2 * 5 * 5 + 5 * 5 + 3 gives 78",
+     "compute": "val = 2 * 5 * 5 + 5 * 5 + 3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the value of the polynomial 2x^2 + 5x + 3 at x = 5.",
+     "a": "78",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of the cubic 3x^3 + 3x + 6 at x = 3.",
+     "a": "96",
+     "self_check": false
+    },
+    {
+     "q": "For p(x) = x^2 - 5x + 6, find p(2).",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "The zeros of a quadratic are 4 and 8. Find the sum of the zeros.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "The zeros of a quadratic are 4 and 8. Find the product of the zeros.",
+     "a": "32",
+     "self_check": false
+    },
+    {
+     "q": "A quadratic has zeros 4 and 8. Write it as x^2 - (sum)x + product and give the value of the constant term.",
+     "a": "32",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.10.2",
+   "title": "Moves on the Number Line: Adding Integers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Add the integers 25 and 16.",
+     "a": "41",
+     "self_check": false
+    },
+    {
+     "q": "A point starts at -22 on a number line and moves 20 steps (negative means left). Where does it finish?",
+     "a": "-2",
+     "self_check": false
+    },
+    {
+     "q": "Multiply the integers -9 and -4.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Divide 87 by 2.",
+     "a": "43.5",
+     "self_check": false
+    },
+    {
+     "q": "Find the additive inverse of -6 and return it.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law to evaluate 6 x 8 + 6 x 3 as 6 x (8 + 3).",
+     "a": "66",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.10.3",
+   "title": "Adding Positive and Negative Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Add the integers -17 and -20.",
+     "a": "-37",
+     "self_check": false
+    },
+    {
+     "q": "A point starts at -21 on a number line and moves 25 steps (negative means left). Where does it finish?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Multiply the integers 8 and 0.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Divide 115 by 6.",
+     "a": "19.1667",
+     "self_check": false
+    },
+    {
+     "q": "Find the additive inverse of 3 and return it.",
+     "a": "-3",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law to evaluate 3 x 7 + 3 x 4 as 3 x (7 + 4).",
+     "a": "33",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.10.4",
+   "title": "Back and Forth: Subtraction and Undoing",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the integer operation sign rules",
+     "explain": "apply the integer operation sign rules: total = 14 + (16) gives 30",
+     "compute": "total = 14 + (16)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Add the integers 14 and 16.",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "A point starts at 18 on a number line and moves -29 steps (negative means left). Where does it finish?",
+     "a": "-11",
+     "self_check": false
+    },
+    {
+     "q": "Multiply the integers 7 and -4.",
+     "a": "-28",
+     "self_check": false
+    },
+    {
+     "q": "Divide -52 by 3.",
+     "a": "-17.3333",
+     "self_check": false
+    },
+    {
+     "q": "Find the additive inverse of 5 and return it.",
+     "a": "-5",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law to evaluate 8 x 7 + 8 x 6 as 8 x (7 + 6).",
+     "a": "104",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

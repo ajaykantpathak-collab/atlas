@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_economics_ch11_001",
+ "concepts": [
+  {
+   "id": "enh:c6_economics_ch11_001",
+   "title": "c6_economics_ch11_001",
+   "questions": [
+    {
+     "q": "What is the definition of the barter system?",
+     "a": "The barter system is a way of trading where goods and services are exchanged directly for other goods and services without the use of money. A wrong answer usually describes it as \"trading with coins\" or \"selling things for profit,\" which ignores the absence of money in the barter system.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it often difficult to complete a trade using the barter system?",
+     "a": "It is difficult because you need a \"double coincidence of wants\"—you must find someone who has what you want and also wants exactly what you have. A wrong answer suggests the difficulty is just about \"carrying heavy items,\" missing the fundamental economic challenge of matching needs.",
+     "self_check": true
+    },
+    {
+     "q": "If you are a farmer with wheat and you want a pair of shoes, what must happen for a successful barter?",
+     "a": "Steps: 1. Identify your supply (wheat). 2. Identify your need (shoes). 3. Search for a shoemaker. 4. Confirm the shoemaker needs wheat. 5. Exchange. A wrong answer suggests you can just trade with anyone, failing to realize the shoemaker might not want wheat.",
+     "self_check": true
+    },
+    {
+     "q": "How does the barter system differ from modern shopping?",
+     "a": "In modern shopping, money acts as a common medium that everyone accepts, so you don't need the seller to want what you have. In barter, the trade depends entirely on both people needing the specific items being swapped. A wrong answer focuses on the *location* of the trade (e.g., \"shops vs. farms\") rather than the *method* of payment.",
+     "self_check": true
+    },
+    {
+     "q": "Is a barter system efficient for a large city today? Why or why not?",
+     "a": "No, it is highly inefficient because it would take too long to find someone who wants your specific goods. In a city with thousands of products, finding a \"double coincidence of wants\" for every single transaction would stop trade from happening quickly. A wrong answer says \"yes\" because they mistake the ability to trade goods for the ability to trade *efficiently*.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where you could successfully trade without money. What items are involved?",
+     "a": "A good answer involves two people with complementary needs, such as a student having extra pencils and wanting a sharpener, and a classmate having an extra sharpener and needing pencils. A poor answer fails to ensure the second person actually wants the first person's item.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

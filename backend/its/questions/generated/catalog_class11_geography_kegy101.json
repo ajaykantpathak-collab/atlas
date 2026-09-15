@@ -1,0 +1,41 @@
+{
+  "catalog": "catalog_class11_geography_kegy101",
+  "concepts": [
+    {
+      "id": "kegy.101.1.1",
+      "questions": [
+        {"q": "India's southernmost mainland latitude is about 8 degrees 4 minutes north. The northernmost is about 37 degrees 6 minutes which direction? (one word)", "a": "north"},
+        {"q": "India lies between 68 degrees 7 minutes and 97 degrees 25 minutes of which longitude direction? (one word)", "a": "east"},
+        {"q": "Which line of latitude divides India into almost two equal halves? (two words)", "a": "Tropic of Cancer"},
+        {"q": "In which hemisphere does India lie entirely: northern or southern? (one word)", "a": "northern"},
+        {"q": "Which line of latitude passes through the middle of India, splitting it nearly in half? (three words)", "a": "Tropic of Cancer"},
+        {"q": "India's latitudinal extent runs from 8 degrees 4 minutes N to 37 degrees 6 minutes N. How many degrees is that span, to the nearest whole degree? (number)", "a": "29"},
+        {"q": "India's longitudinal extent runs from about 68 degrees E to 97 degrees E. To the nearest whole degree, how wide is that span? (number)", "a": "29"}
+      ]
+    },
+    {
+      "id": "kegy.101.2.1",
+      "questions": [
+        {"q": "How many countries share a land boundary with India? (number)", "a": "7"},
+        {"q": "Name the two island neighbours of India across the sea. (two words)", "a": "Sri Lanka, Maldives"},
+        {"q": "Which strait separates India from Sri Lanka? (two words)", "a": "Palk Strait"},
+        {"q": "Which two neighbours bound India on the northwest (Pakistan and one more)? (one word)", "a": "Afghanistan"},
+        {"q": "Nepal and Bhutan are Himalayan kingdoms. How many Himalayan kingdoms neighbour India? (number)", "a": "2"},
+        {"q": "In which sea do the Maldives lie? (two words)", "a": "Arabian Sea"},
+        {"q": "How many of India's land neighbours lie to its north and northeast (China, Nepal, Bhutan)? (number)", "a": "3"}
+      ]
+    },
+    {
+      "id": "kegy.101.3.1",
+      "questions": [
+        {"q": "Which meridian fixes Indian Standard Time? (short form)", "a": "82.5 degrees E"},
+        {"q": "Through which UP city does the standard meridian of India pass? (one word)", "a": "Mirzapur"},
+        {"q": "Indian Standard Time is how many hours ahead of Greenwich Mean Time? (number)", "a": "5.5"},
+        {"q": "India covers about how many million square km? (number, in millions)", "a": "3.28"},
+        {"q": "India's area is about what per cent of the world's total area? (give the per cent)", "a": "2.4"},
+        {"q": "IST at 82.5 degrees E is 5 hours 30 minutes ahead of GMT. How many minutes is that? (number)", "a": "330"},
+        {"q": "It is 12:00 noon GMT. What is the IST time in hours on a 24-hour clock? (number)", "a": "17.5"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_12_006",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_12_006",
+   "title": "c12_hist_cbse_12_006",
+   "questions": [
+    {
+     "q": "Which two Articles in the original Constitution (1950) jointly guaranteed the right to property, and which Article permitted the state to acquire property for public purpose upon payment of compensation?",
+     "a": "Articles 19(1)(f) and 31(1) guaranteed the right to acquire, hold, and dispose of property; Article 31(2) allowed acquisition for public purpose with compensation. A wrong answer (e.g., citing only Article 31 or confusing it with Article 300A) reveals the student does not grasp the *dual* textual basis — a deliberate design to make property rights harder to abridge, which later became the battleground for zamindari abolition cases.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Constituent Assembly include \"reasonable restrictions\" on freedom of speech (Article 19(2)) instead of adopting the U.S. First Amendment's near-absolute \"no law... abridging\" formulation?",
+     "a": "The Assembly had just witnessed Partition violence fueled by hate speech and communal propaganda; members like T.T. Krishnamachari argued that in a society with \"communal tensions,\" absolute free speech would be \"suicidal.\" The U.S. model assumed a homogeneous polity with strong institutions — India in 1947 had neither. A wrong answer citing \"British colonial legacy\" alone misses the *contingent* historical judgment: the restriction was a *deliberate, context-specific* choice, not mere imitation.",
+     "self_check": true
+    },
+    {
+     "q": "A Constituent Assembly member argues: \"Preventive detention is a negation of the rule of law; no civilized constitution permits imprisonment without trial.\" Using the actual debates, identify *two* counter-arguments made by defenders of Article 22, and explain the historical circumstance that made those arguments persuasive to the majority.",
+     "a": "Counter-arguments: (1) Alladi Krishnaswami Ayyar: Preventive detention targets *future* threats (espionage, subversion) where evidence cannot be disclosed without endangering sources — criminal trial is impossible. (2) Sardar Patel: The post-Partition chaos, refugee crises, and communist uprisings (Telangana) required executive speed; judicial process would be too slow. The historical circumstance: the *imminent* threat of state collapse in 1947–49 made \"normal\" due process seem a luxury. A wrong answer focusing only on \"British precedent\" (Rowlatt Act) ignores that the Assembly *rejected* the Rowlatt model (no advisory board, no time limit) and built safeguards — showing they were not blindly copying.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the property-rights debate with the free-speech debate: in both, the Assembly chose \"qualified rights.\" But the *nature* of the qualification differed. Explain the difference and why it mattered for subsequent constitutional history.",
+     "a": "Property: qualification was *substantive* — the state could take property for \"public purpose\" with \"compensation\" (justiciable), leading to decades of litigation over \"adequate compensation\" and eventual deletion of the right (44th Amendment). Free speech: qualification was *procedural* — \"reasonable restrictions\" on enumerated grounds (public order, security, etc.), leaving the *core* right intact and justiciable. The difference: property was seen as an obstacle to *socio-economic revolution* (zamindari abolition), so its qualification was designed to be *overcome*; free speech was seen as essential to *democracy*, so its qualification was designed to be *narrow*. A wrong answer treating both as \"same — reasonable restrictions\" misses the political economy logic: property rights protected the *old elite*; free speech protected the *new citizen*.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Constituent Assembly's decision to retain preventive detention (Article 22) while guaranteeing habeas corpus (Article 32) was a coherent balance between liberty and security.\"",
+     "a": "The claim is *partially* defensible but historically incomplete. Coherence: Article 22 provided safeguards (advisory board review within 3 months, communication of grounds, right to representation) absent in colonial laws — a genuine attempt at balance. Incoherence: The same Assembly that denounced British preventive detention (Defence of India Act) replicated its *structure* while adding procedural checks — but left the *substantive* power intact. The \"balance\" tilted toward security because the *political* consensus (Nehru, Patel, Ambedkar) prioritized state survival after Partition. A student calling it \"hypocritical\" misses the *tragic necessity* argument; a student calling it \"perfectly balanced\" misses the *colonial continuity*. The mature evaluation: it was a *contingent compromise* that the Assembly expected to be temporary — but became permanent.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 150-word speech *as if you were* a socialist member of the Constituent Assembly (e.g., K.T. Shah or N.G. Ranga) arguing that the right to property should be *subordinate* to the Directive Principles (Articles 39(b)-(c)). Use *only* arguments available in 1947–49.",
+     "a": "A strong answer will: (1) Cite the Objectives Resolution's promise of \"economic justice\"; (2) Reference zamindari abolition as an electoral mandate; (3) Argue that property is a *social trust*, not a natural right (invoking Nehru's \"socialist\" leanings); (4) Warn that judicial enforcement of \"compensation\" will bankrupt the state; (5) Demand that Directive Principles be made justiciable *or* property rights be explicitly subjected to them. A weak answer uses post-1970s language (\"basic structure,\" \"eminent domain\") or ignores the *debate* context (e.g., not mentioning the Munshi-Ayyar draft that entrenched compensation). The test: can the student *inhabit* the historical moment without hindsight?",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

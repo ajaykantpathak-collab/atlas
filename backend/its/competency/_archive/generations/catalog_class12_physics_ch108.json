@@ -1,0 +1,519 @@
+{
+ "class": "12",
+ "subject": "physics",
+ "chapter": "8",
+ "chapter_title": "Electromagnetic Waves",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\cbse_pq_class_0726.txt",
+ "concepts": [
+  {
+   "id": "jeph.8.1",
+   "title": "Displacement Current",
+   "section": "8.1",
+   "definition": "Displacement current is the current that appears in the region between the plates of a capacitor when the electric field (and hence electric flux) changes with time. It is Maxwell's correction to Ampere's circuital law to make it consistent with the continuity equation and conservation of charge.",
+   "formula": "I_d = epsilon_0 * d(Phi_E)/dt, where Phi_E is the electric flux through the surface and epsilon_0 is the permittivity of free space.",
+   "key_idea": "A changing electric field produces a magnetic field, just as a changing magnetic field produces an electric field. The displacement current ensures that Ampere's law holds in circuits with capacitors where conduction current is discontinuous.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Calculate the displacement current between the plates of a capacitor given the rate of change of electric flux.",
+    "Given the conduction current in a capacitor circuit, find the displacement current and verify they are equal.",
+    "Find the rate of change of electric flux given the displacement current.",
+    "Compute the displacement current density given electric field variation with time.",
+    "Verify that the displacement current equals the conduction current in a charging capacitor."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the rate of change of electric flux d(Phi_E)/dt or the conduction current I_c in the circuit.",
+     "explain": "The displacement current arises from a time-varying electric field. Determine whether the electric flux change or the conduction current is given.",
+     "compute": "If electric field E(t) is given, compute Phi_E = E * A, then d(Phi_E)/dt = A * dE/dt."
+    },
+    {
+     "step": 2,
+     "action": "Apply the displacement current formula I_d = epsilon_0 * d(Phi_E)/dt.",
+     "explain": "Multiply the permittivity of free space (epsilon_0 = 8.854e-12 F/m) by the rate of change of electric flux to obtain the displacement current.",
+     "compute": "I_d = epsilon_0 * d(Phi_E)/dt = 8.854e-12 * (d(Phi_E)/dt)"
+    },
+    {
+     "step": 3,
+     "action": "State the result with proper SI units (amperes) and, if applicable, verify I_d = I_c.",
+     "explain": "The displacement current has the same units and magnitude as the conduction current in the connecting wires, ensuring continuity of current.",
+     "compute": "Compare I_d with I_c; they should be equal inside the capacitor region."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A parallel-plate capacitor with plate area 0.05 m^2 has a uniform electric field that changes at the rate of 2.0 x 10^12 V/(m·s). Calculate the displacement current between the plates.",
+     "solution": "Given: A = 0.05 m^2, dE/dt = 2.0 x 10^12 V/(m·s), epsilon_0 = 8.854 x 10^-12 F/m. The electric flux Phi_E = E * A, so d(Phi_E)/dt = A * dE/dt = 0.05 * 2.0 x 10^12 = 1.0 x 10^11 V·m/s. Displacement current I_d = epsilon_0 * d(Phi_E)/dt = 8.854 x 10^-12 * 1.0 x 10^11 = 0.8854 A.",
+     "answer": "I_d = 0.885 A"
+    },
+    {
+     "question": "A capacitor is being charged by a constant current of 5 mA. What is the displacement current between the plates?",
+     "solution": "By Maxwell's theory, the displacement current between the plates of a capacitor equals the conduction current in the external circuit. Given I_c = 5 mA, therefore I_d = I_c = 5 mA.",
+     "answer": "I_d = 5 mA"
+    },
+    {
+     "question": "The displacement current between the plates of a capacitor is 1.77 x 10^-3 A. If the plate area is 0.01 m^2, find the rate of change of electric field.",
+     "solution": "Given: I_d = 1.77 x 10^-3 A, A = 0.01 m^2, epsilon_0 = 8.854 x 10^-12 F/m. Using I_d = epsilon_0 * A * dE/dt, we get dE/dt = I_d / (epsilon_0 * A) = 1.77 x 10^-3 / (8.854 x 10^-12 * 0.01) = 2.0 x 10^10 V/(m·s).",
+     "answer": "dE/dt = 2.0 x 10^10 V/(m·s)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A parallel-plate capacitor with circular plates of radius 5 cm has an electric field changing at 1.5 x 10^12 V/(m·s). Calculate the displacement current.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain why the displacement current is necessary to make Ampere's circuital law consistent for circuits containing capacitors.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jeph.8.2",
+   "title": "Maxwell's Equations (Qualitative)",
+   "section": "8.2",
+   "definition": "Maxwell's equations are a set of four fundamental equations that describe how electric and magnetic fields are generated and altered by each other and by charges and currents. They form the foundation of classical electromagnetism.",
+   "formula": "(1) Gauss's law for electricity: oint E·dA = q/epsilon_0; (2) Gauss's law for magnetism: oint B·dA = 0; (3) Faraday's law: oint E·dl = -d(Phi_B)/dt; (4) Ampere-Maxwell law: oint B·dl = mu_0(I_c + I_d).",
+   "key_idea": "The four Maxwell equations unify electricity and magnetism: Gauss's law for electricity relates electric field to charge; Gauss's law for magnetism states no magnetic monopoles exist; Faraday's law relates changing magnetic flux to induced EMF; the Ampere-Maxwell law relates magnetic field to conduction and displacement currents.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "State and explain the physical significance of each of Maxwell's four equations.",
+    "Identify which Maxwell equation corresponds to the statement that magnetic monopoles do not exist.",
+    "Explain how Faraday's law of electromagnetic induction is expressed as a Maxwell equation.",
+    "Describe the role of the displacement current term in the Ampere-Maxwell law.",
+    "Explain how Maxwell's equations predict the existence of electromagnetic waves."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify which of the four Maxwell equations is relevant to the question.",
+     "explain": "Each equation describes a different physical law: Gauss's law for electricity, Gauss's law for magnetism, Faraday's law, and the Ampere-Maxwell law.",
+     "compute": ""
+    },
+    {
+     "step": 2,
+     "action": "State the mathematical form of the identified equation and describe each quantity.",
+     "explain": "Write the integral form and identify the physical quantities such as electric field E, magnetic field B, charge q, electric flux Phi_E, magnetic flux Phi_B, conduction current I_c, and displacement current I_d.",
+     "compute": ""
+    },
+    {
+     "step": 3,
+     "action": "Explain the physical significance and verify the property described in the question.",
+     "explain": "Relate the equation to its physical consequence, such as the non-existence of magnetic monopoles, induction of EMF by changing magnetic flux, or generation of EM waves by oscillating charges.",
+     "compute": ""
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which Maxwell equation states that magnetic monopoles do not exist? Explain.",
+     "solution": "Gauss's law for magnetism: oint B·dA = 0. This means the net magnetic flux through any closed surface is always zero, implying that the number of magnetic field lines leaving a closed surface equals the number entering it. This indicates that isolated magnetic poles (monopoles) do not exist; magnetic field lines always form closed loops.",
+     "answer": "Gauss's law for magnetism: oint B·dA = 0 (no magnetic monopoles)"
+    },
+    {
+     "question": "How does the Ampere-Maxwell law differ from the original Ampere's circuital law?",
+     "solution": "The original Ampere's law states oint B·dl = mu_0 * I_c, relating the magnetic field only to the conduction current. The Ampere-Maxwell law adds the displacement current term: oint B·dl = mu_0(I_c + I_d), where I_d = epsilon_0 * d(Phi_E)/dt. This correction accounts for the magnetic field produced by a changing electric field, making the law valid even in regions where conduction current is absent (such as between capacitor plates).",
+     "answer": "Ampere-Maxwell law adds I_d = epsilon_0 * d(Phi_E)/dt to the conduction current term"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State the four Maxwell's equations in integral form and give the physical significance of each.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain how Maxwell's equations lead to the prediction of electromagnetic waves traveling at speed c = 1/sqrt(mu_0 * epsilon_0).",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jeph.8.3",
+   "title": "Electromagnetic Waves: Properties and Nature",
+   "section": "8.3",
+   "definition": "Electromagnetic waves are transverse waves consisting of oscillating electric and magnetic fields that are perpendicular to each other and to the direction of wave propagation. They do not require a material medium and can travel through vacuum.",
+   "formula": "E = E_0 sin(kx - omega t), B = B_0 sin(kx - omega t), where E and B are perpendicular to each other and to the direction of propagation. c = omega/k = 1/sqrt(mu_0 * epsilon_0).",
+   "key_idea": "EM waves are produced by accelerating charges. The electric and magnetic fields oscillate sinusoidally, are mutually perpendicular, and both are perpendicular to the direction of propagation. They carry energy and momentum and exert radiation pressure.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Given the electric field of an EM wave, write the corresponding magnetic field expression.",
+    "Determine the frequency and wavelength of an EM wave given its electric field equation.",
+    "Verify that the electric and magnetic fields in an EM wave are perpendicular and in phase.",
+    "Calculate the amplitude of the magnetic field given the electric field amplitude.",
+    "Identify the direction of propagation of an EM wave given E and B field directions."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Extract the wave parameters (amplitude, wave number, angular frequency, or frequency) from the given electric field equation E = E_0 sin(kx - omega t).",
+     "explain": "The general form of the electric field in an EM wave is E = E_0 sin(kx - omega t), where E_0 is the amplitude, k is the wave number, and omega is the angular frequency.",
+     "compute": "k = 2*pi/lambda, omega = 2*pi*f, c = omega/k = 3 x 10^8 m/s"
+    },
+    {
+     "step": 2,
+     "action": "Use the relation E_0 = c * B_0 to find the magnetic field amplitude, or use the direction rule to find B direction.",
+     "explain": "The magnitudes of E and B in an EM wave are related by E/B = c. The direction of B is such that E x B points in the direction of propagation (given by the cross product of E and B).",
+     "compute": "B_0 = E_0 / c, where c = 3 x 10^8 m/s"
+    },
+    {
+     "step": 3,
+     "action": "Write the expression for B or verify the perpendicularity and phase relationship between E and B.",
+     "explain": "The magnetic field B is perpendicular to E and to the direction of propagation, and oscillates in phase with E. Write B = B_0 sin(kx - omega t) along the appropriate direction.",
+     "compute": "B = (E_0/c) sin(kx - omega t) along the direction perpendicular to both E and propagation direction"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "The electric field of an electromagnetic wave in free space is given by E = 50 sin(kx - 6 x 10^8 t) V/m. Find the wavelength and the amplitude of the magnetic field.",
+     "solution": "Given: E_0 = 50 V/m, omega = 6 x 10^8 rad/s. Since c = omega/k, we get k = omega/c = (6 x 10^8)/(3 x 10^8) = 2 m^-1. Wavelength lambda = 2*pi/k = 2*pi/2 = pi m = 3.14 m. Magnetic field amplitude B_0 = E_0/c = 50/(3 x 10^8) = 1.67 x 10^-7 T.",
+     "answer": "lambda = 3.14 m, B_0 = 1.67 x 10^-7 T"
+    },
+    {
+     "question": "An EM wave traveling in the +x direction has an electric field E = E_0 j_hat sin(kx - omega t). Write the expression for the magnetic field B.",
+     "solution": "Since the wave propagates in +x direction and E is along y (j_hat), B must be along z (k_hat) so that E x B points in +x direction. The amplitude B_0 = E_0/c. Therefore B = (E_0/c) k_hat sin(kx - omega t).",
+     "answer": "B = (E_0/c) k_hat sin(kx - omega t)"
+    },
+    {
+     "question": "The electric field amplitude of an EM wave is 120 V/m. Calculate the magnetic field amplitude.",
+     "solution": "Given: E_0 = 120 V/m, c = 3 x 10^8 m/s. Using B_0 = E_0/c = 120/(3 x 10^8) = 4 x 10^-7 T.",
+     "answer": "B_0 = 4 x 10^-7 T"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "An EM wave has an electric field E = 100 cos(0.5 x 10^7 t - 0.3 x) V/m. Find the frequency, wavelength, and magnetic field amplitude.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain why electromagnetic waves are transverse in nature and how this can be demonstrated experimentally.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jeph.8.4",
+   "title": "Speed of Electromagnetic Waves in Vacuum",
+   "section": "8.3",
+   "definition": "The speed of electromagnetic waves in vacuum is a fundamental constant c, derived from the electric and magnetic properties of free space. Maxwell showed that c = 1/sqrt(mu_0 * epsilon_0), which equals approximately 3 x 10^8 m/s.",
+   "formula": "c = 1/sqrt(mu_0 * epsilon_0), where mu_0 = 4*pi x 10^-7 T·m/A and epsilon_0 = 8.854 x 10^-12 F/m. In a medium: v = 1/sqrt(mu * epsilon) = c/n, where n is the refractive index.",
+   "key_idea": "The speed of EM waves in vacuum depends only on the permittivity and permeability of free space. Maxwell's prediction that c = 1/sqrt(mu_0 * epsilon_0) matched the measured speed of light, establishing that light is an electromagnetic wave.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Calculate the speed of EM waves in vacuum using mu_0 and epsilon_0.",
+    "Given the refractive index of a medium, find the speed of EM waves in that medium.",
+    "Verify that the speed of EM waves equals the speed of light in vacuum.",
+    "Compute the wavelength of an EM wave given its frequency and the medium.",
+    "Calculate the time taken for an EM wave to travel a given distance in vacuum."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the given quantities: mu_0, epsilon_0, refractive index n, frequency f, or distance d.",
+     "explain": "Determine whether the problem involves vacuum or a material medium. In vacuum, use mu_0 and epsilon_0 directly. In a medium, use the refractive index or the medium's permittivity and permeability.",
+     "compute": "mu_0 = 4*pi x 10^-7 T·m/A, epsilon_0 = 8.854 x 10^-12 F/m"
+    },
+    {
+     "step": 2,
+     "action": "Apply the speed formula c = 1/sqrt(mu_0 * epsilon_0) for vacuum, or v = c/n for a medium.",
+     "explain": "Substitute the values of mu_0 and epsilon_0 to compute the speed in vacuum, or divide c by the refractive index for a medium.",
+     "compute": "c = 1/sqrt(4*pi x 10^-7 * 8.854 x 10^-12) = 3 x 10^8 m/s"
+    },
+    {
+     "step": 3,
+     "action": "Compute the required quantity (speed, wavelength, or time) and state with proper units.",
+     "explain": "Use v = f * lambda to find wavelength, or t = d/v to find travel time. Express the final answer with correct SI units.",
+     "compute": "lambda = c/f, t = d/c"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Calculate the speed of electromagnetic waves in vacuum using mu_0 = 4*pi x 10^-7 T·m/A and epsilon_0 = 8.854 x 10^-12 F/m.",
+     "solution": "c = 1/sqrt(mu_0 * epsilon_0) = 1/sqrt(4*pi x 10^-7 x 8.854 x 10^-12). Compute the product: 4*pi x 10^-7 x 8.854 x 10^-12 = 1.1127 x 10^-17. Then c = 1/sqrt(1.1127 x 10^-17) = 1/(3.336 x 10^-9) = 2.998 x 10^8 m/s ≈ 3 x 10^8 m/s.",
+     "answer": "c ≈ 3 x 10^8 m/s"
+    },
+    {
+     "question": "An EM wave of frequency 5 x 10^14 Hz travels in a medium of refractive index 1.5. Find the speed and wavelength in the medium.",
+     "solution": "Speed in medium v = c/n = (3 x 10^8)/1.5 = 2 x 10^8 m/s. Wavelength in medium lambda = v/f = (2 x 10^8)/(5 x 10^14) = 4 x 10^-7 m = 400 nm.",
+     "answer": "v = 2 x 10^8 m/s, lambda = 400 nm"
+    },
+    {
+     "question": "How long does it take for light to travel from the Sun to the Earth, given the distance is 1.5 x 10^11 m?",
+     "solution": "Time t = d/c = (1.5 x 10^11)/(3 x 10^8) = 500 s = 8 min 20 s.",
+     "answer": "t = 500 s (8 min 20 s)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Compute the speed of EM waves in a medium with refractive index 1.33 (water).",
+     "type": "compute"
+    },
+    {
+     "question": "An EM wave has a wavelength of 600 nm in vacuum. Find its wavelength in a medium of refractive index 1.5.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jeph.8.5",
+   "title": "Relation Between Electric and Magnetic Fields in EM Waves",
+   "section": "8.3",
+   "definition": "In an electromagnetic wave, the electric field E and magnetic field B are perpendicular to each other and to the direction of propagation. Their magnitudes are related by E = cB at every instant, and they oscillate in phase.",
+   "formula": "E_0/B_0 = c = 1/sqrt(mu_0 * epsilon_0), or equivalently B_0 = E_0/c. At any instant, |E| = c|B|. The ratio E/B has dimensions of speed.",
+   "key_idea": "The electric field is much larger in magnitude than the magnetic field (by a factor of c). Both fields reach their maxima and minima at the same points in space and time (in phase). The Poynting vector S = (1/mu_0)(E x B) gives the energy flow direction.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Given E_0, find B_0 using the relation E_0 = c * B_0.",
+    "Given B_0, find E_0 and verify the ratio equals c.",
+    "Determine the direction of propagation using the cross product E x B.",
+    "Verify that E and B are in phase and perpendicular in an EM wave.",
+    "Calculate the Poynting vector or intensity given E_0 and B_0."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the given field (E or B) and its amplitude or instantaneous value.",
+     "explain": "Determine which field amplitude is given and what needs to be found. The fundamental relation is E = cB, where c is the speed of light.",
+     "compute": "c = 3 x 10^8 m/s"
+    },
+    {
+     "step": 2,
+     "action": "Apply the relation E_0 = c * B_0 (or B_0 = E_0/c) to find the unknown field amplitude.",
+     "explain": "The ratio of the electric field amplitude to the magnetic field amplitude equals the speed of light. Use this to compute the unknown amplitude.",
+     "compute": "If E_0 is given: B_0 = E_0/c. If B_0 is given: E_0 = c * B_0."
+    },
+    {
+     "step": 3,
+     "action": "Verify perpendicularity and phase relationship, or compute the Poynting vector if required.",
+     "explain": "Check that E and B are perpendicular and in phase. If asked for intensity, use I = (1/2) * epsilon_0 * c * E_0^2 or I = (E_0 * B_0)/(2 * mu_0).",
+     "compute": "S = (1/mu_0)(E x B), I = (1/2)*epsilon_0*c*E_0^2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "The magnetic field amplitude of an EM wave is 2 x 10^-8 T. Find the electric field amplitude.",
+     "solution": "Given: B_0 = 2 x 10^-8 T, c = 3 x 10^8 m/s. Using E_0 = c * B_0 = 3 x 10^8 x 2 x 10^-8 = 6 V/m.",
+     "answer": "E_0 = 6 V/m"
+    },
+    {
+     "question": "In an EM wave, E = 60 sin(kx - omega t) j_hat V/m propagating along +x. Find B and verify E and B are perpendicular.",
+     "solution": "E is along j_hat (y-direction), propagation is along +x. B must be along k_hat (z-direction) so that E x B = j_hat x k_hat = i_hat (+x direction). B_0 = E_0/c = 60/(3 x 10^8) = 2 x 10^-7 T. So B = 2 x 10^-7 sin(kx - omega t) k_hat T. E is along y, B is along z, propagation is along x — all mutually perpendicular.",
+     "answer": "B = 2 x 10^-7 sin(kx - omega t) k_hat T; E and B are perpendicular"
+    },
+    {
+     "question": "The electric field amplitude of an EM wave is 100 V/m. Calculate the intensity of the wave.",
+     "solution": "Given: E_0 = 100 V/m, epsilon_0 = 8.854 x 10^-12 F/m, c = 3 x 10^8 m/s. Intensity I = (1/2) * epsilon_0 * c * E_0^2 = (1/2) * 8.854 x 10^-12 * 3 x 10^8 * (100)^2 = (1/2) * 8.854 x 10^-12 * 3 x 10^8 * 10^4 = 13.28 W/m^2.",
+     "answer": "I = 13.28 W/m^2"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "The electric field of an EM wave is E = 150 sin(kx - omega t) V/m. Find the magnetic field amplitude and verify the ratio E_0/B_0 = c.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain why the electric field is considered more effective than the magnetic field in exerting force on charges in an EM wave.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jeph.8.6",
+   "title": "Electromagnetic Spectrum",
+   "section": "8.4",
+   "definition": "The electromagnetic spectrum is the orderly distribution of electromagnetic waves according to their frequency (or wavelength), ranging from low-frequency radio waves to high-frequency gamma rays. All EM waves travel at the same speed c in vacuum but differ in frequency and wavelength.",
+   "formula": "c = f * lambda. The spectrum in order of increasing frequency (decreasing wavelength): Radio waves > Microwaves > Infrared > Visible light > Ultraviolet > X-rays > Gamma rays. Frequency range: ~10^6 Hz (radio) to ~10^20 Hz (gamma).",
+   "key_idea": "Different regions of the EM spectrum are produced by different mechanisms and have different uses. Radio waves are produced by accelerating charges in antennas; X-rays by inner electron transitions; gamma rays by nuclear transitions. All travel at speed c in vacuum.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Arrange the given EM waves in order of increasing frequency or wavelength.",
+    "Identify the region of the EM spectrum given a frequency or wavelength.",
+    "Calculate the frequency given the wavelength (or vice versa) for a particular EM wave.",
+    "Match a given application (e.g., MRI, microwave oven, X-ray imaging) to the correct EM spectrum region.",
+    "Compare the penetrating power or production mechanism of different EM waves."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the given frequency or wavelength, or the application described in the question.",
+     "explain": "Determine what is given (frequency, wavelength, or use case) and what needs to be found (spectrum region, frequency, or wavelength).",
+     "compute": "c = 3 x 10^8 m/s, f = c/lambda, lambda = c/f"
+    },
+    {
+     "step": 2,
+     "action": "Use c = f * lambda to convert between frequency and wavelength, or match the value to the known spectrum ranges.",
+     "explain": "Apply the wave equation to find the unknown quantity. Compare the computed value with the standard ranges of the EM spectrum to identify the region.",
+     "compute": "Radio: 10^6-10^9 Hz, Microwave: 10^9-10^12 Hz, IR: 10^12-4.3x10^14 Hz, Visible: 4.3x10^14-7.5x10^14 Hz, UV: 7.5x10^14-10^17 Hz, X-ray: 10^17-10^20 Hz, Gamma: >10^20 Hz"
+    },
+    {
+     "step": 3,
+     "action": "State the spectrum region or the computed frequency/wavelength with proper units and context.",
+     "explain": "Identify the correct region of the EM spectrum and state any relevant properties or uses associated with that region.",
+     "compute": "Express final answer in Hz (frequency) or m/nm (wavelength)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "An EM wave has a wavelength of 500 nm. Identify the region of the electromagnetic spectrum it belongs to.",
+     "solution": "Given: lambda = 500 nm = 500 x 10^-9 m = 5 x 10^-7 m. Frequency f = c/lambda = (3 x 10^8)/(5 x 10^-7) = 6 x 10^14 Hz. This falls in the visible light range (4.3 x 10^14 to 7.5 x 10^14 Hz). The wave is green light.",
+     "answer": "Visible light (green), f = 6 x 10^14 Hz"
+    },
+    {
+     "question": "Arrange the following in order of increasing frequency: X-rays, radio waves, visible light, microwaves, gamma rays.",
+     "solution": "The order of increasing frequency is: Radio waves < Microwaves < Visible light < X-rays < Gamma rays. Radio waves have the lowest frequency (~10^6 Hz) and gamma rays have the highest (>10^20 Hz).",
+     "answer": "Radio waves < Microwaves < Visible light < X-rays < Gamma rays"
+    },
+    {
+     "question": "A microwave has a frequency of 3 x 10^10 Hz. Find its wavelength.",
+     "solution": "Given: f = 3 x 10^10 Hz, c = 3 x 10^8 m/s. Wavelength lambda = c/f = (3 x 10^8)/(3 x 10^10) = 10^-2 m = 1 cm. This is in the microwave region of the spectrum.",
+     "answer": "lambda = 1 cm (microwave region)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "An EM wave has a frequency of 10^18 Hz. Identify the spectrum region and calculate its wavelength.",
+     "type": "compute"
+    },
+    {
+     "question": "Match the following uses to the appropriate EM spectrum region: (a) sterilizing medical equipment, (b) satellite communication, (c) detecting forged documents, (d) cancer therapy.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jeph.8.7",
+   "title": "Properties and Uses of Different EM Waves",
+   "section": "8.4",
+   "definition": "Different regions of the electromagnetic spectrum have distinct properties (penetrating power, wavelength range, production mechanism) and practical applications based on these properties.",
+   "formula": "Radio waves: lambda > 0.1 m, used in communication. Microwaves: lambda 1 mm-0.1 m, used in radar and cooking. Infrared: lambda 700 nm-1 mm, used in thermal imaging. Visible: 400-700 nm, enables vision. UV: 10-400 nm, used in sterilization. X-rays: 0.01-10 nm, used in medical imaging. Gamma: lambda < 0.01 nm, used in cancer therapy.",
+   "key_idea": "Each region of the EM spectrum has specific uses: radio waves for AM/FM radio and TV; microwaves for radar, satellite communication, and microwave ovens; infrared for remote controls and thermal cameras; visible light for vision and photography; UV for sterilization and fluorescent lamps; X-rays for medical imaging and crystallography; gamma rays for cancer treatment and sterilization.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Identify the EM wave used for a given application (e.g., radar, MRI, sterilization).",
+    "Explain why X-rays are used for medical imaging but radio waves are not.",
+    "State the production mechanism for a given EM wave (e.g., gamma rays from nuclear transitions).",
+    "Compare the penetrating power of different EM waves through various materials.",
+    "Match a wavelength range to the corresponding EM wave and its typical use."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the application or property mentioned in the question and relate it to the EM spectrum.",
+     "explain": "Determine which region of the EM spectrum is associated with the given application or property. Recall the wavelength/frequency ranges and typical uses of each region.",
+     "compute": ""
+    },
+    {
+     "step": 2,
+     "action": "State the properties of the identified EM wave (wavelength range, penetrating power, production mechanism).",
+     "explain": "Describe the relevant physical properties such as wavelength range, frequency, how the wave is produced, and its penetrating ability.",
+     "compute": ""
+    },
+    {
+     "step": 3,
+     "action": "Explain why the identified EM wave is suitable for the given application.",
+     "explain": "Connect the physical properties to the practical use. For example, X-rays penetrate soft tissue but are absorbed by bones, making them suitable for imaging skeletal structures.",
+     "compute": ""
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why are X-rays used for medical imaging while radio waves are not?",
+     "solution": "X-rays have very short wavelengths (0.01-10 nm) and high energy, which allows them to penetrate soft tissues but be partially absorbed by denser materials like bones, creating contrast in images. Radio waves have long wavelengths (>0.1 m) and low energy, so they pass through the body without significant absorption or contrast, making them unsuitable for imaging internal structures.",
+     "answer": "X-rays have high penetrating power and create tissue contrast; radio waves pass through without contrast"
+    },
+    {
+     "question": "Name the EM waves used in the following applications: (a) radar, (b) remote control, (c) sterilizing surgical instruments, (d) cancer radiotherapy.",
+     "solution": "(a) Radar uses microwaves (wavelength ~1 cm). (b) Remote controls use infrared waves (wavelength ~940 nm). (c) Sterilizing surgical instruments uses UV rays or gamma rays. (d) Cancer radiotherapy uses gamma rays (from Co-60 or linear accelerators).",
+     "answer": "(a) Microwaves, (b) Infrared, (c) UV/Gamma rays, (d) Gamma rays"
+    },
+    {
+     "question": "What is the production mechanism of gamma rays and X-rays?",
+     "solution": "Gamma rays are produced by radioactive decay of atomic nuclei (nuclear transitions). X-rays are produced when high-energy electrons strike a metal target and undergo rapid deceleration (Bremsstrahlung) or when inner-shell electrons transition between energy levels (characteristic X-rays).",
+     "answer": "Gamma rays: nuclear transitions; X-rays: electron transitions in inner shells or Bremsstrahlung"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how infrared waves are used in night vision devices and thermal imaging cameras.",
+     "type": "verify_property"
+    },
+    {
+     "question": "State two uses each of radio waves, microwaves, ultraviolet rays, and X-rays.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jeph.8.8",
+   "title": "Production and Detection of Electromagnetic Waves",
+   "section": "8.3",
+   "definition": "Electromagnetic waves are produced by accelerating or oscillating charges. An oscillating dipole (such as an LC oscillator connected to an antenna) radiates EM waves. Detection involves antennas that intercept EM waves and induce oscillating currents that can be amplified and processed.",
+   "formula": "Frequency of oscillation: f = 1/(2*pi*sqrt(L*C)) for an LC circuit. The radiated EM wave has the same frequency as the oscillating charge. Power radiated by an oscillating dipole: P proportional to (omega^4 * p_0^2), where p_0 is the dipole moment amplitude.",
+   "key_idea": "Hertz experimentally demonstrated the existence of EM waves using an oscillator (spark gap transmitter) and a detector (resonant loop). EM waves are produced when charges accelerate; stationary or uniformly moving charges do not radiate. Detection relies on resonance between the incoming wave and the receiving antenna circuit.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain how an LC oscillator produces electromagnetic waves.",
+    "Describe Hertz's experiment for the production and detection of EM waves.",
+    "Calculate the frequency of EM waves produced by an LC oscillator given L and C.",
+    "Explain why accelerating charges produce EM waves but stationary charges do not.",
+    "Describe the role of resonance in the detection of EM waves by a receiver."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the given circuit parameters (L, C) or the type of question (descriptive or computational).",
+     "explain": "For computational problems, extract the inductance L and capacitance C of the LC oscillator. For descriptive questions, identify the key components of the production or detection setup.",
+     "compute": "L in henries (H), C in farads (F)"
+    },
+    {
+     "step": 2,
+     "action": "Apply the LC oscillation frequency formula f = 1/(2*pi*sqrt(L*C)) or describe the physical process.",
+     "explain": "The frequency of the EM wave equals the oscillation frequency of the charge in the antenna. For descriptive questions, explain that accelerating charges produce time-varying E and B fields that propagate as EM waves.",
+     "compute": "f = 1/(2*pi*sqrt(L*C))"
+    },
+    {
+     "step": 3,
+     "action": "Compute the frequency/wavelength of the produced EM wave or explain the detection mechanism.",
+     "explain": "State the frequency with proper units. For detection, explain that the receiving antenna is tuned to resonate at the same frequency as the incoming EM wave, maximizing the induced current.",
+     "compute": "lambda = c/f, where c = 3 x 10^8 m/s"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "An LC oscillator has L = 10 mH and C = 1 microF. Calculate the frequency of the EM waves produced.",
+     "solution": "Given: L = 10 mH = 10 x 10^-3 H, C = 1 microF = 1 x 10^-6 F. Frequency f = 1/(2*pi*sqrt(L*C)) = 1/(2*pi*sqrt(10 x 10^-3 x 1 x 10^-6)) = 1/(2*pi*sqrt(10^-8)) = 1/(2*pi x 10^-4) = 1/(6.283 x 10^-4) = 1591 Hz ≈ 1.59 kHz.",
+     "answer": "f ≈ 1.59 kHz"
+    },
+    {
+     "question": "Describe Hertz's experiment for the production and detection of electromagnetic waves.",
+     "solution": "Hertz used a spark gap transmitter consisting of two metal spheres connected to an induction coil. When high voltage was applied, sparks jumped the gap, causing oscillating charges that radiated EM waves. For detection, he used a circular loop of wire with a small gap, tuned to the same frequency. When EM waves reached the detector loop, they induced oscillating currents, visible as sparks across the gap. This demonstrated the existence of EM waves predicted by Maxwell.",
+     "answer": "Hertz used a spark gap transmitter and a resonant detector loop to produce and detect EM waves"
+    },
+    {
+     "question": "Why do stationary or uniformly moving charges not emit electromagnetic waves?",
+     "solution": "Electromagnetic waves are produced only by accelerating charges. Stationary charges produce only static electric fields (Coulomb's law), and uniformly moving charges produce steady magnetic fields (Ampere's law). Neither produces time-varying fields that can propagate as waves. Only acceleration causes the fields to change with time, creating the self-sustaining, propagating E and B field disturbances that constitute EM waves.",
+     "answer": "Only accelerating charges produce time-varying fields that propagate as EM waves; stationary/uniform charges produce static fields"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "An LC circuit has L = 8 mH and C = 2 microF. Find the frequency and wavelength of the EM waves produced.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain the role of resonance in the detection of electromagnetic waves and why the receiver must be tuned to the transmitter frequency.",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_02_002",
+   "title": "c10_geo_cbse_02_002",
+   "questions": [
+    {
+     "q": "Name the category for a species that is found only in the Western Ghats and nowhere else in the world, but has a stable population of 50,000 individuals.",
+     "a": "Correct answer: Endemic. A wrong answer of \"Normal\" reveals the student thinks classification depends only on population size, ignoring geographic restriction. A wrong answer of \"Rare\" reveals confusion between small population and restricted range — endemic species can have large populations within their limited range.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Asiatic Lion (Panthera leo persica) is classified as Endemic while the Indian Elephant (Elephas maximus indicus) is classified as Endangered, even though both have small populations.",
+     "a": "Correct answer: Asiatic Lion is endemic because its entire wild population exists only in Gir Forest, Gujarat — a single geographic location. Indian Elephant is endangered because its population has declined sharply due to habitat loss and poaching across its former wide range (across India, Nepal, Bhutan, Bangladesh), meeting the \"very high risk of extinction\" criterion. A wrong answer that calls both \"Endangered\" shows the student conflates small population with endemism. A wrong answer that calls the lion \"Endangered\" only (ignoring endemism) misses the dual classification possibility — a species can be both endemic AND endangered.",
+     "self_check": true
+    },
+    {
+     "q": "Given the data below, classify each species into the correct category. Show your reasoning.\nSpecies A: Population 2,000, declining at 20% per decade, found in 5 isolated patches in Central India.\nSpecies B: Population 50,000, stable, found across the Himalayan foothills from J&K to Arunachal.\nSpecies C: Population 300, stable, found only in Silent Valley National Park, Kerala.\nSpecies D: Population 15,000, declining at 10% per decade, found in Western Ghats and Sri Lanka.",
+     "a": "Correct classification with reasoning:\n- Species A: Endangered — small population (2,000), rapid decline (20%/decade), fragmented range (5 patches) → very high extinction risk.\n- Species B: Normal — large population (50,000), stable, wide distribution → not threatened.\n- Species C: Endemic AND Rare — restricted to one location (Silent Valley), very small population (300) but stable → meets both endemic (geographic restriction) and rare (small population) criteria.\n- Species D: Vulnerable — moderate population (15,000), declining (10%/decade), restricted to Western Ghats and Sri Lanka → high risk but not yet \"very high\".\nA wrong answer classifying Species C only as \"Rare\" misses the endemic criterion. Classifying Species D as \"Endangered\" overestimates threat — 10% decline per decade is Vulnerable threshold, not Endangered.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the conservation implications for an Endemic species versus an Endangered species with a wide historical range. Why might an Endemic species with a stable population still need urgent protection?",
+     "a": "Correct answer: An endemic species (e.g., Nilgiri Tahr) exists only in one small area — a single disease outbreak, fire, or habitat change can wipe out the entire global population. An endangered wide-ranged species (e.g., Tiger) has multiple populations; loss of one population doesn't mean global extinction. Endemic species need urgent protection because they have no \"backup\" populations elsewhere — their entire evolutionary history is concentrated in one location. A wrong answer saying \"endemic species are safer because they are adapted\" ignores stochastic extinction risk. A wrong answer focusing only on population size misses the geographic concentration risk.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If we protect all Endangered species, we automatically protect all Endemic species.\" Is this true for India? Justify with examples.",
+     "a": "Correct evaluation: False. Many endemic species are not endangered (e.g., Purple Frog in Western Ghats — endemic but currently stable). Protecting only endangered species would miss these endemics, which could become endangered rapidly due to their restricted range. Conversely, some endangered species (e.g., Gangetic Dolphin) are not endemic — they have ranges extending beyond India. Conservation must target both categories separately. A wrong answer of \"True\" reveals the student thinks categories are hierarchical (endemic ⊂ endangered) rather than independent criteria. A wrong answer ignoring Indian examples shows lack of applied knowledge.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page \"Species Alert Card\" for a hypothetical species discovered in the Andaman Islands. Include: name, category (choose one), population estimate, geographic range, two major threats, and one specific conservation action. Justify your category choice using the classification criteria.",
+     "a": "Expected answer: A well-structured card for e.g., \"Andaman Banded Gecko\" — Category: Endemic (found only in Andamans), Population: 2,500, Range: 3 islands in North Andaman, Threats: invasive species (rats), tourism development, Action: declare habitat as Community Reserve under Wildlife Protection Act. Justification: \"Endemic because restricted to Andamans; not Endangered because population stable and no rapid decline observed.\" Poor answer: chooses category without justification, omits geographic restriction for endemic, or suggests generic action like \"plant trees\" without linking to specific threats.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

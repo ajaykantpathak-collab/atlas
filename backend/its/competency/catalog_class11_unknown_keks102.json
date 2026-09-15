@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "english",
+  "chapter": 102,
+  "chapter_title": "Philosophy in India",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keks102.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keks102.1.1",
+      "title": "The Questions of Philosophy: Universe, Self and the Creator",
+      "section": "1.1",
+      "definition": "Philosophy begins in wonder: looking at the earth, moon, stars, mountains and the cycle of birth and death, human beings ask who created these and who controls them. Indian philosophical discourse names its central concerns metaphysical -- atman (the self), srishti (the universe) and the nature of ultimate reality.",
+      "formula": "",
+      "key_idea": "Wonder is the first philosopher -- questions about the universe, the self and their source open all Indian thought.",
+      "textbook_ref": "keks102.txt opening sections (wonder at creation, metaphysical concepts atman srishti, nature of self, philosophical discourse)",
+      "question_patterns": [
+        "what basic questions gave rise to philosophy in india",
+        "in class 11 philosophy chapter: what do atman and srishti mean",
+        "why is philosophy said to begin in wonder",
+        "list the metaphysical concerns of indian philosophy",
+        "explain the search for the nature of self",
+        "how do questions about creation lead to philosophical systems"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "start from the spectacle",
+          "explain": "The chapter opens with the seen world -- skies, seasons, life and death -- provoking the question of its source and control."
+        },
+        {
+          "step": 2,
+          "action": "name the abstractions",
+          "explain": "The questioning matures into metaphysics: atman, srishti, and the relation of self to ultimate reality."
+        },
+        {
+          "step": 3,
+          "action": "see the systems form",
+          "explain": "Sustained discourse on these questions crystallised into India's philosophical schools."
+        }
+      ]
+    },
+    {
+      "id": "keks102.1.2",
+      "title": "The Vedic Roots and Schools of Indian Philosophy",
+      "section": "1.2",
+      "definition": "Indian philosophical schools grew from Vedic discourse and diversified into parallel traditions -- systems that accept Vedic authority and those that do not, debating matter, consciousness, knowledge and liberation. The chapter presents this plurality as reasoned argument rather than fixed dogma.",
+      "formula": "",
+      "key_idea": "One Vedic root, many branches -- Indian philosophy is a family of argued schools, not a single creed.",
+      "textbook_ref": "keks102.txt school sections (vedas, orthodox and heterodox schools, debate traditions, schools of indian philosophy)",
+      "question_patterns": [
+        "name the major schools of indian philosophy",
+        "in class 11 philosophy chapter: what distinguishes orthodox from heterodox schools",
+        "how did the vedas influence indian philosophical traditions",
+        "why is debate central to indian philosophy",
+        "compare any two schools on the nature of the self",
+        "what questions do the schools share despite differences"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "trace the roots",
+          "explain": "The Vedas supply the earliest layer of reflection on reality, duty and liberation."
+        },
+        {
+          "step": 2,
+          "action": "branch the schools",
+          "explain": "Accepting or rejecting Vedic authority, schools arise -- each a coherent answer-set to the shared questions."
+        },
+        {
+          "step": 3,
+          "action": "honour the debate",
+          "explain": "Schools argued with one another publicly, so philosophy advanced as dialogue, not decree."
+        }
+      ]
+    },
+    {
+      "id": "keks102.1.3",
+      "title": "Philosophy as a Way of Living",
+      "section": "1.3",
+      "definition": "Indian philosophy never stayed academic: each system carried ethical consequences for daily living -- duties, self-discipline and paths toward liberation. Its questions about knowledge, right action and the self aimed at a life examined and transformed, not merely a worldview admired.",
+      "formula": "",
+      "key_idea": "Philosophy here is practice -- every school is also a discipline for living, not just a theory.",
+      "textbook_ref": "keks102.txt living sections (ethics, duties, paths of liberation, discipline, philosophy in daily life)",
+      "question_patterns": [
+        "how does indian philosophy guide daily living",
+        "in class 11 philosophy chapter: what is meant by liberation as a goal",
+        "connect any philosophical school to its ethical practice",
+        "why is self discipline stressed in indian traditions",
+        "what duties flow from philosophical understanding",
+        "show how knowledge and action join in indian thought"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "link theory to ethics",
+          "explain": "Each view of the self and world implies duties -- how to act, what to renounce."
+        },
+        {
+          "step": 2,
+          "action": "point to liberation",
+          "explain": "The systems share a horizon of freedom from bondage, reached through knowledge, action or devotion."
+        },
+        {
+          "step": 3,
+          "action": "live the philosophy",
+          "explain": "Disciplines of conduct turn doctrine into daily practice -- the test of philosophy is the changed life."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keks102.txt opening sections",
+      "concept": "keks102.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "The chapter opens with the starry sky and the cycle of life and death. Explain how such observation matures into metaphysics.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "begin with wonder",
+          "explain": "Observation first asks simple questions: who made this, who controls it?"
+        },
+        {
+          "step": 2,
+          "action": "form the concepts",
+          "explain": "Sustained questioning names its objects -- atman for the self, srishti for the universe."
+        },
+        {
+          "step": 3,
+          "action": "enter the discourse",
+          "explain": "When answers are argued systematically, metaphysics -- and philosophy -- has begun."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keks102.txt living sections",
+      "concept": "keks102.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "A friend says philosophy is useless book-talk. Use the chapter's view of philosophy as a way of living to answer.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "grant the theory point",
+          "explain": "Yes, philosophy argues about self and universe -- but that is only half."
+        },
+        {
+          "step": 2,
+          "action": "show the practice half",
+          "explain": "Each school prescribes disciplines: duties, self-control, paths toward liberation."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "In India philosophy is tested in living; done rightly, it changes the philosopher, not just the bookshelf."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keks102.txt end-of-chapter questions, reworded",
+      "questions": [
+        "What questions gave rise to philosophical thought in India?",
+        "Explain the terms atman and srishti.",
+        "Name the schools of Indian philosophy and classify them.",
+        "Why is debate important in the Indian philosophical tradition?",
+        "Show how a philosophical school shapes daily ethical life.",
+        "What is meant by liberation in Indian thought?"
+      ]
+    }
+  ]
+}

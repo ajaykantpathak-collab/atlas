@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_22_003",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_22_003",
+   "title": "c11_geo_cbse_22_003",
+   "questions": [
+    {
+     "q": "Define Representative Fraction (R.F.) and explain why it is called a \"universal method\" of scale.",
+     "a": "R.F. is a unitless ratio (e.g., 1:50,000) showing that 1 unit on the map equals 50,000 of the same units on the ground. It is universal because it works with any measurement system — a user familiar with metric reads it as 1 cm = 50,000 cm, while one using English system reads it as 1 inch = 50,000 inches — without conversion. A wrong answer (e.g., \"R.F. is always in cm/km\") reveals the student confuses R.F. with Statement of Scale and misses the unitless nature that enables cross-system usability.",
+     "self_check": true
+    },
+    {
+     "q": "A map has a Statement of Scale: \"2 cm represents 1 km\". If this map is reduced to half its original size during photocopying, what happens to the accuracy of the Statement of Scale, the R.F., and the Graphical Scale? Explain why.",
+     "a": "The Statement of Scale and R.F. become invalid because the map distances have halved while the statements still claim the original relationship. The Graphical Scale remains accurate because it shrinks proportionally with the map — the bar divisions still correctly represent ground distances. A wrong answer (e.g., \"all three become wrong\" or \"only R.F. survives\") reveals the student doesn't understand that graphical scale is a visual ratio that scales with the map, while verbal/numeric scales are fixed declarations that don't auto-adjust.",
+     "self_check": true
+    },
+    {
+     "q": "Convert the Statement of Scale \"3 cm represents 1.5 km\" into Representative Fraction. Show all steps including unit conversions.",
+     "a": "Step 1: Write the statement as a ratio: 3 cm (map) : 1.5 km (ground).\nStep 2: Convert ground distance to same unit (cm): 1.5 km = 1.5 × 1000 m = 1500 m = 1500 × 100 cm = 150,000 cm.\nStep 3: Express as fraction: 3 cm / 150,000 cm.\nStep 4: Simplify to numerator 1: divide both by 3 → 1 / 50,000.\nAnswer: R.F. = 1:50,000.\nA wrong answer (e.g., 1:150,000 or 1:5,000) reveals unit conversion errors (forgetting km→m→cm) or failure to normalize numerator to 1.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the three scale methods for a map that will be: (a) printed in a textbook and never resized, (b) used as a base map for GIS digitization where users zoom in/out digitally, (c) distributed as a field map for hikers who may photocopy it. Which method is optimal for each case and why?",
+     "a": "(a) Textbook: Statement of Scale is sufficient — simple to read, no resizing occurs.\n(b) GIS digitization: R.F. is optimal — unitless, integrates with software coordinate systems, allows mathematical scaling at any zoom level.\n(c) Field map for hikers: Graphical Scale is essential — survives photocopying, resizing, and wear; readable without calculation in field conditions.\nA wrong answer (e.g., recommending Statement for field maps) reveals the student hasn't internalized the practical implications of scale invariance under reproduction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"For a world map showing global migration patterns, an R.F. of 1:50,000,000 is more appropriate than 1:50,000.\" Justify with reference to scale classification (large vs. small scale) and map purpose.",
+     "a": "The claim is correct. 1:50,000,000 is a small-scale ratio (large denominator) suitable for world maps showing broad patterns — it covers vast area with low detail. 1:50,000 is a large-scale ratio (small denominator) for topographic sheets showing local detail — it would require an impossibly huge sheet for a world map. A wrong evaluation (reversing large/small scale terminology or ignoring map purpose) reveals confusion between \"large scale = large area\" (a common semantic error) and the mathematical reality that large scale = large fraction = small denominator = detailed local view.",
+     "self_check": true
+    },
+    {
+     "q": "Design a graphical scale for a map with R.F. 1:250,000 that reads distances in kilometres and metres. The final bar must be exactly 12 cm long. Specify: total ground distance represented, primary division values, and secondary division values.",
+     "a": "R.F. 1:250,000 means 1 cm = 250,000 cm = 2.5 km.\n12 cm on map = 12 × 2.5 km = 30 km ground distance.\nChoose round number: 20 km (leaves room for secondary divisions).\nLength for 20 km: (20 km / 30 km) × 12 cm = 8 cm.\nPrimary divisions: 8 cm line divided into 4 parts → each 2 cm = 5 km.\nSecondary divisions: Leftmost 2 cm divided into 5 parts → each 0.4 cm = 1 km = 1000 m.\nA poor answer (e.g., not simplifying to round numbers, wrong secondary unit) reveals inability to balance mathematical precision with practical readability — a key cartographic skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

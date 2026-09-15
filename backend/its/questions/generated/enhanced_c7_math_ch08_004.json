@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch08_004",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch08_004",
+   "title": "c7_math_ch08_004",
+   "questions": [
+    {
+     "q": "What is the reciprocal of the fraction $\\frac{5}{9}$?",
+     "a": "The correct answer is $\\frac{9}{5}$. A wrong answer like $-\\frac{5}{9}$ or $\\frac{5}{9}$ reveals that the student is confusing the reciprocal with the additive inverse (negative) or mistaking it for the original fraction itself, failing to understand that a reciprocal requires swapping the numerator and denominator.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the operation of dividing by a fraction $\\frac{3}{4}$ is mathematically equivalent to multiplying by its reciprocal $\\frac{4}{3}$.",
+     "a": "The correct answer is that division asks how many groups of the divisor fit into the dividend. By scaling both the dividend and the divisor by the reciprocal of the divisor, the divisor becomes 1, transforming the division of fractions into a simpler multiplication problem where the denominator becomes 1. A wrong answer suggests that students only memorize the \"keep-change-flip\" trick without comprehending that multiplication and division are inverse operations acting on equivalent fractions.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the value of $\\frac{7}{8} \\div \\frac{3}{4}$ and express it in simplest form.",
+     "a": "The correct answer is $\\frac{7}{6}$ or $1\\frac{1}{6}$. Working steps: 1) Keep the first fraction $\\frac{7}{8}$. 2) Change the division sign ($\\div$) to multiplication ($\\times$). 3) Flip the second fraction $\\frac{3}{4}$ to its reciprocal $\\frac{4}{3}$. 4) Multiply numerators and denominators: $\\frac{7 \\times 4}{8 \\times 3} = \\frac{28}{24}$. 5) Simplify by dividing numerator and denominator by 4 to get $\\frac{7}{6}$. A wrong answer like $\\frac{21}{32}$ reveals that the student multiplied straight across without flipping the second fraction.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following two expressions: Expression A is $\\frac{5}{6} \\div \\frac{2}{3}$ and Expression B is $\\frac{2}{3} \\div \\frac{5}{6}$. Without fully computing both values to decimals, determine which expression yields a larger number and explain why using the properties of fraction division.",
+     "a": "Expression A yields a larger number ($\\frac{15}{12}$ or $\\frac{5}{4}$) compared to Expression B ($\\frac{12}{15}$ or $\\frac{4}{5}$). This is because dividing a larger fraction by a smaller fraction results in a quotient greater than 1, whereas reversing the order in Expression B creates a reciprocal division problem that results in a proper fraction less than 1. A wrong answer indicates a lack of analytical understanding of order properties in non-commutative operations like division.",
+     "self_check": true
+    },
+    {
+     "q": "A student evaluates the expression $2\\frac{1}{3} \\div 1\\frac{1}{6}$ by doing the following: First, they change mixed numbers to improper fractions: $\\frac{7}{3} \\div \\frac{7}{6}$. Second, they flip the *first* fraction and keep the second: $\\frac{3}{7} \\times \\frac{7}{6} = \\frac{21}{42} = \\frac{1}{2}$. Evaluate this solution, identify any errors, and state the correct answer.",
+     "a": "The student made an error in step two by flipping the first fraction instead of the divisor (the second fraction). The correct procedure requires keeping the first fraction ($\\frac{7}{3}$) and flipping the second fraction ($\\frac{7}{6}$ to $\\frac{6}{7}$). The correct working is $\\frac{7}{3} \\times \\frac{6}{7} = \\frac{42}{21} = 2$. A wrong answer shows the student cannot spot procedural placement errors in multi-step fraction operations.",
+     "self_check": true
+    },
+    {
+     "q": "Create a division problem involving two different mixed fractions whose final quotient simplifies to exactly $3$. Show the complete working to prove your answer.",
+     "a": "A valid student response will construct an expression such as $4\\frac{1}{2} \\div 1\\frac{1}{2}$. Working proof: Convert to improper fractions $\\frac{9}{2} \\div \\frac{3}{2}$. Multiply by the reciprocal: $\\frac{9}{2} \\times \\frac{2}{3} = \\frac{18}{6} = 3$. A poor response provides random numbers that do not divide evenly to 3, or fails to show the conversion and reciprocal steps.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

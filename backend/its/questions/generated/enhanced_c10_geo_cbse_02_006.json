@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_02_006",
+   "title": "c10_geo_cbse_02_006",
+   "questions": [
+    {
+     "q": "What is the legal basis for classifying forests into Reserved, Protected, and Unclassed categories in India?",
+     "a": "The Indian Forest Act, 1927 provides the legal framework for this three-fold classification. A wrong answer (e.g., \"Wildlife Protection Act\" or \"Forest Conservation Act\") reveals the student confuses forest *administrative categories* with *conservation legislation* — a critical distinction because the 1927 Act governs resource extraction rights, while the 1972 and 1980 Acts focus on wildlife protection and diversion of forest land respectively.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the government designate some forests as 'Reserved' and others as 'Protected' if both aim to conserve forests?",
+     "a": "Reserved Forests are declared in ecologically critical or commercially valuable areas where the state needs absolute control (e.g., catchment areas, high-value timber). Protected Forests allow pre-existing community rights (grazing, minor produce collection) to continue, balancing conservation with livelihood needs. A wrong answer stating \"Reserved Forests are bigger\" or \"Protected Forests have more wildlife\" reveals the student mistakes *legal stringency* for *physical or ecological attributes* — the classification is about *rights and restrictions*, not size or biodiversity.",
+     "self_check": true
+    },
+    {
+     "q": "A village in Odisha lies adjacent to a forest notified as 'Protected Forest'. The villagers want to collect tendu leaves (for beedi making) and graze cattle. The Forest Department says they need a permit. Using the legal definitions, explain whether the villagers' claim is valid.",
+     "a": "**Step 1:** Recall definition — Protected Forests allow rights *unless prohibited* by notification.  \n**Step 2:** Check if the specific notification for that forest prohibits tendu collection/grazing.  \n**Step 3:** If no prohibition exists, villagers' traditional rights prevail; permit requirement would be illegal.  \n**Step 4:** If a notification *does* prohibit these activities, the permit rule stands.  \n**Answer:** The claim is valid *only if* the state government has not issued a specific notification banning these activities in that Protected Forest. A wrong answer (\"Protected Forests always allow free access\") shows the student misses the crucial clause \"unless prohibited by notification\" — a classic board exam trap where the *default rule* is reversed by *specific orders*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the percentage of Reserved Forests in Madhya Pradesh (approx. 60% of state's forest area) and Kerala (approx. 30%). What geographical and historical factors explain this difference?",
+     "a": "Madhya Pradesh has large contiguous central Indian teak/sal forests historically exploited for railway sleepers and timber — the British declared vast tracts as Reserved Forests for revenue. Kerala's forests are fragmented, biodiversity-rich Western Ghats patches with high population density; more areas were left as Protected/Unclassed to accommodate settlements and plantations. A wrong answer citing only \"rainfall\" or \"soil\" ignores the *colonial resource extraction history* and *post-independence land-use pressures* that drove legal classification — the board expects linking physical geography with historical-political economy.",
+     "self_check": true
+    },
+    {
+     "q": "\"Unclassed Forests are degraded wastelands with no conservation value.\" Evaluate this statement.",
+     "a": "**False.** Unclassed Forests include Northeast India's community-managed forests (e.g., Nagaland, Meghalaya) with high biodiversity and sacred groves. They lack *legal notification*, not ecological value. In fact, many Unclassed Forests under traditional tribal management (e.g., Village Safety Reserves) show better conservation than some Reserved Forests. A wrong answer agreeing with the statement reveals the student equates \"unclassed\" with \"unimportant\" — missing the critical distinction between *legal status* and *ecological quality*, a frequent error in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page comparison table for a Class 10 student that clearly distinguishes Reserved, Protected, and Unclassed Forests on five parameters: Legal Basis, Default Rule on Activities, Community Rights, State Control Level, and Typical Examples (one state each).",
+     "a": "A good table uses the *default rule* as the pivot: Reserved = \"Prohibited unless permitted\"; Protected = \"Permitted unless prohibited\"; Unclassed = \"No uniform rule, varies by state/custom\". Community Rights: Reserved = None (except settled rights); Protected = Recorded rights continue; Unclassed = Often extensive customary rights. State Control: Reserved = Highest; Protected = Moderate; Unclassed = Lowest/Community. Examples: Reserved — Madhya Pradesh; Protected — Himachal Pradesh; Unclassed — Meghalaya. A poor table copies definitions verbatim without contrasting the *operational logic* — the board rewards comparative analysis, not rote reproduction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

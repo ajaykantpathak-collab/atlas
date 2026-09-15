@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch5_7",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch5_7",
+   "title": "c9_physics_ch5_7",
+   "questions": [
+    {
+     "q": "Define frequency and state its unit. How does frequency affect pitch?",
+     "a": "Frequency is the number of oscillations (or compressions) per second. Its unit is hertz (Hz). Higher frequency means higher pitch (e.g., a whistle at 2000 Hz is higher-pitched than a drum at 100 Hz). Lower frequency means lower pitch. A wrong answer (e.g., \"frequency is how fast sound travels\") confuses frequency with speed — frequency is oscillations per second, not distance per second.",
+     "self_check": true
+    },
+    {
+     "q": "Define amplitude and explain how it affects loudness.",
+     "a": "Amplitude is the maximum displacement of particles from their rest position during vibration. Greater amplitude means louder sound (more energy). Smaller amplitude means quieter sound. Amplitude does not affect pitch — a loud and quiet sound can have the same frequency. A wrong answer (e.g., \"amplitude is the height of the wave\") is partially correct but must connect to loudness — amplitude determines loudness, not just \"height.\"",
+     "self_check": true
+    },
+    {
+     "q": "State the relationship between speed, frequency, and wavelength. If a sound has frequency 340 Hz and speed 340 m/s, what is its wavelength?",
+     "a": "Speed = frequency * wavelength (v = f * lambda). So lambda = v/f = 340/340 = 1 m. The wavelength is 1 meter. A wrong answer (e.g., lambda = f/v = 340/340 = 1) happens to give the same number but uses the wrong formula — the correct relationship is v = f * lambda, so lambda = v/f.",
+     "self_check": true
+    },
+    {
+     "q": "Define time period and state its relationship to frequency.",
+     "a": "Time period (T) is the time for one complete oscillation. Its unit is seconds. Relationship: T = 1/f, where f is frequency. If f = 50 Hz, T = 1/50 = 0.02 s. A wrong answer (e.g., \"T = f\") inverts the relationship — period is the reciprocal of frequency, not equal to it.",
+     "self_check": true
+    },
+    {
+     "q": "A sound wave has frequency 500 Hz and speed 340 m/s. Calculate its wavelength and time period.",
+     "a": "Wavelength: lambda = v/f = 340/500 = 0.68 m. Time period: T = 1/f = 1/500 = 0.002 s. A wrong answer (e.g., lambda = 500/340) inverts the formula — lambda = v/f, not f/v.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Higher amplitude means higher pitch.\" Evaluate this statement and correct it.",
+     "a": "The statement is incorrect. Amplitude determines loudness, not pitch. Frequency determines pitch. A high-amplitude, low-frequency sound (loud drum) is low-pitched but loud. A low-amplitude, high-frequency sound (quiet whistle) is high-pitched but quiet. The correct statement: \"Higher amplitude means louder sound; higher frequency means higher pitch.\" A wrong evaluation (agreeing with the student) confuses amplitude (loudness) with frequency (pitch).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

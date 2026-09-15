@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch11_120",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch11_120",
+   "title": "c6_math_ch11_120",
+   "questions": [
+    {
+     "q": "What tool would you use to accurately measure the \"amount of turn\" between two walls that meet at a corner?",
+     "a": "A protractor. If a student answers \"ruler,\" they are confusing linear length with angular rotation, which is a common error because both tools are found in a geometry box.",
+     "self_check": true
+    },
+    {
+     "q": "If a carpenter needs to ensure two pieces of wood are placed at a \"right angle,\" what is the degree measurement they are aiming for?",
+     "a": "90°. If a student says 180° (a straight line) or any other number, they have not yet grasped that a right angle represents a specific quarter-turn.",
+     "self_check": true
+    },
+    {
+     "q": "You are asked to draw a path for a toy car that makes a 45° turn. How would you start this using a ruler and protractor?",
+     "a": "First, draw a straight line (the base ray) using the ruler. Place the protractor center on the start point, align the zero mark with the line, mark 45° on the paper, and then use the ruler to draw a line from the start point through that mark. Wrong answers often involve skipping the alignment step, revealing a misunderstanding of how to \"zero\" the tool.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the use of a ruler and a compass in construction. When would you need a compass instead of a ruler?",
+     "a": "A ruler is for measuring or drawing straight lines (distance), whereas a compass is for drawing arcs or circles (fixed distance from a point). A student might wrongly think a compass is just for drawing circles, missing its role in transferring equal distances or bisecting angles.",
+     "self_check": true
+    },
+    {
+     "q": "An architect designs a window and says the corners must be 90°. If you measure one corner and get 85°, is the design correct? Why or why not?",
+     "a": "No, it is not correct because a 90° angle is a specific \"right angle\" required for square structures; 85° is an acute angle, which would leave the window frame skewed. This tests if the student understands that geometric precision is critical for physical stability.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple \"garden path\" map on paper using two lines that intersect. How would you use a protractor to show the angle of the turn?",
+     "a": "The student should draw two intersecting line segments and place the protractor center at the intersection point to mark the degree of the opening. A poor answer would just draw random lines without defining the vertex or measuring the turn.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

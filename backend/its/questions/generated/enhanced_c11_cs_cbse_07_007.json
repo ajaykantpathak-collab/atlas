@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_07_007",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_07_007",
+   "title": "c11_cs_cbse_07_007",
+   "questions": [
+    {
+     "q": "What are the two mandatory characteristics of a valid dictionary key in Python, and why is a list not allowed as a key?",
+     "a": "A valid key must be **hashable** and **immutable** (e.g., str, int, float, tuple of immutables). Lists are mutable (can be changed after creation), so their hash value could change, breaking the dictionary's internal hash table lookup mechanism. If a student says \"lists can't be keys because they're not hashable\" without mentioning mutability, they're missing the root cause: mutability prevents stable hashing.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why dictionaries are called \"mappings\" and how this differs from sequences like lists and tuples.",
+     "a": "Dictionaries map **arbitrary keys** to values (key → value), while sequences map **integer indices** (0, 1, 2...) to values. A list is a position-based mapping; a dictionary is a semantic mapping. If a student says \"dictionaries use keys instead of indexes\" but doesn't contrast the *nature* of the mapping (semantic vs positional), they haven't fully grasped the abstraction shift.",
+     "self_check": true
+    },
+    {
+     "q": "Given `d = {\"math\": 95, \"science\": 88, \"english\": 92}`, write code to create a new dictionary `d2` that contains only the subjects where marks are ≥ 90, using a dictionary comprehension.",
+     "a": "```python\nd2 = {subject: marks for subject, marks in d.items() if marks >= 90}\n```\nResult: `{'math': 95, 'english': 92}`. If a student writes a for-loop with `if` and manual assignment, they haven't internalized the comprehension syntax — a key skill for board exams. If they use `d.keys()` or `d.values()` alone, they miss that `items()` is needed for simultaneous key-value access.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the memory and time complexity of looking up a value by key in a dictionary vs. finding a value in a list of tuples `[(\"math\", 95), (\"science\", 88)]`. Why is the dictionary faster for large datasets?",
+     "a": "Dictionary lookup is **O(1) average case** (hash table), while list of tuples requires **O(n) linear search**. Dictionaries compute hash(key) → direct memory address; lists scan sequentially. If a student says \"dictionaries are faster because they use hashing\" but can't explain *why* hashing gives O(1) (direct addressing vs scanning), they're stating a fact without understanding the mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `marks = {[\"math\", \"science\"]: 95}` and gets a `TypeError`. They argue: \"But tuples work as keys, and lists are just mutable tuples — this is inconsistent.\" Evaluate this argument.",
+     "a": "The argument is **invalid**. Consistency in Python is based on **hashability**, not structural similarity. Tuples are immutable → hashable → valid keys. Lists are mutable → not hashable → invalid keys. The design choice prioritizes **correctness of hash-based lookup** over syntactic similarity. If a student agrees with the argument, they confuse \"similar structure\" with \"same semantic guarantees\" — a classic category error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a dictionary to represent a student's report card for Term 1 that can store: subject names, marks (out of 100), letter grades (A1, A2, B1...), and teacher remarks. The structure must allow easy retrieval of all data for one subject and easy calculation of average marks. Justify your key choice.",
+     "a": "```python\nreport = {\n    \"math\": {\"marks\": 95, \"grade\": \"A1\", \"remark\": \"Excellent\"},\n    \"science\": {\"marks\": 88, \"grade\": \"A2\", \"remark\": \"Good\"},\n    \"english\": {\"marks\": 92, \"grade\": \"A1\", \"remark\": \"Very Good\"}\n}\n```\nKeys = subject names (strings) — immutable, meaningful, unique. Values = nested dictionaries for structured data. Average = `sum(v[\"marks\"] for v in report.values()) / len(report)`. If a student uses a list of dictionaries `[{\"subject\": \"math\", ...}]`, they lose O(1) subject-wise access and complicate average calculation — showing they haven't internalized *key-based design*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

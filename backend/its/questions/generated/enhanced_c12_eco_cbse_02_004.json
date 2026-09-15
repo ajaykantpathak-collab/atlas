@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_02_004",
+   "title": "c12_eco_cbse_02_004",
+   "questions": [
+    {
+     "q": "Define an indifference curve. What does each point on it represent?",
+     "a": "An indifference curve is a locus of points representing different combinations of two goods that yield the **same level of satisfaction** to the consumer. Each point on the curve represents a specific bundle (quantity of Good X, quantity of Good Y) among which the consumer is **indifferent** — they provide equal utility.  \n**Wrong answer reveals:** If a student says \"each point shows equal *money spent*\" or \"equal *marginal utility*\", they are confusing IC with budget line or cardinal utility. They haven't grasped the *ordinal* nature of IC analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Why must an indifference curve slope downward from left to right? Explain using the concept of trade-off and the assumption of monotonic preferences.",
+     "a": "An IC slopes downward because of **monotonic preferences** (\"more is better\"). If you increase the quantity of Good X (move right), to keep total satisfaction *unchanged*, you **must** reduce Good Y (move down). An upward-sloping IC would imply that *more of both goods* gives the *same* satisfaction — violating monotonicity.  \n**Wrong answer reveals:** If a student says \"because of the law of demand\" or \"because price ratio is negative\", they are mixing up *consumer equilibrium* (later topic) with the *preference assumption* that defines the IC shape. The downward slope is about *preferences*, not prices.",
+     "self_check": true
+    },
+    {
+     "q": "Consider two bundles: A (4 apples, 6 bananas) and B (6 apples, 4 bananas). The consumer is indifferent between them. Bundle C is (5 apples, 5 bananas). If preferences are convex, which bundle is preferred: A, B, or C? Draw a rough sketch to justify.",
+     "a": "Bundle C (5,5) is **strictly preferred** to A and B.  \n**Steps:**  \n1. Plot A(4,6) and B(6,4) on a graph (apples on X, bananas on Y). They lie on the same IC (given indifference).  \n2. Convex preferences mean the IC is **bowed inward (convex to origin)**.  \n3. The midpoint C(5,5) lies on the straight line joining A and B.  \n4. Because the IC is convex, the curve lies *below* the chord AB — so at the same X=5, the IC has Y < 5. Thus C (with Y=5) lies **above** the IC → higher satisfaction.  \n**Wrong answer reveals:** If the student picks A or B, they think indifference means *all* combinations on the line are equal — missing convexity. If they say \"cannot tell without MRS\", they don't yet grasp that convexity *implies* preference for averages over extremes.",
+     "self_check": true
+    },
+    {
+     "q": "Two indifference curves IC₁ and IC₂ intersect at point E. Bundle A is on IC₁ (northeast of E), Bundle B is on IC₂ (northwest of E). Using transitivity, prove that intersection leads to a logical contradiction.",
+     "a": "**Proof by contradiction:**  \n1. At intersection E: E ~ A (same IC₁) and E ~ B (same IC₂) → by transitivity, A ~ B.  \n2. But A has **more of both goods** than B (A is northeast of E, B is northwest → A has more X and more Y than B).  \n3. Monotonic preferences ⇒ A **must be strictly preferred** to B (A ≻ B).  \n4. Contradiction: A ~ B **and** A ≻ B cannot both be true.  \n**Therefore, two ICs cannot intersect.**  \n**Wrong answer reveals:** If the student says \"they don't intersect because they're like contour lines on a map\", they are using an analogy without understanding the *economic logic* (transitivity + monotonicity). They need to derive the contradiction step by step.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"A higher indifference curve always represents a higher level of satisfaction, *even if* the consumer's preferences are not monotonic.\" Is it true or false? Justify.",
+     "a": "**False.** The statement that \"higher IC = higher satisfaction\" **depends critically on monotonic preferences** (more of at least one good and no less of the other ⇒ strictly preferred). If preferences are *not* monotonic (e.g., the consumer dislikes too much of a good, like pollution), a bundle with more of both goods could lie on a *lower* IC. In standard IC theory, we **assume monotonicity** precisely so that \"northeast = better\" holds. Without it, the vertical ordering of ICs loses its welfare meaning.  \n**Wrong answer reveals:** If the student says \"True, by definition of IC\", they are memorizing a rule without understanding the *assumption* it rests on. This is a classic board exam trap — questions often ask \"State the assumptions under which higher IC gives higher satisfaction.\"",
+     "self_check": true
+    },
+    {
+     "q": "Create your own example of two goods a student might consume (e.g., samosas and cold drinks). Draw a set of three indifference curves (IC₁, IC₂, IC₃) with IC₃ highest. Label two bundles on IC₂: one with more samosas/fewer drinks, another with fewer samosas/more drinks. Explain in 2-3 sentences why the consumer is indifferent between them, and why IC₃ is preferred to IC₂.",
+     "a": "**Example:** Goods = Samosas (X) and Cold Drinks (Y).  \n- IC₂ passes through Bundle P (3 samosas, 2 drinks) and Bundle Q (1 samosa, 5 drinks).  \n- Consumer is indifferent because **the extra satisfaction from 2 more samosas in P exactly compensates for the loss of 3 drinks** compared to Q — total utility is equal.  \n- IC₃ lies to the northeast of IC₂ (e.g., passes through 4 samosas, 3 drinks). By **monotonicity**, this bundle has more of *both* goods than any on IC₂ ⇒ strictly preferred.  \n**Good answer criteria:** Correctly labels axes, shows downward-sloping convex curves, identifies bundles on same IC, uses \"compensation\" and \"monotonicity\" in explanation.  \n**Poor answer reveals:** If bundles on IC₂ don't show a trade-off (e.g., both have more of one good), or if IC₃ is not northeast, the student hasn't internalized the geometry of preferences.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

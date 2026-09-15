@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_10_010",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_10_010",
+   "title": "c12_ps_cbse_10_010",
+   "questions": [
+    {
+     "q": "What was the core institutional innovation of Operation Flood that distinguished it from the Green Revolution's delivery model?",
+     "a": "Operation Flood built a three-tier cooperative structure (village society → district union → state federation) owned and governed by milk producers themselves, whereas the Green Revolution delivered technology packages (seeds, fertilizer, credit) through state agencies to individual landowning farmers. A wrong answer — e.g., \"both used cooperatives\" or \"both were state-run\" — reveals the student conflates *state-led input delivery* with *producer-owned collective enterprise*, missing the fundamental shift in agency from bureaucrats to rural producers.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Anand pattern (village cooperative → district union → state federation) succeed in aligning producer incentives with national milk supply goals, unlike earlier state-run dairy schemes?",
+     "a": "The Anand pattern made each producer a member-owner with voting rights (one member, one vote) and profit-sharing proportional to milk supplied — so higher quality/quantity milk directly increased *their* income and *their* cooperative's surplus. State schemes paid fixed procurement prices regardless of quality, creating no incentive for better feed or hygiene. A wrong answer focusing only on \"better management\" or \"professional staff\" misses the *institutional design* that tied individual economic interest to collective performance — a core concept in cooperative federalism (c11_ps_cbse_16_005).",
+     "self_check": true
+    },
+    {
+     "q": "A village in Gujarat has 200 households. 60 are landless, 80 own <2 hectares, 40 own 2–5 hectares, 20 own >5 hectares. Under Operation Flood, which group gained the *most* relative bargaining power in the village dairy cooperative, and why?",
+     "a": "The landless and smallholders (<2 ha) gained most because the cooperative's membership criterion was *milk supply*, not land ownership — and they owned 70% of milch cattle but previously sold to middlemen at distress prices. The cooperative gave them collective bargaining power, transparent pricing, and access to veterinary/feed services. A wrong answer identifying large landowners reveals the student assumes rural power follows land — missing how Operation Flood *decoupled* dairy income from land tenure, a key shift in rural class structure (link to c11_soc_cbse_07_008).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of the National Dairy Development Board (NDDB) in Operation Flood with the role of the Planning Commission in the Five Year Plans. What does this comparison reveal about *implementation capacity* vs. *planning authority*?",
+     "a": "The Planning Commission (c12_ps_cbse_10_001) was an *advisory* body with no executive powers — it allocated plan funds but relied on state governments for implementation. NDDB was an *implementing agency* with its own professional staff, financial autonomy, and direct link to village cooperatives — it built the physical and institutional infrastructure (chilling plants, tankers, processing plants) itself. A wrong answer equating them shows the student doesn't distinguish *plan formulation* from *last-mile delivery* — a critical gap in understanding why some development programmes succeed while others remain paper exercises.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the claim: \"Operation Flood proved cooperatives can replace land reforms as a tool for rural equity.\" Use evidence from the cooperative structure and Amartya Sen's capabilities approach (c11_ps_cbse_04_009).",
+     "a": "Operation Flood expanded *capabilities* (income, nutrition, women's decision-making, access to credit) for landless and smallholders without redistributing land — but it did not address landlessness itself, tenancy insecurity, or caste-based exclusion from *non-dairy* resources. Cooperatives gave *economic agency* within existing asset structures; land reforms would change *asset ownership*. A good critique acknowledges both: cooperatives are necessary but not sufficient for structural equity. A wrong answer that says \"cooperatives made land reforms unnecessary\" ignores Sen's distinction between *functionings* (what people achieve) and *capabilities* (what they are free to achieve) — and misses that land reform remains a Directive Principle (Article 39).",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page proposal for a \"White Revolution 2.0\" for *goat milk* in Rajasthan's tribal belt, using the Anand pattern but adapting *two* features for the local context (e.g., migratory herders, women's collectives, climate resilience). Justify each adaptation.",
+     "a": "A strong proposal adapts: (1) *Mobile village societies* — instead of fixed-location societies, register herder groups that migrate seasonally, with digital milk collection points on migration routes (addresses mobility, unlike fixed Anand villages). (2) *Women-led federations* — mandate 50% women in district union boards and create a women's marketing federation for value-added products (goat cheese, soap) — building on SHG experience (c11_soc_cbse_07_009) rather than replicating male-dominated dairy unions. A weak proposal copies Anand verbatim — showing the student treats institutions as blueprints, not *principles* to be contextually translated.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

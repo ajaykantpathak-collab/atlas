@@ -1,0 +1,68 @@
+{
+ "catalog": "catalog_class11_biology_kebo110",
+ "concepts": [
+  {
+   "id": "kebo.110.1.1",
+   "title": "Cell Cycle Phases: Interphase G1 S G2 and M Phase",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Cell Cycle Phases: Interphase G1 S G2 and M Phase' refers to.",
+     "a": "The cell cycle runs through interphase, made of G1 phase of growth, S phase of DNA replication and G2 phase of protein synthesis, followed by the M phase of mitosis, and cells that stop dividing enter the quiescent G0 phase.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cell Cycle Phases: Interphase G1 S G2 and M Phase'.",
+     "a": "In a typical human cell of about 24 hours, interphase lasts more than 95 per cent of the cycle while mitosis occupies about an hour.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Cell Cycle Phases: Interphase G1 S G2 and M Phase' taught, and from which source text?",
+     "a": "10.1 Cell cycle (source: kebo110.txt section 10.1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.110.2.1",
+   "title": "Mitosis: Prophase, Metaphase, Anaphase and Telophase",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Mitosis: Prophase, Metaphase, Anaphase and Telophase' refers to.",
+     "a": "Mitosis proceeds through prophase with chromatin condensation and spindle formation, metaphase with chromosomes aligned at the equatorial plate, anaphase with centromere splitting and chromatids moving to poles, and telophase with nuclear envelope reassembly, followed by cytokinesis.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Mitosis: Prophase, Metaphase, Anaphase and Telophase'.",
+     "a": "Mitosis conserves the chromosome number of the parent, so it is called equational division, and cytokinesis in plant cells happens by cell plate formation.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Mitosis: Prophase, Metaphase, Anaphase and Telophase' taught, and from which source text?",
+     "a": "10.2 M Phase, 10.2.1 Prophase to 10.2.4 Telophase (source: kebo110.txt sections 10.2, 10.2.1-10.2.4)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.110.3.1",
+   "title": "Meiosis I and Meiosis II: Synapsis and Crossing Over",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Meiosis I and Meiosis II: Synapsis and Crossing Over' refers to.",
+     "a": "Meiosis involves two successive divisions after one DNA replication: meiosis I with prophase I stages of leptotene, zygotene, pachytene, diplotene and diakinesis shows synapsis of homologous chromosomes forming bivalents and crossing over at recombination nodules, and meiosis II resembles mitosis, reducing the chromosome number to half.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Meiosis I and Meiosis II: Synapsis and Crossing Over'.",
+     "a": "Crossing over during pachytene, mediated by the enzyme recombinase, creates genetic variation, and meiosis is called reductional division because the chromosome number halves.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Meiosis I and Meiosis II: Synapsis and Crossing Over' taught, and from which source text?",
+     "a": "10.3 Meiosis (source: kebo110.txt section 10.3)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

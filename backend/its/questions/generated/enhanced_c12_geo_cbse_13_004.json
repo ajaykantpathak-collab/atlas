@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_13_004",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_13_004",
+   "title": "c12_geo_cbse_13_004",
+   "questions": [
+    {
+     "q": "Name the three major copper mining belts in India and the states they are located in.",
+     "a": "The three major copper mining belts are: (1) Singhbhum district in Jharkhand, (2) Khetri-Jhunjhunu-Alwar belt in Rajasthan, and (3) Malanjkhand-Balaghat belt in Madhya Pradesh. A wrong answer (e.g., listing Kolar or Bailadila) reveals confusion between ferrous (iron) and non-ferrous belts, or inability to distinguish copper from gold/minor copper occurrences like Agnigundala.",
+     "self_check": true
+    },
+    {
+     "q": "Why are lead and zinc deposits almost always found together in India, and which geological formation hosts the Zawar lead-zinc deposits?",
+     "a": "Lead and zinc occur together because they have similar geochemical behaviour (chalcophile elements) and precipitate from the same hydrothermal fluids in sedimentary exhalative (SEDEX) or volcanogenic massive sulphide (VMS) environments. Zawar deposits are hosted in the Aravalli Supergroup (Proterozoic) dolomites and phyllites. A wrong answer citing \"Dharwar system\" for Zawar shows confusion between the copper-hosting Dharwar rocks (Singhbhum, Khetri) and the younger Aravalli sequence hosting lead-zinc.",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of India, mark and label: (a) Malanjkhand, (b) Zawar, (c) Khetri, (d) Singhbhum. Then explain why Malanjkhand is India's single largest copper ore reserve despite not being the oldest mining area.",
+     "a": "(a) Malanjkhand — Madhya Pradesh (Balaghat district), (b) Zawar — Rajasthan (Udaipur district), (c) Khetri — Rajasthan (Jhunjhunu district), (d) Singhbhum — Jharkhand (East Singhbhum district). Malanjkhand has the largest reserve because it is a large, low-grade porphyry copper deposit discovered in the 1970s with bulk mineable tonnage, whereas Singhbhum and Khetri are older, higher-grade but smaller vein-type deposits. A wrong explanation citing \"higher grade\" for Malanjkhand reveals misunderstanding of porphyry vs. vein deposit economics.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the geological settings of copper deposits in Singhbhum (Jharkhand) and Khetri (Rajasthan). What common structural feature controls both?",
+     "a": "Both occur in Proterozoic mobile belts: Singhbhum in the Singhbhum Shear Zone (Dharwar craton margin) and Khetri in the Khetri Copper Belt (Aravalli-Delhi mobile belt). Both are controlled by major shear zones that acted as fluid pathways for hydrothermal copper mineralisation. A student who says \"both are in Dharwar rocks\" is partially wrong — Khetri is in the Aravalli Supergroup, not Dharwar. This tests ability to distinguish cratonic vs. mobile belt geology.",
+     "self_check": true
+    },
+    {
+     "q": "India imports over 90% of its copper concentrate demand despite having reserves. Evaluate the three most critical factors causing this import dependence, using geological and infrastructural reasoning.",
+     "a": "Critical factors: (1) Low average grade of Indian copper ore (~0.8-1% Cu) vs. global average (~0.6% but with massive tonnage in porphyry deposits like Chile), making extraction costlier; (2) Depth and complexity of mining — Khetri and Singhbhum are deep underground mines with high operating costs; (3) Inadequate smelting/refining capacity — India has only three major smelters (Sterlite, Hindalco, HCL) and insufficient concentrate production to feed them. A student blaming only \"lack of reserves\" ignores the grade-tonnage and infrastructure dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mineral exploration strategy for a new copper-lead-zinc target in the Aravalli range. Specify: (a) two geophysical methods, (b) two geochemical pathfinder elements, and (c) the structural criterion for drill targeting.",
+     "a": "(a) Induced Polarisation (IP) for disseminated sulphides and Magnetics for mapping shear zones; (b) Pathfinders: Arsenic (As) and Antimony (Sb) for lead-zinc; Copper (Cu) and Cobalt (Co) for copper; (c) Drill targets at intersections of regional shear zones (e.g., NE-SW Khetri lineament) with favourable lithology (carbonate/phyllite contacts). A poor answer suggests only \"soil sampling\" without structural control, missing the Indian context where cover is thick and structures are key.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

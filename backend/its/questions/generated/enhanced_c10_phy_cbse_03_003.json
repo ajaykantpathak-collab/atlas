@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_03_003",
+   "title": "c10_phy_cbse_03_003",
+   "questions": [
+    {
+     "q": "State the definition of energy conversion efficiency and its formula. If a thermal power plant burns 100 J of chemical energy from coal and delivers 35 J of electrical energy, what is its efficiency? Express the answer as a percentage.",
+     "a": "Energy conversion efficiency (η) = (Useful Output Energy / Total Input Energy) × 100%. For the given plant: η = (35 J / 100 J) × 100% = 35%. A wrong answer (e.g., 65% or 0.35 without %) reveals the student either confuses efficiency with losses (100% - η) or forgets to multiply by 100 for percentage representation — a common board exam marking penalty.",
+     "self_check": true
+    },
+    {
+     "q": "A modern ultra-supercritical thermal power plant operates at 45% efficiency while an older subcritical plant operates at 33%. Both plants are required to deliver 500 MW of electrical power. Explain why the ultra-supercritical plant burns less coal per second, using the efficiency formula. What happens to the \"missing\" energy in the older plant?",
+     "a": "Higher efficiency means more output per unit input. For 500 MW output: Subcritical input = 500/0.33 ≈ 1515 MW thermal; Ultra-supercritical input = 500/0.45 ≈ 1111 MW thermal. The ultra-supercritical plant requires ~27% less thermal input, hence less coal. The \"missing\" energy in the older plant (1515 - 500 = 1015 MW) is rejected as low-grade heat to the condenser cooling water and up the chimney — it is not destroyed (conservation of energy) but becomes unavailable for work. A wrong answer stating \"energy is lost\" violates the law of conservation of energy taught in Class 9 (c9_physics_ch4_8).",
+     "self_check": true
+    },
+    {
+     "q": "A 600 MW thermal power plant upgrades from subcritical (33% efficiency) to supercritical (38% efficiency) technology. The calorific value of coal used is 25 MJ/kg. Calculate the reduction in coal consumption per hour (in tonnes/hour) after the upgrade. (1 tonne = 1000 kg)",
+     "a": "**Step 1:** Identify given: P_out = 600 MW = 600 × 10⁶ W, η₁ = 0.33, η₂ = 0.38, CV = 25 MJ/kg = 25 × 10⁶ J/kg, time = 1 h = 3600 s.  \n**Step 2:** Formula: Coal mass per hour = (P_out × time) / (η × CV).  \n**Step 3:** Subcritical: m₁ = (600×10⁶ × 3600) / (0.33 × 25×10⁶) = (2.16×10¹²) / (8.25×10⁶) = 261,818 kg/h ≈ 261.8 tonnes/h.  \n**Step 4:** Supercritical: m₂ = (600×10⁶ × 3600) / (0.38 × 25×10⁶) = (2.16×10¹²) / (9.5×10⁶) = 227,368 kg/h ≈ 227.4 tonnes/h.  \n**Step 5:** Reduction = m₁ - m₂ = 34.4 tonnes/h.  \n**Step 6:** Verify: Higher efficiency → less coal, physically reasonable.  \n**ANSWER:** 34.4 tonnes/h reduction.  \nA wrong answer often forgets to convert MW to W (×10⁶) or MJ to J (×10⁶), or uses η in percentage (33 instead of 0.33), leading to answers 100× too large/small.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following two statements and decide which represents a genuine technological improvement in conventional energy use and which is merely fuel switching. Justify using the definition of \"improvements in technology for using conventional energy\".\nStatement A: Replacing a coal-fired boiler with a natural gas combined cycle turbine.\nStatement B: Installing a fluidized bed combustion (FBC) boiler that burns the same coal but at lower temperature with limestone injection to capture sulfur.",
+     "a": "Statement B is the technological improvement for conventional energy — it modifies the *combustion technology* for the same conventional fuel (coal) to increase efficiency (better heat transfer) and reduce emissions (in-situ sulfur capture). Statement A is fuel switching (coal → natural gas), which changes the primary energy source, not the technology for using the *same* conventional source. A wrong answer labeling A as \"improvement in technology\" confuses fuel substitution with process innovation — a distinction CBSE explicitly tests in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Installing an electrostatic precipitator (ESP) in a thermal power plant increases its energy conversion efficiency because it removes ash particles from flue gas.\" Evaluate this claim. Is the student correct? Explain the actual purpose of an ESP and its effect (if any) on plant efficiency.",
+     "a": "The student is **incorrect**. An electrostatic precipitator (ESP) is a pollution control device that removes >99% of fly ash particles from flue gas *before* it exits the chimney — it does **not** increase the thermodynamic efficiency of the Rankine cycle. In fact, ESPs consume electrical power (for high-voltage electrodes and rapping mechanisms), slightly *decreasing* net plant efficiency by ~0.5-1%. Their purpose is environmental compliance (meeting PM emission norms), not efficiency enhancement. A wrong answer confusing pollution control with efficiency improvement shows inability to distinguish between *energy conversion* technologies (turbine, boiler) and *end-of-pipe* treatment — a frequent board exam trap in assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate the principle behind an improved cookstove (e.g., rocket stove) that achieves higher combustion efficiency than a traditional three-stone fire. List materials, procedure, measurable observations, and the physics principle being demonstrated.",
+     "a": "**Materials:** Two identical small metal cans (e.g., tomato puree cans), one with holes drilled at bottom and side (rocket stove model), one open-top (three-stone model), dry twigs, matchbox, 100 mL water in identical small beakers, thermometer, stopwatch, weighing scale.  \n**Procedure:** Weigh equal mass (e.g., 20 g) of dry twigs for each stove. Place beaker with 100 mL water (measure initial temp) on each stove. Light twigs simultaneously. Record time to raise water temperature by 20°C. Weigh remaining unburnt twigs.  \n**Observations:** Rocket stove boils water faster (shorter time) and leaves less unburnt residue.  \n**Principle:** Insulated combustion chamber (can walls) + forced air draft (holes) → higher combustion temperature → more complete combustion (less CO, soot) + better heat transfer to pot (less heat loss to surroundings) → higher useful heat per kg fuel.  \nA poor answer describes a \"better stove\" without linking to *complete combustion*, *air supply control*, or *heat retention* — missing the physics of efficiency (η = useful heat absorbed by water / chemical energy of fuel burnt).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

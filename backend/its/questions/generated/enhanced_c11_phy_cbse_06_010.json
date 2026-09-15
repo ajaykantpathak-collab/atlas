@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_06_010",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_06_010",
+   "title": "c11_phy_cbse_06_010",
+   "questions": [
+    {
+     "q": "State the Perpendicular Axis Theorem mathematically and list the TWO essential conditions for its validity. What is the SI unit of the quantities involved?",
+     "a": "The theorem states \\( I_z = I_x + I_y \\) for a planar lamina in the xy-plane. Conditions: (1) The body must be a planar lamina (negligible thickness, all mass in one plane). (2) The three axes must be mutually perpendicular, with the two in-plane axes intersecting at the point where the perpendicular axis passes through. SI unit: kg·m². A wrong answer (e.g., applying it to a solid sphere or ignoring the intersection condition) reveals the student memorised the formula without understanding the geometric constraints — they treat it as a universal algebraic identity rather than a geometric theorem with strict applicability limits.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"For a solid cylinder of radius R and height h, the moment of inertia about its axis is \\( I_z = \\frac{1}{2}MR^2 \\). Using the Perpendicular Axis Theorem, the moment of inertia about a diameter is \\( I_x = I_y = \\frac{1}{4}MR^2 \\).\" Is this correct? Explain why or why not.",
+     "a": "Incorrect. The Perpendicular Axis Theorem applies ONLY to planar laminas (thin flat bodies). A solid cylinder has finite thickness — its mass is distributed in 3D, not confined to a single plane. The theorem \\( I_z = I_x + I_y \\) fails because \\( I_x \\) and \\( I_y \\) for a 3D body include contributions from mass elements at different z-positions, while \\( I_z \\) does not. The correct moment of inertia of a solid cylinder about a diameter through its centre is \\( \\frac{1}{4}MR^2 + \\frac{1}{12}Mh^2 \\) (using Parallel Axis Theorem on discs). A student making this error confuses the Perpendicular Axis Theorem (for 2D bodies) with the symmetry-based result for a thin disc, not recognising the dimensionality constraint.",
+     "self_check": true
+    },
+    {
+     "q": "A thin rectangular plate of mass M = 2.0 kg has sides a = 0.6 m and b = 0.8 m. Calculate its moment of inertia about an axis perpendicular to its plane and passing through its centre. (Given: \\( I_{\\text{centre, along length}} = \\frac{1}{12}Ma^2 \\), \\( I_{\\text{centre, along breadth}} = \\frac{1}{12}Mb^2 \\)).",
+     "a": "Step 1: Identify given: M = 2.0 kg, a = 0.6 m, b = 0.8 m. Plate is planar → theorem applies.\nStep 2: Axes: x along length a, y along breadth b, z perpendicular through centre. Intersection at centre satisfied.\nStep 3: \\( I_x = \\frac{1}{12}Ma^2 = \\frac{1}{12} \\times 2.0 \\times (0.6)^2 = \\frac{1}{12} \\times 2.0 \\times 0.36 = 0.06 \\) kg·m².\nStep 4: \\( I_y = \\frac{1}{12}Mb^2 = \\frac{1}{12} \\times 2.0 \\times (0.8)^2 = \\frac{1}{12} \\times 2.0 \\times 0.64 = 0.1067 \\) kg·m².\nStep 5: \\( I_z = I_x + I_y = 0.06 + 0.1067 = 0.1667 \\) kg·m² ≈ 0.167 kg·m².\nWrong answer (e.g., using \\( \\frac{1}{12}M(a^2+b^2) \\) directly without theorem, or using wrong formula for \\( I_x, I_y \\)) reveals confusion between the Perpendicular Axis Theorem result and the standard formula for a rectangular plate about a perpendicular axis — they don't recognise the theorem as the derivation path.",
+     "self_check": true
+    },
+    {
+     "q": "A thin uniform square plate of side L has moment of inertia \\( I_0 \\) about an axis perpendicular to its plane through its centre. What is its moment of inertia about an axis perpendicular to its plane through one of its corners? Use the Perpendicular Axis Theorem AND the Parallel Axis Theorem. Explain the sequence of theorems used.",
+     "a": "Step 1: For square plate side L, mass M. About centre perpendicular axis: \\( I_0 = \\frac{1}{6}ML^2 \\) (standard result, or via theorem: \\( I_x = I_y = \\frac{1}{12}ML^2 \\), so \\( I_0 = \\frac{1}{6}ML^2 \\)).\nStep 2: Corner axis is parallel to centre perpendicular axis, distance \\( d = \\frac{L}{\\sqrt{2}} \\).\nStep 3: Apply Parallel Axis Theorem: \\( I_{\\text{corner}} = I_0 + Md^2 = \\frac{1}{6}ML^2 + M\\left(\\frac{L}{\\sqrt{2}}\\right)^2 = \\frac{1}{6}ML^2 + \\frac{1}{2}ML^2 = \\frac{2}{3}ML^2 \\).\nStep 4: Alternatively, use Perpendicular Axis Theorem at corner: need \\( I_x', I_y' \\) about axes in plane through corner. By Parallel Axis Theorem on in-plane axes: \\( I_x' = I_x + M(L/2)^2 = \\frac{1}{12}ML^2 + \\frac{1}{4}ML^2 = \\frac{1}{3}ML^2 \\). Similarly \\( I_y' = \\frac{1}{3}ML^2 \\). Then \\( I_{\\text{corner}} = I_x' + I_y' = \\frac{2}{3}ML^2 \\). Same result.\nWrong sequence (e.g., applying Parallel Axis Theorem directly to \\( I_x, I_y \\) without shifting to corner first) reveals the student doesn't understand that the Perpendicular Axis Theorem requires the in-plane axes to intersect at the perpendicular axis point — you must shift the in-plane axes to the corner before applying the theorem.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The Perpendicular Axis Theorem can be used to find the moment of inertia of a thin ring about a tangent in its plane, given its moment of inertia about a diameter.\" Is this a valid application? Justify.",
+     "a": "Invalid application. The Perpendicular Axis Theorem relates moments about THREE mutually perpendicular axes intersecting at a common point: one perpendicular to the plane, two in the plane. A tangent in the plane does not pass through the centre (where the perpendicular axis intersects the plane). The theorem requires the in-plane axes to intersect at the foot of the perpendicular axis. For a tangent, the intersection condition fails. To find moment of inertia about a tangent in the plane, use the Parallel Axis Theorem: \\( I_{\\text{tangent}} = I_{\\text{diameter}} + MR^2 \\). A student accepting this statement confuses the Perpendicular Axis Theorem (which connects perpendicular and in-plane axes at a point) with the Parallel Axis Theorem (which connects parallel axes). They miss the critical intersection requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a rectangular cardboard sheet, a pin, and a stopwatch to verify the Perpendicular Axis Theorem experimentally. Describe the measurements and calculations needed.",
+     "a": "Experiment: (1) Cut a uniform rectangular cardboard (planar lamina). Mark centre O. (2) Suspend it horizontally by a pin through O (axis perpendicular to plane). Give a small angular twist and measure period T_z of torsional oscillations. \\( I_z \\propto T_z^2 \\). (3) Suspend it by a pin along a line through O in the plane (x-axis). Measure period T_x for oscillations in the plane. \\( I_x \\propto T_x^2 \\). (4) Repeat for perpendicular in-plane axis through O (y-axis). Measure T_y. (5) Since \\( I \\propto T^2 \\) for same torsional constant, check if \\( T_z^2 = T_x^2 + T_y^2 \\). Calculations: Compute \\( I_x, I_y, I_z \\) from geometry formulas, verify \\( I_z = I_x + I_y \\). A poor answer (e.g., using different suspension points for each axis, or measuring linear oscillations) reveals the student doesn't grasp that the theorem requires a COMMON intersection point for all three axes — the experimental verification must use the same point O for all three suspension axes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

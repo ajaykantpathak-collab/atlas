@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch7_11",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch7_11",
+   "title": "c9_math_ch7_11",
+   "questions": [
+    {
+     "q": "A weather station recorded rainfall on 180 days out of the last 365 days in a city. What is the experimental probability that it will rain on a randomly chosen day in that city? Write the probability as a fraction in simplest form.",
+     "a": "The experimental probability is 180/365 = 36/73. A wrong answer like 180/365 without simplification reveals the student does not recognise that probabilities should be expressed in simplest fractional form. An answer of 180/365 = 0.493 (decimal) shows the student can compute but may not understand that board exams often require fractions. An answer of 185/365 (using 185 instead of 180) reveals a data-reading error.",
+     "self_check": true
+    },
+    {
+     "q": "In a board game, a player rolls two fair six-sided dice and wins if the sum is 7. A student claims the probability of winning is 1/11 because there are 11 possible sums (2 through 12). Explain why this reasoning is incorrect and state the correct probability.",
+     "a": "The student incorrectly assumes all 11 sums are equally likely. In reality, the 36 ordered pairs (die1, die2) are equally likely. Sums have different frequencies: sum 7 occurs in 6 ways (1,6),(2,5),(3,4),(4,3),(5,2),(6,1). So P(sum=7) = 6/36 = 1/6. A wrong answer of 1/11 reveals the common misconception that outcomes of a compound experiment are equally likely just because the final sums range from 2 to 12. The student must list the sample space of ordered pairs to see the non-uniform distribution.",
+     "self_check": true
+    },
+    {
+     "q": "An insurance company analysed 10,000 car insurance policies and found that 1,200 policyholders made a claim in a year. If the company wants to set a premium such that the expected claim payout per policy is ₹3,000, what should be the average claim amount per claim? (Assume the probability of a claim is estimated from this data.)",
+     "a": "Step 1: Experimental probability of a claim = 1200/10000 = 0.12.\nStep 2: Let average claim amount = x. Expected payout per policy = Probability of claim × Average claim amount = 0.12 × x.\nStep 3: Set 0.12x = 3000 → x = 3000 / 0.12 = 25,000.\nStep 4: The average claim amount should be ₹25,000.\nA wrong answer of ₹360 (3000 × 0.12) shows the student multiplied instead of divided, confusing expected value with probability times amount. An answer of ₹3,000 ignores the probability entirely.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two situations:\nSituation A: A meteorologist says \"There is a 60% chance of rain tomorrow\" based on 30 years of historical data for similar weather patterns.\nSituation B: A lottery ticket has a 1 in 10 lakh chance of winning the jackpot, printed on the ticket.\nAnalyse the fundamental difference in how the probability is determined in each situation and discuss one limitation of each method.",
+     "a": "Situation A uses experimental (empirical) probability based on observed relative frequency over many trials (30 years of data). Limitation: Past patterns may not perfectly predict future due to climate change or insufficient data for rare events. Situation B uses theoretical (classical) probability based on equally likely outcomes (assuming a fair random draw). Limitation: Assumes the lottery mechanism is perfectly random and all tickets are equally likely, which may not hold if there is tampering or bias. A wrong answer that says both are \"just probabilities\" fails to distinguish between data-driven and symmetry-driven probability, a key board-level conceptual distinction.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves this problem: \"A bag contains 5 red, 3 blue, and 2 green balls. Two balls are drawn at random without replacement. Find the probability that both are red.\" The student writes: P(both red) = (5/10) × (5/10) = 25/100 = 1/4. Evaluate this solution and identify the error.",
+     "a": "The solution is incorrect. The student used with-replacement probability (5/10 × 5/10) but the problem states \"without replacement\". The correct calculation: P(first red) = 5/10, P(second red | first red) = 4/9, so P(both red) = (5/10)×(4/9) = 20/90 = 2/9. The error reveals the student does not distinguish between independent events (with replacement) and dependent events (without replacement), a critical board exam trap. The student also did not adjust the denominator for the second draw.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life scenario (different from weather, games, insurance) where experimental probability is used to make a decision. Define the event, describe how you would collect data, calculate the probability, and explain how the probability would inform a decision. Your scenario must involve at least 50 trials.",
+     "a": "Example scenario: A school cafeteria wants to decide how many vegetarian thalis to prepare daily. Event: \"A randomly chosen student chooses vegetarian thali.\" Collect data: Record meal choices of 200 students over a week (50+ trials). Calculate: If 120 out of 200 choose vegetarian, P(veg) = 120/200 = 3/5 = 0.6. Decision: Prepare vegetarian thalis for 60% of expected students, with a small buffer. A poor answer might describe a theoretical probability scenario (e.g., coin toss) or use fewer than 50 trials, showing confusion between experimental and theoretical probability or ignoring the trial requirement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,423 @@
+"""Build concept catalog for Class 7 Maths Chapter 6 (The Triangle and its Properties).
+Extracted from gemh106.txt -- NCERT Class 7 Maths textbook.
+"""
+import json
+import os
+
+CATALOG = {
+    "class": 7,
+    "subject": "maths",
+    "chapter": 6,
+    "chapter_title": "The Triangle and its Properties",
+    "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/gemh106.txt",
+    "concepts": [
+        {
+            "id": "c7m6.1.1",
+            "title": "Elements of a Triangle",
+            "section": "6.1",
+            "definition": "A triangle has 6 elements: 3 sides and 3 angles. The side opposite to vertex A is BC. Triangles are classified by sides (scalene, isosceles, equilateral) and by angles (acute, obtuse, right).",
+            "formula": "6 elements = 3 sides + 3 angles",
+            "key_idea": "Triangle has 3 sides, 3 angles. Classified by sides and angles.",
+            "textbook_ref": "gemh106.txt lines 1-43",
+            "question_patterns": [
+                "write the six elements of triangle",
+                "side opposite to vertex",
+                "angle opposite to side",
+                "classify triangle by sides",
+                "classify triangle by angles",
+                "scalene isosceles equilateral",
+                "acute obtuse right angled",
+            ],
+            "solution_type": "verify_property",
+            "solution_steps": [
+                {"step": 1, "action": "identify sides", "explain": "List the 3 sides"},
+                {"step": 2, "action": "identify angles", "explain": "List the 3 angles"},
+                {"step": 3, "action": "classify", "explain": "By sides: scalene (all different), isosceles (2 equal), equilateral (all equal). By angles: acute (all < 90), obtuse (one > 90), right (one = 90)."},
+            ],
+        },
+        {
+            "id": "c7m6.2.1",
+            "title": "Medians of a Triangle",
+            "section": "6.2",
+            "definition": "A median connects a vertex of a triangle to the midpoint of the opposite side. A triangle has 3 medians.",
+            "formula": "median = vertex to midpoint of opposite side; 3 medians per triangle",
+            "key_idea": "Median joins vertex to midpoint of opposite side. 3 medians.",
+            "textbook_ref": "gemh106.txt lines 45-66",
+            "question_patterns": [
+                "what is a median",
+                "how many medians can a triangle have",
+                "identify the median",
+                "draw medians of triangle",
+                "does median lie in interior",
+            ],
+            "solution_type": "verify_property",
+            "solution_steps": [
+                {"step": 1, "action": "find midpoint", "explain": "Locate midpoint of opposite side"},
+                {"step": 2, "action": "draw median", "explain": "Connect vertex to midpoint"},
+                {"step": 3, "action": "count", "explain": "There are 3 medians, one from each vertex"},
+            ],
+        },
+        {
+            "id": "c7m6.3.1",
+            "title": "Altitudes of a Triangle",
+            "section": "6.3",
+            "definition": "An altitude is a perpendicular line segment from a vertex to the opposite side (or line containing it). A triangle has 3 altitudes.",
+            "formula": "altitude = perpendicular from vertex to opposite side; 3 altitudes",
+            "key_idea": "Altitude is perpendicular from vertex to opposite side. 3 altitudes.",
+            "textbook_ref": "gemh106.txt lines 69-110",
+            "question_patterns": [
+                "what is an altitude",
+                "how many altitudes can a triangle have",
+                "draw altitudes of triangle",
+                "does altitude lie in interior",
+                "altitude in exterior of triangle",
+                "can altitude and median be same",
+            ],
+            "solution_type": "verify_property",
+            "solution_steps": [
+                {"step": 1, "action": "identify vertex", "explain": "Choose a vertex"},
+                {"step": 2, "action": "draw perpendicular", "explain": "Draw perpendicular from vertex to opposite side (or its extension)"},
+                {"step": 3, "action": "note position", "explain": "Altitude may be inside (acute), on (right), or outside (obtuse) the triangle"},
+            ],
+        },
+        {
+            "id": "c7m6.4.1",
+            "title": "Exterior Angle Property",
+            "section": "6.4",
+            "definition": "An exterior angle of a triangle is equal to the sum of its two interior opposite angles. exterior = interior1 + interior2.",
+            "formula": "exterior_angle = interior_opposite_1 + interior_opposite_2",
+            "key_idea": "Exterior angle = sum of two interior opposite angles.",
+            "textbook_ref": "gemh106.txt lines 128-207",
+            "question_patterns": [
+                "find the exterior angle",
+                "exterior angle of triangle",
+                "find value of unknown exterior angle x",
+                "find value of unknown interior angle x",
+                "exterior angle is sum of interior opposite",
+                "one interior opposite angle is 25 find the other",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {"step": 1, "action": "identify exterior angle", "explain": "Find the exterior angle (formed by extending a side)"},
+                {"step": 2, "action": "identify interior opposite angles", "explain": "The two angles not adjacent to the exterior angle"},
+                {"step": 3, "action": "apply property", "explain": "exterior = sum of two interior opposite angles"},
+                {"step": 4, "action": "solve for unknown", "explain": "If one angle is unknown, subtract known from exterior"},
+            ],
+        },
+        {
+            "id": "c7m6.5.1",
+            "title": "Angle Sum Property",
+            "section": "6.5",
+            "definition": "The sum of the three angles of a triangle is 180 degrees. angle1 + angle2 + angle3 = 180.",
+            "formula": "angle1 + angle2 + angle3 = 180 degrees",
+            "key_idea": "Three angles of a triangle always sum to 180 degrees.",
+            "textbook_ref": "gemh106.txt lines 215-304",
+            "question_patterns": [
+                "find the third angle",
+                "find value of unknown x in triangle",
+                "two angles of triangle are 30 and 80 find third",
+                "one angle is 80 other two equal find each",
+                "three angles in ratio 1:2:1 find all",
+                "angle sum property",
+                "can triangle have two right angles",
+                "can triangle have two obtuse angles",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {"step": 1, "action": "identify known angles", "explain": "Find the given angles"},
+                {"step": 2, "action": "sum to 180", "explain": "unknown = 180 - (sum of known angles)"},
+                {"step": 3, "action": "solve", "explain": "Compute the unknown angle"},
+            ],
+        },
+        {
+            "id": "c7m6.6.1",
+            "title": "Equilateral Triangle",
+            "section": "6.6",
+            "definition": "An equilateral triangle has all three sides equal and each angle measures 60 degrees.",
+            "formula": "all sides equal; each angle = 60 degrees",
+            "key_idea": "All sides equal, all angles 60 degrees.",
+            "textbook_ref": "gemh106.txt lines 305-318",
+            "question_patterns": [
+                "properties of equilateral triangle",
+                "each angle of equilateral triangle",
+                "all sides equal triangle",
+                "find angle in equilateral triangle",
+            ],
+            "solution_type": "verify_property",
+            "solution_steps": [
+                {"step": 1, "action": "check sides", "explain": "All three sides must be equal"},
+                {"step": 2, "action": "check angles", "explain": "Each angle = 60 degrees"},
+            ],
+        },
+        {
+            "id": "c7m6.6.2",
+            "title": "Isosceles Triangle",
+            "section": "6.6",
+            "definition": "An isosceles triangle has two equal sides. The base angles (angles opposite to equal sides) are equal.",
+            "formula": "two sides equal; base angles equal",
+            "key_idea": "Two equal sides, two equal base angles.",
+            "textbook_ref": "gemh106.txt lines 322-338",
+            "question_patterns": [
+                "properties of isosceles triangle",
+                "base angles of isosceles triangle",
+                "find angle x in isosceles",
+                "find angles x and y in isosceles",
+                "two sides equal triangle",
+                "base angles are equal",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {"step": 1, "action": "identify equal sides", "explain": "Find which two sides are equal"},
+                {"step": 2, "action": "identify base angles", "explain": "Angles opposite to equal sides are equal"},
+                {"step": 3, "action": "use angle sum", "explain": "If vertex angle known, base_angle = (180 - vertex_angle) / 2"},
+            ],
+        },
+        {
+            "id": "c7m6.7.1",
+            "title": "Sum of Two Sides of Triangle",
+            "section": "6.7",
+            "definition": "The sum of the lengths of any two sides of a triangle is greater than the third side. The difference of any two sides is less than the third side.",
+            "formula": "a + b > c; |a - b| < c for all sides",
+            "key_idea": "Sum of any two sides > third side. Difference < third side.",
+            "textbook_ref": "gemh106.txt lines 339-448",
+            "question_patterns": [
+                "is it possible to have a triangle with sides",
+                "can these sides form a triangle",
+                "is there a triangle with sides",
+                "between which two numbers can third side fall",
+                "sum of two sides greater than third",
+                "difference of two sides less than third",
+                "lengths of two sides are 6 and 8 find range of third",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {"step": 1, "action": "check all three combinations", "explain": "a+b > c, b+c > a, a+c > b"},
+                {"step": 2, "action": "if all true", "explain": "Triangle is possible"},
+                {"step": 3, "action": "if any false", "explain": "Triangle is not possible"},
+                {"step": 4, "action": "for range", "explain": "third side is between |a-b| and a+b"},
+            ],
+        },
+        {
+            "id": "c7m6.8.1",
+            "title": "Pythagoras Theorem",
+            "section": "6.8",
+            "definition": "In a right-angled triangle, the square on the hypotenuse equals the sum of squares on the legs. a^2 = b^2 + c^2 where a is hypotenuse.",
+            "formula": "hypotenuse^2 = leg1^2 + leg2^2",
+            "key_idea": "Square of hypotenuse = sum of squares of other two sides.",
+            "textbook_ref": "gemh106.txt lines 452-605",
+            "question_patterns": [
+                "find the hypotenuse",
+                "find the unknown side",
+                "find x in right triangle",
+                "pythagoras theorem",
+                "right angled triangle find side",
+                "is this a right triangle",
+                "which can be sides of right triangle",
+                "find qr if pq and pr given",
+                "find bc if ab and ac given",
+                "ladder against wall problem",
+                "tree broken problem",
+                "find perimeter of rectangle with diagonal",
+                "diagonals of rhombus find perimeter",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {"step": 1, "action": "identify right angle", "explain": "Find which angle is 90 degrees"},
+                {"step": 2, "action": "identify hypotenuse", "explain": "Side opposite to right angle is hypotenuse"},
+                {"step": 3, "action": "apply formula", "explain": "hypotenuse^2 = leg1^2 + leg2^2"},
+                {"step": 4, "action": "solve for unknown", "explain": "If finding hypotenuse: h = sqrt(leg1^2 + leg2^2). If finding leg: leg = sqrt(h^2 - other_leg^2)"},
+            ],
+        },
+        {
+            "id": "c7m6.8.2",
+            "title": "Converse of Pythagoras",
+            "section": "6.8",
+            "definition": "If the square of one side equals the sum of squares of the other two sides, then the triangle is right-angled. The right angle is opposite the longest side.",
+            "formula": "if a^2 = b^2 + c^2, then right-angled with hypotenuse a",
+            "key_idea": "If Pythagoras holds, triangle is right-angled.",
+            "textbook_ref": "gemh106.txt lines 530-543",
+            "question_patterns": [
+                "determine if triangle is right angled",
+                "is this a right triangle",
+                "check if pythagoras property holds",
+                "which can be sides of right triangle",
+                "identify the right angle",
+            ],
+            "solution_type": "verify_property",
+            "solution_steps": [
+                {"step": 1, "action": "find longest side", "explain": "Identify the longest side"},
+                {"step": 2, "action": "check pythagoras", "explain": "longest^2 = side1^2 + side2^2?"},
+                {"step": 3, "action": "conclude", "explain": "If yes, right-angled with right angle opposite longest side. If no, not right-angled."},
+            ],
+        },
+    ],
+    "worked_examples": [
+        {
+            "id": "ex1",
+            "source_ref": "gemh106.txt lines 190-194",
+            "concept": "c7m6.4.1",
+            "question_type": "find_exterior_angle",
+            "question_pattern": "find angle x where one interior is {a} and exterior is {ext}",
+            "extracted_variables": {
+                "a": "known interior angle",
+                "ext": "exterior angle",
+            },
+            "solution_template": [
+                {"step": 1, "action": "apply exterior angle property", "explain": "exterior = sum of two interior opposite angles"},
+                {"step": 2, "action": "set up equation", "explain": "a + x = ext"},
+                {"step": 3, "action": "solve", "explain": "x = ext - a", "compute": "ext - a"},
+            ],
+        },
+        {
+            "id": "ex2",
+            "source_ref": "gemh106.txt lines 277-282",
+            "concept": "c7m6.5.1",
+            "question_type": "find_third_angle",
+            "question_pattern": "find angle P where two angles are {a} and {b}",
+            "extracted_variables": {
+                "a": "first known angle",
+                "b": "second known angle",
+            },
+            "solution_template": [
+                {"step": 1, "action": "apply angle sum property", "explain": "P + a + b = 180"},
+                {"step": 2, "action": "solve", "explain": "P = 180 - a - b", "compute": "180 - a - b"},
+            ],
+        },
+        {
+            "id": "ex3",
+            "source_ref": "gemh106.txt lines 406-412",
+            "concept": "c7m6.7.1",
+            "question_type": "check_triangle_possible",
+            "question_pattern": "is there a triangle with sides {a}, {b}, {c}?",
+            "extracted_variables": {
+                "a": "first side",
+                "b": "second side",
+                "c": "third side",
+            },
+            "solution_template": [
+                {"step": 1, "action": "check a+b > c", "explain": "Sum of two smaller must exceed largest"},
+                {"step": 2, "action": "check b+c > a", "explain": "Check all combinations"},
+                {"step": 3, "action": "check a+c > b", "explain": "Check all combinations"},
+                {"step": 4, "action": "conclude", "explain": "If all true, triangle is possible"},
+            ],
+        },
+        {
+            "id": "ex4",
+            "source_ref": "gemh106.txt lines 413-421",
+            "concept": "c7m6.7.1",
+            "question_type": "find_third_side_range",
+            "question_pattern": "two sides are {a} and {b}. between which two numbers can third side fall?",
+            "extracted_variables": {
+                "a": "first known side",
+                "b": "second known side",
+            },
+            "solution_template": [
+                {"step": 1, "action": "find upper bound", "explain": "third < a + b", "compute": "a + b"},
+                {"step": 2, "action": "find lower bound", "explain": "third > |a - b|", "compute": "abs(a - b)"},
+                {"step": 3, "action": "state range", "explain": "third side is between |a-b| and a+b"},
+            ],
+        },
+        {
+            "id": "ex5",
+            "source_ref": "gemh106.txt lines 537-543",
+            "concept": "c7m6.8.2",
+            "question_type": "check_right_triangle",
+            "question_pattern": "determine if triangle with sides {a}, {b}, {c} is right-angled",
+            "extracted_variables": {
+                "a": "first side",
+                "b": "second side",
+                "c": "third side",
+            },
+            "solution_template": [
+                {"step": 1, "action": "find longest side", "explain": "Identify the longest side"},
+                {"step": 2, "action": "check pythagoras", "explain": "longest^2 = other1^2 + other2^2?"},
+                {"step": 3, "action": "conclude", "explain": "If yes, right-angled. Hypotenuse is the longest side."},
+            ],
+        },
+        {
+            "id": "ex6",
+            "source_ref": "gemh106.txt lines 544-552",
+            "concept": "c7m6.8.1",
+            "question_type": "find_hypotenuse",
+            "question_pattern": "right-angled at C. AC = {a} and BC = {b}. find AB.",
+            "extracted_variables": {
+                "a": "first leg",
+                "b": "second leg",
+            },
+            "solution_template": [
+                {"step": 1, "action": "apply pythagoras", "explain": "AB^2 = AC^2 + BC^2 = a^2 + b^2"},
+                {"step": 2, "action": "compute", "explain": "AB^2 = a^2 + b^2", "compute": "a*a + b*b"},
+                {"step": 3, "action": "take square root", "explain": "AB = sqrt(AB^2)", "compute": "sqrt(a*a + b*b)"},
+            ],
+        },
+    ],
+    "exercises": [
+        {
+            "id": "ex6.1",
+            "source_ref": "gemh106.txt lines 113-127",
+            "questions": [
+                "In triangle PQR, D is midpoint of QR. Identify PM and PD. Is QM = MR?",
+                "Draw rough sketches: BE is median in ABC; PQ and PR are altitudes; YL is altitude in exterior",
+                "Verify if median and altitude of isosceles triangle can be same",
+            ],
+        },
+        {
+            "id": "ex6.2",
+            "source_ref": "gemh106.txt lines 209-214",
+            "questions": [
+                "Find value of unknown exterior angle x in diagrams",
+                "Find value of unknown interior angle x in figures",
+            ],
+        },
+        {
+            "id": "ex6.3",
+            "source_ref": "gemh106.txt lines 284-286",
+            "questions": [
+                "Find value of unknown x in triangle diagrams",
+                "Find values of unknowns x and y in triangle diagrams",
+            ],
+        },
+        {
+            "id": "ex6.4",
+            "source_ref": "gemh106.txt lines 422-448",
+            "questions": [
+                "Is it possible to have triangle with sides: 2,3,5; 3,6,7; 6,3,2?",
+                "Point O in interior of PQR. Is OP+OQ>PQ? OQ+OR>QR? OR+OP>RP?",
+                "AM is median of ABC. Is AB+BC+CA > 2AM?",
+                "ABCD is quadrilateral. Is AB+BC+CD+DA > AC+BD?",
+                "ABCD is quadrilateral. Is AB+BC+CD+DA < 2(AC+BD)?",
+                "Two sides 12 and 15. Between what two measures should third side fall?",
+            ],
+        },
+        {
+            "id": "ex6.5",
+            "source_ref": "gemh106.txt lines 567-594",
+            "questions": [
+                "PQR right-angled at P. PQ=10, PR=24. Find QR.",
+                "ABC right-angled at C. AB=25, AC=7. Find BC.",
+                "15m ladder reached window 12m high. Find distance of foot from wall.",
+                "Which can be sides of right triangle: 2.5,6.5,6; 2,2,5; 1.5,2,2.5? Identify right angles.",
+                "Tree broken at 5m height, top touches ground 12m from base. Find original height.",
+                "Angles Q and R are 25 and 65. Which is true: PQ^2+QR^2=RP^2; PQ^2+RP^2=QR^2; RP^2+QR^2=PQ^2?",
+                "Find perimeter of rectangle with length 40 and diagonal 41.",
+                "Diagonals of rhombus 16 and 30. Find perimeter.",
+            ],
+        },
+    ],
+}
+
+
+def main():
+    out_dir = os.path.dirname(os.path.abspath(__file__))
+    out_path = os.path.join(out_dir, "catalog_class7_maths_ch6_triangle_properties.json")
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(CATALOG, f, indent=2, ensure_ascii=True)
+    print("Wrote catalog to:", out_path)
+    print("Concepts:", len(CATALOG["concepts"]))
+    print("Worked examples:", len(CATALOG["worked_examples"]))
+    print("Exercises:", len(CATALOG["exercises"]))
+    print("Total exercise questions:", sum(len(e["questions"]) for e in CATALOG["exercises"]))
+
+
+if __name__ == "__main__":
+    main()

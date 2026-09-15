@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_10_003",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_10_003",
+   "title": "c12_eco_cbse_10_003",
+   "questions": [
+    {
+     "q": "Define Marginal Propensity to Save (MPS) and state its mathematical formula. What is the range of values MPS can take?",
+     "a": "MPS is the ratio of change in savings (ΔS) to change in income (ΔY), expressed as MPS = ΔS/ΔY. Its value lies between 0 and 1 (0 ≤ MPS ≤ 1). A wrong answer like \"MPS = S/Y\" reveals confusion between marginal and average concepts. Writing \"MPS > 1\" shows misunderstanding that one cannot save more than the additional income received.",
+     "self_check": true
+    },
+    {
+     "q": "Given the consumption function C = 200 + 0.75Y, derive the saving function. Explain why the autonomous saving term is negative.",
+     "a": "S = Y - C = Y - (200 + 0.75Y) = -200 + 0.25Y. The autonomous saving is -200 because at zero income, consumption is 200 (autonomous consumption), so saving = 0 - 200 = -200 (dissaving). A student writing S = 200 + 0.25Y misses the sign change when subtracting autonomous consumption. Writing MPS = 0.75 confuses MPC with MPS.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate MPS and APS at Y = 1000 for the saving function S = -100 + 0.2Y. Show all steps.",
+     "a": "Step 1: MPS = coefficient of Y = 0.2 (constant for linear function).\nStep 2: Find S at Y=1000: S = -100 + 0.2(1000) = -100 + 200 = 100.\nStep 3: APS = S/Y = 100/1000 = 0.1.\nStep 4: Verify MPS + MPC = 1 → MPC = 0.8, MPS = 0.2, sum = 1.\nWrong answer APS = 0.2 reveals using MPS instead of calculating S/Y. Wrong MPS = 0.8 reveals confusing MPC and MPS.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the saving functions of two economies: Economy A: S = -50 + 0.3Y, Economy B: S = -50 + 0.5Y. At what income level do both have the same savings? Which economy saves more at high income levels? Explain.",
+     "a": "Set -50 + 0.3Y = -50 + 0.5Y → 0.3Y = 0.5Y → 0.2Y = 0 → Y = 0. They only have equal savings at Y=0 (both -50). For Y>0, Economy B (MPS=0.5) saves more because its saving function is steeper. A student saying \"they are equal at all incomes\" ignores the different slopes. Saying \"Economy A saves more at high income\" reverses the slope interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "\"An increase in MPS always leads to higher total savings in the economy.\" Evaluate this statement using the saving function and the concept of equilibrium income.",
+     "a": "False. Higher MPS means steeper saving function, but in the simple Keynesian model (S=I equilibrium), higher MPS reduces the multiplier (k=1/MPS), lowering equilibrium income. Total savings S = I (autonomous investment) at equilibrium, so if I is unchanged, total savings remain unchanged — this is the Paradox of Thrift. A student agreeing with the statement applies micro logic (individual saving more) to macro outcome, ignoring the income adjustment mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a numerical example showing how the saving function changes when autonomous consumption increases from 100 to 150, keeping MPC constant at 0.8. Show the old and new saving functions, and explain the economic intuition.",
+     "a": "Old: C = 100 + 0.8Y → S = -100 + 0.2Y. New: C = 150 + 0.8Y → S = -150 + 0.2Y. The intercept shifts down from -100 to -150 (more dissaving at zero income), slope (MPS=0.2) unchanged. Intuition: Higher autonomous consumption means households spend more at every income level, leaving less for saving. A good answer shows both functions, calculates S at Y=500 for both (Old: 0, New: -50), and explains the downward parallel shift. A poor answer only states the formula without numerical illustration or economic reasoning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,519 @@
+{
+ "class": "11",
+ "subject": "political_science",
+ "chapter": 6,
+ "chapter_title": "Judiciary",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\keps206.txt",
+ "concepts": [
+  {
+   "id": "c11ps.6.1",
+   "title": "Meaning and Importance of Judiciary",
+   "section": "Meaning and Importance of Judiciary",
+   "definition": "The judiciary is the organ of government that interprets laws, administers justice, and protects the rights of citizens by adjudicating disputes and reviewing the legality of executive and legislative actions.",
+   "formula": "",
+   "key_idea": "The judiciary is the guardian of the Constitution and the rights of citizens; it resolves disputes, interprets laws, and ensures that the other organs of government act within constitutional limits.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the judiciary and what are its functions?",
+    "Why is the judiciary important in a democracy?",
+    "Explain the role of the judiciary as the guardian of the Constitution.",
+    "How does the judiciary protect the rights of citizens?",
+    "What is the significance of an independent judiciary?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the judiciary as an organ of government",
+     "explain": "The judiciary is the branch of government responsible for interpreting laws, adjudicating disputes, and administering justice."
+    },
+    {
+     "step": 2,
+     "action": "Identify its key functions",
+     "explain": "The judiciary interprets laws, resolves disputes, protects fundamental rights, and reviews the legality of executive and legislative actions through judicial review."
+    },
+    {
+     "step": 3,
+     "action": "Explain its importance in a democracy",
+     "explain": "By upholding the Constitution and protecting citizens' rights, the judiciary ensures the rule of law and prevents the abuse of power by the other organs of government."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is the judiciary called the guardian of the Constitution?",
+     "solution": "Step 1: The judiciary interprets the Constitution and reviews laws and executive actions. Step 2: It can strike down any law or action that violates the Constitution. Step 3: Hence it is the guardian of the Constitution.",
+     "answer": "Because it interprets the Constitution and can strike down laws and actions that violate it"
+    },
+    {
+     "question": "How does the judiciary protect the rights of citizens?",
+     "solution": "Step 1: The Constitution guarantees fundamental rights to citizens. Step 2: The judiciary can enforce these rights through writs and remedies. Step 3: Therefore the judiciary is the protector of citizens' rights.",
+     "answer": "By interpreting and enforcing fundamental rights through writs and judicial remedies"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning, functions, and importance of the judiciary in a democracy.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is the judiciary called the guardian of the Constitution?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.6.2",
+   "title": "Independence of the Judiciary",
+   "section": "Independence of the Judiciary",
+   "definition": "The independence of the judiciary means that the judiciary is free from the control of the executive and the legislature in the appointment, tenure, and functioning of judges, enabling it to decide cases impartially and without fear or favour.",
+   "formula": "",
+   "key_idea": "An independent judiciary is essential for the rule of law; it is secured through protections for judges' appointment, tenure, salary, and removal, so that they can decide cases without external pressure.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is meant by the independence of the judiciary?",
+    "How does the Constitution ensure the independence of the judiciary?",
+    "Why is an independent judiciary necessary in a democracy?",
+    "Explain the safeguards for the independence of judges in India.",
+    "How is the removal of a judge regulated to protect judicial independence?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define judicial independence",
+     "explain": "Judicial independence means the judiciary is free from executive and legislative control in its functioning and decision-making."
+    },
+    {
+     "step": 2,
+     "action": "Identify the constitutional safeguards",
+     "explain": "Independence is secured through fixed tenure, salaries charged on the Consolidated Fund, restrictions on removal by impeachment, and the separation of the judiciary from the executive."
+    },
+    {
+     "step": 3,
+     "action": "Explain why independence is necessary",
+     "explain": "Without independence, judges could be pressured by the government, undermining the rule of law and the protection of citizens' rights."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does the process of impeachment protect the independence of judges?",
+     "solution": "Step 1: A judge can only be removed by impeachment for proved misbehaviour or incapacity. Step 2: The process requires a two-thirds majority in both houses of Parliament. Step 3: This difficult process protects judges from arbitrary removal by the government.",
+     "answer": "Because removal requires a complex impeachment process with a two-thirds majority in Parliament, preventing arbitrary removal"
+    },
+    {
+     "question": "Why are the salaries of judges charged on the Consolidated Fund of India?",
+     "solution": "Step 1: Charged expenditures are not subject to annual voting in Parliament. Step 2: This means the government cannot reduce judges' salaries to pressure them. Step 3: Hence it protects judicial independence.",
+     "answer": "So that judges' salaries cannot be reduced by the legislature to pressure them, protecting their independence"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning of judicial independence and the constitutional safeguards that secure it.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is an independent judiciary essential for a democratic government?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.6.3",
+   "title": "Supreme Court of India",
+   "section": "Supreme Court of India",
+   "definition": "The Supreme Court of India is the highest court of the land, located at the apex of the judicial hierarchy, consisting of the Chief Justice and other judges, with original, appellate, and advisory jurisdictions.",
+   "formula": "total_judges = chief_justice + other_judges",
+   "key_idea": "The Supreme Court is the apex court with the power of judicial review, original jurisdiction over federal disputes, appellate jurisdiction over High Court decisions, and advisory jurisdiction to advise the President on legal questions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the composition of the Supreme Court of India?",
+    "Explain the jurisdictions of the Supreme Court.",
+    "What is the appellate jurisdiction of the Supreme Court?",
+    "How are judges of the Supreme Court appointed?",
+    "What is the advisory jurisdiction of the Supreme Court?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the Chief Justice of India",
+     "explain": "The Supreme Court is headed by one Chief Justice of India.",
+     "compute": "1"
+    },
+    {
+     "step": 2,
+     "action": "Count the other judges of the Supreme Court",
+     "explain": "In addition to the Chief Justice, there are other judges whose number is fixed by Parliament; the current sanctioned strength is 33 other judges.",
+     "compute": "33"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the total strength of the Supreme Court",
+     "explain": "The total strength is the sum of the Chief Justice and the other judges.",
+     "compute": "chief_justice + other_judges"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "If the Supreme Court has 1 Chief Justice and 33 other judges, what is its total strength?",
+     "solution": "Step 1: Chief Justice = 1. Step 2: Other judges = 33. Step 3: Total strength = 1 + 33 = 34.",
+     "answer": "Total strength = 34 judges"
+    },
+    {
+     "question": "The Supreme Court needs a constitutional bench of at least 5 judges to hear a substantial question of law. If the court has 34 judges, how many such benches can be formed simultaneously at most?",
+     "solution": "Step 1: Each constitutional bench needs 5 judges. Step 2: Total judges available = 34. Step 3: Maximum benches = 34 // 5 = 6 benches.",
+     "answer": "At most 6 constitutional benches of 5 judges each can be formed simultaneously"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the composition and jurisdictions of the Supreme Court of India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is the advisory jurisdiction of the Supreme Court?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.6.4",
+   "title": "High Courts",
+   "section": "High Courts",
+   "definition": "A High Court is the highest court of justice in a state, having jurisdiction over the whole or part of a state, with original and appellate powers, and standing at the head of the state's judicial administration above subordinate courts.",
+   "formula": "",
+   "key_idea": "High Courts are the apex courts of the states with the power of judicial review, writ jurisdiction under Article 226, and appellate jurisdiction over subordinate courts, forming the middle tier of India's judicial hierarchy.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the composition of a High Court?",
+    "Explain the jurisdiction of a High Court.",
+    "What is the writ jurisdiction of a High Court under Article 226?",
+    "How are judges of a High Court appointed?",
+    "What is the relationship between the High Court and subordinate courts?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define a High Court and its position",
+     "explain": "A High Court is the highest court in a state, headed by a Chief Justice and other judges appointed by the President."
+    },
+    {
+     "step": 2,
+     "action": "Explain its jurisdictions",
+     "explain": "A High Court has original jurisdiction over certain cases, appellate jurisdiction over subordinate courts, and writ jurisdiction under Article 226 wider than the Supreme Court's Article 32."
+    },
+    {
+     "step": 3,
+     "action": "Describe its supervisory role over subordinate courts",
+     "explain": "The High Court supervises all subordinate courts in the state, can transfer cases, and hears appeals from their decisions, making it the head of the state judiciary."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How is the writ jurisdiction of a High Court under Article 226 wider than that of the Supreme Court under Article 32?",
+     "solution": "Step 1: Article 32 allows the Supreme Court to issue writs only for the enforcement of fundamental rights. Step 2: Article 226 allows a High Court to issue writs for fundamental rights and for any other legal right. Step 3: Therefore the High Court's writ jurisdiction is wider.",
+     "answer": "A High Court can issue writs for both fundamental rights and other legal rights, while the Supreme Court can issue writs only for fundamental rights"
+    },
+    {
+     "question": "How are judges of a High Court appointed?",
+     "solution": "Step 1: High Court judges are appointed by the President. Step 2: The President consults the Chief Justice of India, the Chief Justice of the High Court, and the Governor. Step 3: Thus the appointment involves consultation with senior judicial and executive figures.",
+     "answer": "By the President in consultation with the Chief Justice of India, the Chief Justice of the High Court, and the Governor of the state"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the composition, jurisdiction, and supervisory role of a High Court.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is the writ jurisdiction of a High Court considered wider than that of the Supreme Court?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.6.5",
+   "title": "Subordinate Courts",
+   "section": "Subordinate Courts",
+   "definition": "Subordinate courts are the courts below the High Court in the judicial hierarchy, including district courts and other lower courts, which handle the bulk of civil and criminal cases at the district and lower levels.",
+   "formula": "",
+   "key_idea": "Subordinate courts form the base of the judicial pyramid, handling most cases at the district level, and are supervised by the High Court, ensuring justice reaches the grassroots.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are subordinate courts?",
+    "Explain the hierarchy of subordinate courts in a district.",
+    "What is the role of the District Judge?",
+    "How are subordinate courts different from the High Court?",
+    "What is the importance of subordinate courts in the judicial system?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define subordinate courts",
+     "explain": "Subordinate courts are the courts below the High Court that administer justice at the district and lower levels."
+    },
+    {
+     "step": 2,
+     "action": "Describe the hierarchy of subordinate courts",
+     "explain": "At the top is the District Court headed by the District Judge; below it are subordinate civil courts (like munsif courts) and criminal courts (like sessions courts) handling different types of cases."
+    },
+    {
+     "step": 3,
+     "action": "Explain their importance and supervision",
+     "explain": "Subordinate courts handle the majority of cases and make justice accessible to ordinary citizens; they are supervised by and appeal to the High Court."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the role of the District Judge in the judicial system?",
+     "solution": "Step 1: The District Judge is the highest judicial authority at the district level. Step 2: The District Judge hears civil cases and the Sessions Court hears criminal cases, often presided over by the same person. Step 3: Thus the District Judge is the head of the subordinate judiciary in the district.",
+     "answer": "The District Judge heads the subordinate judiciary in the district, hearing major civil and criminal cases"
+    },
+    {
+     "question": "Why are subordinate courts important even though they are at the bottom of the judicial hierarchy?",
+     "solution": "Step 1: Most cases originate at the district and lower levels. Step 2: Subordinate courts make justice accessible to ordinary citizens close to where they live. Step 3: Hence they are the foundation of the judicial system.",
+     "answer": "Because they handle the majority of cases and make justice accessible to citizens at the grassroots level"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the hierarchy and importance of subordinate courts in India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State two differences between subordinate courts and the High Court.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.6.6",
+   "title": "Judicial Review",
+   "section": "Judicial Review",
+   "definition": "Judicial review is the power of the judiciary to examine the constitutionality of legislative enactments and executive orders, and to declare them void if they violate the provisions of the Constitution.",
+   "formula": "",
+   "key_idea": "Judicial review is the mechanism by which the judiciary ensures that the legislature and the executive act within the limits set by the Constitution, making it a cornerstone of constitutional governance.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is judicial review?",
+    "Why is judicial review important in a constitutional democracy?",
+    "Explain the scope of judicial review in India.",
+    "Can the Supreme Court strike down a law passed by Parliament? Explain.",
+    "What is the difference between judicial review and judicial activism?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define judicial review",
+     "explain": "Judicial review is the power of the courts to examine whether laws and executive actions are consistent with the Constitution."
+    },
+    {
+     "step": 2,
+     "action": "Explain the scope of judicial review in India",
+     "explain": "The Supreme Court under Article 32 and High Courts under Article 226 can review laws, executive orders, and administrative actions for constitutional validity."
+    },
+    {
+     "step": 3,
+     "action": "Explain the significance of judicial review",
+     "explain": "Judicial review protects the Constitution, fundamental rights, and the federal balance by ensuring that no law or action exceeds constitutional limits."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Can the Supreme Court strike down a law passed by Parliament if it violates the Constitution?",
+     "solution": "Step 1: Parliament can make laws under its constitutional powers. Step 2: If a law violates the Constitution, the Supreme Court can examine it under judicial review. Step 3: The Court can declare such a law unconstitutional and void.",
+     "answer": "Yes, the Supreme Court can declare a law unconstitutional and void if it violates the Constitution"
+    },
+    {
+     "question": "Why is judicial review considered a cornerstone of constitutional governance?",
+     "solution": "Step 1: Judicial review checks whether the legislature and executive act within constitutional limits. Step 2: It protects fundamental rights and the federal structure. Step 3: Therefore it is a cornerstone of constitutional governance.",
+     "answer": "Because it ensures that all laws and actions conform to the Constitution, protecting rights and the federal balance"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning, scope, and importance of judicial review in India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Under which articles can the Supreme Court and High Courts exercise judicial review?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.6.7",
+   "title": "Writs: Habeas Corpus, Mandamus, Certiorari, Quo Warranto",
+   "section": "Writs",
+   "definition": "Writs are formal written orders issued by the Supreme Court under Article 32 and High Courts under Article 226 to enforce fundamental rights and other legal rights; the main writs are habeas corpus, mandamus, certiorari, prohibition, and quo warranto.",
+   "formula": "",
+   "key_idea": "Writs are powerful judicial tools that allow courts to protect rights and correct legal errors; habeas corpus protects personal liberty, mandamus compels duty, certiorari quashes orders, and quo warranto questions unlawful holding of office.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are writs and who can issue them?",
+    "Explain the writ of habeas corpus.",
+    "What is the difference between mandamus and certiorari?",
+    "Explain the writ of quo warranto with an example.",
+    "How do writs help in the enforcement of fundamental rights?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define writs and identify the issuing authorities",
+     "explain": "Writs are formal orders issued by the Supreme Court under Article 32 and High Courts under Article 226 to enforce fundamental and other legal rights."
+    },
+    {
+     "step": 2,
+     "action": "Explain each type of writ",
+     "explain": "Habeas corpus orders production of a detained person; mandamus commands a public authority to perform its duty; certiorari quashes an order of a lower court or tribunal; quo warranto questions the authority of a person holding a public office."
+    },
+    {
+     "step": 3,
+     "action": "Explain how writs protect rights",
+     "explain": "By allowing citizens to approach the courts directly for the enforcement of rights, writs provide a swift judicial remedy against unlawful detention, inaction, or unlawful occupation of office."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A person is detained by the police without being produced before a magistrate. Which writ can be issued to protect the person's liberty?",
+     "solution": "Step 1: The person has been detained unlawfully without judicial oversight. Step 2: Habeas corpus is the writ that orders the authority to produce the detained person before the court. Step 3: Therefore the writ of habeas corpus applies.",
+     "answer": "The writ of habeas corpus, which orders the authority to produce the detained person before the court"
+    },
+    {
+     "question": "A government officer refuses to issue a passport to a citizen despite the citizen fulfilling all legal requirements. Which writ can the citizen seek?",
+     "solution": "Step 1: The officer has a legal duty to issue the passport if requirements are met. Step 2: Mandamus is the writ that commands a public authority to perform its statutory duty. Step 3: Therefore the citizen can seek the writ of mandamus.",
+     "answer": "The writ of mandamus, which compels the authority to perform its legal duty"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the five types of writs issued by the courts in India and their purposes.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State the difference between certiorari and quo warranto.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.6.8",
+   "title": "Public Interest Litigation (PIL)",
+   "section": "Public Interest Litigation",
+   "definition": "Public Interest Litigation is a legal action initiated in a court for the enforcement of public interest or the rights of disadvantaged groups, in which the strict rule of locus standi is relaxed so that any public-spirited person can file a petition on behalf of affected persons.",
+   "formula": "",
+   "key_idea": "PIL allows any public-spirited citizen or organisation to approach the court on behalf of those who cannot approach it themselves, making justice accessible to the poor and marginalised and enabling the courts to address broad issues of public concern.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is Public Interest Litigation?",
+    "How does PIL differ from ordinary litigation?",
+    "Explain the concept of locus standi in the context of PIL.",
+    "What is the importance of PIL in protecting the rights of the poor?",
+    "Give an example of how PIL has been used to protect the environment."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define Public Interest Litigation",
+     "explain": "PIL is litigation filed for the protection of public interest, especially the rights of disadvantaged groups who cannot approach the court themselves."
+    },
+    {
+     "step": 2,
+     "action": "Explain the relaxation of locus standi",
+     "explain": "In PIL, the traditional rule that only the aggrieved person can file a case is relaxed; any public-spirited person or organisation can file a petition on behalf of the affected persons."
+    },
+    {
+     "step": 3,
+     "action": "Explain the significance of PIL",
+     "explain": "PIL has made justice accessible to the poor and marginalised, enabled the courts to address issues like bonded labour, environmental protection, and prisoners' rights, and expanded access to justice."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does PIL differ from ordinary litigation in terms of locus standi?",
+     "solution": "Step 1: In ordinary litigation, only the person whose rights are directly affected can file a case. Step 2: In PIL, any public-spirited person can file a case on behalf of affected persons. Step 3: Thus PIL relaxes the rule of locus standi.",
+     "answer": "In ordinary litigation only the aggrieved party can file; in PIL any public-spirited person can file on behalf of the affected"
+    },
+    {
+     "question": "A journalist writes about children working in a factory in violation of child labour laws. Can the journalist file a PIL? Explain.",
+     "solution": "Step 1: The children are being exploited and cannot approach the court themselves. Step 2: PIL allows a public-spirited person to file on behalf of the affected children. Step 3: Yes, the journalist can file a PIL against child labour.",
+     "answer": "Yes, the journalist can file a PIL on behalf of the child labourers since PIL relaxes locus standi for public interest"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning, features, and importance of Public Interest Litigation in India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is meant by relaxation of locus standi in PIL?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.6.9",
+   "title": "Judicial Activism",
+   "section": "Judicial Activism",
+   "definition": "Judicial activism refers to the proactive role of the judiciary in protecting the rights of citizens and ensuring good governance by interpreting the Constitution expansively, intervening in matters of public interest, and compelling the executive to perform its duties.",
+   "formula": "",
+   "key_idea": "Judicial activism is the judiciary going beyond its traditional role of interpreting laws to actively protect rights and ensure justice, often through PILs and expansive interpretations of fundamental rights.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is judicial activism?",
+    "How does judicial activism differ from judicial restraint?",
+    "Explain the role of PIL in promoting judicial activism.",
+    "What are the merits and demerits of judicial activism?",
+    "How has judicial activism contributed to the protection of fundamental rights?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define judicial activism",
+     "explain": "Judicial activism is the proactive role of the judiciary in interpreting the Constitution expansively and intervening to protect rights and ensure good governance."
+    },
+    {
+     "step": 2,
+     "action": "Explain how it operates",
+     "explain": "Judicial activism operates through PILs, expansive interpretation of fundamental rights, issuing directions to the executive, and taking up cases of public concern suo motu."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate its merits and demerits",
+     "explain": "Judicial activism has protected the rights of the poor and held the government accountable, but critics argue it can blur the separation of powers and lead to judicial overreach."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How has PIL contributed to judicial activism in India?",
+     "solution": "Step 1: PIL allows courts to take up issues of public concern on behalf of the disadvantaged. Step 2: Through PIL, courts have intervened in areas like environmental protection and prisoners' rights. Step 3: Thus PIL has been a major instrument of judicial activism.",
+     "answer": "PIL has enabled courts to proactively address public interest issues, making it a key instrument of judicial activism"
+    },
+    {
+     "question": "What is the main criticism of judicial activism?",
+     "solution": "Step 1: Judicial activism involves the judiciary intervening in matters traditionally handled by the executive or legislature. Step 2: This can blur the separation of powers among the three organs of government. Step 3: Hence the main criticism is that it may lead to judicial overreach.",
+     "answer": "That it can blur the separation of powers and lead to judicial overreach into the domain of the executive and legislature"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning, role, merits, and demerits of judicial activism in India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State one merit and one demerit of judicial activism.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

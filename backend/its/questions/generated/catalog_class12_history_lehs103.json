@@ -1,0 +1,53 @@
+{
+  "catalog": "catalog_class12_history_lehs103",
+  "concepts": [
+    {
+      "id": "lehs.103.1",
+      "questions": [
+        {"q": "To which sage is the composition of the Mahabharata attributed? (one word)", "a": "Vyasa"},
+        {"q": "Over roughly how many years did the Mahabharata grow through composition? (number of years)", "a": "1000"},
+        {"q": "How many years did the project of preparing the Mahabharata's critical edition take? (number of years)", "a": "47"},
+        {"q": "Which institute led the preparation of the Mahabharata's critical edition? (full name, four words)", "a": "Bhandarkar Oriental Research Institute"},
+        {"q": "About how many verses does the Sanskrit Mahabharata contain? (number)", "a": "100000"},
+        {"q": "In which language is the Mahabharata composed? (one word)", "a": "Sanskrit"},
+        {"q": "The critical edition compared Sanskrit versions gathered from across what? (one word)", "a": "subcontinent"}
+      ]
+    },
+    {
+      "id": "lehs.103.2",
+      "questions": [
+        {"q": "How many varnas does Brahmanical theory recognise? (number)", "a": "4"},
+        {"q": "Which varna stood at the bottom of the Brahmanical order? (one word)", "a": "shudra"},
+        {"q": "Which varna was assigned teaching and priesthood? (one word)", "a": "brahmana"},
+        {"q": "Which varna was assigned ruling and fighting? (one word)", "a": "kshatriya"},
+        {"q": "What term denotes birth-based occupational communities whose ranking varied by region? (one word)", "a": "jatis"},
+        {"q": "Which dharma texts laid down rules policing the boundaries between varnas? (one word)", "a": "Dharmasutras"},
+        {"q": "What status did Brahmanical texts mark out for groups that did not conform to varna rules? (one word)", "a": "untouchable"}
+      ]
+    },
+    {
+      "id": "lehs.103.3",
+      "questions": [
+        {"q": "What term describes the ideal system of descent through sons, which the Mahabharata's core story defends? (one word)", "a": "patriliny"},
+        {"q": "What term for women's property appears in Sanskrit legal discussions? (one word)", "a": "stridhana"},
+        {"q": "Which class of texts prescribed wives' subordination to husbands? (one word)", "a": "dharmashastras"},
+        {"q": "The Mahabharata's central conflict is a war between which two related sets of cousins? (one word)", "a": "Kauravas"},
+        {"q": "Which system of descent through daughters is recorded as an alternative in some communities? (one word)", "a": "matriliny"},
+        {"q": "Epic norms held that sons should offer what to dead ancestors, linking descent to ritual? (two words)", "a": "funeral offerings"},
+        {"q": "How many sons did the blind king Dhritarashtra have in the epic's core story? (number)", "a": "100"}
+      ]
+    },
+    {
+      "id": "lehs.103.4",
+      "questions": [
+        {"q": "Which status did kings of varied origins routinely claim to legitimise rule? (one word)", "a": "kshatriya"},
+        {"q": "Which Tamil region's sangam texts describe a social order different from varna? (one word)", "a": "Tamilakam"},
+        {"q": "Which body of Tamil literature gives a non-varna picture of society? (one word)", "a": "sangam"},
+        {"q": "Which urban occupational groups shaped the early historic economy according to social histories? (one word)", "a": "artisans"},
+        {"q": "Does varna theory exhaustively describe Indian social practice, according to historians? (yes or no)", "a": "no"},
+        {"q": "Which social group working in towns is highlighted as shaping economic life beyond varna categories? (one word)", "a": "workers"},
+        {"q": "The Mahabharata itself contains stories that question ideal varna behaviour: does the text present a single uniform social order? (yes or no)", "a": "no"}
+      ]
+    }
+  ]
+}

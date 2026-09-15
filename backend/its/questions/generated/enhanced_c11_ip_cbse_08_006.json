@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_08_006",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_08_006",
+   "title": "c11_ip_cbse_08_006",
+   "questions": [
+    {
+     "q": "What is the exact purpose of the `label` parameter inside `plt.plot()` and how does it relate to `plt.legend()`?",
+     "a": "The `label` parameter assigns a text identifier to a specific data series (line, bar, scatter). `plt.legend()` then collects all labels from the current axes and displays them in a legend box. If `label` is omitted in `plt.plot()`, that series will not appear in the legend. A wrong answer (e.g., thinking `plt.legend()` automatically uses variable names) reveals the student confuses Python variable names with plot labels.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `plt.xlabel('Time')` and `plt.ylabel('Speed')` *after* `plt.savefig('graph.png')`. The saved image has no axis labels. Explain why this happens and how to correct it.",
+     "a": "Matplotlib renders the figure at the moment `savefig()` is called. Any customization functions called after `savefig()` affect the figure in memory but are not written to the already-saved file. The correct order is: all plotting and customization calls, then `savefig()`, then optionally `show()`. A wrong answer indicates the student treats `savefig()` as a background process rather than a snapshot of the current figure state.",
+     "self_check": true
+    },
+    {
+     "q": "You have two datasets: `x = [1,2,3]`, `y1 = [2,4,6]`, `y2 = [1,3,5]`. Write the minimal sequence of pyplot commands to produce a single figure with both lines, a legend showing 'Series A' and 'Series B', axis labels 'X-axis' and 'Y-axis', title 'Comparison', and save it as 'comp.png' with 200 dpi.",
+     "a": "```python\nimport matplotlib.pyplot as plt\nplt.plot(x, y1, label='Series A')\nplt.plot(x, y2, label='Series B')\nplt.xlabel('X-axis')\nplt.ylabel('Y-axis')\nplt.title('Comparison')\nplt.legend()\nplt.savefig('comp.png', dpi=200)\n```\nMissing any `label` or calling `legend()` before plotting both lines would produce an incomplete legend. A wrong answer shows the student cannot sequence the commands correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effect of `plt.title('Sales')` versus `plt.suptitle('Sales')` when used in a script that creates a single plot. When would you choose one over the other?",
+     "a": "`plt.title()` sets the title of the current Axes (the individual plot), while `plt.suptitle()` sets a figure-level super-title centered above all subplots. For a single plot, both appear visually similar but `suptitle` is slightly higher. Use `title()` for single plots or per-subplot titles; use `suptitle()` when you have multiple subplots and want an overarching title. A wrong answer suggests the student does not understand the Figure vs Axes hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "A student wants to save a plot as a PDF with transparent background. They write `plt.savefig('plot.pdf', transparent='True')`. The background remains white. Identify the error and explain the correct argument.",
+     "a": "The argument `transparent` expects a boolean `True`, not the string `'True'`. The correct call is `plt.savefig('plot.pdf', transparent=True)`. Passing a string is interpreted as truthy but Matplotlib's internal check uses `is True`, so it fails silently. This reveals a misunderstanding of Python types in keyword arguments.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new real-world scenario (different from electricity consumption) where you would need to plot three data series on one chart, customize all elements (labels, title, legend), and save the figure. Describe the dataset, the chart type, and the exact customization choices you would make (including units in labels).",
+     "a": "Example: Compare the monthly average temperature (°C) of three cities (Delhi, Mumbai, Chennai) over a year using a line chart. Dataset: months 1-12, three temperature lists. Customization: `xlabel('Month')`, `ylabel('Temperature (°C)')`, `title('Monthly Average Temperature Comparison - 2023')`, each `plot()` with `label='City Name'`, `legend(loc='upper right')`, `savefig('temp_comparison.png', dpi=300)`. A poor answer lacks units in labels, omits legend location, or chooses an inappropriate chart type (e.g., pie chart for time series).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

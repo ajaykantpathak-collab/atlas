@@ -1,0 +1,723 @@
+{
+ "class": 12,
+ "subject": "business_studies",
+ "chapter": 202,
+ "chapter_title": "Marketing",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\ClassXII_2024-25_BusinessStudies-SQP.txt",
+ "concepts": [
+  {
+   "id": "lebs.10.1",
+   "title": "Modern Concept of Marketing",
+   "section": "10.1",
+   "definition": "A social and managerial framework where individuals and groups trade items of value to satisfy their requirements and desires.",
+   "formula": "Value = Benefits - Cost",
+   "key_idea": "Satisfaction of customer needs through voluntary exchange of value.",
+   "textbook_ref": "lebs202.txt lines 40-65",
+   "question_patterns": [
+    "Define marketing as a social process",
+    "What are the core features of the marketing concept?",
+    "Explain the importance of customer value in marketing",
+    "How does marketing facilitate exchange?",
+    "Explain Modern Concept of Marketing with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify needs and wants",
+     "explain": "Determine the basic requirements and culturally shaped desires of the target audience."
+    },
+    {
+     "step": 2,
+     "action": "Create market offering",
+     "explain": "Develop a complete product or service package with specific features and price."
+    },
+    {
+     "step": 3,
+     "action": "Ensure exchange mechanism",
+     "explain": "Verify that at least two parties exist, each with something of value and the freedom to accept or reject the offer."
+    }
+   ]
+  },
+  {
+   "id": "lebs.10.2",
+   "title": "Marketing Management Philosophies",
+   "section": "10.2",
+   "definition": "The different orientations (Production, Product, Selling, Marketing, and Societal) that guide an organization's marketing efforts.",
+   "formula": "Profit = (Price * Volume) - Total_Cost",
+   "key_idea": "The evolution of business focus from mere production to long-term social welfare.",
+   "textbook_ref": "lebs202.txt lines 140-210",
+   "question_patterns": [
+    "Distinguish between the selling and marketing concepts",
+    "What is the main focus of the societal marketing concept?",
+    "Explain the production concept of marketing",
+    "Compare different marketing management philosophies",
+    "Explain Marketing Management Philosophies with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the starting point",
+     "explain": "Determine if the focus begins in the factory (production/selling) or the market (marketing/societal)."
+    },
+    {
+     "step": 2,
+     "action": "Determine the means",
+     "explain": "Identify if the goal is achieved through volume, quality, aggressive promotion, or integrated marketing."
+    },
+    {
+     "step": 3,
+     "action": "Analyze the end goal",
+     "explain": "Assess if the objective is profit through sales volume or profit through customer satisfaction and social well-being."
+    }
+   ]
+  },
+  {
+   "id": "lebs.10.3",
+   "title": "Classification of Consumer Products",
+   "section": "10.3",
+   "definition": "Categorizing goods purchased for personal use based on shopping effort (Convenience, Shopping, Speciality) and durability (Durable, Non-durable, Services).",
+   "formula": "Total_Products = Convenience + Shopping + Speciality",
+   "key_idea": "Products are classified to determine the appropriate marketing strategy and distribution intensity.",
+   "textbook_ref": "lebs202.txt lines 310-360",
+   "question_patterns": [
+    "Classify consumer products based on shopping efforts",
+    "What are the characteristics of convenience goods?",
+    "Differentiate between durable and non-durable products",
+    "Give examples of speciality products",
+    "Explain Classification of Consumer Products with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Assess purchase frequency",
+     "explain": "Frequent purchases with minimal effort indicate convenience goods."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate comparison time",
+     "explain": "Significant time spent comparing price and quality indicates shopping goods."
+    },
+    {
+     "step": 3,
+     "action": "Check brand loyalty",
+     "explain": "High loyalty and special purchase efforts indicate speciality goods."
+    }
+   ]
+  },
+  {
+   "id": "lebs.10.4",
+   "title": "Branding and Trademarks",
+   "section": "10.4",
+   "definition": "The process of assigning a unique name, sign, or symbol to a product to differentiate it from competitors and provide legal protection.",
+   "formula": "Brand = Brand_Name + Brand_Mark",
+   "key_idea": "Branding creates product identity and builds customer loyalty.",
+   "textbook_ref": "lebs202.txt lines 390-420",
+   "question_patterns": [
+    "What are the components of a brand?",
+    "Define a trademark and its importance",
+    "List the characteristics of a good brand name",
+    "How does branding help in product differentiation?",
+    "Explain Branding and Trademarks with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the verbal component",
+     "explain": "The brand name is the part that can be spoken."
+    },
+    {
+     "step": 2,
+     "action": "Identify the visual component",
+     "explain": "The brand mark is the symbol or design that is recognized but not spoken."
+    },
+    {
+     "step": 3,
+     "action": "Verify legal status",
+     "explain": "A trademark is a brand that has been granted legal protection against unauthorized use."
+    }
+   ]
+  },
+  {
+   "id": "lebs.10.5",
+   "title": "Levels of Packaging",
+   "section": "10.5",
+   "definition": "The three distinct layers of containers or wrappers used to protect, identify, and transport a product.",
+   "formula": "Total_Packaging = Primary + Secondary + Transportation",
+   "key_idea": "Packaging serves functional, protective, and promotional purposes.",
+   "textbook_ref": "lebs202.txt lines 430-460",
+   "question_patterns": [
+    "Explain the three levels of packaging",
+    "What is the role of primary packaging?",
+    "Why is transportation packaging necessary?",
+    "Describe packaging as a promotional tool",
+    "Explain Levels of Packaging with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify immediate container",
+     "explain": "Primary packaging is in direct contact with the product (e.g., toothpaste tube)."
+    },
+    {
+     "step": 2,
+     "action": "Identify additional protection",
+     "explain": "Secondary packaging is the extra layer kept until use (e.g., cardboard box for the tube)."
+    },
+    {
+     "step": 3,
+     "action": "Identify bulk packaging",
+     "explain": "Transportation packaging is used for storage and shipping (e.g., corrugated crates)."
+    }
+   ]
+  },
+  {
+   "id": "lebs.10.6",
+   "title": "Functions of Labelling",
+   "section": "10.6",
+   "definition": "Designing information carriers for a product package to describe contents, identify brands, and comply with legal requirements.",
+   "formula": "Label_Info = Description + Identification + Grade + Promotion + Legal_Statutes",
+   "key_idea": "Labels communicate essential product details and marketing messages to the consumer.",
+   "textbook_ref": "lebs202.txt lines 480-520",
+   "question_patterns": [
+    "What are the main functions of a label?",
+    "How does labelling help in grading products?",
+    "Mention the legal information required on a food label",
+    "How does a label assist in product promotion?",
+    "Explain Functions of Labelling with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe and specify",
+     "explain": "List ingredients, usage instructions, and product features."
+    },
+    {
+     "step": 2,
+     "action": "Identify and Grade",
+     "explain": "Use brand names to distinguish the product and assign quality levels (e.g., Red Label tea)."
+    },
+    {
+     "step": 3,
+     "action": "Ensure legal compliance",
+     "explain": "Include mandatory data like MRP, expiry date, and statutory warnings."
+    }
+   ]
+  },
+  {
+   "id": "lebs.10.7",
+   "title": "Product Cost Calculation",
+   "section": "10.7",
+   "definition": "Determining the total expenditure incurred in producing, distributing, and selling a product to set the floor price.",
+   "formula": "total_cost = fixed_cost + (unit_variable_cost * quantity) + semi_variable_cost",
+   "key_idea": "Cost sets the minimum price level a firm must cover to survive in the long run.",
+   "textbook_ref": "lebs202.txt lines 540-570",
+   "question_patterns": [
+    "Calculate the total cost of production",
+    "Find the floor price for a product given its costs",
+    "What is the total cost if fixed cost is ... and variable cost is ...?",
+    "Calculate total variable cost for a given quantity",
+    "Numerical: apply Product Cost Calculation and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate total variable cost",
+     "explain": "Multiply the variable cost per unit by the total quantity produced.",
+     "compute": "total_variable = unit_variable_cost * quantity"
+    },
+    {
+     "step": 2,
+     "action": "Sum all cost components",
+     "explain": "Add fixed costs, total variable costs, and semi-variable costs to find total cost.",
+     "compute": "total_cost = fixed_cost + total_variable + semi_variable_cost"
+    },
+    {
+     "step": 3,
+     "action": "Determine final price with profit",
+     "explain": "Add the desired profit margin to the total cost.",
+     "compute": "final_price = total_cost + profit_margin"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Product Cost Calculation, compute the result for unit_variable_cost = 3, quantity = 3, fixed_cost = 3, semi_variable_cost = 2, profit_margin = 2.",
+     "solution": "Step 1: Calculate total variable cost: total_variable = unit_variable_cost * quantity = 9.0 Step 2: Sum all cost components: total_cost = fixed_cost + total_variable + semi_variable_cost = 14.0 Step 3: Determine final price with profit: final_price = total_cost + profit_margin = 16.0 Final result: 16.0",
+     "answer": "16.0"
+    },
+    {
+     "question": "Using Product Cost Calculation, compute the result for unit_variable_cost = 4, quantity = 4, fixed_cost = 4, semi_variable_cost = 3, profit_margin = 3.",
+     "solution": "Step 1: Calculate total variable cost: total_variable = unit_variable_cost * quantity = 16.0 Step 2: Sum all cost components: total_cost = fixed_cost + total_variable + semi_variable_cost = 23.0 Step 3: Determine final price with profit: final_price = total_cost + profit_margin = 26.0 Final result: 26.0",
+     "answer": "26.0"
+    }
+   ]
+  },
+  {
+   "id": "lebs.10.8",
+   "title": "Physical Distribution Components",
+   "section": "10.8",
+   "definition": "The set of activities involved in moving goods from the point of production to the point of consumption.",
+   "formula": "Distribution_Efficiency = Order_Speed + Transport_Reliability - Inventory_Cost",
+   "key_idea": "Ensuring product availability at the right place and time through logistics management.",
+   "textbook_ref": "lebs202.txt lines 610-660",
+   "question_patterns": [
+    "What are the four major components of physical distribution?",
+    "Explain the importance of inventory control",
+    "How does warehousing create time utility?",
+    "Describe the role of order processing in distribution",
+    "Explain Physical Distribution Components with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Process orders",
+     "explain": "Manage the flow of information from customer to manufacturer."
+    },
+    {
+     "step": 2,
+     "action": "Manage transportation",
+     "explain": "Physically move raw materials and finished goods between locations."
+    },
+    {
+     "step": 3,
+     "action": "Maintain inventory and warehousing",
+     "explain": "Store goods to bridge the time gap between production and consumption while balancing stock levels."
+    }
+   ]
+  },
+  {
+   "id": "lebs.10.9",
+   "title": "Promotion Mix Elements",
+   "section": "10.9",
+   "definition": "The specific combination of advertising, personal selling, sales promotion, and public relations used to communicate with customers.",
+   "formula": "Promotion_Mix = Advertising + Personal_Selling + Sales_Promotion + Publicity",
+   "key_idea": "Using multiple communication tools to inform and persuade potential buyers.",
+   "textbook_ref": "lebs202.txt lines 680-720",
+   "question_patterns": [
+    "Define the elements of the promotion mix",
+    "What are the features of advertising?",
+    "Explain the role of personal selling",
+    "How does sales promotion differ from advertising?",
+    "Explain Promotion Mix Elements with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify impersonal communication",
+     "explain": "Advertising is a paid, impersonal form of communication by an identified sponsor."
+    },
+    {
+     "step": 2,
+     "action": "Identify personal interaction",
+     "explain": "Personal selling involves direct conversation with prospective buyers."
+    },
+    {
+     "step": 3,
+     "action": "Identify short-term incentives",
+     "explain": "Sales promotion includes activities like discounts and samples to boost immediate sales."
+    }
+   ]
+  },
+  {
+   "id": "lebs.10.8.4",
+   "title": "Sales Promotion Techniques and Tools",
+   "section": "10.8.3",
+   "definition": "Tactical marketing incentives designed to induce immediate purchases through special offers, draws, gifts, and extra product quantities.",
+   "formula": "none",
+   "key_idea": "Short-term consumer incentives boost immediate product trials and sales volume.",
+   "textbook_ref": "lebs202.txt lines 1-20",
+   "question_patterns": [
+    "what are instant draws and assigned gifts in sales promotion",
+    "explain lucky draw as a tool of sales promotion",
+    "give examples of quantity deals and extra product offers",
+    "how do short-term incentives encourage immediate purchase",
+    "Explain Sales Promotion Techniques and Tools with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the incentive scheme",
+     "explain": "Determine whether the promotional offer involves instant rewards, lotteries, or bonus product units."
+    },
+    {
+     "step": 2,
+     "action": "explain customer motivation",
+     "explain": "Demonstrate how the prospective immediate gain drives the consumer to complete the purchase promptly."
+    }
+   ]
+  },
+  {
+   "id": "lebs.10.8.5",
+   "title": "Concept and Significance of Public Relations",
+   "section": "10.8.4",
+   "definition": "A systematic strategic practice of cultivating and sustaining positive perceptions and strong relations between an enterprise and its diverse public stakeholders.",
+   "formula": "none",
+   "key_idea": "Building and protecting goodwill among suppliers, customers, shareholders, media, and government.",
+   "textbook_ref": "lebs202.txt lines 21-65",
+   "question_patterns": [
+    "what is public relations in marketing",
+    "why is managing public opinion crucial for an enterprise",
+    "who are the key stakeholder groups targeted by public relations",
+    "explain how public relations protects a company's brand image",
+    "Explain Concept and Significance of Public Relations with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the target public",
+     "explain": "Classify external and internal groups such as dealers, consumer activists, regulatory bodies, and customers."
+    },
+    {
+     "step": 2,
+     "action": "state the PR objective",
+     "explain": "Establish whether the activity aims to generate goodwill, counter negative publicity, or foster mutual trust."
+    }
+   ]
+  },
+  {
+   "id": "lebs.10.8.6",
+   "title": "Functions of Public Relations Department",
+   "section": "10.8.4",
+   "definition": "The core operational tasks executed by the public relations team, encompassing publicity, news releases, internal communication, government lobbying, and management counselling.",
+   "formula": "none",
+   "key_idea": "PR teams manage media stories, stakeholder publications, public policy interaction, and advisory roles.",
+   "textbook_ref": "lebs202.txt lines 66-140",
+   "question_patterns": [
+    "what are the main functions performed by a public relations department",
+    "explain lobbying as a public relations activity",
+    "how does corporate communication build organizational goodwill",
+    "describe the counselling role of public relations in corporate social causes",
+    "what role do press releases play in disseminating accurate company news"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the relevant PR function",
+     "explain": "Match the scenario with publicity, press release, corporate communication, lobbying, or counselling."
+    },
+    {
+     "step": 2,
+     "action": "explain the functional mechanism",
+     "explain": "Detail how the specific activity fosters positive stakeholder attitudes or assists corporate strategy."
+    }
+   ]
+  },
+  {
+   "id": "lebs.10.8.7",
+   "title": "Publicity as a Promotion Tool",
+   "section": "10.8.4",
+   "definition": "A non-personal form of communication about an enterprise or its offerings carried by the mass media without payment or identified commercial sponsorship.",
+   "formula": "none",
+   "key_idea": "Independent media coverage gives publicity higher credibility than sponsored advertisements.",
+   "textbook_ref": "lebs202.txt lines 71-105",
+   "question_patterns": [
+    "define publicity and explain its main characteristics",
+    "how is publicity different from advertising in terms of cost and sponsorship",
+    "why does publicity carry greater credibility than sponsored ads",
+    "what are the limitations of publicity as a promotional tool",
+    "Explain Publicity as a Promotion Tool with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check payment and sponsorship status",
+     "explain": "Verify that the message appears as non-paid editorial or news content without an identified corporate sponsor."
+    },
+    {
+     "step": 2,
+     "action": "evaluate credibility and control",
+     "explain": "Note that independent third-party coverage enhances message credibility while remaining outside firm control."
+    }
+   ]
+  },
+  {
+   "id": "lebs.10.8.8",
+   "title": "Marketing Objectives Achieved by Public Relations",
+   "section": "10.8.4",
+   "definition": "Strategic commercial outcomes attained through public relations, including creating pre-launch buzz, establishing product credibility, aiding the sales force, and lowering promotional expenses.",
+   "formula": "none",
+   "key_idea": "Effective PR facilitates channel cooperation and market excitement prior to formal advertising.",
+   "textbook_ref": "lebs202.txt lines 170-200",
+   "question_patterns": [
+    "how does public relations help in building market awareness",
+    "explain how public relations stimulates the sales force and dealer network",
+    "why does maintaining good public relations lower overall promotion costs",
+    "in what ways does media coverage enhance brand credibility",
+    "Explain Marketing Objectives Achieved by Public Relations with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the marketing objective",
+     "explain": "Identify whether the focus is awareness creation, credibility, dealer motivation, or cost minimization."
+    },
+    {
+     "step": 2,
+     "action": "link PR initiative to sales enablement",
+     "explain": "Show how media coverage prior to launch simplifies dealer acquisition and customer acceptance."
+    }
+   ]
+  },
+  {
+   "id": "lebs.10.8.9",
+   "title": "Comparison Between Advertising and Personal Selling",
+   "section": "10.8.5",
+   "definition": "The comparative framework distinguishing impersonal, mass-reach, rigid paid media promotions from flexible, interactive, direct personal sales conversations.",
+   "formula": "none",
+   "key_idea": "Advertising maximizes mass reach at low per-contact cost, whereas personal selling provides tailored messages and immediate feedback.",
+   "textbook_ref": "lebs202.txt lines 141-170",
+   "question_patterns": [
+    "distinguish between advertising and personal selling",
+    "compare advertising and personal selling in terms of flexibility and feedback",
+    "which promotional tool is more effective for industrial goods versus consumer goods",
+    "how do advertising and personal selling differ in cost per person reached",
+    "state any four points of difference between advertising and personal selling"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "contrast communication form and reach",
+     "explain": "Note that advertising is impersonal with wide reach, while personal selling is direct and interpersonal."
+    },
+    {
+     "step": 2,
+     "action": "contrast message adaptability and feedback",
+     "explain": "Highlight that personal selling is flexible with instant feedback, whereas advertising transmits standardized fixed messages."
+    }
+   ]
+  },
+  {
+   "id": "lebs.10.6.1",
+   "title": "Marketing Mix and Its Core Components",
+   "section": "Summary",
+   "definition": "The set of controllable tactical marketing instruments that an enterprise combines to elicit the desired response from target market segments.",
+   "formula": "Marketing Mix = Product + Price + Place + Promotion",
+   "key_idea": "The 4 Ps are harmonized to satisfy consumer wants and attain business goals.",
+   "textbook_ref": "lebs202.txt lines 215-240",
+   "question_patterns": [
+    "what is meant by marketing mix",
+    "explain the four Ps of marketing mix",
+    "how do product, price, place, and promotion interact in marketing strategy",
+    "describe the main elements of the marketing mix",
+    "Explain Marketing Mix and Its Core Components with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the marketing mix elements",
+     "explain": "Classify the marketing activities into product offer, price determination, distribution channel (place), and promotion."
+    },
+    {
+     "step": 2,
+     "action": "assess overall alignment",
+     "explain": "Verify that all four components work cohesively to deliver targeted customer value."
+    }
+   ]
+  },
+  {
+   "id": "lebs.10.7.1",
+   "title": "Components of Physical Distribution",
+   "section": "Summary",
+   "definition": "The operational activities required to physically transfer products efficiently from the manufacturing location to end consumers.",
+   "formula": "Physical Distribution = Order Processing + Transportation + Warehousing + Inventory Control",
+   "key_idea": "Effective logistics ensures time, place, and quantity utility for customer orders.",
+   "textbook_ref": "lebs202.txt lines 255-270",
+   "question_patterns": [
+    "what are the main components of physical distribution",
+    "explain the role of warehousing and inventory control in physical distribution",
+    "how does order processing affect physical distribution efficiency",
+    "describe the major activities involved in the physical movement of goods",
+    "Explain Components of Physical Distribution with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify logistical components",
+     "explain": "List order processing, transportation, storage/warehousing, and inventory management."
+    },
+    {
+     "step": 2,
+     "action": "evaluate service and cost trade-offs",
+     "explain": "Ensure speed of delivery and availability are balanced against holding and transit costs."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lebs202.txt lines 550-565",
+   "concept": "lebs.10.7",
+   "question_type": "calculate_total_cost",
+   "question_pattern": "A manufacturer has a fixed cost of {fixed_cost}, a variable cost per unit of {unit_variable_cost}, and semi-variable costs of {semi_variable_cost}. Calculate the total cost for producing {quantity} units with a profit margin of {profit_margin}.",
+   "extracted_variables": {
+    "fixed_cost": "cost that does not change with volume",
+    "unit_variable_cost": "cost per single unit",
+    "semi_variable_cost": "costs that vary but not proportionately",
+    "quantity": "number of units produced",
+    "profit_margin": "desired earnings above cost"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate total variable cost",
+     "explain": "Multiply unit variable cost by quantity.",
+     "compute": "total_variable = unit_variable_cost * quantity"
+    },
+    {
+     "step": 2,
+     "action": "Sum all costs",
+     "explain": "Add fixed, total variable, and semi-variable costs.",
+     "compute": "total_cost = fixed_cost + total_variable + semi_variable_cost"
+    },
+    {
+     "step": 3,
+     "action": "Calculate final price",
+     "explain": "Add profit margin to total cost.",
+     "compute": "final_price = total_cost + profit_margin"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex1",
+   "source_ref": "lebs202.txt lines 75-95",
+   "concept": "lebs.10.8.7",
+   "question_type": "conceptual_application",
+   "question_pattern": "A manufacturer develops an innovative eco-friendly engine. National news channels cover this breakthrough in their prime-time news bulletin without charging any fee. Identify and explain the promotional tool involved.",
+   "extracted_variables": {
+    "event": "Prime-time news bulletin coverage of a product innovation",
+    "payment_status": "Non-paid by manufacturer",
+    "sponsor": "Independent media reporting"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify promotional tool",
+     "explain": "The promotional tool is Publicity because it is an unpaid, non-personal transmission of favourable news by an independent media source."
+    },
+    {
+     "step": 2,
+     "action": "highlight distinct features",
+     "explain": "Publicity involves no direct advertising expenditure and has no identified corporate sponsor, which gives the coverage high credibility."
+    }
+   ]
+  },
+  {
+   "id": "p2_ex2",
+   "source_ref": "lebs202.txt lines 141-170",
+   "concept": "lebs.10.8.9",
+   "question_type": "comparison_analysis",
+   "question_pattern": "Distinguish between advertising and personal selling on the basis of message flexibility, reach, and nature of feedback.",
+   "extracted_variables": {
+    "basis_1": "Flexibility",
+    "basis_2": "Reach",
+    "basis_3": "Feedback"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compare message flexibility",
+     "explain": "Advertising uses standardized inflexible messages, whereas personal selling is highly flexible and tailored to individual customer needs."
+    },
+    {
+     "step": 2,
+     "action": "compare market reach and feedback",
+     "explain": "Advertising reaches mass audiences quickly with delayed research-based feedback, while personal selling contacts limited prospects with direct immediate feedback."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex10.1",
+   "source_ref": "lebs202.txt lines 240-250",
+   "questions": [
+    "Explain the 'Marketing Concept' as a philosophy of management.",
+    "List any four items that can be marketed other than physical products.",
+    "Differentiate between Marketing and Selling on the basis of 'Focus' and 'Objective'.",
+    "What are the pillars of the Marketing Concept?",
+    "Define 'Market Offering' with an example."
+   ]
+  },
+  {
+   "id": "ex10.2",
+   "source_ref": "lebs202.txt lines 780-795",
+   "questions": [
+    "Explain the various functions of packaging.",
+    "What is the difference between a Brand Name and a Brand Mark?",
+    "Describe any three sales promotion techniques commonly used by marketers.",
+    "How does advertising help in increasing the economy of scale?",
+    "Explain the factors that affect the price determination of a product."
+   ]
+  },
+  {
+   "id": "p2_ex10.vsa",
+   "source_ref": "lebs202.txt lines 295-310",
+   "questions": [
+    "State any two advantages of branding to marketers of goods and services.",
+    "How does branding help in differential pricing?",
+    "What is the societal concept of marketing?",
+    "Enlist the advantages of packaging of consumer products.",
+    "List five shopping products purchased by you or your family during the last few months.",
+    "A marketer of colour TV having 20% of the current market share of the country aims at enhancing the market share to 50 per cent in next three years. For achieving this objective he specified an action programme. Name the function of marketing being discussed above."
+   ]
+  },
+  {
+   "id": "p2_ex10.sa",
+   "source_ref": "lebs202.txt lines 311-335",
+   "questions": [
+    "What is marketing? What functions does it perform in the process of exchange of goods and services? Explain.",
+    "Distinguish between the product concept and production concept of marketing.",
+    "Product is a bundle of utilities. Explain.",
+    "What are industrial products? How are they different from consumer products? Explain.",
+    "Distinguish between convenience product and shopping product.",
+    "Describe the functions of labeling in the marketing of products.",
+    "Discuss the role of intermediaries in the distribution of consumer non-durable products.",
+    "Define advertising? What are its main features? Explain.",
+    "Discuss the role of 'sales promotion' as an element of promotion mix.",
+    "As the marketing manager of a big hotel located at an important tourist destination, what societal concerns would be faced by you and what steps would you plan to take care of these concerns? Discuss.",
+    "What information is generally placed on the package of a food product? Design a label for one of the food products of your choice.",
+    "For buyers of consumer durable products, what 'customer care services' would you plan as a manager of a firm marketing new brand of motorcycle. Discuss."
+   ]
+  },
+  {
+   "id": "p2_ex10.la",
+   "source_ref": "lebs202.txt lines 336-355",
+   "questions": [
+    "What is marketing concept? How does it help in the effective marketing of goods and services.",
+    "What is marketing mix? What are its main elements? Explain.",
+    "How does branding help in creating product differentiation? Does it help in marketing of goods and services? Explain.",
+    "What are the factors affecting determination of the price of a product or service? Explain.",
+    "Explain the major activities involved in the physical distribution of products.",
+    "'Expenditure on advertising is a social waste.' Do you agree? Discuss.",
+    "Distinguish between advertising and personal selling.",
+    "Explain the factors determining the choice of channel of distribution."
+   ]
+  },
+  {
+   "id": "p2_ex10.proj",
+   "source_ref": "lebs202.txt lines 356-365",
+   "questions": [
+    "Identify a product or service for a new launch for attracting potential consumers for your product. Prepare a project file to: (a) Advertise the product or service selected, (b) Write a Press Release for the launch of new product or service, (c) Publicity of your product as a PR tool."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

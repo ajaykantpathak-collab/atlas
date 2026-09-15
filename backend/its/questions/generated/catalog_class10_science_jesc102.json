@@ -1,0 +1,71 @@
+{
+ "catalog": "catalog_class10_science_jesc102.json",
+ "concepts": [
+  {
+   "id": "jesc.102.2.1",
+   "title": "Understanding Acids, Bases and Their Chemical Properties",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "State three chemical properties of acids.",
+     "a": "Acids turn blue litmus red, react with metals giving hydrogen, and with carbonates giving CO2.",
+     "self_check": true
+    },
+    {
+     "q": "What is common in all acids that makes them behave alike?",
+     "a": "In water all acids release hydrogen ions (hydronium ions).",
+     "self_check": true
+    },
+    {
+     "q": "Why is lime water used to test acids of carbonates?",
+     "a": "The CO2 released turns lime water milky, confirming the acid-carbonate reaction.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.102.2.2",
+   "title": "pH Scale - Strength and Importance",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What does the pH of a solution tell us?",
+     "a": "It tells how acidic or basic a solution is: pH under 7 acidic, 7 neutral, above 7 basic.",
+     "self_check": true
+    },
+    {
+     "q": "Which has a lower pH, lemon juice or soap solution?",
+     "a": "Lemon juice (acidic, pH about 2) has much lower pH than a soap solution (basic, pH about 9-10).",
+     "self_check": true
+    },
+    {
+     "q": "Why must an antacid be taken for acidity?",
+     "a": "It neutralises excess stomach acid, relieving the burning pain of indigestion.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.102.2.3",
+   "title": "Salts and Their Families",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a salt family?",
+     "a": "Salts sharing the same positive or negative radical belong to one family, e.g. sodium chloride and sodium sulphate are sodium salts.",
+     "self_check": true
+    },
+    {
+     "q": "Name the salt used in baking and state why cakes rise.",
+     "a": "Baking soda (sodium hydrogencarbonate) releases CO2 on heating, puffing up the cake.",
+     "self_check": true
+    },
+    {
+     "q": "Which salt family do plaster of Paris and gypsum belong to?",
+     "a": "Calcium salts (calcium sulphate family).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

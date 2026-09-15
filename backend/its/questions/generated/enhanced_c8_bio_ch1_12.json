@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_bio_ch1_12",
+ "concepts": [
+  {
+   "id": "enh:c8_bio_ch1_12",
+   "title": "c8_bio_ch1_12",
+   "questions": [
+    {
+     "q": "Which type of microorganism is responsible for causing tuberculosis (TB) and cholera in humans?",
+     "a": "Bacteria. A wrong answer indicates confusion between major groups of microorganisms; students often lump all pathogens together as \"germs\" without distinguishing between bacterial infections (like TB and cholera) and viral infections (like polio or chickenpox).",
+     "self_check": true
+    },
+    {
+     "q": "Why does boiling milk help to keep it from spoiling quickly compared to unboiled milk left at room temperature?",
+     "a": "Boiling kills most of the active spoilage microorganisms present in the raw milk by denaturing their cellular proteins through high heat. A wrong answer reveals the misconception that boiling removes nutrients or that heat permanently sterilizes milk forever, forgetting that microbes from the surrounding air can recontaminate it once it cools.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes that bread left in a damp, dark kitchen corner develops a fluffy, greenish-black patch after two days. Identify the microorganism responsible and explain how it obtained nutrition from the bread.",
+     "a": "Steps: 1. Identify the fuzzy growth as a fungus (specifically mold, such as Rhizopus). 2. Recognize that fungi are heterotrophic and lack chlorophyll, so they cannot perform photosynthesis. 3. Explain that the fungus secretes digestive enzymes onto the bread to break down complex carbohydrates externally. 4. Conclude that it absorbs the digested soluble nutrients to fuel its growth. A wrong answer shows a failure to connect fungal saprophytic nutrition with the moist, nutrient-rich environment of spoiled food.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mode of transmission of malaria versus the mode of transmission of tuberculosis. How do their vectors or pathways differ?",
+     "a": "Tuberculosis is transmitted through airborne droplets when an infected person coughs or sneezes, transferring bacteria directly to a new host's respiratory tract. In contrast, malaria is transmitted via a vector—the female Anopheles mosquito—which injects protozoan parasites (Plasmodium) directly into the human bloodstream during a blood meal. A wrong answer indicates that the student thinks all diseases spread through the air or that all diseases require animal vectors.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the practice of adding a high concentration of salt or sugar to raw mangoes to make pickles. Does this method kill existing microbes or prevent new ones from growing, and through what biological principle?",
+     "a": "Adding high amounts of salt or sugar creates a hypertonic external environment around any contaminating microorganisms. Water molecules inside the microbial cells move out via osmosis to balance the concentration gradient, causing the cells to dehydrate (plasmolyze) and halting their metabolic activity. A wrong answer suggests the student believes salt or sugar acts as a poison that chemically destroys microbial cell walls, rather than operating through physical-chemical osmotic pressure.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple domestic experiment to test whether low temperature (refrigeration) is more effective at slowing down milk spoilage than high temperature. What variables would you control?",
+     "a": "A good answer proposes taking two identical clean containers with fresh milk, keeping one in a refrigerator (around 4°C) and one at room temperature (around 30°C), while controlling variables like initial milk volume, container type, and exposure to air. The student should observe changes in smell, texture, and curdling over 24 hours. A poor answer lacks controlled variables or fails to link temperature to the rate of microbial reproduction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

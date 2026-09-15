@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_04_010",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_04_010",
+   "title": "c10_chem_cbse_04_010",
+   "questions": [
+    {
+     "q": "Name the oxidizing agent commonly used in the laboratory to oxidize ethanol to ethanoic acid. Write the color change observed during this reaction.",
+     "a": "Alkaline potassium permanganate (KMnO₄) or acidified potassium dichromate (K₂Cr₂O₇) are used. With alkaline KMnO₄, the purple color of KMnO₄ disappears (decolorizes) as it gets reduced; with acidified K₂Cr₂O₇, the orange color changes to green. A wrong answer (e.g., \"concentrated H₂SO₄\" or \"no color change\") reveals confusion between dehydrating agents and oxidizing agents, or ignorance of the visual indicator of oxidation.",
+     "self_check": true
+    },
+    {
+     "q": "Ethene (C₂H₄) reacts with bromine water (Br₂ in H₂O). What type of reaction is this? Why does the reddish-brown color of bromine water disappear?",
+     "a": "This is an addition reaction. The reddish-brown color disappears because bromine adds across the C=C double bond of ethene to form colorless 1,2-dibromoethane. A wrong answer (e.g., \"substitution\" or \"oxidation\") reveals the student cannot link the presence of a double bond to addition reactions, or thinks bromine water is an oxidizing agent like KMnO₄.",
+     "self_check": true
+    },
+    {
+     "q": "Write the balanced chemical equation for the reaction of methane with chlorine in presence of sunlight. Identify the type of reaction and the condition required.",
+     "a": "CH₄(g) + Cl₂(g) → CH₃Cl(g) + HCl(g) (in presence of sunlight/UV light). This is a substitution reaction (free radical halogenation). Sunlight provides energy to break the Cl-Cl bond, initiating the chain reaction. A wrong equation (e.g., CH₄ + Cl₂ → CCl₄ + 4HCl in one step, or missing sunlight condition) reveals misunderstanding of the stepwise nature of substitution and the essential role of UV light.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reactions of propene (C₃H₆) and propane (C₃H₈) with bromine water. Explain why one decolorizes bromine water rapidly at room temperature while the other does not.",
+     "a": "Propene (alkene) undergoes addition reaction with Br₂ at room temperature, decolorizing bromine water instantly. Propane (alkane) does not react with bromine water at room temperature; it requires UV light for slow substitution. The difference is due to the electron-rich C=C double bond in propene attracting Br₂, whereas propane has only strong C-C and C-H single bonds. A wrong answer (e.g., both react similarly) reveals failure to connect unsaturation to addition reactivity.",
+     "self_check": true
+    },
+    {
+     "q": "A student adds a few drops of alkaline KMnO₄ to test tubes containing (i) ethanol, (ii) ethene, (iii) ethane. In which test tube(s) will the purple color disappear? Justify your answer.",
+     "a": "Purple color disappears in (i) ethanol and (ii) ethene. Ethanol is oxidized to ethanoic acid (oxidation reaction). Ethene undergoes addition reaction with KMnO₄ (oxidative cleavage) forming a diol, consuming KMnO₄. Ethane (saturated alkane) does not react with cold dilute KMnO₄. A wrong answer (e.g., all three or only ethanol) reveals confusion between oxidation of alcohols and addition to alkenes, or thinking alkanes are easily oxidized.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using bromine water to distinguish between butter (saturated fat) and cooking oil (unsaturated fat). State the observation and conclusion.",
+     "a": "Take two test tubes: add 1 mL of melted butter to one, 1 mL of cooking oil to another. Add 2 mL bromine water to each, shake. Cooking oil (contains C=C bonds) decolorizes bromine water; butter (mostly saturated) does not. Conclusion: Cooking oil is unsaturated, butter is saturated. A poor answer (e.g., using KMnO₄ instead, or not shaking) reveals inability to apply the addition reaction test for unsaturation to real-world fats.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

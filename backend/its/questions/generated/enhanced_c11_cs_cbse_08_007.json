@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_08_007",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_08_007",
+   "title": "c11_cs_cbse_08_007",
+   "questions": [
+    {
+     "q": "What is the data type of the object that collects the extra positional arguments when *args is used in a function definition?",
+     "a": "The extra positional arguments are collected into a tuple. A wrong answer (e.g., list or dictionary) reveals that the student confuses the packing mechanism of *args with **kwargs (which packs into a dictionary) or with general sequence types.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what happens when you call a function defined as `def greet(*names):` with the call `greet(\"Aman\", \"Priya\", \"Rohan\")`.",
+     "a": "The three string arguments are packed into a tuple named `names` inside the function, so `names` becomes `(\"Aman\", \"Priya\", \"Rohan\")`. The function can then iterate over this tuple. A wrong explanation (e.g., \"names becomes a list\" or \"only the first argument is stored\") shows misunderstanding of packing into a tuple and that all positional arguments are collected.",
+     "self_check": true
+    },
+    {
+     "q": "Write a function `total_cost(*prices)` that returns the sum of all prices passed. Then show the exact output of `print(total_cost(10, 20, 30))` and `print(total_cost())`.",
+     "a": "Function:\n```python\ndef total_cost(*prices):\n    return sum(prices)\n```\nOutputs: `60` and `0`. A wrong answer (e.g., error on empty call, or returning `None`) reveals the student doesn't know that `sum(())` returns 0 and that *args creates an empty tuple when no arguments are given.",
+     "self_check": true
+    },
+    {
+     "q": "Consider `def func(a, b, *args, **kwargs):`. If called as `func(1, 2, 3, 4, x=10, y=20)`, what are the values of `a`, `b`, `args`, and `kwargs` inside the function?",
+     "a": "`a=1`, `b=2`, `args=(3, 4)`, `kwargs={'x': 10, 'y': 20}`. A wrong assignment (e.g., `args=(1,2,3,4)` or `kwargs` missing) reveals confusion about parameter matching order: fixed positional parameters consume arguments first, then *args collects remaining positional, then **kwargs collects keyword arguments.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `def show(**kwargs, *args):` and gets a SyntaxError. Evaluate why this order is invalid in Python and propose the correct order.",
+     "a": "Python requires the parameter order: fixed positional, *args, keyword-only (if any), **kwargs. Placing **kwargs before *args is syntactically forbidden because keyword arguments must come after all positional arguments (including those packed by *args). The correct order is `def show(*args, **kwargs):`. A student who doesn't recognize this rule lacks understanding of Python's function signature grammar.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new function `student_report(name, *subjects, **marks)` that prints the student's name, then each subject with its mark (if provided in marks), else \"Mark not available\". Demonstrate a call with at least two subjects where one has a mark and one doesn't.",
+     "a": "```python\ndef student_report(name, *subjects, **marks):\n    print(f\"Report for {name}\")\n    for sub in subjects:\n        print(f\"{sub}: {marks.get(sub, 'Mark not available')}\")\n\nstudent_report(\"Riya\", \"Math\", \"Science\", \"English\", Math=95, English=88)\n```\nOutput:\n```\nReport for Riya\nMath: 95\nScience: Mark not available\nEnglish: 88\n```\nA poor answer would mishandle the dictionary lookup or confuse the order of parameters (e.g., putting **marks before *subjects). This tests synthesis of *args and **kwargs with fixed parameters.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

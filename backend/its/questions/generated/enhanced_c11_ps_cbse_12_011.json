@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_12_011",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_12_011",
+   "title": "c11_ps_cbse_12_011",
+   "questions": [
+    {
+     "q": "What is the constitutional basis for the introduction of NOTA in Indian elections, and which Supreme Court case mandated it?",
+     "a": "NOTA was introduced through the Supreme Court's 2013 judgment in People's Union for Civil Liberties v. Union of India, which held that the right to negative voting is part of the freedom of expression under Article 19(1)(a). The Court directed the Election Commission to provide a NOTA button on EVMs. A wrong answer (e.g., citing a constitutional amendment or parliamentary act) reveals confusion between judicial interpretation and legislative reform.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Election Commission introduce VVPAT (Voter Verifiable Paper Audit Trail) alongside EVMs, and how does it address a specific limitation of standalone EVMs?",
+     "a": "Standalone EVMs provided no physical proof of the vote cast, making it impossible for voters to verify their vote or for audits to detect hardware/software manipulation. VVPAT prints a paper slip visible for 7 seconds, allowing voter verification and enabling statistical audits. A wrong answer focusing only on \"transparency\" without mentioning the verification-audit link shows superficial understanding of the trust deficit EVMs faced.",
+     "self_check": true
+    },
+    {
+     "q": "In a constituency, 12% of voters pressed NOTA. The winning candidate secured 38% of total votes. A student argues: \"NOTA should trigger a re-election because it got more votes than the margin of victory.\" Analyze this claim using the current legal status of NOTA.",
+     "a": "The claim is legally incorrect. NOTA currently has no electoral consequence — even if NOTA votes exceed the victory margin or total valid votes, the candidate with the highest votes wins (Rule 64 of Conduct of Elections Rules, 1961). The Supreme Court explicitly rejected making NOTA a \"right to reject\" that triggers re-election. A student suggesting re-election confuses the symbolic right to negative voting with a binding electoral threshold.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the arguments for and against \"One Nation, One Election\" (simultaneous elections) in terms of federalism, governance continuity, and electoral accountability.",
+     "a": "Proponents argue simultaneous elections reduce policy paralysis from frequent Model Code of Conduct periods, cut costs, and ensure governance continuity. Critics argue it undermines federalism by synchronizing state cycles with the Centre, weakens accountability (voters can't punish mid-term failures), and requires constitutional amendments to Articles 83, 85, 172, 174, and 356. A one-sided answer ignoring federalism or accountability trade-offs shows incomplete analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the Electoral Bonds Scheme (2018-2024) as a reform for political funding transparency. Consider the Supreme Court's 2024 verdict striking it down.",
+     "a": "The scheme failed its stated transparency objective: while it digitized donations, it anonymized donors from the public and Election Commission, violating voters' right to information (Article 19(1)(a)) and enabling quid pro quo. The Supreme Court (Association for Democratic Reforms v. Union of India, 2024) struck it down as unconstitutional, ordering disclosure of all bond details. An evaluation calling it \"partially transparent\" ignores the Court's core finding that anonymity defeats the purpose of informed voting.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a two-sentence constitutional amendment proposal to give NOTA binding consequences (e.g., re-election if NOTA tops the poll) while addressing the concern of frequent re-elections.",
+     "a": "\"Insert Article 324A: If NOTA receives the highest valid votes in any constituency, a fresh election shall be held within six months, but no constituency shall face more than one NOTA-triggered re-election per general election cycle.\" A poor proposal either lacks a frequency cap (causing instability) or doesn't specify the trigger threshold (e.g., \"majority\" vs. \"plurality\").",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

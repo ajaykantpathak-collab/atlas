@@ -1,0 +1,509 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 305,
+ "chapter_title": "Print Culture and the Modern World",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jess305.txt",
+ "concepts": [
+  {
+   "id": "jess.305.1.1",
+   "title": "Hand Printing and Early Print Technology in East Asia",
+   "section": "1",
+   "definition": "In East Asia, early print systems relied on manual woodblock stamping on paper, evolving from imperial exam preparation in China to urban picture culture in Japan.",
+   "formula": "none",
+   "key_idea": "East Asian print culture developed from hand-inked woodblocks to meet bureaucratic, educational, and urban leisure needs.",
+   "textbook_ref": "jess305.txt lines 30-100",
+   "question_patterns": [
+    "explain how woodblock printing developed in ancient China",
+    "describe the expansion of print culture in medieval Japan",
+    "what was the accordion book and why was it folded",
+    "how did imperial examinations in China drive book production",
+    "analyze the emergence of ukiyo art prints in urban Edo"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify origin and mechanism",
+     "explain": "Text was printed by rubbing paper against inked carved woodblocks from AD 594 onwards in China."
+    },
+    {
+     "step": 2,
+     "action": "Explain institutional demand",
+     "explain": "The Chinese imperial state printed vast numbers of textbooks for civil service examination candidates."
+    },
+    {
+     "step": 3,
+     "action": "Trace regional diffusion",
+     "explain": "Buddhist missionaries introduced woodblock printing to Japan, leading to illustrated books and ukiyo prints."
+    }
+   ]
+  },
+  {
+   "id": "jess.305.2.1",
+   "title": "Transfer of Woodblock Printing and Invention of Gutenberg Press",
+   "section": "2",
+   "definition": "Woodblock knowledge moved to Europe via silk trade routes and explorers, paving the way for Johann Gutenberg to build the movable metal-type printing press.",
+   "formula": "none",
+   "key_idea": "Gutenberg combined existing technologies like olive presses and metal trinket moulds to create movable type printing.",
+   "textbook_ref": "jess305.txt lines 105-180",
+   "question_patterns": [
+    "how did woodblock printing travel from China to Europe",
+    "what role did Marco Polo play in bringing print knowledge to Italy",
+    "describe how Johann Gutenberg invented the movable type printing press",
+    "why did rich European aristocrats initially resist printed books",
+    "explain the key components of the Gutenberg printing press"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Trace trade and travel transmission",
+     "explain": "Paper reached Europe via silk routes, and Marco Polo brought woodblock printing knowledge back to Italy in 1295."
+    },
+    {
+     "step": 2,
+     "action": "Examine technological adaptation",
+     "explain": "Gutenberg adapted the screw mechanism of olive presses and metal lead moulds to create movable type."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate initial adoption",
+     "explain": "Mechanical press drastically reduced copying time, though elites initially favored hand-illuminated vellum."
+    }
+   ]
+  },
+  {
+   "id": "jess.305.2.2",
+   "title": "Printing Capacity and Output Calculation",
+   "section": "2.1",
+   "definition": "Quantitative assessment of mechanical printing capacity comparing hourly output of manual screw presses against power-driven cylindrical presses.",
+   "formula": "total_sheets = print_rate * operating_hours",
+   "key_idea": "Calculating total printed output by multiplying press printing rate per hour by total hours of operation.",
+   "textbook_ref": "jess305.txt lines 150-180",
+   "question_patterns": [
+    "calculate total sheets printed given press rate and operating hours",
+    "find the total output of a Gutenberg press operating for a set duration",
+    "how many sheets can a power cylindrical press produce in given hours",
+    "compute total printed pages from printing speed and time",
+    "determine total sheet yield of an industrial printing press"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply hourly rate by operational hours",
+     "explain": "Multiply printing speed in sheets per hour by the number of operational hours",
+     "compute": "total_sheets = print_rate * operating_hours"
+    }
+   ]
+  },
+  {
+   "id": "jess.305.2.3",
+   "title": "Book Production Growth Multiplier",
+   "section": "2.1",
+   "definition": "Quantitative measure of the expansion of European book production following the print revolution between the fifteenth and sixteenth centuries.",
+   "formula": "growth_multiplier = end_volume / start_volume",
+   "key_idea": "Determining the fold increase in total published volumes across distinct historical periods.",
+   "textbook_ref": "jess305.txt lines 165-175",
+   "question_patterns": [
+    "calculate the growth multiplier of book production between two periods",
+    "find the fold increase in printed copies flooding European markets",
+    "compute how many times book volume increased from starting count to end count",
+    "what is the expansion factor of book printing during the print revolution",
+    "determine the ratio of sixteenth century book output to fifteenth century output"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide final production volume by initial production volume",
+     "explain": "Divide the volume of books produced in the later period by the volume produced in the earlier period",
+     "compute": "growth_multiplier = end_volume / start_volume"
+    }
+   ]
+  },
+  {
+   "id": "jess.305.3.1",
+   "title": "The Print Revolution and Emerging Reading Public",
+   "section": "3",
+   "definition": "The shift from manuscript copying to mechanical press reduced production costs, creating a transition from a hearing public to a reading public.",
+   "formula": "none",
+   "key_idea": "Cheap printed books allowed oral traditions like ballads and folktales to enter print, blending hearing and reading cultures.",
+   "textbook_ref": "jess305.txt lines 190-230",
+   "question_patterns": [
+    "what was the print revolution and how did it change society",
+    "how did the transition from a hearing public to a reading public occur",
+    "why did printers publish illustrated ballads and folk tales",
+    "explain how print reduced the cost and time required to make books",
+    "analyze the intermingling of oral culture and printed literature"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define cost reduction impact",
+     "explain": "Mass printing lowered book prices and production time, making books available to broader social groups."
+    },
+    {
+     "step": 2,
+     "action": "Examine literacy constraints",
+     "explain": "Low literacy rates meant publishers printed illustrated ballads and folk tales to be recited in taverns and gatherings."
+    },
+    {
+     "step": 3,
+     "action": "Synthesize cultural change",
+     "explain": "Oral transmission and print combined, creating a hybrid public that engaged both by listening and reading."
+    }
+   ]
+  },
+  {
+   "id": "jess.305.3.2",
+   "title": "Religious Debates, Reformation, and Control of Dissent",
+   "section": "3.2",
+   "definition": "Wide dissemination of printed literature enabled open questioning of religious dogma, triggering movements like Protestantism and institutional censorship.",
+   "formula": "none",
+   "key_idea": "Print allowed reformers like Martin Luther to challenge Church practices, prompting orthodoxy to create banned book indices.",
+   "textbook_ref": "jess305.txt lines 235-290",
+   "question_patterns": [
+    "how did print culture contribute to the Protestant Reformation",
+    "why did Martin Luther describe printing as the ultimate gift of God",
+    "why were religious authorities afraid of uncontrolled printing",
+    "what was the Index of Prohibited Books established in 1558",
+    "explain how Menocchio used printed books to reinterpret faith"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze Luther's Ninety Five Theses",
+     "explain": "Luther challenged Catholic practices in 1517; rapid printing of his writings sparked the Protestant Reformation."
+    },
+    {
+     "step": 2,
+     "action": "Identify grassroots dissent",
+     "explain": "Lower-class individuals like Menocchio reinterpreted biblical texts, provoking Church trials for heresy."
+    },
+    {
+     "step": 3,
+     "action": "Detail counter-measures",
+     "explain": "Fearing rebellious thoughts, the Catholic Church instituted strict censorship and the Index of Prohibited Books."
+    }
+   ]
+  },
+  {
+   "id": "jess.305.4.1",
+   "title": "The Reading Mania and Print in the French Revolution",
+   "section": "4",
+   "definition": "Rising European literacy rates spawned new popular genres and enlightened ideas that undermined absolute monarchy and established traditions.",
+   "formula": "none",
+   "key_idea": "Enlightenment authors and political satire spread critical reasoning, preparing intellectual grounds for revolutionary upheaval.",
+   "textbook_ref": "jess305.txt lines 295-370",
+   "question_patterns": [
+    "what factors contributed to the reading mania in 18th century Europe",
+    "describe new forms of popular print like chapbooks and Bibliotheque Bleue",
+    "how did thinkers like Voltaire and Rousseau influence popular thought",
+    "explain Mercier's view of the printing press as an engine of progress",
+    "how did print culture create conditions for the French Revolution"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine literacy expansion",
+     "explain": "Village schools raised literacy rates, prompting pedlars to sell cheap chapbooks and almanacs widely."
+    },
+    {
+     "step": 2,
+     "action": "Assess Enlightenment dissemination",
+     "explain": "Writings of Voltaire, Rousseau, and scientific discoveries promoted rational debate over tradition."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate revolutionary atmosphere",
+     "explain": "Satirical prints and essays exposed monarchical indulgence, fostering critical public opinion against tyranny."
+    }
+   ]
+  },
+  {
+   "id": "jess.305.5.1",
+   "title": "Nineteenth-Century Mass Readership and Printing Innovations",
+   "section": "5",
+   "definition": "Compulsory education and shorter working hours created child, female, and worker readerships, matched by industrial steam and electrical press advances.",
+   "formula": "none",
+   "key_idea": "New social reader categories drove editorial adaptations, while mechanical innovations like rotary and offset presses multiplied output.",
+   "textbook_ref": "jess305.txt lines 375-430",
+   "question_patterns": [
+    "how did children become an important category of readers in the 19th century",
+    "what was the contribution of the Grimm Brothers to children's literature",
+    "how did print culture define a new image of women in the 19th century",
+    "describe the technological advance of Richard M Hoe's rotary press",
+    "what strategies did publishers adopt during the Great Depression to maintain sales"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze targeted readership",
+     "explain": "Compulsory schooling created demand for textbooks and edited folk tales; women's magazines taught domestic skills."
+    },
+    {
+     "step": 2,
+     "action": "Identify working class engagement",
+     "explain": "Lending libraries enabled self-educated workers and mechanics to read political tracts and autobiographies."
+    },
+    {
+     "step": 3,
+     "action": "Outline press technology advances",
+     "explain": "Rotary metal presses, multi-colour offset printing, and cheap paperback series revolutionized book production."
+    }
+   ]
+  },
+  {
+   "id": "jess.305.6.1",
+   "title": "Manuscript Traditions and Arrival of Printing in India",
+   "section": "6",
+   "definition": "Prior to press technology, India possessed extensive handwritten manuscript traditions on palm leaves, before Portuguese jesuits introduced print in Goa.",
+   "formula": "none",
+   "key_idea": "Fragile handwritten texts were replaced gradually after Portuguese priests and English pioneers like James Hickey set up presses.",
+   "textbook_ref": "jess305.txt lines 435-495",
+   "question_patterns": [
+    "describe the characteristics and limitations of handwritten manuscripts in pre-colonial India",
+    "how were palm leaf manuscripts preserved and copied",
+    "when and where was the first printing press brought to India",
+    "what was Hickey's Bengal Gazette and why was its editor persecuted",
+    "why were manuscripts not widely used in everyday life in India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine manuscript features",
+     "explain": "Manuscripts in Sanskrit, Persian, and vernaculars were written on palm leaves or paper, making them expensive and fragile."
+    },
+    {
+     "step": 2,
+     "action": "Trace early printing origins",
+     "explain": "Portuguese Jesuit priests brought the first press to Goa in mid-16th century, printing in Konkani and Tamil."
+    },
+    {
+     "step": 3,
+     "action": "Analyze commercial press growth",
+     "explain": "James Augustus Hickey launched the Bengal Gazette in 1780, initiating independent private English publishing."
+    }
+   ]
+  },
+  {
+   "id": "jess.305.7.1",
+   "title": "Print, Religious Reform, and Public Debates in India",
+   "section": "7",
+   "definition": "Nineteenth-century Indian social reformers and orthodox groups published vernacular newspapers and tracts to debate religious traditions and social practices.",
+   "formula": "none",
+   "key_idea": "Print allowed rival religious sects and reform movements to publish scriptures and debate practices like sati and idolatry.",
+   "textbook_ref": "jess305.txt lines 500-560",
+   "question_patterns": [
+    "how did print fuel public debates on social and religious reform in India",
+    "what role did Rammohun Roy play through Sambad Kaumudi",
+    "how did Islamic ulama use print technology to counter colonial influence",
+    "what was the significance of publishing Ramcharitmanas in vernacular print",
+    "explain how news publications helped shape pan-Indian national identity"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify reform publications",
+     "explain": "Rammohun Roy published Sambad Kaumudi (1821) for reform, while orthodoxy published Samachar Chandrika in response."
+    },
+    {
+     "step": 2,
+     "action": "Analyze Islamic seminaries' print strategy",
+     "explain": "Deoband Seminary used cheap lithography to publish thousands of fatwas guiding everyday Muslim life."
+    },
+    {
+     "step": 3,
+     "action": "Assess regional print networks",
+     "explain": "Cheap vernacular scripture editions allowed wider public access, fostering community dialogues across regions."
+    }
+   ]
+  },
+  {
+   "id": "jess.305.8.1",
+   "title": "New Literary Forms, Visual Print, Women, and Caste Protest in India",
+   "section": "8",
+   "definition": "Indian print expanded into novels, political visual cartoons, autobiographies by women, and anti-caste literary tracts by lower-caste leaders.",
+   "formula": "none",
+   "key_idea": "Print empowered women like Rashsundari Debi and caste reformers like Phule and Ambedkar to voice social struggles.",
+   "textbook_ref": "jess305.txt lines 565-675",
+   "question_patterns": [
+    "how did the growth of print affect women's lives in 19th-century India",
+    "what was the significance of Rashsundari Debi's autobiography Amar Jiban",
+    "how did visual culture and popular art prints develop in urban India",
+    "explain how low-caste leaders used print to fight caste discrimination",
+    "what was the contribution of Jyotiba Phule's Gulamgiri"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine women's literary entry",
+     "explain": "Rashsundari Debi secretly learned to read and wrote Amar Jiban (1876), the first Bengali autobiography."
+    },
+    {
+     "step": 2,
+     "action": "Analyze visual culture development",
+     "explain": "Raja Ravi Varma and woodblock engravers created mass-printed pictures and satirical cartoons on social themes."
+    },
+    {
+     "step": 3,
+     "action": "Trace caste protest literature",
+     "explain": "Jyotiba Phule (Gulamgiri), B.R. Ambedkar, and Periyar published tracts attacking caste exploitation."
+    }
+   ]
+  },
+  {
+   "id": "jess.305.9.1",
+   "title": "Colonial Press Control and Censorship in India",
+   "section": "9",
+   "definition": "Colonial authorities enacted restrictive press laws, notably the Vernacular Press Act of 1878, to suppress nationalist criticism and editorial independence.",
+   "formula": "none",
+   "key_idea": "The British government monitored vernacular newspapers and imposed severe penalties to clamp down on nationalist agitation.",
+   "textbook_ref": "jess305.txt lines 680-740",
+   "question_patterns": [
+    "why did the British colonial government pass the Vernacular Press Act of 1878",
+    "how did the Vernacular Press Act restrict freedom of the native press",
+    "what was the impact of Balgangadhar Tilak's writings in Kesari",
+    "how did nationalist newspapers grow despite colonial censorship measures",
+    "why did Mahatma Gandhi describe press liberty as essential for Swaraj"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Trace post-1857 policy shift",
+     "explain": "After 1857 revolt, colonial officials demanded suppression of critical vernacular reporting."
+    },
+    {
+     "step": 2,
+     "action": "Detail Vernacular Press Act mechanisms",
+     "explain": "Enacted in 1878 on Irish models, it allowed government to issue warnings and seize printing machinery for seditious reports."
+    },
+    {
+     "step": 3,
+     "action": "Connect press repression to national movement",
+     "explain": "Tilak's imprisonment over Kesari articles sparked national protests, making press freedom central to Swaraj."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jess305.txt lines 150-180",
+   "concept": "jess.305.2.2",
+   "question_type": "compute",
+   "question_pattern": "A Gutenberg manual press operates at a rate of {print_rate} sheets per hour. Calculate the total sheets printed if the press runs for {operating_hours} hours.",
+   "extracted_variables": {
+    "print_rate": 250,
+    "operating_hours": 8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply hourly rate by operational hours",
+     "explain": "Multiply printing speed in sheets per hour by the number of operational hours",
+     "compute": "total_sheets = print_rate * operating_hours"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jess305.txt lines 380-400",
+   "concept": "jess.305.2.2",
+   "question_type": "compute",
+   "question_pattern": "An industrial power cylindrical press prints at a rate of {print_rate} sheets per hour. Find the total printed output after running for {operating_hours} hours.",
+   "extracted_variables": {
+    "print_rate": 8000,
+    "operating_hours": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply hourly rate by operational hours",
+     "explain": "Multiply printing speed in sheets per hour by the number of operational hours",
+     "compute": "total_sheets = print_rate * operating_hours"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jess305.txt lines 165-175",
+   "concept": "jess.305.2.3",
+   "question_type": "compute",
+   "question_pattern": "In the second half of the fifteenth century, European book production was {start_volume} million copies, which grew to {end_volume} million copies in the sixteenth century. Calculate the book production growth multiplier.",
+   "extracted_variables": {
+    "start_volume": 20,
+    "end_volume": 200
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide final production volume by initial production volume",
+     "explain": "Divide the volume of books produced in the later period by the volume produced in the earlier period",
+     "compute": "growth_multiplier = end_volume / start_volume"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jess305.txt lines 165-175",
+   "concept": "jess.305.2.3",
+   "question_type": "compute",
+   "question_pattern": "If book printing volume increased from an initial {start_volume} million copies to a final {end_volume} million copies, compute the fold increase in output.",
+   "extracted_variables": {
+    "start_volume": 5,
+    "end_volume": 50
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide final production volume by initial production volume",
+     "explain": "Divide the volume of books produced in the later period by the volume produced in the earlier period",
+     "compute": "growth_multiplier = end_volume / start_volume"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "jess305.txt page 128 Write in brief 1",
+   "questions": [
+    "Give reasons why woodblock print came to Europe after 1295.",
+    "Explain why Martin Luther was in favour of print and spoke out in praise of it.",
+    "Why did the Roman Catholic Church begin keeping an Index of Prohibited books from the mid-sixteenth century?",
+    "Why did Gandhi say that the fight for Swaraj is a fight for liberty of speech, press, and association?"
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "jess305.txt page 128 Write in brief 2",
+   "questions": [
+    "Write a short note on the Gutenberg Press.",
+    "Write a short note on Erasmus's idea of the printed book.",
+    "Write a short note on the Vernacular Press Act."
+   ]
+  },
+  {
+   "id": "ex1.3",
+   "source_ref": "jess305.txt page 128 Write in brief 3",
+   "questions": [
+    "What did the spread of print culture in nineteenth century India mean to women?",
+    "What did the spread of print culture in nineteenth century India mean to the poor?",
+    "What did the spread of print culture in nineteenth century India mean to reformers?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

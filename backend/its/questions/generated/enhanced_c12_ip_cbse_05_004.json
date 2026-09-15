@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_05_004",
+   "title": "c12_ip_cbse_05_004",
+   "questions": [
+    {
+     "q": "What is the primary role of a web browser in the client–server model of the World Wide Web?",
+     "a": "The web browser acts as the **client**: it initiates communication by sending HTTP/HTTPS requests to a web server, receives the responses, and renders the returned HTML, CSS, JavaScript, images, and other resources into a visual, interactive page for the user. A wrong answer (e.g., “the browser stores website files” or “the browser processes PHP code”) reveals confusion between client-side and server-side responsibilities — the student thinks the browser runs server logic or hosts content.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what a web server does when it receives a request for a dynamic web page (e.g., a user’s dashboard after login). How is this different from a request for a static page like `about.html`?",
+     "a": "For a **static page**, the server simply locates the file (`about.html`) on its storage and sends it back unchanged. For a **dynamic page**, the server must **execute server-side code** (PHP, Python, Java, Node.js, etc.), which may query a database, perform calculations, check session/authentication, and then **generate a custom HTML response** on the fly before sending it. A wrong answer that says “the server sends the PHP file to the browser” or “the browser runs the PHP code” shows the student does not grasp that server-side code runs *on the server* and only its HTML output is transmitted.",
+     "self_check": true
+    },
+    {
+     "q": "A student types `http://example.com/contact` in Firefox and presses Enter. List the **exact sequence of steps** (in order) that occur from the moment they press Enter until the contact page is displayed, including the role of DNS and TCP. Use no more than 8 bullet points.",
+     "a": "1. Browser parses the URL → extracts protocol (`http`), host (`example.com`), path (`/contact`).  \n2. Browser checks cache for IP of `example.com`; if not found, sends DNS query to resolve domain to IP address.  \n3. DNS resolver returns the server’s IP (e.g., `93.184.216.34`).  \n4. Browser initiates a TCP three-way handshake with the server on port 80.  \n5. Browser sends an HTTP `GET /contact HTTP/1.1` request with headers (Host, User-Agent, etc.).  \n6. Server receives request, processes it (static file lookup or dynamic generation), prepares HTTP response.  \n7. Server sends HTTP response (status line, headers, HTML body) back over the TCP connection.  \n8. Browser receives response, parses HTML, requests linked resources (CSS, JS, images), and renders the page.  \nA wrong sequence (e.g., DNS after TCP, or browser executing server code) reveals misunderstanding of the layered network stack and the strict client-initiated request–response order.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the responsibilities of the **browser** and the **web server** in handling **cookies**. Which side *stores* the cookie, which side *sets* it, and which side *sends* it automatically with subsequent requests?",
+     "a": "- **Server**: *sets* the cookie by including a `Set-Cookie` header in its HTTP response.  \n- **Browser**: *stores* the cookie locally (in its cookie jar) and *automatically includes* it in the `Cookie` header of every subsequent request to the same domain (subject to path, secure, HttpOnly flags).  \n- The server *reads* the cookie from incoming requests to maintain session state.  \nA wrong answer (e.g., “the server stores cookies in its database” or “the browser sets cookies on its own”) confuses the direction of the `Set-Cookie`/`Cookie` headers and misses that the browser is the passive storage agent while the server drives the policy.",
+     "self_check": true
+    },
+    {
+     "q": "A developer claims: “To make a website faster, we should move all HTML generation to the client side using JavaScript, so the server only sends raw JSON data.” Evaluate this statement. When is it valid, and when does it break down? Consider SEO, initial load time, and device capabilities.",
+     "a": "**Valid when**: the application is a Single Page App (SPA) behind a login (no SEO needed), users have modern devices/browsers, and subsequent interactions are highly dynamic (e.g., Gmail). Sending JSON + client-side rendering reduces server CPU and bandwidth after initial load.  \n**Breaks down when**: SEO is critical (search engine crawlers may not execute JS fully), initial load is slow on low-end devices (heavy JS parsing/execution), or accessibility/progressive enhancement is required. Server-side rendering (SSR) or static site generation (SSG) delivers fully formed HTML instantly, improving Time-to-First-Byte and crawlability.  \nA one-sided answer (“always true” or “always false”) shows lack of nuance; the student must weigh trade-offs, not just recite a preference.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal **text-based diagram** (using only ASCII characters) that shows the complete request–response cycle for a dynamic page, labeling: (a) User, (b) Browser, (c) DNS, (d) TCP connection, (e) HTTP Request, (f) Server-side processing (app code + DB), (g) HTTP Response, (h) Rendering. Include arrows indicating direction of data flow.",
+     "a": "```\nUser\n  |\n  v\n[Browser] --DNS Query--> [DNS Server] --IP Address--> [Browser]\n  |\n  |--TCP SYN--> \n  |<--TCP SYN-ACK--\n  |--TCP ACK-->        (TCP connection established)\n  |\n  |--HTTP GET /dashboard --> \n  |                            [Web Server]\n  |                            |--Run App Code (Python/PHP/Node)-->\n  |                            |--Query Database (SELECT ...)-->\n  |                            |--Generate HTML-->\n  |<--HTTP 200 OK + HTML Body--\n  |\n  |--Parse HTML, fetch CSS/JS/images-->\n  |\n  v\n[Rendered Page Displayed]\n```\nA poor diagram omits DNS/TCP, shows the browser querying the database directly, or has the server sending raw code. This reveals the student hasn’t internalized the strict separation: **browser never talks to DB; server never renders pixels.**",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

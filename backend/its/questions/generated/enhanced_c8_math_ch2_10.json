@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch2_10",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch2_10",
+   "title": "c8_math_ch2_10",
+   "questions": [
+    {
+     "q": "State the law for multiplying powers with different bases but the same exponent. Use the notation a^m and b^m.",
+     "a": "a^m × b^m = (a × b)^m. A wrong answer like a^m × b^m = (ab)^(2m) reveals the student incorrectly adds exponents as in the same-base law. An answer like a^m × b^n = (ab)^(m+n) shows confusion between the two distinct laws.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why 2^4 × 3^4 = (2×3)^4 is true by writing both sides in expanded form. Why can we not do the same for 2^4 × 3^5?",
+     "a": "LHS = (2×2×2×2) × (3×3×3×3) = (2×3)×(2×3)×(2×3)×(2×3) = 6^4 = RHS. For 2^4 × 3^5, expanded forms have different numbers of factors (four 2's and five 3's), so we cannot pair them completely into groups of (2×3); one 3 remains unpaired. A student who says \"we can still combine them\" does not grasp that the law requires identical exponents to form complete pairs.",
+     "self_check": true
+    },
+    {
+     "q": "Simplify: (–4)^3 × (–5)^3. Write the answer as a single power.",
+     "a": "Step 1: Identify bases –4 and –5, common exponent 3.\nStep 2: Apply law: (–4)^3 × (–5)^3 = [(–4) × (–5)]^3.\nStep 3: Multiply bases: (–4) × (–5) = 20.\nStep 4: Write as single power: 20^3.\nStep 5: Verify: (–4)^3 = –64, (–5)^3 = –125, product = 8000. 20^3 = 8000. ✓\nAnswer: 20^3. A wrong answer like (–20)^3 reveals sign error in base multiplication. Answer 20^9 reveals adding exponents incorrectly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two expressions: (2^3 × 3^3) and (2×3)^3. Are they equal? Now compare (2^3 × 3^2) and (2×3)^? Can the second pair be written as a single power with the same exponent? Justify.",
+     "a": "First pair: equal because exponents match (3). Second pair: 2^3 × 3^2 has exponents 3 and 2. Cannot write as (2×3)^k for any single integer k because the number of 2's and 3's differ. We could write as 2^2 × 3^2 × 2 = (6)^2 × 2, but not a single power with same exponent. A student who says (2^3 × 3^2) = 6^5 or 6^6 is incorrectly adding or multiplying exponents across different bases.",
+     "self_check": true
+    },
+    {
+     "q": "A student simplified 5^2 × 7^2 as 35^4. Identify the error and explain the correct simplification.",
+     "a": "Error: The student multiplied the bases correctly (5×7=35) but doubled the exponent (2+2=4) instead of keeping it 2. This confuses the same-base law (add exponents) with the different-base same-exponent law (keep exponent). Correct: 5^2 × 7^2 = (5×7)^2 = 35^2. A student who only says \"wrong exponent\" without naming the specific confusion between laws has not fully diagnosed the misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (using Indian context: rupees, metres, kg) that requires using a^m × b^m = (ab)^m to solve. Write the problem and its solution.",
+     "a": "Example problem: \"A rectangular garden has length 10^2 m and breadth 5^2 m. Find the area in exponential form.\" Solution: Area = length × breadth = 10^2 × 5^2 = (10×5)^2 = 50^2 sq m. A poor answer uses different exponents (e.g., 10^2 × 5^3) or adds exponents, showing the student cannot construct a scenario where the law applies naturally.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

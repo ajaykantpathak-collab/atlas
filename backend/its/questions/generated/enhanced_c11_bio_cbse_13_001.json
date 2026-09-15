@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_13_001",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_13_001",
+   "title": "c11_bio_cbse_13_001",
+   "questions": [
+    {
+     "q": "Define 'growth' in plants as per the NCERT textbook. How is it different from the swelling of a piece of wood when placed in water?",
+     "a": "Growth is an irreversible permanent increase in size of an organ or its parts or even of an individual cell, accompanied by metabolic processes at the expense of energy. Swelling of wood in water is a reversible physical change (imbibition) due to water absorption into dead cell walls, not metabolic activity; it does not involve protoplasm increase or energy expenditure. A wrong answer (e.g., calling swelling 'growth') reveals confusion between physical expansion and biological growth, missing the criteria of irreversibility, metabolic energy, and protoplasm addition.",
+     "self_check": true
+    },
+    {
+     "q": "Why is plant growth described as 'indeterminate'? Explain the role of meristems in this context.",
+     "a": "Plant growth is indeterminate because plants retain meristematic tissues (apical, lateral, intercalary) throughout their life. These meristems consist of cells that continuously divide and self-perpetuate, adding new cells to the plant body (open growth). If growth were determinate (like in animals), meristems would cease division after a certain size. A wrong answer (e.g., 'plants grow indefinitely because they have no fixed size') misses the structural basis: meristems are the specific sites of perpetual cell division. Confusing 'indeterminate' with 'unlimited' without mentioning meristems shows incomplete understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A student measures the length of a maize root every hour for 10 hours and finds a constant increase of 2 mm per hour. The same student measures the fresh weight of a watermelon fruit cell over days and finds it increases 3,50,000 times. Identify the type of growth in each case and the parameter measured. Justify your answer.",
+     "a": "Maize root: arithmetic growth (constant rate, linear increase in length per unit time); parameter = length. Watermelon cell: geometric growth (exponential increase in size); parameter = fresh weight/volume. Justification: Arithmetic growth follows Lt = L0 + rt (one daughter cell divides, other differentiates); geometric growth follows W1 = W0 e^rt (both progeny cells divide). A wrong answer (e.g., calling both arithmetic) fails to recognize that cell enlargement without division (watermelon) is geometric in terms of size increase, while root elongation at constant rate is arithmetic. Confusing the mathematical model with the parameter is a common error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cellular characteristics of the three phases of growth in a root tip: meristematic, elongation, and maturation. How does the structure of the cell wall change across these phases?",
+     "a": "Meristematic: thin, cellulosic primary walls, abundant plasmodesmata, dense protoplasm, large nuclei. Elongation: increased vacuolation, cell enlargement, new cell wall deposition (primary walls stretch). Maturation: maximal wall thickening (secondary walls with lignin, suberin), protoplasmic modifications for specific function. A wrong answer (e.g., 'walls thicken in meristematic phase') reverses the sequence. The key is progressive wall modification: primary → stretched primary → thickened secondary. Missing plasmodesmata in meristematic zone ignores symplastic connectivity crucial for coordination.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The sigmoid growth curve is universal for all plant organs because it represents the only possible pattern of growth in a natural environment.\" Is it entirely correct? Why or why not?",
+     "a": "The statement is partially correct but overgeneralized. The sigmoid curve (lag, log, stationary phases) is typical for cells, tissues, and organs growing in natural environments with limited resources. However, some organs (e.g., root elongating at constant rate in optimal conditions) show arithmetic (linear) growth, not sigmoid. Also, seasonal growth in trees shows periodic sigmoid curves, not a single one. A wrong evaluation (fully true/false) misses the nuance: sigmoid is characteristic but not exclusive; arithmetic growth occurs in specific contexts. The phrase 'only possible pattern' is the error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to demonstrate that water, oxygen, and temperature are essential conditions for growth in germinating moong bean (Vigna radiata) seeds. Specify the control, variables, and measurable parameter.",
+     "a": "Setup: Four groups of 20 moong seeds each. Control: moist cotton, room temp (25°C), aerated. Test 1: dry cotton (no water). Test 2: submerged in boiled water cooled without shaking (no oxygen). Test 3: moist cotton at 5°C (low temp) and 40°C (high temp). Measure: radicle length (mm) and fresh weight (g) daily for 7 days. Expected: growth only in control. A poor design (e.g., no control, measuring only germination % not growth rate) fails to isolate conditions. Must measure quantitative growth parameters (length/weight), not just binary germination.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

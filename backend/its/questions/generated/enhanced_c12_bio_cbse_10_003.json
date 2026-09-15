@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_10_003",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_10_003",
+   "title": "c12_bio_cbse_10_003",
+   "questions": [
+    {
+     "q": "What is the specific biochemical role of pyruvate decarboxylase and alcohol dehydrogenase in the conversion of glucose to ethanol by *Saccharomyces cerevisiae* under anaerobic conditions?",
+     "a": "Pyruvate decarboxylase converts pyruvate to acetaldehyde (releasing CO₂), and alcohol dehydrogenase reduces acetaldehyde to ethanol using NADH, regenerating NAD⁺ for glycolysis to continue. A wrong answer (e.g., \"yeast breathes out alcohol\" or \"pyruvate directly becomes ethanol\") reveals the student treats fermentation as a black box rather than a two-step enzymatic pathway linked to redox balance — a gap that causes errors in NEET questions asking about NAD⁺ regeneration or CO₂ yield per glucose.",
+     "self_check": true
+    },
+    {
+     "q": "Why is malted barley (germinated barley) used as the starting material for beer instead of plain barley grains, and what enzyme complex is activated during malting?",
+     "a": "Malting triggers germination, activating the enzyme complex amylase (α- and β-amylase) which hydrolyses starch into fermentable maltose; plain barley lacks active amylase, so yeast cannot access the carbon source. A wrong answer (e.g., \"malting adds yeast\" or \"malting makes barley sweet\") shows confusion between malting (starch breakdown) and fermentation (sugar → alcohol) — a classic board exam trap where students conflate the substrate preparation step with the microbial action step.",
+     "self_check": true
+    },
+    {
+     "q": "A winemaker observes that fermentation stops at 12% ABV (alcohol by volume) even though residual sugar remains. Explain the biochemical reason and predict two process modifications to achieve 14% ABV.",
+     "a": "Ethanol denatures yeast membrane proteins and inhibits glycolytic enzymes; most *S. cerevisiae* strains tolerate ≤13–15% ABV. To reach 14%: (1) use a high-tolerance wine yeast strain (e.g., *S. bayanus* or selected *S. cerevisiae* variants), (2) ferment at lower temperature (15–18°C) to reduce ethanol toxicity and slow sugar uptake, preventing osmotic shock. A wrong answer (e.g., \"add more yeast\" or \"add more sugar\") ignores the toxicity ceiling and would exacerbate stuck fermentation — a common practical error in both board case-studies and industrial microbiology.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the carbon source, primary microbe, and the necessity of distillation in the production of wine, beer, and whisky.",
+     "a": "Wine: grape juice (glucose/fructose), *S. cerevisiae*, no distillation (≤15% ABV). Beer: malted barley (maltose), *S. cerevisiae* (ale) or *S. pastorianus* (lager), no distillation (4–8% ABV). Whisky: fermented grain mash (maltose/glucose), *S. cerevisiae*, distillation required (≥40% ABV). A wrong answer (e.g., \"beer uses grapes\" or \"whisky doesn't need distillation\") reveals failure to link substrate biochemistry (fruit sugar vs. grain starch) to process design — a frequent 3-mark board question where a table comparison is expected.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Distillation creates new alcohol; it is a microbial process.\" Justify your answer with the physical principle involved.",
+     "a": "False. Distillation is a physical separation process exploiting the lower boiling point of ethanol (78.37°C) vs. water (100°C); it concentrates pre-existing ethanol from the fermented wash — no microbial activity occurs (yeast dies >40°C). A wrong answer (e.g., \"distillation continues fermentation\") confuses a phase-change separation with a biochemical reaction — a conceptual error that appears in NEET assertion-reason questions testing the distinction between biological synthesis and physical purification.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple home-scale experiment to demonstrate that CO₂ evolution during grape juice fermentation is directly proportional to sugar consumption, using only household materials. List the measurable variables and the expected graph shape.",
+     "a": "Setup: 3 identical bottles with 200 mL pasteurised grape juice + 0g, 10g, 20g added sucrose; inoculate each with 0.5g baker's yeast; fit balloons over necks. Measure balloon circumference (proxy for CO₂ volume) and final specific gravity (hydrometer or weight loss) daily for 7 days. Variables: independent = initial sugar concentration; dependent = CO₂ volume (balloon size) and residual sugar (gravity drop). Expected graph: sigmoidal CO₂ curve plateauing when sugar depletes or ethanol inhibits; linear correlation between total CO₂ and sugar consumed (2 mol CO₂ per mol glucose). A poor design (no control, no sugar gradient, measuring only time) shows inability to isolate variables — a skill tested in CBSE practical exams and CUET experimental reasoning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

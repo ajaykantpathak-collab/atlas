@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_05_001",
+   "title": "c12_geo_cbse_05_001",
+   "questions": [
+    {
+     "q": "Which of the following is NOT a primary activity: (a) collecting honey from wild beehives in the Sundarbans, (b) weaving cotton cloth on a handloom in Tamil Nadu, (c) drilling for crude oil in the Bombay High offshore field, (d) grazing sheep on alpine pastures in Ladakh?",
+     "a": "Correct answer: (b) weaving cotton cloth on a handloom. This is a secondary activity because it transforms raw cotton (a primary product) into finished fabric through manufacturing. The other three involve direct extraction/harvesting: honey gathering (gathering), oil drilling (mining/quarrying), sheep grazing (pastoralism). A wrong answer reveals confusion between \"working with natural materials\" and \"extracting natural materials\" — students often think any rural/traditional work is primary.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the same physical region (e.g., the Deccan Plateau) can support both extensive commercial grain farming (sorghum, millet) and intensive subsistence farming (rice in irrigated pockets) as primary activities. What geographical concept explains this coexistence?",
+     "a": "The concept is \"agricultural versatility\" or \"multiple cropping systems within one physiographic unit.\" The Deccan Plateau's black cotton soil (vertisols) retains moisture for rain-fed millets/sorghum (extensive), while river valleys (Godavari, Krishna) with alluvial deposits and canal irrigation allow water-intensive rice (intensive). A wrong answer that says \"climate determines only one farming type\" shows deterministic thinking — ignoring human agency (irrigation, HYV seeds, market access) that modifies the physical template.",
+     "self_check": true
+    },
+    {
+     "q": "A satellite image shows a landscape with: (i) geometric rectangular fields of uniform green in Punjab, (ii) irregular forest clearings with ash-enriched soil in Bastar, (iii) radial tracks converging on water points in western Rajasthan, (iv) terraced slopes with flooded paddies in Uttarakhand. Match each pattern to its primary activity type and justify using one physical and one human factor.",
+     "a": "(i) Punjab rectangles → extensive commercial grain farming (wheat/rice). Physical: flat alluvial plain, fertile soil. Human: canal irrigation, mechanization, procurement policy. (ii) Bastar clearings → shifting cultivation (jhum). Physical: hilly forested terrain, heavy rainfall leaches soil. Human: tribal land tenure, low technology, subsistence logic. (iii) Rajasthan radial tracks → nomadic pastoralism. Physical: arid climate, sparse vegetation, ephemeral water. Human: mobile herding strategy, common property resources, seasonal migration. (iv) Uttarakhand terraces → sedentary subsistence farming. Physical: steep slopes, high erosion risk, monsoon runoff. Human: labor-intensive terracing, family labor, local food security. Wrong matches indicate failure to read landscape signatures — a core map interpretation skill for board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the resource base and economic logic of two primary activities: (a) deep-shaft coal mining in Jharkhand's Dhanbad region, and (b) plantation tea cultivation in Assam's Brahmaputra Valley. Why are both classified as primary despite one extracting a non-renewable mineral and the other cultivating a renewable crop?",
+     "a": "Both are primary because they obtain value directly from nature without prior manufacturing: mining extracts a geological stock; plantation agriculture manages a biological flow. The unifying criterion is \"first-order production\" — output enters the economy as raw material for secondary industries (steel from coal, tea processing from leaf). Dhanbad: non-renewable, capital-intensive, location-fixed by geology, high environmental cost. Assam: renewable (if managed), labor-intensive, location-fixed by climate (high rainfall, humidity, well-drained soils), colonial legacy of capital organization. A student who says \"mining isn't primary because it uses machines\" confuses technology level with production order — mechanization does not change the activity's primary character.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Primary activities are declining in economic importance globally, so Class 12 geography should spend less time on them.\" Use evidence from India's workforce structure (Periodic Labour Force Survey 2022-23) and the concept of \"resource curse\" to support your judgment.",
+     "a": "The statement is flawed for three reasons. (1) Workforce evidence: PLFS 2022-23 shows ~45% of India's workforce still engaged in primary sector (agriculture, mining, forestry) — not \"declining\" in absolute terms. (2) Resource curse relevance: regions rich in primary resources (Jharkhand, Odisha, Chhattisgarh) often have low human development despite mineral wealth — understanding primary activity geography is essential to diagnose this paradox. (3) Foundation role: every secondary/tertiary activity traces its inputs to primary extraction; supply chain disruptions (e.g., semiconductor shortage from rare earth mining) prove primary sector's strategic indispensability. A student agreeing with the statement confuses \"share in GDP\" (which falls with development) with \"geographical significance\" (which persists).",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page annotated map of India showing the dominant primary activity in each of the 15 agro-climatic zones (as per Planning Commission classification). Include a legend with symbols for: shifting cultivation, nomadic pastoralism, intensive subsistence rice, extensive commercial wheat, plantation crops, fishing, mining. Write a 50-word caption explaining the physical–human interplay visible in the pattern.",
+     "a": "A good answer produces a map where: Zone 1 (Western Himalaya) → pastoralism + temperate horticulture; Zone 2 (Eastern Himalaya) → shifting cultivation + tea; Zone 3 (Lower Gangetic) → intensive rice/jute; Zone 4 (Middle Gangetic) → intensive rice/wheat; Zone 5 (Upper Gangetic) → commercial wheat/sugarcane; Zone 6 (Trans-Gangetic) → commercial wheat/rice + dairy; Zone 7 (Eastern Plateau) → mining + shifting cultivation; Zone 8 (Central Plateau) → extensive millets + cotton; Zone 9 (Western Plateau) → cotton + oilseeds; Zone 10 (Southern Plateau) → coffee/tea + spices; Zone 11 (East Coast) → rice + fishing; Zone 12 (West Coast) → plantation + fishing; Zone 13 (Gujarat) → cotton + dairy + salt; Zone 14 (Western Dry) → pastoralism + mining; Zone 15 (Islands) → fishing + coconut. Caption: \"Monsoon rhythm and soil depth set the physical template; irrigation, markets, and policy (Green Revolution, MSP) rewrite it — creating sharp boundaries like the wheat–rice divide at the 75 cm isohyet.\" A poor map uses random symbols or ignores the agro-climatic zone framework, showing inability to synthesize physical and human geography.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

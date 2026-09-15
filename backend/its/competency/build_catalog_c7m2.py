@@ -1,0 +1,487 @@
+"""Build concept catalog for Class 7 Maths Chapter 2 (Fractions and Decimals).
+Extracted from gemh102.txt -- NCERT Class 7 Maths textbook.
+"""
+import json
+import os
+
+CATALOG = {
+    "class": 7,
+    "subject": "maths",
+    "chapter": 2,
+    "chapter_title": "Fractions and Decimals",
+    "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/gemh102.txt",
+    "concepts": [
+        {
+            "id": "c7m2.1.1",
+            "title": "Multiplication of a Fraction by a Whole Number",
+            "section": "2.1.1",
+            "definition": "To multiply a whole number with a fraction, multiply the whole number with the numerator, keeping the denominator same. For mixed fractions, first convert to improper fraction.",
+            "formula": "n x (a/b) = (n x a) / b",
+            "key_idea": "Multiply whole number by numerator, keep denominator. Convert mixed to improper first.",
+            "textbook_ref": "gemh102.txt lines 17-110",
+            "question_patterns": [
+                "multiply a fraction by a whole number",
+                "find the product of fraction and whole number",
+                "multiply whole number with fraction",
+                "find n times a fraction",
+                "multiply and reduce to lowest form",
+                "multiply and express as mixed fraction",
+                "what is a fraction times a number",
+                "how much distance will it cover",
+                "how much total given rate and quantity",
+                "find total given per unit and number of units",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {"step": 1, "action": "convert mixed to improper if needed", "explain": "If mixed fraction, convert to improper: a (b/c) = (a*c + b) / c"},
+                {"step": 2, "action": "multiply numerator by whole number", "explain": "new_numerator = whole_number x numerator"},
+                {"step": 3, "action": "keep denominator", "explain": "denominator stays the same"},
+                {"step": 4, "action": "simplify", "explain": "Reduce to lowest form. Convert to mixed fraction if improper."},
+            ],
+        },
+        {
+            "id": "c7m2.1.2",
+            "title": "Fraction as Operator 'of'",
+            "section": "2.1.1",
+            "definition": "The word 'of' represents multiplication. (a/b) of n = (a/b) x n.",
+            "formula": "(a/b) of n = (a/b) x n",
+            "key_idea": "'of' means multiply. Half of 20 = (1/2) x 20 = 10.",
+            "textbook_ref": "gemh102.txt lines 111-164",
+            "question_patterns": [
+                "what is a fraction of a number",
+                "find of a quantity",
+                "half of a number",
+                "third of a number",
+                "fraction of total",
+                "of means multiply",
+                "what fraction of students like",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {"step": 1, "action": "identify the fraction and the whole", "explain": "fraction = a/b, whole = n"},
+                {"step": 2, "action": "multiply", "explain": "result = (a/b) x n = (a x n) / b"},
+                {"step": 3, "action": "simplify", "explain": "Reduce to lowest form"},
+            ],
+        },
+        {
+            "id": "c7m2.1.3",
+            "title": "Multiplication of a Fraction by a Fraction",
+            "section": "2.1.2",
+            "definition": "To multiply two fractions, multiply numerators together and denominators together. (a/b) x (c/d) = (a x c) / (b x d).",
+            "formula": "(a/b) x (c/d) = (a x c) / (b x d)",
+            "key_idea": "Product of numerators over product of denominators.",
+            "textbook_ref": "gemh102.txt lines 267-402",
+            "question_patterns": [
+                "multiply two fractions",
+                "find the product of two fractions",
+                "multiply fraction by fraction",
+                "multiply and reduce to lowest form",
+                "product of fractions",
+                "fill in the boxes fraction multiplication",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {"step": 1, "action": "multiply numerators", "explain": "new_numerator = a x c"},
+                {"step": 2, "action": "multiply denominators", "explain": "new_denominator = b x d"},
+                {"step": 3, "action": "write product", "explain": "result = (a x c) / (b x d)"},
+                {"step": 4, "action": "simplify", "explain": "Reduce to lowest form"},
+            ],
+        },
+        {
+            "id": "c7m2.1.4",
+            "title": "Value of Product of Two Fractions",
+            "section": "2.1.2",
+            "definition": "Product of two proper fractions is less than each fraction. Product of two improper fractions is greater than each. Product of proper and improper is between them.",
+            "formula": "proper x proper < each; improper x improper > each",
+            "key_idea": "Proper x proper = smaller. Improper x improper = larger.",
+            "textbook_ref": "gemh102.txt lines 403-461",
+            "question_patterns": [
+                "compare product with fractions",
+                "is product less than or greater than",
+                "value of product of two proper fractions",
+                "value of product of two improper fractions",
+                "which is greater product or fraction",
+            ],
+            "solution_type": "verify_property",
+            "solution_steps": [
+                {"step": 1, "action": "identify fraction types", "explain": "Check if proper (numerator < denominator) or improper"},
+                {"step": 2, "action": "compute product", "explain": "Multiply the two fractions"},
+                {"step": 3, "action": "compare", "explain": "Compare product with each fraction"},
+            ],
+        },
+        {
+            "id": "c7m2.2.1",
+            "title": "Reciprocal of a Fraction",
+            "section": "2.2.1",
+            "definition": "The reciprocal of a fraction is obtained by inverting it (swapping numerator and denominator). Two numbers are reciprocals if their product is 1.",
+            "formula": "reciprocal of (a/b) = (b/a); (a/b) x (b/a) = 1",
+            "key_idea": "Flip the fraction to get its reciprocal. Product of reciprocals is 1.",
+            "textbook_ref": "gemh102.txt lines 570-606",
+            "question_patterns": [
+                "find the reciprocal of a fraction",
+                "what is the reciprocal",
+                "classify reciprocals as proper improper or whole",
+                "reciprocal of proper fraction",
+                "reciprocal of improper fraction",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {"step": 1, "action": "invert the fraction", "explain": "Swap numerator and denominator: a/b becomes b/a"},
+                {"step": 2, "action": "classify", "explain": "If b > a, reciprocal is improper. If b < a, reciprocal is proper. If b = 1, reciprocal is whole number a."},
+            ],
+        },
+        {
+            "id": "c7m2.2.2",
+            "title": "Division of Whole Number by a Fraction",
+            "section": "2.2.1",
+            "definition": "To divide a whole number by a fraction, multiply the whole number by the reciprocal of the fraction. n / (a/b) = n x (b/a).",
+            "formula": "n / (a/b) = n x (b/a)",
+            "key_idea": "Dividing by a fraction = multiplying by its reciprocal.",
+            "textbook_ref": "gemh102.txt lines 536-640",
+            "question_patterns": [
+                "divide whole number by fraction",
+                "find n divided by a fraction",
+                "whole number divided by fraction",
+                "divide by mixed fraction",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {"step": 1, "action": "convert mixed to improper if needed", "explain": "If divisor is mixed, convert to improper fraction"},
+                {"step": 2, "action": "find reciprocal", "explain": "Reciprocal of a/b is b/a"},
+                {"step": 3, "action": "multiply", "explain": "n / (a/b) = n x (b/a) = (n x b) / a"},
+                {"step": 4, "action": "simplify", "explain": "Reduce to lowest form"},
+            ],
+        },
+        {
+            "id": "c7m2.2.3",
+            "title": "Division of a Fraction by a Whole Number",
+            "section": "2.2.2",
+            "definition": "To divide a fraction by a whole number, multiply the fraction by the reciprocal of the whole number. (a/b) / n = (a/b) x (1/n) = a / (b x n).",
+            "formula": "(a/b) / n = (a/b) x (1/n)",
+            "key_idea": "Dividing a fraction by n = multiplying by 1/n.",
+            "textbook_ref": "gemh102.txt lines 643-656",
+            "question_patterns": [
+                "divide fraction by whole number",
+                "find a fraction divided by a number",
+                "fraction divided by whole",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {"step": 1, "action": "find reciprocal of whole number", "explain": "Reciprocal of n is 1/n"},
+                {"step": 2, "action": "multiply", "explain": "(a/b) / n = (a/b) x (1/n) = a / (b x n)"},
+                {"step": 3, "action": "simplify", "explain": "Reduce to lowest form"},
+            ],
+        },
+        {
+            "id": "c7m2.2.4",
+            "title": "Division of a Fraction by Another Fraction",
+            "section": "2.2.3",
+            "definition": "To divide one fraction by another, multiply the first fraction by the reciprocal of the second. (a/b) / (c/d) = (a/b) x (d/c) = (a x d) / (b x c).",
+            "formula": "(a/b) / (c/d) = (a/b) x (d/c) = (a x d) / (b x c)",
+            "key_idea": "Dividing by a fraction = multiplying by its reciprocal.",
+            "textbook_ref": "gemh102.txt lines 657-671",
+            "question_patterns": [
+                "divide one fraction by another",
+                "find a fraction divided by a fraction",
+                "fraction divided by fraction",
+                "divide fractions",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {"step": 1, "action": "find reciprocal of second fraction", "explain": "Reciprocal of c/d is d/c"},
+                {"step": 2, "action": "multiply", "explain": "(a/b) / (c/d) = (a/b) x (d/c) = (a x d) / (b x c)"},
+                {"step": 3, "action": "simplify", "explain": "Reduce to lowest form"},
+            ],
+        },
+        {
+            "id": "c7m2.3.1",
+            "title": "Multiplication of Decimal Numbers",
+            "section": "2.3",
+            "definition": "To multiply two decimals, multiply them as whole numbers, then count total decimal places in both numbers and place the decimal point that many places from the right.",
+            "formula": "0.a x 0.cd = (a x cd) with (1+2)=3 decimal places",
+            "key_idea": "Multiply as whole numbers, count decimal places, place decimal point.",
+            "textbook_ref": "gemh102.txt lines 716-806",
+            "question_patterns": [
+                "multiply decimal numbers",
+                "find the product of decimals",
+                "multiply two decimals",
+                "decimal multiplication",
+                "find the product of two decimal numbers",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {"step": 1, "action": "multiply as whole numbers", "explain": "Ignore decimal points and multiply"},
+                {"step": 2, "action": "count decimal places", "explain": "Count digits to right of decimal in both numbers, add them"},
+                {"step": 3, "action": "place decimal point", "explain": "In the product, count from right and place decimal point at the summed position"},
+            ],
+        },
+        {
+            "id": "c7m2.3.2",
+            "title": "Multiplication of Decimal by 10, 100, 1000",
+            "section": "2.3.1",
+            "definition": "When multiplying a decimal by 10, 100, or 1000, shift the decimal point to the right by as many places as there are zeros.",
+            "formula": "d x 10 = shift right 1; d x 100 = shift right 2; d x 1000 = shift right 3",
+            "key_idea": "Shift decimal point right by number of zeros.",
+            "textbook_ref": "gemh102.txt lines 819-866",
+            "question_patterns": [
+                "multiply decimal by 10",
+                "multiply decimal by 100",
+                "multiply decimal by 1000",
+                "decimal times 10 100 1000",
+                "shift decimal point right",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {"step": 1, "action": "count zeros", "explain": "10 has 1 zero, 100 has 2, 1000 has 3"},
+                {"step": 2, "action": "shift decimal right", "explain": "Move decimal point right by that many places"},
+                {"step": 3, "action": "fill zeros if needed", "explain": "Add zeros if not enough digits"},
+            ],
+        },
+        {
+            "id": "c7m2.4.1",
+            "title": "Division of Decimal by 10, 100, 1000",
+            "section": "2.4.1",
+            "definition": "When dividing a decimal by 10, 100, or 1000, shift the decimal point to the left by as many places as there are zeros.",
+            "formula": "d / 10 = shift left 1; d / 100 = shift left 2; d / 1000 = shift left 3",
+            "key_idea": "Shift decimal point left by number of zeros.",
+            "textbook_ref": "gemh102.txt lines 893-924",
+            "question_patterns": [
+                "divide decimal by 10",
+                "divide decimal by 100",
+                "divide decimal by 1000",
+                "decimal divided by 10 100 1000",
+                "shift decimal point left",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {"step": 1, "action": "count zeros", "explain": "10 has 1 zero, 100 has 2, 1000 has 3"},
+                {"step": 2, "action": "shift decimal left", "explain": "Move decimal point left by that many places"},
+                {"step": 3, "action": "fill zeros if needed", "explain": "Add leading zeros if needed"},
+            ],
+        },
+        {
+            "id": "c7m2.4.2",
+            "title": "Division of Decimal by Whole Number",
+            "section": "2.4.2",
+            "definition": "To divide a decimal by a whole number, divide as whole numbers then place the decimal point in the quotient at the same position as in the dividend.",
+            "formula": "d.n / w = divide ignoring decimal, place decimal at same position",
+            "key_idea": "Divide as whole numbers, keep decimal position.",
+            "textbook_ref": "gemh102.txt lines 925-967",
+            "question_patterns": [
+                "divide decimal by whole number",
+                "find decimal divided by whole",
+                "decimal division by whole",
+                "divide decimal by integer",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {"step": 1, "action": "remove decimal point", "explain": "Treat the decimal as a whole number (e.g., 6.4 becomes 64)"},
+                {"step": 2, "action": "divide as whole numbers", "explain": "Divide the whole number by the divisor"},
+                {"step": 3, "action": "place decimal point", "explain": "Place decimal in quotient so it has same decimal places as dividend"},
+            ],
+        },
+        {
+            "id": "c7m2.4.3",
+            "title": "Division of Decimal by Another Decimal",
+            "section": "2.4.3",
+            "definition": "To divide a decimal by another decimal, shift the decimal point in both numbers to make the divisor a whole number, then divide.",
+            "formula": "a.b / c.d = (a.b x 10^n) / (c.d x 10^n) where n makes divisor whole",
+            "key_idea": "Shift both decimals same places to make divisor whole, then divide.",
+            "textbook_ref": "gemh102.txt lines 968-1022",
+            "question_patterns": [
+                "divide decimal by decimal",
+                "find decimal divided by decimal",
+                "decimal division",
+                "divide one decimal by another",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {"step": 1, "action": "count decimal places in divisor", "explain": "Count digits to right of decimal in divisor"},
+                {"step": 2, "action": "shift both decimals", "explain": "Multiply both by 10^n to make divisor whole"},
+                {"step": 3, "action": "divide", "explain": "Now divide decimal (shifted) by whole number (shifted)"},
+            ],
+        },
+    ],
+    "worked_examples": [
+        {
+            "id": "ex1",
+            "source_ref": "gemh102.txt lines 166-192",
+            "concept": "c7m2.1.2",
+            "question_type": "fraction_of_total",
+            "question_pattern": "in a class of {total} students {fraction1} like {subject1} and {fraction2} like {subject2}. how many like each subject?",
+            "extracted_variables": {
+                "total": "total number of students",
+                "fraction1": "fraction liking subject1",
+                "fraction2": "fraction liking subject2",
+            },
+            "solution_template": [
+                {"step": 1, "action": "find students for subject1", "explain": "count1 = fraction1 x total", "compute": "fraction1 * total"},
+                {"step": 2, "action": "find students for subject2", "explain": "count2 = fraction2 x total", "compute": "fraction2 * total"},
+                {"step": 3, "action": "find remaining", "explain": "remaining = total - count1 - count2", "compute": "total - count1 - count2"},
+                {"step": 4, "action": "find fraction", "explain": "fraction_remaining = remaining / total", "compute": "remaining / total"},
+            ],
+        },
+        {
+            "id": "ex2",
+            "source_ref": "gemh102.txt lines 357-382",
+            "concept": "c7m2.1.3",
+            "question_type": "fraction_reading",
+            "question_pattern": "reads {fraction} of book in 1 hour. how much in {hours} hours?",
+            "extracted_variables": {
+                "fraction_per_hour": "fraction read per hour",
+                "hours": "number of hours",
+            },
+            "solution_template": [
+                {"step": 1, "action": "multiply fraction by hours", "explain": "total_read = fraction_per_hour x hours", "compute": "fraction_per_hour * hours"},
+                {"step": 2, "action": "simplify", "explain": "Reduce to lowest form"},
+            ],
+        },
+        {
+            "id": "ex3",
+            "source_ref": "gemh102.txt lines 807-818",
+            "concept": "c7m2.3.1",
+            "question_type": "perimeter_equilateral",
+            "question_pattern": "side of equilateral triangle is {side}. find perimeter",
+            "extracted_variables": {
+                "side": "length of each side",
+            },
+            "solution_template": [
+                {"step": 1, "action": "multiply side by 3", "explain": "perimeter = 3 x side (equilateral has 3 equal sides)", "compute": "3 * side"},
+            ],
+        },
+        {
+            "id": "ex4",
+            "source_ref": "gemh102.txt lines 814-818",
+            "concept": "c7m2.3.1",
+            "question_type": "area_rectangle_decimal",
+            "question_pattern": "length of rectangle is {length} and breadth is {breadth}. find area",
+            "extracted_variables": {
+                "length": "length of rectangle",
+                "breadth": "breadth of rectangle",
+            },
+            "solution_template": [
+                {"step": 1, "action": "multiply length by breadth", "explain": "area = length x breadth", "compute": "length * breadth"},
+            ],
+        },
+        {
+            "id": "ex5",
+            "source_ref": "gemh102.txt lines 964-967",
+            "concept": "c7m2.4.2",
+            "question_type": "average_decimals",
+            "question_pattern": "find the average of {a}, {b} and {c}",
+            "extracted_variables": {
+                "values": "list of decimal numbers",
+            },
+            "solution_template": [
+                {"step": 1, "action": "sum the values", "explain": "total = sum of all values", "compute": "sum(values)"},
+                {"step": 2, "action": "divide by count", "explain": "average = total / count", "compute": "total / count"},
+            ],
+        },
+        {
+            "id": "ex6",
+            "source_ref": "gemh102.txt lines 1008-1015",
+            "concept": "c7m2.4.3",
+            "question_type": "polygon_sides",
+            "question_pattern": "each side of regular polygon is {side}. perimeter is {perimeter}. how many sides?",
+            "extracted_variables": {
+                "side": "length of each side",
+                "perimeter": "total perimeter",
+            },
+            "solution_template": [
+                {"step": 1, "action": "divide perimeter by side", "explain": "num_sides = perimeter / side", "compute": "perimeter / side"},
+            ],
+        },
+        {
+            "id": "ex7",
+            "source_ref": "gemh102.txt lines 1016-1022",
+            "concept": "c7m2.4.3",
+            "question_type": "speed_distance",
+            "question_pattern": "car covers {distance} in {time} hours. what is average distance per hour?",
+            "extracted_variables": {
+                "distance": "total distance",
+                "time": "total time",
+            },
+            "solution_template": [
+                {"step": 1, "action": "divide distance by time", "explain": "speed = distance / time", "compute": "distance / time"},
+            ],
+        },
+    ],
+    "exercises": [
+        {
+            "id": "ex2.1",
+            "source_ref": "gemh102.txt lines 193-266",
+            "questions": [
+                "Which of the drawings show 2 x 1/5, 2 x 1/2, 3 x 2/3, 3 x 1/4",
+                "Multiply and reduce to lowest form: 7 x 3/5, 4 x 1/3, 2 x 6/7, 5 x 2/9, 2/3 x 4, 5/2 x 6, 11 x 4/7, 20 x 4/5, 13 x 1/3, 15 x 3/5",
+                "Shade 1/2 of circles, 2/3 of triangles, 3/5 of squares",
+                "Find 1/2 of 24, 46; 2/3 of 18, 27; 3/4 of 16, 36; 4/5 of 20, 35",
+                "Multiply and express as mixed fraction: 3 x 5 1/3, 5 x 6 3/4, 7 x 2 1/4, 4 x 6 1/3, 3 x 6 1/4, 3 x 8 2/5",
+                "Find 1/2 of 2, 4; 5/9 of 3, 9; 2/3 of 3, 9",
+                "Vidya and Pratap went for picnic. Water bottle had 5 litres. Vidya consumed 2/5. How much did Vidya drink? What fraction did Pratap drink?",
+            ],
+        },
+        {
+            "id": "ex2.2",
+            "source_ref": "gemh102.txt lines 462-514",
+            "questions": [
+                "Find 1/4 of 1/4, 1/3, 4/5; 1/7 of 2/9, 6/5, 3/10",
+                "Multiply and reduce: 2/3 x 2/3, 2/7 x 7/9, 3/8 x 6/4, 9/5 x 3/5, 1/3 x 15/8, 11/2 x 3/10, 4/5 x 12/7",
+                "Multiply fractions: 2/5 x 5, 6 x 1/4, 2/5 x 5, 7/9 x 2, 5/6 x 3 1/3, 2 4/7 x 3 5/7, 3 4/5 x 3",
+                "Which is greater: 2/7 of 3/4 or 3/5 of 5/8; 1/2 of 6/7 or 2/3 of 3/7",
+                "Saili plants 4 saplings in a row. Distance between adjacent saplings is 3/4 m. Find distance between first and last.",
+                "Lipika reads 1 3/4 hours everyday. Reads entire book in 6 days. How many hours total?",
+                "Car runs 16 km using 1 litre. How much distance using 2 3/4 litres?",
+                "Provide number in box: 2/3 x ? = 10/30; 3/5 x ? = 24/75",
+            ],
+        },
+        {
+            "id": "ex2.3",
+            "source_ref": "gemh102.txt lines 675-715",
+            "questions": [
+                "Find 12 / 3/4, 14 / 5/6, 8 / 7/3, 4 / 8/3, 3 / 2 1/3, 5 / 3 1/7",
+                "Find reciprocal of 3/7, 5/8, 9/7, 6/5, 12/7, 1/8, 1/11. Classify as proper, improper, whole.",
+                "Find 7/3 / 2, 4/9 / 5, 6/13 / 7, 4/3 / 3, 3 1/2 / 4, 4 3/7 / 7",
+                "Find 2/5 / 1/2, 4/9 / 2/3, 3/7 / 8/7, 2 / 1/3, 3 / 1 1/5, 1/2 / 1, 3 1/2 / 1 1/5, 2 1/5 / 1 1/5",
+            ],
+        },
+        {
+            "id": "ex2.4",
+            "source_ref": "gemh102.txt lines 867-882",
+            "questions": [
+                "Find 0.2 x 6, 8 x 4.6, 2.71 x 5, 20.1 x 4, 0.05 x 7, 211.02 x 4, 2 x 0.86",
+                "Find area of rectangle with length 5.7 cm and breadth 3 cm",
+                "Find 1.3 x 10, 36.8 x 10, 153.7 x 10, 168.07 x 10, 31.1 x 100, 156.1 x 100, 3.62 x 100, 43.07 x 100, 0.5 x 10, 0.08 x 10, 0.9 x 100, 0.03 x 1000",
+                "Two-wheeler covers 55.3 km in 1 litre. How much in 10 litres?",
+                "Find 2.5 x 0.3, 0.1 x 51.7, 0.2 x 316.8, 1.3 x 3.1, 0.5 x 0.05, 11.2 x 0.15, 1.07 x 0.02, 10.05 x 1.05, 101.01 x 0.01, 100.01 x 1.1",
+            ],
+        },
+        {
+            "id": "ex2.5",
+            "source_ref": "gemh102.txt lines 1023-1045",
+            "questions": [
+                "Find 0.4 / 2, 0.35 / 5, 2.48 / 4, 65.4 / 6, 651.2 / 4, 14.49 / 7, 3.96 / 4, 0.80 / 5",
+                "Find 4.8 / 10, 52.5 / 10, 0.7 / 10, 33.1 / 10, 272.23 / 10, 0.56 / 10, 3.97 / 10",
+                "Find 2.7 / 100, 0.3 / 100, 0.78 / 100, 432.6 / 100, 23.6 / 100, 98.53 / 100",
+                "Find 7.9 / 1000, 26.3 / 1000, 38.53 / 1000, 128.9 / 1000, 0.5 / 1000",
+                "Find 7 / 3.5, 36 / 0.2, 3.25 / 0.5, 30.94 / 0.7, 0.5 / 0.25, 7.75 / 0.25, 76.5 / 0.15, 37.8 / 1.4, 2.73 / 1.3",
+                "Vehicle covers 43.2 km in 2.4 litres. How much in 1 litre?",
+            ],
+        },
+    ],
+}
+
+
+def main():
+    out_dir = os.path.dirname(os.path.abspath(__file__))
+    out_path = os.path.join(out_dir, "catalog_class7_maths_ch2_fractions_decimals.json")
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(CATALOG, f, indent=2, ensure_ascii=True)
+    print("Wrote catalog to:", out_path)
+    print("Concepts:", len(CATALOG["concepts"]))
+    print("Worked examples:", len(CATALOG["worked_examples"]))
+    print("Exercises:", len(CATALOG["exercises"]))
+    print("Total exercise questions:", sum(len(e["questions"]) for e in CATALOG["exercises"]))
+
+
+if __name__ == "__main__":
+    main()

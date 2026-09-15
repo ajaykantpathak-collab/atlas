@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_01_005",
+   "title": "c12_eco_cbse_01_005",
+   "questions": [
+    {
+     "q": "Define Marginal Rate of Transformation (MRT) and state its geometric interpretation on the PPF.",
+     "a": "MRT is the quantity of one good that must be given up to produce one more unit of another good, holding resources and technology constant. Geometrically, it is the absolute value of the slope of the PPF at a given point (|ΔY/ΔX|). A wrong answer that says \"MRT is the slope of the indifference curve\" confuses MRT with MRS (Marginal Rate of Substitution). A wrong answer that says \"MRT is the ratio of total outputs\" mistakes average for marginal.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the PPF is typically drawn concave to the origin rather than as a straight line or convex curve. Use the concept of resource specificity.",
+     "a": "The PPF is concave because resources are specialized (e.g., land is more fertile for wheat, labour is more skilled in services). As production shifts from one good to another, increasingly less suitable resources are reallocated, so the opportunity cost (MRT) rises. A straight-line PPF assumes perfect substitutability of resources (constant MRT), which is unrealistic. A convex PPF would imply decreasing MRT, meaning resources become more efficient as we specialize — contrary to the principle of increasing opportunity cost. A student who draws a straight line and says \"it's simpler\" misses the core economic reason: resource heterogeneity.",
+     "self_check": true
+    },
+    {
+     "q": "An economy produces only two goods: tractors (T) and wheat (W). The following combinations are on its PPF:\nCombination A: T=0, W=100\nCombination B: T=10, W=90\nCombination C: T=20, W=70\nCombination D: T=30, W=40\nCombination E: T=40, W=0\nCalculate the MRT between each successive combination. Is the PPF concave, convex, or linear? Justify.",
+     "a": "MRT (A→B) = |ΔW/ΔT| = |(90-100)/(10-0)| = 10/10 = 1\nMRT (B→C) = |(70-90)/(20-10)| = 20/10 = 2\nMRT (C→D) = |(40-70)/(30-20)| = 30/10 = 3\nMRT (D→E) = |(0-40)/(40-30)| = 40/10 = 4\nMRT increases from 1 to 4, so the PPF is concave to the origin. A student who calculates MRT as ΔT/ΔW (inverse) gets 1, 0.5, 0.33, 0.25 and might wrongly conclude MRT is decreasing. A student who uses total output ratios (e.g., 100/0) commits a division-by-zero error and confuses average with marginal.",
+     "self_check": true
+    },
+    {
+     "q": "Suppose technological progress occurs only in the tractor industry, making tractors easier to produce, while wheat technology is unchanged. How does the PPF shift, and what happens to the MRT at any given level of wheat production?",
+     "a": "The PPF rotates outward along the tractor axis (maximum tractors increases, maximum wheat unchanged). At any given wheat output, the economy can now produce more tractors, so the PPF becomes flatter — the MRT (sacrifice of wheat per extra tractor) decreases. A student who says \"the PPF shifts outward parallel\" ignores that the improvement is sector-specific. A student who says \"MRT increases\" confuses the direction: better technology reduces the opportunity cost of tractors.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"If an economy operates inside its PPF, the MRT is zero because no sacrifice is needed to produce more of either good.\" Is this correct? Explain.",
+     "a": "The statement is incorrect. MRT is defined only for points on the PPF (efficient production). Inside the PPF, resources are unemployed or misallocated; producing more of one good does not require sacrificing the other — you just use idle resources. The concept of MRT does not apply there; the opportunity cost is zero only in the sense of no trade-off, but MRT is undefined. A student who agrees confuses \"inside the PPF\" with \"on the PPF\" and misunderstands that MRT measures the trade-off at full employment.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a hypothetical PPF schedule for an economy producing smartphones and solar panels where the MRT is constant for the first 20 units of smartphones, then increases. Draw the PPF and label the kink point. Explain what the kink represents in terms of resource specificity.",
+     "a": "Example schedule: (Smartphones, Solar Panels)\n(0, 100), (10, 90), (20, 80) — MRT = 1 constant (resources perfectly substitutable up to 20 smartphones).\nThen (30, 65), (40, 45), (50, 20) — MRT = 1.5, 2, 2.5 increasing.\nThe PPF has a straight segment from 0–20 smartphones, then bends concave. The kink at 20 smartphones marks the exhaustion of general-purpose resources (e.g., unskilled labour, generic factories) and the start of using specialized resources (e.g., clean rooms for semiconductors, rare-earth miners for panels). A student who draws a smooth curve throughout misses the kink that signals a change in resource homogeneity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

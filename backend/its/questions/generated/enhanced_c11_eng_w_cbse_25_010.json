@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_25_010",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_25_010",
+   "title": "c11_eng_w_cbse_25_010",
+   "questions": [
+    {
+     "q": "In the phrase \"words of modern canaille,\" what is the literal meaning of \"canaille\" and from which language does it originate?",
+     "a": "\"Canaille\" literally means \"the common people\" or \"rabble\" and originates from French (from Old French *canaille*, from *cana* \"pack of dogs\"). A wrong answer (e.g., \"villains\" or \"enemies\") reveals the student is guessing from context alone without recognizing the etymological clue that Ruskin deliberately uses a French aristocratic term to reinforce his extended metaphor of words having \"ancient blood\" and \"peerage.\"",
+     "self_check": true
+    },
+    {
+     "q": "Ruskin writes: \"he is learned in the peerage of words; knows the words of true descent and ancient blood, at a glance, from words of modern canaille.\" Explain how the metaphor of \"peerage\" functions differently from a simple synonym like \"vocabulary\" or \"dictionary.\"",
+     "a": "\"Peerage\" invokes a hierarchical system of hereditary titles (duke, marquis, earl) with strict precedence, implying words have rank, lineage, and social standing earned over centuries. A wrong answer treating it as \"vocabulary list\" misses that Ruskin argues language has an intrinsic aristocracy where some words command authority by historical right, not merely by definition — a concept central to his philosophy of precise diction.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the \"syllable by syllable — nay, letter by letter\" method to the word \"inscription\" in the sentence: \"That his 'writing', it is, in his small human way... his inscription, or scripture.\" Show how morphological analysis reveals Ruskin's theological elevation of authorship.",
+     "a": "Step 1: Identify root *script* (Latin *scribere* \"to write\"). Step 2: Prefix *in-* (on/into) + *script* + *-ion* (action/result) = \"writing on/into a surface.\" Step 3: Note the apposition \"or scripture\" — *scripture* shares the same root but carries sacred connotation (holy writ). Step 4: Conclude Ruskin equates the author's act with divine inscription, making the book a secular scripture. A wrong answer defining it merely as \"writing on stone\" misses the theological weight Ruskin builds through etymology.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the usage of \"fain\" in \"He would fain set it down forever\" with its archaic/adverbial function. Why does Ruskin choose this archaic form instead of \"gladly\" or \"willingly\"?",
+     "a": "\"Fain\" (OE *fægen* \"glad\") functions as an adverb meaning \"under obligation/compulsion of desire\" — it implies an inner necessity, not mere willingness. Ruskin uses it to show the author is *driven* by truth, not choosing casually. A wrong answer treating it as a simple synonym for \"gladly\" flattens the moral urgency: the author *must* write because the truth possesses him, aligning with Ruskin's view that great books are \"inscriptions\" of necessary vision.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate Ruskin's claim: \"A few words, well chosen and well distinguished, will do work that a thousand cannot, when everyone is acting equivocally.\" Does the essay itself exemplify this principle? Justify with two specific diction choices.",
+     "a": "Yes. 1) \"Canaille\" (one French word) condenses the entire concept of \"linguistic upstarts lacking historical legitimacy\" — a thousand English words would need explanatory clauses. 2) \"Equivocally\" (from *equi-* \"equal\" + *voc-* \"voice\") precisely captures words \"speaking with equal voices\" i.e., ambiguously, which a phrase like \"in a confusing way\" fails to diagnose. A wrong answer citing general \"good vocabulary\" misses that Ruskin's precision is *analytical* — each word performs a conceptual operation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 50-word paragraph arguing for the importance of etymology in literary analysis, using at least three words from the essay (canaille, peerage, fain, inscription, equivocally, reticence) in a way that demonstrates their precise connotations.",
+     "a": "A strong answer uses words functionally: \"Etymology reveals the *peerage* of language: without it, we mistake *canaille* for nobility. The scholar *fain* traces each word to its *inscription* in history, refusing *equivocally* borrowed terms. *Reticence* about origins makes us linguistic impostors.\" A weak answer merely inserts words decoratively without semantic necessity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_11_005",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_11_005",
+   "title": "c12_bio_cbse_11_005",
+   "questions": [
+    {
+     "q": "What is the primary role of cold calcium chloride (CaCl₂) treatment in making *E. coli* competent for transformation?",
+     "a": "Cold CaCl₂ neutralizes the negative charges on both the bacterial cell membrane (phospholipid head groups) and the DNA phosphate backbone, reducing electrostatic repulsion. It also stabilizes the membrane and promotes formation of transient pores. A wrong answer (e.g., \"CaCl₂ degrades the cell wall\" or \"CaCl₂ provides energy for DNA uptake\") reveals confusion between chemical competence and physical methods like electroporation, or misunderstanding that competence is about membrane charge neutralization, not wall digestion.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the heat shock step (42°C for 30–90 seconds) performed immediately after incubating DNA with CaCl₂-treated cells on ice?",
+     "a": "The sudden temperature shift creates a thermal gradient across the membrane, generating a transient pressure difference that drives the negatively charged DNA molecules through the CaCl₂-stabilized pores into the cytoplasm. A wrong answer (e.g., \"heat shock activates DNA polymerase\" or \"heat shock kills non-transformed cells\") shows the student memorizes the step without understanding the biophysical driving force — the thermal imbalance is the *push* that complements the CaCl₂ *pull*.",
+     "self_check": true
+    },
+    {
+     "q": "A student transforms *E. coli* DH5α with a recombinant pUC19 plasmid (ampicillin resistance, *lacZα* fragment) and plates on LB + ampicillin + X-gal. They observe only white colonies. What does this indicate, and what critical control is missing?",
+     "a": "White colonies indicate successful insertional inactivation of *lacZα* (recombinant plasmids). However, the absence of *any* blue colonies means the negative control (vector-only ligation) was not plated — without it, you cannot confirm that the white color is due to insertion and not a *lacZ* mutation or X-gal degradation. A wrong answer (\"all colonies are recombinant so the experiment worked perfectly\") reveals inability to design proper controls — a frequent NEET trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the mechanism of DNA entry in CaCl₂/heat shock transformation versus electroporation. Which method generally yields higher transformation efficiency for large plasmids (>10 kb)?",
+     "a": "CaCl₂/heat shock: charge neutralization + thermal gradient drives DNA through membrane pores. Electroporation: high-voltage pulse creates transient electrophoretic pores; DNA enters via electrophoresis. Electroporation gives 10–100× higher efficiency for large plasmids because it does not rely on thermal diffusion, which is size-limited. A wrong answer (\"both use heat\" or \"CaCl₂ is better for large plasmids\") confuses the physical mechanisms and misses the size-dependence of diffusion-based uptake.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Transformation efficiency (colonies/µg DNA) is a reliable metric to compare competence of two *E. coli* strains if the same plasmid is used.\" Identify two hidden assumptions.",
+     "a": "The statement assumes: (1) plasmid topology is identical (supercoiled vs. nicked/linear — supercoiled transforms 100× better), and (2) the DNA preparation has no inhibitors (salt, ethanol, phenol) that affect strains differently. If strain A is more sensitive to residual ethanol, its efficiency will be artifactually low. A wrong answer (\"yes, it's a standard metric\") ignores that transformation efficiency is a *system property* (DNA + cells + protocol), not a cell-intrinsic property alone.",
+     "self_check": true
+    },
+    {
+     "q": "Design a transformation experiment to clone a 12 kb genomic fragment into a high-copy plasmid for protein expression. Specify: host strain, competence method, vector features, selection/screening strategy, and how you would verify insert orientation.",
+     "a": "Host: *E. coli* DH10B (recombination-deficient, good for large inserts). Competence: electroporation (high efficiency for 12 kb). Vector: pUC-based with T7 promoter, ampicillin resistance, *lacZα* MCS. Selection: ampicillin; screening: blue-white on X-gal/IPTG. Orientation check: restriction digest with asymmetric enzymes flanking MCS, or colony PCR with one vector-specific and one insert-specific primer. A poor answer uses CaCl₂ for 12 kb (low efficiency), omits recombination-deficient host (insert instability), or suggests only sequencing for orientation (too slow for initial screening).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

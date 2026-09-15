@@ -1,0 +1,205 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 7,
+ "chapter_title": "India's Cultural Roots",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fees107.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fees.7.1",
+   "title": "The Vedas and Vedic Roots",
+   "section": "The Vedas",
+   "definition": "India's oldest knowledge tradition flows from the Vedas, collections of hymns preserved for millennia by memorised recitation; they praise nature's powers and teach rita, the cosmic order of right living.",
+   "formula": "",
+   "key_idea": "The Vedas are the common trunk of Indian culture, remembered in sound long before they were written.",
+   "textbook_ref": "fees107.txt, The Vedas",
+   "question_patterns": [
+    "what are the vedas and how were they preserved",
+    "how many vedas are there and what does each hold",
+    "who recited and guarded the vedic hymns",
+    "what does the chapter say about the message of the vedas",
+    "why is memorised recitation important for the vedas",
+    "what is a subhashita as quoted in the chapter"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.7.2",
+   "title": "Jainism and Buddhism: New Schools of Thought",
+   "section": "Schools of thought",
+   "definition": "In the first millennium BCE new schools of thought arose, among them Jainism taught by Mahavira and Buddhism taught by the Buddha, both questioning ritual and preaching non-violence and ethical conduct.",
+   "formula": "",
+   "key_idea": "Seekers asked fresh questions about suffering and how to live, giving India traditions of debate and renunciation.",
+   "textbook_ref": "fees107.txt, Schools of thought",
+   "question_patterns": [
+    "which new schools of thought arose in india in the first millennium bce",
+    "who was mahavira and what did he teach",
+    "what are the core principles of jainism",
+    "how did the buddha seek the end of suffering",
+    "what do jainism and buddhism have in common",
+    "why did these schools question Vedic ritual"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.7.3",
+   "title": "The Buddha and the Middle Path",
+   "section": "Buddhism",
+   "definition": "The Buddha taught a middle path between harsh self-denial and indulgence, with compassion for all beings; panels and images across Asia show him seated in calm, spreading the dharma he found under the Bodhi tree.",
+   "formula": "",
+   "key_idea": "The Buddha's answer to suffering is balance and compassion, a path open to anyone who walks it.",
+   "textbook_ref": "fees107.txt, Buddhism",
+   "question_patterns": [
+    "what is the middle path taught by the buddha",
+    "where did the buddha attain enlightenment",
+    "how is the buddha depicted in art",
+    "what does the buddha teach about desire",
+    "why did the buddha's teaching spread so widely",
+    "what did the buddha say about cruelty to animals"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.7.4",
+   "title": "Folk and Tribal Traditions",
+   "section": "Folk traditions",
+   "definition": "Alongside the great schools, countless folk and tribal traditions, local deities, songs, festivals and sacred groves, shaped daily life and fed the larger currents of Indian culture.",
+   "formula": "",
+   "key_idea": "India's culture grows from many roots: village and tribal ways are branches as real as the great texts.",
+   "textbook_ref": "fees107.txt, Folk traditions",
+   "question_patterns": [
+    "what is the contribution of folk and tribal traditions to indian culture",
+    "give examples of folk deities or festivals of your region",
+    "how do tribal communities respect nature",
+    "how do folk traditions meet the great traditions",
+    "why are sacred groves protected by communities",
+    "how do songs and stories carry cultural knowledge"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fees107.txt",
+   "concept": "fees.7.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why is Indian culture compared to an ancient tree?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "picture the tree",
+     "explain": "Many roots feed one trunk, and the trunk bears many branches."
+    },
+    {
+     "step": 2,
+     "action": "apply the image",
+     "explain": "Vedic, Jain, Buddhist and folk streams differ in form yet share one cultural trunk of values."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fees107.txt",
+   "concept": "fees.7.2",
+   "question_type": "verify_property",
+   "question_pattern": "What do Jainism and Buddhism share?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list the teachings",
+     "explain": "Both question empty ritual and stress non-violence, truth and self-discipline."
+    },
+    {
+     "step": 2,
+     "action": "state the difference",
+     "explain": "Jainism follows Mahavira's strict path of the conquerors, while Buddhism walks the Buddha's middle way."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fees107.txt, Let us reflect",
+   "questions": [
+    "What are the Big Questions of this chapter?",
+    "How is the Buddha depicted in the panel discussed?",
+    "Which images of a rishi, the Buddha and Mahavira open the chapter?",
+    "Explain the Subhashita about knowledge as the greatest wealth.",
+    "Write the core principles of Jainism in your own words."
+   ]
+  }
+ ]
+}

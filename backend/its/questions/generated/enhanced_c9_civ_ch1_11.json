@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_civ_ch1_11",
+ "concepts": [
+  {
+   "id": "enh:c9_civ_ch1_11",
+   "title": "c9_civ_ch1_11",
+   "questions": [
+    {
+     "q": "What constitutional article guarantees universal adult franchise in India, and in which year was the voting age lowered from 21 to 18?",
+     "a": "Article 326 guarantees universal adult franchise; the voting age was lowered from 21 to 18 by the 61st Constitutional Amendment Act, 1988. A wrong answer (e.g., citing Article 325 or 1950 as the year) reveals confusion between the franchise article and non-discrimination provisions, or between the original Constitution and subsequent amendments.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the 73rd and 74th Constitutional Amendments (1992) reserved one-third seats for women in Panchayats and Municipalities, but a similar reservation for Parliament and State Assemblies took until 2023 (106th Amendment).",
+     "a": "Local bodies are State subjects under the Constitution, allowing Parliament to mandate reservation via Article 243D/T without overriding State legislative autonomy; Parliament/Assembly reservation required a constitutional amendment altering Articles 82/170 (delimitation) and 330/332 (SC/ST reservation), needing broader political consensus. A wrong answer focusing only on \"patriarchy\" misses the federalism and constitutional design constraints that shaped the sequence.",
+     "self_check": true
+    },
+    {
+     "q": "A State Legislative Assembly has 180 seats. After the 106th Amendment is implemented post-delimitation, 33% seats will be reserved for women. Of these reserved seats, 15% are further sub-reserved for SC women and 7.5% for ST women (proportionate to SC/ST population). How many seats will be: (a) reserved for women total, (b) reserved for SC women, (c) reserved for ST women, (d) open to all women (general category)?",
+     "a": "(a) 180 × 33% = 59.4 → 59 seats (rounded per delimitation rules). (b) 59 × 15% = 8.85 → 9 seats. (c) 59 × 7.5% = 4.425 → 4 seats. (d) 59 - 9 - 4 = 46 seats. A wrong calculation (e.g., applying percentages to 180 directly) reveals misunderstanding of horizontal reservation: sub-quotas operate *within* the vertical women's quota, not on total seats.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"rotation of reserved constituencies\" mechanism in Panchayats (Article 243D) with the proposed rotation for Lok Sabha/Assembly seats under the 106th Amendment. How does rotation affect (a) accountability of representatives, (b) nurturing of political leadership, and (c) voter-representative relationship?",
+     "a": "Rotation in Panchayats (every election cycle) prevents entrenchment but weakens accountability (no re-election incentive) and leadership pipeline (no long-term constituency building). The 106th Amendment mandates rotation after *each delimitation* (~15-20 years), balancing incubation time with broader access. A wrong answer treating both rotations identically misses how frequency changes the incentive structure for representatives and parties.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this argument: \"Reservation for women violates the democratic principle of meritocracy — the best candidate should win regardless of gender. If women are capable, they will win on their own.\"",
+     "a": "The argument confuses *formal equality* (equal opportunity to contest) with *substantive equality* (equal outcome in representation). Structural barriers — patriarchal party ticket distribution, care-work burden, violence, campaign finance — make \"merit\" invisible. Data: women win at *higher* rates than men when given tickets (e.g., 2019 Lok Sabha: women 10.5% candidates, 14% winners). Reservation corrects market failure in political recruitment. A wrong answer accepting the premise reveals misunderstanding of democracy as procedural only, not outcome-oriented.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"Women's Representation Index\" for Indian States using three measurable indicators beyond just % of women MLAs. Justify each indicator's democratic significance.",
+     "a": "Good answer includes: (1) *Ticket distribution ratio* (% women candidates fielded by major parties) — tests party gatekeeping; (2) *Cabinet/Ministerial berths held by women* — tests executive power-sharing; (3) *Women MLAs heading key committees (PAC, Estimates, etc.)* — tests institutional influence. Poor answer uses only descriptive stats (literacy, sex ratio) or repeats MLA percentage, missing the *political economy* of representation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

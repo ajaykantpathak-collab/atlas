@@ -1,0 +1,247 @@
+{
+ "class": 12,
+ "subject": "geography",
+ "chapter": 20,
+ "chapter_title": "International Trade",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/legy208.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "legy.208.1",
+   "title": "Changing Composition of India's Trade",
+   "section": "Changing Pattern of the Composition of India's Imports",
+   "definition": "India's export composition shifted from agricultural products to manufactured goods, which formed about 67.8 per cent of exports in 2021-22, while imports include crude oil and petroleum, pearls, chemicals and electronic goods; the shift mirrors industrialisation and skill upgradation.",
+   "formula": "non_manufactured_share = 100 - manufactured_share",
+   "key_idea": "Subtracting the manufactured goods share of exports from 100 gives the share of agriculture, ores and other non-manufactured exports.",
+   "textbook_ref": "legy208.txt export composition table (manufactured goods 67.8 per cent in 2021-22)",
+   "question_patterns": [
+    "what share of exports do manufactured goods form recently",
+    "compute the non-manufactured export share",
+    "trace the decline of agricultural exports' share",
+    "name India's major import items",
+    "why do crude oil imports dominate",
+    "relate IT services to invisible exports"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "record the manufactured share",
+     "explain": "manufactured goods formed about 67.8 per cent of exports",
+     "compute": "manufactured_share = 67.8"
+    },
+    {
+     "step": 2,
+     "action": "subtract from 100",
+     "explain": "the remainder is non-manufactured exports",
+     "compute": "non_manufactured_share = 100 - manufactured_share"
+    }
+   ]
+  },
+  {
+   "id": "legy.208.2",
+   "title": "Direction and Balance of Trade",
+   "section": "Direction of Trade",
+   "definition": "India's trade direction has moved towards Asia: countries of Asia and ASEAN now take the largest shares of exports and imports, with the USA, China and Gulf states as leading partners, while the trade balance swings with oil prices and global demand.",
+   "formula": "",
+   "key_idea": "Neighbouring Asian economies replace old western partners as India's main trade geography, changing ports and shipping patterns too.",
+   "textbook_ref": "legy208.txt direction of trade and major partners sections",
+   "question_patterns": [
+    "which regions dominate India's trade direction",
+    "name India's leading trade partners",
+    "how does oil price movement affect the trade balance",
+    "define balance of trade and its favourable form",
+    "compute the balance from export and import values",
+    "relate trade direction to port traffic"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "map the partners",
+     "explain": "Asian and ASEAN countries lead, with USA, China and Gulf states prominent"
+    },
+    {
+     "step": 2,
+     "action": "define the balance",
+     "explain": "exports minus imports give the balance, favourable when positive"
+    },
+    {
+     "step": 3,
+     "action": "close with oil",
+     "explain": "crude import bills swing the balance seasonally and cyclically"
+    }
+   ]
+  },
+  {
+   "id": "legy.208.3",
+   "title": "Sea Ports and Airports as Trade Gateways",
+   "section": "Sea Ports",
+   "definition": "About 95 per cent of India's international trade by volume moves by sea through twelve major ports like Mumbai, Kandla, Visakhapatnam, Paradip and Chennai, complemented by minor ports and international airports handling high-value cargo like gems and electronics.",
+   "formula": "",
+   "key_idea": "Ports are trade's gateways: their capacity and turnaround decide whether export competitiveness reaches the seas.",
+   "textbook_ref": "legy208.txt sea ports and airports sections",
+   "question_patterns": [
+    "what share of India's trade volume moves by sea",
+    "name the major sea ports of India with their hinterlands",
+    "differentiate major and minor ports",
+    "which commodities move through Indian airports",
+    "explain the role of container terminals",
+    "relate port efficiency to export growth"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the sea share",
+     "explain": "about 95 per cent of trade volume rides the seas"
+    },
+    {
+     "step": 2,
+     "action": "list the gateways",
+     "explain": "Mumbai, Kandla, Visakhapatnam, Paradip and Chennai anchor the coasts"
+    },
+    {
+     "step": 3,
+     "action": "close with air cargo",
+     "explain": "gems, electronics and pharma prefer airports for speed and safety"
+    }
+   ]
+  },
+  {
+   "id": "legy.208.4",
+   "title": "Trade Policy and Global Integration",
+   "section": "Trade Policy",
+   "definition": "India's trade policy moved from import substitution and licensing before 1991 to trade liberalisation, with reduced tariffs, export promotion zones and free trade agreements integrating India into global value chains.",
+   "formula": "",
+   "key_idea": "Liberalisation changed both what India trades and how: service exports, electronics assembly and regional agreements now shape the ledger.",
+   "textbook_ref": "legy208.txt trade policy reform and export promotion sections",
+   "question_patterns": [
+    "contrast pre-1991 and post-1991 trade policies",
+    "what do export promotion zones do",
+    "name India's major free trade agreements mentioned",
+    "how did tariffs move after liberalisation",
+    "relate global value chains to Indian manufacturing",
+    "evaluate service exports in the trade ledger"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "date the turn",
+     "explain": "1991 liberalisation replaced licensing with tariff-led openness"
+    },
+    {
+     "step": 2,
+     "action": "list the tools",
+     "explain": "export zones, FTAs and tariff cuts are the policy instruments"
+    },
+    {
+     "step": 3,
+     "action": "close with chains",
+     "explain": "joining global value chains made ports and skills decisive"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_legy208_1",
+   "source_ref": "legy208.txt export composition table",
+   "concept": "legy.208.1",
+   "question_type": "compute",
+   "question_pattern": "Manufactured goods formed about 67.8 per cent of India's exports in 2021-22. Compute the share of all other exports.",
+   "extracted_variables": {
+    "manufactured_share": 67.8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "record the manufactured share",
+     "explain": "manufactured goods take about 67.8 per cent",
+     "compute": "manufactured_share = 67.8"
+    },
+    {
+     "step": 2,
+     "action": "subtract from 100",
+     "explain": "100 - 67.8 = 32.2 per cent is non-manufactured",
+     "compute": "non_manufactured_share = 100 - manufactured_share"
+    }
+   ]
+  },
+  {
+   "id": "we_legy208_2",
+   "source_ref": "legy208.txt balance of trade section",
+   "concept": "legy.208.2",
+   "question_type": "compute",
+   "question_pattern": "Compute India's trade balance in a year when exports were 310 billion dollars and imports 470 billion dollars.",
+   "extracted_variables": {
+    "exports_value": 310,
+    "imports_value": 470
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "record the values",
+     "explain": "exports 310, imports 470 billion dollars",
+     "compute": "exports_value = 310"
+    },
+    {
+     "step": 2,
+     "action": "subtract imports from exports",
+     "explain": "310 - 470 = -160, an unfavourable balance",
+     "compute": "trade_balance = exports_value - imports_value"
+    }
+   ]
+  },
+  {
+   "id": "we_legy208_3",
+   "source_ref": "legy208.txt sea ports section",
+   "concept": "legy.208.3",
+   "question_type": "short_answer",
+   "question_pattern": "Why do most of India's trade volumes move by sea rather than air?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "bulk economics",
+     "explain": "ships carry huge volumes at a fraction of air cost"
+    },
+    {
+     "step": 2,
+     "action": "cargo profile",
+     "explain": "crude, coal, grains and machinery dominate and are weighty"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "only high-value light cargo justifies air freight"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_legy208_1",
+   "source_ref": "legy208.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "describe the changing composition of India's exports",
+    "compute the non-manufactured export share from the table",
+    "explain the direction of India's trade with partners",
+    "define and compute balance of trade",
+    "evaluate the role of ports in foreign trade"
+   ]
+  },
+  {
+   "id": "ex_legy208_2",
+   "source_ref": "legy208.txt applied questions, reworded",
+   "questions": [
+    "argue the effects of 1991 trade liberalisation",
+    "relate crude oil imports to trade deficits",
+    "map India's major sea ports and their trades",
+    "assess service exports in the national economy",
+    "discuss free trade agreements and farming interests"
+   ]
+  }
+ ]
+}

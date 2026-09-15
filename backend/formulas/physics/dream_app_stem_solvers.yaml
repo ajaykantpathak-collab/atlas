@@ -1,0 +1,652 @@
+---
+- formula_id: DRM_PHY_DYN_001
+  name: F
+  latex: ma
+  variables:
+  - symbol: F
+    name: F
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: physics
+  concept_tags:
+  - f
+  related_formulas: []
+  source: dream_app/stem_solvers.py
+  original_description: F = ma
+  original_result: F = {m}×{a}
+- formula_id: DRM_UNK_GEN_002
+  name: m
+  latex: F/a
+  variables:
+  - symbol: m
+    name: m
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: unknown
+  concept_tags:
+  - m
+  related_formulas: []
+  source: dream_app/stem_solvers.py
+  original_description: m = F/a
+  original_result: m = {F}/{a}
+- formula_id: DRM_UNK_GEN_003
+  name: a
+  latex: F/m
+  variables:
+  - symbol: a
+    name: a
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: unknown
+  concept_tags:
+  - a
+  related_formulas: []
+  source: dream_app/stem_solvers.py
+  original_description: a = F/m
+  original_result: a = {F}/{m}
+- formula_id: DRM_PHY_DYN_004
+  name: W
+  latex: mg
+  variables:
+  - symbol: W
+    name: W
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: physics
+  concept_tags:
+  - w
+  related_formulas: []
+  source: dream_app/stem_solvers.py
+  original_description: W = mg
+  original_result: W = {m}×{g}
+- formula_id: DRM_PHY_KIN_005
+  name: KE
+  latex: ½mv²
+  variables:
+  - symbol: KE
+    name: KE
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: physics
+  concept_tags:
+  - ke
+  related_formulas: []
+  source: dream_app/stem_solvers.py
+  original_description: KE = ½mv²
+  original_result: KE = ½×{m}×{v}²
+- formula_id: DRM_PHY_WE_006
+  name: PE
+  latex: mgh
+  variables:
+  - symbol: PE
+    name: PE
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: physics
+  concept_tags:
+  - pe
+  related_formulas: []
+  source: dream_app/stem_solvers.py
+  original_description: PE = mgh
+  original_result: PE = {m}×{g}×{h}
+- formula_id: DRM_PHY_CE_007
+  name: V
+  latex: IR (Ohm's Law)
+  variables:
+  - symbol: V
+    name: V
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: physics
+  concept_tags:
+  - v
+  related_formulas: []
+  source: dream_app/stem_solvers.py
+  original_description: V = IR (Ohm's Law)
+  original_result: V = {I}×{R}
+- formula_id: DRM_UNK_GEN_008
+  name: I
+  latex: V/R (Ohm's Law)
+  variables:
+  - symbol: I
+    name: I
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: unknown
+  concept_tags:
+  - i
+  related_formulas: []
+  source: dream_app/stem_solvers.py
+  original_description: I = V/R (Ohm's Law)
+  original_result: I = {V}/{R}
+- formula_id: DRM_UNK_GEN_009
+  name: R
+  latex: V/I (Ohm's Law)
+  variables:
+  - symbol: R
+    name: R
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: unknown
+  concept_tags:
+  - r
+  related_formulas: []
+  source: dream_app/stem_solvers.py
+  original_description: R = V/I (Ohm's Law)
+  original_result: R = {V}/{I}
+- formula_id: DRM_PHY_CE_010
+  name: P
+  latex: VI
+  variables:
+  - symbol: P
+    name: P
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: physics
+  concept_tags:
+  - p
+  related_formulas: []
+  source: dream_app/stem_solvers.py
+  original_description: P = VI
+  original_result: P = {V}×{I}
+- formula_id: DRM_PHY_CE_011
+  name: Q
+  latex: It
+  variables:
+  - symbol: Q
+    name: Q
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: physics
+  concept_tags:
+  - q
+  related_formulas: []
+  source: dream_app/stem_solvers.py
+  original_description: Q = It
+  original_result: Q = {I}×{t}
+- formula_id: DRM_CHE_STOICH_012
+  name: n
+  latex: m/M
+  variables:
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: chemistry
+  concept_tags:
+  - n
+  related_formulas: []
+  source: dream_app/stem_solvers.py
+  original_description: n = m/M
+  original_result: n = {m}/{M}
+- formula_id: DRM_CHE_STOICH_013
+  name: n
+  latex: N/NA
+  variables:
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: chemistry
+  concept_tags:
+  - n
+  related_formulas: []
+  source: dream_app/stem_solvers.py
+  original_description: n = N/NA
+  original_result: n = {N}/{NA:.3e}
+- formula_id: DRM_CHE_STOICH_014
+  name: M
+  latex: n/V
+  variables:
+  - symbol: M
+    name: M
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: chemistry
+  concept_tags:
+  - m
+  related_formulas: []
+  source: dream_app/stem_solvers.py
+  original_description: M = n/V
+  original_result: M = {n}/{V}
+- formula_id: DRM_UNK_GEN_015
+  name: n
+  latex: M×V
+  variables:
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: unknown
+  concept_tags:
+  - n
+  related_formulas: []
+  source: dream_app/stem_solvers.py
+  original_description: n = M×V
+  original_result: n = {M_conc}×{V}
+- formula_id: DRM_UNK_GEN_016
+  name: V
+  latex: n/M
+  variables:
+  - symbol: V
+    name: V
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: unknown
+  concept_tags:
+  - v
+  related_formulas: []
+  source: dream_app/stem_solvers.py
+  original_description: V = n/M
+  original_result: V = {n}/{M_conc}
+- formula_id: DRM_CHE_AB_017
+  name: pH
+  latex: -log[H⁺]
+  variables:
+  - symbol: pH
+    name: pH
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: chemistry
+  concept_tags:
+  - ph
+  related_formulas: []
+  source: dream_app/stem_solvers.py
+  original_description: pH = -log[H⁺]
+  original_result: pH = -log({H})
+- formula_id: DRM_CHE_AB_018
+  name: '[H⁺]'
+  latex: 10^(-pH)
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: chemistry
+  concept_tags:
+  - '[h⁺]'
+  related_formulas: []
+  source: dream_app/stem_solvers.py
+  original_description: '[H⁺] = 10^(-pH)'
+  original_result: '[H⁺] = 10^(-{pH})'
+- formula_id: DRM_CHE_GAS_019
+  name: P
+  latex: nRT/V
+  variables:
+  - symbol: P
+    name: P
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: chemistry
+  concept_tags:
+  - p
+  related_formulas: []
+  source: dream_app/stem_solvers.py
+  original_description: P = nRT/V
+  original_result: P = {n}×{R}×{T}/{V}
+- formula_id: DRM_CHE_GAS_020
+  name: V
+  latex: nRT/P
+  variables:
+  - symbol: V
+    name: V
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: chemistry
+  concept_tags:
+  - v
+  related_formulas: []
+  source: dream_app/stem_solvers.py
+  original_description: V = nRT/P
+  original_result: V = {n}×{R}×{T}/{P}
+- formula_id: DRM_CHE_GAS_021
+  name: n
+  latex: PV/RT
+  variables:
+  - symbol: n
+    name: n
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: chemistry
+  concept_tags:
+  - n
+  related_formulas: []
+  source: dream_app/stem_solvers.py
+  original_description: n = PV/RT
+  original_result: n = {P}×{V}/{R}×{T}
+- formula_id: DRM_CHE_GAS_022
+  name: T
+  latex: PV/nR
+  variables:
+  - symbol: T
+    name: T
+    unit: ''
+    dimensional_formula: ''
+    quantity_type: ''
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: chemistry
+  concept_tags:
+  - t
+  related_formulas: []
+  source: dream_app/stem_solvers.py
+  original_description: T = PV/nR
+  original_result: T = {P}×{V}/{n}×{R}
+- formula_id: DRM_CHE_SOL_023
+  name: M2
+  latex: M1V1/V2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: chemistry
+  concept_tags:
+  - m2
+  related_formulas: []
+  source: dream_app/stem_solvers.py
+  original_description: M2 = M1V1/V2
+  original_result: M2 = {M1}×{V1}/{V2}
+- formula_id: DRM_CHE_SOL_024
+  name: V2
+  latex: M1V1/M2
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: chemistry
+  concept_tags:
+  - v2
+  related_formulas: []
+  source: dream_app/stem_solvers.py
+  original_description: V2 = M1V1/M2
+  original_result: V2 = {M1}×{V1}/{M2}
+- formula_id: DRM_CHE_SOL_025
+  name: M1
+  latex: M2V2/V1
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: chemistry
+  concept_tags:
+  - m1
+  related_formulas: []
+  source: dream_app/stem_solvers.py
+  original_description: M1 = M2V2/V1
+  original_result: M1 = {M2}×{V2}/{V1}
+- formula_id: DRM_CHE_SOL_026
+  name: V1
+  latex: M2V2/M1
+  variables: []
+  preconditions: []
+  grade_range:
+  - class9
+  - class10
+  - class11
+  - class12
+  - jee_main
+  - jee_advanced
+  - neet
+  chapter: ''
+  subject: chemistry
+  concept_tags:
+  - v1
+  related_formulas: []
+  source: dream_app/stem_solvers.py
+  original_description: V1 = M2V2/M1
+  original_result: V1 = {M2}×{V2}/{M1}

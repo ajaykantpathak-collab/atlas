@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch05_059",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch05_059",
+   "title": "c6_math_ch05_059",
+   "questions": [
+    {
+     "q": "In an equation like $x + 5 = 10$, if I add 2 to the left side, what must I do to the right side to keep the equation true?",
+     "a": "You must also add 2 to the right side. A wrong answer suggests the student views the equation as a sum to be calculated rather than a balanced relationship that must be maintained.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we subtract 3 from both sides of the equation $2x + 3 = 7$?",
+     "a": "We subtract 3 to \"isolate\" the term containing $x$ by removing the constant. Answering \"because the teacher said so\" or \"to get the answer\" shows the student lacks an understanding of the goal of isolation.",
+     "self_check": true
+    },
+    {
+     "q": "Solve $3x = 12$ using the balance model.",
+     "a": "Divide both sides by 3 to get $x = 4$. If a student just writes \"4\", they have missed the balance model step (division) and may struggle when the numbers become more complex.",
+     "self_check": true
+    },
+    {
+     "q": "If $2x = 10$, what happens to the balance if you divide the left side by 2 but leave the right side as 10?",
+     "a": "The scale tips to the right because the left side becomes smaller ($x$) than the right side (10). This confirms the student understands that operations change the weight and must be applied symmetrically.",
+     "self_check": true
+    },
+    {
+     "q": "Can you solve $x - 4 = 6$ by adding 4 to both sides? Explain why this works.",
+     "a": "Yes, adding 4 to both sides cancels the \"-4\" on the left, leaving $x = 10$. This works because adding the same amount to equal weights keeps the pans level.",
+     "self_check": true
+    },
+    {
+     "q": "Create a balance-scale problem where the unknown $x$ is doubled, then 5 is added, and the total is 15. Write it as an equation.",
+     "a": "The equation is $2x + 5 = 15$. A poor answer would be $x + 5 = 15$ or $2(x+5)=15$, revealing a failure to translate \"doubled\" and \"added\" correctly into algebraic terms.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

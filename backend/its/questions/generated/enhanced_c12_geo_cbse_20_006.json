@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_20_006",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_20_006",
+   "title": "c12_geo_cbse_20_006",
+   "questions": [
+    {
+     "q": "Define a simple bar diagram and state the two rules governing the width and spacing of bars in any bar diagram.",
+     "a": "A simple bar diagram uses rectangular bars of equal width to represent a single variable across categories or time; the two universal rules are: (1) all bars must have the same width, and (2) bars must be placed at equal intervals (equal spacing) on the base line. A wrong answer (e.g., \"bars can have different widths to show importance\" or \"spacing can vary\") reveals the student has not internalized the fundamental construction rules that ensure visual comparability — a common error that leads to distorted diagrams in board practical exams.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a multiple bar diagram is preferred over drawing two separate simple bar diagrams when comparing male and female literacy rates across decades.",
+     "a": "A multiple bar diagram places bars for male and female literacy side-by-side for each decade on the same axes, enabling immediate visual comparison of both the gender gap and the trend over time within a single frame; two separate diagrams force the viewer to mentally align scales and categories, increasing cognitive load and risk of misreading. A wrong answer (e.g., \"it saves paper\" or \"it looks better\") misses the core geographical reasoning: multiple bar diagrams preserve a common scale and shared category axis, which is essential for valid spatial/temporal comparison — a concept directly tested in CBSE case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Given the data below, construct a simple bar diagram for the production of rice (in million tonnes) in five states. Show the scale calculation steps and the height of each bar if 1 cm = 2 million tonnes.\n\n| State | Production (million tonnes) |\n|-------|-----------------------------|\n| West Bengal | 14.6 |\n| Uttar Pradesh | 13.6 |\n| Andhra Pradesh | 13.5 |\n| Punjab | 10.8 |\n| Tamil Nadu | 8.5 |",
+     "a": "Scale: 1 cm = 2 million tonnes. Bar heights = Production / 2 → West Bengal: 7.3 cm, Uttar Pradesh: 6.8 cm, Andhra Pradesh: 6.75 cm, Punjab: 5.4 cm, Tamil Nadu: 4.25 cm. Steps: (1) Choose scale so tallest bar fits on paper (max 14.6 → 7.3 cm, reasonable). (2) Draw X-axis with 5 equal intervals for states, Y-axis with 0-15 million tonnes marked every 2 units. (3) Draw bars of equal width (e.g., 1 cm) at each interval with calculated heights. (4) Label axes, title, and source. A wrong height (e.g., 14.6 cm for West Bengal) indicates the student forgot to divide by the scale factor — a frequent unit-conversion error in practical exams.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following component bar diagram description: \"A single bar for 2010-11 shows total electricity generation 844.8 billion kWh, divided into three segments: thermal 704.3, hydro 114.2, nuclear 26.3.\" What percentage of total generation came from hydro? If the bar length for total is 10 cm, what is the length of the hydro segment?",
+     "a": "Hydro percentage = (114.2 / 844.8) × 100 = 13.52%. Hydro segment length = 13.52% of 10 cm = 1.352 cm. Steps: (1) Identify component value and total from description. (2) Compute percentage. (3) Apply percentage to total bar length. A wrong answer using absolute values (e.g., 114.2 cm) or wrong total (e.g., using 741.2 from 2008-09) shows the student cannot extract part-to-whole relationships from compound diagrams — a skill needed for interpreting energy/agriculture data in board case studies.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the suitability of a simple bar diagram versus a component bar diagram for representing the following dataset: \"Land use categories (Net Sown Area, Forest, Fallow, Pasture, Culturable Waste) as percentages of total geographical area for India in 1950-51 and 2000-01.\" Justify your choice.",
+     "a": "A component bar diagram is more suitable because each year's total (100%) is divided into mutually exclusive land-use categories; a component bar shows both the total and the composition simultaneously, allowing comparison of both overall land-use intensity and category-wise shifts across the two years. A simple bar diagram would require 10 separate bars (5 categories × 2 years), losing the part-to-whole visual and making composition comparison harder. A wrong choice (simple bar) with justification like \"easier to draw\" indicates the student does not understand the analytical purpose of diagram types — a competency gap for CBSE competency-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a multiple bar diagram to compare the decadal growth rate of population (in %) for four Indian states (Kerala, Bihar, Uttar Pradesh, Tamil Nadu) across three census decades (1991, 2001, 2011). Specify: (a) X-axis categories, (b) number of bars per category, (c) legend entries, (d) a suitable scale if max growth is 25%, and (e) one geographical insight this diagram would reveal.",
+     "a": "(a) X-axis: three categories — 1991, 2001, 2011. (b) Four bars per category (one per state). (c) Legend: Kerala, Bihar, Uttar Pradesh, Tamil Nadu. (d) Scale: 1 cm = 2.5% (so 25% → 10 cm, fits well). (e) Insight: The diagram would visually reveal whether high-growth states (Bihar, UP) are slowing down while low-growth states (Kerala, TN) are stabilizing, highlighting the demographic transition disparity across India. A poor design (e.g., states on X-axis, decades as bars) would obscure the temporal trend — a common error when students confuse variable roles in multiple bar diagrams.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,805 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 207,
+ "chapter_title": "Area",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hegp207.txt",
+ "concepts": [
+  {
+   "id": "hegp.207.1",
+   "title": "Area of a Rectangle",
+   "section": "7.1",
+   "definition": "Flat region a rectangle covers: adjacent sides multiplied.",
+   "formula": "area = length * width",
+   "key_idea": "Product of the two adjacent perpendicular sides.",
+   "textbook_ref": "hegp207.txt lines 14-35",
+   "question_patterns": [
+    "find the area of a rectangle with length and width",
+    "what is the area of a rectangular field of dimensions",
+    "calculate the area of a rectangle",
+    "how much space does a rectangle of length and width cover",
+    "A 12 by 8 sheet -- coverage?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply length by width",
+     "explain": "The area of a rectangle is the product of its length and width.",
+     "compute": "area = length * width"
+    },
+    {
+     "step": 2,
+     "action": "verify the units are squared",
+     "explain": "Area is measured in square units, so the result carries the squared unit of the given length and width."
+    },
+    {
+     "step": 3,
+     "action": "state the final area",
+     "explain": "Report the computed area with the correct squared unit as the coverage of the rectangle.",
+     "compute": "result = area"
+    }
+   ]
+  },
+  {
+   "id": "hegp.207.2",
+   "title": "Area of a Triangle",
+   "section": "7.1",
+   "definition": "A triangle's coverage: half of base x upright height.",
+   "formula": "area = 0.5 * base * height",
+   "key_idea": "It is half a rectangle on the same base and upright.",
+   "textbook_ref": "hegp207.txt lines 112-126",
+   "question_patterns": [
+    "find the area of a triangle with base and height",
+    "calculate the area of a triangle",
+    "what is the area of a triangle whose base is and height is",
+    "how to compute the area of a triangle given base and altitude",
+    "Base 8, height 5 -- coverage?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply base and height",
+     "explain": "First find the product of the base and the height.",
+     "compute": "prod = base * height"
+    },
+    {
+     "step": 2,
+     "action": "multiply by half",
+     "explain": "The area is half of the product of base and height.",
+     "compute": "area = 0.5 * prod"
+    },
+    {
+     "step": 3,
+     "action": "state the final area",
+     "explain": "Report the computed area with the correct squared unit as the coverage of the triangle.",
+     "compute": "result = area"
+    }
+   ]
+  },
+  {
+   "id": "hegp.207.3",
+   "title": "Area of a General Quadrilateral",
+   "section": "7.1",
+   "definition": "Cut any four-sided field along a slant; total the two triangles' coverages.",
+   "formula": "area = 0.5 * diagonal * (h1 + h2)",
+   "key_idea": "One slant splits it into a pair of triangles leaning on the same cut.",
+   "textbook_ref": "hegp207.txt lines 185-200",
+   "question_patterns": [
+    "find the area of field ABCD given slant AC and the two upright gaps",
+    "find the area of a quadrilateral with diagonal and perpendiculars",
+    "calculate the area of quadrilateral ABCD where AC is and offsets are",
+    "what is the area of a quadrilateral with diagonal and heights",
+    "Slant 10 with gaps 5 and 3 -- coverage?",
+    "Split quadrilateral PQRS along QS -- total the two triangles."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum the perpendicular offsets",
+     "explain": "Add the two heights or perpendicular offsets from the remaining vertices to the diagonal.",
+     "compute": "h_sum = h1 + h2"
+    },
+    {
+     "step": 2,
+     "action": "multiply by diagonal and half",
+     "explain": "Multiply the sum of offsets by the diagonal length and divide by 2.",
+     "compute": "area = 0.5 * diagonal * h_sum"
+    },
+    {
+     "step": 3,
+     "action": "state the final area",
+     "explain": "Report the computed area with the correct squared unit as the coverage of the quadrilateral.",
+     "compute": "result = area"
+    }
+   ]
+  },
+  {
+   "id": "hegp.207.4",
+   "title": "Area of a Parallelogram",
+   "section": "7.1",
+   "definition": "Sliding-sided shape's coverage: base x perpendicular height.",
+   "formula": "area = base * height",
+   "key_idea": "Reshape it by shearing; base and height stay put.",
+   "textbook_ref": "hegp207.txt lines 205-225",
+   "question_patterns": [
+    "Frame a parallelogram task like the chapter exercise and solve it with every step shown.",
+    "calculate the area of a parallelogram with base and height",
+    "what is the area of a parallelogram whose base is and height is",
+    "Base 12, height 7 -- coverage?",
+    "A sliding-sided floor has base 15 and height 9 -- coverage?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply base by height",
+     "explain": "The area of a parallelogram is base times height.",
+     "compute": "area = base * height"
+    },
+    {
+     "step": 2,
+     "action": "confirm the height is perpendicular",
+     "explain": "Ensure the height used is the perpendicular distance between the base and its opposite side, not a slant side."
+    },
+    {
+     "step": 3,
+     "action": "state the final area",
+     "explain": "Report the computed area with the correct squared unit as the coverage of the parallelogram.",
+     "compute": "result = area"
+    }
+   ]
+  },
+  {
+   "id": "hegp.207.5",
+   "title": "Area of a Rhombus",
+   "section": "7.1",
+   "definition": "All-equal-sided shape's coverage: half x slant x other slant.",
+   "formula": "area = 0.5 * d1 * d2",
+   "key_idea": "The two cuts cross at right corners; four half-triangles result.",
+   "textbook_ref": "hegp207.txt lines 240-265",
+   "question_patterns": [
+    "find the area of a rhombus with diagonals",
+    "calculate the area of a rhombus",
+    "what is the area of a rhombus whose diagonals are",
+    "Slants 16 and 12 -- coverage?",
+    "Diagonals 20 and 15 -- coverage of the equal-sided shape?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the diagonals",
+     "explain": "Find the product of the two diagonals.",
+     "compute": "diag_prod = d1 * d2"
+    },
+    {
+     "step": 2,
+     "action": "multiply by half",
+     "explain": "The area is half the product of the diagonals.",
+     "compute": "area = 0.5 * diag_prod"
+    },
+    {
+     "step": 3,
+     "action": "state the final area",
+     "explain": "Report the computed area with the correct squared unit as the coverage of the rhombus.",
+     "compute": "result = area"
+    }
+   ]
+  },
+  {
+   "id": "hegp.207.6",
+   "title": "Area of a Trapezium",
+   "section": "7.1",
+   "definition": "One matched pair of sides: half x (their sum) x the gap between them.",
+   "formula": "area = 0.5 * height * (side_a + side_b)",
+   "key_idea": "Mean of the matched pair times the perpendicular gap.",
+   "textbook_ref": "hegp207.txt lines 270-300",
+   "question_patterns": [
+    "find the area of a trapezium with parallel sides and height",
+    "calculate the area of a trapezium",
+    "what is the area of a trapezium whose parallel sides are and distance is",
+    "Matched sides 12 and 8, gap 4 -- coverage?",
+    "Matched sides 14 and 10 stand 6 apart -- coverage?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum the parallel sides",
+     "explain": "Add the lengths of the two parallel sides.",
+     "compute": "side_sum = side_a + side_b"
+    },
+    {
+     "step": 2,
+     "action": "multiply by height and half",
+     "explain": "Multiply the sum of parallel sides by the height and divide by 2.",
+     "compute": "area = 0.5 * height * side_sum"
+    },
+    {
+     "step": 3,
+     "action": "state the final area",
+     "explain": "Report the computed area with the correct squared unit as the coverage of the trapezium.",
+     "compute": "result = area"
+    }
+   ]
+  },
+  {
+   "id": "hegp.207.7",
+   "title": "Area Unit Conversion (Square Inches to Square Centimeters)",
+   "section": "7.1",
+   "definition": "Converting area from square inches to square centimeters by multiplying by the conversion factor 6.4516.",
+   "formula": "area_cm2 = area_in2 * 6.4516",
+   "key_idea": "Since 1 inch equals 2.54 cm, 1 square inch equals 2.54 squared square centimeters.",
+   "textbook_ref": "hegp207.txt lines 350-370",
+   "question_patterns": [
+    "convert square inches to square centimeters",
+    "how many square centimeters is square inches",
+    "calculate the area in square cm given square inches",
+    "Convert 4 sq in to sq cm.",
+    "Convert 10 sq in to sq cm."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply by conversion factor",
+     "explain": "Multiply the area in square inches by 6.4516 to convert to square centimeters.",
+     "compute": "area_cm2 = area_in2 * 6.4516"
+    },
+    {
+     "step": 2,
+     "action": "verify the conversion factor",
+     "explain": "The factor 6.4516 comes from squaring 2.54 cm per inch, since area scales with the square of the length unit.",
+     "compute": "factor = 2.54 * 2.54"
+    },
+    {
+     "step": 3,
+     "action": "state the final area",
+     "explain": "Report the computed area in square centimeters as the converted coverage.",
+     "compute": "result = area_cm2"
+    }
+   ]
+  },
+  {
+   "id": "hegp.207.8",
+   "title": "Finding Altitude using Area Equivalence",
+   "section": "7.1",
+   "definition": "Determining an unknown altitude of a triangle by equating two different expressions for its area using two different base-altitude pairs.",
+   "formula": "alt2 = (base1 * alt1) / base2",
+   "key_idea": "The coverage stays fixed whichever side you call the base.",
+   "textbook_ref": "hegp207.txt lines 130-145",
+   "question_patterns": [
+    "find the length of altitude BY given base AC, base BC, and altitude AX",
+    "calculate the unknown altitude of a triangle using another base and altitude",
+    "what is the height of a triangle with base when another base and height are",
+    "Base 6 upright 4; base 8 -- its upright?",
+    "Base 15 carries upright 8; along base 10 -- its upright?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate double area",
+     "explain": "Multiply the known base and its corresponding altitude.",
+     "compute": "double_area = base1 * alt1"
+    },
+    {
+     "step": 2,
+     "action": "divide by the second base",
+     "explain": "Divide the double area by the second base to find the corresponding altitude.",
+     "compute": "alt2 = double_area / base2"
+    },
+    {
+     "step": 3,
+     "action": "state the final altitude",
+     "explain": "Report the computed altitude with the correct length unit as the unknown height on the second base.",
+     "compute": "result = alt2"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hegp207.txt lines 130-145",
+   "concept": "hegp.207.8",
+   "question_type": "compute",
+   "question_pattern": "In triangle ABC, altitude AX is {alt1} units on base BC of {base1} units. Find the altitude BY on base AC of {base2} units.",
+   "extracted_variables": {
+    "alt1": "altitude AX perpendicular to BC",
+    "base1": "base BC",
+    "base2": "base AC"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate double area",
+     "explain": "Multiply the known base and its corresponding altitude.",
+     "compute": "double_area = base1 * alt1"
+    },
+    {
+     "step": 2,
+     "action": "divide by the second base",
+     "explain": "Divide the double area by the second base to find the corresponding altitude.",
+     "compute": "alt2 = double_area / base2"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hegp207.txt lines 310-315",
+   "concept": "hegp.207.5",
+   "question_type": "compute",
+   "question_pattern": "Find the area of a rhombus whose diagonals are {d1} cm and {d2} cm.",
+   "extracted_variables": {
+    "d1": "length of first diagonal",
+    "d2": "length of second diagonal"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the diagonals",
+     "explain": "Find the product of the two diagonals.",
+     "compute": "diag_prod = d1 * d2"
+    },
+    {
+     "step": 2,
+     "action": "multiply by half",
+     "explain": "The area is half the product of the diagonals.",
+     "compute": "area = 0.5 * diag_prod"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hegp207.txt lines 190-195",
+   "concept": "hegp.207.3",
+   "question_type": "compute",
+   "question_pattern": "Find the area of the quadrilateral ABCD given that AC = {diagonal} cm, BM = {h1} cm, DN = {h2} cm, BM is perpendicular to AC, and DN is perpendicular to AC.",
+   "extracted_variables": {
+    "diagonal": "length of diagonal AC",
+    "h1": "perpendicular offset BM",
+    "h2": "perpendicular offset DN"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum the perpendicular offsets",
+     "explain": "Add the two heights or perpendicular offsets from the remaining vertices to the diagonal.",
+     "compute": "h_sum = h1 + h2"
+    },
+    {
+     "step": 2,
+     "action": "multiply by diagonal and half",
+     "explain": "Multiply the sum of offsets by the diagonal length and divide by 2.",
+     "compute": "area = 0.5 * diagonal * h_sum"
+    }
+   ]
+  },
+  {
+   "concept": "hegp.207.1",
+   "question_pattern": "A {length} by {width} sheet -- coverage?",
+   "extracted_variables": {
+    "length": "6",
+    "width": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the adjacent sides",
+     "explain": "6 x 4 = 24",
+     "compute": "area = length * width"
+    }
+   ],
+   "id": "ex4",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.207.1",
+   "question_pattern": "A {length} by {width} rectangle -- coverage?",
+   "extracted_variables": {
+    "length": "12",
+    "width": "8"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the adjacent sides",
+     "explain": "12 x 8 = 96",
+     "compute": "area = length * width"
+    }
+   ],
+   "id": "ex5",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.207.2",
+   "question_pattern": "Base {base}, height {height} -- coverage?",
+   "extracted_variables": {
+    "base": "10",
+    "height": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "halve base x height",
+     "explain": "0.5 x 10 x 6 = 30",
+     "compute": "area = 0.5 * base * height"
+    }
+   ],
+   "id": "ex6",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.207.2",
+   "question_pattern": "Base {base}, height {height} -- find the coverage.",
+   "extracted_variables": {
+    "base": "8",
+    "height": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "halve base x height",
+     "explain": "0.5 x 8 x 5 = 20",
+     "compute": "area = 0.5 * base * height"
+    }
+   ],
+   "id": "ex7",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.207.3",
+   "question_pattern": "Slant {d} with gaps {h1} and {h2} -- coverage?",
+   "extracted_variables": {
+    "d": "12",
+    "h1": "4",
+    "h2": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum the gaps",
+     "explain": "4 + 6 = 10",
+     "compute": "hs = h1 + h2"
+    },
+    {
+     "step": 2,
+     "action": "halve slant x gaps",
+     "explain": "0.5 x 12 x 10 = 60",
+     "compute": "area = 0.5 * diagonal * (h1 + h2)"
+    }
+   ],
+   "id": "ex8",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.207.3",
+   "question_pattern": "Slant {d}, gaps {h1} and {h2} -- find the coverage.",
+   "extracted_variables": {
+    "d": "10",
+    "h1": "5",
+    "h2": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum the gaps",
+     "explain": "5 + 3 = 8",
+     "compute": "hs = h1 + h2"
+    },
+    {
+     "step": 2,
+     "action": "halve slant x gaps",
+     "explain": "0.5 x 10 x 8 = 40",
+     "compute": "area = 0.5 * diagonal * (h1 + h2)"
+    }
+   ],
+   "id": "ex9",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.207.4",
+   "question_pattern": "Base {base}, height {height} -- coverage?",
+   "extracted_variables": {
+    "base": "8",
+    "height": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "base x upright height",
+     "explain": "8 x 5 = 40",
+     "compute": "area = base * height"
+    }
+   ],
+   "id": "ex10",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.207.4",
+   "question_pattern": "Base {base}, height {height} -- find the coverage.",
+   "extracted_variables": {
+    "base": "12",
+    "height": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "base x upright height",
+     "explain": "12 x 7 = 84",
+     "compute": "area = base * height"
+    }
+   ],
+   "id": "ex11",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.207.5",
+   "question_pattern": "Slants {d1} and {d2} -- coverage?",
+   "extracted_variables": {
+    "d1": "10",
+    "d2": "8"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "half the product",
+     "explain": "0.5 x 10 x 8 = 40",
+     "compute": "area = 0.5 * d1 * d2"
+    }
+   ],
+   "id": "ex12",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.207.5",
+   "question_pattern": "Slants {d1} and {d2} -- find the coverage.",
+   "extracted_variables": {
+    "d1": "16",
+    "d2": "12"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "half the product",
+     "explain": "0.5 x 16 x 12 = 96",
+     "compute": "area = 0.5 * d1 * d2"
+    }
+   ],
+   "id": "ex13",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.207.6",
+   "question_pattern": "Matched sides {a} and {b}, gap {h} -- coverage?",
+   "extracted_variables": {
+    "a": "10",
+    "b": "6",
+    "h": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum the matched pair",
+     "explain": "10 + 6 = 16",
+     "compute": "sp = side_a + side_b"
+    },
+    {
+     "step": 2,
+     "action": "half sum x gap",
+     "explain": "0.5 x 16 x 5 = 40",
+     "compute": "area = 0.5 * height * (side_a + side_b)"
+    }
+   ],
+   "id": "ex14",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.207.6",
+   "question_pattern": "Matched sides {a} and {b}, gap {h} -- find the coverage.",
+   "extracted_variables": {
+    "a": "12",
+    "b": "8",
+    "h": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum the matched pair",
+     "explain": "12 + 8 = 20",
+     "compute": "sp = side_a + side_b"
+    },
+    {
+     "step": 2,
+     "action": "half sum x gap",
+     "explain": "0.5 x 20 x 4 = 40",
+     "compute": "area = 0.5 * height * (side_a + side_b)"
+    }
+   ],
+   "id": "ex15",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.207.7",
+   "question_pattern": "Convert {area_in2} sq in to sq cm.",
+   "extracted_variables": {
+    "area_in2": "25"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the factor",
+     "explain": "25 x 6.4516 = 161.29",
+     "compute": "area_cm2 = area_in2 * 6.4516"
+    }
+   ],
+   "id": "ex16",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.207.7",
+   "question_pattern": "How many sq cm in {area_in2} sq in?",
+   "extracted_variables": {
+    "area_in2": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the factor",
+     "explain": "4 x 6.4516 = 25.8064",
+     "compute": "area_cm2 = area_in2 * 6.4516"
+    }
+   ],
+   "id": "ex17",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.207.8",
+   "question_pattern": "Base {base1} carries upright {alt1}; along base {base2} the upright is?",
+   "extracted_variables": {
+    "base1": "12",
+    "alt1": "10",
+    "base2": "8"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "coverage is fixed",
+     "explain": "12 x 10 = 120",
+     "compute": "area = base1 * alt1"
+    },
+    {
+     "step": 2,
+     "action": "redivide by the other base",
+     "explain": "120 / 8 = 15",
+     "compute": "alt2 = (base1 * alt1) / base2"
+    }
+   ],
+   "id": "ex18",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hegp.207.8",
+   "question_pattern": "Base {base1} with upright {alt1}; along base {base2} -- find the upright.",
+   "extracted_variables": {
+    "base1": "6",
+    "alt1": "4",
+    "base2": "8"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "coverage is fixed",
+     "explain": "6 x 4 = 24",
+     "compute": "area = base1 * alt1"
+    },
+    {
+     "step": 2,
+     "action": "redivide by the other base",
+     "explain": "24 / 8 = 3",
+     "compute": "alt2 = (base1 * alt1) / base2"
+    }
+   ],
+   "id": "ex19",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "fig_out_150.1",
+   "source_ref": "hegp207.txt lines 60-70",
+   "questions": [
+    "Identify the missing sidelengths in the grid with rectangles of areas 14 in2, 35 in2, 28 in2, and 21 in2.",
+    "Find the missing dimensions of the rectangle with total area 50 m2 and sub-areas 29 m2 and 11 m2."
+   ]
+  },
+  {
+   "id": "fig_out_151.2",
+   "source_ref": "hegp207.txt lines 71-85",
+   "questions": [
+    "What measurements do you need to find the area of the path laid around a rectangular park EFGH?",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about measurements.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about rectangular."
+   ]
+  },
+  {
+   "id": "fig_out_157.1",
+   "source_ref": "hegp207.txt lines 160-170",
+   "questions": [
+    "Find the area of a triangle with base 3 cm and height 4 cm.",
+    "Find the area of a triangle with base 5 cm and height 3.2 cm.",
+    "Find the area of a triangle with base 3 cm and height 4 cm (obtuse triangle)."
+   ]
+  },
+  {
+   "id": "fig_out_158.2",
+   "source_ref": "hegp207.txt lines 171-175",
+   "questions": [
+    "Find the length of the altitude BY in triangle ABC, given AC = 6 units, BC = 8 units, and altitude AX = 4 units."
+   ]
+  },
+  {
+   "id": "fig_out_160.1",
+   "source_ref": "hegp207.txt lines 190-200",
+   "questions": [
+    "Frame a perpendicular task like the chapter exercise and solve it with every step shown."
+   ]
+  },
+  {
+   "id": "fig_out_163.2",
+   "source_ref": "hegp207.txt lines 230-240",
+   "questions": [
+    "Find the area of a parallelogram with base 7 cm and height 4 cm.",
+    "Find the area of a parallelogram with base 5 cm and height 3 cm.",
+    "Find the area of a parallelogram with base 5 cm and height 4.8 cm.",
+    "Find the area of a parallelogram with base 2 cm and height 4.4 cm."
+   ]
+  },
+  {
+   "id": "fig_out_163.3",
+   "source_ref": "hegp207.txt lines 241-245",
+   "questions": [
+    "Find QN in parallelogram PQSR, given SR = 12 cm, QM = 7.6 cm, and PS = 6 cm."
+   ]
+  },
+  {
+   "id": "fig_out_169.1",
+   "source_ref": "hegp207.txt lines 310-312",
+   "questions": [
+    "Frame a diagonals task like the chapter exercise and solve it with every step shown."
+   ]
+  },
+  {
+   "id": "fig_out_169.3",
+   "source_ref": "hegp207.txt lines 315-325",
+   "questions": [
+    "Find the area of a trapezium with parallel sides 10 ft and 16 ft, and height 7 ft.",
+    "Find the area of a trapezium with parallel sides 24 m and 36 m, and height 14 m.",
+    "Find the area of a trapezium with parallel sides 6 in and 14 in, and height 10 in.",
+    "Find the area of a trapezium with parallel sides 12 ft and 18 ft, and height 8 ft."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

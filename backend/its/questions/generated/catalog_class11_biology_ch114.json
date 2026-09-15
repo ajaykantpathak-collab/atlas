@@ -1,0 +1,369 @@
+{
+ "catalog": "catalog_class11_biology_ch114",
+ "concepts": [
+  {
+   "id": "kebo.14.1",
+   "title": "Respiratory Organs in Animals",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Respiratory Organs in Animals' refers to.",
+     "a": "The diverse biological structures and mechanisms utilized by different animal groups to exchange environmental oxygen with internal carbon dioxide, varying by habitat and structural complexity.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Respiratory Organs in Animals'.",
+     "a": "Respiratory structures range from simple body surfaces to specialized gills and lungs depending on evolutionary complexity and habitat.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Respiratory Organs in Animals', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.14.2",
+   "title": "Human Respiratory System",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Human Respiratory System' refers to.",
+     "a": "The anatomical pathway in humans consisting of the conducting zone from external nostrils to terminal bronchioles, and the respiratory zone comprising alveoli where actual gas exchange occurs.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Human Respiratory System'.",
+     "a": "Air is filtered, humidified, and brought to body temperature before diffusing across the thin alveolar-capillary membrane.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Human Respiratory System', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.14.3",
+   "title": "Mechanism of Breathing",
+   "questions": [
+    {
+     "q": "Using the method 'Mechanism of Breathing', work with: atmospheric_pressure = 300, intrapulmonary_pressure = 40. Carry the chain through step by step and give the final value of pressure_gradient.",
+     "a": "260 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Mechanism of Breathing' and work with: atmospheric_pressure = 300, intrapulmonary_pressure = 150. Carry the chain through step by step and give the final value of pressure_gradient.",
+     "a": "150 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Mechanism of Breathing' refers to.",
+     "a": "The physical process of both inspiration and expiration driven by pressure gradients established between the both atmosphere and the lungs via diaphragmatic and intercostal muscle movements.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Mechanism of Breathing'.",
+     "a": "Air moves into lungs when intrapulmonary pressure is sub-atmospheric and moves out when it exceeds atmospheric pressure.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Mechanism of Breathing', in plain ASCII form.",
+     "a": "pressure_gradient = atmospheric_pressure - intrapulmonary_pressure",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.14.4.1",
+   "title": "Tidal Volume and Minute Ventilation",
+   "questions": [
+    {
+     "q": "Calculate the minute volume of a healthy man with a tidal volume of {tidal_volume} mL and breathing rate of {breathing_rate} breaths per minute. Use the method 'Tidal Volume and Minute Ventilation'. Work with: breathing_rate = 15, tidal_volume = 3. Carry the chain through step by step and give the final value of hourly_volume.",
+     "a": "2700 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the breathing rate if minute volume is {minute_volume} mL and tidal volume is {tidal_volume} mL. Use the method 'Tidal Volume and Minute Ventilation'. Work with: breathing_rate = 10, tidal_volume = 240. Carry the chain through step by step and give the final value of hourly_volume.",
+     "a": "144000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Tidal Volume and Minute Ventilation' refers to.",
+     "a": "Tidal volume is the volume of air moved in or out during normal breathing, which can be multiplied by the breathing rate to determine total minute ventilation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Tidal Volume and Minute Ventilation'.",
+     "a": "Total air volume inspired or expired per minute is the result of multiplying single-breath volume and respiratory rate.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Tidal Volume and Minute Ventilation', in plain ASCII form.",
+     "a": "minute_volume = tidal_volume * breathing_rate",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.14.4.2",
+   "title": "Inspiratory Capacity (IC)",
+   "questions": [
+    {
+     "q": "Calculate the inspiratory capacity given tidal volume of {tidal_volume} mL and IRV of {irv} mL. Use the method 'Inspiratory Capacity (IC)'. Work with: irv = 10, tidal_volume = 24. Carry the chain through step by step and give the final value of inspiratory_capacity.",
+     "a": "34 bytes",
+     "self_check": false
+    },
+    {
+     "q": "Find the IC when TV is {tidal_volume} and inspiratory reserve volume is {irv}. Use the method 'Inspiratory Capacity (IC)'. Work with: irv = 3, tidal_volume = 75. Carry the chain through step by step and give the final value of inspiratory_capacity.",
+     "a": "78 bytes",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Inspiratory Capacity (IC)' refers to.",
+     "a": "The maximum volume of air that can be inspired following a normal, unforced expiration.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Inspiratory Capacity (IC)'.",
+     "a": "Sum of normal breathing volume and the additional volume from a forced inspiration.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Inspiratory Capacity (IC)', in plain ASCII form.",
+     "a": "inspiratory_capacity = tidal_volume + irv",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.14.4.3",
+   "title": "Expiratory Capacity (EC)",
+   "questions": [
+    {
+     "q": "Calculate the expiratory capacity given tidal volume of {tidal_volume} mL and ERV of {erv} mL. Use the method 'Expiratory Capacity (EC)'. Work with: erv = 200, tidal_volume = 120. Carry the chain through step by step and give the final value of expiratory_capacity.",
+     "a": "320 bytes",
+     "self_check": false
+    },
+    {
+     "q": "Find the EC when TV is {tidal_volume} and expiratory reserve volume is {erv}. Use the method 'Expiratory Capacity (EC)'. Work with: erv = 150, tidal_volume = 6. Carry the chain through step by step and give the final value of expiratory_capacity.",
+     "a": "156 bytes",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Expiratory Capacity (EC)' refers to.",
+     "a": "The maximum volume of air that can be expired following a normal, unforced inspiration.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Expiratory Capacity (EC)'.",
+     "a": "Sum of normal breathing volume and the additional volume from a forced expiration.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Expiratory Capacity (EC)', in plain ASCII form.",
+     "a": "expiratory_capacity = tidal_volume + erv",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.14.4.4",
+   "title": "Functional Residual Capacity (FRC)",
+   "questions": [
+    {
+     "q": "Calculate the functional residual capacity given ERV of {erv} mL and residual volume of {residual_volume} mL. Use the method 'Functional Residual Capacity (FRC)'. Work with: erv = 240, residual_volume = 20. Carry the chain through step by step and give the final value of functional_residual_capacity.",
+     "a": "260 bytes",
+     "self_check": false
+    },
+    {
+     "q": "Find the FRC when expiratory reserve volume is {erv} and residual volume is {residual_volume}. Use the method 'Functional Residual Capacity (FRC)'. Work with: erv = 60, residual_volume = 12. Carry the chain through step by step and give the final value of functional_residual_capacity.",
+     "a": "72 bytes",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Functional Residual Capacity (FRC)' refers to.",
+     "a": "Air left in the lungs even after breathing out normally.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Functional Residual Capacity (FRC)'.",
+     "a": "The combined volume of expiratory reserve and residual air left in the lungs during normal breathing cycles.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Functional Residual Capacity (FRC)', in plain ASCII form.",
+     "a": "functional_residual_capacity = erv + residual_volume",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.14.4.5",
+   "title": "Vital Capacity (VC)",
+   "questions": [
+    {
+     "q": "Calculate the vital capacity given ERV of {erv} mL, TV of {tidal_volume} mL, and IRV of {irv} mL. Use the method 'Vital Capacity (VC)'. Work with: erv = 24, irv = 80, tidal_volume = 3. Carry the chain through step by step and give the final value of vital_capacity.",
+     "a": "107 bytes",
+     "self_check": false
+    },
+    {
+     "q": "Find the VC when expiratory reserve volume is {erv}, tidal volume is {tidal_volume}, and inspiratory reserve volume is {irv}. Use the method 'Vital Capacity (VC)'. Work with: erv = 10, irv = 150, tidal_volume = 75. Carry the chain through step by step and give the final value of vital_capacity.",
+     "a": "235 bytes",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Vital Capacity (VC)' refers to.",
+     "a": "How much air can be pushed out at most after the deepest possible intake, or breathed in after the deepest exhale.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Vital Capacity (VC)'.",
+     "a": "The total exchangeable air volume in the lungs.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Vital Capacity (VC)', in plain ASCII form.",
+     "a": "vital_capacity = erv + tidal_volume + irv",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.14.4.6",
+   "title": "Total Lung Capacity (TLC)",
+   "questions": [
+    {
+     "q": "Calculate the total lung capacity given vital capacity of {vital_capacity} mL and residual volume of {residual_volume} mL. Use the method 'Total Lung Capacity (TLC)'. Work with: erv = 25, irv = 400, residual_volume = 8, tidal_volume = 100. Carry the chain through step by step and give the final value of total_lung_capacity.",
+     "a": "533 bytes",
+     "self_check": false
+    },
+    {
+     "q": "Find the TLC when VC is {vital_capacity} and RV is {residual_volume}. Use the method 'Total Lung Capacity (TLC)'. Work with: erv = 8, irv = 500, residual_volume = 200, tidal_volume = 400. Carry the chain through step by step and give the final value of total_lung_capacity.",
+     "a": "1108 bytes",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Total Lung Capacity (TLC)' refers to.",
+     "a": "The total volume of air that the lungs can hold at the end of a maximal, forced inspiration.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Total Lung Capacity (TLC)'.",
+     "a": "The sum of the vital both capacity and the non-exchangeable residual volume.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Total Lung Capacity (TLC)', in plain ASCII form.",
+     "a": "total_lung_capacity = vital_capacity + residual_volume",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.14.5",
+   "title": "Gaseous Exchange and Partial Pressures",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Gaseous Exchange and Partial Pressures' refers to.",
+     "a": "The movement of both oxygen and carbon dioxide across the respiratory membrane driven by pressure gradients of individual gases.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Gaseous Exchange and Partial Pressures'.",
+     "a": "Gases diffuse from regions of higher partial pressure to lower partial pressure, influenced by gas solubility and membrane thickness.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Gaseous Exchange and Partial Pressures', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.14.6",
+   "title": "Transport of Oxygen and Oxyhaemoglobin Dissociation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Transport of Oxygen and Oxyhaemoglobin Dissociation' refers to.",
+     "a": "The reversible binding of oxygen to hemoglobin to form oxyhemoglobin, characterized by a sigmoidal oxygen dissociation curve.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Transport of Oxygen and Oxyhaemoglobin Dissociation'.",
+     "a": "High pO2, low pCO2, low H+ concentration, and low temperature in alveoli promote oxygen binding, while opposite conditions in tissues promote dissociation.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Transport of Oxygen and Oxyhaemoglobin Dissociation', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.14.7",
+   "title": "Transport of Carbon Dioxide",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Transport of Carbon Dioxide' refers to.",
+     "a": "The carry of carbon dioxide in the blood as bicarbonate ions (70%), carbamino-hemoglobin (20-25%), and dissolved in plasma (7%).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Transport of Carbon Dioxide'.",
+     "a": "Carbonic anhydrase in RBCs catalyzes the reversible conversion of CO2 and water into bicarbonate and hydrogen ions.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Transport of Carbon Dioxide', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.14.8",
+   "title": "Regulation of Respiration",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Regulation of Respiration' refers to.",
+     "a": "The neural and chemical control mechanisms, primarily centered in the medulla and pons, that adjust respiratory rhythm based on body needs.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Regulation of Respiration'.",
+     "a": "The respiratory rhythm is set by the medulla and pons, which respond strongly to carbon dioxide and hydrogen ion levels in the blood, while oxygen plays only a minor role.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Regulation of Respiration', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.14.9",
+   "title": "Disorders of the Respiratory System",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Disorders of the Respiratory System' refers to.",
+     "a": "Pathological conditions affecting the respiratory system, including asthma, emphysema, and occupational lung diseases.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Disorders of the Respiratory System'.",
+     "a": "Respiratory disorders can arise from inflammation, environmental damage (like smoking), or chronic exposure to industrial dust.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Disorders of the Respiratory System', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

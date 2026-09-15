@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_03_012",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_03_012",
+   "title": "c11_hin_ar_cbse_03_012",
+   "questions": [
+    {
+     "q": "What is the defining difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal question's answer is explicitly written in the text (e.g., \"What did the author find in the junk shop?\" → \"A small window\"). An inferential question's answer is not directly stated; it requires combining textual clues (e.g., \"Why did the author feel the window was 'destined' for the play?\" → clues: window's size, shape, timely arrival, author's desperation). A wrong answer (e.g., \"Inferential means it's not in the book\") reveals the student thinks inference = guessing without evidence.",
+     "self_check": true
+    },
+    {
+     "q": "In the chapter, the author describes the junk dealer's son saying, \"Ye meri chhoti bahen hai, iski shaadi ke liye rakha tha.\" The author does not comment on the dealer's poverty. What can you infer about the dealer's financial condition, and which two textual clues support this?",
+     "a": "Inference: The dealer was very poor. Clue 1: He kept a window frame for his daughter's future wedding (a valuable asset), yet sold it cheaply. Clue 2: The author notes the dealer's \"maati ka tel\" (earth/clay oil lamp) and broken house, indicating extreme poverty. A wrong answer (e.g., \"He was generous\") shows the student misses economic pressure as the driver and focuses only on the act of selling.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the literal/inferential distinction to this new question on the same chapter: \"List the three things the author and his team did to the window frame before fitting it on stage.\" Is this literal or inferential? Answer it.",
+     "a": "Literal. The text explicitly states: (1) cleaned the frame, (2) painted it, (3) fitted glass panes. Steps: 1. Identify question asks for listed actions. 2. Scan text for sequence of actions on the window. 3. Extract the three explicit steps. 4. Verify no interpretation needed. A wrong classification (e.g., \"inferential because it needs sequencing\") reveals confusion between 'multi-step literal retrieval' and 'inference'.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the author's statement: \"Natak ka kaam chal raha tha, lekin mann mein ek dar baitha hua tha.\" The text does not name the fear. Using the preceding and following paragraphs, analyze what the fear was and why it was specific to *this* window.",
+     "a": "The fear was that the window would not arrive/be ready in time for the play. Specificity: The window was *uniquely* perfect (exact size, arched top, wooden bars) and irreplaceable. Clues: Author's desperate search (\"har jagah dhoondha\"), the dealer's initial refusal, the time pressure (\"do din bache the\"). A weak answer (\"fear of failure\") is too generic; it misses the textual evidence linking the fear to *this specific window's* irreplaceability.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's inferential answer: \"The author loved the window because it was beautiful.\" Is this a strong or weak inference? Justify using the text.",
+     "a": "Weak inference. The text emphasizes *utility* and *serendipity*, not beauty: \"theek waisa hi chahiye tha\" (exactly what was needed), \"kismat ka khel\" (stroke of luck), \"natak ke liye zaroori\" (necessary for the play). The author's relief is pragmatic (\"kaam chal gaya\"). A strong inference would be: \"The author valued the window as a providential solution to a desperate production crisis.\" The student's answer projects personal aesthetic preference onto the text without evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Create an inferential question about the junk dealer's character that requires connecting his dialogue (\"shaadi ke liye rakha tha\") with his action (selling it for very little). Provide the answer with a 3-step inference chain.",
+     "a": "Question: \"What does the dealer's decision to sell the window frame reveal about his priorities?\" Answer: He prioritizes immediate survival over future social obligations. Chain: 1. Text: Frame saved for daughter's wedding (social duty). 2. Text: Sells it cheaply to author (economic compulsion). 3. Background: Extreme poverty forces liquidation of precious assets. Conclusion: Survival > tradition. A poor answer (\"he was kind\") ignores the economic pressure explicitly described in the setting.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

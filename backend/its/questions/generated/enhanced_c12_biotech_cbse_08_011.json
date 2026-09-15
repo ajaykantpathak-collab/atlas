@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_08_011",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_08_011",
+   "title": "c12_biotech_cbse_08_011",
+   "questions": [
+    {
+     "q": "Name any four therapeutic proteins listed in NCERT Table 8.3 that are produced in CHO cells and state their clinical use in one phrase each.",
+     "a": "Correct answer: (1) FSH — infertility treatment; (2) HGH — growth hormone deficiency; (3) EPO — anaemia (chemotherapy/CKD); (4) Factor VIII — haemophilia A; (5) Factor IX — haemophilia B; (6) IL-2 — cancer therapy; (7) tPA — stroke/myocardial infarction; (8) Monoclonal antibodies (hybridoma) — cancer/autoimmune diseases. Any four with correct pairing earns full marks. A wrong answer reveals the student has not memorised the NCERT table — a direct 1-mark recall question in board exams. Students often confuse Factor VIII/IX indications or forget tPA is for stroke.",
+     "self_check": true
+    },
+    {
+     "q": "Why can't Erythropoietin (EPO) be produced in E. coli for therapeutic use, even though the human EPO gene can be expressed there? Explain using the concept of post-translational modifications.",
+     "a": "Correct answer: EPO is a heavily glycosylated glycoprotein (40% carbohydrate by weight) with three N-linked and one O-linked oligosaccharide chains essential for its in vivo half-life, receptor binding, and biological activity. E. coli lacks the eukaryotic glycosylation machinery (ER/Golgi enzymes) and cannot perform these modifications. Bacterial EPO would be non-glycosylated, rapidly cleared by kidneys, immunogenic, and therapeutically ineffective. CHO cells provide human-like glycosylation patterns. A wrong answer (e.g., \"E. coli cannot fold proteins\" or \"E. coli degrades EPO\") shows the student does not understand the specific role of glycosylation in glycoprotein therapeutics — a classic NEET trap question.",
+     "self_check": true
+    },
+    {
+     "q": "A biotech company wants to produce a recombinant monoclonal antibody for cancer therapy. They have two options: (A) CHO cell suspension culture in serum-free medium in a 10,000 L bioreactor, or (B) Hybridoma ascites production in mice. Compare these two methods on: (i) ethical clearance, (ii) batch-to-batch consistency, (iii) scalability, (iv) risk of adventitious viruses. Which method aligns with NCERT's stated advantages of animal cell culture?",
+     "a": "Correct answer: (i) Ethical clearance: CHO culture requires minimal ethical approval; ascites requires animal ethics committee approval and causes animal suffering. (ii) Consistency: CHO serum-free defined media gives high consistency; ascites varies between mice. (iii) Scalability: CHO scales to 20,000+ L; ascites limited by mouse numbers. (iv) Viral risk: CHO with serum-free/xeno-free media has lower risk; ascites may carry murine viruses. NCERT advantages \"ethical clearance not required\" and \"easy production of biopharmaceuticals\" directly support CHO bioreactor method. A wrong answer choosing ascites reveals the student misses the industrial-scale perspective — board exams test this shift from hybridoma to recombinant CHO production.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the production flow of tPA shown in NCERT Fig 8.9. Identify the step where the tPA gene is inserted into a plasmid, and explain why mammalian cells (not yeast or insect cells) are used for the final expression step despite higher cost.",
+     "a": "Correct answer: The step \"Plasmid containing tPA gene insert\" shows the recombinant plasmid construction. Mammalian cells (CHO) are used because tPA is a serine protease requiring: (a) specific N- and O-glycosylation for half-life and stability, (b) correct disulfide bond formation and folding in the ER, (c) proteolytic processing (activation cleavage) that only mammalian proteases perform correctly. Yeast (hypermannosylation) and insect cells (paucimannose, no sialylation) produce immunogenic or inactive tPA. A wrong answer citing only \"glycosylation\" without specifying sialylation or protease processing shows incomplete understanding — JEE/NEET expects knowledge of cell-type-specific glycosylation differences.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"OKT3 (muromonab-CD3) was the first monoclonal antibody approved for clinical use, but it is a murine antibody. Explain why this caused clinical limitations and how modern therapeutic antibodies (e.g., trastuzumab) overcome this using cell culture technology.\"",
+     "a": "Correct answer: OKT3 is fully murine (mouse IgG2a), so repeated administration induces human anti-mouse antibodies (HAMA) causing: (1) rapid clearance (reduced efficacy), (2) allergic reactions/anaphylaxis, (3) serum sickness. Modern antibodies like trastuzumab are humanised (CDR grafting) or fully human (phage display/transgenic mice) — produced in CHO/NS0 cells — retaining antigen specificity while eliminating murine constant regions. Cell culture enables large-scale production of these engineered antibodies. A wrong answer saying \"OKT3 was not effective\" or \"trastuzumab is made in bacteria\" shows the student doesn't grasp immunogenicity of xenogeneic proteins and the role of mammalian cell culture in producing humanised biologics — a frequent board exam case-study question.",
+     "self_check": true
+    },
+    {
+     "q": "Design a research proposal outline (bullet points) for using animal cell culture as a model system to test a new antiviral drug against a respiratory virus. Include: cell type selection, infection assay design, cytotoxicity control, readout method, and one advantage over animal models.",
+     "a": "Expected answer: \n- Cell type: Human airway epithelial cells (e.g., Calu-3) or primary bronchial epithelial cells at air-liquid interface (mimics in vivo differentiation).\n- Infection assay: Apical inoculation with virus at MOI 0.1, drug added basolaterally at multiple concentrations.\n- Cytotoxicity control: Parallel uninfected cells + drug (MTT/CellTiter-Glo) to calculate CC50; selectivity index = CC50/EC50.\n- Readout: qRT-PCR for viral RNA in supernatant at 24/48/72h; immunofluorescence for viral antigen; plaque assay for infectious titer.\n- Advantage over animal models: Human-specific receptor expression, immune evasion mechanisms, and drug metabolism studied in human genetic background; faster, cheaper, higher throughput, no species extrapolation.\nA poor answer using generic \"HEK293 cells\" or omitting cytotoxicity control reveals the student cannot translate \"model system\" concept into experimental design — a competency-based board question pattern.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

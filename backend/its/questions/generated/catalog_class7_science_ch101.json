@@ -1,0 +1,225 @@
+{
+ "catalog": "catalog_class7_science_ch101.json",
+ "concepts": [
+  {
+   "id": "gesc.101.1",
+   "title": "Autotrophic Nutrition",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is autotrophic nutrition?",
+     "a": "Making one's own food from simple substances (CO2 and water) using sunlight and chlorophyll, as green plants do.",
+     "self_check": true
+    },
+    {
+     "q": "Why are plants called autotrophs?",
+     "a": "They prepare their own food by photosynthesis and do not depend on other organisms for food.",
+     "self_check": true
+    },
+    {
+     "q": "Name the raw materials a plant uses to make food.",
+     "a": "Carbon dioxide from air, water and minerals from soil, plus sunlight and chlorophyll.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.101.2",
+   "title": "Heterotrophic Nutrition",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is heterotrophic nutrition?",
+     "a": "Taking ready-made food from other organisms, as animals and fungi do.",
+     "self_check": true
+    },
+    {
+     "q": "Name three types of heterotrophic nutrition in plants.",
+     "a": "Parasitic (cuscuta), insectivorous (pitcher plant) and saprotrophic (fungi on bread).",
+     "self_check": true
+    },
+    {
+     "q": "Give one example of a plant that is a heterotroph.",
+     "a": "Cuscuta (amarbel), a parasite that sucks food from host plants.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.101.3",
+   "title": "Photosynthesis",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Write the word equation of photosynthesis.",
+     "a": "Carbon dioxide + water + sunlight (with chlorophyll) -> carbohydrate (glucose) + oxygen.",
+     "self_check": true
+    },
+    {
+     "q": "Why are leaves called the food factories of plants?",
+     "a": "Their cells hold chlorophyll, which captures sunlight to make food by photosynthesis.",
+     "self_check": true
+    },
+    {
+     "q": "How do plants get carbon dioxide for photosynthesis?",
+     "a": "Through tiny pores called stomata on the leaf surface, which open to take in air.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.101.4",
+   "title": "Stomata and Guard Cells",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are stomata?",
+     "a": "Tiny pores on the leaf surface through which gases and water vapour pass.",
+     "self_check": true
+    },
+    {
+     "q": "Which cells control the opening and closing of stomata?",
+     "a": "Guard cells - they swell to open the pore and shrink to close it.",
+     "self_check": true
+    },
+    {
+     "q": "Why do stomata need to open only sometimes?",
+     "a": "Opening loses water vapour, so plants open stomata for CO2 while limiting water loss.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.101.5",
+   "title": "The Cell Structure",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the main parts of a cell.",
+     "a": "Cell membrane, cytoplasm, nucleus and (in plants) a cell wall and vacuole.",
+     "self_check": true
+    },
+    {
+     "q": "What is the function of chloroplasts?",
+     "a": "They hold chlorophyll and carry out photosynthesis.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the nucleus called the control centre of the cell?",
+     "a": "It stores DNA and directs all the cell's activities.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.101.6",
+   "title": "Parasitic Plants",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are parasitic plants?",
+     "a": "Plants that take ready food from another living plant (the host) using special sucking roots.",
+     "self_check": true
+    },
+    {
+     "q": "Name a parasitic plant and its host type.",
+     "a": "Cuscuta (amarbel) grows on trees and hedges, drawing food from them.",
+     "self_check": true
+    },
+    {
+     "q": "How does the host suffer from a parasite?",
+     "a": "It loses nutrients and water, grows weakly and may die.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.101.7",
+   "title": "Insectivorous Plants",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why do pitcher plants trap insects although they are green?",
+     "a": "They grow in nitrogen-poor soil, so insect protein supplies the nitrogen they cannot get from soil.",
+     "self_check": true
+    },
+    {
+     "q": "How does a pitcher plant catch its prey?",
+     "a": "The leaf forms a pitcher with sweet juice; insects slip in and are digested by juices inside.",
+     "self_check": true
+    },
+    {
+     "q": "Name another insectivorous plant.",
+     "a": "Venus flytrap (also sundew, bladderwort).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.101.8",
+   "title": "Saprotrophic Nutrition",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is saprotrophic nutrition?",
+     "a": "Feeding on dead and decaying matter by secreting juices and absorbing them - as fungi do.",
+     "self_check": true
+    },
+    {
+     "q": "Give two examples of saprotrophs.",
+     "a": "Bread mould (Rhizopus) and mushrooms growing on damp rotting material.",
+     "self_check": true
+    },
+    {
+     "q": "How do fungi digest their food outside the body?",
+     "a": "They release digestive juices onto the food, breaking it down, then absorb the nutrients.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.101.9",
+   "title": "Symbiosis",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is symbiosis?",
+     "a": "A partnership where two organisms live together and both benefit.",
+     "self_check": true
+    },
+    {
+     "q": "Describe the symbiosis in lichen.",
+     "a": "An alga makes food by photosynthesis and a fungus holds water and shelter - both live as one body.",
+     "self_check": true
+    },
+    {
+     "q": "How do rhizobium bacteria and pulses help each other?",
+     "a": "Rhizobium lives in root nodules of gram and peas, turning air nitrogen usable, while the plant feeds it.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gesc.101.10",
+   "title": "Soil Nutrient Replenishment",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How is soil fertility restored after a cereal crop?",
+     "a": "Farmers grow legume crops or add nitrogen-fixing bacteria, which refill soil nitrogen.",
+     "self_check": true
+    },
+    {
+     "q": "Why are leguminous crops used in rotation?",
+     "a": "Rhizobium in their root nodules enriches soil with nitrogen for the next crop.",
+     "self_check": true
+    },
+    {
+     "q": "Name the bacterium that fixes nitrogen in pulse roots.",
+     "a": "Rhizobium, living symbiotically in the root nodules of gram, peas and beans.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

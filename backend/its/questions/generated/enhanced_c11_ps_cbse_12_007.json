@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_12_007",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_12_007",
+   "title": "c11_ps_cbse_12_007",
+   "questions": [
+    {
+     "q": "Which constitutional articles provide for reservation of seats for Scheduled Castes and Scheduled Tribes in the Lok Sabha and State Legislative Assemblies respectively?",
+     "a": "Article 330 provides for reservation of seats for SCs and STs in the Lok Sabha, and Article 332 provides for reservation in State Legislative Assemblies. A wrong answer (e.g., citing Article 15 or 16) reveals confusion between political reservation in legislatures and reservation in education/employment, indicating the student hasn't distinguished between different types of affirmative action in the Constitution.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution reserve constituencies instead of adopting a system of separate electorates for SCs and STs?",
+     "a": "The Constitution adopts reserved constituencies (where all voters in the constituency vote, but only SC/ST candidates can contest) to promote integration and shared political destiny, whereas separate electorates (where only SC/ST voters elect SC/ST representatives) were seen as divisive and were rejected during the Constituent Assembly debates. A wrong answer suggesting separate electorates would be better reveals a misunderstanding of the nationalist consensus on unity and the distinction between descriptive and substantive representation.",
+     "self_check": true
+    },
+    {
+     "q": "In a state with 20% SC population and 10% ST population, the Delimitation Commission must reserve 30% of assembly seats. If the state has 200 assembly seats, how many seats are reserved for SCs and STs, and what principle guides the selection of specific constituencies?",
+     "a": "60 seats total (40 SC, 20 ST). The Delimitation Commission selects constituencies with the highest concentration of SC/ST population to maximize the effectiveness of representation. A wrong calculation or principle (e.g., random selection) shows the student doesn't understand the link between demographic concentration and the FPTP system's requirement for a critical mass of voters to elect a candidate of their choice.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of reservation in an FPTP system versus a Proportional Representation (PR) system. Would SC/ST communities still need reserved constituencies under PR?",
+     "a": "Under FPTP, reserved constituencies ensure a minimum number of SC/ST winners because they might not win in open competition due to vote splitting or majority dominance. Under PR, parties can field SC/ST candidates in winnable list positions, and voters can choose parties that represent them, so separate territorial reservation is less necessary. A student who says reservation is equally needed in both systems fails to analyze how electoral systems mediate representation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Reservation of constituencies has successfully ensured descriptive representation but has not guaranteed substantive representation for SC/ST communities.\" Use evidence from Indian electoral politics.",
+     "a": "Descriptive representation (presence of SC/ST MPs/MLAs) has increased due to reservation, but substantive representation (policy outcomes benefiting SC/STs) depends on party discipline, internal democracy, and the ability of reserved representatives to act independently. Many reserved seat holders belong to major parties and follow party lines, which may not always prioritize community-specific issues. A purely positive evaluation ignores structural constraints; a purely negative one ignores the symbolic and participatory value of descriptive representation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a proposal to improve the substantive representation of SC/ST communities without changing the reserved constituency system. Your proposal must address at least two of: intra-party democracy, candidate selection, accountability mechanisms, or post-election influence.",
+     "a": "A strong proposal might include: (1) Mandating that parties hold primaries within reserved constituencies where only SC/ST party members vote, ensuring candidates have community support; (2) Creating a statutory \"SC/ST Legislative Caucus\" with agenda-setting powers in Parliament/Assemblies. A weak proposal focuses only on increasing the number of seats or copying PR, showing inability to work within the existing constitutional framework.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

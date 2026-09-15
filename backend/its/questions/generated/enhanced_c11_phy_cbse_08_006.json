@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_08_006",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_08_006",
+   "title": "c11_phy_cbse_08_006",
+   "questions": [
+    {
+     "q": "State the SI unit of shear modulus and bulk modulus. Are they the same or different? Write the defining formula for each modulus with all variables clearly labeled.",
+     "a": "Both shear modulus (G) and bulk modulus (B) have the same SI unit: pascal (Pa) or N·m⁻². Shear modulus: G = (F/A) / (Δx/L) = F·L/(A·Δx), where F is tangential force, A is area parallel to force, Δx is horizontal displacement of top face, L is vertical height. Bulk modulus: B = -p/(ΔV/V), where p is hydraulic pressure, ΔV is change in volume, V is original volume. A wrong answer (e.g., giving different units or omitting the negative sign in B) reveals confusion between stress/strain dimensions or misunderstanding that bulk modulus must be positive for stable materials.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Shear modulus and Young's modulus both have units of pressure, so they measure the same physical property — just for different directions.\" Explain why this reasoning is incorrect using the physical distinction between longitudinal strain and shearing strain.",
+     "a": "Young's modulus (Y) relates tensile/compressive stress (normal to cross-section) to longitudinal strain (ΔL/L along the force direction), involving length change. Shear modulus (G) relates tangential stress (parallel to surface) to shearing strain (Δx/L = tan θ ≈ θ), involving shape change (angle change) without length or volume change. They measure fundamentally different deformation modes: Y for stretching/compressing, G for sliding layers. A student who thinks they are \"the same property in different directions\" fails to distinguish between normal strain (dilatational) and shear strain (distortional) — a critical conceptual gap for understanding elastic anisotropy later.",
+     "self_check": true
+    },
+    {
+     "q": "A rectangular block of aluminium (shear modulus G = 25 GPa) has dimensions 20 cm × 10 cm × 5 cm. The 20 cm × 10 cm face is fixed to a vertical wall. A horizontal force of 5.0 × 10³ N is applied to the opposite face parallel to the 20 cm edge. Calculate the horizontal displacement of the top face. Express your answer in mm.",
+     "a": "Given: G = 25 × 10⁹ Pa, L = 5 cm = 0.05 m (height), A = 20 cm × 10 cm = 0.02 m², F = 5.0 × 10³ N. Shearing strain = Δx/L = (F/A)/G → Δx = (F·L)/(A·G) = (5.0×10³ × 0.05) / (0.02 × 25×10⁹) = 250 / (5×10⁸) = 5.0 × 10⁻⁷ m = 5.0 × 10⁻⁴ mm. A wrong answer (e.g., using wrong area or length) shows inability to identify the correct shear plane dimensions — the area is the face parallel to the force, and L is the perpendicular distance between the fixed and moving faces.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the fractional volume change (ΔV/V) of water (B = 2.2 GPa) and steel (B = 160 GPa) when both are subjected to the same hydraulic pressure of 100 atm (1 atm = 1.013 × 10⁵ Pa). Which material compresses more and by what factor? Explain the physical origin of this difference in terms of atomic/molecular bonding.",
+     "a": "p = 100 × 1.013×10⁵ = 1.013×10⁷ Pa. For water: ΔV/V = -p/B = -1.013×10⁷/2.2×10⁹ = -4.60×10⁻³. For steel: ΔV/V = -1.013×10⁷/160×10⁹ = -6.33×10⁻⁵. Water compresses ≈ 73 times more than steel. The difference arises because water molecules are held by weaker intermolecular forces (hydrogen bonds) with larger equilibrium separations, while steel atoms are tightly bound in a metallic lattice with strong directional bonds and smaller interatomic spacing, making volume reduction much harder. A wrong comparison (e.g., ignoring the negative sign or misinterpreting \"more compressible\") reveals confusion between compressibility (1/B) and bulk modulus.",
+     "self_check": true
+    },
+    {
+     "q": "A worked solution claims: \"For a given material, shear modulus is always greater than bulk modulus because shear involves shape change which is harder than volume change.\" Evaluate this statement using data from Table 8.2 and Table 8.3 of NCERT for aluminium, brass, and steel. Is the claim true or false? Justify with numbers.",
+     "a": "The claim is FALSE. From NCERT tables: Aluminium: G = 25 GPa, B = 72 GPa (G < B). Brass: G = 36 GPa, B = 61 GPa (G < B). Steel: G = 84 GPa, B = 160 GPa (G < B). In all cases, bulk modulus exceeds shear modulus. For isotropic materials, theory gives B = 2G(1+ν)/3(1-2ν) where ν is Poisson's ratio (0 < ν < 0.5). Since ν > 0, B > G always. The student's reasoning confuses \"harder to deform\" with modulus magnitude — actually, larger modulus means harder to deform, so volume change is harder than shear for these metals. A wrong evaluation indicates failure to check empirical data or misunderstanding the inverse relationship between modulus and deformability.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom experiment using household items to qualitatively demonstrate the difference between shear deformation and bulk compression. List materials, procedure, and what observation would confirm each deformation mode.",
+     "a": "Materials: A thick sponge (or foam block), a deck of playing cards, a rubber ball, a heavy book. Procedure: (1) Place sponge on table, press top horizontally with hand while holding bottom fixed — observe parallelogram shape (shear). (2) Place rubber ball in a transparent container, add water and seal, squeeze container — ball shrinks uniformly (bulk). (3) Push deck of cards horizontally — cards slide relative to each other (shear). Confirmation: Shear = shape change (angle change) without volume change; Bulk = volume change without shape change. A poor answer (e.g., using only stretching of a rubber band) fails to isolate pure shear or pure volumetric deformation, showing inability to design controlled mechanical tests.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

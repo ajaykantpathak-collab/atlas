@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_11_005",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_11_005",
+   "title": "c12_math_cbse_11_005",
+   "questions": [
+    {
+     "q": "Write the formula for the shortest distance between two parallel lines given in vector form as r = a₁ + λb and r = a₂ + μb. Define each symbol.",
+     "a": "Correct answer: d = |(a₂ - a₁) × b| / |b|, where a₁ and a₂ are position vectors of points on line 1 and line 2 respectively, and b is the common direction vector of both parallel lines. The numerator is the magnitude of the cross product of (a₂ - a₁) with b; the denominator is the magnitude of b. A wrong answer like d = |(a₂ - a₁) · b| / |b| reveals the student confuses cross product (perpendicular component) with dot product (parallel component). Writing d = |a₂ - a₁| / |b| shows they don't understand the geometry — they're just dividing distance between points by direction magnitude.",
+     "self_check": true
+    },
+    {
+     "q": "Two lines are given: L₁: r = (2î + 3ĵ - k̂) + λ(î - 2ĵ + 2k̂) and L₂: r = (4î + ĵ + 3k̂) + μ(2î - 4ĵ + 4k̂). Without calculating the distance, explain how you would verify these lines are parallel before applying the distance formula.",
+     "a": "Correct answer: Compare direction vectors b₁ = î - 2ĵ + 2k̂ and b₂ = 2î - 4ĵ + 4k̂. Since b₂ = 2b₁, the direction ratios are proportional (1:2 = -2:-4 = 2:4), confirming the lines are parallel. A wrong answer like \"check if they don't intersect\" reveals the student doesn't know parallel lines in 3D are defined by proportional direction ratios, not by non-intersection (skew lines also don't intersect). Another error: \"check if a₂ - a₁ is perpendicular to b\" — this checks if the chosen points give the shortest distance, not whether lines are parallel.",
+     "self_check": true
+    },
+    {
+     "q": "Find the shortest distance between the parallel lines:\nL₁: r = (î + 2ĵ - k̂) + λ(2î + 3ĵ + 6k̂)\nL₂: r = (3î - ĵ + 2k̂) + μ(4î + 6ĵ + 12k̂)",
+     "a": "Step 1: Identify a₁ = î + 2ĵ - k̂, a₂ = 3î - ĵ + 2k̂.\nStep 2: Check direction vectors: b₁ = 2î + 3ĵ + 6k̂, b₂ = 4î + 6ĵ + 12k̂ = 2b₁ → parallel confirmed.\nStep 3: Use common direction b = 2î + 3ĵ + 6k̂ (or b₂, magnitude scales same).\nStep 4: Compute a₂ - a₁ = (3-1)î + (-1-2)ĵ + (2+1)k̂ = 2î - 3ĵ + 3k̂.\nStep 5: Cross product (a₂ - a₁) × b = |î ĵ k̂; 2 -3 3; 2 3 6| = î(-18-9) - ĵ(12-6) + k̂(6+6) = -27î - 6ĵ + 12k̂.\nStep 6: |(a₂ - a₁) × b| = √(27² + 6² + 12²) = √(729+36+144) = √909 = 3√101.\nStep 7: |b| = √(2²+3²+6²) = √(4+9+36) = √49 = 7.\nStep 8: d = 3√101 / 7 units.\nA wrong answer like d = |a₂ - a₁| / |b| = √(4+9+9)/7 = √22/7 reveals the student forgot the cross product — they computed distance between points divided by direction magnitude, not the perpendicular component.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a parallel line distance problem and gets d = 0. They claim the lines are coincident. Is this necessarily true? Justify your answer with a counterexample or proof.",
+     "a": "Correct answer: Not necessarily. d = 0 means |(a₂ - a₁) × b| = 0, so (a₂ - a₁) is parallel to b. This means the vector connecting the chosen points lies along the direction of the lines — i.e., the points are collinear with the line direction. The lines could be coincident (infinitely many common points) OR they could be distinct parallel lines where the specific points a₁ and a₂ happen to lie on a line parallel to b. Example: L₁: r = (0,0,0) + λ(1,0,0), L₂: r = (0,1,0) + μ(1,0,0). Choose a₁ = (0,0,0), a₂ = (1,1,0). Then a₂ - a₁ = (1,1,0), b = (1,0,0). Cross product = (0,0,-1) ≠ 0 → d ≠ 0. But if we choose a₂ = (2,0,0) on L₂, then a₂ - a₁ = (2,0,0) ∥ b → cross product = 0 → d = 0 even though lines are distinct (y=0 vs y=1). The formula requires a₁ on L₁ and a₂ on L₂ — if the student picks a₂ not on L₂, d=0 is meaningless. A wrong answer \"yes, d=0 always means coincident\" reveals the student doesn't understand the formula assumes correct point selection on each line.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's solution:\nProblem: Distance between lines (x-1)/2 = (y+2)/3 = (z-3)/6 and (x-4)/4 = (y-1)/6 = (z+1)/12.\nStudent's steps:\n1. Direction ratios: 2,3,6 and 4,6,12 → parallel.\n2. Point on L₁: (1, -2, 3), Point on L₂: (4, 1, -1).\n3. a₂ - a₁ = (3, 3, -4).\n4. b = (2, 3, 6).\n5. Cross product = (3,3,-4) × (2,3,6) = |i j k; 3 3 -4; 2 3 6| = i(18+12) - j(18+8) + k(9-6) = 30i - 26j + 3k.\n6. |cross| = √(900+676+9) = √1585.\n7. |b| = √(4+9+36) = 7.\n8. d = √1585 / 7.\nIs the answer correct? If not, identify the exact error.",
+     "a": "The student's answer is incorrect. The error is in Step 5: cross product calculation.\nCorrect cross product: (3,3,-4) × (2,3,6) = î(3·6 - (-4)·3) - ĵ(3·6 - (-4)·2) + k̂(3·3 - 3·2) = î(18+12) - ĵ(18+8) + k̂(9-6) = 30î - 26ĵ + 3k̂.\nWait, that matches the student's cross product. Let me recalculate carefully:\n|i    j    k|\n|3    3   -4|\n|2    3    6|\n= i(3·6 - (-4)·3) - j(3·6 - (-4)·2) + k(3·3 - 3·2)\n= i(18 + 12) - j(18 + 8) + k(9 - 6)\n= 30i - 26j + 3k. That's correct.\n|30i - 26j + 3k| = √(900 + 676 + 9) = √1585. Correct.\n|b| = √(4+9+36) = 7. Correct.\nd = √1585/7. The student's answer is actually CORRECT.\nA student who says \"incorrect, should use b = (4,6,12)\" reveals they don't know any parallel direction vector works — magnitude scales cancel. A student who says \"incorrect, cross product sign error in j-component\" reveals they forget the minus sign in the determinant expansion for j. The given solution is fully correct.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) where finding the shortest distance between two parallel lines in 3D is necessary. Define the lines with specific coordinates and ask for the distance. The problem must involve a practical scenario like construction, piping, or cable laying.",
+     "a": "Expected answer: A problem like: \"Two parallel water pipelines run through a building. Pipeline A passes through points (2, 1, 0) and (5, 4, 6) in metres. Pipeline B passes through (0, 3, 2) and has the same direction as Pipeline A. Find the minimum length of a connecting pipe perpendicular to both pipelines.\" \nGood answer criteria: (1) Correctly extracts direction ratios from given points. (2) Writes vector/Cartesian equations. (3) Identifies a₁, a₂, b correctly. (4) Applies formula. (5) Gives answer in metres. A poor answer uses 2D distance formula, ignores z-coordinates, or assumes the connecting pipe joins the given points directly without perpendicularity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_11_003",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_11_003",
+   "title": "c11_bio_cbse_11_003",
+   "questions": [
+    {
+     "q": "What is the immediate electron donor to Photosystem II, and what are the three products of its oxidation?",
+     "a": "The immediate electron donor to Photosystem II is water (H₂O). Its oxidation yields electrons (to replace those lost by P680), protons (H⁺ released into the thylakoid lumen), and molecular oxygen (O₂) as a by-product. A wrong answer (e.g., \"NADPH\" or \"CO₂\") reveals the student confuses the electron donor of PSII with the final electron acceptor of the chain or the substrate of the Calvin cycle.",
+     "self_check": true
+    },
+    {
+     "q": "In the Z-scheme, electrons flow \"downhill\" in terms of redox potential from PSII to PSI, yet they must be re-excited by light at PSI. Explain why this re-excitation is necessary.",
+     "a": "After leaving PSII, electrons lose energy as they pass through the plastoquinone pool and cytochrome b₆f complex. By the time they reach plastocyanin, their redox potential is too low to reduce NADP⁺ (E°' = -0.32 V). Absorption of a second photon at PSI (P700) boosts the electron's energy sufficiently to reduce ferredoxin and ultimately NADP⁺. A wrong answer (e.g., \"to make more ATP\") shows the student does not grasp the thermodynamic requirement for two distinct photoacts to span the large redox gap between H₂O/O₂ (+0.82 V) and NADP⁺/NADPH (-0.32 V).",
+     "self_check": true
+    },
+    {
+     "q": "A researcher treats isolated chloroplasts with DCMU (a herbicide that blocks electron flow from QA to QB in PSII). Predict the effect on (a) O₂ evolution, (b) NADPH production, and (c) ATP synthesis via non-cyclic photophosphorylation. Justify each.",
+     "a": "(a) O₂ evolution stops because electrons cannot leave PSII, so P680⁺ cannot be reduced by water-splitting complex. (b) NADPH production stops because no electrons reach PSI or ferredoxin. (c) Non-cyclic ATP synthesis stops because proton pumping by cytochrome b₆f requires electron flow through the chain. A wrong prediction (e.g., \"ATP continues via cyclic flow\") reveals confusion: cyclic photophosphorylation uses only PSI and is unaffected by DCMU, but the question specifically asks about non-cyclic phosphorylation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the proton gradient formation in photosynthetic electron transport (thylakoid) and mitochondrial electron transport (inner mitochondrial membrane). Identify two similarities and two differences in the mechanism and location of proton pumping.",
+     "a": "Similarities: (1) Both use electron transport to pump H⁺ across a membrane, creating an electrochemical gradient. (2) Both use ATP synthase (F₀F₁) to harness the gradient for ATP synthesis. Differences: (1) In chloroplasts, protons accumulate in the thylakoid lumen (inside), while in mitochondria they accumulate in the intermembrane space (outside the matrix). (2) Chloroplasts have three proton-pumping sites (water splitting, PQH₂ oxidation at cytochrome b₆f, NADP⁺ reduction), whereas mitochondria have three complexes (I, III, IV) but no water-splitting equivalent. A wrong answer (e.g., \"both pump protons into the matrix\") indicates the student has not distinguished the topology of the two organelles.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Cyclic photophosphorylation is a wasteful process because it produces ATP without NADPH, and the Calvin cycle requires both in a 3:2 ratio.\" Is this statement correct? Explain your reasoning.",
+     "a": "The statement is incorrect. Cyclic photophosphorylation is not wasteful; it supplements ATP supply when the ATP/NADPH demand of the Calvin cycle (3:2) exceeds the output of non-cyclic flow (which yields ~1.28 ATP per NADPH, depending on H⁺/ATP ratio). By recycling electrons within PSI, cyclic flow generates extra ATP without producing NADPH or O₂, balancing the energy budget. A student who agrees reveals a misconception that all photosynthetic electron flow must follow the Z-scheme and that alternative pathways are errors rather than regulatory mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using leaf discs, bicarbonate solution, and a light source to demonstrate that the rate of oxygen evolution (proxy for linear electron flow) depends on the availability of NADP⁺ as an electron acceptor. Outline the setup, control, and expected observation.",
+     "a": "Setup: Infiltrate spinach leaf discs with 0.2% NaHCO₃ solution (provides CO₂ for Calvin cycle, which regenerates NADP⁺) and place in a syringe under vacuum to sink discs. Transfer to cups: (1) under light with bicarbonate, (2) under light without bicarbonate (water only), (3) dark with bicarbonate. Control: dark without bicarbonate. Expected: Discs rise fastest in (1) because CO₂ fixation consumes NADPH, regenerating NADP⁺, allowing sustained linear electron flow and O₂ evolution. In (2), NADP⁺ becomes limiting as Calvin cycle stalls, slowing O₂ evolution. A poor design (e.g., omitting the dark control or not explaining the role of bicarbonate in NADP⁺ regeneration) shows the student cannot link electron acceptor availability to measurable gas exchange.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

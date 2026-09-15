@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_18_002",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_18_002",
+   "title": "c11_ps_cbse_18_002",
+   "questions": [
+    {
+     "q": "What is the exact constitutional provision that lays down the procedure for amending the Constitution of India?",
+     "a": "Article 368. A wrong answer (e.g., \"Article 356\" or \"Article 370\") reveals the student confuses amendment procedure with emergency provisions or special status provisions, indicating a lack of basic article-number mapping for core constitutional mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why an amendment to change the name of a State (e.g., Mysore to Karnataka) requires only a simple majority in Parliament, while an amendment to change the election of the President requires a special majority plus state ratification.",
+     "a": "Changing a State's name falls under Article 3 (formation of new states/alteration of boundaries), which explicitly provides for a simple majority and is excluded from Article 368. Changing the President's election method affects the federal structure (Article 54/55), requiring special majority under Article 368 plus ratification by half the states under the proviso to Article 368(2). A wrong answer suggests the student thinks all constitutional changes follow the same Article 368 procedure, missing the textual exceptions and the federalism principle gradation.",
+     "self_check": true
+    },
+    {
+     "q": "A Bill to amend Article 368 itself (the amendment procedure) is introduced in Lok Sabha. It passes with 300 votes in favour out of 543 members, with 400 members present and voting. In Rajya Sabha, it passes with 150 votes in favour out of 245 members, with 200 present and voting. Has the Bill been validly passed by Parliament under Article 368? Justify.",
+     "a": "No. In Lok Sabha: total membership = 543, majority of total = 272 (got 300 ✓); two-thirds of present and voting = 267 (got 300 ✓). In Rajya Sabha: total membership = 245, majority of total = 123 (got 150 ✓); two-thirds of present and voting = 134 (got 150 ✓). Wait — both Houses satisfy special majority. But Article 368 amendment to the amendment procedure itself affects \"election of the President\" (no) — actually, amending Article 368 is a change to the amendment procedure, which is not listed in the proviso to 368(2) (which lists Articles 54, 55, 73, 162, 241, Chapter IV of Part V, Chapter V of Part VI, Chapter I of Part XI, any of the Lists in Seventh Schedule, representation of States in Parliament, and Article 368 itself). **Yes, Article 368 is explicitly listed in the proviso**, so it requires state ratification too. The student must catch that amending Article 368 triggers the ratification requirement. A wrong answer (saying it's valid with just Parliament) reveals the student missed the self-referential inclusion of Article 368 in the proviso list.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the amendment procedure for (a) admitting a new State into the Union (Article 2) and (b) altering the distribution of legislative powers between Union and States (Seventh Schedule). Identify the specific constitutional basis for the difference in rigidity.",
+     "a": "(a) Article 2 explicitly states \"by law\", meaning simple majority in Parliament, and Article 4(2) declares such laws not to be amendments under Article 368. (b) Seventh Schedule distribution is listed in the proviso to Article 368(2), requiring special majority plus ratification by half the states. The difference arises because Article 2 deals with territorial reorganization (Union's prerogative), while Seventh Schedule alters the federal balance of powers, demanding broader consensus. A wrong answer conflating both under Article 368 shows failure to read the constitutional text for express exclusions and inclusions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"The requirement of ratification by half the State Legislatures for amendments affecting federal provisions makes the Indian Constitution rigid and undemocratic because it gives States a veto over national decisions.\"",
+     "a": "The argument is flawed. First, \"half the states\" is not a veto — it is a positive consent requirement, and many federal constitutions (e.g., USA, Australia) require even higher thresholds (3/4 states, double majority). Second, it applies only to a specific, enumerated set of provisions (federal balance), not all amendments. Third, it reflects the **federal principle**: the Constitution is a compact between Union and States, so altering the compact requires consent of the parties. Calling it \"undemocratic\" ignores that democracy in a federation includes protecting sub-unit autonomy. A weak answer merely agrees/disagrees without constitutional reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a hypothetical constitutional amendment Bill title and its operative clause that would *require* ratification by State Legislatures under Article 368(2) proviso. Explain which specific entry in the proviso it attracts.",
+     "a": "Example: \"The Constitution (Amendment) Bill, 2025 — A Bill to amend Article 246 and the Seventh Schedule to transfer 'Public Order' (State List Entry 1) to the Concurrent List.\" Operative clause: \"In the Seventh Schedule, in the State List, for Entry 1, substitute — '1. Public Order, including the power to legislate on police.'; and in the Concurrent List, after Entry 11A, insert — '11B. Public Order.'\" This attracts the proviso entry: \"any of the Lists in the Seventh Schedule\". A poor answer proposes an amendment not in the proviso list (e.g., changing Fundamental Rights) or fails to cite the exact proviso entry.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

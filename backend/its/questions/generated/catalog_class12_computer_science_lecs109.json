@@ -1,0 +1,213 @@
+{
+ "catalog": "catalog_class12_computer_science_lecs109",
+ "concepts": [
+  {
+   "id": "lecs109.1",
+   "title": "POWER and MOD Math Functions",
+   "questions": [
+    {
+     "q": "Using the method 'POWER and MOD Math Functions', work with: base = 120, exponent = 3, modulus = 500. Carry the chain through step by step and give the final value of reduced.",
+     "a": "0 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'POWER and MOD Math Functions' and work with: base = 500, exponent = 6, modulus = 150. Carry the chain through step by step and give the final value of reduced.",
+     "a": "100 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'POWER and MOD Math Functions' refers to.",
+     "a": "SQL's numeric single-row functions compute on one value at a time: POWER(X, Y) raises X to the power Y, and MOD(A, B) returns the remainder after dividing A by B.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'POWER and MOD Math Functions'.",
+     "a": "POWER(2, 3) answers 8, while MOD(21, 2) answers 1.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'POWER and MOD Math Functions', in plain ASCII form.",
+     "a": "reduced = base ** exponent % modulus",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs109.2",
+   "title": "GST and FinalPrice of a Car",
+   "questions": [
+    {
+     "q": "Using the method 'GST and FinalPrice of a Car', work with: price = 20000. Carry the chain through step by step and give the final value of final_price.",
+     "a": "22400 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'GST and FinalPrice of a Car' and work with: price = 500. Carry the chain through step by step and give the final value of final_price.",
+     "a": "560 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'GST and FinalPrice of a Car' refers to.",
+     "a": "The dealer example computes GST as 12 percent of a car's Price, rounds it, and stores FinalPrice as Price plus that GST, using arithmetic expressions directly inside UPDATE and SELECT statements.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'GST and FinalPrice of a Car'.",
+     "a": "For the Dzire priced 582613.00, the GST works out to 69913.56, so the FinalPrice becomes 652526.56.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'GST and FinalPrice of a Car', in plain ASCII form.",
+     "a": "final_price = price + price * 12 / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs109.3",
+   "title": "Aggregate Functions on Car Prices",
+   "questions": [
+    {
+     "q": "Find MAX(Price), MIN(Price), SUM(Price) and AVG(Price) over the INVENTORY table.. Use the method 'Aggregate Functions on Car Prices'. Work with: the fixed constants of the method. Carry the chain through step by step and give the final value of average.",
+     "a": "576091.625 years",
+     "self_check": false
+    },
+    {
+     "q": "How many cars in INVENTORY have the model VXI, and which query counts them? Use the method 'Aggregate Functions on Car Prices'. Work with: the fixed constants of the method. Carry the chain through step by step and give the final value of average.",
+     "a": "576091.625 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Aggregate Functions on Car Prices' refers to.",
+     "a": "Multiple-row (aggregate) functions collapse a column of records into one value: MAX picks the largest, MIN the smallest, AVG the mean, SUM the total and COUNT the number of rows, with COUNT(column) skipping NULLs.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Aggregate Functions on Car Prices'.",
+     "a": "The eight INVENTORY prices sum to 4608733.00, so AVG(Price) returns 576091.625000.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Aggregate Functions on Car Prices', in plain ASCII form.",
+     "a": "avg_price = total / count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs109.4",
+   "title": "Cartesian Product of Two Relations",
+   "questions": [
+    {
+     "q": "Using the method 'Cartesian Product of Two Relations', work with: card1 = 80, card2 = 200, deg1 = 60, deg2 = 150. Carry the chain through step by step and give the final value of new_cardinality.",
+     "a": "16000 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Cartesian Product of Two Relations' and work with: card1 = 20, card2 = 3, deg1 = 75, deg2 = 60. Carry the chain through step by step and give the final value of new_cardinality.",
+     "a": "60 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Cartesian Product of Two Relations' refers to.",
+     "a": "The cartesian product pairs every tuple of one relation with every tuple of another; the result's degree adds the two degrees and its cardinality multiplies the two cardinalities, regardless of matching values.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cartesian Product of Two Relations'.",
+     "a": "DANCE (degree 3, cardinality 4) crossed with MUSIC (degree 3, cardinality 5) yields degree 6 and cardinality 20.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Cartesian Product of Two Relations', in plain ASCII form.",
+     "a": "new_cardinality = card1 * card2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs109.5",
+   "title": "SELECT Statement with WHERE Clause",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'SELECT Statement with WHERE Clause' refers to.",
+     "a": "SELECT lists the wanted columns, FROM names the table, and WHERE filters rows with relational operators, AND/OR/NOT logic, BETWEEN for inclusive ranges and IN for membership in a list, while DISTINCT removes duplicate output values.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'SELECT Statement with WHERE Clause'.",
+     "a": "WHERE Salary BETWEEN 20000 AND 50000 keeps both boundary values, matching the AND of the two comparisons.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'SELECT Statement with WHERE Clause', in plain ASCII form.",
+     "a": "SELECT columns FROM table WHERE condition",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs109.6",
+   "title": "LIKE Operator and Wildcard Patterns",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'LIKE Operator and Wildcard Patterns' refers to.",
+     "a": "The LIKE operator matches partial text using two wildcards: % stands for zero or more characters and _ stands for exactly one, so 'K%' catches names starting with K while '_a%' catches names with a as the second letter.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'LIKE Operator and Wildcard Patterns'.",
+     "a": "An exact-match = cannot find name fragments, which is why pattern matching needs LIKE.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'LIKE Operator and Wildcard Patterns', in plain ASCII form.",
+     "a": "Ename LIKE '_ANYA' -> Sanya and Tanya",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs109.7",
+   "title": "GROUP BY with the HAVING Clause",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'GROUP BY with the HAVING Clause' refers to.",
+     "a": "GROUP BY collects rows sharing one column value into groups so aggregate functions run per group, and HAVING filters those groups afterwards, for example keeping only customers who bought more than one car.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'GROUP BY with the HAVING Clause'.",
+     "a": "Grouping SALE by CustID reports C0001 and C0002 with 2 cars each, while C0003 and C0004 show 1.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'GROUP BY with the HAVING Clause', in plain ASCII form.",
+     "a": "GROUP BY CustID HAVING COUNT(*) > 1",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs109.8",
+   "title": "JOIN and NATURAL JOIN on Two Tables",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'JOIN and NATURAL JOIN on Two Tables' refers to.",
+     "a": "A JOIN combines tuples of two tables on a condition, usually equality between a primary key and the matching foreign key; NATURAL JOIN does the same on the common attribute while dropping the duplicate column, and N tables need N minus 1 joins.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'JOIN and NATURAL JOIN on Two Tables'.",
+     "a": "Joining UNIFORM with COST on UCode matches each Shirt and Pant row with its L and M prices, and NATURAL JOIN shows UCode once.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'JOIN and NATURAL JOIN on Two Tables', in plain ASCII form.",
+     "a": "UNIFORM JOIN COST ON U.UCode = C.UCode",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

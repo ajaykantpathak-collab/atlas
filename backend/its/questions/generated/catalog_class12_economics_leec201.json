@@ -1,0 +1,234 @@
+{
+ "catalog": "catalog_class12_economics_leec201",
+ "concepts": [
+  {
+   "id": "leec.201.1.1",
+   "title": "Scarcity, Choice and Basic Economic Activities",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Scarcity, Choice and Basic Economic Activities' refers to.",
+     "a": "Every decision-making unit - a family, a weaver, a teacher - holds only a little of what it needs, so limited means force a selection among competing wants; production, exchange and consumption are the everyday activities through which people cope with this squeeze.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Scarcity, Choice and Basic Economic Activities'.",
+     "a": "Because no one owns endless resources, having more of one thing always means having less of another.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Scarcity, Choice and Basic Economic Activities', in plain ASCII form.",
+     "a": "available_means < wanted_goods_and_services",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.201.1.2",
+   "title": "Central Problems: What, How and For Whom to Produce",
+   "questions": [
+    {
+     "q": "Using the method 'Central Problems: What, How and For Whom to Produce', work with: for_whom_to_produce = 6, how_to_produce = 15, what_to_produce = 4. Carry the chain through step by step and give the final value of central_problems.",
+     "a": "25 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Central Problems: What, How and For Whom to Produce' and work with: for_whom_to_produce = 4, how_to_produce = 3, what_to_produce = 45. Carry the chain through step by step and give the final value of central_problems.",
+     "a": "52 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Central Problems: What, How and For Whom to Produce' refers to.",
+     "a": "Scarce resources with rival uses oblige every society to settle which goods to make and in what amounts, which techniques and resource mixes to employ, and how the finished output is shared among its members.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Central Problems: What, How and For Whom to Produce'.",
+     "a": "Scarcity breeds choice, and choice splits into three decisions every economy must make.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Central Problems: What, How and For Whom to Produce', in plain ASCII form.",
+     "a": "central_problems = what_to_produce + how_to_produce + for_whom_to_produce",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.201.1.3",
+   "title": "Production Possibility Set and the Frontier",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Production Possibility Set and the Frontier' refers to.",
+     "a": "With fixed resources and known technology an economy can turn out many mixes of two goods; the set of all attainable mixes is the production possibility set, and the boundary curve through the fully-employed mixes is the production possibility frontier.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Production Possibility Set and the Frontier'.",
+     "a": "Points on the curve exhaust resources; points inside signal idle or wasted capacity.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Production Possibility Set and the Frontier', in plain ASCII form.",
+     "a": "frontier = maximum_mixes_of(good_a, good_b) under full resource employment",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.201.1.4",
+   "title": "Opportunity Cost along the Frontier",
+   "questions": [
+    {
+     "q": "Compute the sacrifice ratio when output shifts from one frontier point to another. Use the method 'Opportunity Cost along the Frontier'. Work with: extra_units_of_chosen_good = 6, final_output_of_other_good = 120, initial_output_of_other_good = 500. Carry the chain through step by step and give the final value of opportunity_cost.",
+     "a": "63.3333 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find what society sacrifices for an extra unit chosen from a possibilities table. Use the method 'Opportunity Cost along the Frontier'. Work with: extra_units_of_chosen_good = 20, final_output_of_other_good = 12, initial_output_of_other_good = 200. Carry the chain through step by step and give the final value of opportunity_cost.",
+     "a": "9.4 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Opportunity Cost along the Frontier' refers to.",
+     "a": "Moving along the frontier to gain a unit of one good obliges the economy to give up some of the other; the amount of the second good sacrificed per unit gained is the opportunity cost, also called the economic cost.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Opportunity Cost along the Frontier'.",
+     "a": "Every extra unit has a price in forgone alternatives, and that price is the sacrifice ratio along the frontier.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Opportunity Cost along the Frontier', in plain ASCII form.",
+     "a": "opportunity_cost = quantity_lost_of_other_good / extra_units_of_chosen_good",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.201.2.1",
+   "title": "Centrally Planned Economy",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Centrally Planned Economy' refers to.",
+     "a": "In a centrally planned economy a central authority - the government - takes all major decisions about production, exchange and consumption, steering resources toward goals it judges good for society, such as adequate schooling or an equitable output share.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Centrally Planned Economy'.",
+     "a": "One planner replaces the market: the state decides the allocation and the distribution directly.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Centrally Planned Economy', in plain ASCII form.",
+     "a": "decision_authority = central_government (all major economic decisions)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.201.2.2",
+   "title": "Market Economy and Coordination by Prices",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Market Economy and Coordination by Prices' refers to.",
+     "a": "A market is the set of arrangements letting buyers and sellers deal freely, whether face to face or over distance; when buyers want more of a good its price rises, signalling producers to expand, so prices alone coordinate the plans of millions of dispersed agents.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Market Economy and Coordination by Prices'.",
+     "a": "Prices carry information about society's valuation, and chasing them quietly solves what and how much to produce.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Market Economy and Coordination by Prices', in plain ASCII form.",
+     "a": "production_response = direction_of(price_signal) (higher price, larger output)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.201.2.3",
+   "title": "Mixed Economy in Practice",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Mixed Economy in Practice' refers to.",
+     "a": "Real-world economies blend the two poles: markets conduct most activity while the government takes important decisions, and systems differ only in how large the state's role is - minimal in the United States, sweeping in twentieth-century China, historically large in India.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Mixed Economy in Practice'.",
+     "a": "Between laissez-faire and full planning lies a spectrum, and every actual economy sits somewhere on it.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Mixed Economy in Practice', in plain ASCII form.",
+     "a": "real_economies = market_activity + government_decisions (degree varies)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.201.3.1",
+   "title": "Positive versus Normative Economic Analysis",
+   "questions": [
+    {
+     "q": "Using the method 'Positive versus Normative Economic Analysis', work with: normative_whether_desirable = 8, positive_how_it_works = 150. Carry the chain through step by step and give the final value of economic_analysis.",
+     "a": "158 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Positive versus Normative Economic Analysis' and work with: normative_whether_desirable = 5, positive_how_it_works = 30. Carry the chain through step by step and give the final value of economic_analysis.",
+     "a": "35 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Positive versus Normative Economic Analysis' refers to.",
+     "a": "Positive analysis describes how an economic mechanism actually works and what outcomes it yields, while normative analysis passes judgement on whether those outcomes are desirable; the two strands interlock, since judging requires understanding.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Positive versus Normative Economic Analysis'.",
+     "a": "Description comes before evaluation, but sound evaluation feeds back into what we choose to describe.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Positive versus Normative Economic Analysis', in plain ASCII form.",
+     "a": "economic_analysis = positive_how_it_works + normative_whether_desirable",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.201.4.1",
+   "title": "Microeconomics and Macroeconomics as Branches",
+   "questions": [
+    {
+     "q": "Using the method 'Microeconomics and Macroeconomics as Branches', work with: aggregate_totals_study = 3, individual_markets_study = 20. Carry the chain through step by step and give the final value of branches_of_economics.",
+     "a": "23 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Microeconomics and Macroeconomics as Branches' and work with: aggregate_totals_study = 5, individual_markets_study = 10. Carry the chain through step by step and give the final value of branches_of_economics.",
+     "a": "15 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Microeconomics and Macroeconomics as Branches' refers to.",
+     "a": "Microeconomics follows individual agents in single markets to see how each good's price and quantity emerge, while macroeconomics steps back to aggregate totals - output, employment and the general price level - and how they are set and how they move.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Microeconomics and Macroeconomics as Branches'.",
+     "a": "One branch zooms to a market, the other zooms out to the whole economy's totals.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Microeconomics and Macroeconomics as Branches', in plain ASCII form.",
+     "a": "branches_of_economics = individual_markets_study + aggregate_totals_study",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

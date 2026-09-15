@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_engl_ch5_10",
+ "concepts": [
+  {
+   "id": "enh:c8_engl_ch5_10",
+   "title": "c8_engl_ch5_10",
+   "questions": [
+    {
+     "q": "Why could Claribel not drink water from a normal bowl in zero gravity?",
+     "a": "In zero gravity, water does not stay in a bowl — it forms floating spheres due to surface tension and lack of downward pull. Claribel could not \"dip and drink\" as she would on Earth because the water would float away from her beak. The crew had to provide water in a contained form (e.g., a sealed tube or absorbent material she could peck at). A wrong answer like \"she wasn't thirsty\" misses the physics — the challenge is not desire but the behavior of liquids in zero gravity.",
+     "self_check": true
+    },
+    {
+     "q": "Why was Claribel more vulnerable to air quality problems than the human crew?",
+     "a": "Birds have a faster metabolism and more efficient respiratory system than humans — they breathe more rapidly and exchange more air per breath. This means they detect air contamination (carbon dioxide buildup, toxin leaks) faster than humans, who might not notice until levels are dangerous. Claribel's small size and fast breathing made her an early warning system: she would show distress before the human crew felt any symptoms. A wrong answer like \"she was smaller\" is partially correct but misses the physiological reason — it is the respiratory rate, not just size, that makes birds sensitive.",
+     "self_check": true
+    },
+    {
+     "q": "How did the crew's solution for feeding Claribel reflect the constraints of space station life?",
+     "a": "The crew could not use open bowls, loose seeds, or normal water dishes — all would float and contaminate the station's air filtration systems. Their solution had to be contained, portion-controlled, and debris-free. This reflects the broader constraint of space station life: everything must be secured, contained, and managed because loose material floats and can damage equipment. Feeding Claribel was not just pet care — it was an engineering problem. A wrong answer that says \"they gave her normal bird food\" misses that \"normal\" does not work in zero gravity.",
+     "self_check": true
+    },
+    {
+     "q": "What does Claribel's survival reveal about the difference between adaptation (something evolving for an environment) and accommodation (something being helped to survive in a non-native environment)?",
+     "a": "Claribel is a canary — evolved for Earth's gravity, air pressure, and atmosphere. She did not \"adapt\" to space (evolution takes generations); she was \"accommodated\" — the crew modified her environment (contained food, water, air monitoring) to keep her alive. This distinction matters: adaptation is biological change over time; accommodation is environmental modification in the present. Claribel's survival was entirely dependent on human intervention, not on her own ability to adapt. A wrong answer that says \"she adapted to space\" confuses accommodation with adaptation, missing that no canary could survive space without human support.",
+     "self_check": true
+    },
+    {
+     "q": "In the story, Claribel's distress alerts the crew to an air problem. What does this tell us about the relationship between animals and humans in isolated environments?",
+     "a": "It reveals a symbiotic relationship: humans provide food, water, and shelter (accommodation); the bird provides early warning of environmental danger (biological monitoring). In isolated environments where instruments can fail, a living sensor — an animal with faster, more sensitive biology — is a backup safety system. This is why miners historically used canaries: the bird's vulnerability is its value. A wrong answer that says \"she was just a pet\" misses the functional relationship — Claribel was both companion and safety device.",
+     "self_check": true
+    },
+    {
+     "q": "If Claribel had been a cat instead of a canary, would she have been as useful as an air-quality alarm? Explain using biological differences.",
+     "a": "No. Cats are mammals with respiratory rates closer to humans — they would not detect air contamination much faster than the crew. Canaries have air sacs (unique to birds) that give them a continuous, high-volume airflow, making them far more sensitive to air quality. A cat's slower breathing and larger size would make it a poor early warning system. However, a cat might be a better companion for psychological comfort. The choice of animal depends on the function needed: biological monitoring favors birds, companionship favors mammals. A weak answer that says \"a cat would be the same\" ignores the biological differences that make canaries specifically suited to air-quality detection.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_01_004",
+   "title": "c10_bio_cbse_01_004",
+   "questions": [
+    {
+     "q": "Name the three major associated digestive glands of the human digestive system and state the main secretion of each that enters the duodenum.",
+     "a": "The three major associated glands are: (1) Salivary glands — secrete saliva containing salivary amylase (enters mouth, not duodenum); (2) Liver — secretes bile (stored in gallbladder, enters duodenum via bile duct); (3) Pancreas — secretes pancreatic juice containing pancreatic amylase, trypsin, lipase (enters duodenum via pancreatic duct).  \nA wrong answer (e.g., listing stomach or intestinal glands as \"associated glands\", or stating bile contains enzymes) reveals confusion between *associated glands* (outside the alimentary canal) and *gastric/intestinal glands* (in the lining), and ignorance that bile has no enzymes — it only emulsifies fats.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the small intestine — not the stomach — is the primary site for both completion of digestion and absorption of nutrients in humans.",
+     "a": "The small intestine is the primary site because: (a) It receives bile (emulsifies fats) and pancreatic juice (contains enzymes for all macromolecules) — completing chemical digestion of carbs, proteins, fats; (b) Its inner lining has villi and microvilli, increasing surface area ~1000-fold for efficient absorption; (c) It has a rich blood capillary and lacteal network to transport absorbed nutrients. The stomach only begins protein digestion (pepsin) and absorbs minimal water/alcohol/ certain drugs.  \nA wrong answer (e.g., \"stomach digests everything because it has acid\") reveals the common misconception that stomach acid digests all food types, ignoring that amylase/lipase are inactivated by acid and that absorption requires massive surface area only present in the small intestine.",
+     "self_check": true
+    },
+    {
+     "q": "A person undergoes surgical removal of the gallbladder (cholecystectomy). Predict how this affects fat digestion and absorption, and explain the physiological reason.",
+     "a": "Fat digestion becomes less efficient, especially after a fatty meal. Reason: The gallbladder stores and concentrates bile; without it, bile drips continuously from the liver into the duodenum at low concentration. During a fatty meal, the large, sudden release of concentrated bile needed for effective emulsification of large fat globules is absent. Emulsification is slower, so pancreatic lipase has less surface area to act, reducing fat digestion and fatty acid/monoglyceride absorption.  \nA wrong answer (e.g., \"fat digestion stops completely\" or \"bile is not produced\") reveals misunderstanding that the liver still produces bile, and that emulsification is a physical process aiding enzyme action — not an enzymatic step that can be \"stopped\".",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of salivary amylase (ptyalin) and pancreatic amylase in carbohydrate digestion. Why does salivary amylase stop working in the stomach?",
+     "a": "Both enzymes hydrolyse starch (polysaccharide) into maltose (disaccharide). Salivary amylase acts in the mouth (pH ~6.8) and continues briefly in the oesophagus; pancreatic amylase acts in the duodenum (pH ~7.5-8) where pancreatic juice neutralizes acidic chyme. Salivary amylase is denatured and inactivated by the highly acidic gastric juice (pH ~1.5-2) in the stomach.  \nA wrong answer (e.g., \"salivary amylase digests protein\" or \"both work in stomach\") reveals confusion about enzyme specificity (amylase only for carbohydrates) and the pH sensitivity of enzymes — a core concept linking protein structure to function.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Digestion of proteins begins in the mouth because saliva contains enzymes.\" Evaluate this statement and justify your answer.",
+     "a": "The statement is **incorrect**. Saliva contains only salivary amylase (carbohydrase) and lingual lipase (minor, acts on milk fats in infants). No protease is secreted in the mouth. Protein digestion begins in the stomach where gastric chief cells secrete pepsinogen, activated to pepsin by HCl.  \nA wrong answer (e.g., \"yes, because saliva has enzymes\") reveals the misconception that *any* digestive enzyme in saliva acts on *all* macromolecules, ignoring enzyme specificity. It also shows lack of recall that pepsin is the first protease encountered by food.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom experiment to demonstrate that salivary amylase digests starch but not protein. List materials, procedure, controls, and expected observations.",
+     "a": "**Materials:** Test tubes, saliva solution, boiled saliva (control), 1% starch solution, 1% egg albumin (protein), iodine solution, biuret reagent, water bath at 37°C.  \n**Procedure:** (1) Label tubes: A (starch + saliva), B (starch + boiled saliva), C (albumin + saliva), D (albumin + boiled saliva). (2) Incubate 10 min at 37°C. (3) Test A & B with iodine: blue-black → no starch (A) vs blue-black persists (B). (4) Test C & D with biuret: violet → protein present (both).  \n**Expected:** Iodine test negative only in A (starch digested); biuret positive in both C & D (protein undigested).  \nA poor answer (e.g., missing boiled control, using Benedict's test for starch) reveals inability to design controlled experiments and confusion between tests for reducing sugars (Benedict's) vs starch (iodine).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_05_011",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_05_011",
+   "title": "c12_cs_cbse_05_011",
+   "questions": [
+    {
+     "q": "What is the key difference between INNER JOIN and LEFT JOIN in terms of rows returned from the left table?",
+     "a": "INNER JOIN returns only rows from the left table that have a matching row in the right table based on the join condition. LEFT JOIN returns all rows from the left table, and for rows with no match in the right table, the right-table columns appear as NULL. A wrong answer (e.g., \"LEFT JOIN returns only matching rows\") reveals the student confuses LEFT JOIN with INNER JOIN and does not understand the \"preserve left table\" semantics.",
+     "self_check": true
+    },
+    {
+     "q": "Consider tables `A(id, val)` and `B(id, val)`. Table A has rows (1,'a'), (2,'b'), (3,'c'). Table B has rows (1,'x'), (2,'y'). Write the result of `SELECT * FROM A LEFT JOIN B ON A.id = B.id` and explain why the row with id=3 appears.",
+     "a": "Result:\n| A.id | A.val | B.id | B.val |\n|------|-------|------|-------|\n| 1    | a     | 1    | x     |\n| 2    | b     | 2    | y     |\n| 3    | c     | NULL | NULL  |\nThe row with id=3 appears because LEFT JOIN preserves all rows from the left table (A). Since no row in B has id=3, the B columns are filled with NULL. A wrong answer that omits the third row or shows B.id=3 indicates the student thinks LEFT JOIN filters out non-matches like INNER JOIN.",
+     "self_check": true
+    },
+    {
+     "q": "Given tables `Products(PID, PName)` and `Orders(OID, PID, Qty)`. Write a query to list all products and their total ordered quantity, showing 0 for products never ordered. Use LEFT JOIN and aggregate functions.",
+     "a": "```sql\nSELECT P.PID, P.PName, COALESCE(SUM(O.Qty), 0) AS TotalQty\nFROM Products P\nLEFT JOIN Orders O ON P.PID = O.PID\nGROUP BY P.PID, P.PName;\n```\nSteps: 1) LEFT JOIN preserves all products. 2) For products with no orders, O.Qty is NULL. 3) SUM of NULL is NULL, so COALESCE converts to 0. 4) GROUP BY ensures one row per product. A wrong answer using INNER JOIN would exclude unordered products; using RIGHT JOIN with Orders as right table would also exclude them; forgetting COALESCE would show NULL instead of 0.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the result sets of `A LEFT JOIN B ON condition` and `B RIGHT JOIN A ON condition`. Are they identical? Justify with respect to column order and row content.",
+     "a": "Yes, they are logically identical in terms of rows and values: both return all rows from A and matching rows from B, with NULLs for non-matching B columns. However, the column order differs: LEFT JOIN lists A's columns first then B's; RIGHT JOIN lists B's columns first then A's. A student who says \"they are completely different\" confuses the preserved table; a student who says \"they are exactly the same\" ignores column ordering which matters in application code.",
+     "self_check": true
+    },
+    {
+     "q": "A developer writes `SELECT * FROM Table1 CROSS JOIN Table2` where Table1 has 10 rows and Table2 has 5 rows. The developer expects 15 rows. Evaluate this expectation and explain the correct result size.",
+     "a": "The expectation is wrong. CROSS JOIN produces the Cartesian product: 10 × 5 = 50 rows. Each row of Table1 pairs with every row of Table2. The developer likely confused CROSS JOIN with UNION (which would give 15 rows if no duplicates) or thought it adds rows. This reveals a fundamental misunderstanding of CROSS JOIN as a multiplicative operation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where CROSS JOIN is the appropriate choice, and write the SQL query. Explain why INNER/LEFT/RIGHT JOIN would not work.",
+     "a": "Scenario: A clothing store has `Sizes(SID, SizeName)` with values S, M, L, XL and `Colors(CID, ColorName)` with values Red, Blue, Green. They need a stock matrix showing every size-color combination to initialize inventory with zero quantity.\nQuery:\n```sql\nSELECT S.SizeName, C.ColorName, 0 AS InitialQty\nFROM Sizes S\nCROSS JOIN Colors C;\n```\nResult: 4 × 3 = 12 rows. INNER/LEFT/RIGHT JOIN require a matching condition between tables, but sizes and colors have no direct relationship – they are independent attributes. CROSS JOIN is the only way to generate all combinations. A poor answer might suggest using a dummy key or UNION, showing inability to recognize independent dimensions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_17_002",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_17_002",
+   "title": "c11_bio_cbse_17_002",
+   "questions": [
+    {
+     "q": "Name the muscle type that is both striated and involuntary, and state its exclusive location in the human body.",
+     "a": "Cardiac muscle; found only in the heart wall (myocardium). A wrong answer (e.g., \"smooth muscle\" or \"skeletal muscle\") reveals confusion between striation pattern and control mechanism — the student has not internalised that striation and voluntary control do not always go together.",
+     "self_check": true
+    },
+    {
+     "q": "A histology slide shows long, cylindrical, multinucleate fibres with clear cross-striations. The tissue was taken from the wall of the urinary bladder. Identify the muscle type and explain why this identification is impossible.",
+     "a": "The described fibres match skeletal muscle, but the urinary bladder wall contains only smooth (visceral) muscle. The scenario is contradictory; therefore, the slide cannot be from the urinary bladder. A wrong answer (e.g., \"it is skeletal muscle\") shows the student relies on a single feature (striation) and ignores location — a classic Class 11 error of not integrating all three classification criteria.",
+     "self_check": true
+    },
+    {
+     "q": "During a marathon, a runner's leg muscles fatigue while her heart continues beating rhythmically. Using the concepts of myoglobin content, mitochondrial density, and fatigue resistance, explain why cardiac muscle does not fatigue under normal aerobic conditions whereas skeletal muscle does.",
+     "a": "Cardiac muscle is rich in myoglobin and mitochondria (red fibres), enabling continuous aerobic ATP production; skeletal muscle contains a mix of red and white fibres — white fibres rely on anaerobic glycolysis, accumulate lactate, and fatigue rapidly. A wrong answer that attributes cardiac endurance solely to \"involuntary control\" misses the biochemical basis (myoglobin/mitochondria) taught in this chapter.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the nuclear arrangement in skeletal, smooth, and cardiac muscle fibres. How does this structural difference reflect their mode of growth and repair?",
+     "a": "Skeletal: multinucleate (syncytium from fusion of myoblasts) — permits hypertrophy but limited regeneration via satellite cells. Smooth: single central nucleus — retains mitotic capacity for hyperplasia (e.g., uterus in pregnancy). Cardiac: single central nucleus (mostly) — terminally differentiated, minimal regeneration; growth is hypertrophic. A wrong answer stating all three are uninucleate ignores the syncytial nature of skeletal muscle, a key distinction for understanding muscle repair.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since both skeletal and cardiac muscles are striated, they must contract via identical sliding filament mechanisms.\" Evaluate this statement.",
+     "a": "The statement is partially correct: the core sliding filament mechanism (actin-myosin cross-bridge cycling) is conserved. However, regulation differs — skeletal uses troponin-tropomyosin Ca²⁺ binding, while cardiac has additional modulation by Ca²⁺-induced Ca²⁺ release (CICR) and autonomic neurotransmitters. A wrong answer calling it \"fully correct\" overlooks the physiological differences in Ca²⁺ handling and neural control that are crucial for heart rhythm.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple microscopic observation protocol (stains, magnification, key features to note) that would allow a Class 11 student to distinguish the three muscle types in unlabelled histological sections.",
+     "a": "Use H&E stain at 400×. Skeletal: long parallel fibres, peripheral nuclei, clear A/I bands. Smooth: short spindle-shaped fibres, central nucleus, no striations. Cardiac: branching fibres, central nucleus, faint striations, intercalated discs (dark lines). A poor protocol that omits intercalated discs or nuclear position fails to separate cardiac from skeletal reliably.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

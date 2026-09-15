@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_06_002",
+   "title": "c11_phy_cbse_06_002",
+   "questions": [
+    {
+     "q": "State the formula for the velocity of the centre of mass of a system of n particles and give its SI unit.",
+     "a": "\\( \\vec{V}_{cm} = \\frac{\\sum_{i=1}^n m_i \\vec{v}_i}{M} \\), SI unit: m/s. A wrong answer (e.g., omitting the denominator M or using scalar addition) reveals the student has not grasped that centre-of-mass velocity is a mass-weighted average, not a simple arithmetic mean.",
+     "self_check": true
+    },
+    {
+     "q": "A child sits at one end of a long trolley moving uniformly on a smooth horizontal floor. The child gets up and runs about on the trolley. What happens to the speed of the centre of mass of the (trolley + child) system? Explain why.",
+     "a": "The speed of the centre of mass remains unchanged (equal to the initial trolley speed V). The forces between child and trolley are internal; no external horizontal force acts, so \\( \\vec{F}_{ext} = 0 \\Rightarrow \\vec{A}_{cm} = 0 \\). A student who says the speed changes confuses internal motion with centre-of-mass motion and ignores that frictionless floor implies zero external horizontal force.",
+     "self_check": true
+    },
+    {
+     "q": "Two particles of masses 2 kg and 3 kg move along the x-axis with velocities \\( 4 \\hat{i} \\) m/s and \\( -2 \\hat{i} \\) m/s respectively. Calculate the velocity of their centre of mass.",
+     "a": "Given: \\( m_1 = 2 \\) kg, \\( \\vec{v}_1 = 4 \\hat{i} \\) m/s; \\( m_2 = 3 \\) kg, \\( \\vec{v}_2 = -2 \\hat{i} \\) m/s. Total mass \\( M = 5 \\) kg.\n\\( \\vec{V}_{cm} = \\frac{2 \\times 4 \\hat{i} + 3 \\times (-2 \\hat{i})}{5} = \\frac{8 \\hat{i} - 6 \\hat{i}}{5} = \\frac{2 \\hat{i}}{5} = 0.4 \\hat{i} \\) m/s.\nUnit check: (kg·m/s)/kg = m/s ✓. A wrong sign or arithmetic error shows the student cannot handle vector addition with signs or mass-weighting.",
+     "self_check": true
+    },
+    {
+     "q": "A projectile of mass 5 kg is fired at 60° with speed 100 m/s. At the highest point it explodes into two fragments of masses 2 kg and 3 kg. The 2 kg fragment comes to rest immediately after explosion. Find the velocity of the 3 kg fragment just after explosion. (Take g = 10 m/s², ignore air resistance.)",
+     "a": "At highest point, projectile velocity is purely horizontal: \\( v_x = 100 \\cos 60° = 50 \\) m/s.\nInitial momentum: \\( \\vec{p}_i = 5 \\times 50 \\hat{i} = 250 \\hat{i} \\) kg·m/s.\nAfter explosion: 2 kg fragment has \\( \\vec{v}_1 = 0 \\), 3 kg fragment has \\( \\vec{v}_2 \\).\nConservation of momentum (no external horizontal force): \\( 250 \\hat{i} = 2 \\times 0 + 3 \\vec{v}_2 \\Rightarrow \\vec{v}_2 = \\frac{250}{3} \\hat{i} \\approx 83.3 \\hat{i} \\) m/s.\nA student who uses energy conservation or ignores the horizontal-only momentum conservation reveals confusion between elastic/inelastic processes and the vector nature of momentum.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"When a bomb at rest explodes into two pieces, the pieces fly in opposite directions with equal speeds because momentum is conserved.\" Evaluate this statement and correct it if necessary.",
+     "a": "The statement is **false**. Momentum conservation gives \\( m_1 \\vec{v}_1 + m_2 \\vec{v}_2 = 0 \\Rightarrow \\vec{v}_2 = -\\frac{m_1}{m_2} \\vec{v}_1 \\). Speeds are equal **only if masses are equal** (\\( m_1 = m_2 \\)). For unequal masses, the lighter piece has greater speed. A student who agrees has oversimplified momentum conservation to \"equal and opposite speeds\" instead of \"equal and opposite momenta\".",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a low-friction trolley, a ball, and a spring-loaded launcher to demonstrate that the centre of mass of the (trolley + ball) system moves with constant velocity when the ball is launched internally. Describe the measurements needed.",
+     "a": "Place a ball in a spring launcher fixed on a trolley on a smooth horizontal track. Release the spring so the ball shoots forward and the trolley recoils backward. Use a smartphone camera to record the motion. Track positions of trolley centre and ball frame-by-frame. Compute \\( x_{cm} = \\frac{m_{trolley} x_{trolley} + m_{ball} x_{ball}}{M} \\) for each frame. Plot \\( x_{cm} \\) vs time; it should be a straight line (constant velocity). A poor design would omit mass measurements, use a rough surface (external friction), or fail to track both objects simultaneously.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

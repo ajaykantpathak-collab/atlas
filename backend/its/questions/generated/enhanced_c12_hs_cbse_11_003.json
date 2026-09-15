@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_11_003",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_11_003",
+   "title": "c12_hs_cbse_11_003",
+   "questions": [
+    {
+     "q": "List the five steps of the management process in the correct sequential order as per NCERT Class 12 Home Science.",
+     "a": "Correct sequence: Planning → Organising → Implementing → Controlling → Evaluating.  \nA wrong answer (e.g., putting Controlling before Implementing, or omitting Evaluating) reveals that the student memorises isolated terms but does not grasp the logical flow: you cannot control what hasn't been implemented, and without evaluation the cycle cannot improve the next plan.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words the difference between \"Organising\" and \"Implementing\" in the management process. Give one concrete family example for each.",
+     "a": "Organising is the structural setup: allocating resources, creating roles, and establishing coordination mechanisms (e.g., dividing anniversary tasks into committees — food, decor, invitations — and assigning a head for each). Implementing is the actual execution of those assigned tasks (e.g., the food committee calling caterers, tasting menus, signing contracts).  \nA wrong answer that swaps the two (e.g., \"organising is doing the work\") shows confusion between designing the system and operating within it — a frequent error in board \"distinguish between\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "A family plans to reduce monthly electricity consumption by 20%. They set the target (Planning), buy LED bulbs and assign each member to switch off unused appliances (Organising), and start using appliances mindfully (Implementing). After two months, they compare the bill with the previous year but do not analyse which actions gave the most savings. Which management step is missing, and what is its specific purpose?",
+     "a": "The missing step is Evaluating. Its purpose is to assess the effectiveness of the implemented actions against the set goal, identify which strategies worked (e.g., LED bulbs saved 12%, behavioural changes saved 5%), and decide what to continue, modify, or discard for the next cycle.  \nA student who says \"Controlling is missing\" confuses monitoring (Controlling: checking weekly meter readings) with post-hoc analysis (Evaluating: judging overall success and learning). This distinction is tested in CUET case-studies and board \"explain the role of evaluation\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the management process in a family setting versus a small business. Identify two similarities and two differences in how the five steps are applied, focusing on resource types and decision-making authority.",
+     "a": "Similarities: (1) Both follow the same five-step cyclic sequence. (2) Both use Controlling to compare actual vs. planned performance.  \nDifferences: (1) Family resources include significant human/emotional resources (time, skills, relationships) alongside money/material; businesses prioritise financial/physical capital. (2) Family decisions are often consensual or hierarchical (parents decide), while businesses have formal authority structures (managers, boards).  \nA wrong answer that lists only superficial differences (e.g., \"family is smaller\") misses the conceptual nuance that the *process* is universal but *resource mix* and *authority* differ — a common board \"compare\" question trap.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement: \"Controlling and Evaluating are essentially the same step; doing one makes the other redundant.\" Defend your position with reference to the management cycle.",
+     "a": "The statement is false. Controlling is concurrent/ongoing: it monitors progress *during* implementation against short-term standards (e.g., weekly expense tracking during anniversary preparation) and triggers immediate corrective actions. Evaluating is terminal/periodic: it assesses *final* outcomes against the original goal *after* implementation (e.g., post-event review of guest satisfaction and budget variance) to generate learning for the *next* planning cycle.  \nA student who agrees with the statement fails to see the temporal and functional distinction: Controlling keeps the current plan on track; Evaluating improves the next plan. This exact confusion appears in board \"True/False with justification\" and JEE-style assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a complete five-step management plan for a family goal: \"Build an emergency fund of ₹1 lakh in 12 months.\" Specify at least two concrete actions for each step.",
+     "a": "**Planning**: (1) Set target: ₹1,00,000 in 12 months → ₹8,333/month. (2) Analyse income/expenses to identify ₹8,333 monthly surplus.  \n**Organising**: (1) Open a separate recurring deposit account. (2) Assign roles: father transfers surplus on salary day; mother tracks monthly savings.  \n**Implementing**: (1) Execute first transfer. (2) Adjust lifestyle (reduce dining out) to maintain surplus.  \n**Controlling**: (1) Check RD passbook monthly. (2) If shortfall > ₹1,000, identify cause and correct next month.  \n**Evaluating**: (1) At 12 months, verify ₹1 lakh reached. (2) Document lessons (e.g., \"auto-transfer worked, manual tracking failed\") for next goal (e.g., child's education fund).  \nA poor answer merges steps (e.g., \"open account and transfer money\" as one step) or omits feedback from Evaluating to future Planning, showing inability to operationalise the cycle — a key competency for CUET case-based questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

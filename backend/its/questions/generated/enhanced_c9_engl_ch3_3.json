@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_engl_ch3_3",
+ "concepts": [
+  {
+   "id": "enh:c9_engl_ch3_3",
+   "title": "c9_engl_ch3_3",
+   "questions": [
+    {
+     "q": "What are the two primary regions discussed in the \"Regional Variations\" section of the chapter, and what is the generic name for the hand fan in the text?",
+     "a": "The two regions are Rajasthan and Gujarat; the generic name is \"pankha.\" A wrong answer (e.g., naming Punjab or Uttar Pradesh, or using \"fan\" instead of \"pankha\") reveals the student has not read the specific section closely and is relying on general knowledge rather than textual evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the pankhas of Rajasthan and Gujarat differ in their basic shape and handle length.",
+     "a": "Rajasthani pankhas are typically rectangular with long handles to allow the user to sit farther from the fire in desert tents and to generate strong airflow in extreme heat; Gujarati pankhas are often circular with short handles because they are used in domestic or temple settings where space is limited and gentle, ceremonial fanning is needed. A wrong answer that focuses only on \"decoration\" or \"artisan preference\" misses the functional-adaptive link between climate/usage and design—a core board-level analytical skill.",
+     "self_check": true
+    },
+    {
+     "q": "The text states: \"The leheriya wave pattern on a Rajasthani pankha is not merely decorative.\" Apply the concept of 'form follows function' to explain what practical purpose this pattern might serve in a desert context.",
+     "a": "Step 1: Recall leheriya is a resist-dye technique creating wave patterns. Step 2: Connect waves to desert heat—waves increase surface area slightly and create micro-turbulence, improving air circulation efficiency. Step 3: Note the pattern also disguises dust/sand accumulation, maintaining appearance longer. Step 4: Conclude the pattern is a climate-adaptive feature. A wrong answer treating leheriya as purely aesthetic shows inability to apply functional analysis to craft design.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the decorative motifs of Rajasthani pankhas (geometric, leheriya) and Gujarati pankhas (mirror work/abhla, floral). Analyze what these motif choices reveal about the distinct cultural identities of the two regions.",
+     "a": "Rajasthani geometric/leheriya motifs reflect a martial, nomadic heritage valuing boldness, order, and resilience in harsh landscapes; Gujarati mirror work and floral motifs reflect a mercantile, temple-centric culture valuing light, reflection, and auspicious symbolism in a coastal trade hub. A wrong answer listing motifs without linking to cultural identity (e.g., \"Rajasthan likes geometry, Gujarat likes mirrors\") stays at surface description and fails the board's demand for interpretive depth.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The regional variations in pankhas are primarily driven by the availability of raw materials.\" Defend or refute using evidence from the text.",
+     "a": "Refute. While material availability matters (khejri wood in Rajasthan, palm leaf in Gujarat), the text emphasizes that *design choices* (handle length, shape, motif) are driven more by usage context (desert tent vs. temple/home), climate adaptation (dust, humidity), and cultural symbolism (leheriya for desert identity, abhla for divine light). A student who agrees reveals a reductionist \"material determinism\" misconception, ignoring the interplay of function, environment, and culture.",
+     "self_check": true
+    },
+    {
+     "q": "Create a Venn diagram with three overlapping circles labeled \"Rajasthani Pankha,\" \"Gujarati Pankha,\" and \"Shared Features.\" Populate each circle with at least two specific details from the text (e.g., materials, shape, motif, usage, symbolism).",
+     "a": "Rajasthani only: khejri wood frame, rectangular shape, long handle, leheriya pattern, used in desert tents. Gujarati only: palm leaf blade, circular shape, short handle, abhla (mirror) work, used in temples/homes. Shared: hand-operated cooling tool, traditional craft, status symbol, made by specialized artisans. A poor diagram with vague entries (\"wood,\" \"pretty\") shows the student cannot extract and categorize precise textual evidence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

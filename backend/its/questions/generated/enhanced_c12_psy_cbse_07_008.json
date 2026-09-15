@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_07_008",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_07_008",
+   "title": "c12_psy_cbse_07_008",
+   "questions": [
+    {
+     "q": "In Tajfel's Minimal Group Paradigm, what was the basis for assigning British schoolboys to the \"Kandinsky group\" or \"Klee group\"?",
+     "a": "The boys were grouped based on their stated preference for paintings by Vassily Kandinsky or Paul Klee — an aesthetic preference with no social, historical, or functional significance. A wrong answer (e.g., \"based on their existing friendships,\" \"based on academic ability,\" or \"random assignment without any criterion\") reveals the student confuses minimal groups with natural groups or random assignment, missing the critical point that the categorisation was *meaningful to the participant* (they chose a preference) but *meaningless in reality* (no real conflict or history).",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Tajfel's experiment proves that prejudice comes from competition over resources.\" Explain why this statement is incorrect using the specific design of the Minimal Group Paradigm.",
+     "a": "The statement is incorrect because the Minimal Group Paradigm explicitly *removed* competition over resources: boys allocated points/money using a matrix where ingroup and outgroup allocations were independent (no zero-sum trade-off), they never met other participants, and there was no history or future interaction. The bias occurred *without* resource competition. A wrong answer reveals the student conflates Realistic Conflict Theory (Sherif's Robbers Cave) with Tajfel's Social Identity Theory — a classic board exam confusion.",
+     "self_check": true
+    },
+    {
+     "q": "In the sample distribution matrix shown in NCERT Box 7.2, an ingroup member can receive points 7–19 while an outgroup member receives 1–25. If a participant chooses the pair (Ingroup: 13, Outgroup: 13), what does this choice indicate about their allocation strategy? What would choosing (Ingroup: 19, Outgroup: 25) indicate instead?",
+     "a": "(Ingroup: 13, Outgroup: 13) indicates *fairness/equality* strategy — maximising joint gain but ignoring group membership. (Ingroup: 19, Outgroup: 25) indicates *maximum joint profit* — the participant sacrifices ingroup advantage to maximise total money for both. The *ingroup favouritism* strategy (which Tajfel found most common) would be choosing a pair like (Ingroup: 19, Outgroup: 7) — maximising *difference* in favour of ingroup even at cost of absolute ingroup gain. A wrong answer shows the student cannot interpret the matrix as a measure of three distinct strategies: maximum ingroup profit, maximum difference, maximum joint profit.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"ingroup bias\" in Tajfel's minimal groups with \"ingroup bias\" in a natural group like a school cricket team. Identify two similarities and two differences in the *psychological mechanisms* driving the bias.",
+     "a": "Similarities: (1) Both involve social categorisation triggering \"we vs they\" distinction; (2) Both produce favouritism toward ingroup (e.g., allocating more resources, positive trait attribution). Differences: (1) Minimal group bias stems *only* from categorisation (cognitive mechanism: self-categorisation → social identity), while cricket team bias adds *interdependence, shared goals, history, and emotional investment* (motivational mechanisms: self-esteem enhancement, realistic conflict); (2) Minimal group bias is *fragile* — disappears if categorisation is removed — while natural group bias is *stable* due to accumulated shared experiences and institutionalised norms. A wrong answer that only lists surface features (e.g., \"one is artificial, one is real\") misses the theoretical distinction between cognitive vs. motivational origins of bias.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following claim: \"Tajfel's Minimal Group Paradigm proves that prejudice is innate and cannot be reduced.\" Use evidence from the paradigm's design and subsequent research to evaluate this claim.",
+     "a": "The claim is flawed. The paradigm shows prejudice *can emerge* from minimal categorisation — suggesting a *cognitive readiness* to categorise — but does not prove it is *innate* (genetically hardwired) or *immutable*. Evidence against immutability: (1) Bias reduces when categorisation is made salient as arbitrary (e.g., \"groups were assigned by coin toss\"); (2) Common ingroup identity model (Gaertner & Dovidio) shows recategorisation into a superordinate group (\"we are all participants\") reduces bias; (3) Contact under optimal conditions (Allport) reduces bias even in natural groups. The paradigm reveals a *baseline tendency*, not a fixed destiny. A wrong answer that agrees with the claim confuses \"easily triggered\" with \"biologically determined and unchangeable\" — a deterministic error common in competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"minimal group\" classroom activity for Class 6 students that would demonstrate ingroup favouritism within 30 minutes. Specify: (a) the trivial categorisation criterion, (b) the resource allocation task, (c) the predicted outcome, and (d) one ethical safeguard you would include.",
+     "a": "(a) Criterion: Preference for \"chocolate ice cream\" vs \"vanilla ice cream\" (revealed by secret ballot). (b) Task: Each child gets 10 stickers to distribute between two anonymous envelopes labeled \"Chocolate Group\" and \"Vanilla Group\" — they know only their own group. (c) Predicted outcome: Children will put more stickers in their own group's envelope (ingroup favouritism), replicating Tajfel. (d) Ethical safeguard: Explicit debriefing — \"The groups were just for a game; both flavures are equally good; we are all one class\" — plus pooling all stickers and redistributing equally afterward. A poor answer uses a sensitive criterion (e.g., skin colour, religion, gender), omits anonymity, or skips debriefing — violating ethical guidelines for minimal group research with children.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

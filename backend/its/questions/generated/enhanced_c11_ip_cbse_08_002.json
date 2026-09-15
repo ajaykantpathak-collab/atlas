@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_08_002",
+   "title": "c11_ip_cbse_08_002",
+   "questions": [
+    {
+     "q": "What is the standard convention for importing the pyplot module from Matplotlib in Python scripts?",
+     "a": "The standard convention is `import matplotlib.pyplot as plt`. A wrong answer (e.g., `import matplotlib.pyplot` without alias, or `from matplotlib import pyplot`) reveals that the student has not internalised the community‑wide alias `plt` used in almost all documentation, tutorials, and board‑exam solutions. This alias keeps code concise and readable.",
+     "self_check": true
+    },
+    {
+     "q": "Why is `plt.show()` necessary after calling `plt.plot()`? What happens if you omit it in a regular Python script (not a Jupyter notebook)?",
+     "a": "`plt.plot()` only builds the plot in memory; `plt.show()` starts the event loop that opens a window and renders the figure. In a plain `.py` script, omitting `plt.show()` produces no visible output and the program exits silently. A student who thinks the plot appears automatically misunderstands the separation between figure construction and display – a core concept in Matplotlib’s design.",
+     "self_check": true
+    },
+    {
+     "q": "Given `x = [1, 2, 3, 4]` and `y = [10, 20, 25, 30]`, write the complete Python code (including import) to display a line plot of y versus x.",
+     "a": "```python\nimport matplotlib.pyplot as plt\nx = [1, 2, 3, 4]\ny = [10, 20, 25, 30]\nplt.plot(x, y)\nplt.show()\n```\nA wrong answer may swap the order of arguments, forget `plt.show()`, or use incorrect indentation. This tests whether the student can translate a simple data pair into the minimal working workflow.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Matplotlib’s pyplot interface with MATLAB’s plotting commands. Identify two similarities and one key difference in how the figure is displayed.",
+     "a": "Similarities: both use `plot(x, y)` to draw lines and support MATLAB‑style commands like `xlabel`, `ylabel`, `title`. Difference: In MATLAB, the figure appears immediately after `plot()`; in Matplotlib you must explicitly call `plt.show()` (or use an interactive backend). A student who cannot articulate this difference likely treats pyplot as a black box without understanding its procedural, state‑machine nature.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following code and sees no plot window. Is this a syntax error? Explain why the plot does not appear.\n```python\nimport matplotlib.pyplot as plt\nplt.plot([1, 2, 3], [4, 5, 6])\n```",
+     "a": "It is not a syntax error; the code runs without exception. The plot does not appear because `plt.show()` is missing. In non‑interactive environments, Matplotlib requires an explicit call to `plt.show()` to render the figure. A student who calls this a syntax error confuses runtime behaviour with compile‑time errors, indicating a gap in understanding the execution model.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal Python script that plots the quadratic function y = x² for integer x values from -5 to 5. Include the import, data generation, plotting, and display steps.",
+     "a": "```python\nimport matplotlib.pyplot as plt\nx = list(range(-5, 6))          # [-5, -4, ..., 5]\ny = [xi**2 for xi in x]         # [25, 16, ..., 25]\nplt.plot(x, y)\nplt.show()\n```\nA poor answer might hard‑code the lists, forget the square operation, or omit `plt.show()`. This tests the ability to combine basic Python (list comprehension, range) with the Matplotlib workflow to create a new visualisation from a mathematical rule.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

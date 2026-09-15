@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_10_008",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_10_008",
+   "title": "c12_phy_cbse_10_008",
+   "questions": [
+    {
+     "q": "State Malus's law in words and give the mathematical formula with SI units for each quantity. What is the transmitted intensity when the angle between the pass-axes is 60° if the incident polarized intensity is 10 W/m²?",
+     "a": "Malus's law: The intensity of plane-polarized light transmitted through an analyzer is proportional to the square of the cosine of the angle between the polarization direction of the incident light and the pass-axis of the analyzer. Formula: \\(I = I_0 \\cos^2\\theta\\), where \\(I_0\\) = incident polarized intensity (W/m²), \\(I\\) = transmitted intensity (W/m²), \\(\\theta\\) = angle between pass-axes (rad or °). For \\(I_0 = 10\\ \\text{W/m}^2\\), \\(\\theta = 60^\\circ\\): \\(I = 10 \\times \\cos^2 60^\\circ = 10 \\times (0.5)^2 = 2.5\\ \\text{W/m}^2\\). A wrong answer (e.g., using \\(\\cos\\theta\\) instead of \\(\\cos^2\\theta\\) or forgetting to square) reveals the student does not understand the vector component projection: the electric field amplitude is reduced by \\(\\cos\\theta\\), so intensity (proportional to amplitude squared) goes as \\(\\cos^2\\theta\\).",
+     "self_check": true
+    },
+    {
+     "q": "Unpolarized light of intensity \\(I_{\\text{inc}}\\) falls on a polaroid P1. The transmitted light then passes through a second polaroid P2 whose pass-axis is at 30° to that of P1. A student claims the final intensity is \\(I_{\\text{inc}} \\cos^2 30^\\circ\\). Is this correct? Explain why or why not, and give the correct expression.",
+     "a": "The student's claim is incorrect. Unpolarized light incident on the first polaroid P1 transmits only the component along its pass-axis. Since the electric field vectors are randomly oriented, the average transmitted intensity is half the incident intensity: \\(I_1 = \\frac{1}{2} I_{\\text{inc}}\\). This light is now polarized along P1's pass-axis. When it passes through P2 at 30°, Malus's law gives \\(I_2 = I_1 \\cos^2 30^\\circ = \\frac{1}{2} I_{\\text{inc}} \\cos^2 30^\\circ\\). The student forgot the factor of 1/2 for the first polaroid. This error shows the student does not distinguish between unpolarized and polarized incident light on a polaroid.",
+     "self_check": true
+    },
+    {
+     "q": "Two polaroids P1 and P2 are crossed (pass-axes at 90°). A third polaroid P3 is inserted between them with its pass-axis at 45° to both P1 and P2. If unpolarized light of intensity 32 W/m² is incident on P1, calculate the intensity emerging from P2. Show all steps with units.",
+     "a": "Step 1: Unpolarized light on P1 → transmitted intensity \\(I_1 = \\frac{1}{2} \\times 32 = 16\\ \\text{W/m}^2\\) (polarized along P1).\nStep 2: P1 to P3 (angle 45°): \\(I_3 = I_1 \\cos^2 45^\\circ = 16 \\times \\left(\\frac{1}{\\sqrt{2}}\\right)^2 = 16 \\times \\frac{1}{2} = 8\\ \\text{W/m}^2\\) (polarized along P3).\nStep 3: P3 to P2 (angle 45°): \\(I_2 = I_3 \\cos^2 45^\\circ = 8 \\times \\frac{1}{2} = 4\\ \\text{W/m}^2\\).\nFinal answer: 4 W/m². A wrong answer (e.g., 0 W/m² because P1 and P2 are crossed) reveals the student does not realize that inserting a third polaroid at an intermediate angle allows transmission by rotating the polarization direction stepwise. This is a classic JEE trap.",
+     "self_check": true
+    },
+    {
+     "q": "A beam of plane-polarized light of intensity \\(I_0\\) is incident on a polaroid whose pass-axis makes an angle \\(\\theta\\) with the polarization direction. The transmitted beam then passes through a second identical polaroid whose pass-axis is at an angle \\(\\phi\\) relative to the first polaroid. Derive the expression for the final intensity in terms of \\(I_0, \\theta, \\phi\\). For what values of \\(\\theta\\) and \\(\\phi\\) is the final intensity maximum? Minimum?",
+     "a": "After first polaroid: \\(I_1 = I_0 \\cos^2\\theta\\) (polarized along first polaroid's axis). After second polaroid: \\(I_2 = I_1 \\cos^2\\phi = I_0 \\cos^2\\theta \\cos^2\\phi\\). Maximum intensity occurs when \\(\\cos^2\\theta = 1\\) and \\(\\cos^2\\phi = 1\\) i.e., \\(\\theta = 0^\\circ, 180^\\circ\\) and \\(\\phi = 0^\\circ, 180^\\circ\\) (both polaroids parallel to incident polarization and to each other). Minimum intensity (zero) occurs when either \\(\\cos\\theta = 0\\) (\\(\\theta = 90^\\circ\\)) or \\(\\cos\\phi = 0\\) (\\(\\phi = 90^\\circ\\)), i.e., when the first polaroid is crossed with the incident polarization or the second polaroid is crossed with the first. A wrong answer that gives maximum at \\(\\theta = \\phi = 45^\\circ\\) shows confusion between the angle of the first polaroid relative to the incident polarization and the angle between the two polaroids.",
+     "self_check": true
+    },
+    {
+     "q": "In an experiment, a student uses two polaroids and measures transmitted intensity at various angles. The data shows \\(I = 0\\) at \\(\\theta = 90^\\circ\\) and \\(I = I_{\\text{max}}\\) at \\(\\theta = 0^\\circ\\), but at \\(\\theta = 30^\\circ\\) the measured intensity is \\(0.6 I_{\\text{max}}\\) instead of the theoretical \\(0.75 I_{\\text{max}}\\). Evaluate possible reasons for this discrepancy. Which reason is most likely in a typical school lab?",
+     "a": "Possible reasons: (1) The polaroids are not ideal — they absorb some light even for the transmitted component (absorption loss). (2) The incident light is not perfectly monochromatic or perfectly collimated, causing partial depolarization. (3) The angle setting has a systematic error (e.g., the scale reads 30° but actual angle is larger). (4) The detector (photodiode/LDR) has a non-linear response. Most likely in a school lab: polaroid sheets are not perfect polarizers; they have a finite extinction ratio (typically 100:1 to 1000:1) and absorb 10–20% of the preferred polarization. This reduces the maximum transmitted intensity and also makes the minimum non-zero, flattening the \\(\\cos^2\\theta\\) curve. A student who blames only \"experimental error\" without specifying the physical limitation of the polaroid material shows lack of understanding of real-world polarizer imperfections.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using two polaroid sheets, a white LED torch, and a smartphone light sensor app to verify Malus's law. Describe the procedure, the data to be recorded, and how you would analyze the data to confirm the \\(\\cos^2\\theta\\) dependence. What precautions would you take to ensure the incident light is unpolarized?",
+     "a": "Procedure: (1) Place the LED torch facing the smartphone's light sensor (or use the phone's front camera with a light meter app). (2) Hold one polaroid (P1) fixed in front of the torch. (3) Hold the second polaroid (P2) between P1 and the sensor, and rotate P2 in steps of 10° from 0° to 180°. (4) Record the sensor reading (lux) at each angle. (5) Subtract the background reading (with torch off). (6) Plot normalized intensity \\(I/I_{\\text{max}}\\) vs \\(\\theta\\) and compare with \\(\\cos^2\\theta\\). To ensure incident light is unpolarized: use a standard white LED torch (not a laser) and verify that rotating a single polaroid in front of the torch (without P1) gives constant intensity. If intensity varies, the torch itself emits partially polarized light; use a diffuser (tracing paper) in front of the torch. A poor answer would omit background subtraction, angle calibration, or the check for unpolarized incident light, indicating the student does not understand experimental controls.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

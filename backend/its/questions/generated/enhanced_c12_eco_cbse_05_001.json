@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_05_001",
+   "title": "c12_eco_cbse_05_001",
+   "questions": [
+    {
+     "q": "State the condition for market equilibrium in a competitive market and define equilibrium price.",
+     "a": "Market equilibrium occurs when quantity demanded (Qd) equals quantity supplied (Qs) at a particular price. The equilibrium price is the price at which Qd = Qs, so there is no excess demand or excess supply. A wrong answer (e.g., \"equilibrium is when demand equals supply\" without specifying quantity, or \"equilibrium price is the average of all prices\") reveals the student confuses the curves with the quantities at a specific price, or thinks equilibrium is a range rather than a single price-quantity combination.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a price above the equilibrium price creates excess supply (surplus) and how the market responds to eliminate it.",
+     "a": "At a price above equilibrium, producers are willing to supply more (law of supply) but consumers demand less (law of demand), so Qs > Qd — a surplus. Unsold inventory builds up, so sellers compete by lowering prices. As price falls, Qd rises (movement along demand curve) and Qs falls (movement along supply curve) until Qd = Qs. A wrong answer (e.g., \"surplus causes price to rise\" or \"demand increases to match supply\") reveals confusion between movement along a curve vs. shift of a curve, or misunderstanding of the direction of price adjustment.",
+     "self_check": true
+    },
+    {
+     "q": "Given the demand function Qd = 120 – 10P and supply function Qs = 20 + 5P, calculate the equilibrium price and equilibrium quantity. Show all steps.",
+     "a": "Step 1: Set Qd = Qs → 120 – 10P = 20 + 5P.  \nStep 2: Add 10P to both sides → 120 = 20 + 15P.  \nStep 3: Subtract 20 → 100 = 15P.  \nStep 4: Divide by 15 → P = 100/15 = 20/3 ≈ ₹6.67.  \nStep 5: Substitute P into either equation: Qd = 120 – 10(20/3) = 120 – 200/3 = 160/3 ≈ 53.33 units.  \nEquilibrium price = ₹6.67, equilibrium quantity = 53.33 units. A wrong answer (e.g., P = 10, Q = 20) usually comes from sign errors (120 – 10P = 20 – 5P) or solving for Q instead of P first.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the equilibrium outcomes when (a) demand increases (curve shifts right) and (b) supply decreases (curve shifts left). Without calculating, describe the directional change in equilibrium price and quantity for each case.",
+     "a": "(a) Demand increase (rightward shift): At the original price, Qd > Qs → shortage → price rises → new equilibrium has higher price and higher quantity.  \n(b) Supply decrease (leftward shift): At the original price, Qs < Qd → shortage → price rises → new equilibrium has higher price but lower quantity.  \nKey difference: both raise price, but demand increase raises quantity while supply decrease lowers quantity. A wrong answer (e.g., \"both increase quantity\" or \"supply decrease lowers price\") shows the student cannot trace the chain: shift → disequilibrium → price adjustment → new equilibrium.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"If the government sets a minimum support price (MSP) for wheat above the equilibrium price, farmers will sell more wheat and consumers will buy more wheat, so everyone benefits.\" Evaluate this statement using the concept of market equilibrium.",
+     "a": "The statement is false. At a price floor (MSP) above equilibrium, Qs > Qd — a surplus emerges. Farmers *want* to sell more (higher Qs), but consumers buy *less* (lower Qd) due to the higher price. The actual quantity traded falls to Qd (the lower of the two). Farmers who cannot sell face unsold stock; consumers face higher prices and reduced consumption. The student ignores that quantity traded is determined by the *shorter side* of the market at the imposed price, and that a price floor creates inefficiency (deadweight loss). This misconception confuses \"quantity supplied\" with \"quantity traded.\"",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world example of a market (Indian context) where you observe a persistent shortage. Identify the price, the equilibrium price (estimated), and explain why the market price does not rise to clear the market.",
+     "a": "Example: Government-subsidized PDS (Public Distribution System) rice at ₹3/kg when the open-market equilibrium price is ₹35/kg. At ₹3/kg, quantity demanded far exceeds quantity supplied (shortage). The price cannot rise because it is legally fixed by the government (price ceiling). Rationing, queues, and black markets emerge as non-price allocation mechanisms. A good answer must name a specific price-controlled market, state both prices, and explain the binding price ceiling prevents the price adjustment mechanism. A poor answer describes a temporary shortage (e.g., onions during a crop failure) where price *does* rise, confusing disequilibrium with equilibrium.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

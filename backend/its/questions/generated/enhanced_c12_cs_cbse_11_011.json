@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_11_011",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_11_011",
+   "title": "c12_cs_cbse_11_011",
+   "questions": [
+    {
+     "q": "What is the output of `list({1, 2, 3})` and why does the order of elements in the resulting list not necessarily match the order in the set literal?",
+     "a": "The output is a list containing the elements 1, 2, 3 but in an arbitrary order (e.g., `[2, 1, 3]`). Sets in Python are unordered collections; the constructor `list()` iterates over the set in its internal hash order, which is not the same as the literal order. A wrong answer (e.g., `[1, 2, 3]`) reveals the misconception that sets preserve insertion order (true only for Python 3.7+ dicts, not sets).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why `dict([(1,2), (3,4)])` works but `dict([1,2,3,4])` raises a ValueError. What does each element of the input sequence represent in the first case?",
+     "a": "`dict()` expects an iterable of key-value pairs (each pair must be an iterable of length 2). In the first case, each tuple `(1,2)` and `(3,4)` is a key-value pair. In the second case, the integers 1, 2, 3, 4 are not iterables of length 2, so Python cannot unpack them into key and value. A wrong answer (e.g., \"it creates {1:2, 3:4}\") reveals confusion about the required input format for `dict()`.",
+     "self_check": true
+    },
+    {
+     "q": "Given `data = \"apple,banana,cherry\"`, write code to convert it into a list of words, then into a set, then back into a comma-separated string. Show the output at each step.",
+     "a": "```python\ndata = \"apple,banana,cherry\"\nlst = data.split(\",\")          # ['apple', 'banana', 'cherry']\nst = set(lst)                  # {'cherry', 'apple', 'banana'} (order may vary)\nresult = \",\".join(st)          # e.g., \"cherry,apple,banana\"\n```\nA wrong answer that assumes `set` preserves order or that `join` works directly on the original string reveals misunderstanding of set unorderedness and the need for an iterable of strings for `join`.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the outcomes of `tuple(\"hello\")` and `(\"hello\",)`. Why are they different? What does each produce?",
+     "a": "`tuple(\"hello\")` treats the string as an iterable of characters and produces `('h', 'e', 'l', 'l', 'o')`. `(\"hello\",)` is a tuple literal with one element — the string `\"hello\"` — producing `('hello',)`. A wrong answer (e.g., both produce the same) reveals confusion between iterating over a string vs. creating a singleton tuple.",
+     "self_check": true
+    },
+    {
+     "q": "A student wants to convert a list of temperatures `[25.5, 30.0, 25.5, 28.0]` into a structure that supports fast membership testing and automatically removes duplicates. They write `temps = set([25.5, 30.0, 25.5, 28.0])` and then try to access the first element with `temps[0]`. Explain why this fails and propose a correct approach if they also need ordered access by index.",
+     "a": "Sets are unordered and do not support indexing; `temps[0]` raises `TypeError`. If ordered index access is needed, convert to a list after deduplication: `unique_temps = list(set(temps_list))` (order not guaranteed) or use `dict.fromkeys(temps_list).keys()` to preserve insertion order (Python 3.7+). A wrong answer that suggests `temps[0]` works reveals the misconception that sets support subscripting like lists.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario where you would convert a dictionary to a list of tuples, then to a set, then back to a dictionary. Explain why each conversion is necessary in your scenario.",
+     "a": "Scenario: A voting system stores `votes = {\"Alice\": 120, \"Bob\": 95, \"Charlie\": 120}`. Step 1: `list(votes.items())` → `[('Alice',120), ('Bob',95), ('Charlie',120)]` to allow sorting by vote count. Step 2: `set(...)` → `{('Alice',120), ('Bob',95), ('Charlie',120)}` to remove duplicate vote-count pairs (if any). Step 3: `dict(...)` → back to dictionary for O(1) candidate lookup. A poor answer that omits the purpose of each step (e.g., \"just to practice\") reveals lack of understanding of the computational trade-offs each structure offers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

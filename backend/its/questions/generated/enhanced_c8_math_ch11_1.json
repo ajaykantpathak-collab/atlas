@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch11_1",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch11_1",
+   "title": "c8_math_ch11_1",
+   "questions": [
+    {
+     "q": "What does \"self-similarity\" mean in the context of fractals? Give one example from nature.",
+     "a": "Self-similarity means a shape looks similar to itself at different scales; a small part resembles the whole. Example: a fern frond — each leaflet looks like a miniature version of the whole frond. A wrong answer (e.g., \"it means the shape is symmetric\" or \"it means the pattern repeats exactly like wallpaper\") reveals confusion between symmetry/repetition and scale-invariant self-similarity.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the self-similarity of a coastline called \"statistical\" rather than \"exact\"? Explain using the idea of zooming in.",
+     "a": "Exact self-similarity means every small part is an identical copy of the whole (like in mathematical fractals). Coastlines have statistical self-similarity: the jaggedness at 1 km scale has the same statistical roughness as at 1 m scale, but the exact bays and peninsulas are not identical copies. A wrong answer (e.g., \"because coastlines are not perfectly symmetric\") shows the student hasn't grasped the distinction between exact geometric copying and statistical distribution of features across scales.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a tree where the trunk splits into 3 branches, each of those splits into 3 smaller branches, and each of those splits into 3 twigs. At each level, the branching angle and relative length are the same. Is this tree exactly self-similar or statistically self-similar? Justify your answer.",
+     "a": "This tree is exactly self-similar because the branching rule (3 branches, same angle, same length ratio) is applied identically at every scale without randomness. In nature, trees have statistical self-similarity because branching angles and lengths vary randomly. A wrong answer (e.g., \"statistical because it's a tree\") indicates the student thinks all natural objects are automatically statistical, missing that the student's drawing is a deterministic mathematical model.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the self-similarity in a cauliflower and a river network (like the Ganga-Brahmaputra delta). How are they similar and how do they differ in terms of the branching process?",
+     "a": "Both show statistical self-similarity: cauliflower florets branch into smaller florets; river networks branch into tributaries. Similarity: both use repeated branching to fill space efficiently. Difference: cauliflower branching is driven by biological growth rules (cell division), while river branching is driven by erosion and water flow physics — the former is more regular, the more irregular. A weak answer (e.g., \"both are fractals\") without comparing the generative processes shows surface-level recognition without analytical depth.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate says: \"A straight line is self-similar because if you zoom in, it still looks like a straight line. So a straight line is a fractal.\" Evaluate this statement and explain why it is correct or incorrect.",
+     "a": "The statement is incorrect. While a straight line is exactly self-similar (any segment is a scaled copy of the whole), fractals are defined as shapes with detail at arbitrarily small scales and typically non-integer dimension. A straight line has no detail at any scale — it is smooth and has topological dimension 1, same as its fractal dimension. Fractals have fractal dimension > topological dimension. A wrong evaluation (e.g., \"correct because it's self-similar\") shows the student equates self-similarity alone with being a fractal, missing the requirement of complexity at all scales.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple drawing rule (algorithm) that a Class 6 student could follow to create a statistically self-similar tree on paper. The rule must include randomness. Write the rule in 3-4 steps.",
+     "a": "Example rule: 1) Draw a vertical trunk of length 10 cm. 2) At the top, draw 2 or 3 branches (choose randomly) at angles between 20° and 50° from the trunk, each branch length = 0.6 × trunk length (multiply by a random factor between 0.5 and 0.7). 3) Repeat step 2 for each new branch, stopping when branch length < 1 cm. 4) Add small random wiggles to each segment. A poor answer (e.g., \"draw a tree with branches\") lacks algorithmic precision, randomness specification, or stopping condition — showing inability to translate the concept into a generative process.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

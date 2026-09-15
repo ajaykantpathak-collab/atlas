@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_english_u3_028",
+ "concepts": [
+  {
+   "id": "enh:c6_english_u3_028",
+   "title": "c6_english_u3_028",
+   "questions": [
+    {
+     "q": "What is the difference between an adjective and an adverb based on the words they describe?",
+     "a": "An adjective describes a noun (like 'green' leaf), whereas an adverb describes an action or verb (like 'slowly' falling). A wrong answer suggests the student confuses parts of speech; they might think both describe nouns, which ignores the 'action' aspect of adverbs.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence, \"The clever girl spoke softly,\" identify the adjective and the adverb and explain what each is describing.",
+     "a": "'Clever' is the adjective describing the noun 'girl', and 'softly' is the adverb describing the verb 'spoke'. A wrong answer shows the student cannot distinguish between who is performing the action and how the action is performed.",
+     "self_check": true
+    },
+    {
+     "q": "Complete the sentence with an appropriate adverb: \"The farmer planted the neem seeds _________.\"",
+     "a": "Possible answers: 'carefully', 'neatly', 'quickly'. To solve this, identify the verb 'planted' and choose a word ending in '-ly' that explains the manner of planting. A wrong answer suggests the student is choosing an adjective (like 'careful') instead of an adverb.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze this sentence: \"The bright sun shone brightly.\" Why is 'bright' an adjective and 'brightly' an adverb?",
+     "a": "'Bright' modifies the noun 'sun', while 'brightly' modifies the action 'shone'. A wrong answer indicates the student does not understand that changing the word form allows it to perform a different grammatical function.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the sentence: \"The medicine worked quick.\" Is this grammatically correct? Why or why not?",
+     "a": "It is incorrect because 'quick' is an adjective and should be the adverb 'quickly' to describe the verb 'worked'. A wrong answer reveals the student thinks adjectives can always describe actions, which is a common grammatical error.",
+     "self_check": true
+    },
+    {
+     "q": "Write two sentences about a kitchen spice: one using an adjective to describe the spice and one using an adverb to describe how you use it.",
+     "a": "Example: \"The 'yellow' turmeric is healthy.\" (Adjective). \"I 'carefully' add the spice to the pot.\" (Adverb). A poor answer would lack the noun-adjective or verb-adverb relationship.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_07_005",
+   "title": "c12_acc_cbse_07_005",
+   "questions": [
+    {
+     "q": "What is the correct Balance Sheet heading and sub-heading for 'Unclaimed Dividend' as per Schedule III of the Companies Act, 2013?",
+     "a": "Unclaimed Dividend is shown under **Equity and Liabilities → Current Liabilities → Other Current Liabilities**. A wrong answer (e.g., placing it under 'Short-term Provisions' or 'Trade Payables') reveals confusion between a statutory unpaid dividend liability and routine trade payables or provisions.",
+     "self_check": true
+    },
+    {
+     "q": "A company forfeited 200 shares of ₹10 each, ₹8 called up, on which the shareholder had paid ₹5 per share. The Forfeited Shares Account will be credited with ₹1,000. Explain why this amount is NOT shown as a liability.",
+     "a": "The ₹1,000 (200 shares × ₹5) represents capital contributed by the defaulting shareholder that the company retains permanently; it becomes part of the company's equity, not an obligation to repay. Showing it as a liability misclassifies owners' contribution as an outsider's claim. A student who places it under Current Liabilities misunderstands the nature of forfeited amount as a capital receipt.",
+     "self_check": true
+    },
+    {
+     "q": "Pass the journal entry when unclaimed dividend of ₹75,000 is transferred to the Unpaid Dividend Account, and state the subsequent entry when ₹20,000 is claimed by a shareholder after 6 months.",
+     "a": "**Entry 1:** Debit Dividend Payable A/c ₹75,000; Credit Unpaid Dividend A/c ₹75,000.  \n**Entry 2:** Debit Unpaid Dividend A/c ₹20,000; Credit Bank A/c ₹20,000.  \nA wrong answer that debits 'Dividend A/c' (an expense) instead of 'Dividend Payable' reveals confusion between declaration (expense) and payment (liability discharge). Forgetting the second entry shows lack of understanding that the liability persists until paid.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the maximum discount allowed on reissue of forfeited shares with the credit balance in Forfeited Shares Account. If 100 forfeited shares (face value ₹10, ₹8 paid up) are reissued at ₹7 per share fully paid, calculate the discount and the amount transferred to Capital Reserve.",
+     "a": "Credit balance in Forfeited Shares Account = 100 × ₹8 = ₹800. Maximum discount allowed = ₹800. Reissue at ₹7 per share (fully paid) means discount = ₹10 - ₹7 = ₹3 per share × 100 = ₹300. Since discount (₹300) ≤ forfeited amount (₹800), it is allowed. Amount transferred to Capital Reserve = Forfeited amount - Discount = ₹800 - ₹300 = ₹500. A student who allows discount > forfeited amount or transfers wrong amount to Capital Reserve fails to grasp the linkage between forfeited credit and reissue discount limit.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Unclaimed Dividend and Forfeited Shares Account are both shown under Shareholders' Funds in the Balance Sheet.\" Defend your answer with Schedule III references.",
+     "a": "The statement is **false**. Unclaimed Dividend is a **Current Liability** (owed to shareholders, payable on demand) shown under 'Other Current Liabilities'. Forfeited Shares Account is part of **Shareholders' Funds** shown under 'Share Capital' (as a separate line item 'Add: Forfeited Shares'). Confusing the two indicates failure to distinguish between a liability to external parties and a component of equity.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini case: A company declares a dividend of ₹5,00,000 on 31st March 2024. By 30th April, ₹4,60,000 is paid. The remaining ₹40,000 is transferred to Unpaid Dividend Account. In 2025, ₹15,000 is claimed. In 2031, the balance is transferred to IEPF. Write all journal entries from declaration to IEPF transfer.",
+     "a": "**31.03.2024:** Debit Statement of P&L (Dividend) ₹5,00,000; Credit Dividend Payable ₹5,00,000.  \n**30.04.2024:** Debit Dividend Payable ₹4,60,000; Credit Bank ₹4,60,000.  \n**30.04.2024 (transfer):** Debit Dividend Payable ₹40,000; Credit Unpaid Dividend A/c ₹40,000.  \n**2025 (claim):** Debit Unpaid Dividend A/c ₹15,000; Credit Bank ₹15,000.  \n**2031 (IEPF):** Debit Unpaid Dividend A/c ₹25,000; Credit IEPF A/c ₹25,000.  \nA poor answer misses the initial declaration entry, omits the transfer to Unpaid Dividend Account, or forgets the IEPF transfer after 7 years — showing gaps in the full life-cycle understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

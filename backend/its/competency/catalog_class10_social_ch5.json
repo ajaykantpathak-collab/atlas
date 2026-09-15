@@ -1,0 +1,673 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 5,
+ "chapter_title": "Print Culture and the Modern World",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess305.txt",
+ "concepts": [
+  {
+   "id": "c10ss.5.1",
+   "title": "The First Printed Books",
+   "section": "The First Printed Books",
+   "definition": "The earliest kind of print technology was developed in China, Japan and Korea, where books were printed by rubbing paper against the inked surface of woodblocks; from hand-printing, the technology moved to mechanical printing, with the imperial state in China being the major producer of printed material for nearly five centuries.",
+   "formula": "",
+   "key_idea": "Print technology originated in East Asia through woodblock printing on paper, with China producing the earliest printed books long before mechanical printing reached Europe.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Where and how did the earliest kind of print technology develop?",
+    "Explain the woodblock printing technique used in China.",
+    "Why was the imperial state in China a major producer of printed material?",
+    "Describe the transition from hand-printing to mechanical printing.",
+    "What role did paper play in the development of print culture in China?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the origin of print technology",
+     "explain": "Note that the earliest print technology developed in China, Japan and Korea using woodblock printing on paper."
+    },
+    {
+     "step": 2,
+     "action": "Verify the technique",
+     "explain": "Check that books were printed by rubbing paper against the inked surface of woodblocks, a hand-printing method."
+    },
+    {
+     "step": 3,
+     "action": "Relate to state production",
+     "explain": "Confirm that the Chinese imperial state remained the major producer of printed material for nearly five centuries before mechanical printing emerged."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Where did the earliest kind of print technology develop?",
+     "solution": "The earliest kind of print technology developed in China, Japan and Korea, where books were printed by rubbing paper against the inked surface of woodblocks.",
+     "answer": "In China, Japan and Korea through woodblock printing."
+    },
+    {
+     "question": "Why was the imperial state in China a major producer of printed material?",
+     "solution": "The imperial state in China used print to run its bureaucratic system, issuing official decrees, textbooks for the civil service examinations and books for the educated elite, making it the largest producer of printed material for centuries.",
+     "answer": "The state used print for administration and civil service examinations."
+    },
+    {
+     "question": "How did paper contribute to the spread of print culture in China?",
+     "solution": "Paper reached Europe from China through the silk route, and the availability of cheap paper made hand-printing of books feasible, allowing print culture to grow in East Asia long before it reached Europe.",
+     "answer": "Cheap paper from China made hand-printing feasible and spread the technology."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the woodblock printing technique used in early China.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name the three countries where the earliest print technology developed.",
+     "type": "recall"
+    },
+    {
+     "question": "Why did the imperial state in China remain the major producer of printed material?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.5.2",
+   "title": "Print in Japan",
+   "section": "Print in Japan",
+   "definition": "Buddhist missionaries from China introduced hand-printing technology into Japan around AD 768-770; the oldest Japanese book, the Buddhist Diamond Sutra, was printed in AD 868, and by the seventeenth century urban printing in Edo (Tokyo) produced illustrated books for a growing literate public.",
+   "formula": "",
+   "key_idea": "Japan adopted woodblock printing through Buddhist missionaries from China and developed a flourishing illustrated print culture by the seventeenth century.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did print technology reach Japan?",
+    "Describe the oldest Japanese printed book and its significance.",
+    "Explain the growth of print culture in Japan by the seventeenth century.",
+    "What role did Buddhist missionaries play in spreading print in Japan?",
+    "How did illustrated books become popular in Edo (Tokyo)?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the introduction date",
+     "explain": "Note that Buddhist missionaries introduced hand-printing into Japan around AD 768-770.",
+     "compute": "intro_year = 768"
+    },
+    {
+     "step": 2,
+     "action": "Compute the age of the Diamond Sutra",
+     "explain": "Calculate how many years after introduction the oldest Japanese book was printed in AD 868.",
+     "compute": "gap = 868 - 768"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the growth",
+     "explain": "Relate the 100-year gap to the gradual spread of print culture leading to illustrated books in Edo by the seventeenth century.",
+     "compute": "years_to_oldest_book = 868 - 768"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did print technology reach Japan?",
+     "solution": "Buddhist missionaries from China introduced hand-printing technology into Japan around AD 768-770, bringing woodblock printing along with Buddhist texts.",
+     "answer": "Through Buddhist missionaries from China around AD 768-770."
+    },
+    {
+     "question": "What is the significance of the Buddhist Diamond Sutra printed in AD 868?",
+     "solution": "The Buddhist Diamond Sutra, printed in AD 868, is the oldest surviving Japanese printed book, showing that print technology had taken root in Japan within a century of its introduction.",
+     "answer": "It is the oldest surviving Japanese printed book (AD 868)."
+    },
+    {
+     "question": "Calculate the number of years between the introduction of print in Japan (AD 768) and the printing of the Diamond Sutra (AD 868).",
+     "solution": "Print was introduced around AD 768 and the Diamond Sutra was printed in AD 868. Gap = 868 - 768 = 100 years.",
+     "answer": "It took about 100 years (768 to 868)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the growth of print culture in Japan by the seventeenth century.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Who introduced print technology into Japan and when?",
+     "type": "recall"
+    },
+    {
+     "question": "Calculate the gap (in years) between the introduction of print in Japan (AD 768) and the rise of illustrated printing in Edo around AD 1600.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.5.3",
+   "title": "Print Comes to Europe",
+   "section": "Print Comes to Europe",
+   "definition": "Print technology reached Europe through trade and the silk route; by the fifteenth century woodblock printing was common in Europe for printing textiles and playing cards, and merchants and students began demanding cheaper books, leading to the development of a printing system with movable type.",
+   "formula": "",
+   "key_idea": "The demand for cheaper books from students, merchants and the growing literate public in fifteenth-century Europe drove the shift from woodblock printing to movable type printing.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did print technology reach Europe?",
+    "What were the early uses of woodblock printing in Europe?",
+    "Why did the demand for books increase in fifteenth-century Europe?",
+    "Explain the limitations of woodblock printing that led to movable type.",
+    "Describe the role of the silk route in bringing print to Europe."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Trace the route of print to Europe",
+     "explain": "Note that print technology reached Europe through trade and the silk route from China."
+    },
+    {
+     "step": 2,
+     "action": "Verify early uses",
+     "explain": "Check that by the fifteenth century woodblock printing was used in Europe for textiles, playing cards and religious pictures."
+    },
+    {
+     "step": 3,
+     "action": "Relate demand to innovation",
+     "explain": "Confirm that the growing demand for cheaper books from merchants and students created pressure to move beyond woodblock printing to movable type."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did print technology reach Europe?",
+     "solution": "Print technology reached Europe from China through merchants and travellers along the silk route, bringing knowledge of paper and woodblock printing by the fifteenth century.",
+     "answer": "Through trade and the silk route from China."
+    },
+    {
+     "question": "What were the early uses of woodblock printing in Europe?",
+     "solution": "By the fifteenth century woodblock printing was used in Europe to print textiles, playing cards and religious pictures with brief text, serving everyday and devotional needs.",
+     "answer": "For textiles, playing cards and religious pictures."
+    },
+    {
+     "question": "Why did the demand for books increase in fifteenth-century Europe?",
+     "solution": "The demand for books increased because of the rise of universities, a growing literate public, merchants needing accounts and students needing cheaper texts, which woodblock printing could not fully satisfy.",
+     "answer": "Due to universities, literacy and the need for cheaper texts."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the limitations of woodblock printing in Europe.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name two early uses of woodblock printing in Europe.",
+     "type": "recall"
+    },
+    {
+     "question": "How did the silk route contribute to the spread of print in Europe?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.5.4",
+   "title": "Gutenberg and the Printing Press",
+   "section": "Gutenberg and the Printing Press",
+   "definition": "Johann Gutenberg developed the first known printing press in the 1440s, adapting olive press technology and creating movable metal type; the first book he printed was the Bible in 1448, marking the shift from hand-copying to mechanical printing in Europe.",
+   "formula": "",
+   "key_idea": "Gutenberg's printing press, built by adapting the olive press and movable metal type, made the mass production of identical books possible and began the print revolution in Europe.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Describe the contribution of Johann Gutenberg to print culture.",
+    "How did Gutenberg adapt the olive press to make a printing press?",
+    "What was the first book printed by Gutenberg and why was it significant?",
+    "Explain the importance of movable metal type in printing.",
+    "Why is Gutenberg's printing press considered a turning point in European history?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify Gutenberg's innovation",
+     "explain": "Note that Gutenberg developed the first printing press in the 1440s using movable metal type adapted from the olive press.",
+     "compute": "press_decade = 1440"
+    },
+    {
+     "step": 2,
+     "action": "Compute the year of the first printed Bible",
+     "explain": "Calculate the year Gutenberg printed the first Bible, 1448.",
+     "compute": "first_bible = 1448"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the impact",
+     "explain": "Relate the 1448 Bible to the shift from hand-copying to mechanical mass production of books in Europe.",
+     "compute": "years_since_bible = 1448 - 1440"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Describe the contribution of Johann Gutenberg to print culture.",
+     "solution": "Johann Gutenberg developed the first known printing press in the 1440s by adapting the olive press and devising movable metal type, making it possible to print books quickly and cheaply; his first printed book was the Bible in 1448.",
+     "answer": "He invented the first printing press with movable metal type and printed the Bible in 1448."
+    },
+    {
+     "question": "How did Gutenberg adapt the olive press to make a printing press?",
+     "solution": "Gutenberg used the mechanism of the olive press, which pressed olives to extract oil, to press paper against inked metal type, creating a device that could print sheets of text uniformly and quickly.",
+     "answer": "He adapted the olive press to press paper against inked metal type."
+    },
+    {
+     "question": "Calculate the number of years between Gutenberg's first printing press (1440s) and the printing of the first Bible (1448).",
+     "solution": "The press was developed in the 1440s and the Bible was printed in 1448. Taking 1440 as the start, the gap is 1448 - 1440 = 8 years.",
+     "answer": "About 8 years (1440 to 1448)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What was the first book printed by Gutenberg and why was it significant?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the importance of movable metal type in printing.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name the technology Gutenberg adapted to build his printing press.",
+     "type": "recall"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.5.5",
+   "title": "The Print Revolution",
+   "section": "The Print Revolution and Its Impact",
+   "definition": "The print revolution, set off by Gutenberg's press, transformed the production of books from hand-copying by scribes to mechanical printing, drastically reducing the cost and time of producing books and making them accessible to a far wider public across Europe.",
+   "formula": "",
+   "key_idea": "The print revolution shifted book production from slow hand-copying to fast mechanical printing, making books cheaper and widely available and transforming social and intellectual life.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What was the print revolution and how did it begin?",
+    "How did the print revolution reduce the cost of books?",
+    "Explain the impact of the print revolution on the circulation of ideas.",
+    "Compare hand-copying by scribes with mechanical printing.",
+    "Why is the print revolution considered a major social change?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the shift in production",
+     "explain": "Note that the print revolution moved book production from hand-copying by scribes to mechanical printing using Gutenberg's press."
+    },
+    {
+     "step": 2,
+     "action": "Verify the reduction in cost and time",
+     "explain": "Check that mechanical printing produced many identical copies quickly, reducing both cost and labour per book."
+    },
+    {
+     "step": 3,
+     "action": "Relate to wider access",
+     "explain": "Confirm that cheaper books reached a wider public, circulating ideas faster and transforming social and intellectual life."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What was the print revolution?",
+     "solution": "The print revolution was the transformation of book production from hand-copying by scribes to mechanical printing after Gutenberg's press, which made books cheaper, faster to produce and available to a much larger public.",
+     "answer": "The shift from hand-copying to mechanical printing that made books widely affordable."
+    },
+    {
+     "question": "How did the print revolution reduce the cost of books?",
+     "solution": "Mechanical printing could produce hundreds of identical copies of a book in the time a scribe took to copy one, sharply reducing the labour and cost per book and making them affordable to more people.",
+     "answer": "By producing many identical copies quickly, cutting labour and cost per book."
+    },
+    {
+     "question": "Why is the print revolution considered a major social change?",
+     "solution": "The print revolution made books and ideas accessible to ordinary people, not just the rich and the clergy, fuelling new debates, religious questioning and the spread of knowledge across Europe.",
+     "answer": "It made ideas accessible to a wide public, fuelling debate and new thinking."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Compare hand-copying by scribes with mechanical printing.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the impact of the print revolution on the circulation of ideas.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name the inventor whose press began the print revolution.",
+     "type": "recall"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.5.6",
+   "title": "Reading Mania",
+   "section": "The Reading Mania",
+   "definition": "Through the seventeenth and eighteenth centuries the literacy rate went up in most parts of Europe, and churches of different denominations set up schools in villages, producing a reading mania among the common people who eagerly read books, pamphlets, almanacs and chapbooks.",
+   "formula": "",
+   "key_idea": "Rising literacy and village schools created a 'reading mania' in seventeenth and eighteenth century Europe, as common people sought cheap printed material for entertainment, information and devotion.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What was the 'reading mania' in Europe?",
+    "Why did literacy rates rise in seventeenth and eighteenth century Europe?",
+    "What kinds of printed material did common people read during the reading mania?",
+    "How did churches contribute to the spread of literacy?",
+    "Explain the role of chapbooks and almanacs in the reading mania."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the rise in literacy",
+     "explain": "Note that literacy rates rose across Europe through the seventeenth and eighteenth centuries as churches set up village schools."
+    },
+    {
+     "step": 2,
+     "action": "Verify the spread of cheap print",
+     "explain": "Check that common people read chapbooks, almanacs, pamphlets and ballads sold cheaply by pedlars."
+    },
+    {
+     "step": 3,
+     "action": "Relate to reading mania",
+     "explain": "Confirm that the combination of literacy and cheap print produced a widespread demand for reading material among ordinary people."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What was the 'reading mania' in Europe?",
+     "solution": "The reading mania was the eagerness for reading that spread through Europe in the seventeenth and eighteenth centuries as literacy rose and cheap printed material like chapbooks, almanacs and pamphlets became available to common people.",
+     "answer": "A widespread eagerness for reading among common people in 17th-18th century Europe."
+    },
+    {
+     "question": "Why did literacy rates rise in seventeenth and eighteenth century Europe?",
+     "solution": "Literacy rates rose because churches of different denominations set up schools in villages, and as people became literate they wanted books to read, further encouraging education.",
+     "answer": "Churches set up village schools, spreading literacy."
+    },
+    {
+     "question": "What kinds of printed material did common people read during the reading mania?",
+     "solution": "Common people read chapbooks (small cheap books), almanacs with weather forecasts and calendars, pamphlets on political and religious issues, and ballads printed on single sheets.",
+     "answer": "Chapbooks, almanacs, pamphlets and ballads."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How did churches contribute to the spread of literacy in Europe?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the role of chapbooks and almanacs in the reading mania.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name two types of cheap printed material popular during the reading mania.",
+     "type": "recall"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.5.7",
+   "title": "The Nineteenth Century",
+   "section": "The Nineteenth Century",
+   "definition": "In the nineteenth century the print industry expanded with hand presses giving way to power-driven cylindrical presses, cheap serialised novels and penny magazines reaching new working-class readers, and women and children becoming important new readers and writers.",
+   "formula": "",
+   "key_idea": "The nineteenth century saw mass production of cheap print through power-driven presses, creating new readers among the working class, women and children, and turning publishing into a major industry.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did printing technology change in the nineteenth century?",
+    "Explain the rise of serialised novels and penny magazines.",
+    "How did the working class become a new readership in the nineteenth century?",
+    "Describe the role of women as readers and writers in the nineteenth century.",
+    "Why did publishing become a major industry in the nineteenth century?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the technological change",
+     "explain": "Note that hand presses gave way to power-driven cylindrical presses in the nineteenth century, greatly increasing output."
+    },
+    {
+     "step": 2,
+     "action": "Verify the new readership",
+     "explain": "Check that cheap serialised novels, penny magazines and illustrated books reached working-class readers, women and children."
+    },
+    {
+     "step": 3,
+     "action": "Relate to the publishing industry",
+     "explain": "Confirm that mass production and new readers turned publishing into a major industry with growing profits."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did printing technology change in the nineteenth century?",
+     "solution": "In the nineteenth century hand presses were replaced by power-driven cylindrical presses that could print thousands of sheets per hour, and by the late nineteenth century offset presses allowed colour printing, greatly increasing the speed and volume of production.",
+     "answer": "Hand presses were replaced by power-driven cylindrical and offset presses."
+    },
+    {
+     "question": "Explain the rise of serialised novels and penny magazines.",
+     "solution": "Serialised novels were published in cheap instalments in magazines so that readers could buy a part each month, and penny magazines priced at one penny brought news, stories and illustrations to working-class readers who could not afford expensive books.",
+     "answer": "Cheap instalments and one-penny magazines reached working-class readers."
+    },
+    {
+     "question": "How did women become important new readers and writers in the nineteenth century?",
+     "solution": "As literacy spread among women, they became both readers and writers; penny magazines and novels were aimed at women, and women novelists like Jane Austen and the Bronte sisters began publishing widely read works.",
+     "answer": "Women became readers and prominent writers of novels and magazines."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the role of women as readers and writers in the nineteenth century.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How did the working class become a new readership in the nineteenth century?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name the type of press that replaced hand presses in the nineteenth century.",
+     "type": "recall"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.5.8",
+   "title": "India and the World of Print",
+   "section": "India and the World of Print",
+   "definition": "India had a rich tradition of hand-written manuscripts in Sanskrit, Arabic and Persian, but they were expensive and fragile; the first printing press was brought to Goa by Portuguese missionaries in the mid-sixteenth century, and by the late eighteenth century newspapers and books began to be printed in Indian languages.",
+   "formula": "",
+   "key_idea": "Print entered India through Portuguese missionaries in Goa, and over time replaced costly hand-written manuscripts with cheaper printed books in Indian languages.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Describe the tradition of manuscripts in India before printing.",
+    "How did the printing press reach India?",
+    "Why were manuscripts not widely used in India before print?",
+    "Explain the growth of printing in Indian languages in the late eighteenth century.",
+    "What role did missionaries play in introducing print to India?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the manuscript tradition",
+     "explain": "Note that India had hand-written manuscripts in Sanskrit, Arabic and Persian, but they were expensive, fragile and copied slowly."
+    },
+    {
+     "step": 2,
+     "action": "Compute the arrival of print",
+     "explain": "Calculate the century in which Portuguese missionaries brought the first press to Goa (mid-sixteenth century, around 1556).",
+     "compute": "press_arrival = 1556"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the spread",
+     "explain": "Relate the arrival of print to the growth of newspapers and books in Indian languages by the late eighteenth century.",
+     "compute": "spread_by_century = 18"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Describe the tradition of manuscripts in India before printing.",
+     "solution": "India had a rich tradition of hand-written manuscripts in Sanskrit, Arabic and Persian, produced in courts and monasteries, but they were expensive, fragile and could not be easily copied or circulated widely.",
+     "answer": "Costly hand-written manuscripts in Sanskrit, Arabic and Persian."
+    },
+    {
+     "question": "How did the printing press reach India?",
+     "solution": "The first printing press was brought to Goa by Portuguese missionaries in the mid-sixteenth century, around 1556, to print Christian texts and later other works.",
+     "answer": "Portuguese missionaries brought the first press to Goa around 1556."
+    },
+    {
+     "question": "Calculate the approximate number of years between the arrival of the press in Goa (1556) and the growth of printing in Indian languages by the late eighteenth century (around 1780).",
+     "solution": "The press arrived around 1556 and printing in Indian languages grew by around 1780. Gap = 1780 - 1556 = 224 years.",
+     "answer": "About 224 years (1556 to 1780)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why were manuscripts not widely used in India before print?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the growth of printing in Indian languages in the late eighteenth century.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name the place where the first printing press was set up in India.",
+     "type": "recall"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.5.9",
+   "title": "Religious Reform and Public Debates",
+   "section": "Religious Reform and Public Debates",
+   "definition": "From the early nineteenth century, print enabled religious reformers and orthodox sections to debate ideas through tracts and newspapers; Raja Rammohun Roy published the Sambad Kaumudi to campaign against sati, while orthodox Hindus published the Samachar Chandrika to defend tradition, making print a vehicle for public debate.",
+   "formula": "",
+   "key_idea": "Print created a new public sphere in nineteenth-century India where reformers and orthodox groups used newspapers and tracts to debate religious and social issues such as sati and widow remarriage.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did print enable religious reform in nineteenth-century India?",
+    "Describe the role of Raja Rammohun Roy and the Sambad Kaumudi.",
+    "How did orthodox groups respond to reformist publications?",
+    "Explain the significance of the Samachar Chandrika.",
+    "Why did print become a vehicle for public debate in India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the reformist publications",
+     "explain": "Note that Raja Rammohun Roy published the Sambad Kaumudi to campaign against sati and for reform."
+    },
+    {
+     "step": 2,
+     "action": "Verify the orthodox response",
+     "explain": "Check that orthodox Hindus published the Samachar Chandrika and other tracts to defend traditional practices and counter reformist arguments."
+    },
+    {
+     "step": 3,
+     "action": "Relate to public debate",
+     "explain": "Confirm that the exchange of printed tracts and newspapers created a public sphere for debating religious and social reform."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did print enable religious reform in nineteenth-century India?",
+     "solution": "Print allowed reformers like Raja Rammohun Roy to publish newspapers and tracts such as the Sambad Kaumudi to spread reformist ideas and campaign against practices like sati, reaching a wide literate public.",
+     "answer": "Reformers used newspapers and tracts to spread reformist ideas widely."
+    },
+    {
+     "question": "Describe the role of Raja Rammohun Roy and the Sambad Kaumudi.",
+     "solution": "Raja Rammohun Roy published the Bengali weekly Sambad Kaumudi from 1821 to campaign against sati and advocate social and religious reform, using print to mobilise public opinion.",
+     "answer": "Roy used the Sambad Kaumudi to campaign against sati and spread reform."
+    },
+    {
+     "question": "How did orthodox groups respond to reformist publications?",
+     "solution": "Orthodox Hindus countered reformist arguments by publishing newspapers like the Samachar Chandrika and tracts defending traditional customs, turning print into a battleground of ideas between reformers and conservatives.",
+     "answer": "They published the Samachar Chandrika and tracts to defend tradition."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the significance of the Samachar Chandrika.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why did print become a vehicle for public debate in India?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name the newspaper published by Raja Rammohun Roy.",
+     "type": "recall"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.5.10",
+   "title": "Censorship in Nineteenth-Century India",
+   "section": "Censorship and the Colonial State",
+   "definition": "The colonial government introduced censorship to control printed material critical of British rule; after the revolt of 1857 the Vernacular Press Act of 1878 was passed to silence criticism in Indian-language newspapers, while English-language papers remained free, showing the selective use of censorship.",
+   "formula": "",
+   "key_idea": "The colonial state used censorship laws like the Vernacular Press Act of 1878 to suppress criticism in Indian-language newspapers while allowing English-language papers greater freedom.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why did the colonial government introduce censorship in India?",
+    "Explain the provisions of the Vernacular Press Act of 1878.",
+    "How did Indian-language newspapers respond to censorship?",
+    "Why were English-language newspapers treated differently from vernacular papers?",
+    "Describe the relationship between the revolt of 1857 and censorship."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the cause of censorship",
+     "explain": "Note that after the revolt of 1857 the colonial government feared criticism in print and sought to control it.",
+     "compute": "revolt_year = 1857"
+    },
+    {
+     "step": 2,
+     "action": "Compute the year of the Vernacular Press Act",
+     "explain": "Calculate the year the Vernacular Press Act was passed, 1878.",
+     "compute": "vpa_year = 1878"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the gap",
+     "explain": "Relate the 21-year gap between the revolt and the Act to the growing fear of vernacular criticism of British rule.",
+     "compute": "gap = 1878 - 1857"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why did the colonial government introduce censorship in India?",
+     "solution": "The colonial government introduced censorship because it feared that printed criticism in newspapers and tracts could incite rebellion, especially after the revolt of 1857, and sought to control anti-British publications.",
+     "answer": "To control printed criticism, especially after the revolt of 1857."
+    },
+    {
+     "question": "Explain the provisions of the Vernacular Press Act of 1878.",
+     "solution": "The Vernacular Press Act of 1878 gave the government the right to confiscate the press of any Indian-language newspaper that published material criticising the British or inciting disaffection, without giving the publisher a right to a trial.",
+     "answer": "It allowed confiscation of vernacular presses publishing anti-British material without trial."
+    },
+    {
+     "question": "Calculate the number of years between the revolt of 1857 and the Vernacular Press Act of 1878.",
+     "solution": "The revolt took place in 1857 and the Act was passed in 1878. Gap = 1878 - 1857 = 21 years.",
+     "answer": "21 years (1857 to 1878)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How did Indian-language newspapers respond to censorship?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why were English-language newspapers treated differently from vernacular papers?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Calculate the gap (in years) between the revolt of 1857 and the Vernacular Press Act of 1878.",
+     "type": "compute"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_08_002",
+   "title": "c12_eng_k_cbse_08_002",
+   "questions": [
+    {
+     "q": "What is the stanza-by-stanza logical progression in *The Divine Image*? Describe what each of the four stanzas accomplishes in advancing the poem's argument.",
+     "a": "Correct answer: Stanza 1 establishes the four virtues (Mercy, Pity, Peace, Love) as objects of prayer in distress. Stanza 2 equates these virtues with God the Father and Man as His child. Stanza 3 embodies each virtue in human anatomy: heart, face, form divine, dress. Stanza 4 universalizes: all humans pray to this human form divine regardless of religion. A wrong answer that merely lists themes or quotes lines without showing the *progression* reveals the student sees the poem as a static list rather than a dynamic argument — they miss how each stanza builds on the previous to expand from individual prayer to universal human unity.",
+     "self_check": true
+    },
+    {
+     "q": "How does *The Human Abstract* structurally mirror *The Divine Image* while inverting its meaning? Identify the specific parallel in each stanza pair.",
+     "a": "Correct answer: Stanza 1 parallels the virtue list but shows each virtue *depends* on its opposite (Pity needs Poverty, Mercy needs Misery). Stanza 2 parallels the God/Man equation but replaces divine peace with \"mutual fear\" and love with \"selfish loves.\" Stanza 3 parallels the human embodiment but shows Cruelty knitting a snare, watered by tears, growing Humility underfoot — a perversion of the virtues made flesh. Stanza 4 parallels universal application but locates the tree of Mystery/Deceit in the Human Brain instead of the human form divine. A wrong answer that only notes \"they're opposite\" without mapping stanza-to-stanza parallels reveals the student hasn't grasped Blake's deliberate architectural irony — the structure *is* the argument.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"narrative arc\" to *The Human Abstract*: trace how the poem moves from abstract concept to concrete image to final revelation. What is the turning point?",
+     "a": "Correct answer: The poem begins with abstract logic (stanza 1: virtues require suffering), moves to psychological mechanism (stanza 2: fear → selfishness → cruelty), materializes as a growing tree with organic imagery (stanza 3: root, shade, caterpillar, fly), and culminates in the explicit location \"the Human Brain\" (stanza 4). The turning point is stanza 3's \"He sits down with holy fears\" — the shift from abstract conditions to a deliberate human agent cultivating cruelty. A wrong answer that identifies the turning point as stanza 4 reveals the student confuses *revelation* with *turning point* — they don't see that the active cultivation of evil begins earlier, when \"holy fears\" become the water for cruelty's growth.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how Blake uses the \"tree\" metaphor in *The Human Abstract* to structure the poem's final movement. Why does the tree grow in the Human Brain rather than in nature?",
+     "a": "Correct answer: The tree structures stanza 3-4 as organic growth: root (Humility) → shade (Mystery) → fruit (Deceit) → nest (Raven). This biological progression mirrors how abstract virtues become concrete evils through human psychology. It grows in the Human Brain because Blake argues these distortions are not external forces but internal mental constructions — the \"Gods of earth and sea\" search nature in vain because the source is human cognition itself. A wrong answer that treats the tree as mere decoration or general symbol of evil reveals the student misses Blake's precise claim: the narrative structure *enacts* the psychological process — the poem's form mimics the mind's self-deception.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Blake's two poems have identical structure, so they must be making the same argument in opposite directions.\" Defend or refute with evidence from both poems' narrative architecture.",
+     "a": "Correct answer: Refute. Identical structure ≠ same argument inverted. *The Divine Image* uses additive structure (each stanza expands the circle: virtues → God → human form → all humanity). *The Human Abstract* uses generative structure (each stanza *produces* the next: suffering → fear → cruelty → tree → brain). The first builds upward toward unity; the second grows downward into complexity. The parallel structure serves to *expose* how the same conceptual categories yield opposite outcomes based on human agency. A wrong answer that agrees reveals the student equates structural similarity with semantic equivalence — they miss that Blake uses form to demonstrate how *process* differs from *mirroring*.",
+     "self_check": true
+    },
+    {
+     "q": "Create a two-stanza poem that uses *The Divine Image*'s additive structure (expanding circle) to argue a modern idea, then write a companion stanza-pair using *The Human Abstract*'s generative structure (producing consequences) to undermine it. Explain your structural choices.",
+     "a": "Expected criteria: First poem: Stanza 1 states core values (e.g., Justice, Truth, Care, Trust). Stanza 2 links to universal source. Stanza 3 embodies in human terms. Stanza 4 universalizes across difference. Second poem: Stanza 1 shows each value requires its violation. Stanza 2 shows psychological mechanism corrupting them. Stanza 3 grows concrete metaphor of corruption. Stanza 4 locates source in human mind. A poor answer that just writes \"opposite poems\" without replicating the *specific structural logic* (additive vs. generative) reveals the student can mimic surface contrast but hasn't internalized how narrative architecture *performs* the argument.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

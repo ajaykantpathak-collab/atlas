@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_13_006",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_13_006",
+   "title": "c11_phy_cbse_13_006",
+   "questions": [
+    {
+     "q": "State the formula for the time period of a spring-mass system and write the SI unit of each quantity in the formula.",
+     "a": "T = 2π√(m/k), where T is period in seconds (s), m is mass in kilograms (kg), and k is spring constant in newtons per meter (N/m). A wrong answer (e.g., T = 2π√(k/m) or missing the 2π) reveals confusion between the spring-mass system and the simple pendulum formula, or a misunderstanding that angular frequency ω = √(k/m) not √(m/k).",
+     "self_check": true
+    },
+    {
+     "q": "A vertical spring-mass system oscillates with period T on Earth. If the same system is taken to the Moon (g_moon = g_earth/6), will the period change? Explain why or why not using the force equation.",
+     "a": "The period does NOT change. In a vertical spring, gravity shifts the equilibrium position (mg = kx₀) but the net restoring force for a displacement x from equilibrium is still -kx, independent of g. The equation of motion remains m(d²x/dt²) = -kx, so ω = √(k/m) and T = 2π√(m/k). A student who says the period increases on the Moon incorrectly thinks gravity appears in the period formula, confusing it with the simple pendulum T = 2π√(L/g).",
+     "self_check": true
+    },
+    {
+     "q": "A block of mass 0.5 kg is attached to a horizontal spring of spring constant 200 N/m on a frictionless table. The block is pulled 10 cm from equilibrium and released. Calculate the time period of oscillation.",
+     "a": "Given: m = 0.5 kg, k = 200 N/m. T = 2π√(m/k) = 2π√(0.5/200) = 2π√(0.0025) = 2π × 0.05 = 0.314 s. Amplitude (10 cm) is not used because period is amplitude-independent for SHM. A wrong answer using amplitude (e.g., T = 2π√(x/g)) shows confusion with the pendulum formula or a belief that period depends on amplitude.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical springs of spring constant k are attached to a mass m in two configurations: (a) parallel (both attached to the mass on the same side) and (b) series (one after the other). Compare the periods T_parallel and T_series. Which is larger and by what factor?",
+     "a": "For parallel: k_eq = 2k → T_parallel = 2π√(m/(2k)). For series: 1/k_eq = 1/k + 1/k = 2/k → k_eq = k/2 → T_series = 2π√(m/(k/2)) = 2π√(2m/k). T_series / T_parallel = √(2m/k) / √(m/(2k)) = √4 = 2. So T_series is twice T_parallel. A student who says they are equal or reverses the ratio misunderstands how spring constants add in series vs parallel.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If you double the mass on a spring, the period doubles because T ∝ m.\" Evaluate this statement and correct it.",
+     "a": "The statement is incorrect. T = 2π√(m/k) shows T ∝ √m, not ∝ m. Doubling mass increases period by factor √2 ≈ 1.414, not 2. The student likely forgot the square root or confused the linear relationship in T = 2π√(L/g) for a pendulum (where T ∝ √L) with a direct proportion. This reveals a lack of algebraic manipulation practice with square-root dependencies.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a spring, a set of known masses, and a stopwatch to determine the spring constant k of the spring. Describe the procedure, measurements, and the graph you would plot to find k.",
+     "a": "Hang the spring vertically, attach a mass, measure the period T for 20 oscillations, repeat for 5 different masses. Plot T² vs m; the slope = 4π²/k, so k = 4π²/slope. A good answer includes: (1) measure time for multiple oscillations to reduce error, (2) use small amplitudes to ensure SHM, (3) plot T² on y-axis, m on x-axis. A poor answer measures only one mass, uses large amplitudes, or plots T vs m (non-linear), showing lack of understanding of linearization and error reduction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

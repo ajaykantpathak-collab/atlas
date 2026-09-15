@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_02_008",
+   "title": "c12_phy_cbse_02_008",
+   "questions": [
+    {
+     "q": "Define polarization P and state its SI unit. What is the relation between P, electric susceptibility χₑ, and the electric field E inside a linear isotropic dielectric?",
+     "a": "Polarization P is the net dipole moment per unit volume of a dielectric (SI unit: C·m/m³ = C/m²). For linear isotropic dielectrics, P = ε₀χₑE, where χₑ is the dimensionless electric susceptibility. A wrong answer (e.g., P = χₑE without ε₀, or unit as C·m) reveals confusion between dipole moment of a single molecule and polarization density, or missing ε₀ in the constitutive relation.",
+     "self_check": true
+    },
+    {
+     "q": "A non-polar molecule (like O₂) has no permanent dipole moment. When placed in a uniform external electric field E₀, it develops an induced dipole moment. Explain why the displacement of positive and negative charges stops at a certain separation, and why the induced dipole moment is proportional to E₀ for small fields.",
+     "a": "The external force qE₀ on each charge is balanced by the internal restoring force (due to the molecular electron cloud acting like a spring). At equilibrium, displacement x ∝ E₀, so induced dipole moment p = qx ∝ E₀. A wrong answer (e.g., \"charges separate indefinitely\" or \"dipole moment is constant\") shows misunderstanding of the restoring force and the linear response assumption for linear dielectrics.",
+     "self_check": true
+    },
+    {
+     "q": "A parallel plate capacitor with plate area A = 2.0 × 10⁻² m² and separation d = 1.0 mm is charged to Q = 5.0 μC and then disconnected from the battery. A dielectric slab of thickness t = 0.5 mm and dielectric constant K = 4 is inserted between the plates, filling the gap partially. Calculate (a) the electric field in the dielectric, (b) the electric field in the air gap, and (c) the potential difference across the plates.",
+     "a": "Given: A = 2.0×10⁻² m², d = 1.0 mm = 1.0×10⁻³ m, Q = 5.0 μC = 5.0×10⁻⁶ C, t = 0.5 mm = 5.0×10⁻⁴ m, K = 4.\nσ = Q/A = 5.0×10⁻⁶ / 2.0×10⁻² = 2.5×10⁻⁴ C/m².\n(a) In dielectric: E_diel = σ/(Kε₀) = (2.5×10⁻⁴)/(4 × 8.85×10⁻¹²) = 7.06×10⁶ V/m.\n(b) In air gap (thickness d-t = 0.5 mm): E_air = σ/ε₀ = 2.5×10⁻⁴ / 8.85×10⁻¹² = 2.82×10⁷ V/m.\n(c) V = E_diel·t + E_air·(d-t) = (7.06×10⁶)(5.0×10⁻⁴) + (2.82×10⁷)(5.0×10⁻⁴) = 3530 + 14100 = 17630 V ≈ 1.76×10⁴ V.\nA wrong answer (e.g., using E = σ/ε₀ everywhere, or assuming E is uniform) reveals failure to apply boundary conditions for D = ε₀E + P and the fact that free charge density σ determines D, not E, in the dielectric.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical parallel plate capacitors are charged to the same potential difference V₀ and then disconnected from the battery. Capacitor 1 is filled with a dielectric of constant K=3; Capacitor 2 has a dielectric of constant K=6 inserted but only half the plate separation (t = d/2). Compare the final potential differences V₁ and V₂. Which capacitor stores more energy? Explain.",
+     "a": "For Capacitor 1: fully filled, C₁ = 3C₀, Q = C₀V₀ (initial). After insertion, Q constant, V₁ = Q/C₁ = V₀/3.\nFor Capacitor 2: partially filled (t = d/2, K=6). Equivalent to two capacitors in series: one with dielectric (thickness d/2, C_a = 2KC₀ = 12C₀), one air (thickness d/2, C_b = 2C₀). Series combination: 1/C₂ = 1/(12C₀) + 1/(2C₀) = (1+6)/(12C₀) = 7/(12C₀) → C₂ = (12/7)C₀ ≈ 1.714C₀. V₂ = Q/C₂ = V₀ / (12/7) = (7/12)V₀ ≈ 0.583V₀.\nSince V₁ < V₂, and U = Q²/(2C), U₁ = Q²/(6C₀), U₂ = Q²/(2×(12/7)C₀) = (7/24)Q²/C₀. U₁/U₂ = (1/6)/(7/24) = 4/7 < 1. So Capacitor 2 stores more energy. A wrong answer (e.g., V₁ = V₂, or U₁ > U₂) reveals misunderstanding of series combination of dielectrics and energy dependence on capacitance at constant charge.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"When a dielectric is inserted into a charged isolated capacitor, the electric field inside the dielectric becomes zero because the induced surface charges exactly cancel the field from the free charges, just like in a conductor.\" Evaluate this statement and correct the misconception.",
+     "a": "The statement is false. In a conductor, free charges move until E=0 inside. In a dielectric, only bound charges appear; they produce a field opposing the external field but cannot cancel it completely because there are no free charges to provide the exact cancellation. The net field is reduced by factor K: E = E₀/K (K>1, so E>0). The induced bound surface charge density is σₚ = σ(1 - 1/K), which is less than the free charge density σ. A student who agrees with the statement confuses dielectric polarization with electrostatic shielding in conductors.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a parallel plate capacitor, a battery, a dielectric slab (e.g., a plastic ruler), and an electroscope (or a high-impedance voltmeter) to demonstrate that inserting a dielectric increases capacitance. Describe the steps, what you measure, and the expected observation.",
+     "a": "Steps: (1) Charge the capacitor to voltage V₀ using the battery. (2) Disconnect the battery (isolate the capacitor). (3) Measure voltage V₀ with voltmeter. (4) Insert the dielectric slab fully between plates. (5) Measure new voltage V. Expected: V < V₀ because C increases (C = KC₀) and Q is constant (Q = C₀V₀ = CV → V = V₀/K). A good answer includes the isolation step (constant Q) and predicts voltage drop. A poor answer (e.g., keeping battery connected) measures constant V and misses the capacitance increase.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

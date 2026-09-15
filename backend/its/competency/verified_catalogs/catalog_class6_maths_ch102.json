@@ -1,0 +1,601 @@
+{
+ "class": 6,
+ "subject": "maths",
+ "chapter": 102,
+ "chapter_title": "Lines and Angles",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\fegp102.txt",
+ "concepts": [
+  {
+   "id": "fegp.2.1",
+   "title": "Point",
+   "section": "2.1",
+   "definition": "A marked spot that pins down one exact position; the spot itself carries no length, width or thickness.",
+   "formula": "",
+   "key_idea": "Shown as a dot and labelled with one capital letter -- pure position, no size.",
+   "textbook_ref": "fegp102.txt lines 14-25",
+   "question_patterns": [
+    "what is a point",
+    "how is a point denoted",
+    "does a point have length or breadth",
+    "identify the point in the figure",
+    "How much length does a point occupy?",
+    "Draw and label a point P."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the mark",
+     "explain": "A tiny dot represents a point which specifies a location."
+    },
+    {
+     "step": 2,
+     "action": "label the point with a capital letter",
+     "explain": "A point is named using a single capital letter such as P or A for easy reference."
+    },
+    {
+     "step": 3,
+     "action": "confirm the point has no size",
+     "explain": "A point marks pure position only -- it carries no length, width, or thickness."
+    }
+   ]
+  },
+  {
+   "id": "fegp.2.2",
+   "title": "Line Segment",
+   "section": "2.2",
+   "definition": "The straight, shortest route joining two given endpoints, with both endpoints belonging to it.",
+   "formula": "",
+   "key_idea": "A piece of a line with two definite ends; AB and BA name the very same piece.",
+   "textbook_ref": "fegp102.txt lines 30-45",
+   "question_patterns": [
+    "what is a line segment",
+    "name the line segments in the figure",
+    "how many end points does a line segment have",
+    "is AB the same as BA for a line segment",
+    "How many endpoints does a line segment AB have?",
+    "What do we call the shortest route joining two points?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify endpoints",
+     "explain": "A line segment is bounded by two points, usually labeled with capital letters."
+    },
+    {
+     "step": 2,
+     "action": "name the segment using both endpoints",
+     "explain": "The segment joining A and B is written as AB or BA -- both names refer to the same segment."
+    },
+    {
+     "step": 3,
+     "action": "confirm it is the shortest straight path between the endpoints",
+     "explain": "A line segment is the straight, shortest route joining its two endpoints, and both endpoints belong to it."
+    }
+   ]
+  },
+  {
+   "id": "fegp.2.3",
+   "title": "Line",
+   "section": "2.3",
+   "definition": "Given two points A and B, the straight path drawn through them runs on endlessly either way; we write it as AB with arrowheads at the two ends.",
+   "formula": "",
+   "key_idea": "No endpoints at all -- it continues forever either way. Countless distinct ones can share one single point, but exactly one is fixed by two points.",
+   "textbook_ref": "fegp102.txt lines 46-55",
+   "question_patterns": [
+    "define a line",
+    "how many lines can pass through two points",
+    "how many lines can pass through a single point",
+    "differentiate between a line and a line segment",
+    "How many distinct lines can be drawn through two given points?",
+    "What do the arrowheads on AB tell us about the drawing?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check for arrows",
+     "explain": "A line is represented with arrows on both ends to show infinite extension."
+    },
+    {
+     "step": 2,
+     "action": "confirm the line has no endpoints",
+     "explain": "Unlike a line segment, a line continues endlessly in both directions and has no fixed endpoints."
+    },
+    {
+     "step": 3,
+     "action": "verify uniqueness through two points",
+     "explain": "Exactly one line can be drawn through two given points, while countless lines can pass through a single point."
+    }
+   ]
+  },
+  {
+   "id": "fegp.2.4",
+   "title": "Ray",
+   "section": "2.4",
+   "definition": "Begin at a fixed end point and travel straight on forever one way -- that path is a ray, and the fixed end is its initial point.",
+   "formula": "",
+   "key_idea": "One endpoint plus endless travel a single way; ray OA cannot be rewritten as AO, because the first letter must name the endpoint.",
+   "textbook_ref": "fegp102.txt lines 57-70",
+   "question_patterns": [
+    "what is a ray",
+    "identify the starting point of the ray",
+    "can we write ray OA as AO",
+    "name the rays in the given diagram",
+    "Which letter names the fixed endpoint of ray OA?",
+    "Can the ray OA also be written as AO -- why not?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify start point",
+     "explain": "The first letter in the ray notation (e.g., O in OA) is the fixed starting point."
+    },
+    {
+     "step": 2,
+     "action": "confirm the ray extends endlessly in one direction",
+     "explain": "A ray has one endpoint but continues forever in the other direction, unlike a line which extends both ways."
+    },
+    {
+     "step": 3,
+     "action": "check that the order of letters cannot be reversed",
+     "explain": "Ray OA cannot be written as AO because the first letter must always name the fixed endpoint."
+    }
+   ]
+  },
+  {
+   "id": "fegp.2.5",
+   "title": "Angle",
+   "section": "2.5",
+   "definition": "Two rays launched from one shared endpoint form an angle; that shared endpoint is the vertex, and the two rays are its arms.",
+   "formula": "",
+   "key_idea": "Read it as the amount of turning between the two arms about their shared vertex.",
+   "textbook_ref": "fegp102.txt lines 105-120",
+   "question_patterns": [
+    "what is an angle",
+    "name the vertex and arms of the angle",
+    "how is an angle denoted",
+    "identify the angle in the figure",
+    "How many arms does an angle have?",
+    "What is the shared endpoint of the two arms called?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "locate vertex",
+     "explain": "The vertex is the common starting point of the two rays."
+    },
+    {
+     "step": 2,
+     "action": "identify arms",
+     "explain": "The two rays forming the angle are its arms."
+    },
+    {
+     "step": 3,
+     "action": "interpret the angle as the amount of turning",
+     "explain": "The angle measures how much one arm has turned away from the other about the shared vertex."
+    }
+   ]
+  },
+  {
+   "id": "fegp.2.8.1",
+   "title": "Straight Angle",
+   "section": "2.8",
+   "definition": "An opening whose two arms point exactly opposite ways, making one half-turn -- 180 degrees.",
+   "formula": "angle = 180",
+   "key_idea": "The arms settle along one straight path: two right-angle openings placed back to back.",
+   "textbook_ref": "fegp102.txt lines 245-255",
+   "question_patterns": [
+    "what is a straight angle",
+    "what is the degree measure of a straight angle",
+    "how many right angles make a straight angle",
+    "How much is a half-turn opening in degrees?",
+    "Calculate how many right angles fit into a straight opening."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate measure",
+     "explain": "A straight angle is half of a full rotation (360).",
+     "compute": "angle = 360 / 2"
+    },
+    {
+     "step": 2,
+     "action": "confirm the arms point in opposite directions",
+     "explain": "The two arms of a straight angle lie along one straight path, making a half-turn of 180 degrees."
+    },
+    {
+     "step": 3,
+     "action": "verify it equals two right angles",
+     "explain": "Since a right angle is 90 degrees, a straight angle holds exactly two right angles back to back.",
+     "compute": "right_angles = angle / 90"
+    }
+   ]
+  },
+  {
+   "id": "fegp.2.8.2",
+   "title": "Right Angle",
+   "section": "2.8",
+   "definition": "Take a half-turn opening and halve it again -- the 90-degree result is what we call a right angle.",
+   "formula": "angle = 90",
+   "key_idea": "The corner of a sheet of paper: exactly 90 degrees, a quarter of a full turn.",
+   "textbook_ref": "fegp102.txt lines 275-285",
+   "question_patterns": [
+    "what is a right angle",
+    "what is the measure of a right angle in degrees",
+    "how much of a full turn is a right angle",
+    "How much turn does a right angle cover?",
+    "Find the opening made when a half-turn is split into two equal parts."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate measure",
+     "explain": "A right angle is half of a straight angle (180).",
+     "compute": "angle = 180 / 2"
+    },
+    {
+     "step": 2,
+     "action": "confirm it is a quarter of a full turn",
+     "explain": "A full turn is 360 degrees, so a right angle covers one quarter of it.",
+     "compute": "fraction = angle / 360"
+    },
+    {
+     "step": 3,
+     "action": "verify against a familiar reference",
+     "explain": "The corner of a sheet of paper forms a right angle of exactly 90 degrees, confirming the result."
+    }
+   ]
+  },
+  {
+   "id": "fegp.2.9.1",
+   "title": "Angles in a Clock",
+   "section": "2.9",
+   "definition": "Consecutive numerals on a clock face are placed so that turning from one to the next sweeps 30 degrees.",
+   "formula": "angle = hours * 30",
+   "key_idea": "A dozen numerals split the 360-degree dial evenly, so neighbouring numerals span 30 degrees; at hour h the gap from the 12 mark is h x 30.",
+   "textbook_ref": "fegp102.txt lines 435-445",
+   "question_patterns": [
+    "what is the angle at 1 o'clock",
+    "calculate the angle between clock hands at 4 o'clock",
+    "find the angle at 6 o'clock",
+    "How much is the angle at 3 o'clock?",
+    "Calculate the gap between the hands at 8 o'clock."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine unit angle",
+     "explain": "The total 360 degrees is divided by 12 hours.",
+     "compute": "unit = 360 / 12"
+    },
+    {
+     "step": 2,
+     "action": "multiply by hours",
+     "explain": "Multiply the unit angle by the number of hour divisions.",
+     "compute": "angle = hours * unit"
+    },
+    {
+     "step": 3,
+     "action": "verify the result does not exceed 360 degrees",
+     "explain": "Since 12 hour marks cover the full 360-degree dial, the angle at any hour h is h*30 and stays within 0 to 360."
+    }
+   ]
+  },
+  {
+   "id": "fegp.2.11.1",
+   "title": "Acute Angle",
+   "section": "2.11",
+   "definition": "An opening narrower than 90 degrees but wider than nothing at all.",
+   "formula": "0 < angle < 90",
+   "key_idea": "Sharp and narrow: any opening between 0 and 90 degrees.",
+   "textbook_ref": "fegp102.txt lines 500-505",
+   "question_patterns": [
+    "define an acute angle",
+    "is 45 degrees an acute angle",
+    "classify an angle of 75 degrees",
+    "Is a 60 degree opening acute -- how much under 90 is it?",
+    "Classify an opening of 30 degrees."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare with 90",
+     "explain": "If the angle is less than 90 degrees, it is acute."
+    },
+    {
+     "step": 2,
+     "action": "confirm the angle is greater than 0",
+     "explain": "An acute angle must also be wider than 0 degrees, so it lies strictly between 0 and 90."
+    },
+    {
+     "step": 3,
+     "action": "classify the angle based on both bounds",
+     "explain": "Any opening satisfying 0 < angle < 90 is classified as acute, meaning it is sharper and narrower than a right angle."
+    }
+   ]
+  },
+  {
+   "id": "fegp.2.11.2",
+   "title": "Obtuse Angle",
+   "section": "2.11",
+   "definition": "An opening broader than 90 degrees yet short of a half-turn -- between 90 and 180 degrees.",
+   "formula": "90 < angle < 180",
+   "key_idea": "Blunt and wide: any opening just over 90 up to but not including 180 degrees.",
+   "textbook_ref": "fegp102.txt lines 510-515",
+   "question_patterns": [
+    "define an obtuse angle",
+    "is 120 degrees an obtuse angle",
+    "classify an angle of 150 degrees",
+    "How wide must an opening be to count as obtuse?",
+    "Classify an opening of 135 degrees."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare with 90 and 180",
+     "explain": "If the angle is between 90 and 180 degrees, it is obtuse."
+    },
+    {
+     "step": 2,
+     "action": "confirm the angle is strictly greater than 90",
+     "explain": "An obtuse angle must be wider than a right angle, so it exceeds 90 degrees."
+    },
+    {
+     "step": 3,
+     "action": "confirm the angle is strictly less than 180",
+     "explain": "An obtuse angle must be shorter than a half-turn, so it stays under 180 degrees, giving the range 90 < angle < 180."
+    }
+   ]
+  },
+  {
+   "id": "fegp.2.11.3",
+   "title": "Reflex Angle",
+   "section": "2.11",
+   "definition": "An opening larger than a half-turn yet short of a full turn -- between 180 and 360 degrees.",
+   "formula": "180 < angle < 360",
+   "key_idea": "The outside of a large opening: more than 180 but under 360 degrees; subtract the inner opening from 360 to obtain it.",
+   "textbook_ref": "fegp102.txt lines 520-525",
+   "question_patterns": [
+    "what is a reflex angle",
+    "is 210 degrees a reflex angle",
+    "calculate the reflex angle if the inner angle is 100",
+    "What is the reflex partner of an 80 degree opening?",
+    "Calculate the reflex opening when the inner one measures 65 degrees."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract from full turn",
+     "explain": "A reflex angle can be found by subtracting the inner angle from 360.",
+     "compute": "reflex = 360 - inner_angle"
+    },
+    {
+     "step": 2,
+     "action": "confirm the result lies between 180 and 360",
+     "explain": "A valid reflex angle must be greater than a half-turn (180) and less than a full turn (360)."
+    },
+    {
+     "step": 3,
+     "action": "verify the reflex and inner angles sum to 360",
+     "explain": "The reflex opening and the inner opening together make a full turn, so their sum should equal 360 degrees.",
+     "compute": "total = reflex + inner_angle"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fegp102.txt lines 435-440",
+   "concept": "fegp.2.9.1",
+   "question_type": "compute",
+   "question_pattern": "At {hours} o'clock, what is the angle between the hands?",
+   "extracted_variables": {
+    "hours": "the hour marked on the clock"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply hours by 30",
+     "explain": "Each hour represents a 30 degree rotation.",
+     "compute": "angle = hours * 30"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fegp102.txt lines 315-320",
+   "concept": "fegp.2.8.2",
+   "question_type": "compute",
+   "question_pattern": "Find the measure of a right angle.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify right angle measure",
+     "explain": "A right angle is exactly 90 degrees.",
+     "compute": "angle = 90"
+    }
+   ]
+  },
+  {
+   "concept": "fegp.2.8.1",
+   "question_pattern": "How many degrees does a half-turn opening measure?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the fixed value",
+     "explain": "one half-turn = 180 degrees",
+     "compute": "angle = 180"
+    }
+   ],
+   "id": "ex3",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.2.8.1",
+   "question_pattern": "How many right angles fit into a straight opening?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "set the straight opening",
+     "explain": "180 degrees",
+     "compute": "angle = 180"
+    },
+    {
+     "step": 2,
+     "action": "split it up",
+     "explain": "180 / 90 = 2",
+     "compute": "count = angle / 90"
+    }
+   ],
+   "id": "ex4",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.2.8.2",
+   "question_pattern": "What is the measure of a quarter turn?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the fixed value",
+     "explain": "a quarter turn = 90 degrees",
+     "compute": "angle = 90"
+    }
+   ],
+   "id": "ex5",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.2.8.2",
+   "question_pattern": "Find the opening made by halving a half-turn.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "set the half-turn",
+     "explain": "180 degrees",
+     "compute": "half_turn = 180"
+    },
+    {
+     "step": 2,
+     "action": "halve it",
+     "explain": "180 / 2 = 90",
+     "compute": "angle = half_turn / 2"
+    }
+   ],
+   "id": "ex6",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.2.9.1",
+   "question_pattern": "How much is the angle between the hands at {h} o'clock?",
+   "extracted_variables": {
+    "h": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "count the hour steps",
+     "explain": "5 steps of 30 degrees",
+     "compute": "angle = hours * 30"
+    }
+   ],
+   "id": "ex7",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.2.9.1",
+   "question_pattern": "Calculate the sweep from the 12 mark to the {h} mark.",
+   "extracted_variables": {
+    "h": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "count the hour steps",
+     "explain": "7 steps of 30 degrees",
+     "compute": "angle = hours * 30"
+    }
+   ],
+   "id": "ex8",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.2.11.3",
+   "question_pattern": "Find the reflex opening when the inner angle is {a} degrees.",
+   "extracted_variables": {
+    "a": "100"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract from a full turn",
+     "explain": "360 - 100 = 260",
+     "compute": "reflex = 360 - angle"
+    }
+   ],
+   "id": "ex9",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.2.11.3",
+   "question_pattern": "What is the reflex partner of a {a} degree opening?",
+   "extracted_variables": {
+    "a": "45"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract from a full turn",
+     "explain": "360 - 45 = 315",
+     "compute": "reflex = 360 - angle"
+    }
+   ],
+   "id": "ex10",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "2.4",
+   "source_ref": "fegp102.txt lines 75-100",
+   "questions": [
+    "How many lines can pass through a single point?",
+    "How many lines can pass through two points?",
+    "Name the line segments in Fig 2.4."
+   ]
+  },
+  {
+   "id": "2.11",
+   "source_ref": "fegp102.txt lines 550-565",
+   "questions": [
+    "Classify 140 degrees as acute, right, obtuse or reflex.",
+    "What is the angle between two spokes of the Ashoka Chakra?",
+    "Draw an angle of 112 degrees using a protractor."
+   ]
+  }
+ ],
+ "source_link": "re-linked to new cache"
+}

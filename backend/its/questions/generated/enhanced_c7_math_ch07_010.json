@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch07_010",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch07_010",
+   "title": "c7_math_ch07_010",
+   "questions": [
+    {
+     "q": "What does the term \"included angle\" mean when constructing a triangle using the SAS criterion?",
+     "a": "The included angle is the angle formed specifically at the vertex where the two given side lengths meet. A wrong answer—such as believing it is any of the three angles in the triangle—reveals a failure to recognize that the angle must physically connect the two given sides for the construction to be uniquely determined.",
+     "self_check": true
+    },
+    {
+     "q": "If you are given side $AB = 5\\text{ cm}$, side $BC = 7\\text{ cm}$, and $\\angle A = 50^\\circ$, can you uniquely construct this triangle using the SAS method? Why or why not?",
+     "a": "No, you cannot construct it using SAS because the given angle ($\\angle A$) is not the angle *between* the two given sides ($AB$ and $BC$). The included angle between $AB$ and $BC$ is $\\angle B$, not $\\angle A$. A wrong answer indicates confusion between adjacent and non-included angles in geometric descriptions.",
+     "self_check": true
+    },
+    {
+     "q": "Describe the exact second step you must perform after drawing the first side segment $XY = 6\\text{ cm}$ when constructing $\\triangle XYZ$ with $\\angle X = 60^\\circ$ and $XZ = 8\\text{ cm}$.",
+     "a": "Step 1: Draw base line segment $XY = 6\\text{ cm}$. Step 2: Place the center of the protractor at vertex $X$, align the baseline with segment $XY$, locate $60^\\circ$, make a pencil mark, and draw a ray starting from $X$ passing through that mark. A wrong answer usually suggests measuring the angle from vertex $Y$, which ignores that the angle must be at the vertex shared by both given sides ($X$).",
+     "self_check": true
+    },
+    {
+     "q": "Why is it impossible to construct a unique triangle if you are given two sides of lengths 4 cm and 9 cm and an included angle of $180^\\circ$?",
+     "a": "An angle of $180^\\circ$ forms a straight line, meaning the two sides would lie flat on top of each other instead of opening up to form a closed 3-sided polygon, resulting in a degenerate triangle (a straight line segment of length $13\\text{ cm}$). A wrong answer reveals a lack of spatial understanding regarding angle measures and polygon boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws $PQ = 7\\text{ cm}$, measures an angle of $45^\\circ$ at vertex $P$, and marks a length of $5\\text{ cm}$ along the ray to point $R$. They then measure the third side $QR$ and claim any student doing this in India will get a different length for $QR$. Evaluate this claim.",
+     "a": "The claim is false because SAS (Side-Angle-Side) guarantees triangle congruence; any accurate construction using the exact same measurements will result in a triangle of identical size and shape, meaning side $QR$ will be identical for everyone. A wrong answer shows a misunderstanding of geometric uniqueness and the properties of congruent triangles.",
+     "self_check": true
+    },
+    {
+     "q": "Design a construction challenge for your classmate where they must use the SAS method to draw a triangular garden plot with sides 5 meters and 7 meters, and an included angle of $90^\\circ$, specifying what scale factor they should use on paper.",
+     "a": "The student should specify a scale factor of $1\\text{ cm} = 1\\text{ metre}$ (drawing sides 5 cm and 7 cm) and instruct their classmate to construct a right-angled triangle where the $90^\\circ$ angle is placed between the 5 cm and 7 cm sides. A poor answer fails to provide a workable scale or misplaces the right angle relative to the given side lengths.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_06_006",
+   "title": "c11_phy_cbse_06_006",
+   "questions": [
+    {
+     "q": "A uniform rod of length L and weight W rests horizontally on two supports at its ends. A weight 2W is placed at a distance L/4 from the left end. What is the reaction force at the left support? (Answer in terms of W)",
+     "a": "The reaction at the left support is 5W/4 (or 1.25W). \nA wrong answer like 3W/2 reveals the student forgot to include the rod's own weight acting at its centre (L/2) when taking moments. A wrong answer like W reveals the student only considered the added weight 2W and ignored the rod's weight distribution. The correct approach: take moments about the right support — anticlockwise torques: R_left × L + W × L/2, clockwise torque: 2W × 3L/4. Equating gives R_left = 5W/4.",
+     "self_check": true
+    },
+    {
+     "q": "A ladder leans against a smooth vertical wall with its foot on a rough horizontal floor. The ladder is in equilibrium. Explain why the force exerted by the wall on the ladder must be purely horizontal (normal to the wall), while the force exerted by the floor on the ladder has both horizontal and vertical components.",
+     "a": "The wall is smooth (frictionless), so it can only exert a force perpendicular to its surface — horizontal. The floor is rough, so it can exert both a normal reaction (vertical) and a friction force (horizontal) to prevent the ladder foot from sliding outward. \nA wrong answer claiming the wall exerts a vertical force reveals confusion between \"smooth\" (frictionless) and \"rough\" surfaces. A wrong answer claiming the floor force is purely vertical reveals the student doesn't realize friction is needed to balance the horizontal wall reaction for translational equilibrium (ΣFx = 0).",
+     "self_check": true
+    },
+    {
+     "q": "A uniform beam of mass 20 kg and length 4 m is hinged to a wall at one end and held horizontal by a cable attached to the other end, making 30° with the beam. A 50 kg mass hangs from the beam at 1 m from the hinge. Find the tension in the cable. (g = 9.8 m/s²)",
+     "a": "Tension T = 1470 N (or 1.47 × 10³ N).\nSteps: (1) Forces: beam weight W_b = 196 N at 2 m from hinge, load weight W_L = 490 N at 1 m, tension T at 4 m at 30°. (2) Take moments about hinge (eliminates unknown hinge reaction): Στ = 0 → T(4 sin 30°) - W_b(2) - W_L(1) = 0. (3) T(2) = 196×2 + 490×1 = 392 + 490 = 882. (4) T = 441 N? Wait — recalc: 196×2 = 392, 490×1 = 490, sum = 882. T = 882/2 = 441 N. My earlier 1470 N was wrong — that would be if angle was with vertical. Correct answer: 441 N.\nA wrong answer of 882 N reveals the student used T × 4 instead of T × 4 sin 30° (forgetting the perpendicular component). A wrong answer of 220.5 N reveals the student used sin 30° = 0.5 but divided by 4 instead of 2.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical uniform rods AB and BC, each of mass m and length L, are smoothly hinged at B. End A rests on a rough horizontal floor, end C rests against a smooth vertical wall. The system is in equilibrium with each rod making angle θ with the horizontal. Compare the magnitude of the friction force at A with the normal reaction at A. How does this ratio depend on θ?",
+     "a": "Friction at A (f) = mg/2, Normal reaction at A (N_A) = mg. Ratio f/N_A = 1/2, independent of θ.\nReasoning: By symmetry, vertical forces on each rod: N_A = mg (for rod AB), wall reaction at C = mg/2 (for rod BC). Horizontal forces: f = wall reaction = mg/2. Ratio = (mg/2)/mg = 1/2.\nA wrong answer claiming ratio depends on θ reveals the student incorrectly included θ in moment arms when taking torques about B, not realizing the geometry makes the horizontal and vertical distances scale identically with θ. A wrong answer of f = mg reveals confusion between the two rods' free-body diagrams.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a ladder problem (uniform ladder, length L, mass m, angle θ with horizontal, smooth wall, rough floor) and writes the torque equation about the foot of the ladder as: N_wall × L sin θ = mg × (L/2) cos θ. They claim this gives N_wall = (mg/2) cot θ. Is this correct? If not, identify the error.",
+     "a": "The equation and result are CORRECT.\nTorque about foot: N_wall (horizontal) has perpendicular distance L sin θ (vertical height of top). Weight mg (vertical) has perpendicular distance (L/2) cos θ (horizontal distance of CM from foot). Both torques tend to rotate in opposite directions. Equating magnitudes gives N_wall L sin θ = mg (L/2) cos θ → N_wall = (mg/2) cot θ.\nA student who says this is wrong might mistakenly think the perpendicular distance for N_wall is L cos θ (horizontal distance) or for mg is (L/2) sin θ (vertical distance), confusing the geometry. The key is: perpendicular distance from pivot to line of action of force.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a metre scale, two spring balances, and a set of known weights to verify the principle of moments for a lever with non-perpendicular forces. Describe the setup, measurements, and how you would check if Στ = 0 holds.",
+     "a": "Setup: Clamp a metre scale horizontally on a stand with a pivot at the 50 cm mark. Attach two spring balances to the scale at 20 cm and 80 cm marks, pulling at angles (e.g., 30° and 60° to horizontal) with known forces F1 and F2. Hang a known weight W at 40 cm mark vertically downward. Adjust F1, F2, and angles until the scale remains horizontal (equilibrium). Measure all forces and angles. Calculate torques about pivot: τ1 = F1 × (30 cm) × sin(30°), τ2 = F2 × (30 cm) × sin(60°), τ_W = W × (10 cm). Check if τ1 + τ2 = τ_W (with appropriate signs for direction). Repeat for different configurations.\nA poor answer would use only vertical forces or ignore the sin θ factor for angled forces, revealing the student doesn't understand that only the perpendicular component of force contributes to torque.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

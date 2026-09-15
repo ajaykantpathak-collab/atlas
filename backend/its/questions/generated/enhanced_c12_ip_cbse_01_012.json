@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_01_012",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_01_012",
+   "title": "c12_ip_cbse_01_012",
+   "questions": [
+    {
+     "q": "What is the output of SELECT ROUND(283.2) in MySQL, and how does it differ from SELECT ROUND(283.2, 1)?",
+     "a": "ROUND(283.2) returns 283 (rounds to nearest integer when D is omitted or 0), while ROUND(283.2, 1) returns 283.2 (rounds to 1 decimal place). A wrong answer like \"both return 283\" reveals the student doesn't understand the optional second parameter D in ROUND(N,D) — they're treating it as a single-argument function only, missing that D=0 is the default but D can be any non-negative integer for decimal precision.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes SELECT MID('Informatics', 3, 4) and gets 'form'. They then write SELECT MID('Informatics', 7) and expect 'atics' but get an error. Why does the second query fail in some SQL dialects but work in MySQL, and what is the correct MySQL output?",
+     "a": "In MySQL, MID(string, pos) with two arguments returns the substring from position pos to the end — so MID('Informatics', 7) correctly returns 'atics'. The student's confusion comes from standard SQL's SUBSTRING which requires three arguments (SUBSTRING(string FROM pos FOR len)), making the two-argument form invalid in strict SQL. A wrong answer like \"it returns 'mat'\" shows they're counting positions from 0 instead of 1 (MySQL uses 1-based indexing), or they think the third argument is mandatory.",
+     "self_check": true
+    },
+    {
+     "q": "Write a query to display the CarID and EMI amount (rounded down to nearest 1000) for each car in INVENTORY where EMI = (Price + 12% GST) / 10, using only ROUND and arithmetic operators. Assume Price is 582613.00 for CarID 'D001'.",
+     "a": "SELECT CarID, ROUND((Price * 1.12) / 10, -3) AS EMI FROM INVENTORY; For D001: 582613 * 1.12 = 652526.56; /10 = 65252.656; ROUND(65252.656, -3) = 65000. A wrong answer using ROUND((Price*1.12)/10, 0) gives 65253 — the student missed that negative D in ROUND rounds to left of decimal (thousands, millions), which is the EMI-in-thousands requirement from the textbook Example 1.1.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the outputs of SELECT INSTR('amitsaha2@gmail.com', '@') and SELECT INSTR('amitsaha2@gmail.com', '.com'). How would you use these positions with LEFT() to extract just the username 'amitsaha2' and just the domain 'gmail' respectively?",
+     "a": "INSTR(email,'@') returns 12 (position of @), INSTR(email,'.com') returns 18 (position of .). Username: LEFT(email, INSTR(email,'@')-1) → LEFT(email,11) = 'amitsaha2'. Domain: MID(email, INSTR(email,'@')+1, INSTR(email,'.com')-INSTR(email,'@')-1) → MID(email,13,5) = 'gmail'. A wrong answer using LEFT(email, INSTR(email,'.com')-1) for domain gives 'amitsaha2@gmail' — the student didn't account for the @ position offset, showing they don't understand nested function logic for substring extraction.",
+     "self_check": true
+    },
+    {
+     "q": "A query uses WHERE DAYNAME(DOJ) = 'Sunday' to find employees who joined on Sundays. The table has DOJ values '2017-12-12', '2016-06-05', '1999-01-08', '2010-12-02', '2012-07-01', '2017-01-01', '2013-10-23'. Evaluate which rows match and explain why the textbook Example 1.4(b) uses DAYNAME(DOJ)!='Sunday' instead.",
+     "a": "DAYNAME returns: 2017-12-12→Tuesday, 2016-06-05→Sunday, 1999-01-08→Friday, 2010-12-02→Thursday, 2012-07-01→Sunday, 2017-01-01→Sunday, 2013-10-23→Wednesday. So 3 rows match (E002, E006, E001). The textbook uses != 'Sunday' to exclude weekends for business-day reporting. A wrong answer listing all 7 rows reveals the student thinks DAYNAME returns day numbers (1-7) not names, or they don't know MySQL's DAYNAME returns full English day names — a common confusion with DAYOFWEEK() which returns 1=Sunday.",
+     "self_check": true
+    },
+    {
+     "q": "Design a query for a library database (BOOKS table: BookID, Title, Author, PubDate, Price) that lists each book's Title, Author, years since publication (as of today), and a \"Category\" column: 'Classic' if published before 2000, 'Modern' if 2000-2010, 'Contemporary' if after 2010 — using only single-row functions and CASE expression.",
+     "a": "SELECT Title, Author, YEAR(NOW()) - YEAR(PubDate) AS YearsSincePub, CASE WHEN YEAR(PubDate) < 2000 THEN 'Classic' WHEN YEAR(PubDate) <= 2010 THEN 'Modern' ELSE 'Contemporary' END AS Category FROM BOOKS; A poor answer uses multiple SELECTs or application-code logic instead of SQL's CASE, or forgets YEAR(NOW()) for current year — showing they can't compose date arithmetic with conditional logic in a single query, a key skill for board case-study questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

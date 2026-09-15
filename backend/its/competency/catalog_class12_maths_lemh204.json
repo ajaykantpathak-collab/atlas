@@ -1,0 +1,412 @@
+{
+  "class": 12,
+  "subject": "maths",
+  "chapter": 204,
+  "chapter_title": "Vector Algebra: Scalar and Vector Quantities",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lemh204.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "provenance": "zcode author-first draft; gate-validated",
+  "concepts": [
+    {
+      "id": "lemh.204.10.2.1",
+      "title": "Scalars, Vectors and Position Vectors",
+      "section": "10.2",
+      "definition": "A scalar carries only a numerical size while a vector carries both a size and a direction; the vector drawn from the origin to a point P is the position vector of P, whose directed segments represent the displacement.",
+      "formula": "position vector of P(x, y, z) = x*i_hat + y*j_hat + z*k_hat",
+      "key_idea": "Magnitude alone means scalar; magnitude plus direction means vector.",
+      "textbook_ref": "lemh204.txt sections 10.1-10.2 (lines ~6-132)",
+      "question_patterns": [
+        "classify the given measure as a scalar or a vector",
+        "identify which quantity carries direction as well as magnitude",
+        "write the position vector of the point with the given coordinates",
+        "represent a displacement as a directed line segment",
+        "explain the difference between a scalar and a vector quantity",
+        "state the position vector of P with respect to the origin"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Ask whether a direction is needed alongside the number", "explain": "Only size means scalar; size with direction means vector."},
+        {"step": 2, "action": "Read the coordinates of the point for its position vector", "explain": "The coefficients of i hat, j hat and k hat are the coordinates."},
+        {"step": 3, "action": "Draw the arrow from the origin to represent it", "explain": "The directed segment from O to P pictures the position vector."}
+      ]
+    },
+    {
+      "id": "lemh.204.10.2.2",
+      "title": "Magnitude of a Position Vector",
+      "section": "10.2",
+      "definition": "The length of a vector with components x, y and z comes from the three-dimensional Pythagoras rule: square each component, add the squares, and take the square root.",
+      "formula": "magnitude = sqrt(x_coord**2 + y_coord**2 + z_coord**2)",
+      "key_idea": "Three squarings, one sum, one square root give the vector's length.",
+      "textbook_ref": "lemh204.txt section 10.2 magnitude formula (lines ~60-70)",
+      "question_patterns": [
+        "find the magnitude of the vector with the given components",
+        "compute the length of the position vector of the point",
+        "evaluate the modulus of the vector x i hat plus y j hat plus z k hat",
+        "how long is the arrow represented by the given triple",
+        "calculate the size of the vector using the distance formula from the origin",
+        "determine the absolute value of the given vector"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "Square and add the three components", "explain": "The squared length is x squared plus y squared plus z squared.", "compute": "sq_sum = x_coord**2 + y_coord**2 + z_coord**2"},
+        {"step": 2, "action": "Take the square root of the squared sum", "explain": "The square root converts squared length into length.", "compute": "mag_value = sqrt(sq_sum)"}
+      ]
+    },
+    {
+      "id": "lemh.204.10.3.1",
+      "title": "Types of Vectors",
+      "section": "10.3",
+      "definition": "Special vector classes matter in computation: the zero vector has no direction, a unit vector has length one, equal vectors share components, collinear vectors run along parallel lines, and coinitial vectors start from a common point.",
+      "formula": "unit vector = vector divided by its own magnitude",
+      "key_idea": "Length one, same components, or same line decide the vector's type.",
+      "textbook_ref": "lemh204.txt section 10.3 and examples 2-3 (lines ~133-195)",
+      "question_patterns": [
+        "classify the given vectors as equal, collinear or coinitial",
+        "explain what makes a vector a unit vector",
+        "identify the zero vector among the listed vectors",
+        "check whether two given vectors are collinear",
+        "find the unit vector in the direction of the given vector",
+        "decide which of the arrows share the same initial point"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Compare components for equality or collinearity", "explain": "Equal vectors match component by component; collinear ones are scalar multiples."},
+        {"step": 2, "action": "Compute the magnitude when length matters", "explain": "Length one marks a unit vector; zero length marks the zero vector."},
+        {"step": 3, "action": "State the type with the matching criterion", "explain": "Quote the property that decided the classification."}
+      ]
+    },
+    {
+      "id": "lemh.204.10.4.1",
+      "title": "Addition of Vectors by Triangle and Parallelogram Laws",
+      "section": "10.4",
+      "definition": "Vectors add head to tail: placing the start of one arrow at the tip of another, the sum runs from the free start to the free tip; equivalently, equal initial points make the diagonal of the parallelogram the sum.",
+      "formula": "resultant = (a1 + b1)*i_hat + (a2 + b2)*j_hat + (a3 + b3)*k_hat",
+      "key_idea": "Add matching components; the laws only picture the same operation.",
+      "textbook_ref": "lemh204.txt section 10.4 (lines ~232-388)",
+      "question_patterns": [
+        "find the sum of the two given vectors",
+        "add the vectors using the triangle law",
+        "apply the parallelogram law to combine the vectors",
+        "verify that vector addition is commutative for the given pair",
+        "compute the resultant displacement of two successive moves",
+        "combine the vectors by adding their i, j and k parts"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Place the vectors head to tail or from a common point", "explain": "Both layouts realise the same addition."},
+        {"step": 2, "action": "Add component-wise", "explain": "First with first, second with second, third with third."},
+        {"step": 3, "action": "Read the sum as the closing side or the diagonal", "explain": "Triangle law gives the closing side; parallelogram law gives the diagonal."}
+      ]
+    },
+    {
+      "id": "lemh.204.10.5.1.1",
+      "title": "Components of a Vector Along the Coordinate Axes",
+      "section": "10.5.1",
+      "definition": "Every space vector splits into three perpendicular pieces, its scalar components multiplying the unit vectors along the axes; the components locate the vector completely and make arithmetic with vectors ordinary number work.",
+      "formula": "vector a = a1*i_hat + a2*j_hat + a3*k_hat with scalar components a1, a2, a3",
+      "key_idea": "The triple of scalar components is the vector's working identity.",
+      "textbook_ref": "lemh204.txt section 10.5.1 (lines ~427-971)",
+      "question_patterns": [
+        "write the given vector in terms of the unit vectors along the axes",
+        "find the scalar components of the vector",
+        "express the arrow as a combination of i hat, j hat and k hat",
+        "identify the components of the vector joining the origin to the point",
+        "determine the x, y and z parts of the given vector",
+        "decompose the vector along the three coordinate directions"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Match each axis unit vector with its coefficient", "explain": "The coefficients are the scalar components."},
+        {"step": 2, "action": "Rebuild the vector from its components when reversing", "explain": "Multiply each unit vector by its component and add."},
+        {"step": 3, "action": "Use components for later vector arithmetic", "explain": "Addition, scaling and products all act on components."}
+      ]
+    },
+    {
+      "id": "lemh.204.10.5.2.1",
+      "title": "Vector Joining Two Points",
+      "section": "10.5.2",
+      "definition": "The directed segment from point P to point Q has components equal to the coordinate differences: subtract the coordinates of the starting point from those of the ending point, component by component.",
+      "formula": "vector PQ = (x2 - x1)*i_hat + (y2 - y1)*j_hat + (z2 - z1)*k_hat",
+      "key_idea": "Terminal minus initial gives the joining vector's components.",
+      "textbook_ref": "lemh204.txt section 10.5.2 and example 10 (lines ~972-1111)",
+      "question_patterns": [
+        "find the vector joining the two given points",
+        "determine the directed segment from P to Q in component form",
+        "subtract the coordinates to obtain the vector between the points",
+        "write the vector from the first point to the second point",
+        "which differences give the components of the joining vector",
+        "express PQ as a combination of the unit vectors along the axes"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Name the initial and terminal points", "explain": "Direction matters: Q minus P, never the reverse."},
+        {"step": 2, "action": "Subtract coordinates terminal minus initial", "explain": "Each component is the corresponding coordinate difference."},
+        {"step": 3, "action": "Assemble the differences into the component form", "explain": "The triple of differences is the joining vector."}
+      ]
+    },
+    {
+      "id": "lemh.204.10.5.2.2",
+      "title": "Distance Between Two Points via Vector Length",
+      "section": "10.5.2",
+      "definition": "The distance between two points is the magnitude of the joining vector: square the three coordinate differences, add them, and take the square root.",
+      "formula": "distance = sqrt((x2 - x1)**2 + (y2 - y1)**2 + (z2 - z1)**2)",
+      "key_idea": "The joining vector's length is the distance between the points.",
+      "textbook_ref": "lemh204.txt section 10.5.2 magnitude line (lines ~1060-1111)",
+      "question_patterns": [
+        "find the distance between the two given points using vectors",
+        "compute how far apart P and Q are",
+        "evaluate the magnitude of the vector joining the points",
+        "calculate the separation of the two points in space",
+        "obtain the length of the segment PQ",
+        "determine the distance with the coordinate differences"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "Difference the coordinates component-wise", "explain": "The joining vector has components terminal minus initial.", "compute": "dx_part = x2 - x1"},
+        {"step": 2, "action": "Difference the remaining coordinates", "explain": "Collect the y and z differences the same way.", "compute": "dy_part = y2 - y1"},
+        {"step": 3, "action": "Square and add the three differences", "explain": "The squared length is the sum of the squared differences.", "compute": "sq_total = dx_part**2 + dy_part**2 + dz_part**2"},
+        {"step": 4, "action": "Square root the squared total", "explain": "This is the distance between the two points.", "compute": "distance_value = sqrt(sq_total)"}
+      ]
+    },
+    {
+      "id": "lemh.204.10.5.3.1",
+      "title": "Section Formula for the Division of a Segment",
+      "section": "10.5.3",
+      "definition": "A point dividing the segment between position vectors p and q in the ratio m to n has position vector the weighted mix of p and q; external division uses the same weights with a sign change, and equal weights give the midpoint.",
+      "formula": "position vector of R = (n*p + m*q)/(m + n) for internal division in the ratio m:n",
+      "key_idea": "Weighted averaging of the endpoints realises any division ratio.",
+      "textbook_ref": "lemh204.txt section 10.5.3 and examples 11-12 (lines ~1112-1302)",
+      "question_patterns": [
+        "find the position vector of the point dividing the segment in the given ratio",
+        "apply the section formula to the two position vectors",
+        "locate the midpoint of the segment using equal weights",
+        "divide the line segment externally in the given ratio",
+        "determine the coordinates of the point that cuts PQ in ratio m to n",
+        "where does the given ratio place the dividing point on the segment"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Decide whether the division is internal or external", "explain": "Internal keeps both weights positive; external flips one sign."},
+        {"step": 2, "action": "Form the weighted combination of the endpoint vectors", "explain": "Multiply each endpoint by the opposite ratio number and add."},
+        {"step": 3, "action": "Divide by the sum of the weights", "explain": "The result is the position vector of the dividing point."}
+      ]
+    },
+    {
+      "id": "lemh.204.10.6.1.1",
+      "title": "Scalar Product and Perpendicularity",
+      "section": "10.6.1",
+      "definition": "The dot product multiplies two vectors into one number: the product of their lengths times the cosine of the angle between them; a zero dot product for nonzero vectors signals a right angle, and a vector dotted with itself gives its squared length.",
+      "formula": "dot product = a1*b1 + a2*b2 + a3*b3 which equals magnitude_a * magnitude_b * cos(theta)",
+      "key_idea": "One number encodes both the angle and the sizes of the two vectors.",
+      "textbook_ref": "lemh204.txt section 10.6.1 and examples 13-15 (lines ~1595-2173)",
+      "question_patterns": [
+        "find the dot product of the two given vectors",
+        "compute the scalar product in component form",
+        "show that the vectors are perpendicular using the dot product",
+        "evaluate a dot a and relate it to the squared magnitude",
+        "check whether the angle between the vectors is a right angle",
+        "decide if the pair of vectors is orthogonal by their scalar product"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Multiply matching components and add", "explain": "First times first plus second times second plus third times third."},
+        {"step": 2, "action": "Interpret the sign of the result", "explain": "Zero means perpendicular, positive acute, negative obtuse."},
+        {"step": 3, "action": "Use the product form for angle reasoning", "explain": "Dividing by the magnitudes turns the dot product into the cosine."}
+      ]
+    },
+    {
+      "id": "lemh.204.10.6.1.2",
+      "title": "Cosine of the Angle Between Two Vectors",
+      "section": "10.6.1",
+      "definition": "The cosine of the angle between two vectors equals their dot product divided by the product of their magnitudes; every ingredient is component arithmetic.",
+      "formula": "cos(theta) = dot_ab / (mag_a * mag_b)",
+      "key_idea": "Dot product over the product of lengths is the angle's cosine.",
+      "textbook_ref": "lemh204.txt section 10.6.1 observation 6 and examples 13-14 (lines ~1650-2059)",
+      "question_patterns": [
+        "find the cosine of the angle between the two vectors",
+        "compute the angle's cosine from the dot product and the magnitudes",
+        "evaluate cos of theta for the given pair of vectors",
+        "determine the value that the angle formula gives for the two vectors",
+        "calculate the ratio of the dot product to the product of the lengths",
+        "find how tilted the two vectors are using their scalar product"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "Dot the component triples", "explain": "Matching components multiply and add.", "compute": "dot_ab = a1*b1 + a2*b2 + a3*b3"},
+        {"step": 2, "action": "Magnitude of the first vector", "explain": "Square, add, square root the a-components.", "compute": "mag_a = sqrt(a1**2 + a2**2 + a3**2)"},
+        {"step": 3, "action": "Magnitude of the second vector", "explain": "Same rule for the b-components.", "compute": "mag_b = sqrt(b1**2 + b2**2 + b3**2)"},
+        {"step": 4, "action": "Divide the dot product by the magnitude product", "explain": "The quotient is the cosine of the angle between the vectors.", "compute": "cos_value = dot_ab / (mag_a * mag_b)"}
+      ]
+    },
+    {
+      "id": "lemh.204.10.6.2.1",
+      "title": "Projection of a Vector on Another Vector",
+      "section": "10.6.2",
+      "definition": "The scalar projection of one vector on another is the dot product divided by the length of the vector being projected onto; it measures the shadow length the first vector casts along the second's direction.",
+      "formula": "projection of a on b = dot_ab / mag_b",
+      "key_idea": "Dot with the target, then divide by the target's length.",
+      "textbook_ref": "lemh204.txt section 10.6.2 and example 16 (lines ~1929-2173)",
+      "question_patterns": [
+        "find the projection of the vector a on the vector b",
+        "compute the shadow of one vector along the other",
+        "evaluate the scalar projection using the dot product and the length",
+        "project the given vector on the direction of the second vector",
+        "determine the component of a along b",
+        "how long is the foot of the perpendicular from the vector's tip"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "Dot the two component triples", "explain": "Matching components multiply and add.", "compute": "dot_ab = a1*b1 + a2*b2 + a3*b3"},
+        {"step": 2, "action": "Length of the target vector", "explain": "The b-vector's magnitude uses its three components.", "compute": "mag_b = sqrt(b1**2 + b2**2 + b3**2)"},
+        {"step": 3, "action": "Divide the dot product by the target length", "explain": "This quotient is the scalar projection of a on b.", "compute": "proj_value = dot_ab / mag_b"}
+      ]
+    },
+    {
+      "id": "lemh.204.10.6.3.1",
+      "title": "Cross Product and Vectors Perpendicular to Both",
+      "section": "10.6.3",
+      "definition": "The vector product of two vectors is a new vector whose length is the product of the lengths times the sine of the included angle and whose direction obeys the right-handed rule; it vanishes exactly when the inputs are parallel, and its direction supplies vectors perpendicular to both inputs.",
+      "formula": "cross product magnitude = mag_a * mag_b * sin(theta)",
+      "key_idea": "Zero cross product means parallel; its direction is perpendicular to both inputs.",
+      "textbook_ref": "lemh204.txt section 10.6.3 and examples 22-23 (lines ~2651-3342)",
+      "question_patterns": [
+        "find the cross product of the two given vectors",
+        "compute the vector product in determinant form",
+        "obtain a unit vector perpendicular to both given vectors",
+        "show that the vectors are parallel using the cross product",
+        "evaluate the sine of the angle between the vectors from the vector product",
+        "apply the right hand rule to orient the vector product"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Expand the determinant with i hat, j hat, k hat", "explain": "Each component is a two-by-two minor difference."},
+        {"step": 2, "action": "Check the result for parallelism when needed", "explain": "A zero cross product certifies parallel inputs."},
+        {"step": 3, "action": "Normalise the cross product for a perpendicular unit vector", "explain": "Dividing by its magnitude gives the unit normal to both inputs."}
+      ]
+    },
+    {
+      "id": "lemh.204.10.6.3.2",
+      "title": "Areas of a Parallelogram and a Triangle via the Cross Product",
+      "section": "10.6.3",
+      "definition": "Adjacent side vectors spanning a parallelogram give its area as the magnitude of their cross product; the triangle on the same adjacent sides takes exactly half that number.",
+      "formula": "area of the parallelogram = magnitude of the cross product of the adjacent sides",
+      "key_idea": "Cross, then take length: that is the parallelogram area; halve it for the triangle.",
+      "textbook_ref": "lemh204.txt examples 24-25 (lines ~3343-3429)",
+      "question_patterns": [
+        "find the area of the parallelogram whose adjacent sides are the given vectors",
+        "compute the triangle area from three position vectors using the cross product",
+        "evaluate the magnitude of the vector product to get the area",
+        "determine the area spanned by the two adjacent side vectors",
+        "calculate how much surface the parallelogram covers with vector methods",
+        "halve the cross product magnitude for the area of the triangle"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "Cross product x-component", "explain": "a2*b3 minus a3*b2.", "compute": "cross_x = a2*b3 - a3*b2"},
+        {"step": 2, "action": "Cross product y-component", "explain": "a3*b1 minus a1*b3.", "compute": "cross_y = a3*b1 - a1*b3"},
+        {"step": 3, "action": "Cross product z-component", "explain": "a1*b2 minus a2*b1.", "compute": "cross_z = a1*b2 - a2*b1"},
+        {"step": 4, "action": "Square and add the cross components", "explain": "This is the squared cross product length.", "compute": "cross_sq = cross_x**2 + cross_y**2 + cross_z**2"},
+        {"step": 5, "action": "Square root for the parallelogram area", "explain": "The cross product's magnitude equals the parallelogram's area.", "compute": "para_area = sqrt(cross_sq)"}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we204.1",
+      "source_ref": "lemh204.txt example 13-14 type, angle between vectors, lines ~2013-2059",
+      "concept": "lemh.204.10.6.1.2",
+      "question_type": "compute",
+      "question_pattern": "find the cosine of the angle between the vectors {a1} i hat + {a2} j hat + {a3} k hat and {b1} i hat + {b2} j hat + {b3} k hat",
+      "extracted_variables": {"a1": "x component of a", "a2": "y component of a", "a3": "z component of a", "b1": "x component of b", "b2": "y component of b", "b3": "z component of b"},
+      "solution_template": [
+        {"step": 1, "action": "Dot the triples", "explain": "a1*b1 + a2*b2 + a3*b3.", "compute": "dot_ab = a1*b1 + a2*b2 + a3*b3"},
+        {"step": 2, "action": "Lengths of both vectors", "explain": "Square-root the squared sums.", "compute": "mag_a = sqrt(a1**2 + a2**2 + a3**2)"},
+        {"step": 3, "action": "Second length", "explain": "Same rule for b.", "compute": "mag_b = sqrt(b1**2 + b2**2 + b3**2)"},
+        {"step": 4, "action": "Cosine of the angle", "explain": "dot over the product of lengths.", "compute": "cos_value = dot_ab / (mag_a * mag_b)"}
+      ]
+    },
+    {
+      "id": "we204.2",
+      "source_ref": "lemh204.txt example 24, area of triangle from position vectors, lines ~3343-3389",
+      "concept": "lemh.204.10.6.3.2",
+      "question_type": "compute",
+      "question_pattern": "find the area of the triangle whose adjacent side vectors are {a1} i hat + {a2} j hat + {a3} k hat and {b1} i hat + {b2} j hat + {b3} k hat",
+      "extracted_variables": {"a1": "x component of side one", "a2": "y component of side one", "a3": "z component of side one", "b1": "x component of side two", "b2": "y component of side two", "b3": "z component of side two"},
+      "solution_template": [
+        {"step": 1, "action": "Cross product components", "explain": "Three two-by-two minors.", "compute": "cross_x = a2*b3 - a3*b2"},
+        {"step": 2, "action": "Remaining cross components", "explain": "j and k minors.", "compute": "cross_y = a3*b1 - a1*b3"},
+        {"step": 3, "action": "Third cross component", "explain": "k minor.", "compute": "cross_z = a1*b2 - a2*b1"},
+        {"step": 4, "action": "Squared cross length", "explain": "Sum of squares.", "compute": "cross_sq = cross_x**2 + cross_y**2 + cross_z**2"},
+        {"step": 5, "action": "Parallelogram area then halve for the triangle", "explain": "Square root gives the parallelogram area; the triangle is half.", "compute": "tri_area = sqrt(cross_sq) / 2"}
+      ]
+    },
+    {
+      "id": "we204.3",
+      "source_ref": "lemh204.txt example 10, vector joining two points, lines ~1076-1111",
+      "concept": "lemh.204.10.5.2.1",
+      "question_type": "verify_property",
+      "question_pattern": "find the vector joining the point with coordinates {x1}, {y1}, {z1} to the point with coordinates {x2}, {y2}, {z2} directed from the first to the second",
+      "extracted_variables": {"x1": "x of initial point", "y1": "y of initial point", "z1": "z of initial point", "x2": "x of terminal point", "y2": "y of terminal point", "z2": "z of terminal point"},
+      "solution_template": [
+        {"step": 1, "action": "Subtract the initial coordinates from the terminal ones", "explain": "Each component is a difference terminal minus initial."},
+        {"step": 2, "action": "Assemble the component form", "explain": "Differences multiply the axis unit vectors."},
+        {"step": 3, "action": "State the directed vector", "explain": "The result points from the first point to the second."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex10.1",
+      "source_ref": "lemh204.txt exercise 10.1, lines ~196-231",
+      "questions": [
+        "Represent a displacement graphically as a directed segment.",
+        "Classify the listed measures as scalars or vectors.",
+        "Identify which of the shown vectors are equal, collinear or coinitial.",
+        "Pick out the scalar quantities from the given list."
+      ]
+    },
+    {
+      "id": "ex10.2",
+      "source_ref": "lemh204.txt exercise 10.2, lines ~1303-1583",
+      "questions": [
+        "Compute the magnitude of the given position vector.",
+        "Find the unit vector in the direction of the given vector.",
+        "Find the vector joining the two given points and its length.",
+        "Find the position vector of the midpoint of the segment joining two points.",
+        "Write the direction ratios of the given vector.",
+        "Show that the given points are collinear using vectors."
+      ]
+    },
+    {
+      "id": "ex10.3",
+      "source_ref": "lemh204.txt exercise 10.3, lines ~2451-2650",
+      "questions": [
+        "Find the angle between the two given vectors.",
+        "Find the projection of one vector on the other.",
+        "Show that the two vectors are perpendicular using the dot product.",
+        "Find the value of the unknown so that the vectors are perpendicular.",
+        "Verify the triangle inequality for the given vectors."
+      ]
+    },
+    {
+      "id": "ex10.4",
+      "source_ref": "lemh204.txt exercise 10.4, lines ~3430-3581",
+      "questions": [
+        "Find the magnitude of the cross product of the given vectors.",
+        "Find a unit vector perpendicular to each of the two given vectors.",
+        "Find the area of the triangle with the given vertices using vectors.",
+        "Find the area of the parallelogram whose adjacent sides are the given vectors."
+      ]
+    },
+    {
+      "id": "misc10",
+      "source_ref": "lemh204.txt miscellaneous exercise on chapter 10, lines ~3843-4274",
+      "questions": [
+        "Write all unit vectors lying in the plane spanned by the x and y axes.",
+        "Find the angle between the diagonals of the parallelogram formed by two vectors.",
+        "Express the given vector as a combination of the perpendicular unit vectors from the right handed system.",
+        "Show that the given position vectors satisfy the stated vector identity."
+      ]
+    }
+  ]
+}

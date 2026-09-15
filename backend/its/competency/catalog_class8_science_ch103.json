@@ -1,0 +1,466 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 103,
+ "chapter_title": "Coal and Petroleum (Class 8)",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\hesc103.txt",
+ "concepts": [
+  {
+   "id": "hesc.103.0.1",
+   "title": "Classification of Natural Resources",
+   "section": "3.0",
+   "definition": "Sorting materials extracted from nature into inexhaustible categories available in limitless quantities and exhaustible categories reduced through continuous human consumption.",
+   "formula": "",
+   "key_idea": "Natural materials are grouped into infinite supply sources and depletable supply sources based on human usage impact.",
+   "textbook_ref": "hesc103.txt lines 1-30",
+   "question_patterns": [
+    "classify natural resources as inexhaustible or exhaustible in Class 8 science",
+    "what is the difference between exhaustible and inexhaustible resources",
+    "give examples of inexhaustible natural resources in nature",
+    "why are forests and minerals considered exhaustible resources",
+    "how are natural materials grouped according to their availability"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify source availability",
+     "explain": "Determine whether the given resource exists in unlimited or limited quantity in nature."
+    },
+    {
+     "step": 2,
+     "action": "assess impact of human consumption",
+     "explain": "If human activity leads to depletion, classify as exhaustible; if not, classify as inexhaustible."
+    },
+    {
+     "step": 3,
+     "action": "assign final category with examples",
+     "explain": "Confirm the classification by citing examples: sunlight and air are inexhaustible while coal, petroleum, and forests are exhaustible."
+    }
+   ]
+  },
+  {
+   "id": "hesc.103.1.1",
+   "title": "Coal and Carbonisation",
+   "section": "3.1",
+   "definition": "A dark solid fossil fuel formed over subterranean geological epochs through the slow breakdown of buried dense vegetation under elevated subterranean temperature and pressure.",
+   "formula": "",
+   "key_idea": "The slow chemical transformation of dead plant remnants into carbon-enriched material is termed carbonisation.",
+   "textbook_ref": "hesc103.txt lines 31-65",
+   "question_patterns": [
+    "explain the process of coal formation from dead vegetation in Class 8 science",
+    "what is carbonisation in Class 8 coal and petroleum",
+    "describe why coal is classified as a fossil fuel",
+    "how did ancient forests transform into coal deposits underground",
+    "what physical conditions turn dead plant matter into coal"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace vegetation burial",
+     "explain": "Wetland forests became covered under layers of soil due to natural events like flooding."
+    },
+    {
+     "step": 2,
+     "action": "apply pressure and heat",
+     "explain": "Deeper burial caused extreme pressure and temperature increases in the absence of air."
+    },
+    {
+     "step": 3,
+     "action": "define carbonisation",
+     "explain": "The slow chemical change converting dead plant matter into carbon is carbonisation."
+    }
+   ]
+  },
+  {
+   "id": "hesc.103.1.2",
+   "title": "Products of Coal: Coke, Coal Tar, and Coal Gas",
+   "section": "3.1",
+   "definition": "Destructive distillation of raw coal in industry isolates a solid porous carbon residue (coke), a viscous liquid mixture (coal tar), and a combustible gaseous mixture (coal gas).",
+   "formula": "",
+   "key_idea": "Industrial processing of coal yields coke for metallurgy, coal tar for chemical synthesis, and coal gas for heating.",
+   "textbook_ref": "hesc103.txt lines 66-105",
+   "question_patterns": [
+    "what are the main products obtained from coal processing in Class 8 science",
+    "describe the characteristics and industrial uses of coke",
+    "what is coal tar and list key products manufactured from it",
+    "how is coal gas formed and utilized in industries",
+    "compare coke, coal tar, and coal gas based on physical state and application"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify coke properties",
+     "explain": "Coke is black, porous, tough, and nearly pure carbon used in steel manufacturing and metal extraction."
+    },
+    {
+     "step": 2,
+     "action": "identify coal tar properties",
+     "explain": "Coal tar is a foul-smelling dark liquid containing around 200 substances used for dyes, drugs, and explosives."
+    },
+    {
+     "step": 3,
+     "action": "identify coal gas origin",
+     "explain": "Coal gas evolves during coke production and serves as an industrial heat source."
+    }
+   ]
+  },
+  {
+   "id": "hesc.103.2.1",
+   "title": "Formation and Origin of Petroleum",
+   "section": "3.2",
+   "definition": "A naturally occurring liquid fossil fuel created from ancient sea organisms buried beneath silt, transformed over millions of years without air under intense heat and pressure.",
+   "formula": "",
+   "key_idea": "Petroleum and natural gas accumulate beneath impermeable rock strata above water layers because they are lighter than water.",
+   "textbook_ref": "hesc103.txt lines 106-140",
+   "question_patterns": [
+    "how is crude petroleum formed under marine ocean beds",
+    "explain why crude oil and natural gas sit above water in underground deposits",
+    "where was the world's first oil well drilled and where was oil found in India",
+    "describe the marine origin of petroleum in Class 8 science",
+    "what environmental conditions convert ancient aquatic organisms into crude oil"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine marine sedimentation",
+     "explain": "Dead sea organisms settle on the sea floor and get covered by clay and sand layers."
+    },
+    {
+     "step": 2,
+     "action": "explain subterranean transformation",
+     "explain": "Anaerobic environment combined with high pressure and temperature converts organic remains into oil and gas."
+    },
+    {
+     "step": 3,
+     "action": "explain deposit stratification",
+     "explain": "Oil and gas float above groundwater deposits due to lower density and immiscibility."
+    }
+   ]
+  },
+  {
+   "id": "hesc.103.2.2",
+   "title": "Petroleum Refining and Components",
+   "section": "3.2",
+   "definition": "Industrial separation of complex dark crude petroleum into marketable fractions such as petrol, diesel, kerosene, lubricating oil, and paraffin wax.",
+   "formula": "",
+   "key_idea": "Refining splits crude oil into distinct useful constituents inside specialized petroleum refineries.",
+   "textbook_ref": "hesc103.txt lines 141-175",
+   "question_patterns": [
+    "what is petroleum refining and where is the process conducted",
+    "list key constituents of petroleum and their corresponding uses",
+    "which petroleum fraction is used for road surfacing in modern roads",
+    "what fuel powers heavy transport vehicles and electric generators",
+    "how are kerosene and paraffin wax derived from crude petroleum"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define refining process",
+     "explain": "Refining isolates individual hydrocarbon components from crude oil based on property differences."
+    },
+    {
+     "step": 2,
+     "action": "match fractions to applications",
+     "explain": "Petrol fuels light vehicles, diesel runs heavy machinery, jet engines use kerosene, bitumen surfaces roads."
+    },
+    {
+     "step": 3,
+     "action": "verify fraction against physical properties",
+     "explain": "Each fraction is separated by differences in boiling point and density, confirming the correct industrial use of the constituent."
+    }
+   ]
+  },
+  {
+   "id": "hesc.103.2.3",
+   "title": "Petrochemicals and Black Gold",
+   "section": "3.2",
+   "definition": "Chemical compounds derived from crude oil or natural gas utilized to synthesize commercial polymers, synthetic fibers, detergents, and agricultural fertilizers.",
+   "formula": "",
+   "key_idea": "Petroleum earns the nickname black gold due to its massive commercial significance across multiple industries.",
+   "textbook_ref": "hesc103.txt lines 160-185",
+   "question_patterns": [
+    "what are petrochemicals and state their commercial applications",
+    "why is petroleum referred to as black gold in Class 8 science",
+    "which gas produced from natural gas is essential for chemical fertilizers",
+    "name synthetic materials manufactured using petrochemical feedstocks",
+    "explain the economic importance of petroleum products in everyday life"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define petrochemicals",
+     "explain": "Useful chemical compounds extracted from natural gas and crude petroleum are called petrochemicals."
+    },
+    {
+     "step": 2,
+     "action": "identify synthetic uses",
+     "explain": "They yield plastics, polyester, nylon, detergents, and hydrogen gas for urea production."
+    },
+    {
+     "step": 3,
+     "action": "explain term black gold",
+     "explain": "The term reflects the supreme monetary and industrial value of dark crude oil."
+    }
+   ]
+  },
+  {
+   "id": "hesc.103.3.1",
+   "title": "Natural Gas and Compressed Natural Gas (CNG)",
+   "section": "3.3",
+   "definition": "A non-polluting gaseous fossil fuel found alongside petroleum deposits, stored under elevated pressure as CNG for pipe delivery and clean vehicular combustion.",
+   "formula": "",
+   "key_idea": "Natural gas stored as CNG is a clean-burning fuel distributed through pipeline networks directly to consumers.",
+   "textbook_ref": "hesc103.txt lines 186-220",
+   "question_patterns": [
+    "what are the main advantages of using CNG as a fuel",
+    "why is natural gas considered a cleaner fuel than petrol or diesel",
+    "where are natural gas reserves located within India",
+    "how is compressed natural gas transported to homes and factories",
+    "what makes CNG suitable for power generation and vehicles"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain compression and storage",
+     "explain": "Natural gas compressed at high pressure forms CNG, which can be safely stored and piped."
+    },
+    {
+     "step": 2,
+     "action": "highlight environmental benefits",
+     "explain": "CNG burns completely with minimal smoke, reducing atmospheric pollution."
+    },
+    {
+     "step": 3,
+     "action": "locate reserves in India",
+     "explain": "Reserves exist in Tripura, Rajasthan, Maharashtra, and Krishna Godavari delta."
+    }
+   ]
+  },
+  {
+   "id": "hesc.103.4.1",
+   "title": "Conservation of Natural Resources and PCRA Guidelines",
+   "section": "3.4",
+   "definition": "Strategies designed to curtail fuel consumption, extend finite fossil fuel reserves, and mitigate environmental issues like air pollution and global warming.",
+   "formula": "",
+   "key_idea": "Judicious driving habits recommended by PCRA reduce fuel wastage and environmental pollution.",
+   "textbook_ref": "hesc103.txt lines 221-260",
+   "question_patterns": [
+    "why must fossil fuels be used judiciously in Class 8 science",
+    "what fuel-saving tips are recommended by the Petroleum Conservation Research Association",
+    "how does burning fossil fuels contribute to global warming and pollution",
+    "what practical measures reduce petrol and diesel consumption while driving",
+    "explain why fossil fuels cannot be synthesized artificially in laboratories"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify limitation of fossil fuels",
+     "explain": "Fossil fuels require geological timescales to form and cannot be produced in laboratories."
+    },
+    {
+     "step": 2,
+     "action": "apply PCRA driving guidelines",
+     "explain": "Maintain steady moderate speed, switch off engine at traffic signals, maintain correct tyre pressure and regular servicing."
+    },
+    {
+     "step": 3,
+     "action": "connect conservation to environmental impact",
+     "explain": "Reduced fuel consumption lowers carbon emissions, mitigating air pollution and global warming while extending finite reserves."
+    }
+   ]
+  },
+  {
+   "id": "hesc.103.4.2",
+   "title": "Power Shortage Percentage Difference Calculation",
+   "section": "3.4",
+   "definition": "Quantitative comparison of power deficit percentages across distinct recording years to evaluate supply-demand trends.",
+   "formula": "shortage_diff = shortage_year2 - shortage_year1",
+   "key_idea": "The algebraic difference between shortage percentages measures the change in energy deficit over time.",
+   "textbook_ref": "hesc103.txt lines 280-310",
+   "question_patterns": [
+    "calculate the difference in power shortage percentage between two years",
+    "find the change in power shortage percentage from year1 to year2",
+    "compute the increase or decrease in power shortage percentage",
+    "determine the net change in shortage percentage over a given period",
+    "calculate how much power shortage percentage changed between given years"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate difference in shortage percentage",
+     "explain": "subtract initial year shortage percentage from final year shortage percentage",
+     "compute": "shortage_diff = shortage_year2 - shortage_year1"
+    },
+    {
+     "step": 2,
+     "action": "interpret sign of the difference",
+     "explain": "a positive value indicates an increase in shortage while a negative value indicates a decrease"
+    },
+    {
+     "step": 3,
+     "action": "report magnitude of change",
+     "explain": "state the absolute change in percentage points to quantify the shift in power deficit",
+     "compute": "change_magnitude = abs(shortage_diff)"
+    }
+   ]
+  },
+  {
+   "id": "hesc.103.4.3",
+   "title": "Remaining Fuel Reserve Percentage Calculation",
+   "section": "3.4",
+   "definition": "Computing the unconsumed fraction of a limited fuel reserve relative to its initial total capacity.",
+   "formula": "remaining_pct = ((total_reserve - consumed_amount) / total_reserve) * 100",
+   "key_idea": "Subtracting consumed resource from total capacity gives remaining stock, expressed as a percentage of the total.",
+   "textbook_ref": "hesc103.txt lines 220-250",
+   "question_patterns": [
+    "calculate the percentage of fuel reserve remaining after consumption",
+    "find the remaining percentage of a coal reserve given initial and consumed amounts",
+    "compute the percent of natural gas reserve left in stock",
+    "determine the remaining fuel percentage from total and used quantities",
+    "calculate how much percentage of a petroleum reserve is left"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate remaining reserve amount",
+     "explain": "subtract consumed fuel from total reserve",
+     "compute": "remaining_amount = total_reserve - consumed_amount"
+    },
+    {
+     "step": 2,
+     "action": "calculate percentage of remaining reserve",
+     "explain": "divide remaining amount by total reserve and multiply by 100",
+     "compute": "remaining_pct = (remaining_amount / total_reserve) * 100"
+    },
+    {
+     "step": 3,
+     "action": "validate result against consumed percentage",
+     "explain": "confirm that remaining percentage plus consumed percentage equals 100 percent of the total reserve",
+     "compute": "consumed_pct = (consumed_amount / total_reserve) * 100"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hesc103.txt Exercise 9 Table",
+   "concept": "hesc.103.4.2",
+   "question_type": "compute",
+   "question_pattern": "In India, the power shortage was {shortage_year1}% in 1991 and {shortage_year2}% in 1997. Calculate the difference in power shortage percentage.",
+   "extracted_variables": {
+    "shortage_year1": 7.9,
+    "shortage_year2": 11.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate difference in shortage percentage",
+     "explain": "subtract initial year shortage percentage from final year shortage percentage",
+     "compute": "shortage_diff = shortage_year2 - shortage_year1"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hesc103.txt Exercise 9 Table",
+   "concept": "hesc.103.4.2",
+   "question_type": "compute",
+   "question_pattern": "The power shortage percentage was {shortage_year1}% in 1993 and {shortage_year2}% in 1995. Find the change in shortage percentage.",
+   "extracted_variables": {
+    "shortage_year1": 8.3,
+    "shortage_year2": 7.1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate difference in shortage percentage",
+     "explain": "subtract initial year shortage percentage from final year shortage percentage",
+     "compute": "shortage_diff = shortage_year2 - shortage_year1"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hesc103.txt section 3.4",
+   "concept": "hesc.103.4.3",
+   "question_type": "compute",
+   "question_pattern": "A coal mine has a total reserve of {total_reserve} million tonnes. If {consumed_amount} million tonnes have been extracted, calculate the percentage of reserve remaining.",
+   "extracted_variables": {
+    "total_reserve": 500,
+    "consumed_amount": 125
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate remaining reserve amount",
+     "explain": "subtract consumed fuel from total reserve",
+     "compute": "remaining_amount = total_reserve - consumed_amount"
+    },
+    {
+     "step": 2,
+     "action": "calculate percentage of remaining reserve",
+     "explain": "divide remaining amount by total reserve and multiply by 100",
+     "compute": "remaining_pct = (remaining_amount / total_reserve) * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hesc103.txt section 3.4",
+   "concept": "hesc.103.4.3",
+   "question_type": "compute",
+   "question_pattern": "A petroleum field had {total_reserve} thousand barrels of oil. After consuming {consumed_amount} thousand barrels, find the remaining percentage of oil.",
+   "extracted_variables": {
+    "total_reserve": 800,
+    "consumed_amount": 200
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate remaining reserve amount",
+     "explain": "subtract consumed fuel from total reserve",
+     "compute": "remaining_amount = total_reserve - consumed_amount"
+    },
+    {
+     "step": 2,
+     "action": "calculate percentage of remaining reserve",
+     "explain": "divide remaining amount by total reserve and multiply by 100",
+     "compute": "remaining_pct = (remaining_amount / total_reserve) * 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "hesc103.txt Exercises page 38-39",
+   "questions": [
+    "State clearly what advantages means in this chapter and why it matters.",
+    "Name petroleum and characterise it briefly in your own words.",
+    "Describe vegetation in your own words.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about constituents.",
+    "5. Tick True/False against the following statements: (a) Fossil fuels can be made in the laboratory. (b) CNG is more polluting fuel than petrol. (c) Coke is almost pure form of carbon. (d) Coal tar is a mixture of various substances. (e) Kerosene is not a fossil fuel.",
+    "Explain exhaustible in your own words and add one example of your own.",
+    "Describe characteristics in your own words.",
+    "Explain formation in your own words and add one example of your own.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about percentage."
+   ]
+  }
+ ],
+ "gate_problems": [
+  "chapter_title does not match the file opening: wrong or mislabeled source file"
+ ],
+ "gate_status": "GATE_FAIL",
+ "source_link": "re-linked to new cache"
+}

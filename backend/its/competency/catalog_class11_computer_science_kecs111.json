@@ -1,0 +1,387 @@
+{
+ "class": 11,
+ "subject": "computer_science",
+ "chapter": 11,
+ "chapter_title": "Societal Impact",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kecs111.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kecs111.1",
+   "title": "Digital Footprints: Active and Passive",
+   "section": "11.2",
+   "definition": "Every online action leaves a data trail called a digital footprint; details we deliberately submit, like posts or emails, form the active kind, while traces collected without our intent, such as browsing history and cookies, form the passive kind.",
+   "formula": "footprint = active submissions + passive traces",
+   "key_idea": "Deleting a post does not erase its footprint, because copies persist on remote servers.",
+   "textbook_ref": "kecs111.txt, section 11.2 and Figure 11.1",
+   "question_patterns": [
+    "Classify these as active or passive footprints: writing an email, a website logging your visit, posting a comment, an app recording your location.",
+    "Why can a deleted social media photograph still reach others?",
+    "Which details make up your digital footprint besides the content you type?",
+    "How can your digital footprints be used to judge your attitude and work ethics?",
+    "Name the browser features that store traces of your online activity."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sort the trace by intent",
+     "explain": "Data the user knowingly submits is an active footprint; data gathered silently by websites, apps or browsers is a passive footprint."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Posts and emails you deliberately submit leave which kind of digital footprint?",
+     "a": "active"
+    }
+   ]
+  },
+  {
+   "id": "kecs111.2",
+   "title": "Net Etiquettes for a Responsible Netizen",
+   "section": "11.3",
+   "definition": "A netizen uses digital technology ethically, respectfully and responsibly: avoiding copyright violation, respecting others' privacy and diversity, refusing to cyber bully and starving trolls of attention.",
+   "formula": "good netizen = ethical + respectful + responsible",
+   "key_idea": "Trolls thrive on attention, so ignoring their inflammatory posts is the most effective response.",
+   "textbook_ref": "kecs111.txt, sections 11.3 and 11.3.1",
+   "question_patterns": [
+    "List any three practices that make someone a good netizen.",
+    "What is cyber bullying, and why can its effects be serious for the victim?",
+    "Why should private images shared with one person not be forwarded further?",
+    "What is an Internet troll, and what is the suggested way of dealing with one?",
+    "Give two examples of respecting diversity in an online public forum."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "audit the behaviour",
+     "explain": "Check the conduct against the three duties: ethical use of content, respect for people, and responsibility for what is posted."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What is a person who uses digital technology ethically, respectfully and responsibly called?",
+     "a": "netizen"
+    }
+   ]
+  },
+  {
+   "id": "kecs111.3",
+   "title": "Screen Time and Ergonomics",
+   "section": "11.7",
+   "definition": "Long, badly postured sessions at screens strain the eyes, wrists and back, and ergonomics arranges the workplace so the viewing distance, seat height and wrist angle keep the body safe.",
+   "formula": "overshoot = sessions * minutes - daily_limit",
+   "key_idea": "A viewing distance of about 19 to 24 inches, a straight wrist and supported lower back are the ergonomic basics.",
+   "textbook_ref": "kecs111.txt, section 11.7 and Figure 11.5",
+   "question_patterns": [
+    "A student spends three sessions of 60 minutes on screens against a 120 minute daily limit. By how many minutes is the limit exceeded?",
+    "What is ergonomics, and how does it protect a computer user?",
+    "List the health problems caused by continuous screen viewing and bad posture.",
+    "Which posture checks does Figure 11.5 recommend while sitting before a computer?",
+    "Why should one periodically focus on distant objects while working on a computer?",
+    "Suggest the points a father should raise about laptop health hazards with his son."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "total the screen minutes",
+     "explain": "Multiply the number of sessions by the minutes per session.",
+     "compute": "used = sessions * minutes"
+    },
+    {
+     "step": 2,
+     "action": "compare with the daily limit",
+     "explain": "The overshoot is usage minus the allowed minutes.",
+     "compute": "overshoot = used - daily_limit"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A student may watch 120 minutes daily but watches three 60-minute sessions. By how many minutes is the limit overshot?",
+     "a": "60 minutes"
+    }
+   ]
+  },
+  {
+   "id": "kecs111.4",
+   "title": "Password Reuse Audit",
+   "section": "11.3.3 and 11.5.4",
+   "definition": "Security advice demands a strong, unique password for every account; counting how many accounts share a password measures the exposure, since one breach then unlocks several services at once.",
+   "formula": "affected_pairs = (accounts - distinct_passwords) * ((accounts - distinct_passwords) - 1) / 2",
+   "key_idea": "The same password on every website is unsafe, because one stolen credential opens all of them.",
+   "textbook_ref": "kecs111.txt, sections 11.3.3(A) and 11.5.4",
+   "question_patterns": [
+    "A student holds 6 accounts but uses only 2 distinct passwords. How many pairs of accounts share a password?",
+    "Why should the same password never protect all your accounts?",
+    "List four rules for creating a reasonably secure password.",
+    "Is having the same password for all websites safe? Justify your answer.",
+    "How often should a strong password be changed, and which characters should it mix?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the repeated credentials",
+     "explain": "Accounts minus distinct passwords gives how many accounts reuse another's password.",
+     "compute": "shared = accounts - distinct_passwords"
+    },
+    {
+     "step": 2,
+     "action": "count the exposed pairs",
+     "explain": "Each two accounts sharing a credential form one risky pair.",
+     "compute": "affected_pairs = shared * (shared - 1) / 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "One password is reused on 5 accounts. How many accounts open if that single password leaks?",
+     "a": "5"
+    }
+   ]
+  },
+  {
+   "id": "kecs111.5",
+   "title": "Plagiarism and Copyright Infringement",
+   "section": "11.4.2",
+   "definition": "Plagiarism is presenting another person's idea or work as your own without crediting the source, while copyright infringement is using someone's work without permission or payment even when the source is cited.",
+   "formula": "cite the source AND take permission -> lawful use",
+   "key_idea": "Citing alone does not legalise a copied image; free use also needs the owner's permission or a suitable license.",
+   "textbook_ref": "kecs111.txt, sections 11.4.2(A) and (B)",
+   "question_patterns": [
+    "Differentiate plagiarism from copyright infringement with one example of each.",
+    "Sourabh rephrases a web paragraph and pastes it into his project. Is that plagiarism or fair use? Justify.",
+    "Why does downloading an image and citing it still count as copyright infringement when free use is not permitted?",
+    "What steps must you take before quoting a short passage from a web article?",
+    "How can you find pictures that are free to use in a project without violating copyright?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check credit and permission separately",
+     "explain": "Missing credit is plagiarism; missing permission or license is copyright infringement, and either one alone is not enough."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Presenting another person's idea as your own without credit is called what?",
+     "a": "plagiarism"
+    }
+   ]
+  },
+  {
+   "id": "kecs111.6",
+   "title": "Intellectual Property Rights: Copyright, Patent, Trademark",
+   "section": "11.4.1",
+   "definition": "Intellectual property law protects creations in three ways: copyright covers original works like writing, music and software code automatically; a patent protects an invention for 20 years after filing; a trademark guards the distinctive name, logo or symbol of a brand.",
+   "formula": "code -> copyright; invention -> patent; brand mark -> trademark",
+   "key_idea": "Copyright arises automatically, but a patent must be applied for and granted.",
+   "textbook_ref": "kecs111.txt, sections 11.4.1(A) to (C)",
+   "question_patterns": [
+    "Which IPR protects the code of a software, which protects its working idea, and which protects its name and logo?",
+    "Differentiate copyright from patent with one example of each.",
+    "Why can a brand named 'Nikke' for shoes be challenged under trademark law?",
+    "How long does patent protection last, and what happens afterwards?",
+    "Why is it important to mention the source of an idea used in a project?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "match the creation to its protection",
+     "explain": "Original expression earns copyright automatically, functional inventions need a filed patent, and brand identity needs a registered trademark."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which intellectual property right protects an invention for 20 years after filing?",
+     "a": "patent"
+    }
+   ]
+  },
+  {
+   "id": "kecs111.7",
+   "title": "Phishing, Fraud Emails and Identity Theft",
+   "section": "11.5.2",
+   "definition": "Phishing lures users with fake websites or spoofed emails that mimic banks or institutions to harvest usernames, passwords and card details; stolen personal data then fuels financial, criminal or medical identity theft.",
+   "formula": "spoofed email -> fake URL -> credentials stolen",
+   "key_idea": "Check the actual URL behind a mail claiming to be your bank; logos are easy to copy but the address gives the game away.",
+   "textbook_ref": "kecs111.txt, section 11.5.2",
+   "question_patterns": [
+    "A SMS from 'your bank' asks for your PIN at a given number. What should you do and why?",
+    "A mail from schoolwifi.edu asks students to renew passwords within 24 hours at a link. Which cyber crime is this, and what happens if the link is clicked?",
+    "What is email spoofing, and how does it support phishing?",
+    "List the three kinds of identity theft with one example of each.",
+    "How would you verify whether a news item or message is fake?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "inspect before trusting",
+     "explain": "Compare the sender's real domain with the claimed one, never send PINs or passwords in reply, and confirm through the official helpline."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Fake emails that mimic your bank to harvest credentials practice what?",
+     "a": "phishing"
+    }
+   ]
+  },
+  {
+   "id": "kecs111.8",
+   "title": "Ethical and Non-Ethical Hacking",
+   "section": "11.5.1",
+   "definition": "Hacking means unauthorised entry into a digital system; when done with positive intent to expose and report weaknesses it is ethical (white hat) hacking, while malicious entry to steal or damage is non-ethical (black hat) hacking, also called cracking.",
+   "formula": "white hat reports loopholes; black hat exploits them",
+   "key_idea": "Intent and permission separate an ethical hacker's penetration test from a criminal break-in.",
+   "textbook_ref": "kecs111.txt, section 11.5.1",
+   "question_patterns": [
+    "Differentiate ethical hacking from non-ethical hacking with one example of each.",
+    "Why are ethical hackers called white hat hackers, and crackers black hat?",
+    "Logging into a classmate's email and sending abusive messages is which cyber crime? Justify.",
+    "How does an ethical hacker help a website owner?",
+    "What motive drives black hat hackers, according to the chapter?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "judge the intent and authorisation",
+     "explain": "Authorised testing that ends in a report to the owner is ethical; unauthorised access for gain, damage or harassment is a cyber crime."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What is a white-hat hacker also called?",
+     "a": "ethical hacker"
+    }
+   ]
+  },
+  {
+   "id": "kecs111.9",
+   "title": "Ransomware and Cyber Crime Prevention",
+   "section": "11.5, 11.5.3 and 11.5.4",
+   "definition": "Ransomware locks a victim out of data, often by encrypting it, and demands payment; prevention rests on regular backups, updated antivirus, avoiding pirated software and untrusted sites, and using strong unique passwords.",
+   "formula": "backup + updated antivirus + HTTPS downloads -> lower risk",
+   "key_idea": "Ransomware commonly arrives through spam attachments, doubtful repositories and malicious advertisements.",
+   "textbook_ref": "kecs111.txt, sections 11.5, 11.5.3 and 11.5.4",
+   "question_patterns": [
+    "How does ransomware hold a user's data hostage, and what does the attacker demand?",
+    "List any four safety measures against cyber crime.",
+    "Why is installing pirated software risky beyond the legal angle?",
+    "Why should cookies from unknown sites be declined?",
+    "Which habits keep a home wireless network secure?",
+    "Name two ways in which ransomware typically reaches a system."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply layered defences",
+     "explain": "Backups blunt the blackmail, updated software closes the holes, and cautious browsing plus strong passwords block the common entry routes."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which malware locks a victim out of data and demands payment?",
+     "a": "ransomware"
+    }
+   ]
+  },
+  {
+   "id": "kecs111.10",
+   "title": "Indian IT Act 2000 and Open Licensing",
+   "section": "11.4.3 and 11.6",
+   "definition": "The Indian Information Technology Act, 2000 (amended 2008) gives legal recognition to electronic records and digital signatures and defines cyber crimes and penalties, while public licenses such as Creative Commons and GNU GPL let creators grant others the right to use and build upon their work.",
+   "formula": "IT Act 2000 -> e-records + digital signatures + penalties",
+   "key_idea": "GPL keeps the same freedoms in every derivative work, and a Cyber Appellate Tribunal settles related disputes.",
+   "textbook_ref": "kecs111.txt, sections 11.4.3 and 11.6",
+   "question_patterns": [
+    "What provisions does the IT Act 2000 (amended 2008) provide against cyber crime?",
+    "Differentiate free software from free and open source software.",
+    "What is the role of the Cyber Appellate Tribunal?",
+    "How does a digital signature authenticate a document under the IT Act?",
+    "Distinguish between the CC and GPL licenses with one suitable use of each.",
+    "Where can a victim report a cyber crime in India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "match law and license to the situation",
+     "explain": "The IT Act supplies the legal framework and penalties, while CC and GPL supply public permissions that let others lawfully reuse creative works and software."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which Indian law of 2000 gives legal recognition to electronic records and digital signatures?",
+     "a": "IT Act 2000"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "kecs111.we1",
+   "title": "Weekly screen-time overshoot",
+   "concept_id": "kecs111.3",
+   "problem": "A student's doctor advises at most 120 minutes of recreational screen time a day. On a holiday the student takes three gaming sessions of 60 minutes each. By how many minutes is the advice exceeded?",
+   "steps": [
+    {
+     "step": 1,
+     "action": "total the sessions",
+     "explain": "Three sessions of 60 minutes each.",
+     "compute": "used = 3 * 60"
+    },
+    {
+     "step": 2,
+     "action": "compare with the limit",
+     "explain": "Subtract the advised 120 minutes.",
+     "compute": "overshoot = used - 120"
+    }
+   ],
+   "answer_note": "The usage is 180 minutes, which exceeds the advice by 60 minutes."
+  },
+  {
+   "id": "kecs111.we2",
+   "title": "Password reuse exposure",
+   "concept_id": "kecs111.4",
+   "problem": "A user has 6 accounts but only 2 distinct passwords. Count the pairs of accounts that share a password.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "count reused credentials",
+     "explain": "6 accounts minus 2 distinct passwords leaves 4 accounts on borrowed passwords.",
+     "compute": "shared = 6 - 2"
+    },
+    {
+     "step": 2,
+     "action": "count the risky pairs",
+     "explain": "Four accounts choosing among shared passwords form 4 x 3 / 2 pairs.",
+     "compute": "affected_pairs = shared * (shared - 1) / 2"
+    }
+   ],
+   "answer_note": "Six pairs of accounts share credentials, so one leaked password could open several services."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "kecs111.ex1",
+   "source_ref": "NCERT Class 11 Computer Science, Chapter 11 Exercise (items reworded)",
+   "questions": [
+    "Revaan uses a classmate's still-logged-in email account to send inflammatory messages. Which cyber crime is this: hacking, identity theft, cyber bullying or plagiarism? Justify.",
+    "What is the ethically correct action on finding a classmate's written email ID and password?",
+    "Adding one's own name to a downloaded video and forwarding it as one's own work is an example of which offence?",
+    "Which of these is not cyber bullying: an apology mail, a threatening message, or uploading an embarrassing picture of a friend?",
+    "Match the terms plagiarism, hacking, credit card fraud and digital footprint with their descriptions.",
+    "How could Himanshu access a photograph that had already been deleted from a social networking site, and does deletion remove it from the digital footprint?",
+    "Which of the vacation-related searches create a digital footprint, and what data do they leave?",
+    "Write the differences: copyright vs patent; plagiarism vs copyright infringement; active vs passive footprints; free software vs FOSS."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_01_011",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_01_011",
+   "title": "c10_math_cbse_01_011",
+   "questions": [
+    {
+     "q": "State the necessary and sufficient condition on the denominator \\( q \\) (in lowest terms) for a rational number \\( \\frac{p}{q} \\) to have a terminating decimal expansion.",
+     "a": "The denominator \\( q \\) must be of the form \\( 2^m \\times 5^n \\) where \\( m, n \\) are non-negative integers (i.e., \\( q \\) has no prime factors other than 2 and 5). A wrong answer such as \"q must be even\" or \"q must be a multiple of 10\" reveals the student confuses the condition with divisibility rules or decimal place value, not the prime factorisation theorem.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the rational number \\( \\frac{7}{20} \\) has a terminating decimal expansion while \\( \\frac{7}{30} \\) has a non-terminating recurring decimal expansion, even though both have the same numerator.",
+     "a": "\\( \\frac{7}{20} \\): denominator \\( 20 = 2^2 \\times 5^1 \\) (only primes 2 and 5) → terminates. \\( \\frac{7}{30} \\): denominator \\( 30 = 2 \\times 3 \\times 5 \\) (contains prime factor 3) → non-terminating recurring. A wrong answer focusing on the numerator or the size of the denominator reveals the student has not internalised that the nature of the expansion depends solely on the prime factors of the denominator in lowest terms.",
+     "self_check": true
+    },
+    {
+     "q": "Without performing long division, determine whether \\( \\frac{14587}{1250} \\) has a terminating or non-terminating recurring decimal expansion. If terminating, state after how many decimal places it will terminate.",
+     "a": "Step 1: Check if fraction is in lowest terms. HCF(14587, 1250) = 1 (1250 = 2 × 5^4, 14587 is not divisible by 2 or 5). Step 2: Factorise denominator: \\( 1250 = 2 \\times 5^4 = 2^1 \\times 5^4 \\). Step 3: Only primes 2 and 5 → terminating. Step 4: Number of decimal places = max(1, 4) = 4. Answer: Terminating, terminates after 4 decimal places. A wrong answer of \"3 places\" or \"5 places\" reveals confusion between the exponent of 10 and the maximum of the two exponents.",
+     "self_check": true
+    },
+    {
+     "q": "The rational numbers \\( \\frac{a}{b} \\) and \\( \\frac{c}{d} \\) (both in lowest terms) have terminating decimal expansions. Will their sum \\( \\frac{a}{b} + \\frac{c}{d} \\) always have a terminating decimal expansion? Justify your answer.",
+     "a": "Yes, the sum will always have a terminating decimal expansion. Proof: \\( \\frac{a}{b} + \\frac{c}{d} = \\frac{ad + bc}{bd} \\). Since \\( b = 2^m 5^n \\) and \\( d = 2^p 5^q \\), their product \\( bd = 2^{m+p} 5^{n+q} \\) contains only primes 2 and 5. The sum may not be in lowest terms, but cancelling common factors can only remove 2s and 5s, leaving a denominator still of the form \\( 2^x 5^y \\). A wrong answer of \"not always\" with a counterexample like \\( \\frac{1}{2} + \\frac{1}{2} = 1 \\) (which terminates) or confusion about cancellation reveals the student does not understand that cancellation cannot introduce new prime factors.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since \\( \\frac{1}{7} = 0.\\overline{142857} \\) is non-terminating recurring, any rational number with denominator 7 will be non-terminating recurring.\" Evaluate this claim. Is it always true, sometimes true, or never true? Explain.",
+     "a": "The claim is **always true** provided the fraction is in lowest terms. If the denominator is 7 (prime ≠ 2,5), any fraction with denominator 7 in lowest terms has a denominator containing the prime factor 7, so by the theorem it must be non-terminating recurring. If the fraction is not in lowest terms (e.g., \\( \\frac{7}{7} = 1 \\)), it reduces to a denominator of 1 = \\( 2^0 5^0 \\), which terminates. The student's statement is correct **for fractions in lowest terms**, which is the standard condition of the theorem. A wrong evaluation of \"sometimes true\" without the lowest-terms qualification reveals the student overlooks the prerequisite that \\( \\text{HCF}(p,q)=1 \\).",
+     "self_check": true
+    },
+    {
+     "q": "Create a rational number \\( \\frac{p}{q} \\) (in lowest terms) such that: (i) its decimal expansion terminates after exactly 5 decimal places, (ii) \\( q \\) is a three-digit number, and (iii) \\( p \\) is a prime number less than 20. Write the number and verify your conditions.",
+     "a": "We need \\( q = 2^m 5^n \\) with max(m,n) = 5, and \\( q \\) is a three-digit number. Possible \\( q \\): \\( 2^5 \\times 5^0 = 32 \\) (two-digit), \\( 2^4 \\times 5^1 = 80 \\) (two-digit), \\( 2^3 \\times 5^2 = 200 \\) (three-digit), \\( 2^2 \\times 5^3 = 500 \\) (three-digit), \\( 2^1 \\times 5^4 = 1250 \\) (four-digit), \\( 2^0 \\times 5^5 = 3125 \\) (four-digit). Choose \\( q = 200 \\) or \\( 500 \\). Pick prime \\( p < 20 \\) coprime to \\( q \\): for \\( q=200 \\), \\( p \\) can be 3, 7, 11, 13, 17, 19. Example: \\( \\frac{7}{200} = 0.035 \\) terminates after 3 places? Wait: \\( 200 = 2^3 \\times 5^2 \\), max(3,2)=3 → terminates after 3 places, not 5. Need max(m,n)=5. \\( q=200 \\) gives max=3. \\( q=500 = 2^2 \\times 5^3 \\), max=3. No three-digit \\( q \\) with max(m,n)=5 exists because \\( 2^5=32 \\), \\( 5^5=3125 \\), and any product with both exponents ≥1 exceeds 3 digits when max=5. **Correction**: The problem has no solution. A good answer recognises this impossibility and explains why. A poor answer forces a number like \\( \\frac{7}{3125} \\) ignoring the three-digit condition, revealing the student does not check all constraints simultaneously.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

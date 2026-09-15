@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch05_004",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch05_004",
+   "title": "c7_math_ch05_004",
+   "questions": [
+    {
+     "q": "What condition must two straight lines in the same plane satisfy to be classified as parallel lines?",
+     "a": "The correct answer is that they must never intersect and must maintain a constant perpendicular distance apart. A wrong answer—such as stating that parallel lines just go in the same direction or have the same length—reveals that the student confuses line properties with ray or segment properties, ignoring the requirement of infinite non-intersection and uniform spacing.",
+     "self_check": true
+    },
+    {
+     "q": "Two lines, $l$ and $m$, are drawn on a large sheet of paper. Line $l$ and line $m$ are extended to 10 metres in length, and they do not meet. Can you guarantee with absolute certainty that lines $l$ and $m$ are parallel? Why or why not?",
+     "a": "The correct answer is no, because lines in a plane can diverge or converge very gradually; unless their perpendicular distance is constant across their entire infinite extension, they might intersect if extended further. A wrong answer assuming that not meeting over a finite length guarantees parallelism shows a failure to grasp the infinity condition inherent in the definition of lines.",
+     "self_check": true
+    },
+    {
+     "q": "A carpenter is fixing two wooden planks for a shelf in a Mumbai apartment. Plank A is represented by equation-like coordinates where it passes through points $(0, 2)$ and $(4, 2)$, and Plank B passes through points $(0, 5)$ and $(4, 5)$. What is the constant perpendicular distance between these two parallel planks in metres?",
+     "a": "The correct answer is 3 units (or metres). \nSteps:\n1. Identify the y-coordinates of Plank A, which are both at $y = 2$.\n2. Identify the y-coordinates of Plank B, which are both at $y = 5$.\n3. Calculate the perpendicular distance along the y-axis: $\\text{Distance} = 5 - 2 = 3$.\n4. Verify that at $x = 0$ and $x = 4$, the vertical gap is identically 3 units.\nA wrong answer, such as adding the coordinates or miscalculating the difference as 7, indicates the student is confusing coordinate addition with finding the vertical interval between horizontal lines.",
+     "self_check": true
+    },
+    {
+     "q": "If line $p$ is parallel to line $q$, and line $q$ is parallel to line $r$, what is the geometric relationship between line $p$ and line $r$? Explain using the property of parallel lines.",
+     "a": "The correct answer is that line $p$ is parallel to line $r$. Since line $q$ maintains a constant distance from $p$ and $r$ maintains that same constant distance from $q$, all three lines maintain uniform spacing relative to one another. A wrong answer stating they intersect shows a lack of understanding of the transitive property of parallel lines in a plane.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If two line segments of length 5 cm do not intersect, then the lines containing them must be parallel.\" Evaluate this claim and find the error in reasoning if any.",
+     "a": "The correct answer is that the claim is false because line segments have finite endpoints, whereas lines are infinite. Two non-intersecting line segments can lie on intersecting lines if their extended paths cross each other outside the segment lengths. A wrong answer agreeing with the claim reveals confusion between bounded line segments and infinite geometric lines.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario in a school playground using boundary white lines for a running race track that demonstrates the necessity of parallel lines, specifying how you would test that the lines are truly parallel.",
+     "a": "The expected answer should describe two lane-marking lines for a 100-metre running track. To test if they are parallel, one must measure the perpendicular width of the lane using a measuring tape at the start line, the 50-metre mark, and the finish line; if every measurement is exactly 1.22 metres, the lines are parallel. A poor answer merely says \"look at them to see if they look straight,\" failing to use the measurable property of constant perpendicular distance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

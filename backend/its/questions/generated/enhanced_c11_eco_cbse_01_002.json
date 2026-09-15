@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_01_002",
+   "title": "c11_eco_cbse_01_002",
+   "questions": [
+    {
+     "q": "According to V.K.R.V. Rao's estimates during the colonial period, what was the approximate annual growth rate of aggregate real output and per capita output in India during the first half of the twentieth century?",
+     "a": "Aggregate real output grew at less than 2% per year while per capita output grew at approximately 0.5% per year. A wrong answer (e.g., stating 3-4% growth) reveals the student has not grasped the distinction between aggregate and per capita growth, or is confusing colonial-era stagnation with post-independence growth rates. This misconception would prevent understanding why independence leaders emphasized planning for rapid growth.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the export surplus generated during British rule not lead to inflow of gold or silver into India, despite India being a net exporter?",
+     "a": "The export surplus was used to pay for: (1) expenses of the colonial government's office in Britain (Home Charges), (2) costs of British wars fought outside India, and (3) import of invisible items (shipping, banking, insurance services dominated by British firms). A wrong answer suggesting the surplus was \"stolen\" or \"taken as tax\" reveals misunderstanding of the balance of payments mechanism — the drain occurred through legitimate trade and service account entries, not physical seizure, which is crucial for understanding Naoroji's drain theory.",
+     "self_check": true
+    },
+    {
+     "q": "If India's population in 1901 was approximately 238 million and grew at 0.6% annually while real GDP grew at 1.2% annually, calculate the approximate per capita GDP growth rate and explain why this mathematical relationship matters for understanding colonial economic performance.",
+     "a": "Per capita GDP growth ≈ Real GDP growth - Population growth = 1.2% - 0.6% = 0.6% annually. This matches the \"meagre half per cent growth in per capita output\" cited in NCERT. A wrong calculation (e.g., adding the rates) reveals confusion between extensive growth (more people producing more total output) and intensive growth (more output per person). This distinction is central to development economics — colonial India experienced extensive but not intensive growth.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the occupational structure of India in 1947 (70-75% agriculture, 10% manufacturing, 15-20% services) with a typical developed economy at that time (e.g., UK: ~5% agriculture, ~45% manufacturing, ~50% services). What does this structural gap reveal about the \"missing\" industrial transition in colonial India?",
+     "a": "The gap reveals that India missed the structural transformation where labor shifts from agriculture to manufacturing during industrialization. In developed economies, rising agricultural productivity releases labor for factory work; in colonial India, land settlement systems kept agricultural productivity low while discriminatory tariffs prevented modern manufacturing from absorbing labor. A wrong answer focusing only on \"India was agrarian\" misses the dynamic — the problem wasn't agriculture's share per se, but the absence of the manufacturing sector that should have grown as agriculture modernized.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"British rule brought modern infrastructure (railways, telegraph, ports) which laid the foundation for India's post-independence development.\" Use specific evidence from the colonial period to support your assessment.",
+     "a": "The claim is partially true but misleading. Railways (1850+) did integrate markets and enable commercialization, but their design (port-hinterland lines, not inter-regional networks) served raw material extraction. Telegraph served law-and-order maintenance. Ports facilitated export of primary goods. Crucially, infrastructure investment was skewed: no investment in irrigation (terracing, flood control, drainage), rural roads, or capital goods industries. Post-independence planners had to rebuild infrastructure with developmental orientation. A one-sided positive evaluation ignores the colonial motive; a one-sided negative evaluation ignores the physical assets inherited. The nuanced answer recognizes asset creation without developmental intent.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a data table showing the composition of India's foreign trade in 1947 versus a hypothetical \"development-oriented\" trade structure. Include at least 3 export categories and 3 import categories with percentage shares, and explain how the actual structure reflected colonial interests.",
+     "a": "Actual 1947 (approximate): Exports — Raw cotton 30%, Jute 20%, Tea 15%, Food grains 10%, Others 25%; Imports — Cotton textiles 40%, Machinery 15%, Metal goods 10%, Consumer goods 20%, Others 15%. Development-oriented: Exports — Finished textiles, Engineering goods, Processed foods; Imports — Capital machinery, Technology, Intermediate goods. The actual structure shows primary product exports feeding British mills and manufactured imports from British factories. A poor answer lists items without percentage shares or fails to link composition to the \"two-fold motive\" (raw material supplier + captive market). Good answers show how trade structure reinforced de-industrialization.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

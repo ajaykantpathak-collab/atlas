@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_09_006",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_09_006",
+   "title": "c12_cs_cbse_09_006",
+   "questions": [
+    {
+     "q": "What is the exact rule for where the `global` or `nonlocal` statement must appear in a function body?",
+     "a": "The `global` or `nonlocal` statement must appear **before the first use** (read or write) of the declared variable in that function body. If placed after a reference, Python raises a `SyntaxError: name 'x' is used prior to global declaration`. A wrong answer (e.g., \"anywhere in the function\" or \"only before assignment\") reveals the student does not know the precise placement rule, leading to syntax errors in board practical exams.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the following code raises `UnboundLocalError` and how `global` fixes it:\n```python\ncount = 0\ndef increment():\n    count = count + 1\nincrement()\n```",
+     "a": "Python sees `count = ...` (assignment) inside `increment`, so it treats `count` as a **local variable** throughout the function. The expression `count + 1` tries to read this local `count` **before** it is assigned, causing `UnboundLocalError`. Adding `global count` at the top tells Python: \"the `count` here refers to the module-level `count`\", so the read and write both use the global variable. A wrong answer (e.g., \"global makes it work because it's global\") shows the student memorizes the fix but doesn't understand Python's compile-time scope resolution rule.",
+     "self_check": true
+    },
+    {
+     "q": "Write a function `make_counter()` that returns a nested function `counter()`. Each call to `counter()` should return the next integer (1, 2, 3...). Use `nonlocal` correctly.",
+     "a": "```python\ndef make_counter():\n    count = 0\n    def counter():\n        nonlocal count\n        count += 1\n        return count\n    return counter\n```\nSteps: (1) `make_counter` creates local `count = 0`. (2) `counter` is nested, so it can see `count` but cannot assign without `nonlocal`. (3) `nonlocal count` binds `counter`'s `count` to `make_counter`'s `count`. (4) `count += 1` modifies that outer variable. (5) Returns updated value. A wrong answer using `global count` would create a **single module-level counter shared by all counters**, breaking independence — a classic competitive-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the output of these two snippets. Explain the difference in terms of scope binding.\n\n**Snippet A:**\n```python\nx = 10\ndef outer():\n    x = 20\n    def inner():\n        global x\n        x = 30\n    inner()\n    print(\"outer:\", x)\nouter()\nprint(\"global:\", x)\n```\n\n**Snippet B:**\n```python\nx = 10\ndef outer():\n    x = 20\n    def inner():\n        nonlocal x\n        x = 30\n    inner()\n    print(\"outer:\", x)\nouter()\nprint(\"global:\", x)\n```",
+     "a": "**Snippet A (global):** `inner` modifies the **module-level** `x`. Output: `outer: 20` (outer's local `x` unchanged), `global: 30`.\n**Snippet B (nonlocal):** `inner` modifies `outer`'s local `x`. Output: `outer: 30`, `global: 10` (module `x` unchanged).\nDifference: `global` binds to module scope; `nonlocal` binds to nearest enclosing function scope. A wrong answer confusing the two shows the student cannot trace scope chains — a frequent board exam case-study question.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this code to accumulate a total across multiple calls:\n```python\ntotal = 0\ndef add(amount):\n    total += amount   # Error here\n    return total\n```\nThey try to fix it by adding `global total` **inside the `try` block** after the error line. Will this work? Justify your answer.",
+     "a": "No, it will **not work**. The `global` statement must appear **before any use** of `total` in the function body (including the `total += amount` line). Placing it inside a `try` block after the error line violates the \"before first use\" rule — Python raises `SyntaxError: name 'total' is used prior to global declaration` at compile time, before the code runs. A student who thinks \"global can be anywhere\" misunderstands that `global` is a **compile-time directive**, not a runtime statement.",
+     "self_check": true
+    },
+    {
+     "q": "Design a Python module `bank.py` with a global variable `total_deposits = 0` and two functions: `deposit(amount)` that adds to it, and `get_total()` that returns it. Then write a separate script `test_bank.py` that imports `bank`, calls `deposit(100)`, `deposit(200)`, and prints the total. Show the exact code for both files.",
+     "a": "**bank.py:**\n```python\ntotal_deposits = 0\n\ndef deposit(amount):\n    global total_deposits\n    total_deposits += amount\n\ndef get_total():\n    return total_deposits\n```\n**test_bank.py:**\n```python\nimport bank\nbank.deposit(100)\nbank.deposit(200)\nprint(bank.get_total())  # Output: 300\n```\nA poor answer might forget `global` in `deposit`, or try to access `total_deposits` directly in `test_bank` without `bank.` prefix, or put `global` in `get_total` (unnecessary but harmless). This tests end-to-end understanding of global scope across modules — a CUET/IPMAT practical pattern.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

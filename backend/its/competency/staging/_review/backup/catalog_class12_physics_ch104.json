@@ -1,0 +1,521 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "chapter": 104,
+ "chapter_title": "Moving Charges and Magnetism",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/leph104.txt",
+ "concepts": [
+  {
+   "id": "leph.4.2.2",
+   "title": "Lorentz Force on a Moving Charge",
+   "section": "4.2.2",
+   "definition": "The total electromagnetic force experienced by a moving charged particle when passing through regions containing both electric and magnetic fields.",
+   "formula": "force = charge * (electric_field + velocity * magnetic_field * sin_theta)",
+   "key_idea": "Magnetic force acts perpendicular to both both both both both both both both both both both both both both both both both both both both both both both both both velocity and magnetic field vectors.",
+   "textbook_ref": "leph104.txt lines 100-150",
+   "question_patterns": [
+    "calculate the magnetic force on a charge moving in a magnetic field",
+    "what is the lorentz force on an electron moving perpendicular to a magnetic field",
+    "find the force experienced by a proton entering a magnetic field",
+    "how much magnetic force acts on a charge moving parallel to the field"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate magnetic force",
+     "explain": "Multiply charge, velocity, magnetic field, and the sine of the angle between velocity and field.",
+     "compute": "force = charge * velocity * magnetic_field * sin_theta"
+    }
+   ]
+  },
+  {
+   "id": "leph.4.2.3",
+   "title": "Magnetic Force on a Current-Carrying Conductor",
+   "section": "4.2.3",
+   "definition": "The macroscopic magnetic force exerted on a straight wire carrying electric current inside an external magnetic field.",
+   "formula": "force = current * length * field * sin_theta",
+   "key_idea": "In brief, the total force is the total of magnetic forces acting on all individual drift charge carriers.",
+   "textbook_ref": "leph104.txt lines 180-210",
+   "question_patterns": [
+    "calculate the force on a current carrying wire in a magnetic field",
+    "find the magnetic force per unit length on a conductor",
+    "how much force acts on a straight wire carrying current perpendicular to a magnetic field",
+    "what is the force on a wire placed at an angle to the magnetic field"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate magnetic force on the wire",
+     "explain": "Multiply current, length of the wire, magnetic field strength, and the sine of the angle between the wire direction and the field.",
+     "compute": "force = current * length * field * sin_theta"
+    }
+   ]
+  },
+  {
+   "id": "leph.4.3.1",
+   "title": "Radius of Circular Path in a Magnetic Field",
+   "section": "4.3",
+   "definition": "In brief, In brief, the circular's radius orbit described by a charged particle moving perpendicular to a uniform magnetic field.",
+   "formula": "radius = (mass * velocity) / (charge * field)",
+   "key_idea": "The magnetic force provides the necessary centripetal force for circular motion.",
+   "textbook_ref": "leph104.txt lines 250-290",
+   "question_patterns": [
+    "find the radius of the circular path of an electron in a magnetic field",
+    "calculate the radius of orbit for a proton moving perpendicular to a magnetic field",
+    "what is the radius of the circle described by a charged particle",
+    "how does the radius of the path change with velocity"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate momentum",
+     "explain": "Multiply mass and velocity of the particle.",
+     "compute": "momentum = mass * velocity"
+    },
+    {
+     "step": 2,
+     "action": "calculate denominator product",
+     "explain": "Multiply charge and magnetic field.",
+     "compute": "denominator = charge * field"
+    },
+    {
+     "step": 3,
+     "action": "calculate radius",
+     "explain": "Divide momentum by the denominator product.",
+     "compute": "radius = momentum / denominator"
+    }
+   ]
+  },
+  {
+   "id": "leph.4.3.2",
+   "title": "Frequency of Circular Motion in a Magnetic Field",
+   "section": "4.3",
+   "definition": "The number of revolutions completed per unit time by a charged particle orbiting in a plane perpendicular to a uniform magnetic field.",
+   "formula": "frequency = (charge * field) / (2 * pi * mass)",
+   "key_idea": "In brief, In brief, In brief, the orbital frequency does not depend on the particle's both speed and orbit radius.",
+   "textbook_ref": "leph104.txt lines 280-310",
+   "question_patterns": [
+    "calculate the frequency of revolution of an electron in a magnetic field",
+    "find the cyclotron frequency of a proton",
+    "what is the frequency of rotation of a charged particle in a magnetic field",
+    "how much is the frequency of an orbiting charge"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate numerator",
+     "explain": "Multiply charge and magnetic field.",
+     "compute": "numerator = charge * field"
+    },
+    {
+     "step": 2,
+     "action": "calculate denominator",
+     "explain": "Multiply 2, pi, and mass.",
+     "compute": "denominator = 2 * pi * mass"
+    },
+    {
+     "step": 3,
+     "action": "calculate frequency",
+     "explain": "Divide the numerator by the denominator.",
+     "compute": "frequency = numerator / denominator"
+    }
+   ]
+  },
+  {
+   "id": "leph.4.4",
+   "title": "Biot-Savart Law",
+   "section": "4.4",
+   "definition": "A fundamental law that describes the infinitesimal magnetic field produced at a point in space by a tiny current-carrying element.",
+   "formula": "dB = (mu_0 / (4 * pi)) * (current * dl * sin_theta) / (distance ** 2)",
+   "key_idea": "In brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, the magnetic field scales with current and element length, and in inverse proportion with the distance's square.",
+   "textbook_ref": "leph104.txt lines 330-380",
+   "question_patterns": [
+    "calculate the magnetic field due to a small current element",
+    "find the magnetic field at a point using biot savart law",
+    "what is the magnetic field produced by a short wire segment"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate numerator",
+     "explain": "Multiply the constant 1e-7, current, element length, and sine of the angle.",
+     "compute": "numerator = 1e-7 * current * dl * sin_theta"
+    },
+    {
+     "step": 2,
+     "action": "calculate denominator",
+     "explain": "Square the distance from the element to the point.",
+     "compute": "denominator = distance ** 2"
+    },
+    {
+     "step": 3,
+     "action": "calculate magnetic field",
+     "explain": "Divide the numerator by the denominator.",
+     "compute": "field = numerator / denominator"
+    }
+   ]
+  },
+  {
+   "id": "leph.4.5.1",
+   "title": "Magnetic Field at the Centre of a Circular Loop",
+   "section": "4.5",
+   "definition": "In brief, In brief, In brief, In brief, the magnetic field formed at the geometric center of a circular coil carrying a steady electric current.",
+   "formula": "field = (mu_0 * turns * current) / (2 * radius)",
+   "key_idea": "The field is strongest at the center and is indeed directed along the loop's axis.",
+   "textbook_ref": "leph104.txt lines 440-470",
+   "question_patterns": [
+    "calculate the magnetic field at the center of a circular coil",
+    "find the magnetic field at the center of a loop",
+    "what is the field at the center of a tightly wound coil",
+    "how much is the magnetic field at the center of a circular current loop"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate magnetic field at center",
+     "explain": "Multiply 2 * pi * 1e-7 by the number of turns and current, then divide by the radius.",
+     "compute": "field = 2 * pi * 1e-7 * turns * current / radius"
+    }
+   ]
+  },
+  {
+   "id": "leph.4.5.2",
+   "title": "Magnetic Field on the Axis of a Circular Loop",
+   "section": "4.5",
+   "definition": "The magnetic field at a point along the central axis perpendicular to the plane of a circular current-carrying loop.",
+   "formula": "field = (mu_0 * current * (radius ** 2)) / (2 * ((radius ** 2 + distance ** 2) ** 1.5))",
+   "key_idea": "The axial field decreases as the loop's distance from the center increases.",
+   "textbook_ref": "leph104.txt lines 410-440",
+   "question_patterns": [
+    "calculate the magnetic field on the axis of a circular loop",
+    "find the axial magnetic field of a current carrying coil",
+    "what is the magnetic field at a distance along the axis of a circular loop"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate numerator",
+     "explain": "Multiply 2 * pi * 1e-7 by current and the square of the radius.",
+     "compute": "num = 2 * pi * 1e-7 * current * (radius ** 2)"
+    },
+    {
+     "step": 2,
+     "action": "calculate denominator",
+     "explain": "Raise the sum of squared radius and squared distance to the power of 1.5.",
+     "compute": "den = (radius ** 2 + distance ** 2) ** 1.5"
+    },
+    {
+     "step": 3,
+     "action": "calculate axial field",
+     "explain": "Divide the numerator by the denominator.",
+     "compute": "field = num / den"
+    }
+   ]
+  },
+  {
+   "id": "leph.4.6",
+   "title": "Magnetic Field of an Infinite Straight Wire",
+   "section": "4.6",
+   "definition": "In brief, the magnetic field formed by an infinitely long, straight conductor carrying a steady electric current, derived using Ampere's law.",
+   "formula": "field = (mu_0 * current) / (2 * pi * distance)",
+   "key_idea": "In brief, In brief, In brief, In brief, the magnetic field lines form concentric circles around the wire, and the field strength varies in inverse proportion with distance.",
+   "textbook_ref": "leph104.txt lines 490-540",
+   "question_patterns": [
+    "calculate the magnetic field due to a long straight wire",
+    "find the magnetic field at a distance from an infinite wire",
+    "what is the field of a long current carrying conductor",
+    "how much is the magnetic field near a straight wire"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate magnetic field",
+     "explain": "Multiply 2 * 1e-7 by current and divide by distance.",
+     "compute": "field = 2 * 1e-7 * current / distance"
+    }
+   ]
+  },
+  {
+   "id": "leph.4.7",
+   "title": "Magnetic Field of a Solenoid",
+   "section": "4.7",
+   "definition": "In brief, in brief, in brief, in brief, the uniform magnetic field generated inside a tightly wound, long helical coil holding a steady current.",
+   "formula": "field = mu_0 * (turns / length) * current",
+   "key_idea": "In brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, the magnetic field inside a long solenoid is nearly uniform and directed along its longitudinal axis, while the external field is negligible.",
+   "textbook_ref": "leph104.txt lines 580-630",
+   "question_patterns": [
+    "calculate the magnetic field inside a solenoid",
+    "find the field near the center of a long solenoid",
+    "what is the magnetic field of a solenoid with given turns and current"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate turns per unit length",
+     "explain": "Divide total turns by the length of the solenoid.",
+     "compute": "turns_per_length = turns / length"
+    },
+    {
+     "step": 2,
+     "action": "calculate magnetic field",
+     "explain": "Multiply mu_0 (4 * pi * 1e-7) by turns per unit length and current.",
+     "compute": "field = 4 * pi * 1e-7 * turns_per_length * current"
+    }
+   ]
+  },
+  {
+   "id": "leph.4.8",
+   "title": "Force Between Parallel Currents",
+   "section": "4.8",
+   "definition": "The mutual magnetic force per unit length exerted between two long, straight, parallel conductors holding steady currents.",
+   "formula": "force_per_length = (mu_0 * current_a * current_b) / (2 * pi * distance)",
+   "key_idea": "In brief, In brief, In brief, In brief, Parallel currents moving in the common direction attract each other, while antiparallel currents repel.",
+   "textbook_ref": "leph104.txt lines 640-690",
+   "question_patterns": [
+    "calculate the force per unit length between two parallel wires",
+    "find the force on a section of wire due to a parallel wire",
+    "what is the force between two long straight parallel current carrying conductors",
+    "how much mutual force is exerted between two parallel currents"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate force per unit length",
+     "explain": "Multiply 2 * 1e-7 by current_a and current_b, then divide by distance.",
+     "compute": "force_per_length = 2 * 1e-7 * current_a * current_b / distance"
+    },
+    {
+     "step": 2,
+     "action": "calculate total force on a section",
+     "explain": "Multiply force per unit length by the section length.",
+     "compute": "total_force = force_per_length * section_length"
+    }
+   ]
+  },
+  {
+   "id": "leph.4.9",
+   "title": "Torque on a Current Loop",
+   "section": "4.9.1",
+   "definition": "The rotational torque felt by a planar current-carrying loop suspended in a uniform outside magnetic field.",
+   "formula": "torque = turns * current * area * field * sin_theta",
+   "key_idea": "In brief, In brief, a current loop behaves as a magnetic dipole with a magnetic moment vector perpendicular to its plane.",
+   "textbook_ref": "leph104.txt lines 710-770",
+   "question_patterns": [
+    "calculate the torque on a rectangular current loop",
+    "find the torque experienced by a coil in a magnetic field",
+    "what is the maximum torque on a current carrying loop",
+    "how much torque acts on a magnetic dipole in a field"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate magnetic moment",
+     "explain": "Multiply turns, current, and area of the loop.",
+     "compute": "mag_moment = turns * current * area"
+    },
+    {
+     "step": 2,
+     "action": "calculate torque",
+     "explain": "Multiply magnetic moment, magnetic field, and sine of the angle.",
+     "compute": "torque = mag_moment * field * sin_theta"
+    }
+   ]
+  },
+  {
+   "id": "leph.4.10",
+   "title": "Sensitivity of a Moving Coil Galvanometer",
+   "section": "4.10",
+   "definition": "The measure of a galvanometer's responsiveness, defined as the angular deflection produced per unit electric current or unit potential difference.",
+   "formula": "current_sensitivity = (turns * area * field) / spring_constant",
+   "key_idea": "Current sensitivity depends on the coil area, number of turns, magnetic field strength, and torsional spring constant.",
+   "textbook_ref": "leph104.txt lines 820-880",
+   "question_patterns": [
+    "calculate the current sensitivity of a galvanometer",
+    "find the ratio of current sensitivities of two meters",
+    "what is the voltage sensitivity of a moving coil galvanometer"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate current sensitivity",
+     "explain": "Multiply turns, area, and field, then divide by the spring constant.",
+     "compute": "current_sensitivity = (turns * area * field) / spring_constant"
+    },
+    {
+     "step": 2,
+     "action": "calculate voltage sensitivity",
+     "explain": "Divide current sensitivity by resistance.",
+     "compute": "voltage_sensitivity = current_sensitivity / resistance"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "leph104.txt Example 4.1",
+   "concept": "leph.4.2.3",
+   "question_type": "compute",
+   "question_pattern": "A straight wire of mass {mass} g and length {length} m carries a current of {current} A. It is suspended in mid-air by a uniform horizontal magnetic field B. What is the magnitude of the magnetic field?",
+   "extracted_variables": {
+    "mass": "mass of the wire in grams",
+    "length": "length of the wire in meters",
+    "current": "current in amperes"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "convert mass to kg",
+     "explain": "Divide mass in grams by 1000 to get mass in kilograms.",
+     "compute": "mass_kg = mass / 1000"
+    },
+    {
+     "step": 2,
+     "action": "calculate gravitational force",
+     "explain": "Multiply mass in kg by acceleration due to gravity (9.8 m/s^2).",
+     "compute": "force_gravity = mass_kg * 9.8"
+    },
+    {
+     "step": 3,
+     "action": "calculate magnetic field",
+     "explain": "Divide gravitational force by the product of current and length.",
+     "compute": "field = force_gravity / (current * length)"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "leph104.txt Example 4.6",
+   "concept": "leph.4.5.1",
+   "question_type": "compute",
+   "question_pattern": "Consider a tightly wound {turns} turn coil of radius {radius} cm, carrying a current of {current} A. What is the magnitude of the magnetic field at the centre of the coil?",
+   "extracted_variables": {
+    "turns": "number of turns in the coil",
+    "radius": "radius of the coil in centimeters",
+    "current": "current in amperes"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "convert radius to meters",
+     "explain": "Divide radius in cm by 100 to get radius in meters.",
+     "compute": "radius_m = radius / 100"
+    },
+    {
+     "step": 2,
+     "action": "calculate magnetic field",
+     "explain": "Use the formula for magnetic field at the center of a circular coil.",
+     "compute": "field = 2 * pi * 1e-7 * turns * current / radius_m"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "leph104.txt lines 980-985",
+   "questions": [
+    "A circular coil of wire consisting of 100 turns, each of radius 8.0 cm carries a current of 0.40 A. What is the magnitude of the magnetic field B at the centre of the coil?"
+   ]
+  },
+  {
+   "id": "ex4.2",
+   "source_ref": "leph104.txt lines 986-988",
+   "questions": [
+    "A long straight wire carries a current of 35 A. What is the magnitude of the field B at a point 20 cm from the wire?"
+   ]
+  },
+  {
+   "id": "ex4.3",
+   "source_ref": "leph104.txt lines 989-991",
+   "questions": [
+    "A long straight wire in the horizontal plane carries a current of 50 A in north to south direction. Give the magnitude and direction of B at a point 2.5 m east of the wire."
+   ]
+  },
+  {
+   "id": "ex4.4",
+   "source_ref": "leph104.txt lines 992-995",
+   "questions": [
+    "A horizontal overhead power line carries a current of 90 A in east to west direction. What is the magnitude and direction of the magnetic field due to the current 1.5 m below the line?"
+   ]
+  },
+  {
+   "id": "ex4.5",
+   "source_ref": "leph104.txt lines 996-999",
+   "questions": [
+    "What is the magnitude of magnetic force per unit length on a wire carrying a current of 8 A and making an angle of 30º with the direction of a uniform magnetic field of 0.15 T?"
+   ]
+  },
+  {
+   "id": "ex4.6",
+   "source_ref": "leph104.txt lines 1000-1003",
+   "questions": [
+    "A 3.0 cm wire carrying a current of 10 A is placed inside a solenoid perpendicular to its axis. The magnetic field inside the solenoid is given to be 0.27 T. What is the magnetic force on the wire?"
+   ]
+  },
+  {
+   "id": "ex4.7",
+   "source_ref": "leph104.txt lines 1004-1007",
+   "questions": [
+    "Two long and parallel straight wires A and B carrying currents of 8.0 A and 5.0 A in the same direction are separated by a distance of 4.0 cm. Estimate the force on a 10 cm section of wire A."
+   ]
+  },
+  {
+   "id": "ex4.8",
+   "source_ref": "leph104.txt lines 1008-1011",
+   "questions": [
+    "A closely wound solenoid 80 cm long has 5 layers of windings of 400 turns each. The diameter of the solenoid is 1.8 cm. If the current carried is 8.0 A, estimate the magnitude of B inside the solenoid near its centre."
+   ]
+  },
+  {
+   "id": "ex4.9",
+   "source_ref": "leph104.txt lines 1012-1016",
+   "questions": [
+    "A square coil of side 10 cm consists of 20 turns and carries a current of 12 A. The coil is suspended vertically and the normal to the plane of the coil makes an angle of 30º with the direction of a uniform horizontal magnetic field of magnitude 0.80 T. What is the magnitude of torque experienced by the coil?"
+   ]
+  },
+  {
+   "id": "ex4.10",
+   "source_ref": "leph104.txt lines 1017-1024",
+   "questions": [
+    "Two moving coil meters, M1 and M2 have the following particulars: R1 = 10 Ohm, N1 = 30, A1 = 3.6 x 10^-3 m^2, B1 = 0.25 T, R2 = 14 Ohm, N2 = 42, A2 = 1.8 x 10^-3 m^2, B2 = 0.50 T (The spring constants are identical for the two meters). Determine the ratio of (a) current sensitivity and (b) voltage sensitivity of M2 and M1."
+   ]
+  },
+  {
+   "id": "ex4.11",
+   "source_ref": "leph104.txt lines 1025-1030",
+   "questions": [
+    "In a chamber, a uniform magnetic field of 6.5 G (1 G = 10^-4 T) is maintained. An electron is shot into the field with a speed of 4.8 x 10^6 m s^-1 normal to the field. Explain why the path of the electron is a circle. Determine the radius of the circular orbit. (e = 1.5 x 10^-19 C, m = 9.1 x 10^-31 kg)"
+   ]
+  },
+  {
+   "id": "ex4.12",
+   "source_ref": "leph104.txt lines 1031-1034",
+   "questions": [
+    "In Exercise 4.11 obtain the frequency of revolution of the electron in its circular orbit. Does the answer depend on the speed of the electron? Explain."
+   ]
+  },
+  {
+   "id": "ex4.13",
+   "source_ref": "leph104.txt lines 1035-1043",
+   "questions": [
+    "(a) A circular coil of 30 turns and radius 8.0 cm carrying a current of 6.0 A is suspended vertically in a uniform horizontal magnetic field of magnitude 1.0 T. The field lines make an angle of 60° with the normal of the coil. Calculate the magnitude of the counter torque that must be applied to prevent the coil from turning.",
+    "(b) Would your answer change, if the circular coil in (a) were replaced by a planar coil of some irregular shape that encloses the same area? (All other particulars are also unaltered.)"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

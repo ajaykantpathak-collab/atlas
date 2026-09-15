@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_13_001",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_13_001",
+   "title": "c12_hs_cbse_13_001",
+   "questions": [
+    {
+     "q": "A person purchases a laptop for their freelance graphic design work from home. Under the Consumer Protection Act, how is this buyer classified, and why?",
+     "a": "The buyer is an **Individual Consumer** (self-employment category). The Act explicitly includes goods bought for \"self-employment\" to earn a livelihood as consumer purchases. A wrong answer (e.g., \"commercial buyer\" or \"reseller\") reveals the misconception that any income-generating use makes the purchase commercial — the law distinguishes self-employment (livelihood) from resale (profit from trading).",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a hospital buying MRI machines is classified differently from a medical equipment distributor buying the same machines, even though both are organisations.",
+     "a": "The hospital is an **Institutional Consumer** because it uses the MRI machines to provide healthcare services (end-use). The distributor is a **Reseller** because it buys to sell further for profit. A wrong answer that labels both as \"institutional buyers\" or both as \"consumers\" shows the student is classifying by *buyer type* (organisation) rather than *purpose of purchase* (end-use vs. resale) — the core distinction in consumer law.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer buys a tractor for ploughing his own fields. A contractor buys an identical tractor to rent out to farmers. Classify both buyers and justify using the \"purpose test\".",
+     "a": "Farmer → **Individual Consumer** (self-employment in agriculture). Contractor → **Reseller/Intermediary** (providing rental service is a commercial activity; the tractor is a capital asset for business income). Steps: (1) Identify buyer's primary activity; (2) Determine if goods are for end-use or for providing service for profit; (3) Apply purpose test. A wrong answer classifying the contractor as a consumer misses that *renting out* is a commercial service — the tractor is not for the contractor's own consumption.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the consumer status of: (a) a government school buying mid-day meal ingredients, (b) a government corporation buying steel to build a bridge. Are both \"Government Consumers\"? Why or why not?",
+     "a": "(a) **Government Consumer** — ingredients are consumed in service delivery (feeding children). (b) **Not a consumer** — steel is an input for infrastructure creation (capital formation), not for direct consumption in service provision. The distinction lies in whether the purchase is for *direct service delivery* (consumer) or *asset creation/production* (non-consumer). A wrong answer labelling both as government consumers fails to apply the \"end-use in service\" criterion.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Any buyer who pays money for a product is a consumer and deserves protection under the Consumer Protection Act.\" Use the classification framework to defend your position.",
+     "a": "The statement is **false**. The Act protects only those purchasing for *personal, household, or self-employment use* — excluding resellers, commercial enterprises buying inputs for production, and buyers for capital asset creation. Example: A factory buying raw cotton to make cloth is a commercial buyer, not a consumer. The error is conflating \"buyer\" (transaction role) with \"consumer\" (legal status based on purpose). Protection is purpose-specific, not transaction-universal.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-question checklist that a consumer forum lawyer would use to determine if a new client qualifies as a \"consumer\" under the Act. Each question must test a different classification boundary.",
+     "a": "Good checklist: (1) \"Was the good/service bought for your own use, your family's use, or to earn your livelihood through self-employment?\" — tests Individual vs. Reseller boundary. (2) \"Are you purchasing on behalf of an organisation — and if so, will the item be used directly in delivering the organisation's services (e.g., hospital buying medicines) or as input for production/resale?\" — tests Institutional vs. Commercial boundary. (3) \"Is the purchase funded by government and meant for direct public service delivery (e.g., school textbooks) or for infrastructure/production (e.g., cement for a dam)?\" — tests Government Consumer vs. Non-consumer boundary. A poor checklist asks only \"Did you pay?\" or \"Are you a person?\" — missing purpose entirely.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

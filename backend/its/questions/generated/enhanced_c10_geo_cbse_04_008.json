@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_04_008",
+   "title": "c10_geo_cbse_04_008",
+   "questions": [
+    {
+     "q": "What were the three core technological components of the Green Revolution package introduced in India during the mid-1960s?",
+     "a": "The three core components were: (1) High-Yielding Variety (HYV) seeds of wheat and rice (dwarf, fertilizer-responsive), (2) Assured irrigation (canal + tubewell) to eliminate monsoon dependence, and (3) Chemical fertilizers (NPK) and pesticides to support the high nutrient demand of HYVs. A wrong answer (e.g., \"tractors, dams, land reforms\") reveals the student confuses mechanization/institutional reforms with the core biological-chemical-water package that defined the Green Revolution.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Green Revolution remain concentrated in Punjab, Haryana, and Western Uttar Pradesh during its first two decades (1966–1985), while Eastern India (Bihar, Odisha, West Bengal) saw limited adoption?",
+     "a": "The Green Revolution required assured irrigation (canals/tubewells) and fertile alluvial soils to support water-intensive HYV wheat/rice. Punjab-Haryana-West UP had extensive canal networks (Bhakra-Nangal), shallow groundwater for tubewells, and flat, fertile Indo-Gangetic plains. Eastern India had high rainfall but poor irrigation infrastructure, fragmented landholdings, and inadequate credit access — making the capital-intensive package unviable. A wrong answer (e.g., \"farmers in East were lazy\") reveals a socioeconomic bias and ignores the agro-ecological and infrastructural prerequisites for HYV adoption.",
+     "self_check": true
+    },
+    {
+     "q": "Using the data below, calculate the percentage increase in wheat yield (kg/ha) in Punjab from 1965-66 to 1990-91, and explain what this implies about the Green Revolution's productivity impact.\n\n| Year | Wheat Yield in Punjab (kg/ha) |\n|------|-------------------------------|\n| 1965-66 | 1,200 |\n| 1990-91 | 3,800 |",
+     "a": "Step 1: Identify initial yield = 1,200 kg/ha (1965-66). Step 2: Identify final yield = 3,800 kg/ha (1990-91). Step 3: Calculate increase = 3,800 – 1,200 = 2,600 kg/ha. Step 4: Percentage increase = (2,600 / 1,200) × 100 = 216.67%. Step 5: Interpret: Wheat yield more than tripled in 25 years, demonstrating the dramatic productivity surge from HYV seeds + irrigation + fertilizers. A wrong calculation (e.g., using 3,800/1,200 × 100 = 316%) reveals confusion between \"percentage of original\" and \"percentage increase\". Missing the interpretation step shows inability to link numbers to geographical significance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of the Green Revolution on (a) a large landowner in Punjab with 20 hectares and (b) a landless agricultural laborer in the same village. Identify two contrasting outcomes.",
+     "a": "(a) Large landowner: Benefited from economies of scale — could afford tubewells, tractors, fertilizers; adopted HYVs early; increased surplus for market; consolidated land via tenancy reforms; became commercially viable. (b) Landless laborer: Initially gained more employment days due to double/triple cropping, but wages did not keep pace with productivity; mechanization (tractors, threshers) later displaced labor; no asset creation; indebtedness persisted. Contrasting outcomes: Asset accumulation vs. wage stagnation; technological adoption vs. technological displacement. A wrong answer (e.g., \"both benefited equally\") reveals ignorance of class-differentiated impacts and the role of capital access in Green Revolution gains.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Green Revolution solved India's food security problem permanently.\" Provide two arguments supporting and two arguments challenging this view.",
+     "a": "Supporting: (1) Food grain production rose from 72 MT (1965-66) to 264 MT (2013-14), achieving self-sufficiency and buffer stocks. (2) Per capita availability stabilized, ending PL-480 dependence. Challenging: (1) Ecological unsustainability — groundwater depletion in Punjab (water table falling 0.5–1 m/year), soil salinity/alkalinity, pesticide residues — threatens future productivity. (2) Nutritional insecurity persists — focus on wheat/rice neglected pulses, millets, oilseeds; malnutrition (stunting, anemia) remains high despite calorie sufficiency. A wrong evaluation (e.g., \"yes, because we have buffer stocks\") ignores the distinction between calorie security and nutritional/ecological sustainability — a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sustainable cropping pattern for a 5-hectare farm in Punjab that addresses groundwater depletion and soil health degradation caused by the wheat-rice cycle, while maintaining farmer income. Justify each crop choice.",
+     "a": "Good answer: Replace 2 ha of rice with maize (kharif) — lower water use (500 mm vs 1200 mm), shorter duration, crop diversification. Replace 1 ha of wheat with gram (rabi) — nitrogen-fixing legume, improves soil fertility, less irrigation. Keep 2 ha wheat-rice for income stability. Add agroforestry (poplar) on bunds. Justification: Maize reduces groundwater draft by ~40%; gram restores soil N; diversification reduces pest buildup; poplar gives timber income. Poor answer: \"Grow organic vegetables\" — ignores market access, scale, and transition risk; shows lack of systems thinking and agronomic knowledge.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch05_005",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch05_005",
+   "title": "c7_math_ch05_005",
+   "questions": [
+    {
+     "q": "What symbol is universally used in geometry to indicate that two lines or line segments are perpendicular to each other?",
+     "a": "The correct answer is the perpendicular symbol ($\\perp$), or a small square ($\\llcorner$) drawn inside the angle at the intersection. If a student answers with an X or a parallel sign ($\\parallel$), it reveals a confusion between intersection types or parallel lines. Remind them that a square corner indicates a $90^\\circ$ right angle.",
+     "self_check": true
+    },
+    {
+     "q": "If line $P$ intersects line $Q$ at a single point and forms one angle measuring $90^\\circ$, what must the measures of the other three angles formed at that intersection be? Explain why.",
+     "a": "The correct answer is that all three remaining angles must also measure $90^\\circ$. This is because adjacent angles on a straight line sum to $180^\\circ$ (linear pair), and vertically opposite angles are equal. If a student thinks the other angles could be different (e.g., guessing $45^\\circ$ or $135^\\circ$), they do not understand that a single right angle at an intersection forces the entire set of four angles to form four right angles.",
+     "self_check": true
+    },
+    {
+     "q": "Line segment $EF$ is perpendicular to line segment $GH$ at point $O$. If $\\angle EOG$ is represented algebraically as $(3x)^\\circ$, what is the exact numerical value of $x$?",
+     "a": "The correct answer is $x = 30$. \nWorking steps:\n1. Identify that $EF \\perp GH$, which means the angle between them ($\\angle EOG$) is a right angle ($90^\\circ$).\n2. Set up the algebraic equation: $3x = 90$.\n3. Divide both sides by 3 to isolate $x$: $x = \\frac{90}{3}$.\n4. Compute the final value: $x = 30$.\nIf a student gets an incorrect value like $3$ or $270$, it shows they either tried to multiply instead of divide or did not recognize that perpendicular lines always measure $90^\\circ$.",
+     "self_check": true
+    },
+    {
+     "q": "Two lines, $AB$ and $CD$, intersect at point $O$. Angle $AOC$ is given as $2x + 10$ and angle $BOD$ is a right angle formed because $AB \\perp CD$. Can you find the value of $x$, and are lines $AB$ and $CD$ perpendicular? Explain.",
+     "a": "The correct answer is $x = 40$, and yes, they are perpendicular. \nWorking steps:\n1. Recognize that if $AB \\perp CD$, all angles at intersection $O$ are $90^\\circ$.\n2. Set $\\angle AOC = 2x + 10$ equal to $90^\\circ$ because all four angles at a perpendicular intersection are $90^\\circ$.\n3. Solve the linear equation: $2x + 10 = 90 \\implies 2x = 80 \\implies x = 40$.\n4. Conclude that since the angle equals $90^\\circ$, the lines are indeed perpendicular. \nIf a student states they cannot solve it because two different angles were mentioned, they failed to connect the symbol $\\perp$ to the universal $90^\\circ$ rule for all four intersecting quadrants.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that if two line segments $AB$ and $CD$ intersect and form four angles, and if we add all four angles together, the sum must be $360^\\circ$. Furthermore, if the lines are perpendicular, each angle is $90^\\circ$, so $90 \\times 4 = 360^\\circ$. Is this student's reasoning completely correct, partially correct, or flawed? Justify your answer.",
+     "a": "The correct answer is that the student's reasoning is completely correct. \nJustification: \n1. The sum of angles around a single point (complete angle) is always $360^\\circ$. \n2. Perpendicular lines divide this $360^\\circ$ space into four equal quadrants. \n3. Dividing $360^\\circ$ by 4 gives $90^\\circ$ per angle. \nIf a student claims the reasoning is flawed, they likely confuse angles around a point with triangles ($180^\\circ$) or straight lines ($180^\\circ$).",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario in a school playground involving two boundary chalk lines where you must guarantee they are perpendicular using only a measuring tape and the properties of numbers. Describe your steps.",
+     "a": "The expected response should use the Pythagorean relationship (or right-angle properties) as a practical extension: measure a length of 3 metres along one line, 4 metres along the second line from the same vertex, and adjust the angle until the diagonal distance connecting those two points measures exactly 5 metres ($3^2 + 4^2 = 5^2$). A poor answer simply states \"draw it with a square tool\" without explaining how to mathematically verify or construct a perpendicular line in an open field using numerical measurements.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

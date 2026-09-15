@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_09_007",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_09_007",
+   "title": "c12_bio_cbse_09_007",
+   "questions": [
+    {
+     "q": "Define \"totipotency\" in the context of plant tissue culture and name the type of explant that best exploits this property for clonal micropropagation.",
+     "a": "Totipotency is the inherent capacity of a single living plant cell to divide and differentiate into a complete, fertile plant under suitable culture conditions. The explant that best exploits this for true-to-type clonal propagation is the **shoot-tip / apical meristem (0.5–1 mm)** because it is often free of systemic viruses and contains pre-formed meristematic cells that regenerate shoots directly without callus, minimizing somaclonal variation. A wrong answer (e.g., \"leaf disc\" or \"callus\") reveals the student confuses totipotency expression with organogenic pathways that involve dedifferentiation and carry higher genetic instability risk.",
+     "self_check": true
+    },
+    {
+     "q": "A student prepares MS medium for the multiplication stage of banana micropropagation but accidentally swaps the concentrations of BAP (cytokinin) and NAA (auxin), making auxin high and cytokinin low. Predict the morphological outcome after 4 weeks and explain the physiological basis.",
+     "a": "The explants will produce **adventitious roots or callus** instead of multiple shoots. High auxin:cytokinin ratio promotes root organogenesis (or callus formation), while high cytokinin:auxin ratio promotes shoot organogenesis — this is the classic Skoog & Miller principle. A wrong answer (e.g., \"more shoots will form\") shows the student has memorized that \"cytokinin = shoots\" but cannot apply the ratio concept when the ratio is inverted.",
+     "self_check": true
+    },
+    {
+     "q": "During the establishment stage (Stage I) of potato micropropagation, a batch of nodal explants shows 80% contamination by *Aspergillus niger* within 5 days despite surface sterilization with 70% ethanol (30 s) and 0.1% HgCl₂ (5 min). Propose two specific modifications to the sterilization protocol that address the likely cause, justifying each with the biology of the contaminant.",
+     "a": "1. **Add a surfactant (e.g., 0.1% Tween-20) to the HgCl₂ step** — fungal spores are hydrophobic and adhere to the explant surface; surfactant reduces surface tension, allowing the sterilant to penetrate spore coats and crevices. 2. **Increase HgCl₂ exposure to 7–10 min or use 1.5–2% NaOCl (sodium hypochlorite) for 15–20 min** — *Aspergillus* conidia have thick melanized walls resistant to brief HgCl₂; longer exposure or a stronger oxidizing agent (NaOCl) ensures spore kill. A wrong answer (e.g., \"increase ethanol time\") reveals ignorance that ethanol does not kill fungal spores effectively and that HgCl₂/NaOCl are the sporicidal agents.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"direct organogenesis\" and \"indirect organogenesis via callus\" in micropropagation with respect to: (a) genetic fidelity of regenerated plantlets, (b) multiplication rate per cycle, (c) suitability for germplasm conservation of elite cultivars.",
+     "a": "(a) **Direct organogenesis** (axillary bud break or adventitious shoots from meristematic zones without callus) maintains **high genetic fidelity** because cell divisions are mitotic and organized; **indirect organogenesis** involves dedifferentiation to callus (unorganized) followed by re-differentiation, which frequently induces **somaclonal variation** (epigenetic/chromosomal changes). (b) Indirect route often yields **higher multiplication rates** (callus can be fragmented, suspended in bioreactors) but at the cost of fidelity. (c) For **elite cultivar conservation**, direct organogenesis via shoot-tip culture is mandatory; callus-based systems are used only when the goal is variant selection (e.g., disease resistance screening). A wrong answer that claims callus gives \"true-to-type\" plants shows confusion between micropropagation goals and somaclonal variation exploitation.",
+     "self_check": true
+    },
+    {
+     "q": "A commercial lab aims to produce 100,000 virus-free banana plantlets from a single indexed meristem in 6 months. The multiplication cycle is 4 weeks with a multiplication rate of 5 shoots/explant/cycle. Assuming 100% survival at rooting and acclimatization, calculate the minimum number of multiplication cycles required and state whether the target is achievable within the timeframe.",
+     "a": "Number of plantlets after *n* cycles = 5ⁿ. Solve 5ⁿ ≥ 100,000 → n log 5 ≥ log 100,000 → n ≥ log(100,000)/log(5) ≈ 5/0.699 ≈ 7.15 → **8 cycles needed**. Each cycle = 4 weeks → 8 × 4 = 32 weeks ≈ 7.5 months. **Target NOT achievable in 6 months (≈26 weeks)**. They would need either a higher multiplication rate (e.g., 7–8 shoots/cycle) or parallel processing of multiple initial explants. A wrong answer (e.g., \"6 cycles enough\") reveals inability to model exponential growth or convert time units correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Design a low-cost, farmer-level \"hardening protocol\" for tissue-cultured plantlets being transferred from culture vessels to field soil in a tropical Indian village lacking a polyhouse, misting system, or electricity. Specify the key environmental stresses to mitigate and the low-tech solutions for each.",
+     "a": "Key stresses & low-tech mitigations: (1) **Low humidity / high transpiration** — plantlets lack cuticle and functional stomatal control. *Solution*: Cover with transparent polythene bags supported by bamboo stakes (mini-cloches), gradually increasing ventilation holes daily over 10–14 days. (2) **High light intensity / photoinhibition** — cultured under low PPFD (20–50 μmol·m⁻²·s⁻¹). *Solution*: Place under 50% shade net or coconut frond thatch; gradually remove layers. (3) **Pathogen attack in non-sterile soil** — no microbiome competition. *Solution*: Use solarized soil (cover moist soil with clear plastic for 4–6 weeks in summer) mixed with compost + *Trichoderma* biofungicide. (4) **Nutrient shock** — medium had sucrose; soil has none. *Solution*: Foliar spray 0.5% urea + 0.2% KH₂PO₄ weekly for first 3 weeks. A poor answer lists only \"shade and water\" showing ignorance of the physiological vulnerabilities (cuticle, stomata, microbiome, heterotrophy).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

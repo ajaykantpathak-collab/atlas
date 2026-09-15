@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch03_004",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch03_004",
+   "title": "c7_geo_ch03_004",
+   "questions": [
+    {
+     "q": "Which month does the Southwest Monsoon typically make its official onset at the southern tip of the Indian mainland (Kerala)?",
+     "a": "The Southwest Monsoon typically arrives at the southern tip of Kerala around the 1st of June. A student who answers \"January\" or \"October\" is confusing the summer monsoon season with the winter or retreating monsoon periods.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Southwest Monsoon split into two distinct branches—the Arabian Sea branch and the Bay of Bengal branch—upon reaching the southern tip of peninsular India?",
+     "a": "The monsoon splits because the inverted V-shaped topography of the Indian Peninsula (the Deccan Plateau flanked by the Western and Eastern Ghats) acts as a physical wedge. A wrong answer stating that winds divide because of ocean currents shows a misunderstanding of how atmospheric winds interact with major landform barriers.",
+     "self_check": true
+    },
+    {
+     "q": "If the Arabian Sea branch strikes the Western Ghats on June 5th and causes heavy orographic rainfall in Mumbai, calculate approximately how many weeks it takes for these same monsoon winds to fully cover the entire country up to northwestern India by mid-July.",
+     "a": "Steps: \n1. Identify the start date (June 1st to June 5th in southern/western coastal India) and the completion date (July 15th across northwestern India). \n2. Determine the duration in days: From June 5th to July 15th is approximately 40 days. \n3. Convert days to weeks: 40 days divided by 7 days per week equals roughly 5 to 6 weeks. \n4. Verify the geographical progression: The winds take nearly 6 weeks to march from the southern coast to the far northwest. \nA student who calculates only 1 week fails to account for the gradual, progressive advancement of the pressure system and land friction slowing the wind's advance.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why regions like western Rajasthan (Thar Desert) receive very little rainfall even though the Arabian Sea branch passes relatively close by.",
+     "a": "The Arabian Sea branch runs parallel to the Aravalli range rather than perpendicular to it, meaning there is no mountain barrier to force the moisture-laden clouds to rise, cool, and drop rain. A student who thinks the winds dry up completely over the ocean fails to understand that rain requires a physical barrier (orographic lift) to force condensation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The entire country of India experiences the onset of the monsoon on the exact same day in June.\" Is this correct, and why or why not?",
+     "a": "This statement is incorrect because the monsoon does not arrive simultaneously; it progresses northward and westward in a staggered timeline over six weeks. A student who agrees with the statement ignores official meteorological maps which show arrival dates ranging from June 1 in Kerala to July 15 in Punjab and Rajasthan.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple timeline chart for a farmer living in central India (Madhya Pradesh) who needs to know when to sow Kharif crops based on the normal progress of the Southwest Monsoon.",
+     "a": "A good answer includes an estimated arrival window for central India (typically around mid-June, roughly June 15th to 20th), factoring in that seeds should be sown just before or immediately upon the arrival of these moisture-laden winds. A poor answer suggests planting in April or waiting until September, which shows no grasp of the monsoon progress timeline.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

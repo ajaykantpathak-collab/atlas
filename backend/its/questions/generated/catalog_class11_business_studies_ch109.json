@@ -1,0 +1,183 @@
+{
+ "catalog": "catalog_class11_business_studies_ch109",
+ "concepts": [
+  {
+   "id": "kebs.109.9.1",
+   "title": "Overview and Economic Significance of MSMEs",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Overview and Economic Significance of MSMEs' refers to.",
+     "a": "Small-scale enterprise sector that forms a critical backbone of industrial production, generating employment opportunities and driving regional balance through local resource usage.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Overview and Economic Significance of MSMEs'.",
+     "a": "MSMEs contribute significantly to national production, exports, and employment creation.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Overview and Economic Significance of MSMEs' taught, and from which source text?",
+     "a": "9.1 (source: kebs109.txt lines 30-70)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebs.109.9.2.1",
+   "title": "MSME Categorization Criteria",
+   "questions": [
+    {
+     "q": "Calculate maximum turnover limit for a given investment ceiling. Use the method 'MSME Categorization Criteria'. Work with: investment_limit = 8. Carry the chain through step by step and give the final value of the result.",
+     "a": "40 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find allowable turnover limit for small enterprise with known plant investment. Use the method 'MSME Categorization Criteria'. Work with: investment_limit = 10. Carry the chain through step by step and give the final value of the result.",
+     "a": "50 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'MSME Categorization Criteria' refers to.",
+     "a": "Statutory classification system classifying business entities as micro, small, or medium based on dual thresholds of equipment investment and yearly revenue.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'MSME Categorization Criteria'.",
+     "a": "The ceiling for allowable annual revenue is scaled at five times the plant investment threshold.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'MSME Categorization Criteria', in plain ASCII form.",
+     "a": "turnover_limit = 5 * investment_limit",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebs.109.9.2.2",
+   "title": "Village and Cottage Industries",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Village and Cottage Industries' refers to.",
+     "a": "Traditional rural manufacturing entities that operate primarily through manual labor, indigenous craftsmanship, and family effort without reliance on capital-intensive machinery.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Village and Cottage Industries'.",
+     "a": "Traditional rural units focus on self-employment and preserving local heritage using minimal capital.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Village and Cottage Industries' taught, and from which source text?",
+     "a": "9.2 (source: kebs109.txt lines 110-125)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebs.109.9.3",
+   "title": "Socio-Economic Role of MSMEs",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Socio-Economic Role of MSMEs' refers to.",
+     "a": "The multi-faceted contribution of small enterprises toward job generation, regional dispersal of industrial activity, and equitable income distribution.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Socio-Economic Role of MSMEs'.",
+     "a": "Small business expansion prevents rural migration and fosters decentralized economic development.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Socio-Economic Role of MSMEs' taught, and from which source text?",
+     "a": "9.3 (source: kebs109.txt lines 130-180)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebs.109.9.5",
+   "title": "Operational and Structural Challenges of MSMEs",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Operational and Structural Challenges of MSMEs' refers to.",
+     "a": "Institutional, administrative, and market hurdles including capital scarcity, raw material shortages, and limited technological expertise that hinder small enterprise growth.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Operational and Structural Challenges of MSMEs'.",
+     "a": "Inadequate access to formal credit and professional management severely restricts small enterprise performance.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Operational and Structural Challenges of MSMEs' taught, and from which source text?",
+     "a": "9.5 (source: kebs109.txt lines 185-235)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebs.109.9.7",
+   "title": "Entrepreneurship Development and Characteristics",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Entrepreneurship Development and Characteristics' refers to.",
+     "a": "A systematic and purposeful process of combining resources, bearing calculated risks, and introducing innovations to establish a viable business enterprise.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Entrepreneurship Development and Characteristics'.",
+     "a": "Entrepreneurship is a learnable skill involving structured planning, creative value addition, and calculated risk management.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Entrepreneurship Development and Characteristics' taught, and from which source text?",
+     "a": "9.7 (source: kebs109.txt lines 240-290)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebs.109.9.9.1",
+   "title": "Intellectual Property Rights Framework",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Intellectual Property Rights Framework' refers to.",
+     "a": "Legal protections conferred on original creations of human intellect, granting exclusive commercial rights to inventors and original creators.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Intellectual Property Rights Framework'.",
+     "a": "IPRs safeguard intangible assets, incentivize innovation, and prevent unauthorized exploitation.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Intellectual Property Rights Framework' taught, and from which source text?",
+     "a": "9.9 (source: kebs109.txt lines 295-340)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebs.109.9.9.2",
+   "title": "Forms of Intellectual Property Protection",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Forms of Intellectual Property Protection' refers to.",
+     "a": "Specific statutory mechanisms such as patents, copyrights, trademarks, and geographical indications designed to protect distinct categories of intellectual output.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Forms of Intellectual Property Protection'.",
+     "a": "Different intellectual assets require distinct legal mechanisms based on whether they are inventions, artistic works, brand marks, or regional products.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Forms of Intellectual Property Protection' taught, and from which source text?",
+     "a": "9.9.2 (source: kebs109.txt lines 345-420)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "home_science",
+  "chapter": 203,
+  "chapter_title": "Adulthood",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kehe203.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kehe203.1.1",
+      "title": "Entering the Real World: Tasks of Adulthood",
+      "section": "unit",
+      "definition": "Adulthood opens into what the chapter calls the real world: higher education and work, intimate partnership and marriage, and eventually parenthood. Each step brings new roles, responsibilities and the need to balance personal goals with obligations to others.",
+      "formula": "",
+      "key_idea": "Adulthood is the balancing act -- career, partnership and parenthood each demanding a share of the self.",
+      "textbook_ref": "kehe203.txt unit opener (unit iv adulthood, real world of higher education work marriage, roles and responsibilities)",
+      "question_patterns": [
+        "what major transitions mark the entry into adulthood",
+        "in class 11 adulthood unit: why is adulthood called the real world",
+        "what responsibilities accompany work and marriage",
+        "how do adult roles differ from adolescent roles",
+        "list the developmental tasks of early adulthood",
+        "how do adults balance personal goals with family duties"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "name the transitions",
+          "explain": "Entry into work and higher education, formation of partnerships, and parenthood are adulthood's signature steps."
+        },
+        {
+          "step": 2,
+          "action": "name the new demands",
+          "explain": "Each step adds obligations -- earning, sharing decisions, caring for dependants."
+        },
+        {
+          "step": 3,
+          "action": "name the balance",
+          "explain": "Maturity shows in managing these demands without losing personal growth and health."
+        }
+      ]
+    },
+    {
+      "id": "kehe203.1.2",
+      "title": "Work, Marriage and Family: Institutions of Adult Life",
+      "section": "unit",
+      "definition": "Adult life organises itself around institutions: the workplace, which structures income, identity and time; marriage, a social and legal partnership carrying mutual duties; and the family, where parenthood raises the next generation. Adjustment, communication and shared responsibility keep these institutions working.",
+      "formula": "",
+      "key_idea": "Work pays the bills, marriage shares the load, family gives it meaning -- institutions joined by adjustment.",
+      "textbook_ref": "kehe203.txt unit opener and institution sections (work, marriage and family, adjustment, communication, shared responsibility)",
+      "question_patterns": [
+        "what roles do work marriage and family play in adult life",
+        "in class 11 adulthood unit: why is adjustment important in marriage",
+        "how does work shape an adult's identity and time",
+        "what duties do partners share in a family",
+        "explain communication as a tool of family harmony",
+        "describe how parenthood changes adult responsibilities"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "take up work",
+          "explain": "Employment brings income, routine and social identity -- plus the discipline of responsibility."
+        },
+        {
+          "step": 2,
+          "action": "form the partnership",
+          "explain": "Marriage requires communication, adjustment of habits and shared decision making between equals."
+        },
+        {
+          "step": 3,
+          "action": "raise the family",
+          "explain": "Parenthood extends responsibility to the next generation, redirecting time and resources."
+        }
+      ]
+    },
+    {
+      "id": "kehe203.1.3",
+      "title": "Challenges and Coping in Adult Life",
+      "section": "unit",
+      "definition": "Adulthood carries predictable stresses -- career pressure, financial strain, family conflicts, and later, ageing parents and health changes. Coping rests on planning, health maintenance, social support and flexibility of roles as life's stages turn.",
+      "formula": "",
+      "key_idea": "Stress is scheduled into adult life -- planning, health and support are the shock absorbers.",
+      "textbook_ref": "kehe203.txt unit opener and challenge sections (career and financial pressures, ageing, health, coping strategies, social support)",
+      "question_patterns": [
+        "what stresses are typical of adult life",
+        "in class 11 adulthood unit: how can families cope with financial pressure",
+        "why must adults maintain health proactively",
+        "what changes come with ageing parents in the family",
+        "explain the role of social support in coping",
+        "suggest strategies for work life balance"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "anticipate the stresses",
+          "explain": "Name them -- deadlines, loans, quarrels, illness, ageing -- so they arrive as expected guests, not shocks."
+        },
+        {
+          "step": 2,
+          "action": "build the buffers",
+          "explain": "Savings, health routines and supportive relationships absorb what life delivers."
+        },
+        {
+          "step": 3,
+          "action": "stay flexible",
+          "explain": "Roles shift with each stage; adults who renegotiate duties rather than defend them cope best."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kehe203.txt unit opener (transitions)",
+      "concept": "kehe203.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "A student asks why school called adolescence preparation for the 'real world'. Explain using the tasks of adulthood.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "name the upcoming tasks",
+          "explain": "Higher education, earning work, partnership and parenthood await after adolescence."
+        },
+        {
+          "step": 2,
+          "action": "show the continuity",
+          "explain": "Skills learned now -- discipline, decision making, health habits -- are exactly the tools those tasks consume."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "Adolescence is rehearsal; adulthood is the performance the chapter calls the real world."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kehe203.txt challenge sections (coping)",
+      "concept": "kehe203.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "A couple faces a sudden salary cut while raising two children. Suggest a coping plan using the chapter's approach.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "name the stress",
+          "explain": "Financial strain threatens the family's obligations and stability."
+        },
+        {
+          "step": 2,
+          "action": "apply the buffers",
+          "explain": "Rework the budget, use savings deliberately, seek additional income, and inform trusted family for support."
+        },
+        {
+          "step": 3,
+          "action": "protect the relationship",
+          "explain": "Communicate decisions jointly to keep stress from turning into blame -- adjustment keeps the family working."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kehe203.txt unit questions, reworded",
+      "questions": [
+        "List the developmental tasks of early adulthood.",
+        "Explain the importance of adjustment and communication in marriage.",
+        "How does work contribute to an adult's identity?",
+        "Describe common stresses of adulthood and ways of coping.",
+        "What changes does parenthood bring to adult roles?",
+        "Why are adults advised to plan finances and maintain health?"
+      ]
+    }
+  ]
+}

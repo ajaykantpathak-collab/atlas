@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_06_004",
+   "title": "c11_chem_cbse_06_004",
+   "questions": [
+    {
+     "q": "Write the balanced thermochemical equation for the standard enthalpy of formation of liquid ethanol (C₂H₅OH(l)) at 298 K and 1 bar, including the correct standard states of all elements.",
+     "a": "2C(graphite) + 3H₂(g) + ½O₂(g) → C₂H₅OH(l); ΔfH° = −277.7 kJ mol⁻¹. A wrong answer reveals the student either: (a) uses incorrect standard states (e.g., C(g) or C(diamond) instead of graphite, O(g) instead of O₂(g)), (b) balances for 1 mole of carbon instead of 1 mole of compound, or (c) omits state symbols which are essential for standard enthalpy definitions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the standard enthalpy of formation of O₂(g) is zero, but the standard enthalpy of formation of O₃(g) is +142.7 kJ mol⁻¹, even though both contain only oxygen atoms.",
+     "a": "By definition, ΔfH° of any element in its standard state (most stable form at 1 bar, 298 K) is zero. O₂(g) is the standard state of oxygen; O₃(g) is an allotrope, not the standard state. Forming O₃ from O₂ requires energy input (endothermic). A wrong answer reveals confusion between \"element\" and \"standard state of element\" – students often think any elemental form has ΔfH° = 0.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate ΔrH° for the reaction: 2NH₃(g) + 3Cl₂(g) → N₂(g) + 6HCl(g) given: ΔfH°(NH₃(g)) = −46.1 kJ mol⁻¹, ΔfH°(HCl(g)) = −92.3 kJ mol⁻¹, ΔfH°(N₂(g)) = 0, ΔfH°(Cl₂(g)) = 0.",
+     "a": "Step 1: Identify products and reactants with coefficients. Step 2: Apply ΔrH° = ΣnΔfH°(products) − ΣmΔfH°(reactants). Step 3: Products = 1×0 + 6×(−92.3) = −553.8 kJ. Step 4: Reactants = 2×(−46.1) + 3×0 = −92.2 kJ. Step 5: ΔrH° = −553.8 − (−92.2) = −461.6 kJ. A wrong answer reveals sign errors in the formula, forgetting stoichiometric coefficients, or using ΔfH° of elements as non-zero.",
+     "self_check": true
+    },
+    {
+     "q": "The combustion of glucose: C₆H₁₂O₆(s) + 6O₂(g) → 6CO₂(g) + 6H₂O(l) has ΔcH° = −2800 kJ mol⁻¹. Given ΔfH°(CO₂(g)) = −393.5 kJ mol⁻¹ and ΔfH°(H₂O(l)) = −285.8 kJ mol⁻¹, calculate ΔfH°(C₆H₁₂O₆(s)). Why is the water product specified as liquid?",
+     "a": "Step 1: Write ΔcH° = 6ΔfH°(CO₂) + 6ΔfH°(H₂O(l)) − [ΔfH°(C₆H₁₂O₆) + 6ΔfH°(O₂)]. Step 2: Substitute: −2800 = 6(−393.5) + 6(−285.8) − ΔfH°(C₆H₁₂O₆). Step 3: −2800 = −2361 − 1714.8 − ΔfH°(C₆H₁₂O₆). Step 4: −2800 = −4075.8 − ΔfH°(C₆H₁₂O₆). Step 5: ΔfH°(C₆H₁₂O₆) = −1275.8 kJ mol⁻¹. Water is liquid because standard enthalpy of combustion is defined with water as liquid (condensed) at 298 K. A wrong answer reveals using H₂O(g) instead of H₂O(l), or sign errors in rearranging.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the formation equation for CaCO₃(s) as: Ca(s) + C(graphite) + 3/2 O₂(g) → CaCO₃(s). Identify the error and write the correct equation. The student then calculates ΔrH° for CaCO₃(s) → CaO(s) + CO₂(g) using ΔfH° values but gets +178 kJ mol⁻¹ instead of the correct +178.3 kJ mol⁻¹. Is this discrepancy significant?",
+     "a": "Error: Calcium's standard state at 298 K is solid Ca(s), but it must be written as Ca(s) – actually Ca(s) is correct for standard state, but the student wrote Ca(s) which is correct! Wait – the error is subtle: Ca(s) IS the standard state. The equation is actually correct. The \"error\" is a trick – there is no error in the equation. The discrepancy of 0.3 kJ mol⁻¹ is not significant; it's within experimental uncertainty and rounding of ΔfH° values (typically ±0.1–0.5 kJ mol⁻¹). A student who claims an error reveals they don't know Ca(s) is the standard state, or they over-interpret minor numerical differences.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thermochemical cycle (Hess's Law diagram) to determine the standard enthalpy of formation of CH₃COOH(l) using only these measurable quantities: ΔcH°(CH₃COOH(l)), ΔcH°(C(graphite)), ΔcH°(H₂(g)), and ΔfH°(CO₂(g)), ΔfH°(H₂O(l)). Draw the cycle and write the algebraic relationship.",
+     "a": "Cycle: Elements (2C + 2H₂ + O₂) → CH₃COOH(l) [ΔfH°] → combustion products (2CO₂ + 2H₂O) [ΔcH°]. Alternative path: Elements → 2C(graphite) + 2H₂(g) + ½O₂(g) → 2CO₂(g) + 2H₂O(l) via combustion of elements. Algebraic: ΔfH°(CH₃COOH) = 2ΔfH°(CO₂) + 2ΔfH°(H₂O) − ΔcH°(CH₃COOH). Since ΔcH°(C) = ΔfH°(CO₂) and ΔcH°(H₂) = ΔfH°(H₂O), this simplifies to ΔfH°(CH₃COOH) = 2ΔcH°(C) + 2ΔcH°(H₂) − ΔcH°(CH₃COOH). A poor answer reveals inability to construct a closed thermodynamic cycle or confusion between formation and combustion directions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

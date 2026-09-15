@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_03_002",
+   "title": "c11_phy_cbse_03_002",
+   "questions": [
+    {
+     "q": "State the triangle law of vector addition and draw a labelled diagram showing vectors **A** and **B** and their resultant **R** = **A** + **B** using the head-to-tail method. What is the geometric shape formed by the two vectors and their resultant?",
+     "a": "The triangle law states: if two vectors are represented in magnitude and direction by two sides of a triangle taken in order, their resultant is represented by the third side taken in the reverse order. The three vectors form a triangle. A wrong answer (e.g., saying they form a parallelogram) reveals confusion between triangle and parallelogram methods, or inability to visualise the head-to-tail arrangement.",
+     "self_check": true
+    },
+    {
+     "q": "Two vectors **A** and **B** have magnitudes 5 N and 12 N respectively. A student claims their resultant can have a magnitude of 20 N. Is this possible? Explain using the triangle law and the triangle inequality.",
+     "a": "No, the resultant magnitude must satisfy |**A** - **B**| ≤ |**R**| ≤ |**A**| + |**B**|, i.e., 7 N ≤ R ≤ 17 N. 20 N is impossible. A wrong answer reveals the student treats vector magnitudes as scalar addition (5+12=17) but doesn't understand the upper bound comes from collinear same-direction vectors, or doesn't grasp the geometric constraint of triangle side lengths.",
+     "self_check": true
+    },
+    {
+     "q": "A displacement vector **A** = 30 m at 30° north of east. A second displacement **B** = 40 m at 60° north of east. Using a scale of 1 cm = 10 m, construct the resultant **R** = **A** + **B** graphically. Measure and report the magnitude (in m) and direction (angle north of east) of **R**.",
+     "a": "Steps: (1) Draw **A** = 3.0 cm at 30° from east axis. (2) From head of **A**, draw **B** = 4.0 cm at 60° from east axis. (3) Join tail of **A** to head of **B** → **R**. (4) Measure **R** ≈ 6.8 cm → 68 m. (5) Measure angle ≈ 47° north of east. A wrong measurement (e.g., 70 m, 40°) reveals poor scaling, inaccurate protractor use, or not placing **B**'s tail exactly at **A**'s head.",
+     "self_check": true
+    },
+    {
+     "q": "Two vectors **P** and **Q** are added using the parallelogram method. The angle between them is θ. Derive the expression for the magnitude of resultant **R** in terms of |**P**|, |**Q**|, and θ using the law of cosines. Then show that when θ = 90°, |**R**|² = |**P**|² + |**Q**|².",
+     "a": "In parallelogram OACB, diagonal OC = **R**. Triangle OAC has sides |**P**|, |**Q**|, and included angle θ. By law of cosines: |**R**|² = |**P**|² + |**Q**|² + 2|**P**||**Q**|cos θ. For θ = 90°, cos 90° = 0 → |**R**|² = |**P**|² + |**Q**|². A wrong derivation (e.g., missing the 2|**P**||**Q**|cos θ term or using wrong angle) reveals confusion between the angle between vectors and the triangle's interior angle, or misapplication of law of cosines.",
+     "self_check": true
+    },
+    {
+     "q": "A student adds three vectors **A**, **B**, **C** graphically using head-to-tail method. They first add **A** + **B** to get **R₁**, then add **C** to get **R**. Another student adds **B** + **C** first to get **R₂**, then adds **A**. Will both get the same resultant? Justify using the associative property and a diagram.",
+     "a": "Yes, both get the same resultant because vector addition is associative: (**A** + **B**) + **C** = **A** + (**B** + **C**). The final resultant joins the tail of the first vector to the head of the last vector in the chain, regardless of grouping. A \"no\" answer reveals the student thinks order of operations matters like in scalar division, not understanding that vector addition is geometrically path-independent for the final displacement.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world experiment using a force table (or three spring balances and a knot) to verify the parallelogram law of vector addition for two forces. Specify the apparatus, procedure, measurements, and how you would calculate percentage error between experimental and theoretical resultant.",
+     "a": "Apparatus: force table with pulleys, three weight hangers, slotted weights, protractor, ruler. Procedure: (1) Fix two pulleys at angles θ₁, θ₂ with weights W₁, W₂ representing forces **F₁**, **F₂**. (2) Adjust third pulley with weight W₃ to centre the knot (equilibrium). (3) **F₃** = -**R** (theoretical resultant). (4) Measure θ₃, W₃. (5) Theoretical |**R**| = √(W₁² + W₂² + 2W₁W₂cos θ). (6) % error = |W₃ - |**R**|| / |**R**| × 100%. A poor design (e.g., ignoring friction, not centring knot precisely) reveals lack of understanding of equilibrium as vector sum = 0, or confusion between resultant and equilibrant.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

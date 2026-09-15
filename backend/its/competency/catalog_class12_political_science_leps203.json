@@ -1,0 +1,175 @@
+{
+ "class": 12,
+ "subject": "political_science",
+ "chapter": 3,
+ "chapter_title": "Politics of Planned Development",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leps203.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leps.203.1.1",
+   "title": "Development as Political Contestation",
+   "section": "Political contestation",
+   "definition": "Decisions about development are not technical puzzles that experts alone can settle: building a steel plant on tribal iron-ore land weighs one social group's livelihood against another's, the present against the future, and jobs against environment -- so in a democracy the final call belongs to elected representatives, not to markets or experts.",
+   "formula": "development_decision = group_interests_weighted + political_approval",
+   "key_idea": "Whose need counts as the nation's need is itself a political question; every development choice creates winners, losers and a legitimate debate.",
+   "textbook_ref": "leps203.txt POSCO case and Political contestation (lines 41-149)",
+   "question_patterns": [
+    "why are development decisions described as political and not merely technical",
+    "identify the conflicting interests in the orissa steel plant dispute",
+    "who should take the final decision on a project that displaces people and why",
+    "how can development mean different things to different sections of people",
+    "what makes the choice between jobs and environment a democratic question",
+    "explain the role of people's representatives in deciding major projects"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "map the interested parties", "explain": "the state hoping for investment, the company seeking ore, tribal residents fearing displacement, environmentalists fearing pollution and the Centre guarding investor confidence"},
+    {"step": 2, "action": "show why expertise cannot settle it", "explain": "weighing one group against another or one generation against the next is a value judgement, not a calculation an expert can deliver"},
+    {"step": 3, "action": "place the decision politically", "explain": "advice from miners, environmentalists and economists informs, but people's representatives in touch with public feeling must take or approve the final decision"}
+   ]
+  },
+  {
+   "id": "leps.203.2.1",
+   "title": "Ideas of Development: Modernisation and Two Rival Models",
+   "section": "Ideas of development",
+   "definition": "Post-Independence debate treated development as becoming modern, usually measured against the industrialised West, but India stood before two ready-made routes: the liberal-capitalist model of Europe and the US and the socialist model of the USSR; with communists, socialists and Nehru alike impressed by Soviet growth, the socialist model had the stronger following and left meant state control while right meant free markets.",
+   "formula": "development_models = liberal_capitalist_model + socialist_model",
+   "key_idea": "Development is an idea with politics inside it -- which model you pick decides who owns industry and who answers for redistribution.",
+   "textbook_ref": "leps203.txt Ideas of development, Left and Right box (lines 150-210)",
+   "question_patterns": [
+    "what did becoming modern mean in the development debate of the 1950s",
+    "compare the liberal capitalist and socialist models open to india",
+    "why did the soviet model attract indian leaders across parties",
+    "distinguish between left and right ideologies regarding the economy",
+    "why does any discussion of development generate conflict and debate",
+    "how did the national movement shape india's view of the state's economic role"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "unpack the modernisation idea", "explain": "development meant growth, material progress and scientific rationality on the western pattern, letting nations be labelled developed, developing or underdeveloped"},
+    {"step": 2, "action": "contrast the two models", "explain": "liberal-capitalism relied on private ownership and markets; the socialist model relied on state ownership and planning, exemplified by the USSR"},
+    {"step": 3, "action": "place the indian consensus", "explain": "the national movement had already fixed poverty alleviation and redistribution as government responsibility, and leaders from the Communist Party, Socialist Party and Nehru favoured the Soviet path"}
+   ]
+  },
+  {
+   "id": "leps.203.3.1",
+   "title": "Planning, the Planning Commission and the Bombay Plan",
+   "section": "Planning",
+   "definition": "Because development could not be left to private actors, India set up a Planning Commission in March 1950 by a simple government resolution -- not by the Constitution -- with the Prime Minister as chairperson and an advisory role whose plans needed Cabinet approval; the impulse crossed political lines, as shown by the Bombay Plan of 1944 in which big industrialists themselves asked the state to lead industrial investment.",
+   "formula": "planning_apparatus = planning_commission_1950 + five_year_plans + bombay_plan_heritage",
+   "key_idea": "From left to right, planning was the obvious choice: even industrialists wanted the state to take the major economic initiatives.",
+   "textbook_ref": "leps203.txt Planning, Planning Commission and Bombay Plan boxes (lines 211-305)",
+   "question_patterns": [
+    "why was a planning commission preferred over leaving development to markets",
+    "how was the planning commission set up and what powers did it have",
+    "what was the bombay plan and who drafted it",
+    "why is the planning commission not a constitutional body",
+    "what experiences around the world encouraged planning in the 1940s and 1950s",
+    "explain the advisory character of the planning commission under the prime minister"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the consensus for planning", "explain": "depression-era lessons, postwar reconstruction and Soviet growth made state-led planning respectable worldwide, and Indian industrialists signed the 1944 Bombay Plan seeking state initiative"},
+    {"step": 2, "action": "verify the institutional design", "explain": "created in March 1950 by government resolution, chaired by the Prime Minister, advisory in nature, effective only when the Union Cabinet approved its recommendations"},
+    {"step": 3, "action": "verify its mandate", "explain": "its charter tied planning to the Directive Principles -- livelihood for all, common-good distribution of resources and prevention of concentration of wealth"}
+   ]
+  },
+  {
+   "id": "leps.203.4.1",
+   "title": "Five Year Plans and the Plan-Non-Plan Budget Divide",
+   "section": "The Early Initiatives",
+   "definition": "Indian planning copied the Soviet device of five year plans: a document fixing government income and expenditure for five years, with budgets split into a non-plan part for routine yearly spending and a plan part spent on five-year priorities; excitement peaked with the Second Plan of 1956 and faded by the Fourth, when crisis forced a plan holiday in 1966.",
+   "formula": "annual_budget = plan_expenditure + non_plan_expenditure",
+   "key_idea": "The five-year horizon let government act on the larger picture, but plan enthusiasm could not survive the economic crisis of the mid-1960s.",
+   "textbook_ref": "leps203.txt The Early Initiatives, First FYP document (lines 306-363)",
+   "question_patterns": [
+    "what is a five year plan and why did india adopt it",
+    "distinguish between plan and non plan expenditure in the budget",
+    "what advantage does a five year plan give a government",
+    "why did india declare a plan holiday in 1966",
+    "how did public excitement around planning rise and fall",
+    "what criticisms were levelled at the early five year plans"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the planning device", "explain": "the plan document covers all central and state income and expenditure for five years so governments can make long-term interventions"},
+    {"step": 2, "action": "verify the budget split", "explain": "non-plan spending meets routine annual items while plan spending follows the priorities fixed by the plan"},
+    {"step": 3, "action": "verify the arc of enthusiasm", "explain": "the First Plan of December 1951 was widely debated, excitement crested with the Second Plan in 1956 and persisted into the Third, but the 1966 crisis led to a plan holiday"}
+   ]
+  },
+  {
+   "id": "leps.203.5.1",
+   "title": "First Plan versus Second Plan: Agriculture First or Industry First",
+   "section": "Rapid Industrialisation",
+   "definition": "The First Plan (1951-1956) preached patience -- K. N. Raj's hasten slowly -- concentrating on dams, irrigation and land reform to revive agriculture hit by Partition; the Second Plan (1956), drafted under P. C. Mahalanobis after the Avadi resolution on a socialist pattern of society, chased rapid industrialisation through heavy industry, import tariffs and a dominant public sector, but bred foreign-exchange strain, food worries and an urban bias.",
+   "formula": "strategy_shift = agrarian_first_plan + industrial_second_plan",
+   "key_idea": "The first plan guarded rural livelihoods while the second gambled on structural transformation, and the tension between feeding people and building factories never fully disappeared.",
+   "textbook_ref": "leps203.txt The First Five Year Plan, Rapid Industrialisation (lines 339-523)",
+   "question_patterns": [
+    "what was the major thrust of the first five year plan",
+    "how did the second plan differ from the first in strategy",
+    "what did the avadi session resolve and how did it shape the second plan",
+    "explain the role of p c mahalanobis in indian planning",
+    "why did land reforms matter so much to the first plan",
+    "what problems did rapid industrialisation create for the economy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the first plan's priorities", "explain": "hasten slowly was the watchword: investment in dams and irrigation, land reform against unequal land distribution, and an effort to lift savings for higher national income"},
+    {"step": 2, "action": "verify the second plan's priorities", "explain": "Mahalanobis's team pushed simultaneous structural change -- heavy industries like steel, railways and machinery in the public sector, protected behind import tariffs"},
+    {"step": 3, "action": "verify the costs", "explain": "technology imports drained foreign exchange, industry-first allocation raised food shortage fears, the Third Plan repeated the urban bias, and critics demanded agriculture-related industry instead"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_leps203_1",
+   "source_ref": "leps203.txt POSCO-India protest news clipping",
+   "concept": "leps.203.1.1",
+   "question_type": "conceptual",
+   "question_pattern": "Villagers of three gram panchayats protest outside a Korean company's office against a steel plant signed with the state government. Identify the interests at stake and say who should finally decide.",
+   "extracted_variables": {},
+   "solution_template": [
+    {"step": 1, "action": "list the interests", "explain": "the state wants capital and jobs, the company wants ore and land, villagers fear displacement from homes and livelihood, environmentalists fear pollution"},
+    {"step": 2, "action": "show the conflict is political", "explain": "there is no expert formula to weigh tribal livelihood against industrial investment; it is a conflict of values"},
+    {"step": 3, "action": "name the decision forum", "explain": "people's representatives, advised by experts and approved by the public, must take the decision in a democracy"}
+   ]
+  },
+  {
+   "id": "we_leps203_2",
+   "source_ref": "leps203.txt The First Five Year Plan and Rapid Industrialisation",
+   "concept": "leps.203.5.1",
+   "question_type": "conceptual",
+   "question_pattern": "A plan document urges dams and land reform while its successor imposes tariffs and expands public-sector steel. Which plans are these and what distinguishes them?",
+   "extracted_variables": {},
+   "solution_template": [
+    {"step": 1, "action": "match the first description", "explain": "dams, irrigation and land reform as the key to growth belong to the First Plan of 1951-1956 under the hasten slowly counsel of K. N. Raj"},
+    {"step": 2, "action": "match the second description", "explain": "tariffs protecting industry plus public-sector heavy industry reflect the Second Plan of 1956 drafted under Mahalanobis after the Avadi resolution"},
+    {"step": 3, "action": "state the contrast", "explain": "patience in agriculture versus rapid structural transformation through industry is the core difference"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-practice-1",
+   "source_ref": "leps203.txt EXERCISES Q1-Q4",
+   "questions": [
+    "which statement about the bombay plan is incorrect",
+    "which idea did not form part of early development policy -- planning, liberalisation, cooperative farming or self sufficiency",
+    "from which sources did the idea of planning in india draw",
+    "match charan singh, p c mahalanobis, the bihar famine and verghese kurien with industrialisation, zoning, farmers and milk cooperatives"
+   ]
+  },
+  {
+   "id": "ex-practice-2",
+   "source_ref": "leps203.txt EXERCISES Q5-Q7",
+   "questions": [
+    "what were the major differences in the approach towards development at the time of independence and has the debate been resolved",
+    "what was the major thrust of the first five year plan and in which ways did the second plan differ",
+    "identify the contradiction inside the congress between socialist principles and liberal economic policies and discuss its political implications",
+    "why did the second plan give priority to industry over agriculture and what criticism did this invite"
+   ]
+  }
+ ]
+}

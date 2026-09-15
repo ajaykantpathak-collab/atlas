@@ -1,0 +1,366 @@
+{
+ "catalog": "t2_class12_home_science_b",
+ "note": "Wave-2 graded top-ups for class 12 Home Science pools (lehe201-207). One-term factual keys and numeric answers; machine-graded.",
+ "concepts": [
+  {"id": "lehe201.1", "title": "Meaning of Design", "questions": [
+    {"q": "Design growing out of the object itself -- fibre, yarn, weave -- is which design: structural or applied?", "a": "structural"},
+    {"q": "Design laid on top through printing and embroidery is which design?", "a": "applied"}
+  ]},
+  {"id": "lehe201.2", "title": "Elements and Principles of Design", "questions": [
+    {"q": "Colour, texture, line and shape are the what of art: elements or principles?", "a": "elements"},
+    {"q": "Harmony, balance, rhythm, proportion and emphasis are the what: principles or elements?", "a": "principles"}
+  ]},
+  {"id": "lehe201.3", "title": "Colour: Hue, Value, Intensity", "questions": [
+    {"q": "The colour's name is called its what: hue or value?", "a": "hue"},
+    {"q": "Lightness or darkness of a colour is called its what: value or hue?", "a": "value"}
+  ]},
+  {"id": "lehe201.4", "title": "Colour Schemes", "questions": [
+    {"q": "Which scheme shares at least one hue: analogous or complementary?", "a": "analogous"},
+    {"q": "Which scheme sets hues opposite on the colour wheel: complementary or monochromatic?", "a": "complementary"}
+  ]},
+  {"id": "lehe201.5", "title": "Texture in Fabrics", "questions": [
+    {"q": "What a material looks like, how it behaves and how it feels is its what: texture or price?", "a": "texture"},
+    {"q": "Heavy bulky textures overpower which frame: a petite one or a large one?", "a": "a petite one"}
+  ]},
+  {"id": "lehe201.6", "title": "Line and Its Types", "questions": [
+    {"q": "Which lines stress height and dignity: vertical or horizontal?", "a": "vertical"},
+    {"q": "Which lines read as soft, graceful and feminine: curved or straight?", "a": "curved"}
+  ]},
+  {"id": "lehe201.7", "title": "Shapes, Forms and Patterns", "questions": [
+    {"q": "Two-dimensional figures built from lines are called what: shapes or shadows?", "a": "shapes"},
+    {"q": "The four basic shape groups are natural, stylised, geometric and which fourth: abstract or artificial?", "a": "abstract"}
+  ]},
+  {"id": "lehe201.8", "title": "Proportion and the Golden Mean", "questions": [
+    {"q": "The classical guide to pleasing proportion is the golden what: mean or ring?", "a": "mean"},
+    {"q": "The 3:5:8 split is an example of which ratio guide: the golden mean or random guess?", "a": "the golden mean"}
+  ]},
+  {"id": "lehe201.9", "title": "Balance in Dress", "questions": [
+    {"q": "Which balance mirrors the symmetrical body: formal or informal?", "a": "formal"},
+    {"q": "Which balance flows out from a centre point: radial or formal?", "a": "radial"}
+  ]},
+  {"id": "lehe201.10", "title": "Emphasis and the Focal Point", "questions": [
+    {"q": "The spot where the eye lands first is called the what: focal point or hemline?", "a": "focal point"},
+    {"q": "Smart dressing steers emphasis away from a what: problem zone or holiday?", "a": "problem zone"}
+  ]},
+  {"id": "lehe201.11", "title": "Rhythm in Design", "questions": [
+    {"q": "Repeating lines and details so the eye travels easily is called what: rhythm or silence?", "a": "rhythm"},
+    {"q": "Which rhythm route comes from gathers at waist or cuff: radiation or repetition?", "a": "radiation"}
+  ]},
+  {"id": "lehe201.12", "title": "Harmony and Composition", "questions": [
+    {"q": "The agreement of every element in a design is called what: harmony or chaos?", "a": "harmony"},
+    {"q": "A silk kurta with a cotton dupatta breaks which harmony: textural or numerical?", "a": "textural"}
+  ]},
+  {"id": "lehe201.13", "title": "Careers in Fabric and Apparel Design", "questions": [
+    {"q": "Which design career demands command of fibre and dyeing behaviour: fabric design or accounting?", "a": "fabric design"},
+    {"q": "Which designs turn over faster: apparel textile or furnishing?", "a": "apparel textile"}
+  ]},
+  {"id": "lehe201.14", "title": "Golden Mean Arithmetic", "questions": [
+    {"q": "The 3:5 split gives the blouse what percent of the whole: 37.5 or 62.5?", "a": "37.5"},
+    {"q": "Part percent equals part units over combined units scaled by what: 100 or 10?", "a": "100"}
+  ]},
+  {"id": "lehe201.15", "title": "Grey Scale Position", "questions": [
+    {"q": "The grey scale runs through how many grades: eleven or one?", "a": "eleven"},
+    {"q": "Grades below five are shades approaching which end: black or white?", "a": "black"}
+  ]},
+  {"id": "lehe202.1", "title": "Fashion Terminology", "questions": [
+    {"q": "Which look burns out within a season: a fad or a classic?", "a": "a fad"},
+    {"q": "Blazers and polo shirts are examples of what: classics or fads?", "a": "classics"}
+  ]},
+  {"id": "lehe202.2", "title": "Historic Growth of Fashion", "questions": [
+    {"q": "Which machine turned clothing from handcraft into industry: the sewing machine or the loom?", "a": "the sewing machine"},
+    {"q": "Who turned tent cloth into work denims: Levi Strauss or Saint Laurent?", "a": "Levi Strauss"}
+  ]},
+  {"id": "lehe202.3", "title": "Fashion Cycle Stages", "questions": [
+    {"q": "Name the fashion cycle's first stage: introduction or rejection?", "a": "introduction"},
+    {"q": "Heavy copying pushes the curve downward toward what: decline or rise?", "a": "decline"}
+  ]},
+  {"id": "lehe202.4", "title": "Fashion Merchandising", "questions": [
+    {"q": "Planning that puts the wanted goods in the wanted place at the wanted time is called fashion what: merchandising or mounting?", "a": "merchandising"},
+    {"q": "How many rights does the merchandising recipe list: six or sixty?", "a": "six"}
+  ]},
+  {"id": "lehe202.5", "title": "Roles of the Merchandiser", "questions": [
+    {"q": "In manufacturing, the merchandiser advises on which inputs: fabrics or weather?", "a": "fabrics"},
+    {"q": "Which role closes the loop with stores through display suggestions: selling or buying?", "a": "selling"}
+  ]},
+  {"id": "lehe202.6", "title": "Levels of Merchandising", "questions": [
+    {"q": "At which level does internal planning stock the sales floor: retail organisations or export houses?", "a": "retail organisations"},
+    {"q": "Which house links client to factory: the export house or the bank?", "a": "the export house"}
+  ]},
+  {"id": "lehe202.7", "title": "Target Market and Segmentation", "questions": [
+    {"q": "The consumer category likeliest to buy the offering is the target what: market or mall?", "a": "market"},
+    {"q": "Segmenting by age, sex and income is which base: demographic or geographic?", "a": "demographic"}
+  ]},
+  {"id": "lehe202.8", "title": "Fashion Retail Organisations", "questions": [
+    {"q": "Which store format shares one brand and central management: chain stores or single units?", "a": "chain stores"},
+    {"q": "Department stores split the floor into separate what: sections or countries?", "a": "sections"}
+  ]},
+  {"id": "lehe202.9", "title": "Skills and Careers in Fashion", "questions": [
+    {"q": "About what share of professional fashion designers are self-employed: one third or one hundredth?", "a": "one third"},
+    {"q": "The bachelor's route in fashion runs how many years: four or four months?", "a": "four"}
+  ]},
+  {"id": "lehe202.10", "title": "Croquis Height", "questions": [
+    {"q": "Fashion figures run eight and a half to how many heads tall: ten or two?", "a": "ten"},
+    {"q": "A croquis of 9 heads at 1 inch per head stands how many inches tall?", "a": "9"}
+  ]},
+  {"id": "lehe202.11", "title": "Study Programme Durations", "questions": [
+    {"q": "A master's degree in fashion takes how many years: two or twenty?", "a": "two"},
+    {"q": "Choosing a four-year bachelor's over a one-year diploma costs how many extra years: three or thirteen?", "a": "three"}
+  ]},
+  {"id": "lehe202.12", "title": "Self-Employment Share", "questions": [
+    {"q": "About one in how many professional fashion designers is self-employed: three or thirty?", "a": "three"},
+    {"q": "One third of 90 designers equals how many independents?", "a": "30"}
+  ]},
+  {"id": "lehe203.1", "title": "Two Aspects of Fabric Care", "questions": [
+    {"q": "Fabric care guards against harm and also renews what: appearance or ownership?", "a": "appearance"},
+    {"q": "Laundering is both a science and an what: art or argument?", "a": "art"}
+  ]},
+  {"id": "lehe203.2", "title": "Washing Machine Types", "questions": [
+    {"q": "Which machines load through a door at the front: front loaders or top loaders?", "a": "front loaders"},
+    {"q": "Semi-automatic machines need filling and draining by what or whom: hand or robots?", "a": "hand"}
+  ]},
+  {"id": "lehe203.3", "title": "Wash Motions and Extraction", "questions": [
+    {"q": "Front loaders clean by which motion: tumbling or agitation?", "a": "tumbling"},
+    {"q": "About how many rpm is optimal for spinning: 600-620 or 6000?", "a": "600"}
+  ]},
+  {"id": "lehe203.4", "title": "Driers and Air Circulation", "questions": [
+    {"q": "Which circulation exhausts very humid air: slow hot air or fast cool air?", "a": "slow hot air"},
+    {"q": "Which route keeps room temperature and humidity normal: fast cool air or slow hot air?", "a": "fast cool air"}
+  ]},
+  {"id": "lehe203.5", "title": "Ironing and Pressing", "questions": [
+    {"q": "Setting creases into sleeves and pleats is called what: pressing or folding?", "a": "pressing"},
+    {"q": "Irons span roughly 1.5 to how many kilograms: 3.5 or 35?", "a": "3.5"}
+  ]},
+  {"id": "lehe203.6", "title": "Laundry Services", "questions": [
+    {"q": "Commercial machines take how many kilograms or more per cycle: 100 or 1?", "a": "100"},
+    {"q": "What ties each article to its invoice in a commercial laundry: code tags or ribbons?", "a": "code tags"}
+  ]},
+  {"id": "lehe203.7", "title": "Hospital Laundry", "questions": [
+    {"q": "Which laundry puts hygiene and disinfection first: hospital or hotel?", "a": "hospital"},
+    {"q": "Hospital infection-prone items are replaced by what kind of disposables: burnable or reusable?", "a": "burnable"}
+  ]},
+  {"id": "lehe203.8", "title": "Hotel Laundry Priorities", "questions": [
+    {"q": "Which laundry chases starched, pressed and folded looks: hotel or hospital?", "a": "hotel"},
+    {"q": "Smaller hotels link up with what instead of running their own plant: outside commercial laundries or farms?", "a": "outside commercial laundries"}
+  ]},
+  {"id": "lehe203.9", "title": "Careers in Fabric Care", "questions": [
+    {"q": "Laundry careers demand command of material, processes and which third area: machinery or poetry?", "a": "machinery"},
+    {"q": "The nursing home boom makes fabric care promising for whom: entrepreneurs or spectators?", "a": "entrepreneurs"}
+  ]},
+  {"id": "lehe203.10", "title": "Stain Removal", "questions": [
+    {"q": "Fresh blood washes out in cold water but which kind of water sets it: hot or cold?", "a": "hot"},
+    {"q": "Which reagent treats ball pen marks: methylated spirit or milk?", "a": "methylated spirit"}
+  ]},
+  {"id": "lehe203.11", "title": "Linen Stock Requirement", "questions": [
+    {"q": "Six sets per bed with three pieces each means how many pieces per bed: eighteen or six?", "a": "eighteen"},
+    {"q": "Linen stock equals beds times sets per bed times what: pieces per set or threads?", "a": "pieces per set"}
+  ]},
+  {"id": "lehe203.12", "title": "Daily Sheet Changes", "questions": [
+    {"q": "At five changes a day, a forty-bed zone pushes how many sheets into daily wash: 200 or 45?", "a": "200"},
+    {"q": "Daily wash burden equals zone beds times what: changes per day or years?", "a": "changes per day"}
+  ]},
+  {"id": "lehe203.13", "title": "Hydro-Extractor Moisture", "questions": [
+    {"q": "A hydro-extractor spins off sixty to seventy percent of the what: moisture or colour?", "a": "moisture"},
+    {"q": "At 65 percent extraction, what percent moisture remains for the drier: 35 or 65?", "a": "35"}
+  ]},
+  {"id": "lehe203.14", "title": "Machine Capacity Ratio", "questions": [
+    {"q": "Against a 5 kg home machine, a 100 kg plant machine washes how many times the load: twenty or two?", "a": "twenty"},
+    {"q": "The capacity ratio equals commercial capacity divided by what: domestic capacity or time?", "a": "domestic capacity"}
+  ]},
+  {"id": "lehe204.1", "title": "Hospitality and the Guest", "questions": [
+    {"q": "Indian tradition holds the guest as what: divine or difficult?", "a": "divine"},
+    {"q": "Anyone who travels and stays temporarily elsewhere is called a what: tourist or tenant?", "a": "tourist"}
+  ]},
+  {"id": "lehe204.2", "title": "Hospitality Establishments", "questions": [
+    {"q": "Which establishment offers lodging, meals and services: a hotel or a lodge?", "a": "a hotel"},
+    {"q": "Which establishment features doorstep parking: the motel or the palace?", "a": "the motel"}
+  ]},
+  {"id": "lehe204.3", "title": "Guest Cycle", "questions": [
+    {"q": "Name the guest cycle's first stage: pre-arrival or departure?", "a": "pre-arrival"},
+    {"q": "Guest history recorded at departure feeds the next what: pre-arrival or bill?", "a": "pre-arrival"}
+  ]},
+  {"id": "lehe204.4", "title": "Front Office", "questions": [
+    {"q": "Which department is the hotel's focal point where the guest first meets it: front office or laundry?", "a": "the front office"},
+    {"q": "The front office runs how many hours a day: twenty-four or four?", "a": "twenty-four"}
+  ]},
+  {"id": "lehe204.5", "title": "Housekeeping Functions", "questions": [
+    {"q": "Which department guards cleanliness, hygiene and looks: housekeeping or accounts?", "a": "housekeeping"},
+    {"q": "Housekeeping runs through how many sections: seven or seventy?", "a": "seven"}
+  ]},
+  {"id": "lehe204.6", "title": "Housekeeping Staffing", "questions": [
+    {"q": "Who steers manpower, money and time in housekeeping: the executive housekeeper or the chef?", "a": "the executive housekeeper"},
+    {"q": "Which supervisor trades room status with the front office: the desk control supervisor or the florist?", "a": "the desk control supervisor"}
+  ]},
+  {"id": "lehe204.7", "title": "Cleaning Equipment and Agents", "questions": [
+    {"q": "Which agents can ruin marble and wood surfaces: strong abrasives or plain water?", "a": "strong abrasives"},
+    {"q": "Which eco-friendly practice asks guests to reuse what: towels or keys?", "a": "towels"}
+  ]},
+  {"id": "lehe204.8", "title": "Food and Beverage Department", "questions": [
+    {"q": "Who plans and controls kitchen operations: the chef de cuisine or the doorman?", "a": "the chef de cuisine"},
+    {"q": "Which section guards the cutlery, crockery and glassware: kitchen stewarding or housekeeping?", "a": "kitchen stewarding"}
+  ]},
+  {"id": "lehe204.9", "title": "Support Departments and Management", "questions": [
+    {"q": "Name one back office department of a hotel: finance and accounts, or the bar?", "a": "finance and accounts"},
+    {"q": "Management runs through planning, organising, staffing, directing and what: controlling or cooking?", "a": "controlling"}
+  ]},
+  {"id": "lehe204.10", "title": "Careers in Hospitality", "questions": [
+    {"q": "Front office staff must look their best because appearance projects whose image: the establishment's or their own?", "a": "the establishment's"},
+    {"q": "The career ladder runs from operations staff through supervisors up to what: top management or the basement?", "a": "top management"}
+  ]},
+  {"id": "lehe204.11", "title": "Shift Rotation", "questions": [
+    {"q": "Eight-hour shifts over twenty-four hours need how many rotations daily: three or thirty?", "a": "three"},
+    {"q": "Shifts per day equals operating hours divided by what: shift length or profit?", "a": "shift length"}
+  ]},
+  {"id": "lehe204.12", "title": "Cleaning Schedule Frequency", "questions": [
+    {"q": "A once-a-week deep clean means how many rounds a year: 52 or 5?", "a": "52"},
+    {"q": "Yearly rounds equal weekly cleanings multiplied by what: weeks in a year or days off?", "a": "weeks in a year"}
+  ]},
+  {"id": "lehe205.1", "title": "Who Is a Consumer", "questions": [
+    {"q": "The person who ultimately buys goods for personal wants is called a what: consumer or producer?", "a": "consumer"},
+    {"q": "The count of visitors to a store or mall is called consumer what: footfalls or opinions?", "a": "footfalls"}
+  ]},
+  {"id": "lehe205.2", "title": "What a Consumer Expects", "questions": [
+    {"q": "At the counter every buyer hopes for correct weights and what else: measures or miracles?", "a": "measures"},
+    {"q": "Consumer awareness is read as a marker of how what a country is: developed or distant?", "a": "developed"}
+  ]},
+  {"id": "lehe205.3", "title": "Problems Faced by Consumers", "questions": [
+    {"q": "Which problem alters composition and can damage health: adulteration or advertising?", "a": "adulteration"},
+    {"q": "Spurious duplicates of known brands are called what: fakes or originals?", "a": "fakes"}
+  ]},
+  {"id": "lehe205.4", "title": "Green Consumption", "questions": [
+    {"q": "Which marketing offers goods that sit closer to nature: green marketing or grey marketing?", "a": "green marketing"},
+    {"q": "Green products generate less waste and draw fewer raw what: materials or profits?", "a": "materials"}
+  ]},
+  {"id": "lehe205.5", "title": "Consumer Protection Acts", "questions": [
+    {"q": "Which act first shielded Indian buyers in 1986: the Consumer Protection Act or the Copyright Act?", "a": "the Consumer Protection Act"},
+    {"q": "The 2019 Act created a central what: regulator or bakery?", "a": "regulator"}
+  ]},
+  {"id": "lehe205.6", "title": "The Six Consumer Rights", "questions": [
+    {"q": "How many rights does the Act engrain: six or sixteen?", "a": "six"},
+    {"q": "Which two rights were added to the four basic ones: redressal and education, or safety and choice?", "a": "redressal and education"}
+  ]},
+  {"id": "lehe205.7", "title": "Standardisation Marks", "questions": [
+    {"q": "Which mark certifies tested precious metals: the Hallmark or the Ecomark?", "a": "the Hallmark"},
+    {"q": "Which mark signals environment-friendly household products: the Ecomark or the ISI mark?", "a": "the Ecomark"}
+  ]},
+  {"id": "lehe205.8", "title": "Consumer Organisations", "questions": [
+    {"q": "Which Delhi organisation brings out Consumer Voice: VOICE or CERC?", "a": "VOICE"},
+    {"q": "Which Ahmedabad body publishes Insight: CERC or VOICE?", "a": "CERC"}
+  ]},
+  {"id": "lehe205.9", "title": "Consumer Responsibilities", "questions": [
+    {"q": "Which documents are the evidence a complaint stands on: receipts or rumours?", "a": "receipts"},
+    {"q": "Before buying, a responsible consumer compares brands and what: prices or gossip?", "a": "prices"}
+  ]},
+  {"id": "lehe205.10", "title": "Careers in Consumer Protection", "questions": [
+    {"q": "With legal training one can plead cases in which courts: consumer courts or cricket courts?", "a": "consumer courts"},
+    {"q": "Writing skill opens which journalism: consumer affairs or sports commentary?", "a": "consumer affairs"}
+  ]},
+  {"id": "lehe205.11", "title": "Designing a Leaflet", "questions": [
+    {"q": "How many themes should one leaflet carry: one or two unrelated ones?", "a": "one"},
+    {"q": "A leaflet opens with a short forceful what: heading or recipe?", "a": "heading"}
+  ]},
+  {"id": "lehe205.12", "title": "Leaflet Panel Count", "questions": [
+    {"q": "A bi-fold sheet printed on both sides gives how many panels: four or two?", "a": "four"},
+    {"q": "A tri-fold sheet printed on both sides gives how many panels: six or three?", "a": "six"}
+  ]},
+  {"id": "lehe205.13", "title": "Counting the Rights", "questions": [
+    {"q": "Four basic rights plus two additions give the consumer how many shields: six or four?", "a": "six"},
+    {"q": "Total rights equals basic rights plus what: additional rights or taxes?", "a": "additional rights"}
+  ]},
+  {"id": "lehe206.1", "title": "Development Communication", "questions": [
+    {"q": "Planned messaging as an engine of social progress is called what communication: development or gossip?", "a": "development"},
+    {"q": "In development communication, information flows which way: both ways or one way?", "a": "both ways"}
+  ]},
+  {"id": "lehe206.2", "title": "Development Journalism", "questions": [
+    {"q": "The press is counted as which pillar of democracy: the fourth or the first?", "a": "the fourth"},
+    {"q": "Development journalism highlights how ordinary people what: adopt new techniques or quarrel?", "a": "adopt new techniques"}
+  ]},
+  {"id": "lehe206.3", "title": "Campaigns and Advocacy", "questions": [
+    {"q": "A time-bound drive combining many channels around one theme is called a what: campaign or holiday?", "a": "campaign"},
+    {"q": "Championing a cause through lobbying and alliances is called what: advocacy or apathy?", "a": "advocacy"}
+  ]},
+  {"id": "lehe206.4", "title": "Red Ribbon Express", "questions": [
+    {"q": "How many coaches does the Red Ribbon Express carry: seven or seventy?", "a": "seven"},
+    {"q": "Villages per station equals villages covered divided by what: halt stations or tickets?", "a": "halt stations"}
+  ]},
+  {"id": "lehe206.5", "title": "Radio and Television Outreach", "questions": [
+    {"q": "Which is the cheapest, most portable mass medium: radio or television?", "a": "radio"},
+    {"q": "Which radio lets local people broadcast in their own dialect: community radio or national radio?", "a": "community radio"}
+  ]},
+  {"id": "lehe206.6", "title": "Print Media and Rural Reporting", "questions": [
+    {"q": "Which village column begun in 1969 pulled services into one village: Project Village Chhatera or Page Three?", "a": "Project Village Chhatera"},
+    {"q": "National and regional dailies lean toward which audience: urban or rural?", "a": "urban"}
+  ]},
+  {"id": "lehe206.7", "title": "ICTs and Tele-centres", "questions": [
+    {"q": "How many kiosks did the SARI project run in Tamilnadu: 80 or 8?", "a": "80"},
+    {"q": "Which organisation's Community Learning Centres trained grassroots women digitally: SEWA or NASA?", "a": "SEWA"}
+  ]},
+  {"id": "lehe206.8", "title": "PSA Appraisal Rubric", "questions": [
+    {"q": "The PSA rubric rates ten parameters on a 0 to what scale: 3 or 30?", "a": "3"},
+    {"q": "Ten ratings of 0-3 add to a score out of what: 30 or 3?", "a": "30"}
+  ]},
+  {"id": "lehe206.9", "title": "PSA Duration", "questions": [
+    {"q": "PSAs classically run 10 to how many seconds: 60 or 6?", "a": "60"},
+    {"q": "The midpoint of a 10-to-60-second slot is how many seconds: 35 or 5?", "a": "35"}
+  ]},
+  {"id": "lehe206.10", "title": "Careers in Development Communication", "questions": [
+    {"q": "Which command covers camera, video production and editing: technical or financial?", "a": "technical"},
+    {"q": "Working with diverse groups demands listening well and what else: empathy or speed reading?", "a": "empathy"}
+  ]},
+  {"id": "lehe207.1", "title": "Corporate Communication", "questions": [
+    {"q": "Coordinated handling of every message an organisation sends is called what communication: corporate or casual?", "a": "corporate"},
+    {"q": "Perception, more than events, decides an organisation's what: respectability or canteen?", "a": "respectability"}
+  ]},
+  {"id": "lehe207.2", "title": "Functions of Corporate Communication", "questions": [
+    {"q": "Guarding how the world sees the organisation is called what management: reputation or time?", "a": "reputation"},
+    {"q": "Which function became a priority amid rising competition and a media explosion: reputation management or stationery?", "a": "reputation management"}
+  ]},
+  {"id": "lehe207.3", "title": "PR Department Functions", "questions": [
+    {"q": "PR drafts corporate statements, speeches and what releases: press or postal?", "a": "press"},
+    {"q": "PR maintains liaison with government, community, shareholders and whom else: investors or tourists?", "a": "investors"}
+  ]},
+  {"id": "lehe207.4", "title": "Areas of PR Activity", "questions": [
+    {"q": "PR and which professionals depend on each other for news and publicity: journalists or judges?", "a": "journalists"},
+    {"q": "Brochures, folders, pamphlets and house journals are PR what: publications or punishments?", "a": "publications"}
+  ]},
+  {"id": "lehe207.5", "title": "Page's Seven Principles", "questions": [
+    {"q": "Who managed public relations through seven principles: Arthur W. Page or Arthur Miller?", "a": "Arthur W. Page"},
+    {"q": "Page's first principle is to tell the what: truth or time?", "a": "truth"}
+  ]},
+  {"id": "lehe207.6", "title": "Internal and External Communication", "questions": [
+    {"q": "Communication flowing among employer and employees is what communication: internal or external?", "a": "internal"},
+    {"q": "Ineffective communication is the root of most what problems: internal or weather?", "a": "internal"}
+  ]},
+  {"id": "lehe207.7", "title": "The 7 Cs of Composing", "questions": [
+    {"q": "How many Cs guide composing messages: seven or seventy?", "a": "seven"},
+    {"q": "Stressing a you-attitude rather than I and we wording is which C: consideration or clarity?", "a": "consideration"}
+  ]},
+  {"id": "lehe207.8", "title": "Survey Percentages", "questions": [
+    {"q": "A survey percent converts to head counts by multiplying the what by the percentage: sample or rumour?", "a": "sample"},
+    {"q": "Most chief executives held that communicating with employees lifts what: job satisfaction or bills?", "a": "job satisfaction"}
+  ]},
+  {"id": "lehe207.9", "title": "Perception: Deeds versus Words", "questions": [
+    {"q": "About what percent of perception comes from deeds: ninety or ten?", "a": "ninety"},
+    {"q": "Only ten percent of perception comes from what: statements or actions?", "a": "statements"}
+  ]},
+  {"id": "lehe207.10", "title": "Rapport: Analogue versus Digital", "questions": [
+    {"q": "About what percent of a message rides on body language and voice: 93 or 7?", "a": "93"},
+    {"q": "The words themselves carry only what percent of the message: 7 or 70?", "a": "7"}
+  ]},
+  {"id": "lehe207.11", "title": "Listening and Communicator Skills", "questions": [
+    {"q": "Listening has three parts: hearing, understanding and which third: responding or sleeping?", "a": "responding"},
+    {"q": "Negotiation trades what so both sides exit satisfied: concessions or insults?", "a": "concessions"}
+  ]},
+  {"id": "lehe207.12", "title": "Time and Stress Management", "questions": [
+    {"q": "Which matchless resource do communicators manage: time or trouble?", "a": "time"},
+    {"q": "Stress is the response when demands exceed the ability to what: cope or complain?", "a": "cope"}
+  ]},
+  {"id": "lehe207.13", "title": "ICT in Corporate Communication", "questions": [
+    {"q": "ICT is the umbrella term for processing, transmitting and storing what: information or furniture?", "a": "information"},
+    {"q": "Digital technology widened PR's reach from internal messaging to every outside what: audience or window?", "a": "audience"}
+  ]},
+  {"id": "lehe207.14", "title": "Event Budget Balance", "questions": [
+    {"q": "Event balance equals total income minus total what: expenses or guests?", "a": "expenses"},
+    {"q": "A positive balance means the event finished with a what: surplus or deficit?", "a": "surplus"}
+  ]}
+ ]
+}

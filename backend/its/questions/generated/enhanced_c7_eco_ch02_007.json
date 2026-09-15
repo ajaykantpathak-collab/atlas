@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch02_007",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch02_007",
+   "title": "c7_eco_ch02_007",
+   "questions": [
+    {
+     "q": "What is the primary purpose of quality certification marks like ISI or Agmark on consumer goods in India?",
+     "a": "The primary purpose is to assure the consumer that the product meets specific safety, health, and quality standards set by regulatory authorities. A wrong answer—such as thinking it only shows the manufacturing date or the shop's location—reveals a confusion between commercial tracking information and official quality regulation.",
+     "self_check": true
+    },
+    {
+     "q": "Why might a consumer prefer to buy a packaged spice packet bearing the Agmark symbol rather than an unbranded, loose packet from a local market stall?",
+     "a": "Agmark certification ensures that the agricultural product has been tested for purity, graded according to official standards, and is safe from harmful adulteration. A wrong answer suggests that packaging is purely cosmetic or that unbranded goods are always fresher, ignoring the risk of hidden impurities and lack of accountability.",
+     "self_check": true
+    },
+    {
+     "q": "A packet of electrical switches costs ₹150 and bears an ISI mark, while an uncertified switch packet costs ₹90. If your household requires safety from electrical short circuits, calculate the cost difference and explain why the certified switch is an economically sound choice despite the higher price.",
+     "a": "Steps:\n1. Identify given prices: Certified switch = ₹150, Uncertified switch = ₹90.\n2. Calculate price difference: ₹150 - ₹90 = ₹60 extra for the certified product.\n3. Assess the value: The ₹60 extra cost pays for safety testing, reducing the risk of fire or appliance damage.\n4. Conclude: Paying ₹60 more minimizes future potential losses from hazards, making it a rational safety investment.\nA wrong answer—focusing solely on saving ₹90 without factoring in safety risks—shows a failure to evaluate long-term utility and risk in purchasing decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the absence of quality certification marks on consumer goods creates an information gap between sellers and buyers in a local market.",
+     "a": "When goods lack certification marks, buyers cannot easily verify the purity, safety, or durability of the product without specialized testing equipment. This asymmetry leaves buyers vulnerable to paying high prices for inferior or adulterated goods. A wrong answer assumes that buyers can easily inspect product quality with the naked eye, ignoring hidden defects or chemical adulteration.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Consumers do not need to check quality certification marks if the product is sold at a very low price in a weekly market.\" Is this statement economically sound?",
+     "a": "The statement is false and economically unsound. While a low price offers immediate savings, purchasing unverified goods can lead to health hazards, premature product failure, or replacement costs that far outweigh the initial savings. A wrong answer demonstrates a short-sighted focus on nominal price rather than total cost and safety value.",
+     "self_check": true
+    },
+    {
+     "q": "Design a quick three-step checklist that a middle-school student can use when purchasing a packaged food item from a local grocery store to ensure it is safe and of good quality.",
+     "a": "Criteria for a good answer: \n1. Check the manufacturing date and expiry/best-before date.\n2. Look for official quality certification marks like FSSAI or Agmark.\n3. Inspect the packaging integrity for seals, tampering, or damage. \nA poor answer lists irrelevant criteria such as the color of the delivery vehicle or store owner's name, showing a lack of understanding of consumer safety indicators.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

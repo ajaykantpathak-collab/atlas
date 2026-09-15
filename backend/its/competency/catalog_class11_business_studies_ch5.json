@@ -1,0 +1,521 @@
+{
+ "class": 11,
+ "subject": "business_studies",
+ "chapter": 5,
+ "chapter_title": "Emerging Modes of Business",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kebs105.txt",
+ "concepts": [
+  {
+   "id": "c11bs.5.1",
+   "title": "E-Business Concept and Scope",
+   "section": "E-Business: Concept and Scope",
+   "definition": "E-business (electronic business) refers to the conduct of business processes -- production, marketing, sales, procurement, payments, customer support, and inter-firm collaboration -- over computer networks, primarily the internet, using digital technologies.",
+   "formula": "",
+   "key_idea": "E-business covers the entire range of business activities conducted electronically, spanning intra-business, business-to-business, and business-to-consumer transactions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is e-business and how does it differ from traditional business?",
+    "Explain the scope of e-business with examples.",
+    "What are the different types of e-business transactions?",
+    "How has the internet enabled the growth of e-business?",
+    "Describe the various business processes that can be conducted electronically."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the electronic medium used for conducting business",
+     "explain": "E-business uses computer networks and the internet to conduct business processes such as production, marketing, and customer support."
+    },
+    {
+     "step": 2,
+     "action": "Map the business processes covered under e-business scope",
+     "explain": "Scope includes intra-B (within a firm), B2B (between firms), B2C (firm to consumer), and C2C (consumer to consumer) transactions."
+    },
+    {
+     "step": 3,
+     "action": "Distinguish e-business from e-commerce by breadth",
+     "explain": "E-commerce is a subset of e-business limited to buying and selling; e-business covers all business processes including production, marketing, and after-sales support."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A company uses the internet to manage its internal inventory, place orders with suppliers, sell to customers online, and provide after-sales support. What type of business model is this?",
+     "solution": "Step 1: The company conducts multiple business processes over the internet. Step 2: This covers intra-B, B2B, B2C, and customer support -- the full scope of e-business. Step 3: Hence this is e-business.",
+     "answer": "E-business, as it covers the full range of business processes conducted electronically"
+    },
+    {
+     "question": "Is buying a book online from a retailer an example of e-business or e-commerce?",
+     "solution": "Step 1: The transaction involves only buying and selling over the internet. Step 2: E-commerce is limited to the buying and selling aspect. Step 3: It is an e-commerce transaction, which is a subset of e-business.",
+     "answer": "E-commerce (a subset of e-business), since it involves only the buying and selling transaction"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the scope of e-business with a suitable diagram.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does e-business differ from e-commerce?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.5.2",
+   "title": "Benefits of E-Business",
+   "section": "Benefits of E-Business",
+   "definition": "E-business offers benefits such as ease of formation, lower investment, convenience, speed, global reach, flexibility, and paperless transactions, making it more efficient than traditional business for many operations.",
+   "formula": "",
+   "key_idea": "E-business reduces costs and time, extends reach to global markets, and enables 24x7 operations with minimal physical infrastructure.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the major benefits of e-business over traditional business?",
+    "How does e-business reduce the cost of doing business?",
+    "Explain how e-business provides global reach to a firm.",
+    "Why is e-business considered more convenient than traditional business?",
+    "Discuss the role of paperless transactions in e-business."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the specific benefit being evaluated",
+     "explain": "Benefits include ease of formation, lower capital, convenience, global reach, speed, flexibility, and paperless operations."
+    },
+    {
+     "step": 2,
+     "action": "Relate the benefit to the corresponding business advantage",
+     "explain": "Lower investment reduces barriers to entry; global reach expands the market; 24x7 availability increases sales; paperless systems cut costs and save time."
+    },
+    {
+     "step": 3,
+     "action": "Conclude how the benefit improves business efficiency",
+     "explain": "Together these benefits make e-business faster, cheaper, and more accessible than traditional business models."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A small entrepreneur starts selling handmade crafts online with very low investment and reaches customers worldwide. Which benefits of e-business are being illustrated?",
+     "solution": "Step 1: The entrepreneur started with low investment and reached global customers. Step 2: Low investment and global reach are key benefits of e-business. Step 3: The benefits illustrated are lower investment and global reach.",
+     "answer": "Lower investment and global reach"
+    },
+    {
+     "question": "An online store allows customers to place orders at any time of day without visiting a physical shop. Which benefit of e-business does this demonstrate?",
+     "solution": "Step 1: The store operates round the clock without a physical location. Step 2: 24x7 availability and convenience are benefits of e-business. Step 3: This demonstrates convenience and flexibility.",
+     "answer": "Convenience and flexibility (24x7 availability)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss any five benefits of e-business over traditional business.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does e-business help in reducing the cost of transactions?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.5.3",
+   "title": "E-Business vs Traditional Business",
+   "section": "E-Business vs Traditional Business",
+   "definition": "E-business differs from traditional business in terms of ease of formation, cost of setting up, physical presence, operating hours, reach, nature of customer contact, and the extent of paper work involved.",
+   "formula": "",
+   "key_idea": "Traditional business requires physical infrastructure and limited operating hours, while e-business operates digitally with global reach and 24x7 availability at lower cost.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Distinguish between e-business and traditional business.",
+    "Why is the cost of setting up an e-business lower than a traditional business?",
+    "Compare the reach of e-business and traditional business.",
+    "How does customer contact differ in e-business and traditional business?",
+    "Explain the difference in operating hours between e-business and traditional business."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the parameter of comparison",
+     "explain": "Parameters include ease of formation, cost, physical presence, operating hours, reach, customer contact, and paper work."
+    },
+    {
+     "step": 2,
+     "action": "Compare the two models on the chosen parameter",
+     "explain": "Traditional business needs high investment and physical presence with limited hours; e-business needs low investment, no physical presence, and operates 24x7 with global reach."
+    },
+    {
+     "step": 3,
+     "action": "Conclude which model is more suitable for the given context",
+     "explain": "E-business suits digital goods and services with global demand; traditional business suits products needing physical inspection and local presence."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A traditional bookstore operates from 10 AM to 8 PM in one city, while an online bookstore sells books 24x7 across the country. Compare the two on reach and operating hours.",
+     "solution": "Step 1: The parameter is reach and operating hours. Step 2: The traditional store is limited to one city and fixed hours; the online store reaches the whole country and operates 24x7. Step 3: E-business has wider reach and round-the-clock availability.",
+     "answer": "E-business has wider reach (nationwide) and 24x7 availability, while traditional business is limited to one city and fixed hours"
+    },
+    {
+     "question": "A customer wants to inspect the quality of fabric before buying. Which business model -- traditional or e-business -- is more suitable and why?",
+     "solution": "Step 1: The customer needs physical inspection of the product. Step 2: Traditional business allows physical inspection; e-business does not. Step 3: Traditional business is more suitable here.",
+     "answer": "Traditional business, because it allows physical inspection of the product"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Prepare a comparative table of e-business and traditional business on any six parameters.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is e-business easier to set up than traditional business?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.5.4",
+   "title": "E-Commerce Models (B2B, B2C, C2C, C2B)",
+   "section": "E-Commerce Models",
+   "definition": "E-commerce models describe the nature of transactions between parties: B2B (business to business), B2C (business to consumer), C2C (consumer to consumer), and C2B (consumer to business), each serving different market needs.",
+   "formula": "",
+   "key_idea": "The four main e-commerce models -- B2B, B2C, C2C, and C2B -- differ by who the transacting parties are and the nature of goods or services exchanged.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the different models of e-commerce? Explain each.",
+    "Differentiate between B2B and B2C e-commerce with examples.",
+    "What is C2C e-commerce? Give an example.",
+    "Explain the C2B model of e-commerce.",
+    "Which e-commerce model is used when a business sells directly to consumers online?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the two transacting parties in the transaction",
+     "explain": "Determine whether each party is a business (B) or a consumer (C) to classify the model."
+    },
+    {
+     "step": 2,
+     "action": "Match the party combination to the e-commerce model",
+     "explain": "B2B = business to business; B2C = business to consumer; C2C = consumer to consumer; C2B = consumer to business."
+    },
+    {
+     "step": 3,
+     "action": "Provide a real-world example of the model",
+     "explain": "B2B: a manufacturer buying raw materials online; B2C: Amazon selling books to customers; C2C: OLX used-goods sale; C2B: freelancers offering services to companies."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A car manufacturer purchases steel from a supplier through an online procurement portal. Which e-commerce model is this?",
+     "solution": "Step 1: Both parties are businesses. Step 2: A transaction between two businesses is B2B. Step 3: This is a B2B e-commerce transaction.",
+     "answer": "B2B (Business to Business)"
+    },
+    {
+     "question": "A student sells her used textbooks to another student through an online marketplace like OLX. Which e-commerce model is this?",
+     "solution": "Step 1: Both parties are consumers. Step 2: A transaction between two consumers is C2C. Step 3: This is a C2C e-commerce transaction.",
+     "answer": "C2C (Consumer to Consumer)"
+    },
+    {
+     "question": "A freelance graphic designer offers logo design services to companies through an online platform. Which e-commerce model is this?",
+     "solution": "Step 1: The seller is a consumer (individual) and the buyer is a business. Step 2: A transaction from consumer to business is C2B. Step 3: This is a C2B e-commerce model.",
+     "answer": "C2B (Consumer to Business)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the four models of e-commerce with one example each.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does B2B e-commerce differ from B2C e-commerce?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.5.5",
+   "title": "Online Transactions",
+   "section": "Online Transactions",
+   "definition": "Online transactions are electronic exchanges of information, money, goods, or services between parties over the internet, encompassing order placement, payment, delivery confirmation, and after-sales support.",
+   "formula": "",
+   "key_idea": "Online transactions involve a digital cycle from order placement to payment to delivery, supported by digital payment systems and electronic records.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is an online transaction? Describe its stages.",
+    "Explain the process of placing and completing an order online.",
+    "How are payments made in online transactions?",
+    "What role do digital records play in online transactions?",
+    "Describe the cycle of an online transaction from order to delivery."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the stage of the online transaction cycle",
+     "explain": "The cycle includes order placement, payment, order processing, delivery, and after-sales support."
+    },
+    {
+     "step": 2,
+     "action": "Describe the electronic mechanism used at that stage",
+     "explain": "Order placement uses a website or app; payment uses e-payment systems; delivery uses logistics with electronic tracking; records are stored digitally."
+    },
+    {
+     "step": 3,
+     "action": "Link the stages into a complete transaction flow",
+     "explain": "The stages connect to form a seamless digital transaction from the customer's order to the final delivery and support."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A customer orders a mobile phone on an e-commerce site, pays by credit card, and receives a tracking number for delivery. Identify the stages of this online transaction.",
+     "solution": "Step 1: The customer places an order and pays electronically. Step 2: The stages are order placement, electronic payment, and delivery with tracking. Step 3: This represents the full online transaction cycle.",
+     "answer": "Order placement, electronic payment, and delivery with electronic tracking"
+    },
+    {
+     "question": "Why are digital records important in online transactions?",
+     "solution": "Step 1: Online transactions generate electronic order, payment, and delivery records. Step 2: These records provide proof of transaction and enable tracking and dispute resolution. Step 3: Digital records ensure transparency and accountability.",
+     "answer": "Digital records provide proof, enable tracking, and support dispute resolution in online transactions"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the complete cycle of an online transaction with an example.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What are the different stages involved in completing an online order?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.5.6",
+   "title": "E-Payment Systems",
+   "section": "E-Payment Systems",
+   "definition": "E-payment systems are electronic methods of making payments over the internet, including credit cards, debit cards, net banking, digital wallets, and unified payment interfaces, enabling cashless and instant transactions.",
+   "formula": "",
+   "key_idea": "E-payment systems replace cash with digital instruments, enabling instant, secure, and cashless transactions over the internet.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the different types of e-payment systems?",
+    "Explain how a credit card differs from a debit card in online payments.",
+    "What is a digital wallet and how does it work?",
+    "Describe the role of net banking in e-payments.",
+    "What is a unified payment interface (UPI) and why is it popular?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the e-payment instrument being used",
+     "explain": "Common instruments include credit cards, debit cards, net banking, digital wallets, and UPI."
+    },
+    {
+     "step": 2,
+     "action": "Explain how the instrument authorizes the payment",
+     "explain": "Credit cards borrow from the bank; debit cards deduct from the account; net banking transfers directly; wallets store prepaid value; UPI links bank accounts for instant transfer."
+    },
+    {
+     "step": 3,
+     "action": "Confirm the security and settlement of the transaction",
+     "explain": "Payments are secured by encryption, OTP, and authentication; settlement occurs through the banking network to the merchant's account."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A customer pays for an online order using a card that deducts money directly from her bank account. Which e-payment system is she using?",
+     "solution": "Step 1: The payment deducts directly from the bank account. Step 2: A card that deducts from the account is a debit card. Step 3: She is using a debit card e-payment system.",
+     "answer": "Debit card"
+    },
+    {
+     "question": "A customer scans a QR code and the payment is instantly transferred from his bank account to the shopkeeper's account using a virtual payment address. Which e-payment system is this?",
+     "solution": "Step 1: The payment uses a QR code and a virtual payment address linked to bank accounts. Step 2: This is the Unified Payment Interface (UPI) system. Step 3: The system used is UPI.",
+     "answer": "UPI (Unified Payment Interface)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain any five e-payment systems with their working mechanisms.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is a digital wallet? Give two examples.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.5.7",
+   "title": "Outsourcing and BPO",
+   "section": "Outsourcing: Concept and BPO",
+   "definition": "Outsourcing is the business strategy of contracting out non-core or support business processes to external agencies, while Business Process Outsourcing (BPO) refers specifically to outsourcing of routine business processes such as customer support, accounting, and data entry.",
+   "formula": "",
+   "key_idea": "Outsourcing allows firms to focus on core activities by delegating non-core processes to specialized external service providers, reducing cost and improving efficiency.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is outsourcing and why do firms outsource?",
+    "Define BPO and explain its scope.",
+    "What are the benefits of outsourcing business processes?",
+    "Explain the concept of outsourcing with an example.",
+    "What types of business processes are typically outsourced?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify whether the process is core or non-core to the firm",
+     "explain": "Core processes are retained in-house; non-core or support processes like customer support, payroll, and data entry are candidates for outsourcing."
+    },
+    {
+     "step": 2,
+     "action": "Determine if the process is delegated to an external agency",
+     "explain": "Outsourcing involves contracting an outside agency to perform the process; BPO is the outsourcing of routine business processes."
+    },
+    {
+     "step": 3,
+     "action": "Assess the benefit of outsourcing the process",
+     "explain": "Benefits include cost reduction, access to expertise, focus on core activities, and improved efficiency."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A manufacturing company hires an external agency to handle its customer call center and payroll processing. What strategy is the company using?",
+     "solution": "Step 1: The company delegates non-core processes (call center, payroll) to an external agency. Step 2: Contracting out routine business processes is BPO. Step 3: The company is using outsourcing (BPO).",
+     "answer": "Outsourcing / Business Process Outsourcing (BPO)"
+    },
+    {
+     "question": "Why would a software firm choose to outsource its accounting function rather than do it in-house?",
+     "solution": "Step 1: Accounting is a non-core function for a software firm. Step 2: Outsourcing it reduces cost and gives access to specialized accounting expertise. Step 3: The firm outsources to focus on its core software business.",
+     "answer": "To reduce cost, access expertise, and focus on its core software activities"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the concept of outsourcing and discuss its benefits.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is BPO? Give two examples of outsourced processes.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.5.8",
+   "title": "BPO vs KPO",
+   "section": "BPO and KPO",
+   "definition": "BPO (Business Process Outsourcing) involves outsourcing routine, repetitive business processes, while KPO (Knowledge Process Outsourcing) involves outsourcing processes that require specialized knowledge, analytical, and judgment skills such as research, legal services, and data analytics.",
+   "formula": "",
+   "key_idea": "BPO handles routine processes requiring low skill, while KPO handles knowledge-intensive processes requiring high expertise and analytical judgment.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Distinguish between BPO and KPO.",
+    "What is KPO and how does it differ from BPO?",
+    "Give two examples each of BPO and KPO services.",
+    "Why does KPO require more skilled professionals than BPO?",
+    "Explain the nature of work outsourced under KPO."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the nature of the outsourced process",
+     "explain": "Routine and repetitive processes indicate BPO; processes requiring specialized knowledge and judgment indicate KPO."
+    },
+    {
+     "step": 2,
+     "action": "Compare the skill level and expertise required",
+     "explain": "BPO requires basic operational skills; KPO requires domain expertise, analytical ability, and decision-making skills."
+    },
+    {
+     "step": 3,
+     "action": "Classify the process as BPO or KPO with justification",
+     "explain": "BPO examples: call centers, data entry; KPO examples: legal research, financial analysis, R&D, and business analytics."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A company outsources its market research and data analytics to a firm employing statisticians and analysts. Is this BPO or KPO?",
+     "solution": "Step 1: The process involves market research and data analytics. Step 2: These require specialized knowledge and analytical skills. Step 3: This is KPO.",
+     "answer": "KPO (Knowledge Process Outsourcing), as it requires specialized analytical expertise"
+    },
+    {
+     "question": "A bank outsources its customer helpline and data entry operations to an external agency. Is this BPO or KPO?",
+     "solution": "Step 1: The processes are customer helpline and data entry. Step 2: These are routine and repetitive requiring basic skills. Step 3: This is BPO.",
+     "answer": "BPO (Business Process Outsourcing), as the processes are routine and repetitive"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Differentiate between BPO and KPO on any five bases.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Give two examples each of BPO and KPO services.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.5.9",
+   "title": "Security and Safety of Online Transactions",
+   "section": "Security and Safety of Online Transactions",
+   "definition": "Security and safety of online transactions refers to the measures and practices -- such as encryption, strong passwords, secure servers, and digital certificates -- that protect e-business transactions from threats like hacking, phishing, and data theft.",
+   "formula": "",
+   "key_idea": "Online transaction security relies on confidentiality, integrity, and authentication, achieved through encryption, secure passwords, and verified digital infrastructure.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the major threats to online transactions?",
+    "How can the security of online transactions be ensured?",
+    "Explain the role of encryption in securing e-payments.",
+    "What is phishing and how can it be prevented?",
+    "Why is a strong password important for online safety?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the security threat or risk involved",
+     "explain": "Common threats include hacking, phishing, identity theft, data interception, and unauthorized access."
+    },
+    {
+     "step": 2,
+     "action": "Select the appropriate security measure to counter the threat",
+     "explain": "Encryption protects data confidentiality; strong passwords and OTPs ensure authentication; secure servers and digital certificates verify legitimacy."
+    },
+    {
+     "step": 3,
+     "action": "Confirm that the measure ensures confidentiality, integrity, and authentication",
+     "explain": "Together these measures ensure that data is not leaked, altered, or accessed by unauthorized parties during the transaction."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A customer receives an email pretending to be from her bank asking for her account password. What threat is this and how should she respond?",
+     "solution": "Step 1: The email impersonates the bank to steal credentials. Step 2: This is a phishing attack. Step 3: She should not share any details and should report the email to the bank.",
+     "answer": "Phishing; the customer should not share details and should report the fraudulent email"
+    },
+    {
+     "question": "An e-commerce site uses SSL encryption and requires an OTP to complete every payment. Which security principles are being ensured?",
+     "solution": "Step 1: SSL encryption protects data and OTP verifies the user. Step 2: Encryption ensures confidentiality and OTP ensures authentication. Step 3: The site ensures confidentiality and authentication.",
+     "answer": "Confidentiality (via encryption) and authentication (via OTP)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss the major threats to online transactions and the measures to safeguard against them.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is phishing and how can customers protect themselves from it?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

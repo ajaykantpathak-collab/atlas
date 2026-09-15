@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_03_001",
+   "title": "c11_bio_cbse_03_001",
+   "questions": [
+    {
+     "q": "Define Cryptogamae and Phanerogamae and state the single most fundamental criterion that separates these two sub-divisions of Kingdom Plantae.",
+     "a": "Cryptogamae are non-seed-bearing, non-flowering plants (algae, bryophytes, pteridophytes) that reproduce by spores; Phanerogamae are seed-bearing plants (gymnosperms and angiosperms). The fundamental criterion is the presence or absence of seeds. A wrong answer (e.g., \"presence of flowers\" or \"vascular tissue\") reveals the student confuses the primary division with secondary characteristics – flowers only appear in angiosperms (a subset of Phanerogamae), and vascular tissue appears in pteridophytes (Cryptogamae) as well as all Phanerogamae.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"All plants with vascular tissue belong to Phanerogamae because they have well-developed conducting tissues.\" Explain why this statement is incorrect using specific plant group examples.",
+     "a": "The statement is incorrect because pteridophytes (ferns, Selaginella) possess well-differentiated xylem and phloem but are Cryptogamae – they reproduce by spores, not seeds. Vascular tissue evolved before seeds. A wrong answer indicates the student assumes a linear progression where all \"advanced\" traits appear together, not understanding that vascular tissue and seed habit evolved at different evolutionary nodes.",
+     "self_check": true
+    },
+    {
+     "q": "You are given four plant specimens: (a) Spirogyra, (b) Funaria, (c) Pinus, (d) Hibiscus. Classify each into Cryptogamae or Phanerogamae and name its specific group (algae/bryophyte/pteridophyte/gymnosperm/angiosperm). Justify each classification with one observable feature.",
+     "a": "(a) Spirogyra → Cryptogamae, Algae: thalloid, no true roots/stem/leaves, aquatic. (b) Funaria → Cryptogamae, Bryophyte: leafy gametophyte with rhizoids, no vascular tissue, needs water for fertilization. (c) Pinus → Phanerogamae, Gymnosperm: naked seeds on cones, no flowers/fruits. (d) Hibiscus → Phanerogamae, Angiosperm: seeds enclosed in fruit, flowers present. A wrong classification (e.g., placing Pinus in Cryptogamae because \"cones aren't fruits\") shows the student conflates \"fruit\" with \"seed\" – gymnosperms have seeds but not fruits.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the dominant life cycle phase (gametophyte vs sporophyte) across the five plant groups. Which group shows the first appearance of a dominant, free-living sporophyte with true roots, stem, and leaves? How does this relate to the Cryptogamae/Phanerogamae division?",
+     "a": "Algae and bryophytes: dominant gametophyte. Pteridophytes: first group with dominant, free-living sporophyte bearing true roots, stem, leaves with vascular tissue. Gymnosperms and angiosperms: dominant sporophyte, gametophyte highly reduced and dependent. Pteridophytes are the first Cryptogamae with dominant sporophyte; all Phanerogamae have dominant sporophyte. A wrong answer (e.g., \"bryophytes have dominant sporophyte\") reveals confusion between the visible green plant body (gametophyte in bryophytes) and the reproductive phase.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The classification into Cryptogamae and Phanerogamae is an artificial system because it is based on a single character (seeds).\" Is this a valid criticism? Justify using the concept of natural vs artificial classification from your textbook.",
+     "a": "The criticism is partially valid but incomplete. Seed presence is a single character, but it correlates with a suite of fundamental differences: flower/fruit presence, pollen tube formation, double fertilization (angiosperms), reduced gametophytes, and evolutionary lineage. Natural classification considers overall evolutionary relationships – seed plants form a monophyletic clade. The division reflects a major evolutionary innovation, not just a superficial trait. A wrong evaluation (e.g., \"yes it's artificial because one character\") shows the student doesn't understand that a single character can be a synapomorphy defining a natural group if it represents a deep evolutionary split.",
+     "self_check": true
+    },
+    {
+     "q": "Design a dichotomous key using only four couplets (paired contrasting statements) that can distinguish all five major plant groups: Algae, Bryophytes, Pteridophytes, Gymnosperms, Angiosperms. Each couplet must use a single, clear, observable morphological or reproductive character.",
+     "a": "1a. Seeds present → go to 2; 1b. Seeds absent → go to 3. 2a. Seeds enclosed in ovary/fruit → Angiosperms; 2b. Seeds naked on cones → Gymnosperms. 3a. Plant body thalloid, no true roots/stem/leaves, mostly aquatic → Algae; 3b. Plant body differentiated into root-like, stem-like, leaf-like structures → go to 4. 4a. No vascular tissue, dominant gametophyte, needs water for fertilization → Bryophytes; 4b. Vascular tissue present, dominant sporophyte → Pteridophytes. A poor key (e.g., using \"flower\" in first couplet) fails because it cannot separate gymnosperms from angiosperms early enough or misplaces pteridophytes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

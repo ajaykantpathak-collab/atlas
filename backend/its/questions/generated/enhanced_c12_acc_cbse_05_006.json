@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_05_006",
+   "title": "c12_acc_cbse_05_006",
+   "questions": [
+    {
+     "q": "A company issues 10,000 shares of ₹10 each at par to a vendor for machinery worth ₹1,00,000. Which account is credited in the final allotment entry?",
+     "a": "**Answer:** Share Capital Account is credited with ₹1,00,000.  \n**Why wrong answers reveal misunderstanding:** If a student credits \"Vendor Account\" or \"Machinery Account\", they confuse the settlement entry with the purchase entry. The vendor account is debited (settled) and share capital is credited (created). Crediting Machinery would reduce the asset value incorrectly.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a company might issue shares at a premium to a vendor when the asset's fair value exceeds the total nominal value of shares issued.",
+     "a": "**Answer:** When the agreed value of assets (purchase consideration) is higher than the total face value of shares issued, the excess is credited to Securities Premium Reserve. For example, if machinery worth ₹1,20,000 is paid by issuing 10,000 shares of ₹10 each (face value ₹1,00,000), the ₹20,000 premium reflects the higher fair value.  \n**Why wrong answers reveal misunderstanding:** A student who says \"the premium is a profit for the company\" confuses capital receipt with revenue profit. Securities Premium is a capital reserve, not distributable as dividend. Another error: debiting \"Profit & Loss\" for the premium.",
+     "self_check": true
+    },
+    {
+     "q": "X Ltd. purchases a building worth ₹2,20,000 from Y Ltd. and agrees to pay by issuing 2,000 shares of ₹100 each at a premium of 10%. Pass the journal entries in the books of X Ltd.",
+     "a": "**Answer:**  \n**Step 1:** Building A/c Dr. ₹2,20,000 → To Y Ltd. ₹2,20,000 (Asset purchased)  \n**Step 2:** Y Ltd. Dr. ₹2,20,000 → To Share Capital A/c ₹2,00,000 → To Securities Premium Reserve A/c ₹20,000 (Shares issued at 10% premium: issue price ₹110 × 2,000 = ₹2,20,000)  \n**Why wrong answers reveal misunderstanding:** If a student credits Share Capital with ₹2,20,000, they ignore the premium split. If they debit \"Discount on Issue\" instead of crediting Securities Premium, they confuse premium with discount. Forgetting to credit Securities Premium Reserve is a common board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the accounting treatment when shares are issued at a discount vs. at a premium for non-cash consideration. How does the \"Discount on Issue of Shares\" account behave differently from \"Securities Premium Reserve\"?",
+     "a": "**Answer:**  \n- **At Premium:** Vendor Dr. (consideration) → Share Capital (nominal) + Securities Premium Reserve (excess). Securities Premium is a **credit balance** (capital reserve).  \n- **At Discount:** Vendor Dr. (consideration) + Discount on Issue Dr. (shortfall) → Share Capital (nominal). Discount on Issue is a **debit balance** (capital loss) written off against Securities Premium or Profit & Loss.  \n**Why wrong answers reveal misunderstanding:** Students often treat Discount on Issue as a liability (credit) instead of a debit loss. They also fail to note that discount can only be written off from capital profits, not revenue profits, per Section 52 of Companies Act.",
+     "self_check": true
+    },
+    {
+     "q": "A company issues shares to a vendor for a business purchase. The net assets taken over are ₹5,00,000, but the purchase consideration is ₹5,50,000 paid by issuing shares of ₹100 each at par. The board argues the extra ₹50,000 should be debited to \"Goodwill Account\". Evaluate this treatment.",
+     "a": "**Answer:** **Correct.** When purchase consideration > net assets (assets - liabilities), the excess is **Goodwill** (an intangible asset). Entry: Sundry Assets Dr., Goodwill Dr. → To Sundry Liabilities, To Vendor. Then Vendor Dr. → To Share Capital.  \n**Why wrong answers reveal misunderstanding:** If a student credits \"Capital Reserve\" for the excess, they reverse the logic (that happens when consideration < net assets). If they debit \"Profit & Loss\", they treat goodwill as an expense. Goodwill must be capitalized and tested for impairment annually.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scenario where a company issues shares to its promoters for services rendered during incorporation. The promoters are allotted 5,000 shares of ₹10 each at a premium of ₹5 per share. Write the journal entries and explain why \"Securities Premium Reserve\" is credited even though no asset is purchased.",
+     "a": "**Answer:**  \n**Scenario:** Promoters' services valued at ₹75,000 settled by 5,000 shares @ ₹15 (₹10 face + ₹5 premium).  \n**Entries:**  \n1. Incorporation Expenses/Goodwill A/c Dr. ₹75,000 → To Promoters ₹75,000  \n2. Promoters Dr. ₹75,000 → To Share Capital ₹50,000 → To Securities Premium Reserve ₹25,000  \n**Reason:** The premium reflects the fair value of services exceeding nominal capital. Securities Premium is credited because the company receives value (services) worth more than the face value of shares issued. It is a capital receipt, not revenue.  \n**Why poor answers reveal misunderstanding:** Debiting \"Promoters Expense\" to P&L treats it as revenue expenditure. Crediting only Share Capital ignores the premium component. Not recording the service value at all violates the cost concept.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

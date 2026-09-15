@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_chem_ch02_005",
+ "concepts": [
+  {
+   "id": "enh:c7_chem_ch02_005",
+   "title": "c7_chem_ch02_005",
+   "questions": [
+    {
+     "q": "What are the two essential environmental factors required for an iron object to rust?",
+     "a": "Oxygen (from air) and moisture (water). If a student answers only \"water\" or only \"air,\" it reveals an incomplete understanding; they have forgotten that both substances must act together on the iron surface for the chemical reaction to occur.",
+     "self_check": true
+    },
+    {
+     "q": "Why is rusting classified as a chemical change rather than a physical change?",
+     "a": "Rusting is a chemical change because a completely new substance (hydrated iron(III) oxide or rust) is formed with properties entirely different from the original iron metal, and the change is permanent and irreversible. If a student says it is a physical change because the color changes, they are confusing a surface appearance alteration with the formation of new matter.",
+     "self_check": true
+    },
+    {
+     "q": "An iron nail is placed in a test tube containing boiled water (which has no dissolved oxygen) covered with a layer of oil to keep air out. Will the nail rust? Explain your reasoning.",
+     "a": "Steps: 1. Identify the conditions present: water is present, but dissolved oxygen is removed by boiling, and atmospheric oxygen is blocked by the oil layer. 2. Recall the essential conditions for rusting: both oxygen and moisture are required. 3. Conclude that since oxygen is absent, rusting will not occur. Answer: No, the nail will not rust because both oxygen and moisture must be present simultaneously. If a student says it will rust because water is present, they failed to recognize that water alone without oxygen is insufficient for rusting.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the properties of a pure iron rod and the rust formed on its surface. How do their strength and texture differ?",
+     "a": "Pure iron is hard, strong, shiny, and malleable. Rust is a reddish-brown, soft, powdery, and flaky substance that crumbles easily and does not possess metallic strength. If a student states that rust is just as strong as iron, they misunderstand that the chemical composition and structural integrity of the metal have been completely degraded.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that painting an iron gate stops rusting by killing the bacteria that cause rust. Evaluate this statement and correct any scientific errors.",
+     "a": "The statement is scientifically incorrect. Rusting is a chemical reaction between iron, oxygen, and water—it is not caused by living organisms or bacteria. Painting stops rusting by acting as a physical barrier that prevents oxygen and moisture in the air from coming into contact with the iron surface. If a student agrees with the claim, it reveals a confusion between biological spoilage (like food rotting due to microbes) and chemical corrosion (rusting).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple home experiment using three test tubes, iron nails, boiled water, anhydrous calcium chloride (a drying agent), and tap water to prove that both air and water are needed for rusting.",
+     "a": "A good design sets up three conditions: Test Tube 1 with tap water and air (both present - nail rusts); Test Tube 2 with boiled water and oil layer (water only, no air - nail does not rust); Test Tube 3 with anhydrous calcium chloride and dry air (air only, no moisture - nail does not rust). A poor answer fails to isolate the variables, such as putting nails in open air without considering that both moisture and oxygen are freely present, making it impossible to separate which factor caused the rust.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,190 @@
+{
+ "catalog": "catalog_class12_applied_maths_am12_007_financial_mathematics.json",
+ "concepts": [
+  {
+   "id": "am12_007.1",
+   "title": "EMI Amortization of Loans",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A price index uses base year value 100. If the current value is 160, find the index number.",
+     "a": "160",
+     "self_check": false
+    },
+    {
+     "q": "For 3 commodities the current-year prices are 13, 9, 10 and the base-year prices are 10, 14, 17. Find the simple aggregative price index (two decimal places).",
+     "a": "78.05",
+     "self_check": false
+    },
+    {
+     "q": "A Laspeyres price index is 78.05 and the corresponding Paasche price index is 78.05. Find the time reversal factor L x P / 10000 (two decimal places).",
+     "a": "0.61",
+     "self_check": false
+    },
+    {
+     "q": "A linear trend line is y = 33 + 3 x. Find the fitted value at x = 5.",
+     "a": "48",
+     "self_check": false
+    },
+    {
+     "q": "Two mixtures cost Rs 6 per kg (9 kg) and Rs 6 per kg (3 kg). Find the mean price by alligation (two decimal places).",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A vessel holds 60 litres; 16 litres are drawn and replaced with water, once. How much of the original liquid remains?",
+     "a": "44",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_007.2",
+   "title": "Compound Annual Growth Rate",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the simple interest on Rs 1000 at 4% per annum for 5 years.",
+     "a": "200",
+     "self_check": false
+    },
+    {
+     "q": "Rs 1000 is deposited at 4% simple interest per annum for 5 years. Find the maturity amount.",
+     "a": "1200",
+     "self_check": false
+    },
+    {
+     "q": "A sum lent at 4% per annum simple interest earns Rs 200 in 5 years. Find the principal (two decimal places).",
+     "a": "1000",
+     "self_check": false
+    },
+    {
+     "q": "Find the compound interest on Rs 1000 at 4% per annum for 2 years, compounded annually (two decimal places).",
+     "a": "81.6",
+     "self_check": false
+    },
+    {
+     "q": "What amount is owed after Rs 1000 grows for 2 years at 4% per annum compounded annually (two decimal places)?",
+     "a": "1081.6",
+     "self_check": false
+    },
+    {
+     "q": "Find the amount on Rs 1000 at 8% per annum compounded half-yearly for 2 years (two decimal places).",
+     "a": "1169.86",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_007.3",
+   "title": "Depreciation Written Down Value",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the simple interest on Rs 6000 at 5% per annum for 4 years.",
+     "a": "1200",
+     "self_check": false
+    },
+    {
+     "q": "Rs 6000 is deposited at 5% simple interest per annum for 4 years. Find the maturity amount.",
+     "a": "7200",
+     "self_check": false
+    },
+    {
+     "q": "A sum lent at 5% per annum simple interest earns Rs 1200 in 4 years. Find the principal (two decimal places).",
+     "a": "6000",
+     "self_check": false
+    },
+    {
+     "q": "Find the compound interest on Rs 6000 at 5% per annum for 2 years, compounded annually (two decimal places).",
+     "a": "615",
+     "self_check": false
+    },
+    {
+     "q": "What amount is owed after Rs 6000 grows for 2 years at 5% per annum compounded annually (two decimal places)?",
+     "a": "6615",
+     "self_check": false
+    },
+    {
+     "q": "Find the amount on Rs 6000 at 8% per annum compounded half-yearly for 2 years (two decimal places).",
+     "a": "7019.15",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_007.4",
+   "title": "Annuity Present and Future Value",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A price index uses base year value 100. If the current value is 148, find the index number.",
+     "a": "148",
+     "self_check": false
+    },
+    {
+     "q": "For 3 commodities the current-year prices are 15, 17, 17 and the base-year prices are 14, 12, 14. Find the simple aggregative price index (two decimal places).",
+     "a": "122.5",
+     "self_check": false
+    },
+    {
+     "q": "A Laspeyres price index is 122.50 and the corresponding Paasche price index is 122.50. Find the time reversal factor L x P / 10000 (two decimal places).",
+     "a": "1.5",
+     "self_check": false
+    },
+    {
+     "q": "A linear trend line is y = 72 + 6 x. Find the fitted value at x = 5.",
+     "a": "102",
+     "self_check": false
+    },
+    {
+     "q": "Two mixtures cost Rs 2 per kg (7 kg) and Rs 4 per kg (2 kg). Find the mean price by alligation (two decimal places).",
+     "a": "2.44",
+     "self_check": false
+    },
+    {
+     "q": "A vessel holds 40 litres; 16 litres are drawn and replaced with water, once. How much of the original liquid remains?",
+     "a": "24",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am12_007.5",
+   "title": "Perpetuity and Perpetual Payments",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A price index uses base year value 100. If the current value is 126, find the index number.",
+     "a": "126",
+     "self_check": false
+    },
+    {
+     "q": "For 3 commodities the current-year prices are 20, 7, 18 and the base-year prices are 16, 10, 13. Find the simple aggregative price index (two decimal places).",
+     "a": "115.38",
+     "self_check": false
+    },
+    {
+     "q": "A Laspeyres price index is 115.38 and the corresponding Paasche price index is 115.38. Find the time reversal factor L x P / 10000 (two decimal places).",
+     "a": "1.33",
+     "self_check": false
+    },
+    {
+     "q": "A linear trend line is y = 64 + 5 x. Find the fitted value at x = 5.",
+     "a": "89",
+     "self_check": false
+    },
+    {
+     "q": "Two mixtures cost Rs 2 per kg (3 kg) and Rs 3 per kg (4 kg). Find the mean price by alligation (two decimal places).",
+     "a": "2.57",
+     "self_check": false
+    },
+    {
+     "q": "A vessel holds 60 litres; 8 litres are drawn and replaced with water, once. How much of the original liquid remains?",
+     "a": "52",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_04_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_04_011",
+   "title": "c12_hin_a_cbse_04_011",
+   "questions": [
+    {
+     "q": "Identify the grammatical term for the formation of words like \"ygjrkjk\" (यग्जर्र्जक) and \"eMqokMhg\" (एमकॉकम्हग) in the poem, and state which samasa (compound type) each represents.",
+     "a": "\"ygjrkjk\" is a *karmadharaya samasa* (यग्ज + र्र्जक = यग्जर्र्जक, where both components refer to the same entity, 'village girls'). \"eMqokMhg\" is a *dvandva samasa* (एमकॉक + म्हग = एमकॉकम्हग, copulative compound joining two distinct nouns 'drum' and 'flute'). A wrong answer (e.g., calling both *tatpurusha*) reveals the student cannot distinguish compound types based on semantic relationship between components — a core Class 12 grammar skill tested in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the poet uses the reduplicated adverb \"ekhjs-ekhjs\" (धीखजस-धीखजस) five times in stanza 3 instead of a single \"ekhjs\" or a standard adverb like \"dheere-dheere\". What grammatical function does this repetition serve that a single word cannot?",
+     "a": "The reduplication \"ekhjs-ekhjs\" functions as an *iterative adverbial* marking *distributed duration* — each repetition enacts the slowness it describes, creating a temporal iconicity where form mimics meaning. A single \"ekhjs\" would denote manner only; the repetition forces the reader to *enact* the slowness phonologically. A wrong answer focusing only on \"emphasis\" misses the grammatical category (iterative aspect) and the performative function — a classic board exam trap where students confuse semantic effect with grammatical mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "In the line \"vkèkk ty esa gS / vkèkk ea=k esa\" (वेक्क त् य एस / वेक्क एआ= एस), the postposition \"esa\" (एसा) appears four times in four lines. Rewrite these four lines in standard prose word order (SOV) restoring all omitted case markers and verbs, and explain what grammatical feature of poetic Hindi allows this omission.",
+     "a": "Standard prose: \"yah vèkk ty meñ hai / yah vèkk samudra meñ hai / yah vèkk akash meñ hai / yah vèkk dharti meñ hai\" (यह वेक्क त् य मेँ है / यह वेक्क समुद्र मेँ है / यह वेक्क आकाश मेँ है / यह वेक्क धरती मेँ है). The poem omits the demonstrative pronoun \"yah\" (यह), the copula \"hai\" (है), and changes \"meñ\" (मेँ) to \"esa\" (एसा) — a *poetic license* (काव्य स्वातंत्र्य) called *ellipsis* (लोप) licensed by meter and rhythm. A wrong answer that only restores \"hai\" but keeps \"esa\" misses the case-marker shift (meñ → esa) which marks the register shift from colloquial to poetic Hindi — a distinction tested in CUET language sections.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the verb forms in stanza 1 (\"vkrk gS\", \"ns[kk gS\", \"mBrk gS\", \"yxrh gS\") with those in the dialogue section \"fn'kk\" (\"fdèkj gS\", \"iwNk\", \"mM+k jgk Fkk\", \"dgk\", \"Hkkxh tk jgh Fkk\", \"Lohdkj d:¡\", \"igyh ckj tkuk\"). What aspectual shift occurs, and how does it structurally separate the poem's two modes of perception?",
+     "a": "Stanza 1 uses *habitual present* (\"vkrk gS\" = 'keeps appearing', \"ns[kk gS\" = 'has seen/keeps seeing') and *progressive* (\"yxrh gS\" = 'is hanging') — marking the village as a timeless, recurring space. The dialogue shifts to *past perfective* (\"mM+k jgk Fkk\" = 'was crying'), *past habitual* (\"Hkkxh tk jgh Fkk\" = 'used to go'), and *perfective* (\"igyh ckj tkuk\" = 'to go for the first time') — marking the child's specific, bounded memories. The shift from *gnomic/habitual* to *episodic past* grammatically enacts the transition from collective mythic time to individual biographical time. A wrong answer listing tenses without linking to aspectual mode (habitual vs. perfective) fails the \"explain function\" requirement of competency questions.",
+     "self_check": true
+    },
+    {
+     "q": "The poem ends with \"viuh ,d Vk¡x ij [kM+k gS ;g 'kgj / viuh nwljh Vk¡x ls / fcyoqQy cs[kcj!\" (अपनी एक वीक्ष इज [क्म्क गस ;ग क्गज / अपनी नवल्जह वीक्ष लस / फ्च्योक्क्य च्स्क्चज!). Evaluate whether the imperative \"cs[kcj\" (च्स्क्चज) addresses the village (\";g 'kgj\") or the reader. Justify using syntactic evidence from the preceding lines.",
+     "a": "\"cs[kcj\" addresses the *reader*, not the village. Syntactic evidence: (1) \"viuh ,d Vk¡x ij [kM+k gS ;g 'kgj\" — the village is the *subject* of \"khara hai\" (stands), not the addressee; (2) \"viuh nwljh Vk¡x ls\" — \"from your new gaze\" implies a second-person possessor (\"your\") distinct from the village; (3) imperatives in Hindi poetry typically address the *sahrdaya* (empathetic reader) unless a vocative marks otherwise (no vocative here). A wrong answer claiming the village is addressed confuses grammatical subject with pragmatic addressee — a frequent error in JEE Advanced Hindi comprehension where person deixis is tested.",
+     "self_check": true
+    },
+    {
+     "q": "Write a four-line Hindi poem fragment (using Devanagari) that imitates \"cukjl\"'s grammatical style: (a) one reduplicated adverbial, (b) one karmadharaya samasa of 3+ syllables, (c) one elliptical line missing a copula, (d) one line with postposition \"esa\" used poetically for \"meñ\". Do not copy words from the poem.",
+     "a": "Example answer:\n```\nयादें-यादें लौटती हैं\nनीलाम्बर-सा मन\nचुप्पी भरी यह रात\nस्वप्न एसा डोलता\n```\n(a) \"यादें-यादें\" = reduplicated adverbial (iterative); (b) \"नीलाम्बर\" (नील + अम्बर) = karmadharaya samasa (3+ syllables); (c) \"चुप्पी भरी यह रात\" = elliptical, missing \"hai\" after \"raat\"; (d) \"स्वप्न एसा डोलता\" = \"esa\" for \"meñ\" (in dreams). A poor answer uses simple repetition (e.g., \"धीरे-धीरे\") instead of iterative reduplication, or forms a tatpurusha instead of karmadharaya, revealing inability to *produce* the grammatical structures only recognized receptively.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

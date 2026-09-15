@@ -1,0 +1,731 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 206,
+ "chapter_title": "Civilising the Native, Educating the Nation",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\keec102.txt",
+ "concepts": [
+  {
+   "id": "hess.206.1",
+   "title": "The Tradition of Orientalism",
+   "section": "The tradition of Orientalism",
+   "definition": "A scholarly approach by British officials like William Jones who respected ancient Indian heritage and promoted the study of Sanskrit and Persian.",
+   "formula": "none",
+   "key_idea": "Respecting and reviving ancient Indian texts to understand and govern the country.",
+   "textbook_ref": "hess206.txt lines 20-50",
+   "question_patterns": [
+    "Who was William Jones and what were his interests?",
+    "Define the term Orientalists in the context of British India.",
+    "What was the purpose of the Asiatic Society of Bengal?",
+    "Why did Jones and Colebrooke respect ancient Indian culture?",
+    "Explain the attitude of Orientalists towards Indian civilization."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify scholars",
+     "explain": "William Jones, Henry Colebrooke, and Nathaniel Halhed were key Orientalists."
+    },
+    {
+     "step": 2,
+     "action": "describe objective",
+     "explain": "They aimed to discover, translate, and study ancient Indian sacred and legal texts."
+    }
+   ]
+  },
+  {
+   "id": "hess.206.2",
+   "title": "Early Orientalist Institutions",
+   "section": "The tradition of Orientalism",
+   "definition": "Educational centers established by the British to encourage traditional Indian learning in Arabic, Persian, and Sanskrit.",
+   "formula": "none",
+   "key_idea": "Setting up colleges to win the hearts of subjects by teaching familiar subjects.",
+   "textbook_ref": "hess206.txt lines 60-75",
+   "question_patterns": [
+    "When and why was the Calcutta Madrasa set up?",
+    "What was the objective of the Hindu College in Benaras?",
+    "Identify the year the Hindu College was established in Benaras.",
+    "Which languages were promoted by the Calcutta Madrasa?",
+    "How did the British hope to win the respect of Indian subjects through education?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "locate institution",
+     "explain": "Calcutta Madrasa (1781) and Hindu College Benaras (1791)."
+    },
+    {
+     "step": 2,
+     "action": "identify subjects",
+     "explain": "Arabic, Persian, Islamic law, and ancient Sanskrit texts."
+    }
+   ]
+  },
+  {
+   "id": "hess.206.3",
+   "title": "Anglicist Critique of Orientalism",
+   "section": "Grave errors of the East",
+   "definition": "The viewpoint held by officials like James Mill and Thomas Macaulay who dismissed Eastern knowledge as unscientific and non-serious.",
+   "formula": "none",
+   "key_idea": "Promoting useful and practical Western knowledge over Eastern literature.",
+   "textbook_ref": "hess206.txt lines 85-110",
+   "question_patterns": [
+    "Why did James Mill attack the Orientalists?",
+    "What did Macaulay mean by his single shelf of a good European library quote?",
+    "How did critics describe Eastern literature and thought?",
+    "What was the main aim of education according to James Mill?",
+    "Contrast the views of Orientalists and their critics."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify critics",
+     "explain": "James Mill and Thomas Babington Macaulay were the primary critics."
+    },
+    {
+     "step": 2,
+     "action": "summarize argument",
+     "explain": "They argued Eastern knowledge was full of errors and lacked practical utility."
+    }
+   ]
+  },
+  {
+   "id": "hess.206.4",
+   "title": "English Education Act of 1835",
+   "section": "Grave errors of the East",
+   "definition": "A legislative decision to make English the medium of instruction for higher education in India and stop promoting Oriental institutions.",
+   "formula": "none",
+   "key_idea": "Institutionalizing English as the primary language for Indian education.",
+   "textbook_ref": "hess206.txt lines 125-135",
+   "question_patterns": [
+    "What were the main provisions of the English Education Act of 1835?",
+    "Which language became the medium of instruction for higher education in 1835?",
+    "How did the 1835 Act affect Oriental institutions like the Calcutta Madrasa?",
+    "What was the significance of Macaulay's Minute?",
+    "How did the British view Oriental institutions after 1835?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify medium",
+     "explain": "English was chosen as the medium for higher education."
+    },
+    {
+     "step": 2,
+     "action": "identify institutional change",
+     "explain": "Promotion of Madrasas and Sanskrit colleges was halted."
+    }
+   ]
+  },
+  {
+   "id": "hess.206.5",
+   "title": "Wood's Despatch of 1854",
+   "section": "Education for commerce",
+   "definition": "An educational policy document sent by Charles Wood that emphasized the economic and moral benefits of European learning.",
+   "formula": "none",
+   "key_idea": "Aligning Indian education with British commercial interests and administrative needs.",
+   "textbook_ref": "hess206.txt lines 140-170",
+   "question_patterns": [
+    "What was Wood's Despatch and who issued it?",
+    "How would European learning benefit trade and commerce according to the Despatch?",
+    "What moral improvements did the British expect from European education?",
+    "List the measures introduced following the 1854 Despatch.",
+    "Why did the British want to create a demand for British goods through education?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify economic goal",
+     "explain": "European learning would help Indians recognize the advantages of trade expansion."
+    },
+    {
+     "step": 2,
+     "action": "identify moral goal",
+     "explain": "It aimed to produce honest civil servants for the Company."
+    }
+   ]
+  },
+  {
+   "id": "hess.206.6",
+   "title": "Pathshala Student Estimation",
+   "section": "The report of William Adam",
+   "definition": "A calculation of the total student population in Bengal and Bihar based on the number of local schools and average attendance reported by William Adam.",
+   "formula": "total_students = school_count * students_per_school",
+   "key_idea": "Quantifying the reach of the flexible vernacular education system in the 1830s.",
+   "textbook_ref": "hess206.txt lines 210-225",
+   "question_patterns": [
+    "Calculate the total number of children in pathshalas if there are 100000 schools with 20 students each.",
+    "How many students were being taught in Bengal and Bihar according to Adam's report?",
+    "If a district has 500 pathshalas with 20 students each, find the total students.",
+    "What is the total student count for 1 lakh schools with an average of 20 pupils?",
+    "Find the total children in vernacular schools based on Adam's data."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify school count",
+     "explain": "The number of pathshalas is school_count.",
+     "compute": "total_schools = school_count"
+    },
+    {
+     "step": 2,
+     "action": "multiply by average students",
+     "explain": "Multiply the number of schools by the average students per school.",
+     "compute": "total_students = total_schools * students_per_school"
+    }
+   ]
+  },
+  {
+   "id": "hess.206.7",
+   "title": "Pre-British Vernacular Education",
+   "section": "The report of William Adam",
+   "definition": "The flexible system of pathshalas characterized by oral teaching, lack of fixed infrastructure, and schedules adapted to the harvest cycle.",
+   "formula": "none",
+   "key_idea": "A decentralized education system tailored to the needs of the local community and peasant families.",
+   "textbook_ref": "hess206.txt lines 225-250",
+   "question_patterns": [
+    "Describe the flexible features of the pathshala system.",
+    "Why were classes not held during harvest time in pathshalas?",
+    "How was the fee structure determined in local schools?",
+    "What were the teaching methods used by gurus in the 1830s?",
+    "List three things associated with modern schools that were absent in pathshalas."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify flexibility",
+     "explain": "No fixed fees, buildings, or timetables; classes paused during harvests."
+    },
+    {
+     "step": 2,
+     "action": "describe teaching",
+     "explain": "Teaching was oral and adapted to the level of individual students."
+    }
+   ]
+  },
+  {
+   "id": "hess.206.8",
+   "title": "Post-1854 Pathshala Reforms",
+   "section": "New routines, new rules",
+   "definition": "The imposition of government control over vernacular schools through regular inspections, textbooks, and standardized examinations.",
+   "formula": "none",
+   "key_idea": "Transforming flexible local schools into a disciplined, state-regulated system.",
+   "textbook_ref": "hess206.txt lines 260-290",
+   "question_patterns": [
+    "What changes did the Company introduce in pathshalas after 1854?",
+    "Who were government pandits and what was their role?",
+    "How did the new rules of discipline affect children from poor families?",
+    "What happened to pathshalas that did not accept government rules?",
+    "Explain the impact of annual examinations on the vernacular system."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify regulatory changes",
+     "explain": "Introduction of textbooks, timetables, and regular fees."
+    },
+    {
+     "step": 2,
+     "action": "identify administrative changes",
+     "explain": "Appointment of government pandits to oversee groups of schools."
+    }
+   ]
+  },
+  {
+   "id": "hess.206.9",
+   "title": "Mahatma Gandhi's Educational Philosophy",
+   "section": "English education has enslaved us",
+   "definition": "A vision of education that rejected English as the medium, focusing instead on dignity, self-respect, and the development of the mind through handicrafts.",
+   "formula": "none",
+   "key_idea": "Education should be in the mother tongue and focus on practical skills and character building.",
+   "textbook_ref": "hess206.txt lines 310-350",
+   "question_patterns": [
+    "Why did Mahatma Gandhi argue that English education enslaved Indians?",
+    "What did Gandhi mean by literacy is not the end of education?",
+    "Why did Gandhi emphasize learning a handicraft?",
+    "How did Western education create a sense of inferiority according to Gandhi?",
+    "What was Gandhi's view on the medium of instruction?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "summarize critique",
+     "explain": "Gandhi believed English education distanced Indians from their own culture."
+    },
+    {
+     "step": 2,
+     "action": "identify alternative",
+     "explain": "He proposed teaching useful crafts to develop the mind and soul."
+    }
+   ]
+  },
+  {
+   "id": "hess.206.10",
+   "title": "Tagore's Santiniketan",
+   "section": "Tagore's abode of peace",
+   "definition": "An educational institution founded by Rabindranath Tagore to foster creative learning in a natural environment, free from rigid discipline.",
+   "formula": "none",
+   "key_idea": "Combining the best of Indian tradition with Western science in a natural setting.",
+   "textbook_ref": "hess206.txt lines 360-400",
+   "question_patterns": [
+    "Why did Rabindranath Tagore establish Santiniketan?",
+    "How did Tagore's childhood experience shape his views on school?",
+    "What did Tagore mean by 'abode of peace'?",
+    "Contrast Tagore's and Gandhi's views on Western civilization.",
+    "What subjects did Tagore emphasize at Santiniketan?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe environment",
+     "explain": "The school was set in a rural area to allow children to live in harmony with nature."
+    },
+    {
+     "step": 2,
+     "action": "identify curriculum",
+     "explain": "It combined art, music, and dance with modern science and technology."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hess206.txt lines 215-220",
+   "concept": "hess.206.6",
+   "question_type": "compute",
+   "question_pattern": "According to Adam's report, if there were {school_count} pathshalas and each had {students_per_school} students, what was the total number of children being taught?",
+   "extracted_variables": {
+    "school_count": 100000,
+    "students_per_school": 20
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify school count",
+     "explain": "The number of pathshalas is 100000.",
+     "compute": "total_schools = school_count"
+    },
+    {
+     "step": 2,
+     "action": "multiply by average students",
+     "explain": "Multiply 100000 schools by 20 students per school.",
+     "compute": "total_students = total_schools * students_per_school"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hess206.txt lines 215-220",
+   "concept": "hess.206.6",
+   "question_type": "compute",
+   "question_pattern": "Find the total student population in a region with {school_count} schools and {students_per_school} students per school.",
+   "extracted_variables": {
+    "school_count": 50000,
+    "students_per_school": 15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify school count",
+     "explain": "The number of pathshalas is 50000.",
+     "compute": "total_schools = school_count"
+    },
+    {
+     "step": 2,
+     "action": "multiply by average students",
+     "explain": "Multiply 50000 schools by 15 students per school.",
+     "compute": "total_students = total_schools * students_per_school"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.206.1",
+   "question_type": "verify_property",
+   "question_pattern": "Who was William Jones and what were his interests?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify scholars",
+     "explain": "William Jones, Henry Colebrooke, and Nathaniel Halhed were key Orientalists."
+    },
+    {
+     "step": 2,
+     "action": "describe objective",
+     "explain": "They aimed to discover, translate, and study ancient Indian sacred and legal texts."
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.206.1",
+   "question_type": "verify_property",
+   "question_pattern": "Define the term Orientalists in the context of British India.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify scholars",
+     "explain": "William Jones, Henry Colebrooke, and Nathaniel Halhed were key Orientalists."
+    },
+    {
+     "step": 2,
+     "action": "describe objective",
+     "explain": "They aimed to discover, translate, and study ancient Indian sacred and legal texts."
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.206.2",
+   "question_type": "verify_property",
+   "question_pattern": "When and why was the Calcutta Madrasa set up?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "locate institution",
+     "explain": "Calcutta Madrasa (1781) and Hindu College Benaras (1791)."
+    },
+    {
+     "step": 2,
+     "action": "identify subjects",
+     "explain": "Arabic, Persian, Islamic law, and ancient Sanskrit texts."
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.206.2",
+   "question_type": "verify_property",
+   "question_pattern": "What was the objective of the Hindu College in Benaras?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "locate institution",
+     "explain": "Calcutta Madrasa (1781) and Hindu College Benaras (1791)."
+    },
+    {
+     "step": 2,
+     "action": "identify subjects",
+     "explain": "Arabic, Persian, Islamic law, and ancient Sanskrit texts."
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.206.3",
+   "question_type": "verify_property",
+   "question_pattern": "Why did James Mill attack the Orientalists?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify critics",
+     "explain": "James Mill and Thomas Babington Macaulay were the primary critics."
+    },
+    {
+     "step": 2,
+     "action": "summarize argument",
+     "explain": "They argued Eastern knowledge was full of errors and lacked practical utility."
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.206.3",
+   "question_type": "verify_property",
+   "question_pattern": "What did Macaulay mean by his single shelf of a good European library quote?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify critics",
+     "explain": "James Mill and Thomas Babington Macaulay were the primary critics."
+    },
+    {
+     "step": 2,
+     "action": "summarize argument",
+     "explain": "They argued Eastern knowledge was full of errors and lacked practical utility."
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.206.4",
+   "question_type": "verify_property",
+   "question_pattern": "What were the main provisions of the English Education Act of 1835?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify medium",
+     "explain": "English was chosen as the medium for higher education."
+    },
+    {
+     "step": 2,
+     "action": "identify institutional change",
+     "explain": "Promotion of Madrasas and Sanskrit colleges was halted."
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.206.4",
+   "question_type": "verify_property",
+   "question_pattern": "Which language became the medium of instruction for higher education in 1835?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify medium",
+     "explain": "English was chosen as the medium for higher education."
+    },
+    {
+     "step": 2,
+     "action": "identify institutional change",
+     "explain": "Promotion of Madrasas and Sanskrit colleges was halted."
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.206.5",
+   "question_type": "verify_property",
+   "question_pattern": "What was Wood's Despatch and who issued it?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify economic goal",
+     "explain": "European learning would help Indians recognize the advantages of trade expansion."
+    },
+    {
+     "step": 2,
+     "action": "identify moral goal",
+     "explain": "It aimed to produce honest civil servants for the Company."
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.206.5",
+   "question_type": "verify_property",
+   "question_pattern": "How would European learning benefit trade and commerce according to the Despatch?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify economic goal",
+     "explain": "European learning would help Indians recognize the advantages of trade expansion."
+    },
+    {
+     "step": 2,
+     "action": "identify moral goal",
+     "explain": "It aimed to produce honest civil servants for the Company."
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.206.7",
+   "question_type": "verify_property",
+   "question_pattern": "Describe the flexible features of the pathshala system.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify flexibility",
+     "explain": "No fixed fees, buildings, or timetables; classes paused during harvests."
+    },
+    {
+     "step": 2,
+     "action": "describe teaching",
+     "explain": "Teaching was oral and adapted to the level of individual students."
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.206.7",
+   "question_type": "verify_property",
+   "question_pattern": "Why were classes not held during harvest time in pathshalas?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify flexibility",
+     "explain": "No fixed fees, buildings, or timetables; classes paused during harvests."
+    },
+    {
+     "step": 2,
+     "action": "describe teaching",
+     "explain": "Teaching was oral and adapted to the level of individual students."
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.206.8",
+   "question_type": "verify_property",
+   "question_pattern": "What changes did the Company introduce in pathshalas after 1854?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify regulatory changes",
+     "explain": "Introduction of textbooks, timetables, and regular fees."
+    },
+    {
+     "step": 2,
+     "action": "identify administrative changes",
+     "explain": "Appointment of government pandits to oversee groups of schools."
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.206.8",
+   "question_type": "verify_property",
+   "question_pattern": "Who were government pandits and what was their role?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify regulatory changes",
+     "explain": "Introduction of textbooks, timetables, and regular fees."
+    },
+    {
+     "step": 2,
+     "action": "identify administrative changes",
+     "explain": "Appointment of government pandits to oversee groups of schools."
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.206.9",
+   "question_type": "verify_property",
+   "question_pattern": "Why did Mahatma Gandhi argue that English education enslaved Indians?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "summarize critique",
+     "explain": "Gandhi believed English education distanced Indians from their own culture."
+    },
+    {
+     "step": 2,
+     "action": "identify alternative",
+     "explain": "He proposed teaching useful crafts to develop the mind and soul."
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.206.9",
+   "question_type": "verify_property",
+   "question_pattern": "What did Gandhi mean by literacy is not the end of education?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "summarize critique",
+     "explain": "Gandhi believed English education distanced Indians from their own culture."
+    },
+    {
+     "step": 2,
+     "action": "identify alternative",
+     "explain": "He proposed teaching useful crafts to develop the mind and soul."
+    }
+   ]
+  },
+  {
+   "id": "ex19",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.206.10",
+   "question_type": "verify_property",
+   "question_pattern": "Why did Rabindranath Tagore establish Santiniketan?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "describe environment",
+     "explain": "The school was set in a rural area to allow children to live in harmony with nature."
+    },
+    {
+     "step": 2,
+     "action": "identify curriculum",
+     "explain": "It combined art, music, and dance with modern science and technology."
+    }
+   ]
+  },
+  {
+   "id": "ex20",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.206.10",
+   "question_type": "verify_property",
+   "question_pattern": "How did Tagore's childhood experience shape his views on school?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "describe environment",
+     "explain": "The school was set in a rural area to allow children to live in harmony with nature."
+    },
+    {
+     "step": 2,
+     "action": "identify curriculum",
+     "explain": "It combined art, music, and dance with modern science and technology."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex6.1",
+   "source_ref": "hess206.txt page 76",
+   "questions": [
+    "Match the following: William Jones, Rabindranath Tagore, Thomas Macaulay, Mahatma Gandhi, Pathshalas.",
+    "State whether true or false: James Mill was a severe critic of the Orientalists.",
+    "State whether true or false: The 1854 Despatch on education was in favour of English being introduced as a medium of higher education in India.",
+    "Why did William Jones feel the need to study Indian history, philosophy and law?",
+    "Why did James Mill and Thomas Macaulay think that European education was essential in India?",
+    "Why did Mahatma Gandhi want to teach children handicrafts?",
+    "Why did Mahatma Gandhi think that English education had enslaved Indians?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

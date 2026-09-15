@@ -1,0 +1,217 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 6,
+ "chapter_title": "Pressure, Winds, Storms, and Cyclones",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hecu106.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hecu.106.6.1",
+   "title": "Pressure: Force per Unit Area",
+   "section": "6.1",
+   "definition": "Pressure measures how concentrated a force is: it equals the force acting perpendicular to a surface divided by the area over which it spreads, so a bag with broad straps feels lighter than a narrow one carrying the same weight.",
+   "formula": "pressure = force / area",
+   "key_idea": "Same weight, larger area, smaller pressure - that is why broad straps comfort the shoulder.",
+   "textbook_ref": "hecu106.txt lines 35-120 (pressure, bag straps, bucket handle)",
+   "question_patterns": [
+    "define pressure and write its formula",
+    "a force of 200 N acts on an area of 2 sq m - find the pressure",
+    "why does a bag with broad straps feel more comfortable",
+    "why is it easier to lift a bucket with a broad handle",
+    "how does increasing the area change the pressure",
+    "calculate the pressure when a given force spreads over a given area"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "divide force by area",
+     "explain": "The perpendicular force spread over the surface gives the pressure.",
+     "compute": "pressure = force / area"}
+   ]
+  },
+  {
+   "id": "hecu.106.6.2",
+   "title": "Pressure Exerted by Air",
+   "section": "6.2",
+   "definition": "The atmosphere presses on everything from all sides because air has weight; atmospheric pressure is huge, yet we are not crushed since the pressure inside our bodies balances the pressure outside, as collapsing experiments with evacuated cans demonstrate.",
+   "formula": "-",
+   "key_idea": "Air presses in every direction; internal balance hides its enormous size.",
+   "textbook_ref": "hecu106.txt lines 275-381 (pressure exerted by air)",
+   "question_patterns": [
+    "how do we know that air exerts pressure",
+    "why are we not crushed by atmospheric pressure",
+    "describe an activity to demonstrate air pressure",
+    "why does a flattened can crumple when air is pumped out",
+    "in which direction does air exert pressure",
+    "what keeps the atmosphere pressed to the earth"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "show the push of air",
+     "explain": "Experiments with covered glasses and collapsing cans reveal air's pressure."},
+    {"step": 2, "action": "explain the balance",
+     "explain": "Fluids inside the body push outward, matching the atmosphere's inward push."},
+    {"step": 3, "action": "state the direction",
+     "explain": "Air pressure acts equally in all directions."}
+   ]
+  },
+  {
+   "id": "hecu.106.6.3",
+   "title": "Wind Formation by Pressure Difference",
+   "section": "6.3",
+   "definition": "Wind is moving air that always flows from a region of higher pressure toward a region of lower pressure; uneven heating of the earth creates these pressure differences, so sea breezes, land breezes and monsoon winds all begin as pressure contrasts.",
+   "formula": "-",
+   "key_idea": "Air slides down the pressure gradient: high pressure to low pressure means wind.",
+   "textbook_ref": "hecu106.txt lines 381-468 (formation of wind)",
+   "question_patterns": [
+    "how are winds formed",
+    "which way does air move between high and low pressure regions",
+    "why does a sea breeze blow during the day",
+    "how does uneven heating of the earth cause wind",
+    "explain the monsoon wind using pressure difference",
+    "what happens to wind speed when the pressure difference grows"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "create the difference",
+     "explain": "Uneven heating makes one region's air lighter and rising, lowering its pressure."},
+    {"step": 2, "action": "watch the flow",
+     "explain": "Cooler, heavier air from the high-pressure side rushes toward the low."},
+    {"step": 3, "action": "name the winds",
+     "explain": "Sea breeze, land breeze and monsoon are daily and seasonal examples."}
+   ]
+  },
+  {
+   "id": "hecu.106.6.4",
+   "title": "High-Speed Winds Lower Pressure",
+   "section": "6.4",
+   "definition": "Where air moves fast, its pressure drops - the rule behind flying balloons wobbling in a breeze and roofs lifting off in storms; slower surrounding air at higher pressure then pushes objects toward the fast stream.",
+   "formula": "-",
+   "key_idea": "Blow over a paper strip and it rises: fast air means low pressure.",
+   "textbook_ref": "hecu106.txt lines 468-519 (high-speed winds result in lowering of pressure)",
+   "question_patterns": [
+    "what happens to pressure where wind speed is high",
+    "why do roofs blow off during storms",
+    "demonstrate that fast-moving air lowers pressure with an activity",
+    "why does a curtain bulge outward when the fan is on",
+    "how does this rule explain a balloon's wobble in the wind",
+    "use the high-speed wind rule to explain a table tennis ball floating in an air jet"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "create fast air",
+     "explain": "Blow or fan air over the top of a light object."},
+    {"step": 2, "action": "observe the push",
+     "explain": "The object moves toward the fast stream, showing reduced pressure there."},
+    {"step": 3, "action": "apply to storms",
+     "explain": "Storm winds racing over roofs lower the pressure above, and inside air lifts the roof off."}
+   ]
+  },
+  {
+   "id": "hecu.106.6.5",
+   "title": "Storms, Thunderstorms and Lightning Safety",
+   "section": "6.5",
+   "definition": "Thunderstorms grow from strong upward winds in hot, humid conditions, building tall clouds where collisions create charges; lightning is the giant spark that discharges them, and safety lies in staying indoors, away from trees, poles and open fields.",
+   "formula": "-",
+   "key_idea": "Charging clouds discharge as lightning - keep off open ground and tall objects.",
+   "textbook_ref": "hecu106.txt lines 519-618 (storms, thunderstorms, and lightning)",
+   "question_patterns": [
+    "how does a thunderstorm form",
+    "why does lightning occur during a thunderstorm",
+    "list the safety measures during lightning",
+    "why should one not stand under a tree during lightning",
+    "what is a lightning conductor and how does it work",
+    "how are thunderstorms and cyclones different"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "trace the storm birth",
+     "explain": "Rising warm moist air builds towering clouds with strong up and down winds."},
+    {"step": 2, "action": "explain the spark",
+     "explain": "Charge separation inside the cloud discharges as a giant spark between cloud and ground."},
+    {"step": 3, "action": "apply safety rules",
+     "explain": "Stay inside, avoid open fields, tall trees and metal; lightning rods guide strikes safely to earth."}
+   ]
+  },
+  {
+   "id": "hecu.106.6.6",
+   "title": "Cyclones",
+   "section": "6.6",
+   "definition": "A cyclone is a huge, spinning storm born over warm seas: evaporating water releases enormous energy on condensation, low pressure at the centre sucks winds inward, and the earth's rotation spins the whole system, bringing destructive winds and storm surges to coasts.",
+   "formula": "-",
+   "key_idea": "Warm ocean plus low pressure plus spin equals a cyclone; forecasts and shelters save lives.",
+   "textbook_ref": "hecu106.txt lines 618-740 (cyclone structure, formation, safety)",
+   "question_patterns": [
+    "how does a cyclone form over the sea",
+    "what is the eye of a cyclone",
+    "why do cyclones weaken after reaching land",
+    "what safety steps should coastal people take during a cyclone alert",
+    "how is a cyclone different from a thunderstorm",
+    "explain the role of water vapour in powering a cyclone"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "start over warm water",
+     "explain": "Evaporation feeds moisture; condensation releases heat that powers the storm."},
+    {"step": 2, "action": "build the spin",
+     "explain": "Air rushes to the low-pressure centre and spirals inwards due to the earth's rotation."},
+    {"step": 3, "action": "prepare and respond",
+     "explain": "Forecasts, warnings, cyclone shelters and evacuation reduce the damage."}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hecu106.txt lines 55-65, pressure definition",
+   "concept": "hecu.106.6.1",
+   "question_type": "compute",
+   "question_pattern": "A force of {force} N acts perpendicular on an area of {area} sq m. Find the pressure.",
+   "extracted_variables": {
+    "force": "perpendicular force in newtons",
+    "area": "area in square metres"
+   },
+   "solution_template": [
+    {"step": 1, "action": "divide force by area",
+     "explain": "Pressure equals force over the area of contact.",
+     "compute": "pressure = force / area"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hecu106.txt lines 55-90, bag straps comparison",
+   "concept": "hecu.106.6.1",
+   "question_type": "compute",
+   "question_pattern": "A school bag of weight {force} N rests on shoulder straps of total area {area} sq m. Calculate the pressure on the shoulders.",
+   "extracted_variables": {
+    "force": "weight of the bag in newtons",
+    "area": "strap area in contact in square metres"
+   },
+   "solution_template": [
+    {"step": 1, "action": "divide force by area",
+     "explain": "The weight spreads over the strap area.",
+     "compute": "pressure = force / area"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex6.1",
+   "source_ref": "hecu106.txt sections 6.1-6.2",
+   "questions": [
+     "Why do broad straps of a bag feel more comfortable?",
+     "Describe an activity to show that air exerts pressure.",
+     "Why are we not crushed by the huge atmospheric pressure?"
+   ]
+  },
+  {
+   "id": "ex6.2",
+   "source_ref": "hecu106.txt sections 6.3-6.6",
+   "questions": [
+     "Explain the formation of a sea breeze.",
+     "Why do high-speed winds lower the pressure?",
+     "Describe the safety measures during lightning and cyclone alerts."
+   ]
+  }
+ ]
+}

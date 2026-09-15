@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch03_013",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch03_013",
+   "title": "c6_physics_ch03_013",
+   "questions": [
+    {
+     "q": "In a circuit diagram, what does the symbol of a circle with a cross inside it represent?",
+     "a": "It represents a bulb. If a student answers \"a battery\" or \"a power source,\" they are confusing the output component with the energy source, indicating they haven't memorized the basic symbol set.",
+     "self_check": true
+    },
+    {
+     "q": "Why do scientists prefer to use circuit diagrams instead of drawing realistic pictures of the parts of a circuit?",
+     "a": "Diagrams are faster to draw, clearer to read, and universally understood by scientists regardless of the language they speak. If a student says \"because it looks better,\" they fail to grasp that the primary purpose is communication and efficiency in technical work.",
+     "self_check": true
+    },
+    {
+     "q": "If you have a battery and a bulb, draw the circuit diagram and explain what happens when the switch symbol is drawn as an open, disconnected line.",
+     "a": "The switch is \"open,\" meaning the circuit is broken, and the current cannot flow; therefore, the bulb will not light up. A student who says the bulb stays lit does not understand that the \"gap\" in the switch symbol represents an actual break in the electrical path.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a battery symbol to a bulb symbol. How does their structure tell you which one provides energy and which one uses it?",
+     "a": "The battery symbol (two parallel lines) indicates a difference in potential (positive/negative terminals), while the bulb symbol (a circle) represents a device that converts electrical energy into light. If a student sees them as just \"shapes,\" they miss the functional distinction between source and load.",
+     "self_check": true
+    },
+    {
+     "q": "If a classmate draws a circuit diagram with a continuous, closed line connecting the battery to the bulb, but forgets to draw a switch, is the diagram \"incorrect\"?",
+     "a": "The diagram is technically \"correct\" as a closed circuit, but incomplete for a practical device because it lacks a control mechanism (the switch) to turn it off. A student claiming it's \"wrong\" doesn't realize that a simple circuit can exist without a switch, even if it's less useful.",
+     "self_check": true
+    },
+    {
+     "q": "Design a circuit diagram for a lamp that needs two switches to control it (where both must be closed to turn the light on). Draw the symbols and explain your logic.",
+     "a": "The drawing should show two switch symbols placed one after the other (in series) on the wire path. A poor answer would put the switches in parallel or not understand that the path must be unbroken for current to reach the bulb.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

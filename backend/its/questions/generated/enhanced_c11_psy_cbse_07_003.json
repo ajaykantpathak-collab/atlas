@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_07_003",
+   "title": "c11_psy_cbse_07_003",
+   "questions": [
+    {
+     "q": "A student says: \"Concrete thinking means thinking about solid objects like tables and chairs, while abstract thinking means thinking about liquids and gases.\" Identify the fundamental error in this statement.",
+     "a": "The error is confusing \"concrete/abstract\" as physical states of matter (solid/liquid/gas) rather than cognitive modes. Concrete thinking refers to cognition bound to immediate sensory-perceptual experience (e.g., a child sorting actual blocks by colour), while abstract thinking operates on concepts, symbols, and principles without physical referents (e.g., solving algebraic equations using variables). A wrong answer reveals the student interprets terminology literally rather than psychologically — a classic Class 11 category error where everyday language meanings override technical definitions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a 7-year-old child who arranges toy cars by size is demonstrating concrete thinking, while a 15-year-old who designs a traffic flow algorithm using variables for \"vehicle density\" and \"intersection capacity\" is demonstrating abstract thinking. Use the terms \"sensory referents\" and \"symbolic manipulation\" in your explanation.",
+     "a": "The 7-year-old's thinking is concrete because each mental operation requires direct sensory referents — the child must see, touch, and physically compare the toy cars; the concept \"size\" exists only as a perceptual property of present objects. The 15-year-old's thinking is abstract because they perform symbolic manipulation on variables (\"vehicle density,\" \"intersection capacity\") that have no sensory existence — these are constructed concepts operated on via logical rules without any physical cars present. A wrong answer that focuses only on \"complexity\" or \"age\" misses the defining criterion: dependence on vs. independence from immediate sensory reality.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each scenario and justify your classification using one defining criterion per type:\n(a) A poet imagines a conversation with a river, asking it about its journey to the sea.\n(b) An engineer calculates load-bearing capacity using the formula σ = F/A.\n(c) A toddler cries because the peas on her plate \"are touching the potatoes.\"",
+     "a": "(a) **Autistic thinking** — Criterion: *reality-detached, wish-fulfilling fantasy without logical constraints*; the poet personifies a river for emotional/expressive purposes, not factual inquiry.\n(b) **Abstract thinking** — Criterion: *symbolic manipulation of conceptual variables independent of sensory referents*; σ (stress), F (force), A (area) are abstract symbols operated on mathematically.\n(c) **Concrete thinking** — Criterion: *cognition bound to immediate perceptual configuration*; the toddler responds to the literal spatial arrangement as an absolute reality, unable to decouple \"touching\" from \"contamination\" conceptually. A wrong classification typically confuses (a) as abstract (because poetry uses symbols) — but autistic thinking uses symbols *without* reality-testing, while abstract thinking uses symbols *with* logical structure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how concrete and abstract thinking would approach the same problem: \"Why does ice float on water?\" Provide the specific reasoning steps each type would use, and explain why the abstract approach enables scientific generalization while the concrete approach does not.",
+     "a": "**Concrete approach**: Observes ice floating → notes \"ice is solid, water is liquid\" → concludes \"this ice floats because it's ice\" (perceptual binding, no transferable principle). **Abstract approach**: Represents water/ice as H₂O molecules → applies concept of density (mass/volume) → reasons: solid phase has lower density due to hydrogen-bonded crystalline lattice → generalizes: *any substance whose solid phase is less dense than its liquid phase will float*. The abstract approach enables generalization because it operates on *concepts* (density, molecular structure, phase) that apply across substances; the concrete approach is trapped in the specific perceptual instance. A weak answer describes only the abstract steps without contrasting the *mechanism* of generalization (conceptual variables vs. perceptual particulars).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Autistic thinking is inferior to abstract thinking and should be eliminated from education.\" Use the concepts of *incubation stage in creativity* and *reality-testing* to defend or refute.",
+     "a": "**Refute**. Autistic thinking serves a necessary function in the **incubation stage of creative thinking** (c11_psy_cbse_07_007) where reality-testing is deliberately suspended to allow remote associations (e.g., Kekulé's dream of a snake biting its tail leading to benzene ring structure). Eliminating it would remove the generative space for novel ideas before convergent/abstract thinking evaluates them. However, autistic thinking becomes maladaptive when it *replaces* reality-testing in decision-making (e.g., delusional beliefs). The claim fails by treating a *stage-appropriate* cognitive mode as globally inferior rather than contextually functional. A poor evaluation either dismisses autistic thinking entirely or fails to distinguish its generative role from its pathological persistence.",
+     "self_check": true
+    },
+    {
+     "q": "Create an original scenario involving a Class 11 student preparing for a physics exam that demonstrates *all three thinking types sequentially* in a single study session. Label each segment with the thinking type and the triggering condition.",
+     "a": "**Scenario**: Riya studies \"Electromagnetic Induction.\"\n1. **Concrete thinking** (trigger: *opening textbook, seeing diagram of coil and magnet*): She traces the coil wire with her finger, observes the galvanometer needle deflect in the diagram, thinks \"magnet moves → needle moves\" — bound to visual-perceptual elements.\n2. **Abstract thinking** (trigger: *deriving Faraday's law ε = -dΦ/dt*): She manipulates symbols Φ (magnetic flux), t (time), ε (emf) — no physical magnet present; she applies the concept of \"rate of change of flux\" to solve numerical problems.\n3. **Autistic thinking** (trigger: *taking a break, staring at ceiling fan*): She imagines \"what if electrons had consciousness and *chose* to flow only when the magnet 'asked' politely?\" — a fanciful, reality-detached daydream that relaxes cognitive control.\n**Criteria for good answer**: Clear sequential triggers, correct type labels, each segment demonstrating the *defining criterion* (sensory binding / symbolic manipulation / reality detachment). A poor answer mixes types within one segment or uses \"abstract\" for any non-literal thought.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

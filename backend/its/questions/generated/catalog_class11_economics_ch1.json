@@ -1,0 +1,173 @@
+{
+ "catalog": "catalog_class11_economics_ch1",
+ "concepts": [
+  {
+   "id": "c11eco.1.1",
+   "title": "Meaning and Scope of Economics",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Meaning and Scope of Economics' refers to.",
+     "a": "Economics is the study of how people and societies use limited resources to satisfy unlimited wants, dealing with production, distribution, exchange, and consumption of goods and services.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Meaning and Scope of Economics'.",
+     "a": "Economics studies the allocation of scarce resources among competing ends and covers consumption, production, and distribution.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Meaning and Scope of Economics'.",
+     "a": "What is economics and what does it study?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.1.2",
+   "title": "Meaning of Statistics",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Meaning of Statistics' refers to.",
+     "a": "Statistics, in the plural sense, refers to numerical facts or data collected systematically; in the singular sense, it is the science of collecting, organising, presenting, analysing, and interpreting numerical data.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Meaning of Statistics'.",
+     "a": "Statistics has two meanings -- numerical data (plural) and the methods used to handle data (singular).",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Meaning of Statistics'.",
+     "a": "What is statistics in the plural sense?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.1.3",
+   "title": "Functions of Statistics",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Functions of Statistics' refers to.",
+     "a": "The main functions of statistics are to present facts in a definite form, simplify large data, facilitate comparison, help in testing hypotheses, aid in prediction, and assist in policy formulation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Functions of Statistics'.",
+     "a": "Statistics simplifies complex data, enables comparison, supports prediction, and helps in forming policies.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Functions of Statistics'.",
+     "a": "What are the main functions of statistics?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.1.4",
+   "title": "Importance of Statistics in Economics",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Importance of Statistics in Economics' refers to.",
+     "a": "Statistics is important in economics for analysing economic problems, understanding market structures, formulating policies, estimating national income, and evaluating development plans.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Importance of Statistics in Economics'.",
+     "a": "Statistical tools are essential for measuring, analysing, and solving economic problems and for planning at national and state levels.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Importance of Statistics in Economics'.",
+     "a": "Why is statistics important in economics?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.1.6",
+   "title": "Population and Sample",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Population and Sample' refers to.",
+     "a": "A population is the entire group of items or individuals under study, while a sample is a smaller part or subset selected from the population to draw conclusions about the whole.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Population and Sample'.",
+     "a": "A population includes all units of interest; a sample is a representative subset used when studying the whole population is impractical.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Population and Sample'.",
+     "a": "What is the difference between population and sample?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.1.7",
+   "title": "Descriptive and Inferential Statistics",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Descriptive and Inferential Statistics' refers to.",
+     "a": "Descriptive statistics summarises and describes the features of a data set using measures like averages and diagrams, while inferential statistics uses sample data to draw conclusions or make generalisations about the population.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Descriptive and Inferential Statistics'.",
+     "a": "Descriptive statistics describes what the data shows; inferential statistics goes beyond the data to make predictions or generalisations.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Descriptive and Inferential Statistics'.",
+     "a": "What is the difference between descriptive and inferential statistics?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.1.8",
+   "title": "Limitations of Statistics",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Limitations of Statistics' refers to.",
+     "a": "Statistics has limitations: it does not study qualitative aspects like honesty or culture, it ignores individual cases, it can be misused to support false claims, and its results are only approximate and based on assumptions.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Limitations of Statistics'.",
+     "a": "Statistics deals only with quantitative and aggregate data, and its conclusions are approximate, not exact laws.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Limitations of Statistics'.",
+     "a": "What are the limitations of statistics?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.1.9",
+   "title": "Relationship Between Economics and Statistics",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Relationship Between Economics and Statistics' refers to.",
+     "a": "Economics and statistics are closely related because economics uses statistical methods to collect, analyse, and interpret economic data, while statistics finds many of its applications and examples in economic problems.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Relationship Between Economics and Statistics'.",
+     "a": "Statistics is an essential tool for economics; economic theory provides the questions and statistics provides the methods to answer them.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Relationship Between Economics and Statistics'.",
+     "a": "How are economics and statistics related?",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

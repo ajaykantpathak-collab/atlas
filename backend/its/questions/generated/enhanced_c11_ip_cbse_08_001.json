@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_08_001",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_08_001",
+   "title": "c11_ip_cbse_08_001",
+   "questions": [
+    {
+     "q": "Define Data Visualisation in your own words and state its primary purpose in data analysis.",
+     "a": "Data Visualisation is the representation of data in graphical form (charts, graphs, maps) to make patterns, trends, and outliers easily understandable. Its primary purpose is to communicate information clearly and efficiently, enabling faster and better decision-making than examining raw numbers. A wrong answer that only mentions \"making charts look attractive\" reveals a misconception that visualisation is about aesthetics rather than analytical clarity.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher has the monthly attendance percentages of 40 students for the whole year. She wants to identify students with consistently low attendance (<75%) across months. Which visualisation would be MOST effective and why? (Options: Pie chart, Line chart, Bar chart, Scatter plot)",
+     "a": "A line chart (one line per student, or a heatmap) is most effective because it shows trends over time (months) for each student, making it easy to spot consistent low attendance. A pie chart shows composition of a whole, not trends. A bar chart compares categories at a single point, not continuous monthly change. A scatter plot shows relationship between two variables, not a time series. Choosing pie or bar chart indicates confusion between comparison of parts vs. tracking change over time.",
+     "self_check": true
+    },
+    {
+     "q": "You have a dataset of 500 students with their Stream (Science/Commerce/Humanities) and their average marks. You want to compare the distribution of marks across the three streams. Which chart type is appropriate? Justify your choice in two sentences.",
+     "a": "A box plot (or violin plot) is ideal because it displays the median, quartiles, and outliers for each stream side-by-side, allowing direct comparison of central tendency and spread. A bar chart of mean marks would hide distribution shape and outliers. If the student suggests a pie chart or simple bar chart, they are not recognising the need to compare distributions, not just averages.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the following statement: \"A 3D pie chart with exploded slices is the best way to show market share of five smartphone brands because it looks impressive.\" Identify two specific flaws in this reasoning from a data visualisation best-practice perspective.",
+     "a": "Flaw 1: 3D distortion misrepresents slice areas, making accurate comparison of proportions difficult (visual perception of area/volume is error-prone). Flaw 2: Exploded slices further disconnect parts from the whole, reducing the ability to judge relative sizes. The statement prioritises aesthetics (\"looks impressive\") over perceptual accuracy. A student who agrees reveals a misconception that visual appeal equals effectiveness.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"For any dataset, there is a single 'correct' chart type that must be used.\" Defend your position with two examples where the same data can be visualised differently based on the analytical question.",
+     "a": "The statement is false. Chart choice depends on the question, not just the data. Example 1: Monthly sales data — use a line chart to show trend over time, but a bar chart to compare sales across specific months. Example 2: Student heights — use a histogram to show distribution shape, but a box plot to compare distributions by gender. A student who insists on one \"correct\" chart fails to understand that visualisation is a communication tool tailored to the message.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new, realistic scenario (different from examples above) where a scatter plot is the ONLY appropriate choice among line, bar, pie, and scatter. Describe the dataset, the question, and why other charts fail.",
+     "a": "Scenario: A researcher collects data on \"hours of screen time per day\" (X) and \"sleep quality score (1-10)\" (Y) for 100 teenagers. Question: \"Is there a relationship between screen time and sleep quality?\" Scatter plot shows each individual as a point, revealing correlation/clusters. Line chart implies ordered X (time) and single Y per X — not true here. Bar chart would require binning screen time, losing granularity. Pie chart cannot represent two continuous variables. A weak answer suggests a line chart, confusing continuous X with time-series.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

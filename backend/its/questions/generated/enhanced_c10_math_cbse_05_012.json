@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_05_012",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_05_012",
+   "title": "c10_math_cbse_05_012",
+   "questions": [
+    {
+     "q": "State the formula for the sum of first n terms of an AP when the first term is 'a' and common difference is 'd'. What does each variable represent in a savings context where you save ₹500 in the first month and increase savings by ₹50 each month?",
+     "a": "Sₙ = n/2[2a + (n-1)d]. In savings context: a = first month savings (₹500), d = monthly increase (₹50), n = number of months, Sₙ = total savings after n months. A wrong answer like Sₙ = n(a + l) without defining l, or confusing d as \"total increase\" instead of \"monthly increase\", reveals the student memorized the formula without understanding variable meanings in applied contexts.",
+     "self_check": true
+    },
+    {
+     "q": "A student saves ₹200 in January and increases savings by ₹20 each month. Another student says \"Total savings after 12 months = 12 × (200 + 20) = ₹2,640.\" Is this correct? Explain why or why not using the AP structure.",
+     "a": "Incorrect. The student used 12 × (first term + common difference) instead of the sum formula. Correct: a=200, d=20, n=12. S₁₂ = 12/2[2×200 + 11×20] = 6[400+220] = 6×620 = ₹3,720. The error shows the student thinks \"total = number of terms × (a + d)\" confusing d with the last term. This reveals a fundamental misunderstanding: they don't see that each term is different (200, 220, 240...) and the sum requires the last term or the formula with (n-1)d.",
+     "self_check": true
+    },
+    {
+     "q": "Ravi repays a loan in 10 instalments forming an AP. First instalment is ₹1,500 and last is ₹3,300. Find the total loan amount and the common difference between instalments.",
+     "a": "Given: n=10, a=1500, l=3300. Total loan = S₁₀ = 10/2(1500+3300) = 5×4800 = ₹24,000. For d: l = a + (n-1)d → 3300 = 1500 + 9d → 9d = 1800 → d = 200. Instalments increase by ₹200 each month. A wrong answer using Sₙ = n/2[2a + (n-1)d] without first finding d, or calculating d as (3300-1500)/10 = 180 (dividing by n instead of n-1), reveals the classic \"n vs n-1\" confusion in term positioning.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two savings plans for 12 months: Plan A: Save ₹1,000 first month, increase by ₹100 monthly. Plan B: Save ₹1,500 first month, increase by ₹50 monthly. Which plan yields more total savings? By how much? Can you determine this without calculating both full sums?",
+     "a": "Plan A: a=1000, d=100, n=12. S₁₂ = 6[2000 + 1100] = 6×3100 = ₹18,600. Plan B: a=1500, d=50, n=12. S₁₂ = 6[3000 + 550] = 6×3550 = ₹21,300. Plan B yields ₹2,700 more. Without full calculation: Compare average terms. Plan A average = (1000 + 2100)/2 = 1550. Plan B average = (1500 + 2050)/2 = 1775. Difference per month = 225 × 12 = 2700. A student who only computes both sums misses the structural comparison insight — they treat each as isolated calculation rather than analyzing the AP parameters.",
+     "self_check": true
+    },
+    {
+     "q": "A shopkeeper offers a washing machine for ₹18,000 cash or ₹3,000 down payment + 10 monthly instalments. The instalments form an AP starting at ₹1,200 and increasing by ₹100 each month. Is the instalment scheme cheaper or costlier than cash? By how much? Show your evaluation.",
+     "a": "Instalment total = Down payment + Sum of 10 instalments. Instalments: a=1200, d=100, n=10. S₁₀ = 10/2[2400 + 900] = 5×3300 = ₹16,500. Total paid = 3000 + 16500 = ₹19,500. Cash price = ₹18,000. Instalment scheme costs ₹1,500 MORE. A student who forgets the down payment and says \"₹16,500 < ₹18,000 so instalment is cheaper\" makes the critical real-world error of ignoring initial payment. Another error: using n=11 (including down payment as first instalment) which violates the AP structure since down payment is fixed, not part of the increasing sequence.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own instalment problem: A person borrows ₹50,000 and agrees to repay in 12 monthly instalments forming an AP. The first instalment is ₹3,000. What must the common difference be so that the loan is exactly repaid? Write the problem statement, solve it, then modify it: \"What if the person can only afford to increase by ₹200 monthly? How many months will repayment take?\"",
+     "a": "Original problem: S₁₂ = 50000, a=3000, n=12. 50000 = 12/2[6000 + 11d] → 50000 = 6[6000+11d] → 8333.33 = 6000+11d → 11d = 2333.33 → d = ₹212.12 (not a nice integer — good problem design needs integer d!). Better: Let d=200, find n. 50000 = n/2[6000 + (n-1)200] → 100000 = n[6000+200n-200] → 100000 = 200n² + 5800n → n² + 29n - 500 = 0 → (n+50)(n-10)=0 → n=10 months. A poor answer gives non-integer d without noticing, or sets up quadratic incorrectly (e.g., forgetting the n/2 factor). This tests whether the student can reverse-engineer AP parameters and handle the quadratic that arises when n is unknown.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

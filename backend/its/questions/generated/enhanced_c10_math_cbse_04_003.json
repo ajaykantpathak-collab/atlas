@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_04_003",
+   "title": "c10_math_cbse_04_003",
+   "questions": [
+    {
+     "q": "What two numbers must you find to split the middle term in the quadratic equation \\(2x^2 + 7x + 3 = 0\\)? State the required sum and product.",
+     "a": "The two numbers must have sum \\(7\\) (the coefficient of \\(x\\)) and product \\(2 \\times 3 = 6\\) (product of coefficient of \\(x^2\\) and constant term). A wrong answer like \"sum = 7, product = 3\" reveals the student forgets to multiply \\(a\\) and \\(c\\), a critical error that leads to incorrect factors. Another wrong answer \"sum = 3, product = 7\" shows confusion between the roles of \\(b\\) and \\(ac\\).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why we rewrite \\(6x^2 + 11x + 3 = 0\\) as \\(6x^2 + 9x + 2x + 3 = 0\\) instead of \\(6x^2 + 3x + 8x + 3 = 0\\) when splitting the middle term.",
+     "a": "We need two numbers with sum \\(11\\) and product \\(6 \\times 3 = 18\\). The pair \\(9\\) and \\(2\\) satisfies this (\\(9+2=11, 9\\times2=18\\)), while \\(3\\) and \\(8\\) gives sum \\(11\\) but product \\(24 \\neq 18\\). A wrong explanation like \"we just try different pairs\" reveals the student does not understand the systematic condition \\(p+q=b, pq=ac\\). The correct reasoning shows comprehension that the split must preserve the original quadratic's value, not just the sum.",
+     "self_check": true
+    },
+    {
+     "q": "Solve \\(3x^2 - 10x - 8 = 0\\) by factorisation. Show all steps.",
+     "a": "Step 1: Identify \\(a=3, b=-10, c=-8\\). Need two numbers with sum \\(-10\\) and product \\(3 \\times (-8) = -24\\).\nStep 2: The numbers are \\(-12\\) and \\(2\\) because \\(-12 + 2 = -10\\) and \\(-12 \\times 2 = -24\\).\nStep 3: Rewrite: \\(3x^2 - 12x + 2x - 8 = 0\\).\nStep 4: Group: \\(3x(x - 4) + 2(x - 4) = 0\\).\nStep 5: Factorise: \\((x - 4)(3x + 2) = 0\\).\nStep 6: Roots: \\(x = 4\\) or \\(x = -\\frac{2}{3}\\).\nA wrong answer like \\(x = 4, x = \\frac{2}{3}\\) reveals sign error in the second root (forgetting the negative sign from \\(3x+2=0 \\Rightarrow x=-\\frac{2}{3}\\)). Writing factors as \\((x-4)(3x-2)\\) shows incorrect grouping.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the factorisation of \\(x^2 + 5x + 6 = 0\\) and \\(2x^2 + 5x + 3 = 0\\). How does the leading coefficient \\(a\\) change the process of finding the two numbers for splitting?",
+     "a": "For \\(x^2 + 5x + 6\\), we need sum \\(5\\) and product \\(6\\) (since \\(a=1\\), product is just \\(c\\)). The numbers are \\(2\\) and \\(3\\). For \\(2x^2 + 5x + 3\\), we need sum \\(5\\) but product \\(2 \\times 3 = 6\\). The numbers are again \\(2\\) and \\(3\\), but the grouping differs: \\(x^2 + 2x + 3x + 6\\) vs \\(2x^2 + 2x + 3x + 3\\). A wrong answer stating \"the process is exactly the same\" misses that the product target changes from \\(c\\) to \\(ac\\), and the grouping step requires factoring out the leading coefficient from the first group.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves \\(4x^2 - 4x - 3 = 0\\) as follows: \"Numbers with sum \\(-4\\) and product \\(-12\\) are \\(-6\\) and \\(2\\). So \\(4x^2 - 6x + 2x - 3 = 0\\). Group: \\(2x(2x - 3) + 1(2x - 3) = 0\\). Factors: \\((2x - 3)(2x + 1) = 0\\). Roots: \\(x = \\frac{3}{2}, -\\frac{1}{2}\\).\" Is this correct? Justify.",
+     "a": "Yes, the solution is correct. The numbers \\(-6\\) and \\(2\\) satisfy sum \\(-4\\) and product \\(4 \\times (-3) = -12\\). The grouping \\(4x^2 - 6x + 2x - 3 = 2x(2x - 3) + 1(2x - 3)\\) is valid. The zero-product property gives \\(2x - 3 = 0 \\Rightarrow x = \\frac{3}{2}\\) and \\(2x + 1 = 0 \\Rightarrow x = -\\frac{1}{2}\\). A student saying \"incorrect because the factors should be \\((4x+2)(x-1.5)\\)\" reveals misunderstanding that factorisation over integers is preferred and the zero-product property applies to any factorisation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a quadratic equation with integer coefficients that has roots \\(x = -\\frac{3}{4}\\) and \\(x = 5\\). Show how you would construct it using the reverse of the splitting method.",
+     "a": "Roots are \\(-\\frac{3}{4}\\) and \\(5\\). Factors: \\((x + \\frac{3}{4})(x - 5) = 0\\). Multiply by 4 to clear denominator: \\((4x + 3)(x - 5) = 0\\). Expand: \\(4x^2 - 20x + 3x - 15 = 4x^2 - 17x - 15 = 0\\). To construct via reverse splitting: we want sum \\(-17\\), product \\(4 \\times (-15) = -60\\). Numbers are \\(-20\\) and \\(3\\). Equation: \\(4x^2 - 20x + 3x - 15 = 0\\). A poor answer like \\(x^2 - \\frac{17}{4}x - \\frac{15}{4} = 0\\) shows the student doesn't know board exams require integer coefficients, or cannot work backwards from roots to the splitting condition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

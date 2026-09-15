@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_20_007",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_20_007",
+   "title": "c12_geo_cbse_20_007",
+   "questions": [
+    {
+     "q": "State the formula used to calculate the central angle of a sector in a pie diagram when the data are given as percentages.",
+     "a": "The formula is: Angle = Percentage × 3.6 (since 360°/100 = 3.6). A wrong answer such as \"Angle = Percentage × 360\" reveals the student has forgotten to divide by 100, leading to angles 100 times too large and an impossible diagram.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the NCERT textbook recommend arranging the angles in ascending order and plotting them clockwise starting with the smallest angle?",
+     "a": "Starting with the smallest angle minimises the accumulation of measurement errors; if you begin with a large angle, any small protractor error gets magnified for the remaining tiny sectors, making them hard to plot accurately. A student who says \"it looks better\" misses the precision rationale and would likely produce diagrams with overlapping or gapped sectors.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following data on India's land use (1950-51): Net Sown Area 42%, Forest 14%, Not available for cultivation 17%, Fallow Land 10%, Pasture and Tree 9%, Culturable Waste Land 8%. Calculate the central angle for each category and verify that the sum of angles equals 360°.",
+     "a": "Step 1: Multiply each percentage by 3.6.  \nNet Sown Area: 42 × 3.6 = 151.2°  \nForest: 14 × 3.6 = 50.4°  \nNot available: 17 × 3.6 = 61.2°  \nFallow Land: 10 × 3.6 = 36.0°  \nPasture and Tree: 9 × 3.6 = 32.4°  \nCulturable Waste: 8 × 3.6 = 28.8°  \nStep 2: Sum = 151.2 + 50.4 + 61.2 + 36.0 + 32.4 + 28.8 = 360.0°.  \nA wrong sum (e.g., 359.8° or 360.5°) indicates rounding errors or a miscalculation in one category; the student should re-check each multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a pie diagram for the same land-use data but starts plotting with the largest angle (151.2°) and proceeds clockwise. The final sector (Culturable Waste, 28.8°) does not close the circle perfectly; a gap of 2° remains. Explain why this happened and how the ascending-order rule prevents it.",
+     "a": "When the largest angle is plotted first, any small protractor error (say +0.5°) is repeated for each subsequent sector. By the time the last small sector is drawn, the cumulative error may exceed the sector's own angle, leaving a gap or overlap. Ascending order confines the cumulative error to the largest sector at the end, where a 2° discrepancy is visually negligible. A student who blames \"poor protractor quality\" misses the systematic error-propagation concept.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the suitability of a pie diagram for representing the following dataset: \"Monthly rainfall (cm) in Delhi for 12 months\". Justify your answer with two reasons.",
+     "a": "A pie diagram is unsuitable because: (1) Rainfall data is a time series; a line/bar graph shows temporal trends better. (2) The total of monthly rainfall is not a meaningful \"whole\" — the sum of monthly rainfalls does not represent a fixed total like 100% of exports. A student who says \"pie diagrams can show any data\" fails to recognise that pie diagrams require parts of a meaningful whole.",
+     "self_check": true
+    },
+    {
+     "q": "Design a pie diagram to represent the percentage distribution of India's population by religion (hypothetical data: Hindu 79.8%, Muslim 14.2%, Christian 2.3%, Sikh 1.7%, Buddhist 0.7%, Jain 0.4%, Others 0.9%). Specify the radius, the order of sectors, the shading pattern, and the legend format you would use for a board-exam answer sheet.",
+     "a": "Radius: 4 cm (fits A4 sheet). Angles: Hindu 287°, Muslim 51°, Christian 8°, Sikh 6°, Buddhist 2.5°, Jain 1.4°, Others 3.2° (rounded). Order ascending: Jain (1.4°), Buddhist (2.5°), Others (3.2°), Christian (8°), Sikh (6°), Muslim (51°), Hindu (287°). Wait — ascending order means Jain (1.4°), Buddhist (2.5°), Others (3.2°), Christian (8°), Sikh (6°)? Actually 6° < 8°, so Sikh before Christian. Correct ascending: Jain (1.4°), Buddhist (2.5°), Others (3.2°), Sikh (6°), Christian (8°), Muslim (51°), Hindu (287°). Shading: distinct patterns (horizontal, vertical, diagonal, dots, cross-hatch, solid, blank). Legend: bottom-right, each pattern with religion name and percentage. A poor answer would omit the ascending order, use radius 10 cm (too large), or forget the legend.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

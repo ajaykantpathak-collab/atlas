@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch10_002",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch10_002",
+   "title": "c7_math_ch10_002",
+   "questions": [
+    {
+     "q": "What direction on a horizontal number line do you move when adding a positive integer?",
+     "a": "You move to the right. A wrong answer—such as saying \"to the left\"—reveals a confusion between positive and negative directions, often mixing up the rules of addition with subtraction or treating all numbers as positive.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why adding a negative integer, such as $-4$, requires moving to the left on the number line instead of the right.",
+     "a": "Adding a negative integer represents a decrease or a backward step in value, which corresponds to the left side of the number line. A wrong answer indicates the student thinks the plus sign (+) dictates the direction of movement regardless of the sign of the number being added.",
+     "self_check": true
+    },
+    {
+     "q": "Use a number line method to find the sum: $(-3) + (+5)$.",
+     "a": "Step 1: Locate the starting integer $-3$ on the number line. \nStep 2: Since we are adding $+5$, move 5 units to the right. \nStep 3: Landing at $-2, -1, 0, 1, 2$, you stop at $+2$. \nStep 4: Therefore, $(-3) + (+5) = +2$. A wrong answer like $-8$ shows the student added the absolute values and kept the negative sign without tracking direction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the number line movements for evaluating $(+4) + (-7)$ versus $(-4) + (+7)$. How do their starting points and directions differ?",
+     "a": "For $(+4) + (-7)$, you start at $+4$ and move 7 units left, landing at $-3$. For $(-4) + (+7)$, you start at $-4$ and move 7 units right, landing at $+3$. A wrong answer shows failure to distinguish between the starting position and the magnitude of the displacement.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that $(-6) + (-3)$ equals $+9$ because \"two negatives make a positive.\" Evaluate this claim using the number line.",
+     "a": "[Answer needed]",
+     "self_check": true
+    },
+    {
+     "q": "The claim is incorrect. Starting at $-6$ and adding $-3$ means moving 3 more units to the left, which lands on $-9$, not $+9$. The student is confusing the multiplication sign rule (\"negative times negative is positive\") with the addition of integers on a number line.",
+     "a": "[Answer needed]",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

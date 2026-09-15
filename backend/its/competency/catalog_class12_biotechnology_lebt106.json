@@ -1,0 +1,414 @@
+{
+ "class": 12,
+ "subject": "biotechnology",
+ "chapter": 6,
+ "chapter_title": "Microbial Culture",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lebt106.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lebt106.1",
+   "title": "Germ Theory and the Golden Age of Microbiology",
+   "section": "6.1",
+   "definition": "Microbiology grew from Leeuwenhoek's animalcules through Pasteur's swan-necked flasks - which killed spontaneous generation and launched the germ theory of disease - to Koch's pure-culture proof that Bacillus anthracis causes anthrax; the late 1800s and early 1900s became the Golden Age, as solid media, Petri's 1887 dish, selective media of the early twentieth century and antibiotic-era medicine turned microbes into laboratory objects and living factories.",
+   "formula": "-",
+   "key_idea": "Broth spoiled only when dust reached it, so microbes come from microbes - and that insight built pure culture, sterilisation and medical microbiology.",
+   "textbook_ref": "lebt106.txt section 6.1, Boxes 1-3",
+   "question_patterns": [
+    "describe Pasteur's swan neck flask experiment and how it disproved spontaneous generation",
+    "state the germ theory of disease and name the scientist who postulated it",
+    "outline Koch's experiment that proved Bacilli cause anthrax in mice",
+    "which period is called the Golden Age of Microbiology and what was discovered then",
+    "who improved microbial culturing with the Petri dish and in which year",
+    "why did agar replace gelatin as the solidifying agent of bacteriological media",
+    "name two modern applications of applied microbiology in industry and medicine"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "follow the experiment",
+     "explain": "Blocked dust kept broth sterile; a broken neck or tilted flask let microbes in and growth appeared."
+    },
+    {
+     "step": 2,
+     "action": "link to the theory",
+     "explain": "Infection agents in air explain disease - the germ theory Pasteur proposed and Koch proved with pure cultures."
+    },
+    {
+     "step": 3,
+     "action": "mark the milestones",
+     "explain": "1860 Pasteur's medium, 1881 solid media, 1887 Petri dish, and the antibiotic and vaccine era after World War II."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Whose swan-necked flasks killed spontaneous generation: Pasteur's or Koch's?",
+     "a": "Pasteur's"
+    }
+   ]
+  },
+  {
+   "id": "lebt106.2",
+   "title": "Nutritional Categories of Microbes",
+   "section": "6.1 and 6.2",
+   "definition": "Microbes sort by where carbon and energy come from: heterotrophs feed on organic molecules, autotrophs fix carbon dioxide; chemoautotrophs oxidise sulphur or nitrite for both needs while photoautotrophs harvest light, chemoheterotrophs burn organic nutrients, and photoheterotrophs such as green and purple non-sulphur bacteria mix light energy with organic carbon - with lithotrophs and organotrophs naming the electron sources.",
+   "formula": "-",
+   "key_idea": "Two questions classify any microbe - where does its carbon come from and where does its energy come from.",
+   "textbook_ref": "lebt106.txt sections 6.1-6.2",
+   "question_patterns": [
+    "differentiate autotrophs from heterotrophs on the basis of their carbon source",
+    "how do chemoautotrophs and photoautotrophs each obtain energy and carbon",
+    "which group of bacteria uses light for energy but organic molecules for carbon",
+    "define lithotroph and organotroph with the molecules each uses for electrons",
+    "give one example each of a chemoheterotroph and a photoautotroph microbe",
+    "why are most fungi and protozoans classified as chemoheterotrophs"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the carbon",
+     "explain": "Carbon dioxide marks an autotroph; organic molecules mark a heterotroph."
+    },
+    {
+     "step": 2,
+     "action": "trace the energy",
+     "explain": "Light means photo, chemical oxidation means chemo."
+    },
+    {
+     "step": 3,
+     "action": "note the electrons",
+     "explain": "Inorganic donors like hydrogen sulphide make a lithotroph; organic donors an organotroph."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Microbes that fix carbon dioxide are called what: autotrophs or heterotrophs?",
+     "a": "autotrophs"
+    }
+   ]
+  },
+  {
+   "id": "lebt106.3",
+   "title": "Culture Media Composition and Types",
+   "section": "6.2",
+   "definition": "A medium supplies carbon skeletons, nitrogen, phosphate and sulphate, trace minerals, growth factors, water and an anti-foam; chemically defined recipes such as M9 for E. coli or BG11 for cyanobacteria list every ingredient, complex broths lean on peptone and yeast extract - LB mixing ten percent tryptone, five percent yeast extract and ten percent sodium chloride - while consistency sorts broths from one to two percent agar solids and half-percent semi-solid media, and function splits selective, differential and enrichment media such as MacConkey agar that both selects Gram-negative rods and flags lactose fermenters red.",
+   "formula": "lb_solids = tryptone_pct + yeast_extract_pct + nacl_pct",
+   "key_idea": "Add the component percents to size a recipe, and name the medium by what it defines, solidifies or selects.",
+   "textbook_ref": "lebt106.txt section 6.2",
+   "question_patterns": [
+    "LB medium contains 10 percent tryptone 5 percent yeast extract and 10 percent sodium chloride - compute the total added solids percent",
+    "differentiate synthetic defined media from complex media with one example of each",
+    "what percent agar solidifies a plate and what percent makes a semi-solid medium",
+    "why does MacConkey agar count as both selective and differential medium",
+    "which medium suits cyanobacteria and which suits E. coli among the defined media",
+    "why are trace elements usually not supplied separately in culture media",
+    "what role do anti-foaming agents play in an agitated culture"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum the recipe",
+     "explain": "Add the percent of each component in the medium.",
+     "compute": "lb_solids = tryptone_pct + yeast_extract_pct + nacl_pct"
+    },
+    {
+     "step": 2,
+     "action": "compare agar strengths",
+     "explain": "Solid media carry a multiple of the semi-solid agar level.",
+     "compute": "agar_multiple = solid_pct / semisolid_pct"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "LB broth mixes ten percent tryptone, ten percent sodium chloride and five percent of what: yeast extract or agar?",
+     "a": "yeast extract"
+    }
+   ]
+  },
+  {
+   "id": "lebt106.4",
+   "title": "Sterilisation by Heat Radiation and Filtration",
+   "section": "6.3",
+   "definition": "Contaminant-free practice demands sterilisation: autoclaves hold steam at 121 degrees Celsius under 15 psi beyond thirty minutes, pasteurisation spares milk's spores at 63 degrees for thirty minutes, 72 degrees for fifteen seconds or 140-150 degrees for a couple of seconds, UV lamps peak near 260 nanometres by knitting thymine dimers, 0.2-0.45 micron membranes and 99.97-percent-efficient HEPA filters strain out microbes, and seventy percent alcohol with formaldehyde or heavy metals finishes chemically.",
+   "formula": "temp_rise = autoclave_temp - boiling_point",
+   "key_idea": "Pressure raises the boiling point, so subtract 100 degrees from the autoclave temperature to see what the 15 psi buys.",
+   "textbook_ref": "lebt106.txt section 6.3, Fig. 6.1",
+   "question_patterns": [
+    "an autoclave runs at 121 degrees celsius while water boils at 100 - how many degrees does the 15 psi pressure add",
+    "differentiate the LTLT HTST and UHT pasteurisation methods by temperature and time",
+    "why does autoclaving achieve sterilisation while pasteurisation does not",
+    "which wavelength of UV light is most germicidal and what DNA lesion does it create",
+    "what pore size do membrane filters use and how efficient are HEPA filters",
+    "why must heat-labile solutions such as antibiotics be filter sterilised instead of autoclaved",
+    "name two chemical sterilants and the surfaces each suits"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "measure the pressure bonus",
+     "explain": "Subtract the normal boiling point from the autoclave temperature.",
+     "compute": "temp_rise = autoclave_temp - boiling_point"
+    },
+    {
+     "step": 2,
+     "action": "rate per psi",
+     "explain": "Divide the rise by the gauge pressure.",
+     "compute": "rise_per_psi = temp_rise / psi"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Autoclaves hold steam at what temperature: 121 degrees Celsius or 21?",
+     "a": "121"
+    }
+   ]
+  },
+  {
+   "id": "lebt106.5",
+   "title": "Pure Culture Techniques",
+   "section": "6.4",
+   "definition": "A pure culture holds one strain alone, won by dilution on solid media: the streak plate thins a loopful across an agar surface until isolated colonies appear, the pour plate mixes one-millilitre aliquots of serially diluted sample into melted agar before it sets, and the spread plate distributes a tenth-millilitre drop with a sterile L-shaped rod - colonies arise because daughters stay put where their parent landed.",
+   "formula": "-",
+   "key_idea": "Dilute until single cells land apart; each colony is then a clone you can pick.",
+   "textbook_ref": "lebt106.txt section 6.4, Figs. 6.2-6.4",
+   "question_patterns": [
+    "describe the streak plate method and explain why isolated colonies appear near the end of the streak",
+    "how does the pour plate method differ from the spread plate technique",
+    "what volume is transferred in a spread plate and with which instrument is it spread",
+    "why do colonies form on solid media but not in a broth",
+    "how are serial dilutions prepared in the pour plate method",
+    "why is obtaining a pure culture essential before studying a microorganism"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "thin the population",
+     "explain": "Streaking, serial dilution or spreading separates cells from one another."
+    },
+    {
+     "step": 2,
+     "action": "incubate",
+     "explain": "Each deposited cell or clump divides in place into a visible colony."
+    },
+    {
+     "step": 3,
+     "action": "pick and recheck",
+     "explain": "An isolated colony is restreaked to confirm purity."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which technique thins a loopful across an agar surface: the streak plate or the pour plate?",
+     "a": "the streak plate"
+    }
+   ]
+  },
+  {
+   "id": "lebt106.6",
+   "title": "Factors Affecting Microbial Growth",
+   "section": "6.5",
+   "definition": "Growth bends to its surroundings: mesophiles peak between twenty and forty-five degrees while thermophiles push toward fifty to sixty-five and extreme thermophiles survive past one hundred, most microbes favour neutral pH though fungi prefer slight acidity, and oxygen tolerance splits obligate aerobes, obligate and aerotolerant anaerobes and facultative species, with carbon dioxide and correct light wavelengths completing the checklist for autotrophs and phototrophs.",
+   "formula": "-",
+   "key_idea": "Fix temperature, pH, oxygen, carbon dioxide and light to the organism's habit before expecting growth.",
+   "textbook_ref": "lebt106.txt section 6.5",
+   "question_patterns": [
+    "define mesophiles thermophiles and extreme thermophiles by their temperature ranges",
+    "why do fungi tend to dominate bacteria under slightly acidic conditions",
+    "differentiate obligate anaerobes facultative anaerobes and aerotolerant anaerobes",
+    "why must broth cultures of aerobes be shaken during incubation",
+    "how is carbon dioxide supplied to autotrophic organisms in culture",
+    "what happens to enzymatic activity when temperature rises beyond the optimum"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set the temperature class",
+     "explain": "Choose incubation inside the organism's optimum window."
+    },
+    {
+     "step": 2,
+     "action": "adjust pH and aeration",
+     "explain": "Neutral to alkaline for most bacteria, acidic for fungi; shake aerobes, seal anaerobes."
+    },
+    {
+     "step": 3,
+     "action": "add special needs",
+     "explain": "Bicarbonate or CO2-enriched air for autotrophs and correct light for phototrophs."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Mesophiles peak between twenty and how many degrees Celsius: forty-five or four?",
+     "a": "forty-five"
+    }
+   ]
+  },
+  {
+   "id": "lebt106.7",
+   "title": "The Bacterial Growth Curve Phases",
+   "section": "6.6",
+   "definition": "Plotting log of viable cells against time reveals four acts: a lag phase where cells build division machinery without multiplying, the exponential or log phase of maximal constant-rate doubling when cultures are chemically most uniform, a stationary phase balancing births against deaths as nutrients thin and wastes mount, and a decline phase of logarithmic death - the shape lactic-acid Streptococci write into their own medium as acidity rises.",
+   "formula": "-",
+   "key_idea": "Flat, climb, plateau, fall - each phase reflects a different balance between building cells and killing them.",
+   "textbook_ref": "lebt106.txt section 6.6, Fig. 6.5",
+   "question_patterns": [
+    "draw and label the four phases of a microbial growth curve",
+    "why is cell number static during the lag phase even though cells are active",
+    "why are log-phase cells preferred for biochemical and physiological studies",
+    "which two factors tip a culture from exponential growth into stationary phase",
+    "how does lactic acid production by Streptococci drive the decline phase",
+    "what makes the lag phase long when inoculum comes from an old refrigerated culture"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the flat start",
+     "explain": "Lag phase synthesises components but divides not at all."
+    },
+    {
+     "step": 2,
+     "action": "read the straight climb",
+     "explain": "Exponential phase doubles at constant intervals on the log plot."
+    },
+    {
+     "step": 3,
+     "action": "read the plateau and fall",
+     "explain": "Stationary phase balances division and death; nutrient exhaustion and waste push the decline."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Name the growth phase of maximal constant doubling: the log phase or the lag phase?",
+     "a": "the log phase"
+    }
+   ]
+  },
+  {
+   "id": "lebt106.8",
+   "title": "Growth Kinetics Doubling Time and Growth Rate",
+   "section": "6.6 Box 2",
+   "definition": "Balanced growth obeys arithmetic: dividing elapsed time by the number of generations gives the doubling time, dividing 0.693 by that doubling time gives the specific growth rate, and binary fission doubles the population - one cell into two, two into four - so any starting culture scales by two raised to the generation count.",
+   "formula": "td_hours = elapsed_hours / generations",
+   "key_idea": "Divide time by generations for the doubling time, then divide 0.693 by it for the specific growth rate.",
+   "textbook_ref": "lebt106.txt section 6.6 and Box 2 (td = t/n, td = 0.693/mu)",
+   "question_patterns": [
+    "a culture completes 6 generations in 3 hours - find its doubling time and specific growth rate",
+    "E. coli doubles every 20 minutes - express its doubling time in hours and compute its specific growth rate",
+    "starting from 5000 cells how many cells stand after 4 generations of binary fission",
+    "a bacterial population rises from 10 thousand to 10 million cells per mL in 4 hours - about how many generations elapsed and what is the doubling time",
+    "how does the specific growth rate of a microbe depend on temperature pH and dissolved oxygen",
+    "why do fermenter batch times depend on the doubling time of the production organism"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "double the population",
+     "explain": "Each generation doubles the cell count by binary fission.",
+     "compute": "cells_after = starter_cells * 2 ** generations"
+    },
+    {
+     "step": 2,
+     "action": "time one doubling",
+     "explain": "Doubling time divides elapsed time by generations.",
+     "compute": "td_hours = elapsed_hours / generations"
+    },
+    {
+     "step": 3,
+     "action": "convert to growth rate",
+     "explain": "Specific growth rate equals 0.693 divided by the doubling time.",
+     "compute": "mu_per_hr = 0.693 / td_hours"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Dividing 0.693 by the doubling time gives the specific what: growth rate or yield?",
+     "a": "growth rate"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "lebt106.txt section 6.6 Box 2 (td = t/n, td = 0.693 per mu)",
+   "concept": "lebt106.8",
+   "question_type": "compute",
+   "question_pattern": "A bacterial culture starts with {starter_cells} cells and completes {generations} generations during {elapsed_hours} hours of exponential growth. Find the final cell count, the doubling time, and the specific growth rate.",
+   "extracted_variables": {
+    "starter_cells": "cells at the start of growth",
+    "generations": "number of generations completed",
+    "elapsed_hours": "hours of exponential growth"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "double per generation",
+     "explain": "Binary fission doubles the count each generation.",
+     "compute": "cells_after = starter_cells * 2 ** generations"
+    },
+    {
+     "step": 2,
+     "action": "time one doubling",
+     "explain": "Doubling time is elapsed hours over generations.",
+     "compute": "td_hours = elapsed_hours / generations"
+    },
+    {
+     "step": 3,
+     "action": "convert to rate",
+     "explain": "Specific growth rate is 0.693 over the doubling time.",
+     "compute": "mu_per_hr = 0.693 / td_hours"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "lebt106.txt section 6.3 (autoclave 121 C at 15 psi versus 100 C boiling)",
+   "concept": "lebt106.4",
+   "question_type": "compute",
+   "question_pattern": "An autoclave sterilises at {autoclave_temp} degrees celsius under {psi} psi of pressure while water boils at {boiling_point} degrees. Find the temperature gained from pressure and the gain per psi.",
+   "extracted_variables": {
+    "autoclave_temp": "autoclave operating temperature in degrees celsius",
+    "boiling_point": "normal boiling point of water in degrees celsius",
+    "psi": "gauge pressure in psi"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract the boiling point",
+     "explain": "The rise is autoclave temperature minus normal boiling point.",
+     "compute": "temp_rise = autoclave_temp - boiling_point"
+    },
+    {
+     "step": 2,
+     "action": "rate per psi",
+     "explain": "Divide the rise by the gauge pressure.",
+     "compute": "rise_per_psi = temp_rise / psi"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lebt106-ex1",
+   "source_ref": "lebt106.txt Exercises (questions 1-15)",
+   "questions": [
+    "Describe the nutritional requirements of microorganisms and the nutritional categories of microbes.",
+    "What is culture media - classify media by chemical composition, consistency and application.",
+    "Write an account of growth curve analysis and compute doubling time and specific growth rate from generation data.",
+    "Discuss any two methods of isolating a pure culture.",
+    "Define sterilisation, disinfection and sanitisation, and give a detailed account of sterilisation methods.",
+    "Identify prototrophs among auxotroph heterotroph and chemotroph options, and name who first purified colonies on solid media.",
+    "To which process do HTST and UHT belong, and who suggested the germ theory of disease?",
+    "Evaluate the assertions on autoclaved ampicillin medium and on the temperature range of microbial growth."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_08_003",
+   "title": "c11_ps_cbse_08_003",
+   "questions": [
+    {
+     "q": "What is the core constitutional mechanism that establishes the \"wall of separation\" in the United States, and how does it differ textually from the French *laïcité* framework?",
+     "a": "The US relies on the **First Amendment's twin clauses**: \"Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof\"—the Establishment Clause builds the wall; the Free Exercise Clause protects religious practice within it. France's *laïcité* is statutory (1905 Law), not constitutional originally, and affirms state neutrality *by actively excluding religion from the public sphere*. A wrong answer (e.g., \"both are in their constitutions\" or \"both ban religious symbols\") reveals confusion between **negative liberty** (US: state stays out) and **positive secularism** (France: state enforces secular public space).",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Western model, despite guaranteeing individual religious freedom, systematically under-protect minority religious communities compared to the Indian model?",
+     "a": "The Western model emerged in **religiously homogeneous societies** (historically Christian-majority with small Jewish minorities). Its individualist framework treats liberty/equality as attributes of *individuals only*—no collective/minority rights. Since the \"wall\" forbids state recognition of religious groups, the state cannot grant targeted accommodations (e.g., separate educational institutions, personal laws) that minorities need to preserve their identity. A wrong answer focusing only on \"discrimination\" misses the **structural logic**: mutual exclusion *by design* prevents the state from \"seeing\" communities, making minority rights conceptually unavailable.",
+     "self_check": true
+    },
+    {
+     "q": "A US public university denies funding to a student religious magazine while funding secular student publications. The magazine sues, claiming viewpoint discrimination. Apply the Western mutual-exclusion principle to predict the Supreme Court's reasoning and outcome.",
+     "a": "Under strict mutual exclusion, **the state cannot fund religious activity** (Establishment Clause). However, in *Rosenberger v. Rector* (1995), the Court ruled that *denying* funding to a religious magazine while funding secular ones constitutes **viewpoint discrimination** violating Free Speech, not Establishment. The Court distinguished *state sponsorship of religion* (forbidden) from *neutral inclusion of religious perspectives in a generally available forum* (required). A wrong answer (\"state must fund it\" or \"state must never fund it\") fails to grasp the **internal tension** in the Western model: the wall separates state from religion, but the Free Exercise/Free Speech clauses prevent the state from discriminating *against* religion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the French 2004 headscarf ban and the US *Employment Division v. Smith* (1990) ruling on peyote use. What do they reveal about the *convergent* and *divergent* logics of the two Western variants?",
+     "a": "**Convergent**: Both prioritise the **integrity of the secular public sphere/law** over religious accommodation. France bans visible symbols to preserve *laïcité*; US refuses religious exemptions from neutral laws (Smith: \"right to free exercise does not relieve obligation to comply with a valid and neutral law of general applicability\"). **Divergent**: France's *laïcité* is **substantive**—the state actively constructs a religion-free public space (ban applies to *students* in schools). US separation is **procedural**—the state refuses to *judge* religious claims (Smith applies to *adults* under criminal law). A wrong answer treating them as identical misses that **France excludes religion from the public sphere; US excludes the state from religious judgment**.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the claim: \"The Western model's refusal to support state-led religious reform (e.g., banning untouchability, reforming personal laws) makes it morally superior to the Indian model because it respects religious autonomy.\"",
+     "a": "The claim confuses **non-interference with moral neutrality**. The Western model's mutual exclusion *forbids* the state from challenging intra-religious domination (e.g., gender/caste hierarchies within religions) because that would require \"intruding\" into religion's sphere. Indian secularism's **principled distance** permits—and the Constitution *mandates* (Art. 17, 25(2)(b))—state intervention against practices like untouchability or gender-discriminatory personal laws. A wrong answer accepting the claim fails to see that **non-interference in the face of intra-religious oppression is complicity, not neutrality**. The Western model's historical context (homogeneous societies, intra-religious focus) explains but does not justify this limitation for pluralistic societies.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph constitutional amendment proposal for a hypothetical pluralistic democracy that adopts the Western model's individualist protections *but* adds a mechanism to address its minority-rights deficit. Justify each clause.",
+     "a": "**Proposal**: \"Article X: (1) The State shall make no law establishing religion or prohibiting free exercise thereof. (2) Notwithstanding (1), the State may enact targeted measures to protect the cultural, educational, and religious identity of minority communities, provided such measures are proportionate, non-discriminatory, and subject to judicial review for compatibility with fundamental rights. (3) Religious autonomy shall not shield practices that violate constitutional guarantees of equality and dignity.\" **Justification**: Clause (1) imports the US wall. Clause (2) adds a **structured exception**—unlike the Indian model's open-ended principled distance, this requires *proportionality* and *judicial review*, preventing majoritarian capture. Clause (3) blocks the \"religious autonomy\" defence for intra-religious oppression. A poor proposal either replicates the Indian model wholesale (missing the \"Western\" constraint) or adds minority rights without safeguards (recreating majoritarian misuse).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

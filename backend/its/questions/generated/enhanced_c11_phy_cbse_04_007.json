@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_04_007",
+   "title": "c11_phy_cbse_04_007",
+   "questions": [
+    {
+     "q": "A particle is in equilibrium under the action of three concurrent forces **F₁**, **F₂**, and **F₃**. Force **F₁** = 10 N acts along the +x axis. Force **F₂** = 10 N acts along the +y axis. What must be the magnitude and direction of **F₃** for equilibrium?",
+     "a": "**F₃** = 10√2 N directed at 225° from +x axis (or 45° below the -x axis, i.e., components -10 N in x and -10 N in y).  \nA wrong answer (e.g., **F₃** = 20 N along -x) reveals the student is adding magnitudes scalarly instead of vectorially, or misunderstanding that equilibrium requires vector sum zero, not just pairwise balance. It also shows confusion between \"equal and opposite\" (for two forces) versus \"closed polygon\" (for three or more forces).",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"A book lying on a table is in equilibrium because the weight **mg** and the normal reaction **R** are an action-reaction pair, so they cancel out.\" Explain why this reasoning is incorrect, even though the conclusion (book is in equilibrium) happens to be true.",
+     "a": "The reasoning is incorrect because **mg** (force on book by Earth) and **R** (force on book by table) act on the **same body** (the book). Action-reaction pairs always act on **different bodies** (Newton's Third Law). The action-reaction pair for **mg** is the gravitational pull of the book on the Earth (upward). The pair for **R** is the force of the book on the table (downward). The book is in equilibrium because **net force on the book is zero** (Newton's First Law), not because **mg** and **R** are a Third Law pair. A student giving this answer confuses the First Law condition for equilibrium with the Third Law description of force pairs.",
+     "self_check": true
+    },
+    {
+     "q": "A 5 kg mass is suspended from a ceiling by a light string. A horizontal force **F** is applied to the mass so that the string makes an angle of 30° with the vertical. Find the tension **T** in the string and the magnitude of **F**. (Take g = 10 m/s²)",
+     "a": "**Given:** m = 5 kg, θ = 30°, g = 10 m/s² → weight W = mg = 50 N downward.  \n**Free-body diagram:** Three forces — tension **T** along string (30° from vertical), weight **W** = 50 N vertically down, horizontal force **F**.  \n**Resolve:** Tₓ = T sin30°, Tᵧ = T cos30° (upward). Fₓ = F, Fᵧ = 0. Wₓ = 0, Wᵧ = -50 N.  \n**Equilibrium equations:**  \nΣFₓ = 0 → T sin30° - F = 0 → F = T(½)  ...(1)  \nΣFᵧ = 0 → T cos30° - 50 = 0 → T(√3/2) = 50 → T = 100/√3 ≈ 57.7 N  ...(2)  \nSubstitute (2) in (1): F = (100/√3)(½) = 50/√3 ≈ 28.9 N.  \n**Answer:** T = 100/√3 N (≈ 57.7 N), F = 50/√3 N (≈ 28.9 N).  \nA wrong answer (e.g., T = 50 N) reveals the student equated tension directly to weight, ignoring the horizontal force's effect on vertical equilibrium, or forgot to resolve tension into components.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical smooth spheres of weight W each are placed inside a smooth hollow cylinder of diameter D such that they touch each other and the cylinder wall at two points. The line joining their centres makes an angle θ with the horizontal. Derive the condition for equilibrium in terms of the normal reactions at the contact points. (No calculation needed — set up the equations only.)",
+     "a": "Consider the **upper sphere** as the system. Forces on it:  \n(1) Weight W downward.  \n(2) Normal reaction N₁ from cylinder wall (perpendicular to wall, i.e., at angle θ to horizontal).  \n(3) Normal reaction N₂ from lower sphere (along line of centres, i.e., at angle θ to horizontal, pushing upward).  \n(4) Normal reaction N₃ from cylinder wall on the other side (if applicable — but for two spheres in a cylinder, each sphere touches the wall at one point). Actually, each sphere touches the cylinder at one point and the other sphere at one point. So only three forces: W, N_wall, N_contact.  \nResolve along vertical: N_wall sinθ + N_contact sinθ = W  \nResolve along horizontal: N_wall cosθ = N_contact cosθ → N_wall = N_contact  \nSubstitute: 2N_wall sinθ = W → N_wall = N_contact = W/(2 sinθ).  \nA student who writes N_wall = W or ignores the contact force between spheres fails to isolate the correct free-body diagram and misses that the contact force has a vertical component supporting the weight.",
+     "self_check": true
+    },
+    {
+     "q": "A particle is acted upon by four forces in a plane: **F₁** = 10 N at 0°, **F₂** = 10 N at 90°, **F₃** = 10 N at 180°, **F₄** = 10 N at 270°. A student claims: \"Since all forces have equal magnitude, the particle is in equilibrium.\" Evaluate this claim. Is it always true? If not, give a counterexample with four equal-magnitude forces where the particle is NOT in equilibrium.",
+     "a": "The claim is **true for this specific set** because the forces form a closed square (vector sum = 0). However, the **reasoning is flawed** — equal magnitudes alone do NOT guarantee equilibrium.  \n**Counterexample:** Four forces of 10 N each at angles 0°, 45°, 90°, 135°.  \nΣFₓ = 10 + 10/√2 + 0 - 10/√2 = 10 N ≠ 0.  \nΣFᵧ = 0 + 10/√2 + 10 + 10/√2 = 10 + 20/√2 ≠ 0.  \nNet force ≠ 0 → not in equilibrium.  \nA student who agrees with the claim without checking vector addition confuses scalar equality with vector closure. Equilibrium requires the force polygon to close, which depends on both magnitudes AND directions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a force table (or a circular board with pulleys at the edge and strings tied to a central ring) to verify the triangle law of forces for three concurrent forces in equilibrium. Specify: (a) the measurable quantities, (b) how you would confirm equilibrium, (c) how you would check if the three forces form a closed triangle.",
+     "a": "(a) Measurable quantities: masses hanging from each string (convert to forces F = mg), angles of each string relative to a reference direction (using a protractor on the force table).  \n(b) Equilibrium confirmation: The central ring remains stationary at the centre of the table (not touching the central pin) when the system is released. If it moves, adjust masses/angles until it stays centred.  \n(c) Triangle law check: Draw the three force vectors to scale (e.g., 1 cm = 1 N) head-to-tail in the order of their directions around the ring. If the polygon closes (the tail of the first meets the head of the third), the triangle law is verified. Alternatively, compute ΣFₓ and ΣFᵧ from measured angles and magnitudes — both should be zero within experimental error.  \nA poor answer (e.g., \"measure angles and see if they add to 360°\") reveals confusion between angle sum and vector closure, or inability to translate physical setup into vector diagram.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

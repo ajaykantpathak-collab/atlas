@@ -1,0 +1,53 @@
+{
+  "catalog": "catalog_class12_history_lehs203",
+  "concepts": [
+    {
+      "id": "lehs.203.1",
+      "questions": [
+        {"q": "Around which year was the city of Vijayanagara founded? (give the year)", "a": "1336"},
+        {"q": "Which two brothers, Harihara and Bukka, founded Vijayanagara? (one word for the dynasty they began)", "a": "Sangama"},
+        {"q": "Which early nineteenth-century surveyor-engineer first brought Hampi's ruins to scholarly notice? (two words)", "a": "Colin Mackenzie"},
+        {"q": "In which century did Colin Mackenzie record the ruins of Hampi? (give the century)", "a": "19th century"},
+        {"q": "At which battle in 1565 was Vijayanagara decisively defeated? (one word)", "a": "Talikota"},
+        {"q": "The ruins of Vijayanagara's capital are known today by which village name? (one word)", "a": "Hampi"},
+        {"q": "How many years did Vijayanagara stand as an imperial capital, from 1336 to its sack after 1565? (number of years)", "a": "229"}
+      ]
+    },
+    {
+      "id": "lehs.203.2",
+      "questions": [
+        {"q": "What were the kings of Vijayanagara called? (one word)", "a": "rayas"},
+        {"q": "What were the military chiefs who held amara lands under the Vijayanagara kings called? (one word)", "a": "nayakas"},
+        {"q": "How often did amara-nayakas present tribute to the king? (one word)", "a": "annually"},
+        {"q": "To which dynasty did Krishnadeva Raya belong? (one word)", "a": "Tuluva"},
+        {"q": "In which year did Krishnadeva Raya's reign begin? (give the year)", "a": "1509"},
+        {"q": "In which year did Krishnadeva Raya's reign end? (give the year)", "a": "1529"},
+        {"q": "How many years did Krishnadeva Raya rule, from 1509 to 1529? (number of years)", "a": "20"}
+      ]
+    },
+    {
+      "id": "lehs.203.3",
+      "questions": [
+        {"q": "Which temple dedicated to Pampadevi stood at the sacred centre of Hampi? (one word)", "a": "Virupaksha"},
+        {"q": "On the bank of which river was Hampi's sacred centre built? (one word)", "a": "Tungabhadra"},
+        {"q": "What are the towering gateway towers of South Indian temples called? (one word)", "a": "gopurams"},
+        {"q": "What are the long pillared halls of Vijayanagara temples called? (one word)", "a": "mandapas"},
+        {"q": "Which Vijayanagara king added halls and images to Hampi's temples? (two words)", "a": "Krishnadeva Raya"},
+        {"q": "Which goddess, consort of Virupaksha, gives the Hampi temple its other name? (one word)", "a": "Pampadevi"},
+        {"q": "Royal patronage of temples was a public claim of royal what? (one word)", "a": "devotion"}
+      ]
+    },
+    {
+      "id": "lehs.203.4",
+      "questions": [
+        {"q": "Which engineered channels carried water through Hampi's urban core? (one word)", "a": "aqueducts"},
+        {"q": "What urban structures beside temples hosted commercial life at Hampi? (one word)", "a": "bazaars"},
+        {"q": "In which year was Hampi sacked after the defeat at Talikota? (give the year)", "a": "1565"},
+        {"q": "Besides aqueducts, what water-storage structures were excavated in Hampi's urban core? (one word)", "a": "tanks"},
+        {"q": "Was Hampi abandoned after its 1565 defeat? (yes or no)", "a": "yes"},
+        {"q": "How many years elapsed between Vijayanagara's founding (1336) and its sack (1565)? (number of years)", "a": "229"},
+        {"q": "Whose courtyards did excavation identify within Hampi's urban core? (one word)", "a": "elites"}
+      ]
+    }
+  ]
+}

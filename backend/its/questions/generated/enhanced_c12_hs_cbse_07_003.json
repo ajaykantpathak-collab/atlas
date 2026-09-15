@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_07_003",
+   "title": "c12_hs_cbse_07_003",
+   "questions": [
+    {
+     "q": "Define \"reaction range\" in the context of heredity-environment interaction. Give one example of a human trait with a wide reaction range and one with a narrow reaction range.",
+     "a": "Reaction range is the span of possible phenotypic expressions of a given genotype across all conceivable environments. Example of wide reaction range: adult height (genetic potential ± 10–15 cm depending on nutrition, health, hormonal status). Example of narrow reaction range: blood type (ABO genotype determines phenotype almost invariantly across environments). A wrong answer (e.g., \"reaction range is the difference between tallest and shortest person in a population\") reveals confusion between population variability and individual genotypic plasticity — the student is conflating inter-individual variation with intra-genotype flexibility.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between passive, evocative, and active genotype-environment correlation. Illustrate each with a scenario involving a 10-year-old Indian child named Arjun who has a genetic predisposition for high musical aptitude.",
+     "a": "Passive: Arjun's musically talented parents provide instruments and lessons *because* they share his genes (environment provided by parents, not child's choice). Evocative: Arjun's spontaneous humming *elicits* his teacher's attention, leading to extra coaching (environment reacts to child's genetically influenced behaviour). Active: At 12, Arjun *seeks out* a local baul singer, practices daily, joins a choir (child actively selects niche matching genetic propensity). A wrong answer that swaps evocative and active (e.g., \"Arjun choosing music class is evocative\") shows failure to grasp agency direction: evocative = environment responds to child; active = child selects environment. This distinction is critical for board case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "A study finds that children with the DRD4 7-repeat allele (associated with novelty-seeking) show higher ADHD symptoms *only* when raised in chaotic, low-supervision homes. In structured, supportive homes, they show *lower* ADHD symptoms than children without the allele. Identify the gene-environment interaction model this illustrates and explain why it is NOT a simple diathesis-stress model.",
+     "a": "This illustrates **differential susceptibility** (or vantage sensitivity): the same genetic variant confers *both* risk in adverse environments *and* benefit in supportive environments — the allele makes the child \"more plastic\" or responsive to environmental quality, for better or worse. Diathesis-stress predicts vulnerability *only* under stress (flat line in good environments); here the allele group *outperforms* in good environments. A wrong answer calling it \"diathesis-stress\" misses the crossover interaction pattern — the student hasn't internalized that some genotypes are \"orchids\" (thrive in good, wilt in bad) vs. \"dandelions\" (stable across environments). This is a frequent JEE/NEET trap in psychology/biology crossover questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare canalization and plasticity as concepts describing gene-environment interplay. Why is high canalization adaptive for some traits (e.g., neural tube closure) but maladaptive for others (e.g., immune response) in the Indian context?",
+     "a": "Canalization = buffering of development against environmental/genetic perturbations, producing a narrow, robust phenotypic outcome (e.g., neural tube closure — failure causes spina bifida, so strong canalization is adaptive). Plasticity = capacity for a single genotype to produce different phenotypes across environments (e.g., immune system — must adapt to local pathogen load, nutrition, microbiome). In India's diverse disease ecology (malaria, TB, dengue, parasitic worms), a highly canalized immune response would be maladaptive because it couldn't tailor defences to region-specific threats. A wrong answer stating \"plasticity is always better\" ignores evolutionary trade-offs: canalization protects essential, invariant developmental processes; plasticity is costly (energy, time, error risk) and only favoured where environments are predictably variable. Students often miss this cost-benefit logic.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Since heritability of IQ in Indian middle-class urban samples is 0.75, improving schools will not raise IQ scores of children from low-SES backgrounds.\" Use the concepts of heritability, gene-environment interaction, and the Wilson Effect.",
+     "a": "The statement commits three errors: (1) Heritability is a *population statistic* (proportion of phenotypic variance attributable to genetic variance *in that specific population at that time*), not a fixed property of a trait; it cannot be extrapolated across populations with different environmental variance. (2) High heritability in middle-class samples reflects *restricted environmental range* (most children have adequate nutrition, schooling, stimulation) — genetic differences account for remaining variance. In low-SES groups, environmental variance is huge (malnutrition, poor schools, toxins), so heritability drops and intervention effects are larger. (3) Wilson Effect: heritability of IQ *increases* with age as individuals actively select environments matching their genotypes (active rGE); early intervention can shift the developmental trajectory before this amplification. A wrong answer accepting the statement reveals fundamental misunderstanding of heritability as \"genetic determinism\" — a classic board/NEET misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical community-based intervention in a tribal block of Jharkhand to maximize cognitive development of children aged 3–6, explicitly leveraging genotype-environment correlation and interaction principles. Specify: (a) how you would identify children with high plasticity alleles (ethically), (b) what environmental enrichments you would provide, (c) how you would structure active gene-environment correlation opportunities.",
+     "a": "(a) Ethical identification: *Do not genotype children*. Instead, use observable proxies: high responsiveness to stimulation (evocative rGE), rapid skill acquisition in play, teacher/anganwadi worker ratings of curiosity — these behavioural markers correlate with plasticity alleles without labelling. (b) Enrichments: (i) protein-rich supplementary feeding (eggs, sattu) to remove nutritional constraint on genetic potential; (ii) bilingual storytelling (Santhali + Hindi) to leverage sensitive period for language; (iii) guided play with loose parts (sticks, clay, fabric) for executive function; (iv) responsive caregiving training for mothers (serve-and-return). (c) Active rGE structure: \"Interest corners\" in anganwadi — music, construction, nature, pretend play — where children *choose* daily; mentors notice emerging interests and provide progressively complex materials (scaffolding). A poor answer proposing genetic screening violates ethics and misses that *behavioural observation* is the practical, scalable proxy for differential susceptibility in low-resource settings.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

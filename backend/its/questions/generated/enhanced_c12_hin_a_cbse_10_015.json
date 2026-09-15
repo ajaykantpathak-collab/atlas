@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_10_015",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_10_015",
+   "title": "c12_hin_a_cbse_10_015",
+   "questions": [
+    {
+     "q": "What is the primary purpose of a 'discussion point' in a Class 12 Hindi speaking-listening activity based on a prose chapter?",
+     "a": "A discussion point is a focused, text-grounded observation or question that invites peers to analyze a specific aspect of the chapter (theme, character, style) using evidence. A wrong answer like \"sharing personal feelings about the story\" reveals the student confuses discussion with informal chat and misses the academic requirement of textual anchoring.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why simply retelling the plot of \"जयशंकर प्रसाद\" does not constitute a valid discussion point for this activity.",
+     "a": "Retelling plot only summarizes events; a discussion point must offer an interpretive angle (e.g., \"The father's shift from Sanskrit to Hindi reflects Shukla's own literary journey\") that opens analysis. If a student says \"the chapter is about Shukla's life,\" they misunderstand that discussion requires a debatable, evidence-based claim, not a factual summary.",
+     "self_check": true
+    },
+    {
+     "q": "Given the excerpt: \"पिताजी को हिन्दी कवियों की कविताएँ पढ़कर सुनाने में बड़ा आनन्द आता था\" (p. 61), construct a discussion point using the PEEL structure (Point, Evidence, Explanation, Link) that could start a group conversation about the father's role.",
+     "a": "Point: The father's enjoyment of reading Hindi poetry aloud reveals his role in popularizing Hindi literature at home. Evidence: The line \"पिताजी को हिन्दी कवियों की कविताएँ पढ़कर सुनाने में बड़ा आनन्द आता था\". Explanation: This shows he actively transmitted literary culture, not just passively admired it. Link: This domestic habit mirrors Shukla's later mission to establish Hindi as a literary language. A wrong answer that only quotes the line without Explanation/Link shows the student cannot move from citation to analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two discussion points: (A) \"Shukla's father was strict.\" (B) \"Shukla's father's strictness about language ('उर्दू न लिखकर हिन्दी लिखो') reflects the larger Hindi-Urdu debate of that era.\" Which is stronger for a Class 12 discussion and why?",
+     "a": "Point B is stronger because it connects a character trait to a historical-literary context (Hindi-Urdu debate) using a specific textual detail, enabling multi-layered analysis. Point A is a vague character judgment without textual hook or broader significance. Choosing A reveals the student cannot distinguish between superficial characterization and thematic discussion.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student response during a discussion: \"I think the 'fuLlansg' group was just friends having fun.\" Is this a valid contribution? Justify using the chapter's portrayal of the group's literary activities.",
+     "a": "No, it is not valid. The chapter describes 'fuLlansg' as a serious literary circle where members wrote, critiqued, and adopted pen names (p. 63: \"फुल्लांसग... लेखन-आलोचना... उपनाम\"). Reducing it to \"friends having fun\" ignores textual evidence of its intellectual purpose. A student who defends this response shows inability to differentiate between social gathering and literary movement as depicted in the text.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new discussion point for a group that has already covered the father's influence and the 'fuLlansg' group. Your point must introduce a fresh angle from the chapter (e.g., Shukla's own writing style, the Kashi environment, or the Hindi language movement) and include a textual anchor.",
+     "a": "Example: \"Shukla's prose style — mixing Sanskritized vocabulary ('विराट्', 'लाघव') with colloquial rhythms — mirrors the linguistic synthesis he advocates. Evidence: The sentence 'हिन्दी भाषा की सेवा ही मेरे जीवन का व्रत बन गया' (p. 64) uses high register but flows naturally.\" A poor answer would repeat earlier themes or offer a point without a textual anchor, showing the student cannot identify unexplored textual threads.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

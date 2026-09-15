@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_07_005",
+   "title": "c12_bio_cbse_07_005",
+   "questions": [
+    {
+     "q": "A population of 500 flowering plants shows 320 red-flowered (dominant) and 180 white-flowered (recessive) individuals. Write the Hardy-Weinberg equation for genotype frequencies and identify which term corresponds to the white-flowered plants.",
+     "a": "The equation is p² + 2pq + q² = 1, where p = frequency of dominant allele (R), q = frequency of recessive allele (r). White-flowered plants are homozygous recessive (rr), so they correspond to the q² term. A wrong answer (e.g., saying white plants are 2pq or p) reveals confusion between genotype and phenotype or misunderstanding that only homozygous recessives show the recessive phenotype.",
+     "self_check": true
+    },
+    {
+     "q": "In a population at Hardy-Weinberg equilibrium, the frequency of allele A is 0.7. A student calculates the frequency of heterozygotes as 0.21. Explain why this is incorrect and give the correct value.",
+     "a": "The student likely computed pq (0.7 × 0.3 = 0.21) instead of 2pq. The heterozygote frequency is 2pq = 2 × 0.7 × 0.3 = 0.42. This error shows the student recalls the allele frequencies but forgets the factor of 2 arising from the two ways to form a heterozygote (A from father + a from mother, or vice versa).",
+     "self_check": true
+    },
+    {
+     "q": "A small island population of 50 birds is founded by 10 migrants from a mainland where allele frequency p = 0.6. After 10 generations, the island allele frequency is 0.85. Which Hardy-Weinberg condition was violated, and what is the name of this evolutionary force?",
+     "a": "The \"large population size\" (no genetic drift) condition was violated. The evolutionary force is genetic drift — specifically the founder effect followed by continued drift in a small population. A wrong answer citing \"natural selection\" or \"mutation\" shows inability to connect small population size and random allele-frequency shifts to drift.",
+     "self_check": true
+    },
+    {
+     "q": "In a human population, the genotype frequencies for a locus are: AA = 0.36, Aa = 0.48, aa = 0.16. A student claims the population is in Hardy-Weinberg equilibrium because p² = 0.36 and q² = 0.16. Evaluate this claim.",
+     "a": "The claim is correct but the reasoning is incomplete. The student must also verify that 2pq = 0.48 (which it does: p = √0.36 = 0.6, q = √0.16 = 0.4, 2pq = 2×0.6×0.4 = 0.48). Equilibrium requires all three genotype frequencies to match p², 2pq, q² simultaneously. A student who only checks p² and q² misses the critical heterozygote test.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher studies a locus with three alleles (A₁, A₂, A₃) in a population. She writes the equilibrium equation as p² + 2pq + q² = 1. Identify the error and write the correct general form for three alleles.",
+     "a": "The equation p² + 2pq + q² = 1 only applies to two alleles. For three alleles with frequencies p, q, r (p+q+r=1), the genotype frequencies are p² + q² + r² + 2pq + 2pr + 2qr = 1. The error shows the student has memorized the two-allele formula without understanding its derivation from (p+q)² = 1.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom activity using coloured beads (two colours) to simulate one generation of random mating in a population of 20 diploid individuals. State how you would calculate the expected genotype frequencies under Hardy-Weinberg and how you would test if the simulated population deviates due to chance.",
+     "a": "Put 40 beads (alleles) in a bag with frequencies p and q (e.g., 24 red, 16 blue → p=0.6, q=0.4). Randomly draw pairs (without replacement) to form 20 genotypes. Count observed RR, Rr, rr. Expected: p²=0.36 (7.2), 2pq=0.48 (9.6), q²=0.16 (3.2). Use chi-square: Σ(O-E)²/E with df=1. If χ² > 3.84 (p<0.05), deviation is significant. A poor answer omits the chi-square test or uses the wrong degrees of freedom (df = number of genotypes - number of alleles = 3-2=1).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

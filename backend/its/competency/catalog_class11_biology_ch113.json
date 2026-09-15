@@ -1,0 +1,492 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 113,
+ "chapter_title": "Plant Growth and Development",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebo113.txt",
+ "concepts": [
+  {
+   "id": "kebo.13.1.1",
+   "title": "Open Form and Indeterminate Nature of Plant Growth",
+   "section": "13.1.1",
+   "definition": "Plant growth is an ongoing, unrestricted expansion facilitated by actively dividing meristematic tissues that continuously produce new cells along plant axes.",
+   "formula": "none",
+   "key_idea": "Persistent activity of apical and lateral meristems allows indefinite elongation and secondary thickening in plants.",
+   "textbook_ref": "kebo113.txt lines 30-65",
+   "question_patterns": [
+    "why is plant growth considered indeterminate and open",
+    "distinguish between primary and secondary growth in vegetative organs",
+    "explain how meristems ensure continuous addition of new cells",
+    "what gives plants the unique ability for unlimited growth",
+    "describe the role of apical versus lateral meristems"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify meristem location and type",
+     "explain": "Apical meristems cause primary vertical elongation, whereas lateral meristems cause secondary thickening in girth."
+    },
+    {
+     "step": 2,
+     "action": "relate meristem function to open growth",
+     "explain": "Meristematic cells self-perpetuate while generating daughter cells that mature into body tissues, maintaining an open growth dynamic."
+    }
+   ]
+  },
+  {
+   "id": "kebo.13.1.3",
+   "title": "Phases of Cellular Growth",
+   "section": "13.1.3",
+   "definition": "The chronological progression through which newly formed plant cells expand and specialize, moving through division, enlargement, and structural maturation.",
+   "formula": "none",
+   "key_idea": "Growing organ tips contain distinct spatial zones: division at the apex, elongation behind it, and maturation furthest back.",
+   "textbook_ref": "kebo113.txt lines 85-115",
+   "question_patterns": [
+    "describe the three distinct phases observed in growing plant roots",
+    "what cellular characteristics distinguish the elongation zone from the meristematic zone",
+    "how does cell wall deposition change during the maturation phase",
+    "identify the region where vacuolation and cell enlargement peak",
+    "compare the protoplasmic features across the zones of growth"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "delineate zones from root apex proximally",
+     "explain": "The meristematic zone is located at the apex, followed by the zone of elongation, and then the zone of maturation."
+    },
+    {
+     "step": 2,
+     "action": "match cytologic features to each zone",
+     "explain": "Meristematic cells have dense protoplasm and thin walls; elongation cells show enlargement and vacuolation; maturation cells attain final wall thickening and functional forms."
+    }
+   ]
+  },
+  {
+   "id": "kebo.13.1.4.1",
+   "title": "Arithmetic Growth Rate Calculation",
+   "section": "13.1.4",
+   "definition": "A linear increase in dimensions over time occurring when only one mitotic daughter cell continues division while the other undergoes differentiation.",
+   "formula": "L_t = L_0 + (r * t)",
+   "key_idea": "A steady addition of constant length per unit time yields a straight line on an organ length versus time graph.",
+   "textbook_ref": "kebo113.txt lines 125-155",
+   "question_patterns": [
+    "calculate the final length of a root undergoing arithmetic elongation",
+    "find the total length after a given duration of constant linear growth",
+    "determine the elongation rate from initial and final root lengths",
+    "what is the final organ size after arithmetic growth",
+    "compute the length of a plant organ using the arithmetic growth formula"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate the total elongation achieved during the time interval",
+     "explain": "Multiply the constant growth rate by elapsed time.",
+     "compute": "added_length = rate * time"
+    },
+    {
+     "step": 2,
+     "action": "sum the initial length and added elongation",
+     "explain": "Add the growth increase to the starting length to find final length.",
+     "compute": "final_length = initial_length + added_length"
+    }
+   ]
+  },
+  {
+   "id": "kebo.13.1.4.2",
+   "title": "Absolute and Relative Growth Rates",
+   "section": "13.1.4",
+   "definition": "Absolute growth measures total net dimensional increase per unit time, while relative growth expresses that increase per unit of starting dimension.",
+   "formula": "absolute_increase = final_size - initial_size",
+   "key_idea": "Absolute growth reflects total magnitude gained, whereas relative rate accounts for initial structural scale.",
+   "textbook_ref": "kebo113.txt lines 175-205",
+   "question_patterns": [
+    "calculate the absolute growth of an expanding leaf",
+    "find the net increase in leaf surface area over a given period",
+    "determine which organ shows higher relative growth rate",
+    "how much total expansion occurred between initial and final measurements",
+    "compute the absolute increase in organ dimensions"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract initial parameter from final parameter",
+     "explain": "Absolute increase is the difference between final and initial size values.",
+     "compute": "absolute_increase = final_size - initial_size"
+    }
+   ]
+  },
+  {
+   "id": "kebo.13.2.1",
+   "title": "Differentiation, Dedifferentiation, and Redifferentiation",
+   "section": "13.2",
+   "definition": "The cycle by which dividing cells mature into specialized tissues, revert to an active meristematic state under specific signals, and subsequently mature into new functional structures.",
+   "formula": "none",
+   "key_idea": "Plant cells retain developmental flexibility, allowing specialized parenchyma to form cambium and later produce secondary vascular elements.",
+   "textbook_ref": "kebo113.txt lines 220-260",
+   "question_patterns": [
+    "distinguish between dedifferentiation and redifferentiation with examples",
+    "how does a parenchyma cell form interfascicular cambium",
+    "what changes occur in a tracheary element during primary differentiation",
+    "explain the concept of open differentiation in root systems",
+    "describe how vascular cambium derivatives achieve redifferentiation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace cell trajectory from meristem to mature element",
+     "explain": "Initial specialization of meristematic derivatives involves structural adaptation like wall lignification and protoplasm loss."
+    },
+    {
+     "step": 2,
+     "action": "identify reversion to division and subsequent refunctionalization",
+     "explain": "Differentiated living cells resume mitotic capability during dedifferentiation, and their progeny later adopt new permanent structural roles in redifferentiation."
+    }
+   ]
+  },
+  {
+   "id": "kebo.13.3.1",
+   "title": "Development and Developmental Plasticity",
+   "section": "13.3",
+   "definition": "The overarching life cycle changes combining growth and differentiation, often showing phenotypic adaptability in leaf morphology across life stages or habitats.",
+   "formula": "none",
+   "key_idea": "Plasticity enables plants to produce distinct organ morphologies such as terrestrial versus aquatic heterophylly in response to environmental conditions.",
+   "textbook_ref": "kebo113.txt lines 265-295",
+   "question_patterns": [
+    "what is plasticity in plants and how is it demonstrated by heterophylly",
+    "compare environmental heterophylly in buttercup with developmental heterophylly in coriander",
+    "how do intrinsic and extrinsic factors govern plant development",
+    "explain the sequential steps of plant cell development from division to senescence",
+    "describe the morphological differences between juvenile and mature leaves in larkspur"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define plasticity in terms of anatomical pathways",
+     "explain": "Plants alter morphological structure in response to habitat pressures or chronological maturation stages."
+    },
+    {
+     "step": 2,
+     "action": "classify heterophylly examples",
+     "explain": "Cotton and larkspur exhibit juvenile versus adult forms, whereas buttercup exhibits submerged versus aerial leaf dimorphism."
+    }
+   ]
+  },
+  {
+   "id": "kebo.13.4.1",
+   "title": "Auxins: Discovery, Transport, and Physiological Roles",
+   "section": "13.4.3.1",
+   "definition": "Indole-based phytohormones synthesized in expanding apices that regulate apical dominance, stem adventitious rooting, and cell elongation.",
+   "formula": "none",
+   "key_idea": "Auxins suppress lateral shoot emergence to maintain apical polarity, promote root initiation on cuttings, and act as selective synthetic herbicides.",
+   "textbook_ref": "kebo113.txt lines 330-390",
+   "question_patterns": [
+    "explain the mechanism and applications of apical dominance by auxins",
+    "how does decapitation promote lateral shoot growth in tea pruning",
+    "what is the agricultural significance of synthetic auxins like 2,4-D",
+    "describe how auxin initiates root development in stem cuttings",
+    "how was auxin discovered through phototropic coleoptile curvature"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify site of auxin synthesis and migration",
+     "explain": "Auxins are produced at shoot and root tips and transported basipetally to target tissues."
+    },
+    {
+     "step": 2,
+     "action": "evaluate physiological effects and agricultural practices",
+     "explain": "Auxin maintains apical dominance, stimulates parthenocarpy in tomatoes, initiates adventitious roots on cuttings, and eliminates dicot weeds via synthetic analogs."
+    }
+   ]
+  },
+  {
+   "id": "kebo.13.4.2",
+   "title": "Gibberellins: Bolting, Stem Elongation, and Industrial Applications",
+   "section": "13.4.3.2",
+   "definition": "Terpene-derived acidic hormones that drive internodal axis lengthening, induce bolting in rosette species, and accelerate seed germination enzymes.",
+   "formula": "none",
+   "key_idea": "Gibberellins overcome genetic dwarfism, expand grape pedicels, enhance sugarcane biomass, and accelerate malting during brewing.",
+   "textbook_ref": "kebo113.txt lines 395-430",
+   "question_patterns": [
+    "how do gibberellins increase sugarcane crop yield per acre",
+    "what is bolting and which plant growth regulator promotes it in cabbage",
+    "explain the commercial use of GA3 in the brewing industry",
+    "how does gibberellic acid improve grape cluster morphology and apple shape",
+    "describe the role of gibberellins in hastening conifer maturation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify primary physiological mechanism of gibberellins",
+     "explain": "Gibberellins stimulate cellular elongation and division across internodes, promoting axial extension."
+    },
+    {
+     "step": 2,
+     "action": "list agricultural and commercial deployments",
+     "explain": "Applied to lengthen grape stalks, enhance sugarcane stem sucrose accumulation, induce rosette bolting, and trigger amylase synthesis in malting."
+    }
+   ]
+  },
+  {
+   "id": "kebo.13.4.3",
+   "title": "Cytokinins: Cell Division, Nutrient Mobilization, and Senescence Delay",
+   "section": "13.4.3.3",
+   "definition": "Purine-derived phytohormones synthesized in actively dividing zones that stimulate cytokinesis, foster lateral bud outgrowth, and postpone foliar senescence.",
+   "formula": "none",
+   "key_idea": "Cytokinins counteract auxin-mediated apical dominance and preserve chlorophyll content via mobilized nutrient delivery.",
+   "textbook_ref": "kebo113.txt lines 435-460",
+   "question_patterns": [
+    "how do cytokinins overcome apical dominance in shoots",
+    "what is the function of zeatin and where is it naturally synthesized",
+    "explain how cytokinins delay senescence in excised leaves",
+    "describe the requirement of cytokinins in tissue culture organogenesis",
+    "where are natural cytokinins produced within the plant body"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify sites of natural synthesis",
+     "explain": "Cytokinins are produced in areas of intense mitosis including root tips, young shoot buds, and developing fruits."
+    },
+    {
+     "step": 2,
+     "action": "link action to nutrient dynamics and shoot development",
+     "explain": "They promote chloroplast differentiation, initiate lateral buds, and retard leaf aging by directing solute translocation."
+    }
+   ]
+  },
+  {
+   "id": "kebo.13.4.4",
+   "title": "Ethylene: Climacteric Fruit Ripening and Abscission",
+   "section": "13.4.3.4",
+   "definition": "A volatile hydrocarbon hormone released by aging and ripening tissues that drives respiratory climacteric, organ shedding, and seedling apical hook development.",
+   "formula": "none",
+   "key_idea": "Ethylene promotes rapid fruit maturation, stimulates root hair emergence, and induces petiole elongation in submerged aquatic crops.",
+   "textbook_ref": "kebo113.txt lines 465-500",
+   "question_patterns": [
+    "what is respiratory climacteric during fruit ripening and which hormone causes it",
+    "how does ethephon function in commercial agriculture",
+    "describe the effect of ethylene on deepwater rice internodes",
+    "how does ethylene affect seed dormancy and potato sprouting",
+    "explain the role of ethylene in promoting female flower formation in cucumbers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify ethylene production triggers and physical form",
+     "explain": "Ethylene is a gaseous phytohormone synthesized at high rates by senescing tissues and ripening carpels."
+    },
+    {
+     "step": 2,
+     "action": "analyze physiological responses across organs",
+     "explain": "Ethylene triggers a surge in cellular respiration during ripening, breaks seed and bud dormancy, stimulates root hair growth, and promotes leaf and flower abscission."
+    }
+   ]
+  },
+  {
+   "id": "kebo.13.4.5",
+   "title": "Abscisic Acid: Stress Adaptation and Dormancy Regulation",
+   "section": "13.4.3.5",
+   "definition": "A sesquiterpenoid growth inhibitor that induces stomatal closure under moisture stress and enforces seed dormancy against premature germination.",
+   "formula": "none",
+   "key_idea": "Acting primarily as a stress hormone and gibberellin antagonist, abscisic acid preserves embryo viability under adverse environmental regimes.",
+   "textbook_ref": "kebo113.txt lines 505-535",
+   "question_patterns": [
+    "why is abscisic acid called the plant stress hormone",
+    "how does abscisic acid promote stomatal closure during water deficit",
+    "explain the antagonistic relationship between abscisic acid and gibberellins",
+    "what role does abscisic acid play in seed desiccation tolerance and dormancy",
+    "describe how abscisic acid inhibits metabolic growth activities"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "relate ABA accumulation to environmental stress",
+     "explain": "Under water limitation, ABA concentration rises rapidly, triggering guard cell turgor loss and stomatal closure to minimize transpiration."
+    },
+    {
+     "step": 2,
+     "action": "describe regulatory role in seed physiology",
+     "explain": "ABA blocks viviparous germination, maintains embryo quiescence, and enables seed tissues to endure dehydration until favorable conditions return."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebo113.txt lines 130-155",
+   "concept": "kebo.13.1.4.1",
+   "question_type": "compute",
+   "question_pattern": "A root apical axis has an initial length of {initial_length} mm and elongates at a steady rate of {rate} mm per hour. Calculate the final length of the root after {time} hours.",
+   "extracted_variables": {
+    "initial_length": 15,
+    "rate": 3,
+    "time": 8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate the total elongation achieved during the time interval",
+     "explain": "Multiply the constant growth rate by elapsed time.",
+     "compute": "added_length = rate * time"
+    },
+    {
+     "step": 2,
+     "action": "sum the initial length and added elongation",
+     "explain": "Add the growth increase to the starting length to find final length.",
+     "compute": "final_length = initial_length + added_length"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kebo113.txt lines 130-155",
+   "concept": "kebo.13.1.4.1",
+   "question_type": "compute",
+   "question_pattern": "An elongating seedling radicle starts at {initial_length} cm and grows at an arithmetic rate of {rate} cm per day. What is its total length after {time} days?",
+   "extracted_variables": {
+    "initial_length": 5,
+    "rate": 2,
+    "time": 7
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate the total elongation achieved during the time interval",
+     "explain": "Multiply the constant growth rate by elapsed time.",
+     "compute": "added_length = rate * time"
+    },
+    {
+     "step": 2,
+     "action": "sum the initial length and added elongation",
+     "explain": "Add the growth increase to the starting length to find final length.",
+     "compute": "final_length = initial_length + added_length"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "kebo113.txt lines 175-205",
+   "concept": "kebo.13.1.4.2",
+   "question_type": "compute",
+   "question_pattern": "A young dorsiventral leaf expands from an initial surface area of {initial_size} cm2 to a final surface area of {final_size} cm2. Find the absolute growth in leaf area.",
+   "extracted_variables": {
+    "initial_size": 10,
+    "final_size": 15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract initial parameter from final parameter",
+     "explain": "Absolute increase is the difference between final and initial size values.",
+     "compute": "absolute_increase = final_size - initial_size"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "kebo113.txt lines 175-205",
+   "concept": "kebo.13.1.4.2",
+   "question_type": "compute",
+   "question_pattern": "A mature leaf of initial area {initial_size} cm2 expands to {final_size} cm2 over one week. Calculate the absolute growth in surface area.",
+   "extracted_variables": {
+    "initial_size": 50,
+    "final_size": 55
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract initial parameter from final parameter",
+     "explain": "Absolute increase is the difference between final and initial size values.",
+     "compute": "absolute_increase = final_size - initial_size"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex13.1",
+   "source_ref": "kebo113.txt lines 570-575",
+   "questions": [
+    "Define growth, differentiation, development, dedifferentiation, redifferentiation, determinate growth, meristem and growth rate."
+   ]
+  },
+  {
+   "id": "ex13.2",
+   "source_ref": "kebo113.txt lines 576-578",
+   "questions": [
+    "Why is not any one parameter good enough to demonstrate growth throughout the life of a flowering plant?"
+   ]
+  },
+  {
+   "id": "ex13.3",
+   "source_ref": "kebo113.txt lines 579-585",
+   "questions": [
+    "Describe briefly arithmetic growth, geometric growth, sigmoid growth curve, and absolute and relative growth rates."
+   ]
+  },
+  {
+   "id": "ex13.4",
+   "source_ref": "kebo113.txt lines 586-590",
+   "questions": [
+    "List five main groups of natural plant growth regulators. Write a note on discovery, physiological functions and agricultural/horticultural applications of any one of them."
+   ]
+  },
+  {
+   "id": "ex13.5",
+   "source_ref": "kebo113.txt lines 591-592",
+   "questions": [
+    "Why is abscisic acid also known as stress hormone?"
+   ]
+  },
+  {
+   "id": "ex13.6",
+   "source_ref": "kebo113.txt lines 593-594",
+   "questions": [
+    "Both growth and differentiation in higher plants are open. Comment."
+   ]
+  },
+  {
+   "id": "ex13.7",
+   "source_ref": "kebo113.txt lines 595-597",
+   "questions": [
+    "Both a short day plant and a long day plant can flower simultaneously in a given place. Explain."
+   ]
+  },
+  {
+   "id": "ex13.8",
+   "source_ref": "kebo113.txt lines 598-605",
+   "questions": [
+    "Which one of the plant growth regulators would you use if you are asked to induce rooting in a twig, quickly ripen a fruit, delay leaf senescence, induce growth in axillary buds, bolt a rosette plant, and induce immediate stomatal closure in leaves?"
+   ]
+  },
+  {
+   "id": "ex13.9",
+   "source_ref": "kebo113.txt lines 606-607",
+   "questions": [
+    "Would a defoliated plant respond to photoperiodic cycle? Why?"
+   ]
+  },
+  {
+   "id": "ex13.10",
+   "source_ref": "kebo113.txt lines 608-615",
+   "questions": [
+    "What would be expected to happen if GA3 is applied to rice seedlings, dividing cells stop differentiating, a rotten fruit gets mixed with unripe fruits, and you forget to add cytokinin to the culture medium?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

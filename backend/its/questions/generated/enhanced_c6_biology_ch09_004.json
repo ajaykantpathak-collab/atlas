@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_biology_ch09_004",
+ "concepts": [
+  {
+   "id": "enh:c6_biology_ch09_004",
+   "title": "c6_biology_ch09_004",
+   "questions": [
+    {
+     "q": "What is the primary function of the diaphragm during breathing?",
+     "a": "The diaphragm moves downward to enlarge the chest cavity, allowing air to be drawn into the lungs. A student who says \"it filters the air\" confuses the diaphragm with the nose or trachea, showing they do not understand the mechanical function of the muscle.",
+     "self_check": true
+    },
+    {
+     "q": "If your chest cavity did not change size, would you be able to breathe? Why or why not?",
+     "a": "No, because breathing relies on changing the volume of the chest cavity to create pressure differences that move air in and out. A student answering \"yes\" fails to grasp that breathing is a mechanical process driven by space changes, not just an automatic act of the lungs themselves.",
+     "self_check": true
+    },
+    {
+     "q": "When you inhale, the diaphragm moves downward. What do you think happens to the diaphragm when you exhale?",
+     "a": "It moves upward, pushing against the lungs to help squeeze the air out. A student who says it \"stays the same\" or \"moves down again\" does not understand that breathing is a cyclical, back-and-forth mechanical movement.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the chest movement of a person who is resting versus someone who has just finished a race. Why does the difference occur?",
+     "a": "The chest moves faster and deeper after a race because the body needs more oxygen to produce energy quickly. A student who misses the link between physical activity and oxygen demand has not understood that breathing is a response to the body's cellular energy needs.",
+     "self_check": true
+    },
+    {
+     "q": "Is breathing the same thing as cellular respiration? Justify your answer.",
+     "a": "No, breathing is the mechanical process of moving air, while cellular respiration is the chemical process inside cells that releases energy from food. A student who says they are the same ignores the difference between a \"physical pump\" (breathing) and \"energy production\" (respiration).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple model to show how the diaphragm works using a plastic bottle, a balloon, and a rubber sheet. What would happen if the rubber sheet was torn?",
+     "a": "The model would represent the chest cavity (bottle) and the diaphragm (rubber sheet); if the sheet tears, the \"vacuum\" would be broken, and the balloon would not inflate. A student who cannot explain the loss of pressure shows they don't understand the physical mechanism of inhalation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

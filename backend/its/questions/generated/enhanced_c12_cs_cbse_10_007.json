@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_10_007",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_10_007",
+   "title": "c12_cs_cbse_10_007",
+   "questions": [
+    {
+     "q": "What is the exact file mode string used to open a text file for appending only (no reading), and where is the file pointer positioned immediately after opening?",
+     "a": "The mode string is `'a'`. The file pointer is positioned at the end of the file (after the last character). A wrong answer like `'w'` or `'a+'` reveals confusion between write/truncate vs append, or between append-only vs read-append modes. Students who say \"pointer at beginning\" misunderstand the fundamental guarantee of append mode.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why using `open('log.txt', 'w')` inside a loop that runs daily would destroy previous log entries, while `open('log.txt', 'a')` preserves them. Use the terms \"truncate\" and \"file pointer\" in your explanation.",
+     "a": "Mode `'w'` truncates (empties) the file to zero length at open time and places the pointer at the start; every loop iteration erases prior content. Mode `'a'` does not truncate — it leaves existing bytes intact and positions the pointer at the end, so each `write()` adds after the last entry. A wrong answer that claims `'w'` \"overwrites from the beginning but keeps old data if you seek\" shows a dangerous misconception: `'w'` always truncates, `seek()` cannot recover deleted data.",
+     "self_check": true
+    },
+    {
+     "q": "Write a complete Python snippet that appends three lines — `\"2024-01-15, Lunch, 250\"`, `\"2024-01-15, Bus, 30\"`, `\"2024-01-15, Snack, 50\"` — to `expenses.txt`, one line per `write()` call, using the `with` statement. Ensure each entry ends with a newline.",
+     "a": "```python\nwith open('expenses.txt', 'a') as f:\n    f.write('2024-01-15, Lunch, 250\\n')\n    f.write('2024-01-15, Bus, 30\\n')\n    f.write('2024-01-15, Snack, 50\\n')\n```\nSteps: (1) open in `'a'` mode, (2) call `write()` with explicit `\\n`, (3) `with` auto-closes. A wrong answer using `writelines()` without newlines, or forgetting `\\n`, produces concatenated entries like `Lunch, 250Bus, 30` — a frequent board exam error. Another error: using `'w'` mode inside the loop.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the behavior of `seek(0)` in a file opened with `'r+'` mode versus `'a'` mode. Can you successfully read the first line after `seek(0)` in each mode? Justify your answer.",
+     "a": "In `'r+'` mode, `seek(0)` moves the pointer to the start; subsequent `readline()` reads the first line — fully supported. In `'a'` mode, `seek(0)` may appear to move the pointer, but the next `write()` **ignores** the pointer and jumps to the end; however, `read()` after `seek(0)` **does** read from the start in `'a+'` mode. But in pure `'a'` (no read), reading is not allowed. A wrong answer claiming `seek()` works identically in both modes misses the critical restriction: append mode forces writes to the end regardless of pointer position — a OS-level guarantee for atomic appends.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following code to append a timestamp to `access.log` every time a function `log_access()` is called. Evaluate whether this code is correct for a high-concurrency web server (multiple processes calling `log_access()` simultaneously). If not, explain the risk and suggest a fix.\n```python\ndef log_access(user):\n    with open('access.log', 'a') as f:\n        f.write(f'{user} logged in at {datetime.now()}\\n')\n```",
+     "a": "The code is **correct and safe** for multi-process concurrency. In append mode (`'a'`), the OS guarantees that each `write()` is atomic with respect to pointer positioning: the kernel moves the pointer to the current end-of-file and writes the data as a single uninterruptible operation (for writes ≤ PIPE_BUF, typically 512 bytes). No two processes can interleave their writes. A wrong answer claiming \"race condition — use locks\" shows misunderstanding of OS-level append semantics. The fix is not needed; the `with` block ensures proper close/flush.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-project scenario where a student must choose between `'w'`, `'a'`, and `'a+'` modes for three different files in a school library system: (1) `daily_issue_log.txt` — records each book issue transaction, (2) `current_borrowers.txt` — overwritten daily with the list of students who currently have books, (3) `fine_calculator.py` — needs to read existing fines from `fines.txt`, compute new fines, and append updated records. Specify the mode for each and justify.",
+     "a": "(1) `daily_issue_log.txt` → `'a'`: transactions only accumulate, never erased. (2) `current_borrowers.txt` → `'w'`: daily snapshot replaces previous day's list entirely. (3) `fines.txt` in `fine_calculator.py` → `'a+'`: must read existing fines (seek to start, read), then append updated records. A poor answer uses `'w'` for the log (loses history) or `'a'` for fines (cannot read). The key is matching mode to data lifecycle: append-only log, replaceable snapshot, read-modify-append.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

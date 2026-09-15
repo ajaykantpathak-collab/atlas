@@ -1,0 +1,324 @@
+{
+ "class": 11,
+ "subject": "economics",
+ "chapter": 6,
+ "chapter_title": "Correlation",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kest106.txt",
+ "concepts": [
+  {
+   "id": "c11eco.7.1",
+   "title": "Features of Perfect Competition",
+   "section": "Perfect Competition",
+   "definition": "Perfect competition is a market structure in which a large number of buyers and sellers trade a homogeneous product, with perfect information and free entry and exit, so that no single participant can influence the market price.",
+   "formula": "",
+   "key_idea": "Under perfect competition each firm is a price taker; the market price is determined by industry demand and supply and the individual firm can sell any quantity at that price.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "List the key features of a perfectly competitive market.",
+    "Explain why a firm under perfect competition is called a price taker.",
+    "Distinguish between homogeneous product and differentiated product with reference to perfect competition.",
+    "How does free entry and exit affect long-run profit under perfect competition?",
+    "Why is the demand curve facing a perfectly competitive firm perfectly elastic?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the market structure described in the question.",
+     "explain": "Confirm that the question refers to perfect competition by checking for a large number of buyers and sellers and a homogeneous product."
+    },
+    {
+     "step": 2,
+     "action": "Match the stated conditions against the defining features.",
+     "explain": "Check each feature: many buyers and sellers, homogeneous product, free entry and exit, perfect knowledge, and perfect mobility of factors."
+    },
+    {
+     "step": 3,
+     "action": "Conclude whether the firm is a price taker.",
+     "explain": "Since no individual buyer or seller can influence the price, the firm accepts the market price as given and faces a perfectly elastic demand curve."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A market has thousands of wheat farmers selling identical grade wheat and thousands of buyers with full knowledge of prices. Is this a perfectly competitive market? Justify.",
+     "solution": "The market has many sellers and buyers, the product (wheat) is homogeneous, and information is freely available. These satisfy the core features of perfect competition, so each farmer is a price taker.",
+     "answer": "Yes, the wheat market is perfectly competitive."
+    },
+    {
+     "question": "Why does a perfectly competitive firm face a horizontal (perfectly elastic) demand curve?",
+     "solution": "Because the firm can sell any quantity at the prevailing market price but cannot charge a higher price (buyers would switch to identical sellers), the demand curve is horizontal at the market price.",
+     "answer": "The firm's demand curve is perfectly elastic at the market price."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State any five essential features of perfect competition.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the implication of free entry and exit for long-run profits of firms under perfect competition.",
+     "type": "long_answer"
+    },
+    {
+     "question": "A firm sells a product that is slightly different from its rivals. Can it be classified as a perfectly competitive firm? Give reasons.",
+     "type": "application"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.7.6",
+   "title": "Price Determination under Perfect Competition",
+   "section": "Price Determination under Perfect Competition",
+   "definition": "Under perfect competition, the market price is determined by the intersection of the industry demand curve and the industry supply curve; the equilibrium price is the price at which quantity demanded equals quantity supplied.",
+   "formula": "Qd = Qs  =>  Equilibrium price (P*)",
+   "key_idea": "Equilibrium occurs where the market demand and supply curves intersect; at prices above P* there is excess supply, and at prices below P* there is excess demand, which pushes the price back to P*.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Find the equilibrium price and quantity given linear demand and supply functions.",
+    "Determine whether a given price results in excess demand or excess supply.",
+    "Explain how excess demand or excess supply restores equilibrium.",
+    "Compute the equilibrium price when demand and supply schedules are given.",
+    "Explain why a perfectly competitive firm accepts the market-determined price."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Write the demand and supply equations.",
+     "explain": "Express quantity demanded Qd as a function of price and quantity supplied Qs as a function of price."
+    },
+    {
+     "step": 2,
+     "action": "Set quantity demanded equal to quantity supplied.",
+     "explain": "Equilibrium requires Qd = Qs, so equate the two expressions to form one equation in P."
+    },
+    {
+     "step": 3,
+     "action": "Solve for the equilibrium price and quantity.",
+     "explain": "Rearrange to find P* and substitute back to find Q*; verify that Qd equals Qs at P*."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "The market demand function is Qd = 100 - 2P and the market supply function is Qs = 20 + 2P. Find the equilibrium price and quantity.",
+     "solution": "Set Qd = Qs: 100 - 2P = 20 + 2P => 80 = 4P => P* = 20. Substitute P* into Qd: Q* = 100 - 2(20) = 60. Check with Qs: 20 + 2(20) = 60.",
+     "answer": "Equilibrium price P* = 20; equilibrium quantity Q* = 60."
+    },
+    {
+     "question": "Using the same demand Qd = 100 - 2P and supply Qs = 20 + 2P, determine whether a price of 30 gives excess supply or excess demand.",
+     "solution": "At P = 30, Qd = 100 - 2(30) = 40 and Qs = 20 + 2(30) = 80. Since Qs > Qd, there is excess supply of 40 units, which pushes the price down toward equilibrium.",
+     "answer": "At P = 30 there is excess supply of 40 units."
+    },
+    {
+     "question": "Demand is Qd = 50 - P and supply is Qs = 10 + P. Find the equilibrium price and quantity.",
+     "solution": "Set Qd = Qs: 50 - P = 10 + P => 40 = 2P => P* = 20. Q* = 50 - 20 = 30. Check: Qs = 10 + 20 = 30.",
+     "answer": "Equilibrium price P* = 20; equilibrium quantity Q* = 30."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Given Qd = 80 - 3P and Qs = 20 + P, find the equilibrium price and quantity.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain how excess demand at a price below equilibrium restores the equilibrium price.",
+     "type": "long_answer"
+    },
+    {
+     "question": "For Qd = 200 - 5P and Qs = 50 + 5P, check whether P = 10 results in excess demand or excess supply.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.7.7",
+   "title": "Market Equilibrium",
+   "section": "Market Equilibrium",
+   "definition": "Market equilibrium is the state in which quantity demanded equals quantity supplied at the prevailing price, so there is no tendency for the price to change.",
+   "formula": "Qd(P*) = Qs(P*)",
+   "key_idea": "At equilibrium there is neither excess demand nor excess supply; the equilibrium price clears the market and the equilibrium quantity is the amount actually bought and sold.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define market equilibrium and explain its stability.",
+    "Verify whether a given price is an equilibrium price.",
+    "Explain the meaning of excess demand and excess supply.",
+    "Determine the equilibrium price from a demand-supply schedule.",
+    "Explain why a price above equilibrium is not sustainable."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute quantity demanded at the given price.",
+     "explain": "Substitute the price into the demand function to obtain Qd.",
+     "compute": "a - b*p"
+    },
+    {
+     "step": 2,
+     "action": "Compute quantity supplied at the given price.",
+     "explain": "Substitute the price into the supply function to obtain Qs.",
+     "compute": "c + d*p"
+    },
+    {
+     "step": 3,
+     "action": "Compare Qd and Qs to verify equilibrium.",
+     "explain": "If Qd equals Qs the price is an equilibrium price; otherwise identify excess demand (Qd > Qs) or excess supply (Qs > Qd)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Demand is Qd = 60 - 2P and supply is Qs = 10 + 3P. Verify whether P = 10 is the equilibrium price.",
+     "solution": "At P = 10, Qd = 60 - 2(10) = 40 and Qs = 10 + 3(10) = 40. Since Qd equals Qs, P = 10 is the equilibrium price and Q* = 40.",
+     "answer": "P = 10 is the equilibrium price with Q* = 40."
+    },
+    {
+     "question": "For Qd = 120 - 4P and Qs = 40 + 2P, find the equilibrium price and quantity.",
+     "solution": "Set Qd = Qs: 120 - 4P = 40 + 2P => 80 = 6P => P* = 13.33 (approx). Q* = 120 - 4(13.33) = 66.68 (approx).",
+     "answer": "P* ~ 13.33; Q* ~ 66.68."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Given Qd = 90 - 3P and Qs = 30 + 3P, verify whether P = 10 is an equilibrium price.",
+     "type": "compute"
+    },
+    {
+     "question": "Define market equilibrium and explain why it is stable.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Explain the difference between excess demand and excess supply with an example.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.7.8",
+   "title": "Effects of Shifts in Demand and Supply",
+   "section": "Effects of Shifts in Demand and Supply",
+   "definition": "A shift of the demand curve or the supply curve changes the equilibrium price and quantity; a rightward shift of demand raises both price and quantity, while a rightward shift of supply lowers price and raises quantity.",
+   "formula": "New equilibrium: Qd'(P*) = Qs'(P*)",
+   "key_idea": "When only demand shifts, price and quantity move in the same direction; when only supply shifts, price and quantity move in opposite directions; simultaneous shifts give an ambiguous outcome for one of the two variables.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Analyse the effect of a rightward shift of the demand curve on equilibrium price and quantity.",
+    "Analyse the effect of a rightward shift of the supply curve on equilibrium price and quantity.",
+    "Explain the effect of a simultaneous increase in demand and supply.",
+    "Determine the new equilibrium after a shift in demand or supply.",
+    "Explain how a leftward shift of supply affects market price."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Write the new demand or supply equation after the shift.",
+     "explain": "Adjust the intercept or slope of the demand or supply function to reflect the shift."
+    },
+    {
+     "step": 2,
+     "action": "Set the new quantity demanded equal to quantity supplied.",
+     "explain": "Equate the shifted curve with the unchanged curve to find the new equilibrium."
+    },
+    {
+     "step": 3,
+     "action": "Solve for the new equilibrium price and quantity and compare with the old.",
+     "explain": "Compute the new P* and Q* and state whether price and quantity have risen or fallen."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Original demand Qd = 100 - 2P and supply Qs = 20 + 2P give equilibrium P* = 20, Q* = 60. Demand now shifts right to Qd' = 120 - 2P. Find the new equilibrium.",
+     "solution": "Set Qd' = Qs: 120 - 2P = 20 + 2P => 100 = 4P => P*' = 25. Q*' = 120 - 2(25) = 70. Price rises from 20 to 25 and quantity rises from 60 to 70.",
+     "answer": "New equilibrium: P*' = 25, Q*' = 70."
+    },
+    {
+     "question": "With demand Qd = 100 - 2P and supply Qs = 20 + 2P, supply shifts right to Qs' = 40 + 2P. Find the new equilibrium.",
+     "solution": "Set Qd = Qs': 100 - 2P = 40 + 2P => 60 = 4P => P*' = 15. Q*' = 100 - 2(15) = 70. Price falls from 20 to 15 and quantity rises from 60 to 70.",
+     "answer": "New equilibrium: P*' = 15, Q*' = 70."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Demand Qd = 80 - 3P and supply Qs = 20 + P. Demand shifts right to Qd' = 100 - 3P. Find the new equilibrium price and quantity.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain the effect on equilibrium price and quantity when both demand and supply increase simultaneously.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Supply Qs = 10 + P shifts left to Qs' = 4 + P while demand Qd = 50 - P stays the same. Find the new equilibrium.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.7.9",
+   "title": "Applications of Market Equilibrium",
+   "section": "Applications of Market Equilibrium",
+   "definition": "Market equilibrium analysis is applied to study the effects of government interventions such as price ceilings and price floors, and to analyse the impact of taxes and subsidies on equilibrium price and quantity.",
+   "formula": "Effective price ceiling < P* ; effective price floor > P*",
+   "key_idea": "A price ceiling below the equilibrium price creates excess demand (shortage), while a price floor above the equilibrium price creates excess supply (surplus); both interventions distort the market unless supported by additional measures.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the effect of a price ceiling set below the equilibrium price.",
+    "Explain the effect of a price floor set above the equilibrium price.",
+    "Analyse the impact of a unit tax on equilibrium price and quantity.",
+    "Analyse the impact of a subsidy on equilibrium price and quantity.",
+    "Distinguish between a price ceiling and a price floor with examples."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute the free-market equilibrium price and quantity.",
+     "explain": "Find P* and Q* by setting Qd equal to Qs before any intervention."
+    },
+    {
+     "step": 2,
+     "action": "Compare the controlled price with the equilibrium price.",
+     "explain": "A ceiling is effective only if it is below P*; a floor is effective only if it is above P*. Otherwise the market stays at equilibrium."
+    },
+    {
+     "step": 3,
+     "action": "Compute quantity demanded and supplied at the controlled price.",
+     "explain": "Substitute the controlled price into Qd and Qs to find the shortage or surplus created by the intervention."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Demand Qd = 100 - 2P and supply Qs = 20 + 2P give equilibrium P* = 20, Q* = 60. The government imposes a price ceiling of 15. Analyse the effect.",
+     "solution": "At P = 15, Qd = 100 - 2(15) = 70 and Qs = 20 + 2(15) = 50. Since the ceiling (15) is below P* (20), it is effective and creates excess demand (shortage) of 70 - 50 = 20 units.",
+     "answer": "Price ceiling of 15 creates a shortage of 20 units."
+    },
+    {
+     "question": "With the same demand and supply, the government sets a price floor of 25. Analyse the effect.",
+     "solution": "At P = 25, Qd = 100 - 2(25) = 50 and Qs = 20 + 2(25) = 70. Since the floor (25) is above P* (20), it is effective and creates excess supply (surplus) of 70 - 50 = 20 units.",
+     "answer": "Price floor of 25 creates a surplus of 20 units."
+    },
+    {
+     "question": "Demand Qd = 50 - P and supply Qs = 10 + P give equilibrium P* = 20, Q* = 30. A price ceiling of 15 is imposed. Find the shortage.",
+     "solution": "At P = 15, Qd = 50 - 15 = 35 and Qs = 10 + 15 = 25. Shortage = 35 - 25 = 10 units.",
+     "answer": "Shortage of 10 units at the ceiling price of 15."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Demand Qd = 80 - 3P and supply Qs = 20 + P give equilibrium P* = 15, Q* = 35. A price floor of 20 is imposed. Find the surplus created.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain why a price ceiling below the equilibrium price may lead to black marketing.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Distinguish between a price ceiling and a price floor, giving one example of each.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_04_004",
+   "title": "c11_hs_cbse_04_004",
+   "questions": [
+    {
+     "q": "Define 'non-human resources' as per NCERT Class 11 Home Science, and give two examples each of money and material goods.",
+     "a": "Non-human resources are tangible, external assets comprising money (medium of exchange) and material goods (physical objects like furniture, clothing, food, equipment). Examples of money: cash in hand, bank balance. Examples of material goods: dining table, school uniforms, LPG cylinder, textbooks. A wrong answer that lists \"time\" or \"skills\" reveals confusion between human and non-human resources — the student has not internalised that non-human resources are external and tangible, not personal attributes.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why money is described as a 'limited resource' in the textbook, and how this differs from the limitation of time as a human resource.",
+     "a": "Money is limited because its quantity is finite and unequally distributed across families — some have surplus, others barely meet needs — and it cannot be increased without earning. Time is limited differently: every person gets exactly 24 hours daily (equal distribution), but it cannot be saved, stored, or earned; once spent, it is gone forever. A wrong answer that says \"both are limited so they are the same\" misses the critical distinction: money's limitation is quantitative and unequal; time's limitation is universal and non-renewable.",
+     "self_check": true
+    },
+    {
+     "q": "A family has ₹10,000 in savings, a functioning washing machine, and 50 sq. ft. of unused balcony space. They need to wash clothes daily, dry them, and save for a medical emergency. Apply the concept of interchangeability to propose two different ways they could meet the washing and drying needs without buying a new appliance.",
+     "a": "Option 1: Use the washing machine (material good) for washing; use balcony space (material good) for sun-drying — substituting a dryer (which they don't have) with free space and sunlight. Option 2: Hand-wash clothes (substituting machine with human energy — a human resource) to save machine wear and electricity cost (saving money), and use balcony for drying. A wrong answer that only says \"use the washing machine\" fails to demonstrate interchangeability — the student must show how one resource substitutes for another across categories (material for material, or human for material).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the accessibility of money versus material goods for a family living in a remote village versus an urban apartment. Analyse how location changes the accessibility of each resource type.",
+     "a": "In a remote village: money accessibility is lower (fewer ATMs/banks, irregular income from agriculture); material goods accessibility is mixed — space and firewood may be abundant (high accessibility), but specialised goods (medicines, branded stationery) require travel (low accessibility). In an urban apartment: money accessibility is higher (salaried income, digital banking, ATMs nearby); material goods accessibility is high for purchasable items but space is scarce and expensive (low accessibility for space). A wrong answer that says \"money is equally accessible everywhere\" ignores the textbook's explicit statement that accessibility varies by person, place, and time.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Since material goods can be substituted by money (you can buy anything), money is the only non-human resource that matters.\" Use the characteristics of utility and manageability to justify your position.",
+     "a": "The statement is flawed. Utility is goal- and situation-specific: during a power outage, a charged power bank (material good) has higher utility than ₹500 cash if shops are closed. Manageability requires using resources for maximum output with minimum input: buying ready-made meals daily (using only money) costs ₹3,000/month; cooking at home using utensils, stove, groceries (material goods) + human energy costs ₹1,500/month — the latter manages material goods better. A wrong answer that agrees with the statement ignores that material goods provide direct utility without transaction costs and can be managed to reduce monetary expenditure.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 'resource inventory table' for a Class 11 student preparing for board exams. List at least 5 non-human resources (money and material goods) they might have, and for each, specify its utility, current accessibility, one possible substitute, and how it can be managed for optimum use.",
+     "a": "Example row: Resource: Study table (material good) | Utility: Provides dedicated posture for long study sessions | Accessibility: High (already in room) | Substitute: Dining table / floor with cushion | Management: Keep clutter-free, position near natural light to reduce eye strain, use drawers for organised stationery access. A poor answer lists only \"books, money, phone\" without analysing each through the four characteristics — revealing the student cannot operationalise the framework for planning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

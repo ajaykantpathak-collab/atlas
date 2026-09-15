@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_07_010",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_07_010",
+   "title": "c11_eng_h_cbse_07_010",
+   "questions": [
+    {
+     "q": "Define \"contextual meaning\" and explain how it differs from \"denotative meaning\" using one example from any text you have studied.",
+     "a": "Contextual meaning is the specific sense a word acquires from its surrounding linguistic environment (syntax, tone, register, thematic resonance), while denotative meaning is its literal, dictionary definition. For example, in \"The Adventure,\" \"transition\" denotes \"a change from one state to another,\" but contextually it signifies \"a quantum-level shift between parallel historical timelines.\" A wrong answer that only gives the dictionary definition reveals the student treats vocabulary as static labels rather than dynamic meaning-making tools.",
+     "self_check": true
+    },
+    {
+     "q": "In \"The Adventure,\" the phrase \"catastrophe theory\" appears. Explain why the author uses this specific scientific term instead of simpler alternatives like \"sudden change theory\" or \"disaster theory,\" considering both precision and thematic function.",
+     "a": "\"Catastrophe theory\" is a precise mathematical framework (René Thom's topology) describing how small parameter changes cause sudden systemic shifts — exactly modeling Gaitonde's timeline bifurcation. \"Sudden change theory\" lacks scientific credibility; \"disaster theory\" carries only negative connotation. The term's precision establishes the story's hard-SF credentials while its metaphorical resonance (catastrophe = Battle of Panipat outcome) fuses science and history. A wrong answer focusing only on \"difficult vocabulary\" misses how lexical precision creates genre authenticity.",
+     "self_check": true
+    },
+    {
+     "q": "Identify three words/phrases from \"The Adventure\" that belong to the \"historical register\" and three from the \"scientific register.\" For each, quote the sentence where it appears and explain how the register shift affects the reader's perception of Professor Gaitonde's experience.",
+     "a": "Historical register: \"Peshwa\" (\"The Peshwa had won\"), \"Vishwasrao\" (\"Vishwasrao guided his horse\"), \"Panipat\" (\"the Battle of Panipat\") — these ground the alternative reality in specific Indian historicity. Scientific register: \"quantum\" (\"quantum theory\"), \"trajectory\" (\"alternative trajectory\"), \"bifurcation\" (\"point of bifurcation\") — these frame the impossible as theoretically plausible. The oscillation between registers mirrors Gaitonde's cognitive disorientation. A wrong answer listing words without register labels or textual evidence shows inability to connect diction to narrative perspective.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the connotation of the word \"alternative\" evolves across the story — from Gaitonde's initial hypothesis to the final revelation. Support with two textual references (paraphrased).",
+     "a": "Initially, \"alternative\" connotes \"academic possibility\" — Gaitonde speculates about \"an alternative history\" as intellectual exercise. By the climax, it connotes \"lived, visceral reality\" — he experiences \"an alternative world\" where Maratha victory changed India's colonial trajectory. The shift from abstract noun modifier to concrete experiential marker traces the protagonist's epistemological journey. A wrong answer treating \"alternative\" as static synonym for \"different\" fails to track semantic evolution as character development.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Narlikar's use of Marathi terms (Peshwa, Sardar, Vishwasrao) without glossing is a deliberate strategy to center Indian historical agency in a science fiction narrative.\" Defend or challenge with textual reasoning.",
+     "a": "The claim is defensible. Untranslated Marathi honorifics and names refuse the colonial gaze that would exoticize or explain them. They appear in sentences like \"The Peshwa's army...\" where syntactic integration (subject position, possessive) grants them default authority. Contrast with how British terms (\"East India Company,\" \"Raj\") appear as external forces. This lexical choice makes the alternative history feel like internal Indian continuity, not speculative fiction. A wrong answer calling it \"just setting detail\" ignores how vocabulary encodes ideological stance.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 50-word \"vocabulary map\" for \"The Adventure\" showing 6 key terms connected by semantic relationships (cause-effect, contrast, part-whole, register). Use arrows and labels. Example format: \"quantum → (enables) → transition.\"",
+     "a": "Expected map: catastrophe theory → (models) → bifurcation → (creates) → alternative trajectory → (contains) → Peshwa/Vishwasrao → (contrast) → East India Company → (overridden by) → quantum transition. Criteria: 6+ terms, 5+ labeled relationships, registers marked (Sci/Hist), cause-effect logic traceable. A poor map lists isolated words or uses only \"related to\" — revealing inability to see vocabulary as a conceptual network.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

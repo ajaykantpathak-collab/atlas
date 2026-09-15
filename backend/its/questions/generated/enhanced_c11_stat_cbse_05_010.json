@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_05_010",
+   "title": "c11_stat_cbse_05_010",
+   "questions": [
+    {
+     "q": "Define Harmonic Mean mathematically for a set of n positive observations \\(x_1, x_2, \\ldots, x_n\\). State the formula and explain in one sentence when it is the appropriate average to use.",
+     "a": "**Correct Answer:** \\(HM = \\frac{n}{\\sum_{i=1}^n \\frac{1}{x_i}}\\). It is appropriate when averaging rates or ratios where the numerator is constant (e.g., speed with fixed distance, price per kg with fixed expenditure).  \n**What a wrong answer reveals:** If a student writes \\(HM = \\frac{\\sum x_i}{n}\\) (arithmetic mean formula) or says \"when data has extreme values\" (median's use), they confuse HM with other averages. If they say \"when values are multiplied\" they confuse it with Geometric Mean. This shows they haven't grasped the defining characteristic: reciprocal-of-reciprocals structure and the constant-numerator condition.",
+     "self_check": true
+    },
+    {
+     "q": "A car travels 100 km at 50 km/h, then another 100 km at 100 km/h. A student calculates average speed as (50+100)/2 = 75 km/h. Explain why this is incorrect and what the correct average speed is. What conceptual error did the student make?",
+     "a": "**Correct Answer:** The student used Arithmetic Mean, which assumes equal time at each speed. But here distance is fixed (100 km each), so time varies: \\(t_1 = 2 \\text{ h}, t_2 = 1 \\text{ h}\\). Total distance = 200 km, total time = 3 h, average speed = 200/3 ≈ 66.67 km/h. Harmonic Mean: \\(HM = \\frac{2}{\\frac{1}{50} + \\frac{1}{100}} = \\frac{2}{0.03} = 66.67 \\text{ km/h}\\). The error: treating speeds as equally weighted when the weighting variable (time) is not equal. The student missed the \"constant numerator = distance\" condition that mandates HM.  \n**What a wrong answer reveals:** If the student says \"AM is fine because there are only two speeds\" or \"HM is for more than 2 values\", they don't understand that the choice of average depends on the physical situation (what is constant), not the number of observations.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the Harmonic Mean for the following discrete series:\n| Value (x) | 4 | 8 | 12 | 16 |\n| Frequency (f) | 2 | 3 | 4 | 1 |\nShow all steps including the formula for discrete series.",
+     "a": "**Correct Answer with Steps:**\n1. Formula for discrete series: \\(HM = \\frac{\\sum f}{\\sum \\frac{f}{x}}\\)\n2. Compute \\(\\frac{f}{x}\\) for each row:\n   - \\(x=4, f=2: \\frac{2}{4} = 0.5\\)\n   - \\(x=8, f=3: \\frac{3}{8} = 0.375\\)\n   - \\(x=12, f=4: \\frac{4}{12} = 0.3333\\)\n   - \\(x=16, f=1: \\frac{1}{16} = 0.0625\\)\n3. \\(\\sum f = 2+3+4+1 = 10\\)\n4. \\(\\sum \\frac{f}{x} = 0.5 + 0.375 + 0.3333 + 0.0625 = 1.2708\\)\n5. \\(HM = \\frac{10}{1.2708} = 7.87\\) (approx)\n**What a wrong answer reveals:** If a student computes \\(\\frac{\\sum fx}{\\sum f}\\) (weighted AM) or uses mid-points incorrectly, they are applying the wrong formula. If they forget to sum frequencies in the numerator, they confuse the discrete series formula with the individual series formula \\(n/\\sum(1/x)\\).",
+     "self_check": true
+    },
+    {
+     "q": "For any set of positive numbers, the relationship \\(HM \\le GM \\le AM\\) holds. Prove this for the two numbers 4 and 16 by calculating all three means. Then explain why HM is the smallest: what property of the reciprocal function causes this?",
+     "a": "**Correct Answer:**\n- \\(AM = \\frac{4+16}{2} = 10\\)\n- \\(GM = \\sqrt{4 \\times 16} = \\sqrt{64} = 8\\)\n- \\(HM = \\frac{2}{\\frac{1}{4} + \\frac{1}{16}} = \\frac{2}{0.3125} = 6.4\\)\nThus \\(6.4 \\le 8 \\le 10\\) holds.\n**Why HM is smallest:** The reciprocal function \\(f(x) = 1/x\\) is convex for \\(x > 0\\). By Jensen's inequality, the arithmetic mean of reciprocals is ≥ reciprocal of arithmetic mean: \\(\\frac{1}{n}\\sum \\frac{1}{x_i} \\ge \\frac{1}{\\frac{1}{n}\\sum x_i}\\). Taking reciprocals reverses the inequality: \\(HM \\le AM\\). Since GM is the geometric mean of the same numbers, it lies between them. The convexity of \\(1/x\\) amplifies the effect of smaller values, pulling HM down.\n**What a wrong answer reveals:** If a student says \"HM is smaller because it uses reciprocals\" without explaining the convexity/inequality mechanism, they have a surface-level understanding. If they claim the order can reverse for some datasets, they don't know the theorem holds for all positive numbers.",
+     "self_check": true
+    },
+    {
+     "q": "A factory buys raw material at three different prices: ₹20/kg, ₹25/kg, and ₹30/kg. It spends exactly ₹10,000 at each price. The purchase manager claims the average price paid is ₹25/kg (arithmetic mean). Evaluate this claim. What is the correct average price per kg? Justify which average is appropriate.",
+     "a": "**Correct Answer:** The claim is incorrect. Since expenditure (₹10,000) is fixed at each price, the quantity purchased varies: \\(q_1 = 500 \\text{ kg}, q_2 = 400 \\text{ kg}, q_3 = 333.33 \\text{ kg}\\). Total expenditure = ₹30,000, total quantity = 1233.33 kg. Correct average price = Total expenditure / Total quantity = 30000/1233.33 = ₹24.32/kg. Using HM: \\(HM = \\frac{3}{\\frac{1}{20} + \\frac{1}{25} + \\frac{1}{30}} = \\frac{3}{0.12333} = 24.32 \\text{ ₹/kg}\\). AM (₹25) overstates the average because it gives equal weight to each price, but more kg were bought at lower prices. HM correctly weights by quantity (which is inversely proportional to price when expenditure is fixed).  \n**What a wrong answer reveals:** If the student defends AM saying \"there are three prices so divide by 3\", they ignore the physical context (fixed expenditure). If they use GM, they confuse multiplicative growth with rate averaging. This tests whether they can map the real-world constraint (constant numerator = expenditure) to the correct mathematical tool.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) where Harmonic Mean is the correct average, but a student would likely misuse Arithmetic Mean. Provide the problem statement, the incorrect AM calculation, the correct HM calculation, and a one-line explanation of the \"constant numerator\" in your problem.",
+     "a": "**Expected Answer Criteria:** A good problem will have:\n- A clear constant numerator (e.g., fixed distance, fixed expenditure, fixed quantity)\n- A varying denominator (time, price per unit, concentration)\n- Numerical values allowing clean calculation\n- Explicit identification of the constant numerator\nExample: \"A milk vendor buys milk at ₹40/L, ₹50/L, and ₹60/L, spending ₹2000 at each rate. Find the average price per litre.\" Incorrect AM = ₹50/L. Correct HM = \\(3/(\\frac{1}{40}+\\frac{1}{50}+\\frac{1}{60}) = 48.65 \\text{ ₹/L}\\). Constant numerator: Expenditure (₹2000).  \n**What a poor answer reveals:** If the problem uses \"average speed for equal time intervals\" or \"average of percentages\", the student doesn't understand the constant-numerator condition. If they can't articulate why AM fails, they lack the conceptual link between physical situation and mathematical structure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

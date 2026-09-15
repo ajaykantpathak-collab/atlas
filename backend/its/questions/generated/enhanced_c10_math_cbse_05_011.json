@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_05_011",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_05_011",
+   "title": "c10_math_cbse_05_011",
+   "questions": [
+    {
+     "q": "State the two standard formulas used to solve AP word problems and what each variable represents.",
+     "a": "The two formulas are: (1) nth term: \\(a_n = a + (n-1)d\\) where a = first term, d = common difference, n = term number. (2) Sum of first n terms: \\(S_n = \\frac{n}{2}[2a + (n-1)d]\\) or \\(S_n = \\frac{n}{2}(a + l)\\) where l = last term. A wrong answer (e.g., writing \\(a_n = a + nd\\) or \\(S_n = n(a + d)\\)) reveals the student has not memorized the exact structure of the formulas, especially the (n-1) factor, leading to off-by-one errors in exams.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"The heights of students in a class form an AP because they increase.\" Explain why this reasoning is incorrect and state the precise condition for a sequence to be an AP.",
+     "a": "Heights of students do not necessarily increase by a constant difference; they vary randomly. An AP requires a **constant difference** between **every pair of consecutive terms**. The student's error is confusing \"increasing\" with \"constant difference\". This misconception leads to forcing non-AP data into AP formulas, producing meaningless answers in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A contractor pays a penalty for delay: ₹200 for the first day, ₹250 for the second day, ₹300 for the third day, and so on. If the work is delayed by 30 days, find the total penalty paid. Show all steps.",
+     "a": "Given: a = 200, d = 50, n = 30. Use sum formula: \\(S_{30} = \\frac{30}{2}[2(200) + (30-1)(50)] = 15[400 + 1450] = 15 \\times 1850 = 27750\\). Total penalty = ₹27,750. A wrong answer (e.g., using n=29 or d=200) reveals the student cannot correctly map \"first day = first term\" and \"increase per day = common difference\", or miscounts n.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two problems: (A) \"Find the 10th term of AP: 5, 8, 11, ...\" (B) \"A tree grows 5 cm first year, 8 cm second year, 11 cm third year... Find growth in 10th year.\" Are they mathematically identical? Justify.",
+     "a": "Yes, mathematically identical. Both have a=5, d=3, n=10 → \\(a_{10} = 5 + 9(3) = 32\\). The only difference is context: Problem A is abstract, Problem B is real-life. A student who solves A but not B lacks the skill to **translate words into mathematical parameters** (a, d, n). This is the core competency tested in CBSE case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Sum of first 20 terms of an AP is 400. First term is 5. Find d.\" Their working: \\(400 = \\frac{20}{2}[2(5) + 20d] \\Rightarrow 400 = 10[10 + 20d] \\Rightarrow 40 = 10 + 20d \\Rightarrow d = 1.5\\). Identify the error and correct it.",
+     "a": "Error: Used \\(20d\\) instead of \\((20-1)d = 19d\\) in the sum formula. Correct step: \\(400 = 10[10 + 19d] \\Rightarrow 40 = 10 + 19d \\Rightarrow 19d = 30 \\Rightarrow d = 30/19\\). The student forgot the (n-1) factor in the sum formula. This is the **most common algebraic slip** in board exams — writing nd instead of (n-1)d.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life word problem (Indian context: rupees, metres, etc.) that requires finding the number of terms (n) given the sum and first term/difference. Write the problem and outline the solution steps.",
+     "a": "Example: \"Meena puts ₹5 in her piggy bank on day 1, ₹10 on day 2, ₹15 on day 3, and so on. After how many days will her total savings become ₹275?\" Steps: a=5, d=5, S_n=275. Use \\(S_n = \\frac{n}{2}[2a+(n-1)d] \\Rightarrow 275 = \\frac{n}{2}[10+5(n-1)] \\Rightarrow 550 = n(5n+5) \\Rightarrow 5n^2+5n-550=0 \\Rightarrow n^2+n-110=0 \\Rightarrow (n+11)(n-10)=0 \\Rightarrow n=10\\) (reject negative). A poor answer uses a non-AP pattern or sets up an equation that is not quadratic in n, showing inability to handle \"find n\" problems.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_01_004",
+   "title": "c11_acc_cbse_01_004",
+   "questions": [
+    {
+     "q": "Name any four internal users of accounting information as identified in the NCERT Class 11 textbook, and state the primary decision-making role of each.",
+     "a": "Correct answer: (1) Chief Executive Officer — strategic direction and overall performance; (2) Financial Officer — financial planning, fund allocation, risk management; (3) Business Unit Managers — operational efficiency, budget adherence, departmental profitability; (4) Plant Managers — production cost control, capacity utilisation, inventory management. A wrong answer that lists \"shareholders\" or \"banks\" reveals confusion between internal management roles and external stakeholders; listing generic \"managers\" without specific titles shows lack of textbook precision required for board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Customers are internal users because they interact with the business daily and need information about product availability.\" Explain why this classification is incorrect using the NCERT definition of internal vs external users.",
+     "a": "Correct answer: Customers are external users because they are outside the organisational structure, have no authority to access internal records, and rely on published financial statements or market reputation to assess the business's continuity and after-sales service capability. The NCERT explicitly lists customers under external users (page 13-14) who need information on \"continued existence of the business and thus the probability of a continued supply of products.\" A wrong answer that focuses on frequency of interaction rather than organisational position reveals the misconception that \"regular contact = internal user,\" ignoring the critical distinction of access to internal accounting systems and decision-making authority.",
+     "self_check": true
+    },
+    {
+     "q": "Match each external user to their PRIMARY information need from the NCERT list: (A) Banks/Financial Institutions, (B) Tax Authorities, (C) Prospective Investors, (D) Suppliers/Creditors. Options: (i) Creditworthiness and loan repayment ability, (ii) Tax liability computation and regulatory compliance, (iii) Risk-return assessment for investment decision, (iv) Short-term liquidity and continued existence of business.",
+     "a": "Correct matching: A→(i), B→(ii), C→(iii), D→(iv). A wrong answer swapping (i) and (iv) reveals confusion between long-term solvency analysis (banks) and short-term liquidity analysis (suppliers); matching Tax Authorities with (iii) shows misunderstanding that tax authorities focus on legal compliance, not investment analysis. The NCERT distinguishes: lenders examine \"creditworthiness and ability to repay loans\" while suppliers check \"whether amounts owed will be repaid when due\" — different time horizons and risk perspectives.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the information needs of a Plant Manager (internal) and a Debenture-holder (external) for the same manufacturing company. Identify two specific differences in: (a) type of report, (b) frequency, (c) time orientation, (d) level of detail.",
+     "a": "Correct analysis: (a) Plant Manager receives internal management reports (cost sheets, variance analysis, production budgets); Debenture-holder receives audited financial statements (Balance Sheet, P&L, Cash Flow). (b) Plant Manager gets daily/weekly/monthly reports; Debenture-holder gets quarterly/annual reports. (c) Plant Manager needs forward-looking data (budgets, forecasts); Debenture-holder analyses historical performance for interest coverage and asset security. (d) Plant Manager sees granular department-level data; Debenture-holder sees aggregated company-level figures. A wrong answer stating both use \"financial statements\" misses the fundamental distinction that internal users access management accounting reports (node 006) while external users rely on financial accounting outputs.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since employees are internal users, trade unions representing them should also be classified as internal users of accounting information.\" Justify your position using NCERT classification criteria.",
+     "a": "Correct evaluation: The statement is false. Trade unions are explicitly listed as external users in NCERT (page 6: \"Regulatory Agencies... Labour Unions\"). Although they represent employees, unions are separate legal entities outside the organisational hierarchy, lack access to internal management information systems, and use financial statements for collective bargaining — assessing \"stability, profitability and distribution of wealth\" (page 13). Classifying them as internal confuses representation with organisational position. A student who agrees reveals the misconception that \"advocating for insiders = insider,\" ignoring the structural definition: internal users are those within the management chain of command.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario involving a startup company where SEVEN distinct user groups (minimum 3 internal, 4 external) would request accounting information. For each, specify: (a) their classification, (b) the specific decision they face, (c) the exact accounting report or metric they would prioritise.",
+     "a": "Sample scenario: \"GreenTech Solar\" startup manufacturing solar panels. Internal: (1) CEO — decision: expand to new state — metric: projected ROI from strategic plan; (2) Production Manager — decision: overtime vs new shift — report: daily cost variance sheet; (3) HR Head — decision: bonus structure — report: department-wise profitability analysis. External: (4) Venture Capitalist — decision: Series A funding — metric: burn rate, runway, user growth from pitch deck financials; (5) Bank — decision: working capital loan — metric: current ratio, debt service coverage from audited statements; (6) GST Department — decision: input tax credit verification — report: GSTR-1/GSTR-3B reconciliation; (7) Key Supplier — decision: extend credit period — metric: trade payables ageing, cash conversion cycle from financial statements. A poor answer lists generic \"managers\" and \"investors\" without specific decisions or metrics, showing inability to connect user identity to information demand.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

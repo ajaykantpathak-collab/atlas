@@ -1,0 +1,235 @@
+{
+ "catalog": "catalog_class11_business_studies_ch107",
+ "concepts": [
+  {
+   "id": "kebs.107.1",
+   "title": "Stages in the Formation of a Company",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Stages in the Formation of a Company' refers to.",
+     "a": "The complete setup of a corporate enterprise encompasses distinct sequential phases starting from an initial venture concept to official registration and public fundraising.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Stages in the Formation of a Company'.",
+     "a": "Company formation progresses through promotion, incorporation, and capital subscription.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Stages in the Formation of a Company' taught, and from which source text?",
+     "a": "7.1 (source: kebs107.txt lines 30-55)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebs.107.2",
+   "title": "Promoters and Their Primary Functions",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Promoters and Their Primary Functions' refers to.",
+     "a": "A promoter is an individual or group that conceptualizes a business project, conducts feasibility analyses, and mobilizes key resources to bring the company into existence.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Promoters and Their Primary Functions'.",
+     "a": "Promoters identify opportunities, test feasibility, select names, and arrange necessary registration documents.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Promoters and Their Primary Functions' taught, and from which source text?",
+     "a": "7.2.1 (source: kebs107.txt lines 56-110)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebs.107.3",
+   "title": "Legal Position and Pre-Incorporation Liabilities of Promoters",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Legal Position and Pre-Incorporation Liabilities of Promoters' refers to.",
+     "a": "Promoters stand in a fiduciary relation to the company they create, barring them from making undisclosed profits while remaining personally liable for pre-incorporation agreements.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Legal Position and Pre-Incorporation Liabilities of Promoters'.",
+     "a": "Promoters owe fiduciary duties and carry personal liability for contracts executed before registration.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Legal Position and Pre-Incorporation Liabilities of Promoters' taught, and from which source text?",
+     "a": "7.2.1 (source: kebs107.txt lines 210-245)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebs.107.4",
+   "title": "Memorandum of Association and Its Essential Clauses",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Memorandum of Association and Its Essential Clauses' refers to.",
+     "a": "The fundamental charter of a corporate body that delineates its powers, scope of activities, capital structure, and external relationships.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Memorandum of Association and Its Essential Clauses'.",
+     "a": "MOA sets the boundaries and main objects beyond which a company cannot act.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Memorandum of Association and Its Essential Clauses' taught, and from which source text?",
+     "a": "7.2.1 (source: kebs107.txt lines 125-180)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebs.107.5",
+   "title": "Calculation of Unpaid Shareholder Liability",
+   "questions": [
+    {
+     "q": "Calculate the remaining liability of a shareholder. Use the method 'Calculation of Unpaid Shareholder Liability'. Work with: face_value = 50000, paid_per_share = 50, shares_count = 4, unpaid_per_share = 100. Carry the chain through step by step and give the final value of the result.",
+     "a": "400 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the unpaid share liability for a member. Use the method 'Calculation of Unpaid Shareholder Liability'. Work with: face_value = 2500, paid_per_share = 25, shares_count = 12, unpaid_per_share = 50. Carry the chain through step by step and give the final value of the result.",
+     "a": "600 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Calculation of Unpaid Shareholder Liability' refers to.",
+     "a": "The maximum financial obligation of a shareholder in a company limited by shares, calculated as the unpaid balance on the nominal value of shares held.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Calculation of Unpaid Shareholder Liability'.",
+     "a": "A member's liability is strictly limited to the unpaid portion of their subscribed share capital.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Calculation of Unpaid Shareholder Liability', in plain ASCII form.",
+     "a": "total_liability = shares_count * (face_value - paid_per_share)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebs.107.6",
+   "title": "Articles of Association and Comparison with MOA",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Articles of Association and Comparison with MOA' refers to.",
+     "a": "A document containing internal governance rules that manage the operational management of a company, remaining subordinate to the Memorandum of Association.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Articles of Association and Comparison with MOA'.",
+     "a": "AOA governs internal administration while MOA defines external boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Articles of Association and Comparison with MOA' taught, and from which source text?",
+     "a": "7.2.1 (source: kebs107.txt lines 181-205)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebs.107.7",
+   "title": "Statutory Documents for Company Registration",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Statutory Documents for Company Registration' refers to.",
+     "a": "The requisite legal documentation including MOA, AOA, director consents, agreement, statutory declaration, and fee proof submitted to the Registrar.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Statutory Documents for Company Registration'.",
+     "a": "A company registration requires specific legal declarations, consents, and constitutional filings.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Statutory Documents for Company Registration' taught, and from which source text?",
+     "a": "7.2.1 (source: kebs107.txt lines 120-209)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebs.107.8",
+   "title": "Certificate of Incorporation and Legal Conclusiveness",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Certificate of Incorporation and Legal Conclusiveness' refers to.",
+     "a": "The official document issued by the Registrar of Companies certifying that a company is legally created, serving as irrefutable proof of legal personality.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Certificate of Incorporation and Legal Conclusiveness'.",
+     "a": "Certificate of Incorporation provides conclusive proof of the legal birth and existence of a corporate body.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Certificate of Incorporation and Legal Conclusiveness' taught, and from which source text?",
+     "a": "7.2.2 (source: kebs107.txt lines 246-300)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebs.107.9",
+   "title": "Calculation of Minimum Subscription",
+   "questions": [
+    {
+     "q": "Calculate the minimum subscription amount required. Use the method 'Calculation of Minimum Subscription'. Work with: total_issue_amount = 120000. Carry the chain through step by step and give the final value of the result.",
+     "a": "108000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the minimum subscription for an issue size. Use the method 'Calculation of Minimum Subscription'. Work with: total_issue_amount = 8000. Carry the chain through step by step and give the final value of the result.",
+     "a": "7200 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Calculation of Minimum Subscription' refers to.",
+     "a": "The threshold minimum capital sum that must be subscribed by the public before a company can proceed with share allotment, mandated as 90 percent of the public issue.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Calculation of Minimum Subscription'.",
+     "a": "At least 90% of the public issue must be subscribed to validate allotment.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Calculation of Minimum Subscription', in plain ASCII form.",
+     "a": "min_subscription = total_issue_amount * 0.90",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebs.107.10",
+   "title": "Capital Subscription Formalities and Prospectus",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Capital Subscription Formalities and Prospectus' refers to.",
+     "a": "The systematic procedure through which a public enterprise invites public capital contributions via prospectus filing, SEBI approval, stock exchange listing, and allotment.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Capital Subscription Formalities and Prospectus'.",
+     "a": "Public fundraising mandates SEBI clearance, prospectus registration, minimum subscription compliance, and return of allotment filing.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Capital Subscription Formalities and Prospectus' taught, and from which source text?",
+     "a": "7.2.3 (source: kebs107.txt lines 301-355)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

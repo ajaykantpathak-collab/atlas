@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch11_006",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch11_006",
+   "title": "c7_math_ch11_006",
+   "questions": [
+    {
+     "q": "What is the definition of the Least Common Multiple (LCM) of two numbers?",
+     "a": "The correct answer is the smallest positive integer that is a multiple of both given numbers. If a student answers \"the largest number that divides both,\" they are confusing LCM with HCF (Highest Common Factor). Another common error is thinking LCM is simply the product of the two numbers without checking if a smaller common multiple exists.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul says that the LCM of 4 and 6 is 24 because $4 \\times 6 = 24$. Is Rahul correct, and why or why not?",
+     "a": "Rahul is incorrect. While 24 is *a* common multiple of 4 and 6, it is not the *least* common multiple. The multiples of 4 are 4, 8, 12, 16... and the multiples of 6 are 6, 12, 18... The smallest number appearing in both lists is 12. A student who agrees with Rahul is demonstrating the misconception that the LCM is always found by simply multiplying the two numbers together.",
+     "self_check": true
+    },
+    {
+     "q": "Find the LCM of 12 and 18 by listing their first few non-zero multiples.",
+     "a": "The correct answer is 36. Working steps: 1) List multiples of 12: 12, 24, 36, 48, 60. 2) List multiples of 18: 18, 36, 54, 72. 3) Identify the common multiples: 36, 72... 4) Select the smallest one, which is 36. If a student answers 72, they found a common multiple but missed the *least* one. If they answer 6, they confused multiples with factors (common divisor).",
+     "self_check": true
+    },
+    {
+     "q": "If two numbers are prime numbers, such as 5 and 7, how can you quickly find their LCM, and why does this rule work?",
+     "a": "The LCM of two distinct prime numbers is always their product ($5 \\times 7 = 35$). This works because prime numbers have no common factors other than 1, meaning none of their prime factors can be shared. A student who tries to use prime factorisation trees and gets confused is missing the structural property that coprime numbers share no divisors, forcing their lowest common multiple to be their direct product.",
+     "self_check": true
+    },
+    {
+     "q": "Examine this student's working for finding the LCM of 8 and 12 using prime factorisation:\nStep 1: Prime factor of $8 = 2 \\times 2 \\times 2 = 2^3$\nStep 2: Prime factor of $12 = 2 \\times 2 \\times 3 = 2^2 \\times 3^1$\nStep 3: Take the lowest power of each common prime: $2^2 = 4$.\nIs this student's answer and method correct? Explain.",
+     "a": "The student's method is incorrect in Step 3. To find the LCM using prime factorisation, you must take the *highest* power of each prime factor involved, not the lowest power (taking the lowest power gives the HCF). The correct calculation for LCM is $2^3 \\times 3^1 = 8 \\times 3 = 24$. A student who approves this work has mixed up the fundamental algorithmic rule for HCF versus LCM.",
+     "self_check": true
+    },
+    {
+     "q": "Create a pair of numbers whose LCM is 30 and whose HCF is 3, and explain how you constructed them.",
+     "a": "One valid pair is 6 and 15 (or 3 and 30). Construction explanation: Since the HCF is 3, both numbers must contain 3 as a prime factor. Let the numbers be $3 \\times a$ and $3 \\times b$, where $a$ and $b$ are coprime. The LCM is $3 \\times a \\times b = 30$, so $a \\times b = 10$. The pairs of factors for 10 are (1, 10) and (2, 5). Choosing (2, 5) gives numbers $3 \\times 2 = 6$ and $3 \\times 5 = 15$. A poor answer lists numbers randomly without verifying their HCF and LCM, showing a lack of structural understanding of number properties.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

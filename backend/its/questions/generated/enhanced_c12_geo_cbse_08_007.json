@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_08_007",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_08_007",
+   "title": "c12_geo_cbse_08_007",
+   "questions": [
+    {
+     "q": "Name the two major shipping canals that connect the Atlantic Ocean to the Indian Ocean and the Atlantic Ocean to the Pacific Ocean respectively.",
+     "a": "The Suez Canal connects the Mediterranean Sea (Atlantic) to the Red Sea (Indian Ocean), and the Panama Canal connects the Atlantic Ocean to the Pacific Ocean. A wrong answer (e.g., confusing Suez with Panama, or naming the Kiel Canal) reveals the student cannot distinguish the strategic locations and the oceans each canal links.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Suez Canal is considered a vital choke point in global trade, and what would be the impact on shipping distances if it were closed.",
+     "a": "The Suez Canal provides the shortest maritime route between Europe and Asia, avoiding the lengthy voyage around the Cape of Good Hope. Its closure would increase the distance between Europe and Asia by approximately 6,000 km, raising fuel costs and transit time. A wrong answer that only mentions \"it's important\" without quantifying the distance saving or identifying the alternative route shows superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A ship travels from Rotterdam (Netherlands) to Yokohama (Japan). Calculate the approximate distance saved by using the Suez Canal compared to the Cape of Good Hope route. (Assume Rotterdam to Yokohama via Suez is ~11,000 nautical miles; via Cape is ~17,000 nautical miles.)",
+     "a": "Distance saved = 17,000 - 11,000 = 6,000 nautical miles. Steps: 1) Identify the two routes. 2) Recall or look up typical distances. 3) Subtract. 4) Interpret: 6,000 nm saves about 15-20 days at 15 knots. A wrong answer might miscalculate or fail to convert to time savings, indicating inability to apply geographical knowledge to real shipping decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the strategic significance of the Suez Canal and the Panama Canal in terms of the trade routes they serve and the continents they connect.",
+     "a": "Suez Canal connects Europe and Asia (Mediterranean to Red Sea), serving the Europe-Asia trade lane. Panama Canal connects the east and west coasts of the Americas and links the Atlantic and Pacific, serving US East Coast-Asia and Europe-US West Coast trade. A wrong answer that swaps the continents or ignores the distinct trade flows shows inability to analyze the global trade network.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The expansion of the Panama Canal in 2016 to accommodate New Panamax ships has reduced the relevance of the Suez Canal for Asia-Europe trade.\"",
+     "a": "The statement is false. The Panama Canal expansion primarily affects US East Coast-Asia trade and does not provide a viable alternative for Europe-Asia trade because the route via Panama is longer for European ports. Suez remains the primary route for Europe-Asia. A wrong answer agreeing with the statement reveals misunderstanding of global trade geography and route economics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a shipping route for a vessel carrying crude oil from the Persian Gulf to the US East Coast. Justify your choice of route (Suez, Cape of Good Hope, or Panama) based on vessel size, canal restrictions, and current geopolitical risks.",
+     "a": "A good answer: For Very Large Crude Carriers (VLCCs) too large for Suez, the Cape route is used. For Suezmax tankers, Suez is shorter but may have geopolitical risks (e.g., Red Sea tensions). Panama is not used for this flow as it's longer. The student must consider vessel dimensions (draft, beam), canal tolls, and current events. A poor answer picks a route without considering vessel class or current affairs, showing lack of applied geographical reasoning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

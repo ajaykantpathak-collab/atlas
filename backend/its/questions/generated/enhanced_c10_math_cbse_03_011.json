@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_03_011",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_03_011",
+   "title": "c10_math_cbse_03_011",
+   "questions": [
+    {
+     "q": "What is the algebraic representation of a two-digit number if its tens digit is \\(x\\) and units digit is \\(y\\)? Write the expression for the original number and the number obtained by reversing its digits.",
+     "a": "Original number = \\(10x + y\\); Reversed number = \\(10y + x\\). A wrong answer like \\(x + y\\) or \\(xy\\) reveals the student does not understand place value — they are treating digits as numbers to be added or multiplied rather than as place-value components. This is a Class 6 concept (c6_math_ch01_003) that must be solid before forming equations.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the two equations for a fraction problem as: \\(\\frac{x+2}{y} = 3\\) and \\(\\frac{x}{y+2} = \\frac{1}{3}\\). The problem statement: \"If 2 is added to the numerator, the fraction becomes 3. If 2 is added to the denominator, the fraction becomes 1/3.\" Is the student's translation correct? Explain why or why not.",
+     "a": "Yes, the translation is correct. The first condition \"2 added to numerator\" gives \\((x+2)/y = 3\\). The second \"2 added to denominator\" gives \\(x/(y+2) = 1/3\\). A wrong answer (saying it's incorrect) reveals the student confuses which quantity is changed in each condition, or mistakenly thinks both numerator and denominator change simultaneously. They need practice isolating one change per condition.",
+     "self_check": true
+    },
+    {
+     "q": "Solve the following fraction problem: \"A fraction becomes 1/3 when 1 is subtracted from the numerator. It becomes 1/4 when 8 is added to the denominator. Find the fraction.\" Show all steps using the elimination method.",
+     "a": "Let fraction = \\(x/y\\). Condition 1: \\((x-1)/y = 1/3 \\Rightarrow 3x - 3 = y \\Rightarrow 3x - y = 3\\). Condition 2: \\(x/(y+8) = 1/4 \\Rightarrow 4x = y + 8 \\Rightarrow 4x - y = 8\\). Subtract first from second: \\((4x - y) - (3x - y) = 8 - 3 \\Rightarrow x = 5\\). Substitute: \\(3(5) - y = 3 \\Rightarrow y = 12\\). Fraction = \\(5/12\\). A wrong answer like \\(x=4, y=9\\) reveals the student likely made a sign error when cross-multiplying (e.g., writing \\(3x-1=y\\) instead of \\(3x-3=y\\)).",
+     "self_check": true
+    },
+    {
+     "q": "Two students solve the same two-digit number problem: \"The sum of digits is 9. The number is 6 times the units digit.\" Student A uses \\(x\\) = tens digit, \\(y\\) = units digit. Student B uses \\(x\\) = units digit, \\(y\\) = tens digit. Will both get the same final number? Will their equations look identical? Explain.",
+     "a": "Both will get the same final number (54), but their equations will be different: Student A: \\(x+y=9\\) and \\(10x+y=6y\\). Student B: \\(x+y=9\\) and \\(10y+x=6x\\). The equations are symmetric but not identical. A wrong answer (saying equations are identical) reveals the student does not understand that the variable assignment changes the algebraic form of the place-value expression \\(10(\\text{tens}) + \\text{units}\\). This tests deep understanding of the representation, not just mechanical solving.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"The sum of numerator and denominator of a fraction is 12. If the denominator is increased by 3, the fraction becomes 1/2.\" Their working: \\(x+y=12\\) and \\(x/(y+3)=1/2 \\Rightarrow 2x = y+3\\). They solve to get \\(x=5, y=7\\). Check if this solution satisfies the original problem conditions. If not, identify the exact step where the error occurred.",
+     "a": "Check: Fraction = \\(5/7\\). Sum = 12 ✓. Denominator increased by 3: \\(5/(7+3) = 5/10 = 1/2\\) ✓. The solution is actually correct. A student who says it's wrong likely miscalculated \\(5/10\\) as not equal to \\(1/2\\), or made an arithmetic error in solving. The error would be in verification, not in equation formation. This tests the habit of verifying solutions in the original context — a must for board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem on a two-digit number that satisfies these criteria: (a) The tens digit is twice the units digit. (b) The difference between the number and its reverse is 36. (c) The problem must have a unique valid solution with digits 0–9. Write the problem statement and solve it.",
+     "a": "Problem: \"A two-digit number has its tens digit twice the units digit. The difference between the number and the number formed by reversing its digits is 36. Find the number.\" Solution: Let units = \\(x\\), tens = \\(2x\\). Number = \\(10(2x)+x = 21x\\). Reverse = \\(10x+2x = 12x\\). Difference = \\(21x - 12x = 9x = 36 \\Rightarrow x=4\\). Tens = 8, units = 4. Number = 84. Check: reverse = 48, difference = 36 ✓. A poor answer (e.g., giving a problem with no solution or multiple solutions) reveals the student cannot reverse-engineer the constraints — they lack the synthesis skill to design problems with valid digit constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

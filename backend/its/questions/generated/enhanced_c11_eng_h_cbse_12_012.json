@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_12_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_12_012",
+   "title": "c11_eng_h_cbse_12_012",
+   "questions": [
+    {
+     "q": "Identify whether the following question is literal or inferential: \"In the poem 'Father to Son', what does the father mean when he says 'The seed I spent or sown it where / The land is his and none of mine'?\"",
+     "a": "This is an **inferential** question. The metaphor of \"seed\" and \"land\" is not explicitly explained in the poem; the student must infer that the father feels his effort (seed) was invested in the son's life (land) but the son now owns that life independently. A wrong answer (labeling it literal) reveals the student thinks metaphors are direct statements and misses the need to unpack figurative language.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words the difference between a literal question and an inferential question on a poem, using an example from \"Father to Son\" for each.",
+     "a": "A literal question asks for facts directly stated (e.g., \"What does the father say about the son's childhood?\" → \"He was small and helpless\"). An inferential question asks for implied meaning (e.g., \"Why does the father want to rebuild the relationship?\" → Inferred from his grief, anger, and admission of silence). A wrong answer that gives two literal examples shows the student cannot distinguish explicit text from implied meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Read these lines from the poem: \"Father and son, we both must live / On the same globe and the same land.\" Answer the inferential question: \"What does the phrase 'same globe and the same land' suggest about their relationship?\" Provide two textual clues from elsewhere in the poem to support your inference.",
+     "a": "The phrase suggests **inescapable proximity despite emotional distance** — they share physical space but not emotional connection. Clue 1: \"We speak like strangers\" (shows emotional gap). Clue 2: \"There's no sign of understanding in the air\" (confirms lack of communion). A wrong answer that only says \"they live together\" misses the contrast between physical closeness and emotional separation, and fails to cite evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two student answers to the question \"Why does the father feel 'anger grows from grief'?\" and identify which demonstrates stronger inferential reasoning.\nStudent A: \"Because the son doesn't love him.\"\nStudent B: \"The father's grief comes from the silence and lack of communication ('We speak like strangers', 'no sign of understanding'); his anger grows because this grief is unresolved and the son shows no effort to bridge the gap.\"",
+     "a": "**Student B** demonstrates stronger inferential reasoning. It chains two explicit clues (silence, no understanding) to the stated emotion (grief) and explains the causal link to anger. Student A offers an unsupported claim (\"doesn't love him\") with zero textual evidence — a classic guess masquerading as inference. A wrong choice reveals the student equates inference with personal opinion rather than evidence-based deduction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"In 'Father to Son', the father is entirely to blame for the broken relationship.\" Using inferential reasoning, write a 3-sentence rebuttal or support that cites at least two specific poetic devices (e.g., metaphor, alliteration, enjambment) as evidence.",
+     "a": "The claim is **unsupported**. The metaphor \"The seed I spent or sown it where / The land is his\" shows the father acknowledges the son's autonomy, not control. Enjambment in \"We speak like strangers, / There's no sign / Of understanding\" visually enacts the fractured communication, implicating both parties. The alliteration in \"silence surrounds us\" suggests a shared environment of muteness, not one-sided fault. A wrong evaluation that agrees without textual anchors shows the student cannot use poetic devices as inferential evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own inferential question on the poem \"Father to Son\" that requires connecting a specific image (e.g., \"hand\", \"seed\", \"globe\") to the theme of generation gap. Provide the ideal 3-step answer chain (Clue → Reasoning → Conclusion).",
+     "a": "**Question:** \"How does the image of the 'hand' in the final stanza ('I would have / Him prodigal, returning to / His father's house, the home he knew') deepen the theme of failed reconciliation?\"  \n**Ideal Chain:**  \nClue: The father wishes for a \"prodigal\" return (biblical allusion to Luke 15:11–32).  \nReasoning: The prodigal son returns *after* squandering inheritance; here the son hasn't left materially but emotionally — the \"hand\" the father extends is met with silence, not return.  \nConclusion: The image underscores the father's helpless longing — he offers a hand, but the gap is not physical absence but emotional estrangement that no gesture can bridge. A poor question/answer stays at plot level (\"he wants his son back\") without linking image to theme.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

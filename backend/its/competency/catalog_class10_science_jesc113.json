@@ -1,0 +1,100 @@
+{
+ "class": 10,
+ "subject": "science",
+ "chapter": 13,
+ "chapter_title": "Our Environment",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jesc113.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "jesc.113.13.1",
+   "title": "Ecosystem - Components and Energy Flow",
+   "section": "13.2",
+   "definition": "An ecosystem unites living organisms with the non-living parts of their surroundings - biotic components like plants, animals and decomposers with abiotic air, water and soil; energy enters through producers, flows one way along food chains and webs, and only about ten per cent passes to the next level.",
+   "formula": "-",
+   "key_idea": "Ten per cent law: energy shrinks at every step up the food chain.",
+   "textbook_ref": "jesc113.txt sections on ecosystem and energy flow",
+   "question_patterns": [
+    "define ecosystem and list its biotic and abiotic components",
+    "draw a food chain of four levels and label the trophic levels",
+    "why is only ten per cent of energy transferred to the next trophic level",
+    "what would happen if decomposers were removed from the ecosystem",
+    "differentiate producers, consumers and decomposers with examples",
+    "how does a food web differ from a food chain - explain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "sort the components",
+     "explain": "Living (biotic) and non-living (abiotic) parts together form the ecosystem."},
+    {"step": 2, "action": "follow the food chain",
+     "explain": "Producers feed herbivores, which feed carnivores, losing energy at each step."},
+    {"step": 3, "action": "close with decomposers",
+     "explain": "Decomposers return nutrients, completing the cycle."}
+   ]
+  },
+  {
+   "id": "jesc.113.13.2",
+   "title": "Ozone Layer - Depletion and Protection",
+   "section": "13.3",
+   "definition": "High in the stratosphere, a layer of ozone molecules shields life by absorbing harmful ultraviolet radiation; chlorofluorocarbons released from refrigerators and sprays broke this shield, and international agreements banning CFCs have since begun healing it.",
+   "formula": "-",
+   "key_idea": "A sun-shield of ozone, thinned by CFCs, was rescued by global agreement.",
+   "textbook_ref": "jesc113.txt section on ozone layer depletion",
+   "question_patterns": [
+    "what is the ozone layer and where is it located",
+    "how does ozone protect life on earth - explain the UV shielding",
+    "what chemicals caused ozone depletion - name and explain the mechanism",
+    "which international agreement banned ozone-harming chemicals",
+    "what effects would ozone depletion have on living beings",
+    "why is the ozone hole more severe near the poles - discuss"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "praise the shield",
+     "explain": "Ozone absorbs dangerous ultraviolet rays of the sun."},
+    {"step": 2, "action": "name the culprit",
+     "explain": "CFCs release chlorine atoms that split ozone molecules."},
+    {"step": 3, "action": "follow the fix",
+     "explain": "Banning CFCs worldwide lets ozone slowly rebuild."}
+   ]
+  },
+  {
+   "id": "jesc.113.13.3",
+   "title": "Managing Our Garbage - Biodegradable and Non-biodegradable Waste",
+   "section": "13.4",
+   "definition": "Wastes divide into two families: biodegradable wastes like peels and paper that decomposers break down, and non-biodegradable wastes like plastics and pesticides that persist for ages; segregation, composting, recycling and reduced use keep the environment livable.",
+   "formula": "-",
+   "key_idea": "Segregate at source: let nature digest the biodegradable, recycle the rest, refuse the worst.",
+   "textbook_ref": "jesc113.txt section on managing the garbage we produce",
+   "question_patterns": [
+    "differentiate biodegradable and non-biodegradable wastes with examples",
+    "why is segregation of waste important - explain the methods",
+    "how is composting done - describe the process",
+    "what problems do plastic wastes cause - discuss",
+    "list the steps an individual can take to reduce waste",
+    "why do pesticides like DDT accumulate in food chains - explain biomagnification"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "sort the waste",
+     "explain": "Separate degradable kitchen waste from plastics and metals."},
+    {"step": 2, "action": "treat each stream",
+     "explain": "Compost the degradable; recycle the reusable; bury the rest safely."},
+    {"step": 3, "action": "reduce at the source",
+     "explain": "Using less and refusing disposables shrinks the garbage problem."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex13.1",
+   "source_ref": "jesc113.txt exercises",
+   "questions": [
+     "Why are some substances biodegradable and some not?",
+     "Draw a food chain with four trophic levels and explain energy transfer.",
+     "What is ozone depletion - how has it been addressed globally?"
+   ]
+  }
+ ]
+}

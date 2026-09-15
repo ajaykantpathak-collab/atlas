@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_09_001",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_09_001",
+   "title": "c12_hs_cbse_09_001",
+   "questions": [
+    {
+     "q": "Define \"Recommended Dietary Allowance (RDA)\" as per ICMR-NIN terminology. How does it differ from \"Estimated Average Requirement (EAR)\"?",
+     "a": "RDA is the average daily dietary intake level sufficient to meet the nutrient requirements of nearly all (97–98%) healthy individuals in a particular life-stage and sex group. EAR is the intake estimated to meet the requirement of half the healthy individuals in that group. A wrong answer that equates RDA with minimum requirement or thinks RDA applies to sick individuals reveals confusion between population-level reference values and individual clinical prescriptions.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Nutritional requirements are the same for all adults aged 18–60 because their bodies have stopped growing.\" Explain why this statement is incorrect, using at least three distinct factors that cause variation within this age band.",
+     "a": "Requirements vary due to: (1) sex—men generally have higher lean mass and thus higher energy/protein needs; (2) physical activity level—sedentary vs. moderate vs. heavy workers differ by 600–1000 kcal/day; (3) physiological states—pregnancy, lactation, and menstruation increase iron, folate, calcium, and energy needs. A wrong answer that only mentions \"body size\" misses the metabolic and hormonal drivers. This misconception arises from oversimplifying adulthood as a uniform stage.",
+     "self_check": true
+    },
+    {
+     "q": "Using the ICMR 2020 RDA table, calculate the daily protein requirement (in grams) for a 25-year-old male software engineer (sedentary work, 65 kg) and a 25-year-old female construction labourer (heavy work, 55 kg). Show the reference body weights and protein allowances you used.",
+     "a": "Step 1: Identify reference body weights: ICMR 2020 uses 65 kg for adult male, 55 kg for adult female. Step 2: Protein RDA = 0.83 g/kg body weight for both sexes. Step 3: Male: 0.83 × 65 = 53.95 ≈ 54 g/day. Female: 0.83 × 55 = 45.65 ≈ 46 g/day. Step 4: Note that activity level does not change protein RDA per kg, but heavy work increases energy RDA. A wrong answer that adds extra protein for heavy work confuses energy and protein recommendations. This tests ability to apply the per-kg formula correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the iron RDA for three women: (a) 20-year-old non-pregnant, non-lactating; (b) 30-year-old pregnant (second trimester); (c) 50-year-old post-menopausal. Explain the physiological basis for each difference.",
+     "a": "(a) 19 mg/day (menstrual losses); (b) 27 mg/day (expanded maternal blood volume, fetal/placental growth, building fetal stores); (c) 11 mg/day (no menstrual losses, reduced absorption efficiency with age). The jump in pregnancy is due to ~1000 mg total iron cost of pregnancy; the drop post-menopause reflects cessation of menstrual loss. A wrong answer that gives the same value for all three ignores life-stage physiology. This tests analytical breakdown of nutrient needs by physiological state.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following meal-planning approach: \"Since the RDA for vitamin C is 80 mg/day for an adult male, I will give him exactly 80 mg from a supplement and ignore food sources.\" Evaluate this strategy from the perspectives of bioavailability, nutrient synergy, and safety.",
+     "a": "The strategy is flawed because: (1) Supplements lack the phytochemicals and fiber of whole foods that enhance absorption and provide synergistic benefits (e.g., flavonoids improving vitamin C recycling). (2) Isolated high-dose supplements can exceed the Tolerable Upper Intake Level (UL) if combined with fortified foods, risking gastrointestinal distress or kidney stones. (3) RDA is set for dietary intake from mixed diets, assuming ~80% bioavailability; supplements may have different bioavailability. A wrong answer that says \"supplements are fine because they meet the number\" misses the food-matrix concept central to nutrition science.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-day menu for a 12-year-old adolescent girl (reference weight 40 kg) that meets her RDA for energy (2,330 kcal) and protein (46 g) using only vegetarian Indian foods. List the foods, quantities, and show the calculation for energy and protein totals.",
+     "a": "A good answer provides a realistic menu (e.g., breakfast: 2 stuffed parathas + curd; lunch: rice + dal + sabzi + salad; evening: fruit + nuts; dinner: roti + paneer + vegetables) with approximate weights, uses ICMR nutritive values to sum energy and protein, and shows totals within ±10% of RDA. A poor answer either copies an adult menu, ignores portion sizes, or fails to demonstrate the calculation. This tests synthesis of food composition knowledge with RDA application.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+  "catalog": "catalog_class12_geography_legy101",
+  "concepts": [
+    {
+      "id": "legy.101.1",
+      "questions": [
+        {"q": "Which branch of geography studies the changing relationship between the resting human community and the active physical environment? (two words)", "a": "human geography"},
+        {"q": "In the early stage of human geography's development, which element was treated as dominant: nature or humans? (one word)", "a": "nature"},
+        {"q": "Human geography synthesises its ideas from what kind of neighbouring disciplines? (two words)", "a": "sister disciplines"},
+        {"q": "In the latest stage of its development, human geography studies humans as what of the earth? (one word)", "a": "modifiers"},
+        {"q": "Human geography studies the human world across what dimension of the earth? (one word)", "a": "surface"},
+        {"q": "Which two environments interact in the subject matter of human geography? (two words)", "a": "physical, human"},
+        {"q": "Does human geography describe nature-human relations as fixed or as changing? (one word)", "a": "changing"}
+      ]
+    },
+    {
+      "id": "legy.101.2",
+      "questions": [
+        {"q": "Which school of thought holds that nature controls human life? (two words)", "a": "environmental determinism"},
+        {"q": "Name the German geographer associated with environmental determinism. (one word)", "a": "Ratzel"},
+        {"q": "Which American disciple of Ratzel carried determinism into English-language geography? (one word)", "a": "Semple"},
+        {"q": "Who is the French geographer linked with possibilism? (one word)", "a": "Vidal de La Blache"},
+        {"q": "Which French scholar described possibilism's motto that there are no necessities but everywhere possibilities? (one word)", "a": "Febvre"},
+        {"q": "Who proposed neo-determinism, also called stop-and-go determinism? (two words)", "a": "Griffith Taylor"},
+        {"q": "According to Taylor's stop-and-go determinism, development should balance human skill with what? (two words)", "a": "environmental limits"}
+      ]
+    },
+    {
+      "id": "legy.101.3",
+      "questions": [
+        {"q": "Which sub-field of human geography studies cities? (one word)", "a": "urban"},
+        {"q": "Which sub-field of human geography studies rural settlement and countryside life? (one word)", "a": "rural"},
+        {"q": "Which sub-field of human geography deals with numbers and structure of people? (two words)", "a": "population geography"},
+        {"q": "Agriculture, industry and tourism are branches of which major sub-field? (one word)", "a": "economic geography"},
+        {"q": "Which sub-field of human geography connects past geographies with the present? (one word)", "a": "historical"},
+        {"q": "Which sub-field of human geography studies territories, boundaries and states? (one word)", "a": "political"},
+        {"q": "Which sub-field bridges human geography with the study of plants and animals? (one word)", "a": "bio-geography"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_02_011",
+   "title": "c12_soc_cbse_02_011",
+   "questions": [
+    {
+     "q": "According to the Census of India, what is the minimum duration of stay required for a person to be counted as a migrant at the new place of residence?",
+     "a": "The minimum duration is six months. A wrong answer (e.g., \"one month\" or \"one year\") reveals that the student is confusing the Census definition with the NSSO's short-term migration definition (1–6 months) or with the UN's international migration threshold (12 months). This confusion leads to misinterpretation of migration volume data in exam questions.",
+     "self_check": true
+    },
+    {
+     "q": "A woman moves from her village in Tamil Nadu to Chennai after marriage and has lived there for ten years. Her brother moves from the same village to work in a textile factory in Tiruppur for nine months every year, returning for the harvest. Classify both migrations by stream and duration. Explain why the Census might count only one of them as a migrant in the 2011 data.",
+     "a": "The woman: rural-to-urban, long-term/permanent migrant. The brother: rural-to-urban, seasonal/circular migrant (duration 9 months but recurring). The Census 2011 counts a person as a migrant only if the current residence differs from the place of last residence AND the duration of stay is ≥6 months. The brother's \"usual place of residence\" may still be recorded as the village if he returns regularly, so he may not be counted as a migrant at the destination. A wrong classification (e.g., calling both \"permanent\") shows the student misses the distinction between permanent relocation and circular migration, a critical error for interpreting urbanisation data.",
+     "self_check": true
+    },
+    {
+     "q": "In the 2011 Census, Uttar Pradesh and Bihar together accounted for the largest share of out-migrants, while Maharashtra and Delhi were top destinations. Using the push-pull framework, explain why the rural-to-urban stream dominates this corridor. Give two specific push factors from the source and two pull factors from the destination.",
+     "a": "Push factors: (1) extreme land fragmentation and low agricultural productivity in the Gangetic plain; (2) caste-based social oppression and lack of non-farm employment in villages. Pull factors: (1) construction and service-sector jobs in Delhi NCR and Mumbai metropolitan region offering daily wages 3–4 times the rural MGNREGA rate; (2) established migrant networks (kinship/contractor chains) that reduce information and settlement costs. A wrong answer listing only \"poverty\" and \"jobs\" without regional specificity shows the student cannot apply the framework to concrete Indian contexts — a common board-exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the consequences of male-dominated seasonal migration from rural Bihar to Punjab's agriculture with female-dominated permanent migration from rural Tamil Nadu to Chennai's garment factories. How do the impacts on source-household gender roles differ?",
+     "a": "In Bihar-Punjab circular migration, men leave; women left behind manage farms, negotiate with markets, and often gain decision-making authority (feminisation of agriculture), but also face increased workload and vulnerability. In Tamil Nadu-Chennai permanent migration, women migrate independently; source households may receive remittances but lose female labour, leading to renegotiation of care work (often shifted to older women or paid help). A wrong answer that treats both as \"women gain empowerment\" misses the structural difference: circular vs. permanent migration produces distinct gender outcomes — a nuance examiners test in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Internal migration in India is primarily driven by economic distress; therefore, improving rural incomes through MGNREGA will significantly reduce rural-to-urban migration.\" Use evidence from migration theories and Indian data.",
+     "a": "The statement is partially correct but incomplete. Economic distress is a major push factor, but migration is also driven by aspiration (pull of urban lifestyle, education for children), social mobility (escape from caste oppression), and network effects. Data show that MGNREGA increased rural wages but did not stop migration; instead, it financed migration (remittances funded travel). Moreover, non-economic factors like marriage migration (the largest stream for women) are unaffected. A student who agrees wholly ignores the multi-causal nature of migration and the role of social networks — a frequent error in \"evaluate\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-question survey module to distinguish between \"distress migration\" and \"aspirational migration\" among rural-to-urban migrants in a Indian city. For each question, state the indicator it captures and why it helps differentiation.",
+     "a": "1. \"Did you have a job lined up before moving?\" (Indicator: pre-migration information/network — aspirational migrants often have contracts). 2. \"What was the main reason for leaving?\" (Open-coded; distress: crop failure, debt; aspirational: better income, skills). 3. \"How many months per year do you stay in the city?\" (Indicator: circular vs. permanent — distress often circular). 4. \"Who decided you should migrate?\" (Self vs. family/contractor — distress often coerced). 5. \"Do you plan to return permanently to the village?\" (Indicator: attachment vs. settlement intention). A poor module uses only yes/no income questions, missing the agency/structure distinction central to sociological analysis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

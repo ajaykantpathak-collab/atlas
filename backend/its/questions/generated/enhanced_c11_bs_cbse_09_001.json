@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_09_001",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_09_001",
+   "title": "c11_bs_cbse_09_001",
+   "questions": [
+    {
+     "q": "State the exact investment in plant and machinery and turnover limits for a Micro Enterprise under the MSMED Act 2006.",
+     "a": "Micro Enterprise: Investment in plant and machinery/equipment ≤ ₹1 crore AND Turnover ≤ ₹5 crore. Both conditions must be satisfied simultaneously. A wrong answer (e.g., stating only investment limit or only turnover limit, or using outdated limits like ₹25 lakhs/₹1 crore from pre-2020 classification) reveals the student has not updated their knowledge to the revised 2020 notification which unified manufacturing and services criteria and raised thresholds significantly.",
+     "self_check": true
+    },
+    {
+     "q": "A service enterprise has investment in equipment of ₹8 crore and annual turnover of ₹45 crore. Classify it as Micro, Small, or Medium and explain why it cannot be classified as Micro even though its turnover is below ₹50 crore.",
+     "a": "This is a Small Enterprise. Investment ₹8 crore exceeds Micro limit (₹1 crore) but fits Small limit (≤₹10 crore). Turnover ₹45 crore exceeds Micro limit (₹5 crore) but fits Small limit (≤₹50 crore). Both criteria point to Small. A student who says \"Micro because turnover is low\" or \"Medium because investment is high\" reveals the misconception that only one criterion matters, or that the higher category applies when criteria conflict. The rule: the enterprise takes the LOWER (more restrictive) category when investment and turnover point to different categories; here both point to Small.",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturing unit has investment in plant and machinery of ₹12 crore and annual turnover of ₹8 crore. Determine its MSME category. Show your reasoning step by step.",
+     "a": "Step 1: Check investment ₹12 crore against thresholds — exceeds Small (₹10 crore), fits Medium (≤₹50 crore). Step 2: Check turnover ₹8 crore against thresholds — exceeds Micro (₹5 crore), fits Small (≤₹50 crore). Step 3: Investment points to Medium, turnover points to Small. Step 4: Apply the \"lower category\" rule — the enterprise is classified as Small because it fails the investment test for Medium? Wait — investment ₹12 crore > ₹10 crore (Small max), so it does NOT qualify as Small on investment. It qualifies as Medium on investment (≤₹50 cr) and Small on turnover (≤₹50 cr). Since criteria conflict, the enterprise takes the LOWER category that it fully satisfies? Actually, the rule is: an enterprise is classified based on the category where BOTH criteria are met. Here, for Small: investment ₹12 cr > ₹10 cr (FAIL), turnover ₹8 cr ≤ ₹50 cr (PASS) — fails Small. For Medium: investment ₹12 cr ≤ ₹50 cr (PASS), turnover ₹8 cr ≤ ₹250 cr (PASS) — passes Medium. So it is Medium. A student who answers \"Small\" reveals the error of picking the lower category without verifying that BOTH criteria are satisfied for that category.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the classification basis for MSMEs under the MSMED Act 2006 (post-2020 revision) with the pre-2020 classification. Why was the change from separate manufacturing/services criteria to a unified composite criterion necessary?",
+     "a": "Pre-2020: Separate criteria for manufacturing (investment in plant & machinery) and services (investment in equipment), with lower thresholds (Micro: ₹25 lakhs/₹10 lakhs; Small: ₹5 cr/₹2 cr; Medium: ₹10 cr/₹5 cr). Post-2020: Unified composite criterion (investment + turnover) for both sectors, higher thresholds. The change was necessary because: (1) the old investment-only criterion became obsolete with inflation and technology changes; (2) services sector grew rapidly but had restrictive low investment limits; (3) turnover criterion captures scale of operations better than investment alone; (4) unified criterion simplifies compliance and eliminates sectoral arbitrage. A student who only lists threshold differences without explaining the economic rationale reveals surface-level memorisation without understanding policy intent.",
+     "self_check": true
+    },
+    {
+     "q": "\"Village industries and cottage industries are sub-categories of MSMEs.\" Evaluate this statement as True or False with justification based on the NCERT textbook definitions.",
+     "a": "False. Village industries and cottage industries are distinct categories defined separately, not sub-categories of MSMEs. Village industry: defined by location (rural area) and fixed capital investment per artisan specified by Central Government. Cottage industry: not defined by capital investment criteria at all; they are traditional/rural industries using family labour and local resources. MSMEs are defined by the MSMED Act 2006 using investment-turnover composite criteria. While there is overlap (many village/cottage units may fall within Micro investment limits), they are conceptually and legally distinct classifications. A student who says \"True\" conflates definitional frameworks and ignores that cottage industries explicitly lack capital investment criteria — a key distinction the textbook emphasises.",
+     "self_check": true
+    },
+    {
+     "q": "Create a decision flowchart (describe in text) that a new entrepreneur can use to self-classify their proposed enterprise as Micro, Small, or Medium. Include decision points for both manufacturing and service enterprises, and show how to handle cases where investment and turnover point to different categories.",
+     "a": "Flowchart logic:\nSTART → Enter proposed investment (I) and projected annual turnover (T).\nCHECK 1: Is I ≤ ₹1 Cr AND T ≤ ₹5 Cr? → YES → CLASSIFY AS MICRO → END.\nCHECK 2: Is I ≤ ₹10 Cr AND T ≤ ₹50 Cr? → YES → CLASSIFY AS SMALL → END.\nCHECK 3: Is I ≤ ₹50 Cr AND T ≤ ₹250 Cr? → YES → CLASSIFY AS MEDIUM → END.\nCHECK 4: If any check fails → NOT AN MSME (large enterprise) → END.\nCritical rule: Checks must be in ascending order (Micro → Small → Medium). The first category where BOTH conditions are satisfied is the classification. If I qualifies for Medium but T qualifies for Small, the enterprise is Small ONLY IF it also satisfies Small's investment limit (I ≤ ₹10 Cr). If I = ₹12 Cr, T = ₹8 Cr → fails Small (I > ₹10), passes Medium → Medium. A good answer shows sequential logic with the \"both conditions must pass\" gate at each level. A poor answer uses parallel checks or allows \"higher category wins\" logic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

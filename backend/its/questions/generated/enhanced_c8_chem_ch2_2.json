@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_chem_ch2_2",
+ "concepts": [
+  {
+   "id": "enh:c8_chem_ch2_2",
+   "title": "c8_chem_ch2_2",
+   "questions": [
+    {
+     "q": "What term is used to describe the fundamental building blocks that make up all matter around us?",
+     "a": "The fundamental building blocks of matter are called constituent particles, which include atoms, molecules, or ions. A wrong answer like \"cells\" or \"atoms only\" shows confusion between biological units of life and chemical units of matter, or ignores that compounds are made of molecules.",
+     "self_check": true
+    },
+    {
+     "q": "When a solid dissolves in a liquid, why does the volume of the liquid not increase significantly, even though matter has been added?",
+     "a": "The volume does not increase significantly because the constituent particles of liquids have spaces between them (inter-particle space), into which the smaller particles of the dissolved solid fit. A wrong answer stating that \"the solid vanishes into nothing\" shows a misconception that matter can be destroyed rather than understanding particle spacing.",
+     "self_check": true
+    },
+    {
+     "q": "If you have a pure sample of copper wire and a pure sample of water, what are the primary constituent particles that make up each of these substances respectively?",
+     "a": "Copper is an element made of individual copper atoms, while water is a compound made of water molecules ($H_2O$). To find this, we recognize that metals exist primarily as discrete atoms, whereas non-metal combinations form molecules. A wrong answer stating both are made of molecules indicates a failure to distinguish between elemental substances and molecular compounds.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze a sample of carbon dioxide ($CO_2$) gas and a sample of oxygen ($O_2$) gas. How do their constituent particles compare in terms of composition?",
+     "a": "Both are made of molecules, but an oxygen molecule ($O_2$) consists of two atoms of the same element (oxygen), whereas a carbon dioxide molecule ($CO_2$) consists of one carbon atom chemically bonded to two oxygen atoms. A wrong answer claiming they are identical because both are gases shows a failure to look at microscopic chemical composition.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The constituent particles of a solid are completely stationary and locked in a fixed position, so they possess no energy whatsoever.\" Is this scientifically accurate? Explain why or why not.",
+     "a": "This statement is inaccurate. While the constituent particles of a solid are tightly packed and cannot move from place to place, they still vibrate constantly about their fixed mean positions because they possess vibrational kinetic energy. A wrong answer accepting the statement as true reveals a misconception that lack of macroscopic movement equals absolute stillness at the microscopic particle level.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple mental model or physical analogy using everyday Indian household items (such as marbles, grains of dal, or puffed rice) to demonstrate how constituent particles are arranged differently in a solid versus a gas.",
+     "a": "A good response would describe tightly packing identical marbles in a box so they touch and cannot move easily to represent a solid, and scattering a few puffed rice grains far apart in a large container with plenty of empty space to represent a gas. A poor response would use inconsistent objects or fail to represent the spatial arrangement and spacing differences between states of matter.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

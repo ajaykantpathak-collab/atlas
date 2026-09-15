@@ -1,0 +1,329 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 305,
+ "chapter_title": "Panchayati Raj",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/fess305.txt",
+ "concepts": [
+  {
+   "id": "fess.305.1.1",
+   "title": "Gram Sabha Membership",
+   "section": "Gram Sabha",
+   "definition": "A village-level assembly consisting of all adults aged 18 or older who are registered as voters in that specific area.",
+   "formula": "membership = all registered voters >= 18 years",
+   "key_idea": "The fundamental unit of direct democracy where citizens engage with elected officials.",
+   "textbook_ref": "fess305.txt lines 30-45",
+   "question_patterns": [
+    "What is a Gram Sabha?",
+    "Who can be a member of the Gram Sabha?",
+    "Define the primary assembly of a village Panchayat.",
+    "What are the eligibility criteria for joining a Gram Sabha?",
+    "Who is allowed to vote in the village meeting?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check age",
+     "explain": "Verify if the individual is 18 years of age or older."
+    },
+    {
+     "step": 2,
+     "action": "Check voting rights",
+     "explain": "Confirm the person is a registered voter in the village area."
+    }
+   ]
+  },
+  {
+   "id": "fess.305.1.2",
+   "title": "Ward Representation",
+   "section": "Gram Sabha",
+   "definition": "The division of a village into smaller zones, each electing a representative known as a Panch.",
+   "formula": "village = sum of wards",
+   "key_idea": "Ensuring every part of a village has a voice in the local government.",
+   "textbook_ref": "fess305.txt lines 75-85",
+   "question_patterns": [
+    "What is a ward in a village?",
+    "How are ward members or Panchs elected?",
+    "Explain the division of a village Panchayat into smaller areas.",
+    "Who is a Ward Member?",
+    "How does a village ensure representation for all its parts?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify area",
+     "explain": "Divide the village into smaller geographical units called wards."
+    },
+    {
+     "step": 2,
+     "action": "Elect representative",
+     "explain": "Voters in each ward elect one Panch to represent them."
+    }
+   ]
+  },
+  {
+   "id": "fess.305.1.3",
+   "title": "The Sarpanch",
+   "section": "Gram Sabha",
+   "definition": "The presiding officer and president of the Gram Panchayat, elected by all members of the Gram Sabha.",
+   "formula": "sarpanch = panchayat president",
+   "key_idea": "The executive head of the village council.",
+   "textbook_ref": "fess305.txt lines 80-90",
+   "question_patterns": [
+    "Who is a Sarpanch?",
+    "How is the Panchayat President chosen?",
+    "What is the role of the Sarpanch in a village?",
+    "Who leads the Gram Panchayat?",
+    "Describe the election process for the head of the village council."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Election",
+     "explain": "All members of the Gram Sabha vote to elect the Sarpanch."
+    }
+   ]
+  },
+  {
+   "id": "fess.305.1.4",
+   "title": "Panchayat Secretary",
+   "section": "Gram Sabha",
+   "definition": "A government-appointed official who manages administrative records and organizes meetings for both the Gram Sabha and Gram Panchayat.",
+   "formula": "secretary = government appointee",
+   "key_idea": "The administrative link between the state government and the village council.",
+   "textbook_ref": "fess305.txt lines 90-100",
+   "question_patterns": [
+    "What are the duties of a Panchayat Secretary?",
+    "Is the Secretary of the Gram Panchayat an elected person?",
+    "Who is responsible for keeping records of Panchayat proceedings?",
+    "How is the Panchayat Secretary appointed?",
+    "Who calls the meetings of the Gram Sabha?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Appointment",
+     "explain": "The government appoints the Secretary to the Panchayat."
+    },
+    {
+     "step": 2,
+     "action": "Record keeping",
+     "explain": "The Secretary maintains minutes and records of all meetings."
+    }
+   ]
+  },
+  {
+   "id": "fess.305.1.5",
+   "title": "BPL List Approval",
+   "section": "Gram Sabha",
+   "definition": "The process where the village assembly reviews and finalizes the list of households living below the poverty line to ensure fairness.",
+   "formula": "gap = limit - income",
+   "key_idea": "Public oversight to prevent corruption in welfare distribution.",
+   "textbook_ref": "fess305.txt lines 100-125",
+   "question_patterns": [
+    "How is the BPL list finalized in a village?",
+    "Calculate the income gap for a BPL family.",
+    "What is the role of the Gram Sabha in approving the poverty list?",
+    "How much below the limit is the family income?",
+    "Find the difference between the BPL limit and actual income."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate gap",
+     "explain": "Subtract the family income from the government-defined BPL limit.",
+     "compute": "gap = limit - income"
+    }
+   ]
+  },
+  {
+   "id": "fess.305.2.1",
+   "title": "Gram Panchayat Functions",
+   "section": "The Gram Panchayat",
+   "definition": "The mandatory tasks of the village council, including infrastructure maintenance, tax collection, and executing government schemes.",
+   "formula": "tasks = construction + taxes + schemes",
+   "key_idea": "The operational responsibilities of the local government for village development.",
+   "textbook_ref": "fess305.txt lines 135-145",
+   "question_patterns": [
+    "What are the main works of a Gram Panchayat?",
+    "Who is responsible for maintaining village roads and water sources?",
+    "Which body executes government employment schemes in rural areas?",
+    "List the functions of the village council.",
+    "How does the Panchayat manage common property resources?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Infrastructure",
+     "explain": "Maintain roads, drainage, and water sources."
+    },
+    {
+     "step": 2,
+     "action": "Administration",
+     "explain": "Levy and collect local taxes."
+    }
+   ]
+  },
+  {
+   "id": "fess.305.2.2",
+   "title": "Panchayat Funding",
+   "section": "The Gram Panchayat",
+   "definition": "The total financial resources available to a Panchayat from taxes, government grants, and community donations.",
+   "formula": "total_funds = taxes + grants + donations",
+   "key_idea": "The financial basis for local administrative and developmental activities.",
+   "textbook_ref": "fess305.txt lines 145-155",
+   "question_patterns": [
+    "What are the sources of funds for the Panchayat?",
+    "Calculate the total funds of a Gram Panchayat.",
+    "How does a village council get money for its work?",
+    "Find the total income of the Panchayat from all sources.",
+    "What is the sum of taxes, grants, and donations for the village?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum initial sources",
+     "explain": "Add the tax collection and government grants.",
+     "compute": "subtotal = taxes + grants"
+    },
+    {
+     "step": 2,
+     "action": "Add donations",
+     "explain": "Add community donations to the subtotal to find the total funds.",
+     "compute": "total_funds = subtotal + donations"
+    }
+   ]
+  },
+  {
+   "id": "fess.305.3.1",
+   "title": "Three-Tier Panchayati Raj",
+   "section": "Three Levels of Panchayats",
+   "definition": "The hierarchical structure of rural local government comprising the Village, Block, and District levels.",
+   "formula": "tiers = gram panchayat + panchayat samiti + zila parishad",
+   "key_idea": "Decentralized governance across different administrative scales.",
+   "textbook_ref": "fess305.txt lines 165-185",
+   "question_patterns": [
+    "What are the three levels of the Panchayati Raj system?",
+    "Name the tiers of rural local government in India.",
+    "How is the Panchayati Raj structured?",
+    "Describe the levels of democratic government in rural areas.",
+    "What is the hierarchy of the Panchayat system?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Village level",
+     "explain": "Identify the Gram Panchayat as the first tier."
+    },
+    {
+     "step": 2,
+     "action": "Block level",
+     "explain": "Identify the Panchayat Samiti or Janpad Panchayat as the middle tier."
+    },
+    {
+     "step": 3,
+     "action": "District level",
+     "explain": "Identify the Zila Parishad as the top tier."
+    }
+   ]
+  },
+  {
+   "id": "fess.305.3.2",
+   "title": "Zila Parishad",
+   "section": "Three Levels of Panchayats",
+   "definition": "The district-level body that formulates developmental plans and regulates the distribution of funds among Panchayats.",
+   "formula": "zila parishad = district level council",
+   "key_idea": "The highest administrative body in the rural local government hierarchy.",
+   "textbook_ref": "fess305.txt lines 175-185",
+   "question_patterns": [
+    "What is the role of the Zila Parishad?",
+    "Which body makes developmental plans at the district level?",
+    "Who regulates money distribution among Gram Panchayats?",
+    "What is the District Panchayat called?",
+    "Describe the functions of the Zila Parishad."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Planning",
+     "explain": "Create developmental plans for the entire district."
+    },
+    {
+     "step": 2,
+     "action": "Regulation",
+     "explain": "Manage the flow of funds to the lower tiers."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fess305.txt lines 100-125",
+   "concept": "fess.305.1.5",
+   "question_type": "compute",
+   "question_pattern": "If the government BPL limit is {limit} and Om Prakash's family income is {income}, what is the income gap?",
+   "extracted_variables": {
+    "limit": "BPL income limit",
+    "income": "family income"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate gap",
+     "explain": "Subtract income from the limit to find the deficit.",
+     "compute": "gap = limit - income"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fess305.txt lines 145-155",
+   "concept": "fess.305.2.2",
+   "question_type": "compute",
+   "question_pattern": "A Panchayat collects {taxes} in tax, receives {grants} from the government, and gets {donations} from villagers. What is the total fund?",
+   "extracted_variables": {
+    "taxes": "tax amount",
+    "grants": "grant amount",
+    "donations": "donation amount"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum taxes and grants",
+     "explain": "Add the first two sources of income.",
+     "compute": "subtotal = taxes + grants"
+    },
+    {
+     "step": 2,
+     "action": "Add donations",
+     "explain": "Add the final source to get the total.",
+     "compute": "total_funds = subtotal + donations"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "fess305.txt lines 190-200",
+   "questions": [
+    "What problem did the villagers in Hardas village face? What did they do to solve this problem?",
+    "What, in your opinion, is the importance of the Gram Sabha?",
+    "What is the link between a Gram Sabha and a Gram Panchayat?",
+    "What is the difference between a Gram Sabha and a Gram Panchayat?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)"
+}

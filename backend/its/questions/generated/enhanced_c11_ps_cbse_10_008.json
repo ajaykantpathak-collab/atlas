@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_10_008",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_10_008",
+   "title": "c11_ps_cbse_10_008",
+   "questions": [
+    {
+     "q": "List any three features of the Indian Constitution borrowed from the British Constitution and their corresponding articles.",
+     "a": "Parliamentary system of government (Articles 74, 75), Rule of Law (Article 14), and Single Citizenship (Articles 5-11). A wrong answer listing Fundamental Rights or Judicial Review reveals confusion between British and American sources, indicating the student cannot distinguish which features originated from unwritten conventions versus written constitutional texts.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the framers adopt the 'procedure established by law' phrase in Article 21 from the Japanese Constitution instead of the American 'due process of law', and how did this choice evolve through judicial interpretation?",
+     "a": "The framers deliberately chose the narrower Japanese phrasing to limit judicial review over legislative policy, fearing that 'due process' would empower courts to strike down social welfare legislation. However, in Maneka Gandhi v. Union of India (1978), the Supreme Court creatively interpreted 'procedure established by law' to require fairness, justice, and reasonableness—effectively reading 'due process' into Article 21. A wrong answer that misses this evolutionary judicial activism shows inability to trace how borrowed textual choices interact with judicial interpretation over time.",
+     "self_check": true
+    },
+    {
+     "q": "A new democracy wants to borrow India's model of Directive Principles (non-justiciable but morally binding guidelines for governance). What specific Indian innovation should it adopt to ensure these principles actually influence policy, and which article enables this?",
+     "a": "The Indian innovation is Article 37, which declares Directive Principles \"fundamental in the governance of the country\" and imposes a duty on the state to apply them in making laws, combined with judicial practice of using directives to interpret fundamental rights (e.g., reading Article 21 with Article 41 for right to education). Merely copying non-justiciability without Article 37's mandatory language and the interpretive bridge to justiciable rights renders directives toothless. A wrong answer focusing only on non-justiciability misses the constitutional architecture that gives directives practical force.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Canadian and Indian models of federalism. How does Article 3 of the Indian Constitution represent a more centralised adaptation of the Canadian model?",
+     "a": "Canada's federalism (Constitution Act, 1867) creates co-ordinate sovereignty where provinces cannot be unilaterally altered by the federal Parliament. India borrowed the 'strong centre' idea but Article 3 empowers Parliament to unilaterally reorganise states (change boundaries, names, areas) by simple majority—making states mere administrative units rather than sovereign entities. The Canadian model requires constitutional amendment for provincial changes; India's adaptation prioritises territorial integrity over state autonomy. A wrong answer claiming India has 'true federalism' like Canada misses this fundamental asymmetry designed for unity in diversity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the criticism that India's emergency provisions (Articles 352, 356, 360) borrowed from the Weimar Constitution create a 'constitutional dictatorship' risk. What specific safeguards differentiate the Indian model?",
+     "a": "The Weimar Article 48 allowed presidential rule by decree without parliamentary oversight, enabling Hitler's takeover. India's adaptation includes: (1) mandatory parliamentary approval within one month by special majority (Article 352), (2) judicial review of emergency proclamation (S.R. Bommai case for Article 356), (3) 44th Amendment making Articles 20 and 21 non-suspendable even during emergency, and (4) replacing 'internal disturbance' with 'armed rebellion' as grounds. The criticism is valid only if these safeguards are ignored; the Indian model transforms emergency from a tool of dictatorship into a controlled constitutional mechanism. A weak evaluation lists safeguards without explaining how they structurally prevent Weimar-style abuse.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a constitutional provision for a hypothetical multi-ethnic federation that borrows India's 'basic structure doctrine' (judicially created) but makes it textually explicit. Explain which three Indian features you are constitutionalising and why.",
+     "a": "A strong answer would textualise: (1) Parliamentary sovereignty limitation (from UK borrowing + Indian judicial review), (2) Federal balance protection (from Canadian borrowing + S.R. Bommai), (3) Secularism and minority rights (from Indian adaptation of Western secularism). The provision would declare these as unamendable 'eternity clauses' with a special amendment procedure requiring 3/4th majority in both houses plus ratification by 2/3rd of states. A poor answer merely copies Article 368 without identifying which borrowed features need eternal protection in the new context, showing inability to transfer constitutional principles across settings.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

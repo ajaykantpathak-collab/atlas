@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_bio_ch02_010",
+ "concepts": [
+  {
+   "id": "enh:c7_bio_ch02_010",
+   "title": "c7_bio_ch02_010",
+   "questions": [
+    {
+     "q": "Which primary organ of the human respiratory system contains millions of microscopic air sacs called alveoli where gas exchange actually takes place?",
+     "a": "The lungs contain the alveoli where gas exchange occurs. A student who answers \"trachea\" or \"bronchi\" confuses the transport tubes (pipes that carry air) with the actual gas-exchange surface where oxygen enters the blood and carbon dioxide leaves.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the inner lining of the trachea is supported by C-shaped rings of cartilage rather than soft, flexible tissue alone.",
+     "a": "The C-shaped cartilage rings provide structural rigidity to keep the windpipe permanently open, preventing it from collapsing when air pressure drops during inhalation. A student who thinks cartilage is used for muscle movement or food digestion misunderstands that the trachea must remain an open tube for unobstructed airflow.",
+     "self_check": true
+    },
+    {
+     "q": "A student catches a severe cold, causing their nasal passages to swell up and produce thick mucus, forcing them to breathe entirely through their mouth. What immediate physical consequence does this have on the air entering their lower respiratory tract?",
+     "a": "The air entering the lungs will be colder, drier, and contain more dust particles and bacteria. Step 1: Identify that the nasal cavity's normal job is to filter, warm, and moisten incoming air using hairs and mucus. Step 2: Mouth breathing bypasses this specialized nasal conditioning. Step 3: Conclude that raw, unfiltered air reaches the pharynx and trachea, potentially irritating the respiratory lining. A student who thinks mouth breathing improves oxygen intake fails to realize the protective and conditioning role of the nasal cavity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the structural features of the trachea and the tiny bronchioles. How do their structural differences reflect their specific locations in the air pathway?",
+     "a": "The trachea is a wide tube near the top of the system requiring rigid cartilage rings to stay open because it carries air for both lungs. Bronchioles are narrow, smaller branches deep inside the soft tissue of the lungs where cartilage is replaced by smooth muscle to help regulate airflow into individual air sacs. A student who believes bronchioles also need rigid cartilage rings does not understand how lung tissue flexes and changes volume during respiration.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Oxygen gas molecules are actively pumped across the walls of the alveoli into the blood capillaries by muscular contractions of the lung tissue.\" Is this statement scientifically accurate? Why or why not?",
+     "a": "The statement is inaccurate because gas exchange across the alveoli relies on passive diffusion driven by concentration gradients, not active muscular pumping by the lungs. Step 1: Analyze the mechanism of gas movement (high oxygen concentration in alveoli vs. low oxygen in blood). Step 2: Note that lungs lack muscle tissue in their walls (they rely on the diaphragm and rib muscles for volume changes, not alveoli movement). Step 3: Conclude that oxygen diffuses passively across the ultra-thin alveolar-capillary membrane. A student who says the statement is true confuses breathing muscle movements with cellular gas transfer.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple model using everyday classroom materials (such as a plastic bottle, Y-shaped tubing, balloons, and a rubber sheet) to demonstrate the human respiratory tract and lungs. Explain which part of your model represents the trachea and which represents the alveoli.",
+     "a": "A good design uses the Y-shaped tubing to represent the trachea splitting into bronchi, and the small balloons attached to the ends of the tubing to represent the lungs and their air-filled elastic chambers. A poor answer uses a single solid object with no internal tubes or flexible sacs, showing no understanding of the branching pipeline structure of the respiratory system.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

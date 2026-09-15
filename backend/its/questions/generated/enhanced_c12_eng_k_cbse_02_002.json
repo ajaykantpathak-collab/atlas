@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_02_002",
+   "title": "c12_eng_k_cbse_02_002",
+   "questions": [
+    {
+     "q": "What is the primary narrative point of view used in \"Eveline,\" and how does it differ from first-person narration?",
+     "a": "The story uses third-person limited narration with free indirect discourse. Unlike first-person (\"I decided to leave\"), the narrator refers to Eveline as \"she\" but renders her thoughts, sensations, and idiolect directly (e.g., \"He would save her. He would give her life, perhaps love, too.\" — no \"she thought\" tag). A wrong answer (e.g., \"first person because we hear her thoughts\") reveals confusion between *access to consciousness* and *grammatical person*. Students often conflate intimacy of perspective with pronoun choice.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words how the flashback about Eveline's mother's death and the street organ are triggered in the present moment of the story.",
+     "a": "As Eveline sits at the window, she hears a street organ playing a melody she recognizes from the night her mother died. This auditory cue triggers an involuntary memory: the organ player was paid to leave, her father shouted \"Damned Italians!\", and her mother's final delirious words (\"Derevaun Seraun\") return. The past isn't recalled voluntarily — it erupts through sensory association. A wrong answer that lists the memory as a separate \"scene\" or \"chapter\" shows the student hasn't grasped Joyce's stream-of-consciousness technique where past and present coexist in a single psychological moment.",
+     "self_check": true
+    },
+    {
+     "q": "Map the five stages of Freytag's pyramid onto \"Eveline\" by identifying the specific textual moment for each stage: exposition, rising action, climax, falling action, resolution.",
+     "a": "Exposition: Opening paragraph — Eveline at window, evening invading avenue, dusty cretonne, fatigue. Rising action: Internal debate (weighing home vs. Buenos Aires), memories of father's violence, mother's promise, Frank's courtship, letters written. Climax: At the dock — \"A bell clanged upon her heart... All the seas of the world tumbled about her heart... Her hands clutched the iron in frenzy.\" Falling action: Frank calls \"Come!\" but she grips railing; he is shouted at to board; she remains passive. Resolution: Final image — \"She set her white face to him, passive, like a helpless animal. Her eyes gave him no sign of love or farewell or recognition.\" A wrong answer placing the climax at the decision to leave (earlier) misses that the *structural* climax is the moment of failed action at the dock.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the narrative structure of \"Eveline\" with a conventional linear short story (e.g., O. Henry's \"The Gift of the Magi\"). How does Joyce's disruption of chronology serve a thematic purpose that linear structure could not?",
+     "a": "Linear stories present events in causal order: A → B → C → D. \"Eveline\" presents the *present moment* (evening at window → dock) as a thin frame, while the *bulk* of the narrative is non-chronological mental time-travel triggered by sensory details. This structure enacts the theme: Eveline is trapped in the past (mother's promise, father's abuse) even as she physically stands at the threshold of the future. A linear version would show her childhood, then courtship, then decision, then dock — making her paralysis look like a choice. Joyce's structure makes paralysis *inescapable* — the past isn't behind her; it's inside her now. A wrong answer that only lists differences without linking to theme treats structure as decoration rather than meaning-making.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The narrative structure of 'Eveline' manipulates the reader into sympathizing with Eveline's passivity rather than judging it.\" Support your judgment with two specific structural techniques.",
+     "a": "The claim is valid. Technique 1: Free indirect discourse merges narrator and character voice, denying the reader an objective vantage point from which to criticize. We inhabit Eveline's fear (\"All the seas of the world tumbled about her heart\") rather than observe it. Technique 2: The story ends *before* consequences — we never see Frank's ship leave, Eveline's return home, or her father's reaction. The narrative cuts at the moment of paralysis, freezing empathy. A linear story might continue to show regret or relief; Joyce's structure withholds closure, forcing the reader to sit in the same suspended moment as Eveline. A wrong answer that says \"we feel sorry for her because her life is hard\" confuses *content* (plot events) with *structure* (how events are presented).",
+     "self_check": true
+    },
+    {
+     "q": "Write a 150-word alternate ending for \"Eveline\" that changes the narrative structure from psychological paralysis to decisive action, using the same narrative techniques (free indirect discourse, sensory triggers). Explain in 2-3 sentences how your structural choices alter the theme.",
+     "a": "A strong answer will: (1) Maintain third-person limited with free indirect discourse (e.g., \"The boat whistle screamed. *Go. Now.* Her fingers uncurled from the iron. *Live.*\"), (2) Use a sensory trigger to propel action not memory (e.g., the whistle as catalyst, not the organ as anchor), (3) Show physical movement breaking the pattern of clutching. The explanation must note that shifting from *internal circularity* to *external linear progression* transforms the theme from \"paralysis as inescapable condition\" to \"agency as possible but costly.\" A poor answer writes in first person, omits sensory grounding, or explains the change only in plot terms (\"she gets on the boat\") without addressing how narrative technique constructs meaning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

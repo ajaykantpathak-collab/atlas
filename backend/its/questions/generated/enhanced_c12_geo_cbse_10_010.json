@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_10_010",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_10_010",
+   "title": "c12_geo_cbse_10_010",
+   "questions": [
+    {
+     "q": "Name the two distinct development models under the Smart Cities Mission and state the minimum area requirement for Area-Based Development (ABD) as per Mission guidelines.",
+     "a": "Correct: (1) Area-Based Development (ABD) — retrofitting (≥50 acres), redevelopment (≥50 acres), or greenfield (≥250 acres); (2) Pan-City Development — smart solutions applied city-wide. A wrong answer (e.g., \"ABD requires 100 acres\" or \"only one model exists\") reveals the student has not read the Mission guidelines' spatial thresholds, confusing it with township policies or AMRUT's project-based approach. This is a frequent board exam 1-marker.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Smart Cities Mission uses a \"Challenge Method\" (competitive selection) instead of formula-based allocation like AMRUT. What geographical principle does this reflect?",
+     "a": "Correct: Challenge Method ensures cities compete on proposal quality (vision, feasibility, citizen engagement, SPV readiness) rather than entitlement. It reflects the geographical principle of **\"competitive federalism\"** — incentivizing local innovation and capacity over uniform distribution. A wrong answer (\"to save money\" or \"because some cities are smarter\") misses the governance shift: from Centre-driven allocation to city-driven entrepreneurship. This tests understanding of policy design, a common CUET/Assertion-Reason trap.",
+     "self_check": true
+    },
+    {
+     "q": "A city's Smart City Proposal allocates ₹2,000 crore: 60% for ABD (retrofitting 120 acres), 20% for Pan-City (Integrated Command Control Centre), 10% for O&M, 10% for capacity building. Calculate the per-acre investment in ABD. If the city's total area is 450 km², what percentage of city area does ABD cover? Show steps.",
+     "a": "Step 1: ABD allocation = 60% of ₹2,000 cr = ₹1,200 cr. Step 2: ABD area = 120 acres. Step 3: Per-acre investment = ₹1,200 cr / 120 = ₹10 cr/acre. Step 4: City area = 450 km² = 450 × 247.1 acres ≈ 111,195 acres. Step 5: ABD % = (120 / 111,195) × 100 ≈ 0.108%. Answer: ₹10 cr/acre; 0.108% of city area. A wrong answer (e.g., using km² directly, forgetting unit conversion) reveals inability to handle mixed units (acres vs km²) — a frequent error in board numericals and CUET data interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the institutional structure of Smart Cities Mission (SPV under Companies Act) with JNNURM (ULB/parastatal implementation). Analyze how SPV's board composition (CEO, state/ULB nominees, independent directors) addresses the \"accountability–autonomy\" dilemma in Indian urban governance.",
+     "a": "Correct: SPV is a corporate entity (Companies Act, 2013) with 50:50 state:ULB equity, CEO as executive head, independent directors for fiduciary oversight. This separates *execution* (SPV) from *regulation* (ULB), giving autonomy in procurement/tendering while retaining public accountability through board nominees. JNNURM failed because ULBs lacked capacity and parastatals lacked accountability. A weak answer (\"SPV is faster\") misses the structural innovation: **ring-fencing project execution from political cycles** while keeping public ownership. This is a 150-word board question / UPSC GS-II analytical demand.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Smart Cities Mission solves urban problems by applying technology to infrastructure.\" Use the Mission's definition of \"smart solutions\" (less resources, cheaper services, less disaster vulnerability) and the concept of \"inclusive development\" to justify your evaluation.",
+     "a": "Correct: The statement is reductionist. \"Smart solutions\" per Mission guidelines = **outcome-oriented** (24x7 water, 100% waste segregation, 35% NMT share), not technology-first. Example: A \"smart\" water solution may be DMA-based leak detection (tech) *plus* community metering (social) *plus* volumetric tariff (economic). Inclusivity requires slum redevelopment *in situ* (not eviction), universal design for differently-abled, and gender-safe public spaces. A wrong answer (\"yes, because ICCC uses IoT\") ignores the Mission's explicit \"sustainable and inclusive\" mandate — a trap in NEET-style case studies where technology is conflated with development.",
+     "self_check": true
+    },
+    {
+     "q": "Design a Pan-City smart solution for a Tier-2 city (pop. 8 lakh, 150 km²) facing: (a) 40% non-revenue water, (b) 60% bus fleet >10 years old, (c) no real-time air quality monitoring. Specify: (i) 3 integrated sensors/data streams, (ii) 1 citizen-facing app feature, (iii) 1 governance reform needed. Justify each choice geographically.",
+     "a": "Good answer: (i) Sensors: (a) Bulk flow meters at DMA inlets (water), (b) GPS+ETM on buses (mobility), (c) Low-cost PM2.5 nodes at 50 intersections (air). Integration: Common IoT platform → ICCC. (ii) App: \"MyCityPulse\" — real-time bus arrival + water supply schedule + AQI alert + grievance redressal (single window). (iii) Governance reform: **Unified Metropolitan Transport Authority (UMTA)** merging RTO, bus operator, traffic police, ULB — because fragmented jurisdiction prevents coordinated action. Justification: Geography demands *spatial integration* of networks (water pipes, bus routes, airshed) and *institutional integration* to act on data. Poor answer lists disjoint tech (SCADA, e-ticketing, AQI app) without integration or governance — missing the \"smart\" = *systemic* principle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

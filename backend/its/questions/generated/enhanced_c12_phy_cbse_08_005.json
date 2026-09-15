@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_08_005",
+   "title": "c12_phy_cbse_08_005",
+   "questions": [
+    {
+     "q": "State the frequency range and production mechanism for radio waves as per NCERT Class 12. What is the wavelength range corresponding to the FM radio band (88–108 MHz)?",
+     "a": "Radio waves: frequency range 500 kHz to 1000 MHz; produced by accelerated motion of charges in conducting wires. FM band (88–108 MHz) corresponds to λ = c/ν = 3.41 m to 2.78 m. A wrong answer (e.g., giving wavelength in cm or km) reveals confusion between MHz/Hz conversion or misapplying c = νλ — students often forget to convert MHz to Hz (×10⁶) before dividing c.",
+     "self_check": true
+    },
+    {
+     "q": "A microwave oven operates at 2.45 GHz. Explain why this specific frequency is chosen, referencing the interaction with water molecules. Why don't radio waves at 100 MHz heat food effectively?",
+     "a": "2.45 GHz matches the resonant rotational transition frequency of water molecules — energy is absorbed efficiently, increasing molecular kinetic energy (temperature). Radio waves at 100 MHz have photon energy ~4×10⁻⁷ eV, far below rotational/vibrational quanta (~10⁻³ eV), so they pass through without resonant absorption. A wrong answer (e.g., \"microwaves have more energy\" without mentioning resonance) shows superficial understanding — students confuse intensity with frequency-specific quantum absorption.",
+     "self_check": true
+    },
+    {
+     "q": "An X-ray tube operates at 50 kV. Calculate the minimum wavelength of X-rays produced (in nm). If the tube current is 10 mA, how many photons per second are produced assuming all electron kinetic energy converts to X-ray photons of this minimum wavelength? (Use h = 6.63×10⁻³⁴ J·s, c = 3×10⁸ m/s, e = 1.6×10⁻¹⁹ C)",
+     "a": "**Step 1:** Electron kinetic energy = eV = (1.6×10⁻¹⁹ C)(50×10³ V) = 8.0×10⁻¹⁵ J.\n**Step 2:** Minimum wavelength λ_min = hc/E = (6.63×10⁻³⁴ × 3×10⁸) / 8.0×10⁻¹⁵ = 2.486×10⁻¹¹ m = 0.0249 nm.\n**Step 3:** Power = VI = (50×10³)(10×10⁻³) = 500 W = 500 J/s.\n**Step 4:** Energy per photon = hc/λ_min = 8.0×10⁻¹⁵ J.\n**Step 5:** Photons/second = Power / Energy per photon = 500 / 8.0×10⁻¹⁵ = 6.25×10¹⁶ photons/s.\nWrong answers (e.g., λ_min = 0.249 nm or photons/s = 6.25×10¹⁵) reveal unit conversion errors (kV to V, mA to A) or missing factor of 10 in hc calculation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the penetration ability of radio waves (λ = 10 m), microwaves (λ = 3 cm), and X-rays (λ = 0.1 nm) through: (a) a brick wall, (b) human soft tissue, (c) a metal sheet. Explain each case using the relationship between wavelength and interaction with matter.",
+     "a": "(a) Brick wall: Radio waves (λ ~ wall thickness) diffract around/through; microwaves (λ << wall) are absorbed/scattered by water in mortar; X-rays (λ << atomic spacing) penetrate but are attenuated by dense material.\n(b) Soft tissue: Radio/microwaves pass through with minimal absorption (non-ionizing); X-rays penetrate but ionize atoms, causing damage — bone (high Z) absorbs more via photoelectric effect.\n(c) Metal sheet: Radio waves reflect (skin depth large); microwaves reflect strongly (conductors); X-rays penetrate thin foils but are absorbed by thick metal (high electron density).\nWrong answer (e.g., \"X-rays pass through everything\") ignores attenuation coefficients and photoelectric effect — students overgeneralize \"penetrating power\" without considering material dependence.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Microwave ovens cook food from the inside out because microwaves penetrate deep and heat the center first.\" Evaluate this statement. Is it correct? Explain the actual heating mechanism and why the statement is a misconception.",
+     "a": "The statement is FALSE. Microwaves penetrate ~1–3 cm into food (skin depth depends on water content); heating occurs where waves are absorbed, not preferentially at the center. The center heats by thermal conduction from hotter outer layers. \"Inside-out\" is a myth — if true, a frozen burrito would have a hot center and cold exterior, which never happens. A student who agrees reveals confusion between penetration depth and absorption profile, and ignores heat diffusion (Fourier's law). Correct reasoning: microwaves deposit energy exponentially decaying from surface; temperature equalizes via conduction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate that microwaves are absorbed by water but pass through dry materials. List materials, procedure, expected observations, and the physics principle being tested.",
+     "a": "**Materials:** Microwave oven, two identical ceramic mugs, water, dry sand/salt, thermometer.\n**Procedure:** (1) Fill mug A with 100 mL water, mug B with 100 g dry sand. (2) Heat both for 60 s at same power. (3) Measure temperature rise ΔT.\n**Observation:** Water ΔT ≈ 15–20°C; sand ΔT ≈ 1–2°C.\n**Principle:** Water has permanent dipole moment → resonant rotational absorption at 2.45 GHz; dry sand (SiO₂) has no net dipole → minimal dielectric loss. Microwaves pass through sand with little energy transfer.\nPoor answer (e.g., \"water has high specific heat\") confuses thermal capacity with microwave absorption — the key is dielectric loss tangent, not specific heat.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

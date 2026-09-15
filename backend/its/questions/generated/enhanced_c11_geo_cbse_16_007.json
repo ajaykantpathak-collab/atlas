@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_16_007",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_16_007",
+   "title": "c11_geo_cbse_16_007",
+   "questions": [
+    {
+     "q": "State the long-term objective of the National Population Policy 2000 and the target year set for its achievement.",
+     "a": "The long-term objective is to achieve a stable population by 2045, consistent with the requirements of sustainable economic growth, social development, and environmental protection. A wrong answer (e.g., \"stabilization by 2010\") reveals confusion between medium-term and long-term goals.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the National Population Policy 2000 emphasizes \"voluntary and informed choice\" instead of numerical targets for contraception.",
+     "a": "The shift to voluntary and informed choice respects reproductive rights, improves service quality, and addresses the unmet need for contraception, which leads to sustainable fertility decline. A wrong answer (e.g., \"targets are easier to monitor\") indicates a misunderstanding of the policy's rights-based paradigm and the failures of the target-driven approach during the Emergency.",
+     "self_check": true
+    },
+    {
+     "q": "Given that a state has a Total Fertility Rate (TFR) of 3.2 and an Infant Mortality Rate (IMR) of 45 per 1000 live births, identify which immediate and medium-term objectives of NPP 2000 are most relevant for this state and why.",
+     "a": "Immediate objective: address unmet need for contraception and healthcare infrastructure to lower TFR. Medium-term objective: bring TFR to replacement level (2.1) by 2010 (now extended). The high IMR suggests need for child survival interventions. A wrong answer that only focuses on TFR ignores the policy's integrated approach linking child survival to fertility decline.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the demographic rationale of NPP 2000 with China's One-Child Policy. How does each policy's approach affect the age structure of the population in the long run?",
+     "a": "NPP 2000's voluntary approach leads to gradual fertility decline, maintaining a more balanced age structure and avoiding a sharp demographic dividend collapse. China's coercive policy caused rapid aging, skewed sex ratios, and a shrinking workforce. A wrong answer that claims both achieve the same result misses the structural consequences of coercion versus choice.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The National Population Policy 2000 failed because India's population continued to grow after 2000.\"",
+     "a": "The statement is flawed. Population growth continues due to population momentum (large youth cohort) even when TFR declines. NPP 2000's success is measured by TFR decline from 3.2 (2000) to 2.0 (2020), not immediate population stabilization. A wrong answer confuses population size with fertility rate and ignores demographic momentum.",
+     "self_check": true
+    },
+    {
+     "q": "Design a district-level action plan to achieve the immediate objectives of NPP 2000 in a high-fertility district with low female literacy and poor health infrastructure.",
+     "a": "A good plan includes: (1) deploying ASHA workers for community-based contraceptive distribution, (2) upgrading PHCs with trained staff and equipment, (3) linking girls' education incentives with delayed marriage, (4) involving Panchayati Raj institutions for monitoring. A poor answer lists only top-down targets without addressing socio-cultural barriers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,151 @@
+{
+ "class": 9,
+ "subject": "maths",
+ "chapter": 1,
+ "chapter_title": "Orienting Yourself: The Use of Coordinates",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iemh101.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iemh.101.1.1",
+   "title": "The Coordinate Plane and Ordered Pairs",
+   "section": "1.1",
+   "definition": "The coordinate plane uses two perpendicular number lines - the x-axis and the y-axis - meeting at the origin; every location is written as an ordered pair (x, y) where x gives the horizontal shift and y the vertical, so coordinates give each point a unique address.",
+   "formula": "point = (x, y)",
+   "key_idea": "Two numbers fix a place: walk x first along the horizontal, then y along the vertical.",
+   "textbook_ref": "iemh101.txt sections 1.1-1.2 (introduction, settling in with coordinates)",
+   "question_patterns": [
+    "write the coordinates of the given point on the plane",
+    "locate the point (3, 4) on the coordinate plane",
+    "which axis does the point (0, 5) lie on",
+    "what does the first number of an ordered pair tell",
+    "plot the given ordered pairs and name the shape formed",
+    "why are coordinates called an ordered pair"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "read the x-coordinate",
+     "explain": "Move along the horizontal axis by the first number."},
+    {"step": 2, "action": "read the y-coordinate",
+     "explain": "Move parallel to the vertical axis by the second number."},
+    {"step": 3, "action": "mark the location",
+     "explain": "The crossing of the two moves is the exact point."}
+   ]
+  },
+  {
+   "id": "iemh.101.1.2",
+   "title": "Quadrants and Signs of Coordinates",
+   "section": "1.2",
+   "definition": "The axes divide the plane into four quadrants: in the first both coordinates are positive, in the second x is negative and y positive, in the third both are negative, and in the fourth x is positive and y negative; points on the axes have one coordinate zero.",
+   "formula": "-",
+   "key_idea": "Signs reveal the address: the quadrant of a point is read from the signs of x and y.",
+   "textbook_ref": "iemh101.txt sections 1.2-1.3 (quadrants, axis conventions)",
+   "question_patterns": [
+    "in which quadrant does the point (-3, 5) lie",
+    "what are the signs of coordinates of points in the fourth quadrant",
+    "which points lie on the x-axis and why",
+    "write the coordinates of a point on the negative y-axis",
+    "name the quadrant for the given ordered pair",
+    "where does the origin lie and what are its coordinates"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "check the sign of x",
+     "explain": "Positive x puts the point to the right; negative to the left."},
+    {"step": 2, "action": "check the sign of y",
+     "explain": "Positive y lifts the point up; negative pulls it down."},
+    {"step": 3, "action": "name the quadrant",
+     "explain": "The two signs together fix one of the four quadrants or an axis."}
+   ]
+  },
+  {
+   "id": "iemh.101.1.3",
+   "title": "Distance Between Two Points",
+   "section": "1.3",
+   "definition": "The straight distance between points (x1, y1) and (x2, y2) comes from the Pythagorean idea: square the horizontal gap and the vertical gap, add them, and take the square root.",
+   "formula": "distance = sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)",
+   "key_idea": "Horizontal and vertical gaps make the legs; the distance is the hypotenuse.",
+   "textbook_ref": "iemh101.txt section 1.3 (use of coordinates for distances)",
+   "question_patterns": [
+    "find the distance between the points (2, 3) and (6, 6)",
+    "calculate the distance of the point (5, 12) from the origin",
+    "find the distance between the two given points using coordinates",
+    "which of the two points is closer to the origin",
+    "show that the given triangle is right angled using distances",
+    "find a point at the given distance from another on the x-axis"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "find the gaps",
+     "explain": "Compute the horizontal and vertical differences.",
+     "compute": "dx = x2 - x1"},
+    {"step": 2, "action": "apply the Pythagorean root",
+     "explain": "Square both gaps, add and take the square root.",
+     "compute": "distance = sqrt(dx * dx + dy * dy)"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iemh101.txt section 1.3 distance examples",
+   "concept": "iemh.101.1.3",
+   "question_type": "compute",
+   "question_pattern": "Find the distance between the points (x1, y1) and (x2, y2).",
+   "extracted_variables": {
+    "x1": "x-coordinate of the first point",
+    "y1": "y-coordinate of the first point",
+    "x2": "x-coordinate of the second point",
+    "y2": "y-coordinate of the second point"
+   },
+   "solution_template": [
+    {"step": 1, "action": "find the gaps",
+     "explain": "Subtract the coordinates for the horizontal and vertical gaps.",
+     "compute": "dx = x2 - x1"},
+    {"step": 2, "action": "apply the root",
+     "explain": "Square, add, and take the square root.",
+     "compute": "distance = sqrt(dx * dx + dy * dy)"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iemh101.txt distance from origin practice",
+   "concept": "iemh.101.1.3",
+   "question_type": "compute",
+   "question_pattern": "A point P has coordinates (x2, y2). Find its distance from the origin (0, 0).",
+   "extracted_variables": {
+    "x2": "x-coordinate of P",
+    "y2": "y-coordinate of P",
+    "x1": "x-coordinate of the origin",
+    "y1": "y-coordinate of the origin"
+   },
+   "solution_template": [
+    {"step": 1, "action": "find the gaps",
+     "explain": "Subtract the coordinates.",
+     "compute": "dx = x2 - x1"},
+    {"step": 2, "action": "apply the root",
+     "explain": "Square, add and take the root for the distance.",
+     "compute": "distance = sqrt(dx * dx + dy * dy)"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "iemh101.txt exercises on coordinates",
+   "questions": [
+     "Write the coordinates of the points marked on the given plane.",
+     "In which quadrant do the given points lie?",
+     "Plot the given points and identify the figure formed."
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "iemh101.txt distance exercises",
+   "questions": [
+     "Find the distance between the given pairs of points.",
+     "Show that the given points form a right triangle."
+   ]
+  }
+ ]
+}

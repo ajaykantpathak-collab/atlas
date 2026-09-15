@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_02_011",
+   "title": "c12_hin_a_cbse_02_011",
+   "questions": [
+    {
+     "q": "What is the primary dialectal influence visible in the vocabulary of \"लज्जत ले`fr\" as noted in the NCERT introduction to Fujkyk's poetic language?",
+     "a": "The primary dialectal influence is Braj Bhasha (ब्रज भाषा), evident in words like \"लेआन\", \"फुजक्यक\", \"रश्मिरथी\" and verb forms such as \"गक्स\". A wrong answer (e.g., \"Khari Boli\" or \"Awadhi\") reveals the student has not read the introductory note on Fujkyk's language varieties or cannot distinguish Braj features from standard Hindi.",
+     "self_check": true
+    },
+    {
+     "q": "In the line \"ns[kk eSaus] og ewfrZ&èkhfr\", the compound \"ewfrZ&èkhfr\" combines two nouns. Explain the grammatical relationship between the two components and why the poet might use this compound instead of a phrase like \"ewfrZ dk èkhfr\".",
+     "a": "\"ewfrZ&èkhfr\" is a Tatpurusha compound (तत्पुरुष समास) where \"ewfrZ\" (first) modifies \"èkhfr\" (memory), meaning \"the memory of the first [meeting]\". The poet uses the compound for conciseness and rhythmic compression, fitting the meter and intensifying the emotional weight. A wrong answer that calls it a Dvandva or Bahuvrihi compound shows misunderstanding of Samasa types; missing the rhythmic reason indicates inability to link grammar to poetic effect.",
+     "self_check": true
+    },
+    {
+     "q": "Identify the verb form in \"gks x;k C;kg\" and explain its tense, aspect, and why the poet chooses this form over a simple past like \"C;kg gks x;k\".",
+     "a": "\"gks x;k\" is a perfective participle + auxiliary construction indicating completed action with continuing relevance (perfect aspect). The poet places \"gks\" before \"x;k\" for metrical stress and to emphasize the sudden realization (\"it had become\"). Using simple past would lose the nuance of a past event whose impact persists. A wrong answer identifying it as simple past or future reveals weak grasp of Hindi aspectual system; missing the poetic reason shows inability to analyze form-function link.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the language of the first stanza (\"ns[kk fookg vkewy uoy...\") with the last stanza (\"eq> HkkX;ghu dh rw lacy...\"). How does the shift from descriptive imagery to direct address reflect a change in grammatical person and syntactic structure?",
+     "a": "The first stanza uses third-person descriptive sentences with nominal phrases (\"ns[kk fookg\", \"rw g¡lh ean\") and no explicit subject, creating an observed scene. The last stanza shifts to first-person (\"eq>\") and second-person implied address (\"rw lacy\"), using imperative (\"ctzikr\") and future tense (\"gks\"), turning memory into a plea. This shift from declarative to imperative syntax mirrors the emotional shift from recollection to desperate prayer. A wrong answer that only notes \"change of pronouns\" misses the syntactic restructuring and its thematic significance.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The use of Braj Bhasha forms like 'लेआन' and 'फुजक्यक' in the poem is merely decorative and does not affect the poem's meaning.\" Defend your evaluation with two specific textual evidences.",
+     "a": "The claim is false. First, \"लेआन\" (brought) in \"fiz; dh v'kCn Ük`axkj&eq[kj rw [kqyh ,d&mPN~okl&lax\" carries the connotation of a deliberate, loving act of bringing, which \"लाया\" would not convey with the same cultural resonance. Second, \"फुजक्यक\" as a self-reference in \"Ük`axkj] jgk tks fujkdkj\" invokes the poet's identity rooted in the Braj tradition, linking personal grief to a collective literary heritage. A student agreeing with the claim shows inability to see dialect as meaning-bearing; a vague defense without textual quotes indicates superficial analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Create two new lines in the style of the poem that use a Braj Bhasha verb form and a compound noun to express a personal memory. Explain your choices.",
+     "a": "Example lines: \"nq[k gh jkuh dk vfHkO;fDr] / eSa vius firk ds lkFk pkpk gks x;kA\"  \n- Verb form: \"gks x;k\" (perfective) mirrors the poem's aspectual pattern.  \n- Compound: \"nq[k gh jkuh\" (tatpurusha: \"the talk of that very time\") compresses \"उस समय की बात\" for rhythmic density.  \nA poor answer uses standard Hindi verbs (e.g., \"हुआ\") and no compound, showing failure to internalize the poem's linguistic texture.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

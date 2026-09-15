@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch12_045",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch12_045",
+   "title": "c6_physics_ch12_045",
+   "questions": [
+    {
+     "q": "What is the name of the imaginary line that runs through the Earth from the North Pole to the South Pole around which the Earth spins?",
+     "a": "The line is called the axis. A student who answers \"the Equator\" is confusing the line of rotation with the imaginary line that divides the Earth into Northern and Southern hemispheres.",
+     "self_check": true
+    },
+    {
+     "q": "If you are in India and it is currently daytime, what is happening on the opposite side of the Earth, and why?",
+     "a": "It is currently night on the opposite side because that part of the Earth is facing away from the Sun. Answering that it is also day shows a failure to understand that the Earth is opaque and can only be lit on the side facing the light source.",
+     "self_check": true
+    },
+    {
+     "q": "If the Earth stopped rotating suddenly, what would happen to the cycle of day and night?",
+     "a": "The cycle would stop; one side of the Earth would face the Sun permanently (experiencing constant day), and the other side would remain in darkness forever. This confirms the student understands that rotation is the primary cause of the transition between day and night.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Sun appear to move from the East to the West throughout the day?",
+     "a": "The Sun appears to move because the Earth rotates from West to East. Students who claim the Sun is physically traveling across the sky have not yet grasped the concept of relative motion or that the observer is the one moving.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible for the entire Earth to experience daytime at the exact same moment? Explain your reasoning.",
+     "a": "No, because the Earth is a sphere. Sunlight can only illuminate one half of a sphere at any given time, meaning the other half must be in shadow.",
+     "self_check": true
+    },
+    {
+     "q": "If you were standing on the Moon looking at the Earth, what would you observe about the Earth's \"day\" side?",
+     "a": "The \"day\" side would appear bright because it is reflecting sunlight, and it would slowly move out of view as the Earth rotates. A poor answer would suggest the Earth doesn't move or that the whole planet is always lit.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

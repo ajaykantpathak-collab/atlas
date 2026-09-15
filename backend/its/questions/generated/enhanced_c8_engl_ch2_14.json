@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_engl_ch2_14",
+ "concepts": [
+  {
+   "id": "enh:c8_engl_ch2_14",
+   "title": "c8_engl_ch2_14",
+   "questions": [
+    {
+     "q": "What is the rhyme scheme of a triplet where all three lines end with the same sound?",
+     "a": "AAA. If a student answers ABA or AAB, they misunderstand that identical ending sounds receive the same letter, revealing confusion about how rhyme scheme notation works.",
+     "self_check": true
+    },
+    {
+     "q": "What is the difference between an AABB rhyme scheme and an ABAB rhyme scheme? How does each affect the rhythm of the poem?",
+     "a": "A poet might use AAAA to create a hypnotic, insistent rhythm that emphasizes a single, powerful idea (like unyielding courage). If a student claims it makes the poem boring or has no effect, they fail to grasp how sonic repetition reinforces thematic intensity and emotional focus.",
+     "self_check": true
+    },
+    {
+     "q": "In a four-line stanza with the rhyme scheme ABAB, which lines must rhyme with each other?",
+     "a": "AABB. Steps: 1) Identify end words: tall (line 1), call (line 2), near (line 3), fear (line 4). 2) Tall and call rhyme → assign A. 3) Near and fear rhyme (different from A) → assign B. 4) Pattern: A A B B. If a student answers ABAB, they incorrectly alternate rhymes instead of grouping consecutive pairs, showing they don’t recognize that rhyme scheme depends on actual sound matches, not forced alternation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain what a \"couplet\" is in terms of rhyme scheme and give its letter notation.",
+     "a": "The shift from a 4-line ABAB stanza to a 6-line ABABCC stanza likely creates a sense of growing depth or resolution. The ABABCC pattern builds tension through alternating rhymes (ABAB) before resolving with a emphatic couplet (CC), making the stanza feel more conclusive than the open-ended, cyclical feel of ABAB. If a student claims structure doesn’t affect meaning or only focuses on letter labels without considering stanza length and pattern function, they overlook how form shapes reader experience and emotional pacing.",
+     "self_check": true
+    },
+    {
+     "q": "Why might a poet choose an ABCB rhyme scheme (where only lines 2 and 4 rhyme) instead of AABB?",
+     "a": "The claim is false. Rhyme scheme controls the poem’s musicality and pacing: AABB creates a steady, paired rhythm (like marching steps), while ABAB produces a weaving, interlocking feel (like interlaced fingers). Changing it alters emphasis and flow—even with identical words—affecting how we perceive the theme. If a student agrees with the claim, they ignore sound’s role in meaning, reducing poetry to mere prose and missing how form and content intertwine to evoke patriotism or sorrow.",
+     "self_check": true
+    },
+    {
+     "q": "Identify the rhyme scheme of the following stanza: \"The sun was bright / The moon was cool / The birds took flight / Over the pool.\"",
+     "a": "Example: \"They held the line through darkest night, / Their duty shone, a beacon bright.\" (Night/bright rhyme = AA; theme: courage). A poor answer has non-rhyming lines (e.g., \"night\"/\"light\" without perfect match) or lacks thematic connection (e.g., about nature), showing failure to apply rhyme scheme rules or link structure to theme.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

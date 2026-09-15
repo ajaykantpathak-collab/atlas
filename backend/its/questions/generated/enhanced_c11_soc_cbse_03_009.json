@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_03_009",
+   "title": "c11_soc_cbse_03_009",
+   "questions": [
+    {
+     "q": "Define T.H. Marshall's three dimensions of citizenship rights in one sentence each.",
+     "a": "Correct answer: Civil rights are individual legal protections (e.g., free speech, property, equality before law). Political rights are participatory powers (e.g., vote, stand for office). Social rights are welfare entitlements (e.g., healthcare, education, unemployment benefit). A wrong answer that merges civil and political rights (e.g., \"rights to participate in society\") reveals confusion between protection from state power and access to state power. A wrong answer that omits social rights shows unawareness of the welfare-state dimension central to Marshall's thesis.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Marshall argued that civil rights historically preceded political rights, which in turn preceded social rights, using the example of 18th–20th century England.",
+     "a": "Correct answer: In England, civil rights (rule of law, freedom of contract) emerged in the 18th century to protect the bourgeoisie's economic interests; political rights (universal suffrage) followed in the 19th–early 20th century through working-class struggles; social rights (welfare state) came after WWII as a response to industrial capitalism's insecurities. A wrong answer that claims all three emerged simultaneously misunderstands Marshall's historical-sociological argument that each dimension required distinct class struggles and institutional preconditions.",
+     "self_check": true
+    },
+    {
+     "q": "A tribal woman in Jharkhand has a voter ID card and votes regularly, but cannot access the Public Distribution System (PDS) because her village lacks a fair-price shop. Identify which of Marshall's dimensions are fulfilled and which is violated. Propose one institutional reform to address the gap.",
+     "a": "Correct answer: Political rights (voting) are fulfilled; social rights (access to food security) are violated. Civil rights may also be compromised if she faces discrimination in filing a complaint. One reform: mandate mobile PDS vans for remote villages with grievance redressal via Gram Sabha. A wrong answer that says \"all rights are fulfilled because she can vote\" reveals the common misconception that political equality alone constitutes full citizenship, ignoring Marshall's insistence on social rights as the culminating dimension.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Indian Constitution's Fundamental Rights (Part III) and Directive Principles (Part IV) with Marshall's three dimensions. Which dimension maps to which part, and why is the justiciability difference sociologically significant?",
+     "a": "Correct answer: Fundamental Rights (justiciable) correspond to civil and political rights; Directive Principles (non-justiciable) correspond to social rights. The justiciability gap means citizens can legally enforce civil/political rights but not social rights, making social citizenship contingent on political will rather than legal entitlement. A wrong answer that maps Directive Principles to political rights confuses welfare goals with participatory mechanisms. A wrong answer that claims all are equally enforceable ignores the constitutional design that prioritised civil-political rights as immediately realisable.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"India achieved universal adult franchise in 1950, so political citizenship is complete; social rights are a luxury for a developing country.\" Use Marshall's framework and one Indian example.",
+     "a": "Correct answer: Marshall shows political rights without social rights create \"formal citizenship\" where the poor cannot effectively exercise their vote due to hunger, illiteracy, or illness. Example: A bonded labourer in Rajasthan may vote but cannot demand minimum wages (social right) due to economic coercion, rendering political choice meaningless. The statement reflects a liberal-individualist view that Marshall explicitly rejected. A wrong answer agreeing with the statement fails to grasp the dialectical relationship: social rights provide the material conditions for political rights to be substantive.",
+     "self_check": true
+    },
+    {
+     "q": "Design a survey questionnaire (5 questions) to measure the \"social citizenship\" status of sanitation workers in your city. Each question must target a specific social right (health, housing, education, income security, non-discrimination) and include a follow-up probe for barriers.",
+     "a": "Expected answer: A good questionnaire includes: (1) \"Do you have ESI/health insurance? If not, why?\" (2) \"Is your housing provided by the municipality? Condition?\" (3) \"Do your children attend school regularly? Barriers?\" (4) \"Do you receive minimum wage and pension? Gaps?\" (5) \"Have you faced caste-based denial of services? Details?\" Poor answers list only yes/no questions without probes, or focus on political participation (voting) instead of welfare entitlements, showing confusion between political and social dimensions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

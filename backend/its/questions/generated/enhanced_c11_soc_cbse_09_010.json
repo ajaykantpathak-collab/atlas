@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_09_010",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_09_010",
+   "title": "c11_soc_cbse_09_010",
+   "questions": [
+    {
+     "q": "State the three types of legitimate authority identified by Max Weber and the primary source of legitimacy for each type.",
+     "a": "The three types are: (1) Traditional authority — legitimacy derives from belief in the sanctity of age-old customs and traditions; (2) Charismatic authority — legitimacy derives from devotion to the exceptional personal qualities (heroism, sanctity, revelatory power) of a leader; (3) Rational-legal authority — legitimacy derives from belief in the legality of formally enacted rules and the right of office-holders to issue commands under those rules. A wrong answer that swaps the sources (e.g., saying charismatic authority rests on rules) reveals the student has memorised labels without grasping the distinct *legitimacy claim* each type makes — the core of Weber's typology.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Traditional authority is based on laws passed by parliament, while rational-legal authority is based on customs.\" Explain why this is incorrect and what fundamental confusion it reveals about Weber's concept of legitimacy.",
+     "a": "The statement reverses the two types: traditional authority rests on *customary practice sanctified by time* (e.g., hereditary monarchy, patriarchal family), whereas rational-legal authority rests on *formally enacted, codified rules* (e.g., constitution, statutes, bureaucratic regulations). The confusion reveals the student treats \"law\" and \"custom\" as interchangeable, missing Weber's crucial distinction: traditional authority's legitimacy is *prescriptive* (it is binding because \"it has always been so\"), while rational-legal authority's legitimacy is *enacted* (it is binding because it was created through a recognised legal procedure). This error leads to misclassifying modern constitutional monarchies (which combine traditional symbolism with rational-legal powers) as purely traditional.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following into Weber's three authority types with justification: (a) A Khap Panchayat leader whose authority derives from caste customs; (b) A startup founder obeyed because of her \"visionary genius\"; (c) A District Magistrate exercising powers under the CrPC.",
+     "a": "(a) Traditional authority — legitimacy source: immemorial caste customs; staff: kinsmen/elders chosen by tradition; succession: hereditary or customary selection; scope: limited to customary domains. (b) Charismatic authority — legitimacy source: personal devotion to the founder's perceived extraordinary qualities; staff: disciples chosen on personal loyalty/charismatic qualification; succession: crisis-prone, requires routinisation; scope: potentially unlimited, defined by mission. (c) Rational-legal authority — legitimacy source: legal-rational rules (CrPC, IAS cadre rules); staff: appointed on technical qualifications; succession: rule-governed promotion/transfer; scope: legally delimited jurisdiction. A wrong classification (e.g., calling the DM \"traditional\") shows inability to distinguish *personal/traditional loyalty* from *impersonal rule-based obedience*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare traditional and charismatic authority on the dimension of *succession*. Why does charismatic authority face a \"succession crisis\" that traditional authority does not, and how does routinisation resolve it?",
+     "a": "Traditional authority has a pre-established succession rule (primogeniture, election by elders, customary designation) embedded in the very customs that legitimise the ruler — the successor's legitimacy is *automatic* upon fulfilling the customary criterion. Charismatic authority, by contrast, derives legitimacy *solely* from the leader's personal qualities, which are non-transferable; no customary or legal rule designates a successor. Upon the leader's death/departure, the movement faces a legitimacy vacuum — the \"succession crisis.\" Routinisation resolves this by transforming charisma into either traditional authority (hereditary succession, e.g., Sikh Gurus after Guru Gobind Singh) or rational-legal authority (formal election, institutionalised procedures, e.g., papal conclave, party congress). A poor answer treats succession as merely \"choosing a new leader\" without analysing the *legitimacy transfer mechanism*.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Modern Indian democracy operates purely on rational-legal authority; traditional and charismatic authority have been eliminated.\" Use Weber's concepts to support your judgement.",
+     "a": "The claim is false. Weber argued that *pure* types are ideal-typical constructs; empirical reality always exhibits *mixtures*. In India: (1) Rational-legal authority dominates formally — Constitution, elections, bureaucracy, judiciary. (2) Traditional authority persists informally — caste panchayats, hereditary political dynasties, religious mathas commanding obedience through custom. (3) Charismatic authority recurs episodically — mass leaders (Gandhi, JP Narayan, regional icons) whose personal appeal transcends party rules, often triggering routinisation struggles after their exit. The coexistence creates tensions (e.g., Khap vs. Constitutional courts, dynastic succession vs. intra-party democracy). A strong evaluation recognises that democracy *institutionalises* rational-legal authority but does not *eradicate* the other logics; they adapt and interact. A weak answer treats the types as historical stages that sequentially replace each other.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a novel example of a contemporary Indian social situation where *all three* authority types operate simultaneously within a single organisation or movement. Label each authority instance and explain the friction points.",
+     "a": "Example: A large religious-social organisation (e.g., a prominent matha or spiritual movement with educational/hospital wings). \n- Traditional: The hereditary pontiff/head whose position follows guru-shishya parampara; obedience from devotees based on lineage sanctity. \n- Charismatic: A living \"star guru\" whose personal magnetism draws millions, whose discourses go viral, and whose direct commands override institutional channels. \n- Rational-legal: The registered trust/society managing schools/hospitals, with a CEO, board, HR policies, financial audits, and compliance with FCRA/IT Act. \nFriction points: (1) Charismatic guru's directives vs. trust's financial procedures; (2) Hereditary pontiff's customary privileges vs. board's governance norms; (3) Devotees' personal loyalty to charismatic figure vs. employees' contractual obligations. A good answer shows the *same individuals* navigating multiple legitimacy claims; a poor answer describes three separate organisations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch06_065",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch06_065",
+   "title": "c6_math_ch06_065",
+   "questions": [
+    {
+     "q": "If 4 pens cost 20 rupees, what is the ratio of pens to cost?",
+     "a": "The ratio is 4:20, which simplifies to 1:5. A wrong answer (like 5:1) shows the student confused the order of quantities, putting cost before quantity.",
+     "self_check": true
+    },
+    {
+     "q": "If you travel 10 km in 2 hours, how far will you travel in 4 hours? Explain why.",
+     "a": "You will travel 20 km. This is because the time doubled, so the distance must also double to maintain the same speed (ratio). A wrong answer suggests the student doesn't see the multiplicative relationship between the two quantities.",
+     "self_check": true
+    },
+    {
+     "q": "If 3 kg of apples cost 150 rupees, how much will 7 kg of apples cost?",
+     "a": "Step 1: Find cost of 1 kg (150/3 = 50 rupees). Step 2: Multiply by 7 kg (50 * 7 = 350 rupees). A wrong answer usually comes from adding numbers instead of multiplying/dividing by the ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Two quantities A and B are in direct proportion. If A doubles, what happens to B?",
+     "a": "B must also double. An incorrect answer shows the student does not understand that \"direct\" means they change by the same factor.",
+     "self_check": true
+    },
+    {
+     "q": "If 5 workers can finish a job in 10 hours, is this direct proportion? Why or why not?",
+     "a": "No, because as the number of workers increases, the time taken decreases (inverse proportion). A student who says \"yes\" assumes all related quantities are in direct proportion.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario where two things are in direct proportion and explain your reasoning.",
+     "a": "Example: \"The number of pages I read vs. the time taken.\" Reasoning: The more time I spend reading, the more pages I finish, and the rate (pages/minute) stays roughly constant. A poor answer would describe something where one does not affect the other or they change inversely.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

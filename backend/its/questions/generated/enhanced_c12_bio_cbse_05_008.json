@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_05_008",
+   "title": "c12_bio_cbse_05_008",
+   "questions": [
+    {
+     "q": "Define X-linked recessive inheritance and state why males are more frequently affected than females for traits like colour blindness and haemophilia.",
+     "a": "X-linked recessive inheritance occurs when a recessive allele on the X chromosome expresses the phenotype in males (XY) with just one copy, while females (XX) require two copies. Males are more affected because they have only one X chromosome — there is no second allele to mask the recessive allele. A wrong answer (e.g., \"males have weaker genes\" or \"females don't have X chromosomes\") reveals confusion between sex chromosome composition and dominance relationships, or misunderstanding of hemizygosity in males.",
+     "self_check": true
+    },
+    {
+     "q": "A colour-blind man marries a woman with normal vision whose father was colour blind. What is the probability that their first son will be colour blind? Explain the genotype of the mother.",
+     "a": "The mother is a carrier (XᶜXᶜ) because she inherited her father's only X chromosome (which carries the colour-blind allele). The father is XᶜY. Cross: XᶜY × XᶜXᶜ → 50% sons XᶜY (colour blind), 50% sons XᶜY (normal). Probability = 1/2. A wrong answer (e.g., 0% or 100%) indicates failure to deduce the mother's carrier status from her father's phenotype or misunderstanding that sons inherit Y from father and X from mother.",
+     "self_check": true
+    },
+    {
+     "q": "In a cross between a haemophilic male and a normal female (non-carrier), all daughters are carriers but no sons are affected. If one of these carrier daughters marries a normal male, what fraction of their grandsons (from this daughter) would be haemophilic? Show the two-generation cross.",
+     "a": "Generation 1: XᴴY (haemophilic father) × XᴴXᴴ (normal mother) → all daughters XᴴXᴴ (carriers), all sons XᴴY (normal).\nGeneration 2: Carrier daughter (XᴴXᴴ) × normal male (XᴴY) → sons: 1/2 XᴴY (haemophilic), 1/2 XᴴY (normal). Fraction of grandsons affected = 1/2. A wrong answer (e.g., 1/4) often arises from incorrectly multiplying probabilities across generations without recognizing the question asks only about grandsons from the carrier daughter, not all grandchildren.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the inheritance pattern of an X-linked recessive trait (e.g., haemophilia) with an autosomal recessive trait (e.g., sickle cell anaemia) in terms of: (a) male-to-male transmission, (b) frequency in males vs females, (c) carrier status of females.",
+     "a": "(a) X-linked: no male-to-male transmission (father gives Y to sons); autosomal: male-to-male transmission possible.\n(b) X-linked: males affected more frequently; autosomal: equal frequency in both sexes.\n(c) X-linked: carrier females are phenotypically normal but transmit allele; autosomal: carrier females are also phenotypically normal but transmit allele — however, in X-linked, carrier females can sometimes show mild symptoms due to skewed X-inactivation, which does not occur in autosomal traits. A wrong answer confusing (a) or (b) indicates failure to link chromosome location to transmission patterns.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since colour blindness is recessive, a colour-blind woman must have a colour-blind father and a carrier mother. Therefore, all her sons will be colour blind, but her daughters will only be carriers.\" Evaluate this statement for correctness and identify any hidden assumptions.",
+     "a": "The statement is correct in its conclusions but assumes the mother is a carrier (not affected) and the father is colour blind. For a female to be colour blind (XᶜXᶜ), she must inherit Xᶜ from both parents: father must be XᶜY (affected), mother must be at least XᶜXᶜ (carrier) or XᶜXᶜ (affected). If mother is carrier, cross XᶜY × XᶜXᶜ → 50% daughters XᶜXᶜ (affected), 50% daughters XᶜXᶜ (carriers). The student's claim that \"all daughters will only be carriers\" is FALSE — half would be affected. The error reveals misunderstanding that an affected female × affected male cross produces affected daughters, not just carriers.",
+     "self_check": true
+    },
+    {
+     "q": "Design a pedigree analysis problem involving three generations where an X-linked recessive trait (haemophilia) appears in a male in generation I, skips generation II (only carrier females), and reappears in generation III males. Provide the genotypes for all individuals and explain how you deduced them.",
+     "a": "Generation I: Affected male (XᴴY) × normal female (XᴴXᴴ) → Generation II: all daughters carriers (XᴴXᴴ), all sons normal (XᴴY).\nGeneration II: One carrier daughter (XᴴXᴴ) marries normal male (XᴴY) → Generation III: 50% sons affected (XᴴY), 50% sons normal (XᴴY); 50% daughters carriers (XᴴXᴴ), 50% daughters normal (XᴴXᴴ).\nDeduction: Affected male in Gen I forces all daughters to be carriers. Carrier females in Gen II show no phenotype. Affected males in Gen III inherit Xᴴ from carrier mother. A poor answer fails to assign genotypes consistently or misses that Gen II males are normal because they get Y from affected grandfather.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

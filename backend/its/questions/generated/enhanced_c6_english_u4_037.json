@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_english_u4_037",
+ "concepts": [
+  {
+   "id": "enh:c6_english_u4_037",
+   "title": "c6_english_u4_037",
+   "questions": [
+    {
+     "q": "What is a 'context clue' in a reading passage?",
+     "a": "A context clue is a piece of information, such as a definition, synonym, or example, found near an unknown word that helps explain what it means. A wrong answer, like saying it's a dictionary definition, reveals the student believes vocabulary must be learned in isolation rather than through reading.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence, \"Surya was a real phenomenon; he won points again and again, laughing and joking,\" what does 'phenomenon' likely mean, and what clue tells you?",
+     "a": "It means someone who is exceptionally good or talented. The clue is \"won points again and again,\" which describes his special performance. If a student guesses it means \"a bad player,\" they are ignoring the positive context clues provided by the author.",
+     "self_check": true
+    },
+    {
+     "q": "If you read the sentence, \"The athlete was hopeless at the high jump, failing every attempt,\" how would you define 'hopeless' using context?",
+     "a": "Steps: 1. Identify the unknown word: 'hopeless'. 2. Locate the descriptive phrase: 'failing every attempt'. 3. Link the phrase to the word. 4. Define it as 'lacking skill'. If a student thinks it means 'sad', they are confusing the word's common emotional meaning with its contextual meaning here.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze this: \"Prabhat felt terrible about losing, on the contrary, Surya felt relaxed.\" Why does the phrase \"on the contrary\" help you define the two words?",
+     "a": "It signals that Prabhat and Surya have opposite feelings. Since we know Prabhat felt 'terrible', 'relaxed' must mean the opposite of 'terrible' (calm or at peace). If the student misses this, they are failing to recognize transition words as logic clues.",
+     "self_check": true
+    },
+    {
+     "q": "\"The coach conducted the match with great care.\" If you change 'conducted' to 'organized', does the sentence meaning stay the same? Why?",
+     "a": "Yes, because in this context, 'conducted' refers to the act of setting up or running an event. If a student says no, they might be stuck on a different meaning of 'conduct' (like electricity), showing they aren't looking at the subject (the coach) and object (the match).",
+     "self_check": true
+    },
+    {
+     "q": "Create a sentence using the word 'significant' where the context makes its meaning clear without using a dictionary.",
+     "a": "\"The last Friday of the month was significant; it was the only day we held our big tournament and handed out trophies.\" A good answer uses the example of the tournament to show 'significant' means 'important'. A poor answer would be \"The day was significant,\" which lacks descriptive context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_10_011",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_10_011",
+   "title": "c11_bs_cbse_10_011",
+   "questions": [
+    {
+     "q": "Define wholesale trade and retail trade in one sentence each, highlighting the primary difference in the target buyer.",
+     "a": "Wholesale trade involves buying and selling goods in large quantities for resale or intermediate use by other businesses (retailers/industrial users). Retail trade involves selling goods in small quantities directly to ultimate consumers for personal use. A wrong answer that defines both as \"selling goods\" without specifying the buyer (reseller vs. consumer) or quantity (bulk vs. small lots) reveals the student cannot distinguish the fundamental economic role of each intermediary.",
+     "self_check": true
+    },
+    {
+     "q": "A businessman purchases 1,000 units of branded shirts from a manufacturer and sells them in lots of 50 to 20 different shopkeepers in the city. Another businessman buys 50 shirts from the first businessman and sells them one by one to college students. Classify both businessmen as wholesaler or retailer and justify your classification using two criteria.",
+     "a": "The first businessman is a wholesaler (sells in bulk lots of 50 to retailers for resale). The second is a retailer (sells single units to ultimate consumers). A wrong answer that classifies both as retailers because they both \"sell shirts\" or both as wholesalers because they \"buy in bulk\" shows the student focuses only on the buying side or product type, ignoring the critical distinction: the status of the buyer (reseller vs. end-user) and the lot size sold.",
+     "self_check": true
+    },
+    {
+     "q": "Ramesh runs a shop buying 100 kg of sugar weekly from a wholesale market and selling it in 1 kg packets to households. He also sells 20 kg loose to a nearby sweet shop owner every week. Is Ramesh a wholesaler, retailer, or both? Explain using the definitions of wholesale and retail trade.",
+     "a": "Ramesh is primarily a retailer because his main business is selling small quantities (1 kg) to ultimate consumers (households). The 20 kg sale to the sweet shop is incidental wholesale activity, but it does not change his classification because his primary function is breaking bulk for end consumers. A wrong answer labeling him solely as a wholesaler because he \"buys 100 kg\" or solely as a retailer ignoring the sweet shop sale shows inability to handle mixed business models and apply the 'primary business function' test used in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the risk-bearing function of wholesalers and retailers. Wholesalers bear risk of 'fall in prices, theft, pilferage, spoilage, fire' for large stocks held in warehouses. Retailers bear risk of 'obsolescence, reduction in prices, demand fluctuations' for smaller, diverse stocks held in shops. Analyze why the *nature* of risk differs even though both bear business risk.",
+     "a": "Wholesalers hold large, homogeneous stocks of fewer product lines for longer periods, exposing them to macro risks like price crashes and storage hazards (fire/theft in warehouses). Retailers hold small, heterogeneous stocks of many product lines for shorter periods, exposing them to micro risks like fashion obsolescence, perishability, and local demand shifts. A wrong answer listing identical risks for both (e.g., \"both bear risk of fire\") fails to analyze how scale, product diversity, and holding period create distinct risk profiles.",
+     "self_check": true
+    },
+    {
+     "q": "\"Eliminating wholesalers will reduce prices for consumers because it removes one layer of profit margin.\" Evaluate this statement by analyzing three services wholesalers provide to retailers that would have to be performed by retailers or manufacturers if wholesalers disappeared, and the cost implications.",
+     "a": "The statement is flawed. If wholesalers are eliminated, retailers must perform: (1) Bulk breaking and storage (requiring larger retail space/capital), (2) Assembling goods from multiple manufacturers (increasing procurement complexity and transport costs), (3) Credit provision to consumers (shifting financial burden to retailers). These added costs often exceed the wholesaler's margin. A wrong answer agreeing with the statement ignores the 'cost of performing functions' principle: functions cannot be eliminated, only shifted, and wholesalers perform them more efficiently due to specialization and scale.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical business scenario involving a product of your choice (e.g., smartphones, vegetables, textbooks) that clearly illustrates the complete wholesale-to-retail chain. Specify the quantity, buyer type, and price per unit at each stage (manufacturer → wholesaler → retailer → consumer). Explain how the price per unit changes and why.",
+     "a": "Example: Textbooks. Manufacturer prints 10,000 copies, sells to wholesaler @ ₹100/copy (lot: 5,000 copies). Wholesaler sells to 50 retailers @ ₹130/copy (lot: 100 copies each). Retailer sells to students @ ₹180/copy (single unit). Price rises due to value addition: wholesaler adds warehousing, bulk-breaking, transport, credit risk; retailer adds shop rent, display, personal selling, small-lot convenience. A poor answer showing same price at all stages or missing a stage reveals inability to conceptualize the cumulative value addition in the distribution chain.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

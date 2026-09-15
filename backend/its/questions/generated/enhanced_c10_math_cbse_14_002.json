@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_14_002",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_14_002",
+   "title": "c10_math_cbse_14_002",
+   "questions": [
+    {
+     "q": "A student writes the sample space for tossing two coins simultaneously as S = {HH, HT, TH}. Is this sample space complete? If not, what is missing and why does the student likely think it is complete?",
+     "a": "The sample space is incomplete; it is missing the outcome TT (both tails). The student likely thinks HT and TH are the same outcome because they both represent \"one head and one tail\", ignoring that the coins are distinct (first coin vs second coin) or that order matters in the listing. This reveals a misunderstanding that outcomes in a sample space must be distinct and exhaustive — each physically distinct result must appear separately even if they seem similar in description.",
+     "self_check": true
+    },
+    {
+     "q": "When rolling a single die, a student defines event E = {2, 4, 6} and event F = {1, 3, 5}. The student claims E and F are complementary events. Is this claim correct? Explain why or why not using the definition of complementary events.",
+     "a": "Yes, the claim is correct. Complementary events are two events that are mutually exclusive (no common outcomes) and exhaustive (together they cover the entire sample space). Here, E ∪ F = {1,2,3,4,5,6} = S and E ∩ F = ∅, so they are complementary. A wrong answer would indicate the student confuses \"complementary\" with \"equally likely\" or thinks complementary events must have the same number of outcomes (which they do here, but that's not the defining property).",
+     "self_check": true
+    },
+    {
+     "q": "A bag contains 5 red balls numbered 1 to 5 and 3 blue balls numbered 1 to 3. One ball is drawn at random. List the sample space S and then write the event \"the ball drawn has an even number\" as a subset of S.",
+     "a": "Sample space S = {R1, R2, R3, R4, R5, B1, B2, B3} (8 outcomes). Event E = {R2, R4, B2}. Steps: 1) Identify all distinct balls by colour and number. 2) List each as an outcome. 3) Select outcomes where the number is even (2 or 4). 4) Note that blue balls only go up to 3, so only B2 qualifies. A wrong answer might list only numbers {2,4} ignoring colour, or miss B2, or include R6 (which doesn't exist). This reveals failure to treat each physical ball as a distinct outcome.",
+     "self_check": true
+    },
+    {
+     "q": "Consider two experiments: Experiment A: Toss a coin and roll a die. Experiment B: Roll a die and then toss a coin. A student says the sample spaces are identical because both involve a coin and a die. Analyse whether the sample spaces are the same set of outcomes. Justify your answer.",
+     "a": "The sample spaces are identical as sets: both are {H1, H2, H3, H4, H5, H6, T1, T2, T3, T4, T5, T6} (12 outcomes). The order of performing the experiments does not change the set of possible combined outcomes, provided the coin and die are independent and the outcomes are recorded as ordered pairs (coin result, die result). A student who says they are different might be confusing the temporal order with the outcome representation, or might think the sample space should reflect the sequence of actions. This tests understanding that sample space depends only on the set of possible results, not the procedure's timeline.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher writes on the board: \"Sample space for throwing a die twice: S = {(1,1), (1,2), ..., (6,6)}.\" A student argues: \"Since the die is the same, (2,5) and (5,2) are the same outcome because both give a 2 and a 5.\" Evaluate the student's argument and explain the error.",
+     "a": "The student's argument is incorrect. When a die is thrown twice (or two dice are thrown), the outcomes are ordered pairs where the first coordinate represents the first throw and the second coordinate represents the second throw. (2,5) and (5,2) are distinct outcomes because they correspond to different sequences of results. Treating them as the same would collapse the sample space to 21 outcomes instead of 36, destroying the equally likely assumption (since sums like 7 would then have fewer outcomes than they should). The error is confusing the combination of numbers with the ordered outcome of a sequential experiment.",
+     "self_check": true
+    },
+    {
+     "q": "Create a random experiment (different from coins, dice, or cards) that has exactly 10 equally likely outcomes in its sample space. Describe the experiment clearly and list its sample space.",
+     "a": "Example: A spinner divided into 10 equal sectors numbered 1 to 10 is spun once. Sample space S = {1,2,3,4,5,6,7,8,9,10}. Another example: A box contains 10 tickets numbered 1 to 10; one ticket is drawn at random. S = {1,2,3,4,5,6,7,8,9,10}. A good answer must specify a physical mechanism that yields exactly 10 distinct, equally likely results. A poor answer might give an experiment with non-equally likely outcomes (e.g., \"number of children in a family\") or an incorrect count (e.g., \"toss a coin 3 times\" which gives 8 outcomes). This tests creativity and understanding of \"equally likely\" and sample space size.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

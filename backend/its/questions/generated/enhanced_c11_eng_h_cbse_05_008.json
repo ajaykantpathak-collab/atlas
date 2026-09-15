@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_05_008",
+   "title": "c11_eng_h_cbse_05_008",
+   "questions": [
+    {
+     "q": "Define \"imagery\" and \"metaphor\" in your own words, and give one example of each from \"The Adventure\" without looking at the text.",
+     "a": "Imagery: Language appealing to senses (e.g., \"The train roared through Kalyan\" — auditory/kinesthetic). Metaphor: Direct comparison without \"like/as\" (e.g., \"You neither travelled to the past nor the future. You were in the present experiencing a different world\" — equating time travel with dimensional transition). A wrong answer that gives a simile (\"like a magnet\") for metaphor reveals confusion between explicit and implicit comparison; an example not from the text reveals inability to anchor definitions in the prescribed chapter.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"Like a piece of iron attracted to a magnet, he swiftly moved towards the chair,\" identify the literary device and explain why Narlikar chooses this specific vehicle (iron/magnet) for the tenor (Gaitonde's movement).",
+     "a": "This is a *simile* (explicit comparison using \"like\"), not a metaphor. The vehicle \"iron attracted to magnet\" conveys irresistible, involuntary force — Gaitonde's academic compulsion to preside is portrayed as a physical law, foreshadowing the chapter's theme of deterministic vs. probabilistic systems. A wrong answer calling it a metaphor shows failure to distinguish explicit/implicit comparison; missing the \"involuntary force\" implication shows superficial reading of vehicle choice.",
+     "self_check": true
+    },
+    {
+     "q": "Find a tactile image in the Azad Maidan scene (pp. 47-48) and explain how it transforms an abstract intellectual conflict into bodily experience.",
+     "a": "\"He soon became a target for a shower of tomatoes, eggs and other objects\" — tactile/kinesthetic imagery (wet impact, smell, sticky residue). This transforms the abstract \"battle of ideas\" (Gaitonde's historical argument) into visceral public humiliation, mirroring how the Battle of Panipat's abstract \"turning point\" becomes the concrete bullet missing/ hitting Vishwasrao. A wrong answer citing only visual details (\"audience swarmed\") misses the tactile dimension that makes the intellectual defeat physical.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the extended metaphor in Rajendra's explanation: \"Imagine two worlds... In state no.1 we have the electron in a state of higher energy. In state no. 2 it is in a state of lower energy... What if it happened on a macroscopic level?\" Identify the tenor, vehicle, and the ground (shared quality) that makes this metaphor scientifically and narratively coherent.",
+     "a": "Tenor: Gaitonde's transition between historical realities. Vehicle: Electron quantum jump between energy states. Ground: Both involve discontinuous, probabilistic state-changes triggered by observation/interaction, where \"before\" and \"after\" are distinct realities not connected by continuous passage. Coherence comes from catastrophe theory's mathematical structure (bifurcation) mirroring quantum state-transition. A wrong answer that treats this as mere analogy misses that Narlikar uses the *mathematics* of quantum mechanics as the metaphor's structural logic, not just decorative comparison.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the metaphor \"The lack of determinism in quantum theory!\" as a chapter-ending insight. Does it illuminate or obscure the historical speculation? Justify with textual evidence.",
+     "a": "It illuminates by reframing \"what if\" history from idle speculation to scientifically grounded possibility: just as an electron's position is probabilistic until measured, the Battle of Panipat's outcome existed as a probability distribution until the \"measurement\" (the bullet's path) collapsed it. The metaphor works because Gaitonde — a historian — recognises it (\"Even an ignoramus historian like me has heard of it\"), bridging disciplines. A wrong answer calling it \"just a fancy comparison\" fails to see that the metaphor *is* the chapter's epistemological argument: history, like quantum reality, may be non-unique.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new metaphor for the \"catastrophic experience\" of transitioning between historical worlds, using a vehicle from biology or geology (not physics). Explain your tenor-vehicle-ground mapping.",
+     "a": "Example: \"Gaitonde's transition was a speciation event — a single population (history up to Panipat) split by a catastrophic barrier (the bullet's path) into two reproductively isolated lineages (the British Raj timeline and the Maratha supremacy timeline), each evolving independently thereafter.\" Tenor: historical bifurcation. Vehicle: allopatric speciation. Ground: single origin, sudden barrier, irreversible divergence, coexistence of distinct descendants. A poor answer uses a vehicle without structural isomorphism (e.g., \"like a caterpillar becoming a butterfly\" — implies continuity, not branching).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

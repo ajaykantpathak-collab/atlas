@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_05_004",
+   "title": "c11_phy_cbse_05_004",
+   "questions": [
+    {
+     "q": "Write the SI unit of kinetic energy and state whether it is a scalar or vector quantity.",
+     "a": "The SI unit of kinetic energy is joule (J). It is a scalar quantity. A wrong answer (e.g., \"newton\" or \"vector\") reveals confusion between force/energy or between kinetic energy and momentum (which is a vector). Students often mistakenly think kinetic energy has direction because velocity has direction, forgetting the \\( v^2 = \\vec{v} \\cdot \\vec{v} \\) dot product makes it scalar.",
+     "self_check": true
+    },
+    {
+     "q": "A truck of mass 2000 kg and a bicycle of mass 20 kg are both moving at 10 m/s. Which has more kinetic energy? Explain why the factor \\( \\frac{1}{2} \\) appears in the formula \\( K = \\frac{1}{2}mv^2 \\) but not in momentum \\( p = mv \\).",
+     "a": "The truck has more kinetic energy (100,000 J vs 1,000 J) because kinetic energy is proportional to mass. The \\( \\frac{1}{2} \\) arises from integrating \\( F = ma \\) over displacement: \\( W = \\int F\\,dx = \\int m \\frac{dv}{dt} dx = \\int m v\\,dv = \\frac{1}{2}mv^2 \\). Momentum comes from integrating force over time: \\( \\int F\\,dt = \\int m \\frac{dv}{dt} dt = mv \\). A wrong answer (e.g., \"they are equal\" or \"the \\( \\frac{1}{2} \\) is arbitrary\") shows lack of understanding of the work-energy derivation versus impulse-momentum derivation.",
+     "self_check": true
+    },
+    {
+     "q": "A 1500 kg car accelerates from 36 km/h to 72 km/h. Calculate the change in its kinetic energy. (Use 1 km/h = 5/18 m/s)",
+     "a": "Step 1: Convert speeds: \\( u = 36 \\times \\frac{5}{18} = 10 \\) m/s, \\( v = 72 \\times \\frac{5}{18} = 20 \\) m/s.\nStep 2: \\( \\Delta K = \\frac{1}{2}m(v^2 - u^2) = \\frac{1}{2} \\times 1500 \\times (20^2 - 10^2) = 750 \\times (400 - 100) = 750 \\times 300 = 225,000 \\) J.\nStep 3: Unit check: kg × (m/s)² = kg·m²/s² = J. Correct.\nAnswer: 225 kJ. A wrong answer often comes from forgetting to convert km/h to m/s (giving 225,000 × (18/5)² ≈ 2.9 MJ) or using \\( \\Delta K = \\frac{1}{2}m(v-u)^2 \\) (incorrectly squaring the difference).",
+     "self_check": true
+    },
+    {
+     "q": "Two identical balls are thrown with the same speed, one vertically upward and one at 30° to the horizontal. Compare their kinetic energies at the instant of release and at the highest point of their trajectories. Ignore air resistance.",
+     "a": "At release: both have same speed → same kinetic energy (scalar, independent of direction). At highest point: the vertical ball has zero speed → \\( K = 0 \\). The angled ball has horizontal speed \\( v \\cos 30° \\) → \\( K = \\frac{1}{2}m(v \\cos 30°)^2 = \\frac{3}{4} \\times \\frac{1}{2}mv^2 \\). A wrong answer (e.g., \"same at highest point\" or \"vertical ball has more at release\") reveals the misconception that kinetic energy depends on direction of velocity or that potential energy conversion is identical for both.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If the momentum of a body is doubled, its kinetic energy also doubles.\" Evaluate this statement and give the correct relationship.",
+     "a": "The statement is false. \\( p = mv \\), \\( K = \\frac{1}{2}mv^2 = \\frac{p^2}{2m} \\). If momentum doubles (\\( p' = 2p \\)), kinetic energy becomes \\( K' = \\frac{(2p)^2}{2m} = 4 \\frac{p^2}{2m} = 4K \\). Kinetic energy quadruples, not doubles. A wrong evaluation (e.g., \"true\" or \"kinetic energy halves\") shows confusion between linear and quadratic dependence, and inability to combine \\( p \\) and \\( K \\) formulas algebraically.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a school laboratory setup (trolley, light gate, masses, runway) to verify that kinetic energy is proportional to the square of velocity. Outline the procedure, measurements, and how you would analyze the data.",
+     "a": "Procedure: Place trolley on friction-compensated runway. Attach a card of known length. Use a light gate to measure time \\( t \\) for card to pass → velocity \\( v = \\text{length}/t \\). Vary starting height to change \\( v \\). Measure \\( v \\) and compute \\( K = \\frac{1}{2}mv^2 \\). Plot \\( K \\) vs \\( v \\) (curved) and \\( K \\) vs \\( v^2 \\) (straight line through origin). Slope = \\( \\frac{1}{2}m \\). A poor answer (e.g., \"measure speed and energy directly\" or no graph analysis) reveals lack of experimental design skills and misunderstanding of how to test a quadratic relationship.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

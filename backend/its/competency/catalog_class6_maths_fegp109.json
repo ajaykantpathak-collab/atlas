@@ -1,0 +1,215 @@
+{
+ "class": 6,
+ "subject": "maths",
+ "chapter": 9,
+ "chapter_title": "Symmetry",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fegp109.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fegp.9.1",
+   "title": "Line Symmetry and Lines of Symmetry",
+   "section": "Symmetry",
+   "definition": "A figure has line symmetry when it can be folded along a line so that the two halves match exactly; the fold is a line of symmetry, and figures may have one, many or no such lines.",
+   "formula": "",
+   "key_idea": "A line of symmetry is a mirror inside the figure: each half is the exact reflection of the other.",
+   "textbook_ref": "fegp109.txt, Symmetry",
+   "question_patterns": [
+    "what is a line of symmetry",
+    "how many lines of symmetry does a square have",
+    "draw the lines of symmetry of the given figure",
+    "does the letter S have line symmetry discuss",
+    "check symmetry by folding a cut-out of the shape",
+    "which letters of the alphabet have a line of symmetry"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or graph shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the objects or compare the values carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  },
+  {
+   "id": "fegp.9.2",
+   "title": "Rotational Symmetry",
+   "section": "Rotational symmetry",
+   "definition": "A figure has rotational symmetry when a half-turn or other turn about its centre brings it to look exactly like itself; the number of times it matches in one full rotation is its order of rotational symmetry.",
+   "formula": "",
+   "key_idea": "Spin the figure and count the matches: the number of self-matches in one turn is its rotational order.",
+   "textbook_ref": "fegp109.txt, Rotational symmetry",
+   "question_patterns": [
+    "what is rotational symmetry",
+    "find the order of rotational symmetry of a square",
+    "does an equilateral triangle have rotational symmetry",
+    "give two objects at home with rotational symmetry",
+    "what is the angle of turn for order 4 rotational symmetry",
+    "compare line symmetry and rotational symmetry of a rectangle"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or graph shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the objects or compare the values carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  },
+  {
+   "id": "fegp.9.3",
+   "title": "Symmetric Figures in Nature and Art",
+   "section": "Symmetry around us",
+   "definition": "Symmetry decorates the world: butterfly wings, flowers, rangoli patterns and architecture show lines of symmetry, and artists and nature alike repeat mirrored halves for balance and beauty.",
+   "formula": "",
+   "key_idea": "Symmetry is design language: nature and art both speak it with mirrored halves and turns.",
+   "textbook_ref": "fegp109.txt, Symmetry around us",
+   "question_patterns": [
+    "find line symmetry in two objects of nature",
+    "draw a rangoli pattern with two lines of symmetry",
+    "why do butterflies look symmetric",
+    "spot symmetric designs on buildings around you",
+    "make a symmetric pattern with vegetable printing",
+    "which of the given designs is most symmetric and why"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or graph shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the objects or compare the values carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  },
+  {
+   "id": "fegp.9.4",
+   "title": "Completing Symmetric Figures",
+   "section": "Completing figures",
+   "definition": "Given half a figure and its line of symmetry, the whole can be completed by reflecting each point: every dot on one side finds its partner at the same distance on the other side of the mirror line.",
+   "formula": "",
+   "key_idea": "Mirror lines double everything faithfully: equal distances on both sides rebuild the hidden half.",
+   "textbook_ref": "fegp109.txt, Completing figures",
+   "question_patterns": [
+    "complete the other half of the given figure about the mirror line",
+    "how do you find the mirror image of a point across a line",
+    "complete the figure when the mirror line is slanted",
+    "draw the full figure whose half is given in the exercise",
+    "why must mirror distances be equal on both sides",
+    "make a half design and ask your friend to complete it"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-counting, then conclude."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fegp109.txt",
+   "concept": "fegp.9.1",
+   "question_type": "verify_property",
+   "question_pattern": "how many lines of symmetry does a square have?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-counting, then conclude."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fegp109.txt",
+   "concept": "fegp.9.2",
+   "question_type": "verify_property",
+   "question_pattern": "find the order of rotational symmetry of an equilateral triangle.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or graph shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the objects or compare the values carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fegp109.txt, Figure it Out",
+   "questions": [
+    "How many lines of symmetry does a square have?",
+    "Find the order of rotational symmetry of an equilateral triangle.",
+    "Complete the given figure about its mirror line.",
+    "Give two examples of symmetry in nature.",
+    "Does the letter S have line symmetry? Discuss."
+   ]
+  }
+ ]
+}

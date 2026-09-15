@@ -1,0 +1,383 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 113,
+ "chapter_title": "Visualising Solid Shapes",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/gemh113.txt",
+ "concepts": [
+  {
+   "id": "gemh.13.1",
+   "title": "Classification of 2-D and 3-D Shapes",
+   "section": "13.1",
+   "definition": "Two-dimensional (2-D) shapes are flat plane figures with only length and breadth, whereas three-dimensional (3-D) shapes are solid objects occupying space with length, breadth, and height or depth.",
+   "formula": "dimensions = 2 or 3",
+   "key_idea": "Plane figures have two dimensions, while solid shapes have three dimensions.",
+   "textbook_ref": "gemh113.txt lines 12-45",
+   "question_patterns": [
+    "classify the given figure as 2-D or 3-D",
+    "is a circle a two-dimensional or three-dimensional shape",
+    "identify whether a cylinder is a plane figure or a solid shape",
+    "distinguish between 2-D and 3-D objects"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze the dimensions of the object",
+     "explain": "Determine if the object is flat (having only length and breadth) or occupies space (having length, breadth, and depth/height)."
+    },
+    {
+     "step": 2,
+     "action": "Classify the shape",
+     "explain": "If it is flat, it is a 2-D plane figure. If it has depth/height, it is a 3-D solid shape."
+    }
+   ]
+  },
+  {
+   "id": "gemh.13.2",
+   "title": "Faces, Edges, and Vertices of Solids",
+   "section": "13.2",
+   "definition": "A solid shape is bounded by flat surfaces called faces; the line segments where two faces meet are edges, and the corner points where edges meet are vertices.",
+   "formula": "none",
+   "key_idea": "Faces are 2-D surfaces, edges are 1-D line segments, and vertices are 0-D points.",
+   "textbook_ref": "gemh113.txt lines 48-75",
+   "question_patterns": [
+    "find the number of faces, edges, and vertices of a cube",
+    "how many vertices does a triangular pyramid have",
+    "identify the faces, edges, and vertices of a cuboid",
+    "count the corners and flat surfaces of a solid"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Count the flat surfaces (faces)",
+     "explain": "Identify and count all the flat boundary surfaces of the given solid."
+    },
+    {
+     "step": 2,
+     "action": "Count the boundary line segments (edges)",
+     "explain": "Identify and count all the line segments where two faces intersect."
+    },
+    {
+     "step": 3,
+     "action": "Count the corner points (vertices)",
+     "explain": "Identify and count all the points where three or more edges meet."
+    }
+   ]
+  },
+  {
+   "id": "gemh.13.3.1",
+   "title": "Nets of 3-D Solids",
+   "section": "13.3",
+   "definition": "A net is a two-dimensional skeleton outline of a solid shape that can be folded along its edges to construct the three-dimensional object.",
+   "formula": "none",
+   "key_idea": "Folding a 2-D net along its shared boundaries reconstructs a 3-D solid.",
+   "textbook_ref": "gemh113.txt lines 76-115",
+   "question_patterns": [
+    "identify the net of a cube",
+    "which of the following nets can be folded to form a cylinder",
+    "match the given net with its corresponding 3-D solid",
+    "can this net form a tetrahedron"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze the 2-D net structure",
+     "explain": "Count the number of faces in the net and examine their shapes (e.g., six squares for a cube)."
+    },
+    {
+     "step": 2,
+     "action": "Simulate folding the net",
+     "explain": "Check if folding the faces along the edges causes any overlaps or leaves any open gaps."
+    },
+    {
+     "step": 3,
+     "action": "Identify the resulting solid",
+     "explain": "If it folds perfectly without overlaps or gaps, match it with the corresponding 3-D shape."
+    }
+   ]
+  },
+  {
+   "id": "gemh.13.3.2",
+   "title": "Opposite Face Values of a Standard Die",
+   "section": "13.3",
+   "definition": "A standard die is a cube where the numbers on any two opposite faces always add up to seven.",
+   "formula": "opposite_value = 7 - face_value",
+   "key_idea": "The sum of dots on opposite faces of a standard die is always 7.",
+   "textbook_ref": "gemh113.txt lines 122-135",
+   "question_patterns": [
+    "find the number on the opposite face of a die when the top face is",
+    "what is the value of the opposite face of",
+    "calculate the opposite face of a die showing",
+    "if a die shows a face value of, what is on the bottom face"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract the given face value from 7",
+     "explain": "Since the sum of opposite faces on a standard die is 7, the opposite face is 7 minus the given face value.",
+     "compute": "opposite_value = 7 - face_value"
+    }
+   ]
+  },
+  {
+   "id": "gemh.13.4.1",
+   "title": "Oblique and Isometric Sketches",
+   "section": "13.4",
+   "definition": "Oblique sketches are 2-D representations of solids where lengths are not proportional but convey the visual appearance, whereas isometric sketches are drawn on dot paper with proportional, exact measurements.",
+   "formula": "none",
+   "key_idea": "Isometric sketches preserve proportional measurements, while oblique sketches do not.",
+   "textbook_ref": "gemh113.txt lines 145-200",
+   "question_patterns": [
+    "draw an oblique sketch of a cube",
+    "what is the difference between an oblique sketch and an isometric sketch",
+    "sketch a cuboid on an isometric dot sheet",
+    "represent a solid on a flat surface using isometric dot paper"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the type of sketch required",
+     "explain": "Determine if the drawing needs to have exact proportional measurements (isometric) or just a visual representation (oblique)."
+    },
+    {
+     "step": 2,
+     "action": "Verify the properties of the sketch",
+     "explain": "For an isometric sketch, ensure parallel lines are drawn along the dot grid directions and lengths match the given dimensions."
+    }
+   ]
+  },
+  {
+   "id": "gemh.13.4.3",
+   "title": "Dimensions of Combined Cubes Placed Side-by-Side",
+   "section": "13.4.3",
+   "definition": "When multiple identical cubes are placed side-by-side in a single row, they form a cuboid whose length increases proportionally with the number of cubes, while the breadth and height remain equal to the side length of a single cube.",
+   "formula": "length = num_cubes * side_length",
+   "key_idea": "Only the dimension along the direction of placement increases; other dimensions remain unchanged.",
+   "textbook_ref": "gemh113.txt lines 215-235",
+   "question_patterns": [
+    "if two cubes of side ... are placed side by side, find the dimensions of the resulting cuboid",
+    "calculate the length, breadth, and height of a cuboid formed by joining ... cubes of edge ... side by side",
+    "what are the dimensions of the cuboid when ... cubes of side ... are placed in a row",
+    "find the resulting dimensions of placing ... cubes of side ... together"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the length of the resulting cuboid",
+     "explain": "The length is the product of the number of cubes and the side length of one cube.",
+     "compute": "length = num_cubes * side_length"
+    },
+    {
+     "step": 2,
+     "action": "Determine the breadth of the resulting cuboid",
+     "explain": "The breadth remains equal to the side length of a single cube.",
+     "compute": "breadth = side_length"
+    },
+    {
+     "step": 3,
+     "action": "Determine the height of the resulting cuboid",
+     "explain": "The height remains equal to the side length of a single cube.",
+     "compute": "height = side_length"
+    }
+   ]
+  },
+  {
+   "id": "gemh.13.5.1",
+   "title": "Cross-Sections of Solids via Slicing",
+   "section": "13.5.1",
+   "definition": "A cross-section is the 2-D shape obtained by cutting or slicing a 3-D solid either vertically (perpendicular to the base) or horizontally (parallel to the base).",
+   "formula": "none",
+   "key_idea": "Slicing a solid yields a 2-D plane figure as a cross-section.",
+   "textbook_ref": "gemh113.txt lines 236-265",
+   "question_patterns": [
+    "what cross-section do you get when you give a vertical cut to a brick",
+    "find the horizontal cross-section of a circular pipe",
+    "describe the shape of the slice of an ice cream cone",
+    "what shape results from a horizontal cut of a round apple"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the orientation of the cut",
+     "explain": "Determine if the cut is vertical (perpendicular to the base) or horizontal (parallel to the base)."
+    },
+    {
+     "step": 2,
+     "action": "Visualize the intersection plane",
+     "explain": "Determine the shape of the boundary where the cutting plane intersects the solid."
+    },
+    {
+     "step": 3,
+     "action": "Name the resulting 2-D shape",
+     "explain": "Identify the 2-D geometric figure formed by the cross-section (e.g., circle, square, rectangle, triangle)."
+    }
+   ]
+  },
+  {
+   "id": "gemh.13.5.2",
+   "title": "Shadows of 3-D Objects",
+   "section": "13.5.2",
+   "definition": "A shadow is a 2-D projection of a 3-D solid onto a flat screen when illuminated by a light source, with its shape depending on the orientation of the solid and the position of the light.",
+   "formula": "none",
+   "key_idea": "Shadows represent 3-D shapes projected into 2-D space.",
+   "textbook_ref": "gemh113.txt lines 266-305",
+   "question_patterns": [
+    "what is the shape of the shadow of a ball under a bulb",
+    "can a cube cast a shadow in the shape of a hexagon",
+    "identify the solid that casts a circular shadow",
+    "describe the shadow of a cylindrical pipe when the light is directly above it"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze the position of the light source relative to the solid",
+     "explain": "Determine the direction from which the light rays hit the solid."
+    },
+    {
+     "step": 2,
+     "action": "Project the outline of the solid onto the screen",
+     "explain": "Visualize the 2-D boundary formed by blocking the light rays."
+    },
+    {
+     "step": 3,
+     "action": "Determine the shape of the shadow",
+     "explain": "Identify the 2-D shape of the resulting shadow."
+    }
+   ]
+  },
+  {
+   "id": "gemh.13.5.3",
+   "title": "Multi-Angle Views of Solids",
+   "section": "13.5.3",
+   "definition": "A 3-D solid can be observed from different directions to produce distinct 2-D views: the front view, the side view, and the top view.",
+   "formula": "none",
+   "key_idea": "Looking at a solid from different orthogonal angles provides a set of 2-D views that describe its 3-D structure.",
+   "textbook_ref": "gemh113.txt lines 306-335",
+   "question_patterns": [
+    "draw the top view of the given solid",
+    "identify the front, side, and top views of the building",
+    "what does the side view of a cylinder look like",
+    "match the views with the corresponding solid"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Select the viewing direction",
+     "explain": "Choose whether to look at the solid from directly in front, from the side, or from directly above."
+    },
+    {
+     "step": 2,
+     "action": "Project the visible faces onto a 2-D plane",
+     "explain": "Disregard depth and draw only the flat shapes visible from that specific direction."
+    },
+    {
+     "step": 3,
+     "action": "Identify the resulting 2-D view",
+     "explain": "Label the drawn shape as the front, side, or top view."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gemh113.txt Example 2",
+   "concept": "gemh.13.4.3",
+   "question_type": "compute",
+   "question_pattern": "If {num_cubes} cubes of dimensions {side_length} cm by {side_length} cm by {side_length} cm are placed side by side, what would the dimensions of the resulting cuboid be?",
+   "extracted_variables": {
+    "num_cubes": "number of cubes placed side by side",
+    "side_length": "edge length of each cube"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the length of the resulting cuboid",
+     "explain": "The length is the product of the number of cubes and the side length of one cube.",
+     "compute": "length = num_cubes * side_length"
+    },
+    {
+     "step": 2,
+     "action": "Determine the breadth of the resulting cuboid",
+     "explain": "The breadth remains equal to the side length of a single cube.",
+     "compute": "breadth = side_length"
+    },
+    {
+     "step": 3,
+     "action": "Determine the height of the resulting cuboid",
+     "explain": "The height remains equal to the side length of a single cube.",
+     "compute": "height = side_length"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gemh113.txt Exercise 13.1 Question 2",
+   "concept": "gemh.13.3.2",
+   "question_type": "compute",
+   "question_pattern": "On a standard die, if one of the faces has a value of {face_value}, what is the value on its opposite face?",
+   "extracted_variables": {
+    "face_value": "the number shown on the given face of the die"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract the given face value from 7",
+     "explain": "Since the sum of opposite faces on a standard die is 7, the opposite face is 7 minus the given face value.",
+     "compute": "opposite_value = 7 - face_value"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex13.1",
+   "source_ref": "gemh113.txt lines 116-144",
+   "questions": [
+    "Identify the nets which can be used to make cubes.",
+    "Dice are cubes with dots on each face. Opposite faces of a die always have a total of seven dots on them. Insert suitable numbers in the blanks, remembering that the number on the opposite faces should total to 7.",
+    "Can this be a net for a die? Explain your answer.",
+    "Here is an incomplete net for making a cube. Complete it in at least two different ways. Remember that a cube has six faces.",
+    "Match the nets with appropriate solids."
+   ]
+  },
+  {
+   "id": "ex13.2",
+   "source_ref": "gemh113.txt lines 201-214",
+   "questions": [
+    "Use isometric dot paper and make an isometric sketch for each one of the given shapes.",
+    "The dimensions of a cuboid are 5 cm, 3 cm and 2 cm. Draw three different isometric sketches of this cuboid.",
+    "Three cubes each with 2 cm edge are placed side by side to form a cuboid. Sketch an oblique or isometric sketch of this cuboid.",
+    "Make an oblique sketch for each one of the given isometric shapes.",
+    "Give (i) an oblique sketch and (ii) an isometric sketch for a cuboid of dimensions 5 cm, 3 cm and 2 cm, and a cube with an edge 4 cm long."
+   ]
+  },
+  {
+   "id": "ex13.3",
+   "source_ref": "gemh113.txt lines 250-265",
+   "questions": [
+    "What cross-sections do you get when you give a (i) vertical cut (ii) horizontal cut to: (a) A brick, (b) A round apple, (c) A die, (d) A circular pipe, (e) An ice cream cone?"
+   ]
+  },
+  {
+   "id": "ex13.4",
+   "source_ref": "gemh113.txt lines 290-305",
+   "questions": [
+    "A bulb is kept burning just right above the following solids. Name the shape of the shadows obtained in each case: (i) A ball, (ii) A cylindrical pipe, (iii) A book.",
+    "Here are the shadows of some 3-D objects, when seen under the lamp of an overhead projector. Identify the solid(s) that match each shadow: (i) A circle, (ii) A square, (iii) A triangle, (iv) A rectangle.",
+    "Examine if the following are true statements: (i) The cube can cast a shadow in the shape of a rectangle. (ii) The cube can cast a shadow in the shape of a hexagon."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

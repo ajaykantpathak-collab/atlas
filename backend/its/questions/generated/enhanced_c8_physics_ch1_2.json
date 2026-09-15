@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch1_2",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch1_2",
+   "title": "c8_physics_ch1_2",
+   "questions": [
+    {
+     "q": "A student writes in her notebook: \"The metal spoon feels colder than the wooden spoon.\" Is this a qualitative or quantitative observation? State the reason in one sentence.",
+     "a": "It is a **qualitative observation** because it describes a quality (coldness) using senses without any numerical measurement or units. A wrong answer (calling it quantitative) reveals the student confuses \"using a sense\" with \"measuring a quantity\" – they have not grasped that quantitative data requires a number and a unit (e.g., \"15 °C\" measured with a thermometer).",
+     "self_check": true
+    },
+    {
+     "q": "Rohan wants to test \"Does adding salt make water boil faster?\" He boils 200 mL of pure water in a steel pan on a gas stove and times it. Then he boils 200 mL of water with one spoon of salt in the *same* pan on the *same* stove setting and times it. Explain why this is a fair test, naming the independent, dependent, and one controlled variable.",
+     "a": "Independent variable: amount of salt (0 vs 1 spoon). Dependent variable: time to reach boiling. Controlled variables: volume of water (200 mL), pan material, stove flame setting, initial water temperature. A wrong answer (e.g., missing a controlled variable or swapping independent/dependent) shows the student cannot yet map the language of variables onto a concrete procedure – a prerequisite for designing their own experiments in c8_physics_ch1_3.",
+     "self_check": true
+    },
+    {
+     "q": "Priya measures the time for a toy car to roll down a 2 m ramp. Her three trials give: 4.2 s, 4.0 s, 3.8 s. Calculate the mean time and the range. Should she report the mean as 4.0 s or 4.00 s? Justify using significant figures.",
+     "a": "Mean = (4.2 + 4.0 + 3.8) / 3 = 12.0 / 3 = **4.0 s**. Range = 4.2 – 3.8 = **0.4 s**. The mean should be reported as **4.0 s** (two significant figures) because the raw data have two significant figures (4.2, 4.0, 3.8). Reporting 4.00 s would falsely imply precision to hundredths of a second. A wrong answer (e.g., 4.00 s or ignoring range) reveals the student treats every calculator digit as meaningful – a common error when moving from integer arithmetic to measurement-based physics.",
+     "self_check": true
+    },
+    {
+     "q": "Two students investigate \"How does the angle of a ramp affect the speed of a marble?\" Student A changes the ramp angle *and* the marble mass each trial. Student B changes only the angle, using the same marble and ramp surface. Compare the validity of their conclusions. Which student’s data can support a cause-effect claim? Why?",
+     "a": "**Student B**’s data can support a cause-effect claim because only one variable (angle) was changed – it is a fair test. Student A changed two variables simultaneously (angle and mass), so any difference in speed could be due to angle, mass, or both – the effect is confounded. A wrong answer (saying both are equally valid) shows the student does not yet understand that **isolating a single independent variable is essential for causal inference**, a concept introduced in Class 7 (c7_physics_ch01_008) and now formalised.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 8 group reports: \"We proved that heavier objects fall faster because our 50 g clay ball hit the ground before a 5 g paper ball dropped from the same height.\" Evaluate this claim. Identify the uncontrolled variable and suggest a better experiment.",
+     "a": "The claim is **invalid**. The uncontrolled variable is **air resistance** (shape/surface area), not mass. The clay ball is compact; the paper ball is flat and light, so air resistance affects them differently. Better experiment: crumple the paper into a tight ball of the same *shape and size* as the clay ball, then drop both – or use a vacuum tube (feather and coin) to eliminate air resistance. A wrong answer (accepting the claim) reveals the student confounds mass with aerodynamics and has not internalised the need to control all variables except the one being tested.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only household items (no lab equipment) to test: \"Does the temperature of water affect how quickly sugar dissolves?\" List: (a) independent variable, (b) dependent variable, (c) three controlled variables, (d) step-by-step procedure (4-5 steps), (e) how you will record results.",
+     "a": "(a) Water temperature (e.g., 10 °C, 30 °C, 50 °C). (b) Time for 1 teaspoon sugar to fully dissolve (stopwatch). (c) Volume of water (100 mL), amount of sugar (1 tsp), stirring rate (e.g., 60 stirs/min), container type. (d) 1. Measure 100 mL cold water (10 °C) into a glass. 2. Add 1 tsp sugar, start stopwatch, stir at steady rate. 3. Stop timer when sugar disappears; record time. 4. Repeat with warm (30 °C) and hot (50 °C) water. 5. Repeat each temperature twice for reliability. (e) Table with columns: Temperature (°C), Trial 1 (s), Trial 2 (s), Mean (s). A poor answer (missing controls, no repetition, vague stirring) shows the student cannot yet translate a question into a *reproducible* plan – the core skill for c8_physics_ch1_3.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

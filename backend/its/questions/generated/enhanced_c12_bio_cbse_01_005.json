@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_01_005",
+   "title": "c12_bio_cbse_01_005",
+   "questions": [
+    {
+     "q": "A Class 12 student states: \"Spermatogenesis and oogenesis both involve meiosis, so they both produce four haploid gametes from one diploid germ cell.\" Identify the error in this statement and explain the correct outcome for each process.",
+     "a": "The statement is incorrect because it ignores cytokinesis asymmetry in oogenesis. In spermatogenesis, one primary spermatocyte (2n) undergoes meiosis I and II with equal cytokinesis to produce four haploid spermatids (n), all of which differentiate into spermatozoa. In oogenesis, one primary oocyte (2n) undergoes meiosis I with highly unequal cytokinesis producing one large secondary oocyte (n) and one tiny first polar body (n); meiosis II (completed only after fertilisation) again divides unequally yielding one ovum (n) and a second polar body (n), while the first polar body may also divide. Thus, oogenesis yields one functional gamete plus polar bodies that degenerate. A wrong answer reveals the student has memorised \"meiosis produces four cells\" without understanding cytoplasmic partitioning differences.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the primary oocyte remain arrested at prophase I (dictyate stage) from fetal life until puberty, while primary spermatocytes do not exhibit a comparable prolonged arrest? Explain the biological significance of this difference.",
+     "a": "Primary oocytes arrest at dictyate (diplotene of prophase I) due to high levels of cAMP maintained by oocyte maturation inhibitor (OMI) from follicular granulosa cells and low MPF (maturation-promoting factor) activity. This arrest lasts years (up to 50 in humans) allowing oocyte growth, accumulation of maternal mRNAs, proteins, and organelles essential for early embryogenesis. Primary spermatocytes do not arrest because spermatogenesis is continuous post-puberty; they complete meiosis I within 24 days. The significance: oocytes stockpile resources for zygote development before zygotic genome activation, while sperm contribute only DNA and centrioles. A wrong answer (e.g., \"oocytes wait for fertilisation\") confuses the dictyate arrest (pre-ovulatory) with metaphase II arrest (post-ovulatory, waiting for fertilisation).",
+     "self_check": true
+    },
+    {
+     "q": "A 35-year-old male and a 35-year-old female are trying to conceive. The male produces ~100 million sperm per day; the female ovulates one oocyte per month. Using your knowledge of gametogenesis timing and checkpoints, explain why advanced maternal age is a greater risk factor for chromosomal aneuploidy (e.g., Down syndrome) than advanced paternal age.",
+     "a": "In oogenesis, the primary oocyte completes meiosis I just before ovulation (decades after fetal arrest), and meiosis II completes only after fertilisation. The prolonged dictyate arrest (up to 50 years) exposes the oocyte to oxidative stress, cohesin degradation, and spindle assembly checkpoint weakening, increasing non-disjunction risk at anaphase I/II. In spermatogenesis, meiosis is continuous post-puberty with no prolonged arrest; spermatogonial stem cells divide mitotically throughout life, but each meiotic cycle completes in ~24 days. While paternal age increases de novo point mutations (due to repeated mitotic divisions), the aneuploidy risk from meiotic non-disjunction is far lower because chromosomes don't remain in a suspended meiotic state for decades. A wrong answer focusing only on \"more divisions = more errors\" misses the critical role of prolonged meiotic arrest and cohesin fatigue in oocytes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of Sertoli cells in spermatogenesis with granulosa cells in oogenesis. How do both cell types create a specialised microenvironment, and what would happen if the blood-testis barrier or blood-follicle barrier were disrupted?",
+     "a": "Sertoli cells (in seminiferous tubules) form the blood-testis barrier via tight junctions, dividing the tubule into basal (spermatogonia, preleptotene spermatocytes) and adluminal (pachytene onward, spermatids) compartments. They secrete inhibin (negative feedback on FSH), ABP (androgen-binding protein concentrating testosterone), and provide nutrients, phagocytose residual bodies, and regulate spermiation. Granulosa cells (in ovarian follicles) form the blood-follicle barrier, secrete estradiol (via FSH-induced aromatase converting theca cell androgens), inhibin, and antrum follicular fluid; they also produce OMI maintaining meiotic arrest. Disruption of blood-testis barrier exposes immunogenic spermatogenic cells to immune system → autoimmune orchitis and infertility. Disruption of blood-follicle barrier causes premature luteinisation, disrupted steroidogenesis, and failed follicular development. A wrong answer listing only \"nourishment\" misses the barrier function, endocrine signalling, and meiotic regulation roles.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Spermiogenesis is simply the maturation of spermatids into spermatozoa; no cell division occurs, so it cannot be affected by mutations in meiotic genes.\" Provide evidence from the spermiogenesis process to support or refute.",
+     "a": "The claim is false. While spermiogenesis involves no division (it's differentiation: nuclear condensation, acrosome formation, flagellum assembly, mitochondrial sheath formation, cytoplasm shedding), it depends entirely on the haploid genome produced by meiosis. Mutations in meiotic genes (e.g., SYCP3, MLH1, SPO11) cause defective synapsis, recombination failure, or aneuploid spermatids. These defective spermatids either arrest during spermiogenesis (quality checkpoints) or produce morphologically abnormal sperm (e.g., globozoospermia from acrosome defects linked to meiotic gene mutations). Additionally, post-meiotic transcription of haploid genes (e.g., protamines, transition proteins) is essential for spermiogenesis; mutations affecting meiotic sex chromosome inactivation (MSCI) disrupt this. A wrong answer treats spermiogenesis as independent of meiosis, ignoring that the haploid genome's integrity and expression pattern are direct products of meiotic events.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a light microscope and stained testis/ovary sections to distinguish between spermatogenesis and oogenesis stages. Specify the staining method, the key morphological features you would identify at each stage, and how you would confirm the ploidy level of cells observed.",
+     "a": "Use PAS-Haematoxylin staining on paraffin sections: PAS stains acrosome (spermatids), zona pellucida (oocytes), and basement membranes; haematoxylin stains nuclei. In testis: identify basal spermatogonia (large, pale nuclei), primary spermatocytes (large, dense chromatin, visible chromosomes in pachytene), secondary spermatocytes (rare, smaller), round spermatids (small, round, dark nuclei), elongating spermatids (condensing nuclei), spermatozoa (heads embedded in Sertoli cells). In ovary: primordial follicle (oocyte with dictyate nucleus, surrounded by squamous granulosa), primary/secondary follicles (growing oocyte, antrum forming), Graafian follicle (large antrum, cumulus-oocyte complex, secondary oocyte with metaphase II plate). Ploidy confirmation: count chromosomes in spread preparations (spermatogonia 46, primary spermatocyte 46 replicated, secondary spermatocyte 23 replicated, spermatid 23; oocyte dictyate 46 replicated, metaphase II 23 replicated). A poor answer only lists stages without staining rationale, ploidy verification, or distinction between mitotic/meiotic figures.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

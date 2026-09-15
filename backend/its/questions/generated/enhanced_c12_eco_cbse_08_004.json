@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_08_004",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_08_004",
+   "title": "c12_eco_cbse_08_004",
+   "questions": [
+    {
+     "q": "In a simple two-sector economy with only households and firms, if households spend ₹1,000 crore on final goods and services in a year, what is the total factor income received by households from firms in that same year?",
+     "a": "₹1,000 crore. In a two-sector model with no savings or investment, every rupee spent by households on final output becomes revenue for firms, which is entirely paid out as factor income (wages, rent, interest, profit) to households. A wrong answer (e.g., \"less than ₹1,000 crore because firms keep profit\") reveals confusion between profit as a factor payment to entrepreneurs (which IS factor income) and retained earnings (which in this simple model are zero because all income is spent).",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Product Method (Value Added Method) avoid double counting by only including value added at each stage, while the Expenditure Method includes only final expenditure?",
+     "a": "The Product Method sums value added (output minus intermediate consumption) at each production stage, so intermediate goods like steel used in cars are counted once in the steel industry's value added and not again in the car industry's output. The Expenditure Method only counts final expenditure (the car sold to consumer), excluding intermediate purchases (steel bought by car maker). A wrong answer like \"both methods exclude intermediate goods\" misses that the Product Method includes intermediate goods in gross output but subtracts them via intermediate consumption, whereas the Expenditure Method never includes them in the first place.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer sells wheat worth ₹20,000 to a miller. The miller sells flour worth ₹35,000 to a baker. The baker sells bread worth ₹50,000 to consumers. Calculate GDP using the Value Added Method and the Expenditure Method. Show they are equal.",
+     "a": "Value Added Method: Farmer VA = ₹20,000 (no intermediate input); Miller VA = ₹35,000 - ₹20,000 = ₹15,000; Baker VA = ₹50,000 - ₹35,000 = ₹15,000; Total GDP = ₹20,000 + ₹15,000 + ₹15,000 = ₹50,000. Expenditure Method: Only final expenditure = consumer spending on bread = ₹50,000. Both equal ₹50,000. A wrong answer (e.g., summing all sales: ₹20,000+₹35,000+₹50,000=₹1,05,000) reveals double counting — counting intermediate goods multiple times.",
+     "self_check": true
+    },
+    {
+     "q": "In the circular flow diagram, if households decide to save ₹200 crore out of their ₹1,000 crore income, and firms invest exactly ₹200 crore, what happens to the total flow of income? Explain using the injection-leakage framework.",
+     "a": "The circular flow remains constant at ₹1,000 crore. Saving (₹200 crore) is a leakage from the expenditure flow, but investment (₹200 crore) is an injection of equal magnitude. Firms borrow households' savings and spend on capital goods, so total expenditure = consumption (₹800 crore) + investment (₹200 crore) = ₹1,000 crore, matching total income. A wrong answer like \"income falls to ₹800 crore\" ignores that investment replaces the leaked saving in the expenditure stream, maintaining the circular flow's size.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The Income Method of measuring GDP is more accurate than the Product Method because it directly measures what people earn, avoiding valuation problems of intermediate goods.\"",
+     "a": "The statement is false. Both methods are theoretically equivalent (Output ≡ Income ≡ Expenditure) and neither is inherently more accurate. The Income Method faces its own measurement challenges: imputing rent for owner-occupied housing, valuing mixed income of self-employed, estimating undistributed profits, and capturing illegal/unreported income. The Product Method's challenge is identifying intermediate vs. final goods. In practice, national statistical offices (like India's NSO) use all three methods and reconcile discrepancies. A student agreeing with the statement misunderstands that \"accuracy\" depends on data availability, not method superiority.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a two-sector circular flow diagram for an economy where households own all factors of production, firms produce only consumption goods, and there is no government or foreign trade. Label all real flows and monetary flows. Then modify it to show what changes if households save 10% of income and firms invest that amount.",
+     "a": "Base diagram: Inner clockwise loop (real flows) — Factor services (land, labor, capital, entrepreneurship) from households → firms; Finished goods/services from firms → households. Outer counter-clockwise loop (monetary flows) — Factor payments (wages, rent, interest, profit) from firms → households; Consumption expenditure from households → firms. Modified diagram: Add a \"Financial Market\" box between households and firms. Leakage arrow: Saving (10% of income) from households → Financial Market. Injection arrow: Investment (equal to saving) from Financial Market → firms. Consumption expenditure arrow reduces to 90% of income. A poor diagram missing the financial market or showing saving as a dead-end (not flowing to investment) reveals misunderstanding of the saving-investment identity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

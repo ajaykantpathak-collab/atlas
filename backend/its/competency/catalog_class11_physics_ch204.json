@@ -1,0 +1,1012 @@
+{
+ "class": 11,
+ "subject": "physics",
+ "chapter": 204,
+ "chapter_title": "Thermodynamics",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\keph204.txt",
+ "concepts": [
+  {
+   "id": "keph.204.1",
+   "title": "Thermal Equilibrium and Zeroth Law of Thermodynamics",
+   "section": "11.2, 11.3",
+   "definition": "When two distinct thermodynamic systems are each in thermal equilibrium with a third system separately, they are also in mutual thermal equilibrium with one another.",
+   "formula": "T_A = T_C and T_B = T_C implies T_A = T_B",
+   "key_idea": "Equality of temperature is the defining requirement for thermal equilibrium between contacting systems.",
+   "textbook_ref": "keph204.txt lines 30-100",
+   "question_patterns": [
+    "in Class 11 thermodynamics: state the zeroth law of thermodynamics and its significance",
+    "explain how the zeroth law of thermodynamics leads to the definition of temperature",
+    "if system A is in thermal equilibrium with C, and B is in thermal equilibrium with C, what can be inferred about A and B",
+    "describe thermal equilibrium between two thermodynamic systems separated by a diathermic wall",
+    "verify whether two bodies at different initial temperatures attain thermal equilibrium when brought into contact"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify contact walls",
+     "explain": "Determine whether systems are separated by insulating adiabatic walls or conducting diathermic walls."
+    },
+    {
+     "step": 2,
+     "action": "apply zeroth law equivalence",
+     "explain": "Conclude that independent thermal equilibria with a common system ensure equal temperature values across all systems."
+    },
+    {
+     "step": 3,
+     "action": "verify temperature equality across the systems",
+     "explain": "Confirm that the inferred common temperature value is consistent for all systems in contact, establishing thermal equilibrium."
+    }
+   ]
+  },
+  {
+   "id": "keph.204.2",
+   "title": "First Law of Thermodynamics and Energy Conservation",
+   "section": "11.4, 11.5",
+   "definition": "Energy supplied to a system as heat is distributed between raising its internal energy and performing mechanical work on the environment.",
+   "formula": "delta_U = delta_Q - delta_W",
+   "key_idea": "Internal energy change depends solely on net heat transferred minus work done by the system.",
+   "textbook_ref": "keph204.txt lines 130-180",
+   "question_patterns": [
+    "in Class 11 thermodynamics: calculate the change in internal energy when heat input and work output are given",
+    "find the change in internal energy of a system absorbing heat and doing work",
+    "determine the heat added to a system given internal energy increase and work done",
+    "compute the work done by a system when heat supplied and internal energy change are known",
+    "evaluate internal energy change delta_U from heat added delta_Q and work done delta_W"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract work done from heat supplied",
+     "explain": "Apply energy conservation delta_U = delta_Q - delta_W to find internal energy change.",
+     "compute": "delta_q - delta_w"
+    },
+    {
+     "step": 2,
+     "action": "verify the sign convention for work and heat",
+     "explain": "heat added to the system is positive and work done by the system is positive so a net energy increase gives a positive delta_U"
+    },
+    {
+     "step": 3,
+     "action": "express the internal energy change with units",
+     "explain": "state the computed change in internal energy in joules for the given heat input and work output",
+     "compute": "delta_u"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving first law of thermodynamics and energy conservation.",
+     "solution": "Step 1: subtract work done from heat supplied. Step 2: verify the sign convention for work and heat. Step 3: express the internal energy change with units. Working: delta_q - delta_w, delta_u.",
+     "answer": "First Law of Thermodynamics and Energy Conservation applied step by step gives the required result."
+    },
+    {
+     "question": "Apply first law of thermodynamics and energy conservation to a fresh example and interpret the result.",
+     "solution": "Step 1: subtract work done from heat supplied. Step 2: verify the sign convention for work and heat. Step 3: express the internal energy change with units. Working: delta_q - delta_w, delta_u.",
+     "answer": "The method of first law of thermodynamics and energy conservation leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.204.3",
+   "title": "Work Done in Isobaric Expansion",
+   "section": "11.5, 11.8.5",
+   "definition": "Mechanical work performed by an expanding gas maintained under constant external pressure equals the product of pressure and total volume change.",
+   "formula": "work = pressure * (final_volume - initial_volume)",
+   "key_idea": "Under constant pressure conditions, work done is directly proportional to the change in volume.",
+   "textbook_ref": "keph204.txt lines 180-210",
+   "question_patterns": [
+    "in Class 11 thermodynamics: compute work done by a gas during isobaric expansion",
+    "calculate work done when a gas expands from an initial volume to a final volume at constant pressure",
+    "find the work done by a system changing volume under constant pressure",
+    "determine mechanical work performed during volume expansion at constant pressure",
+    "what is the work done against a constant pressure when volume increases"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate change in volume",
+     "explain": "Subtract initial volume from final volume to get volume shift delta_V.",
+     "compute": "final_volume - initial_volume"
+    },
+    {
+     "step": 2,
+     "action": "multiply pressure by volume change",
+     "explain": "Calculate work by multiplying constant pressure by volume change.",
+     "compute": "pressure * delta_v"
+    },
+    {
+     "step": 3,
+     "action": "express the work done with units",
+     "explain": "state the computed isobaric work in joules for the given pressure and volume change",
+     "compute": "work"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving work done in isobaric expansion.",
+     "solution": "Step 1: calculate change in volume. Step 2: multiply pressure by volume change. Step 3: express the work done with units. Working: final_volume - initial_volume, pressure * delta_v, work.",
+     "answer": "Work Done in Isobaric Expansion applied step by step gives the required result."
+    },
+    {
+     "question": "Apply work done in isobaric expansion to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate change in volume. Step 2: multiply pressure by volume change. Step 3: express the work done with units. Working: final_volume - initial_volume, pressure * delta_v, work.",
+     "answer": "The method of work done in isobaric expansion leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.204.4",
+   "title": "Heat Transfer and Specific Heat Capacity",
+   "section": "11.6",
+   "definition": "Thermal energy required to modify the temperature of a substance is the product of its mass, specific heat capacity, and temperature variation.",
+   "formula": "heat = mass * sp_heat * delta_T",
+   "key_idea": "Specific heat capacity quantifies energy needed per unit mass for one degree temperature change.",
+   "textbook_ref": "keph204.txt lines 215-265",
+   "question_patterns": [
+    "in Class 11 thermodynamics: find the heat required to change temperature of a given mass",
+    "calculate thermal energy needed to raise the temperature of a substance",
+    "determine heat energy absorbed when mass, specific heat, and temperature rise are provided",
+    "compute total heat transferred to a body given mass and temperature difference",
+    "what is the heat required to elevate temperature of a sample of known mass"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply mass, specific heat, and temperature change",
+     "explain": "Apply heat capacity relation heat = mass * sp_heat * delta_T.",
+     "compute": "mass * sp_heat * delta_t"
+    },
+    {
+     "step": 2,
+     "action": "determine the direction of heat flow",
+     "explain": "a positive heat value indicates heat absorbed during heating while a negative value indicates heat released during cooling"
+    },
+    {
+     "step": 3,
+     "action": "express the heat transferred with units",
+     "explain": "state the computed heat energy in joules for the given mass and temperature change",
+     "compute": "heat"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving heat transfer and specific heat capacity.",
+     "solution": "Step 1: multiply mass, specific heat, and temperature change. Step 2: determine the direction of heat flow. Step 3: express the heat transferred with units. Working: mass * sp_heat * delta_t, heat.",
+     "answer": "Heat Transfer and Specific Heat Capacity applied step by step gives the required result."
+    },
+    {
+     "question": "Apply heat transfer and specific heat capacity to a fresh example and interpret the result.",
+     "solution": "Step 1: multiply mass, specific heat, and temperature change. Step 2: determine the direction of heat flow. Step 3: express the heat transferred with units. Working: mass * sp_heat * delta_t, heat.",
+     "answer": "The method of heat transfer and specific heat capacity leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.204.5",
+   "title": "Mayer's Relation for Ideal Gas Specific Heats",
+   "section": "11.6",
+   "definition": "For an ideal gas, molar specific heat capacity at constant pressure exceeds molar specific heat capacity at constant volume by the universal gas constant.",
+   "formula": "Cp = Cv + R",
+   "key_idea": "Constant pressure heating requires additional energy to compensate for expansion work against external pressure.",
+   "textbook_ref": "keph204.txt lines 265-295",
+   "question_patterns": [
+    "in Class 11 thermodynamics: calculate molar specific heat at constant pressure using Mayer's relation",
+    "find Cp given Cv and universal gas constant R",
+    "determine molar heat capacity at constant volume Cv from Cp and R",
+    "compute molar heat capacity at constant pressure for an ideal gas",
+    "apply Mayer's formula to find constant pressure heat capacity"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add universal gas constant to constant volume heat capacity",
+     "explain": "Use Mayer's relation Cp = Cv + R to obtain constant pressure molar heat capacity.",
+     "compute": "cv + r"
+    },
+    {
+     "step": 2,
+     "action": "verify that Cp exceeds Cv",
+     "explain": "constant pressure heating requires extra energy for expansion work so Cp must be greater than Cv by the gas constant R"
+    },
+    {
+     "step": 3,
+     "action": "express the molar heat capacity with units",
+     "explain": "state the computed constant pressure molar heat capacity in joules per mole per kelvin",
+     "compute": "cp"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving mayer's relation for ideal gas specific heats.",
+     "solution": "Step 1: add universal gas constant to constant volume heat capacity. Step 2: verify that Cp exceeds Cv. Step 3: express the molar heat capacity with units. Working: cv + r, cp.",
+     "answer": "Mayer's Relation for Ideal Gas Specific Heats applied step by step gives the required result."
+    },
+    {
+     "question": "Apply mayer's relation for ideal gas specific heats to a fresh example and interpret the result.",
+     "solution": "Step 1: add universal gas constant to constant volume heat capacity. Step 2: verify that Cp exceeds Cv. Step 3: express the molar heat capacity with units. Working: cv + r, cp.",
+     "answer": "The method of mayer's relation for ideal gas specific heats leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.204.6",
+   "title": "Thermodynamic State Variables and Classification",
+   "section": "11.7",
+   "definition": "Variables describing equilibrium states are categorized as extensive when proportional to system dimensions, or intensive when independent of system size.",
+   "formula": "state_variable = f(P, V, T, m)",
+   "key_idea": "Dividing a system in equilibrium leaves intensive variables unaltered while extensive variables scale proportionally.",
+   "textbook_ref": "keph204.txt lines 296-340",
+   "question_patterns": [
+    "in Class 11 thermodynamics: differentiate between extensive and intensive thermodynamic variables",
+    "classify pressure, volume, temperature, and internal energy as extensive or intensive",
+    "explain why heat and work are path dependent and not state variables",
+    "what defines a thermodynamic state variable and an equation of state",
+    "verify whether internal energy is an extensive state variable"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "test behavior under system partitioning",
+     "explain": "Imagine splitting the system into equal halves; variables that remain unchanged are intensive, while halved variables are extensive."
+    },
+    {
+     "step": 2,
+     "action": "classify each variable as extensive or intensive",
+     "explain": "pressure and temperature remain unchanged on partitioning so they are intensive, while volume, mass, and internal energy are halved so they are extensive."
+    },
+    {
+     "step": 3,
+     "action": "verify that heat and work are not state variables",
+     "explain": "heat and work depend on the path taken between states rather than the state itself, so they are not thermodynamic state variables."
+    }
+   ]
+  },
+  {
+   "id": "keph.204.7",
+   "title": "Work Done in Adiabatic Expansion of Ideal Gas",
+   "section": "11.8.3",
+   "definition": "During energy transfer without heat exchange, work executed by an ideal gas equals the decrease in internal energy calculated from initial and final temperatures.",
+   "formula": "work = moles * R * (T1 - T2) / (gamma - 1)",
+   "key_idea": "Adiabatic work output draws directly on internal thermal energy, producing a drop in temperature.",
+   "textbook_ref": "keph204.txt lines 380-420",
+   "question_patterns": [
+    "in Class 11 thermodynamics: calculate work done by ideal gas in adiabatic process",
+    "find work done during adiabatic change from initial temperature T1 to final temperature T2",
+    "determine mechanical work in adiabatic expansion given moles, adiabatic index, and temperatures",
+    "compute adiabatic work done using initial and final temperatures",
+    "what is the work done by an ideal gas undergoing adiabatic expansion"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute temperature difference",
+     "explain": "Subtract final temperature T2 from initial temperature T1.",
+     "compute": "t1 - t2"
+    },
+    {
+     "step": 2,
+     "action": "compute adiabatic factor",
+     "explain": "Subtract 1 from ratio of specific heats gamma.",
+     "compute": "gamma - 1"
+    },
+    {
+     "step": 3,
+     "action": "calculate adiabatic work done",
+     "explain": "Multiply moles, gas constant, and delta_T, then divide by gamma factor.",
+     "compute": "moles * r * delta_t / gamma_factor"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving work done in adiabatic expansion of ideal gas.",
+     "solution": "Step 1: compute temperature difference. Step 2: compute adiabatic factor. Step 3: calculate adiabatic work done. Working: t1 - t2, gamma - 1, moles * r * delta_t / gamma_factor.",
+     "answer": "Work Done in Adiabatic Expansion of Ideal Gas applied step by step gives the required result."
+    },
+    {
+     "question": "Apply work done in adiabatic expansion of ideal gas to a fresh example and interpret the result.",
+     "solution": "Step 1: compute temperature difference. Step 2: compute adiabatic factor. Step 3: calculate adiabatic work done. Working: t1 - t2, gamma - 1, moles * r * delta_t / gamma_factor.",
+     "answer": "The method of work done in adiabatic expansion of ideal gas leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.204.8",
+   "title": "Work Done in Cyclic Thermodynamic Process",
+   "section": "11.8.6",
+   "definition": "In a closed thermodynamic cycle, overall internal energy variation is zero, making net work performed equal to the area enclosed on a pressure-volume diagram.",
+   "formula": "work = 0.5 * (V2 - V1) * (P2 - P1)",
+   "key_idea": "Total work in a cyclic process corresponds to the area within the closed PV loop.",
+   "textbook_ref": "keph204.txt lines 430-450",
+   "question_patterns": [
+    "in Class 11 thermodynamics: calculate total work done in a cyclic process",
+    "find net work done in a triangular cycle on a pressure volume diagram",
+    "determine work output from a cyclic PV diagram",
+    "compute enclosed area to find net work done in a thermodynamic cycle",
+    "what is the net work done by a gas completing a cyclic path"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate volume span",
+     "explain": "Subtract minimum volume V1 from maximum volume V2.",
+     "compute": "v2 - v1"
+    },
+    {
+     "step": 2,
+     "action": "calculate pressure span",
+     "explain": "Subtract minimum pressure P1 from maximum pressure P2.",
+     "compute": "p2 - p1"
+    },
+    {
+     "step": 3,
+     "action": "calculate enclosed triangular work area",
+     "explain": "Multiply half the volume span by pressure span to calculate enclosed cyclic work.",
+     "compute": "0.5 * delta_v * delta_p"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving work done in cyclic thermodynamic process.",
+     "solution": "Step 1: calculate volume span. Step 2: calculate pressure span. Step 3: calculate enclosed triangular work area. Working: v2 - v1, p2 - p1, 0.5 * delta_v * delta_p.",
+     "answer": "Work Done in Cyclic Thermodynamic Process applied step by step gives the required result."
+    },
+    {
+     "question": "Apply work done in cyclic thermodynamic process to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate volume span. Step 2: calculate pressure span. Step 3: calculate enclosed triangular work area. Working: v2 - v1, p2 - p1, 0.5 * delta_v * delta_p.",
+     "answer": "The method of work done in cyclic thermodynamic process leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.204.9",
+   "title": "Second Law of Thermodynamics Statements",
+   "section": "11.9",
+   "definition": "The second law asserts that thermal energy cannot spontaneously transfer from cold to hot bodies (Clausius) and complete conversion of heat to work in a cycle is impossible (Kelvin-Planck).",
+   "formula": "efficiency < 1",
+   "key_idea": "No real or ideal cyclic heat engine can convert absorbed heat entirely into mechanical work.",
+   "textbook_ref": "keph204.txt lines 451-485",
+   "question_patterns": [
+    "in Class 11 thermodynamics: state Kelvin-Planck statement of the second law of thermodynamics",
+    "state Clausius statement of the second law of thermodynamics",
+    "explain why 100 percent efficiency is impossible for heat engines",
+    "show the equivalence between Kelvin-Planck and Clausius statements",
+    "verify why heat cannot spontaneously transfer from cold to hot reservoir"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply Kelvin-Planck and Clausius criteria",
+     "explain": "Verify that complete heat-to-work conversion or unassisted heat flow from cold to hot both violate fundamental thermodynamic directionality."
+    },
+    {
+     "step": 2,
+     "action": "check the efficiency against unity",
+     "explain": "confirm that the engine efficiency is strictly less than one, meaning some heat must always be rejected to the sink."
+    },
+    {
+     "step": 3,
+     "action": "confirm equivalence of the two statements",
+     "explain": "show that violating the Kelvin-Planck statement leads to a violation of the Clausius statement and vice versa, establishing their equivalence."
+    }
+   ]
+  },
+  {
+   "id": "keph.204.10",
+   "title": "Reversible and Irreversible Processes",
+   "section": "11.10",
+   "definition": "A process is reversible if both system and surroundings return to initial states along the exact reverse path; presence of dissipative factors or non-equilibrium states induces irreversibility.",
+   "formula": "reversible = quasi_static + zero_dissipation",
+   "key_idea": "Reversibility demands quasi-static progress and complete absence of friction or viscosity.",
+   "textbook_ref": "keph204.txt lines 486-530",
+   "question_patterns": [
+    "in Class 11 thermodynamics: distinguish between reversible and irreversible processes",
+    "what conditions make a thermodynamic process reversible",
+    "explain why free expansion of a gas is an irreversible process",
+    "list main factors that cause irreversibility in natural processes",
+    "verify whether quasi-static expansion with friction is reversible"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check quasi-static and non-dissipative criteria",
+     "explain": "Confirm whether the process occurs infinitely slowly without dissipative losses like friction or turbulence."
+    },
+    {
+     "step": 2,
+     "action": "identify dissipative or non-equilibrium factors",
+     "explain": "look for friction, viscosity, turbulence, or finite temperature gradients that prevent the system from passing through equilibrium states."
+    },
+    {
+     "step": 3,
+     "action": "classify the process as reversible or irreversible",
+     "explain": "if both quasi-static and non-dissipative conditions hold the process is reversible, otherwise it is irreversible."
+    }
+   ]
+  },
+  {
+   "id": "keph.204.11",
+   "title": "Efficiency of Carnot Heat Engine",
+   "section": "11.11",
+   "definition": "The maximum theoretical efficiency of a reversible heat engine operating between two reservoirs depends exclusively on source and sink absolute temperatures.",
+   "formula": "efficiency = 1 - (T_sink / T_source)",
+   "key_idea": "Carnot efficiency sets the upper limit for heat-to-work conversion between two temperature limits.",
+   "textbook_ref": "keph204.txt lines 531-600",
+   "question_patterns": [
+    "in Class 11 thermodynamics: calculate efficiency of a Carnot engine",
+    "find Carnot efficiency operating between source temperature T1 and sink temperature T2",
+    "determine the efficiency of a reversible heat engine operating between two temperatures",
+    "compute thermal efficiency of Carnot cycle given source and sink absolute temperatures",
+    "what is the maximum possible efficiency for an engine working between two thermal reservoirs"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute temperature ratio",
+     "explain": "Divide cold sink absolute temperature T_sink by hot source absolute temperature T_source.",
+     "compute": "t_sink / t_source"
+    },
+    {
+     "step": 2,
+     "action": "calculate efficiency",
+     "explain": "Subtract temperature ratio from 1 to determine thermal efficiency.",
+     "compute": "1 - ratio"
+    },
+    {
+     "step": 3,
+     "action": "express the efficiency as a percentage",
+     "explain": "multiply the efficiency by 100 to express the Carnot engine efficiency in percent",
+     "compute": "efficiency * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving efficiency of carnot heat engine.",
+     "solution": "Step 1: compute temperature ratio. Step 2: calculate efficiency. Step 3: express the efficiency as a percentage. Working: t_sink / t_source, 1 - ratio, efficiency * 100.",
+     "answer": "Efficiency of Carnot Heat Engine applied step by step gives the required result."
+    },
+    {
+     "question": "Apply efficiency of carnot heat engine to a fresh example and interpret the result.",
+     "solution": "Step 1: compute temperature ratio. Step 2: calculate efficiency. Step 3: express the efficiency as a percentage. Working: t_sink / t_source, 1 - ratio, efficiency * 100.",
+     "answer": "The method of efficiency of carnot heat engine leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keph.204.12",
+   "title": "Heat Transfer Ratio in Carnot Engine",
+   "section": "11.11",
+   "definition": "In a Carnot cycle, heat absorbed from the hot source and heat rejected to the cold sink are directly proportional to their respective absolute temperatures.",
+   "formula": "Q_sink = Q_source * (T_sink / T_source)",
+   "key_idea": "Absolute thermodynamic temperatures dictate exact heat exchange proportions in ideal reversible cycles.",
+   "textbook_ref": "keph204.txt lines 610-650",
+   "question_patterns": [
+    "in Class 11 thermodynamics: calculate heat rejected to sink by Carnot engine",
+    "find heat released Q2 given heat absorbed Q1 and reservoir temperatures",
+    "determine heat transferred to cold reservoir in a Carnot cycle",
+    "compute rejected heat Q_sink from source heat Q_source and temperatures T_source and T_sink",
+    "what is the heat exhausted to sink in a reversible engine"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute absolute temperature ratio",
+     "explain": "Divide sink temperature T_sink by source temperature T_source.",
+     "compute": "t_sink / t_source"
+    },
+    {
+     "step": 2,
+     "action": "calculate heat rejected to sink",
+     "explain": "Multiply absorbed heat Q_source by temperature ratio.",
+     "compute": "q_source * temp_ratio"
+    },
+    {
+     "step": 3,
+     "action": "express the rejected heat with units",
+     "explain": "state the computed heat rejected to the cold sink in joules for the given absorbed heat and reservoir temperatures",
+     "compute": "q_sink"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving heat transfer ratio in carnot engine.",
+     "solution": "Step 1: compute absolute temperature ratio. Step 2: calculate heat rejected to sink. Step 3: express the rejected heat with units. Working: t_sink / t_source, q_source * temp_ratio, q_sink.",
+     "answer": "Heat Transfer Ratio in Carnot Engine applied step by step gives the required result."
+    },
+    {
+     "question": "Apply heat transfer ratio in carnot engine to a fresh example and interpret the result.",
+     "solution": "Step 1: compute absolute temperature ratio. Step 2: calculate heat rejected to sink. Step 3: express the rejected heat with units. Working: t_sink / t_source, q_source * temp_ratio, q_sink.",
+     "answer": "The method of heat transfer ratio in carnot engine leads to the required value or conclusion."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "keph204.txt lines 721-725",
+   "concept": "keph.204.2",
+   "question_type": "compute",
+   "question_pattern": "An electric heater supplies heat to a system at a rate of {delta_Q} W. If system performs work at a rate of {delta_W} joules per second, at what rate is the internal energy increasing?",
+   "extracted_variables": {
+    "delta_Q": 100.0,
+    "delta_W": 75.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract work done from heat supplied",
+     "explain": "Apply energy conservation delta_U = delta_Q - delta_W to find internal energy change.",
+     "compute": "delta_u = delta_q - delta_w"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "keph204.txt lines 200-210",
+   "concept": "keph.204.2",
+   "question_type": "compute",
+   "question_pattern": "A mass of liquid absorbs {delta_Q} J of heat during vaporisation while performing {delta_W} J of expansion work. Find the change in internal energy.",
+   "extracted_variables": {
+    "delta_Q": 2256.0,
+    "delta_W": 169.2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract work done from heat supplied",
+     "explain": "Apply energy conservation delta_U = delta_Q - delta_W to find internal energy change.",
+     "compute": "delta_u = delta_q - delta_w"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "keph204.txt lines 195-205",
+   "concept": "keph.204.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate work done when water vaporises at pressure {pressure} Pa expanding from initial volume {initial_volume} m^3 to final volume {final_volume} m^3.",
+   "extracted_variables": {
+    "pressure": 101300.0,
+    "initial_volume": 1e-06,
+    "final_volume": 0.001671
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate change in volume",
+     "explain": "Subtract initial volume from final volume to get volume shift delta_V.",
+     "compute": "delta_v = final_volume - initial_volume"
+    },
+    {
+     "step": 2,
+     "action": "multiply pressure by volume change",
+     "explain": "Calculate work by multiplying constant pressure by volume change.",
+     "compute": "work = pressure * delta_v"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "keph204.txt lines 425-430",
+   "concept": "keph.204.3",
+   "question_type": "compute",
+   "question_pattern": "Find work done by a gas expanding at a constant pressure of {pressure} Pa from volume {initial_volume} m^3 to {final_volume} m^3.",
+   "extracted_variables": {
+    "pressure": 200000.0,
+    "initial_volume": 0.002,
+    "final_volume": 0.005
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate change in volume",
+     "explain": "Subtract initial volume from final volume to get volume shift delta_V.",
+     "compute": "delta_v = final_volume - initial_volume"
+    },
+    {
+     "step": 2,
+     "action": "multiply pressure by volume change",
+     "explain": "Calculate work by multiplying constant pressure by volume change.",
+     "compute": "work = pressure * delta_v"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "keph204.txt lines 220-230",
+   "concept": "keph.204.4",
+   "question_type": "compute",
+   "question_pattern": "Calculate heat needed to raise temperature of {mass} kg of water by {delta_T} K given specific heat capacity {sp_heat} J/kg K.",
+   "extracted_variables": {
+    "mass": 2.0,
+    "sp_heat": 4186.0,
+    "delta_T": 50.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply mass, specific heat, and temperature change",
+     "explain": "Apply heat capacity relation heat = mass * sp_heat * delta_T.",
+     "compute": "heat = mass * sp_heat * delta_t"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "keph204.txt lines 220-230",
+   "concept": "keph.204.4",
+   "question_type": "compute",
+   "question_pattern": "Determine thermal energy absorbed by {mass} kg of aluminum with specific heat {sp_heat} J/kg K when heated across temperature difference {delta_T} K.",
+   "extracted_variables": {
+    "mass": 0.5,
+    "sp_heat": 900.0,
+    "delta_T": 30.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply mass, specific heat, and temperature change",
+     "explain": "Apply heat capacity relation heat = mass * sp_heat * delta_T.",
+     "compute": "heat = mass * sp_heat * delta_t"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "keph204.txt lines 270-285",
+   "concept": "keph.204.5",
+   "question_type": "compute",
+   "question_pattern": "An ideal gas has molar heat capacity at constant volume {Cv} J/mol K. Find Cp given gas constant {R} J/mol K.",
+   "extracted_variables": {
+    "Cv": 20.8,
+    "R": 8.31
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add universal gas constant to constant volume heat capacity",
+     "explain": "Use Mayer's relation Cp = Cv + R to obtain constant pressure molar heat capacity.",
+     "compute": "cp = cv + r"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "keph204.txt lines 270-285",
+   "concept": "keph.204.5",
+   "question_type": "compute",
+   "question_pattern": "Calculate molar specific heat at constant pressure Cp for a gas with Cv = {Cv} J/mol K and universal gas constant {R} J/mol K.",
+   "extracted_variables": {
+    "Cv": 12.5,
+    "R": 8.3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add universal gas constant to constant volume heat capacity",
+     "explain": "Use Mayer's relation Cp = Cv + R to obtain constant pressure molar heat capacity.",
+     "compute": "cp = cv + r"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "keph204.txt lines 410-420",
+   "concept": "keph.204.7",
+   "question_type": "compute",
+   "question_pattern": "Calculate work done when {moles} moles of ideal gas with gamma = {gamma} expand adiabatically from temperature {T1} K to {T2} K with gas constant {R} J/mol K.",
+   "extracted_variables": {
+    "moles": 2.0,
+    "R": 8.31,
+    "T1": 400.0,
+    "T2": 300.0,
+    "gamma": 1.4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute temperature difference",
+     "explain": "Subtract final temperature T2 from initial temperature T1.",
+     "compute": "delta_t = t1 - t2"
+    },
+    {
+     "step": 2,
+     "action": "compute adiabatic factor",
+     "explain": "Subtract 1 from ratio of specific heats gamma.",
+     "compute": "gamma_factor = gamma - 1"
+    },
+    {
+     "step": 3,
+     "action": "calculate adiabatic work done",
+     "explain": "Multiply moles, gas constant, and delta_T, then divide by gamma factor.",
+     "compute": "work = moles * r * delta_t / gamma_factor"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "keph204.txt lines 410-420",
+   "concept": "keph.204.7",
+   "question_type": "compute",
+   "question_pattern": "Find work done in an adiabatic expansion of {moles} mole of gas with gamma = {gamma} cooling from {T1} K to {T2} K using gas constant {R} J/mol K.",
+   "extracted_variables": {
+    "moles": 1.0,
+    "R": 8.3,
+    "T1": 350.0,
+    "T2": 250.0,
+    "gamma": 1.67
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute temperature difference",
+     "explain": "Subtract final temperature T2 from initial temperature T1.",
+     "compute": "delta_t = t1 - t2"
+    },
+    {
+     "step": 2,
+     "action": "compute adiabatic factor",
+     "explain": "Subtract 1 from ratio of specific heats gamma.",
+     "compute": "gamma_factor = gamma - 1"
+    },
+    {
+     "step": 3,
+     "action": "calculate adiabatic work done",
+     "explain": "Multiply moles, gas constant, and delta_T, then divide by gamma factor.",
+     "compute": "work = moles * r * delta_t / gamma_factor"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "keph204.txt lines 726-730",
+   "concept": "keph.204.8",
+   "question_type": "compute",
+   "question_pattern": "Find net work done in a triangular cycle on a PV diagram where volume spans from {V1} m^3 to {V2} m^3 and pressure spans from {P1} Pa to {P2} Pa.",
+   "extracted_variables": {
+    "V1": 1.0,
+    "V2": 4.0,
+    "P1": 100.0,
+    "P2": 400.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate volume span",
+     "explain": "Subtract minimum volume V1 from maximum volume V2.",
+     "compute": "delta_v = v2 - v1"
+    },
+    {
+     "step": 2,
+     "action": "calculate pressure span",
+     "explain": "Subtract minimum pressure P1 from maximum pressure P2.",
+     "compute": "delta_p = p2 - p1"
+    },
+    {
+     "step": 3,
+     "action": "calculate enclosed triangular work area",
+     "explain": "Multiply half the volume span by pressure span to calculate enclosed cyclic work.",
+     "compute": "work = 0.5 * delta_v * delta_p"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "keph204.txt lines 726-730",
+   "concept": "keph.204.8",
+   "question_type": "compute",
+   "question_pattern": "Compute work done in a cyclic process forming a right triangle on PV coordinates between volumes {V1} and {V2} m^3 and pressures {P1} and {P2} Pa.",
+   "extracted_variables": {
+    "V1": 2.0,
+    "V2": 7.0,
+    "P1": 200.0,
+    "P2": 500.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate volume span",
+     "explain": "Subtract minimum volume V1 from maximum volume V2.",
+     "compute": "delta_v = v2 - v1"
+    },
+    {
+     "step": 2,
+     "action": "calculate pressure span",
+     "explain": "Subtract minimum pressure P1 from maximum pressure P2.",
+     "compute": "delta_p = p2 - p1"
+    },
+    {
+     "step": 3,
+     "action": "calculate enclosed triangular work area",
+     "explain": "Multiply half the volume span by pressure span to calculate enclosed cyclic work.",
+     "compute": "work = 0.5 * delta_v * delta_p"
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "keph204.txt lines 580-590",
+   "concept": "keph.204.11",
+   "question_type": "compute",
+   "question_pattern": "Calculate efficiency of a Carnot engine working between hot reservoir temperature {T_source} K and cold reservoir temperature {T_sink} K.",
+   "extracted_variables": {
+    "T_source": 500.0,
+    "T_sink": 300.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute temperature ratio",
+     "explain": "Divide cold sink absolute temperature T_sink by hot source absolute temperature T_source.",
+     "compute": "ratio = t_sink / t_source"
+    },
+    {
+     "step": 2,
+     "action": "calculate efficiency",
+     "explain": "Subtract temperature ratio from 1 to determine thermal efficiency.",
+     "compute": "efficiency = 1 - ratio"
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "keph204.txt lines 580-590",
+   "concept": "keph.204.11",
+   "question_type": "compute",
+   "question_pattern": "Find thermal efficiency of a reversible heat engine operating between source at {T_source} K and sink at {T_sink} K.",
+   "extracted_variables": {
+    "T_source": 600.0,
+    "T_sink": 300.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute temperature ratio",
+     "explain": "Divide cold sink absolute temperature T_sink by hot source absolute temperature T_source.",
+     "compute": "ratio = t_sink / t_source"
+    },
+    {
+     "step": 2,
+     "action": "calculate efficiency",
+     "explain": "Subtract temperature ratio from 1 to determine thermal efficiency.",
+     "compute": "efficiency = 1 - ratio"
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "keph204.txt lines 610-620",
+   "concept": "keph.204.12",
+   "question_type": "compute",
+   "question_pattern": "A Carnot engine absorbs {Q_source} J of heat from source at {T_source} K. Calculate heat rejected to sink at {T_sink} K.",
+   "extracted_variables": {
+    "Q_source": 1000.0,
+    "T_source": 500.0,
+    "T_sink": 300.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute absolute temperature ratio",
+     "explain": "Divide sink temperature T_sink by source temperature T_source.",
+     "compute": "temp_ratio = t_sink / t_source"
+    },
+    {
+     "step": 2,
+     "action": "calculate heat rejected to sink",
+     "explain": "Multiply absorbed heat Q_source by temperature ratio.",
+     "compute": "q_sink = q_source * temp_ratio"
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "keph204.txt lines 610-620",
+   "concept": "keph.204.12",
+   "question_type": "compute",
+   "question_pattern": "Determine heat released to cold reservoir at {T_sink} K by a reversible engine absorbing {Q_source} J heat from hot source at {T_source} K.",
+   "extracted_variables": {
+    "Q_source": 500.0,
+    "T_source": 400.0,
+    "T_sink": 300.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute absolute temperature ratio",
+     "explain": "Divide sink temperature T_sink by source temperature T_source.",
+     "compute": "temp_ratio = t_sink / t_source"
+    },
+    {
+     "step": 2,
+     "action": "calculate heat rejected to sink",
+     "explain": "Multiply absorbed heat Q_source by temperature ratio.",
+     "compute": "q_sink = q_source * temp_ratio"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex11.1",
+   "source_ref": "keph204.txt lines 680-685",
+   "questions": [
+    "A geyser heats water flowing at the rate of 3.0 litres per minute from 27 C to 77 C. If the geyser operates on a gas burner, what is the rate of consumption of the fuel if its heat of combustion is 4.0 x 10^4 J/g ?"
+   ]
+  },
+  {
+   "id": "ex11.2",
+   "source_ref": "keph204.txt lines 686-690",
+   "questions": [
+    "What amount of heat must be supplied to 2.0 x 10^-2 kg of nitrogen (at room temperature) to raise its temperature by 45 C at constant pressure ? (Molecular mass of N2 = 28; R = 8.3 J mol^-1 K^-1.)"
+   ]
+  },
+  {
+   "id": "ex11.3",
+   "source_ref": "keph204.txt lines 691-700",
+   "questions": [
+    "Explain why two bodies at different temperatures T1 and T2 if brought in thermal contact do not necessarily settle to the mean temperature (T1 + T2)/2.",
+    "Explain why the coolant in a chemical or a nuclear plant should have high specific heat.",
+    "Explain why air pressure in a car tyre increases during driving.",
+    "Explain why the climate of a harbour town is more temperate than that of a town in a desert at the same latitude."
+   ]
+  },
+  {
+   "id": "ex11.4",
+   "source_ref": "keph204.txt lines 701-705",
+   "questions": [
+    "A cylinder with a movable piston contains 3 moles of hydrogen at standard temperature and pressure. The walls of the cylinder are made of a heat insulator, and the piston is insulated by having a pile of sand on it. By what factor does the pressure of the gas increase if the gas is compressed to half its original volume ?"
+   ]
+  },
+  {
+   "id": "ex11.5",
+   "source_ref": "keph204.txt lines 706-710",
+   "questions": [
+    "In changing the state of a gas adiabatically from an equilibrium state A to another equilibrium state B, an amount of work equal to 22.3 J is done on the system. If the gas is taken from state A to B via a process in which the net heat absorbed by the system is 9.35 cal, how much is the net work done by the system in the latter case ? (Take 1 cal = 4.19 J)"
+   ]
+  },
+  {
+   "id": "ex11.6",
+   "source_ref": "keph204.txt lines 711-720",
+   "questions": [
+    "Two cylinders A and B of equal capacity are connected to each other via a stopcock. A contains a gas at standard temperature and pressure. B is completely evacuated. The entire system is thermally insulated. The stopcock is suddenly opened. Answer: (a) What is the final pressure of the gas in A and B ? (b) What is the change in internal energy of the gas ? (c) What is the change in the temperature of the gas ? (d) Do the intermediate states of the system lie on its P-V-T surface ?"
+   ]
+  },
+  {
+   "id": "ex11.7",
+   "source_ref": "keph204.txt lines 721-725",
+   "questions": [
+    "An electric heater supplies heat to a system at a rate of 100W. If system performs work at a rate of 75 joules per second. At what rate is the internal energy increasing?"
+   ]
+  },
+  {
+   "id": "ex11.8",
+   "source_ref": "keph204.txt lines 726-730",
+   "questions": [
+    "A thermodynamic system is taken from an original state to an intermediate state by a linear process. Its volume is then reduced to the original value by an isobaric process. Calculate the total work done by the gas."
+   ]
+  }
+ ],
+ "gate_problems": [
+  "keph.204.2: bad compute 'delta_Q - delta_W' (unknown symbol: delta_Q)",
+  "keph.204.3: bad compute 'pressure * delta_V' (unknown symbol: delta_V)",
+  "keph.204.4: bad compute 'mass * sp_heat * delta_T' (unknown symbol: delta_T)",
+  "keph.204.5: bad compute 'Cv + R' (unknown symbol: Cv)",
+  "keph.204.7: bad compute 'T1 - T2' (unknown symbol: T1)",
+  "keph.204.7: bad compute 'moles * R * delta_T / gamma_factor' (unknown symbol: R)",
+  "keph.204.8: bad compute 'V2 - V1' (unknown symbol: V2)",
+  "keph.204.8: bad compute 'P2 - P1' (unknown symbol: P2)"
+ ],
+ "gate_status": "GATE_FAIL"
+}

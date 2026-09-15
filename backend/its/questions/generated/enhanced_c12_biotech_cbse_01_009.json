@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_01_009",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_01_009",
+   "title": "c12_biotech_cbse_01_009",
+   "questions": [
+    {
+     "q": "What two essential genetic elements must a cosmid vector contain to function as a hybrid plasmid–phage cloning vector?",
+     "a": "A cosmid must contain (1) the **cos site** from bacteriophage λ for in vitro packaging into phage heads, and (2) a **plasmid origin of replication (ori)** and selectable marker (e.g., antibiotic resistance) for propagation as a plasmid in *E. coli*. A wrong answer (e.g., \"λ phage genes\" or \"promoter\") reveals the student confuses cosmids with λ replacement vectors or expression vectors — they miss that cosmids are **plasmids with a cos site**, not phage genomes.",
+     "self_check": true
+    },
+    {
+     "q": "A cosmid vector backbone is 8 kb. The λ phage packaging limit is 37–52 kb. What is the maximum insert size this cosmid can accommodate? Explain why inserts larger than this limit fail to produce viable recombinants.",
+     "a": "Maximum insert = 52 kb (upper packaging limit) – 8 kb (vector) = **44 kb**. Inserts >44 kb produce total DNA >52 kb, which cannot be packaged into λ phage heads during in vitro packaging, so no infectious phage particles form and no recombinant clones are recovered. A wrong answer (e.g., using 37 kb as the limit) reveals the student does not understand that packaging efficiency drops sharply above the upper limit, not the lower limit — the lower limit (37 kb) is the *minimum* size for packaging, not the maximum.",
+     "self_check": true
+    },
+    {
+     "q": "You have a 42 kb genomic DNA fragment to clone. You have three vectors: pBR322 (plasmid, max insert ~10 kb), λ phage replacement vector (max insert ~23 kb), and a cosmid (vector backbone 7 kb, packaging limit 52 kb). Which vector should you choose? Justify your choice with calculations.",
+     "a": "Choose the **cosmid**. pBR322 max insert (~10 kb) < 42 kb — too small. λ replacement vector max insert (~23 kb) < 42 kb — too small. Cosmid max insert = 52 kb – 7 kb = **45 kb** ≥ 42 kb — fits. A wrong choice (e.g., λ phage) reveals the student does not recall the insert capacity hierarchy: plasmid < λ phage < cosmid < BAC < YAC, or they confuse λ *insertion* vectors (max ~10 kb) with *replacement* vectors (max ~23 kb).",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: (a) How does a cosmid differ from a λ phage replacement vector in terms of genes required for lytic growth? (b) Why does this difference matter for the host cell after infection?",
+     "a": "(a) A cosmid **lacks all λ phage genes** (no genes for head/tail proteins, lysis, integration, or phage replication). A λ replacement vector retains phage genes for lytic growth except the replaced central \"stuffer\" region. (b) After infection, a cosmid **does not lyse the host** — it circularizes via cos sites and replicates as a plasmid. A λ replacement vector directs phage production and **lysis**, killing the host. A wrong answer (e.g., \"cosmid causes lysis\") reveals the student thinks cosmids are functional phage genomes — they miss that cosmids are **plasmids that hijack only the packaging machinery**.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher constructs a cosmid library but obtains very few recombinants. The vector backbone is 9 kb and the average insert size in the library is 30 kb. Evaluate whether the insert size is the likely cause. What other factor(s) could explain the low recombinant yield?",
+     "a": "Total size = 9 + 30 = 39 kb, which is **within** the 37–52 kb packaging window — so insert size is NOT the cause. Likely factors: (1) **Inefficient packaging** — if DNA is sheared, fragments <37 kb (vector + small insert) won't package; (2) **Incomplete ligation** — low insert:vector molar ratio; (3) **Dephosphorylation failure** — vector self-ligation outcompetes insert ligation. A wrong evaluation (blaming insert size) reveals the student memorizes \"cosmids take 35–45 kb\" without applying the *packaging window* concept — they don't check if total size falls in 37–52 kb.",
+     "self_check": true
+    },
+    {
+     "q": "Design a cosmid vector for cloning 40 kb inserts. Specify: (a) vector backbone size target, (b) essential elements to include, (c) one modification to reduce vector self-ligation during library construction.",
+     "a": "(a) Target backbone ≤ 12 kb (since 52 – 40 = 12 kb max backbone). (b) Essential elements: **cos site**, **plasmid ori** (e.g., pMB1/ColE1), **selectable marker** (e.g., *ampR* or *kanR*), **multiple cloning site (MCS)** flanked by rare-cutting sites (e.g., *NotI*), and **origin of transfer (oriT)** if conjugation is needed. (c) **Dephosphorylate vector** with alkaline phosphatase after restriction digest, or use **two different restriction enzymes** for directional cloning. A poor design (e.g., backbone 15 kb, no dephosphorylation) reveals the student does not work backward from packaging limits or ignores practical ligation efficiency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

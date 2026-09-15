@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "english",
+  "chapter": 101,
+  "chapter_title": "The Summer of the Beautiful White Horse",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kesp101.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kesp101.1.1",
+      "title": "A Tribe of Trust and Honesty",
+      "section": "1",
+      "definition": "The story opens by placing its two poor Armenian boys in a tribe whose hallmarks are trust and honesty for eleven centuries. This reputation frames the whole tale: how can boys from such a tribe be riding a stolen white horse? The story turns on answering that paradox.",
+      "formula": "",
+      "key_idea": "A thousand years of honesty frames the mystery -- can honour and theft share one bloodline?",
+      "textbook_ref": "kesp101.txt opening (poor armenian boys, tribe of trust and honesty, white horse mystery)",
+      "question_patterns": [
+        "why is the tribe's reputation important to the story",
+        "in class 11 the summer of the beautiful white horse: how can horse riding fit a tribe of honesty",
+        "what paradox does the opening paragraph set up",
+        "describe the background of aram and mourad's family",
+        "why does the narrator say no member of the tribe could be a thief",
+        "how does the tribal reputation shape our reading of the boys' act"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "note the credential",
+          "explain": "Eleven centuries of trust and honesty are the tribe's defining mark, repeated like a refrain."
+        },
+        {
+          "step": 2,
+          "action": "pose the contradiction",
+          "explain": "Yet a beautiful white horse now stands with the boys -- a horse nobody in poverty could buy."
+        },
+        {
+          "step": 3,
+          "action": "hold the question",
+          "explain": "Saroyan lets the paradox stand unresolved until the ending redefines what stealing means."
+        }
+      ]
+    },
+    {
+      "id": "kesp101.1.2",
+      "title": "Mourad's Way with Animals and Aram's Dream Ride",
+      "section": "1",
+      "definition": "Cousin Mourad, the crazy streak of the family, has a way with animals -- the horse stays calm under him. Aram, longing to ride, gets his dawn ride, is thrown, and both boys hide the horse in a vineyard barn, riding each morning while the horse's true owner, farmer John Byro, grieves.",
+      "formula": "",
+      "key_idea": "A dream rides on another man's horse -- joy seasoned by a guilt the boys keep postponing.",
+      "textbook_ref": "kesp101.txt middle sections (mourad way with animals, morning rides, aram thrown, hiding the horse in barn, john byro's loss)",
+      "question_patterns": [
+        "what was special about mourad's way with animals",
+        "in class 11 the summer of the beautiful white horse: describe aram's first ride on the horse",
+        "where did the boys hide the horse and why",
+        "why does the narrator call mourad the crazy streak of the family",
+        "how did john byro react to the loss of his horse",
+        "compare aram's and mourad's attitudes to riding the stolen horse"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "grant the gift",
+          "explain": "Mourad's inherited way with animals calms the horse, letting the rides happen at all."
+        },
+        {
+          "step": 2,
+          "action": "stage the rides",
+          "explain": "Aram rides first, is dumped in a vineyard, and both learn the horse needs training -- yet the secret mornings continue."
+        },
+        {
+          "step": 3,
+          "action": "shadow the conscience",
+          "explain": "News of John Byro's loss hangs over the rides, and Aram's hope is that the horse might somehow be 'bought' honestly."
+        }
+      ]
+    },
+    {
+      "id": "kesp101.1.3",
+      "title": "The Encounter with John Byro and the Return",
+      "section": "1",
+      "definition": "John Byro meets the boys walking the horse and studies it closely -- it is his lost horse, twin in every detail -- yet he walks away saying the horse is twin to his, refusing to suspect boys of an honest tribe. Shaken, the cousins return the horse to his barn that very night, and the farmer reports his horse returned, stronger and better-tempered.",
+      "formula": "",
+      "key_idea": "Trust shames theft into return -- the horse goes home, and honesty is restored by being believed.",
+      "textbook_ref": "kesp101.txt closing sections (encounter with john byro, twin of his horse, returning the horse, stronger and better tempered)",
+      "question_patterns": [
+        "why did john byro not accuse the boys of stealing",
+        "in class 11 the summer of the beautiful white horse: what made the boys return the horse",
+        "describe the meeting between john byro and the boys",
+        "how did the farmer know his horse had become stronger and better tempered",
+        "what does the story say about the power of trust",
+        "was mourad really a thief discuss the ending"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "stage the test",
+          "explain": "Byro touches the horse, checks its teeth, and recognises it -- yet credits only a miraculous twin."
+        },
+        {
+          "step": 2,
+          "action": "feel the moral weight",
+          "explain": "His refusal to suspect the tribe's honesty wounds the boys more than accusation could."
+        },
+        {
+          "step": 3,
+          "action": "close the circle",
+          "explain": "The horse is returned before dawn; honour is repaired, and Byro's swearer-of-oaths world stays intact."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kesp101.txt closing sections",
+      "concept": "kesp101.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "Comment on John Byro's decision not to suspect the boys. Was it wisdom, trust or naivety?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "state the evidence he had",
+          "explain": "He examined the horse and knew it was his -- the evidence pointed at the boys."
+        },
+        {
+          "step": 2,
+          "action": "weigh his choice",
+          "explain": "Byro chose to honour the tribe's character over the evidence of his own eyes."
+        },
+        {
+          "step": 3,
+          "action": "judge the result",
+          "explain": "His trust produced what punishment might not -- the horse returned and the boys' honour intact; wisdom and trust in one."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kesp101.txt middle sections",
+      "concept": "kesp101.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "How does the author keep the reader's sympathy with the boys even while they keep a stolen horse?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "note the framing",
+          "explain": "The tribe's centuries of honesty prime us to read the act as mischief, not crime."
+        },
+        {
+          "step": 2,
+          "action": "note the boys' tenderness",
+          "explain": "Their care for the horse -- health, exercise, hiding place -- shows affection, not greed."
+        },
+        {
+          "step": 3,
+          "action": "note the conscience at work",
+          "explain": "Aram's unease and Mourad's eventual return keep sympathy alive: the story is a moral education, not a heist."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kesp101.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Justify the title 'The Summer of the Beautiful White Horse'.",
+        "Describe Mourad's bond with animals with instances.",
+        "Why did Aram find it hard to believe the horse was stolen?",
+        "What is the significance of John Byro's refusal to suspect the boys?",
+        "Discuss the theme of honesty in the story.",
+        "Was the boys' act stealing or borrowing? Give a reasoned view."
+      ]
+    }
+  ]
+}

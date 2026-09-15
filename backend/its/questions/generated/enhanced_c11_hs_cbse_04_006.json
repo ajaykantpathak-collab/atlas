@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_04_006",
+   "title": "c11_hs_cbse_04_006",
+   "questions": [
+    {
+     "q": "Define 'utility' of a resource as per the NCERT Class 11 Home Science textbook. Give one example where the same object has utility for one person but not for another.",
+     "a": "Utility is the importance or usefulness of a resource in helping one achieve a goal; it depends on the goal and the situation. Example: A sewing machine has utility for a tailor who wants to stitch clothes, but no utility for a student whose goal is to solve math problems. A wrong answer (e.g., \"utility means the resource is valuable/expensive\") reveals the student confuses utility with monetary worth or intrinsic property, missing the goal-dependent, relational nature of the concept.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the NCERT textbook states that \"accessibility of resources varies from person to person and from time to time.\" Illustrate with a concrete example involving money as a resource.",
+     "a": "Accessibility varies because: (1) Some resources are inherently easier to obtain than others (e.g., air vs. diamonds); (2) Distribution is unequal—different people have different access due to income, location, social status (e.g., a family earning ₹50,000/month has greater accessibility to money than one earning ₹10,000/month); (3) Availability fluctuates over time (e.g., money accessibility is higher at month-start after salary than at month-end). A wrong answer listing only one dimension (e.g., only \"rich vs. poor\") reveals incomplete understanding of the three-fold variation explicitly stated in the textbook.",
+     "self_check": true
+    },
+    {
+     "q": "A rural family owns a biogas plant that converts cow dung into cooking fuel. The plant is functional, but the family continues to buy LPG cylinders. Apply the concept of utility to explain why the biogas plant may lack utility for this family despite being physically available.",
+     "a": "Utility requires alignment between resource capability and user goal. The biogas plant can produce fuel (capability), but if the family's goal is \"quick, convenient, high-heat cooking with minimal labour,\" the plant may lack utility because: (1) It requires daily dung collection and maintenance (labour cost), (2) Gas pressure may be insufficient for pressure cooking, (3) LPG better satisfies their specific goal. A wrong answer stating \"the plant has utility because it produces fuel\" reveals the student treats utility as intrinsic to the resource rather than goal-dependent.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the accessibility of 'public park' as a community resource for: (a) a wheelchair-user living 500m away, (b) a daily-wage worker living 5km away with no transport, (c) a school student living next door. Identify at least two distinct accessibility barriers for each person.",
+     "a": "(a) Wheelchair-user: Physical barrier (no ramps/uneven paths), Temporal barrier (park closes at sunset, may conflict with therapy schedule). (b) Daily-wage worker: Economic barrier (transport cost, lost wages during travel time), Temporal barrier (park hours may not match post-work availability). (c) School student: Social barrier (park dominated by older groups, safety concerns), Legal barrier (age-restricted zones/equipment). A wrong answer giving identical barriers for all three reveals failure to analyze how accessibility intersects with user-specific circumstances.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"If a resource is accessible to everyone equally, it must have high utility for all.\" Defend or refute with reasoning and a counterexample.",
+     "a": "Refute. Accessibility and utility are independent dimensions. Counterexample: Air is equally accessible to all (high accessibility), but has zero utility for a person whose immediate goal is \"write an essay\" (air doesn't help achieve that goal). Conversely, a rare medicine may have high utility for a patient but low accessibility. A wrong answer agreeing with the statement reveals confusion between the two distinct characteristics—treating accessibility as a proxy for utility.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel scenario (not from the textbook) involving a shared community resource where utility and accessibility conflict for different user groups. Describe the resource, two user groups with different goals, and how the conflict could be resolved through resource management.",
+     "a": "Scenario: A community library with one computer lab (10 computers). Group A: Class 10 students needing computers for board exam online mock tests (goal: timed practice, high utility). Group B: Senior citizens learning basic digital literacy (goal: self-paced learning, high utility). Conflict: Limited computers (low accessibility during peak hours). Resolution: Time-slot allocation (morning for seniors, afternoon for students), booking system, or fundraising for more computers. A poor answer proposing \"first-come-first-served\" reveals failure to apply management principles to balance competing utilities under accessibility constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

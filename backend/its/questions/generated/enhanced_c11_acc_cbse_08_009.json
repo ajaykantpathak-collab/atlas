@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_08_009",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_08_009",
+   "title": "c11_acc_cbse_08_009",
+   "questions": [
+    {
+     "q": "What is the correct journal entry to bring closing stock into the books of accounts at the end of the accounting period?",
+     "a": "Closing Stock A/c Dr. To Trading A/c. A wrong answer (e.g., debiting Trading Account or crediting Purchases) reveals the student does not understand that closing stock is an asset being recognised (hence debit) and it reduces the cost of goods sold in the Trading Account (hence credit to Trading Account). It also shows confusion between the adjustment entry and the closing entries for purchases/sales.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why closing stock is credited to the Trading Account and not debited, even though it represents goods (an asset) that the business owns.",
+     "a": "Closing stock is credited to the Trading Account because it represents the portion of goods available for sale that were NOT sold. The Trading Account calculates Cost of Goods Sold = Opening Stock + Purchases + Direct Expenses – Closing Stock. Crediting closing stock deducts it from the total goods available for sale, leaving only the cost of goods actually sold on the debit side. A wrong answer (e.g., \"it's an asset so debit\") reveals the student is applying the normal asset rule mechanically without understanding the Trading Account's purpose of matching cost of goods sold against sales.",
+     "self_check": true
+    },
+    {
+     "q": "A business has Opening Stock ₹50,000, Purchases ₹2,00,000, Wages ₹30,000, and Closing Stock ₹40,000. Calculate Cost of Goods Sold and Gross Profit if Sales are ₹3,50,000.",
+     "a": "Step 1: COGS = Opening Stock + Purchases + Direct Expenses – Closing Stock = 50,000 + 2,00,000 + 30,000 – 40,000 = ₹2,40,000. Step 2: Gross Profit = Sales – COGS = 3,50,000 – 2,40,000 = ₹1,10,000. A wrong COGS (e.g., forgetting to subtract closing stock or omitting wages) reveals the student cannot identify which items are direct expenses or misapplies the formula. An incorrect gross profit shows inability to link Trading Account structure to the formula.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effect on Gross Profit if closing stock is overvalued by ₹10,000 versus undervalued by ₹10,000. Which error is more dangerous from the perspective of the conservatism principle?",
+     "a": "Overvaluation increases Gross Profit by ₹10,000 (since COGS is understated); undervaluation decreases Gross Profit by ₹10,000. Overvaluation is more dangerous because it violates the conservatism principle – it recognises profit not yet realised and overstates assets. A wrong answer (e.g., \"both are equally bad\" or \"undervaluation is worse\") reveals the student does not grasp the asymmetric treatment of gains vs losses in accounting or the rationale behind \"lower of cost or NRV\".",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Closing stock appears in the Trial Balance because it is an asset.\" Evaluate this statement and explain why closing stock usually does NOT appear in the Trial Balance.",
+     "a": "The statement is false. Closing stock does not appear in the Trial Balance because it is not the result of a daily transaction recorded through the double-entry system during the year. It is determined by physical verification at year-end and brought into books via an adjustment entry. If it appeared in the Trial Balance, it would mean it was already adjusted (e.g., opening stock of next year). A wrong evaluation reveals the student confuses the Trial Balance (list of ledger balances from recorded transactions) with the Balance Sheet (statement of assets/liabilities after adjustments).",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a business has no opening stock, purchases of ₹5,00,000, direct expenses of ₹50,000, and sales of ₹7,00,000. The closing stock is valued at ₹1,20,000. Prepare the Trading Account and show the Balance Sheet extract for closing stock. Then, explain what happens to this closing stock in the next accounting period.",
+     "a": "Trading Account: Dr. side – Purchases ₹5,00,000, Direct Expenses ₹50,000; Cr. side – Sales ₹7,00,000, Closing Stock ₹1,20,000. Gross Profit = ₹2,70,000. Balance Sheet: Current Assets – Closing Stock ₹1,20,000. Next period: This ₹1,20,000 becomes Opening Stock (debited to Trading Account). A poor answer (e.g., missing the dual effect, not showing it as current asset, or not explaining the opening stock transition) reveals the student sees closing stock as a one-time adjustment rather than a continuous flow in the accounting cycle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_10_003",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_10_003",
+   "title": "c11_cs_cbse_10_003",
+   "questions": [
+    {
+     "q": "Define the Push operation on a stack. What are the two essential steps performed during a push, and what condition must be checked before pushing?",
+     "a": "Push adds an element to the top of the stack. The two steps are: (1) check if stack is full (overflow condition: `top == MAX_SIZE - 1`); if full, report overflow error. (2) Increment `top` by 1, then assign the new element to `stack[top]`. A wrong answer that omits the overflow check or reverses the order (store then increment) reveals the student does not understand the pointer semantics and will produce off-by-one errors in implementation.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following pop algorithm: `value = stack[top]; top = top - 1; return value`. They claim it works for all cases. Is this correct? Explain why or why not using the concept of underflow.",
+     "a": "The algorithm is **incorrect** because it misses the underflow check. If the stack is empty (`top == -1`), accessing `stack[top]` causes an index-out-of-bounds error or returns garbage. The correct sequence is: (1) check `if top == -1` → underflow error; (2) retrieve `stack[top]`; (3) decrement `top`; (4) return value. A student who misses this thinks of pop as only \"remove top\" without validating preconditions — a classic board-exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Trace the following operations on an initially empty stack of size 5: push(5), push(10), push(15), pop(), push(20), pop(), pop(), pop(). Show the stack contents (top to bottom) and top pointer value after each operation. Identify any error conditions.",
+     "a": "Step-by-step trace:\n1. push(5): top=0, stack=[5]\n2. push(10): top=1, stack=[10,5] (top→bottom)\n3. push(15): top=2, stack=[15,10,5]\n4. pop(): returns 15, top=1, stack=[10,5]\n5. push(20): top=2, stack=[20,10,5]\n6. pop(): returns 20, top=1, stack=[10,5]\n7. pop(): returns 10, top=0, stack=[5]\n8. pop(): returns 5, top=-1, stack=[]\nNo overflow/underflow occurs. A wrong trace (e.g., showing 15 still in stack after step 4) reveals confusion about pop actually removing the element versus just reading it.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effect of performing push(A), push(B), pop(), push(C) versus push(A), push(B), push(C), pop() on the final stack state. Are the final stacks identical? Justify your answer using LIFO semantics.",
+     "a": "**Not identical.**\nSequence 1: push(A)→[A], push(B)→[B,A], pop()→returns B, stack=[A], push(C)→[C,A]. Final: top=C, then A.\nSequence 2: push(A)→[A], push(B)→[B,A], push(C)→[C,B,A], pop()→returns C, stack=[B,A]. Final: top=B, then A.\nLIFO means the pop always removes the *most recently pushed* element. In sequence 1, B is removed before C is pushed, so C sits on top of A. In sequence 2, C is removed, leaving B on top. A student answering \"identical\" treats stack as a bag (unordered) rather than a sequence with strict temporal ordering.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"In a stack implementation using a fixed-size array, the push operation should increment the top pointer *after* storing the element at the current top index.\" Is this correct for a stack where `top` is initialized to -1? Defend your answer.",
+     "a": "**Incorrect.** With `top = -1` initially, the first push must store at index 0. If we store at `top` (-1) first, we access `stack[-1]` (last element in Python, or invalid memory in C/C++), causing corruption. The correct order is: increment top, then store at new top. The claim reverses the steps and would only work if `top` were initialized to 0 and pointed to the *next free slot* (a different convention). Board exams often test this pointer convention — students must state their convention clearly.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (not computer science) that exactly mirrors the push/pop behavior of a stack. Describe the \"push\" action, the \"pop\" action, the \"top\" concept, and what \"overflow\" and \"underflow\" would mean in your scenario.",
+     "a": "**Scenario:** A stack of dinner plates in a spring-loaded cafeteria dispenser.\n- **Push:** Place a clean plate on top of the stack (spring compresses).\n- **Pop:** Lift the top plate off for a customer.\n- **Top:** The single plate currently accessible at the very top.\n- **Overflow:** The dispenser is full; cannot add another plate without removing one (physical limit).\n- **Underflow:** A customer arrives but the dispenser is empty; no plate to give.\nA good answer maps each stack term precisely. A poor answer (e.g., a queue of people) reveals confusion between LIFO and FIFO.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

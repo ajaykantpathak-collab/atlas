@@ -1,0 +1,236 @@
+{
+ "catalog": "catalog_class11_biology_ch101",
+ "concepts": [
+  {
+   "id": "kebo.101.1",
+   "title": "Biodiversity",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Biodiversity' refers to.",
+     "a": "The total variety and number of distinct living organisms existing on Earth, currently estimated to be between 1.7 and 1.8 million described species.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Biodiversity'.",
+     "a": "Represents the immense range of life forms inhabiting the biosphere.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Biodiversity', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.101.2",
+   "title": "Nomenclature and Identification",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Nomenclature and Identification' refers to.",
+     "a": "Nomenclature is indeed the standardized naming of organisms so they are known by the same name globally, which requires correct description and identification first.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Nomenclature and Identification'.",
+     "a": "Standardizing names prevents confusion caused by local vernacular names.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Nomenclature and Identification', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.101.3",
+   "title": "Binomial Nomenclature",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Binomial Nomenclature' refers to.",
+     "a": "A standardized naming system introduced by Carolus Linnaeus where each scientific name is made up of two parts: a generic name and a specific epithet.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Binomial Nomenclature'.",
+     "a": "A two-word format using Latinized terms to uniquely identify species.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Binomial Nomenclature', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.101.4",
+   "title": "Taxonomy and Taxa",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Taxonomy and Taxa' refers to.",
+     "a": "Taxonomy is the study of classification of living organisms into different categories called taxa using their characteristics.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Taxonomy and Taxa'.",
+     "a": "Taxa represent categories of classification at different hierarchical levels.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Taxonomy and Taxa', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.101.5",
+   "title": "Systematics",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Systematics' refers to.",
+     "a": "A branch of biology concerned with the systematic arrangement of organisms, taking into account their evolutionary relationships.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Systematics'.",
+     "a": "Systematics goes beyond taxonomy by incorporating evolutionary history (phylogeny).",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Systematics', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.101.6",
+   "title": "Taxonomic Hierarchy",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Taxonomic Hierarchy' refers to.",
+     "a": "The systematic arrangement of taxonomic categories in an ascending or descending order, where each step represents a distinct rank or taxon.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Taxonomic Hierarchy'.",
+     "a": "Higher groupings share fewer features: climbing from species up to kingdom, the traits any two members still have in common keep dropping.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Taxonomic Hierarchy', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.101.7",
+   "title": "Species",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Species' refers to.",
+     "a": "The lowest and most basic taxonomic category, consisting of a group of individual organisms sharing fundamental morphological and genetic similarities.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Species'.",
+     "a": "Distinct morphological differences allow one species to be distinguished from other closely related ones.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Species', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.101.8",
+   "title": "Genus",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Genus' refers to.",
+     "a": "A taxonomic category that comprises a group of closely related species which share more common characteristics with each other than with species of other genera.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Genus'.",
+     "a": "An aggregate of closely related species.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Genus', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.101.9",
+   "title": "Family",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Family' refers to.",
+     "a": "A taxonomic category that groups related genera together, characterized by having fewer similarities compared to the genus and species levels.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Family'.",
+     "a": "Plants are grouped using their vegetative and reproductive traits; animals are grouped on overall body resemblance.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Family', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.101.10",
+   "title": "Higher Taxonomic Categories",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Higher Taxonomic Categories' refers to.",
+     "a": "Broad taxonomic ranks (Order, Class, Phylum/Division, Kingdom) established by assembling lower categories using shared aggregates of characteristics.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Higher Taxonomic Categories'.",
+     "a": "Higher categories represent broader assemblages with fewer shared specific traits.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Higher Taxonomic Categories', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.101.11",
+   "title": "Taxonomic Classification of Common Organisms",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Taxonomic Classification of Common Organisms' refers to.",
+     "a": "The specific hierarchical classification of common organisms like Man, Housefly, Mango, and Wheat from genus to phylum/division.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Taxonomic Classification of Common Organisms'.",
+     "a": "Memorizing and identifying the exact taxonomic categories of key model organisms.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Taxonomic Classification of Common Organisms', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

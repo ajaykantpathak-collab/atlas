@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch02_004",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch02_004",
+   "title": "c7_physics_ch02_004",
+   "questions": [
+    {
+     "q": "What is the standard SI unit used to measure the voltage supplied by an electric cell or a battery?",
+     "a": "The correct unit is the Volt (V). A wrong answer usually confuses voltage with electric current (measured in Amperes) or electrical resistance (measured in Ohms), showing a failure to link physical quantities to their correct measuring units.",
+     "self_check": true
+    },
+    {
+     "q": "Why must the positive terminal of one electric cell be connected to the negative terminal of the next cell when forming a battery, rather than connecting positive to positive?",
+     "a": "Connecting positive to negative ensures that the electrical pushes of the individual cells add up to increase the total voltage. If positive is connected to positive, their opposing voltages will cancel each other out, resulting in zero net voltage for the circuit. A wrong answer shows a lack of understanding of polarity and how potentials combine in series.",
+     "self_check": true
+    },
+    {
+     "q": "If a single dry cell has a voltage of 1.5 V, what will be the total voltage of a battery made by connecting 3 such identical cells in a proper series combination?",
+     "a": "The correct answer is 4.5 V. \nSteps: \n1. Identify the voltage of one cell: $V_1 = 1.5\\text{ V}$.\n2. Identify the number of cells connected in series: $n = 3$.\n3. Apply the series voltage addition rule: $\\text{Total Voltage} = V_1 \\times n$.\n4. Compute: $1.5\\text{ V} \\times 3 = 4.5\\text{ V}$.\nA wrong answer, such as 1.5 V or multiplying incorrectly, reveals that the student does not understand how voltages accumulate in a series cell combination.",
+     "self_check": true
+    },
+    {
+     "q": "A torchlight requires 3.0 V to glow brightly, but you only have cells that provide 1.5 V each. How many cells must you use, and how must they be arranged to make the torchlight work?",
+     "a": "You must use 2 cells connected in series, where the positive terminal of the first cell touches the negative terminal of the second cell. A wrong answer indicates confusion about how multiple cells are combined to meet the required operating voltage of an electrical appliance.",
+     "self_check": true
+    },
+    {
+     "q": "Suppose a student connects four 1.5 V cells in a battery holder, but accidentally inserts one cell facing backward (positive touching positive). What will be the effective total voltage of this 4-cell battery pack?",
+     "a": "The effective total voltage will be 3.0 V. \nReasoning: Three cells pointing in the correct direction give $3 \\times 1.5\\text{ V} = 4.5\\text{ V}$, but the one backward cell subtracts $1.5\\text{ V}$, leaving $4.5\\text{ V} - 1.5\\text{ V} = 3.0\\text{ V}$. A wrong answer shows that the student fails to account for opposing polarities cancelling out individual cell potentials.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple setup using standard household items to test whether a homemade battery of three lemon cells can light up a small LED, explaining the exact arrangement of the copper and zinc electrodes.",
+     "a": "The setup requires three lemons, three copper strips, and three zinc strips. Insert one copper and one zinc strip into each lemon. Connect the copper strip of lemon 1 to the zinc strip of lemon 2, and the copper strip of lemon 2 to the zinc strip of lemon 3. Finally, connect the remaining free copper and zinc ends to the LED terminals, ensuring correct polarity. A poor answer lacks the correct alternating series connection between dissimilar metals of adjacent cells.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_06_010",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_06_010",
+   "title": "c11_ps_cbse_06_010",
+   "questions": [
+    {
+     "q": "What is the precise legal consequence under Indian law when an Indian citizen voluntarily acquires citizenship of another country?",
+     "a": "Under Article 9 of the Constitution and Section 9 of the Citizenship Act, 1955, the person automatically ceases to be an Indian citizen from the date of acquiring foreign citizenship. A wrong answer (e.g., \"they can keep both\" or \"they need to renounce formally\") reveals confusion between India's single citizenship model and countries like the USA/Canada that permit dual citizenship, or confusion between automatic termination and voluntary renunciation procedures.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the 1954 Convention Relating to the Status of Stateless Persons distinguish between de jure and de facto statelessness, and which category does the Convention primarily protect?",
+     "a": "De jure statelessness means no state recognizes the person as a national under its law; de facto statelessness means the person has a nationality but cannot access its protection (e.g., refugees whose state cannot or will not protect them). The 1954 Convention primarily protects de jure stateless persons. A wrong answer conflates statelessness with refugee status or assumes the Convention covers all displaced persons, missing the precise legal definition that triggers international protection obligations.",
+     "self_check": true
+    },
+    {
+     "q": "A child is born in India to parents who are both Tibetan refugees born in India (neither parent has Indian citizenship, Chinese citizenship, or any other). The child has never been registered with any consulate. Analyze the child's citizenship status under Indian law and international law.",
+     "a": "Under Indian law (Section 3, Citizenship Act 1955 as amended 2003), the child is NOT an Indian citizen by birth because both parents are not Indian citizens and at least one is not an \"illegal migrant\" — but the 2003 amendment restricts birthright citizenship if either parent is an illegal migrant; Tibetan refugees' status is ambiguous. Under international law, the child is at risk of de jure statelessness if neither China (claims Tibetans) nor India grants citizenship. A wrong answer assumes birth in India automatically grants citizenship (pre-2003 rule) or ignores the 1961 Convention obligation to grant nationality to otherwise stateless children born on territory.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the legal mechanisms by which Germany and India handle second-generation immigrants: Germany's 2000 reform granting conditional jus soli versus India's constitutional single citizenship. What does this reveal about their conceptions of national identity?",
+     "a": "Germany's 2000 reform (StAG §4) grants citizenship at birth to children of long-term residents, with option to retain dual citizenship until age 21, reflecting an evolving civic nation model. India's Article 9 and Section 9 mandate automatic loss upon foreign naturalization, reflecting a unitary, exclusive citizenship model tied to sovereign unity post-Partition. A wrong answer treats both as mere technical differences without linking to the deeper philosophical divergence: Germany's shift from ethnic (jus sanguinis) to civic-territorial identity versus India's insistence on undivided allegiance as a condition of democratic integration.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"India should introduce dual citizenship for its diaspora to harness remittances and talent, as the economic benefits outweigh the risks to national security and social cohesion.\"",
+     "a": "The argument is economically plausible (diaspora remittances >$100B annually) but constitutionally impermissible without amending Article 9. The OCI scheme (2005) already provides lifetime visa, parity in economic/educational fields, but excludes political rights (voting, public office) and agricultural land purchase. A weak evaluation ignores the constitutional barrier, the security concerns (Khalistan movement funding, money laundering), and the principle that political membership requires undivided allegiance — which the Constituent Assembly debated extensively in 1949. A strong evaluation weighs economic utility against the republican principle that citizenship entails shared political destiny, not transactional benefits.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a constitutional amendment proposal (max 150 words) that would permit limited dual citizenship for Persons of Indian Origin (PIOs) from specified countries while preserving the principle of single political allegiance. Include safeguards against dual loyalty in sensitive positions.",
+     "a": "A good proposal: \"Insert Article 9A: Parliament may by law provide for Overseas Citizenship of India (OCI) for PIOs from notified countries, granting all rights of citizens except: (a) voting in elections to Parliament/State Legislatures; (b) holding constitutional offices (President, VP, Judges, MPs, MLAs); (c) appointment to All India Services, defence, intelligence; (d) acquiring agricultural land. OCI holders shall owe allegiance to the Constitution of India. Voluntary acquisition of third-country citizenship terminates OCI. Parliament shall prescribe conditions for renunciation and revocation.\" Poor proposals omit political rights exclusions, fail to define allegiance, or create two classes of citizens with full political rights — violating basic structure doctrine.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

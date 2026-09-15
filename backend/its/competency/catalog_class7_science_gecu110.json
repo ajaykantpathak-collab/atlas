@@ -1,0 +1,215 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 10,
+ "chapter_title": "Life Processes in Plants",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gecu110.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gecu.10.1",
+   "title": "How Do Plants Grow?",
+   "section": "Plants and growth",
+   "definition": "Plants grow from tiny seeds into great trees without eating anything, which puzzled thinkers for ages; experiments testing soil, water and weight showed that plants are not simply soil-eaters.",
+   "formula": "",
+   "key_idea": "A plant's mass comes mostly from air and water, not from the soil it stands in.",
+   "textbook_ref": "gecu110.txt, Plants and growth",
+   "question_patterns": [
+    "from where do plants get their mass",
+    "what did early experiments on plant growth show",
+    "do plants eat soil discuss",
+    "what does a seed need to grow into a plant",
+    "test explanations for how a seedling grows",
+    "compare plant growth with animal growth"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "observe the change or behaviour",
+     "explain": "Note exactly what happens in the activity."
+    },
+    {
+     "step": 2,
+     "action": "record the pattern",
+     "explain": "Write down which cases show it and which do not."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the rule your observations reveal."
+    }
+   ]
+  },
+  {
+   "id": "gecu.10.2",
+   "title": "Photosynthesis: Making Food from Light",
+   "section": "Plants get food by photosynthesis",
+   "definition": "Green leaves are food factories: chlorophyll traps sunlight and uses its energy to combine water from the soil with carbon dioxide from air, making glucose and releasing oxygen, the process called photosynthesis.",
+   "formula": "carbon dioxide + water + sunlight = glucose + oxygen",
+   "key_idea": "Photosynthesis feeds nearly all life: leaves cook the food on which animals also dine.",
+   "textbook_ref": "gecu110.txt, Plants get food by photosynthesis",
+   "question_patterns": [
+    "define photosynthesis and write its requirements",
+    "what is the role of chlorophyll in photosynthesis",
+    "why are leaves called the food factories of plants",
+    "design a test to show starch forms in a lit leaf",
+    "why do plants kept in dark turn pale",
+    "from where do plants take in carbon dioxide"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  },
+  {
+   "id": "gecu.10.3",
+   "title": "Transport in Plants",
+   "section": "Transport in plants",
+   "definition": "Plants run their own plumbing: roots absorb water and minerals, thin tubes called xylem lift the water up the stem, and phloem carries prepared food to every part, driven by transpiration's pull from the leaves.",
+   "formula": "",
+   "key_idea": "Two pipelines, one upward and one all-around: xylem raises water, phloem distributes food.",
+   "textbook_ref": "gecu110.txt, Transport in plants",
+   "question_patterns": [
+    "how does water rise from roots to leaves",
+    "what do xylem and phloem carry",
+    "what is transpiration and how does it help",
+    "why do plants wilt without water",
+    "observe a stem in coloured water what do you see",
+    "compare transport in plants and animals"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  },
+  {
+   "id": "gecu.10.4",
+   "title": "Do Plants Respire?",
+   "section": "Plants respire",
+   "definition": "Plants breathe too: day and night they take in oxygen and release carbon dioxide while burning food for energy, and at night, without photosynthesis to mask it, gas exchange through stomata shows respiration clearly.",
+   "formula": "glucose + oxygen = energy + carbon dioxide + water",
+   "key_idea": "Photosynthesis and respiration run opposite ways: one stores sunlight in food, the other spends it.",
+   "textbook_ref": "gecu110.txt, Plants respire",
+   "question_patterns": [
+    "do plants respire give evidence",
+    "why should we not sleep under a big tree at night",
+    "compare respiration in plants and animals",
+    "what are stomata and what do they do",
+    "how do roots and leaves exchange gases",
+    "write the word equation of respiration in plants"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gecu110.txt",
+   "concept": "gecu.10.1",
+   "question_type": "verify_property",
+   "question_pattern": "how do plants get food for their growth?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gecu110.txt",
+   "concept": "gecu.10.2",
+   "question_type": "verify_property",
+   "question_pattern": "how is water transported from roots to leaves?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gecu110.txt, Let us enhance our learning",
+   "questions": [
+    "How do plants get food for their growth?",
+    "How is water transported from roots to leaves?",
+    "Do plants respire? Give the experiment's answer.",
+    "Test a variegated leaf for starch and explain what it proves.",
+    "Observe a stem in coloured water and trace the transport tubes."
+   ]
+  }
+ ]
+}

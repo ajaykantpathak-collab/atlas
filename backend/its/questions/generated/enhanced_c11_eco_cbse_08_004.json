@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_08_004",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_08_004",
+   "title": "c11_eco_cbse_08_004",
+   "questions": [
+    {
+     "q": "Define demographic transition and name its four classical stages in order.",
+     "a": "Demographic transition is the shift from high birth and death rates to low birth and death rates as a country develops. The four stages are: (1) High stationary (high birth, high death), (2) Early expanding (high birth, falling death), (3) Late expanding (falling birth, low death), (4) Low stationary (low birth, low death). A wrong answer (e.g., listing stages out of order or missing the falling death rate in stage 2) reveals the student memorised terms without understanding the causal sequence: mortality decline precedes fertility decline.",
+     "self_check": true
+    },
+    {
+     "q": "Using Table 8.1 data, explain why China's annual population growth rate is negative (-0.10%) while Pakistan's is 1.96%, despite both having low sex ratios.",
+     "a": "China's negative growth stems from its fertility rate of 1.2 (well below replacement level 2.1) due to the one-child policy legacy, while Pakistan's fertility rate is 3.4, keeping growth high. Sex ratio reflects son preference, not growth. A wrong answer attributing growth difference to sex ratio shows confusion between stock (sex ratio) and flow (growth rate) variables, and ignores fertility rate as the direct driver of natural increase.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the approximate annual population increase in millions for India and Pakistan using 2021-23 data: India population 1428 million, growth 0.81%; Pakistan population 240 million, growth 1.96%. Which country adds more people annually in absolute terms?",
+     "a": "Step 1: India increase = 1428 × 0.0081 = 11.57 million. Step 2: Pakistan increase = 240 × 0.0196 = 4.70 million. Step 3: India adds ~11.6 million, Pakistan ~4.7 million. Step 4: India adds more in absolute terms despite lower growth rate because of larger base. A wrong answer (e.g., Pakistan adds more) reveals inability to distinguish percentage growth from absolute increase, a critical error for labour market planning.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the demographic dividend potential of India and China using Table 8.1 indicators: fertility rate, urbanisation, and workforce age structure implied by dependency ratios. Which country currently has a more favourable window, and why?",
+     "a": "India: fertility 2.0 (near replacement), urbanisation 36%, large working-age cohort (implied by high population growth 0.81% and moderate density). China: fertility 1.2 (below replacement), urbanisation 65%, rapidly aging (negative growth -0.10%). India's window is open now; China's is closing. A wrong answer claiming China has better dividend ignores that low fertility and high urbanisation signal aging, shrinking workforce, and rising dependency ratio, whereas India's moderate fertility and lower urbanisation indicate a growing labour force.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Pakistan's high fertility rate (3.4) and low urbanisation (38%) indicate it is in Stage 2 of demographic transition, so it will automatically reap a demographic dividend like East Asia did.\" Provide two reasons why this may not hold.",
+     "a": "The statement is flawed. Reason 1: Demographic dividend requires not just youth bulge but also declining fertility, rising education, and job creation; Pakistan's fertility remains high, meaning dependency ratio stays high. Reason 2: Low urbanisation suggests limited structural transformation; without industrial jobs, youth become unemployed, not productive. A wrong answer agreeing with the statement shows misunderstanding that dividend is not automatic—it requires complementary policies (education, health, labour market flexibility).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a policy brief (3 bullet points) for India's NITI Aayog recommending how to leverage its current demographic transition stage (using Table 8.1 data) to avoid the middle-income trap, referencing China's experience.",
+     "a": "Good answer includes: (1) Accelerate female labour force participation (fertility 2.0 allows women to work) to boost savings and human capital. (2) Invest in manufacturing and skill-intensive services to absorb 11.6 million annual labour entrants (urbanisation only 36% means rural surplus labour). (3) Strengthen pension and healthcare for aging ahead (China's 65% urbanisation and 1.2 fertility warn of rapid aging). Poor answer gives generic advice without linking to specific indicators (fertility, urbanisation, absolute growth) or China's lessons.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

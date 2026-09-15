@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_04_006",
+   "title": "c11_phy_cbse_04_006",
+   "questions": [
+    {
+     "q": "State the law of conservation of linear momentum and write its mathematical form for a two-body isolated system. What is the SI unit of momentum?",
+     "a": "The total linear momentum of an isolated system remains constant: \\(\\vec{p}_{1i} + \\vec{p}_{2i} = \\vec{p}_{1f} + \\vec{p}_{2f}\\). SI unit: kg·m/s. A wrong answer (e.g., \"momentum is conserved always\" or unit as N·s without recognizing it equals kg·m/s) reveals confusion about the isolation condition or dimensional analysis.",
+     "self_check": true
+    },
+    {
+     "q": "A 0.15 kg cricket ball moving at 40 m/s is caught by a fielder who brings it to rest in 0.1 s. Explain why the momentum of the ball alone is not conserved, but the momentum of the ball+fielder+Earth system is conserved. Identify the external impulse.",
+     "a": "The ball experiences a large external impulse from the fielder's hands (force × time = change in momentum = 6 N·s). The ball alone is not isolated. However, the ball+fielder+Earth system experiences no net external horizontal force during the catch, so its total momentum is conserved. The external impulse is the friction force from the ground on the fielder's feet, but if the catch is quick, this impulse is small. A wrong answer indicates failure to distinguish system boundaries and the role of external forces.",
+     "self_check": true
+    },
+    {
+     "q": "A 50 g bullet moving horizontally at 400 m/s embeds into a 2 kg wooden block initially at rest on a smooth horizontal table. Calculate the speed of the combined block+bullet system just after impact. Show all steps with units.",
+     "a": "Given: \\(m_b = 0.05\\ \\text{kg}\\), \\(u_b = 400\\ \\text{m/s}\\), \\(M = 2\\ \\text{kg}\\), \\(u_B = 0\\). System isolated horizontally (smooth table). Conservation: \\(m_b u_b + M u_B = (m_b + M) v\\). \\((0.05 \\times 400) + 0 = (2.05) v\\). \\(20 = 2.05 v\\). \\(v = 9.76\\ \\text{m/s}\\). Units: kg·m/s = kg·(m/s) ✓. A wrong answer (e.g., forgetting to add masses, using 2 kg instead of 2.05 kg) reveals algebraic error or misunderstanding of perfectly inelastic collision.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical balls of mass m approach each other with speeds 3v and v on a frictionless surface. They collide elastically. Without calculation, predict the final velocities and explain your reasoning using momentum and kinetic energy conservation.",
+     "a": "Initial total momentum: \\(m(3v) + m(-v) = 2mv\\). Initial KE: \\(\\frac{1}{2}m(9v^2) + \\frac{1}{2}m(v^2) = 5mv^2\\). For identical masses in elastic 1D collision, velocities exchange in centre-of-mass frame. Result: first ball moves at \\(-v\\), second at \\(3v\\) (they exchange velocities relative to CM). Total final momentum: \\(m(-v) + m(3v) = 2mv\\) ✓. KE: \\(5mv^2\\) ✓. A wrong prediction (e.g., both stop, or stick together) shows confusion between elastic and inelastic outcomes or failure to apply both conservation laws.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a recoil problem: \"A 100 kg gun fires a 10 g bullet at 800 m/s. Find recoil speed.\" They write: \\(0 = 0.01 \\times 800 + 100 \\times v \\Rightarrow v = -0.08\\ \\text{m/s}\\). Is this correct? If not, identify the error and give the correct answer.",
+     "a": "The equation is correct but the mass conversion is wrong: 10 g = 0.01 kg ✓. \\(0 = 8 + 100v \\Rightarrow v = -0.08\\ \\text{m/s}\\). Actually correct! Wait — check: \\(0.01 \\times 800 = 8\\ \\text{kg·m/s}\\). \\(100 \\times (-0.08) = -8\\ \\text{kg·m/s}\\). Sum = 0 ✓. The negative sign means opposite direction. The student's answer is correct. A wrong evaluation would be claiming the sign is wrong or mass conversion error. This tests careful unit checking and sign convention understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom experiment using low-friction carts on a track to verify momentum conservation in a perfectly inelastic collision. Specify measurements needed, how to ensure isolation, and how to analyse data.",
+     "a": "Use two carts with Velcro pads (stick on collision). Measure masses \\(m_1, m_2\\). Give cart 1 initial velocity \\(u_1\\) (photogate), cart 2 at rest. After collision, measure combined velocity \\(v\\) (photogate). Check \\(m_1 u_1 \\approx (m_1+m_2)v\\). Ensure isolation: level track (no gravity component), minimal friction (air track or low-friction wheels), collision time short so friction impulse negligible. Analyse: plot \\(m_1 u_1\\) vs \\((m_1+m_2)v\\) for multiple trials; slope should be 1. A poor design ignores friction or uses single trial without error analysis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_02_005",
+   "title": "c12_math_cbse_02_005",
+   "questions": [
+    {
+     "q": "State the complete tan⁻¹ addition formula including all case conditions for xy < 1, xy > 1 with x,y > 0, and xy > 1 with x,y < 0. Do not just write the xy < 1 case.",
+     "a": "The complete formula is:\n- tan⁻¹x + tan⁻¹y = tan⁻¹((x+y)/(1-xy)), if xy < 1\n- tan⁻¹x + tan⁻¹y = π + tan⁻¹((x+y)/(1-xy)), if xy > 1 and x > 0, y > 0\n- tan⁻¹x + tan⁻¹y = -π + tan⁻¹((x+y)/(1-xy)), if xy > 1 and x < 0, y < 0\nIf a student writes only the first case, they have memorised an incomplete formula and will get wrong answers when xy > 1 (e.g., tan⁻¹2 + tan⁻¹3). This is the most common board exam error — students forget the range of tan⁻¹ is (-π/2, π/2), so sums exceeding π/2 need +π, and sums below -π/2 need -π.",
+     "self_check": true
+    },
+    {
+     "q": "Explain WHY the formula tan⁻¹x + tan⁻¹y = tan⁻¹((x+y)/(1-xy)) fails when xy > 1 and x,y > 0, using the range of the principal value branch of tan⁻¹. Give a concrete numerical example.",
+     "a": "The principal value branch of tan⁻¹ is (-π/2, π/2). When x,y > 0 and xy > 1, both tan⁻¹x and tan⁻¹y are in (0, π/2), and their sum exceeds π/2 (e.g., tan⁻¹2 ≈ 1.107 rad, tan⁻¹3 ≈ 1.249 rad, sum ≈ 2.356 rad = 3π/4 > π/2). But tan⁻¹((x+y)/(1-xy)) always returns a value in (-π/2, π/2). For x=2, y=3: (x+y)/(1-xy) = 5/(1-6) = -1, so tan⁻¹(-1) = -π/4, which is NOT the sum (3π/4). The correct sum is π + (-π/4) = 3π/4. Students who don't understand the range restriction will blindly apply the xy < 1 formula and get -π/4 instead of 3π/4.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: tan⁻¹(1/2) + tan⁻¹(1/3) + tan⁻¹(1/7) + tan⁻¹(1/8). Show all steps and state which case of the formula you use at each step.",
+     "a": "Step 1: tan⁻¹(1/2) + tan⁻¹(1/3). Here x=1/2, y=1/3, xy=1/6 < 1. Use case 1: tan⁻¹((1/2+1/3)/(1-1/6)) = tan⁻¹((5/6)/(5/6)) = tan⁻¹(1) = π/4.\nStep 2: tan⁻¹(1/7) + tan⁻¹(1/8). x=1/7, y=1/8, xy=1/56 < 1. Case 1: tan⁻¹((1/7+1/8)/(1-1/56)) = tan⁻¹((15/56)/(55/56)) = tan⁻¹(15/55) = tan⁻¹(3/11).\nStep 3: π/4 + tan⁻¹(3/11). Now x=1, y=3/11, xy=3/11 < 1. Case 1: tan⁻¹((1+3/11)/(1-3/11)) = tan⁻¹((14/11)/(8/11)) = tan⁻¹(14/8) = tan⁻¹(7/4).\nFinal answer: tan⁻¹(7/4). Common error: students try to combine all four at once or forget to check xy < 1 at each step. If they incorrectly combine π/4 + tan⁻¹(3/11) as tan⁻¹(1) + tan⁻¹(3/11) without realising tan⁻¹(1) = π/4 is already an angle, they might make algebraic mistakes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the results of tan⁻¹(2) + tan⁻¹(3) and tan⁻¹(-2) + tan⁻¹(-3). Explain why the signs of the π-adjustment are opposite, using the graph of y = tan⁻¹x.",
+     "a": "For tan⁻¹(2) + tan⁻¹(3): x=2, y=3, xy=6 > 1, x,y > 0. Case 2: π + tan⁻¹((2+3)/(1-6)) = π + tan⁻¹(-1) = π - π/4 = 3π/4.\nFor tan⁻¹(-2) + tan⁻¹(-3): x=-2, y=-3, xy=6 > 1, x,y < 0. Case 3: -π + tan⁻¹((-2-3)/(1-6)) = -π + tan⁻¹(-5/-5) = -π + tan⁻¹(1) = -π + π/4 = -3π/4.\nOn the graph of y = tan⁻¹x, positive x give angles in (0, π/2), negative x give angles in (-π/2, 0). The sum of two positive angles exceeds π/2, so we add π to bring the principal value back to the correct quadrant (II). The sum of two negative angles is less than -π/2, so we subtract π to bring it to quadrant III. Students who don't visualise the graph often confuse the sign of the adjustment.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves tan⁻¹x + tan⁻¹(2x) = π/3 and gets x = 1/√3. Their working: tan⁻¹x + tan⁻¹(2x) = tan⁻¹((x+2x)/(1-2x²)) = tan⁻¹(3x/(1-2x²)) = π/3 ⇒ 3x/(1-2x²) = √3 ⇒ 3x = √3 - 2√3x² ⇒ 2√3x² + 3x - √3 = 0 ⇒ x = 1/√3 or x = -√3/2. They reject -√3/2 because it's negative. Is their solution complete and correct? Justify.",
+     "a": "The solution is INCOMPLETE. The student used the xy < 1 formula without verifying the condition xy = 2x² < 1. For x = 1/√3: 2x² = 2/3 < 1 ✓, valid. For x = -√3/2: 2x² = 2(3/4) = 3/2 > 1, and x < 0, so the xy < 1 formula does NOT apply — the correct case is xy > 1, x,y < 0 (since 2x is also negative), giving -π + tan⁻¹(...) = π/3 ⇒ tan⁻¹(...) = 4π/3, impossible since tan⁻¹ range is (-π/2, π/2). So x = -√3/2 is correctly rejected, but for the WRONG reason (sign, not domain violation). The student must check the condition xy < 1 before applying the formula. This is a classic JEE trap: solving the algebraic equation without verifying the formula's applicability condition.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a problem where tan⁻¹x + tan⁻¹y = π/2, with x,y > 0. Find the relationship between x and y, and give two specific pairs (x,y) that satisfy it. Explain why the standard addition formula cannot be directly applied.",
+     "a": "If tan⁻¹x + tan⁻¹y = π/2 with x,y > 0, then tan(tan⁻¹x + tan⁻¹y) = tan(π/2), which is undefined. Using the tangent addition formula: (x+y)/(1-xy) → ∞, so denominator 1-xy = 0 ⇒ xy = 1. The standard formula tan⁻¹x + tan⁻¹y = tan⁻¹((x+y)/(1-xy)) fails because it requires xy ≠ 1 (denominator zero) and the result would be tan⁻¹(∞) = π/2, but the formula's RHS is undefined at xy=1. This is a boundary case. Pairs: (1,1), (2, 1/2), (√3, 1/√3). Students often try to plug xy=1 into the formula and get \"undefined\" without realising this IS the condition for the sum to be π/2. This tests deep understanding of the formula's derivation and domain limits.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

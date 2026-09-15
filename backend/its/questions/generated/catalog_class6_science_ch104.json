@@ -1,0 +1,137 @@
+{
+ "catalog": "catalog_class6_science_ch104.json",
+ "concepts": [
+  {
+   "id": "fesc.4.1.1",
+   "title": "Material Categorization",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why do we group materials?",
+     "a": "Grouping by common properties makes study and choice of materials easy and systematic.",
+     "self_check": true
+    },
+    {
+     "q": "On what properties can materials be grouped?",
+     "a": "Appearance (lustre), hardness, solubility, floating, transparency - and metal or non-metal.",
+     "self_check": true
+    },
+    {
+     "q": "Give one object that can be made of many materials.",
+     "a": "A chair - wood, plastic, metal or cane can all make chairs.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.4.2.1",
+   "title": "Lustre of Materials",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is lustre?",
+     "a": "The shine of a material - metals like iron, copper and gold show it when fresh.",
+     "self_check": true
+    },
+    {
+     "q": "Why do old iron articles lose their shine?",
+     "a": "A dull layer of rust covers the metal, hiding its natural lustre.",
+     "self_check": true
+    },
+    {
+     "q": "Name two lustrous materials.",
+     "a": "Gold and copper (freshly cut metals shine).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.4.2.2",
+   "title": "Hardness of Materials",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is hardness of a material?",
+     "a": "Its resistance to scratches and dents - hard materials scratch soft ones.",
+     "self_check": true
+    },
+    {
+     "q": "Name the softest and a very hard material you know.",
+     "a": "Soft: chalk. Hard: iron nail (diamond is hardest in nature).",
+     "self_check": true
+    },
+    {
+     "q": "Can a hard material be scratched by a soft one?",
+     "a": "No - only a harder material can scratch a softer one.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.4.2.3",
+   "title": "Solubility in Water",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is solubility?",
+     "a": "The ability of a substance to dissolve in a liquid (usually water) to form a transparent solution.",
+     "self_check": true
+    },
+    {
+     "q": "Name two soluble and two insoluble substances in water.",
+     "a": "Soluble: sugar, salt. Insoluble: sand, chalk powder.",
+     "self_check": true
+    },
+    {
+     "q": "How do we know a substance has dissolved completely?",
+     "a": "The water turns clear (not cloudy) and no particles settle at the bottom.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.4.2.4",
+   "title": "Buoyancy (Float or Sink)",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "On what does floating or sinking of an object depend?",
+     "a": "On its weight (density) compared with water - lighter things float, heavier sink.",
+     "self_check": true
+    },
+    {
+     "q": "Name two materials that float and two that sink in water.",
+     "a": "Float: wood, cork, oil. Sink: iron nail, stone.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a heavy wooden log float but a small iron nail sinks?",
+     "a": "Wood is less dense than water; iron is denser, whatever the size.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.4.2.5",
+   "title": "Transparency",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Group materials as transparent, translucent and opaque with examples.",
+     "a": "Transparent: glass, clear water. Translucent: butter paper, frosted glass. Opaque: wood, metal sheet.",
+     "self_check": true
+    },
+    {
+     "q": "Through which material can we see objects clearly?",
+     "a": "Transparent materials - they let nearly all light pass straight through.",
+     "self_check": true
+    },
+    {
+     "q": "Why are windows made of glass and doors of wood?",
+     "a": "Glass is transparent to let light in; wood is opaque for privacy and strength.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

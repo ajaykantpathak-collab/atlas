@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_10_007",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_10_007",
+   "title": "c11_cs_cbse_10_007",
+   "questions": [
+    {
+     "q": "What is the primary condition that the stack-based algorithm checks when it encounters a closing bracket in an expression?",
+     "a": "The algorithm checks two conditions: (1) the stack is not empty (otherwise there is no matching opening bracket), and (2) the top element of the stack is the corresponding opening bracket for the current closing bracket (e.g., `)` matches `(`). If either fails, the expression is unbalanced. A wrong answer (e.g., \"check if stack is full\") reveals confusion about stack underflow vs. overflow and the purpose of the stack in this context.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a queue (FIFO) cannot be used to balance parentheses, using the expression `({})` as an example.",
+     "a": "A queue would dequeue the first opening bracket `(` when the first closing bracket `}` is encountered, but `}` requires `{` (the most recent unmatched opening bracket). FIFO forces matching in the order brackets were opened, which violates nesting rules. A student who says \"queue works if we reverse the expression\" misunderstands that nesting is inherently LIFO; reversing changes the problem.",
+     "self_check": true
+    },
+    {
+     "q": "Given the expression `{[()]}{}`, trace the stack contents (show the stack after each character) and state whether it is balanced.",
+     "a": "Trace: `{` → stack: `['{']`; `[` → `['{','[']`; `(` → `['{','[','(']`; `)` → pop `(` → `['{','[']`; `]` → pop `[` → `['{']`; `}` → pop `{` → `[]`; `{` → `['{']`; `}` → pop `{` → `[]`. Stack empty at end → balanced. A wrong trace (e.g., not popping on closing brackets) shows the student cannot simulate the algorithm stepwise.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the expressions `([])` and `([)]`. Using the stack algorithm, identify the exact step where the second expression fails and explain why the first succeeds.",
+     "a": "For `([)]`: push `(` → `['(']`; push `[` → `['(','[']`; encounter `)` → pop top `[` but `)` expects `(` → mismatch at step 3. For `([])`: push `(`; push `[`; encounter `]` → pop `[` (match); encounter `)` → pop `(` (match); stack empty → success. The failure occurs because `)` tries to close `(` while `[` is still open – improper nesting. A student who says \"both fail\" or \"both pass\" cannot distinguish proper vs. improper nesting.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes a balancing function that only checks if the stack is empty at the end, ignoring mismatches during traversal. Evaluate this approach: give an expression that would incorrectly be reported as balanced, and explain why the check is insufficient.",
+     "a": "Expression `([)]` would be incorrectly reported balanced because the stack becomes empty at the end (each closing bracket pops something), but the pops are mismatched. The end-of-stack check only ensures equal numbers of opening and closing brackets, not correct pairing. A student who cannot produce such a counterexample lacks analytical evaluation of algorithm completeness.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new expression containing at least three different bracket types that is balanced, and another that is unbalanced due to a *missing* opening bracket (not a mismatch). Show the stack trace for both.",
+     "a": "Balanced: `{[(])}`? Wait, that's mismatched. Let's create a correct one: `({[]})` (already used). Another: `{[()()]}`. Unbalanced due to missing opening bracket: `()]}` – stack trace: `]` → stack empty → error. A poor answer might give an unbalanced expression with mismatched types instead of missing opening bracket, showing the student cannot isolate specific failure modes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_13_002",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_13_002",
+   "title": "c11_geo_cbse_13_002",
+   "questions": [
+    {
+     "q": "Name the three Himalayan river basins that together account for approximately 60% of India's total surface water potential, and state the primary source of their perennial flow.",
+     "a": "The Indus, Ganga, and Brahmaputra basins; their perennial flow is primarily sustained by glacial melt and snowmelt from the Himalaya, supplemented by monsoon rainfall. A wrong answer (e.g., naming Peninsular rivers or attributing flow solely to rainfall) reveals confusion between Himalayan snow-fed regimes and Peninsular rain-fed regimes, and ignorance of the quantitative dominance of these three basins in national water availability.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Godavari basin, despite being the largest Peninsular basin (≈3.1 lakh km²), exhibit a highly seasonal discharge compared to the much smaller Ganga basin?",
+     "a": "The Godavari lacks glacial/snowmelt contribution; its entire catchment lies in the tropical monsoon zone, so >80% of annual runoff occurs in four monsoon months, whereas the Ganga receives year-round meltwater from the Himalaya. A wrong answer (e.g., citing basin size or rainfall amount alone) shows failure to link *source of water* (glacial vs. pluvial) to *temporal distribution of discharge*, a core concept for understanding water stress in Peninsular India.",
+     "self_check": true
+    },
+    {
+     "q": "Using the outline map of India provided, locate and label the following: (a) the water divide separating the Indus and Ganga basins, (b) the confluence of the Bhagirathi and Alaknanda, (c) the point where the Brahmaputra enters India, and (d) the drainage pattern exhibited by the Narmada basin.",
+     "a": "(a) The Indus-Ganga water divide runs along the Siwalik-Himalayan foothills (approx. 30°N latitude) from the Sutlej-Yamuna divide eastward; (b) Devprayag, Uttarakhand; (c) Near Sadiya, Arunachal Pradesh (Dihang gorge); (d) The Narmada flows through a rift valley, producing a *trellis/rectangular* pattern controlled by fault lines. Incorrect locations or pattern identification indicate weak map-reading skills and inability to connect structural geology (rift valleys) to drainage patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sediment load characteristics of the Brahmaputra and the Kaveri rivers and explain how their respective basin geology and gradient produce these differences.",
+     "a": "The Brahmaputra carries one of the world's highest sediment loads (≈400-800 million tonnes/yr) due to its steep Himalayan gradient, active tectonics, easily erodible sedimentary rocks, and intense monsoon rainfall in the catchment. The Kaveri, flowing over ancient, hard crystalline rocks of the Peninsular shield with a gentler gradient, carries significantly less sediment (≈5-10 million tonnes/yr). A wrong comparison (e.g., attributing Kaveri's low load solely to dams) misses the fundamental control of *basement geology and tectonic setting* on sediment yield.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Inter-linking of the Ken and Betwa rivers (both tributaries of the Yamuna) will solve the water deficit in the Bundelkhand region without significant ecological cost.\"",
+     "a": "The statement is overly optimistic. While the Ken-Betwa link transfers surplus Ken water to the deficit Betwa basin, ecological costs include submergence of Panna Tiger Reserve core area, disruption of riverine ecology, and altered sediment regime downstream. Moreover, the *surplus* in Ken is contested — both basins face increasing agricultural demand and climate variability. A one-sided endorsement reveals failure to weigh *ecological flow requirements, basin-scale water accounting, and climate resilience* against engineering benefits.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simplified watershed management plan for a 500 km² micro-catchment in the Deccan Trap region (Maharashtra) that experiences recurrent droughts. Specify three structural and two non-structural interventions, justifying each with the basaltic terrain's hydrogeology.",
+     "a": "Structural: (1) Contour trenches on gentle slopes to enhance infiltration in low-permeability basalt; (2) Percolation tanks on lineament/fracture zones to recharge deeper aquifers; (3) Gully plugs in drainage lines to reduce soil loss. Non-structural: (1) Crop shift from sugarcane to millets/pulses to reduce irrigation demand; (2) Community-based groundwater budgeting with monthly water-table monitoring. A poor plan omits fracture-zone targeting (critical in basalt) or ignores demand-side management, showing incomplete grasp of *hard-rock hydrogeology and socio-hydrology*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

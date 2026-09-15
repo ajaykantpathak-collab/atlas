@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_04_002",
+   "title": "c11_eco_cbse_04_002",
+   "questions": [
+    {
+     "q": "Name the five sources of human capital formation as per the NCERT framework.",
+     "a": "The five sources are: (1) Investment in education, (2) Investment in health, (3) On-the-job training, (4) Migration, and (5) Acquisition of information. A wrong answer (e.g., listing only education and health) reveals that the student has not internalised the full NCERT framework and may be conflating human capital formation with only formal schooling.",
+     "self_check": true
+    },
+    {
+     "q": "Why do firms incur expenditure on on-the-job training even though it increases their costs in the short run?",
+     "a": "Firms invest in on-the-job training because the enhanced labour productivity of trained workers generates returns that exceed the training cost over the period the worker stays with the firm. A wrong answer (e.g., \"firms do it out of charity\" or \"government mandates it\") shows the student misses the profit-maximising, investment-return logic that parallels physical capital investment.",
+     "self_check": true
+    },
+    {
+     "q": "A rural household spends ₹30,000 on migrating a member to a city for a job that pays ₹8,000 more per month than the village job. The monthly cost of living in the city is ₹4,000 higher. Calculate the net monthly gain and the payback period (in months) for the migration investment.",
+     "a": "Step 1: Identify monthly incremental earnings = ₹8,000. Step 2: Identify monthly incremental cost = ₹4,000. Step 3: Net monthly gain = ₹8,000 - ₹4,000 = ₹4,000. Step 4: Payback period = Migration cost / Net monthly gain = ₹30,000 / ₹4,000 = 7.5 months. A wrong answer (e.g., ignoring higher living costs or using gross earnings) reveals the student cannot apply cost-benefit analysis to migration as a human capital investment.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the nature of depreciation in physical capital (e.g., a tractor) and human capital (e.g., a nurse's skills). How does continuous investment affect each differently?",
+     "a": "Physical capital depreciates through wear and tear and technological obsolescence; investment in maintenance slows wear but cannot prevent obsolescence. Human capital depreciates through ageing and skill obsolescence, but continuous investment in education, health, and training can significantly reduce depreciation and even upgrade skills to match new technology. A wrong answer (e.g., \"both depreciate the same way\") shows failure to grasp the endogenous, renewable nature of human capital highlighted in Box 4.1.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Expenditure on acquiring information about job markets is a waste because information is freely available on the internet.\"",
+     "a": "The statement is false. While some information is free, reliable, tailored information (e.g., salary benchmarks for specific skills, quality of training institutes, visa rules for migration) often requires paid subscriptions, career counselling, or network access. The cost of acquiring such information is a human capital investment because it reduces the risk of poor education/training/migration choices, thereby raising the expected return on other human capital investments. A wrong evaluation (agreeing with the statement) indicates the student treats information as a free good and ignores search costs and asymmetric information in labour markets.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-life scenario (Indian context) where a household simultaneously invests in at least three different sources of human capital formation for different family members. Briefly describe each investment and its expected return.",
+     "a": "Example: A family in Bihar: (1) Father spends ₹20,000 on a 3-month welding certification (on-the-job training) to qualify for a Gulf job — expected return: higher wage abroad. (2) Mother spends ₹15,000 on cataract surgery (health) to regain vision and continue tailoring work — expected return: restored income stream. (3) Daughter's school fees ₹12,000/year (education) — expected return: future white-collar job. (4) Son uses ₹5,000 for a smartphone with internet to research agricultural prices and government schemes (information) — expected return: better crop sales. A poor answer (e.g., only education investments) shows the student cannot integrate multiple sources into a coherent household human capital strategy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

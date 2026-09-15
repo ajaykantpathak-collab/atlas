@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_21_006",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_21_006",
+   "title": "c11_geo_cbse_21_006",
+   "questions": [
+    {
+     "q": "Name the three major trunk pipeline networks for crude oil and petroleum products in India, and state the terminal points of each.",
+     "a": "The three major trunk pipeline networks are: (1) Naharkatiya–Nunmati–Barauni Pipeline (crude oil) — from Naharkatiya (Assam) to Nunmati (Guwahati) and Barauni (Bihar); (2) Salaya–Koyali–Mathura Pipeline (crude oil) — from Salaya (Gujarat coast) to Koyali (Vadodara) and Mathura (Uttar Pradesh); (3) Hajira–Bijaipur–Jagdishpur (HBJ) Pipeline (natural gas) — from Hajira (Gujarat) to Bijaipur (MP) and Jagdishpur (UP), extended to Delhi and beyond. A wrong answer (e.g., confusing HBJ as an oil pipeline or missing the Mathura extension) reveals the student has memorised names without understanding the commodity distinction (crude vs gas) or the demand-centre logic (refineries at Barauni, Mathura, Panipat; fertiliser plants at Bijaipur, Jagdishpur).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why pipeline transport has the lowest per tonne-kilometre cost for petroleum movement despite the highest initial capital expenditure among all transport modes.",
+     "a": "Pipeline transport achieves the lowest operating cost per tonne-km because: (a) energy consumption is ~1/6th of road and ~1/3rd of rail per tonne-km (electric pumps at intervals vs diesel locomotives/trucks); (b) zero intermediate handling — no loading/unloading, transshipment, or packaging losses; (c) continuous 24×7 flow with minimal labour after commissioning; (d) transit losses <0.1% vs 0.5–1% in rail/road. The high CAPEX (₹5–15 crore/km depending on terrain/diameter) is amortised over 25–30 years at high throughput (5–20 MMTPA). A student who answers \"pipelines are cheaper because they are underground\" misses the physics: the key is steady-state laminar flow with low friction factor (Reynolds number ~2000–4000) and no stop-start cycles, unlike discrete vehicles.",
+     "self_check": true
+    },
+    {
+     "q": "A 1,200 km crude oil pipeline of 18-inch diameter operates at 6 MMTPA capacity. If the pump stations are spaced 150 km apart and each consumes 2.5 MW, calculate the specific energy consumption (SEC) in kWh/tonne-km. Compare with typical rail SEC of 0.03 kWh/tonne-km and road SEC of 0.09 kWh/tonne-km.",
+     "a": "Step 1: Total pump power = 8 stations × 2.5 MW = 20 MW (1200/150 = 8 intervals). Step 2: Annual energy = 20 MW × 24 h × 365 d = 175,200 MWh = 175.2 GWh. Step 3: Annual throughput = 6 MMTPA = 6 × 10⁶ tonnes. Step 4: Tonne-km = 6 × 10⁶ tonnes × 1,200 km = 7.2 × 10⁹ tonne-km. Step 5: SEC = 175.2 × 10⁶ kWh / 7.2 × 10⁹ tonne-km = 0.0243 kWh/tonne-km. Result: Pipeline SEC (0.024) < Rail (0.03) < Road (0.09). A wrong calculation (e.g., forgetting to multiply by distance or miscounting pump stations) reveals inability to handle multi-step unit conversions — a critical skill for board case-study questions on transport economics.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the route alignment logic of the Salaya–Koyali–Mathura pipeline with the Hajira–Bijaipur–Jagdishpur (HBJ) pipeline. Why does the former hug the coast initially while the latter cuts across the peninsula?",
+     "a": "Salaya–Koyali–Mathura: Originates at Salaya (single-point marine offloading terminal for VLCCs importing crude) → moves inland to Koyali refinery (existing infrastructure, skilled labour) → extends to Mathura refinery (serving North India demand). Coastal start minimises marine transit risk and leverages deep-draft port. HBJ: Originates at Hazira (gas processing complex receiving Mumbai High/offshore gas) → crosses Gujarat plains → traverses Malwa plateau → reaches Bijaipur (fertiliser plant) → Jagdishpur (fertiliser plant) → extends to Delhi (power/CGD). Cross-peninsular route connects gas SUPPLY (west coast) to STRANDED DEMAND (inland fertiliser/power plants) that had no rail/road gas access. A student who says \"both follow shortest distance\" misses that pipeline routing optimises for: (i) source-terminal type (port vs gas plant), (ii) anchor loads (refineries vs fertiliser units), (iii) terrain (HBJ crosses Narmada, Chambal, Yamuna — requiring directional drilling), and (iv) right-of-way acquisition (agricultural land vs forest).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The National Gas Grid (NGG) and City Gas Distribution (CGD) network will make pipeline transport the backbone of India's energy transition by 2030.\" Support your judgement with three quantitative arguments and one strategic constraint.",
+     "a": "Judgement: Largely valid but constrained by last-mile economics. Quantitative arguments: (1) NGG targets 34,500 km pipeline by 2030 (from ~22,000 km in 2023), raising gas share in primary energy from 6.3% to 15% — requiring 500+ MMSCMD throughput vs current ~150 MMSCMD. (2) CGD covers 70% of population across 400+ districts (9th/10th/11th bidding rounds), targeting 10 crore PNG connections (from ~1 crore in 2020) — each connection displaces 2–3 LPG cylinders/year, saving ~₹15,000 crore/year in import subsidy. (3) SATAT scheme targets 5,000 CBG plants producing 15 MMT CBG by 2025, injectable into existing pipelines — circular economy link. Strategic constraint: Last-mile CGD viability requires minimum 50,000 PNG connections per Geographical Area (GA) to achieve IRR >12%; rural GAs with low density (<200 persons/km²) remain unviable without viability gap funding (VGF), creating access inequality. A student who only lists targets without the IRR/density constraint shows policy awareness but lacks analytical depth on implementation geography.",
+     "self_check": true
+    },
+    {
+     "q": "Design a pipeline corridor proposal for transporting natural gas from the Krishna-Godavari (KG) Basin offshore fields to the upcoming petrochemical cluster at Paradip (Odisha), considering: (a) seabed topography, (b) forest/wildlife clearances, (c) anchor load requirements, (d) integration with Urja Ganga/NGG. Annotate a sketch map with 5 critical waypoints and justify each.",
+     "a": "Good answer criteria: (1) Waypoint 1: KG-D6 onshore terminal (Kakinada/Ravva) — gas processing entry point. (2) Waypoint 2: Rajahmundry — existing GAIL compressor station, tie-in to DVPL. (3) Waypoint 3: Vijayawada — river crossing (Krishna) via HDD, urban bypass. (4) Waypoint 4: Visakhapatnam — alternative coastal route anchor (HPCL refinery, fertiliser), but detour adds 150 km; justify rejection if inland shorter. (5) Waypoint 5: Paradip — destination (IOCL refinery + petrochemical complex, 15 MMTPA anchor load). Justifications must cite: (a) Seabed: avoid Godavari submarine canyon (slope instability) — route 20 km offshore in 50 m contour. (b) Forest: bypass Coringa Wildlife Sanctuary (mangroves) via HDD under estuary. (c) Anchor load: Paradip needs 5 MMSCMD initially — size pipeline for 10 MMSCMD (18–24 inch). (d) Integration: Tap into Urja Ganga (Phulpur–Haldia) at Barauni junction for bidirectional flow. Poor answer: straight line on map ignoring clearances, no compressor station spacing, no diameter sizing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

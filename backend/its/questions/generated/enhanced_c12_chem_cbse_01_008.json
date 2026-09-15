@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_01_008",
+   "title": "c12_chem_cbse_01_008",
+   "questions": [
+    {
+     "q": "State the formula for elevation of boiling point and define each term with its SI unit.",
+     "a": "ΔTb = Kb × m, where ΔTb = elevation in boiling point (K), Kb = ebullioscopic constant (K kg mol⁻¹), m = molality of solute (mol kg⁻¹). A wrong answer (e.g., using molarity, omitting units, or writing ΔTb = Kb × M) reveals confusion between molality and molarity, or ignorance of the temperature-independence requirement for colligative properties.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a solution of 1 mol glucose in 1 kg water boil at a higher temperature than pure water, even though glucose does not evaporate? Explain using vapour pressure curves.",
+     "a": "Glucose lowers the vapour pressure of water at all temperatures (Raoult's law). The boiling point is the temperature where vapour pressure = 1 atm. Since the solution's vapour pressure curve is shifted downward, it reaches 1 atm at a higher temperature. A wrong answer (e.g., \"glucose increases intermolecular forces\" or \"glucose reacts with water\") shows the student hasn't linked vapour pressure lowering to boiling point elevation — the core conceptual bridge.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the boiling point of a solution prepared by dissolving 15.0 g of urea (NH₂CONH₂, molar mass 60 g mol⁻¹) in 250 g of water. Kb for water = 0.52 K kg mol⁻¹. Pure water boils at 373.15 K at 1 atm.",
+     "a": "Step 1: Moles of urea = 15.0 g / 60 g mol⁻¹ = 0.250 mol. Step 2: Mass of solvent = 250 g = 0.250 kg. Step 3: Molality m = 0.250 mol / 0.250 kg = 1.00 mol kg⁻¹. Step 4: ΔTb = Kb × m = 0.52 × 1.00 = 0.52 K. Step 5: Boiling point = 373.15 + 0.52 = 373.67 K. A wrong answer (e.g., 373.15 + 0.52×(15/60) = 373.28 K) reveals the student used mass of solute directly instead of molality, or forgot to convert solvent mass to kg.",
+     "self_check": true
+    },
+    {
+     "q": "A solution of 2.0 g of an unknown non-electrolyte in 100 g of benzene boils at 354.11 K. Pure benzene boils at 353.23 K. Kb for benzene = 2.53 K kg mol⁻¹. Determine the molar mass of the solute. Then, analyse: if the same mass of solute were dissolved in 100 g of water (Kb = 0.52), would ΔTb be larger or smaller? Why?",
+     "a": "ΔTb = 354.11 - 353.23 = 0.88 K. m = ΔTb/Kb = 0.88/2.53 = 0.348 mol kg⁻¹. Moles of solute = m × kg solvent = 0.348 × 0.100 = 0.0348 mol. Molar mass = 2.0 g / 0.0348 mol = 57.5 g mol⁻¹. For water: same moles in 0.100 kg → m = 0.348 mol kg⁻¹ → ΔTb = 0.52 × 0.348 = 0.181 K. ΔTb is smaller in water because Kb(water) < Kb(benzene). A wrong comparison (e.g., \"ΔTb larger because water has higher specific heat\") shows the student doesn't understand Kb is a solvent-specific constant derived from ΔHvap and Tb.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"Adding 1 mol of NaCl to 1 kg of water will elevate the boiling point by 0.52 K because ΔTb = Kb × m and m = 1 mol kg⁻¹.\" Identify the error and give the correct ΔTb assuming complete dissociation.",
+     "a": "The statement ignores the van't Hoff factor (i). NaCl → Na⁺ + Cl⁻ gives i ≈ 2 (complete dissociation). Effective molality = i × m = 2 × 1 = 2 mol kg⁻¹. Correct ΔTb = i × Kb × m = 2 × 0.52 × 1 = 1.04 K. A student who agrees with the statement treats NaCl as a non-electrolyte — a classic board/JEE trap. They must recognise that colligative properties count particles, not formula units.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to determine the molar mass of an unknown non-volatile solid using boiling point elevation. List apparatus, measurements, and the calculation sequence. What assumption about the solute is critical?",
+     "a": "Apparatus: boiling tube, thermometer (0.1°C accuracy), condenser, balance, water bath. Procedure: (1) Measure boiling point of pure solvent (Tb°). (2) Weigh ~5 g solute, dissolve in known mass (e.g., 50 g) of solvent. (3) Measure boiling point of solution (Tb). (4) ΔTb = Tb - Tb°. (5) m = ΔTb/Kb. (6) Moles solute = m × kg solvent. (7) Molar mass = mass solute / moles. Critical assumption: solute is non-volatile, non-dissociating, non-associating (i=1). A poor design (e.g., using open beaker, no condenser, or measuring mass of solution instead of solvent) shows misunderstanding of molality definition and vapour loss.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

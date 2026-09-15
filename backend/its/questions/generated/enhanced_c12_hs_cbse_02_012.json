@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_02_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_02_012",
+   "title": "c12_hs_cbse_02_012",
+   "questions": [
+    {
+     "q": "Define food fortification and food enrichment. Give one example of each from the Indian context.",
+     "a": "Food fortification is the addition of nutrients not originally present or present in insignificant amounts (e.g., adding vitamin D to milk). Food enrichment is the restoration of nutrients lost during processing to original levels (e.g., adding back B-vitamins and iron to refined wheat flour after milling). A wrong answer might confuse the two by saying enrichment adds extra nutrients beyond original levels, or might give examples like iodized salt as enrichment (it is fortification because iodine is not naturally present in salt). This reveals the student does not grasp the fundamental distinction: fortification adds *new* nutrients for public health, enrichment *replaces* lost nutrients.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"If we fortify rice with iron, we can solve anaemia in India because everyone eats rice.\" Identify the flaw in this reasoning and explain why fortification alone cannot eliminate micronutrient deficiencies.",
+     "a": "The flaw is assuming universal consumption of the fortified vehicle and ignoring bioavailability, dietary diversity, and coverage gaps. Fortification alone cannot eliminate deficiencies because: (1) not all populations consume the same staple (e.g., millet-consuming regions), (2) phytates in rice inhibit iron absorption unless paired with absorption enhancers, (3) fortification does not address other determinants like infection, poor sanitation, or overall inadequate diet, and (4) monitoring and quality control across decentralized milling is challenging. A wrong answer that simply says \"it's a good idea\" shows the student lacks critical analysis of programmatic limitations.",
+     "self_check": true
+    },
+    {
+     "q": "The FSSAI mandates fortification of packaged wheat flour (atta) with iron, folic acid, and vitamin B12. A small-scale chakki (stone mill) owner argues his fresh atta should be exempt because \"it's natural and unprocessed.\" As a nutritionist, how would you respond using the principles of vehicle selection?",
+     "a": "Response: The chakki atta is indeed a major vehicle consumed by a large population, making it an ideal candidate for fortification. Exempting it would leave a coverage gap because a significant portion of the population (especially rural and low-income) relies on chakki atta. The principles of vehicle selection require the food to be widely consumed, centrally processed (or processable at scale), and stable. While chakki milling is decentralized, feasible technologies (e.g., micro-dosing feeders) exist to fortify at the point of milling. A wrong answer that agrees with the owner shows misunderstanding of the public health principle: the vehicle must reach the vulnerable, not just the organized sector.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the public health impact of India's Universal Salt Iodization (USI) program with the relatively newer Double Fortified Salt (DFS) program (iron + iodine). Why has USI achieved near-universal coverage while DFS rollout has been slower?",
+     "a": "USI succeeded because: (1) salt is universally consumed in small, consistent amounts across all socioeconomic groups, (2) iodine (as potassium iodate) is stable in salt, (3) a single nutrient simplifies technology and quality control, (4) strong political commitment and industry regulation since the 1980s. DFS faces: (1) technical challenge of preventing iron-iodine interaction (iron can oxidize iodine), (2) need for encapsulated iron which increases cost, (3) sensory changes (color, taste) affecting consumer acceptance, (4) more complex quality assurance. A wrong answer that attributes DFS slowness only to \"cost\" misses the technical and sensory barriers.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Mandatory fortification of staple foods violates consumer choice and should be replaced by voluntary fortification and nutrition education.\" Use evidence from Indian programs to support your evaluation.",
+     "a": "Mandatory fortification is justified for nutrients with widespread deficiency (iodine, iron, vitamin A) because: (1) voluntary fortification reaches only those who can afford branded products, missing the most vulnerable, (2) nutrition education alone cannot overcome structural barriers (poverty, food access), (3) USI's success in reducing goitre prevalence from >20% to <5% in many states demonstrates mandatory approach works. However, mandatory fortification must be accompanied by monitoring to prevent excessive intake in sub-groups (e.g., high salt consumers). A wrong answer that uncritically supports \"consumer choice\" ignores the equity dimension and the proven track record of mandatory programs in India.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-fortification intervention for a tribal block where the staple is ragi (finger millet) and the prevalent deficiency is calcium and iron. Specify: (a) the food vehicle, (b) the fortificant form, (c) one technology for addition, (d) one monitoring indicator.",
+     "a": "(a) Vehicle: Ragi flour (locally milled, consumed daily as mudde/porridge). (b) Fortificant: Ferrous bisglycinate (iron) + calcium carbonate (calcium) — chosen for bioavailability and minimal sensory impact. (c) Technology: Micro-feeder attached to the local hammer mill for continuous dosing during milling. (d) Monitoring indicator: Spot-test of iron (ferrozine method) and calcium (atomic absorption) in flour samples collected monthly from 10% of mills; plus biannual hemoglobin survey in school children. A poor answer might suggest fortifying water or using non-staple vehicles, showing lack of understanding of vehicle selection criteria.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

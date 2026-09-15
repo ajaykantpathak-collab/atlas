@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_09_012",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_09_012",
+   "title": "c11_cs_cbse_09_012",
+   "questions": [
+    {
+     "q": "What is the correct file mode to open a destination file when you want to copy content into it, ensuring any existing content is completely replaced?",
+     "a": "The correct mode is `'w'` (write mode). It truncates the file to zero length if it exists, or creates it if it doesn't. A wrong answer like `'a'` (append) reveals the student confuses copying (replacing entire content) with merging/adding to existing content. A wrong answer like `'r+'` reveals misunderstanding that read-write mode doesn't truncate automatically.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why using `read().split()` is more reliable for word counting than `read().split(' ')` when a file contains multiple spaces, tabs, or newlines between words.",
+     "a": "`split()` without arguments splits on any whitespace sequence (spaces, tabs, newlines) and discards empty strings, while `split(' ')` splits only on single space characters, treating consecutive spaces as empty-string elements and not handling tabs/newlines. A wrong answer indicates the student doesn't understand the default whitespace-splitting behavior of `str.split()` and will overcount words when files have irregular spacing.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python code snippet that copies `source.txt` to `dest.txt` using `with` statements, handling the case where `source.txt` doesn't exist by printing \"Source file not found\".",
+     "a": "```python\ntry:\n    with open('source.txt', 'r') as src, open('dest.txt', 'w') as dst:\n        dst.write(src.read())\nexcept FileNotFoundError:\n    print(\"Source file not found\")\n```\nA wrong answer that omits `try-except` reveals the student hasn't internalized exception handling (node 09_011). Using `src.readlines()` and `dst.writelines()` is also correct but less memory-efficient for large files. Forgetting `'w'` mode for destination shows confusion between copy (replace) and merge (append).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the memory implications of using `read()` vs `readlines()` vs line-by-line iteration (`for line in src:`) when copying a 2 GB log file to another disk. Which approach is safest and why?",
+     "a": "Line-by-line iteration (`for line in src:`) is safest because it reads one line at a time, keeping memory usage O(1) regardless of file size. `read()` loads the entire 2 GB into RAM, likely causing `MemoryError`. `readlines()` creates a list of all lines, also O(n) memory. A wrong answer choosing `read()` for \"simplicity\" reveals the student doesn't consider scalability — a critical senior-secondary concept where solutions must handle production-scale data.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes a merge program that opens the destination file in `'w'` mode inside a loop for each source file. Evaluate this approach and explain the bug.",
+     "a": "Opening the destination in `'w'` mode inside the loop truncates the file on every iteration, so only the last source file's content remains. The fix: open destination once in `'w'` before the loop, or open in `'a'` (append) inside the loop. A wrong answer that thinks `'w'` appends reveals fundamental confusion between write (truncate) and append modes. A wrong answer suggesting `seek(0, 2)` inside `'w'` mode shows misunderstanding that `'w'` always truncates on open, regardless of pointer position.",
+     "self_check": true
+    },
+    {
+     "q": "Design a single Python function `file_stats(filename)` that returns a tuple `(line_count, word_count, char_count)` for a text file, handling all whitespace variations and empty files correctly. Write the complete function with docstring.",
+     "a": "```python\ndef file_stats(filename):\n    \"\"\"Return (lines, words, chars) for text file. Handles empty files and all whitespace.\"\"\"\n    lines = words = chars = 0\n    try:\n        with open(filename, 'r') as f:\n            for line in f:\n                lines += 1\n                chars += len(line)\n                words += len(line.split())\n    except FileNotFoundError:\n        raise  # Re-raise for caller to handle\n    return (lines, words, chars)\n```\nA poor answer using `read().splitlines()` for line count fails on files ending without newline (last line not counted). Using `read().split()` for words loads entire file in memory. Not using `with` shows poor resource management. Missing `try-except` ignores exception handling prerequisite.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

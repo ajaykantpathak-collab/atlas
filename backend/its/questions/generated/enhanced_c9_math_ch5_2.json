@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch5_2",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch5_2",
+   "title": "c9_math_ch5_2",
+   "questions": [
+    {
+     "q": "How many lines of symmetry does a circle have? Describe their geometric location relative to the centre.",
+     "a": "A circle has infinitely many lines of symmetry. Every line passing through the centre (i.e., every diameter) is an axis of symmetry. A wrong answer like \"4 lines\" or \"8 lines\" reveals the student is thinking of regular polygons (square, octagon) and has not generalized that a circle's continuous curvature allows any diameter to act as a mirror line.",
+     "self_check": true
+    },
+    {
+     "q": "If a circle is rotated about its centre by 37°, does it coincide with its original position? Explain why or why not using the definition of rotational symmetry.",
+     "a": "Yes, a circle coincides with itself after rotation by any angle (including 37°) about its centre. This is because every point on the circle is at the same distance from the centre; rotation preserves distances from the centre, so the set of points remains unchanged. A student who says \"only multiples of 90°\" is confusing the circle with a square or cross shape and has not grasped that rotational symmetry of a circle is of infinite order.",
+     "self_check": true
+    },
+    {
+     "q": "A chord AB of a circle with centre O is 8 cm long. The perpendicular from O to AB meets AB at M. Using symmetry, find AM and explain why OM is the perpendicular bisector of AB.",
+     "a": "By reflection symmetry across line OM (which passes through O), the circle maps onto itself. Since A and B are intersection points of the circle with a line perpendicular to OM, they must swap under reflection. Thus M is the midpoint of AB, so AM = 4 cm. A student who calculates AM = 8 cm or says \"cannot be determined without radius\" is not using symmetry; they are either ignoring the reflection property or trying to use Pythagoras prematurely.",
+     "self_check": true
+    },
+    {
+     "q": "Two chords PQ and RS of a circle are equal in length. Using rotational symmetry, explain why the perpendicular distances from the centre to these chords must be equal.",
+     "a": "Rotate the circle about its centre until chord PQ coincides with chord RS (possible because equal chords subtend equal angles at the centre, a consequence of rotational symmetry). Under this rotation, the perpendicular from the centre to PQ maps onto the perpendicular from the centre to RS. Since rotation preserves distances, the two perpendicular distances are equal. A student who says \"draw and measure\" or uses triangle congruence without invoking symmetry is missing the rotational symmetry argument that underpins the theorem.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"A circle has rotational symmetry of order 360 because it looks the same every 1°.\" Evaluate this statement and correct the misconception.",
+     "a": "The statement is incorrect. Rotational symmetry of order n means the figure coincides with itself after rotation by 360°/n. A circle coincides with itself after rotation by **any** angle, not just integer degrees. Its order of rotational symmetry is **infinite**, not 360. The student is confusing \"number of integer-degree positions\" with the mathematical definition of order. This reveals a misunderstanding that symmetry order must be a finite integer.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) where the symmetry of a circle is used to solve a practical design or measurement issue. State the problem and outline the symmetry-based solution.",
+     "a": "Example: A wheelwright needs to place 8 spokes symmetrically in a circular wheel rim of radius 30 cm. Using rotational symmetry, each spoke is rotated by 360°/8 = 45° from the previous one. The centre is the rotation point; the equal angular spacing guarantees symmetry. A poor answer would just say \"divide 360 by 8\" without linking to rotational symmetry of the circle or explaining why the centre is the only point that works.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

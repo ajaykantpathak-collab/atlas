@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_06_003",
+   "title": "c11_ps_cbse_06_003",
+   "questions": [
+    {
+     "q": "State the three categories of rights in T.H. Marshall's liberal citizenship framework and give one concrete example of a right in each category that a citizen in India can claim today.",
+     "a": "Correct answer: Civil rights — e.g., Article 21 right to life and personal liberty (protection from arbitrary arrest); Political rights — e.g., Article 326 universal adult franchise (right to vote); Social rights — e.g., Article 21A right to education (ages 6–14) or MGNREGA right to work. A wrong answer that lists \"fundamental duties\" or \"directive principles\" as Marshall's categories reveals confusion between liberal rights (entitlements against the state) and republican/civic duties (obligations to the community). It also suggests the student hasn't grasped that Marshall's typology is specifically about *rights* expansion, not a general list of constitutional provisions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a liberal theorist would argue that the state must remain neutral among competing conceptions of the good life, and illustrate with one example from Indian constitutional practice where this neutrality is tested.",
+     "a": "Correct answer: Liberalism holds that individuals have the capacity and right to choose their own values; the state's role is to provide a fair framework (rights, rule of law) within which diverse life plans can be pursued, not to endorse any particular one. Example: The Supreme Court's Sabarimala judgment (2018) allowing women of all ages to enter the temple — the state enforced individual equality rights (Articles 14, 15, 25) over a community's traditional religious practice, illustrating liberal neutrality between competing visions of religious orthodoxy vs. gender equality. A wrong answer that says \"the state should promote Hindu values\" or \"secularism means banning all religion from public life\" reveals a communitarian or majoritarian misunderstanding: the former wants the state to enforce a shared good, the latter confuses neutrality with hostility. Both miss the liberal core — the state as umpire, not player.",
+     "self_check": true
+    },
+    {
+     "q": "A state government passes a law reserving 80% of private-sector jobs for \"domiciled residents.\" Migrant workers from other states challenge it under Article 19(1)(e) (freedom of residence and settlement) and Article 19(1)(g) (freedom of occupation). Using the liberal citizenship framework, analyse whether the law violates the principle of equal citizenship. Structure your answer in three steps: identify the liberal right at stake, explain the individualist logic, and assess the state's justification.",
+     "a": "Correct answer: Step 1 — The liberal right at stake is the civil/political right to freedom of movement and occupation (Article 19(1)(e)/(g)), which treats the citizen as a rights-bearing individual entitled to pursue livelihood anywhere in the national territory. Step 2 — Liberal individualism holds that rights attach to the *person*, not to their place of birth or residence; restricting jobs by domicile makes citizenship rights conditional on geography, creating \"second-class\" citizens within the same polity — exactly what Marshall warned against when he said citizenship ensures \"equality of status.\" Step 3 — The state may argue \"local unemployment\" justifies the restriction, but liberal theory demands *strict scrutiny*: the burden must be necessary and proportionate, and less restrictive alternatives (skill training, investment incentives) must be tried first. A blanket 80% quota fails this test because it treats non-domiciled citizens as instrumental to local welfare rather than as equal rights-holders. A wrong answer that says \"states have the right to protect their own people\" confuses liberal citizenship (universal, portable rights) with a feudal or communitarian model where membership is local and hierarchical.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how a liberal citizenship framework versus a communitarian framework would evaluate the following policy: \"All citizens must perform one year of mandatory national service (military or civilian) after turning 18.\" Identify two specific points of divergence.",
+     "a": "Correct answer: Divergence 1 — *Source of obligation*: Liberalism sees obligations as arising from voluntary consent or fair reciprocity (e.g., paying taxes for services received); mandatory service coerces labor without individual consent, violating bodily autonomy and freedom of occupation (Article 19(1)(g)). Communitarianism sees obligation as intrinsic to membership in a shared political community — service expresses civic virtue and solidarity. Divergence 2 — *Purpose of citizenship*: Liberalism views citizenship as a status protecting individual rights; the state serves the citizen. Communitarianism views citizenship as a practice constituting collective identity; the citizen serves the polity. A wrong answer that says \"both would support it because it builds national unity\" misses the liberal insistence on *voluntary* association and the distinction between a *right* (which can be waived) and a *duty* (which is imposed). It conflates liberal patriotism (chosen) with civic republican virtue (expected).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The liberal view of citizenship, by focusing exclusively on individual rights, cannot adequately address historical group-based injustices like caste discrimination in India.\" Provide a reasoned judgment with reference to constitutional provisions.",
+     "a": "Correct answer: The claim is partially valid but incomplete. Liberal citizenship *as originally formulated* (Locke, early Marshall) emphasized formal equality — identical rights for atomised individuals — which can indeed render structural group disadvantage invisible (e.g., \"equal right to compete\" ignores caste barriers to education). However, the Indian Constitution *adapts* liberalism by embedding *group-differentiated rights* within a liberal framework: Articles 15(4), 16(4) (reservations), 17 (abolition of untouchability), 29–30 (minority cultural/educational rights). These are not departures from liberalism but *substantive equality* extensions — they treat rights as capabilities (Sen) that require enabling conditions. The liberal principle of equal moral worth *demands* correcting historically produced inequalities. A wrong answer that says \"liberalism opposes all reservations\" confuses formal equality (same rules for all) with substantive equality (fair outcomes). It also ignores that Ambedkar, a liberal constitutionalist, designed these provisions *using* liberal tools (equal protection, non-discrimination) to achieve group justice.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 150-word opinion piece for a school newspaper arguing whether the \"right to privacy\" (Article 21, Puttaswamy judgment 2017) strengthens or weakens liberal citizenship in the digital age. Use the liberal concepts of autonomy, state neutrality, and rights as trumps.",
+     "a": "Expected criteria: A strong answer will (a) define privacy as the liberal shield for autonomous self-determination (control over personal data, bodily integrity, informational self-determination), (b) argue it *strengthens* liberal citizenship by limiting state/corporate surveillance that treats citizens as objects of management rather than rights-bearing subjects, (c) reference Puttaswamy's \"rights as trumps\" logic — privacy cannot be sacrificed for \"national security\" or \"efficiency\" without strict proportionality, (d) acknowledge counter-arguments (contact tracing, Aadhaar welfare delivery) but insist on *purpose limitation* and *data minimisation* as liberal safeguards. A poor answer that says \"privacy helps criminals\" or \"the state needs data to govern\" reveals a utilitarian/statist mindset that sees rights as concessions, not as constitutive of liberal citizenship. It misses that liberalism *starts* from the individual's inviolable sphere, not the state's convenience.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

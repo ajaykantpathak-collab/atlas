@@ -1,0 +1,356 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 304,
+ "chapter_title": "Key Elements of a Democratic Government",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iest107.txt",
+ "concepts": [
+  {
+   "id": "fess.304.1",
+   "title": "Apartheid and Struggle for Racial Equality",
+   "section": "South Africa",
+   "definition": "A policy of legal racial segregation where citizens are categorized by race and denied equal civic rights and shared public spaces.",
+   "formula": "none",
+   "key_idea": "Democratic resistance undermines institutionalized racial discrimination to establish political equality.",
+   "textbook_ref": "fess304.txt lines 10-50",
+   "question_patterns": [
+    "what was the apartheid system in South Africa",
+    "describe how non-white citizens were discriminated against under apartheid",
+    "explain the role of Nelson Mandela in ending apartheid",
+    "how did Hector Pieterson protest against language imposition",
+    "what changes occurred in South Africa after becoming a democracy in 1994"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify racial divisions",
+     "explain": "Apartheid divided people into white, black, Indian, and coloured groups."
+    },
+    {
+     "step": 2,
+     "action": "list discriminatory practices",
+     "explain": "Non-whites lacked voting rights, used inferior public facilities, and were segregated in living areas."
+    },
+    {
+     "step": 3,
+     "action": "describe democratic transition",
+     "explain": "Struggles led by the African National Congress resulted in democratic elections and equal status in 1994."
+    }
+   ]
+  },
+  {
+   "id": "fess.304.2",
+   "title": "Democratic Participation through Elections",
+   "section": "PARTICIPATION",
+   "definition": "The periodic process by which citizens choose political representatives to govern and make public choices on their behalf.",
+   "formula": "none",
+   "key_idea": "Regular election cycles enforce accountability and limit governmental power.",
+   "textbook_ref": "fess304.txt lines 55-75",
+   "question_patterns": [
+    "why are regular elections necessary in a democracy",
+    "in Class 6 civics: how do citizens participate in governance through voting",
+    "what is the standard tenure of an elected government in India",
+    "explain how voting limits the power of a government",
+    "what role do elected representatives play on behalf of citizens"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain representative democracy",
+     "explain": "Citizens vote for representatives who take policy decisions on their behalf."
+    },
+    {
+     "step": 2,
+     "action": "state tenure limitations",
+     "explain": "Governments hold power for a set duration, such as five years in India, requiring re-election to continue."
+    }
+   ]
+  },
+  {
+   "id": "fess.304.3",
+   "title": "Government Tenure Calculation",
+   "section": "PARTICIPATION",
+   "definition": "Calculating the total duration of governance across multiple fixed election cycles.",
+   "formula": "total_years = number_of_terms * term_length_years",
+   "key_idea": "Overall years in office equal the count of successful election terms multiplied by the single term length.",
+   "textbook_ref": "fess304.txt lines 65-72",
+   "question_patterns": [
+    "calculate total tenure for a government serving multiple terms",
+    "find the total years in office for consecutive election terms",
+    "compute governance duration given term length and number of terms",
+    "how many total years does a government rule over several terms",
+    "determine total ruling duration from term count"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply terms by term length",
+     "explain": "Multiply the number of elected terms by the length of one term in years.",
+     "compute": "total_years = number_of_terms * term_length_years"
+    }
+   ]
+  },
+  {
+   "id": "fess.304.4",
+   "title": "Alternative Modes of Civic Participation",
+   "section": "Other ways of participating",
+   "definition": "Methods outside of voting through which the public expresses opinions and exerts pressure on government policies.",
+   "formula": "none",
+   "key_idea": "Citizens influence administrative decisions using public rallies, signature drives, and media debates.",
+   "textbook_ref": "fess304.txt lines 78-105",
+   "question_patterns": [
+    "what are the non-electoral ways citizens participate in a democracy",
+    "how do rallies and strikes influence government decisions",
+    "in Class 6 civics: explain how signature campaigns show public approval or disapproval",
+    "describe the role of mass media in holding governments accountable",
+    "what can citizens do when a government passes an unpopular policy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify non-voting methods",
+     "explain": "Citizens organize dharnas, rallies, strikes, and signature campaigns."
+    },
+    {
+     "step": 2,
+     "action": "analyze media involvement",
+     "explain": "Newspapers, magazines, and television platforms air public grievances and facilitate debate."
+    }
+   ]
+  },
+  {
+   "id": "fess.304.5",
+   "title": "Participation via Social Movements",
+   "section": "Other ways of participating",
+   "definition": "Organized collective efforts by marginalized demographics to challenge state action and secure civil rights.",
+   "formula": "none",
+   "key_idea": "Social movements enable minority and vulnerable groups to actively shape democratic decisions.",
+   "textbook_ref": "fess304.txt lines 106-115",
+   "question_patterns": [
+    "how do social movements allow marginalized groups to participate in democracy",
+    "which groups form social movements to challenge government functioning",
+    "explain the importance of collective action for minorities and Dalits",
+    "what role do Adivasis and women play in public social movements",
+    "why are social movements vital for citizens who feel unheard"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify participating groups",
+     "explain": "Dalits, Adivasis, religious minorities, and women frequently form social movements."
+    },
+    {
+     "step": 2,
+     "action": "explain objective of movements",
+     "explain": "These organizations actively challenge unjust state decisions and demand fair inclusion."
+    }
+   ]
+  },
+  {
+   "id": "fess.304.6",
+   "title": "Causes and Resolution of Social Conflicts",
+   "section": "NEED TO RESOLVE CONFLICT",
+   "definition": "Disagreements arising from social diversity that require legal and constitutional mediation to prevent violence.",
+   "formula": "none",
+   "key_idea": "The state enforces constitutional frameworks to resolve societal tensions peacefully.",
+   "textbook_ref": "fess304.txt lines 118-135",
+   "question_patterns": [
+    "what causes conflicts among different groups in society",
+    "why is the government responsible for resolving social disputes",
+    "how does the Indian Constitution help in resolving conflicts",
+    "what happens when social differences lead to violent protests",
+    "explain the importance of constitutional laws in maintaining peace"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify conflict origins",
+     "explain": "Conflicts stem from differences in culture, religion, regional origins, or economic standing."
+    },
+    {
+     "step": 2,
+     "action": "apply constitutional framework",
+     "explain": "The government enforces constitutional rules to address grievances and maintain public order."
+    }
+   ]
+  },
+  {
+   "id": "fess.304.7",
+   "title": "Role of Police in Resolving Religious Procession Disputes",
+   "section": "NEED TO RESOLVE CONFLICT",
+   "definition": "Interventions by law enforcement authorities to coordinate routes and prevent clashes during community events.",
+   "formula": "none",
+   "key_idea": "Police mediation ensures public safety and prevents violence during religious gatherings.",
+   "textbook_ref": "fess304.txt lines 136-148",
+   "question_patterns": [
+    "how do religious processions sometimes spark social conflict",
+    "what is the role of police during religious rallies and celebrations",
+    "how do law enforcement officials prevent community clashes along procession routes",
+    "why do police bring representatives of opposing groups together",
+    "describe government actions during potential public unrest"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify points of friction",
+     "explain": "Disagreements often arise regarding procession routes or public space usage."
+    },
+    {
+     "step": 2,
+     "action": "explain police actions",
+     "explain": "Police organize dialogue between group representatives and guard against stone-throwing or violence."
+    }
+   ]
+  },
+  {
+   "id": "fess.304.8",
+   "title": "Inter-State River Water Conflict Resolution",
+   "section": "NEED TO RESOLVE CONFLICT",
+   "definition": "Federal intervention to manage and equitably allocate shared water resources across neighboring state boundaries.",
+   "formula": "none",
+   "key_idea": "The central authority intervenes to balance resource distribution when river systems span multiple states.",
+   "textbook_ref": "fess304.txt lines 149-170",
+   "question_patterns": [
+    "why do rivers become a source of conflict between states",
+    "describe the Cauvery water dispute between Karnataka and Tamil Nadu",
+    "what role does the central government play in inter-state river disputes",
+    "how do upstream and downstream dams affect water distribution",
+    "explain why fair distribution of river water is necessary"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify cause of river dispute",
+     "explain": "Upstream usage impacts downstream flow, limiting full water availability for both states."
+    },
+    {
+     "step": 2,
+     "action": "explain central government intervention",
+     "explain": "The central government arbitrates to establish a fair water-sharing mechanism."
+    }
+   ]
+  },
+  {
+   "id": "fess.304.9",
+   "title": "Inseparability of Equality and Justice",
+   "section": "EQUALITY AND JUSTICE",
+   "definition": "The core constitutional precept that fair treatment cannot exist without eliminating systemic social discrimination.",
+   "formula": "none",
+   "key_idea": "Justice requires total legal prohibition of discriminatory traditions like untouchability.",
+   "textbook_ref": "fess304.txt lines 172-192",
+   "question_patterns": [
+    "why are equality and justice considered inseparable in a democracy",
+    "how was the practice of untouchability abolished in India",
+    "what was Dr B R Ambedkar's contribution to achieving equality and justice",
+    "which rights were denied to marginalized groups under untouchability",
+    "explain how democratic laws promote social equality"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "connect equality to justice",
+     "explain": "Justice is attainable only when all individuals are afforded equal rights and dignity."
+    },
+    {
+     "step": 2,
+     "action": "cite legal reform",
+     "explain": "Discriminatory practices like untouchability were outlawed to restore rights to education, worship, and public entry."
+    }
+   ]
+  },
+  {
+   "id": "fess.304.10",
+   "title": "Affirmative Action for Gender Equality",
+   "section": "EQUALITY AND JUSTICE",
+   "definition": "State policy measures aimed at mitigating socio-cultural biases against marginalized demographics, such as girls.",
+   "formula": "none",
+   "key_idea": "Government schemes compensate for social discrimination by providing targeted benefits to disadvantaged groups.",
+   "textbook_ref": "fess304.txt lines 193-210",
+   "question_patterns": [
+    "what special provisions does the government make for the girl child",
+    "how does waiving or lowering school fees promote education for girls",
+    "why does the government step in to address gender discrimination",
+    "in Class 6 civics: explain how affirmative policies help achieve justice for female students",
+    "describe government actions to reverse societal bias favoring boy children"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify social bias",
+     "explain": "Societal preference for male children leads to unequal care and opportunities for female children."
+    },
+    {
+     "step": 2,
+     "action": "apply remedial policy",
+     "explain": "The government reduces or waives educational fees for girls to encourage schooling and overcome injustice."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fess304.txt lines 65-72",
+   "concept": "fess.304.3",
+   "question_type": "compute",
+   "question_pattern": "If a democratic government in India wins {number_of_terms} consecutive election terms, each lasting {term_length_years} years, calculate the total duration of its tenure.",
+   "extracted_variables": {
+    "number_of_terms": 3,
+    "term_length_years": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply terms by term length",
+     "explain": "Multiply the 3 terms by 5 years per term to determine total duration.",
+     "compute": "total_years = number_of_terms * term_length_years"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fess304.txt lines 65-72",
+   "concept": "fess.304.3",
+   "question_type": "compute",
+   "question_pattern": "A regional council serves {number_of_terms} successive terms with a tenure of {term_length_years} years per term. Calculate the overall period of governance.",
+   "extracted_variables": {
+    "number_of_terms": 4,
+    "term_length_years": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply terms by term length",
+     "explain": "Multiply the 4 terms by 5 years per term to determine total duration.",
+     "compute": "total_years = number_of_terms * term_length_years"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex304.1",
+   "source_ref": "fess304.txt lines 212-225",
+   "questions": [
+    "How would Maya's life be different in South Africa today?",
+    "What are the various ways in which people participate in the process of government?",
+    "Why do you think we need the government to find solutions to many disputes or conflicts?",
+    "What actions does the government take to ensure that all people are treated equally?",
+    "Read through the chapter and discuss some of the key ideas of a democratic government. Make a list."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)",
+ "source_link": "re-linked to new cache"
+}

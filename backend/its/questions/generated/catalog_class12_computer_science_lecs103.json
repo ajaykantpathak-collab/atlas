@@ -1,0 +1,203 @@
+{
+ "catalog": "catalog_class12_computer_science_lecs103",
+ "concepts": [
+  {
+   "id": "lecs103.1",
+   "title": "Stack Size after Pushes and Pops",
+   "questions": [
+    {
+     "q": "Using the method 'Stack Size after Pushes and Pops', work with: pops = 4, pushes = 4, start_size = 2048. Carry the chain through step by step and give the final value of current_size.",
+     "a": "2048 bytes",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Stack Size after Pushes and Pops' and work with: pops = 80, pushes = 6, start_size = 512. Carry the chain through step by step and give the final value of current_size.",
+     "a": "438 bytes",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Stack Size after Pushes and Pops' refers to.",
+     "a": "A stack is a linear data structure that admits inserts and deletes at one end, the TOP, so it obeys LIFO: PUSH adds at the top, POP removes from the top, and the element stored last leaves first.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Stack Size after Pushes and Pops'.",
+     "a": "Popping the glass numbered 2 from the pile of Figure 3.2 exposes the glass beneath it, never a middle one.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Stack Size after Pushes and Pops', in plain ASCII form.",
+     "a": "current_size = start_size + (pushes - pops)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs103.2",
+   "title": "Applications of the Stack in Practice",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Applications of the Stack in Practice' refers to.",
+     "a": "Everywhere the most recent item must be served first, a stack fits: reversing a string, undo and redo in editors, the BACK button of a browser replaying page history, and checking that parentheses in an expression nest correctly.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Applications of the Stack in Practice'.",
+     "a": "Browser history keeps visited pages as a stack, so two BACK clicks from page P3 land on page P1.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Applications of the Stack in Practice', in plain ASCII form.",
+     "a": "most recent change -> undone or redone first",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs103.3",
+   "title": "Infix, Prefix and Postfix Notations",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Infix, Prefix and Postfix Notations' refers to.",
+     "a": "One expression has three written forms: infix places operators between operands as x * y + z, prefix (Polish) places them before the operands, and postfix (reverse Polish) places them after, which removes the need for parentheses and precedence rules.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Infix, Prefix and Postfix Notations'.",
+     "a": "Prefix and postfix expressions evaluate in one left-to-right traversal because operator order is already fixed.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Infix, Prefix and Postfix Notations', in plain ASCII form.",
+     "a": "x * y + z -> +z*xy (prefix) -> xy*z+ (postfix)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs103.4",
+   "title": "Evaluating a Postfix Expression",
+   "questions": [
+    {
+     "q": "Using the method 'Evaluating a Postfix Expression', work with: the fixed constants of the method. Carry the chain through step by step and give the final value of result.",
+     "a": "11 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Evaluating a Postfix Expression' and work with: the fixed constants of the method. Carry the chain through step by step and give the final value of result.",
+     "a": "11 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Evaluating a Postfix Expression' refers to.",
+     "a": "A postfix expression evaluates with a stack: operands are pushed, and each operator pops two values, applies itself and pushes the result back, so the final single stack entry is the answer, as in 7 8 2 * 4 / + giving 11.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Evaluating a Postfix Expression'.",
+     "a": "Only operands are pushed during evaluation; each operator consumes exactly the top two stack values.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Evaluating a Postfix Expression', in plain ASCII form.",
+     "a": "result = 7 + (8 * 2) / 4",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs103.5",
+   "title": "Postfix Evaluation with Letter Operands",
+   "questions": [
+    {
+     "q": "Evaluate A B + C * for A=3, B=5, C=1, showing the stack after each operation.. Use the method 'Postfix Evaluation with Letter Operands'. Work with: a_value = 20000, b_value = 80000, c_value = 12000. Carry the chain through step by step and give the final value of result.",
+     "a": "1200000000 units",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate A B * C / D * for A=3, B=5, C=1, D=4.. Use the method 'Postfix Evaluation with Letter Operands'. Work with: a_value = 20000, b_value = 5000, c_value = 2500. Carry the chain through step by step and give the final value of result.",
+     "a": "62500000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Postfix Evaluation with Letter Operands' refers to.",
+     "a": "When postfix operands are letters, substitute the given values first and then run the same push-pop evaluation, for example A B + C * with A=3, B=5, C=1 becomes (3 + 5) * 1 which is 8.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Postfix Evaluation with Letter Operands'.",
+     "a": "Substitute the letter values before evaluation so only numbers ride on the stack.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Postfix Evaluation with Letter Operands', in plain ASCII form.",
+     "a": "result = (a_value + b_value) * c_value",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs103.6",
+   "title": "Converting Infix to Postfix",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Converting Infix to Postfix' refers to.",
+     "a": "Algorithm 3.1 converts infix to postfix using a stack for operators: operands append straight to the output string, left parentheses wait on the stack, operators pop higher-precedence elders first, and a right parenthesis pops until its matching left one, discarding the pair.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Converting Infix to Postfix'.",
+     "a": "Only operators and parentheses ever ride on the stack during conversion; operands go directly to the output.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Converting Infix to Postfix', in plain ASCII form.",
+     "a": "(x + y)/(z * 8) -> x y + z 8 * /",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs103.7",
+   "title": "Matching Parentheses with a Stack",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Matching Parentheses with a Stack' refers to.",
+     "a": "A compiler validates nesting by pushing every opening parenthesis and popping on every closing one; the expression is balanced only if each closing parenthesis finds its partner on the stack top and the stack ends empty.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Matching Parentheses with a Stack'.",
+     "a": "For ((2+3)*(4/2))+2 the two left parentheses are popped in reverse order, proving correct nesting.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Matching Parentheses with a Stack', in plain ASCII form.",
+     "a": "balanced -> every ')' pops a '(' and final stack is empty",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs103.8",
+   "title": "Stack Implementation Using a List",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Stack Implementation Using a List' refers to.",
+     "a": "Python builds a stack on a list whose right end is the TOP: append() plays PUSH, pop() plays POP, len() gives the size, and a helper checks emptiness so a pop from an empty stack reports underflow instead of crashing.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Stack Implementation Using a List'.",
+     "a": "Because append and pop act on the rightmost end, no explicit TOP variable is needed.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Stack Implementation Using a List', in plain ASCII form.",
+     "a": "top element = stack_list[len - 1]",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

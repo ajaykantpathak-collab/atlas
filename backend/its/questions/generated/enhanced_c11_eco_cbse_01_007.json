@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_01_007",
+   "title": "c11_eco_cbse_01_007",
+   "questions": [
+    {
+     "q": "State the approximate share of the modern industrial sector in India's GDP at the time of independence, and name the two industries that dominated this sector.",
+     "a": "The modern industrial sector contributed less than 5% to GDP at independence. Cotton textiles and jute textiles were the two dominant industries. A wrong answer (e.g., \"15-20%\" or naming \"iron and steel\" as dominant) reveals the student confuses the *visibility* of a few large factories with their *aggregate economic weight*, or mistakes the *strategic importance* of steel (TISCO) for its *output share*.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the absence of a capital goods industry made India's industrial growth \"lopsided\" rather than merely \"slow.\"",
+     "a": "\"Slow\" means low growth rate; \"lopsided\" means structural imbalance. Without capital goods industries (producing machine tools, heavy machinery), every expansion of consumer goods industries (textiles, sugar) required importing machinery, creating perpetual foreign exchange dependence and preventing endogenous technological deepening. A wrong answer focusing only on \"low growth rate\" misses the *structural* diagnosis: the economy could not reproduce its own means of production, making industrialisation dependent on British capital goods exports — a designed dependency, not an accidental lag.",
+     "self_check": true
+    },
+    {
+     "q": "Using the data below, calculate the ratio of consumer goods industries to capital goods industries in 1947, and interpret what this ratio implies for industrial self-reliance.\nData: Cotton textiles output = ₹120 crore; Jute textiles = ₹45 crore; Iron & steel (TISCO) = ₹15 crore; Sugar = ₹10 crore; Cement = ₹5 crore; Paper = ₹3 crore; Machine tools = ₹0 crore.",
+     "a": "Consumer goods total = 120+45+10+5+3 = ₹183 crore. Capital goods total = ₹15 crore (steel is intermediate, not machine tools) + ₹0 = ₹15 crore. Ratio = 183:15 ≈ 12.2:1. This extreme ratio implies India could produce cloth and sugar but not the looms, spindles, or crushers to make them — every replacement or expansion required imports. A wrong calculation (e.g., counting steel as capital goods without distinguishing *machine tools* from *raw steel*) misses that TISCO produced pig iron/rails, not the machine tools needed by textile mills.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the regional-industrial map of 1947 (cotton in Bombay-Ahmedabad, jute in Bengal, steel in Jamshedpur) with the resource map (cotton in Deccan, jute in Bengal, iron ore in Chotanagpur). Identify the one major industry whose location *did not* follow raw material proximity, and explain the colonial logic behind this anomaly.",
+     "a": "Cotton textile mills in Bombay-Ahmedabad were located *away* from the main cotton-growing Deccan plateau (though connected by rail), while jute mills in Bengal and steel in Jamshedpur sat on raw materials. The anomaly: Bombay's mills used hydroelectric power (Tata Power, 1910s) and port access for exporting yarn to China/Japan — serving *colonial trade logic* (export-oriented) rather than *industrial logic* (minimising transport cost). A wrong answer citing \"labour availability\" ignores that labour migrated *to* mills; the causality runs from colonial port-infrastructure investment to mill location.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the claim: \"The British developed India's infrastructure (railways, ports, telegraph) which laid the foundation for modern industry.\"",
+     "a": "The claim is partially true but misleading. Railways/ports *physically* enabled raw material extraction (cotton, jute, ore) to ports and finished goods import from Britain. However, infrastructure was *designed* for resource drain: railway freight rates favoured coastal export/import over inter-regional trade; telegraph served military/administrative control. No infrastructure linked industrial clusters to *each other* (e.g., no rail link between Bombay cotton and Jamshedpur steel). A student accepting the claim uncritically confuses *physical asset creation* with *developmental orientation*.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a counterfactual industrial structure for 1947 India that would have been \"balanced\" rather than \"lopsided.\" Specify: (a) two additional capital goods industries needed, (b) one new regional cluster location with justification, (c) ownership change required in jute/steel.",
+     "a": "(a) Machine tools (for textile/engineering) and heavy electrical equipment (for power/industry). (b) A steel-machine tool cluster in Chotanagpur (near iron ore, coal, and TISCO) to create backward linkages. (c) Jute mills: shift from British managing agency control to Indian joint-stock companies; Steel: expand TISCO from a single plant to a multi-plant public-private consortium. A poor answer lists generic \"more factories\" without specifying *capital goods* (reproduction of means of production), *linkages* (forward/backward), or *ownership* (control over reinvestment).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

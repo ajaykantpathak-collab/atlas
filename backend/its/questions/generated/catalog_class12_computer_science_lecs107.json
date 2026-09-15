@@ -1,0 +1,213 @@
+{
+ "catalog": "catalog_class12_computer_science_lecs107",
+ "concepts": [
+  {
+   "id": "lecs107.1",
+   "title": "Mean of a Data Set",
+   "questions": [
+    {
+     "q": "Using the method 'Mean of a Data Set', work with: the fixed constants of the method. Carry the chain through step by step and give the final value of mean.",
+     "a": "101.3333 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Mean of a Data Set' and work with: the fixed constants of the method. Carry the chain through step by step and give the final value of mean.",
+     "a": "101.3333 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Mean of a Data Set' refers to.",
+     "a": "The mean is the plain average of a numeric attribute: add all the values and divide by how many there are; it summarises a whole column of a table in one number but gets distorted by outliers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Mean of a Data Set'.",
+     "a": "The nine student heights [90, 102, 110, 115, 85, 90, 100, 110, 110] give a mean of about 101.33 cm.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Mean of a Data Set', in plain ASCII form.",
+     "a": "mean = total / count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs107.2",
+   "title": "Median Position in Sorted Values",
+   "questions": [
+    {
+     "q": "Using the method 'Median Position in Sorted Values', work with: count = 150. Carry the chain through step by step and give the final value of below_count.",
+     "a": "74.5 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Median Position in Sorted Values' and work with: count = 300. Carry the chain through step by step and give the final value of below_count.",
+     "a": "149.5 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Median Position in Sorted Values' refers to.",
+     "a": "The median is the central value once the data are sorted; with an odd count of n values it sits at position n plus 1 over 2, and with an even count it is the average of the two middle values.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Median Position in Sorted Values'.",
+     "a": "Sorting [90, 102, 110, 115, 85, 90, 100, 110, 110] puts 102 exactly in the fifth of nine positions.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Median Position in Sorted Values', in plain ASCII form.",
+     "a": "mid_slot = (count + 1) / 2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs107.3",
+   "title": "Range between Extremes",
+   "questions": [
+    {
+     "q": "Find the range of the height data whose smallest value is 85 cm and largest is 115 cm.. Use the method 'Range between Extremes'. Work with: largest = 25, smallest = 40. Carry the chain through step by step and give the final value of mid_range.",
+     "a": "32.5 units",
+     "self_check": false
+    },
+    {
+     "q": "Compute the midrange of a data set spanning 85 to 115.. Use the method 'Range between Extremes'. Work with: largest = 24, smallest = 360. Carry the chain through step by step and give the final value of mid_range.",
+     "a": "192 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Range between Extremes' refers to.",
+     "a": "The range measures spread using only the two extreme values: the largest minus the smallest, so a single outlier can inflate it; the midpoint of that span is called the midrange.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Range between Extremes'.",
+     "a": "Heights from 85 cm to 115 cm span a range of 30 cm centred on the midrange 100 cm.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Range between Extremes', in plain ASCII form.",
+     "a": "range = largest - smallest",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs107.4",
+   "title": "Standard Deviation of the Data",
+   "questions": [
+    {
+     "q": "Using the method 'Standard Deviation of the Data', work with: count = 50, sum_sq = 120. Carry the chain through step by step and give the final value of sd.",
+     "a": "1.5492 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Standard Deviation of the Data' and work with: count = 20, sum_sq = 60. Carry the chain through step by step and give the final value of sd.",
+     "a": "1.7321 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Standard Deviation of the Data' refers to.",
+     "a": "Standard deviation measures how widely values stray from the mean: subtract the mean from each value, square the differences, average them, and take the positive square root; a small value means tightly packed data.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Standard Deviation of the Data'.",
+     "a": "The nine heights give squared deviations totalling 938, so the variance is about 104.22 and the standard deviation about 10.21 cm.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Standard Deviation of the Data', in plain ASCII form.",
+     "a": "sd = sqrt(sum_of_squared_deviations / count)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs107.5",
+   "title": "Mode as Highest Frequency",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Mode as Highest Frequency' refers to.",
+     "a": "The mode is the value occurring most often in the data; a set where every value appears once has no mode, and several values tying at the top frequency make the data multi-modal.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Mode as Highest Frequency'.",
+     "a": "In the height data, 110 appears three times, more than any other value, so 110 is the mode.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Mode as Highest Frequency', in plain ASCII form.",
+     "a": "mode -> value with maximum frequency",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs107.6",
+   "title": "Structured and Unstructured Data",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Structured and Unstructured Data' refers to.",
+     "a": "Structured data fits a fixed rows-and-columns layout where each column is an attribute and each row an observation, like the kitchen inventory table; unstructured data, such as newspaper pages, emails or videos, follows no fixed record format.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Structured and Unstructured Data'.",
+     "a": "Summing the Items_in_Inventory column works only because the data are structured.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Structured and Unstructured Data', in plain ASCII form.",
+     "a": "rows x columns with named attributes -> structured",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs107.7",
+   "title": "Metadata: Data about Data",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Metadata: Data about Data' refers to.",
+     "a": "Metadata describes other data rather than carrying the content itself: an email's subject, recipient and attachment list, or an image's size, format and resolution, all help programs organise the underlying data.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Metadata: Data about Data'.",
+     "a": "A photo taken on a phone carries metadata such as image size, JPEG or PNG type and resolution.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Metadata: Data about Data', in plain ASCII form.",
+     "a": "metadata = subject, size, type, resolution of the content",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs107.8",
+   "title": "Data Processing Cycle",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Data Processing Cycle' refers to.",
+     "a": "Raw data becomes decisions through a cycle: collect the data, prepare and enter it, store it on devices such as HDD, SSD or pen drive, process it, and publish the output as reports, tables or charts.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Data Processing Cycle'.",
+     "a": "An ATM withdrawal shows the cycle at work: PIN and amount enter, the system verifies and debits, and a printed slip comes out.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Data Processing Cycle', in plain ASCII form.",
+     "a": "collection -> preparation -> entry -> storage -> processing -> output",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

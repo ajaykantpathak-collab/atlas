@@ -1,0 +1,183 @@
+{
+ "catalog": "catalog_class7_maths_gegp107.json",
+ "concepts": [
+  {
+   "id": "gegp.7.1",
+   "family": "angle_pairs",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "other = 90 - 64"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "other = 180 - 169"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "other = 180 - 11"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rest = 360 - 66 - 117"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "adj = 180 - 36"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "partner = 180 - 35"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "other = 90 - 64"
+   ]
+  },
+  {
+   "id": "gegp.7.2",
+   "family": "angle_pairs",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "other = 90 - 13"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "other = 180 - 83"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "other = 180 - 29"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rest = 360 - 24 - 101"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "adj = 180 - 31"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "partner = 180 - 74"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "gegp.7.3",
+   "family": "angle_pairs",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "other = 90 - 14"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "other = 180 - 91"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "other = 180 - 44"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rest = 360 - 41 - 122"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "adj = 180 - 53"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "partner = 180 - 135"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "other = 90 - 14"
+   ]
+  },
+  {
+   "id": "gegp.7.4",
+   "family": "angle_pairs",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "other = 90 - 63"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "other = 180 - 124"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "other = 180 - 52"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rest = 360 - 37 - 127"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "adj = 180 - 47"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "partner = 180 - 133"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "other = 90 - 63"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_08_007",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_08_007",
+   "title": "c12_chem_cbse_08_007",
+   "questions": [
+    {
+     "q": "Which of the following aldehydes will undergo Cannizzaro reaction and NOT aldol condensation? (i) Propanal (ii) Benzaldehyde (iii) 2-Methylpropanal (iv) Formaldehyde. Justify your selection based on α-hydrogen availability.",
+     "a": "Correct: (ii) Benzaldehyde and (iv) Formaldehyde. Benzaldehyde has no α-carbon bearing hydrogen (the carbon adjacent to carbonyl is part of aromatic ring, sp² hybridised, no α-H). Formaldehyde has no α-carbon at all. Propanal (CH₃CH₂CHO) has α-hydrogens on C-2; 2-methylpropanal ((CH₃)₂CHCHO) has α-hydrogen on the tertiary carbon. WRONG answer reveals: student confuses α-carbon definition — thinks any carbon adjacent counts, but α-H must be on sp³ carbon directly attached to carbonyl carbon. Aromatic aldehydes and formaldehyde lack this.",
+     "self_check": true
+    },
+    {
+     "q": "In the Cannizzaro reaction of benzaldehyde with concentrated NaOH, one molecule is oxidised to benzoate and another reduced to benzyl alcohol. Write the half-reactions for oxidation and reduction, and show that the net reaction is balanced for atoms and charge. Why is concentrated alkali required rather than dilute?",
+     "a": "Oxidation: C₆H₅CHO + 3 OH⁻ → C₆H₅COO⁻ + 2 H₂O + 2 e⁻. Reduction: C₆H₅CHO + H₂O + 2 e⁻ → C₆H₅CH₂OH + OH⁻. Net: 2 C₆H₅CHO + OH⁻ → C₆H₅COO⁻ + C₆H₅CH₂OH. Concentrated alkali provides high [OH⁻] to drive the initial nucleophilic addition (rate-determining) and stabilises the carboxylate product. Dilute alkali gives insufficient [OH⁻] for reasonable rate and equilibrium lies left. WRONG answer reveals: student writes unbalanced half-reactions (missing OH⁻/H₂O) or thinks concentrated alkali is only for \"stronger base\" — misses kinetic role of [OH⁻] in nucleophilic addition step.",
+     "self_check": true
+    },
+    {
+     "q": "Predict the major organic products when a mixture of formaldehyde and benzaldehyde is treated with concentrated NaOH (crossed Cannizzaro). Which aldehyde acts as hydride donor and which as hydride acceptor? Explain using electronic effects.",
+     "a": "Products: methanol (from formaldehyde reduction) and benzoate (from benzaldehyde oxidation). Formaldehyde is the hydride donor (reduced to CH₃OH); benzaldehyde is hydride acceptor (oxidised to C₆H₅COO⁻). Reason: formaldehyde carbonyl carbon is more electrophilic (no electron-donating alkyl/aryl group), so hydroxide adds faster to formaldehyde, forming ⁻OCH₂OH which readily transfers H⁻. Benzaldehyde carbonyl is less electrophilic due to resonance donation from phenyl ring, so it preferentially accepts hydride. WRONG answer reveals: student assumes benzaldehyde is more reactive because \"aromatic aldehydes react faster\" — confuses nucleophilic addition rate with hydride transfer ability. Electronic effect: phenyl donates electron density via resonance, making carbonyl carbon less positive.",
+     "self_check": true
+    },
+    {
+     "q": "Glyoxal (OHC-CHO) undergoes intramolecular Cannizzaro reaction. Write the product and mechanism. Why does this reaction occur readily even though each aldehyde group has an α-hydrogen (on the other carbonyl carbon)?",
+     "a": "Product: glycolic acid (HOCH₂COOH) or its salt. Mechanism: OH⁻ adds to one carbonyl → tetrahedral alkoxide → intramolecular hydride transfer to the second carbonyl → alkoxide of glycolate. The \"α-hydrogen\" in glyoxal is on a carbonyl carbon (sp²), not an sp³ carbon — it is not acidic like true α-H (pKa ~17 vs ~20 for aldehydes). Enolate formation would require deprotonation at carbonyl carbon, which is highly unfavourable. Hence no aldol competition. WRONG answer reveals: student thinks any H on adjacent carbon qualifies as α-H — misses hybridisation requirement. α-H must be on sp³ carbon α to carbonyl; in glyoxal the adjacent carbon is carbonyl (sp²), so no enolisation.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the Cannizzaro reaction of formaldehyde as: 2 HCHO + NaOH → CH₃OH + HCOONa. They claim the reaction is redox-neutral because \"no external oxidant/reductant is used\". Evaluate this statement. Identify the oxidation state changes of carbon in each product.",
+     "a": "Statement is incorrect — it IS a redox reaction (disproportionation). In HCHO, carbonyl carbon oxidation state = 0. In CH₃OH, carbon = -2 (reduction, gain 2 e⁻). In HCOO⁻, carbon = +2 (oxidation, loss 2 e⁻). Net: one carbon reduced by 2, one oxidised by 2 — balanced internally. No external agent needed, but redox occurs. WRONG answer reveals: student equates \"no external reagent\" with \"not redox\". Misunderstands disproportionation definition from c11_chem_cbse_08_007 — same element undergoes both oxidation and reduction. Must calculate oxidation states correctly: C in HCHO: x + 2(+1) + (-2) = 0 → x=0.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory test to distinguish between acetaldehyde (ethanal) and benzaldehyde using only NaOH solution and observation of products. Explain the chemical basis for the difference in observations.",
+     "a": "Add concentrated NaOH to each aldehyde separately, warm gently. Acetaldehyde (has α-H) → aldol condensation → yellow/brown resinous precipitate (3-hydroxybutanal → crotonaldehyde polymer). Benzaldehyde (no α-H) → Cannizzaro → colourless solution of sodium benzoate + benzyl alcohol (distinct odour). Basis: α-H presence determines pathway. Acetaldehyde forms enolate → aldol. Benzaldehyde cannot → hydride transfer. WRONG answer reveals: student suggests Tollens' test (both give silver mirror) or Fehling's (benzaldehyde negative) — misses the point: use NaOH alone to exploit mechanistic divergence. Must know aldol gives coloured polymer, Cannizzaro gives clear solution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

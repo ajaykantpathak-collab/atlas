@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_05_012",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_05_012",
+   "title": "c11_ip_cbse_05_012",
+   "questions": [
+    {
+     "q": "What is the primary purpose of creating a user-defined module in Python when solving a practical problem?",
+     "a": "A user-defined module allows you to group related functions and variables into a separate file (e.g., `stats_utils.py`) so they can be imported and reused in multiple programs without copying code, avoiding name conflicts and improving maintainability. A wrong answer (e.g., \"to make the program run faster\" or \"to avoid using built-in modules\") reveals the student confuses modularity with performance or thinks modules replace standard libraries rather than complement them.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a function that calculates the standard deviation of a list should return the result instead of printing it directly, especially when the function is placed in a user-defined module.",
+     "a": "Returning the value makes the function flexible: the caller can decide to print, store, or further process the result. If the function prints directly, it forces a side effect and cannot be used in expressions (e.g., `total = calculate_std_dev(data) * 2`). A wrong answer (e.g., \"printing is fine because we always want to see the output\") shows the student does not grasp the separation of computation and presentation, a core principle of modular design.",
+     "self_check": true
+    },
+    {
+     "q": "You are writing a function `simulate_trials(data, n)` that uses `random.sample(data, k)` to pick `k` random heights from `data` and returns the proportion of samples where the mean height exceeds 160 cm. Write the function header and the first two lines of its body (import and sample selection).",
+     "a": "```python\nimport random\n\ndef simulate_trials(data, n, k=30):\n    count = 0\n    for _ in range(n):\n        sample = random.sample(data, k)\n        # ... further steps\n```\nA wrong answer that writes `from random import sample` inside the function or uses `random.choice` in a loop reveals confusion about import placement (should be at module top) and the difference between sampling with and without replacement.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two approaches for organizing a program that computes mean, median, and mode: (A) one function `compute_all_stats(data)` that returns a tuple of three values, vs. (B) three separate functions `mean(data)`, `median(data)`, `mode(data)`. Which approach better supports code reuse and testing? Justify your answer.",
+     "a": "Approach (B) is better for reuse and testing because each function has a single responsibility, can be imported individually, and can be unit-tested independently. Approach (A) forces the caller to compute all three even if only one is needed, and makes testing harder because a failure in one statistic breaks the whole tuple. A wrong answer favoring (A) because \"it's fewer lines of code\" indicates the student values brevity over modularity and does not understand the Single Responsibility Principle.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes a module `geometry.py` with a function `circle_area(radius)` that uses `math.pi`. In the main script, they write `import math` and `from geometry import circle_area`. They then call `circle_area(5)` and get a `NameError: name 'math' is not defined` inside `geometry.py`. Explain why this error occurs and how to fix it without changing the main script.",
+     "a": "The error occurs because `geometry.py` uses `math.pi` but does not import the `math` module itself; modules have their own namespace, so `import math` in the main script does not make `math` available inside `geometry.py`. The fix is to add `import math` at the top of `geometry.py`. A wrong answer that suggests adding `global math` or moving the import to the main script shows the student misunderstands module-level scope and the independence of module namespaces.",
+     "self_check": true
+    },
+    {
+     "q": "Design a small practical problem (2-3 sentences) that requires at least two user-defined functions, one built-in module (`math` or `random`), and one user-defined module. Describe the functions, the module structure, and the data flow.",
+     "a": "Problem: \"Calculate the Euclidean distance between two points (x1, y1) and (x2, y2), then generate 10 random points and find the point closest to the origin.\"  \nModule `distance.py`: `def euclidean_distance(p1, p2): ...` using `math.hypot`.  \nMain script: imports `distance`, `random`; generates points with `random.uniform`; calls `distance.euclidean_distance` in a loop.  \nA poor answer that puts everything in one function or omits the user-defined module reveals the student cannot yet decompose a problem into a modular architecture.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

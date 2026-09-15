@@ -1,0 +1,215 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 6,
+ "chapter_title": "Constructions and Tilings",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gegp206.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gegp2.6.1",
+   "title": "Geometric Constructions with Instruments",
+   "section": "Constructions and Tilings",
+   "definition": "Precise figures are built with ruler, compass and set square: arcs copy lengths, perpendiculars make right angles, and each step follows from a property, so the finished figure carries its own proof.",
+   "formula": "",
+   "key_idea": "Construction is reasoning made visible: every arc is an argument drawn in pencil.",
+   "textbook_ref": "gegp206.txt, Constructions and Tilings",
+   "question_patterns": [
+    "construct a line perpendicular to a given line through a point",
+    "copy an angle using ruler and compass",
+    "which instruments are needed for the given construction",
+    "why do arcs guarantee exact copies of lengths",
+    "construct a rectangle with given sides",
+    "list the steps of the construction done in class"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-checking, then conclude."
+    }
+   ]
+  },
+  {
+   "id": "gegp2.6.2",
+   "title": "Tilings: Shapes that Cover the Floor",
+   "section": "Tilings",
+   "definition": "A tiling covers a surface with no gaps and no overlaps; some shapes tile beautifully, squares and equilateral triangles and regular hexagons fit around every point, while the regular pentagon famously refuses.",
+   "formula": "",
+   "key_idea": "Tiling is angle arithmetic at every point: the angles meeting at a corner must total a full 360 degrees.",
+   "textbook_ref": "gegp206.txt, Tilings",
+   "question_patterns": [
+    "which regular shapes tile the plane without gaps",
+    "why does a regular pentagon fail to tile",
+    "check the angles meeting at a point in a tiling",
+    "design your own tiling with two shapes",
+    "find tiling patterns on floors around you",
+    "what angles must meet at every point of a tiling"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  },
+  {
+   "id": "gegp2.6.3",
+   "title": "Angles and Parallel Lines in Constructions",
+   "section": "Angles in constructions",
+   "definition": "Constructions lean on angle facts: copying an angle preserves its size, constructing a parallel line uses equal corresponding angles, and checking a drawn figure means re-measuring the angles the construction promised.",
+   "formula": "",
+   "key_idea": "Equal angles travel along constructions: copying and parallels both depend on keeping an angle exactly.",
+   "textbook_ref": "gegp206.txt, Angles in constructions",
+   "question_patterns": [
+    "construct a line parallel to a given line through a point",
+    "copy a given angle at a new point",
+    "which angle pairs did your construction use",
+    "check whether the drawn lines are truly parallel",
+    "construct two lines that must meet at 60 degrees",
+    "explain how equal angles make parallel lines"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-checking, then conclude."
+    }
+   ]
+  },
+  {
+   "id": "gegp2.6.4",
+   "title": "Checking Constructions by Properties",
+   "section": "Checking constructions",
+   "definition": "A construction is finished only when its properties are verified: sides measured, corners tested for right angles, parallelism checked with a set square, because instruments drift and properties do not.",
+   "formula": "",
+   "key_idea": "Properties are the examiner: measure the finished figure against the definition before calling it done.",
+   "textbook_ref": "gegp206.txt, Checking constructions",
+   "question_patterns": [
+    "verify that your constructed rectangle has equal opposite sides",
+    "check the right angles of your constructed square",
+    "what properties must the constructed figure satisfy",
+    "measure the angles of your tiling at a corner",
+    "find and fix the error in a classmate's construction",
+    "write the property checklist for your construction"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gegp206.txt",
+   "concept": "gegp2.6.1",
+   "question_type": "verify_property",
+   "question_pattern": "construct a line perpendicular to a given line through a point.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the rule or definition",
+     "explain": "Say the rule in your own words."
+    },
+    {
+     "step": 2,
+     "action": "show it on an example",
+     "explain": "Work it out on one small example from the chapter."
+    },
+    {
+     "step": 3,
+     "action": "check the answer",
+     "explain": "Verify by reversing or re-checking, then conclude."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gegp206.txt",
+   "concept": "gegp2.6.2",
+   "question_type": "verify_property",
+   "question_pattern": "which regular shapes tile the plane without gaps?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the figure or data",
+     "explain": "Note what the figure, table or diagram shows."
+    },
+    {
+     "step": 2,
+     "action": "count or compare",
+     "explain": "Count the values or compare them carefully."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the pattern or conclusion that emerges."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gegp206.txt, Figure it Out",
+   "questions": [
+    "Construct a line perpendicular to a given line through a point.",
+    "Which regular shapes tile the plane without gaps?",
+    "Copy a given angle at a new point using compass.",
+    "Why does a regular pentagon fail to tile?",
+    "Write the property checklist for your constructed rectangle."
+   ]
+  }
+ ]
+}

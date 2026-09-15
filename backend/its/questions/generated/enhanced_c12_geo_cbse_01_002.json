@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_01_002",
+   "title": "c12_geo_cbse_01_002",
+   "questions": [
+    {
+     "q": "Define \"naturalisation of humans\" and \"humanisation of nature\" in one sentence each, using the terminology of environmental determinism and possibilism respectively.",
+     "a": "Naturalisation of humans is the state where primitive societies with minimal technology adapt to and worship nature, exemplifying environmental determinism. Humanisation of nature is the process where technologically advanced societies modify the physical environment to create cultural landscapes, exemplifying possibilism. A wrong answer that swaps the definitions or omits the technology-dependence link reveals confusion about the causal direction: students often think \"humanisation\" means humans becoming more natural, when it actually means nature becoming more human-modified.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the understanding of natural laws (e.g., friction, heat, DNA, aerodynamics) is a prerequisite for technology to \"loosen the shackles of environment on human beings,\" as stated in NCERT.",
+     "a": "Technology is applied knowledge of natural laws; without understanding friction and heat, fire cannot be harnessed; without DNA knowledge, genetic diseases cannot be treated; without aerodynamics, flight is impossible. Each technological leap that expands human freedom (possibilism) originates from decoding a natural constraint. A wrong answer that treats technology as magic or separate from science reveals the misconception that humanisation of nature is arbitrary — it is actually nature's laws being used to modify nature itself.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each scenario as naturalisation, humanisation, or neo-determinism:\n(a) A Gond tribal family in Bastar uses only forest herbs for medicine.\n(b) Delhi Metro tunnels under the Yamuna floodplain with flood-gates.\n(c) Kerala's Kudumbashree women practice organic farming using traditional seeds and rainwater harvesting.\n(d) A Himalayan hydropower project diverts 90% of river flow, drying downstream springs.",
+     "a": "(a) Naturalisation — direct dependence, low technology, nature as provider. (b) Neo-determinism — technology modifies nature (tunnel) but respects ecological \"red signal\" (flood-gates for floodplain). (c) Neo-determinism — humanised agriculture within ecological limits (organic, water-harvesting). (d) Unsustainable humanisation violating neo-determinism — ignores \"red signal\" (minimum ecological flow), causing downstream degradation. Wrong classification of (b) or (c) as pure possibilism reveals failure to grasp that neo-determinism = technology WITH ecological constraints, not technology alone.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cultural landscapes created by Benda's shifting cultivation in Abujh Maad and Kari's glass-domed university campus in Trondheim. What does each landscape reveal about the society's technology level and relationship with nature?",
+     "a": "Benda's landscape: temporary forest clearings, ash-fertilised patches, no permanent structures — reflects low technology, direct dependence, nature as \"Mother,\" society adapts to nature's cycles. Kari's landscape: glass dome controlling temperature, artificial lighting, imported tropical fruits, air travel — reflects high technology, nature as resource to be managed, society creates micro-environments independent of external climate. A weak answer that only lists physical differences misses the geographical reasoning: cultural landscape is the visible imprint of the society's technology-nature relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Griffith Taylor's neo-determinism (stop-and-go determinism) is the only viable framework for sustainable development in the 21st century.\" Use the examples of groundwater depletion in Punjab and the Chipko movement in Uttarakhand.",
+     "a": "Valid evaluation: Punjab's Green Revolution (pure possibilism — high-yield seeds, tube-wells ignoring aquifer limits) hit the \"red signal\" of groundwater collapse, proving absolute freedom fails. Chipko movement (villagers hugging trees to stop logging) recognised the \"red signal\" of slope destabilisation and acted within limits — neo-determinism in practice. However, \"only viable\" is too strong: some indigenous systems (e.g., Apatani wet-rice cultivation in Arunachal) achieved sustainability without explicit neo-determinist theory. Wrong answers either dismiss neo-determinism as outdated or treat it as a rigid law rather than a heuristic for balancing development and ecology.",
+     "self_check": true
+    },
+    {
+     "q": "Design a land-use plan for a hypothetical 500-hectare region in the Western Ghats foothills that exemplifies neo-determinism. Specify zones for housing, agriculture, forest, and water bodies with ecological justifications for each boundary.",
+     "a": "A strong plan: (1) Core forest zone (200 ha, no human entry) — protects biodiversity, watershed, slope stability (respects \"red signal\" of fragmentation). (2) Buffer agroforestry zone (150 ha) — shade-grown coffee, native trees, soil conservation (humanised but within carrying capacity). (3) Settlement cluster (50 ha) — concentrated housing with rainwater harvesting, solar, waste recycling (minimises footprint). (4) Wetland/paddy zone (100 ha) — traditional varieties, gravity-fed irrigation from protected streams (uses nature's gradient). (5) Corridor (buffer strips) connecting to adjacent reserves. Poor plans either maximise \"development\" (clearing forest for monoculture) or impose total exclusion (ignoring human needs) — both violate neo-determinism's middle path.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

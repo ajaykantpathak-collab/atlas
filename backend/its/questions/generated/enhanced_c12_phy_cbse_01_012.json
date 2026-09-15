@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_01_012",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_01_012",
+   "title": "c12_phy_cbse_01_012",
+   "questions": [
+    {
+     "q": "A thin rod of length L = 20 cm carries a total charge Q = 5 μC uniformly distributed along its length. What is the linear charge density λ, and what are its SI units?",
+     "a": "λ = Q/L = (5 × 10⁻⁶ C) / (0.20 m) = 2.5 × 10⁻⁵ C/m. SI unit: C/m. A wrong answer (e.g., giving λ in C or C/m²) reveals the student confuses linear density with total charge or surface density, indicating they haven't internalized that λ is charge per unit length, not total charge.",
+     "self_check": true
+    },
+    {
+     "q": "Why can we treat a macroscopic charged object as a continuous charge distribution when we know charge is quantized (q = ne)? Explain the physical reasoning and the condition under which this approximation is valid.",
+     "a": "At macroscopic scales, the elementary charge e = 1.6 × 10⁻¹⁹ C is negligible compared to typical charges (μC to C). A 1 μC charge contains ~6 × 10¹² electrons, so the discrete \"graininess\" is lost and the distribution appears continuous. The approximation is valid when the number of elementary charges in the considered element is very large (n ≫ 1). A wrong answer stating \"charge is not quantized at macro scale\" or \"quantization doesn't apply to conductors\" reveals a fundamental misunderstanding of the quantization principle versus the continuum approximation.",
+     "self_check": true
+    },
+    {
+     "q": "A semicircular wire of radius R = 10 cm carries a uniform linear charge density λ = 2 μC/m. Calculate the magnitude of the electric field at the centre of the semicircle. (Use 1/4πε₀ = 9 × 10⁹ N·m²/C²)",
+     "a": "Given: λ = 2 × 10⁻⁶ C/m, R = 0.10 m. Consider element dq = λ(R dθ) at angle θ. Field magnitude dE = (1/4πε₀)(dq/R²) = (1/4πε₀)(λ dθ/R). By symmetry, vertical components cancel; horizontal components add: dE_x = dE cosθ. Integrate from θ = 0 to π: E = ∫ dE cosθ = (λ/4πε₀R) ∫₀^π cosθ dθ = (λ/4πε₀R)[sinθ]₀^π = 0. Wait — cosθ integral from 0 to π is zero! Correct symmetry: For semicircle, field is along y-axis (vertical). dE_y = dE sinθ. E = (λ/4πε₀R) ∫₀^π sinθ dθ = (λ/4πε₀R)[-cosθ]₀^π = (λ/4πε₀R)(2) = 2λ/(4πε₀R). Substitute: E = 2(2×10⁻⁶)/(4π×8.85×10⁻¹²×0.10) ≈ 3.6 × 10⁵ N/C directed toward the centre (if λ positive, field points radially inward). A wrong answer with cosθ integration or missing factor of 2 reveals incorrect symmetry analysis or integration limits.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the electric field at a point on the axis of a uniformly charged ring (radius R, total charge Q) and a uniformly charged disk (radius R, total charge Q, surface density σ = Q/πR²). At a distance x = R from the centre along the axis, which produces a stronger field? Explain without full calculation.",
+     "a": "Ring: E_ring = (1/4πε₀)(Qx/(x²+R²)^(3/2)). At x=R: E_ring = (1/4πε₀)(QR/(2R²)^(3/2)) = (1/4πε₀)(Q/(2√2 R²)). Disk: E_disk = (σ/2ε₀)[1 - x/√(x²+R²)]. At x=R: E_disk = (Q/2πε₀R²)[1 - 1/√2] = (Q/2πε₀R²)(0.293). Ratio E_disk/E_ring = [0.293/(2π)] / [1/(2√2 π)] = 0.293 × √2 ≈ 0.414. So ring field is stronger at x=R. A wrong answer claiming disk is stronger reveals confusion: the disk has more charge near the axis, but the ring's charge is all at distance √2 R, while disk elements range from R to √2 R. The student must analyze distance scaling, not just total charge.",
+     "self_check": true
+    },
+    {
+     "q": "A student sets up the integral for the electric field at a point P on the perpendicular bisector of a finite line charge of length L, linear density λ, at distance y from the line. They write: E = (1/4πε₀) ∫ (λ dx / (x²+y²)) from -L/2 to L/2. Identify the error and correct it.",
+     "a": "The student forgot the vector nature: the field from each element has both x and y components. By symmetry, x-components cancel; only y-components add. The correct integral is E_y = (1/4πε₀) ∫ (λ dx / (x²+y²)) · (y/√(x²+y²)) = (λy/4πε₀) ∫ dx/(x²+y²)^(3/2). The error is omitting the cosθ = y/r factor. A student making this error treats electric field as a scalar, confusing it with potential (which would be a scalar integral without the directional factor).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate that a continuous charge distribution can be approximated by discrete point charges. Describe the setup, what you would measure, and how you would show the approximation improves as the number of discrete charges increases.",
+     "a": "Setup: Use a long plastic ruler (insulator) rubbed with wool to create a roughly uniform line charge. Place small pieces of aluminum foil (test charges) at various distances along the perpendicular bisector. Measure deflection angle θ of foil pieces (using a protractor) as a proxy for electric field. Repeat with: (a) ruler as continuous distribution; (b) 2 charged rods at ends; (c) 4 charged rods spaced evenly; (d) 8 charged rods. Plot E vs. number of discrete elements. As N increases, the discrete approximation converges to the continuous result. A poor answer suggests using a conductor (charge redistributes) or measuring force directly without a test charge, showing misunderstanding of charge distribution on insulators vs conductors and the need for a test charge to measure field.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

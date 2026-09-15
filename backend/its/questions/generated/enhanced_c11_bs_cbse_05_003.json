@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_05_003",
+   "title": "c11_bs_cbse_05_003",
+   "questions": [
+    {
+     "q": "A student states: \"Amazon is a B2C company because it sells to consumers.\" Is this statement fully accurate? Explain why or why not in 2-3 sentences.",
+     "a": "The statement is incomplete. Amazon operates as B2C when selling directly to consumers (Amazon Retail), but simultaneously functions as B2B through Amazon Business (selling bulk supplies to firms) and as a C2C platform via Amazon Marketplace where third-party sellers (individuals or small businesses) sell to consumers. A single platform can host multiple models; classification applies to each transaction, not the company label. A wrong answer reveals the student conflates the firm's primary identity with the transaction-level classification.",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturing firm uses its intranet to let the marketing department send customised order specifications directly to the production floor, and the HR department conducts employee training via an internal e-learning portal. Which scope model(s) do these activities represent, and why is the internet NOT used for them?",
+     "a": "These are Intra-B commerce activities because both transacting parties (marketing ↔ production, HR ↔ employees) are within the same firm. The intranet (a private, secure network) is used instead of the public internet to protect proprietary data (design specs, employee records) and enable real-time, high-bandwidth coordination without external exposure. A wrong answer suggests the student thinks any electronic communication is \"e-commerce\" or that B2B applies whenever departments interact, missing the internal vs external distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul sells his used smartphone to Priya on OLX. They use OLX's chat to negotiate, but Rahul insists on cash payment at pickup while Priya prefers UPI. Identify the e-business model and explain TWO platform-provided mechanisms that reduce trust risk in this C2C transaction.",
+     "a": "This is C2C commerce — both origin and destination are consumers with no established market mechanism for used phones. Two trust mechanisms: (1) User ratings/reviews on OLX let Priya see Rahul's transaction history (like eBay's seller ratings in NCERT), and (2) OLX's \"Verified User\" badge or in-app payment options (like PayPal in NCERT) act as payment intermediaries holding funds until delivery confirmation. A wrong answer that only names \"C2C\" without mechanisms shows superficial recall; missing the intermediary role reveals ignorance of how platforms solve anonymity risk.",
+     "self_check": true
+    },
+    {
+     "q": "Compare B2B and Intra-B commerce on THREE dimensions: (a) transacting parties, (b) network typically used, (c) primary business objective. Present as a structured comparison.",
+     "a": "(a) Parties: B2B — two separate firms (e.g., auto maker ↔ component supplier); Intra-B — departments/employees within ONE firm (e.g., marketing ↔ production). (b) Network: B2B — internet (or private EDI/VPN links); Intra-B — intranet (firm's private internal network). (c) Objective: B2B — procurement, supply chain coordination, distribution management; Intra-B — flexible manufacturing, inventory/cash management, HR processes, faster internal decisions. A wrong answer that swaps networks or objectives shows confusion between inter-firm and intra-firm electronic integration.",
+     "self_check": true
+    },
+    {
+     "q": "\"C2C commerce is just informal second-hand sales; it has no real economic significance.\" Evaluate this claim using evidence from the NCERT text and real-world platform economics.",
+     "a": "The claim is false. NCERT highlights C2C's role for goods with \"no established market mechanism\" (used books, clothes), enabling global search via internet scale. Platforms like eBay create economic value by solving trust via rating systems and payment intermediaries (PayPal), reducing transaction costs. Real-world: C2C platforms generate billions in GMV, enable micro-entrepreneurship, and extend product lifecycles (circular economy). A wrong answer accepting the claim ignores the platform's institutional role in creating market thickness and security where none existed.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical startup that intentionally operates in ALL FOUR models (B2B, B2C, Intra-B, C2C) from day one. Describe one specific transaction for each model, naming the parties and the platform/network used.",
+     "a": "Example: \"AgriConnect\" — a platform for farmers and buyers. (B2B) Farmer cooperative sells bulk grain to food processor via AgriConnect's wholesale portal (internet). (B2C) Urban consumer buys farm-fresh veggie box via AgriConnect retail app (internet). (Intra-B) AgriConnect's logistics team uses intranet dashboard to reroute delivery trucks based on real-time warehouse stock (intranet). (C2C) Home gardener sells surplus tomatoes to neighbor via AgriConnect's \"Local Harvest\" community board with UPI escrow (internet platform). A poor answer lists four separate businesses or misses the network distinction (intranet for Intra-B).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

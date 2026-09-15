@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_02_010",
+   "title": "c11_biotech_cbse_02_010",
+   "questions": [
+    {
+     "q": "What are the two subunits of a eukaryotic 80S ribosome and their respective Svedberg values?",
+     "a": "The eukaryotic 80S ribosome consists of a large 60S subunit and a small 40S subunit. A wrong answer (e.g., 50S and 30S) reveals confusion between prokaryotic and eukaryotic ribosome nomenclature, indicating the student has not internalized the fundamental structural distinction that is central to antibiotic targeting and endosymbiotic evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Why do mitochondrial ribosomes (70S) resemble prokaryotic ribosomes rather than the cytoplasmic 80S ribosomes of the same eukaryotic cell?",
+     "a": "Mitochondria originated from an endosymbiotic alpha-proteobacterium, retaining their own genome and protein synthesis machinery (70S ribosomes) similar to their bacterial ancestor. A wrong answer (e.g., \"mitochondria are prokaryotic\") reveals a misunderstanding of endosymbiotic theory — mitochondria are organelles within eukaryotes, not independent prokaryotes, but their ribosomes reflect evolutionary history.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher treats a eukaryotic cell homogenate with detergent to dissolve membranes, then centrifuges the lysate. The supernatant contains free ribosomes; the pellet contains membrane-bound ribosomes. If the researcher adds puromycin (which causes premature chain release) before fractionation, how will the distribution of ribosomes change?",
+     "a": "Puromycin releases nascent chains from ribosomes, causing bound ribosomes to detach from the ER membrane. After detergent treatment and centrifugation, more ribosomes will appear in the supernatant (free) and fewer in the pellet. A wrong answer (no change) reveals the student does not understand that ribosome binding to ER is mediated by the nascent polypeptide translocon interaction, not a permanent ribosome-membrane attachment.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ultimate destinations of proteins synthesized on free ribosomes versus those synthesized on ER-bound ribosomes in a eukaryotic cell.",
+     "a": "Free ribosome proteins: nucleus, mitochondria, chloroplasts, peroxisomes, cytosol. Bound ribosome proteins: ER lumen, Golgi, lysosomes, secretory vesicles, plasma membrane, extracellular space. A wrong answer (e.g., \"both go to Golgi\") reveals failure to grasp the signal hypothesis — the presence/absence of an N-terminal signal sequence determines co-translational translocation into the ER, which is the gateway to the secretory pathway.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Ribosomes are the only non-membranous organelles in the cell.\" Provide evidence for or against.",
+     "a": "The statement is false. Other non-membranous organelles include centrioles, cytoskeleton (microtubules, microfilaments), nucleolus, and proteasomes. Ribosomes are unique in being ribonucleoprotein particles dedicated to translation, but not unique in lacking a membrane. A wrong answer (agreement) reveals a narrow view of organelle classification — students often memorize \"ribosomes have no membrane\" without surveying other membraneless structures.",
+     "self_check": true
+    },
+    {
+     "q": "Design an experiment using density gradient centrifugation to separate 70S and 80S ribosomes from a mixed sample of prokaryotic and eukaryotic cell lysates. Specify the gradient medium, centrifugation parameters, and how you would identify each fraction.",
+     "a": "Use a 10-30% sucrose gradient, ultracentrifuge at 100,000 × g for 16 hours at 4°C. Fractionate from top to bottom; monitor absorbance at 260 nm (rRNA). 70S ribosomes will band higher (lower density) than 80S ribosomes. Confirm by SDS-PAGE of ribosomal proteins and rRNA electrophoresis. A poor answer (e.g., \"use a centrifuge\") reveals ignorance of the physical basis of Svedberg separation — that S value depends on mass, shape, and density, requiring a density gradient for resolution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

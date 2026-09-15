@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch2_10",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch2_10",
+   "title": "c9_bio_ch2_10",
+   "questions": [
+    {
+     "q": "Name the three structural classifications of joints based on the connective tissue binding the bones, and give one example of each from the human body.",
+     "a": "The three structural classes are: (1) Fibrous joints — bones united by dense fibrous connective tissue, e.g., sutures of the skull; (2) Cartilaginous joints — bones united by cartilage, e.g., intervertebral discs (symphysis) or epiphyseal plate (synchondrosis); (3) Synovial joints — bones separated by a synovial cavity, e.g., knee joint. A wrong answer (e.g., listing \"hinge, ball-and-socket, pivot\" as structural classes) reveals confusion between structural classification (tissue type) and functional/sub-classification (movement type) — a common board-exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the sutures of the skull are classified as synarthroses, while the intervertebral joints are amphiarthroses, linking the structural tissue to the functional outcome.",
+     "a": "Sutures are fibrous joints where dense collagen fibers tightly interlock skull bones, permitting virtually no movement (synarthrosis) — essential for brain protection. Intervertebral joints are cartilaginous (symphyses) with fibrocartilage discs that compress slightly, allowing limited gliding and compression (amphiarthrosis) — enabling spinal flexibility while bearing weight. A wrong answer that only names the functional terms without connecting the tissue properties (collagen vs. fibrocartilage) to the degree of movement shows rote memorization without structural-functional reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "A student injures their knee during a football match. The doctor suspects a torn anterior cruciate ligament (ACL). Identify the structural class of the knee joint, name the specific synovial sub-type, and explain how the ACL contributes to the joint's stability during the movement it permits.",
+     "a": "Step 1: The knee is a synovial joint (fluid-filled cavity). Step 2: It is a modified hinge joint (allows flexion/extension + slight rotation when flexed). Step 3: The ACL runs from the anterior tibial plateau to the posterior femoral condyle. Step 4: During extension, it prevents anterior translation of the tibia on the femur; during rotational movements (e.g., pivoting), it resists excessive internal rotation. Step 5: A torn ACL destabilizes the joint, causing \"giving way\" during weight-bearing pivoting. A wrong answer that calls the knee a simple hinge or omits the ACL's rotational restraint reveals incomplete understanding of synovial sub-types and ligament function.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the range of motion at the atlantoaxial joint (C1-C2) and the carpometacarpal joint of the thumb. Classify each synovial sub-type, and analyze how the shape of the articular surfaces dictates the specific movements possible.",
+     "a": "Atlantoaxial joint = pivot joint (dens of axis rotates within atlas ring) → permits only rotational movement (shaking head \"no\"). Carpometacarpal joint of thumb = saddle joint (concave-convex surfaces reciprocally fit) → permits flexion/extension, abduction/adduction, and circumduction (opposition). The pivot's cylindrical surface constrains motion to one axis; the saddle's dual curvature allows two axes plus combined circumduction. A wrong answer that lists movements without linking surface geometry to degrees of freedom fails the board's \"structure-function\" requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"All synovial joints are freely movable (diarthroses), therefore the sutures of the skull cannot be synovial joints.\" Is the reasoning valid? Justify using definitions of structural vs. functional classification.",
+     "a": "Yes, the reasoning is valid. Structural classification depends on the connecting material (fibrous, cartilage, synovial cavity); functional classification depends on degree of movement (synarthrosis, amphiarthrosis, diarthrosis). All synovial joints are diarthroses by definition (they have a cavity allowing free movement). Sutures are structurally fibrous (no cavity) and functionally synarthroses. The statement correctly uses the definitional link: synovial ⇒ diarthrosis. A wrong answer that says \"sutures are immovable so they are not synovial\" without distinguishing the two classification systems confuses correlation with definition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom activity using only your own body (no models) to demonstrate the six types of synovial joints. For each type, name the joint, perform the movement, and state the number of axes of motion.",
+     "a": "A good answer lists: (1) Ball-and-socket — shoulder/hip — circumduction — 3 axes; (2) Hinge — elbow/knee — flexion/extension — 1 axis; (3) Pivot — atlantoaxial (neck rotation) — 1 axis; (4) Condyloid — wrist (radiocarpal) — flexion/extension, abduction/adduction — 2 axes; (5) Saddle — thumb base — opposition — 2 axes; (6) Gliding — intercarpals/intertarsals — sliding — non-axial/limited. A poor answer confuses condyloid with saddle, omits axes, or uses non-synovial joints (e.g., skull sutures), showing inability to map joint shape to movement repertoire.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_18_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_18_012",
+   "title": "c11_eng_w_cbse_18_012",
+   "questions": [
+    {
+     "q": "What is the difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal comprehension question asks for information explicitly stated in the text (e.g., \"How tall was the banyan tree?\"). An inferential comprehension question requires the reader to deduce meaning not directly stated by combining textual clues (e.g., \"Why does the poet describe the felling as a 'slaughter'?\"). A wrong answer that defines both as \"questions about the text\" reveals the student cannot distinguish between surface retrieval and deeper reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "In the poem, the line \"Trees are sacred my grandmother used to say\" appears. Is the question \"What did the grandmother believe about trees?\" literal or inferential? Explain your reasoning.",
+     "a": "This is a literal question because the answer is directly stated in the line: the grandmother believed trees are sacred. A student who labels it inferential may confuse the presence of a character's belief (which is explicitly reported) with the poet's implied attitude (which would be inferential). The error shows difficulty separating direct statements from implied meanings.",
+     "self_check": true
+    },
+    {
+     "q": "The poem states: \"The banyan tree was three times as tall as our house / Its trunk had a circumference of fifty feet.\" A question asks: \"Calculate the approximate height of the house if the tree was 60 feet tall.\" Show the steps to answer this literal question.",
+     "a": "Step 1: Identify the given relationship: tree height = 3 × house height. Step 2: Note the tree height given in the question (60 feet). Step 3: Divide tree height by 3: 60 ÷ 3 = 20 feet. Step 4: State the answer: the house was approximately 20 feet tall. A wrong answer (e.g., multiplying instead of dividing) reveals the student cannot translate a literal textual relationship into a simple calculation.",
+     "self_check": true
+    },
+    {
+     "q": "The poet writes: \"We watched in terror and fascination this slaughter / As a raw mythology revealed to us its age.\" Why does the poet use the word \"slaughter\" instead of \"cutting\" or \"felling\"? Provide an inferential answer with two pieces of textual evidence.",
+     "a": "The word \"slaughter\" implies violent, cruel killing of a living being, not just a tree. Evidence 1: The tree is described as having \"rings of two hundred years\" and roots \"deeper than all our lives,\" giving it a life-like, ancient presence. Evidence 2: The grandmother's view that \"Felling them is a crime\" frames the act as a moral violation. Together, these suggest the poet sees the tree as a living entity being murdered. A weak answer that only cites the dictionary meaning of \"slaughter\" without textual support shows inability to anchor inference in the poem.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following student answer to the inferential question \"What does the phrase 'grows and seethes in one's dreams' suggest about the poet's state of mind?\" \nStudent answer: \"It means the poet dreams about the tree growing and moving angrily.\"\nIs this answer sufficient for a Class 11 board exam? Justify your evaluation.",
+     "a": "No, the answer is insufficient. It only paraphrases the literal imagery (\"grows and seethes\") without explaining the psychological implication. A board-level answer must infer that \"seethes\" conveys suppressed anger/guilt, \"grows\" shows the memory's persistence, and the dream setting indicates unresolved trauma. The student's answer remains at literal level, missing the inferential leap to the poet's haunted conscience. This reveals a common gap: students often restate poetic language instead of interpreting its emotional significance.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own inferential question based on the poem's final stanza (\"Where there are no trees except the one / Which grows and seethes in one's dreams...\") and provide a model answer using the PEEL structure.",
+     "a": "Question: \"How does the contrast between Bombay's treeless reality and the dream-tree reflect the poem's central concern?\" \nModel PEEL answer: Point: The contrast highlights the irreversible loss of nature and the poet's psychological displacement. Evidence: The poem states \"Where there are no trees except the one / Which grows and seethes in one's dreams.\" Explanation: The physical absence of trees in the urban metropolis is compensated by a mental tree that \"seethes\" with unresolved emotion, showing that environmental destruction haunts the human psyche. Link: This reinforces the theme that ecological violence leaves lasting scars on memory and identity. A poor answer would only describe the two settings without connecting them to the theme.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

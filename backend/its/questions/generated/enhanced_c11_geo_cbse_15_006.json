@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_15_006",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_15_006",
+   "title": "c11_geo_cbse_15_006",
+   "questions": [
+    {
+     "q": "Define in-situ conservation and give two Indian examples from the protected area network.",
+     "a": "In-situ conservation is the on-site protection of genetic resources in natural populations of plant or animal species within their native ecosystems. Indian examples: (1) Jim Corbett National Park (Uttarakhand) protecting Bengal tiger and its prey base in the Terai ecosystem; (2) Gulf of Mannar Biosphere Reserve (Tamil Nadu) conserving marine biodiversity including dugongs and coral reefs. A wrong answer that lists a zoo or botanical garden reveals confusion between on-site and off-site conservation; listing only a species name without the protected area shows inability to link species to its conservation framework.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why ex-situ conservation is necessary even when a comprehensive network of national parks and wildlife sanctuaries exists.",
+     "a": "Ex-situ conservation acts as an insurance policy against stochastic extinction events (disease, poaching, climate extremes) that can wipe out small, isolated in-situ populations; it enables genetic management (maintaining heterozygosity, avoiding inbreeding depression) impossible in fragmented wild habitats; it supports reintroduction programmes by providing founder individuals (e.g., pygmy hog bred at Durrell Wildlife Conservation Trust and released in Manas); and it preserves genetic material of species already extinct in the wild (e.g., seeds of critically endangered plants in the National Gene Bank, New Delhi). A student who says \"ex-situ is only for education\" misses its critical role in demographic and genetic rescue.",
+     "self_check": true
+    },
+    {
+     "q": "A conservation biologist wants to save the Great Indian Bustard (Ardeotis nigriceps), now down to ~150 individuals in Rajasthan and Gujarat. The species requires vast undisturbed grasslands, has low reproductive rate, and faces mortality from power-line collisions. Recommend whether in-situ, ex-situ, or a combination is appropriate, justifying each step.",
+     "a": "Step 1: Assess population viability — <150 individuals with low recruitment indicates high extinction risk; in-situ alone insufficient. Step 2: Identify threats — habitat loss (agriculture, infrastructure) and power-line collisions are immediate; in-situ habitat protection (declaring critical habitat, underground cabling) is essential but slow. Step 3: Determine ex-situ role — captive breeding (ex-situ) at the Great Indian Bustard Conservation Breeding Centre (Rajasthan) can produce a genetically managed insurance population. Step 4: Plan integration — captive-bred individuals to be released into secured in-situ habitats (soft release with predator training). Step 5: Conclusion — combined approach mandatory: in-situ for ecosystem processes and long-term survival, ex-situ for demographic boost and genetic preservation. A wrong answer choosing only one method fails to address the multi-faceted threat syndrome.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the genetic consequences of conserving a species solely through a single large national park (in-situ) versus solely through a zoo-based captive breeding programme (ex-situ) over 50 years.",
+     "a": "In-situ (single large park): maintains natural selection, gene flow (if corridors exist), and adaptive evolution; but if isolated, faces genetic drift and inbreeding depression over time (e.g., Gir lions). Ex-situ (zoo programme): allows controlled pairing to maximize founder representation and minimize mean kinship; but risks adaptation to captivity (loss of wild behaviours, selection for tameness), founder effect if few founders, and loss of co-adapted gene complexes. Over 50 years, in-situ preserves evolutionary potential but may lose alleles via drift; ex-situ preserves allelic diversity artificially but may produce individuals maladapted for wild release. A student who claims \"ex-situ is genetically superior because we control breeding\" ignores domestication selection and loss of epigenetic adaptations.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's network of 106 national parks and 573 wildlife sanctuaries makes ex-situ conservation redundant for most vertebrate species.\"",
+     "a": "The statement is flawed. Protected areas cover ~5.26% of India's land area; many are small, isolated, and suffer from edge effects, invasive species, and human-wildlife conflict. Species with large home ranges (tiger, elephant) or specialized habitats (Great Indian Bustard, Hangul) cannot persist in fragmented reserves alone. Ex-situ provides: (1) demographic rescue for populations below minimum viable size; (2) genetic management for species with skewed sex ratios or inbreeding; (3) insurance against catastrophes (e.g., canine distemper in Gir lions); (4) research opportunities (reproductive biology, disease surveillance) impossible in wild. Redundancy is a strength, not waste — the IUCN's One Plan Approach explicitly integrates both. A student agreeing with the statement overlooks the extinction vortex in small populations and the non-substitutability of ex-situ for certain threats.",
+     "self_check": true
+    },
+    {
+     "q": "Design an integrated conservation plan for the Nilgiri Tahr (Nilgiritragus hylocrius), endemic to the Western Ghats montane grasslands, with ~3,000 individuals fragmented across 40+ populations. Specify in-situ actions, ex-situ components, and how they link.",
+     "a": "In-situ: (1) Strengthen protection in existing reserves (Eravikulam NP, Mukurthi NP, Grass Hills); (2) Restore connectivity via grassland corridors between shola-grassland patches; (3) Manage invasive species (Acacia, Pinus) encroaching on grasslands; (4) Mitigate disturbance from tourism and livestock grazing. Ex-situ: (1) Establish a conservation breeding centre at a high-altitude zoo (e.g., Padmaja Naidu Himalayan Zoological Park, Darjeeling — similar climate) with founders representing all genetic clusters; (2) Genome sequencing to define Evolutionarily Significant Units; (3) Cryopreserve gametes/embryos at National Gene Bank. Linkage: (1) Ex-situ population used for demographic supplementation of small in-situ populations (<50 individuals) via soft release; (2) Ex-situ research on nutrition, disease, and reproduction informs in-situ management; (3) Habitat restoration guided by ex-situ behavioural studies. A poor answer lists isolated actions without genetic or demographic integration, or proposes ex-situ in unsuitable lowland zoos.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

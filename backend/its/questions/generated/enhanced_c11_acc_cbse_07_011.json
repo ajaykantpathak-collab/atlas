@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_07_011",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_07_011",
+   "title": "c11_acc_cbse_07_011",
+   "questions": [
+    {
+     "q": "State the basic nature of a provision and a reserve in one sentence each.",
+     "a": "A provision is a charge against profit; a reserve is an appropriation of profit. A wrong answer (e.g., both are charges against profit) reveals the student confuses the timing of recognition: provisions are deducted before arriving at net profit, while reserves are created after net profit is determined.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a provision for doubtful debts is shown as a deduction from sundry debtors on the asset side, whereas a general reserve appears on the liabilities side after capital.",
+     "a": "Provision for doubtful debts directly relates to a specific asset (debtors) and reduces its realisable value, so it is deducted from that asset. A general reserve is not tied to any asset; it represents retained profits belonging to owners, hence shown on the liabilities side after capital. If a student says both are shown on the liabilities side, they misunderstand the matching principle: provisions match against specific assets/liabilities, reserves are undistributed profits.",
+     "self_check": true
+    },
+    {
+     "q": "A company has a profit before tax of ₹10,00,000. It creates a provision for taxation of ₹3,00,000 and transfers ₹2,00,000 to general reserve. Calculate the taxable profit and the profit available for dividend distribution.",
+     "a": "Taxable profit = Profit before tax - Provision for taxation = ₹10,00,000 - ₹3,00,000 = ₹7,00,000. Profit after tax (assuming tax rate 30%) = ₹7,00,000 - ₹2,10,000 = ₹4,90,000. After transferring ₹2,00,000 to general reserve, profit available for dividend = ₹2,90,000. A wrong answer (e.g., deducting reserve before tax) shows the student does not grasp that provisions reduce taxable income while reserves are post-tax appropriations.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the element of compulsion in creating a provision for depreciation versus creating a general reserve. Why can a reserve not be created if there are no profits?",
+     "a": "Provision for depreciation is compulsory under the prudence concept and Companies Act to show true profit, even if the company incurs a loss. General reserve is discretionary and can only be created from profits because it is an appropriation of profit; without profit there is nothing to appropriate. If a student says both are compulsory, they miss the legal distinction: provisions are mandatory for fair presentation, reserves are management decisions (except statutory reserves like debenture redemption reserve).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A provision for repairs and renewals can be used to pay dividends if the actual repairs turn out to be lower than the provision.\" Justify your answer.",
+     "a": "False. A provision is a charge against profit for a specific estimated liability; any excess provision should be written back to profit and loss account, not used for dividends. Dividends can only be paid out of free reserves (like general reserve) after meeting all liabilities. If a student agrees, they confuse provisions with reserves and violate the principle that provisions are not distributable profits.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a company might be tempted to classify a reserve as a provision (or vice versa) to manipulate financial statements. Explain how the distinction prevents this manipulation.",
+     "a": "Scenario: A company wants to reduce taxable profit and creates a \"Provision for Future Expansion\" of ₹10 lakh, though no specific liability exists. This is actually a reserve (appropriation) mislabelled as a provision to get tax deduction. The distinction prevents this because provisions require a known present obligation from past events (AS-29), while reserves are voluntary. If a student cannot articulate the \"present obligation\" criterion, they lack the conceptual boundary needed for audit and compliance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

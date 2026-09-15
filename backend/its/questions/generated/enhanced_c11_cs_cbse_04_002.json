@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_04_002",
+   "title": "c11_cs_cbse_04_002",
+   "questions": [
+    {
+     "q": "What is the purpose of checking the \"Add Python to PATH\" option during installation on Windows?",
+     "a": "The \"Add Python to PATH\" option adds the Python executable directory to the system's PATH environment variable, allowing the `python` command to be run from any command prompt or terminal window without specifying the full path. A wrong answer (e.g., \"it installs IDLE\" or \"it creates a shortcut\") reveals the student does not understand how the operating system locates executables and why PATH is necessary for command-line access.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between the IDLE Shell window and the IDLE Editor window. When would you use each?",
+     "a": "The Shell window (with the `>>>` prompt) is an interactive REPL where each statement is executed immediately after pressing Enter; it is used for quick experiments, testing expressions, and debugging. The Editor window is a text editor for writing and saving multi-line scripts (`.py` files); it is used for creating complete programs that can be run repeatedly. A wrong answer that confuses the two (e.g., \"Shell is for saving files\") indicates the student hasn't grasped the distinction between interactive and script modes.",
+     "self_check": true
+    },
+    {
+     "q": "A student installs Python 3.12 on Windows but forgets to check \"Add Python to PATH\". They open Command Prompt and type `python`. What error will they see, and how can they fix it without reinstalling?",
+     "a": "They will see `'python' is not recognized as an internal or external command, operable program or batch file.` To fix, they can either reinstall with the PATH option checked, or manually add the Python installation directory (e.g., `C:\\Users\\<name>\\AppData\\Local\\Programs\\Python\\Python312\\`) and the Scripts subdirectory to the System PATH via Environment Variables. A wrong answer (e.g., \"Python is not installed\") shows the student cannot diagnose a PATH-related issue.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the workflow of writing a program in IDLE's Editor versus typing directly in the Shell. Which workflow is better for a 50-line program with loops and functions, and why?",
+     "a": "In the Editor, you write the entire program, save it as a `.py` file, and run it with F5; the output appears in the Shell. In the Shell, you type line by line and execute immediately. For a 50-line program, the Editor is better because it allows editing, saving, syntax highlighting, and re-running without retyping. A wrong answer that prefers the Shell for large programs reveals a misunderstanding of the limitations of interactive mode.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"IDLE is sufficient for all Python development needs in Class 11.\" Defend your position with at least two reasons.",
+     "a": "The statement is largely true for the Class 11 curriculum because IDLE provides syntax highlighting, a debugger, and runs scripts, covering all required topics (basic syntax, control structures, functions, file I/O). However, it lacks advanced features like code completion, integrated terminal, and version control, which are not needed at this level. A wrong answer that claims IDLE is insufficient without citing curriculum-specific needs shows an inability to evaluate tool appropriateness in context.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step guide (with screenshots described in text) for a classmate to install Python 3.12 on Ubuntu Linux using the terminal, verify the installation, and launch IDLE. Include commands and expected outputs.",
+     "a": "A good answer includes: 1) `sudo apt update`, 2) `sudo apt install python3.12 idle3`, 3) `python3.12 --version` (output: Python 3.12.x), 4) `idle3` launches IDLE. It should mention that IDLE may be installed separately. A poor answer omits the separate IDLE package, uses `python3` instead of `python3.12`, or doesn't verify the version, indicating gaps in Linux package management knowledge.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

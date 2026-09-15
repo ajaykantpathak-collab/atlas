@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_biology_ch09_002",
+ "concepts": [
+  {
+   "id": "enh:c6_biology_ch09_002",
+   "title": "c6_biology_ch09_002",
+   "questions": [
+    {
+     "q": "What is the primary food source for an animal classified as a herbivore?",
+     "a": "Herbivores eat only plant material. An answer stating they eat both plants and meat reveals a failure to distinguish between herbivores and omnivores.",
+     "self_check": true
+    },
+    {
+     "q": "If an animal eats both fruits and small insects, how would you classify its dietary habit?",
+     "a": "It is an omnivore. A student who calls it a herbivore ignores the fact that insects are animal matter, showing a misunderstanding of what constitutes an animal-based food source.",
+     "self_check": true
+    },
+    {
+     "q": "A deer only eats grass, and a lion only eats deer. If we removed all the grass from the forest, what would happen to the deer and the lion?",
+     "a": "First, the deer would lose its food source and perish. Second, because the lion relies on the deer for food, it would eventually starve as well. A wrong answer suggests the student does not understand that these dietary habits create a chain of dependency.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the diet of a sparrow and a cow; why are they in different categories?",
+     "a": "A cow is a herbivore because it eats only plant parts. A sparrow is an omnivore because it eats seeds (plants) and insects (animals). A wrong answer reveals the student failed to notice the sparrow's multi-source diet.",
+     "self_check": true
+    },
+    {
+     "q": "Is a human being who eats both vegetables and eggs an omnivore? Explain your reasoning.",
+     "a": "Yes, because they consume both plant-based foods (vegetables) and animal-derived foods (eggs). If a student says \"no,\" they likely define omnivores too narrowly, perhaps only thinking of wild animals like bears.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple \"Food Sort\" experiment: How would you determine if a local lizard is an omnivore or a carnivore?",
+     "a": "Observe the lizard for several days, noting if it eats plant matter (like flower petals or fruit) alongside insects. If it only catches flies or spiders, it is a carnivore; if it shows interest in both, it is an omnivore. A poor answer would suggest guessing without observation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

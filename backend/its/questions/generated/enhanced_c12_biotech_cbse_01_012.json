@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_01_012",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_01_012",
+   "title": "c12_biotech_cbse_01_012",
+   "questions": [
+    {
+     "q": "A student claims: \"Any plasmid with an origin of replication and antibiotic resistance gene can be used as an expression vector if we insert our gene into its multiple cloning site.\" Is this statement correct? Explain in one sentence.",
+     "a": "Incorrect. An expression vector additionally requires a functional promoter recognized by the host RNA polymerase, a ribosome binding site (Shine-Dalgarno sequence in prokaryotes) upstream of the start codon in the correct reading frame, and a transcription terminator — elements absent in basic cloning vectors like pBR322. A wrong answer reveals the student confuses \"vector maintenance\" (replication/selection) with \"gene expression\" (transcription/translation machinery engagement).",
+     "self_check": true
+    },
+    {
+     "q": "You are given two E. coli expression vectors: Vector A uses the lac promoter (Pₗₐc), Vector B uses the T7 promoter (Pₜ₇). Both contain the same gene insert with identical RBS and terminator. In an E. coli BL21(DE3) host, Vector B gives 50-fold higher protein yield than Vector A after IPTG induction. Explain this difference by comparing the transcriptional machinery engaged by each promoter.",
+     "a": "Pₗₐc is recognized by E. coli's native RNA polymerase (σ⁷⁰ holoenzyme), giving moderate transcription; Pₜ₇ is recognized only by T7 RNA polymerase, which is chromosomally integrated in BL21(DE3) under lacUV5 control — T7 RNAP is highly processive and transcribes 5-10x faster than E. coli RNAP, yielding much higher mRNA levels. A wrong answer (e.g., \"T7 promoter is stronger\" without mechanistic detail) reveals the student memorizes promoter names but does not understand the polymerase-promoter specificity that defines expression system compatibility.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal expression cassette for secreting a eukaryotic glycoprotein in Pichia pastoris. Specify: (a) promoter, (b) signal sequence, (c) tag placement (N- or C-terminal), (d) protease cleavage site, and (e) terminator. Justify each choice in one phrase.",
+     "a": "(a) AOX1 promoter — methanol-inducible, very strong in Pichia; (b) α-mating factor pre-pro signal sequence — directs secretion through ER/Golgi for glycosylation; (c) C-terminal His₆ tag — avoids interference with N-terminal signal peptide cleavage; (d) TEV protease site (ENLYFQ↓G) between protein and tag — specific cleavage after purification; (e) AOX1 terminator (or GAPDH terminator) — ensures transcription termination and mRNA stability. A poor answer places the tag N-terminally (blocks signal peptide function) or uses lac promoter (not functional in yeast), revealing failure to match parts to host biology.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two expression strategies for a toxic protein in E. coli:\nStrategy 1: pET vector (T7 promoter) in BL21(DE3) with 0.1 mM IPTG at 18°C overnight.\nStrategy 2: pBAD vector (araBAD promoter) in TOP10 with 0.002% L-arabinose at 30°C for 4 h.\nAnalyze which strategy provides tighter repression before induction and why, referencing the molecular mechanism of each promoter's regulation.",
+     "a": "Strategy 2 (pBAD/araBAD) provides tighter repression. The araBAD promoter is activated by AraC-arabinose complex and repressed by AraC alone (DNA looping); basal expression is extremely low (~10⁻⁴ induced level). The T7 promoter in BL21(DE3) has significant basal \"leaky\" expression because chromosomal T7 RNAP under lacUV5 promoter has residual activity even without IPTG, and T7 RNAP transcribes any T7 promoter it encounters. A wrong answer choosing Strategy 1 reveals the student knows T7 gives high yield but overlooks leaky expression toxicity — a classic competitive exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Adding a His₆ tag to the C-terminus of a recombinant protein never affects its folding or activity because the tag is only 6 amino acids long.\" Provide two specific counter-examples where a C-terminal His₆ tag disrupts function, with molecular reasoning.",
+     "a": "Claim is false. Counter-example 1: Proteins requiring a free C-terminal carboxylate for activity (e.g., ubiquitin, which uses C-terminal Gly-Gly for conjugation to lysine residues) — His₆ blocks the essential C-terminal diglycine motif. Counter-example 2: Proteins where the C-terminus forms part of the active site or a critical structural β-sheet/α-helix (e.g., some proteases, PDZ domain ligands) — the tag sterically hinders folding or substrate binding. A wrong answer accepting the claim reveals the student treats tags as inert \"handles\" rather than peptide sequences that alter primary structure and can perturb tertiary structure.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel expression vector design for producing a disulfide-bonded human antibody fragment (scFv) in the E. coli cytoplasm (not periplasm). List 5 genetic elements you would include and explain how each addresses the reducing cytoplasmic environment.",
+     "a": "1. trxB⁻/gor⁻ host genotype (e.g., SHuffle strain) — not a vector element but essential; vector should carry a compatible origin. 2. Co-expression cassette for DsbC (disulfide isomerase) under a compatible promoter (e.g., arabinose-inducible) — catalyzes disulfide bond formation/isomerization in cytoplasm. 3. Strong constitutive promoter (e.g., proD) driving scFv — avoids induction stress. 4. N-terminal MBP tag with TEV site — MBP acts as solubility chaperone and enhances folding. 5. C-terminal His₆ tag after TEV site — for purification after tag removal. 6. Strong terminator (rrnB T1T2) — prevents read-through. A poor answer omits DsbC co-expression or uses periplasmic signal sequence (contradicts \"cytoplasm\" constraint), revealing inability to integrate host physiology with vector design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

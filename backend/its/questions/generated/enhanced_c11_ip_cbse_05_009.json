@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_05_009",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_05_009",
+   "title": "c11_ip_cbse_05_009",
+   "questions": [
+    {
+     "q": "What does `random.randint(1, 6)` return, and how many possible outcomes are there?",
+     "a": "`random.randint(1, 6)` returns a random integer between 1 and 6 inclusive. There are 6 possible outcomes (1, 2, 3, 4, 5, 6). A wrong answer might state that the upper bound is exclusive (like `range`), revealing confusion between `randint` and `randrange`.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between `random.random()` and `random.randint(0, 1)` in terms of the values they can produce.",
+     "a": "`random.random()` returns a float in `[0.0, 1.0)` (including 0.0 but never 1.0), while `random.randint(0, 1)` returns either the integer 0 or 1 with equal probability. A wrong answer might claim both produce the same set of values, showing misunderstanding of discrete vs continuous distributions.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python statement to randomly select a day of the week from a list `['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']` using the random module.",
+     "a": "`import random; day = random.choice(['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'])`. A wrong answer might use `random.randint(0,6)` and then index the list, which works but is not the direct use of `choice`, or might forget to import the module.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the use of `random.random()` and `random.uniform(0, 1)` (though `uniform` is not in scope, consider if it were). Which is more appropriate for generating a random percentage between 0% and 100%? Justify.",
+     "a": "`random.random()` gives a float in `[0.0, 1.0)`. To get a percentage, multiply by 100. `random.uniform(0, 100)` would directly give a float in `[0.0, 100.0]`. Since `uniform` is not in scope, the correct approach is `random.random() * 100`. A wrong answer might use `randint(0,100)` which gives only integer percentages, showing lack of understanding of continuous vs discrete.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: `import random; print(random.choice(5))` to get a random number from 1 to 5. Evaluate this code and explain the error.",
+     "a": "The code will raise a `TypeError` because `random.choice` expects a sequence (like a list, tuple, string) but received an integer 5. The student confused `choice` with `randint`. The correct code is `random.randint(1,5)` or `random.choice([1,2,3,4,5])`. This reveals the misconception that `choice` works on an integer as a range.",
+     "self_check": true
+    },
+    {
+     "q": "Design a Python program that simulates a lucky draw: there are 100 participants numbered 1 to 100. The program should pick 3 distinct winners and print their numbers. Use only `randint`, `random`, and `choice` (no `sample` or `shuffle`). Explain your logic.",
+     "a": "One approach: create a list of numbers 1..100, then use `random.choice` to pick one, remove it, repeat three times. Or use `randint` to generate indices and pop. The answer must ensure distinct winners. A poor answer might pick with replacement, allowing duplicates, showing lack of attention to \"distinct\".",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

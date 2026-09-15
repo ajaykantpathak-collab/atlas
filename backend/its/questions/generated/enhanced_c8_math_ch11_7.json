@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch11_7",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch11_7",
+   "title": "c8_math_ch11_7",
+   "questions": [
+    {
+     "q": "How many square faces must a net of a cube have, and what is the maximum number of squares that can meet at a single vertex in the folded cube?",
+     "a": "A cube net must have exactly 6 square faces. In the folded cube, exactly 3 squares meet at each vertex. If a student answers 5 faces or says 4 squares meet at a vertex, they confuse the net (2D) with the solid (3D) — in the net, squares are arranged flat so up to 4 can meet at a point, but folding brings only 3 together at each corner of the cube. This reveals they haven't mentally simulated the folding process.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a straight line of 6 squares connected edge-to-edge and claims it is a net of a cube. Explain why this cannot fold into a cube, and describe what happens when you try to fold it.",
+     "a": "A straight line of 6 squares cannot form a cube because when you fold the first square up, the second, third, fourth, and fifth squares fold in alternating directions, but the sixth square ends up overlapping the first square instead of meeting the remaining open edges. The cube requires each face to be adjacent to 4 others, but in a straight line, the end squares have only 1 neighbour. A wrong answer like \"it works because there are 6 squares\" shows the student counts faces but ignores connectivity and folding geometry.",
+     "self_check": true
+    },
+    {
+     "q": "A net of a cuboid has three pairs of identical rectangles. The net shows rectangles of dimensions: 8 cm × 5 cm (two pieces), 8 cm × 3 cm (two pieces), and 5 cm × 3 cm (two pieces). In the net, the two 8 cm × 5 cm rectangles are not adjacent to each other. Which dimensions represent the length, breadth, and height of the cuboid? Draw a possible net arrangement.",
+     "a": "The cuboid has length = 8 cm, breadth = 5 cm, height = 3 cm. The 8×5 rectangles are the top and bottom faces (not adjacent in net), 8×3 are front/back, 5×3 are left/right. A valid net: place one 8×5 rectangle (bottom), attach 8×3 to its 8 cm edge (front), 5×3 to its 5 cm edge (right), the other 8×3 to the opposite 8 cm edge (back), the other 5×3 to the opposite 5 cm edge (left), and finally attach the top 8×5 to the free 8 cm edge of the front face. If a student swaps length/breadth, they miss that opposite faces are identical and non-adjacent in the net.",
+     "self_check": true
+    },
+    {
+     "q": "Two different nets are drawn for the same cuboid of dimensions 10 cm × 6 cm × 4 cm. Net A has the 10×6 rectangles attached to the 10 cm edges of a 10×4 rectangle. Net B has the 10×6 rectangles attached to the 6 cm edges of a 6×4 rectangle. Compare the two nets: what is the same and what is different? Can both fold into the same cuboid?",
+     "a": "Both nets have the same set of 6 faces (two 10×6, two 10×4, two 6×4) and both can fold into the same cuboid. The difference is which face is chosen as the \"base\" in the 2D layout: Net A uses a 10×4 face as central, Net B uses a 6×4 face. The edge connections differ — in Net A, the 10 cm edges of the base connect to 10×6 faces; in Net B, the 6 cm edges connect to 10×6 faces. Both are valid because a cuboid has 3 distinct face-pairs, and any face can be the starting base. A student who says they are different cuboids confuses net layout with solid identity.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims the following is a net of a cylinder: a rectangle of height 10 cm and width 31.4 cm, with a circle of radius 5 cm attached to one of the 10 cm sides, and another circle of radius 5 cm attached to the opposite 10 cm side. Evaluate this claim. Is it a valid net? If not, what is the error?",
+     "a": "The claim is incorrect. For a cylinder of height 10 cm and radius 5 cm, the rectangle's width must equal the circumference of the circular base: 2πr = 2 × 3.14 × 5 = 31.4 cm — this part is correct. However, in a valid cylinder net, the two circles must be attached to the *two longer edges* (the 31.4 cm edges) of the rectangle, not the 10 cm edges. The rectangle's height (10 cm) becomes the cylinder's height, so the circles must attach along the edges that wrap around to form the curved surface. Attaching circles to the 10 cm edges would create a shape that cannot close into a cylinder. This error shows the student doesn't understand which rectangle dimension corresponds to the circumference.",
+     "self_check": true
+    },
+    {
+     "q": "Design a net for a right triangular prism whose triangular bases are right triangles with legs 3 cm and 4 cm (hypotenuse 5 cm), and whose height (length of prism) is 10 cm. Draw the net to scale on grid paper, label all dimensions, and explain how you know the rectangular faces will join correctly when folded.",
+     "a": "The net consists of two congruent right triangles (legs 3 cm, 4 cm, hypotenuse 5 cm) and three rectangles: 3 cm × 10 cm, 4 cm × 10 cm, and 5 cm × 10 cm. Arrange one triangle as base, attach the three rectangles to its three sides (matching 3 cm, 4 cm, 5 cm edges), then attach the second triangle to the free 10 cm edge of any rectangle (ensuring its 3, 4, 5 cm sides align with the corresponding rectangle widths). A good answer shows the rectangles in a row with triangles on opposite ends or one triangle in middle. A poor answer (e.g., rectangles not matching triangle sides) reveals the student doesn't grasp that each rectangular face's width must exactly equal the corresponding triangle side length.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

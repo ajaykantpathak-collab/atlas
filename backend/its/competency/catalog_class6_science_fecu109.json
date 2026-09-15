@@ -1,0 +1,215 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 9,
+ "chapter_title": "Methods of Separation in Everyday Life",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fecu109.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fecu.9.1",
+   "title": "Why We Separate Substances",
+   "section": "Introduction",
+   "definition": "Grain from the field arrives mixed with stones, husk and dust; separating useful from useless, or one useful part from another, keeps food clean and gives each component its own use.",
+   "formula": "",
+   "key_idea": "Separation is choosing: methods are picked to match the difference between the mixed things.",
+   "textbook_ref": "fecu109.txt, Introduction",
+   "question_patterns": [
+    "why do we need to separate mixtures",
+    "what impurities are found in harvested grain",
+    "what do we get after separating a mixture",
+    "name two mixtures from your kitchen that need separating",
+    "what decides the method of separation",
+    "why is cleaned grain good for health"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "fecu.9.2",
+   "title": "Handpicking, Threshing and Winnowing",
+   "section": "Simple methods",
+   "definition": "Big unwanted bits are picked out by hand; grain is knocked out of stalks by threshing; and winnowing lets the wind blow the light husk away from the heavier grain falling from a height.",
+   "formula": "",
+   "key_idea": "Each method rides on a difference: size for handpicking, weight for winnowing, force for threshing.",
+   "textbook_ref": "fecu109.txt, Simple methods",
+   "question_patterns": [
+    "when is handpicking used to separate mixtures",
+    "what is threshing and how is it done",
+    "how does winnowing separate husk from grain",
+    "which property does winnowing use",
+    "compare threshing and winnowing",
+    "separate a mixture of paper bits and buttons which method and why"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  },
+  {
+   "id": "fecu.9.3",
+   "title": "Sieving and Settling Methods",
+   "section": "Sieving and settling",
+   "definition": "A sieve lets fine flour pass and holds back coarse bits; in water, heavy sand settles below lighter water in sedimentation and the clear top layer is poured off, while straining tea uses a mesh like a sieve.",
+   "formula": "",
+   "key_idea": "Sieves sort by particle size, settling sorts by weight: two more differences put to work.",
+   "textbook_ref": "fecu109.txt, Sieving and settling",
+   "question_patterns": [
+    "how does sieving separate flour from bran",
+    "what is sedimentation and decantation",
+    "when do we sieve instead of handpick",
+    "how do we get clear water from muddy water",
+    "which method separates tea leaves from tea",
+    "why do heavier particles settle first"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "fecu.9.4",
+   "title": "Evaporation: Recovering Salt from Solution",
+   "section": "Salt from solution",
+   "definition": "Salt dissolved in water cannot be picked or sieved out; heating the solution in a china dish evaporates the water and leaves salt crystals behind, the method used to make salt from seawater.",
+   "formula": "salt_solution + heat = salt crystals + water vapour",
+   "key_idea": "Evaporation reaches where sieves cannot: the dissolved substance stays back when the liquid flies away.",
+   "textbook_ref": "fecu109.txt, Salt from solution",
+   "question_patterns": [
+    "how can salt be separated from a salt solution",
+    "why cannot salt be separated by sieving",
+    "what is left in the china dish after heating salt solution",
+    "how is salt obtained from sea water",
+    "where does the water go during evaporation",
+    "design a way to get sugar from a sugar solution"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fecu109.txt",
+   "concept": "fecu.9.1",
+   "question_type": "verify_property",
+   "question_pattern": "why do malli and valli's family separate stones and husk from grain?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fecu109.txt",
+   "concept": "fecu.9.2",
+   "question_type": "verify_property",
+   "question_pattern": "how is salt separated from a salt solution?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fecu109.txt, Let us enhance our learning",
+   "questions": [
+    "Why do Malli and Valli's family separate stones and husk from grain?",
+    "How is salt separated from a salt solution?",
+    "Which methods separate mixtures by weight and by size?",
+    "Separate a mixture of sand, paper clips and salt in three steps.",
+    "Raise awareness about water purity: list impurities found in water near you."
+   ]
+  }
+ ]
+}

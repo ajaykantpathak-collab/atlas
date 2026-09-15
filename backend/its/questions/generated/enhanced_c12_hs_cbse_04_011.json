@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_04_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_04_011",
+   "title": "c12_hs_cbse_04_011",
+   "questions": [
+    {
+     "q": "List five famous handloom weaves of India along with their state of origin and primary raw material (e.g., silk, cotton, wool).",
+     "a": "Correct answer: 1) Banarasi brocade – Uttar Pradesh – silk; 2) Kanjeevaram silk – Tamil Nadu – silk; 3) Chanderi – Madhya Pradesh – silk/cotton blend; 4) Pochampally ikat – Telangana – cotton/silk; 5) Baluchari – West Bengal – silk. A wrong answer (e.g., listing \"Khaddar\" as a specific regional weave or confusing Patola with Pochampally) reveals the student memorizes names without linking them to region, technique, or fibre — a critical gap for board case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the fundamental difference between ikat and brocade weaving techniques in your own words, using the terms \"yarn preparation\" and \"weft/warp patterning\".",
+     "a": "Correct answer: Ikat is a resist-dyeing technique where yarns (warp, weft, or both) are tie-dyed before weaving, so the pattern emerges from pre-dyed yarn alignment; brocade is a supplementary weft technique where pattern threads (often zari) are inserted during weaving on top of the ground weave. A wrong answer that says \"both use dyed yarns\" or \"brocade is also tie-dyed\" shows confusion between pre-loom dyeing and on-loom patterning — a frequent error in competitive exam assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "A fabric sample is described as: \"Lightweight cotton with blurred geometric patterns in red and black, created by tie-dyeing both warp and weft yarns before weaving.\" Identify the weave, its region, and the specific type of ikat.",
+     "a": "Correct answer: Double ikat (both warp and weft resist-dyed) — Pochampally ikat from Telangana (also accept Patan Patola from Gujarat as double ikat, but Pochampally is cotton). Steps: 1) Note \"cotton\" eliminates silk weaves like Patola; 2) \"Blurred geometric patterns\" is hallmark of ikat; 3) \"Both warp and weft tie-dyed\" = double ikat; 4) Match to region: Pochampally (Telangana) is known for cotton double ikat. A wrong answer naming \"Sambalpuri\" (which is usually single ikat) or \"Bandhani\" (tie-dye on fabric, not yarn) shows inability to apply technical vocabulary to a description.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Banarasi brocade and Kanjeevaram silk on three parameters: (a) primary design inspiration for motifs, (b) zari composition and layout, (c) typical end-use occasion. Present as a table.",
+     "a": "Correct answer: \n| Parameter | Banarasi Brocade | Kanjeevaram Silk |\n|-----------|------------------|------------------|\n| Motif inspiration | Mughal floral/foliate (kalga, bel), jhallar borders | Temple architecture (gopuram), checks (kattam), mythological scenes |\n| Zari composition/layout | Gold/silver zari as supplementary weft across width; often dense all-over patterning | Gold zari mainly on borders and pallu; body often plain or with woven checks |\n| Typical occasion | Bridal trousseau, formal ceremonies | South Indian weddings, temple visits, festive wear |\nA wrong answer that swaps motif sources or claims both use zari identically reveals superficial memorization without analyzing how regional aesthetics drive technical choices — a skill tested in board \"compare and contrast\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "\"Geographical Indication (GI) tags have effectively revived dying handloom traditions.\" Evaluate this statement with two supporting arguments and one limitation.",
+     "a": "Correct answer: Supporting: 1) GI legally prevents misuse of names like \"Chanderi\" or \"Pochampally\", ensuring artisans get premium pricing; 2) GI documentation forces recording of traditional knowledge, aiding intergenerational transfer. Limitation: GI does not address structural issues — low wages, lack of credit, competition from power loom imitations sold cheaper — so artisans may still abandon the craft. A wrong answer that only lists benefits or says \"GI solves everything\" shows inability to critically evaluate policy interventions, a key competency in CBSE case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a contemporary unisex jacket using a traditional handloom weave. Specify: (a) the weave and region, (b) two adaptations for modern fit/function, (c) one way to retain cultural authenticity.",
+     "a": "Expected answer (example): (a) Chanderi silk-cotton from Madhya Pradesh — lightweight, sheer, subtle zari buttis. (b) Adaptations: 1) Use Chanderi as lining with a structured organic cotton shell for durability; 2) Incorporate hidden zip pockets and adjustable cuffs for utility. (c) Authenticity: Source fabric directly from a Chanderi GI-certified cooperative and include a hangtag with the weaver's story and GI logo. A poor answer that picks a heavy brocade for a summer jacket or suggests digital printing the motif shows failure to synthesize material properties, design principles, and ethical sourcing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_05_009",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_05_009",
+   "title": "c11_math_cbse_05_009",
+   "questions": [
+    {
+     "q": "State the polar form of the complex number \\(z = -1 - i\\). Write the modulus \\(r\\) and principal argument \\(\\theta\\) explicitly.",
+     "a": "\\(r = \\sqrt{2}\\), \\(\\theta = -\\frac{3\\pi}{4}\\) (or equivalently \\(\\frac{5\\pi}{4}\\) but principal argument is \\(-\\frac{3\\pi}{4}\\)). Polar form: \\(\\sqrt{2}\\left(\\cos\\left(-\\frac{3\\pi}{4}\\right) + i\\sin\\left(-\\frac{3\\pi}{4}\\right)\\right)\\). A wrong answer like \\(\\theta = \\frac{\\pi}{4}\\) reveals the student forgot quadrant adjustment: \\(\\tan^{-1}(1) = \\pi/4\\) but the point is in QIII where both sine and cosine are negative, so \\(\\theta = \\pi/4 - \\pi = -3\\pi/4\\).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the polar form \\(z = r(\\cos\\theta + i\\sin\\theta)\\) is not unique if we allow any angle \\(\\theta\\), but becomes unique when we restrict \\(\\theta\\) to the principal argument interval \\((-\\pi, \\pi]\\).",
+     "a": "Adding any integer multiple of \\(2\\pi\\) to \\(\\theta\\) gives the same cosine and sine values, so \\(r(\\cos(\\theta+2k\\pi) + i\\sin(\\theta+2k\\pi)) = r(\\cos\\theta + i\\sin\\theta)\\) for all integers \\(k\\). Restricting to \\((-\\pi, \\pi]\\) picks exactly one representative from each equivalence class. A wrong answer that says \"\\(\\theta\\) is unique because \\(\\tan\\theta = y/x\\) has one solution\" reveals confusion between the multi-valued nature of \\(\\tan^{-1}\\) and the principal argument convention.",
+     "self_check": true
+    },
+    {
+     "q": "Convert \\(z = -2 + 2\\sqrt{3}i\\) to polar form. Show all steps including quadrant determination.",
+     "a": "Step 1: \\(x = -2, y = 2\\sqrt{3}\\). Step 2: \\(r = \\sqrt{(-2)^2 + (2\\sqrt{3})^2} = \\sqrt{4+12} = 4\\). Step 3: \\(\\tan\\alpha = |y/x| = \\sqrt{3} \\Rightarrow \\alpha = \\pi/3\\). Step 4: Point \\((-2, 2\\sqrt{3})\\) is in QII, so \\(\\theta = \\pi - \\alpha = \\pi - \\pi/3 = 2\\pi/3\\). Step 5: Polar form: \\(4(\\cos\\frac{2\\pi}{3} + i\\sin\\frac{2\\pi}{3})\\). A wrong answer with \\(\\theta = -\\pi/3\\) or \\(\\pi/3\\) reveals the student used \\(\\tan^{-1}(y/x)\\) directly without quadrant correction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the polar forms of \\(z_1 = 1+i\\) and \\(z_2 = -1-i\\). How are their moduli and arguments related? What geometric transformation maps \\(z_1\\) to \\(z_2\\) on the Argand plane?",
+     "a": "\\(z_1\\): \\(r_1=\\sqrt{2}, \\theta_1=\\pi/4\\). \\(z_2\\): \\(r_2=\\sqrt{2}, \\theta_2=-3\\pi/4\\) (or \\(5\\pi/4\\)). Moduli are equal; arguments differ by \\(\\pi\\) (i.e., \\(\\theta_2 = \\theta_1 - \\pi\\)). Geometrically, \\(z_2 = -z_1\\) is a rotation by \\(\\pi\\) radians (180°) about the origin. A wrong answer stating arguments differ by \\(\\pi/2\\) reveals confusion between multiplication by \\(i\\) (rotation by \\(\\pi/2\\)) and multiplication by \\(-1\\) (rotation by \\(\\pi\\)).",
+     "self_check": true
+    },
+    {
+     "q": "A student converts \\(z = -\\sqrt{3} + i\\) to polar form and writes \\(r=2, \\theta = \\tan^{-1}(-1/\\sqrt{3}) = -\\pi/6\\). Is this correct? If not, identify the error and give the correct principal argument.",
+     "a": "Incorrect. The student computed \\(\\tan^{-1}(y/x) = \\tan^{-1}(1/(-\\sqrt{3})) = -\\pi/6\\) but this angle is in QIV, while the point \\((-\\sqrt{3}, 1)\\) is in QII. The correct reference angle is \\(\\pi/6\\); since QII, \\(\\theta = \\pi - \\pi/6 = 5\\pi/6\\). The error is blindly using calculator \\(\\tan^{-1}\\) without quadrant analysis. This reveals the common misconception that \\(\\arg(z) = \\tan^{-1}(y/x)\\) always.",
+     "self_check": true
+    },
+    {
+     "q": "Create a complex number \\(z\\) (not purely real or imaginary) whose principal argument is exactly \\(\\frac{2\\pi}{3}\\) and whose modulus is 5. Write it in both Cartesian and polar forms. Explain how you chose the Cartesian coordinates.",
+     "a": "Polar: \\(5(\\cos\\frac{2\\pi}{3} + i\\sin\\frac{2\\pi}{3})\\). Cartesian: \\(x = 5\\cos\\frac{2\\pi}{3} = -\\frac{5}{2}, y = 5\\sin\\frac{2\\pi}{3} = \\frac{5\\sqrt{3}}{2}\\), so \\(z = -\\frac{5}{2} + i\\frac{5\\sqrt{3}}{2}\\). A poor answer that gives a point in QI or QIV reveals the student does not connect the argument to the correct quadrant; a good answer shows understanding that \\(\\cos(2\\pi/3)<0, \\sin(2\\pi/3)>0\\) forces QII.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

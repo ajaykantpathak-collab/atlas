@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_08_008",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_08_008",
+   "title": "c12_ps_cbse_08_008",
+   "questions": [
+    {
+     "q": "What was the constitutional basis for establishing the Planning Commission in 1950, and which specific Directive Principles did it aim to operationalize?",
+     "a": "The Planning Commission was established by a Cabinet Resolution (not a constitutional amendment) in March 1950 to operationalize Articles 38 (secure a social order for welfare) and 39 (direct policy toward adequate livelihood, equitable resource distribution, preventing wealth concentration). A wrong answer citing \"Article 280 (Finance Commission)\" or \"Article 263 (Inter-State Council)\" reveals confusion between planning and fiscal federalism institutions.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Nehru government choose a centralized Planning Commission over decentralized state-level planning, despite India's federal structure?",
+     "a": "Centralized planning was chosen to: (1) prevent inter-state resource competition that could fragment the new nation (link to integration of princely states), (2) mobilize scarce capital for large-scale heavy industries requiring national-level coordination, and (3) ensure balanced regional development per Article 39(b)-(c). A wrong answer citing \"the Constitution mandated central planning\" ignores that the Constitution is silent on planning — it was a political choice reflecting Nehru's vision (c12_ps_cbse_08_006) and the trauma of partition.",
+     "self_check": true
+    },
+    {
+     "q": "In the First Five-Year Plan (1951–56), agriculture received the highest allocation. By the Second Plan (1956–61), the focus shifted dramatically to heavy industries. Apply the Mahalanobis model to explain this shift and identify the key assumption about savings and investment.",
+     "a": "The Mahalanobis model (core of Second Plan) argued that investing in capital goods (machines, steel) expands the economy's production capacity, generating higher future savings for further investment. The key assumption: a closed economy with high marginal savings rate from industrial profits, enabling self-sustained growth without foreign aid. A wrong answer attributing the shift solely to \"Nehru's personal preference for factories\" misses the mathematical growth model linking investment allocation to long-term autonomy.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the Planning Commission's resource allocation formula (Gadgil formula, 1969) attempted to resolve the tension between equity (backward states) and efficiency (developed states) in federal fiscal transfers.",
+     "a": "The Gadgil formula allocated central assistance based on: 60% population (equity), 10% tax effort (efficiency), 10% per capita income inverse (redistribution), 10% special problems (remoteness), 10% ongoing projects (continuity). It balanced equity (helping Bihar, UP) with efficiency (rewarding Tamil Nadu's tax collection). A wrong answer claiming \"it gave equal funds to all states\" ignores the weighted criteria designed to address regional imbalances highlighted in the States Reorganisation Commission (c12_ps_cbse_08_007).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the criticism that the Planning Commission undermined federalism by concentrating financial power in the Centre, using the distinction between Plan and Non-Plan expenditure.",
+     "a": "Valid criticism: Plan expenditures (controlled by Planning Commission) became the dominant discretionary channel, letting the Centre bypass state priorities. Non-Plan expenditures (Finance Commission) were formula-based and smaller. This created a \"dual federalism\" where states depended on Centre's plan grants for development. However, the Commission also enabled national projects (Bhakra Nangal, IITs) requiring cross-state coordination. A one-sided answer calling it \"purely anti-federal\" ignores the nation-building imperative post-partition (c12_ps_cbse_08_001).",
+     "self_check": true
+    },
+    {
+     "q": "Create a one-paragraph proposal for a modern planning body that retains the Planning Commission's coordination role but addresses its federalism deficit, referencing the NITI Aayog's structure.",
+     "a": "A strong proposal would: (1) make the body a constitutional authority under Article 263 (Inter-State Council), (2) give states veto power over inter-state resource projects, (3) replace top-down allocations with competitive grants for innovation, (4) include mandatory social audit by local bodies (Panchayats, c11_ps_cbse_17_003). A weak proposal merely renames the Commission without changing its centralized appointment or resource control — revealing misunderstanding of the federalism critique.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

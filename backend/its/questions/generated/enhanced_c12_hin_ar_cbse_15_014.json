@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_15_014",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_15_014",
+   "title": "c12_hin_ar_cbse_15_014",
+   "questions": [
+    {
+     "q": "What does the 'E' in PEEL stand for, and what specific function does it serve in a board exam answer?",
+     "a": "The 'E' stands for **Explanation** — it is the step where you interpret HOW the evidence supports your point, showing the examiner your analytical reasoning. A wrong answer (e.g., \"Example\" or \"Evidence\") reveals the student confuses the structural label with the content; they will likely dump quotes without analysis, losing 2-3 marks per question for \"lack of critical engagement.\"",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Ambedkar believed in equality because he said 'all men are equal' and he fought for Dalit rights. This shows he wanted equality.\" Identify the structural flaw using PEEL terminology and explain why this answer would score 2/6 marks.",
+     "a": "The answer has **Point** and **Evidence** but **no Explanation (E)** — it states *what* Ambedkar did but not *how* the evidence proves the redefinition of leadership. The **Link (L)** to the broader theme (social justice as structural change) is also missing. This \"assertion-only\" pattern is the #1 reason students score 30-40% despite knowing content; examiners mark \"description not analysis.\"",
+     "self_check": true
+    },
+    {
+     "q": "Given the prompt: \"Compare Ambedkar's view of 'fraternity' (भ्रातृत्व) with the French Revolution's motto,\" write the **first PEEL paragraph** (Point + Evidence + Explanation) using only content from the chapter. Do not write the full answer.",
+     "a": "**Point:** Ambedkar redefines fraternity not as abstract sentiment but as concrete social practice.  \n**Evidence:** The text states he viewed fraternity as \"सामाजिक व्यवहार में समानता का व्यावहारिक रूप\" (practical form of equality in social conduct) and linked it to \"न्यायपूर्ण समाज रचना\" (constructing a just society).  \n**Explanation:** Unlike the French Revolution's declarative \"fraternité,\" Ambedkar grounds fraternity in daily interactions — dismantling caste barriers in wells, temples, schools — making it measurable and actionable.  \n*Why this works:* Evidence is paraphrased (not quoted verbatim), explanation connects textual phrase to comparative framework.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze this student's opening sentence for a 150-word answer: \"In the chapter 'Jeevan Darshan', Dr. Ambedkar talks about many things like caste, education, and politics.\" What are the TWO specific board-exam penalties this triggers, and how would you rewrite it?",
+     "a": "**Penalties:** (1) **Vagueness penalty** — \"talks about many things\" wastes 15 words without a single analytical claim; (2) **No thesis** — examiner cannot locate the argument, leading to \"lack of focus\" remark.  \n**Rewrite:** \"Ambedkar's philosophy centers on structural equality — he argues that political freedom without social fraternity is meaningless, a thesis he proves through three interlocking arguments: educational access as liberation, legal equality as baseline, and fraternity as daily practice.\"  \n*Key shift:* From topic-list to argument-claim with built-in roadmap.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"For board exams, memorizing 5 'perfect' PEEL paragraphs per chapter guarantees 90%+ in writing section.\" Defend or refute using CBSE marking scheme principles.",
+     "a": "**Refute.** CBSE's 2024-25 marking scheme explicitly rewards **\"independent critical response\"** and **\"contextual application\"** — rote paragraphs fail when questions change framing (e.g., \"Ambedkar's relevance to NEP 2020\" vs. \"Ambedkar on education\"). Memorized answers also lack **textual specificity** (examiners check for chapter-specific vocabulary like \"समतामूलक समाज,\" \"जाति-उन्मूलन\"). Students who template-write score 60-65%; those who adapt evidence to prompt score 85%+.",
+     "self_check": true
+    },
+    {
+     "q": "Create a **new 3-mark question** on this chapter that tests *evaluation* (not recall), then write a model PEEL answer (3 sentences max) using the structure: [Judgment] + [Textual warrant] + [Significance].",
+     "a": "**Question:** \"Ambedkar argues that 'caste is not just division of labour but division of labourers.' Assess whether this distinction strengthens or limits his critique of the varna system.\"  \n**Model Answer:** The distinction **strengthens** his critique because it shifts focus from *functional hierarchy* (defensible as social organization) to *hereditary entrapment* (indefensible as human rights violation) — evidenced by his insistence that \"जन्म-आधारित पेशा स्वतंत्रता का हनन है\" (birth-based occupation violates liberty). This reframes caste from cultural tradition to structural violence, making legal-constitutional remedy necessary rather than mere social reform.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

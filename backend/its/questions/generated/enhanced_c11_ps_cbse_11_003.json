@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_11_003",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_11_003",
+   "title": "c11_ps_cbse_11_003",
+   "questions": [
+    {
+     "q": "State the exact wording of Article 14 of the Indian Constitution and name the two distinct concepts it embodies.",
+     "a": "Article 14: \"The State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India.\" The two concepts are (1) equality before law (a negative concept: no special privileges, everyone subject to the same law) and (2) equal protection of laws (a positive concept: the State must actively ensure equal treatment in similar circumstances). A wrong answer that merges them into \"everyone is treated the same\" reveals a misunderstanding of the positive/negative distinction and the role of reasonable classification.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Supreme Court in *State of West Bengal v. Anwar Ali Sarkar* (1952) struck down a law that allowed the government to pick certain cases for trial by a special court, using the \"reasonable classification\" test.",
+     "a": "The law failed the reasonable classification test because it gave the government uncontrolled discretion to select cases for special courts without any guiding policy or intelligible differentia. There was no rational nexus between the classification (cases chosen by the government) and the object of the law (speedier trial). A wrong answer that says \"the law discriminated between cases\" without referencing the two prongs (intelligible differentia + rational nexus) shows the student cannot apply the doctrinal test to a concrete statute.",
+     "self_check": true
+    },
+    {
+     "q": "A state government issues a notification reserving 80% of seats in medical colleges for students domiciled in that state. Using Article 15(1) and Article 15(4), analyze whether this reservation is constitutionally valid.",
+     "a": "Article 15(1) prohibits discrimination on grounds of place of birth, but Article 15(4) (added by the 1st Amendment) empowers the State to make special provisions for socially and educationally backward classes (SEBCs) or SCs/STs. Domicile-based reservation is not based on backwardness; it is a geographic classification. The Supreme Court has held that residence requirements for educational admissions violate Article 15(1) unless justified under Article 15(4) or 15(5). Since domicile is not a recognized backwardness criterion, the notification is likely invalid. A wrong answer that says \"reservation is always allowed\" or \"domicile is a valid ground\" reveals confusion between permissible affirmative action and impermissible geographic discrimination.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the scope of Article 16(1) (equality of opportunity in public employment) with Article 16(4) (reservation for backward classes). How does the \"creamy layer\" exclusion (from *Indra Sawhney*) reconcile the two?",
+     "a": "Article 16(1) guarantees formal equality of opportunity for all citizens in public employment. Article 16(4) is an enabling provision allowing the State to reserve posts for backward classes not adequately represented. The creamy layer exclusion (for OBCs) ensures that the benefit of reservation reaches the genuinely backward, preventing the perpetuation of caste privilege within the backward class. This balances formal equality (Art. 16(1)) with substantive equality (Art. 16(4)). A wrong answer that treats Article 16(4) as an exception that overrides 16(1) entirely, or ignores the creamy layer concept, shows failure to analyze the internal balancing mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: \"Article 17 abolishes untouchability, so any social boycott of a Dalit family by upper-caste villagers is now a criminal offence under the Protection of Civil Rights Act, 1955.\"",
+     "a": "Article 17 abolishes untouchability and forbids its practice in any form. The Protection of Civil Rights Act, 1955 (originally the Untouchability Offences Act) criminalizes specific acts like denying access to temples, water sources, or social boycotts on grounds of untouchability. However, not every social boycott is automatically an offence; it must be linked to the practice of untouchability. The statement is broadly correct but oversimplifies: the Act defines specific offences, and the burden of proof lies on the prosecution. A wrong answer that says \"Article 17 directly punishes individuals\" confuses a constitutional declaration (which binds the State) with a penal statute (which binds individuals via State legislation).",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph provision for a hypothetical \"Equality Code\" that would replace Articles 14–18, incorporating the reasonable classification test, the creamy layer principle, and a ban on titles, while allowing affirmative action for historically disadvantaged groups.",
+     "a": "A good answer will include: (1) a general equality clause mirroring Art. 14 with an explicit reasonable classification test (intelligible differentia + rational nexus); (2) a non-discrimination clause covering the Art. 15 grounds plus disability, sexual orientation, etc.; (3) an affirmative action clause permitting quotas for socially/educationally backward classes with a creamy layer exclusion; (4) an untouchability abolition clause with penal consequences; (5) a titles abolition clause preserving military/academic distinctions. A poor answer that merely copies the existing articles verbatim or omits the creamy layer/reasonable classification details shows inability to synthesize and restructure constitutional principles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

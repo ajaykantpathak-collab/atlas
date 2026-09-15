@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_09_007",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_09_007",
+   "title": "c11_hs_cbse_09_007",
+   "questions": [
+    {
+     "q": "A mother dresses her 2-month-old in a knitted wool sweater with a narrow neckline that must be pulled over the head, secured with a drawstring at the neck. Identify three specific violations of infant clothing principles in this scenario.",
+     "a": "Correct answer: (1) Pullover design requires pulling over head — difficult for infant with poor head control and risks neck strain; (2) Drawstring at neck — entanglement/strangulation hazard; (3) Wool directly against skin — irritates delicate skin, should use wool-cotton blend or cotton layer underneath. A wrong answer (e.g., only mentioning \"wool is warm\") reveals the student views clothing as static fabric choice rather than dynamic interaction between garment design, infant motor ability, and safety risks.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why pre-shaped diapers purchased from the market may still be unsuitable for a specific newborn, even if labelled \"newborn size.\"",
+     "a": "Correct answer: Pre-shaped diapers follow standardized sizing but infants vary in birth weight (2.5–4 kg), thigh circumference, and umbilical stump healing status. A diaper fitting the waist may gap at thighs causing leaks, or rub the unhealed umbilical area. The student must recognize that \"size\" is multidimensional (waist, thigh, rise) and infant anatomy changes weekly. A wrong answer focusing only on \"absorbency\" or \"brand\" shows failure to analyze fit as a geometric match between 3D garment and rapidly changing 3D body.",
+     "self_check": true
+    },
+    {
+     "q": "A family in rural Rajasthan uses softened, washed old cotton sarees to make infant diapers and undershirts. Evaluate this practice against the NCERT criteria for infant clothing (hygiene, comfort, safety, cost).",
+     "a": "Correct answer: Meets criteria IF — (1) fabric is thoroughly sterilized (boiling/sun-drying) to meet hygiene standard; (2) multiple washes remove sizing/starch ensuring softness for comfort; (3) no loose threads/buttons for safety; (4) zero cost aligns with economic reality. Fails if sterilization skipped (infection risk) or fabric too thin (insufficient warmth). A wrong answer dismissing it as \"unhygienic\" or \"outdated\" reveals urban bias and inability to apply principles contextually — the NCERT explicitly validates this practice when sterilization is observed.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the thermal management strategy for a 1-month-old in a Mumbai monsoon (humid, 28°C) versus a Delhi winter (dry, 8°C). Specify fabric, layering, and garment type for each.",
+     "a": "Correct answer: Mumbai — single layer cotton undershirt (absorbent, breathable), no sweater, light cotton wrap if AC used; Delhi — cotton undershirt base layer + wool-cotton blend shirt (baby flannel) + removable cotton wrap, avoiding direct wool contact. Key principle: layering traps air for insulation in cold; single breathable layer prevents heat rash in humidity. A wrong answer using \"wool sweater in both\" or \"same layers\" fails to analyze climate as a variable requiring different fabric physics (moisture wicking vs. air entrapment).",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Since infants grow rapidly, parents should buy clothes two sizes larger to save money and reduce shopping frequency.\"",
+     "a": "Correct answer: Unsafe and uncomfortable. Oversized garments: (1) excess fabric bunches at crotch/neck — restricts movement, causes pressure marks; (2) loose sleeves/hems catch on fingers/toes or crib slats — entanglement risk; (3) poor fit compromises thermal regulation (gaps let cold air in). NCERT advises \"fit with allowance for growth\" (raglan sleeves, adjustable hems), not oversizing. A wrong answer agreeing reveals confusion between \"growth allowance\" (design feature) and \"buying large\" (poor fit) — a critical distinction for safety and comfort.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 7-piece \"starter wardrobe\" for a 3 kg newborn in late October in Kolkata (transitioning from monsoon to winter, 22–28°C). List each item with fabric, design feature, and quantity. Justify each choice in one sentence.",
+     "a": "Expected answer: (1) 4 cotton undershirts (front snap, raglan sleeves) — base layer for warmth/hygiene, changed per feed; (2) 2 cotton pyjamas (front opening, no feet) — lower body warmth, easy diaper access; (3) 1 light cotton wrap (breathable) — adjustable outer layer for temperature swings; (4) 12 cotton diapers (bird's eye or homemade sterilized) — absorbency, quick dry; (5) 1 wool-cotton blend sweater (front button, no drawstring) — for cooler evenings only; (6) 2 soft cotton caps — heat retention via head; (7) 2 pairs cotton mittens — prevent facial scratching. Poor answer omits quantity justification, ignores diaper access, or uses synthetic fabrics — shows inability to translate principles into a coherent, context-specific system.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

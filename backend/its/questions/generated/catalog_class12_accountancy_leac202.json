@@ -1,0 +1,367 @@
+{
+ "catalog": "catalog_class12_accountancy_leac202",
+ "concepts": [
+  {
+   "id": "leac.202.1.1",
+   "title": "Meaning and Nature of a Debenture",
+   "questions": [
+    {
+     "q": "Using the method 'Meaning and Nature of a Debenture', work with: principal_plus_stated_interest = 20. Carry the chain through step by step and give the final value of debenture_holder_claim.",
+     "a": "20 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Meaning and Nature of a Debenture' and work with: principal_plus_stated_interest = 8. Carry the chain through step by step and give the final value of debenture_holder_claim.",
+     "a": "8 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Meaning and Nature of a Debenture' refers to.",
+     "a": "A debenture is a formal loan certificate issued under the company's seal: it promises interest at a stated rate on fixed dates and repayment of principal after the agreed period, and under section 2(30) it also covers bonds and debenture stock.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Meaning and Nature of a Debenture'.",
+     "a": "The debentureholder is a creditor of the company, not an owner, so interest is owed even in loss years.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Meaning and Nature of a Debenture', in plain ASCII form.",
+     "a": "debenture_holder_claim = principal_plus_stated_interest",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.202.2.1",
+   "title": "Shares versus Debentures",
+   "questions": [
+    {
+     "q": "Using the method 'Shares versus Debentures', work with: shares_minus_debentures = 40. Carry the chain through step by step and give the final value of owned_capital_vs_borrowed_capital.",
+     "a": "40 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Shares versus Debentures' and work with: shares_minus_debentures = 25. Carry the chain through step by step and give the final value of owned_capital_vs_borrowed_capital.",
+     "a": "25 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Shares versus Debentures' refers to.",
+     "a": "A share is a slice of the company's owned capital carrying membership rights, while a debenture is borrowed money on paper: the shareholder gets variable dividend and votes, the debentureholder gets fixed interest and no vote, and repayment rules differ sharply on winding up.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Shares versus Debentures'.",
+     "a": "Owner money stays with the business; loan money must return on the due date whatever the profits did.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Shares versus Debentures', in plain ASCII form.",
+     "a": "owned_capital_vs_borrowed_capital = shares_minus_debentures",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.202.3.1",
+   "title": "Types of Debentures",
+   "questions": [
+    {
+     "q": "Using the method 'Types of Debentures', work with: conversion_type = 80, redemption_type = 60, registration_type = 24, security_type = 75. Carry the chain through step by step and give the final value of debenture_classes.",
+     "a": "239 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Types of Debentures' and work with: conversion_type = 5, redemption_type = 3, registration_type = 30, security_type = 30. Carry the chain through step by step and give the final value of debenture_classes.",
+     "a": "68 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Types of Debentures' refers to.",
+     "a": "Debentures sort along four lines: whether a charge backs them (secured or naked), whose name they carry (registered or bearer), whether they ever fall due (redeemable or perpetual), and whether they can change form (convertible into shares or permanently debentures).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Types of Debentures'.",
+     "a": "Collateral is the anchor question: a mortgage or charge makes the issue safe for the lender even if the business fails.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Types of Debentures', in plain ASCII form.",
+     "a": "debenture_classes = security_type + registration_type + redemption_type + conversion_type",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.202.4.1",
+   "title": "Issue of Debentures at Par, Premium and Discount",
+   "questions": [
+    {
+     "q": "Using the method 'Issue of Debentures at Par, Premium and Discount', work with: debentures_issued = 10, issue_price_per_debenture = 20000. Carry the chain through step by step and give the final value of issue_proceeds.",
+     "a": "200000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Issue of Debentures at Par, Premium and Discount' and work with: debentures_issued = 4, issue_price_per_debenture = 80000. Carry the chain through step by step and give the final value of issue_proceeds.",
+     "a": "320000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Issue of Debentures at Par, Premium and Discount' refers to.",
+     "a": "Debenture entries mirror share entries: money received through application and allotment builds up to the debentures account, any issue price above face value credits securities premium reserve, and any shortfall below face value is debited to discount on issue of debentures as a capital loss.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Issue of Debentures at Par, Premium and Discount'.",
+     "a": "Premium is not income and discount is not expense on day one -- both wait as capital items until written off or settled at redemption.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Issue of Debentures at Par, Premium and Discount', in plain ASCII form.",
+     "a": "issue_proceeds = debentures_issued * issue_price_per_debenture",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.202.6.1",
+   "title": "Debentures Issued for Consideration other than Cash",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Debentures Issued for Consideration other than Cash' refers to.",
+     "a": "When a company buys assets or a whole business from a vendor and pays with its own debentures, the count of debentures to hand over is the purchase consideration divided by the price at which each debenture is issued.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Debentures Issued for Consideration other than Cash'.",
+     "a": "Assets and liabilities come in at value, the vendor is credited, and settlement runs through the debentures account at par, premium or discount.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Debentures Issued for Consideration other than Cash', in plain ASCII form.",
+     "a": "number_of_debentures = purchase_consideration / issue_price_per_debenture",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.202.7.1",
+   "title": "Debentures as Collateral Security",
+   "questions": [
+    {
+     "q": "Using the method 'Debentures as Collateral Security', work with: primary_security_plus_pledged_debentures = 18. Carry the chain through step by step and give the final value of collateral_security.",
+     "a": "18 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Debentures as Collateral Security' and work with: primary_security_plus_pledged_debentures = 8. Carry the chain through step by step and give the final value of collateral_security.",
+     "a": "8 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Debentures as Collateral Security' refers to.",
+     "a": "A company borrowing from a bank may hand over its own debentures as a secondary safeguard on top of the primary security; ownership stays with the company and the bank holds them only until the loan is repaid.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Debentures as Collateral Security'.",
+     "a": "No interest runs on collateral debentures and the books either stay silent or note them through a debentures suspense account.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Debentures as Collateral Security', in plain ASCII form.",
+     "a": "collateral_security = primary_security_plus_pledged_debentures",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.202.8.1",
+   "title": "Loss on Issue of Debentures",
+   "questions": [
+    {
+     "q": "Compute the loss on issue of debentures issued at discount and redeemable at premium. Use the method 'Loss on Issue of Debentures'. Work with: debentures_issued = 12, face_value_per_debenture = 12000, issue_price_per_debenture = 50000, redemption_premium_per_debenture = 50000. Carry the chain through step by step and give the final value of loss_on_issue.",
+     "a": "144000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "How much is debited to loss on issue of debentures account? Use the method 'Loss on Issue of Debentures'. Work with: debentures_issued = 500, face_value_per_debenture = 1200, issue_price_per_debenture = 50000, redemption_premium_per_debenture = 20000. Carry the chain through step by step and give the final value of loss_on_issue.",
+     "a": "-14400000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Loss on Issue of Debentures' refers to.",
+     "a": "Debentures issued below face value but promised back above it create a two-sided loss: the issue discount plus the redemption premium, both booked at once by debiting loss on issue of debentures and crediting premium on redemption of debentures.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Loss on Issue of Debentures'.",
+     "a": "Premium on redemption is a liability the company owes later, so it is recognised today, not on the repayment date.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Loss on Issue of Debentures', in plain ASCII form.",
+     "a": "loss_on_issue = debentures_issued * (issue_discount_per_debenture + redemption_premium_per_debenture)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.202.9.1",
+   "title": "Interest on Debentures with Tax Deducted at Source",
+   "questions": [
+    {
+     "q": "Calculate half-yearly interest on debentures with tax deducted at source. Use the method 'Interest on Debentures with Tax Deducted at Source'. Work with: debentures_issued = 300, face_value_per_debenture = 2500, interest_rate = 25, months = 45, tds_rate = 12. Carry the chain through step by step and give the final value of net_interest_paid.",
+     "a": "-773437500 rupees",
+     "self_check": false
+    },
+    {
+     "q": "How much interest is due on ten percent debentures for six months? Use the method 'Interest on Debentures with Tax Deducted at Source'. Work with: debentures_issued = 8, face_value_per_debenture = 2500, interest_rate = 10, months = 4, tds_rate = 5. Carry the chain through step by step and give the final value of net_interest_paid.",
+     "a": "-266666.6667 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Interest on Debentures with Tax Deducted at Source' refers to.",
+     "a": "Debenture interest runs on the nominal value at the stated rate for the elapsed months, is a charge against profit whatever the result, and any tax deducted at source is withheld from the holder and deposited with the government.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Interest on Debentures with Tax Deducted at Source'.",
+     "a": "The company deducts TDS first, so the holder receives interest net of tax and can claim the credit in its own return.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Interest on Debentures with Tax Deducted at Source', in plain ASCII form.",
+     "a": "net_interest_paid = debentures_issued * face_value_per_debenture * interest_rate * months / 12 - tax_deduction",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.202.10.1",
+   "title": "Writing off Discount or Loss on Issue",
+   "questions": [
+    {
+     "q": "How much discount is written off against securities premium reserve? Use the method 'Writing off Discount or Loss on Issue'. Work with: debentures_issued = 50, discount_rate = 15, face_value_per_debenture = 12000, redemption_premium_rate = 12, securities_premium_available = 500. Carry the chain through step by step and give the final value of written_off_against_revenue_profit.",
+     "a": "16199500 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Compute the balance that goes to the statement of profit and loss. Use the method 'Writing off Discount or Loss on Issue'. Work with: debentures_issued = 120, discount_rate = 18, face_value_per_debenture = 12000, redemption_premium_rate = 20, securities_premium_available = 5000. Carry the chain through step by step and give the final value of written_off_against_revenue_profit.",
+     "a": "54715000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Writing off Discount or Loss on Issue' refers to.",
+     "a": "The discount or loss on a debenture issue is a capital loss cleared immediately in the issue year: first to the extent of the securities premium balance, and whatever remains against the statement of profit and loss.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Writing off Discount or Loss on Issue'.",
+     "a": "Securities premium soaks up the loss first by law; only the leftover touches revenue profit.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Writing off Discount or Loss on Issue', in plain ASCII form.",
+     "a": "written_off_against_revenue_profit = total_loss_on_issue - securities_premium_available",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.202.11.1",
+   "title": "Redemption Reserve and Investment Rules",
+   "questions": [
+    {
+     "q": "How much must be invested for redemption of debentures maturing next year? Use the method 'Redemption Reserve and Investment Rules'. Work with: debentures_maturing_during_year = 150, debentures_outstanding = 18. Carry the chain through step by step and give the final value of required_investment.",
+     "a": "22.5 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Compute the fifteen percent debenture redemption investment. Use the method 'Redemption Reserve and Investment Rules'. Work with: debentures_maturing_during_year = 100, debentures_outstanding = 30. Carry the chain through step by step and give the final value of required_investment.",
+     "a": "15 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Redemption Reserve and Investment Rules' refers to.",
+     "a": "Covered unlisted companies must build a debenture redemption reserve of ten percent of debentures still outstanding, and every company must invest or deposit at least fifteen percent of the debentures maturing during the coming year by the end of April; several classes such as banking companies and NBFCs are exempt.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Redemption Reserve and Investment Rules'.",
+     "a": "The reserve comes from profit for the covered classes, the investment is a locked deposit that only redemption may touch.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Redemption Reserve and Investment Rules', in plain ASCII form.",
+     "a": "required_investment = debentures_maturing_during_year * 0.15",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.202.12.1",
+   "title": "Redemption in Lump Sum",
+   "questions": [
+    {
+     "q": "How much cash does the company need to redeem all debentures at a premium? Use the method 'Redemption in Lump Sum'. Work with: debentures_redeemed = 30, face_value_per_debenture = 500, redemption_premium_per_debenture = 5000. Carry the chain through step by step and give the final value of amount_payable_on_redemption.",
+     "a": "165000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Compute the total redemption payment on the due date. Use the method 'Redemption in Lump Sum'. Work with: debentures_redeemed = 8, face_value_per_debenture = 8000, redemption_premium_per_debenture = 80000. Carry the chain through step by step and give the final value of amount_payable_on_redemption.",
+     "a": "704000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Redemption in Lump Sum' refers to.",
+     "a": "On maturity the company pays every debentureholder the redemption price: face value plus any promised premium, with the whole amount settled in one payment on the due date.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Redemption in Lump Sum'.",
+     "a": "Premium on redemption, if any, is paid out of profit or fresh capital and settled together with the principal in one stroke.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Redemption in Lump Sum', in plain ASCII form.",
+     "a": "amount_payable_on_redemption = debentures_redeemed * redemption_price_per_debenture",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leac.202.14.1",
+   "title": "Redemption by Conversion into Shares",
+   "questions": [
+    {
+     "q": "How many equity shares are allotted on conversion of debentures? Use the method 'Redemption by Conversion into Shares'. Work with: debenture_amount_converted = 20000, face_value_per_share = 10, share_premium_per_share = 20. Carry the chain through step by step and give the final value of number_of_shares_issued.",
+     "a": "666.6667 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Compute the share count when debentures issued at discount are converted. Use the method 'Redemption by Conversion into Shares'. Work with: debenture_amount_converted = 120000, face_value_per_share = 50, share_premium_per_share = 100. Carry the chain through step by step and give the final value of number_of_shares_issued.",
+     "a": "800 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Redemption by Conversion into Shares' refers to.",
+     "a": "Convertible debentures can be redeemed by handing the holder new equity shares: the amount due on the debentures (their actual proceeds where they were issued at discount) is divided by the issue price of the new share to count how many shares to allot.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Redemption by Conversion into Shares'.",
+     "a": "Only real money raised on the old debentures converts; a discount issue converts at what was actually received, not at face.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Redemption by Conversion into Shares', in plain ASCII form.",
+     "a": "number_of_shares_issued = debenture_amount_converted / issue_price_per_share",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

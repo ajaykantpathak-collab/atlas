@@ -1,0 +1,284 @@
+{
+ "catalog": "catalog_class7_social_science_ch207",
+ "concepts": [
+  {
+   "id": "gess.207.1",
+   "title": "Definition and Classification of Deserts",
+   "questions": [
+    {
+     "q": "Using the method 'Definition and Classification of Deserts', work with: hot_or_cold = 500. Carry the chain through step by step and give the final value of desert_type.",
+     "a": "500 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Definition and Classification of Deserts' and work with: hot_or_cold = 75. Carry the chain through step by step and give the final value of desert_type.",
+     "a": "75 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Definition and Classification of Deserts' refers to.",
+     "a": "Arid landmasses defined by negligible precipitation, sparse plant cover, and extreme thermal conditions, divided into hot and cold categories.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Definition and Classification of Deserts'.",
+     "a": "Deserts are categorized as hot or cold based on prevailing ambient thermal extremes.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Definition and Classification of Deserts', in plain ASCII form.",
+     "a": "desert_type = hot_or_cold",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.207.2",
+   "title": "Sahara Desert Area Comparison",
+   "questions": [
+    {
+     "q": "Find how much larger Sahara desert is compared to India given their surface areas. Use the method 'Sahara Desert Area Comparison'. Work with: india_area = 250, sahara_area = 800. Carry the chain through step by step and give the final value of area_difference.",
+     "a": "550 sq units",
+     "self_check": false
+    },
+    {
+     "q": "Compute the area difference between two geographical regions with areas sahara_area and india_area. Use the method 'Sahara Desert Area Comparison'. Work with: india_area = 250, sahara_area = 1200. Carry the chain through step by step and give the final value of area_difference.",
+     "a": "950 sq units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Sahara Desert Area Comparison' refers to.",
+     "a": "Evaluating the expanse of the world's largest hot desert relative to landmasses using arithmetic subtraction of surface areas.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sahara Desert Area Comparison'.",
+     "a": "Subtract smaller geographic area from larger geographic area to quantify territorial difference.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Sahara Desert Area Comparison', in plain ASCII form.",
+     "a": "area_difference = sahara_area - india_area",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.207.3",
+   "title": "Sahara Desert Climate Characteristics",
+   "questions": [
+    {
+     "q": "Using the method 'Sahara Desert Climate Characteristics', work with: max_day_temp = 60, min_night_temp = 60. Carry the chain through step by step and give the final value of diurnal_range.",
+     "a": "0 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Sahara Desert Climate Characteristics' and work with: max_day_temp = 60, min_night_temp = 4. Carry the chain through step by step and give the final value of diurnal_range.",
+     "a": "56 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Sahara Desert Climate Characteristics' refers to.",
+     "a": "Atmospheric condition of intense day heating and severe night cooling driven by unclouded skies and rapid thermal radiation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sahara Desert Climate Characteristics'.",
+     "a": "Cloudless skies allow massive day-night temperature swings in scorching hot deserts.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Sahara Desert Climate Characteristics', in plain ASCII form.",
+     "a": "diurnal_range = max_day_temp - min_night_temp",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.207.4",
+   "title": "Sahara Desert Flora, Fauna, and Oases",
+   "questions": [
+    {
+     "q": "Using the method 'Sahara Desert Flora, Fauna, and Oases', work with: wind_eroded_water_depression = 18. Carry the chain through step by step and give the final value of oasis.",
+     "a": "18 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Sahara Desert Flora, Fauna, and Oases' and work with: wind_eroded_water_depression = 5. Carry the chain through step by step and give the final value of oasis.",
+     "a": "5 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Sahara Desert Flora, Fauna, and Oases' refers to.",
+     "a": "Survival of xerophytic vegetation like cacti alongside settlements surrounding fertile groundwater depressions known as oases.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sahara Desert Flora, Fauna, and Oases'.",
+     "a": "Wind depressions exposing subterranean water form fertile oases for date palms and humans.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Sahara Desert Flora, Fauna, and Oases', in plain ASCII form.",
+     "a": "oasis = wind_eroded_water_depression",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.207.5",
+   "title": "Nomadic Communities and Modern Transformation in Sahara",
+   "questions": [
+    {
+     "q": "Using the method 'Nomadic Communities and Modern Transformation in Sahara', work with: extractive_industries = 360, pastoral_herding = 20. Carry the chain through step by step and give the final value of economy_shift.",
+     "a": "380 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Nomadic Communities and Modern Transformation in Sahara' and work with: extractive_industries = 25, pastoral_herding = 500. Carry the chain through step by step and give the final value of economy_shift.",
+     "a": "525 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Nomadic Communities and Modern Transformation in Sahara' refers to.",
+     "a": "Traditional livestock herding by Bedouins and Tuaregs adapting to industrial changes brought by oil and mineral extractions.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Nomadic Communities and Modern Transformation in Sahara'.",
+     "a": "Hydrocarbon extractions and infrastructure growth are modernizing ancient nomadic ways of life.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Nomadic Communities and Modern Transformation in Sahara', in plain ASCII form.",
+     "a": "economy_shift = pastoral_herding + extractive_industries",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.207.6",
+   "title": "Ladakh Geographic Altitude Range",
+   "questions": [
+    {
+     "q": "Find the difference between highest and lowest elevations in Ladakh given max_altitude and min_altitude.. Use the method 'Ladakh Geographic Altitude Range'. Work with: max_altitude = 240, min_altitude = 40. Carry the chain through step by step and give the final value of alt_range.",
+     "a": "200 units",
+     "self_check": false
+    },
+    {
+     "q": "Compute the vertical relief span of the Ladakh cold desert region.. Use the method 'Ladakh Geographic Altitude Range'. Work with: max_altitude = 300, min_altitude = 8. Carry the chain through step by step and give the final value of alt_range.",
+     "a": "292 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Ladakh Geographic Altitude Range' refers to.",
+     "a": "Determining the vertical elevation span between valley bottoms and high mountain peaks in the Himalayan cold desert.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Ladakh Geographic Altitude Range'.",
+     "a": "Subtract minimum relief height from maximum peak elevation to find the altitude range.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Ladakh Geographic Altitude Range', in plain ASCII form.",
+     "a": "alt_range = max_altitude - min_altitude",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.207.7",
+   "title": "Ladakh Extreme Cold Desert Climate",
+   "questions": [
+    {
+     "q": "Using the method 'Ladakh Extreme Cold Desert Climate', work with: minimal_rain_shadow_level = 4. Carry the chain through step by step and give the final value of precipitation.",
+     "a": "4 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Ladakh Extreme Cold Desert Climate' and work with: minimal_rain_shadow_level = 24. Carry the chain through step by step and give the final value of precipitation.",
+     "a": "24 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Ladakh Extreme Cold Desert Climate' refers to.",
+     "a": "High-altitude environmental conditions causing rarefied air, extreme solar thermal intensity, and severe sub-zero winter temperatures.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Ladakh Extreme Cold Desert Climate'.",
+     "a": "Himalayan rain shadow isolation produces dry, frigid conditions with high solar radiation.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Ladakh Extreme Cold Desert Climate', in plain ASCII form.",
+     "a": "precipitation = minimal_rain_shadow_level",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.207.8",
+   "title": "Ladakh Flora, Fauna, and Wildlife Adaptations",
+   "questions": [
+    {
+     "q": "Using the method 'Ladakh Flora, Fauna, and Wildlife Adaptations', work with: shahtoosh_or_pashmina = 15. Carry the chain through step by step and give the final value of wool_yield.",
+     "a": "15 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Ladakh Flora, Fauna, and Wildlife Adaptations' and work with: shahtoosh_or_pashmina = 80. Carry the chain through step by step and give the final value of wool_yield.",
+     "a": "80 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Ladakh Flora, Fauna, and Wildlife Adaptations' refers to.",
+     "a": "Valley orchards of poplars and fruit trees coexisting with cold-adapted livestock and endangered wild species like Chiru.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Ladakh Flora, Fauna, and Wildlife Adaptations'.",
+     "a": "Thick coats and specialized wool enable fauna to survive severe high-altitude cold.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Ladakh Flora, Fauna, and Wildlife Adaptations', in plain ASCII form.",
+     "a": "wool_yield = shahtoosh_or_pashmina",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.207.9",
+   "title": "Ladakhi Culture, Monasteries, and Economic Activities",
+   "questions": [
+    {
+     "q": "Using the method 'Ladakhi Culture, Monasteries, and Economic Activities', work with: resource_conservation = 3, seasonal_activity = 45. Carry the chain through step by step and give the final value of sustainable_living.",
+     "a": "48 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Ladakhi Culture, Monasteries, and Economic Activities' and work with: resource_conservation = 240, seasonal_activity = 15. Carry the chain through step by step and give the final value of sustainable_living.",
+     "a": "255 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Ladakhi Culture, Monasteries, and Economic Activities' refers to.",
+     "a": "Community lifestyle centered around Buddhist gompas, short summer cultivation, winter social ceremonies, and eco-tourism.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Ladakhi Culture, Monasteries, and Economic Activities'.",
+     "a": "Ladakhis practice extreme resource reverence and sustain culture through monastery traditions and seasonal work.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Ladakhi Culture, Monasteries, and Economic Activities', in plain ASCII form.",
+     "a": "sustainable_living = resource_conservation + seasonal_activity",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

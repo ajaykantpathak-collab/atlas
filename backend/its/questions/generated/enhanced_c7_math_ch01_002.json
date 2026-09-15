@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch01_002",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch01_002",
+   "title": "c7_math_ch01_002",
+   "questions": [
+    {
+     "q": "What is the place value of the digit '7' in the 7-digit number 47,25,910 in the Indian system?",
+     "a": "The place value is 7,00,000 (Seven Lakhs). A student who answers 70,000 has miscounted the place value columns or confused the Ten Thousands place with the Lakhs place, missing the proper comma separation of the Indian numeration system.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the digit '5' has a different value in the number 5,23,456 depending on which position it occupies.",
+     "a": "The first '5' is in the Lakhs place, meaning it represents $5 \\times 1,00,000 = 5,00,000$, while the second '5' is in the Tens place, representing $5 \\times 10 = 50$. A student who thinks the two 5s have the same value confuses \"face value\" with \"place value,\" ignoring the positional weight of digits in our base-10 number system.",
+     "self_check": true
+    },
+    {
+     "q": "Write the number represented by the expanded form: $6 \\times 1,00,000 + 4 \\times 10,000 + 0 \\times 1,000 + 8 \\times 100 + 5 \\times 10 + 2 \\times 1$.",
+     "a": "Step 1: Compute each part: $6 \\times 1,00,000 = 6,00,000$; $4 \\times 10,000 = 40,000$; $0 \\times 1,000 = 0$; $8 \\times 100 = 800$; $5 \\times 10 = 50$; $2 \\times 1 = 2$.\nStep 2: Combine all values: $6,00,000 + 40,000 + 0 + 800 + 50 + 2 = 6,40,852$.\nA student who writes 6,48,52 or misses the zero placeholder for the thousands place likely drops missing positional units when converting from expanded form to standard form.",
+     "self_check": true
+    },
+    {
+     "q": "How many times larger is the place value of '9' in 9,12,345 compared to the place value of '9' in 1,92,345?",
+     "a": "The first '9' is in the Lakhs place ($9,00,000$) and the second '9' is in the Ten Thousands place ($90,000$). Dividing $9,00,000$ by $90,000$ gives 10, meaning it is 10 times larger because it is exactly one place value column to the left. A student who answers 100 or 1,000 does not understand that each adjacent place value increases by a factor of exactly 10, not 100.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that the number 8,05,040 can be written without the zeros because zeros have no value. Evaluate this claim and correct any error.",
+     "a": "The claim is incorrect; while the \"face value\" of zero is zero and it adds nothing to the sum, zero acts as a critical placeholder in the place value system. Removing the zeros changes 8,05,040 (Eight Lakh Five Thousand Forty) to 8,54, which represents eight hundred fifty-four, completely destroying the 6-digit structure. A student who agrees with the claim does not understand place-holding zeros.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 7-digit number using the digits 3, 5, 0, 8, 1, 9, 2 exactly once each, such that the digit in the Lakhs place is the largest odd digit available, and the Ten Lakhs place is the smallest non-zero even digit available.",
+     "a": "The smallest non-zero even digit available is 2, so the Ten Lakhs place is 2. The largest odd digit available is 9, so the Lakhs place is 9. Arranging the remaining digits (3, 5, 0, 8, 1) in descending order for maximum value yields the number 29,85,310. A poor answer would either repeat digits, ignore placement constraints, or place zero in the highest value position.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

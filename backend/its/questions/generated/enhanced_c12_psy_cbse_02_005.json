@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_02_005",
+   "title": "c12_psy_cbse_02_005",
+   "questions": [
+    {
+     "q": "Define cardinal, central, and secondary traits in Allport's theory. Give one original example of each (do not use Gandhi, Hitler, or textbook examples).",
+     "a": "Cardinal trait: A single, pervasive disposition so dominant that virtually all behaviour revolves around it (e.g., a social worker who organizes every life decision — career, marriage, residence — around serving marginalized communities). Central trait: A core characteristic (5-10 per person) regularly used to describe someone (e.g., \"meticulous\" — evident in their notes, planning, cooking, and email etiquette). Secondary trait: A narrow, situation-specific preference (e.g., \"dislikes cilantro\" — only appears when ordering food). A WRONG answer confuses central with cardinal (e.g., calling \"honesty\" cardinal when it's merely central unless the person's entire life narrative is organized around truth-telling) or treats secondary traits as stable across situations.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Allport's central traits are just weaker versions of cardinal traits. If someone has many central traits, they add up to a cardinal trait.\" Explain why this reasoning is incorrect using Allport's actual definitions.",
+     "a": "Allport explicitly states cardinal traits are qualitatively different — not quantitatively \"more\" central traits. A cardinal trait is a *master disposition* around which the entire life organizes (e.g., Mother Teresa's compassion directed her geography, schedule, relationships, health choices). Central traits are *descriptive building blocks* (warm, sincere, diligent) that coexist independently; having many doesn't create a unifying life theme. The error confuses *pervasiveness* (breadth of situations influenced) with *intensity* (strength of expression). A person can be highly honest (intense central trait) without honesty organizing their career, marriage, and hobbies (cardinal pervasiveness).",
+     "self_check": true
+    },
+    {
+     "q": "Riya is described by friends as: \"extremely organized,\" \"anxious before exams,\" \"loves spicy food,\" \"always helps strangers,\" \"prefers window seats,\" \"deeply religious — it guides her career, marriage, and daily routine.\" Classify each descriptor as cardinal, central, or secondary trait. Justify each classification.",
+     "a": "1. \"Deeply religious — guides career, marriage, daily routine\" → **Cardinal** (pervasive, life-organizing). 2. \"Extremely organized\" → **Central** (broad, cross-situational descriptor used in recommendations). 3. \"Always helps strangers\" → **Central** (consistent behavioural signature across contexts). 4. \"Anxious before exams\" → **Secondary** (situation-specific, limited to evaluative contexts). 5. \"Loves spicy food\" → **Secondary** (narrow preference, single domain). 6. \"Prefers window seats\" → **Secondary** (trivial, context-bound). A WRONG answer misclassifies \"anxious before exams\" as central (it's not cross-situational) or misses that only the religious orientation meets cardinal criteria of *life-organizing pervasiveness*.",
+     "self_check": true
+    },
+    {
+     "q": "Cattell reduced 18,000 trait words to 16 source traits using factor analysis. Explain the logic: what does factor analysis actually do to the correlation matrix of trait ratings, and why are the resulting factors called \"source traits\" while the original clusters are \"surface traits\"?",
+     "a": "Factor analysis examines the *intercorrelations* among many observed variables (trait ratings). When traits cluster together (e.g., \"talkative,\" \"sociable,\" \"assertive,\" \"energetic\" correlate highly), factor analysis extracts a *latent factor* accounting for their shared variance — this latent factor is a **source trait** (e.g., Extraversion). The original observed clusters are **surface traits** — they are surface manifestations *caused* by the underlying source traits. Source traits are the *causal building blocks*; surface traits are the *observable symptoms*. The error students make: thinking factor analysis just \"groups similar words\" — it actually identifies *statistically independent dimensions* that *explain* why surface traits co-occur.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this claim: \"Cattell's 16PF is superior to Allport's theory because 16 factors are more precise than 3 categories.\" Evaluate using criteria of theoretical scope, measurement utility, and explanatory power.",
+     "a": "The claim confuses *measurement granularity* with *theoretical comprehensiveness*. Allport's 3 categories are a **structural hierarchy** (pervasiveness levels), not a trait taxonomy — they answer \"how broadly does a trait influence life?\" Cattell's 16 factors are a **content taxonomy** — they answer \"what are the fundamental dimensions?\" They address different questions. 16PF excels in *measurement precision* (quantitative scores on 16 scales for vocational guidance). Allport excels in *idiographic understanding* (capturing unique life-organizing themes like \"Gandhian non-violence\"). A good evaluation notes: Allport's categories organize Cattell's factors (a cardinal trait likely loads heavily on multiple 16PF factors), not compete with them.",
+     "self_check": true
+    },
+    {
+     "q": "Create a fictional character profile demonstrating Allport's three trait levels AND map their behaviours to at least 4 of Cattell's 16 factors (name the factors). Show how a cardinal trait manifests across multiple Cattell factors.",
+     "a": "**Character:** Arjun, a wildlife conservationist.\n- **Cardinal:** \"Ecological stewardship\" — directs PhD choice, marriage (partner shares values), residence (near forest), diet (plant-based), leisure (birdwatching).\n- **Central:** Meticulous (field notes), compassionate (rescues injured animals), stoic (endures harsh conditions).\n- **Secondary:** Dislikes synthetic fabrics, prefers tea over coffee, checks camera batteries nightly.\n\n**Cattell 16PF mapping:**\n1. **High Superego Strength (G):** Rule-conscious — follows park protocols meticulously.\n2. **High Vigilance (L):** Suspicious of poacher motives — cautious in community meetings.\n3. **Low Tension (O):** Calm during elephant charge — low anxiety.\n4. **High Abstractedness (M):** Imaginative — designs novel camera-trap algorithms.\n\n**Integration:** Cardinal trait \"stewardship\" *drives* high G (duty), high L (protecting mission), low O (mission focus over fear), high M (innovating solutions). A strong answer shows the cardinal trait as the *organizing theme* expressing through multiple source traits.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,404 @@
+{
+ "catalog": "catalog_class8_maths_hegp105.json",
+ "concepts": [
+  {
+   "id": "hegp.105.5.1",
+   "family": "odd_sum_square",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "sq = 9 * 9"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "sq = 12 * 12"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "sq = 11 * 11"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total = 3 * 3"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "total = 8 * 8"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "sq = 6 * 6"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hegp.105.5.2",
+   "family": "identities",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 6 * 6 + 2 * 6 * 7 + 7 * 7"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 14 * 14 - 2 * 14 * 8 + 8 * 8"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "val = 10 * 10 - 4 * 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = 7 * 7 + (3 + 6) * 7 + 3 * 6"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 10000 + 2 * 100 * 5 + 5 * 5"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = 100 * 100 - 2 * 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "val = 6 * 6 + 2 * 6 * 7 + 7 * 7"
+   ]
+  },
+  {
+   "id": "hegp.105.5.3",
+   "family": "expr_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 3 * 2 + 8"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 6 * 4 * 4 + 6 * 4 + 5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "coef = 4 + 4 - 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = 2 * 4 + 2 * 8"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 7 + 3 * 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = (3 + 4) * 5"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hegp.105.5.4",
+   "family": "counting_sets",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 7 * 4"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pairs = 2 * 9"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "subsets = 2 ** 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rels = 2 ** (5 * 5)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "ways = 5 * 4"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "ways = 24 / (2 * 2)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hegp.105.5.5",
+   "family": "hcf_lcm",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "hcf = 10 * 1"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "lcm = 30 * 10 / 10"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hcf = 30 * 10 / 30"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "piece = 30 * 10 / 30"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "next_min = 30 * 10 / 10"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 100 // 12"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hegp.105.5.6",
+   "family": "hcf_lcm",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "hcf = 6 * 1"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "lcm = 42 * 24 / 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hcf = 42 * 24 / 168"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "piece = 42 * 24 / 168"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "next_min = 42 * 24 / 6"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 90 // 36"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hegp.105.5.7",
+   "family": "identities",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 4 * 4 + 2 * 4 * 4 + 4 * 4"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 24 * 24 - 2 * 24 * 2 + 2 * 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "val = 12 * 12 - 3 * 3"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = 4 * 4 + (6 + 6) * 4 + 6 * 6"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 10000 + 2 * 100 * 2 + 2 * 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = 100 * 100 - 2 * 2"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hegp.105.5.8",
+   "family": "hcf_lcm",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "hcf = 5 * 1"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "lcm = 35 * 10 / 5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hcf = 35 * 10 / 70"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "piece = 35 * 10 / 70"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "next_min = 35 * 10 / 5"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 96 // 24"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "hcf = 5 * 1"
+   ]
+  },
+  {
+   "id": "hegp.105.5.9",
+   "family": "digit_reversal",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "diff = 9 * abs(5 - 7)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total = 11 * (5 + 7)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total = 111 * (1 + 6 + 1)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "prod = 96 * 7",
+      "units = prod % 10"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "prod = 399 * 1001",
+      "thousands = prod // 1000 % 10"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "n1 = 78",
+      "n2 = 87",
+      "e1 = (n1 + 1) % 2",
+      "e2 = (n2 + 1) % 2",
+      "count = e1 + e2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "diff = 9 * abs(5 - 7)"
+   ]
+  }
+ ]
+}

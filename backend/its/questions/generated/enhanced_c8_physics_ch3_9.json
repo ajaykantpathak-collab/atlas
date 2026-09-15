@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch3_9",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch3_9",
+   "title": "c8_physics_ch3_9",
+   "questions": [
+    {
+     "q": "What is the SI unit of friction and in which direction does it act relative to the motion of an object?",
+     "a": "The SI unit of friction is the newton (N). Friction acts parallel to the contact surface and opposite to the direction of motion or the intended motion of the object. A wrong answer (e.g., \"joule\" or \"same direction as motion\") reveals the student confuses friction with energy/work or misunderstands its opposing nature.",
+     "self_check": true
+    },
+    {
+     "q": "A book rests on a horizontal table. You push it gently with 2 N but it does not move. You push harder with 5 N and it starts sliding. Explain why the book did not move at 2 N but moved at 5 N, using the concept of friction.",
+     "a": "At 2 N, the applied force is balanced by static friction (which adjusts up to a maximum value), so net force is zero and the book stays at rest. At 5 N, the applied force exceeds the maximum static friction, so forces become unbalanced and the book accelerates. A wrong answer (e.g., \"friction is always 2 N\" or \"friction disappears when it moves\") shows the student thinks friction is a fixed value rather than a self-adjusting force up to a limit.",
+     "self_check": true
+    },
+    {
+     "q": "A 3 kg block is pulled horizontally on a rough floor with a force of 20 N. The friction force opposing the motion is 8 N. Calculate the net force acting on the block and state whether the forces are balanced or unbalanced.",
+     "a": "Step 1: Identify forces — applied force = 20 N forward, friction = 8 N backward.\nStep 2: Choose direction of applied force as positive.\nStep 3: Net force = 20 N + (−8 N) = 12 N forward.\nStep 4: Since net force ≠ 0, forces are unbalanced.\nAnswer: Net force = 12 N forward; forces are unbalanced.\nA wrong answer (e.g., 28 N or \"balanced\") reveals the student adds magnitudes without considering direction or confuses net force with individual forces.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical blocks are placed on two different horizontal surfaces: Surface A (polished marble) and Surface B (coarse sandpaper). The same horizontal force of 10 N is applied to each. The block on Surface A moves, but the block on Surface B does not. Compare the friction forces on the two surfaces and explain the difference.",
+     "a": "On Surface A, friction is less than 10 N (since the block moves, applied force > friction). On Surface B, friction equals 10 N (since the block doesn't move, static friction matches applied force up to its maximum). Surface B has greater maximum static friction because its rougher texture interlocks more with the block. A wrong answer (e.g., \"friction is same on both\" or \"Surface A has more friction because it moves\") shows the student confuses motion with friction magnitude or thinks friction only exists when there is sliding.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If you put oil between two surfaces, friction becomes zero.\" Evaluate this statement. Is it correct, partially correct, or incorrect? Justify your answer.",
+     "a": "The statement is incorrect. Oil reduces friction significantly by forming a lubricating layer that separates the surfaces, but it does not make friction zero. Some fluid friction (viscous drag) still exists between the oil layers. Even with lubrication, a small force is needed to maintain motion. A wrong evaluation (e.g., \"correct, oil eliminates friction\") reveals the student thinks lubrication removes friction entirely rather than reducing it to a small non-zero value.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only a wooden block, a spring balance, a few standard weights, and three different surfaces (tabletop, cardboard, sandpaper) to investigate how the nature of the surface affects friction. Describe the procedure, what you will measure, and how you will compare results.",
+     "a": "Procedure: 1) Place block on tabletop. Attach spring balance horizontally. 2) Pull gently until block just starts moving; record the maximum reading (static friction). 3) Repeat 3 times and average. 4) Repeat steps 1–3 on cardboard and sandpaper. 5) Keep block mass constant (same normal force). Measure: maximum static friction force (N) for each surface. Compare: higher reading means greater friction. Expected order: sandpaper > cardboard > tabletop. A poor answer (e.g., \"push and see which goes farthest\" or changing mass between trials) shows the student doesn't control variables or measure force quantitatively.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

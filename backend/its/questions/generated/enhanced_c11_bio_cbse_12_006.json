@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_12_006",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_12_006",
+   "title": "c11_bio_cbse_12_006",
+   "questions": [
+    {
+     "q": "Name the four protein complexes of the mitochondrial electron transport chain in the correct sequence of electron flow from NADH to oxygen, and identify which complex receives electrons directly from FADH₂.",
+     "a": "Correct sequence: Complex I (NADH dehydrogenase) → Complex III (cytochrome bc₁) → Complex IV (cytochrome c oxidase). Complex II (succinate dehydrogenase) receives electrons directly from FADH₂ and passes them to ubiquinone. A wrong answer (e.g., placing Complex II before Complex I or omitting Complex III) reveals the student has memorized complex names but not the actual electron flow topology or the distinct entry points for NADH vs FADH₂.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the oxidation of one NADH molecule yields approximately 3 ATP while one FADH₂ yields only 2 ATP, even though both donate electrons to the same ubiquinone pool.",
+     "a": "NADH donates electrons at Complex I, which pumps 4 H⁺ per electron pair (total 4 H⁺). FADH₂ donates at Complex II, which pumps 0 H⁺. Both then pass through Complex III (4 H⁺ pumped) and Complex IV (2 H⁺ pumped). Total H⁺ pumped: NADH = 10 H⁺, FADH₂ = 6 H⁺. Since ~4 H⁺ are needed per ATP (3 for synthesis + 1 for transport), NADH yields ~2.5 ATP (rounded to 3 in NCERT) and FADH₂ yields ~1.5 ATP (rounded to 2). A wrong answer indicates the student thinks ATP yield depends only on the final acceptor (oxygen) and not on the number of proton-pumping complexes traversed.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher adds a specific inhibitor that blocks electron transfer from cytochrome c to Complex IV in isolated mitochondria supplied with NADH and ADP. Predict the immediate effect on: (a) oxygen consumption, (b) proton gradient across the inner membrane, (c) ATP synthesis, and (d) reduction state of cytochrome c.",
+     "a": "(a) Oxygen consumption stops because electrons cannot reach Complex IV to reduce O₂. (b) Proton gradient collapses because Complexes III and IV cannot pump protons without electron flow; existing gradient dissipates via ATP synthase or leakage. (c) ATP synthesis stops due to loss of proton motive force. (d) Cytochrome c becomes fully reduced (accumulates electrons) because it receives electrons from Complex III but cannot pass them to Complex IV. A wrong prediction (e.g., oxygen consumption continues) shows the student does not understand that electron flow is a continuous chain – blocking one link halts the entire process.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the chemiosmotic mechanism in mitochondrial oxidative phosphorylation with photophosphorylation in chloroplasts. Identify two similarities and two differences in the source of energy, proton gradient formation, and ATP synthase orientation.",
+     "a": "Similarities: (1) Both use an electrochemical proton gradient across a membrane (inner mitochondrial vs thylakoid) to drive ATP synthesis via F₀F₁ ATP synthase. (2) Both involve electron transport chains that pump protons. Differences: (1) Energy source: mitochondrial ETC uses chemical energy from NADH/FADH₂ oxidation; photosynthetic ETC uses light energy to excite electrons in photosystems. (2) Proton gradient direction: mitochondria pump H⁺ from matrix → intermembrane space (low pH outside); chloroplasts pump H⁺ from stroma → thylakoid lumen (low pH inside lumen). (3) ATP synthase orientation: mitochondrial F₁ faces matrix (ATP made in matrix); chloroplast F₁ faces stroma (ATP made in stroma). A poor comparison reveals confusion between the two organelles' topology and energy inputs.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Cyanide poisoning causes death because it inhibits ATP synthase, preventing ATP production.\" Is this correct? Justify your answer with the actual molecular target of cyanide and its effect on the proton gradient.",
+     "a": "The statement is INCORRECT. Cyanide (CN⁻) binds to the heme a₃-CuB center of Complex IV (cytochrome c oxidase), blocking electron transfer to oxygen. This halts the entire electron transport chain. Consequently, proton pumping by Complexes I, III, and IV stops, the proton gradient collapses, and ATP synthase cannot function due to lack of proton motive force – but ATP synthase itself is not directly inhibited. The student who agrees with the statement confuses the primary target (Complex IV) with the downstream consequence (ATP synthase inactivity) and fails to distinguish between direct inhibition and indirect effects.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using isolated mitochondria, a Clark-type oxygen electrode, and specific substrates/inhibitors to demonstrate that electron transport and oxidative phosphorylation are coupled processes. Outline the sequence of additions and the expected oxygen consumption trace.",
+     "a": "Add mitochondria + succinate (FADH₂ substrate) → steady O₂ consumption (State 2). Add ADP → rapid O₂ consumption increase (State 3, coupled phosphorylation). Add oligomycin (ATP synthase inhibitor) → O₂ consumption drops to low rate (State 4, gradient maximal, no proton flow through ATP synthase). Add DNP (uncoupler) → O₂ consumption increases to maximal uncoupled rate (gradient dissipated). Add cyanide → O₂ consumption stops. A good answer shows understanding of respiratory control: coupling means electron transport rate depends on ADP availability and proton gradient dissipation. A poor design (e.g., adding inhibitors before substrates) reveals lack of grasp of the sequence of coupling/uncoupling states.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

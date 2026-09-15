@@ -1,0 +1,298 @@
+{
+ "catalog": "catalog_class12_business_studies_lebs101",
+ "concepts": [
+  {
+   "id": "lebs.101.1.1",
+   "title": "Management as a Goal-Directed Process",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Management as a Goal-Directed Process' refers to.",
+     "a": "The organised effort of steering people, money and materials inside an enterprise so that its shared targets are met without avoidable waste of resources.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Management as a Goal-Directed Process'.",
+     "a": "It is a deliberate, never-ending process -- planning through controlling -- not something an organisation attains by luck.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Management as a Goal-Directed Process' taught, and from which source text?",
+     "a": "1.1 (source: lebs101.txt lines 241-310 (definitions box and Concept))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.101.1.2",
+   "title": "Effectiveness versus Efficiency",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Effectiveness versus Efficiency' refers to.",
+     "a": "Two yardsticks for judging managerial work: one asks whether the assigned job was completed and the target attained, the other asks whether it was achieved at the lowest sensible input cost.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Effectiveness versus Efficiency'.",
+     "a": "Meeting the target while overspending is effective but inefficient; saving inputs while missing the target is the reverse -- sound management balances both.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Effectiveness versus Efficiency' taught, and from which source text?",
+     "a": "1.1 (source: lebs101.txt lines 294-390 (effectiveness vs efficiency discussion and 5000-unit example))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.101.1.3",
+   "title": "Unit Cost as a Measure of Efficiency",
+   "questions": [
+    {
+     "q": "Calculate the cost per unit when the total cost is {total_cost} for {units_produced} units. Use the method 'Unit Cost as a Measure of Efficiency'. Work with: total_cost = 20000, units_produced = 200. Carry the chain through step by step and give the final value of unit_cost.",
+     "a": "100 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the unit cost of producing {units_produced} pieces at a total expense of {total_cost}. Use the method 'Unit Cost as a Measure of Efficiency'. Work with: total_cost = 5000, units_produced = 8. Carry the chain through step by step and give the final value of unit_cost.",
+     "a": "625 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Unit Cost as a Measure of Efficiency' refers to.",
+     "a": "A numeric test of efficiency: the average expense borne by each finished unit shows whether production used its inputs economically.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Unit Cost as a Measure of Efficiency'.",
+     "a": "The worker or plant with the lower per-unit expense is the more efficient one for the same output.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Unit Cost as a Measure of Efficiency', in plain ASCII form.",
+     "a": "unit_cost = total_cost / units_produced",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.101.2.1",
+   "title": "Characteristics of Management",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Characteristics of Management' refers to.",
+     "a": "Seven hallmark traits: it exists only to reach goals, appears in every kind of organisation, spans work people and operations, never pauses, rests on teamwork, shifts with the environment, and works as a force one feels rather than sees.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Characteristics of Management'.",
+     "a": "Match the case clue to the trait -- a firm reworking its menu for a new market shows the dynamic trait; orderly results with no visible handler show the intangible one.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Characteristics of Management' taught, and from which source text?",
+     "a": "1.2 (source: lebs101.txt lines 391-611 (Characteristics of Management, i to vii))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.101.3.1",
+   "title": "Objectives of Management",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Objectives of Management' refers to.",
+     "a": "The ends a manager pursues, grouped in three bundles: organisational aims of surviving, earning a surplus and expanding; social aims of offering the community safe products, jobs and clean methods; and personal aims of pay, recognition and growth that members seek.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Objectives of Management'.",
+     "a": "Read the bundle from the case: covering costs signals survival, hiring disadvantaged workers signals social aims, competitive salary signals personal aims.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Objectives of Management' taught, and from which source text?",
+     "a": "1.3 (source: lebs101.txt lines 612-755 (Objectives: organisational, social, personnel))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.101.3.2",
+   "title": "Profit as Revenue Minus Cost",
+   "questions": [
+    {
+     "q": "Calculate the profit when sales amount to {total_revenue} and expenses come to {total_cost}. Use the method 'Profit as Revenue Minus Cost'. Work with: total_cost = 50000, total_revenue = 120000. Carry the chain through step by step and give the final value of profit.",
+     "a": "70000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Compute the surplus remaining after all costs are paid. Use the method 'Profit as Revenue Minus Cost'. Work with: total_cost = 12000, total_revenue = 120000. Carry the chain through step by step and give the final value of profit.",
+     "a": "108000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Profit as Revenue Minus Cost' refers to.",
+     "a": "The financial surplus left for a business once every expense of running it has been met from its sales earnings; it rewards owners and covers the risks undertaken.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Profit as Revenue Minus Cost'.",
+     "a": "Profit is the organisational objective that keeps an enterprise running beyond bare survival.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Profit as Revenue Minus Cost', in plain ASCII form.",
+     "a": "profit = total_revenue - total_cost",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.101.4.1",
+   "title": "Importance of Management",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Importance of Management' refers to.",
+     "a": "Why the function is indispensable: it points individual effort toward group targets, lifts output per unit of input, keeps the organisation ready for change, helps members reach personal goals while contributing, and supplies society with goods, jobs and new technology.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Importance of Management'.",
+     "a": "Five payoffs to remember -- group goals, efficiency, a dynamic organisation, personal objectives, development of society.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Importance of Management' taught, and from which source text?",
+     "a": "1.4 (source: lebs101.txt lines 756-846 (Importance of Management, i to v))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.101.5.1",
+   "title": "Management as an Art",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Management as an Art' refers to.",
+     "a": "The art view of managing: a body of theory exists in books, yet each manager applies it with a personal creative touch polished by long practice, which is why two managers can reach the same goal by different routes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Management as an Art'.",
+     "a": "All three art tests hold -- existence of theory, personalised application, and practice-based creativity.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Management as an Art' taught, and from which source text?",
+     "a": "1.5 (source: lebs101.txt lines 885-1029 (Management as an Art))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.101.5.2",
+   "title": "Management as an Inexact Science",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Management as an Inexact Science' refers to.",
+     "a": "The science view of managing: it owns an organised set of principles built through repeated observation, but because human behaviour resists exact replication, it ranks as a soft or social science rather than a pure one.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Management as an Inexact Science'.",
+     "a": "Systematised knowledge and experimentation yes; universal exact validity no -- principles bend to each situation.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Management as an Inexact Science' taught, and from which source text?",
+     "a": "1.5 (source: lebs101.txt lines 1030-1211 (Management as a Science, inexact science))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.101.5.3",
+   "title": "Management as a Profession",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Management as a Profession' refers to.",
+     "a": "The professional standing of managing is partial: a defined knowledge base, teaching institutes and associations exist, but anyone may be designated a manager, no licence is demanded, and the conduct code carries no legal force.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Management as a Profession'.",
+     "a": "Restricted entry and statutory backing are missing, so managing is not yet a full profession even though it is increasingly professional in character.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Management as a Profession' taught, and from which source text?",
+     "a": "1.5 (source: lebs101.txt lines 1212-1408 (Management as a Profession, features i to v and the matching discussion))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.101.6.1",
+   "title": "Levels of Management and Their Roles",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Levels of Management and Their Roles' refers to.",
+     "a": "The three-rung authority ladder of an enterprise: senior executives such as the CEO and board who set overall goals and policies, divisional heads who convert those policies into departmental plans, and supervisors who lead the workforce at the base.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Levels of Management and Their Roles'.",
+     "a": "Top integrates diverse elements and decides strategy; middle interprets policy and links the two ends; operational guards quality, output and safety on the floor.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Levels of Management and Their Roles' taught, and from which source text?",
+     "a": "1.6 (source: lebs101.txt lines 1409-1554 (Top, Middle, Supervisory/Operational levels))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.101.7.1",
+   "title": "Functions of Management",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Functions of Management' refers to.",
+     "a": "The five linked duties making up a manager's job: deciding in advance what must be done, grouping tasks and assigning authority, filling posts with suitable people, guiding and motivating them, and checking results against set standards.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Functions of Management'.",
+     "a": "The five functions interlock and overlap in daily work -- the order is logical, not a rigid timetable.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Functions of Management' taught, and from which source text?",
+     "a": "1.7 (source: lebs101.txt lines 1555-1729 (Planning, Organising, Staffing, Directing, Controlling))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.101.8.1",
+   "title": "Coordination as the Essence of Management",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Coordination as the Essence of Management' refers to.",
+     "a": "The synchronising force that lines up the work of all departments and individuals behind one common purpose; it is not a stand-alone function but runs inside planning, organising, staffing, directing and controlling alike.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Coordination as the Essence of Management'.",
+     "a": "Its traits: integrates group effort, secures unity of action, continuous, all pervasive, every manager's duty, deliberate; the need grows with size, departmental splits and specialists.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Coordination as the Essence of Management' taught, and from which source text?",
+     "a": "1.8 (source: lebs101.txt lines 1730-2230 (Coordination: essence, characteristics i-vi, importance i-iii))",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

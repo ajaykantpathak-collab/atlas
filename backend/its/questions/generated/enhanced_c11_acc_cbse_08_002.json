@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_08_002",
+   "title": "c11_acc_cbse_08_002",
+   "questions": [
+    {
+     "q": "State the formula for calculating Cost of Goods Sold when both opening and closing stock exist, and explain why closing stock is subtracted.",
+     "a": "Cost of Goods Sold = Opening Stock + Net Purchases + Direct Expenses - Closing Stock. Closing stock is subtracted because these goods were purchased (included in purchases) but remain unsold at year-end, so their cost should not be charged against current year's sales. A wrong answer (e.g., adding closing stock) reveals the student thinks \"stock is an asset so add it\" rather than understanding the matching principle: only cost of goods *sold* matches with revenue.",
+     "self_check": true
+    },
+    {
+     "q": "A student records \"Carriage Outwards\" (delivery charges to customers) on the debit side of the Trading Account. Is this correct? Explain why or why not using the concept of direct vs indirect expenses.",
+     "a": "Incorrect. Carriage Outwards is an indirect expense (selling/distribution cost) incurred *after* goods are in saleable condition, so it belongs in Profit & Loss Account, not Trading Account. Only Carriage *Inwards* (bringing goods to business) is direct. A student who puts Carriage Outwards in Trading Account confuses \"expenses on goods\" with \"expenses to *acquire* goods\" — they see \"carriage\" and assume all carriage is direct, missing the directional distinction (inwards vs outwards).",
+     "self_check": true
+    },
+    {
+     "q": "From the following, prepare the Trading Account and calculate Gross Profit: Opening Stock ₹40,000; Purchases ₹2,00,000; Purchase Returns ₹10,000; Wages ₹30,000; Carriage Inwards ₹5,000; Sales ₹3,50,000; Sales Returns ₹20,000; Closing Stock ₹50,000.",
+     "a": "**Steps:**\n1. Net Purchases = ₹2,00,000 - ₹10,000 = ₹1,90,000\n2. Net Sales = ₹3,50,000 - ₹20,000 = ₹3,30,000\n3. Direct Expenses = Wages ₹30,000 + Carriage Inwards ₹5,000 = ₹35,000\n4. Cost of Goods Sold = Opening Stock ₹40,000 + Net Purchases ₹1,90,000 + Direct Expenses ₹35,000 - Closing Stock ₹50,000 = ₹2,15,000\n5. Gross Profit = Net Sales ₹3,30,000 - COGS ₹2,15,000 = ₹1,15,000\n\nA wrong answer (e.g., forgetting to deduct returns, or adding closing stock) shows mechanical formula application without understanding *why* returns reduce purchases/sales and why closing stock is deducted.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two businesses: Business A has Gross Profit ₹2,00,000 on Sales ₹10,00,000 (GP ratio 20%). Business B has Gross Profit ₹1,50,000 on Sales ₹6,00,000 (GP ratio 25%). Which business has better *trading efficiency*? Justify using the Trading Account concept.",
+     "a": "Business B has better trading efficiency (25% > 20%). Gross Profit Ratio = (Gross Profit / Net Sales) × 100 measures what percentage of sales revenue remains after covering direct cost of goods sold. Business B retains ₹0.25 per ₹1 sales vs ₹0.20 for A. A student who picks Business A because \"₹2,00,000 > ₹1,50,000\" confuses absolute profit with efficiency — they miss that Trading Account's purpose is to assess *operational* profitability relative to scale, not just absolute rupees.",
+     "self_check": true
+    },
+    {
+     "q": "A firm incorrectly debits \"Factory Rent\" to Profit & Loss Account instead of Trading Account. Evaluate the impact on Gross Profit, Net Profit, and the financial statements' true and fair view.",
+     "a": "Gross Profit will be **overstated** (factory rent is a direct production expense, so excluding it from Trading Account reduces COGS artificially). Net Profit remains **unchanged** because the expense is still debited, just in P&L instead of Trading. However, the financial statements **do not show a true and fair view** — the Trading Account misrepresents core trading profitability, violating the matching principle. A student who says \"Net Profit decreases\" or \"no impact\" fails to trace the double-entry effect: wrong classification shifts profit *between* gross and net but doesn't change final capital.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a business has *zero* purchases during the year but still shows a Gross Profit in the Trading Account. Provide the full Trading Account with plausible figures.",
+     "a": "**Scenario:** A manufacturer uses only own-produced raw materials (no purchases). Opening Stock (WIP/Finished) ₹1,00,000; Direct Wages ₹50,000; Factory Overheads ₹30,000; Sales ₹2,50,000; Closing Stock ₹60,000.  \n**Trading Account:**  \nDr: Opening Stock ₹1,00,000 + Wages ₹50,000 + Factory Overheads ₹30,000 = ₹1,80,000  \nCr: Sales ₹2,50,000 + Closing Stock ₹60,000 = ₹3,10,000  \nGross Profit = ₹3,10,000 - ₹1,80,000 = ₹1,30,000.  \nA poor answer (e.g., \"impossible without purchases\") reveals the misconception that Trading Account *requires* a Purchases line — missing that \"Cost of Goods Sold\" can arise from production costs alone.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

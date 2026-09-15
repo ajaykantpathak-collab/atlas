@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_17_003",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_17_003",
+   "title": "c12_eng_k_cbse_17_003",
+   "questions": [
+    {
+     "q": "What is the \"intellectual setting\" of a non-fiction essay, and how does it differ from the physical setting of a novel or short story?",
+     "a": "The intellectual setting is the conceptual landscape — the existing ideas, debates, and positions the author responds to or positions against. In Lawrence's essay, it's the debate between vitalism (life as embodied wholeness) and idealism/materialism (life as soul, mind, or biological parts). Unlike physical setting (time/place), intellectual setting has no coordinates; it is mapped by *ideas*. A wrong answer (e.g., \"the setting is England in the 1920s\") reveals the student is importing fiction-reading habits and missing that non-fiction constructs its world from concepts, not geography.",
+     "self_check": true
+    },
+    {
+     "q": "Lawrence writes: \"My hand is alive, it flickers with a life of its own. It meets all the strange universe in touch...\" What *atmosphere* does this passage create, and which specific rhetorical choices (diction, syntax, imagery) produce it?",
+     "a": "The atmosphere is **intimate, sensual, and wonder-struck** — the reader feels the aliveness of the hand. Rhetorical choices: (1) *Present-tense, sensory verbs* (\"flickers,\" \"meets,\" \"slips,\" \"jumps,\" \"feels\") create immediacy; (2) *Personification* (\"gaily,\" \"bored,\" \"rudiments of thought\") grants the hand agency; (3) *Short, rhythmic clauses* (\"slips gaily along, jumps like a grasshopper\") mimic the hand's quick movements. A wrong answer listing only \"imagery\" or \"personification\" without explaining the *affective result* shows the student identifies devices but cannot synthesize them into atmosphere — the felt quality of the prose.",
+     "self_check": true
+    },
+    {
+     "q": "APPLY: In the paragraph beginning \"Nothing is important but life\" (p. 167), Lawrence shifts from argument to declaration. Identify *three* syntactic or lexical shifts that signal this change in atmosphere, and explain the effect of each.",
+     "a": "1. **Shift to aphoristic, declarative sentences**: \"Nothing is important but life.\" \"Life with a capital L is only man alive.\" Effect: creates authoritative, almost scriptural tone — atmosphere of *revelation*.  \n2. **Elimination of qualifications/hedges**: Earlier he says \"It seems impossible...\", \"I imagine...\"; here, flat assertions. Effect: atmosphere shifts from *exploratory* to *convictional*.  \n3. **Concrete, homely images replace abstract nouns**: \"cabbage in the rain,\" \"live dog,\" \"dead lion,\" \"pepper-pot.\" Effect: grounds the atmosphere in *embodied reality*, rejecting the \"ether\" of abstraction. A student who only notes \"shorter sentences\" misses the *semantic* shift from abstract to concrete that carries the atmospheric change.",
+     "self_check": true
+    },
+    {
+     "q": "ANALYZE: Compare the atmosphere of the \"philosopher\" section (pp. 166–167: \"If you are a philosopher, you talk about infinity...\") with the \"novelist\" section (p. 168: \"For this reason I am a novelist...\"). How does Lawrence use *contrast in atmospheric texture* to make his hierarchical claim (novelist > philosopher) felt before it is argued?",
+     "a": "The philosopher section builds a **thin, cold, vaporous atmosphere**: abstract nouns (\"infinity,\" \"pure spirit,\" \"Nirvana\"), passive constructions (\"is talked about\"), metaphors of dissipation (\"went off in steam,\" \"tremulations on the ether\"). The novelist section builds a **dense, warm, tactile atmosphere**: concrete verbs (\"pick up,\" \"realise,\" \"tremble\"), bodily nouns (\"palm,\" \"nose,\" \"finger,\" \"fire\"), metaphors of contact and wholeness (\"whole tree trembling,\" \"whole man alive\"). The *felt contrast* — vapor vs. blood, ether vs. fire — makes the reader *experience* the novelist's superiority as vitality before the logic is fully articulated. A student who only compares *arguments* (philosopher says X, novelist says Y) misses how atmosphere *does* the persuasion.",
+     "self_check": true
+    },
+    {
+     "q": "EVALUATE: Lawrence claims the novel's atmosphere can \"make the whole man alive tremble\" while philosophy only stimulates \"one direction.\" Is this a fair assessment of what philosophy *can* do, or does Lawrence construct a straw-man atmosphere for philosophy to elevate the novel? Defend your judgment with textual evidence.",
+     "a": "Lawrence constructs a **strategic caricature**. He selects philosophy's most abstract, disembodied moments (Plato's forms, \"infinity,\" \"pure spirit\") and ignores embodied traditions (Merleau-Ponty, Nietzsche, phenomenology — though post-Lawrence, the tendency exists earlier). Textual evidence: he reduces all philosophy to \"tremulations on the ether\" (p. 167), but the Bible — which he *calls* a novel — contains intensely embodied wisdom (Psalms, Ecclesiastes, Job). The atmosphere he builds for philosophy is *deliberately* thin to make the novel's thickness felt. A fair evaluation acknowledges: the atmospheric contrast is *rhetorically effective* but *philosophically selective*. A student who simply agrees (\"yes, philosophy is abstract\") fails to evaluate the *constructedness* of the atmosphere.",
+     "self_check": true
+    },
+    {
+     "q": "CREATE: Write a 100-word paragraph that establishes an intellectual setting of \"the debate about AI consciousness\" and an atmosphere of \"quiet unease\" — using only rhetorical choices (no explicit statements like \"the mood is uneasy\").",
+     "a": "A strong answer will: (1) Establish setting through *conceptual coordinates* — e.g., \"The Turing test sits on the shelf beside Descartes' pineal gland; Searle's Chinese Room shares a wall with the neural net's hidden layers.\" (2) Build atmosphere through *sensory diction in abstract register* — \"The server fans hum a lullaby no one wrote. Weight matrices adjust in the dark, learning the shape of a grin.\" (3) Use *rhythm* — short final sentence after longer ones: \"We asked for thought. We got prediction. The difference breathes in the gap.\" A poor answer states the mood (\"It feels uneasy\") or describes a physical room — missing that intellectual setting and atmosphere are built *from language itself*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

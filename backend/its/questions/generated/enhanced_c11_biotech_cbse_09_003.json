@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_09_003",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_09_003",
+   "title": "c11_biotech_cbse_09_003",
+   "questions": [
+    {
+     "q": "Name the three databases that form the International Nucleotide Sequence Database Collaboration (INSDC) and state the host country/institution for each.",
+     "a": "The three INSDC databases are: GenBank (hosted by NCBI, USA), EMBL (hosted by EMBL-EBI, UK/Europe), and DDBJ (hosted by National Institute of Genetics, Japan). A wrong answer (e.g., listing UniProt or PDB) reveals the student confuses primary nucleotide databases with protein or structure databases, or doesn't know the INSDC acronym.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher in India submits a novel DNA sequence to GenBank today. Explain why the same sequence will appear in EMBL and DDBJ within 24 hours without the researcher submitting separately to those databases.",
+     "a": "The three databases have a formal data exchange agreement (INSDC) where they synchronize new submissions daily via automated pipelines. A wrong answer (e.g., \"the researcher must submit to all three\" or \"they are mirrored instantly\") reveals misunderstanding of the collaboration model: it's a scheduled daily exchange, not real-time mirroring, and single submission suffices.",
+     "self_check": true
+    },
+    {
+     "q": "Given the accession numbers: MK123456 (GenBank), LR987654 (EMBL), LC555555 (DDBJ), identify which prefix belongs to which database and explain the pattern in the prefix letters.",
+     "a": "MK = GenBank (NCBI uses two-letter prefixes like MK, MT, etc.), LR = EMBL (uses two-letter prefixes like LR, LS), LC = DDBJ (uses two-letter prefixes like LC, AP). A wrong assignment reveals the student hasn't learned the distinct prefix conventions; they might think prefixes are random or shared.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the INSDC model with a hypothetical model where each database operates independently without data exchange. Analyze the impact on a researcher in Japan who wants to study a gene submitted only to GenBank.",
+     "a": "In the INSDC model, the Japanese researcher accesses the gene via DDBJ immediately after daily sync; in the independent model, they must know to query GenBank directly, risk missing data if unaware of the submission, and face fragmented global access. A weak answer fails to articulate the \"single submission, global access\" principle or the risk of data silos.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Since GenBank, EMBL, and DDBJ contain identical sequence data, a bioinformatics student only needs to learn one database's search interface.\" Justify your evaluation with two arguments.",
+     "a": "The statement is partially true but misleading. While sequence content is identical, each database offers unique tools (e.g., NCBI's BLAST suite, EMBL's Ensembl browser, DDBJ's ARSA) and annotation pipelines. A student limiting to one interface misses specialized features. A poor evaluation treats \"identical data\" as \"identical functionality,\" ignoring value-added services.",
+     "self_check": true
+    },
+    {
+     "q": "Design a workflow for a Class 11 student who has obtained a Sanger sequencing chromatogram (.ab1 file) of a plant gene and wants to deposit it in the public domain. Include steps from quality check to accession number receipt, specifying which INSDC database they should use and why.",
+     "a": "A good workflow: 1) View chromatogram in FinchTV/Chromas, trim low-quality ends. 2) Export consensus sequence in FASTA format. 3) Choose submission portal: GenBank (via BankIt) or EMBL (via Webin) - both accept direct submissions; DDBJ prefers Sakura. 4) Fill metadata (organism, gene, authors, publication status). 5) Submit; receive accession number (e.g., MKxxxxxx). 6) Verify entry appears in all three after 24h. A poor answer skips quality control, metadata, or suggests submitting to all three separately.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_10_005",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_10_005",
+   "title": "c12_cs_cbse_10_005",
+   "questions": [
+    {
+     "q": "What is the exact syntax to open a file named \"data.txt\" in read mode using the `with` statement, and what happens to the file object when the indented block ends?",
+     "a": "Correct answer: `with open(\"data.txt\", \"r\") as f:` — when the indented block ends (normally or via exception), Python automatically calls `f.close()` even if an error occurred inside the block. A wrong answer like `with open(\"data.txt\") as f:` (missing mode) reveals the student doesn't know the default mode is \"r\" but may not understand explicit mode specification. A wrong answer like \"file closes only if no error\" reveals the fundamental misconception that `with` doesn't handle exceptions — this is exactly why `with` exists.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the following code is risky compared to using `with`:\n```python\nf = open(\"marks.txt\", \"w\")\nf.write(\"Physics: 95\\n\")\nf.close()\n```",
+     "a": "Correct answer: If `f.write()` raises an exception (e.g., disk full, permission error), `f.close()` is never executed, leaving the file handle open, risking data loss and OS file locks. The `with` statement guarantees closure via `__exit__` even during exceptions. A wrong answer like \"both are same\" or \"with is just shorter\" shows the student misses the exception-safety guarantee — the core purpose of context managers. This misconception leads to production bugs where files remain locked after crashes.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite this legacy code to use `with` statement. The code reads a config file, processes each line, and must ensure the file closes even if `process_line()` raises `ValueError`:\n```python\nf = open(\"config.ini\", \"r\")\nfor line in f:\n    process_line(line.strip())\nf.close()\n```",
+     "a": "Correct answer:\n```python\nwith open(\"config.ini\", \"r\") as f:\n    for line in f:\n        process_line(line.strip())\n```\nSteps: (1) Replace `f = open(...)` with `with open(...) as f:` (2) Indent the loop body (3) Remove `f.close()` — it's automatic. A wrong answer that keeps `f.close()` inside the block shows the student doesn't trust automatic cleanup. A wrong answer that puts `try-except` around the loop but keeps manual `close()` in `finally` works but misses the point — `with` *is* the clean `try-finally` pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the exception behavior: In Code A, an exception occurs inside the `with` block. In Code B, the same exception occurs after manual `open()` but before `close()`. Trace exactly what happens to the file handle in each case.",
+     "a": "Code A (`with`): Exception propagates up, but Python *first* calls `f.__exit__()` which closes the file handle, then re-raises the exception. File is closed. Code B (manual): Exception propagates immediately, `close()` is skipped, file handle leaks until process ends or garbage collector runs (non-deterministic). A wrong answer claiming \"both close the file\" or \"garbage collector closes it immediately\" reveals misunderstanding of Python's reference counting vs. deterministic cleanup — `with` provides *deterministic* release, critical for file locking on Windows.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Using `with` is always better than manual `open()`/`close()` because it's shorter and handles everything.\" Defend or refute with a specific scenario where manual handling might be preferred.",
+     "a": "Refute: `with` binds the file lifetime to the block scope. If you need to keep a file open across multiple functions or conditional branches (e.g., open in `init()`, write in `process()`, close in `cleanup()`), `with` forces awkward nesting or passing file objects. Manual `open()`/`close()` with `try-finally` gives explicit control. Also, `with` doesn't suppress exceptions — if you *want* to catch and handle an exception *without* closing (rare, but possible for logging), manual gives that control. A student who says \"with is always better\" hasn't considered architectural constraints beyond simple scripts.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new real-world scenario (Indian context) where you must read from one file, transform data, and write to another file — both using `with`. Write the complete code with proper error handling for missing input file and permission denied on output.",
+     "a": "Expected answer: A program reading `students_marks.csv` (roll, name, marks), computing grade, writing to `results_2024.txt`. Must use nested `with`:\n```python\ntry:\n    with open(\"students_marks.csv\", \"r\") as infile, open(\"results_2024.txt\", \"w\") as outfile:\n        for line in infile:\n            roll, name, marks = line.strip().split(\",\")\n            grade = \"A\" if int(marks) >= 90 else \"B\" if int(marks) >= 75 else \"C\"\n            outfile.write(f\"{roll},{name},{marks},{grade}\\n\")\nexcept FileNotFoundError:\n    print(\"Input file not found\")\nexcept PermissionError:\n    print(\"Cannot write output file\")\n```\nPoor answer: single `with`, no exception handling, or manual `close()`. Reveals inability to compose multiple context managers and handle real I/O errors.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

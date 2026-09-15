@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_04_008",
+   "title": "c11_hs_cbse_04_008",
+   "questions": [
+    {
+     "q": "State the four basic questions that guide the planning process according to the NCERT framework.",
+     "a": "The four basic questions are: 1) What is our present situation? 2) Where do we want to reach? 3) What is the gap? 4) How can we reach our desired goals? A wrong answer (e.g., listing steps like \"identify problem, choose alternative\" instead of the questions) reveals the student confuses the *guiding questions* with the *procedural steps* of planning, indicating a lack of distinction between the diagnostic phase and the execution phase.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why \"identifying the gap\" is a critical separate step between assessing the present situation and setting the goal, using a resource management example.",
+     "a": "Identifying the gap quantifies the exact shortfall in resources (time, money, energy, skill) between where you are and where you want to be, which prevents vague or unrealistic plans. For example, a student wants to score 90% (goal) but currently averages 60% (present). The gap is not just \"30% marks\" but specifically \"15 more hours of focused study per week and better conceptual clarity in two chapters.\" A wrong answer that merges gap with goal (\"I need to study more\") shows the student cannot operationalise the gap into measurable resource deficits, leading to plans that lack specificity and fail during implementation.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 11 student has 20 days until board practical exams. She has not started her practical file (present situation) and wants to submit a complete, well-documented file (goal). She has 1.5 hours daily after tuition, but feels exhausted. Apply the five steps of planning to create a concrete action plan for her.",
+     "a": "Step 1: Identify problem — incomplete practical file with 20 days left, low energy post-tuition. Step 2: Identify alternatives — (a) skip tuition for 5 days, (b) wake up at 5 AM for 1 hour before school, (c) use weekend blocks of 3 hours, (d) ask teacher for extension. Step 3: Choose alternative — combine (b) and (c): 1 hour morning (fresh mind) on weekdays + 3 hours each Saturday/Sunday = 5 + 6 = 11 hours/week × ~3 weeks = 33 hours total. Step 4: Act — create daily checklist: Monday-Friday 5:00-6:00 AM write 2 experiments; Saturday 10:00-1:00 PM write 4 experiments + diagrams; Sunday 10:00-1:00 PM finalize, index, cover. Step 5: Accept consequences — less sleep on weekdays (manage by 10 PM bedtime), no leisure weekends. A wrong answer that jumps straight to \"study harder\" without alternatives or energy management reveals the student treats planning as wishful thinking rather than a structured decision-making process under constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the planning process for a recurring goal (e.g., \"maintain 80% average all year\") versus a one-time goal (e.g., \"organise farewell party in 10 days\"). Analyse how the gap analysis and alternative generation differ in each case.",
+     "a": "For a recurring goal, gap analysis is continuous and dynamic — the gap is re-measured weekly (e.g., monthly test scores), and alternatives are systemic habits (daily 2-hour revision, weekly mock tests). For a one-time goal, gap analysis is a single snapshot (tasks remaining vs days left), and alternatives are discrete, time-bound actions (book venue by Day 2, finalise menu by Day 3). A wrong answer that treats both identically (e.g., \"make a timetable for both\") fails to recognise that recurring goals require feedback loops and habit formation, while one-time goals require critical path scheduling — a confusion that leads to rigid plans for long-term goals and missed deadlines for events.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following plan: \"I will finish my entire NCERT Chemistry syllabus in the last 5 days before the exam by studying 14 hours a day.\" Justify your evaluation using the concepts of resource constraints and gap analysis.",
+     "a": "The plan is unrealistic and violates resource constraints: human energy cannot sustain 14 hours of focused cognitive work daily for 5 days (physiological limit), and the gap (entire syllabus) is too large for the time resource (70 hours total, but effective learning capacity ~25-30 hours). A better plan would prioritise high-weightage chapters (interchangeability of resources: substitute breadth for depth). A wrong answer that calls this \"ambitious but possible\" reveals the student ignores the 'manageable' characteristic of resources and the need for gap analysis to be grounded in realistic resource availability, leading to burnout and poor retention.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel planning scenario for a Class 11 student managing a school club event with a team of 5, a budget of ₹2000, and 3 weeks. Write the four planning questions and the chosen alternative with justification.",
+     "a": "Scenario: Organising an inter-school quiz competition. Present situation: 5 volunteers, ₹2000, 21 days, no venue booked. Goal: Host 10-team quiz with prizes, refreshments, certificates. Gap: Venue (₹0 booked), questions (0 prepared), prizes (₹0 allocated), publicity (0 reach). Alternatives: (A) School auditorium (free), student-made questions, sponsored prizes, social media publicity. (B) Rent hall (₹1500), professional quizmaster (₹2000), buy prizes (₹1000) — over budget. Chosen: Alternative A. Justification: Uses human resources (students write questions, manage tech) to substitute for money, fits budget, builds team skills. A poor answer that omits budget breakdown or ignores human resource substitution shows inability to apply interchangeability and accessibility concepts in planning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

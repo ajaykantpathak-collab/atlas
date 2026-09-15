@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_14_004",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_14_004",
+   "title": "c12_phy_cbse_14_004",
+   "questions": [
+    {
+     "q": "State the condition for forward biasing a p-n junction diode and name the majority carriers that cross the junction in this condition.",
+     "a": "Forward bias: p-side connected to positive terminal of battery, n-side to negative terminal. Majority carriers crossing: holes from p-side diffuse to n-side, electrons from n-side diffuse to p-side. A wrong answer (e.g., \"n-side to positive\") reveals confusion about which polarity reduces the barrier; the student likely memorized the diagram without understanding that the applied field must oppose the built-in field.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the depletion layer width decreases under forward bias and increases under reverse bias, referencing the direction of the applied electric field relative to the built-in field.",
+     "a": "Under forward bias, the applied field (positive to negative from p to n) opposes the built-in field (n to p), reducing net field strength; fewer uncovered ions are needed to balance the reduced field, so depletion width shrinks. Under reverse bias, applied field reinforces built-in field, requiring more uncovered charge → wider depletion region. A wrong answer (e.g., \"forward bias widens depletion layer\") shows the student confuses the effect of applied voltage on the space-charge region.",
+     "self_check": true
+    },
+    {
+     "q": "A silicon diode's forward V-I curve gives: at I = 10 mA, V = 0.70 V; at I = 20 mA, V = 0.80 V. Calculate the dynamic resistance r_d in this region. Show unit tracking.",
+     "a": "r_d = ΔV/ΔI = (0.80 V – 0.70 V) / (20 mA – 10 mA) = 0.10 V / 10 mA = 0.10 V / 0.010 A = 10 Ω. Unit check: V/A = Ω. A wrong answer (e.g., 100 Ω) typically comes from forgetting to convert mA to A (0.10 V / 10 mA = 0.01 Ω if mA treated as A) or misreading the graph points.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the physical origin of forward current and reverse saturation current in a p-n junction diode. Why is reverse current nearly voltage-independent until breakdown?",
+     "a": "Forward current: diffusion of injected minority carriers (electrons in p-side, holes in n-side) due to lowered barrier; exponential with voltage. Reverse saturation current: drift of thermally generated minority carriers (electrons in p-side, holes in n-side) across the junction; limited by minority carrier concentration, not by barrier height, so nearly constant with reverse voltage. A wrong answer (e.g., \"reverse current is due to majority carriers\") indicates misunderstanding of which carriers are available on each side under reverse bias.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In reverse bias, the diode current is zero because the barrier becomes infinite.\" Evaluate this statement and correct it.",
+     "a": "The statement is false. Reverse bias increases barrier height to (V_0 + V), but it never becomes infinite; a small drift current (µA) flows due to thermally generated minority carriers being swept across the junction. This reverse saturation current is non-zero and nearly constant until breakdown. The student's error: confusing \"very high resistance\" with \"infinite resistance\" and ignoring minority carrier generation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a 9 V battery, a 1 kΩ resistor, a silicon diode, and a multimeter to verify that the diode conducts in only one direction. Specify the measurements you would take and the expected observations.",
+     "a": "Connect battery, resistor, and diode in series. Set multimeter to 200 mA DC range. Measure current with diode in forward bias (p to battery +): expect ~2–5 mA (limited by resistor). Reverse diode connections: expect reading ~0 µA (multimeter may show 0.00 mA). Swap multimeter to µA range for reverse: expect < 1 µA. A poor answer (e.g., \"measure voltage across diode only\") fails to demonstrate the rectifying action via current measurement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

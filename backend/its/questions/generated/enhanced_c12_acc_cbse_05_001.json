@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_05_001",
+   "title": "c12_acc_cbse_05_001",
+   "questions": [
+    {
+     "q": "What is the primary distinction between equity shares and preference shares regarding dividend payment?",
+     "a": "Equity shareholders receive dividends only after preference shareholders have been paid, and the rate is not fixed — it varies with profits. Preference shareholders receive a fixed dividend at a predetermined rate before any dividend is paid to equity shareholders. A wrong answer (e.g., \"both get fixed dividends\" or \"equity gets paid first\") reveals confusion about the priority and variability of returns, which is fundamental to understanding risk and return in share capital.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why preference shares are considered a hybrid security, using the concepts of fixed return and ownership.",
+     "a": "Preference shares are hybrid because they combine features of debt (fixed dividend, priority in repayment, usually no voting rights) and equity (ownership stake, dividends paid from profits not as a charge, potential for conversion into equity). A wrong answer that calls them purely debt or purely equity shows the student hasn't grasped the dual nature that makes them attractive to conservative investors and useful for companies wanting to raise capital without diluting control.",
+     "self_check": true
+    },
+    {
+     "q": "A company issues 10,000 equity shares of ₹10 each and 5,000 8% preference shares of ₹100 each. In a year of low profit, the company can pay only ₹40,000 as total dividend. How much dividend will each class receive? Show the allocation.",
+     "a": "Preference dividend due = 5,000 × ₹100 × 8% = ₹40,000. Since total distributable profit is ₹40,000, the entire amount goes to preference shareholders. Equity shareholders receive ₹0. A wrong allocation (e.g., splitting proportionally) ignores the statutory priority of preference dividend, a common error in board exams and competitive questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the voting rights of equity and preference shareholders under the Companies Act, 2013. Under what condition can preference shareholders acquire voting rights?",
+     "a": "Equity shareholders have voting rights on every resolution. Preference shareholders normally have no voting rights, but they gain voting rights on all resolutions if dividend is in arrears for two or more years (cumulative) or two consecutive years (non-cumulative). A wrong answer stating preference shareholders never vote or always vote misses the conditional voting right — a frequent trap in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Issuing preference shares is always better than issuing equity shares because it does not dilute control.\" Consider cost of capital, financial risk, and flexibility.",
+     "a": "The statement is flawed. While preference shares avoid voting dilution, they increase fixed financial obligation (dividend must be paid before equity dividend), raise the cost of capital if the fixed rate is high, and create redemption liability (redeemable preference shares must be repaid). Equity shares have no fixed dividend or redemption burden, offering more flexibility. A student who agrees without qualification misses the trade-off between control and financial risk — a key concept in capital structure decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scenario where a startup founder must choose between issuing equity shares or preference shares to raise ₹50 lakh. Specify the founder's priorities (control, cash flow, investor type) and justify the choice with at least three factors from this node.",
+     "a": "Scenario: Founder wants to retain control, expects irregular profits initially, and targets risk-averse investors. Choose preference shares because: (1) no voting rights → control retained; (2) fixed dividend only when profits exist (non-cumulative) or can be deferred → cash flow flexibility; (3) appeals to conservative investors seeking fixed income. A poor answer picks equity without addressing control or cash flow, showing inability to apply the features to a real-world financing decision.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

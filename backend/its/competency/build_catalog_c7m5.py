@@ -1,0 +1,400 @@
+"""Build concept catalog for Class 7 Maths Chapter 5 (Lines and Angles).
+Extracted from gemh105.txt -- NCERT Class 7 Maths textbook.
+"""
+import json
+import os
+
+CATALOG = {
+    "class": 7,
+    "subject": "maths",
+    "chapter": 5,
+    "chapter_title": "Lines and Angles",
+    "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/gemh105.txt",
+    "concepts": [
+        {
+            "id": "c7m5.1.1",
+            "title": "Line, Line Segment, Ray",
+            "section": "5.1",
+            "definition": "A line segment has two endpoints. A line has no endpoints (extends in both directions). A ray has one endpoint (extends in one direction).",
+            "formula": "segment = 2 endpoints; line = 0 endpoints; ray = 1 endpoint",
+            "key_idea": "Segment has 2 ends, line has 0 ends, ray has 1 end.",
+            "textbook_ref": "gemh105.txt lines 1-24",
+            "question_patterns": [
+                "what is a line segment",
+                "what is a line",
+                "what is a ray",
+                "difference between line and ray",
+                "identify line segment line and ray",
+                "how many endpoints does a line have",
+            ],
+            "solution_type": "verify_property",
+            "solution_steps": [
+                {"step": 1, "action": "identify the figure", "explain": "Check endpoints: 2 = segment, 0 = line, 1 = ray"},
+                {"step": 2, "action": "classify", "explain": "Name based on number of endpoints"},
+            ],
+        },
+        {
+            "id": "c7m5.2.1",
+            "title": "Complementary Angles",
+            "section": "5.2.1",
+            "definition": "Two angles are complementary if their sum is 90 degrees. Each angle is the complement of the other.",
+            "formula": "angle1 + angle2 = 90 degrees",
+            "key_idea": "Sum of complementary angles = 90 degrees.",
+            "textbook_ref": "gemh105.txt lines 50-77",
+            "question_patterns": [
+                "find the complement of the angle",
+                "what is the complement of",
+                "are these angles complementary",
+                "two angles are complementary",
+                "complement of 45 degrees",
+                "complement of 65 degrees",
+                "find angle equal to its complement",
+                "difference of two complementary angles is 12",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {"step": 1, "action": "identify given angle", "explain": "Find the known angle"},
+                {"step": 2, "action": "subtract from 90", "explain": "complement = 90 - given_angle"},
+                {"step": 3, "action": "report", "explain": "The complement is the result"},
+            ],
+        },
+        {
+            "id": "c7m5.2.2",
+            "title": "Supplementary Angles",
+            "section": "5.2.2",
+            "definition": "Two angles are supplementary if their sum is 180 degrees. Each angle is the supplement of the other.",
+            "formula": "angle1 + angle2 = 180 degrees",
+            "key_idea": "Sum of supplementary angles = 180 degrees.",
+            "textbook_ref": "gemh105.txt lines 78-105",
+            "question_patterns": [
+                "find the supplement of the angle",
+                "what is the supplement of",
+                "are these angles supplementary",
+                "two angles are supplementary",
+                "supplement of 100 degrees",
+                "supplement of 90 degrees",
+                "find angle equal to its supplement",
+                "larger supplementary angle is 44 more than smaller",
+                "can two acute angles be supplementary",
+                "can two obtuse angles be supplementary",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {"step": 1, "action": "identify given angle", "explain": "Find the known angle"},
+                {"step": 2, "action": "subtract from 180", "explain": "supplement = 180 - given_angle"},
+                {"step": 3, "action": "report", "explain": "The supplement is the result"},
+            ],
+        },
+        {
+            "id": "c7m5.2.3",
+            "title": "Adjacent Angles and Linear Pair",
+            "section": "5.2",
+            "definition": "Adjacent angles have a common vertex and a common arm, with non-common arms on opposite sides. If adjacent angles are supplementary, they form a linear pair.",
+            "formula": "adjacent: common vertex + common arm; linear pair: adjacent + sum = 180",
+            "key_idea": "Adjacent share vertex and arm. Linear pair sums to 180.",
+            "textbook_ref": "gemh105.txt lines 130-139",
+            "question_patterns": [
+                "identify adjacent angles",
+                "do they form a linear pair",
+                "adjacent complementary angles",
+                "adjacent angles that do not form linear pair",
+                "name the pairs of angles",
+            ],
+            "solution_type": "verify_property",
+            "solution_steps": [
+                {"step": 1, "action": "check common vertex", "explain": "Both angles must share a vertex"},
+                {"step": 2, "action": "check common arm", "explain": "Both angles must share one arm"},
+                {"step": 3, "action": "check non-common arms", "explain": "Non-common arms must be on opposite sides"},
+                {"step": 4, "action": "check linear pair", "explain": "If sum = 180, they form a linear pair"},
+            ],
+        },
+        {
+            "id": "c7m5.2.4",
+            "title": "Vertically Opposite Angles",
+            "section": "5.2",
+            "definition": "When two lines intersect, the angles opposite to each other are called vertically opposite angles. Vertically opposite angles are equal.",
+            "formula": "vertically opposite angles are equal",
+            "key_idea": "Opposite angles when lines intersect are equal.",
+            "textbook_ref": "gemh105.txt lines 134-139",
+            "question_patterns": [
+                "identify vertically opposite angles",
+                "obtuse vertically opposite angles",
+                "vertically opposite angles are equal",
+                "find vertically opposite angle",
+            ],
+            "solution_type": "verify_property",
+            "solution_steps": [
+                {"step": 1, "action": "find intersection", "explain": "Identify where two lines intersect"},
+                {"step": 2, "action": "identify opposite angles", "explain": "Angles directly across from each other"},
+                {"step": 3, "action": "state equality", "explain": "Vertically opposite angles are equal"},
+            ],
+        },
+        {
+            "id": "c7m5.3.1",
+            "title": "Intersecting Lines",
+            "section": "5.3.1",
+            "definition": "Two lines intersect if they have a point in common. The common point is the point of intersection.",
+            "formula": "intersecting lines share exactly one point",
+            "key_idea": "Lines that cross share one point.",
+            "textbook_ref": "gemh105.txt lines 140-170",
+            "question_patterns": [
+                "what are intersecting lines",
+                "point of intersection",
+                "do two lines always intersect",
+                "can two lines intersect at more than one point",
+                "find intersecting line segments",
+            ],
+            "solution_type": "verify_property",
+            "solution_steps": [
+                {"step": 1, "action": "check if lines cross", "explain": "Lines must share a common point"},
+                {"step": 2, "action": "find intersection point", "explain": "The common point is the point of intersection"},
+            ],
+        },
+        {
+            "id": "c7m5.3.2",
+            "title": "Transversal",
+            "section": "5.3.2",
+            "definition": "A transversal is a line that intersects two or more lines at distinct points.",
+            "formula": "transversal intersects 2+ lines at distinct points",
+            "key_idea": "A line cutting across two or more lines.",
+            "textbook_ref": "gemh105.txt lines 171-180",
+            "question_patterns": [
+                "what is a transversal",
+                "is this a transversal",
+                "identify the transversal",
+                "transversal to two lines",
+            ],
+            "solution_type": "verify_property",
+            "solution_steps": [
+                {"step": 1, "action": "check if line cuts 2+ lines", "explain": "A transversal must intersect at least two lines"},
+                {"step": 2, "action": "check distinct points", "explain": "Intersection points must be different"},
+            ],
+        },
+        {
+            "id": "c7m5.3.3",
+            "title": "Angles Made by a Transversal",
+            "section": "5.3.3",
+            "definition": "A transversal creates 8 angles: interior (3,4,5,6), exterior (1,2,7,8), corresponding pairs (1-5, 2-6, 3-7, 4-8), alternate interior pairs (3-6, 4-5), alternate exterior pairs (1-8, 2-7), interior on same side (3-5, 4-6).",
+            "formula": "8 angles: interior, exterior, corresponding, alternate, same-side",
+            "key_idea": "Transversal makes 8 angles with special pairs.",
+            "textbook_ref": "gemh105.txt lines 183-214",
+            "question_patterns": [
+                "identify corresponding angles",
+                "identify alternate interior angles",
+                "identify alternate exterior angles",
+                "interior angles on same side",
+                "name the pairs of angles",
+                "interior and exterior angles",
+            ],
+            "solution_type": "verify_property",
+            "solution_steps": [
+                {"step": 1, "action": "identify transversal and lines", "explain": "Find the transversal and the two lines it cuts"},
+                {"step": 2, "action": "label angles 1-8", "explain": "Number the angles in order"},
+                {"step": 3, "action": "classify pairs", "explain": "Corresponding: same position. Alternate: opposite sides, between lines. Same-side: same side, between lines."},
+            ],
+        },
+        {
+            "id": "c7m5.3.4",
+            "title": "Transversal of Parallel Lines",
+            "section": "5.3.4",
+            "definition": "If two parallel lines are cut by a transversal: (1) each pair of corresponding angles is equal, (2) each pair of alternate interior angles is equal, (3) each pair of interior angles on same side is supplementary.",
+            "formula": "parallel: corresponding = equal; alternate interior = equal; same-side interior = 180",
+            "key_idea": "Parallel lines: corresponding equal, alternate equal, same-side supplementary.",
+            "textbook_ref": "gemh105.txt lines 221-280",
+            "question_patterns": [
+                "if l parallel m find the angle",
+                "parallel lines cut by transversal",
+                "find x if l parallel m",
+                "corresponding angles equal",
+                "alternate interior angles equal",
+                "interior angles on same side supplementary",
+                "find unknown angles p parallel q",
+            ],
+            "solution_type": "compute",
+            "solution_steps": [
+                {"step": 1, "action": "identify angle relationship", "explain": "Determine if angles are corresponding, alternate, or same-side"},
+                {"step": 2, "action": "apply rule", "explain": "Corresponding/alternate = equal. Same-side = sum to 180."},
+                {"step": 3, "action": "solve for unknown", "explain": "Use the relationship to find the unknown angle"},
+            ],
+        },
+        {
+            "id": "c7m5.4.1",
+            "title": "Checking for Parallel Lines",
+            "section": "5.4",
+            "definition": "If a transversal cuts two lines such that (1) corresponding angles are equal, or (2) alternate interior angles are equal, or (3) interior angles on same side are supplementary, then the lines are parallel.",
+            "formula": "equal corresponding OR equal alternate OR supplementary same-side => parallel",
+            "key_idea": "Equal corresponding/alternate or supplementary same-side means parallel.",
+            "textbook_ref": "gemh105.txt lines 281-340",
+            "question_patterns": [
+                "is l parallel to m",
+                "check if lines are parallel",
+                "decide whether l is parallel to m",
+                "are the lines parallel",
+                "how to check parallel lines",
+            ],
+            "solution_type": "verify_property",
+            "solution_steps": [
+                {"step": 1, "action": "check corresponding angles", "explain": "If corresponding angles are equal, lines are parallel"},
+                {"step": 2, "action": "check alternate interior angles", "explain": "If alternate interior angles are equal, lines are parallel"},
+                {"step": 3, "action": "check same-side interior", "explain": "If same-side interior angles sum to 180, lines are parallel"},
+                {"step": 4, "action": "conclude", "explain": "If any condition holds, lines are parallel"},
+            ],
+        },
+    ],
+    "worked_examples": [
+        {
+            "id": "ex1",
+            "source_ref": "gemh105.txt lines 74-77",
+            "concept": "c7m5.2.1",
+            "question_type": "find_complement",
+            "question_pattern": "find the complement of {angle} degrees",
+            "extracted_variables": {
+                "angle": "given angle in degrees",
+            },
+            "solution_template": [
+                {"step": 1, "action": "subtract from 90", "explain": "complement = 90 - angle", "compute": "90 - angle"},
+                {"step": 2, "action": "report", "explain": "The complement is the result"},
+            ],
+        },
+        {
+            "id": "ex2",
+            "source_ref": "gemh105.txt lines 76-77",
+            "concept": "c7m5.2.1",
+            "question_type": "complement_with_difference",
+            "question_pattern": "difference of two complementary angles is {diff}. find the angles.",
+            "extracted_variables": {
+                "diff": "difference between the two angles",
+            },
+            "solution_template": [
+                {"step": 1, "action": "set up equations", "explain": "a + b = 90, a - b = diff"},
+                {"step": 2, "action": "add equations", "explain": "2a = 90 + diff, a = (90 + diff)/2"},
+                {"step": 3, "action": "find b", "explain": "b = 90 - a = (90 - diff)/2"},
+            ],
+        },
+        {
+            "id": "ex3",
+            "source_ref": "gemh105.txt lines 102-105",
+            "concept": "c7m5.2.2",
+            "question_type": "find_supplement",
+            "question_pattern": "find the supplement of {angle} degrees",
+            "extracted_variables": {
+                "angle": "given angle in degrees",
+            },
+            "solution_template": [
+                {"step": 1, "action": "subtract from 180", "explain": "supplement = 180 - angle", "compute": "180 - angle"},
+                {"step": 2, "action": "report", "explain": "The supplement is the result"},
+            ],
+        },
+        {
+            "id": "ex4",
+            "source_ref": "gemh105.txt lines 104-105",
+            "concept": "c7m5.2.2",
+            "question_type": "supplement_with_difference",
+            "question_pattern": "larger supplementary angle is {diff} more than smaller. find measures.",
+            "extracted_variables": {
+                "diff": "difference between larger and smaller",
+            },
+            "solution_template": [
+                {"step": 1, "action": "set up equations", "explain": "a + b = 180, a - b = diff"},
+                {"step": 2, "action": "add equations", "explain": "2a = 180 + diff, a = (180 + diff)/2"},
+                {"step": 3, "action": "find b", "explain": "b = 180 - a = (180 - diff)/2"},
+            ],
+        },
+        {
+            "id": "ex5",
+            "source_ref": "gemh105.txt lines 116-117",
+            "concept": "c7m5.2.1",
+            "question_type": "angle_equal_to_complement",
+            "question_pattern": "find the angle which is equal to its complement",
+            "solution_template": [
+                {"step": 1, "action": "set up equation", "explain": "angle = 90 - angle"},
+                {"step": 2, "action": "solve", "explain": "2*angle = 90, angle = 45"},
+            ],
+        },
+        {
+            "id": "ex6",
+            "source_ref": "gemh105.txt lines 117-118",
+            "concept": "c7m5.2.2",
+            "question_type": "angle_equal_to_supplement",
+            "question_pattern": "find the angle which is equal to its supplement",
+            "solution_template": [
+                {"step": 1, "action": "set up equation", "explain": "angle = 180 - angle"},
+                {"step": 2, "action": "solve", "explain": "2*angle = 180, angle = 90"},
+            ],
+        },
+        {
+            "id": "ex7",
+            "source_ref": "gemh105.txt lines 327-329",
+            "concept": "c7m5.3.4",
+            "question_type": "find_angles_parallel",
+            "question_pattern": "p parallel q. find the unknown angles.",
+            "solution_template": [
+                {"step": 1, "action": "identify given angle", "explain": "Find the known angle"},
+                {"step": 2, "action": "use corresponding/alternate", "explain": "Corresponding and alternate angles are equal for parallel lines"},
+                {"step": 3, "action": "use linear pair", "explain": "Angles on a straight line sum to 180"},
+                {"step": 4, "action": "find all angles", "explain": "Apply rules to find each unknown angle"},
+            ],
+        },
+        {
+            "id": "ex8",
+            "source_ref": "gemh105.txt lines 334-337",
+            "concept": "c7m5.3.4",
+            "question_type": "arms_parallel",
+            "question_pattern": "arms of two angles are parallel. if angle ABC = {angle}, find angle DGC and DEF.",
+            "extracted_variables": {
+                "angle": "given angle",
+            },
+            "solution_template": [
+                {"step": 1, "action": "use corresponding angles", "explain": "If arms are parallel, corresponding angles are equal"},
+                {"step": 2, "action": "find DGC", "explain": "angle DGC = angle ABC (corresponding)"},
+                {"step": 3, "action": "find DEF", "explain": "angle DEF = angle ABC (corresponding)"},
+            ],
+        },
+    ],
+    "exercises": [
+        {
+            "id": "ex5.1",
+            "source_ref": "gemh105.txt lines 106-139",
+            "questions": [
+                "Find the complement of each angle",
+                "Find the supplement of each angle",
+                "Identify which pairs are complementary and which are supplementary: 65,115; 63,27; 112,68; 130,50; 45,45; 80,10",
+                "Find the angle which is equal to its complement",
+                "Find the angle which is equal to its supplement",
+                "If angle 1 is decreased, what changes in angle 2 so both remain supplementary",
+                "Can two angles be supplementary if both are: acute? obtuse? right?",
+                "An angle is greater than 45. Is its complementary angle greater than, equal to, or less than 45?",
+                "Fill in blanks: complementary sum = ?; supplementary sum = ?; adjacent supplementary form a ?",
+                "Name pairs: obtuse vertically opposite; adjacent complementary; equal supplementary; unequal supplementary; adjacent not linear pair",
+            ],
+        },
+        {
+            "id": "ex5.2",
+            "source_ref": "gemh105.txt lines 314-340",
+            "questions": [
+                "State the property: if a||b then angle1=angle5; if angle4=angle6 then a||b; if angle4+angle5=180 then a||b",
+                "Identify pairs of corresponding, alternate interior, same-side interior, vertically opposite angles",
+                "p||q. Find the unknown angles",
+                "Find value of x if l||m",
+                "Arms of two angles are parallel. If angle ABC=70, find angle DGC and DEF",
+                "Decide whether l is parallel to m in given figures",
+            ],
+        },
+    ],
+}
+
+
+def main():
+    out_dir = os.path.dirname(os.path.abspath(__file__))
+    out_path = os.path.join(out_dir, "catalog_class7_maths_ch5_lines_angles.json")
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(CATALOG, f, indent=2, ensure_ascii=True)
+    print("Wrote catalog to:", out_path)
+    print("Concepts:", len(CATALOG["concepts"]))
+    print("Worked examples:", len(CATALOG["worked_examples"]))
+    print("Exercises:", len(CATALOG["exercises"]))
+    print("Total exercise questions:", sum(len(e["questions"]) for e in CATALOG["exercises"]))
+
+
+if __name__ == "__main__":
+    main()

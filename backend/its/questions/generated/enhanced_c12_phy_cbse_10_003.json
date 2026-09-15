@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_10_003",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_10_003",
+   "title": "c12_phy_cbse_10_003",
+   "questions": [
+    {
+     "q": "State the non-relativistic formula for the observed frequency of light when the source moves towards a stationary observer with speed v. Define each symbol and its SI unit.",
+     "a": "ν' = ν (1 + v/c), where ν' = observed frequency (Hz), ν = source frequency (Hz), v = relative speed of approach (m/s), c = speed of light in vacuum (3 × 10⁸ m/s). A wrong answer (e.g., ν' = ν c/(c - v) as for sound) reveals the student is applying the sound-wave formula, forgetting that light has no medium and the effect is symmetric.",
+     "self_check": true
+    },
+    {
+     "q": "A hydrogen spectral line has a rest wavelength of 656.3 nm (Hα). In a distant galaxy's spectrum, this line is observed at 660.0 nm. Is the galaxy moving towards or away from us? Explain how you know without calculating the velocity.",
+     "a": "The galaxy is moving away (receding). The observed wavelength (660.0 nm) is longer than the rest wavelength (656.3 nm), so the light is red-shifted. A student who says \"towards\" confuses the direction: longer wavelength = lower frequency = red shift = recession. This tests understanding of the colour-shift convention.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the radial velocity of the galaxy in Question 2 using the non-relativistic approximation. Express your answer in km/s.",
+     "a": "Given: λ₀ = 656.3 nm, λ = 660.0 nm. Δλ = 3.7 nm. v = c (Δλ/λ₀) = (3 × 10⁸ m/s) × (3.7 / 656.3) ≈ 1.69 × 10⁶ m/s = 1690 km/s (receding, so positive). A wrong answer often comes from using λ instead of λ₀ in the denominator, or forgetting to convert m/s to km/s. The non-relativistic approximation is valid here because v/c ≈ 0.0056 ≪ 1.",
+     "self_check": true
+    },
+    {
+     "q": "A radar gun emits microwaves of frequency 10 GHz. A car approaches the gun at 30 m/s. The waves reflect off the car and return to the gun. What is the beat frequency between the emitted and received signals? (Hint: The car acts as a moving observer then a moving source.)",
+     "a": "Two Doppler shifts occur: (1) Car as moving observer: ν₁ = ν₀ (1 + v/c). (2) Car as moving source re-emitting: ν₂ = ν₁ / (1 - v/c) ≈ ν₁ (1 + v/c) ≈ ν₀ (1 + 2v/c). Beat frequency = ν₂ - ν₀ ≈ 2ν₀v/c = 2 × 10¹⁰ × 30 / (3 × 10⁸) = 2000 Hz. A common error is to apply only one shift (giving 1000 Hz) or to use the sound formula. This tests understanding of double Doppler shift in radar.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The relativistic Doppler formula for light is ν' = ν √[(1+β)/(1-β)] where β = v/c. For a source moving away, we just put a minus sign in front of β.\" Evaluate this claim and correct it if necessary.",
+     "a": "The claim is incorrect. For recession, β is taken as negative (v is velocity vector away from observer), so the formula becomes ν' = ν √[(1-β)/(1+β)] which automatically gives ν' < ν. Putting a minus sign in front of β outside the square root is wrong. The correct procedure: define β = v/c with sign (positive for approach), then use ν' = ν √[(1+β)/(1-β)]. This tests precise understanding of the relativistic formula's sign convention.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple thought experiment using a spaceship moving at 0.8c towards a star emitting yellow light (λ₀ = 580 nm). What colour would the astronaut see? Justify using the relativistic formula.",
+     "a": "β = 0.8. ν'/ν = √[(1+0.8)/(1-0.8)] = √[1.8/0.2] = √9 = 3. So λ' = λ₀/3 = 580/3 ≈ 193 nm (ultraviolet). The astronaut would not see a visible colour; the light shifts out of the visible range into UV. A good answer recognises that the non-relativistic formula (which would give λ' = λ₀/(1+0.8) ≈ 322 nm, still UV) is inaccurate at this speed, and that the shift is large enough to change the perceived colour entirely. A poor answer gives a visible colour (e.g., \"blue\") without calculation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

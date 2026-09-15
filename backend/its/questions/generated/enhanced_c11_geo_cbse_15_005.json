@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_15_005",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_15_005",
+   "title": "c11_geo_cbse_15_005",
+   "questions": [
+    {
+     "q": "What is the specific section of the Wildlife Protection Act, 1972 under which a National Park is declared, and what is the one human activity that is absolutely prohibited in a National Park but may be permitted in a Wildlife Sanctuary?",
+     "a": "A National Park is declared under Section 35 of the Wildlife Protection Act, 1972. The one human activity absolutely prohibited in a National Park is *grazing of livestock* (and by extension, any human habitation or resource extraction), whereas in a Wildlife Sanctuary, the Chief Wildlife Warden may regulate and permit grazing under Section 29. A wrong answer (e.g., citing Section 18 for National Parks, or saying tourism is prohibited in both) reveals confusion between the declaration sections and a failure to grasp the legal hierarchy of protection.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Wildlife Protection Act prohibit the alteration of boundaries of a National Park without a resolution of the State Legislature, while the boundaries of a Wildlife Sanctuary can be altered by a notification after consultation with the State Board for Wildlife?",
+     "a": "The higher legislative hurdle for National Parks (State Legislature resolution) reflects their stricter conservation mandate: they are intended to be inviolate core zones where ecological processes remain undisturbed in perpetuity. Sanctuaries, while protected, accommodate pre-existing rights and regulated use, so their boundaries need more administrative flexibility. A wrong answer (e.g., \"National Parks are larger\" or \"Sanctuaries are less important\") reveals a misconception that size or significance drives the legal difference, rather than the *degree of human exclusion* intended by the law.",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of India, you see a protected area in the Sundarbans delta marked as a National Park and another in the same region marked as a Wildlife Sanctuary. The Sanctuary area has traditional fishing communities living inside, while the National Park has no permanent settlements. Using the legal definitions, explain why the National Park core was carved out separately from the Sanctuary.",
+     "a": "Step 1: Identify the conservation objective — the Sundarbans National Park (core of Sundarbans Tiger Reserve) protects the critical tiger habitat and mangrove ecosystem with zero human disturbance. Step 2: Recall Section 35 — no human habitation or resource use allowed in National Parks. Step 3: Recall Section 18/29 — Sanctuaries allow regulated continuation of traditional rights (like fishing). Step 4: Apply — the National Park was carved out as an inviolate core to meet Project Tiger's 'core-buffer' strategy, while the surrounding Sanctuary accommodates the socio-ecological reality of traditional fishing communities. A wrong answer (e.g., \"the Sanctuary was created first\" or \"the National Park is for tourists\") misses the legal-ecological rationale of core-buffer zoning.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the conservation effectiveness of the following two scenarios: (A) A 500 km² National Park surrounded by intensive agriculture, and (B) A 500 km² Wildlife Sanctuary embedded in a landscape of community-managed forests with sustainable extraction. Which is likely to maintain higher ecological integrity for a wide-ranging predator like the tiger, and why?",
+     "a": "Scenario A (National Park) is likely to maintain higher ecological integrity *inside its boundaries* for a tiger because the legal prohibition on all extraction and habitation creates a secure, inviolate core essential for breeding. However, its long-term viability is threatened by the hard edge with agriculture (human-wildlife conflict, isolation). Scenario B (Sanctuary) has a softer edge with community forests providing connectivity, but regulated extraction inside the Sanctuary (grazing, NTFP collection) can degrade habitat quality and increase human-tiger conflict. The *trade-off* is between legal inviolability (National Park) and landscape connectivity (Sanctuary in a friendly matrix). A wrong answer that picks one without acknowledging the trade-off reveals a simplistic \"stricter is always better\" misconception, ignoring landscape-scale conservation geography.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement: \"Upgrading all Wildlife Sanctuaries to National Parks would automatically improve biodiversity conservation in India.\"",
+     "a": "The statement is flawed. Upgrading imposes a strict legal regime that may be ecologically inappropriate and socially unjust in areas where local communities have coexisted sustainably with wildlife for generations (e.g., many Sanctuaries in the Northeast or Western Ghats with tribal populations). Forced eviction to meet National Park standards violates the Forest Rights Act, 2006, creates conflict, and can lead to *de facto* loss of protection due to hostility. Conservation effectiveness depends on *context-appropriate* governance, not just legal category. A wrong answer that agrees reveals a \"paper park\" fallacy — assuming legal designation alone ensures outcomes, ignoring implementation capacity, social legitimacy, and landscape context.",
+     "self_check": true
+    },
+    {
+     "q": "Design a proposal for a new Protected Area in the Aravali Hills of Haryana (a highly fragmented, human-dominated landscape) that balances leopard conservation with the grazing needs of pastoral communities. Specify whether you would recommend a National Park or Wildlife Sanctuary, define the zoning, and justify your choice using the legal provisions of the Wildlife Protection Act.",
+     "a": "A good proposal would recommend a **Wildlife Sanctuary** with a **zoning plan**: a small Core Zone (inviolate, ~100 km²) managed as a de facto National Park for leopard breeding, and a larger Buffer Zone where regulated rotational grazing by pastoralists is permitted under Section 29, coupled with eco-development committees. Justification: The Aravalis are too fragmented and human-dominated for a full National Park; a Sanctuary allows legal recognition of pastoral rights (Forest Rights Act) while securing a core. The proposal must cite Section 18 (declaration), Section 29 (regulation of activities), and Section 33 (management plan). A poor answer that recommends a National Park and ignores pastoralists reveals a failure to apply the *principle of context-appropriate category selection* and the legal flexibility of Sanctuaries.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

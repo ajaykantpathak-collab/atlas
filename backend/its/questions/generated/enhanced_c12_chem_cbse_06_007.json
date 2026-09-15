@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_06_007",
+   "title": "c12_chem_cbse_06_007",
+   "questions": [
+    {
+     "q": "Define SN2 reaction and write its rate law. What does \"bimolecular\" signify in this context?",
+     "a": "SN2 is a concerted, one-step nucleophilic substitution where the nucleophile attacks from the backside, leading to inversion of configuration. Rate law: rate = k[alkyl halide][nucleophile]. \"Bimolecular\" means the rate-determining step involves collision of two molecules (substrate and nucleophile). A wrong answer (e.g., rate = k[alkyl halide] only) reveals confusion with SN1 unimolecular kinetics.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why (CH₃)₃CBr (tert-butyl bromide) undergoes SN2 reaction extremely slowly, while CH₃Br (methyl bromide) reacts rapidly. Use the concept of transition state geometry.",
+     "a": "In the SN2 transition state, the carbon is pentacoordinate (trigonal bipyramidal) with the nucleophile and leaving group at axial positions. Tert-butyl bromide has three bulky methyl groups that create severe steric repulsion with the incoming nucleophile, raising the activation energy. Methyl bromide has only small hydrogen atoms, offering minimal steric hindrance. A wrong answer citing carbocation stability reveals confusion with SN1 mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "(R)-2-bromobutane reacts with NaOH(aq) via SN2 mechanism. Draw the product with correct stereochemistry (wedge/dash) and name it. What is the relationship between reactant and product configurations?",
+     "a": "The product is (S)-butan-2-ol. The nucleophile (OH⁻) attacks from the backside, inverting the chiral center. The relationship is inversion of configuration (Walden inversion). If the student draws (R)-butan-2-ol, they have missed the stereochemical consequence of backside attack. If they draw a racemic mixture, they are confusing SN2 with SN1.",
+     "self_check": true
+    },
+    {
+     "q": "Rank the following in order of increasing SN2 reactivity: CH₃Cl, CH₃Br, CH₃I, CH₃F. Justify your ranking using bond dissociation energy and leaving group ability.",
+     "a": "CH₃F < CH₃Cl < CH₃Br < CH₃I. The C–X bond strength decreases down the group (C–F ~452 kJ/mol, C–Cl ~351, C–Br ~293, C–I ~234 kJ/mol). Weaker bond breaks more easily in the transition state. Also, I⁻ is the best leaving group (most stable anion due to large size, polarizability). A wrong ranking (e.g., CH₃F > CH₃Cl) indicates misunderstanding of leaving group trends or bond strength data.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"SN2 reactions are faster in polar protic solvents like water because they stabilize the nucleophile.\" Evaluate this statement and correct it if necessary.",
+     "a": "The statement is incorrect. Polar protic solvents (H₂O, ROH) hydrogen-bond to anions, heavily solvating and stabilizing the nucleophile, which reduces its reactivity. SN2 reactions are faster in polar aprotic solvents (acetone, DMSO, DMF) that solvate cations but leave anions \"naked\" and more reactive. A student who agrees with the statement confuses solvent effects on SN1 (where protic solvents stabilize carbocation and leaving group) with SN2.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple chemical test using only NaI in dry acetone to distinguish between 1-chlorobutane and 2-chloro-2-methylpropane. Explain the expected observations and the underlying principle.",
+     "a": "Add NaI in dry acetone to each halide. 1-Chlorobutane (primary) reacts rapidly via SN2: NaCl precipitates (white solid) as the Finkelstein exchange occurs (R–Cl + NaI → R–I + NaCl↓). 2-Chloro-2-methylpropane (tertiary) shows no precipitate because SN2 is sterically blocked. The test exploits the dramatic reactivity difference due to steric hindrance. A poor answer might suggest both react or neither reacts, missing the steric argument.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

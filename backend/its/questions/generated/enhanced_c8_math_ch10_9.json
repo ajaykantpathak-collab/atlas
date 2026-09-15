@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch10_9",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch10_9",
+   "title": "c8_math_ch10_9",
+   "questions": [
+    {
+     "q": "If 8 machines can complete a task in 15 days, how many machines are needed to complete the same task in 10 days? State the inverse proportion relationship used.",
+     "a": "The inverse proportion relationship is machines × days = constant. So 8 × 15 = m × 10, giving m = 12 machines. A wrong answer like 5 machines (using direct proportion 8/15 = m/10) reveals the student incorrectly assumes more machines means more days, failing to recognise the inverse relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the relationship between the number of workers and the time taken to complete a fixed job is an inverse proportion, using the concept of \"total work\" or \"worker-days\".",
+     "a": "Total work = number of workers × time taken. For a fixed job, total work is constant. If workers increase, time must decrease proportionally to keep the product constant. A wrong explanation like \"more workers work faster so time increases\" shows confusion between rate and total time, or misunderstanding that the job size is fixed.",
+     "self_check": true
+    },
+    {
+     "q": "A car travels at 60 km/h and takes 4 hours to reach a destination. At what speed must it travel to reach the same destination in 3 hours? Show all steps.",
+     "a": "Speed × time = distance (constant). 60 × 4 = s × 3 → 240 = 3s → s = 80 km/h. Steps: 1) Identify inverse relation: speed ↑ → time ↓ for fixed distance. 2) Write equation: s₁t₁ = s₂t₂. 3) Substitute: 60 × 4 = s₂ × 3. 4) Solve: s₂ = 240/3 = 80 km/h. 5) Verify: 80 × 3 = 240 km, same distance. A wrong answer of 45 km/h (using direct proportion) reveals treating speed and time as directly proportional.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two situations: (A) 5 pipes fill a tank in 12 minutes. How long for 8 pipes? (B) 5 pipes fill a tank in 12 minutes. How many pipes to fill in 8 minutes? Identify which uses inverse proportion and explain why the other might be different if the tank size changes.",
+     "a": "Both use inverse proportion: pipes × time = constant (rate × time = volume). (A) 5 × 12 = 8 × t → t = 7.5 min. (B) 5 × 12 = p × 8 → p = 7.5 pipes → 8 pipes (since pipes must be whole). The tank size (volume) is the constant product. If tank size changed, the constant k would change, but the inverse relationship between pipes and time for a given tank remains. Wrong analysis might treat (A) and (B) as different proportion types.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"12 men can dig a trench in 8 days. How many days for 6 men?\" Their working: 12/8 = 6/d → d = 4 days. Is this correct? Identify the error and give the correct answer.",
+     "a": "Incorrect. The student used direct proportion (12/8 = 6/d) instead of inverse proportion. Correct: men × days = constant → 12 × 8 = 6 × d → 96 = 6d → d = 16 days. The error reveals the student sees \"12 to 6 is halving\" and assumes days also halve, not realising fewer men need more days. The product 12×8=96 man-days must stay constant.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life inverse proportion problem involving ₹5000 budget, number of items, and price per item. Write the problem statement, identify the constant product, and solve it.",
+     "a": "Example: \"With ₹5000, you can buy 25 notebooks at ₹200 each. If the price increases to ₹250 per notebook, how many can you buy?\" Constant product = total budget = ₹5000. Price × quantity = 5000. 250 × q = 5000 → q = 20 notebooks. A poor problem might use varying budget or add unrelated quantities, showing inability to isolate the inverse pair and identify the fixed constraint.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

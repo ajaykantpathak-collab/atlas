@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_02_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_02_012",
+   "title": "c11_eng_h_cbse_02_012",
+   "questions": [
+    {
+     "q": "Identify whether the following question is literal or inferential: \"List the steps taken by the captain to protect the ship when rough weather began.\"",
+     "a": "This is a literal comprehension question because it asks for explicitly stated actions (\"steps taken\") that are directly narrated in the text (dropping storm jib, lashing mooring rope, double-lashing, life-raft drill, lifelines, oilskins, life jackets). A wrong answer classifying it as inferential reveals the student cannot distinguish between retrieval of stated facts and interpretation of implied meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the narrator says \"I accepted my approaching death, and as I was losing consciousness, I felt quite peaceful\" — what does this reveal about his state of mind?",
+     "a": "This is an inferential question. The correct interpretation: the narrator's peace reflects resignation born of exhaustion and the human mind's protective surrender when survival seems impossible, not willingness to die. A wrong answer stating \"he wanted to die\" or \"he was calm because he knew he'd survive\" reveals the misconception that inferential answers can ignore contextual contradiction (he fights to live immediately after) or project the reader's emotions onto the character.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the literal/inferential distinction to this new question: \"Quote the exact words Sue wrote in her card to her parents.\" Classify the question type and provide the answer.",
+     "a": "Question type: Literal (asks for exact quoted words). Answer: Front — \"Here are some funny people. Did they make you laugh? I laughed a lot as well.\" Inside — \"Oh, how I love you both. So this card is to say thank you and let's hope for the best.\" Steps: 1) Identify keyword \"quote exact words\" = literal retrieval. 2) Locate card description in text (near end of January 6 section). 3) Transcribe verbatim. 4) Verify no paraphrasing. A wrong paraphrased answer reveals inability to follow the precision demand of literal questions.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the shift in narration across the three sections of the text (pre-storm, storm/survival, rescue). How does the narrative perspective change, and what effect does this create?",
+     "a": "This is an inferential question requiring synthesis across the text. Section 1 (pre-storm): calm, reflective, technical, future-oriented (\"we had dreamt,\" \"honing our skills\"). Section 2 (storm/survival): visceral, immediate, fragmented, sensory-dominated (\"screaming of the wind,\" \"head smashed,\" \"mouth filled with blood\"). Section 3 (rescue): retrospective, emotional, focused on others' courage (\"thoughts were full of Larry and Herbie,\" \"most of all, I thought of a seven-year-old girl\"). Effect: mirrors the psychological arc from control to chaos to gratitude, positioning the reader to experience the ordeal viscerally then reflect on its meaning. A wrong answer listing only events without analyzing perspective shift reveals failure to distinguish narrative voice from plot summary.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student answer to an inferential question: \"Question: Why did Jonathan say 'we aren't afraid of dying if we can all be together'? Answer: Because he is a brave child who loves his family.\" Is this a board-exam worthy answer? Justify.",
+     "a": "No, this answer is insufficient for board exams. It states a valid inference (bravery, love) but provides zero textual evidence or explanatory reasoning. Board-standard inferential answers require: (1) Point — Jonathan's statement reflects collective courage over individual fear. (2) Evidence — Direct quote + context: spoken on January 5 when \"situation was again desperate,\" after 36 hours of pumping, to comfort his father. (3) Explanation — The child reframes death as acceptable only within familial unity, transforming terror into purpose, which galvanizes the narrator (\"determined to fight the sea with everything I had\"). A student giving the bare assertion reveals the misconception that inferential answers are opinion-based rather than evidence-constructed arguments.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new inferential question based on the text that requires synthesizing clues from at least two different sections of the narrative. Provide the question and a model answer outline.",
+     "a": "Question: \"How does the narrator's leadership evolve from the moment the wave hits (January 2) to the morning of January 6? Support with evidence.\" Model outline: (1) Initial reaction: instinctive survival (grabs wheel, lines up stern) — Section 2. (2) Transition: delegates wheel to Mary, repairs hull, manages pumps — shows tactical thinking. (3) Crisis management: improvises sea anchor (heave-to), calculates position with faulty compass — shows innovation under constraint. (4) Psychological leadership: absorbs children's fear, converts it to resolve (\"determined to fight\") — shows emotional intelligence. (5) Final phase: trusts crew, accepts children's sighting — shows collaborative command. A poor answer listing only actions without tracing the evolution reveals inability to track character development across narrative time.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

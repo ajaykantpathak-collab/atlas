@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_03_007",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_03_007",
+   "title": "c10_phy_cbse_03_007",
+   "questions": [
+    {
+     "q": "State the exact nuclear equation for the fission of uranium-235 when bombarded with a thermal neutron, producing barium-141 and krypton-92. Include the number of neutrons released.",
+     "a": "⁹²U²³⁵ + ⁰n¹ → ⁵⁶Ba¹⁴¹ + ³⁶Kr⁹² + 3 ⁰n¹. A wrong answer (e.g., wrong isotopes, missing neutrons, or incorrect atomic numbers) reveals the student does not conserve both mass number and atomic number in nuclear equations — a fundamental requirement for board exam nuclear reaction questions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why nuclear fusion reactions require temperatures of the order of 10⁷ K, whereas nuclear fission can be initiated at room temperature with thermal neutrons.",
+     "a": "Fusion requires overcoming the electrostatic repulsion (Coulomb barrier) between positively charged nuclei, which needs high kinetic energy (high temperature). Fission is initiated by a neutral neutron which experiences no Coulomb repulsion, so it can be captured even at thermal energies. A wrong answer (e.g., \"fusion needs heat to melt the nuclei\" or \"fission doesn't need energy\") reveals confusion between thermal energy as a trigger vs. thermal energy to overcome repulsion, and ignorance of the neutron's neutral charge.",
+     "self_check": true
+    },
+    {
+     "q": "In a fission reaction, the mass defect is measured as 0.215 u. Calculate the energy released in joules. (Given: 1 u = 1.66 × 10⁻²⁷ kg, c = 3 × 10⁸ m/s).",
+     "a": "Step 1: Convert mass defect to kg: Δm = 0.215 u × 1.66 × 10⁻²⁷ kg/u = 3.569 × 10⁻²⁸ kg.\nStep 2: Use E = Δmc² = (3.569 × 10⁻²⁸ kg) × (3 × 10⁸ m/s)² = 3.569 × 10⁻²⁸ × 9 × 10¹⁶ = 3.2121 × 10⁻¹¹ J.\nStep 3: Round to appropriate significant figures: 3.21 × 10⁻¹¹ J.\nA wrong answer (e.g., forgetting to convert u to kg, using c instead of c², or unit mismatch) reveals the student cannot perform the multi-step unit conversion and algebraic substitution required for board exam numerical problems on mass-energy equivalence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the energy released per kilogram of fuel for fission of U-235 and fusion of deuterium-tritium. Given: fission of one U-235 nucleus releases ~200 MeV; fusion of one D-T pair releases ~17.6 MeV. Molar mass of U-235 = 235 g/mol; molar mass of D-T mixture ≈ 5 g/mol (2+3). Avogadro's number = 6.022 × 10²³ mol⁻¹. 1 eV = 1.6 × 10⁻¹⁹ J.",
+     "a": "Fission: Energy per nucleus = 200 MeV = 200 × 10⁶ × 1.6 × 10⁻¹⁹ J = 3.2 × 10⁻¹¹ J. Nuclei per kg = (1000 g / 235 g/mol) × 6.022 × 10²³ = 2.56 × 10²⁴. Total = 3.2 × 10⁻¹¹ × 2.56 × 10²⁴ = 8.19 × 10¹³ J/kg.\nFusion: Energy per reaction = 17.6 MeV = 2.816 × 10⁻¹² J. Reactions per kg = (1000 g / 5 g/mol) × 6.022 × 10²³ = 1.204 × 10²⁶. Total = 2.816 × 10⁻¹² × 1.204 × 10²⁶ = 3.39 × 10¹⁴ J/kg.\nFusion releases ~4 times more energy per kg. A wrong answer (e.g., comparing per nucleus only, or miscalculating moles) reveals the student cannot scale microscopic energy to macroscopic quantities — a common board exam trap in \"energy from the nucleus\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In a nuclear power plant, the mass of uranium fuel decreases every day because mass is converted into energy. Therefore, if we collect all the fission products and the used fuel, their total mass will be exactly equal to the initial mass of uranium loaded.\" Evaluate this statement.",
+     "a": "The statement is false. The total mass of fission products + used fuel + emitted radiation (neutrons, gamma rays, kinetic energy of fragments) is less than the initial uranium mass. The \"missing mass\" (mass defect) has been converted into energy (heat, radiation) that has left the system. Mass-energy is conserved, but mass alone is not conserved in nuclear reactions. A wrong evaluation (agreeing with the student) reveals the misconception that mass is conserved separately in nuclear reactions, confusing chemical reactions (where mass change is negligible) with nuclear reactions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration (using everyday materials) to model the concept of a chain reaction in nuclear fission. Explain how your model represents neutrons, uranium nuclei, and the critical mass condition.",
+     "a": "A good model: Use a tray of mousetraps (set) with a ping-pong ball on each. Throw one ball (initial neutron) — it hits a trap, releasing two balls (neutrons), which hit two more traps, etc. This shows exponential growth. Critical mass = minimum number of traps needed so that on average each fission triggers at least one more fission. A poor model (e.g., dominoes falling in a line) reveals the student does not grasp the branching, multiplicative nature of a chain reaction versus a linear sequence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

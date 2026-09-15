@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_04_006",
+   "title": "c12_biotech_cbse_04_006",
+   "questions": [
+    {
+     "q": "What is the key antigenic component used in the recombinant hepatitis B subunit vaccine, and in which host organism is it commercially produced?",
+     "a": "The key antigenic component is the hepatitis B surface antigen (HBsAg), produced in Saccharomyces cerevisiae (yeast). A wrong answer (e.g., \"whole killed virus\" or \"E. coli\") reveals confusion between subunit vaccines and conventional inactivated vaccines, or ignorance of the expression system that allows proper folding and glycosylation of HBsAg.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a DNA vaccine can induce both humoral and cell-mediated immunity, whereas a subunit vaccine primarily induces humoral immunity.",
+     "a": "DNA vaccines lead to endogenous antigen synthesis inside transfected host cells, allowing presentation on MHC class I (activating CD8+ cytotoxic T cells) and MHC class II (activating CD4+ helper T cells and B cells). Subunit vaccines deliver exogenous protein, which is mainly taken up by APCs and presented on MHC class II, favoring antibody production. A wrong answer that says \"DNA vaccines enter the nucleus\" or \"subunit vaccines cannot activate T cells\" shows misunderstanding of antigen processing pathways.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to construct a DNA vaccine plasmid for a viral antigen. List the essential genetic elements that must be present in the plasmid backbone for it to function as a DNA vaccine in mammalian muscle cells.",
+     "a": "Essential elements: (1) a strong eukaryotic promoter (e.g., CMV immediate-early promoter), (2) the antigen coding sequence with Kozak consensus, (3) a polyadenylation signal (e.g., SV40 polyA or bGH polyA), (4) an origin of replication for plasmid propagation in E. coli (e.g., pUC ori), (5) a bacterial selectable marker (e.g., ampicillin resistance), and (6) optionally an enhancer element. Missing any of the first three will prevent antigen expression in mammalian cells; missing the bacterial elements prevents plasmid amplification.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cold-chain requirements and stability profiles of recombinant subunit vaccines versus DNA vaccines. Which is more suitable for resource-limited settings and why?",
+     "a": "Subunit vaccines (protein-based) require strict 2–8 °C cold chain and are sensitive to heat and freeze-thaw cycles. DNA vaccines (plasmid DNA) are stable at room temperature for months and can be lyophilized for even longer shelf life, making them far more suitable for resource-limited settings. A wrong answer that claims \"DNA vaccines need -80 °C\" confuses them with mRNA vaccines.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement: \"DNA vaccines are superior to subunit vaccines because they integrate into the host genome and provide lifelong immunity.\"",
+     "a": "The statement is false on two counts: (1) DNA vaccines (plasmid DNA) do NOT integrate into the host genome; they remain episomal and are diluted over cell divisions, which is a safety advantage. (2) Immunity is not necessarily lifelong; booster doses may be needed. A student who agrees reveals a dangerous misconception about genomic integration risk and overestimates duration of protection.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical recombinant subunit vaccine for a new respiratory virus. Specify: (a) the antigen you would choose, (b) the expression host (yeast, mammalian, or insect), (c) the purification strategy, and (d) one adjuvant you would include. Justify each choice.",
+     "a": "Good answer example: (a) Receptor-binding domain (RBD) of spike protein — elicits neutralizing antibodies. (b) Mammalian cells (CHO) — for proper glycosylation matching native virus. (c) His-tag affinity chromatography followed by size-exclusion chromatography. (d) Aluminum hydroxide (alum) — Th2-skewing, safe, approved for human use. Poor answers choose E. coli for a glycosylated protein or omit adjuvant justification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

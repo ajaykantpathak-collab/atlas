@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_14_009",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_14_009",
+   "title": "c10_math_cbse_14_009",
+   "questions": [
+    {
+     "q": "How many cards are there in a standard deck, and how many of them are face cards? Write the probability of drawing a face card in simplest form.",
+     "a": "A standard deck has 52 cards. Face cards are Jack, Queen, King of each suit (4 suits × 3 = 12 face cards). Probability = 12/52 = 3/13. A wrong answer of 16/52 or 4/13 reveals the student incorrectly includes Aces as face cards or miscounts suits. An answer of 12/52 without simplification shows incomplete simplification skill.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the probability of drawing a \"red face card\" as 6/52 = 3/26. Another student says it should be 12/52 = 3/13 because there are 12 face cards total. Which student is correct and WHY? Explain the error in the other student's reasoning.",
+     "a": "The first student is correct. Red face cards = Jack, Queen, King of Hearts (3) + Jack, Queen, King of Diamonds (3) = 6 cards. Probability = 6/52 = 3/26. The second student incorrectly uses total face cards (12) instead of only RED face cards, ignoring the \"red\" condition. This reveals confusion between \"face card\" and \"red face card\" — the student fails to apply intersection of two conditions (red AND face card).",
+     "self_check": true
+    },
+    {
+     "q": "A card is drawn at random from a well-shuffled deck of 52 cards. Find the probability that the card drawn is: (i) a black queen, (ii) a card of hearts, (iii) a number card less than 5 (Ace counts as 1, face cards not included).",
+     "a": "(i) Black queens = Queen of Clubs, Queen of Spades = 2 cards. P = 2/52 = 1/26.\n(ii) Hearts = 13 cards. P = 13/52 = 1/4.\n(iii) Number cards less than 5: Ace(1), 2, 3, 4 in each suit = 4 ranks × 4 suits = 16 cards. P = 16/52 = 4/13.\nA wrong answer of 12/52 for (iii) reveals the student excluded Aces or miscounted ranks. An answer of 13/52 for (i) shows confusion between \"queen\" (4 cards) and \"black queen\" (2 cards).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the probabilities: P(drawing a king) vs P(drawing a red card) vs P(drawing a king OR a red card). Which is largest? Which is smallest? Justify using the addition rule P(A ∪ B) = P(A) + P(B) - P(A ∩ B).",
+     "a": "P(king) = 4/52 = 1/13 ≈ 0.077. P(red) = 26/52 = 1/2 = 0.5. P(king ∪ red) = P(king) + P(red) - P(red king) = 4/52 + 26/52 - 2/52 = 28/52 = 7/13 ≈ 0.538. Largest: P(king ∪ red). Smallest: P(king). A student who says P(king ∪ red) = 30/52 forgets to subtract the intersection (2 red kings), double-counting them. This reveals misunderstanding of the addition rule for non-mutually exclusive events.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Probability of drawing a spade or an ace\" as follows: Spades = 13, Aces = 4, Total favourable = 13 + 4 = 17, P = 17/52. Is this correct? If not, identify the error and give the correct probability.",
+     "a": "Incorrect. The student double-counted the Ace of Spades (it is both a spade AND an ace). Correct: P(spade ∪ ace) = P(spade) + P(ace) - P(ace of spades) = 13/52 + 4/52 - 1/52 = 16/52 = 4/13. The error is failing to apply the intersection subtraction for non-mutually exclusive events. This is a classic board exam trap — students add 13 + 4 = 17 instead of 13 + 4 - 1 = 16.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem on playing cards probability that requires using the complement rule P(not E) = 1 - P(E) and involves at least two conditions (e.g., \"neither a king nor a heart\"). Write the problem, solve it step-by-step, and explain why the complement method is easier than direct counting.",
+     "a": "Sample problem: \"A card is drawn from a well-shuffled deck. Find the probability that it is neither a king nor a heart.\"\nSolution: P(king ∪ heart) = 4/52 + 13/52 - 1/52 = 16/52 = 4/13. P(neither) = 1 - 4/13 = 9/13.\nDirect counting: Cards that are neither king nor heart = 52 - 16 = 36. P = 36/52 = 9/13.\nComplement is easier because counting the union (16 cards) is simpler than listing 36 excluded cards. A poor problem would be trivial (e.g., \"not an ace\") or not require complement. This tests synthesis of complement rule with union of events.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_05_003",
+   "title": "c11_biotech_cbse_05_003",
+   "questions": [
+    {
+     "q": "A student observes a cell under the microscope where chromosomes appear as thin, long threads and the nuclear envelope is still intact. Which stage of mitosis is this cell most likely in, and what specific molecular event must occur next for the cell to progress?",
+     "a": "The cell is in early prophase. Chromatin condensation by condensin complexes has begun but chromosomes are not yet fully condensed. The next critical event is the breakdown of the nuclear envelope (driven by phosphorylation of nuclear pore proteins and lamins by CDK1-cyclin B), which allows spindle microtubules to access kinetochores. A wrong answer (e.g., \"metaphase\" or \"interphase\") reveals confusion between chromatin thread visibility (prophase) versus discrete chromosome visibility (metaphase) and ignorance of nuclear envelope breakdown as a prerequisite for spindle-chromosome interaction.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why sister chromatids do not separate during metaphase even though they are pulled toward opposite poles by spindle microtubules.",
+     "a": "Sister chromatids are held together by cohesin protein complexes along their length, particularly at the centromere. During metaphase, tension from bipolar microtubule attachment creates opposing forces, but cohesin resists separation. The spindle assembly checkpoint (SAC) monitors unattached kinetochores and inhibits the anaphase-promoting complex/cyclosome (APC/C). Only when all kinetochores are properly attached does APC/C activate, triggering securin degradation and separase activation, which then cleaves cohesin. A wrong answer (e.g., \"microtubules aren't strong enough yet\") reveals a mechanical rather than biochemical understanding and misses the regulatory role of SAC and cohesin cleavage.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher treats dividing cells with a drug that prevents microtubule polymerization. Predict the specific stage at which these cells will arrest, and describe the chromosome morphology and kinetochore status at that arrest point.",
+     "a": "Cells will arrest in prometaphase/metaphase transition. Chromosomes will be fully condensed (visible as distinct X-shaped structures) but scattered randomly in the cytoplasm — no metaphase plate forms because spindle microtubules cannot assemble. Kinetochores will be unattached, keeping the spindle assembly checkpoint active (Mad2/BubR1 bound to kinetochores), preventing APC/C activation. A wrong answer (e.g., \"prophase arrest\" or \"anaphase arrest\") reveals misunderstanding that microtubule polymerization is required for chromosome alignment (metaphase), not condensation (prophase), and that anaphase requires prior microtubule attachment.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the fate of cohesin complexes at chromosome arms versus centromeres during mitosis. How does this differential regulation ensure accurate segregation?",
+     "a": "During prophase, cohesin on chromosome arms is removed by Wapl-Pds5 (prophase pathway), allowing chromosome individualization. Centromeric cohesin is protected by shugoshin-PP2A, which prevents Wapl access and maintains sister chromatid cohesion until anaphase. In anaphase, separase cleaves the remaining centromeric cohesin (specifically the Scc1/Rad21 subunit), allowing sister chromatids to separate. If arm cohesin persisted, chromosomes couldn't resolve; if centromeric cohesin were lost prematurely, chromatids would separate randomly. A wrong answer (e.g., \"all cohesin is removed in prophase\" or \"cohesin is only at centromeres\") reveals ignorance of the two-step cohesin removal mechanism and its role in preventing premature separation.",
+     "self_check": true
+    },
+    {
+     "q": "A cell line has a mutation in the gene encoding the kinetochore protein Ndc80, reducing its microtubule-binding affinity by 90%. Evaluate whether these cells can complete mitosis, and justify your conclusion by referencing the spindle assembly checkpoint.",
+     "a": "These cells cannot complete mitosis normally. Ndc80 is the primary microtubule-binding interface of the kinetochore. With 90% reduced affinity, most kinetochores will fail to achieve stable amphitelic attachment (bipolar attachment to both poles). Unattached kinetochores continuously generate the \"wait anaphase\" signal (MCC: Mad2-BubR1-Bub3-Cdc20), keeping APC/C inhibited. Cells will arrest indefinitely in metaphase or undergo mitotic slippage (exit mitosis without division) after prolonged arrest, leading to tetraploidy or apoptosis. A wrong answer (e.g., \"cells will divide but with errors\") underestimates the stringency of SAC — it does not permit anaphase onset with defective attachments; it enforces arrest.",
+     "self_check": true
+    },
+    {
+     "q": "Design a fluorescence microscopy experiment to distinguish between a cell in late prophase and a cell in early metaphase using only two fluorescent markers. Specify the markers, expected localization patterns, and the decisive criterion.",
+     "a": "Use: (1) Anti-tubulin antibody (labels spindle microtubules) and (2) Anti-phospho-histone H3 (Ser10) antibody (labels condensed chromatin). In late prophase: microtubules form two distinct asters at opposite poles but do not yet contact chromosomes (nuclear envelope intact); chromatin shows strong phospho-H3 signal throughout nucleus. In early metaphase: nuclear envelope broken down; microtubules penetrate nuclear space and attach to kinetochores, forming visible spindle fibers; chromosomes align at equator. Decisive criterion: presence of microtubule-chromosome overlap (kinetochore-microtubule attachment) indicates metaphase; absence indicates prophase. A poor answer (e.g., using only DNA stain) fails to capture the dynamic spindle-chromosome interaction that defines the transition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

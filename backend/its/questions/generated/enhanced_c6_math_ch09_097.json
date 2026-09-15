@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch09_097",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch09_097",
+   "title": "c6_math_ch09_097",
+   "questions": [
+    {
+     "q": "If a pictograph uses one star symbol to represent 10 books, how many books does a row with 4 stars represent?",
+     "a": "The row represents 40 books. A wrong answer (like 4) suggests the student is counting the symbols rather than multiplying by the scale, ignoring the \"key\" entirely.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we use a key or scale in a pictograph instead of just drawing one picture for every single item?",
+     "a": "We use a scale to save space and make the graph easier to read when the data numbers are very large. An incorrect answer indicates the student thinks symbols are just for decoration rather than a tool for representing quantities.",
+     "self_check": true
+    },
+    {
+     "q": "A canteen sells samosas. If the key says one triangle = 2 samosas, and you need to show that 7 samosas were sold, how do you represent the last one?",
+     "a": "You draw 3 full triangles ($3 \\times 2 = 6$) and one half-triangle to represent the remaining 1. A wrong answer shows the student does not understand how to represent \"parts\" of the scale value.",
+     "self_check": true
+    },
+    {
+     "q": "If a pictograph shows 6 symbols for \"Monday\" and 3 symbols for \"Tuesday\" (with 1 symbol = 5 visitors), how can you determine which day had more visitors?",
+     "a": "You compare the number of symbols; since 6 is greater than 3, Monday had more visitors. A wrong answer reveals the student struggles to compare frequencies visually without calculating the totals first.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible to use a pictograph to represent data where the counts are 12, 18, and 24? Suggest a suitable scale.",
+     "a": "Yes, a scale of 1 symbol = 6 units would work (2, 3, and 4 symbols respectively). A wrong answer suggests the student hasn't grasped that the scale must be a common factor of the data values for an exact representation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a plan for a pictograph to show the number of bicycles owned by 5 friends: 4, 8, 2, 6, and 10. What scale would you choose and why?",
+     "a": "A scale of 1 symbol = 2 bicycles is ideal because all these numbers are multiples of 2. An answer using 1 symbol = 1 bicycle is acceptable but less efficient for larger sets.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch07_021",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch07_021",
+   "title": "c6_physics_ch07_021",
+   "questions": [
+    {
+     "q": "In which states of matter does convection occur?",
+     "a": "Convection occurs in fluids, which are liquids and gases. A wrong answer (like \"solids\") shows the student is confusing convection with conduction, where heat moves through objects without the material itself moving.",
+     "self_check": true
+    },
+    {
+     "q": "When water is heated in a beaker, why does the hot water rise to the top?",
+     "a": "The hot water rises because heating makes it expand, which decreases its density, making it lighter than the surrounding cold water. A student who says \"it rises because heat is light\" is missing the key concept of density changes in the fluid.",
+     "self_check": true
+    },
+    {
+     "q": "If you hold your hand above a burning candle, you feel heat. If you hold it to the side, you feel less heat. Why is it warmer directly above the flame?",
+     "a": "The air above the flame is heated, becomes less dense, and rises directly into your hand, carrying the heat via convection currents. A student who says \"heat just goes up\" fails to explain that the air particles themselves are moving and carrying that thermal energy.",
+     "self_check": true
+    },
+    {
+     "q": "What would happen to the circulation of heat if you placed a barrier in the middle of a pot of water?",
+     "a": "The barrier would block the circular path of the convection current, preventing the warm water from rising freely and the cool water from sinking, causing uneven heating. If a student says \"the heat would pass through the barrier,\" they are confusing conduction with the bulk movement of convection.",
+     "self_check": true
+    },
+    {
+     "q": "Is convection possible in a vacuum (like outer space)? Why or why not?",
+     "a": "No, because convection requires a material medium (liquid or gas) to move; a vacuum has no particles to circulate and carry the heat. A student who says \"yes, because heat always rises\" ignores the requirement for matter to facilitate the movement.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to prove that water moves when it is heated.",
+     "a": "A good answer would involve adding a few drops of food coloring or small paper bits to water in a clear beaker and heating it slowly. The student should describe observing the color or bits moving in a circular path, demonstrating the current. Poor answers suggest using a thermometer without observing the fluid's movement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

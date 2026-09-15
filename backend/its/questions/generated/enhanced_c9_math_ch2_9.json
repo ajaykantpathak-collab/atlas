@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch2_9",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch2_9",
+   "title": "c9_math_ch2_9",
+   "questions": [
+    {
+     "q": "State the condition for a pair of linear equations \\(a_1x + b_1y + c_1 = 0\\) and \\(a_2x + b_2y + c_2 = 0\\) to have infinitely many solutions.",
+     "a": "The condition is \\(\\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2}\\). A wrong answer (e.g., only equating the first two ratios) reveals the student thinks proportionality of x and y coefficients alone guarantees infinite solutions, ignoring the constant term. They miss that all three ratios must be equal for the lines to be coincident.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the pair \\(2x + 3y = 7\\) and \\(4x + 6y = 14\\) has infinitely many solutions, but \\(2x + 3y = 7\\) and \\(4x + 6y = 15\\) has no solution. Use the ratio method in your explanation.",
+     "a": "For the first pair, \\(\\frac{2}{4} = \\frac{3}{6} = \\frac{7}{14} = \\frac{1}{2}\\), so all three ratios are equal → coincident lines → infinitely many solutions. For the second pair, \\(\\frac{2}{4} = \\frac{3}{6} = \\frac{1}{2}\\) but \\(\\frac{7}{15} \\neq \\frac{1}{2}\\), so the first two ratios are equal but not the third → parallel distinct lines → no solution. A wrong answer (e.g., saying both have no solution because coefficients are proportional) shows the student does not check the constant ratio and confuses inconsistent with dependent systems.",
+     "self_check": true
+    },
+    {
+     "q": "Determine whether the following pair is consistent or inconsistent. If consistent, state whether it has a unique solution or infinitely many solutions: \\(5x - 3y = 11\\) and \\(10x - 6y = 22\\).",
+     "a": "Write equations in standard form: \\(5x - 3y - 11 = 0\\) and \\(10x - 6y - 22 = 0\\). Compute ratios: \\(\\frac{5}{10} = \\frac{1}{2}\\), \\(\\frac{-3}{-6} = \\frac{1}{2}\\), \\(\\frac{-11}{-22} = \\frac{1}{2}\\). All three ratios equal \\(\\frac{1}{2}\\) → consistent with infinitely many solutions (dependent). A wrong answer (e.g., \"unique solution\" or \"inconsistent\") reveals the student either does not reduce ratios correctly or forgets to check the constant term ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the graphical meaning of the three ratio conditions: \\(\\frac{a_1}{a_2} \\neq \\frac{b_1}{b_2}\\), \\(\\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2}\\), and \\(\\frac{a_1}{a_2} = \\frac{b_1}{b_2} \\neq \\frac{c_1}{c_2}\\). How does each correspond to the number of intersection points of the two lines?",
+     "a": "\\(\\frac{a_1}{a_2} \\neq \\frac{b_1}{b_2}\\) → lines have different slopes → intersect at exactly one point → unique solution. \\(\\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2}\\) → lines are coincident (same slope, same intercept) → infinitely many intersection points → infinitely many solutions. \\(\\frac{a_1}{a_2} = \\frac{b_1}{b_2} \\neq \\frac{c_1}{c_2}\\) → lines are parallel (same slope, different intercepts) → no intersection points → no solution. A wrong answer (e.g., swapping the last two) shows the student cannot link algebraic ratios to geometric properties of lines.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If the coefficients of x and y are proportional, the system is always inconsistent.\" Evaluate this statement and correct it if necessary.",
+     "a": "The statement is false. Proportional coefficients (\\(\\frac{a_1}{a_2} = \\frac{b_1}{b_2}\\)) lead to two possibilities: if the constant terms are also in the same proportion (\\(\\frac{c_1}{c_2}\\) equal), the system is consistent with infinitely many solutions (coincident lines); if the constant terms are not in that proportion, the system is inconsistent (parallel lines). The student's claim ignores the dependent case. A wrong evaluation (agreeing with the student) reveals the misconception that proportional coefficients always mean parallel lines.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life word problem (using Indian currency) that leads to a pair of linear equations which is inconsistent. Write the equations and verify inconsistency using the ratio method.",
+     "a": "Example: \"Ravi buys 4 apples and 6 oranges for ₹80. Later, he buys 2 apples and 3 oranges for ₹50.\" Let x = price of one apple, y = price of one orange. Equations: \\(4x + 6y = 80\\) and \\(2x + 3y = 50\\). In standard form: \\(4x + 6y - 80 = 0\\) and \\(2x + 3y - 50 = 0\\). Ratios: \\(\\frac{4}{2} = 2\\), \\(\\frac{6}{3} = 2\\), \\(\\frac{-80}{-50} = 1.6\\). Since \\(2 = 2 \\neq 1.6\\), the system is inconsistent. A poor answer (e.g., a problem that yields consistent equations) shows the student cannot design a scenario where the same combination of items has two different total costs, indicating a lack of understanding of what inconsistency means in context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

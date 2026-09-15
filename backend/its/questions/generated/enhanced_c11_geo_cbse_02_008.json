@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_02_008",
+   "title": "c11_geo_cbse_02_008",
+   "questions": [
+    {
+     "q": "State the composition of the Earth's primordial atmosphere as proposed by the Oparin-Haldane hypothesis and identify the energy sources available for chemical synthesis.",
+     "a": "The primordial atmosphere was reducing, containing methane (CH₄), ammonia (NH₃), water vapour (H₂O), carbon dioxide (CO₂), and nitrogen (N₂), with virtually no free oxygen (O₂). Energy sources were lightning discharges, intense UV radiation (no ozone layer), volcanic heat, and geothermal energy from hydrothermal vents. A wrong answer (e.g., listing O₂ or omitting CH₄/NH₃) reveals the student has not internalised the link between the early atmosphere (node 006) and the possibility of abiotic organic synthesis — they are still thinking of the present oxidising atmosphere.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Miller-Urey experiment (1953) supported the Oparin-Haldane hypothesis but did not \"create life\" in the laboratory.",
+     "a": "The experiment demonstrated that amino acids (building blocks of proteins) and other organic monomers form spontaneously when a reducing gas mixture (CH₄, NH₃, H₂, H₂O) is subjected to electrical sparks simulating lightning. This confirmed the *chemical evolution* step. It did not create life because it produced only monomers, not self-replicating polymers (RNA/DNA), nor compartmentalised structures (protocells) capable of metabolism. A wrong answer claiming \"they created life\" shows confusion between *abiotic synthesis of monomers* and *biological organisation* — a critical distinction for senior secondary geography.",
+     "self_check": true
+    },
+    {
+     "q": "A sedimentary rock sample from the Aravalli Range (Rajasthan) shows banded iron formations (BIFs) dated to 2.5 Ga. Using your knowledge of the Great Oxidation Event, explain the geochemical process that formed these bands and what they indicate about early life.",
+     "a": "Step 1: Identify BIFs as alternating layers of iron oxides (hematite/magnetite) and silica. Step 2: Recall that before ~2.4 Ga, oceans had dissolved Fe²⁺ from hydrothermal vents. Step 3: Cyanobacteria (first oxygenic photosynthesisers) released O₂ as waste. Step 4: O₂ oxidised Fe²⁺ to insoluble Fe³⁺, precipitating iron oxide layers. Step 5: Bands reflect cycles of oxygen production (rainy season blooms) and cessation. This indicates life was already widespread and altering planetary geochemistry. A wrong answer ignoring the biological source of O₂ misses the core geography concept: **life as a geological agent**.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the evolutionary significance of the following two transitions: (a) prokaryote → eukaryote (endosymbiosis) and (b) anaerobic → aerobic metabolism. Which had a greater impact on the *geographical distribution* of early life? Justify.",
+     "a": "Transition (b) had greater geographical impact. Anaerobic life was restricted to anoxic niches (deep oceans, sediments). Aerobic respiration yields ~19× more ATP per glucose, allowing organisms to colonise oxygenated surface waters and eventually land. Endosymbiosis (a) enabled complexity (mitochondria/chloroplasts) but did not by itself expand habitable zones. A student choosing (a) likely conflates *biological complexity* with *geographical range expansion* — a senior secondary error where they ignore the energy-geography link.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The ozone layer formed *before* photosynthetic life, protecting early organisms from UV radiation and allowing them to evolve on land.\"",
+     "a": "The statement is false. The ozone layer (O₃) forms from O₂ via UV photolysis. Free O₂ was produced *by* oxygenic photosynthesis (cyanobacteria). Therefore, photosynthetic life *preceded* and *created* the ozone shield. Early life survived UV by living underwater (water column attenuates UV) or in microbial mats. A student agreeing with the statement has reversed the causality between biosphere and atmosphere — a fundamental error in Earth system science.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field investigation plan for a Class 11 student to identify evidence of early life in the Vindhyan Basin (Central India). Specify: (i) target rock types, (ii) fossil structures to photograph, (iii) one geochemical test to confirm biogenicity, and (iv) how to relate findings to the geological time scale.",
+     "a": "(i) Target: Stromatolitic limestone/dolomite (e.g., Bhander Group) and black shales (Rohtas Group). (ii) Photograph: laminated domal/columnar stromatolites, microbially induced sedimentary structures (MISS), possible acritarchs. (iii) Test: δ¹³C isotope analysis — biogenic carbon is depleted in ¹³C (δ¹³C ≈ -25‰ to -35‰) vs. inorganic carbonate (≈ 0‰). (iv) Correlate stratigraphic position with the Vindhyan Supergroup's Mesoproterozoic age (1.6-1.0 Ga) on the Geological Time Scale (next node). A poor answer lists only \"look for fossils\" without linking rock type, geochemistry, or time scale — showing inability to integrate field geography with lab science.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

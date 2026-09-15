@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_12_010",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_12_010",
+   "title": "c12_geo_cbse_12_010",
+   "questions": [
+    {
+     "q": "Name the constitutional article that provides for the adjudication of inter-state water disputes and the specific Act enacted under it.",
+     "a": "Article 262 of the Constitution provides for adjudication of inter-state water disputes, and the Inter-State Water Disputes Act, 1956 was enacted under it. A wrong answer (e.g., citing Article 263 or the River Boards Act) reveals confusion between dispute resolution mechanisms (Article 262) and coordination mechanisms (Article 263 - Inter-State Council), or between the 1956 Disputes Act and the 1956 River Boards Act which deals with regulation, not adjudication.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why peninsular rivers like Cauvery and Krishna are more prone to inter-state disputes than Himalayan rivers like Ganga or Brahmaputra, despite the latter having larger basins.",
+     "a": "Peninsular rivers are rain-fed, seasonal, and have limited storage capacity due to hard rock terrain, making their flow highly variable and fully utilised — any new upstream project directly reduces downstream availability. Himalayan rivers are perennial (snow + rain fed), have larger absolute flows, and their upper reaches lie outside India (reducing inter-state disputes within India). A wrong answer focusing only on \"size of basin\" misses the critical distinction between flow regime (perennial vs seasonal) and the degree of existing utilisation relative to availability.",
+     "self_check": true
+    },
+    {
+     "q": "The Cauvery basin covers ~81,000 km² with Karnataka (upstream) and Tamil Nadu (downstream) as major riparian states. If Karnataka builds a new reservoir storing 50 TMC (thousand million cubic feet) of water that would otherwise flow to Tamil Nadu, and Tamil Nadu's existing irrigation depends on 400 TMC annual flow, calculate the percentage reduction in Tamil Nadu's water availability and explain why this triggers a dispute even if Karnataka is within its \"territorial\" rights.",
+     "a": "Percentage reduction = (50/400) × 100 = 12.5% reduction. This triggers dispute because: (1) Tamil Nadu's agriculture (especially delta paddy) is adapted to historical flow regimes; (2) The \"harmon doctrine\" (absolute territorial sovereignty) is not accepted in Indian law — equitable apportionment is the principle; (3) 12.5% loss during critical sowing seasons can cause crop failure. A wrong answer treating this as purely a math problem misses the geographical reasoning: disputes arise from the interaction of hydrological variability, established water rights, and the timing of flow reduction relative to crop calendars.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Cauvery dispute (Karnataka vs Tamil Nadu) and the Ravi-Beas dispute (Punjab vs Haryana) in terms of: (a) river type (peninsular vs Himalayan), (b) nature of water use (irrigation-dominated vs irrigation+drinking), and (c) the role of inter-basin transfers. What does this comparison reveal about the diversity of dispute drivers?",
+     "a": "(a) Cauvery = peninsular, rain-fed, seasonal; Ravi-Beas = Himalayan, perennial, snow-fed. (b) Cauvery = primarily irrigation (paddy, sugarcane); Ravi-Beas = irrigation (wheat-rice) + critical drinking water for Delhi/Haryana cities. (c) Cauvery = no major inter-basin transfer; Ravi-Beas = Sutlej-Yamuna Link (SYL) canal proposed to transfer water from Indus basin to Yamuna basin. This reveals disputes are not monolithic: peninsular disputes center on seasonal scarcity and historical rights; Himalayan disputes involve inter-basin transfers, urban water security, and Punjab's refusal to share \"surplus\" water. A wrong answer listing only \"both are about irrigation\" misses the structural hydrological and infrastructural differences that require different resolution approaches.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of tribunal-based adjudication (e.g., Cauvery Water Disputes Tribunal, 1990-2007; final award 2007, notified 2013) in resolving inter-state water disputes. Consider: time taken, compliance, and whether the awards address climate change-induced flow reduction.",
+     "a": "Tribunals provide legally binding awards but suffer from: (1) Excessive duration (Cauvery: 17 years for award, 6 more for notification); (2) Non-compliance by states (Karnataka's repeated refusal to release water per schedule); (3) Awards based on historical flow data (1970s-90s) that don't account for declining monsoon trends and rising temperatures — the \"stationarity\" assumption is invalid. A wrong answer claiming \"tribunals solve disputes\" confuses legal finality with practical resolution. The geographical reality: static allocation formulas cannot manage dynamic, climate-altered hydrology.",
+     "self_check": true
+    },
+    {
+     "q": "Design a water-sharing framework for the Mahanadi basin (Chhattisgarh upstream, Odisha downstream) that addresses: (a) seasonal flow variability, (b) Chhattisgarh's industrial demand (coal, power), (c) Odisha's delta ecology and irrigation, and (d) climate resilience. Specify the governance mechanism, data-sharing protocol, and allocation principle.",
+     "a": "A robust framework would include: (1) **Allocation principle**: Equitable apportionment based on 75% dependable flow (not average), with priority: drinking > ecology > irrigation > industry. (2) **Governance**: A permanent Mahanadi River Basin Authority (not ad-hoc tribunal) with representatives from both states, central government, and independent hydrologists. (3) **Data protocol**: Real-time telemetry on reservoir levels, releases, and rainfall — shared publicly via a basin portal. (4) **Climate resilience**: Annual allocation adjusted by a \"climate index\" (rolling 10-year monsoon average); trigger levels for drought-year sharing formulas pre-agreed. (5) **Ecological flows**: Mandatory minimum flows for Hirakud reservoir releases to sustain delta mangroves and fisheries. A poor answer proposes only a fixed percentage split — it fails the test of adaptive management in a non-stationary climate.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

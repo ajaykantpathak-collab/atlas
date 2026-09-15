@@ -1,0 +1,161 @@
+{
+ "catalog": "catalog_class12_computer_science_lecs113",
+ "concepts": [
+  {
+   "id": "lecs113.1",
+   "title": "Billing an Order at the Restaurant",
+   "questions": [
+    {
+     "q": "Using the method 'Billing an Order at the Restaurant', work with: price1 = 2500, price2 = 8000, qty1 = 20, qty2 = 8. Carry the chain through step by step and give the final value of bill_amount.",
+     "a": "114000 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Billing an Order at the Restaurant' and work with: price1 = 120000, price2 = 2500, qty1 = 24, qty2 = 4. Carry the chain through step by step and give the final value of bill_amount.",
+     "a": "2890000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Billing an Order at the Restaurant' refers to.",
+     "a": "The restaurant automation project asks for a kiosk that takes item codes and quantities, computes each line's cost as unit price times quantity, adds the lines into a bill amount, and stamps every bill with a unique order number that restarts at 1 each day.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Billing an Order at the Restaurant'.",
+     "a": "Combining the date with the per-day order number makes every saved bill uniquely identifiable.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Billing an Order at the Restaurant', in plain ASCII form.",
+     "a": "bill_amount = price1 * qty1 + price2 * qty2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs113.2",
+   "title": "Time Frame for Project Modules",
+   "questions": [
+    {
+     "q": "Using the method 'Time Frame for Project Modules', work with: days_per_module = 30, integration_days = 60, modules = 3. Carry the chain through step by step and give the final value of total_days.",
+     "a": "150 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Time Frame for Project Modules' and work with: days_per_module = 3, integration_days = 80, modules = 75. Carry the chain through step by step and give the final value of total_days.",
+     "a": "305 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Time Frame for Project Modules' refers to.",
+     "a": "Every project needs a time frame: estimate each module's duration, multiply by the number of modules, and add the integration and review time so the plan stays structured yet flexible.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Time Frame for Project Modules'.",
+     "a": "A plan without a time frame cannot be monitored, so fixing durations is part of defining the plan.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Time Frame for Project Modules', in plain ASCII form.",
+     "a": "total_days = modules * days_per_module + integration_days",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs113.3",
+   "title": "Steps in Project Based Learning",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Steps in Project Based Learning' refers to.",
+     "a": "Project based learning moves through five steps shown in Figure 13.1: identify the project from a real-life situation, define a plan with roles for the leader and members, fix a time frame and process, take guidance and monitoring from the teacher, and finally study the single or multiple outcomes, refining them from peer feedback.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Steps in Project Based Learning'.",
+     "a": "Each module gets a well-defined task with its own inputs and outputs before integration.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Steps in Project Based Learning', in plain ASCII form.",
+     "a": "identify -> plan -> time frame -> guide and monitor -> outcome",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs113.4",
+   "title": "Modular, Top Down and Bottom Up Approaches",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Modular, Top Down and Bottom Up Approaches' refers to.",
+     "a": "A structured or modular approach cuts a project into manageable modules, each with a defined task, inputs and outputs, whose integration produces the final result; a top down approach starts from the whole and splits downwards, while a bottom up approach builds from small parts upwards.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Modular, Top Down and Bottom Up Approaches'.",
+     "a": "Well-defined module boundaries let different members work independently before integration.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Modular, Top Down and Bottom Up Approaches', in plain ASCII form.",
+     "a": "project -> modules -> integrate -> outcome",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs113.5",
+   "title": "Components of Teamwork",
+   "questions": [
+    {
+     "q": "Using the method 'Components of Teamwork', work with: communicate = 3, help = 25, listen = 8, participate = 240, respect = 30, share = 0.8. Carry the chain through step by step and give the final value of teamwork.",
+     "a": "306.8 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Components of Teamwork' and work with: communicate = 45, help = 40, listen = 8, participate = 6, respect = 5, share = 0.75. Carry the chain through step by step and give the final value of teamwork.",
+     "a": "104.75 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Components of Teamwork' refers to.",
+     "a": "Teamwork is the collective effort of individuals to accomplish a task; its components are communicating with others, listening to others, sharing expertise and tools, respecting every member's views, helping others, and participating actively in discussions.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Components of Teamwork'.",
+     "a": "A cricket win needs batting, bowling and fielding together, exactly like project members sharing one goal.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Components of Teamwork', in plain ASCII form.",
+     "a": "teamwork = communicate + listen + share + respect + help + participate",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs113.6",
+   "title": "Project Ideas: Puzzle and Educational Games",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Project Ideas: Puzzle and Educational Games' refers to.",
+     "a": "Two sample projects exercise the learned ideas: a grid puzzle where the player clears cells around hidden bombs using number clues on a fixed 6x6 board with 6 bombs, and an edutainment game where a list of 15 cells slides digits rightwards and removes digits that sum to 10.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Project Ideas: Puzzle and Educational Games'.",
+     "a": "New digits enter at the right end and push the existing digits one cell left, so the list behaves like a shifting window.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Project Ideas: Puzzle and Educational Games', in plain ASCII form.",
+     "a": "clear cells using clue = count of bombs in adjacent cells",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

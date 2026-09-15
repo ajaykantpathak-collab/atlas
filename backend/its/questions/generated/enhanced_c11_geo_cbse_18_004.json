@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_18_004",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_18_004",
+   "title": "c11_geo_cbse_18_004",
+   "questions": [
+    {
+     "q": "Define the term 'photoperiod sensitivity' and name one Kharif crop and one Rabi crop that are strongly photoperiod-sensitive.",
+     "a": "Photoperiod sensitivity is the response of a plant's flowering to the length of day/night. Rice (Kharif) and wheat (Rabi) are classic photoperiod-sensitive crops: rice flowers when day length shortens after June solstice; wheat flowers when day length lengthens after December solstice. A wrong answer (e.g., naming maize as photoperiod-insensitive for both) reveals confusion between temperature-driven and day-length-driven flowering.",
+     "self_check": true
+    },
+    {
+     "q": "Why is maize grown as a Kharif crop in Karnataka but as a Rabi crop in Bihar? Explain using temperature and rainfall regimes.",
+     "a": "Karnataka receives southwest monsoon (June–Sept) with warm temperatures (25–30°C) ideal for maize; Bihar's Kharif is too wet/waterlogged, but its winter (Nov–Mar) has cool, dry weather with irrigation, suiting maize's low humidity requirement. A wrong answer focusing only on \"tradition\" misses the agro-climatic reasoning: crop season is chosen where the crop's thermal and moisture needs are met.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in coastal Andhra Pradesh has irrigation. He wants to grow three crops/year. Propose a viable Kharif–Rabi–Zaid sequence with specific crops, justifying each choice using the season's climate.",
+     "a": "Kharif: Rice (June–Oct, high rain, 25–30°C). Rabi: Black gram (Nov–Mar, cool 20–25°C, low rain, residual moisture). Zaid: Sesame (Mar–June, hot 30–35°C, irrigated, short duration 70–80 days). Steps: 1) Identify season windows; 2) Match crop thermal needs; 3) Ensure no overlap; 4) Check water availability. A wrong sequence (e.g., wheat in Zaid) fails thermal suitability.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cropping intensity of Punjab (irrigated, 190%) with Rajasthan (rainfed, 110%). Analyze how the *reliability* of the Rabi season differs between them and why Zaid is almost absent in rainfed Rajasthan.",
+     "a": "Punjab's assured irrigation makes Rabi wheat reliable every year; Zaid (moong, fodder) is possible with canal water. Rainfed Rajasthan's Rabi depends on erratic winter rain → frequent failure; Zaid requires irrigation (absent) and temperatures exceed 40°C → no crop survives. A wrong answer citing only \"rainfall amount\" misses the *reliability* and *temperature* dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Climate change will simply shift all Kharif crops later by two weeks and Rabi crops earlier by two weeks, keeping cropping patterns intact.\" Use thermal and photoperiod constraints.",
+     "a": "The statement is flawed. Kharif delay pushes reproductive phase into cooler post-monsoon temperatures → yield loss (e.g., rice spikelet sterility <20°C). Rabi advance exposes wheat to terminal heat stress (>30°C during grain fill). Photoperiod-sensitive varieties cannot adjust flowering date arbitrarily. A wrong answer accepting the shift ignores cardinal temperatures and photoperiod inflexibility.",
+     "self_check": true
+    },
+    {
+     "q": "Design a climate-resilient cropping calendar for a smallholder in semi-arid Maharashtra (500 mm rain, June–Sept, no irrigation) that maximizes food security and minimizes risk. Specify crops, varieties, and contingency plans.",
+     "a": "Kharif: Pearl millet (drought-tolerant, 70-day variety) + pigeonpea intercrop (deep roots). Rabi: Chickpea (on residual moisture, short-duration). Zaid: None (no water). Contingency: If monsoon delayed >2 weeks, switch to sorghum + cluster bean; if early withdrawal, harvest millet for fodder. Good answer integrates risk management, not just crop listing. Poor answer ignores contingency or suggests water-intensive crops.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_07_002",
+   "title": "c12_biotech_cbse_07_002",
+   "questions": [
+    {
+     "q": "What is the primary gelling agent used for synthetic seed encapsulation and what ionic crosslinker converts it into a solid bead?",
+     "a": "The primary gelling agent is sodium alginate (a polysaccharide from brown algae) and the crosslinker is calcium chloride (CaCl₂), which replaces Na⁺ with Ca²⁺ to form a stable calcium alginate gel matrix. A wrong answer (e.g., agar or gelatin) reveals confusion between general tissue culture gelling agents and the specific alginate‑calcium system that allows bead formation and porosity for gas exchange.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why somatic embryos are preferred over zygotic embryos for synthetic seed production in commercial horticulture.",
+     "a": "Somatic embryos are clonally derived from a selected elite genotype, ensuring genetic uniformity and capture of desirable traits (e.g., high oil content, disease resistance), whereas zygotic embryos are sexually produced and segregate. They can be mass‑produced in bioreactors year‑round, independent of flowering season. A wrong answer that focuses only on “ease of production” misses the critical genetic fidelity and scalability aspects that drive commercial adoption.",
+     "self_check": true
+    },
+    {
+     "q": "A lab encapsulates 200 somatic embryos in 2% (w/v) sodium alginate dropped into 50 mM CaCl₂. After 30 min, beads are rinsed and transferred to germination medium. If 160 embryos convert into plantlets, calculate the conversion frequency (%) and state one critical medium component that must be present for conversion but is NOT typically inside the bead.",
+     "a": "Conversion frequency = (160/200) × 100 = 80%. A critical external component is a cytokinin (e.g., BAP 1–2 mg L⁻¹) to promote shoot elongation; beads usually lack growth regulators to avoid premature germination during storage. A wrong calculation (e.g., 160/360) or missing the external hormone requirement shows misunderstanding of the two‑stage (storage vs. germination) design.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of abscisic acid (ABA) and osmoticum (e.g., mannitol) when added to the encapsulation matrix for long‑term synthetic seed storage.",
+     "a": "ABA induces desiccation tolerance and dormancy by activating late‑embryogenesis abundant (LEA) proteins and antioxidant systems, while mannitol lowers water potential to reduce metabolic activity and prevent precocious germination. Both are synergistic but ABA is hormonal (signal transduction) and mannitol is physical (water potential). Confusing them as interchangeable reveals a lack of depth in seed physiology.",
+     "self_check": true
+    },
+    {
+     "q": "A company claims their synthetic seeds of grape (Vitis vinifera) remain viable for 12 months at 4 °C without subculture. Evaluate this claim using principles of synthetic seed physiology and suggest two quality‑control tests to verify viability before commercial release.",
+     "a": "The claim is plausible for many species if beads contain antioxidants (ascorbate), osmoticum, and ABA, and are stored under low light. However, grape somatic embryos often show genotype‑dependent recalcitrance; 12 months at 4 °C may lead to somaclonal variation or loss of conversion. QC tests: (1) tetrazolium staining for metabolic viability, (2) conversion assay on hormone‑free medium to assess true germination potential. Accepting the claim without QC tests ignores species‑specific storage behaviour.",
+     "self_check": true
+    },
+    {
+     "q": "Design a synthetic seed protocol for an endangered medicinal plant (e.g., Taxus wallichiana) that must be shipped to a remote nursery. Specify explant source, encapsulation matrix composition (three additives with concentrations), storage temperature, and germination medium. Justify each choice in one sentence.",
+     "a": "Explant: somatic embryos from cell suspension culture (high throughput, uniform). Matrix: 3% sodium alginate + 75 mM CaCl₂ + ½ MS salts + 3% sucrose + 10 µM ABA + 100 mg L⁻¹ cefotaxime (nutrients, dormancy, contamination control). Storage: 4 °C for ≤6 months (slow metabolism, avoids cryo‑damage). Germination: ½ MS + 1 mg L⁻¹ BAP + 0.1 mg L⁻¹ NAA (shoot + root induction). A vague protocol (e.g., “use MS medium”) without concentrations or justification shows inability to translate principles into a practical, species‑specific workflow.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

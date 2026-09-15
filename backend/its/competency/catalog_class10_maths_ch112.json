@@ -1,0 +1,775 @@
+{
+ "class": 10,
+ "subject": "maths",
+ "chapter": 112,
+ "chapter_title": "Surface Areas and Volumes",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jemh112.txt",
+ "concepts": [
+  {
+   "id": "jemh.12.1",
+   "title": "Surface Area of Combination of Solids",
+   "section": "12.1",
+   "definition": "The surface area of a combination of solids is the sum of the curved/lateral surface areas of the individual solids, excluding the areas of any faces that are joined together.",
+   "formula": "TSA(combination) = sum of CSA of visible parts",
+   "key_idea": "When two solids are joined, the common face is not exposed and its area is excluded from the total surface area calculation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find surface area of a combination of cylinder and cone",
+    "find surface area of a hemisphere surmounted on a cylinder",
+    "find surface area of a cone on a cylinder toy",
+    "find total surface area of a solid made of two shapes",
+    "find curved surface area of a combined solid"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the visible parts",
+     "explain": "Note each exposed part and compute its curved area from its own formula."
+    },
+    {
+     "step": 2,
+     "action": "Add the part areas",
+     "explain": "Total curved area is the sum over the visible parts.",
+     "compute": "total_area = part1 + part2 + part3"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A wooden toy is made by mounting a cone of height 2 cm on a cylinder of radius 3 cm and height 5 cm. Find the total surface area (use pi = 3.14).",
+     "solution": "l = sqrt(3^2+2^2)=sqrt(13)=3.61 cm. CSA cone = pi*3*3.61=34.01, CSA cylinder = 2*pi*3*5=94.2, base = pi*3^2=28.26. TSA = 34.01+94.2+28.26 = 156.47 cm^2.",
+     "answer": "156.47 cm^2"
+    },
+    {
+     "question": "A hemisphere of radius 4 cm is surmounted on a cylinder of radius 4 cm and height 7 cm. Find the total surface area.",
+     "solution": "CSA hemisphere = 2*pi*4^2 = 100.53, CSA cylinder = 2*pi*4*7 = 175.93, base = pi*4^2 = 50.27. TSA = 100.53+175.93+50.27 = 326.73 cm^2.",
+     "answer": "326.73 cm^2"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A solid is in the shape of a cone standing on a hemisphere with both radii 5 cm and cone height 12 cm. Find the total surface area.",
+     "type": "compute"
+    },
+    {
+     "question": "A toy is in the form of a cone of radius 3.5 cm mounted on a hemisphere of same radius. The total height of the toy is 15.5 cm. Find the total surface area.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.12.2",
+   "title": "Volume of Combination of Solids",
+   "section": "12.2",
+   "definition": "The volume of a combination of solids is the sum of the volumes of the individual component solids.",
+   "formula": "V(combination) = V1 + V2 + ... + Vn",
+   "key_idea": "Unlike surface area, volume is always additive -- no faces are excluded when solids are combined.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find volume of a solid made of cylinder and cone",
+    "find volume of a hemisphere on a cylinder",
+    "find volume of a combined solid toy",
+    "find volume of a capsule shaped solid",
+    "find volume of a solid consisting of cone and hemisphere"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Split the solid",
+     "explain": "Break it into standard solids and compute each volume with its own formula."
+    },
+    {
+     "step": 2,
+     "action": "Add the part volumes",
+     "explain": "Total volume is the sum of the part volumes.",
+     "compute": "total_volume = v1 + v2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A solid is composed of a cylinder with hemispheres on both ends. Radius = 7 cm, cylinder height = 40 cm. Find the volume.",
+     "solution": "V cylinder = pi*7^2*40 = 6160 cm^3. V of 2 hemispheres = 2*(2/3)*pi*7^3 = 1437.33 cm^3. Total = 6160+1437.33 = 7597.33 cm^3.",
+     "answer": "7597.33 cm^3"
+    },
+    {
+     "question": "A toy consists of a cone of height 6 cm mounted on a hemisphere of radius 4 cm. Find the volume.",
+     "solution": "V cone = (1/3)*pi*4^2*6 = 100.53 cm^3. V hemisphere = (2/3)*pi*4^3 = 133.97 cm^3. Total = 100.53+133.97 = 234.50 cm^3.",
+     "answer": "234.50 cm^3"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A solid is in the shape of a cone mounted on a hemisphere of radius 3.5 cm. If the total height is 15.5 cm, find the volume of the solid.",
+     "type": "compute"
+    },
+    {
+     "question": "A medicine capsule is in the shape of a cylinder with two hemispheres stuck to each end. Find its volume if radius is 5 mm and cylinder length is 9 mm.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.12.3",
+   "title": "Conversion of Solid from One Shape to Another",
+   "section": "12.3",
+   "definition": "When a solid is converted (melted and recast) from one shape to another, its volume remains constant; only the shape changes.",
+   "formula": "V(original) = V(new shape)",
+   "key_idea": "Conservation of volume: the volume before and after recasting is equal; use this to find unknown dimensions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "a metallic sphere is melted and recast into a cylinder find the height",
+    "a cone is melted and recast into smaller spheres find number of spheres",
+    "a cylinder is recast into a cone find the height of the cone",
+    "a solid is converted from one shape to another find new dimension",
+    "metal is melted and recast into wire find length of wire"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute the original volume",
+     "explain": "Use the original solid's volume formula from its dimensions."
+    },
+    {
+     "step": 2,
+     "action": "Equate to the new volume",
+     "explain": "Write the new shape's volume expression in terms of the unknown."
+    },
+    {
+     "step": 3,
+     "action": "Solve",
+     "explain": "Set the two expressions equal and solve for the unknown dimension."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A metallic sphere of radius 6 cm is melted and recast into a cylinder of radius 4 cm. Find the height of the cylinder.",
+     "solution": "V sphere = (4/3)*pi*6^3 = 905.14 cm^3. V cylinder = pi*4^2*h = 50.27*h. So 50.27*h = 905.14, h = 18 cm.",
+     "answer": "18 cm"
+    },
+    {
+     "question": "A cone of height 24 cm and base radius 6 cm is melted and recast into spheres of radius 2 cm. Find the number of spheres.",
+     "solution": "V cone = (1/3)*pi*6^2*24 = 905.14 cm^3. V sphere = (4/3)*pi*2^3 = 33.51 cm^3. Number = 905.14/33.51 = 27.",
+     "answer": "27 spheres"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A solid metallic sphere of diameter 28 cm is melted and recast into a number of small cones each of diameter 4 cm and height 3 cm. Find the number of cones.",
+     "type": "compute"
+    },
+    {
+     "question": "A copper rod of diameter 1 cm and length 8 cm is drawn into a wire of length 18 m of uniform thickness. Find the thickness of the wire.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.12.4",
+   "title": "Surface Area of Frustum of a Cone",
+   "section": "12.4",
+   "definition": "A frustum of a cone is the portion of the cone between two parallel planes cutting it. Its total surface area includes the curved surface area plus the two circular base areas.",
+   "formula": "TSA = pi*(r1+r2)*l + pi*r1^2 + pi*r2^2",
+   "key_idea": "The curved surface area of a frustum uses the slant height l and the two radii r1 and r2; add both circular ends for total surface area.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the total surface area of a frustum of a cone given r1, r2 and height",
+    "calculate the TSA of a bucket shaped frustum",
+    "what is the total surface area when both radii and the height are known",
+    "determine the frustum total surface area from pi (r1 + r2) l plus the end circles",
+    "compute the total area of the frustum surface including both circular ends",
+    "how much total surface does the frustum shaped container have"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Slant height first",
+     "explain": "l = sqrt(h^2 + (r1 - r2)^2).",
+     "compute": "l = sqrt(h ** 2 + (r1 - r2) ** 2)"
+    },
+    {
+     "step": 2,
+     "action": "Curved surface",
+     "explain": "csa = pi x (r1 + r2) x l.",
+     "compute": "csa = pi * (r1 + r2) * l"
+    },
+    {
+     "step": 3,
+     "action": "Add the two end circles",
+     "explain": "TSA = csa + pi r1^2 + pi r2^2.",
+     "compute": "tsa = csa + pi * r1 ** 2 + pi * r2 ** 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A frustum of a cone has radii 10 cm and 3 cm and height 24 cm. Find its total surface area.",
+     "solution": "l = sqrt(24^2 + (10-3)^2) = sqrt(576+49) = sqrt(625) = 25 cm. CSA = pi*(10+3)*25 = 1021.02 cm^2. TSA = 1021.02 + pi*10^2 + pi*3^2 = 1021.02 + 314.16 + 28.27 = 1363.45 cm^2.",
+     "answer": "1363.45 cm^2"
+    },
+    {
+     "question": "Find the curved surface area of a frustum with r1 = 8 cm, r2 = 4 cm, h = 3 cm.",
+     "solution": "l = sqrt(3^2 + (8-4)^2) = sqrt(9+16) = 5 cm. CSA = pi*(8+4)*5 = 188.50 cm^2.",
+     "answer": "188.50 cm^2"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A drinking glass is in the shape of a frustum of a cone of height 14 cm. The diameters of its two circular ends are 4 cm and 2 cm. Find its curved surface area.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the total surface area of a frustum of a cone with radii 6 cm and 2 cm and slant height 5 cm.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.12.5",
+   "title": "Volume of Frustum of a Cone",
+   "section": "12.5",
+   "definition": "The volume of a frustum of a cone is one-third of pi times the height times the sum of the squares of the two radii plus the product of the two radii.",
+   "formula": "V = (1/3)*pi*h*(r1^2 + r2^2 + r1*r2)",
+   "key_idea": "The frustum volume formula combines the areas of both circular ends and their geometric mean, scaled by height and one-third pi.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find volume of a frustum of a cone",
+    "find the capacity of a frustum shaped container",
+    "find volume of a bucket in the shape of a frustum",
+    "find the amount of water a frustum shaped tank can hold",
+    "find volume of frustum given two radii and height"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Apply the frustum volume formula",
+     "explain": "V = (1/3) x pi x h x (r1^2 + r2^2 + r1 r2).",
+     "compute": "v = (1 / 3) * pi * h * (r1 ** 2 + r2 ** 2 + r1 * r2)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A frustum of a cone has radii 10 cm and 3 cm and height 24 cm. Find its volume.",
+     "solution": "V = (1/3)*pi*24*(10^2 + 3^2 + 10*3) = (1/3)*pi*24*(100+9+30) = (1/3)*pi*24*139 = 3491.69 cm^3.",
+     "answer": "3491.69 cm^3"
+    },
+    {
+     "question": "The radii of the ends of a frustum of a cone 6 cm high are 14 cm and 6 cm. Find its volume.",
+     "solution": "V = (1/3)*pi*6*(14^2 + 6^2 + 14*6) = (1/3)*pi*6*(196+36+84) = (1/3)*pi*6*316 = 1985.57 cm^3.",
+     "answer": "1985.57 cm^3"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A frustum of a cone is 27 cm high and the radii of its two circular ends are 20 cm and 8 cm. Find the volume of the frustum.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the volume of a frustum shaped bucket with upper radius 30 cm, lower radius 10 cm, and height 24 cm. Give the answer in litres.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.12.6",
+   "title": "Slant Height of Frustum of a Cone",
+   "section": "12.4",
+   "definition": "The slant height of a frustum of a cone is the distance along the lateral surface between the two circular edges; it is derived from the Pythagorean theorem.",
+   "formula": "l = sqrt(h^2 + (r1 - r2)^2)",
+   "key_idea": "The slant height forms the hypotenuse of a right triangle with the height and the difference of the two radii as the other two sides.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the slant height of a frustum of a cone",
+    "calculate l when the height and the two radii are given",
+    "what is the slant height for the given frustum dimensions",
+    "determine the slant height from h squared plus the squared radii difference",
+    "compute l of a bucket shaped frustum from its height and radii",
+    "how do you get the slant height of a frustum from h, r1 and r2"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Radii difference",
+     "explain": "Take the absolute difference of the two radii.",
+     "compute": "diff = abs(r1 - r2)"
+    },
+    {
+     "step": 2,
+     "action": "Slant height",
+     "explain": "l = sqrt(h^2 + diff^2).",
+     "compute": "l = sqrt(h ** 2 + diff ** 2)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the slant height of a frustum of a cone with height 24 cm and radii 10 cm and 3 cm.",
+     "solution": "l = sqrt(24^2 + (10-3)^2) = sqrt(576 + 49) = sqrt(625) = 25 cm.",
+     "answer": "25 cm"
+    },
+    {
+     "question": "A frustum has height 4 cm and radii 8 cm and 4 cm. Find its slant height.",
+     "solution": "l = sqrt(4^2 + (8-4)^2) = sqrt(16 + 16) = sqrt(32) = 5.66 cm.",
+     "answer": "5.66 cm"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the slant height of a frustum of a cone of height 14 cm with radii 2 cm and 1 cm.",
+     "type": "compute"
+    },
+    {
+     "question": "Verify that the slant height of a frustum with h = 12 cm, r1 = 5 cm, r2 = 2 cm is 12.37 cm.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jemh.12.10",
+   "title": "Word Problems on Volume Conversion",
+   "section": "12.3",
+   "definition": "Volume conversion word problems involve melting, recasting, or reshaping solids from one form to another, where the total volume is conserved and used to find an unknown quantity.",
+   "formula": "V(original solid) = V(new solid)",
+   "key_idea": "The key principle is conservation of volume; set the volume of the original solid equal to the volume of the new shape and solve for the unknown.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "a sphere is melted and recast into smaller spheres find the number",
+    "a solid is melted and recast into a wire find the length of the wire",
+    "a metallic block is recast into a cone find its height",
+    "rainfall on a roof collected in a cylindrical tank find the height of water",
+    "a cone is melted and recast into a cylinder find the new height"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Express the original volume",
+     "explain": "Write the melting solid's volume from its dimensions."
+    },
+    {
+     "step": 2,
+     "action": "Equate to the new shape",
+     "explain": "Set it equal to the recast shape's volume expression."
+    },
+    {
+     "step": 3,
+     "action": "Solve for the asked quantity",
+     "explain": "Number of pieces, wire length or new height follows from the equality."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A solid sphere of radius 3 cm is melted and recast into small spherical balls each of radius 0.6 cm. Find the number of small balls.",
+     "solution": "V sphere = (4/3)*pi*3^3 = 113.10 cm^3. V small ball = (4/3)*pi*0.6^3 = 0.90 cm^3. Number = 113.10/0.90 = 125.",
+     "answer": "125 balls"
+    },
+    {
+     "question": "Rainwater falls on a roof 22 m x 20 m and is collected in a cylindrical tank of radius 1.5 m. If the rainfall is 5 cm, find the height of water in the tank.",
+     "solution": "V rain = 22*20*0.05 = 22 m^3. V tank = pi*1.5^2*h = 7.07*h. So 7.07*h = 22, h = 3.11 m.",
+     "answer": "3.11 m"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A solid metallic cylinder of radius 6 cm and height 21 cm is melted and recast into small cones of radius 3 cm and height 3 cm. Find the number of cones.",
+     "type": "compute"
+    },
+    {
+     "question": "Water in a canal 6 m wide and 1.5 m deep flowing at 10 km/h irrigates a field of area 450000 m^2 in 30 minutes. Find the height of water standing in the field.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.12.7a",
+   "title": "Curved Surface Area of a Hemisphere",
+   "section": "12.7",
+   "formula": "csa = 2 * pi * r ** 2",
+   "definition": "A hemisphere's curved half-sphere surface covers twice the area of its circular base, given by two pi r squared.",
+   "key_idea": "Half the sphere's surface area: 2 pi r squared.",
+   "textbook_ref": "jemh112.txt (reviewer split, review wave 2)",
+   "solution_type": "compute",
+   "question_patterns": [
+    "find the curved surface area of a hemisphere",
+    "calculate the CSA of a hollow hemisphere",
+    "what is the curved area of the hemisphere of given radius",
+    "determine 2 pi r squared for the given hemisphere",
+    "compute the curved surface of a dome of given radius",
+    "how much curved surface does the hemisphere have"
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Apply the hemispherical CSA formula",
+     "explain": "Two pi r squared.",
+     "compute": "csa = 2 * pi * r ** 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "find the curved surface area of a hemisphere (take r = 10)",
+     "solution": "Applying the concept's compute chain with r = 10 gives 628.318531.",
+     "answer": "628.318531"
+    },
+    {
+     "question": "find the curved surface area of a hemisphere (take r = 2)",
+     "solution": "Applying the concept's compute chain with r = 2 gives 25.132741.",
+     "answer": "25.132741"
+    }
+   ]
+  },
+  {
+   "id": "jemh.12.7b",
+   "title": "Total Surface Area of a Hemisphere",
+   "section": "12.7",
+   "formula": "tsa = 3 * pi * r ** 2",
+   "definition": "A solid hemisphere's total surface joins the curved half-sphere with its flat circular face, giving three pi r squared.",
+   "key_idea": "Curved part plus flat face: 3 pi r squared.",
+   "textbook_ref": "jemh112.txt (reviewer split, review wave 2)",
+   "solution_type": "compute",
+   "question_patterns": [
+    "find the total surface area of a solid hemisphere",
+    "calculate the TSA of the solid hemisphere",
+    "what is the total area including the flat circular face for the given radius",
+    "determine 3 pi r squared for the solid hemisphere",
+    "compute the overall surface area of the solid hemisphere",
+    "how much total surface does the solid hemisphere have"
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Apply the hemispherical TSA formula",
+     "explain": "Three pi r squared.",
+     "compute": "tsa = 3 * pi * r ** 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "find the total surface area of a solid hemisphere (take r = 10)",
+     "solution": "Applying the concept's compute chain with r = 10 gives 942.477796.",
+     "answer": "942.477796"
+    },
+    {
+     "question": "find the total surface area of a solid hemisphere (take r = 2)",
+     "solution": "Applying the concept's compute chain with r = 2 gives 37.699112.",
+     "answer": "37.699112"
+    }
+   ]
+  },
+  {
+   "id": "jemh.12.7c",
+   "title": "Volume of a Hemisphere",
+   "section": "12.7",
+   "formula": "v = (2 / 3) * pi * r ** 3",
+   "definition": "A hemisphere holds half the volume of the full sphere of the same radius, that is two thirds pi r cubed.",
+   "key_idea": "Half the sphere's volume: (2/3) pi r cubed.",
+   "textbook_ref": "jemh112.txt (reviewer split, review wave 2)",
+   "solution_type": "compute",
+   "question_patterns": [
+    "find the volume of a hemisphere of given radius",
+    "calculate the volume of the hemisphere",
+    "what is the volume for the given radius of the hemisphere",
+    "determine two thirds pi r cubed for the hemisphere",
+    "compute the capacity of a hemispherical bowl of given radius",
+    "how much space does the hemisphere of the given radius occupy"
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Apply the hemispherical volume formula",
+     "explain": "Two thirds pi r cubed.",
+     "compute": "v = (2 / 3) * pi * r ** 3"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "find the volume of a hemisphere of given radius (take r = 10)",
+     "solution": "Applying the concept's compute chain with r = 10 gives 2094.395102.",
+     "answer": "2094.395102"
+    },
+    {
+     "question": "find the volume of a hemisphere of given radius (take r = 2)",
+     "solution": "Applying the concept's compute chain with r = 2 gives 16.755161.",
+     "answer": "16.755161"
+    }
+   ]
+  },
+  {
+   "id": "jemh.12.8a",
+   "title": "Slant Height of a Cone",
+   "section": "12.8",
+   "formula": "l = sqrt(r ** 2 + h ** 2)",
+   "definition": "The slant height of a right circular cone runs from the apex to the rim and follows from Pythagoras on the radius and the axis height.",
+   "key_idea": "l is the hypotenuse of the radius-height right triangle.",
+   "textbook_ref": "jemh112.txt (reviewer split, review wave 2)",
+   "solution_type": "compute",
+   "question_patterns": [
+    "find the slant height of a cone given radius and height",
+    "calculate l for the cone with the given r and h",
+    "what is the slant height when the radius and height are known",
+    "determine the slant height using sqrt of r squared plus h squared",
+    "compute the slant height of the conical tent of given dimensions",
+    "how do you get the slant height of a cone from r and h"
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Apply Pythagoras",
+     "explain": "l = sqrt(r^2 + h^2).",
+     "compute": "l = sqrt(r ** 2 + h ** 2)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "find the slant height of a cone given radius and height (take h = 10, r = 10)",
+     "solution": "Applying the concept's compute chain with h = 10, r = 10 gives 14.142136.",
+     "answer": "14.142136"
+    },
+    {
+     "question": "find the slant height of a cone given radius and height (take h = 10, r = 2)",
+     "solution": "Applying the concept's compute chain with h = 10, r = 2 gives 10.198039.",
+     "answer": "10.198039"
+    }
+   ]
+  },
+  {
+   "id": "jemh.12.8b",
+   "title": "Curved Surface Area of a Cone",
+   "section": "12.8",
+   "formula": "csa = pi * r * l",
+   "definition": "Unrolling a cone's lateral surface gives a sector whose area is pi times radius times slant height.",
+   "key_idea": "Curved area = pi r l.",
+   "textbook_ref": "jemh112.txt (reviewer split, review wave 2)",
+   "solution_type": "compute",
+   "question_patterns": [
+    "find the curved surface area of a cone",
+    "calculate the CSA of the cone with given radius and slant height",
+    "what is the curved area of the conical hat of given dimensions",
+    "determine pi r l for the given cone",
+    "compute the lateral surface of the cone",
+    "how much curved surface does the cone have"
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Apply the cone CSA formula",
+     "explain": "pi r l.",
+     "compute": "csa = pi * r * l"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "find the curved surface area of a cone (take l = 10, r = 10)",
+     "solution": "Applying the concept's compute chain with l = 10, r = 10 gives 314.159265.",
+     "answer": "314.159265"
+    },
+    {
+     "question": "find the curved surface area of a cone (take l = 10, r = 2)",
+     "solution": "Applying the concept's compute chain with l = 10, r = 2 gives 62.831853.",
+     "answer": "62.831853"
+    }
+   ]
+  },
+  {
+   "id": "jemh.12.8c",
+   "title": "Total Surface Area of a Cone",
+   "section": "12.8",
+   "formula": "tsa = pi * r * (l + r)",
+   "definition": "A cone's total surface adds its circular base to the curved part, collecting to pi r times (l + r).",
+   "key_idea": "Curved area plus base: pi r (l + r).",
+   "textbook_ref": "jemh112.txt (reviewer split, review wave 2)",
+   "solution_type": "compute",
+   "question_patterns": [
+    "find the total surface area of a cone",
+    "calculate the TSA of the cone with given radius and height",
+    "what is the total area of the solid cone including its base",
+    "determine pi r times l plus r for the given cone",
+    "compute the full surface of the solid cone",
+    "how much total surface does the solid cone have"
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Slant height if not given",
+     "explain": "l = sqrt(r^2 + h^2).",
+     "compute": "l = sqrt(r ** 2 + h ** 2)"
+    },
+    {
+     "step": 2,
+     "action": "Add base to curved area",
+     "explain": "TSA = pi r (l + r).",
+     "compute": "tsa = pi * r * (l + r)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "find the total surface area of a cone (take h = 10, r = 10)",
+     "solution": "Applying the concept's compute chain with h = 10, r = 10 gives 758.447559.",
+     "answer": "758.447559"
+    },
+    {
+     "question": "find the total surface area of a cone (take h = 10, r = 2)",
+     "solution": "Applying the concept's compute chain with h = 10, r = 2 gives 76.64254.",
+     "answer": "76.64254"
+    }
+   ]
+  },
+  {
+   "id": "jemh.12.8d",
+   "title": "Volume of a Cone",
+   "section": "12.8",
+   "formula": "v = (1 / 3) * pi * r ** 2 * h",
+   "definition": "A cone fills exactly one third of the cylinder that shares its base and height, so its volume is one third pi r squared h.",
+   "key_idea": "One third of the matching cylinder's volume.",
+   "textbook_ref": "jemh112.txt (reviewer split, review wave 2)",
+   "solution_type": "compute",
+   "question_patterns": [
+    "find the volume of a cone with given radius and height",
+    "calculate the capacity of the conical vessel",
+    "what is the volume of the cone for the given dimensions",
+    "determine one third pi r squared h for the cone",
+    "compute the volume of the conical heap of given dimensions",
+    "how much does the cone hold"
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Apply the cone volume formula",
+     "explain": "One third pi r squared h.",
+     "compute": "v = (1 / 3) * pi * r ** 2 * h"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "find the volume of a cone with given radius and height (take h = 10, r = 10)",
+     "solution": "Applying the concept's compute chain with h = 10, r = 10 gives 1047.197551.",
+     "answer": "1047.197551"
+    },
+    {
+     "question": "find the volume of a cone with given radius and height (take h = 10, r = 2)",
+     "solution": "Applying the concept's compute chain with h = 10, r = 2 gives 41.887902.",
+     "answer": "41.887902"
+    }
+   ]
+  },
+  {
+   "id": "jemh.12.9a",
+   "title": "Curved Surface Area of a Cylinder",
+   "section": "12.9",
+   "formula": "csa = 2 * pi * r * h",
+   "definition": "Unrolling a cylinder's lateral sheet gives a rectangle of width equal to the circumference, so the curved area is two pi r h.",
+   "key_idea": "Circumference times height.",
+   "textbook_ref": "jemh112.txt (reviewer split, review wave 2)",
+   "solution_type": "compute",
+   "question_patterns": [
+    "find the curved surface area of a cylinder",
+    "calculate the CSA of the cylindrical pillar of given dimensions",
+    "what is the curved area for the given radius and height",
+    "determine 2 pi r h for the cylinder",
+    "compute the lateral surface of the cylindrical container",
+    "how much curved surface does the cylinder have"
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Apply the cylinder CSA formula",
+     "explain": "Two pi r h.",
+     "compute": "csa = 2 * pi * r * h"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "find the curved surface area of a cylinder (take h = 10, r = 10)",
+     "solution": "Applying the concept's compute chain with h = 10, r = 10 gives 628.318531.",
+     "answer": "628.318531"
+    },
+    {
+     "question": "find the curved surface area of a cylinder (take h = 10, r = 2)",
+     "solution": "Applying the concept's compute chain with h = 10, r = 2 gives 125.663706.",
+     "answer": "125.663706"
+    }
+   ]
+  },
+  {
+   "id": "jemh.12.9b",
+   "title": "Total Surface Area of a Cylinder",
+   "section": "12.9",
+   "formula": "tsa = 2 * pi * r * (r + h)",
+   "definition": "A closed cylinder's total surface is its curved sheet plus the two circular ends, collecting to two pi r times (r + h).",
+   "key_idea": "Curved sheet plus two lids: 2 pi r (r + h).",
+   "textbook_ref": "jemh112.txt (reviewer split, review wave 2)",
+   "solution_type": "compute",
+   "question_patterns": [
+    "find the total surface area of a cylinder",
+    "calculate the TSA of the closed cylindrical tank",
+    "what is the total area including both circular ends",
+    "determine 2 pi r times r plus h for the given cylinder",
+    "compute the full surface of the closed cylinder",
+    "how much total surface does the closed cylinder have"
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Apply the cylinder TSA formula",
+     "explain": "Two pi r (r + h).",
+     "compute": "tsa = 2 * pi * r * (r + h)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "find the total surface area of a cylinder (take h = 10, r = 10)",
+     "solution": "Applying the concept's compute chain with h = 10, r = 10 gives 1256.637061.",
+     "answer": "1256.637061"
+    },
+    {
+     "question": "find the total surface area of a cylinder (take h = 10, r = 2)",
+     "solution": "Applying the concept's compute chain with h = 10, r = 2 gives 150.796447.",
+     "answer": "150.796447"
+    }
+   ]
+  },
+  {
+   "id": "jemh.12.9c",
+   "title": "Volume of a Cylinder",
+   "section": "12.9",
+   "formula": "v = pi * r ** 2 * h",
+   "definition": "A cylinder's capacity is the base circle area stacked over the height, giving pi r squared h.",
+   "key_idea": "Base area times height.",
+   "textbook_ref": "jemh112.txt (reviewer split, review wave 2)",
+   "solution_type": "compute",
+   "question_patterns": [
+    "find the volume of a cylinder with given radius and height",
+    "calculate the capacity of the cylindrical tank",
+    "what is the volume for the given radius and height of the cylinder",
+    "determine pi r squared h for the cylinder",
+    "compute how much liquid the cylindrical vessel holds",
+    "how much space is inside the cylinder"
+   ],
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Apply the cylinder volume formula",
+     "explain": "pi r squared h.",
+     "compute": "v = pi * r ** 2 * h"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "find the volume of a cylinder with given radius and height (take h = 10, r = 10)",
+     "solution": "Applying the concept's compute chain with h = 10, r = 10 gives 3141.592654.",
+     "answer": "3141.592654"
+    },
+    {
+     "question": "find the volume of a cylinder with given radius and height (take h = 10, r = 2)",
+     "solution": "Applying the concept's compute chain with h = 10, r = 2 gives 125.663706.",
+     "answer": "125.663706"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

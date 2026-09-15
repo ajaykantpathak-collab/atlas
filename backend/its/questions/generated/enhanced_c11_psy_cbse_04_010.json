@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_04_010",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_04_010",
+   "title": "c11_psy_cbse_04_010",
+   "questions": [
+    {
+     "q": "Define \"visual illusion\" and distinguish it from a hallucination. Provide one example of a universal geometrical illusion.",
+     "a": "A visual illusion is a misperception of a real external stimulus where perception systematically deviates from physical reality (e.g., Muller-Lyer illusion: two equal lines appear unequal due to arrowhead configuration). A hallucination is a perception without any external stimulus (e.g., seeing a person in an empty room). A wrong answer that equates illusions with hallucinations reveals confusion between distorted perception vs. internally generated perception, a fundamental category error in perceptual psychology.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Muller-Lyer illusion occurs using the size-distance invariance hypothesis. Why does the line with outward fins (feathers) appear longer than the line with inward fins (arrowheads)?",
+     "a": "The brain interprets the outward fins as an outside corner of a building (farther away) and inward fins as an inside corner of a room (closer). Since retinal images are equal, the brain applies size-distance scaling: perceived size = retinal size × perceived distance. The \"farther\" line (outward fins) is scaled up to appear longer. A wrong answer citing only \"Gestalt principles\" without specifying the 3D depth interpretation (carpentered world) shows superficial understanding — the student names the theory but cannot trace the computational mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "A student from a remote rural village with no exposure to rectangular architecture and a student from an urban city both view the Muller-Lyer illusion. Predict and justify the difference in their illusion susceptibility based on Segall, Campbell, and Herskovits (1963) findings.",
+     "a": "The urban student will show stronger Muller-Lyer illusion susceptibility because they live in a \"carpentered world\" of right angles, training their perceptual system to interpret arrowheads as depth cues (inside/outside corners). The rural student, lacking this ecological exposure, will show weaker susceptibility. A wrong answer predicting no difference ignores the core socio-cultural evidence that perceptual habits are learned through environmental regularities — this is the classic \"nature vs. nurture in perception\" error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the phi phenomenon (apparent movement) with the autokinetic effect. Both involve perceived motion without physical motion — what is the critical difference in their stimulus conditions and neural mechanisms?",
+     "a": "Phi phenomenon: two or more stationary lights flashed in succession (spatial/temporal contiguity) create apparent motion — requires multiple stimuli and involves cortical motion detectors (V5/MT area) integrating discrete inputs. Autokinetic effect: a single stationary light in total darkness appears to move — requires only one stimulus and involves lack of reference frame + microsaccades. A wrong answer conflating them reveals failure to distinguish between motion-from-succession (phi) vs. motion-from-reference-frame-absence (autokinetic) — a critical theoretical distinction in motion perception.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"All visual illusions are universal because they stem from hardwired neural architecture.\" Use evidence from cross-cultural illusion research to support your evaluation.",
+     "a": "The claim is false. While some illusions (e.g., vertical-horizontal illusion) show near-universal susceptibility due to biological constraints (retinal anatomy, gravity reference), others (Muller-Lyer, Ponzo, Sander parallelogram) show significant cultural variation. Segall et al. (1963) found Western urban groups more susceptible to Muller-Lyer, while African rural groups were more susceptible to vertical-horizontal illusion. This double dissociation proves illusions arise from interaction between innate neural mechanisms AND learned perceptual habits shaped by environmental statistics. A wrong answer claiming total universality or total cultural relativity fails to integrate the interactionist evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Design a novel illusion figure that would test whether the \"carpentered world hypothesis\" applies to a population living in a circular-architecture culture (e.g., traditional yurt dwellers). Describe the figure, the predicted illusion magnitude, and the theoretical justification.",
+     "a": "Create a \"Curved-Line Muller-Lyer\" variant: replace straight fins with curved arcs mimicking yurt roof/wall junctions. Prediction: yurt-dwellers would show stronger illusion for curved-fin version than straight-fin version; urban dwellers would show the reverse. Justification: perceptual learning tunes depth-cue interpretation to local environmental geometry — straight corners for carpentered worlds, curved junctions for yurt worlds. A poor answer that only modifies fin angles without theoretical grounding in ecological optics reveals inability to generate testable hypotheses from perceptual learning theory.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

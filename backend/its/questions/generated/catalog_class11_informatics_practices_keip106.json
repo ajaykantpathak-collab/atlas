@@ -1,0 +1,315 @@
+{
+ "catalog": "catalog_class11_informatics_practices_keip106",
+ "concepts": [
+  {
+   "id": "keip106.1",
+   "title": "Array versus List in Python",
+   "questions": [
+    {
+     "q": "Using the method 'Array versus List in Python', work with: each_element_transformed = 200. Carry the chain through step by step and give the final value of elementwise_result.",
+     "a": "200 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Array versus List in Python' and work with: each_element_transformed = 150. Carry the chain through step by step and give the final value of elementwise_result.",
+     "a": "150 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Array versus List in Python' refers to.",
+     "a": "A NumPy array (officially ndarray) keeps one single data type for all its elements and lays them side by side in one continuous block of memory, which makes it compact and fast. A core-Python list may mix types, stores them scattered in memory, and cannot do element-wise arithmetic, while an array happily evaluates A1 / 3 on every element at once.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Array versus List in Python'.",
+     "a": "Homogeneous type plus contiguous storage buys speed and element-wise operations that lists cannot offer.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Array versus List in Python', in plain ASCII form.",
+     "a": "elementwise_result = each_element_transformed",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip106.2",
+   "title": "ndarray Attributes: shape, size, itemsize",
+   "questions": [
+    {
+     "q": "How many bytes does one int32 element occupy in memory? Use the method 'ndarray Attributes: shape, size, itemsize'. Work with: column_count = 400, row_count = 5, type_bits = 200. Carry the chain through step by step and give the final value of total_memory_bytes.",
+     "a": "50000 bytes",
+     "self_check": false
+    },
+    {
+     "q": "Find the total memory occupied by a 4 by 3 int32 array of marks. Use the method 'ndarray Attributes: shape, size, itemsize'. Work with: column_count = 80, row_count = 60, type_bits = 60. Carry the chain through step by step and give the final value of total_memory_bytes.",
+     "a": "33600 bytes",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'ndarray Attributes: shape, size, itemsize' refers to.",
+     "a": "Every ndarray reports its structure through attributes: ndim counts the axes (the rank), shape lists the size along each axis, size totals the elements (the product of the shape numbers), dtype names the element type, and itemsize gives each element's width in bytes, obtained by dividing the type's bit width by 8.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'ndarray Attributes: shape, size, itemsize'.",
+     "a": "Multiply the shape entries for size, divide the type bits by 8 for itemsize, then multiply the two for the array's memory footprint.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'ndarray Attributes: shape, size, itemsize', in plain ASCII form.",
+     "a": "total_memory_bytes = array_size * itemsize_bytes",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip106.3",
+   "title": "Two Dimensional Array Indexing",
+   "questions": [
+    {
+     "q": "Using the method 'Two Dimensional Array Indexing', work with: column_count = 80, column_index = 25, row_index = 15. Carry the chain through step by step and give the final value of linear_offset.",
+     "a": "1225 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Two Dimensional Array Indexing' and work with: column_count = 240, column_index = 360, row_index = 45. Carry the chain through step by step and give the final value of linear_offset.",
+     "a": "11160 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Two Dimensional Array Indexing' refers to.",
+     "a": "A 2-D array addresses each cell with a pair of zero-based indices marks[i, j], where i counts rows and j counts columns. Counting the cells stored before a given one shows why the pair works: whole rows of the grid come first, then the offset inside the row.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Two Dimensional Array Indexing'.",
+     "a": "Row index times row length skips whole rows; adding the column index lands on the exact cell, and an index past an axis size raises IndexError.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Two Dimensional Array Indexing', in plain ASCII form.",
+     "a": "linear_offset = preceding_elements + column_index",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip106.4",
+   "title": "Matrix Multiplication Cell Value",
+   "questions": [
+    {
+     "q": "Compute the top-left cell of the matrix product of [[3,6],[4,2]] and [[10,20],[15,12]]. Use the method 'Matrix Multiplication Cell Value'. Work with: column_value_one = 12000, column_value_two = 8000, row_value_one = 12000, row_value_two = 2500. Carry the chain through step by step and give the final value of cell_value.",
+     "a": "164000000 units",
+     "self_check": false
+    },
+    {
+     "q": "Find array1 * array2 and array1 + array2 for the two 2 by 2 arrays of the chapter. Use the method 'Matrix Multiplication Cell Value'. Work with: column_value_one = 20000, column_value_two = 5000, row_value_one = 120000, row_value_two = 50000. Carry the chain through step by step and give the final value of cell_value.",
+     "a": "2650000000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Matrix Multiplication Cell Value' refers to.",
+     "a": "The @ operator multiplies two matrices properly (unlike * which pairs elements). Each cell of the answer is built by walking one row of the left matrix against one column of the right matrix: multiply the matched pairs and add the products.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Matrix Multiplication Cell Value'.",
+     "a": "Row meets column: multiply pairwise, then add the products; element-wise * needs equal shapes but @ needs matching inner dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Matrix Multiplication Cell Value', in plain ASCII form.",
+     "a": "cell_value = product_one + product_two",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip106.5",
+   "title": "Statistical Operations: sum, mean, axis",
+   "questions": [
+    {
+     "q": "Find the mean of arrayB along axis 0 and along axis 1. Use the method 'Statistical Operations: sum, mean, axis'. Work with: element_count = 12, first_cell = 20, fourth_cell = 18, second_cell = 18, third_cell = 360. Carry the chain through step by step and give the final value of array_mean.",
+     "a": "34.6667 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the max of arrayB row wise and column wise. Use the method 'Statistical Operations: sum, mean, axis'. Work with: element_count = 120, first_cell = 4, fourth_cell = 10, second_cell = 8, third_cell = 8. Carry the chain through step by step and give the final value of array_mean.",
+     "a": "0.25 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Statistical Operations: sum, mean, axis' refers to.",
+     "a": "NumPy computes descriptive statistics straight on arrays: sum() totals the elements, mean() averages them, max() and min() fetch the extremes, std() spreads them. An axis argument chooses direction: axis=1 collapses each row into one number, axis=0 collapses each column.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Statistical Operations: sum, mean, axis'.",
+     "a": "Add a row's cells for its row sum, divide by the row length for its mean; axis picks rows or columns.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Statistical Operations: sum, mean, axis', in plain ASCII form.",
+     "a": "row_mean = row_total / column_count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip106.6",
+   "title": "Reshape Without Losing Elements",
+   "questions": [
+    {
+     "q": "Using the method 'Reshape Without Losing Elements', work with: new_columns = 80, old_columns = 240, old_rows = 24. Carry the chain through step by step and give the final value of new_rows.",
+     "a": "72 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Reshape Without Losing Elements' and work with: new_columns = 400, old_columns = 400, old_rows = 400. Carry the chain through step by step and give the final value of new_rows.",
+     "a": "400 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Reshape Without Losing Elements' refers to.",
+     "a": "reshape() rearranges an array's elements into a new grid without adding, dropping or reordering values, so the element count must stay fixed. Choosing a new column count fixes the row count automatically by dividing the unchanged total among the columns.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Reshape Without Losing Elements'.",
+     "a": "Reshape re-cuts the same elements into new rows and columns; the product of the new shape must reproduce the old size exactly.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Reshape Without Losing Elements', in plain ASCII form.",
+     "a": "new_rows = total_elements // new_columns",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip106.7",
+   "title": "arange Start Stop Step Values",
+   "questions": [
+    {
+     "q": "How many elements does np.arange(4, 44, 4) contain? Use the method 'arange Start Stop Step Values'. Work with: start_value = 8000, step_value = 2500, stop_value = 50000. Carry the chain through step by step and give the final value of last_arange_value.",
+     "a": "48000 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the last value of arange(10, 22) with the default step. Use the method 'arange Start Stop Step Values'. Work with: start_value = 2500, step_value = 500, stop_value = 8000. Carry the chain through step by step and give the final value of last_arange_value.",
+     "a": "7500 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'arange Start Stop Step Values' refers to.",
+     "a": "np.arange(start, stop, step) builds an array of evenly spaced values beginning at start, advancing by step, and stopping before stop. Counting its elements and its final value follows the same upward-rounded arithmetic as Python's range.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'arange Start Stop Step Values'.",
+     "a": "Round the span upward against the step to count the values; the last one sits one step short of stop.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'arange Start Stop Step Values', in plain ASCII form.",
+     "a": "last_arange_value = start_value + (arange_count - 1) * step_value",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip106.8",
+   "title": "Concatenating Arrays Row wise and Column wise",
+   "questions": [
+    {
+     "q": "Using the method 'Concatenating Arrays Row wise and Column wise', work with: first_columns = 75, result_rows = 100, second_columns = 40. Carry the chain through step by step and give the final value of total_elements.",
+     "a": "11500 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Concatenating Arrays Row wise and Column wise' and work with: first_columns = 30, result_rows = 15, second_columns = 10. Carry the chain through step by step and give the final value of total_elements.",
+     "a": "600 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Concatenating Arrays Row wise and Column wise' refers to.",
+     "a": "np.concatenate() joins arrays along an axis: axis=0 stacks them one beneath the other, axis=1 places them side by side. Every dimension except the joining axis must match exactly, or NumPy raises a ValueError.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Concatenating Arrays Row wise and Column wise'.",
+     "a": "Joining side by side adds the column counts and demands equal row counts; joining downward does the reverse.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Concatenating Arrays Row wise and Column wise', in plain ASCII form.",
+     "a": "result_columns = first_columns + second_columns",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip106.9",
+   "title": "Splitting Arrays Into Subarrays",
+   "questions": [
+    {
+     "q": "Using the method 'Splitting Arrays Into Subarrays', work with: cut_one = 15, cut_two = 75, total_rows = 60. Carry the chain through step by step and give the final value of last_two_parts.",
+     "a": "45 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Splitting Arrays Into Subarrays' and work with: cut_one = 20, cut_two = 4, total_rows = 60. Carry the chain through step by step and give the final value of last_two_parts.",
+     "a": "40 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Splitting Arrays Into Subarrays' refers to.",
+     "a": "np.split() cuts an array into pieces, either at a list of index positions or into N equal parts, along a chosen axis. Cutting a 5-row array at positions [1, 3] yields a one-row head, a two-row middle and a two-row tail, and the parts together always rebuild the original row count.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Splitting Arrays Into Subarrays'.",
+     "a": "Each cut index marks where one part ends and the next begins; subtracting successive cut points sizes every middle part.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Splitting Arrays Into Subarrays', in plain ASCII form.",
+     "a": "last_two_parts = middle_size + tail_size",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip106.10",
+   "title": "Transpose of an Array",
+   "questions": [
+    {
+     "q": "Using the method 'Transpose of an Array', work with: columns_count = 50, rows_count = 18. Carry the chain through step by step and give the final value of transposed_shape.",
+     "a": "18 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Transpose of an Array' and work with: columns_count = 100, rows_count = 100. Carry the chain through step by step and give the final value of transposed_shape.",
+     "a": "100 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Transpose of an Array' refers to.",
+     "a": "transpose() swaps the roles of rows and columns, exactly like the transpose of a school mathematics matrix: a 3 by 4 grid comes back as 4 by 3, and the original array itself stays untouched unless the result is stored back.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Transpose of an Array'.",
+     "a": "Transpose flips the shape pair; the value at row i, column j moves to row j, column i.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Transpose of an Array', in plain ASCII form.",
+     "a": "transposed_shape = (columns_count, rows_count)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

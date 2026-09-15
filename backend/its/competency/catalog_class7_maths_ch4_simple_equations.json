@@ -1,0 +1,671 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 4,
+ "chapter_title": "Simple Equations",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hemh101.txt",
+ "concepts": [
+  {
+   "id": "c7m4.2.1",
+   "title": "Setting Up an Equation",
+   "section": "4.2",
+   "definition": "An equation is a condition on a variable. To set up an equation, identify the unknown, denote it by a letter (x, y, etc.), translate the statement into mathematical operations, and equate to the given value.",
+   "formula": "unknown = letter; statement -> expression = value",
+   "key_idea": "Identify unknown, denote by letter, translate words to math, equate.",
+   "textbook_ref": "gemh104.txt lines 20-45",
+   "question_patterns": [
+    "set up an equation",
+    "write the statement as an equation",
+    "write equations for the following statements",
+    "form an equation",
+    "convert statement to equation",
+    "the sum of three times x and 11 is 32",
+    "if you subtract 5 from 6 times a number you get 7",
+    "one fourth of m is 3 more than 7"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the unknown",
+     "explain": "Find what is unknown, denote by a letter like x, y, m, n"
+    },
+    {
+     "step": 2,
+     "action": "translate operations",
+     "explain": "Convert words to math: 'sum' = +, 'difference' = -, 'times' = x, 'of' = x, 'divided by' = /"
+    },
+    {
+     "step": 3,
+     "action": "form equation",
+     "explain": "Set expression equal to the given value"
+    }
+   ]
+  },
+  {
+   "id": "c7m4.3.1",
+   "title": "Variable and Expression",
+   "section": "4.3",
+   "definition": "A variable is a quantity that can change, denoted by a letter. An expression is formed by performing operations (add, subtract, multiply, divide) on variables. The value of an expression depends on the value of the variable.",
+   "formula": "expression = operations on variable; value depends on variable",
+   "key_idea": "Variables change, expressions depend on variables.",
+   "textbook_ref": "gemh104.txt lines 46-74",
+   "question_patterns": [
+    "what is a variable",
+    "what is an expression",
+    "value of expression depends on",
+    "verify by giving values to variable",
+    "find value of expression for x = "
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify variable",
+     "explain": "The letter that can change"
+    },
+    {
+     "step": 2,
+     "action": "substitute value",
+     "explain": "Replace variable with given value"
+    },
+    {
+     "step": 3,
+     "action": "evaluate",
+     "explain": "Compute the result"
+    }
+   ]
+  },
+  {
+   "id": "c7m4.4.1",
+   "title": "What Equation Is",
+   "section": "4.4",
+   "definition": "An equation has an equality sign. LHS = RHS. At least one side must contain the variable. An equation remains the same when LHS and RHS are interchanged.",
+   "formula": "lhs = rhs; at least one side has variable",
+   "key_idea": "Equation has = sign. LHS = RHS. Can swap sides.",
+   "textbook_ref": "gemh104.txt lines 78-101",
+   "question_patterns": [
+    "what is an equation",
+    "is this an equation",
+    "does equation have equality sign",
+    "lhs and rhs of equation",
+    "interchange lhs and rhs"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check for equality sign",
+     "explain": "Equation must have = sign"
+    },
+    {
+     "step": 2,
+     "action": "check for variable",
+     "explain": "At least one side must contain a variable"
+    },
+    {
+     "step": 3,
+     "action": "identify LHS and RHS",
+     "explain": "Left of = is LHS, right of = is RHS"
+    }
+   ]
+  },
+  {
+   "id": "c7m4.4.2",
+   "title": "Solving Equation by Balancing",
+   "section": "4.4.1",
+   "definition": "To solve an equation, perform the same mathematical operation (add, subtract, multiply, divide by same non-zero number) on both sides to isolate the variable. The balance is maintained.",
+   "formula": "if a = b, then a+c = b+c, a-c = b-c, a*c = b*c, a/c = b/c (c != 0)",
+   "key_idea": "Same operation on both sides keeps balance. Goal: isolate variable.",
+   "textbook_ref": "gemh104.txt lines 228-334",
+   "question_patterns": [
+    "solve the equation",
+    "find the value of x",
+    "find the value of y",
+    "solve for the variable",
+    "separate the variable",
+    "solve by trial and error",
+    "first step to separate the variable"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify operation to undo",
+     "explain": "If +n on LHS, subtract n from both sides. If -n, add n. If x*n, divide by n. If /n, multiply by n."
+    },
+    {
+     "step": 2,
+     "action": "perform on both sides",
+     "explain": "Apply same operation to both LHS and RHS"
+    },
+    {
+     "step": 3,
+     "action": "simplify",
+     "explain": "Variable should now be isolated on LHS"
+    },
+    {
+     "step": 4,
+     "action": "check solution",
+     "explain": "Substitute value back into original equation to verify"
+    }
+   ]
+  },
+  {
+   "id": "c7m4.5.1",
+   "title": "Transposing Terms",
+   "section": "4.5",
+   "definition": "Transposing means moving a number or term from one side to the other. When transposing, change the sign (+ becomes -, - becomes +). Same as adding/subtracting from both sides.",
+   "formula": "transposing +n from lhs to rhs becomes -n; transposing -n becomes +n",
+   "key_idea": "Move term to other side, flip its sign. Same as balancing.",
+   "textbook_ref": "gemh104.txt lines 418-462",
+   "question_patterns": [
+    "transpose the term",
+    "solve by transposing",
+    "change the side of the number",
+    "move to other side",
+    "transposing means"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify term to move",
+     "explain": "Find the term to move to the other side"
+    },
+    {
+     "step": 2,
+     "action": "change sign",
+     "explain": "+ becomes -, - becomes + when moved to other side"
+    },
+    {
+     "step": 3,
+     "action": "simplify",
+     "explain": "Combine like terms on each side"
+    },
+    {
+     "step": 4,
+     "action": "solve for variable",
+     "explain": "Divide or multiply to isolate variable"
+    }
+   ]
+  },
+  {
+   "id": "c7m4.5.2",
+   "title": "Solving Equations with Brackets",
+   "section": "4.5",
+   "definition": "To solve equations with brackets like 4(m+3) = 18, first divide both sides by the coefficient to remove brackets, then solve.",
+   "formula": "a(b+c) = d -> divide by a -> (b+c) = d/a -> transpose c -> b = d/a - c",
+   "key_idea": "Divide by coefficient to remove brackets, then solve.",
+   "textbook_ref": "gemh104.txt lines 463-498",
+   "question_patterns": [
+    "solve equation with brackets",
+    "solve 4(m+3) = 18",
+    "solve -2(x+3) = 8",
+    "equation with parentheses",
+    "remove brackets in equation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide by coefficient",
+     "explain": "Divide both sides by the number outside brackets to remove brackets"
+    },
+    {
+     "step": 2,
+     "action": "transpose constant",
+     "explain": "Move the constant inside brackets to the other side, changing sign"
+    },
+    {
+     "step": 3,
+     "action": "simplify",
+     "explain": "Compute the value of the variable"
+    },
+    {
+     "step": 4,
+     "action": "check",
+     "explain": "Substitute back to verify"
+    }
+   ]
+  },
+  {
+   "id": "c7m4.6.1",
+   "title": "Applications to Practical Situations",
+   "section": "4.6",
+   "definition": "Convert word problems into equations, then solve. Identify the unknown, set up the equation from the statement, and solve for the variable.",
+   "formula": "word problem -> equation -> solve -> answer",
+   "key_idea": "Translate words to equation, solve, interpret answer.",
+   "textbook_ref": "gemh104.txt lines 499-614",
+   "question_patterns": [
+    "the sum of three times a number and 11 is 32",
+    "find a number such that one fourth is 3 more than 7",
+    "father age is 5 more than three times son age",
+    "highest marks is twice lowest plus 7",
+    "base angles of isosceles triangle",
+    "sachin scored twice as many runs as rahul",
+    "irfan has 7 more than five times parmit marbles",
+    "laxmi father is 4 older than three times laxmi",
+    "non fruit trees two more than three times fruit trees",
+    "solve the riddle i am a number"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify unknown",
+     "explain": "What needs to be found? Denote by a variable."
+    },
+    {
+     "step": 2,
+     "action": "translate to equation",
+     "explain": "Convert the word statement to a mathematical equation"
+    },
+    {
+     "step": 3,
+     "action": "solve equation",
+     "explain": "Use transposing or balancing to isolate variable"
+    },
+    {
+     "step": 4,
+     "action": "interpret answer",
+     "explain": "State what the value means in context of the problem"
+    },
+    {
+     "step": 5,
+     "action": "verify",
+     "explain": "Check by substituting back into the original statement"
+    }
+   ]
+  },
+  {
+   "id": "c7m4.4.3",
+   "title": "Converting Equation to Statement",
+   "section": "4.4",
+   "definition": "Convert an equation like x-5=9 into a statement form. Multiple statement forms are possible for one equation.",
+   "formula": "equation -> words; multiple forms possible",
+   "key_idea": "Equation can be expressed in many word forms.",
+   "textbook_ref": "gemh104.txt lines 136-151",
+   "question_patterns": [
+    "write equation in statement form",
+    "convert equation to statement",
+    "write the equation in words",
+    "other form of the equation",
+    "explain converting equation to statement with an example",
+    "short note on converting equation to statement",
+    "why is converting equation to statement important",
+    "give one everyday example of converting equation to statement",
+    "describe converting equation to statement in your own words",
+    "what do you understand by converting equation to statement",
+    "list the main points about converting equation to statement"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the operation",
+     "explain": "Identify what operation is on the variable (add, subtract, multiply, divide)"
+    },
+    {
+     "step": 2,
+     "action": "translate to words",
+     "explain": "Convert each operation to words: + = 'add', - = 'subtract', x = 'times', / = 'divided by'"
+    },
+    {
+     "step": 3,
+     "action": "form statement",
+     "explain": "Write a complete sentence describing the equation"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gemh104.txt lines 102-135",
+   "concept": "c7m4.2.1",
+   "question_type": "statement_to_equation",
+   "question_pattern": "write the statement as equation: {statement}",
+   "extracted_variables": {
+    "statement": "the word statement to convert"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify unknown",
+     "explain": "Find what is unknown, denote by letter"
+    },
+    {
+     "step": 2,
+     "action": "translate operations",
+     "explain": "Convert words to math operations"
+    },
+    {
+     "step": 3,
+     "action": "form equation",
+     "explain": "Set expression equal to value"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gemh104.txt lines 136-151",
+   "concept": "c7m4.4.3",
+   "question_type": "equation_to_statement",
+   "question_pattern": "convert equation {equation} to statement form",
+   "extracted_variables": {
+    "equation": "the equation to convert"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read operations",
+     "explain": "Identify operations on variable"
+    },
+    {
+     "step": 2,
+     "action": "translate to words",
+     "explain": "Convert math to words"
+    },
+    {
+     "step": 3,
+     "action": "form statement",
+     "explain": "Write complete sentence"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "gemh104.txt lines 152-160",
+   "concept": "c7m4.2.1",
+   "question_type": "age_word_problem",
+   "question_pattern": "father age is {n} more than {m} times son age. father is {age}. find son age.",
+   "extracted_variables": {
+    "n": "extra years",
+    "m": "multiplier",
+    "age": "father's age"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "let son age be y",
+     "explain": "y = son's age"
+    },
+    {
+     "step": 2,
+     "action": "form equation",
+     "explain": "m*y + n = age"
+    },
+    {
+     "step": 3,
+     "action": "solve",
+     "explain": "transpose n, divide by m"
+    },
+    {
+     "step": 4,
+     "action": "find y",
+     "explain": "y = (age - n) / m"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "gemh104.txt lines 161-168",
+   "concept": "c7m4.2.1",
+   "question_type": "mangoes_box_problem",
+   "question_pattern": "large box contains 8 small boxes plus 4 loose. large box has 100. find small box.",
+   "extracted_variables": {
+    "small_per_large": "8",
+    "extra": "4",
+    "total": "100"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "let small box have m mangoes",
+     "explain": "m = mangoes in small box"
+    },
+    {
+     "step": 2,
+     "action": "form equation",
+     "explain": "8m + 4 = 100"
+    },
+    {
+     "step": 3,
+     "action": "transpose 4",
+     "explain": "8m = 100 - 4 = 96"
+    },
+    {
+     "step": 4,
+     "action": "divide by 8",
+     "explain": "m = 96 / 8 = 12"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "gemh104.txt lines 335-365",
+   "concept": "c7m4.4.2",
+   "question_type": "solve_two_step",
+   "question_pattern": "solve {a}n + {b} = {c} or {a}p - {b} = {c}",
+   "extracted_variables": {
+    "a": "coefficient",
+    "b": "constant",
+    "c": "rhs value"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "transpose constant",
+     "explain": "Move b to RHS with sign change: an = c - b (or an = c + b if -b)"
+    },
+    {
+     "step": 2,
+     "action": "divide by coefficient",
+     "explain": "n = (c - b) / a"
+    },
+    {
+     "step": 3,
+     "action": "check",
+     "explain": "Substitute back to verify"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "gemh104.txt lines 423-443",
+   "concept": "c7m4.5.1",
+   "question_type": "solve_transpose",
+   "question_pattern": "solve {a}p - {b} = {c} by transposing",
+   "extracted_variables": {
+    "a": "coefficient",
+    "b": "constant being subtracted",
+    "c": "rhs value"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "transpose -b",
+     "explain": "Move -b to RHS as +b: ap = c + b"
+    },
+    {
+     "step": 2,
+     "action": "divide by a",
+     "explain": "p = (c + b) / a"
+    },
+    {
+     "step": 3,
+     "action": "check",
+     "explain": "Substitute back to verify"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "gemh104.txt lines 466-498",
+   "concept": "c7m4.5.2",
+   "question_type": "solve_brackets",
+   "question_pattern": "solve {a}(m + {b}) = {c}",
+   "extracted_variables": {
+    "a": "coefficient outside brackets",
+    "b": "constant inside brackets",
+    "c": "rhs value"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide by a",
+     "explain": "m + b = c / a"
+    },
+    {
+     "step": 2,
+     "action": "transpose b",
+     "explain": "m = (c/a) - b"
+    },
+    {
+     "step": 3,
+     "action": "check",
+     "explain": "Substitute back to verify"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "gemh104.txt lines 509-523",
+   "concept": "c7m4.6.1",
+   "question_type": "find_number_word",
+   "question_pattern": "the sum of three times a number and 11 is 32. find the number.",
+   "extracted_variables": {
+    "multiplier": "3",
+    "addend": "11",
+    "total": "32"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "let number be x",
+     "explain": "x = unknown number"
+    },
+    {
+     "step": 2,
+     "action": "form equation",
+     "explain": "multiplier*x + addend = total"
+    },
+    {
+     "step": 3,
+     "action": "transpose addend",
+     "explain": "multiplier*x = total - addend"
+    },
+    {
+     "step": 4,
+     "action": "divide",
+     "explain": "x = (total - addend) / multiplier"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "gemh104.txt lines 524-556",
+   "concept": "c7m4.6.1",
+   "question_type": "fraction_word_problem",
+   "question_pattern": "find a number such that one fourth of the number is 3 more than 7.",
+   "extracted_variables": {
+    "fraction": "1/4",
+    "more_than": "7",
+    "by": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "let number be y",
+     "explain": "y = unknown number"
+    },
+    {
+     "step": 2,
+     "action": "form equation",
+     "explain": "(fraction)*y - more_than = by"
+    },
+    {
+     "step": 3,
+     "action": "transpose",
+     "explain": "(fraction)*y = more_than + by"
+    },
+    {
+     "step": 4,
+     "action": "multiply by reciprocal",
+     "explain": "y = (more_than + by) / fraction"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "gemh104.txt lines 557-565",
+   "concept": "c7m4.6.1",
+   "question_type": "age_application",
+   "question_pattern": "father age is 5 more than three times son age. father is 44. find son age.",
+   "extracted_variables": {
+    "extra": "5",
+    "multiplier": "3",
+    "father_age": "44"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "let son age be y",
+     "explain": "y = son's age"
+    },
+    {
+     "step": 2,
+     "action": "form equation",
+     "explain": "multiplier*y + extra = father_age"
+    },
+    {
+     "step": 3,
+     "action": "transpose",
+     "explain": "multiplier*y = father_age - extra"
+    },
+    {
+     "step": 4,
+     "action": "divide",
+     "explain": "y = (father_age - extra) / multiplier"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "gemh104.txt lines 172-227",
+   "questions": [
+    "Complete the table: check if value satisfies equation (x+3=0 for x=3,0,-3; x-7=1 for x=7,8; 5x=25 for x=0,5,-5; m/3=2 for m=-6,0,6)",
+    "Check if value in brackets is solution: n+5=19 (n=1); 7n+5=19 (n=-2); 7n+5=19 (n=2); 4p-3=13 (p=1); 4p-3=13 (p=-4); 4p-3=13 (p=0)",
+    "Solve by trial and error: 5p+2=17; 3m-14=4",
+    "Write equations: sum of x and 4 is 9; 2 subtracted from y is 8; ten times a is 70; b divided by 5 gives 6; three-fourth of t is 15; seven times m plus 7 gets 77; one-fourth of x minus 4 gives 4; take away 6 from 6 times y gives 60; add 3 to one-third of z gives 30",
+    "Write in statement form: p+4=15; m-7=3; 2m=7; m/5=3; 3m/5=6; 3p+4=25; 4p-2=18; p/2+2=8",
+    "Set up equation: Irfan has 7 more than five times Parmit's marbles. Irfan has 37. Laxmi father 49, 4 older than 3 times Laxmi. Highest marks twice lowest plus 7, highest 87. Isosceles triangle vertex angle twice base angle."
+   ]
+  },
+  {
+   "id": "ex4.2",
+   "source_ref": "gemh104.txt lines 390-417",
+   "questions": [
+    "First step to separate variable, then solve: x-1=0; x+1=0; x-1=5; x+6=2; y-4=-7; y-4=4; y+4=4; y+4=-4",
+    "First step then solve: 3l=42; b/2=6; p/4=7; 4x=25; 8y=36; z/3=5; a/5=7; 20t=-10",
+    "Steps to separate variable then solve: 3n-2=46; 5m+7=17; 20p/3=40; 3p/10=6",
+    "Solve: 10p=100; 10p+10=100; p/4=5; p/3=5; 3p/4=6; 3s=-9; 3s+12=0; 3s=0; 2q=6; 2q-6=0; 2q+6=0; 2q+6=12"
+   ]
+  },
+  {
+   "id": "ex4.3",
+   "source_ref": "gemh104.txt lines 572-614",
+   "questions": [
+    "Set up equations and solve: add 4 to eight times a number gives 60; one-fifth of number minus 4 gives 3; three-fourths of number plus 3 gives 21; subtract 11 from twice a number gives 15; Munna subtracts thrice notebooks from 50 gives 8; Ibenhal adds 19 to number divides by 5 gives 8; Anwar takes 7 from 5/2 of number gives 23",
+    "Solve: highest marks twice lowest plus 7, highest 87, find lowest; isosceles triangle vertex 40, find base angles; Sachin twice as many runs as Rahul, together 2 short of double century",
+    "Solve: Irfan 7 more than five times Parmit, Irfan has 37, find Parmit; Laxmi father 49, 4 older than 3 times Laxmi, find Laxmi; non-fruit trees 2 more than 3 times fruit trees, non-fruit 77, find fruit trees",
+    "Solve riddle: take me seven times over and add fifty, to reach triple century you still need forty"
+   ]
+  }
+ ],
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)",
+ "source_link": "re-linked to new cache"
+}

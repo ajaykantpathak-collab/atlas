@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_12_005",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_12_005",
+   "title": "c12_cs_cbse_12_005",
+   "questions": [
+    {
+     "q": "What is the primary function of a network firewall, and where is it typically placed in a network topology?",
+     "a": "A network firewall filters traffic between two or more networks (e.g., a school LAN and the internet) based on predefined security rules; it is placed at the network perimeter (gateway) between the trusted internal network and untrusted external networks. A wrong answer (e.g., \"firewall scans files for viruses on a computer\") reveals confusion between network-level traffic filtering (firewall) and endpoint-level malware scanning (antivirus), a common category error.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why an antivirus with an outdated Virus Definition File (VDF) is ineffective against new malware, and name one detection method that can still catch previously unknown malware without relying on signatures.",
+     "a": "Signature-based detection compares files against a database of known malware signatures (VDF); if the VDF is outdated, new malware signatures are absent, so the antivirus cannot recognize them. Heuristic analysis (or sandbox/behavior-based detection) can catch unknown malware by examining code structure for suspicious patterns or executing the file in an isolated virtual environment to observe malicious behavior. A wrong answer (e.g., \"update the firewall\") shows inability to distinguish signature-dependent vs signature-independent detection techniques.",
+     "self_check": true
+    },
+    {
+     "q": "A company's network administrator configures a firewall rule: \"Block all incoming traffic on port 23 (Telnet) from any external IP.\" Which type of firewall is being used, and what specific attack vector does this rule mitigate?",
+     "a": "This is a network firewall (or host-based firewall applied at the perimeter) using port-based filtering. The rule mitigates unauthorized remote administration via Telnet, which transmits credentials in cleartext and is a common target for brute-force and eavesdropping attacks (referencing node c12_cs_cbse_12_004). A wrong answer (e.g., \"antivirus blocks the port\") confuses application-layer filtering (firewall) with malware scanning (antivirus).",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast sandbox detection and heuristic analysis in antivirus software. In what situation would sandbox detection be preferred over heuristic analysis, and why?",
+     "a": "Heuristic analysis statically examines source code or binary patterns for similarity to known malware families (code-based), while sandbox detection dynamically executes the file in an isolated virtual environment to observe runtime behavior (behavior-based). Sandbox detection is preferred for heavily obfuscated, polymorphic, or encrypted malware that evades static heuristic signatures because it reveals actual malicious actions (e.g., registry modification, network callbacks) regardless of code appearance. A wrong answer (e.g., \"sandbox is faster\") misses the trade-off: sandbox is slower but more effective against evasive malware.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Installing both a network firewall and host-based antivirus on every computer provides complete security against all cyber threats.\" Justify your evaluation with at least two specific limitations of this combined approach.",
+     "a": "The statement is false. Limitation 1: Firewalls and antivirus cannot prevent social engineering attacks (phishing, node c12_cs_cbse_12_003) where users voluntarily disclose credentials. Limitation 2: They cannot protect against insider threats or data exfiltration via encrypted channels (HTTPS) that bypass inspection without SSL decryption. Limitation 3: Zero-day exploits and advanced persistent threats (APTs) may evade both signature-based antivirus and rule-based firewalls. A wrong answer (e.g., \"it is true because they cover network and endpoint\") shows lack of awareness of the human and encrypted-traffic attack surfaces.",
+     "self_check": true
+    },
+    {
+     "q": "Design a layered security strategy for a small business with 20 employees who handle customer payment data. Specify: (a) firewall placement and two critical rules, (b) antivirus configuration (detection methods enabled), and (c) one non-technical control that complements these tools.",
+     "a": "(a) Deploy a network firewall at the internet gateway with rules: (1) Block all inbound connections except HTTPS (port 443) to the payment server; (2) Block outbound traffic to known malicious IP ranges (threat intelligence feed). Enable host-based firewalls on each workstation to block peer-to-peer file sharing ports. (b) Configure endpoint antivirus with: real-time protection ON, heuristic analysis ON, sandbox/behavior monitoring ON, automatic VDF updates every hour. (c) Non-technical control: Mandatory monthly security awareness training covering phishing simulation and password hygiene (addresses human factor). A poor answer omits layered placement, relies solely on signatures, or ignores the human element.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

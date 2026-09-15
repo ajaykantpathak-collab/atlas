@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_01_012",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_01_012",
+   "title": "c10_bio_cbse_01_012",
+   "questions": [
+    {
+     "q": "Name the functional unit of the human kidney and state its two main structural components that form the renal corpuscle.",
+     "a": "The functional unit is the nephron. The renal corpuscle consists of the glomerulus (a capillary network) and Bowman's capsule (a cup-like structure surrounding the glomerulus). A wrong answer like \"kidney tubule\" or \"collecting duct\" reveals the student confuses the whole nephron with its parts or cannot distinguish the filtration site from the reabsorption/secretion sites.",
+     "self_check": true
+    },
+    {
+     "q": "Glomerular filtrate contains glucose, amino acids, water, salts, and urea — yet normal urine contains no glucose or amino acids. Explain why this happens, naming the specific nephron segment and transport mechanism involved.",
+     "a": "Glucose and amino acids are completely reabsorbed in the proximal convoluted tubule (PCT) by active transport (using carrier proteins and energy from ATP). A wrong answer like \"they are filtered out in the loop of Henle\" or \"they are secreted into urine\" reveals the student does not understand selective reabsorption occurs early in the nephron and that useful substances are actively transported back into peritubular capillaries, not left in the tubule.",
+     "self_check": true
+    },
+    {
+     "q": "A patient has a condition where their loop of Henle is damaged and cannot maintain a concentration gradient in the medulla. Predict how this will affect their urine volume and concentration, and explain the mechanism.",
+     "a": "Urine volume will increase (polyuria) and urine will be dilute (low specific gravity). The loop of Henle creates the medullary concentration gradient via the counter-current multiplier mechanism; without it, water cannot be reabsorbed from the collecting duct even when ADH is present, because there is no osmotic gradient to drive water out. A wrong answer like \"urine will be concentrated\" or \"no change in urine\" reveals the student does not grasp the loop of Henle's role in establishing the osmotic gradient essential for water reabsorption under ADH influence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the composition of glomerular filtrate, tubular fluid at the end of the proximal convoluted tubule, and final urine in a healthy human. Identify which substances change and which remain relatively constant, and explain why.",
+     "a": "Glomerular filtrate: contains glucose, amino acids, water, salts, urea. End of PCT: glucose and amino acids removed (100% reabsorbed), ~65% water and salts reabsorbed, urea concentration increases. Final urine: no glucose/amino acids, variable water/salts (regulated), high urea. Urea remains in tubular fluid throughout but is partially reabsorbed passively; its concentration rises as water leaves. A wrong answer like \"urea is completely reabsorbed\" or \"salts are not reabsorbed\" reveals confusion about which reabsorption is complete (glucose/amino acids), which is regulated (water, Na+), and which is passive (urea).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The kidneys excrete urea because it is toxic; therefore, the more urea in the blood, the more the kidneys filter it out, so urine urea concentration always directly reflects blood urea concentration.\" Is this correct? Justify.",
+     "a": "The statement is partially correct but misleading. Kidneys do excrete urea because it is toxic, but urine urea concentration does NOT directly reflect blood urea concentration because water reabsorption is regulated independently. When dehydrated, ADH causes water reabsorption, concentrating urea in urine even if blood urea is normal. When overhydrated, dilute urine has low urea concentration even if blood urea is high. A wrong evaluation like \"yes, it's directly proportional\" reveals the student ignores the role of water reabsorption in determining final urine concentration and thinks filtration alone determines excretion.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple investigation using dialysis tubing to model the selective reabsorption function of the proximal convoluted tubule. Specify what you would put inside the tubing, what the surrounding solution would contain, what you would test for, and what result would demonstrate \"selective\" reabsorption.",
+     "a": "Fill dialysis tubing with a mixture of glucose, starch, and urea (simulating filtrate). Place in a beaker of water (simulating peritubular capillary blood). Test beaker water at intervals for glucose (Benedict's test), starch (iodine test), and urea (litmus/pH or specific test). Result showing glucose and urea in beaker water but starch remaining inside tubing demonstrates selective reabsorption: small molecules (glucose, urea) diffuse out while large molecules (starch/proteins) are retained — analogous to PCT reabsorbing small useful molecules but not proteins. A poor design that tests only one substance or uses incorrect pore size reveals the student does not understand \"selective\" means based on molecular size and transport mechanisms, not just passive diffusion of everything.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

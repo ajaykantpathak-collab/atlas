@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_07_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_07_011",
+   "title": "c12_hin_a_cbse_07_011",
+   "questions": [
+    {
+     "q": "Identify the standard Modern Hindi equivalents of the following Braj Bhasha words from the poem: *nsol, fufl, nwHkj, fg;k, tukok*. Write each pair as \"Braj → Hindi\".",
+     "a": "Correct: *nsol → fnol* (day), *fufl → jkf=k* (burning), *nwHkj → dfBu* (deep/intense), *fg;k → ân;* (grace/beauty), *tukok → izrhr gqvk* (broken/shattered). A wrong answer (e.g., *nsol → nsol* or *fufl → fufl*) reveals the student treats the dialect as mere spelling variation rather than a systematic grammatical system with predictable phonological and morphological rules.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the poet uses the Braj Bhasha form *lhÅ* instead of standard Hindi *'khr* in the line *lhÅ rkS iS tkb gksb l¡x ihmQA*. What grammatical category does this illustrate?",
+     "a": "*lhÅ* is the Braj Bhasha nominative singular pronoun for 'he/she/it' (standard Hindi *'khr*). It illustrates the **pronoun paradigm shift** between Braj and Modern Hindi. A wrong answer like \"it's just an old word\" misses the systematic nature: Braj retains the Apabhramsha *so/seh* lineage (*so → lhÅ*), while Modern Hindi derives from *yah/yahā̃*. The student must recognize this as a **morphological substitution**, not random archaism.",
+     "self_check": true
+    },
+    {
+     "q": "In the line *fi; lkSa dgsgq l¡nslM+k] ,s Hk¡ojk ,s dkxA*, identify the case (कारक) of *lkSa* and *dgsgq*. Convert the entire line to standard Hindi, preserving the case relationships.",
+     "a": "*lkSa* = संबंध कारक (genitive) → *के*; *dgsgq* = कर्म कारक (accusative) → *देखकर* (or *देखते ही*). Standard Hindi: *फिर वह देखकर लांसक, यह होज, यह दक्ख* (loose rendering: *फिर उसे देखकर उसने लांसक/संदेश भेजा, यह होज, यह दक्ख*). A wrong answer that leaves *lkSa* as *लकसा* or misidentifies case shows inability to parse Braj postpositions (*sa* = *के*, *gq* = *को/करके*) — a core board-exam skill.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the verb forms *Hkk* (stanza 1) and *gksb* (stanza 2). What tense/aspect does each represent in Braj? How do their endings differ from Modern Hindi *होता है* and *हो जाता*?",
+     "a": "*Hkk* = habitual present / general truth (*होता है*); *gksb* = perfective future / conditional (*हो जाएगा / हो जाता है*). Braj uses *-k* (from Prakrit *-kkha*) for habitual present; Modern Hindi uses *-tā hai*. Braj *-sb* (from *-syati*) for future perfective; Modern Hindi uses *-egā / jātā hai*. A wrong answer confusing *Hkk* with past tense (*हुआ*) reveals failure to recognize the **aspectual distinction** — a frequent JEE/CUET trap in language-analysis passages.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Braj Bhasha in *कचजगेळक* is merely decorative; the same meaning could be conveyed in standard Hindi without loss.\" Defend your position using two specific grammatical features from the poem.",
+     "a": "The claim is **false**. Two losses: (1) **Phonological texture**: *nk#u* (deep) vs. *dfBu* — the Braj nasalized vowel + conjunct *#u* mimics the rumbling cloud; standard Hindi *dfBu* loses that onomatopoeic weight. (2) **Morphological compactness**: *pk¡Mk* (एक ही पल में) condenses a whole adverbial phrase into one word via the Braj suffix *-Mk* (instantaneous). Standard Hindi requires periphrasis. A student who agrees with the claim misses the **form-meaning isomorphism** that board examiners expect in \"भाषा की विशेषता\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compose a new two-line couplet in Braj Bhasha (using the poem's dialect patterns) describing the arrival of monsoon, employing at least three grammatical features you have identified (e.g., *nsol*-type vowel shift, *Hkk*-type habitual present, *sa* postposition).",
+     "a": "Example: *बरसत बरखा भइ निसोल, मोर मन भयो फुफल होल*। (Uses *nisol* for *nisol/fnol*, *bhayo* for *bhāyā* — Braj past, *fuphal* for *phūl* + *hol* for *hotā hai*). A poor answer writes in standard Hindi (*बारिश होती है दिन में, मेरा मन खिल जाता है*) — showing inability to **productive apply** the dialect rules, only recognize them passively.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,185 @@
+{
+ "catalog": "catalog_class6_maths_fegp109.json",
+ "concepts": [
+  {
+   "id": "fegp.9.1",
+   "family": "shape_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "lines = 1"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "order = 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "lines = 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "endpoints = 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "endpoints = 0"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "points = 1"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "lines = 1"
+   ]
+  },
+  {
+   "id": "fegp.9.2",
+   "family": "shape_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "lines = 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "order = 4"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "lines = 1"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "endpoints = 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "endpoints = 0"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "points = 1"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "lines = 2"
+   ]
+  },
+  {
+   "id": "fegp.9.3",
+   "family": "shape_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "lines = 5"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "order = 3"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "lines = 1"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "lines = 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "endpoints = 1"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "endpoints = 0"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "lines = 5"
+   ]
+  },
+  {
+   "id": "fegp.9.4",
+   "family": "shape_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "lines = 5"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "order = 3"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "lines = 1"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "lines = 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "endpoints = 1"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "endpoints = 0"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "lines = 5"
+   ]
+  }
+ ]
+}

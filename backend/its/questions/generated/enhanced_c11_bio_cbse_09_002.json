@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_09_002",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_09_002",
+   "title": "c11_bio_cbse_09_002",
+   "questions": [
+    {
+     "q": "Write the general structural formula of an α-amino acid and label the α-carbon, amino group, carboxyl group, and R-group. How many proteinogenic amino acids are commonly found in proteins?",
+     "a": "An α-amino acid has a central α-carbon bonded to –NH₂, –COOH, –H, and a variable R-group. There are 20 standard proteinogenic amino acids. A wrong answer (e.g., saying 22 or confusing α- with β-amino acids) reveals the student hasn't memorized the exact number specified in NCERT or confuses standard with non-standard/selenocysteine/pyrrolysine.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why amino acids exist predominantly as zwitterions at physiological pH (~7.4) but not at very low or very high pH. Use the terms \"protonated\" and \"deprotonated\" in your answer.",
+     "a": "At pH 7.4, the carboxyl group (pKa ~2) is deprotonated (–COO⁻) and the amino group (pKa ~9-10) is protonated (–NH₃⁺), giving a net neutral zwitterion. At low pH both groups are protonated (+1 charge); at high pH both are deprotonated (–1 charge). A wrong answer (e.g., \"amino acids are always neutral\") reveals confusion between net charge and zwitterion dipole, or ignorance of pH-dependent ionization.",
+     "self_check": true
+    },
+    {
+     "q": "A dipeptide is formed from glycine (R=H) and alanine (R=CH₃). Draw the two possible dipeptide structures, circle the peptide bond in each, and label the N-terminal and C-terminal amino acids. Which dipeptide would be named Gly-Ala?",
+     "a": "Two structures: Gly-Ala (N-terminal Gly, C-terminal Ala) and Ala-Gly (N-terminal Ala, C-terminal Gly). Peptide bond is –CO–NH– between α-carbonyl carbon and α-amino nitrogen. Gly-Ala has glycine's free –NH₃⁺ at left and alanine's free –COO⁻ at right. A wrong answer (e.g., drawing ester bond, reversing directionality, or missing the water loss) reveals misunderstanding of condensation directionality and peptide bond geometry.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the R-groups of aspartic acid, lysine, valine, and phenylalanine. Classify each as acidic, basic, neutral aliphatic, or aromatic. Predict which two would most likely form a salt bridge in a folded protein and explain why.",
+     "a": "Aspartic acid (–CH₂COOH) = acidic; Lysine (–(CH₂)₄NH₂) = basic; Valine (–CH(CH₃)₂) = neutral aliphatic; Phenylalanine (–CH₂–C₆H₅) = aromatic. Aspartic acid (negative at pH 7.4) and lysine (positive at pH 7.4) form a salt bridge via electrostatic attraction between –COO⁻ and –NH₃⁺. A wrong answer (e.g., pairing valine with phenylalanine) reveals inability to link R-group ionization state to tertiary structure stabilization.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Peptide bonds are single bonds, so the polypeptide backbone rotates freely like a carbon–carbon single bond in alkanes.\" Evaluate this statement. Is it correct? Justify using the concept of resonance.",
+     "a": "The statement is incorrect. The peptide bond has partial double-bond character due to resonance delocalization of the nitrogen lone pair into the carbonyl group (–C=O ↔ –C–O⁻ with N⁺). This makes the bond planar and rigid, restricting rotation. Free rotation occurs only at the N–Cα and Cα–C bonds (φ and ψ angles). A wrong answer (agreeing with the student) reveals ignorance of resonance stabilization and its conformational consequences.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only household materials (vinegar, baking soda, egg white, clear cups) to demonstrate that proteins are made of amino acids linked by bonds that can be broken by acid hydrolysis. List steps, expected observations, and the chemical principle.",
+     "a": "Steps: (1) Place egg white (albumin) in cup A; add vinegar (acid) to cup B with egg white. (2) Heat both gently for 10 min. (3) Add baking soda to neutralize cup B. (4) Observe: cup A remains cloudy (denatured protein); cup B shows clearer solution after neutralization because acid hydrolysis broke peptide bonds into amino acids (soluble). Principle: Acid hydrolysis cleaves peptide bonds; denaturation only unfolds. A poor answer (e.g., \"vinegar digests protein like stomach\") reveals confusion between chemical hydrolysis and enzymatic digestion, or missing the control.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

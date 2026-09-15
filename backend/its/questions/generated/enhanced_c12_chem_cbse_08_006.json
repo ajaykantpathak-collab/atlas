@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_08_006",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_08_006",
+   "title": "c12_chem_cbse_08_006",
+   "questions": [
+    {
+     "q": "Write the structure of the aldol product formed when propanal undergoes self-aldol condensation in the presence of dilute NaOH at low temperature (before dehydration).",
+     "a": "3-Hydroxy-2-methylpentanal (CH₃CH₂CH(OH)CH(CH₃)CHO). The enolate of propanal (CH₃CH₂CH⁻CHO ↔ CH₃CH=CH-O⁻) attacks the carbonyl carbon of another propanal molecule. A wrong answer like 3-hydroxybutanal reveals the student used ethanal instead of propanal, or misidentified the α-carbon. Writing the dehydrated product (2-methylpent-2-enal) shows confusion between aldol reaction and aldol condensation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why benzaldehyde does not undergo self-aldol condensation but undergoes Cannizzaro reaction instead, using the concept of α-hydrogen acidity and enolate stability.",
+     "a": "Benzaldehyde has no α-hydrogens (the carbonyl carbon is directly attached to the phenyl ring), so it cannot form an enolate. Without enolate formation, nucleophilic addition to another carbonyl cannot occur. In concentrated alkali, it undergoes disproportionation (Cannizzaro) where one molecule is reduced to benzyl alcohol and another oxidized to benzoate. A student saying \"benzaldehyde has no α-carbon\" is wrong — it has an α-carbon (the ipso carbon of the ring) but no α-hydrogens. Saying \"phenyl group withdraws electrons making α-H more acidic\" confuses it with phenylacetaldehyde (which does have α-H and undergoes aldol).",
+     "self_check": true
+    },
+    {
+     "q": "Predict all four possible aldol products (before dehydration) when a mixture of ethanal and propanal is treated with dilute NaOH. Indicate which carbonyl acts as nucleophile (enolate) and which as electrophile in each case.",
+     "a": "Four products:\n1. Ethanal enolate + Ethanal → 3-hydroxybutanal (self-aldol of ethanal)\n2. Propanal enolate + Propanal → 3-hydroxy-2-methylpentanal (self-aldol of propanal)\n3. Ethanal enolate + Propanal → 3-hydroxypentanal (cross-aldol, ethanal as nucleophile)\n4. Propanal enolate + Ethanal → 2-methyl-3-hydroxybutanal (cross-aldol, propanal as nucleophile)\nMissing any product or misassigning nucleophile/electrophile roles shows incomplete understanding of cross-aldol statistics. Writing dehydrated products indicates not reading \"before dehydration\" in the question.",
+     "self_check": true
+    },
+    {
+     "q": "A student treats 2-methylpropanal (isobutyraldehyde) with dilute NaOH and heats. They isolate a single major product. Draw the structure and explain why only one product forms despite the possibility of cross-aldol type mixtures.",
+     "a": "2-Methylpropanal has α-hydrogens only on one side (the CH₃ groups are equivalent). Self-aldol gives 3-hydroxy-2,2,4-trimethylpentanal which dehydrates to 2,2,4-trimethylpent-3-enal. Only one enolate is possible (no regiochemical choice), so only one self-aldol product forms. A student drawing a mixture of products fails to recognize that the two α-methyl groups are chemically equivalent. Writing a product with the double bond in the wrong position (e.g., conjugated to CHO instead of between α,β) reveals misunderstanding of dehydration regioselectivity (Zaitsev-like, more substituted alkene).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"In aldol condensation, the dehydration step is reversible under the reaction conditions.\" Justify your answer with reference to the reaction equilibrium and conditions.",
+     "a": "The statement is FALSE. Dehydration of the β-hydroxy carbonyl to the α,β-unsaturated carbonyl is essentially irreversible under basic conditions because: (i) The product is conjugated (C=C-C=O), gaining ~50-60 kJ/mol resonance stabilization; (ii) Water is a stable leaving group; (iii) Heating drives the equilibrium forward (Le Chatelier). The reverse (Michael addition of water) requires acid catalysis or specific conditions. A student saying \"it's reversible because all reactions are equilibrium\" confuses thermodynamic reversibility with practical irreversibility. Saying \"dehydration doesn't happen in base\" contradicts the standard aldol condensation protocol (dilute NaOH, heat).",
+     "self_check": true
+    },
+    {
+     "q": "Design a synthetic route to prepare 4-phenylbut-3-en-2-one (benzylideneacetone) using aldol condensation. Specify the starting carbonyl compounds, reagent, conditions, and explain how you would avoid self-aldol side products.",
+     "a": "React benzaldehyde (no α-H) with acetone (excess) using dilute NaOH at 0-5°C, then warm. Benzaldehyde cannot self-aldol (no enolate), so it acts only as electrophile. Acetone enolate attacks benzaldehyde selectively. Excess acetone minimizes acetone self-aldol (though some occurs). The product is benzylideneacetone (PhCH=CHCOCH₃). Using equimolar amounts gives significant acetone self-aldol (diacetone alcohol). A student suggesting propanal + benzaldehyde gives the wrong carbon skeleton. Suggesting concentrated NaOH favors Cannizzaro of benzaldehyde.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

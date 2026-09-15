@@ -1,0 +1,405 @@
+{
+ "class": 12,
+ "subject": "biotechnology",
+ "chapter": 11,
+ "chapter_title": "Bioremediation",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lebt111.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lebt111.1",
+   "title": "Sewage Composition and BOD Dilution",
+   "section": "11.1.1",
+   "definition": "Sewage is ninety-nine percent water carrying one percent of suspended and soluble refuse, and its strength is read through the biochemical oxygen demand: a diluted sample is incubated at twenty degrees for five days beside a control, the oxygen drop before and after incubation is multiplied by the dilution factor - the total volume divided by the sample volume, from one at full strength to fifty at a twentieth - and a high BOD brands the sewage strong enough to suffocate fish.",
+   "formula": "dilution_factor = total_volume / sample_volume",
+   "key_idea": "Divide the bottle volume by the sample volume for the dilution factor, then multiply the oxygen drop by it to price the BOD.",
+   "textbook_ref": "lebt111.txt section 11.1.1, Table 11.1, Boxes 1-2",
+   "question_patterns": [
+    "a 100 mL sewage sample is diluted to 1000 mL - compute the dilution factor",
+    "the dissolved oxygen of a diluted sample falls by 4 mg per litre with a dilution factor of 10 - calculate the BOD",
+    "why is a high BOD value dangerous for fish in a receiving water body",
+    "define BOD and state the incubation temperature and duration of the standard test",
+    "what fraction of municipal sewage is water and what fraction is suspended or soluble matter",
+    "name two bacterial and two protozoan pathogens transmitted through waste water"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide volumes",
+     "explain": "The dilution factor is bottle volume over sample volume.",
+     "compute": "dilution_factor = total_volume / sample_volume"
+    },
+    {
+     "step": 2,
+     "action": "multiply the oxygen drop",
+     "explain": "BOD equals the before-after oxygen difference times the dilution factor.",
+     "compute": "bod_value = do_drop * dilution_factor"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Sewage is ninety-nine percent what: water or sludge?",
+     "a": "water"
+    }
+   ]
+  },
+  {
+   "id": "lebt111.2",
+   "title": "Primary Treatment BOD Removal",
+   "section": "11.1.3",
+   "definition": "Primary treatment is purely mechanical - screens catch bottles and rags, a grit chamber drops sand, and sedimentation tanks hold the sewage two to ten hours so coarse solids settle as primary sludge - trimming only thirty to forty percent of the BOD while the dissolved organic load waits for biology.",
+   "formula": "remaining_bod = bod_before * (100 - removal_pct) / 100",
+   "key_idea": "Apply the removal percentage to the incoming BOD; whatever remains is the biology's job downstream.",
+   "textbook_ref": "lebt111.txt section 11.1.3",
+   "question_patterns": [
+    "primary treatment removes 35 percent of a 300 mg per litre BOD - compute the remaining BOD",
+    "how long is sewage held in sedimentation tanks during primary treatment",
+    "name the three physical operations of primary treatment in order",
+    "what is primary sludge and where does it go next",
+    "why can primary treatment alone not make sewage safe for discharge",
+    "calculate the BOD removed in absolute terms when primary treatment cuts a 250 mg per litre load by 40 percent"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the removal percent",
+     "explain": "Multiply the incoming BOD by the surviving fraction.",
+     "compute": "remaining_bod = bod_before * (100 - removal_pct) / 100"
+    },
+    {
+     "step": 2,
+     "action": "size the removal",
+     "explain": "Subtract the remainder from the incoming load.",
+     "compute": "removed_bod = bod_before - remaining_bod"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Primary treatment trims what percent of BOD: thirty to forty, or ninety?",
+     "a": "thirty to forty"
+    }
+   ]
+  },
+  {
+   "id": "lebt111.3",
+   "title": "Secondary Biological Treatment of Sewage",
+   "section": "11.1.4",
+   "definition": "Biology takes over in secondary treatment: activated sludge tanks blown with compressed air let aerobic microbes mineralise organic matter so that about ninety percent of it becomes carbon dioxide and water, trickling filters spray sewage over stone beds coated with microbial film, and sealed digesters run anaerobic sludge digestion for thirty to forty days releasing a biogas of sixty to seventy percent methane with twenty to thirty percent carbon dioxide that powers the plant itself.",
+   "formula": "-",
+   "key_idea": "Aerate the liquid for aerobic oxidation, digest the sludge without air for biogas - together they strip most of the BOD.",
+   "textbook_ref": "lebt111.txt section 11.1.4, Figs. 11.2-11.3, Box 4",
+   "question_patterns": [
+    "describe the activated sludge process with the roles of the aeration tank and the recycle sludge",
+    "how does a trickling filter degrade organic matter - explain the microbial film on stones",
+    "what gas composition does anaerobic sludge digestion yield and how long does full digestion take",
+    "why must effluent after secondary treatment still undergo further treatment before discharge",
+    "how much BOD can primary combined with secondary treatment remove at best",
+    "how do oxidation ponds reduce BOD in small rural communities and by what percentage"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "aerate the effluent",
+     "explain": "Compressed air or sprayed stones feed oxygen to bacteria that oxidise organics."
+    },
+    {
+     "step": 2,
+     "action": "settle and recycle",
+     "explain": "Activated sludge settles out and part returns to seed the next batch."
+    },
+    {
+     "step": 3,
+     "action": "digest the sludge",
+     "explain": "Anaerobic tanks slowly yield methane-rich biogas and a dewatered fertiliser cake."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which treatment blows compressed air through activated sludge tanks: secondary or tertiary?",
+     "a": "secondary"
+    }
+   ]
+  },
+  {
+   "id": "lebt111.4",
+   "title": "Tertiary Treatment of Effluents",
+   "section": "11.1.5",
+   "definition": "The final polish removes what biology left behind: lime precipitates phosphorus as insoluble calcium phosphate, ammonia strips out of warm aerated towers at high pH, activated-carbon beds polish off dissolved organics by adsorption, and chlorination with hypochlorite disinfects the result - clean enough for rivers, still not for drinking.",
+   "formula": "-",
+   "key_idea": "Lime grabs phosphorus, air steals ammonia, carbon mops organics, and chlorine kills the rest.",
+   "textbook_ref": "lebt111.txt section 11.1.5",
+   "question_patterns": [
+    "which chemical precipitates phosphorus salts during tertiary treatment and as which compound",
+    "how is ammonia removed from waste water in the metal tower process",
+    "what is carbon polishing and which pollutants does it target",
+    "why can untreated nitrogen and phosphorus cause eutrophication of water bodies",
+    "which disinfectant finishes tertiary treatment and why is the water still undrinkable",
+    "distinguish anthropogenic from natural eutrophication in speed and consequence"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "precipitate phosphorus",
+     "explain": "Lime converts phosphate into settling calcium phosphate."
+    },
+    {
+     "step": 2,
+     "action": "strip nitrogen",
+     "explain": "Vigorous aeration at high pH volatilises ammonia upward through the tower."
+    },
+    {
+     "step": 3,
+     "action": "polish and disinfect",
+     "explain": "Carbon adsorption clears dissolved organics; chlorination finishes the effluent."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which chemical precipitates phosphorus in tertiary treatment: lime or salt?",
+     "a": "lime"
+    }
+   ]
+  },
+  {
+   "id": "lebt111.5",
+   "title": "Composting and Solid Waste Management",
+   "section": "11.2",
+   "definition": "Solid waste is sorted, recycled or dumped, and its organic share is composted: ground waste mixed to forty-five to sixty-five percent moisture marches through a mesophilic warm-up, a thermophilic phase above forty degrees where heat-loving bacteria take over and temperatures of fifty-five and beyond destroy pathogens - kept below sixty-five by aeration - and a months-long maturation cure, with bacteria forming eighty to ninety percent of the workforce helped by actinomycetes, fungi, protozoa and worms.",
+   "formula": "-",
+   "key_idea": "Feed the heap to mesophiles, let thermophiles sterilise it at fifty-five degrees, then let it cure - waste becomes humus.",
+   "textbook_ref": "lebt111.txt sections 11.2-11.2.2, Fig. 11.5",
+   "question_patterns": [
+    "list the three temperature phases of composting in order with their durations",
+    "at what moisture content and temperature does composting proceed optimally",
+    "why does the thermophilic phase destroy pathogenic microorganisms in the compost pit",
+    "which group forms eighty to ninety percent of the microorganisms in a gram of compost",
+    "what roles do actinomycetes and fungi play in degrading woody waste",
+    "why should a community refuse pit be sited away from water sources",
+    "name two diseases linked to poor solid waste management and their vectors"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sort and grind",
+     "explain": "Separate degradable organics and grind them with water and organism-rich sludge."
+    },
+    {
+     "step": 2,
+     "action": "ride the heat curve",
+     "explain": "Mesophiles warm the heap, thermophiles sterilise it, and cooling matures the humus."
+    },
+    {
+     "step": 3,
+     "action": "reuse the product",
+     "explain": "Compost returns as fertiliser and soil conditioner, closing the nutrient loop."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Compost's thermophilic phase runs above how many degrees Celsius: forty or four?",
+     "a": "forty"
+    }
+   ]
+  },
+  {
+   "id": "lebt111.6",
+   "title": "Biomedical Waste Colour Codes",
+   "section": "11.3",
+   "definition": "The 2016 Biomedical Waste Management Rules sort hospital refuse into four colour-coded streams - yellow bins for anatomical and soiled waste, expired medicines, chemicals and laboratory cultures; red for contaminated plastics like catheters and gloves; white for puncture-prone sharps, needles and blades; blue for glassware and metal implants - while WHO risk groups one to four grade pathogens from no risk to readily transmissible, and a common treatment facility must sit within seventy-five kilometres.",
+   "formula": "-",
+   "key_idea": "Colour decides the container, risk group decides the caution - segregate at the point of generation.",
+   "textbook_ref": "lebt111.txt section 11.3, Tables 11.3, Boxes 6-8",
+   "question_patterns": [
+    "match the yellow red white and blue biomedical waste categories with the wastes each holds",
+    "which colour code covers contaminated plastics such as catheters and urine bags",
+    "into which bin do used needles blades and scalpels go and why is it puncture proof",
+    "differentiate the four WHO risk groups of pathogens on the basis of individual and community risk",
+    "within what travelling distance must a common biomedical waste treatment facility lie",
+    "why should sharps be destroyed to prevent their reuse after disinfection",
+    "what lesson does the Mayapuri radiological accident teach about radioactive waste disposal"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the waste",
+     "explain": "Decide whether it is anatomical, plastic, sharp, glass, chemical or radioactive."
+    },
+    {
+     "step": 2,
+     "action": "assign the colour",
+     "explain": "Yellow, red, white or blue bins receive each stream at the point of generation."
+    },
+    {
+     "step": 3,
+     "action": "route the disposal",
+     "explain": "Incinerate, autoclave or send to the common facility within seventy-five kilometres under trained handling."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which colour bin holds anatomical and soiled waste: yellow or blue?",
+     "a": "yellow"
+    }
+   ]
+  },
+  {
+   "id": "lebt111.7",
+   "title": "Pesticide Classes and Biomagnification",
+   "section": "11.4",
+   "definition": "Agrochemicals persist in chemically distinct families: lipid-soluble organochlorines like DDT and lindane endure for years and magnify up food chains, organophosphates and carbamates inhibit cholinesterase yet hydrolyse sooner, synthetic pyrethroids sun-degrade within days, and organometallic or inorganic poisons such as methylmercury and arsenic refuse to leave - their residues climbing trophic levels by biomagnification into non-target species including humans.",
+   "formula": "-",
+   "key_idea": "Persistence plus lipid solubility equals biomagnification - the longer a pesticide lasts, the higher it climbs.",
+   "textbook_ref": "lebt111.txt section 11.4, Boxes 9-10",
+   "question_patterns": [
+    "arrange organochlorine organophosphate carbamate and pyrethroid pesticides by descending persistence",
+    "how do organophosphate pesticides poison the nervous system - name the enzyme inhibited",
+    "why do organochlorine compounds biomagnify in non-target organisms including humans",
+    "which pesticide class degrades in sunlight within a few days",
+    "name the first pesticide ever synthesised in the laboratory and its target vector",
+    "how does DDT resistance among mosquitoes change its usefulness as a malarial control"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the chemistry",
+     "explain": "Chlorinated rings, phosphate esters, carbamates or metals each predict persistence and toxicity."
+    },
+    {
+     "step": 2,
+     "action": "trace the trophic route",
+     "explain": "Lipid-soluble residues concentrate at each step of the food chain."
+    },
+    {
+     "step": 3,
+     "action": "justify remediation",
+     "explain": "Even residual levels justify bioremediation of soil and water."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which pesticide family endures for years and magnifies up food chains: organochlorines like DDT, or pyrethroids?",
+     "a": "organochlorines"
+    }
+   ]
+  },
+  {
+   "id": "lebt111.8",
+   "title": "Bioremediation Strategies and the Superbug",
+   "section": "11.4",
+   "definition": "Bioremediation lets microbes - armed with cytochrome P450, esterases, oxidases, peroxidases and transferases - dismantle xenobiotics on site either intrinsically or through engineered wells pumping oxygen and nutrients, or ex situ in slurry bioreactors, land farms, compost heaps and biopiles, while phytoremediation recruits Brassica, sunflower and aquatic plants; Chakrabarty's plasmid-spliced Pseudomonas superbug digesting camphor, octane, xylene and naphthalene won the first living-organism patent, and TERI's Oilzapper consortium of five strains has cleaned over seven hundred fifty thousand tonnes of oily sludge.",
+   "formula": "-",
+   "key_idea": "Let microbes eat the poison - naturally, encouraged, or in a reactor - and let plants pull up the metals.",
+   "textbook_ref": "lebt111.txt section 11.4, Boxes 11-15",
+   "question_patterns": [
+    "differentiate intrinsic from engineered in situ bioremediation",
+    "which enzyme performs hydrolytic breakdown of organophosphate pesticides",
+    "name the four hydrocarbons degraded by Chakrabarty's Pseudomonas superbug and the significance of its patent",
+    "compare slurry bioreactors land farming composting and biopiles as ex situ strategies",
+    "how do rhizosphere microbes assist phytoremediation of heavy metals",
+    "what is Oilzapper and how many tonnes of oily sludge has it treated",
+    "which Atz genes let Pseudomonas use atrazine as a carbon source",
+    "why does a conglomerate of microorganisms often bioremediate better than a single strain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "choose the setting",
+     "explain": "Treat in place when possible; excavate to slurry reactors or compost heaps when contamination is heavy."
+    },
+    {
+     "step": 2,
+     "action": "enlist the enzymes",
+     "explain": "Oxidation, hydrolysis and transfer reactions convert pesticides to less toxic, water-soluble forms."
+    },
+    {
+     "step": 3,
+     "action": "add plants or plasmids",
+     "explain": "Hyper-accumulator plants and engineered superbugs extend remediation to metals and oil spills."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Whose plasmid-spliced superbug famously digested oil: Chakrabarty's or Pasteur's?",
+     "a": "Chakrabarty's"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "lebt111.txt Box 1 (BOD dilution factor table)",
+   "concept": "lebt111.1",
+   "question_type": "compute",
+   "question_pattern": "A {sample_volume} mL sewage sample is diluted to {total_volume} mL with oxygen-saturated water, and its dissolved oxygen drops by {do_drop} mg per litre after five days. Find the dilution factor and the BOD of the sewage.",
+   "extracted_variables": {
+    "sample_volume": "volume of sewage sample in mL",
+    "total_volume": "total volume after dilution in mL",
+    "do_drop": "oxygen consumed in mg per litre"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide the volumes",
+     "explain": "Dilution factor equals total volume over sample volume.",
+     "compute": "dilution_factor = total_volume / sample_volume"
+    },
+    {
+     "step": 2,
+     "action": "multiply the oxygen drop",
+     "explain": "BOD is the oxygen drop scaled by the dilution factor.",
+     "compute": "bod_value = do_drop * dilution_factor"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "lebt111.txt section 11.1.3 (primary treatment removes 30-40 percent BOD)",
+   "concept": "lebt111.2",
+   "question_type": "compute",
+   "question_pattern": "Primary treatment removes {removal_pct} percent of the BOD of sewage entering with {bod_before} mg per litre. Find the BOD remaining and the absolute BOD removed.",
+   "extracted_variables": {
+    "removal_pct": "percent BOD removed by primary treatment",
+    "bod_before": "incoming BOD in mg per litre"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the surviving fraction",
+     "explain": "Multiply the incoming BOD by the percent that stays.",
+     "compute": "remaining_bod = bod_before * (100 - removal_pct) / 100"
+    },
+    {
+     "step": 2,
+     "action": "subtract for the removal",
+     "explain": "The removed load is the incoming minus the remaining BOD.",
+     "compute": "removed_bod = bod_before - remaining_bod"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lebt111-ex1",
+   "source_ref": "lebt111.txt Exercises (questions 1-16)",
+   "questions": [
+    "Which microorganisms are used in sewage water treatment and what is their role in each treatment stage?",
+    "Explain how biological oxygen demand represents the condition of sewage water and compute it from dilution data.",
+    "How do toxic substances biomagnify among organisms - explain with pesticide examples.",
+    "What are xenobiotic compounds and how do they affect soil productivity?",
+    "Discuss aerobic and anaerobic decomposition of sewage during waste water treatment.",
+    "Discuss the role of different microorganisms in composting of solid waste.",
+    "How are pesticides harmful for non-target organisms and how can microbes bioremediate them into non-toxic compounds?",
+    "Identify which waste water constituent lime removes, which enzyme hydrolyses pesticides, and the correct colour-code matches for biomedical waste."
+   ]
+  }
+ ]
+}

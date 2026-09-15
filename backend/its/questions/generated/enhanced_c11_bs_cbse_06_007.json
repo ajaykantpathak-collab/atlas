@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_06_007",
+   "title": "c11_bs_cbse_06_007",
+   "questions": [
+    {
+     "q": "A company pays minimum wages as prescribed by the Minimum Wages Act, 1948. The workers demand higher wages citing rising inflation. The company refuses, stating it complies with the law. Is the company fulfilling its social responsibility towards workers? Answer in one sentence.",
+     "a": "No, because social responsibility includes ethical responsibility (fair wages beyond legal minimum) and discretionary responsibility (voluntary welfare measures), which go beyond mere legal compliance. A wrong answer (e.g., \"Yes, because they follow the law\") reveals the misconception that legal compliance equals social responsibility, ignoring the voluntary and ethical dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why \"legal responsibility is a subset of social responsibility\" using the NCERT's four-category classification (economic, legal, ethical, discretionary).",
+     "a": "Social responsibility comprises four categories: economic, legal, ethical, and discretionary. Legal responsibility is only one of these four categories. Therefore, legal responsibility is a part (subset) of the broader concept of social responsibility. A wrong answer (e.g., \"They are the same\" or \"Social responsibility is only charity\") shows the student cannot map the four categories or thinks social responsibility is only discretionary/philanthropic.",
+     "self_check": true
+    },
+    {
+     "q": "A pharmaceutical company legally prices a life-saving drug at ₹500/tablet (within DPCO price cap). It could profitably sell at ₹300 but chooses ₹500. Classify this pricing decision as: (a) only legal responsibility, (b) only social responsibility, (c) both, or (d) neither. Justify your choice in two sentences.",
+     "a": "(a) only legal responsibility. The company meets the legal price ceiling but fails the ethical responsibility (fair pricing for accessibility) and discretionary responsibility (voluntary lower pricing for public health). A wrong answer like (c) \"both\" reveals the student conflates legal compliance with social responsibility, not recognizing that ethical/discretionary actions are voluntary and distinct.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the consequences a firm faces for violating (i) legal responsibility vs. (ii) ethical responsibility (a component of social responsibility). Use the concepts of enforceability, sanctions, and stakeholder trust.",
+     "a": "Legal violation invites state-enforced penalties (fines, imprisonment, license cancellation) and is mandatory. Ethical violation lacks legal sanctions but erodes stakeholder trust, damages reputation, and may lead to consumer boycotts or regulatory scrutiny later. A wrong answer focusing only on \"both cause loss of money\" misses the fundamental difference in enforcement mechanism (state coercion vs. social sanction) and the voluntary nature of ethical conduct.",
+     "self_check": true
+    },
+    {
+     "q": "\"Legal responsibility is sufficient for a business to be considered a good corporate citizen.\" Evaluate this statement with reference to the arguments for social responsibility (long-term interest, avoidance of government regulation, maintenance of society).",
+     "a": "The statement is false. Arguments for social responsibility show legal compliance is insufficient: (1) Long-term interest requires ethical conduct to maintain image and stakeholder cooperation; (2) Mere legal compliance may not prevent new regulations if society feels exploited; (3) Laws cannot cover all circumstances, so ethical/discretionary actions maintain social order. A wrong answer agreeing with the statement ignores the dynamic relationship between business and society and the voluntary nature of social responsibility.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario where a business fulfills its legal responsibility but violates its ethical responsibility towards consumers. Identify the specific law complied with and the ethical principle breached.",
+     "a": "Scenario: A food company labels a product \"Natural Fruit Juice\" legally because it contains 5% fruit pulp (meeting FSSAI minimum for the term \"fruit juice\"), but the dominant ingredient is sugar water with artificial flavours. Law complied: FSSAI labelling regulations. Ethical principle breached: Truthfulness in advertising / consumer right to information (not misleading). A poor answer gives a scenario where the law is actually violated, or cites a vague ethical principle without linking to consumer rights, showing inability to distinguish legal minimums from ethical expectations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

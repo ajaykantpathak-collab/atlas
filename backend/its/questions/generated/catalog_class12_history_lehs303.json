@@ -1,0 +1,53 @@
+{
+  "catalog": "catalog_class12_history_lehs303",
+  "concepts": [
+    {
+      "id": "lehs.303.1",
+      "questions": [
+        {"q": "In which year did Gandhi return to India from South Africa? (give the year)", "a": "1915"},
+        {"q": "What is the name of Gandhi's method of truth-force through non-violent resistance? (one word)", "a": "satyagraha"},
+        {"q": "In which district of Bihar did Gandhi first test satyagraha in India against indigo planters? (one word)", "a": "Champaran"},
+        {"q": "In which Gujarati mill town did Gandhi conduct an early satyagraha for workers? (one word)", "a": "Ahmedabad"},
+        {"q": "How many years after his 1915 return did Gandhi launch the Rowlatt satyagraha? (number of years)", "a": "4"},
+        {"q": "Gandhi's South African struggle trained his method of resistance. In which continent was it forged? (one word)", "a": "Africa"},
+        {"q": "What does satyagraha hold fast to: truth or arms? (one word)", "a": "truth"}
+      ]
+    },
+    {
+      "id": "lehs.303.2",
+      "questions": [
+        {"q": "In which year was the Rowlatt Act passed? (give the year)", "a": "1919"},
+        {"q": "In which year did the Jallianwala Bagh massacre occur? (give the year)", "a": "1919"},
+        {"q": "In which city did the massacre at Jallianwala Bagh take place? (one word)", "a": "Amritsar"},
+        {"q": "In which year was the Non-Cooperation Movement launched? (give the year)", "a": "1921"},
+        {"q": "After violence at which village did Gandhi call off Non-Cooperation? (two words)", "a": "Chauri Chaura"},
+        {"q": "Which movement of Muslims worldwide did Non-Cooperation ally with? (one word)", "a": "Khilafat"},
+        {"q": "How many years separate the Rowlatt satyagraha (1919) and the Quit India movement (1942)? (number of years)", "a": "23"}
+      ]
+    },
+    {
+      "id": "lehs.303.3",
+      "questions": [
+        {"q": "In which year did Gandhi break the salt law at Dandi? (give the year)", "a": "1930"},
+        {"q": "Which law did Gandhi defy by making salt at Dandi? (two words)", "a": "salt law"},
+        {"q": "Which movement did the Dandi march launch? (two words)", "a": "Civil Disobedience"},
+        {"q": "With which viceroy did Gandhi sign the pact pausing Civil Disobedience? (one word)", "a": "Irwin"},
+        {"q": "In which year was the Civil Disobedience movement finally called off? (give the year)", "a": "1934"},
+        {"q": "How many years did the Civil Disobedience movement run from Dandi (1930) to its final end (1934)? (number of years)", "a": "4"},
+        {"q": "Which new social group entered mass protest in large numbers during the salt satyagraha: women or princes? (one word)", "a": "women"}
+      ]
+    },
+    {
+      "id": "lehs.303.4",
+      "questions": [
+        {"q": "In which month and year was the Quit India movement launched? (give month and year)", "a": "August 1942"},
+        {"q": "What immediate demand did the Quit India movement make of the British? (short phrase)", "a": "immediate British exit"},
+        {"q": "What happened to the Congress leadership at the start of Quit India? (one word)", "a": "arrest"},
+        {"q": "Which leader rivalled Gandhi with an armed struggle and the INA? (two words)", "a": "Subhas Bose"},
+        {"q": "In which year was power transferred to Indian hands? (give the year)", "a": "1947"},
+        {"q": "Which community's leaders remained circumspect towards Quit India, dalits or Muslims (one of the two named)? (one word)", "a": "Muslims"},
+        {"q": "How many years after Quit India (1942) did independence come? (number of years)", "a": "5"}
+      ]
+    }
+  ]
+}

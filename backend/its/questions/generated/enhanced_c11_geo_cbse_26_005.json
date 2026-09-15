@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_26_005",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_26_005",
+   "title": "c11_geo_cbse_26_005",
+   "questions": [
+    {
+     "q": "Define spatial resolution and state its unit of measurement. How does it differ from the term \"pixel size\"?",
+     "a": "Spatial resolution is the minimum distance between two adjacent ground features that a sensor can distinguish as separate entities, measured in metres (ground sample distance). Pixel size is the dimensions of a single picture element in the digital image array; while related, spatial resolution depends on the sensor's Instantaneous Field of View (IFOV) and altitude, whereas pixel size is a data product characteristic that may be resampled. A wrong answer confusing the two reveals the student treats image display properties as sensor capabilities, ignoring the optical geometry (IFOV × altitude) that fundamentally limits resolvable detail.",
+     "self_check": true
+    },
+    {
+     "q": "A sensor has 7-bit radiometric resolution. Calculate the maximum number of distinct grey levels it can record. If this sensor is upgraded to 8-bit, by what factor does the radiometric discrimination improve? Explain why this matters for mapping soil moisture variations.",
+     "a": "7-bit = 2⁷ = 128 grey levels (0–127). 8-bit = 2⁸ = 256 grey levels. Improvement factor = 256/128 = 2×. Higher radiometric resolution allows detection of smaller radiance differences — critical for soil moisture because wet and dry soil may differ by only 2–3% reflectance in SWIR bands; 7-bit sensors may quantize this difference into the same digital number, while 8-bit preserves the distinction. A student who only states \"more grey levels\" without quantifying the factor or linking to reflectance sensitivity misses the quantitative decision-making required for sensor selection.",
+     "self_check": true
+    },
+    {
+     "q": "IRS Resourcesat-2 LISS-IV has a spatial resolution of 5.8 m and a revisit period of 5 days. SPOT-7 has 1.5 m resolution but a 26-day revisit. You need to monitor weekly changes in crop health for a 100 km² farm during the kharif season. Which satellite would you choose? Justify using both spatial and temporal resolution.",
+     "a": "Choose Resourcesat-2 LISS-IV. Kharif crop monitoring requires weekly (5–7 day) observations to capture rapid vegetative growth stages; SPOT-7's 26-day revisit misses critical phenological transitions. While SPOT-7's 1.5 m resolution resolves individual plants, 5.8 m is sufficient for field-level crop health assessment (typical Indian field sizes >0.5 ha). The student must weigh temporal adequacy against spatial overkill — a wrong choice of SPOT-7 reveals failure to prioritize revisit frequency for dynamic phenomena, a classic board exam trap where \"higher resolution = better\" is incorrectly assumed.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the spectral resolution of Landsat-8 OLI (9 bands, 0.43–2.29 µm) and IRS LISS-III (4 bands, 0.52–1.70 µm) for two applications: (a) mapping iron oxide minerals in Chotanagpur plateau, (b) estimating chlorophyll content in Punjab wheat fields. Which sensor is better for each? Explain using specific band placements.",
+     "a": "(a) Landsat-8 OLI is superior for iron oxide mapping — its Band 6 (1.57–1.65 µm) and Band 7 (2.11–2.29 µm) cover SWIR absorption features of hematite/goethite; LISS-III lacks SWIR bands beyond 1.70 µm. (b) For chlorophyll, both have red (0.63–0.69 µm) and NIR (0.77–0.90 µm) bands enabling NDVI, but Landsat-8's narrower red band (0.03 µm vs 0.07 µm) reduces soil background contamination. A student selecting LISS-III for (a) reveals ignorance of mineral diagnostic absorption features outside VNIR; selecting LISS-III for (b) without acknowledging band width differences shows superficial understanding of spectral resolution as mere band count.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"For flood extent mapping in the Brahmaputra valley during monsoon, temporal resolution is more critical than spatial resolution.\" Provide a reasoned judgment with a concrete scenario where this priority would reverse.",
+     "a": "The statement is largely correct. Monsoon floods evolve daily — cloud-penetrating microwave sensors (e.g., Sentinel-1, 12-day revisit, 10 m) or high-temporal optical (MODIS, daily, 250 m) are preferred over high-spatial/low-temporal sensors (SPOT-7, 26-day, 1.5 m) because missing the flood peak by 26 days renders fine spatial detail useless for emergency response. Priority reverses for post-flood damage assessment of individual structures (e.g., embankment breaches <10 m wide) where 1.5 m resolution is needed to identify specific failure points — here spatial detail outweighs revisit frequency since the event has passed. A student who universally ranks one resolution above others fails to recognize application-driven trade-offs, a key competency for board case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a satellite sensor specification (spatial, spectral, radiometric, temporal) for monitoring urban heat islands in Delhi NCR at 10:30 AM local time during May. Justify each parameter choice with a physical or operational reason.",
+     "a": "A strong answer specifies: Spatial ≤ 60 m (to resolve intra-urban land cover: built-up vs parks vs water); Spectral: at least 2 thermal infrared bands (10–12 µm) for split-window LST retrieval + VNIR/SWIR for emissivity estimation (e.g., Landsat-8 TIRS Band 10/11 + OLI); Radiometric: ≥ 12-bit (4096 levels) in TIR to resolve <0.5 K temperature differences between dense residential and vegetated areas; Temporal: ≤ 16 days (Landsat-like) acceptable for seasonal UHI trends, but daily (geostationary) preferred for diurnal cycle — justify 10:30 AM as Landsat overpass time capturing near-peak surface heating. Poor answers omit thermal bands, confuse spatial resolution with pixel size, or ignore the physics of thermal emission vs reflected solar radiation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

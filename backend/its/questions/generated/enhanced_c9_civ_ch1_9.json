@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_civ_ch1_9",
+ "concepts": [
+  {
+   "id": "enh:c9_civ_ch1_9",
+   "title": "c9_civ_ch1_9",
+   "questions": [
+    {
+     "q": "What are the three lists in the Seventh Schedule of the Indian Constitution, and which level of government has exclusive power to legislate on subjects in the Union List?",
+     "a": "The three lists are Union List (97 subjects originally, e.g., Defence, Atomic Energy), State List (66 subjects originally, e.g., Police, Public Health), and Concurrent List (47 subjects originally, e.g., Education, Forests). Parliament has exclusive power over Union List subjects (Article 246(1)). A wrong answer—such as saying \"States can make laws on Defence during emergencies\"—reveals confusion between exclusive legislative competence and emergency provisions (Article 250), showing the student conflates normal federal distribution with temporary central override.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Constitution makers place subjects like \"Education,\" \"Forests,\" and \"Marriage\" in the Concurrent List instead of leaving them entirely to the States?",
+     "a": "Concurrent List subjects require nationwide minimum standards (e.g., education quality, environmental protection) while allowing regional variation; the Centre sets the framework, States implement with flexibility. A wrong answer—\"Because the Centre wanted more power\"—reveals a cynical misconception ignoring the constitutional logic: without Concurrent List, States could set wildly divergent standards (e.g., minimum marriage age), creating inequality and legal chaos across state borders, which the Constituent Assembly debates explicitly sought to avoid.",
+     "self_check": true
+    },
+    {
+     "q": "A new subject \"Regulation of Artificial Intelligence in Healthcare\" emerges. The Union Government wants to legislate; a State Government argues it falls under \"Public Health\" (State List, Entry 6). Using constitutional principles, determine which government can legislate and why.",
+     "a": "Parliament can legislate under Entry 66 of Union List (\"Coordination and determination of standards in institutions for higher education or research and scientific and technical institutions\") read with residual power (Article 248), because AI regulation involves technical standards and inter-state data flows beyond a single state's competence. A wrong answer—\"State, because health is a State subject\"—shows failure to apply the \"pith and substance\" doctrine: when a law's true character touches a Union/Concurrent subject (technology standards), incidental encroachment on State List is permissible (Supreme Court in *State of Rajasthan v. G. Chawla*, 1959).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Centre's power over State List subjects during a National Emergency (Article 352) versus a State Emergency (President's Rule, Article 356). How does the judicial review scope differ?",
+     "a": "Under Article 352, Parliament can legislate on State List subjects *only* while the Emergency operates (Article 250), and such laws cease 6 months after Emergency ends; judicial review checks *proportionality* of the law to the Emergency. Under Article 356, Parliament exercises the State Legislature's powers directly (Article 357), but the Supreme Court in *S.R. Bommai v. Union of India* (1994) held the proclamation is justiciable—courts can strike it down if based on irrelevant grounds. A wrong answer treating both as identical \"Centre takes over\" reveals ignorance of the *Bommai* safeguard against arbitrary dismissal of state governments.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The 73rd Amendment made Panchayats truly independent of State Government control.\" Support your judgment with two constitutional provisions.",
+     "a": "The statement is **false**. While the 73rd Amendment (Part IX) constitutionally mandates Panchayats (Article 243B), guarantees elections (Article 243K), and fixes tenure (Article 243E), States retain control through: (1) Article 243G—State Legislature *may* devolve powers/responsibilities (not mandatory), and (2) Article 243H—State Legislature authorizes Panchayats to levy taxes (financial dependence persists). A wrong answer calling them \"fully independent\" ignores the \"may devolve\" language and the fact that State Finance Commissions (Article 243I) only *recommend* fund transfers—they don't guarantee fiscal autonomy.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph proposal to add \"Urban Waste Management\" to the Constitution's Seventh Schedule. Specify which List you would place it in and justify using the principles of subsidiarity and inter-state spillover effects.",
+     "a": "A strong answer places it in the **Concurrent List**: \"Urban Waste Management should be in the Concurrent List because waste crosses municipal boundaries (inter-state spillover: e.g., Delhi's landfills affecting NCR towns), requiring Central minimum standards for processing/emissions (subsidiarity: local bodies handle collection/segregation, States regulate landfill sites, Centre sets technology norms).\" A poor answer puts it in State List (\"local issue\") ignoring that rivers/air carry pollution across borders, or Union List (\"national issue\") ignoring that daily collection is hyper-local—both violate the principle that the level of government closest to the citizen should act *unless* spillovers justify higher-level intervention.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

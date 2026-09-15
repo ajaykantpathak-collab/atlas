@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch05_009",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch05_009",
+   "title": "c7_geo_ch05_009",
+   "questions": [
+    {
+     "q": "Which mountain range primarily dominates the geography and terrain of Bhutan?",
+     "a": "The Himalayas. A student who answers incorrectly (for example, naming the Western Ghats or the Aravallis) likely confuses South Asian mountain systems or lacks basic map-reading skills regarding India's northern neighbours.",
+     "self_check": true
+    },
+    {
+     "q": "Why is Bhutan referred to as a \"landlocked\" mountain kingdom, and how does this affect its physical access to the sea?",
+     "a": "Bhutan is completely surrounded by land on all sides (India and China) with no coastline, meaning all its international maritime trade must pass through transit routes via neighbouring countries, primarily India. A student who thinks Bhutan has its own ports confuses landlocked countries with peninsular or coastal regions.",
+     "self_check": true
+    },
+    {
+     "q": "A map shows that several major rivers flow from northern Bhutan southward into the Brahmaputra River basin in India. If a heavy monsoon rainfall occurs in Bhutan's high mountain valleys, which Indian state downstream is most immediately affected by the resulting volume of water?",
+     "a": "Steps: 1. Identify Bhutan's southern border state in India by reading regional maps (Assam and West Bengal). 2. Trace the direction of river flow from high altitude to low altitude (north to south). 3. Note that Bhutanese rivers drain into the Brahmaputra River. 4. Conclude that Assam (situated along the Brahmaputra valley) receives the downstream runoff. Answer: Assam. A student who picks a non-adjacent state like Rajasthan shows a failure to trace river basins and topographical flow from mountain to plain.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how Bhutan's extreme mountainous terrain influences its economic development, particularly regarding transport infrastructure and agriculture compared to the Northern Plains of India.",
+     "a": "Bhutan's steep slopes and narrow valleys make large-scale rail networks and expansive commercial farming difficult, unlike the flat, fertile Northern Plains. Instead, the country relies on terrace farming, forestry, and sustainable hydropower generation derived from fast-flowing mountain rivers. A student who assumes Bhutan has widespread flat agricultural lands and dense road networks ignores the controlling influence of high-relief mountain topography.",
+     "self_check": true
+    },
+    {
+     "q": "Assess whether building large hydropower dams in Bhutan's fragile Himalayan ecosystem requires careful environmental management despite providing clean energy to both Bhutan and India.",
+     "a": "Yes, while hydropower utilizes perennial snow-fed rivers to generate renewable energy, improper dam construction in a seismically active mountain zone can trigger landslides, soil erosion, and disruption of aquatic ecosystems. Therefore, sustainable engineering and careful regional planning are vital. A student who claims hydropower has zero environmental impact overlooks the ecological sensitivity of young fold mountains like the Himalayas.",
+     "self_check": true
+    },
+    {
+     "q": "Design a basic regional connectivity plan that proposes how India and Bhutan can transport goods across the Himalayan border while minimizing ecological damage to mountain forests and wildlife corridors.",
+     "a": "A strong answer proposes eco-friendly tunneling, elevated roadways, strict zoning to protect wildlife corridors, and reliance on existing low-altitude trade passes rather than heavy deforestation. A weak answer suggests cutting wide multi-lane highways everywhere without considering slope stability or forest conservation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

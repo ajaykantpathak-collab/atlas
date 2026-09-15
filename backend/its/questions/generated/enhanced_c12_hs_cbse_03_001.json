@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_03_001",
+   "title": "c12_hs_cbse_03_001",
+   "questions": [
+    {
+     "q": "Define \"growth\" and \"development\" in the context of human development. Give one measurable example of growth and one observable example of development for a 3-year-old child.",
+     "a": "Growth refers to quantitative, measurable physical changes (e.g., increase in height from 90 cm to 95 cm in a year). Development refers to qualitative, progressive acquisition of skills and abilities (e.g., a 3-year-old learning to draw a circle, showing fine motor development). A wrong answer that uses the terms interchangeably or gives only physical examples for both reveals confusion between quantitative change and qualitative transformation.",
+     "self_check": true
+    },
+    {
+     "q": "A mother says, \"My 4-month-old baby can grasp a rattle with her whole hand, but she cannot pick up a small raisin with her thumb and forefinger yet.\" Which principle of development explains this? Explain why this sequence is universal.",
+     "a": "The **proximodistal principle** — development proceeds from the centre of the body outward (trunk → shoulder → elbow → wrist → fingers). Whole-hand grasp (palmar grasp) emerges before pincer grasp because proximal muscles mature before distal ones. This sequence is universal because it reflects the myelination pattern of the nervous system, which is genetically programmed. A wrong answer citing \"cephalocaudal\" confuses head-to-tail with centre-to-periphery direction.",
+     "self_check": true
+    },
+    {
+     "q": "A 2-year-old child can walk independently but cannot hop on one foot. A 5-year-old can hop. Using the **orthogenetic principle**, explain why the 2-year-old's walking is considered a \"global\" response while the 5-year-old's hopping is \"differentiated.\"",
+     "a": "The orthogenetic principle states development proceeds from global, undifferentiated responses to specific, differentiated ones. At 2 years, walking uses a broad, stiff-legged pattern involving the whole body (global). By 5 years, the child isolates one leg, coordinates balance, and controls movement precisely (differentiated). A wrong answer that only describes the age difference without using \"global vs. differentiated\" terminology misses the core concept of increasing specificity and integration.",
+     "self_check": true
+    },
+    {
+     "q": "Two 10-month-old infants: Baby A crawls at 7 months, Baby B crawls at 9 months. Both walk independently at 13 months. Which principle explains why the *sequence* (crawl → walk) is identical but the *timing* differs? How would you respond to a parent who worries Baby B is \"delayed\"?",
+     "a": "The **continuity principle** (development is continuous and cumulative) and **individual differences principle** together explain this. The sequence is invariant (universal), but rate varies due to genetics, temperament, nutrition, and opportunity. Baby B is within normal range; walking by 13 months is typical. A wrong answer that labels Baby B as \"delayed\" without referencing the normal range or the principle of individual differences shows failure to apply the principle to real-world reassurance.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If a child skips crawling and goes straight to walking, the cephalocaudal principle is violated.\" Is this true or false? Justify using the definition of the principle.",
+     "a": "**False.** The cephalocaudal principle describes the *direction* of development (head control → trunk control → lower limb control), not the *obligatory presence* of every intermediate milestone. Skipping crawling is a variation in the *pathway*, not a reversal of the head-to-tail sequence. The child still gained head control before trunk control before walking. A wrong answer claiming \"true\" confuses the principle's directional claim with a rigid stage theory.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-row table comparing **growth**, **maturation**, and **development** across these columns: (a) Nature of change (quantitative/qualitative), (b) Primary driver (genetic/environmental/interaction), (c) Reversibility, (d) Example in adolescence.",
+     "a": "| Concept | Nature | Primary Driver | Reversibility | Adolescent Example |\n|---------|--------|----------------|---------------|-------------------|\n| Growth | Quantitative (measurable) | Genetic + nutrition | Irreversible | Height increase 8 cm/year |\n| Maturation | Qualitative (unfolding of genetic potential) | Primarily genetic | Irreversible | Onset of menarche/spermarche |\n| Development | Qualitative (skill acquisition) | Gene-environment interaction | Partially reversible (plasticity) | Abstract reasoning (formal operations) |\nA poor answer that lists only physical changes for all three, or marks development as purely genetic, reveals conflation of the three constructs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,223 @@
+{
+ "catalog": "catalog_class11_biotechnology_kebt108",
+ "concepts": [
+  {
+   "id": "kebt108.1",
+   "title": "Structural Chromosomal Abnormalities",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Structural Chromosomal Abnormalities' refers to.",
+     "a": "A chromosome can break and heal in four tell-tale ways: deletion trims a segment away as in retinoblastoma on chromosome 13, duplication repeats a stretch as in Charcot-Marie-Tooth disease on chromosome 17, inversion flips a piece through 180 degrees leaving the length unchanged as in RCAD syndrome, and translocation moves a piece onto another chromosome - mutually as in Burkitt lymphoma between chromosomes 8 and 14, or one-way in the Robertsonian type that lowers the chromosome count.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Structural Chromosomal Abnormalities'.",
+     "a": "Shorter, longer, flipped or relocated - the breakage pattern names the aberration and points to the disease.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Structural Chromosomal Abnormalities' taught, and from which source text?",
+     "a": "8.1.1 (source: kebt108.txt section 8.1.1, Fig. 8.1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt108.2",
+   "title": "Numerical Abnormalities and Polyploid Sets",
+   "questions": [
+    {
+     "q": "Using the method 'Numerical Abnormalities and Polyploid Sets', work with: diploid_base = 45, extra_chromosomes = 60, haploid_number = 8192, sets = 8. Carry the chain through step by step and give the final value of polyploid_total.",
+     "a": "65536 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Numerical Abnormalities and Polyploid Sets' and work with: diploid_base = 360, extra_chromosomes = 100, haploid_number = 2048, sets = 5. Carry the chain through step by step and give the final value of polyploid_total.",
+     "a": "10240 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Numerical Abnormalities and Polyploid Sets' refers to.",
+     "a": "Whole chromosomes can be lost or gained: monosomy removes one of a pair, trisomy adds one, both counts of aneuploidy - as against polyploidy, where entire sets multiply so a human-count genome would hold 69 in triploid or 92 in tetraploid form; crop breeding exploits this, giving hexaploid bread wheat, tetraploid cabbages and mustards, triploid banana and apple, and octoploid strawberry and sugarcane.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Numerical Abnormalities and Polyploid Sets'.",
+     "a": "Add one for a trisomy, subtract one for a monosomy, and multiply the haploid number by set count for polyploids.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Numerical Abnormalities and Polyploid Sets', in plain ASCII form.",
+     "a": "karyotype_total = diploid_base + extra_chromosomes",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt108.3",
+   "title": "Down Klinefelter and Turner Syndromes",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Down Klinefelter and Turner Syndromes' refers to.",
+     "a": "Three karyotypes anchor human cytogenetics: trisomy 21 gives Down syndrome with flat face, palmar crease and low IQ and one extra chromosome in 47,XX+21 or 47,XY+21; an extra X in 47,XXY males yields Klinefelter syndrome with tall stature, small testes and a single Barr body on buccal smear; and monosomy X in 45,X females gives Turner syndrome with short stature, webbed neck and no Barr body.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Down Klinefelter and Turner Syndromes'.",
+     "a": "Count the sex chromatin: one Barr body betrays the extra X of Klinefelter, none marks the missing X of Turner.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Down Klinefelter and Turner Syndromes' taught, and from which source text?",
+     "a": "8.1.2 (source: kebt108.txt section 8.1.2, Figs. 8.2-8.4)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt108.4",
+   "title": "Incidence Rates of Chromosomal Syndromes",
+   "questions": [
+    {
+     "q": "Using the method 'Incidence Rates of Chromosomal Syndromes', work with: births = 300, down_rate = 12, klinefelter_rate = 12, male_births = 360. Carry the chain through step by step and give the final value of klinefelter_cases.",
+     "a": "30 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Incidence Rates of Chromosomal Syndromes' and work with: births = 12, down_rate = 15, klinefelter_rate = 25, male_births = 240. Carry the chain through step by step and give the final value of klinefelter_cases.",
+     "a": "9.6 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Incidence Rates of Chromosomal Syndromes' refers to.",
+     "a": "Each syndrome carries a headline frequency - about one Down baby per 800 live births, one Klinefelter male per 1000 newborn boys, and one Turner girl per 2500 newborn girls - so dividing a birth cohort by the rate predicts how many affected newborns a hospital or district should expect.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Incidence Rates of Chromosomal Syndromes'.",
+     "a": "Divide the birth total by each syndrome's rate denominator to forecast case counts.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Incidence Rates of Chromosomal Syndromes', in plain ASCII form.",
+     "a": "down_cases = births / down_rate",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt108.5",
+   "title": "Monogenic Disorders and Pedigree Mapping",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Monogenic Disorders and Pedigree Mapping' refers to.",
+     "a": "Over ten thousand human illnesses trace back to a single faulty gene and therefore follow Mendelian rules, sorted by whether the mutant allele sits on an autosome or the X and by dominance - autosomal recessive sickle cell anaemia and cystic fibrosis, autosomal dominant achondroplasia and Huntington disease, X-linked recessive haemophilia and Duchenne dystrophy, X-linked dominant hypophosphatemia; a family tree drawn with standard pedigree symbols reveals which rule applies.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Monogenic Disorders and Pedigree Mapping'.",
+     "a": "One gene, four inheritance routes - autosomal or X-linked, dominant or recessive - and the pedigree tells you which.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Monogenic Disorders and Pedigree Mapping' taught, and from which source text?",
+     "a": "8.2 (source: kebt108.txt section 8.2, Figs. 8.5-8.9)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt108.6",
+   "title": "Carrier Crosses in Recessive Disease",
+   "questions": [
+    {
+     "q": "Using the method 'Carrier Crosses in Recessive Disease', work with: children_total = 100. Carry the chain through step by step and give the final value of carrier_children.",
+     "a": "50 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Carrier Crosses in Recessive Disease' and work with: children_total = 3. Carry the chain through step by step and give the final value of carrier_children.",
+     "a": "1.5 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Carrier Crosses in Recessive Disease' refers to.",
+     "a": "Two healthy carriers of a recessive allele - each S/s at the sickle locus, say - gamete three genotype classes in their children: one quarter affected s/s, half carriers S/s, and one quarter clear S/S, so risk counselling for such couples starts from the quarter-and-half split.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Carrier Crosses in Recessive Disease'.",
+     "a": "Quarter affected, half carriers, quarter clear - the fixed forecast of a carrier-by-carrier mating.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Carrier Crosses in Recessive Disease', in plain ASCII form.",
+     "a": "affected_children = children_total / 4",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt108.7",
+   "title": "X-linked Transmission Probabilities",
+   "questions": [
+    {
+     "q": "Using the method 'X-linked Transmission Probabilities', work with: children_total = 24. Carry the chain through step by step and give the final value of affected_sons.",
+     "a": "6 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'X-linked Transmission Probabilities' and work with: children_total = 400. Carry the chain through step by step and give the final value of affected_sons.",
+     "a": "100 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'X-linked Transmission Probabilities' refers to.",
+     "a": "Sex chromosomes give the transmission its asymmetry: a carrier mother passes a recessive X to half her sons, an affected father hands his X to every daughter but no son, and in the dominant form an affected mother likewise shares the trait with half of both her sons and daughters.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'X-linked Transmission Probabilities'.",
+     "a": "Halve the children for sons, then halve again for those inheriting the affected X.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'X-linked Transmission Probabilities', in plain ASCII form.",
+     "a": "affected_sons = sons_total / 2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebt108.8",
+   "title": "Polygenic Disorders and Mitochondrial Inheritance",
+   "questions": [
+    {
+     "q": "Using the method 'Polygenic Disorders and Mitochondrial Inheritance', work with: cases_total = 30. Carry the chain through step by step and give the final value of type1_share.",
+     "a": "3 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Polygenic Disorders and Mitochondrial Inheritance' and work with: cases_total = 8. Carry the chain through step by step and give the final value of type1_share.",
+     "a": "0.8 as a fraction",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Polygenic Disorders and Mitochondrial Inheritance' refers to.",
+     "a": "Several genes acting together produce the common chronic disorders - diabetes mellitus where type 2 makes up about ninety percent of cases against ten percent for insulin-dependent type 1, hypertension staged from 120 over 80 upward, and coronary heart disease built by atherosclerotic plaques; separately, mutated mitochondrial genes ride the egg alone, so severity tracks the mix of faulty and healthy mitochondria and only mothers transmit the disease.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Polygenic Disorders and Mitochondrial Inheritance'.",
+     "a": "Nine of every ten diabetics are type 2; and a mitochondrial father transmits nothing - only the maternal line matters.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Polygenic Disorders and Mitochondrial Inheritance', in plain ASCII form.",
+     "a": "type2_share = cases_total * 90 / 100",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

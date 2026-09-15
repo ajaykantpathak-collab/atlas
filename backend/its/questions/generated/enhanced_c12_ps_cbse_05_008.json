@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_05_008",
+   "title": "c12_ps_cbse_05_008",
+   "questions": [
+    {
+     "q": "Which of the following correctly sequences Pakistan's military coups in chronological order? (a) Ayub Khan (1958) → Yahya Khan (1969) → Zia-ul-Haq (1977) → Pervez Musharraf (1999) (b) Yahya Khan (1969) → Ayub Khan (1958) → Zia-ul-Haq (1977) → Pervez Musharraf (1999) (c) Zia-ul-Haq (1977) → Ayub Khan (1958) → Yahya Khan (1969) → Pervez Musharraf (1999) (d) Pervez Musharraf (1999) → Zia-ul-Haq (1977) → Yahya Khan (1969) → Ayub Khan (1958)",
+     "a": "Correct answer: (a). A wrong answer reveals the student cannot recall the basic timeline of Pakistan's military interventions — a foundational fact for analyzing patterns. If a student chooses (b) or (c), they confuse the order of early coups, missing the critical point that Ayub (1958) set the precedent of military 'revolution' legitimized by referendum, Yahya (1969) inherited a crisis, and Zia (1977) institutionalized Islamization. This chronological blindness prevents understanding how each coup built on the previous one's constitutional distortions.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Bangladesh's military intervene in 1975 (assassination of Sheikh Mujibur Rahman) and 1982 (Ershad's coup), despite the country being born from a democratic liberation struggle? Explain using TWO structural factors distinct from Pakistan's experience.",
+     "a": "Correct answer: (1) **Factionalism within the liberation movement** — the split between Mujib's Awami League and leftist/nationalist groups (JSD, Purba Bangla) created chaos, enabling junior officers to assassinate Mujib claiming 'corruption and misrule.' (2) **Absence of institutionalized civil-military hierarchy** — unlike Pakistan where the military was a cohesive colonial institution, Bangladesh's military was fragmented (freedom fighters vs. repatriated officers), making it prone to internal coups (e.g., 1975 counter-coups, 1981 Zia assassination). A wrong answer citing only 'poverty' or 'Islamic fundamentalism' misses the specific post-liberation power vacuum and military factionalism unique to Bangladesh.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of 'praetorian state' (Amos Perlmutter) to explain why Pakistan's military has ruled directly for ~33 of 75 years (1947-2022) while Bangladesh's military ruled directly for ~15 of 51 years (1971-2022). Identify THREE institutional differences that explain this gap.",
+     "a": "Correct answer: (1) **Strategic culture**: Pakistan's military defined 'national security' around India-centric threat (Kashmir), justifying permanent political role; Bangladesh's threat perception shifted to internal/developmental after 1971. (2) **Constitutional engineering**: Pakistan's 1962, 1973 (8th Amendment), 1985 (8th Amendment), 2002 (LFO) amendments legally entrenched military's role (NSC, Article 58-2b); Bangladesh's 1991 Constitution (12th Amendment) restored parliamentary supremacy after Ershad. (3) **Party system**: Pakistan's Muslim League fragmented early, no mass party survived; Bangladesh's Awami League and BNP built durable mass bases despite dynastic leadership. Wrong answers citing 'Islam' or 'geography' alone ignore institutional path-dependence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of **external actors** in sustaining military rule in Pakistan (1950s-1990s) versus Bangladesh (1975-1990). Why did US-China support strengthen Pakistan's military but not prevent Bangladesh's 1990 democratic upsurge?",
+     "a": "Correct answer: Pakistan's military leveraged **Cold War alliances** (SEATO/CENTO, Afghan jihad 1980s) to secure massive US military aid ($30B+ 1954-1990) and Chinese nuclear/missile tech, making it financially autonomous from civilian control. Bangladesh's military (Zia, Ershad) sought US/China/Islamic world support but lacked strategic centrality — no Afghan jihad role, no nuclear program. The 1990 upsurge succeeded because: (i) End of Cold War reduced US tolerance for dictators (Ershad), (ii) India's diplomatic pressure (unlike Pakistan where India is 'enemy'), (iii) Domestic alliance (Awami League-BNP-Jamaat) forced elections. Wrong answers overstate 'US pro-democracy policy' — US backed Zia (Pakistan) and Ershad (Bangladesh) when strategically useful.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Pakistan's 2002 Legal Framework Order (LFO) and Bangladesh's 1991 Caretaker Government system were both military-designed mechanisms to control democratic transitions.\" Support with evidence from each country.",
+     "a": "Correct answer: **Partially true but asymmetric**. Pakistan's LFO (Musharraf, 2002) was **explicitly military-designed**: reserved parliamentary seats for military (via NSC), disqualified Nawaz Sharif/Benazir (Article 62/63), allowed President to dissolve Assembly — ensuring 'guided democracy.' Bangladesh's Caretaker System (1991, constitutionalized 1996) was **negotiated between AL and BNP** after Ershad's fall to ensure neutral elections; military had no formal role. However, the 2007-08 military-backed caretaker government (Moeen U Ahmed) **did** manipulate the system (anti-corruption drive targeting politicians, delaying elections) — showing military can hijack even civilian-designed mechanisms. Wrong answers equate the two as identical 'military traps' — missing that Bangladesh's 1991-2006 elections were credible and civilian-controlled.",
+     "self_check": true
+    },
+    {
+     "q": "Design a comparative table (3 columns: Dimension, Pakistan, Bangladesh) with FIVE rows analyzing why democracy remains 'hybrid' in Pakistan (2024) but 'competitive authoritarian' in Bangladesh (2024). Use concepts: civil-military relations, party system, judiciary, election commission, civil society.",
+     "a": "Expected criteria: Table must show **analytical depth**, not just facts. Example row: **Civil-Military Relations** → Pakistan: Military retains *de facto* veto on security/foreign policy (NSC, ISI), controls nuclear program; Bangladesh: Military subordinate since 2009 (BDR mutiny 2009 crushed, officers tried), but 'digital security act' used by civilian govt to silence dissent. **Poor answer** lists generic descriptors ('weak', 'strong') without institutional mechanisms. **Good answer** specifies: Pakistan's judiciary (post-2007) occasionally checks military (Musharraf trial) but 'doctrine of necessity' legacy persists; Bangladesh's judiciary (16th Amendment 2014) weakened by executive control. This tests synthesis across concepts from Class 11 (c11_ps_cbse_13_002, c11_ps_cbse_15_006) and this chapter.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

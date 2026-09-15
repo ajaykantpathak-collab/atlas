@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_09_008",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_09_008",
+   "title": "c11_biotech_cbse_09_008",
+   "questions": [
+    {
+     "q": "What is the fundamental difference in the data source used to construct PAM matrices versus BLOSUM matrices?",
+     "a": "PAM matrices are derived from global alignments of closely related sequences (typically >85% identity) and extrapolated to greater evolutionary distances using a Markov model. BLOSUM matrices are derived directly from observed substitutions in conserved local blocks (ungapped alignments) of sequences clustered at specific percentage identity thresholds (e.g., BLOSUM62 uses blocks from sequences ≥62% identical). A wrong answer (e.g., \"PAM is for nucleotides, BLOSUM for proteins\" or \"PAM uses local alignment, BLOSUM uses global\") reveals confusion between the alignment scope (global vs local) used in construction and the evolutionary modeling approach (extrapolation vs direct observation).",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"For aligning two sequences that are 30% identical, I should use PAM30 because the number matches the percentage identity.\" Explain why this reasoning is incorrect and state which matrix (PAM or BLOSUM, and which number) would be more appropriate.",
+     "a": "The reasoning is incorrect because PAMn refers to the number of Point Accepted Mutations per 100 residues (i.e., evolutionary distance), not percentage identity. PAM30 corresponds to sequences that have undergone 30 mutations per 100 residues, which actually implies high similarity (roughly 70-80% identity). For 30% identity (distant homologs), a high PAM number like PAM250 or a low BLOSUM number like BLOSUM45 is appropriate. BLOSUM45 is built from blocks with ≤45% identity, making it suitable for distant relationships. A wrong answer indicates the student confuses the numbering convention (PAM = evolutionary distance, BLOSUM = clustering threshold) and the inverse relationship between matrix number and sequence divergence for the two series.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following excerpt from a BLOSUM62 matrix:\nA  R  N  D  C  Q  E  G  H  I  L  K  M  F  P  S  T  W  Y  V\nA  4 -1 -2 -2  0 -1 -1  0 -2 -1 -1 -1 -1 -2 -1  1  0 -3 -2  0\nR -1  5  0 -2 -3  1  0 -2  0 -3 -2  2 -1 -3 -2 -1 -1 -3 -2 -3\n...\nCalculate the substitution score for aligning Arginine (R) with Lysine (K) and for aligning Tryptophan (W) with Cysteine (C). Interpret the biological meaning of the sign and magnitude of each score.",
+     "a": "From the matrix: R-K score = +2 (row R, column K). W-C score = -3 (row W, column C). R-K is positive because both are positively charged, large amino acids—conservative substitution often tolerated in evolution. W-C is negative because tryptophan is large, hydrophobic, aromatic while cysteine is small, sulfur-containing, often involved in disulfide bonds—radically different properties, rarely substituted. A wrong answer (e.g., swapping scores, misreading matrix coordinates, or interpreting positive as \"bad\") reveals inability to navigate a substitution matrix and/or misunderstanding of the physicochemical basis of substitution scores.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the mathematical assumptions underlying PAM and BLOSUM matrices regarding: (a) the evolutionary model (Markovian vs non-Markovian), (b) treatment of multiple substitutions at the same site, and (c) the role of sequence weighting/clustering.",
+     "a": "(a) PAM assumes a Markov process: the probability of substitution at a site depends only on the current amino acid, not its history. BLOSUM makes no explicit Markov assumption; it counts observed substitutions in aligned blocks directly. (b) PAM corrects for multiple hits by matrix exponentiation (PAMn = PAM1^n), explicitly modeling unseen substitutions. BLOSUM avoids multiple-hit correction by clustering sequences at a threshold (e.g., 62%) and counting substitutions only between clusters, thus observing only recent substitutions. (c) PAM uses all sequences in the alignment without weighting. BLOSUM clusters sequences above the identity threshold and weights each cluster equally (or uses sequence weighting) to reduce bias from overrepresented families. A wrong answer conflates the two methodologies or misattributes the Markov property to BLOSUM.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher is using BLASTP to search a protein database with a query sequence of length 150 amino acids. The default matrix is BLOSUM62. The researcher argues: \"Since my query is short, I should switch to PAM30 to get more sensitive results for close homologs.\" Evaluate this claim and recommend a better strategy if the goal is to find close homologs.",
+     "a": "The claim is flawed. PAM30 is indeed for very close relationships (short evolutionary distance), but BLOSUM matrices are generally preferred for local alignment searches like BLAST because they are derived from local blocks without gap penalties, matching BLAST's local alignment algorithm. For close homologs, a higher-numbered BLOSUM matrix (e.g., BLOSUM80 or BLOSUM90) is more appropriate than switching to PAM. BLOSUM80 uses blocks from sequences ≥80% identical, capturing very recent substitutions. Additionally, for short queries, one might adjust gap penalties or use composition-based statistics rather than change the matrix series. A wrong answer (e.g., agreeing with PAM30 without justification) shows lack of understanding that BLAST is optimized for BLOSUM and that matrix choice should match both evolutionary distance AND alignment type (local vs global).",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment to test whether a newly discovered scoring matrix (Matrix X) behaves more like a PAM-like matrix or a BLOSUM-like matrix. Describe the data you would collect, the analysis you would perform, and the decision criteria.",
+     "a": "Collect a benchmark set of protein pairs with known structures and known evolutionary distances (e.g., from SCOP/CATH). For each pair, compute the optimal local alignment score using Matrix X and using standard PAM250 and BLOSUM62. Plot the alignment score vs. structural similarity (e.g., RMSD) or evolutionary distance. If Matrix X scores correlate strongly with PAM250 across all distances (especially high scores for distant pairs), it behaves like PAM. If Matrix X scores correlate with BLOSUM62 for mid-range distances but drop sharply for distant pairs (like BLOSUM45/62), it behaves like BLOSUM. Additionally, check if Matrix X scores are log-odds ratios derived from a Markov model (PAM) or from observed block frequencies (BLOSUM). A poor answer proposes only sequence identity correlation without controlling for alignment mode or evolutionary distance, or suggests testing only on close homologs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

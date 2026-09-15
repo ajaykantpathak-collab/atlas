@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_07_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_07_012",
+   "title": "c12_hist_cbse_07_012",
+   "questions": [
+    {
+     "q": "From which two primary regions were war-horses imported into Vijayanagara, and which merchant community initially dominated this trade before 1498?",
+     "a": "Horses were imported from Arabia and Central Asia; the trade was initially controlled by Arab traders. A wrong answer (e.g., \"Portugal and Persia\" or \"Indian merchants\") reveals the student confuses the *source* of horses with the *carriers*, or conflates the pre- and post-1498 periods — a common error when students memorise \"Portuguese brought horses\" without understanding the earlier Arab-dominated supply chain.",
+     "self_check": true
+    },
+    {
+     "q": "Krishnadeva Raya's Amuktamalyada advises the king to \"improve the harbours of his country and so encourage its commerce that horses, elephants, precious gems... are freely imported.\" Explain WHY the text specifically links harbour improvement to horse imports, rather than just general trade.",
+     "a": "Horses were a *strategic military necessity* — cavalry decided battles against Deccan Sultanates — and could only arrive by sea because overland routes through Sultanate territories were unreliable/hostile. Harbour upgrades (e.g., at Bhatkal, Honavar) secured the *specific* supply line for horses. A wrong answer (\"to increase overall revenue\") misses the *military-strategic* logic: the state prioritised horse imports over luxury goods because losing the horse supply meant losing wars.",
+     "self_check": true
+    },
+    {
+     "q": "A Portuguese document from c. 1520 states: \"The King of Bisnaga buys 13,000 horses a year at 400 cruzados each.\" Using the amara-nayaka system (c12_hist_cbse_07_004), calculate the approximate annual horse expenditure as a percentage of state revenue if total revenue was ~10 million cruzados, and explain what this implies about fiscal priorities.",
+     "a": "13,000 × 400 = 5.2 million cruzados = 52% of 10 million cruzados. This implies *over half the state's revenue flowed directly into horse imports* — confirming the military-fiscal core of the empire. A wrong calculation or interpretation (e.g., \"only 5%\") reveals the student cannot connect quantitative trade data to the amara-nayaka obligation (each nayaka maintaining stipulated cavalry), missing why the state tolerated Portuguese price-gouging.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the market descriptions of Domingo Paes (c. 1520) and Fernão Nuniz (c. 1535). Paes calls Vijayanagara \"the best-provided city in the world\" with cheap grain; Nuniz describes markets \"overflowing with abundance\" but also lists rats, cats, and lizards as food. Analyse what the *difference* in tone and content reveals about the empire's economic trajectory between 1520–1535.",
+     "a": "Paes describes Krishnadeva Raya's peak (expansion, prosperity, cheap staples); Nuniz writes after Krishnadeva Raya's death (1529), during succession crises and nayaka rebellions — the exotic meats signal *famine inflation* and dietary distress among ordinary people, even as elite luxury trade continued. A wrong answer (\"both show prosperity\") fails to read *against the grain* of the sources and misses how the same market can reflect elite opulence and popular immiseration simultaneously — a key skill for source-based board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Portuguese connection was a net benefit for Vijayanagara's economy because it secured horse supplies and brought new technology (muskets).\" Use evidence from the Amuktamalyada, the 1510 Goa conquest, and the shifting Arab-Portuguese rivalry to justify your judgment.",
+     "a": "*Net benefit is false.* Short-term: Portuguese muskets and naval power *did* help Krishnadeva Raya (e.g., 1510 Goa conquest allied with Albuquerque). But long-term: Portuguese *monopolised* the horse trade, raised prices, and used naval blockades to pressure Vijayanagara — the Amuktamalyada's plea to \"attach foreign merchants... by allowing decent profits\" shows the king *lost bargaining power*. By 1565, Portuguese withheld horses from Rama Raya. A one-sided \"benefit\" answer ignores the *asymmetric dependency* the Portuguese engineered — a classic competitive-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 4-node causal chain diagram (text-only) linking: (1) Tungabhadra irrigation → (2) agrarian surplus → (3) trade revenue → (4) horse imports → (5) military capacity → (6) territorial expansion → (7) more irrigated land. Label each arrow with the *mechanism* (e.g., \"taxation in kind\", \"customs duties at Bhatkal\"). Then identify the *feedback loop* and the *external shock* (1498) that could break it.",
+     "a": "Chain: Irrigation (tanks/canals) → surplus grain/cotton → taxed in kind/sold at urban markets → customs duties at west-coast ports (Bhatkal, Honavar) fund horse imports → cavalry enables Raichur Doab conquest (1512) → new land → more irrigation. Feedback loop: *expansion fuels revenue fuels expansion*. External shock: Portuguese naval control (1498+) turns \"customs duties\" into \"Portuguese-controlled monopsony\", diverting revenue from state to Portuguese — breaking the loop. A linear chain without the loop/shock shows the student cannot model *systemic* economic causality.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

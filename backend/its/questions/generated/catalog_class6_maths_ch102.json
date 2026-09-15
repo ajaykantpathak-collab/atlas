@@ -1,0 +1,468 @@
+{
+ "catalog": "catalog_class6_maths_ch102.json",
+ "concepts": [
+  {
+   "id": "fegp.2.1",
+   "title": "Point",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 1 gives 1",
+     "compute": "lines = 1"
+    }
+   ],
+   "questions": [
+    {
+     "q": "How many lines of symmetry does a kite have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "What is the order of rotational symmetry of a square?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a isosceles triangle have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a rectangle have?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "A line segment has two endpoints; how many endpoints does a ray have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many end points does a line have (a line extends endlessly in both directions)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.2.2",
+   "title": "Line Segment",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 5 gives 5",
+     "compute": "lines = 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "How many lines of symmetry does a regular pentagon have?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "What is the order of rotational symmetry of a square?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a kite have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a rectangle have?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "A line segment has two endpoints; how many endpoints does a ray have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many end points does a line have (a line extends endlessly in both directions)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.2.3",
+   "title": "Line",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 5 gives 5",
+     "compute": "lines = 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "How many lines of symmetry does a regular pentagon have?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "What is the order of rotational symmetry of a square?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a kite have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a rectangle have?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "A line segment has two endpoints; how many endpoints does a ray have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many end points does a line have (a line extends endlessly in both directions)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.2.4",
+   "title": "Ray",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 3 gives 3",
+     "compute": "lines = 3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "How many lines of symmetry does a equilateral triangle have?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "What is the order of rotational symmetry of a equilateral triangle?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a isosceles triangle have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a rectangle have?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "A line segment has two endpoints; how many endpoints does a ray have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many end points does a line have (a line extends endlessly in both directions)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.2.5",
+   "title": "Angle",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 31 gives 59",
+     "compute": "other = 90 - 31"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 31 degrees, find the other.",
+     "a": "59",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 16 degrees, find the other.",
+     "a": "164",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 47 degrees; find the other.",
+     "a": "133",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 58 degrees and 180 degrees, find the remaining angle.",
+     "a": "122",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 71 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "109",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 94 degrees. Find its co-interior partner.",
+     "a": "86",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.2.8.1",
+   "title": "Straight Angle",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 59 degrees, find the other.",
+     "a": "31",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 56 degrees, find the other.",
+     "a": "124",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 34 degrees; find the other.",
+     "a": "146",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 68 degrees and 100 degrees, find the remaining angle.",
+     "a": "192",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 64 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "116",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 37 degrees. Find its co-interior partner.",
+     "a": "143",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.2.8.2",
+   "title": "Right Angle",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 66 degrees, find the other.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 92 degrees, find the other.",
+     "a": "88",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 19 degrees; find the other.",
+     "a": "161",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 116 degrees and 137 degrees, find the remaining angle.",
+     "a": "107",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 30 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "150",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 129 degrees. Find its co-interior partner.",
+     "a": "51",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.2.9.1",
+   "title": "Angles in a Clock",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 69 degrees, find the other.",
+     "a": "21",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 63 degrees, find the other.",
+     "a": "117",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 19 degrees; find the other.",
+     "a": "161",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 40 degrees and 111 degrees, find the remaining angle.",
+     "a": "209",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 53 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "127",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 128 degrees. Find its co-interior partner.",
+     "a": "52",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.2.11.1",
+   "title": "Acute Angle",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 23 gives 67",
+     "compute": "other = 90 - 23"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 23 degrees, find the other.",
+     "a": "67",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 41 degrees, find the other.",
+     "a": "139",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 33 degrees; find the other.",
+     "a": "147",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 62 degrees and 232 degrees, find the remaining angle.",
+     "a": "66",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 42 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "138",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 50 degrees. Find its co-interior partner.",
+     "a": "130",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.2.11.2",
+   "title": "Obtuse Angle",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 62 gives 28",
+     "compute": "other = 90 - 62"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 62 degrees, find the other.",
+     "a": "28",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 46 degrees, find the other.",
+     "a": "134",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 51 degrees; find the other.",
+     "a": "129",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 75 degrees and 185 degrees, find the remaining angle.",
+     "a": "100",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 20 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "160",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 46 degrees. Find its co-interior partner.",
+     "a": "134",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.2.11.3",
+   "title": "Reflex Angle",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 56 degrees, find the other.",
+     "a": "34",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 93 degrees, find the other.",
+     "a": "87",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 44 degrees; find the other.",
+     "a": "136",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 101 degrees and 144 degrees, find the remaining angle.",
+     "a": "115",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 42 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "138",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 96 degrees. Find its co-interior partner.",
+     "a": "84",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

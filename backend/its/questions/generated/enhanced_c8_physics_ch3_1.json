@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch3_1",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch3_1",
+   "title": "c8_physics_ch3_1",
+   "questions": [
+    {
+     "q": "Define force in your own words and state its SI unit.",
+     "a": "Force is a push or pull acting on an object that can change its state of motion or shape; its SI unit is the newton (N). A wrong answer such as \"force is energy\" or \"unit is joule\" reveals confusion between force and energy/work — the student has not distinguished the agent of change (force) from the capacity to do work (energy).",
+     "self_check": true
+    },
+    {
+     "q": "A boy kicks a football at rest. The ball starts moving forward. Identify the force, its direction, and which effect of force is demonstrated here.",
+     "a": "The force is the push from the boy's foot on the ball; its direction is forward (same as the ball's motion); the effect is change in speed (from zero to some speed). A wrong answer that says \"the force is the ball moving\" or \"direction is backward\" shows the student thinks force is a property of the moving object rather than an external push/pull, or confuses action-reaction pairs.",
+     "self_check": true
+    },
+    {
+     "q": "A force of 5 N acts on a 2 kg block initially at rest on a smooth horizontal surface. If the force acts for 3 seconds, what is the final speed of the block? (Assume no friction.)",
+     "a": "Given: F = 5 N, m = 2 kg, u = 0 m/s, t = 3 s. Step 1: Find acceleration using F = ma → a = F/m = 5 N / 2 kg = 2.5 m/s². Step 2: Use v = u + at → v = 0 + (2.5 m/s²)(3 s) = 7.5 m/s. Final speed = 7.5 m/s. A wrong answer like 15 m/s (using F = mv) reveals the student confuses force with momentum or misapplies formulas without understanding the F = ma → a → v chain.",
+     "self_check": true
+    },
+    {
+     "q": "Two students push a heavy box from opposite sides with equal force. The box does not move. Another student pushes a light box from one side only — it moves. Compare the two situations in terms of net force and state of motion.",
+     "a": "In the first case, equal and opposite forces cancel → net force = 0 → no change in motion (box stays at rest). In the second case, a single unopposed force → net force ≠ 0 → change in motion (box accelerates). A wrong answer claiming \"both have forces so both should move\" shows the student does not yet grasp that forces are vectors and must be added vectorially to find net effect.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"When I press a rubber ball, it changes shape. This is not a force because the ball does not move.\" Evaluate this statement and correct the error.",
+     "a": "The statement is incorrect. Force can change shape/size without changing position — pressing the ball applies a compressive force that deforms it. The error is thinking force only means \"making things move.\" A wrong evaluation that agrees with the student reveals the misconception that force = motion only, ignoring the deformation effect.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom activity using only a rubber band, a toy car, and a spring balance to demonstrate that force has both magnitude and direction. Describe the steps and what students should observe.",
+     "a": "Attach the rubber band to the toy car. Pull the car horizontally with the spring balance reading 2 N — car accelerates forward. Then pull at the same 2 N but at an upward angle — car moves forward and lifts slightly. Students observe: same magnitude (2 N), different direction → different motion effects. A poor answer that only pulls horizontally or ignores the spring balance reading shows the student cannot design an experiment isolating magnitude vs direction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

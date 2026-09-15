@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_07_011",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_07_011",
+   "title": "c12_math_cbse_07_011",
+   "questions": [
+    {
+     "q": "State the correct transformation of limits when evaluating \\(\\int_0^{\\pi/2} \\sin x \\cos x\\,dx\\) using the substitution \\(u = \\sin x\\).",
+     "a": "When \\(x = 0\\), \\(u = \\sin 0 = 0\\); when \\(x = \\pi/2\\), \\(u = \\sin(\\pi/2) = 1\\). The new limits are \\(0\\) and \\(1\\). A wrong answer like keeping the original limits \\(0\\) to \\(\\pi/2\\) reveals the student does not understand that the variable of integration has changed and limits must correspond to the new variable. Another error is using \\(u = \\cos x\\) which would give limits \\(1\\) to \\(0\\) (reversed), indicating confusion about the direction of the substitution.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the substitution \\(u = x^2\\) is not directly valid for evaluating \\(\\int_{-1}^{1} x^3\\,dx\\) without splitting the interval, even though the integrand is an odd function and the integral is zero.",
+     "a": "The substitution \\(u = x^2\\) is not one-to-one on \\([-1, 1]\\) because both \\(x = 1\\) and \\(x = -1\\) map to \\(u = 1\\), and \\(x = 0\\) maps to \\(u = 0\\). The differential \\(du = 2x\\,dx\\) changes sign at \\(x = 0\\), so the integral must be split into \\([-1,0]\\) and \\([0,1]\\) to apply substitution correctly. A student who ignores this and writes limits \\(u=1\\) to \\(u=1\\) (getting zero) gets the right answer for the wrong reason; they miss the requirement that the substitution function must be invertible on the interval. This is a common competitive-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate \\(\\int_0^1 \\frac{x}{\\sqrt{1+x^2}}\\,dx\\) using the substitution \\(u = 1+x^2\\). Show all steps including limit change.",
+     "a": "Let \\(u = 1+x^2\\), then \\(du = 2x\\,dx\\) so \\(x\\,dx = \\frac{1}{2}du\\). Limits: when \\(x=0\\), \\(u=1\\); when \\(x=1\\), \\(u=2\\). The integral becomes \\(\\int_1^2 \\frac{1}{2} \\frac{du}{\\sqrt{u}} = \\frac{1}{2} \\int_1^2 u^{-1/2}\\,du = \\frac{1}{2} \\left[ 2u^{1/2} \\right]_1^2 = \\left[ \\sqrt{u} \\right]_1^2 = \\sqrt{2} - 1\\). A wrong answer often comes from forgetting the factor \\(1/2\\) (giving \\(2\\sqrt{2}-2\\)) or not changing limits and back-substituting incorrectly (e.g., writing \\(\\sqrt{1+x^2}\\) evaluated from \\(0\\) to \\(1\\) but missing the factor). The correct answer is \\(\\sqrt{2}-1\\).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two approaches for evaluating \\(\\int_0^{\\pi/4} \\tan x \\sec^2 x\\,dx\\): (A) substitute \\(u = \\tan x\\), (B) substitute \\(u = \\sec x\\). Which is more efficient and why?",
+     "a": "Both work, but (A) is more efficient. With \\(u = \\tan x\\), \\(du = \\sec^2 x\\,dx\\), limits: \\(x=0 \\to u=0\\), \\(x=\\pi/4 \\to u=1\\). Integral becomes \\(\\int_0^1 u\\,du = \\frac{1}{2}\\). With \\(u = \\sec x\\), \\(du = \\sec x \\tan x\\,dx\\), the integrand \\(\\tan x \\sec^2 x\\,dx = \\sec x \\cdot \\sec x \\tan x\\,dx = u\\,du\\), limits: \\(x=0 \\to u=1\\), \\(x=\\pi/4 \\to u=\\sqrt{2}\\). Integral becomes \\(\\int_1^{\\sqrt{2}} u\\,du = \\frac{1}{2}(2-1) = \\frac{1}{2}\\). Approach (A) avoids square roots in limits and is simpler. A student who chooses (B) without recognizing the extra complexity shows lack of strategic thinking about substitution choice.",
+     "self_check": true
+    },
+    {
+     "q": "A student evaluates \\(\\int_0^1 \\frac{2x}{1+x^2}\\,dx\\) as follows: \"Let \\(u = 1+x^2\\), then \\(du = 2x\\,dx\\). The integral becomes \\(\\int \\frac{du}{u} = \\ln|u| = \\ln(1+x^2)\\). Evaluating from 0 to 1 gives \\(\\ln 2 - \\ln 1 = \\ln 2\\).\" Identify the error in the student's working and explain why it is still accidentally correct in this case.",
+     "a": "The error is that the student did not change the limits of integration when switching to \\(u\\); they kept the integral in terms of \\(u\\) but then back-substituted to \\(x\\) before evaluating. The correct method is to change limits: \\(x=0 \\to u=1\\), \\(x=1 \\to u=2\\), then evaluate \\(\\int_1^2 \\frac{du}{u} = \\ln 2 - \\ln 1 = \\ln 2\\). The answer is accidentally correct because the back-substitution step recovered the original antiderivative. However, this habit leads to mistakes when the antiderivative in \\(u\\) is not easily back-substituted or when the limits are not symmetric. The student should be penalized in board exams for not following the prescribed method (changing limits).",
+     "self_check": true
+    },
+    {
+     "q": "Create a definite integral problem that requires the substitution \\(u = \\sin x\\) and has a non-trivial limit change (i.e., not 0 to \\(\\pi/2\\)). Provide the integral, the substitution steps, and the final answer.",
+     "a": "Example: \\(\\int_{\\pi/6}^{\\pi/3} \\frac{\\cos x}{\\sin^2 x}\\,dx\\). Let \\(u = \\sin x\\), \\(du = \\cos x\\,dx\\). Limits: \\(x=\\pi/6 \\to u=1/2\\), \\(x=\\pi/3 \\to u=\\sqrt{3}/2\\). Integral becomes \\(\\int_{1/2}^{\\sqrt{3}/2} u^{-2}\\,du = \\left[ -u^{-1} \\right]_{1/2}^{\\sqrt{3}/2} = -\\frac{2}{\\sqrt{3}} + 2 = 2 - \\frac{2}{\\sqrt{3}}\\). A good answer demonstrates correct limit change, integration of negative power, and simplification. A poor answer might forget the negative sign from \\(u^{-2}\\) integration or mishandle the fractional limits.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

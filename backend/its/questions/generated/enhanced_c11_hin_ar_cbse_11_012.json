@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_11_012",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_11_012",
+   "title": "c11_hin_ar_cbse_11_012",
+   "questions": [
+    {
+     "q": "Identify the type of question: \"कविता में 'पिता' शब्द कितनी बार आया है?\" (How many times does the word 'father' appear in the poem?)",
+     "a": "This is a **literal** question because the answer can be found by directly counting the occurrences of the word 'पिता' in the text without any interpretation. A wrong answer (e.g., calling it inferential) reveals the student confuses \"counting/retrieving\" with \"interpreting\" and does not grasp that literal questions have a single, verifiable answer located explicitly in the text.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the poet describes the house as \"यादों का घर\" (house of memories) rather than just \"मेरा घर\" (my house).",
+     "a": "This is an **inferential** question. The phrase \"यादों का घर\" is not explicitly defined in the poem; the student must infer that the physical house is gone/empty and only memories remain, using clues like \"अब नहीं रहा वह घर\" and the repeated refrain \"घर की याद\". A wrong answer (e.g., \"because the poet likes memories\") reveals the student treats inference as personal opinion rather than a conclusion forced by textual evidence like the contrast between past warmth and present absence.",
+     "self_check": true
+    },
+    {
+     "q": "Given the lines: \"पिता ने कहा था / 'घर में चार दीवारें / चार खिड़कियाँ'\" and later \"पिता को कोई एक चीज़ भी नहीं मिली\", write a 2-sentence inferential answer to: \"पिता की स्थिति क्या दर्शाती है?\" (What does the father's condition show?)",
+     "a": "**Steps:** 1) Identify literal facts: father described a house with 4 walls/4 windows; later he got \"not even one thing\". 2) Note the contrast: promise vs reality. 3) Infer: the father's life was stripped of the stability he promised. 4) Formulate: The father's condition shows the tragic gap between his aspirations for a secure home and the harsh reality of displacement/loss. A wrong answer (e.g., \"father was poor\") reveals the student misses the symbolic contrast and states a generic fact not grounded in the specific textual juxtaposition.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the literal meaning of \"नक्शा\" (map) in the line \"नक्शा बना लिया था\" with its inferred symbolic meaning in the context of the poem's theme of displacement.",
+     "a": "**Literal:** A physical architectural plan drawn by the father. **Inferred:** The map symbolizes the father's attempt to impose order/permanence on a life defined by impermanence; its failure to materialize represents the fragility of rootedness. A wrong answer (e.g., \"map means plan\") reveals the student cannot separate denotation from connotation and fails to link the symbol to the broader theme of loss analyzed in node 009 (Symbolism).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student answer to an inferential question: \"कवि को घर की याद क्यों आती है? क्योंकि वह बूढ़ा हो गया है।\" (Why does the poet remember home? Because he has grown old.) Is this a valid inference? Justify.",
+     "a": "**Invalid inference.** The poem never states the poet's age; \"old age\" is an external assumption. Valid inferences must be anchored in the text: the poet remembers home because of *sensory triggers* (smell of rain, sound of train) and *emotional void* (father's absence, \"अब नहीं रहा वह घर\"). A wrong evaluation (e.g., \"yes, it's valid\") reveals the student cannot distinguish text-supported inference from personal projection, a critical error in board exams where marks are awarded only for text-grounded reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Create one literal and one inferential question based on the final stanza (beginning \"और कहना...\") that a Class 11 exam might ask. Provide the expected answer for each.",
+     "a": "**Literal Q:** \"कवि अंत में किससे कहता है कि 'घर नहीं रहा'?\" **Answer:** \"अपने आप से\" or \"पाठक से\" (explicit in \"अपने आप से कहना\"). **Inferential Q:** \"अंतिम पंक्ति 'घर नहीं रहा, यह याद ही याद है' कवि की किस मनःस्थिति को दर्शाती है?\" **Answer:** It shows *acceptance of irreversible loss* – the physical home is gone, only the mental construct 'memory' remains; the repetition 'याद ही याद' emphasizes the total replacement of reality by recollection. A poor created question (e.g., literal: \"What is the poet's name?\") reveals the student cannot distinguish question *types* or identify which stanza details are examinable.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

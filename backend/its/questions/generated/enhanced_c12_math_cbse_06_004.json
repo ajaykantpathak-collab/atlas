@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_06_004",
+   "title": "c12_math_cbse_06_004",
+   "questions": [
+    {
+     "q": "State the three conditions of the Second Derivative Test for a critical point \\( c \\) where \\( f'(c)=0 \\).",
+     "a": "Correct answer: (i) If \\( f''(c) < 0 \\), \\( f \\) has a local maximum at \\( c \\). (ii) If \\( f''(c) > 0 \\), \\( f \\) has a local minimum at \\( c \\). (iii) If \\( f''(c) = 0 \\), the test fails; use the First Derivative Test. A wrong answer (e.g., swapping the inequality signs) reveals the student has memorised the test backwards — they confuse concave down (maximum) with concave up (minimum). This is the single most common sign error in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Second Derivative Test fails for \\( f(x)=x^4 \\) at \\( x=0 \\), and determine the nature of the critical point using the First Derivative Test.",
+     "a": "Correct answer: \\( f'(x)=4x^3 \\), so \\( f'(0)=0 \\). \\( f''(x)=12x^2 \\), so \\( f''(0)=0 \\) → test fails. For \\( x<0 \\), \\( f'(x)<0 \\) (decreasing); for \\( x>0 \\), \\( f'(x)>0 \\) (increasing). Sign changes from negative to positive → local minimum at \\( x=0 \\). A wrong answer that stops at \"test fails\" without applying the First Derivative Test shows the student treats the failure as a dead end rather than a signal to switch methods — a habit that costs marks in multi-step JEE problems.",
+     "self_check": true
+    },
+    {
+     "q": "Find the local maxima and minima of \\( f(x)=2x^3-9x^2+12x+1 \\) using the Second Derivative Test. Show all steps.",
+     "a": "Correct answer:\n\\( f'(x)=6x^2-18x+12=6(x-1)(x-2) \\). Critical points: \\( x=1, 2 \\).\n\\( f''(x)=12x-18 \\).\n\\( f''(1)=12-18=-6 < 0 \\) → local maximum at \\( x=1 \\), value \\( f(1)=6 \\).\n\\( f''(2)=24-18=6 > 0 \\) → local minimum at \\( x=2 \\), value \\( f(2)=5 \\).\nA wrong answer where the student writes \\( f''(1)=6 \\) (forgetting the minus sign) or mis-evaluates \\( f(1) \\) as 5 reveals algebraic carelessness in substituting into the second derivative or the original function — a frequent source of 1-mark errors in board papers.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the First and Second Derivative Tests for the function \\( f(x)=x^3-3x+3 \\). Which test is more efficient and why?",
+     "a": "Correct answer: Both work. First Derivative Test requires checking sign of \\( f'(x)=3(x-1)(x+1) \\) on intervals \\( (-\\infty,-1), (-1,1), (1,\\infty) \\) — three test points. Second Derivative Test: \\( f''(x)=6x \\), evaluate at \\( x=-1 \\) (negative → max) and \\( x=1 \\) (positive → min) — only two evaluations. Second Derivative Test is more efficient here because \\( f''(x) \\) is simpler than sign analysis of \\( f'(x) \\). A student who claims First Derivative Test is always better fails to recognise that efficiency depends on algebraic complexity — a key judgment skill for competitive exams where time matters.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves \\( f(x)=x^3-6x^2+9x+15 \\) and writes: \"\\( f'(x)=3x^2-12x+9=3(x-1)(x-3) \\), critical points \\( x=1,3 \\). \\( f''(x)=6x-12 \\). \\( f''(1)=-6<0 \\) → max at \\( x=1 \\). \\( f''(3)=6>0 \\) → min at \\( x=3 \\).\" Is the solution fully correct? If not, identify the error.",
+     "a": "The solution is correct in classification but incomplete: the student did not state the local maximum and minimum *values* \\( f(1) \\) and \\( f(3) \\). Board marking scheme requires the values (or at least the points with coordinates). A student who stops at \"max at x=1\" loses 1 mark per extremum. This tests whether the student understands that \"local maximum\" means the *value* \\( f(c) \\), not just the x-coordinate.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a cubic polynomial \\( f(x) \\) that has a critical point at \\( x=2 \\) where the Second Derivative Test fails, but the First Derivative Test shows a local minimum. Write the polynomial and verify both tests.",
+     "a": "Example: \\( f(x)=(x-2)^4 \\) or \\( f(x)=x^4-8x^3+24x^2-32x+16 \\). Check: \\( f'(x)=4(x-2)^3 \\), \\( f'(2)=0 \\). \\( f''(x)=12(x-2)^2 \\), \\( f''(2)=0 \\) → test fails. For \\( x<2 \\), \\( f'(x)<0 \\); for \\( x>2 \\), \\( f'(x)>0 \\) → sign change negative to positive → local minimum at \\( x=2 \\). A poor answer would give a cubic (degree 3) — but a cubic's second derivative is linear, so \\( f''(c)=0 \\) implies inflection, not min/max. This reveals the student doesn't connect polynomial degree to the order of the first non-zero derivative.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,373 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 305,
+ "chapter_title": "Pastoralists in the Modern World",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\fees105.txt",
+ "concepts": [
+  {
+   "id": "iess.305.1.1",
+   "title": "Pastoral Nomadism",
+   "section": "1. Pastoral Nomads and their Movements",
+   "definition": "A way of life centered on herding livestock and moving seasonally from one region to another to find fresh pastures and water.",
+   "formula": "",
+   "key_idea": "Seasonal migration prevents overgrazing and allows pastures to naturally recover.",
+   "textbook_ref": "iess305.txt lines 12-40",
+   "question_patterns": [
+    "What is pastoral nomadism?",
+    "Why do nomadic pastoralists move from one place to another?",
+    "Explain the ecological benefits of seasonal movement of herders.",
+    "How does continuous movement of pastoralists protect the environment?",
+    "Describe the lifestyle of nomadic herders."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the core characteristics of pastoral nomadism",
+     "explain": "Pastoral nomads rely on livestock and move continuously rather than settling in one location."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the environmental impact of seasonal migration",
+     "explain": "Moving herds prevents the depletion of vegetation in a single area and allows pastures to regenerate."
+    }
+   ]
+  },
+  {
+   "id": "iess.305.1.2",
+   "title": "Mountain Pastoralists of India",
+   "section": "1.1 In the Mountains",
+   "definition": "Herding communities in the Himalayan region, such as Gujjar Bakarwals and Gaddis, who migrate between low-altitude winter scrub forests and high-altitude summer meadows.",
+   "formula": "",
+   "key_idea": "Migration is dictated by snowmelt in summer and freezing temperatures in winter.",
+   "textbook_ref": "iess305.txt lines 41-110",
+   "question_patterns": [
+    "Describe the seasonal cycle of the Gujjar Bakarwals of Jammu and Kashmir.",
+    "How did the Gaddi shepherds of Himachal Pradesh adjust to seasonal changes?",
+    "What are bugyals and bhabar in the context of Himalayan pastoralists?",
+    "Explain the movement of Bhotiyas and Sherpas in the mountains.",
+    "Where do mountain herders graze their flocks during winter?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the winter grazing grounds of mountain pastoralists",
+     "explain": "During winter, high mountains are snow-covered, forcing herders to move to the low hills of the Siwalik range."
+    },
+    {
+     "step": 2,
+     "action": "Identify the summer grazing grounds of mountain pastoralists",
+     "explain": "By April, snow melts on high mountains, and herders move north to lush meadows like Bugyals for rich forage."
+    }
+   ]
+  },
+  {
+   "id": "iess.305.1.3",
+   "title": "Plateau and Desert Pastoralists of India",
+   "section": "1.2 On the Plateaus, Plains and Deserts",
+   "definition": "Pastoral groups like Dhangars, Gollas, Kurubas, Banjaras, and Raikas whose seasonal movements are shaped by monsoon cycles rather than cold or snow.",
+   "formula": "",
+   "key_idea": "Alternation between dry inland plateaus or deserts during monsoons and wet coastal or riverine tracts in dry seasons.",
+   "textbook_ref": "iess305.txt lines 111-180",
+   "question_patterns": [
+    "Describe the seasonal migration of Dhangars of Maharashtra.",
+    "How did the Raikas of Rajasthan combine cultivation with pastoralism?",
+    "Explain the lifestyle of Gollas, Kurumas, and Kurubas in Karnataka and Andhra Pradesh.",
+    "Who are the Banjaras and where are they found?",
+    "What factors govern the movement of desert and plateau herders?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the impact of monsoons on plateau herders",
+     "explain": "During monsoons, herders stay in semi-arid plateaus which become vast grazing grounds."
+    },
+    {
+     "step": 2,
+     "action": "Identify the dry season movement of plateau herders",
+     "explain": "By October, when the plateau dries up, herders move to wet coastal agricultural tracts like the Konkan."
+    }
+   ]
+  },
+  {
+   "id": "iess.305.2.1",
+   "title": "Colonial Forest Acts and Pastoral Impact",
+   "section": "2. Colonial Rule and Pastoral Life",
+   "definition": "Laws enacted by the British administration classifying forests into Reserved and Protected categories, severely restricting pastoralists' access to grazing land.",
+   "formula": "",
+   "key_idea": "Forest reservation protected commercial timber but deprived herders of traditional grazing rights.",
+   "textbook_ref": "iess305.txt lines 220-265",
+   "question_patterns": [
+    "How did the Forest Acts change the lives of pastoralists in India?",
+    "What was the difference between Reserved and Protected forests for herders?",
+    "Why did colonial officials believe grazing was harmful to forests?",
+    "Explain the permit system introduced by the Forest Department.",
+    "What were the consequences of restricting herders from entering forests?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Distinguish between Reserved and Protected forests",
+     "explain": "Reserved forests produced commercial timber and barred herders completely, while Protected forests allowed limited customary rights under strict permits."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the impact of the permit system on herders",
+     "explain": "Permits strictly regulated the entry and exit times, and overstaying resulted in heavy fines."
+    }
+   ]
+  },
+  {
+   "id": "iess.305.2.2",
+   "title": "Waste Land Rules",
+   "section": "2. Colonial Rule and Pastoral Life",
+   "definition": "Mid-nineteenth-century colonial regulations aimed at converting uncultivated grazing lands into revenue-generating agricultural fields.",
+   "formula": "",
+   "key_idea": "Colonial state viewed uncultivated land as unproductive waste because it yielded no land revenue.",
+   "textbook_ref": "iess305.txt lines 195-219",
+   "question_patterns": [
+    "What were the Waste Land Rules enacted by the British?",
+    "Why did the colonial state want to transform grazing lands into cultivated farms?",
+    "How did the expansion of cultivation affect pastoralists?",
+    "Why did colonial officials view uncultivated land as waste land?",
+    "Explain the impact of Waste Land Rules on traditional pastures."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the colonial view on uncultivated land",
+     "explain": "British officials believed uncultivated land was unproductive because it did not yield agricultural produce or land revenue."
+    },
+    {
+     "step": 2,
+     "action": "Describe the consequences of converting waste land to farms",
+     "explain": "Grazing tracts were taken over and given to individuals for cultivation, causing a severe shortage of pastures."
+    }
+   ]
+  },
+  {
+   "id": "iess.305.2.3",
+   "title": "Criminal Tribes Act",
+   "section": "2. Colonial Rule and Pastoral Life",
+   "definition": "An 1871 British legislative act that classified nomadic communities, including herders and mobile traders, as criminal by birth and restricted them to fixed settlements.",
+   "formula": "",
+   "key_idea": "Colonial preference for a settled, easily taxable, and controllable population over mobile groups.",
+   "textbook_ref": "iess305.txt lines 266-285",
+   "question_patterns": [
+    "What was the Criminal Tribes Act of 1871?",
+    "Why did the British colonial government distrust nomadic people?",
+    "How did the Criminal Tribes Act affect nomadic pastoralists and craftsmen?",
+    "What restrictions were placed on communities notified under the Criminal Tribes Act?",
+    "Why did the colonial state prefer a settled population over mobile groups?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the colonial rationale behind the Criminal Tribes Act",
+     "explain": "The British distrusted mobile populations because they were difficult to identify, monitor, and tax."
+    },
+    {
+     "step": 2,
+     "action": "Detail the restrictions imposed on notified tribes",
+     "explain": "Communities were forced to live in registered settlements and could not move out without official permits."
+    }
+   ]
+  },
+  {
+   "id": "iess.305.2.4",
+   "title": "Grazing Tax Calculation",
+   "section": "2. Colonial Rule and Pastoral Life",
+   "definition": "A colonial tax levied on pastoralists for every head of cattle or animal they grazed on public pastures.",
+   "formula": "total_tax = tax_per_head * cattle_count",
+   "key_idea": "Maximizing state revenue by taxing the livestock of nomadic herders.",
+   "textbook_ref": "iess305.txt lines 286-305",
+   "question_patterns": [
+    "Calculate the total grazing tax paid by a herder.",
+    "What is the total tax for a pastoralist grazing a herd of animals?",
+    "Find the total grazing tax given the tax per animal and the number of cattle.",
+    "How much grazing tax does a herder pay for their livestock?",
+    "Compute the grazing tax for a herd of size cattle_count at a rate of tax_per_head."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply the number of cattle by the tax rate per head",
+     "explain": "The total grazing tax is calculated by multiplying the total number of animals by the tax rate charged per animal.",
+     "compute": "total_tax = cattle_count * tax_per_head"
+    }
+   ]
+  },
+  {
+   "id": "iess.305.3.1",
+   "title": "Maasai Land Area After Loss",
+   "section": "3.1 Where have the Grazing Lands Gone?",
+   "definition": "The calculation of remaining grazing land after colonial boundaries and white settlements alienated a percentage of the original Maasai territory.",
+   "formula": "remaining_land = original_land * (100 - percent_lost) / 100",
+   "key_idea": "Colonial partition and game reserves reduced Maasai grazing lands by a specific percentage (typically 60%).",
+   "textbook_ref": "iess305.txt lines 350-395",
+   "question_patterns": [
+    "Calculate the remaining land area of the Maasai after losing a percentage of their territory.",
+    "What is the remaining grazing land of the Maasai if they lost a portion of their original land?",
+    "Find the area of land left with the Maasai herders.",
+    "How much land remains for grazing after a percentage loss?",
+    "Compute the remaining land area from original land and the percentage of land lost."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the percentage of land retained",
+     "explain": "Subtract the percentage of land lost from 100 to find the percentage of land that remains.",
+     "compute": "percent_kept = 100 - percent_lost"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the remaining land area",
+     "explain": "Multiply the original land area by the percentage kept and divide by 100.",
+     "compute": "remaining_land = original_land * percent_kept / 100"
+    }
+   ]
+  },
+  {
+   "id": "iess.305.3.4",
+   "title": "Social Stratification in Maasai Society",
+   "section": "3.4 Not All were Equally Affected",
+   "definition": "The division of Maasai society into elders and warriors in pre-colonial times, which was disrupted by British administrative policies appointing chiefs and creating wealth disparities.",
+   "formula": "",
+   "key_idea": "Colonial rule weakened traditional age-based authority and introduced a new class divide between rich and poor pastoralists.",
+   "textbook_ref": "iess305.txt lines 460-520",
+   "question_patterns": [
+    "How was Maasai society divided in pre-colonial times?",
+    "What roles did elders and warriors play in Maasai society?",
+    "How did British colonial policies affect the traditional authority of Maasai elders and warriors?",
+    "Explain the emergence of a new distinction between wealthy and poor pastoralists in Maasai society.",
+    "What was the impact of appointing chiefs on the Maasai community?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze the pre-colonial structure of Maasai society",
+     "explain": "Society was divided into elders (who made community decisions) and warriors (who protected the tribe and raided cattle)."
+    },
+    {
+     "step": 2,
+     "action": "Examine the colonial administrative changes",
+     "explain": "The British appointed chiefs for different subgroups and restricted raiding, undermining traditional authority and creating economic disparities."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex305.1",
+   "source_ref": "iess305.txt lines 286-305",
+   "concept": "iess.305.2.4",
+   "question_type": "compute",
+   "question_pattern": "A Raika herder has {cattle_count} head of sheep. If the colonial government charges a grazing tax of {tax_per_head} rupees per head of sheep, what is the total grazing tax paid by the herder?",
+   "extracted_variables": {
+    "cattle_count": 150,
+    "tax_per_head": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply the number of cattle by the tax rate per head",
+     "explain": "The total grazing tax is calculated by multiplying the total number of animals by the tax rate charged per animal.",
+     "compute": "total_tax = cattle_count * tax_per_head"
+    }
+   ]
+  },
+  {
+   "id": "ex305.2",
+   "source_ref": "iess305.txt lines 286-305",
+   "concept": "iess.305.2.4",
+   "question_type": "compute",
+   "question_pattern": "Calculate the total grazing tax for a Gaddi shepherd who owns {cattle_count} goats, with a grazing tax rate of {tax_per_head} rupees per animal.",
+   "extracted_variables": {
+    "cattle_count": 80,
+    "tax_per_head": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply the number of cattle by the tax rate per head",
+     "explain": "The total grazing tax is calculated by multiplying the total number of animals by the tax rate charged per animal.",
+     "compute": "total_tax = cattle_count * tax_per_head"
+    }
+   ]
+  },
+  {
+   "id": "ex305.3",
+   "source_ref": "iess305.txt lines 350-395",
+   "concept": "iess.305.3.1",
+   "question_type": "compute",
+   "question_pattern": "Before colonial rule, the Maasai community had {original_land} square kilometers of grazing land. If they lost {percent_lost} percent of their land to white settlements and game reserves, how many square kilometers of grazing land remained?",
+   "extracted_variables": {
+    "original_land": 15000,
+    "percent_lost": 60
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the percentage of land retained",
+     "explain": "Subtract the percentage of land lost from 100 to find the percentage of land that remains.",
+     "compute": "percent_kept = 100 - percent_lost"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the remaining land area",
+     "explain": "Multiply the original land area by the percentage kept and divide by 100.",
+     "compute": "remaining_land = original_land * percent_kept / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex305.4",
+   "source_ref": "iess305.txt lines 350-395",
+   "concept": "iess.305.3.1",
+   "question_type": "compute",
+   "question_pattern": "A pastoral reserve originally spanned {original_land} square kilometers. Due to the creation of a national park, the herders lost {percent_lost} percent of this land. Calculate the remaining land area available to them.",
+   "extracted_variables": {
+    "original_land": 8000,
+    "percent_lost": 45
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the percentage of land retained",
+     "explain": "Subtract the percentage of land lost from 100 to find the percentage of land that remains.",
+     "compute": "percent_kept = 100 - percent_lost"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the remaining land area",
+     "explain": "Multiply the original land area by the percentage kept and divide by 100.",
+     "compute": "remaining_land = original_land * percent_kept / 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex305.ex",
+   "source_ref": "iess305.txt lines 530-550",
+   "questions": [
+    "Explain why nomadic tribes need to move from one place to another. What are the advantages to the environment of this continuous movement?",
+    "Discuss why the colonial government in India brought in Waste Land rules, Forest Acts, Criminal Tribes Act, and Grazing Tax. In each case, explain how the law changed the lives of pastoralists.",
+    "Give reasons to explain why the Maasai community lost their grazing lands.",
+    "There are many similarities in the way in which the modern world forced changes in the lives of pastoral communities in India and East Africa. Write about any two examples of changes which were similar for Indian pastoralists and the Maasai herders."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "title-matched to new cache"
+}

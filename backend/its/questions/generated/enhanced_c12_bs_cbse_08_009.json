@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_08_009",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_08_009",
+   "title": "c12_bs_cbse_08_009",
+   "questions": [
+    {
+     "q": "Define Management by Exception in one sentence.",
+     "a": "Management by Exception is a control principle where only significant deviations beyond permissible limits are reported to top management, while routine deviations are handled at lower levels. A wrong answer like \"ignoring small problems\" reveals the misconception that minor deviations are neglected entirely, whereas they are actually managed by subordinates without top management involvement.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the statement \"An effort to control everything may end up in controlling nothing\" is the foundation of Management by Exception.",
+     "a": "When managers try to monitor every minor activity, they spread their attention too thin, causing information overload and delayed responses to critical issues. By focusing only on exceptions, managers allocate scarce cognitive resources to high-impact deviations. A wrong answer that says \"it's impossible to control everything\" misses the nuance: the principle is about *optimal allocation of managerial attention*, not just impossibility.",
+     "self_check": true
+    },
+    {
+     "q": "A factory sets a standard output of 1,000 units/day with a permissible deviation of ±50 units. Actual output for five days: 980, 1,020, 940, 1,010, 960. On which days should the deviation be reported to the plant manager under Management by Exception?",
+     "a": "Permissible range: 950 to 1,050 units. Days with output 940 (Day 3) falls below 950, so only Day 3 should be reported. Days 980, 1020, 1010, 960 are within range and handled by the shift supervisor. A wrong answer reporting all days below 1000 shows failure to apply the permissible range concept.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Management by Exception with Critical Point Control. How are they similar and how do they differ?",
+     "a": "Both focus managerial attention on significant areas. Critical Point Control identifies *key result areas (KRAs)* beforehand (e.g., labor cost, machine downtime) and monitors them continuously. Management by Exception sets *permissible deviation limits* for any standard and triggers action only when limits are breached. A wrong answer treating them as identical misses that Critical Point Control is about *where* to look, while Management by Exception is about *when* to act.",
+     "self_check": true
+    },
+    {
+     "q": "A marketing manager receives weekly sales reports from 20 territories. She decides to review only those territories where sales drop more than 15% below target. Evaluate whether this is an effective application of Management by Exception. Justify your answer.",
+     "a": "Yes, provided the 15% threshold was set based on historical variability and strategic importance. It filters out noise and directs her to territories needing intervention. However, if the threshold is arbitrary (e.g., not aligned with profit impact) or if she ignores *positive* exceptions (sales exceeding target by 15% for best-practice sharing), the application is incomplete. A wrong answer saying \"yes, because it saves time\" ignores the need for scientifically set limits and two-way exception handling.",
+     "self_check": true
+    },
+    {
+     "q": "Design a Management by Exception control system for a small restaurant chain (5 outlets) monitoring three key parameters: food cost %, customer wait time, and hygiene audit score. Specify standards, permissible ranges, reporting frequency, and who receives exception reports.",
+     "a": "Example design: Standard food cost 30% ±2% (report to owner if >32% or <28%); wait time 15 min ±5 min (report to regional manager if >20 min); hygiene score 90/100 ±5 (report to owner if <85). Weekly automated POS reports flag exceptions; outlet managers handle within-range issues. A poor answer lacks specific numbers, permissible ranges, or clear escalation hierarchy, showing inability to translate the principle into operational design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_07_011",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_07_011",
+   "title": "c11_ip_cbse_07_011",
+   "questions": [
+    {
+     "q": "What is the result of COUNT(*) versus COUNT(Price) on a table with 10 rows where 3 rows have NULL in the Price column?",
+     "a": "COUNT(*) returns 10 because it counts all rows regardless of NULLs. COUNT(Price) returns 7 because it counts only non-NULL values in the Price column. A wrong answer (e.g., both return 10) reveals the student thinks COUNT ignores NULLs universally or confuses the two syntaxes.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why AVG(Price) on a column with values (100, 200, NULL, 300) returns 200 and not 150.",
+     "a": "AVG ignores NULL, so it sums 100+200+300 = 600 and divides by 3 (non-NULL count), giving 200. A wrong answer of 150 (600/4) shows the student incorrectly includes NULL as zero in the average calculation.",
+     "self_check": true
+    },
+    {
+     "q": "Write a query to find the total revenue from a SALES table with columns Price and Quantity, but only for items where Quantity > 5.",
+     "a": "SELECT SUM(Price * Quantity) FROM SALES WHERE Quantity > 5;  \nSteps: 1) Filter rows with WHERE Quantity > 5. 2) Compute Price*Quantity per row. 3) Sum the products. A wrong answer using SUM(Price)*SUM(Quantity) or placing the condition after SUM reveals misunderstanding of row-wise filtering vs. aggregate filtering.",
+     "self_check": true
+    },
+    {
+     "q": "A table has 100 rows. MAX(Score) = 95, MIN(Score) = 10. After inserting a new row with Score = NULL, what are the new MAX and MIN? What if the new row has Score = 105?",
+     "a": "NULL is ignored, so MAX and MIN remain 95 and 10. With Score = 105, MAX becomes 105, MIN stays 10. A wrong answer claiming NULL changes MAX/MIN shows the student thinks NULL is treated as zero or negative infinity.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this query: SELECT SUM(Price), AVG(Price) FROM PRODUCTS WHERE Price > AVG(Price); Why does it fail, and how would you fix it?",
+     "a": "Aggregate functions cannot be used in WHERE clause because WHERE filters rows before aggregation. The query fails with \"invalid use of group function\". Fix: Use a subquery or HAVING (after GROUP BY). A student who suggests moving AVG to HAVING without GROUP BY reveals confusion about HAVING's dependency on grouping.",
+     "self_check": true
+    },
+    {
+     "q": "Design a single query on a STUDENTS table (columns: Name, Math, Science, English) that outputs: number of students, average total marks per student, highest total marks, and lowest total marks. Total marks = Math+Science+English.",
+     "a": "SELECT COUNT(*), AVG(Math+Science+English), MAX(Math+Science+English), MIN(Math+Science+English) FROM STUDENTS;  \nA poor answer uses separate queries or tries to aggregate each subject separately, showing inability to compose expressions inside aggregate functions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

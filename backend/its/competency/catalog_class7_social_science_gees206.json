@@ -1,0 +1,210 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 6,
+ "chapter_title": "The State, the Government, and You",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gees206.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gees2.6.1",
+   "title": "The State and the Government",
+   "section": "Introduction",
+   "definition": "The state is the permanent political community with its territory, people and institutions; the government is only its temporary crew, elected or appointed for a time to run the state's affairs.",
+   "formula": "state = people + territory + institutions; government = the team in office",
+   "key_idea": "Governments come and go, the state remains: criticising a party is not attacking the country.",
+   "textbook_ref": "gees206.txt, Introduction",
+   "question_patterns": [
+    "what is the difference between a state and a government",
+    "why does the state continue when governments change",
+    "what are the elements of a state",
+    "who said the greatest punishment is to be ruled by someone worse",
+    "how do citizens change a government without harming the state",
+    "give an example of government changing while the state continues"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set the two sides",
+     "explain": "Write the two ideas, places or periods side by side."
+    },
+    {
+     "step": 2,
+     "action": "mark what differs",
+     "explain": "Note the points on which they differ and one point they share."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State in one line what the comparison teaches."
+    }
+   ]
+  },
+  {
+   "id": "gees2.6.2",
+   "title": "The State's Rulebook: An RWA Example",
+   "section": "Rulebook example",
+   "definition": "The chapter uses a Resident Welfare Association: its rulebook decides how the committee is elected, how funds are spent and how disputes are heard; a constitution plays the same role for the state.",
+   "formula": "",
+   "key_idea": "Small societies need written rules; a huge state cannot function without one supreme rulebook.",
+   "textbook_ref": "gees206.txt, Rulebook example",
+   "question_patterns": [
+    "what can the rulebook of a resident welfare association teach us",
+    "why does every association need a rulebook",
+    "what happens when a committee ignores its rulebook",
+    "how is a constitution like a rulebook for the state",
+    "who follows the rulebook in an association",
+    "write two rules your school association should have"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  },
+  {
+   "id": "gees2.6.3",
+   "title": "Levels of Government",
+   "section": "Levels",
+   "definition": "India's government works at three levels, the Union at the centre, states, and local bodies in villages and cities; each level has its own powers and all play different, complementary roles.",
+   "formula": "levels = union + state + local",
+   "key_idea": "A subcontinent-sized democracy divides its work: big questions to the centre, local drains to the local body.",
+   "textbook_ref": "gees206.txt, Levels",
+   "question_patterns": [
+    "name the three levels of government in india",
+    "which subjects does the union government handle",
+    "what work do state governments do",
+    "how do local bodies share the state's tasks",
+    "why does governance need many levels",
+    "give one example of work at each level of government"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  },
+  {
+   "id": "gees2.6.4",
+   "title": "Your Part in the State",
+   "section": "Citizens and the state",
+   "definition": "The state is not someone else: every citizen pays taxes, follows just laws, votes, questions wrongs and can serve; Socrates' warning that shirking rule leaves you ruled by worse men calls citizens to participate.",
+   "formula": "",
+   "key_idea": "Democracy hands the state to its citizens: stepping back is also a choice, with its own price.",
+   "textbook_ref": "gees206.txt, Citizens and the state",
+   "question_patterns": [
+    "what duties do citizens owe the state",
+    "how can a student participate in the life of the state",
+    "why does socrates warn against unwillingness to rule",
+    "what happens when good people avoid public life",
+    "how do taxes connect citizens to the state",
+    "what would you change in your locality and how"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gees206.txt",
+   "concept": "gees2.6.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why does Socrates call unwillingness to rule a punishable fault?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the warning",
+     "explain": "If the good refuse public duty, power falls to those who seek it for themselves."
+    },
+    {
+     "step": 2,
+     "action": "draw the civic lesson",
+     "explain": "Participation is not optional in a democracy: each step back hands the state to worse hands."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gees206.txt",
+   "concept": "gees2.6.2",
+   "question_type": "verify_property",
+   "question_pattern": "how do the different levels of government divide their work?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gees206.txt, Let us explore",
+   "questions": [
+    "What is the difference between the state and the government?",
+    "How do the different levels of government divide their work?",
+    "What does the Resident Welfare Association example teach about rulebooks?",
+    "Think of real-life situations in relation to India's government and discuss who should act.",
+    "Draft a mini rulebook for your class committee."
+   ]
+  }
+ ]
+}

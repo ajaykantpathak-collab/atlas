@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_07_012",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_07_012",
+   "title": "c12_cs_cbse_07_012",
+   "questions": [
+    {
+     "q": "What is the minimum number of 2-input NAND gates required to implement a 2-input AND gate, and what is the configuration?",
+     "a": "Two NAND gates: the first NAND gate takes inputs A and B and produces (A·B)'; the second NAND gate has both its inputs tied to this output, acting as an inverter to produce ((A·B)')' = A·B. A wrong answer of \"one NAND gate\" reveals the student confuses NAND with AND and does not understand that NAND output is inverted; an answer of \"three or more\" suggests they overcomplicate by adding unnecessary inverters.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a NAND gate with both inputs shorted together functions as a NOT gate, using the truth table of NAND.",
+     "a": "When both inputs of a NAND gate are tied to the same signal X, the NAND truth table gives output (X·X)' = X' because X·X = X (idempotent law). The student who says \"it becomes an AND gate\" or \"output is always 1\" shows they have not applied the idempotent law or have misremembered the NAND truth table; the correct reasoning connects the physical shorting of inputs to the algebraic simplification X·X = X.",
+     "self_check": true
+    },
+    {
+     "q": "Using only 2-input NAND gates, draw the circuit and write the Boolean expression for a 2-input OR gate. Show each De Morgan step.",
+     "a": "OR gate: Y = A + B. By De Morgan: A + B = (A'·B')'. Implementation: (1) Two NAND gates as inverters: NAND1 (A,A) → A', NAND2 (B,B) → B'. (2) Third NAND gate takes A' and B' → (A'·B')' = A + B. Total 3 NAND gates. A student who draws 2 NAND gates or uses a NOR gate in the diagram reveals they either forgot to invert both inputs before the final NAND or confused NAND/NOR universality.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the NAND-only and NOR-only implementations of a 2-input XOR gate in terms of gate count and circuit depth. Which is more efficient and why?",
+     "a": "XOR = A'B + AB'. NAND-only: 4 NAND gates (standard implementation: NAND1(A,B)=C, NAND2(A,C)=D, NAND3(B,C)=E, NAND4(D,E)=XOR). NOR-only: 5 NOR gates (requires more inversions due to dual form). NAND is more efficient for XOR because XOR's natural SOP form maps directly to NAND-NAND (AND-OR-Invert) structure, while NOR favors POS forms. A student claiming equal gate counts or preferring NOR shows they have not derived both implementations or misunderstand the SOP/POS duality.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since NAND and NOR are both universal, any circuit built with NAND gates can be directly converted to an equivalent NOR circuit by simply replacing every NAND with a NOR.\" Evaluate this claim and provide a counterexample.",
+     "a": "The claim is false. Direct gate-for-gate replacement does not preserve logic function because NAND and NOR have opposite polarities (NAND = (AB)', NOR = (A+B)'). Counterexample: A 2-input AND implemented as two NANDs (NAND followed by NAND-inverter). Replacing each NAND with NOR gives NOR followed by NOR-inverter = (A+B)'' = A+B (OR), not AND. Correct conversion requires applying De Morgan's theorems to the entire expression and re-synthesizing. A student who agrees with the claim confuses functional equivalence with structural substitution.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-input majority function (output 1 if at least two inputs are 1) using only 2-input NAND gates. Provide the simplified Boolean expression, the NAND-only circuit diagram, and the total gate count.",
+     "a": "Majority(A,B,C) = AB + BC + CA. Simplified SOP. NAND-NAND implementation: (1) Three NAND gates for AB, BC, CA (each NAND + inverter = 2 NANDs per product, but we can use NAND-NAND directly: first level NANDs produce (AB)', (BC)', (CA)'; second level NAND takes these three → ((AB)'(BC)'(CA)')' = AB+BC+CA by De Morgan). However, 2-input NAND cannot take 3 inputs directly, so we need a tree: NAND1(A,B)→(AB)', NAND2(B,C)→(BC)', NAND3(C,A)→(CA)', NAND4((AB)',(BC)')→((AB)'(BC)')' = AB+BC, NAND5((AB+BC), (CA)')→((AB+BC)'(CA)')' = AB+BC+CA. Total 5 NAND gates (with 2-input constraint). A student giving gate count 4 or using 3-input NANDs reveals they ignored the 2-input constraint or misapplied De Morgan.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

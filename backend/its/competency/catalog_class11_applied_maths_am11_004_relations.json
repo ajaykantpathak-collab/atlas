@@ -1,0 +1,215 @@
+{
+  "class": 11,
+  "subject": "applied_maths",
+  "chapter": 4,
+  "chapter_title": "Relations",
+  "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am11_004_relations.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "am11_004.1",
+      "title": "Ordered Pairs and Their Equality",
+      "section": "4.2",
+      "definition": "An ordered pair records two objects in a fixed sequence, so swapping the slots generally produces a different pair; two ordered pairs match only when both slots agree one by one.",
+      "formula": "a = c and b = d when (a, b) = (c, d)",
+      "key_idea": "Match first slots with first slots and second with second to read off unknowns.",
+      "textbook_ref": "am11_004_relations.txt, section 4.2, illustrations (2x, y-3) = (2, 1) and (x^2-4x, y^2-y) = (-4, 6)",
+      "question_patterns": [
+        "if the ordered pairs (2x, y - 3) and (2, 1) are equal, find x and y",
+        "find x and y when (x^2 - 4x, y^2 - y) equals (-4, 6)",
+        "are the ordered pairs (a, b) and (b, a) always different",
+        "given (k + 1, 5) = (4, m - 2) determine k and m",
+        "state the condition under which two ordered pairs are equal"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "equate the first slots", "explain": "equality of pairs forces componentwise agreement"},
+        {"step": 2, "action": "equate the second slots", "explain": "each slot now gives one equation in one unknown"},
+        {"step": 3, "action": "solve the two small equations", "explain": "quadratic slots may release more than one value"}
+      ]
+    },
+    {
+      "id": "am11_004.2",
+      "title": "Cartesian Product and Its Size",
+      "section": "4.3",
+      "definition": "The Cartesian product of two sets strings out every possible ordered pair with the first slot drawn from one set and the second from the other; its element count is the product of the two counts, and the order of the product matters.",
+      "formula": "pairs_count = p * q",
+      "key_idea": "Every element of A teams with every element of B; multiplying the sizes counts the teams.",
+      "textbook_ref": "am11_004_relations.txt, section 4.3, A = {a, b, c}, B = {1, 2} and n(A x B) = n(A) n(B)",
+      "question_patterns": [
+        "find A x B and B x A for A = {2, 3} and B = {4, 5}",
+        "if n(A) = 3 and n(B) = 2, how many elements are in A x B",
+        "list all ordered pairs of A x B when A = {a, b, c} and B = {1, 2}",
+        "is A x B ever equal to B x A",
+        "compute n(A x B x C) when the three sets have 2, 3 and 2 elements",
+        "if A x B contains (a, x), (a, y), (b, x), (b, y), identify the sets A and B"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "multiply the two counts", "explain": "each of the p choices pairs with each of the q choices", "compute": "pairs_count = p * q"},
+        {"step": 2, "action": "extend to a triple product", "explain": "a third set multiplies once more", "compute": "triples_count = p * q * r"}
+      ]
+    },
+    {
+      "id": "am11_004.3",
+      "title": "Counting Subsets and Relations of a Product",
+      "section": "4.3-4.4",
+      "definition": "Every relation from A to B is a subcollection of the pairs in A x B, so the number of possible relations equals the number of subsets of A x B, obtained by doubling once per pair.",
+      "formula": "rel_count = 2**(p * q)",
+      "key_idea": "Count the pairs first, then double that many times for the subset total.",
+      "textbook_ref": "am11_004_relations.txt, section 4.4 note: total relations from A to B are 2^pq; illustration n(A) = 3 gives 2^9",
+      "question_patterns": [
+        "find the number of relations from a set A to itself when n(A) = 3",
+        "how many relations can be defined from A to B if n(A) = 2 and n(B) = 3",
+        "count the subsets of A x B when A = {2, 3} and B = {4, 5}",
+        "if A x B has 12 ordered pairs, how many relations from A to B exist",
+        "a set has 4 elements; how many relations on it are possible"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "multiply the set sizes", "explain": "the product set holds p times q pairs", "compute": "pairs_count = p * q"},
+        {"step": 2, "action": "raise two to the pair count", "explain": "each pair is in or out of a relation, doubling the options", "compute": "rel_count = 2**pairs_count"}
+      ]
+    },
+    {
+      "id": "am11_004.4",
+      "title": "Relations with Domain, Range and Co-domain",
+      "section": "4.4",
+      "definition": "A relation from A to B picks out some of the pairs of A x B through a stated condition; the first slots actually used form the domain, the second slots form the range, and the whole target set B stands by as the co-domain.",
+      "formula": "domain = {x : (x, y) sits in R}",
+      "key_idea": "The range can never spill outside the co-domain.",
+      "textbook_ref": "am11_004_relations.txt, section 4.4, relation x > y on A = {1, ..., 6}",
+      "question_patterns": [
+        "write R = {(x, y) : x > y} on A = {1, 2, 3, 4, 5, 6} in roster form",
+        "state the domain, range and co-domain of the relation x > y on the set {1, ..., 6}",
+        "define a relation from A = {a, b, c} to fruits of B by first letter and list its pairs",
+        "is the range of a relation always equal to its co-domain",
+        "draw the arrow diagram of R = {(2, 1), (3, 1), (4, 2)} and read off its domain and range"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "test each candidate pair against the condition", "explain": "keep exactly the pairs that satisfy it"},
+        {"step": 2, "action": "collect the first slots of the kept pairs", "explain": "this collection is the domain"},
+        {"step": 3, "action": "collect the second slots", "explain": "this collection is the range, a subset of the co-domain"}
+      ]
+    },
+    {
+      "id": "am11_004.5",
+      "title": "Reflexive, Symmetric, Transitive and Equivalence Relations",
+      "section": "4.5",
+      "definition": "A relation on a set is reflexive when every element pairs with itself, symmetric when every pair can be reversed, and transitive when two chained pairs imply the shortcut pair; a relation holding all three traits is an equivalence relation.",
+      "formula": "reflexive_plus_symmetric_plus_transitive = equivalence",
+      "key_idea": "Test three habits in order: self-pairs, reversibility, and chain-closing.",
+      "textbook_ref": "am11_004_relations.txt, section 4.5, triangles similar example and 3 divides a - b on Z",
+      "question_patterns": [
+        "show that R = {(a, b) : 3 divides a - b} is an equivalence relation on the set of integers",
+        "check whether the relation y is divisible by x on S = {1, 2, 3, 4, 5} is reflexive, symmetric or transitive",
+        "is the relation L1 perpendicular L2 on plane lines symmetric or transitive",
+        "show that similarity of triangles is an equivalence relation",
+        "give a relation on X = {1, 2, 3, 4} that is symmetric and transitive but not reflexive",
+        "show that set inclusion on a power set is reflexive and transitive but not symmetric"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "check that (a, a) belongs to R for each element", "explain": "a single missing self-pair kills reflexivity"},
+        {"step": 2, "action": "reverse an arbitrary pair and test membership", "explain": "one counterexample destroys symmetry"},
+        {"step": 3, "action": "chain two pairs and test the shortcut", "explain": "transitivity needs (a, c) whenever (a, b) and (b, c) both hold"},
+        {"step": 4, "action": "declare equivalence only when all three pass", "explain": "the three properties together define an equivalence relation"}
+      ]
+    },
+    {
+      "id": "am11_004.6",
+      "title": "Functions as Unique-Image Relations",
+      "section": "4.5 Functions",
+      "definition": "A function is a relation that deals every domain element exactly one partner: nobody in the domain may be left without an image, and no domain element may split its image between two targets.",
+      "formula": "function = one image per domain element",
+      "key_idea": "Two failures to watch: an empty arrow and a forked arrow from the same domain point.",
+      "textbook_ref": "am11_004_relations.txt, Functions part, arrow diagram examples with R = {(2,1),(3,2),(4,1),(5,2),(3,3)}",
+      "question_patterns": [
+        "is R = {(2, 1), (3, 2), (4, 1), (5, 2), (3, 3)} a function from its domain to its range",
+        "examine whether R = {(1, 1), (1, 2), (1, 3)} is a function",
+        "why is R = {(1, 2), (2, 3), (3, 4), (4, 5)} a function",
+        "in an arrow diagram how do you spot a relation that is not a function",
+        "is every relation a function, justify with an example"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "list the distinct first elements of the relation", "explain": "these are the domain candidates"},
+        {"step": 2, "action": "check each first element has at least one partner", "explain": "a missing image disqualifies the relation"},
+        {"step": 3, "action": "check no first element has two partners", "explain": "a forked image disqualifies the relation"},
+        {"step": 4, "action": "call it a function only if both checks pass", "explain": "unique image for every domain element"}
+      ]
+    },
+    {
+      "id": "am11_004.7",
+      "title": "Domain and Range of Simple Real Functions",
+      "section": "4.5 Functions",
+      "definition": "For a formula-defined function, the domain collects every real input that keeps the formula meaningful, while the range collects the outputs actually produced; squaring accepts all reals and never outputs a negative, and reciprocals refuse zero.",
+      "formula": "y = x**2 gives y >= 0",
+      "key_idea": "Ban inputs that divide by zero; watch which outputs the rule can actually reach.",
+      "textbook_ref": "am11_004_relations.txt, Functions part, domain and range of f(x) = x^2 and f(x) = 1/x",
+      "question_patterns": [
+        "find the domain and range of f(x) = x^2",
+        "find the domain and range of f(x) = 1/x",
+        "why is 0 excluded from the domain of the reciprocal function",
+        "state the range of the squaring function over the reals",
+        "which real numbers cannot enter the domain of a reciprocal function"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "scan the formula for forbidden operations", "explain": "division by zero or square roots of negatives restrict inputs"},
+        {"step": 2, "action": "collect the permitted real inputs", "explain": "this set is the domain"},
+        {"step": 3, "action": "describe the outputs the rule can produce", "explain": "this set is the range"}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "am11_004.we1",
+      "source_ref": "am11_004 section 4.3 illustration 4",
+      "concept": "am11_004.3",
+      "question_type": "compute",
+      "question_pattern": "for A = {2, 3} and B = {4, 5}, find n(A x B) and the number of subsets of A x B",
+      "extracted_variables": {"p": 2, "q": 2},
+      "solution_template": [
+        {"step": 1, "action": "multiply the set sizes", "compute": "pairs_count = p * q"},
+        {"step": 2, "action": "double once per pair", "compute": "subsets = 2**pairs_count"}
+      ]
+    },
+    {
+      "id": "am11_004.we2",
+      "source_ref": "am11_004 section 4.4 illustration 7",
+      "concept": "am11_004.3",
+      "question_type": "compute",
+      "question_pattern": "a non-empty set A has 3 elements; find the total number of relations from A to itself",
+      "extracted_variables": {"p": 3, "q": 3},
+      "solution_template": [
+        {"step": 1, "action": "size of A x A", "compute": "pairs_count = p * q"},
+        {"step": 2, "action": "relations are subsets of A x A", "compute": "rel_count = 2**pairs_count"}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "am11_004.ex1",
+      "source_ref": "am11_004 chapter exercise on types of relations",
+      "questions": [
+        "On S = {1, 2, 3, 4, 5}, is the relation y divisible by x reflexive, symmetric, transitive?",
+        "On the lines of a plane, is perpendicularity reflexive, symmetric, transitive?",
+        "Show that the relation a - b divisible by 2 on the integers is an equivalence relation.",
+        "Give a relation on X = {1, 2, 3, 4} that is reflexive and symmetric but not transitive.",
+        "If R1 and R2 are equivalence relations on A, argue that their intersection is also an equivalence relation."
+      ]
+    },
+    {
+      "id": "am11_004.ex2",
+      "source_ref": "am11_004 Functions part examples",
+      "questions": [
+        "Decide which of R = {(2,1),(3,2),(4,1),(5,2),(3,3)}, {(1,2),(2,3),(3,4),(4,5)}, {(1,1),(2,1),(3,1),(4,1)}, {(1,1),(1,2),(1,3)} are functions.",
+        "Find the domain and range of f(x) = x squared.",
+        "Find the domain and range of f(x) = 1 over x.",
+        "If A x B = {(a,x),(a,y),(b,x),(b,y)}, find A and B and n(A x B)."
+      ]
+    }
+  ]
+}

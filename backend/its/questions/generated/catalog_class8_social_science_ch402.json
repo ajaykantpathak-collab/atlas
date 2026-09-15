@@ -1,0 +1,225 @@
+{
+ "catalog": "catalog_class8_social_science_ch402",
+ "concepts": [
+  {
+   "id": "hess.402.1",
+   "title": "Land Resource and Ownership Classification",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Land Resource and Ownership Classification' refers to.",
+     "a": "Land constitutes the terrestrial surface utilized for farming, forestry, industry, and settlements, categorized into individual holdings and community property based on ownership.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Land Resource and Ownership Classification'.",
+     "a": "Physical factors and human needs govern land usage while ownership delineates private versus collective access rights.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Land Resource and Ownership Classification' taught, and from which source text?",
+     "a": "Land and Land Use (source: hess402.txt lines 25-75)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.402.2",
+   "title": "Landslides and Hazard Mitigation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Landslides and Hazard Mitigation' refers to.",
+     "a": "A sudden down-slope movement of rock, soil, or earth debris, commonly triggered by heavy rain, seismic activity, volcanic eruptions, or slope excavation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Landslides and Hazard Mitigation'.",
+     "a": "Hazard mapping, retention walls, vegetation cover, and drainage management prevent and control landslide damage.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Landslides and Hazard Mitigation' taught, and from which source text?",
+     "a": "Landslides (source: hess402.txt lines 90-130)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.402.3",
+   "title": "Soil Profile and Horizons",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Soil Profile and Horizons' refers to.",
+     "a": "The thin layer of weathered mineral particles and decomposed organic material covering the Earth, organized in distinct vertical layers from topsoil to parent bedrock.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Soil Profile and Horizons'.",
+     "a": "The balanced mixture of minerals and organic content dictates topsoil fertility across profile layers.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Soil Profile and Horizons' taught, and from which source text?",
+     "a": "Soil (source: hess402.txt lines 135-165)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.402.4",
+   "title": "Factors Governing Soil Formation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Factors Governing Soil Formation' refers to.",
+     "a": "The characteristics and rate of soil development shaped by parent rock properties, local climate, terrain slope, organic activity, and duration of weathering.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Factors Governing Soil Formation'.",
+     "a": "Parent rock and regional climatic conditions act as the dominant factors in determining soil characteristics.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Factors Governing Soil Formation' taught, and from which source text?",
+     "a": "Factors of Soil Formation (source: hess402.txt lines 166-190)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.402.5",
+   "title": "Soil Degradation and Conservation Methods",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Soil Degradation and Conservation Methods' refers to.",
+     "a": "The reduction in soil quality and removal of topsoil caused by wind or water erosion, mitigated through physical barriers and sustainable agricultural practices.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Soil Degradation and Conservation Methods'.",
+     "a": "Combining slope modification, vegetation barriers, and crop rotation protects vulnerable topsoil from erosion.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Soil Degradation and Conservation Methods' taught, and from which source text?",
+     "a": "Degradation of Soil and Conservation Measures (source: hess402.txt lines 191-235)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.402.6",
+   "title": "Freshwater Distribution and Household Volume Calculation",
+   "questions": [
+    {
+     "q": "Calculate the total water requirement for a family over a given number of days. Use the method 'Freshwater Distribution and Household Volume Calculation'. Work with: days = 100, family_members = 256, per_capita_litres = 20. Carry the chain through step by step and give the final value of total_water.",
+     "a": "512000 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the volume of water used by a household given daily per person consumption. Use the method 'Freshwater Distribution and Household Volume Calculation'. Work with: days = 25, family_members = 2048, per_capita_litres = 50. Carry the chain through step by step and give the final value of total_water.",
+     "a": "2560000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Freshwater Distribution and Household Volume Calculation' refers to.",
+     "a": "The estimation of aggregate freshwater volume consumed by a population over a given period based on per capita daily consumption rate.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Freshwater Distribution and Household Volume Calculation'.",
+     "a": "Total water requirement scales directly with individual daily allowance, family size, and duration.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Freshwater Distribution and Household Volume Calculation', in plain ASCII form.",
+     "a": "total_water = per_capita_litres * family_members * days",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.402.7",
+   "title": "Water Pollution and Conservation Techniques",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Water Pollution and Conservation Techniques' refers to.",
+     "a": "Methods aimed at protecting water quality and maintaining supply through effluent treatment, lined canals, drip irrigation, and rainwater collection.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Water Pollution and Conservation Techniques'.",
+     "a": "Efficient irrigation, wastewater treatment, and rainwater harvesting protect scarce freshwater resources.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Water Pollution and Conservation Techniques' taught, and from which source text?",
+     "a": "Conservation of Water Resources (source: hess402.txt lines 296-340)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.402.8",
+   "title": "Biosphere and Ecosystem Interdependence",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Biosphere and Ecosystem Interdependence' refers to.",
+     "a": "The life-supporting environmental zone comprising lithosphere, hydrosphere, and atmosphere where organisms interact and depend on each other for survival.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Biosphere and Ecosystem Interdependence'.",
+     "a": "Plants, animals, and microorganisms maintain ecological stability through food chains and habitat support.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Biosphere and Ecosystem Interdependence' taught, and from which source text?",
+     "a": "Natural Vegetation and Wildlife (source: hess402.txt lines 341-385)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.402.9",
+   "title": "Global Biomes and Vegetation Types",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Global Biomes and Vegetation Types' refers to.",
+     "a": "The grouping of world plant communities into forests, grasslands, scrubs, and tundra based on regional temperature and moisture levels.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Global Biomes and Vegetation Types'.",
+     "a": "Precipitation and thermal conditions dictate plant size, canopy density, and evolutionary adaptations.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Global Biomes and Vegetation Types' taught, and from which source text?",
+     "a": "Distribution of Natural Vegetation (source: hess402.txt lines 386-420)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.402.10",
+   "title": "Wildlife Protection and Conservation Frameworks",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Wildlife Protection and Conservation Frameworks' refers to.",
+     "a": "Legal regulations, protected reserves, and international agreements established to protect species from habitat destruction and illegal poaching.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Wildlife Protection and Conservation Frameworks'.",
+     "a": "National parks, biosphere reserves, and global conventions like CITES protect biodiversity from human threats.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Wildlife Protection and Conservation Frameworks' taught, and from which source text?",
+     "a": "Conservation of Natural Vegetation and Wildlife (source: hess402.txt lines 421-485)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

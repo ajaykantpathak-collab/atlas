@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_04_008",
+   "title": "c11_math_cbse_04_008",
+   "questions": [
+    {
+     "q": "State the Principle of Mathematical Induction in your own words, clearly distinguishing between the base case and the inductive step. What is the inductive hypothesis?",
+     "a": "The Principle of Mathematical Induction: To prove a statement P(n) for all natural numbers n, (1) prove P(1) is true (base case); (2) assume P(k) is true for some arbitrary k ∈ ℕ (inductive hypothesis), then prove P(k+1) is true using this assumption. If both hold, P(n) is true for all n ∈ ℕ. A wrong answer reveals the student confuses the inductive hypothesis with the conclusion, or thinks we assume P(n) for all n, or omits the base case entirely.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"To prove 1² + 2² + ... + n² = n(n+1)(2n+1)/6 by induction, I will assume the formula is true for n = k+1 and then show it works for n = k.\" Why is this reasoning flawed? Explain the correct logical direction.",
+     "a": "The student reverses the logical implication. Induction requires proving P(k) ⇒ P(k+1), i.e., assuming truth for k and deducing truth for k+1. Assuming P(k+1) and deriving P(k) proves the converse, which does not establish the chain from the base case upward. A wrong answer reveals the student does not understand the directional nature of the inductive step and the role of the base case as the starting point of the chain.",
+     "self_check": true
+    },
+    {
+     "q": "Prove by mathematical induction that 3^(2n) - 1 is divisible by 8 for all n ∈ ℕ. Show all steps clearly.",
+     "a": "**Base Case (n=1):** 3^(2×1) - 1 = 9 - 1 = 8, which is divisible by 8. ✓\n**Inductive Hypothesis:** Assume for n=k: 3^(2k) - 1 = 8m for some integer m.\n**Inductive Step (n=k+1):** 3^(2(k+1)) - 1 = 3^(2k+2) - 1 = 9·3^(2k) - 1.\nRewrite using hypothesis: 3^(2k) = 8m + 1.\nThen 9(8m + 1) - 1 = 72m + 9 - 1 = 72m + 8 = 8(9m + 1).\nSince 9m+1 is an integer, the expression is divisible by 8.\nThus P(k+1) holds. By induction, true for all n ∈ ℕ.\nA wrong answer reveals errors in algebraic manipulation (e.g., not substituting the hypothesis correctly) or failing to express the final result as 8 × (integer).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the inductive proofs for \"sum of first n odd numbers = n²\" and \"2ⁿ > n² for n ≥ 5\". Identify two structural differences in how the inductive step is handled.",
+     "a": "1. **Nature of statement**: The sum formula is an equality; the inequality requires preserving the direction (>) while adding terms. 2. **Base case**: The sum formula uses n=1; the inequality uses n=5 because it's false for n=1,2,3,4. 3. **Inductive step**: For the sum, we add (2k+1) to both sides of P(k). For the inequality, we multiply P(k) by 2 (since 2^(k+1) = 2·2^k) and then prove 2·k² > (k+1)² for k≥5, which requires an auxiliary inequality proof. A poor answer shows the student treats all inductions identically without adapting to the statement type.",
+     "self_check": true
+    },
+    {
+     "q": "A student's proof for \"n(n+1)(n+2) is divisible by 6\" has this inductive step:\n\"Assume k(k+1)(k+2) = 6m. Then (k+1)(k+2)(k+3) = (k+1)(k+2)k + 3(k+1)(k+2) = 6m + 3(k+1)(k+2). Since (k+1)(k+2) is even, 3(k+1)(k+2) is divisible by 6. Hence proved.\"\nEvaluate this proof: Is it complete and correct? Justify.",
+     "a": "The proof is **correct and complete**. The student correctly uses the inductive hypothesis, expands (k+1)(k+2)(k+3) as k(k+1)(k+2) + 3(k+1)(k+2), substitutes 6m, and then argues that 3(k+1)(k+2) is divisible by 6 because (k+1)(k+2) is a product of two consecutive integers, hence even, making the product a multiple of 6. This shows P(k+1) is a sum of two multiples of 6. A wrong evaluation would miss the justification that (k+1)(k+2) is even, or claim the proof is incomplete without explicitly stating \"sum of two multiples of 6 is a multiple of 6\".",
+     "self_check": true
+    },
+    {
+     "q": "Create a new statement P(n) involving a trigonometric sum that can be proved by induction, and write the base case P(1) and the inductive hypothesis P(k). Do not perform the full inductive step.",
+     "a": "Example: P(n): sin x + sin 2x + ... + sin nx = (sin(nx/2) sin((n+1)x/2)) / sin(x/2), for x ≠ 2mπ.\nBase case P(1): LHS = sin x; RHS = (sin(x/2) sin(x)) / sin(x/2) = sin x. ✓\nInductive hypothesis P(k): Assume sin x + sin 2x + ... + sin kx = (sin(kx/2) sin((k+1)x/2)) / sin(x/2).\nA poor answer gives a non-trigonometric statement, or a trigonometric identity that doesn't have a natural inductive structure (e.g., sin²x + cos²x = 1), or writes an incorrect hypothesis that doesn't match the pattern.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

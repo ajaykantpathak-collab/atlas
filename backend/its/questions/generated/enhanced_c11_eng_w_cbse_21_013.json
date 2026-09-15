@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_21_013",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_21_013",
+   "title": "c11_eng_w_cbse_21_013",
+   "questions": [
+    {
+     "q": "What is the central thesis of S. Chandrasekhar's essay \"Patterns of Creativity\" regarding the relationship between scientific and poetic creativity?",
+     "a": "The central thesis is that scientific creativity and poetic creativity follow fundamentally different patterns: scientific creativity is cumulative and builds upon previous discoveries, while poetic creativity is individualistic and does not progress in a linear fashion. A wrong answer (e.g., \"they are essentially the same\") reveals the student has confused the essay's comparative framework with a superficial similarity claim, missing Chandrasekhar's nuanced distinction about the *nature* of progress in each domain.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Chandrasekhar argues that Shakespeare's creativity differs from Newton's, using the concept of \"pattern\" as the author defines it.",
+     "a": "Chandrasekhar argues Newton's creativity follows a cumulative pattern where each scientist stands on predecessors' shoulders (e.g., Newton using Galileo's and Kepler's work), whereas Shakespeare's creativity is sui generis – each play is a fresh creation not dependent on previous playwrights' \"discoveries.\" A wrong answer (e.g., \"Newton was a scientist, Shakespeare a poet\") shows the student cannot articulate the structural difference in *how* creativity operates across domains, reducing it to disciplinary labels rather than pattern analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Apply Chandrasekhar's framework to a modern example: How would he likely classify the creativity involved in developing AI language models versus writing a novel? Justify using two specific criteria from the essay.",
+     "a": "Chandrasekhar would classify AI development as scientific creativity (cumulative, collaborative, building on prior algorithms/data) and novel-writing as poetic creativity (individualistic, non-cumulative, each work a unique expression). The two criteria: 1) dependence on prior work (AI requires previous research; a novel doesn't require reading all prior novels), and 2) nature of progress (AI improves measurably; novels don't \"improve\" linearly). A wrong answer conflating both as \"technological creativity\" reveals inability to transfer the essay's analytical framework to new contexts.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how Chandrasekhar's identity as a Nobel Prize-winning physicist influences the essay's credibility and potential biases when he compares scientific and poetic creativity.",
+     "a": "His scientific authority lends weight to his descriptions of scientific creativity (insider perspective), but may create blind spots in evaluating poetic creativity (outsider perspective). He privileges scientific cumulativity as \"progress\" while potentially undervaluing poetic tradition's subtle intertextuality. A wrong answer (\"he's unbiased because he's a great scientist\") reveals uncritical acceptance of authority, missing how disciplinary identity shapes comparative frameworks – a core critical thinking skill.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of Chandrasekhar's use of Shelley's \"A Defence of Poetry\" to support his argument about poetic creativity's non-cumulative nature. Is this evidence sufficient?",
+     "a": "Partially effective: Shelley's essay articulates the Romantic ideal of the poet as \"unacknowledged legislator\" creating ex nihilo, supporting non-cumulativity. However, it's insufficient because: 1) Shelley represents one poetic tradition (Romanticism), not all poetry; 2) Chandrasekhar doesn't engage with counter-examples (e.g., Eliot's \"tradition and individual talent\" showing poetic cumulativity). A wrong answer (\"yes, Shelley proves it\") reveals inability to assess evidence scope and representativeness – a key evaluation skill.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-sentence critical commentary that synthesizes Chandrasekhar's argument with your own perspective on whether the \"two cultures\" (science/poetry) can ever share a common creative pattern.",
+     "a": "A strong response: \"While Chandrasekhar convincingly distinguishes cumulative scientific progress from poetic individuality, his binary overlooks how modern interdisciplinary work (e.g., bio-poetry, algorithmic art) creates hybrid patterns. Science increasingly requires poetic imagination (Einstein's thought experiments), while poetry uses scientific metaphors structurally. The 'two cultures' may share a deeper pattern: both wrestle with uncertainty through constrained creativity. Thus, his framework illuminates historical patterns but may not capture emerging convergence.\" A poor answer merely summarizes without synthesis or critical stance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,356 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 107,
+ "chapter_title": "Transportation in Animals and Plants",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/gesc107.txt",
+ "concepts": [
+  {
+   "id": "gesc.107.1",
+   "title": "Components of Blood",
+   "section": "7.1",
+   "definition": "Blood is a liquid connective tissue consisting of plasma where red blood cells, white blood cells, and platelets are suspended to transport nutrients, gases, and wastes.",
+   "formula": "blood = plasma + red_blood_cells + white_blood_cells + platelets",
+   "key_idea": "Blood transports vital substances and defends the body through specialized cells suspended in liquid plasma.",
+   "textbook_ref": "gesc107.txt lines 15-45",
+   "question_patterns": [
+    "what are the main components of human blood",
+    "describe the functions of red blood cells, white blood cells, and platelets",
+    "why does blood appear red in color",
+    "explain the role of haemoglobin and plasma in circulation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify blood components",
+     "explain": "Blood consists of a fluid portion called plasma and cellular elements: RBCs, WBCs, and platelets."
+    },
+    {
+     "step": 2,
+     "action": "explain cellular functions",
+     "explain": "RBCs contain haemoglobin to transport oxygen; WBCs defend against pathogen infection; platelets form blood clots at injury sites."
+    }
+   ]
+  },
+  {
+   "id": "gesc.107.2",
+   "title": "Pulse and Pulse Rate",
+   "section": "7.1",
+   "definition": "In brief, In brief, In brief, In brief, Pulse is the rhythmic throbbing felt in arteries because of blood flow, and pulse rate is the count of pulse beats measured per minute.",
+   "formula": "pulse_rate = total_beats / time_in_minutes",
+   "key_idea": "Arterial pulsation directly corresponds to the frequency of heart muscle contractions.",
+   "textbook_ref": "gesc107.txt lines 46-70",
+   "question_patterns": [
+    "calculate the pulse rate if a person has {total_beats} beats in {time_in_minutes} minutes",
+    "find the pulse rate given {total_beats} beats observed over {time_in_minutes} minutes",
+    "how many pulse beats occur in {time_in_minutes} minutes if pulse rate is {pulse_rate}",
+    "determine the number of heartbeats in {time_in_minutes} minutes for a pulse rate of {pulse_rate}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate pulse rate from beat count and time",
+     "explain": "Pulse rate represents the number of pulse beats per unit minute.",
+     "compute": "pulse_rate = total_beats / time_in_minutes"
+    }
+   ]
+  },
+  {
+   "id": "gesc.107.3",
+   "title": "Blood Vessels and Double Loop Circulation",
+   "section": "7.1",
+   "definition": "In brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, Blood vessels are conduits comprising thick-walled arteries conveying oxygenated blood, thin-walled veins with valves returning deoxygenated blood, and microscopic capillaries facilitating exchange.",
+   "formula": "arteries -> capillaries -> veins",
+   "key_idea": "Thick elastic arteries handle high-pressure arterial flow, whereas veins carry lower-pressure return flow assisted by internal valves.",
+   "textbook_ref": "gesc107.txt lines 71-125",
+   "question_patterns": [
+    "differentiate between arteries and veins",
+    "why do arteries have thick elastic walls while veins have valves",
+    "what is the role of pulmonary artery and pulmonary vein",
+    "explain how capillaries connect arteries to veins"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare structural features of vessels",
+     "explain": "Arteries possess thick elastic walls to endure high pressure; veins have thin walls and one-way valves to prevent backflow."
+    },
+    {
+     "step": 2,
+     "action": "describe vessel functions and exceptions",
+     "explain": "Arteries carry blood away from the heart and veins return it; pulmonary artery carries deoxygenated blood to lungs while pulmonary vein brings oxygenated blood to heart."
+    }
+   ]
+  },
+  {
+   "id": "gesc.107.4",
+   "title": "Structure and Function of Human Heart",
+   "section": "7.1",
+   "definition": "In brief, In brief, In brief, In brief, the human heart is a fist-sized muscular organ divided into four chambers (two upper atria and two lower ventricles) that pumps blood without mixing oxygenated and deoxygenated streams.",
+   "formula": "heart_chambers = left_atrium + right_atrium + left_ventricle + right_ventricle",
+   "key_idea": "A central muscular wall separates the left oxygenated side from the heart's right deoxygenated side.",
+   "textbook_ref": "gesc107.txt lines 126-170",
+   "question_patterns": [
+    "describe the four chambers of the human heart",
+    "how does the heart prevent oxygen-rich blood from mixing with carbon dioxide-rich blood",
+    "explain the cardiac pumping pathway through atria and ventricles",
+    "what are the main anatomical parts of the human heart"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify internal heart chambers",
+     "explain": "The heart contains two receiving upper chambers (atria) and two pumping lower chambers (ventricles)."
+    },
+    {
+     "step": 2,
+     "action": "explain muscular separation mechanism",
+     "explain": "A complete muscular partition isolates oxygen-rich blood on the left from carbon-dioxide-rich blood on the right."
+    }
+   ]
+  },
+  {
+   "id": "gesc.107.5",
+   "title": "Heartbeat and Cardiac Monitoring",
+   "section": "7.1",
+   "definition": "A heartbeat consists of one complete cycle of contraction and relaxation of cardiac muscles, producing acoustic pulses monitored using a stethoscope.",
+   "formula": "heartbeats_per_min = pulse_rate",
+   "key_idea": "Each cardiac contraction pulse generates an equivalent arterial pulse beat throughout the vascular tree.",
+   "textbook_ref": "gesc107.txt lines 171-210",
+   "question_patterns": [
+    "define a heartbeat and explain how it is measured using a stethoscope",
+    "what is the relationship between heartbeat and pulse rate",
+    "why does heartbeat increase during and after physical exercise",
+    "describe the basic construction of a simple medical stethoscope"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define heart rhythm",
+     "explain": "Rhythmic contraction followed by relaxation of heart wall muscles constitutes a heartbeat."
+    },
+    {
+     "step": 2,
+     "action": "correlate with pulse",
+     "explain": "Every single contraction forces blood into arteries, creating one pulse beat; thus heartbeat rate equals pulse rate."
+    }
+   ]
+  },
+  {
+   "id": "gesc.107.6",
+   "title": "Human Excretory System and Urine Composition",
+   "section": "7.2",
+   "definition": "In brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, the human excretory system filters metabolic wastes from blood through paired kidneys, conveying urine via ureters to the urinary bladder for temporary storage before elimination via the urethra.",
+   "formula": "urea_amount = total_urine * 0.025",
+   "key_idea": "Kidneys isolate cell wastes from blood to form urine containing 95% water, 2.5% urea, and 2.5% other chemical wastes.",
+   "textbook_ref": "gesc107.txt lines 211-255",
+   "question_patterns": [
+    "calculate the amount of urea present in {total_urine} liters of human urine",
+    "find the volume of water in {total_urine} liters of normal human urine",
+    "how much urea is excreted if daily urine production is {total_urine} liters",
+    "determine the quantity of non-urea waste products in {total_urine} liters of urine"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute mass of urea in given urine volume",
+     "explain": "Urea forms approximately 2.5% (0.025 fractional proportion) of normal human urine volume.",
+     "compute": "urea_amount = total_urine * 0.025"
+    }
+   ]
+  },
+  {
+   "id": "gesc.107.7",
+   "title": "Excretory Products Across Animal Groups",
+   "section": "7.2",
+   "definition": "Animals convert and eliminate nitrogenous metabolic wastes as ammonia, uric acid, or urea, depending on environmental water availability.",
+   "formula": "excretory_form = aquatic_ammonia OR terrestrial_uric_acid OR mammalian_urea",
+   "key_idea": "Environmental water access dictates whether wastes are voided as dissolved ammonia, insoluble uric acid, or soluble urea.",
+   "textbook_ref": "gesc107.txt lines 256-290",
+   "question_patterns": [
+    "what are the primary excretory products of fish, birds, and humans",
+    "how does environmental water availability determine animal excretory products",
+    "explain the process and necessity of dialysis in patients with kidney failure",
+    "why do aquatic animals excrete ammonia directly into water"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify species waste forms",
+     "explain": "Fishes excrete gaseous ammonia directly into surrounding water; birds and reptiles excrete semi-solid uric acid; mammals produce urea."
+    },
+    {
+     "step": 2,
+     "action": "explain renal failure medical treatment",
+     "explain": "When kidneys fail to filter toxic cell wastes, blood is periodically purified using an artificial kidney machine via dialysis."
+    }
+   ]
+  },
+  {
+   "id": "gesc.107.8",
+   "title": "Transport of Water and Minerals via Xylem",
+   "section": "7.3",
+   "definition": "Xylem is specialized plant vascular tissue forming a continuous pipeline for the upward conduction of water and dissolved soil minerals from roots to leaves.",
+   "formula": "upward_flow = root_hair_absorption -> xylem_conduction -> leaf_distribution",
+   "key_idea": "Root hairs enlarge the absorptive surface area, feeding water into xylem vessel networks running through stems to leaves.",
+   "textbook_ref": "gesc107.txt lines 291-340",
+   "question_patterns": [
+    "how do root hairs increase water absorption in plants",
+    "explain the function of xylem tissue in plant transport",
+    "describe an activity to demonstrate water conduction through plant stems",
+    "what path do water and soil minerals follow from roots to leaves"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain root absorption",
+     "explain": "Root hairs extend into soil particle spaces, increasing surface area for water and mineral uptake."
+    },
+    {
+     "step": 2,
+     "action": "explain vascular conduction",
+     "explain": "Xylem vessels form uninterrupted tubular networks transporting absorbed solution upward through stems to photosynthesizing leaves."
+    }
+   ]
+  },
+  {
+   "id": "gesc.107.9",
+   "title": "Transport of Synthesised Food via Phloem",
+   "section": "7.3",
+   "definition": "Phloem is plant vascular tissue that translocates organic nutrients synthesized in photosynthetic leaves to all non-photosynthetic plant tissues.",
+   "formula": "food_translocation = leaf_synthesis -> phloem_vascular_network -> plant_cells",
+   "key_idea": "Phloem distributes leaf-synthesized food multidirectionally to satisfy metabolic energy demands across all plant organs.",
+   "textbook_ref": "gesc107.txt lines 341-360",
+   "question_patterns": [
+    "what is the role of phloem in plants",
+    "how does food move from leaves to non-green parts of a plant",
+    "differentiate between xylem and phloem transport",
+    "why is vascular tissue essential for complex multicellular plants"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define phloem translocation function",
+     "explain": "Leaves synthesize carbohydrates via photosynthesis, which phloem vascular tissue carries to stems, roots, and growing tips."
+    }
+   ]
+  },
+  {
+   "id": "gesc.107.10",
+   "title": "Transpiration and Transpiration Pull",
+   "section": "7.3",
+   "definition": "In brief, In brief, Transpiration is indeed the evaporation of excess plant water through stomatal pores, generating a suction force that pulls sap upward from roots to high leaves while cooling plant tissues.",
+   "formula": "suction_pull = stomatal_evaporation -> xylem_tension",
+   "key_idea": "Continuous evaporation through stomata creates a suction pull strong enough to elevate water through tall trees.",
+   "textbook_ref": "gesc107.txt lines 361-390",
+   "question_patterns": [
+    "what is transpiration and what vital functions does it serve in plants",
+    "how does transpiration pull generate upward movement of water in tall trees",
+    "why do plants release large quantities of water into the atmosphere",
+    "explain how stomatal evaporation aids in plant cooling"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain transpiration suction mechanism",
+     "explain": "Evaporation of water through leaf stomata creates negative pressure (suction pull) in xylem vessels, drawing water upward from roots."
+    },
+    {
+     "step": 2,
+     "action": "state auxiliary benefits",
+     "explain": "Transpiration facilitates continuous mineral transport to tall foliage and protects plant structures through evaporative cooling."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gesc107.txt lines 46-70",
+   "concept": "gesc.107.2",
+   "question_type": "compute",
+   "question_pattern": "A student counts {total_beats} pulse beats in {time_in_minutes} minutes while resting. Calculate the student's pulse rate per minute.",
+   "extracted_variables": {
+    "total_beats": "150",
+    "time_in_minutes": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate pulse rate from total beats and time",
+     "explain": "Pulse rate is calculated by dividing total beat count by observation duration in minutes.",
+     "compute": "pulse_rate = total_beats / time_in_minutes"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gesc107.txt lines 211-255",
+   "concept": "gesc.107.6",
+   "question_type": "compute",
+   "question_pattern": "An adult excretes {total_urine} liters of urine in 24 hours. Calculate the total volume of urea contained in this excreted urine.",
+   "extracted_variables": {
+    "total_urine": "1.6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute urea volume in total urine",
+     "explain": "Human urine contains 2.5% (0.025) urea by volume.",
+     "compute": "urea_amount = total_urine * 0.025"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex107.1",
+   "source_ref": "gesc107.txt lines 395-405",
+   "questions": [
+    "Match structures given in Column I with functions given in Column II: (i) Stomata - (b) Transpiration, (ii) Xylem - (d) Transport of water, (iii) Root hairs - (a) Absorption of water, (iv) Phloem - (c) Transport of food."
+   ]
+  },
+  {
+   "id": "ex107.2",
+   "source_ref": "gesc107.txt lines 406-420",
+   "questions": [
+    "Fill in the blanks: (i) The blood from the heart is transported to all parts of the body by the arteries. (ii) Haemoglobin is present in red blood cells. (iii) Arteries and veins are joined by a network of capillaries. (iv) The rhythmic expansion and contraction of the heart is called heartbeat. (v) The main excretory product in human beings is urea. (vi) Sweat contains water and salts. (vii) Kidneys eliminate the waste materials in the liquid form called urine. (viii) Water reaches great heights in the trees because of suction pull caused by transpiration."
+   ]
+  },
+  {
+   "id": "ex107.3",
+   "source_ref": "gesc107.txt lines 421-430",
+   "questions": [
+    "Choose the correct option: (a) In plants, water is transported through (i) xylem, (ii) phloem, (iii) stomata, (iv) root hair. (b) Water absorption through roots can be increased by keeping the plants (i) in the shade, (ii) in dim light, (iii) under the fan, (iv) covered with a polythene bag."
+   ]
+  },
+  {
+   "id": "ex107.4",
+   "source_ref": "gesc107.txt lines 431-445",
+   "questions": [
+    "Why is transport of materials necessary in a plant or in an animal? Explain.",
+    "What will happen if there are no platelets in the blood?",
+    "What are stomata? Give two functions of stomata.",
+    "Does transpiration serve any useful function in the plants? Explain.",
+    "What are the components of blood?",
+    "Why is blood needed by all the parts of a body?",
+    "What makes the blood look red?",
+    "Describe the function of the heart.",
+    "Why is it necessary to excrete waste products?",
+    "Draw a diagram of the human excretory system and label the various parts."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

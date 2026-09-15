@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_05_007",
+   "title": "c11_soc_cbse_05_007",
+   "questions": [
+    {
+     "q": "What specific historical circumstance forced Malinowski to conduct his fieldwork in the Trobriand Islands rather than return to Europe at the outbreak of World War I?",
+     "a": "Malinowski was a Polish national visiting British-controlled Australia when WWI began; Poland had been annexed by Germany, making him technically an 'enemy alien' under British law. Rather than face internment in a camp, he negotiated to serve his internment conducting research in the Trobriand Islands (a British-Australian territory), which the Australian government financed. A wrong answer (e.g., 'he chose the Trobriands for their cultural uniqueness') reveals the student confuses methodological intention with historical contingency — missing how structural constraints (colonial law, war) shaped anthropology's canonical field site.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Malinowski insisted that anthropologists must learn the native language and avoid using interpreters, and how this requirement differed from the practices of earlier 'armchair anthropologists' like James Frazer.",
+     "a": "Malinowski argued that only direct, unmediated interaction in the vernacular allows the anthropologist to access 'implicit knowledge' — meanings, jokes, metaphors, and emotional nuances that interpreters inevitably filter or distort. Frazer never visited the societies he wrote about; he compiled questionnaire responses from missionaries and officials, producing knowledge at two removes from lived experience. A wrong answer focusing only on 'accuracy' or 'respect' misses the epistemological claim: language fluency enables the shift from *etic* (outsider) categories to *emic* (insider) meanings, which Malinowski treated as the sine qua non of scientific anthropology.",
+     "self_check": true
+    },
+    {
+     "q": "A sociology student plans to study a migrant worker community in Mumbai for six weeks, using Hindi and Marathi (which they speak fluently), living in a rented room in the neighbourhood, and writing daily field notes. They ask: \"Am I doing Malinowskian fieldwork?\" Apply Malinowski's criteria to evaluate this research design, identifying at least two alignments and two significant departures.",
+     "a": "Alignments: (1) vernacular language use without interpreters; (2) residential immersion and daily field notes. Departures: (1) Duration — Malinowski's standard was 12–18+ months to capture seasonal cycles and ritual calendars; six weeks risks 'snapshot' distortion. (2) Community boundedness — Malinowski studied a small, relatively isolated island society where 'whole way of life' was observable; a Mumbai migrant community is embedded in a megacity with multi-sited networks, requiring multi-sited ethnography (Marcus 1995). A wrong answer treating duration as merely 'more time = better' misses Malinowski's specific theoretical rationale: only long-term presence reveals the *systemic interconnections* between kinship, economy, and ritual that short visits fragment.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Malinowski's 'genealogical method' (constructing detailed family trees to map kinship systems) with the census operation he conducted at the start of fieldwork. How do these two techniques serve different analytical purposes, and why did Malinowski consider both necessary for 'scientific' ethnography?",
+     "a": "The census provided a *synchronic structural snapshot*: demographic composition, household locations, age/sex distribution — the 'sampling frame' for the community. The genealogical method provided a *diachronic relational map*: kinship terminology, marriage rules, descent principles, and alliance patterns across generations — the 'grammar' of social organisation. Malinowski needed the census to identify informants and spatial logic; he needed genealogy to decode the endogenous categories (e.g., 'mother's brother' vs 'father's sister') that structure Trobriand social action. A wrong answer conflating them as 'both collect family data' misses their distinct epistemological roles: census = extensive coverage; genealogy = intensive structural depth.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the claim: \"Malinowski's institutionalisation of fieldwork as mandatory training was primarily a gatekeeping strategy that excluded non-Western scholars and cemented colonial power structures in anthropology.\" Support your judgment with two pieces of evidence from the historical record and one counter-consideration.",
+     "a": "Evidence for the claim: (1) Malinowski's LSE seminar controlled PhD supervision for generations of Commonwealth anthropologists, and fieldwork in *colonies* was the only funded path — Indigenous scholars lacked travel grants and institutional affiliation. (2) His 1922 *Argonauts of the Western Pacific* framed Trobrianders as 'natives' requiring Western scientific decoding, reproducing the coloniser/colonised epistemic hierarchy. Counter-consideration: Malinowski *insisted* on language fluency and 'native's point of view', which — however imperfectly — centred Indigenous epistemologies in ways armchair anthropology never did; his students (e.g., Firth, Leach, Evans-Pritchard) later used fieldwork to critique colonial policy. A wrong answer that is purely condemnatory or purely celebratory fails the 'evaluate' demand: it must weigh structural exclusion against methodological empowerment.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 10-step 'Malinowskian fieldwork protocol' for a contemporary Indian sociology student studying a urban waste-picker community in Delhi, adapting each of Malinowski's core requirements (language, participation, recording, genealogy/census, long-term residence) to the ethical and practical constraints of 2024 India (IRB review, informed consent, data privacy, community advisory boards). Present as a numbered list with one-sentence justifications.",
+     "a": "1. Obtain ethics clearance and community consent via a waste-picker union advisory board (replaces colonial 'access' with negotiated partnership). 2. Learn waste-picker Hindi/Marathi/Tamil vernacular and waste-trade jargon through 3-month apprenticeship with a cooperative (language as skilled labour, not just vocabulary). 3. Reside in the basti for 14+ months, participating in sorting, selling, and union meetings (immersion as labour, not observation). 4. Conduct household census with GPS-mapped coordinates, co-designed with community researchers (census as shared infrastructure). 5. Build genealogies of recycling lineages — who taught whom, apprenticeship networks (genealogy as skill transmission mapping). 6. Write daily encrypted field notes on air-gapped device; share anonymised summaries monthly with advisory board (recording as accountability). 7. Avoid audio/video recording without explicit per-event consent (data sovereignty). 8. Compensate informants as co-researchers at minimum wage rates (rejecting 'native informant' extraction). 9. Produce bilingual final report: academic English + community-language booklet (dialogic return). 10. Deposit anonymised data in community-controlled archive, not university server (decolonial data governance). A poor answer replicates Malinowski's 1915 practices uncritically (e.g., 'live in their huts for a year') ignoring 21st-century power asymmetries and legal frameworks.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

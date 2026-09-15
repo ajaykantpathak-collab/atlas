@@ -1,0 +1,441 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "chapter": 206,
+ "chapter_title": "Semiconductor Electronics: Materials, Devices and Simple Circuits",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/leph206.txt",
+ "concepts": [
+  {
+   "id": "leph.206.2.1",
+   "title": "Energy Band Theory and Classification of Solids",
+   "section": "14.2",
+   "definition": "Solids are differentiated into conductors, semiconductors, and insulators based on the magnitude of the forbidden energy gap separating the valence and conduction bands.",
+   "formula": "Eg = Ec - Ev",
+   "key_idea": "Large gap produces an insulator, small gap yields a semiconductor, and zero gap or overlap creates a metal.",
+   "textbook_ref": "leph206.txt lines 58-150",
+   "question_patterns": [
+    "distinguish between metals, semiconductors and insulators on the basis of energy band theory",
+    "why does diamond behave as an insulator while silicon behaves as a semiconductor",
+    "compare the energy band gap of carbon, silicon and germanium",
+    "explain the difference in electrical conductivity between metals and semiconductors using band structure",
+    "what is the magnitude of the forbidden band gap in an insulator compared to a semiconductor"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the valence band and conduction band levels",
+     "explain": "The highest filled band at 0 K is the valence band (Ev) and the lowest unfilled band is the conduction band (Ec)."
+    },
+    {
+     "step": 2,
+     "action": "evaluate the forbidden energy gap",
+     "explain": "For metals Eg is approximately 0 eV; for semiconductors Eg is less than 3 eV; for insulators Eg exceeds 3 eV."
+    }
+   ]
+  },
+  {
+   "id": "leph.206.3.1",
+   "title": "Total Current in an Intrinsic Semiconductor",
+   "section": "14.3",
+   "definition": "In an undoped semiconductor, thermal excitation generates identical numbers of free electrons and holes, both of which migrate under an electric field to contribute to the net current.",
+   "formula": "I = Ie + Ih",
+   "key_idea": "The total electrical current equals the sum of the electron drift current and the hole drift current.",
+   "textbook_ref": "leph206.txt lines 152-225",
+   "question_patterns": [
+    "find the total current in a semiconductor given electron and hole currents",
+    "calculate the net current when electron current is ... and hole current is ...",
+    "what is the total current flowing through an intrinsic semiconductor crystal",
+    "determine the combined current from electron and hole drift components",
+    "compute the total crystal current when both carrier types move under an electric field"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add electron current and hole current",
+     "explain": "Both carriers move in opposite directions under an applied field and thus their conventional currents add together.",
+     "compute": "total_current = electron_current + hole_current"
+    }
+   ]
+  },
+  {
+   "id": "leph.206.4.1",
+   "title": "Carrier Concentration and Mass Action Law in Extrinsic Semiconductors",
+   "section": "14.4",
+   "definition": "Under thermal equilibrium in any semiconductor, the product of the electron concentration and the hole concentration remains constant and equal to the square of the intrinsic concentration.",
+   "formula": "ne * nh = ni**2",
+   "key_idea": "Doping vastly increases one carrier density while suppressing the other such that their product remains fixed at ni squared.",
+   "textbook_ref": "leph206.txt lines 227-330",
+   "question_patterns": [
+    "calculate the minority carrier concentration in a doped semiconductor",
+    "find the hole concentration in an n-type silicon crystal doped with donor atoms",
+    "determine the electron concentration in a p-type semiconductor",
+    "given the intrinsic carrier concentration and majority carrier density, compute the minority carrier density",
+    "what is the concentration of holes when silicon with intrinsic density ... is doped with ... donor atoms"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the intrinsic carrier concentration",
+     "explain": "The product of equilibrium electron and hole concentrations is equal to ni squared.",
+     "compute": "ni_squared = ni ** 2"
+    },
+    {
+     "step": 2,
+     "action": "divide squared intrinsic concentration by the majority carrier concentration",
+     "explain": "Use the mass action law to obtain the minority carrier concentration.",
+     "compute": "minority_density = ni_squared / majority_density"
+    }
+   ]
+  },
+  {
+   "id": "leph.206.4.2",
+   "title": "Extrinsic Doping and Semiconductor Classification",
+   "section": "14.4",
+   "definition": "Doping tetravalent crystals with pentavalent donor impurities yields n-type semiconductors, whereas doping with trivalent acceptor impurities creates p-type semiconductors while keeping overall crystal neutrality.",
+   "formula": "n_type: ne >> nh; p_type: nh >> ne",
+   "key_idea": "Donor impurities provide majority electrons, acceptor impurities supply majority holes, and total crystal charge remains strictly zero.",
+   "textbook_ref": "leph206.txt lines 235-325",
+   "question_patterns": [
+    "identify whether a crystal is n-type or p-type when doped with phosphorus or boron",
+    "explain why a doped semiconductor remains electrically neutral despite having excess free carriers",
+    "why do pentavalent dopants act as donors while trivalent dopants act as acceptors",
+    "distinguish between majority and minority carriers in n-type and p-type silicon",
+    "verify the electrical neutrality condition of an extrinsic semiconductor"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify dopant valency and nature of impurity",
+     "explain": "Pentavalent elements (P, As, Sb) provide free conduction electrons (donors); trivalent elements (B, Al, In) provide vacancies/holes (acceptors)."
+    },
+    {
+     "step": 2,
+     "action": "verify charge balance",
+     "explain": "The total positive charge of uncompensated donor ions and holes equals the total negative charge of electrons and acceptor ions."
+    }
+   ]
+  },
+  {
+   "id": "leph.206.5.1",
+   "title": "p-n Junction Formation and Barrier Potential",
+   "section": "14.5",
+   "definition": "A p-n junction establishes a space-charge depletion region devoid of mobile carriers through diffusion, which sets up an internal electric field that drives an opposing drift current until equilibrium is attained.",
+   "formula": "I_diffusion = I_drift",
+   "key_idea": "Carrier concentration gradients drive diffusion until the built-in barrier potential creates a matching drift current, resulting in zero net current at equilibrium.",
+   "textbook_ref": "leph206.txt lines 332-385",
+   "question_patterns": [
+    "explain how a depletion region is formed in an unbiased p-n junction",
+    "why cannot a p-n junction be created by physically pressing a p-type slab against an n-type slab",
+    "describe the role of diffusion current and drift current in reaching junction equilibrium",
+    "what gives rise to the barrier potential across a semiconductor diode junction",
+    "how does the width of the depletion layer affect the built-in electric field at equilibrium"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe diffusion of majority carriers across the interface",
+     "explain": "Electrons diffuse from the n-side to the p-side and holes diffuse from the p-side to the n-side, leaving uncompensated immobile ion cores."
+    },
+    {
+     "step": 2,
+     "action": "describe the establishment of the space-charge region and opposing drift",
+     "explain": "The positive ions on the n-side and negative ions on the p-side establish an electric field from n to p that causes minority carrier drift until net current is zero."
+    }
+   ]
+  },
+  {
+   "id": "leph.206.6.1",
+   "title": "Dynamic Resistance of a Junction Diode",
+   "section": "14.6",
+   "definition": "The dynamic or ac resistance of a p-n junction diode is defined as the ratio of an incremental change in the applied bias voltage to the corresponding incremental change in the resulting diode current.",
+   "formula": "rd = delta_v / delta_i",
+   "key_idea": "Dynamic resistance represents the reciprocal slope of the diode V-I characteristic curve at a given operating point.",
+   "textbook_ref": "leph206.txt lines 448-475",
+   "question_patterns": [
+    "calculate the dynamic resistance of a diode given change in voltage and change in current",
+    "find the ac resistance of a p-n junction when voltage changes by ... and current changes by ...",
+    "what is the forward dynamic resistance of a silicon diode operating between ... and ...",
+    "determine the dynamic resistance from the slope of the forward V-I characteristic",
+    "compute the dynamic resistance of a reverse biased junction diode"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide the incremental voltage by the incremental current",
+     "explain": "Dynamic resistance is the ratio of delta_v to delta_i.",
+     "compute": "rd = delta_v / delta_i"
+    }
+   ]
+  },
+  {
+   "id": "leph.206.6.2",
+   "title": "Diode Biasing: Forward and Reverse Characteristics",
+   "section": "14.6",
+   "definition": "Forward bias reduces the potential barrier and narrows the depletion width leading to large diffusion current, whereas reverse bias widens the barrier resulting in only a minute drift-driven saturation current.",
+   "formula": "V_net_forward = V0 - V; V_net_reverse = V0 + V",
+   "key_idea": "A diode conducts heavily in forward bias once beyond the knee voltage and behaves as a near open circuit in reverse bias up to breakdown.",
+   "textbook_ref": "leph206.txt lines 387-450",
+   "question_patterns": [
+    "explain the behavior of a p-n junction diode under forward bias and reverse bias",
+    "why does the depletion layer width decrease during forward bias and increase during reverse bias",
+    "what is meant by threshold voltage or cut-in voltage of a diode",
+    "describe the variation of current with voltage in the forward and reverse bias of a silicon diode",
+    "explain reverse saturation current and breakdown voltage in a semiconductor diode"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze forward bias condition",
+     "explain": "Connecting p to positive and n to negative lowers the barrier height to (V0 - V), enabling minority carrier injection and milliampere-scale forward current."
+    },
+    {
+     "step": 2,
+     "action": "analyze reverse bias condition",
+     "explain": "Connecting p to negative and n to positive elevates the barrier height to (V0 + V), reducing diffusion current to zero and permitting only a tiny microampere drift current."
+    }
+   ]
+  },
+  {
+   "id": "leph.206.7.1",
+   "title": "Full-Wave and Half-Wave Rectification Ripple Frequency",
+   "section": "14.7",
+   "definition": "A rectifier converts alternating voltage into unidirectional pulsating voltage: a half-wave rectifier outputs pulses at the input line frequency, while a full-wave rectifier delivers pulses at twice the input line frequency.",
+   "formula": "f_out = 2 * f_in",
+   "key_idea": "A full-wave rectifier conducts during both half-cycles of the alternating input, thereby doubling the output ripple frequency.",
+   "textbook_ref": "leph206.txt lines 477-540",
+   "question_patterns": [
+    "find the output ripple frequency of a full-wave rectifier given the input ac frequency",
+    "calculate the output frequency of a full-wave rectifier when the mains frequency is ...",
+    "what is the output frequency for a full-wave rectifier operating at an input frequency of ...",
+    "determine the ripple frequency across the load of a full-wave rectifier circuit",
+    "compute the output pulsating frequency of a center-tap full-wave rectifier"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the input ac supply frequency by 2",
+     "explain": "Because both halves of the input sine wave appear in the rectified output, the output period is halved and frequency is doubled.",
+     "compute": "f_out = 2 * f_in"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "leph206.txt lines 180-210",
+   "concept": "leph.206.3.1",
+   "question_type": "compute",
+   "question_pattern": "In a semiconductor sample, the electron current is {electron_current} A and the hole current is {hole_current} A. Calculate the total current flowing through the crystal.",
+   "extracted_variables": {
+    "electron_current": 0.0035,
+    "hole_current": 0.0015
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add electron current and hole current",
+     "explain": "Both carriers move in opposite directions under an applied field and thus their conventional currents add together.",
+     "compute": "total_current = electron_current + hole_current"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "leph206.txt lines 180-210",
+   "concept": "leph.206.3.1",
+   "question_type": "compute",
+   "question_pattern": "An electric field applied across an intrinsic semiconductor produces an electron current of {electron_current} A and a hole current of {hole_current} A. What is the total current?",
+   "extracted_variables": {
+    "electron_current": 0.008,
+    "hole_current": 0.002
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add electron current and hole current",
+     "explain": "Both carriers move in opposite directions under an applied field and thus their conventional currents add together.",
+     "compute": "total_current = electron_current + hole_current"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "leph206.txt lines 320-330",
+   "concept": "leph.206.4.1",
+   "question_type": "compute",
+   "question_pattern": "A silicon crystal with intrinsic carrier concentration {ni} m^-3 is doped with donor impurities so that the electron concentration is {majority_density} m^-3. Calculate the hole concentration.",
+   "extracted_variables": {
+    "ni": 15000000000000000,
+    "majority_density": 50000000000000000000000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the intrinsic carrier concentration",
+     "explain": "The product of equilibrium electron and hole concentrations is equal to ni squared.",
+     "compute": "ni_squared = ni ** 2"
+    },
+    {
+     "step": 2,
+     "action": "divide squared intrinsic concentration by the majority carrier concentration",
+     "explain": "Use the mass action law to obtain the minority carrier concentration.",
+     "compute": "minority_density = ni_squared / majority_density"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "leph206.txt lines 320-330",
+   "concept": "leph.206.4.1",
+   "question_type": "compute",
+   "question_pattern": "A semiconductor has an intrinsic carrier density of {ni} m^-3. When doped with trivalent acceptor atoms, the hole density becomes {majority_density} m^-3. Determine the equilibrium electron density.",
+   "extracted_variables": {
+    "ni": 20000000000000000,
+    "majority_density": 80000000000000000000000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the intrinsic carrier concentration",
+     "explain": "The product of equilibrium electron and hole concentrations is equal to ni squared.",
+     "compute": "ni_squared = ni ** 2"
+    },
+    {
+     "step": 2,
+     "action": "divide squared intrinsic concentration by the majority carrier concentration",
+     "explain": "Use the mass action law to obtain the minority carrier concentration.",
+     "compute": "minority_density = ni_squared / majority_density"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "leph206.txt lines 455-475",
+   "concept": "leph.206.6.1",
+   "question_type": "compute",
+   "question_pattern": "In the forward characteristics of a silicon diode, a change in applied voltage of {delta_v} V produces a current change of {delta_i} A. Find the dynamic resistance of the diode.",
+   "extracted_variables": {
+    "delta_v": 0.1,
+    "delta_i": 0.01
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide the incremental voltage by the incremental current",
+     "explain": "Dynamic resistance is the ratio of delta_v to delta_i.",
+     "compute": "rd = delta_v / delta_i"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "leph206.txt lines 455-475",
+   "concept": "leph.206.6.1",
+   "question_type": "compute",
+   "question_pattern": "For a diode under reverse bias, a voltage change of {delta_v} V causes a reverse current change of {delta_i} A. Calculate the dynamic reverse resistance.",
+   "extracted_variables": {
+    "delta_v": 10.0,
+    "delta_i": 1e-06
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide the incremental voltage by the incremental current",
+     "explain": "Dynamic resistance is the ratio of delta_v to delta_i.",
+     "compute": "rd = delta_v / delta_i"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "leph206.txt lines 510-530",
+   "concept": "leph.206.7.1",
+   "question_type": "compute",
+   "question_pattern": "An alternating supply of frequency {f_in} Hz is fed to a full-wave rectifier circuit. Calculate the frequency of the pulsating output waveform.",
+   "extracted_variables": {
+    "f_in": 50
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the input ac supply frequency by 2",
+     "explain": "Because both halves of the input sine wave appear in the rectified output, the output period is halved and frequency is doubled.",
+     "compute": "f_out = 2 * f_in"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "leph206.txt lines 510-530",
+   "concept": "leph.206.7.1",
+   "question_type": "compute",
+   "question_pattern": "A full-wave rectifier is supplied with an ac voltage of frequency {f_in} Hz. What is the ripple frequency at the output?",
+   "extracted_variables": {
+    "f_in": 60
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the input ac supply frequency by 2",
+     "explain": "Because both halves of the input sine wave appear in the rectified output, the output period is halved and frequency is doubled.",
+     "compute": "f_out = 2 * f_in"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex14.1",
+   "source_ref": "leph206.txt lines 570-575",
+   "questions": [
+    "In an n-type silicon, which of the following statement is true: (a) Electrons are majority carriers and trivalent atoms are the dopants. (b) Electrons are minority carriers and pentavalent atoms are the dopants. (c) Holes are minority carriers and pentavalent atoms are the dopants. (d) Holes are majority carriers and trivalent atoms are the dopants."
+   ]
+  },
+  {
+   "id": "ex14.2",
+   "source_ref": "leph206.txt lines 576-578",
+   "questions": [
+    "Which of the statements given in Exercise 14.1 is true for p-type semiconductors."
+   ]
+  },
+  {
+   "id": "ex14.3",
+   "source_ref": "leph206.txt lines 579-586",
+   "questions": [
+    "Carbon, silicon and germanium have four valence electrons each. These are characterised by valence and conduction bands separated by energy band gap respectively equal to (Eg)C, (Eg)Si and (Eg)Ge. Which of the following statements is true? (a) (Eg)Si < (Eg)Ge < (Eg)C (b) (Eg)C < (Eg)Ge > (Eg)Si (c) (Eg)C > (Eg)Si > (Eg)Ge (d) (Eg)C = (Eg)Si = (Eg)Ge."
+   ]
+  },
+  {
+   "id": "ex14.4",
+   "source_ref": "leph206.txt lines 587-593",
+   "questions": [
+    "In an unbiased p-n junction, holes diffuse from the p-region to n-region because (a) free electrons in the n-region attract them. (b) they move across the junction by the potential difference. (c) hole concentration in p-region is more as compared to n-region. (d) All the above."
+   ]
+  },
+  {
+   "id": "ex14.5",
+   "source_ref": "leph206.txt lines 594-598",
+   "questions": [
+    "When a forward bias is applied to a p-n junction, it (a) raises the potential barrier. (b) reduces the majority carrier current to zero. (c) lowers the potential barrier. (d) None of the above."
+   ]
+  },
+  {
+   "id": "ex14.6",
+   "source_ref": "leph206.txt lines 599-603",
+   "questions": [
+    "In half-wave rectification, what is the output frequency if the input frequency is 50 Hz. What is the output frequency of a full-wave rectifier for the same input frequency."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

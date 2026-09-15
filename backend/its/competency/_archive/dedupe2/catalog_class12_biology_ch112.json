@@ -1,0 +1,309 @@
+{
+ "class": 12,
+ "subject": "biology",
+ "chapter": 112,
+ "chapter_title": "Ecosystem",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/lebo112.txt",
+ "concepts": [
+  {
+   "id": "lebo.12.1.1",
+   "title": "Ecosystem Stratification",
+   "section": "12.1",
+   "definition": "The arrangement of various organisms into distinct vertical tiers within a specific biological community based on their height and growth form.",
+   "formula": "none",
+   "key_idea": "Vertical layering of vegetation like trees, shrubs, and herbs in a forest.",
+   "textbook_ref": "lebo112.txt lines 30-38",
+   "question_patterns": [
+    "What is meant by stratification in an ecosystem?",
+    "Explain the vertical distribution of species in a forest.",
+    "Identify the layers occupied by trees and herbs in a forest.",
+    "How do different species occupy different levels in a community?",
+    "Define the term used for vertical layering of plants."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the species types",
+     "explain": "Observe if the organisms are trees, shrubs, or grasses."
+    },
+    {
+     "step": 2,
+     "action": "Assign vertical layers",
+     "explain": "Trees occupy the top strata, shrubs the middle, and herbs/grasses the bottom."
+    }
+   ]
+  },
+  {
+   "id": "lebo.12.2.1",
+   "title": "Net Primary Productivity (NPP)",
+   "section": "12.2",
+   "definition": "The total energy captured by producers through photosynthesis excluding the portion consumed during their metabolic activities.",
+   "formula": "npp = gpp - respiration",
+   "key_idea": "Energy available for the next trophic level after plant respiration.",
+   "textbook_ref": "lebo112.txt lines 70-85",
+   "question_patterns": [
+    "Calculate the net primary productivity given GPP and respiration.",
+    "Find the NPP if gross production is ... and respiration loss is ...",
+    "What is the available biomass for heterotrophs if GPP is ...?",
+    "Determine the energy stored by plants after respiration.",
+    "Compute the difference between gross productivity and respiratory loss."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify GPP and respiration values",
+     "explain": "GPP is the total organic matter produced; respiration is the loss.",
+     "compute": "npp = gpp - respiration"
+    }
+   ]
+  },
+  {
+   "id": "lebo.12.3.1",
+   "title": "Decomposition Stages",
+   "section": "12.3",
+   "definition": "The multi-step biological and chemical breakdown of complex organic remains into simpler inorganic molecules like salts and gases.",
+   "formula": "none",
+   "key_idea": "Conversion of detritus into nutrients through fragmentation, leaching, and catabolism.",
+   "textbook_ref": "lebo112.txt lines 100-125",
+   "question_patterns": [
+    "List the important steps in the process of decomposition.",
+    "What happens during the leaching phase of decomposition?",
+    "Define fragmentation and catabolism in the context of detritus.",
+    "Explain how humification differs from mineralisation.",
+    "Describe the sequence of events that break down dead organic matter."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Breakdown of detritus",
+     "explain": "Detritivores perform fragmentation into smaller particles."
+    },
+    {
+     "step": 2,
+     "action": "Removal of water-soluble nutrients",
+     "explain": "Leaching moves inorganic nutrients into the soil horizon."
+    },
+    {
+     "step": 3,
+     "action": "Enzymatic degradation",
+     "explain": "Bacteria and fungi perform catabolism to simplify substances."
+    },
+    {
+     "step": 4,
+     "action": "Formation of humus and minerals",
+     "explain": "Humification creates dark amorphous matter; mineralisation releases inorganic nutrients."
+    }
+   ]
+  },
+  {
+   "id": "lebo.12.4.1",
+   "title": "Photosynthetically Active Radiation (PAR)",
+   "section": "12.4",
+   "definition": "The specific portion of the solar spectrum that plants are capable of using for the process of photosynthesis.",
+   "formula": "par = incident_solar_radiation * 0.5",
+   "key_idea": "Only about half of the total sunlight reaching Earth is usable for photosynthesis.",
+   "textbook_ref": "lebo112.txt lines 145-155",
+   "question_patterns": [
+    "Calculate the PAR if the total incident solar radiation is ...",
+    "What amount of solar radiation is photosynthetically active?",
+    "Find the PAR value given the total sunlight energy.",
+    "How much energy is available for plants if incident radiation is ...?",
+    "Compute the 50 percent fraction of solar energy used by autotrophs."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate 50 percent of incident radiation",
+     "explain": "PAR is less than 50% of total incident solar radiation.",
+     "compute": "par = incident_solar_radiation * 0.5"
+    }
+   ]
+  },
+  {
+   "id": "lebo.12.4.2",
+   "title": "Ten Percent Energy Law",
+   "section": "12.4",
+   "definition": "A principle stating that only a small fraction of energy is passed to the subsequent feeding level, with the majority lost as heat.",
+   "formula": "energy_next = energy_prev * 0.1",
+   "key_idea": "Energy transfer efficiency between trophic levels is approximately 10%.",
+   "textbook_ref": "lebo112.txt lines 225-235",
+   "question_patterns": [
+    "Calculate the energy available at the next trophic level.",
+    "If producers have ... energy, how much reaches the herbivores?",
+    "Find the energy at the third trophic level if the first has ...",
+    "How much energy is transferred to carnivores from herbivores?",
+    "Apply the 10 percent law to find energy at a specific level."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate 10 percent of the current level energy",
+     "explain": "Only 10% of energy is transferred to the next level.",
+     "compute": "energy_next = energy_prev * 0.1"
+    }
+   ]
+  },
+  {
+   "id": "lebo.12.4.3",
+   "title": "Standing Crop",
+   "section": "12.4",
+   "definition": "The total mass or number of living organisms present in a specific trophic level at a given point in time.",
+   "formula": "none",
+   "key_idea": "Measured as biomass (fresh or dry weight) or population count per unit area.",
+   "textbook_ref": "lebo112.txt lines 220-225",
+   "question_patterns": [
+    "What is standing crop in an ecosystem?",
+    "How is the standing crop of a trophic level measured?",
+    "Why is dry weight preferred for measuring biomass?",
+    "Define the mass of living material at a particular time.",
+    "Distinguish between standing crop and productivity."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the trophic level",
+     "explain": "Select the specific level (e.g., producers) being measured."
+    },
+    {
+     "step": 2,
+     "action": "Determine measurement method",
+     "explain": "Use either the number of individuals or total biomass (dry weight is more accurate)."
+    }
+   ]
+  },
+  {
+   "id": "lebo.12.5.1",
+   "title": "Ecological Pyramids",
+   "section": "12.5",
+   "definition": "Graphical representations showing the relationship between different trophic levels in terms of energy, biomass, or population numbers.",
+   "formula": "none",
+   "key_idea": "Producers form the base and top consumers form the apex.",
+   "textbook_ref": "lebo112.txt lines 240-260",
+   "question_patterns": [
+    "Describe the three types of ecological pyramids.",
+    "What does the base of an ecological pyramid represent?",
+    "Why is the pyramid of energy always upright?",
+    "Give an example of an inverted pyramid of biomass.",
+    "Explain the limitations of ecological pyramids."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the parameter",
+     "explain": "Determine if the pyramid is for numbers, biomass, or energy."
+    },
+    {
+     "step": 2,
+     "action": "Analyze the shape",
+     "explain": "Check if the values decrease (upright) or increase (inverted) towards higher levels."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex12.1",
+   "source_ref": "lebo112.txt line 78",
+   "concept": "lebo.12.2.1",
+   "question_type": "compute",
+   "question_pattern": "In a forest ecosystem, the Gross Primary Productivity is {gpp} units and the respiration loss is {respiration} units. Calculate the Net Primary Productivity.",
+   "extracted_variables": {
+    "gpp": 200,
+    "respiration": 45
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract respiration from GPP",
+     "explain": "NPP is the remaining energy after plant respiration.",
+     "compute": "npp = gpp - respiration"
+    }
+   ]
+  },
+  {
+   "id": "ex12.2",
+   "source_ref": "lebo112.txt line 150",
+   "concept": "lebo.12.4.1",
+   "question_type": "compute",
+   "question_pattern": "If the total incident solar radiation on a field is {incident_solar_radiation} Joules, find the amount of Photosynthetically Active Radiation (PAR).",
+   "extracted_variables": {
+    "incident_solar_radiation": 5000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Apply the 50 percent rule",
+     "explain": "PAR is half of the total incident radiation.",
+     "compute": "par = incident_solar_radiation * 0.5"
+    }
+   ]
+  },
+  {
+   "id": "ex12.3",
+   "source_ref": "lebo112.txt line 230",
+   "concept": "lebo.12.4.2",
+   "question_type": "compute",
+   "question_pattern": "A producer level has {energy_prev} kJ of energy. According to the 10 percent law, how much energy is available to the primary consumers?",
+   "extracted_variables": {
+    "energy_prev": 1000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate 10 percent of producer energy",
+     "explain": "Only 10% of energy moves to the next trophic level.",
+     "compute": "energy_next = energy_prev * 0.1"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex12.1",
+   "source_ref": "lebo112.txt lines 340-350",
+   "questions": [
+    "Plants are called as_________because they fix carbon dioxide.",
+    "In an ecosystem dominated by trees, the pyramid (of numbers) is_________type.",
+    "In aquatic ecosystems, the limiting factor for the productivity is_________.",
+    "Common detritivores in our ecosystem are_________.",
+    "The major reservoir of carbon on earth is_________."
+   ]
+  },
+  {
+   "id": "ex12.2",
+   "source_ref": "lebo112.txt lines 352-360",
+   "questions": [
+    "Which one of the following has the largest population in a food chain? (a) Producers (b) Primary consumers (c) Secondary consumers (d) Decomposers",
+    "The second trophic level in a lake is (a) Phytoplankton (b) Zooplankton (c) Benthos (d) Fishes",
+    "Secondary producers are (a) Herbivores (b) Producers (c) Carnivores (d) None of the above",
+    "What is the percentage of photosynthetically active radiation (PAR) in the incident solar radiation? (a) 100% (b) 50 % (c) 1-5% (d) 2-10%"
+   ]
+  },
+  {
+   "id": "ex12.3",
+   "source_ref": "lebo112.txt lines 362-375",
+   "questions": [
+    "Distinguish between Grazing food chain and detritus food chain.",
+    "Distinguish between Production and decomposition.",
+    "Distinguish between Upright and inverted pyramid.",
+    "Distinguish between Food chain and Food web.",
+    "Distinguish between Litter and detritus.",
+    "Distinguish between Primary and secondary productivity.",
+    "Describe the components of an ecosystem.",
+    "Define ecological pyramids and describe with examples, pyramids of number and biomass.",
+    "What is primary productivity? Give brief description of factors that affect primary productivity.",
+    "Define decomposition and describe the processes and products of decomposition.",
+    "Give an account of energy flow in an ecosystem."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

@@ -1,0 +1,306 @@
+{
+ "catalog": "catalog_class11_economics_ch5",
+ "concepts": [
+  {
+   "id": "c11eco.5.2",
+   "title": "Law of Diminishing Marginal Utility",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Law of Diminishing Marginal Utility' refers to.",
+     "a": "As a consumer consumes more units of a commodity, the marginal utility derived from each successive unit goes on decreasing.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Law of Diminishing Marginal Utility'.",
+     "a": "Each additional unit gives less extra satisfaction than the previous one.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Law of Diminishing Marginal Utility', in plain ASCII form.",
+     "a": "MU_n > MU_(n+1) for successive units",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.5.3",
+   "title": "Consumer Equilibrium - Single Commodity (Utility Analysis)",
+   "questions": [
+    {
+     "q": "Find equilibrium quantity given MU schedule and price. Use the method 'Consumer Equilibrium - Single Commodity (Utility Analysis)'. Work with: equilibrium_unit = 400, mu_m = 40, mu_n = 5. Carry the chain through step by step and give the final value of the result.",
+     "a": "400 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Determine if consumer should buy more or less given MU and price. Use the method 'Consumer Equilibrium - Single Commodity (Utility Analysis)'. Work with: equilibrium_unit = 240, mu_m = 400, mu_n = 12. Carry the chain through step by step and give the final value of the result.",
+     "a": "240 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Consumer Equilibrium - Single Commodity (Utility Analysis)' refers to.",
+     "a": "A consumer is in equilibrium when marginal utility of a commodity in money terms equals its price. If MU_m > P, the consumer buys more; if MU_m < P, the consumer buys less.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Consumer Equilibrium - Single Commodity (Utility Analysis)'.",
+     "a": "Equilibrium occurs where marginal utility per rupee spent equals marginal utility of money.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Consumer Equilibrium - Single Commodity (Utility Analysis)', in plain ASCII form.",
+     "a": "MU_x / P_x = MU_m, i.e. MU in money terms = Price",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.5.4",
+   "title": "Consumer Equilibrium - Two Commodities (Utility Analysis)",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Consumer Equilibrium - Two Commodities (Utility Analysis)' refers to.",
+     "a": "A consumer spending income on two goods is in equilibrium when the ratio of marginal utility to price is equal for both goods and income is fully spent.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Consumer Equilibrium - Two Commodities (Utility Analysis)'.",
+     "a": "Equilibrium requires equal marginal utility per rupee across both goods and full use of income.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Consumer Equilibrium - Two Commodities (Utility Analysis)', in plain ASCII form.",
+     "a": "MU_x / P_x = MU_y / P_y, subject to P_x*Q_x + P_y*Q_y = M",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.5.5",
+   "title": "Indifference Curve Analysis",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Indifference Curve Analysis' refers to.",
+     "a": "An indifference curve is a curve showing different combinations of two goods that give the consumer the same level of satisfaction. Higher indifference curves represent higher satisfaction.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Indifference Curve Analysis'.",
+     "a": "All points on an indifference curve provide equal utility; the curve is convex to the origin due to diminishing MRS.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Indifference Curve Analysis', in plain ASCII form.",
+     "a": "MRS_xy = MU_x / MU_y (slope of indifference curve)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.5.6",
+   "title": "Budget Line and Budget Set",
+   "questions": [
+    {
+     "q": "Find the equation of the budget line given prices and income. Use the method 'Budget Line and Budget Set'. Work with: m = 240, p_x = 400, p_y = 45, x = 400, y = 5. Carry the chain through step by step and give the final value of the result.",
+     "a": "159985 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Compute intercepts of the budget line on both axes. Use the method 'Budget Line and Budget Set'. Work with: m = 30, p_x = 360, p_y = 30, x = 400, y = 10. Carry the chain through step by step and give the final value of the result.",
+     "a": "144270 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Budget Line and Budget Set' refers to.",
+     "a": "The budget line shows all combinations of two goods that a consumer can afford given prices and income. The budget set is all combinations on or below the budget line.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Budget Line and Budget Set'.",
+     "a": "The budget line is a straight line whose slope is -P_x/P_y; it shifts with changes in income or prices.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Budget Line and Budget Set', in plain ASCII form.",
+     "a": "P_x * X + P_y * Y = M",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.5.7",
+   "title": "Consumer Equilibrium - Indifference Curve Approach",
+   "questions": [
+    {
+     "q": "Find consumer equilibrium using indifference curve and budget line. Use the method 'Consumer Equilibrium - Indifference Curve Approach'. Work with: mu_x = 400, mu_y = 20, p_x = 25, p_y = 150. Carry the chain through step by step and give the final value of the result.",
+     "a": "0.1667 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Determine equilibrium combination of two goods. Use the method 'Consumer Equilibrium - Indifference Curve Approach'. Work with: mu_x = 500, mu_y = 40, p_x = 45, p_y = 18. Carry the chain through step by step and give the final value of the result.",
+     "a": "2.5 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Consumer Equilibrium - Indifference Curve Approach' refers to.",
+     "a": "A consumer is in equilibrium at the point where the budget line is tangent to the highest attainable indifference curve. At this point, MRS equals the price ratio.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Consumer Equilibrium - Indifference Curve Approach'.",
+     "a": "Equilibrium is where the slope of the indifference curve equals the slope of the budget line and income is fully spent.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Consumer Equilibrium - Indifference Curve Approach', in plain ASCII form.",
+     "a": "MRS_xy = P_x / P_y, subject to P_x*X + P_y*Y = M",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.5.8",
+   "title": "Demand and Market Demand",
+   "questions": [
+    {
+     "q": "Compute market demand by summing individual demands. Use the method 'Demand and Market Demand'. Work with: individual_demands_total = 18. Carry the chain through step by step and give the final value of the result.",
+     "a": "18 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find total quantity demanded at a given price. Use the method 'Demand and Market Demand'. Work with: individual_demands_total = 20. Carry the chain through step by step and give the final value of the result.",
+     "a": "20 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Demand and Market Demand' refers to.",
+     "a": "Demand is the quantity of a commodity that a consumer is willing and able to buy at a given price in a given time period. Market demand is the sum of individual demands of all consumers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Demand and Market Demand'.",
+     "a": "Market demand is obtained by horizontal summation of individual demand curves.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Demand and Market Demand', in plain ASCII form.",
+     "a": "Market Demand = sum of individual demands Q_d = q1 + q2 + ... + qn",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.5.9",
+   "title": "Determinants of Demand and Demand Function",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Determinants of Demand and Demand Function' refers to.",
+     "a": "Demand for a commodity depends on its own price, prices of related goods, income of the consumer, tastes and preferences, and other factors. The demand function expresses quantity demanded as a function of these factors.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Determinants of Demand and Demand Function'.",
+     "a": "Own price, related goods' prices, income, and tastes all influence the quantity demanded of a commodity.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Determinants of Demand and Demand Function', in plain ASCII form.",
+     "a": "Q_d = f(P_x, P_y, P_z, Y, T, ...)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.5.10",
+   "title": "Demand Schedule and Demand Curve",
+   "questions": [
+    {
+     "q": "Compute quantity demanded at a given price from demand function. Use the method 'Demand Schedule and Demand Curve'. Work with: a = 200, b = 24, p = 5. Carry the chain through step by step and give the final value of the result.",
+     "a": "80 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find price given quantity from demand function. Use the method 'Demand Schedule and Demand Curve'. Work with: a = 40, b = 4, p = 10. Carry the chain through step by step and give the final value of the result.",
+     "a": "0 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Demand Schedule and Demand Curve' refers to.",
+     "a": "A demand schedule is a table showing quantity demanded at various prices. A demand curve is the graphical representation of the demand schedule, typically downward sloping due to the law of demand.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Demand Schedule and Demand Curve'.",
+     "a": "The law of demand states that, other things equal, quantity demanded falls when price rises, giving a downward-sloping demand curve.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Demand Schedule and Demand Curve', in plain ASCII form.",
+     "a": "Q_d = a - b*P (linear demand function)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.5.11",
+   "title": "Price Elasticity of Demand",
+   "questions": [
+    {
+     "q": "Compute price elasticity of demand using percentage method. Use the method 'Price Elasticity of Demand'. Work with: delta_p = 18, delta_q = 25, p = 30, q = 120. Carry the chain through step by step and give the final value of the result.",
+     "a": "0.3472 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find percentage change in quantity given elasticity and price change. Use the method 'Price Elasticity of Demand'. Work with: delta_p = 3, delta_q = 400, p = 240, q = 360. Carry the chain through step by step and give the final value of the result.",
+     "a": "88.8889 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Price Elasticity of Demand' refers to.",
+     "a": "Price elasticity of demand measures the percentage change in quantity demanded in response to a percentage change in price.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Price Elasticity of Demand'.",
+     "a": "Elasticity is negative for normal goods due to the inverse price-quantity relationship; its magnitude determines elasticity classification.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Price Elasticity of Demand', in plain ASCII form.",
+     "a": "Ed = (percentage change in quantity) / (percentage change in price) = (delta Q / Q) / (delta P / P)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c11eco.5.12",
+   "title": "Measurement of Elasticity - Total Outlay and Geometric Methods",
+   "questions": [
+    {
+     "q": "Compute elasticity at a point on linear demand curve using geometric method. Use the method 'Measurement of Elasticity - Total Outlay and Geometric Methods'. Work with: lower_segment = 400, p = 45, q = 5, upper_segment = 40. Carry the chain through step by step and give the final value of the result.",
+     "a": "10 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find elasticity using lower and upper segments of demand curve. Use the method 'Measurement of Elasticity - Total Outlay and Geometric Methods'. Work with: lower_segment = 80, p = 300, q = 200, upper_segment = 25. Carry the chain through step by step and give the final value of the result.",
+     "a": "3.2 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Measurement of Elasticity - Total Outlay and Geometric Methods' refers to.",
+     "a": "The total outlay method measures elasticity by observing how total expenditure changes with price. The geometric method measures elasticity at a point on a linear demand curve using segment ratios.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Measurement of Elasticity - Total Outlay and Geometric Methods'.",
+     "a": "If price and total outlay move in opposite directions, demand is elastic; same direction, inelastic; no change in outlay, unitary.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Measurement of Elasticity - Total Outlay and Geometric Methods', in plain ASCII form.",
+     "a": "Geometric: Ed = (lower segment) / (upper segment); Total outlay: compare change in total expenditure",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

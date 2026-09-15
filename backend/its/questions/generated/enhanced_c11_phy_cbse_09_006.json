@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_09_006",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_09_006",
+   "title": "c11_phy_cbse_09_006",
+   "questions": [
+    {
+     "q": "State Archimedes' principle in your own words and write the mathematical expression for buoyant force on a fully submerged object of volume V in a fluid of density ρ_f. Include SI units for each quantity.",
+     "a": "Archimedes' principle: A body immersed in a fluid experiences an upward buoyant force equal to the weight of the fluid it displaces. Formula: F_b = ρ_f V g, where ρ_f = fluid density (kg/m³), V = volume of displaced fluid = volume of submerged part (m³), g = acceleration due to gravity (m/s²), F_b = buoyant force (N). A wrong answer (e.g., F_b = ρ_object V g) reveals the student confuses the density of the object with the density of the fluid – a fundamental category error.",
+     "self_check": true
+    },
+    {
+     "q": "A solid iron cube (density 7800 kg/m³) and a hollow iron shell of the same outer dimensions are both fully submerged in water. Which experiences a greater buoyant force? Explain using the pressure-depth argument, not just the formula.",
+     "a": "Both experience the same buoyant force. Buoyant force arises from the pressure difference between the top and bottom faces. Since both objects have identical outer dimensions and are at the same depth, the pressure distribution on their surfaces is identical. The net upward force (integral of pressure over surface) depends only on the shape and depth, not on what is inside. A wrong answer (e.g., \"solid cube has more buoyant force because it's heavier\") reveals the misconception that buoyant force depends on the object's mass or material rather than displaced fluid volume.",
+     "self_check": true
+    },
+    {
+     "q": "A spherical ball of radius 0.05 m and mass 0.2 kg is fully submerged in water (ρ = 1000 kg/m³). Calculate: (a) the buoyant force on the ball, (b) the tension in the string holding it submerged, and (c) the apparent weight of the ball. Use g = 9.8 m/s².",
+     "a": "(a) Volume V = (4/3)πr³ = (4/3)π(0.05)³ = 5.236×10⁻⁴ m³. F_b = ρ_water V g = 1000 × 5.236×10⁻⁴ × 9.8 = 5.13 N. (b) Weight W = mg = 0.2 × 9.8 = 1.96 N. For equilibrium: T + F_b = W → T = W - F_b = 1.96 - 5.13 = -3.17 N. Negative tension means the ball would accelerate upward; a string cannot push. So the ball cannot remain fully submerged unless held down. (c) Apparent weight = W - F_b = -3.17 N (negative means upward net force). A wrong answer with positive tension reveals the student did not check physical consistency – a string cannot exert a compressive force.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical blocks of wood (density 600 kg/m³) float in water. Block A has a lead weight (density 11300 kg/m³) glued to its top; Block B has the same lead weight glued to its bottom. Compare: (i) the submerged volume of each block, (ii) the water level in the container for each case. Assume the lead weight volume is negligible compared to the wood block.",
+     "a": "(i) Both blocks have the same total weight (wood + lead), so by Archimedes' principle, both displace the same weight of water. Since water density is uniform, both displace the same volume of water → same submerged volume of wood. (ii) The water level rise depends only on total displaced volume, which is the same for both. So water level is identical. A wrong answer (e.g., \"Block B sinks deeper because weight is at bottom\") reveals confusion between stability (centre of gravity vs centre of buoyancy) and equilibrium submerged volume. The principle only governs the magnitude of buoyant force, not the orientation.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"A ship made of steel (density 7800 kg/m³) floats because the steel is spread out over a large volume, so its average density becomes less than water. But if you melt the same steel into a solid sphere, it sinks. Therefore, buoyant force depends on the shape of the object.\" Evaluate this argument. Identify the correct physics and the flawed reasoning.",
+     "a": "The conclusion \"buoyant force depends on shape\" is false. Buoyant force depends only on displaced fluid volume (F_b = ρ_f V_displaced g). The ship floats because its hollow shape allows it to displace a volume of water whose weight equals the ship's total weight before it is fully submerged. The solid sphere sinks because its volume is too small to displace enough water to balance its weight – it becomes fully submerged while buoyant force is still less than weight. The student correctly identifies average density as the criterion for floating (ρ_avg < ρ_f) but incorrectly attributes the difference to shape-dependent buoyant force rather than shape-dependent maximum displaced volume. A wrong evaluation that agrees with the student reveals confusion between buoyant force magnitude and floating condition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a spring balance, a beaker of water, and a small stone to verify Archimedes' principle quantitatively. Specify: (a) measurements to take, (b) calculations to perform, (c) how to account for the buoyant force on the string/hook, and (d) expected sources of error.",
+     "a": "(a) Measure: weight of stone in air (W_air), weight of stone fully submerged in water (W_app), volume of stone (by water displacement in a measuring cylinder). (b) Calculate buoyant force F_b = W_air - W_app. Calculate theoretical F_b = ρ_water V_stone g. Compare. (c) Use a thin thread instead of a thick hook; measure weight of thread submerged separately and subtract, or ensure only the stone is submerged. (d) Errors: water adhesion on stone adds mass, string buoyancy, parallax in reading spring balance, water density variation with temperature, incomplete submersion. A poor answer omits error analysis or suggests measuring volume by formula (assuming perfect geometry) rather than displacement, missing the experimental verification aspect.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

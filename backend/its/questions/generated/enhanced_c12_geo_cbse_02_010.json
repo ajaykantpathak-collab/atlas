@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_02_010",
+   "title": "c12_geo_cbse_02_010",
+   "questions": [
+    {
+     "q": "State the three core objectives of India's National Population Policy 2000 as per the Class 11 NCERT textbook.",
+     "a": "The three core objectives are: (1) Address unmet needs for contraception, healthcare infrastructure, and personnel; (2) Achieve Total Fertility Rate (TFR) of 2.1 by 2010 (replacement level); (3) Achieve a stable population by 2045 consistent with sustainable economic growth, social development, and environmental protection. A wrong answer (e.g., listing \"one-child norm\" or \"sterilisation targets\") reveals confusion with China's policy or the coercive Emergency-era Indian approach, indicating the student cannot distinguish voluntary, rights-based policies from top-down demographic engineering.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a country in Stage 2 of the Demographic Transition (high birth rate, rapidly falling death rate) typically adopts anti-natalist policies, while a Stage 4 country (low birth and death rates) may shift to pro-natalist policies. Use the concept of demographic dividend and ageing dependency ratio in your answer.",
+     "a": "In Stage 2, the youth bulge strains education, health, and job-creation capacity; anti-natalist policies aim to lower fertility quickly to open a window for demographic dividend (rising working-age share). In Stage 4, sustained sub-replacement fertility shrinks the workforce and balloons the old-age dependency ratio (e.g., Japan's 65+/15-64 ratio > 0.5), threatening pension systems and long-term care; pro-natalist policies (child allowances, parental leave) try to nudge fertility upward. A wrong answer that ignores the economic mechanism (dividend vs. dependency) shows the student sees policies as arbitrary government whims rather than rational responses to age-structure economics.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the approximate year India would reach replacement-level fertility (TFR = 2.1) if its TFR declined linearly from 3.4 in 2000 to 2.0 in 2020. Show steps. Then comment on whether linear extrapolation is geographically sound.",
+     "a": "Step 1: Total TFR decline = 3.4 - 2.0 = 1.4 over 20 years. Step 2: Annual decline rate = 1.4 / 20 = 0.07 per year. Step 3: TFR needed to drop from 3.4 to 2.1 = 1.3. Step 4: Years required = 1.3 / 0.07 ≈ 18.6 years → mid-2018. Step 5: Actual NFHS-5 (2019-21) shows TFR 2.0 — close but achieved earlier in southern states, later in northern states. Linear extrapolation is NOT geographically sound because fertility decline is heterogeneous across states (Kerala reached 1.8 by 1992, Bihar still 3.0 in 2015) due to varying female literacy, healthcare access, and cultural norms — a single national average masks critical sub-national disparities that policy must target.",
+     "self_check": true
+    },
+    {
+     "q": "Compare China's One-Child Policy (1979-2015) and Iran's voluntary family planning programme (1989 onward) on three dimensions: (a) speed of fertility decline, (b) human rights implications, (c) long-term age-structure consequences. Which approach aligns better with the ICPD 1994 Programme of Action?",
+     "a": "(a) China: TFR dropped from 2.8 to 1.6 in ~10 years (coercive speed); Iran: TFR dropped from 5.6 to 2.0 in ~15 years (voluntary but rapid due to religious endorsement + health network). (b) China: forced sterilisations, abortions, gender imbalance (sex ratio at birth 118:100); Iran: informed choice, integrated with primary healthcare, women's literacy rose. (c) China: severe ageing, shrinking workforce, \"4-2-1\" family structure; Iran: smoother transition, but now facing sub-replacement fertility (1.7) with less institutional preparation for ageing. Iran's approach aligns with ICPD 1994 (reproductive rights, women's empowerment, no coercion). A wrong answer that praises China's \"effectiveness\" without critiquing the gendercide and ageing trap reveals a utilitarian blind spot common in competitive-exam aspirants who memorise \"China controlled population\" without analysing the demographic externalities.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Achieving replacement-level fertility (TFR = 2.1) automatically ensures sustainable development.\" Use the concepts of ecological footprint, demographic momentum, and inter-state inequality in India.",
+     "a": "The statement is flawed for three reasons: (1) Ecological footprint: Even at TFR 2.1, if per-capita consumption rises (e.g., India's middle-class footprint growing 3% annually), total resource demand may still exceed biocapacity — sustainability requires decoupling well-being from resource throughput. (2) Demographic momentum: India's population will grow for 3-4 decades after reaching TFR 2.1 because of the large youth cohort (population momentum adds ~300 million by 2050), straining water, land, and employment. (3) Inter-state inequality: Kerala (TFR 1.8) and Bihar (TFR 3.0) both exist within India; national TFR 2.1 masks that high-fertility states have lower female literacy, higher poverty, and weaker health systems — sustainable development requires reducing these disparities, not just hitting a national average. A wrong answer that equates TFR 2.1 with \"problem solved\" ignores the core geography insight: sustainability is about distribution and consumption patterns, not just aggregate numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Design a district-level population policy framework for a hypothetical Indian district with: TFR 3.2, female literacy 55%, 40% workforce in agriculture, groundwater depletion > 80%, and net out-migration of young males. Your framework must have 4 actionable components linking demographic, educational, environmental, and livelihood goals.",
+     "a": "A strong answer integrates four pillars: (1) Demographic: Deploy ASHA workers for doorstep contraceptive delivery + counselling (addressing unmet need), targeting spacing methods first (culturally acceptable). (2) Educational: Conditional cash transfers for girls' secondary completion (proven to delay marriage), linked to vocational training in agro-processing. (3) Environmental: Converge MGNREGA with watershed development — create water-harvesting structures that recharge aquifers while providing local employment to reduce male out-migration. (4) Livelihood: Promote high-value, low-water crops (millets, pulses) with FPO support to raise farm incomes, reducing the economic rationale for large families. Weak answers list generic \"awareness campaigns\" without addressing the specific constraints (groundwater, out-migration, agrarian economy) — revealing inability to contextualise policy to geographical realities.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

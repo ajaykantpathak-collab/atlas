@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_05_012",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_05_012",
+   "title": "c12_ip_cbse_05_012",
+   "questions": [
+    {
+     "q": "What are the default port numbers for FTP (control connection), Telnet, and SSH?",
+     "a": "FTP control uses TCP port 21, Telnet uses TCP port 23, SSH uses TCP port 22. A wrong answer (e.g., swapping 21 and 22, or saying Telnet uses 22) reveals the student has memorised port numbers without associating them with the protocol's function — FTP/21 for file transfer, Telnet/23 for unencrypted remote login, SSH/22 for encrypted remote login.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"FTP is secure because it asks for a username and password.\" Explain why this statement is incorrect.",
+     "a": "FTP sends username, password, commands, and file data in clear text (no encryption); anyone sniffing the network (e.g., on public Wi-Fi) can capture credentials. The student's error is confusing authentication (proving identity) with confidentiality (protecting data from eavesdropping) — a protocol can authenticate but still be insecure if the authentication exchange itself is unencrypted.",
+     "self_check": true
+    },
+    {
+     "q": "You need to transfer a 500 MB dataset from your home computer to a college Linux server. The college IT policy blocks port 21 but allows port 22. Which protocol and tool would you use, and why?",
+     "a": "Use SFTP (SSH File Transfer Protocol) over port 22 with a tool like FileZilla (SFTP mode), WinSCP, or command-line `sftp`. SFTP runs inside an encrypted SSH tunnel, so it satisfies the port-22-only policy and protects data in transit. A wrong answer suggesting FTPS (FTP over SSL/TLS) would fail because FTPS typically uses port 990 (implicit) or 21 (explicit) and may not be allowed; suggesting plain FTP would violate policy and be insecure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare active FTP and passive FTP in terms of which side initiates the data connection and why passive mode is preferred behind NAT/firewalls.",
+     "a": "In active FTP, the client tells the server its IP and port (PORT command) and the server initiates the data connection from port 20 to the client — this fails when the client is behind NAT because the server cannot reach the client's private IP. In passive FTP, the client sends PASV, the server replies with its IP and a random high port, and the client initiates the data connection to the server — this works behind NAT because the client (inside the NAT) initiates outbound. A wrong answer reversing the initiation direction shows misunderstanding of the PORT/PASV exchange.",
+     "self_check": true
+    },
+    {
+     "q": "Your school admin wants to disable Telnet on all Linux servers and enforce SSH with key-based authentication only (no passwords). Evaluate this decision: is it justified? What specific attack does it prevent that password-based SSH does not?",
+     "a": "Yes, fully justified. Telnet sends everything in clear text — credentials, commands, output — allowing trivial credential theft and session hijacking. Password-based SSH encrypts the session but is still vulnerable to brute-force/credential-stuffing attacks on weak passwords. Key-based SSH (with password login disabled) eliminates password guessing entirely because the private key (typically 2048+ bit RSA or Ed25519) cannot be feasibly brute-forced. A wrong answer saying \"SSH with passwords is fine\" misses the operational risk of automated botnet scans targeting port 22 with common passwords.",
+     "self_check": true
+    },
+    {
+     "q": "Design a secure remote-access setup for a small NGO where three volunteers need to (a) upload/download project files to a central Ubuntu server, and (b) occasionally run administrative commands on that server. Specify protocols, ports, authentication methods, and client tools for each volunteer's Windows laptop.",
+     "a": "(a) File transfer: SFTP over port 22, each volunteer has a user account with SSH key pair (Ed25519); private key stored on their laptop (protected by passphrase), public key in `~/.ssh/authorized_keys` on server. Client: WinSCP or FileZilla (SFTP mode). (b) Remote admin: SSH over port 22, same key-based auth; `PasswordAuthentication no`, `PermitRootLogin no` in `/etc/ssh/sshd_config`. Client: PowerShell `ssh user@server` or PuTTY. No FTP, no Telnet, no password auth. A poor answer would include FTP/Telnet, allow password auth, or omit key management.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

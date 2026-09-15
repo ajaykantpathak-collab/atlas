@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_05_012",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_05_012",
+   "title": "c12_cs_cbse_05_012",
+   "questions": [
+    {
+     "q": "What is the syntactic difference between a non-correlated subquery and a correlated subquery in the WHERE clause?",
+     "a": "A non-correlated subquery does not reference any column from the outer query and executes independently once; a correlated subquery references at least one column from the outer query and is re-evaluated for each row of the outer query. A wrong answer (e.g., \"both reference outer columns\") reveals confusion about execution semantics and leads to incorrect performance expectations.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following query might return unexpected results if the subquery returns NULL:\n```sql\nSELECT name FROM customers WHERE customer_id NOT IN (SELECT customer_id FROM orders);\n```",
+     "a": "If the subquery returns any NULL, the NOT IN condition evaluates to UNKNOWN for every outer row, yielding zero rows. This happens because `value NOT IN (..., NULL)` is equivalent to `value <> ... AND value <> NULL`, and the comparison with NULL is UNKNOWN. A wrong answer (e.g., \"it works fine\") shows misunderstanding of three-valued logic with NULLs.",
+     "self_check": true
+    },
+    {
+     "q": "Write a query to list product names that have never been ordered, using a correlated subquery with NOT EXISTS. Assume tables: products(pid, pname) and orders(oid, pid, qty).",
+     "a": "```sql\nSELECT pname FROM products p WHERE NOT EXISTS (SELECT 1 FROM orders o WHERE o.pid = p.pid);\n```\nSteps: 1) Select from products as outer. 2) For each product, run inner query checking for matching orders. 3) NOT EXISTS returns true when inner returns no rows. A wrong answer using NOT IN without handling NULLs reveals the same pitfall as Question 2.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the performance implications of using a correlated subquery versus a LEFT JOIN / IS NULL pattern for the \"products never ordered\" problem. Which is generally faster in MySQL and why?",
+     "a": "LEFT JOIN / IS NULL is usually faster because the optimizer can use a single pass with a hash join or merge join, while a correlated subquery may execute the inner query once per outer row (though modern optimizers often transform it). A wrong answer claiming correlated subqueries are always faster shows lack of awareness of query optimization.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this query: \"Find students who scored higher than the average marks of their own class.\" The schema: students(sid, name, class_id, marks). The query uses a non-correlated subquery: `SELECT * FROM students WHERE marks > (SELECT AVG(marks) FROM students);`. Is it correct? If not, fix it.",
+     "a": "The query is incorrect because it compares each student's marks to the overall average across all classes, not their own class. The fix requires a correlated subquery: `SELECT * FROM students s1 WHERE marks > (SELECT AVG(marks) FROM students s2 WHERE s2.class_id = s1.class_id);`. A wrong answer that says the original is correct reveals misunderstanding of grouping context.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scenario where a scalar subquery in the SELECT clause is necessary (cannot be easily replaced by a JOIN). Provide the schema and the query.",
+     "a": "Scenario: For each department, show its name and the name of the highest-paid employee. Schema: dept(did, dname), emp(eid, ename, salary, did). Query:\n```sql\nSELECT d.dname,\n       (SELECT e.ename FROM emp e WHERE e.did = d.did ORDER BY e.salary DESC LIMIT 1) AS top_earner\nFROM dept d;\n```\nA JOIN would require window functions or a derived table; the scalar subquery expresses it directly. A poor answer that suggests a simple JOIN without handling ties or duplicates shows incomplete analysis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

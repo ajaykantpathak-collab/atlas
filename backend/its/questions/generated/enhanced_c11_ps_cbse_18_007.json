@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_18_007",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_18_007",
+   "title": "c11_ps_cbse_18_007",
+   "questions": [
+    {
+     "q": "Which year was the 42nd Amendment Act passed, and what is it popularly known as?",
+     "a": "The 42nd Amendment Act was passed in 1976 and is popularly known as the \"Mini-Constitution\". A wrong answer (e.g., 1978 or \"Mini-Constitution\" for 44th) reveals confusion between the two amendments and their chronological order.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the 42nd Amendment add the words \"Socialist\" and \"Secular\" to the Preamble, and what does this signify about the amendment's intent?",
+     "a": "The 42nd Amendment added \"Socialist\" and \"Secular\" to the Preamble to explicitly reflect the state's commitment to these ideals, signalling a shift toward a more authoritarian, centrally controlled vision of governance. A wrong answer that merely states \"to make India socialist and secular\" without linking to the Emergency context shows lack of understanding of the political motivation.",
+     "self_check": true
+    },
+    {
+     "q": "A citizen is detained under a preventive detention law during Emergency. The government claims the 42nd Amendment bars courts from reviewing the detention. Using your knowledge of the 42nd and 44th Amendments, explain whether the citizen can approach the court.",
+     "a": "Under the 42nd Amendment, judicial review of preventive detention was severely curtailed (Article 32 suspended during Emergency). However, the 44th Amendment restored judicial review and made Articles 20 and 21 non-suspendable even during Emergency. So after the 44th Amendment, the citizen can approach the court. A wrong answer that says \"no review at all\" ignores the 44th Amendment's restoration.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 42nd and 44th Amendments on the issue of the duration of Lok Sabha. How did each amendment change the term, and what does this reveal about the balance of power?",
+     "a": "The 42nd Amendment extended the Lok Sabha term from 5 to 6 years (Article 83), while the 44th Amendment reverted it to 5 years. This reveals the 42nd Amendment's attempt to entrench the ruling party's power and the 44th Amendment's correction to restore democratic accountability. A wrong answer that confuses the direction of change indicates misunderstanding of the amendments' opposing thrusts.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The 44th Amendment fully restored the pre-1976 constitutional position.\" Provide two arguments for and two against.",
+     "a": "Arguments for: Restored judicial review, made Articles 20/21 non-suspendable, reverted Lok Sabha term. Arguments against: Did not remove \"Socialist/Secular\" from Preamble, retained some 42nd changes like primacy of Directive Principles over Fundamental Rights (Article 31C), and kept the extended power of Parliament to amend the Constitution (though subject to basic structure). A wrong answer that says \"fully restored\" without nuance shows lack of analytical depth.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph constitutional provision that could have prevented the misuse of amendment power seen in the 42nd Amendment, while still allowing necessary changes.",
+     "a": "A good answer would propose a provision requiring a referendum for amendments affecting fundamental rights, federal structure, or emergency provisions, or a stricter special majority with a time-lapse. A poor answer that simply says \"ban amendments\" shows misunderstanding of the need for a living constitution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

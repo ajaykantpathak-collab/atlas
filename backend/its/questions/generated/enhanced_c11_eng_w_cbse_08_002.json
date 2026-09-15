@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_08_002",
+   "title": "c11_eng_w_cbse_08_002",
+   "questions": [
+    {
+     "q": "What is the narrative point of view in \"The Luncheon,\" and what tense shift signals the transition from frame to flashback?",
+     "a": "The story uses first-person retrospective narration. The frame (opening and closing) is in present tense (\"I caught sight,\" \"she weighs\"), while the flashback shifts to past tense (\"I was living,\" \"she reassured me\"). A wrong answer (e.g., \"third-person omniscient\" or missing the tense shift) reveals the student cannot distinguish narrative voice from character perspective or identify structural time markers.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the narrator's statement \"I had eighty francs (gold francs) to last me the rest of the month\" functions as the exposition's inciting constraint rather than mere background detail.",
+     "a": "This specific financial limit (80 francs) establishes the stakes that drive every subsequent decision: it forces the narrator to calculate each dish's cost, creates the rising tension when prices exceed expectations, and makes the final zero-balance resolution inevitable. A wrong answer treating it as \"setting detail\" shows the student misses how plot constraints generate causal chains—exposition in a tight short story always does double duty as complication.",
+     "self_check": true
+    },
+    {
+     "q": "Map the luncheon scene (from entering Foyot's to paying the bill) onto Freytag's Pyramid, labeling each stage with the specific event that marks its transition.",
+     "a": "Exposition: narrator meets woman at Foyot's (financial constraint established). Rising action: sequential orders—salmon → caviare → champagne → asparagus → peaches/ice-cream/coffee—each escalating cost and narrator's panic. Climax: headwaiter arrives with peaches; narrator realizes he cannot cover the bill + tip. Falling action: bill arrives, narrator pays, leaves with \"not a penny.\" Resolution: handshake, woman's \"humorist\" remark, narrator's \"I'll eat nothing for dinner.\" A wrong mapping (e.g., placing climax at salmon order) reveals inability to distinguish rising complications from the point of maximum tension where the protagonist's agency is exhausted.",
+     "self_check": true
+    },
+    {
+     "q": "How does the retrospective frame (the 20-year gap) transform the luncheon from a humiliating memory into a structured act of narrative revenge?",
+     "a": "The frame creates dramatic irony: the opening \"I hardly think I would have recognised her\" and closing \"Today she weighs twenty-one stone\" bookend the flashback with the narrator's present power. The luncheon becomes a story he *controls* by telling it—the woman's gluttony is frozen in narrative amber while the narrator gets the last word. A wrong answer focusing only on \"he felt better later\" misses the structural point: the narrative architecture itself (frame + flashback + ironic closure) enacts the revenge, not just the passage of time.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether the story's resolution (\"I'll eat nothing for dinner tonight\") is a moment of character growth or a performative deflection that preserves the narrator's dignity at the cost of honesty.",
+     "a": "It is performative deflection: the narrator masks his ruin with a joke (\"humorist\"), converting material loss into verbal wit. The structure supports this—the final line \"I have had my revenge at last\" reveals the narration itself is the coping mechanism. A student calling it \"growth\" ignores the textual evidence: he still cannot say no to a woman (he paid the bill), and his \"revenge\" is passive (waiting for gods/time). The narrative structure—ending with the frame's judgment—confirms the performance.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 50-word micro-sequel from the woman's perspective, using first-person retrospective narration, that mirrors Maugham's structural irony (frame + flashback + ironic closure).",
+     "a": "A strong answer mirrors the structure: present-tense frame (\"I saw him at the theatre, unchanged\"), past-tense flashback (\"I ordered freely, he calculate silently\"), ironic closure (\"Today he still tells that story—thin as ever, still counting francs\"). A weak answer lacks the frame, uses third person, or misses the irony (e.g., making her sympathetic). This tests whether the student can replicate the *structural pattern* as a generative tool.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

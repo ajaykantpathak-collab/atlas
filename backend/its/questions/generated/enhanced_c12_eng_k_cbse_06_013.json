@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_06_013",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_06_013",
+   "title": "c12_eng_k_cbse_06_013",
+   "questions": [
+    {
+     "q": "What is a metaphysical conceit, and how does it differ from a regular metaphor or simile?",
+     "a": "A metaphysical conceit is an extended, intellectually complex comparison between two vastly dissimilar things (e.g., lovers' shadows and the stages of love), developed through logical reasoning and paradox across the poem. A regular metaphor is a brief, direct comparison (e.g., \"love is a rose\"). A wrong answer — such as \"a conceit is just a fancy metaphor\" — reveals the student cannot distinguish the sustained, argumentative nature of metaphysical wit from decorative imagery, which is essential for analyzing Donne.",
+     "self_check": true
+    },
+    {
+     "q": "In \"A Lecture Upon the Shadow,\" the poet says \"Love is a growing, or full constant light; / And his first minute, after noone, is night.\" Explain the paradox in these lines and what it reveals about Donne's view of love's timeline.",
+     "a": "The paradox: love is described as \"growing\" (dynamic, changing) yet also \"full constant light\" (static, unchanging). \"First minute after noon is night\" compresses love's entire decline into a single instant — noon is the peak, and the very next moment is darkness. This reveals Donne's view that love has no stable middle ground: it either achieves perfect transparency (noon) or immediately decays into deception (shadows). A wrong answer that treats \"growing\" and \"constant\" as compatible without tension, or that reads \"night\" as literal rather than metaphorical for love's end, shows the student misses the poem's central argument about love's fragility and the impossibility of sustaining perfection.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the PEEL method to analyze this claim: \"The morning shadows in the poem represent the lovers' early deceptions, while the afternoon shadows represent their self-deception.\" Write a complete PEEL paragraph using specific textual evidence.",
+     "a": "**Point:** The poem distinguishes two types of shadows corresponding to two phases of dishonesty in love. **Evidence:** Morning shadows are \"produced\" by the lovers themselves (\"which we our selves produc'd\") and serve \"to blinde / Others\" — deliberate concealment from the world. Afternoon shadows \"worke upon our selves, and blind our eyes\" — involuntary self-deception. **Explanation:** The shift from transitive (\"blinde Others\") to reflexive (\"blind our eyes\") mirrors love's trajectory: early love performs for an audience; mature love, if it declines, turns inward into delusion. The phrase \"falsely thine\" confirms the beloved becomes a stranger through self-deception. **Link:** This structural parallel proves Donne's thesis — love cannot survive partial truth; it demands the \"brave clearnesse\" of noon or collapses into mutual blindness. A weak answer would quote lines without explaining the grammatical shift from \"Others\" to \"our selves,\" missing the analytical core.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the shadow conceit in this poem with the compass conceit in Donne's \"A Valediction: Forbidding Mourning.\" How does each conceit structure its poem's argument about love differently?",
+     "a": "The shadow conceit is **temporal and degenerative** — it maps love onto the sun's daily arc (morning → noon → afternoon), arguing love's perfection is momentary and its decline inevitable without constant vigilance. The compass conceit is **spatial and sustaining** — it maps lovers onto the fixed foot and moving foot of a compass, arguing separation *strengthens* connection (\"thy firmness makes my circle just\"). The shadow poem uses **entropy** (shadows grow longer, light decays); the compass poem uses **geometry** (circles, centers, firmness). A student who says \"both are about love\" without contrasting temporal decay vs. spatial stability misses the metaphysical method: each conceit *enacts* its philosophy through its own logic.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this interpretation: \"Donne's poem is ultimately pessimistic — it says love *must* decay because 'loves day is short, if love decay.'\" Defend or refute using the poem's structure and final couplet.",
+     "a": "Refute. The conditional \"if love decay\" makes decay a *choice*, not a destiny. The poem's structure offers an alternative: \"Except our loves at this noone stay\" — the imperative \"Stand still\" at the opening is a command to *arrest time* at noon. The final couplet \"Love is a growing, or full constant light\" presents a binary: love must be *actively maintained* (\"growing\") or *perfectly sustained* (\"full constant light\"). The pessimism lies only in the *failure* to choose. A student calling it \"pessimistic\" without addressing the conditional \"if\" and the imperative \"stay\" reads the poem as description rather than argument — missing Donne's metaphysical wit which makes the reader complicit in the lecture.",
+     "self_check": true
+    },
+    {
+     "q": "Create a four-line metaphysical conceit poem (or stanza) that uses a scientific or geometric concept (like Donne's astronomy/geometry) to argue something about modern relationships (e.g., texting, social media, long-distance). Include a paradox.",
+     "a": "*Example:*\nOur chat-bubbles orbit, twin satellites in sync —\nGravity simulated by each ping's brief blink.\nBut signal-lag's the vacuum where meanings decay:\n**We're closest when the server drops the connection.**\n**Criteria for a good answer:** (1) Uses a sustained scientific conceit (satellites, gravity, vacuum, signal-lag), (2) Develops it logically across lines, (3) Contains a genuine paradox (closest when disconnected), (4) Comments on modern relationships. A poor answer uses the concept decoratively (\"our love is like wifi\") without logical development or paradox — confusing metaphor with metaphysical conceit.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

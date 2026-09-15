@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_11_011",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_11_011",
+   "title": "c11_hs_cbse_11_011",
+   "questions": [
+    {
+     "q": "Define dry-cleaning and name the three most common solvents used in commercial dry-cleaning establishments.",
+     "a": "Dry-cleaning is the cleaning of fabrics in a non-aqueous liquid medium using solvents like perchloroethylene, petroleum spirits, or fluorocarbons that do not cause fibre swelling. A wrong answer (e.g., \"cleaning without any liquid\" or naming water, soap, or detergent) reveals the student confuses \"dry\" with \"absence of liquid\" rather than \"absence of water,\" a fundamental misconception about the process medium.",
+     "self_check": true
+    },
+    {
+     "q": "A customer brings a wool suit with a fresh coffee stain (water-soluble) to a dry cleaner. Explain why the dry cleaner must treat this stain on the spot board BEFORE putting the garment in the dry-cleaning machine.",
+     "a": "Dry-cleaning solvents are non-polar and dissolve oily/greasy soils but cannot remove water-soluble stains like coffee, tea, or blood. These must be pre-treated with water-based reagents on the spot board. If the student says \"the solvent will remove all stains\" or \"water damages wool so we never use it,\" they misunderstand that spot treatment uses minimal controlled moisture on stained areas only, and that solvent cleaning alone is insufficient for polar stains.",
+     "self_check": true
+    },
+    {
+     "q": "A care label shows a circle with the letter 'P' inside. A second label shows a crossed-out circle. Interpret both symbols and state which fabrics each applies to, giving one example per symbol.",
+     "a": "Circle with 'P' = dry-clean using perchloroethylene or petroleum solvents (e.g., wool suit, silk saree). Crossed-out circle = do not dry-clean (e.g., PVC-coated rainwear, heavily sequinned garments where solvent dissolves adhesives/coatings). If the student reverses the meanings or gives generic \"dry clean/don't dry clean\" without solvent specificity, they haven't mastered the care label code distinctions required for board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare dry-cleaning and wet washing for a polyester-cotton blend shirt with an oily food stain. Analyse which method better preserves fabric dimensions and which better removes the stain, justifying with fibre-solvent interactions.",
+     "a": "Dry-cleaning better preserves dimensions: polyester and cotton both avoid water-induced swelling/shrinkage. Wet washing with detergent better removes the oily stain *if* proper temperature and surfactant are used, because modern detergents emulsify oils effectively in water. However, dry-cleaning solvent (non-polar) dissolves oil directly without emulsification. A wrong answer claiming \"dry-cleaning always removes oil better\" ignores that water-based enzymatic pre-treat + hot wash can outperform solvent for food oils on polyester-cotton. The student must analyse fibre-solvent-stain triad, not default to \"dry-clean for oil.\"",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since dry-cleaning uses toxic solvents, schools should teach students to avoid 'Dry Clean Only' garments entirely and choose only washable fabrics.\" Defend or critique with three arguments considering fabric performance, economics, and sustainability.",
+     "a": "Critique: (1) Performance: wool, silk, tailored suits, and structured garments *require* dry-cleaning to maintain shape, drape, and finish — washable alternatives often lack these properties. (2) Economics: dry-cleaning extends garment life; replacing a ₹5,000 wool blazer yearly costs more than ₹500/clean. (3) Sustainability: modern closed-loop machines recover 99% solvent; a well-maintained dry-cleaned garment lasting 10 years has lower lifecycle impact than 5 replaced washable ones. A student agreeing uncritically shows inability to evaluate trade-offs — a board-level competency.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step flowchart for a dry-cleaning establishment receiving a batch of 20 mixed garments (silk, wool, polyester, rayon) with various stains (lipstick, mud, wine, grease). Include decision points for spot-testing, solvent selection, and post-cleaning inspection.",
+     "a": "Flowchart must include: 1) Tag & record fibre/content/stains; 2) Sort by fibre type & colour; 3) Spot-test colourfastness on hidden seam; 4) Spot-board: treat water-soluble stains (mud, wine) with appropriate reagents; 5) Treat solvent-soluble stains (lipstick, grease) — may skip if machine handles; 6) Load by compatible groups (silk/wool together in perc; rayon/polyester in petroleum); 7) Machine cycle: wash → extract → dry (solvent recovery); 8) Post-spot any remaining stains; 9) Finish: steam press, replace buttons/sizing; 10) Final inspection against original tag. Missing decision points (e.g., no colourfastness test, no solvent grouping) reveals procedural gaps.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

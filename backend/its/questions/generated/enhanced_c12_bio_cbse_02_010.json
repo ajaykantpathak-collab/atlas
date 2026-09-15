@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_02_010",
+   "title": "c12_bio_cbse_02_010",
+   "questions": [
+    {
+     "q": "What is the ploidy of the primary endosperm nucleus and how is it formed?",
+     "a": "The primary endosperm nucleus is triploid (3n), formed by the fusion of one male gamete with the two haploid polar nuclei (triple fusion). A wrong answer (e.g., diploid or haploid) reveals confusion between syngamy (2n zygote) and triple fusion, or ignorance that polar nuclei are haploid.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the endosperm in a coconut (Cocos nucifera) remain liquid (coconut water) for a long time while in pea (Pisum sativum) it becomes cellular immediately?",
+     "a": "Coconut exhibits nuclear endosperm development: repeated free-nuclear divisions without cytokinesis produce a multinucleate liquid endosperm; cellularization occurs later. Pea shows cellular endosperm development: every nuclear division is followed by cytokinesis. A wrong answer indicates failure to distinguish the three endosperm types and their developmental patterns.",
+     "self_check": true
+    },
+    {
+     "q": "In a typical dicot embryo (e.g., Capsella), the first division of the zygote is transverse and asymmetric. What are the fates of the two resulting cells?",
+     "a": "The larger basal cell forms the suspensor (which pushes the embryo into the endosperm and absorbs nutrients), while the smaller terminal cell gives rise to the entire embryo proper (cotyledons, shoot apex, root apex). A wrong answer (e.g., both cells form embryo) shows misunderstanding of the suspensor’s nutritive role and the strict cell-lineage separation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the embryo structure of a monocot (e.g., maize) and a dicot (e.g., bean) with respect to cotyledon number, position of shoot apex, and protective coverings.",
+     "a": "Monocot: one cotyledon (scutellum), shoot apex lateral and covered by coleoptile, root apex covered by coleorhiza. Dicot: two cotyledons, shoot apex terminal between cotyledons, no coleoptile/coleorhiza. A wrong answer (e.g., maize has two cotyledons) reveals confusion between monocot and dicot embryo organization.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In albuminous seeds like castor, the endosperm persists and nourishes the germinating seedling; in exalbuminous seeds like pea, the endosperm is completely absorbed by the mature embryo.\" Evaluate this statement.",
+     "a": "The statement is correct. Albuminous seeds retain endosperm at maturity (e.g., castor, maize); exalbuminous seeds have no residual endosperm because the embryo consumes it during development (e.g., pea, bean). An incorrect evaluation suggests the student cannot link endosperm fate to seed classification.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a dissecting microscope to observe the stages of embryo development in a cleistogamous flower (e.g., Oxalis) at different days after pollination.",
+     "a": "Collect flowers at 1, 3, 5, 7, 10 days after pollination; fix in FAA, clear in chloral hydrate, and observe under a dissecting microscope. Record zygote division, proembryo, globular, heart, and torpedo stages. A poor design (e.g., no fixation, wrong timing) shows lack of understanding of embryo developmental timeline and histological preparation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

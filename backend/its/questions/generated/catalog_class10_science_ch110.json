@@ -1,0 +1,455 @@
+{
+ "catalog": "catalog_class10_science_ch110.json",
+ "concepts": [
+  {
+   "id": "jesc.10.1",
+   "title": "Structure and Functions of the Human Eye",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the main parts of the human eye.",
+     "a": "Cornea, iris, pupil, eye lens, ciliary muscles, retina and optic nerve.",
+     "self_check": true
+    },
+    {
+     "q": "What is the function of the iris and pupil?",
+     "a": "The iris adjusts the pupil's size to control how much light enters the eye.",
+     "self_check": true
+    },
+    {
+     "q": "Where is the image formed in the eye?",
+     "a": "On the retina, where light-sensitive cells turn it into electrical signals for the brain via the optic nerve.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.10.2",
+   "title": "Power of Accommodation and Limits of Vision",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is power of accommodation?",
+     "a": "The eye lens's ability, by changing focal length through ciliary muscles, to focus near and far objects on the retina.",
+     "self_check": true
+    },
+    {
+     "q": "What is the least distance of distinct vision for a normal eye?",
+     "a": "About 25 cm - objects nearer than this look blurred.",
+     "self_check": true
+    },
+    {
+     "q": "Why can an elderly person not read small print clearly?",
+     "a": "With age the lens stiffens and ciliary muscles weaken, so near objects cannot be focused - presbyopia.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.10.3",
+   "title": "Focal Length and Power Relation",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "focal_m",
+     "expr": "1 / power",
+     "explain": "f (metres) is the reciprocal of power (dioptres)"
+    },
+    {
+     "step": 2,
+     "name": "focal_mm",
+     "expr": "focal_m * 1000",
+     "explain": "focal length in millimetres"
+    },
+    {
+     "step": 3,
+     "name": "focal_cm",
+     "expr": "focal_m * 100",
+     "explain": "express the focal length in centimetres"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A corrective lens has power +2 D. What is its focal length in cm?",
+     "vals": {
+      "power": 2
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "50 cm",
+     "self_check": false
+    },
+    {
+     "q": "Find the focal length in cm of a +4 D lens used for reading.",
+     "vals": {
+      "power": 4
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "25 cm",
+     "self_check": false
+    },
+    {
+     "q": "A weak lens of power 0.5 D is ordered. Convert this to a focal length in cm.",
+     "vals": {
+      "power": 0.5
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "200 cm",
+     "self_check": false
+    },
+    {
+     "q": "A myopic patient wears -2 D lenses. What focal length (in cm) do they correspond to?",
+     "vals": {
+      "power": -2
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "-50 cm",
+     "self_check": false
+    },
+    {
+     "q": "An optician stocks a +5 D lens. Give its focal length in centimetres.",
+     "vals": {
+      "power": 5
+     },
+     "unit": "cm",
+     "steps": null,
+     "a": "20 cm",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.10.4",
+   "title": "Myopia and its Lens Correction",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "ratio",
+     "expr": "100 / far_point_cm",
+     "explain": "focal length in cm = -far point for a myopic eye"
+    },
+    {
+     "step": 2,
+     "name": "far_point_m",
+     "expr": "far_point_cm / 100",
+     "explain": "far point expressed in metres"
+    },
+    {
+     "step": 3,
+     "name": "power_d",
+     "expr": "0 - ratio",
+     "explain": "the correcting lens is a negative (concave) lens"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A myopic eye has a far point 50 cm from the eye. What power of lens corrects it?",
+     "vals": {
+      "far_point_cm": 50
+     },
+     "unit": "D",
+     "steps": null,
+     "a": "-2 D",
+     "self_check": false
+    },
+    {
+     "q": "The far point of a defective eye is 40 cm. Compute the correcting lens power.",
+     "vals": {
+      "far_point_cm": 40
+     },
+     "unit": "D",
+     "steps": null,
+     "a": "-2.5 D",
+     "self_check": false
+    },
+    {
+     "q": "A student cannot see beyond 25 cm clearly. What lens power does he need?",
+     "vals": {
+      "far_point_cm": 25
+     },
+     "unit": "D",
+     "steps": null,
+     "a": "-4 D",
+     "self_check": false
+    },
+    {
+     "q": "For a person whose far point is 100 cm, find the corrective lens power.",
+     "vals": {
+      "far_point_cm": 100
+     },
+     "unit": "D",
+     "steps": null,
+     "a": "-1 D",
+     "self_check": false
+    },
+    {
+     "q": "A myopic patient's far point is 20 cm. Calculate the required power.",
+     "vals": {
+      "far_point_cm": 20
+     },
+     "unit": "D",
+     "steps": null,
+     "a": "-5 D",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.10.5",
+   "title": "Hypermetropia and its Lens Correction",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "add_power",
+     "expr": "100 / near_point_cm",
+     "explain": "the lens must image a 25 cm object at the near point"
+    },
+    {
+     "step": 2,
+     "name": "near_point_m",
+     "expr": "near_point_cm / 100",
+     "explain": "near point expressed in metres"
+    },
+    {
+     "step": 3,
+     "name": "power_d",
+     "expr": "4 - add_power",
+     "explain": "P = 4 - 100/near point (cm) for hypermetropia"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A hypermetropic eye has near point 50 cm. Find the power of the correcting lens.",
+     "vals": {
+      "near_point_cm": 50
+     },
+     "unit": "D",
+     "steps": null,
+     "a": "2 D",
+     "self_check": false
+    },
+    {
+     "q": "The near point of an old person's eye has drifted to 40 cm. What lens power is prescribed?",
+     "vals": {
+      "near_point_cm": 40
+     },
+     "unit": "D",
+     "steps": null,
+     "a": "1.5 D",
+     "self_check": false
+    },
+    {
+     "q": "A person cannot see objects nearer than 100 cm. What converging lens power helps him read at 25 cm?",
+     "vals": {
+      "near_point_cm": 100
+     },
+     "unit": "D",
+     "steps": null,
+     "a": "3 D",
+     "self_check": false
+    },
+    {
+     "q": "For a near point of 200 cm, calculate the corrective lens power.",
+     "vals": {
+      "near_point_cm": 200
+     },
+     "unit": "D",
+     "steps": null,
+     "a": "3.5 D",
+     "self_check": false
+    },
+    {
+     "q": "An eye with near point 80 cm needs a convex lens. Compute its power.",
+     "vals": {
+      "near_point_cm": 80
+     },
+     "unit": "D",
+     "steps": null,
+     "a": "2.75 D",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.10.6",
+   "title": "Presbyopia",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is presbyopia and how is it corrected?",
+     "a": "Loss of the eye's power of accommodation with age; it is corrected using bifocal lenses (upper concave, lower convex).",
+     "self_check": true
+    },
+    {
+     "q": "Name the defects when both myopia and hypermetropia occur together.",
+     "a": "Presbyopia, needing bifocal lenses.",
+     "self_check": true
+    },
+    {
+     "q": "Why does cataract blur vision and what is its remedy?",
+     "a": "The eye lens turns milky and opaque; surgery removes the cloudy lens and an artificial lens restores vision.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.10.7",
+   "title": "Refraction of Light through a Prism",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "sum_angles",
+     "expr": "angle_incidence + angle_emergence",
+     "explain": "add the incidence and emergence angles at the two faces"
+    },
+    {
+     "step": 2,
+     "name": "half_bend",
+     "expr": "sum_angles / 2",
+     "explain": "average bending at the two faces"
+    },
+    {
+     "step": 3,
+     "name": "angle_deviation",
+     "expr": "sum_angles - angle_prism",
+     "explain": "deviation = (i + e) - prism angle A"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Light passes through a prism of angle 60 deg with angle of incidence 40 deg and emergence 40 deg. Find the angle of deviation.",
+     "vals": {
+      "angle_incidence": 40,
+      "angle_emergence": 40,
+      "angle_prism": 60
+     },
+     "unit": "deg",
+     "steps": null,
+     "a": "20 deg",
+     "self_check": false
+    },
+    {
+     "q": "In a 60 deg prism, i = 45 deg and e = 45 deg. Calculate the deviation.",
+     "vals": {
+      "angle_incidence": 45,
+      "angle_emergence": 45,
+      "angle_prism": 60
+     },
+     "unit": "deg",
+     "steps": null,
+     "a": "30 deg",
+     "self_check": false
+    },
+    {
+     "q": "A ray enters a 60 deg prism at 50 deg and leaves at 40 deg. What is the angle of deviation?",
+     "vals": {
+      "angle_incidence": 50,
+      "angle_emergence": 40,
+      "angle_prism": 60
+     },
+     "unit": "deg",
+     "steps": null,
+     "a": "30 deg",
+     "self_check": false
+    },
+    {
+     "q": "For a prism with A = 60 deg, i = 55 deg and e = 45 deg, compute the deviation.",
+     "vals": {
+      "angle_incidence": 55,
+      "angle_emergence": 45,
+      "angle_prism": 60
+     },
+     "unit": "deg",
+     "steps": null,
+     "a": "40 deg",
+     "self_check": false
+    },
+    {
+     "q": "A thin prism of angle 50 deg is traversed by a ray with i = 30 deg and e = 50 deg. Find the deviation.",
+     "vals": {
+      "angle_incidence": 30,
+      "angle_emergence": 50,
+      "angle_prism": 50
+     },
+     "unit": "deg",
+     "steps": null,
+     "a": "30 deg",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.10.8",
+   "title": "Dispersion of White Light",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is dispersion of light?",
+     "a": "Splitting of white light into its seven constituent colours because each colour bends by a different amount in a prism.",
+     "self_check": true
+    },
+    {
+     "q": "Which colour bends most and which least while passing through a prism?",
+     "a": "Violet bends the most and red the least.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the sky look blue?",
+     "a": "Air molecules scatter short-wavelength blue light much more strongly than red, so scattered blue reaches our eyes.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.10.9",
+   "title": "Atmospheric Refraction",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is atmospheric refraction?",
+     "a": "Bending of light passing through layers of air of changing density, which shifts the apparent position of stars.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the sun appear to rise about two minutes before actual sunrise?",
+     "a": "Atmospheric refraction bends sunlight so we see the sun's image even when it is still below the horizon.",
+     "self_check": true
+    },
+    {
+     "q": "Why do stars twinkle but planets do not?",
+     "a": "Starlight refracts through shifting air layers, changing brightness; planets are close enough to appear as steady extended sources.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.10.10",
+   "title": "Scattering of Light and Tyndall Effect",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is the Tyndall effect?",
+     "a": "Scattering of a light beam by colloidal particles, making the beam's path visible, as sunlight in a misty forest.",
+     "self_check": true
+    },
+    {
+     "q": "Why do clouds look white or sometimes red at sunset?",
+     "a": "Large droplets scatter all colours alike (white); at sunset light travels through more air, red dominates after scattering.",
+     "self_check": true
+    },
+    {
+     "q": "What colour would the sky appear without any atmosphere?",
+     "a": "Black - with no air there is no scattering of sunlight towards the eye.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

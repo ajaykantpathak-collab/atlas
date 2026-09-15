@@ -1,0 +1,71 @@
+{
+ "catalog": "catalog_class10_science_jesc105.json",
+ "concepts": [
+  {
+   "id": "jesc.105.5.1",
+   "title": "Nutrition - Autotrophic and Heterotrophic",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Distinguish autotrophic and heterotrophic nutrition with examples.",
+     "a": "Autotrophs make food from CO2 and water using sunlight (plants); heterotrophs depend on ready food (animals, fungi).",
+     "self_check": true
+    },
+    {
+     "q": "How does amoeba take its food?",
+     "a": "It surrounds food with finger-like pseudopodia forming a food vacuole, where digestion occurs.",
+     "self_check": true
+    },
+    {
+     "q": "What is parasitic nutrition?",
+     "a": "Drawing nourishment from another living organism (host) without killing it at once, e.g. tapeworm, cuscuta.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.105.5.2",
+   "title": "Respiration and Transport",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why is oxygen transport efficient in humans?",
+     "a": "The pigment haemoglobin carries large amounts of oxygen from lungs to tissues.",
+     "self_check": true
+    },
+    {
+     "q": "State the path of food after swallowing.",
+     "a": "Food pipe (oesophagus) -> stomach -> small intestine -> large intestine; digestion and absorption mostly in the small intestine.",
+     "self_check": true
+    },
+    {
+     "q": "Why do plants not need a circulatory system like animals?",
+     "a": "Each plant part is close to water and minerals carried by xylem, and phloem moves food - no pumping organ is needed.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.105.5.3",
+   "title": "Excretion in Humans and Plants",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How is urine formed in the nephron?",
+     "a": "Blood is filtered in the glomerulus; the filtrate loses water, glucose and salts by reabsorption, leaving urine.",
+     "self_check": true
+    },
+    {
+     "q": "Name two excretory products of plants useful to humans.",
+     "a": "Resins and gums (also natural rubber).",
+     "self_check": true
+    },
+    {
+     "q": "Why must aquatic animals excrete ammonia directly?",
+     "a": "Water around them dissolves and carries ammonia away instantly, so it needs no conversion to urea.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

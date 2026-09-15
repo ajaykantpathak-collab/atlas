@@ -1,0 +1,780 @@
+{
+ "class": 6,
+ "subject": "maths",
+ "chapter": 101,
+ "chapter_title": "Patterns in Mathematics",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\fegp101.txt",
+ "concepts": [
+  {
+   "id": "fegp.101.1.2.1",
+   "title": "Number Theory",
+   "section": "1.2",
+   "definition": "The field that studies how whole numbers build sequences, and which regularities those sequences show, is commonly called the theory of numbers.",
+   "formula": "whole_numbers = 0, 1, 2, 3, 4, ...",
+   "key_idea": "Looking for order among 0, 1, 2, 3, ... and explaining why counting sequences behave so regularly.",
+   "textbook_ref": "fegp101.txt lines 35-40",
+   "question_patterns": [
+    "What is number theory?",
+    "Define the branch of mathematics that studies whole number patterns",
+    "Which branch of math deals with number sequences?",
+    "Describe the questions that number theory tries to answer",
+    "Which area of mathematics looks at counting sequences and their regularities?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the subject",
+     "explain": "The study of patterns in whole numbers is defined as number theory."
+    },
+    {
+     "step": 2,
+     "action": "list the whole number sequence and observe regularities",
+     "explain": "Whole numbers 0, 1, 2, 3, ... follow a fixed counting order, which is the starting point for number theory."
+    },
+    {
+     "step": 3,
+     "action": "confirm the definition applies to the question",
+     "explain": "Any question about how counting sequences behave or why they show regularity falls under number theory."
+    }
+   ]
+  },
+  {
+   "id": "fegp.101.1.2.2",
+   "title": "Triangular Numbers",
+   "section": "1.2",
+   "definition": "Counts of dots that stack into a triangle: 1, 3, 6, 10, 15, ... Each fresh row holds one more dot than the row above it.",
+   "formula": "term = n * (n + 1) / 2",
+   "key_idea": "T(n) = 1 + 2 + ... + n = n x (n + 1) / 2 -- each added row grows the picture by one more dot.",
+   "textbook_ref": "fegp101.txt lines 45-55, 85-95",
+   "question_patterns": [
+    "Find the nth triangular number",
+    "What is the value of the triangular number at position n?",
+    "Calculate the nth term of the sequence 1, 3, 6, 10...",
+    "How many dots are in the nth triangular pattern?",
+    "How much is the 10th triangular number?",
+    "What is T(7) in the sequence 1, 3, 6, 10, 15...?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find next integer",
+     "explain": "The formula involves n and n+1",
+     "compute": "next_val = n + 1"
+    },
+    {
+     "step": 2,
+     "action": "multiply and divide",
+     "explain": "The nth triangular number is half the product of n and n+1",
+     "compute": "term = n * next_val / 2"
+    },
+    {
+     "step": 3,
+     "action": "verify the result matches the dot-stacking pattern",
+     "explain": "Each new row adds one more dot than the previous row, so the total dots form a triangle of height n."
+    }
+   ]
+  },
+  {
+   "id": "fegp.101.1.2.3",
+   "title": "Square Numbers",
+   "section": "1.2",
+   "definition": "Counts of dots that fill a square grid: 1, 4, 9, 16, 25, ... You get them by taking a number times itself.",
+   "formula": "term = n * n",
+   "key_idea": "n x n dots tile an n by n grid; the running totals of odd values (1, 1+3, 1+3+5, ...) build exactly these counts.",
+   "textbook_ref": "fegp101.txt lines 45-55, 80-90",
+   "question_patterns": [
+    "How many dots fill the nth square-dot grid: 1, 4, 9, 16...?",
+    "Find the nth square number",
+    "What is the square of n?",
+    "Calculate the nth term in the sequence 1, 4, 9, 16...",
+    "How many dots form a square of side n?",
+    "How much is the 12th square number?",
+    "What value does 9 x 9 give in the sequence 1, 4, 9, 16...?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply n by itself",
+     "explain": "The area of a square grid with side n is n squared",
+     "compute": "term = n * n"
+    },
+    {
+     "step": 2,
+     "action": "confirm the result fills an n by n grid",
+     "explain": "An n by n grid holds exactly n*n dots, matching the sequence 1, 4, 9, 16, ..."
+    },
+    {
+     "step": 3,
+     "action": "check against the odd-number running total",
+     "explain": "The sum of the first n odd numbers also equals n*n, providing a second way to verify the square count."
+    }
+   ]
+  },
+  {
+   "id": "fegp.101.1.2.4",
+   "title": "Cube Numbers",
+   "section": "1.2",
+   "definition": "Counts of dots that pack a cube: 1, 8, 27, 64, ... You get them by taking a number times itself, twice over.",
+   "formula": "term = n ** 3",
+   "key_idea": "Cubing, n ** 3, counts an n by n by n block of unit cubes.",
+   "textbook_ref": "fegp101.txt lines 45-55, 90-100",
+   "question_patterns": [
+    "Find the nth cube number",
+    "What is n cubed?",
+    "Calculate the nth term in the sequence 1, 8, 27, 64...",
+    "How many dots are in a cube of side n?",
+    "How much is the 5th cube number?",
+    "What do you get when 6 is cubed?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "raise n to the power of 3",
+     "explain": "The volume of a cube with side n is n cubed",
+     "compute": "term = n ** 3"
+    },
+    {
+     "step": 2,
+     "action": "confirm the result fills an n by n by n block",
+     "explain": "An n by n by n arrangement of unit cubes holds exactly n**3 dots, matching the sequence 1, 8, 27, 64, ..."
+    },
+    {
+     "step": 3,
+     "action": "verify against the hexagonal-number running total",
+     "explain": "The sum of the first n hexagonal numbers equals n**3, giving a second check on the cube count."
+    }
+   ]
+  },
+  {
+   "id": "fegp.101.1.4.1",
+   "title": "Sum of Consecutive Odd Numbers",
+   "section": "1.4",
+   "definition": "Add up odd values beginning at 1 -- 1 + 3 + 5 + ... -- and the running answer keeps landing on a square count.",
+   "formula": "sum = n * n",
+   "key_idea": "After the opening k odd values the total is k x k; every fresh odd value grows the picture into the next square.",
+   "textbook_ref": "fegp101.txt lines 125-140",
+   "question_patterns": [
+    "Find the sum of the first n odd numbers",
+    "What is the sum of 1 + 3 + 5 + ... up to n terms?",
+    "Calculate the sum of the first 100 odd numbers",
+    "How much is the sum of odd numbers from 1 to 2n-1?",
+    "Calculate the total of the opening 50 odd values.",
+    "What is 1 plus 3 plus 5 plus 7 plus 9?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the count of numbers",
+     "explain": "The sum of the first n odd numbers is n squared",
+     "compute": "sum = n * n"
+    },
+    {
+     "step": 2,
+     "action": "identify the nth odd number as 2n-1",
+     "explain": "The odd numbers being added are 1, 3, 5, ..., (2n-1), confirming there are n terms in the sum.",
+     "compute": "last_term = 2 * n - 1"
+    },
+    {
+     "step": 3,
+     "action": "verify the total matches a square-dot count",
+     "explain": "Each added odd value grows the dot picture into the next square, so the running total after n terms is n*n."
+    }
+   ]
+  },
+  {
+   "id": "fegp.101.1.4.2",
+   "title": "Sum of Counting Numbers Up and Down",
+   "section": "1.4",
+   "definition": "Climb 1 + 2 + ... up to some peak, then descend back to 1; the grand total always equals the peak times itself.",
+   "formula": "sum = peak * peak",
+   "key_idea": "1 + 2 + ... + (n-1) + n + (n-1) + ... + 2 + 1 = n x n for any peak n.",
+   "textbook_ref": "fegp101.txt lines 155-165",
+   "question_patterns": [
+    "Find the sum of numbers 1 to n and back to 1",
+    "What is the value of 1 + 2 + ... + peak + ... + 2 + 1?",
+    "Calculate the sum up and down with peak n",
+    "Find the sum 1 + 2 + 3 + 2 + 1",
+    "How much is 1 + 2 + 3 + 4 + 5 + 4 + 3 + 2 + 1?",
+    "Calculate the up-and-down total whose peak is 10."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the peak value",
+     "explain": "The sum of the sequence increasing to n and decreasing to 1 is n squared",
+     "compute": "sum = peak * peak"
+    },
+    {
+     "step": 2,
+     "action": "count the terms on each side of the peak",
+     "explain": "The sequence has (peak-1) terms rising to the peak and (peak-1) terms falling back, plus the peak itself."
+    },
+    {
+     "step": 3,
+     "action": "verify the total matches a square-dot grid",
+     "explain": "Two interlocking staircases of dots form a peak by peak square, confirming the sum equals peak*peak."
+    }
+   ]
+  },
+  {
+   "id": "fegp.101.1.4.5",
+   "title": "Sum of Consecutive Triangular Numbers",
+   "section": "1.4",
+   "definition": "Take any triangular count, add the very next one, and the answer is always a square count.",
+   "formula": "sum = n * n",
+   "key_idea": "T(n-1) + T(n) = n x n -- two staircases interlock into an n by n grid.",
+   "textbook_ref": "fegp101.txt lines 180-185",
+   "question_patterns": [
+    "What is the sum of the (n-1)th and nth triangular numbers?",
+    "Add consecutive triangular numbers at positions n-1 and n",
+    "Show that the sum of two consecutive triangular numbers is a square",
+    "Find the total when T(6) and T(7) are added.",
+    "Which square count equals T(8) + T(9)?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the larger index",
+     "explain": "T(n-1) + T(n) = n^2",
+     "compute": "sum = n * n"
+    },
+    {
+     "step": 2,
+     "action": "compute each triangular number separately",
+     "explain": "T(n-1) = (n-1)*n/2 and T(n) = n*(n+1)/2, so their sum can be checked term by term.",
+     "compute": "t_prev = (n - 1) * n / 2"
+    },
+    {
+     "step": 3,
+     "action": "verify the two triangles interlock into a square",
+     "explain": "Two staircases of dots fit together to fill an n by n grid, confirming the sum is n*n."
+    }
+   ]
+  },
+  {
+   "id": "fegp.101.1.4.8",
+   "title": "Hexagonal Numbers",
+   "section": "1.4",
+   "definition": "A growing sequence 1, 7, 19, 37, ... whose dot picture wraps one ring around a hexagon at every stage.",
+   "formula": "term = 3 * n * (n - 1) + 1",
+   "key_idea": "H(n) = 1 + 6 x T(n-1), i.e. 3n(n-1) + 1 -- each ring holds six more dots than the previous ring.",
+   "textbook_ref": "fegp101.txt lines 110-115, 190-195",
+   "question_patterns": [
+    "Find the nth hexagonal number",
+    "Calculate the nth term of 1, 7, 19, 37...",
+    "What is the next number in the hexagonal sequence?",
+    "How much is the 6th hexagonal number?",
+    "Calculate the hexagon count at position 10."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find product of n and n-1",
+     "explain": "The formula uses n and the previous integer",
+     "compute": "prod = n * (n - 1)"
+    },
+    {
+     "step": 2,
+     "action": "multiply by 3 and add 1",
+     "explain": "The nth hexagonal term is 3*n*(n-1) + 1",
+     "compute": "term = 3 * prod + 1"
+    },
+    {
+     "step": 3,
+     "action": "verify the result matches the hexagon ring picture",
+     "explain": "Each new ring around the hexagon adds six more dots than the previous ring, so the total follows 1 + 6*T(n-1)."
+    }
+   ]
+  },
+  {
+   "id": "fegp.101.1.4.9",
+   "title": "Sum of Hexagonal Numbers",
+   "section": "1.4",
+   "definition": "Total up 1 + 7 + 19 + 37 + ... (the hexagon counts) and the answer lands on a cube count every time.",
+   "formula": "sum = n ** 3",
+   "key_idea": "Totalling the opening n hexagon counts yields n ** 3.",
+   "textbook_ref": "fegp101.txt lines 195-200",
+   "question_patterns": [
+    "Find the sum of the first n hexagonal numbers",
+    "What do you get when you add 1 + 7 + 19 + ... up to n terms?",
+    "Calculate the sum of hexagonal numbers up to position n",
+    "How much is 1 + 7 + 19 + 37 + 61?",
+    "Calculate the total of the opening 4 hexagon counts."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "cube the count",
+     "explain": "The sum of the first n hexagonal numbers is n cubed",
+     "compute": "sum = n ** 3"
+    },
+    {
+     "step": 2,
+     "action": "list the hexagonal terms being added",
+     "explain": "The terms are 1, 7, 19, 37, ... and each is found using 3*k*(k-1)+1 for k from 1 to n."
+    },
+    {
+     "step": 3,
+     "action": "verify the running total lands on a cube",
+     "explain": "Adding the hexagon counts one by one gives totals 1, 8, 27, 64, ..., which are exactly the cube numbers."
+    }
+   ]
+  },
+  {
+   "id": "fegp.101.1.6.1",
+   "title": "Regular Polygons Properties",
+   "section": "1.6",
+   "definition": "A closed, straight-sided figure in which every side matches every other in measure and every corner matches every other in size.",
+   "formula": "sides = corners",
+   "key_idea": "Each side of a regular polygon closes at exactly one corner, so the two counts always agree.",
+   "textbook_ref": "fegp101.txt lines 225-240",
+   "question_patterns": [
+    "How many corners does a regular polygon with n sides have?",
+    "Compare the number of sides and corners in a regular pentagon",
+    "If a regular polygon has n corners, how many sides does it have?",
+    "How many sides does a regular polygon with 7 corners have?",
+    "What holds true for side lengths and angles in a regular hexagon?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "equate sides and corners",
+     "explain": "In any closed polygon, the number of sides equals the number of corners."
+    },
+    {
+     "step": 2,
+     "action": "check that all sides have equal length",
+     "explain": "A regular polygon requires every side to match every other side in measure."
+    },
+    {
+     "step": 3,
+     "action": "check that all angles have equal size",
+     "explain": "A regular polygon also requires every corner angle to match every other corner angle, confirming full regularity."
+    }
+   ]
+  },
+  {
+   "id": "fegp.101.1.6.5",
+   "title": "Koch Snowflake Segments",
+   "section": "1.6",
+   "definition": "A fractal curve built by swapping every straight piece for a small hump motif, then repeating that swap at ever smaller scales.",
+   "formula": "segments = 3 * (4 ** (n - 1))",
+   "key_idea": "Each round multiplies the piece count by 4, so after n-1 rounds a triangle edge set holds 3 x 4**(n-1) pieces.",
+   "textbook_ref": "fegp101.txt lines 260-270",
+   "question_patterns": [
+    "How many line segments are in the nth iteration of the Koch snowflake?",
+    "Calculate the number of segments in Koch snowflake at step n",
+    "Find the total line segments if the sequence starts 3, 12, 48...",
+    "How many pieces does the Koch curve hold at iteration 4?",
+    "Calculate the piece count after 3 rounds of hump replacement."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine power of 4",
+     "explain": "The number of segments grows by a factor of 4 each step, starting from 3 segments at n=1",
+     "compute": "exponent = n - 1"
+    },
+    {
+     "step": 2,
+     "action": "calculate total segments",
+     "explain": "Multiply 3 by 4 raised to the power of (n-1)",
+     "compute": "segments = 3 * (4 ** exponent)"
+    },
+    {
+     "step": 3,
+     "action": "verify the growth factor of 4",
+     "explain": "Each iteration replaces every straight segment with 4 smaller segments, so the count multiplies by 4 each step."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fegp101.txt lines 125-135",
+   "concept": "fegp.101.1.4.1",
+   "question_type": "compute",
+   "question_pattern": "What is the sum of the first {n} odd numbers?",
+   "extracted_variables": {
+    "n": "number of terms"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the count",
+     "explain": "The sum of the first n odd numbers is n*n",
+     "compute": "sum = n * n"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fegp101.txt lines 155-165",
+   "concept": "fegp.101.1.4.2",
+   "question_type": "compute",
+   "question_pattern": "What is the value of 1 + 2 + ... + {peak} + ... + 2 + 1?",
+   "extracted_variables": {
+    "peak": "the highest number in the sequence"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the peak",
+     "explain": "The sum of counting numbers up and down is peak squared",
+     "compute": "sum = peak * peak"
+    }
+   ]
+  },
+  {
+   "concept": "fegp.101.1.2.2",
+   "question_pattern": "What is the {n}th triangular number?",
+   "extracted_variables": {
+    "n": "10"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "substitute into the formula",
+     "explain": "T(10) = 10 x 11 / 2",
+     "compute": "term = n * (n + 1) / 2"
+    }
+   ],
+   "id": "ex3",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.101.1.2.3",
+   "question_pattern": "What is the {n}th square number?",
+   "extracted_variables": {
+    "n": "9"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take n times itself",
+     "explain": "9 x 9 = 81",
+     "compute": "term = n * n"
+    }
+   ],
+   "id": "ex4",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.101.1.2.4",
+   "question_pattern": "How much is {n} cubed?",
+   "extracted_variables": {
+    "n": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take n to the power 3",
+     "explain": "4 ** 3 = 64",
+     "compute": "term = n ** 3"
+    }
+   ],
+   "id": "ex5",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.101.1.4.1",
+   "question_pattern": "Calculate the total of the opening {n} odd values.",
+   "extracted_variables": {
+    "n": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the count",
+     "explain": "5 x 5 = 25",
+     "compute": "sum = n * n"
+    }
+   ],
+   "id": "ex6",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.101.1.4.2",
+   "question_pattern": "How much is 1 + 2 + ... + {peak} + ... + 2 + 1?",
+   "extracted_variables": {
+    "peak": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the peak",
+     "explain": "4 x 4 = 16",
+     "compute": "sum = peak * peak"
+    }
+   ],
+   "id": "ex7",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.101.1.4.5",
+   "question_pattern": "What square do you get when T({n}) and the next triangular count are added?",
+   "extracted_variables": {
+    "n": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the larger index",
+     "explain": "T(4) + T(5) = 5 x 5 = 25",
+     "compute": "sum = n * n"
+    }
+   ],
+   "id": "ex8",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.101.1.4.8",
+   "question_pattern": "How much is the {n}th hexagonal number?",
+   "extracted_variables": {
+    "n": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "build the product",
+     "explain": "4 x 3 = 12",
+     "compute": "prod = n * (n - 1)"
+    },
+    {
+     "step": 2,
+     "action": "scale and shift",
+     "explain": "3 x 12 + 1 = 37",
+     "compute": "term = 3 * prod + 1"
+    }
+   ],
+   "id": "ex9",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.101.1.4.9",
+   "question_pattern": "What is 1 + 7 + 19 + ... up to {n} hexagon counts?",
+   "extracted_variables": {
+    "n": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "cube the count",
+     "explain": "4 ** 3 = 64",
+     "compute": "sum = n ** 3"
+    }
+   ],
+   "id": "ex10",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.101.1.6.5",
+   "question_pattern": "How many pieces does the snowflake curve hold at iteration {n}?",
+   "extracted_variables": {
+    "n": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "reduce the power",
+     "explain": "3 - 1 = 2",
+     "compute": "exponent = n - 1"
+    },
+    {
+     "step": 2,
+     "action": "scale the edge count",
+     "explain": "3 x 4 ** 2 = 48",
+     "compute": "segments = 3 * (4 ** exponent)"
+    }
+   ],
+   "id": "ex11",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.101.1.2.2",
+   "question_pattern": "Find the triangular count for row {n}.",
+   "extracted_variables": {
+    "n": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "substitute into the formula",
+     "explain": "T(7) = 7 x 8 / 2 = 28",
+     "compute": "term = n * (n + 1) / 2"
+    }
+   ],
+   "id": "ex12",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.101.1.2.3",
+   "question_pattern": "How many dots fill a {n} by {n} grid?",
+   "extracted_variables": {
+    "n": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take n times itself",
+     "explain": "6 x 6 = 36",
+     "compute": "term = n * n"
+    }
+   ],
+   "id": "ex13",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.101.1.2.4",
+   "question_pattern": "What is {n} taken three times over (cubed)?",
+   "extracted_variables": {
+    "n": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take n to the power 3",
+     "explain": "3 ** 3 = 27",
+     "compute": "term = n ** 3"
+    }
+   ],
+   "id": "ex14",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.101.1.4.5",
+   "question_pattern": "Add the triangular counts at positions {n} and {m}.",
+   "extracted_variables": {
+    "n": "3",
+    "m": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the larger index",
+     "explain": "T(3) + T(4) = 6 + 10 = 16",
+     "compute": "sum = m * m"
+    }
+   ],
+   "id": "ex15",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.101.1.4.8",
+   "question_pattern": "Calculate the hexagon count at position {n}.",
+   "extracted_variables": {
+    "n": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "build the product",
+     "explain": "6 x 5 = 30",
+     "compute": "prod = n * (n - 1)"
+    },
+    {
+     "step": 2,
+     "action": "scale and shift",
+     "explain": "3 x 30 + 1 = 91",
+     "compute": "term = 3 * prod + 1"
+    }
+   ],
+   "id": "ex16",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.101.1.4.9",
+   "question_pattern": "Find the cube you land on after adding {n} hexagon counts.",
+   "extracted_variables": {
+    "n": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "cube the count",
+     "explain": "1 + 7 + 19 = 27 = 3 ** 3",
+     "compute": "sum = n ** 3"
+    }
+   ],
+   "id": "ex17",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.101.1.6.5",
+   "question_pattern": "How many pieces has the snowflake curve after {n} rounds?",
+   "extracted_variables": {
+    "n": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "reduce the power",
+     "explain": "4 - 1 = 3",
+     "compute": "exponent = n - 1"
+    },
+    {
+     "step": 2,
+     "action": "scale the edge count",
+     "explain": "3 x 4 ** 3 = 192",
+     "compute": "segments = 3 * (4 ** exponent)"
+    }
+   ],
+   "id": "ex18",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.4",
+   "source_ref": "fegp101.txt lines 145-150",
+   "questions": [
+    "Can you say what is the sum of the first 10 odd numbers?",
+    "Can you say what is the sum of the first 100 odd numbers?"
+   ]
+  },
+  {
+   "id": "ex1.4.fig",
+   "source_ref": "fegp101.txt lines 170-175",
+   "questions": [
+    "What will be the value of 1 + 2 + 3 + ... + 99 + 100 + 99 + ... + 3 + 2 + 1?"
+   ]
+  },
+  {
+   "id": "ex1.6.fig",
+   "source_ref": "fegp101.txt lines 245-270",
+   "questions": [
+    "Count the number of lines in each shape in the sequence of Complete Graphs. Which number sequence do you get?",
+    "How many total line segments are there in each shape of the Koch Snowflake?"
+   ]
+  }
+ ],
+ "source_link": "re-linked to new cache"
+}

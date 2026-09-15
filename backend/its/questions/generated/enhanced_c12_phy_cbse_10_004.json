@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_10_004",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_10_004",
+   "title": "c12_phy_cbse_10_004",
+   "questions": [
+    {
+     "q": "Two identical tuning forks of frequency 512 Hz are struck simultaneously. Fork A is at x = 0 m, Fork B is at x = 1.5 m. A microphone at x = 3.0 m detects sound. Speed of sound = 340 m/s. Are the two sources coherent? What is the phase difference at the microphone?",
+     "a": "Yes, the sources are coherent because they have the same frequency (512 Hz) and maintain a constant phase relationship (both struck simultaneously). Wavelength λ = v/f = 340/512 = 0.664 m. Path difference Δx = (3.0 - 1.5) - (3.0 - 0) = -1.5 m. Phase difference φ = (2π/λ) × |Δx| = (2π/0.664) × 1.5 = 14.2 rad ≡ 1.6 rad (mod 2π). WRONG ANSWER REVEALS: If student says \"not coherent because they are separate forks\", they confuse independence with incoherence — coherence requires constant phase difference, not common origin. If they forget 2π factor or use degrees/radians inconsistently, they lack unit discipline.",
+     "self_check": true
+    },
+    {
+     "q": "In a Young's double slit experiment, the two slits are illuminated by a single sodium lamp (λ = 589 nm). A student covers one slit with a thin mica sheet of thickness 2 μm and refractive index 1.58. Explain whether the central fringe shifts, and if so, in which direction and by how many fringes.",
+     "a": "Yes, central fringe shifts. The mica introduces additional optical path = (μ - 1)t = (1.58 - 1) × 2 × 10⁻⁶ = 1.16 × 10⁻⁶ m. Number of fringes shifted = (μ - 1)t / λ = 1.16 × 10⁻⁶ / 589 × 10⁻⁹ = 1.97 ≈ 2 fringes. Since the covered slit's light is delayed (longer optical path), the central maximum moves TOWARDS the covered slit to compensate. WRONG ANSWER REVEALS: If student says \"fringe shifts away from covered slit\", they misunderstand that the wave through mica is slower, so its phase lags — the pattern shifts to where geometrical path difference cancels this lag. If they compute (μt)/λ instead of (μ-1)t/λ, they forget the path in air is replaced, not added.",
+     "self_check": true
+    },
+    {
+     "q": "Two coherent sources S₁ and S₂ emit light of wavelength 600 nm with equal intensity I₀ = 4 W/m². At point P on a screen, the path difference S₂P - S₁P = 450 nm. Calculate the resultant intensity at P. If the sources were incoherent, what would be the intensity at P?",
+     "a": "Given: λ = 600 nm, Δx = 450 nm, I₀ = 4 W/m². Phase difference φ = (2π/λ) × Δx = (2π/600) × 450 = 1.5π rad. For coherent sources: I = 4I₀ cos²(φ/2) = 4 × 4 × cos²(0.75π) = 16 × cos²(135°) = 16 × (-1/√2)² = 16 × ½ = 8 W/m². For incoherent sources: I = 2I₀ = 2 × 4 = 8 W/m². (Coincidentally same here because cos²(φ/2) = ½). WRONG ANSWER REVEALS: If student uses φ = (2π/λ)Δx but forgets the factor of 2 in 4I₀, they get 2 W/m². If they use I = I₀ + I₀ + 2√(I₀I₀)cosφ but mis-evaluate cos(1.5π) = 0, they get 8 W/m² correctly but for wrong reason (cos 1.5π = 0, not ½). If they say incoherent gives 4 W/m², they think intensities don't add.",
+     "self_check": true
+    },
+    {
+     "q": "A student sets up Young's double slit with slit separation d = 0.5 mm, screen distance D = 1.2 m, using a He-Ne laser (λ = 632.8 nm). They observe clear fringes. Then they replace the laser with a white light LED bulb placed at the same position. The fringes disappear. Explain why, using the concept of temporal coherence and spectral width. Calculate the coherence length of the LED if its spectral width Δλ = 30 nm at λ = 600 nm.",
+     "a": "White light LED emits a broad spectrum (Δλ ≈ 30 nm). Each wavelength produces its own fringe pattern with slightly different fringe spacing (β ∝ λ). These patterns overlap and wash out because the central maxima coincide but higher orders diverge. Temporal coherence length L_c = λ²/Δλ = (600 × 10⁻⁹)² / (30 × 10⁻⁹) = 3.6 × 10⁻⁶ m = 3.6 μm. For interference to be visible, path difference must be < L_c. In Young's setup, path difference at m-th fringe ≈ mλ. For m = 1, Δx = 600 nm < 3.6 μm, so central few fringes might be visible but contrast degrades rapidly. WRONG ANSWER REVEALS: If student says \"white light has no coherence\", they confuse temporal coherence (finite) with spatial coherence. If they compute L_c = λ/Δλ instead of λ²/Δλ, they use wrong formula. If they say \"all fringes disappear completely\", they don't realize central white fringe persists with coloured edges.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"Two independent laser pointers of the same wavelength (650 nm) can produce a stable interference pattern on a screen because lasers are highly coherent sources.\" Identify the error and explain the correct physics.",
+     "a": "The statement is FALSE. Even though each laser has high temporal coherence (narrow linewidth), two INDEPENDENT lasers have no fixed phase relationship — their phases drift randomly due to independent quantum fluctuations in the gain medium. The phase difference changes rapidly (~MHz to GHz), so the interference pattern fluctuates faster than the eye/detector can resolve, time-averaging to I = 2I₀. To get stable fringes, the two beams must be derived from a SINGLE laser (e.g., by beam splitter or double slit), ensuring common origin and locked phases. WRONG ANSWER REVEALS: Student confuses \"coherence of a single source\" with \"mutual coherence between two sources\". They think monochromaticity alone guarantees interference, missing that constant phase difference is the critical requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Design a tabletop experiment using household items to demonstrate that two independent light sources (e.g., two smartphone flashlights) do not produce interference fringes, but a single source split into two paths does. List materials, procedure, and expected observations.",
+     "a": "Materials: Two smartphones with flashlights, a piece of aluminium foil, a pin, a white wall/screen, a dark room. Procedure: (1) Turn on both flashlights, place them side by side 5 cm apart, shine on wall 2 m away — observe uniform illumination, no fringes. (2) Make a double slit in foil: fold foil, use pin to make two closely spaced pinholes (~0.5 mm apart). (3) Use ONE flashlight to illuminate the double slit (hold foil close to flashlight). (4) Observe screen — clear interference fringes appear. Expected: Step 1 shows no fringes (independent sources, random phase). Step 4 shows fringes (single source split, locked phases). WRONG ANSWER REVEALS: If student expects fringes in step 1, they don't grasp that independence = incoherence. If they use two flashlights for step 4, they miss the point of common origin. If they don't mention dark room, they ignore ambient light washing out low-contrast fringes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

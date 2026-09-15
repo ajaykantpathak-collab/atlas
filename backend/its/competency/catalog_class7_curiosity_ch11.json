@@ -1,0 +1,649 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 11,
+ "chapter_title": "Light - Shadows and Reflections",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gecu111.txt",
+ "concepts": [
+  {
+   "id": "c7cu.11.1",
+   "title": "Light and Rectilinear Propagation",
+   "section": "11.1",
+   "definition": "Light is a form of energy that travels in straight lines; this property is called the rectilinear propagation of light.",
+   "formula": "",
+   "key_idea": "Light travels in straight lines, which is why we cannot see around corners.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the rectilinear propagation of light?",
+    "Why does light travel in straight lines?",
+    "Give one example that shows light travels in a straight line.",
+    "Why can we not see around a corner?",
+    "How does rectilinear propagation explain the formation of shadows?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the light source",
+     "explain": "Note where the light is coming from and the path it takes."
+    },
+    {
+     "step": 2,
+     "action": "Check the path",
+     "explain": "Observe that the light beam does not bend around obstacles."
+    },
+    {
+     "step": 3,
+     "action": "Confirm straight-line travel",
+     "explain": "Conclude that light travels in a straight line, which is the rectilinear propagation of light."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the rectilinear propagation of light?",
+     "solution": "Rectilinear propagation means light travels in straight lines from its source.",
+     "answer": "Light travels in straight lines."
+    },
+    {
+     "question": "Give one example that shows light travels in a straight line.",
+     "solution": "A beam of sunlight passing through a small hole in a dark room appears as a straight line.",
+     "answer": "A beam of sunlight through a hole appears as a straight line."
+    },
+    {
+     "question": "Why can we not see around a corner?",
+     "solution": "Since light travels in straight lines, it cannot bend around a corner, so we cannot see what is around it.",
+     "answer": "Light cannot bend around corners because it travels in straight lines."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why does light travel in straight lines?",
+     "type": "verify_property"
+    },
+    {
+     "question": "How does rectilinear propagation explain the formation of shadows?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one daily-life example of rectilinear propagation of light.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.11.2",
+   "title": "Opaque, Transparent, and Translucent Objects",
+   "section": "11.2",
+   "definition": "Opaque objects do not allow any light to pass through; transparent objects allow light to pass through clearly; translucent objects allow only partial light to pass through.",
+   "formula": "",
+   "key_idea": "Materials are classified by how much light passes through them: opaque (none), transparent (all), translucent (some).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the difference between opaque, transparent, and translucent objects?",
+    "Give one example of a transparent object.",
+    "Why can we not see through a wooden door?",
+    "Classify glass, wax paper, and cardboard as opaque, transparent, or translucent.",
+    "What kind of object allows only partial light to pass through?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Test light passage",
+     "explain": "Place the object between a light source and your eye and observe how much light passes through."
+    },
+    {
+     "step": 2,
+     "action": "Check clarity",
+     "explain": "Determine whether you can see clearly through the object, partially, or not at all."
+    },
+    {
+     "step": 3,
+     "action": "Classify the object",
+     "explain": "Label the object as transparent (clear view), translucent (partial view), or opaque (no view)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Give one example of a transparent object.",
+     "solution": "A clear glass window is transparent because it lets all light pass through and we can see clearly.",
+     "answer": "A clear glass window."
+    },
+    {
+     "question": "Why can we not see through a wooden door?",
+     "solution": "A wooden door is opaque, so it does not allow any light to pass through.",
+     "answer": "Wood is opaque and blocks all light."
+    },
+    {
+     "question": "Classify glass, wax paper, and cardboard as opaque, transparent, or translucent.",
+     "solution": "Glass is transparent, wax paper is translucent, and cardboard is opaque.",
+     "answer": "Glass - transparent; wax paper - translucent; cardboard - opaque."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What kind of object allows only partial light to pass through?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example each of an opaque and a translucent object.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why is a frosted glass window called translucent?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.11.3",
+   "title": "Shadows and Their Formation",
+   "section": "11.3",
+   "definition": "A shadow is the dark region formed when an opaque object blocks the path of light, preventing it from reaching a surface.",
+   "formula": "",
+   "key_idea": "A shadow needs a light source, an opaque object, and a screen; its size changes with the distance and size of the light source.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How is a shadow formed?",
+    "What are the three things needed to form a shadow?",
+    "Why does the size of a shadow change?",
+    "What is an umbra and a penumbra?",
+    "Give one example of shadow formation in daily life."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the light source",
+     "explain": "Find where the light is coming from, such as the Sun or a lamp."
+    },
+    {
+     "step": 2,
+     "action": "Place the opaque object",
+     "explain": "Put an opaque object between the light source and a screen."
+    },
+    {
+     "step": 3,
+     "action": "Observe the shadow",
+     "explain": "Note the dark region on the screen where light is blocked, which is the shadow."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How is a shadow formed?",
+     "solution": "When an opaque object blocks light, a dark region called a shadow appears on the screen behind it.",
+     "answer": "A shadow forms when an opaque object blocks light."
+    },
+    {
+     "question": "What are the three things needed to form a shadow?",
+     "solution": "A shadow needs a light source, an opaque object, and a screen.",
+     "answer": "Light source, opaque object, and a screen."
+    },
+    {
+     "question": "Why does the size of a shadow change?",
+     "solution": "The shadow size changes with the distance between the object, the light source, and the screen; closer light makes a bigger shadow.",
+     "answer": "Shadow size changes with the distance of the light source and object."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is an umbra and a penumbra?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of shadow formation in daily life.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why does a transparent object not form a clear shadow?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.11.4",
+   "title": "Pinhole Camera",
+   "section": "11.4",
+   "definition": "A pinhole camera is a simple device with a small hole that forms an inverted, real image of an object using the rectilinear propagation of light.",
+   "formula": "",
+   "key_idea": "A pinhole camera produces an inverted image because light travels in straight lines through the tiny hole.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a pinhole camera?",
+    "Why does a pinhole camera form an inverted image?",
+    "How does a pinhole camera work?",
+    "What type of image is formed by a pinhole camera?",
+    "Give one use of a pinhole camera."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Set up the pinhole camera",
+     "explain": "Take a box with a tiny pinhole on one side and a screen on the opposite side."
+    },
+    {
+     "step": 2,
+     "action": "Point it at an object",
+     "explain": "Aim the pinhole at a bright object so light enters through the hole."
+    },
+    {
+     "step": 3,
+     "action": "Observe the image",
+     "explain": "An inverted, real image of the object appears on the screen due to straight-line travel of light."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a pinhole camera?",
+     "solution": "A pinhole camera is a box with a small hole that forms an inverted image of an object on a screen.",
+     "answer": "A box with a pinhole that forms an inverted image."
+    },
+    {
+     "question": "Why does a pinhole camera form an inverted image?",
+     "solution": "Light from the top of the object passes straight through the hole to the bottom of the screen, and light from the bottom goes to the top, so the image is inverted.",
+     "answer": "Light travels in straight lines, flipping the image upside down."
+    },
+    {
+     "question": "What type of image is formed by a pinhole camera?",
+     "solution": "The image is real and inverted because it is formed on a screen by actual light rays.",
+     "answer": "A real and inverted image."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How does a pinhole camera work?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one use of a pinhole camera.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why must the pinhole be very small?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.11.5",
+   "title": "Reflection of Light and the Laws of Reflection",
+   "section": "11.5",
+   "definition": "Reflection is the bouncing back of light from a surface; the laws state that the angle of incidence equals the angle of reflection and both rays lie in the same plane.",
+   "formula": "angle of incidence (i) = angle of reflection (r)",
+   "key_idea": "When light hits a surface, it bounces back following the two laws of reflection.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is reflection of light?",
+    "State the laws of reflection.",
+    "If the angle of incidence is 30 degrees, what is the angle of reflection?",
+    "What is the relation between the angle of incidence and the angle of reflection?",
+    "Define incident ray, reflected ray, and normal."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the angle of incidence",
+     "explain": "Find the angle between the incident ray and the normal to the surface."
+    },
+    {
+     "step": 2,
+     "action": "Apply the law of reflection",
+     "explain": "Use the first law: the angle of incidence equals the angle of reflection."
+    },
+    {
+     "step": 3,
+     "action": "State the reflected angle",
+     "explain": "The angle of reflection is equal to the angle of incidence, confirming the law."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "If the angle of incidence is 30 degrees, what is the angle of reflection?",
+     "solution": "By the law of reflection, the angle of reflection equals the angle of incidence, so r = 30 degrees.",
+     "answer": "30 degrees."
+    },
+    {
+     "question": "If the angle of incidence is 45 degrees, find the angle of reflection.",
+     "solution": "Since angle of reflection equals angle of incidence, r = 45 degrees.",
+     "answer": "45 degrees."
+    },
+    {
+     "question": "State the laws of reflection.",
+     "solution": "First law: the angle of incidence equals the angle of reflection. Second law: the incident ray, reflected ray, and normal all lie in the same plane.",
+     "answer": "Angle of incidence equals angle of reflection; all three rays lie in the same plane."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "If the angle of incidence is 60 degrees, what is the angle of reflection?",
+     "type": "compute"
+    },
+    {
+     "question": "Define incident ray, reflected ray, and normal.",
+     "type": "verify_property"
+    },
+    {
+     "question": "What is reflection of light?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.11.6",
+   "title": "Plane Mirrors and Image Formation",
+   "section": "11.6",
+   "definition": "A plane mirror is a flat reflecting surface that forms an image of an object by reflecting light according to the laws of reflection.",
+   "formula": "",
+   "key_idea": "A plane mirror forms an upright, virtual image that appears to be the same distance behind the mirror as the object is in front.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a plane mirror?",
+    "How does a plane mirror form an image?",
+    "Where does the image appear to form in a plane mirror?",
+    "Give one example of a plane mirror in daily life.",
+    "Why is the image in a plane mirror called virtual?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Place the object in front of the mirror",
+     "explain": "Put an object at some distance in front of a plane mirror."
+    },
+    {
+     "step": 2,
+     "action": "Trace the reflected rays",
+     "explain": "Light from the object hits the mirror and reflects following the laws of reflection."
+    },
+    {
+     "step": 3,
+     "action": "Locate the image",
+     "explain": "The reflected rays appear to come from behind the mirror, where the virtual image forms at the same distance."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a plane mirror?",
+     "solution": "A plane mirror is a flat, smooth reflecting surface that forms images by reflecting light.",
+     "answer": "A flat reflecting surface."
+    },
+    {
+     "question": "How does a plane mirror form an image?",
+     "solution": "Light from the object reflects off the mirror surface and the reflected rays appear to come from behind the mirror, forming an image.",
+     "answer": "Reflected rays appear to come from behind the mirror, forming an image."
+    },
+    {
+     "question": "Give one example of a plane mirror in daily life.",
+     "solution": "A bathroom mirror used for combing hair is a plane mirror.",
+     "answer": "A bathroom mirror."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Where does the image appear to form in a plane mirror?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why is the image in a plane mirror called virtual?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of a plane mirror in daily life.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.11.7",
+   "title": "Properties of Images Formed by a Plane Mirror",
+   "section": "11.7",
+   "definition": "The image formed by a plane mirror is virtual, erect, laterally inverted, and the same size as the object, with the image distance equal to the object distance.",
+   "formula": "image distance = object distance",
+   "key_idea": "A plane mirror image is virtual, same size, erect, laterally inverted, and as far behind the mirror as the object is in front.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "List the properties of an image formed by a plane mirror.",
+    "Is the image in a plane mirror real or virtual?",
+    "If an object is 5 cm in front of a mirror, how far behind is the image?",
+    "Why is the image in a plane mirror the same size as the object?",
+    "What is lateral inversion in a plane mirror?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Note the object distance",
+     "explain": "Find how far the object is placed in front of the mirror."
+    },
+    {
+     "step": 2,
+     "action": "Apply the mirror property",
+     "explain": "The image distance equals the object distance for a plane mirror."
+    },
+    {
+     "step": 3,
+     "action": "State the image distance",
+     "explain": "The image is the same distance behind the mirror as the object is in front."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "If an object is 5 cm in front of a mirror, how far behind is the image?",
+     "solution": "For a plane mirror, image distance equals object distance, so the image is 5 cm behind the mirror.",
+     "answer": "5 cm behind the mirror."
+    },
+    {
+     "question": "Is the image in a plane mirror real or virtual?",
+     "solution": "The image is virtual because it cannot be formed on a screen; the rays only appear to come from behind the mirror.",
+     "answer": "Virtual."
+    },
+    {
+     "question": "List the properties of an image formed by a plane mirror.",
+     "solution": "The image is virtual, erect, laterally inverted, same size as the object, and as far behind the mirror as the object is in front.",
+     "answer": "Virtual, erect, laterally inverted, same size, equal distance."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "If an object is 8 cm in front of a plane mirror, how far behind is the image?",
+     "type": "compute"
+    },
+    {
+     "question": "Why is the image in a plane mirror the same size as the object?",
+     "type": "verify_property"
+    },
+    {
+     "question": "What is lateral inversion in a plane mirror?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.11.8",
+   "title": "Lateral Inversion",
+   "section": "11.8",
+   "definition": "Lateral inversion is the sideways reversal of an image, where the left side of the object appears as the right side of the image and vice versa.",
+   "formula": "",
+   "key_idea": "In a plane mirror, the image is laterally inverted, meaning left and right are swapped.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is lateral inversion?",
+    "Why does a mirror reverse left and right but not up and down?",
+    "Why does the word AMBULANCE appear reversed on the front of an ambulance?",
+    "Give one example of lateral inversion in daily life.",
+    "How does lateral inversion affect the image in a plane mirror?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Observe the object and its image",
+     "explain": "Stand in front of a mirror and compare your left and right with the image."
+    },
+    {
+     "step": 2,
+     "action": "Compare left and right",
+     "explain": "Notice that your left hand appears as the right hand in the image."
+    },
+    {
+     "step": 3,
+     "action": "Confirm lateral inversion",
+     "explain": "Conclude that the image is laterally inverted because left and right are swapped."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is lateral inversion?",
+     "solution": "Lateral inversion is the sideways reversal of an image where left appears as right and right appears as left.",
+     "answer": "Left and right are swapped in the image."
+    },
+    {
+     "question": "Why does the word AMBULANCE appear reversed on the front of an ambulance?",
+     "solution": "The word is written laterally inverted so that when seen in a mirror, it reads correctly as AMBULANCE.",
+     "answer": "It is written reversed so the mirror image reads correctly."
+    },
+    {
+     "question": "Give one example of lateral inversion in daily life.",
+     "solution": "When you raise your right hand, your mirror image appears to raise its left hand.",
+     "answer": "Your right hand appears as the left hand in the mirror."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why does a mirror reverse left and right but not up and down?",
+     "type": "verify_property"
+    },
+    {
+     "question": "How does lateral inversion affect the image in a plane mirror?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Write the word STOP and describe how it looks in a mirror.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.11.9",
+   "title": "Real and Virtual Images",
+   "section": "11.9",
+   "definition": "A real image is formed when light rays actually meet and can be obtained on a screen; a virtual image is formed where rays appear to meet and cannot be obtained on a screen.",
+   "formula": "",
+   "key_idea": "Real images can be projected on a screen because rays actually meet; virtual images cannot because the rays only appear to meet.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the difference between a real and a virtual image?",
+    "Give one example of a real image.",
+    "Give one example of a virtual image.",
+    "Can a virtual image be obtained on a screen?",
+    "Which type of image is formed by a plane mirror?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check if rays actually meet",
+     "explain": "Determine whether the reflected or refracted light rays physically converge at a point."
+    },
+    {
+     "step": 2,
+     "action": "Test with a screen",
+     "explain": "Place a screen where the image forms and see if the image appears on it."
+    },
+    {
+     "step": 3,
+     "action": "Classify the image",
+     "explain": "If the image appears on the screen it is real; if it does not and rays only appear to meet, it is virtual."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the difference between a real and a virtual image?",
+     "solution": "A real image is formed by actual rays meeting and can be caught on a screen; a virtual image is formed where rays appear to meet and cannot be caught on a screen.",
+     "answer": "Real images can be projected on a screen; virtual images cannot."
+    },
+    {
+     "question": "Give one example of a real image.",
+     "solution": "The image formed by a pinhole camera is a real image because it is formed on a screen by actual rays.",
+     "answer": "The image formed by a pinhole camera."
+    },
+    {
+     "question": "Which type of image is formed by a plane mirror?",
+     "solution": "A plane mirror forms a virtual image because the rays only appear to come from behind the mirror.",
+     "answer": "A virtual image."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Can a virtual image be obtained on a screen?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of a virtual image.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why is the image in a pinhole camera called real?",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "reviewer-added",
+   "concept": "c7cu.11.1",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain light and rectilinear propagation with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the light source",
+     "explain": "Note where the light is coming from and the path it takes."
+    },
+    {
+     "step": 2,
+     "action": "Check the path",
+     "explain": "Observe that the light beam does not bend around obstacles."
+    },
+    {
+     "step": 3,
+     "action": "Confirm straight-line travel",
+     "explain": "Conclude that light travels in a straight line, which is the rectilinear propagation of light."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "reviewer-added",
+   "concept": "c7cu.11.2",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain opaque, transparent, and translucent objects with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Test light passage",
+     "explain": "Place the object between a light source and your eye and observe how much light passes through."
+    },
+    {
+     "step": 2,
+     "action": "Check clarity",
+     "explain": "Determine whether you can see clearly through the object, partially, or not at all."
+    },
+    {
+     "step": 3,
+     "action": "Classify the object",
+     "explain": "Label the object as transparent (clear view), translucent (partial view), or opaque (no view)."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)"
+}

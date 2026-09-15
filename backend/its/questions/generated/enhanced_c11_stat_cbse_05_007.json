@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_05_007",
+   "title": "c11_stat_cbse_05_007",
+   "questions": [
+    {
+     "q": "State the formula for calculating mode in a continuous frequency distribution and define each symbol used.",
+     "a": "The formula is \\( \\text{Mode} = L + \\frac{D_1}{D_1 + D_2} \\times h \\), where \\( L \\) = lower limit of the modal class, \\( D_1 = f_m - f_{m-1} \\) (difference between modal class frequency and preceding class frequency), \\( D_2 = f_m - f_{m+1} \\) (difference between modal class frequency and succeeding class frequency), and \\( h \\) = class interval (width). A wrong answer reveals the student has memorised the formula without understanding the meaning of \\( D_1 \\) and \\( D_2 \\) — often confusing which class is preceding/succeeding or using absolute frequencies instead of differences.",
+     "self_check": true
+    },
+    {
+     "q": "A student computes the mode for the following discrete series and gets 30. Variable: 10, 20, 30, 40, 50; Frequency: 2, 8, 20, 10, 5. They say, \"The mode is 30 because it has the highest frequency 20.\" Is this correct? Explain why or why not.",
+     "a": "Yes, it is correct. In a discrete series, mode is the value of the variable corresponding to the highest frequency. Here, frequency 20 corresponds to variable 30, so mode = 30. A wrong answer (e.g., saying mode is 20) reveals the student confuses the frequency value with the variable value — a common error when they mechanically pick the largest number in the frequency column without linking it to its variable.",
+     "self_check": true
+    },
+    {
+     "q": "For the continuous distribution below, find the mode. Class intervals: 0–10, 10–20, 20–30, 30–40, 40–50; Frequencies: 5, 12, 20, 8, 5.",
+     "a": "Modal class is 20–30 (highest frequency 20). \\( L = 20 \\), \\( f_m = 20 \\), \\( f_{m-1} = 12 \\), \\( f_{m+1} = 8 \\), \\( h = 10 \\). \\( D_1 = 20 - 12 = 8 \\), \\( D_2 = 20 - 8 = 12 \\). Mode \\( = 20 + \\frac{8}{8+12} \\times 10 = 20 + 4 = 24 \\). A wrong answer (e.g., 25 or 28) reveals the student either used \\( f_{m-1} \\) and \\( f_{m+1} \\) incorrectly (swapped preceding/succeeding) or forgot to multiply by \\( h \\), or used the midpoint instead of lower limit.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mode calculated from the continuous series in Question 3 with the mode you would get if you treated the same data as a discrete series using the mid-points (5, 15, 25, 35, 45) with the same frequencies. Why do they differ?",
+     "a": "Discrete mode using mid-points: highest frequency 20 at mid-point 25 → mode = 25. Continuous mode = 24. They differ because the continuous formula interpolates within the modal class using the shape of the distribution (neighbouring frequencies), while the discrete method assumes all observations are exactly at the mid-point. A wrong answer (e.g., \"they are the same\") reveals the student does not understand that grouping data into classes loses information, and the mode formula is an approximation based on the assumption of uniform distribution within the modal class.",
+     "self_check": true
+    },
+    {
+     "q": "A factory produces shirts in sizes S, M, L, XL with frequencies 50, 120, 80, 30. The manager says, \"The average size is M because it's the mode.\" The owner says, \"We should use the mean size.\" Evaluate which average is more appropriate for production planning and why.",
+     "a": "Mode (M) is more appropriate because shirt sizes are categorical/ordinal qualitative data — mean size cannot be calculated (no numerical values assigned). Mode gives the most demanded size, which directly informs inventory decisions. A wrong answer (e.g., \"mean is better because it uses all data\") reveals the student does not recognise that mean requires numerical data and equal intervals, and fails to match the average type to the data nature — a key merit of mode.",
+     "self_check": true
+    },
+    {
+     "q": "Create a continuous frequency distribution with 5 classes where the mode is exactly at the lower limit of the modal class. Provide the class intervals and frequencies, then verify using the formula.",
+     "a": "Example: Classes 0–10, 10–20, 20–30, 30–40, 40–50; Frequencies 5, 10, 20, 20, 5. Modal class is 20–30 (frequency 20, tied with 30–40 but first occurrence). \\( L = 20 \\), \\( f_m = 20 \\), \\( f_{m-1} = 10 \\), \\( f_{m+1} = 20 \\). \\( D_1 = 10 \\), \\( D_2 = 0 \\). Mode \\( = 20 + \\frac{10}{10+0} \\times 10 = 30 \\) — wait, that gives upper limit. To get mode at lower limit, need \\( D_1 = 0 \\). So set frequencies: 5, 20, 20, 10, 5. Modal class 10–20 (first highest). \\( L = 10 \\), \\( f_m = 20 \\), \\( f_{m-1} = 5 \\), \\( f_{m+1} = 20 \\). \\( D_1 = 15 \\), \\( D_2 = 0 \\) → mode = 20. Not lower limit. Correct construction: make \\( D_1 = 0 \\) → \\( f_m = f_{m-1} \\). But then modal class not unique. Actually, mode = L when \\( D_1 = 0 \\) i.e., \\( f_m = f_{m-1} \\). But then two classes have same max frequency → bimodal. So mode cannot be exactly at lower limit unless we accept bimodal or use a different definition. A good answer recognises this subtlety: mode = L only if \\( D_1 = 0 \\), which implies the preceding class has equal frequency, making the distribution bimodal. A poor answer gives a distribution without checking the condition, revealing lack of algebraic insight into the formula.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

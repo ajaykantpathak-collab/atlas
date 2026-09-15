@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_04_009",
+   "title": "c12_phy_cbse_04_009",
+   "questions": [
+    {
+     "q": "State the formula for torque on a current loop in a uniform magnetic field. Define each symbol and give its SI unit.",
+     "a": "τ = NIAB sinθ, where N = number of turns (dimensionless), I = current (A), A = area of loop (m²), B = magnetic field (T), θ = angle between magnetic moment and B (rad). Torque unit: N·m. A wrong answer (e.g., τ = NIAB cosθ) reveals confusion between torque and potential energy or misidentification of the angle.",
+     "self_check": true
+    },
+    {
+     "q": "A rectangular loop of wire carries a steady current. The loop is placed in a uniform magnetic field such that the plane of the loop is parallel to the field. Explain why the net force on the loop is zero but there is a non-zero torque.",
+     "a": "Forces on opposite arms are equal and opposite; on the arms parallel to B, force is zero (sin0=0); on the perpendicular arms, forces are equal, opposite, and non-collinear, forming a couple. Net force zero, torque maximum. A wrong answer (e.g., \"net force is non-zero\") shows failure to apply F = Il × B correctly or to recognize that forces on parallel arms cancel.",
+     "self_check": true
+    },
+    {
+     "q": "A circular coil of 50 turns and radius 5 cm carries a current of 2 A. It is placed in a uniform magnetic field of 0.4 T such that the plane of the coil makes an angle of 30° with the field direction. Calculate the magnitude of the torque on the coil.",
+     "a": "Given: N=50, r=0.05 m, I=2 A, B=0.4 T, angle between plane and B = 30°. Area A = πr² = π(0.05)² = 7.854×10⁻³ m². Magnetic moment m = NIA = 50×2×7.854×10⁻³ = 0.7854 A·m². Angle between m (normal to plane) and B = 90° - 30° = 60°. τ = mB sin60° = 0.7854 × 0.4 × (√3/2) = 0.272 N·m. A wrong answer often uses θ=30° directly, giving 0.157 N·m, revealing confusion between plane angle and moment angle.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical circular loops carry the same current. Loop A has its magnetic moment parallel to B; Loop B has its magnetic moment at 45° to B. Compare the torques on the two loops. Which loop is in stable equilibrium?",
+     "a": "Loop A: θ=0°, τ=0 (stable equilibrium). Loop B: θ=45°, τ = mB sin45° > 0. Loop A is in stable equilibrium because any small rotation produces a restoring torque. Loop B experiences a torque that tends to align it with B. A wrong answer (e.g., Loop B has zero torque) shows misunderstanding of sinθ dependence or equilibrium condition.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If a current loop is placed in a uniform magnetic field with its plane perpendicular to the field, the torque is maximum.\" Evaluate this statement.",
+     "a": "False. When the plane is perpendicular to B, the area vector (magnetic moment) is parallel to B, so θ=0°, sinθ=0, torque is zero. Torque is maximum when the plane is parallel to B (θ=90°). The student confused the orientation of the plane with that of the magnetic moment. This reveals a common misconception about the angle in τ = mB sinθ.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a battery, a rectangular wire loop, and a horseshoe magnet to demonstrate the torque on a current loop. Describe how you would observe the torque and how you would vary the angle to show the sinθ dependence.",
+     "a": "Suspend the rectangular loop by a thin thread so it can rotate freely. Place it between the poles of the horseshoe magnet (uniform field). Connect to a battery via a commutator to reverse current. Observe rotation when current flows. To show sinθ dependence, fix the loop at different angles using a protractor and measure angular deflection or use a torsion balance. A poor answer lacks a method to vary θ systematically or to measure torque.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

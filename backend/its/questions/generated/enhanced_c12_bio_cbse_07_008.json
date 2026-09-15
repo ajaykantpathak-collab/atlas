@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_07_008",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_07_008",
+   "title": "c12_bio_cbse_07_008",
+   "questions": [
+    {
+     "q": "What is adaptive radiation, and how does it differ from convergent evolution?",
+     "a": "Adaptive radiation is the diversification of a single ancestral lineage into multiple species, each adapted to a different ecological niche. Convergent evolution, in contrast, is when unrelated lineages independently evolve similar traits due to similar environmental pressures. A wrong answer that confuses the two (e.g., saying adaptive radiation produces similar traits) reveals the student does not grasp that adaptive radiation involves divergence from a common ancestor, not convergence.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Darwin's finches undergo adaptive radiation on the Galápagos Islands but not on the mainland?",
+     "a": "The Galápagos Islands offered many empty ecological niches (no competing bird species) and geographic isolation between islands, allowing a single founding population to diversify without competition or gene flow. On the mainland, niches were already occupied, and gene flow would prevent divergence. A wrong answer that only mentions \"different food\" without addressing ecological opportunity and isolation shows incomplete understanding of the prerequisites for adaptive radiation.",
+     "self_check": true
+    },
+    {
+     "q": "A new island forms volcanically near the Galápagos. A few finches from an existing island colonize it. The island has large, hard seeds and small, soft seeds but no insects. Predict how the finch population might evolve over many generations and justify using natural selection.",
+     "a": "Initially, variation in beak size exists. Birds with larger, stronger beaks can crack hard seeds; those with smaller beaks handle soft seeds efficiently. Over generations, disruptive selection favors extremes, potentially leading to two distinct beak morphs (and possibly two species). A wrong answer that predicts only one beak type (e.g., all evolve large beaks) ignores disruptive selection and the availability of two distinct niches.",
+     "self_check": true
+    },
+    {
+     "q": "Compare adaptive radiation in Darwin's finches with adaptive radiation in Australian marsupials. Identify two similarities and one key difference.",
+     "a": "Similarities: (1) Both involve a single ancestor diversifying into many species occupying varied niches. (2) Both occurred in isolated settings (islands/continent) with reduced competition. Difference: Darwin's finches radiated on an archipelago with gene flow possible between islands, while Australian marsupials radiated on a continent with long-term geographic isolation from placental mammals. A wrong answer that says both are identical in mechanism misses the role of geographic scale and gene flow.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Adaptive radiation proves that evolution has a direction toward increasing complexity.\" Evaluate this claim.",
+     "a": "The claim is false. Adaptive radiation shows diversification into available niches, not a predetermined direction toward complexity. Some finch species evolved simpler beaks (e.g., small beaks for soft seeds) – complexity is not the goal. A wrong answer that agrees with the claim reveals a teleological misconception that evolution is goal-oriented.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field study to test whether beak depth in a finch population changes in response to a drought that eliminates small, soft seeds.",
+     "a": "Measure beak depth of a large sample of finches before the drought. After the drought, measure beak depth of survivors and their offspring. Compare distributions using statistical tests. If beak depth increases significantly, it supports natural selection for larger beaks. A poor answer that only measures beak depth once or lacks a control group shows inability to design a controlled evolutionary study.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

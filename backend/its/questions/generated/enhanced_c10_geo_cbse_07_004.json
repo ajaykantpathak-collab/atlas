@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_07_004",
+   "title": "c10_geo_cbse_07_004",
+   "questions": [
+    {
+     "q": "Name the three major pipeline networks in India for transporting crude oil, petroleum products, and natural gas as per the NCERT textbook.",
+     "a": "The three major networks are: (1) Naharkatiya (Assam) to Barauni (Bihar) and Haldia (West Bengal) for crude oil; (2) Salaya (Gujarat) to Jalandhar (Punjab) via Viramgam, Mathura, Delhi, Sonipat for crude oil; (3) Hazira (Gujarat) to Jagdishpur (Uttar Pradesh) via Vijaipur (Madhya Pradesh) — the HVJ pipeline — for natural gas. A wrong answer (e.g., naming city gas pipelines or missing the HVJ) reveals the student has memorized isolated facts without understanding the spatial logic linking production basins (Assam, Gujarat) to industrial corridors (Barauni, Mathura, Jagdishpur).",
+     "self_check": true
+    },
+    {
+     "q": "Why are pipelines considered more economical than railways for transporting petroleum products over long distances, despite their high initial construction cost?",
+     "a": "Pipelines have very low running costs (energy for pumping vs. fuel for locomotives), zero transshipment losses (no loading/unloading at intermediate stations), and can traverse difficult terrain (rivers, mountains, forests) without gradients limiting them. A wrong answer focusing only on \"high initial cost\" or \"speed\" shows the student confuses capital expenditure with operational economics and misses the geographical concept of \"continuous flow\" reducing per-unit transport cost — a key board exam distinction.",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of India, the Salaya-Jalandhar pipeline passes through Viramgam, Mathura, Delhi, and Sonipat. If a new refinery is proposed at Panipat (Haryana), explain in two steps why connecting it to this existing pipeline is geographically advantageous compared to building a dedicated rail link from Salaya.",
+     "a": "Step 1: Panipat lies directly on the Delhi-Sonipat segment of the existing pipeline — tying in requires only a short spur line (low capital cost). Step 2: The pipeline already delivers crude from Gujarat (Salaya) and imported crude via Mundra/Kandla ports; Panipat refinery gets assured supply without scheduling rail rakes or road tankers. A wrong answer suggesting \"rail is faster\" or \"pipeline cannot be tapped\" reveals misunderstanding of pipeline network flexibility and the concept of \"incremental connectivity\" in infrastructure planning.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the HVJ (Hazira-Vijaipur-Jagdishpur) gas pipeline with the Naharkatiya-Barauni-Haldia oil pipeline in terms of (a) primary resource transported, (b) major industrial consumers served, and (c) impact on regional development of the hinterland.",
+     "a": "(a) HVJ transports natural gas; Naharkatiya transports crude oil. (b) HVJ feeds gas-based fertilizer plants (Vijaipur, Aonla, Jagdishpur) and power plants; Naharkatiya feeds refineries at Barauni, Haldia, and later Haldia petrochemical complex. (c) HVJ triggered industrialization in backward regions of MP (Vijaipur) and UP (Jagdishpur) — \"gas corridor\" development; Naharkatiya sustained existing industrial nodes in Bihar and WB. A wrong answer swapping the resources or missing the fertilizer-power link shows inability to connect resource type to downstream industrial geography — a frequent board exam case-study trap.",
+     "self_check": true
+    },
+    {
+     "q": "\"Pipelines are the most sustainable mode of transport for petroleum and gas in India.\" Evaluate this statement considering environmental risks, energy efficiency, and social displacement.",
+     "a": "Partially true. Environmentally: lower carbon footprint per tonne-km than road/rail (energy efficient), but leakage risks (methane, oil spills) cause local ecological damage — not \"most sustainable\" absolutely. Socially: less land acquisition than rail/road corridors, but right-of-way disputes and safety zones displace communities. A one-sided \"true\" answer ignores leakage monitoring challenges and the fact that sustainability includes safety and equity — board exams expect balanced evaluation with specific Indian examples (e.g., HVJ passing through forests, Salaya-Jalandhar through dense agricultural land).",
+     "self_check": true
+    },
+    {
+     "q": "Design a schematic map annotation for a Class 10 board exam answer showing the HVJ pipeline with three critical locational factors that determined its route. Use standard map symbols.",
+     "a": "A good annotation includes: (1) Source: Hazira (Gujarat) — coastal gas processing complex; (2) Route: follows Gujarat-MP-UP border avoiding high relief (Vindhyas) and dense forests — uses plains corridor; (3) Nodes: Vijaipur (MP) — fertilizer plant; Jagdishpur (UP) — fertilizer + power; spur to Delhi for city gas. Symbols: pipeline line, circles for compressor stations, squares for consumer plants. A poor answer draws a straight line without terrain avoidance or misses compressor stations — shows lack of spatial reasoning about pipeline engineering constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

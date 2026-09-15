@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch10_107",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch10_107",
+   "title": "c6_math_ch10_107",
+   "questions": [
+    {
+     "q": "Which of these letters has a vertical line of symmetry: 'B' or 'A'?",
+     "a": "'A' has a vertical line of symmetry. A student who says 'B' likely confuses the shape of the letter with its position or forgets that the top and bottom of 'B' are usually different sizes, preventing a perfect vertical overlap.",
+     "self_check": true
+    },
+    {
+     "q": "Does the number '3' have a line of symmetry? If so, is it horizontal or vertical?",
+     "a": "The number '3' has a horizontal line of symmetry (if drawn with a flat top and bottom). A student who says \"vertical\" or \"no\" may not have visualized the \"fold\" along the middle of the digit.",
+     "self_check": true
+    },
+    {
+     "q": "Draw the letter 'H' and identify all its lines of symmetry.",
+     "a": "'H' has two lines of symmetry: one vertical (down the center) and one horizontal (across the middle). Students often miss the horizontal line because they only look for the most obvious vertical split.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the symmetry of the letter 'M' and the letter 'O'. Why is one more symmetrical than the other?",
+     "a": "'O' has both vertical and horizontal symmetry (and more), while 'M' has only vertical symmetry. A student struggling here might only see \"balance\" rather than specific \"mirror-overlap\" properties.",
+     "self_check": true
+    },
+    {
+     "q": "If you fold a paper with the letter 'N' vertically, do the halves match? Why or why not?",
+     "a": "No, they do not match because the diagonal bar of the 'N' runs in the opposite direction on the reflected half. Students who think it is symmetric are likely focusing on the two vertical pillars rather than the internal structure.",
+     "self_check": true
+    },
+    {
+     "q": "Create a list of three numbers that have absolutely no line of symmetry and explain why.",
+     "a": "Examples: 2, 5, 7. These have no symmetry because their curves and corners do not align when folded in any direction (horizontal, vertical, or diagonal). An incorrect answer (e.g., including '8') shows a failure to test for both horizontal and vertical axes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+  "class": 11,
+  "subject": "unknown",
+  "chapter": 103,
+  "chapter_title": "Mother's Day",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kesp103.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kesp103.1.1",
+      "title": "The Doormat Mother: Mrs Pearson's Household",
+      "section": "1",
+      "definition": "J.B. Priestley's play opens on Mrs Ann Pearson, a pleasant, worried housewife treated as a doormat by her family: daughter Doris snaps at her, son Cyril demands his tea, and husband George expects deference. They take her service as nature's law and give her no place in their evenings or respect.",
+      "formula": "",
+      "key_idea": "A mother taken for granted -- service mistaken for servility in the Pearson parlour.",
+      "textbook_ref": "kesp103.txt opening scenes (mrs pearson pleasant worried, doris and cyril rudeness, george pearson self importance, status of mother in family)",
+      "question_patterns": [
+        "how do the pearson family members treat mrs pearson",
+        "in class 11 mother's day: why is mrs pearson called a doormat",
+        "describe doris's behaviour towards her mother",
+        "what does george pearson think of himself and how is he seen at the club",
+        "why does the family take the mother for granted",
+        "sketch the character of mrs pearson before the transformation"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "list the slights", "explain": "Doris complains about her dress, Cyril expects served tea, and George assumes obedience -- service flows one way."},
+        {"step": 2, "action": "note her compliance", "explain": "Mrs Pearson absorbs each slight with a worried smile, believing she must not offend her own family."},
+        {"step": 3, "action": "state the imbalance", "explain": "The comedy's problem is fixed: a mother has no status in a house she runs alone."}
+      ]
+    },
+    {
+      "id": "kesp103.1.2",
+      "title": "The Exchange of Personalities with Mrs Fitzgerald",
+      "section": "1",
+      "definition": "The bold, fortune-telling neighbour Mrs Fitzgerald proposes an exchange of personalities -- learned in the East -- and the timid mother agrees. Swapped into Mrs Pearson's body, the assertive Fitzgerald stays on to receive the family's return, ready to teach them a lesson in their own coin.",
+      "formula": "",
+      "key_idea": "A magical swap arms gentleness with steel -- the mother will speak in her own voice at last, borrowed or not.",
+      "textbook_ref": "kesp103.txt swap scenes (mrs fitzgerald fortune teller, exchange of personalities learned in the east, plan to teach the family)",
+      "question_patterns": [
+        "how do mrs pearson and mrs fitzgerald exchange their personalities",
+        "in class 11 mother's day: why does mrs pearson hesitate before the swap",
+        "compare the personalities of the two women",
+        "what plan do the friends make for the family",
+        "where did mrs fitzgerald learn the trick of changing personalities",
+        "is the swap fair to the family discuss its purpose"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "contrast the women", "explain": "Fitzgerald is strong, blunt and worldly; Pearson is soft, anxious and obliging -- each envies the other's gift."},
+        {"step": 2, "action": "perform the change", "explain": "With a chant learned in the East, the personalities exchange bodies, putting steel inside the mother's frame."},
+        {"step": 3, "action": "set the stage", "explain": "The transformed Mrs Pearson waits, cards and drink in hand, for the family's return and its education."}
+      ]
+    },
+    {
+      "id": "kesp103.1.3",
+      "title": "The Lesson Taught and the Real Mother Restored",
+      "section": "1",
+      "definition": "One by one the family members meet the new Mrs Pearson: Doris is told off, Cyril is mocked for his tea-table tyranny, and George is told what the club really thinks of him. Stunned into cooperation, they finally plead with their real mother -- restored after the swap -- who agrees to keep the peace if they share the hearth with her.",
+      "formula": "",
+      "key_idea": "Tough love rebalances the home -- the family learns its mother's worth just as she returns to herself.",
+      "textbook_ref": "kesp103.txt climax scenes (confrontations with doris cyril george, club revelation, swap reversal, family pleading with mother, changed household)",
+      "question_patterns": [
+        "how does the transformed mrs pearson teach each family member a lesson",
+        "in class 11 mother's day: what does george learn about himself at the club",
+        "why do the family members plead with the real mother at the end",
+        "describe the changes in the pearson household after the events",
+        "was mrs fitzgerald's method right or wrong discuss",
+        "what is the message of the play mother's day"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "run the gauntlet", "explain": "Each family member meets blunt refusal where servility used to wait -- Doris scolded, Cyril needled, George deflated with the club's verdict."},
+        {"step": 2, "action": "reverse the swap", "explain": "Shaken, they rush to the seemingly changed mother; the personalities switch back and the real Mrs Pearson faces her humbled family."},
+        {"step": 3, "action": "settle the new terms", "explain": "She promises to be firm; the family promises consideration -- comedy closing on a re-balanced home."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kesp103.txt climax scenes",
+      "concept": "kesp103.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "What three revelations does the assertive Mrs Pearson deliver to the family, and what does each teach?",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "to Doris and Cyril", "explain": "She refuses to be their servant and mocks their expectations, teaching that help is earned, not owed."},
+        {"step": 2, "action": "to George", "explain": "She reports the club's mockery of his pomposity -- puncturing vanity with fact."},
+        {"step": 3, "action": "the sum", "explain": "Each revelation replaces taking-for-granted with respect -- the play's corrective lesson."}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kesp103.txt swap scenes",
+      "concept": "kesp103.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Why does Mrs Pearson, though miserable, initially resist Mrs Fitzgerald's plan? What does her hesitation reveal?",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "state the hesitation", "explain": "She fears offending her family and doubts the propriety of the trick."},
+        {"step": 2, "action": "read the hesitation", "explain": "Her resistance is the very servility that created the problem -- habit disguised as virtue."},
+        {"step": 3, "action": "conclude", "explain": "Priestley shows that the oppressed must first consent to be strong; the swap only lends her borrowed courage."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kesp103.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Describe the Pearson family's treatment of the mother.",
+        "Compare Mrs Pearson and Mrs Fitzgerald as characters.",
+        "How does the personality exchange serve the play's purpose?",
+        "What lessons does each family member learn in the play?",
+        "Is the play's solution realistic? Discuss.",
+        "Bring out the humour in the treatment of a serious theme."
+      ]
+    }
+  ]
+}

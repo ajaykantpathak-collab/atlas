@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_05_006",
+   "title": "c10_eco_cbse_05_006",
+   "questions": [
+    {
+     "q": "Define the \"Right to Be Heard and Represented\" as per the Consumer Protection Act, 2019. Mention any two formal forums where a consumer can exercise this right in India.",
+     "a": "The Right to Be Heard and Represented means consumers have the right to voice grievances and have their interests considered in appropriate forums. Two formal forums: (1) District/State/National Consumer Disputes Redressal Commissions, (2) Central/State Consumer Protection Councils. A wrong answer (e.g., “right to get a refund”) reveals confusion between **being heard** (procedural voice) and **redressal** (substantive remedy). Students often conflate the *process* of representation with the *outcome* of compensation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Right to Be Heard is considered a *procedural* right, whereas the Right to Redressal is a *substantive* right. Give one example where a consumer is “heard” but does not receive redressal.",
+     "a": "The Right to Be Heard guarantees access to a forum and a fair hearing (procedure), while the Right to Redressal guarantees a fair settlement/compensation (outcome). Example: A consumer files a case in the District Commission, presents evidence, and is given a full hearing — but the Commission dismisses the case for lack of merit. The consumer *was heard* (procedural right fulfilled) but did *not get redressal* (substantive right not granted). A wrong answer (e.g., “both mean getting money back”) shows the student cannot distinguish **process** from **outcome** — a critical distinction in board exam case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "A Resident Welfare Association (RWA) in Bengaluru notices that the local electricity distribution company frequently overbills consumers due to faulty smart meters. The RWA wants to exercise the Right to Be Heard and Represented at the *policy level* (not just individual complaints). List the specific institutional mechanism they should approach and the provision in the Consumer Protection Act, 2019 that empowers it.",
+     "a": "Mechanism: **State Consumer Protection Council** (established under Section 4 of the Consumer Protection Act, 2019). Provision: Section 4(1) mandates the State Council to “promote and protect the rights of consumers” including the right to be heard, and Section 4(2) allows it to “make recommendations to the State Government” on consumer welfare. Steps: (1) RWA registers as a consumer organization, (2) submits a representation to the State Council with evidence of systematic overbilling, (3) Council conducts inquiry, (4) Council recommends regulatory action to the State Electricity Regulatory Commission. A wrong answer (e.g., “file a case in District Commission”) shows the student cannot match the *scale* of the problem (systemic/policy) to the *correct forum* (Council vs. Commission) — a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effectiveness of the following two channels for exercising the Right to Be Heard: (A) Individual complaint on the National Consumer Helpline (NCH) portal, (B) Collective representation by a registered consumer organization to the Central Consumer Protection Council. Analyse across three dimensions: (i) likelihood of policy change, (ii) cost to the consumer, (iii) time taken for resolution.",
+     "a": "| Dimension | (A) NCH Individual Complaint | (B) Consumer Org → Central Council |\n|-----------|-------------------------------|-----------------------------------|\n| (i) Policy change likelihood | Low — resolves individual case only | High — Council advises Central Govt on policy |\n| (ii) Cost to consumer | Very low (free portal) | Moderate (org membership, documentation effort) |\n| (iii) Time for resolution | 15–60 days for company response | Months to years (policy cycle) |\nA wrong answer that rates (A) higher on policy change reveals the student thinks **individual redressal scales to systemic reform** — it does not. Board exams test this via case studies: “Which channel should a consumer group use to change a misleading advertising regulation?” Answer: Central Council, not NCH.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: “The Right to Be Heard is meaningless without the Right to Information.” Use the example of a consumer trying to challenge a hidden fee charged by a bank on a savings account.",
+     "a": "The statement is **correct**. Without the Right to Information (knowing the fee exists, its amount, and the bank’s obligation to disclose it), the consumer cannot *articulate* a specific grievance to be heard. In the example: if the bank hides the fee in fine print and the consumer doesn’t know it’s being charged, they cannot file a complaint on the NCH or approach the Banking Ombudsman. The Right to Information (Section 2(9) CPA 2019: “right to be informed about quality, quantity, potency, purity, standard and price”) is the **precondition** for the Right to Be Heard. A wrong answer (“they are separate rights”) misses the **sequential dependency** — board exam competency questions often link these two rights in a single case.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step action plan for a Class 10 student who discovers that the school canteen sells packaged snacks **without the FSSAI license number** on the wrapper. The plan must exercise the Right to Be Heard and Represented at *two different levels* (school and regulatory).",
+     "a": "**Step 1 (School level — Right to Be Heard):** Student submits a written complaint to the Principal/School Management Committee with photo evidence of the wrapper, demanding immediate removal of non-compliant products. *Mechanism: School’s internal grievance redressal (representing student body).*  \n**Step 2 (Regulatory level — Right to Be Represented):** Student, with 10+ classmates, files a joint complaint on the **Food Safety Connect** portal (FSSAI) or calls 1800-11-2100, citing Section 26 of the Food Safety and Standards Act, 2006. *Mechanism: Direct consumer representation to regulator.*  \n**Step 3 (Collective amplification):** Student forms a “School Consumer Club” (registered under the Consumer Club Scheme of the Department of Consumer Affairs) to monitor canteen compliance monthly and represent student interests in the District Consumer Protection Council’s quarterly meetings.  \nA poor answer lists only one level (e.g., only tells the teacher) or suggests illegal steps (e.g., “protest outside canteen”). This reveals inability to **map rights to institutional pathways** — a core board exam skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

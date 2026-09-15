@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_08_004",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_08_004",
+   "title": "c12_hs_cbse_08_004",
+   "questions": [
+    {
+     "q": "Define the three dimensions of colour (hue, value, intensity) and give one fabric example for each dimension where changing only that dimension alters the design effect.",
+     "a": "Hue is the colour name (e.g., red, blue-green) determined by wavelength; value is lightness/darkness (tint = hue + white, shade = hue + black); intensity/chroma is purity/saturation (high intensity = pure hue, low intensity = hue + complement or grey). Example: A cotton kurta in pure red (high intensity) vs. brick red (low intensity, greyed) changes the mood from festive to subdued without altering hue or value. A wrong answer (e.g., confusing value with intensity, or saying \"tint adds black\") reveals the student cannot isolate variables — a critical error when adjusting only one dimension in dyeing or printing.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Monochromatic and achromatic schemes are the same because both use only one colour.\" Explain why this is incorrect using the colour wheel and value scale.",
+     "a": "Monochromatic uses ONE hue varied in value (tints/shades) and/or intensity (e.g., navy, sky blue, pastel blue — all blue hue). Achromatic uses NO hue — only neutrals (black, white, greys) which have zero chroma. On the colour wheel, monochromatic stays on one spoke; achromatic occupies the centre axis. A wrong answer shows the student conflates \"single colour family\" with \"no colour\" — leading to design errors like calling a grey-and-white outfit \"monochromatic blue\" in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A designer wants to create a salwar-kurta-dupatta set using a split-complementary scheme based on yellow-orange as the dominant hue. List the exact three hues she must use (by colour wheel position) and specify which should dominate, which should accent, and why.",
+     "a": "Split-complementary of yellow-orange (Y-O) uses Y-O + the two neighbours of its complement (blue-violet). Complement of Y-O is blue-violet (B-V); neighbours are blue (B) and violet (V). So the three hues: yellow-orange (dominant, 60%), blue (accent, 30%), violet (accent, 10%). Dominant covers largest area (kurta); accents in dupatta border/piping. Wrong answer (e.g., using blue-green instead of blue) shows inability to locate complements and neighbours on the wheel — a direct board-mark loss in scheme identification questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast analogous and triadic schemes in terms of: (a) number of hues, (b) wheel positions, (c) visual energy, (d) difficulty in balancing for Indian skin tones. Give one garment example for each.",
+     "a": "Analogous: 2-3 adjacent hues (e.g., yellow, yellow-orange, orange), low contrast, harmonious/calm, easy to balance — example: autumn-toned lehenga-choli. Triadic: 3 hues equidistant (120° apart, e.g., red, yellow, blue), high contrast, vibrant/energetic, hard to balance without one dominating — example: primary-colour blocked Anarkali. Wrong answer (e.g., saying triadic uses adjacent hues) reveals confusion between \"equidistant\" and \"neighbouring\" — a frequent MCQ trap in CUET/Home Science entrance tests.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this design decision: \"For a petite bride's wedding lehenga, I chose a double-complementary scheme (red-green + yellow-violet) in full-intensity hues with equal proportions.\" Judge its suitability using proportion, figure type, and colour psychology principles.",
+     "a": "Unsuitable. Double-complementary (4 hues) in full intensity creates visual vibration — overwhelming on a petite frame (violates proportion: equal divisions shorten height). Red-green is culturally auspicious but full-intensity equal proportions cause simultaneous contrast fatigue. Better: monochromatic red (tints/shades) with gold (accented neutral) to elongate silhouette. Wrong answer (e.g., \"it's festive so it works\") shows inability to evaluate schemes against figure/occasion — a competency-based board question pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new 4-hue colour scheme for a summer resort-wear collection targeting Gen-Z buyers. Name it, specify the four hues by wheel position, assign value/intensity variations, and justify each choice using trend, climate, and psychology factors.",
+     "a": "Scheme: \"Coastal Drift\" — Hues: blue-green (BG), green (G), yellow-green (YG), yellow (Y) — an extended analogous (4 adjacent). Values: BG shade (deep lagoon, 20%), G tint (seafoam, 30%), YG tint (lime splash, 30%), Y tint (sunlit sand, 20%). Intensities: BG low (greyed), others medium-high. Justification: Adjacent hues = calm (vacation mood); cool-dominant suits Indian summer heat; yellow-green/yellow accents = Gen-Z \"dopamine dressing\" trend; greyed BG grounds the brights. Poor answer (random hues, no justification) reveals inability to synthesise theory with market context — a key NIFT/NID entrance skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

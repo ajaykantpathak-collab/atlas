@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_04_004",
+   "title": "c10_bio_cbse_04_004",
+   "questions": [
+    {
+     "q": "State Mendel's Law of Segregation in one sentence using the terms 'allele', 'gamete', and 'heterozygous'.",
+     "a": "Correct answer: During gamete formation, the two alleles of a gene in a heterozygous individual separate so that each gamete receives only one allele. A wrong answer (e.g., \"genes split during reproduction\" or \"dominant allele kills recessive allele\") reveals the student confuses segregation with dominance or thinks alleles physically break apart rather than separate into different gametes.",
+     "self_check": true
+    },
+    {
+     "q": "In a dihybrid cross between two heterozygous parents (RrYy × RrYy), the phenotypic ratio is 9:3:3:1. Explain why this ratio supports the Law of Independent Assortment, referencing the behavior of chromosomes during meiosis.",
+     "a": "Correct answer: The 9:3:3:1 ratio arises because alleles for seed shape (R/r) and seed color (Y/y) assort independently during gamete formation, producing four gamete types (RY, Ry, rY, ry) in equal proportions. This happens because the genes are on different chromosomes (or far apart), so their homologous pairs align randomly at metaphase I. A wrong answer (e.g., \"the ratio is 9:3:3:1 because of dominance\") shows the student memorizes the ratio but doesn't link it to independent chromosome segregation.",
+     "self_check": true
+    },
+    {
+     "q": "A pea plant with genotype TtRr is self-pollinated. List all possible gametes this plant can produce and explain how the Law of Independent Assortment determines the number and types of gametes.",
+     "a": "Correct answer: Gametes: TR, Tr, tR, tr (four types in equal 1:1:1:1 ratio). Step 1: Identify the two heterozygous gene pairs (T/t and R/r). Step 2: Apply Law of Segregation — each gamete gets one allele per gene (T or t; R or r). Step 3: Apply Law of Independent Assortment — allele for height (T/t) assorts independently of allele for seed shape (R/r), so all four combinations are possible. A wrong answer listing only TR and tr (parental types) reveals the student thinks genes on different chromosomes always stay linked, confusing independent assortment with linkage.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Law of Segregation and Law of Independent Assortment by completing this table:\n\n| Feature | Law of Segregation | Law of Independent Assortment |\n|---------|-------------------|------------------------------|\n| Number of genes involved | | |\n| Meiotic stage where it occurs | | |\n| Condition for it to hold true | | |",
+     "a": "Correct answer: \n- Segregation: 1 gene; Anaphase I (homologous chromosomes separate); Always true for any heterozygous gene.\n- Independent Assortment: 2 or more genes; Metaphase I (random alignment of bivalents); True only if genes are on different chromosomes or far apart on same chromosome.\nA wrong answer (e.g., both occur in anaphase I, or independent assortment always holds) shows the student doesn't distinguish the meiotic mechanisms or the condition of non-linkage.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Mendel's Law of Independent Assortment applies to all pairs of genes in an organism.\" Evaluate this statement. Is it correct? Justify your answer with a biological reason.",
+     "a": "Correct answer: The statement is incorrect. Independent assortment applies only to genes located on different chromosomes or far apart on the same chromosome. Genes close together on the same chromosome (linked genes) do not assort independently — they tend to be inherited together. A wrong answer agreeing with the statement reveals the student doesn't know the chromosomal basis and limitation of the law.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple cross (specify parental genotypes) that would allow you to test whether two genes in pea plants follow the Law of Independent Assortment. Describe the expected phenotypic ratio in the F2 generation if the law holds, and what ratio you would expect if the genes are completely linked.",
+     "a": "Correct answer: Cross homozygous dominant for both traits (RRYY) with homozygous recessive (rryy) to get F1 dihybrids (RrYy). Self-pollinate F1 to get F2. If independent assortment holds: 9:3:3:1 phenotypic ratio. If completely linked: only parental phenotypes appear in 3:1 ratio (no recombinant types). A poor answer (e.g., using monohybrid cross, or not specifying homozygous parents) shows the student cannot design a controlled genetic cross to test a hypothesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

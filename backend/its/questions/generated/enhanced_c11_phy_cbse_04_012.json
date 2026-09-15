@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_04_012",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_04_012",
+   "title": "c11_phy_cbse_04_012",
+   "questions": [
+    {
+     "q": "State the formula for centripetal force in terms of mass \\(m\\), linear speed \\(v\\), and radius \\(R\\). Give its SI unit.",
+     "a": "\\(F_c = \\frac{m v^2}{R}\\); SI unit is newton (N) or kg·m·s⁻². A wrong answer like \\(F_c = m v R\\) or missing the square on \\(v\\) reveals confusion between centripetal force and momentum or a misunderstanding of the acceleration formula \\(a_c = v^2/R\\).",
+     "self_check": true
+    },
+    {
+     "q": "A car of mass 1000 kg takes a circular turn of radius 50 m on a flat road at 20 m/s. The coefficient of static friction between tyres and road is 0.8. Explain why the car does not skid, and calculate the required centripetal force. Compare it with the maximum available friction force.",
+     "a": "Required centripetal force \\(F_c = \\frac{1000 \\times 20^2}{50} = 8000\\ \\text{N}\\). Maximum static friction \\(f_{s,\\max} = \\mu_s m g = 0.8 \\times 1000 \\times 9.8 = 7840\\ \\text{N}\\). Since \\(F_c > f_{s,\\max}\\), the car will actually skid. A student who claims the car does not skid has not compared the required force with the friction limit, indicating a failure to apply the condition for no skidding.",
+     "self_check": true
+    },
+    {
+     "q": "A cyclist leans at an angle of 30° to the vertical while negotiating a circular bend of radius 10 m on a level road. If the combined mass of cyclist and bicycle is 80 kg, find the speed of the cyclist. (Take \\(g = 10\\ \\text{m/s}^2\\).)",
+     "a": "For a cyclist leaning on a flat road, the horizontal component of the normal reaction provides the centripetal force, and the vertical component balances weight. Resolving: \\(N \\sin\\theta = \\frac{m v^2}{R}\\), \\(N \\cos\\theta = m g\\). Dividing gives \\(\\tan\\theta = \\frac{v^2}{R g}\\). So \\(v = \\sqrt{R g \\tan\\theta} = \\sqrt{10 \\times 10 \\times \\tan30°} = \\sqrt{100 \\times 0.577} \\approx 7.6\\ \\text{m/s}\\). A common error is to use \\(\\sin\\theta\\) or \\(\\cos\\theta\\) incorrectly, or to forget that the normal force is not equal to \\(mg\\) when leaning.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the maximum safe speed for a car on a flat circular track of radius \\(R\\) with coefficient of friction \\(\\mu_s\\) to that on a banked track of the same radius and same \\(\\mu_s\\) but with banking angle \\(\\theta\\). Derive the ratio \\(v_{\\text{banked}} / v_{\\text{flat}}\\) and discuss how it varies with \\(\\theta\\).",
+     "a": "For flat road: \\(v_{\\text{flat}} = \\sqrt{\\mu_s R g}\\). For banked road with friction: \\(v_{\\text{banked}} = \\sqrt{R g \\frac{\\tan\\theta + \\mu_s}{1 - \\mu_s \\tan\\theta}}\\) (for maximum speed without skidding outward). The ratio is \\(\\frac{v_{\\text{banked}}}{v_{\\text{flat}}} = \\sqrt{\\frac{\\tan\\theta + \\mu_s}{\\mu_s (1 - \\mu_s \\tan\\theta)}}\\). This ratio increases with \\(\\theta\\) and exceeds 1 for any positive \\(\\theta\\), showing banking allows higher speeds. A student who gives the frictionless banking formula \\(v = \\sqrt{R g \\tan\\theta}\\) for the banked case ignores the role of friction and cannot compare correctly.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"On a banked road, the normal force has a horizontal component that provides the centripetal force, so friction is never needed.\" Evaluate this statement and give a counterexample using the formula for optimum speed.",
+     "a": "The statement is false. The horizontal component of the normal force alone provides the required centripetal force only at the optimum speed \\(v_o = \\sqrt{R g \\tan\\theta}\\). If the vehicle moves slower than \\(v_o\\), it tends to slip down the incline, so friction acts up the slope to prevent inward skidding. If it moves faster, friction acts down the slope to prevent outward skidding. Thus friction is needed except exactly at \\(v_o\\). A student who agrees with the statement misunderstands that the normal force's horizontal component is fixed by the banking angle and speed, and does not automatically adjust to provide exactly the needed centripetal force at all speeds.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a conical pendulum (a mass on a string moving in a horizontal circle) to verify the formula \\(F_c = m \\omega^2 R\\). List the measurements you would take, the graph you would plot, and how you would extract the mass from the slope.",
+     "a": "Attach a known mass \\(m\\) to a string of length \\(L\\), whirl it in a horizontal circle of radius \\(R\\) by holding the other end. Measure the period \\(T\\) for several radii (by varying the speed). The centripetal force is provided by the horizontal component of tension: \\(T \\sin\\theta = m \\omega^2 R\\). Since \\(\\sin\\theta = R/L\\), tension \\(T = m \\omega^2 L\\). Plot \\(T\\) (vertical axis) versus \\(\\omega^2\\) (horizontal axis). The slope gives \\(m L\\). Knowing \\(L\\), the mass \\(m\\) can be found. A poor answer might suggest plotting \\(v\\) vs \\(R\\) or not recognizing that tension is not directly measurable without a force sensor, indicating a lack of experimental design skills.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

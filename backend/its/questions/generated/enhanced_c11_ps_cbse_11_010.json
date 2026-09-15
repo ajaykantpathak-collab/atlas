@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_11_010",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_11_010",
+   "title": "c11_ps_cbse_11_010",
+   "questions": [
+    {
+     "q": "What is the exact constitutional designation of Article 32 - is it a Fundamental Right, a Directive Principle, or a structural provision? Cite the specific Part and Chapter of the Constitution where it appears.",
+     "a": "Article 32 is a Fundamental Right located in Part III (Fundamental Rights), Chapter \"Right to Constitutional Remedies\" (Articles 32-35). A wrong answer (e.g., calling it a Directive Principle or structural provision) reveals the student does not grasp that the right to approach the Supreme Court for rights enforcement is itself a guaranteed Fundamental Right, not merely a procedural rule. This confusion undermines understanding of why Article 32 cannot be suspended easily and why it's justiciable.",
+     "self_check": true
+    },
+    {
+     "q": "A citizen's right to freedom of speech (Article 19(1)(a)) is violated by a state government order. The citizen files a writ petition directly in the Supreme Court under Article 32. The state objects, arguing the citizen should first approach the High Court under Article 226. Explain why the Supreme Court would reject this objection, citing the constitutional principle involved.",
+     "a": "The Supreme Court would reject the objection because Article 32 confers a Fundamental Right to move the Supreme Court directly for enforcement of Fundamental Rights - it is not an appellate or discretionary remedy. Unlike Article 226 (High Court writ jurisdiction, which is discretionary and wider), Article 32 is mandatory for the Supreme Court to entertain when a Fundamental Right is violated. A wrong answer suggesting the citizen must exhaust High Court remedies first reveals confusion between the mandatory original jurisdiction of SC under Article 32 and the concurrent but discretionary jurisdiction of HC under Article 226.",
+     "self_check": true
+    },
+    {
+     "q": "A municipal corporation refuses to issue a trade license to a street vendor despite the vendor meeting all legal requirements. The vendor's livelihood (Article 21) is affected. Which specific writ under Article 32 would the Supreme Court issue to compel the municipal corporation to perform its statutory duty? Explain why the other four writs would be inappropriate.",
+     "a": "The appropriate writ is Mandamus (\"we command\"), which directs a public authority to perform a duty it is legally obligated to perform. Habeas Corpus applies only to illegal detention; Prohibition and Certiorari apply to judicial/quasi-judicial bodies exceeding jurisdiction; Quo Warranto challenges a person's right to hold public office. A wrong answer (e.g., suggesting Certiorari) reveals the student cannot match the writ to the nature of the authority's failure - here, non-performance of a ministerial duty by an administrative body, not a judicial error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the scope of Article 32 (Supreme Court) and Article 226 (High Courts) on three dimensions: (a) territorial jurisdiction, (b) types of rights enforceable, (c) nature of remedy (mandatory/discretionary). Present as a structured comparison.",
+     "a": "(a) Territorial: Article 32 - entire India; Article 226 - within the High Court's territorial jurisdiction (state/UT). (b) Rights: Article 32 - only Fundamental Rights (Part III); Article 226 - Fundamental Rights AND \"any other purpose\" (statutory rights, legal rights). (c) Nature: Article 32 - mandatory (SC cannot refuse if FR violated); Article 226 - discretionary (HC may refuse on grounds like alternative remedy, delay, etc.). A wrong answer conflating these reveals the student misses why Article 226 is broader yet weaker as a Fundamental Right enforcement tool.",
+     "self_check": true
+    },
+    {
+     "q": "During a National Emergency proclaimed under Article 352, the President issues an order under Article 359 suspending the right to move courts for enforcement of Articles 21 and 22. A person is detained preventively under a law that violates Article 22 safeguards. Can the person approach the Supreme Court under Article 32 for Habeas Corpus? Justify with the ADM Jabalpur v. Shivkant Shukla (1976) and the 44th Amendment position.",
+     "a": "Under the original ADM Jabalpur majority (1976), the answer was NO - Article 32 itself stood suspended for Articles 21/22, so no Habeas Corpus. Post-44th Amendment (1978), Article 359 was amended: the President CANNOT suspend the right to move courts for enforcement of Articles 20 and 21. Since Article 22 is not in this protected list, Article 22 safeguards can still be suspended. However, if the detention violates Article 21 (procedure not fair, just, reasonable), the person CAN approach SC under Article 32 because Article 21 enforcement cannot be suspended. A wrong answer reveals confusion about which Articles are protected from suspension under the 44th Amendment.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph argument for a Public Interest Litigation (PIL) under Article 32 on behalf of a community whose groundwater is contaminated by industrial effluents, violating their Article 21 right to clean environment. Identify: (i) the petitioner (locus standi), (ii) the Fundamental Right violated, (iii) the specific writ sought, (iv) the respondent authority.",
+     "a": "A credible PIL would: (i) Petitioner - a local resident or NGO acting as \"public spirited citizen\" (relaxed locus standi per S.P. Gupta v. Union of India); (ii) Right violated - Article 21 (right to life includes clean water/environment per Subhash Kumar v. State of Bihar); (iii) Writ sought - Mandamus directing the State Pollution Control Board and District Magistrate to enforce environmental laws and stop pollution; (iv) Respondents - State Government, Pollution Control Board, Industrial units. A poor answer naming only the factory as respondent or seeking damages (not a writ) reveals misunderstanding of PIL's public law nature and Article 32's writ-based remedy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

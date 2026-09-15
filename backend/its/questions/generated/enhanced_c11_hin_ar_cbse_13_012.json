@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_13_012",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_13_012",
+   "title": "c11_hin_ar_cbse_13_012",
+   "questions": [
+    {
+     "q": "Define literal comprehension and inferential comprehension in your own words. Give one example of each type of question for any text you know.",
+     "a": "Literal comprehension involves retrieving information explicitly stated in the text (e.g., \"What is the capital of France?\" from a geography passage). Inferential comprehension involves deriving implied meaning by combining textual evidence with reasoning (e.g., \"Why did the character refuse the offer?\" requires analyzing motives). A wrong answer that swaps the definitions reveals the student cannot distinguish between *explicit statement* and *implied meaning* — the core skill for board exam comprehension.",
+     "self_check": true
+    },
+    {
+     "q": "Consider this line from Stanza 1: \"dgk¡ rks r; Fkk fpjkxk¡ gjsoQ ?kj osQ fy,] dgk¡ fpjkx e;Llj ugha 'kgj osQ fy,A\" Is the question \"What two things does the poet say about the fog's past location?\" literal or inferential? Justify your classification.",
+     "a": "This is a **literal** question. The answer is directly in the lines: (1) sometimes the fog was for the houses, (2) sometimes the fog was not for the lanes. No reasoning beyond reading is needed. If a student classifies it as inferential, they likely confuse *paraphrasing* with *inferring* — they think any rewording of the text counts as inference, missing that inference requires going *beyond* the given words.",
+     "self_check": true
+    },
+    {
+     "q": "Answer this literal question using only Stanza 1: \"What command does the poet give to the fog, and what reason does he imply for it?\" Quote the exact phrase for the command.",
+     "a": "**Step 1:** Identify keywords: \"command\" (order), \"fog\" (/wi), \"Stanza 1\".  \n**Step 2:** Scan Stanza 1: \"pyks ;gk¡ ls pysa vkSj mez Hkj osQ fy,A\"  \n**Step 3:** Extract command phrase: \"pyks ;gk¡ ls pysa\" (Fly away from here).  \n**Step 4:** Extract implied reason: \"mez Hkj osQ fy,A\" (to fill the sacks).  \n**Step 5:** Formulate answer: The poet commands the fog \"pyks ;gk¡ ls pysa\" (fly away from here) implying it should go fill the sacks (of the rulers/grain).  \nA wrong answer that invents a reason like \"to clear the sun\" reveals the student imports outside knowledge instead of sticking to textual evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the approach for these two questions on the same poem:  \n(A) \"List the three things the villagers might do tomorrow according to Stanza 2.\"  \n(B) \"What does the phrase 'equkflc' (helpless) reveal about the villagers' economic agency?\"  \nExplain how your reading strategy differs for each.",
+     "a": "For (A) — **literal**: Strategy = *Scan and Retrieve*. Locate Stanza 2, find future tense verbs (\"ysaxs\"), list the three actions explicitly stated.  \nFor (B) — **inferential**: Strategy = *Clue-Connect-Conclude*.  \n1. Locate \"equkflc\" in context: \"u gks deh”k rks ik¡oksa ls isV <¡d ysaxs] ;s yksx fdrus equkflc gSa bl lI+kQj osQ fy,A\"  \n2. Gather clues: \"pluck straw from roofs\" (desperation), \"fill sacks of rulers\" (exploitation), \"sun's rays only in wrinkles\" (futile hope).  \n3. Conclude: \"equkflc\" signifies total lack of economic agency — they cannot resist exploitation nor secure basic needs.  \nA wrong answer that uses the same scan-and-list method for (B) reveals inability to shift from *retrieval* to *synthesis* mode.",
+     "self_check": true
+    },
+    {
+     "q": "A student answers the inferential question \"Why does the poet address the fog as 'you' (tu/tum)?\" with: \"Because the poet is talking to the fog directly.\" Evaluate this answer. Is it sufficient for a 2-mark board question? Why or why not?",
+     "a": "**Evaluation: Insufficient (0/2 marks).**  \n**Reason:** The answer states the *literal* grammatical fact (apostrophe/direct address) but misses the *inferential* significance. A 2-mark answer must explain the *effect*: Personifying the fog as a stubborn listener (\"pyks ;gk¡ ls pysa\") transforms it into an accountable oppressor — the poet confronts the systemic force (ruler/exploitation) as if it were a person who can be commanded. The student's answer shows **surface-level reading** — they identify the device but cannot infer its thematic function. This is the most common error in board exams: naming the device without explaining its purpose.",
+     "self_check": true
+    },
+    {
+     "q": "Create one literal and one inferential question based on Stanza 3 (\"ft,¡ rks vius cxhps esa xqyeksgj osQ rys] ejsa rks xSj dh xfy;ksa esa xqyeksgj osQ fy,A\"). Provide the ideal answer for each.",
+     "a": "**Literal Q:** \"Where does the sun keep its rays of hope according to the first line of Stanza 3?\"  \n**Ideal Answer:** \"In its lap\" (vius cxhps esa) — directly quoted.  \n\n**Inferential Q:** \"What does the contrast between the sun's 'lap' and the villagers' 'wrinkles' suggest about the accessibility of hope?\"  \n**Ideal Answer:** Hope (sun's rays) remains distant and possessive (\"in its lap\") while villagers only bear its *imprint* in their wrinkles — suggesting hope is visible but unattainable, etched only as signs of enduring hardship.  \n\nA poor answer that makes the inferential question answerable by a single word (\"sadness\") reveals the student cannot construct *evidence-based* inferences — they guess emotions instead of analyzing textual contrast.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

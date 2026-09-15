@@ -1,0 +1,128 @@
+{
+ "class": 11,
+ "subject": "history",
+ "chapter": 101,
+ "chapter_title": "Writing and City Life",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kehs101.txt",
+ "concepts": [
+  {
+   "id": "kehs.101.1.1",
+   "title": "Mesopotamia and Its Urbanisation",
+   "section": "",
+   "definition": "Mesopotamia, the land between the Euphrates and Tigris rivers, saw the earliest urbanisation from about 3000 BCE, where temples and ziggurats, specialised craftsmen, trade and writing organised city life in Sumer, Akkad, Babylon and Assyria.",
+   "formula": "",
+   "key_idea": "Urban populations could only be sustained by intensive agriculture with irrigation, and the surplus fed kings, priests, officials and craftsmen who did not grow food.",
+   "textbook_ref": "kehs101.txt urbanisation sections",
+   "question_patterns": [
+    "why did cities first appear in mesopotamia",
+    "describe the role of temples in mesopotamian cities",
+    "who were the groups that lived in mesopotamian cities",
+    "how did irrigation support urban life",
+    "name the regions of ancient mesopotamia",
+    "what is meant by urbanisation in early societies"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the theme or source",
+     "explain": "Note the period, place and evidence the question concerns."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter narrative",
+     "explain": "Match the theme with the chapter's account and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms of the chapter."
+    }
+   ]
+  },
+  {
+   "id": "kehs.101.2.1",
+   "title": "Cuneiform Writing and Its Uses",
+   "section": "",
+   "definition": "Writing began in Mesopotamia as cuneiform wedge shaped signs pressed on clay tablets, first used for record keeping of goods and debts, and later for letters, laws, literature like the Epic of Gilgamesh and school texts, with literacy remaining the monopoly of scribes.",
+   "formula": "",
+   "key_idea": "Tablets of clay were cheap and durable, which is why thousands of cuneiform tablets survive to tell us of daily life, contracts and royal deeds.",
+   "textbook_ref": "kehs101.txt writing sections",
+   "question_patterns": [
+    "how did cuneiform writing develop in mesopotamia",
+    "what were the uses of writing in early cities",
+    "who were scribes and why were they important",
+    "why were clay tablets durable records",
+    "describe the literature of mesopotamia",
+    "what does the epic of gilgamesh tell us"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the theme or source",
+     "explain": "Note the period, place and evidence the question concerns."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter narrative",
+     "explain": "Match the theme with the chapter's account and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms of the chapter."
+    }
+   ]
+  },
+  {
+   "id": "kehs.101.3.1",
+   "title": "Life in the City: Kings, Law and Society",
+   "section": "",
+   "definition": "Mesopotamian cities were ruled by kings who built temples and fought wars, law codes like that of Hammurabi regulated society with punishments by status, and family life, property, slavery and trade are known from legal texts and archaeology.",
+   "formula": "",
+   "key_idea": "The law code of Hammurabi shows a society divided by rank, where the same offence drew different punishments for nobles, commoners and slaves.",
+   "textbook_ref": "kehs101.txt kings and law sections",
+   "question_patterns": [
+    "describe the duties of mesopotamian kings",
+    "what does the code of hammurabi reveal about society",
+    "how was society divided in mesopotamia",
+    "what role did slaves play in mesopotamian life",
+    "explain the importance of law codes in early cities",
+    "how do archaeologists reconstruct life in early cities"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the theme or source",
+     "explain": "Note the period, place and evidence the question concerns."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter narrative",
+     "explain": "Match the theme with the chapter's account and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms of the chapter."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kehs101.txt exercises",
+   "questions": [
+    "Why do we say that the mesopotamian civilisation knew the use of writing?",
+    "Describe the city of Ur and its temple.",
+    "What were the uses of writing in mesopotamia?",
+    "Discuss the division of mesopotamian society.",
+    "Explain the significance of the code of hammurabi."
+   ]
+  }
+ ]
+}

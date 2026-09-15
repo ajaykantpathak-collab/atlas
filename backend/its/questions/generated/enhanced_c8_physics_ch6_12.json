@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch6_12",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch6_12",
+   "title": "c8_physics_ch6_12",
+   "questions": [
+    {
+     "q": "State the nature (real/virtual, erect/inverted, magnified/diminished) of the image formed by a concave lens when the object is placed at infinity.",
+     "a": "The image is virtual, erect, and highly diminished (point-sized) formed at the focus on the same side as the object. A wrong answer (e.g., saying real or inverted) reveals the student thinks concave lenses behave like convex lenses or confuses the sign conventions for virtual images.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a concave lens always forms a virtual image, using the behaviour of the three principal rays.",
+     "a": "A concave lens diverges incident rays; the refracted rays never actually meet on the opposite side – they only appear to diverge from a point on the object side when extended backwards, so the image is virtual. If a student says the rays converge, they misunderstand the diverging nature of the lens and confuse it with a convex lens.",
+     "self_check": true
+    },
+    {
+     "q": "An object of height 4 cm is placed 30 cm from a concave lens of focal length 15 cm. Using a ray diagram (not formula), describe the approximate position, size, and nature of the image.",
+     "a": "The image forms between the optical center and the focus on the object side (approx. 10 cm from lens), is erect, virtual, and diminished (height < 4 cm). A wrong position (e.g., beyond 2F) indicates the student incorrectly applies convex lens rules or misjudges the divergence angle.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ray diagrams for a concave lens and a convex lens when the object is placed at the same distance (between f and 2f for convex, and between infinity and optical center for concave). Identify two key differences in the ray paths and image characteristics.",
+     "a": "For convex lens: rays converge to form a real, inverted, magnified image beyond 2f. For concave lens: rays diverge, forming a virtual, erect, diminished image between optical center and focus. A student who says both form real images fails to recognize the fundamental difference between converging and diverging lenses.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a ray diagram for a concave lens with the object at infinity and shows the image forming at the focus on the opposite side of the lens. Evaluate this diagram and explain the error.",
+     "a": "The diagram is incorrect because for a concave lens, parallel rays diverge as if coming from the first focus (on the object side), so the virtual image forms at the focus on the same side as the object, not the opposite side. The error shows the student confuses the focal point sign convention and treats the concave lens like a convex lens.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple activity using a concave lens (e.g., from a peephole or spectacle lens for myopia) and a candle flame to demonstrate that the image formed is virtual and cannot be caught on a screen. List the steps and expected observations.",
+     "a": "Steps: 1) Hold the concave lens between a lit candle and a white screen. 2) Move the screen to various distances. 3) Observe that no sharp image forms on the screen. 4) Look through the lens from the screen side – an erect, diminished virtual image of the flame is seen. A poor answer omits the crucial step of looking through the lens, indicating the student doesn't understand virtual images are seen by the eye, not projected.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

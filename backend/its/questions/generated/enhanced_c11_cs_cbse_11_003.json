@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_11_003",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_11_003",
+   "title": "c11_cs_cbse_11_003",
+   "questions": [
+    {
+     "q": "Define \"network topology\" and name the five standard topologies covered in CBSE Class 11.",
+     "a": "Network topology is the arrangement of nodes and links in a network, defining data flow paths. The five standard topologies are Bus, Star, Ring, Mesh, and Tree. A wrong answer (e.g., listing \"Hybrid\" or \"Wireless\" as standard, or confusing topology with network types like LAN/MAN) reveals the student is mixing up network classification (scale) with topology (structure), or relying on informal knowledge instead of syllabus-defined categories.",
+     "self_check": true
+    },
+    {
+     "q": "In a Star topology, all nodes connect to a central device. Explain why a single cable failure affects only one node, whereas in Bus topology the same failure can bring down the entire network.",
+     "a": "In Star, each node has a dedicated point-to-point link to the central hub/switch; a break isolates only that link. In Bus, all nodes share a single backbone cable; a break anywhere splits the backbone, leaving all nodes on both segments without a complete path to each other. A wrong answer (e.g., \"Star has more cables so it's safer\") shows the student memorizes \"Star is robust\" without understanding the structural reason: dedicated links vs. shared medium.",
+     "self_check": true
+    },
+    {
+     "q": "A small startup has 8 computers and wants to minimize cabling cost while allowing easy addition of new devices. They do not have a dedicated server room. Which topology would you recommend? Justify with two reasons.",
+     "a": "Recommend Bus topology. Reason 1: Uses least cable (single backbone with drop lines), minimizing cost for 8 nodes. Reason 2: Adding a new node only requires a drop line and tap connector, no re-cabling of existing nodes. A wrong answer (e.g., recommending Star for \"reliability\") ignores the explicit constraints: cost minimization and no central device infrastructure. This reveals inability to match topology characteristics to scenario constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Mesh and Tree topologies on: (a) number of links required for n nodes, (b) fault tolerance, (c) typical use case. Present as a table.",
+     "a": "| Parameter | Mesh (Full) | Tree |\n|-----------|-------------|------|\n| Links for n nodes | n(n-1)/2 | n-1 (hierarchical) |\n| Fault Tolerance | Very high (multiple paths) | Low (failure of parent link isolates subtree) |\n| Typical Use | Critical backbone, WAN links, military | Large corporate LANs, ISP networks |\nA wrong answer (e.g., claiming Tree has high fault tolerance) shows confusion between Tree's hierarchical redundancy (multiple children) and actual path redundancy. Tree has no alternative paths; Mesh does.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Ring topology is obsolete because Star topology is better in every way.\" Provide two counter-arguments where Ring might still be preferred.",
+     "a": "Counter-argument 1: Ring (especially Token Ring / FDDI) provides deterministic access and guaranteed bandwidth without collisions, which is superior for real-time applications (e.g., industrial control) compared to Ethernet Star (CSMA/CD) under heavy load. Counter-argument 2: Ring requires less cable than Star for the same number of nodes arranged in a line (e.g., factory floor machines), reducing installation cost. A wrong answer (e.g., \"Ring is never used\") shows lack of awareness of niche applications and historical context; the statement is an overgeneralization.",
+     "self_check": true
+    },
+    {
+     "q": "Design a network topology for a university campus with 5 buildings (each with 50 computers) connected to a central admin block. The admin block must monitor all traffic. Draw the topology, label all components, and explain why your choice balances cost, scalability, and monitoring.",
+     "a": "Use Tree topology: Admin block as root (central switch), each building as a child segment (with its own Star topology switch connecting 50 PCs), linked via fiber backbone. Admin root switch connects to all building switches. This allows: (1) Scalability — add buildings by connecting new switch to root; (2) Cost — each building uses Star internally (standard), backbone uses minimal fiber links; (3) Monitoring — admin root sees all inter-building traffic. A poor answer (e.g., Mesh between all buildings) ignores cost and over-engineers for a hierarchical organization.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

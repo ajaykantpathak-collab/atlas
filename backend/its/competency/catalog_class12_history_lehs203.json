@@ -1,0 +1,248 @@
+{
+ "class": 12,
+ "subject": "history",
+ "chapter": 20,
+ "chapter_title": "An Imperial Capital: Vijayanagara",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lehs203.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lehs.203.1",
+   "title": "Discovery of Hampi and the Empire's Founding",
+   "section": "Vijayanagara: The Forgotten Capital",
+   "definition": "Colin Mackenzie's early nineteenth-century surveys and photograph-era archaeology brought Hampi's ruins to light; the city of Vijayanagara, founded around 1336 by brothers Harihara and Bukka of the Sangama dynasty, became the capital of an empire that lasted until its defeat at Talikota in 1565.",
+   "formula": "",
+   "key_idea": "Hampi's stones were rediscovered by surveyors, then read with texts by travellers like Nicolo Conti and Abdur Razzaq to rebuild the empire's story.",
+   "textbook_ref": "lehs203.txt discovery of Hampi, founding (c. 1336) and Talikota (1565) sections",
+   "question_patterns": [
+    "who brought Hampi's ruins to scholarly attention",
+    "when and by whom was Vijayanagara founded",
+    "what happened at Talikota in 1565",
+    "name the dynasties that ruled Vijayanagara",
+    "which travellers described the city",
+    "why is Hampi called an imperial capital"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "date the founding",
+     "explain": "the Sangama brothers founded the capital around 1336"
+    },
+    {
+     "step": 2,
+     "action": "mark the fall",
+     "explain": "the 1565 defeat at Talikota broke the empire's military power"
+    },
+    {
+     "step": 3,
+     "action": "close with rediscovery",
+     "explain": "Mackenzie's survey began the archaeology of the ruined city"
+    }
+   ]
+  },
+  {
+   "id": "lehs.203.2",
+   "title": "Rayas, Nayakas and the Amara-nayaka System",
+   "section": "Rayas and Nayakas",
+   "definition": "Kings called rayas governed through military chiefs called nayakas under the amara-nayaka system, where chiefs held amara lands, collected taxes, maintained troops and presented tribute annually; Krishnadeva Raya of the Tuluva dynasty (1509-1529) expanded the empire and is remembered for his policies and the Amuktamalyada. The reign length is computed as the end year (1529) minus the start year (1509).",
+   "formula": "",
+   "key_idea": "The amara-nayaka bargain traded land and revenue for cavalry, holding the empire together through controlled decentralisation.",
+   "textbook_ref": "lehs203.txt amara-nayaka system and Krishnadeva Raya (1509-1529) sections",
+   "question_patterns": [
+    "describe the amara-nayaka system's obligations both ways",
+    "compute the length of Krishnadeva Raya's reign",
+    "list Krishnadeva Raya's achievements in war and letters",
+    "who were the nayakas and what powers did they hold",
+    "how did rayas control powerful chiefs",
+    "what followed Krishnadeva Raya's death"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "record the reign years",
+     "explain": "Krishnadeva Raya ruled from 1509 to 1529",
+     "compute": "start_year = 1509"
+    },
+    {
+     "step": 2,
+     "action": "subtract the start from the end",
+     "explain": "1529 - 1509 gives twenty years",
+     "compute": "krishna_reign = end_year - start_year"
+    }
+   ]
+  },
+  {
+   "id": "lehs.203.3",
+   "title": "The Sacred Centre: Temples of Hampi",
+   "section": "The Sacred Centre",
+   "definition": "Hampi's sacred geography placed the Virupaksha temple of Pampadevi beside the Tungabhadra; temples with towering gopurams and long mandapas received royal patronage, and kings like Krishnadeva Raya added halls and images, making temple building a claim of royal devotion and power.",
+   "formula": "",
+   "key_idea": "Gopurams rose taller than court buildings: sacred space outshouted secular power by design.",
+   "textbook_ref": "lehs203.txt Virupaksha temple, gopurams and royal patronage sections",
+   "question_patterns": [
+    "describe the Virupaksha temple and its deity",
+    "what are gopurams and mandapas",
+    "how did kings use temple patronage politically",
+    "why was the sacred centre placed by the Tungabhadra",
+    "identify other temples of the sacred centre",
+    "relate festival processions to urban life"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "place the temple",
+     "explain": "Virupaksha stood by the Tungabhadra amid Hampi hills"
+    },
+    {
+     "step": 2,
+     "action": "read the architecture",
+     "explain": "tall gopurams and pillared mandapas marked royal gift"
+    },
+    {
+     "step": 3,
+     "action": "close with politics",
+     "explain": "temple patronage broadcast the rayas' legitimacy"
+    }
+   ]
+  },
+  {
+   "id": "lehs.203.4",
+   "title": "The Urban Core and the Empire's Decline",
+   "section": "The Urban Core",
+   "definition": "Archaeological excavation mapped Hampi's urban core with aqueducts, water tanks, bazaars beside temples and courtyards of elites; after Talikota in 1565 the city was sacked and abandoned, ending its imperial life though dynasties continued elsewhere.",
+   "formula": "",
+   "key_idea": "Water engineering - canals and tanks - made a drought-prone capital thrive; its loss came from armies, not aqueducts.",
+   "textbook_ref": "lehs203.txt urban core excavation, water works and decline sections",
+   "question_patterns": [
+    "what did excavation reveal of Hampi's urban core",
+    "describe the water supply works of the city",
+    "how were bazaars linked to temples",
+    "what happened to the city after 1565",
+    "define the amara lands of the nayakas",
+    "evaluate archaeology and texts together as sources"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "map the core",
+     "explain": "excavations exposed markets, tanks and elite courtyards near temples"
+    },
+    {
+     "step": 2,
+     "action": "follow the water",
+     "explain": "aqueducts filled tanks that supported the dense capital"
+    },
+    {
+     "step": 3,
+     "action": "close with the sack",
+     "explain": "post-1565 armies burnt and looted, leaving the ruins Mackenzie later drew"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_lehs203_1",
+   "source_ref": "lehs203.txt Krishnadeva Raya dates",
+   "concept": "lehs.203.2",
+   "question_type": "compute",
+   "question_pattern": "Krishnadeva Raya ruled from 1509 to 1529. Compute the length of his reign.",
+   "extracted_variables": {
+    "start_year": 1509,
+    "end_year": 1529
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "record the reign",
+     "explain": "1509 to 1529 of the Tuluva dynasty",
+     "compute": "start_year = 1509"
+    },
+    {
+     "step": 2,
+     "action": "subtract",
+     "explain": "1529 - 1509 = 20 years",
+     "compute": "krishna_reign = end_year - start_year"
+    }
+   ]
+  },
+  {
+   "id": "we_lehs203_2",
+   "source_ref": "lehs203.txt amara-nayaka section",
+   "concept": "lehs.203.2",
+   "question_type": "short_answer",
+   "question_pattern": "Explain the two-way obligations of the amara-nayaka system.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "nayaka's dues",
+     "explain": "chiefs collected taxes, kept cavalry and paid annual tribute"
+    },
+    {
+     "step": 2,
+     "action": "raya's grants",
+     "explain": "kings granted amara lands and honoured chiefs at court"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "the bargain balanced central authority with military decentralisation"
+    }
+   ]
+  },
+  {
+   "id": "we_lehs203_3",
+   "source_ref": "lehs203.txt sacred centre section",
+   "concept": "lehs.203.3",
+   "question_type": "short_answer",
+   "question_pattern": "Why did Vijayanagara's rulers invest so heavily in temples?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "legitimacy",
+     "explain": "temple patronage displayed devotion and royal virtue"
+    },
+    {
+     "step": 2,
+     "action": "economy",
+     "explain": "temple bazaars organised trade and tribute"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "sacred architecture made power visible and prosperous"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_lehs203_1",
+   "source_ref": "lehs203.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "describe the discovery and excavation of Hampi",
+    "explain the amara-nayaka system with obligations",
+    "compute Krishnadeva Raya's reign length from his dates",
+    "describe the sacred centre and temple architecture",
+    "discuss the urban core's water and market systems"
+   ]
+  },
+  {
+   "id": "ex_lehs203_2",
+   "source_ref": "lehs203.txt project questions, reworded",
+   "questions": [
+    "use traveller accounts with archaeology for Vijayanagara",
+    "evaluate why the capital was abandoned after 1565",
+    "relate temple processions to urban economy",
+    "compare Vijayanagara's kingship with the Delhi sultanate",
+    "assess Hampi as a living heritage site today"
+   ]
+  }
+ ]
+}

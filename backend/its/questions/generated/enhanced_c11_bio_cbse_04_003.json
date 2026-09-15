@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_04_003",
+   "title": "c11_bio_cbse_04_003",
+   "questions": [
+    {
+     "q": "Define \"cellular level of organisation\" and state how it differs from \"tissue level of organisation\" using Porifera and Cnidaria as examples.",
+     "a": "Cellular level: cells are loosely aggregated, show division of labour but are not organised into tissues (e.g., Porifera). Tissue level: cells performing similar functions are grouped into tissues (e.g., Cnidaria). A wrong answer (e.g., \"sponges have tissues\") reveals the student hasn't grasped that Porifera lack true tissues — a fundamental distinction tested in board exams (NCERT Table 4.2).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the water canal system in sponges is considered a \"multifunctional system\" and how it compensates for the absence of digestive, circulatory, and respiratory organs.",
+     "a": "Water enters via ostia → flows through canals lined by choanocytes → exits via osculum. Choanocytes capture food (intracellular digestion), exchange gases, and remove waste — all via the same current. A wrong answer (e.g., \"sponges have a digestive cavity\") shows the student confuses spongocoel with a true gastrovascular cavity (Cnidaria) and misses that digestion is intracellular, not extracellular.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes a freshwater sponge (Spongilla) in a pond. Predict the symmetry, germ layers, coelom type, and type of fertilisation. Justify each prediction using Porifera characteristics.",
+     "a": "Symmetry: asymmetrical (mostly). Germ layers: diploblastic? No — Porifera lack true germ layers; they have cellular organisation without distinct ectoderm/endoderm. Coelom: absent (acoelomate). Fertilisation: internal (hermaphroditic, sperm carried by water current to oocyte). A wrong answer (e.g., \"diploblastic, radial symmetry\") reveals confusion with Cnidaria; the student must recall Porifera are pre-germ-layer organisms.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the skeleton composition and function in Sycon (calcareous spicules), Euspongia (spongin fibres), and Spongilla (siliceous spicules + spongin). How does this relate to their habitat and commercial use?",
+     "a": "Sycon (marine): calcareous spicules — rigid support. Euspongia (marine bath sponge): only spongin fibres — soft, elastic, used commercially. Spongilla (freshwater): siliceous spicules + spongin — resistant to freshwater conditions. A wrong answer (e.g., \"all have spicules\") misses that spongin-only skeletons exist and that skeleton type is a taxonomic character at class level (Calcarea vs Demospongiae).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Sponges are diploblastic animals because they have an outer layer of pinacocytes and an inner layer of choanocytes.\" Is it correct? Justify.",
+     "a": "Incorrect. Diploblastic implies two embryonic germ layers (ectoderm, endoderm) with mesoglea. Sponges lack true germ layers; pinacocytes and choanocytes are differentiated cell types, not embryonic layers. This misconception arises from superficially comparing sponge cell layers to cnidarian germ layers. Board exams test this distinction explicitly (NCERT: \"animals in which cells are arranged in two embryonic layers... are called diploblastic\").",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a live freshwater sponge (Spongilla) and carmine powder to demonstrate the water current pathway. List materials, steps, observation, and conclusion.",
+     "a": "Materials: Spongilla in water, carmine powder, dropper, hand lens. Steps: (1) Place sponge in dish; (2) Add carmine near ostia; (3) Observe particle movement. Observation: Particles enter ostia → move through canals → exit osculum. Conclusion: Unidirectional water current driven by choanocyte flagella. A poor answer omits control (dead sponge) or misidentifies osculum as inlet — shows lack of understanding of current directionality.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

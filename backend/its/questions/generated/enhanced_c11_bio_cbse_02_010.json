@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_02_010",
+   "title": "c11_bio_cbse_02_010",
+   "questions": [
+    {
+     "q": "What is the chemical composition of a prion and which host protein does it convert to propagate?",
+     "a": "A prion is composed solely of an abnormally folded isoform of the host-encoded prion protein (PrP^Sc) without any nucleic acid. It propagates by binding to the normal cellular prion protein (PrP^C) and inducing its conformational conversion into the pathogenic PrP^Sc form. A wrong answer (e.g., \"prions contain RNA\" or \"prions are viral particles\") reveals confusion with viroids or viruses and failure to grasp the protein-only hypothesis central to prion biology.",
+     "self_check": true
+    },
+    {
+     "q": "Why are lichens considered excellent bioindicators of air pollution, particularly sulfur dioxide?",
+     "a": "Lichens lack a protective cuticle and absorb water and nutrients directly from the atmosphere over their entire thallus surface. Sulfur dioxide dissolves in thallus moisture forming sulfuric acid, which disrupts chlorophyll, inhibits photosynthesis in the phycobiont, and damages fungal enzymes. Sensitive species (e.g., Usnea, Ramalina) disappear first, while tolerant species (e.g., Lecanora) persist, creating a measurable gradient. A wrong answer focusing only on \"lichens die in pollution\" without explaining the physiological mechanism (direct absorption, no cuticle, photosynthetic inhibition) shows superficial memorization without understanding lichen anatomy-physiology linkage.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer reports cattle showing progressive neurological symptoms: ataxia, tremors, and aggression. Brain biopsy reveals spongiform vacuolation. The infectious agent resists UV radiation, nucleases, and proteases but is inactivated by protein denaturants. Identify the agent and explain why standard sterilization (autoclaving at 121°C for 15 minutes) fails.",
+     "a": "The agent is a prion (PrP^Sc) causing bovine spongiform encephalopathy (BSE). Resistance to UV and nucleases confirms absence of nucleic acid; protease resistance (partial) and inactivation by denaturants confirm proteinaceous nature. Standard autoclaving fails because PrP^Sc aggregates are highly stable β-sheet-rich structures that resist denaturation at 121°C; WHO recommends 134°C for 18 minutes or 1N NaOH + autoclaving. A wrong answer attributing the disease to a virus or suggesting normal autoclaving works reveals misunderstanding of prion's unique physicochemical stability and the implications for iatrogenic transmission.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the symbiotic interface in lichens with that in mycorrhizae. How does the structural integration differ, and what are the functional consequences for nutrient exchange?",
+     "a": "In lichens, the mycobiont envelops the phycobiont cells within a dense hyphal mesh (medulla) with direct haustoria-like contact, creating a unified thallus where partners lose independent existence. In mycorrhizae, fungal hyphae form a sheath (ectomycorrhiza) or penetrate root cortical cells (endomycorrhiza/arbuscules) but the plant retains distinct root-shoot organization. Lichen integration allows bidirectional carbon-for-mineral exchange at cellular intimacy across the entire thallus; mycorrhizal exchange is localized to root tips and the fungus accesses soil beyond root depletion zones. A wrong answer treating both as \"fungus-algae/plant associations\" without distinguishing thallus-level vs organ-level integration misses the evolutionary significance of lichens as a distinct morphological entity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Prions violate the central dogma of molecular biology because information flows from protein to protein.\"",
+     "a": "The statement is misleading. The central dogma (DNA → RNA → protein) describes sequence information transfer. Prion propagation involves conformational information transfer (protein structure templating), not sequence information. The amino acid sequence of PrP^Sc is identical to PrP^C (encoded by host PRNP gene); only the fold changes. Thus, no violation occurs — the \"information\" is structural, not genetic. A wrong answer agreeing with the violation shows confusion between sequence information and conformational templating, failing to distinguish genetic inheritance from epigenetic/protein-based phenotypic inheritance.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field study to map lichen diversity as an indicator of air quality across an urban-rural gradient in your district. Specify sampling method, metrics, and how you would correlate with pollution data.",
+     "a": "Select 5-7 sites along a transect from city center (high traffic/industry) to rural area. At each site, use a 50 cm × 50 cm quadrat on 10 randomly chosen trees (same species, similar bark pH) at 1.5 m height. Record: (1) lichen species richness, (2) % cover of crustose/foliose/fruticose forms, (3) presence/absence of indicator species (e.g., Lecanora conizaeoides = SO2-tolerant; Usnea spp. = sensitive). Obtain SO2/NOx/PM2.5 data from nearest pollution monitoring stations. Calculate Lichen Diversity Index (LDI) and correlate with pollutant concentrations using Spearman's rank correlation. A poor design (e.g., no replication, ignoring bark pH, using only presence/absence) reveals lack of understanding of confounding variables in bioindicator studies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_civ_ch3_5",
+ "concepts": [
+  {
+   "id": "enh:c8_civ_ch3_5",
+   "title": "c8_civ_ch3_5",
+   "questions": [
+    {
+     "q": "What is the primary structural position of the Supreme Court within the Indian legal framework?",
+     "a": "The Supreme Court is the highest or apex court in India's single, integrated judicial system. A wrong answer usually confuses it with a local district court or a state high court, revealing a misunderstanding of India's unified judicial hierarchy where rulings of the Supreme Court are binding on all other courts.",
+     "self_check": true
+    },
+    {
+     "q": "Why does India have a single, unified judicial system with the Supreme Court at the top instead of completely independent state courts?",
+     "a": "A single judicial system ensures uniform interpretation and application of federal laws and the Constitution across all states, preventing conflicting legal judgments in different parts of the country. A wrong answer stating that states need their own supreme courts shows a failure to grasp how a federal republic maintains national legal consistency.",
+     "self_check": true
+    },
+    {
+     "q": "If a citizen is unsatisfied with the judgment of a State High Court in a constitutional matter, which institution represents their next and final legal recourse in India?",
+     "a": "The Supreme Court of India, because it serves as the final court of appeal for civil, criminal, and constitutional cases. A wrong answer suggesting a District Court or Parliament shows confusion between judicial appellate channels and the legislative branch.",
+     "self_check": true
+    },
+    {
+     "q": "How does the Supreme Court's position as the final interpreter of the Constitution affect laws passed by Parliament?",
+     "a": "The Supreme Court has the power to review laws passed by Parliament and declare them null and void (unconstitutional) if they violate the provisions or basic structure of the Constitution. A wrong answer claiming that Parliament can overrule any Supreme Court decision regarding constitutional validity ignores the principle of constitutional supremacy and judicial review.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Supreme Court operates as a branch subordinate to the executive branch of the central government.\" Is this statement accurate?",
+     "a": "The statement is completely inaccurate; the Supreme Court is an independent organ of government. Under the doctrine of separation of powers and judicial independence, the executive cannot direct or override judicial verdicts, ensuring impartial justice. A wrong answer indicating agreement shows a fundamental misconception about the checks and balances among the three organs of government.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short structural chart or description showing the three main tiers of the Indian judicial system, placing the Supreme Court in its correct position.",
+     "a": "A correct response places the Supreme Court at the top (apex), State High Courts in the middle, and District/Subordinate courts at the base, indicating lines of appeal from bottom to top. A poor response reverses the hierarchy or omits middle tiers, showing a misunderstanding of how cases move through the judicial system.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

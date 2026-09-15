@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_14_002",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_14_002",
+   "title": "c12_hin_ar_cbse_14_002",
+   "questions": [
+    {
+     "q": "What is the primary narrative perspective used in \"फखरुद्दीन की खाट\", and what is the immediate effect of this choice on the reader's access to events?",
+     "a": "The story uses a first-person narrative perspective (\"मैं\"). This limits the reader's knowledge to the narrator's observations, thoughts, and hearsay, creating subjective immediacy but also narrative gaps that mirror the bureaucratic opacity the story critiques. A wrong answer (e.g., \"third-person omniscient\") reveals the student cannot distinguish narrative voice, leading to misattribution of irony and satire.",
+     "self_check": true
+    },
+    {
+     "q": "The story opens with the narrator describing the cot in the present, then shifts to the poet's memory of the bureaucrat painting the cot. Explain why this shift is a structural flashback rather than a simple chronological continuation, and what thematic purpose it serves.",
+     "a": "The shift is a flashback because it interrupts the present-time description to recount an event that occurred years earlier (the bureaucrat painting the cot). Thematically, it establishes the cot as a historical artifact bearing witness to bureaucratic performativity — the paint was superficial, just like the bureaucrat's concern. A student who calls this \"continuation\" misses the non-linear structure and cannot explain how the past critiques the present.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"frame narrative\" to \"फखरुद्दीन की खाट\": Identify the outer frame and at least one inner embedded narrative. Then explain how the frame controls the reader's interpretation of the inner story.",
+     "a": "Outer frame: The narrator's present-day observation of the cot and his decision to write about it. Inner narrative: The poet's recounting of the bureaucrat (DK) painting the cot and the subsequent chain of custody. The frame controls interpretation by positioning the narrator as a skeptical chronicler — his opening question (\"Why treat a cot like a living being?\") primes the reader to view the inner narrative's reverence for the cot as absurd, thus activating satire. A wrong answer that misses the frame treats all events as equally \"real\" and loses the ironic distance.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the function of the digression about the poet's own cot (\"मेरी खाट\") in the middle of the bureaucrat's story. How does this digression structurally and thematically disrupt the main narrative line?",
+     "a": "The digression pauses the bureaucrat's story to insert the narrator's personal cot history, creating a structural parallel: both cots suffer neglect, but the narrator's cot is a personal metaphor for creative struggle while the bureaucrat's cot is a public symbol of institutional decay. This disruption forces the reader to compare private vs. public neglect, deepening the satire. A student who sees it as \"irrelevant detail\" fails to recognize structural parallelism as a thematic device.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the story's ending: the narrator's final rhetorical question (\"गाड़ी ज्यों की त्यों धरी रह गई\") after the cot's anti-climactic journey. Does the open-ended structural closure strengthen or weaken the satirical impact? Justify.",
+     "a": "The open-ended closure strengthens the satire. By denying resolution (the cot never reaches the museum, the bureaucrat never faces accountability), the structure mimics the endless bureaucratic deferral the story critiques. The rhetorical question traps the reader in the same inertia. A student who prefers a \"clear ending\" misunderstands how structural irresolution performs the theme.",
+     "self_check": true
+    },
+    {
+     "q": "Create a one-paragraph alternate ending for \"फखरुद्दीन की खाट\" that retains the first-person frame but changes the narrative structure to a linear chronological order. Explain in one sentence how this structural change would alter the story's satirical tone.",
+     "a": "Alternate ending (linear): \"Fakhruddin bought the cot in 1940. The bureaucrat painted it in 1965. The poet wrote about it in 1970. The museum rejected it in 1975. Today it lies in my verandah, still unpainted.\" Structural change effect: Linear order would turn satire into mere chronicle, removing the ironic juxtaposition that exposes bureaucratic hypocrisy. A poor answer keeps the frame but misses that linearity flattens the thematic tension between past performance and present neglect.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

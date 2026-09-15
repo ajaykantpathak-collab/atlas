@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch5_7",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch5_7",
+   "title": "c8_math_ch5_7",
+   "questions": [
+    {
+     "q": "Write the algebraic form for an even number and an odd number using a variable \\(n\\). Explain what \\(n\\) represents.",
+     "a": "Even: \\(2n\\), Odd: \\(2n+1\\), where \\(n\\) is any integer (whole number including zero and negatives). A wrong answer like \"even = \\(2n\\), odd = \\(2n-1\\)\" is also algebraically correct but less standard; the key is recognizing \\(n\\) represents *any integer*. If a student writes specific numbers (e.g., \"even = 4, odd = 5\") or uses the same \\(n\\) for both numbers in a sum (e.g., \"even = \\(2n\\), odd = \\(2n+1\\)\" then adds to get \\(4n+1\\)), they don't understand that variables represent *independent* arbitrary integers.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the algebraic proof for \"odd + odd = even\" use two *different* variables, like \\(2a+1\\) and \\(2b+1\\), instead of the same variable \\(2n+1\\) and \\(2n+1\\)?",
+     "a": "Using the same variable \\(n\\) would mean both odd numbers are the *same* number (e.g., 3 and 3), proving only a special case. Different variables \\(a\\) and \\(b\\) allow them to be *any* two odd numbers (e.g., 3 and 7). A student who says \"it doesn't matter, they're both odd\" misses the need for generality in algebraic proof. This misconception leads to invalid proofs that only cover equal numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Prove algebraically that the product of an even number and an odd number is always even. Use \\(2m\\) for the even number and \\(2n+1\\) for the odd number.",
+     "a": "Product = \\((2m)(2n+1) = 4mn + 2m = 2(2mn + m)\\). Since \\(2mn+m\\) is an integer (sum/product of integers), the product is 2 times an integer, hence even. A common error: writing \\((2m)(2n+1) = 4mn+1\\) (forgetting to multiply \\(2m\\) by 1) or stopping at \\(4mn+2m\\) without factoring out 2 to show the \"2 × integer\" structure. This reveals a gap in applying distributive property or recognizing the definition of even.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the algebraic proofs for \"even + odd = odd\" and \"even × odd = even\". What is similar in the structure of the final simplified expression, and what is different?",
+     "a": "Both factor out a 2: sum gives \\(2(m+n)+1\\) (2×integer +1 → odd), product gives \\(2(2mn+m)\\) (2×integer → even). Similarity: both use distributive property to factor 2. Difference: sum has a \"+1\" remainder making it odd; product has no remainder making it even. A student who only says \"one gives odd, one gives even\" misses the structural comparison. This tests if they see the *form* \\(2k\\) vs \\(2k+1\\) as the deciding feature.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If I add three odd numbers, the sum is odd because odd+odd=even, and even+odd=odd.\" Evaluate this reasoning. Is it a complete algebraic proof? If not, what is missing?",
+     "a": "The reasoning is logically correct for the *pattern* but not an algebraic proof because it doesn't use algebraic forms (\\(2a+1, 2b+1, 2c+1\\)) to show the general case. It relies on previously established rules rather than deriving from definitions. A complete algebraic proof would write sum = \\((2a+1)+(2b+1)+(2c+1) = 2(a+b+c+1)+1\\). A student who says \"yes it's a proof\" confuses verbal reasoning with algebraic generalization. This reveals misunderstanding of what constitutes an algebraic proof at this level.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new parity rule involving three integers (e.g., sum of two evens and one odd, or product of three odds) and prove it algebraically using the forms \\(2k\\) and \\(2k+1\\).",
+     "a": "Example: \"Product of three odd numbers is odd.\" Proof: \\((2a+1)(2b+1)(2c+1)\\). Expand first two: \\((4ab+2a+2b+1)(2c+1) = 2(4abc+2ac+2bc+c+2ab+a+b)+1\\) → odd. A good answer defines the rule clearly, uses three *independent* variables, expands correctly, factors 2, and identifies the \\(+1\\) remainder. A poor answer uses same variable for all three, makes expansion errors, or fails to factor 2 to show the final form. This tests synthesis and algebraic manipulation skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_21_007",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_21_007",
+   "title": "c12_geo_cbse_21_007",
+   "questions": [
+    {
+     "q": "State the NCERT definition of GIS and name the five components of a GIS.",
+     "a": "**Correct Answer:** GIS is \"A system for capturing, storing, checking, integrating, manipulating, analysing and displaying data, which are spatially referenced to the Earth.\" The five components are: (1) Hardware, (2) Software, (3) Data, (4) People, (5) Procedures.  \n**Misconception Check:** A student who writes \"GIS is a software for making maps\" misses the system perspective — GIS includes hardware, data, people, and procedures, not just software. This error leads to underestimating the role of data quality and human expertise in board answers.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a stock register of a cycle shop (part number, quantity, description) is non-spatial data, while a table of \"Literate Population in States\" with state names is spatial data, even though both are in tabular form.",
+     "a": "**Correct Answer:** The cycle shop register lacks any geographic reference — parts can be anywhere. The literacy table has \"State\" as an attribute, and each state has a fixed, definable location on Earth's surface; thus the data can be linked to a map (spatially referenced).  \n**Misconception Check:** A student who says \"both are tables so both are non-spatial\" confuses data *format* with data *nature*. Spatial data is defined by the presence of a location attribute (explicit or implicit), not by being a map image. This distinction is critical for Q2(ii) in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A city planner has a paper map of ward boundaries (1:10,000 scale) and an Excel sheet of ward-wise population density. List the exact sequence of GIS activities (5 steps) to create a choropleth map of population density, and identify which step links the two datasets.",
+     "a": "**Correct Answer:**  \n1. **Spatial data input** — digitise ward boundaries from paper map (vector polygons).  \n2. **Attribute data entry** — import Excel population density into GIS attribute table.  \n3. **Data verification & editing** — check for gaps/overlaps in polygons (topology errors).  \n4. **Spatial-attribute linkage** — join Excel data to polygon layer using common \"Ward_ID\" field (this is the linkage step).  \n5. **Spatial analysis** — apply choropleth symbology (classify density ranges, assign colours).  \n**Misconception Check:** A student who places \"linkage\" before \"verification\" risks joining dirty data, propagating errors. Board marking schemes award marks for correct sequence; JEET/NEET questions test topology cleaning before analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the advantages of GIS over manual methods for studying urban sprawl over 30 years (e.g., Aligarh city 1974–2001). Why is overlay analysis in GIS superior to sieve mapping on a light table?",
+     "a": "**Correct Answer:** Manual sieve mapping requires physical transparencies, fixed themes, and redrawing for each change. GIS advantages: (1) Separate storage of data and presentation — same data, multiple thematic maps. (2) Dynamic querying — \"show wards where density > 5000/km² AND near metro\" without redrawing. (3) Overlay analysis integrates multiple layers (land use 1974, land use 2001, roads, water bodies) digitally, computes change polygons automatically, and quantifies area transitions (e.g., agricultural → built-up = 12.4 km²). (4) Reproducible, scalable, and allows buffer/network analysis.  \n**Misconception Check:** A student who says \"GIS is faster\" without mentioning *separate data storage*, *dynamic querying*, or *quantitative change detection* gives an incomplete answer. Board exams expect specific advantages from NCERT Fig 4.7–4.10.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"For a project mapping groundwater potential zones in a hard-rock terrain, vector data format is always better than raster because it gives accurate boundaries.\" Justify your answer with two specific reasons from NCERT Box 4.2.",
+     "a": "**Correct Answer:** The statement is **false**. In hard-rock terrain, groundwater potential depends on continuous variables (lineament density, fracture frequency, slope, soil thickness) that vary gradually — raster's grid cells represent high spatial variability efficiently (Box 4.2: \"High spatial variability is efficiently represented\"). Vector's discrete boundaries force artificial classification of continuous phenomena. Also, raster is compatible with satellite imagery (DEM, lineament maps) used as input layers; vector is not (Box 4.2: \"Not compatible with satellite imagery\"). Vector is better for *administrative* boundaries (wells, villages), but raster for *physical* processes.  \n**Misconception Check:** Students equate \"accurate boundaries\" (vector strength) with overall superiority. Competitive exams test *fitness for purpose*: raster for continuous fields, vector for discrete objects.",
+     "self_check": true
+    },
+    {
+     "q": "Design a GIS-based workflow to identify optimal locations for new primary health centres (PHCs) in a district, ensuring maximum population coverage within 5 km. Specify: (a) input spatial layers needed, (b) attribute data required, (c) two spatial analysis operations in sequence, (d) how you would validate the result.",
+     "a": "**Expected Answer:**  \n(a) **Spatial layers:** District boundary, existing PHC points, road network (lines), settlement points/polygons, DEM (for travel time).  \n(b) **Attribute data:** Population per settlement, existing PHC capacity, road type/speed limits.  \n(c) **Analysis sequence:**  \n&nbsp;&nbsp;&nbsp;&nbsp;1. **Buffer analysis** — create 5 km buffers along road network (not Euclidean) from existing PHCs (network distance).  \n&nbsp;&nbsp;&nbsp;&nbsp;2. **Overlay (Erase/Difference)** — subtract buffered served area from district boundary → unserved zones. Overlay settlement layer on unserved zones, sum population → prioritize highest unserved population clusters.  \n(d) **Validation:** Field verification of proposed sites (accessibility, land availability), compare with health department records, sensitivity analysis (change buffer to 3 km/7 km).  \n**Poor Answer Reveals:** Listing only \"buffer around points\" (ignores road network), missing attribute linkage (population), or no validation step — shows lack of real-world GIS workflow understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

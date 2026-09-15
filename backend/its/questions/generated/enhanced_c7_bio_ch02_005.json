@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_bio_ch02_005",
+ "concepts": [
+  {
+   "id": "enh:c7_bio_ch02_005",
+   "title": "c7_bio_ch02_005",
+   "questions": [
+    {
+     "q": "What is the primary shape of the human stomach inside the abdominal cavity?",
+     "a": "The human stomach is shaped like the letter \"J\". A wrong answer usually indicates confusion with other internal organs like the small intestine or the large intestine, showing the student needs to review basic anatomical diagrams of the digestive tract.",
+     "self_check": true
+    },
+    {
+     "q": "Why doesn't the strong hydrochloric acid secreted in the stomach burn or destroy the stomach's own inner lining?",
+     "a": "The stomach lining secretes a protective layer of mucus that coats the inner walls and shields them from the corrosive acid and digestive enzymes. A wrong answer reveals the misconception that the stomach tissue is simply immune to acid without any physical or chemical protection mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "A patient is diagnosed with a condition where their stomach cells stop producing pepsin. Which major nutrient component of their diet will fail to be digested properly in their stomach?",
+     "a": "Proteins will fail to be digested properly in the stomach. \nSteps to reason: \n1. Identify the missing substance as pepsin. \n2. Recall that pepsin is the specific enzyme found in gastric juice. \n3. Link pepsin's function to its target nutrient, which is protein. \nA wrong answer reveals the misconception that all nutrients (carbohydrates, fats, and proteins) are digested by the same stomach juices indiscriminately.",
+     "self_check": true
+    },
+    {
+     "q": "How does the muscular action of the stomach wall assist the chemical digestion occurring inside it?",
+     "a": "The muscular walls churn and squeeze the food back and forth, mixing it thoroughly with the gastric juices. This mechanical action ensures that every part of the food bolus comes into contact with hydrochloric acid and enzymes, speeding up chemical breakdown. A wrong answer suggests the student thinks chemical juices work without physical mixing or that muscles and chemicals operate entirely independently.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The stomach completes the entire digestion and absorption of all food nutrients before sending waste to the large intestine.\" Is this statement scientifically correct? Why or why not?",
+     "a": "The statement is incorrect. While the stomach initiates protein digestion and turns food into a semi-liquid paste, the majority of digestion and almost all nutrient absorption actually occur later in the small intestine. A wrong answer shows the student assumes all digestive stages happen in a single organ rather than a sequential multi-organ system.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple model using household items to demonstrate how the stomach's mechanical churning and chemical acid work together to break down food. Describe your model and explain how each part represents the real stomach.",
+     "a": "A good design uses a ziplock bag (representing the stomach wall muscles) containing a piece of bread or biscuit (representing food), water, and a few drops of vinegar or lemon juice (representing hydrochloric acid). Squeezing the bag simulates muscular churning while the acid softens the food. A poor answer fails to include both mechanical movement and chemical action, treating the stomach as just a passive pipe.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

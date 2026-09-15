@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch5_3",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch5_3",
+   "title": "c9_physics_ch5_3",
+   "questions": [
+    {
+     "q": "A REMEMBER level question: Define a longitudinal wave and state the direction of particle vibration relative to the direction of wave propagation in a sound wave.",
+     "a": "A longitudinal wave is a wave in which particles of the medium vibrate parallel to the direction of wave propagation. In a sound wave, particles oscillate back and forth along the same direction the wave travels. A wrong answer stating \"perpendicular direction\" reveals confusion with transverse waves (like light or water ripples) and indicates the student has not distinguished between particle motion and wave motion directions.",
+     "self_check": true
+    },
+    {
+     "q": "An UNDERSTAND level question: Explain why a compression in a sound wave corresponds to a region of high pressure and high density, while a rarefaction corresponds to low pressure and low density. Use particle behaviour in your explanation.",
+     "a": "In a compression, particles are pushed closer together than their equilibrium spacing, so more particles occupy a given volume — density increases. Being closer, they exert greater force on each other and on any surface — pressure increases. In a rarefaction, particles are pulled farther apart, reducing both density and pressure. A wrong answer that swaps pressure/density or says \"particles move forward in compression and backward in rarefaction\" reveals the student is visualising particle displacement but not the resulting crowding/spreading that defines pressure and density changes.",
+     "self_check": true
+    },
+    {
+     "q": "An APPLY level question: A tuning fork of frequency 512 Hz produces a sound wave in air where the speed of sound is 340 m/s. Calculate the distance between two consecutive compressions. Show your working with units.",
+     "a": "**Step 1:** Identify given: frequency f = 512 Hz, wave speed v = 340 m/s. Find: distance between consecutive compressions = wavelength λ.\n**Step 2:** Use wave equation v = fλ (valid for all periodic waves). Rearrange: λ = v/f.\n**Step 3:** Substitute with units: λ = (340 m/s) / (512 s⁻¹).\n**Step 4:** Compute: λ = 0.664 m (or 66.4 cm). Unit analysis: (m/s) / (1/s) = m ✓.\n**Step 5:** Check reasonableness: audible sound wavelengths range ~1.7 cm to 17 m; 66 cm is plausible for mid-frequency sound. A wrong answer of 174,000 m reveals the student multiplied v × f instead of dividing, ignoring unit analysis. A wrong answer of 0.664 cm reveals a unit conversion error (forgetting Hz = s⁻¹).",
+     "self_check": true
+    },
+    {
+     "q": "An ANALYZE level question: The displacement-distance graph of a longitudinal wave at a fixed instant shows points A, B, C, D, E equally spaced along the x-axis. At point A, displacement is zero and particles are moving in +x direction. At point C, displacement is zero and particles are moving in -x direction. Identify which points are compressions and which are rarefactions. Justify using particle velocity direction.",
+     "a": "Point A: particles move toward +x (right), so particles from left of A move right into A, and particles at A move right away — particles converge → compression. Point C: particles move toward -x (left), so particles from right of C move left into C, and particles at C move left away — particles converge → compression. Points B and D: particles move away from these points (B has +x velocity left side, -x right side; D similar) → particles diverge → rarefactions. Point E: same as A → compression. Pattern: Compressions at A, C, E; Rarefactions at B, D. A wrong answer identifying A as rarefaction reveals the student thinks zero displacement always means rarefaction, missing that particle velocity direction determines crowding vs spreading.",
+     "self_check": true
+    },
+    {
+     "q": "An EVALUATE level question: A student draws a pressure-distance graph for a sound wave and labels the peaks as \"compressions\" and troughs as \"rarefactions\". Another student says the displacement-distance graph has peaks at the same positions. Is the second student correct? Explain why or why not.",
+     "a": "No, the second student is incorrect. In a longitudinal wave, pressure is maximum (compression) where displacement is zero but particle velocity changes sign (particles converge). Pressure is minimum (rarefaction) where displacement is zero but particles diverge. Displacement peaks (maximum +ve or -ve) occur where particles are at extreme positions — these are points of zero pressure variation (neither compression nor rarefaction). The pressure-distance graph is π/2 out of phase with the displacement-distance graph. A wrong answer saying \"yes, they match\" reveals the student confuses transverse wave graphs (where displacement peaks correspond to crests/troughs) with longitudinal wave representations.",
+     "self_check": true
+    },
+    {
+     "q": "A CREATE level question: Design a simple classroom demonstration using only a long spring (slinky), a stopwatch, and a metre scale to show that sound waves are longitudinal and to measure the wavelength of a low-frequency pulse. Describe the procedure, what to observe, and how to calculate wavelength from your measurements.",
+     "a": "**Procedure:** (1) Stretch slinky 5 m on smooth floor. (2) One student holds one end fixed. (3) Other student gives a sharp longitudinal push (not sideways) to create a single compression pulse. (4) Observe: coils bunch up (compression) then spread (rarefaction) moving along slinky — coils move only back/forth, proving longitudinal nature. (5) For periodic wave: oscillate end at ~2 Hz (count 10 oscillations in 5 s). (6) Freeze frame (or video) and measure distance between two adjacent compressed regions using metre scale — this is λ. (7) Verify with v = fλ: measure pulse speed (time for compression to travel 5 m), compute λ = v/f. **Good answer** includes: longitudinal push, observation of coil motion direction, wavelength measurement method, and cross-check using wave speed. **Poor answer** uses transverse shakes, measures coil displacement amplitude instead of compression spacing, or omits unit tracking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_08_002",
+   "title": "c11_soc_cbse_08_002",
+   "questions": [
+    {
+     "q": "Define the term 'social environment' as used in the NCERT textbook and explain how it differs from 'biophysical ecology'.",
+     "a": "Correct answer: Social environment emerges from the interaction between biophysical ecology and human interventions; it includes human-made elements like farms, cities, and property regimes. Biophysical ecology refers only to the web of physical and biological systems (mountains, rivers, flora/fauna) without human modification. A wrong answer that equates social environment with just 'nature' or 'ecology' reveals the student has not grasped the core concept of human agency in co-producing the environment.",
+     "self_check": true
+    },
+    {
+     "q": "The textbook states: 'What appears to be a natural feature of the environment — aridity or flood-proneness, for example, is often produced by human intervention.' Give a concrete Indian example not mentioned in the text and explain the human intervention that created it.",
+     "a": "Correct answer: Example – the frequent flooding of the Kosi River in Bihar. Human intervention: embankments built since the 1950s confined the river's natural meandering, raising the riverbed through silt deposition and making catastrophic breaches more likely. Another example: the desertification of parts of Rajasthan due to over-extraction of groundwater for water-intensive crops like wheat. A wrong answer that cites only 'deforestation causes floods' without specifying the social driver (e.g., commercial logging, state policy) shows the student treats human intervention as a generic force rather than a socially organised activity.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the two-way framework to explain why the Green Revolution in Punjab led to both a dramatic increase in wheat production and a severe groundwater crisis. Identify the specific social decisions at each step.",
+     "a": "Steps: (1) Nature shaped the initial possibility: Punjab's alluvial soil and seasonal rainfall made it suitable for wheat. (2) Society shaped nature: The state introduced high-yielding varieties (HYVs), subsidised electricity for tube-wells, and guaranteed procurement prices – social decisions driven by national food security goals. (3) These social decisions altered the ecological condition: farmers switched to water-intensive paddy-wheat rotation, extracting groundwater far beyond recharge rates. (4) The changed ecology (falling water tables) now shapes society again: small farmers fall into debt, migrate, or commit suicide; the state faces a new crisis of agricultural sustainability. A wrong answer that only lists 'farmers used too much water' misses the role of state policy, technology packages, and market incentives as socially organised drivers.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how a Forest Department geared to maximising revenue from bamboo for the paper industry and a tribal artisan harvesting bamboo for basket-making relate to the same forest. What does this comparison reveal about the statement 'environmental crises have their roots in social inequality'?",
+     "a": "The Forest Department views the forest as a source of uniform, high-volume raw material, leading to monoculture plantations, clear-felling, and exclusion of local users. The artisan views it as a diverse, sustainable source of specific bamboo species, requiring selective harvesting and long-term care. Their conflicting interests stem from unequal power: the Department has legal authority and capital; the artisan has customary rights but no legal title. This reveals that environmental degradation is not caused by 'human nature' but by the specific social relations (property, class, state power) that privilege one group's use over another's. A wrong answer that says 'both use bamboo so both degrade the forest' fails to analyze how social organisation produces different ecological outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: 'Climate change is a purely natural phenomenon; human society has no significant role in causing it.' Use the two-way relationship concept and at least one example from the textbook to justify your evaluation.",
+     "a": "The claim is false. The textbook explicitly states: 'Climate change brought about by global warming is another instance of the widespread impact of human activity on nature.' The Industrial Revolution, driven by capitalist social organisation (private property, profit motive, fossil-fuel-based technology), released greenhouse gases that altered the global climate. This is society shaping nature on a planetary scale. The resulting climate change now shapes society (sea-level rise, extreme weather, migration). A wrong answer that agrees with the claim or says 'humans contribute a little' reveals a misunderstanding of the scale and social rootedness of anthropogenic climate change central to the sociological perspective.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new, original example (not from the textbook) of a two-way environment-society relationship in an Indian urban context. Describe the ecological feature, the social organisation that intervenes, and the resulting transformation for both nature and society.",
+     "a": "Example: The Yamuna River in Delhi. Ecological feature: a perennial river with floodplains that recharge groundwater and support biodiversity. Social organisation: urban planning that treats the floodplain as 'empty land' for real estate (Commonwealth Games Village, Akshardham), combined with 22 drains carrying untreated sewage and industrial effluents. Transformation of nature: the river becomes a dead, toxic drain; floodplains are concretised, destroying recharge. Transformation of society: water scarcity worsens for poor settlements; elite colonies get piped water from distant sources; the river becomes a site of religious ritual disconnected from ecological health. A poor answer would describe only pollution without linking it to specific land-use decisions, class-based water access, or state planning priorities.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

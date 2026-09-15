@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_01_006",
+   "title": "c11_psy_cbse_01_006",
+   "questions": [
+    {
+     "q": "State Watson's definition of psychology as a science and identify the two key components of the S-R unit.",
+     "a": "Correct answer: Watson defined psychology as \"the study of behaviour or responses (to stimuli) which can be measured and studied objectively.\" The two key components are Stimulus (S) — any detectable event in the environment or body — and Response (R) — any measurable reaction by the organism. A wrong answer that includes \"mental processes,\" \"consciousness,\" or \"introspection\" reveals the student has not grasped Watson's radical rejection of mentalism and is conflating behaviourism with structuralism or functionalism.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Watson ignored the mind because he didn't believe it existed.\" Explain why this statement is a misinterpretation of Watson's position, using the distinction between *existence* and *scientific accessibility*.",
+     "a": "Correct answer: Watson did not deny the existence of private mental events; he argued they are not *publicly observable* and therefore cannot be the subject matter of an *objective science*. He treated \"mind\" as a metaphysical concept, not a scientific one. A wrong answer that claims \"Watson proved the mind doesn't exist\" or \"Behaviourism says thoughts are illusions\" reveals the student confuses methodological behaviourism (Watson's stance) with philosophical eliminative materialism — a senior-secondary error that ignores Watson's own admission that \"thinking is subvocal speech\" (an internal R).",
+     "self_check": true
+    },
+    {
+     "q": "Apply the S-R framework to this scenario: During a board exam, Priya's heart rate increases (internal physiological response) when she sees a difficult question (external visual stimulus). She then takes a deep breath (overt motor response) and her heart rate slows. Identify each S and R, labelling them as external/internal and overt/covert.",
+     "a": "Correct answer:\n1. S₁ (external, visual): difficult question → R₁ (internal, covert): increased heart rate.\n2. S₂ (internal, interoceptive): elevated heart rate / feeling of anxiety → R₂ (overt, motor): deep breath.\n3. S₃ (internal, proprioceptive/feedback from breathing) → R₃ (internal, covert): decreased heart rate.\nA wrong answer that labels the deep breath as a \"conscious decision to calm down\" reveals the student is smuggling in mentalistic mediation (cognition) between S and R, violating the strict S-R contiguity principle Watson insisted upon.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast how Structuralism (Wundt), Functionalism (James), and Behaviourism (Watson) would each study \"fear of dogs.\" Create a 3-row table with columns: School, Subject Matter, Method, Unit of Analysis.",
+     "a": "Correct answer:\n| School | Subject Matter | Method | Unit of Analysis |\n|--------|----------------|--------|------------------|\n| Structuralism | Conscious experience of fear (sensations, images, feelings) | Trained introspection | Elements of consciousness |\n| Functionalism | Function of fear in adapting to environment (e.g., flee, freeze) | Observation, questionnaires, comparative study | Function of mental processes |\n| Behaviourism | Observable fear responses (trembling, running, heart rate) to dog stimuli | Controlled experiment, measurement of S-R latency | S-R association |\nA wrong answer that gives Structuralism \"stimulus-response\" or Behaviourism \"introspection\" reveals failure to discriminate the three schools' core epistemological commitments — a common board-exam error where students memorise names but not methodological essence.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the claim: \"Watson's behaviourism makes psychology a natural science exactly like physics because both study observable, measurable events.\" Evaluate using the concepts of *subject matter* and *verifiability*.",
+     "a": "Correct evaluation: The claim is partially valid but incomplete. Validity: Both use hypothetico-deductive method, operational definitions, and inter-observer reliability. Incompleteness: Physics studies *inanimate* matter where S-R is deterministic; behaviourism studies *living organisms* where the same S can elicit different R due to history, motivation, and internal states (which Watson later acknowledged as \"implicit responses\"). Also, physics variables (mass, charge) are directly measurable; behaviourist S and R often require inference (e.g., \"anxiety\" inferred from heart rate). A wrong answer that says \"Yes, exactly the same\" reveals naive positivism; \"No, totally different\" reveals failure to see Watson's explicit modelling of psychology on physics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-experiment (3 steps) that a behaviourist could use to demonstrate *stimulus generalisation* in a 5-year-old child's fear of white rats, following the logic of the Little Albert study (but ethically modified for a classroom demonstration using a neutral stimulus). Specify S, R, and the generalisation test.",
+     "a": "Expected answer (criteria for good response):\n1. Acquisition: Pair neutral stimulus (white toy rabbit, S₁) with loud noise (S₂) → fear response (crying, withdrawal, R). Repeat 3-5 times.\n2. Test: Present white toy rabbit alone (S₁) → measure fear response (R).\n3. Generalisation test: Present *similar* stimuli (white cotton ball, white fur coat, Santa Claus mask) one at a time → record if fear response (R) occurs to each.\nGood answer must include: operational definition of R (e.g., \"crying duration > 2 sec\"), control for baseline fear, and explicit prediction that similarity gradient determines generalisation strength. Poor answer (e.g., \"show the child a rat and see if they cry\") reveals inability to operationalise variables or design a controlled S-R paradigm — a key competency for board practical exams.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "class": 11,
+ "subject": "economics",
+ "chapter": 108,
+ "chapter_title": "Comparative Development Experiences of India and Its Neighbours",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keec108.txt",
+ "concepts": [
+  {
+   "id": "keec.108.1.1",
+   "title": "Development Path and Reform Timelines of India, China and Pakistan",
+   "section": "Comparative development",
+   "definition": "India, China and Pakistan started development around the same time with planning and public sector roles; China began reforms in 1978, Pakistan in 1988 and India in 1991, with China following a state-led command model before market reforms and special economic zones.",
+   "formula": "",
+   "key_idea": "Comparing the three neighbours shows how different reform timings and strategies produced different growth outcomes.",
+   "textbook_ref": "keec108.txt development path sections",
+   "question_patterns": [
+    "compare the development strategies of india china and pakistan",
+    "when did each of the three countries start economic reforms",
+    "what was special about china's reform path",
+    "why did pakistan adopt reforms in 1988",
+    "describe the commune system and its reform in china",
+    "state the common features of the three economies at start"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "note the start year",
+     "explain": "Recall 1978, 1988 and 1991 reform timelines."
+    },
+    {
+     "step": 2,
+     "action": "compare the models",
+     "explain": "Separate command, mixed and reform strategies."
+    },
+    {
+     "step": 3,
+     "action": "link to outcomes",
+     "explain": "Connect strategies to later performance."
+    }
+   ]
+  },
+  {
+   "id": "keec.108.2.1",
+   "title": "Human Development and Demographic Indicators Compared",
+   "section": "Human development indicators",
+   "definition": "The three countries are compared on indicators like GDP growth rate, infant mortality rate, maternal mortality rate, literacy rate, life expectancy, population below poverty line and the human development index, with China leading on most health and mortality indicators and Pakistan lagging on literacy and poverty.",
+   "formula": "",
+   "key_idea": "China's one child policy lowered population growth, while India and Pakistan show higher population growth rates that dilute per capita gains.",
+   "textbook_ref": "keec108.txt indicator comparison sections",
+   "question_patterns": [
+    "compare india china pakistan on infant mortality and life expectancy",
+    "which country has the highest literacy rate among the three",
+    "how do the hdi ranks of the three countries compare",
+    "state the population growth rates of india china and pakistan",
+    "what share of people live below poverty line in pakistan",
+    "why does china lead on health indicators"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "pick the indicator",
+     "explain": "Choose mortality, literacy, HDI or poverty measure."
+    },
+    {
+     "step": 2,
+     "action": "read the comparison",
+     "explain": "Order the three countries by the indicator."
+    },
+    {
+     "step": 3,
+     "action": "explain the gap",
+     "explain": "Relate the gap to policy and demography."
+    }
+   ]
+  },
+  {
+   "id": "keec.108.3.1",
+   "title": "Conclusions: Sectoral Shares, Employment and Lessons",
+   "section": "Conclusions of comparison",
+   "definition": "China has the largest share of workforce in industry and the highest GDP growth, India leads in services with strong engineering and IT exports, Pakistan depends more on agriculture and remittances, and the comparative study warns that development requires attention to health, education and balanced sectoral growth.",
+   "formula": "",
+   "key_idea": "The lesson is that policy stability, human development investment and export orientation together decide development success.",
+   "textbook_ref": "keec108.txt conclusions sections",
+   "question_patterns": [
+    "which country leads in industry share of workforce among the three",
+    "compare the sectoral contributions of india china and pakistan",
+    "what lessons does the comparative study offer for development",
+    "why is india's service sector growth significant",
+    "state the indicators where pakistan lags behind",
+    "how does one child policy affect china's demography"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "note the sector or issue",
+     "explain": "Pick employment, sector share or policy lesson."
+    },
+    {
+     "step": 2,
+     "action": "compare the countries",
+     "explain": "Rank or contrast the three economies."
+    },
+    {
+     "step": 3,
+     "action": "state the takeaway",
+     "explain": "Summarise the development lesson."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "keec108.txt exercises",
+   "questions": [
+    "Compare and contrast India and China's sectoral contribution towards GVA.",
+    "Mention the salient demographic indicators of India, China and Pakistan.",
+    "Why was the economic reforms in China introduced in 1978?",
+    "Compare the human development indicators of the three economies.",
+    "What lessons can India learn from China's development experience?"
+   ]
+  }
+ ]
+}

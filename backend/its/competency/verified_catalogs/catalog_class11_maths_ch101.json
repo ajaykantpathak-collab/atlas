@@ -1,0 +1,605 @@
+{
+ "class": 11,
+ "subject": "maths",
+ "chapter": 101,
+ "chapter_title": "Sets",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kemh101.txt",
+ "concepts": [
+  {
+   "id": "kemh.101.1",
+   "title": "Definition of a Set",
+   "section": "1.2",
+   "definition": "A collection of distinct objects where it is possible to determine with certainty whether any specific item is a member or not.",
+   "formula": "A = {x1, x2, x3, ...}",
+   "key_idea": "Membership must be objectively decidable.",
+   "textbook_ref": "kemh101.txt lines 30-60",
+   "question_patterns": [
+    "is the following collection a set",
+    "determine if the collection is well-defined",
+    "justify why the collection is or is not a set",
+    "identify sets from the given list",
+    "Explain the method of Definition of a Set."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check membership criteria",
+     "explain": "Evaluate if the criteria for inclusion is objective or subjective."
+    },
+    {
+     "step": 2,
+     "action": "conclude set status",
+     "explain": "If the criteria is objective and consistent for everyone, it is a set."
+    },
+    {
+     "step": 3,
+     "action": "verify with examples",
+     "explain": "Test boundary cases to confirm the membership decision is unambiguous for every candidate object."
+    }
+   ]
+  },
+  {
+   "id": "kemh.101.2",
+   "title": "Roster or Tabular Form",
+   "section": "1.2",
+   "definition": "A method of representing a set by explicitly listing every element inside curly brackets, separated by commas.",
+   "formula": "Set = {element1, element2, ...}",
+   "key_idea": "Order of elements does not matter and repetitions are ignored.",
+   "textbook_ref": "kemh101.txt lines 75-100",
+   "question_patterns": [
+    "write the set in roster form",
+    "represent the following in tabular form",
+    "convert the description to roster notation",
+    "list the elements of the set",
+    "Explain the method of Roster or Tabular Form."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify elements",
+     "explain": "Find all individual items that satisfy the given condition."
+    },
+    {
+     "step": 2,
+     "action": "list within braces",
+     "explain": "Place the identified items inside { } separated by commas, removing duplicates."
+    },
+    {
+     "step": 3,
+     "action": "verify roster form",
+     "explain": "Confirm that order of elements does not matter and no element is repeated in the final listing."
+    }
+   ]
+  },
+  {
+   "id": "kemh.101.3",
+   "title": "Set-Builder Form",
+   "section": "1.2",
+   "definition": "A notation that describes a set by stating the shared property that all its members must uniquely satisfy.",
+   "formula": "A = {x : P(x) is true}",
+   "key_idea": "Uses a variable and a characteristic property.",
+   "textbook_ref": "kemh101.txt lines 105-135",
+   "question_patterns": [
+    "write the set in set-builder form",
+    "describe the set using a characteristic property",
+    "convert roster form to set-builder notation",
+    "express the set using a rule",
+    "Explain the method of Set-Builder Form."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find common property",
+     "explain": "Determine the rule or mathematical condition shared by all elements."
+    },
+    {
+     "step": 2,
+     "action": "write notation",
+     "explain": "Use the format {x : x satisfies property} to describe the set."
+    },
+    {
+     "step": 3,
+     "action": "validate completeness",
+     "explain": "Ensure every element satisfying the property is included and no outside element accidentally meets the condition."
+    }
+   ]
+  },
+  {
+   "id": "kemh.101.4",
+   "title": "The Empty Set",
+   "section": "1.3",
+   "definition": "A set that contains no elements at all, also referred to as a null or void set.",
+   "formula": "A = phi or A = {}",
+   "key_idea": "Zero cardinality; it is a subset of every set.",
+   "textbook_ref": "kemh101.txt lines 210-235",
+   "question_patterns": [
+    "is the given set empty",
+    "identify the null set",
+    "give an example of a void set",
+    "check if the set has any elements",
+    "Explain the method of The Empty Set."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "solve set condition",
+     "explain": "Check if any object exists that satisfies the set's definition."
+    },
+    {
+     "step": 2,
+     "action": "verify element count",
+     "explain": "If no such object exists, the set is empty."
+    },
+    {
+     "step": 3,
+     "action": "confirm null status",
+     "explain": "Cross-check by attempting to list at least one member; failure to do so confirms the set is the empty set."
+    }
+   ]
+  },
+  {
+   "id": "kemh.101.5",
+   "title": "Finite and Infinite Sets",
+   "section": "1.4",
+   "definition": "A set is finite if it is empty or has a countable number of elements; otherwise, it is infinite.",
+   "formula": "n(A) = k (where k is a whole number)",
+   "key_idea": "Finite sets have a terminable counting process.",
+   "textbook_ref": "kemh101.txt lines 240-275",
+   "question_patterns": [
+    "state whether the set is finite or infinite",
+    "is the collection of ... a finite set",
+    "determine the nature of the set",
+    "classify the set based on element count",
+    "Explain the method of Finite and Infinite Sets."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count elements",
+     "explain": "Attempt to list or count the distinct members of the set."
+    },
+    {
+     "step": 2,
+     "action": "classify",
+     "explain": "If counting ends, it is finite; if it continues indefinitely, it is infinite."
+    },
+    {
+     "step": 3,
+     "action": "justify classification",
+     "explain": "Provide reasoning by referencing the nature of the elements, such as whether they form a bounded or unbounded collection."
+    }
+   ]
+  },
+  {
+   "id": "kemh.101.6",
+   "title": "Equal Sets",
+   "section": "1.5",
+   "definition": "Two sets are considered equal if they possess exactly the same elements, regardless of the order of listing.",
+   "formula": "A = B iff (x in A <=> x in B)",
+   "key_idea": "Identical membership defines equality.",
+   "textbook_ref": "kemh101.txt lines 285-315",
+   "question_patterns": [
+    "are the sets A and B equal",
+    "find pairs of equal sets",
+    "check for set equality",
+    "verify if A = B",
+    "Explain the method of Equal Sets."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare elements",
+     "explain": "Check if every element of the first set is in the second and vice versa."
+    },
+    {
+     "step": 2,
+     "action": "conclude equality",
+     "explain": "If all elements match exactly, the sets are equal."
+    },
+    {
+     "step": 3,
+     "action": "check cardinality",
+     "explain": "Confirm both sets have the same number of elements, since equal sets must have identical cardinality."
+    }
+   ]
+  },
+  {
+   "id": "kemh.101.7",
+   "title": "Subsets",
+   "section": "1.6",
+   "definition": "A set A is a subset of B if every single element found in A is also present in B.",
+   "formula": "A subset B <=> (x in A => x in B)",
+   "key_idea": "Inclusion relationship between two collections.",
+   "textbook_ref": "kemh101.txt lines 335-375",
+   "question_patterns": [
+    "is A a subset of B",
+    "write all subsets of the set",
+    "find the number of subsets",
+    "check the inclusion relation",
+    "Explain the method of Subsets."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check every element",
+     "explain": "Verify if each member of the smaller set exists in the larger set."
+    },
+    {
+     "step": 2,
+     "action": "verify inclusion",
+     "explain": "If all members are present in the second set, the first is a subset."
+    },
+    {
+     "step": 3,
+     "action": "state subset relationship",
+     "explain": "Conclude whether A is a subset of B, and note that every set is a subset of itself and the empty set is a subset of every set."
+    }
+   ]
+  },
+  {
+   "id": "kemh.101.8",
+   "title": "Intervals as Subsets of R",
+   "section": "1.6.2",
+   "definition": "Continuous segments of the real number line defined by their endpoints, which may be included or excluded.",
+   "formula": "length = b - a",
+   "key_idea": "Open and closed brackets denote exclusion or inclusion of boundaries.",
+   "textbook_ref": "kemh101.txt lines 410-440",
+   "question_patterns": [
+    "write the interval in set-builder form",
+    "represent the set as an interval",
+    "find the length of the interval",
+    "convert (a, b] to a set description",
+    "Explain the method of Intervals as Subsets of R."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify endpoints",
+     "explain": "Determine the lower bound a and upper bound b.",
+     "compute": "lower_bound"
+    },
+    {
+     "step": 2,
+     "action": "calculate span",
+     "explain": "The length is the difference between the upper and lower limits.",
+     "compute": "b - a"
+    },
+    {
+     "step": 3,
+     "action": "interpret interval type",
+     "explain": "Use open or closed brackets to indicate whether endpoints are excluded or included in the interval."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving intervals as subsets of r.",
+     "solution": "Step 1: identify endpoints. Step 2: calculate span. Step 3: interpret interval type. Working: lower_bound, b - a.",
+     "answer": "Intervals as Subsets of R applied step by step gives the required result."
+    },
+    {
+     "question": "Apply intervals as subsets of r to a fresh example and interpret the result.",
+     "solution": "Step 1: identify endpoints. Step 2: calculate span. Step 3: interpret interval type. Working: lower_bound, b - a.",
+     "answer": "The method of intervals as subsets of r leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh.101.9",
+   "title": "Union of Sets",
+   "section": "1.9.1",
+   "definition": "A set containing all elements that belong to at least one of the given sets.",
+   "formula": "A union B = {x : x in A or x in B}",
+   "key_idea": "Combines elements, removing duplicates.",
+   "textbook_ref": "kemh101.txt lines 485-520",
+   "question_patterns": [
+    "find the union of sets A and B",
+    "calculate A union B",
+    "what is the union of the following",
+    "combine the sets",
+    "Explain the method of Union of Sets."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect all elements",
+     "explain": "Gather every element from all sets involved."
+    },
+    {
+     "step": 2,
+     "action": "remove duplicates",
+     "explain": "List each unique element exactly once in the final set."
+    },
+    {
+     "step": 3,
+     "action": "verify union result",
+     "explain": "Confirm that every element from each original set appears in the union and no element has been omitted."
+    }
+   ]
+  },
+  {
+   "id": "kemh.101.10",
+   "title": "Intersection of Sets",
+   "section": "1.9.2",
+   "definition": "A set consisting only of elements that are common to all the sets being considered.",
+   "formula": "A intersection B = {x : x in A and x in B}",
+   "key_idea": "Identifies shared members.",
+   "textbook_ref": "kemh101.txt lines 530-565",
+   "question_patterns": [
+    "find the intersection of sets",
+    "what are the common elements",
+    "calculate A intersection B",
+    "determine if sets are disjoint",
+    "Explain the method of Intersection of Sets."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify shared items",
+     "explain": "Look for elements that appear in every set listed."
+    },
+    {
+     "step": 2,
+     "action": "form intersection set",
+     "explain": "List these common elements within braces."
+    },
+    {
+     "step": 3,
+     "action": "check for disjoint sets",
+     "explain": "If no common elements exist, the intersection is the empty set, meaning the sets are disjoint."
+    }
+   ]
+  },
+  {
+   "id": "kemh.101.11",
+   "title": "Difference of Sets",
+   "section": "1.9.3",
+   "definition": "The set of elements that belong to the first set but are not present in the second set.",
+   "formula": "A - B = {x : x in A and x not in B}",
+   "key_idea": "Subtraction of common elements from the first set.",
+   "textbook_ref": "kemh101.txt lines 595-620",
+   "question_patterns": [
+    "find A - B",
+    "calculate the difference of sets",
+    "what elements are in A but not in B",
+    "find B - A",
+    "Explain the method of Difference of Sets."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "start with first set",
+     "explain": "Take all elements of set A."
+    },
+    {
+     "step": 2,
+     "action": "remove common elements",
+     "explain": "Discard any elements that also appear in set B."
+    },
+    {
+     "step": 3,
+     "action": "write difference set",
+     "explain": "List the remaining elements of A within braces to form the result A - B."
+    }
+   ]
+  },
+  {
+   "id": "kemh.101.12",
+   "title": "Complement of a Set",
+   "section": "1.10",
+   "definition": "The set of all elements in the universal set that do not belong to the given set.",
+   "formula": "A' = U - A",
+   "key_idea": "Everything in the universe except the set itself.",
+   "textbook_ref": "kemh101.txt lines 645-675",
+   "question_patterns": [
+    "find the complement of set A",
+    "calculate A'",
+    "what is the complement relative to U",
+    "find (A union B)'",
+    "Explain the method of Complement of a Set."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify universal set",
+     "explain": "Determine the full domain U."
+    },
+    {
+     "step": 2,
+     "action": "exclude set elements",
+     "explain": "List all members of U that are not in the specified set."
+    },
+    {
+     "step": 3,
+     "action": "verify complement",
+     "explain": "Confirm that the union of the set and its complement equals the universal set U, and their intersection is empty."
+    }
+   ]
+  },
+  {
+   "id": "kemh.101.13",
+   "title": "De Morgan's Laws",
+   "section": "1.10",
+   "definition": "Mathematical rules stating that the complement of a union is the intersection of complements, and vice versa.",
+   "formula": "(A union B)' = A' intersection B'",
+   "key_idea": "Relationship between complementation and set operations.",
+   "textbook_ref": "kemh101.txt lines 685-700",
+   "question_patterns": [
+    "verify De Morgan's laws",
+    "show that (A intersection B)' = A' union B'",
+    "apply De Morgan's principle",
+    "prove the complement of union property",
+    "Explain the method of De Morgan's Laws."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute left side",
+     "explain": "Find the union/intersection first, then take its complement."
+    },
+    {
+     "step": 2,
+     "action": "compute right side",
+     "explain": "Find individual complements first, then their intersection/union."
+    },
+    {
+     "step": 3,
+     "action": "compare results",
+     "explain": "Verify that both sets contain identical elements."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kemh101.txt Example 1",
+   "concept": "kemh.101.2",
+   "question_type": "compute_set",
+   "question_pattern": "Write the solution set of the equation {eqn} in roster form.",
+   "extracted_variables": {
+    "eqn": "x^2 + x - 2 = 0"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "solve equation",
+     "explain": "Factorize or use quadratic formula to find roots."
+    },
+    {
+     "step": 2,
+     "action": "list roots",
+     "explain": "The roots are 1 and -2."
+    },
+    {
+     "step": 3,
+     "action": "write roster",
+     "explain": "Place roots in braces: {1, -2}."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kemh101.txt Example 2",
+   "concept": "kemh.101.2",
+   "question_type": "compute_set",
+   "question_pattern": "Write the set {x : x is a positive integer and x^2 < {val}} in the roster form.",
+   "extracted_variables": {
+    "val": "40"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "test integers",
+     "explain": "Square consecutive positive integers starting from 1."
+    },
+    {
+     "step": 2,
+     "action": "check condition",
+     "explain": "Stop when the square reaches or exceeds the value."
+    },
+    {
+     "step": 3,
+     "action": "list valid integers",
+     "explain": "Integers 1, 2, 3, 4, 5, 6 satisfy the condition."
+    }
+   ]
+  },
+  {
+   "id": "drill3",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh.101.8",
+   "question_type": "compute",
+   "question_pattern": "Apply the Intervals as Subsets of R chain with lower_bound = 2, b = 3, a = 5. What value does it produce?",
+   "extracted_variables": {
+    "lower_bound": "2",
+    "b": "3",
+    "a": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify endpoints",
+     "explain": "Determine the lower bound a and upper bound b.",
+     "compute": "a = lower_bound"
+    },
+    {
+     "step": 2,
+     "action": "calculate span",
+     "explain": "The length is the difference between the upper and lower limits.",
+     "compute": "length = b - a"
+    }
+   ]
+  },
+  {
+   "id": "drill4",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh.101.8",
+   "question_type": "compute",
+   "question_pattern": "Apply the Intervals as Subsets of R chain with lower_bound = 2, b = 3, a = 5. What value does it produce?",
+   "extracted_variables": {
+    "lower_bound": "2",
+    "b": "3",
+    "a": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify endpoints",
+     "explain": "Determine the lower bound a and upper bound b.",
+     "compute": "a = lower_bound"
+    },
+    {
+     "step": 2,
+     "action": "calculate span",
+     "explain": "The length is the difference between the upper and lower limits.",
+     "compute": "length = b - a"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "kemh101.txt Exercise 1.1",
+   "questions": [
+    "Which of the following are sets? Justify your answer.",
+    "Insert the appropriate symbol belongs to or does not belong to.",
+    "Write the following sets in roster form.",
+    "Write the following sets in the set-builder form."
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "kemh101.txt Exercise 1.2",
+   "questions": [
+    "Which of the following are examples of the null set?",
+    "Which of the following sets are finite or infinite?",
+    "State whether A = B or not."
+   ]
+  },
+  {
+   "id": "ex1.3",
+   "source_ref": "kemh101.txt Exercise 1.3",
+   "questions": [
+    "Fill in the symbols subset or not a subset.",
+    "Write down all the subsets of the following sets.",
+    "Write the following as intervals."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

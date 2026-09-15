@@ -1,0 +1,579 @@
+{
+ "class": 11,
+ "subject": "business_studies",
+ "chapter": 11,
+ "chapter_title": "International Business",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/kebs111.txt",
+ "concepts": [
+  {
+   "id": "kebs.11.1.1",
+   "title": "Meaning of International Business",
+   "section": "11.1.1",
+   "definition": "Commercial operations involving the cross-border movement of goods, services, capital, workforce, technology, and intellectual property across national frontiers.",
+   "formula": "",
+   "key_idea": "Business activities conducted beyond the geographical and political boundaries of a single home nation.",
+   "textbook_ref": "kebs111.txt lines 40-75",
+   "question_patterns": [
+    "what is international business",
+    "define international business",
+    "how does international trade differ from international business",
+    "explain the concept of external business"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify operational boundaries",
+     "explain": "Check if transaction activities cross national geographical borders."
+    },
+    {
+     "step": 2,
+     "action": "determine resource and trade components",
+     "explain": "Verify whether goods, services, capital, or intellectual property are transferred globally."
+    }
+   ]
+  },
+  {
+   "id": "kebs.11.1.2",
+   "title": "Reason for International Business",
+   "section": "11.1.2",
+   "definition": "The unequal distribution of natural resources, factor endowments, and technological capabilities among nations leading to cost and productivity variations.",
+   "formula": "",
+   "key_idea": "Territorial division of labour and specialisation enable countries to produce select items efficiently and exchange surpluses.",
+   "textbook_ref": "kebs111.txt lines 76-115",
+   "question_patterns": [
+    "why do nations engage in international trade",
+    "what are the main reasons for international business",
+    "explain territorial division of labour in trade",
+    "how do factor cost differences motivate foreign business"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "assess resource disparities",
+     "explain": "Examine differences in raw materials, labour cost, and capital across countries."
+    },
+    {
+     "step": 2,
+     "action": "evaluate cost advantages",
+     "explain": "Determine if producing domestically versus importing yields operational cost efficiency."
+    }
+   ]
+  },
+  {
+   "id": "kebs.11.1.3",
+   "title": "International Business vs. Domestic Business",
+   "section": "11.1.3",
+   "definition": "A comparative assessment of commercial transactions carried out within home country borders versus those spanning across multiple sovereign states.",
+   "formula": "",
+   "key_idea": "International operations confront diverse currencies, legal regulations, political risk, and heterogeneous foreign consumer bases.",
+   "textbook_ref": "kebs111.txt lines 116-190",
+   "question_patterns": [
+    "differentiate between domestic and international business",
+    "compare home trade with external trade",
+    "how do currency and political risks affect international business",
+    "what makes cross-border business more complex than local trade"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "contrast operating environment",
+     "explain": "Compare factor mobility, customer homogeneity, legal frameworks, and political risks."
+    },
+    {
+     "step": 2,
+     "action": "analyze monetary mechanisms",
+     "explain": "Identify whether multi-currency exchange rates and foreign risk hedges are required."
+    }
+   ]
+  },
+  {
+   "id": "kebs.11.1.4",
+   "title": "Scope of International Business",
+   "section": "11.1.4",
+   "definition": "The comprehensive range of foreign commercial activities including merchandise trade, service exports/imports, contractual agreements, and foreign financial investments.",
+   "formula": "",
+   "key_idea": "Extends beyond physical commodity movement to invisible trade, brand licensing, and capital allocations.",
+   "textbook_ref": "kebs111.txt lines 191-240",
+   "question_patterns": [
+    "discuss the scope of international business",
+    "what activities constitute international trade and investments",
+    "explain invisible trade in foreign commerce",
+    "differentiate between direct investment and portfolio investment"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify commercial activities",
+     "explain": "Group transactions into tangible trade, intangible service trade, licensing/franchising, or investment."
+    },
+    {
+     "step": 2,
+     "action": "distinguish investment types",
+     "explain": "Differentiate foreign direct investments (controlling interest) from portfolio investments (equity/debt instruments)."
+    }
+   ]
+  },
+  {
+   "id": "kebs.11.1.5",
+   "title": "Benefits of International Business",
+   "section": "11.1.5",
+   "definition": "The economic, strategic, and financial advantages accrued by national economies and corporate enterprises through global market participation.",
+   "formula": "",
+   "key_idea": "Provides foreign exchange and living standards to nations while offering higher profitability and capacity utilization to enterprises.",
+   "textbook_ref": "kebs111.txt lines 241-300",
+   "question_patterns": [
+    "what are the benefits of international business to a nation",
+    "how do business firms gain from expanding globally",
+    "calculate strategic benefits of overseas growth",
+    "why do firms pursue foreign markets during domestic saturation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify macro-level benefits",
+     "explain": "Evaluate gains in foreign exchange reserves, resource efficiency, employment, and standard of living."
+    },
+    {
+     "step": 2,
+     "action": "identify micro-level benefits",
+     "explain": "Analyze firm benefits such as profit expansion, surplus capacity utilization, and risk diversification."
+    }
+   ]
+  },
+  {
+   "id": "kebs.11.2.1",
+   "title": "Exporting and Importing",
+   "section": "11.2.1",
+   "definition": "The fundamental mode of global trade involving sending home-manufactured items abroad (exporting) or purchasing goods manufactured overseas for domestic use (importing).",
+   "formula": "",
+   "key_idea": "Lowest investment and risk entry strategy, conducted either directly or via intermediary export houses.",
+   "textbook_ref": "kebs111.txt lines 305-350",
+   "question_patterns": [
+    "explain exporting and importing as a market entry mode",
+    "differentiate between direct and indirect exporting",
+    "what are the merits and demerits of exporting goods",
+    "why do firms choose exporting when starting global trade"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate entry requirements",
+     "explain": "Confirm low capital commitment and lack of need for foreign production facilities."
+    },
+    {
+     "step": 2,
+     "action": "assess logistical constraints",
+     "explain": "Examine potential drawbacks like shipping costs, import duties, and trade barriers."
+    }
+   ]
+  },
+  {
+   "id": "kebs.11.2.2",
+   "title": "Contract Manufacturing",
+   "section": "11.2.2",
+   "definition": "An entry arrangement where a firm hires local foreign manufacturers to fabricate components or complete products according to supplied specifications.",
+   "formula": "",
+   "key_idea": "Outsourcing production to foreign plants reduces financial investment while leveraging regional cost advantages.",
+   "textbook_ref": "kebs111.txt lines 351-400",
+   "question_patterns": [
+    "what is contract manufacturing",
+    "explain outsourcing of production in international business",
+    "what are the advantages of contract manufacturing to foreign vendors",
+    "discuss the risks of quality control in contract manufacturing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify contractual scope",
+     "explain": "Check whether the agreement covers component fabrication, final product assembly, or full production."
+    },
+    {
+     "step": 2,
+     "action": "evaluate operational trade-offs",
+     "explain": "Balance lower production costs against potential loss of operational quality control."
+    }
+   ]
+  },
+  {
+   "id": "kebs.11.2.3",
+   "title": "Licensing and Franchising",
+   "section": "11.2.3",
+   "definition": "A contractual mechanism where a licensor/franchiser grants permission to a foreign entity to use legal assets like patents, technology, or service blueprints for royalty fees.",
+   "formula": "",
+   "key_idea": "Asset-light method for expanding goods (licensing) or service business models (franchising) globally.",
+   "textbook_ref": "kebs111.txt lines 401-470",
+   "question_patterns": [
+    "differentiate between licensing and franchising",
+    "how does royalty payment work in international licensing",
+    "what are the risks of trade secret exposure in franchising",
+    "explain licensing as an international entry strategy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "categorize trade offering",
+     "explain": "Determine if the contract involves industrial production rights (licensing) or standardized service delivery (franchising)."
+    },
+    {
+     "step": 2,
+     "action": "assess risk-return structure",
+     "explain": "Evaluate royalty fee income against the risk of creating potential future foreign competitors."
+    }
+   ]
+  },
+  {
+   "id": "kebs.11.2.4",
+   "title": "Joint Ventures",
+   "section": "11.2.4",
+   "definition": "The establishment or co-ownership of a foreign enterprise by two or more independent business entities sharing capital, risks, and governance.",
+   "formula": "",
+   "key_idea": "Combines international capital and technology with a domestic firm's local market insights and distribution network.",
+   "textbook_ref": "kebs111.txt lines 471-510",
+   "question_patterns": [
+    "define a foreign joint venture",
+    "what are the benefits of partnering with a local firm in foreign markets",
+    "discuss potential causes of conflict in international joint ventures",
+    "how are joint ventures formed across borders"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine equity structure",
+     "explain": "Verify co-investment arrangements between foreign and domestic corporate partners."
+    },
+    {
+     "step": 2,
+     "action": "evaluate strategic synergy",
+     "explain": "Combine financial resource sharing with local political and regulatory expertise."
+    }
+   ]
+  },
+  {
+   "id": "kebs.11.2.5",
+   "title": "Wholly Owned Subsidiaries",
+   "section": "11.2.5",
+   "definition": "A market entry mode where a parent organization maintains total control over foreign operations by securing 100 percent equity ownership of the overseas enterprise.",
+   "formula": "",
+   "key_idea": "Offers complete managerial authority and secret protection, but requires maximum investment and exposure to foreign risks.",
+   "textbook_ref": "kebs111.txt lines 511-545",
+   "question_patterns": [
+    "what is a wholly owned subsidiary",
+    "explain greenfield ventures in foreign expansion",
+    "compare joint ventures with wholly owned subsidiaries",
+    "what are the drawbacks of 100 percent foreign direct investment"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify ownership control",
+     "explain": "Confirm 100% equity investment without domestic foreign partners."
+    },
+    {
+     "step": 2,
+     "action": "evaluate investment exposure",
+     "explain": "Balance maximum operational secrecy and decision control against full exposure to capital losses."
+    }
+   ]
+  },
+  {
+   "id": "kebs.11.3.1",
+   "title": "Export Procedure and Documentation",
+   "section": "11.3.1",
+   "definition": "The systematic sequence of commercial, customs, financial, and logistical steps required to export merchandise to an international buyer.",
+   "formula": "",
+   "key_idea": "Requires strict compliance with regulatory clearances, custom approvals, pre-shipment inspection, shipping space booking, and credit terms.",
+   "textbook_ref": "kebs111.txt lines 550-710",
+   "question_patterns": [
+    "describe the steps involved in executing an export order",
+    "what is the purpose of a letter of credit in export business",
+    "explain the importance of bill of lading and mate receipt",
+    "how does an exporter secure payment through bank negotiations"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace pre-shipment steps",
+     "explain": "Map initial order receipt, credit verification (letter of credit), IEC procurement, pre-shipment finance, and quality inspection."
+    },
+    {
+     "step": 2,
+     "action": "trace shipping and customs clearance",
+     "explain": "Map excise duty processing, carting orders, shipping bills, mate receipt, and bill of lading generation."
+    },
+    {
+     "step": 3,
+     "action": "trace bank negotiation for payment",
+     "explain": "Send documentary bills (sight/usance drafts) via bank channels to obtain foreign payment collection."
+    }
+   ]
+  },
+  {
+   "id": "kebs.11.3.2",
+   "title": "Import Procedure and Documentation",
+   "section": "11.3.2",
+   "definition": "The structured legal, financial, and customs clearance procedures necessary to procure and receive foreign merchandise into domestic territory.",
+   "formula": "",
+   "key_idea": "Focuses on foreign exchange allocation, letter of credit issuance, retirement of import documents, and payment of customs duties.",
+   "textbook_ref": "kebs111.txt lines 711-850",
+   "question_patterns": [
+    "explain the procedure for importing capital goods",
+    "what is a bill of entry and who issues it",
+    "how is foreign exchange allocated for import transactions",
+    "discuss the role of C&F agents in import customs clearance"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace pre-procurement requirements",
+     "explain": "Submit trade enquiries, secure import licenses/IEC, and apply for foreign exchange sanction from authorized banks."
+    },
+    {
+     "step": 2,
+     "action": "trace financial and document retirement steps",
+     "explain": "Issue letters of credit, receive shipment advice, and retire documentary bills of exchange from the bank."
+    },
+    {
+     "step": 3,
+     "action": "trace port and customs clearance",
+     "explain": "Obtain delivery orders, pay dock dues, submit bill of entry forms, pay import duties, and secure cargo release orders."
+    }
+   ]
+  },
+  {
+   "id": "kebs.111.1",
+   "title": "Company Name Reservation and Resemblance Rules",
+   "section": "Part B. Name Resemblance",
+   "definition": "The legal requirement to ensure a proposed company name does not conflict with existing registered trademarks or registered company names under corporate and trademark laws.",
+   "formula": "",
+   "key_idea": "Uniqueness of company name to prevent intellectual property conflicts and public confusion.",
+   "textbook_ref": "kebs111.txt lines 5-25",
+   "question_patterns": [
+    "What are the rules regarding company name resemblance with trademarks?",
+    "How do trademark rules affect the approval of a proposed company name?",
+    "What must be done if a proposed company name is similar to a foreign holding company?",
+    "Explain the process of checking name resemblance on the MCA portal."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check trademark resemblance",
+     "explain": "Verify if the proposed name resembles any class of Trade Marks under the Trade Marks Rules, 2002 or pending applications."
+    },
+    {
+     "step": 2,
+     "action": "Check existing company names",
+     "explain": "Search the Ministry of Corporate Affairs (MCA) portal to ensure no existing company or LLP has a similar name."
+    },
+    {
+     "step": 3,
+     "action": "Obtain No Objection Certificate if needed",
+     "explain": "If the name is similar to an existing or foreign holding company, obtain a board resolution NOC."
+    }
+   ]
+  },
+  {
+   "id": "kebs.111.2",
+   "title": "Restricted Words and Central Government Approval",
+   "section": "Part C. Names requiring Central Government approval",
+   "definition": "The regulatory restriction requiring prior approval from the Central Government or specific regulatory bodies when a company name contains specialized financial or institutional terms.",
+   "formula": "",
+   "key_idea": "Special words indicating regulated sectors require explicit regulatory clearance before incorporation.",
+   "textbook_ref": "kebs111.txt lines 26-45",
+   "question_patterns": [
+    "Which words in a proposed company name require prior Central Government approval?",
+    "What is the procedure if a company name includes the word 'Bank' or 'Insurance'?",
+    "When is an in-principle approval required from regulatory authorities for a company name?",
+    "Explain the requirement of Central Government approval for specific expressions in company names."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify restricted words",
+     "explain": "Check if the name contains words like Bank, Insurance, Mutual Fund, Stock Exchange, or Electoral Trust."
+    },
+    {
+     "step": 2,
+     "action": "Obtain regulatory approval",
+     "explain": "Secure in-principle approval from the respective regulatory authority (e.g., RBI, IRDAI, SEBI) or Central Government."
+    }
+   ]
+  },
+  {
+   "id": "kebs.111.3",
+   "title": "Name Change Reservation and Identifiers",
+   "section": "Part D. Reservation of name for change of Name",
+   "definition": "The administrative process for an existing company to change its registered name, requiring validation through its unique corporate identifiers.",
+   "formula": "",
+   "key_idea": "Existing companies must use CIN and GLN to apply for and validate a change in their registered name.",
+   "textbook_ref": "kebs111.txt lines 46-65",
+   "question_patterns": [
+    "What details must an existing company provide when applying for a name change?",
+    "What is the role of CIN and GLN in the name change process?",
+    "Under what conditions does a change of name require a change in the company's objects?",
+    "How is a name change due to Central Government direction handled?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Provide corporate identifiers",
+     "explain": "Input the Corporate Identity Number (CIN) and Global Location Number (GLN) of the existing company."
+    },
+    {
+     "step": 2,
+     "action": "State reasons and object changes",
+     "explain": "Specify if the name change requires a change in the company's business objects and state the reasons."
+    }
+   ]
+  },
+  {
+   "id": "kebs.111.4",
+   "title": "Legal Declarations and Liabilities in Company Incorporation",
+   "section": "Declaration",
+   "definition": "The mandatory legal undertaking by an applicant certifying compliance with corporate laws and acknowledging severe criminal penalties for providing false information.",
+   "formula": "",
+   "key_idea": "Applicants face strict personal liability and criminal prosecution under Section 447 for any misrepresentation during name reservation.",
+   "textbook_ref": "kebs111.txt lines 66-105",
+   "question_patterns": [
+    "What declarations must be signed by an applicant during company name reservation?",
+    "What are the consequences of furnishing false information under the Companies Act, 2013?",
+    "Explain the relevance of Section 447, 448, and 449 in company registration.",
+    "Which acts must a proposed company name comply with according to the declaration?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Verify compliance with relevant Acts",
+     "explain": "Ensure the proposed name does not violate the Emblems and Names Act, 1950, or Section 4 of the Companies Act, 2013."
+    },
+    {
+     "step": 2,
+     "action": "Acknowledge legal liability",
+     "explain": "Understand that furnishing false or incorrect particulars attracts punishment for fraud under Section 447, 448, and 449."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebs111.txt Section 11.2",
+   "concept": "kebs.11.2.3",
+   "question_type": "conceptual_choice",
+   "question_pattern": "A domestic apparel designer wants to expand into {country} without investing capital in foreign facilities. Which mode should be chosen?",
+   "extracted_variables": {
+    "country": "target overseas market"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify investment constraint",
+     "explain": "The business aims for zero or minimal physical capital investment in foreign manufacturing."
+    },
+    {
+     "step": 2,
+     "action": "select entry mode",
+     "explain": "Licensing or franchising allows the business to grant brand rights to local entities in exchange for royalties without foreign capital exposure."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kebs111.txt Section 11.3.1",
+   "concept": "kebs.11.3.1",
+   "question_type": "procedural_ordering",
+   "question_pattern": "Arrange the following export documents in order of generation: {doc_a}, {doc_b}, {doc_c}.",
+   "extracted_variables": {
+    "doc_a": "Mate's Receipt",
+    "doc_b": "Indent",
+    "doc_c": "Bill of Lading"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "order operational documents chronologically",
+     "explain": "First, the buyer places an Indent order; second, upon loading cargo on board, the ship commanding officer issues a Mate's Receipt; third, the shipping line issues the final Bill of Lading."
+    }
+   ]
+  },
+  {
+   "id": "p2_ex1",
+   "source_ref": "kebs111.txt lines 5-25",
+   "concept": "kebs.111.1",
+   "question_type": "verify_property",
+   "question_pattern": "A promoter wants to register a company named 'Apex Banking Solutions' but finds a trademark already registered under a similar name. What steps must the promoter take?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Check trademark resemblance",
+     "explain": "Verify if the proposed name resembles any class of Trade Marks under the Trade Marks Rules, 2002 or pending applications."
+    },
+    {
+     "step": 2,
+     "action": "Check existing company names",
+     "explain": "Search the Ministry of Corporate Affairs (MCA) portal to ensure no existing company or LLP has a similar name."
+    },
+    {
+     "step": 3,
+     "action": "Obtain No Objection Certificate if needed",
+     "explain": "If the name is similar to an existing or foreign holding company, obtain a board resolution NOC."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex11.1",
+   "source_ref": "kebs111.txt Short Answer Questions",
+   "questions": [
+    "Differentiate between international trade and international business.",
+    "Discuss any three advantages of international business.",
+    "What is the major reason underlying trade between nations?",
+    "Differentiate between contract manufacturing and setting up wholly owned production subsidiary abroad.",
+    "Why is it necessary for an export firm to go in for pre-shipment inspection?",
+    "What is bill of lading? How does it differ from bill of entry?",
+    "What is a letter of credit? Why does an exporter need this document?",
+    "Discuss the process involved in securing payment for exports."
+   ]
+  },
+  {
+   "id": "ex11.2",
+   "source_ref": "kebs111.txt Long Answer Questions",
+   "questions": [
+    "\"International business is more than international trade\". Comment.",
+    "What benefits do firms derive by entering into international business?",
+    "In what ways is exporting a better way of entering international markets than setting up wholly owned subsidiaries abroad.",
+    "Rekha Garments has received an order to export 2000 men's trousers to Swift Imports Ltd., located in Australia. Discuss the procedure that Rekha Garments would need to go through for executing the export order.",
+    "Your firm is planning to import textile machinery from Canada. Describe the procedure involved in importing."
+   ]
+  },
+  {
+   "id": "p2_ex11.1",
+   "source_ref": "kebs111.txt lines 1-105",
+   "questions": [
+    "What are the consequences of furnishing false or incorrect particulars during the reservation of a company name under Section 447?",
+    "Explain the restrictions on using words like 'Insurance' or 'Mutual Fund' in a proposed company name.",
+    "How does an existing company apply for a change of name, and what role do CIN and GLN play in this process?",
+    "What is the significance of checking the Emblems and Names (Prevention of Improper Use) Act, 1950 when proposing a company name?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

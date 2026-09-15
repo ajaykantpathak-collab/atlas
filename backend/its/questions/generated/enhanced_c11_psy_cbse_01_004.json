@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_01_004",
+   "title": "c11_psy_cbse_01_004",
+   "questions": [
+    {
+     "q": "What was the primary goal of structuralism according to Wilhelm Wundt?",
+     "a": "The primary goal was to analyse the structure of the mind by identifying and classifying the basic elements of conscious experience (sensations, images, and feelings) and how they combine. A wrong answer (e.g., \"to study the function of the mind\" or \"to study behaviour\") reveals confusion with functionalism or behaviourism, indicating the student has not distinguished the *structural* focus (static composition) from *functional* or *behavioural* foci.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Wundt insisted on \"trained observers\" for introspection rather than using untrained participants.",
+     "a": "Wundt required trained observers to minimise the \"stimulus error\"—the tendency to confuse the mental process with the external object causing it—and to produce precise, repeatable descriptions of elemental sensations rather than vague, meaningful interpretations. A wrong answer (e.g., \"to make the experiment faster\" or \"so they can guess the hypothesis\") shows the student misunderstands the methodological rigour Wundt imposed to approach scientific objectivity.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher asks participants to view a red apple and report their conscious experience. One participant says, \"I see a red apple\"; another says, \"I see a round, red patch with a slight shine.\" Which response aligns with Wundt's introspection method, and why?",
+     "a": "The second response aligns because it describes elemental sensations (colour, shape, brightness) without naming the object (\"apple\"), thus avoiding the stimulus error. The first response identifies the object, which is an interpretation, not a raw elemental report. A wrong choice indicates the student cannot distinguish between *description of elements* (structuralism) and *meaningful perception* (everyday experience).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the introspection method of structuralism with the \"self-report\" questionnaires used in modern personality psychology. Identify two fundamental differences in their epistemological assumptions.",
+     "a": "1. Structuralist introspection assumed trained observers could access *elemental*, *immediate* conscious content under controlled lab conditions, treating reports as direct data about mind's structure. Modern self-reports assume individuals can retrospectively evaluate *complex traits/behaviours* via Likert scales, treating reports as indirect indicators of latent constructs. 2. Structuralism sought universal laws of elemental combination (nomothetic); modern questionnaires often focus on individual differences (idiographic/nomothetic blend). A poor answer conflates the two as \"both ask people about themselves,\" missing the shift from elemental analysis to construct measurement.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the claim: \"Introspection failed because it was subjective; therefore, no subjective method can ever be scientific.\" Use Wundt's own safeguards and modern cognitive psychology to justify your position.",
+     "a": "The claim is false. Wundt *built in* safeguards (training, controlled stimuli, replication) to make introspection *inter-subjectively verifiable*—a hallmark of science. Modern cognitive psychology uses verbal protocols, think-aloud methods, and subjective confidence ratings *with* objective performance measures, showing subjective data *can* be scientific when embedded in a rigorous paradigm. A weak answer simply agrees/disagrees without referencing Wundt's controls or contemporary convergent methods.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini \"introspection experiment\" a Class 11 student could conduct in class to demonstrate the stimulus error. Specify: (a) stimulus, (b) instructions to two groups (one naive, one trained), (c) predicted difference in reports, and (d) how this illustrates Wundt's concern.",
+     "a": "(a) Stimulus: A brief (100 ms) flash of a geometric shape (e.g., a blue triangle). (b) Group A (naive): \"Describe what you saw.\" Group B (trained): \"Report only the elemental sensations: colour, shape, brightness, duration—do not name the object.\" (c) Group A will say \"a blue triangle\"; Group B will say \"a brief blue triangular patch of light.\" (d) The difference shows that without training, perception automatically imposes meaning (stimulus error), contaminating the structural analysis. A poor design uses a complex scene or fails to separate training from testing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

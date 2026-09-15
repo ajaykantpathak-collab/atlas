@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_english_u4_036",
+ "concepts": [
+  {
+   "id": "enh:c6_english_u4_036",
+   "title": "c6_english_u4_036",
+   "questions": [
+    {
+     "q": "How many lines are in a standard diamante poem?",
+     "a": "A diamante poem has seven lines. A wrong answer suggests the student has not memorized the basic structural constraint of the form.",
+     "self_check": true
+    },
+    {
+     "q": "What does \"Line 3\" of a diamante poem require?",
+     "a": "Line 3 requires three \"-ing\" words (participles) describing the first subject. A wrong answer shows confusion between adjectives and action-based participle verbs.",
+     "self_check": true
+    },
+    {
+     "q": "If your diamante starts with \"Badminton\" and ends with \"Chess,\" what should the nouns in Line 4 represent?",
+     "a": "Line 4 should have two nouns related to Badminton and two nouns related to Chess. A wrong answer indicates the student missed the \"bridge\" purpose of the middle line.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze this line: \"Running, sweating, winning.\" Does this fit the requirement for a diamante?",
+     "a": "Yes, it fits if it is in Line 3 or 5, as it consists of three \"-ing\" words. A wrong answer suggests the student is struggling to identify the grammatical category of present participles.",
+     "self_check": true
+    },
+    {
+     "q": "Is it better to choose two completely unrelated subjects for a diamante, like \"Pen\" and \"Planet\"? Why?",
+     "a": "No, it is better to choose related or contrasting subjects (like \"Win\" and \"Loss\") because the diamante structure is designed to show a transformation or relationship between them. A wrong answer shows a lack of understanding regarding the poem's thematic purpose.",
+     "self_check": true
+    },
+    {
+     "q": "Create a one-line start for a diamante using the subject \"Sports.\"",
+     "a": "\"Sports.\" Any other word would be incorrect because Line 1 must be exactly one noun.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "class": 11,
+ "subject": "geography",
+ "chapter": 213,
+ "chapter_title": "Movements of Ocean Water",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kegy213.txt",
+ "concepts": [
+  {
+   "id": "kegy.213.1.1",
+   "title": "Ocean Currents and Their Effects",
+   "section": "",
+   "definition": "Ocean currents are continuous flows of surface water set up by prevailing winds, coriolis force, density differences and coastline shapes, with warm currents flowing from equator to poles and cold currents from poles to equator, meeting at convergence zones rich in fisheries like the Grand Banks.",
+   "formula": "",
+   "key_idea": "Warm currents like the Gulf Stream warm western Europe, cold currents like the Labrador cause fog off Newfoundland, and their meeting grounds give the world's best fishing grounds.",
+   "textbook_ref": "kegy213.txt currents sections",
+   "question_patterns": [
+    "define ocean currents and name their types",
+    "what causes the formation of ocean currents",
+    "how do warm and cold currents affect climate",
+    "explain the gulf stream and its climatic influence",
+    "why do fishing grounds form where currents meet",
+    "describe the sargasso sea and the gulf stream system"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.213.2.1",
+   "title": "Waves and Tides of the Ocean",
+   "section": "",
+   "definition": "Waves are oscillatory movements raised by wind friction travelling through the water, while tides are rhythmic rises and falls caused by the gravitational pull of the moon and the sun, giving spring tides at new and full moon and neap tides at quarter phases.",
+   "formula": "",
+   "key_idea": "Tides serve navigation, fishing and tidal power generation, and their twice-daily rhythm depends on the relative positions of earth, moon and sun.",
+   "textbook_ref": "kegy213.txt waves and tides sections",
+   "question_patterns": [
+    "define waves and the motion of water particles in them",
+    "how are tides caused by the moon and the sun",
+    "differentiate spring tide and neap tide",
+    "state the uses of tides for mankind",
+    "explain tidal power generation with examples",
+    "what controls the height of ocean waves"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.213.3.1",
+   "title": "Importance of Ocean Movements for Navigation, Climate and Economy",
+   "section": "Movements of ocean water",
+   "definition": "Ocean currents, waves and tides aid and hinder navigation, moderate coastal climates, concentrate fisheries, generate tidal power and shape coasts, so the movements of ocean water carry both economic value and hazards that mariners and planners must respect.",
+   "formula": "",
+   "key_idea": "Ships use favourable currents to save fuel, while storms at sea generate the largest waves that threaten navigation.",
+   "textbook_ref": "kegy213.txt importance sections",
+   "question_patterns": [
+    "how do ocean currents aid navigation and trade",
+    "state the economic importance of tides",
+    "how do currents influence the fishing industry",
+    "what hazards do waves and storms pose to ships",
+    "explain the role of currents in shaping coastlines",
+    "why are tidal power projects limited to certain coasts"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kegy213.txt exercises",
+   "questions": [
+    "Multiple choice on ocean movements.",
+    "Define ocean currents and their causes.",
+    "Explain the origin and types of tides.",
+    "What are spring and neap tides?",
+    "Discuss the importance of ocean currents for climate and fishing."
+   ]
+  }
+ ]
+}

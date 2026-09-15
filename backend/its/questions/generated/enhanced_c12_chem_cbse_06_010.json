@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_06_010",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_06_010",
+   "title": "c12_chem_cbse_06_010",
+   "questions": [
+    {
+     "q": "Write the IUPAC names and draw the structures of CHCl₃, CCl₄, and DDT. For DDT, indicate the positions of chlorine atoms on the phenyl rings.",
+     "a": "CHCl₃: Trichloromethane (chloroform) – central carbon bonded to one H and three Cl atoms (tetrahedral). CCl₄: Tetrachloromethane (carbon tetrachloride) – central carbon bonded to four Cl atoms (tetrahedral, symmetrical, μ = 0). DDT: 1,1,1-Trichloro-2,2-bis(4-chlorophenyl)ethane – two p-chlorophenyl groups attached to a central CCl₃–CH– unit. A common error is drawing DDT with chlorine at meta/ortho positions or missing one chlorine on the ethane bridge; this reveals confusion about the condensation product of chloral (CCl₃CHO) with two molecules of chlorobenzene at the para position.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why chloroform is stored in dark-coloured, completely filled bottles, and write the balanced chemical equation for the reaction that necessitates this precaution.",
+     "a": "Chloroform slowly oxidises in air/light to carbonyl chloride (phosgene, COCl₂) and HCl: 2CHCl₃ + O₂ → 2COCl₂ + 2HCl. Phosgene is highly toxic (chemical warfare agent). Dark bottles block UV light that initiates radical oxidation; filling to the brim excludes air (O₂). A wrong answer (e.g., \"chloroform evaporates\" or \"forms chlorine gas\") shows the student does not recognise the specific oxidation reaction or the role of the C–H bond in chloroform versus CCl₄.",
+     "self_check": true
+    },
+    {
+     "q": "A student adds aqueous KOH to two test tubes: one containing CHCl₃, the other CCl₄. Both are heated. Write the balanced equations for the reactions (if any) and identify the organic product in each case. Calculate the mass of potassium formate obtained from 50 g of chloroform (molar mass 119.5 g mol⁻¹) assuming 100% yield.",
+     "a": "CHCl₃ + 4KOH → HCOOK + 3KCl + 2H₂O (hydrolysis yields potassium formate). CCl₄ + 4KOH → K₂CO₃ + 4KCl + 2H₂O (hydrolysis yields potassium carbonate). Moles CHCl₃ = 50/119.5 = 0.418 mol → moles HCOOK = 0.418 mol → mass = 0.418 × 58.1 = 24.3 g. A student writing no reaction for CCl₄ or giving CO₂ as product for CHCl₃ misunderstands the stepwise nucleophilic substitution and the stability of the :CCl₂ intermediate.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the rates of alkaline hydrolysis of CHCl₃ and CCl₄. Which is faster and why? Consider both steric and electronic factors in your analysis.",
+     "a": "CHCl₃ hydrolyses faster than CCl₄. In CHCl₃, the C–H bond is weakened by three electron-withdrawing Cl atoms, facilitating deprotonation to form the trichloromethyl carbanion (:CCl₃⁻) which rapidly loses Cl⁻ to give dichlorocarbene (:CCl₂), a highly reactive intermediate attacked by OH⁻. CCl₄ lacks an acidic H; hydrolysis proceeds via slow SN2 attack on a sterically hindered carbon (four bulky Cl groups) with no carbene pathway. A student claiming CCl₄ is faster because \"more Cl = more electrophilic\" ignores steric hindrance and the special carbenoid pathway of CHCl₃.",
+     "self_check": true
+    },
+    {
+     "q": "A textbook states: \"DDT is banned worldwide because it causes immediate toxicity to humans.\" Evaluate this statement. Is it correct? Justify your answer with specific reference to DDT's chemical properties and environmental behaviour.",
+     "a": "The statement is incorrect. DDT is not banned worldwide (still used for malaria vector control in some countries under WHO guidelines). Its primary hazard is not acute human toxicity but environmental persistence (half-life 2–15 years), lipophilicity (log P ≈ 6), and biomagnification in food chains, causing eggshell thinning in birds. It is metabolised slowly to DDE (dichlorodiphenyldichloroethylene), which is also persistent. A student accepting the statement confuses acute toxicity with chronic ecotoxicity and overlooks the Stockholm Convention's specific exemptions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple chemical test (using reagents available in a school laboratory) to distinguish between chloroform (CHCl₃) and carbon tetrachloride (CCl₄). Write the expected observations and the chemical equations for the reactions involved.",
+     "a": "Add alcoholic AgNO₃ to each and heat. CHCl₃ undergoes hydrolysis (accelerated by Ag⁺ precipitating Cl⁻) to give formate and AgCl precipitate (white, soluble in NH₃). CCl₄ does not react (no AgCl precipitate) under the same conditions because it lacks the acidic H for the carbenoid pathway. Alternatively, add NaOH solution and heat: CHCl₃ gives a clear solution (soluble formate), CCl₄ remains as a separate liquid layer. A poor answer uses flame test (both non-flammable) or ignores the role of Ag⁺ in driving hydrolysis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

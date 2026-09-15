@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_06_005",
+   "title": "c11_phy_cbse_06_005",
+   "questions": [
+    {
+     "q": "A particle of mass 2 kg moves with velocity (3î + 4ĵ) m/s. At a certain instant its position vector from origin is (5î + 2ĵ) m. What is the angular momentum of the particle about the origin? Express in vector form with units.",
+     "a": "L = r × p = (5î + 2ĵ) × 2(3î + 4ĵ) = (5î + 2ĵ) × (6î + 8ĵ) = 5×8(î×ĵ) + 2×6(ĵ×î) = 40k̂ - 12k̂ = 28k̂ kg·m²/s. A wrong answer like 28î or 28ĵ reveals confusion about cross product direction (right-hand rule). An answer without k̂ component reveals the student treats cross product as scalar multiplication. Missing units indicates lack of dimensional awareness.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical particles of mass m move in opposite directions along parallel lines separated by distance d, each with speed v. Show that the total angular momentum of this two-particle system is the same about any point. Why does this NOT mean angular momentum is conserved?",
+     "a": "Choose origin O. Particle 1 at r₁ = (d/2)ĵ with p₁ = mvî; particle 2 at r₂ = -(d/2)ĵ with p₂ = -mvî. L = r₁×p₁ + r₂×p₂ = (d/2)ĵ×mvî + (-d/2)ĵ×(-mvî) = -(dmv/2)k̂ - (dmv/2)k̂ = -dmv k̂. Shift origin by a: r₁' = r₁ + a, r₂' = r₂ + a. L' = Σ(r_i + a)×p_i = L + a×Σp_i = L + a×0 = L. Angular momentum is origin-independent because total linear momentum is zero. However, conservation requires τ_ext = 0. If external forces act (e.g., gravity, friction), τ_ext ≠ 0 and L changes despite being origin-independent. Students confusing \"origin-independence\" with \"conservation\" reveal a fundamental misunderstanding of the conservation condition.",
+     "self_check": true
+    },
+    {
+     "q": "A uniform rod of mass 4 kg and length 1.2 m rotates freely about a vertical axis through its centre. Two small rings, each of mass 0.5 kg, are initially held at the centre. The system rotates at 30 rad/s. The rings are released and slide to the ends. Find the new angular speed. (Moment of inertia of rod about centre = ML²/12; rings treated as point masses).",
+     "a": "Step 1: Initial I = I_rod + I_rings(at centre) = (4×1.2²)/12 + 0 = 0.48 kg·m². Step 2: Initial L = Iω = 0.48 × 30 = 14.4 kg·m²/s. Step 3: Final I = I_rod + 2×m_ring×(L/2)² = 0.48 + 2×0.5×(0.6)² = 0.48 + 0.36 = 0.84 kg·m². Step 4: Conservation: I_iω_i = I_fω_f ⇒ ω_f = 14.4/0.84 = 17.14 rad/s. Step 5: Check: ω decreased as I increased – physically reasonable. Units: kg·m²/s ÷ kg·m² = rad/s ✓. A wrong answer of 52.5 rad/s (using I_f = 0.48 - 0.36) reveals sign error in parallel axis theorem. An answer keeping ω = 30 rad/s reveals belief that internal forces cannot change angular speed.",
+     "self_check": true
+    },
+    {
+     "q": "A horizontal platform (moment of inertia I_p) rotates freely at angular speed ω_0. A person of mass m stands at centre holding two weights (each mass m_w) at arm's length R. The person pulls weights to chest (distance r). Compare the work done by the person to the change in rotational kinetic energy. Is mechanical energy conserved? Explain.",
+     "a": "Initial I_i = I_p + 2m_wR². Final I_f = I_p + 2m_wr². Angular momentum conserved: I_iω_i = I_fω_f ⇒ ω_f = ω_i(I_i/I_f). ΔK = ½I_fω_f² - ½I_iω_i² = ½I_iω_i²(I_i/I_f - 1) > 0. Work done by person = ΔK (positive). Mechanical energy is NOT conserved – internal chemical energy of muscles converts to rotational KE. The person does positive work against centrifugal tendency. A student claiming energy conservation reveals confusion between \"conservation of angular momentum\" and \"conservation of mechanical energy\". A student saying work is zero because \"internal forces do no work\" reveals misunderstanding: internal forces CAN do work and change KE when they change the system's configuration (like an exploding spring).",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"A disc (I = 0.5 kg·m²) rotates at 10 rad/s. A second identical disc is dropped coaxially onto it. Find final ω.\" Their solution: \"ω_f = ω_i = 10 rad/s because no external torque.\" Evaluate this solution.",
+     "a": "The solution is incorrect. While net external torque is zero (friction between discs is internal), angular momentum is conserved for the TWO-DISC SYSTEM: I₁ω₁ + I₂ω₂ = (I₁+I₂)ω_f. Initially disc 2 has ω₂ = 0. So 0.5×10 + 0.5×0 = (0.5+0.5)ω_f ⇒ ω_f = 5 rad/s. The student's error: they applied conservation to disc 1 alone, but friction between discs exerts internal torque on each disc individually. Only the TOTAL system has τ_ext = 0. This reveals the critical misconception: \"no external torque on the system\" ≠ \"no torque on each part\". The student must define the system boundary correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Design a classroom demonstration using a rotating stool, two 2-kg dumbbells, and a motion sensor to verify angular momentum conservation. Specify measurements, calculations, and how to account for friction. What graph would you plot to show L is constant?",
+     "a": "Procedure: Student sits on stool holding dumbbells at arms' length (R ≈ 0.8 m). Assistant gives gentle spin. Motion sensor records ω(t) as student pulls dumbbells to chest (r ≈ 0.2 m). Measure: initial ω_i, final ω_f, time to pull. Calculate I_i = I_stool + 2mR², I_f = I_stool + 2mr². Compute L_i = I_iω_i, L_f = I_fω_f. Account for friction: measure ω decay with arms fixed (no pulling) to get τ_fric = I(dω/dt). During pull, corrected L_f = L_i - ∫τ_fric dt. Plot L(t) vs t – should be horizontal line (constant) if friction negligible, or linear decrease if friction constant. A poor design measures only ω and claims \"ω increased so L increased\" – confusing ω with L. A good answer specifies measuring moment of inertia independently (e.g., by torsion pendulum method) and correcting for friction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

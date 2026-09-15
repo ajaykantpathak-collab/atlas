@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch09_006",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch09_006",
+   "title": "c7_math_ch09_006",
+   "questions": [
+    {
+     "q": "In triangle $ABC$, if we are given the lengths of side $AB = 5\\text{ cm}$ and side $BC = 7\\text{ cm}$, which angle is considered the \"included angle\" required for the SAS congruence criterion?\n- A) $\\angle A$\n- B) $\\angle B$\n- C) $\\angle C$\n- D) Any angle in the triangle",
+     "a": "The correct answer is B) $\\angle B$. \nWhat a wrong answer reveals: If a student chooses $\\angle A$ or $\\angle C$, it shows they do not understand what \"included\" means. They confuse any vertex with the specific vertex where the two given sides ($AB$ and $BC$) meet and share a common endpoint.",
+     "self_check": true
+    },
+    {
+     "q": "Rohan claims that if triangle $XYZ$ has side $XY = 6\\text{ cm}$, side $YZ = 8\\text{ cm}$, and $\\angle X = 50^\\circ$, and triangle $PQR$ has side $PQ = 6\\text{ cm}$, side $QR = 8\\text{ cm}$, and $\\angle P = 50^\\circ$, then the triangles are congruent by SAS. Is Rohan correct, and why?\n- A) Yes, because two sides and an angle are equal.\n- B) No, because the given angle $50^\\circ$ is not the included angle between the two given sides.\n- C) Yes, because any angle works as long as its measure matches.\n- D) No, because side lengths must be measured in millimetres.",
+     "a": "The correct answer is B) No, because the given angle $50^\\circ$ is not the included angle between the two given sides.\nWhat a wrong answer reveals: Selecting A or C exposes a fundamental misconception that *any* angle combined with two sides forms a rigid, unique triangle. Students fail to visualize that if the angle is not trapped between the two sides, the side opposite the angle can swing like a hinge, creating multiple different triangles with the same measurements.",
+     "self_check": true
+    },
+    {
+     "q": "In $\\triangle ABC$ and $\\triangle DEF$, it is given that $AB = 4\\text{ cm}$, $DE = 4\\text{ cm}$, $\\angle B = 60^\\circ$, $\\angle E = 60^\\circ$, $BC = 7\\text{ cm}$, and $EF = 7\\text{ cm}$. Write the correct congruence statement symbol representing these two congruent triangles.\n- A) $\\triangle ABC \\cong \\triangle DFE$\n- B) $\\triangle ABC \\cong \\triangle DEF$\n- C) $\\triangle ACB \\cong \\triangle FED$\n- D) $\\triangle BAC \\cong \\triangle EFD$",
+     "a": "The correct answer is B) $\\triangle ABC \\cong \\triangle DEF$.\nWorking steps:\n1. Identify the matching vertices based on equal corresponding parts: Side $AB$ ($4\\text{ cm}$) corresponds to side $DE$ ($4\\text{ cm}$), so vertex $A$ pairs with $D$, and $B$ pairs with $E$.\n2. Identify the included angle: $\\angle B$ is between $AB$ and $BC$; $\\angle E$ is between $DE$ and $EF$. Thus, vertex $B$ corresponds to vertex $E$.\n3. Identify the third side: $BC$ ($7\\text{ cm}$) corresponds to $EF$ ($7\\text{ cm}$), meaning vertex $C$ corresponds to $F$.\n4. Form the correct correspondence matching vertices in order: $\\triangle ABC \\cong \\triangle DEF$.\nWhat a wrong answer reveals: Choosing shuffled letters like A or C shows a failure to maintain vertex correspondence order, which is essential in geometry to show which sides and angles match up.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following scenario: Two triangles have two pairs of equal sides and one pair of equal non-included angles. Can you guarantee the triangles are congruent? Explain why or why not using geometric reasoning.\n- A) Yes, all triangles with two equal sides are congruent.\n- B) No, because without the angle being strictly included between the two sides, the unconstrained side can pivot, forming non-congruent triangles with the exact same numerical data.\n- C) Yes, because AAS rule covers this.\n- D) No, because angles must always be larger than sides.",
+     "a": "The correct answer is B) No, because without the angle being strictly included between the two sides, the unconstrained side can pivot, forming non-congruent triangles with the exact same numerical data.\nWhat a wrong answer reveals: Choosing A or C indicates a rote memorization of words like \"equal sides and angles\" without understanding the rigidity property of triangles and why the position of the angle matters (SSA ambiguity).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the proof written by a student: \"In $\\triangle PQR$ and $\\triangle XYZ$, $PQ = XY = 5\\text{ cm}$, $\\angle Q = \\angle Y = 70^\\circ$, and $PR = XZ = 6\\text{ cm}$. Therefore, $\\triangle PQR \\cong \\triangle XYZ$ by SAS.\" Is this proof valid?\n- A) Valid, because three pieces of information match.\n- B) Invalid, because the sides given are $PQ$ and $PR$ (with included angle $P$), but the angle provided is $\\angle Q$ (which is not included between $PQ$ and $PR$).\n- C) Valid, because any two sides and an angle prove SAS.\n- D) Invalid, because lengths must be in metres.",
+     "a": "The correct answer is B) Invalid, because the sides given are $PQ$ and $PR$ (with included angle $P$), but the angle provided is $\\angle Q$ (which is not included between $PQ$ and $PR$).\nJustification: For SAS, the angle must be formed by the intersection of the two given sides. Side $PQ$ and side $PR$ meet at vertex $P$, making $\\angle P$ the included angle. Providing $\\angle Q$ makes this an SSA condition, which does not guarantee congruence.\nWhat a wrong answer reveals: Selecting A or C proves the student checks only for the *quantity* of matching parts (two sides, one angle) rather than their *relative positions* within the triangle structure.",
+     "self_check": true
+    },
+    {
+     "q": "Design a word problem involving a real-world scenario (such as constructing a triangular park or a roof truss) where a builder uses the SAS congruence criterion to prove two support beams are identical. State the given measurements clearly.",
+     "a": "Expected response criteria: The student must create a scenario (e.g., building a roof frame in a village house) where two sides are explicitly measured (e.g., Beam $AB = 3\\text{ m}$, Beam $AC = 4\\text{ m}$) along with their exact included angle ($\\angle BAC = 50^\\circ$), and state how matching these exact three items guarantees the second roof frame will be an exact duplicate. \nA poor answer lists random numbers without specifying which angle is between the two sides or uses non-matching labels.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

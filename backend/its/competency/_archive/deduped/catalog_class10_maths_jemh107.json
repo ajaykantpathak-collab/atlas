@@ -1,0 +1,234 @@
+{
+ "class": 10,
+ "subject": "maths",
+ "chapter": 7,
+ "chapter_title": "Coordinate Geometry",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jemh107.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "jemh.107.7.1",
+   "title": "Distance Formula",
+   "section": "7.1",
+   "definition": "The distance between points (x1, y1) and (x2, y2) equals the square root of (x2 - x1) squared plus (y2 - y1) squared - the Pythagorean theorem applied to the coordinate plane.",
+   "formula": "distance = sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)",
+   "key_idea": "Coordinate gaps are the legs; the distance is the hypotenuse.",
+   "textbook_ref": "jemh107.txt section 7.1 (distance formula)",
+   "question_patterns": [
+    "find the distance between the points (3, 4) and (0, 0)",
+    "calculate the distance between the two given points",
+    "show that the given points form a right triangle using distances",
+    "find a point on the x-axis equidistant from the two given points",
+    "which of the given points is farthest from the origin",
+    "determine whether the given points are collinear using distances"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "compute the coordinate gaps",
+     "explain": "Subtract x-coordinates and y-coordinates separately.",
+     "compute": "dx = x2 - x1"},
+    {"step": 2, "action": "apply the Pythagorean root",
+     "explain": "Square the gaps, add, and take the square root.",
+     "compute": "distance = sqrt(dx * dx + dy * dy)"}
+   ]
+  },
+  {
+   "id": "jemh.107.7.2",
+   "title": "Section Formula",
+   "section": "7.2",
+   "definition": "The coordinates of the point dividing the join of (x1, y1) and (x2, y2) in the ratio m : n internally are ((m x2 + n x1) over (m + n), (m y2 + n y1) over (m + n)); the midpoint is the special case m = n.",
+   "formula": "px = (m * x2 + n * x1) / (m + n)",
+   "key_idea": "Weights swap sides: the farther ratio pulls the point toward the opposite endpoint.",
+   "textbook_ref": "jemh107.txt section 7.2 (section formula, midpoint)",
+   "question_patterns": [
+    "find the coordinates of the point dividing the join in the ratio m : n",
+    "find the midpoint of the segment joining the given points",
+    "in what ratio does the point divide the given segment",
+    "find the point that trisects the given segment",
+    "check whether the given point lies on the segment and in what ratio",
+    "use the section formula to find the missing coordinate"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "form the weighted x-coordinate",
+     "explain": "m times x2 plus n times x1, over m + n.",
+     "compute": "px = (m * x2 + n * x1) / (m + n)"},
+    {"step": 2, "action": "form the weighted y-coordinate",
+     "explain": "Same weights applied to the y-values.",
+     "compute": "py = (m * y2 + n * y1) / (m + n)"}
+   ]
+  },
+  {
+   "id": "jemh.107.7.3",
+   "title": "Area of a Triangle from Its Vertices",
+   "section": "7.3",
+   "definition": "The area of a triangle with vertices (x1, y1), (x2, y2), (x3, y3) equals half the absolute value of x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2); a zero result means the three points are collinear.",
+   "formula": "area = abs((x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)) / 2)",
+   "key_idea": "Three vertices in, one area out: zero area exposes collinearity.",
+   "textbook_ref": "jemh107.txt section 7.3 (area of a triangle)",
+   "question_patterns": [
+    "find the area of the triangle whose vertices are given",
+    "check whether the given three points are collinear using the area formula",
+    "find the value of k for which the points are collinear",
+    "calculate the area of the triangle formed by the given points",
+    "compare the areas of the two given triangles from their vertices",
+    "why does the area formula use the absolute value - explain"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "evaluate the determinant expression",
+     "explain": "Compute x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2).",
+     "compute": "det = x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)"},
+    {"step": 2, "action": "halve the absolute value",
+     "explain": "The area is the absolute value of det over 2.",
+     "compute": "area = abs(det) / 2"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jemh107.txt distance formula examples",
+   "concept": "jemh.107.7.1",
+   "question_type": "compute",
+   "question_pattern": "Find the distance between the points (x1, y1) and (x2, y2).",
+   "extracted_variables": {
+    "x1": "x-coordinate of the first point",
+    "y1": "y-coordinate of the first point",
+    "x2": "x-coordinate of the second point",
+    "y2": "y-coordinate of the second point"
+   },
+   "solution_template": [
+    {"step": 1, "action": "compute the gaps",
+     "explain": "Subtract the coordinates.",
+     "compute": "dx = x2 - x1"},
+    {"step": 2, "action": "take the Pythagorean root",
+     "explain": "Square, add and root.",
+     "compute": "distance = sqrt(dx * dx + dy * dy)"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jemh107.txt distance practice",
+   "concept": "jemh.107.7.1",
+   "question_type": "compute",
+   "question_pattern": "Point A is (x1, y1) and point B is (x2, y2). Calculate the length of AB.",
+   "extracted_variables": {
+    "x1": "A's x-coordinate",
+    "y1": "A's y-coordinate",
+    "x2": "B's x-coordinate",
+    "y2": "B's y-coordinate"
+   },
+   "solution_template": [
+    {"step": 1, "action": "compute the gaps",
+     "explain": "Coordinate differences for the legs.",
+     "compute": "dx = x2 - x1"},
+    {"step": 2, "action": "take the root",
+     "explain": "The hypotenuse is the distance.",
+     "compute": "distance = sqrt(dx * dx + dy * dy)"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jemh107.txt section formula examples",
+   "concept": "jemh.107.7.2",
+   "question_type": "compute",
+   "question_pattern": "Find the x-coordinate of the point dividing (x1, y1) and (x2, y2) in the ratio {m} : {n}.",
+   "extracted_variables": {
+    "x1": "x-coordinate of the first endpoint",
+    "x2": "x-coordinate of the second endpoint",
+    "m": "first part of the ratio",
+    "n": "second part of the ratio"
+   },
+   "solution_template": [
+    {"step": 1, "action": "apply the weighted average",
+     "explain": "m x2 plus n x1 over m + n.",
+     "compute": "px = (m * x2 + n * x1) / (m + n)"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jemh107.txt section formula practice",
+   "concept": "jemh.107.7.2",
+   "question_type": "compute",
+   "question_pattern": "A segment joins (x1, y1) to (x2, y2). Find the y-coordinate of its point of division in the ratio {m} : {n}.",
+   "extracted_variables": {
+    "y1": "y of the first endpoint",
+    "y2": "y of the second endpoint",
+    "m": "first ratio part",
+    "n": "second ratio part"
+   },
+   "solution_template": [
+    {"step": 1, "action": "apply the weighted average",
+     "explain": "Same weights on the y-values.",
+     "compute": "py = (m * y2 + n * y1) / (m + n)"}
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "jemh107.txt area of triangle examples",
+   "concept": "jemh.107.7.3",
+   "question_type": "compute",
+   "question_pattern": "Find the area of the triangle with vertices (x1, y1), (x2, y2) and (x3, y3).",
+   "extracted_variables": {
+    "x1": "x of the first vertex",
+    "y1": "y of the first vertex",
+    "x2": "x of the second vertex",
+    "y2": "y of the second vertex",
+    "x3": "x of the third vertex",
+    "y3": "y of the third vertex"
+   },
+   "solution_template": [
+    {"step": 1, "action": "evaluate the expression",
+     "explain": "Sum the three products of coordinates.",
+     "compute": "det = x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)"},
+    {"step": 2, "action": "halve the absolute value",
+     "explain": "The area is half the magnitude.",
+     "compute": "area = abs(det) / 2"}
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "jemh107.txt collinearity practice",
+   "concept": "jemh.107.7.3",
+   "question_type": "compute",
+   "question_pattern": "Check collinearity of (x1, y1), (x2, y2), (x3, y3) by computing the triangle area.",
+   "extracted_variables": {
+    "x1": "first point x",
+    "y1": "first point y",
+    "x2": "second point x",
+    "y2": "second point y",
+    "x3": "third point x",
+    "y3": "third point y"
+   },
+   "solution_template": [
+    {"step": 1, "action": "evaluate the expression",
+     "explain": "The coordinate products decide the area.",
+     "compute": "det = x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)"},
+    {"step": 2, "action": "take half the magnitude",
+     "explain": "Zero area proves collinearity.",
+     "compute": "area = abs(det) / 2"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex7.1",
+   "source_ref": "jemh107.txt EXERCISE 7.1-7.2",
+   "questions": [
+     "Find the distances between the given pairs of points.",
+     "Find the coordinates of the points of division in the given ratios.",
+     "Find the midpoints of the given segments."
+   ]
+  },
+  {
+   "id": "ex7.2",
+   "source_ref": "jemh107.txt EXERCISE 7.3",
+   "questions": [
+     "Find the areas of the triangles with the given vertices.",
+     "Determine whether the given points are collinear.",
+     "Find the value of k for collinearity of the given points."
+   ]
+  }
+ ]
+}

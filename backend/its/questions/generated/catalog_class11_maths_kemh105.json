@@ -1,0 +1,132 @@
+{
+ "catalog": "catalog_class11_maths_kemh105.json",
+ "concepts": [
+  {
+   "id": "kemh.105.1.1",
+   "title": "Complex Numbers: Definition, Powers of i and Algebra",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "expand the determinant or matrix product entry",
+     "explain": "expand the determinant or matrix product entry: det = -2 * 8 - 6 * 6 gives -52",
+     "compute": "det = -2 * 8 - 6 * 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the determinant of [[-2, 6], [6, 8]].",
+     "a": "-52",
+     "self_check": false
+    },
+    {
+     "q": "Expand the determinant [[7, -4, -4], [1, 1, -3], [-4, -4, 7]] along the first row.",
+     "a": "-55",
+     "self_check": false
+    },
+    {
+     "q": "For matrices A = [[2, -2], [1, 2]] and B = [[2], [-3]] (column), find the (1,1) entry of AB.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Find the (1,1) entry of the scalar product 2 times a matrix whose (1,1) entry is -5.",
+     "a": "-10",
+     "self_check": false
+    },
+    {
+     "q": "A matrix has 3 rows and 2 columns. How many elements does it have?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A 2 x 2 matrix A has determinant 7. Find det(4A) using det(kA) = k^n det A.",
+     "a": "112",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.105.2.1",
+   "title": "Argand Plane Representation of Complex Numbers and Their Absolute Value",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the determinant of [[-1, -3], [-1, -3]].",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Expand the determinant [[1, -5, 3], [-4, -1, -3], [4, -4, -1]] along the first row.",
+     "a": "129",
+     "self_check": false
+    },
+    {
+     "q": "For matrices A = [[-4, 6], [1, 2]] and B = [[-3], [-4]] (column), find the (1,1) entry of AB.",
+     "a": "-12",
+     "self_check": false
+    },
+    {
+     "q": "Find the (1,1) entry of the scalar product 3 times a matrix whose (1,1) entry is -4.",
+     "a": "-12",
+     "self_check": false
+    },
+    {
+     "q": "A matrix has 3 rows and 2 columns. How many elements does it have?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A 2 x 2 matrix A has determinant 5. Find det(2A) using det(kA) = k^n det A.",
+     "a": "20",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.105.3.1",
+   "title": "Quadratic Equations with Complex Roots",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "expand the determinant or matrix product entry",
+     "explain": "expand the determinant or matrix product entry: det = 8 * -1 - 6 * -2 gives 4",
+     "compute": "det = 8 * -1 - 6 * -2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the determinant of [[8, 6], [-2, -1]].",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Expand the determinant [[2, -1, 2], [1, 0, 2], [-1, -4, 6]] along the first row.",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "For matrices A = [[0, -4], [1, 2]] and B = [[5], [0]] (column), find the (1,1) entry of AB.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Find the (1,1) entry of the scalar product 4 times a matrix whose (1,1) entry is 0.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "A matrix has 3 rows and 4 columns. How many elements does it have?",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "A 2 x 2 matrix A has determinant 5. Find det(4A) using det(kA) = k^n det A.",
+     "a": "80",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

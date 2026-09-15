@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_08_008",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_08_008",
+   "title": "c11_eng_w_cbse_08_008",
+   "questions": [
+    {
+     "q": "Define imagery and metaphor in your own words, giving one original example of each (not from the textbook).",
+     "a": "Imagery: Language that appeals to the senses (e.g., \"The sour lemon juice made my jaw ache\" — gustatory/tactile). Metaphor: A direct identification of two unlike things (e.g., \"The exam was a battlefield\" — exam = battlefield). A wrong answer that gives a simile (\"The exam was *like* a battlefield\") reveals confusion between metaphor and simile; an answer that lists only visual description (\"The room was big and bright\") reveals a narrow view of imagery as only visual.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"The smell of the melted butter tickled my nostrils as the nostrils of Johovah were tickled by the burned offerings of the virtuous Semites,\" identify the two things being compared and explain what quality is transferred.",
+     "a": "The narrator's nostrils (tenor) are compared to the nostrils of Jehovah (vehicle) via the shared verb \"tickled\"; the quality transferred is *divine, almost sacred pleasure* in receiving a sensory offering. A wrong answer that says \"butter is compared to burned offerings\" misses the grammatical subject (nostrils) and the metaphor's function: it elevates a greedy sniff into a holy acceptance, highlighting the narrator's desperate hunger through ironic hyperbole.",
+     "self_check": true
+    },
+    {
+     "q": "Read this new passage: \"The coffee arrived, steam curling like a question mark above the cup. Its bitterness was a cold shower for my tongue.\" Identify one image and one metaphor, labelling the sense each appeals to.",
+     "a": "Image: \"steam curling like a question mark\" — visual (and tactile if you imagine heat). Metaphor: \"bitterness was a cold shower\" — gustatory mapped onto tactile/thermal. Steps: 1) Find sensory words (steam, curling, bitterness, cold shower). 2) Determine if comparison uses \"like/as\" (simile) or direct equation (metaphor). 3) Label the sense. A wrong answer that calls the first a metaphor (it's a simile) or misses the tactile dimension of \"cold shower\" shows incomplete sensory classification.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the extended metaphor of the peaches (\"blush of an innocent girl; rich tone of an Italian landscape\") functions in the final paragraph. What does it reveal about the lady's character and the narrator's perspective?",
+     "a": "The metaphor transforms peaches into symbols of sexualized innocence (girl's blush) and high art (Italian landscape), revealing the lady's consumption as aestheticized gluttony — she doesn't just eat; she *curates* her eating. Simultaneously, the narrator's detached, artistic description (\"blush\", \"rich tone\") masks his fury and bankruptcy, showing his complicity in the performance. A wrong answer that only says \"it shows the peaches were beautiful\" misses the dual characterization: the lady's performative femininity and the narrator's ironic aestheticization of his own ruin.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate which is more effective in conveying the story's central irony: the *gustatory imagery* of the lady's eating (\"voluptuous mouthfuls\", \"thrust them down her throat\") or the *metaphor* of the narrator's revenge (\"when the immortal gods take a hand in the matter it is pardonable to observe the result with complacency\"). Justify with textual evidence.",
+     "a": "The gustatory imagery is more effective because it operates *during* the luncheon, forcing the reader to share the narrator's real-time torture — each \"voluptuous mouthful\" is a fresh blow to his wallet. The \"immortal gods\" metaphor is retrospective, framing the outcome as divine justice, but it tells rather than shows. Evidence: the imagery accumulates across five courses (caviare, salmon, asparagus, ice-cream, peaches), while the metaphor appears only in the final two sentences. A wrong answer that picks the metaphor because it \"sounds more literary\" confuses rhetorical flourish with narrative function.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 60-word paragraph describing a meal you once had where the food seemed to \"mock\" your circumstances, using at least two sensory images and one original metaphor.",
+     "a": "Example: \"The biryani's saffron steam rose like a golden flag of surrender. Each spoonful was a landmine — cardamom exploding on my tongue, ghee pooling like liquid gold I couldn't afford. My empty wallet sat heavy in my pocket, a stone anchor dragging me down while the feast floated away.\" Criteria: two distinct senses (olfactory \"saffron steam\", gustatory \"cardamom exploding\", tactile \"ghee pooling\"), one metaphor (\"wallet... a stone anchor\"), clear circumstance. A poor answer uses only visual imagery, clichéd metaphors (\"feast was a mountain\"), or exceeds word limit without precision.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

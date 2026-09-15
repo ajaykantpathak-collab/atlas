@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_07_009",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_07_009",
+   "title": "c12_geo_cbse_07_009",
+   "questions": [
+    {
+     "q": "Define quinary activities and state how they differ from quaternary activities in terms of decision-making authority.",
+     "a": "Quinary activities involve top-level decision-making, policy formulation, and strategic direction-setting by individuals who hold authoritative positions (e.g., CEOs, ministers, Supreme Court judges). Quaternary activities involve information processing, research, and knowledge generation (e.g., data analysts, software developers, researchers) but lack final decision authority. A wrong answer that equates the two or cites \"high skill\" as the only differentiator reveals confusion between *knowledge work* (quaternary) and *authoritative decision work* (quinary).",
+     "self_check": true
+    },
+    {
+     "q": "Why do quinary activities concentrate in national capitals like New Delhi rather than being evenly distributed across India? Explain using the concept of \"agglomeration of power and specialised services.\"",
+     "a": "Quinary activities cluster in capitals because they require physical proximity to: (1) political authority (Parliament, ministries), (2) judicial apex (Supreme Court), (3) financial regulation (RBI, SEBI headquarters), and (4) specialised support services (top law firms, consultancies, think tanks). This agglomeration reduces transaction costs for high-stakes coordination. A wrong answer citing only \"better infrastructure\" or \"higher salaries\" misses the *functional necessity* of co-location with decision-making nodes — quinary workers must be where binding decisions are ratified.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each of the following roles as quaternary or quinary: (a) Senior Data Scientist at an AI startup, (b) Deputy Governor of RBI, (c) Lead Researcher at ICMR, (d) Cabinet Secretary of India. Justify each classification in one sentence.",
+     "a": "(a) Quaternary — generates knowledge/insights but does not set organisational strategy. (b) Quinary — holds statutory authority for monetary policy decisions affecting the entire economy. (c) Quaternary — conducts research to inform policy but lacks decision-making mandate. (d) Quinary — coordinates highest executive bureaucracy and advises the Prime Minister on governance. A wrong classification of (b) or (d) as quaternary reveals failure to recognise *institutional authority* as the defining criterion; a wrong classification of (a) or (c) as quinary confuses *expertise* with *authority*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the spatial distribution of quinary activities in India vs. the USA. Why does India show tighter concentration in Delhi-NCR while the USA has multiple poles (Washington DC, New York, Silicon Valley, Houston)?",
+     "a": "India's quinary activities are hyper-concentrated in Delhi-NCR because political, judicial, financial, and bureaucratic apex bodies are all constitutionally anchored there. The USA's federal structure distributes authority: political (DC), financial (NYC), technological (Silicon Valley), energy (Houston). Additionally, India's centralised planning legacy and single-tier regulatory architecture reinforce Delhi's dominance. A wrong answer attributing this only to \"population size\" or \"historical accident\" ignores the *institutional geography* of where final decisions are legally made.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The rise of remote work and digital communication will lead to geographic dispersal of quinary activities from national capitals.\" Provide two arguments for and two against, grounded in geographical reasoning.",
+     "a": "*For dispersal*: (1) Secure video-conferencing enables high-level coordination without physical presence (e.g., virtual G20 summits). (2) Decentralised blockchain-based governance models could reduce need for physical regulatory hubs. *Against dispersal*: (1) Quinary decisions often require *informal trust-building* and *reading non-verbal cues* in sensitive negotiations (e.g., Cabinet Committee on Security meetings). (2) Legal and constitutional frameworks mandate physical presence for certain functions (e.g., Supreme Court hearings, Parliamentary sessions). A weak evaluation treats this as purely technological; a strong one recognises that *institutional rituals and legal formalities* anchor quinary activities physically.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical \"Quinary Corridor\" for a new Indian state capital. Specify five institutional anchors you would co-locate within 5 km, and explain the functional linkage between each pair.",
+     "a": "A strong answer proposes: (1) State Secretariat (political executive), (2) High Court (judicial apex), (3) State Central Bank branch / Finance Commission office (fiscal authority), (4) Premier Policy Think Tank (e.g., state NITI Aayog equivalent), (5) Headquarters of largest state-owned enterprise. Linkages: Secretariat ↔ High Court (legislative-vetting), Secretariat ↔ Think Tank (evidence-based policy), Finance ↔ SOE HQ (capital allocation), Think Tank ↔ High Court (constitutional research). A poor answer lists generic offices without explaining *why their decisions must interact daily* — revealing misunderstanding of quinary *interdependence*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

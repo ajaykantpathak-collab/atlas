@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_04_010",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_04_010",
+   "title": "c12_ip_cbse_04_010",
+   "questions": [
+    {
+     "q": "What is the key difference between \"personal data\" and \"sensitive personal data or information (SPDI)\" under the SPDI Rules 2011, and which category does a user's Aadhaar number fall into?",
+     "a": "Personal data is any information relating to an identifiable natural person (e.g., name, email). SPDI is a subset requiring higher protection: passwords, financial data, health parameters, biometrics, sexual orientation, medical records, and Aadhaar number. Aadhaar is explicitly listed as SPDI under Rule 3 of SPDI Rules 2011. A wrong answer (e.g., treating Aadhaar as ordinary personal data) reveals the student misses the graded protection framework — SPDI mandates explicit consent, while personal data only requires consent.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Section 43A of the IT Act, 2000 (inserted 2008) was considered inadequate for modern data protection, leading to the DPDP Act 2023.",
+     "a": "Section 43A only mandated \"reasonable security practices\" for SPDI and provided compensation for negligence — it lacked: (1) a comprehensive definition of personal data, (2) principles like purpose limitation, data minimization, storage limitation, (3) data principal rights (access, erasure, portability), (4) a dedicated regulator (Data Protection Board), (5) cross-border transfer rules, (6) significant penalties (capped at ₹5 crore vs DPDP's ₹250 crore). A wrong answer focusing only on \"low penalties\" shows the student misses the structural gaps — 43A was a liability provision, not a rights-based framework.",
+     "self_check": true
+    },
+    {
+     "q": "A health-tech startup collects users' heart-rate data from wearables to provide fitness insights. They want to use this data to train an AI model for predicting cardiac risk. Under the DPDP Act 2023, what specific steps must they take before processing this data for the new purpose?",
+     "a": "Steps: (1) Identify heart-rate data as \"personal data\" (health-related) — likely sensitive under future rules. (2) Check if original consent covered \"AI training for cardiac risk prediction\" — if not, obtain fresh, specific, informed, unconditional, unambiguous consent (Section 6). (3) Apply purpose limitation (Section 8): process only for specified purpose. (4) Implement data minimization: use only necessary fields. (5) Ensure storage limitation: delete when purpose fulfilled. (6) Provide Data Principal rights: access, correction, erasure, grievance redressal. (7) Appoint Data Protection Officer if significant data fiduciary. Missing any step (e.g., skipping fresh consent) reveals misunderstanding of purpose limitation and consent granularity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"consent\" requirements under SPDI Rules 2011 vs DPDP Act 2023. How does the DPDP Act address the \"consent fatigue\" problem?",
+     "a": "SPDI Rules 2011: Consent must be obtained in writing (letter/fax/email) for SPDI collection; no granularity, no withdrawal mechanism specified. DPDP Act 2023: Consent must be free, specific, informed, unconditional, unambiguous, with clear affirmative action (Section 6); granular (separate consent for separate purposes); withdrawable as easily as given; consent manager framework (Section 7) allows centralized consent management. DPDP addresses fatigue via: (1) consent managers — single dashboard to manage consents across fiduciaries, (2) granular consent — no bundled \"I agree to all\", (3) deemed consent for certain legitimate uses (Section 7) — reduces prompts for expected processing. A wrong answer ignoring consent managers shows the student misses the systemic UX solution.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"The DPDP Act 2023 is just India's version of GDPR — same principles, same rights, same penalties.\" Defend your position with three specific differences.",
+     "a": "The statement is false. Three key differences: (1) **Data localization**: GDPR restricts transfers via adequacy decisions/SCCs; DPDP Act allows Central Government to notify countries for transfer (Section 16) — more executive control, less judicial. (2) **Penalties**: GDPR up to €20M or 4% global turnover; DPDP up to ₹250 crore per instance — no turnover linkage, fixed cap. (3) **Children's data**: GDPR age of consent 16 (member states may lower to 13); DPDP defines child as <18, requires verifiable parental consent for all under-18 — stricter, no member-state flexibility. (4) **Data Protection Officer**: GDPR mandates DPO for public authorities/large-scale monitoring; DPDP mandates only for \"significant data fiduciaries\" notified by government. A wrong answer claiming \"they're the same\" reveals superficial reading — the student confuses shared principles (consent, minimization) with divergent implementation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a compliance checklist for a Class 12 student building a \"College Event Registration\" website that collects: name, email, phone, college ID, dietary preferences, and T-shirt size. The site uses Google Forms (US servers) and stores responses in a Google Sheet. List 5 DPDP Act requirements they must implement, with one specific technical measure for each.",
+     "a": "Checklist: (1) **Lawful basis & consent** (Sec 6): Add checkbox \"I consent to my data being processed for event registration only\" — unchecked by default, separate from T&C. (2) **Purpose limitation** (Sec 8): Do not use emails for marketing later; add script to auto-delete Sheet after event + 30 days. (3) **Data minimization** (Sec 8): Remove \"college ID\" field — not needed for registration; use student email as identifier. (4) **Cross-border transfer** (Sec 16): Google Forms uses US servers — verify if US is on Central Government's \"allowed countries\" list; if not, switch to Indian-hosted Form (e.g., Microsoft Forms India region). (5) **Data Principal rights** (Sec 11-14): Add \"Delete my data\" link in confirmation email triggering Apps Script to remove row; provide \"View my data\" link showing their single response. A poor answer missing cross-border transfer shows the student ignores that using US-hosted tools triggers Section 16.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

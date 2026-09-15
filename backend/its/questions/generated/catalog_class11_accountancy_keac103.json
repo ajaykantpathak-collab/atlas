@@ -1,0 +1,120 @@
+{
+ "catalog": "catalog_class11_accountancy_keac103",
+ "concepts": [
+  {
+   "id": "keac.103.1.1",
+   "title": "Business Transactions, Source Documents and Vouchers",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Business Transactions, Source Documents and Vouchers' refers to.",
+     "a": "Every business transaction is evidenced by a source document such as a cash memo, invoice, cheque or pay-in-slip, and the accountant prepares an accounting voucher on its basis before the transaction is recorded in the books.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Business Transactions, Source Documents and Vouchers'.",
+     "a": "Source documents provide the evidence for the entry, and vouchers classify the transaction as debit or credit voucher with a narration.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Business Transactions, Source Documents and Vouchers' taught, and from which source text?",
+     "a": "3.1 Business Transactions and Source Document (source: keac103.txt section 3.1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.103.2.1",
+   "title": "The Accounting Equation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Accounting Equation' refers to.",
+     "a": "The accounting equation states that assets are equal to capital plus liabilities, so every transaction keeps the two sides equal and capital can always be recovered as assets minus liabilities.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Accounting Equation'.",
+     "a": "Each transaction changes at least two elements of the equation, but the equality of total assets and total claims never breaks.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The Accounting Equation', in plain ASCII form.",
+     "a": "assets = capital + liabilities",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.103.3.1",
+   "title": "Rules of Debit and Credit for Accounts",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Rules of Debit and Credit for Accounts' refers to.",
+     "a": "Under the modern approach, increases in assets and expenses are debited while decreases are credited; increases in capital, liabilities and incomes are credited while decreases are debited, keeping total debits equal to total credits.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Rules of Debit and Credit for Accounts'.",
+     "a": "Applying the rules to the affected accounts decides which account is debited and which is credited for any transaction.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Rules of Debit and Credit for Accounts' taught, and from which source text?",
+     "a": "3.3.1 Rules of Debit and Credit (source: keac103.txt section 3.3.1)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.103.4.1",
+   "title": "Journal, Narration and Compound Entries",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Journal, Narration and Compound Entries' refers to.",
+     "a": "The journal is the book of original entry where transactions are first recorded chronologically with a narration; a compound entry records several debits or credits in one entry, and the process is called journalising.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Journal, Narration and Compound Entries'.",
+     "a": "The journal entry shows date, accounts, amounts, folio and narration, forming the base for posting into the ledger.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Journal, Narration and Compound Entries' taught, and from which source text?",
+     "a": "3.4 Books of Original Entry (source: keac103.txt journal sections)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keac.103.5.1",
+   "title": "Trade Discount and Net Invoice Price",
+   "questions": [
+    {
+     "q": "Calculate the net invoice price after a trade discount. Use the method 'Trade Discount and Net Invoice Price'. Work with: discount_percent = 20, list_price = 20000. Carry the chain through step by step and give the final value of net_price.",
+     "a": "16000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Find the invoice amount when the list price and discount are given. Use the method 'Trade Discount and Net Invoice Price'. Work with: discount_percent = 10, list_price = 5000. Carry the chain through step by step and give the final value of net_price.",
+     "a": "4500 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Trade Discount and Net Invoice Price' refers to.",
+     "a": "When a trade discount is allowed on the list price of goods, the invoice is prepared at the net price found by deducting the discount from the list price, and the trade discount itself is never recorded in the books.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Trade Discount and Net Invoice Price'.",
+     "a": "Only the net invoice price enters the journal, so the trade discount is a calculation step and not an account.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Trade Discount and Net Invoice Price', in plain ASCII form.",
+     "a": "net_price = list_price - trade_discount",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

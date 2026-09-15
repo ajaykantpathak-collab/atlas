@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_civ_ch1_7",
+ "concepts": [
+  {
+   "id": "enh:c8_civ_ch1_7",
+   "title": "c8_civ_ch1_7",
+   "questions": [
+    {
+     "q": "Which article of the Indian Constitution provides for the establishment of an independent Election Commission to superintend, direct, and control elections?",
+     "a": "Article 324 of the Indian Constitution establishes the Election Commission. A student who answers with Article 326 or Article 356 likely confuses the article on adult suffrage or emergency provisions with election administration, showing a need to review constitutional structural articles.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it important for the Election Commission of India to be an independent body rather than a department under a cabinet ministry?",
+     "a": "Independence ensures that the ECI can conduct fair elections without political pressure from the ruling party, which might otherwise influence vote counting or candidate disqualification. A student who answers that \"it makes it easier for the Prime Minister to organize rallies\" misunderstands the fundamental purpose of an independent referee, confusing executive control with democratic oversight.",
+     "self_check": true
+    },
+    {
+     "q": "During an ongoing general election, a ruling political party announces a major welfare scheme and promises free electricity in a specific state. Which body intervenes, and what action do they take?",
+     "a": "The Election Commission of India intervenes by enforcing the Model Code of Conduct, ordering the party to halt the announcement immediately because it improperly influences voters during the election period. A student who believes the Supreme Court or the local police must handle this misses the specific mandate of the ECI to regulate political campaigning behavior.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the relationship between the Election Commission of India and State Election Commissions. Do they manage the same elections?",
+     "a": "No, they manage different tiers: the Election Commission of India handles national (Lok Sabha/Rajya Sabha) and state legislative assembly/presidential elections, whereas State Election Commissions (set up under different constitutional amendments) manage rural and urban local government bodies like panchayats and municipalities. A student who thinks the ECI runs village panchayat elections fails to distinguish between national/state legislative levels and grassroots local governance structures.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument that the Election Commission should have the power to disqualify candidates accused of crimes before a court convicts them. Does this strengthen or weaken constitutional democracy?",
+     "a": "Granting the ECI arbitrary power to disqualify candidates without judicial conviction could weaken democracy, as ruling parties might pressure the ECI to falsely accuse and disqualify political opponents. Conversely, keeping the judicial burden of proof protects against executive overreach, though legal reforms to speed up trials remain vital. A student who says \"yes, the ECI should ban anyone accused\" ignores the separation of powers and the core legal principle of being innocent until proven guilty in a court of law.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short guideline for a political party rally during election season, keeping in mind the restrictions enforced by the Election Commission of India.",
+     "a": "A successful guideline must restrict hate speech, prohibit the use of government venues or public funds for campaigning, ban rallies within 48 hours of polling closing, and cap campaign expenditure. A poor answer would focus only on how loud the loudspeakers can be, ignoring constitutional fairness, the Model Code of Conduct, and equal opportunity for opposition parties.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

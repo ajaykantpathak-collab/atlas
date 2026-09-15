@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_01_003",
+   "title": "c12_ip_cbse_01_003",
+   "questions": [
+    {
+     "q": "What is the correct syntax to insert a single row into a table `STUDENT(RollNo INT PRIMARY KEY, Name VARCHAR(30), Class INT)` when you want to provide values for all columns in the table's defined order?",
+     "a": "Correct answer: `INSERT INTO STUDENT VALUES (101, 'Amit', 12);`  \nA wrong answer like `INSERT INTO STUDENT (101, 'Amit', 12);` (missing VALUES keyword) or `INSERT INTO STUDENT VALUES ('Amit', 101, 12);` (column order mismatch) reveals that the student either does not recall the mandatory `VALUES` keyword or assumes values can be supplied in any order without explicit column listing.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following statement fails for a table `EMP(EmpID INT AUTO_INCREMENT PRIMARY KEY, Name VARCHAR(20), DeptID INT)`: `INSERT INTO EMP VALUES (10, 'Ravi', 5);` assuming EmpID is auto-generated.",
+     "a": "Correct explanation: The table's primary key `EmpID` is defined as `AUTO_INCREMENT`, so the database generates its value automatically. Providing an explicit value for `EmpID` either causes a duplicate-key error (if 10 already exists) or violates the auto-generation mechanism. The correct approach is to omit the `EmpID` column: `INSERT INTO EMP (Name, DeptID) VALUES ('Ravi', 5);` or use `DEFAULT` keyword. A wrong answer that says \"it works fine\" shows the student does not understand auto-increment behavior and the need to exclude auto-generated columns from the value list.",
+     "self_check": true
+    },
+    {
+     "q": "Write a single INSERT statement to add three rows to a table `PRODUCT(PCode CHAR(4) PRIMARY KEY, PName VARCHAR(20), Price DECIMAL(8,2), Qty INT DEFAULT 0)` with the following data: ('P001','Pen',10.00,100), ('P002','Pencil',5.00,200), ('P003','Eraser',3.00,150).",
+     "a": "Correct statement:\n```sql\nINSERT INTO PRODUCT (PCode, PName, Price, Qty) VALUES\n('P001','Pen',10.00,100),\n('P002','Pencil',5.00,200),\n('P003','Eraser',3.00,150);\n```\nA wrong answer that uses separate INSERT statements for each row (though functionally correct) misses the multi-row syntax, or omits the column list and relies on order, which is fragile. If the student writes `VALUES ('P001','Pen',10.00), ('P002','Pencil',5.00), ('P003','Eraser',3.00);` without the `Qty` column, they may not realize that `Qty` has a DEFAULT and can be omitted only if the column list excludes it.",
+     "self_check": true
+    },
+    {
+     "q": "A table `ORDERS(OrderID INT PRIMARY KEY, CustID INT, OrderDate DATE, Amount DECIMAL(10,2))` has a foreign key `CustID` referencing `CUSTOMER(CustID)`. The `CUSTOMER` table has rows with `CustID` 1,2,3. What happens when you execute: `INSERT INTO ORDERS VALUES (1001, 5, '2024-01-15', 5000.00);`?",
+     "a": "The statement fails with a foreign key constraint violation because `CustID = 5` does not exist in the referenced `CUSTOMER` table. The database rejects the insertion to maintain referential integrity. A wrong answer that says \"the row is inserted with CustID 5\" indicates the student does not understand that foreign key constraints are enforced at insertion time and that the referenced value must exist in the parent table.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following two INSERT statements for a table `ITEM(ItemID INT PRIMARY KEY, Description VARCHAR(50) NOT NULL, Category VARCHAR(20) DEFAULT 'General')`. Which is better practice and why?  \nStatement A: `INSERT INTO ITEM VALUES (1, 'Notebook', 'Stationery');`  \nStatement B: `INSERT INTO ITEM (ItemID, Description) VALUES (2, 'Pen');`",
+     "a": "Statement B is better practice because it explicitly lists the columns being supplied, making the statement resilient to schema changes (e.g., if a new column is added between `Description` and `Category`). Statement A relies on the exact column order and number of columns; if the table schema changes (e.g., a new `Price` column added after `ItemID`), Statement A would break or insert data into wrong columns. A wrong answer that prefers Statement A for brevity shows the student values shortcuts over maintainability and does not appreciate the risk of implicit column ordering.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario where a multi-row INSERT statement would fail due to a PRIMARY KEY violation even though all primary key values in the statement are distinct. Explain the cause and how to fix it.",
+     "a": "Scenario: Table `STUDENT(RollNo INT PRIMARY KEY, Name VARCHAR(30))` already contains a row with `RollNo = 101`. A multi-row INSERT attempts to insert `(101, 'Amit'), (102, 'Rita')`. Even though 101 and 102 are distinct within the statement, the first row conflicts with the existing row in the table, causing the entire statement to fail (atomicity). The fix is to either delete/update the existing row first, or use `INSERT IGNORE` / `ON DUPLICATE KEY UPDATE` (MySQL) to handle conflicts. A poor answer that says \"multi-row insert never fails if keys are distinct in the statement\" reveals ignorance of existing data in the table and the atomic nature of the statement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

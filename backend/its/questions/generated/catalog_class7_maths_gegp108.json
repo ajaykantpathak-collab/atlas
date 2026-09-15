@@ -1,0 +1,177 @@
+{
+ "catalog": "catalog_class7_maths_gegp108.json",
+ "concepts": [
+  {
+   "id": "gegp.8.1",
+   "title": "Multiplication of Fractions",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find 4 x 1/4.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Find 7/9 of 54.",
+     "a": "42",
+     "self_check": false
+    },
+    {
+     "q": "Multiply the fractions 7/2 and 1/9.",
+     "a": "7/18",
+     "self_check": false
+    },
+    {
+     "q": "Divide 6/2 by 3/2.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Find the reciprocal of 3/6 and give it as a fraction.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Add the fractions 7/8 and 2/8 (same denominator).",
+     "a": "9/8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.8.2",
+   "title": "Fraction of a Fraction",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "combine the fractions with the fraction operation rules",
+     "explain": "combine the fractions with the fraction operation rules: prod = 11 * 7 / 3 gives 25.6667",
+     "compute": "prod = 11 * 7 / 3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find 11 x 7/3.",
+     "a": "77/3",
+     "self_check": false
+    },
+    {
+     "q": "Find 6/5 of 20.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "Multiply the fractions 1/8 and 4/6.",
+     "a": "1/12",
+     "self_check": false
+    },
+    {
+     "q": "Divide 6/2 by 2/3.",
+     "a": "9/2",
+     "self_check": false
+    },
+    {
+     "q": "Find the reciprocal of 3/6 and give it as a fraction.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Add the fractions 6/5 and 2/5 (same denominator).",
+     "a": "8/5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.8.3",
+   "title": "Division with Fractions",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "combine the fractions with the fraction operation rules",
+     "explain": "combine the fractions with the fraction operation rules: prod = 6 * 3 / 7 gives 2.57143",
+     "compute": "prod = 6 * 3 / 7"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find 6 x 3/7.",
+     "a": "18/7",
+     "self_check": false
+    },
+    {
+     "q": "Find 1/9 of 54.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Multiply the fractions 3/5 and 5/7.",
+     "a": "3/7",
+     "self_check": false
+    },
+    {
+     "q": "Divide 8/6 by 3/2.",
+     "a": "8/9",
+     "self_check": false
+    },
+    {
+     "q": "Find the reciprocal of 4/7 and give it as a fraction.",
+     "a": "7/4",
+     "self_check": false
+    },
+    {
+     "q": "Add the fractions 3/4 and 1/4 (same denominator).",
+     "a": "1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.8.4",
+   "title": "Word Problems with Fractions",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "combine the fractions with the fraction operation rules",
+     "explain": "combine the fractions with the fraction operation rules: prod = 6 * 3 / 4 gives 4.5",
+     "compute": "prod = 6 * 3 / 4"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find 6 x 3/4.",
+     "a": "9/2",
+     "self_check": false
+    },
+    {
+     "q": "Find 6/6 of 18.",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "Multiply the fractions 5/6 and 2/8.",
+     "a": "5/24",
+     "self_check": false
+    },
+    {
+     "q": "Divide 7/7 by 1/7.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Find the reciprocal of 11/14 and give it as a fraction.",
+     "a": "14/11",
+     "self_check": false
+    },
+    {
+     "q": "Add the fractions 3/3 and 5/3 (same denominator).",
+     "a": "8/3",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

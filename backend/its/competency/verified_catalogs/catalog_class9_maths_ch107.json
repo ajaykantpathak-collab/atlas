@@ -1,0 +1,255 @@
+{
+ "class": 9,
+ "subject": "maths",
+ "chapter": 107,
+ "chapter_title": "The Mathematics of Maybe: Introduction to Probability",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iemh107.txt",
+ "concepts": [
+  {
+   "id": "iemh.7.2.1",
+   "title": "Experimental Probability",
+   "section": "7.2.1",
+   "definition": "Roll, toss, count what actually happens: the share of trials that produced the outcome is its observed chance.",
+   "formula": "probability = event_occurrences / total_trials",
+   "key_idea": "Built from real tallies, not from ideal assumptions.",
+   "textbook_ref": "iemh107.txt lines 150-160",
+   "question_patterns": [
+    "In 50 tosses of a die, a 4 appeared 8 times; calculate its observed chance.",
+    "From the tally, what share of the days was rainy?",
+    "Compute the observed share of heads in 200 coin tosses that gave 92 heads.",
+    "Find the relative frequency of a defect if 3 of 80 items failed inspection.",
+    "Estimate the chance of a missed bus from one month's record of 6 misses in 44 school days."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide successes by trials",
+     "explain": "The observed share is successful outcomes over attempts made.",
+     "compute": "probability = event_occurrences / total_trials"
+    },
+    {
+     "step": 2,
+     "action": "Simplify the fraction to its lowest terms or convert to a decimal",
+     "explain": "Reducing the fraction makes the probability easier to interpret and compare.",
+     "compute": "probability = event_occurrences / total_trials"
+    },
+    {
+     "step": 3,
+     "action": "Verify the result lies between 0 and 1",
+     "explain": "Any valid probability must fall in the range 0 to 1, confirming the count was correct."
+    }
+   ]
+  },
+  {
+   "id": "iemh.7.2.2",
+   "title": "Theoretical Probability",
+   "section": "7.2.2",
+   "definition": "Assume every face has the same chance and reason it out on paper: wanted results over all attainable results.",
+   "formula": "probability = favorable_outcomes / total_possible_outcomes",
+   "key_idea": "Counts from a fair setup; no trial runs needed.",
+   "textbook_ref": "iemh107.txt lines 161-165",
+   "question_patterns": [
+    "One card is drawn from a full deck of 52 cards; what is the likelihood that it is a king?",
+    "Find the probability of drawing a heart from a full deck of 52 cards.",
+    "Calculate the chance of two heads in two fair tosses.",
+    "What share of a full deck is hearts? Give the probability.",
+    "State the chance of an even number on one fair die."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Count wanted over total",
+     "explain": "Wanted outcomes divided by every equally likely outcome.",
+     "compute": "probability = favorable_outcomes / total_possible_outcomes"
+    },
+    {
+     "step": 2,
+     "action": "Simplify the fraction or convert to a decimal",
+     "explain": "Reducing the fraction makes the probability easier to interpret and compare.",
+     "compute": "probability = favorable_outcomes / total_possible_outcomes"
+    },
+    {
+     "step": 3,
+     "action": "Confirm the result is between 0 and 1",
+     "explain": "A valid probability always lies in the range 0 to 1, which checks the counts were correct."
+    }
+   ]
+  },
+  {
+   "id": "iemh.7.3.1",
+   "title": "Sample Space",
+   "section": "7.3.1",
+   "definition": "Every distinct result a chance setup can produce, written as a single full list.",
+   "formula": "sample_size = n(S)",
+   "key_idea": "One line per outcome; nothing twice, nothing missing.",
+   "textbook_ref": "iemh107.txt lines 166-168",
+   "question_patterns": [
+    "List the sample space for one fair coin toss.",
+    "Write down all outcomes for rolling one die.",
+    "What is the total outcome count when two coins are tossed together?",
+    "Determine the sample size for a letter drawn from the word Maths.",
+    "Enumerate the outcomes of a spinner landing on 1 through 5."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Enumerate the outcomes",
+     "explain": "Identify every distinct result the setup could produce."
+    },
+    {
+     "step": 2,
+     "action": "Count the entries",
+     "explain": "The size of the list is the sample size."
+    },
+    {
+     "step": 3,
+     "action": "Check that every entry is distinct and the list is complete",
+     "explain": "No outcome should appear twice and no possible outcome should be missing, ensuring a valid sample space."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iemh107.txt lines 150-160 (observed-chance method); values authored",
+   "concept": "iemh.7.2.1",
+   "question_type": "compute",
+   "question_pattern": "A die is rolled {total_trials} times, and it lands on a 4 exactly {event_occurrences} times. Find the experimental probability.",
+   "extracted_variables": {
+    "total_trials": "50",
+    "event_occurrences": "8"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide successes by trials",
+     "explain": "8 / 50 = 0.16.",
+     "compute": "probability = event_occurrences / total_trials"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "authored; method anchored at iemh107.txt lines 150-160",
+   "concept": "iemh.7.2.1",
+   "question_type": "compute",
+   "question_pattern": "Compute the observed share of heads in {total_trials} coin tosses that gave {event_occurrences} heads.",
+   "extracted_variables": {
+    "total_trials": "200",
+    "event_occurrences": "92"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide successes by trials",
+     "explain": "92 / 200 = 0.46.",
+     "compute": "probability = event_occurrences / total_trials"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "authored; method anchored at iemh107.txt lines 161-165",
+   "concept": "iemh.7.2.2",
+   "question_type": "compute",
+   "question_pattern": "A fair die is rolled once. Find the probability of a prime number ({favorable_outcomes} of the {total_possible_outcomes} faces are prime).",
+   "extracted_variables": {
+    "favorable_outcomes": "3",
+    "total_possible_outcomes": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Count wanted over total",
+     "explain": "3 / 6 = 0.5.",
+     "compute": "probability = favorable_outcomes / total_possible_outcomes"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "authored; method anchored at iemh107.txt lines 161-165",
+   "concept": "iemh.7.2.2",
+   "question_type": "compute",
+   "question_pattern": "One card is drawn from a standard deck of {total_possible_outcomes} cards. Find the probability that it is a king ({favorable_outcomes} kings).",
+   "extracted_variables": {
+    "favorable_outcomes": "4",
+    "total_possible_outcomes": "52"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Count wanted over total",
+     "explain": "4 / 52 is about 0.0769.",
+     "compute": "probability = favorable_outcomes / total_possible_outcomes"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.7.3.1",
+   "question_type": "verify_property",
+   "question_pattern": "List the sample space for one fair coin toss.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Enumerate the outcomes",
+     "explain": "Identify every distinct result the setup could produce."
+    },
+    {
+     "step": 2,
+     "action": "Count the entries",
+     "explain": "The size of the list is the sample size."
+    },
+    {
+     "step": 3,
+     "action": "Check that every entry is distinct and the list is complete",
+     "explain": "No outcome should appear twice and no possible outcome should be missing, ensuring a valid sample space."
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.7.3.1",
+   "question_type": "verify_property",
+   "question_pattern": "Write down all outcomes for rolling one die.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Enumerate the outcomes",
+     "explain": "Identify every distinct result the setup could produce."
+    },
+    {
+     "step": 2,
+     "action": "Count the entries",
+     "explain": "The size of the list is the sample size."
+    },
+    {
+     "step": 3,
+     "action": "Check that every entry is distinct and the list is complete",
+     "explain": "No outcome should appear twice and no possible outcome should be missing, ensuring a valid sample space."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex7.2.1",
+   "source_ref": "iemh107.txt lines 165",
+   "questions": [
+    "Calculate the probability that a randomly picked sweet from the sample is green.",
+    "Estimate how many are likely to be yellow if there are 600 sweets in total."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; schema/copyright/DSL/grounding reviewed and enriched by quality reviewer"
+}

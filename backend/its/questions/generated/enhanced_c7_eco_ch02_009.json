@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch02_009",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch02_009",
+   "title": "c7_eco_ch02_009",
+   "questions": [
+    {
+     "q": "Which of the following economic activities belongs strictly to the primary sector?\nA) Weaving cotton yarn into fabric on a powerloom\nB) Transporting finished goods in a cargo truck\nC) Harvesting wheat from an agricultural field in Punjab\nD) Selling vegetables at a weekly neighborhood market",
+     "a": "The correct answer is C. Harvesting wheat from an agricultural field in Punjab. The primary sector involves extracting or harvesting products directly from natural resources, such as agriculture, forestry, and mining. \nA wrong answer reveals that the student is confusing the extraction of raw materials with secondary manufacturing processes (like weaving) or tertiary service activities (like transport and retail).",
+     "self_check": true
+    },
+    {
+     "q": "Why do secondary and tertiary economic activities rely heavily on the primary sector?\nA) Because primary sector workers buy all the manufactured goods and services.\nB) Because the primary sector provides the raw materials and food needed for manufacturing and service workers.\nC) Because the government requires all businesses to register as primary producers first.\nD) Because primary activities do not require any financial investment or tools.",
+     "a": "The correct answer is B. Because the primary sector provides the raw materials and food needed for manufacturing and service workers. Without the raw materials (like iron ore, cotton, foodgrains) extracted from the earth, factories and service industries would have nothing to process, transport, or sell.\nA wrong answer reveals that the student views economic sectors as isolated islands rather than recognizing that secondary and tertiary sectors add value to the basic raw materials provided by the primary sector.",
+     "self_check": true
+    },
+    {
+     "q": "A local farmer in Maharashtra harvests 500 kilograms of tomatoes. He sells 100 kg directly at the local weekly market (haat), and sells 400 kg to a ketchup factory in Mumbai. How should the processing of tomatoes into ketchup at the factory be classified?\nA) Primary activity, because tomatoes are a farm crop.\nB) Secondary activity, because raw materials are being transformed into a manufactured product.\nC) Tertiary activity, because ketchup is sold in retail stores to consumers.\nD) Quaternary activity, because it involves factory management.",
+     "a": "The correct answer is B. Working steps: \n1) Identify the initial item: tomatoes from a farm (Primary). \n2) Observe the action: tomatoes are processed, cooked, and packaged into bottles in a factory. \n3) Apply the economic definition: Transforming raw materials into finished or semi-finished goods is the hallmark of the secondary sector. \n4) Conclusion: Factory processing is a secondary activity.\nA wrong answer reveals that the student incorrectly believes an activity's sector is permanently defined by its original ingredient (the farm crop) rather than the current process being performed on it.",
+     "self_check": true
+    },
+    {
+     "q": "If a severe drought destroys 50% of the sugarcane crop in Uttar Pradesh, how will this primarily impact the secondary and tertiary sectors in that region?\nA) Secondary and tertiary sectors will expand because workers will have more free time.\nB) Secondary sugar mills will face a shortage of raw sugarcane, leading to lower production, and tertiary transport and retail sectors will handle fewer bags of sugar.\nC) Secondary and tertiary sectors will remain completely unaffected because they do not use natural resources.\nD) Secondary sector will increase sugar prices to make up for lost farming income.",
+     "a": "The correct answer is B. Because economic sectors are interdependent, a shock to the primary sector (sugarcane crop failure) reduces the supply of raw materials for secondary sugar mills, which in turn reduces the volume of goods handled by transport trucks and grocery shops in the tertiary sector.\nA wrong answer reveals that the student fails to understand the ripple effect of economic interdependency across the three sectors of an economy.",
+     "self_check": true
+    },
+    {
+     "q": "An economist suggests that as a country develops, employment in the primary sector tends to decrease while employment in the tertiary sector increases. Evaluate this statement using economic reasoning.\nA) False, because people stop eating food as a country gets richer, eliminating the primary sector.\nB) True, because as productivity in farming increases through technology, fewer farmers are needed to grow food, and rising incomes create higher demand for services like education, healthcare, and tourism.\nC) False, because tertiary services cannot exist without manual farm labor.\nD) True, solely because the government bans primary sector jobs in developed nations.",
+     "a": "The correct answer is B. As an economy modernizes, machinery and better farming techniques allow fewer primary workers to produce more food. Meanwhile, higher consumer incomes increase the demand for services (tertiary sector), shifting employment patterns. \nA wrong answer reveals a misunderstanding of structural economic transformation, assuming economic development destroys sectors rather than reallocating labor due to productivity gains.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple local supply chain for a wooden school desk, identifying which specific tasks belong to the primary, secondary, and tertiary sectors.",
+     "a": "A complete answer must identify three distinct stages: \n1) Primary: Timber logging in a forest or plantation where trees are cut down to provide raw wood. \n2) Secondary: A carpentry workshop or furniture factory where raw timber is cut, shaped, and assembled into a finished desk. \n3) Tertiary: A delivery truck transporting the desk to the school, and a retail store or contractor selling and installing the desk for students. \nA poor answer lists random jobs without linking them to the actual transformation of raw wood into a finished educational product.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_08_010",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_08_010",
+   "title": "c12_bs_cbse_08_010",
+   "questions": [
+    {
+     "q": "State the four limitations of controlling as per NCERT Class 12 Business Studies.",
+     "a": "The four limitations are: (i) Difficulty in setting quantitative standards, (ii) Little control on external factors, (iii) Resistance from employees, (iv) Costly affair. A wrong answer (e.g., listing \"lack of planning\" or \"poor communication\") reveals the student is confusing limitations of controlling with causes of control failure or general management problems — they haven't memorised the specific NCERT classification.",
+     "self_check": true
+    },
+    {
+     "q": "A software company sets a standard: \"Developers must write innovative code.\" The QA team cannot measure this. Which limitation of controlling does this illustrate? Explain why this is a limitation and not an implementation error.",
+     "a": "This illustrates \"Difficulty in setting quantitative standards.\" Innovation, creativity, morale, and job satisfaction are qualitative — they cannot be expressed in numbers like units produced or cost per unit. A wrong answer (e.g., \"poor standard setting\") reveals the student thinks better wording could fix this; they don't grasp that SOME aspects are inherently non-quantifiable — no matter how well you phrase the standard, you cannot measure \"innovation\" with a ruler or stopwatch.",
+     "self_check": true
+    },
+    {
+     "q": "A small organic food startup (revenue ₹50 lakh/year) wants to implement a control system with ERP software (₹8 lakh), biometric attendance (₹2 lakh), and a full-time compliance officer (₹6 lakh/year). The owner argues \"control is essential.\" Using the \"Costly affair\" limitation, evaluate whether this control system is justified. Show your reasoning.",
+     "a": "Total first-year cost = ₹8L + ₹2L + ₹6L = ₹16L (32% of revenue). Recurring cost = ₹6L/year (12% of revenue). NCERT states: \"Managers must ensure that the costs of installing and operating a control system should not exceed the benefits derived from it.\" For a ₹50L startup, this system is likely unjustified — benefits (reduced theft, better attendance) won't exceed ₹16L. A wrong answer (e.g., \"control is always good\") shows the student misses the cost-benefit principle — they treat control as a moral imperative, not an economic decision.",
+     "self_check": true
+    },
+    {
+     "q": "Compare \"Resistance from employees\" and \"Little control on external factors\" — which limitation is internal to the organisation and which is external? Give one Indian example of each where the control system failed primarily due to that limitation.",
+     "a": "Resistance from employees = internal (employees oppose CCTV, strict rules). Example: Indian IT firm introduced keystroke monitoring; top developers quit, citing \"trust deficit.\" Little control on external factors = external (govt policy, competition, tech shifts). Example: 2020 lockdown — no control system could prevent revenue collapse for travel agencies. A wrong answer (e.g., swapping the examples) reveals the student cannot distinguish locus of control — they think \"external\" means \"outside the department\" rather than \"outside the organisation.\"",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"If a company spends enough money on a sophisticated control system, it can eliminate all deviations and achieve perfect performance.\" Use at least TWO limitations of controlling in your critique.",
+     "a": "The statement is false. (1) \"Difficulty in setting quantitative standards\" — no amount of money can quantify employee morale or creativity; you cannot measure what has no metric. (2) \"Little control on external factors\" — even a ₹100 crore ERP cannot stop a competitor's innovation, a policy change, or a pandemic. Money solves implementation, not inherent limitations. A wrong answer (e.g., \"money solves everything\") reveals the student views control as a technical problem solvable by resources, not a structural constraint with hard boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "Design a control system for a 50-employee Indian handicrafts export firm that MINIMISES the impact of all four limitations. Specify: (a) Which standards you'd make quantitative vs qualitative, (b) How you'd reduce employee resistance, (c) How you'd keep costs below 5% of revenue, (d) What external factors you'd monitor but not try to control.",
+     "a": "(a) Quantitative: units exported, defect rate %, on-time delivery %, raw material waste %. Qualitative: artisan satisfaction (survey), design innovation (peer review), customer delight (feedback score). (b) Resistance reduction: co-create standards with artisans, use self-reporting not surveillance, link control to bonus not punishment. (c) Cost control: use free tools (Google Sheets, WhatsApp groups), train existing staff as part-time auditors, avoid ERP — target ₹2.5L/year on ₹50L revenue = 5%. (d) Monitor: USD/INR rate, EU import regulations, cotton price trends, competitor designs — but accept these are uncontrollable; build flexibility (hedging, buffer stock) not control. A poor answer (e.g., \"install ERP, CCTV, hire consultants\") shows the student applies textbook control mechanically without adapting to context — they miss that limitations REQUIRE design compromises.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_02_001",
+   "title": "c12_hs_cbse_02_001",
+   "questions": [
+    {
+     "q": "Define Food Science in one sentence and name any two of its core sub-disciplines.",
+     "a": "Food Science is the interdisciplinary study of the physical, chemical, and biological nature of food, its composition, processing, preservation, safety, and quality. Core sub-disciplines include food chemistry, food microbiology, food processing/technology, food engineering, and sensory evaluation. A wrong answer (e.g., \"Food Science is the study of nutrition\" or \"Food Science is cooking\") reveals confusion between the science of food itself and the science of how the body uses nutrients — a fundamental category error that will cascade into later topics like fortification and processing.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words how Food Science and Nutrition are interrelated. Give one concrete example where a food science process changes the nutritional value of a food.",
+     "a": "Food Science studies what food is and how it can be transformed; Nutrition studies what food does in the body. They intersect because processing, storage, and preparation (Food Science) alter nutrient content, bioavailability, and safety (Nutrition). Example: milling rice removes the bran, stripping away thiamine and fiber — a food science operation with direct nutritional consequence (risk of beriberi). A wrong answer that only says \"they are related\" without a mechanism or example shows surface-level memorisation without understanding the causal link.",
+     "self_check": true
+    },
+    {
+     "q": "A food technologist develops a new high-protein snack using extrusion cooking. The product tastes good and has 20 g protein per 100 g. As a nutrition student, what TWO questions would you ask about the protein quality and bioavailability before recommending it for a school feeding programme?",
+     "a": "1) What is the Protein Digestibility Corrected Amino Acid Score (PDCAAS) or Digestible Indispensable Amino Acid Score (DIAAS) of the extruded product? Extrusion can denature proteins and cause lysine loss via Maillard reaction, reducing bioavailability. 2) Are anti-nutritional factors (e.g., trypsin inhibitors from soy) adequately inactivated by the extrusion conditions? A student who only checks the protein quantity on the label misses the food science reality that processing alters protein quality — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the focus of Food Science versus Nutrition Science using a Venn diagram description (i.e., list three unique aspects of each and two overlapping areas).",
+     "a": "Food Science unique: food rheology/texture, processing technology/engineering, food microbiology/safety (HACCP), sensory science, packaging science. Nutrition Science unique: nutrient metabolism, dietary reference intakes (RDA/AI), medical nutrition therapy, nutrient-gene interactions, epidemiological diet-disease relationships. Overlap: nutrient composition databases, bioavailability/bioaccessibility studies, fortification/enrichment policies, food-based dietary guidelines translation. A wrong answer that lists \"food\" for both or conflates cooking with metabolism fails to distinguish the distinct scientific lenses — a common error in assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Since nutrition is about nutrients, a nutritionist does not need to know food processing methods; they only need the nutrient composition of the final food.\" Defend your position with two specific reasons.",
+     "a": "The statement is flawed. Reason 1: Nutrient composition tables give average values; actual nutrient content varies with processing (e.g., vitamin C loss in pasteurised vs. fresh juice). A nutritionist planning a therapeutic diet for a vitamin C-deficient patient must know the processing history. Reason 2: Processing creates new compounds (e.g., acrylamide in fried foods, advanced glycation end-products) that affect health beyond nutrient content. Ignoring processing misses both losses and neo-formed contaminants. A student who agrees reveals a dangerous gap: they treat food as a static nutrient delivery vehicle rather than a dynamic matrix shaped by food science.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page infographic concept (describe the layout, headings, and three key visual elements) that explains to a Class 10 student how Food Science and Nutrition work together to bring a safe, nutritious fortified biscuit from factory to school lunchbox.",
+     "a": "Layout: Title \"From Grain to Gain: The Food Science–Nutrition Partnership\". Left column (Food Science): 1) Raw material selection (wheat variety, protein content) → 2) Milling & fortification (iron, folic acid addition, homogeneity testing) → 3) Extrusion/baking parameters (time-temperature control for nutrient retention, microbial kill step) → 4) Packaging (barrier properties, shelf-life validation). Right column (Nutrition): 1) Nutrient gap analysis (NFHS data on anaemia) → 2) Fortificant selection (bioavailable iron compound, level based on RDA) → 3) Bioavailability study (phytic acid reduction via extrusion, vitamin C co-fortification) → 4) Consumption monitoring (compliance, haemoglobin impact). Visuals: 1) Split arrow showing parallel tracks merging at \"Fortified Biscuit\" 2) Magnifying glass on \"Bioavailability\" linking phytate reduction (food science) to iron absorption (nutrition) 3) Timeline from factory to lunchbox with checkpoints (QC lab, nutrition audit). A poor answer that only shows a linear recipe misses the iterative, evidence-based dialogue between the two disciplines.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

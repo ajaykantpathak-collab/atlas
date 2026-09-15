@@ -1,0 +1,460 @@
+{
+ "class": 11,
+ "subject": "economics",
+ "chapter": 1,
+ "chapter_title": "Introduction",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kest101.txt",
+ "concepts": [
+  {
+   "id": "c11eco.4.1",
+   "title": "Meaning of Microeconomics",
+   "section": "Introduction",
+   "definition": "Microeconomics is the branch of economics that studies the behaviour of individual economic units such as households, firms, and industries, and the determination of prices in individual markets.",
+   "formula": "",
+   "key_idea": "Microeconomics deals with small parts of the economy, focusing on individual consumers, producers, and the price mechanism in single markets.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is microeconomics and what does it study",
+    "explain the scope of microeconomic analysis",
+    "how does microeconomics differ from macroeconomics in scope",
+    "describe the individual units studied in microeconomics",
+    "why is microeconomics called the study of individual economic units"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the units of analysis in microeconomics",
+     "explain": "Microeconomics examines individual consumers, single firms, specific industries, and particular commodity markets."
+    },
+    {
+     "step": 2,
+     "action": "Determine the focus of microeconomic study",
+     "explain": "It analyzes how prices are determined in individual markets and how resources are allocated by the price mechanism."
+    },
+    {
+     "step": 3,
+     "action": "Conclude the nature of microeconomics",
+     "explain": "Microeconomics is the study of small, disaggregated economic units and their interactions in individual markets."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A student studies how the price of wheat is determined in the local grain market. Which branch of economics is this?",
+     "solution": "Step 1: The study focuses on a single commodity market (wheat). Step 2: Price determination in an individual market is a microeconomic concern. Step 3: This is microeconomics.",
+     "answer": "Microeconomics"
+    },
+    {
+     "question": "Why is the study of a single firm's production decisions considered microeconomics?",
+     "solution": "Step 1: The firm is an individual economic unit. Step 2: Microeconomics studies the behaviour of individual units. Step 3: Hence the study of a single firm is microeconomics.",
+     "answer": "Because it studies an individual firm, which is a unit of microeconomic analysis"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define microeconomics and state its scope.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain with examples how microeconomics studies individual economic units.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.4.2",
+   "title": "Meaning of Macroeconomics",
+   "section": "Introduction",
+   "definition": "Macroeconomics is the branch of economics that studies the economy as a whole, focusing on aggregate variables such as national income, total employment, general price level, and overall economic growth.",
+   "formula": "",
+   "key_idea": "Macroeconomics deals with economy-wide aggregates and the behaviour of the total economic system rather than individual units.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is macroeconomics and what does it study",
+    "explain the scope of macroeconomic analysis",
+    "how does macroeconomics differ from microeconomics",
+    "describe the aggregate variables studied in macroeconomics",
+    "why is macroeconomics called the study of the economy as a whole"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the units of analysis in macroeconomics",
+     "explain": "Macroeconomics examines aggregates such as national income, total output, overall employment, and the general price level."
+    },
+    {
+     "step": 2,
+     "action": "Determine the focus of macroeconomic study",
+     "explain": "It analyzes economy-wide phenomena like inflation, unemployment, economic growth, and the balance of payments."
+    },
+    {
+     "step": 3,
+     "action": "Conclude the nature of macroeconomics",
+     "explain": "Macroeconomics is the study of the economy as an aggregated whole, dealing with broad economic indicators."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A study examines the total national income of India and the overall unemployment rate. Which branch of economics is this?",
+     "solution": "Step 1: The study focuses on aggregate variables (national income, unemployment). Step 2: Aggregate analysis is a macroeconomic concern. Step 3: This is macroeconomics.",
+     "answer": "Macroeconomics"
+    },
+    {
+     "question": "Why is the study of general price inflation considered macroeconomics?",
+     "solution": "Step 1: General price inflation is an economy-wide aggregate phenomenon. Step 2: Macroeconomics studies aggregate price levels. Step 3: Hence it is macroeconomics.",
+     "answer": "Because general inflation is an aggregate, economy-wide variable studied in macroeconomics"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define macroeconomics and list three aggregate variables it studies.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Distinguish between microeconomics and macroeconomics with examples.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.4.3",
+   "title": "Positive and Normative Economics",
+   "section": "Methods of Economic Analysis",
+   "definition": "Positive economics deals with factual, objective analysis of what is, describing cause-and-effect relationships, while normative economics deals with value judgments about what ought to be and policy recommendations.",
+   "formula": "",
+   "key_idea": "Positive economics is descriptive and verifiable, whereas normative economics is prescriptive and based on opinions and values.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "distinguish between positive and normative economics",
+    "what do you understand by positive economics",
+    "what do you understand by normative economics",
+    "classify the given statement as positive or normative",
+    "explain how positive analysis differs from normative analysis"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine whether the statement is factual or value-based",
+     "explain": "A positive statement describes an objective fact or cause-effect relationship; a normative statement expresses an opinion or prescription."
+    },
+    {
+     "step": 2,
+     "action": "Check if the statement can be tested or verified",
+     "explain": "Positive statements can be verified with data; normative statements cannot be tested because they involve value judgments."
+    },
+    {
+     "step": 3,
+     "action": "Classify the statement accordingly",
+     "explain": "If the statement is descriptive and testable, it is positive; if it is prescriptive and opinion-based, it is normative."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Classify the statement: 'The unemployment rate in India rose to 8% in 2020.'",
+     "solution": "Step 1: The statement describes a measurable fact. Step 2: It can be verified with data. Step 3: It is a positive economic statement.",
+     "answer": "Positive economics"
+    },
+    {
+     "question": "Classify the statement: 'The government should reduce taxes to help the poor.'",
+     "solution": "Step 1: The statement prescribes a policy action. Step 2: It is based on a value judgment about fairness. Step 3: It is a normative economic statement.",
+     "answer": "Normative economics"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Classify the statement: 'An increase in money supply leads to a rise in prices.' Is it positive or normative?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the difference between positive and normative economics with one example each.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.4.4",
+   "title": "What is an Economy",
+   "section": "The Economy and Its Central Problems",
+   "definition": "An economy is a system of organisations and institutions through which people earn their living and satisfy their wants through the production, exchange, and consumption of goods and services.",
+   "formula": "",
+   "key_idea": "An economy consists of production units, consumption units, and the arrangements that link them, addressing the basic economic problem of scarcity.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is an economy",
+    "explain the structure and functioning of an economy",
+    "describe the main components of an economy",
+    "how do production and consumption units interact in an economy",
+    "what are the different types of economies"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the components of an economy",
+     "explain": "An economy comprises production units (firms), consumption units (households), and the institutions that coordinate their activities."
+    },
+    {
+     "step": 2,
+     "action": "Examine the flow of activities",
+     "explain": "Production, exchange, and consumption of goods and services flow among the units, creating economic activity."
+    },
+    {
+     "step": 3,
+     "action": "Classify the type of economy",
+     "explain": "Economies may be capitalist (market), socialist (planned), or mixed, depending on who controls resource allocation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A country where the government decides what, how, and for whom to produce is classified as what type of economy?",
+     "solution": "Step 1: The government controls resource allocation. Step 2: Central authority decision-making defines a planned or socialist economy. Step 3: This is a centrally planned economy.",
+     "answer": "Centrally planned (socialist) economy"
+    },
+    {
+     "question": "In a country, prices and production are determined by free market forces. What type of economy is it?",
+     "solution": "Step 1: Market forces of supply and demand determine prices and output. Step 2: Decentralised price-based allocation defines a market economy. Step 3: This is a market (capitalist) economy.",
+     "answer": "Market (capitalist) economy"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define an economy and describe its main components.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Distinguish between a market economy and a centrally planned economy.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.4.5",
+   "title": "Central Problems of an Economy",
+   "section": "The Economy and Its Central Problems",
+   "definition": "Every economy faces three central problems due to scarcity: what to produce and in what quantities, how to produce (choice of technique), and for whom to produce (distribution of output).",
+   "formula": "",
+   "key_idea": "Scarcity of resources compels every economy to make choices about allocation of resources among competing uses.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what are the central problems of an economy",
+    "explain the problem of what to produce",
+    "explain the problem of how to produce",
+    "explain the problem of for whom to produce",
+    "why do all economies face the problem of choice"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the problem of what to produce",
+     "explain": "The economy must decide which goods and services to produce and in what quantities, given limited resources."
+    },
+    {
+     "step": 2,
+     "action": "Identify the problem of how to produce",
+     "explain": "The economy must choose the technique of production (labour-intensive or capital-intensive) to use resources efficiently."
+    },
+    {
+     "step": 3,
+     "action": "Identify the problem of for whom to produce",
+     "explain": "The economy must decide how the produced goods and services are distributed among different members of society."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A country must decide whether to produce more food or more weapons. Which central problem does this address?",
+     "solution": "Step 1: The choice is about which goods to produce. Step 2: Deciding the composition of output is the 'what to produce' problem. Step 3: This addresses the problem of what to produce.",
+     "answer": "The problem of what to produce"
+    },
+    {
+     "question": "A firm chooses between hiring more workers and buying machines. Which central problem does this relate to?",
+     "solution": "Step 1: The choice is about the technique of production. Step 2: Selecting between labour-intensive and capital-intensive methods is the 'how to produce' problem. Step 3: This addresses the problem of how to produce.",
+     "answer": "The problem of how to produce"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the three central problems of an economy.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why does the problem of choice arise in every economy?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.4.6",
+   "title": "Production Possibility Frontier",
+   "section": "Production Possibility Frontier",
+   "definition": "The Production Possibility Frontier (PPF) is a curve showing the maximum possible combinations of two goods that an economy can produce with given resources and technology, assuming full and efficient utilisation.",
+   "formula": "",
+   "key_idea": "Points on the PPF represent efficient production, points inside indicate underutilisation of resources, and points outside are unattainable with current resources.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is a production possibility frontier",
+    "explain the meaning of points on, inside, and outside the PPF",
+    "draw and interpret a production possibility curve",
+    "what does a concave PPF indicate about resources",
+    "how does the PPF illustrate the problem of scarcity and choice"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the two goods and the available resources and technology",
+     "explain": "The PPF is drawn for two goods assuming fixed quantities of resources and a constant technology."
+    },
+    {
+     "step": 2,
+     "action": "Plot the maximum output combinations of the two goods",
+     "explain": "Each point on the curve represents a combination where all resources are fully and efficiently employed."
+    },
+    {
+     "step": 3,
+     "action": "Interpret positions relative to the curve",
+     "explain": "Points on the curve are efficient, points inside indicate underused resources, and points outside are unattainable with current resources."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "An economy produces only wheat and cloth. A point lies inside the PPF. What does this indicate?",
+     "solution": "Step 1: The point is inside the production possibility frontier. Step 2: Points inside the PPF indicate that resources are not fully or efficiently utilised. Step 3: This shows underutilisation of resources.",
+     "answer": "Underutilisation or inefficient use of resources"
+    },
+    {
+     "question": "An economy wants to produce a combination of goods that lies outside its PPF. What does this mean?",
+     "solution": "Step 1: The desired combination is outside the PPF. Step 2: Points outside the PPF cannot be produced with the current resources and technology. Step 3: This combination is unattainable.",
+     "answer": "The combination is unattainable with current resources and technology"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning of a point on the PPF and a point inside the PPF.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Draw a PPF and explain how it illustrates scarcity, choice, and opportunity cost.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.4.8",
+   "title": "Scarcity and Choice",
+   "section": "Scarcity and Choice",
+   "definition": "Scarcity is the fundamental economic problem where human wants are unlimited but the resources available to satisfy them are limited, forcing every economy to make choices.",
+   "formula": "",
+   "key_idea": "Because resources are scarce relative to wants, every individual and society must choose how to allocate limited resources among competing uses.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is the problem of scarcity in economics",
+    "explain the relationship between scarcity and choice",
+    "why must every economy make choices",
+    "how does scarcity give rise to the central problems of an economy",
+    "discuss the concept of scarcity with examples"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the unlimited wants and limited resources",
+     "explain": "Human desires for goods and services are infinite, but the resources (land, labour, capital) available to produce them are finite."
+    },
+    {
+     "step": 2,
+     "action": "Recognise the necessity of making choices",
+     "explain": "Because resources cannot satisfy all wants, society must choose which wants to fulfil and which to forgo."
+    },
+    {
+     "step": 3,
+     "action": "Connect scarcity to the central problems",
+     "explain": "Scarcity gives rise to the central problems of what, how, and for whom to produce, as every economy must allocate limited resources."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A student has Rs 500 and wants to buy a book, a movie ticket, and a meal, each costing Rs 250. What economic problem does this illustrate?",
+     "solution": "Step 1: The total cost of all wants (Rs 750) exceeds the available money (Rs 500). Step 2: The student must choose which wants to satisfy and which to give up. Step 3: This illustrates the problem of scarcity and choice.",
+     "answer": "Scarcity and choice, because wants exceed available resources"
+    },
+    {
+     "question": "Why does a country with abundant natural resources still face the problem of scarcity?",
+     "solution": "Step 1: Even abundant resources are finite relative to unlimited wants. Step 2: Resources have alternative uses, so choosing one use means forgoing others. Step 3: Hence scarcity and choice persist even in resource-rich countries.",
+     "answer": "Because resources are still finite relative to unlimited wants and have alternative uses"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the concept of scarcity with a daily-life example.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How does scarcity give rise to the need for choice in an economy?",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.4.9",
+   "title": "Circular Flow of Income",
+   "section": "Circular Flow of Income",
+   "definition": "The circular flow of income is a model that shows the continuous flow of goods, services, and money between households and firms in an economy, where households supply factors of production and receive income, while firms supply goods and services and receive payment.",
+   "formula": "",
+   "key_idea": "In a simple economy, households and firms are linked through product and factor markets, with money flowing in one direction and goods and services in the opposite direction.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain the circular flow of income in a simple economy",
+    "describe the role of households and firms in the circular flow",
+    "distinguish between the real flow and the money flow",
+    "what are factor and product markets in the circular flow",
+    "how does the circular flow illustrate the interdependence of economic agents"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the two sectors: households and firms",
+     "explain": "Households own the factors of production and consume goods; firms produce goods and services and hire factors of production."
+    },
+    {
+     "step": 2,
+     "action": "Trace the real and money flows between the sectors",
+     "explain": "Real flow: factors move from households to firms and goods move from firms to households. Money flow: factor payments move from firms to households and consumption expenditure moves from households to firms."
+    },
+    {
+     "step": 3,
+     "action": "Explain the interdependence of the two sectors",
+     "explain": "Households depend on firms for income and goods; firms depend on households for factors of production and demand for goods, creating a continuous circular flow."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "In the circular flow, households provide labour to firms and receive wages. What type of flow is the movement of labour?",
+     "solution": "Step 1: Labour is a factor of production moving from households to firms. Step 2: The movement of physical factors and goods is the real flow. Step 3: The movement of labour is part of the real flow.",
+     "answer": "Real flow"
+    },
+    {
+     "question": "Firms pay wages to households, and households use this income to buy goods from firms. What does this illustrate?",
+     "solution": "Step 1: Wages and consumption expenditure are monetary flows between the two sectors. Step 2: The movement of money in the opposite direction of goods and services is the money flow. Step 3: This illustrates the money flow in the circular flow of income.",
+     "answer": "The money flow in the circular flow of income"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between real flow and money flow with examples.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the circular flow of income in a simple two-sector economy with a diagram.",
+     "type": "long_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache"
+}

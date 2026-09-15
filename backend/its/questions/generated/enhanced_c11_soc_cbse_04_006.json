@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_04_006",
+   "title": "c11_soc_cbse_04_006",
+   "questions": [
+    {
+     "q": "Define ethnocentrism in one sentence using the precise sociological terminology from the NCERT textbook.",
+     "a": "Ethnocentrism is the application of one's own cultural values in evaluating the behaviour and beliefs of people from other cultures. A wrong answer that says \"thinking your culture is better\" reveals the student grasps the colloquial meaning but misses the sociological precision: it's not just an attitude but an *evaluative practice* — the active use of one's cultural standards as a measuring stick for others. The textbook definition emphasizes the *process* of evaluation, not merely the feeling of superiority.",
+     "self_check": true
+    },
+    {
+     "q": "The textbook states: \"cultures cannot be ranked but can be judged adequate or inadequate in terms of their ability to cope with the strains imposed by nature.\" Explain the difference between *ranking* cultures and *judging functional adequacy* using the tsunami example.",
+     "a": "Ranking implies a universal hierarchy (Culture A > Culture B overall), while judging functional adequacy is context-specific: tribal culture was *adequate* for predicting tsunamis (moved to higher ground), modern culture was *inadequate* (caught unaware). A wrong answer that says \"tribal culture is better for survival\" still ranks — it misses that modern culture may be adequate for other strains (e.g., medical treatment). The distinction is: adequacy is domain-specific and provisional; ranking is totalizing and absolute.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Macaulay wanted Indians to learn English and science — that's just progress, not ethnocentrism.\" Using the textbook quote, identify the specific phrase that reveals the ethnocentric claim of cultural superiority and explain why it is not merely \"progress.\"",
+     "a": "The phrase \"English in tastes, in opinions, morals and intellect\" reveals the claim: Macaulay positions English culture as the *standard* for morals and intellect, not just technical skill. \"Progress\" would be adopting useful tools (e.g., railways, medicine) without declaring one's moral-intellectual framework universally superior. A wrong answer focusing only on language or science misses that ethnocentrism here is the *normative colonization* — the demand that Indians internalize English *values* as the measure of civilization.",
+     "self_check": true
+    },
+    {
+     "q": "Compare ethnocentrism and cosmopolitanism on three dimensions: (a) stance toward cultural difference, (b) evaluation method, (c) outcome for cultural exchange. Use the textbook's description of English language and Hindi film music as examples.",
+     "a": "(a) Ethnocentrism treats difference as deviation/deficiency; cosmopolitanism values difference as enrichment. (b) Ethnocentrism evaluates by home-culture norms; cosmopolitanism does not seek to evaluate by one's own standards. (c) Ethnocentrism blocks genuine exchange (imposes one way); cosmopolitanism enables creative borrowing — English absorbs foreign words *without becoming a separate language*, Hindi film music borrows from Western pop and folk *without losing its character*. A wrong answer that says \"cosmopolitanism likes all cultures\" misses the active *incorporation* and *distinctive synthesis* the textbook emphasizes.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Sociology should promote cosmopolitanism because ethnocentrism is wrong.\" Your answer must reference the textbook's claim that \"sociology is an empirical and not a normative discipline.\"",
+     "a": "The statement commits a category error: sociology *describes and analyzes* ethnocentrism and cosmopolitanism as social phenomena; it does not *prescribe* cosmopolitanism as a moral goal. The textbook explicitly states sociology is empirical, not normative — it studies *how* cultures interact, not *how they should*. A wrong answer that defends the statement confuses sociological analysis with moral advocacy. Sociology can *explain* why cosmopolitanism emerges in global cities, but cannot *endorse* it as policy without leaving its disciplinary boundary.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a novel, real-world scenario (not from the textbook) where ethnocentrism operates subtly through \"benevolent\" intentions — e.g., a development NGO, a school curriculum, or a healthcare program. Analyze it in 4 steps: (1) the cultural standard being imposed, (2) the local practice being displaced, (3) the claim of superiority embedded in the intervention, (4) why a functional adequacy assessment would yield a different conclusion.",
+     "a": "*Example scenario:* An NGO introduces \"modern\" birth plans in a rural community where traditional birth attendants (dais) use vertical birthing positions and herbal pain management. (1) Imposed standard: hospital-based, supine-position, medically managed birth as \"safe.\" (2) Displaced practice: dai-assisted home birth with mobility and community support. (3) Superiority claim: \"scientific\" vs. \"traditional/unsafe\" — framing local knowledge as ignorance. (4) Functional adequacy: WHO data shows vertical positions reduce labor duration; dai's herbal knowledge may have analgesic properties unstudied by biomedicine. The NGO's intervention may *reduce* adequacy for that context (distance to hospital, cost, infection risk). A poor answer invents a scenario but fails to show the *evaluative mechanism* — how the NGO's standards function as an invisible benchmark.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

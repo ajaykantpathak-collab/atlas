@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_08_007",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_08_007",
+   "title": "c11_psy_cbse_08_007",
+   "questions": [
+    {
+     "q": "What are the two factors in the Schachter-Singer Two-Factor Theory of emotion?",
+     "a": "The two factors are (1) general physiological arousal and (2) cognitive labeling of that arousal based on situational cues. A wrong answer (e.g., \"physiological arousal and behavioral response\" or \"cognitive appraisal and physiological response\") reveals the student is confusing this theory with James-Lange (which says arousal directly causes emotion) or Lazarus's appraisal theory (which says appraisal precedes arousal).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the same pattern of physiological arousal (e.g., increased heart rate, sweating) can lead to the experience of different emotions such as fear, anger, or joy according to the Two-Factor Theory.",
+     "a": "Because physiological arousal is non-specific, the brain must attribute the arousal to a cause. The cognitive label is supplied by the situational context: if the context is threatening, the arousal is labeled \"fear\"; if the context involves obstruction, it is labeled \"anger\"; if the context is rewarding, it is labeled \"joy.\" A wrong answer that claims different arousal patterns produce different emotions shows the student still holds the James-Lange view of emotion-specific physiological signatures.",
+     "self_check": true
+    },
+    {
+     "q": "A student drinks a strong coffee before an important exam. During the exam, she notices her heart racing and hands trembling. She thinks, \"I'm really anxious about this test.\" Using the Two-Factor Theory, identify the source of physiological arousal and the cognitive label she applies. Would her emotional experience change if she attributed the arousal to the coffee instead?",
+     "a": "Source of arousal: caffeine (coffee). Cognitive label: \"anxiety about the exam.\" If she attributed the arousal to coffee, the label would shift to \"caffeine effect\" and the intensity of anxiety would decrease because the arousal is explained by a non-emotional cause. A wrong answer that says the emotion would stay the same reveals the student believes arousal directly determines emotion (James-Lange) rather than the label determining the emotion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Schachter-Singer Two-Factor Theory with the James-Lange Theory and the Cannon-Bard Theory on the sequence of arousal, cognition, and emotion. Use a flowchart-style description for each.",
+     "a": "James-Lange: Stimulus → Physiological Arousal → Emotion (cognition is the perception of arousal). Cannon-Bard: Stimulus → Simultaneous Physiological Arousal AND Emotion (cognition/thalamus processes both in parallel). Schachter-Singer: Stimulus → Physiological Arousal → Cognitive Label (based on context) → Emotion. A wrong answer that places cognition before arousal in Schachter-Singer (like Lazarus) or makes arousal emotion-specific (like James-Lange) shows failure to distinguish the unique two-step sequence of arousal-then-label.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the Schachter-Singer theory by evaluating the ecological validity of the epinephrine experiment and the problem of \"misattribution\" in real-life emotional experiences.",
+     "a": "The epinephrine experiment used a contrived lab setting with a confederate, limiting ecological validity; real emotions involve complex, ongoing appraisals, not a single static context. Misattribution studies (e.g., Dutton & Aron's bridge study) support the theory but show labels can be manipulated artificially, raising questions about whether everyday emotions are actually constructed this way or if some emotions have innate, specific patterns (as Ekman's basic emotions suggest). A wrong answer that dismisses the theory entirely or calls it \"proven\" shows inability to evaluate scientific evidence critically.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field experiment (in an Indian school setting) to test whether misattribution of arousal can alter the intensity of reported emotion. Specify the independent variable, dependent variable, and a control condition.",
+     "a": "IV: Source attribution for arousal (two levels: \"exercise-induced\" vs. \"unexplained\"). Procedure: Students run up three flights of stairs (arousal induction). Before a surprise quiz, Group A is told \"exercise raises heart rate\"; Group B receives no explanation. DV: Self-reported anxiety on a 10-point scale before the quiz. Control: A third group sits quietly (no arousal) and rates anxiety. Expected: Group B reports higher anxiety than Group A, showing misattribution. A poor design that omits a no-arousal control or fails to manipulate attribution reveals misunderstanding of the theory's core claim that unexplained arousal is labeled by context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

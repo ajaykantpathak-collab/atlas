@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_01_002",
+   "title": "c10_math_cbse_01_002",
+   "questions": [
+    {
+     "q": "Write the prime factorisation of 360 in exponential form. Then state the HCF and LCM of 360 and 450 using only the prime factorisations (do not compute the final product yet).",
+     "a": "360 = 2^3 × 3^2 × 5^1. 450 = 2^1 × 3^2 × 5^2. HCF = 2^1 × 3^2 × 5^1 = 90. LCM = 2^3 × 3^2 × 5^2 = 1800. A wrong answer reveals the student either cannot write the factorisation in exponential form (e.g., writes 2×2×2×3×3×5), confuses the rule for exponents (takes largest for HCF or smallest for LCM), or misses a prime factor that appears in only one number when finding LCM.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why, when finding the HCF of 144 and 192, we take the smallest exponent of the common prime factors, but for LCM we take the largest exponent of all prime factors present.",
+     "a": "HCF must divide both numbers, so for each common prime factor we can only include it up to the power that appears in both numbers — the minimum exponent ensures divisibility. LCM must be a multiple of both numbers, so it must contain each prime factor at least as many times as it appears in either number — the maximum exponent ensures both numbers divide the LCM. A wrong answer reveals the student has memorised the rules without understanding the divisibility reasoning behind them, which leads to errors when numbers have non-common prime factors.",
+     "self_check": true
+    },
+    {
+     "q": "Find the HCF and LCM of 252 and 378 using the prime factorisation method. Show all steps including the factor trees.",
+     "a": "252 = 2^2 × 3^2 × 7^1. 378 = 2^1 × 3^3 × 7^1. HCF = 2^1 × 3^2 × 7^1 = 126. LCM = 2^2 × 3^3 × 7^1 = 756. A wrong answer often shows: incorrect factorisation (e.g., missing a factor of 7), arithmetic errors in exponents, or taking the wrong exponent (e.g., taking 3^3 for HCF). Some students forget to include the prime factor 7 in LCM because they think it's \"common\" so they only take it once, not realising LCM requires the maximum exponent from either number.",
+     "self_check": true
+    },
+    {
+     "q": "The HCF of two numbers is 12 and their LCM is 144. One of the numbers is 36. The other number is claimed to be 48. Without finding the other number directly, analyse whether this claim is correct using prime factorisation reasoning.",
+     "a": "36 = 2^2 × 3^2. HCF = 12 = 2^2 × 3^1. LCM = 144 = 2^4 × 3^2. For the other number, its prime factorisation must have: for prime 2, exponent between 2 (from HCF) and 4 (from LCM) — the given 48 = 2^4 × 3^1 has exponent 4 which is within range. For prime 3, exponent between 1 and 2 — 48 has exponent 1 which is within range. Also 48 has no other primes. So 48 is a valid candidate. However, we must check if HCF(36,48)=12 and LCM(36,48)=144. 48=2^4×3^1, HCF=2^2×3^1=12, LCM=2^4×3^2=144. The claim is correct. A wrong answer reveals the student cannot reason backwards from HCF/LCM to possible factorisations, a skill needed for competency questions.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved: \"Find HCF and LCM of 180 and 240.\" Their working:\n180 = 2^2 × 3^2 × 5\n240 = 2^4 × 3 × 5\nHCF = 2^4 × 3^2 × 5 = 720\nLCM = 2^2 × 3 × 5 = 60\nEvaluate the student's work. Identify the exact error and explain why it is wrong.",
+     "a": "The student swapped the rules: they took the highest exponents for HCF and lowest for LCM. Correct: HCF = 2^2 × 3^1 × 5^1 = 60. LCM = 2^4 × 3^2 × 5^1 = 720. The error is a classic confusion of the exponent rules. The student likely memorised \"HCF uses common factors, LCM uses all factors\" but forgot which exponent to pick. This exact error costs full marks in board exams because the final answers are completely swapped.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem involving two numbers between 100 and 500 that requires finding both HCF and LCM using prime factorisation. The problem must have a real-world context (e.g., tiling a floor, packing boxes, traffic lights). Provide the solution with prime factorisations.",
+     "a": "Example problem: \"A rectangular floor measures 240 cm by 360 cm. It is to be tiled with identical square tiles of the largest possible size. Find the side of the tile and the number of tiles needed.\" Solution: 240 = 2^4 × 3 × 5, 360 = 2^3 × 3^2 × 5. HCF = 2^3 × 3 × 5 = 120 cm (tile side). LCM = 2^4 × 3^2 × 5 = 720 (not needed directly). Number of tiles = (240×360)/(120×120) = 6. A poor answer uses trivial numbers (like 12 and 18), lacks prime factorisation steps, or confuses HCF/LCM in the context (e.g., uses LCM for tile size).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

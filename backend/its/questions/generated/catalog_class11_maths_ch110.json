@@ -1,0 +1,406 @@
+{
+ "catalog": "catalog_class11_maths_ch110.json",
+ "concepts": [
+  {
+   "id": "jemh.11.1",
+   "title": "Sections of a Cone",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the solid's surface area or volume formula",
+     "explain": "apply the solid's surface area or volume formula: vol = 8 * 3 * 9 gives 216",
+     "compute": "vol = 8 * 3 * 9"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the volume of a cuboid 8 cm x 3 cm x 9 cm.",
+     "a": "216",
+     "self_check": false
+    },
+    {
+     "q": "Find the total surface area of a cuboid 10 cm x 5 cm x 4 cm.",
+     "a": "220",
+     "self_check": false
+    },
+    {
+     "q": "Find the volume of a cube of edge 10 cm.",
+     "a": "1000",
+     "self_check": false
+    },
+    {
+     "q": "Find the total surface area of a cube of edge 7 cm.",
+     "a": "294",
+     "self_check": false
+    },
+    {
+     "q": "Find the volume of a cylinder of radius 28 cm and height 12 cm (pi = 22/7).",
+     "a": "29568",
+     "self_check": false
+    },
+    {
+     "q": "Find the curved surface area of a cylinder of radius 42 cm and height 7 cm (pi = 22/7).",
+     "a": "1848",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.11.2",
+   "title": "Degenerate Conic Sections",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 4 gives 4",
+     "compute": "lines = 4"
+    }
+   ],
+   "questions": [
+    {
+     "q": "How many lines of symmetry does a square have?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "What is the order of rotational symmetry of a regular pentagon?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a kite have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a rectangle have?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "A line segment has two endpoints; how many endpoints does a ray have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many end points does a line have (a line extends endlessly in both directions)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.11.3",
+   "title": "Standard Equation of a Circle",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 21 gives 132",
+     "compute": "circ = 2 * 22 / 7 * 21"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the circumference of a circle of radius 21 cm (take pi = 22/7).",
+     "a": "132",
+     "self_check": false
+    },
+    {
+     "q": "A circle has diameter 42 cm. Find its circumference (pi = 22/7).",
+     "a": "132",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a circle of radius 14 cm (pi = 22/7).",
+     "a": "616",
+     "self_check": false
+    },
+    {
+     "q": "Two concentric circles have radii 42 cm and 77 cm. Find the area of the ring between them (pi = 22/7).",
+     "a": "13090",
+     "self_check": false
+    },
+    {
+     "q": "Find the length of an arc that subtends 120 degrees at the centre of a circle of radius 63 cm (pi = 22/7).",
+     "a": "132",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a sector with central angle 120 degrees in a circle of radius 7 cm (pi = 22/7).",
+     "a": "51.3333",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.11.4",
+   "title": "Standard Equation of a Parabola",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (23 - 8) / 3 gives 5",
+     "compute": "x = (23 - 8) / 3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Solve for x: 3x + 8 = 23.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6x - 15 = 27.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 3x - 17 = 7.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4x - 26 = 6.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6x + 7 = 2x + 11.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4(x + 5) = 28.",
+     "a": "2",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.11.5",
+   "title": "Properties of a Parabola",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the distance between the points (-3, 6) and (9, 22).",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance of the point (-8, 7) from the origin.",
+     "a": "10.63",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the midpoint of the segment joining (-2, -4) and (-1, 4).",
+     "a": "-1.5",
+     "self_check": false
+    },
+    {
+     "q": "Point P divides the segment joining (0, 0) and (5, 0) internally in the ratio 4 : 1. Find the x-coordinate of P.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of the triangle with vertices (2, -4), (0, 6) and (3, 0) (two decimal places).",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the centroid of the triangle with vertices (-1, -5), (1, -3) and (-5, 4).",
+     "a": "-1.66667",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.11.6",
+   "title": "Standard Equation of an Ellipse",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (81 - 11) / 7 gives 10",
+     "compute": "x = (81 - 11) / 7"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Solve for x: 7x + 11 = 81.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 5x - 11 = 4.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 8x - 18 = 6.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 7x - 16 = 5.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 4x + 7 = 1x + 28.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6(x + 3) = 54.",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.11.7",
+   "title": "Properties of an Ellipse",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the distance between the points (-7, -2) and (-1, 6).",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance of the point (-9, 1) from the origin.",
+     "a": "9.06",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the midpoint of the segment joining (3, -8) and (-5, 5).",
+     "a": "-1",
+     "self_check": false
+    },
+    {
+     "q": "Point P divides the segment joining (0, 0) and (4, 0) internally in the ratio 3 : 1. Find the x-coordinate of P.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of the triangle with vertices (5, -3), (4, 1) and (6, 0) (two decimal places).",
+     "a": "3.5",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the centroid of the triangle with vertices (5, -2), (-1, 4) and (1, 1).",
+     "a": "1.66667",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.11.8",
+   "title": "Standard Equation of a Hyperbola",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (26 - 8) / 6 gives 3",
+     "compute": "x = (26 - 8) / 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Solve for x: 6x + 8 = 26.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6x - 6 = 42.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 3x - 8 = 7.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 7x - 37 = 5.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 3x + 4 = 2x + 6.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Solve for x: 6(x + 4) = 60.",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.11.9",
+   "title": "Properties of a Hyperbola",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the coordinate-geometry formula",
+     "explain": "apply the coordinate-geometry formula: dx = 10 - 4 gives 6",
+     "compute": "dx = 10 - 4"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the coordinate-geometry formula: dy = 10 - 2 gives 8",
+     "compute": "dy = 10 - 2"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 10",
+     "compute": "dist = sqrt(dx * dx + dy * dy)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the distance between the points (4, 2) and (10, 10).",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance of the point (-1, 0) from the origin.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the midpoint of the segment joining (-2, -7) and (7, -3).",
+     "a": "2.5",
+     "self_check": false
+    },
+    {
+     "q": "Point P divides the segment joining (0, 0) and (6, 0) internally in the ratio 4 : 2. Find the x-coordinate of P.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of the triangle with vertices (-1, 0), (3, 3) and (3, 0) (two decimal places).",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the centroid of the triangle with vertices (0, 2), (0, 0) and (-2, -5).",
+     "a": "-0.666667",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

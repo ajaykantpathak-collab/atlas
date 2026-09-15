@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_14_001",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_14_001",
+   "title": "c10_math_cbse_14_001",
+   "questions": [
+    {
+     "q": "State the classical definition of probability.",
+     "a": "If an experiment has n equally likely outcomes and m of them are favourable to event E, then P(E) = m/n, where 0 ≤ P(E) ≤ 1. A wrong answer (e.g., omitting \"equally likely\") shows the student does not understand the critical condition for the classical definition.",
+     "self_check": true
+    },
+    {
+     "q": "What is the probability of drawing a king from a well-shuffled deck of 52 cards?",
+     "a": "Total outcomes n = 52. Favourable outcomes (kings) m = 4. P(King) = 4/52 = 1/13. A wrong answer (e.g., 4/13 or 1/52) shows the student miscounted either the favourable or total outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "A bag contains 5 red and 3 blue balls. What is the probability of drawing a red ball?",
+     "a": "Total balls n = 5 + 3 = 8. Favourable (red) m = 5. P(Red) = 5/8. A wrong answer (e.g., 5/3 or 3/8) shows the student confused favourable with total or used the wrong count.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the classical definition require \"equally likely\" outcomes?",
+     "a": "If outcomes are not equally likely, the ratio m/n does not give the correct probability. For example, a biased coin that lands Heads 70% of the time has P(Heads) = 0.7, not 1/2. The classical formula assumes each outcome has the same probability (1/n), which is only true for fair, symmetric experiments. A wrong answer (e.g., \"it doesn't matter\") shows the student does not understand the limitation of the classical definition.",
+     "self_check": true
+    },
+    {
+     "q": "What is the range of possible values for P(E)?",
+     "a": "0 ≤ P(E) ≤ 1. P(E) = 0 means the event is impossible, P(E) = 1 means the event is certain. A wrong answer (e.g., 0 to 100 or −1 to 1) shows the student does not know the bounds of probability.",
+     "self_check": true
+    },
+    {
+     "q": "A die is rolled. What is the probability of getting a number less than 7?",
+     "a": "All outcomes {1, 2, 3, 4, 5, 6} are less than 7, so m = 6, n = 6. P(number < 7) = 6/6 = 1 (certain event). A wrong answer (e.g., 5/6) shows the student did not count all favourable outcomes correctly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

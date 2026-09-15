@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_06_008",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_06_008",
+   "title": "c11_ip_cbse_06_008",
+   "questions": [
+    {
+     "q": "What is the exact file access mode string used to open a text file for appending data without overwriting existing content, and where is the file pointer positioned immediately after opening?",
+     "a": "The mode string is 'a' (append mode). The file pointer is positioned at the end of the file (EOF), so any write operation adds data after existing content. A wrong answer like 'w' reveals confusion between write mode (truncates file) and append mode (preserves file). Answering 'r+' shows misunderstanding that read-write mode starts at beginning, not end.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why using `open('log.txt', 'w')` inside a loop that runs daily would cause data loss, while `open('log.txt', 'a')` would not. Use the concept of file pointer position and file truncation in your explanation.",
+     "a": "Mode 'w' truncates the file to zero length immediately upon opening, destroying all prior content before any write occurs. The pointer starts at position 0 (beginning of now-empty file). Mode 'a' does not truncate; it opens the file and positions the pointer at the current EOF, so writes extend the file. A student who says \"both write to file\" misses the critical truncation behavior difference.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python code snippet that appends three new student records (name, class, marks) to an existing file `students.txt`, where each record is on a new line in CSV format. Use the `with` statement and `writelines()` method. Assume the file already contains a header line.",
+     "a": "```python\nrecords = [\n    \"Aarav,11,85\\n\",\n    \"Diya,11,92\\n\",\n    \"Karan,12,78\\n\"\n]\nwith open('students.txt', 'a') as f:\n    f.writelines(records)\n```\nSteps: 1) Prepare list of strings with newline terminators. 2) Open in 'a' mode using with. 3) Call writelines() which writes each string sequentially. Wrong answers: forgetting `\\n` causes concatenated lines; using 'w' mode erases header; using `write()` with list raises TypeError.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the behavior of file pointer position after opening a file in modes 'a', 'r+', and 'w+'. Create a table showing: mode, truncates file (Y/N), initial pointer position, can read (Y/N), can write (Y/N).",
+     "a": "| Mode | Truncates | Initial Pointer | Can Read | Can Write |\n|------|-----------|-----------------|----------|-----------|\n| 'a'  | No        | End of file     | No       | Yes       |\n| 'r+' | No        | Start (0)       | Yes      | Yes       |\n| 'w+' | Yes       | Start (0)       | Yes      | Yes       |\nA student who places 'a' pointer at start confuses it with 'r+'. Saying 'a' allows reading reveals not knowing 'a' is write-only (use 'a+' for read-append).",
+     "self_check": true
+    },
+    {
+     "q": "A student wrote this code to append a timestamp to `log.txt` every minute. Critique it and identify two serious flaws:\n```python\nimport time\nwhile True:\n    f = open('log.txt', 'a')\n    f.write(time.ctime() + '\\n')\n    time.sleep(60)\n```",
+     "a": "Flaw 1: File never closed - `close()` missing, risking data loss in buffer if program crashes. Flaw 2: No exception handling - if disk full or permission denied, program crashes ungracefully. Better: use `with open('log.txt', 'a') as f:` inside loop, which auto-closes each iteration. A student missing the resource leak shows poor understanding of file handle management.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario where append mode is essential and write a complete Python program that implements it. The program must: (1) check if file exists, (2) if not, create with header, (3) append timestamped entries in a loop, (4) handle KeyboardInterrupt to exit cleanly. Explain why each part is necessary.",
+     "a": "Scenario: IoT temperature sensor logging to `temp_log.csv`. Program:\n```python\nimport os, time, datetime\nfname = 'temp_log.csv'\nif not os.path.exists(fname):\n    with open(fname, 'w') as f:\n        f.write('Timestamp,Temperature\\n')\ntry:\n    while True:\n        temp = 25.0  # simulated sensor reading\n        ts = datetime.datetime.now().isoformat()\n        with open(fname, 'a') as f:\n            f.write(f'{ts},{temp}\\n')\n        time.sleep(10)\nexcept KeyboardInterrupt:\n    print('\\nLogging stopped.')\n```\nParts: 1) Existence check avoids overwriting header. 2) 'w' only for initial header creation. 3) 'a' in loop preserves all readings. 4) with ensures flush/close each write. 5) KeyboardInterrupt handler prevents traceback. Poor answer omits existence check or uses 'w' in loop.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

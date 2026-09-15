@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_12_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_12_012",
+   "title": "c12_hin_a_cbse_12_012",
+   "questions": [
+    {
+     "q": "**Question:** Define the difference between a literal comprehension question and an inferential comprehension question in your own words. Give one example of each type based on the story \"लाफ़नक\".",
+     "a": "**Correct Answer:** A literal question asks for information directly stated in the text (e.g., \"गजाधर ने लाफ़नक को क्या दिया?\" — answer: \"जनेऊ और पैसे\", explicitly mentioned). An inferential question asks for meaning derived from clues (e.g., \"लाफ़नक ने गजाधर का जनेऊ क्यों स्वीकार किया?\" — answer requires inferring her emotional state from her actions: \"क्योंकि वह गजाधर को अपना बेटा मानने लगी थी, जिसका प्रमाण उसके द्वारा 'बेटा' संबोधन और रोना है\").  \n**What a wrong answer reveals:** If the student gives two literal questions or two inferential questions, they cannot distinguish the cognitive demand. If the inferential example is answered with a direct quote, they treat inference as retrieval. If the literal example requires reasoning, they overcomplicate explicit facts.",
+     "self_check": true
+    },
+    {
+     "q": "**Question:** Read this question: \"गजाधर ने लाफ़नक की बात क्यों नहीं मानी और गाँव छोड़कर चला गया?\" Is this literal or inferential? Explain *why* by referring to the text structure — what would a literal version of this question look like?",
+     "a": "**Correct Answer:** This is an **inferential** question. The text describes Gajadhar's actions (leaving, not listening) but never explicitly states his *reason* (e.g., \"क्योंकि वह बूढ़ी माँ का भार नहीं उठाना चाहता था\" or \"क्योंकि उसे शहर में नौकरी मिल गई थी\"). A literal version would be: \"गजाधर ने गाँव छोड़ने से पहले क्या किया?\" (answer: \"लाफ़नक को जनेऊ और पैसे दिए\", directly stated).  \n**What a wrong answer reveals:** If the student says \"literal because the text says he left\", they confuse *action* with *motive*. If they say \"inferential because it's hard\", they use difficulty as criterion instead of explicitness. The key is: does the text contain a sentence answering \"why?\" directly? If no → inferential.",
+     "self_check": true
+    },
+    {
+     "q": "**Question:** Below is a short extract from the story (paraphrased). Answer the literal and inferential question that follow.  \n*Extract:* \"बूढ़ी माँ ने गजाधर को देखा। उसकी आँखों में आँसू थे। उसने कहा, 'बेटा, तू जा। मैं यहीं रहूँगी।' गजाधर ने सिर झुका लिया और बाहर निकल गया।\"  \n**Literal:** बूढ़ी माँ ने गजाधर से क्या कहा?  \n**Inferential:** गजाधर ने सिर क्यों झुका लिया?",
+     "a": "**Correct Answer:**  \n**Literal:** बूढ़ी माँ ने कहा, \"बेटा, तू जा। मैं यहीं रहूँगी।\" (Direct quote/paraphrase from the extract).  \n**Inferential:** गजाधर ने सिर झुका लिया क्योंकि उसे अपनी माँ को अकेला छोड़ने का अपराधबोध (guilt) था और वह उसके आँसू देखकर भावुक हो गया था। **Evidence 1:** \"उसकी आँखों में आँसू थे\" (mother's pain). **Evidence 2:** \"बेटा, तू जा\" (mother's self-sacrifice). **Reasoning:** Head-bowing in Indian cultural context signals shame/guilt/respect; combined with the mother's tears and dismissal, it shows internal conflict.  \n**What a wrong answer reveals:** Literal answer adding \"क्योंकि वह दुखी थी\" → confusion of literal/inferential. Inferential answer \"क्योंकि वह थक गया था\" → invention without textual evidence (no mention of fatigue). Inferential answer with only one evidence → insufficient grounding.",
+     "self_check": true
+    },
+    {
+     "q": "**Question:** Two students answer the inferential question: \"लाफ़नक ने गजाधर को 'बेटा' क्यों कहा?\"  \n**Student A:** \"क्योंकि लाफ़नक गजाधर को अपना बेटा मानती थी।\"  \n**Student B:** \"क्योंकि लाफ़नक गजाधर को अपना बेटा मानती थी, इसका प्रमाण यह है कि वह उसे 'बेटा' कहकर पुकारती है, उसके लिए भोजन बनाती है, और अंत में उसे जनेऊ पहनाकर विदा करती है — ये सब मातृवत व्यवहार के चिह्न हैं।\"  \nAnalyze which answer demonstrates better inferential reasoning and why.",
+     "a": "**Correct Answer:** Student B's answer is superior. Student A states the inference as a bare claim (circular: \"she called him beta because she considered him beta\"). Student B provides **multiple textual evidences** (address, cooking, sacred thread ceremony) and **explains the cultural significance** (मातृवत व्यवहार) linking evidence to claim. This meets the board requirement: \"दावा + प्रमाण + व्याख्या\".  \n**What a wrong answer reveals:** If the student picks A, they think inference = stating the obvious. If they say both are same, they don't understand the evidentiary standard. If they criticize B for being \"too long\", they confuse conciseness with completeness (board marking scheme awards marks for each evidence+explanation step).",
+     "self_check": true
+    },
+    {
+     "q": "**Question:** A student writes this inferential answer: \"गजाधर बूढ़ी माँ से प्यार नहीं करता था, तभी तो वह उसे छोड़कर चला गया।\" Evaluate this answer. Is it a valid inference? Why or why not? Use the concept of \"textual support\" and \"alternative explanations\".",
+     "a": "**Correct Answer:** **Invalid inference.** The text provides **contradictory evidence**: Gajadhar gives her जनेऊ (sacred thread) and पैसे (money), bows his head (guilt/respect), and the narrator describes his \"दुख\" (sorrow). An alternative explanation supported by text: he left due to *compulsion* (आजीविका, सामाजिक दबाव) not lack of love. A valid inference must account for *all* relevant evidence, not cherry-pick. The student's answer ignores positive actions and imposes an external judgment.  \n**What a wrong answer reveals:** If the student says \"valid because he left\", they equate action with motive without considering context. If they say \"invalid because we don't know\", they confuse \"not explicitly stated\" with \"no textual basis\" — inferential questions *require* going beyond explicit text, but *with* evidence.",
+     "self_check": true
+    },
+    {
+     "q": "**Question:** Write **one literal** and **one inferential** question based on this new paragraph (not from the textbook):  \n\"रमेश ने खिड़की से बाहर देखा। बारिश तेज़ हो रही थी। उसने अपना बैग उठाया, माँ के पैर छुए, और बिना कुछ कहे घर से निकल गया। माँ दरवाज़े पर खड़ी उसकी पीठ देखती रही।\"",
+     "a": "**Expected Answer:**  \n**Literal:** \"रमेश ने घर से निकलने से पहले क्या किया?\" (Answer: माँ के पैर छुए / बैग उठाया / खिड़की से बाहर देखा — any explicitly stated action).  \n**Inferential:** \"रमेश ने माँ से कुछ क्यों नहीं कहा?\" or \"माँ दरवाज़े पर खड़ी क्यों रही?\" (Answer must cite evidence: e.g., \"रमेश ने कुछ नहीं कहा क्योंकि वह भावुक था / जल्दी में था / माँ को दुखी नहीं करना चाहता था — प्रमाण: पैर छूना (सम्मान), बिना बोले निकल जाना (भावनात्मक दबाव)। माँ खड़ी रही क्योंकि वह बेटे की सुरक्षा चाहती थी / वापसी की आशा — प्रमाण: पीठ देखती रही (प्रतीक्षा/चिंता)।\")  \n**Criteria for good answer:** Literal question has a single, directly verifiable answer. Inferential question has no direct answer in text, requires claim + at least two evidences + reasoning. Poor literal question: \"रमेश कैसा लड़का है?\" (not literal). Poor inferential question: \"बारिश क्यों हो रही थी?\" (external fact, not textual inference).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "english",
+  "chapter": 120,
+  "chapter_title": "Felling of the Banyan Tree",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keww120.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keww120.1.1",
+      "title": "The Father's Order and the Felling",
+      "section": "1",
+      "definition": "Dilip Chitre's autobiographical poem begins with an order: the father tells the tenants to leave the houses around their hillside home, and the trees are cut one by one. The great banyan, oldest and largest, three times taller than a man, with aerial roots and thirty-foot trunk, is finally butchered with saws and axes.",
+      "formula": "",
+      "key_idea": "Progress with an axe -- a father's order erases a landscape and a hundred years of shade.",
+      "textbook_ref": "keww120.txt opening sections (father told tenants to leave, houses demolished, banyan tree oldest and largest, aerial roots, saws and axes)",
+      "question_patterns": [
+        "why were the tenants and trees removed in felling of the banyan tree",
+        "in class 11 felling of the banyan tree: describe the banyan tree as the poet presents it",
+        "how was the banyan tree finally cut down",
+        "who ordered the felling of the trees and why",
+        "what did the poet observe about the tree's size and age",
+        "how do the workmen treat the great tree in the poem"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "record the order",
+          "explain": "The father's modernising decision clears tenants, houses and then the trees around the hill house."
+        },
+        {
+          "step": 2,
+          "action": "sketch the victim",
+          "explain": "The banyan -- grandest of all, with hanging roots and massive trunk -- embodies rootedness in age and size."
+        },
+        {
+          "step": 3,
+          "action": "watch the butchery",
+          "explain": "Saws work through the trunk in segments; the felling is described with clinical, shocking detail."
+        }
+      ]
+    },
+    {
+      "id": "keww120.1.2",
+      "title": "Massacre Reported as News: The Son's Alienated Gaze",
+      "section": "1",
+      "definition": "The boy watches the felling from a safe distance, and the poem calls it a massacre -- yet he admits he took no part and felt no personal connection to the tree. This split voice -- sorrow and detachment together -- makes the son a witness rather than a mourner, reporting his father's world as alien.",
+      "formula": "",
+      "key_idea": "A massacre watched from the window -- the son grieves a tree he never knew, and feels the estrangement more.",
+      "textbook_ref": "keww120.txt middle sections (watching from a distance, massacre imagery, the poet took no part, no personal attachment admitted, father as figure of modernity)",
+      "question_patterns": [
+        "why does the poet call the felling a massacre",
+        "in class 11 felling of the banyan tree: how does the son distance himself from the felling",
+        "what is the attitude of the father towards nature in the poem",
+        "does the son feel connected to the banyan tree discuss",
+        "how does the poem present the conflict between generations",
+        "compare the father's and the son's response to the felled tree"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "note the imagery",
+          "explain": "Words like massacre frame tree-felling as killing -- the boy's private verdict on his father's project."
+        },
+        {
+          "step": 2,
+          "action": "note the confession",
+          "explain": "He owns that he had no real bond with the tree, watching the destruction like news from elsewhere."
+        },
+        {
+          "step": 3,
+          "action": "read the estrangement",
+          "explain": "The deeper theme is displacement: modernity has alienated the son from both root and rite."
+        }
+      ]
+    },
+    {
+      "id": "keww120.1.3",
+      "title": "Farewell to the Banyan: Exile and Rootedness",
+      "section": "1",
+      "definition": "The poem closes with a farewell: soon afterwards the family moves to Bombay, where no trees could grow. The banyan becomes the poet's last memory of rooted country life -- a shrine remembered in dreams -- so that the felled tree turns into an emblem of uprooting, of a childhood and a landscape lost to change.",
+      "formula": "",
+      "key_idea": "The tree felled, the family exiled -- memory of the banyan becomes the poet's only rooted ground.",
+      "textbook_ref": "keww120.txt closing sections (move to bombay, no trees in the city, farewell to the tree, memory and dreams of the banyan, theme of uprooting)",
+      "question_patterns": [
+        "where does the family move after the felling and why is it significant",
+        "in class 11 felling of the banyan tree: how does the poem end and what feeling does it leave",
+        "why does the banyan tree become a memory in dreams",
+        "explain the theme of uprooting in the poem",
+        "what does the tree symbolise for the displaced family",
+        "is the poem only about a tree discuss its larger meaning"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "follow the family",
+          "explain": "They shift to Bombay where apartments leave no room for banyans -- exile completed."
+        },
+        {
+          "step": 2,
+          "action": "find the emblem",
+          "explain": "In memory the banyan grows back: root, trunk and shade become shorthand for all that was left behind."
+        },
+        {
+          "step": 3,
+          "action": "state the theme",
+          "explain": "Chitre's poem mourns ecological loss and human uprooting in the same breath -- each felling a small exile."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keww120.txt middle sections",
+      "concept": "keww120.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Why does the poet choose the word 'massacre' instead of a neutral word like 'cutting'?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "note the word's weight",
+          "explain": "Massacre implies the killing of beings, not the trimming of plants."
+        },
+        {
+          "step": 2,
+          "action": "read the boy's view",
+          "explain": "To the watching child the axe-work on a century-old giant feels exactly like slaughter."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "The word carries the poem's judgment on progress that kills what it cannot value."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keww120.txt closing sections",
+      "concept": "keww120.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "How does the move to Bombay complete the meaning of the felling in the poem?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "connect the events",
+          "explain": "The tree is felled to build; the family then moves to a city of buildings where trees cannot grow."
+        },
+        {
+          "step": 2,
+          "action": "note the double loss",
+          "explain": "What is lost is both a landscape and a way of being rooted in one."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "The banyan's felling foreshadows the family's own uprooting -- poem and life share one theme."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keww120.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Describe the banyan tree as it is presented in the poem.",
+        "Why does the poet call the felling a massacre?",
+        "How does the poem present the father's attitude to nature?",
+        "What is the significance of the family's move to Bombay?",
+        "Discuss the theme of uprooting and displacement in the poem.",
+        "Comment on the tone of the poem and how it is achieved."
+      ]
+    }
+  ]
+}

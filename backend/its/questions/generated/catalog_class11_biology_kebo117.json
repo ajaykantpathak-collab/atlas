@@ -1,0 +1,89 @@
+{
+ "catalog": "catalog_class11_biology_kebo117",
+ "concepts": [
+  {
+   "id": "kebo.117.1.1",
+   "title": "Types of Movement and Muscle Types",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Types of Movement and Muscle Types' refers to.",
+     "a": "Movements in the body include amoeboid, ciliary and muscular types; muscles are of three types, skeletal or striated voluntary muscles attached to bones, smooth or non-striated involuntary muscles of visceral organs, and cardiac muscles of the heart that are striated, involuntary and interconnected by intercalated discs.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Types of Movement and Muscle Types'.",
+     "a": "A skeletal muscle fibre is a syncytium with sarcolemma, sarcoplasm, many nuclei and myofibrils, whose sarcomere between two Z lines is the functional contractile unit.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Types of Movement and Muscle Types' taught, and from which source text?",
+     "a": "17.1 Types of Movement, 17.2 Muscle (source: kebo117.txt sections 17.1, 17.2)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.117.2.1",
+   "title": "Sliding Filament Theory of Muscle Contraction",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Sliding Filament Theory of Muscle Contraction' refers to.",
+     "a": "Muscle contraction follows the sliding filament theory: a signal from the central nervous system releases calcium ions from the sarcoplasmic reticulum, calcium binds troponin, myosin heads bind actin forming cross bridges, and actin filaments slide over myosin pulling Z lines closer, shortening the sarcomere while the filaments themselves stay the same length.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sliding Filament Theory of Muscle Contraction'.",
+     "a": "ATP hydrolysis powers cross bridge cycling, and relaxation follows when calcium is pumped back and troponin tropomyosin complex masks the actin binding sites again.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Sliding Filament Theory of Muscle Contraction' taught, and from which source text?",
+     "a": "17.2.1 Structure of Contractile Proteins, 17.3 Skeletal System (source: kebo117.txt section 17.2)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.117.3.1",
+   "title": "Skeletal System: Axial and Appendicular Skeleton with Joints",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Skeletal System: Axial and Appendicular Skeleton with Joints' refers to.",
+     "a": "The human skeleton of 206 bones divides into an axial skeleton of skull, vertebral column, ribs and sternum with a total of 80 bones, and an appendicular skeleton of limbs and girdles with 126 bones, and joints are classified as fibrous, cartilaginous and synovial, with ball and socket, hinge, pivot, gliding and saddle types.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Skeletal System: Axial and Appendicular Skeleton with Joints'.",
+     "a": "Synovial joints with synovial fluid allow free movement, as in the ball and socket joint of the shoulder and the hinge joint of the knee, while skull sutures are fixed fibrous joints.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Skeletal System: Axial and Appendicular Skeleton with Joints' taught, and from which source text?",
+     "a": "17.3 Skeletal System, 17.4 Joints (source: kebo117.txt sections 17.3, 17.4)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.117.4.1",
+   "title": "Disorders of Muscular and Skeletal Systems",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Disorders of Muscular and Skeletal Systems' refers to.",
+     "a": "Common disorders include myasthenia gravis where antibodies destroy the neuromuscular junction causing fatigue, muscular dystrophy as a genetic degeneration of muscles, tetany from low calcium causing rapid spasms, arthritis as joint inflammation, gout from uric acid crystal deposition, and osteoporosis with decreased bone mass in old age.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Disorders of Muscular and Skeletal Systems'.",
+     "a": "Each disorder maps to a component of the locomotor system: junction failure in myasthenia gravis, gene defect in muscular dystrophy, low blood calcium in tetany and uric acid crystals in gout.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Disorders of Muscular and Skeletal Systems' taught, and from which source text?",
+     "a": "17.5 Disorders of Muscular and Skeletal Systems (source: kebo117.txt section 17.5)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

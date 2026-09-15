@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_16_008",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_16_008",
+   "title": "c11_geo_cbse_16_008",
+   "questions": [
+    {
+     "q": "According to the 2011 Census, which religious community constitutes the largest percentage of India's population, and what is its approximate share?",
+     "a": "Hindus constitute the largest religious community at 79.8% of India's population (2011 Census). A wrong answer (e.g., Muslims at 14.2% or Christians at 2.3%) reveals confusion between the largest community and significant minorities, or reliance on outdated data.",
+     "self_check": true
+    },
+    {
+     "q": "Why do the Indo-Aryan languages dominate the northern plains while Dravidian languages are concentrated in the peninsular plateau?",
+     "a": "The Indo-Aryan languages spread with agricultural expansion and migration from the northwest into the fertile Gangetic plains, while Dravidian languages have deeper roots in the peninsular region, possibly linked to the Indus Valley Civilization and later southward movements. A wrong answer attributing it solely to modern state boundaries or British policy shows a lack of understanding of historical linguistics and geography.",
+     "self_check": true
+    },
+    {
+     "q": "Using the 2011 Census data, calculate the approximate number of Muslims in India if the total population was 1.21 billion. Show your working.",
+     "a": "Step 1: Total population = 1.21 billion (1,210,000,000). Step 2: Muslim percentage = 14.2%. Step 3: Calculation = 1,210,000,000 × 0.142 = 171,820,000 (approx 172 million). A wrong answer may use incorrect percentage (e.g., 13.4% from 2001) or misplace decimal, indicating weak numerical application to demographic data.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the linguistic diversity of the Northeastern states with that of the Hindi belt. What geographical and historical factors explain the difference?",
+     "a": "The Northeast has high linguistic diversity (many Tibeto-Burman and Austroasiatic languages) due to rugged terrain isolating communities, while the Hindi belt (Indo-Gangetic plain) has lower diversity with widely spoken Indo-Aryan languages due to flat terrain facilitating movement and cultural homogenization. A wrong answer focusing only on state size or recent migration misses the role of physical geography in language preservation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's linguistic states reorganization has strengthened national unity by reducing linguistic conflicts.\" Provide two arguments for and two against.",
+     "a": "For: (1) It gave administrative recognition to major language groups, reducing secessionist demands (e.g., Tamil Nadu, Andhra). (2) It allowed education and governance in mother tongue, promoting participation. Against: (1) It created linguistic minorities within states (e.g., Marathi speakers in Karnataka border areas), leading to new tensions. (2) It reinforced language as a primary identity marker, sometimes overshadowing national identity. A poor evaluation ignores the nuance of minority rights within states or the continued demand for new states (e.g., Telangana, Gorkhaland).",
+     "self_check": true
+    },
+    {
+     "q": "Design a choropleth map scheme to show the district-level distribution of Scheduled Tribe populations who speak Austroasiatic languages (e.g., Santali, Mundari). Specify the data classes, color ramp, and two inset maps you would include for context.",
+     "a": "A good answer: Data classes based on percentage of Austroasiatic speakers in district population (0-5%, 5-15%, 15-30%, 30-50%, >50%). Color ramp: light yellow to dark brown. Inset maps: (1) Physical map showing Chotanagpur plateau and forested corridors; (2) Historical map of tribal kingdoms. A poor answer uses arbitrary classes, ignores the geographic concentration in Jharkhand-Odisha-West Bengal belt, or omits context insets.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_09_007",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_09_007",
+   "title": "c11_chem_cbse_09_007",
+   "questions": [
+    {
+     "q": "State the hybridisation of oxygen in H₂O, the H–O–H bond angle, and the number of lone pairs on oxygen. How many hydrogen bonds can one water molecule form in ice?",
+     "a": "Oxygen is sp³ hybridised, bond angle = 104.5°, two lone pairs. In ice each H₂O forms four hydrogen bonds (two as donor via H atoms, two as acceptor via lone pairs). A wrong angle (e.g., 180°) reveals confusion with CO₂ geometry; stating three H-bonds shows misunderstanding of donor/acceptor roles.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why water has a higher boiling point than H₂S (b.p. –60°C) despite sulfur being larger and more polarisable. Use the concept of hydrogen bonding in your answer.",
+     "a": "Water forms strong intermolecular H-bonds (O–H⋯O, ~20 kJ mol⁻¹) because oxygen is small and highly electronegative; H₂S cannot form effective H-bonds (S less electronegative, larger size → poor orbital overlap). Students attributing the difference to molar mass or London forces alone miss the specific role of H-bonding.",
+     "self_check": true
+    },
+    {
+     "q": "At 310 K, Kw = 2.92 × 10⁻¹⁴. Calculate the pH of neutral water at this temperature. Is the water acidic, basic, or neutral? Show all steps.",
+     "a": "Neutral ⇒ [H⁺] = [OH⁻] = √Kw = √(2.92 × 10⁻¹⁴) = 1.71 × 10⁻⁷ M. pH = –log(1.71 × 10⁻⁷) = 6.77. Water is still neutral ([H⁺] = [OH⁻]) but pH < 7. A student answering pH = 7 ignores temperature dependence of Kw; answering \"acidic\" confuses pH value with neutrality condition.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the density anomaly of water (maximum density at 4°C) with the behaviour of a typical liquid like ethanol. Relate this to the hydrogen-bonded structure of ice and liquid water.",
+     "a": "Typical liquids contract monotonically on cooling. Water contracts down to 4°C (collapsing open ice-like clusters) then expands (forming more ordered H-bonded networks). Ethanol lacks a density maximum because its –OH group cannot sustain a 3D tetrahedral network. Wrong answers citing \"hydrogen bonding makes water heavier\" confuse mass with volume changes.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Water reacts with Na to give NaOH and H₂, so water is an acid. Water reacts with Cl₂ to give HCl and HOCl, so water is a base. Therefore water is amphoteric.\" Evaluate this reasoning and correct any flawed step.",
+     "a": "First reaction: 2Na + 2H₂O → 2NaOH + H₂ – water acts as acid (proton donor to Na). Second: Cl₂ + H₂O ⇌ HCl + HOCl – water acts as base (donates lone pair to Cl₂, undergoes disproportionation). Reasoning is correct but the Cl₂ reaction mechanism is electrophilic addition, not simple proton acceptance. Students calling both \"acid-base\" without identifying redox in Cl₂ reaction miss the oxidation state change (Cl⁰ → Cl⁻ and Cl⁺).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple school-lab experiment to demonstrate that water has a higher specific heat capacity than common organic liquids (e.g., ethanol, kerosene). List materials, procedure, measurements, and the calculation needed.",
+     "a": "Materials: two identical calorimeters, thermometers, 100 g water, 100 g ethanol, 100 W immersion heater, stopwatch. Procedure: heat each liquid for 2 min, record ΔT. Calculation: c = (P × t) / (m × ΔT). Water shows smaller ΔT → larger c. Poor designs omit insulation, use unequal masses, or forget to account for calorimeter heat capacity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

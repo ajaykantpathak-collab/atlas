@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_05_004",
+   "title": "c12_chem_cbse_05_004",
+   "questions": [
+    {
+     "q": "[REMEMBER] Write the IUPAC names of the two geometrical isomers of [Pt(NH₃)₂Cl₂] and state which one is used as an anticancer drug.",
+     "a": "cis-diamminedichloridoplatinum(II) and trans-diamminedichloridoplatinum(II). The cis isomer (cisplatin) is the anticancer drug. A wrong answer (e.g., naming both as \"diamminedichloridoplatinum(II)\" without cis/trans) reveals the student does not understand that geometrical isomers require spatial descriptors in their names and have different biological activities.",
+     "self_check": true
+    },
+    {
+     "q": "[UNDERSTAND] Explain why tetrahedral complexes of the type [MX₂L₂] do not show geometrical isomerism, but square planar complexes of the same formula do.",
+     "a": "In tetrahedral geometry, all four vertices are equivalent; any two ligands are adjacent (bond angle ~109.5°), so there is no distinct \"opposite\" position — only one arrangement exists. In square planar geometry, ligands can be adjacent (cis, 90°) or opposite (trans, 180°), giving two distinct spatial arrangements. A student who says \"tetrahedral has no cis/trans because bond angles are different\" without mentioning equivalence of vertices shows incomplete spatial reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "[APPLY] Draw all geometrical isomers of [Co(NH₃)₃(NO₂)₃] and label them as fac or mer. How many of these isomers are optically active?",
+     "a": "Two geometrical isomers: fac (three NH₃ on one face, three NO₂ on opposite face) and mer (three NH₃ around meridian, three NO₂ around meridian). Neither fac nor mer is optically active because both possess a plane of symmetry. A student who draws three isomers or claims fac is optically active has not visualized the symmetry elements correctly.",
+     "self_check": true
+    },
+    {
+     "q": "[ANALYZE] Compare the isomerism in [PtCl₂(en)₂]²⁺ and [PtCl₂(NH₃)₂]. How many isomers (geometrical + optical) exist for each? Explain the difference.",
+     "a": "[PtCl₂(NH₃)₂] (square planar): two geometrical isomers (cis, trans), neither chiral → total 2 isomers. [PtCl₂(en)₂]²⁺ (octahedral, en = ethylenediamine, didentate): two geometrical isomers (cis, trans). The trans isomer has a plane of symmetry → achiral. The cis isomer lacks plane/centre of symmetry → chiral → exists as d and l enantiomers. Total isomers = 3 (trans, cis-d, cis-l). The difference arises because en is a chelating didentate ligand that locks the geometry, making cis octahedral chiral, whereas NH₃ is unidentate and square planar cis has a plane of symmetry. A student who says both have 2 isomers misses the chelate-induced chirality in octahedral cis.",
+     "self_check": true
+    },
+    {
+     "q": "[EVALUATE] A student claims: \"[Cr(C₂O₄)₃]³⁻ shows geometrical isomerism because oxalate is a didentate ligand.\" Is this statement correct? Justify.",
+     "a": "Incorrect. [Cr(C₂O₄)₃]³⁻ has three identical didentate ligands in an octahedral geometry. It shows optical isomerism (Δ and Λ enantiomers) but no geometrical isomerism because all three oxalate ligands are equivalent — there is no possibility of cis/trans or fac/mer distinction when all three bidentate ligands are the same. The student confuses \"presence of didentate ligand\" with \"possibility of geometrical isomerism\"; geometrical isomerism requires at least two different types of ligands or ligand sets.",
+     "self_check": true
+    },
+    {
+     "q": "[CREATE] Design a coordination complex of cobalt(III) with coordination number 6 that exhibits exactly three stereoisomers (including optical isomers). Write its formula, draw all isomers, and label each as geometrical or optical.",
+     "a": "Example: [CoCl₂(en)₂]⁺. Isomers: (1) trans-[CoCl₂(en)₂]⁺ (geometrical, achiral), (2) cis-[CoCl₂(en)₂]⁺ (geometrical, chiral) which exists as (2a) Δ-cis (optical) and (2b) Λ-cis (optical). Total = 3 stereoisomers. A good answer must show the octahedral geometry with chelate rings, correctly identify chirality of cis due to lack of symmetry plane, and label trans as achiral. A poor answer might propose [Co(NH₃)₄Cl₂]⁺ (only 2 geometrical, no optical) or [Co(en)₃]³⁺ (only 2 optical, no geometrical), showing inability to combine both isomerism types.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "class": 11,
+ "subject": "geography",
+ "chapter": 205,
+ "chapter_title": "Geomorphic Processes",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kegy205.txt",
+ "concepts": [
+  {
+   "id": "kegy.205.1.1",
+   "title": "Endogenetic and Exogenetic Forces and Diastrophism",
+   "section": "",
+   "definition": "The earth's surface is shaped by endogenetic forces of diastrophism and volcanism acting from within, and exogenetic forces of weathering, mass wasting, erosion and deposition acting from outside, and the balance of the two keeps the surface in perpetual change.",
+   "formula": "",
+   "key_idea": "Diastrophism includes folding, faulting and warping of the crust, while sudden endogenetic movements cause earthquakes and volcanoes.",
+   "textbook_ref": "kegy205.txt geomorphic forces sections",
+   "question_patterns": [
+    "differentiate endogenetic and exogenetic forces",
+    "what is diastrophism and its types",
+    "define volcanism with examples",
+    "how do sudden and gradual geomorphic movements differ",
+    "state the effects of folding and faulting",
+    "why is the earth's surface ever changing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.205.2.1",
+   "title": "Weathering, Mass Movements and Erosion-Deposition",
+   "section": "",
+   "definition": "Weathering is the in-situ breaking of rocks by chemical, physical and biological processes, mass movements transport weathered material downslope under gravity, and erosion by running water, wind, glaciers and waves removes and deposits material across the surface.",
+   "formula": "",
+   "key_idea": "Chemical weathering processes include solution, carbonation, hydration, oxidation and reduction, while physical weathering uses unloading, thermal expansion and freeze-thaw.",
+   "textbook_ref": "kegy205.txt weathering and mass movements sections",
+   "question_patterns": [
+    "define weathering and name its types",
+    "differentiate weathering erosion and mass movements",
+    "explain chemical weathering processes with examples",
+    "what causes landslides as mass movements",
+    "how does erosion differ from weathering",
+    "define denudation and its agents"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.205.3.1",
+   "title": "Evolution of Landforms and Significance for Humans",
+   "section": "Geomorphic processes",
+   "definition": "Landform evolution proceeds from youth to old age under each geomorphic agent, and the resulting plains, valleys and slopes decide soils, water supply, settlement and farming, so geomorphic knowledge guides land use and hazard avoidance.",
+   "formula": "",
+   "key_idea": "Slope stability, floodplain siting and groundwater recharge all depend on reading the geomorphic history of a landscape.",
+   "textbook_ref": "kegy205.txt evolution and significance discussion",
+   "question_patterns": [
+    "how do landforms evolve from youth to old age",
+    "why is knowledge of geomorphic processes useful for humans",
+    "relate landforms to land use and settlement patterns",
+    "how does weathering help in soil formation",
+    "state the hazards linked to unstable slopes",
+    "explain the role of rivers in shaping human geography"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kegy205.txt exercises",
+   "questions": [
+    "Multiple choice on geomorphic processes.",
+    "Define weathering and its types with examples.",
+    "Differentiate endogenetic and exogenetic forces.",
+    "What is mass wasting? State its types.",
+    "Explain the significance of weathering in geomorphology."
+   ]
+  }
+ ]
+}

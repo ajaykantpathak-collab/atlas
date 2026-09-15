@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_10_008",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_10_008",
+   "title": "c11_bio_cbse_10_008",
+   "questions": [
+    {
+     "q": "Define crossing over and state the exact stage of prophase I when it occurs, naming the enzyme responsible.",
+     "a": "Crossing over is the reciprocal exchange of genetic material between non-sister chromatids of homologous chromosomes, occurring during pachytene stage of prophase I, mediated by the enzyme recombinase. A wrong answer (e.g., \"occurs in metaphase I\" or \"involves sister chromatids\") reveals confusion between homologous vs. sister chromatid interactions and misplacement of the event in the meiotic timeline.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why independent assortment of chromosomes during metaphase I generates genetic variation, but independent assortment of sister chromatids in metaphase II does not.",
+     "a": "In metaphase I, homologous chromosomes (each carrying different alleles) orient randomly at the equator, so maternal and paternal chromosomes segregate independently into gametes, creating new allele combinations. In metaphase II, sister chromatids are identical copies (barring crossing over), so their separation does not produce new combinations. A wrong answer indicates failure to distinguish between segregation of homologous chromosomes vs. sister chromatids and their allelic content.",
+     "self_check": true
+    },
+    {
+     "q": "A diploid organism has 2n = 6 chromosomes. Calculate the number of genetically distinct gamete types possible from independent assortment alone, assuming no crossing over. Show your reasoning.",
+     "a": "Haploid number n = 3. Independent assortment yields 2ⁿ = 2³ = 8 distinct gamete combinations. Reasoning: each homologous pair segregates independently, giving 2 choices per pair; total combinations = product of choices = 2 × 2 × 2 = 8. A wrong answer (e.g., 6 or 4) reveals misunderstanding of the 2ⁿ formula or confusion between chromosome number and haploid number.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the genetic composition of the four daughter cells produced by meiosis in a heterozygous individual (Aa) for a single gene, with and without crossing over between the gene locus and the centromere.",
+     "a": "Without crossing over: two cells get A, two get a (parental types only). With crossing over between locus and centromere: recombinant chromatids form, so all four cells can be genetically distinct (A, a, and two recombinants if multiple crossovers). A wrong answer (e.g., \"always four different types\") shows failure to link crossover position relative to centromere and gene locus to the segregation pattern in meiosis II.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Meiosis reduces chromosome number by half, so it decreases genetic diversity in the population.\" Justify your answer with two specific mechanisms.",
+     "a": "The statement is false. Although meiosis halves chromosome number, it increases genetic diversity via (1) crossing over — creating recombinant chromosomes with new allele combinations, and (2) independent assortment — shuffling maternal/paternal chromosomes randomly into gametes. Fertilization then combines two such varied gametes. A wrong evaluation indicates conflation of chromosome number reduction with loss of genetic information, ignoring the combinatorial explosion of allelic arrangements.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a model organism (e.g., Drosophila or Neurospora) to demonstrate that crossing over produces recombinant phenotypes in offspring. Outline the cross, the marker genes needed, and the expected phenotypic ratios.",
+     "a": "Use Drosophila: cross a homozygous wild-type fly (vg⁺ vg⁺; b⁺ b⁺) with a double recessive (vg vg; b b) where vg = vestigial wings, b = black body. F1 heterozygotes (vg⁺ vg; b⁺ b) are test-crossed to double recessive. Parental phenotypes: wild-type and vestigial-black. Recombinant phenotypes: vestigial-normal body and wild-type-black. Recombination frequency = (recombinants/total) × 100%. A poor design (e.g., using unlinked genes or no test cross) reveals ignorance of linkage mapping principles and the need for a test cross to reveal gamete genotypes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

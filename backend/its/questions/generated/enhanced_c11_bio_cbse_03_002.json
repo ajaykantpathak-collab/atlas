@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_03_002",
+   "title": "c11_bio_cbse_03_002",
+   "questions": [
+    {
+     "q": "Define 'thalloid' plant body and explain why algae are described as having a thalloid organization rather than true roots, stems, and leaves.",
+     "a": "A thalloid plant body is an undifferentiated, flat or filamentous structure that is not organized into true roots, stems, and leaves. Algae lack vascular tissue (xylem/phloem) and show no division of labour into distinct organs; the entire thallus performs photosynthesis, absorption, and anchorage. A wrong answer (e.g., \"algae have roots called rhizoids\") reveals confusion between rhizoids (simple unicellular/multicellular filaments for attachment) and true roots (with vascular tissue and root cap), a Class 9-level error (c9_bio_ch2_4).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"All algae are aquatic because they need water for swimming sperm.\" Using the concepts of isogamy, anisogamy, and oogamy, evaluate this statement and identify which group of algae contradicts it.",
+     "a": "The statement is partially correct but overgeneralized. Water is required for flagellated male gametes (antherozoids) in bryophytes and pteridophytes, but in algae, sexual reproduction varies: isogamous (Ulothrix, Spirogyra) and anisogamous (Eudorina) forms have motile gametes needing water, while oogamous forms (Volvox, Fucus) have a non-motile egg and motile sperm — still requiring water for sperm motility. However, red algae (Rhodophyceae) completely lack flagellated stages; their male gametes (spermatia) are non-motile and carried by water currents. Thus, Rhodophyceae contradicts the \"swimming sperm\" necessity. A wrong answer indicates failure to distinguish between flagellated and non-flagellated male gametes across algal classes.",
+     "self_check": true
+    },
+    {
+     "q": "An unknown alga is collected from a marine habitat. It has chlorophyll a and c, stores mannitol and laminarin, has a cellulosic wall with algin coating, and produces biflagellate zoospores with unequal lateral flagella. Classify it into the correct class and justify each diagnostic feature.",
+     "a": "The alga belongs to Phaeophyceae (brown algae).\nStep 1: Habitat — marine (matches Phaeophyceae: primarily marine).\nStep 2: Pigments — chlorophyll a, c, and fucoxanthin (xanthophyll) giving brown colour (Table 3.1).\nStep 3: Stored food — mannitol and laminarin (complex carbohydrates), not starch (Table 3.1).\nStep 4: Cell wall — cellulose + algin (gelatinous coating), distinct from cellulose+pectose (Chlorophyceae) or cellulose+pectin+poly sulphate esters (Rhodophyceae).\nStep 5: Flagella — 2, unequal, lateral insertion (Table 3.1).\nA wrong classification (e.g., Chlorophyceae) reveals inability to use the multi-character diagnostic key in Table 3.1 and over-reliance on a single trait like \"marine habitat\".",
+     "self_check": true
+    },
+    {
+     "q": "Compare the evolutionary progression of sexual reproduction in algae from isogamy to oogamy. Explain how this progression relates to the division of labour between gametes and the protection of the zygote.",
+     "a": "Isogamy (Ulothrix, Spirogyra): morphologically identical, flagellated gametes; no division of labour; both gametes motile and vulnerable. Anisogamy (Eudorina): gametes differ in size but both flagellated; incipient division of labour (larger = more nutrients, smaller = more motile). Oogamy (Volvox, Fucus): large, non-motile, nutrient-rich female gamete (egg) retained in oogonium; small, motile male gamete (sperm) produced in large numbers. This shows clear division of labour: female gamete provides resources and protection (oogonium), male gamete ensures delivery. The zygote is thus protected and provisioned. A wrong answer (e.g., \"oogamy evolved for faster swimming\") misses the core concept of gamete specialization and zygote protection, confusing it with sperm competition.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher claims: \"Since red algae (Rhodophyceae) lack flagella entirely, they cannot be ancestors of land plants which have flagellated sperm in bryophytes and pteridophytes.\" Evaluate this argument using cytological and phylogenetic reasoning.",
+     "a": "The argument is flawed. Land plants evolved from charophyte green algae (Chlorophyceae), specifically the group Charophyta (e.g., Chara), which have flagellated sperm. Rhodophyceae are a separate lineage that lost flagella secondarily. Phylogenetic classification (NCERT: \"organisms belonging to the same taxa have a common ancestor\") places green algae and land plants in the clade Viridiplantae/Streptophyta based on shared traits: chlorophyll a & b, starch storage, cellulose cell wall, and flagellated sperm structure (when present). Rhodophyceae lack these synapomorphies. A wrong evaluation reveals misunderstanding of \"loss of trait\" vs \"primitive absence\" and confusion between convergent loss and shared ancestry.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory activity using only a compound microscope, iodine solution, and fresh algal samples (green pond scum, brown kelp fragment, red seaweed) to demonstrate the three major stored food types in algae. Include controls and expected observations.",
+     "a": "Activity: Place a drop of each algal suspension on separate slides. Add iodine solution (tests for starch). Observe under microscope.\n- Green alga (Chlorophyceae): blue-black colour in chloroplasts/pyrenoids → starch positive.\n- Brown alga (Phaeophyceae): no blue-black colour (mannitol/laminarin do not react with iodine) → negative control for starch.\n- Red alga (Rhodophyceae): reddish-brown colour (floridean starch, similar to amylopectin, gives weak/pinkish reaction) → distinguishable from true starch.\nControl: Pure starch solution + iodine = blue-black. Water + iodine = brown.\nA poor design (e.g., no control, using Benedict's test for reducing sugars instead) shows lack of biochemical reasoning about polysaccharide-iodine interactions and inability to link stored food to classification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

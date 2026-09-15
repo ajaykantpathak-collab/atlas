@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_01_005",
+   "title": "c11_eco_cbse_01_005",
+   "questions": [
+    {
+     "q": "Define \"commercialisation of agriculture\" in the context of British India and name the three main cash crops that exemplify this process.",
+     "a": "Commercialisation of agriculture in British India refers to the forced shift from food crop cultivation to cash crop production (primarily indigo, cotton, and jute) for export to British industries, driven by land revenue demands and colonial trade policies, without corresponding improvement in agricultural productivity or farmer welfare. A wrong answer that describes it as \"farmers selling crops in markets\" misses the coercive, export-oriented, and welfare-reducing nature specific to the colonial context.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the cultivation of indigo under the \"tinkathia\" system in Bihar and Bengal represents forced commercialisation rather than voluntary market participation by peasants.",
+     "a": "Under tinkathia, peasants were legally bound to cultivate indigo on 3/20th of their land for British planters at prices fixed unilaterally by planters, with advances (dadon) creating debt bondage; refusal led to coercion, violence, or land seizure. This was not voluntary market exchange because peasants had no freedom to choose crops, negotiate prices, or exit the arrangement. A wrong answer focusing only on \"low prices\" misses the legal compulsion, debt trap, and absence of exit options that define forced commercialisation.",
+     "self_check": true
+    },
+    {
+     "q": "Given that cotton exports from India rose from 1.3 million bales (1850) to 10 million bales (1900) while per capita food grain availability declined from 200 kg to 150 kg over the same period, calculate the approximate annual growth rate of cotton exports and explain the economic trade-off this represents.",
+     "a": "Step 1: Identify initial (1.3 million bales, 1850) and final (10 million bales, 1900) values over 50 years. Step 2: Use compound annual growth rate formula: (Final/Initial)^(1/n) - 1 = (10/1.3)^(1/50) - 1 ≈ 1.041 - 1 = 4.1% per annum. Step 3: Interpret: Cotton exports grew ~4.1% annually while food grain availability fell 25%, showing resource diversion from subsistence to export crops. A wrong answer calculating only absolute increase (8.7 million bales) without annualizing misses the sustained extraction pace; ignoring the food grain decline misses the welfare trade-off central to commercialisation critique.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of commercialisation on jute cultivators in Bengal versus cotton cultivators in western India (Maharashtra/Gujarat), considering land tenure systems, market access, and price determination.",
+     "a": "Jute in Bengal (zamindari): Cultivators were tenants-at-will with no land rights; jute prices set by British-controlled baling presses and export houses; peasants received ~1/3 of export price after deductions. Cotton in western India (ryotwari): Cultivators were proprietors with occupancy rights; some access to cotton markets via Indian merchants; but still faced price manipulation by British firms and moneylender-intermediaries. Both faced declining terms of trade, but Bengal's zamindari added rent extraction on top of price exploitation. A wrong answer treating both regions identically misses how land tenure (Node 004) mediated the intensity of exploitation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Commercialisation of agriculture integrated India into the global economy and therefore laid the foundation for modern agricultural exports.\" Use evidence from the colonial period to support your judgment.",
+     "a": "The claim is analytically flawed. While commercialisation did integrate India into global markets, it did so on extractive terms: (1) Crops were chosen for British industrial needs (indigo for dye, cotton for Lancashire mills, jute for Dundee sacking), not Indian comparative advantage; (2) No investment in irrigation, seeds, or technology accompanied the shift—yield per acre stagnated; (3) Food grain imports became necessary by 1900s, reversing self-sufficiency; (4) The \"export surplus\" financed British home charges (drain of wealth, Node 009), not domestic capital formation. Modern exports require productivity gains and farmer agency—both absent. A wrong answer accepting the claim confuses volume of trade with developmental integration.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a causal diagram showing how the zamindari revenue system → forced commercialisation → rural indebtedness → famines, using indigo, cotton, and jute as crop-specific pathways.",
+     "a": "A strong answer shows: Zamindari (fixed cash revenue, no investment) → Peasant needs cash → Forced into indigo (tinkathia/dadon), cotton (moneylender advance), jute (baling press monopoly) → Low prices + high interest + rent → Debt accumulation → Land loss/tenancy → No food reserves → Famine mortality (1876-78, 1896-97, 1899-1900). Each crop pathway must specify the intermediary (planter, moneylender, press owner). A poor answer lists factors without causal arrows or treats all crops identically, missing institutional specificity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

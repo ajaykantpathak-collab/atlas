@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_15_001",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_15_001",
+   "title": "c12_geo_cbse_15_001",
+   "questions": [
+    {
+     "q": "Name the five major modes of transport in India and state the approximate percentage of freight traffic carried by roads according to recent data.",
+     "a": "The five major modes are road, rail, water, air, and pipeline. Roads carry approximately 70% of freight traffic in India (as per NCERT 2020-21 data). A wrong answer (e.g., stating railways carry the majority of freight) reveals confusion between passenger and freight shares — students often recall that railways carry more passengers long-distance but forget roads dominate freight volume due to last-mile connectivity and flexibility.",
+     "self_check": true
+    },
+    {
+     "q": "Why does road transport carry a higher share of freight traffic (70%) than railways (approx 30%) despite railways being cheaper per tonne-km for bulk goods over long distances?",
+     "a": "Road transport dominates freight because it provides door-to-door service, handles smaller consignments, reaches remote/hilly areas where rails cannot, and offers faster delivery for short-to-medium distances (under 500 km). A wrong answer focusing only on \"cost per km\" ignores the total logistics cost including loading/unloading, transshipment, and last-mile access — a common error in board answers where students quote railway cheapness without contextualizing for India's dispersed production and consumption centers.",
+     "self_check": true
+    },
+    {
+     "q": "Using the concept of 'physiographic determinism', explain why pipeline transport is concentrated in western and northern India (Gujarat, Maharashtra, Uttar Pradesh, Bihar) but almost absent in the peninsular plateau and northeastern states.",
+     "a": "Pipelines require stable, flat terrain for easy laying and maintenance, and connect oil/gas fields to refineries and consumption centers. Western India (Gujarat-Maharashtra) has major oil fields (Ankleshwar, Kalol, Mumbai High) and refineries (Jamnagar, Vadodara), while the HVJ pipeline links gas fields to fertilizer plants in UP/Bihar. The peninsular plateau's hard rock terrain increases laying cost, and the Northeast's difficult topography, seismic activity, and smaller market size limit pipeline viability. A wrong answer citing only \"lack of resources\" misses the geological and economic reasoning — pipelines follow both resource location AND market demand on suitable terrain.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of inland waterways and coastal shipping in India's transport system. Why does inland water transport contribute only ~1% to total transportation despite India having 14,500 km of navigable waterways?",
+     "a": "Inland waterways (rivers, canals, backwaters) are limited by seasonal flow, silting, diversion for irrigation, and lack of maintained depth — making them unreliable for year-round cargo. Coastal shipping handles bulk cargo (coal, iron ore, cement) between major ports efficiently but is restricted to coastal regions. The 1% share reflects infrastructural neglect: only 5 national waterways were developed until 2016 (now 111 declared), and most lack terminals, dredging, and multimodal links. A wrong answer blaming \"lack of rivers\" ignores that the Ganga-Brahmaputra system is underutilized due to policy and maintenance gaps, not physical absence.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Air transport in India is a luxury for the rich and has no role in national integration.\" Use geographical and socio-economic reasoning.",
+     "a": "The statement is false. Air transport is critical for national integration in inaccessible regions: the Northeast (Arunachal, Mizoram), Himalayan states (Ladakh, Sikkim), and islands (Andaman, Lakshadweep) where surface transport is slow or seasonally cut off. UDAN scheme makes flying affordable for common citizens on regional routes. Air transport also enables high-value perishable cargo (horticulture from Northeast, pharmaceuticals) and strategic mobility. A wrong answer focusing only on high fares misses the geographical necessity — in areas with 300 km road journeys taking 12+ hours due to terrain, a 45-minute flight is integration, not luxury.",
+     "self_check": true
+    },
+    {
+     "q": "Design a multimodal transport corridor for moving iron ore from Bellary (Karnataka) to a steel plant in Jamshedpur (Jharkhand) and then finished steel to Kolkata port for export. Justify mode choice at each leg.",
+     "a": "Leg 1 (Bellary to Chennai/Krishnapatnam port): Rail — high-volume bulk over 400 km on broad gauge (South Western Railway). Leg 2 (Coastal shipping Chennai to Paradip/Haldia): Coastal vessel — cheapest for 1,000+ km bulk movement along east coast. Leg 3 (Paradip/Haldia to Jamshedpur): Rail — dedicated freight corridor link for 300 km inland haul. Leg 4 (Jamshedpur to Kolkata port): Rail/road combo — short 250 km, rail for bulk, road for flexible last-mile to docks. A poor answer uses only one mode (e.g., all rail) ignoring cost optimization: coastal shipping saves 60% cost over rail for long coastal hauls, and multimodal reduces congestion on saturated rail routes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

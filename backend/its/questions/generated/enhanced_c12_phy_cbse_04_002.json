@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_04_002",
+   "title": "c12_phy_cbse_04_002",
+   "questions": [
+    {
+     "q": "State the formula for the magnetic force on a straight current-carrying conductor in a uniform magnetic field. Define each symbol and give its SI unit. Under what condition is the force zero?",
+     "a": "The formula is \\(\\vec{F} = I \\vec{l} \\times \\vec{B}\\) or magnitude \\(F = I l B \\sin\\theta\\). Here \\(I\\) is current in amperes (A), \\(\\vec{l}\\) is length vector in metres (m) directed along current, \\(\\vec{B}\\) is magnetic field in tesla (T), and \\(\\theta\\) is the angle between \\(\\vec{l}\\) and \\(\\vec{B}\\). Force is zero when \\(\\theta = 0^\\circ\\) or \\(180^\\circ\\) (current parallel or antiparallel to field). A wrong answer (e.g., giving \\(F = qvB\\) or omitting \\(\\sin\\theta\\)) reveals the student is confusing the single-charge Lorentz force with the conductor formula, or does not understand the vector cross product.",
+     "self_check": true
+    },
+    {
+     "q": "A horizontal wire carries current from south to north. A uniform magnetic field points vertically downward. Using the right-hand rule for cross product, determine the direction of the magnetic force on the wire. Explain why the force would be opposite if the current direction were reversed.",
+     "a": "Current \\(\\vec{l}\\) points north, \\(\\vec{B}\\) points down. \\(\\vec{l} \\times \\vec{B}\\): point fingers north, curl them downward, thumb points west. Force is horizontally west. If current reverses (north to south), \\(\\vec{l}\\) points south, \\(\\vec{l} \\times \\vec{B}\\) points east. The force reverses because \\(\\vec{F} \\propto I\\) and \\(I\\) changes sign. A wrong answer (e.g., force up/down or north/south) shows the student cannot apply the right-hand rule for cross product or confuses it with the right-hand thumb rule for magnetic field around a wire.",
+     "self_check": true
+    },
+    {
+     "q": "A straight wire of length 0.50 m and mass 10 g carries a current of 2.0 A. It is placed horizontally in a uniform horizontal magnetic field of 0.40 T directed perpendicular to the wire. Calculate the magnetic force on the wire. Will the wire move? If yes, in which direction relative to the current and field? (Take \\(g = 10\\ \\text{m/s}^2\\))",
+     "a": "Given: \\(l = 0.50\\ \\text{m}\\), \\(I = 2.0\\ \\text{A}\\), \\(B = 0.40\\ \\text{T}\\), \\(\\theta = 90^\\circ\\). \\(F = I l B \\sin 90^\\circ = 2.0 \\times 0.50 \\times 0.40 \\times 1 = 0.40\\ \\text{N}\\). Weight \\(mg = 0.010\\ \\text{kg} \\times 10\\ \\text{m/s}^2 = 0.10\\ \\text{N}\\). Magnetic force (0.40 N) > weight (0.10 N), so wire will accelerate upward if the force is vertically upward. Direction: using right-hand rule, if current is east and field is north, force is up. A wrong answer (e.g., forgetting to convert mass to kg, or using \\(\\sin 0^\\circ\\)) reveals unit conversion errors or misunderstanding of the angle.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical wires of length \\(l\\) carry the same current \\(I\\). Wire A is placed perpendicular to a uniform magnetic field \\(B\\). Wire B is placed at \\(30^\\circ\\) to the same field. Compare the magnitudes of magnetic forces on the two wires. If the force on wire A is \\(F_0\\), express the force on wire B in terms of \\(F_0\\).",
+     "a": "For wire A: \\(\\theta = 90^\\circ\\), \\(F_A = I l B \\sin 90^\\circ = I l B = F_0\\). For wire B: \\(\\theta = 30^\\circ\\), \\(F_B = I l B \\sin 30^\\circ = I l B \\times \\frac{1}{2} = \\frac{F_0}{2}\\). Force on B is half of that on A. A wrong answer (e.g., \\(F_B = F_0\\) or \\(F_B = \\frac{\\sqrt{3}}{2}F_0\\)) indicates the student does not understand the \\(\\sin\\theta\\) dependence or confuses the angle with its complement.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If a current-carrying wire is placed in a magnetic field, the magnetic force does work on the wire because the wire moves.\" Evaluate this statement. Is it correct? Justify your answer using the concept of magnetic force on moving charges.",
+     "a": "The statement is incorrect. The magnetic force on each charge carrier is \\(\\vec{F} = q\\vec{v}_d \\times \\vec{B}\\), which is always perpendicular to the drift velocity \\(\\vec{v}_d\\). Work done by a force is \\(W = \\int \\vec{F} \\cdot d\\vec{s}\\). Since \\(\\vec{F} \\perp \\vec{v}_d\\), the instantaneous power \\(\\vec{F} \\cdot \\vec{v}_d = 0\\). Thus magnetic force does no work on the charge carriers. The kinetic energy of the wire comes from the battery (electric field inside the wire) which maintains the current against the magnetic force. A student who says \"magnetic force does work\" confuses the macroscopic motion of the wire with the microscopic force on charges; they have not understood that magnetic forces are always perpendicular to velocity and hence do no work.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a battery, a flexible copper wire, a horseshoe magnet, and a switch to demonstrate that the magnetic force on a current-carrying wire is perpendicular to both the current and the magnetic field. Describe the setup, what you would observe, and how you would verify the perpendicular nature.",
+     "a": "Setup: Hang a flexible copper wire vertically from a support, connect its lower end to a battery via a switch, and place a horseshoe magnet so its poles are horizontal (field horizontal). Close the switch. Observation: The wire deflects horizontally, perpendicular to both the vertical current and horizontal field. Reverse the battery: deflection reverses direction. Reverse the magnet poles: deflection reverses. Rotate the magnet so field is vertical (parallel to current): no deflection. This verifies \\(\\vec{F} \\perp \\vec{l}\\) and \\(\\vec{F} \\perp \\vec{B}\\), and \\(\\vec{F} \\propto I\\) and \\(\\vec{F} \\propto B\\). A poor answer would only describe deflection without systematic variation of current/field directions, missing the cross-product nature.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_05_007",
+   "title": "c12_ip_cbse_05_007",
+   "questions": [
+    {
+     "q": "What is the primary function of the Domain Name System (DNS) in the context of web hosting?",
+     "a": "The DNS translates a human-readable domain name (e.g., example.com) into the numeric IP address of the web server where the site is hosted, enabling browsers to locate and request the correct server. A wrong answer — such as \"DNS stores website files\" or \"DNS is the web server\" — reveals confusion between the directory service (DNS) and the content server (web hosting), a fundamental category error that leads to misconfiguring A records or expecting the registrar to host content.",
+     "self_check": true
+    },
+    {
+     "q": "A student registers a domain `myshop.in` with Registrar A and buys shared hosting from Provider B. They upload their website files to Provider B's server via FTP. When they type `myshop.in` in a browser, they see a \"Parking Page\" from Registrar A. Explain why this happens and what specific DNS configuration is missing.",
+     "a": "The domain's nameservers still point to Registrar A's default parking nameservers instead of Provider B's nameservers. The student must update the domain's NS (nameserver) records at Registrar A to point to Provider B's nameservers (e.g., `ns1.providerb.com`, `ns2.providerb.com`), or alternatively keep Registrar A's nameservers and create an A record pointing `myshop.in` to Provider B's server IP. A wrong answer like \"wait 24 hours for propagation\" without changing NS records shows misunderstanding of delegation: the registrar's nameservers must be told where to send queries, which only happens when NS records are updated at the registrar.",
+     "self_check": true
+    },
+    {
+     "q": "You are hosting a dynamic PHP website with a MySQL database on a shared hosting plan. The provider gives you: (1) FTP hostname `ftp.host.com`, (2) database hostname `localhost`, (3) database name `u123_db`, (4) database user `u123_user`, (5) database password `pass456`. Your `config.php` currently has `define('DB_HOST', '127.0.0.1');`. Will the database connection work? Why or why not?",
+     "a": "Yes, it will work because on shared hosting, the MySQL server typically runs on the same physical machine as the web server, so `localhost` (or `127.0.0.1`) resolves to the local database instance. The provided `database hostname: localhost` confirms this. A student who changes it to `ftp.host.com` or the server's public IP shows confusion between the FTP server (for file transfer) and the database server (for data), not realizing they are separate services often on the same host in shared environments.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: (a) registering a domain directly with a registry (e.g., NIC.IN for .in domains) versus (b) registering through an accredited registrar (e.g., GoDaddy, BigRock). Which is available to an individual end-user and why?",
+     "a": "Individual end-users can only register through accredited registrars (option b). Registries like NIC.IN operate the top-level domain database and set policies but do not sell directly to the public; they accredit registrars who provide the retail interface, billing, support, and DNS management. A student who says \"you can register directly with the registry if you pay more\" misunderstands the registry-registrar-registrant model: the registry is a wholesale operator, not a retailer. This distinction appears in board questions about the domain name hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "A small business owner wants to host a simple 5-page static brochure site (HTML/CSS only, no database, no CMS). They have three options: (i) GitHub Pages (free), (ii) Shared hosting at ₹150/month with cPanel, (iii) VPS at ₹800/month. Evaluate each option for this use case and recommend the best choice with justification.",
+     "a": "GitHub Pages is the best choice: free, automatic HTTPS, global CDN, zero server maintenance, perfect for static sites. Shared hosting works but adds cost, manual FTP uploads, and SSL configuration overhead for no benefit. VPS is overkill — requires Linux sysadmin skills (SSH, web server config, security patches) for a static site. A student recommending VPS \"for better performance\" ignores the operational complexity mismatch; a student rejecting GitHub Pages \"because it's not a real host\" misunderstands that GitHub Pages *is* a production-grade static hosting platform used by millions of live sites.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step checklist for a Class 12 student who has built a static website (HTML, CSS, JS, images) on their laptop and wants to publish it at `myname.tech` using a free tier hosting service and a paid domain. Include every action from domain purchase to live verification, specifying where each action is performed (registrar dashboard vs hosting dashboard).",
+     "a": "A complete checklist includes: 1) Choose and purchase `myname.tech` at a registrar (e.g., Namecheap, Porkbun) → action: registrar dashboard. 2) Sign up for free static hosting (e.g., Netlify, GitHub Pages, Cloudflare Pages) → action: hosting dashboard. 3) Connect the custom domain in the hosting dashboard (triggers DNS verification) → action: hosting dashboard. 4) Copy the provided nameservers (Netlify: `dns1.p01.nsone.net`, etc.) or A/CNAME values → action: hosting dashboard. 5) Paste those nameservers/records into the registrar's DNS/NS settings for `myname.tech` → action: registrar dashboard. 6) Wait for DNS propagation (use `dig` or online checker) → action: terminal/browser. 7) Visit `https://myname.tech` to verify. Missing step 4→5 (copying values from host to registrar) is the most common failure point.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

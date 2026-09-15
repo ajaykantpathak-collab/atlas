@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_02_012",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_02_012",
+   "title": "c11_ip_cbse_02_012",
+   "questions": [
+    {
+     "q": "What is the exact error message Python displays when you write `print(\"Hello)` (missing closing quote) and press Enter in interactive mode?",
+     "a": "**Answer:** `SyntaxError: EOL while scanning string literal`  \n**Why wrong answers reveal misunderstanding:** If a student says \"NameError\" or \"TypeError\", they confuse syntax errors (grammar) with runtime errors. If they say \"IndentationError\", they confuse string quoting with block structure. This tests whether they recognize that syntax errors are caught at parse time, before any execution.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the code `x = 5; y = \"3\"; z = x + y` produces a TypeError, and describe two distinct ways to fix it without changing the values of x and y.",
+     "a": "**Answer:** Python does not implicitly convert strings to numbers in arithmetic operations. The `+` operator expects both operands to be numeric (int/float) or both to be strings. Since `x` is int and `y` is str, Python raises `TypeError: unsupported operand type(s) for +: 'int' and 'str'`. Fix 1: Convert `y` to int with `int(y)` before adding. Fix 2: Convert `x` to str with `str(x)` and concatenate (though this changes the meaning).  \n**Why wrong answers reveal misunderstanding:** If a student says \"Python automatically converts y to int\", they hold the misconception of implicit type coercion (like JavaScript). If they suggest only one fix, they lack flexibility in type conversion knowledge from node c11_ip_cbse_02_011.",
+     "self_check": true
+    },
+    {
+     "q": "Given the code snippet below, identify the error type, the line number where Python reports it, and the corrected line:\n```python\nprincipal = 10000\nrate = 5.5\ntime = 2\ninterest = principal * rate * time / 100\nprint(\"Simple Interest:\", intrest)\n```",
+     "a": "**Answer:** **Error type:** NameError (misspelled variable `intrest` vs `interest`). **Line reported:** Line 5 (the print statement). **Corrected line:** `print(\"Simple Interest:\", interest)`  \n**Why wrong answers reveal misunderstanding:** If a student says \"SyntaxError\", they think misspelling is a grammar issue. If they say \"LogicalError\", they confuse a crash with a silent wrong calculation. If they say line 4, they don't understand that Python executes line 4 successfully and only fails when trying to access the undefined name on line 5.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: Why does a logical error not produce any error message or traceback, while the other three error types do? Use the concept of \"program validity vs. programmer intent\" in your answer.",
+     "a": "**Answer:** Syntax, Name, and Type errors violate Python's formal rules – the program is **invalid** and the interpreter can detect this mechanically (parsing or runtime type checking). A logical error means the program is **valid** (runs without crashing) but does not match the **programmer's intent** (algorithm is flawed). The interpreter cannot know intent, so it executes the valid code silently.  \n**Why wrong answers reveal misunderstanding:** If a student says \"logical errors are caught by the compiler\", they confuse Python with statically typed languages. If they say \"logical errors are just syntax errors that don't crash\", they conflate validity with correctness. This tests deep understanding of the distinction between language semantics and problem semantics.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Using `int(input())` instead of `float(input())` for reading a price is a logical error.\" Defend or refute with a concrete example.",
+     "a": "**Answer:** **Refute.** It is a **TypeError risk** (if user enters \"49.99\", `int()` raises `ValueError`), not a logical error. A logical error would be: `price = float(input()); discount = price * 0.1; final = price - discount` but the requirement was \"10% off only for prices above 100\". The code runs without error but gives wrong output for prices ≤ 100.  \n**Why wrong answers reveal misunderstanding:** If a student agrees, they confuse data-type mismatch (runtime crash) with algorithmic flaw (silent wrong output). This tests whether they can distinguish error *categories* by their observable behavior.",
+     "self_check": true
+    },
+    {
+     "q": "Create a minimal Python program (3-5 lines) that contains **exactly one logical error** and no other errors. The program should calculate the area of a rectangle but produce a wrong result for some inputs. Provide the code, a test input that reveals the error, and the corrected line.",
+     "a": "**Example answer:**\n```python\nlength = float(input(\"Length: \"))\nbreadth = float(input(\"Breadth: \"))\narea = length + breadth  # Logical error: used + instead of *\nprint(\"Area:\", area)\n```\n**Test input:** Length = 5, Breadth = 3 → Output: 8 (should be 15).  \n**Corrected line:** `area = length * breadth`  \n**Why poor answers reveal misunderstanding:** If the code has a syntax error (missing colon) or name error (misspelled variable), the student hasn't isolated a pure logical error. If the test input doesn't expose the error (e.g., length=2, breadth=2 gives 4 either way), they don't understand test-case design. This tests ability to synthesize a valid-but-wrong program.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

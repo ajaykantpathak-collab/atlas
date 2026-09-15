@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch2_2",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch2_2",
+   "title": "c8_physics_ch2_2",
+   "questions": [
+    {
+     "q": "A student sets up a circuit with a straight vertical wire connected to a battery. The current flows upward. Using the right-hand thumb rule, what is the direction of the magnetic field at a point directly to the east of the wire?",
+     "a": "The magnetic field at a point east of the wire points **north** (into the plane of the paper if wire is vertical and current upward). A wrong answer (e.g., south) reveals the student is either using the left hand, or confusing the thumb (current) with fingers (field), or does not understand the 3D geometry of the concentric circles.",
+     "self_check": true
+    },
+    {
+     "q": "Why do iron filings arrange themselves in concentric circles around a current-carrying straight wire, and not in straight lines radiating outward?",
+     "a": "Iron filings align along magnetic field lines. The magnetic field around a straight wire forms concentric circles because the field direction is tangential to circles centred on the wire at every point. A wrong answer (e.g., \"field lines start at the wire and go outwards\") reveals the student thinks of the wire as a magnetic pole (like a bar magnet) rather than understanding the circular symmetry of the field produced by a linear current.",
+     "self_check": true
+    },
+    {
+     "q": "A straight horizontal wire carries a current of 2 A from west to east. A compass is placed 5 cm directly below the wire. In which direction will the compass needle's north pole point? (Assume Earth's magnetic field is negligible compared to the wire's field at this distance.)",
+     "a": "**Steps:**\n1. Given: Current I = 2 A, direction = west to east. Compass position = 5 cm below wire.\n2. Apply right-hand thumb rule: Grip wire with right hand, thumb points east (current direction). Fingers curl from north to south *above* the wire, and from south to north *below* the wire.\n3. At a point below the wire, the field direction is from south to north (i.e., pointing north).\n4. Compass north pole aligns with field direction, so it points **north**.\nA wrong answer (e.g., south) reveals the student applied the rule correctly for above the wire but forgot the field direction reverses on opposite sides of the wire.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical straight wires are placed parallel to each other, 10 cm apart. Wire A carries 3 A upward; Wire B carries 3 A downward. Compare the magnetic field strength at the midpoint between them to the field at the same point if both currents were upward.",
+     "a": "At the midpoint, the fields from the two wires are in the **same direction** when currents are opposite (both into the page, say), so they add up, giving a stronger net field. When currents are in the same direction (both upward), the fields at the midpoint are in opposite directions (one into page, one out of page), so they partially cancel, giving a weaker net field. A wrong answer (e.g., \"same in both cases\") reveals the student does not apply vector addition of magnetic fields or misapplies the right-hand thumb rule for each wire.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If I double the current in a wire, the magnetic field lines become twice as far apart.\" Evaluate this statement.",
+     "a": "The statement is **incorrect**. Doubling the current doubles the magnetic field *strength* (field lines become denser, i.e., closer together), not the spacing between field lines. Field line spacing represents field strength: closer lines = stronger field. A wrong evaluation (agreeing with the student) reveals confusion between field line *density* (which indicates strength) and the geometric pattern (which remains concentric circles regardless of current magnitude).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only a battery, a switch, a long straight wire, a cardboard sheet, iron filings, and a compass to demonstrate that the magnetic field around a straight current-carrying conductor forms concentric circles. Describe the steps and what you would observe.",
+     "a": "**Expected answer:**\n1. Make a circuit with battery, switch, and wire passing vertically through a hole in the cardboard.\n2. Sprinkle iron filings uniformly on the cardboard.\n3. Close the switch to pass current; gently tap the cardboard.\n4. Observe: Iron filings align in concentric circles centred on the wire.\n5. Place compass at different points on a circle; note needle points tangentially to the circle.\n6. Reverse current; observe compass needles reverse direction.\nA poor answer (e.g., \"sprinkle filings and see circles\" without circuit details or compass verification) reveals the student cannot design a controlled experiment to isolate the magnetic field pattern and verify direction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

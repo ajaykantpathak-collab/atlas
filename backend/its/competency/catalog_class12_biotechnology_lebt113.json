@@ -1,0 +1,400 @@
+{
+ "class": 12,
+ "subject": "biotechnology",
+ "chapter": 13,
+ "chapter_title": "Entrepreneurship",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lebt113.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lebt113.1",
+   "title": "Entrepreneur Roles and Qualities",
+   "section": "13.1",
+   "definition": "From the French enterprendre, to undertake, the entrepreneur plays three parts at once - innovator bringing new products, organiser assembling the factors of production, and risk bearer shouldering every uncertainty - and does so with initiative, industry knowledge, calculated risk-taking, adaptability, self-confidence and a wealth-creating drive that turns ideas into employment and capital.",
+   "formula": "-",
+   "key_idea": "Innovate, organise, and carry the risk - backed by initiative, adaptability and self-belief, these are the entrepreneur's job description.",
+   "textbook_ref": "lebt113.txt sections 13.1-13.1.3, Boxes 1-2",
+   "question_patterns": [
+    "define the term entrepreneur from its French root and state the three prominent roles an entrepreneur fulfils",
+    "list any four qualities of a successful entrepreneur with brief explanations",
+    "differentiate an entrepreneur from an intrapreneur on the basis of employment and risk",
+    "how do entrepreneurs help in capital creation and employment generation",
+    "which qualities let an entrepreneur withstand the short-term risks of a new venture",
+    "why is entrepreneurship called a panacea for unemployment in an economy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "name the roles",
+     "explain": "Innovator, organiser and risk bearer cover the entrepreneur's functions."
+    },
+    {
+     "step": 2,
+     "action": "match the qualities",
+     "explain": "Initiative, knowledge, risk-taking, adaptability, self-confidence and wealth creation mark the successful ones."
+    },
+    {
+     "step": 3,
+     "action": "separate the intrapreneur",
+     "explain": "An intrapreneur innovates inside an organisation without bearing the entrepreneur's personal risk."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "From which French verb does entrepreneur derive: enterprendre or entree?",
+     "a": "enterprendre"
+    }
+   ]
+  },
+  {
+   "id": "lebt113.2",
+   "title": "Startup Recognition Eligibility Criteria",
+   "section": "13.2",
+   "definition": "Startup India recognises a venture only while it is young and small: incorporated as a private limited company, partnership or LLP, turnover below one hundred crore rupees in any previous financial year, and no older than ten years from incorporation, working on innovation or improvement rather than being a split-off of an old business.",
+   "formula": "startup_age = check_year - incorporation_year",
+   "key_idea": "Subtract the incorporation year from the check year - past ten years or past a hundred crore turnover, the startup tag lapses.",
+   "textbook_ref": "lebt113.txt section 13.2",
+   "question_patterns": [
+    "a company was incorporated in 2015 - is it still eligible for startup recognition in 2026 under the ten-year rule",
+    "state the turnover ceiling that a recognised startup must not cross in any previous financial year",
+    "which legal forms of incorporation qualify an entity for startup recognition",
+    "why is an entity formed by splitting up an existing business not considered a startup",
+    "under which notification and date are startups defined for the Startup India Action Plan",
+    "how many years from incorporation does an entity remain a startup"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the age",
+     "explain": "Startup age is the check year minus the incorporation year.",
+     "compute": "startup_age = check_year - incorporation_year"
+    },
+    {
+     "step": 2,
+     "action": "check the runway",
+     "explain": "Subtract the age from the ten-year ceiling to see the recognition time left.",
+     "compute": "years_left = 10 - startup_age"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Startup India requires turnover below how many crore rupees: one hundred or ten thousand?",
+     "a": "one hundred"
+    }
+   ]
+  },
+  {
+   "id": "lebt113.3",
+   "title": "Sources of Funds for New Ventures",
+   "section": "13.2 Box 3",
+   "definition": "A new venture can be fuelled six ways: the entrepreneur's own personal investment that proves commitment, venture capital chasing high-growth technology plays for equity, angel investors - wealthy field leaders - backing early stages with money and mentorship, business incubators or accelerators that host startups for about two years, government grants and subsidies, and bank loans that demand a solid business plan plus personal guarantee.",
+   "formula": "-",
+   "key_idea": "Seed money follows conviction - personal funds first, angels and incubators early, venture capital and banks once the plan is proven.",
+   "textbook_ref": "lebt113.txt section 13.2 Box 3",
+   "question_patterns": [
+    "list the six sources of financing a new venture with one feature of each",
+    "why does an entrepreneur invest personal money first before approaching other investors",
+    "differentiate venture capital from angel investment on the stage and nature of funding",
+    "how long does a typical incubation phase last and who runs incubation centres",
+    "what must complement a good idea before a bank sanctions a startup loan",
+    "which funding source takes an equity position in a high-risk technology venture"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "rank the stages",
+     "explain": "Personal investment and angels seed the idea; incubators nurse it; venture capital and banks scale it."
+    },
+    {
+     "step": 2,
+     "action": "note the quid pro quo",
+     "explain": "Venture capital takes equity; banks take guarantees; grants ask only for outcomes."
+    },
+    {
+     "step": 3,
+     "action": "match to need",
+     "explain": "Choose the source by stage, amount and the entrepreneur's appetite for dilution or debt."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Wealthy field leaders backing early stages with money and mentorship are called what investors: angel or venture?",
+     "a": "angel"
+    }
+   ]
+  },
+  {
+   "id": "lebt113.4",
+   "title": "Biotech versus General Entrepreneur",
+   "section": "13.3",
+   "definition": "Bio-entrepreneurship weds science to commerce, and the union is demanding: long gestation periods, high capital needs, inherent scientific uncertainty layered on business risk, very high academic qualification and a heavy regulatory framework - the points where a biotech entrepreneur parts ways with the general entrepreneur who shares only competitiveness, teamwork and perseverance.",
+   "formula": "-",
+   "key_idea": "Same grit as any founder, plus a laboratory's timeline, budget, regulators and degrees - that is the biotech premium.",
+   "textbook_ref": "lebt113.txt sections 13.3-13.3.2, Table 13.1",
+   "question_patterns": [
+    "compare a general entrepreneur and a biotech entrepreneur on gestation period and capital requirements",
+    "why does a biotech venture carry scientific uncertainty in addition to business uncertainty",
+    "why is academic qualification very highly relevant for a biotech entrepreneur",
+    "define bio-entrepreneurship as given by A D Meyers",
+    "which regulatory load distinguishes biotechnology enterprises from general enterprises",
+    "state three reasons why biotech entrepreneurs start their companies"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "share the constants",
+     "explain": "Both need competitive ideas, experienced teams and perseverance through risk."
+    },
+    {
+     "step": 2,
+     "action": "flag the differences",
+     "explain": "Gestation, capital, scientific uncertainty, academic depth and regulation run high only in biotech."
+    },
+    {
+     "step": 3,
+     "action": "plan accordingly",
+     "explain": "A biotech roadmap must budget years of research and regulatory clearance before revenue."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Does bio-entrepreneurship carry longer or shorter gestation than general ventures?",
+     "a": "longer"
+    }
+   ]
+  },
+  {
+   "id": "lebt113.5",
+   "title": "Bharat Biotech Case Study",
+   "section": "13.1 Box 2",
+   "definition": "Dr Krishna Ella's Bharat Biotech, seeded in Hyderabad in 1997 with angel funds, has shipped over four billion vaccine doses to more than a hundred and twenty developing countries, and its seventeenth vaccine - the inactivated whole-virus COVAXIN - went from bench to India's first indigenous COVID-19 shot in a record eight months, winning WHO emergency use listing since December 2020.",
+   "formula": "years_to_product = product_year - founding_year",
+   "key_idea": "Subtract the founding year from the product year to time a company's journey; divide total doses by countries to gauge its reach.",
+   "textbook_ref": "lebt113.txt Box 2",
+   "question_patterns": [
+    "Bharat Biotech was established in 1997 and launched COVAXIN in 2020 - how many years did that journey take",
+    "over 4 billion doses reached more than 120 countries - estimate the average doses per country",
+    "who founded Bharat Biotech and in which city was the first laboratory set up",
+    "in how many months was COVAXIN developed and what type of vaccine is it",
+    "which funding source helped establish BBIL and what was its prime objective",
+    "which number in Bharat Biotech's portfolio is COVAXIN and when did WHO approve it for emergency use"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract the years",
+     "explain": "Journey length is product year minus founding year.",
+     "compute": "years_to_product = product_year - founding_year"
+    },
+    {
+     "step": 2,
+     "action": "share the doses",
+     "explain": "Divide total doses by the number of recipient countries.",
+     "compute": "doses_per_country = total_doses / countries"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "In which city was Bharat Biotech seeded in 1997: Hyderabad or Delhi?",
+     "a": "Hyderabad"
+    }
+   ]
+  },
+  {
+   "id": "lebt113.6",
+   "title": "IPR and Patent Criteria in Biotechnology",
+   "section": "13.4",
+   "definition": "Intellectual property rights guard biotech innovation under the TRIPS framework: Indian patents rest on the Patents Act 1970, whose Section 5 was deleted by the 2005 amendment to admit product patents in biotechnology, chemicals and pharmaceuticals, and a grant demands novelty, an inventive step that is non-obvious, and utility - never landing in Section 3's negative list or offending public order, with discoveries left unpatentable while inventions qualify.",
+   "formula": "-",
+   "key_idea": "Novel, non-obvious, useful - and an invention, not a discovery - is the four-point test every biotech patent must pass.",
+   "textbook_ref": "lebt113.txt sections 13.4-13.4.1",
+   "question_patterns": [
+    "state the three central criteria for the grant of a patent on a scientific invention",
+    "which amendment of which year allowed product patents in biotechnology in India",
+    "differentiate an invention from a discovery under Indian patent law",
+    "why was India obliged to amend the Patents Act after joining TRIPS",
+    "what role does Section 3 of the Patents Act play in screening biotech inventions",
+    "name the committee whose report shaped the Patents Act 1970 and the older law it replaced"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "test novelty",
+     "explain": "The invention must be new against all prior art worldwide."
+    },
+    {
+     "step": 2,
+     "action": "test the inventive step",
+     "explain": "It must not be obvious to a person skilled in the art."
+    },
+    {
+     "step": 3,
+     "action": "test utility and legality",
+     "explain": "It must work and stay outside Section 3's negative list and public-order limits."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Indian patents rest on which act: the Patents Act 1970 or the Patents Act 1870?",
+     "a": "the Patents Act 1970"
+    }
+   ]
+  },
+  {
+   "id": "lebt113.7",
+   "title": "Plant Breeder Rights Protection Years",
+   "section": "13.4.1",
+   "definition": "Plant breeder's rights hand a new variety's exclusive commercial market for roughly twenty to twenty-five years - provided the variety is novel, distinct, uniform and stable - blocking unauthorised growing or selling of the variety or its reproductive material while sparing research use and the farmer's saved seed.",
+   "formula": "mid_years = (min_years + max_years) / 2",
+   "key_idea": "Average the protection window's ends for a typical term, then subtract elapsed years to see what remains.",
+   "textbook_ref": "lebt113.txt section 13.4.1",
+   "question_patterns": [
+    "plant breeder rights run for 20 to 25 years - compute the midpoint of this protection window",
+    "a breeder obtained rights 8 years ago on a 25-year term - how many years of protection remain",
+    "which four qualities must a plant variety show to earn breeder's rights",
+    "what two exceptions survive plant breeder protection for researchers and farmers",
+    "what do plant breeder rights stop others from doing without the owner's permission",
+    "differentiate plant breeder rights from farmer's saved seed exemption"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "average the window",
+     "explain": "Midpoint of the term range is the typical protection length.",
+     "compute": "mid_years = (min_years + max_years) / 2"
+    },
+    {
+     "step": 2,
+     "action": "count the remainder",
+     "explain": "Subtract elapsed years from the granted term.",
+     "compute": "years_remaining = granted_years - years_elapsed"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Plant breeder's rights run roughly twenty to how many years: twenty-five or five?",
+     "a": "twenty-five"
+    }
+   ]
+  },
+  {
+   "id": "lebt113.8",
+   "title": "Biopiracy Cases and Traditional Knowledge",
+   "section": "13.5",
+   "definition": "Biopiracy is the commercial grab of naturally occurring biochemicals or genetic material riding on indigenous knowledge - the neem pesticide patent W R Grace and the USDA took in the 1990s until the EPO revoked it in 2000, the 1995 University of Mississippi turmeric wound-healing patent the CSIR toppled in 1997, and RiceTec's 1997 Basmati claims partly struck down - with India's Traditional Knowledge Digital Library now standing guard at international patent offices.",
+   "formula": "-",
+   "key_idea": "Old knowledge cannot be a new invention - documented traditional use, TKDL and geographical indications are the shields.",
+   "textbook_ref": "lebt113.txt section 13.5",
+   "question_patterns": [
+    "define biopiracy and name the traditional knowledge domains most often targeted",
+    "which companies patented neem oil extraction and in which year did the EPO revoke it",
+    "how did CSIR overturn the turmeric wound-healing patent granted in 1995",
+    "what was the Basmati rice dispute and which claims of the patent were challenged",
+    "what is the Traditional Knowledge Digital Library and against what does it guard",
+    "why does biopiracy threaten the livelihood of indigenous communities and farmers",
+    "how do geographical indications protect traditional products such as Basmati"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "spot the appropriation",
+     "explain": "A patent claimed over material or use long known to indigenous communities marks biopiracy."
+    },
+    {
+     "step": 2,
+     "action": "gather the evidence",
+     "explain": "Ancient texts, publications and databases like TKDL destroy the novelty claim."
+    },
+    {
+     "step": 3,
+     "action": "secure the future",
+     "explain": "Geographical indications, community rights and TKDL entries prevent the next grab."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which body toppled the turmeric wound-healing patent in 1997: the CSIR or the USDA?",
+     "a": "the CSIR"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "lebt113.txt section 13.2 (startup up to 10 years from incorporation)",
+   "concept": "lebt113.2",
+   "question_type": "compute",
+   "question_pattern": "A company incorporated in {incorporation_year} applies for startup recognition in {check_year}. Find its startup age and the years of recognition eligibility still left under the ten-year rule.",
+   "extracted_variables": {
+    "incorporation_year": "year the company was incorporated",
+    "check_year": "year of the recognition application"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "count the age",
+     "explain": "Startup age equals check year minus incorporation year.",
+     "compute": "startup_age = check_year - incorporation_year"
+    },
+    {
+     "step": 2,
+     "action": "check the ceiling",
+     "explain": "Ten years minus the age gives the recognition time left.",
+     "compute": "years_left = 10 - startup_age"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "lebt113.txt Box 2 (BBIL founded 1997, COVAXIN in 2020, 4 billion doses, 120 countries)",
+   "concept": "lebt113.5",
+   "question_type": "compute",
+   "question_pattern": "Bharat Biotech was founded in {founding_year} and launched COVAXIN in {product_year}; it has supplied {total_doses} vaccine doses across {countries} countries. Find the years from founding to COVAXIN and the average doses per country.",
+   "extracted_variables": {
+    "founding_year": "year the company was founded",
+    "product_year": "year the flagship product launched",
+    "total_doses": "total vaccine doses produced",
+    "countries": "number of countries supplied"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract the years",
+     "explain": "The journey length is product year minus founding year.",
+     "compute": "years_to_product = product_year - founding_year"
+    },
+    {
+     "step": 2,
+     "action": "share the doses",
+     "explain": "Total doses divided by countries averages the supply.",
+     "compute": "doses_per_country = total_doses / countries"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lebt113-ex1",
+   "source_ref": "lebt113.txt Exercises (questions 1-21)",
+   "questions": [
+    "Define entrepreneurship, describe its importance and the qualities of an entrepreneur.",
+    "Differentiate an entrepreneur from an intrapreneur with examples.",
+    "Define a start-up, state its recognition eligibility criteria, and list the sources of funds for a new venture.",
+    "Elaborate the significance of a biotechnology entrepreneur and compare it with a general entrepreneur.",
+    "Explain the process of starting a biotech enterprise through its six steps.",
+    "Explain the concept of IPR, the aspects of IPR in biotechnology and the three criteria for granting patents.",
+    "Which initiative of India prevents misappropriation of traditional medicinal knowledge at international patent offices?",
+    "Identify the financing type angels provide, the element not part of financial projections, and what cannot be covered by copyright."
+   ]
+  }
+ ]
+}

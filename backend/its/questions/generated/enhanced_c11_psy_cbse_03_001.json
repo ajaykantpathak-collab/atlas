@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_03_001",
+   "title": "c11_psy_cbse_03_001",
+   "questions": [
+    {
+     "q": "Define \"growth\" as used in developmental psychology. How does it differ from the everyday use of the word?",
+     "a": "Growth in developmental psychology refers specifically to quantitative, measurable increases in physical dimensions — height, weight, organ size, neural connectivity — that can be objectively quantified. Unlike everyday usage where \"growth\" loosely means any improvement (e.g., \"growth in knowledge\"), the technical term excludes qualitative changes like learning to read or becoming more empathetic. A wrong answer that includes \"growth in intelligence\" or \"growth in social skills\" reveals the student is conflating the technical term with its colloquial meaning and has not grasped that growth is strictly a subset of development limited to physical quantification.",
+     "self_check": true
+    },
+    {
+     "q": "A 10-year-old child's permanent molars erupt. The child also learns to solve conservation tasks. The child's height increases by 5 cm. The species Homo sapiens evolved from earlier hominins over millions of years. Classify each phenomenon as growth, development, maturation, or evolution. Justify each classification in one sentence.",
+     "a": "Permanent molar eruption = maturation (genetically timed emergence of species-typical dental structure, independent of practice). Conservation task mastery = development (qualitative cognitive restructuring, not just quantitative increase). Height increase = growth (measurable quantitative change in physical dimension). Homo sapiens emergence = evolution (species-level change across generations via natural selection over geological time). A wrong answer that classifies molar eruption as \"growth\" reveals confusion between quantitative size increase and qualitative structural emergence; classifying conservation as \"growth\" reveals failure to distinguish quantitative vs. qualitative change; classifying evolution as \"development\" reveals category error between individual lifespan and species history.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher claims: \"Since maturation is genetically programmed, environmental enrichment cannot accelerate motor milestones like walking.\" Using the concepts of maturation and development, evaluate this claim. Provide a specific example from the NCERT text to support your reasoning.",
+     "a": "The claim is partially correct but incomplete. Maturation provides the necessary biological readiness (e.g., myelination of corticospinal tracts, muscle strength) — without it, walking cannot occur regardless of practice (NCERT: \"special efforts to accelerate these behaviours do not help if the infant is maturationally not ready\"). However, once maturational readiness is reached, environmental opportunity and practice are essential for proficiency (NCERT: \"Once the underlying physical structure is sufficiently developed, proficiency in these behaviours requires adequate environment and little practice\"). A wrong answer that says \"environment has no role\" ignores the development-maturation interaction; an answer saying \"practice can make a 6-month-old walk\" ignores maturational constraints. The correct evaluation: maturation sets the floor (earliest possible onset); environment influences the exact timing within the maturational window.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast maturation and evolution on three dimensions: (a) time-scale, (b) unit of change, (c) mechanism. Use a table format in your answer.",
+     "a": "| Dimension | Maturation | Evolution |\n|---|---|---|\n| Time-scale | Individual lifespan (months to years) — unfolds within a single organism's development | Species history (millions of years) — changes accumulate across generations |\n| Unit of change | Individual organism — emergence of species-typical traits in one body | Population/species — shift in allele frequencies, emergence of new species |\n| Mechanism | Genetic timetable / programmed unfolding (e.g., neural myelination sequence) | Natural selection acting on heritable variation (differential survival/reproduction) |\n\nA wrong answer that lists \"learning\" as a mechanism for maturation reveals confusion with development; stating evolution occurs \"within an individual's lifetime\" reveals fundamental category error (Lamarckian misconception); equating time-scales reveals failure to grasp the nested hierarchy (maturation occurs within the evolutionary legacy).",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement: \"Development is just growth plus maturation.\" Use the NCERT definition of development (biological, cognitive, socio-emotional processes; gains and losses; lifelong; plastic; multi-directional) to support your critique.",
+     "a": "The statement is reductionist and inaccurate. Development encompasses growth (quantitative physical increase) and maturation (genetically timed unfolding) but also includes: (1) Cognitive processes — qualitative restructuring of thought (e.g., Piaget's stages) not reducible to size increase or genetic timetable; (2) Socio-emotional processes — attachment, identity, moral reasoning shaped by cultural context and relationships; (3) Plasticity — capacity for change through experience (e.g., learning a language at 40) beyond maturational limits; (4) Multi-directionality — simultaneous gains (wisdom) and losses (processing speed) in adulthood; (5) Lifelong trajectory — development continues after growth ceases and maturation completes (old age involves developmental changes without growth). A wrong answer that agrees with the statement reveals failure to integrate the life-span perspective assumptions (next node) and the multi-process nature of development defined in the introductory paragraphs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 2×2 matrix with axes \"Individual vs. Species\" (rows) and \"Quantitative vs. Qualitative\" (columns). Place each of the four concepts (growth, development, maturation, evolution) in the correct cell. For each placement, give one concrete example that fits that cell. Explain why \"development\" spans multiple cells.",
+     "a": "| | Quantitative | Qualitative |\n|---|---|---|\n| **Individual** | Growth (e.g., height increase 5 cm/year) | Maturation (e.g., emergence of grasping reflex → voluntary reach) |\n| **Species** | (No direct fit — evolution is not primarily quantitative) | Evolution (e.g., emergence of bipedalism, prefrontal cortex expansion) |\n\nDevelopment spans Individual-Quantitative (growth component), Individual-Qualitative (cognitive/socio-emotional restructuring), and implicitly Species-Qualitative (because individual development expresses the evolved species-typical architecture). A poor answer that places evolution in \"Quantitative\" reveals misunderstanding of evolution as primarily structural/qualitative reorganization; placing maturation in \"Species\" reveals confusion between individual unfolding and phylogenetic change; failing to explain why development spans cells reveals lack of synthesis across the chapter's opening definition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

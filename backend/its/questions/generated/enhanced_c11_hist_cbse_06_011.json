@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_06_011",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_06_011",
+   "title": "c11_hist_cbse_06_011",
+   "questions": [
+    {
+     "q": "In which year did the Black Death first reach Europe via Mediterranean trade ports, and what was the estimated mortality range in the first wave (1347–1351)?",
+     "a": "The Black Death reached Europe in 1347 (via Genoese ships at Messina/Caffa) and killed an estimated 30–50% of the population in the first wave (1347–1351). A wrong answer (e.g., \"1348\" or \"10–20%\") reveals confusion between arrival date and peak mortality years, or underestimation of the demographic scale—both fatal for analysing labour-market consequences.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the English Statute of Labourers (1351) and the French Ordinance of Labourers (1351) fail to freeze wages at pre-plague levels despite severe penalties?",
+     "a": "The statutes failed because labour scarcity gave peasants bargaining power: with 30–50% fewer workers, lords competed for labourers who could simply move to higher-paying manors or towns. Enforcement was patchy (local officials were often landowners themselves who needed workers). A wrong answer blaming \"peasant laziness\" or \"weak kings\" misses the structural shift in labour supply/demand—a senior-secondary error of ignoring material conditions.",
+     "self_check": true
+    },
+    {
+     "q": "A manor record from 1360 shows a villein paying 12 pence/acre commutation rent instead of performing week-work. Using the concept of \"commutation of labour services,\" explain what this shift reveals about the lord's dilemma after the plague.",
+     "a": "Commutation shows lords converting labour dues to money rents because they could no longer compel week-work—labour was too scarce and peasants had alternatives. The lord accepts cash (which buys hired labour at market rates) rather than risk empty fields. A wrong answer calling it \"generosity\" or \"decline of feudalism\" without explaining the market mechanism shows failure to apply the supply-demand logic to institutional change.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Jacquerie (France, 1358) and the English Peasants' Revolt (1381) on three dimensions: (a) immediate trigger, (b) social composition, (c) outcome for serfdom. What pattern explains the difference?",
+     "a": "(a) Jacquerie triggered by noble oppression + war taxation (taille); 1381 triggered by poll tax + Statute of Labourers enforcement. (b) Jacquerie: mostly peasants, limited urban allies; 1381: peasants + artisans + London poor + some gentry. (c) Jacquerie brutally crushed, serfdom persisted longer in France; 1381 suppressed but accelerated commutation and serfdom's decline in England. Pattern: stronger central monarchy (France) could repress revolt and maintain seigneurial dues; weaker monarchy + common law (England) gave peasants legal leverage. Wrong answers listing only \"both failed\" miss the divergent institutional trajectories.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Black Death caused the end of feudalism.\" Use evidence from wage data, peasant mobility, and lordly counter-measures (1350–1400) to support or refute.",
+     "a": "The claim is partially true but oversimplified. The plague *accelerated* feudalism's decline by creating labour scarcity, but lords resisted via wage laws, vagrancy statutes, and legal bondage reinforcement (e.g., English villeinage cases peaked 1350–1380). Serfdom faded gradually—commutation spread, but legal unfreedom persisted in parts of Europe into the 16th century. A \"yes/no\" answer without this nuance shows inability to distinguish catalyst from cause and process from event.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 4-tier causal diagram (underlying → intermediate → immediate → outcome) linking the Great Famine (1315–17) to the English Peasants' Revolt (1381). Label each tier with one specific mechanism.",
+     "a": "Tier 1 (Underlying): Climate cooling → harvest failures → chronic malnutrition (weakened immunity). Tier 2 (Intermediate): Population pressure on marginal lands → Malthusian check → Famine mortality 10–15%. Tier 3 (Immediate): Black Death (1347) hits malnourished population → 40% mortality → labour shortage. Tier 4 (Outcome): Statute of Labourers (1351) + poll taxes (1377, 1379, 1380) + villeinage litigation → 1381 Revolt. A linear \"famine → plague → revolt\" chain misses the 60-year gap and the state's role in converting demographic shock into fiscal-military pressure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_04_011",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_04_011",
+   "title": "c12_phy_cbse_04_011",
+   "questions": [
+    {
+     "q": "A galvanometer has a resistance of 50 Ω and gives full-scale deflection for 1 mA. What is the shunt resistance required to convert it into an ammeter of range 0–5 A?",
+     "a": "**Answer:** 0.01 Ω  \n**Working:** \\(I_g = 1 \\text{ mA} = 0.001 \\text{ A}\\), \\(G = 50 \\text{ Ω}\\), \\(I = 5 \\text{ A}\\).  \n\\(r_s = \\frac{I_g G}{I - I_g} = \\frac{0.001 \\times 50}{5 - 0.001} = \\frac{0.05}{4.999} \\approx 0.01 \\text{ Ω}\\).  \n**Misconception revealed:** If a student gets 0.05 Ω or 10 Ω, they likely used \\(r_s = \\frac{I G}{I_g}\\) or forgot to subtract \\(I_g\\) from \\(I\\) in the denominator. The denominator must be the current through the shunt (\\(I - I_g\\)), not the total current \\(I\\).",
+     "self_check": true
+    },
+    {
+     "q": "Why must the shunt resistance in an ammeter be very small compared to the galvanometer resistance, while the series resistance in a voltmeter must be very large compared to the galvanometer resistance?",
+     "a": "**Answer:** An ammeter is connected in series with the circuit, so its total resistance must be negligible to avoid altering the circuit current. The parallel combination \\( \\frac{G r_s}{G + r_s} \\approx r_s \\) only if \\( r_s \\ll G \\). A voltmeter is connected in parallel across a component, so it must draw negligible current; its total resistance \\( G + R \\approx R \\) only if \\( R \\gg G \\).  \n**Misconception revealed:** If a student says \"shunt is small to protect the galvanometer\" or \"series resistance is large to increase voltage range\", they confuse the *purpose* with the *design constraint*. The real reason is circuit loading: an ammeter must not add series resistance; a voltmeter must not draw parallel current.",
+     "self_check": true
+    },
+    {
+     "q": "A galvanometer of resistance 20 Ω gives full-scale deflection for 2 mA. Calculate the series resistance needed to convert it into a voltmeter of range 0–10 V.",
+     "a": "**Answer:** 4980 Ω  \n**Working:**  \nStep 1: Identify given: \\(I_g = 2 \\text{ mA} = 0.002 \\text{ A}\\), \\(G = 20 \\text{ Ω}\\), \\(V = 10 \\text{ V}\\).  \nStep 2: Formula for voltmeter conversion: \\(R = \\frac{V}{I_g} - G\\).  \nStep 3: Substitute: \\(R = \\frac{10}{0.002} - 20 = 5000 - 20 = 4980 \\text{ Ω}\\).  \nStep 4: Check units: \\(\\frac{\\text{V}}{\\text{A}} = \\text{Ω}\\), consistent.  \nStep 5: Verify: Total resistance = \\(4980 + 20 = 5000 \\text{ Ω}\\). At 10 V, current = \\(\\frac{10}{5000} = 0.002 \\text{ A} = I_g\\). ✓  \n**Misconception revealed:** A student who gets 5000 Ω forgot to subtract the galvanometer resistance \\(G\\). They used \\(R = \\frac{V}{I_g}\\) instead of \\(R = \\frac{V}{I_g} - G\\).",
+     "self_check": true
+    },
+    {
+     "q": "Two students convert the same galvanometer (G = 100 Ω, Ig = 1 mA) into an ammeter of range 0–1 A. Student A uses a shunt of 0.1 Ω. Student B uses a shunt of 1 Ω. Which ammeter will have higher accuracy for measuring currents near 0.5 A? Explain using the concept of equivalent resistance and circuit loading.",
+     "a": "**Answer:** Student A's ammeter (0.1 Ω shunt) will be more accurate.  \n**Reasoning:** Equivalent resistance of ammeter = \\(\\frac{G r_s}{G + r_s}\\).  \nFor A: \\(R_{eq} = \\frac{100 \\times 0.1}{100.1} \\approx 0.0999 \\text{ Ω}\\).  \nFor B: \\(R_{eq} = \\frac{100 \\times 1}{101} \\approx 0.99 \\text{ Ω}\\).  \nWhen inserted in series, A adds ~0.1 Ω to the circuit, B adds ~1 Ω. For a typical circuit resistance of 10 Ω, B introduces ~10% error in total resistance, while A introduces ~1% error. Lower equivalent resistance means less circuit disturbance.  \n**Misconception revealed:** If a student picks B because \"1 Ω is closer to the calculated 0.1001 Ω\", they are comparing the shunt value to the *ideal shunt* rather than comparing the *equivalent resistance* to the circuit resistance. Accuracy depends on loading effect, not shunt precision alone.",
+     "self_check": true
+    },
+    {
+     "q": "A galvanometer is converted into a voltmeter of range 0–5 V using a series resistance of 4950 Ω. The galvanometer resistance is 50 Ω. A student claims: \"The voltage sensitivity of this voltmeter is 1 division per volt because the full-scale deflection is 5 V and the scale has 5 divisions.\" Evaluate this claim.",
+     "a": "**Answer:** The claim is incorrect. Voltage sensitivity is defined as deflection per unit voltage (\\(\\varphi/V\\)), not divisions per volt.  \n**Correct analysis:** From \\(\\varphi = \\frac{NAB}{k} I\\) and \\(I = \\frac{V}{G+R}\\), voltage sensitivity \\(= \\frac{\\varphi}{V} = \\frac{NAB}{k(G+R)}\\). It depends on \\(N, A, B, k, G, R\\). The number of scale divisions is arbitrary; sensitivity is a physical property of the instrument (rad/V or mm/V). A 5-division scale could be calibrated to 0–5 V or 0–10 V — the sensitivity changes, but the divisions don't define it.  \n**Misconception revealed:** The student confuses *scale calibration* (divisions per volt) with *instrument sensitivity* (deflection per volt). Sensitivity is determined by the galvanometer constants and the series resistance, not by how the manufacturer marks the scale.",
+     "self_check": true
+    },
+    {
+     "q": "Design a multi-range ammeter using a single galvanometer (G = 60 Ω, Ig = 1 mA) that can measure 0–0.1 A, 0–1 A, and 0–10 A. Specify the shunt resistances needed and explain how the range selector switch should be wired to avoid damaging the galvanometer when switching ranges.",
+     "a": "**Answer:**  \nShunt for 0.1 A: \\(r_{s1} = \\frac{0.001 \\times 60}{0.1 - 0.001} = \\frac{0.06}{0.099} \\approx 0.606 \\text{ Ω}\\)  \nShunt for 1 A: \\(r_{s2} = \\frac{0.001 \\times 60}{1 - 0.001} = \\frac{0.06}{0.999} \\approx 0.060 \\text{ Ω}\\)  \nShunt for 10 A: \\(r_{s3} = \\frac{0.001 \\times 60}{10 - 0.001} = \\frac{0.06}{9.999} \\approx 0.006 \\text{ Ω}\\)  \n\n**Switch wiring:** Use a *make-before-break* (shorting) selector switch. As the knob rotates, the next shunt connects *before* the previous one disconnects, so the galvanometer is never left without a shunt (which would expose it to full circuit current). The shunts are connected in parallel with the galvanometer, and the switch selects which shunt is active.  \n**Misconception revealed:** A student who suggests a simple break-before-make switch or series connection of shunts doesn't understand that an unshunted galvanometer in a live circuit will burn out instantly. The switch must maintain a shunt path at all times.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

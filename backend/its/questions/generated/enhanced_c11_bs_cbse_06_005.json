@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_06_005",
+   "title": "c11_bs_cbse_06_005",
+   "questions": [
+    {
+     "q": "Define business ethics in one sentence as per the NCERT Class 11 textbook, and state how it differs from legal responsibility.",
+     "a": "Business ethics refers to the socially determined moral principles which should govern business activities, concerning the relationship between business objectives, practices, and techniques and the good of society. It differs from legal responsibility because legal responsibility is fulfilled by mere compliance with the law, whereas ethical behaviour is just and fair conduct which goes beyond observing laws and government regulations. A wrong answer that equates ethics with law reveals the student has not grasped the \"voluntary\" and \"beyond compliance\" nature of ethics emphasized in the chapter.",
+     "self_check": true
+    },
+    {
+     "q": "A company follows all environmental laws but its factory emissions cause respiratory issues in the nearby village. The management argues they are \"ethical\" because they are \"law-abiding.\" Using the textbook's distinction, explain why this argument is flawed.",
+     "a": "The argument is flawed because the textbook explicitly states: \"Ethical behaviour is just and fair conduct which goes beyond observing laws and government regulations.\" Social responsibility is broader than legal responsibility; it involves an element of voluntary action for the benefit of society even when not covered by law. If the student says \"following law is enough,\" they hold the misconception that legality equals morality, missing the core concept that ethics addresses harms the law hasn't yet caught up to.",
+     "self_check": true
+    },
+    {
+     "q": "\"GreenFab Ltd.\" wants to implement business ethics. The CEO issues a 10-page code of conduct but does not discuss it in meetings, does not train managers, and fires a worker who reported a safety violation. Identify which THREE of the five elements of business ethics are missing and explain the consequence of each missing element.",
+     "a": "Missing elements: (1) Top management commitment – CEO's actions contradict the code, signaling it's not a priority. (2) Establishment of compliance mechanisms – no safe reporting channel (worker fired for reporting), so violations go unchecked. (3) Involving employees at all levels – code imposed top-down without discussion, so employees don't own it. Consequence: The code becomes a \"window-dressing\" document; unethical practices continue because the system to enforce and live it is absent. A wrong answer listing only \"code not followed\" misses the systemic nature of the five elements.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"Code of Ethics\" (element 2) and \"Compliance Mechanisms\" (element 3). How does the absence of one undermine the other? Give a concrete business example.",
+     "a": "A Code of Ethics states the *principles* (e.g., \"We do not bribe officials\"), while Compliance Mechanisms create the *systems* to ensure adherence (e.g., whistleblower hotline, audit of payments, training). Without a code, compliance mechanisms have no standard to enforce; without compliance mechanisms, the code is aspirational only. Example: A firm has a code prohibiting bribery but no mechanism to monitor procurement officers' gifts from vendors. Result: Bribery continues because detection is impossible. If the student treats them as interchangeable, they miss the distinction between *declaration* and *enforcement*.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Measuring results of ethics programmes (element 5) is impossible because ethics is subjective; therefore, companies should focus only on the first four elements.\" Use the textbook's view on measurement.",
+     "a": "The statement is incorrect. The textbook acknowledges: \"Although it is difficult to accurately measure the end results of ethics programmes, the firms can certainly audit to monitor compliance with ethical standards.\" Measurement in ethics means auditing compliance (e.g., number of violations reported, training completion rates, stakeholder surveys), not quantifying morality. Abandoning measurement means no feedback loop for improvement, rendering the first four elements a static ritual. A student agreeing with the statement confuses \"difficult to measure precisely\" with \"impossible to assess at all.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini \"Ethics Implementation Plan\" for a small family-owned restaurant chain (5 outlets, 50 employees) that incorporates all five elements of business ethics. Specify one concrete action for each element suitable for this scale.",
+     "a": "A good answer includes: (1) Top management commitment: Owner-manager holds monthly \"Ethics Open Forum\" with staff. (2) Publication of a Code: One-page \"Our Values\" poster in kitchen and office covering fair pricing, hygiene, respectful behavior. (3) Compliance mechanisms: Anonymous suggestion box + quarterly review of customer complaints by owner. (4) Involving employees: Rotating \"Ethics Champion\" role among staff to lead discussions on dilemmas (e.g., handling expired ingredients). (5) Measuring results: Track quarterly: % staff trained, complaints resolved, hygiene audit scores. Poor answer: vague actions like \"be honest\" without structural implementation, showing inability to translate principles to practice.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

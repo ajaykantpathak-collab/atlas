@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_08_002",
+   "title": "c12_biotech_cbse_08_002",
+   "questions": [
+    {
+     "q": "A researcher isolates cells from a mouse liver using collagenase digestion and cultures them for the first time. After 3 days, the culture contains hepatocytes, Kupffer cells, stellate cells, and endothelial cells. What type of culture is this, and why is it heterogeneous?",
+     "a": "This is a primary cell culture. It is heterogeneous because the enzymatic dissociation releases all cell types present in the original tissue, not just the target hepatocytes. A wrong answer (e.g., \"established cell line\" or \"clonal population\") reveals the student confuses primary culture with a purified/subcultured line and does not understand that primary cultures retain the cellular diversity of the source tissue.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a primary culture of human dermal fibroblasts at passage 2 is still considered a primary culture, but the same cells at passage 10 are called an established cell line. What fundamental change occurs during those passages?",
+     "a": "Primary culture refers to the culture before the first subculture (passage 0) and sometimes includes early passages (typically ≤2) where the population still reflects the original tissue heterogeneity. By passage 10, repeated subculturing selects for the fastest-growing subpopulation, leading to genotypic/phenotypic uniformity — this is an established cell line. A wrong answer focusing only on passage number without mentioning selection pressure and loss of heterogeneity shows superficial memorization without understanding the biological basis of the distinction.",
+     "self_check": true
+    },
+    {
+     "q": "You need to study the effect of a cytokine on the differentiation of human osteoblasts. You have access to primary human osteoblasts (passage 1) and the established osteosarcoma line Saos-2. Which would you choose for (a) studying physiological differentiation markers, and (b) high-throughput screening of 500 cytokine analogs? Justify each choice.",
+     "a": "(a) Primary osteoblasts (passage 1) — they retain normal differentiation capacity and express physiological markers (e.g., osteocalcin, alkaline phosphatase) lost in transformed lines. (b) Saos-2 — homogeneous, infinite lifespan, and scalable for 500 replicates. Choosing Saos-2 for (a) or primary cells for (b) reveals failure to match culture type to experimental goal: primary for physiological relevance, established for throughput/reproducibility.",
+     "self_check": true
+    },
+    {
+     "q": "A lab reports that their \"primary neuronal culture\" from rat cortex has been passaged 5 times over 2 months and shows uniform morphology. Critique this claim using the concepts of primary culture, senescence, and neural cell biology.",
+     "a": "The claim is flawed. True primary neuronal cultures are post-mitotic and cannot be passaged; they are typically used within days of isolation. If the culture was passaged 5 times, it either contains proliferating glial contaminants (astrocytes/microglia) or is an established neural/glial line. A student accepting this claim misunderstands that neurons do not divide in vitro and that passaging selects for non-neuronal cells, destroying the \"primary neuronal\" identity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Established cell lines are superior to primary cultures for all pharmaceutical testing because they are reproducible and cost-effective.\" Provide two specific counterexamples where primary cultures are indispensable.",
+     "a": "The statement is false. Counterexample 1: Hepatotoxicity testing requires functional cytochrome P450 enzymes, which are rapidly lost in established hepatoma lines (e.g., HepG2) but retained in primary hepatocytes. Counterexample 2: Patient-derived primary tumor cultures (organoids) for personalized oncology drug screening — established lines cannot capture inter-patient heterogeneity. A student agreeing with the statement overlooks that physiological fidelity often trumps convenience in regulatory toxicology and precision medicine.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step experimental workflow to convert a primary culture of chicken embryonic fibroblasts (CEFs) into a well-characterized established cell line, including validation assays at each step. Specify the passage numbers where you would perform karyotyping, growth curve analysis, and viral susceptibility testing.",
+     "a": "Step 1 (P0-P2): Serial passage 1:3 twice weekly; monitor for senescence crisis. At P3, perform karyotyping to confirm diploid stability. Step 2 (P5-P10): Continue passaging; at P10, conduct growth curve analysis (doubling time, saturation density) to document finite vs. continuous phenotype. Step 3 (P15+): If cells bypass senescence, test viral susceptibility (e.g., avian leukosis virus) to confirm transformation phenotype. Freeze master/working banks at P15. A poor answer omits validation assays or suggests karyotyping at P0 (too early to detect drift) or P30 (too late for master bank).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

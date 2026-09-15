@@ -1,0 +1,469 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 107,
+ "chapter_title": "Reaching the Age of Adolescence (Chapter 7)",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\hesc107.txt",
+ "concepts": [
+  {
+   "id": "hesc.107.7.1",
+   "title": "Adolescence and Puberty",
+   "section": "7.1",
+   "definition": "The developmental phase during which the human body undergoes physical transformation leading to reproductive maturity is known as adolescence, while the onset of these reproductive changes is termed puberty.",
+   "formula": "",
+   "key_idea": "Adolescence spans roughly from age 11 to 19, during which bodily changes culminate in reproductive capacity.",
+   "textbook_ref": "hesc107.txt lines 25-55",
+   "question_patterns": [
+    "in Class 8 science: define adolescence and puberty",
+    "what is the difference between adolescence and puberty",
+    "explain the age range during which adolescence typically occurs in humans",
+    "state why adolescents are also referred to as teenagers",
+    "describe how the onset of puberty marks the attainment of reproductive maturity"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify developmental period",
+     "explain": "Adolescence is the phase between childhood and adulthood lasting from about 11 to 19 years."
+    },
+    {
+     "step": 2,
+     "action": "define puberty",
+     "explain": "Puberty refers to the specific physical changes that make an individual capable of reproduction."
+    },
+    {
+     "step": 3,
+     "action": "differentiate adolescence from puberty",
+     "explain": "Adolescence is the entire developmental period from about age 11 to 19, while puberty is the specific onset of reproductive maturity within that period."
+    }
+   ]
+  },
+  {
+   "id": "hesc.107.7.2.1",
+   "title": "Calculation of Full Height at Puberty",
+   "section": "7.2",
+   "definition": "The projected total adult stature of a person calculated using their current physical height and the standard growth percentage attained at that specific age.",
+   "formula": "full_height = (present_height * 100) / percent_height",
+   "key_idea": "Estimated full height equals present height divided by the growth percentage achieved at that age, multiplied by 100.",
+   "textbook_ref": "hesc107.txt lines 70-110",
+   "question_patterns": [
+    "in Class 8 science: calculate the full height of a boy who is currently 120 cm tall at age 9 having reached 75 percent growth",
+    "find the estimated full adult height given present height and percentage of height achieved",
+    "a girl is 132 cm tall at age 11 and has reached 88 percent of her total height, determine her full height",
+    "calculate projected full height from current height and growth percentage",
+    "what is the expected adult height if a boy is 140 cm tall and at 84 percent growth"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "scale current height",
+     "explain": "Multiply current height by 100 to prepare for percentage division",
+     "compute": "scaled_height = present_height * 100"
+    },
+    {
+     "step": 2,
+     "action": "divide by growth percentage",
+     "explain": "Divide the scaled height by the percentage of full height achieved at the current age",
+     "compute": "full_height = scaled_height / percent_height"
+    },
+    {
+     "step": 3,
+     "action": "interpret the computed result",
+     "explain": "The calculated value gives the estimated full adult height, assuming the individual continues growing at the standard rate for their age.",
+     "compute": "full_height = (present_height * 100) / percent_height"
+    }
+   ]
+  },
+  {
+   "id": "hesc.107.7.2.2",
+   "title": "Physical Changes and Voice Box Development",
+   "section": "7.2",
+   "definition": "Structural transformations during puberty including bone growth, body shape alterations, heightened sweat and oil gland activity, and enlargement of the larynx forming the Adam's apple in males.",
+   "formula": "",
+   "key_idea": "Growth spurts, widening of shoulders or hips, active cutaneous glands, and voice box enlargement are prominent physical changes during puberty.",
+   "textbook_ref": "hesc107.txt lines 115-185",
+   "question_patterns": [
+    "in Class 8 science: explain why the voice box enlarges in adolescent boys forming an Adam's apple",
+    "describe the physical body shape changes that occur in boys and girls during puberty",
+    "what causes acne and pimples during adolescence",
+    "state why adolescents experience sudden changes in height and voice",
+    "identify the gland responsible for increased sweat and oil production during puberty"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe larynx growth",
+     "explain": "In growing boys, the voice box or larynx enlarges noticeably, protruding as the Adam's apple and causing voice deepening or hoarseness."
+    },
+    {
+     "step": 2,
+     "action": "explain gland activity",
+     "explain": "Increased secretion from sweat and sebaceous glands during puberty often causes acne and pimples on the face."
+    },
+    {
+     "step": 3,
+     "action": "summarize growth-related changes",
+     "explain": "During puberty, adolescents experience sudden increases in height, broadening of shoulders in boys and widening of hips in girls, along with changes in body shape."
+    }
+   ]
+  },
+  {
+   "id": "hesc.107.7.3",
+   "title": "Secondary Sexual Characters",
+   "section": "7.3",
+   "definition": "External physical traits that develop during puberty to distinguish biological males from females, driven by sex hormones without being primary reproductive organs.",
+   "formula": "",
+   "key_idea": "Features such as facial hair in males and mammary gland development in females serve to differentiate sexes at maturity.",
+   "textbook_ref": "hesc107.txt lines 190-230",
+   "question_patterns": [
+    "in Class 8 science: what are secondary sexual characters",
+    "list the secondary sexual characters that develop in boys and girls at puberty",
+    "explain the hormonal basis of secondary sexual features",
+    "identify features that help distinguish adolescent males from females",
+    "state how testosterone and estrogen trigger secondary sexual traits"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define traits",
+     "explain": "Secondary sexual characters are physical features that emerge during puberty, helping distinguish males from females."
+    },
+    {
+     "step": 2,
+     "action": "give examples",
+     "explain": "Examples include moustache and beard growth in boys, and breast development in girls, controlled by testosterone and estrogen respectively."
+    },
+    {
+     "step": 3,
+     "action": "explain the hormonal basis",
+     "explain": "Testosterone in males and estrogen in females are the sex hormones released at puberty that trigger the development of these secondary sexual characteristics."
+    }
+   ]
+  },
+  {
+   "id": "hesc.107.7.4",
+   "title": "Hormonal Control of Reproductive Onset",
+   "section": "7.4",
+   "definition": "The mechanism by which chemical messengers produced by endocrine glands enter the bloodstream to target specific organs and initiate reproductive processes under pituitary regulation.",
+   "formula": "",
+   "key_idea": "The pituitary gland secretes master hormones that stimulate testes and ovaries to produce primary sex hormones.",
+   "textbook_ref": "hesc107.txt lines 235-260",
+   "question_patterns": [
+    "in Class 8 science: how do hormones initiate reproductive functions in humans",
+    "what role does the pituitary gland play during the onset of puberty",
+    "explain how target sites respond to hormones secreted into the bloodstream",
+    "state which master endocrine gland controls testosterone and estrogen secretion",
+    "describe the signaling path from endocrine glands to target organs"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain endocrine secretion",
+     "explain": "Ductless endocrine glands secrete chemical messengers called hormones directly into the blood."
+    },
+    {
+     "step": 2,
+     "action": "describe pituitary action",
+     "explain": "Hormones from the pituitary gland instruct the testes to release testosterone and ovaries to release estrogen."
+    },
+    {
+     "step": 3,
+     "action": "trace the signaling pathway",
+     "explain": "Endocrine glands release hormones into the bloodstream, which carries them to specific target organs where they trigger the physical changes of puberty."
+    }
+   ]
+  },
+  {
+   "id": "hesc.107.7.5",
+   "title": "Female Reproductive Phase and Menstrual Cycle",
+   "section": "7.5",
+   "definition": "The cyclic monthly process in human females involving egg maturation, uterine wall thickening, and the periodic shedding of blood and tissue if fertilisation does not occur.",
+   "formula": "",
+   "key_idea": "The female reproductive span extends from menarche to menopause, marked by a cycle repeating approximately every 28 to 30 days.",
+   "textbook_ref": "hesc107.txt lines 265-310",
+   "question_patterns": [
+    "in Class 8 science: define menarche and menopause",
+    "explain the steps of the menstrual cycle in human females",
+    "what happens to the uterine lining when an egg is not fertilised",
+    "describe the average duration and frequency of the menstrual cycle",
+    "state the age range during which the female reproductive phase typically lasts"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define cycle stages",
+     "explain": "Menarche is the onset of the first menstrual flow at puberty, while menopause is the permanent stoppage of menstruation around age 45 to 50."
+    },
+    {
+     "step": 2,
+     "action": "explain monthly shedding",
+     "explain": "If fertilisation does not take place, the mature ovum and thickened uterine lining with blood vessels break down and shed off."
+    },
+    {
+     "step": 3,
+     "action": "state cycle duration and reproductive span",
+     "explain": "The menstrual cycle repeats approximately every 28 to 30 days, and the female reproductive phase lasts from menarche at puberty to menopause around age 45 to 50."
+    }
+   ]
+  },
+  {
+   "id": "hesc.107.7.6",
+   "title": "Sex Chromosomes and Sex Determination",
+   "section": "7.6",
+   "definition": "The biological process by which the combination of X and Y chromosomes contributed by male and female gametes establishes the genetic sex of the zygote.",
+   "formula": "",
+   "key_idea": "Human cells have 23 pairs of chromosomes; an XX pair produces a female child while an XY pair produces a male child.",
+   "textbook_ref": "hesc107.txt lines 315-365",
+   "question_patterns": [
+    "in Class 8 science: explain how the sex of an unborn baby is determined",
+    "why is the father's sperm responsible for determining the sex of the child",
+    "describe the chromosome constitution of human male and female gametes",
+    "what chromosome combination results in a male child",
+    "state how many pairs of chromosomes are present in a human body cell"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify sex chromosomes",
+     "explain": "Females have two X chromosomes (XX) while males have one X and one Y chromosome (XY)."
+    },
+    {
+     "step": 2,
+     "action": "explain fertilization combination",
+     "explain": "An unfertilised egg always contains an X chromosome. If fertilized by an X sperm, the baby is female (XX); if by a Y sperm, the baby is male (XY)."
+    },
+    {
+     "step": 3,
+     "action": "explain the father's role in sex determination",
+     "explain": "Since the mother always contributes an X chromosome, it is the father's sperm carrying either X or Y that determines the sex of the child."
+    }
+   ]
+  },
+  {
+   "id": "hesc.107.7.7",
+   "title": "Other Endocrine Glands and Their Hormones",
+   "section": "7.7",
+   "definition": "Ductless glands in the human body such as the thyroid, pancreas, adrenals, and pituitary that release specific regulatory hormones directly into blood circulation.",
+   "formula": "",
+   "key_idea": "Thyroxine, insulin, adrenalin, and growth hormone regulate body metabolic rates, blood glucose levels, stress responses, and general physical growth.",
+   "textbook_ref": "hesc107.txt lines 370-415",
+   "question_patterns": [
+    "in Class 8 science: name the hormone secreted by the thyroid gland and its deficiency disease",
+    "which endocrine gland produces insulin and what condition arises from its lack",
+    "explain the function of adrenalin hormone during stressful situations",
+    "list four endocrine glands other than sex glands and state one hormone each secretes",
+    "describe the role of growth hormone released by the pituitary gland"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "match glands to hormones",
+     "explain": "Thyroid secretes thyroxine, pancreas secretes insulin, adrenals secrete adrenalin, and pituitary secretes growth hormone."
+    },
+    {
+     "step": 2,
+     "action": "describe hormonal functions",
+     "explain": "Deficiency of thyroxine causes goitre, lack of insulin leads to diabetes, and adrenalin helps the body cope with emotional stress."
+    },
+    {
+     "step": 3,
+     "action": "summarize the role of growth hormone",
+     "explain": "The pituitary gland secretes growth hormone which regulates the overall physical growth and development of the body throughout adolescence."
+    }
+   ]
+  },
+  {
+   "id": "hesc.107.7.8",
+   "title": "Hormonal Regulation of Metamorphosis",
+   "section": "7.8",
+   "definition": "The hormone-driven transformation of animal larvae into mature adults, such as tadpoles transforming into frogs, which requires essential minerals like iodine in their environment.",
+   "formula": "",
+   "key_idea": "Thyroxine hormone controls tadpole metamorphosis, requiring sufficient dissolved iodine in aquatic habitats.",
+   "textbook_ref": "hesc107.txt lines 420-445",
+   "question_patterns": [
+    "in Class 8 science: explain the role of hormones in the metamorphosis of insects and frogs",
+    "why is iodine necessary in water for tadpoles to grow into adult frogs",
+    "what happens to tadpoles if they are raised in iodine-deficient water",
+    "define metamorphosis and name the hormone controlling it in frogs",
+    "describe how insect hormones facilitate transformation from larva to adult"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define metamorphosis",
+     "explain": "Metamorphosis is the drastic biological transformation from a larval stage into an adult body form."
+    },
+    {
+     "step": 2,
+     "action": "explain iodine requirement",
+     "explain": "Thyroxine produced by the thyroid gland drives frog metamorphosis, and thyroxine synthesis strictly requires iodine in water."
+    },
+    {
+     "step": 3,
+     "action": "describe consequences of iodine deficiency",
+     "explain": "If tadpoles are raised in iodine-deficient water, thyroxine cannot be produced, and they fail to undergo metamorphosis into adult frogs."
+    }
+   ]
+  },
+  {
+   "id": "hesc.107.7.9",
+   "title": "Reproductive Health and Personal Hygiene",
+   "section": "7.9",
+   "definition": "The state of physical and mental wellbeing during adolescence achieved through a balanced diet, adequate physical exercise, strict personal hygiene, and rejection of harmful addictive substances.",
+   "formula": "",
+   "key_idea": "Proper nutrition rich in iron and proteins along with hygiene and avoiding habit-forming drugs ensures healthy adolescent growth.",
+   "textbook_ref": "hesc107.txt lines 450-520",
+   "question_patterns": [
+    "in Class 8 science: what constitutes a balanced diet for an adolescent",
+    "explain the importance of personal hygiene and regular exercise during adolescence",
+    "why should teenagers strictly say no to drugs",
+    "list iron-rich food items that help build blood in growing adolescents",
+    "state how the HIV virus can be transmitted from an infected person to a healthy individual"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "outline nutritional needs",
+     "explain": "Adolescents require balanced meals containing proteins, carbohydrates, fats, and vitamins, with iron-rich foods like green leafy vegetables and jaggery to build blood."
+    },
+    {
+     "step": 2,
+     "action": "state hygienic and safety measures",
+     "explain": "Daily bathing prevents bacterial infections from active sweat glands, while avoiding shared syringes prevents transmission of HIV."
+    },
+    {
+     "step": 3,
+     "action": "emphasize avoiding harmful substances",
+     "explain": "Adolescents should say no to habit-forming drugs and addictive substances, as these harm physical and mental development during this critical growth phase."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Activity 7.1 Textbook Example",
+   "concept": "hesc.107.7.2.1",
+   "question_type": "compute",
+   "question_pattern": "A boy is {present_height} cm tall at age 9 and has reached {percent_height} percent of his full height. Calculate his likely full height at adulthood.",
+   "extracted_variables": {
+    "present_height": 120,
+    "percent_height": 75
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "scale current height",
+     "explain": "Multiply present height by 100",
+     "compute": "scaled_height = present_height * 100"
+    },
+    {
+     "step": 2,
+     "action": "divide by growth percentage",
+     "explain": "Divide by the percentage of growth reached to find adult height",
+     "compute": "full_height = scaled_height / percent_height"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Activity 7.1 Practice Problem",
+   "concept": "hesc.107.7.2.1",
+   "question_type": "compute",
+   "question_pattern": "A girl is {present_height} cm tall at age 11 having attained {percent_height} percent of her total height. Determine her expected full height.",
+   "extracted_variables": {
+    "present_height": 132,
+    "percent_height": 88
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "scale current height",
+     "explain": "Multiply present height by 100",
+     "compute": "scaled_height = present_height * 100"
+    },
+    {
+     "step": 2,
+     "action": "divide by growth percentage",
+     "explain": "Divide by the percentage of growth reached to find adult height",
+     "compute": "full_height = scaled_height / percent_height"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex107.1",
+   "source_ref": "Textbook Exercise 1",
+   "questions": [
+    "State clearly what responsible means in this chapter and why it matters."
+   ]
+  },
+  {
+   "id": "ex107.2",
+   "source_ref": "Textbook Exercise 2",
+   "questions": [
+    "Define adolescence."
+   ]
+  },
+  {
+   "id": "ex107.3",
+   "source_ref": "Textbook Exercise 3",
+   "questions": [
+    "What is menstruation? Explain."
+   ]
+  },
+  {
+   "id": "ex107.4",
+   "source_ref": "Textbook Exercise 4",
+   "questions": [
+    "List the main points about changes in your own words."
+   ]
+  },
+  {
+   "id": "ex107.5",
+   "source_ref": "Textbook Exercise 5",
+   "questions": [
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about depicting."
+   ]
+  },
+  {
+   "id": "ex107.6",
+   "source_ref": "Textbook Exercise 6",
+   "questions": [
+    "State clearly what function means in this chapter and why it matters."
+   ]
+  },
+  {
+   "id": "ex107.7",
+   "source_ref": "Textbook Exercise 7",
+   "questions": [
+    "Choose the correct option: (a) Adolescents should be careful about what they eat, because proper diet is needed for the rapid growth taking place in their body.",
+    "Choose the correct option: (b) Reproductive age in women starts when their menstruation starts.",
+    "Choose the correct option: (c) The right meal for adolescents consists of chapati, dal, vegetables."
+   ]
+  },
+  {
+   "id": "ex107.8",
+   "source_ref": "Textbook Exercise 8",
+   "questions": [
+    "Write notes on Adam's apple, Secondary sexual characters, and Sex determination in the unborn baby."
+   ]
+  }
+ ],
+ "gate_problems": [
+  "chapter_title does not match the file opening: wrong or mislabeled source file"
+ ],
+ "gate_status": "GATE_FAIL",
+ "source_link": "re-linked to new cache"
+}

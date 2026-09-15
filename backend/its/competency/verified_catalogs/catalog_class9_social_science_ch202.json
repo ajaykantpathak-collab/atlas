@@ -1,0 +1,436 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 202,
+ "chapter_title": "People as Resource",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\fees111.txt",
+ "concepts": [
+  {
+   "id": "iess.202.1",
+   "title": "Concept of Human Capital and People as Resource",
+   "section": "Overview",
+   "definition": "The working segment of a country considered in terms of its skills, technical abilities, and productive capacities that contribute to national output.",
+   "formula": "none",
+   "key_idea": "Investing in human beings turns population from a liability into a productive economic asset.",
+   "textbook_ref": "iess202.txt lines 1-60",
+   "question_patterns": [
+    "What is meant by people as a resource",
+    "How does population transform into human capital",
+    "Explain the significance of human capital in national output",
+    "Why is human resource considered superior to land and physical capital",
+    "Describe how investment in human resources yields returns"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the core inputs",
+     "explain": "Human capital formation occurs through targeted expenditure on schooling, vocational training, and healthcare."
+    },
+    {
+     "step": 2,
+     "action": "Assess productivity advantages",
+     "explain": "Trained and healthy individuals produce higher output and utilize physical capital and land effectively, generating both private earnings and social benefits."
+    }
+   ]
+  },
+  {
+   "id": "iess.202.2",
+   "title": "Virtuous and Vicious Cycles in Human Capital Formation",
+   "section": "Story of Sakal and Vilas",
+   "definition": "A developmental pattern where educated parents invest substantially in their children creating positive compounding gains, contrasted with disadvantaged parents perpetuating deprivation.",
+   "formula": "none",
+   "key_idea": "Sustained family investment in child health and learning creates intergenerational upward mobility.",
+   "textbook_ref": "iess202.txt lines 61-160",
+   "question_patterns": [
+    "Compare the life outcomes of Sakal and Vilas",
+    "What constitutes a virtuous cycle in human development",
+    "How is a vicious cycle formed among disadvantaged families",
+    "Why did Japan become a developed country without rich natural resources",
+    "Explain the role of parental awareness in child development"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze initial investments",
+     "explain": "Contrast the presence of formal schooling, vocational courses, and medical care in one case with the absence of schooling and medical treatment in another."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate long term economic divergence",
+     "explain": "Enhanced skills open formal sector opportunities with rising incomes, while lack of training confines labour to low paying traditional work."
+    }
+   ]
+  },
+  {
+   "id": "iess.202.3",
+   "title": "Classification of Economic Activities into Three Sectors",
+   "section": "Economic Activities by Men and Women",
+   "definition": "The categorisation of all output generating activities into primary extraction, secondary manufacturing, and tertiary service provision.",
+   "formula": "none",
+   "key_idea": "All three sectors jointly contribute goods and services to the Gross National Product.",
+   "textbook_ref": "iess202.txt lines 161-200",
+   "question_patterns": [
+    "Classify given occupations into primary secondary and tertiary sectors",
+    "What activities are included in the primary sector",
+    "Which sector comprises trade transport and communication",
+    "Differentiate between secondary and tertiary sectors",
+    "How do economic activities add value to national income"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine the nature of the activity",
+     "explain": "Primary involves direct exploitation of natural resources; secondary involves industrial processing; tertiary involves services supporting production and distribution."
+    },
+    {
+     "step": 2,
+     "action": "Assign the activity to the corresponding sector",
+     "explain": "Match the specific occupation against sector criteria to determine its exact classification."
+    }
+   ]
+  },
+  {
+   "id": "iess.202.4",
+   "title": "Market versus Non-Market Activities and Gender Division of Labour",
+   "section": "Economic Activities by Men and Women",
+   "definition": "The distinction between tasks performed for remuneration or profit and unpaid tasks performed for self consumption or domestic upkeep.",
+   "formula": "none",
+   "key_idea": "Unpaid household work by women is excluded from national income calculations due to the non-market nature of domestic chores.",
+   "textbook_ref": "iess202.txt lines 201-260",
+   "question_patterns": [
+    "Distinguish between market activities and non-market activities",
+    "Why is domestic work done by women not counted in national income",
+    "What factors determine the earning of an individual in the labour market",
+    "Why are women often paid lower wages compared to men",
+    "Identify whether a given task is an economic or non-economic activity"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check for remuneration or commercial exchange",
+     "explain": "If the effort produces goods or services sold for pay or profit, it is a market activity; if it is for domestic self-use, it is non-market."
+    },
+    {
+     "step": 2,
+     "action": "Assess inclusion in national accounting",
+     "explain": "Only market activities and own-account fixed asset production enter national income aggregates."
+    }
+   ]
+  },
+  {
+   "id": "iess.202.5",
+   "title": "Education and Quality of Population",
+   "section": "Quality of Population - Education",
+   "definition": "The development of human knowledge, values, and literacy that improves individual earning potential and strengthens social governance.",
+   "formula": "none",
+   "key_idea": "Universal elementary education policies like Sarva Shiksha Abhiyan and Mid-Day Meals improve school retention and literacy.",
+   "textbook_ref": "iess202.txt lines 261-360",
+   "question_patterns": [
+    "Explain the role of education in human capital formation",
+    "What are the major objectives of Sarva Shiksha Abhiyan",
+    "How does the Mid-Day Meal scheme improve primary education",
+    "Describe the purpose of Navodaya Vidyalayas in rural districts",
+    "What steps have been taken by the government to enhance higher education"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify governmental policy interventions",
+     "explain": "Locate programs addressing access (Sarva Shiksha Abhiyan), nutrition and attendance (Mid-day meal), or specialized schooling (Navodaya Vidyalaya)."
+    },
+    {
+     "step": 2,
+     "action": "Trace societal and economic impacts",
+     "explain": "Increased literacy drives higher labour productivity, greater civic engagement, and higher national income."
+    }
+   ]
+  },
+  {
+   "id": "iess.202.6",
+   "title": "Health Indicators and Human Development",
+   "section": "Quality of Population - Health",
+   "definition": "The physiological well-being of the population measured through statistical indicators like life expectancy, infant mortality rate, crude birth rate, and crude death rate.",
+   "formula": "imr = (infant_deaths / live_births) * 1000",
+   "key_idea": "A healthy workforce maximizes output and prevents loss of working potential due to illness.",
+   "textbook_ref": "iess202.txt lines 361-440",
+   "question_patterns": [
+    "Define infant mortality rate birth rate and death rate",
+    "Why is health considered an indispensable foundation for economic development",
+    "How does life expectancy reflect the quality of life",
+    "Calculate the change in health indicator over a period",
+    "Explain the expansion of health infrastructure in India since independence"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find absolute change in indicator value",
+     "explain": "Subtract the final value from the initial value or vice versa to get the difference",
+     "compute": "indicator_diff = abs(val_final - val_initial)"
+    },
+    {
+     "step": 2,
+     "action": "Calculate percentage reduction or increase",
+     "explain": "Divide the difference by the initial value and scale to percentage",
+     "compute": "pct_change = (indicator_diff / val_initial) * 100"
+    }
+   ]
+  },
+  {
+   "id": "iess.202.7",
+   "title": "Unemployment and Workforce Demographics",
+   "section": "Unemployment",
+   "definition": "A condition in which individuals within the active working age bracket who are seeking employment at prevailing wages cannot secure jobs.",
+   "formula": "unemployed_count = labour_force - employed_count",
+   "key_idea": "Only individuals aged 15 to 59 years actively seeking paid work are counted in unemployment statistics.",
+   "textbook_ref": "iess202.txt lines 441-480",
+   "question_patterns": [
+    "Define the term unemployment",
+    "What is the standard working age group in the Indian workforce",
+    "Why are children and elderly people not categorized as unemployed",
+    "Explain why housewives choosing domestic work are not counted as unemployed",
+    "Compute the number of unemployed individuals from labour force and employment data"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute total unemployed persons",
+     "explain": "Deduct the count of employed persons from the total labour force",
+     "compute": "unemployed_count = labour_force - employed_count"
+    },
+    {
+     "step": 2,
+     "action": "Compute unemployment rate percentage",
+     "explain": "Divide the unemployed count by the labour force and multiply by 100",
+     "compute": "unemployment_rate = (unemployed_count / labour_force) * 100"
+    }
+   ]
+  },
+  {
+   "id": "iess.202.8",
+   "title": "Types of Unemployment: Seasonal, Disguised, and Educated",
+   "section": "Unemployment",
+   "definition": "Distinct forms of joblessness including agricultural off-season idleness, invisible surplus workers on family plots, and educated degree holders lacking suitable jobs.",
+   "formula": "surplus_labour = total_workers - required_workers",
+   "key_idea": "Disguised unemployment occurs when marginal productivity of surplus workers is zero.",
+   "textbook_ref": "iess202.txt lines 481-540",
+   "question_patterns": [
+    "Differentiate between disguised unemployment and seasonal unemployment",
+    "What is educated unemployment and why is it prevalent in urban India",
+    "How does disguised unemployment occur in the agricultural sector",
+    "Calculate the number of surplus disguised workers on a farm",
+    "Explain the paradoxical manpower situation in urban labour markets"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify required versus actual workforce",
+     "explain": "Subtract the minimum number of workers needed to maintain output from total engaged workers",
+     "compute": "surplus_labour = total_workers - required_workers"
+    }
+   ]
+  },
+  {
+   "id": "iess.202.9",
+   "title": "Consequences of Unemployment and Sectoral Absorption",
+   "section": "Unemployment / Story of a Village",
+   "definition": "The socio-economic costs of joblessness that transform assets into liabilities, increase dependency ratios, and prompt labour migration to secondary and tertiary sectors.",
+   "formula": "none",
+   "key_idea": "Unemployment increases economic overload and leads to loss of human capital potential.",
+   "textbook_ref": "iess202.txt lines 541-620",
+   "question_patterns": [
+    "What are the detrimental economic consequences of unemployment",
+    "Why is agriculture the most labour absorbing sector of the Indian economy",
+    "How does creation of vocational skills generate new local employment",
+    "Explain how unemployment leads to economic overload",
+    "Describe the transition of surplus agricultural labour into modern services"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Assess economic burden and dependency",
+     "explain": "Joblessness heightens the reliance of the non-working population on the employed workforce, reducing living standards."
+    },
+    {
+     "step": 2,
+     "action": "Examine sectoral shifts",
+     "explain": "Small scale manufacturing and emerging tertiary fields such as information technology absorb surplus farm workers."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iess202.txt lines 415-430",
+   "concept": "iess.202.6",
+   "question_type": "compute",
+   "question_pattern": "Infant mortality rate declined from {val_initial} in 1951 to {val_final} in 2020. Calculate the absolute decrease and the percentage reduction in IMR.",
+   "extracted_variables": {
+    "val_initial": 147,
+    "val_final": 36
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find absolute change in indicator value",
+     "explain": "Subtract the final value from the initial value",
+     "compute": "indicator_diff = abs(val_final - val_initial)"
+    },
+    {
+     "step": 2,
+     "action": "Calculate percentage reduction or increase",
+     "explain": "Divide difference by initial rate and multiply by 100",
+     "compute": "pct_change = (indicator_diff / val_initial) * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iess202.txt lines 415-430",
+   "concept": "iess.202.6",
+   "question_type": "compute",
+   "question_pattern": "If the death rate fell from {val_initial} to {val_final} per thousand, find the percentage drop in the death rate.",
+   "extracted_variables": {
+    "val_initial": 25,
+    "val_final": 6.2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find absolute change in indicator value",
+     "explain": "Subtract the final death rate from the initial death rate",
+     "compute": "indicator_diff = abs(val_final - val_initial)"
+    },
+    {
+     "step": 2,
+     "action": "Calculate percentage reduction or increase",
+     "explain": "Compute the drop relative to the initial value",
+     "compute": "pct_change = (indicator_diff / val_initial) * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "iess202.txt lines 445-480",
+   "concept": "iess.202.7",
+   "question_type": "compute",
+   "question_pattern": "In a town with a total labour force of {labour_force} persons, {employed_count} persons have gainful jobs. Calculate the number of unemployed individuals and the unemployment rate.",
+   "extracted_variables": {
+    "labour_force": 50000,
+    "employed_count": 46000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Compute total unemployed persons",
+     "explain": "Subtract employed individuals from the total labour force",
+     "compute": "unemployed_count = labour_force - employed_count"
+    },
+    {
+     "step": 2,
+     "action": "Compute unemployment rate percentage",
+     "explain": "Divide unemployed count by total labour force and scale by 100",
+     "compute": "unemployment_rate = (unemployed_count / labour_force) * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "iess202.txt lines 445-480",
+   "concept": "iess.202.7",
+   "question_type": "compute",
+   "question_pattern": "A region has an active labour force of {labour_force} people of whom {employed_count} are employed. Find the unemployment rate.",
+   "extracted_variables": {
+    "labour_force": 2000,
+    "employed_count": 1840
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Compute total unemployed persons",
+     "explain": "Deduct employed persons from total labour pool",
+     "compute": "unemployed_count = labour_force - employed_count"
+    },
+    {
+     "step": 2,
+     "action": "Compute unemployment rate percentage",
+     "explain": "Express the unemployed share as a percentage of the labour force",
+     "compute": "unemployment_rate = (unemployed_count / labour_force) * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "iess202.txt lines 490-515",
+   "concept": "iess.202.8",
+   "question_type": "compute",
+   "question_pattern": "An agricultural field engages {total_workers} family members, whereas the actual work only requires {required_workers} workers. Calculate the number of disguised unemployed workers.",
+   "extracted_variables": {
+    "total_workers": 8,
+    "required_workers": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify required versus actual workforce",
+     "explain": "Subtract required workers from total workers currently active on the plot",
+     "compute": "surplus_labour = total_workers - required_workers"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "iess202.txt lines 490-515",
+   "concept": "iess.202.8",
+   "question_type": "compute",
+   "question_pattern": "A family farm employs {total_workers} persons to cultivate wheat, but optimal production needs only {required_workers} laborers. How many people represent surplus disguised unemployment?",
+   "extracted_variables": {
+    "total_workers": 11,
+    "required_workers": 6
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify required versus actual workforce",
+     "explain": "Determine the excess workers who do not contribute to additional output",
+     "compute": "surplus_labour = total_workers - required_workers"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "iess202.txt lines 625-660",
+   "questions": [
+    "What do you understand by 'people as a resource'?",
+    "How is human resource different from other resources like land and physical capital?",
+    "What is the role of education in human capital formation?",
+    "What is the role of health in human capital formation?",
+    "What part does health play in the individual's working life?",
+    "What are the various activities undertaken in the primary sector, secondary sector and tertiary sector?",
+    "What is the difference between economic activities and non-economic activities?",
+    "Why are women employed in low paid work?",
+    "How will you explain the term unemployment?",
+    "What is the difference between disguised unemployment and seasonal unemployment?",
+    "Why is educated unemployed, a peculiar problem of India?",
+    "In which field do you think India can build the maximum employment opportunity?",
+    "Can you suggest some measures in the education system to mitigate the problem of the educated unemployed?",
+    "Can you imagine some village which initially had no job opportunities but later came up with many?",
+    "Which capital would you consider the best -- land, labour, physical capital and human capital? Why?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "title-matched to new cache"
+}

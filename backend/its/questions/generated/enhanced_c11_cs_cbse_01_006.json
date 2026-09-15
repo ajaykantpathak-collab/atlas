@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_01_006",
+   "title": "c11_cs_cbse_01_006",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between RAM and ROM in terms of data retention when the power supply is turned off?",
+     "a": "RAM is volatile and loses all stored data when power is turned off, while ROM is non-volatile and retains its data permanently without power. A wrong answer (e.g., \"both lose data\" or \"both retain data\") reveals the student confuses volatility with access type (read/write vs read-only) or thinks all primary memory behaves the same way.",
+     "self_check": true
+    },
+    {
+     "q": "A student says, \"ROM is called Read Only Memory because we can only read from it, never write to it. So how does the BIOS get updated if we can't write to ROM?\" Explain the misconception in this statement.",
+     "a": "The term \"Read Only\" refers to normal operation during program execution; the CPU cannot write to ROM as part of regular instructions. However, modern ROM (like EEPROM or flash memory) can be rewritten by special firmware update procedures using higher voltages or specific commands, which is not part of standard CPU write cycles. A wrong answer indicates the student takes \"Read Only\" literally and doesn't understand the distinction between CPU-level write operations and special reprogramming modes.",
+     "self_check": true
+    },
+    {
+     "q": "A computer has 8 GB of RAM. How many bytes is this? Show the conversion steps using the standard definition where 1 KB = 1024 Bytes.",
+     "a": "Step 1: 1 GB = 1024 MB. Step 2: 1 MB = 1024 KB. Step 3: 1 KB = 1024 Bytes. So 8 GB = 8 × 1024 × 1024 × 1024 Bytes = 8 × 1,073,741,824 = 8,589,934,592 Bytes. A wrong answer (e.g., using 1000 instead of 1024, or stopping at MB) reveals the student doesn't know the binary-based conversion chain or the exact multiplicative factors.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of RAM and cache memory in a computer system. Why is cache memory placed between the CPU and RAM even though RAM is already \"primary memory\"?",
+     "a": "RAM stores the currently running programs and data, but its access speed (nanoseconds) is slower than the CPU clock cycle (sub-nanoseconds). Cache memory (SRAM) is much faster but smaller and expensive. It holds copies of frequently accessed RAM locations so the CPU spends less time waiting. A wrong answer (e.g., \"cache is just extra RAM\" or \"cache stores permanent data\") shows the student doesn't grasp the speed hierarchy and the principle of locality of reference.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since ROM is non-volatile and faster than secondary storage, we should store all our files in ROM instead of hard disks.\" Provide two technical reasons why this is not feasible.",
+     "a": "First, ROM capacity is extremely small (typically MBs) compared to modern storage needs (GBs/TBs). Second, standard ROM (mask ROM) cannot be rewritten by the user; even flash-based ROM has limited write cycles and is far more expensive per GB than HDD/SSD. A wrong answer (e.g., \"ROM is too slow\" or \"ROM is volatile\") reveals confusion about ROM's attributes and cost/capacity trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world analogy for the memory hierarchy: Registers → Cache → RAM → Secondary Storage. Assign each level a familiar object (e.g., a notepad, a backpack, a library) and justify the mapping based on speed, capacity, and volatility.",
+     "a": "Example: Registers = CPU's immediate working hands (instant, tiny); Cache = a small whiteboard on the desk (very fast, small, wiped clean when power off); RAM = a notebook on the desk (fast, moderate size, loses data if power lost); Secondary Storage = a library shelf (slow to access, huge capacity, permanent). A poor analogy (e.g., swapping speeds or ignoring volatility) shows the student hasn't internalised the trade-offs between speed, size, and persistence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

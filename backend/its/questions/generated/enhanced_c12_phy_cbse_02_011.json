@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_02_011",
+   "title": "c12_phy_cbse_02_011",
+   "questions": [
+    {
+     "q": "State the formula for equivalent capacitance of three capacitors C₁, C₂, C₃ connected in series. What is the SI unit of equivalent capacitance?",
+     "a": "1/C_eq = 1/C₁ + 1/C₂ + 1/C₃; SI unit: farad (F). A wrong answer (e.g., C_eq = C₁ + C₂ + C₃) reveals the student is confusing series with parallel combination, or recalling resistor series formula incorrectly (resistors add in series, capacitors add reciprocally). This is the most common sign error in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Two capacitors of 4 μF and 6 μF are connected in parallel across a 12 V battery. Explain why the charge on the 6 μF capacitor is greater than on the 4 μF capacitor, even though they have the same potential difference.",
+     "a": "In parallel, V is same across both capacitors. Q = C·V, so Q ∝ C. Since 6 μF > 4 μF, Q₆ = 6 μF × 12 V = 72 μC > Q₄ = 48 μC. A student who says \"charge is same in parallel\" is confusing parallel with series combination. This misconception appears in JEE when they incorrectly apply series rules to parallel networks.",
+     "self_check": true
+    },
+    {
+     "q": "A 10 μF capacitor and a 20 μF capacitor are connected in series across a 300 V supply. Calculate (a) equivalent capacitance, (b) charge on each capacitor, (c) voltage across each capacitor.",
+     "a": "(a) 1/C_eq = 1/10 + 1/20 = 3/20 → C_eq = 20/3 ≈ 6.67 μF. (b) Q = C_eq·V = (20/3 μF) × 300 V = 2000 μC. Same Q on both (series). (c) V₁ = Q/C₁ = 2000 μC / 10 μF = 200 V; V₂ = Q/C₂ = 2000 μC / 20 μF = 100 V. Check: 200 + 100 = 300 V. A wrong answer with Q₁ ≠ Q₂ reveals failure to understand that series capacitors must have identical charge — a critical JEE concept.",
+     "self_check": true
+    },
+    {
+     "q": "Three identical capacitors each of capacitance C are connected as follows: C₁ and C₂ in series, and this series combination in parallel with C₃. Compare the equivalent capacitance of this network with a network where C₁ and C₂ are in parallel and that combination is in series with C₃. Which network has larger equivalent capacitance? Explain without calculation.",
+     "a": "Network 1 (series then parallel): C_eq1 = C/2 + C = 1.5C. Network 2 (parallel then series): C_eq2 = (2C·C)/(2C+C) = 2C/3 ≈ 0.67C. Network 1 has larger equivalent capacitance. A student who guesses they are equal or cannot reason without calculation lacks conceptual understanding of how series reduces and parallel increases capacitance. This tests analytical reasoning for competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a mixed capacitor network and gets equivalent capacitance 15 μF. The network has a 10 μF and a 20 μF capacitor. The student claims they must be in parallel because 10+20=30, not 15. Evaluate the student's reasoning. Is it possible to get 15 μF from 10 μF and 20 μF capacitors? If yes, how?",
+     "a": "The student's reasoning is incorrect. 15 μF can be obtained by connecting 10 μF and 20 μF in series: 1/C_eq = 1/10 + 1/20 = 3/20 → C_eq = 20/3 ≈ 6.67 μF (not 15). Wait — 15 μF cannot be obtained from just 10 and 20 μF in any two-capacitor combination. Series gives 6.67 μF, parallel gives 30 μF. The student's claim that \"they must be in parallel because 10+20=30\" shows they only know the parallel formula. To get 15 μF, you'd need a third capacitor or a different combination. This evaluates ability to check plausibility of results.",
+     "self_check": true
+    },
+    {
+     "q": "Design a capacitor network using only 10 μF capacitors to achieve an equivalent capacitance of exactly 15 μF. Draw the circuit diagram and show the step-by-step calculation.",
+     "a": "Use three 10 μF capacitors: connect two in series (giving 5 μF), then connect this series combination in parallel with the third 10 μF capacitor. C_series = 10/2 = 5 μF; C_eq = 5 + 10 = 15 μF. A poor answer uses four or more capacitors unnecessarily, or cannot achieve exactly 15 μF. This tests creativity and mastery of combination rules — a skill needed for JEE Advanced circuit design problems.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

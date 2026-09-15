@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_12_001",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_12_001",
+   "title": "c12_geo_cbse_12_001",
+   "questions": [
+    {
+     "q": "What is the total utilizable water resource of India in cubic km, and what percentage of the available surface water and replenishable groundwater does it represent?",
+     "a": "The total utilizable water resource is 1,122 cubic km, which is 60% of the 1,869 cubic km available from surface water and replenishable groundwater. A wrong answer (e.g., quoting 4,000 cubic km or 1,869 cubic km) reveals confusion between total precipitation, total available water, and utilizable water — a common error where students fail to apply the 60% usability constraint due to topographical and hydrological limitations.",
+     "self_check": true
+    },
+    {
+     "q": "Why do the Ganga, Brahmaputra, and Barak rivers together account for 60% of India's surface water resources despite covering only one-third of the country's area?",
+     "a": "These rivers have huge catchment areas located in high-precipitation zones (the Himalayan region and the Meghalaya hills) where rainfall is both intense and prolonged during the monsoon. A wrong answer attributing it solely to \"large catchment area\" misses the critical link between catchment rainfall intensity and surface water generation — students often forget that catchment size alone doesn't determine flow; rainfall within the catchment is the driver.",
+     "self_check": true
+    },
+    {
+     "q": "Using the data that agriculture accounts for 89% of surface water and 92% of groundwater utilization, calculate the approximate volume of groundwater used for irrigation if total groundwater utilization is 432 cubic km (replenishable) and the utilization rate is 60% (same as surface water). Show steps.",
+     "a": "Step 1: Total replenishable groundwater = 432 cubic km. Step 2: Utilizable groundwater (assuming same 60% as surface water) = 0.60 × 432 = 259.2 cubic km. Step 3: Agricultural share = 92% of utilizable groundwater = 0.92 × 259.2 = 238.46 cubic km. A wrong answer using 432 cubic km directly (ignoring utilizability) or using 89% (surface water share) reveals inability to distinguish between total resource, utilizable resource, and sectoral allocation — a multi-step reasoning trap in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the groundwater utilization patterns of Punjab/Haryana/Tamil Nadu (high utilization) with Chhattisgarh/Odisha/Kerala (low utilization). Identify the primary geographical and human factors causing this contrast.",
+     "a": "High-utilization states have intensive agriculture (rice-wheat cropping in Punjab/Haryana, paddy in Tamil Nadu) dependent on groundwater due to inadequate canal irrigation and low rainfall during critical growth periods. Low-utilization states have either high rainfall (Kerala, Odisha) reducing irrigation need, or less intensive agriculture (Chhattisgarh). A wrong answer citing only \"low rainfall\" for high-utilization states ignores the role of crop choice and policy-driven irrigation expansion — students must link physical water availability with human-driven demand.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's water crisis is primarily due to insufficient rainfall.\" Use data on utilizable water, sectoral demand, and pollution to justify your judgment.",
+     "a": "The statement is false. India receives 4,000 cubic km annual precipitation — sufficient in volume — but only 1,122 cubic km is utilizable. The crisis stems from (a) spatial/temporal mismatch (monsoon concentration, regional variation), (b) agriculture consuming 89-92% of water with low efficiency, (c) pollution rendering available water unusable (Yamuna, Ganga stretches), and (d) over-extraction depleting groundwater. A wrong answer blaming only rainfall shows failure to analyze demand-side management and quality degradation — a key competency for board case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page infographic for a Class 10 student showing India's water budget: start from 4,000 cubic km precipitation, show losses, available surface/groundwater, utilizable portion, and sectoral splits. Include one policy intervention (e.g., PMKSY) that addresses a specific leakage in this budget.",
+     "a": "A good infographic flows: 4,000 km³ precipitation → (evaporation, transpiration, runoff) → 1,869 km³ available surface + groundwater → 60% utilizable = 1,122 km³ → split: agriculture 89%/92%, industry 2%/5%, domestic 9% (surface). Policy link: PMKSY's \"per drop more crop\" targets the agriculture leakage by promoting micro-irrigation. A poor answer shows a linear list without proportional flows or misses the quality/pollution leakage — indicating inability to synthesize quantitative and qualitative dimensions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

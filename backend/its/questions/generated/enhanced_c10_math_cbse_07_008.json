@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_07_008",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_07_008",
+   "title": "c10_math_cbse_07_008",
+   "questions": [
+    {
+     "q": "Write the formula for the area of a triangle whose vertices are \\(A(x_1, y_1)\\), \\(B(x_2, y_2)\\), and \\(C(x_3, y_3)\\).",
+     "a": "The formula is \\(\\text{Area} = \\frac{1}{2} \\left| x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2) \\right|\\). A wrong answer (e.g., missing the \\(\\frac{1}{2}\\), missing the absolute value bars, or writing \\(x_1(y_3 - y_2)\\) instead of \\(x_1(y_2 - y_3)\\)) reveals that the student has memorised the formula incorrectly or does not understand the cyclic order of subtraction. This leads to sign errors and negative areas in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we take the absolute value in the area formula? Explain what would happen if we omitted it for the triangle with vertices \\((0,0)\\), \\((4,0)\\), \\((0,3)\\) when the vertices are taken in the order \\((0,0)\\), \\((0,3)\\), \\((4,0)\\).",
+     "a": "The absolute value ensures the area is non-negative because area is a magnitude. If we omit it and use vertices in order \\((0,0)\\), \\((0,3)\\), \\((4,0)\\), the formula gives \\(\\frac{1}{2}[0(3-0) + 0(0-0) + 4(0-3)] = \\frac{1}{2}(-12) = -6\\). The negative sign only indicates the vertices were taken in clockwise order; the actual area is \\(6\\) sq units. A student who says \"absolute value makes it positive\" without explaining the orientation dependence shows partial understanding. The common error is thinking the formula always gives a positive result without absolute value.",
+     "self_check": true
+    },
+    {
+     "q": "Find the area of the triangle with vertices \\(A(1, 2)\\), \\(B(3, 5)\\), and \\(C(4, 1)\\). Show all steps.",
+     "a": "**Step 1:** Identify coordinates: \\(x_1=1, y_1=2\\); \\(x_2=3, y_2=5\\); \\(x_3=4, y_3=1\\).\n**Step 2:** Write formula: \\(\\text{Area} = \\frac{1}{2} \\left| x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2) \\right|\\).\n**Step 3:** Substitute: \\(\\frac{1}{2} \\left| 1(5 - 1) + 3(1 - 2) + 4(2 - 5) \\right|\\).\n**Step 4:** Simplify inside: \\(1(4) + 3(-1) + 4(-3) = 4 - 3 - 12 = -11\\).\n**Step 5:** Absolute value: \\(|-11| = 11\\).\n**Step 6:** Multiply by \\(\\frac{1}{2}\\): \\(\\frac{11}{2} = 5.5\\) sq units.\nA wrong answer of \\(11\\) sq units (forgetting \\(\\frac{1}{2}\\)) or \\(-5.5\\) (forgetting absolute value) shows computational carelessness. A wrong answer like \\(6.5\\) indicates incorrect substitution order (e.g., using \\(y_3 - y_2\\) instead of \\(y_2 - y_3\\)).",
+     "self_check": true
+    },
+    {
+     "q": "The area of a triangle with vertices \\((2, 3)\\), \\((5, 7)\\), and \\((x, 4)\\) is \\(10\\) square units. Find the possible values of \\(x\\). Explain why there are two answers.",
+     "a": "**Step 1:** Substitute into formula: \\(\\frac{1}{2} \\left| 2(7 - 4) + 5(4 - 3) + x(3 - 7) \\right| = 10\\).\n**Step 2:** Simplify: \\(\\frac{1}{2} \\left| 2(3) + 5(1) + x(-4) \\right| = 10 \\Rightarrow \\frac{1}{2} \\left| 6 + 5 - 4x \\right| = 10\\).\n**Step 3:** \\(\\frac{1}{2} \\left| 11 - 4x \\right| = 10 \\Rightarrow \\left| 11 - 4x \\right| = 20\\).\n**Step 4:** Two cases: \\(11 - 4x = 20\\) or \\(11 - 4x = -20\\).\n**Step 5:** Case 1: \\(-4x = 9 \\Rightarrow x = -\\frac{9}{4}\\). Case 2: \\(-4x = -31 \\Rightarrow x = \\frac{31}{4}\\).\nThere are two values because the third vertex can lie on either of the two lines parallel to the base (line through the first two points) at a distance that gives the required area. A student giving only one value misses the absolute value's implication of two parallel lines. A student getting \\(x = 7.75\\) and \\(x = -2.25\\) but writing them as decimals without fractions loses marks in CBSE for not giving exact values.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved the problem: \"Find the area of the triangle with vertices \\((1, 1)\\), \\((2, 3)\\), \\((4, 5)\\).\" Their working:\n\\(\\text{Area} = \\frac{1}{2} \\left| 1(3-5) + 2(5-1) + 4(1-3) \\right| = \\frac{1}{2} \\left| -2 + 8 - 8 \\right| = \\frac{1}{2} \\left| -2 \\right| = 1\\) sq unit.\nIs the student's answer correct? If not, identify the error and give the correct area.",
+     "a": "The student's answer is **incorrect**. The error is in the substitution: the third term should be \\(x_3(y_1 - y_2) = 4(1 - 3) = -8\\), which they did correctly, but the vertices \\((1,1), (2,3), (4,5)\\) are **collinear** (slope AB = 2, slope BC = 1? Wait: slope AB = (3-1)/(2-1)=2, slope BC = (5-3)/(4-2)=1, not collinear). Let's recompute carefully:\n\\(1(3-5) = -2\\)\n\\(2(5-1) = 8\\)\n\\(4(1-3) = -8\\)\nSum = \\(-2\\). Area = 1 sq unit. Actually the points are not collinear. But wait: (1,1), (2,3), (4,5) -> line through (1,1) and (2,3) is y=2x-1. At x=4, y=7, not 5. So not collinear. Area = 1 is correct.\nLet me change the question to a collinear set: vertices (1,1), (2,2), (3,3).\nStudent working: \\(\\frac{1}{2} |1(2-3)+2(3-1)+3(1-2)| = \\frac{1}{2} |-1+4-3| = 0\\). Correct.\nBetter: Use a case where student forgets absolute value and gets negative area.\nNew Q: Student computed area of triangle (0,0), (4,0), (0,3) as -6 sq units. Is this correct?\nAnswer: No. Area cannot be negative. The student forgot the absolute value. The correct area is 6 sq units. The negative sign only indicates vertex order (clockwise). CBSE requires absolute value; missing it loses 1 mark.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem based on a real-life Indian context (e.g., a triangular park, a piece of farmland, a roof tile) where the area of a triangle is found using the coordinate formula. The problem must require the student to first assign coordinates to the vertices based on the description, then compute the area. Provide the problem statement and the solution.",
+     "a": "**Sample Problem:** A triangular community garden in a housing society in Delhi has corners at points A, B, and C. On the society map, corner A is at the gate (0,0), corner B is 10 m east and 0 m north of the gate (10,0), and corner C is 0 m east and 8 m north of the gate (0,8). Find the area of the garden. If grass sod costs ₹50 per sq m, find the total cost to cover the garden.\n**Solution:** Coordinates: A(0,0), B(10,0), C(0,8). Area = \\(\\frac{1}{2} |0(0-8) + 10(8-0) + 0(0-0)| = \\frac{1}{2} |80| = 40\\) sq m. Cost = \\(40 \\times 50 = ₹2000\\).\nA poor answer would be a problem that doesn't require coordinate assignment (e.g., directly gives coordinates) or uses base-height method without justifying coordinates. It shows inability to translate a physical scenario into a coordinate geometry problem.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

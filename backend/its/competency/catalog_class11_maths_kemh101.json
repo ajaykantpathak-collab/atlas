@@ -1,0 +1,187 @@
+{
+ "class": 11,
+ "subject": "maths",
+ "chapter": 101,
+ "chapter_title": "Sets",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kemh101.txt",
+ "concepts": [
+  {
+   "id": "kemh.101.1.1",
+   "title": "Sets and Their Representations: Roster and Set Builder Forms",
+   "section": "",
+   "definition": "A set is a well defined collection of objects, represented in roster form by listing elements or in set builder form by a property, with symbols of belongs to and does not belong to, and empty, finite and infinite sets classified by their elements.",
+   "formula": "",
+   "key_idea": "The chapter builds the vocabulary of sets, from empty and finite infinite sets to equal sets, that later chapters on relations and functions use.",
+   "textbook_ref": "kemh101.txt sets and their representations section",
+   "question_patterns": [
+    "define a set and give examples of well defined collections",
+    "write the set in roster and set builder forms",
+    "what is an empty set with examples",
+    "distinguish finite and infinite sets",
+    "when are two sets said to be equal",
+    "use the symbols of belongs to in set notation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the theme or source",
+     "explain": "Note the period, place and evidence the question concerns."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter narrative",
+     "explain": "Match the theme with the chapter's account and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms of the chapter."
+    }
+   ]
+  },
+  {
+   "id": "kemh.101.2.1",
+   "title": "Union, Intersection and Complement of Sets",
+   "section": "Operations on sets",
+   "definition": "Sets combine by union of elements in either set, intersection of common elements, difference of elements in one set not the other, and complement of elements outside a set within the universal set, and these obey laws of commutativity, associativity and distributivity.",
+   "formula": "n_a_union_b = n_a + n_b - n_a_intersection_b",
+   "key_idea": "The cardinal number formula ties counting of elements to the set operations, and De Morgan's laws connect union, intersection and complement.",
+   "textbook_ref": "kemh101.txt operations on sets section",
+   "question_patterns": [
+    "define union and intersection of sets with venn diagrams",
+    "state the formula for the number of elements in the union of two sets",
+    "calculate n a union b from n a n b and n a intersection b",
+    "what is the complement of a set",
+    "state de morgan's laws for sets",
+    "verify the distributive law of sets with an example"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the union counting formula",
+     "explain": "Add the cardinalities of the two sets and subtract the cardinality of their intersection",
+     "compute": "n_a_union_b = n_a + n_b - n_a_intersection_b"
+    }
+   ]
+  },
+  {
+   "id": "kemh.101.3.1",
+   "title": "Subsets, Power Set, Intervals and Venn Diagrams",
+   "section": "Subsets and intervals",
+   "definition": "A set A is a subset of B when every element of A lies in B, the power set holds all subsets with cardinality 2 to the power n, and intervals of the real line are written with open and closed brackets, with Venn diagrams picturing set relations.",
+   "formula": "power_set_size = 2 ** n_elements",
+   "key_idea": "Intervals like open, closed and half open are themselves sets of real numbers, and Venn diagrams show subset, union and intersection visually.",
+   "textbook_ref": "kemh101.txt subsets and intervals sections",
+   "question_patterns": [
+    "define subset and find the number of subsets of a set",
+    "what is the power set of a set and its cardinality",
+    "write intervals of the real line in set notation",
+    "draw venn diagrams for union intersection and subset relations",
+    "distinguish proper subset from subset",
+    "represent the practical problems on subsets using venn diagrams"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "raise two to the number of elements",
+     "explain": "Compute two raised to the number of elements of the set to get the size of its power set",
+     "compute": "power_set_size = 2 ** n_elements"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kemh101.txt operations on sets section",
+   "concept": "kemh.101.2.1",
+   "question_type": "compute_union_count",
+   "question_pattern": "In a class of students, {n_A} students play football, {n_B} play cricket and {n_A_intersection_B} play both games. Calculate the number of students who play football or cricket.",
+   "extracted_variables": {
+    "n_a": 21,
+    "n_b": 26,
+    "n_a_intersection_b": 9
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the union counting formula",
+     "explain": "Add the cardinalities of the two sets and subtract the cardinality of their intersection",
+     "compute": "n_a_union_b = n_a + n_b - n_a_intersection_b"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kemh101.txt operations on sets section",
+   "concept": "kemh.101.2.1",
+   "question_type": "compute_union_count",
+   "question_pattern": "A survey finds {n_A} people read newspaper A, {n_B} read newspaper B and {n_A_intersection_B} read both. Find how many read at least one newspaper.",
+   "extracted_variables": {
+    "n_a": 37,
+    "n_b": 28,
+    "n_a_intersection_b": 12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the union counting formula",
+     "explain": "Add the cardinalities of the two sets and subtract the cardinality of their intersection",
+     "compute": "n_a_union_b = n_a + n_b - n_a_intersection_b"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "kemh101.txt subsets section",
+   "concept": "kemh.101.3.1",
+   "question_type": "compute_power_set_size",
+   "question_pattern": "A set contains {n_elements} elements. Calculate the number of subsets in its power set.",
+   "extracted_variables": {
+    "n_elements": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "raise two to the number of elements",
+     "explain": "Compute two raised to the number of elements of the set to get the size of its power set",
+     "compute": "power_set_size = 2 ** n_elements"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "kemh101.txt subsets section",
+   "concept": "kemh.101.3.1",
+   "question_type": "compute_power_set_size",
+   "question_pattern": "How many subsets does a set with {n_elements} elements possess? Use the power set formula.",
+   "extracted_variables": {
+    "n_elements": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "raise two to the number of elements",
+     "explain": "Compute two raised to the number of elements of the set to get the size of its power set",
+     "compute": "power_set_size = 2 ** n_elements"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kemh101.txt exercises",
+   "questions": [
+    "Which of the following are sets? Justify your answer.",
+    "Write the given sets in roster form.",
+    "Write the set in set-builder form.",
+    "List all the subsets of the set with few elements.",
+    "State whether each of the following statements is true or false about subsets."
+   ]
+  }
+ ]
+}

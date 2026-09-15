@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "psychology",
+  "chapter": 102,
+  "chapter_title": "Methods of Enquiry in Psychology",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kepy102.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kepy102.1.1",
+      "title": "Goals of Psychological Enquiry",
+      "section": "2.1",
+      "definition": "Psychological enquiry pursues goals in a ladder: describing behaviour accurately, explaining it by causes, predicting how it will recur, and controlling or modifying it where desirable. Each goal builds on the previous one, and all rest on careful measurement.",
+      "formula": "",
+      "key_idea": "Describe, explain, predict, control -- the four-step ladder every psychological study climbs.",
+      "textbook_ref": "kepy102.txt goals sections (goals of psychological enquiry, description explanation prediction control, steps of conducting scientific research)",
+      "question_patterns": [
+        "state the goals of psychological enquiry",
+        "in class 11 methods of enquiry: how does prediction differ from explanation in psychology",
+        "what is meant by control of behaviour in psychological research",
+        "arrange the goals of enquiry in order and justify",
+        "give an example of describing and then explaining a behaviour",
+        "why is accurate description the foundation of psychological study"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "describe first",
+          "explain": "Behaviour must be named and measured accurately before anything else is possible."
+        },
+        {
+          "step": 2,
+          "action": "explain next",
+          "explain": "Explanation links the behaviour to its causes -- antecedent conditions and processes."
+        },
+        {
+          "step": 3,
+          "action": "predict and control",
+          "explain": "Known causes allow prediction of recurrence and, where ethical, modification of behaviour."
+        }
+      ]
+    },
+    {
+      "id": "kepy102.1.2",
+      "title": "Methods: Observation, Case Study, Survey and Correlational Research",
+      "section": "2.2",
+      "definition": "Psychologists gather data by several methods: naturalistic or controlled observation of behaviour as it happens; the case study's deep portrait of one person or group; surveys and questionnaires collecting self-reports from many respondents; and correlational research measuring how variables move together.",
+      "formula": "",
+      "key_idea": "Watch, probe, ask, relate -- four non-experimental routes to psychological data, each with its own blind spots.",
+      "textbook_ref": "kepy102.txt methods sections (observation, case study, survey questionnaire interview, correlational research, psychological testing)",
+      "question_patterns": [
+        "describe the observation method in psychology with its merits and demerits",
+        "in class 11 methods of enquiry: when is a case study the appropriate method",
+        "what precautions make questionnaire data trustworthy",
+        "explain correlational research with an example",
+        "compare interview and questionnaire as survey tools",
+        "why can correlation not prove causation"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "watch behaviour",
+          "explain": "Observation records action in natural or arranged settings, ideally with defined categories and trained observers."
+        },
+        {
+          "step": 2,
+          "action": "probe depth or breadth",
+          "explain": "Case studies mine individual depth; surveys trade depth for breadth through questionnaires and interviews."
+        },
+        {
+          "step": 3,
+          "action": "relate the variables",
+          "explain": "Correlational work quantifies how two measured variables covary -- association without causal proof."
+        }
+      ]
+    },
+    {
+      "id": "kepy102.1.3",
+      "title": "Experimental Method, Variables and Ethics",
+      "section": "2.3",
+      "definition": "The experiment is psychology's strongest method: an independent variable is manipulated while dependent variables are measured, with extraneous variables controlled through experimental and control groups, random assignment and other designs. Human research also binds the scientist to ethics -- informed consent, no harm, debriefing and confidentiality.",
+      "formula": "",
+      "key_idea": "Manipulate one thing, measure another, control the rest -- and never harm the participant.",
+      "textbook_ref": "kepy102.txt experiment and ethics sections (experimental group control group, independent dependent extraneous variables, random assignment, ethical issues informed consent confidentiality)",
+      "question_patterns": [
+        "define independent and dependent variables with an example",
+        "in class 11 methods of enquiry: why is a control group necessary in an experiment",
+        "what is random assignment and what does it achieve",
+        "state the ethical principles governing psychological research",
+        "design a simple experiment on memory and list its variables",
+        "why are extraneous variables dangerous to an experiment"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "set the variables",
+          "explain": "Choose the cause you will manipulate (independent variable) and the effect you will measure (dependent variable)."
+        },
+        {
+          "step": 2,
+          "action": "control the rest",
+          "explain": "Randomly assign participants to experimental and control groups so extraneous influences cancel across groups."
+        },
+        {
+          "step": 3,
+          "action": "respect the participants",
+          "explain": "Take informed consent, avoid harm, keep data confidential and debrief after the study."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kepy102.txt methods sections",
+      "concept": "kepy102.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "A researcher finds that students who sleep more score higher grades. Why can she not conclude that sleep causes high grades?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "identify the design",
+          "explain": "Two variables measured together without manipulation is a correlational study."
+        },
+        {
+          "step": 2,
+          "action": "name the rival explanations",
+          "explain": "A third factor -- say motivation or study habits -- could raise both sleep regularity and grades."
+        },
+        {
+          "step": 3,
+          "action": "state the remedy",
+          "explain": "Only an experiment that manipulates sleep while controlling everything else could warrant a causal claim."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kepy102.txt experiment sections",
+      "concept": "kepy102.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "Outline an experiment to test whether background music helps memorising, naming its variables and groups.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "set the variables",
+          "explain": "Independent variable: music present or absent; dependent variable: words recalled on a test."
+        },
+        {
+          "step": 2,
+          "action": "form the groups",
+          "explain": "Randomly assign participants to study with music (experimental) or in silence (control)."
+        },
+        {
+          "step": 3,
+          "action": "keep it ethical and clean",
+          "explain": "Hold noise, time and word lists constant; take consent and debrief participants afterwards."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kepy102.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Describe the goals of psychological enquiry with an example.",
+        "Compare observation and survey methods with merits and limitations.",
+        "What is a case study and when is it most useful?",
+        "Explain independent, dependent and extraneous variables.",
+        "Why can correlational findings not establish causation?",
+        "List the ethical safeguards required in psychological research."
+      ]
+    }
+  ]
+}

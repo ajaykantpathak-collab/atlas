@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_07_006",
+   "title": "c11_eco_cbse_07_006",
+   "questions": [
+    {
+     "q": "Define 'carrying capacity of environment' in the context of forest ecosystems and state the condition under which deforestation leads to irreversible biodiversity loss.",
+     "a": "Carrying capacity of a forest ecosystem is the maximum rate of resource extraction (timber, fuelwood, land conversion) that can be sustained indefinitely without degrading the ecosystem's regenerative functions (soil formation, nutrient cycling, habitat provision). Irreversible biodiversity loss occurs when the rate of habitat destruction exceeds the rate of natural regeneration *and* the remaining forest fragments fall below the minimum viable population threshold for keystone species (typically <1000 hectares for large mammals). A wrong answer (e.g., \"carrying capacity means maximum number of trees\") reveals the student confuses *stock* (number of trees) with *flow* (regeneration rate) and ignores the spatial configuration requirement for biodiversity persistence.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the per capita forest land availability of 0.06 hectare in India (against a requirement of 0.47 hectare) implies a *structural* deficit rather than a temporary shortage, using the concepts of renewable resource dynamics and population momentum.",
+     "a": "The 0.06 vs 0.47 hectare gap is structural because: (1) Forest regeneration operates on decadal timescales (30-80 years for mature ecosystems) while population grows exponentially — even if population stabilises today, momentum adds 150 million people by 2050, widening the gap. (2) Renewable resources like forests have a *critical depensation threshold*: below ~30% cover, microclimate changes (higher temperature, lower humidity) prevent natural regeneration, making the deficit self-reinforcing. (3) The \"requirement\" of 0.47 hectare includes ecological functions (watershed, carbon, biodiversity), not just timber — these are non-substitutable public goods. A wrong answer focusing only on \"planting more trees\" reveals confusion between *plantation* (monoculture, low biodiversity) and *forest restoration* (ecological succession, decades to recover functions).",
+     "self_check": true
+    },
+    {
+     "q": "A district has 12,000 hectares of forest. Annual legal extraction is 150 hectares, illegal extraction is estimated at 80 hectares, and natural regeneration is 120 hectares. Calculate the number of years until forest cover falls below the 33% ecological threshold if the district's total geographical area is 50,000 hectares. Show steps.",
+     "a": "Step 1: Current forest cover % = (12,000 / 50,000) × 100 = 24% (already below 33% threshold).  \nStep 2: Net annual loss = Legal extraction + Illegal extraction - Regeneration = 150 + 80 - 120 = 110 hectares/year.  \nStep 3: Forest cover after *t* years = 12,000 - 110t hectares.  \nStep 4: Threshold forest area = 33% of 50,000 = 16,500 hectares.  \nStep 5: Since current cover (12,000 ha) < threshold (16,500 ha), the district *already* violates the ecological threshold. Time to reach zero forest = 12,000 / 110 ≈ 109 years.  \nStep 6: Policy implication — immediate cessation of extraction and active restoration needed; sustainable yield calculation is irrelevant once threshold is breached.  \nA wrong answer calculating \"years to reach 33%\" reveals the student treats the threshold as a future target rather than a violated constraint, ignoring the *stock* dimension of environmental crisis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the biodiversity loss from two scenarios: (A) Clearing 1,000 hectares of contiguous primary forest for a highway, vs (B) Clearing 1,000 hectares of the same forest but distributed as 100 patches of 10 hectares each for small farms. Which causes greater species extinction and why? Use the concepts of habitat fragmentation, edge effects, and minimum viable area.",
+     "a": "Scenario B causes significantly greater biodiversity loss. Reasoning: (1) **Fragmentation**: 100 patches of 10 ha each have 10× more edge-to-interior ratio than one 1,000 ha block. Edge effects (invasive species, microclimate change, human access) penetrate ~300m into forest, meaning *entire* 10 ha patches become \"edge habitat\" with no interior core. (2) **Minimum viable area**: Large mammals (tiger, elephant) require 500-1000+ ha territories — all 100 patches are below this threshold, causing local extinction. (3) **Isolation**: Patches prevent gene flow, leading to inbreeding depression. (4) **Extinction debt**: Species persist temporarily in fragments but disappear within 2-3 generations. A wrong answer claiming \"same area cleared = same impact\" reveals ignorance of *spatial ecology* and the non-linear relationship between habitat configuration and biodiversity persistence.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Compensatory afforestation (planting trees on non-forest land equal to diverted forest area) achieves 'no net loss' of forest ecosystem services.\" Use the concepts of ecological equivalence, time discounting, and ecosystem maturity.",
+     "a": "The statement is **false** for three reasons: (1) **Ecological non-equivalence**: A 20-year-old plantation on degraded land provides <15% of the carbon sequestration, <5% of the biodiversity habitat, and negligible watershed regulation compared to a mature natural forest (per FSI 2021 data). (2) **Time discounting of ecosystem services**: Discounting future services at 5% (standard social discount rate), the net present value of services from a plantation maturing in 40 years is only ~14% of the immediate loss from clearing mature forest. (3) **Irreversibility of soil carbon and microbiome**: Forest soils store 60-70% of ecosystem carbon; clearing releases this instantly, while plantations take 100+ years to rebuild soil organic matter. A wrong answer accepting \"no net loss\" reveals the student treats forests as *fungible timber stocks* rather than *complex adaptive systems* with path-dependent development.",
+     "self_check": true
+    },
+    {
+     "q": "Design a village-level monitoring framework using three measurable indicators that would allow a Gram Sabha to detect early signs of forest degradation *before* canopy cover drops below 40%. Specify the indicator, measurement method, frequency, and the threshold that triggers intervention.",
+     "a": "**Indicator 1: Regeneration density** — Count of saplings (1-10 cm DBH) per hectare in 10 random 10m×10m plots. *Method*: Quadrat sampling by village youth trained by forest guard. *Frequency*: Post-monsoon (Oct) annually. *Threshold*: <500 saplings/ha (indicates grazing pressure/fire preventing recruitment).  \n**Indicator 2: Non-timber forest produce (NTFP) yield per collector** — Total kg of mahua, tendu, amla collected divided by number of collector-days. *Method*: SHG records. *Frequency*: Seasonal (quarterly). *Threshold*: >20% decline from 5-year moving average (indicates resource depletion).  \n**Indicator 3: Stream flow duration** — Number of days/year the village stream flows perennially. *Method*: Community water calendar. *Frequency*: Monthly recording. *Threshold*: <270 days/year (indicates watershed degradation).  \nA poor answer listing only \"tree count\" or \"satellite imagery\" reveals the student cannot design *participatory, leading indicators* that capture *functional* degradation before structural collapse.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

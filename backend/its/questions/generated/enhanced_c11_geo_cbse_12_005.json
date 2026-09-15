@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_12_005",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_12_005",
+   "title": "c11_geo_cbse_12_005",
+   "questions": [
+    {
+     "q": "Name the parent rock of Black Soil and the specific clay mineral responsible for its swell-shrink behaviour.",
+     "a": "Parent rock: Deccan Trap basalt. Clay mineral: montmorillonite (a smectite group mineral). A wrong answer (e.g., \"granite\" or \"kaolinite\") reveals the student has not linked the volcanic origin of the Deccan Plateau to the unique clay mineralogy — they are recalling generic soil facts instead of the specific basalt → smectite pathway.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Black Soil develops deep cracks in summer but becomes sticky and unworkable in monsoon, using the concept of clay mineralogy.",
+     "a": "Montmorillonite has a 2:1 expanding lattice structure with weak interlayer bonding; water molecules enter interlayer spaces causing swelling (sticky monsoon state), while evaporation pulls layers together creating shrinkage cracks (summer). A wrong answer citing \"high clay content\" without naming montmorillonite or explaining the expanding lattice shows the student memorises properties but cannot connect mineral structure to macroscopic behaviour.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Nanded district (Maharashtra) wants to shift from rainfed cotton to irrigated sugarcane on Black Soil. Identify two major soil-related constraints he will face and suggest one management practice for each.",
+     "a": "Constraints: (1) Poor drainage due to low hydraulic conductivity of swollen montmorillonite → waterlogging risk. Management: sub-surface drainage tiles or raised beds. (2) High ESP (Exchangeable Sodium Percentage) leading to sodicity under irrigation → dispersion and crusting. Management: gypsum application to replace Na⁺ with Ca²⁺. Wrong answers focusing only on \"nutrient deficiency\" miss the structural hazards unique to irrigated vertisols.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the nutrient profile of Black Soil with Alluvial Soil (Bangar) and explain why nitrogen and phosphorus fertilisation strategies differ between them.",
+     "a": "Black Soil: high Ca²⁺, Mg²⁺, K⁺ (from basalt), low N, P, organic matter; alkaline pH (7.5-8.5) fixes P as calcium phosphate. Alluvial (Bangar): moderate N, P, K; near-neutral pH; better organic matter. Strategy difference: Black Soil needs frequent split-dose N (leaching low but volatilisation high in alkaline pH) and P placement near roots (fixation); Bangar responds to broadcast P. Wrong answers treating both soils identically ignore pH-dependent P fixation and N dynamics.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the sustainability of expanding canal irrigation in the Black Soil region of Gujarat for water-intensive crops, considering soil salinity, groundwater rise, and long-term productivity.",
+     "a": "Unsustainable without conjunctive management. Canal irrigation raises saline groundwater (EC > 4 dS/m) in poorly drained vertisols, causing secondary salinisation within 5-10 years (evidence: Narmada command area). Sustainable path: drip irrigation + gypsum + salt-tolerant varieties + drainage. A wrong answer endorsing canal expansion ignores the swell-shrink clay's low permeability that prevents salt leaching — a classic vertisol management failure.",
+     "self_check": true
+    },
+    {
+     "q": "Design a cropping calendar for a 5-hectare Black Soil farm in Adilabad (Telangana) with 900 mm annual rainfall (June-Sept), no irrigation, that maximises income while maintaining soil health. Justify each crop choice.",
+     "a": "Kharif (June-Oct): Cotton (long-duration, deep roots exploit stored moisture) + Pigeon pea (intercrop, N-fixation, deep taproot breaks subsoil). Rabi (Oct-Mar): Chickpea (residual moisture, N-fixation) or Safflower (deep roots, drought-tolerant). Summer fallow with crop residue mulch to reduce cracking. Justification: cotton matches soil's moisture retention; legumes replenish N without fertiliser; deep-rooted rabi crops use subsoil moisture. Poor answers suggest rice or sugarcane — impossible without irrigation on vertisols.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

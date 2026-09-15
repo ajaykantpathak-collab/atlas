@@ -1,0 +1,415 @@
+{
+ "class": 12,
+ "subject": "chemistry",
+ "chapter": 204,
+ "chapter_title": "Amines",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lech204.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lech204.9.1.1",
+   "title": "Structure and Classification of Amines",
+   "section": "9.1",
+   "definition": "Amines arise when one, two or all three hydrogens of ammonia are swapped for alkyl or aryl groups; the trivalent nitrogen stays sp3 hybridised with a lone pair in the fourth orbital, giving a pyramidal shape with the C-N-E angle squeezed just under 109.5 degrees, and the products divide into primary, secondary and tertiary classes.",
+   "formula": "amine_classes = primary_rnh2 + secondary_rrnh + tertiary_r3n",
+   "key_idea": "Amines are called simple when all groups match and mixed when they differ; quaternary ammonium salts form when nitrogen takes a fourth group and a positive charge.",
+   "textbook_ref": "lech204.txt sections 9.1-9.2 with Fig 9.1 (lines ~17-96)",
+   "question_patterns": [
+    "classify (CH3)2CHNH2, CH3NHCH(CH3)2 and (CH3CH2)2NCH3 as primary, secondary or tertiary amines",
+    "explain why trimethylamine is pyramidal with a bond angle slightly below 109.5 degrees",
+    "state how many alkyl groups sit on nitrogen in a tertiary amine",
+    "draw the structures of all isomeric amines with formula C4H11N",
+    "when are two amines called simple versus mixed",
+    "what hybridisation and lone-pair arrangement does the nitrogen of an amine show"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "count the groups on nitrogen",
+     "explain": "one alkyl or aryl group gives a primary amine, two a secondary, three a tertiary"},
+    {"step": 2, "action": "note the tetrahedral electron geometry",
+     "explain": "sp3 nitrogen with one lone pair forces the pyramidal molecular shape"}
+   ]
+  },
+  {
+   "id": "lech204.9.3.1",
+   "title": "Naming Amines in Both Systems",
+   "section": "9.3",
+   "definition": "Common names glue the alkyl word to amine (methylamine) with di- and tri- prefixes for repeats, while IUPAC renames primary amines as alkanamines and pins nitrogen substituents with N- locants; aniline doubles as benzenamine, and multi-NH2 chains carry diamine or triamine endings.",
+   "formula": "primary_amine_iupac = alkane_stem_with_e_replaced_by_amine",
+   "key_idea": "CH3NHCH2CH3 reads N-methylethanamine because the longer chain becomes the parent and the methyl rides on nitrogen.",
+   "textbook_ref": "lech204.txt section 9.3 with Table 9.1 (lines ~97-176)",
+   "question_patterns": [
+    "write the IUPAC name of CH3NHCH(CH3)2",
+    "give the systematic name for trimethylamine",
+    "name C6H5NHCH3 by the N-locant convention",
+    "what is the IUPAC name of hexamethylenediamine",
+    "convert the common name ethylmethylamine into its IUPAC form",
+    "write both names for the simplest arylamine, C6H5NH2"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "promote the longest chain to parent",
+     "explain": "the parent takes the -amine ending; extra hydrocarbon groups on nitrogen get N- locants"},
+    {"step": 2, "action": "number multiple amino groups",
+     "explain": "keep the hydrocarbon -e and add -diamine with carbon locants for two or more NH2 groups"}
+   ]
+  },
+  {
+   "id": "lech204.9.4.1",
+   "title": "Preparing Amines: Nitro Reduction and Ammonolysis",
+   "section": "9.4",
+   "definition": "Nitro compounds drop to amines under H2 with Ni, Pd or Pt or with metal-acid couples where iron and HCl are favoured; alkyl or benzyl halides undergo ammonolysis with ethanolic ammonia in a sealed tube at 373 K, giving a primary amine that keeps alkylating unless ammonia is in large excess.",
+   "formula": "ammonolysis_reactivity = ri > rbr > rcl",
+   "key_idea": "Ammonolysis always mixes classes (primary, secondary, tertiary and quaternary salt), so flooding with ammonia pins the product at the primary amine.",
+   "textbook_ref": "lech204.txt sections 9.4(1)-(4) with Example 9.2 (lines ~181-256)",
+   "question_patterns": [
+    "why is iron scrap with hydrochloric acid preferred for reducing nitrobenzene to aniline",
+    "write the reaction of ethanolic ammonia with ethyl chloride",
+    "how does excess ammonia keep ammonolysis output mostly primary amine",
+    "order alkyl iodide, bromide and chloride by reactivity toward ammonia",
+    "which route turns a nitrile into a primary amine one carbon longer than the original halide",
+    "state the product when an amide is reduced with LiAlH4"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "match the precursor to the reducing system",
+     "explain": "nitro groups, nitriles and amides all accept hydrogen or hydride to reach RNH2"},
+    {"step": 2, "action": "manage the ammonolysis mixture",
+     "explain": "each amine product is itself nucleophilic, so ratio control decides the class isolated"}
+   ]
+  },
+  {
+   "id": "lech204.9.4.2",
+   "title": "Gabriel Phthalimide Synthesis Limits",
+   "section": "9.4",
+   "definition": "Phthalimide's potassium salt, made with ethanolic KOH, attacks a primary alkyl halide and alkaline hydrolysis then releases a clean primary amine; aryl halides refuse the substitution, so aniline-type amines cannot come from this route.",
+   "formula": "gabriel_product = pure_primary_aliphatic_amine",
+   "key_idea": "The method's value is purity: no secondary or tertiary amine ever forms because the nitrogen is locked inside the imide until hydrolysis.",
+   "textbook_ref": "lech204.txt section 9.4(5) (lines ~265-272)",
+   "question_patterns": [
+    "why does Gabriel phthalimide synthesis fail for aromatic primary amines",
+    "outline the steps from phthalimide to a pure primary amine",
+    "which amine class stays out of reach when an aryl halide meets the phthalimide anion",
+    "what role does ethanolic KOH play in the Gabriel synthesis",
+    "predict whether benzyl chloride can deliver benzylamine by the Gabriel route",
+    "compare the purity of Gabriel products with ammonolysis products"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "form the imide anion",
+     "explain": "ethanolic KOH deprotonates phthalimide, creating the nucleophilic potassium salt"},
+    {"step": 2, "action": "substitute and hydrolyse",
+     "explain": "the anion attacks only primary alkyl halides (never aryl), and alkaline hydrolysis cuts the amine free"}
+   ]
+  },
+  {
+   "id": "lech204.9.4.3",
+   "title": "Hoffmann Bromamide Degradation Carbon Count",
+   "section": "9.4",
+   "definition": "Bromine in aqueous or ethanolic NaOH migrates the amide's alkyl or aryl group from the carbonyl carbon onto nitrogen, releasing a primary amine that carries one carbon fewer than the amide it came from.",
+   "formula": "amine_carbons = amide_carbons - 1",
+   "key_idea": "Counting backwards fixes the starting amide: a three-carbon amine demands a four-carbon amide such as butanamide.",
+   "textbook_ref": "lech204.txt section 9.4(6) with Example 9.3 (lines ~273-359)",
+   "question_patterns": [
+    "propanamine has 3 carbons; how many carbons must the amide contain for its Hoffmann degradation to give it",
+    "an amide with 7 carbons undergoes Hoffmann bromamide degradation; count the carbons of the amine formed",
+    "predict the amine carbon count when a 5-carbon amide reacts with bromine and NaOH",
+    "how many carbons are lost when an amide goes through Hoffmann bromamide degradation",
+    "which amide yields aniline by the Hoffmann route and how many carbons does it carry",
+    "determine the amide size needed to land a 4-carbon primary amine by bromamide degradation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "drop the carbonyl carbon",
+     "explain": "the group migrates off the carbonyl, so only the R portion reaches nitrogen",
+     "compute": "amine_carbons = amide_carbons - 1"}
+   ]
+  },
+  {
+   "id": "lech204.9.5.1",
+   "title": "Boiling Points and Solubility Trends of Amines",
+   "section": "9.5",
+   "definition": "Hydrogen bonding lifts boiling points in the order primary > secondary > tertiary for isomeric amines because tertiary molecules carry no N-H to donate, and everything trails the corresponding alcohol whose O-H bonds are stronger; water solubility fades as the hydrophobic alkyl bulk grows.",
+   "formula": "bp_order_isomeric = primary > secondary > tertiary",
+   "key_idea": "Butan-1-ol out-dissolves butan-1-amine because oxygen's higher electronegativity makes stronger hydrogen bonds to water.",
+   "textbook_ref": "lech204.txt section 9.5 with Table 9.2 (lines ~296-401)",
+   "question_patterns": [
+    "arrange C2H5OH, (CH3)2NH and C2H5NH2 by rising boiling point",
+    "why do primary amines boil higher than their tertiary isomers",
+    "compare the water solubility of ethylamine and aniline with reasons",
+    "which dissolves more in water, butan-1-ol or butan-1-amine, and why",
+    "rank n-butylamine, diethylamine and ethyl dimethylamine by boiling point",
+    "why do higher amines become insoluble in water"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "count the N-H donors",
+     "explain": "primary amines offer two hydrogen-bond donors, secondary one, tertiary none"},
+    {"step": 2, "action": "weigh hydrophobic growth",
+     "explain": "each extra carbon drowns the polar head, cutting water solubility step by step"}
+   ]
+  },
+  {
+   "id": "lech204.9.6.1",
+   "title": "Basic Strength Orders of Amines",
+   "section": "9.6",
+   "definition": "Alkyl groups push electron density onto nitrogen so aliphatic amines out-base ammonia, but in water solvation and steric crowding scramble the simple inductive order: methyl amines run secondary > primary > tertiary while ethyl analogues run secondary > tertiary > primary, and aniline trails badly because its lone pair resonates into the ring leaving the anilinium ion with fewer resonance structures.",
+   "formula": "aqueous_methyl_order = (ch3)2nh > ch3nh2 > (ch3)3n > nh3",
+   "key_idea": "Electron-releasing ring substituents such as OCH3 raise arylamine basicity while NO2, SO3H, COOH and halogens lower it.",
+   "textbook_ref": "lech204.txt section 9.6(1)(a)-(b), Table 9.3, Example 9.4 (lines ~414-624)",
+   "question_patterns": [
+    "arrange C6H5NH2, C2H5NH2, (C2H5)2NH and NH3 in falling order of basic strength",
+    "why does aniline act as a weaker base than ammonia",
+    "place p-nitroaniline, aniline and p-toluidine in rising basic strength",
+    "explain the reversed basicity order of methyl amines in water versus gas phase",
+    "compare the gas-phase basicity of C2H5NH2, (C2H5)2NH, (C2H5)3N and NH3",
+    "why does benzylamine beat aniline as a base"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "test where the lone pair sits",
+     "explain": "alkyl push raises availability; ring resonance drains it, so arylamines weaken"},
+    {"step": 2, "action": "balance inductive push against solvation",
+     "explain": "bigger ammonium ions hydrogen-bond less with water, so aqueous orders mix steric and solvation effects with the +I trend"}
+   ]
+  },
+  {
+   "id": "lech204.9.6.2",
+   "title": "Base Strength Ratio from pKb Values",
+   "section": "9.6",
+   "definition": "Each pKb hides a base-ten gap: raising ten to minus pKb recovers Kb, so dividing one constant by the other counts how many times a stronger amine out-bases a weaker one in water.",
+   "formula": "strength_ratio = 10 ** (pkb_b - pkb_a)",
+   "key_idea": "Bigger pKb always means the weaker base; Table 9.3 spans about 3.0 for dialkylamines to 9.4 for aniline.",
+   "textbook_ref": "lech204.txt section 9.6(1) with Table 9.3 pKb values (lines ~442-550)",
+   "question_patterns": [
+    "N-ethylethanamine has pKb 3.00 and benzenamine has pKb 9.38; calculate how many times stronger a base the amine is",
+    "given pKb 3.38 for methanamine and 4.22 for N,N-dimethylmethanamine, find their base strength ratio",
+    "how many times stronger is an amine of pKb 3.29 than one of pKb 9.38",
+    "compute the Kb of aniline from its pKb of 9.38",
+    "determine the basicity multiple between ethanamine at pKb 3.29 and N-ethylethanamine at pKb 3.00",
+    "use two pKb values from the table to work out which amine ionises water more and by what factor"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "convert the first pKb to Kb",
+     "explain": "Kb equals ten raised to the negative pKb",
+     "compute": "kb_a = 10 ** (-pkb_a)"},
+    {"step": 2, "action": "convert the second pKb to Kb",
+     "explain": "same conversion for the comparison amine",
+     "compute": "kb_b = 10 ** (-pkb_b)"},
+    {"step": 3, "action": "divide the constants",
+     "explain": "the quotient measures the basicity gap",
+     "compute": "strength_ratio = kb_a / kb_b"}
+   ]
+  },
+  {
+   "id": "lech204.9.6.3",
+   "title": "Alkylation, Acylation and Benzoylation of Amines",
+   "section": "9.6",
+   "definition": "Amines swing at alkyl halides as nucleophiles, climbing the class ladder toward quaternary salts, and swap an N-H hydrogen for an acyl group when acid chlorides, anhydrides or esters attack, building amides in pyridine so the HCl by-product is soaked up; benzoyl chloride performs the same trick as benzoylation.",
+   "formula": "acylation_product = amide_with_base_pyridine",
+   "key_idea": "Amines merely salt carboxylic acids at room temperature; the acyl chloride or anhydride is needed to push all the way to the amide.",
+   "textbook_ref": "lech204.txt sections 9.6(2)-(3) (lines ~629-688)",
+   "question_patterns": [
+    "what is the final alkylation product when aniline reacts with excess methyl iodide in sodium carbonate solution",
+    "why does pyridine accompany the acylation of an amine with an acid chloride",
+    "name the product when methanamine reacts with benzoyl chloride",
+    "predict the products of reacting a secondary amine with ethanoyl chloride",
+    "how does an amine behave differently toward a carboxylic acid versus an acid chloride",
+    "define acylation and identify the functional group it installs on nitrogen"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "let nitrogen attack the electrophile",
+     "explain": "the lone pair displaces halide or carboxylate from the alkyl or acyl substrate"},
+    {"step": 2, "action": "neutralise the acid by-product",
+     "explain": "a stronger base such as pyridine traps HCl and pulls the equilibrium to products"}
+   ]
+  },
+  {
+   "id": "lech204.9.6.4",
+   "title": "Tests That Separate Primary, Secondary and Tertiary Amines",
+   "section": "9.6",
+   "definition": "Chloroform with alcoholic KOH hands primary amines alone a foul isocyanide (carbylamine test); benzenesulphonyl chloride gives an alkali-soluble sulphonamide with primary amines, an alkali-insoluble one with secondary amines and nothing at all with tertiary amines (Hinsberg's method); and nitrous acid releases nitrogen quantitatively from primary aliphatic amines while aromatic ones keep their stable diazonium salts at 273-278 K.",
+   "formula": "carbylamine_positive = primary_amine_only",
+   "key_idea": "Nitrous acid made in situ from NaNO2 and mineral acid is the reagent that sorts all three classes plus aromatic from aliphatic in one sweep.",
+   "textbook_ref": "lech204.txt sections 9.6(4)-(6) (lines ~716-758)",
+   "question_patterns": [
+    "which amines answer the carbylamine test and what is smelled",
+    "describe how Hinsberg reagent sorts a mixture of all three amine classes",
+    "why does the N,N-diethyl sulphonamide refuse to dissolve in alkali",
+    "what happens when ethylamine is treated with nitrous acid",
+    "state the temperature window for diazotising aniline",
+    "give one chemical test separating methylamine from dimethylamine"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "probe with chloroform and alkali",
+     "explain": "only NH2 nitrogens build the isocyanide, so a stink convicts a primary amine"},
+    {"step": 2, "action": "follow the sulphonamide into alkali",
+     "explain": "the acidic N-H of the primary product dissolves in NaOH while the secondary product and the untouched tertiary stay out of solution"}
+   ]
+  },
+  {
+   "id": "lech204.9.6.5",
+   "title": "Electrophilic Substitution on the Aniline Ring",
+   "section": "9.6",
+   "definition": "The NH2 group floods the ortho and para positions with electron density, so bromine water drops 2,4,6-tribromoaniline at once; acetylating the nitrogen tempers this power for clean monosubstitution, direct nitration muddles meta product through anilinium formation, and salt build-up with AlCl3 shuts aniline out of Friedel-Crafts reactions.",
+   "formula": "bromine_water_product = 2_4_6_tribromoaniline",
+   "key_idea": "Acetylation to acetanilide parks the lone pair on the carbonyl oxygen, weakening activation just enough to steer the incoming electrophile.",
+   "textbook_ref": "lech204.txt section 9.6(7)(a)-(c) (lines ~759-801)",
+   "question_patterns": [
+    "what white precipitate appears when aniline meets bromine water",
+    "why does direct nitration of aniline give a meta product along with ortho and para",
+    "how does acetylation control the reactivity of the amino group before substitution",
+    "name the major product when aniline is sulphonated with concentrated H2SO4 at 453-473 K",
+    "explain why aniline refuses the Friedel-Crafts reaction",
+    "why is the NHCOCH3 group a weaker activator than NH2"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "read the directing group",
+     "explain": "resonance from nitrogen piles electron density at ortho and para, inviting electrophiles there"},
+    {"step": 2, "action": "protect when selectivity is needed",
+     "explain": "acetylate, substitute, then hydrolyse the amide back to the amine"}
+   ]
+  },
+  {
+   "id": "lech204.9.7.1",
+   "title": "Diazotisation and Displacement of the Diazonium Group",
+   "section": "9.7",
+   "definition": "Aniline plus nitrous acid at 273-278 K builds benzenediazonium chloride, whose N2+ group departs as gas while Cl, Br or CN arrive through Sandmeyer's copper(I) route, Gatterman's copper powder variant delivers halogens, KI installs iodine, fluoroborate heating gives fluoride, hypophosphorous acid or ethanol restores plain arene, warming hydrolyses to phenol, and copper with sodium nitrite installs NO2.",
+   "formula": "sandmeyer_replacement = aryl_cl_or_br_or_cn_with_cui",
+   "key_idea": "The diazonium route reaches fluorides, iodides and cyanides that direct halogenation or SNi chemistry on chlorobenzene cannot touch.",
+   "textbook_ref": "lech204.txt sections 9.7-9.10 (lines ~806-1036)",
+   "question_patterns": [
+    "write the diazotisation of aniline with sodium nitrite and HCl below 278 K",
+    "which copper salt carries a diazonium group to bromobenzene",
+    "how does benzenediazonium chloride become iodobenzene",
+    "state the reagents that swap the diazonium group for a cyano group",
+    "predict the product when a diazonium salt solution is warmed to 283 K in water",
+    "which reducing agent converts a diazonium salt back to the parent arene"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "diazotise cold",
+     "explain": "nitrous acid generated in situ converts the primary aromatic amine at ice-bath temperature"},
+    {"step": 2, "action": "choose the displacing nucleophile",
+     "explain": "Cu(I) gives Sandmeyer products, KI alone iodine, HBF4 then heat fluorine, H3PO2 hydrogen, and warm water hydroxyl"}
+   ]
+  },
+  {
+   "id": "lech204.9.9.1",
+   "title": "Coupling Reactions and Azo Dye Formation",
+   "section": "9.9",
+   "definition": "Kept cold, the diazonium ion acts as a weak electrophile that couples at the para position of phenols or anilines, stringing two rings through an N=N link and producing the coloured azo compounds behind many dyes, such as p-hydroxyazobenzene and p-aminoazobenzene.",
+   "formula": "coupling_product = para_hydroxyazobenzene_from_phenol",
+   "key_idea": "The extended conjugation across the azo bond absorbs visible light, which is why coupling products serve as dyes.",
+   "textbook_ref": "lech204.txt section 9.9(B), coupling reactions (lines ~1020-1029)",
+   "question_patterns": [
+    "write the coupling reaction of benzenediazonium chloride with phenol",
+    "what structure do azo dyes share across their two rings",
+    "predict the product when a diazonium salt couples with aniline",
+    "why are azo compounds strongly coloured",
+    "name the bond that joins the two aromatic rings in p-hydroxyazobenzene",
+    "at which position does coupling usually land on phenol"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "keep the diazonium ion intact",
+     "explain": "retention of the diazo group, not displacement, drives coupling"},
+    {"step": 2, "action": "attack the activated ring para first",
+     "explain": "the phenol or aniline ring donates at its para position to build the N=N bridge"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_lech204_1",
+   "source_ref": "lech204.txt Example 9.3(i), Hoffmann carbon count",
+   "concept": "lech204.9.4.3",
+   "question_type": "hoffmann_carbon_count",
+   "question_pattern": "Propanamine, a 3-carbon amine, is to be made by Hoffmann bromamide degradation. How many carbons must the starting amide carry?",
+   "extracted_variables": {"amine_carbons": 3},
+   "solution_template": [
+    {"step": 1, "action": "add back the carbonyl carbon", "explain": "the amide carries one carbon more than the amine it releases", "compute": "amide_carbons = amine_carbons + 1"}
+   ]
+  },
+  {
+   "id": "we_lech204_2",
+   "source_ref": "lech204.txt Example 9.3(ii), benzamide degradation",
+   "concept": "lech204.9.4.3",
+   "question_type": "hoffmann_carbon_count",
+   "question_pattern": "Benzamide contains 7 carbons. How many carbons survive in the amine from its Hoffmann degradation?",
+   "extracted_variables": {"amide_carbons": 7},
+   "solution_template": [
+    {"step": 1, "action": "drop the carbonyl carbon", "explain": "migration leaves the aryl group alone on nitrogen", "compute": "amine_carbons = amide_carbons - 1"}
+   ]
+  },
+  {
+   "id": "we_lech204_3",
+   "source_ref": "lech204.txt Table 9.3, amine vs aniline pKb",
+   "concept": "lech204.9.6.2",
+   "question_type": "base_strength_ratio",
+   "question_pattern": "N-Ethylethanamine has pKb 3.00 and benzenamine has pKb 9.38. Calculate the factor by which the amine out-bases aniline.",
+   "extracted_variables": {"pkb_a": 3.0, "pkb_b": 9.38},
+   "solution_template": [
+    {"step": 1, "action": "convert the first pKb to Kb", "explain": "Kb = 10 to the minus pKb", "compute": "kb_a = 10 ** (-pkb_a)"},
+    {"step": 2, "action": "convert the second pKb to Kb", "explain": "same conversion for aniline", "compute": "kb_b = 10 ** (-pkb_b)"},
+    {"step": 3, "action": "divide the constants", "explain": "the quotient is the basicity multiple", "compute": "strength_ratio = kb_a / kb_b"}
+   ]
+  },
+  {
+   "id": "we_lech204_4",
+   "source_ref": "lech204.txt Table 9.3, methylamine series pKb",
+   "concept": "lech204.9.6.2",
+   "question_type": "base_strength_ratio",
+   "question_pattern": "Methanamine has pKb 3.38 while N,N-dimethylmethanamine has pKb 4.22. Determine how many times stronger a base methanamine is.",
+   "extracted_variables": {"pkb_a": 3.38, "pkb_b": 4.22},
+   "solution_template": [
+    {"step": 1, "action": "convert the first pKb to Kb", "explain": "Kb of methanamine", "compute": "kb_a = 10 ** (-pkb_a)"},
+    {"step": 2, "action": "convert the second pKb to Kb", "explain": "Kb of the tertiary amine", "compute": "kb_b = 10 ** (-pkb_b)"},
+    {"step": 3, "action": "divide the constants", "explain": "ratio of the ionisation constants", "compute": "strength_ratio = kb_a / kb_b"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_lech204_9_1_to_9_3",
+   "source_ref": "lech204.txt end-of-chapter exercises 9.1-9.3",
+   "questions": [
+    "Write IUPAC names for seven given amines and label each primary, secondary or tertiary.",
+    "Provide one chemical test per pair such as methylamine versus dimethylamine and aniline versus benzylamine.",
+    "Account for aniline's high pKb, aniline's water insolubility, and the meta product appearing when aniline is nitrated directly."
+   ]
+  },
+  {
+   "id": "ex_lech204_9_4_to_9_6",
+   "source_ref": "lech204.txt end-of-chapter exercises 9.4-9.6",
+   "questions": [
+    "Order given amine sets by pKb value, by basic strength in water and in the gas phase, and by boiling point and water solubility.",
+    "Plan conversions such as hexanenitrile to 1-aminopentane, methanamine to ethanamine and nitromethane to dimethylamine.",
+    "Describe a full identification scheme for primary, secondary and tertiary amines with the supporting equations."
+   ]
+  },
+  {
+   "id": "ex_lech204_9_7_to_9_9",
+   "source_ref": "lech204.txt end-of-chapter exercises 9.7-9.9",
+   "questions": [
+    "Write short notes on carbylamine reaction, diazotisation, Hofmann bromamide reaction, coupling reaction, ammonolysis, acetylation and Gabriel synthesis.",
+    "Accomplish nine conversions including nitrobenzene to benzoic acid and aniline to 2,4,6-tribromofluorobenzene.",
+    "Trace the structures of A, B and C through six multi-step reaction chains."
+   ]
+  },
+  {
+   "id": "ex_lech204_9_10_to_9_14",
+   "source_ref": "lech204.txt end-of-chapter exercises 9.10-9.14",
+   "questions": [
+    "Identify compounds A, B and C when an aromatic amide hydrolyses then degrades to a C6H7N amine.",
+    "Complete seven reactions spanning carbylamine formation, diazonium retention and fluoroborate decomposition.",
+    "Explain why Gabriel synthesis excludes aromatic primary amines and compare the reactions of aromatic versus aliphatic primary amines with nitrous acid.",
+    "Justify why amines are less acidic than matching alcohols and why primary amines boil above tertiary ones."
+   ]
+  }
+ ]
+}

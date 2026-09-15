@@ -1,0 +1,854 @@
+[
+ {
+  "file": "catalog_class10_science_ch101.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class10_science_ch102.json",
+  "ok": 3,
+  "n": 4,
+  "fails": [
+   [
+    "identify the substance using litmus paper",
+    "gesc.4.2.1",
+    0.406
+   ]
+  ]
+ },
+ {
+  "file": "catalog_class10_science_ch103.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class10_science_ch104.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class10_science_ch105.json",
+  "ok": 3,
+  "n": 4,
+  "fails": [
+   [
+    "How does Amoeba obtain its nutrition?",
+    "gesc.102.4",
+    0.562
+   ]
+  ]
+ },
+ {
+  "file": "catalog_class10_science_ch106.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class10_science_ch107.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class10_science_ch108.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class10_science_ch109.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class10_science_ch110.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class10_science_ch111.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class10_science_ch112.json",
+  "ok": 3,
+  "n": 4,
+  "fails": [
+   [
+    "Describe the field lines at the center of a circular loop.",
+    "leph.4.5.1",
+    0.606
+   ]
+  ]
+ },
+ {
+  "file": "catalog_class10_science_ch113.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class11_biology_ch101.json",
+  "ok": 3,
+  "n": 4,
+  "fails": [
+   [
+    "What are the essential bases of modern taxonomic studies?",
+    "kebo.103.2",
+    0.607
+   ]
+  ]
+ },
+ {
+  "file": "catalog_class11_biology_ch103.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class11_biology_ch104.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class11_biology_ch105.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class11_biology_ch106.json",
+  "ok": 3,
+  "n": 4,
+  "fails": [
+   [
+    "what constitutes the stomatal apparatus",
+    "gesc.101.4",
+    0.58
+   ]
+  ]
+ },
+ {
+  "file": "catalog_class11_biology_ch108.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class11_biology_ch110.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class11_biology_ch111.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class11_biology_ch112.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class11_biology_ch114.json",
+  "ok": 3,
+  "n": 4,
+  "fails": [
+   [
+    "identify the respiratory organ of earthworms",
+    "kebo.16.2",
+    0.637
+   ]
+  ]
+ },
+ {
+  "file": "catalog_class11_biology_ch115.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class11_biology_ch116.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class11_biology_ch117.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class11_biology_ch118.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class11_biology_ch119.json",
+  "ok": 3,
+  "n": 5,
+  "fails": [
+   [
+    "what is the function of oxytocin and vasopressin",
+    "kebo.14.8",
+    0.487
+   ],
+   [
+    "what is Graves' disease",
+    "NO-ROUTE",
+    0.0
+   ]
+  ]
+ },
+ {
+  "file": "catalog_class11_chemistry_ch103.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class11_chemistry_ch104.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class11_chemistry_ch201.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class11_chemistry_ch202.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class11_chemistry_ch203.json",
+  "ok": 3,
+  "n": 4,
+  "fails": [
+   [
+    "what is the total number of sigma and pi bonds",
+    "kech.8.2.2",
+    0.783
+   ]
+  ]
+ },
+ {
+  "file": "catalog_class11_physics_ch101.json",
+  "ok": 3,
+  "n": 4,
+  "fails": [
+   [
+    "calculate the density of a substance of mass ... and volume ...",
+    "keph.202.2",
+    0.751
+   ]
+  ]
+ },
+ {
+  "file": "catalog_class11_physics_ch102.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class11_physics_ch103.json",
+  "ok": 3,
+  "n": 5,
+  "fails": [
+   [
+    "find the magnitude of the vector given its components",
+    "lemh.10.2.1",
+    0.685
+   ],
+   [
+    "what is the displacement along an axis after time t",
+    "keph.2.4.4",
+    0.614
+   ]
+  ]
+ },
+ {
+  "file": "catalog_class11_physics_ch104.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class11_physics_ch105.json",
+  "ok": 3,
+  "n": 6,
+  "fails": [
+   [
+    "calculate the scalar product of two vectors",
+    "lemh.10.6.1",
+    0.761
+   ],
+   [
+    "find the work done by a constant force",
+    "iesc.107.1",
+    0.779
+   ],
+   [
+    "calculate gravitational potential energy",
+    "iesc.107.4",
+    0.689
+   ]
+  ]
+ },
+ {
+  "file": "catalog_class11_physics_ch202.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class11_physics_ch205.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class11_physics_ch207.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class12_biology_ch101.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class12_biology_ch103.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class12_biology_ch104.json",
+  "ok": 3,
+  "n": 4,
+  "fails": [
+   [
+    "how many offspring are tall in a monohybrid F2",
+    "jesc.8.2.2a",
+    0.58
+   ]
+  ]
+ },
+ {
+  "file": "catalog_class12_biology_ch105.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class12_biology_ch106.json",
+  "ok": 3,
+  "n": 5,
+  "fails": [
+   [
+    "explain the experimental setup and findings of Miller's experiment",
+    "iesc.8.2.2",
+    0.351
+   ],
+   [
+    "how does widespread use of antibiotics lead to drug resistance in bacteria",
+    "lebo.108.3",
+    0.543
+   ]
+  ]
+ },
+ {
+  "file": "catalog_class12_biology_ch108.json",
+  "ok": 3,
+  "n": 4,
+  "fails": [
+   [
+    "what is the clinical application of streptokinase",
+    "lebo.108.4",
+    0.347
+   ]
+  ]
+ },
+ {
+  "file": "catalog_class12_biology_ch109.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class12_biology_ch110.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class12_chemistry_ch104.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class12_chemistry_ch105.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class12_chemistry_ch201.json",
+  "ok": 3,
+  "n": 4,
+  "fails": [
+   [
+    "give the systematic IUPAC name for",
+    "lech.202.2",
+    0.548
+   ]
+  ]
+ },
+ {
+  "file": "catalog_class12_chemistry_ch202.json",
+  "ok": 3,
+  "n": 4,
+  "fails": [
+   [
+    "arrange the following in increasing order of boiling points",
+    "lech.201.3",
+    0.53
+   ]
+  ]
+ },
+ {
+  "file": "catalog_class12_chemistry_ch203.json",
+  "ok": 3,
+  "n": 4,
+  "fails": [
+   [
+    "predict products of alkene ozonolysis followed by zinc water reduction",
+    "kech.9.2.8",
+    0.62
+   ]
+  ]
+ },
+ {
+  "file": "catalog_class12_chemistry_ch204.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class12_chemistry_ch205.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class12_physics_ch102.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class12_physics_ch104.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class12_physics_ch106.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class12_physics_ch107.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class12_physics_ch203.json",
+  "ok": 3,
+  "n": 4,
+  "fails": [
+   [
+    "calculate the maximum kinetic energy using Einstein's equation",
+    "iesc.107.3",
+    0.55
+   ]
+  ]
+ },
+ {
+  "file": "catalog_class6_science_ch101.json",
+  "ok": 3,
+  "n": 4,
+  "fails": [
+   [
+    "identify the source of milk",
+    "lebo.108.1",
+    0.429
+   ]
+  ]
+ },
+ {
+  "file": "catalog_class6_science_ch102.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class6_science_ch104.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class6_science_ch105.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class6_science_ch107.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class6_science_ch108.json",
+  "ok": 3,
+  "n": 4,
+  "fails": [
+   [
+    "why does the upper jaw not move when opening the mouth",
+    "fesc.8.1.5",
+    0.368
+   ]
+  ]
+ },
+ {
+  "file": "catalog_class6_science_ch109.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class6_science_ch110.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class6_science_ch111.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class6_science_ch112.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class6_science_ch113.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class6_science_ch114.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class6_science_ch115.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class6_science_ch116.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class7_science_ch101.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class7_science_ch102.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class7_science_ch103.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class7_science_ch104.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class7_science_ch105.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class7_science_ch106.json",
+  "ok": 3,
+  "n": 4,
+  "fails": [
+   [
+    "what is aerobic respiration",
+    "kebo.12.1",
+    0.576
+   ]
+  ]
+ },
+ {
+  "file": "catalog_class7_science_ch107.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class7_science_ch108.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class7_science_ch109.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class7_science_ch110.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class7_science_ch111.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class7_science_ch112.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class7_science_ch113.json",
+  "ok": 3,
+  "n": 4,
+  "fails": [
+   [
+    "what is wastewater",
+    "lebo.108.6",
+    0.546
+   ]
+  ]
+ },
+ {
+  "file": "catalog_class8_science_ch102.json",
+  "ok": 3,
+  "n": 5,
+  "fails": [
+   [
+    "what is the role of yeast in fermentation",
+    "lebo.108.2",
+    0.703
+   ],
+   [
+    "how much nitrogen is in a volume of air",
+    "fesc.15.2.5",
+    0.568
+   ]
+  ]
+ },
+ {
+  "file": "catalog_class8_science_ch104.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class8_science_ch106.json",
+  "ok": 3,
+  "n": 4,
+  "fails": [
+   [
+    "define sexual reproduction",
+    "gesc.108.1",
+    0.598
+   ]
+  ]
+ },
+ {
+  "file": "catalog_class8_science_ch108.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class8_science_ch109.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class8_science_ch110.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class8_science_ch111.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class8_science_ch112.json",
+  "ok": 3,
+  "n": 4,
+  "fails": [
+   [
+    "why do foil strips collapse when touched by hand",
+    "hesc.112.1",
+    0.368
+   ]
+  ]
+ },
+ {
+  "file": "catalog_class8_science_ch113.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class9_science_ch101.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class9_science_ch102.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class9_science_ch103.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class9_science_ch104.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class9_science_ch105.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class9_science_ch106.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class9_science_ch107.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class9_science_ch108.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class9_science_ch109.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class9_science_ch110.json",
+  "ok": 3,
+  "n": 4,
+  "fails": [
+   [
+    "how is sound produced",
+    "hesc.10.1",
+    0.586
+   ]
+  ]
+ },
+ {
+  "file": "catalog_class9_science_ch111.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ },
+ {
+  "file": "catalog_class9_science_ch112.json",
+  "ok": 3,
+  "n": 4,
+  "fails": [
+   [
+    "What is biodiversity and why is it important?",
+    "kebo.101.1",
+    0.665
+   ]
+  ]
+ },
+ {
+  "file": "catalog_class9_science_ch113.json",
+  "ok": 3,
+  "n": 3,
+  "fails": []
+ }
+]

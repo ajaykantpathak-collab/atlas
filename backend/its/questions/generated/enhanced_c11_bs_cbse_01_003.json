@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_01_003",
+   "title": "c11_bs_cbse_01_003",
+   "questions": [
+    {
+     "q": "State the seven characteristics of business activities as per NCERT Class 11 Business Studies.",
+     "a": "The seven characteristics are: (i) An economic activity, (ii) Production or procurement of goods and services, (iii) Sale or exchange of goods and services, (iv) Dealings in goods and services on a regular basis, (v) Profit earning, (vi) Uncertainty of return, (vii) Element of risk.  \nA wrong answer (e.g., listing only 4-5 characteristics or including \"social service\" or \"government registration\") reveals the student has memorised a partial list or confused legal formalities with defining features. They need to re-read the NCERT list and understand each characteristic is necessary for an activity to qualify as business.",
+     "self_check": true
+    },
+    {
+     "q": "A student sells his old bicycle on OLX for a profit of ₹2,000. He argues this is a business activity because he earned a profit. Explain why this is incorrect using the characteristic of 'regularity'.",
+     "a": "Selling a personal bicycle once is a single transaction, not a regular dealing. Business requires repeated, continuous transactions — e.g., a cycle shop buying and selling bicycles daily. Profit alone does not make an activity a business; regularity is essential.  \nA wrong answer (e.g., \"it is business because he made profit\" or \"it is not business because it's a used item\") shows the student conflates profit motive with the entire definition or focuses on the nature of goods rather than the pattern of transactions. They must grasp that regularity refers to the frequency and continuity of the activity, not the newness of goods.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul, a Class 11 student, bakes cookies at home and sells them to classmates during lunch break every Friday for three months. He buys ingredients, prices each cookie at ₹15, and sometimes incurs a loss when cookies burn. Classify this as business or non-business. Justify using at least four characteristics.",
+     "a": "This is a business activity.  \n1. Economic activity: Done to earn money, not out of love.  \n2. Production/procurement: He produces (bakes) cookies.  \n3. Sale/exchange: He sells cookies for ₹15 each.  \n4. Regularity: Every Friday for three months = regular basis.  \n5. Profit motive: Prices to earn profit.  \n6. Uncertainty of return: Doesn't know exact profit each week.  \n7. Risk: Cookies may burn (loss possible).  \nA wrong classification (e.g., \"not business because he's a student\" or \"not business because it's small scale\") reveals the student thinks business requires legal registration, large scale, or adult status. They must understand scale and legal form are irrelevant to the definition — only the seven characteristics matter.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 'reward' and 'risk' characteristics of Business, Profession, and Employment using a table. Explain why 'uncertainty of return' is highest in business and lowest in employment.",
+     "a": "| Basis | Business | Profession | Employment |\n|-------|----------|------------|------------|\n| Reward | Profit (uncertain, irregular) | Professional fee (generally regular) | Salary/wages (fixed, regular) |\n| Risk | High (profit/loss uncertain) | Moderate (fee may vary) | Low/none (fixed pay) |\nUncertainty of return is highest in business because profit depends on market forces (demand, competition, costs) outside the owner's full control. In employment, the employer bears the risk; the employee gets a contractually fixed salary regardless of profit/loss.  \nA wrong answer (e.g., \"profession has highest risk because of malpractice suits\" or \"business risk is only about fire/theft\") shows confusion between business risk (market uncertainty) and operational hazards, or misattributes risk to professionals who have more predictable fee structures. The student must link uncertainty to the profit formula: Profit = Revenue – Cost, where both vary unpredictably in business.",
+     "self_check": true
+    },
+    {
+     "q": "\"All economic activities are business activities.\" Evaluate this statement. Give two examples of economic activities that are NOT business.",
+     "a": "The statement is false. Economic activities include business, profession, and employment. Two non-business economic activities:  \n1. A doctor practicing in a clinic (Profession) — reward is fee, requires qualification, governed by code of conduct.  \n2. A software engineer working in Infosys (Employment) — reward is salary, works under contract, no capital investment.  \nBoth are economic (done for livelihood) but lack business characteristics like capital investment, profit as reward, transferability of interest, and absence of prescribed code.  \nA wrong evaluation (e.g., \"true, because doctor and engineer also earn money\") reveals the student equates \"earning money\" with \"business\". They must distinguish the three categories by mode of establishment, nature of work, qualification, reward, capital, risk, transferability, and code of conduct — as per the NCERT comparison table.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario of a person engaged in an activity that satisfies exactly five of the seven business characteristics but fails on two. Identify which two are missing and explain why the activity is therefore NOT a business.",
+     "a": "Scenario: Priya volunteers every weekend at an NGO's community kitchen. She procures vegetables, cooks meals, and serves 50 people regularly. The NGO gives her a fixed honorarium of ₹5,000/month.  \nSatisfied: (i) Economic activity (earns honorarium), (ii) Procurement/production, (iii) Service provision (exchange), (iv) Regular basis, (vii) Risk (kitchen accidents possible).  \nMissing: (v) Profit earning — honorarium is fixed, not profit from revenue minus cost; (vi) Uncertainty of return — honorarium is fixed regardless of output.  \nThus, it is employment, not business.  \nA poor answer (e.g., missing characteristics not identified, or claiming it's business because of regularity and risk) shows the student treats characteristics as a \"majority wins\" checklist rather than ALL being necessary. They must internalise that absence of even one characteristic (especially profit motive and uncertainty of return) reclassifies the activity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

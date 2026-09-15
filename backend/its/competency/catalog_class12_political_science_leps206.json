@@ -1,0 +1,200 @@
+{
+ "class": 12,
+ "subject": "political_science",
+ "chapter": 6,
+ "chapter_title": "The Crisis of Democratic Order",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leps206.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leps.206.1.1",
+   "title": "Mass Unrest: Gujarat and Bihar Movements, JP and the Railway Strike",
+   "section": "Background to Emergency",
+   "definition": "By the early 1970s price rise, food scarcity and unemployment boiled over into student-led agitations in Gujarat and Bihar; Jayaprakash Narayan took over the Bihar movement, demanded the dismissal of the state government and called for Total Revolution, marched to Parliament in 1975 with the backing of the non-Congress opposition, and in May 1974 railway workers under George Fernandes struck nationwide for twenty days until the government declared the strike illegal and broke it without settlement.",
+   "formula": "mass_unrest_1974 = gujarat_and_bihar_agitations + jp_total_revolution + railway_strike",
+   "key_idea": "Agitation politics and a government that saw every protest as personal attack or law-and-order trouble locked horns, setting the stage for the Emergency.",
+   "textbook_ref": "leps206.txt Background to Emergency, Bihar movement, Railway Strike of 1974 (lines 39-246)",
+   "question_patterns": [
+    "what were the gujarat and bihar movements and what did they demand",
+    "what is meant by sampoorna kranti or total revolution of jayaprakash narayan",
+    "describe the railway strike of 1974 and its outcome",
+    "why did indira gandhi view the jp movement as anti congress",
+    "what issues did the railway strike raise about essential services",
+    "which parties rallied behind jp by 1975 and why"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the movements", "explain": "students protesting price rise and corruption forced the Gujarat assembly's dissolution, while in Bihar the JP-led agitation demanded the government's resignation, which it refused"},
+    {"step": 2, "action": "verify JP's escalation", "explain": "Jayaprakash Narayan spread the movement nationwide, led a peoples' march to Parliament in 1975, announced a satyagraha and asked the army, police and employees not to obey illegal and immoral orders"},
+    {"step": 3, "action": "verify the labour angle", "explain": "the National Coordination Committee for Railwaymen's Struggle under George Fernandes called all railway employees out in May 1974 over bonus and service conditions; arrests and the territorial army ended it after twenty days with no settlement"}
+   ]
+  },
+  {
+   "id": "leps.206.2.1",
+   "title": "Conflict with the Judiciary and the Committed Judiciary Debate",
+   "section": "Conflict with Judiciary",
+   "definition": "Parliament and the Supreme Court clashed over whether Fundamental Rights could be abridged or property curtailed by amendment; the Court answered no in the Kesavananda Bharati case, holding that the Constitution's basic features cannot be amended away, and when the government then superseded three senior judges to appoint Justice A. N. Ray as Chief Justice in 1973, talk of a judiciary committed to the executive's vision deepened the constitutional crisis.",
+   "formula": "judicial_executive_conflict = basic_structure_doctrine + supersession_of_senior_judges + committed_judiciary_talk",
+   "key_idea": "Constitutional interpretation and political ideology merged dangerously when the ruling party expected loyalty from judges and officials.",
+   "textbook_ref": "leps206.txt Conflict with Judiciary (lines 247-289)",
+   "question_patterns": [
+    "what constitutional issues caused conflict between parliament and the judiciary",
+    "what did the supreme court decide in the kesavananda bharati case",
+    "why was the appointment of justice a n ray as chief justice controversial",
+    "what is meant by a committed judiciary and committed bureaucracy",
+    "how did the judicial conflict contribute to the emergency crisis",
+    "can parliament amend the constitution to curtail fundamental rights"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the three questions", "explain": "whether Parliament could abridge Fundamental Rights, curtail property rights by amendment, or override rights through Directive Principles -- the Court rejected each claim"},
+    {"step": 2, "action": "verify the basic structure ruling", "explain": "in Kesavananda Bharati the Supreme Court held that certain basic features of the Constitution lie beyond the amending power of Parliament"},
+    {"step": 3, "action": "verify the escalation", "explain": "the 1973 supersession of three judges who had ruled against the government, followed by calls for committed institutions, culminated in the Allahabad High Court ruling against the Prime Minister's own election"}
+   ]
+  },
+  {
+   "id": "leps.206.3.1",
+   "title": "From the Allahabad Judgment to the Declaration of Emergency",
+   "section": "Declaration of Emergency",
+   "definition": "On 12 June 1975 Justice Jagmohan Lal Sinha of the Allahabad High Court voided Indira Gandhi's election on Raj Narain's petition for using government servants in her campaign; after a partial Supreme Court stay, JP's Ramlila Ground rally of 25 June demanded her resignation, and that very night the government recommended Emergency under Article 352 on the ground of internal disturbance -- electricity to newspaper offices was cut, opposition leaders were arrested, and the Cabinet was informed only at 6 a.m. the next morning.",
+   "formula": "emergency_sequence = allahabad_verdict + jp_rally_and_satyagraha + article_352_proclamation",
+   "key_idea": "A court verdict on one election became the trigger for suspending the democratic order itself.",
+   "textbook_ref": "leps206.txt Declaration of Emergency, Crisis and response (lines 290-332, 373-379)",
+   "question_patterns": [
+    "what did the allahabad high court decide on 12 june 1975",
+    "on whose petition was indira gandhi's election set aside and on what ground",
+    "what did jayaprakash narayan demand at the ramlila grounds on 25 june 1975",
+    "under which article was the internal emergency proclaimed in 1975",
+    "how did the government proceed on the night of 25 june 1975",
+    "what does article 352 provide for proclaiming an emergency"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the legal trigger", "explain": "the High Court declared the Prime Minister no longer an MP entitled to hold office unless re-elected within six months; the Supreme Court's partial stay barred her from Lok Sabha proceedings until appeal"},
+    {"step": 2, "action": "verify the political escalation", "explain": "the opposition pressed for resignation and JP announced a nationwide satyagraha asking officials to disobey illegal and immoral orders, which the government read as a threat to paralyse administration"},
+    {"step": 3, "action": "verify the proclamation", "explain": "citing internal disturbances, the government advised President Fakhruddin Ali Ahmed to invoke Article 352 late on 25 June 1975, with censorship, arrests and a 6 a.m. cabinet meeting following in that order"}
+   ]
+  },
+  {
+   "id": "leps.206.4.1",
+   "title": "Emergency in Operation: Censorship, Detention and the 42nd Amendment",
+   "section": "Consequences",
+   "definition": "With Emergency proclaimed, federal powers concentrated in the Union, Fundamental Rights including the right to move courts stood suspended, the press faced prior-approval censorship, the RSS and Jamaat-e-Islami were banned, and preventive detention let the state jail people for offences merely apprehended; High Courts upheld habeas corpus until an April 1976 constitution bench overruled them, and Parliament added the 42nd amendment, extended legislative terms from five to six years and shielded elections of the Prime Minister, President and Vice-President from court challenge.",
+   "formula": "emergency_apparatus = press_censorship + preventive_detention + suspended_fundamental_rights + forty_second_amendment",
+   "key_idea": "The Emergency ruled through the police and administration, and the courts' doors were formally shut to the citizen until the judges themselves capitulated.",
+   "textbook_ref": "leps206.txt Consequences, dissent, 42nd amendment (lines 380-465)",
+   "question_patterns": [
+    "what restrictions were imposed on the press during the emergency",
+    "what is preventive detention and how was it used after 1975",
+    "why is the habeas corpus judgment of april 1976 called controversial",
+    "what changes did the forty second amendment make during the emergency",
+    "which organisations were banned during the emergency and why",
+    "how did some newspapers and writers resist the emergency"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the restrictions", "explain": "strikes and agitations were banned, newspapers needed prior approval, the Indian Express and Statesman protested with blank columns while Seminar and Mainstream shut down rather than submit"},
+    {"step": 2, "action": "verify the detention regime", "explain": "thousands were arrested without offence on mere apprehension, habeas corpus petitions failed after the April 1976 ruling, and even the grounds of arrest need not be disclosed"},
+    {"step": 3, "action": "verify the constitutional changes", "explain": "elections of Prime Minister, President and Vice-President were immunised from judicial review, the 42nd amendment carried sweeping changes, and legislative terms stretched from five to six years, postponing the due 1976 election to 1978"}
+   ]
+  },
+  {
+   "id": "leps.206.5.1",
+   "title": "Lessons of the Emergency",
+   "section": "Lessons of the Emergency",
+   "definition": "The Emergency taught three durable lessons: democracy in India proved extremely hard to abolish since normal functioning resumed quickly; the Constitution's ambiguities were repaired so that internal Emergency now requires grounds of armed rebellion and written Cabinet advice to the President; and civil liberties moved to the centre of public concern, with courts more active afterwards and civil liberties organisations founded -- though the Shah Commission's finding that administration and police had bent to political pressure remained unhealed.",
+   "formula": "emergency_lessons = resilience_of_democracy + constitutional_safeguards + civil_liberties_awareness",
+   "key_idea": "The episode acted like a vaccination -- painful while it lasted, but it strengthened democratic resistance afterwards.",
+   "textbook_ref": "leps206.txt Lessons of the Emergency, Shah Commission (lines 466-540)",
+   "question_patterns": [
+    "what lessons did indian democracy learn from the emergency",
+    "how was the emergency provision of the constitution rectified later",
+    "why can internal emergency now be proclaimed only on grounds of armed rebellion",
+    "why must cabinet advice for emergency be in writing today",
+    "what did the shah commission report reveal about the administration",
+    "how did the emergency change attitudes to civil liberties in india"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify democratic resilience", "explain": "within eighteen months elections were announced and held, showing it is extremely difficult to do away with democracy in India"},
+    {"step": 2, "action": "verify the constitutional repair", "explain": "the internal disturbance formula became armed rebellion, and the Union Cabinet must give its written advice before any proclamation"},
+    {"step": 3, "action": "verify the civil liberties turn", "explain": "the judiciary became more protective of liberty after 1977 and rights organisations arose, though the balance between protest and governance and the politicisation of police remained unresolved"}
+   ]
+  },
+  {
+   "id": "leps.206.6.1",
+   "title": "1977 Elections and the Janata Interlude",
+   "section": "Politics after Emergency",
+   "definition": "The March 1977 election became a referendum on the Emergency: the newly fused Janata Party under JP's moral leadership, joined by Jagjivan Ram's Congress for Democracy, swept 330 of 542 seats with 295 its own, reducing the Congress to 154 seats and under 35 per cent of votes, ousting Indira Gandhi from Rae Bareli; but the first non-Congress government under Morarji Desai split along Desai-Charan Singh-Jagjivan Ram lines, and after Desai's fall Charan Singh headed a minority ministry from July 1979 to January 1980 without ever facing Parliament.",
+   "formula": "janata_experiment = save_democracy_wave + factional_leadership_rivalry + early_collapse",
+   "key_idea": "Voters punish governments perceived as anti-democratic, but a coalition born only of opposition to one ruler cannot govern long.",
+   "textbook_ref": "leps206.txt Lok Sabha Elections 1977, Janata Government (lines 541-738)",
+   "question_patterns": [
+    "why are the 1977 elections called a referendum on the emergency",
+    "which parties merged to form the janata party in 1977",
+    "what seats did the janata party and the congress win in 1977",
+    "why did the congress sweep the southern states in 1977",
+    "describe the leadership rivalry inside the janata government",
+    "how did the janata government collapse by 1979"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the wave", "explain": "on the save democracy slogan the Janata Party and allies took 330 seats, Congress 154 with under 35 per cent votes, and the Congress lost every seat in Bihar, UP, Delhi, Haryana and Punjab while Indira Gandhi and Sanjay both lost their seats"},
+    {"step": 2, "action": "verify the regional pattern", "explain": "the Congress retained Maharashtra, Gujarat, Orissa and swept the south because the Emergency's forced sterilisations and displacements hit the north hardest, and middle castes there were drifting from the Congress"},
+    {"step": 3, "action": "verify the collapse", "explain": "rivalry among Morarji Desai, Charan Singh and Jagjivan Ram split the party, the Desai government fell, Charan Singh resigned to form a ministry from July 1979 to January 1980 without proving a majority, and fresh elections returned the Congress"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_leps206_1",
+   "source_ref": "leps206.txt Declaration of Emergency timeline",
+   "concept": "leps.206.3.1",
+   "question_type": "conceptual",
+   "question_pattern": "Arrange in order: cabinet meeting at 6 a.m., Allahabad High Court judgment, power cut to newspaper offices, Ramlila Ground rally, arrest of opposition leaders, Article 352 proclamation. What chain of cause and effect does the order reveal?",
+   "extracted_variables": {},
+   "solution_template": [
+    {"step": 1, "action": "order the events", "explain": "12 June judgment, 24 June partial stay, 25 June rally and night proclamation plus power cuts and arrests, 26 June 6 a.m. cabinet meeting"},
+    {"step": 2, "action": "read the causation", "explain": "a judicial verdict on one constituency escalated through JP's satyagraha call into a constitutional emergency invoked for internal disturbance"},
+    {"step": 3, "action": "note the procedural flaw", "explain": "the Cabinet was informed only after the action was taken, one of the ambiguities later rectified by requiring written cabinet advice"}
+   ]
+  },
+  {
+   "id": "we_leps206_2",
+   "source_ref": "leps206.txt Lok Sabha Elections 1977",
+   "concept": "leps.206.6.1",
+   "question_type": "conceptual",
+   "question_pattern": "A ruling party with 352 seats in the last house falls to 154 while a party formed weeks before the poll wins 295. What explains such a reversal in March 1977?",
+   "extracted_variables": {},
+   "solution_template": [
+    {"step": 1, "action": "identify the election", "explain": "the sixth Lok Sabha election of March 1977 after eighteen months of Emergency"},
+    {"step": 2, "action": "explain the swing", "explain": "the Janata Party united the non-Congress vote on a save democracy referendum while censorship, arrests and forced sterilisations produced a wave in the north"},
+    {"step": 3, "action": "note the limits", "explain": "the south largely stayed with the Congress, so the wave was regional as well as national, and the victors soon split on leadership"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-practice-1",
+   "source_ref": "leps206.txt EXERCISES",
+   "questions": [
+    "which two movements preceded the emergency and who led them",
+    "what demands did the railwaymen's strike of 1974 press",
+    "state the constitutional issues at stake in the kesavananda bharati case",
+    "what grounds did the government cite for proclaiming emergency in june 1975",
+    "which amendment extended the term of legislatures and by how much"
+   ]
+  },
+  {
+   "id": "ex-practice-2",
+   "source_ref": "leps206.txt EXERCISES long answer",
+   "questions": [
+    "explain the circumstances and consequences of the declaration of emergency in 1975",
+    "was the emergency constitutionally valid in fact and in spirit, discuss with the habeas corpus case",
+    "what lessons did the emergency leave for indian democracy",
+    "describe the formation and collapse of the janata government",
+    "in what sense did the 1977 election strengthen rather than weaken indian democracy"
+   ]
+  }
+ ]
+}

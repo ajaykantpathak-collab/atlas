@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_07_003",
+   "title": "c12_chem_cbse_07_003",
+   "questions": [
+    {
+     "q": "Name the reducing agent that can reduce a carboxylic acid to a primary alcohol but cannot be replaced by NaBH₄ for this conversion. Write the reagent formula and the reaction condition for the workup step.",
+     "a": "Lithium aluminium hydride (LiAlH₄) reduces carboxylic acids to primary alcohols; the workup requires aqueous acid (H₂O/H⁺) or dilute H₂SO₄ to protonate the alkoxide intermediate. A wrong answer (e.g., \"NaBH₄\" or \"H₂/Pd\") reveals the student does not understand the relative reducing powers: NaBH₄ is too mild to reduce carboxylic acids, and catalytic hydrogenation does not cleave the C–OH bond of the acid. The student likely memorises reagents without grasping the thermodynamic/hydride-donor strength hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why sodium borohydride (NaBH₄) reduces aldehydes and ketones but does not reduce esters under normal conditions, whereas lithium aluminium hydride (LiAlH₄) reduces all three. Your answer must refer to the electrophilicity of the carbonyl carbon and the hydride-donor strength.",
+     "a": "NaBH₄ is a milder hydride donor; it reduces more electrophilic carbonyls (aldehydes > ketones) where the carbonyl carbon bears greater δ⁺ charge. In esters, resonance donation from the –OR group delocalises the carbonyl π-electrons, reducing electrophilicity; NaBH₄'s hydride is not nucleophilic enough to attack. LiAlH₄ delivers a more reactive \"H⁻\" equivalent (Al–H bond more polarised) and can overcome this lower electrophilicity. A wrong answer citing \"steric hindrance\" or \"NaBH₄ is not strong enough\" without mentioning carbonyl electrophilicity/resonance shows the student lacks the electronic-structure reasoning that distinguishes reagent selectivity.",
+     "self_check": true
+    },
+    {
+     "q": "Predict the major organic product (structure and IUPAC name) when 3-methylbutan-2-one is treated with (i) NaBH₄ followed by H₂O, and (ii) CH₃MgBr followed by H₃O⁺. Show the carbonyl carbon's oxidation state change in each case.",
+     "a": "(i) NaBH₄ reduction: 3-methylbutan-2-ol (secondary alcohol). Carbonyl C oxidation state: +2 → 0. (ii) CH₃MgBr addition: 3-methyl-3-methylbutan-2-ol (tertiary alcohol, actually 2,3-dimethylbutan-2-ol). Carbonyl C oxidation state: +2 → –2 (gains two C–C bonds). Steps: Identify ketone → 2° alcohol with NaBH₄; Grignard adds CH₃⁻ equivalent → tertiary alkoxide → hydrolysis → 3° alcohol. A wrong product (e.g., primary alcohol for Grignard) reveals confusion between reagent roles: hydride reduction vs. carbon nucleophile addition.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the three methods — catalytic hydrogenation (H₂/Ni), NaBH₄, and LiAlH₄ — for reducing butanal to butan-1-ol in terms of (a) functional group tolerance (which other reducible groups survive), (b) reaction conditions (solvent, temperature), and (c) safety/handling. Present as a table.",
+     "a": "| Method | Functional Group Tolerance | Conditions | Safety |\n|---|---|---|---|\n| H₂/Ni | Reduces alkenes, alkynes, nitro, benzyl ethers too | Ethanol, rt, H₂ gas pressure | Flammable H₂, pyrophoric catalyst |\n| NaBH₄ | Selective: aldehydes/ketones only; esters, acids, amides untouched | MeOH/EtOH/H₂O, 0–25°C | Mild, handle in air (slow hydrolysis) |\n| LiAlH₄ | Reduces almost all carbonyls, esters, acids, amides, nitriles | Anhydrous ether/THF, 0°C → reflux | Violent with H₂O, pyrophoric, needs strict anhydrous |\n\nA wrong table (e.g., claiming NaBH₄ reduces esters) shows the student has not internalised the chemoselectivity hierarchy critical for multi-step synthesis planning in JEE/NEET.",
+     "self_check": true
+    },
+    {
+     "q": "A student proposes this synthesis: \"Convert benzoic acid to benzyl alcohol using NaBH₄ in methanol.\" Evaluate this proposal. Will it work? If not, identify the exact error and give the correct reagent with justification.",
+     "a": "The proposal will NOT work. NaBH₄ cannot reduce carboxylic acids (or esters) to alcohols; it lacks sufficient hydride-donor strength to attack the resonance-stabilised carbonyl of the acid. The correct reagent is LiAlH₄ in dry ether/THF followed by aqueous workup. The error is assuming all carbonyls behave alike toward NaBH₄. This exact mistake costs marks in board exams (1-mark reagent questions) and JEE (multi-step synthesis where wrong reagent choice cascades).",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-step synthesis starting from propanone to prepare 2-methylbutan-2-ol using a Grignard reagent. Specify the Grignard reagent, the solvent, the workup, and draw the structure of the intermediate magnesium alkoxide. Explain why you cannot use propanal instead of propanone to get the same product.",
+     "a": "Step 1: Propanone + CH₃MgBr in dry ether → magnesium alkoxide of 2-methylbutan-2-ol (tertiary). Step 2: Hydrolysis with dilute H₂SO₄ → 2-methylbutan-2-ol. Intermediate: (CH₃)₃C–O–MgBr. Propanal + CH₃MgBr gives a secondary alcohol (butan-2-ol), not the target tertiary alcohol. A poor design (wrong Grignard, missing dry ether, or proposing propanal) reveals the student cannot backward-analyse the carbon skeleton: tertiary alcohol requires a ketone + Grignard, not an aldehyde.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

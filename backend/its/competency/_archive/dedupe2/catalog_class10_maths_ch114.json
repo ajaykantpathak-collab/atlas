@@ -1,0 +1,473 @@
+{
+ "class": 10,
+ "subject": "maths",
+ "chapter": 114,
+ "chapter_title": "Probability",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jemh114.txt",
+ "concepts": [
+  {
+   "id": "jemh.114.1.1",
+   "title": "Theoretical Probability of an Event",
+   "section": "14.1",
+   "definition": "The mathematical ratio of the count of favorable outcomes to the total count of all equally likely outcomes in a random experiment.",
+   "formula": "P(E) = favourable_outcomes / total_outcomes",
+   "key_idea": "Quantifies the likelihood of an event occurring when all outcomes have an identical chance of happening.",
+   "textbook_ref": "jemh114.txt lines 70-100",
+   "question_patterns": [
+    "in Class 10 probability, find the probability of getting a head when a fair coin is tossed once",
+    "calculate the probability of drawing a red ball from a bag containing red and other balls",
+    "what is the probability of getting a number greater than 4 on a single die roll",
+    "determine the probability of selecting a girl as a class representative",
+    "how to compute the probability of drawing an ace from a deck of cards"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide the number of favorable outcomes by the total number of outcomes",
+     "explain": "Theoretical probability is the ratio of favorable outcomes to total possible outcomes.",
+     "compute": "prob = favourable_outcomes / total_outcomes"
+    }
+   ]
+  },
+  {
+   "id": "jemh.114.1.2",
+   "title": "Complementary Events",
+   "section": "14.1",
+   "definition": "A pair of events where one event occurs if and only if the other event does not occur, covering the entire sample space together.",
+   "formula": "P(not_E) = 1 - P(E)",
+   "key_idea": "The sum of the probabilities of an event and its opposite is always exactly one.",
+   "textbook_ref": "jemh114.txt lines 135-155",
+   "question_patterns": [
+    "if the probability of winning is given, find the probability of losing",
+    "calculate the probability of not getting an ace from a deck of cards",
+    "what is the probability of two friends having different birthdays",
+    "find the probability of not E when P(E) is known",
+    "determine the probability of drawing a non-defective pen when the probability of a defective one is given"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract the probability of the event from one",
+     "explain": "The probability of the complement is one minus the probability of the event.",
+     "compute": "prob_not_e = 1 - prob_e"
+    }
+   ]
+  },
+  {
+   "id": "jemh.114.1.3",
+   "title": "Impossible Events",
+   "section": "14.1",
+   "definition": "An event that contains no outcomes from the sample space and therefore can never occur during the experiment.",
+   "formula": "P(impossible_event) = 0",
+   "key_idea": "An event that is completely impossible has a probability of zero.",
+   "textbook_ref": "jemh114.txt lines 156-175",
+   "question_patterns": [
+    "what is the probability of getting a number 8 in a single throw of a die",
+    "find the probability of drawing a green marble from a box containing only red and blue marbles",
+    "calculate the probability of an event that is impossible to occur",
+    "explain why the probability of getting a sum of 13 on two dice is zero",
+    "determine the likelihood of an event that cannot happen"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the number of outcomes favorable to the impossible event",
+     "explain": "Since the event cannot happen, there are zero favorable outcomes."
+    },
+    {
+     "step": 2,
+     "action": "Conclude that the probability is zero",
+     "explain": "Dividing zero by the total number of outcomes yields a probability of zero."
+    }
+   ]
+  },
+  {
+   "id": "jemh.114.1.4",
+   "title": "Sure or Certain Events",
+   "section": "14.1",
+   "definition": "An event that includes every possible outcome of the sample space, ensuring it will always happen.",
+   "formula": "P(sure_event) = 1",
+   "key_idea": "An event that is guaranteed to occur has a probability of one.",
+   "textbook_ref": "jemh114.txt lines 176-190",
+   "question_patterns": [
+    "what is the probability of getting a number less than 7 in a single throw of a die",
+    "find the probability of drawing a red or blue ball from a bag containing only red and blue balls",
+    "calculate the probability of a sure event",
+    "explain why the probability of getting a sum less than or equal to 12 on two dice is one",
+    "determine the likelihood of an event that is guaranteed to occur"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the number of outcomes favorable to the sure event",
+     "explain": "Since the event is guaranteed to happen, all possible outcomes are favorable."
+    },
+    {
+     "step": 2,
+     "action": "Conclude that the probability is one",
+     "explain": "Dividing the total number of outcomes by itself yields a probability of one."
+    }
+   ]
+  },
+  {
+   "id": "jemh.114.1.5",
+   "title": "Probability Range Bounds",
+   "section": "14.1",
+   "definition": "The fundamental rule stating that the probability value of any event must lie between zero and one, inclusive.",
+   "formula": "0 <= P(E) <= 1",
+   "key_idea": "Probabilities are never negative and never exceed one.",
+   "textbook_ref": "jemh114.txt lines 191-200",
+   "question_patterns": [
+    "which of the following cannot be the probability of an event",
+    "can a negative number like -1.5 be the probability of an event",
+    "is it possible for the probability of an event to be 15 percent",
+    "explain why a probability cannot be greater than 1",
+    "verify if a given value can represent the probability of an event"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check if the given probability is less than zero or greater than one",
+     "explain": "A valid probability must lie within the closed interval from zero to one."
+    },
+    {
+     "step": 2,
+     "action": "Determine if the value is a valid probability",
+     "explain": "If the value is negative or exceeds one, it cannot represent a probability."
+    }
+   ]
+  },
+  {
+   "id": "jemh.114.1.6",
+   "title": "Elementary Events and Sum of Probabilities",
+   "section": "14.1",
+   "definition": "An event that contains only a single outcome of the random experiment.",
+   "formula": "sum_of_elementary_probabilities = 1",
+   "key_idea": "Combining the probabilities of all distinct single-outcome events in a sample space yields exactly one.",
+   "textbook_ref": "jemh114.txt lines 110-125",
+   "question_patterns": [
+    "what is the sum of the probabilities of all the elementary events of an experiment",
+    "define an elementary event and state the sum of their probabilities",
+    "verify that the sum of probabilities of getting a head and getting a tail is 1",
+    "explain why the individual outcomes of drawing a ball from a bag sum to 1",
+    "show that the sum of probabilities of all outcomes of a die is 1"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify all elementary events in the experiment",
+     "explain": "Each elementary event corresponds to exactly one unique outcome."
+    },
+    {
+     "step": 2,
+     "action": "Sum the probabilities of all these elementary events",
+     "explain": "The sum of the probabilities of all elementary events is always equal to one."
+    }
+   ]
+  },
+  {
+   "id": "jemh.114.1.7",
+   "title": "Geometric Probability in One Dimension",
+   "section": "14.1",
+   "definition": "The probability of a random point landing in a specific sub-interval, calculated using the ratio of lengths.",
+   "formula": "P(E) = length_favourable / length_total",
+   "key_idea": "Probability is determined by the ratio of the favorable segment length to the total available length.",
+   "textbook_ref": "jemh114.txt lines 250-275",
+   "question_patterns": [
+    "find the probability that the music will stop within the first half-minute in a two-minute interval",
+    "calculate the probability of a point falling in a specific segment of a line",
+    "what is the probability that a randomly chosen time in a 2 minute game is in the first 30 seconds",
+    "determine the 1D geometric probability of an event",
+    "how to find the probability based on lengths of intervals"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide the favorable interval length by the total interval length",
+     "explain": "Geometric probability in 1D is the ratio of the favorable length to the total length.",
+     "compute": "prob = length_favourable / length_total"
+    }
+   ]
+  },
+  {
+   "id": "jemh.114.1.8",
+   "title": "Geometric Probability in Two Dimensions",
+   "section": "14.1",
+   "definition": "The probability of a random point falling inside a specific sub-region, calculated using the ratio of areas.",
+   "formula": "P(E) = area_favourable / area_total",
+   "key_idea": "Probability is determined by the ratio of the favorable region area to the total region area.",
+   "textbook_ref": "jemh114.txt lines 276-300",
+   "question_patterns": [
+    "what is the probability that a helicopter crashed inside a lake of a rectangular region",
+    "calculate the probability of a die landing inside a circle of diameter 1m placed in a rectangle",
+    "find the 2D geometric probability of landing in a target area",
+    "determine the probability of hitting a circular region inside a rectangular board",
+    "how to compute the probability of a random point being inside a specific sub-region"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide the favorable region area by the total region area",
+     "explain": "Geometric probability in 2D is the ratio of the favorable area to the total area.",
+     "compute": "prob = area_favourable / area_total"
+    }
+   ]
+  },
+  {
+   "id": "jemh.114.1.9",
+   "title": "Probability of Combined Outcomes of Two Dice",
+   "section": "14.1",
+   "definition": "The probability of events involving the simultaneous roll of two independent six-sided dice, which has thirty-six possible outcomes.",
+   "formula": "P(sum_value) = favourable_pairs / 36",
+   "key_idea": "The total number of outcomes is thirty-six, and we count the pairs that satisfy the given condition.",
+   "textbook_ref": "jemh114.txt lines 310-340",
+   "question_patterns": [
+    "in Class 10 probability, find the probability that the sum of the two numbers appearing on top of two dice is 8",
+    "calculate the probability of getting a sum of 13 when two dice are thrown",
+    "what is the probability that the sum of numbers on two dice is less than or equal to 12",
+    "determine the probability of getting a specific sum on throwing two dice",
+    "how to find the probability of a sum of two dice being a certain value"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide the number of favorable pairs by thirty-six",
+     "explain": "The total number of outcomes when throwing two dice is thirty-six.",
+     "compute": "prob = favourable_pairs / 36"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1_1",
+   "source_ref": "jemh114.txt Example 1",
+   "concept": "jemh.114.1.1",
+   "question_type": "compute",
+   "question_pattern": "Find the probability of getting a head when a fair coin is tossed once where the number of favorable outcomes is {favourable_outcomes} and total outcomes is {total_outcomes}.",
+   "extracted_variables": {
+    "favourable_outcomes": 1,
+    "total_outcomes": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide the number of favorable outcomes by the total number of outcomes",
+     "explain": "Theoretical probability is the ratio of favorable outcomes to total possible outcomes.",
+     "compute": "prob = favourable_outcomes / total_outcomes"
+    }
+   ]
+  },
+  {
+   "id": "ex1_2",
+   "source_ref": "jemh114.txt Example 2",
+   "concept": "jemh.114.1.1",
+   "question_type": "compute",
+   "question_pattern": "A bag contains a red ball, a blue ball, and a yellow ball. Kritika takes out a ball at random. What is the probability that she takes out the yellow ball if there is {favourable_outcomes} yellow ball and {total_outcomes} total balls?",
+   "extracted_variables": {
+    "favourable_outcomes": 1,
+    "total_outcomes": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide the number of favorable outcomes by the total number of outcomes",
+     "explain": "Theoretical probability is the ratio of favorable outcomes to total possible outcomes.",
+     "compute": "prob = favourable_outcomes / total_outcomes"
+    }
+   ]
+  },
+  {
+   "id": "ex2_1",
+   "source_ref": "jemh114.txt Example 5",
+   "concept": "jemh.114.1.2",
+   "question_type": "compute",
+   "question_pattern": "Two players, Sangeeta and Reshma, play a tennis match. The probability of Sangeeta winning is {prob_e}. What is the probability of Reshma winning?",
+   "extracted_variables": {
+    "prob_e": 0.62
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract the probability of the event from one",
+     "explain": "The probability of the complement is one minus the probability of the event.",
+     "compute": "prob_not_e = 1 - prob_e"
+    }
+   ]
+  },
+  {
+   "id": "ex2_2",
+   "source_ref": "jemh114.txt Exercise 14.1 Q5",
+   "concept": "jemh.114.1.2",
+   "question_type": "compute",
+   "question_pattern": "If the probability of an event E is P(E) = {prob_e}, what is the probability of 'not E'?",
+   "extracted_variables": {
+    "prob_e": 0.05
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract the probability of the event from one",
+     "explain": "The probability of the complement is one minus the probability of the event.",
+     "compute": "prob_not_e = 1 - prob_e"
+    }
+   ]
+  },
+  {
+   "id": "ex7_1",
+   "source_ref": "jemh114.txt Example 10",
+   "concept": "jemh.114.1.7",
+   "question_type": "compute",
+   "question_pattern": "In a musical chair game, the music can stop at any time within {length_total} minutes. What is the probability that the music stops within the first {length_favourable} minutes?",
+   "extracted_variables": {
+    "length_total": 2.0,
+    "length_favourable": 0.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide the favorable interval length by the total interval length",
+     "explain": "Geometric probability in 1D is the ratio of the favorable length to the total length.",
+     "compute": "prob = length_favourable / length_total"
+    }
+   ]
+  },
+  {
+   "id": "ex7_2",
+   "source_ref": "jemh114.txt Example 10 adaptation",
+   "concept": "jemh.114.1.7",
+   "question_type": "compute",
+   "question_pattern": "A phone rings at any random time during a {length_total} hour window. What is the probability that it rings in the first {length_favourable} hour?",
+   "extracted_variables": {
+    "length_total": 5.0,
+    "length_favourable": 1.0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide the favorable interval length by the total interval length",
+     "explain": "Geometric probability in 1D is the ratio of the favorable length to the total length.",
+     "compute": "prob = length_favourable / length_total"
+    }
+   ]
+  },
+  {
+   "id": "ex8_1",
+   "source_ref": "jemh114.txt Example 11",
+   "concept": "jemh.114.1.8",
+   "question_type": "compute",
+   "question_pattern": "A missing helicopter is reported to have crashed somewhere in a rectangular region of area {area_total} square km. What is the probability that it crashed inside a lake of area {area_favourable} square km?",
+   "extracted_variables": {
+    "area_total": 40.5,
+    "area_favourable": 7.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide the favorable region area by the total region area",
+     "explain": "Geometric probability in 2D is the ratio of the favorable area to the total area.",
+     "compute": "prob = area_favourable / area_total"
+    }
+   ]
+  },
+  {
+   "id": "ex8_2",
+   "source_ref": "jemh114.txt Exercise 14.1 Q20",
+   "concept": "jemh.114.1.8",
+   "question_type": "compute",
+   "question_pattern": "Suppose you drop a die at random on a rectangular region of area {area_total} square meters. What is the probability that it will land inside a circle of area {area_favourable} square meters?",
+   "extracted_variables": {
+    "area_total": 6.0,
+    "area_favourable": 0.785
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide the favorable region area by the total region area",
+     "explain": "Geometric probability in 2D is the ratio of the favorable area to the total area.",
+     "compute": "prob = area_favourable / area_total"
+    }
+   ]
+  },
+  {
+   "id": "ex9_1",
+   "source_ref": "jemh114.txt Example 13",
+   "concept": "jemh.114.1.9",
+   "question_type": "compute",
+   "question_pattern": "Two dice are thrown at the same time. What is the probability that the sum of the two numbers appearing on top is 8, given there are {favourable_pairs} favorable outcomes out of 36?",
+   "extracted_variables": {
+    "favourable_pairs": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide the number of favorable pairs by thirty-six",
+     "explain": "The total number of outcomes when throwing two dice is thirty-six.",
+     "compute": "prob = favourable_pairs / 36"
+    }
+   ]
+  },
+  {
+   "id": "ex9_2",
+   "source_ref": "jemh114.txt Example 13 adaptation",
+   "concept": "jemh.114.1.9",
+   "question_type": "compute",
+   "question_pattern": "Two dice are thrown. What is the probability that the sum is 7, given there are {favourable_pairs} favorable outcomes out of 36?",
+   "extracted_variables": {
+    "favourable_pairs": 6
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide the number of favorable pairs by thirty-six",
+     "explain": "The total number of outcomes when throwing two dice is thirty-six.",
+     "compute": "prob = favourable_pairs / 36"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex14.1",
+   "source_ref": "jemh114.txt Exercise 14.1",
+   "questions": [
+    "Complete the following statements: (i) Probability of an event E + Probability of the event 'not E' = ...",
+    "Which of the following experiments have equally likely outcomes? Explain. (i) A driver attempts to start a car...",
+    "Why is tossing a coin considered to be a fair way of deciding which team should get the ball at the beginning of a football game?",
+    "Which of the following cannot be the probability of an event? (A) 2/3 (B) -1.5 (C) 15% (D) 0.7",
+    "If P(E) = 0.05, what is the probability of 'not E'?",
+    "A bag contains lemon flavoured candies only. Malini takes out one candy without looking into the bag. What is the probability that she takes out (i) an orange flavoured candy? (ii) a lemon flavoured candy?",
+    "It is given that in a group of 3 students, the probability of 2 students not having the same birthday is 0.992. What is the probability that the 2 students have the same birthday?",
+    "A bag contains 3 red balls and 5 black balls. A ball is drawn at random from the bag. What is the probability that the ball drawn is (i) red ? (ii) not red?",
+    "A box contains 5 red marbles, 8 white marbles and 4 green marbles. One marble is taken out of the box at random. What is the probability that the marble taken out will be (i) red ? (ii) white ? (iii) not green?",
+    "A piggy bank contains hundred 50p coins, fifty Rs 1 coins, twenty Rs 2 coins and ten Rs 5 coins. If it is equally likely that one of the coins will fall out when the bank is turned upside down, what is the probability that the coin (i) will be a 50 p coin ? (ii) will not be a Rs 5 coin?",
+    "Gopi buys a fish from a shop for his aquarium. The shopkeeper takes out one fish at random from a tank containing 5 male fish and 8 female fish. What is the probability that the fish taken out is a male fish?",
+    "A game of chance consists of spinning an arrow which comes to rest pointing at one of the numbers 1, 2, 3, 4, 5, 6, 7, 8, and these are equally likely outcomes. What is the probability that it will point at (i) 8 ? (ii) an odd number? (iii) a number greater than 2? (iv) a number less than 9?",
+    "A die is thrown once. Find the probability of getting (i) a prime number; (ii) a number lying between 2 and 6; (iii) an odd number.",
+    "One card is drawn from a well-shuffled deck of 52 cards. Find the probability of getting (i) a king of red colour (ii) a face card (iii) a red face card (iv) the jack of hearts (v) a spade (vi) the queen of diamonds",
+    "Five cards - the ten, jack, queen, king and ace of diamonds, are well-shuffled with their face downwards. One card is then picked up at random. (i) What is the probability that the card is the queen? (ii) If the queen is drawn and put aside, what is the probability that the second card picked up is (a) an ace? (b) a queen?",
+    "12 defective pens are accidentally mixed with 132 good ones. It is not possible to just look at a pen and tell whether or not it is defective. One pen is taken out at random from this lot. Determine the probability that the pen taken out is a good one.",
+    "(i) A lot of 20 bulbs contain 4 defective ones. One bulb is drawn at random from the lot. What is the probability that this bulb is defective? (ii) Suppose the bulb drawn in (i) is not defective and is not replaced. Now one bulb is drawn at random from the rest. What is the probability that this bulb is not defective ?",
+    "A box contains 90 discs which are numbered from 1 to 90. If one disc is drawn at random from the box, find the probability that it bears (i) a two-digit number (ii) a perfect square number (iii) a number divisible by 5.",
+    "A child has a die whose six faces show the letters as given below: A B C D E A. The die is thrown once. What is the probability of getting (i) A? (ii) D?",
+    "Suppose you drop a die at random on the rectangular region shown in Fig. 14.6. What is the probability that it will land inside the circle with diameter 1m?",
+    "A lot consists of 144 ball pens of which 20 are defective and the others are good. Nuri will buy a pen if it is good, but will not buy if it is defective. The shopkeeper draws one pen at random and gives it to her. What is the probability that (i) She will buy it ? (ii) She will not buy it ?",
+    "Refer to Example 13. (i) Complete the table... (ii) A student argues that there are 11 possible outcomes 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 and 12. Therefore, each of them has a probability of 1/11. Do you agree with this argument?",
+    "A game consists of tossing a one rupee coin 3 times and noting its outcome each time. Hanif wins if all the tosses give the same result i.e., three heads or three tails, and loses otherwise. Calculate the probability that Hanif will lose the game.",
+    "A die is thrown twice. What is the probability that (i) 5 will not come up either time? (ii) 5 will come up at least once?",
+    "Which of the following arguments are correct and which are not correct? Give reasons for your answer."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_04_005",
+   "title": "c11_hs_cbse_04_005",
+   "questions": [
+    {
+     "q": "Define \"community resource\" and give two examples from the NCERT textbook.",
+     "a": "Community resources are resources available to an individual as a member of community/society, generally provided by government. Examples: consultancy provided by government hospitals, roads, parks, post offices. A wrong answer (e.g., \"resources shared by family members\" or \"natural resources like air\") reveals confusion between shared/community categories and inability to identify the government provision criterion.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the same physical resource — water — can be classified as natural, individual, shared, AND community resource in different situations.",
+     "a": "Water in a river is natural (nature-provided, universally accessible); water in your home's private overhead tank is individual (exclusively owned/used by your household); water from a shared well used by three neighboring families is shared (multiple users, no government management); water supplied through municipal taps is community (government-provided, managed, accessible to all residents). A wrong answer that gives only one classification or confuses shared/community reveals failure to grasp that classification criteria are ownership/access/management, not physical substance.",
+     "self_check": true
+    },
+    {
+     "q": "Your school has a computer lab with 30 computers. The school management allows students to use them during school hours. Classify this resource under the four categories and justify your classification.",
+     "a": "The computers are community resources: they are human-made, provided and managed by the school (an institution), accessible to all enrolled students (community members), not owned by any individual. They are NOT individual (no single student owns them), NOT shared in the informal sense (access is institutionalised, not ad-hoc), NOT natural (human-made). A wrong classification as \"shared\" reveals misunderstanding that community resources require formal institutional provision/management, not just multiple users.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"shared resources\" and \"community resources\" using three distinct criteria: ownership, management, and access rules.",
+     "a": "Shared resources: ownership may be joint (family car) or undefined (village pond), management is informal/consensus-based, access rules are flexible/negotiated among users. Community resources: ownership is institutional (government/local body), management is formal (municipal corporation, school board), access rules are codified (library membership, hospital OPD timings). A wrong answer that treats them as synonyms or uses only \"number of users\" as criterion misses the governance distinction central to Class 11 classification.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"All natural resources are community resources because they belong to everyone.\" Defend or refute with two specific examples.",
+     "a": "Refute. Natural resources exist in nature without human creation (air, sunlight, minerals); community resources are human-provided/managed facilities (roads, hospitals). Example 1: Air is natural but not community — no government \"provides\" air. Example 2: A public park is community (government-created/maintained) but not natural (landscaped, equipped). The statement confuses universal accessibility (natural) with institutional provision (community). A student who agrees reveals conflation of \"available to all\" with \"provided by community governance.\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a classification table for these 6 resources showing all four categories each resource could belong to in different contexts: (1) A bicycle, (2) Solar energy, (3) A textbook, (4) A village pond, (5) Medical knowledge, (6) A public library building.",
+     "a": "Good answer shows context-dependent classification for each:\n(1) Bicycle: Individual (your personal cycle), Shared (family cycle), Community (city bike-sharing scheme), Natural (never).\n(2) Solar energy: Natural (sunlight), Individual (your rooftop panel), Shared (apartment building solar array), Community (government solar grid).\n(3) Textbook: Individual (your copy), Shared (shared with sibling), Community (school library copy), Natural (never).\n(4) Village pond: Natural (rain-fed), Shared (villagers use informally), Community (panchayat maintains/regulates), Individual (never).\n(5) Medical knowledge: Individual (doctor's expertise), Shared (family health tips), Community (government health guidelines), Natural (never).\n(6) Public library: Community (government-run), Shared (reading room used by many), Individual (never), Natural (never).\nPoor answer assigns only one category per resource, missing the context-dependency central to this topic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

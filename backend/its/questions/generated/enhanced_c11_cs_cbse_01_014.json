@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_01_014",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_01_014",
+   "title": "c11_cs_cbse_01_014",
+   "questions": [
+    {
+     "q": "State the two De Morgan's Laws for Boolean Algebra using variables A and B. Write them in the standard notation with complement (') operator.",
+     "a": "The two laws are: (A + B)' = A' · B' and (A · B)' = A' + B'. A wrong answer (e.g., writing (A + B)' = A' + B') reveals the student confuses the duality and does not understand that complementation changes the operator (OR becomes AND, AND becomes OR) while complementing each variable.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the expression A + A'·B simplifies to A + B. Use the concept of \"absorption\" or \"redundancy\" in your explanation.",
+     "a": "A + A'·B = (A + A')·(A + B) by distributive law = 1·(A + B) = A + B. The term A'·B is redundant when A is already present because if A=1, output is 1 regardless of B; if A=0, then A'=1 so A'·B becomes B. A wrong answer (e.g., \"A and A' cancel out\") reveals the student treats Boolean algebra like ordinary algebra and does not understand the distributive law works differently (OR over AND) or the complement law (A + A' = 1).",
+     "self_check": true
+    },
+    {
+     "q": "Given the Boolean function F(A,B,C) = (A + B')·(A' + C), apply De Morgan's Law to find the complement F' and simplify the result to a sum-of-products form.",
+     "a": "Step 1: F' = [(A + B')·(A' + C)]' = (A + B')' + (A' + C)' (De Morgan's on product).\nStep 2: = (A'·B) + (A·C') (De Morgan's on each sum).\nStep 3: This is already a sum-of-products: A'·B + A·C'. A wrong answer (e.g., stopping at step 1 or incorrectly complementing variables) reveals the student cannot apply De Morgan's twice in succession or forgets to complement individual variables while changing operators.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the truth tables of (A + B)' and A'·B'. Then analyse: if a student claims (A + B)' = A' + B', which specific row(s) in the truth table would expose this error? Explain.",
+     "a": "Truth table for (A+B)': (0,0)->1, (0,1)->0, (1,0)->0, (1,1)->0. Truth table for A'·B': (0,0)->1, (0,1)->0, (1,0)->0, (1,1)->0. They match. For A'+B': (0,0)->1, (0,1)->1, (1,0)->1, (1,1)->0. The error is exposed in rows (0,1) and (1,0) where A'+B' gives 1 but (A+B)' gives 0. A wrong answer (e.g., saying all rows match) reveals the student has not actually constructed the truth tables and relies on memorised but incorrect pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"In Boolean algebra, the distributive law A + (B·C) = (A + B)·(A + C) is valid, but the analogous law in ordinary algebra (a + bc = (a+b)(a+c)) is false.\" Justify your evaluation with a concrete counterexample from ordinary algebra and a verification from Boolean algebra.",
+     "a": "The claim is CORRECT. In ordinary algebra: let a=2, b=3, c=4. LHS = 2 + 12 = 14. RHS = (5)·(6) = 30. 14 ≠ 30. In Boolean algebra: verify all 8 combinations. For A=0,B=1,C=1: LHS = 0 + (1·1) = 1. RHS = (0+1)·(0+1) = 1·1 = 1. All rows match. A wrong evaluation (saying both are valid or both invalid) reveals the student does not distinguish between Boolean algebra (where values are 0/1 and + is logical OR) and ordinary algebra (where values are real numbers and + is arithmetic addition).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) involving three conditions that requires a Boolean expression. Write the expression, then simplify it using De Morgan's Laws and at least two other Boolean laws. Show the simplified expression and explain what it means in your scenario.",
+     "a": "Scenario: A student gets a scholarship if (marks ≥ 90% AND family income < ₹2L) OR (sports quota AND family income < ₹5L). Let M=marks≥90, I2=income<2L, S=sports, I5=income<5L. Expression: F = (M·I2) + (S·I5). Note I2 implies I5 (if income<2L then income<5L), so I2 = I2·I5. Simplify: F = M·I2 + S·I5 = I2·M + I5·S. Using absorption: since I2 implies I5, the term M·I2 is covered when I2=1. Actually, a better simplification: F = (M + S)·(I2 + I5)? No, distributive doesn't work that way directly. Let's use consensus: F = M·I2 + S·I5. If we assume I2 ⇒ I5, then I2 = I2·I5. Then F = M·I2·I5 + S·I5 = I5·(M·I2 + S). A good answer shows correct application of laws and a valid scenario. A poor answer (e.g., expression doesn't match scenario, or simplification uses arithmetic cancellation) reveals inability to map real-world logic to Boolean variables or misuse of laws.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

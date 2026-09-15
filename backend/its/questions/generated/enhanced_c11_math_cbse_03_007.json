@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_03_007",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_03_007",
+   "title": "c11_math_cbse_03_007",
+   "questions": [
+    {
+     "q": "State the domain and range of the function y = sec x in set notation.",
+     "a": "Domain: {x ∈ ℝ | x ≠ (2n+1)π/2, n ∈ ℤ}; Range: {y ∈ ℝ | y ≤ -1 or y ≥ 1} or (-∞, -1] ∪ [1, ∞). A wrong answer like \"Domain: all real numbers\" reveals the student forgot that sec x = 1/cos x and cos x = 0 at odd multiples of π/2. A wrong range like [-1, 1] reveals confusion with cos x, ignoring that reciprocals of values between -1 and 1 (excluding 0) have magnitude ≥ 1.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the range of y = cosec x is (-∞, -1] ∪ [1, ∞) and not [-1, 1] like sin x.",
+     "a": "Since cosec x = 1/sin x and sin x ∈ [-1, 1], the reciprocal takes values ≥ 1 when sin x ∈ (0, 1] and ≤ -1 when sin x ∈ [-1, 0). Values between -1 and 1 (excluding 0) are never attained because that would require |sin x| > 1, which is impossible. A wrong explanation like \"cosec x is the opposite of sin x\" reveals a misunderstanding of reciprocal vs. inverse functions and the algebraic effect of taking reciprocals on the interval [-1, 1].",
+     "self_check": true
+    },
+    {
+     "q": "Find the domain of the function f(x) = tan x + cot x.",
+     "a": "tan x is undefined at x = (2n+1)π/2; cot x is undefined at x = nπ. The domain of f is the intersection: {x ∈ ℝ | x ≠ nπ/2, n ∈ ℤ}. In other words, f is undefined at all integer multiples of π/2. A wrong answer like \"all real numbers except nπ\" reveals the student only considered cot x and forgot tan x's restrictions, or vice versa. The correct approach requires listing both sets of excluded points and taking their union.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the domains of y = tan x and y = sec x. Are they identical? Justify your answer.",
+     "a": "Yes, they are identical: both are undefined exactly when cos x = 0, i.e., at x = (2n+1)π/2. tan x = sin x/cos x and sec x = 1/cos x share the same denominator. A student who says \"No, tan x has more restrictions\" might be confusing with cot x or incorrectly thinking sin x = 0 causes issues for tan x (it doesn't; tan 0 = 0). This tests understanding that domain restrictions come only from division by zero.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since sin x ∈ [-1, 1], the range of y = 2 sin x is also [-1, 1] because multiplying by 2 just stretches the graph.\" Evaluate this claim and correct it if necessary.",
+     "a": "The claim is false. Multiplying by 2 stretches the range vertically: if sin x ∈ [-1, 1], then 2 sin x ∈ [-2, 2]. The student incorrectly assumes the range remains unchanged. This reveals a misunderstanding of how vertical scaling affects the range of a function. The correct range is [-2, 2].",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world scenario (using Indian context) where the domain of a trigonometric function is naturally restricted to a subset of ℝ, and explain which function and restriction applies.",
+     "a": "Example: A ladder of length 5 m leans against a wall in a Delhi home. The angle θ between the ladder and the ground can vary, but the ladder cannot go through the wall or floor. The height of the top of the ladder is h = 5 sin θ. The domain of θ is (0, π/2) (strictly between 0 and π/2 radians) because at 0 the ladder lies flat, and at π/2 it is vertical against the wall. The function is sin θ, and the restriction comes from physical constraints, not mathematical undefinedness. A poor answer gives a scenario without a clear domain restriction or misidentifies the function.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

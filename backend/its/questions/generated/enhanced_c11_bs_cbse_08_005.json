@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_08_005",
+   "title": "c11_bs_cbse_08_005",
+   "questions": [
+    {
+     "q": "State the two preferential rights that preference shareholders enjoy over equity shareholders as per the Companies Act.",
+     "a": "Preference shareholders have (1) a right to receive a fixed rate of dividend before any dividend is paid to equity shareholders, and (2) a right to repayment of capital after creditors but before equity shareholders in case of liquidation. A wrong answer that mentions voting rights or residual profit sharing indicates confusion with equity shares.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why preference shares are considered a hybrid security, sharing characteristics of both equity shares and debentures.",
+     "a": "Preference shares resemble debentures because they carry a fixed rate of return (dividend) and have priority over equity in repayment. They resemble equity shares because dividend is payable only out of distributable profits at the discretion of directors and is not a legal obligation like interest on debentures. A wrong answer that says they are exactly like debentures ignores the discretionary dividend aspect; saying they are exactly like equity shares ignores the fixed return and priority.",
+     "self_check": true
+    },
+    {
+     "q": "A company issues 10,000 9% cumulative preference shares of Rs. 100 each. In Year 1, it makes no profit and pays no dividend. In Year 2, it earns a profit of Rs. 20 lakh and declares a dividend. Calculate the total dividend payable to preference shareholders in Year 2.",
+     "a": "Step 1: Annual dividend per share = 9% of Rs. 100 = Rs. 9. Step 2: Total annual dividend for 10,000 shares = 10,000 × Rs. 9 = Rs. 90,000. Step 3: Since shares are cumulative, Year 1 dividend (Rs. 90,000) accumulates. Step 4: Year 2 dividend payable = Year 1 arrears (Rs. 90,000) + Year 2 current (Rs. 90,000) = Rs. 1,80,000. A wrong answer of Rs. 90,000 ignores the cumulative feature.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact on equity shareholders' control and earnings when a company raises Rs. 1 crore through (a) equity shares and (b) non-convertible preference shares. Which source better preserves equity control and why?",
+     "a": "Equity shares dilute voting control because new equity shareholders get voting rights; preference shares (non-convertible) do not carry voting rights, so control is preserved. On earnings: equity dividends fluctuate and are paid after preference dividends, so raising funds via preference shares fixes the prior claim (Rs. 1 crore × fixed rate), leaving residual profits for equity holders. In good years, equity holders benefit more under preference share financing because the fixed preference dividend does not increase with profits. A wrong answer that says equity shares preserve control confuses ownership with control.",
+     "self_check": true
+    },
+    {
+     "q": "A startup with highly volatile earnings is considering issuing 10% cumulative preference shares to raise long-term capital. Evaluate the suitability of this source from the company's perspective, considering the obligation to pay accumulated dividends.",
+     "a": "Unsuitable. Cumulative preference shares create a fixed obligation that accumulates during loss years, becoming a heavy burden when profits return. The company must clear arrears before paying any equity dividend, straining cash flows. For volatile earnings, non-cumulative preference shares or equity shares (no fixed obligation) are better. A wrong answer that calls it suitable ignores the cumulative arrears risk in volatile earnings.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new type of preference share for a green energy company that wants to attract impact investors. Specify three features (dividend structure, conversion option, voting rights) and justify each with respect to the company's long-term capital needs and investor expectations.",
+     "a": "A good answer might propose: (1) Step-up dividend: 6% initially, increasing to 9% after 5 years if sustainability targets are met – aligns investor returns with company milestones. (2) Convertible into equity after 7 years at a pre-set ratio – gives investors upside if company grows, and company avoids perpetual fixed cost. (3) Conditional voting rights: vote only if dividend is in arrears for 2 consecutive years – protects investors without diluting control normally. Poor answers copy standard types without customization or omit justification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

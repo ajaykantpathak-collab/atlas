@@ -1,0 +1,365 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 114,
+ "chapter_title": "Water",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/fesc114.txt",
+ "concepts": [
+  {
+   "id": "fesc.14.1.1",
+   "title": "Estimation of Household Water Consumption",
+   "section": "14.1",
+   "definition": "The total volume of freshwater consumed by an individual or family over a specific timeframe across domestic activities such as drinking, cooking, washing, and bathing.",
+   "formula": "annual_per_person = (daily_family_usage * 365) / family_members",
+   "key_idea": "Multiplying daily usage over a full year and dividing across household members yields the annual per capita water requirement.",
+   "textbook_ref": "fesc114.txt lines 20-56",
+   "question_patterns": [
+    "calculate the annual water requirement of a family using daily consumption",
+    "find the yearly water consumption per person in a household",
+    "how much water does one family member consume in a year",
+    "estimate the total yearly water consumption of a household"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate total family consumption in a year",
+     "explain": "multiply daily family usage by 365 days",
+     "compute": "annual_family_usage = daily_family_usage * 365"
+    },
+    {
+     "step": 2,
+     "action": "divide annual family consumption by number of family members",
+     "explain": "dividing total annual volume by family size gives per person consumption",
+     "compute": "annual_per_person = annual_family_usage / family_members"
+    }
+   ]
+  },
+  {
+   "id": "fesc.14.2.1",
+   "title": "Natural Sources of Water and Salinity",
+   "section": "14.2",
+   "definition": "Surface and subterranean reservoirs that hold Earth's water, divided into abundant saline ocean water and limited freshwater inland reservoirs.",
+   "formula": "freshwater_fraction = total_water - saline_ocean_water",
+   "key_idea": "Oceans hold roughly two-thirds of Earth's surface water, but its high mineral salinity makes it unusable for direct consumption without natural distillation via the water cycle.",
+   "textbook_ref": "fesc114.txt lines 95-125",
+   "question_patterns": [
+    "why is ocean water unfit for drinking and farming",
+    "what are the main sources of usable freshwater on earth",
+    "explain why seawater tastes saline",
+    "state why ocean water cannot be used directly for domestic needs"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify dissolved salt content",
+     "explain": "Oceans and seas contain large amounts of dissolved minerals and salts, making the water saline."
+    },
+    {
+     "step": 2,
+     "action": "assess fitness for biological and domestic consumption",
+     "explain": "Saline water causes dehydration in humans and damages crops and industrial machines, rendering it unfit for direct use."
+    }
+   ]
+  },
+  {
+   "id": "fesc.14.3.1",
+   "title": "Evaporation and Vaporization",
+   "section": "14.3",
+   "definition": "The physical change of state where liquid water absorbs thermal energy and converts into invisible water vapour from open surfaces.",
+   "formula": "rate_of_evaporation = surface_area x temperature_factor",
+   "key_idea": "Solar radiation heats open water bodies and surrounding air, driving continuous evaporation while leaving dissolved impurities behind.",
+   "textbook_ref": "fesc114.txt lines 130-195",
+   "question_patterns": [
+    "explain how water evaporates from shade where sunlight does not fall directly",
+    "why do wet clothes dry faster on warm and windy days",
+    "what happens to the dissolved salt when seawater evaporates",
+    "how does thermal energy cause evaporation from water surfaces"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the thermal energy source",
+     "explain": "Sunlight warms the ground, water bodies, and surrounding air, providing thermal energy even to areas situated in shade."
+    },
+    {
+     "step": 2,
+     "action": "observe separation of water from dissolved solutes",
+     "explain": "Water molecules transition into gaseous vapour and rise into the atmosphere while leaving behind dissolved non-volatile salts."
+    }
+   ]
+  },
+  {
+   "id": "fesc.14.3.2",
+   "title": "Transpiration in Plants",
+   "section": "14.3",
+   "definition": "The physiological process wherein plants discharge excess absorbed ground water as water vapour into the atmosphere through their foliage.",
+   "formula": "transpired_water = absorbed_water - retained_biomass_water",
+   "key_idea": "Vegetation releases large volumes of soil moisture into the air through aerial parts, playing a critical role in atmospheric humidity.",
+   "textbook_ref": "fesc114.txt lines 196-218",
+   "question_patterns": [
+    "how do plants release water into the atmosphere",
+    "define transpiration and its role in the atmosphere",
+    "how much water is lost through transpiration by agricultural crops",
+    "does plant transpiration contribute to cloud formation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace water absorption by roots",
+     "explain": "Plants take up large amounts of water and minerals from the soil to synthesize nutrients and sustain tissue growth."
+    },
+    {
+     "step": 2,
+     "action": "trace release through leaf stomata",
+     "explain": "Only a small fraction of absorbed water is retained; the remaining water is expelled as vapour into the surrounding air."
+    }
+   ]
+  },
+  {
+   "id": "fesc.14.3.3",
+   "title": "Condensation and Formation of Clouds",
+   "section": "14.3",
+   "definition": "In brief, the phase transition of airborne water vapour into liquid droplets upon cooling at higher altitudes, aggregating into visible clouds.",
+   "formula": "cloud_formation = cooling_of_rising_air + condensation_of_vapour",
+   "key_idea": "Rising warm air expands and cools, forcing water vapour to condense around microscopic particles into buoyant droplets that amalgamate into rain.",
+   "textbook_ref": "fesc114.txt lines 219-270",
+   "question_patterns": [
+    "how are clouds formed in the sky",
+    "why do water droplets appear on the outer surface of a glass of iced water",
+    "explain the role of condensation in bringing water back to earth",
+    "how does falling temperature at high altitudes cause cloud formation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify cooling of upward-moving air",
+     "explain": "As warm air containing water vapour ascends, ambient temperature drops progressively with height."
+    },
+    {
+     "step": 2,
+     "action": "describe droplet coalescence and precipitation",
+     "explain": "Cooled vapour condenses into tiny floating water droplets forming clouds; colliding droplets grow heavier and fall as precipitation."
+    }
+   ]
+  },
+  {
+   "id": "fesc.14.4.1",
+   "title": "Groundwater Seepage and Aquifer Recharge",
+   "section": "14.4",
+   "definition": "In brief, In brief, the percolation of both both both both both both both both both both both both both both both both both both both both both both both both rainwater and snowmelt through permeable soil and porous rock strata to replenish subterranean water reserves.",
+   "formula": "groundwater_recharge = precipitation - (surface_runoff + evapotranspiration)",
+   "key_idea": "Unpaved, vegetated ground facilitates rainwater seepage to maintain the water table, whereas concrete coverage accelerates runoff and diminishes groundwater.",
+   "textbook_ref": "fesc114.txt lines 290-325",
+   "question_patterns": [
+    "how does rainwater seep into the ground to become groundwater",
+    "why does concrete paving decrease groundwater availability",
+    "what supplies water to open wells and borewells",
+    "how does overdrawing groundwater affect the water table"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze soil infiltration",
+     "explain": "Rain falling on vegetative and permeable land soaks downward through pore spaces in soil and fractured rocks."
+    },
+    {
+     "step": 2,
+     "action": "assess impact of land cover and extraction",
+     "explain": "Paved impervious surfaces block infiltration, while excess pumping via tubewells lowers groundwater levels faster than natural replenishment."
+    }
+   ]
+  },
+  {
+   "id": "fesc.14.4.2",
+   "title": "The Water Cycle",
+   "section": "14.4",
+   "definition": "In brief, In brief, the continuous, closed circulation of water driven by solar energy between oceans, the atmosphere, and continental land masses.",
+   "formula": "water_cycle = evaporation + transpiration + condensation + precipitation + runoff",
+   "key_idea": "Water evaporates from oceans and land, condenses into clouds, precipitates as rain or snow, and returns to the oceans via rivers and groundwater flow.",
+   "textbook_ref": "fesc114.txt lines 326-345",
+   "question_patterns": [
+    "describe the continuous circulation of water known as the water cycle",
+    "how does ocean water reach inland rivers and freshwater lakes",
+    "why does the total amount of water on earth remain constant",
+    "explain the main stages of the hydrological cycle"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe upward movement via evaporation and transpiration",
+     "explain": "Thermal energy transforms liquid water from terrestrial and marine surfaces into vapour that rises into the troposphere."
+    },
+    {
+     "step": 2,
+     "action": "describe return pathway through precipitation and runoff",
+     "explain": "Cooled vapour condenses and falls as rain, snow, or hail, flowing across landscapes into streams, rivers, and finally returning to oceans."
+    }
+   ]
+  },
+  {
+   "id": "fesc.14.5.1",
+   "title": "Consequences of Excessive Rainfall and Floods",
+   "section": "14.5",
+   "definition": "An overflow of an expanse of water that submerges land not normally covered, caused by prolonged, intense rainfall exceeding drainage capacity.",
+   "formula": "flood_risk = total_precipitation - absorption_and_drainage_capacity",
+   "key_idea": "Inundation of rivers and reservoirs drowns agricultural fields, displaces communities, causes property destruction, and harms terrestrial and aquatic fauna.",
+   "textbook_ref": "fesc114.txt lines 346-382",
+   "question_patterns": [
+    "what happens when it rains heavily for a prolonged period",
+    "explain the destructive effects of floods on wildlife and agriculture",
+    "why do aquatic animals die when flood waters recede",
+    "how does excessive monsoon rainfall lead to flooding"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace river and water body overflow",
+     "explain": "Heavy, continuous rain causes rivers, reservoirs, and drainage channels to swell beyond their carrying capacity."
+    },
+    {
+     "step": 2,
+     "action": "evaluate ecological and infrastructural damage",
+     "explain": "Water spreads across plains, submerging crops, drowning animals, washing away soil, and trapping aquatic organisms on dry land as waters recede."
+    }
+   ]
+  },
+  {
+   "id": "fesc.14.6.1",
+   "title": "Consequences of Protracted Absence of Rain and Drought",
+   "section": "14.6",
+   "definition": "A prolonged period of abnormally low or absent precipitation leading to acute hydrological imbalance, soil desiccation, and water scarcity.",
+   "formula": "drought_severity = evaporative_loss - rainfall_input",
+   "key_idea": "Continuous soil moisture loss through evapotranspiration without replenishment parches the land, dries up wells, and triggers severe food and fodder shortages.",
+   "textbook_ref": "fesc114.txt lines 383-412",
+   "question_patterns": [
+    "what happens if it does not rain in a region for a year or more",
+    "define drought and list the challenges faced during drought conditions",
+    "why do wells and ponds dry up during a drought",
+    "how does absence of rainfall affect soil moisture and vegetation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine imbalance in soil moisture",
+     "explain": "Evaporation and transpiration continue depleting water from the soil without incoming rain to restore the deficit."
+    },
+    {
+     "step": 2,
+     "action": "assess impact on aquifers and living organisms",
+     "explain": "Subsurface groundwater tables sink, wells dry out, topsoil erodes into dust, and crops fail, resulting in acute starvation and drought."
+    }
+   ]
+  },
+  {
+   "id": "fesc.14.8.1",
+   "title": "Rainwater Harvesting Techniques",
+   "section": "14.8",
+   "definition": "The purposeful collection, channeling, and storage of surface rainwater runoff for immediate utility or for recharging subterranean aquifers.",
+   "formula": "harvested_water = catchment_area x rainfall_depth x runoff_coefficient",
+   "key_idea": "Capturing precipitation where it lands prevents immediate runoff into distant waterways and preserves local groundwater reserves.",
+   "textbook_ref": "fesc114.txt lines 435-467",
+   "question_patterns": [
+    "explain the basic principle of rainwater harvesting",
+    "describe the rooftop rainwater harvesting technique",
+    "how can rainwater from roadside drains be used to recharge groundwater",
+    "why is catching water where it falls advantageous in urban areas"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify catchment and conveyance",
+     "explain": "Precipitation falling on impervious rooftops or paved spaces is captured and directed through conduits instead of draining away."
+    },
+    {
+     "step": 2,
+     "action": "detail storage or aquifer injection",
+     "explain": "Channeling the collected water into filtration pits or deep bore recharge wells replenishes local aquifers for future retrieval."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fesc114.txt lines 40-55",
+   "concept": "fesc.14.1.1",
+   "question_type": "compute",
+   "question_pattern": "A family uses {daily_family_usage} litres of water each day. If there are {family_members} members in the family, find the annual water needed per member.",
+   "extracted_variables": {
+    "daily_family_usage": "litres of water used per day by the household",
+    "family_members": "count of individuals residing in the home"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate total family consumption in a year",
+     "explain": "multiply daily family usage by 365 days",
+     "compute": "annual_family_usage = daily_family_usage * 365"
+    },
+    {
+     "step": 2,
+     "action": "divide annual family consumption by number of family members",
+     "explain": "dividing total annual volume by family size gives per person consumption",
+     "compute": "annual_per_person = annual_family_usage / family_members"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex14.1",
+   "source_ref": "fesc114.txt lines 468-475",
+   "questions": [
+    "Fill in the blanks: The process of changing of water into its vapour is called evaporation.",
+    "Fill in the blanks: The process of changing water vapour into water is called condensation.",
+    "Fill in the blanks: No rainfall for a year or more may lead to drought in that region.",
+    "Fill in the blanks: Excessive rains may cause floods."
+   ]
+  },
+  {
+   "id": "ex14.2",
+   "source_ref": "fesc114.txt lines 476-485",
+   "questions": [
+    "State whether it is due to evaporation or condensation: Water drops appear on the outer surface of a glass containing cold water.",
+    "State whether it is due to evaporation or condensation: Steam rising from wet clothes while they are ironed.",
+    "State whether it is due to evaporation or condensation: Fog appearing on a cold winter morning.",
+    "State whether it is due to evaporation or condensation: Blackboard dries up after wiping it.",
+    "State whether it is due to evaporation or condensation: Steam rising from a hot girdle when water is sprinkled on it."
+   ]
+  },
+  {
+   "id": "ex14.3",
+   "source_ref": "fesc114.txt lines 486-498",
+   "questions": [
+    "State True or False: Water vapour is present in air only during the monsoon.",
+    "State True or False: Water evaporates into air from oceans, rivers and lakes but not from the soil.",
+    "State True or False: The process of water changing into its vapour, is called evaporation.",
+    "State True or False: The evaporation of water takes place only in sunlight.",
+    "State True or False: Water vapour condenses to form tiny droplets of water in the upper layers of air where it is cooler."
+   ]
+  },
+  {
+   "id": "ex14.4",
+   "source_ref": "fesc114.txt lines 510-525",
+   "questions": [
+    "Suppose you want to dry your school uniform quickly. Would spreading it near an anghiti or heater help? If yes, how?",
+    "Take out a cooled bottle of water from refrigerator and keep it on a table. After some time you notice droplets of water around it. Why?",
+    "To clean their spectacles, people often breathe out on glasses to make them wet. Explain why the glasses become wet.",
+    "How are clouds formed?",
+    "When does a drought occur?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

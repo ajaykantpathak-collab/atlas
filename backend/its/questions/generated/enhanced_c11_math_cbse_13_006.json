@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_13_006",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_13_006",
+   "title": "c11_math_cbse_13_006",
+   "questions": [
+    {
+     "q": "What is the difference quotient for the function f(x) = x² at x = 3 with h = 0.1? Write the expression without evaluating.",
+     "a": "The difference quotient is [f(3+0.1) - f(3)]/0.1 = [(3.1)² - 3²]/0.1. A wrong answer like (3.1² - 3²)/0.1 without the function notation reveals the student treats this as arithmetic rather than understanding the structural form [f(x+h)-f(x)]/h. Some students incorrectly write [f(3) - f(3.1)]/0.1 (reversed order) or use h = 0 instead of 0.1, showing confusion between the difference quotient and the derivative limit.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the slope of the secant line between (2, f(2)) and (2+h, f(2+h)) approaches the slope of the tangent line at x = 2 as h → 0. Use a diagram description in your answer.",
+     "a": "As h → 0, the point (2+h, f(2+h)) slides along the curve toward (2, f(2)). The secant line through these two points rotates about (2, f(2)) and its limiting position is the tangent line at that point. The slope of the secant is [f(2+h)-f(2)]/h, which is exactly the difference quotient. A wrong answer stating \"the secant becomes the tangent\" without mentioning the limiting process or the rotation reveals a static geometric intuition rather than the dynamic limit concept. Some students incorrectly claim the secant and tangent coincide for small h, missing that they only coincide in the limit.",
+     "self_check": true
+    },
+    {
+     "q": "A car's position (in metres) at time t (in seconds) is given by s(t) = 2t² + 3t. Calculate the average velocity between t = 2 s and t = 2.5 s. Then estimate the instantaneous velocity at t = 2 s using h = 0.01.",
+     "a": "Average velocity = [s(2.5) - s(2)]/(2.5-2) = [(2(6.25)+7.5) - (8+6)]/0.5 = [20 - 14]/0.5 = 12 m/s. Instantaneous velocity estimate: [s(2.01) - s(2)]/0.01 = [(2(4.0401)+6.03) - 14]/0.01 = [14.1102 - 14]/0.01 = 11.02 m/s. A wrong answer using [s(2) - s(2.01)]/0.01 gives -11.02 m/s, revealing sign confusion. Some students compute s'(t) = 4t+3 = 11 m/s directly, missing that the question asks for estimation using difference quotient, not the derivative formula.",
+     "self_check": true
+    },
+    {
+     "q": "Given the graph of f(x) = x³, the slope of the tangent at x = 1 is 3. A student claims: \"Since f(1) = 1, the tangent line equation is y = 3x + 1.\" Analyze this claim and correct it if necessary.",
+     "a": "The claim is incorrect. The tangent line at x = 1 passes through (1, f(1)) = (1, 1) with slope 3. Using point-slope form: y - 1 = 3(x - 1) → y = 3x - 2. The student incorrectly used f(1) as the y-intercept instead of the y-coordinate of the point of tangency. This reveals confusion between the point-slope form y - y₁ = m(x - x₁) and slope-intercept form y = mx + c. Some students also write y = 3x + 1 thinking the tangent crosses the y-axis at (0,1), not realizing the tangent at (1,1) with slope 3 crosses the y-axis at (0, -2).",
+     "self_check": true
+    },
+    {
+     "q": "A student computes the derivative of f(x) = √x at x = 4 using the limit definition: f'(4) = lim_{h→0} [√(4+h) - 2]/h. They multiply numerator and denominator by √(4+h) + 2 and get lim_{h→0} h/[h(√(4+h)+2)] = lim_{h→0} 1/(√(4+h)+2) = 1/4. Evaluate whether each step is mathematically valid and explain why the algebraic manipulation works.",
+     "a": "All steps are valid. The multiplication by the conjugate √(4+h)+2 uses the identity (a-b)(a+b) = a²-b² to rationalize the numerator: (√(4+h)-2)(√(4+h)+2) = (4+h) - 4 = h. This cancels the h in the denominator, removing the indeterminate form 0/0. The limit then evaluates directly by substitution. A wrong evaluation claiming the limit is 1/2 or 0 reveals failure to rationalize or incorrect algebra. Some students incorrectly cancel h before multiplying by the conjugate, writing [√(4+h)-2]/h = 1/[√(4+h)+2] without showing the multiplication step, which is mathematically incomplete.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where distinguishing between average rate of change and instantaneous rate of change is crucial for decision-making. Define the function, the interval, and explain what each rate represents in your scenario.",
+     "a": "A good answer: \"A Delhi Metro train's distance from Kashmere Gate station is s(t) = 0.5t² + 2t km, where t is minutes after departure. Average velocity over first 10 minutes = [s(10)-s(0)]/10 = 7 km/min = 420 km/h - impossibly high, showing average rate is misleading for safety. Instantaneous velocity at t=10 is s'(10) = t+2 = 12 km/min = 720 km/h - also unrealistic, revealing the model's limitation. A better model: s(t) = 0.05t² + 0.5t for 0≤t≤20. Average velocity 0-20 min = 1.5 km/min = 90 km/h (reasonable). Instantaneous at t=20 = 2.5 km/min = 150 km/h (maximum speed). The distinction matters for scheduling (average) vs safety systems (instantaneous).\" A poor answer uses vague scenarios like \"car speed\" without a defined function, or confuses average speed with average velocity, or cannot explain why instantaneous rate matters for decision-making.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

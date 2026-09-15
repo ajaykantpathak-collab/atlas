@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ca_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c12_ca_cbse_04_002",
+   "title": "c12_ca_cbse_04_002",
+   "questions": [
+    {
+     "q": "What are the two mandatory steps to create any chart in Excel, according to the NCERT textbook?",
+     "a": "Step 1: Enter data in a worksheet with proper row and column titles. Step 2: Select the data and create a basic chart using the chart type from the Insert tab (Charts group). A wrong answer (e.g., \"format the chart first\" or \"save the file\") reveals the student thinks formatting or saving precedes data entry and chart creation — a fundamental workflow misunderstanding that leads to empty charts or errors.",
+     "self_check": true
+    },
+    {
+     "q": "A student creates a column chart for quarterly sales of six products. The X-axis shows quarters (Qtr1–Qtr4) and each product is a separate coloured bar per quarter. The student wants the X-axis to show products and the bars to represent quarters. Which single Ribbon command achieves this without re-selecting data?",
+     "a": "Design tab → Data group → Switch Row/Column. A wrong answer (e.g., \"re-select data and insert new chart\" or \"change chart type\") reveals the student doesn't know Excel stores data orientation as a toggleable property — wasting time and risking data selection errors. This is a board-exam favourite: \"How to interchange axes without redoing the chart?\"",
+     "self_check": true
+    },
+    {
+     "q": "You have quarterly total sales data: Qtr1=25844, Qtr2=11295, Qtr3=14744, Qtr4=21886. You want a pie chart showing each quarter's share of annual total. List the exact sequence of actions from data entry to a formatted 3-D pie chart with bevel and shadow effects.",
+     "a": "1. Enter two adjacent columns: Column A = \"Qtr1\",\"Qtr2\",\"Qtr3\",\"Qtr4\"; Column B = corresponding values. 2. Select both columns. 3. Insert → Pie → 3-D Pie. 4. Design → Chart Layouts → choose layout with data labels and percentages. 5. Design → Chart Styles → pick a style. 6. Format tab → Shape Effects → Bevel → 3-D Options → set Top/Bottom bevel. 7. Format → Shape Effects → Shadow → choose Outer/Inner. 8. Format → Format Selection → Angle of first slice → set rotation. A wrong sequence (e.g., formatting before layout, or selecting non-adjacent columns) reveals confusion about pie chart data requirements (only one data series, two adjacent columns) and the Design-before-Format workflow.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the purpose of a column chart and a pie chart using the ABC Manufacturing data. When would you choose each? Justify with reference to the data structure.",
+     "a": "Column chart: compares absolute sales values across products (6 products) and/or quarters (4 quarters) — multiple data series, categorical X-axis. Pie chart: shows proportion of each quarter in total annual sales — single data series (quarterly totals), parts-of-whole. Choose column chart for \"Which product sold most in Qtr3?\"; choose pie chart for \"What % of annual sales came from Qtr1?\" A wrong answer (e.g., \"pie chart for product comparison\") reveals the student doesn't map data structure (series count, variable type) to chart purpose — a critical competency for board case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since 3-D charts look more impressive, we should always use 3-D column charts instead of 2-D for business reports.\" Evaluate this statement with two specific drawbacks of 3-D charts for accounting data.",
+     "a": "The statement is flawed. Drawback 1: 3-D perspective distorts height perception — taller bars at the back may appear shorter, leading to misreading of values (critical in financial reporting). Drawback 2: 3-D adds visual clutter (depth axis, floor, walls) that obscures data labels and gridlines, reducing precision. NCERT Summary explicitly states: \"2-D Charts typically have two axes... 3-D charts have a third axis... so that data can be plotted along the depth\" — implying 3-D is for volume/depth data, not for general comparison. A wrong evaluation (e.g., \"3-D is always better\") shows the student prioritises aesthetics over accuracy — a common board-mark-losing error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new chart type not mentioned in the textbook that could effectively show both the quarterly trend for each product AND the total quarterly sales, using only standard Excel chart types. Describe the data arrangement and chart subtype.",
+     "a": "Use a **Combination Chart (Combo Chart)**: Clustered Column for each product's quarterly sales (4 quarters × 6 products = 24 columns) + Line chart for quarterly totals (4 data points) on a secondary axis. Data arrangement: Rows = Products (6 rows), Columns = Qtr1–Qtr4 + Total column. Select all data → Insert → Combo Chart → Custom Combination → set Product columns to \"Clustered Column\", Total to \"Line with Markers\" on Secondary Axis. This combines comparison (columns) and trend (line) in one visual. A poor answer (e.g., \"two separate charts\") misses the synthesis requirement — board competency questions often ask for \"most appropriate single chart\".",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

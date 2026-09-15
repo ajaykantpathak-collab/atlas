@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_02_007",
+   "title": "c11_math_cbse_02_007",
+   "questions": [
+    {
+     "q": "What is the degree of the polynomial function \\( f(x) = 3x^2 - 7x + 2 \\)? State the coefficients of \\( x^2 \\), \\( x \\), and the constant term.",
+     "a": "The degree is 2. Coefficients: \\( a_2 = 3 \\) (for \\( x^2 \\)), \\( a_1 = -7 \\) (for \\( x \\)), \\( a_0 = 2 \\) (constant term). A wrong answer (e.g., degree 3 or missing the negative sign) reveals the student confuses the highest exponent with the number of terms, or treats coefficients as absolute values ignoring signs.",
+     "self_check": true
+    },
+    {
+     "q": "The function \\( f(x) = 2x + 5 \\) is a linear function. Explain why the condition \\( m \\neq 0 \\) is necessary in the definition \\( f(x) = mx + c \\). What happens if \\( m = 0 \\)?",
+     "a": "If \\( m = 0 \\), the function becomes \\( f(x) = c \\), a constant function (degree 0), not a linear function (degree 1). The graph changes from a slanted line to a horizontal line. A wrong answer (e.g., \"it's still linear because it's a straight line\") reveals the student confuses the geometric shape (line) with the algebraic degree; they miss that \"linear\" specifically means degree 1, not just \"graph is a line.\"",
+     "self_check": true
+    },
+    {
+     "q": "Given \\( f(x) = x^2 - 4x + 3 \\) and \\( g(x) = 2x - 1 \\), find \\( (f + g)(x) \\), \\( (f - g)(x) \\), and \\( (fg)(x) \\). State the domain of each resulting function.",
+     "a": "\\( (f+g)(x) = x^2 - 2x + 2 \\), domain \\( \\mathbb{R} \\). \\( (f-g)(x) = x^2 - 6x + 4 \\), domain \\( \\mathbb{R} \\). \\( (fg)(x) = (x^2 - 4x + 3)(2x - 1) = 2x^3 - 9x^2 + 10x - 3 \\), domain \\( \\mathbb{R} \\). A wrong answer (e.g., incorrect expansion of product, or stating domain excludes values) reveals algebraic manipulation errors (distributive property) or misunderstanding that polynomial functions have domain \\( \\mathbb{R} \\) and their sums/products remain polynomials with domain \\( \\mathbb{R} \\).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the graphs of \\( f(x) = x^2 \\) and \\( g(x) = -2x^2 + 4x - 1 \\). Identify the transformations (reflection, stretch, translation) that map the graph of \\( f \\) onto the graph of \\( g \\). How do the domains and ranges differ?",
+     "a": "\\( g(x) = -2(x-1)^2 + 1 \\) (complete the square). Transformations: reflect across x-axis (negative sign), vertical stretch by factor 2, translate right 1 unit, up 1 unit. Domain of both is \\( \\mathbb{R} \\). Range of \\( f \\) is \\( [0, \\infty) \\); range of \\( g \\) is \\( (-\\infty, 1] \\). A wrong answer (e.g., missing the reflection or wrong vertex) reveals the student cannot connect algebraic form to graphical transformations or misapplies completing the square.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The function \\( f(x) = \\frac{x^2 - 1}{x - 1} \\) is a polynomial function because it simplifies to \\( x + 1 \\).\" Evaluate this claim. Is the student correct? Justify your answer.",
+     "a": "The student is incorrect. \\( f(x) = \\frac{x^2 - 1}{x - 1} \\) is a rational function, not a polynomial function, because its domain is \\( \\mathbb{R} \\setminus \\{1\\} \\) (denominator cannot be zero). Although it simplifies to \\( x+1 \\) for \\( x \\neq 1 \\), the functions are not equal — they have different domains. A polynomial function must be defined for all real numbers. A wrong answer reveals confusion between algebraic simplification and function equality (which requires identical domains).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) that can be modeled by a quadratic function \\( f(x) = ax^2 + bx + c \\) where \\( a < 0 \\). Define the variables, state the domain restriction based on context, and explain what the vertex represents in your problem.",
+     "a": "Example: A farmer in Punjab has 100 metres of fencing to build a rectangular enclosure along a river (river side needs no fence). Let \\( x \\) = width perpendicular to river (metres). Then length parallel to river = \\( 100 - 2x \\). Area \\( A(x) = x(100 - 2x) = -2x^2 + 100x \\). Domain: \\( 0 < x < 50 \\) (width positive, length positive). Vertex at \\( x = 25 \\) gives maximum area 1250 m². A poor answer (e.g., linear model, no domain restriction, vertex misinterpreted) reveals inability to translate constraints into a quadratic model or connect vertex to optimization.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

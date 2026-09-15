@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_11_001",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_11_001",
+   "title": "c11_phy_cbse_11_001",
+   "questions": [
+    {
+     "q": "Define a thermodynamic system, surroundings, and boundary. Give one example each of a diathermic boundary and an adiabatic boundary from daily life.",
+     "a": "A thermodynamic system is the part of the universe under study; surroundings are everything else; the boundary separates them. Example of diathermic boundary: metal wall of a pressure cooker (allows heat flow). Example of adiabatic boundary: vacuum layer in a thermos flask (prevents heat flow). A wrong answer (e.g., calling the vacuum layer diathermic) reveals confusion between heat conduction and insulation, or inability to identify the boundary material's thermal property.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the thermodynamic description of a gas (using P, V, T) considered \"macroscopic\" while the kinetic theory description (using molecular velocities) is \"microscopic\"? Explain why thermodynamics does not require the molecular picture.",
+     "a": "Thermodynamics uses bulk measurable properties (P, V, T) that characterize the system as a whole without reference to individual molecules; kinetic theory uses molecular coordinates and velocities. Thermodynamics was developed before the molecular model was established and its laws are independent of microscopic details. A wrong answer (e.g., \"thermodynamics is less accurate\") reveals a misconception that macroscopic and microscopic descriptions are competing rather than complementary, or that thermodynamics is merely an approximation.",
+     "self_check": true
+    },
+    {
+     "q": "A gas is confined in a cylinder with a movable piston. The cylinder walls are perfectly insulating, but the piston is made of a perfectly conducting material. The system is the gas. Classify the system as open, closed, or isolated. Justify your answer based on mass and energy transfer across the boundary.",
+     "a": "Closed system. No mass crosses the boundary (piston and walls are impermeable to gas), but energy as heat can cross the conducting piston (diathermic part of boundary) and work can be done via the movable piston. A wrong answer (e.g., \"isolated\" because walls are insulating) reveals failure to consider the entire boundary – the piston is part of the boundary and is conducting/movable.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical containers A and B hold the same gas at the same pressure and volume. Container A is separated from surroundings by an adiabatic wall; container B by a diathermic wall. Initially, both are in equilibrium with their surroundings at temperature T. The surrounding temperature is suddenly raised to T+ΔT. Compare the subsequent behavior of the macroscopic variables (P, V, T) of the gas in A and B.",
+     "a": "In A (adiabatic wall): no heat flow, so gas temperature remains T; P and V unchanged (assuming rigid container). In B (diathermic wall): heat flows in, gas temperature rises toward T+ΔT; if rigid, pressure increases; if piston movable, volume expands. A wrong answer (e.g., both heat up equally) reveals misunderstanding of adiabatic vs diathermic boundaries and the role of thermal contact in energy transfer.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The human body is an isolated system because it maintains a constant temperature of 37°C.\" Evaluate this statement. Identify the error and classify the human body correctly.",
+     "a": "The claim is false. Constant temperature does not imply isolated; it implies thermal equilibrium with a regulatory mechanism. The human body exchanges both mass (breathing, eating, excretion) and energy (heat, work) with surroundings – it is an **open system**. The error is confusing homeostasis (steady state) with isolation. A wrong evaluation reveals confusion between \"constant temperature\" and \"no energy/matter exchange\".",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom experiment using a syringe (sealed at the tip) and a thermometer to demonstrate the difference between a closed system with a movable boundary and a closed system with a fixed boundary. Describe what you would observe in each case when you compress the gas quickly.",
+     "a": "Experiment: (1) Seal syringe tip, place thermometer at tip (or use infrared). Compress plunger rapidly (adiabatic compression): temperature rises, volume decreases, pressure increases – movable boundary allows work input. (2) Lock plunger at fixed volume, immerse syringe in hot water: temperature rises, pressure increases, volume constant – fixed boundary, only heat transfer. Good answer identifies work vs heat as energy transfer modes. Poor answer misses the role of boundary mobility in allowing work.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

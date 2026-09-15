@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_05_007",
+   "title": "c11_eco_cbse_05_007",
+   "questions": [
+    {
+     "q": "Define animal husbandry in the context of rural diversification and list the five major livestock species contributing to India's livestock economy according to the 2019 Livestock Census.",
+     "a": "Animal husbandry is the integrated management of domesticated animals for food, fiber, labor, and manure within a mixed farming system. The five major species are: cattle, buffaloes, sheep, goats, and poultry (fowl). A wrong answer listing only \"cows and buffaloes\" reveals the misconception that animal husbandry equals dairy alone, ignoring the critical role of small ruminants (goats/sheep) for landless laborers and poultry's dominant 61% population share.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why livestock rearing provides greater income stability than crop cultivation for a small farmer in a rainfed region, using the concepts of gestation period, production cycle, and marketability.",
+     "a": "Crops have a long gestation (3-6 months) with income realized only at harvest, creating a single annual/bi-annual cash inflow vulnerable to monsoon failure. Livestock (especially dairy/poultry) has daily/weekly production cycles — milk and eggs are produced and sold continuously, generating weekly cash flow. Perishability is managed through cooperative collection (Operation Flood model). A wrong answer focusing only on \"animals don't depend on rain\" misses the economic mechanism: it's the frequency of revenue realization and the existence of organized procurement channels that stabilize income, not just biological resilience.",
+     "self_check": true
+    },
+    {
+     "q": "If India has 150 million rural households and livestock provides livelihood to 70 million small/marginal farmers and landless laborers (NCERT data), calculate the percentage of rural households dependent on livestock. Then, if the average livestock-holding household earns ₹8,000/month from animals, estimate the annual livestock income flow to these households in ₹ crores.",
+     "a": "Step 1: % dependent = (70 million / 150 million) × 100 = 46.67%. Step 2: Monthly income per household = ₹8,000. Step 3: Annual income per household = ₹8,000 × 12 = ₹96,000. Step 4: Total annual income = 70 million × ₹96,000 = ₹6,720,000 million = ₹6,72,000 crores. A wrong answer calculating only the percentage without the income flow reveals inability to connect stock (number of households) to flow (income generation) — a core national accounting distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Operation Flood cooperative model with traditional dairy marketing (trader/middleman) on four dimensions: price realization for farmer, risk bearing, quality incentive, and scalability. Use the NCERT description of \"farmers pool milk according to grading, processed and marketed through cooperatives.\"",
+     "a": "Operation Flood: (1) Price — farmer receives ~70-80% of consumer rupee vs 40-50% in trader model; (2) Risk — cooperative bears processing/marketing risk, farmer bears only production risk; (3) Quality — grading at collection point incentivizes clean milk production; (4) Scalability — network effects allow expansion to 1.7 lakh villages. Traditional model: trader dictates price, farmer bears distress-sale risk, no quality premium, limited scale. A wrong answer stating \"cooperatives give higher price\" without explaining the grading/pooling mechanism shows superficial understanding of institutional economics.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Poultry accounts for 61% of India's livestock population (Chart 5.1), therefore it contributes 61% of livestock sector GVA.\" Identify the economic fallacy and explain what determines a sub-sector's value share.",
+     "a": "The fallacy is equating population share (a stock/number metric) with value share (a flow/monetary metric). Poultry birds have low unit value (₹100-200) vs cattle (₹30,000-60,000) and buffaloes (₹50,000-80,000). Value share = (Population × Average Output per Animal × Price per Unit) / Total Livestock GVA. Cattle/buffalo milk dominates value share despite lower numbers. A wrong answer accepting the 61% claim reveals confusion between physical quantity and economic value — a fundamental error in sectoral analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-hectare integrated farming system for a small farmer in Tamil Nadu combining: paddy (kharif), pulses (rabi), 2 crossbred cows, 50 layer poultry birds, and a farm pond for fisheries. Specify the resource flows (fodder, manure, water, labor) between components and estimate the number of person-days of employment generated annually for family labor.",
+     "a": "A good answer maps: Paddy straw → cattle fodder; Cattle dung → biogas + compost for paddy/pulses; Poultry litter → fish feed in pond; Pond silt → fertilizer for crops; Family labor: paddy (60 days), pulses (30 days), dairy (365 days × 1 hr = 45 days), poultry (365 days × 0.5 hr = 23 days), fishery (50 days) = ~208 person-days/year. A poor answer lists components without showing circular flows or treats labor as additive without recognizing peak-season bottlenecks, missing the systems perspective central to diversification economics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

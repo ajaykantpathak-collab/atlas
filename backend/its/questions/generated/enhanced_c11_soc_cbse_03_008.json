@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_03_008",
+   "title": "c11_soc_cbse_03_008",
+   "questions": [
+    {
+     "q": "Define 'sovereignty' as used in sociology of the state, and state the two key elements that distinguish a state from a stateless society.",
+     "a": "Sovereignty is the undisputed political rule of a state over a given territorial area. The two key distinguishing elements are: (1) a formal apparatus of government (parliament, civil service, legal system) and (2) the capacity to use military/legal force to implement policies. A wrong answer might confuse sovereignty with 'supreme power' without territorial reference, or list 'population' as a distinguishing element (which both state and stateless societies have).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Max Weber's definition of the state as 'a human community that (successfully) claims the monopoly of the legitimate use of physical force within a given territory' emphasizes both 'monopoly' and 'legitimate'. How does this differ from a stateless society's mechanism of order?",
+     "a": "'Monopoly' means only the state can legally authorize force; 'legitimate' means this force is accepted as rightful by the populace (authority). In stateless societies, order is maintained through balanced opposition (e.g., segmentary lineage systems), cross-cutting alliances, and rituals without a centralized monopoly on force. A wrong answer might equate 'legitimate' with 'legal' only, missing the sociological aspect of acceptance, or assume stateless societies lack order entirely.",
+     "self_check": true
+    },
+    {
+     "q": "A tribal community resolves disputes through a council of elders whose decisions are binding because of tradition and spiritual sanctions. No police or courts exist. Using the concepts of power, authority, and stateless society, analyze whether this community has 'authority' and whether it qualifies as a 'state'.",
+     "a": "The council exercises authority because its power is accepted as legitimate (traditional authority). However, it is a stateless society because it lacks a formal government apparatus, defined territory with borders, and a monopoly on force (enforcement relies on social pressure). A wrong answer might claim it is a state because it has governance, confusing 'political organization' with 'state', or deny authority because there are no written laws.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the functionalist and conflict perspectives on the state. Using the example of citizenship rights (civil, political, social), explain how each perspective would interpret the expansion of social rights (e.g., unemployment benefits) in a welfare state.",
+     "a": "Functionalists see the state as representing collective interests; expansion of social rights fulfills society's need for stability and integration. Conflict theorists see the state as serving dominant classes; social rights are concessions won through struggle to prevent revolution, and may be retracted when capital demands it. A wrong answer might conflate the two perspectives, or claim functionalists ignore inequality, missing that they see institutions as meeting 'social needs' (which may be defined by dominant groups).",
+     "self_check": true
+    },
+    {
+     "q": "Critically assess the statement: 'Nationalism is a necessary condition for the modern state because it provides the legitimacy that sovereignty requires.' Provide one argument supporting and one challenging this view, using sociological concepts.",
+     "a": "Supporting: Nationalism creates a shared identity (symbols, beliefs) that binds citizens to the state, making sovereignty acceptable (legitimacy). Challenging: Many modern states are multinational (e.g., India, Belgium) where legitimacy derives from constitutional patriotism or power-sharing, not a single national identity; nationalism can also undermine state stability (secessionist movements). A wrong answer might treat nationalism and state as synonymous, or ignore that sovereignty can be maintained through coercion without nationalist legitimacy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment: Imagine a stateless society that has developed a complex economy with specialized division of labor. Propose three institutional mechanisms (other than a state) that could maintain order and resolve conflicts, drawing on anthropological examples from the text (e.g., cross-cutting alliances, rites, balanced opposition). Explain how each mechanism would function in this complex setting.",
+     "a": "Mechanisms could include: (1) Cross-cutting alliances (e.g., age-sets, trade partnerships) that cut across kinship divisions, preventing polarization; (2) Ritualized conflict resolution (e.g., moots, oath-taking) that use sacred symbols to enforce decisions; (3) Balanced opposition (segmentary lineage) where groups of equal structural distance oppose each other, deterring violence through mutual assured disruption. Good answers show adaptation of these mechanisms to economic complexity. Poor answers simply replicate simple tribal examples without addressing scale/complexity, or default to creating a state-like body.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

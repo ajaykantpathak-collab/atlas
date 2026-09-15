@@ -1,0 +1,128 @@
+{
+ "class": 11,
+ "subject": "chemistry",
+ "chapter": 202,
+ "chapter_title": "Organic Chemistry: Some Basic Principles and Techniques",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kech202.txt",
+ "concepts": [
+  {
+   "id": "kech.202.1.1",
+   "title": "Tetravalence of Carbon, Structural Representations and Classification",
+   "section": "Organic chemistry basics",
+   "definition": "Carbon's tetravalency and catenation build a vast organic chemistry, whose compounds are classified as acyclic, alicyclic, aromatic and heterocyclic, and are represented by complete, condensed and bond line structural formulas with three dimensional wedge dash notation.",
+   "formula": "",
+   "key_idea": "Functional groups and multiple bonds decide the class of an organic compound, and the classification tree separates open chain from cyclic structures.",
+   "textbook_ref": "kech202.txt classification sections",
+   "question_patterns": [
+    "explain tetravalence and catenation of carbon",
+    "classify organic compounds with examples",
+    "differentiate complete condensed and bond line formulas",
+    "define functional group with examples",
+    "what are homocyclic and heterocyclic compounds",
+    "draw the wedge dash representation of a molecule"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the skeleton",
+     "explain": "Identify the carbon framework from the formula."
+    },
+    {
+     "step": 2,
+     "action": "spot rings and functional groups",
+     "explain": "Note cyclic parts and characteristic groups."
+    },
+    {
+     "step": 3,
+     "action": "place the class",
+     "explain": "Assign acyclic, alicyclic, aromatic or heterocyclic class."
+    }
+   ]
+  },
+  {
+   "id": "kech.202.2.1",
+   "title": "IUPAC Nomenclature of Organic Compounds",
+   "section": "Nomenclature of organic compounds",
+   "definition": "IUPAC nomenclature names an organic compound from a parent hydrocarbon, numbered substituents and functional groups with lowest locants, using prefixes, word root and suffix, so that each structure has one unambiguous name and each name defines one structure.",
+   "formula": "",
+   "key_idea": "The longest chain carrying the highest priority functional group becomes the parent, and alphabetical order handles multiple substituents.",
+   "textbook_ref": "kech202.txt nomenclature sections",
+   "question_patterns": [
+    "state the rules of iupac nomenclature of organic compounds",
+    "name branched alkanes by the iupac system",
+    "how are functional groups ordered in naming priority",
+    "write the iupac name from a given structure",
+    "define locant and its use in nomenclature",
+    "name alkenes alkynes and substituted benzene compounds"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "select the parent chain",
+     "explain": "Choose the longest chain with the senior functional group."
+    },
+    {
+     "step": 2,
+     "action": "number for lowest locants",
+     "explain": "Number from the end nearest the functional group."
+    },
+    {
+     "step": 3,
+     "action": "assemble the name",
+     "explain": "Place prefixes alphabetically before the root and suffix."
+    }
+   ]
+  },
+  {
+   "id": "kech.202.3.1",
+   "title": "Isomerism, Fission of Bonds and Reaction Intermediates",
+   "section": "Isomerism and fission",
+   "definition": "Compounds with the same molecular formula but different properties are isomers, showing structural isomerism of chain, position and functional types; covalent bonds break by homolytic fission giving free radicals or heterolytic fission giving cations and anions, and electron displacement effects of inductive, resonance, electromeric and hyperconjugation govern organic reactions.",
+   "formula": "",
+   "key_idea": "Nucleophiles donate electron pairs to electrophiles, and carbocations, carbanions and free radicals are the fleeting intermediates of organic reactions.",
+   "textbook_ref": "kech202.txt isomerism and mechanisms sections",
+   "question_patterns": [
+    "define isomerism and its structural types with examples",
+    "differentiate homolytic and heterolytic fission of a covalent bond",
+    "explain inductive effect and resonance effect",
+    "what are electrophiles and nucleophiles with examples",
+    "describe carbocations carbanions and free radicals as intermediates",
+    "define hyperconjugation with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the formula match",
+     "explain": "Confirm isomers share the molecular formula."
+    },
+    {
+     "step": 2,
+     "action": "trace the bond fission",
+     "explain": "Note whether bonding electrons are shared or transferred."
+    },
+    {
+     "step": 3,
+     "action": "identify the intermediate or effect",
+     "explain": "Name the species or displacement effect governing the reaction."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kech202.txt exercises",
+   "questions": [
+    "Write bond line formulas for the given compounds.",
+    "Expand each condensed formula into a full formula.",
+    "Explain the inductive effect with a suitable example.",
+    "Describe the method of simple distillation and fractional distillation.",
+    "Define homologous series with examples."
+   ]
+  }
+ ]
+}

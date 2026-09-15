@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_13_004",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_13_004",
+   "title": "c12_math_cbse_13_004",
+   "questions": [
+    {
+     "q": "State the precise mathematical condition for two events E and F (with non-zero probabilities) to be independent, using conditional probability notation. Then write the equivalent condition using the intersection probability.",
+     "a": "**Correct answer:** E and F are independent iff \\( P(E|F) = P(E) \\) (provided \\( P(F) \\neq 0 \\)) and \\( P(F|E) = P(F) \\) (provided \\( P(E) \\neq 0 \\)). The equivalent intersection condition is \\( P(E \\cap F) = P(E) \\cdot P(F) \\).  \n**What a wrong answer reveals:** If a student writes \\( P(E|F) = P(F|E) \\) or \\( P(E \\cup F) = P(E) + P(F) \\), they are confusing independence with symmetry of conditional probability or with mutual exclusivity. If they omit the non-zero probability condition, they miss a critical domain restriction — the conditional definition fails when the conditioning event has zero probability, while the product rule remains valid.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"If two events are independent, they cannot happen together, so \\( P(E \\cap F) = 0 \\).\" Is this correct? Explain why or why not using a concrete example with a die roll.",
+     "a": "**Correct answer:** The student is incorrect. Independent events **can** happen together — in fact, if both have non-zero probability, they **must** have a non-zero intersection because \\( P(E \\cap F) = P(E)P(F) > 0 \\). The student is confusing independence with **mutual exclusivity**. Example: Roll a fair die. Let E = {even number} = {2,4,6}, F = {number > 3} = {4,5,6}. P(E) = 1/2, P(F) = 1/2, P(E ∩ F) = P({4,6}) = 1/3. Here \\( P(E)P(F) = 1/4 \\neq 1/3 \\), so they are dependent. But if we take E = {2,4,6} and F = {1,2,3} (first three vs last three), then P(E) = 1/2, P(F) = 1/2, P(E ∩ F) = P({2}) = 1/6 ≠ 1/4 — still dependent. A true independent pair: E = {even} = {2,4,6}, F = {multiple of 3} = {3,6}. P(E) = 1/2, P(F) = 1/3, P(E ∩ F) = P({6}) = 1/6 = (1/2)(1/3). They share outcome 6 — they **do** occur together.  \n**What a wrong answer reveals:** If the student agrees with the statement, they fundamentally conflate \"independent\" (probabilistic independence) with \"mutually exclusive\" (set-theoretic disjointness). This is the single most common and costly error in board and JEE exams.",
+     "self_check": true
+    },
+    {
+     "q": "Two cards are drawn successively **with replacement** from a well-shuffled deck of 52 cards. Let A be the event \"first card is a king\" and B be the event \"second card is a queen\". Compute P(A), P(B), P(A ∩ B), and verify whether A and B are independent.",
+     "a": "**Correct answer with steps:**  \nStep 1: Since draws are with replacement, the deck is reset for the second draw. P(A) = 4/52 = 1/13. P(B) = 4/52 = 1/13.  \nStep 2: Sample space has 52 × 52 = 2704 equally likely ordered pairs. Favorable for A ∩ B: 4 choices for king × 4 choices for queen = 16. So P(A ∩ B) = 16/2704 = 1/169.  \nStep 3: Compute product: P(A) × P(B) = (1/13) × (1/13) = 1/169.  \nStep 4: Since P(A ∩ B) = P(A)P(B) = 1/169, events A and B are independent.  \n**What a wrong answer reveals:** If a student computes P(A ∩ B) as 4/52 × 3/51 = 1/221 (without replacement logic), they ignored the \"with replacement\" condition. If they claim dependence because \"both are face cards\", they are using semantic reasoning instead of the mathematical definition. If they forget to square the denominator for the joint probability, they are not visualizing the product sample space.",
+     "self_check": true
+    },
+    {
+     "q": "Consider three events A, B, C from a random experiment. Suppose P(A) = 0.4, P(B) = 0.5, P(C) = 0.6, and P(A ∩ B) = 0.2, P(A ∩ C) = 0.24, P(B ∩ C) = 0.3, P(A ∩ B ∩ C) = 0.12. Are A, B, C mutually independent? Justify by checking all required conditions.",
+     "a": "**Correct answer:** For mutual independence of three events, **four** conditions must hold:  \n1. P(A ∩ B) = P(A)P(B) → 0.2 = (0.4)(0.5) = 0.2 ✓  \n2. P(A ∩ C) = P(A)P(C) → 0.24 = (0.4)(0.6) = 0.24 ✓  \n3. P(B ∩ C) = P(B)P(C) → 0.3 = (0.5)(0.6) = 0.3 ✓  \n4. P(A ∩ B ∩ C) = P(A)P(B)P(C) → 0.12 = (0.4)(0.5)(0.6) = 0.12 ✓  \nAll four conditions hold, so A, B, C are **mutually independent**.  \n**What a wrong answer reveals:** If a student checks only the three pairwise conditions and declares mutual independence, they miss the critical fourth condition. This is a classic JEE trap — pairwise independence does **not** imply mutual independence. A counterexample: toss two fair coins; let A = {first head}, B = {second head}, C = {both same}. Each pair is independent but P(A ∩ B ∩ C) = P({HH}) = 1/4 while P(A)P(B)P(C) = 1/8. If the student doesn't know this counterexample, they haven't grasped the nuance.",
+     "self_check": true
+    },
+    {
+     "q": "A solution claims: \"Events E and F are independent because P(E) = 0.3, P(F) = 0.4, and P(E ∪ F) = 0.58. Since P(E) + P(F) = 0.7 ≠ 0.58, they are not mutually exclusive, therefore they must be independent.\" Evaluate this reasoning. Is the conclusion necessarily true? If not, give a counterexample with the same probabilities.",
+     "a": "**Correct answer:** The reasoning is **invalid**. Non-mutual-exclusivity does **not** imply independence. The given data: P(E) = 0.3, P(F) = 0.4, P(E ∪ F) = 0.58. Using addition rule: P(E ∩ F) = P(E) + P(F) - P(E ∪ F) = 0.3 + 0.4 - 0.58 = 0.12. Now check product: P(E)P(F) = 0.3 × 0.4 = 0.12. In this specific case, P(E ∩ F) = P(E)P(F), so they **happen to be** independent — but the student's logic was wrong. Counterexample with same P(E), P(F) but different P(E ∪ F): Suppose P(E ∪ F) = 0.6. Then P(E ∩ F) = 0.1. But P(E)P(F) = 0.12 ≠ 0.1, so they are **dependent** yet still not mutually exclusive (since intersection ≠ 0).  \n**What a wrong answer reveals:** If the student says \"yes, the conclusion is correct\", they believe independence is the default state when events aren't mutually exclusive. This reveals a binary misconception: events are either mutually exclusive or independent, with no third option. In reality, most event pairs are **neither**.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world scenario involving two stages (e.g., manufacturing, testing, weather) where the events are **clearly independent** by physical reasoning, not just calculation. Define events E and F, state their probabilities, and explain why the product rule must hold without computing numbers.",
+     "a": "**Expected answer criteria:** A good answer describes a scenario with **physically separate mechanisms** where the outcome of one cannot influence the other. Example: \"A factory has two independent assembly lines. Line 1 produces widgets with defect rate 2% (E = widget from line 1 is defective). Line 2 produces gadgets with defect rate 5% (F = gadget from line 2 is defective). Since the lines operate in separate buildings with different machines and workers, a defect in one line gives zero information about the other. The joint probability of both being defective must be (0.02)(0.05) = 0.001 by physical independence.\"  \n**What a poor answer reveals:** If the student gives a scenario like \"rain today and rain tomorrow\" or \"stock market up today and up tomorrow\" without acknowledging temporal dependence, they don't understand that real-world independence requires **causal separation**, not just distinct events. If they define E and F from the same experiment (e.g., \"first card is heart, second card is spade without replacement\"), they haven't grasped that independence is a property of the **experimental setup**, not just the events.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

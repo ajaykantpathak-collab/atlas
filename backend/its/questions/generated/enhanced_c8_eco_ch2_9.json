@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch2_9",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch2_9",
+   "title": "c8_eco_ch2_9",
+   "questions": [
+    {
+     "q": "What age range is internationally categorized as the working-age population cohort?",
+     "a": "The working-age population cohort is defined as individuals aged 15 to 64 years. \n*If a student answers 0–18 or 18–60, it reveals a confusion between legal adulthood/retirement ages in specific countries and standard global demographic classifications.*",
+     "self_check": true
+    },
+    {
+     "q": "Why does a decrease in the birth rate lead to a temporary economic advantage known as the demographic dividend?",
+     "a": "A drop in birth rates reduces the relative proportion of young dependents (0–14 years), meaning fewer total economic resources are spent on immediate basic child dependency, allowing households and governments to save and invest more per working adult.\n*If a student answers that fewer children directly increase factory production today, it reveals a failure to understand that children are future workers, not present workers, and that the immediate mechanism is a drop in the dependency burden.*",
+     "self_check": true
+    },
+    {
+     "q": "A district has 30,000 children (0–14), 60,000 working-age adults (15–64), and 10,000 elderly citizens (65+). Calculate the Total Dependency Ratio for this district.",
+     "a": "Total Dependents = 30,000 + 10,000 = 40,000. \nWorking-Age Population = 60,000. \nDependency Ratio = (40,000 / 60,000) × 100 = 66.67%. \nThere are 66.67 dependents for every 100 working-age adults.\n*If a student divides 40,000 by 100,000 (total population) getting 40%, they confused the Dependency Ratio formula with the percentage of dependents in the total population.*",
+     "self_check": true
+    },
+    {
+     "q": "Two states, State A and State B, both have 70% of their population in the 15–64 age group. State A invests heavily in vocational skills and industrial infrastructure, while State B experiences widespread school dropouts and low job creation. How will the economic outcomes of their demographic structures differ?",
+     "a": "State A will successfully harvest its demographic dividend, leading to higher GDP growth, increased family savings, and improved living standards. State B will fail to realize the dividend, facing high youth unemployment, economic frustration, and social distress despite having the same favorable demographic age structure.\n*If a student claims both states will automatically experience identical economic growth because their demographic numbers are identical, it reveals the major misconception that demography automatically generates economic growth without required policy conditions.*",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the policy argument: \"To maximize the demographic dividend, a government should stop spending money on primary schools and divert all funds to opening new manufacturing plants immediately.\"",
+     "a": "This argument is economically flawed. Diverting funds away from primary education destroys human capital development for the future workforce, meaning workers entering the 15–64 age bracket in subsequent years will lack basic literacy and productivity, undermining long-term industrial growth.\n*If a student agrees with the policy, it reveals short-term bias and ignorance of human capital accumulation as an indispensable pillar of demographic dividend realization.*",
+     "self_check": true
+    },
+    {
+     "q": "Propose three non-financial support mechanisms that a state government can establish to ensure female citizens in the 15–64 age bracket contribute effectively to the demographic dividend.",
+     "a": "A high-quality response should propose policy measures such as: \n1. Establishing safe, subsidized childcare centers near industrial and commercial zones. \n2. Provision of safe public transport and skill-training programs tailored for women. \n3. Implementing flexible work hours and equal-pay monitoring systems in local enterprises.\n*A weak response merely suggests giving cash handouts to families, failing to address systemic barriers preventing working-age women from participating in the active workforce.*",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_01_008",
+   "title": "c12_ip_cbse_01_008",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a Cartesian product of two tables and an INNER JOIN on a common key?",
+     "a": "A Cartesian product combines every row of the first table with every row of the second table, producing a result with cardinality equal to the product of the two table cardinalities. An INNER JOIN only combines rows where the values in the specified common column(s) are equal, producing a result that contains only matching rows. A wrong answer (e.g., \"they are the same\" or \"JOIN adds a WHERE clause\") reveals the student has not grasped that JOIN is a restricted subset of the Cartesian product, filtered by a matching condition.",
+     "self_check": true
+    },
+    {
+     "q": "Consider two tables: `STUDENT(AdmNo, Name, StCode)` and `STREAM(StCode, StreamName)`. `StCode` is the primary key in STREAM and a foreign key in STUDENT. A student writes: `SELECT * FROM STUDENT JOIN STREAM;` without an `ON` clause. What will happen, and why is this almost certainly not what the student intended?",
+     "a": "MySQL will execute a Cartesian product (cross join) because no join condition is specified. The result will have every student paired with every stream, including meaningless combinations (e.g., a Science student paired with Commerce stream). The student likely forgot the `ON STUDENT.StCode = STREAM.StCode` clause. A wrong answer (e.g., \"it will give an error\" or \"it will automatically match on StCode\") reveals the misconception that MySQL infers the join condition from column names unless `NATURAL JOIN` is used.",
+     "self_check": true
+    },
+    {
+     "q": "Write a query to display the `CustName`, `CarName`, and `SalePrice` for every sale in the CARSHOWROOM database. Use the explicit `JOIN ... ON` syntax. (Tables: CUSTOMER(CustId, CustName), INVENTORY(CarId, CarName), SALE(InvoiceNo, CarId, CustId, SalePrice).)",
+     "a": "```sql\nSELECT CUSTOMER.CustName, INVENTORY.CarName, SALE.SalePrice\nFROM SALE\nJOIN CUSTOMER ON SALE.CustId = CUSTOMER.CustId\nJOIN INVENTORY ON SALE.CarId = INVENTORY.CarId;\n```\nSteps: (1) Identify the central table (SALE) that links the other two via foreign keys. (2) Join SALE to CUSTOMER on CustId. (3) Join SALE to INVENTORY on CarId. (4) Select the required columns with table qualifiers to avoid ambiguity. A wrong answer that joins CUSTOMER directly to INVENTORY reveals the student does not understand the schema relationships; a missing qualifier on `CustName` (if it existed in both tables) reveals ambiguity handling issues.",
+     "self_check": true
+    },
+    {
+     "q": "Table A has 10 rows, Table B has 5 rows. The join column in Table A has 10 distinct values; in Table B it has 5 distinct values, all of which appear in Table A. What is the cardinality of `A INNER JOIN B ON A.key = B.key`? Now suppose Table B has 5 rows but only 3 distinct key values, all present in A. What is the cardinality now? Explain the difference.",
+     "a": "First case: 5 rows. Since B's key is unique (5 distinct values in 5 rows), each row in B matches exactly one row in A → 5 result rows. Second case: 5 rows. B has duplicate key values (e.g., key 'X' appears twice). Each occurrence in B matches the same row in A, so both are retained → 5 result rows. The cardinality equals the number of rows in B (the \"many\" side) when the \"one\" side has unique keys. A wrong answer (e.g., \"3 rows in the second case because only 3 distinct keys\") reveals the student confuses distinct key count with row count and does not understand that JOIN operates on rows, not distinct values.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"NATURAL JOIN is always better than JOIN ... ON because it automatically removes the duplicate column.\" Evaluate this claim with a concrete example where NATURAL JOIN would produce a wrong or dangerous result.",
+     "a": "The claim is false. NATURAL JOIN matches on *all* columns with the same name in both tables. If two tables share a column name by coincidence (e.g., both have a `Date` column but one is `DOB` and the other is `SaleDate`), NATURAL JOIN will incorrectly match on `Date`, producing meaningless results. Example: `EMPLOYEE(EmpID, Name, DOJ)` and `SALE(EmpID, SaleDate)`. Both have a date column but with different meanings. NATURAL JOIN would match on both `EmpID` AND `Date`, likely returning zero rows. Explicit `JOIN ... ON EMPLOYEE.EmpID = SALE.EmpID` is safe and clear. A student who agrees with the claim has not understood the implicit, name-based matching semantics of NATURAL JOIN.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-database scenario (two tables, 3-4 columns each, with a clear primary-foreign key relationship) where an INNER JOIN would return zero rows even though both tables have data. Write the CREATE TABLE statements, sample INSERTs, and the JOIN query. Explain why the result is empty.",
+     "a": "Scenario: `LIBRARY_BOOK(BookID, Title)` and `ISSUE_RECORD(IssueID, BookID, StudentName)`. Insert two books (B1, B2) into LIBRARY_BOOK. Insert two issue records for BookID 'B3' and 'B4' (which don't exist in LIBRARY_BOOK) into ISSUE_RECORD. Query: `SELECT * FROM LIBRARY_BOOK JOIN ISSUE_RECORD ON LIBRARY_BOOK.BookID = ISSUE_RECORD.BookID;` Result: empty. Reason: No `BookID` value exists in both tables simultaneously. This tests understanding that INNER JOIN requires *actual value overlap* in the key columns, not just structural compatibility. A poor answer might create matching keys but forget to make them non-matching, or confuse with OUTER JOIN behavior.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

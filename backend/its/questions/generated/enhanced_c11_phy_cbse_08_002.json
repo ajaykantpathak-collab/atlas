@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_08_002",
+   "title": "c11_phy_cbse_08_002",
+   "questions": [
+    {
+     "q": "A steel wire of original length 2.0 m stretches by 1.5 mm when a load is applied. What is the longitudinal strain in the wire? Express your answer in scientific notation.",
+     "a": "Longitudinal strain = ΔL/L = (1.5 × 10⁻³ m) / (2.0 m) = 7.5 × 10⁻⁴ (dimensionless). A wrong answer like 7.5 × 10⁻¹ reveals the student forgot to convert mm to m before dividing. An answer with units (e.g., \"7.5 × 10⁻⁴ m\") reveals the misconception that strain carries units like length.",
+     "self_check": true
+    },
+    {
+     "q": "A cylindrical rod is subjected to a tangential force on its top face while the bottom face is fixed. The top face displaces horizontally by 0.2 mm over a height of 50 cm. A student calculates shearing strain as 0.2/50 = 0.004. Is this correct? Explain why or why not, and give the correct value.",
+     "a": "The calculation is incorrect because the student used inconsistent units (mm and cm). Correct shearing strain = Δx/L = (0.2 × 10⁻³ m) / (0.50 m) = 4 × 10⁻⁴. The small-angle approximation tan θ ≈ θ is valid here since θ is very small. A wrong answer without unit conversion shows the student treats strain as a simple ratio of numbers without checking SI consistency. The correct answer must be dimensionless.",
+     "self_check": true
+    },
+    {
+     "q": "A solid copper cube of side 4.0 cm is subjected to hydraulic pressure, causing its volume to decrease by 0.064 cm³. Calculate the volumetric strain. If the same pressure is applied to a cube of side 8.0 cm made of the same material, what will be the volumetric strain? Explain your reasoning.",
+     "a": "Original volume V₁ = (4.0 cm)³ = 64 cm³. ΔV = -0.064 cm³ (decrease). Volumetric strain = ΔV/V = -0.064/64 = -1.0 × 10⁻³. For the 8.0 cm cube, V₂ = 512 cm³. Since volumetric strain depends only on material and pressure (via bulk modulus), not on size, the strain remains -1.0 × 10⁻³. The volume change would be ΔV₂ = strain × V₂ = -0.512 cm³. A student who calculates different strains for different sizes confuses absolute volume change with fractional strain.",
+     "self_check": true
+    },
+    {
+     "q": "Three identical rods are subjected to: (A) tensile force along length, (B) compressive force along length, (C) tangential force on top face. For each case, state the type of strain produced and whether the strain value is positive, negative, or zero. Justify your signs based on the definition of strain.",
+     "a": "(A) Tensile force → longitudinal strain, positive (ΔL > 0, length increases). (B) Compressive force → longitudinal strain, negative (ΔL < 0, length decreases). (C) Tangential force → shearing strain, positive (Δx > 0, angular displacement in direction of force). Strain sign follows the sign of the dimensional change in the numerator. A student who says all are positive confuses magnitude with signed strain; one who says shearing strain is zero doesn't recognize angular deformation as strain.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since strain is dimensionless, it has no physical significance — it's just a mathematical ratio.\" Evaluate this statement. Is it true or false? Provide two specific physical situations where the numerical value of strain determines a measurable outcome.",
+     "a": "The statement is false. Strain is dimensionless but physically significant — it quantifies the degree of deformation which directly determines: (1) The elastic potential energy stored per unit volume = ½ × stress × strain (so energy depends on strain value). (2) The elongation of a bridge cable under load — if strain exceeds the elastic limit, permanent deformation occurs. (3) The fractional change in resistance of a strain gauge (ΔR/R = G × strain), used in force sensors. A student who agrees with the claim confuses \"dimensionless\" with \"physically irrelevant\" — many dimensionless quantities (refractive index, Poisson's ratio, Reynolds number) are physically crucial.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to measure the longitudinal strain in a rubber band when stretched by known masses. List the materials, procedure, measurements needed, and how you would calculate strain. What assumption must you make about the rubber band's behavior for strain to be well-defined?",
+     "a": "Materials: Rubber band, ruler (mm scale), known masses (10g, 20g, 50g), stand/clamp. Procedure: (1) Hang rubber band vertically, measure original length L₀. (2) Add mass m, measure new length L. (3) Calculate ΔL = L - L₀. (4) Strain = ΔL/L₀. (5) Repeat for different masses. Assumption: The rubber band deforms uniformly along its length (no necking or non-uniform stretching) so that ΔL/L₀ represents the strain at any cross-section. A poor answer omits the uniformity assumption or suggests measuring only final length without original length. Good answer includes unit conversion (mm to m) and notes that rubber is an elastomer — strain may not be proportional to stress.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

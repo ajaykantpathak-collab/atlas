@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch3_5",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch3_5",
+   "title": "c9_math_ch3_5",
+   "questions": [
+    {
+     "q": "State the definition of an irrational number in your own words, and give one example that is NOT \\( \\sqrt{2} \\) or \\( \\pi \\).",
+     "a": "An irrational number cannot be written as \\( \\frac{p}{q} \\) with integers \\( p,q \\) (\\( q \\neq 0 \\)); its decimal expansion neither terminates nor repeats. Example: \\( \\sqrt{3} \\) (or \\( \\sqrt{5}, \\sqrt{7}, e \\), etc.).  \nA wrong answer (e.g., \"a number with a square root\" or \"a non-terminating decimal\") reveals the student confuses the *symbol* \\( \\sqrt{} \\) with irrationality (forgetting \\( \\sqrt{4}=2 \\) is rational) or thinks *any* non-terminating decimal is irrational (missing the recurring case).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \\( 0.101001000100001\\ldots \\) (where the number of zeros between ones increases by one each time) is irrational, but \\( 0.\\overline{101} \\) is rational.",
+     "a": "\\( 0.101001000100001\\ldots \\) has a pattern but **no fixed repeating block** — the gap between 1's keeps growing, so it never falls into a cycle; hence non-recurring → irrational. \\( 0.\\overline{101} = 0.101101101\\ldots \\) has the fixed block \"101\" repeating infinitely → recurring → rational (can be written as \\( \\frac{101}{999} \\)).  \nA wrong answer indicates the student thinks \"any pattern\" makes a number rational, not understanding that **recurring** means a *fixed finite block* repeating identically forever.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each number as rational or irrational. Show your reasoning by writing its decimal expansion or fractional form.\n(a) \\( \\sqrt{16} \\)  \n(b) \\( \\sqrt{12} \\)  \n(c) \\( 2.345345345\\ldots \\)  \n(d) \\( \\frac{22}{7} \\)  \n(e) \\( \\pi \\)",
+     "a": "(a) \\( \\sqrt{16}=4 = \\frac{4}{1} \\) → rational  \n(b) \\( \\sqrt{12} = 2\\sqrt{3} \\approx 3.464101615\\ldots \\) non-terminating, non-recurring → irrational  \n(c) \\( 2.\\overline{345} \\) recurring block \"345\" → rational (\\( = 2 + \\frac{345}{999} \\))  \n(d) \\( \\frac{22}{7} \\) is a ratio of integers → rational (its decimal \\( 3.\\overline{142857} \\) recurs)  \n(e) \\( \\pi \\approx 3.1415926535\\ldots \\) non-terminating, non-recurring → irrational  \nA wrong classification (e.g., calling \\( \\sqrt{16} \\) irrational because of the root symbol, or \\( \\frac{22}{7} \\) irrational because it approximates \\( \\pi \\)) shows the student relies on superficial cues instead of the definition.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the decimal expansions of \\( \\sqrt{2} \\) and \\( \\sqrt{4} \\). Why does the presence of a square root symbol not guarantee irrationality? Give a general condition on \\( n \\) for \\( \\sqrt{n} \\) to be rational.",
+     "a": "\\( \\sqrt{4}=2.0 \\) (terminating decimal) → rational. \\( \\sqrt{2}\\approx1.41421356\\ldots \\) non-terminating non-recurring → irrational. The square root symbol alone doesn't decide; \\( \\sqrt{n} \\) is rational **iff \\( n \\) is a perfect square** (i.e., \\( n = k^2 \\) for some integer \\( k \\)). Then \\( \\sqrt{n}=k \\) is an integer, hence rational.  \nA wrong answer (e.g., \"all square roots are irrational\") reveals the student has not connected the concept of perfect squares (Class 8) to rationality.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"\\( 0.123456789101112\\ldots \\) (writing natural numbers in order) is rational because it has a clear pattern.\" Evaluate this claim and correct the error.",
+     "a": "The claim is **false**. The decimal has a *describable pattern* but **no repeating block** — the sequence of digits never enters a cycle of fixed length. Rational numbers require a **fixed finite block** to repeat endlessly (e.g., \\( 0.\\overline{123} \\)). This number is a classic example of an irrational number (Champernowne's constant).  \nIf the student agrees, they confuse \"pattern\" with \"recurring block\" — a critical misconception for board exams where such decimals appear.",
+     "self_check": true
+    },
+    {
+     "q": "Create two irrational numbers between \\( \\sqrt{2} \\) and \\( \\sqrt{3} \\). Explain how you know they are irrational and lie in that interval.",
+     "a": "\\( \\sqrt{2}\\approx1.414 \\), \\( \\sqrt{3}\\approx1.732 \\). Examples:  \n1. \\( 1.505005000500005\\ldots \\) (non-terminating, non-recurring, between 1.414 and 1.732)  \n2. \\( \\frac{\\sqrt{2}+\\sqrt{3}}{2} \\) (average of two irrationals; if it were rational, \\( \\sqrt{3}=2r-\\sqrt{2} \\) would be rational — contradiction)  \nA poor answer gives terminating decimals (e.g., 1.5) or recurring decimals, showing the student doesn't grasp that *infinitely many* irrationals exist between any two distinct reals.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_08_006",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_08_006",
+   "title": "c12_eco_cbse_08_006",
+   "questions": [
+    {
+     "q": "List the five components of factor income that are summed under the Income Method to obtain NDPfc.",
+     "a": "The five components are: (1) Compensation of Employees (wages, salaries, social security contributions), (2) Rent (income from land and buildings), (3) Interest (income from lending capital), (4) Profit (dividends, undistributed profits, corporate tax), and (5) Mixed Income (income of self-employed where factor rewards cannot be separated). A wrong answer that includes transfer payments (pensions, scholarships) or capital gains reveals the student does not distinguish between factor payments (arising from current production) and non-factor transfers.",
+     "self_check": true
+    },
+    {
+     "q": "Why is 'mixed income' treated as a separate category in the Income Method instead of being split into rent, wages, interest, and profit?",
+     "a": "Mixed income arises for self-employed persons (e.g., a farmer, a doctor running her own clinic) who simultaneously supply land, labour, capital, and entrepreneurship. Their accounts do not separately record rent for own land, wages for own labour, etc., so the total factor income they earn is an inseparable mixture. Treating it as a separate category avoids arbitrary imputation. A wrong answer that says \"mixed income is profit of small firms\" confuses mixed income with profit of corporate enterprises; mixed income includes all four factor rewards for own-account workers.",
+     "self_check": true
+    },
+    {
+     "q": "An economy has the following factor payments (in ₹ crores): Compensation of Employees = 800, Rent = 200, Interest = 150, Profit = 300, Mixed Income = 250. Consumption of Fixed Capital = 100, Net Indirect Taxes = 50, Net Factor Income from Abroad = -20. Calculate NDPfc and National Income (NNPfc).",
+     "a": "**Step 1:** NDPfc = Compensation of Employees + Rent + Interest + Profit + Mixed Income = 800 + 200 + 150 + 300 + 250 = **₹1,700 crores**.  \n**Step 2:** NNPfc (National Income) = NDPfc + Net Factor Income from Abroad = 1,700 + (-20) = **₹1,680 crores**.  \n(Note: Consumption of Fixed Capital and Net Indirect Taxes are not used in Income Method for NDPfc; they are used when converting from GDPmp.) A wrong answer that subtracts consumption of fixed capital from NDPfc confuses the Income Method with the Value Added Method where depreciation is deducted to get NDP from GDP.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Income Method and Value Added Method for estimating National Income. Identify one advantage and one limitation of the Income Method relative to the Value Added Method.",
+     "a": "**Advantage:** Income Method directly shows the distribution of income among factors (wages, rent, etc.), useful for analysing inequality and sectoral factor shares.  \n**Limitation:** It misses income from the informal/unorganised sector where factor payments are not recorded (e.g., domestic workers paid in cash, self-employed without accounts). Value Added Method, using output data from surveys, can better capture informal production. A wrong answer that says \"Income Method is easier because it only adds wages\" ignores the difficulty of estimating mixed income and imputed rent.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since transfer payments like old-age pensions and unemployment benefits are income received by households, they should be included in National Income under the Income Method.\" Evaluate this statement.",
+     "a": "The statement is **incorrect**. Transfer payments are unilateral payments for which no productive service is rendered in the current period (e.g., pensions, scholarships, gifts). Including them would overstate National Income because they do not correspond to any current production of goods/services. They are a redistribution of already-counted factor incomes. A wrong answer that supports inclusion confuses **factor payments** (payment for factor services in production) with **transfer payments** (redistribution without production).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a hypothetical example of a self-employed tailor in an Indian town. List the factor inputs she provides, the implicit factor payments she earns, and explain why her total earnings are classified as 'mixed income' in the Income Method.",
+     "a": "**Example:** Rekha runs a tailoring shop from a room in her owned house. She uses her own sewing machine (capital), works 8 hours daily (labour), uses her room (land), and decides designs/prices (entrepreneurship). Her monthly revenue is ₹50,000; explicit costs (cloth, thread, electricity) = ₹20,000. Her **mixed income = ₹30,000**. This ₹30,000 implicitly includes: imputed rent for the room, imputed wages for her labour, imputed interest on her machine, and profit for entrepreneurship. Since she does not pay these to separate parties and her accounts don’t separate them, the entire ₹30,000 is recorded as mixed income. A poor answer that splits the ₹30,000 into arbitrary rent/wages/interest/profit without data shows misunderstanding of the **imputation problem** for self-employed.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

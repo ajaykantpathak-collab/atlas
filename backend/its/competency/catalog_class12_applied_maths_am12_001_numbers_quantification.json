@@ -1,0 +1,219 @@
+{
+  "class": 12,
+  "subject": "applied_maths",
+  "chapter": 1,
+  "chapter_title": "Numbers, Quantification and Numerical Applications",
+  "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am12_001_numbers_quantification.txt",
+  "concepts": [
+    {
+      "id": "am12_001.1",
+      "title": "Modular Arithmetic Remainder",
+      "definition": "Modular arithmetic keeps only the remainder when one positive integer is divided by another: x mod y = r with 0 <= r < y. Cyclic situations like week days wrap around this way, because adding a full cycle length does not change the remainder.",
+      "formula": "r = x % y",
+      "key_idea": "Only the remainder matters: 68 days after Wednesday is Monday because 68 % 7 = 5 and Wednesday plus 5 days is Monday. When x < y the remainder is x itself; when y divides x it is 0.",
+      "question_patterns": [
+        "What is {x} mod {y}?",
+        "If today is Wednesday, what day will it be after {n} days?",
+        "Find the remainder when {x} is divided by {y}.",
+        "A 12-hour clock shows {h} o'clock as what time?",
+        "Evaluate {x} mod {y} and state the remainder."
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"compute": "rem = x % y"},
+        {"compute": "shift = start + rem"},
+        {"compute": "wrapped = shift % cycle"}
+      ]
+    },
+    {
+      "id": "am12_001.2",
+      "title": "Modulo Addition Property",
+      "definition": "The addition property of the modulo operator says (A + B) mod C equals (A mod C + B mod C) mod C. Reducing each addend first and reducing the sum again gives the same residue as reducing the ordinary sum once.",
+      "formula": "check = (a + b) % c - (a % c + b % c) % c",
+      "key_idea": "The difference computed by the chain is 0 whenever the property holds, which is always: residues add the same way numbers do, provided the final result is reduced again.",
+      "question_patterns": [
+        "Verify that ({a} + {b}) mod {c} = ({a} mod {c} + {b} mod {c}) mod {c}.",
+        "Use the addition property to evaluate ({a} + {b}) mod {c} without dividing the sum.",
+        "State the addition property of modular arithmetic.",
+        "Reduce {a} and {b} modulo {c} first, then find the residue of their sum."
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"compute": "lhs = (a + b) % c"},
+        {"compute": "rhs = (a % c + b % c) % c"},
+        {"compute": "check = lhs - rhs"}
+      ]
+    },
+    {
+      "id": "am12_001.3",
+      "title": "Alligation Mean Price",
+      "definition": "When two ingredients costing c1 and c2 per unit are mixed in quantities q1 and q2, the mean price of the mixture is the weighted average of the two costs. The rule of alligation states that the mixing ratio is inverse to the differences of each cost from the mean price.",
+      "formula": "mean = (q1 * c1 + q2 * c2) / (q1 + q2)",
+      "key_idea": "Ratio of cheaper to dearer quantity equals (dearer cost - mean price) : (mean price - cheaper cost). The mean price always lies between the two ingredient costs.",
+      "question_patterns": [
+        "In what ratio must rice at {c1} per kg be mixed with rice at {c2} per kg so that the mixture costs {m} per kg?",
+        "Find the mean price of a mixture of {q1} kg at {c1} per kg and {q2} kg at {c2} per kg.",
+        "A shopkeeper mixes {q1} kg costing {c1} with {q2} kg costing {c2}; what is the cost of the mixture per kg?",
+        "How much of the cheaper variety is there in {t} kg of a mixture worth {m} per kg, given the two costs?"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"compute": "value = q1 * c1 + q2 * c2"},
+        {"compute": "total = q1 + q2"},
+        {"compute": "mean = value / total"}
+      ]
+    },
+    {
+      "id": "am12_001.4",
+      "title": "Replaced Liquid Remaining",
+      "definition": "From a container holding x units of a pure liquid, y units are drawn out and replaced with water, and the operation is repeated n times. The pure liquid left is x multiplied by ((x - y) / x) raised to the power n.",
+      "formula": "left = x * ((x - y) / x) ** n",
+      "key_idea": "Each operation multiplies the remaining pure liquid by the same fraction (x - y) / x, so n repetitions compound into a power.",
+      "question_patterns": [
+        "A vessel contains {x} litres of milk; {y} litres are drawn and replaced with water {n} times. How much milk remains?",
+        "From {x} litres of pure liquid, y litres are replaced by water each time; find the liquid left after n operations.",
+        "A container has {x} units of solution. Each time {y} units are removed and replaced by water. What fraction of the original solution stays after {n} operations?",
+        "State the formula for the quantity of pure liquid left after n draw-and-replace operations."
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"compute": "frac = (x - y) / x"},
+        {"compute": "left = x * frac ** n"}
+      ]
+    },
+    {
+      "id": "am12_001.5",
+      "title": "Boats Upstream Downstream Speeds",
+      "definition": "For a boat of still-water speed b in a stream of speed s, the upstream speed is b - s and the downstream speed is b + s. Given the two observed speeds the still-water speed is their average and the stream speed is half their difference.",
+      "formula": "s = (down - up) / 2",
+      "key_idea": "Still-water speed b = (down + up) / 2 and stream speed s = (down - up) / 2. The boat gains the stream's speed going down and loses it going up.",
+      "question_patterns": [
+        "A boat goes {up} km/h upstream and {down} km/h downstream; find its speed in still water.",
+        "The speed of a boat downstream is {down} km/h and upstream is {up} km/h. What is the speed of the stream?",
+        "If a boat's downstream speed is {down} and upstream speed is {up}, find both the still-water speed and the stream speed.",
+        "Express the upstream and downstream speeds of a boat in terms of boat speed and stream speed."
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"compute": "still = (down + up) / 2"},
+        {"compute": "s = (down - up) / 2"}
+      ]
+    },
+    {
+      "id": "am12_001.6",
+      "title": "Pipes and Cisterns Filling Time",
+      "definition": "If two inlet pipes fill a tank in a and b hours working alone, their rates add: together they need 1 / (1/a + 1/b) hours. Work rates, not times, are what combine.",
+      "formula": "time = 1 / (1 / a + 1 / b)",
+      "key_idea": "Convert each pipe to a rate (tank per hour), add the rates for inlets, then invert. For an outlet the rate is subtracted instead, and the tank fills only if the inlets beat it.",
+      "question_patterns": [
+        "Pipe A fills a tank in {a} hours and pipe B fills it in {b} hours. How long do they take together?",
+        "Two inlet pipes take {a} hours and {b} hours separately; find the combined filling time.",
+        "If two taps fill a cistern in {a} and {b} hours, what fraction of the cistern do they fill in one hour together?",
+        "Why do we add reciprocals when two pipes fill a tank together?"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"compute": "rate = 1 / a + 1 / b"},
+        {"compute": "time = 1 / rate"}
+      ]
+    },
+    {
+      "id": "am12_001.7",
+      "title": "Partnership Profit Sharing",
+      "definition": "In a partnership the profit is divided in the ratio of investment multiplied by time. An active or sleeping partner's share of the profit equals total profit times that partner's investment-times-time weight over the sum of all weights.",
+      "formula": "share1 = profit * (i1 * t1) / (i1 * t1 + i2 * t2)",
+      "key_idea": "Both money and duration matter: investing twice as much for half as long earns the same weight. The weights are what the ratio of shares follows.",
+      "question_patterns": [
+        "A invests {i1} for {t1} months and B invests {i2} for {t2} months. How is a profit of {profit} divided?",
+        "Find the share of A in a profit of {profit} if A invested {i1} for {t1} months and B invested {i2} for {t2} months.",
+        "Two partners put in {i1} and {i2} for periods {t1} and {t2}; state the ratio in which they share profit.",
+        "What is a sleeping partner's share based on in a partnership business?"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"compute": "w1 = i1 * t1"},
+        {"compute": "w2 = i2 * t2"},
+        {"compute": "share1 = profit * w1 / (w1 + w2)"}
+      ]
+    },
+    {
+      "id": "am12_001.8",
+      "title": "Races and Games Start Advantage",
+      "definition": "In a race of d metres, if the winner gives the loser a start of y metres, the loser starts y metres ahead and covers only d - y metres while the winner covers the full d. The head start as a percentage of the race distance is y / d * 100.",
+      "formula": "ahead_pct = y / d * 100",
+      "key_idea": "A start of y metres in a d-metre race means the loser runs d - y metres in the same time the winner runs d metres; the speed ratio equals d : (d - y).",
+      "question_patterns": [
+        "In a {d} m race A gives B a start of {y} m. What percentage of the race distance is the head start?",
+        "A beats B by {y} metres in a {d} metre race. How many metres did B run?",
+        "In a {d} m race, winner gives loser a start of {y} m; find the ratio of their speeds.",
+        "What does it mean when we say A gives B a start of {y} metres in a {d} m race?"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"compute": "covered = d - y"},
+        {"compute": "ahead_pct = y / d * 100"}
+      ]
+    },
+    {
+      "id": "am12_001.9",
+      "title": "First Come First Serve Waiting Time",
+      "definition": "In First Come First Serve (FCFS) scheduling, jobs run in arrival order, so each job's waiting time is the sum of the burst times of all earlier jobs. With three jobs of burst times b1, b2, b3, the average waiting time is (0 + b1 + b1 + b2) / 3.",
+      "formula": "avg_wait = (2 * b1 + b2) / 3",
+      "key_idea": "Shortest Job First (SJF) reorders the same jobs to minimise average waiting time, which is why SJF beats FCFS on that measure whenever the first arrived job is not the shortest.",
+      "question_patterns": [
+        "Three jobs arrive with burst times {b1}, {b2} and {b3}. Find the average waiting time under FCFS.",
+        "Compare FCFS and SJF for jobs of burst times {b1}, {b2}, {b3}: which gives a smaller average waiting time?",
+        "Under FCFS scheduling, what is the waiting time of the second job if the first has burst time {b1}?",
+        "Why does Shortest Job First scheduling reduce average waiting time compared with First Come First Serve?"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"compute": "wait2 = b1"},
+        {"compute": "wait3 = b1 + b2"},
+        {"compute": "avg_wait = (wait2 + wait3) / 3"}
+      ]
+    },
+    {
+      "id": "am12_001.10",
+      "title": "Numerical Inequality Cross Comparison",
+      "definition": "To decide an inequality between two fractions a/b and c/d with positive denominators, cross-multiply and compare a*d with c*b. The sign of a*d - c*b is the sign of the inequality a/b versus c/d.",
+      "formula": "margin = a * d - c * b",
+      "key_idea": "Multiplying both sides of an inequality by the positive product b*d preserves the direction, so the comparison reduces to an integer comparison of the cross products.",
+      "question_patterns": [
+        "Which is greater: {a}/{b} or {c}/{d}?",
+        "Arrange the fractions {a}/{b} and {c}/{d} in descending order.",
+        "Determine whether {a}/{b} < {c}/{d} using cross multiplication.",
+        "Find the sign of the difference between the cross products for {a}/{b} and {c}/{d}."
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"compute": "lhs_cross = a * d"},
+        {"compute": "rhs_cross = c * b"},
+        {"compute": "margin = lhs_cross - rhs_cross"}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "q": "If today is a Wednesday, what day of the week will it be after 68 days?",
+      "a": "A week repeats every 7 days, so only 68 mod 7 matters. 68 = 9 x 7 + 5, remainder 5. Counting 5 days forward from Wednesday gives Thursday, Friday, Saturday, Sunday, Monday. Answer: Monday."
+    },
+    {
+      "q": "A trader mixes 40 kg of rice costing 30 per kg with 60 kg costing 45 per kg. Find the mean price of the mixture.",
+      "a": "Weighted value = 40 x 30 + 60 x 45 = 1200 + 2700 = 3900. Total quantity = 40 + 60 = 100 kg. Mean price = 3900 / 100 = 39 per kg. Check: 39 lies between 30 and 45, as the mean price must."
+    }
+  ],
+  "exercises": [
+    {
+      "group": "drill",
+      "items": [
+        "Evaluate 21 mod 8 and 7 mod 12.",
+        "Verify the addition property of modulo for (14 + 8) mod 5.",
+        "A vessel has 80 litres of milk; 8 litres are removed and replaced with water each time. Find the milk left after 2 operations.",
+        "Two pipes fill a tank in 6 hours and 12 hours; find the time taken together.",
+        "A invests 50000 for 12 months and B invests 80000 for 8 months; find each share of a 33000 profit.",
+        "In a 500 m race A gives B a start of 50 m; find the head start as a percentage and B's distance covered."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+ "catalog": "catalog_class11_biology_kebo119",
+ "concepts": [
+  {
+   "id": "kebo.119.1.1",
+   "title": "Endocrine Glands and Hypothalamus-Pituitary Axis",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Endocrine Glands and Hypothalamus-Pituitary Axis' refers to.",
+     "a": "The human endocrine system includes the hypothalamus controlling the pituitary through releasing and inhibiting hormones, and the pituitary with its anterior lobe secreting growth hormone, prolactin, thyroid stimulating hormone, adrenocorticotropic hormone, luteinising hormone and follicle stimulating hormone, and posterior lobe storing oxytocin and vasopressin.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Endocrine Glands and Hypothalamus-Pituitary Axis'.",
+     "a": "The hypothalamus acts as the master control linking neural and endocrine systems, while the anterior pituitary hormones regulate other endocrine glands, making it the master gland.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Endocrine Glands and Hypothalamus-Pituitary Axis' taught, and from which source text?",
+     "a": "19.2 Human Endocrine System (source: kebo119.txt section 19.2)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.119.2.1",
+   "title": "Thyroid, Parathyroid, Thymus, Adrenal and Pineal Hormones",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Thyroid, Parathyroid, Thymus, Adrenal and Pineal Hormones' refers to.",
+     "a": "The thyroid secretes tetraiodothyronine and triiodothyronine with iodine for basal metabolic rate and the calcium lowering hormone calcitonin, the parathyroid secretes parathyroid hormone raising blood calcium, the thymus secretes thymosins for immunity, the adrenal cortex releases glucocorticoids and mineralocorticoids with the medulla releasing adrenaline and noradrenaline, and the pineal secretes melatonin for the sleep wake cycle.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Thyroid, Parathyroid, Thymus, Adrenal and Pineal Hormones'.",
+     "a": "Calcitonin and parathyroid hormone act antagonistically on blood calcium, and adrenal medullary hormones prepare the body for emergency reactions.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Thyroid, Parathyroid, Thymus, Adrenal and Pineal Hormones' taught, and from which source text?",
+     "a": "19.2 Human Endocrine System (source: kebo119.txt section 19.2)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.119.3.1",
+   "title": "Pancreatic and Gonadal Hormones",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Pancreatic and Gonadal Hormones' refers to.",
+     "a": "The islets of Langerhans in the pancreas secrete glucagon from alpha cells raising blood glucose by glycogenolysis and insulin from beta cells lowering blood glucose by cellular uptake, while the testes secrete androgens like testosterone and the ovaries secrete estrogens and progesterone for reproduction and secondary sexual characters.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Pancreatic and Gonadal Hormones'.",
+     "a": "Insulin and glucagon act antagonistically to maintain glucose homeostasis, and disorders of this balance produce diabetes mellitus with hyperglycemia and loss of glucose through urine.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Pancreatic and Gonadal Hormones' taught, and from which source text?",
+     "a": "19.2 Human Endocrine System (source: kebo119.txt section 19.2)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.119.4.1",
+   "title": "Mechanism of Hormone Action and Hormone Disorders",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Mechanism of Hormone Action and Hormone Disorders' refers to.",
+     "a": "Water soluble hormones bind surface receptors and act through second messengers like cyclic AMP, while steroid hormones enter cells and bind intracellular receptors regulating gene expression; hormonal disorders include gigantism and acromegaly from excess growth hormone, dwarfism from its deficiency, diabetes insipidus from vasopressin deficiency, simple goitre from iodine deficiency and Cushing's disease from cortisol excess.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Mechanism of Hormone Action and Hormone Disorders'.",
+     "a": "Hormones act in very low concentrations through specific receptors, and hypo or hyper secretion of the same hormone produces opposite disorders such as dwarfism and gigantism.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Mechanism of Hormone Action and Hormone Disorders' taught, and from which source text?",
+     "a": "19.3 Mechanism of Hormone Action, 19.4 Disorders (source: kebo119.txt sections 19.3, 19.4)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

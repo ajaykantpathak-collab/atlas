@@ -1,0 +1,280 @@
+{
+ "class": 12,
+ "subject": "sociology",
+ "chapter": 1,
+ "chapter_title": "Introducing Indian Society",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lesy101.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lesy.101.1.1",
+   "title": "Sociology and the Need to Unlearn Common Sense",
+   "section": "Introducing Indian Society",
+   "definition": "Sociology is the one subject nobody starts from zero, since everyone grows up knowing something about society, but this very familiarity is a handicap: common sense is learned from one's own social group and environment, so it is partial in both senses -- incomplete, showing only a slice of social reality, and biased, tilted towards one's own group's interests -- and the first job of learning sociology is therefore to unlearn what seems obvious.",
+   "formula": "common_sense_knowledge = partial_incomplete + partial_biased",
+   "key_idea": "What feels like natural knowledge about society is really the viewpoint of the group we were socialised into, and sociology begins by doubting it.",
+   "textbook_ref": "lesy101.txt Introducing Indian Society (lines 5-40)",
+   "question_patterns": [
+    "why is prior knowledge of society both an advantage and a disadvantage for sociology",
+    "what does it mean to unlearn common sense in sociology",
+    "explain the two senses in which common sense knowledge is partial",
+    "how does our social context shape our beliefs about society",
+    "why does sociology feel easy to students at first",
+    "distinguish sociological knowledge from common sense knowledge"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recognise the familiarity advantage",
+     "explain": "no child needs to be taught that society exists; even a six year old knows something about social relationships, so students rarely fear the subject"
+    },
+    {
+     "step": 2,
+     "action": "expose the built-in bias",
+     "explain": "opinions, beliefs and expectations are acquired from the viewpoint of the social group and environment that socialised us"
+    },
+    {
+     "step": 3,
+     "action": "state the corrective",
+     "explain": "because our knowledge is incomplete and tilted toward our own group, the initial stage of sociology consists mainly of unlearning this common sense"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Common sense is learned from one's own social group, so it is partial or complete?",
+     "a": "partial"
+    }
+   ]
+  },
+  {
+   "id": "lesy.101.2.1",
+   "title": "Self-Reflexivity: Looking at Yourself from the Outside",
+   "section": "Introducing Indian Society",
+   "definition": "Sociology can show you what you look like to others: self-reflexivity is the ability to turn back the gaze that is usually directed outward and inspect yourself critically -- quick to criticise and slow to praise oneself -- so that the sociologist becomes an object of study along with society.",
+   "formula": "self_reflexivity = outward_gaze_turned_inward + critical_self_inspection",
+   "key_idea": "The sociologist's first field of observation is the sociologist's own standpoint.",
+   "textbook_ref": "lesy101.txt self-reflexivity passage (lines 35-40)",
+   "question_patterns": [
+    "what is meant by self reflexivity in sociology",
+    "why must self inspection in sociology be critical",
+    "how can sociology teach you to look at yourself from the outside",
+    "distinguish the outward gaze from the reflexive gaze",
+    "why is reflexivity important for controlling the bias of common sense",
+    "explain reflexivity as a skill of the sociological temperament"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the reflexive turn",
+     "explain": "self-reflexivity is the capacity to reflect upon yourself and turn the gaze normally pointed at others back toward yourself"
+    },
+    {
+     "step": 2,
+     "action": "verify its critical character",
+     "explain": "the self-inspection must be quick to criticise and slow to praise oneself, otherwise it merely repeats the biases of one's group"
+    },
+    {
+     "step": 3,
+     "action": "connect to the discipline",
+     "explain": "reflexivity complements unlearning common sense by exposing the observer's own social location"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Turning the outward gaze back and inspecting yourself critically is called what?",
+     "a": "self-reflexivity"
+    }
+   ]
+  },
+  {
+   "id": "lesy.101.3.1",
+   "title": "The Social Map: Locating Individuals in Society",
+   "section": "Introducing Indian Society",
+   "definition": "Every person occupies a position on a social map made of overlapping group memberships: as a seventeen or eighteen year old you belong to the young people who form roughly forty per cent of India's population, you may carry a regional or linguistic identity such as Gujarati or Telugu speaker, an economic class from your family's income and occupation, and a religion, caste or tribe -- each identity placing you in a web of social relationships whose patterns sociology describes and connects.",
+   "formula": "social_map = age_group + region_and_language + economic_class + religion + caste_or_tribe",
+   "key_idea": "Who you are socially is a set of coordinates on many maps at once, and sociology reads the whole atlas.",
+   "textbook_ref": "lesy101.txt social map passage (lines 41-57)",
+   "question_patterns": [
+    "what kinds of groups locate a person on the social map",
+    "why are young people described as a large social group in india",
+    "how do class and caste place an individual in society differently",
+    "explain the idea of a web of social relationships",
+    "what does sociology tell us beyond describing social groups",
+    "how would you locate yourself on a social map of india"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the coordinates",
+     "explain": "age group, region and language, economic class, religion and caste or tribe together fix a person's location on the social map"
+    },
+    {
+     "step": 2,
+     "action": "verify the demographic weight of youth",
+     "explain": "people of seventeen or eighteen and younger account for about forty per cent of India's population, making youth a major social grouping"
+    },
+    {
+     "step": 3,
+     "action": "state the discipline's promise",
+     "explain": "sociology identifies the groupings, explains their relationships to one another and draws out what these mean for individual lives"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Young people form roughly what percent of India's population?",
+     "a": "40 percent"
+    }
+   ]
+  },
+  {
+   "id": "lesy.101.4.1",
+   "title": "Personal Troubles and Social Issues: Mills's Distinction",
+   "section": "Introducing Indian Society",
+   "definition": "C. Wright Mills shows that sociology connects personal troubles and social issues: a trouble is the worry, problem or concern of a single individual -- family treatment, friendship strains, anxiety about a future job -- and derives meaning from a personalised perspective, while an issue concerns large groups rather than the individuals composing them, so sociology maps the links between the two levels.",
+   "formula": "sociological_imagination = personal_troubles_linked_to_social_issues",
+   "key_idea": "What feels like a private worry is often the individual end of a public issue, and mapping that link is sociology's special skill.",
+   "textbook_ref": "lesy101.txt C. Wright Mills passage (lines 58-70)",
+   "question_patterns": [
+    "distinguish between personal troubles and social issues",
+    "what did c wright mills mean by mapping links between troubles and issues",
+    "give an example of a personal trouble that points to a social issue",
+    "why are social issues about groups rather than individuals",
+    "how does the sociological imagination connect biography and society",
+    "classify unemployment anxiety as a trouble or an issue and justify"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the trouble",
+     "explain": "individual worries about family treatment, siblings, friends or future employment are troubles belonging to one person's perspective"
+    },
+    {
+     "step": 2,
+     "action": "define the issue",
+     "explain": "an issue concerns large groups -- say the whole cohort of job seekers -- and cannot be explained by one biography alone"
+    },
+    {
+     "step": 3,
+     "action": "perform the mapping",
+     "explain": "sociology traces the connections so that private experience is read against the group pattern it belongs to"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which sociologist distinguished personal troubles from social issues: C. Wright Mills or Malthus?",
+     "a": "C. Wright Mills"
+    }
+   ]
+  },
+  {
+   "id": "lesy.101.5.1",
+   "title": "A Preview of the Book: Processes Shaping Indian Society",
+   "section": "1.2 A Preview of this Book",
+   "definition": "The introduction sketches the ground ahead: demographic structure of a population soon to be the world's largest; the institutions of caste, tribe and family that form the basic building blocks; the market as a socio-cultural vehicle of change from colonialism to developmental policy; the patterns of inequality and exclusion around caste, tribe, gender and the disabled; the hard side of unity in diversity with communal conflict, regional and linguistic chauvinism and casteism; and finally practical project work for doing sociological research oneself.",
+   "formula": "structure_of_indian_society = demography + caste_tribe_family + market + inequality_and_exclusion + diversity_challenges",
+   "key_idea": "The syllabus of Indian society runs from population, through institutions and the market, to inequality, diversity and hands-on research.",
+   "textbook_ref": "lesy101.txt 1.2 A Preview of this Book (lines 76-138)",
+   "question_patterns": [
+    "give an outline of the main themes of the textbook on indian society",
+    "why is caste described as a unique feature of the indian subcontinent",
+    "what questions does the study of demographic structure raise",
+    "how is the market treated as a vehicle of change in indian history",
+    "which groups does the chapter on inequality and exclusion focus on",
+    "why must every minority in india not feel insecure for the nation's future"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the institutional core",
+     "explain": "chapters on demography and on caste, tribe and family establish the population base and the building blocks of society"
+    },
+    {
+     "step": 2,
+     "action": "verify the change and conflict agenda",
+     "explain": "the market chapter traces chain reactions from colonialism to development policy, and the inequality chapter follows caste, tribe, gender and the disabled"
+    },
+    {
+     "step": 3,
+     "action": "verify the diversity and practice agenda",
+     "explain": "the diversity chapter weighs strengths and weaknesses against communalism, chauvinism and casteism, and the final chapter opens small practical research projects"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which basic institutions form the building blocks of Indian society: caste, tribe and family, or banks and malls?",
+     "a": "caste, tribe and family"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_lesy101_1",
+   "source_ref": "lesy101.txt C. Wright Mills passage",
+   "concept": "lesy.101.4.1",
+   "question_type": "conceptual",
+   "question_pattern": "A student worries she may not get a job after school. How would Mills have us re-read this worry?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "name the personal trouble",
+     "explain": "anxiety about one's own future employment is a trouble belonging to one individual's perspective"
+    },
+    {
+     "step": 2,
+     "action": "raise the social issue",
+     "explain": "read against the group, the worry points to the situation of her whole age cohort in the job market"
+    },
+    {
+     "step": 3,
+     "action": "map the connection",
+     "explain": "sociology links the private anxiety to the public pattern of unemployment, converting biography into a window on society"
+    }
+   ]
+  },
+  {
+   "id": "we_lesy101_2",
+   "source_ref": "lesy101.txt social map passage",
+   "concept": "lesy.101.3.1",
+   "question_type": "conceptual",
+   "question_pattern": "Name the social coordinates that locate a Telugu-speaking eighteen year old from an upper class family on India's social map.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "fix the age coordinate",
+     "explain": "as a member of the young people, a group forming about forty per cent of the population"
+    },
+    {
+     "step": 2,
+     "action": "fix the cultural coordinates",
+     "explain": "regional and linguistic community -- a Telugu speaker of Andhra Pradesh"
+    },
+    {
+     "step": 3,
+     "action": "fix the class and community coordinates",
+     "explain": "economic class from parental occupation and family income, plus any religious, caste or tribe membership, completing the position in the web of social relationships"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-practice-1",
+   "source_ref": "lesy101.txt chapter questions",
+   "questions": [
+    "why is sociology a subject in which no one starts from zero",
+    "explain the double meaning of calling common sense partial",
+    "what is self reflexivity and why should it be critical",
+    "distinguish personal troubles from social issues with examples",
+    "list the themes with which the textbook introduces indian society"
+   ]
+  }
+ ]
+}

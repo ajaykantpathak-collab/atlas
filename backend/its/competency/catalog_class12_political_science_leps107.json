@@ -1,0 +1,251 @@
+{
+ "class": 12,
+ "subject": "political_science",
+ "chapter": 10,
+ "chapter_title": "Globalisation",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leps107.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leps.107.1",
+   "title": "Concepts of Globalisation",
+   "section": "The Concept of Globalisation",
+   "definition": "Globalisation is the process of rapid integration or interconnection between countries driven by flows of goods, services, capital, technology and ideas; it has political, economic and cultural dimensions, and its intensification from the 1990s followed technological and policy changes.",
+   "formula": "",
+   "key_idea": "Globalisation compresses space and time: markets, media and movements knit distant places into instant interdependence.",
+   "textbook_ref": "leps107.txt globalisation concept and dimensions sections",
+   "question_patterns": [
+    "define globalisation and its driving flows",
+    "name the political, economic and cultural dimensions",
+    "why did globalisation intensify in the 1990s",
+    "distinguish globalisation from internationalisation",
+    "give examples of cultural globalisation in daily life",
+    "relate technology to global interconnection"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the process",
+     "explain": "integration through cross-border flows defines globalisation"
+    },
+    {
+     "step": 2,
+     "action": "sort the dimensions",
+     "explain": "politics, economy and culture are its three faces"
+    },
+    {
+     "step": 3,
+     "action": "close with timing",
+     "explain": "1990s technology and liberalisation multiplied the flows"
+    }
+   ]
+  },
+  {
+   "id": "leps.107.2",
+   "title": "Causes: Technology and Politics",
+   "section": "Causes of Globalisation",
+   "definition": "Globalisation's causes are technological - container transport, telecommunications and computers collapsing costs - and political - liberalisation policies, WTO rules and the opening of economies like India's 1991 reforms that lowered trade barriers.",
+   "formula": "",
+   "key_idea": "Both engines matter: cheaper movement of data and goods met deliberate decisions to open markets.",
+   "textbook_ref": "leps107.txt technology, liberalisation and India's 1991 opening sections",
+   "question_patterns": [
+    "list the technological causes of globalisation",
+    "state the political causes including WTO rules",
+    "how did India's 1991 reforms open the economy",
+    "explain container shipping's role in trade",
+    "relate telecom costs to global services trade",
+    "evaluate which cause dominates globalisation's growth"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "credit the machines",
+     "explain": "containers, satellites and computers cut transaction costs"
+    },
+    {
+     "step": 2,
+     "action": "credit the choices",
+     "explain": "trade agreements and 1991-style reforms opened borders"
+    },
+    {
+     "step": 3,
+     "action": "close with services",
+     "explain": "cheap telecom enabled India's software and call-centre exports"
+    }
+   ]
+  },
+  {
+   "id": "leps.107.3",
+   "title": "Consequences: Winners and Critics",
+   "section": "Consequences of Globalisation",
+   "definition": "Globalisation's consequences are uneven: consumers gain cheaper goods and workers gain new service jobs, while critics point to job losses in protected sectors, cultural homogenisation, and the widening gap between winners and losers within and between countries.",
+   "formula": "",
+   "key_idea": "The ledger splits by sector and skill: software exporters celebrate while import-competing farmers and workers bear adjustment costs.",
+   "textbook_ref": "leps107.txt economic, cultural and political consequences sections",
+   "question_patterns": [
+    "state the economic gains claimed for globalisation",
+    "list critics' concerns about jobs and culture",
+    "how does globalisation affect state autonomy",
+    "explain winners and losers within countries",
+    "relate MNCs to production networks",
+    "give Indian examples of globalisation's mixed effects"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the gains",
+     "explain": "cheaper goods, export jobs and technology flows mark the upside"
+    },
+    {
+     "step": 2,
+     "action": "hear the critics",
+     "explain": "job displacement, cultural erosion and inequality mark the downside"
+    },
+    {
+     "step": 3,
+     "action": "close with politics",
+     "explain": "protests and policy debates contest globalisation's rules"
+    }
+   ]
+  },
+  {
+   "id": "leps.107.4",
+   "title": "India and Globalisation",
+   "section": "India and Globalisation",
+   "definition": "India integrated into the global economy after the 1991 reforms through trade, investment and services exports; globalisation brought growth, consumer choice and technology, alongside concerns for farmers, small industry and cultural practices, making India both a beneficiary and a negotiator of global rules.",
+   "formula": "",
+   "key_idea": "India's globalisation is selective: services globalised fast while agriculture and labour markets stayed partly protected.",
+   "textbook_ref": "leps107.txt India's reforms, gains and concerns sections",
+   "question_patterns": [
+    "describe India's post-1991 global integration",
+    "state gains from globalisation for Indian consumers and firms",
+    "identify concerns of farmers and small industry",
+    "explain India's service exports boom",
+    "relate globalisation to employment and inequality",
+    "evaluate India's negotiating stance in global trade"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "open the economy",
+     "explain": "1991 reforms cut tariffs and welcomed investment"
+    },
+    {
+     "step": 2,
+     "action": "count the gains",
+     "explain": "software exports and cheaper manufactures changed consumption"
+    },
+    {
+     "step": 3,
+     "action": "close with concerns",
+     "explain": "farm distress and small-firm competition fuel the globalisation debate"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_leps107_1",
+   "source_ref": "leps107.txt 1991 reforms",
+   "concept": "leps.107.4",
+   "question_type": "compute",
+   "question_pattern": "India's liberalisation began in 1991 and the Seattle WTO protests came in 1999. Compute the years between the reforms and the protests.",
+   "extracted_variables": {
+    "reform_year": 1991,
+    "protest_year": 1999
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "record the years",
+     "explain": "reforms 1991, protests 1999",
+     "compute": "reform_year = 1991"
+    },
+    {
+     "step": 2,
+     "action": "subtract",
+     "explain": "1999 - 1991 = 8 years",
+     "compute": "reform_gap = protest_year - reform_year"
+    }
+   ]
+  },
+  {
+   "id": "we_leps107_2",
+   "source_ref": "leps107.txt consequences section",
+   "concept": "leps.107.3",
+   "question_type": "short_answer",
+   "question_pattern": "Give two gains and two criticisms of globalisation from the chapter.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "gains",
+     "explain": "cheaper consumer goods and new service-sector jobs"
+    },
+    {
+     "step": 2,
+     "action": "criticisms",
+     "explain": "job losses in protected sectors and cultural homogenisation"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "benefits and costs distribute unevenly across classes and countries"
+    }
+   ]
+  },
+  {
+   "id": "we_leps107_3",
+   "source_ref": "leps107.txt India section",
+   "concept": "leps.107.4",
+   "question_type": "short_answer",
+   "question_pattern": "Explain why India's globalisation is called selective.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "services lead",
+     "explain": "software and telecom integrated globally after 1991"
+    },
+    {
+     "step": 2,
+     "action": "protected sectors",
+     "explain": "farming and much labour remain partly shielded"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "integration advanced fastest where skills met world demand"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_leps107_1",
+   "source_ref": "leps107.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "define globalisation and its driving flows",
+    "list technological and political causes of globalisation",
+    "compute the years between 1991 reforms and 1999 protests",
+    "evaluate the consequences of globalisation for India",
+    "discuss debates over cultural globalisation"
+   ]
+  },
+  {
+   "id": "ex_leps107_2",
+   "source_ref": "leps107.txt applied questions, reworded",
+   "questions": [
+    "argue for and against WTO-led trade rules",
+    "relate MNC production networks to Indian jobs",
+    "assess globalisation's effect on state autonomy",
+    "map winners and losers of liberalisation in India",
+    "propose policies to spread globalisation's gains"
+   ]
+  }
+ ]
+}

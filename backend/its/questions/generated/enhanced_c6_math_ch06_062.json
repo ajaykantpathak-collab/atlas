@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch06_062",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch06_062",
+   "title": "c6_math_ch06_062",
+   "questions": [
+    {
+     "q": "What are the three ways to write the ratio of 5 apples to 8 oranges?",
+     "a": "The three ways are 5:8, 5/8, and '5 to 8'. A wrong answer suggests the student does not recognize these as equivalent representations, which is a foundational recall task.",
+     "self_check": true
+    },
+    {
+     "q": "The ratio must follow the order stated; since red is mentioned first, it must be 10:15. A wrong answer suggests the student does not understand that order matters in ratios, unlike simple addition.",
+     "a": "**Correct answer:**\nThe ratio must follow the order specified in the question, which asks for red to blue; therefore, the number of red balls (10) must come before the number of blue balls (15), making the correct ratio 10:15. Stating it as 15:10 incorrectly assigns the blue quantity to the red category.\n\n**A wrong answer reveals:**\nA wrong answer reveals that the student does not understand that a ratio is an **ordered pair**, meaning they have failed to grasp that the sequence of numbers must correspond directly to the sequence of items mentioned in the problem statement.",
+     "self_check": true
+    },
+    {
+     "q": "Simplify the ratio 12:18 to its lowest terms.",
+     "a": "Divide both by 6 to get 2:3. If a student gets 6:9, they failed to find the greatest common divisor and did not fully simplify the ratio.",
+     "self_check": true
+    },
+    {
+     "q": "You have 2 meters of ribbon and 50 centimeters of lace. Can you write a ratio of 2:50? Why or why not?",
+     "a": "No, you cannot. You must convert 2 meters to 200 centimeters first, making the ratio 200:50 or 4:1. A wrong answer shows the student ignores the rule that units must be the same.",
+     "self_check": true
+    },
+    {
+     "q": "Is the ratio 2:4 the same as the ratio 4:8? Explain your reasoning.",
+     "a": "Yes, both simplify to 1:2. A wrong answer reveals the student doesn't see that ratios represent a constant relationship, even if the numbers look different.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario where a ratio of 3:2 describes the situation.",
+     "a": "An example is: \"In a class of 5 students, 3 are boys and 2 are girls.\" A poor answer uses unrelated units (like 3 apples and 2 meters) or fails to provide a context that fits the ratio.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_02_003",
+   "title": "c11_biotech_cbse_02_003",
+   "questions": [
+    {
+     "q": "State the primary structural polysaccharide in the cell wall of (a) higher plants, (b) fungi, and (c) Gram-positive bacteria.",
+     "a": "(a) Cellulose (β-1,4-linked D-glucose), (b) Chitin (β-1,4-linked N-acetylglucosamine), (c) Peptidoglycan (alternating NAG-NAM cross-linked by peptides). A wrong answer such as \"chitin for plants\" reveals the student is memorizing polysaccharides without linking them to phylogenetic groups, indicating a failure to connect evolutionary lineage to biochemical adaptation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Gram-negative bacteria, despite having a thinner peptidoglycan layer, are often more resistant to penicillin than Gram-positive bacteria.",
+     "a": "Gram-negative bacteria possess an outer membrane rich in lipopolysaccharide (LPS) that acts as a permeability barrier, preventing penicillin from reaching the peptidoglycan layer where transpeptidases operate. A wrong answer focusing only on peptidoglycan thickness misses the critical role of the outer membrane, showing the student views the cell envelope as a single layer rather than a multi-compartment system.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher treats Gram-positive and Gram-negative bacteria with lysozyme (hydrolyzes β-1,4 bonds between NAG and NAM). Lysis occurs rapidly in Gram-positive cells but not in Gram-negative cells unless they are pre-treated with EDTA. Explain this observation and predict the outcome if the same experiment is performed on onion epidermal cells.",
+     "a": "In Gram-positive bacteria, lysozyme directly accesses the thick peptidoglycan layer. In Gram-negative bacteria, the outer membrane blocks lysozyme; EDTA chelates Mg²⁺ stabilizing LPS, permeabilizing the outer membrane. Onion cells have cellulose walls with β-1,4 glucose linkages, but lysozyme is specific for the NAG-NAM bond, so no lysis occurs. A wrong answer indicates inability to apply enzyme specificity and membrane barrier concepts to a new experimental scenario.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mechanical roles of lignin in plant secondary walls and teichoic acids in Gram-positive bacterial walls. How does each polymer contribute to tensile strength and rigidity?",
+     "a": "Lignin is a hydrophobic, cross-linked phenolic polymer that fills the matrix between cellulose microfibrils, providing compressive strength and waterproofing, enabling xylem to withstand negative pressure. Teichoic acids are anionic polymers covalently linked to peptidoglycan; they chelate cations, regulate wall porosity, and cross-link peptide stems, enhancing rigidity. A wrong answer conflates the two or fails to connect chemical structure (phenolic vs phosphodiester-linked polyol) to mechanical function.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The middle lamella is just glue holding plant cells together; it has no living function.\" Critique this statement using evidence from cell biology.",
+     "a": "The middle lamella (calcium pectate) is essential for adhesion, but it also regulates plasmodesmal pore size, releases oligogalacturonides that act as damage-associated molecular patterns (DAMPs) during pathogen attack, and its enzymatic degradation controls fruit ripening and organ abscission. Calling it \"just glue\" ignores its dynamic roles in development, signaling, and defense. A wrong answer reflects a static view of the extracellular matrix.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical antifungal antibiotic that selectively targets fungal cell walls. Specify the molecular target, biochemical rationale, and one likely resistance mechanism.",
+     "a": "Target: chitin synthase (polymerizes UDP-N-acetylglucosamine into chitin). Rationale: humans lack chitin, so inhibition selectively weakens fungal walls. Resistance mechanism: point mutations in chitin synthase reducing drug binding, or compensatory upregulation of β-1,3-glucan synthesis to maintain wall integrity. A poor answer targets a conserved eukaryotic enzyme (e.g., β-glucan synthase) or ignores evolutionary resistance pressure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

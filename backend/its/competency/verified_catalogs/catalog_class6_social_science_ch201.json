@@ -1,0 +1,329 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 201,
+ "chapter_title": "The Earth in the Solar System",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gecu111.txt",
+ "concepts": [
+  {
+   "id": "fess.201.1.1",
+   "title": "Celestial Bodies",
+   "section": "THE EARTH IN THE SOLAR SYSTEM",
+   "definition": "Natural objects visible in the night sky, including the sun, the moon, stars, and other shining entities.",
+   "formula": "",
+   "key_idea": "All objects existing in outer space are classified as celestial bodies.",
+   "textbook_ref": "fess201.txt lines 25-35",
+   "question_patterns": [
+    "What are celestial bodies?",
+    "Identify examples of celestial bodies from the night sky.",
+    "Why can we not see celestial bodies during the day?",
+    "Explain what constitutes a celestial body.",
+    "Which objects shining in the night sky are called celestial bodies?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the objects in space",
+     "explain": "Celestial bodies include the sun, moon, stars, planets, and other shining objects in the sky."
+    }
+   ]
+  },
+  {
+   "id": "fess.201.1.2",
+   "title": "Stars",
+   "section": "THE EARTH IN THE SOLAR SYSTEM",
+   "definition": "Massive, extremely hot celestial bodies made of gases that produce and emit their own heat and light.",
+   "formula": "",
+   "key_idea": "Stars are self-luminous gaseous bodies, with the Sun being the closest star to Earth.",
+   "textbook_ref": "fess201.txt lines 30-45",
+   "question_patterns": [
+    "What are the main characteristics of a star?",
+    "Why is the sun considered a star?",
+    "Why do we not feel the heat of other stars?",
+    "Explain why distant stars look so tiny to us.",
+    "Describe the composition of stars."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Verify star characteristics",
+     "explain": "Stars are made of gases, have their own heat and light, and emit them in large amounts."
+    }
+   ]
+  },
+  {
+   "id": "fess.201.1.3",
+   "title": "Constellations and the Pole Star",
+   "section": "THE EARTH IN THE SOLAR SYSTEM",
+   "definition": "Recognizable patterns formed by groups of stars in the night sky, used historically to determine directions.",
+   "formula": "",
+   "key_idea": "Star patterns like Ursa Major help locate the fixed North Star (Pole Star) to find directions.",
+   "textbook_ref": "fess201.txt lines 50-75",
+   "question_patterns": [
+    "What is a constellation?",
+    "How can we locate the Pole Star using the Saptarishi constellation?",
+    "Which direction does the Pole Star indicate?",
+    "Give examples of prominent constellations mentioned in the text.",
+    "How did people in ancient times determine directions at night?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the pattern and pointer stars",
+     "explain": "Locate the Saptarishi constellation and draw an imaginary line through its pointer stars to find the Pole Star."
+    }
+   ]
+  },
+  {
+   "id": "fess.201.1.4",
+   "title": "Planets and Earth's Twin",
+   "section": "THE EARTH IN THE SOLAR SYSTEM",
+   "definition": "Celestial bodies that do not possess their own heat and light but are illuminated by the light of stars.",
+   "formula": "",
+   "key_idea": "Planets orbit stars, and Venus is known as Earth's twin due to its similar size and shape.",
+   "textbook_ref": "fess201.txt lines 75-95, 140-150",
+   "question_patterns": [
+    "How does a planet differ from a star?",
+    "What is the origin of the word planet?",
+    "Why is Venus called the Earth's twin?",
+    "Do planets have their own light?",
+    "Explain why planets shine in the night sky."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compare light emission and source",
+     "explain": "Stars emit their own light, whereas planets reflect light from stars."
+    }
+   ]
+  },
+  {
+   "id": "fess.201.1.5",
+   "title": "The Solar System",
+   "section": "THE SOLAR SYSTEM",
+   "definition": "A cosmic family consisting of the Sun at the center, eight planets, their satellites, and other minor bodies like asteroids and meteoroids.",
+   "formula": "",
+   "key_idea": "The Sun's gravitational pull binds the planets and other bodies into a cohesive orbital system.",
+   "textbook_ref": "fess201.txt lines 95-130",
+   "question_patterns": [
+    "What is meant by the Solar System?",
+    "Name the members of the solar family.",
+    "What force binds the solar system together?",
+    "List all the planets in order of their distance from the sun.",
+    "What is the role of the Sun in the solar system?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the central body and orbiting members",
+     "explain": "The Sun is the head, with eight planets, satellites, asteroids, and meteoroids forming the system."
+    }
+   ]
+  },
+  {
+   "id": "fess.201.1.6",
+   "title": "The Earth as a Unique Planet",
+   "section": "The Earth",
+   "definition": "The third nearest planet to the Sun and the fifth largest, characterized by a Geoid shape and conditions that support life.",
+   "formula": "",
+   "key_idea": "Earth is a unique blue planet because of its water, air, and life-supporting oxygen.",
+   "textbook_ref": "fess201.txt lines 155-180",
+   "question_patterns": [
+    "Why is the Earth called a unique planet?",
+    "What does the term Geoid mean?",
+    "Why does the Earth appear blue from outer space?",
+    "What conditions on Earth make life possible?",
+    "What is the position of Earth in terms of size and distance from the Sun?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze life-supporting factors",
+     "explain": "Earth has moderate temperatures, water, and life-supporting gases like oxygen."
+    }
+   ]
+  },
+  {
+   "id": "fess.201.1.7",
+   "title": "The Moon",
+   "section": "The Moon",
+   "definition": "The Earth's sole natural satellite, which orbits and spins in perfect synchronization, showing only one side to Earth.",
+   "formula": "",
+   "key_idea": "The moon takes about 27 days to complete both one orbit and one spin on its axis.",
+   "textbook_ref": "fess201.txt lines 180-210",
+   "question_patterns": [
+    "Why do we see only one side of the moon always?",
+    "What is the distance of the moon from the earth?",
+    "How long does the moon take to orbit the earth?",
+    "Describe the surface conditions of the moon.",
+    "Compare the size of the moon with that of the earth."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compare orbital and rotational periods",
+     "explain": "Because the moon's spin time equals its orbital time (27 days), only one side faces Earth."
+    }
+   ]
+  },
+  {
+   "id": "fess.201.1.8",
+   "title": "Asteroids and Meteoroids",
+   "section": "Asteroids",
+   "definition": "Small rocky bodies and fragments orbiting the Sun, with asteroids concentrated between Mars and Jupiter, and meteoroids occasionally entering Earth's atmosphere.",
+   "formula": "",
+   "key_idea": "Asteroids are planetary remnants, while meteoroids are smaller rock pieces that burn up due to atmospheric friction.",
+   "textbook_ref": "fess201.txt lines 215-235",
+   "question_patterns": [
+    "What are asteroids and where are they found?",
+    "What is a meteoroid?",
+    "Why do meteoroids burn up when they enter Earth's atmosphere?",
+    "Differentiate between asteroids and meteoroids.",
+    "Which planetary orbits contain the asteroid belt?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Distinguish by location and size",
+     "explain": "Asteroids are larger bodies found between Mars and Jupiter; meteoroids are smaller rock pieces moving around the sun."
+    }
+   ]
+  },
+  {
+   "id": "fess.201.1.9",
+   "title": "Galaxies and the Universe",
+   "section": "Meteoroids",
+   "definition": "A galaxy is a massive system of billions of stars, dust, and gases, while millions of such galaxies collectively constitute the universe.",
+   "formula": "",
+   "key_idea": "Our solar system belongs to the Milky Way galaxy, which is just one of millions in the vast universe.",
+   "textbook_ref": "fess201.txt lines 235-255",
+   "question_patterns": [
+    "What is a galaxy?",
+    "What is the name of our galaxy?",
+    "What is the Universe?",
+    "How was Akash Ganga imagined in ancient India?",
+    "Describe the relationship between the Earth, solar system, galaxy, and universe."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Relate cosmic scales",
+     "explain": "Earth is in the solar system, which is in the Milky Way galaxy, which is in the universe."
+    }
+   ]
+  },
+  {
+   "id": "fess.201.1.10",
+   "title": "Light Travel Distance",
+   "section": "The Moon",
+   "definition": "The distance traversed by light over a given duration, calculated by multiplying the speed of light by the time elapsed in seconds.",
+   "formula": "distance = speed * time_seconds",
+   "key_idea": "Light travels at an immense speed, taking about 8 minutes to cover the distance from the Sun to the Earth.",
+   "textbook_ref": "fess201.txt lines 190-200",
+   "question_patterns": [
+    "Calculate the distance traveled by light in {time_seconds} seconds when speed is {speed} km per second.",
+    "Find the distance of a star if its light takes {time_seconds} seconds to reach us at a speed of {speed} km per second.",
+    "How far does light travel in {time_seconds} seconds at a speed of {speed} km/s?",
+    "What is the distance covered by light moving at {speed} km/s over {time_seconds} seconds?",
+    "Compute the distance from a light source given a travel time of {time_seconds} seconds and speed of {speed} km/s."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply the speed of light by the time in seconds",
+     "explain": "Distance is the product of speed and the time duration.",
+     "compute": "distance = speed * time_seconds"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fess201.txt lines 190-200",
+   "concept": "fess.201.1.10",
+   "question_type": "compute",
+   "question_pattern": "Calculate the distance traveled by light in {time_seconds} seconds when speed is {speed} km per second.",
+   "extracted_variables": {
+    "speed": 300000,
+    "time_seconds": 480
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply the speed of light by the time in seconds",
+     "explain": "Distance is the product of speed and the time duration.",
+     "compute": "distance = speed * time_seconds"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fess201.txt lines 190-200",
+   "concept": "fess.201.1.10",
+   "question_type": "compute",
+   "question_pattern": "How far does light travel in {time_seconds} seconds at a speed of {speed} km/s?",
+   "extracted_variables": {
+    "speed": 300000,
+    "time_seconds": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply the speed of light by the time in seconds",
+     "explain": "Distance is the product of speed and the time duration.",
+     "compute": "distance = speed * time_seconds"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "fess201.txt lines 256-270",
+   "questions": [
+    "How does a planet differ from a star?",
+    "What is meant by the 'Solar System'?",
+    "Name all the planets according to their distance from the sun.",
+    "Why is the Earth called a unique planet?",
+    "Why do we see only one side of the moon always?",
+    "What is the Universe?"
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "fess201.txt lines 271-285",
+   "questions": [
+    "The planet known as the 'Earth's Twin' is (i) Jupiter (ii) Saturn (iii) Venus",
+    "Which is the third nearest planet to the sun ? (i) Venus (ii) Earth (iii) Mercury",
+    "All the planets move around the sun in a (i) Circular path (ii) Rectangular path (iii) Elongated path",
+    "The Pole Star indicates the direction to the (i) South (ii) North (iii) East",
+    "Asteroids are found between the orbits of (i) Saturn and Jupiter (ii) Mars and Jupiter (iii) The Earth and Mars"
+   ]
+  },
+  {
+   "id": "ex1.3",
+   "source_ref": "fess201.txt lines 286-295",
+   "questions": [
+    "A group of ________ forming various patterns is called a ________.",
+    "A huge system of stars is called ________.",
+    "________ is the closest celestial body to our earth.",
+    "________ is the third nearest planet to the sun.",
+    "Planets do not have their own ________ and ________."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "title-matched to new cache"
+}

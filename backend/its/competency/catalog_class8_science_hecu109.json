@@ -1,0 +1,284 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 9,
+ "chapter_title": "The Amazing World of Solutes, Solvents, and Solutions",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hecu109.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hecu.109.9.1",
+   "title": "Solute, Solvent and Solution",
+   "section": "9.1",
+   "definition": "When salt disappears in water, salt is the solute, water the solvent and the clear uniform mixture the solution; the solute's particles spread between solvent particles so nothing settles on standing and the composition stays the same throughout.",
+   "formula": "-",
+   "key_idea": "Solute + solvent = solution: one uniform blend with no settling.",
+   "textbook_ref": "hecu109.txt lines 46-88 (what are solute, solvent and solution)",
+   "question_patterns": [
+    "define solute, solvent and solution with an example",
+    "why does a salt solution not settle on standing",
+    "identify solute and solvent in a sugar-water solution",
+    "is a solution always liquid - explain",
+    "why is a solution called a homogeneous mixture",
+    "what happens to the particles of solute in a solution"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "name the parts",
+     "explain": "The dissolved substance is the solute; the dissolving medium is the solvent."},
+    {"step": 2, "action": "check the uniformity",
+     "explain": "A true solution shows the same taste and composition in every drop."},
+    {"step": 3, "action": "test stability",
+     "explain": "No settling on standing confirms the solution nature."}
+   ]
+  },
+  {
+   "id": "hecu.109.9.2",
+   "title": "Solubility and Saturated Solutions",
+   "section": "9.2",
+   "definition": "Water dissolves only a limiting amount of a solute at a given temperature: while more can still dissolve the solution is unsaturated, but once extra solute settles at the bottom it is saturated, and that maximum amount fixes the solubility of the substance.",
+   "formula": "-",
+   "key_idea": "Saturation is the dissolving limit at one temperature - heat usually raises the limit.",
+   "textbook_ref": "hecu109.txt lines 88-140 (how much solute can dissolve, saturation)",
+   "question_patterns": [
+    "what is a saturated solution - how is it prepared",
+    "define solubility of a substance",
+    "why does more sugar dissolve in hot water than cold",
+    "how can a saturated solution be made unsaturated again",
+    "what shows that a solution has become saturated",
+    "does solubility depend on temperature - explain with an activity"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "add solute till no more dissolves",
+     "explain": "Keep stirring in spoonfuls; the first undissolved settling marks saturation."},
+    {"step": 2, "action": "record the temperature",
+     "explain": "The limit holds only at that temperature - solubility is temperature-specific."},
+    {"step": 3, "action": "change the temperature to redissolve",
+     "explain": "Heating raises the limit and the settled solute disappears again."}
+   ]
+  },
+  {
+   "id": "hecu.109.9.3",
+   "title": "Concentration of a Solution",
+   "section": "9.3",
+   "definition": "Concentration tells how much solute sits in a fixed quantity of solution or solvent; a spoon of salt in 100 mL is dilute while the same spoon in 50 mL is concentrated, and comparing solute-per-solvent ratios settles which of two solutions is stronger.",
+   "formula": "conc = solute / solvent * 100",
+   "key_idea": "Count solute per fixed solvent: 4 spoons in 50 mL beats 2 spoons in 100 mL.",
+   "textbook_ref": "hecu109.txt lines 137-150 (concentration, dilute and concentrated)",
+   "question_patterns": [
+    "which is more concentrated: 2 spoons of salt in 100 mL or 4 spoons in 50 mL",
+    "define concentration of a solution",
+    "why are dilute and concentrated called relative terms",
+    "how can a dilute solution be made concentrated",
+    "compare two solutions for their concentration",
+    "calculate the solute-to-solvent ratio of a given solution"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "divide solute by solvent",
+     "explain": "The ratio of dissolved amount to liquid amount measures strength.",
+     "compute": "ratio = solute / solvent"},
+    {"step": 2, "action": "scale to a common basis",
+     "explain": "Multiplying by 100 compares the solutions per 100 mL of solvent.",
+     "compute": "conc = ratio * 100"}
+   ]
+  },
+  {
+   "id": "hecu.109.9.4",
+   "title": "Solubility of Gases in Water",
+   "section": "9.3",
+   "definition": "Gases also dissolve in water - oxygen keeps fish alive and the fizz in cold drinks is dissolved carbon dioxide - but gas solubility falls as temperature rises, which is why warm water loses its fizz and boiled water tastes flat.",
+   "formula": "-",
+   "key_idea": "Cold water holds more gas: heating drives dissolved gases out.",
+   "textbook_ref": "hecu109.txt lines 247-280 (solubility of gases)",
+   "question_patterns": [
+    "why do aquatic animals survive under water",
+    "what is the fizz in cold drinks made of",
+    "how does temperature affect the solubility of gases",
+    "why does a warm soft drink go flat quickly",
+    "name two gases dissolved in natural water",
+    "compare the solubility of solids and gases on heating"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "note the dissolved gas",
+     "explain": "Oxygen and carbon dioxide dissolve in water, supporting life and fizz."},
+    {"step": 2, "action": "heat the liquid",
+     "explain": "Warming gives gas particles energy to escape, lowering solubility."},
+    {"step": 3, "action": "draw the contrast",
+     "explain": "Solids usually dissolve more on heating, gases dissolve less."}
+   ]
+  },
+  {
+   "id": "hecu.109.9.5",
+   "title": "Density: Mass per Unit Volume",
+   "section": "9.5",
+   "definition": "Density tells how tightly mass is packed in a volume - the crowded bus picture - and is computed as mass divided by volume; it decides whether a substance floats or sinks in water and changes slightly with temperature and pressure.",
+   "formula": "density = mass / volume",
+   "key_idea": "Divide mass by volume: iron crowds more mass into each cubic centimetre than wood.",
+   "textbook_ref": "hecu109.txt lines 297-360 (what is density, formula, dependence)",
+   "question_patterns": [
+    "define density and write its formula",
+    "find the density of an object of mass 54 g and volume 20 cubic cm",
+    "why does a crowded bus illustrate high density",
+    "does the density of a substance change with shape - justify",
+    "how does temperature affect density",
+    "calculate which material is denser from given masses and volumes"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "divide mass by volume",
+     "explain": "Mass packed per unit volume is the density.",
+     "compute": "density = mass / volume"}
+   ]
+  },
+  {
+   "id": "hecu.109.9.6",
+   "title": "Floating, Sinking and Relative Density",
+   "section": "9.4",
+   "definition": "An object floats in water when its density is less than that of water and sinks when it is more; comparing a substance's density with the density of water gives the relative density that predicts float or sink without trial.",
+   "formula": "rel_dens = density_of_substance / density_of_water",
+   "key_idea": "Compare with water: less dense floats, more dense sinks.",
+   "textbook_ref": "hecu109.txt lines 280-297 (why objects float or sink), 355-360 (relative density)",
+   "question_patterns": [
+    "why does an iron nail sink but a cork float",
+    "define relative density of a substance",
+    "find whether the given object floats or sinks in water",
+    "what is the relative density of a substance denser than water",
+    "how does density decide floating or sinking",
+    "calculate the relative density from given densities"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "compare with water's density",
+     "explain": "Divide the substance density by the density of water.",
+     "compute": "rel_dens = density_of_substance / density_of_water"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hecu109.txt lines 297-320, density formula",
+   "concept": "hecu.109.9.5",
+   "question_type": "compute",
+   "question_pattern": "An object has mass {mass} g and volume {volume} cubic cm. Find its density.",
+   "extracted_variables": {
+    "mass": "mass of the object in grams",
+    "volume": "volume in cubic centimetres"
+   },
+   "solution_template": [
+    {"step": 1, "action": "divide mass by volume",
+     "explain": "Density equals mass over volume.",
+     "compute": "density = mass / volume"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hecu109.txt lines 320-360, density practice",
+   "concept": "hecu.109.9.5",
+   "question_type": "compute",
+   "question_pattern": "A liquid of mass {mass} g fills {volume} mL. Calculate its density and say how it compares with water.",
+   "extracted_variables": {
+    "mass": "mass of the liquid in grams",
+    "volume": "volume of the liquid in mL"
+   },
+   "solution_template": [
+    {"step": 1, "action": "divide mass by volume",
+     "explain": "Mass per mL gives the density for comparison with water.",
+     "compute": "density = mass / volume"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hecu109.txt lines 355-360, relative density formula",
+   "concept": "hecu.109.9.6",
+   "question_type": "compute",
+   "question_pattern": "The density of a substance is {density_of_substance} g per cubic cm. Find its relative density taking water as {density_of_water} g per cubic cm.",
+   "extracted_variables": {
+    "density_of_substance": "density of the sample in g per cubic cm",
+    "density_of_water": "density of water in g per cubic cm"
+   },
+   "solution_template": [
+    {"step": 1, "action": "divide by water's density",
+     "explain": "Relative density compares the two densities.",
+     "compute": "rel_dens = density_of_substance / density_of_water"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hecu109.txt lines 280-297, float or sink prediction",
+   "concept": "hecu.109.9.6",
+   "question_type": "compute",
+   "question_pattern": "An object of density {density_of_substance} g per cubic cm is placed in water of density {density_of_water} g per cubic cm. Predict float or sink using relative density.",
+   "extracted_variables": {
+    "density_of_substance": "object density in g per cubic cm",
+    "density_of_water": "water density in g per cubic cm"
+   },
+   "solution_template": [
+    {"step": 1, "action": "compute the relative density",
+     "explain": "Divide the object's density by water's density.",
+     "compute": "rel_dens = density_of_substance / density_of_water"}
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "hecu109.txt lines 137-150, spoons comparison",
+   "concept": "hecu.109.9.3",
+   "question_type": "compute",
+   "question_pattern": "Solution A has {solute} spoons of salt in {solvent} mL of water. Express its concentration per 100 mL of water.",
+   "extracted_variables": {
+    "solute": "spoons of salt dissolved",
+    "solvent": "water in mL"
+   },
+   "solution_template": [
+    {"step": 1, "action": "divide solute by solvent",
+     "explain": "Spoons per mL measure the strength.",
+     "compute": "ratio = solute / solvent"},
+    {"step": 2, "action": "scale to 100 mL",
+     "explain": "Multiply by 100 for spoons per 100 mL of water.",
+     "compute": "conc = ratio * 100"}
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "hecu109.txt lines 140-150, concentrated comparison",
+   "concept": "hecu.109.9.3",
+   "question_type": "compute",
+   "question_pattern": "Compare {solute} spoons of salt in {solvent} mL of water with 2 spoons in 100 mL - which is more concentrated per 100 mL?",
+   "extracted_variables": {
+    "solute": "spoons of salt in the test solution",
+    "solvent": "water in mL in the test solution"
+   },
+   "solution_template": [
+    {"step": 1, "action": "divide solute by solvent",
+     "explain": "Compute the test solution's ratio.",
+     "compute": "ratio = solute / solvent"},
+    {"step": 2, "action": "scale to 100 mL",
+     "explain": "Compare the scaled value with 2 spoons per 100 mL.",
+     "compute": "conc = ratio * 100"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex9.1",
+   "source_ref": "hecu109.txt sections 9.1-9.3",
+   "questions": [
+     "Identify solute, solvent and solution in a glass of ORS.",
+     "How will you prepare a saturated solution of sugar in water?",
+     "Why does a cold drink go flat when left open in the sun?"
+   ]
+  },
+  {
+   "id": "ex9.2",
+   "source_ref": "hecu109.txt sections 9.4-9.5",
+   "questions": [
+     "Explain why ice floats on water using density.",
+     "An object of mass 54 g has volume 20 cubic cm - find its density and say whether it floats.",
+     "Which is more concentrated: 2 spoons of salt in 100 mL or 4 spoons in 50 mL?"
+   ]
+  }
+ ]
+}

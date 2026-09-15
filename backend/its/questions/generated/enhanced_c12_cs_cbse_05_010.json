@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_05_010",
+   "title": "c12_cs_cbse_05_010",
+   "questions": [
+    {
+     "q": "What is the result of an INNER JOIN between Table A (3 rows) and Table B (4 rows) if only 2 rows have matching values in the join column?",
+     "a": "The result will contain exactly 2 rows — only the matching pairs. A wrong answer (e.g., 3, 4, 7, or 12 rows) reveals that the student thinks INNER JOIN returns all rows from one table, or a Cartesian product, or the union of rows, instead of the intersection.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a student who has no entry in the Marks table will not appear in the result of an INNER JOIN between Students and Marks on StudentID.",
+     "a": "Because INNER JOIN only returns rows where the join condition is true in both tables; if a StudentID exists in Students but not in Marks, there is no matching row in Marks, so the condition fails and that student is excluded. A wrong explanation (e.g., \"NULL values are matched\" or \"the student appears with NULL marks\") shows confusion with LEFT JOIN.",
+     "self_check": true
+    },
+    {
+     "q": "Given two tables: \n**Customers** (CustID, Name, City) \n**Orders** (OrderID, CustID, Amount)  \nWrite an SQL query to display Customer Name and Order Amount for all orders, using INNER JOIN.",
+     "a": "```sql\nSELECT Customers.Name, Orders.Amount\nFROM Customers\nINNER JOIN Orders ON Customers.CustID = Orders.CustID;\n```\nA wrong answer might omit the table aliases, use WHERE instead of ON, or select CustID without qualifying the table name (causing ambiguity). This reveals inability to map the conceptual join to correct syntax.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the same Customers and Orders tables. If a customer placed 3 orders, how many rows will that customer contribute to the INNER JOIN result? What if the customer placed 0 orders?",
+     "a": "3 rows (one per matching order) and 0 rows (no match, so excluded). A wrong answer (e.g., 1 row for 3 orders, or 1 row with NULL for 0 orders) indicates the student does not understand that INNER JOIN produces one row per matching pair, not per customer.",
+     "self_check": true
+    },
+    {
+     "q": "Which of the following queries is equivalent to an INNER JOIN?  \nA) SELECT * FROM Table1, Table2 WHERE Table1.id = Table2.id;  \nB) SELECT * FROM Table1 LEFT JOIN Table2 ON Table1.id = Table2.id;  \nC) SELECT * FROM Table1 CROSS JOIN Table2;  \nJustify your choice.",
+     "a": "A is equivalent — the old-style comma join with a WHERE equality condition is an implicit INNER JOIN. B is a LEFT JOIN (includes non-matching rows from Table1). C is a Cartesian product (no condition). Choosing B or C shows confusion between join types.",
+     "self_check": true
+    },
+    {
+     "q": "Design a small real-world scenario (Indian context) where an INNER JOIN is the correct choice, and another where it would be incorrect. Write the scenario and the reason.",
+     "a": "Correct: A library system linking Books (BookID, Title) and Loans (LoanID, BookID, MemberID) to list only books that have been loaned — INNER JOIN on BookID. Incorrect: Listing all books with loan details if any — then LEFT JOIN is needed because books never loaned should still appear. A poor answer gives vague scenarios or misidentifies the join type, showing lack of practical discrimination.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

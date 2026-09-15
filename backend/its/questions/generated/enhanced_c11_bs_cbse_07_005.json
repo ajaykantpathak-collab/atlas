@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_07_005",
+   "title": "c11_bs_cbse_07_005",
+   "questions": [
+    {
+     "q": "State the precise legal definition of 'Articles of Association' as per Section 2(5) of the Companies Act, 2013, and identify the two superior instruments to which it is subordinate.",
+     "a": "Correct Answer: As per Section 2(5) of the Companies Act, 2013, 'articles' means the articles of association of a company as originally framed or as altered from time to time or applied in pursuance of any previous company law or of this Act. The AoA is subordinate to (1) the Companies Act, 2013 and (2) the Memorandum of Association. A wrong answer (e.g., stating AoA is subordinate only to the Act, or that it defines the company's objects) reveals the student confuses the hierarchical legal framework — they have not grasped that MoA is the dominant charter and AoA cannot override it, which is a fundamental concept for ultra vires analysis in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A public company limited by shares adopts Table F of Schedule I as its Articles of Association without any modifications. Six months later, the company passes a special resolution to alter its articles to introduce a provision that \"no shareholder holding less than 5% of paid-up capital can vote at general meetings.\" Is this alteration valid? Explain with reference to the Companies Act, 2013.",
+     "a": "Correct Answer: The alteration is invalid. Section 106 of the Companies Act, 2013 mandates that every member has a right to vote on every resolution placed before the company. Any article restricting voting rights based on shareholding percentage violates the Act and is void under Section 6 (Act overrides articles). Additionally, such restriction would violate the principle of proportional voting rights inherent in company law. A wrong answer (e.g., \"valid because special resolution was passed\") reveals the student misunderstands that the power to alter articles under Section 14 is not absolute — it is subject to the Companies Act and MoA. This is a classic board exam trap testing the hierarchy: Act > MoA > AoA.",
+     "self_check": true
+    },
+    {
+     "q": "XYZ Private Limited's Articles of Association state: \"The Board of Directors may refuse to register any transfer of shares without assigning any reason.\" A shareholder challenges this in court, arguing it violates Section 58 of the Companies Act, 2013 which allows refusal only on sufficient cause. The company argues its articles, as a contract between members and company, bind the shareholder. Decide the case with legal reasoning.",
+     "a": "Correct Answer: The shareholder will succeed. Section 58(2) of the Companies Act, 2013 explicitly provides that the securities of a public company shall be freely transferable, and for private companies, the articles may restrict transfer but the refusal must be on \"sufficient cause\" and is appealable to the Tribunal. An absolute discretion to refuse without reason violates the statutory framework. The contractual force of articles (Section 10) is subject to the Act — articles cannot override statutory provisions. A wrong answer (e.g., \"articles bind as a contract\") reveals the student fails to apply the hierarchy principle: statutory provisions prevail over articles. This tests the critical distinction between contractual effect of articles (Section 10) and their subordination to the Act.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the legal consequences of an act that is (a) ultra vires the Memorandum of Association, and (b) ultra vires the Articles of Association but intra vires the Memorandum. Use the concepts of ratification and constructive notice in your answer.",
+     "a": "Correct Answer: (a) An act ultra vires the MoA is void ab initio and cannot be ratified even by unanimous consent of all members (Ashbury Railway Carriage Co. v. Riche). It is a nullity because the MoA defines the company's capacity. (b) An act ultra vires the AoA but intra vires the MoA is merely irregular — it can be ratified by the members through a special resolution (or as prescribed in articles), provided it does not violate the MoA or Act. The doctrine of constructive notice applies to both documents (outsiders are deemed to know them), but the doctrine of indoor management (Turquand's rule) protects outsiders dealing with the company in good faith for acts ultra vires the AoA, not for acts ultra vires the MoA. A wrong answer (e.g., \"both can be ratified\" or \"both are void\") reveals confusion between the MoA as the charter defining external capacity versus AoA as internal regulations — a distinction explicitly tested in long-answer board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: \"A private company can include in its Articles of Association a clause that completely prohibits the transfer of shares, making the shares non-transferable forever.\" Support your evaluation with specific provisions of the Companies Act, 2013.",
+     "a": "Correct Answer: The statement is legally incorrect. Section 2(68) of the Companies Act, 2013 defines a private company as one which \"restricts the right to transfer its shares\" — the word \"restricts\" implies a limitation, not an absolute prohibition. An absolute ban on transfer would violate the fundamental nature of shares as movable property transferable in the manner provided by the articles (Section 44). Moreover, Section 58(2) provides that any refusal to register transfer by a private company must be on \"sufficient cause\" and is appealable to the Tribunal. A total prohibition would deny the shareholder's property right and access to the Tribunal, rendering it void. The articles can impose reasonable restrictions (e.g., pre-emption rights, board approval), but not an absolute freeze. A poor evaluation (e.g., \"valid because private companies can restrict transfer\") reveals the student confuses \"restriction\" with \"prohibition\" and ignores the statutory safeguard of appeal to Tribunal — a nuanced distinction expected in competency-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a hypothetical Article of Association clause for a public company limited by shares that regulates the \"qualification shares\" for directors, ensuring compliance with the Companies Act, 2013 and Table F of Schedule I. The clause must specify: (a) the number of qualification shares, (b) the time limit for acquisition, and (c) the consequence of failure to acquire. Explain each element's legal basis.",
+     "a": "Correct Answer: Sample Clause: \"Article 72 — Qualification Shares: (a) Every Director shall, within two months of his appointment, acquire and hold at least 100 equity shares of ₹10 each (or such number as may be prescribed by the Act) as qualification shares. (b) The acquisition must be completed within 60 days from the date of appointment. (c) If any Director fails to acquire the qualification shares within the stipulated period, his office shall become vacant automatically, and he shall cease to be a Director.\" Legal Basis: (a) Section 149(4) read with Table F, Article 72 permits companies to fix qualification shares; (b) Section 149(6) and Table F prescribe the 2-month time limit; (c) Section 167(1)(b) read with Table F provides vacation of office for failure. A poor answer (e.g., omitting the time limit, or setting qualification shares at 0, or not mentioning automatic vacation) reveals the student cannot synthesize statutory requirements with model articles — a skill needed for application-based board questions on corporate governance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

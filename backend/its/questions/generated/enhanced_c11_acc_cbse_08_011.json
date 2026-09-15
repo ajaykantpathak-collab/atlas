@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_08_011",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_08_011",
+   "title": "c11_acc_cbse_08_011",
+   "questions": [
+    {
+     "q": "Define Accrued Income and state its treatment in the Balance Sheet.",
+     "a": "Accrued Income is income earned during the accounting period but not received in cash by the end of the period. It is shown as a **current asset** on the assets side of the Balance Sheet. A wrong answer (e.g., treating it as a liability or ignoring it in the Balance Sheet) reveals the student confuses the *right to receive* (asset) with an *obligation to pay* (liability), or fails to apply the accrual concept that income is recognised when earned, not when received.",
+     "self_check": true
+    },
+    {
+     "q": "A business receives ₹50,000 as rent in advance on 1st January 2026 for the period January to December 2026. The accounting year ends on 31st March 2026. Explain how much of this ₹50,000 should be treated as income for the year ended 31st March 2026 and how much as a liability, with reasoning.",
+     "a": "Only 3 months' rent (January–March) = ₹50,000 × 3/12 = ₹12,500 is income for the current year. The remaining 9 months (April–December) = ₹37,500 is **Unearned Income**, a current liability. A wrong answer (e.g., treating the full ₹50,000 as income or full as liability) reveals the student does not apply the *matching principle* — income must be matched to the period in which it is earned, not when cash is received.",
+     "self_check": true
+    },
+    {
+     "q": "From the following information, pass the adjustment entry and show the treatment in Profit & Loss Account and Balance Sheet as on 31st March 2026:\n\"Commission earned but not received ₹8,000.\"",
+     "a": "**Adjustment Entry:**\nCommission Accrued A/c Dr. 8,000\n   To Commission Received A/c 8,000\n(Being commission earned but not received)\n\n**Profit & Loss Account (Credit side):** Add ₹8,000 to Commission Received.\n**Balance Sheet (Assets side):** Show ₹8,000 as \"Commission Accrued\" under Current Assets.\nA wrong entry (e.g., debiting Commission Received) or wrong Balance Sheet placement (liability side) reveals the student misunderstands that accrued income *increases* the income earned and creates a *receivable* (asset), not a payable.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast Accrued Income and Unearned Income on the basis of: (a) Nature of account, (b) Effect on Profit & Loss Account, (c) Balance Sheet classification, (d) Journal entry direction.",
+     "a": "| Basis | Accrued Income | Unearned Income |\n|-------|----------------|-----------------|\n| (a) Nature | Asset (Receivable) | Liability (Payable) |\n| (b) P&L Effect | Added to respective income (increases profit) | Deducted from respective income (decreases profit) |\n| (c) B/S Classification | Current Asset | Current Liability |\n| (d) Journal Entry | Accrued Income A/c Dr. → Income A/c Cr. | Income A/c Dr. → Unearned Income A/c Cr. |\n\nA wrong comparison reveals the student memorises entries mechanically without understanding the *economic substance*: accrued income = \"we did the work, they owe us\" (asset); unearned income = \"they paid, we owe them work\" (liability).",
+     "self_check": true
+    },
+    {
+     "q": "A trial balance shows \"Interest Received ₹24,000\". It is discovered that ₹6,000 of this interest relates to the next accounting period. Evaluate the impact on Net Profit if the accountant fails to adjust for this unearned interest. Justify your answer.",
+     "a": "Net Profit will be **overstated by ₹6,000**. The ₹24,000 includes ₹6,000 unearned (liability), so only ₹18,000 is current year's income. Without adjustment, the full ₹24,000 is credited to P&L, inflating profit. This violates the *accrual concept* and *matching principle* — income must be recognised in the period it is earned. A wrong answer (e.g., \"no impact\" or \"understated\") reveals the student does not grasp that unearned income received in advance *reduces* current period income when adjusted.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario involving a freelance graphic designer where both Accrued Income and Unearned Income exist simultaneously at year-end. Provide the figures and ask for the adjustment entries, P&L treatment, and B/S presentation.",
+     "a": "**Scenario:** As of 31st March 2026, a designer completed a ₹40,000 logo project (client pays in April) and received ₹60,000 advance for a website project starting April 2026 (duration 3 months).\n**Adjustment Entries:**\n(1) Accrued Income A/c Dr. 40,000 → Fees Earned A/c Cr. 40,000\n(2) Fees Earned A/c Dr. 40,000 (60,000 × 2/3 for 2 future months) → Unearned Fees A/c Cr. 40,000\n**P&L:** Fees Earned = Original + 40,000 (accrued) – 40,000 (unearned portion)\n**B/S:** Accrued Income ₹40,000 (Asset); Unearned Fees ₹40,000 (Liability).\nA poor answer (missing one adjustment, wrong proportion for unearned, or wrong B/S sides) reveals the student cannot *simultaneously* apply both concepts in a mixed real-world situation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

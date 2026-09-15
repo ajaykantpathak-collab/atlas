@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_06_009",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_06_009",
+   "title": "c11_stat_cbse_06_009",
+   "questions": [
+    {
+     "q": "What is the primary reason standard deviation is preferred over mean deviation for advanced statistical analysis?",
+     "a": "Standard deviation is based on squared deviations, which makes it amenable to algebraic manipulation (e.g., combining groups, ANOVA, regression) whereas mean deviation uses absolute deviations that are not algebraically tractable. A wrong answer like \"standard deviation is easier to calculate\" reveals the student confuses computational simplicity with algebraic utility.",
+     "self_check": true
+    },
+    {
+     "q": "A data set has extreme outliers due to measurement errors. Which measure of dispersion is least affected by these outliers, and why?",
+     "a": "Quartile deviation (semi-interquartile range) is least affected because it uses only the middle 50% of data (Q3 and Q1), completely ignoring the tails where outliers lie. A wrong answer like \"range\" or \"standard deviation\" shows the student does not understand that range depends solely on extremes and standard deviation squares deviations, amplifying outlier influence.",
+     "self_check": true
+    },
+    {
+     "q": "Two factories produce light bulbs. Factory A has mean life 1200 hours with SD 100 hours. Factory B has mean life 1000 hours with SD 80 hours. Which factory has more consistent bulbs? Show the calculation that justifies your answer.",
+     "a": "Coefficient of variation for A = (100/1200)×100 = 8.33%; for B = (80/1000)×100 = 8%. Factory B is more consistent because its CV is lower. A wrong answer choosing Factory A based on lower absolute SD reveals the student fails to recognize that consistency requires relative comparison when means differ.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sampling stability of range, quartile deviation, and standard deviation. Which is most stable and why?",
+     "a": "Standard deviation has the highest sampling stability because it uses every observation and its formula minimizes sampling fluctuations mathematically. Range is least stable (depends on two extreme values), quartile deviation is moderately stable (uses two quartiles). A wrong answer claiming range is most stable indicates confusion between ease of calculation and statistical reliability.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher argues: \"Since standard deviation is the best measure of dispersion, we should always use it and ignore others.\" Evaluate this statement.",
+     "a": "The statement is false. Standard deviation is not suitable for open-ended distributions (where mean cannot be calculated), highly skewed data with extreme outliers (where median-based measures like quartile deviation are better), or when a quick, rough estimate is needed (where range suffices). A wrong answer agreeing with the researcher shows the student treats \"best\" as universal rather than context-dependent.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where quartile deviation would be the most appropriate measure of dispersion, and explain why range, mean deviation, and standard deviation would be unsuitable.",
+     "a": "Example: Analyzing income distribution in a village where the top 5% earners have extremely high incomes (open-ended upper class). Quartile deviation uses Q1 and Q3 which are well-defined even with open ends. Range is distorted by the open end; mean deviation and standard deviation require a mean which cannot be computed without assuming class limits. A poor answer gives a scenario without open ends or extreme skew, missing the specific condition that necessitates quartile deviation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

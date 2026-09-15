@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_08_007",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_08_007",
+   "title": "c11_ps_cbse_08_007",
+   "questions": [
+    {
+     "q": "What is the central claim of the communitarian critique of secularism regarding minority communities?",
+     "a": "The communitarian critique argues that secularism's emphasis on individual rights and state neutrality imposes a homogeneous liberal framework that undermines the collective religious and cultural autonomy of minority communities, treating them as mere aggregates of individuals rather than distinct self-governing entities with a right to preserve their identity. A wrong answer (e.g., \"communitarians say secularism is anti-religious\") reveals confusion between communitarian critique and the \"anti-religious\" criticism; the former accepts religion's public role but objects to liberal individualism dissolving community boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "Why do feminists criticize the Indian model's \"principled distance\" approach to personal laws?",
+     "a": "Feminists argue that \"principled distance\" allows the state to selectively intervene in religious practices—banning untouchability (Hindu reform) while retaining Muslim personal law on marriage/divorce—thereby privileging male community leaders' interpretation of religion over women's constitutional right to equality (Articles 14, 15, 21). A wrong answer (e.g., \"feminists want a Uniform Civil Code immediately\") misses the nuance: the critique is about *asymmetric* state intervention that reforms majority-community practices but treats minority personal laws as sacrosanct, not a simplistic demand for uniform law.",
+     "self_check": true
+    },
+    {
+     "q": "In the 1985 Shah Bano case, the Supreme Court granted maintenance to a divorced Muslim woman under Section 125 CrPC. Parliament then passed the Muslim Women (Protection of Rights on Divorce) Act, 1986, limiting maintenance to the iddat period. Analyze this episode through BOTH communitarian and feminist lenses.",
+     "a": "Communitarian lens: The 1986 Act represents a victory for minority community autonomy—Muslim leadership successfully pressured the state to retreat from judicial intervention in personal law, preserving the community's self-governance. Feminist lens: The Act sacrificed Shah Bano's (and all Muslim women's) right to dignity and economic survival to appease conservative male leadership, exposing how \"minority rights\" can become \"men's rights over women.\" A weak answer treats this as merely \"vote bank politics\" without distinguishing the two critiques' distinct normative concerns: community survival vs. gender justice.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how the communitarian and feminist critiques would evaluate Article 30 (minority educational institutions) and Article 25(2)(b) (state power to regulate secular activity associated with religion for social welfare/reform).",
+     "a": "Communitarians defend Article 30 as essential for minority cultural survival but view Article 25(2)(b) as a dangerous loophole for state intrusion into community self-definition. Feminists welcome Article 25(2)(b) as a tool to challenge patriarchal practices (e.g., temple entry, triple talaq) but critique Article 30 when minority institutions use autonomy to discriminate against girls or teach regressive gender norms. A poor answer conflates the two, missing that communitarians prioritize *collective* autonomy while feminists prioritize *individual* equality within communities—the same constitutional provisions are assessed by opposite yardsticks.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Indian model of secularism, by recognizing minority rights, inevitably privileges community leaders over women within those communities.\"",
+     "a": "The claim is partially valid but incomplete. The Indian model *does* create a structural tension: Articles 25-30 empower communities, and in practice, community leadership is often male and conservative (e.g., AIMPLB, SGPC). However, the Constitution *also* provides Articles 14, 15, 17, 21, 25(2)(b) enabling state intervention for gender justice (Shah Bano, triple talaq, Sabarimala). The feminist critique highlights that the *political implementation* has favored communitarian demands, but the constitutional framework contains resources for feminist counter-mobilization. A weak answer treats the outcome as inevitable rather than a contested political struggle within the secular framework itself.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a constitutional amendment proposal that attempts to resolve the communitarian-feminist tension over personal laws. Your proposal must specify: (a) a procedural mechanism for reform, (b) a substantive standard for evaluating religious practices, and (c) a safeguard against majoritarian imposition.",
+     "a": "A strong proposal might: (a) Create a \"Personal Law Reform Commission\" with equal representation from women's groups, religious scholars, and legal experts, requiring 2/3 majority for recommendations; (b) Adopt the \"essential religious practice\" test *combined* with a \"gender equality impact assessment\"—practices failing both are presumptively invalid; (c) Include a \"minority veto\" clause where reforms affecting a specific community require consent of that community's women's organizations (not just male leadership). A poor proposal either ignores procedural voice for women (replicating communitarian exclusion) or imposes a Uniform Civil Code without safeguards (replicating majoritarian imposition).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

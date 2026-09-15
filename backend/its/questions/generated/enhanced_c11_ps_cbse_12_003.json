@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_12_003",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_12_003",
+   "title": "c11_ps_cbse_12_003",
+   "questions": [
+    {
+     "q": "Which constitutional article explicitly provides for Universal Adult Franchise in elections to the Lok Sabha and State Legislative Assemblies?",
+     "a": "Article 326. A wrong answer (e.g., Article 324, Article 325, or Article 14) reveals confusion between the Election Commission's powers (Art. 324), non-discrimination in electoral rolls (Art. 325), and the substantive right to vote itself (Art. 326). Students often conflate the institutional mechanism with the substantive right.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Constitution makers chose Universal Adult Franchise over a restricted franchise based on literacy or property qualifications, despite India's low literacy rates in 1950.",
+     "a": "The Constituent Assembly debated this extensively. The correct answer: They viewed political equality as a fundamental right, not a privilege earned by literacy/property. Dr. Ambedkar argued that denying vote to the illiterate would perpetuate their marginalisation; the vote itself is an instrument of empowerment. A wrong answer citing \"administrative convenience\" or \"following British precedent\" reveals a misunderstanding of the transformative constitutional vision — the Constitution aimed to create citizens, not just administer subjects.",
+     "self_check": true
+    },
+    {
+     "q": "A State government passes a law requiring voters to pass a basic literacy test before being enrolled in the electoral roll. Applying Article 326 and relevant case law, analyse whether this law is constitutionally valid.",
+     "a": "Invalid. Article 326 lists only four grounds for disqualification: non-residence, unsoundness of mind, crime, or corrupt/illegal practices. Literacy is NOT a ground. The Supreme Court in *Ponnuswamy v. Returning Officer* (1952) and later cases has held that the right to vote is a statutory right under Representation of People Act, 1950, but the qualifications are constitutionally fixed by Article 326. A State law adding literacy qualification violates Article 326. A wrong answer suggesting \"State can add qualifications\" reveals confusion between parliamentary law (which can regulate electoral rolls under Art. 327) and State legislative competence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the franchise under the Government of India Act, 1935 with Universal Adult Franchise under Article 326. Identify three specific categories of people who were excluded in 1935 but included in 1950, and explain the democratic significance of each inclusion.",
+     "a": "Three categories: (1) Women — 1935 Act had limited female franchise based on property/literacy/husband's status; UAF gave unconditional equality, enabling gender-just policies. (2) Rural poor/landless labourers — 1935 Act required property/tax qualifications; UAF brought agrarian issues to electoral politics. (3) Lower castes/Dalits — 1935 Act had separate electorates but limited franchise; UAF with joint electorates (Art. 325) enabled collective political mobilisation. A wrong answer listing only \"illiterates\" misses the structural exclusion of specific social groups and the constitutional commitment to social democracy.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Lowering the voting age from 21 to 18 through the 61st Amendment (1988) was merely symbolic since youth turnout remains low.\" Consider demographic data, political socialisation theory, and constitutional amendment procedure.",
+     "a": "The argument is flawed. First, constitutional significance: 61st Amendment amended Article 326, reflecting recognition of youth as rights-bearing citizens (India's median age ~28). Second, political socialisation: voting at 18 aligns with age of majority (Contract Act, marriage), creating civic habit early. Third, empirical evidence: youth turnout in 2014, 2019, 2024 elections increased significantly (ECI data shows 18-19 age group turnout rising from ~50% to ~65%). Fourth, symbolic value matters — it signals state trust in youth judgment. A wrong answer agreeing with the prompt reveals instrumentalist thinking, ignoring constitutional expressiveness and long-term democratic deepening.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph constitutional provision for a hypothetical new democracy that guarantees universal adult franchise while addressing the challenge of migrant workers who lack fixed residence. Your provision must include: eligibility age, grounds for disqualification, and a mechanism for migrant voting.",
+     "a": "A good answer: \"Every citizen aged 18 years or above shall be entitled to vote. Disqualifications only for: unsoundness of mind declared by court; conviction for electoral offences; non-citizenship. No person disqualified for lack of fixed residence. The Election Commission shall establish remote/online voting for internal migrants registered in their home constituency.\" Criteria: mirrors Article 326's structure, adds migrant solution without creating new disqualifications, keeps disqualifications exhaustive. A poor answer adding \"literacy\" or \"property\" or allowing States to set age reveals failure to internalise UAF as a constitutional floor, not a ceiling.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

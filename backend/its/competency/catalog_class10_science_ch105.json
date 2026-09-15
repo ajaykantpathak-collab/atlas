@@ -1,0 +1,564 @@
+{
+ "class": 10,
+ "subject": "science",
+ "chapter": 105,
+ "chapter_title": "Life Processes",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jesc105.txt",
+ "concepts": [
+  {
+   "id": "jesc.5.1",
+   "title": "Life Processes and Diffusion Limitations",
+   "section": "5.1",
+   "definition": "The collective set of basic maintenance activities performed by living organisms to sustain life and prevent cellular breakdown.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Multicellular complexity prevents direct environmental contact, making simple diffusion inadequate for transport.",
+   "textbook_ref": "jesc105.txt lines 30-80",
+   "question_patterns": [
+    "Why is simple diffusion insufficient to meet the oxygen needs of multicellular organisms?",
+    "What criteria determine if an organism is alive?",
+    "What are the essential life processes required to maintain life?",
+    "Explain why complex organisms need specialized transport systems instead of relying on diffusion.",
+    "how does life processes and diffusion limitations work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain diffusion limitations",
+     "explain": "In multicellular organisms, not all cells are in direct contact with the surrounding environment, so simple diffusion cannot reach every cell."
+    },
+    {
+     "step": 2,
+     "action": "Explain the role of specialized transport",
+     "explain": "Specialized tissues and circulatory systems are required to carry oxygen and nutrients from the site of absorption to deep-seated tissues."
+    },
+    {
+     "step": 3,
+     "action": "Relate body size to diffusion adequacy",
+     "explain": "Single-celled or very thin organisms can rely on diffusion alone, but as body size and cell count increase, the distance from the surface to inner cells grows too large for diffusion to supply oxygen efficiently."
+    }
+   ]
+  },
+  {
+   "id": "jesc.5.2",
+   "title": "Autotrophic Nutrition and Photosynthesis",
+   "section": "5.2.1",
+   "definition": "The process by which green plants synthesize organic food (carbohydrates) from inorganic raw materials like carbon dioxide and water using both sunlight and chlorophyll.",
+   "formula": "6CO2 + 6H2O + sunlight -> C6H12O6 + 6O2",
+   "key_idea": "Solar energy is captured by chlorophyll and stored as chemical energy in carbohydrates.",
+   "textbook_ref": "jesc105.txt lines 110-150",
+   "question_patterns": [
+    "What are the main events occurring during photosynthesis?",
+    "How do guard cells regulate the opening and closing of stomatal pores?",
+    "Where do plants obtain the raw materials required for photosynthesis?",
+    "What is the role of potassium hydroxide in the photosynthesis experiment?",
+    "what do you understand by autotrophic nutrition and photosynthesis"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe absorption of light energy",
+     "explain": "Chlorophyll molecules present in chloroplasts absorb solar energy from sunlight."
+    },
+    {
+     "step": 2,
+     "action": "Describe energy conversion and water splitting",
+     "explain": "Light energy is converted into chemical energy, and water molecules are split into hydrogen and oxygen."
+    },
+    {
+     "step": 3,
+     "action": "Describe reduction of carbon dioxide",
+     "explain": "Carbon dioxide is reduced using hydrogen to form carbohydrates (glucose)."
+    }
+   ]
+  },
+  {
+   "id": "jesc.5.3",
+   "title": "Heterotrophic Nutrition Strategies",
+   "section": "5.2.2",
+   "definition": "A mode of nutrition where organisms obtain pre-formed organic nutrients from other living or dead organisms.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Heterotrophs use diverse ingestion strategies (saprophytic, parasitic, holozoic) depending on food availability and body design.",
+   "textbook_ref": "jesc105.txt lines 180-220",
+   "question_patterns": [
+    "How does Amoeba obtain its nutrition?",
+    "What is the difference between saprophytic and parasitic nutrition?",
+    "Describe the process of food ingestion in Paramecium.",
+    "How do unicellular organisms ingest food particles?",
+    "how does heterotrophic nutrition strategies work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain pseudopodia formation",
+     "explain": "Amoeba extends temporary finger-like projections called pseudopodia to engulf food particles, forming a food vacuole."
+    },
+    {
+     "step": 2,
+     "action": "Explain intracellular digestion",
+     "explain": "Enzymes enter the food vacuole to break down complex substances into simpler ones, which then diffuse into the cytoplasm."
+    },
+    {
+     "step": 3,
+     "action": "Contrast ingestion strategies across heterotrophs",
+     "explain": "Saprophytic organisms absorb nutrients from decaying matter externally, parasites derive nutrition from a host, and holozoic organisms like Amoeba and Paramecium ingest solid food particles internally."
+    }
+   ]
+  },
+  {
+   "id": "jesc.5.4",
+   "title": "Human Digestion and Alimentary Canal",
+   "section": "5.2.4",
+   "definition": "The mechanical and chemical breakdown of complex food substances into simpler, absorbable molecules along the human digestive tract.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Sequential enzymatic action in specialized regions (mouth, stomach, small intestine) converts polymers to monomers.",
+   "textbook_ref": "jesc105.txt lines 230-310",
+   "question_patterns": [
+    "What is the role of saliva in the digestion of food?",
+    "How is the small intestine designed to absorb digested food?",
+    "What are the functions of hydrochloric acid and pepsin in the stomach?",
+    "Explain the role of bile juice and pancreatic enzymes in digestion.",
+    "explain human digestion and alimentary canal in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain salivary digestion",
+     "explain": "Salivary amylase in the mouth breaks down complex starch molecules into simple sugars."
+    },
+    {
+     "step": 2,
+     "action": "Explain gastric digestion",
+     "explain": "The stomach releases HCl to create an acidic medium, pepsin to digest proteins, and mucus to protect the stomach lining."
+    },
+    {
+     "step": 3,
+     "action": "Explain intestinal digestion",
+     "explain": "Bile emulsifies fats, while pancreatic trypsin and lipase digest proteins and emulsified fats in the small intestine."
+    },
+    {
+     "step": 4,
+     "action": "Explain absorption via villi",
+     "explain": "Finger-like projections called villi increase the surface area of the small intestine to maximize nutrient absorption into blood vessels."
+    }
+   ]
+  },
+  {
+   "id": "jesc.5.5",
+   "title": "Cellular Respiration Pathways",
+   "section": "5.3",
+   "definition": "The biochemical process of breaking down glucose to release energy, which is then stored in ATP molecules.",
+   "formula": "glucose -> pyruvate -> CO2 + H2O + ATP",
+   "key_idea": "Glucose is first cleaved to pyruvate in the cytoplasm, followed by aerobic respiration in mitochondria or anaerobic respiration in cytoplasm.",
+   "textbook_ref": "jesc105.txt lines 340-390",
+   "question_patterns": [
+    "What are the different pathways by which glucose is oxidized in organisms?",
+    "Why do we get muscle cramps during sudden heavy exercise?",
+    "Compare aerobic and anaerobic respiration.",
+    "Where does the breakdown of pyruvate take place in aerobic respiration?",
+    "state two key points about cellular respiration pathways"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain glycolysis",
+     "explain": "In the cytoplasm, the six-carbon glucose is broken down into three-carbon pyruvate molecules."
+    },
+    {
+     "step": 2,
+     "action": "Contrast aerobic and anaerobic pathways",
+     "explain": "Aerobic respiration breaks down pyruvate in the mitochondria using oxygen to yield CO2, water, and high ATP, while anaerobic respiration occurs without oxygen to yield ethanol or lactic acid."
+    },
+    {
+     "step": 3,
+     "action": "Explain lactic acid buildup",
+     "explain": "Under oxygen deficiency in muscle cells, pyruvate is converted to lactic acid, causing muscle cramps."
+    }
+   ]
+  },
+  {
+   "id": "jesc.5.5.1",
+   "title": "Energy Yield from ATP Hydrolysis",
+   "section": "5.3",
+   "definition": "The energy set free when a given amount of ATP is hydrolysed to ADP plus inorganic phosphate.",
+   "formula": "energy = moles * 30.5",
+   "key_idea": "Each mole of ATP releases 30.5 kJ of energy upon terminal phosphate bond cleavage.",
+   "textbook_ref": "jesc105.txt lines 395-410",
+   "question_patterns": [
+    "Calculate the energy released from the hydrolysis of a given amount of ATP.",
+    "How much energy is obtained when some moles of ATP are broken down?",
+    "Find the total energy released from the terminal phosphate cleavage of ATP.",
+    "what is the result in this energy yield from atp hydrolysis problem",
+    "work out the value using energy yield from atp hydrolysis"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the moles of ATP",
+     "explain": "Let the moles of ATP be represented as moles.",
+     "compute": "moles = moles"
+    },
+    {
+     "step": 2,
+     "action": "Calculate total energy",
+     "explain": "Multiply the moles of ATP by 30.5 to get the energy in kJ.",
+     "compute": "energy = moles * 30.5"
+    },
+    {
+     "step": 3,
+     "action": "State the final energy released",
+     "explain": "The computed energy value is the total energy released in kJ from hydrolysing the given moles of ATP to ADP and inorganic phosphate.",
+     "compute": "result = energy"
+    }
+   ]
+  },
+  {
+   "id": "jesc.5.6",
+   "title": "Human Respiratory System and Gas Exchange",
+   "section": "5.3",
+   "definition": "The system of organs and passages that facilitates the intake of oxygen and the elimination of carbon dioxide in humans.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Alveoli provide a highly vascularized, thin-walled surface area maximized for gaseous diffusion.",
+   "textbook_ref": "jesc105.txt lines 430-480",
+   "question_patterns": [
+    "How are the lungs designed in human beings to maximize gas exchange?",
+    "What is the role of hemoglobin in the transport of oxygen?",
+    "Why is the breathing rate of aquatic organisms faster than terrestrial ones?",
+    "What is the function of rings of cartilage in the throat?",
+    "how does human respiratory system and gas exchange work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain alveolar design",
+     "explain": "The respiratory tract terminates in tiny balloon-like alveoli, which provide an extensive surface area of about 80 square meters covered with blood capillaries."
+    },
+    {
+     "step": 2,
+     "action": "Explain oxygen transport by hemoglobin",
+     "explain": "Hemoglobin in red blood cells has a very high affinity for oxygen, binding it in the lungs and releasing it in oxygen-deficient tissues."
+    },
+    {
+     "step": 3,
+     "action": "Explain breathing mechanism and aquatic rate",
+     "explain": "During inhalation the diaphragm and ribs expand the chest cavity, drawing air in; aquatic organisms breathe faster because dissolved oxygen in water is far less than in air."
+    }
+   ]
+  },
+  {
+   "id": "jesc.5.7",
+   "title": "Human Circulatory System and Heart",
+   "section": "5.4.1",
+   "definition": "The transport system made up of the heart, blood vessels, and blood that circulates nutrients, gases, and wastes throughout the body.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Double circulation ensures complete separation of both oxygenated and deoxygenated blood to meet high metabolic demands.",
+   "textbook_ref": "jesc105.txt lines 500-580",
+   "question_patterns": [
+    "Describe the double circulation of blood in human beings.",
+    "Why is it necessary to separate oxygenated and deoxygenated blood in mammals?",
+    "What is the difference between arteries and veins?",
+    "What are the roles of platelets and lymph in the human body?",
+    "justify why human circulatory system and heart matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain heart chambers and separation",
+     "explain": "The four-chambered heart separates oxygenated and deoxygenated blood, ensuring highly efficient oxygen delivery to maintain body temperature."
+    },
+    {
+     "step": 2,
+     "action": "Explain double circulation",
+     "explain": "Blood passes through the heart twice in one complete body cycle: once to the lungs (pulmonary) and once to the rest of the body (systemic)."
+    },
+    {
+     "step": 3,
+     "action": "Contrast blood vessels",
+     "explain": "Arteries carry blood away from the heart under high pressure and have thick, elastic walls, while veins return blood to the heart and have valves to prevent backflow."
+    }
+   ]
+  },
+  {
+   "id": "jesc.5.8",
+   "title": "Transportation in Plants",
+   "section": "5.4.2",
+   "definition": "The movement of water, minerals, and food through specialized vascular tissues, xylem and phloem, in plants.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Xylem carries both water and minerals upwards via transpiration pull, while phloem translocates food bidirectionally using active transport.",
+   "textbook_ref": "jesc105.txt lines 600-670",
+   "question_patterns": [
+    "How are water and minerals transported in plants?",
+    "How is food translocated in phloem?",
+    "What is the role of transpiration pull in water transport?",
+    "Explain how osmotic pressure helps in the translocation of sucrose.",
+    "short note on transportation in plants"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain xylem transport",
+     "explain": "Active ion uptake by roots creates a concentration gradient, and evaporation of water from leaves (transpiration) creates a suction pull that lifts water through xylem vessels."
+    },
+    {
+     "step": 2,
+     "action": "Explain phloem translocation",
+     "explain": "Sucrose is actively loaded into phloem sieve tubes using ATP, increasing osmotic pressure and causing water to enter, which drives bulk flow of food to low-pressure tissues."
+    },
+    {
+     "step": 3,
+     "action": "Contrast xylem and phloem transport",
+     "explain": "Xylem transports water and minerals unidirectionally from roots to leaves using transpiration pull, while phloem translocates synthesized food bidirectionally using energy-driven pressure gradients."
+    }
+   ]
+  },
+  {
+   "id": "jesc.5.9",
+   "title": "Human Excretory System and Nephron Function",
+   "section": "5.5.1",
+   "definition": "The filtration of metabolic nitrogenous wastes from the blood and their elimination from the body via the kidneys, ureters, bladder, and urethra.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Nephrons perform ultrafiltration in Bowman's capsule followed by selective reabsorption of glucose, amino acids, and water in the tubules.",
+   "textbook_ref": "jesc105.txt lines 690-740",
+   "question_patterns": [
+    "Describe the structure and functioning of a nephron.",
+    "How is the amount of urine produced regulated?",
+    "What are the main parts of the human excretory system?",
+    "Explain the process of urine formation in kidneys.",
+    "state two key points about human excretory system and nephron function"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe ultrafiltration",
+     "explain": "High-pressure blood in the glomerulus is filtered into the cup-shaped Bowman's capsule, collecting water and small solutes."
+    },
+    {
+     "step": 2,
+     "action": "Describe selective reabsorption",
+     "explain": "As the filtrate flows through the tubule, essential substances like glucose, amino acids, salts, and excess water are reabsorbed back into surrounding blood capillaries."
+    },
+    {
+     "step": 3,
+     "action": "Describe tubular secretion and urine excretion",
+     "explain": "Additional waste ions and excess salts are secreted into the tubule, and the remaining concentrated filtrate (urine) passes through the ureter to the bladder for elimination."
+    }
+   ]
+  },
+  {
+   "id": "jesc.5.9.1",
+   "title": "Kidney Filtration and Reabsorption Volume",
+   "section": "5.5.1",
+   "definition": "The calculation of the volume of water reabsorbed by the kidney tubules from the initial filtrate to form the final excreted urine.",
+   "formula": "reabsorbed_volume = initial_filtrate - excreted_volume",
+   "key_idea": "The vast majority of the daily initial filtrate (about 180 L) is reabsorbed, leaving only 1-2 L to be excreted as urine.",
+   "textbook_ref": "jesc105.txt lines 745-760",
+   "question_patterns": [
+    "Calculate the volume of filtrate reabsorbed by the kidneys.",
+    "If the initial filtrate is {initial_filtrate} and the excreted urine is {excreted_volume}, find the reabsorbed volume.",
+    "How much water is reabsorbed in the kidney tubules daily?",
+    "calculate kidney filtration and reabsorption volume for the given values",
+    "find the required value in a kidney filtration and reabsorption volume problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify initial filtrate",
+     "explain": "Let the initial filtrate volume be initial_filtrate.",
+     "compute": "initial_filtrate = initial_filtrate"
+    },
+    {
+     "step": 2,
+     "action": "Identify excreted volume",
+     "explain": "Let the excreted urine volume be excreted_volume.",
+     "compute": "excreted_volume = excreted_volume"
+    },
+    {
+     "step": 3,
+     "action": "Calculate reabsorbed volume",
+     "explain": "Subtract excreted_volume from initial_filtrate to find the reabsorbed_volume.",
+     "compute": "reabsorbed_volume = initial_filtrate - excreted_volume"
+    }
+   ]
+  },
+  {
+   "id": "jesc.5.10",
+   "title": "Excretion in Plants",
+   "section": "5.5.2",
+   "definition": "The elimination of metabolic waste products by plants using various passive strategies.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Plants store wastes in vacuoles, old xylem, or falling leaves, and release oxygen and water vapor directly into the environment.",
+   "textbook_ref": "jesc105.txt lines 765-790",
+   "question_patterns": [
+    "What are the methods used by plants to get rid of excretory products?",
+    "How do plants excrete waste materials?",
+    "Explain the role of vacuoles and falling leaves in plant excretion.",
+    "Where do plants store resins and gums as waste?",
+    "why is excretion in plants important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain gaseous waste release",
+     "explain": "Oxygen produced during photosynthesis and carbon dioxide from respiration are released into the atmosphere through stomata."
+    },
+    {
+     "step": 2,
+     "action": "Explain solid and liquid waste storage",
+     "explain": "Wastes are stored in cellular vacuoles, in leaves that eventually fall off, or as resins and gums in older, non-functional xylem tissues."
+    },
+    {
+     "step": 3,
+     "action": "Explain loss of water by transpiration",
+     "explain": "Excess water absorbed by roots is eliminated as water vapor through stomata during transpiration, which also cools the plant and drives the transpiration pull for mineral transport."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Based on ATP hydrolysis energy release in Section 5.3",
+   "concept": "jesc.5.5.1",
+   "question_type": "compute",
+   "question_pattern": "If a cellular reaction hydrolyzes {moles} moles of ATP, calculate the total energy released in kJ.",
+   "extracted_variables": {
+    "moles": "number of moles of ATP hydrolyzed"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the moles of ATP",
+     "explain": "The given moles of ATP is {moles}.",
+     "compute": "moles = moles"
+    },
+    {
+     "step": 2,
+     "action": "Calculate total energy",
+     "explain": "Multiply the moles of ATP by 30.5 to get the energy in kJ.",
+     "compute": "energy = moles * 30.5"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Based on kidney filtration volume in Section 5.5.1",
+   "concept": "jesc.5.9.1",
+   "question_type": "compute",
+   "question_pattern": "In a healthy adult, if the initial filtrate in the kidneys is {initial_filtrate} L and the volume of urine excreted is {excreted_volume} L, find the volume of filtrate reabsorbed.",
+   "extracted_variables": {
+    "initial_filtrate": "initial filtrate volume in liters",
+    "excreted_volume": "excreted urine volume in liters"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify initial filtrate",
+     "explain": "The initial filtrate volume is {initial_filtrate} L.",
+     "compute": "initial_filtrate = initial_filtrate"
+    },
+    {
+     "step": 2,
+     "action": "Identify excreted volume",
+     "explain": "The excreted urine volume is {excreted_volume} L.",
+     "compute": "excreted_volume = excreted_volume"
+    },
+    {
+     "step": 3,
+     "action": "Calculate reabsorbed volume",
+     "explain": "Subtract the excreted volume from the initial filtrate to get the reabsorbed volume.",
+     "compute": "reabsorbed_volume = initial_filtrate - excreted_volume"
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "jesc105.txt lines 395-410",
+   "concept": "jesc.5.5.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute energy yield from atp hydrolysis step by step",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the moles of ATP",
+     "explain": "Let the moles of ATP be represented as moles.",
+     "compute": "moles = moles"
+    },
+    {
+     "step": 2,
+     "action": "Calculate total energy",
+     "explain": "Multiply the moles of ATP by 30.5 to get the energy in kJ.",
+     "compute": "energy = moles * 30.5"
+    }
+   ]
+  },
+  {
+   "id": "exauto2",
+   "source_ref": "jesc105.txt lines 745-760",
+   "concept": "jesc.5.9.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute kidney filtration and reabsorption volume step by step",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify initial filtrate",
+     "explain": "Let the initial filtrate volume be initial_filtrate.",
+     "compute": "initial_filtrate = initial_filtrate"
+    },
+    {
+     "step": 2,
+     "action": "Identify excreted volume",
+     "explain": "Let the excreted urine volume be excreted_volume.",
+     "compute": "excreted_volume = excreted_volume"
+    },
+    {
+     "step": 3,
+     "action": "Calculate reabsorbed volume",
+     "explain": "Subtract excreted_volume from initial_filtrate to find the reabsorbed_volume.",
+     "compute": "reabsorbed_volume = initial_filtrate - excreted_volume"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "jesc105.txt lines 800-810",
+   "questions": [
+    "The kidneys in human beings are a part of the system for (a) nutrition, (b) respiration, (c) excretion, (d) transportation.",
+    "The xylem in plants are responsible for (a) transport of water, (b) transport of food, (c) transport of amino acids, (d) transport of oxygen.",
+    "The autotrophic mode of nutrition requires (a) carbon dioxide and water, (b) chlorophyll, (c) sunlight, (d) all of the above.",
+    "The breakdown of pyruvate to give carbon dioxide, water and energy takes place in (a) cytoplasm, (b) mitochondria, (c) chloroplast, (d) nucleus."
+   ]
+  },
+  {
+   "id": "ex5.2",
+   "source_ref": "jesc105.txt lines 811-830",
+   "questions": [
+    "How are fats digested in our bodies? Where does this process take place?",
+    "What is the role of saliva in the digestion of food?",
+    "What are the necessary conditions for autotrophic nutrition and what are its by-products?",
+    "What are the differences between aerobic and anaerobic respiration? Name some organisms that use the anaerobic mode of respiration.",
+    "How are the alveoli designed to maximise the exchange of gases?",
+    "What would be the consequences of a deficiency of haemoglobin in our bodies?",
+    "Describe double circulation of blood in human beings. Why is it necessary?",
+    "What are the differences between the transport of materials in xylem and phloem?",
+    "Compare the functioning of alveoli in the lungs and nephrons in the kidneys with respect to their structure and functioning."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

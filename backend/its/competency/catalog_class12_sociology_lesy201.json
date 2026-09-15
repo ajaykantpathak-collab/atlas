@@ -1,0 +1,429 @@
+{
+ "class": 12,
+ "subject": "sociology",
+ "chapter": 1,
+ "chapter_title": "Structural Change",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lesy201.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lesy201.1",
+   "title": "Colonialism as a Structure and System",
+   "section": "1.1 Understanding Colonialism",
+   "definition": "Colonialism is the imposition of one country's rule over another territory. Under capitalism it worked far deeper than earlier empires: instead of merely skimming tribute off an untouched economy, it rewrote property law, dictated which crops were grown, reorganised manufacture and trade, entered the forests, and moved people across continents to serve metropolitan interests.",
+   "formula": "colonial_rule = tribute_not_enough ; depth = laws + crops + manufacturing + forests + migration",
+   "key_idea": "Pre-capitalist conquerors took a flow of surplus and left the base alone; British rule rebuilt production itself, so its effects still shape Indian institutions today.",
+   "textbook_ref": "lesy201.txt, section 1.1 opening (Alavi and Shanin 1982), Box 1.1",
+   "question_patterns": [
+    "in what way was british colonialism different from the tribute collection of pre-capitalist conquerors?",
+    "how did colonial rule interfere with the economic base of india? mention three instances",
+    "why is colonialism studied as a structure and a system rather than simply foreign rule?",
+    "give one unintended consequence of colonialism, with the example of western education",
+    "how did the forest acts change the lives of pastoralists under colonial rule?",
+    "what did colonialism do to land ownership laws and to the choice of crops grown?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "contrast tribute empires with capitalist colonialism",
+     "explain": "earlier conquerors skimmed surplus the economy already produced; british rule changed land law, crop choices, manufacturing, forests and trade so as to feed british capitalism"
+    },
+    {
+     "step": 2,
+     "action": "check the unintended outcome",
+     "explain": "western schooling introduced to staff the administration instead bred nationalist and anti-colonial consciousness"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Colonialism under capitalism rewrote property law and dictated crops: far deeper than tribute or shallower?",
+     "a": "deeper"
+    }
+   ]
+  },
+  {
+   "id": "lesy201.2",
+   "title": "Capitalism and the Nation State as Modern Forms",
+   "section": "1.1 Understanding Colonialism",
+   "definition": "Capitalism is an economic arrangement in which private owners run production for profit inside a market, constantly expanding and innovating. Its matching political form is the nation state: a sovereign government over a defined territory whose people are citizens of one nation. Nationalism claims every people has the right to such self rule, which is precisely what colonial domination denied Indians.",
+   "formula": "modern_pair = capitalism_economic + nation_state_political ; sovereignty = defined_territory + single_citizenship",
+   "key_idea": "Colonialism contradicted its own ideals: Britain carried nationalist and democratic ideas to India while refusing Indians the sovereignty those ideas promised.",
+   "textbook_ref": "lesy201.txt, section 1.1 closing passages on nation states and swaraj",
+   "question_patterns": [
+    "define capitalism and explain why it is a dynamic and expanding system",
+    "what is a nation state and how is it closely associated with the rise of nationalism?",
+    "explain the contradiction between the practice of colonialism and the principle of nationalism",
+    "how did indian nationalist leaders respond to foreign rule, using the idea of swaraj?",
+    "why were passports not widely used before the first world war, and what changed?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "match each modern form to its domain",
+     "explain": "capitalism organises the economy around private ownership and profit in a market; the nation state concentrates sovereign power over a territory of citizens"
+    },
+    {
+     "step": 2,
+     "action": "test the contradiction",
+     "explain": "nationalism holds that any people may exercise sovereign power, while colonial rule is rule by foreigners, so leaders demanded swaraj as a birthright and fought for political and economic freedom"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Production run by private owners for profit inside a market is called what?",
+     "a": "capitalism"
+    }
+   ]
+  },
+  {
+   "id": "lesy201.3",
+   "title": "Industrialisation: The Western Path and the Colonial Diversion",
+   "section": "1.2 Urbanisation and Industrialisation",
+   "definition": "Industrialisation is the shift of production to machines run on non-living energy such as steam or electricity, drawing most workers out of farming into factories, offices and shops. In Britain this ran together with city growth, but in colonial India the same british machinery ruined handicraft exports and pushed people back into agriculture instead.",
+   "formula": "western_path = machines + city_growth ; colonial_path = handicraft_decline + shift_to_farming",
+   "key_idea": "Manchester goods destroyed indian cotton and silk exports; surat and masulipatnam declined while bombay and madras grew, and court cities like murshidabad lost their artisans.",
+   "textbook_ref": "lesy201.txt, section 1.2 The Colonial Experience, Box 1.2",
+   "question_patterns": [
+    "define industrialisation and name the power resources it depends on",
+    "how did british industrialisation produce deindustrialisation in some indian sectors?",
+    "why did cities such as surat and masulipatnam decline while bombay and madras grew?",
+    "compare the direction of workforce movement in britain and in colonial india",
+    "what happened to court towns like thanjavur, dhaka and murshidabad when the british took over indian states?",
+    "in india the first impact of industrialisation pushed people into which sector, and why?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "contrast the two directions of movement",
+     "explain": "in britain machine production drew people into towns; in india cheap imports and new factories broke village industries, so labour drifted into agriculture"
+    },
+    {
+     "step": 2,
+     "action": "check which centres rose and fell",
+     "explain": "handicraft export hubs and court cities declined as court demand and external markets collapsed; colonial port cities handling raw material exports expanded"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Industrialisation shifts production to machines run on what kind of energy: non-living or human?",
+     "a": "non-living"
+    }
+   ]
+  },
+  {
+   "id": "lesy201.4",
+   "title": "Britain's Urban Transition 1800 to 1900",
+   "section": "1.2 Urbanisation and Industrialisation",
+   "definition": "Britain was the first society to turn from rural to mainly urban. Census style arithmetic turns that story into numbers: the percentage point rise in the town dwelling share, and the growth multiple by which london expanded across the nineteenth century.",
+   "formula": "urban_rise = urban_share_1900 - urban_share_1800 ; london_multiple = london_1900 / london_1800",
+   "key_idea": "A percentage point rise measures the change in a share, while a multiple compares two sizes directly by division.",
+   "textbook_ref": "lesy201.txt, section 1.2 Britain passage (Giddens 2001: 572)",
+   "question_patterns": [
+    "in 1800 well under 20 per cent of britain's people lived in towns of more than 10000 inhabitants; by 1900 the figure was 74 per cent. calculate the percentage point rise",
+    "london held about 1.1 million people in 1800 and over 7 million by 1900. how many times did the city multiply?",
+    "a country moves from a 20 per cent urban share to 74 per cent in a century. how many percentage points is that per decade on average?",
+    "using the british figures, find the increase in the urban share across the nineteenth century",
+    "compute the growth multiple of london's population between 1800 and 1900"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract the early share from the later share",
+     "explain": "the difference of two census shares gives the rise in percentage points",
+     "compute": "urban_rise = urban_share_1900 - urban_share_1800"
+    },
+    {
+     "step": 2,
+     "action": "divide the rise by the number of decades",
+     "explain": "spreading the century of change over ten decades gives the average pace",
+     "compute": "rise_per_decade = urban_rise / 10"
+    },
+    {
+     "step": 3,
+     "action": "divide the later city size by the earlier size",
+     "explain": "the ratio of the two populations is the growth multiple",
+     "compute": "london_multiple = london_1900 / london_1800"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Britain was the first society to turn from rural to mainly what?",
+     "a": "urban"
+    }
+   ]
+  },
+  {
+   "id": "lesy201.5",
+   "title": "Colonial Port Cities as Core-Periphery Links",
+   "section": "1.2 Urbanisation and Industrialisation",
+   "definition": "Colonial cities sat on the coast to serve empire trade: primary commodities flowed out through mumbai, kolkata and chennai, and british manufactures flowed cheaply in. They were the visible gateways joining the capitalist core in britain to the colonised periphery in india.",
+   "formula": "city_role = export_raw_materials + import_manufactures ; link = core_britain + periphery_india",
+   "key_idea": "By 1900 over three quarters of india's raw cotton moved through bombay; calcutta shipped jute while madras sent coffee, sugar, indigo dyes and cotton.",
+   "textbook_ref": "lesy201.txt, section 1.2 Cities had a key role in the economic system of empires; Activity 1.1",
+   "question_patterns": [
+    "why were the chief colonial cities all located on the coast?",
+    "explain the role of bombay, calcutta and madras in the economic system of the empire",
+    "what is meant by calling colonial cities the link between core and periphery?",
+    "which city shipped most of india's raw cotton by 1900, and in what proportion?",
+    "name the commodities that calcutta and madras sent to britain",
+    "how did the three presidency cities get their beginnings, according to the story of kolkata's three villages?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the direction of trade",
+     "explain": "raw materials left for britain through the ports and cheap manufactured goods entered through the same gateways"
+    },
+    {
+     "step": 2,
+     "action": "check the redevelopment evidence",
+     "explain": "bombay was planned and redeveloped so that by 1900 over three quarters of india's raw cotton shipped through it; kolkata began from three leased villages and fort william"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Colonial port cities sat on the coast to serve whose trade: the empire's or the monsoon's?",
+     "a": "the empire's"
+    }
+   ]
+  },
+  {
+   "id": "lesy201.6",
+   "title": "Tea Plantation Workforce Arithmetic 1903",
+   "section": "1.2 The Tea Plantations",
+   "definition": "Assam's tea gardens ran on workers imported from distant provinces, recruited through contractors, fraud and penal laws. The 1903 payroll lists permanent and temporary employees; adding the two gives the industry's total strength, and division turns each category into a share of the workforce.",
+   "formula": "total_workforce = permanent_workers + temporary_workers ; temporary_share = temporary_workers / total_workforce * 100",
+   "key_idea": "A two category payroll becomes shares by one addition and one part-whole division scaled by a hundred.",
+   "textbook_ref": "lesy201.txt, Box 1.5 How were labourers recruited (1903 employment figures)",
+   "question_patterns": [
+    "in 1903 the tea industry employed 479000 permanent and 93000 temporary employees. find the total workforce",
+    "compute the percentage of temporary workers in the 1903 tea plantation workforce",
+    "what share of the tea garden labour force of 1903 was permanent?",
+    "when and where did the tea industry begin in india, and in which state were most gardens situated?",
+    "why did assam planters import labour from other provinces, and by what means did they keep it?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the two payroll categories",
+     "explain": "permanent plus temporary employees give the total employed",
+     "compute": "total_workforce = permanent_workers + temporary_workers"
+    },
+    {
+     "step": 2,
+     "action": "divide the temporary count by the total and scale",
+     "explain": "part over whole times a hundred gives the temporary share",
+     "compute": "temporary_share = temporary_workers / total_workforce * 100"
+    },
+    {
+     "step": 3,
+     "action": "subtract the temporary share from a hundred",
+     "explain": "the complement is the permanent share",
+     "compute": "permanent_share = 100 - temporary_share"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Assam tea gardens recruited workers through contractors, fraud and what kind of laws: penal or tax?",
+     "a": "penal"
+    }
+   ]
+  },
+  {
+   "id": "lesy201.7",
+   "title": "M S A Rao's Three Types of Urban Impact on Villages",
+   "section": "1.2 Urbanisation in Independent India",
+   "definition": "Rao sorts village-urban contact into three situations: villagers migrating singly to distant cities while families stay behind in the natal village; villages uprooted or partly acquired when an industrial town such as bhilai rises nearby; and villages absorbed, or their land taken, as a metropolis expands.",
+   "formula": "urban_impact = distant_migration + industrial_town_displacement + metropolitan_expansion",
+   "key_idea": "The nature of urban influence depends on the kind of relation a village has with a city or town - how distant it is and what sort of centre it is.",
+   "textbook_ref": "lesy201.txt, Box 1.7 (Rao 1974: 486-490)",
+   "question_patterns": [
+    "describe the three situations of urban impact on villages identified by m s a rao",
+    "what happened to villages when an industrial town like bhilai came up in their midst?",
+    "how do metropolitan cities affect the villages around them as they expand?",
+    "in madhopur, how many households out of 298 had migrants, and in which two cities did nearly half of them work?",
+    "how did overseas migrants from gujarat villages invest in their natal villages?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the three situations",
+     "explain": "employment migration to far-off cities, displacement and land acquisition near new industrial towns, and absorption or land take-over under expanding metropolises"
+    },
+    {
+     "step": 2,
+     "action": "check the village evidence",
+     "explain": "madhopur migrants concentrate in bombay and calcutta, most remit money and visit often; gujarat villagers abroad built houses, bought land and funded schools and trusts"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "M.S.A. Rao sorts village-urban contact into how many situations: three or thirty?",
+     "a": "three"
+    }
+   ]
+  },
+  {
+   "id": "lesy201.8",
+   "title": "Village Migration Shares from Household Counts",
+   "section": "1.2 Urbanisation in Independent India",
+   "definition": "Survey counts become shares by division: households with migrants over all households gives the migration rate, its complement gives the stayers, and the stayers' count follows from the share.",
+   "formula": "migrant_share = migrant_households / total_households * 100 ; staying_share = 100 - migrant_share",
+   "key_idea": "Every part-whole percentage is one division scaled by a hundred, and its complement falls out by subtraction.",
+   "textbook_ref": "lesy201.txt, Box 1.7 Madhopur figures (77 of 298 households, 75 per cent remit, 83 per cent visit)",
+   "question_patterns": [
+    "in madhopur 77 out of 298 households have migrants. what percentage of households does migration touch?",
+    "find the percentage of madhopur households with no migrant member",
+    "compute the number of madhopur households that do not have any migrant",
+    "about 75 per cent of the migrants send money regularly. what percentage do not?",
+    "83 per cent of the migrants visit the village at least once in two years. what share visit less often?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide migrant households by all households and scale",
+     "explain": "the part-whole ratio times a hundred is the migration share",
+     "compute": "migrant_share = migrant_households / total_households * 100"
+    },
+    {
+     "step": 2,
+     "action": "subtract from a hundred",
+     "explain": "the complement is the staying share",
+     "compute": "staying_share = 100 - migrant_share"
+    },
+    {
+     "step": 3,
+     "action": "apply the staying share to the household total",
+     "explain": "share times total over a hundred returns the count of non-migrant households",
+     "compute": "staying_count = total_households * staying_share / 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Migrant households over all households gives the migration what: rate or tax?",
+     "a": "rate"
+    }
+   ]
+  },
+  {
+   "id": "lesy201.9",
+   "title": "Urban India 1951 to 2011: Shares, Totals and Growth",
+   "section": "1.2 Urbanisation in Independent India",
+   "definition": "Census tables report the urban percentage and the urban population in millions. Dividing one by the other recovers the national total, a subtraction across the sixty years gives overall growth, and the ratio of town counts shows how the urban system multiplied - even while the decennial growth rate trended down.",
+   "formula": "total_pop = urban_pop / (urban_share / 100) ; overall_growth = (urban_2011 - urban_1951) / urban_1951 * 100 ; town_multiple = towns_2011 / towns_1951",
+   "key_idea": "The urban share climbed from about 17 to 31 per cent while the decennial growth rate fell from 41.42 to 31.80, and for the first time urban areas added more people than rural ones.",
+   "textbook_ref": "lesy201.txt, urban population charts and 1951-2011 passage before the Conclusion",
+   "question_patterns": [
+    "in 2011, 377.10 million people formed 31.16 per cent of india's population. estimate the total population of india",
+    "the urban population rose from 62.44 million in 1951 to 377.10 million in 2011. calculate the overall percentage growth",
+    "the number of towns grew from 2843 in 1951 to 7935 in 2011. how many times did it multiply?",
+    "compare the decennial growth rate of urban population in 1951 and 2011. what trend does the comparison bring out?",
+    "what was the per cent share of urban population in 1951, and by how much had it risen by 2011?",
+    "for the first time since independence, which areas added more people, urban or rural, and what explains it?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide the urban population by its share",
+     "explain": "urban pop divided by the urban fraction recovers the national total",
+     "compute": "total_2011 = urban_pop_2011 / (urban_share_2011 / 100)"
+    },
+    {
+     "step": 2,
+     "action": "compare the two census urban populations",
+     "explain": "increase over the base, scaled by a hundred, is the overall growth rate",
+     "compute": "overall_growth = (urban_pop_2011 - urban_pop_1951) / urban_pop_1951 * 100"
+    },
+    {
+     "step": 3,
+     "action": "divide the later town count by the earlier",
+     "explain": "the ratio of town counts is the multiplication factor of the urban system",
+     "compute": "town_multiple = towns_2011 / towns_1951"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "India's urban share climbed from about 17 percent in 1951 to about what by 2011: 31 or 3 percent?",
+     "a": "31 percent"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "lesy201.we1",
+   "concept_id": "lesy201.9",
+   "problem": "In 1951, 17.29 per cent of india's people, that is 62.44 million, lived in towns. Recover india's total population of that year, and the population living outside towns.",
+   "given": {
+    "urban_share_1951": 17.29,
+    "urban_pop_1951": 62.44
+   },
+   "steps": [
+    {
+     "step": 1,
+     "action": "divide the urban population by the urban fraction",
+     "compute": "total_1951 = urban_pop_1951 / (urban_share_1951 / 100)"
+    },
+    {
+     "step": 2,
+     "action": "subtract the urban share from a hundred",
+     "compute": "rural_share_1951 = 100 - urban_share_1951"
+    },
+    {
+     "step": 3,
+     "action": "apply the rural share to the total",
+     "compute": "rural_pop_1951 = total_1951 * rural_share_1951 / 100"
+    }
+   ],
+   "answer": "total_1951 = 361.13 million and rural_pop_1951 = 298.69 million, so india held about 361 million people in 1951, of whom roughly 299 million lived in villages"
+  },
+  {
+   "id": "lesy201.we2",
+   "concept_id": "lesy201.6",
+   "problem": "The 1903 report on assam's tea industry counts 479000 permanent and 93000 temporary employees. Work out the total workforce and the percentage share of each category.",
+   "given": {
+    "permanent_workers": 479000,
+    "temporary_workers": 93000
+   },
+   "steps": [
+    {
+     "step": 1,
+     "action": "add the two categories",
+     "compute": "total_workforce = permanent_workers + temporary_workers"
+    },
+    {
+     "step": 2,
+     "action": "compute the temporary share",
+     "compute": "temporary_share = temporary_workers / total_workforce * 100"
+    },
+    {
+     "step": 3,
+     "action": "take the complement for the permanent share",
+     "compute": "permanent_share = 100 - temporary_share"
+    }
+   ],
+   "answer": "total_workforce = 572000; temporary_share = 16.26 per cent and permanent_share = 83.74 per cent, so about one in six garden workers in 1903 was temporary"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lesy201.ex1",
+   "source_ref": "lesy201.txt chapter-end Questions 1-4",
+   "questions": [
+    "How has colonialism impacted our lives? Focus on one aspect, like culture or politics, or treat them together.",
+    "Industrialisation and urbanisation are linked processes. Discuss.",
+    "Identify any town or city with which you are familiar. Find out both the history of its growth and its contemporary status.",
+    "Describe the place where you live. What features make it a village, a town or a city - the occupational nature, the buildings, education, or the way people live and behave?"
+   ]
+  }
+ ]
+}

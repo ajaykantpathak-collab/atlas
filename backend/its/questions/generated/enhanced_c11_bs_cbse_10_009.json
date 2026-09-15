@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_10_009",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_10_009",
+   "title": "c11_bs_cbse_10_009",
+   "questions": [
+    {
+     "q": "State the six defining characteristics of a supermarket as per NCERT Class 11 Business Studies.",
+     "a": "The six characteristics are: (i) Complete line of food items and groceries plus non-food convenience goods; (ii) One-roof purchase of diverse products; (iii) Self-service principle lowering distribution cost; (iv) Lower prices due to bulk purchasing, low operational cost, and low profit margins; (v) Cash-only sales; (vi) Central location for high turnover. A wrong answer that omits \"cash-only\" or \"self-service\" reveals the student confuses supermarkets with departmental stores, which offer credit and personal service.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why supermarkets operate on a cash-only basis and how this feature creates both an advantage and a limitation for the business.",
+     "a": "Cash-only eliminates bad debts and reduces working capital blocked in receivables, lowering operational cost and enabling lower prices (advantage). However, it excludes customers who rely on credit for large purchases, restricting purchasing power and limiting the customer base to those with immediate liquidity (limitation). A wrong answer that only states \"no bad debts\" without linking to lower prices or excluding credit-dependent customers shows superficial understanding of the trade-off.",
+     "self_check": true
+    },
+    {
+     "q": "A supermarket in a Tier-2 Indian city stocks 15,000 SKUs. The average markup on food items is 8% and on non-food items is 15%. If food items constitute 65% of sales revenue and non-food 35%, calculate the overall gross profit margin percentage. If the supermarket's monthly fixed overheads (rent, salaries, utilities) are ₹12 lakh, what minimum monthly sales revenue is required to break even? Assume no other variable costs.",
+     "a": "Step 1: Weighted average gross margin = (0.65 × 8%) + (0.35 × 15%) = 5.2% + 5.25% = 10.45%.\nStep 2: Break-even sales = Fixed overheads ÷ Gross margin = ₹12,00,000 ÷ 0.1045 = ₹1,14,83,253 (approx ₹1.15 crore).\nA wrong answer using simple average (11.5%) or ignoring the revenue-mix weighting reveals the student cannot apply weighted averages to retail profitability analysis—a key board exam skill.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast supermarkets and discount stores on the following dimensions: (a) Product assortment breadth vs. depth; (b) Location strategy; (c) Service level; (d) Pricing philosophy. Use Indian examples (e.g., DMart vs. Reliance Smart vs. a hypothetical discount store).",
+     "a": "Supermarkets (DMart, Reliance Smart): Broad assortment (food + non-food), moderate depth per category; central/high-traffic locations; self-service with minimal assistance; everyday low pricing (EDLP) on groceries. Discount stores (hypothetical Indian equivalent of Walmart's early model or Value Bazaar): Narrower assortment focused on high-turnover branded goods, deeper stock in selected categories; peripheral/low-rent locations; bare-bones service (no bags, no trolleys sometimes); aggressive discounting below MRP via volume leverage. A wrong answer that treats them as identical or swaps location strategies shows failure to analyse how cost structure drives format design.",
+     "self_check": true
+    },
+    {
+     "q": "\"Supermarkets are unsuitable for selling high-value, high-involvement products like laptops, jewellery, or customised furniture.\" Evaluate this statement with three arguments for and two counter-arguments, referencing specific supermarket features.",
+     "a": "Arguments for: (1) Self-service denies expert consultation needed for complex products; (2) Cash-only limits high-ticket purchases; (3) Open-shelf display risks theft/damage for valuables. Counter-arguments: (1) Some Indian supermarkets (e.g., Big Bazaar) have dedicated electronics sections with demo units and EMI tie-ups, mitigating (1) and (2); (2) Locked glass cabinets and security tags can secure high-value items while retaining footfall. A one-sided answer missing counter-arguments or ignoring Indian adaptations shows inability to evaluate context-dependent retail strategy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hybrid retail format for a Tier-3 Indian town (population ~2 lakh) that combines supermarket efficiencies with kirana-store convenience. Specify: (a) Product categories; (b) Service model; (c) Payment options; (d) Location; (e) One unique feature addressing local needs. Justify each choice.",
+     "a": "(a) Staples, fresh produce, daily-use FMCG, basic electronics (chargers, bulbs), school supplies—high-frequency, low-involvement items. (b) Assisted self-service: staff replenish shelves and guide elderly customers; home delivery within 3 km for orders >₹500. (c) Cash, UPI, and weekly credit for KYC-verified local residents (bridges cash-only limitation). (d) Near residential clusters, not main market—reduces rent, accessible by foot/two-wheeler. (e) \"Kirana Corner\": dedicated shelf for local brands (pickles, snacks, handicrafts) on consignment—supports local economy, differentiates from national chains. A generic answer copying metro formats without local adaptation reveals lack of creative application.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

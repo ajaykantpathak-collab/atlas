@@ -1,0 +1,653 @@
+{
+ "class": "12",
+ "subject": "economics",
+ "chapter": "4",
+ "chapter_title": "Government Budget and the Economy",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\cbse_sqp_2883.txt",
+ "concepts": [
+  {
+   "id": "c12eco.4.1",
+   "title": "Meaning of Government Budget",
+   "section": "Government Budget",
+   "definition": "A government budget is a statement of the estimated receipts and estimated expenditure of the government during a financial year (April 1 to March 31). It shows the fiscal policy of the government.",
+   "formula": "",
+   "key_idea": "The budget is an annual financial statement showing the government's plan to raise revenue and incur expenditure; it reflects fiscal policy objectives.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define a government budget.",
+    "What are the objectives of a government budget?",
+    "Explain the components of a government budget.",
+    "Why is the budget prepared for a financial year?",
+    "Distinguish between revenue budget and capital budget."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define budget",
+     "explain": "State that it is a statement of estimated receipts and expenditure for a financial year."
+    },
+    {
+     "step": 2,
+     "action": "Identify components",
+     "explain": "Explain that it consists of the revenue budget and the capital budget."
+    },
+    {
+     "step": 3,
+     "action": "State objectives",
+     "explain": "Mention reallocation of resources, economic stability, and reduction of inequalities."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a government budget?",
+     "solution": "It is a statement of the estimated receipts and estimated expenditure of the government during a financial year.",
+     "answer": "A government budget is an annual statement of estimated receipts and expenditure."
+    },
+    {
+     "question": "Name the two broad components of a government budget.",
+     "solution": "The budget is divided into the revenue budget and the capital budget.",
+     "answer": "Revenue budget and capital budget."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define a government budget and state its main objectives.",
+     "type": "verify_property"
+    },
+    {
+     "question": "List the components of a government budget.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain the difference between revenue and capital budget.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.4.2",
+   "title": "Components of the Budget: Revenue and Capital Account",
+   "section": "Budget Components",
+   "definition": "The budget has two components: the Revenue Budget (revenue receipts and revenue expenditure) and the Capital Budget (capital receipts and capital expenditure).",
+   "formula": "Budget = Revenue Budget + Capital Budget",
+   "key_idea": "Revenue items do not create assets or liabilities; capital items either create assets or reduce liabilities (receipts) or create liabilities or reduce assets (expenditure).",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the components of the government budget.",
+    "Distinguish between revenue and capital components of the budget.",
+    "Classify a given item as revenue or capital.",
+    "Why is borrowing a capital receipt?",
+    "Give examples of revenue and capital expenditure."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify revenue budget",
+     "explain": "State that it contains revenue receipts and revenue expenditure."
+    },
+    {
+     "step": 2,
+     "action": "Identify capital budget",
+     "explain": "State that it contains capital receipts and capital expenditure."
+    },
+    {
+     "step": 3,
+     "action": "Distinguish by impact",
+     "explain": "Explain that revenue items do not affect assets/liabilities while capital items do."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Classify tax revenue and borrowing as revenue or capital items.",
+     "solution": "Tax revenue is a revenue receipt (no liability created); borrowing is a capital receipt (creates liability).",
+     "answer": "Tax revenue = revenue receipt; borrowing = capital receipt."
+    },
+    {
+     "question": "Is expenditure on construction of a school building revenue or capital expenditure?",
+     "solution": "It creates an asset (the building), so it is capital expenditure.",
+     "answer": "Capital expenditure."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Classify the following: tax receipts, disinvestment, interest payments, loan repayment.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain the difference between revenue and capital budget.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why is recovery of loans a capital receipt?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.4.3",
+   "title": "Revenue Receipts and Revenue Expenditure",
+   "section": "Revenue Account",
+   "definition": "Revenue receipts are receipts that do not create liabilities or reduce assets (tax and non-tax revenue). Revenue expenditure is expenditure that does not create assets or reduce liabilities (e.g. salaries, interest payments, subsidies).",
+   "formula": "Revenue Deficit = Revenue Expenditure - Revenue Receipts",
+   "key_idea": "Revenue receipts are recurring and do not affect assets/liabilities; revenue expenditure is for the normal running of government and does not create assets.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define revenue receipts and give examples.",
+    "Define revenue expenditure and give examples.",
+    "Compute revenue deficit given revenue receipts and expenditure.",
+    "Distinguish between tax and non-tax revenue.",
+    "Why are interest payments a revenue expenditure?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify revenue receipts",
+     "explain": "Sum tax revenue and non-tax revenue.",
+     "compute": "RR = Tax Revenue + Non-tax Revenue"
+    },
+    {
+     "step": 2,
+     "action": "Identify revenue expenditure",
+     "explain": "Sum all recurring expenditure items.",
+     "compute": "RE = sum of recurring expenditure"
+    },
+    {
+     "step": 3,
+     "action": "Compute revenue deficit",
+     "explain": "Revenue Deficit = RE - RR.",
+     "compute": "Revenue Deficit = RE - RR"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Revenue receipts = 1000, revenue expenditure = 1200. Find revenue deficit.",
+     "solution": "Revenue Deficit = RE - RR = 1200 - 1000.",
+     "answer": "Revenue Deficit = 200"
+    },
+    {
+     "question": "Tax revenue = 600, non-tax revenue = 200, revenue expenditure = 700. Find revenue deficit.",
+     "solution": "RR = 600 + 200 = 800; Revenue Deficit = 700 - 800.",
+     "answer": "Revenue Deficit = -100 (surplus)"
+    },
+    {
+     "question": "Revenue receipts = 500, revenue expenditure = 500. Find revenue deficit.",
+     "solution": "Revenue Deficit = 500 - 500.",
+     "answer": "Revenue Deficit = 0 (balanced)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Revenue receipts = 1500, revenue expenditure = 1800. Compute revenue deficit.",
+     "type": "compute"
+    },
+    {
+     "question": "Tax revenue = 800, non-tax revenue = 300, RE = 1000. Compute revenue deficit.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain why salaries are revenue expenditure.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.4.4",
+   "title": "Capital Receipts and Capital Expenditure",
+   "section": "Capital Account",
+   "definition": "Capital receipts are receipts that create liabilities or reduce assets (e.g. borrowing, disinvestment, recovery of loans). Capital expenditure is expenditure that creates assets or reduces liabilities (e.g. building infrastructure, loan repayment).",
+   "formula": "Capital Receipts = Borrowings + Disinvestment + Recovery of Loans",
+   "key_idea": "Capital receipts either create a liability or reduce an asset; capital expenditure either creates an asset or reduces a liability.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define capital receipts and give examples.",
+    "Define capital expenditure and give examples.",
+    "Compute total capital receipts given components.",
+    "Why is disinvestment a capital receipt?",
+    "Distinguish between capital receipts and revenue receipts."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List capital receipts",
+     "explain": "Identify borrowings, disinvestment, recovery of loans.",
+     "compute": "Borrowings, Disinvestment, Recovery of Loans"
+    },
+    {
+     "step": 2,
+     "action": "Sum capital receipts",
+     "explain": "Add all capital receipt components.",
+     "compute": "CR = Borrowings + Disinvestment + Recovery of Loans"
+    },
+    {
+     "step": 3,
+     "action": "Identify capital expenditure",
+     "explain": "Sum expenditure creating assets or reducing liabilities.",
+     "compute": "CE = sum of asset-creating expenditure"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Borrowings = 500, disinvestment = 200, recovery of loans = 100. Find total capital receipts.",
+     "solution": "CR = 500 + 200 + 100.",
+     "answer": "CR = 800"
+    },
+    {
+     "question": "Government spends 300 on building a highway and 150 on repaying a loan. Find capital expenditure.",
+     "solution": "Both create an asset or reduce a liability: CE = 300 + 150.",
+     "answer": "CE = 450"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Borrowings = 700, disinvestment = 300, recovery of loans = 50. Compute CR.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain why recovery of loans is a capital receipt.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Distinguish between capital receipts and capital expenditure.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.4.5",
+   "title": "Fiscal Deficit",
+   "section": "Fiscal Deficit",
+   "definition": "Fiscal deficit is the excess of total expenditure over total receipts (excluding borrowings). It indicates the total borrowing requirement of the government.",
+   "formula": "Fiscal Deficit = Total Expenditure - Total Receipts (excluding borrowings) = Borrowings",
+   "key_idea": "Fiscal deficit measures the government's total borrowing need; it shows the gap between spending and non-debt receipts.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define fiscal deficit.",
+    "Compute fiscal deficit given total expenditure and receipts.",
+    "Explain the significance of fiscal deficit.",
+    "How is fiscal deficit related to borrowings?",
+    "Distinguish between fiscal deficit and revenue deficit."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify total expenditure",
+     "explain": "Sum revenue and capital expenditure.",
+     "compute": "TE = RE + CE"
+    },
+    {
+     "step": 2,
+     "action": "Identify total receipts (excl. borrowings)",
+     "explain": "Sum revenue receipts and non-debt capital receipts.",
+     "compute": "TR = RR + (CR - Borrowings)"
+    },
+    {
+     "step": 3,
+     "action": "Compute fiscal deficit",
+     "explain": "Fiscal Deficit = TE - TR.",
+     "compute": "Fiscal Deficit = TE - TR"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Total expenditure = 2000, total receipts (excl. borrowings) = 1500. Find fiscal deficit.",
+     "solution": "Fiscal Deficit = 2000 - 1500.",
+     "answer": "Fiscal Deficit = 500"
+    },
+    {
+     "question": "Revenue receipts = 1000, capital receipts (excl. borrowings) = 300, total expenditure = 1800. Find fiscal deficit.",
+     "solution": "TR = 1000 + 300 = 1300; Fiscal Deficit = 1800 - 1300.",
+     "answer": "Fiscal Deficit = 500"
+    },
+    {
+     "question": "Total expenditure = 3000, borrowings = 600. Find fiscal deficit.",
+     "solution": "Fiscal deficit equals total borrowings.",
+     "answer": "Fiscal Deficit = 600"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Total expenditure = 2500, total receipts (excl. borrowings) = 2000. Compute fiscal deficit.",
+     "type": "compute"
+    },
+    {
+     "question": "RR = 1200, CR (excl. borrowings) = 400, TE = 2000. Compute fiscal deficit.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain why fiscal deficit equals borrowings.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.4.6",
+   "title": "Revenue Deficit",
+   "section": "Revenue Deficit",
+   "definition": "Revenue deficit is the excess of revenue expenditure over revenue receipts. It indicates that the government is unable to meet its recurring expenditure from its regular revenue.",
+   "formula": "Revenue Deficit = Revenue Expenditure - Revenue Receipts",
+   "key_idea": "A revenue deficit means the government is borrowing to finance current consumption, which is not sustainable in the long run.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define revenue deficit.",
+    "Compute revenue deficit given revenue receipts and expenditure.",
+    "Explain the implication of a revenue deficit.",
+    "How does revenue deficit differ from fiscal deficit?",
+    "What does a rising revenue deficit indicate about fiscal health?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify revenue receipts",
+     "explain": "Sum tax and non-tax revenue.",
+     "compute": "RR = Tax Revenue + Non-tax Revenue"
+    },
+    {
+     "step": 2,
+     "action": "Identify revenue expenditure",
+     "explain": "Sum all recurring expenditure.",
+     "compute": "RE = sum of recurring expenditure"
+    },
+    {
+     "step": 3,
+     "action": "Compute revenue deficit",
+     "explain": "Revenue Deficit = RE - RR.",
+     "compute": "Revenue Deficit = RE - RR"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Revenue receipts = 800, revenue expenditure = 1000. Find revenue deficit.",
+     "solution": "Revenue Deficit = 1000 - 800.",
+     "answer": "Revenue Deficit = 200"
+    },
+    {
+     "question": "Tax revenue = 500, non-tax revenue = 300, revenue expenditure = 900. Find revenue deficit.",
+     "solution": "RR = 500 + 300 = 800; Revenue Deficit = 900 - 800.",
+     "answer": "Revenue Deficit = 100"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Revenue receipts = 1200, revenue expenditure = 1500. Compute revenue deficit.",
+     "type": "compute"
+    },
+    {
+     "question": "Tax = 700, non-tax = 200, RE = 800. Compute revenue deficit.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain the fiscal significance of a revenue deficit.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.4.7",
+   "title": "Primary Deficit",
+   "section": "Primary Deficit",
+   "definition": "Primary deficit is the fiscal deficit net of interest payments. It shows the borrowing requirement of the government excluding the interest burden on past debts.",
+   "formula": "Primary Deficit = Fiscal Deficit - Interest Payments",
+   "key_idea": "Primary deficit indicates whether the government is borrowing to finance current activities or merely to service past debt; a zero primary deficit means borrowing is only for interest payments.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define primary deficit.",
+    "Compute primary deficit given fiscal deficit and interest payments.",
+    "Explain the significance of primary deficit.",
+    "What does a zero primary deficit imply?",
+    "Distinguish between fiscal deficit and primary deficit."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find fiscal deficit",
+     "explain": "Compute Fiscal Deficit = TE - TR (excl. borrowings).",
+     "compute": "Fiscal Deficit = TE - TR"
+    },
+    {
+     "step": 2,
+     "action": "Identify interest payments",
+     "explain": "Note the interest payment component of revenue expenditure.",
+     "compute": "Interest Payments"
+    },
+    {
+     "step": 3,
+     "action": "Compute primary deficit",
+     "explain": "Primary Deficit = Fiscal Deficit - Interest Payments.",
+     "compute": "Primary Deficit = Fiscal Deficit - Interest Payments"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Fiscal deficit = 500, interest payments = 200. Find primary deficit.",
+     "solution": "Primary Deficit = 500 - 200.",
+     "answer": "Primary Deficit = 300"
+    },
+    {
+     "question": "Fiscal deficit = 400, interest payments = 400. Find primary deficit.",
+     "solution": "Primary Deficit = 400 - 400.",
+     "answer": "Primary Deficit = 0"
+    },
+    {
+     "question": "Total expenditure = 2000, TR (excl. borrowings) = 1500, interest payments = 300. Find primary deficit.",
+     "solution": "Fiscal Deficit = 2000 - 1500 = 500; Primary Deficit = 500 - 300.",
+     "answer": "Primary Deficit = 200"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Fiscal deficit = 600, interest payments = 250. Compute primary deficit.",
+     "type": "compute"
+    },
+    {
+     "question": "Fiscal deficit = 300, interest payments = 300. Compute primary deficit.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain what a zero primary deficit implies.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.4.8",
+   "title": "Types of Budget: Balanced, Surplus and Deficit",
+   "section": "Types of Budget",
+   "definition": "A balanced budget has equal estimated receipts and expenditure. A surplus budget has receipts greater than expenditure. A deficit budget has expenditure greater than receipts.",
+   "formula": "Balanced: Receipts = Expenditure; Surplus: Receipts > Expenditure; Deficit: Expenditure > Receipts",
+   "key_idea": "The type of budget reflects fiscal stance: surplus is contractionary, deficit is expansionary, and balanced is neutral in its direct impact.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define balanced, surplus and deficit budgets.",
+    "Determine the type of budget given receipts and expenditure.",
+    "Explain the economic effects of a surplus budget.",
+    "Why is a deficit budget considered expansionary?",
+    "Compute the budget surplus or deficit."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify total receipts",
+     "explain": "Sum all receipts (revenue + capital).",
+     "compute": "TR = RR + CR"
+    },
+    {
+     "step": 2,
+     "action": "Identify total expenditure",
+     "explain": "Sum all expenditure (revenue + capital).",
+     "compute": "TE = RE + CE"
+    },
+    {
+     "step": 3,
+     "action": "Compare and classify",
+     "explain": "If TR = TE balanced; TR > TE surplus; TE > TR deficit.",
+     "compute": "Budget Balance = TR - TE"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Receipts = 1000, expenditure = 1000. Identify the type of budget.",
+     "solution": "Receipts = Expenditure, so it is a balanced budget.",
+     "answer": "Balanced budget."
+    },
+    {
+     "question": "Receipts = 1200, expenditure = 1000. Identify the type of budget.",
+     "solution": "Receipts > Expenditure, so it is a surplus budget; surplus = 200.",
+     "answer": "Surplus budget; surplus = 200."
+    },
+    {
+     "question": "Receipts = 800, expenditure = 1200. Identify the type of budget.",
+     "solution": "Expenditure > Receipts, so it is a deficit budget; deficit = 400.",
+     "answer": "Deficit budget; deficit = 400."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Receipts = 1500, expenditure = 1800. Identify the budget type and compute the balance.",
+     "type": "compute"
+    },
+    {
+     "question": "Receipts = 2000, expenditure = 2000. Identify the budget type.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain why a surplus budget is contractionary.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.4.9",
+   "title": "Government Debt",
+   "section": "Government Debt",
+   "definition": "Government debt is the total accumulated borrowing of the government, i.e. the stock of past fiscal deficits. It consists of internal debt (borrowed from domestic sources) and external debt (borrowed from foreign sources).",
+   "formula": "Government Debt = sum of past Fiscal Deficits (accumulated)",
+   "key_idea": "Debt is a stock concept (accumulated borrowing) while deficit is a flow concept (annual borrowing). Persistent fiscal deficits increase government debt and the interest burden.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define government debt and distinguish it from fiscal deficit.",
+    "Explain the difference between internal and external debt.",
+    "Compute total debt given annual fiscal deficits over years.",
+    "What are the consequences of a high debt-GDP ratio?",
+    "How does government debt affect future generations?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify annual fiscal deficits",
+     "explain": "List the fiscal deficit for each year.",
+     "compute": "FD_year1, FD_year2, ..."
+    },
+    {
+     "step": 2,
+     "action": "Sum deficits",
+     "explain": "Add all annual fiscal deficits to get accumulated debt.",
+     "compute": "Debt = sum of FD over years"
+    },
+    {
+     "step": 3,
+     "action": "Classify debt",
+     "explain": "Separate into internal and external debt if needed.",
+     "compute": "Debt = Internal Debt + External Debt"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Fiscal deficits over 3 years are 200, 300, 500. Find total accumulated debt.",
+     "solution": "Debt = 200 + 300 + 500.",
+     "answer": "Total debt = 1000"
+    },
+    {
+     "question": "Internal debt = 800, external debt = 200. Find total government debt.",
+     "solution": "Total Debt = Internal + External = 800 + 200.",
+     "answer": "Total debt = 1000"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Fiscal deficits over 4 years: 100, 200, 150, 250. Compute total debt.",
+     "type": "compute"
+    },
+    {
+     "question": "Internal debt = 600, external debt = 400. Compute total debt.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain the difference between debt and deficit.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.4.10",
+   "title": "Fiscal Policy Measures through the Budget",
+   "section": "Fiscal Policy",
+   "definition": "The government uses the budget as an instrument of fiscal policy to achieve objectives such as reallocation of resources, economic stability, reduction of inequalities, and economic growth through taxation, subsidies, and expenditure.",
+   "formula": "",
+   "key_idea": "Through the budget, the government influences AD, resource allocation, and income distribution; deficit spending can stimulate the economy during a downturn.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain how the budget is used as an instrument of fiscal policy.",
+    "How does taxation help reduce inequalities?",
+    "Explain the role of government expenditure in economic stability.",
+    "How does the budget reallocate resources?",
+    "Describe the stabilisation function of the budget."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify fiscal tools",
+     "explain": "State that the budget uses taxation, subsidies, and expenditure as tools."
+    },
+    {
+     "step": 2,
+     "action": "Explain allocation function",
+     "explain": "Describe how the government redirects resources to socially desirable areas."
+    },
+    {
+     "step": 3,
+     "action": "Explain stabilisation function",
+     "explain": "Show how deficit/surplus budgets stabilise the economy by adjusting AD."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does the government use the budget to reduce inequalities?",
+     "solution": "By taxing the rich (progressive taxation) and spending on welfare for the poor, the budget redistributes income.",
+     "answer": "Through progressive taxation and welfare expenditure."
+    },
+    {
+     "question": "How can a deficit budget help during a recession?",
+     "solution": "Increased government spending raises AD, which increases output and employment via the multiplier.",
+     "answer": "A deficit budget raises AD and helps revive the economy."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the allocation function of the government budget.",
+     "type": "verify_property"
+    },
+    {
+     "question": "How does the budget contribute to economic stability?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Describe the role of taxation in reducing income inequalities.",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

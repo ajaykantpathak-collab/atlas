@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_geo_ch2_2",
+ "concepts": [
+  {
+   "id": "enh:c9_geo_ch2_2",
+   "title": "c9_geo_ch2_2",
+   "questions": [
+    {
+     "q": "Name the five layers of the atmosphere in order from Earth's surface upward, and state the approximate altitude of the tropopause above India.",
+     "a": "The five layers are: troposphere (0–12 km), stratosphere (12–50 km), mesosphere (50–85 km), thermosphere (85–600 km), exosphere (600–10,000 km). The tropopause over India averages 16–17 km in summer and 10–12 km in winter due to intense surface heating. A wrong answer listing layers out of order or giving a single fixed tropopause height reveals the student memorized a static list without understanding latitudinal and seasonal variation in boundary heights.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why temperature decreases with altitude in the troposphere but increases in the stratosphere, identifying the specific heat source and mechanism in each layer.",
+     "a": "In the troposphere, temperature decreases because the primary heat source is Earth's surface (terrestrial radiation), so air cools as distance from the ground increases. In the stratosphere, temperature increases because ozone molecules absorb incoming solar ultraviolet radiation, converting it to heat directly within the layer. A wrong answer attributing stratospheric warming to \"heat rising from below\" shows the student hasn't grasped that each layer has its own internal heat source/sink mechanism, not just vertical conduction.",
+     "self_check": true
+    },
+    {
+     "q": "A weather balloon launched from Mumbai records temperature dropping at 6.5°C per km up to 14 km, then remaining constant for 2 km, then rising at 3°C per km. Identify the layers and pauses the balloon passed through, and calculate the temperature change from surface to 16 km if surface temperature was 30°C.",
+     "a": "0–14 km: troposphere (lapse rate 6.5°C/km). 14–16 km: tropopause (isothermal). 16 km upward: stratosphere (inversion begins). Temperature at 14 km = 30 - (6.5 × 14) = -61°C. At 16 km (tropopause) still -61°C. A wrong calculation using a single lapse rate throughout reveals the student treats the atmosphere as thermally uniform, missing the pause boundaries that define layer transitions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of the stratosphere and mesosphere in protecting life on Earth. Why is the mesosphere called the \"meteor shield\" while the stratosphere is the \"UV shield\"?",
+     "a": "The stratosphere's ozone layer absorbs harmful UV-B and UV-C radiation, preventing DNA damage. The mesosphere, though lacking ozone, has sufficient gas density to cause frictional heating that burns up most meteoroids (50–85 km) before they reach the surface. A wrong answer claiming the mesosphere blocks UV or the stratosphere burns meteors shows confusion between radiative absorption (stratosphere) and mechanical ablation (mesosphere)—two distinct protective mechanisms operating at different altitudes.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The thermosphere is the hottest layer (1500°C), so satellites orbiting there would melt.\" Justify your answer using the distinction between temperature and heat content.",
+     "a": "The statement is misleading. Thermosphere has high *kinetic temperature* (molecules move fast) but extremely low *heat content* due to near-vacuum density (~10⁻¹² kg/m³). Satellites don't melt because heat transfer requires particle collisions, which are negligible. A wrong answer agreeing with the statement reveals the student conflates temperature (average molecular kinetic energy) with thermal energy transfer, a critical distinction for understanding space technology.",
+     "self_check": true
+    },
+    {
+     "q": "Design a labeled cross-section diagram of the atmosphere for a Class 9 textbook showing all five layers, four pauses, and one key phenomenon in each layer (weather, ozone, meteors, auroras, satellites). Include altitude scales and temperature trend arrows.",
+     "a": "A good diagram shows: troposphere (0–12 km, ↓T, cumulonimbus cloud), tropopause (flat line), stratosphere (12–50 km, ↑T, ozone molecules absorbing UV), stratopause, mesosphere (50–85 km, ↓T, meteor burning), mesopause, thermosphere (85–600 km, ↑T, aurora/satellite), thermopause, exosphere (600+ km, fading T, gas escape). A poor diagram with equal layer thicknesses, missing pauses, or wrong phenomena (e.g., weather in stratosphere) reveals the student lacks spatial sense of the atmosphere's vast vertical scale and functional differentiation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

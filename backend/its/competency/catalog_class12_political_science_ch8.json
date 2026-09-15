@@ -1,0 +1,567 @@
+{
+ "class": "12",
+ "subject": "political_science",
+ "chapter": 8,
+ "chapter_title": "Challenges of Nation-Building",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\leps201.txt",
+ "concepts": [
+  {
+   "id": "c12ps.8.1",
+   "title": "Challenges of Nation-Building",
+   "section": "Introduction to Nation-Building",
+   "definition": "Nation-building refers to the process of bringing the people of a newly independent country together under a single political identity and a shared sense of belonging, while establishing stable democratic institutions and addressing problems of unity, development, and democracy.",
+   "formula": "",
+   "key_idea": "After independence in 1947, India faced three major challenges of nation-building: shaping a united nation, establishing democracy, and ensuring development and welfare for all citizens.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is meant by nation-building?",
+    "What were the main challenges of nation-building in India after independence?",
+    "How did India address the challenge of national unity?",
+    "Why was nation-building difficult in a diverse country like India?",
+    "What role did the leadership play in nation-building?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define nation-building",
+     "explain": "Nation-building is the process of uniting the people of a country under a common political identity and building institutions that create a shared sense of belonging."
+    },
+    {
+     "step": 2,
+     "action": "Identify the three main challenges facing India",
+     "explain": "After 1947 India faced the challenges of shaping a united nation out of diverse regions, establishing and deepening democracy, and ensuring development and social welfare."
+    },
+    {
+     "step": 3,
+     "action": "Explain the role of leadership and institutions",
+     "explain": "The leadership of the freedom movement, the Constitution, and democratic institutions provided the framework for addressing these challenges peacefully."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What were the three main challenges of nation-building in India after independence?",
+     "solution": "Step 1: The first challenge was to shape a united nation out of diverse princely states and provinces. Step 2: The second was to establish democratic institutions and a constitutional framework. Step 3: The third was to ensure development and welfare to remove poverty and inequality.",
+     "answer": "National unity, establishing democracy, and ensuring development and welfare",
+     "_n": 1
+    },
+    {
+     "question": "Why was nation-building difficult in India?",
+     "solution": "Step 1: India was a vast and diverse country with many languages, religions, and regions. Step 2: It had just emerged from Partition, which created deep divisions. Step 3: These factors made the task of unification and democratic consolidation very difficult.",
+     "answer": "Because of India's vast diversity and the trauma of Partition, which created deep social and political divisions",
+     "_n": 2
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning of nation-building and the main challenges India faced after independence.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why was the challenge of national unity particularly difficult for India?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.8.2",
+   "title": "Partition and its Aftermath",
+   "section": "Partition of India",
+   "definition": "The Partition of India in 1947 was the division of British India into two independent dominions, India and Pakistan, on the basis of the two-nation theory, accompanied by large-scale communal violence, mass migration, and enormous human suffering.",
+   "formula": "",
+   "key_idea": "Partition was the result of the two-nation theory advocated by the Muslim League; it caused one of the largest mass migrations in history and left a legacy of communal tension and unresolved disputes between India and Pakistan.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What was the Partition of India and why did it happen?",
+    "What was the two-nation theory?",
+    "What were the consequences of Partition?",
+    "How did Partition affect the people of India and Pakistan?",
+    "What was the role of the Muslim League in Partition?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the basis of Partition",
+     "explain": "Partition was based on the two-nation theory put forward by the Muslim League, which held that Hindus and Muslims were separate nations and could not live together in a single state."
+    },
+    {
+     "step": 2,
+     "action": "Describe the immediate consequences",
+     "explain": "Partition led to large-scale communal violence, the migration of around 14 to 15 million people across borders, and the loss of around a million lives."
+    },
+    {
+     "step": 3,
+     "action": "Assess the long-term legacy",
+     "explain": "Partition left a legacy of communal tension, border disputes (especially over Kashmir), and lasting hostility between India and Pakistan."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What was the two-nation theory?",
+     "solution": "Step 1: The two-nation theory was advocated by the Muslim League. Step 2: It held that Hindus and Muslims were two separate nations. Step 3: It argued that Muslims needed a separate state, which became the basis for the creation of Pakistan.",
+     "answer": "The theory that Hindus and Muslims were separate nations and could not live together in a single state"
+    },
+    {
+     "question": "What were the main consequences of Partition?",
+     "solution": "Step 1: Partition caused mass migration of 14-15 million people. Step 2: It led to communal violence and the loss of about a million lives. Step 3: It left a legacy of hostility and unresolved disputes between India and Pakistan.",
+     "answer": "Mass migration, communal violence, loss of life, and lasting hostility between India and Pakistan"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss the causes and consequences of the Partition of India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What was the two-nation theory and who advocated it?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.8.3",
+   "title": "Integration of Princely States",
+   "section": "Integration of Princely States",
+   "definition": "The integration of princely states was the process by which over 500 princely states, which were not directly under British rule, were merged into the Indian Union after independence, through persuasion, referendums, and in some cases military action.",
+   "formula": "",
+   "key_idea": "At independence there were over 500 princely states; the Indian leadership, led by Sardar Patel, used a combination of diplomacy, incentives, and force to integrate almost all of them into the Indian Union.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What was the challenge of integrating princely states?",
+    "How many princely states existed at the time of independence?",
+    "What methods were used to integrate the princely states?",
+    "Which princely states posed the greatest difficulty in integration?",
+    "How was the integration of princely states achieved?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the problem of princely states",
+     "explain": "At independence there were over 500 princely states whose rulers had the option to join India, join Pakistan, or remain independent, threatening the unity of the new nation."
+    },
+    {
+     "step": 2,
+     "action": "Explain the methods of integration",
+     "explain": "The Indian government used the instrument of accession, referendums, and in some cases police or military action to bring the princely states into the Union."
+    },
+    {
+     "step": 3,
+     "action": "Identify the difficult cases",
+     "explain": "Junagadh, Hyderabad, and Kashmir posed the greatest difficulties and required special handling, including military action in the case of Hyderabad."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How many princely states existed at the time of independence and what was the challenge they posed?",
+     "solution": "Step 1: There were over 500 princely states at independence. Step 2: Their rulers could choose to join India, Pakistan, or remain independent. Step 3: This posed a serious threat to the unity of the new nation.",
+     "answer": "Over 500 princely states, whose rulers' choices threatened the unity of India"
+    },
+    {
+     "question": "Which princely states posed the greatest difficulty in integration?",
+     "solution": "Step 1: Junagadh, Hyderabad, and Kashmir were the most difficult cases. Step 2: Hyderabad required police action in 1948. Step 3: Kashmir's accession led to a long-standing dispute with Pakistan.",
+     "answer": "Junagadh, Hyderabad, and Kashmir"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the process and methods of integration of princely states into the Indian Union.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why did the integration of Hyderabad require police action?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.8.4",
+   "title": "Sardar Patel and Integration",
+   "section": "Role of Sardar Patel",
+   "definition": "Sardar Vallabhbhai Patel, India's first Deputy Prime Minister and Home Minister, played a central role in the integration of princely states by persuading and pressuring their rulers to accede to the Indian Union, thereby securing the territorial unity of India.",
+   "formula": "",
+   "key_idea": "Sardar Patel used a combination of diplomacy, the appeal to patriotism, and the threat of force to integrate over 500 princely states into the Indian Union, earning him the title 'Iron Man of India'.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What was the role of Sardar Patel in the integration of princely states?",
+    "Why is Sardar Patel called the Iron Man of India?",
+    "What methods did Sardar Patel use to integrate the princely states?",
+    "How did Sardar Patel handle the rulers of princely states?",
+    "What was the contribution of Sardar Patel to nation-building?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe Patel's role and position",
+     "explain": "As Deputy Prime Minister and Home Minister, Patel was given the responsibility of integrating the princely states into the Indian Union."
+    },
+    {
+     "step": 2,
+     "action": "Explain the methods he used",
+     "explain": "Patel used diplomacy, appeals to patriotic duty, offers of privy purses, and where necessary the threat or use of force to secure accession."
+    },
+    {
+     "step": 3,
+     "action": "Assess his contribution",
+     "explain": "Patel's leadership secured the integration of almost all princely states, preserving the territorial unity of India and earning him the title 'Iron Man of India'."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is Sardar Patel called the Iron Man of India?",
+     "solution": "Step 1: Patel led the integration of over 500 princely states. Step 2: He used firmness and diplomacy to secure their accession. Step 3: His decisive role in unifying India earned him the title 'Iron Man of India'.",
+     "answer": "Because of his decisive role in integrating the princely states and unifying India"
+    },
+    {
+     "question": "What methods did Sardar Patel use to integrate the princely states?",
+     "solution": "Step 1: He appealed to the patriotism of the rulers. Step 2: He offered privy purses and guarantees to secure accession. Step 3: Where persuasion failed, he used the threat or actual use of force, as in Hyderabad.",
+     "answer": "Diplomacy, appeals to patriotism, privy purses, and where necessary the threat or use of force"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss the contribution of Sardar Patel to the integration of princely states and nation-building.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What was the privy purse and how did it help integration?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.8.5",
+   "title": "Nehru's Approach to Nation-Building",
+   "section": "Nehru's Vision",
+   "definition": "Jawaharlal Nehru, India's first Prime Minister, shaped the nation-building approach through his commitment to democracy, secularism, planned economic development, non-alignment in foreign policy, and the modern scientific temper.",
+   "formula": "",
+   "key_idea": "Nehru's approach to nation-building emphasised democratic institutions, secularism, planned development through the Planning Commission, a mixed economy, and an independent foreign policy of non-alignment.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What was Nehru's approach to nation-building?",
+    "How did Nehru contribute to the establishment of democracy in India?",
+    "What was Nehru's vision of economic development?",
+    "What role did non-alignment play in Nehru's foreign policy?",
+    "How did Nehru promote secularism and scientific temper?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe Nehru's democratic vision",
+     "explain": "Nehru believed in parliamentary democracy, civil liberties, and the rule of law, and worked to establish institutions that would sustain democracy in India."
+    },
+    {
+     "step": 2,
+     "action": "Explain his approach to economic development",
+     "explain": "Nehru advocated planned development through the Planning Commission, a mixed economy with a strong public sector, and modern industry and science."
+    },
+    {
+     "step": 3,
+     "action": "Describe his foreign policy and social values",
+     "explain": "Nehru promoted non-alignment to keep India independent of Cold War blocs, and championed secularism and the scientific temper as foundations of modern India."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What was Nehru's vision of economic development?",
+     "solution": "Step 1: Nehru believed in planned development through the Planning Commission. Step 2: He supported a mixed economy with a strong public sector. Step 3: He emphasised modern industry, science, and technology as drivers of growth.",
+     "answer": "Planned development through a mixed economy with a strong public sector and emphasis on modern industry and science"
+    },
+    {
+     "question": "What role did non-alignment play in Nehru's foreign policy?",
+     "solution": "Step 1: Non-alignment kept India outside the Cold War blocs. Step 2: It allowed India to pursue an independent foreign policy. Step 3: It also helped India build relations with both superpowers and newly independent nations.",
+     "answer": "Non-alignment allowed India to stay independent of Cold War blocs and pursue an independent foreign policy"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Examine Nehru's approach to nation-building with reference to democracy, development, and foreign policy.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How did Nehru promote secularism and the scientific temper?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.8.6",
+   "title": "Linguistic Reorganisation of States",
+   "section": "Linguistic Reorganisation of States",
+   "definition": "The linguistic reorganisation of states was the process of redrawing state boundaries on the basis of language, beginning with the creation of Andhra State in 1953 and formalised by the States Reorganisation Act of 1956, to meet the demand for administrative units based on linguistic identity.",
+   "formula": "",
+   "key_idea": "The demand for linguistic states, sparked by the fast unto death of Potti Sriramulu, led to the creation of Andhra in 1953 and the States Reorganisation Act of 1956, which reorganised states on linguistic lines and strengthened national unity.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What was the linguistic reorganisation of states?",
+    "Why was the demand for linguistic states made?",
+    "How was the state of Andhra created?",
+    "What was the States Reorganisation Act of 1956?",
+    "Did linguistic reorganisation weaken national unity?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the demand for linguistic states",
+     "explain": "Leaders and people in different regions demanded that state boundaries be drawn on the basis of language so that administration and education could be conducted in the local language."
+    },
+    {
+     "step": 2,
+     "action": "Describe the creation of Andhra State",
+     "explain": "Potti Sriramulu's fast unto death in 1952 for a separate Telugu state led to the creation of Andhra State in 1953, the first linguistic state."
+    },
+    {
+     "step": 3,
+     "action": "Explain the States Reorganisation Act and its impact",
+     "explain": "The States Reorganisation Act of 1956 redrew state boundaries on linguistic lines; contrary to fears, this strengthened national unity by accommodating regional identities."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How was the state of Andhra created?",
+     "solution": "Step 1: Potti Sriramulu went on a fast unto death demanding a separate Telugu state. Step 2: His death in 1952 led to widespread agitation. Step 3: The government created Andhra State in 1953, the first state formed on a linguistic basis.",
+     "answer": "Andhra State was created in 1953 after Potti Sriramulu's fast unto death demanding a separate Telugu state"
+    },
+    {
+     "question": "What was the States Reorganisation Act of 1956?",
+     "solution": "Step 1: The Act was passed in 1956 to reorganise state boundaries. Step 2: It created states largely on the basis of language. Step 3: It replaced the earlier arrangement of states and strengthened national unity by accommodating linguistic identities.",
+     "answer": "A 1956 law that reorganised Indian states largely on the basis of language"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss the linguistic reorganisation of states and its impact on national unity.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why was the creation of linguistic states initially feared to weaken unity?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.8.7",
+   "title": "Tribal Integration",
+   "section": "Tribal Integration",
+   "definition": "Tribal integration refers to the policy of bringing tribal communities into the mainstream of national life while protecting their culture and identity, through special constitutional provisions, scheduled areas, and development programmes.",
+   "formula": "",
+   "key_idea": "India adopted a policy of protective integration of tribal communities through constitutional safeguards (Fifth and Sixth Schedules), reserved seats, and development schemes, rather than forcing assimilation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What was the policy of tribal integration in India?",
+    "What constitutional provisions protect tribal communities?",
+    "What are the Fifth and Sixth Schedules?",
+    "How did India approach the integration of tribal communities?",
+    "What role did reserved seats play in tribal integration?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the approach to tribal integration",
+     "explain": "India adopted a policy of integrating tribal communities into national life while respecting their culture, rather than forcing assimilation."
+    },
+    {
+     "step": 2,
+     "action": "Describe the constitutional safeguards",
+     "explain": "The Fifth Schedule protects tribal areas in most states and the Sixth Schedule provides autonomy to tribal areas in the Northeast; reserved seats in legislatures ensure political representation."
+    },
+    {
+     "step": 3,
+     "action": "Assess the development and welfare measures",
+     "explain": "Special development programmes, administrative bodies like the Tribal Advisory Council, and protective laws were introduced to promote tribal welfare and prevent exploitation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the difference between the Fifth and Sixth Schedules?",
+     "solution": "Step 1: The Fifth Schedule applies to scheduled areas in most states of India. Step 2: The Sixth Schedule applies to tribal areas in the Northeast and provides greater autonomy. Step 3: Both protect tribal interests but through different administrative arrangements.",
+     "answer": "The Fifth Schedule covers tribal areas in most states; the Sixth Schedule provides autonomy to tribal areas in the Northeast"
+    },
+    {
+     "question": "How did India approach the integration of tribal communities?",
+     "solution": "Step 1: India chose integration with protection rather than forced assimilation. Step 2: Constitutional safeguards and reserved seats were provided. Step 3: Development programmes were introduced to promote welfare while respecting tribal culture.",
+     "answer": "Through protective integration using constitutional safeguards, reserved seats, and development programmes"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the policy and constitutional provisions for tribal integration in India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is the significance of reserved seats for tribal communities?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.8.8",
+   "title": "Northeast India and Integration",
+   "section": "Northeast India",
+   "definition": "The integration of Northeast India involved bringing the diverse tribal and non-tribal communities of the region into the Indian Union through the Sixth Schedule, state reorganisation, and special arrangements, while addressing demands for autonomy and separatism.",
+   "formula": "",
+   "key_idea": "Northeast India, with its ethnic diversity and distance from the mainland, posed special challenges of integration; these were addressed through the Sixth Schedule, creation of new states, and special provisions, though some demands for autonomy and separatism persisted.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What were the challenges of integrating Northeast India?",
+    "What is the Sixth Schedule and how does it apply to the Northeast?",
+    "How was Nagaland created and why?",
+    "What demands for autonomy arose in the Northeast?",
+    "How did India address separatist movements in the Northeast?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the special features of the Northeast",
+     "explain": "The Northeast is ethnically diverse, geographically isolated from the mainland, and historically had weaker political links with the rest of India, creating integration challenges."
+    },
+    {
+     "step": 2,
+     "action": "Explain the use of the Sixth Schedule and state creation",
+     "explain": "The Sixth Schedule provided autonomous councils for tribal areas; new states like Nagaland (1963), Meghalaya, and Mizoram were created to accommodate demands for autonomy."
+    },
+    {
+     "step": 3,
+     "action": "Assess the continuing challenges",
+     "explain": "Despite these measures, some regions experienced separatist movements and insurgency, requiring a mix of political dialogue, development, and security measures."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How was Nagaland created and why?",
+     "solution": "Step 1: A strong movement for a separate Naga state emerged in the 1950s. Step 2: The government negotiated with Naga leaders. Step 3: Nagaland was created as a state in 1963 to accommodate the demand for Naga identity and autonomy.",
+     "answer": "Nagaland was created as a state in 1963 to meet the demand for a separate Naga political identity"
+    },
+    {
+     "question": "How does the Sixth Schedule help integrate the Northeast?",
+     "solution": "Step 1: The Sixth Schedule provides autonomous district councils for tribal areas. Step 2: These councils allow tribal communities to govern their own affairs. Step 3: This autonomy helps accommodate diversity and reduces demands for separation.",
+     "answer": "It provides autonomous councils that allow tribal communities to self-govern, accommodating diversity within the Union"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss the challenges of integrating Northeast India and the measures taken to address them.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What demands for autonomy arose in the Northeast and how were they addressed?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.8.9",
+   "title": "Challenges to Democracy",
+   "section": "Challenges to Democracy",
+   "definition": "The challenges to democracy in the early years of independent India included conducting the first general elections based on universal adult franchise, building democratic institutions, managing political competition, and ensuring the participation of a largely illiterate population in the democratic process.",
+   "formula": "",
+   "key_idea": "India chose to establish democracy immediately after independence, conducting the first general elections in 1951-52 on the basis of universal adult franchise, which was a bold and unprecedented experiment given the scale and diversity of the country.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What were the challenges to democracy in independent India?",
+    "Why was the first general election a major challenge?",
+    "What is universal adult franchise and why was it significant?",
+    "How did the Election Commission conduct the first elections?",
+    "Why was the success of the first elections important for India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the decision to adopt universal adult franchise",
+     "explain": "Despite a largely illiterate population, India chose universal adult franchise, giving every adult citizen the right to vote regardless of property, gender, or education."
+    },
+    {
+     "step": 2,
+     "action": "Describe the first general elections of 1951-52",
+     "explain": "The Election Commission, led by Sukumar Sen, organised the first general elections in 1951-52 on a massive scale, involving over 173 million voters and thousands of candidates."
+    },
+    {
+     "step": 3,
+     "action": "Assess the significance of the elections",
+     "explain": "The successful conduct of the first elections established the credibility of Indian democracy, legitimized the new republic, and laid the foundation for regular elections."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why was the first general election of 1951-52 considered a major challenge?",
+     "solution": "Step 1: India had a huge and largely illiterate population. Step 2: The election had to be conducted on a scale never attempted before. Step 3: Organising over 173 million voters across a vast country was an unprecedented challenge.",
+     "answer": "Because it involved organising over 173 million voters, many illiterate, across a vast and diverse country for the first time"
+    },
+    {
+     "question": "What is universal adult franchise and why was its adoption significant?",
+     "solution": "Step 1: Universal adult franchise gives every adult citizen the right to vote. Step 2: Most countries had extended voting rights gradually. Step 3: India adopted it immediately at independence, which was a bold democratic step.",
+     "answer": "The right of every adult citizen to vote, adopted by India immediately at independence, a bold democratic decision"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss the challenges to democracy in the early years of independent India and how they were addressed.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What was the role of the Election Commission in the first general elections?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "leps201.txt",
+   "concept": "c12ps.8.1",
+   "question_type": "short_answer",
+   "question_pattern": "What were the three main challenges of nation-building in India after independence?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "The first challenge was to",
+     "explain": "The first challenge was to shape a united nation out of diverse princely states and provinces."
+    },
+    {
+     "step": 2,
+     "action": "The second was to establish",
+     "explain": "The second was to establish democratic institutions and a constitutional framework."
+    },
+    {
+     "step": 3,
+     "action": "The third was to ensure",
+     "explain": "The third was to ensure development and welfare to remove poverty and inequality."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "leps201.txt",
+   "concept": "c12ps.8.1",
+   "question_type": "short_answer",
+   "question_pattern": "Why was nation-building difficult in India?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "India was a vast and",
+     "explain": "India was a vast and diverse country with many languages, religions, and regions."
+    },
+    {
+     "step": 2,
+     "action": "It had just emerged from",
+     "explain": "It had just emerged from Partition, which created deep divisions."
+    },
+    {
+     "step": 3,
+     "action": "These factors made the task",
+     "explain": "These factors made the task of unification and democratic consolidation very difficult."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

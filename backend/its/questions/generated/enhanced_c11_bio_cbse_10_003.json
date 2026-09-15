@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_10_003",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_10_003",
+   "title": "c11_bio_cbse_10_003",
+   "questions": [
+    {
+     "q": "Define prophase of mitosis and list the four key microscopic hallmarks that distinguish a prophase cell from an interphase cell.",
+     "a": "Prophase is the first stage of mitotic karyokinesis where chromatin condenses into discrete chromosomes (each with two sister chromatids), centrosomes migrate to opposite poles forming the mitotic spindle, and the nuclear envelope/nucleolus/Golgi/ER disintegrate. Four hallmarks: (1) visible condensed chromosomes, (2) absent nuclear envelope, (3) absent nucleolus, (4) spindle fibres/asters visible. A wrong answer (e.g., \"chromosomes align at equator\") reveals confusion with metaphase; missing \"two chromatids\" indicates failure to link S-phase replication to chromosome structure.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why chromosomes become visible only during prophase even though DNA replication was completed in S phase.",
+     "a": "During S phase, replicated DNA remains as loosely packed chromatin fibres (euchromatin/heterochromatin) to allow transcription and repair. In prophase, condensin complexes and topoisomerase II drive ATP-dependent supercoiling, compacting chromatin ~10,000-fold into discrete chromosomes. This condensation prevents entanglement during segregation. A wrong answer (e.g., \"DNA replicates in prophase\") shows confusion between synthesis (S phase) and condensation (prophase); saying \"chromosomes form in G2\" misses the trigger of prophase-specific condensin activation.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes a plant cell in prophase but sees no centrioles or asters. Is this observation correct? Explain the spindle formation mechanism in plant cells during prophase.",
+     "a": "Yes, correct. Higher plant cells lack centrioles. In prophase, microtubule-organizing centres (MTOCs) on the nuclear envelope or cortical cytoplasm nucleate spindle microtubules. These microtubules self-organize into a bipolar spindle without centrosomes/asters. The mitotic apparatus forms from spindle fibres alone. A wrong answer (e.g., \"plant cells have centrioles\") reflects overgeneralization from animal cell diagrams; saying \"no spindle forms\" ignores acentrosomal spindle assembly — a key plant-animal difference in prophase.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the chromosome number (n) and DNA content (C) in a human somatic cell at late G2 phase versus late prophase. Are they the same or different? Justify.",
+     "a": "Same: both are 2n chromosome number and 4C DNA content. G2 and prophase are both post-S-phase; no DNA replication or chromosome segregation occurs between them. Chromosome number counts centromeres (2n = 46), DNA content measures total DNA mass (4C = replicated genome). Condensation in prophase changes morphology, not quantity. A wrong answer (e.g., \"4n in prophase\") confuses chromatid count with chromosome number; \"2C in prophase\" ignores S-phase doubling.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher treats cultured human cells with a drug that inhibits condensin function. Predict the specific prophase defect and its downstream consequence in metaphase. Evaluate whether this cell would pass the spindle assembly checkpoint.",
+     "a": "Condensin inhibition prevents chromatin condensation → chromosomes remain as diffuse, tangled threads in prophase. In metaphase, uncondensed chromosomes cannot align properly at the metaphase plate; kinetochores may not achieve bipolar attachment. The spindle assembly checkpoint (SAC) detects unattached/misattached kinetochores and arrests the cell in metaphase. The cell would NOT pass SAC. A wrong answer (e.g., \"cell proceeds to anaphase\") misunderstands SAC function; \"chromosomes don't replicate\" confuses condensin with replication machinery.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using onion root tips and a light microscope to estimate the relative duration of prophase compared to other mitotic stages. Describe the sampling method, data to collect, and calculation.",
+     "a": "Fix and stain onion root tip squashes (aceto-orcein/Feulgen). Score 500+ cells in the meristematic zone. Count cells in each stage: interphase, prophase, metaphase, anaphase, telophase. % prophase cells = (prophase count / total mitotic cells) × 100. Assuming asynchronous division, % time in prophase ≈ % cells in prophase. Compare with literature (~50% of mitosis). Good answer includes: random sampling, blind scoring, distinguishing early/late prophase. Poor answer: small sample, no staining detail, confusing interphase with prophase.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

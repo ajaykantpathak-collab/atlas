@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_05_006",
+   "title": "c10_geo_cbse_05_006",
+   "questions": [
+    {
+     "q": "Name the three non-conventional energy sources covered in this chapter and state one major geographical requirement for each to be commercially viable in India.",
+     "a": "The three sources are solar energy (requires high solar insolation > 5 kWh/m²/day and 300+ cloud-free days — found in Rajasthan, Gujarat), wind energy (requires sustained wind speeds > 15–20 km/h at 50–80 m height — found along Western Ghats passes and coastal Gujarat/Tamil Nadu), and tidal energy (requires tidal range > 5 m and funnel-shaped estuary — found only in Gulf of Kachchh and Gulf of Khambhat, Gujarat). A wrong answer that lists \"biogas\" or \"geothermal\" reveals the student has not distinguished this node's scope from the next node (c10_geo_cbse_05_007); a wrong answer that says \"wind energy works anywhere wind blows\" reveals confusion between existence of wind and commercial viability thresholds.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Thar Desert region (western Rajasthan) have the highest solar energy potential in India, while the coastal belt of Kerala receives similar latitude-wise solar radiation but has lower commercial viability for large-scale solar farms?",
+     "a": "The Thar Desert has 325+ cloud-free days per year, very low humidity, minimal aerosol loading, and vast contiguous flat wastelands — all maximising global horizontal irradiance (GHI) to 6–7 kWh/m²/day; Kerala, despite similar latitude, has 150–180 cloud-free days due to persistent monsoon clouds, high humidity scattering radiation, and fragmented land holdings with high opportunity cost (agriculture/settlement). A wrong answer citing only \"latitude\" or \"temperature\" reveals the student has not understood that solar insolation depends on atmospheric transparency and cloud cover (Class 9 c9_geo_ch2_3), not just solar angle; a wrong answer citing \"land cost\" alone misses the climatological reasoning expected in board exam answers.",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of India, mark and label: (a) the state with the highest installed wind power capacity, (b) the mountain pass enabling wind funneling in that state, (c) the two gulfs in Gujarat suitable for tidal energy, and (d) the solar park in Rajasthan that was the world's largest at commissioning. Explain the geographical reason for each location in one sentence.",
+     "a": "(a) Tamil Nadu — lies in the rain-shadow of the Western Ghats, receiving strong pressure-gradient-driven winds through the Palghat Gap during both monsoons; (b) Palghat Gap (Kerala-Tamil Nadu border) — a 30 km wide natural corridor in the Western Ghats that funnels southwest and northeast monsoon winds, accelerating them via Venturi effect; (c) Gulf of Kachchh and Gulf of Khambhat — both are macro-tidal (range 6–11 m), funnel-shaped estuaries amplifying tidal bore height; (d) Bhadla Solar Park (Jodhpur district) — located in the Thar Desert with 325+ clear-sky days, high GHI (6.5 kWh/m²/day), and 14,000 acres of barren government land. A wrong answer placing wind farms in \"interior Madhya Pradesh\" reveals ignorance of orographic wind channeling; marking \"Sunderbans\" for tidal energy reveals confusion between deltaic tides and estuarine funneling geometry.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the spatial distribution of wind energy potential in Peninsular India versus the Great Plains. Why are wind farms concentrated in the southern peninsula and western coast but nearly absent in the Gangetic plains despite both regions experiencing monsoon winds?",
+     "a": "Peninsular India has the Western Ghats creating orographic barriers that channel monsoon winds through gaps (Palghat, Shencottah, Aralvaimozhi) and create coastal low-level jets (LLJs) with speeds 20–30 m/s at 100 m height; the Great Plains lack significant orography, so monsoon winds are broad, uniform, and slower at hub height (5–8 m/s), with high turbulence from surface roughness (vegetation, settlements). Additionally, the peninsula has higher terrain roughness index variation enabling wind shear exploitation. A wrong answer saying \"plains have no wind\" reveals factual error — they have wind but not commercially viable wind shear; a wrong answer citing \"population density\" alone misses the physical geography (orography, wind profile) that board exams test.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's tidal energy potential remains largely unutilised despite having two ideal sites in Gujarat.\" Support your evaluation with three geographical and two techno-economic factors.",
+     "a": "Geographical: (1) Only two sites (Gulf of Kachchh, Gulf of Khambhat) meet the >5 m tidal range + funnel geometry criterion — India's coastline is mostly micro-tidal (<2 m); (2) High sediment load in Gulf of Khambhat (from Sabarmati, Mahi, Narmada) causes siltation, reducing turbine efficiency; (3) Intertidal mudflats and mangroves (ecologically sensitive) restrict barrage construction. Techno-economic: (4) Capital cost ₹30–40 crore/MW (vs ₹4–5 crore/MW for solar) with long gestation; (5) Grid connectivity in remote Kachchh coast is weak, requiring dedicated transmission. A wrong answer listing only \"high cost\" or \"lack of technology\" without geographical specificity (tidal range, sediment, ecology) shows inability to integrate physical and human geography — a key board exam competency.",
+     "self_check": true
+    },
+    {
+     "q": "Design a state-level renewable energy transition plan for a hypothetical state \"X\" that has: (i) 280 clear-sky days/year, (ii) a 200 km coastline with average wind speed 6 m/s at 100 m, (iii) a broad estuary with 3 m tidal range, and (iv) 15% wasteland. Prioritise the three sources (solar, wind, tidal) with justification, and propose one policy measure for each to overcome the main geographical constraint.",
+     "a": "Priority 1: Solar — 280 clear days and 15% wasteland favour utility-scale PV; constraint: dust deposition reducing efficiency by 15–25%; policy: mandate robotic waterless cleaning in solar park tenders. Priority 2: Wind — 6 m/s at 100 m is borderline (needs >7 m/s for Class 2 turbines); constraint: low wind shear; policy: incentivise taller towers (120–140 m) and low-wind-speed turbines (IEC Class 3/4) via viability gap funding. Priority 3: Tidal — 3 m range is below 5 m commercial threshold; constraint: insufficient hydraulic head; policy: fund R&D for ultra-low-head tidal turbines (e.g., 1–2 m range) and pilot in the estuary. A poor answer that treats all three equally or ignores the quantitative thresholds (5 m tidal, 7 m/s wind) reveals the student cannot apply viability criteria to new scenarios — a core application skill for competency questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,840 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 301,
+ "chapter_title": "The French Revolution",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\jess301.txt",
+ "concepts": [
+  {
+   "id": "iess.301.1.1",
+   "title": "Estates System and Privileges of Old Regime France",
+   "section": "1",
+   "definition": "French society before 1789 was divided into three social classes where the nobility and clergy enjoyed inherited exemptions from state taxation.",
+   "formula": "",
+   "key_idea": "Feudal hierarchy exempted upper estates while burdening commoners with state taxes.",
+   "textbook_ref": "iess301.txt lines 85-125",
+   "question_patterns": [
+    "describe the structure of French society during the Old Regime",
+    "explain the privileges enjoyed by the first two estates in France",
+    "what was the composition of the Third Estate in 18th century France",
+    "how was French society organized prior to the revolution of 1789",
+    "identify the social groups exempted from paying taxes in pre-revolutionary France"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify social divisions",
+     "explain": "French society comprised the First Estate (clergy), Second Estate (nobility), and Third Estate (commoners including merchants, peasants, and workers)."
+    },
+    {
+     "step": 2,
+     "action": "analyze tax burdens and privileges",
+     "explain": "First and Second Estates enjoyed tax exemptions by birth and extracted feudal dues, whereas the Third Estate alone paid direct and indirect state taxes."
+    }
+   ]
+  },
+  {
+   "id": "iess.301.1.2",
+   "title": "Calculation of Tithe Tax",
+   "section": "1",
+   "definition": "The church in Old Regime France levied an agricultural tax called tithe, which equaled one-tenth of the total crop harvested by peasants.",
+   "formula": "tithe = produce / 10",
+   "key_idea": "Tithe represents a direct 10 percent levy on agrarian yield collected by the clergy.",
+   "textbook_ref": "iess301.txt lines 115-135",
+   "question_patterns": [
+    "calculate the tithe payable on an agricultural produce of {produce} quintals",
+    "find the church tax tithe when the total harvest is {produce} kg",
+    "determine the tithe amount for a crop yield of {produce} bushels",
+    "what is the tithe tax on a grain produce of {produce} tonnes in pre-revolutionary France",
+    "compute the tax owed to the clergy given a total produce of {produce} units"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide total agricultural produce by 10",
+     "explain": "tithe is defined as one-tenth of the harvested agricultural produce",
+     "compute": "tithe = produce / 10"
+    }
+   ]
+  },
+  {
+   "id": "iess.301.1.3",
+   "title": "Causes and Mechanism of Subsistence Crisis",
+   "section": "1.1",
+   "definition": "An extreme economic situation in Old Regime France where rapid population growth outpaced grain production, leading to soaring bread prices and widespread starvation.",
+   "formula": "",
+   "key_idea": "Mismatch between population growth and food supply triggers escalating scarcity and mortality.",
+   "textbook_ref": "iess301.txt lines 140-165",
+   "question_patterns": [
+    "explain how a subsistence crisis occurred in France during the Old Regime",
+    "what factors led to frequent subsistence crises in 18th century France",
+    "describe the sequence of events resulting in a subsistence crisis",
+    "how did rapid population growth trigger food scarcity in pre-revolutionary France",
+    "analyse the impact of rising bread prices on the working class of Paris"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace demographic and supply factors",
+     "explain": "Population growth from 23 million to 28 million increased foodgrain demand faster than production could match."
+    },
+    {
+     "step": 2,
+     "action": "examine price-wage gap and crop failure impact",
+     "explain": "Bread prices escalated while fixed wages failed to keep pace, worsening into famine whenever bad weather ruined harvests."
+    }
+   ]
+  },
+  {
+   "id": "iess.301.1.4",
+   "title": "Influence of Enlightenment Philosophers",
+   "section": "1.3",
+   "definition": "Ideas proposed by Locke, Rousseau, and Montesquieu challenged divine monarchical right, proposing social contracts and division of government powers.",
+   "formula": "",
+   "key_idea": "Enlightenment philosophy articulated equality, popular sovereignty, and separation of powers.",
+   "textbook_ref": "iess301.txt lines 170-220",
+   "question_patterns": [
+    "examine the role of philosophers in inspiring the French Revolution",
+    "what ideas were proposed by John Locke in Two Treatises of Government",
+    "how did Jean Jacques Rousseau contribute to revolutionary thinking in France",
+    "describe Montesquieu's theory on division of power in government",
+    "discuss how political ideas spread among the French public in salons and coffee houses"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify key thinkers and books",
+     "explain": "Locke wrote Two Treatises of Government, Rousseau authored The Social Contract, and Montesquieu penned The Spirit of the Laws."
+    },
+    {
+     "step": 2,
+     "action": "summarize core doctrines",
+     "explain": "Locke refuted royal divine right, Rousseau proposed representative social contracts, and Montesquieu advocated legislative, executive, and judicial power division."
+    }
+   ]
+  },
+  {
+   "id": "iess.301.2.1",
+   "title": "Convocation of Estates General and Voting Rights Conflict",
+   "section": "2",
+   "definition": "The assembly representing all three estates called on 5 May 1789, where dispute over voting by order versus individual voting led to Third Estate walkout.",
+   "formula": "",
+   "key_idea": "Refusal of individual voting rights sparked political rebellion by Third Estate representatives.",
+   "textbook_ref": "iess301.txt lines 225-265",
+   "question_patterns": [
+    "why was the meeting of the Estates General called on 5 May 1789",
+    "explain the disagreement over voting procedure in the Estates General",
+    "what led representatives of the Third Estate to walk out of the Estates General",
+    "describe the seating arrangement and representation in the Estates General of 1789",
+    "how did Rousseau's democratic principle influence the demands of the Third Estate"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify assembly purpose and representation",
+     "explain": "Louis XVI summoned 300 clergy, 300 nobles, and 600 Third Estate delegates to approve new tax proposals."
+    },
+    {
+     "step": 2,
+     "action": "analyze voting dispute",
+     "explain": "Third Estate demanded one vote per member instead of one vote per estate; royal rejection prompted their protest walkout."
+    }
+   ]
+  },
+  {
+   "id": "iess.301.2.2",
+   "title": "Tennis Court Oath and Outbreak of Revolution",
+   "section": "2",
+   "definition": "The Third Estate declared itself the National Assembly on 20 June 1789 at Versailles, swearing to draft a constitution limiting royal power.",
+   "formula": "",
+   "key_idea": "Self-declaration as National Assembly and Tennis Court Oath marked the formal shift away from absolutism.",
+   "textbook_ref": "iess301.txt lines 260-310",
+   "question_patterns": [
+    "what was the significance of the Tennis Court Oath in 1789",
+    "who led the Third Estate during the assembly at the indoor tennis court",
+    "explain the circumstances surrounding the storming of the Bastille on 14 July 1789",
+    "how did rumors of brigands trigger rural agrarian revolts across France",
+    "describe the measures taken by the National Assembly on 4 August 1789"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain Tennis Court Oath",
+     "explain": "Led by Mirabeau and Sieyes, delegates pledged to remain assembled until drafting a constitution to constrain royal power."
+    },
+    {
+     "step": 2,
+     "action": "detail popular rebellion",
+     "explain": "Parisians stormed the Bastille on 14 July 1789, while rural panic sparked peasant attacks on chateaux, forcing abolition of feudalism on 4 August 1789."
+    }
+   ]
+  },
+  {
+   "id": "iess.301.3.1",
+   "title": "Active Citizen Voting Threshold Computation",
+   "section": "2.1",
+   "definition": "Under the 1791 Constitution, voting rights were granted only to men above 25 who paid direct tax equal to at least three days of a worker's wage.",
+   "formula": "min_tax = 3 * daily_wage",
+   "key_idea": "Financial threshold for active citizenship required tax equivalent to three days of manual labor wages.",
+   "textbook_ref": "iess301.txt lines 315-345",
+   "question_patterns": [
+    "calculate the minimum tax required to become an active citizen if the daily wage is {daily_wage} livres",
+    "find the tax threshold for voting rights when a labourer earns {daily_wage} livres per day",
+    "determine the voting tax requirement for a worker earning {daily_wage} francs daily",
+    "what is the minimum direct tax needed for active citizenship given a daily wage of {daily_wage} livres",
+    "compute the tax payable to qualify as an active citizen with daily wage {daily_wage} livres"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply daily wage by 3",
+     "explain": "active citizen status required direct tax equivalent to at least 3 days of a labourer's wage",
+     "compute": "min_tax = 3 * daily_wage"
+    }
+   ]
+  },
+  {
+   "id": "iess.301.3.2",
+   "title": "Rights of Man and Political Symbolism",
+   "section": "2.1",
+   "definition": "The 1791 Constitution incorporated natural inalienable rights alongside visual political symbols to convey revolutionary values to an illiterate populace.",
+   "formula": "",
+   "key_idea": "Declaration enshrined natural rights while allegorical symbols communicated liberty, equality, and unity.",
+   "textbook_ref": "iess301.txt lines 340-410",
+   "question_patterns": [
+    "what were natural and inalienable rights according to the Declaration of 1791",
+    "explain the meaning of visual political symbols like the broken chain and Phrygian cap",
+    "describe the significance of the winged woman and the all-seeing eye in revolutionary art",
+    "how did the Declaration of Rights of Man define liberty and law",
+    "why were political symbols extensively used in revolutionary France"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify natural rights",
+     "explain": "Rights to life, speech, opinion, and equality before law were established as inherent human rights that state law must protect."
+    },
+    {
+     "step": 2,
+     "action": "interpret key symbols",
+     "explain": "Broken chains represented liberation from servitude, red Phrygian cap symbolized freed slaves, and fasces denoted strength through unity."
+    }
+   ]
+  },
+  {
+   "id": "iess.301.4.1",
+   "title": "Jacobin Club, Sans-Culottes, and Establishment of Republic",
+   "section": "3",
+   "definition": "Political radicalization led by Robespierre's Jacobins (sans-culottes) resulted in the storming of Tuileries, ending monarchy and creating the Republic in 1792.",
+   "formula": "",
+   "key_idea": "Radical lower-class mobilization replaced constitutional monarchy with a elected republic.",
+   "textbook_ref": "iess301.txt lines 415-485",
+   "question_patterns": [
+    "who were the Jacobins and who was their prominent leader",
+    "explain the term sans-culottes and their distinctive style of dress",
+    "how did France transition from constitutional monarchy to a republic in 1792",
+    "describe the events of 10 August 1792 at the Palace of Tuileries",
+    "what was the role of political clubs during the French revolutionary period"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify Jacobin composition and leadership",
+     "explain": "Jacobins comprised small artisans and workers led by Robespierre, adopting striped long trousers to distinguish themselves from aristocrats."
+    },
+    {
+     "step": 2,
+     "action": "explain formation of National Convention",
+     "explain": "Parisians stormed Tuileries on 10 August 1792, suspended royalty, and elected the Convention, which declared France a Republic on 21 September 1792."
+    }
+   ]
+  },
+  {
+   "id": "iess.301.4.2",
+   "title": "Reign of Terror under Robespierre",
+   "section": "3.1",
+   "definition": "The period from 1793 to 1794 characterized by Robespierre's harsh policies of state control, price ceilings, rationing, and execution by guillotine.",
+   "formula": "",
+   "key_idea": "State control and violent suppression of perceived political enemies defined the Reign of Terror.",
+   "textbook_ref": "iess301.txt lines 480-530",
+   "question_patterns": [
+    "why is the period from 1793 to 1794 referred to as the Reign of Terror",
+    "describe the economic control measures implemented by Robespierre's government",
+    "what was the guillotine and how was it utilized during the Reign of Terror",
+    "how did Robespierre enforce socio-economic equality in daily French life",
+    "explain the circumstances that led to the downfall and execution of Robespierre"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "summarize political suppression",
+     "explain": "Suspected political opponents were arrested, tried by revolutionary tribunals, and executed via the guillotine."
+    },
+    {
+     "step": 2,
+     "action": "detail socio-economic regulations",
+     "explain": "The state imposed maximum price and wage limits, rationed bread/meat, banned white flour, and renamed titles to Citoyen and Citoyenne."
+    }
+   ]
+  },
+  {
+   "id": "iess.301.5.1",
+   "title": "Role and Demands of Women in the Revolution",
+   "section": "4",
+   "definition": "Women actively participated in revolution through political clubs like the Society of Revolutionary and Republican Women, demanding equal voting and civil rights.",
+   "formula": "",
+   "key_idea": "Women fought for civil and political rights, facing suppression under the Terror before securing suffrage in 1946.",
+   "textbook_ref": "iess301.txt lines 550-630",
+   "question_patterns": [
+    "describe the role played by women during the French Revolution",
+    "what were the main demands of women's political clubs in France",
+    "who was Olympe de Gouges and what was her contribution to women's rights",
+    "how did the revolutionary government modify laws concerning women's marriage and education",
+    "when did women in France finally win the right to vote"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify political mobilization and leaders",
+     "explain": "Women formed around sixty political clubs and Olympe de Gouges authored the Declaration of the Rights of Woman and Citizen."
+    },
+    {
+     "step": 2,
+     "action": "examine legal reforms and long-term suffrage outcome",
+     "explain": "Early revolutionary laws mandated schooling for girls and legalized civil marriage contracts, though female political voting was only granted in 1946."
+    }
+   ]
+  },
+  {
+   "id": "iess.301.6.1",
+   "title": "Triangular Slave Trade and Abolition in French Colonies",
+   "section": "5",
+   "definition": "A maritime commercial network connecting Europe, Africa, and Americas to supply plantation commodities, abolished by Convention in 1794 and permanently in 1848.",
+   "formula": "",
+   "key_idea": "Port prosperity relied on forced labor until colonial slavery was legally eradicated.",
+   "textbook_ref": "iess301.txt lines 635-680",
+   "question_patterns": [
+    "explain the operation of the triangular slave trade between Europe, Africa, and the Americas",
+    "which French port cities grew prosperous due to the flourishing slave trade",
+    "when was slavery first abolished in French colonies and who reintroduced it",
+    "why was the National Assembly hesitant to abolish slavery in the late 18th century",
+    "in which year was slavery permanently abolished in all French possessions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe triangular commerce",
+     "explain": "French merchants bought African slaves from coastal chieftains and transported them to Caribbean plantations supplying tobacco, sugar, indigo, and coffee."
+    },
+    {
+     "step": 2,
+     "action": "trace legislative history of abolition",
+     "explain": "The Convention abolished colonial slavery in 1794, Napoleon reinstated it in 1804, and final complete abolition was achieved in 1848."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iess301.txt lines 115-135",
+   "concept": "iess.301.1.2",
+   "question_type": "compute",
+   "question_pattern": "calculate the tithe payable on an agricultural produce of {produce} quintals",
+   "extracted_variables": {
+    "produce": 500
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide total agricultural produce by 10",
+     "explain": "tithe is defined as one-tenth of the harvested agricultural produce",
+     "compute": "tithe = produce / 10"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iess301.txt lines 115-135",
+   "concept": "iess.301.1.2",
+   "question_type": "compute",
+   "question_pattern": "find the church tax tithe when the total harvest is {produce} kg",
+   "extracted_variables": {
+    "produce": 1200
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide total agricultural produce by 10",
+     "explain": "tithe is defined as one-tenth of the harvested agricultural produce",
+     "compute": "tithe = produce / 10"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "iess301.txt lines 315-345",
+   "concept": "iess.301.3.1",
+   "question_type": "compute",
+   "question_pattern": "calculate the minimum tax required to become an active citizen if the daily wage is {daily_wage} livres",
+   "extracted_variables": {
+    "daily_wage": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply daily wage by 3",
+     "explain": "active citizen status required direct tax equivalent to at least 3 days of a labourer's wage",
+     "compute": "min_tax = 3 * daily_wage"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "iess301.txt lines 315-345",
+   "concept": "iess.301.3.1",
+   "question_type": "compute",
+   "question_pattern": "find the tax threshold for voting rights when a labourer earns {daily_wage} livres per day",
+   "extracted_variables": {
+    "daily_wage": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply daily wage by 3",
+     "explain": "active citizen status required direct tax equivalent to at least 3 days of a labourer's wage",
+     "compute": "min_tax = 3 * daily_wage"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.301.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "describe the structure of French society during the Old Regime",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify social divisions",
+     "explain": "French society comprised the First Estate (clergy), Second Estate (nobility), and Third Estate (commoners including merchants, peasants, and workers)."
+    },
+    {
+     "step": 2,
+     "action": "analyze tax burdens and privileges",
+     "explain": "First and Second Estates enjoyed tax exemptions by birth and extracted feudal dues, whereas the Third Estate alone paid direct and indirect state taxes."
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.301.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "explain the privileges enjoyed by the first two estates in France",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify social divisions",
+     "explain": "French society comprised the First Estate (clergy), Second Estate (nobility), and Third Estate (commoners including merchants, peasants, and workers)."
+    },
+    {
+     "step": 2,
+     "action": "analyze tax burdens and privileges",
+     "explain": "First and Second Estates enjoyed tax exemptions by birth and extracted feudal dues, whereas the Third Estate alone paid direct and indirect state taxes."
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.301.1.3",
+   "question_type": "verify_property",
+   "question_pattern": "explain how a subsistence crisis occurred in France during the Old Regime",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "trace demographic and supply factors",
+     "explain": "Population growth from 23 million to 28 million increased foodgrain demand faster than production could match."
+    },
+    {
+     "step": 2,
+     "action": "examine price-wage gap and crop failure impact",
+     "explain": "Bread prices escalated while fixed wages failed to keep pace, worsening into famine whenever bad weather ruined harvests."
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.301.1.3",
+   "question_type": "verify_property",
+   "question_pattern": "what factors led to frequent subsistence crises in 18th century France",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "trace demographic and supply factors",
+     "explain": "Population growth from 23 million to 28 million increased foodgrain demand faster than production could match."
+    },
+    {
+     "step": 2,
+     "action": "examine price-wage gap and crop failure impact",
+     "explain": "Bread prices escalated while fixed wages failed to keep pace, worsening into famine whenever bad weather ruined harvests."
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.301.1.4",
+   "question_type": "verify_property",
+   "question_pattern": "examine the role of philosophers in inspiring the French Revolution",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify key thinkers and books",
+     "explain": "Locke wrote Two Treatises of Government, Rousseau authored The Social Contract, and Montesquieu penned The Spirit of the Laws."
+    },
+    {
+     "step": 2,
+     "action": "summarize core doctrines",
+     "explain": "Locke refuted royal divine right, Rousseau proposed representative social contracts, and Montesquieu advocated legislative, executive, and judicial power division."
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.301.1.4",
+   "question_type": "verify_property",
+   "question_pattern": "what ideas were proposed by John Locke in Two Treatises of Government",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify key thinkers and books",
+     "explain": "Locke wrote Two Treatises of Government, Rousseau authored The Social Contract, and Montesquieu penned The Spirit of the Laws."
+    },
+    {
+     "step": 2,
+     "action": "summarize core doctrines",
+     "explain": "Locke refuted royal divine right, Rousseau proposed representative social contracts, and Montesquieu advocated legislative, executive, and judicial power division."
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.301.2.1",
+   "question_type": "verify_property",
+   "question_pattern": "why was the meeting of the Estates General called on 5 May 1789",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify assembly purpose and representation",
+     "explain": "Louis XVI summoned 300 clergy, 300 nobles, and 600 Third Estate delegates to approve new tax proposals."
+    },
+    {
+     "step": 2,
+     "action": "analyze voting dispute",
+     "explain": "Third Estate demanded one vote per member instead of one vote per estate; royal rejection prompted their protest walkout."
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.301.2.1",
+   "question_type": "verify_property",
+   "question_pattern": "explain the disagreement over voting procedure in the Estates General",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify assembly purpose and representation",
+     "explain": "Louis XVI summoned 300 clergy, 300 nobles, and 600 Third Estate delegates to approve new tax proposals."
+    },
+    {
+     "step": 2,
+     "action": "analyze voting dispute",
+     "explain": "Third Estate demanded one vote per member instead of one vote per estate; royal rejection prompted their protest walkout."
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.301.2.2",
+   "question_type": "verify_property",
+   "question_pattern": "what was the significance of the Tennis Court Oath in 1789",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "explain Tennis Court Oath",
+     "explain": "Led by Mirabeau and Sieyes, delegates pledged to remain assembled until drafting a constitution to constrain royal power."
+    },
+    {
+     "step": 2,
+     "action": "detail popular rebellion",
+     "explain": "Parisians stormed the Bastille on 14 July 1789, while rural panic sparked peasant attacks on chateaux, forcing abolition of feudalism on 4 August 1789."
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.301.2.2",
+   "question_type": "verify_property",
+   "question_pattern": "who led the Third Estate during the assembly at the indoor tennis court",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "explain Tennis Court Oath",
+     "explain": "Led by Mirabeau and Sieyes, delegates pledged to remain assembled until drafting a constitution to constrain royal power."
+    },
+    {
+     "step": 2,
+     "action": "detail popular rebellion",
+     "explain": "Parisians stormed the Bastille on 14 July 1789, while rural panic sparked peasant attacks on chateaux, forcing abolition of feudalism on 4 August 1789."
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.301.3.2",
+   "question_type": "verify_property",
+   "question_pattern": "what were natural and inalienable rights according to the Declaration of 1791",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify natural rights",
+     "explain": "Rights to life, speech, opinion, and equality before law were established as inherent human rights that state law must protect."
+    },
+    {
+     "step": 2,
+     "action": "interpret key symbols",
+     "explain": "Broken chains represented liberation from servitude, red Phrygian cap symbolized freed slaves, and fasces denoted strength through unity."
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.301.3.2",
+   "question_type": "verify_property",
+   "question_pattern": "explain the meaning of visual political symbols like the broken chain and Phrygian cap",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify natural rights",
+     "explain": "Rights to life, speech, opinion, and equality before law were established as inherent human rights that state law must protect."
+    },
+    {
+     "step": 2,
+     "action": "interpret key symbols",
+     "explain": "Broken chains represented liberation from servitude, red Phrygian cap symbolized freed slaves, and fasces denoted strength through unity."
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.301.4.1",
+   "question_type": "verify_property",
+   "question_pattern": "who were the Jacobins and who was their prominent leader",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify Jacobin composition and leadership",
+     "explain": "Jacobins comprised small artisans and workers led by Robespierre, adopting striped long trousers to distinguish themselves from aristocrats."
+    },
+    {
+     "step": 2,
+     "action": "explain formation of National Convention",
+     "explain": "Parisians stormed Tuileries on 10 August 1792, suspended royalty, and elected the Convention, which declared France a Republic on 21 September 1792."
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.301.4.1",
+   "question_type": "verify_property",
+   "question_pattern": "explain the term sans-culottes and their distinctive style of dress",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify Jacobin composition and leadership",
+     "explain": "Jacobins comprised small artisans and workers led by Robespierre, adopting striped long trousers to distinguish themselves from aristocrats."
+    },
+    {
+     "step": 2,
+     "action": "explain formation of National Convention",
+     "explain": "Parisians stormed Tuileries on 10 August 1792, suspended royalty, and elected the Convention, which declared France a Republic on 21 September 1792."
+    }
+   ]
+  },
+  {
+   "id": "ex19",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.301.4.2",
+   "question_type": "verify_property",
+   "question_pattern": "why is the period from 1793 to 1794 referred to as the Reign of Terror",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "summarize political suppression",
+     "explain": "Suspected political opponents were arrested, tried by revolutionary tribunals, and executed via the guillotine."
+    },
+    {
+     "step": 2,
+     "action": "detail socio-economic regulations",
+     "explain": "The state imposed maximum price and wage limits, rationed bread/meat, banned white flour, and renamed titles to Citoyen and Citoyenne."
+    }
+   ]
+  },
+  {
+   "id": "ex20",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.301.4.2",
+   "question_type": "verify_property",
+   "question_pattern": "describe the economic control measures implemented by Robespierre's government",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "summarize political suppression",
+     "explain": "Suspected political opponents were arrested, tried by revolutionary tribunals, and executed via the guillotine."
+    },
+    {
+     "step": 2,
+     "action": "detail socio-economic regulations",
+     "explain": "The state imposed maximum price and wage limits, rationed bread/meat, banned white flour, and renamed titles to Citoyen and Citoyenne."
+    }
+   ]
+  },
+  {
+   "id": "ex21",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.301.5.1",
+   "question_type": "verify_property",
+   "question_pattern": "describe the role played by women during the French Revolution",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify political mobilization and leaders",
+     "explain": "Women formed around sixty political clubs and Olympe de Gouges authored the Declaration of the Rights of Woman and Citizen."
+    },
+    {
+     "step": 2,
+     "action": "examine legal reforms and long-term suffrage outcome",
+     "explain": "Early revolutionary laws mandated schooling for girls and legalized civil marriage contracts, though female political voting was only granted in 1946."
+    }
+   ]
+  },
+  {
+   "id": "ex22",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.301.5.1",
+   "question_type": "verify_property",
+   "question_pattern": "what were the main demands of women's political clubs in France",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify political mobilization and leaders",
+     "explain": "Women formed around sixty political clubs and Olympe de Gouges authored the Declaration of the Rights of Woman and Citizen."
+    },
+    {
+     "step": 2,
+     "action": "examine legal reforms and long-term suffrage outcome",
+     "explain": "Early revolutionary laws mandated schooling for girls and legalized civil marriage contracts, though female political voting was only granted in 1946."
+    }
+   ]
+  },
+  {
+   "id": "ex23",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.301.6.1",
+   "question_type": "verify_property",
+   "question_pattern": "explain the operation of the triangular slave trade between Europe, Africa, and the Americas",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "describe triangular commerce",
+     "explain": "French merchants bought African slaves from coastal chieftains and transported them to Caribbean plantations supplying tobacco, sugar, indigo, and coffee."
+    },
+    {
+     "step": 2,
+     "action": "trace legislative history of abolition",
+     "explain": "The Convention abolished colonial slavery in 1794, Napoleon reinstated it in 1804, and final complete abolition was achieved in 1848."
+    }
+   ]
+  },
+  {
+   "id": "ex24",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.301.6.1",
+   "question_type": "verify_property",
+   "question_pattern": "which French port cities grew prosperous due to the flourishing slave trade",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "describe triangular commerce",
+     "explain": "French merchants bought African slaves from coastal chieftains and transported them to Caribbean plantations supplying tobacco, sugar, indigo, and coffee."
+    },
+    {
+     "step": 2,
+     "action": "trace legislative history of abolition",
+     "explain": "The Convention abolished colonial slavery in 1794, Napoleon reinstated it in 1804, and final complete abolition was achieved in 1848."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex301.1",
+   "source_ref": "iess301.txt lines 715-730",
+   "questions": [
+    "Describe the circumstances leading to the outbreak of revolutionary protest in France.",
+    "Which groups of French society benefited from the revolution? Which groups were forced to relinquish power? Which sections of society would have been disappointed with the outcome of the revolution?",
+    "Describe the legacy of the French Revolution for the peoples of the world during the nineteenth and twentieth centuries.",
+    "Draw up a list of democratic rights we enjoy today whose origins could be traced to the French Revolution.",
+    "Would you agree with the view that the message of universal rights was beset with contradictions? Explain.",
+    "How would you explain the rise of Napoleon?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_10_007",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_10_007",
+   "title": "c12_biotech_cbse_10_007",
+   "questions": [
+    {
+     "q": "Name the six major mechanistic categories of cancer gene therapy approaches and give one specific therapeutic gene example for each category.",
+     "a": "The six categories with examples: (1) Suicide gene therapy — HSV-tk (herpes simplex virus thymidine kinase); (2) Tumor suppressor gene replacement — TP53 (p53); (3) Immunogene therapy — IL-2, IL-12, or GM-CSF cytokine genes; (4) Anti-angiogenesis gene therapy — endostatin or angiostatin genes; (5) Oncolytic virotherapy — genetically modified adenovirus (e.g., ONYX-015/T-VEC); (6) RNAi-based therapy — siRNA against oncogenes like BCL2 or MYC. A wrong answer that lists \"CAR-T therapy\" as a gene therapy category reveals confusion between cell therapy (engineered T cells) and direct in vivo gene delivery; CAR-T is adoptive cell transfer, not gene therapy per se.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why adenoviral vectors are preferred over retroviral vectors for in vivo solid tumor gene therapy, but retroviral/lentiviral vectors are used for ex vivo hematopoietic cell modification (as in SCID-ADA therapy).",
+     "a": "Adenoviral vectors transduce non-dividing cells efficiently (critical for solid tumors where many cells are quiescent), have high titer production, and do not integrate into host genome (reducing insertional mutagenesis risk), but give transient expression and trigger strong immune responses. Retroviral/lentiviral vectors integrate into host genome, providing stable long-term expression essential for correcting genetic defects in stem cells, but require dividing cells for integration (suitable for ex vivo cultured hematopoietic progenitors) and carry insertional oncogenesis risk. A wrong answer stating \"adenoviruses integrate\" reveals a fundamental misunderstanding of vector biology; adenoviral DNA remains episomal.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to design a suicide gene therapy for glioblastoma using the HSV-tk/GCV system. The tumor has poor vascularization and heterogeneous cell proliferation. Propose a vector delivery strategy and justify your choice considering the blood-brain barrier, tumor heterogeneity, and bystander effect.",
+     "a": "Use an oncolytic adenovirus (e.g., conditionally replicative adenovirus like ONYX-015) engineered to express HSV-tk, delivered via convection-enhanced delivery (CED) directly into tumor parenchyma. Justification: (1) CED bypasses blood-brain barrier; (2) oncolytic adenovirus replicates selectively in p53-defective tumor cells, amplifying vector spread through heterogeneous tumor; (3) HSV-tk phosphorylates GCV to toxic GCV-triphosphate, which passes through gap junctions to kill neighboring non-transduced cells (bystander effect), addressing heterogeneity. A wrong answer suggesting systemic IV injection of AAV-HSV-tk reveals ignorance of BBB impermeability to viral vectors and AAV's limited cargo capacity for therapeutic genes plus regulatory elements.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast Gendicine (approved in China, 2003) and T-VEC (approved in USA/EU, 2015) in terms of: (a) vector type, (b) therapeutic gene/mechanism, (c) cancer indication, (d) route of administration. What does this comparison reveal about the evolution of cancer gene therapy strategies?",
+     "a": "Gendicine: (a) replication-deficient adenovirus (Ad-p53); (b) TP53 tumor suppressor replacement — restores apoptosis, cell cycle arrest; (c) head and neck squamous cell carcinoma (HNSCC); (d) intratumoral injection. T-VEC: (a) oncolytic herpes simplex virus type 1 (HSV-1) with ICP34.5 deletion and GM-CSF insertion; (b) oncolytic virotherapy + immunogene therapy — selective replication in tumor cells, lysis releases antigens, GM-CSF recruits dendritic cells; (c) unresectable melanoma; (d) intralesional injection. Evolution revealed: shift from single-gene replacement (first generation) to armed oncolytic viruses combining direct oncolysis with immune stimulation (second generation), acknowledging tumor microenvironment's role. A wrong answer claiming both use retroviral vectors reveals inability to distinguish vector platforms.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"RNAi-based gene therapy (siRNA/shRNA) is superior to tumor suppressor gene replacement for treating p53-mutant cancers because it can knock down multiple oncogenes simultaneously.\"",
+     "a": "The statement is flawed. While RNAi can target multiple oncogenes (e.g., siRNA cocktail against BCL2, MYC, VEGF), it faces: (1) delivery challenges — naked siRNA degrades rapidly, requires lipid nanoparticles (LNPs) or viral vectors for shRNA; (2) off-target effects and immune stimulation (TLR3/7 activation); (3) transient effect (siRNA) or integration risk (shRNA lentiviral); (4) cannot restore lost tumor suppressor function — p53 loss requires protein restoration, not just oncogene knockdown. Tumor suppressor replacement (e.g., Ad-p53) directly addresses the root cause in p53-mutant tumors. Superiority depends on context: RNAi for oncogene addiction (e.g., BCR-ABL in CML), gene replacement for tumor suppressor loss. A wrong answer agreeing uncritically reveals failure to distinguish loss-of-function vs gain-of-function targets and ignorance of RNAi delivery hurdles in vivo.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical combinatorial gene therapy regimen for pancreatic ductal adenocarcinoma (PDAC) incorporating two distinct mechanistic strategies. Specify: (a) the two strategies, (b) therapeutic genes, (c) vector system(s), (d) delivery route, (e) rationale for synergy. Justify each choice using PDAC biology (dense stroma, hypovascularity, KRAS mutation, immunosuppressive microenvironment).",
+     "a": "A strong answer: (a) Strategy 1: Oncolytic virotherapy + immunogene therapy; Strategy 2: Anti-angiogenesis + suicide gene therapy. (b) Genes: Strategy 1 — oncolytic adenovirus (Δ24-RGD) expressing GM-CSF; Strategy 2 — AAV vector co-expressing endostatin and HSV-tk. (c) Vectors: conditionally replicative adenovirus (targets Rb-pathway defective PDAC cells) + AAV2/8 (good pancreatic tropism). (d) Delivery: image-guided intratumoral injection for adenovirus; systemic IV for AAV (crosses stroma via enhanced permeability). (e) Synergy: oncolysis releases tumor antigens + GM-CSF recruits DCs → anti-tumor immunity; endostatin normalizes vasculature → improves adenovirus spread and GCV delivery for HSV-tk bystander killing; normalized vessels also enhance T cell infiltration. A poor answer using only one vector type or ignoring stromal barrier reveals lack of integration of tumor biology with vector engineering.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

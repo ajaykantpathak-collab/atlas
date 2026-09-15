@@ -1,0 +1,131 @@
+{
+  "class": 12,
+  "subject": "applied_maths",
+  "chapter": 7,
+  "chapter_title": "Financial Mathematics",
+  "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am12_007_financial_mathematics.txt",
+  "concepts": [
+    {
+      "id": "am12_007.1",
+      "title": "EMI Amortization of Loans",
+      "definition": "An equated monthly instalment (EMI) repays both interest and principal in equal periodic payments over the loan term. For principal P at periodic rate r over n periods, EMI = P r (1+r)^n / ((1+r)^n - 1); each payment first covers that period's interest, the remainder reduces the principal, which is amortization.",
+      "formula": "k = (1 + r) ** n",
+      "key_idea": "Early EMIs are mostly interest because interest is charged on the outstanding principal; as the principal falls, the interest slice shrinks and the principal slice grows.",
+      "question_patterns": [
+        "Find the EMI for a loan of {p} at {r} per period for {n} periods.",
+        "A loan of {p} is repaid in {n} equal instalments at rate {r}; compute the instalment.",
+        "In amortization, why does the interest part of an EMI fall over time?",
+        "Compute the total interest paid over the loan if the EMI is {emi} for {n} payments.",
+        "What does amortization schedule of a loan show?"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"compute": "k = (1 + r) ** n"},
+        {"compute": "km1 = k - 1"},
+        {"compute": "emi = p * r * k / km1"},
+        {"compute": "total_paid = emi * n"},
+        {"compute": "interest = total_paid - p"}
+      ]
+    },
+    {
+      "id": "am12_007.2",
+      "title": "Compound Annual Growth Rate",
+      "definition": "The compound annual growth rate (CAGR) is the constant yearly rate at which an initial value V0 must grow to reach a final value V1 after n years: CAGR = (V1/V0)^(1/n) - 1. It smooths uneven year-to-year growth into one equivalent rate.",
+      "formula": "g = (v1 / v0) ** (1 / n) - 1",
+      "key_idea": "CAGR ignores the path and keeps only the endpoints: a value that doubled in 8 years has CAGR 2^(1/8) - 1, about 9 percent per year, whatever the swings in between.",
+      "question_patterns": [
+        "A company's revenue grew from {v0} to {v1} in {n} years; find the CAGR.",
+        "Find the compound annual growth rate between the two given values.",
+        "If sales grow at CAGR {g} percent, what will the value be after {n} years?",
+        "Why is CAGR better than the average of yearly growth rates?",
+        "An investment of {v0} became {v1} in {n} years; express the growth as one annual rate."
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"compute": "g = (v1 / v0) ** (1 / n) - 1"},
+        {"compute": "g_pct = g * 100"}
+      ]
+    },
+    {
+      "id": "am12_007.3",
+      "title": "Depreciation Written Down Value",
+      "definition": "Depreciation is the fall in an asset's value with use and age. Under the written down value method the asset loses a fixed percentage d of its current value each year, so value after n years = cost times (1 - d/100)^n, a compound decay.",
+      "formula": "value = cost * (1 - d / 100) ** n",
+      "key_idea": "The percentage applies to the reducing balance, not the original cost, so early years show larger absolute depreciation. Scrap value is what remains after n years.",
+      "question_patterns": [
+        "A machine costing {cost} depreciates at {d} percent per year; find its value after {n} years.",
+        "Find the scrap value of an asset after {n} years at {d} percent written down depreciation.",
+        "By what factor does an asset's value multiply over {n} years at {d} percent per year?",
+        "Compare straight-line and written down value depreciation.",
+        "A vehicle bought for {cost} loses {d} percent yearly; when is it worth half?"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"compute": "factor = 1 - d / 100"},
+        {"compute": "value = cost * factor ** n"},
+        {"compute": "loss = cost - value"}
+      ]
+    },
+    {
+      "id": "am12_007.4",
+      "title": "Annuity Present and Future Value",
+      "definition": "An annuity is a sequence of equal periodic payments A. The future value after n periods at rate r is FV = A ((1+r)^n - 1) / r, the accumulated amount of every payment with interest. The present value is PV = A (1 - (1+r)^(-n)) / r, the lump sum today that finances the whole stream.",
+      "formula": "k = (1 + r) ** n",
+      "key_idea": "Future value asks what the stream grows into; present value asks what it is worth today. A loan valuation is the present value of its repayment stream, which is why PV of the EMIs equals the principal.",
+      "question_patterns": [
+        "Find the future value of an annuity of {a} per period for {n} periods at {r} per period.",
+        "What lump sum today equals an annuity of {a} for {n} periods at {r}?",
+        "Compute the present value of the annuity and verify it funds all payments.",
+        "A sinking fund receives {a} per period at {r}; find the corpus after {n} periods.",
+        "Distinguish present value from future value of an annuity."
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"compute": "k = (1 + r) ** n"},
+        {"compute": "fv = a * (k - 1) / r"},
+        {"compute": "pv = a * (1 - 1 / k) / r"}
+      ]
+    },
+    {
+      "id": "am12_007.5",
+      "title": "Perpetuity and Perpetual Payments",
+      "definition": "A perpetuity is an annuity that pays forever. Because n grows without bound, its present value collapses to PV = A / r: the lump sum whose periodic interest exactly funds the payment A forever, leaving the principal intact.",
+      "formula": "pv = a / r",
+      "key_idea": "No growth term survives in a perpetuity: an infinite stream has a finite value because distant payments are discounted to almost nothing. Endowed scholarships and consul bonds are classic perpetuities.",
+      "question_patterns": [
+        "Find the present value of a perpetuity paying {a} per period at rate {r}.",
+        "How much money must be endowed to fund {a} forever at {r} percent?",
+        "What is a perpetuity and why does it have a finite value?",
+        "At what rate does a payment of {a} forever cost {pv} today?",
+        "Compare the present value of a 100-year annuity with a perpetuity at the same rate."
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"compute": "pv = a / r"}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "q": "A loan of 500000 at 0.8 percent per month is repaid over 60 months. Find the EMI and total interest.",
+      "a": "r = 0.008, n = 60. (1.008)^60 is about 1.6130. EMI = 500000 x 0.008 x 1.6130 / 0.6130, which is about 10525. Total paid = 10525 x 60 = 631500, so total interest is about 131500."
+    },
+    {
+      "q": "A machine bought for 800000 depreciates at 10 percent per year under the written down value method. Find its book value after 3 years.",
+      "a": "Factor = 0.9. Value = 800000 x 0.9^3 = 800000 x 0.729 = 583200. Total depreciation over 3 years = 800000 - 583200 = 216800."
+    }
+  ],
+  "exercises": [
+    {
+      "group": "drill",
+      "items": [
+        "Find the EMI for 1200000 at 9 percent per annum monthly rest for 15 years.",
+        "Revenue grew from 40 crore to 90 crore in 6 years; find the CAGR.",
+        "Find the future value of 5000 deposited every quarter for 4 years at 8 percent p.a. compounded quarterly.",
+        "Find the PV of a perpetuity of 12000 per year at 6 percent.",
+        "An asset of 250000 depreciates at 20 percent; find the value after 2 years.",
+        "Show that PV of the EMI stream equals the loan principal."
+      ]
+    }
+  ]
+}

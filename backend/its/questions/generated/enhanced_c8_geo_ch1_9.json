@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_geo_ch1_9",
+ "concepts": [
+  {
+   "id": "enh:c8_geo_ch1_9",
+   "title": "c8_geo_ch1_9",
+   "questions": [
+    {
+     "q": "Which renewable energy resource harnesses heat trapped deep within the Earth's interior crust?\n(A) Solar energy\n(B) Geothermal energy\n(C) Hydroelectric energy\n(D) Biomass energy",
+     "a": "(B) Geothermal energy. If a student chooses Solar or Biomass energy, it reveals that they confuse subterranean terrestrial heat with surface-level atmospheric or organic energy sources.",
+     "self_check": true
+    },
+    {
+     "q": "Why are mountain rivers in northern India (like the Satluj or Bhagirathi) better suited for high-capacity hydroelectric plants than rivers in the Peninsular plateau (like the Godavari)?",
+     "a": "Himalayan rivers are perennial (fed by melting glaciers and rain) and flow down steep mountain slopes providing continuous, high-velocity water drop, whereas Peninsular rivers are seasonal (monsoon-dependent) with flatter gradients. A wrong answer attributing this solely to rainfall shows a misunderstanding of how steep elevation gradient ( relief ) combined with continuous water source is essential for hydro power generation.",
+     "self_check": true
+    },
+    {
+     "q": "A development board must select a site for a 500 MW solar plant. Site A is a flat desert region in western Rajasthan with 320 sunny days annually. Site B is a dense valley in Meghalaya with heavy forest canopy and high yearly monsoon rainfall. Which site should be chosen, and why?",
+     "a": "Site A (Rajasthan) must be chosen because solar photovoltaic generation requires high direct solar insolation, clear cloudless skies, and unshaded open land. Site B suffers from heavy cloud cover, rainfall, and canopy shade, which severely reduce solar panel efficiency. A wrong answer selecting Site B reveals failure to apply local atmospheric conditions (cloudiness/insolation) to energy site selection.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the table below comparing two potential sites for a wind farm:\n\n| Location | Average Wind Speed | Terrain Topography |\n| :--- | :--- | :--- |\n| Location X | 24 km/h | Flat open coastal plain |\n| Location Y | 7 km/h | Deep mountain basin enclosed by high ridges |\n\nWhich location is viable for commercial wind energy production? Explain using atmospheric friction and topography.",
+     "a": "Location X is viable because efficient wind turbines require high, uninterrupted wind speeds (generally above 12-15 km/h). Flat open coastal plains offer minimal surface friction, allowing steady wind flow. Location Y has low wind speeds because surrounding high mountain ridges obstruct wind movement and create friction, making energy generation unviable. Selecting Location Y reveals a failure to analyze topographic obstruction and wind speed thresholds.",
+     "self_check": true
+    },
+    {
+     "q": "A proposed large dam on a Himalayan river will generate 1,000 MW of renewable hydro power, but it will also submerge 40 square kilometers of virgin forest and displace three mountain villages. Evaluate whether this energy project is completely sustainable.",
+     "a": "The project is NOT completely sustainable. Although hydroelectricity generates clean energy during operation, submerging forests destroys ecosystems, releases methane from decaying vegetation, causes biodiversity loss, and creates social displacement. True sustainability requires balancing environmental, social, and economic factors. A wrong answer stating it is 100% sustainable just because water is renewable shows a failure to evaluate broader ecological and human geographical impacts.",
+     "self_check": true
+    },
+    {
+     "q": "Design a localized renewable energy strategy for a cold desert village in Ladakh (high altitude, thin air, 300 clear sunny days, natural hot springs in nearby tectonic faults, extremely cold winter, frozen surface rivers). Propose TWO energy sources best suited for this location and justify your choice.",
+     "a": "The ideal dual strategy is Solar energy and Geothermal energy. Clear skies and high elevation allow high solar radiation capture during sunny days, while Geothermal energy from local hot springs (like Puga Valley) provides continuous baseline heating and electricity during severe winters when rivers freeze solid. An answer relying on hydroelectric power shows failure to recognize that surface water freezes in cold desert winters, hindering hydro power generation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_al_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_al_cbse_01_002",
+   "title": "c12_hin_al_cbse_01_002",
+   "questions": [
+    {
+     "q": "Identify the five stages of Freytag's Pyramid in correct order and give a one-line description of each stage's function in a traditional linear narrative.",
+     "a": "Correct order: Exposition (introduces setting, characters, initial situation), Rising Action (builds conflict through complications), Climax (turning point of maximum tension), Falling Action (consequences of climax unfold), Resolution (conflict resolved, new equilibrium). A wrong answer that swaps Rising Action and Climax reveals the student confuses tension-building with the peak moment. A wrong answer that omits Exposition shows they don't grasp that structure requires a baseline before disruption.",
+     "self_check": true
+    },
+    {
+     "q": "In \"ल्वज्नकल ध >कसईम+h\", the opening scene shows ल्वज्नकल sitting alone while others prepare for a festival. Later, through dialogue, we learn he was once the family's provider. Explain why the author chooses to show the present isolation BEFORE revealing the past dignity, rather than telling the story chronologically.",
+     "a": "The author uses in medias res opening with flashback to create immediate empathy through contrast — the reader sees the \"before\" and \"after\" simultaneously, making the loss palpable. Chronological telling would dilute the emotional impact by normalizing the decline. A wrong answer saying \"to create suspense\" misunderstands the genre — this is not a mystery but a social realism piece where the tragedy is known, the focus is on systemic neglect. A wrong answer saying \"it's just the author's style\" avoids analyzing structural purpose.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"parallel plot\" to this story: Identify two narrative threads that run simultaneously and explain how their convergence at the end structures the story's resolution.",
+     "a": "Thread 1: ल्वज्नकल's physical decline and attempts to assert agency (building the wall, refusing to leave). Thread 2: The family's performative care masking neglect (फेअकवक's questioning, ह्क्स्जा's ledger). They converge when ल्वज्नकल completes the wall — his final act of creation coincides with their final act of erasure (taking the ledger). The structural convergence forces the reader to compare agency vs. complicity. A wrong answer listing \"characters\" instead of \"threads\" confuses character with plot structure. A wrong answer missing the convergence point fails to see how structure creates meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the narrative perspective shifts in the final third of the story (from ल्वज्नकल's limited view to include फेअकवक's internal monologue and the omniscient description of the wall). What structural purpose does this shift serve?",
+     "a": "The shift from tight third-person (ल्वज्नकल) to omniscient narration in the final pages structurally enacts the protagonist's loss of narrative control — just as he loses his home and voice, the narrative \"escapes\" him. The omniscient view of the wall standing alone after his death creates structural irony: his creation outlives his story. A wrong answer calling it \"head-hopping\" treats it as error rather than deliberate structural choice. A wrong answer saying \"to show everyone's feelings\" misses the thematic link between narrative authority and human dignity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The cyclical structure of the story (opening and closing with the same image of the wall) makes the ending inevitable and therefore reduces tragic impact.\" Defend or refute using structural evidence.",
+     "a": "Refute. Cyclical structure here amplifies tragedy through structural irony — the wall begins as protection and ends as monument. The repetition with variation (empty wall vs. wall with ledger) shows what changed: ल्वज्नकल's absence is now physically marked. Inevitability in tragedy is not a flaw but a feature — the structure mimics social determinism where the elderly are always discarded. A wrong answer agreeing reveals confusion between \"predictable\" and \"inevitable\" — structural inevitability is thematic, not a spoiler. A wrong answer ignoring the variation between opening/closing images misses the structural nuance.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 5-sentence micro-fiction that uses a non-linear structure (flashback or frame narrative) to tell the story of an elderly person's last day, where the structural choice reveals something a linear telling would hide.",
+     "a": "A strong answer uses structure deliberately: e.g., opens with the funeral, flashes to morning tea where the elderly person laughs, returns to funeral where no one mentions the laughter — the structure hides the joy from the mourners, mirroring how society erases the full humanity of the elderly. A poor answer writes a linear story with a flashback tacked on at the end (\"He remembered...\") — this uses flashback as decoration, not structural architecture. A poor answer with no time shifts fails the constraint entirely.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

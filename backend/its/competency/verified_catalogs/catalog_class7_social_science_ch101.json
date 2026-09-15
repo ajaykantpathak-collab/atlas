@@ -1,0 +1,392 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 101,
+ "chapter_title": "Tracing Changes Through a Thousand Years",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hecu107.txt",
+ "concepts": [
+  {
+   "id": "gess.101.1.1",
+   "title": "Evolution of Cartography and Historical Maps",
+   "section": "Introduction and Maps",
+   "definition": "The systematic study and drafting of maps reflecting geographic knowledge, navigation requirements, and spatial perceptions of distinct chronological eras.",
+   "formula": "none",
+   "key_idea": "Cartographic perspectives transformed across centuries from inverted symbolic layouts to detailed coastal navigation charts.",
+   "textbook_ref": "gess101.txt lines 1-40",
+   "question_patterns": [
+    "How do the medieval maps of al-Idrisi and the eighteenth-century French cartographer differ?",
+    "Explain why coastal areas were drawn with greater detail in eighteenth-century maps.",
+    "What is a cartographer and how did their techniques change over time?",
+    "Compare the orientation of south India and Sri Lanka in early Arabic maps versus later European atlases.",
+    "Why must historians consider the historical context when examining ancient maps?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the cartographer and era of creation",
+     "explain": "Determine whether the map originates from the twelfth century Arab tradition or eighteenth century European maritime mapping."
+    },
+    {
+     "step": 2,
+     "action": "Analyze spatial orientation and coastal precision",
+     "explain": "Contrast the inverted southern orientation of al-Idrisi with the accurate coastal depictions created for European sea voyages."
+    },
+    {
+     "step": 3,
+     "action": "Contextualize historical purpose",
+     "explain": "Evaluate how different socio-economic needs shaped the geographic precision and nomenclature used on the maps."
+    }
+   ]
+  },
+  {
+   "id": "gess.101.1.2",
+   "title": "Shifting Meanings of Historical Terminology",
+   "section": "New and Old Terminologies",
+   "definition": "The semantic evolution of vocabulary where geographic, social, and political terms alter their scope and definitions over consecutive historical periods.",
+   "formula": "none",
+   "key_idea": "Words such as Hindustan and foreigner held distinct regional and cultural meanings in the past compared to modern usage.",
+   "textbook_ref": "gess101.txt lines 41-95",
+   "question_patterns": [
+    "In what ways has the meaning of the term Hindustan changed over the centuries?",
+    "How was the term foreigner defined during the medieval period compared to today?",
+    "Contrast the territorial usage of Hindustan by Minhaj-i Siraj with that of Babur.",
+    "Why do historians need to be cautious about language and terminology when analyzing old records?",
+    "Explain how Amir Khusrau used the term Hind in the fourteenth century."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the historical period and speaker",
+     "explain": "Locate whether the term is being used by a Delhi Sultanate chronicler, a Mughal emperor, or modern citizens."
+    },
+    {
+     "step": 2,
+     "action": "Trace the territorial or social boundaries intended",
+     "explain": "Examine if the term indicates the Punjab-Yamuna river plains, the entire subcontinent's ecology, or a modern nation-state."
+    },
+    {
+     "step": 3,
+     "action": "State the semantic divergence",
+     "explain": "Highlight the shift from localized political domains to broad national or legal definitions."
+    }
+   ]
+  },
+  {
+   "id": "gess.101.1.3",
+   "title": "Textual Records, Paper, and Manuscript Preservation",
+   "section": "Historians and their Sources",
+   "definition": "The reliance on handwritten documents, religious treatises, state archives, and official chronicles enabled by the growing availability of manufactured paper.",
+   "formula": "none",
+   "key_idea": "The dramatic increase in affordable paper made textual records the primary documentary source for medieval Indian history.",
+   "textbook_ref": "gess101.txt lines 96-150",
+   "question_patterns": [
+    "Why did textual records displace other sources of historical information between 700 and 1750?",
+    "What is an archive and what materials were preserved there during medieval times?",
+    "How did the availability and cost of paper change between the thirteenth and fourteenth centuries?",
+    "Which groups collected manuscripts and where were they stored?",
+    "Describe the different purposes for which paper was used in the medieval era."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the growth in paper production",
+     "explain": "Note how paper became cheaper and widely accessible compared to earlier eras."
+    },
+    {
+     "step": 2,
+     "action": "Classify the varieties of written materials",
+     "explain": "Catalog holy texts, chronicles, judicial petitions, tax registers, and administrative records."
+    },
+    {
+     "step": 3,
+     "action": "Describe preservation institutions",
+     "explain": "Detail how wealthy patrons, monasteries, and rulers established archives and libraries to store handwritten manuscripts."
+    }
+   ]
+  },
+  {
+   "id": "gess.101.1.4",
+   "title": "Scribal Copying and Textual Variations",
+   "section": "Historians and their Sources",
+   "definition": "The emergence of unintended editorial alterations, handwriting misinterpretations, and cumulative discrepancies arising from manual manuscript duplication.",
+   "formula": "none",
+   "key_idea": "Hand copying without printing presses introduced small gradual changes that made later manuscript versions significantly diverge from original texts.",
+   "textbook_ref": "gess101.txt lines 151-195",
+   "question_patterns": [
+    "What problems do historians face when using manuscripts copied by scribes?",
+    "How did scribal errors compound over successive generations of manuscript copying?",
+    "Compare the Nastaliq and Shikaste scripts and their ease of reading.",
+    "Why was the fourteenth-century chronicler Ziyauddin Barani revised version unnoticed for centuries?",
+    "Explain the importance of comparing multiple manuscript copies of the same historical work."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Recognize the absence of printing technology",
+     "explain": "Understand that medieval manuscripts had to be replicated entirely by hand by scribes."
+    },
+    {
+     "step": 2,
+     "action": "Trace the accumulation of copying variations",
+     "explain": "Identify how scribes inserted minor modifications or guessed words due to differing cursive scripts."
+    },
+    {
+     "step": 3,
+     "action": "Formulate historical reconciliation methods",
+     "explain": "Explain why historians collate multiple versions to reconstruct the original intent of the author."
+    }
+   ]
+  },
+  {
+   "id": "gess.101.1.5",
+   "title": "Technological Innovations and Agrarian Expansion",
+   "section": "New Social and Political Groups",
+   "definition": "The adoption of novel mechanical implements and foreign crops alongside large-scale forest clearance that transformed cultivation and settlement patterns.",
+   "formula": "none",
+   "key_idea": "The Persian wheel, spinning wheel, firearms, and newly introduced crops stimulated agricultural productivity and demographic movement.",
+   "textbook_ref": "gess101.txt lines 196-245",
+   "question_patterns": [
+    "What new technologies made their appearance in the Indian subcontinent between 700 and 1750?",
+    "List the new food crops and beverages that arrived in the subcontinent during the medieval period.",
+    "How did the introduction of the Persian wheel transform agricultural practices?",
+    "Explain the factors that prompted forest-dwellers to migrate and take up peasant livelihoods.",
+    "Describe the relationship between technological diffusion and population mobility in medieval India."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Enumerate technological innovations",
+     "explain": "Identify the Persian wheel for irrigation, the spinning wheel for weaving, and firearms in combat."
+    },
+    {
+     "step": 2,
+     "action": "Identify imported crops and foods",
+     "explain": "List the arrival of potatoes, corn, chillies, tea, and coffee."
+    },
+    {
+     "step": 3,
+     "action": "Examine environmental and lifestyle impacts",
+     "explain": "Link land clearance to the conversion of tribal forest-dwellers into settled agricultural peasants."
+    }
+   ]
+  },
+  {
+   "id": "gess.101.1.6",
+   "title": "Rise of New Social Groups and the Jati System",
+   "section": "New Social and Political Groups",
+   "definition": "The stratification of medieval society into occupational sub-castes governed by internal customary codes, regional councils, and village authorities.",
+   "formula": "none",
+   "key_idea": "Jatis framed their own internal conduct rules enforced by elders while remaining subject to broader village governance.",
+   "textbook_ref": "gess101.txt lines 246-300",
+   "question_patterns": [
+    "How were the affairs of jatis regulated in medieval society?",
+    "What role did the jati panchayat play in managing community conduct?",
+    "Who were the Rajputs and what qualities were attributed to them by bards?",
+    "How did occupational differentiation lead to shifting social ranks within jatis?",
+    "Explain how forest clearing and taxation integrated new peasant groups into complex societies."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze the emergence of sub-castes",
+     "explain": "Observe how communities were categorized into jatis based on economic occupations and ancestry."
+    },
+    {
+     "step": 2,
+     "action": "Examine internal governance mechanisms",
+     "explain": "Describe the assembly of elders or jati panchayat enforcing specific behavioral rules."
+    },
+    {
+     "step": 3,
+     "action": "Determine village-level integration",
+     "explain": "Show how jatis operated as subordinate units within the wider administration of the village."
+    }
+   ]
+  },
+  {
+   "id": "gess.101.1.7",
+   "title": "Pan-Regional Empires and Linguistic Diversity",
+   "section": "Region and Empire",
+   "definition": "The expansion of dynastic states across diverse ecological zones and the coexistence of local regional tongues alongside trans-regional languages like Sanskrit.",
+   "formula": "none",
+   "key_idea": "Large empires integrated distinct linguistic regions while leaving lasting administrative, economic, and cultural traditions.",
+   "textbook_ref": "gess101.txt lines 301-375",
+   "question_patterns": [
+    "What is meant by a pan-regional empire and which dynasties built them?",
+    "How did Amir Khusrau describe the linguistic landscape of fourteenth-century India?",
+    "Why did poets write exaggerated prashastis praising rulers like Ghiyasuddin Balban?",
+    "What was the status of Sanskrit compared to regional vernaculars according to Amir Khusrau?",
+    "Describe the political consequences of the decline of the Mughal Empire in the eighteenth century."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define pan-regional imperial structures",
+     "explain": "Identify empires like the Cholas, Khaljis, Tughluqs, and Mughals that spanned varied territories."
+    },
+    {
+     "step": 2,
+     "action": "Assess linguistic variation",
+     "explain": "List the regional vernaculars mapped by Amir Khusrau and contrast them with elite pan-Indian Sanskrit."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate post-imperial regional legacies",
+     "explain": "Show how regional realms retained shared administrative traditions and cultural integration after imperial fragmentation."
+    }
+   ]
+  },
+  {
+   "id": "gess.101.1.8",
+   "title": "Transformations in Religious Traditions and Bhakti",
+   "section": "Old and New Religions",
+   "definition": "The evolution of devotional practices, patronage of priestly classes, rise of personalized devotion without elaborate rituals, and the advent of Islam.",
+   "formula": "none",
+   "key_idea": "Major developments included temple patronization by rulers, the rise of the Brahmanas, the growth of Bhakti, and diverse theological traditions within Islam.",
+   "textbook_ref": "gess101.txt lines 376-435",
+   "question_patterns": [
+    "What were some of the major religious developments during the medieval period?",
+    "Explain how the position of Brahmanas was consolidated through royal patronage.",
+    "What is the core idea of the Bhakti movement that emerged during this period?",
+    "How did Islam establish itself in the subcontinent and what were its primary traditions?",
+    "Distinguish between the Shia and Sunni schools of Islamic legal and theological thought."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Outline institutional developments in Hinduism",
+     "explain": "Highlight the worship of new deities, royal temple construction, and prestige of Brahmanas as Sanskrit scholars."
+    },
+    {
+     "step": 2,
+     "action": "Define the Bhakti philosophy",
+     "explain": "Explain the concept of direct, loving devotion to a personal deity accessible without priest mediation."
+    },
+    {
+     "step": 3,
+     "action": "Detail the introduction and facets of Islam",
+     "explain": "Describe the teachings of the Quran, the role of ulama, and the emergence of Shia, Sunni, and mystic legal traditions."
+    }
+   ]
+  },
+  {
+   "id": "gess.101.1.9",
+   "title": "Periodisation and Historical Division of Time",
+   "section": "Thinking about Time and Historical Periods",
+   "definition": "The analytical categorisation of historical epochs based on socio-economic transformations rather than simple chronologies or communal divisions of rulers.",
+   "formula": "none",
+   "key_idea": "Modern historians organize the past according to economic and social dynamics rather than the British communal tripartite model.",
+   "textbook_ref": "gess101.txt lines 436-495",
+   "question_patterns": [
+    "How do historians divide the past into periods and what challenges do they encounter?",
+    "Why do modern historians reject the British division of Indian history into Hindu, Muslim, and British periods?",
+    "What problems arise when characterizing the thousand years from 700 to 1750 as a single medieval unit?",
+    "How does the concept of modernity contrast with the depiction of the medieval era?",
+    "Why are socio-economic factors preferred over the religion of rulers for historical periodisation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Critique colonial periodisation",
+     "explain": "Identify the flaws in nineteenth-century British periodisation that categorized epochs solely by the religion of the ruling monarch."
+    },
+    {
+     "step": 2,
+     "action": "Apply socio-economic indicators",
+     "explain": "Use agrarian expansion, commercial integration, urbanisation, and religious movements as markers of historical transition."
+    },
+    {
+     "step": 3,
+     "action": "Recognize continuity across boundaries",
+     "explain": "Acknowledge that dynamic economic and intellectual changes spanned the eighth through eighteenth centuries."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gess101.txt lines 41-95",
+   "concept": "gess.101.1.2",
+   "question_type": "conceptual_verification",
+   "question_pattern": "Explain the changing meaning of the term Hindustan across medieval and modern times.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Examine thirteenth century usage",
+     "explain": "Minhaj-i Siraj used the term in a political sense to describe lands of Punjab, Haryana, and the Ganga-Yamuna doab under the Delhi Sultanate."
+    },
+    {
+     "step": 2,
+     "action": "Examine sixteenth century usage",
+     "explain": "Babur employed the term to describe the geography, wildlife, and cultural habits of the inhabitants of the entire subcontinent."
+    },
+    {
+     "step": 3,
+     "action": "Compare with contemporary meaning",
+     "explain": "Today Hindustan is treated as synonymous with the modern nation-state of India possessing sovereign political borders."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gess101.txt lines 436-495",
+   "concept": "gess.101.1.9",
+   "question_type": "conceptual_verification",
+   "question_pattern": "Discuss the drawbacks of the periodisation proposed by British historians for Indian history.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the colonial classification basis",
+     "explain": "British historians divided Indian history into Hindu, Muslim, and British periods based exclusively on the religion of the monarchs."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate historical inaccuracy and bias",
+     "explain": "This categorization ignored rich economic, cultural, and technological diversities and assumed static societies under varying faiths."
+    },
+    {
+     "step": 3,
+     "action": "Present the modern historiographical approach",
+     "explain": "Modern scholars focus on social and economic transitions such as agrarian growth, state formations, and trade integration."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex101.1",
+   "source_ref": "gess101.txt lines 500-545",
+   "questions": [
+    "Who was considered a foreigner in the past?",
+    "State whether true or false: We do not find inscriptions for the period after 700.",
+    "State whether true or false: The Marathas asserted their political importance during this period.",
+    "State whether true or false: Forest-dwellers were sometimes pushed out of their lands with the spread of agricultural settlements.",
+    "State whether true or false: Sultan Ghiyasuddin Balban controlled Assam, Manipur and Kashmir.",
+    "Fill in the blanks: Archives are places where manuscripts and documents are kept.",
+    "Fill in the blanks: Ziyauddin Barani was a fourteenth-century chronicler.",
+    "List some of the technological changes associated with this period.",
+    "What were some of the major religious developments during this period?",
+    "In what ways has the meaning of the term Hindustan changed over the centuries?",
+    "How were the affairs of jatis regulated?",
+    "What is meant by the term pan-regional empire?",
+    "What are the difficulties historians face in using manuscripts?",
+    "How do historians divide the past into periods? Do they face any problems in doing so?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "title-matched to new cache"
+}

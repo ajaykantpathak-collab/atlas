@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_13_009",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_13_009",
+   "title": "c12_hs_cbse_13_009",
+   "questions": [
+    {
+     "q": "What is the maximum pecuniary jurisdiction of the District Consumer Disputes Redressal Forum under the Consumer Protection Act 1986?",
+     "a": "The District Forum can entertain complaints where the value of goods/services and compensation claimed does not exceed ₹20 lakh. A wrong answer (e.g., ₹1 crore or no limit) reveals confusion between the three tiers' monetary limits — a frequent board exam error where students swap District and State Commission limits.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Consumer Protection Act 1986 created a three-tier redressal system instead of a single national forum.",
+     "a": "The three-tier system ensures access to justice at the local level (District Forum), reduces burden on higher forums, and provides an appeal hierarchy. A wrong answer focusing only on \"speed\" or \"cost\" misses the structural reasoning: decentralisation for accessibility, graded jurisdiction by claim value, and appellate review — all three are needed for full marks.",
+     "self_check": true
+    },
+    {
+     "q": "A consumer in Delhi buys a laptop worth ₹25 lakh that malfunctions. The seller refuses repair. Which forum should the consumer approach first, and what is the time limit to appeal if dissatisfied?",
+     "a": "The consumer must file in the State Commission (Delhi) because the claim exceeds ₹20 lakh but is within ₹1 crore. Appeal to the National Commission must be filed within 30 days of the State Commission's order. A wrong forum choice (District Forum) shows misunderstanding of pecuniary jurisdiction; missing the 30-day limit indicates ignorance of procedural deadlines.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the composition of the District Forum and the National Commission. Why does the National Commission have more members?",
+     "a": "District Forum: President (qualified as District Judge) + 2 members (one woman). National Commission: President (Supreme Court judge/retired) + 4+ members (one woman). The National Commission handles higher-value, complex cases and appeals, requiring broader expertise and quorum for bench decisions. A wrong answer stating identical composition ignores the Act's scaling of judicial capacity with case gravity.",
+     "self_check": true
+    },
+    {
+     "q": "\"Under the 1986 Act, a consumer can directly approach the National Commission for a claim of ₹5 lakh.\" Evaluate this statement.",
+     "a": "False. The National Commission's original jurisdiction starts at ₹1 crore. A ₹5 lakh claim must begin at the District Forum. Direct filing at a higher forum is not permitted — the Act mandates the ladder based on claim value. This tests whether the student understands that jurisdiction is mandatory, not optional.",
+     "self_check": true
+    },
+    {
+     "q": "Design a flowchart showing the path of a consumer complaint from filing to final appeal under the 1986 Act, including pecuniary thresholds and appeal time limits.",
+     "a": "A good flowchart has three boxes: District Forum (≤₹20 lakh) → appeal in 30 days → State Commission (₹20 lakh–₹1 crore) → appeal in 30 days → National Commission (>₹1 crore) → appeal to Supreme Court in 30 days. Missing thresholds, wrong time limits, or skipping the Supreme Court appeal indicates incomplete mental model of the hierarchy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

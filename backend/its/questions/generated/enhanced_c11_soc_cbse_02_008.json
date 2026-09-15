@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_02_008",
+   "title": "c11_soc_cbse_02_008",
+   "questions": [
+    {
+     "q": "Define honour killing in sociological terms as a form of social control, specifying the type of control (formal/informal), the nature of sanctions, and the normative framework it enforces.",
+     "a": "Honour killing is an extreme form of **informal social control** where **negative sanctions** (lethal violence) are applied by **primary groups (family) and community institutions (khap panchayats)** to enforce **normative conformity** to caste endogamy and patriarchal control over women's sexuality. A wrong answer would label it \"formal social control\" (confusing it with state punishment) or \"deviance by the killers\" (failing to see that from the community's perspective, the killing *restores* conformity — the victim was the deviant).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why honour killing is classified as \"informal\" social control despite involving murder, which is a crime under formal law. Use the distinction between codified/uncodified mechanisms and agencies of control.",
+     "a": "Honour killing is informal because it operates through **uncodified, unofficial mechanisms** (family pressure, community ostracism, khap panchayat diktats) and **non-state agencies** (kinship networks, caste councils), even though the *act* (murder) violates formal law. The *sanctioning process* — the decision to kill, the justification, the community approval — bypasses courts, police, and written statutes. A wrong answer would say \"it's informal because it's illegal\" (confusing legality with formality) or \"because no police are involved\" (describing absence rather than identifying the positive presence of informal agencies like khap panchayats).",
+     "self_check": true
+    },
+    {
+     "q": "A young woman from a dominant caste marries a Dalit man against her family's wishes. Her family kills her. The khap panchayat declares the killing \"necessary to protect community honour.\" Identify: (a) the specific norm violated, (b) the reference group whose norms are enforced, (c) the agencies of informal control activated, and (d) the type of sanction applied.",
+     "a": "(a) Norm violated: **caste endogamy** (marriage within one's caste) and **hypergamy prohibition** (dominant caste woman marrying lower caste man). (b) Reference group: the **caste community** (specifically the dominant caste group) whose collective identity and purity boundaries are maintained. (c) Agencies: **family** (primary group — parents, brothers), **khap panchayat** (caste council — secondary/community institution), **biradari/caste network** (wider kinship). (d) Sanction: **extreme negative sanction** — lethal violence (honour killing), functioning as both punishment for the \"deviant\" and deterrence for others. A wrong answer would miss the reference group (saying \"society at large\" instead of the specific caste group) or confuse the sanction type (calling it \"formal punishment\").",
+     "self_check": true
+    },
+    {
+     "q": "Compare honour killing with formal legal punishment for the same act (e.g., a court sentencing a murderer). Analyse how the *source of legitimacy*, *procedure*, *agency*, and *goal* differ between these two modes of social control, using the functionalist and conflict perspectives.",
+     "a": "| Dimension | Honour Killing (Informal) | Formal Legal Punishment |\n|-----------|---------------------------|-------------------------|\n| **Legitimacy source** | Collective sentiment, tradition, \"community honour\" | Constitution, enacted law, state sovereignty |\n| **Procedure** | No due process; kinship/panchayat deliberation; no defence | Codified procedure (CrPC); evidence, trial, appeal, defence counsel |\n| **Agency** | Family, khap panchayat, caste network (non-state) | Police, judiciary, prison system (state apparatus) |\n| **Goal (Functionalist)** | Restore social cohesion, reinforce collective conscience, maintain boundary | Deterrence, rehabilitation, maintain legal order |\n| **Goal (Conflict)** | Enforce dominant caste/patriarchal power; control women's sexuality/labour | Protect ruling class interests; but also provide formal equality before law |\n\nA wrong answer would equate the two (\"both punish wrongdoing\") or miss the conflict perspective (not seeing honour killing as power enforcement by dominant groups).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Honour killing is not deviance; it is conformity enforcement.\" Defend or critique this using the sociological concepts of deviance, norms, reference groups, and sanctions from Chapter 2.",
+     "a": "The statement is **sociologically defensible from the reference group's perspective**. Deviance is defined *relative to a group's norms*. For the **caste community (reference group)**, the *victim's* inter-caste marriage is the deviant act (violating endogamy norm). The *killing* is a **negative sanction** applied to the deviant to **enforce conformity** and signal boundary maintenance. However, from the **wider society/state's perspective** (legal-normative framework), the killing *is* deviance (murder). Thus, \"deviance\" is not an inherent property of an act but a **label applied by a specific normative framework**. A weak answer would take one side absolutely (\"it's murder, so it's deviance\") without analysing the *relativity of deviance to reference groups* — a core Chapter 2 concept.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a sociological explanation for why honour killings persist despite formal legal prohibition, integrating: (a) the strength of primary group ties, (b) the role of status honour in stratified societies, (c) the limitations of formal control in regulating intimate spheres, and (d) the intersection of caste and gender as ascribed statuses.",
+     "a": "A strong answer will weave these threads:\n(a) **Primary group ties** (family, kinship) generate intense loyalty and \"we-feeling\"; informal control here is \"potent and subtle\" (Berger) — the family *is* the primary agency of socialization and control.\n(b) **Status honour** (Weber) in caste society is collective, not individual; a woman's sexuality is the *symbolic carrier* of caste purity; violating endogamy threatens the group's honour hierarchy.\n(c) **Formal law** cannot easily penetrate the \"private\" sphere of family/marriage decisions; police/courts are distant, slow, and often socially aligned with dominant castes.\n(d) **Ascribed statuses**: Caste (birth) and gender (patriarchal role) intersect — the woman's achieved choice (love marriage) is nullified by her ascribed positions; the brother/son *enacts* his ascribed role as \"guardian of honour.\"\nA poor answer would list factors without integration (e.g., \"caste is strong, patriarchy exists, police are corrupt\") or treat them as independent causes rather than a *system of mutually reinforcing informal control mechanisms*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

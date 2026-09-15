@@ -1,0 +1,247 @@
+{
+ "class": 12,
+ "subject": "geography",
+ "chapter": 10,
+ "chapter_title": "Secondary Activities",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/legy105.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "legy.105.1",
+   "title": "Nature and Classification of Manufacturing",
+   "section": "Nature of Secondary Activities",
+   "definition": "Secondary activities transform raw materials into finished goods; manufacturing is classified by scale (artisan, craft, cottage, factory, large-scale), by raw material (agro-based, mineral-based, forest-based) and by ownership (public, private, joint, multinational).",
+   "formula": "",
+   "key_idea": "Value addition is the test of manufacturing: the product must be worth more than the raw materials and labour that entered it.",
+   "textbook_ref": "legy105.txt manufacturing classification sections",
+   "question_patterns": [
+    "define manufacturing and value addition",
+    "classify industries by scale of production",
+    "differentiate cottage from factory industry",
+    "give examples of agro-based and mineral-based industries",
+    "how does ownership distinguish public and joint sector units",
+    "what is a footloose industry's classification basis"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "test value addition",
+     "explain": "changing cotton cloth to garments raises worth, the definition of manufacturing"
+    },
+    {
+     "step": 2,
+     "action": "sort the bases",
+     "explain": "scale, raw material and ownership are three independent classification axes"
+    },
+    {
+     "step": 3,
+     "action": "close with examples",
+     "explain": "steel from ore and sugar from cane show mineral and agro bases"
+    }
+   ]
+  },
+  {
+   "id": "legy.105.2",
+   "title": "Location Factors of Industry",
+   "section": "Factors Influencing Industrial Location",
+   "definition": "Industrial location is decided by access to raw materials, market, labour, power, transport and capital, moderated by agglomeration economies and government policy; modern footloose and high-tech industries escape the raw material pull and follow skilled labour and communication networks.",
+   "formula": "",
+   "key_idea": "When raw material is weight-losing the factory moves to the source; when the product is perishable or heavy it moves to the market.",
+   "textbook_ref": "legy105.txt location factors and footloose industry sections",
+   "question_patterns": [
+    "list the major factors of industrial location",
+    "why do weight-losing industries locate near raw materials",
+    "what are agglomeration economies",
+    "define footloose industry and give its features",
+    "what distinguishes high-tech industries",
+    "how does government policy shift industrial location"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the pull factors",
+     "explain": "raw material, market, labour, power and transport anchor classical location theory"
+    },
+    {
+     "step": 2,
+     "action": "apply the weight rule",
+     "explain": "sugar and copper smelting move to sources because weight is lost in processing"
+    },
+    {
+     "step": 3,
+     "action": "close with footloose logic",
+     "explain": "software firms follow skilled minds and data links, not mines"
+    }
+   ]
+  },
+  {
+   "id": "legy.105.3",
+   "title": "Major Manufacturing Regions",
+   "section": "Some Theories of Manufacturing Location",
+   "definition": "Modern manufacturing is highly concentrated: the major manufacturing regions of North America, Europe and East Asia cover less than 10 per cent of the world's land area, so the remaining land share is about 90 per cent outside these belts.",
+   "formula": "non_manufacturing_share = 100 - manufacturing_land_share",
+   "key_idea": "Subtracting the manufacturing belt share from 100 gives the land share outside the great manufacturing regions.",
+   "textbook_ref": "legy105.txt distribution of manufacturing regions (less than 10 per cent of land)",
+   "question_patterns": [
+    "what share of land do major manufacturing regions cover",
+    "compute the land share outside manufacturing belts",
+    "name the world's major manufacturing regions",
+    "why does manufacturing concentrate in few places",
+    "relate agglomeration to regional concentration",
+    "how does the developing world enter manufacturing maps"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "record the manufacturing share",
+     "explain": "the belts cover about 10 per cent of land",
+     "compute": "manufacturing_land_share = 10"
+    },
+    {
+     "step": 2,
+     "action": "subtract from 100",
+     "explain": "the remainder lies outside the belts",
+     "compute": "non_manufacturing_share = 100 - manufacturing_land_share"
+    }
+   ]
+  },
+  {
+   "id": "legy.105.4",
+   "title": "Theories of Industrial Location",
+   "section": "Some Theories of Manufacturing Location",
+   "definition": "Location theory explains the best site for a plant: Weber's least-cost approach minimises transport and labour costs through locational triangles, while modern thinking adds agglomeration, government policy and innovation networks to the calculus.",
+   "formula": "",
+   "key_idea": "Weighing transport against labour and agglomeration costs is the durable core of industrial location reasoning.",
+   "textbook_ref": "legy105.txt least-cost theory and agglomeration discussions",
+   "question_patterns": [
+    "state Weber's least-cost theory and its locational triangle",
+    "how do labour and agglomeration modify transport costs",
+    "apply least-cost reasoning to a sugar mill",
+    "what role does government policy play in location",
+    "why do related industries cluster together",
+    "compare classical and modern location thinking"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "draw the triangle",
+     "explain": "two material sources and one market set Weber's minimum-cost geometry"
+    },
+    {
+     "step": 2,
+     "action": "add the modifiers",
+     "explain": "cheap labour or clustered services can pull the plant off the pure transport point"
+    },
+    {
+     "step": 3,
+     "action": "close with realism",
+     "explain": "policy zones and innovation districts reshape the classic map today"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_legy105_1",
+   "source_ref": "legy105.txt manufacturing distribution",
+   "concept": "legy.105.3",
+   "question_type": "compute",
+   "question_pattern": "Major manufacturing regions cover about 10 per cent of the world's land. Compute the land share outside these regions.",
+   "extracted_variables": {
+    "manufacturing_land_share": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "record the belt share",
+     "explain": "10 per cent of land lies under manufacturing belts",
+     "compute": "manufacturing_land_share = 10"
+    },
+    {
+     "step": 2,
+     "action": "subtract from 100",
+     "explain": "100 - 10 = 90 per cent lies outside",
+     "compute": "non_manufacturing_share = 100 - manufacturing_land_share"
+    }
+   ]
+  },
+  {
+   "id": "we_legy105_2",
+   "source_ref": "legy105.txt location factors",
+   "concept": "legy.105.2",
+   "question_type": "short_answer",
+   "question_pattern": "Why does a sugar mill locate near cane fields while a garment factory may locate in a city?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "weight-losing case",
+     "explain": "cane loses most of its weight in milling, so transport favours the field site"
+    },
+    {
+     "step": 2,
+     "action": "market-linked case",
+     "explain": "garments gain value per unit weight and need urban labour and fashion information"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "the weight-to-value ratio decides the pull of source versus market"
+    }
+   ]
+  },
+  {
+   "id": "we_legy105_3",
+   "source_ref": "legy105.txt footloose section",
+   "concept": "legy.105.2",
+   "question_type": "short_answer",
+   "question_pattern": "List three features that make a high-tech industry footloose.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "light raw material",
+     "explain": "chips and software carry little weight per rupee of value"
+    },
+    {
+     "step": 2,
+     "action": "skill dependence",
+     "explain": "researchers matter more than ore or cheap power"
+    },
+    {
+     "step": 3,
+     "action": "network link",
+     "explain": "data highways replace rail links as the vital connection"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_legy105_1",
+   "source_ref": "legy105.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "classify manufacturing by scale, raw material and ownership",
+    "compute the land share outside the major manufacturing regions",
+    "explain Weber's least-cost location theory",
+    "define footloose industries with examples",
+    "discuss agglomeration economies with a cluster example"
+   ]
+  },
+  {
+   "id": "ex_legy105_2",
+   "source_ref": "legy105.txt applied questions, reworded",
+   "questions": [
+    "argue the location logic of an aluminium smelter",
+    "contrast cottage and factory industry",
+    "evaluate high-tech regions like Silicon Valley",
+    "show how policy zones alter industrial geography",
+    "relate value addition to secondary activity definition"
+   ]
+  }
+ ]
+}

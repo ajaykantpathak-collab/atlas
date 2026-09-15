@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_04_005",
+   "title": "c11_chem_cbse_04_005",
+   "questions": [
+    {
+     "q": "What is the steric number and electron-pair geometry of the sulfite ion, SO₃²⁻?",
+     "a": "Steric number = 4 (three S–O bonding domains + one lone pair on S); electron-pair geometry = tetrahedral. A wrong answer (e.g., steric number 3, trigonal planar) reveals the student forgot to include the lone pair on sulfur or miscounted valence electrons (S:6, O:6×3=18, charge:+2 → total 26 e⁻; after three S–O bonds and octets on O, 2 e⁻ remain as a lone pair on S).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the bond angle in NH₃ (107°) is smaller than the ideal tetrahedral angle (109.5°) but larger than the H–O–H angle in H₂O (104.5°).",
+     "a": "NH₃ has one lone pair (lp–bp repulsion compresses angles from 109.5° to ~107°); H₂O has two lone pairs (lp–lp repulsion > lp–bp, so greater compression to ~104.5°). A wrong answer (e.g., \"both have one lone pair\" or \"electronegativity difference\") reveals confusion between number of lone pairs and the repulsion hierarchy (lp–lp > lp–bp > bp–bp).",
+     "self_check": true
+    },
+    {
+     "q": "Predict the molecular geometry and approximate bond angles for ClF₃. Show your reasoning stepwise.",
+     "a": "Step 1: Valence electrons = Cl(7) + 3×F(7) = 28 e⁻. Step 2: Lewis structure → Cl central, three Cl–F bonds, two lone pairs on Cl (3 bonding + 2 lone = 5 domains). Step 3: Steric number 5 → trigonal bipyramidal electron geometry. Step 4: Lone pairs occupy equatorial positions (minimizing lp–lp and lp–bp repulsions). Step 5: Molecular shape = T-shaped. Step 6: Equatorial F–Cl–F angle < 120° (lp–bp repulsion), axial F–Cl–F angle = 180° (ideal). Wrong answer (e.g., trigonal planar) reveals failure to place lone pairs in equatorial sites or misapplication of steric number.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the molecular geometries of XeF₂ and XeF₄. Why are both nonpolar despite having lone pairs?",
+     "a": "XeF₂: steric number 5 (2 bp + 3 lp) → linear molecular geometry (lone pairs equatorial). XeF₄: steric number 6 (4 bp + 2 lp) → square planar (lone pairs axial). Both are nonpolar because individual bond dipoles cancel symmetrically (linear: equal and opposite; square planar: four dipoles at 90° cancel in pairs). A wrong answer (e.g., \"XeF₂ is bent\") reveals ignorance of lone-pair positioning rules in trigonal bipyramidal/octahedral geometries.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In PF₅, all P–F bond lengths are equal because the molecule is trigonal bipyramidal.\" Evaluate this statement.",
+     "a": "The statement is false. In trigonal bipyramidal PF₅, axial P–F bonds are longer (more repulsion from three equatorial bp at 90°) than equatorial P–F bonds (repulsion from two axial bp at 90°). Experimental data: axial ~158 pm, equatorial ~153 pm. A wrong evaluation (agreeing) reveals the student thinks \"trigonal bipyramidal\" implies equivalence of all positions, ignoring the distinction between axial and equatorial sites.",
+     "self_check": true
+    },
+    {
+     "q": "Design a VSEPR-based argument to predict whether the hypothetical ion ICl₄⁻ would be square planar or tetrahedral. Justify your prediction with electron-domain counting and lone-pair placement.",
+     "a": "Valence electrons: I(7) + 4×Cl(7) + 1(charge) = 36 e⁻. Lewis structure: I central, four I–Cl bonds, two lone pairs on I → 6 electron domains (steric number 6). Electron geometry = octahedral. Two lone pairs occupy opposite (axial) positions to minimize lp–lp repulsion (180° apart). Molecular geometry = square planar. A poor answer (e.g., \"tetrahedral because four bonds\") reveals failure to count lone pairs on the central atom or to apply octahedral lone-pair placement rule.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

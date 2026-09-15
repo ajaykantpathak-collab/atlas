@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_06_005",
+   "title": "c11_biotech_cbse_06_005",
+   "questions": [
+    {
+     "q": "Define incomplete dominance and state the phenotypic ratio of the F2 generation when two F1 heterozygotes are crossed.",
+     "a": "Incomplete dominance is an allelic interaction where the heterozygous phenotype is intermediate between the two homozygous parental phenotypes. The F2 phenotypic ratio from crossing two F1 heterozygotes is 1:2:1 (e.g., 1 red : 2 pink : 1 white). A wrong answer like \"3:1\" reveals the student is still applying Mendelian dominance instead of recognizing the absence of a dominant-recessive relationship.",
+     "self_check": true
+    },
+    {
+     "q": "In codominance, the F1 heterozygote shows both parental phenotypes simultaneously. Explain why this is different from incomplete dominance using the example of cattle coat colour (roan) and four-o'clock plant flower colour.",
+     "a": "In codominance (roan cattle), the F1 heterozygote (RW) expresses both red and white hairs distinctly — no blending. In incomplete dominance (Mirabilis), the F1 heterozygote (Rr) produces pink flowers, a true blend of red and white pigments. A wrong answer that says \"both show blending\" or \"both show 3:1 ratio\" reveals confusion between the two non-Mendelian patterns and failure to grasp that codominance involves simultaneous expression, not intermediate expression.",
+     "self_check": true
+    },
+    {
+     "q": "A plant breeder crosses a homozygous red-flowered four-o'clock plant (RR) with a homozygous white-flowered one (rr). The F1 are all pink. If the breeder then crosses an F1 pink plant with a white-flowered plant, what are the expected phenotypic and genotypic ratios in the offspring? Show the cross using a Punnett square.",
+     "a": "Parental cross: RR × rr → F1 all Rr (pink). Test cross: Rr × rr. Gametes: R, r from pink; r from white. Punnett square gives 1 Rr : 1 rr → phenotypic ratio 1 pink : 1 white; genotypic ratio 1 Rr : 1 rr. A wrong answer giving 3:1 or 1:2:1 reveals the student cannot set up a test cross for incomplete dominance and still thinks in terms of dominant/recessive masking.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the F2 genotypic and phenotypic ratios for a monohybrid cross showing (a) complete dominance, (b) incomplete dominance, and (c) codominance. Why are the ratios identical for (b) and (c) but different from (a)?",
+     "a": "(a) Complete dominance: genotypic 1:2:1, phenotypic 3:1. (b) Incomplete dominance: both 1:2:1. (c) Codominance: both 1:2:1. In (b) and (c), every genotype has a distinct phenotype (no masking), so genotype count = phenotype count. In (a), two genotypes (TT, Tt) share the dominant phenotype, collapsing the phenotypic ratio to 3:1. A wrong answer that says \"all three have 3:1 phenotypic ratio\" shows the student does not understand that dominance hides heterozygotes phenotypically.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In codominance, the alleles blend like in incomplete dominance, but the blend is more visible.\" Evaluate this statement and correct it using the MN blood group system as evidence.",
+     "a": "The statement is false. In the MN blood group, genotype LMLM produces only M antigen, LNLN produces only N antigen, and LMLN produces both M and N antigens on the same red blood cell — no blending, no new antigen. The alleles are independently expressed. A wrong answer that agrees reveals the student conflates codominance with incomplete dominance and does not grasp that \"co-dominance\" means both alleles dominate in their own right.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new hypothetical example of incomplete dominance in a plant trait (not flower colour) and a codominance example in an animal trait (not coat colour or blood group). For each, specify the alleles, homozygous phenotypes, and heterozygous phenotype.",
+     "a": "Good answer: Incomplete dominance in tomato fruit size: allele F = large fruit, f = small fruit; FF = large, ff = small, Ff = medium fruit. Codominance in chicken feather pattern: allele S = striped feathers, s = solid feathers; SS = striped, ss = solid, Ss = both striped and solid feathers on same bird (distinct patches). Poor answer: using blending for both or giving human traits without distinct expression shows failure to differentiate the mechanisms.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

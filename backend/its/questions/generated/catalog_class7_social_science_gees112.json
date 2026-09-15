@@ -1,0 +1,99 @@
+{
+ "catalog": "catalog_class7_social_science_gees112",
+ "concepts": [
+  {
+   "id": "gees.12.1",
+   "title": "Understanding Markets",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Understanding Markets' refers to.",
+     "a": "A market is any arrangement where buyers and sellers meet to exchange goods and services at agreed prices; Adam Smith saw prosperity flow from markets, since people can obtain what they cannot make themselves.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Understanding Markets'.",
+     "a": "Markets turn strangers into partners: price and exchange let each person's skill serve everyone.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Understanding Markets' taught, and from which source text?",
+     "a": "Introduction (source: gees112.txt, Introduction)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gees.12.2",
+   "title": "Many Kinds of Markets",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Many Kinds of Markets' refers to.",
+     "a": "Markets come in many shapes: weekly haats, neighbourhood kirana shops, malls, online platforms, and wholesale mandis; each differs in scale, goods and the distance between producer and buyer.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Many Kinds of Markets'.",
+     "a": "Same work, many forms: every kind of market matches buyers and sellers in its own way.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Many Kinds of Markets' taught, and from which source text?",
+     "a": "Types of markets (source: gees112.txt, Types of markets)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gees.12.3",
+   "title": "The Chain of Markets",
+   "questions": [
+    {
+     "q": "Using the method 'The Chain of Markets', work with: costs = 120000, margins = 12, producer_price = 20000. Carry the chain through step by step and give the final value of final_price.",
+     "a": "140012 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'The Chain of Markets' and work with: costs = 120000, margins = 8, producer_price = 12000. Carry the chain through step by step and give the final value of final_price.",
+     "a": "132008 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'The Chain of Markets' refers to.",
+     "a": "Goods travel through a chain of markets: the producer sells to a wholesaler, the wholesaler to retailers, and retailers to consumers, each link adding transport, storage and a margin to the price.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Chain of Markets'.",
+     "a": "Every hand in the chain earns and adds cost: knowing the chain explains why prices differ from farm-gate rates.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'The Chain of Markets', in plain ASCII form.",
+     "a": "final_price = producer_price + costs + margins",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gees.12.4",
+   "title": "Being a Smart Consumer",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Being a Smart Consumer' refers to.",
+     "a": "Buyers must stay alert: check labels, dates and quality marks, compare prices, and use the BEE star ratings on electronic devices to weigh running cost, not just the sticker price.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Being a Smart Consumer'.",
+     "a": "An informed buyer disciplines the market: careful comparison rewards fair sellers and squeezes out poor goods.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Being a Smart Consumer' taught, and from which source text?",
+     "a": "Consumer awareness (source: gees112.txt, Consumer awareness)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

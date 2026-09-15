@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_02_002",
+   "title": "c12_math_cbse_02_002",
+   "questions": [
+    {
+     "q": "What is the principal value range of cos⁻¹ x, and why is this specific interval [0, π] chosen instead of [–π, 0] or [π, 2π]?",
+     "a": "The principal value range of cos⁻¹ x is [0, π]. This interval is chosen because cosine is one-to-one and onto from [0, π] to [–1, 1], and it includes the first quadrant angles (0 to π/2) where cosine is positive and the second quadrant angles (π/2 to π) where cosine is negative, covering the full range [–1, 1] exactly once. A wrong answer like [–π/2, π/2] reveals confusion with sin⁻¹'s range, while [–π, 0] shows misunderstanding that the conventional choice favors non-negative angles starting from 0.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"sin⁻¹(sin 5π/6) = 5π/6 because sin⁻¹ and sin cancel each other.\" Is this correct? Explain why or why not.",
+     "a": "This is incorrect. The principal value range of sin⁻¹ is [–π/2, π/2], but 5π/6 ≈ 2.618 rad lies outside this interval (since π/2 ≈ 1.57). The correct evaluation is sin⁻¹(sin 5π/6) = sin⁻¹(sin(π – 5π/6)) = sin⁻¹(sin π/6) = π/6. A student who says \"yes\" is applying the cancellation property sin⁻¹(sin x) = x without checking whether x lies in the principal branch [–π/2, π/2]. This is the most common error in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Find the principal value of: cot⁻¹(–√3)",
+     "a": "Let y = cot⁻¹(–√3). Then cot y = –√3. The principal range of cot⁻¹ is (0, π). In (0, π), cot is negative only in the second quadrant (π/2, π). We know cot(π/6) = √3, so cot(5π/6) = –cot(π/6) = –√3. And 5π/6 ∈ (0, π). So principal value = 5π/6. A wrong answer like –π/6 reveals the student used the tan⁻¹ range (–π/2, π/2) instead of cot⁻¹'s range (0, π), or they forgot that cot⁻¹'s range excludes negative angles.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the principal value branches of tan⁻¹ x and cot⁻¹ x. Why does tan⁻¹ have an open interval (–π/2, π/2) while cot⁻¹ has an open interval (0, π)? What happens at the endpoints?",
+     "a": "tan⁻¹ x has range (–π/2, π/2) because tan x is undefined at x = ±π/2 (vertical asymptotes), so these endpoints cannot be included. cot⁻¹ x has range (0, π) because cot x is undefined at x = 0 and x = π (where sin x = 0). Both are open intervals because the original functions have vertical asymptotes at the boundaries of their restricted domains. A student who writes [–π/2, π/2] for tan⁻¹ doesn't understand that tan(±π/2) is undefined, so the inverse cannot output those values. This distinction is crucial for limit problems in calculus.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Find the principal value of sec⁻¹(–2/√3)\" and writes: sec⁻¹(–2/√3) = –π/6 because sec(–π/6) = 2/√3. Identify the error and give the correct answer.",
+     "a": "Two errors: (1) sec(–π/6) = 2/√3, not –2/√3. (2) The principal range of sec⁻¹ is [0, π] – {π/2}, which does NOT include negative angles. Correct solution: sec y = –2/√3 ⇒ cos y = –√3/2. In [0, π] – {π/2}, cos is negative in (π/2, π). cos(5π/6) = –√3/2, and 5π/6 ∈ [0, π] – {π/2}. So principal value = 5π/6. The student likely confused sec⁻¹'s range with cos⁻¹'s range (both are [0, π] but sec⁻¹ excludes π/2) and also made a sign error.",
+     "self_check": true
+    },
+    {
+     "q": "Create a problem where a student must find the principal value of an inverse trigonometric function, but the input angle is deliberately outside the principal range, requiring them to use trigonometric identities to find an equivalent angle within the principal branch. Provide the problem and its solution.",
+     "a": "Problem: Find the principal value of sin⁻¹(sin 7π/6). Solution: 7π/6 ∉ [–π/2, π/2]. sin(7π/6) = sin(π + π/6) = –sin(π/6) = –1/2. Now sin⁻¹(–1/2) = –π/6 (since –π/6 ∈ [–π/2, π/2] and sin(–π/6) = –1/2). So principal value = –π/6. A good student-created problem would test the same concept with a different function, e.g., cos⁻¹(cos 4π/3) or tan⁻¹(tan 3π/4), and the solution must show the reduction step using periodicity/symmetry identities.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

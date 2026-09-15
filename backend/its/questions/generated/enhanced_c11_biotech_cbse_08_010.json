@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_08_010",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_08_010",
+   "title": "c11_biotech_cbse_08_010",
+   "questions": [
+    {
+     "q": "What is the exact nucleotide change and resulting amino acid substitution in the β-globin gene that causes sickle cell anaemia?",
+     "a": "The mutation is a single base substitution A→T at the sixth codon of the HBB gene (GAG → GTG), replacing glutamic acid (Glu, acidic, hydrophilic) with valine (Val, hydrophobic) at position 6 of the β-globin chain. A wrong answer (e.g., \"mutation in alpha globin\" or \"deletion of bases\") reveals the student confuses sickle cell with thalassemias or CF's ΔF508 deletion, indicating they haven't distinguished the specific molecular lesion for each disorder.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why HbS polymerizes only when deoxygenated, not in the oxygenated state, despite the valine substitution being present in both states.",
+     "a": "In deoxygenated HbS, the conformational change exposes a hydrophobic pocket on the β-chain that accommodates the valine-6 from another HbS molecule, enabling polymerization. In oxygenated Hb (R-state), this pocket is buried; valine-6 is solvent-exposed but cannot interact because the acceptor site is structurally unavailable. A wrong answer (e.g., \"oxygen binds to valine\" or \"polymerization happens in both states\") reveals the student doesn't understand the allosteric transition between T (tense) and R (relaxed) states of hemoglobin — a Class 11 biochemistry concept linking protein conformation to function.",
+     "self_check": true
+    },
+    {
+     "q": "A couple, both phenotypically normal, have a child with sickle cell anaemia. What is the probability their next child will be: (a) affected, (b) a carrier, (c) phenotypically normal non-carrier? Show the Punnett square.",
+     "a": "Both parents must be carriers (HbA/HbS). Punnett square: HbA/HbS × HbA/HbS → ¼ HbA/HbA (normal), ½ HbA/HbS (carrier), ¼ HbS/HbS (affected). (a) 25%, (b) 50%, (c) 25%. A wrong answer (e.g., 50% affected) reveals the student treats this as dominant inheritance or doesn't apply Mendel's law of segregation to autosomal recessive traits — a carryover error from Class 10 monohybrid crosses where they only practiced dominant/recessive phenotypes without carrier concepts.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the molecular mechanism of sickle cell anaemia and cystic fibrosis: both are autosomal recessive, but one involves a \"toxic gain-of-function\" while the other involves \"loss-of-function.\" Classify each and justify with molecular evidence.",
+     "a": "Sickle cell: toxic gain-of-function — mutant HbS acquires a novel pathological property (polymerization) not present in normal HbA; the mutant protein actively damages cells. Cystic fibrosis: loss-of-function — ΔF508 CFTR fails to reach the membrane; chloride transport is absent, causing downstream effects. A wrong classification (e.g., both as loss-of-function) reveals the student memorizes \"recessive = loss-of-function\" as a blanket rule without analyzing the actual protein behavior — a critical error for board questions asking to \"distinguish molecular basis.\"",
+     "self_check": true
+    },
+    {
+     "q": "A textbook states: \"The high frequency of sickle cell allele in malaria-endemic regions proves heterozygote advantage.\" Evaluate this claim. What specific molecular mechanism in HbA/HbS heterozygotes confers resistance to *Plasmodium falciparum*?",
+     "a": "The claim is correct but incomplete without mechanism. In HbA/HbS heterozygotes, *P. falciparum* infection induces sickling of parasitized RBCs at lower oxygen tension than normal, leading to enhanced phagocytosis of infected cells and reduced parasite replication. Additionally, impaired parasite growth occurs due to oxidative stress in HbS-containing cells. A wrong answer (e.g., \"carriers have better immunity\" without molecular detail) reveals the student knows the population genetics outcome but not the cellular mechanism — a common gap where evolution is taught without connecting to molecular pathophysiology.",
+     "self_check": true
+    },
+    {
+     "q": "Design a molecular diagnostic strategy to distinguish between: (i) sickle cell anaemia (HbS/HbS), (ii) sickle cell trait (HbA/HbS), and (iii) normal (HbA/HbA) using a single PCR-based assay. Specify the principle, primers, and expected results.",
+     "a": "Use allele-specific PCR or PCR-RFLP targeting the HBB codon 6. Principle: The A→T mutation abolishes a *MstII* restriction site (CCTNAGG) or creates a *DdeI* site. Primers flank codon 6. PCR-RFLP: Digest amplicon with *DdeI* → HbA allele cuts (two fragments), HbS allele uncut (one fragment). Gel electrophoresis: HbA/HbA = two bands; HbA/HbS = three bands; HbS/HbS = one band. A poor answer (e.g., \"sequence the gene\" without assay design) reveals the student cannot translate molecular knowledge into diagnostic application — a key competency for biotechnology board exams.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

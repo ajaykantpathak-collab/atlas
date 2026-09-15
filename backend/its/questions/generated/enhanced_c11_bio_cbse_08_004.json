@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_08_004",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_08_004",
+   "title": "c11_bio_cbse_08_004",
+   "questions": [
+    {
+     "q": "What are the three distinct layers of a mature plant cell wall, listed from outermost to innermost, and what is the primary chemical component of the middle lamella?",
+     "a": "The three layers are: middle lamella (outermost), primary wall, and secondary wall (innermost, adjacent to plasma membrane). The middle lamella is composed mainly of calcium pectate (calcium cross-linked polygalacturonic acid). A wrong answer (e.g., saying middle lamella is made of cellulose or that secondary wall is outermost) reveals confusion between the cementing layer and the structural layers, and misunderstanding of the developmental sequence where secondary wall is deposited after cell expansion ceases.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a young plant cell with only a primary wall remain capable of expansion, whereas a mature xylem vessel element with a thick secondary wall cannot expand further?",
+     "a": "The primary wall contains a loose network of cellulose microfibrils cross-linked by hemicelluloses and embedded in a hydrated pectin gel, allowing controlled slippage and creep under turgor pressure (acid growth mechanism). The secondary wall deposits lignin and additional cellulose layers with microfibrils oriented in a fixed, tight helix, creating a rigid, non-extensible cylinder. A wrong answer (e.g., \"primary wall is thinner\") misses the crucial distinction in polymer cross-linking chemistry and microfibril architecture that governs mechanical extensibility.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher treats onion epidermal cells with pectinase (degrades pectin) and cellulase (degrades cellulose) separately. Predict the effect of each treatment on: (a) cell shape maintenance in hypotonic solution, (b) intercellular adhesion, and (c) plasmodesmatal continuity.",
+     "a": "Pectinase: (a) cells become spherical (loss of shape) because pectin matrix no longer restrains cellulose microfibrils; (b) cells separate at middle lamella (loss of adhesion); (c) plasmodesmata remain intact initially but may become non-functional due to wall fragmentation. Cellulase: (a) cells lyse immediately as load-bearing cellulose network is destroyed; (b) adhesion lost as primary wall disintegrates; (c) plasmodesmata destroyed. Wrong predictions (e.g., pectinase causes lysis) indicate failure to distinguish structural roles: cellulose = tensile strength, pectin = matrix hydration and adhesion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cell wall composition of a green alga (e.g., Ulva) and a terrestrial angiosperm (e.g., mango). Explain how the differences reflect adaptation to aquatic vs. terrestrial environments.",
+     "a": "Algal wall: cellulose + sulfated galactans (agar/carrageenan) + mannans + calcium carbonate; no lignin, little pectin. Terrestrial plant wall: cellulose + hemicellulose (xyloglucan) + pectin + structural proteins + lignin (in secondary walls). Aquatic environment provides buoyancy, so algal walls need flexible, hydrated polysaccharides for osmotic balance and flexibility in currents. Terrestrial plants require lignin for mechanical support against gravity, hydrophobic barriers (suberin/cutin) to prevent desiccation, and pectin-mediated adhesion for tissue integrity. A wrong comparison (e.g., saying algae have lignin) shows ignorance of the evolutionary innovation of lignin in vascular plants.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Plasmodesmata are simply holes punched through the cell wall that allow free diffusion of any molecule between plant cells.\"",
+     "a": "The statement is incorrect. Plasmodesmata are membrane-lined channels (plasma membrane continuous through the wall) with a central desmotubule (ER derivative). Transport is highly regulated: size exclusion limit (SEL) typically ~1 kDa for passive diffusion, but can be dilated by viral movement proteins or developmental signals to allow RNA/protein trafficking. Callose deposition at the neck regulates permeability. Free diffusion of \"any molecule\" would compromise cellular autonomy and signaling. A student accepting the statement fails to understand the symplast as a regulated continuum, not an open syncytium.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using locally available plant materials (e.g., potato, carrot, spinach) to demonstrate that cell wall composition differs between storage tissue (parenchyma) and mechanical tissue (collenchyma/sclerenchyma). Specify the stain/chemical test, expected observation, and conclusion.",
+     "a": "Experiment: Cut transverse sections of potato tuber (storage parenchyma) and celery petiole (collenchyma strands). Stain with Phloroglucinol-HCl (Wiesner test) for lignin, and Ruthenium Red for pectin. Observation: Potato shows intense pink (pectin-rich primary walls), no lignin. Celery collenchyma shows red (lignin) at corners. Conclusion: Storage parenchyma retains pectin-rich primary walls for flexibility and hydration; mechanical tissue deposits lignin for rigidity. A poor design (e.g., using only iodine for starch) tests storage content, not wall composition, missing the structure-function link.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

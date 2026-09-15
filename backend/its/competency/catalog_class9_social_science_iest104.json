@@ -1,0 +1,100 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 4,
+ "chapter_title": "Early Humans and Beginning of Civilisation",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iest104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iest.104.4.1",
+   "title": "Life of Early Humans: Hunting-Gathering",
+   "section": "4",
+   "definition": "Before civilisation, humans lived as hunting-gathering bands, moving with seasons and animals, using stone tools and fire, and leaving their story in rock paintings and tool sites that archaeologists excavate.",
+   "formula": "-",
+   "key_idea": "Move, hunt, gather, adapt: early life followed the rhythm of nature.",
+   "textbook_ref": "iest104.txt opening sections (how humans lived before civilisation)",
+   "question_patterns": [
+    "how did humans live before the beginning of civilisation",
+    "what did early humans eat and how did they get it",
+    "why did early humans keep moving from place to place",
+    "what role did fire and stone tools play in their life",
+    "what do rock paintings tell us about early humans",
+    "how do archaeologists learn about hunter-gatherers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "picture the economy",
+     "explain": "Hunting animals and gathering food sustained small mobile bands."},
+    {"step": 2, "action": "note the tools",
+     "explain": "Stone tools and fire changed what humans could eat and where they could live."},
+    {"step": 3, "action": "read the remains",
+     "explain": "Tools, bones and paintings are the evidence of this age."}
+   ]
+  },
+  {
+   "id": "iest.104.4.2",
+   "title": "The Agricultural Revolution",
+   "section": "4",
+   "definition": "Learning to grow crops and tame animals transformed human life: farming fixed people to fields, surplus food supported larger settlements, and villages grew where hunting bands had wandered - the first step towards civilisation.",
+   "formula": "-",
+   "key_idea": "Seeds changed history: agriculture rooted people and produced surplus.",
+   "textbook_ref": "iest104.txt sections on the beginning of farming",
+   "question_patterns": [
+    "how did farming begin - describe the transition",
+    "why is the beginning of agriculture called a revolution",
+    "what changes did farming bring to human life",
+    "name the early crops and domesticated animals",
+    "how did surplus food change society",
+    "compare the life of hunter-gatherers and early farmers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "trace the discovery of farming",
+     "explain": "Observing growth cycles led to deliberate sowing."},
+    {"step": 2, "action": "note the settlement",
+     "explain": "Fields tied families to one place; huts became villages."},
+    {"step": 3, "action": "note the surplus",
+     "explain": "Extra grain freed some people for crafts and leadership."}
+   ]
+  },
+  {
+   "id": "iest.104.4.3",
+   "title": "The Beginning of Civilisation",
+   "section": "4",
+   "definition": "Civilisation flowered where surplus, cities and organisation met: river valleys supported writing, monumental building, craft specialisation, trade and organised states - marking a decisive new stage in the human story.",
+   "formula": "-",
+   "key_idea": "Surplus built cities, cities demanded writing and states: civilisation's toolkit.",
+   "textbook_ref": "iest104.txt sections on the beginning of civilisation",
+   "question_patterns": [
+    "what are the markers of a civilisation",
+    "why did civilisations grow in river valleys",
+    "what is the role of writing in a civilisation",
+    "how did cities differ from villages in early civilisations",
+    "name the features common to early civilisations",
+    "explain the link between surplus and specialisation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "list the markers",
+     "explain": "Cities, writing, crafts, trade and organised rule mark civilisations."},
+    {"step": 2, "action": "explain the river valleys",
+     "explain": "Fertile silt and water made surplus reliable."},
+    {"step": 3, "action": "trace the organisation",
+     "explain": "Managers, scribes and rulers coordinated the complex society."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "iest104.txt exercises",
+   "questions": [
+     "Describe the life of hunting-gathering communities.",
+     "Explain the changes brought by the beginning of agriculture.",
+     "List the features of early civilisations with examples."
+   ]
+  }
+ ]
+}

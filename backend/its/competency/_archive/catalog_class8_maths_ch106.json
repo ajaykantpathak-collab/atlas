@@ -1,0 +1,628 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 106,
+ "chapter_title": "Cubes and Cube Roots",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hemh106.txt",
+ "concepts": [
+  {
+   "id": "hemh.106.1",
+   "title": "Hardy-Ramanujan Numbers",
+   "section": "6.1",
+   "definition": "Counting numbers that can be built by adding two cubes in more than one way (1729 = 1^3 + 12^3 = 9^3 + 10^3).",
+   "formula": "N = a^3 + b^3 = c^3 + d^3",
+   "key_idea": "The smallest such value is 1729 -- two different cube pairings.",
+   "textbook_ref": "hemh106.txt lines 10-25",
+   "question_patterns": [
+    "what is a hardy ramanujan number",
+    "express 1729 as sum of two cubes in two ways",
+    "find two pairs of cubes that add up to 1729",
+    "why is 1729 called hardy ramanujan number",
+    "Show 4104 as two cube sums in two ways."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify pair of cubes for first representation",
+     "explain": "express the number as the sum of a first pair of cubed integers"
+    },
+    {
+     "step": 2,
+     "action": "identify pair of cubes for second representation",
+     "explain": "express the same number as the sum of a second distinct pair of cubed integers"
+    }
+   ]
+  },
+  {
+   "id": "hemh.106.2",
+   "title": "Cube of a Number",
+   "section": "6.2",
+   "definition": "Take a counting number, multiply it by itself, then by itself once more.",
+   "formula": "cube = n * n * n",
+   "key_idea": "Multiplying a quantity thrice by itself generates its third power or perfect cube.",
+   "textbook_ref": "hemh106.txt lines 30-60",
+   "question_patterns": [
+    "find the cube of a number",
+    "calculate the cube of n",
+    "what is the cube of n",
+    "compute n cubed",
+    "What is the cube of 5?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply number by itself three times",
+     "explain": "compute n raised to the third power",
+     "compute": "cube = n * n * n"
+    }
+   ]
+  },
+  {
+   "id": "hemh.106.3",
+   "title": "Difference of Consecutive Cubes Pattern",
+   "section": "6.2.1",
+   "definition": "An algebraic pattern where the difference between cubes of two consecutive integers equals one plus three times their product.",
+   "formula": "diff = 1 + n * (n - 1) * 3",
+   "key_idea": "Subtracting successive cubes follows the expansion 1 + 3 * n * (n - 1).",
+   "textbook_ref": "hemh106.txt lines 90-105",
+   "question_patterns": [
+    "find the value of n^3 - (n-1)^3 using pattern",
+    "evaluate difference of consecutive cubes",
+    "calculate n cubed minus n minus 1 cubed using pattern",
+    "what is the value of 7^3 - 6^3",
+    "Use the pattern to find 9^3 - 8^3."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify previous integer",
+     "explain": "subtract 1 from the larger integer n",
+     "compute": "prev = n - 1"
+    },
+    {
+     "step": 2,
+     "action": "apply pattern formula",
+     "explain": "evaluate 1 + n * (n - 1) * 3",
+     "compute": "diff = 1 + n * prev * 3"
+    }
+   ]
+  },
+  {
+   "id": "hemh.106.4",
+   "title": "Testing Perfect Cube via Prime Factorisation",
+   "section": "6.2.1",
+   "definition": "A perfect cube has every prime in its factorisation showing up a multiple of three times.",
+   "formula": "N = (p1^3) * (p2^3) * ...",
+   "key_idea": "Group the primes in threes; a complete grouping means a perfect cube.",
+   "textbook_ref": "hemh106.txt lines 106-135",
+   "question_patterns": [
+    "check whether a number is a perfect cube",
+    "is n a perfect cube",
+    "test if a given number is a perfect cube using prime factorisation",
+    "determine if n is a cube number",
+    "Is 216 a perfect cube? Break it into primes."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find prime factorisation",
+     "explain": "deconstruct the given integer into its prime components"
+    },
+    {
+     "step": 2,
+     "action": "group prime factors into triplets",
+     "explain": "verify if every prime factor occurs in multiples of three"
+    },
+    {
+     "step": 3,
+     "action": "conclude perfect cube property",
+     "explain": "if any factor remains ungrouped into a triplet, the number is not a perfect cube"
+    }
+   ]
+  },
+  {
+   "id": "hemh.106.5",
+   "title": "Smallest Multiplier to Form a Perfect Cube",
+   "section": "6.2.2",
+   "definition": "The smallest positive integer needed to multiply a given number so that all prime factors form complete triplets.",
+   "formula": "multiplier = factor ** (3 - count_present)",
+   "key_idea": "Multiply by the missing factors required to complete incomplete prime factor triplets.",
+   "textbook_ref": "hemh106.txt lines 140-165",
+   "question_patterns": [
+    "find the smallest number by which n must be multiplied to make it a perfect cube",
+    "what smallest number should be multiplied to get a perfect cube",
+    "calculate the multiplier to make n a perfect cube",
+    "by what smallest natural number must n be multiplied",
+    "What multiplies 48 to make a perfect cube?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate missing factor count to complete triplet",
+     "explain": "subtract the present count of prime factor from 3",
+     "compute": "missing_count = 3 - count_present"
+    },
+    {
+     "step": 2,
+     "action": "compute smallest multiplier",
+     "explain": "raise the incomplete prime factor to the missing count power",
+     "compute": "multiplier = factor ** missing_count"
+    },
+    {
+     "step": 3,
+     "action": "calculate resulting perfect cube",
+     "explain": "multiply original number by the computed multiplier",
+     "compute": "new_cube = number * multiplier"
+    }
+   ]
+  },
+  {
+   "id": "hemh.106.6",
+   "title": "Smallest Divisor to Form a Perfect Cube",
+   "section": "6.2.2",
+   "definition": "The smallest whole number to divide out so the leftover primes group in complete threes.",
+   "formula": "divisor = factor ** count_present",
+   "key_idea": "Divide by the product of prime factors that fail to form complete triplets.",
+   "textbook_ref": "hemh106.txt lines 166-190",
+   "question_patterns": [
+    "find the smallest number by which n must be divided to obtain a perfect cube",
+    "what smallest number should n be divided by to get a perfect cube",
+    "calculate the divisor to make n a perfect cube",
+    "by what smallest natural number should n be divided",
+    "What divides 135 to leave a perfect cube?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute divisor from leftover prime factors",
+     "explain": "multiply prime factors that do not form triplets",
+     "compute": "divisor = factor ** count_present"
+    },
+    {
+     "step": 2,
+     "action": "calculate resulting quotient perfect cube",
+     "explain": "divide original number by computed divisor",
+     "compute": "new_cube = number / divisor"
+    }
+   ]
+  },
+  {
+   "id": "hemh.106.7",
+   "title": "Number of Cuboids to Form a Cube",
+   "section": "6.2.2",
+   "definition": "The total number of identical cuboids required to build a larger cube by making all prime factors of the cuboid volume appear in triplets.",
+   "formula": "cuboids_needed = target_vol / cuboid_vol",
+   "key_idea": "Determine additional prime factors required to turn a cuboid's volume into a perfect cube volume.",
+   "textbook_ref": "hemh106.txt lines 136-145",
+   "question_patterns": [
+    "how many cuboids are needed to form a cube",
+    "find number of cuboids required to make a cube",
+    "calculate how many cuboids of dimensions length x breadth x height make a cube",
+    "how many such cuboids will be needed to form a cube",
+    "How many 3x2x1 cuboids build a cube?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute volume of single cuboid",
+     "explain": "multiply length, breadth, and height",
+     "compute": "cuboid_vol = length * breadth * height"
+    },
+    {
+     "step": 2,
+     "action": "calculate target cube volume",
+     "explain": "cube the side length needed to make triplets",
+     "compute": "target_vol = cube_side ** 3"
+    },
+    {
+     "step": 3,
+     "action": "calculate cuboids required",
+     "explain": "divide total target volume by individual cuboid volume",
+     "compute": "cuboids_needed = target_vol / cuboid_vol"
+    }
+   ]
+  },
+  {
+   "id": "hemh.106.8",
+   "title": "Cube Root by Prime Factorisation",
+   "section": "6.3.1",
+   "definition": "Determining the single number whose third power equals the given value by selecting one prime factor from each triplet group.",
+   "formula": "cube_root = factor1 * factor2",
+   "key_idea": "Extract one representative prime factor from every triplet group and multiply them.",
+   "textbook_ref": "hemh106.txt lines 215-250",
+   "question_patterns": [
+    "find the cube root of n by prime factorisation",
+    "calculate cube root of a number",
+    "find cube root using prime factorisation method",
+    "what is the cube root of n",
+    "Find the cube root of 3375 by prime triples."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take one representative factor from first triplet",
+     "explain": "identify first prime factor group triplet",
+     "compute": "f1 = factor1"
+    },
+    {
+     "step": 2,
+     "action": "take representative factor from second triplet and multiply",
+     "explain": "multiply representative factors from all triplets",
+     "compute": "cube_root = f1 * factor2"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex2",
+   "source_ref": "hemh106.txt line 146",
+   "concept": "hemh.106.5",
+   "question_type": "compute",
+   "question_pattern": "Is {number} a perfect cube? If not, find the smallest natural number by which {number} must be multiplied so that the product is a perfect cube.",
+   "extracted_variables": {
+    "number": "392",
+    "factor": "7",
+    "count_present": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate missing factor count to complete triplet",
+     "explain": "subtract the present count of prime factor 7 from 3",
+     "compute": "missing_count = 3 - count_present"
+    },
+    {
+     "step": 2,
+     "action": "compute smallest multiplier",
+     "explain": "raise incomplete factor 7 to missing count",
+     "compute": "multiplier = factor ** missing_count"
+    },
+    {
+     "step": 3,
+     "action": "calculate resulting perfect cube",
+     "explain": "multiply 392 by 7",
+     "compute": "new_cube = number * multiplier"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hemh106.txt line 158",
+   "concept": "hemh.106.6",
+   "question_type": "compute",
+   "question_pattern": "Is {number} a perfect cube? If not, then by which smallest natural number should {number} be divided so that the quotient is a perfect cube?",
+   "extracted_variables": {
+    "number": "53240",
+    "factor": "5",
+    "count_present": "1"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute divisor from leftover prime factors",
+     "explain": "identify prime factor 5 which appears only once",
+     "compute": "divisor = factor ** count_present"
+    },
+    {
+     "step": 2,
+     "action": "calculate resulting quotient perfect cube",
+     "explain": "divide 53240 by 5",
+     "compute": "new_cube = number / divisor"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "hemh106.txt line 235",
+   "concept": "hemh.106.8",
+   "question_type": "compute",
+   "question_pattern": "Find the cube root of {number} by prime factorisation method.",
+   "extracted_variables": {
+    "number": "8000",
+    "factor1": "4",
+    "factor2": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take one representative factor from first triplet",
+     "explain": "take product factor 4 from prime factor triplets 2*2*2*2*2*2",
+     "compute": "f1 = factor1"
+    },
+    {
+     "step": 2,
+     "action": "take representative factor from second triplet and multiply",
+     "explain": "multiply 4 by factor 5 from triplet 5*5*5",
+     "compute": "cube_root = f1 * factor2"
+    }
+   ]
+  },
+  {
+   "concept": "hemh.106.2",
+   "question_pattern": "Find the cube of {n}.",
+   "extracted_variables": {
+    "n": "12"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply three times over",
+     "explain": "12 x 12 x 12 = 1728",
+     "compute": "cube = n * n * n"
+    }
+   ],
+   "id": "ex7",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.106.2",
+   "question_pattern": "What is {n} cubed?",
+   "extracted_variables": {
+    "n": "1.5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply three times over",
+     "explain": "1.5 x 1.5 x 1.5 = 3.375",
+     "compute": "cube = n * n * n"
+    }
+   ],
+   "id": "ex8",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.106.3",
+   "question_pattern": "Use the pattern to find {n}^3 - ({n}-1)^3.",
+   "extracted_variables": {
+    "n": "8"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the pattern",
+     "explain": "1 + 3 x 8 x 7 = 169",
+     "compute": "diff = 1 + n * (n - 1) * 3"
+    }
+   ],
+   "id": "ex9",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.106.5",
+   "question_pattern": "Find the smallest multiplier that turns {number} into a perfect cube.",
+   "extracted_variables": {
+    "number": "72"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "factor it",
+     "explain": "72 = 2^3 x 3^2, one 3 missing",
+     "compute": "count_present = 2"
+    },
+    {
+     "step": 2,
+     "action": "supply the missing factor",
+     "explain": "3^1 = 3",
+     "compute": "multiplier = factor ** (3 - count_present)"
+    }
+   ],
+   "id": "ex10",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.106.5",
+   "question_pattern": "What is the least multiplier making {number} a perfect cube?",
+   "extracted_variables": {
+    "number": "100"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "factor it",
+     "explain": "100 = 2^2 x 5^2, two of each missing",
+     "compute": "count_present = 2"
+    },
+    {
+     "step": 2,
+     "action": "supply the missing factors",
+     "explain": "2 x 5 = 10",
+     "compute": "multiplier = factor ** (3 - count_present)"
+    }
+   ],
+   "id": "ex11",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.106.6",
+   "question_pattern": "Find the least divisor making {number} a perfect cube.",
+   "extracted_variables": {
+    "number": "72"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "factor it",
+     "explain": "72 = 2^3 x 3^2, the lone 3^2 must go",
+     "compute": "count_present = 2"
+    },
+    {
+     "step": 2,
+     "action": "divide it away",
+     "explain": "3^2 = 9",
+     "compute": "divisor = factor ** count_present"
+    }
+   ],
+   "id": "ex12",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.106.6",
+   "question_pattern": "What least number divides {number} to leave a perfect cube?",
+   "extracted_variables": {
+    "number": "135"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "factor it",
+     "explain": "135 = 3^3 x 5, the lone 5 must go",
+     "compute": "count_present = 1"
+    },
+    {
+     "step": 2,
+     "action": "divide it away",
+     "explain": "5",
+     "compute": "divisor = factor ** count_present"
+    }
+   ],
+   "id": "ex13",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.106.7",
+   "question_pattern": "How many {l}x{b}x{h} cuboids build the smallest cube?",
+   "extracted_variables": {
+    "l": "4",
+    "b": "3",
+    "h": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "volume of one cuboid",
+     "explain": "4 x 3 x 2 = 24",
+     "compute": "cuboid_vol = length * breadth * height"
+    },
+    {
+     "step": 2,
+     "action": "smallest cube volume",
+     "explain": "216 (side 6)",
+     "compute": "target_vol = 216"
+    },
+    {
+     "step": 3,
+     "action": "divide",
+     "explain": "216 / 24 = 9",
+     "compute": "cuboids_needed = target_vol / cuboid_vol"
+    }
+   ],
+   "id": "ex14",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.106.8",
+   "question_pattern": "Find the cube root of {number} by prime triples.",
+   "extracted_variables": {
+    "number": "1728"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "group primes in threes",
+     "explain": "1728 = (2^3) x (6^3)",
+     "compute": "cube_root = factor1 * factor2"
+    },
+    {
+     "step": 2,
+     "action": "one of each triple",
+     "explain": "2 x 6 = 12",
+     "compute": "check = cube_root ** 3"
+    }
+   ],
+   "id": "ex15",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.106.3",
+   "question_pattern": "Use the pattern for {n}^3 - ({n}-1)^3.",
+   "extracted_variables": {
+    "n": "9"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the pattern",
+     "explain": "1 + 3 x 9 x 8 = 217",
+     "compute": "diff = 1 + n * (n - 1) * 3"
+    }
+   ],
+   "id": "ex16",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.106.7",
+   "question_pattern": "How many {l}x{b}x{h} bricks build the smallest cube?",
+   "extracted_variables": {
+    "l": "3",
+    "b": "2",
+    "h": "1"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "volume of one brick",
+     "explain": "3 x 2 x 1 = 6",
+     "compute": "cuboid_vol = length * breadth * height"
+    },
+    {
+     "step": 2,
+     "action": "smallest cube volume",
+     "explain": "216 (side 6)",
+     "compute": "target_vol = 216"
+    },
+    {
+     "step": 3,
+     "action": "divide",
+     "explain": "216 / 6 = 36",
+     "compute": "cuboids_needed = target_vol / cuboid_vol"
+    }
+   ],
+   "id": "ex17",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex6.1",
+   "source_ref": "hemh106.txt lines 180-210",
+   "questions": [
+    "1. Which of the following numbers are not perfect cubes? (i) 216 (ii) 128 (iii) 1000 (iv) 100 (v) 46656",
+    "2. Find the smallest number by which each of the following numbers must be multiplied to obtain a perfect cube. (i) 243 (ii) 256 (iii) 72 (iv) 675 (v) 100",
+    "3. Find the smallest number by which each of the following numbers must be divided to obtain a perfect cube. (i) 81 (ii) 128 (iii) 135 (iv) 192 (v) 704",
+    "4. Parikshit makes a cuboid of plasticine of sides 5 cm, 2 cm, 5 cm. How many such cuboids will he need to form a cube?"
+   ]
+  },
+  {
+   "id": "ex6.2",
+   "source_ref": "hemh106.txt lines 240-265",
+   "questions": [
+    "1. Find the cube root of each of the following numbers by prime factorisation method. (i) 64 (ii) 512 (iii) 10648 (iv) 27000 (v) 15625 (vi) 13824 (vii) 110592 (viii) 46656 (ix) 175616 (x) 91125",
+    "2. State true or false. (i) Cube of any odd number is even. (ii) A perfect cube does not end with two zeros. (iii) If square of a number ends with 5, then its cube ends with 25. (iv) There is no perfect cube which ends with 8. (v) The cube of a two digit number may be a three digit number. (vi) The cube of a two digit number may have seven or more digits. (vii) The cube of a single digit number may be a single digit number."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

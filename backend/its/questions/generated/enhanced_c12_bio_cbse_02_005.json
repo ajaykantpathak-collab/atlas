@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_02_005",
+   "title": "c12_bio_cbse_02_005",
+   "questions": [
+    {
+     "q": "Name the cell that undergoes meiosis to initiate megasporogenesis and state its ploidy. Where is this cell located within the ovule?",
+     "a": "The megaspore mother cell (MMC) or megasporocyte, which is diploid (2n), undergoes meiosis. It is located in the nucellus of the ovule, typically near the micropylar end. A wrong answer (e.g., \"functional megaspore\" or \"nucellar cell\") reveals confusion between the *mother cell* that divides meiotically and the *product* that divides mitotically, or ignorance of ovule anatomy from the previous node.",
+     "self_check": true
+    },
+    {
+     "q": "In the monosporic (Polygonum) type of embryo sac development, three of the four megaspores degenerate. Which megaspore survives, and what is the adaptive significance of this asymmetric survival?",
+     "a": "The chalazal-most megaspore (farthest from the micropyle) survives as the functional megaspore. This positioning places the future embryo sac's micropylar end (where the egg apparatus forms) near the micropyle for pollen tube entry, while the chalazal end (antipodals) is anchored near the nutrient-supplying nucellus. A wrong answer (e.g., \"micropylar megaspore survives\") shows lack of spatial reasoning — the student hasn't connected the linear tetrad orientation to the final embryo sac polarity.",
+     "self_check": true
+    },
+    {
+     "q": "A functional megaspore undergoes three successive mitotic divisions. If cytokinesis occurred after each division, how many cells would be produced, and why does the embryo sac instead remain coenocytic until the 8-nucleate stage?",
+     "a": "With cytokinesis after each mitosis: 1 → 2 → 4 → 8 cells (8 cells total). The embryo sac remains coenocytic (multinucleate without cytokinesis) to allow free nuclear migration and precise positioning of nuclei at micropylar and chalazal ends before cellularization. This ensures the egg apparatus forms exactly at the micropyle for fertilization. A wrong answer (e.g., \"8 cells form directly\") misses the critical role of *free nuclear division* in establishing the polarized architecture of the embryo sac.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the number of meiotic divisions and the number of functional gametes produced in megasporogenesis vs. microsporogenesis. Explain the numerical difference in terms of resource allocation.",
+     "a": "Microsporogenesis: 1 meiotic division in 1 microspore mother cell → 4 functional haploid microspores (all become pollen grains). Megasporogenesis: 1 meiotic division in 1 megaspore mother cell → 4 haploid megaspores, but only 1 becomes functional. The \"waste\" of 3 megaspores reflects the high cytoplasmic/nutrient investment in the single large female gamete (egg) versus the numerous, tiny, resource-poor male gametes. A wrong answer (e.g., \"both produce 4 functional gametes\") ignores the fundamental asymmetry of anisogamy and the maternal provisioning strategy in plants.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The central cell of the mature embryo sac is diploid (2n) because it contains two polar nuclei.\" Evaluate this statement and correct it if necessary.",
+     "a": "The statement is incorrect. Each polar nucleus is haploid (n); their fusion *before* fertilization forms a diploid (2n) secondary nucleus, but in the mature embryo sac *before* fertilization, the central cell is binucleate with two *haploid* polar nuclei (n + n). The central cell becomes diploid (2n) only after the two polar nuclei fuse (which may happen before or after pollination, depending on species). In the standard Polygonum type, the central cell is described as having two polar nuclei (each n) — the student confuses the *pre-fusion* state with the *post-fusion* ploidy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple staining experiment using a flower bud at the right developmental stage to visualize the linear tetrad of megaspores. Specify the stain, the stage of bud to collect, and the expected observation if the monosporic pattern is followed.",
+     "a": "Collect flower buds where the megaspore mother cell has just completed meiosis (young ovules, before functional megaspore enlarges). Squash the ovule in acetocarmine or Feulgen stain (DNA-specific). Observe under microscope: a linear row of four haploid nuclei (tetrad), with the three micropylar ones shrunken/degenerating and the chalazal one prominent — confirming monosporic pattern. A poor answer (e.g., \"use mature flower\" or \"look for 8 nuclei\") shows inability to select the correct developmental window and confusion between megasporogenesis (meiosis) and megagametogenesis (mitosis).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch07_006",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch07_006",
+   "title": "c7_physics_ch07_006",
+   "questions": [
+    {
+     "q": "What are the two standard products always formed in a complete neutralisation reaction between an acid and a base?",
+     "a": "The products are salt and water. A student who answers \"acid and salt\" or \"only water\" fails to recall the fundamental definition of neutralisation, confusing the reactants with the products or forgetting the formation of water from hydrogen and hydroxide ions.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the container become warm when an acid and a base are mixed together? Explain using energy concepts.",
+     "a": "The container becomes warm because neutralisation is an exothermic process that releases thermal energy into the surroundings. A student who thinks the warmth is caused by mechanical stirring or friction does not understand that chemical bond rearrangements release heat energy.",
+     "self_check": true
+    },
+    {
+     "q": "If 50 ml of dilute hydrochloric acid is mixed completely with 50 ml of sodium hydroxide solution of equal strength, what will be the nature of the resulting mixture when tested with phenolphthalein indicator?",
+     "a": "The resulting mixture will be neutral, so phenolphthalein will remain colourless (if added to the acid first or after complete neutralisation). Steps: 1) Identify that equal amounts of strong acid and strong base cancel each other's properties. 2) Conclude the pH is 7 (neutral). 3) Recall phenolphthalein is colourless in acidic and neutral solutions. 4) State the final observed colour as colourless. A student who says it turns pink thinks neutralisation leaves the solution basic.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze what happens to the red litmus paper test when it is dipped into a solution formed after equal amounts of vinegar (acetic acid) and lime water (calcium hydroxide) react completely.",
+     "a": "The red litmus paper will remain red because the resulting solution is neutral, and neutral substances do not change the color of either red or blue litmus paper. A student who claims the red litmus turns blue is confusing the initial basic property of lime water with the final neutral state of the product mixture.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Neutralisation destroys all matter involved in the reaction because nothing is left of the original acid or base.\" Is this correct? Justify your answer.",
+     "a": "The statement is incorrect because matter is conserved; the original acid and base are transformed into new substances—namely a dissolved salt and water—along with released heat energy. A student who agrees with the statement confuses the disappearance of acidic/basic properties with the destruction of matter.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple home investigation using common kitchen ingredients (such as lemon juice and baking soda solution) to demonstrate a neutralisation reaction and explain how you would prove it is complete.",
+     "a": "A good response describes mixing lemon juice (acid) with baking soda solution (base/antacid) until fizzing stops, and testing the final liquid with a natural indicator like turmeric solution to show it has turned back to yellow (neutral), proving the acidic and basic properties have neutralised. A poor response lacks safety, clear steps, or a method to verify neutrality.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

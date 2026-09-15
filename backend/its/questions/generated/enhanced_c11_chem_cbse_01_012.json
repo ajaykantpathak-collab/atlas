@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_01_012",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_01_012",
+   "title": "c11_chem_cbse_01_012",
+   "questions": [
+    {
+     "q": "In the reaction N₂(g) + 3H₂(g) → 2NH₃(g), if you start with 2 moles of N₂ and 4 moles of H₂, which reactant is the limiting reagent and why? State the answer in one sentence.",
+     "a": "H₂ is the limiting reagent because its stoichiometric equivalent (4 mol ÷ 3 = 1.33) is smaller than that of N₂ (2 mol ÷ 1 = 2). A wrong answer (e.g., choosing N₂ because it has fewer moles) reveals the student is comparing raw mole amounts instead of stoichiometric equivalents — they have not internalized that coefficients matter.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In any reaction, the reactant with the smaller mass in grams is always the limiting reagent.\" Explain why this statement is chemically incorrect using the reaction 2Mg(s) + O₂(g) → 2MgO(s) with 10 g Mg and 10 g O₂ as a counterexample.",
+     "a": "The statement is false because limiting reagent depends on moles relative to stoichiometric coefficients, not mass. For 10 g Mg (0.411 mol, equivalent = 0.411/2 = 0.206) and 10 g O₂ (0.3125 mol, equivalent = 0.3125/1 = 0.3125), Mg is limiting despite equal masses. A wrong explanation reveals the student confuses mass with mole-ratio logic and has not practiced converting mass → moles → stoichiometric equivalents.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the mass of NH₃ produced when 28 g N₂ reacts with 6 g H₂ via N₂(g) + 3H₂(g) → 2NH₃(g). Show all steps including identification of the limiting reagent.",
+     "a": "Steps: (1) Moles N₂ = 28/28 = 1 mol; moles H₂ = 6/2 = 3 mol. (2) Equivalents: N₂ = 1/1 = 1; H₂ = 3/3 = 1. (3) Both equivalents equal → neither is in excess; they are in exact stoichiometric ratio. (4) 1 mol N₂ produces 2 mol NH₃ = 2 × 17 = 34 g NH₃. A wrong answer (e.g., 51 g) reveals the student used the excess reactant's moles or forgot the 1:2 product ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Two reaction mixtures are prepared for 2SO₂(g) + O₂(g) → 2SO₃(g):\nMixture A: 4 mol SO₂, 3 mol O₂\nMixture B: 3 mol SO₂, 4 mol O₂\nWithout calculating exact yields, predict which mixture produces more SO₃ and justify by comparing limiting reagents.",
+     "a": "Mixture A: SO₂ equivalent = 4/2 = 2; O₂ equivalent = 3/1 = 3 → SO₂ limits, yield = 4 mol SO₃. Mixture B: SO₂ equivalent = 3/2 = 1.5; O₂ equivalent = 4/1 = 4 → SO₂ limits, yield = 3 mol SO₃. Mixture A produces more SO₃. A wrong prediction reveals the student cannot compare stoichiometric equivalents across different mixtures or assumes the reactant with larger moles always gives more product.",
+     "self_check": true
+    },
+    {
+     "q": "A student performs the reaction CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + CO₂(g) + H₂O(l) using 10 g CaCO₃ (0.1 mol) and 100 mL of 1 M HCl (0.1 mol HCl). They claim HCl is limiting because \"1 M is a low concentration.\" Evaluate this claim and identify the actual limiting reagent.",
+     "a": "The claim is incorrect. Moles HCl = 0.1 L × 1 mol/L = 0.1 mol. Equivalents: CaCO₃ = 0.1/1 = 0.1; HCl = 0.1/2 = 0.05. HCl is limiting (smaller equivalent), but the reasoning \"1 M is low concentration\" is wrong — concentration alone doesn't determine limiting reagent; total moles and stoichiometry do. A student agreeing with the reasoning reveals confusion between concentration and amount of substance.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple kitchen experiment using vinegar (acetic acid) and baking soda (NaHCO₃) to demonstrate the concept of limiting reagent. Describe the procedure, what you would observe, and how you would identify which reactant was limiting in each trial.",
+     "a": "Procedure: Take 3 identical bottles. Add 10 g NaHCO₃ to each. Add 10 mL, 20 mL, 30 mL vinegar (5% acetic acid) respectively. Seal with balloons. Observe balloon inflation (CO₂). Trial 1: vinegar limits (smallest balloon). Trial 3: NaHCO₃ limits (balloon size same as Trial 2). Identification: limiting reagent = reactant that when increased further does not increase product. A poor design (e.g., varying both reactants simultaneously) reveals inability to control variables and isolate the limiting reagent concept.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

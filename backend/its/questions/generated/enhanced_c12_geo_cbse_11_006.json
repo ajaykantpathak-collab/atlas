@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_11_006",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_11_006",
+   "title": "c12_geo_cbse_11_006",
+   "questions": [
+    {
+     "q": "Name the two Indian states that are the largest producers of rice and the two largest producers of wheat, according to the latest NCERT data.",
+     "a": "Correct answer: Rice — West Bengal and Uttar Pradesh; Wheat — Uttar Pradesh and Madhya Pradesh. A wrong answer (e.g., naming Punjab for rice or Bihar for wheat) reveals that the student is confusing traditional high-yield states with total production leaders, or is relying on outdated Green Revolution-era data rather than current NCERT figures.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why rice cultivation has expanded into the traditionally wheat-dominated states of Punjab and Haryana since the 1970s, despite their lower monsoon rainfall.",
+     "a": "Correct answer: The Green Revolution brought assured irrigation (canals, tubewells), high-yielding varieties (HYVs), and subsidised inputs, making it possible to grow water-intensive rice in the dry rabi/kharif transition. Punjab/Haryana's deep alluvial soils and high solar radiation in summer further boost yields. A wrong answer that attributes the shift solely to \"climate change\" or \"increased rainfall\" shows a misunderstanding of the role of technology and policy in altering crop geography.",
+     "self_check": true
+    },
+    {
+     "q": "Using the cropping intensity formula (CI = GCA/NSA × 100), calculate the cropping intensity for a district where Net Sown Area (NSA) is 200,000 ha and Gross Cropped Area (GCA) is 340,000 ha. Then state whether this district likely grows rice-wheat rotation or a single crop.",
+     "a": "Step 1: Identify formula CI = (GCA/NSA) × 100. Step 2: Substitute GCA = 340,000 ha, NSA = 200,000 ha. Step 3: CI = (340,000/200,000) × 100 = 1.7 × 100 = 170%. Step 4: A cropping intensity >150% indicates double/triple cropping, typical of rice-wheat rotation in irrigated Indo-Gangetic plains. A wrong calculation (e.g., using NSA/GCA) or misinterpretation (saying 170% means single crop) reveals confusion between net and gross area and inability to link intensity to crop cycles.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the soil requirements of rice and wheat and explain why the same alluvial plain (e.g., the Ganga plain) can support both crops in different seasons.",
+     "a": "Correct answer: Rice needs clayey, water-retentive soils that can hold standing water (puddling); wheat needs well-drained, loamy soils to avoid waterlogging. In the Ganga plain, the kharif monsoon saturates the clayey topsoil, creating ideal anaerobic conditions for rice; post-monsoon drainage and winter irrigation create aerobic, moist loam for wheat. A wrong answer that says \"both need the same soil\" ignores the critical difference in drainage and aeration requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the sustainability of the current rice-wheat cropping system in the northwestern Indo-Gangetic plain, considering groundwater depletion, soil health, and climate resilience.",
+     "a": "Correct answer: The system is unsustainable long-term. Groundwater tables are falling 0.5–1 m/year due to puddled rice; soil organic carbon is declining from residue burning and reduced legume breaks; wheat yields are plateauing under rising temperatures. Diversification (maize, pulses, horticulture), conservation agriculture, and direct-seeded rice are needed. A wrong answer that calls it \"sustainable because yields are high\" overlooks the hidden ecological costs and future climate risks.",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-season cropping plan for a 10-ha farm in eastern Uttar Pradesh (alluvial soil, 100 cm rainfall, canal irrigation available) that maximises foodgrain output while maintaining soil fertility. Specify crops, varieties, and key management practices.",
+     "a": "Expected answer: Kharif — HYV rice (e.g., Samba Mahsuri) with System of Rice Intensification (SRI) to save water; Rabi — HYV wheat (e.g., HD 2967) with zero-till drilling after rice harvest, plus a legume catch crop (green gram) in zaid if moisture permits. Key practices: laser land leveling, balanced NPK + Zn, residue incorporation, integrated pest management. A poor answer that simply repeats \"rice-wheat\" without variety names, water-saving methods, or soil health measures shows lack of applied geographical thinking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

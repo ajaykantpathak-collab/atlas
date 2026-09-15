@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_04_006",
+   "title": "c11_cs_cbse_04_006",
+   "questions": [
+    {
+     "q": "What is the exact symbol used to start a single-line comment in Python, and what happens to the text following that symbol on the same line during program execution?",
+     "a": "The symbol is `#` (hash). Everything from `#` to the end of that physical line is ignored by the Python interpreter and produces no output or error. A wrong answer (e.g., `//` or `/*`) reveals confusion with C++/Java syntax; a wrong answer about execution (e.g., \"it prints as text\") reveals the student thinks comments are string literals.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following three lines in a Python script and runs it. Explain what will happen and why:\n```",
+     "a": "The program will output `Hello` only. The first line is a full-line comment (ignored). The second line executes `print(\"Hello\")`; the part after `#` is an inline comment (ignored). The third line is a multi-line comment using triple single quotes — it is a string literal not assigned to any variable, so it is evaluated and discarded (no output). A wrong answer (e.g., \"syntax error on line 3\" or \"prints the triple-quoted text\") reveals the misconception that triple-quoted strings are a special comment syntax rather than unused string expressions.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python code snippet (3-4 lines) that calculates the area of a rectangular plot (length=12.5 m, breadth=8.3 m) and uses: (a) a single-line comment to state the formula, (b) a multi-line comment to describe the program's purpose and input units, and (c) an inline comment on the calculation line.",
+     "a": "```python\n''' \nProgram: Calculate area of rectangular plot\nInputs: length and breadth in metres\nOutput: area in square metres\n'''\nlength = 12.5  # metres\nbreadth = 8.3  # metres\narea = length * breadth  # Formula: Area = length × breadth\nprint(\"Area =\", area, \"sq m\")\n```\nA wrong answer (missing triple quotes, using `#` for multi-line, or putting inline comment before code) reveals inability to apply both comment styles contextually.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two multi-line comment blocks. Which one is technically a string literal that exists at runtime (occupies memory), and why does this distinction matter in a long-running program like a server?\n```python",
+     "a": "Block A is a string literal (triple-quoted) — it is created in memory at runtime and immediately discarded because it is not assigned. Block B uses only `#` comments, which are stripped by the lexer and never exist at runtime. In a long-running server, repeated execution of Block A (e.g., inside a loop) creates unnecessary memory churn (garbage collection pressure), while Block B has zero runtime cost. A wrong answer (e.g., \"both are same\" or \"Block B uses more memory\") reveals lack of understanding of Python's execution model (lexing vs. evaluation).",
+     "self_check": true
+    },
+    {
+     "q": "A team member argues: \"We should comment every single line of code so that anyone can understand it.\" Evaluate this statement. Is it a good practice? Justify your answer with two specific reasons related to code maintenance and readability.",
+     "a": "No, it is not good practice. (1) **Redundancy**: Comments that merely restate the code (e.g., `x = x + 1  # increment x by 1`) add noise and violate the DRY principle — when code changes, comments often become outdated, creating misinformation. (2) **Readability**: Excessive comments obscure the actual logic; clean, well-named variables and functions (self-documenting code) are superior. Comments should explain *why* (intent, constraints, business rules), not *what*. A wrong evaluation (e.g., \"yes, more comments are always better\") reveals a novice mindset that equates quantity of comments with quality of documentation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a Python program skeleton (no need for full logic) for a \"Student Grade Calculator\" that uses comments to structure the code into logical sections: Input, Processing, Output. Use multi-line comments as section headers and single-line comments for key variable declarations. The program should accept marks for 5 subjects (out of 100), calculate percentage, and print grade (A/B/C/F). Show only the comments and variable declarations — no calculations.",
+     "a": "```python\n''' \n========================================\nSTUDENT GRADE CALCULATOR\nAuthor: [Name]\nDate: [Date]\nAccepts marks for 5 subjects (0-100)\nCalculates percentage and assigns grade\n========================================\n'''",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

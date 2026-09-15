@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_06_012",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_06_012",
+   "title": "c11_cs_cbse_06_012",
+   "questions": [
+    {
+     "q": "What is the output of the following code?\n```python\nmatrix = [[1, 2], [3, 4], [5, 6]]\nprint(matrix[1][0])\n```",
+     "a": "The output is `3`. `matrix[1]` selects the second inner list `[3, 4]`, and `[0]` selects its first element. A wrong answer like `2` or `4` reveals confusion about zero-based indexing or the order of indices (thinking the first index is column and second is row).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following code prints each element of the nested list on a new line, and what would happen if we removed the inner loop.\n```python\ndata = [[10, 20], [30, 40]]\nfor row in data:\n    for item in row:\n        print(item)\n```",
+     "a": "The outer loop iterates over each inner list (`row` becomes `[10,20]` then `[30,40]`). The inner loop iterates over the elements *inside* that row. Without the inner loop, `row` would be printed as a whole list, producing `[10, 20]` and `[30, 40]` on separate lines. A student who thinks the inner loop is redundant does not understand that `row` is a list, not a scalar element.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python program that takes a nested list `sales = [[100, 200, 150], [300, 250, 400], [500, 450, 350]]` representing sales of 3 products over 3 months. Compute and print the total sales for each product (i.e., sum of each inner list).",
+     "a": "```python\nsales = [[100, 200, 150], [300, 250, 400], [500, 450, 350]]\nfor product in sales:\n    total = 0\n    for month_sale in product:\n        total += month_sale\n    print(total)\n```\nOutput: `450`, `950`, `1300`. A wrong answer might sum all elements into a single total or use `sales[i][j]` with incorrect loop bounds, showing inability to map the problem to row-wise traversal.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two ways to traverse a nested list: using `for row in matrix:` then `for elem in row:` vs using `for i in range(len(matrix)):` then `for j in range(len(matrix[i])):`. When would you prefer the second method?",
+     "a": "The first method (for-each) is simpler and preferred when only reading values. The second method (index-based) is necessary when you need to **modify** the original list (since assignment requires indices, e.g., `matrix[i][j] = 0`) or when you need the indices for other calculations (e.g., accessing neighbours like `matrix[i-1][j]`). A student who claims they are always interchangeable misses the mutability requirement.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following code to find the maximum element in a nested list `mat = [[5, 2], [8, 1], [3, 9]]`:\n```python\nmax_val = 0\nfor row in mat:\n    for val in row:\n        if val > max_val:\n            max_val = val\nprint(max_val)\n```\nIs this code correct for all possible nested lists of integers? Justify your answer.",
+     "a": "The code fails if all numbers are negative (e.g., `[[-5, -2], [-8, -1]]`). Because `max_val` starts at `0`, no negative number is greater than `0`, so it incorrectly prints `0`. The correct initialization is `max_val = mat[0][0]` (assuming non-empty list) or `float('-inf')`. A student who does not consider negative numbers has not evaluated edge cases.",
+     "self_check": true
+    },
+    {
+     "q": "Design a nested list to represent a 3x3 Tic-Tac-Toe board. Write a function `print_board(board)` that displays the board in a grid format with rows separated by newlines and columns separated by `|`. Example output:\n```\nX | O | X\nO | X | O\nX | O | X\n```",
+     "a": "A good answer creates `board = [['X','O','X'], ['O','X','O'], ['X','O','X']]` and uses nested loops:\n```python\ndef print_board(board):\n    for i, row in enumerate(board):\n        print(' | '.join(row))\n        if i < len(board) - 1:\n            print('--+---+--')\n```\nA poor answer might use a flat list, fail to handle the separators correctly, or hardcode the size instead of using `len(board)`.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

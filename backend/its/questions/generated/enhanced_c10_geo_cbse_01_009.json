@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_01_009",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_01_009",
+   "title": "c10_geo_cbse_01_009",
+   "questions": [
+    {
+     "q": "Define 'net sown area' and state how it differs from 'gross cropped area' in the Indian land use classification.",
+     "a": "Net sown area is the total area sown with crops in a year, counted only once even if multiple crops are grown. Gross cropped area counts the same land multiple times if it is sown more than once in a year. A wrong answer that equates the two reveals the student does not understand the concept of cropping intensity and will miscalculate agricultural productivity in later questions.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the percentage of land under forests in India (about 23%) remain significantly lower than the 33% target set by the National Forest Policy, despite afforestation efforts?",
+     "a": "The gap persists because forest land is diverted for non-forest uses (mining, dams, agriculture expansion) faster than afforestation can compensate; also, many 'forest' areas in records are degraded or open scrub with low canopy density. A student who blames only 'deforestation' without mentioning diversion for development projects or the difference between recorded forest area and actual forest cover misses the policy-implementation gap that board examiners expect.",
+     "self_check": true
+    },
+    {
+     "q": "Using the data below for a hypothetical state, calculate the percentage of reporting area under 'culturable waste' and 'fallow land other than current fallow' combined.  \nTotal reporting area = 50,000 km²  \nForests = 12,000 km²  \nNet sown area = 20,000 km²  \nCurrent fallow = 3,000 km²  \nFallow other than current fallow = 4,000 km²  \nCulturable waste = 5,000 km²  \nPermanent pastures = 2,000 km²  \nLand under tree crops = 1,000 km²  \nBarren land = 2,000 km²  \nNon-agricultural uses = 1,000 km²",
+     "a": "Step 1: Identify the two categories: culturable waste = 5,000 km², fallow other than current fallow = 4,000 km².  \nStep 2: Sum = 9,000 km².  \nStep 3: Divide by total reporting area (50,000 km²) and multiply by 100: (9,000 / 50,000) × 100 = 18%.  \nStep 4: Verify that the sum of all categories equals 50,000 km² (it does). A wrong answer usually comes from using 'geographical area' instead of 'reporting area' or forgetting to multiply by 100.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the land use pattern of Punjab (net sown area > 80%) with that of Arunachal Pradesh (forest > 80%). Explain the role of relief and soil in creating this contrast.",
+     "a": "Punjab lies on the flat, fertile alluvial plains of the Indus system (c6_geography_ch01_003) with deep loamy soils and assured irrigation, enabling intensive cultivation. Arunachal Pradesh is mountainous (Eastern Himalayas) with steep slopes, thin soils, and high rainfall, making agriculture difficult but favoring dense forests. A student who only mentions 'rainfall' or 'soil' without linking relief to soil formation and agricultural feasibility gives an incomplete analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Increasing the net sown area is the only way to raise food grain production in India.\" Use the concepts of cropping intensity and land degradation.",
+     "a": "The statement is flawed. Food grain production can also rise by increasing cropping intensity (growing two or three crops per year on the same net sown area) and improving yield per hectare through better seeds, irrigation, and soil health. Moreover, expanding net sown area into marginal lands (culturable waste, fallow) often causes land degradation (c10_geo_cbse_01_008), reducing long-term productivity. A student who agrees ignores the Green Revolution's core strategy and the sustainability trade-offs emphasized in the textbook.",
+     "self_check": true
+    },
+    {
+     "q": "Design a land use plan for a 100-hectare village in the Deccan Plateau with 40% black soil, 30% laterite soil, and 30% barren rocky terrain. Annual rainfall is 800 mm. Allocate percentages to forests, net sown area, fallow, and non-agricultural uses, justifying each allocation with geographical reasoning.",
+     "a": "A good answer might allocate: forests 20% (on laterite slopes for conservation), net sown area 50% (on black soil with rainwater harvesting for cotton/millets), fallow 15% (rotational fallow on black soil to restore fertility), non-agricultural 15% (settlements, roads on rocky terrain). Justification must link soil type, rainfall, and slope to each use. A poor answer allocates arbitrarily (e.g., 80% net sown area) without considering soil limitations or sustainability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

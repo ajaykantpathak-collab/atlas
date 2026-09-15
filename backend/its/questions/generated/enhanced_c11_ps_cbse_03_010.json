@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_03_010",
+   "title": "c11_ps_cbse_03_010",
+   "questions": [
+    {
+     "q": "Define \"formal equality\" and \"substantive equality\" in one sentence each, citing the core distinction the NCERT textbook draws between them.",
+     "a": "Formal equality means identical treatment by law regardless of circumstances (equality before law). Substantive equality means differential treatment may be required to ensure fair opportunities and outcomes (equality of opportunity/results). A wrong answer (e.g., \"formal equality is about law, substantive is about society\") reveals the student misses the central distinction: formal equality focuses on *process* (same rules), substantive equality focuses on *outcome* (fair access).",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT text states: \"treating people with equal respect need not mean always treating them in an identical way.\" Explain why identical treatment can violate equal respect, using the example of a visually challenged student and a sighted student taking the same written exam without accommodations.",
+     "a": "Identical treatment (same written exam paper, same time) ignores the relevant difference (visual impairment), effectively denying the visually challenged student the opportunity to demonstrate knowledge. Equal respect requires accommodating the difference (Braille paper, extra time) so both have a *real* chance to compete. A wrong answer (e.g., \"it's unfair to the sighted student\") reveals the misconception that equality means *sameness* of process rather than *fairness* of opportunity.",
+     "self_check": true
+    },
+    {
+     "q": "A government introduces a policy: \"All civil service exams will be conducted only in English and Hindi to ensure uniformity.\" A candidate from a non-Hindi speaking state whose mother tongue is Tamil argues this violates equality. Apply the \"relevant difference\" test from the chapter to analyze this claim.",
+     "a": "Step 1: Identify the rule (exams only in English/Hindi). Step 2: Identify the difference (mother tongue/linguistic background). Step 3: Test relevance: Does linguistic background affect the *merit* being tested (administrative ability)? Usually no. Step 4: Conclusion: The rule imposes a disadvantage based on an irrelevant characteristic (birth/region), violating substantive equality. A wrong answer focusing on \"administrative convenience\" reveals confusion between *state interest* and *equality principle*; the chapter emphasizes that convenience cannot justify entrenching disadvantage.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the liberal and socialist perspectives on affirmative action (reservations) as presented in the NCERT chapter. Identify the core philosophical disagreement about the *cause* of entrenched inequality.",
+     "a": "Liberals view inequality as primarily resulting from *unfair barriers* to competition (lack of level playing field); they support temporary affirmative action to remove barriers but insist on open competition as the just distributive mechanism. Socialists (Marxists) view inequality as rooted in *structural ownership of economic resources* (private property); they argue affirmative action is insufficient without public control over essential resources. A wrong answer conflating both as \"supporting reservations\" misses the diagnostic depth: liberals see reservations as a *corrective* to formal equality; socialists see them as a *partial palliative* that doesn't address the root cause (class structure).",
+     "self_check": true
+    },
+    {
+     "q": "Critique the argument: \"Reservations for Scheduled Castes in promotions (Article 16(4A)) violate equality because they treat SC/ST candidates differently from general category candidates for the same post.\" Use the chapter's distinction between \"identical treatment\" and \"equal treatment\" and the \"cumulative effect of past inequalities.\"",
+     "a": "The argument assumes equality = identical treatment. The chapter argues formal equality (identical treatment) is insufficient when groups face *cumulative, entrenched disadvantage* from historical exclusion (caste system). Reservations in promotions address the \"glass ceiling\" effect where past discrimination blocks advancement *even after entry*. Differential treatment here is justified *if* it promotes substantive equality by ensuring SC/ST representation in decision-making roles. A wrong answer accepting the \"reverse discrimination\" framing reveals failure to distinguish between *arbitrary* distinction (prohibited) and *compensatory* distinction (justified under Article 16(4A)).",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph policy guideline for a university to decide when a student group's request for differential treatment (e.g., prayer rooms, dietary options, exam scheduling) should be granted, using the NCERT's two criteria: (1) essential to enjoy the same rights as others, (2) does not create new structures of dominance.",
+     "a": "A good answer: \"The university shall grant differential treatment requests only if: (a) the request addresses a barrier that prevents the group from accessing an educational right/benefit available to others (e.g., prayer timing conflicts with mandatory class, denying religious freedom); (b) the accommodation does not impose disproportionate burdens on others or create hierarchies (e.g., a prayer room open to all faiths vs. a designated leadership role for one faith). Requests for mere preference (e.g., 'better food for our group') without a rights-barrier nexus shall be denied.\" A poor answer listing examples without the two-pronged test reveals inability to abstract the principle from the \"LET'S THINK\" illustrations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

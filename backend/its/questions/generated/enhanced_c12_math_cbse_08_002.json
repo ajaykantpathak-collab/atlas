@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_08_002",
+   "title": "c12_math_cbse_08_002",
+   "questions": [
+    {
+     "q": "What is the formula for the area bounded by the curve y = f(x), the x-axis, and the lines x = a and x = b when f(x) takes both positive and negative values on [a, b]?",
+     "a": "The area is given by ∫_a^b |f(x)| dx, which is computed by finding all roots of f(x) in [a, b], splitting the interval at these roots, and summing the absolute values of the definite integrals on each subinterval. A wrong answer (e.g., just ∫_a^b f(x) dx) reveals the student does not understand that the definite integral gives signed area, and physical area requires taking the absolute value of each part where the curve is below the axis.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the area bounded by y = sin x from x = 0 to x = 2π is not zero, even though ∫_0^{2π} sin x dx = 0.",
+     "a": "The definite integral ∫_0^{2π} sin x dx = 0 because the positive area above the x-axis (0 to π) cancels the negative area below (π to 2π). However, the geometric area is the sum of the absolute areas: ∫_0^π sin x dx + |∫_π^{2π} sin x dx| = 2 + 2 = 4. A wrong answer indicates the student confuses signed area (definite integral) with geometric area, and does not recognize the need to split at the root x = π.",
+     "self_check": true
+    },
+    {
+     "q": "Find the area bounded by the curve y = x^2 - 4, the x-axis, and the lines x = 0 and x = 3.",
+     "a": "Step 1: Find where y = x^2 - 4 crosses the x-axis: x^2 - 4 = 0 → x = ±2. On [0,3], the root is x = 2.\nStep 2: On [0,2], f(x) ≤ 0; on [2,3], f(x) ≥ 0.\nStep 3: Area = |∫_0^2 (x^2 - 4) dx| + ∫_2^3 (x^2 - 4) dx.\nStep 4: ∫ (x^2 - 4) dx = x^3/3 - 4x.\n∫_0^2 = (8/3 - 8) - 0 = -16/3 → absolute = 16/3.\n∫_2^3 = (27/3 - 12) - (8/3 - 8) = (9 - 12) - (8/3 - 8) = -3 - (-16/3) = -3 + 16/3 = 7/3.\nStep 5: Total area = 16/3 + 7/3 = 23/3 square units.\nA wrong answer (e.g., 7/3 or -16/3) reveals the student either forgot to split the interval or forgot to take absolute value of the negative part.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the area bounded by y = x^3 from x = -1 to x = 1 using (a) the integral ∫_{-1}^1 x^3 dx and (b) the geometric area formula ∫_{-1}^1 |x^3| dx. Explain the difference.",
+     "a": "(a) ∫_{-1}^1 x^3 dx = 0 because x^3 is an odd function and the interval is symmetric. (b) Geometric area = ∫_{-1}^0 (-x^3) dx + ∫_0^1 x^3 dx = 1/4 + 1/4 = 1/2. The difference arises because the integral gives signed area (cancelling positive and negative parts), while geometric area sums absolute values. A wrong answer (e.g., saying both are 0 or both are 1/2) shows the student does not distinguish between signed and geometric area, or does not know how to handle absolute value for odd functions.",
+     "self_check": true
+    },
+    {
+     "q": "A student computes the area bounded by y = cos x from x = 0 to x = 3π/2 as follows: ∫_0^{3π/2} cos x dx = sin(3π/2) - sin 0 = -1. They claim the area is 1 square unit. Is this correct? Justify.",
+     "a": "The student's answer is incorrect. The curve y = cos x crosses the x-axis at x = π/2 in [0, 3π/2]. On [0, π/2], cos x ≥ 0; on [π/2, 3π/2], cos x ≤ 0. The correct area = ∫_0^{π/2} cos x dx + |∫_{π/2}^{3π/2} cos x dx| = [sin x]_0^{π/2} + |[sin x]_{π/2}^{3π/2}| = 1 + | -1 - 1 | = 1 + 2 = 3 square units. The student incorrectly took the absolute value of the entire integral instead of splitting at the root. This reveals the misconception that |∫ f| = ∫ |f|, which is false when f changes sign.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a function f(x) on [0, 4] such that the geometric area between f(x) and the x-axis is 10 square units, but the definite integral ∫_0^4 f(x) dx = 2. Explain your construction.",
+     "a": "One example: Let f(x) = 3 on [0, 2] and f(x) = -2 on [2, 4]. Then ∫_0^4 f = 3*2 + (-2)*2 = 6 - 4 = 2. Geometric area = 3*2 + 2*2 = 10. Any piecewise constant or continuous function with positive area 10 and negative area -8 (net 2) works. A poor answer would be a function that doesn't satisfy both conditions, indicating the student doesn't grasp the relationship between signed and geometric area.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

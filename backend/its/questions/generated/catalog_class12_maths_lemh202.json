@@ -1,0 +1,333 @@
+{
+ "catalog": "catalog_class12_maths_lemh202.json",
+ "concepts": [
+  {
+   "id": "lemh.202.8.2.1",
+   "title": "Area Under a Curve as a Definite Integral",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 3 * 3 * 3 + 4 * 3 + 3 gives 42",
+     "compute": "val = 3 * 3 * 3 + 4 * 3 + 3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate the limit of 3x^2 + 4x + 3 as x approaches 3 (direct substitution).",
+     "a": "42",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 3x^4 is 12x^3. Find the derivative's value at x = 3.",
+     "a": "324",
+     "self_check": false
+    },
+    {
+     "q": "For y = 2x^2 + 1x + 1, find the slope of the tangent at x = 4.",
+     "a": "17",
+     "self_check": false
+    },
+    {
+     "q": "For y = 2x^2 + 1x + 1 at x = 4, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.06",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 2.",
+     "a": "2160",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.202.8.2.2",
+   "title": "Area Using Horizontal Strips with x as a Function of y",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the area formula base times height",
+     "explain": "apply the area formula base times height: area = 30 * 27 gives 810",
+     "compute": "area = 30 * 27"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the area of a rectangle measuring 30 cm by 27 cm.",
+     "a": "810",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a square of side 19 m.",
+     "a": "361",
+     "self_check": false
+    },
+    {
+     "q": "A 15 m x 9 m garden has a 11 m x 5 m flower bed inside it. Find the area of the remaining garden.",
+     "a": "80",
+     "self_check": false
+    },
+    {
+     "q": "A rectangle has area 72 sq cm and length 10 cm. Find its breadth.",
+     "a": "7.2",
+     "self_check": false
+    },
+    {
+     "q": "Tiling costs Rs 20 per square metre. Find the cost of tiling a 18 m x 6 m floor.",
+     "a": "2160",
+     "self_check": false
+    },
+    {
+     "q": "How many tiles of side 4 m (square tiles) fit in a 24 m x 20 m hall?",
+     "a": "30",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.202.8.2.3",
+   "title": "Area When Parts of the Curve Lie Below the Axis",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the area formula base times height",
+     "explain": "apply the area formula base times height: area = 23 * 26 gives 598",
+     "compute": "area = 23 * 26"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the area of a rectangle measuring 23 cm by 26 cm.",
+     "a": "598",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a square of side 4 m.",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "A 10 m x 15 m garden has a 6 m x 11 m flower bed inside it. Find the area of the remaining garden.",
+     "a": "84",
+     "self_check": false
+    },
+    {
+     "q": "A rectangle has area 60 sq cm and length 6 cm. Find its breadth.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Tiling costs Rs 15 per square metre. Find the cost of tiling a 6 m x 15 m floor.",
+     "a": "1350",
+     "self_check": false
+    },
+    {
+     "q": "How many tiles of side 4 m (square tiles) fit in a 28 m x 24 m hall?",
+     "a": "42",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.202.8.2.4",
+   "title": "Area Enclosed by a Circle by Integration",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Evaluate the limit of 5x^2 + 5x + 9 as x approaches 1 (direct substitution).",
+     "a": "19",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 4x^3 is 12x^2. Find the derivative's value at x = 1.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "For y = 3x^2 + 4x + 2, find the slope of the tangent at x = 3.",
+     "a": "22",
+     "self_check": false
+    },
+    {
+     "q": "For y = 3x^2 + 4x + 2 at x = 3, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.05",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 3.",
+     "a": "4335",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.202.8.2.5",
+   "title": "Area Enclosed by an Ellipse by Integration",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Evaluate the limit of 3x^2 + 2x + 9 as x approaches 2 (direct substitution).",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 3x^2 is 6x^1. Find the derivative's value at x = 2.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "For y = 3x^2 + 2x + 8, find the slope of the tangent at x = 3.",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "For y = 3x^2 + 2x + 8 at x = 3, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.05",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 5.",
+     "a": "10935",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.202.8.2.6",
+   "title": "Area Between a Line and the x-axis Between Two Ordinates",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Evaluate the limit of 3x^2 + 4x + 8 as x approaches 2 (direct substitution).",
+     "a": "28",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 3x^2 is 6x^1. Find the derivative's value at x = 2.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "For y = 2x^2 + 6x + 8, find the slope of the tangent at x = 4.",
+     "a": "22",
+     "self_check": false
+    },
+    {
+     "q": "For y = 2x^2 + 6x + 8 at x = 4, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.05",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 2.",
+     "a": "2160",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.202.8.2.7",
+   "title": "Area Under a Power Curve Between Two Limits",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Evaluate the limit of 2x^2 + 7x + 9 as x approaches 5 (direct substitution).",
+     "a": "94",
+     "self_check": false
+    },
+    {
+     "q": "By the power rule, the derivative of 4x^3 is 12x^2. Find the derivative's value at x = 5.",
+     "a": "300",
+     "self_check": false
+    },
+    {
+     "q": "For y = 2x^2 + 4x + 7, find the slope of the tangent at x = 1.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "For y = 2x^2 + 4x + 7 at x = 1, the tangent slope is m; find the slope of the normal (-1/m), two decimal places.",
+     "a": "-0.12",
+     "self_check": false
+    },
+    {
+     "q": "Chain rule: y = (5x + 2)^3 has dy/dx = 15(5x + 2)^2. Evaluate it at x = 2.",
+     "a": "2160",
+     "self_check": false
+    },
+    {
+     "q": "Second derivative test: for y = x^3 - 3x^2 + 2, y'' = 6x - 6. Evaluate y'' at the critical point x = 1 to classify it.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.202.8.2.8",
+   "title": "Symmetry Shortcuts for Standard Curves",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the area formula base times height",
+     "explain": "apply the area formula base times height: area = 7 * 3 gives 21",
+     "compute": "area = 7 * 3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the area of a rectangle measuring 7 cm by 3 cm.",
+     "a": "21",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a square of side 7 m.",
+     "a": "49",
+     "self_check": false
+    },
+    {
+     "q": "A 9 m x 8 m garden has a 5 m x 4 m flower bed inside it. Find the area of the remaining garden.",
+     "a": "52",
+     "self_check": false
+    },
+    {
+     "q": "A rectangle has area 72 sq cm and length 8 cm. Find its breadth.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "Tiling costs Rs 25 per square metre. Find the cost of tiling a 16 m x 19 m floor.",
+     "a": "7600",
+     "self_check": false
+    },
+    {
+     "q": "How many tiles of side 6 m (square tiles) fit in a 36 m x 18 m hall?",
+     "a": "18",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

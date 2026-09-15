@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_07_008",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_07_008",
+   "title": "c11_eco_cbse_07_008",
+   "questions": [
+    {
+     "q": "State the exact definition of sustainable development given by the Brundtland Commission in *Our Common Future* (1987).",
+     "a": "Correct answer: \"Development that meets the needs of the present generation without compromising the ability of future generations to meet their own needs.\" A wrong answer (e.g., \"development that protects the environment\" or \"development that lasts long\") reveals the student conflates sustainable development with environmental conservation or longevity, missing the precise intergenerational equity and \"needs\" focus.",
+     "self_check": true
+    },
+    {
+     "q": "The Brundtland definition uses the word \"needs\" rather than \"wants.\" Explain why this distinction is economically significant, using the concept of resource scarcity.",
+     "a": "\"Needs\" refers to basic requirements for survival and dignity (food, water, shelter, health, education); \"wants\" are unlimited desires. Because resources are scarce (Class 9: c9_eco_ch1_1), meeting all wants is impossible. Prioritising needs implies redistribution toward the poor (intragenerational equity) and sets a minimum floor for future generations. A student who says \"needs and wants are the same\" or \"sustainable development means fulfilling wants sustainably\" misunderstands the normative, equity-centred core of the definition.",
+     "self_check": true
+    },
+    {
+     "q": "A country extracts groundwater at 120 billion cubic metres (BCM) per year. Natural recharge is 80 BCM/year. Using Herman Daly's rule for renewable resources, calculate the annual depletion of the groundwater stock and state whether this extraction path is sustainable.",
+     "a": "Step 1: Identify renewable resource (groundwater) and Daly's rule: extraction rate ≤ regeneration rate. Step 2: Extraction = 120 BCM/yr, Regeneration = 80 BCM/yr. Step 3: Depletion = 120 – 80 = 40 BCM/yr. Step 4: Since extraction > regeneration, the stock declines by 40 BCM annually. Step 5: This violates Daly's rule; the path is unsustainable. A wrong answer (e.g., \"it's sustainable because there's still water left\") shows the student treats the resource as a stock without considering flow equilibrium.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Brundtland definition with Edward Barbier's definition (\"increasing the material standard of living of the poor at the grass root level... quantitatively measured in terms of increased income, real income, educational services, health care, sanitation, water supply\"). What additional operational clarity does Barbier provide?",
+     "a": "Brundtland sets the ethical principle (intergenerational equity, needs focus). Barbier operationalises it for policy: (1) targets the poor majority, (2) specifies measurable indicators (income, education, health, sanitation, water), (3) links sustainable development directly to poverty reduction. A student who says \"they are the same\" misses that Barbier translates the abstract \"needs of the present\" into concrete, monitorable development outcomes for the most vulnerable.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"A country that discovers a massive new oil field can sustainably increase its per capita income for the next 50 years because the resource will last that long.\" Use Daly's rules for non-renewable resources.",
+     "a": "Daly's rule for non-renewables: depletion rate ≤ rate of creation of renewable substitutes. Oil is non-renewable; extracting it for 50 years depletes the stock. Unless the revenue is invested in building renewable energy capacity (solar, wind) and human capital at a rate that fully offsets the loss, the development is not sustainable. The statement ignores the substitute-creation condition. A student who agrees reveals they think \"long-lasting\" equals \"sustainable,\" confusing stock exhaustion with sustainable yield.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-indicator dashboard for a district magistrate to monitor whether her district's development is aligned with the Brundtland principle. Each indicator must be measurable annually and reflect one of: (a) intergenerational equity, (b) intragenerational equity, (c) ecological carrying capacity.",
+     "a": "Example answer: (a) Groundwater table change (metres/year) — reflects intergenerational equity (stock for future). (b) Percentage of households with piped water and sanitation — reflects intragenerational equity (basic needs of present poor). (c) Forest cover change (%/year) or air quality index (PM2.5) — reflects carrying capacity. A poor answer lists only GDP growth or total pollution, missing the equity and stock-flow dimensions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,177 @@
+{
+ "catalog": "catalog_class6_maths_fegp104.json",
+ "concepts": [
+  {
+   "id": "fegp.4.1",
+   "title": "Collecting and Organising Data",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 6 + 2 + 6 gives 14",
+     "compute": "total = 6 + 2 + 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "In a frequency table the rows have frequencies 6, 2 and 6. Find the total frequency.",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "A pictograph uses one symbol for 5 units. If a row shows 7 symbols, what value does it represent?",
+     "a": "35",
+     "self_check": false
+    },
+    {
+     "q": "In a pictograph with key 1 symbol = 5 units, how many symbols represent 60 units?",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "In a bar graph, 1 unit of bar height stands for 50 books. A bar is 3 units tall. How many books does it show?",
+     "a": "150",
+     "self_check": false
+    },
+    {
+     "q": "A bar must show a frequency of 55 with scale 1 unit = 5. How tall is the bar in units?",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "A pie chart sector represents 60 out of 240 people. Find its central angle in degrees.",
+     "a": "90",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.4.2",
+   "title": "Pictographs and Their Keys",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 2 + 5 + 2 gives 9",
+     "compute": "total = 2 + 5 + 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "In a frequency table the rows have frequencies 2, 5 and 2. Find the total frequency.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "A pictograph uses one symbol for 2 units. If a row shows 6 symbols, what value does it represent?",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "In a pictograph with key 1 symbol = 2 units, how many symbols represent 30 units?",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "In a bar graph, 1 unit of bar height stands for 50 books. A bar is 8 units tall. How many books does it show?",
+     "a": "400",
+     "self_check": false
+    },
+    {
+     "q": "A bar must show a frequency of 70 with scale 1 unit = 5. How tall is the bar in units?",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "A pie chart sector represents 50 out of 200 people. Find its central angle in degrees.",
+     "a": "90",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.4.3",
+   "title": "Totals from a Frequency Table",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "In a frequency table the rows have frequencies 7, 7 and 4. Find the total frequency.",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "A pictograph uses one symbol for 5 units. If a row shows 7 symbols, what value does it represent?",
+     "a": "35",
+     "self_check": false
+    },
+    {
+     "q": "In a pictograph with key 1 symbol = 5 units, how many symbols represent 55 units?",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "In a bar graph, 1 unit of bar height stands for 10 books. A bar is 2 units tall. How many books does it show?",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "A bar must show a frequency of 20 with scale 1 unit = 5. How tall is the bar in units?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "A pie chart sector represents 60 out of 240 people. Find its central angle in degrees.",
+     "a": "90",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fegp.4.4",
+   "title": "Bar Graphs and Reading Them",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 5 + 8 + 5 gives 18",
+     "compute": "total = 5 + 8 + 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "In a frequency table the rows have frequencies 5, 8 and 5. Find the total frequency.",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "A pictograph uses one symbol for 5 units. If a row shows 7 symbols, what value does it represent?",
+     "a": "35",
+     "self_check": false
+    },
+    {
+     "q": "In a pictograph with key 1 symbol = 5 units, how many symbols represent 70 units?",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "In a bar graph, 1 unit of bar height stands for 10 books. A bar is 10 units tall. How many books does it show?",
+     "a": "100",
+     "self_check": false
+    },
+    {
+     "q": "A bar must show a frequency of 100 with scale 1 unit = 5. How tall is the bar in units?",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "A pie chart sector represents 75 out of 300 people. Find its central angle in degrees.",
+     "a": "90",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_s_cbse_02_014",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_s_cbse_02_014",
+   "title": "c11_eng_s_cbse_02_014",
+   "questions": [
+    {
+     "q": "What does the acronym PEEL stand for in the context of writing analytical answers for CBSE Class 11 English?",
+     "a": "PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., \"Paragraph, Example, Evidence, Line\") reveals the student lacks the fundamental structural vocabulary for board-exam answer writing and will likely produce unstructured, narrative-heavy responses that lose marks for coherence and analytical depth.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The narrator goes to 46 Marconi Street and sees her mother's things but they look ugly so she leaves.\" The question asked was: \"Analyse the narrator's emotional journey during her second visit.\" Identify two specific weaknesses in this response relative to PEEL criteria.",
+     "a": "Weakness 1: It is a plot summary (narrative) lacking an analytical *Point* (topic sentence) that addresses 'emotional journey'. Weakness 2: It provides no *Evidence* (specific textual details like the 'woollen table-cloth', 'burn mark', 'muggy smell') and no *Explanation* of how those details convey oppression/alienation. A student making this error treats analysis as retelling.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the PEEL structure to answer this question in 3-4 sentences: \"How does the 'green knitted cardigan' function as a symbol in the opening scene?\" Use one direct textual reference.",
+     "a": "**Point:** The green knitted cardigan symbolises the violent displacement of the narrator's mother and the commodification of her memory. **Evidence:** The narrator recognises it immediately: \"She was wearing my mother's green knitted cardigan. The wooden buttons were rather pale from washing.\" **Explanation:** Mrs Dorling wearing it casually while denying recognition strips the object of its sentimental value, reducing a mother's intimate possession to a mere garment for daily use, highlighting the betrayal of trust. **Link:** This moment establishes the central conflict: objects severed from their owners lose their emotional resonance, foreshadowing the narrator's final decision.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two opening sentences for the question \"Justify the title 'The Address'.\" Which is stronger analytically and why?\n(A) The story is about a girl who goes to an address her mother gave her to find her belongings.\n(B) The address '46, Marconi Street' operates as a physical anchor for the narrator's fragmented past, ultimately becoming a symbol she must reject to reclaim her present.",
+     "a": "(B) is stronger. It functions as a thesis statement (Point) that identifies the address as a *symbol* and hints at the narrative arc (anchor -> rejection). (A) is a plot summary masquerading as a topic sentence; it cannot be 'explained' or 'linked' analytically because it states only factual action. Students choosing (A) confuse 'what happens' with 'what the text means'.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"For a diary entry written from the narrator's perspective after the second visit, using formal academic language (e.g., 'furthermore', 'consequently') is appropriate because it demonstrates high vocabulary.\" Defend your evaluation with reference to the *conventions of the diary format*.",
+     "a": "The claim is incorrect. A diary entry is a *personal, intimate* form requiring first-person voice, emotional immediacy, contractions, rhetorical questions, and informal/reflective tone (e.g., \"I can't believe she wore it... Why did I even go?\"). Using formal connectors like 'furthermore' creates tonal dissonance, violating the format's convention of authenticity. A student making this error prioritises 'impressive vocabulary' over *genre awareness*, a common Class 11 pitfall.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-sentence diary entry (dated, first-person) capturing the narrator's resolve to \"forget the address\" at the end of the story. Include one sensory detail from the room and one metaphor for the objects.",
+     "a": "**15th November, 1945**\nThe muggy smell of that living room still clings to my coat, a ghost of a life that isn't mine anymore. Those objects — my mother's silver, the Hanukkah candle-holder — are not treasures but corpses, drained of warmth in Mrs Dorling's ugly furniture. I realise now that memory lives in me, not in things that betrayed her by surviving without her. I will burn the address in my mind; it is the only way to stop the past from drowning the present.\n*Criteria for a good answer: dated, first-person, sensory detail (muggy smell), metaphor (corpses), shows resolution. A poor answer writes in third person, lacks sensory detail, or summarises the plot instead of voicing emotion.*",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

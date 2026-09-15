@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_04_003",
+   "title": "c12_eco_cbse_04_003",
+   "questions": [
+    {
+     "q": "A perfectly competitive firm faces a market price of ₹50. Its marginal cost schedule is: MC = 10 + 2Q. At what output level does the firm maximise profit? Show the condition used.",
+     "a": "Set MR = MC. Since P = MR = 50, we solve 50 = 10 + 2Q → 2Q = 40 → Q = 20 units. Check second-order: d(MC)/dQ = 2 > 0, so MC is rising. Profit is maximised at Q = 20. A wrong answer (e.g., Q = 10 or ignoring the rising MC check) reveals the student either confuses MR with AR in imperfect competition, or treats MR = MC as sufficient without verifying the slope condition — a classic error that loses 1-2 marks in board exams and leads to wrong equilibrium identification in JEE-style numerical problems.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a firm would not choose an output where MR = MC but MC is falling (cutting MR from above), even though the first-order condition holds.",
+     "a": "At a point where MC cuts MR from above (MC falling), the second derivative of profit is positive (d²π/dQ² > 0), indicating a local minimum of profit, not a maximum. Producing slightly more or less would increase profit. The firm maximises profit only where MC cuts MR from below (MC rising), ensuring d²π/dQ² < 0. A student who says \"MR = MC is enough\" misses the second-order condition — this is the single most common conceptual error in board answers (losing the \"explain why\" mark) and causes incorrect equilibrium selection in competitive exam MCQs with two MR=MC intersections.",
+     "self_check": true
+    },
+    {
+     "q": "A firm's total revenue is TR = 100Q and total cost is TC = 500 + 20Q + 0.5Q². Find the profit-maximising output and the maximum profit. Verify the second-order condition.",
+     "a": "Step 1: MR = d(TR)/dQ = 100. Step 2: MC = d(TC)/dQ = 20 + Q. Step 3: Set MR = MC → 100 = 20 + Q → Q = 80. Step 4: Second-order: d(MC)/dQ = 1 > 0 (rising). Step 5: Profit = TR - TC = 100(80) - [500 + 20(80) + 0.5(80)²] = 8000 - [500 + 1600 + 3200] = 8000 - 5300 = ₹2,700. A wrong answer (e.g., Q = 60 from miscalculating MC, or forgetting to subtract fixed cost) shows algebraic errors in differentiation or profit calculation — these are the exact computational mistakes that cost marks in 4-6 mark board questions and CUET numerical sections.",
+     "self_check": true
+    },
+    {
+     "q": "The market price for a perfectly competitive firm falls from ₹40 to ₹30. The firm's MC curve is MC = 10 + Q. Compare the profit-maximising output and profit level before and after the price change. What happens to producer surplus?",
+     "a": "At P = 40: 40 = 10 + Q → Q = 30. Profit = TR - TC. Assume TC = 100 + 10Q + 0.5Q² (so MC = 10 + Q). TR = 40×30 = 1200. TC = 100 + 300 + 450 = 850. Profit = 350. At P = 30: 30 = 10 + Q → Q = 20. TR = 600. TC = 100 + 200 + 200 = 500. Profit = 100. Output falls by 10 units, profit falls by ₹250. Producer surplus (area above MC below P) shrinks. A student who only computes new Q but not profit change, or confuses producer surplus with profit, fails to connect the MR=MC condition to welfare analysis — a key competency for case-based board questions and JEE applied microeconomics.",
+     "self_check": true
+    },
+    {
+     "q": "\"Since a perfectly competitive firm maximises profit where P = MC, the firm's supply curve is exactly its MC curve.\" Evaluate this statement. Is it fully correct? If not, what is missing?",
+     "a": "The statement is incomplete. The firm's short-run supply curve is the portion of the MC curve that lies **above the minimum of AVC** (the shutdown point). Below min AVC, the firm shuts down and supplies zero even if P = MC at some low output. The MC curve below min AVC does not represent supply because the firm would not produce there — it would minimise losses by shutting down. A student who says \"yes, supply = MC curve\" misses the shutdown condition — this is a frequent board exam trap (1-mark MCQ or 3-mark \"justify\" question) and a standard JEE concept check on supply curve derivation.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a numerical example where a perfectly competitive firm has TWO output levels satisfying MR = MC, but only one satisfies the rising MC condition. Show the profit at both points and explain which is the true maximum.",
+     "a": "Let P = MR = 50. Let MC = 100 - 4Q + 0.1Q² (U-shaped, falling then rising). Set 50 = 100 - 4Q + 0.1Q² → 0.1Q² - 4Q + 50 = 0 → Q² - 40Q + 500 = 0 → (Q - 10)(Q - 30) = 0 → Q = 10 or Q = 30. At Q = 10: d(MC)/dQ = -4 + 0.2(10) = -2 < 0 (falling). At Q = 30: d(MC)/dQ = -4 + 0.2(30) = +2 > 0 (rising). Assume TC = 200 + 100Q - 2Q² + 0.1/3 Q³ (so MC matches). Profit at Q=10: TR=500, TC=200+1000-200+33.33=1033.33, π=-533.33. Profit at Q=30: TR=1500, TC=200+3000-1800+900=4300, π=-2800. Wait — both losses? Let's adjust: TC = 500 + 50Q - 2Q² + 0.1/3 Q³. At Q=10: TC=500+500-200+33.33=833.33, π=-333.33. At Q=30: TC=500+1500-1800+900=1100, π=400. Q=30 gives higher profit (₹400 vs -₹333). The rising MC point is the global maximum; the falling MC point is a local minimum. A poor answer that picks Q=10 or says \"both maximise profit\" shows the student cannot apply the second-order condition to discriminate between multiple critical points — a critical skill for JEE Advanced optimisation problems.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

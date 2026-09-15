@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_07_004",
+   "title": "c12_hist_cbse_07_004",
+   "questions": [
+    {
+     "q": "What is the literal meaning of the term \"amara\" in the Amara-Nayaka system, and which two linguistic roots do historians propose for it?",
+     "a": "\"Amara\" is derived either from Sanskrit *samara* (battle/war) or Persian *amir* (high noble/commander); both reflect the military character of the office. A wrong answer (e.g., \"amara means land grant\" or \"amara comes from Arabic *amir* meaning peasant\") reveals confusion between the *title* and the *land assignment* (amaram), or ignorance of the Persianate administrative vocabulary that penetrated South Indian polity via the Deccan Sultanates.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT states the Amara-Nayaka system was \"likely derived from the iqta system of the Delhi Sultanate.\" Identify TWO structural similarities and TWO critical differences between the two systems.",
+     "a": "Similarities: (1) Both granted revenue from a territory in lieu of salary to a military officer; (2) Both required the holder to maintain a specified military contingent for the sovereign. Differences: (1) Iqta holders were frequently transferred and had no hereditary rights; amara-nayakas often stayed generations, settled peasants, and treated territories as hereditary; (2) Iqta was primarily a salary-replacement mechanism in a cash-salary bureaucracy; amara-nayaka evolved into a *feudal-style* vassalage where nayakas performed ritual submission (tribute, court attendance) but exercised near-sovereign local authority. A wrong answer that lists only similarities misses the *divergent evolutionary logic* — the iqta was centralising; the amara-nayaka became decentralising.",
+     "self_check": true
+    },
+    {
+     "q": "A nayaka governing a territory in the Tamil country (e.g., Madurai) collects ₹10 lakh annual revenue. His obligation: maintain 500 cavalry + 50 elephants, pay ₹2 lakh annual tribute, and appear at the Mahanavami festival. He retains the surplus. In a drought year, revenue falls to ₹6 lakh. The nayaka reduces his cavalry to 300 but keeps 50 elephants. The raya's inspector reports this. Using the Amara-Nayaka system's logic, explain what the raya can *legitimately* do and what he *cannot* easily do.",
+     "a": "Legitimately: transfer the nayaka to another amaram (standard control lever), demand make-up tribute in subsequent years, or appoint a joint supervisor. Cannot easily do: permanently confiscate the territory (nayaka's local peasant-settlement networks make removal politically costly), reduce the elephant quota (elephants = status/symbolic capital, not just military utility), or replace him with an outsider without triggering rebellion — because by the 16th century, nayakas had transformed *revenue assignments* into *quasi-hereditary principalities*. A wrong answer that says \"the raya can simply dismiss him\" ignores the *negotiated nature* of late-Vijayanagara politics where nayakas were stakeholders, not employees.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of the *kudirai chettis* (horse merchants) in sustaining the Amara-Nayaka system with the role of Arab/Portuguese horse traders. Why did the system's military viability depend on *both* long-distance trade and local merchant networks?",
+     "a": "The Amara-Nayaka system required each nayaka to maintain a *stipulated number of horses and elephants* — but South India bred few war-horses. Arab traders (via Gulf ports) and later Portuguese (via Goa) supplied high-quality Persian/Arabian horses; *kudirai chettis* financed, transported, and distributed them inland, often advancing credit against nayaka revenue assignments. Without the *international supply chain*, the military quota system collapses; without *local financiers*, nayakas cannot convert revenue into cavalry. A wrong answer that treats horse trade as merely \"commerce\" misses its *constitutive role* in the fiscal-military architecture — the state's military capacity was literally imported.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Amara-Nayaka system was a strength during expansion but a structural weakness during crisis.\" Use evidence from the Sangama, Tuluva, and Aravidu periods.",
+     "a": "Strength during expansion (Sangama/Tuluva): mobile military chiefs + peasant-settlement = rapid frontier incorporation (Raichur doab, Tamil country, coastal Andhra); tribute flowed *to* centre; Krishnadeva Raya's 1520 Bijapur campaign used nayaka contingents effectively. Weakness during crisis (post-1529, Aravidu): nayakas withheld tribute (Madurai, Ikkeri, Thanjavur), treated transfers as optional, and after Talikota (1565) declared independence — the Aravidu raya became a *nominal* overlord. The system's *design* (revenue + troops + local roots) made central control *contingent on continuous military success*; one major defeat (Talikota) shattered the reciprocity. A wrong answer that calls it \"always weak\" ignores two centuries of effective imperial rule.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 4-tier flowchart showing how a single amaram's revenue flows through the Amara-Nayaka system from peasant producer to imperial war effort, labeling each tier with the *actor*, *extraction mechanism*, and *obligation enforced*.",
+     "a": "Tier 1: Peasant producer → land tax (kudimai/vari) + forced labor (vetti) → obligation: subsistence + surplus extraction.\nTier 2: Nayaka (amara-nayaka) → retains 40–60% for household, fort maintenance, elephant stables → obligation: maintain stipulated cavalry/elephants.\nTier 3: Imperial treasury (via nayaka's annual tribute + Mahanavami gifts) → obligation: fund central army, palace construction, temple endowments.\nTier 4: War effort → horse imports (kudirai chettis/Arabs/Portuguese), gunpowder, campaign logistics → obligation: territorial defence/expansion.\nA poor flowchart merges tiers 2 and 3 (missing the *nayaka's retention* as a distinct leakage) or omits the *commercial tier* (horse trade), revealing failure to see the system as a *revenue-military-commercial circuit*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

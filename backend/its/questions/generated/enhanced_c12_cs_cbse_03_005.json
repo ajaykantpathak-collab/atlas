@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_03_005",
+   "title": "c12_cs_cbse_03_005",
+   "questions": [
+    {
+     "q": "What is the correct hierarchical order of HTML table tags from outermost container to innermost cell content?",
+     "a": "Correct order: `<table>` → `<tr>` → `<th>` or `<td>` → cell content. A wrong answer like `<table>` → `<td>` → `<tr>` reveals the student thinks cells exist outside rows, or confuses the nesting structure. This misconception leads to invalid HTML where browsers must auto-correct, often producing unexpected layouts.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what `rowspan=\"3\"` does when placed on a `<td>` in the first row of a table, and describe what happens to the corresponding cells in the next two rows.",
+     "a": "`rowspan=\"3\"` makes that cell span vertically across 3 rows (the current row plus the next 2). In the next two rows, **no `<td>` or `<th>` should be written** for that column position — the browser automatically fills the space. A wrong answer like \"it adds 3 rows\" or \"you still write the cells but they become invisible\" shows the student doesn't understand that merged cells **remove** the need for corresponding cells in subsequent rows, leading to extra cells and broken layouts.",
+     "self_check": true
+    },
+    {
+     "q": "Write the HTML code for a 2×2 table where the top-left cell spans both columns (header \"Subject\"), the top-right cell is empty (merged), bottom-left contains \"Math\", and bottom-right contains \"Science\". Use `border=\"1\"`.",
+     "a": "```html\n<table border=\"1\">\n  <tr>\n    <th colspan=\"2\">Subject</th>\n  </tr>\n  <tr>\n    <td>Math</td>\n    <td>Science</td>\n  </tr>\n</table>\n```\nA wrong answer that includes two `<th>` in the first row (e.g., `<th colspan=\"2\">Subject</th><th></th>`) reveals the student thinks `colspan` only stretches the cell visually but still requires a placeholder cell. This creates an extra column, making the table 3 columns wide.",
+     "self_check": true
+    },
+    {
+     "q": "Compare `cellpadding` and `cellspacing`. If a table has `cellpadding=\"10\"` and `cellspacing=\"5\"`, describe the visual spacing between: (a) cell content and its own border, (b) borders of two adjacent cells.",
+     "a": "(a) `cellpadding=\"10\"` creates 10px space **inside** each cell between content and border. (b) `cellspacing=\"5\"` creates 5px space **between** adjacent cell borders (so total gap between content of two side-by-side cells = 10 + 5 + 10 = 25px). A wrong answer swapping the two shows confusion between internal padding and external spacing — a common error that leads to unpredictable table layouts when trying to achieve specific designs.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this code for a 3-row, 2-column table where the first column has a single cell spanning all 3 rows:\n```html\n<table border=\"1\">\n  <tr><td rowspan=\"3\">Left</td><td>Top-Right</td></tr>\n  <tr><td>Middle-Right</td></tr>\n  <tr><td>Bottom-Right</td></tr>\n</table>\n```\nThey claim the first row has two cells. Evaluate this claim and explain the actual rendering.",
+     "a": "The claim is **correct** for the first row — it has two cells: the `rowspan` cell and `Top-Right`. However, the **second and third rows each have only one cell** (`Middle-Right`, `Bottom-Right`) because the first column is already occupied by the spanning cell. A student who says \"each row has two cells\" fails to analyze that `rowspan` consumes column space in subsequent rows without requiring explicit `<td>`. This error causes extra cells to appear if mistakenly added, shifting layout.",
+     "self_check": true
+    },
+    {
+     "q": "Design an HTML table to represent a weekly expense tracker with columns: Day, Food (₹), Transport (₹), Total (₹). The Total column should span 2 rows for each day (morning/evening entries merged into one total per day). Write the code for Monday and Tuesday only, with sample data.",
+     "a": "```html\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">\n  <tr>\n    <th>Day</th>\n    <th>Food (₹)</th>\n    <th>Transport (₹)</th>\n    <th rowspan=\"2\">Total (₹)</th>\n  </tr>\n  <tr>\n    <td>Monday</td>\n    <td>120</td>\n    <td>30</td>\n  </tr>\n  <tr>\n    <td>Monday</td>\n    <td>150</td>\n    <td>40</td>\n  </tr>\n  <tr>\n    <td>Tuesday</td>\n    <td>100</td>\n    <td>25</td>\n    <td rowspan=\"2\">415</td>\n  </tr>\n  <tr>\n    <td>Tuesday</td>\n    <td>180</td>\n    <td>35</td>\n  </tr>\n</table>\n```\nA poor answer puts `rowspan` on the wrong row (e.g., on the second Monday row) or forgets to omit the Total cell in the second row of each day. This tests synthesis: combining headers, rowspan, data rows, and attributes in a realistic Indian context (rupees).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

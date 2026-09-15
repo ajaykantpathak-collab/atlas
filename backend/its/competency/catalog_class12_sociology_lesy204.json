@@ -1,0 +1,164 @@
+{
+ "class": 12,
+ "subject": "sociology",
+ "chapter": 4,
+ "chapter_title": "Change and Development in Rural Society",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lesy204.txt",
+ "concepts": [
+  {
+   "id": "lesy204.1",
+   "title": "Agrarian Structure and Land Ownership",
+   "definition": "Indian rural society is organised around land: who owns it, who tills it, and who works on it for wages. The agrarian structure ranks people as landowners, tenant cultivators and landless labourers, and this ranking has shaped caste and class relations in villages for centuries.",
+   "formula": "-",
+   "key_idea": "Ownership of land historically mapped onto caste hierarchies, with lower castes often confined to labouring on others' fields; land reforms attempted to break this bond between caste and land control.",
+   "question_patterns": [
+    "Describe the main strata of the agrarian structure in rural India.",
+    "How is land ownership linked to the caste system in rural society?",
+    "Distinguish between a landowner, a tenant and a landless labourer.",
+    "Why is land central to the study of rural society?",
+    "Name the groups that formed the middle strata of the agrarian structure."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [],
+   "worked_examples": [
+    {
+     "q": "Indian rural society is organised around which resource: land or silver?",
+     "a": "land"
+    }
+   ]
+  },
+  {
+   "id": "lesy204.2",
+   "title": "Impact of Land Reforms",
+   "definition": "Land reforms after Independence aimed to abolish zamindari intermediaries, give tenancy security, and cap the size of holdings. Abolition of zamindari succeeded in breaking the old revenue-collecting class, while ceiling laws were weakened by transfers of land among relatives, and tenants often lost written records of their cultivation.",
+   "formula": "-",
+   "key_idea": "Reforms redistributed some land to the tillers and ended hereditary intermediaries, but benefits flowed unevenly: owners of small plots and the landless gained least, and evasion of ceilings kept large operational holdings with dominant castes.",
+   "question_patterns": [
+    "What were the three main aims of land reforms after Independence?",
+    "Which land reform measure succeeded most and why?",
+    "How did big landowners evade land ceiling laws?",
+    "Explain the term zamindari abolition.",
+    "Why did many tenants lose their claims during tenancy reforms?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [],
+   "worked_examples": [
+    {
+     "q": "Which reform broke the old revenue-collecting class: abolition of zamindari or ceiling laws?",
+     "a": "abolition of zamindari"
+    }
+   ]
+  },
+  {
+   "id": "lesy204.3",
+   "title": "Green Revolution and its Social Consequences",
+   "definition": "The Green Revolution of the 1960s raised foodgrain output through high-yielding seeds, chemical fertilisers, irrigation and mechanisation, concentrated in Punjab, Haryana and western Uttar Pradesh. Its social consequences included rising inequalities between big and small farmers, middle-caste landlord dominance, and environmental costs such as falling water tables and soil fatigue.",
+   "formula": "-",
+   "key_idea": "Regions and farmers with capital, assured irrigation and large holdings captured the gains first, widening regional and class disparities; mechanisation also reduced the demand for attached farm labour in some areas.",
+   "question_patterns": [
+    "Name the regions where the Green Revolution first took hold.",
+    "What were the main technological inputs of the Green Revolution?",
+    "How did the Green Revolution affect inequality between farmers?",
+    "State two environmental consequences of Green Revolution farming.",
+    "Why did small farmers often miss the gains of the new technology?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [],
+   "worked_examples": [
+    {
+     "q": "Which revolution raised foodgrain output in the 1960s: the Green Revolution or the White Revolution?",
+     "a": "the Green Revolution"
+    }
+   ]
+  },
+  {
+   "id": "lesy204.4",
+   "title": "Rural Transformations and New landed Groups",
+   "definition": "Post-reform rural society saw new groups rise: middle-caste farmers who used Green Revolution gains, state subsidies and political mobilisation to become dominant. Transformations include the spread of contract farming, diversification into dairying and horticulture, and the growing involvement of farmers' movements in price politics.",
+   "formula": "-",
+   "key_idea": "Rural change is not only about technology: credit access, state procurement prices and irrigation investments decided who gained, and the newly prosperous farmers turned economic strength into political clout.",
+   "question_patterns": [
+    "Which caste groups rose to dominance in Green Revolution regions?",
+    "How did farmers' movements use state procurement prices as a political issue?",
+    "What is contract farming and how does it change the farmer's position?",
+    "Describe two diversifications rural households have taken up beyond grain farming.",
+    "Why is political mobilisation part of the story of rural transformation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [],
+   "worked_examples": [
+    {
+     "q": "Newly prosperous farmers turned economic strength into what: political clout or pilgrimage?",
+     "a": "political clout"
+    }
+   ]
+  },
+  {
+   "id": "lesy204.5",
+   "title": "Circulation of Labour",
+   "definition": "Circulation of labour describes workers who migrate seasonally or cyclically between village and worksite, keeping their family base in the village while earning elsewhere. It differs from permanent migration: the worker returns for sowing and harvest, and employers prefer circulating workers because they can be paid less than settled urban workers need.",
+   "formula": "-",
+   "key_idea": "Circular migrants straddle two worlds: their wages subsidise farm households, while the village bears the cost of raising and schooling the labour the city employs. Industries from construction to brick kilns run on such circulating hands.",
+   "question_patterns": [
+    "What is meant by circulation of labour?",
+    "How does a circular migrant differ from a permanent rural-to-urban migrant?",
+    "Why do employers prefer circulating labourers?",
+    "Name two industries that depend heavily on migrant circulating workers.",
+    "How does seasonal migration connect village agriculture with urban work?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [],
+   "worked_examples": [
+    {
+     "q": "Workers migrating seasonally while keeping family in the village show the circulation of what: labour or money?",
+     "a": "labour"
+    }
+   ]
+  },
+  {
+   "id": "lesy204.6",
+   "title": "Globalisation Liberalisation and Rural Society",
+   "definition": "Globalisation and liberalisation since 1991 reached the countryside through falling investment in agriculture, exposure to world price swings, and the entry of corporate agribusiness. Farmers faced rising input costs and unstable output prices, and agrarian distress grew into one of the period's central social problems.",
+   "formula": "-",
+   "key_idea": "Rural India is not outside the global economy: crop choices, subsidies and trade rules decided abroad or in Delhi now shape village incomes, which is why farmer suicides and price movements became national debates.",
+   "question_patterns": [
+    "How did liberalisation affect public investment in agriculture?",
+    "What links world commodity prices to an Indian farmer's income?",
+    "Define corporate agribusiness with one example of its activity.",
+    "Why did agrarian distress deepen in the reform period?",
+    "State one way globalisation changed the rural consumption pattern."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [],
+   "worked_examples": [
+    {
+     "q": "From which year did liberalisation reach the countryside: 1991 or 1947?",
+     "a": "1991"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "q": "A tenancy reform required recorded tenants to receive ownership. A landlord evicts tenants before records are made and re-lets plots through informal verbal arrangements. Which reform goal does this defeat, and how?",
+   "a": "It defeats the goal of security of tenure. Tenancy reforms protected only tenants who could PROVE cultivation; verbal arrangements leave no proof, so the tenant loses the claim to ownership while the landlord keeps the land. This is exactly the evasion route the chapter describes for tenancy reform."
+  },
+  {
+   "q": "A district adopts high-yielding rice needing assured irrigation. Big farmers with tube wells double output; small rain-fed farmers cannot buy the seeds and fertilisers. What does this illustrate about the Green Revolution?",
+   "a": "It illustrates the chapter's core finding: the new technology was indivisible with capital and water, so gains concentrated among farmers who already had irrigation and credit, widening class and regional inequality even as total foodgrain output rose."
+  }
+ ],
+ "exercises": [
+  {
+   "group": "drill",
+   "items": [
+    "Define the three-tier agrarian structure with local examples.",
+    "Match: zamindari abolition, land ceiling, tenancy security to their reform aims.",
+    "Name two Green Revolution districts and their leading crops.",
+    "Explain circulation of labour with the example of a brick kiln worker.",
+    "State two environmental costs of intensive agriculture.",
+    "How did procurement prices become a farmers' movement demand?"
+   ]
+  }
+ ]
+}

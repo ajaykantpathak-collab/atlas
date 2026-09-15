@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch10_1",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch10_1",
+   "title": "c8_math_ch10_1",
+   "questions": [
+    {
+     "q": "State the cross-multiplication rule for the proportion a/b = c/d (where b and d are not zero). Write the resulting equation.",
+     "a": "The rule gives a × d = b × c. A wrong answer like a × c = b × d reveals the student confuses the positions of extremes and means, multiplying numerators together and denominators together instead of cross-multiplying. This is the most common procedural error.",
+     "self_check": true
+    },
+    {
+     "q": "Explain WHY cross-multiplication works. Start from a/b = c/d and show the algebraic steps that lead to a × d = b × c.",
+     "a": "Multiply both sides by b: a = (c/d) × b. Then multiply both sides by d: a × d = c × b. Alternatively, multiply both sides by the common denominator bd directly: (a/b) × bd = (c/d) × bd → a × d = c × b. A student who cannot explain this likely treats cross-multiplication as a magic trick without understanding it is just clearing denominators, making them unable to adapt when the proportion is written differently (e.g., x/5 = 10/3).",
+     "self_check": true
+    },
+    {
+     "q": "Solve for x using cross-multiplication: 5/12 = x/36. Show all steps.",
+     "a": "Step 1: Cross-multiply: 5 × 36 = 12 × x.\nStep 2: Calculate 5 × 36 = 180. So 180 = 12x.\nStep 3: Divide both sides by 12: x = 180/12 = 15.\nStep 4: Verify: 5/12 = 15/36 → both simplify to 5/12. Correct.\nA wrong answer like x = 2.08 (from 5/12 = x/36 → x = 5×36/12 but miscalculating 180/12) shows arithmetic weakness. An answer x = 5×12/36 = 1.67 shows the student multiplied the wrong pairs (a×b = c×d).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cross-multiplication method and the unitary method for solving: \"If 8 kg of wheat costs ₹200, find the cost of 15 kg.\" Which method is more efficient and why? Does the answer differ?",
+     "a": "Both methods give the same answer (₹375). Cross-multiplication: 8/200 = 15/x → 8x = 3000 → x = 375. Unitary method: Cost of 1 kg = 200/8 = 25; Cost of 15 kg = 25 × 15 = 375. Cross-multiplication is more efficient for larger numbers or when the unit rate is not a whole number (e.g., 7 kg for ₹200). A student who says answers differ misunderstands that both methods rely on the same proportional relationship. A student who cannot compare efficiency lacks strategic thinking about method choice.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves 7/x = 21/27 as follows: 7 × 21 = x × 27 → 147 = 27x → x = 5.44. Identify the error, correct it, and explain why the student's first step was wrong.",
+     "a": "Error: The student multiplied numerators together (7×21) and denominators together (x×27) instead of cross-multiplying (7×27 = x×21). Correct: 7 × 27 = 21 × x → 189 = 21x → x = 9. The student's step is wrong because cross-multiplication requires multiplying the numerator of one fraction by the denominator of the other (extremes and means), not numerator×numerator. This misconception arises from memorizing \"multiply across\" without understanding the diagonal pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world word problem (Indian context) that requires setting up a proportion with the unknown in the DENOMINATOR, then solve it using cross-multiplication. Example context: fuel efficiency, recipe scaling, or map distance.",
+     "a": "Example problem: \"A car travels 180 km on 12 litres of petrol. How many litres are needed to travel 270 km?\" Proportion: 180/12 = 270/x (unknown in denominator). Cross-multiply: 180x = 12 × 270 = 3240 → x = 3240/180 = 18 litres. A good answer has correct setup, correct cross-multiplication, correct arithmetic, and correct unit (litres). A poor answer puts the unknown in the numerator (x/12 = 270/180) which works but doesn't meet the \"unknown in denominator\" requirement, or sets up the proportion inverted (12/180 = x/270) and solves correctly but shows they don't control the structure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

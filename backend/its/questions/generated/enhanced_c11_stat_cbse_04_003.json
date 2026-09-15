@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_04_003",
+   "title": "c11_stat_cbse_04_003",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a simple bar diagram and a multiple bar diagram in terms of the number of variables represented per category?",
+     "a": "A simple bar diagram represents one variable per category (one bar per category), while a multiple bar diagram represents two or more variables per category (a group of bars per category). A wrong answer suggesting both represent multiple variables or that the difference is only visual spacing reveals confusion between the data structure each diagram type is designed to represent.",
+     "self_check": true
+    },
+    {
+     "q": "In a component bar diagram showing a family's monthly expenditure (Food, Rent, Transport) for January, February, and March, the January bar has total height 10 cm. If Food expenditure is ₹15,000 out of total ₹25,000, what height (in cm) should the Food segment occupy, and why must the segments be stacked in a specific order?",
+     "a": "Food segment height = (15,000/25,000) × 10 cm = 6 cm. Segments should be stacked with the smallest component at the bottom (or largest at bottom) consistently across all bars for visual comparability; random ordering makes cross-month comparison of individual components impossible. A wrong answer calculating 4 cm or ignoring stacking order reveals misunderstanding of proportional division and the purpose of component diagrams.",
+     "self_check": true
+    },
+    {
+     "q": "Given the data: Year 2022 - Sales: ₹50L, Expenses: ₹30L, Profit: ₹20L; Year 2023 - Sales: ₹60L, Expenses: ₹35L, Profit: ₹25L. Construct a multiple bar diagram. What scale would you choose for the vertical axis if the graph paper allows 20 cm height, and how much gap should you leave between the 2022 group and 2023 group?",
+     "a": "Maximum value is ₹60L. Choose scale: 1 cm = ₹3L (since 60/3 = 20 cm). Leave a gap of at least 1 cm (or half the bar width) between year groups; bars within a group (Sales, Expenses, Profit) touch each other. A wrong scale like 1 cm = ₹5L (max 12 cm) wastes space, while no gap between groups merges distinct categories, violating the multiple bar diagram convention.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effectiveness of a multiple bar diagram versus a component bar diagram for answering: (a) \"Which year had the highest profit?\" (b) \"What percentage of total expenses was rent in 2023?\" (c) \"Did the proportion of food expenses increase from 2022 to 2023?\" Justify your answer for each.",
+     "a": "(a) Multiple bar diagram: profit bars are separate and directly comparable across years. (b) Component bar diagram: rent segment is visibly part of the total expenses bar, allowing part-to-whole visual estimation. (c) Component bar diagram: stacked segments show proportion changes within each total bar; multiple bar diagram requires mental division of food bar by total bar for each year. Choosing the same diagram for all three reveals inability to match diagram strengths to analytical questions.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a component bar diagram for quarterly sales of three products (A, B, C) where each quarter's total bar height represents total sales. They stack Product A at the bottom for Q1, Product B at the bottom for Q2, and Product C at the bottom for Q3. Evaluate this approach and explain why it violates a core principle of diagrammatic presentation.",
+     "a": "This approach is incorrect. Component segments must maintain consistent stacking order (e.g., always A at bottom, then B, then C) across all bars to enable visual tracking of each product's contribution over time. Changing order destroys comparability and misleads the reader. A defense of this approach shows fundamental misunderstanding that diagrams must preserve visual consistency for accurate interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario involving three categorical groups and two numerical variables where a multiple bar diagram is clearly superior to both simple and component bar diagrams. Provide the data table and sketch a rough diagram description explaining why the other two types would fail.",
+     "a": "Scenario: Comparing male and female literacy rates (two variables) across four states (four categories). Data: State 1: M=80%, F=60%; State 2: M=75%, F=70%; State 3: M=90%, F=85%; State 4: M=65%, F=50%. Multiple bar diagram places male/female bars side-by-side per state, enabling direct gender gap comparison within each state and cross-state comparison for each gender. Simple bar diagram would require two separate diagrams (losing direct comparison). Component bar diagram would stack male+female, but literacy rates are not parts of a whole (they don't sum to 100%), making stacking meaningless. A scenario where variables sum to a total (like expenses) would be a poor answer, as that suits component diagrams.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

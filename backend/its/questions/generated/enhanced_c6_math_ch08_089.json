@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch08_089",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch08_089",
+   "title": "c6_math_ch08_089",
+   "questions": [
+    {
+     "q": "What is the formula used to calculate the area of a circle?",
+     "a": "The formula is A = π × r². A student who says \"A = 2 × π × r\" is confusing the area formula with the circumference formula, which measures the distance around the edge, not the space inside.",
+     "self_check": true
+    },
+    {
+     "q": "If you have two circles, one with a radius of 2 cm and one with a radius of 4 cm, is the area of the larger circle double the area of the smaller one? Explain why or why not.",
+     "a": "No, it is not double; it is four times larger. A student who says \"yes\" does not understand that the radius is squared (r²), so doubling the radius (2 × 2) results in a 4-fold increase in area (2² = 4).",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the area of a circular garden with a radius of 7 meters (use π = 22/7).",
+     "a": "Step 1: Identify radius (r = 7). Step 2: Square the radius (7 × 7 = 49). Step 3: Multiply by 22/7 (49 × 22/7 = 7 × 22 = 154). Answer: 154 m². If a student gets 44, they likely calculated 2 × π × r (circumference) instead of the area.",
+     "self_check": true
+    },
+    {
+     "q": "If you are given the area of a circle, can you find the radius? How would you start?",
+     "a": "Yes, by dividing the area by pi and then finding the square root of the result. A student who tries to divide the area by 2 or by pi alone does not understand the inverse relationship of squaring a number.",
+     "self_check": true
+    },
+    {
+     "q": "Is it better to use π = 3.14 or π = 22/7 when the radius is a multiple of 7? Why?",
+     "a": "It is better to use 22/7 because it allows for easy cancellation of the denominator when the radius is 7 or 14, making the calculation simpler and more accurate. A student who insists on 3.14 may struggle with long multiplication decimals unnecessarily.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario where knowing the area of a circle is more important than knowing its circumference.",
+     "a": "A good answer would involve buying paint for a circular tabletop or choosing the size of a circular rug to cover a floor. An answer involving fences or rope refers to circumference, showing the student still confuses boundary length with internal space.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

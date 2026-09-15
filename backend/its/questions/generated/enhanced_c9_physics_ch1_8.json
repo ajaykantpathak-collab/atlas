@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch1_8",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch1_8",
+   "title": "c9_physics_ch1_8",
+   "questions": [
+    {
+     "q": "What is the primary purpose of peer review in scientific publishing?",
+     "a": "Peer review subjects a manuscript to independent evaluation by experts in the same field to assess validity, significance, and originality before publication. A wrong answer (e.g., \"to check grammar\" or \"to ensure the result is correct\") reveals the student confuses editorial checking with expert validation of methodology and interpretation, missing that peer review filters *plausibility*, not absolute truth.",
+     "self_check": true
+    },
+    {
+     "q": "Why is replication considered a cornerstone of scientific reliability, whereas a single experiment is never sufficient?",
+     "a": "Replication by independent groups using different equipment or methods rules out systematic errors, fraud, or local anomalies; a single experiment cannot distinguish a genuine effect from an uncontrolled variable. A wrong answer (e.g., \"replication just confirms the result\") reveals the student views replication as mere repetition rather than as a test of *robustness across conditions*.",
+     "self_check": true
+    },
+    {
+     "q": "A research team in Delhi measures the acceleration due to gravity as 9.78 m/s² using a new pendulum method. They publish their method and raw data. A team in Tokyo replicates the experiment exactly and obtains 9.81 m/s². What should the scientific community do next, and why?",
+     "a": "The community should investigate the discrepancy by examining methodological differences (e.g., length measurement, timing technique, air buoyancy correction) and invite a third independent replication. A wrong answer (e.g., \"average the two values\" or \"trust the Delhi team because they published first\") reveals the student treats science as authority-based or arithmetic rather than as a process of resolving discrepancies through *critical comparison*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the communication structure of the Human Genome Project (public consortium, daily data release) with Celera Genomics (proprietary, delayed release). Which model accelerated *subsequent* scientific discovery more, and what principle does this illustrate?",
+     "a": "The public consortium's open, immediate data sharing allowed researchers worldwide to begin analysis instantly, accelerating gene discovery, drug target identification, and evolutionary studies. This illustrates the principle that *open communication maximizes the rate of collective knowledge growth* by enabling parallel exploration. A wrong answer focusing only on \"who finished first\" misses the systemic effect of communication norms on the *entire field's* progress.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 9 group investigates \"Which brand of notebook paper absorbs water fastest?\" They divide work: one student cuts strips, one times absorption, one records. They get inconsistent results. Evaluate their collaboration design: what critical communication step did they omit, and how would it fix the inconsistency?",
+     "a": "They omitted *protocol standardization and calibration*: all members must agree on exact strip dimensions, water volume, temperature, and timing endpoint *before* starting, and conduct a trial run to align technique. Without this shared operational definition, \"absorbs fastest\" means different things to each student. A wrong answer (e.g., \"do more trials\") treats the symptom (scatter) not the root cause (lack of *communicated procedural consensus*).",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-step collaborative investigation for your class to test \"Does classroom CO₂ level affect concentration?\" Include: (1) hypothesis, (2) division of labor with communication checkpoints, (3) data sharing method, (4) how you will present findings to the school principal.",
+     "a": "A strong answer: (1) Hypothesis: \"If CO₂ > 1000 ppm, reaction time on a standard test increases by >10%.\" (2) Roles: sensor team (calibrate & log), test team (administer cognitive task), coordinator (sync timestamps); checkpoint: daily 5-min sync to verify sensor drift. (3) Shared Google Sheet with columns: timestamp, CO₂ (ppm), student ID, reaction time (ms); locked after entry. (4) Presentation: 3-slide deck – graph of CO₂ vs. reaction time, statistical summary, recommendation for ventilation breaks. A poor answer lacks quantitative hypothesis, defined checkpoints, or a structured data schema, revealing the student sees collaboration as \"working together\" not \"engineering a shared process.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

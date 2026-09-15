@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_07_001",
+   "title": "c11_ip_cbse_07_001",
+   "questions": [
+    {
+     "q": "Define \"data redundancy\" in the context of a file system and give one concrete example from the school attendance scenario in the textbook where the same guardian details appear in multiple rows.",
+     "a": "Data redundancy is the duplication of the same data in multiple places within a file system. In the textbook's STUDENT file (Table 7.1), Taleem Shah (Roll 3) and Ali Shah (Roll 5) share the same guardian Himanshu Shah with identical phone number and address—this guardian data is stored twice. A wrong answer (e.g., \"redundancy means having extra columns\") reveals the student confuses redundancy with schema width rather than row-level duplication across records.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"data inconsistency\" is a more dangerous problem than \"data redundancy\" in a file system, using the example of a student's name correction across STUDENT and ATTENDANCE files.",
+     "a": "Redundancy wastes storage; inconsistency corrupts meaning. If Atharv Ahuja's name is corrected to \"Atharva Ahuja\" in the STUDENT file but the ATTENDANCE file (maintained by a different teacher) still shows \"Atharv Ahuja\", queries joining both files will either miss his records or show two different students. A wrong answer focusing only on storage (\"redundancy uses more disk space\") shows the student misses the semantic impact: inconsistency breaks the truthfulness of the database, making reports unreliable.",
+     "self_check": true
+    },
+    {
+     "q": "A school maintains two separate CSV files: STUDENT(RollNo, Name, Class) and MARKS(RollNo, Subject, Marks). The principal wants a report showing \"Name, Subject, Marks\" for all students. What file-system limitation does this expose, and why can't a simple Python script permanently solve it?",
+     "a": "This exposes Data Isolation: the files have no structural link, so any program must manually match RollNo across files. A Python script can merge them today, but if tomorrow a new column \"Section\" is added to STUDENT, every script reading STUDENT must be rewritten—this is Data Dependence. A wrong answer (\"write a JOIN query\") shows the student doesn't grasp that file systems lack a query engine; the script *is* the application program that must be rewritten on schema change.",
+     "self_check": true
+    },
+    {
+     "q": "In the STUDENTATTENDANCE database (Figure 7.1), the GUARDIAN table has GUID as primary key. The STUDENT table includes GUID as a foreign key. Suppose a new student Aditi joins but her guardian details are not yet collected. Can the GUID field in STUDENT be NULL? Justify using the textbook's definition of foreign key.",
+     "a": "Yes, GUID in STUDENT can be NULL because the textbook states: \"In some cases, foreign key can take NULL value if it is not part of primary key of the foreign table.\" Here GUID is not part of STUDENT's primary key (RollNumber is), so NULL is allowed to represent \"guardian unknown.\" A wrong answer (\"foreign keys can never be NULL\") reveals the student memorized a rigid rule without understanding the conditional exception stated in the NCERT text.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"A relation with attributes (A, B, C) where A is primary key can have two tuples with identical values for B and C.\" Is this claim true or false? Defend your answer using Property 2 of relations.",
+     "a": "True. Property 2 states: \"Each tuple in a relation is distinct... each tuple must be uniquely identified by its contents.\" Since A is primary key, tuples are distinguished by A. Two tuples can share identical (B, C) values as long as their A values differ. Example: (1, 'Delhi', 'India') and (2, 'Delhi', 'India') are valid distinct tuples. A wrong answer (\"false, all attributes must be unique\") shows confusion between tuple uniqueness and attribute-value uniqueness.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal relational schema for a \"School Canteen\" system that tracks Items (name, price, category), Students (admission no, name, class), and Purchases (date, student, item, quantity). Specify primary keys, foreign keys, and one composite key. Explain why the Purchases table needs a composite key.",
+     "a": "Schema: Item(ItemCode PK, Name, Price, Category), Student(AdmNo PK, Name, Class), Purchase(AdmNo FK, ItemCode FK, PurchaseDate, Quantity, PK = {AdmNo, ItemCode, PurchaseDate}). Composite key needed because a student can buy the same item multiple times on the same day (e.g., two samosas at recess and lunch)—no single attribute uniquely identifies a purchase row. A poor answer (using only AdmNo+ItemCode as PK) fails to handle multiple purchases per day, violating tuple uniqueness.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_03_009",
+   "title": "c10_phy_cbse_03_009",
+   "questions": [
+    {
+     "q": "State the defining criterion that classifies an energy source as 'renewable' according to CBSE Class 10 NCERT. Give one example each of renewable and non-renewable source.",
+     "a": "Correct answer: An energy source is renewable if it is naturally replenished on a human timescale (practically inexhaustible). Example: Solar energy (renewable); Coal (non-renewable).  \nA wrong answer (e.g., \"Renewable means it doesn't cause pollution\") reveals the student confuses *renewability* with *cleanliness* — a common error where nuclear fission (low CO₂ but finite uranium) or biomass (renewable but emits CO₂ when burnt) are misclassified.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Hydroelectric power is renewable because water is recycled by the water cycle, so it has zero environmental impact.\" Identify the correct part and the misconception in this statement. Explain why large dams are still debated in environmental studies.",
+     "a": "Correct part: Water cycle (evaporation → rain → river flow) replenishes the reservoir, making hydro renewable. Misconception: \"Zero environmental impact.\" Large dams submerge forests (methane from decomposing biomass), displace communities, disrupt fish migration, and alter sediment flow downstream.  \nA wrong answer that only mentions \"methane\" or only \"displacement\" shows incomplete analysis — students often focus on one impact (air pollution) and ignore ecological/social dimensions tested in CBSE case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Given the data below, calculate the 'Energy Density Ratio' (Energy per kg of fuel) for Coal vs. Uranium-235 (fission). Then explain why, despite Uranium's vastly higher energy density, coal is still widely used in Indian thermal plants.  \nData: Coal calorific value = 25 MJ/kg; U-235 fission energy = 8.2 × 10¹³ J/kg.",
+     "a": "Step 1: Convert both to same unit (J/kg). Coal = 25 × 10⁶ J/kg. U-235 = 8.2 × 10¹³ J/kg.  \nStep 2: Ratio = (8.2 × 10¹³) / (25 × 10⁶) = 3.28 × 10⁶. Uranium is ~3.3 million times more energy-dense.  \nStep 3: Reasons coal is still used: (a) Coal mining/transport infrastructure exists; (b) Nuclear plants have high capital cost, long gestation, regulatory hurdles, waste disposal issues; (c) India has large coal reserves (energy security); (d) Base-load demand matches coal's continuous operation.  \nA wrong answer that only states \"nuclear is dangerous\" or \"coal is cheap\" without linking to infrastructure, capital cost, or base-load requirement shows lack of multi-factor analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Solar Photovoltaic (PV) and Wind Energy for a village in Rajasthan (high solar insolation, low average wind speed) vs. a coastal village in Tamil Nadu (moderate sun, high steady winds). Use the criteria: Capacity Factor, Land Requirement per MW, Storage Need, and Levelized Cost of Electricity (LCOE). Which source would you recommend for each? Justify.",
+     "a": "Rajasthan village: Solar PV preferred. High insolation → high capacity factor (~20-25%); land available; storage (batteries) needed for night but predictable daily cycle; LCOE of solar has dropped below coal.  \nTamil Nadu coastal village: Wind preferred. Steady sea breezes → capacity factor ~30-40%; lower land footprint per MW (towers spaced out, land usable for farming); wind often blows at night complementing solar; LCOE competitive.  \nA wrong answer that recommends solar for both because \"sun is everywhere\" ignores capacity factor and site-specific resource assessment — a key board exam skill (case-based questions on site suitability).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Biomass (like cow dung cakes) is renewable and carbon-neutral, so it is the best cooking fuel for rural India.\" Consider: indoor air pollution, time spent collecting fuel, deforestation pressure, and net CO₂ cycle. Is the statement fully correct? Why/why not?",
+     "a": "Statement is partially correct but dangerously incomplete.  \n- Renewable? Yes, if biomass regrows at harvest rate.  \n- Carbon-neutral? Only if regrowth absorbs exactly the CO₂ emitted; often not true due to unsustainable harvesting.  \n- Best fuel? No. Indoor air pollution (PM2.5, CO) causes respiratory deaths (WHO data). Time burden on women/girls collecting fuel. Deforestation from unsustainable wood cutting.  \nBetter: Biogas plants (anaerobic digestion of dung) → clean gas + slurry fertilizer; or LPG/PNG with subsidies.  \nA wrong answer that says \"yes, it's renewable so it's good\" misses the health, gender, and sustainability trade-offs central to CBSE's 'Environmental Consequences' competency questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple 'Energy Source Selection Checklist' (5-6 questions) that a Gram Panchayat can use to decide between installing a community biogas plant, a solar micro-grid, or a diesel generator for their village. The checklist must force a comparison on: (1) Local resource availability, (2) Operational skill required, (3) Recurring cost, (4) Environmental/health impact, (5) Reliability for critical loads (e.g., vaccine fridge).",
+     "a": "Sample Checklist:\n1. Is the primary resource (sunlight hours / cattle dung / diesel supply chain) reliably available locally year-round?  \n2. Can village youth be trained to maintain the system (panel cleaning / digester stirring / engine repair) within 3 months?  \n3. What is the monthly recurring cost (fuel + maintenance) per household? Is it < 5% of median income?  \n4. Does the option emit smoke/CO₂/noise inside living spaces? (Score: 0=high, 5=none)  \n5. Can it power a 200W vaccine refrigerator 24/7 without battery failure risk? (Yes/No + backup plan)  \n6. Total score > 20/30 → proceed with that option.  \nA poor checklist uses vague questions like \"Is it good?\" or ignores recurring cost/skill — showing inability to translate physics criteria into decision-making tools.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

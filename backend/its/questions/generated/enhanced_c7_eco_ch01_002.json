@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch01_002",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch01_002",
+   "title": "c7_eco_ch01_002",
+   "questions": [
+    {
+     "q": "What term describes the condition where Person A wants what Person B has, and Person B simultaneously wants what Person A has?",
+     "a": "The correct term is the double coincidence of wants. If a student answers \"barter system\" or \"market exchange,\" it shows they are confusing the broader trading system with the specific condition required for that system to function successfully without money.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the absence of a double coincidence of wants make trading in a barter economy very inefficient compared to a modern money economy?",
+     "a": "Trading without money requires individuals to spend excessive time searching for someone who both possesses the exact item they need and wants the specific item they are offering. A wrong answer stating that \"people simply give away goods for free when they cannot trade\" reveals a misunderstanding of economic scarcity and trade incentives, as people will simply refuse to trade instead.",
+     "self_check": true
+    },
+    {
+     "q": "Rohan has extra rice and wants to trade it for sugarcane. Priya has sugarcane and wants to trade it for cotton. Amit has cotton and wants to trade it for rice. Assuming no other traders are available in the village market, can a successful two-person barter trade happen between Rohan and Priya? Calculate or explain why or why not.",
+     "a": "Steps:\n1. Identify Rohan's supply (rice) and demand (sugarcane).\n2. Identify Priya's supply (sugarcane) and demand (cotton).\n3. Check for double coincidence of wants between Rohan and Priya: Rohan wants sugarcane (which Priya has), but Priya wants cotton (which Rohan does NOT have).\n4. Conclusion: Trade cannot happen directly between Rohan and Priya because Priya does not want rice.\nAnswer: No, direct trade fails because there is no double coincidence of wants between Rohan and Priya. A wrong answer claiming they can trade anyway reveals that the student ignored Priya's actual demand for cotton.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how an economy with five different specialized producers (a potter, a weaver, a farmer, a blacksmith, and a carpenter) is affected by the lack of a standardized medium of exchange like currency.",
+     "a": "Without currency, each producer must engage in a complex chain of multiple trades—often called a chain of barter—hoping to acquire items they do not actually want just so they can trade them later for what they need. A wrong answer claiming that \"barter becomes faster because people know each other\" ignores the exponential growth of matching problems as the number of specialized goods in an economy increases.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"The barter system is actually superior to a money-based economy because people exchange real useful goods directly without needing paper currency or banks.\" Is this statement economically sound? Justify your answer.",
+     "a": "The statement is not economically sound. While barter involves real goods, it severely restricts economic growth, trade volume, and specialization because transactions stall without a double coincidence of wants and a common measure of value. A wrong answer agreeing with the statement reveals a failure to recognize transaction costs and the severe inefficiencies of search friction in trade.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical 3-step trade chain involving a dairy farmer with milk, a potter with clay pots, and a weaver with blankets, where no two people have a direct double coincidence of wants, but trade is successfully achieved through multi-step indirect barter.",
+     "a": "Expected criteria: Step 1: Dairy farmer takes milk to the potter who wants milk in exchange for a pot. Step 2: Potter does not want milk directly, but the weaver wants milk. Step 3: Dairy farmer trades with weaver or establishes a sequence where each person accepts an intermediate good. A poor answer leaves parties with unwanted goods or fails to resolve the mismatch in desires, showing a lack of understanding of how indirect exchange bridges the gap left by missing double coincidence of wants.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

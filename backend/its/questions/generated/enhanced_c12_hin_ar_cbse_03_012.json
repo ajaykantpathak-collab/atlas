@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_03_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_03_012",
+   "title": "c12_hin_ar_cbse_03_012",
+   "questions": [
+    {
+     "q": "**REMEMBER:** Define literal comprehension and inferential comprehension in your own words. Give one example of each type from the poem \"कविता के पन्ने\".",
+     "a": "Literal comprehension: retrieving facts directly stated (e.g., \"कविता एक मक्खन है फफूंदी के लिए\" — answer: फफूंदी के लिए). Inferential comprehension: deriving implied meaning using evidence (e.g., \"कविता बच्चों के लिए खेल क्यों है?\" — answer: because children play without fixed rules, just as poetry has no rigid boundaries). A wrong answer that swaps the definitions shows the student cannot distinguish explicit vs. implicit information, leading to misdirected search strategies in exams.",
+     "self_check": true
+    },
+    {
+     "q": "**UNDERSTAND:** In the poem \"कर\", the line \"भाषा के पंख नहीं होते\" appears. Explain why this is an inferential statement and not a literal fact.",
+     "a": "The line is metaphorical; language does not literally have wings. The poet implies language can travel, evolve, and reach people without physical movement. A student who says \"यह शाब्दिक है क्योंकि कवि ने लिखा है\" misses the figurative layer and will fail to answer follow-up inferential questions like \"भाषा के पंख न होने का क्या अर्थ है?\" because they treat metaphor as fact.",
+     "self_check": true
+    },
+    {
+     "q": "**APPLY:** Read the following new stanza (not from NCERT): \"सपने वे बीज हैं जो नींद की मिट्टी में उगते हैं / सुबह की धूप में वे फूल बनकर खिलते हैं।\" A question asks: \"सपने किस मिट्टी में उगते हैं?\" Is this literal or inferential? Answer it.",
+     "a": "Literal. The stanza explicitly states \"नींद की मिट्टी में\". A student who labels it inferential and writes \"सपने मन की मिट्टी में उगते हैं\" over-complicates a direct retrieval task, wasting time and risking mark deduction for not quoting the exact phrase.",
+     "self_check": true
+    },
+    {
+     "q": "**ANALYZE:** Compare the textbook exercises: Question 1 (\"कविता के पन्ने का केंद्रीय भाव लिखिए\") and Question 4 (\"'फफूंदी' शब्द का प्रयोग कवि ने क्यों किया है?\"). Classify each as literal or inferential and justify.",
+     "a": "Question 1 is inferential — central idea is not stated in one line; it requires synthesizing multiple stanzas. Question 4 is inferential — the word 'फफूंदी' is used literally in the poem, but the *reason* for its use (to show poetry decays rigid minds) must be inferred from context. A student who calls both literal will write plot summaries for Q1 and dictionary meanings for Q4, missing the analytical demand.",
+     "self_check": true
+    },
+    {
+     "q": "**EVALUATE:** A student answers the inferential question \"कविता को 'खेल' क्यों कहा गया है?\" with: \"क्योंकि कविता मजेदार होती है।\" Critique this answer using the marking scheme expectation of evidence-based reasoning.",
+     "a": "The answer is insufficient — it states a personal opinion without textual evidence. The marking scheme requires citing lines like \"कविता एक खेल है बच्चों के लिए / कविता एक खेल है बड़ों के लिए\" and explaining the parallel between play’s freedom and poetry’s lack of fixed rules. A student who gives such vague answers loses 1-2 marks per question in board exams for lack of textual support.",
+     "self_check": true
+    },
+    {
+     "q": "**CREATE:** Using the poem \"कर\", write one literal question and one inferential question that could appear in a board exam. Provide the ideal answer for each.",
+     "a": "Literal Q: \"कविता में 'पतंग' शब्द किसके लिए प्रयुक्त हुआ है?\" A: भाषा के लिए (line: \"भाषा एक पतंग है\"). Inferential Q: \"‘डोर’ का टूट जाना भाषा के लिए क्या संकेत करता है?\" A: भाषा जब व्याकरण/नियमों की डोर से मुक्त होती है तो वह अनियंत्रित हो सकती है, पर स्वतंत्र भी (evidence: \"डोर टूटे तो पतंग उड़ जाए\"). A poor created question would be unanswerable from the text (e.g., \"कवि का जन्म कब हुआ?\") revealing the student doesn’t grasp text-bound comprehension.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

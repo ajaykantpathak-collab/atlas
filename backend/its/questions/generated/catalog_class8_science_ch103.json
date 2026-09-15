@@ -1,0 +1,345 @@
+{
+ "catalog": "catalog_class8_science_ch103.json",
+ "concepts": [
+  {
+   "id": "hesc.103.0.1",
+   "title": "Classification of Natural Resources",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are natural resources? Name their two broad types.",
+     "a": "Materials from nature that satisfy our needs; they are inexhaustible (air, sunlight) and exhaustible (coal, petroleum, forests).",
+     "self_check": true
+    },
+    {
+     "q": "Why are coal and petroleum called exhaustible?",
+     "a": "They formed over millions of years and cannot be remade quickly, so stocks run out with use.",
+     "self_check": true
+    },
+    {
+     "q": "Classify water, sunlight and natural gas.",
+     "a": "Water and sunlight are inexhaustible; natural gas is exhaustible.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.103.1.1",
+   "title": "Coal and Carbonisation",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How was coal formed in nature?",
+     "a": "Forests buried under earth millions of years ago were slowly compressed and heated, turning into coal (carbonisation).",
+     "self_check": true
+    },
+    {
+     "q": "Why is coal called a fossil fuel?",
+     "a": "It formed from remains of ancient plants, like fossils, and burns to give energy.",
+     "self_check": true
+    },
+    {
+     "q": "Name the variety of coal with the highest carbon content.",
+     "a": "Anthracite is the hardest coal with the most carbon; bituminous and lignite have less.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.103.1.2",
+   "title": "Products of Coal: Coke, Coal Tar, and Coal Gas",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the three useful products of coal.",
+     "a": "Coke, coal tar and coal gas.",
+     "self_check": true
+    },
+    {
+     "q": "What is coke used for?",
+     "a": "Coke (a hard, porous, almost pure carbon) is used to reduce metal oxides in steel making and as a smokeless fuel.",
+     "self_check": true
+    },
+    {
+     "q": "Which coal product gives naphthalene balls and synthetic dyes?",
+     "a": "Coal tar - a black liquid with many useful chemicals.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.103.2.1",
+   "title": "Formation and Origin of Petroleum",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How did petroleum form?",
+     "a": "Tiny plants and animals buried under the sea decayed for ages under heat and pressure, turning into petroleum trapped between rock layers.",
+     "self_check": true
+    },
+    {
+     "q": "Why is petroleum called 'black gold'?",
+     "a": "It is as precious as gold - from it come fuel, plastics, synthetic fibres and many chemicals.",
+     "self_check": true
+    },
+    {
+     "q": "Where does petroleum occur in the earth?",
+     "a": "It collects under impervious rock layers, often above natural gas, deep below the surface.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.103.2.2",
+   "title": "Petroleum Refining and Components",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is petroleum refining?",
+     "a": "Separating crude petroleum into useful fractions by fractional distillation in a refinery.",
+     "self_check": true
+    },
+    {
+     "q": "Name four fractions obtained from petroleum refining.",
+     "a": "Petroleum gas, petrol, kerosene and diesel (also lubricating oil, paraffin wax, asphalt).",
+     "self_check": true
+    },
+    {
+     "q": "Which petroleum fraction is used as cooking fuel at home?",
+     "a": "Liquefied petroleum gas (LPG) from the top of the fractionating column.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.103.2.3",
+   "title": "Petrochemicals and Black Gold",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are petrochemicals?",
+     "a": "Chemicals made from petroleum and natural gas, used to make plastics, synthetic fibres, dyes and detergents.",
+     "self_check": true
+    },
+    {
+     "q": "Name two products made from petrochemicals.",
+     "a": "Polythene (plastic) and polyester cloth; also synthetic rubber and detergents.",
+     "self_check": true
+    },
+    {
+     "q": "Why must we use fossil fuels carefully?",
+     "a": "They are exhaustible and burning them pollutes air; conserving them keeps them for future generations.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.103.3.1",
+   "title": "Natural Gas and Compressed Natural Gas (CNG)",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is natural gas and why is it a clean fuel?",
+     "a": "A fossil fuel of mostly methane stored deep under earth; it burns with little smoke and residue.",
+     "self_check": true
+    },
+    {
+     "q": "What is CNG? Where is it used?",
+     "a": "Compressed natural gas - natural gas squeezed at high pressure - used as a cleaner vehicle fuel in Delhi and other cities.",
+     "self_check": true
+    },
+    {
+     "q": "Name the gas that fills balloons for weather study and parties.",
+     "a": "Helium, found along with natural gas deposits.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.103.4.1",
+   "title": "Conservation of Natural Resources and PCRA Guidelines",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is PCRA and what does it advise?",
+     "a": "Petroleum Conservation Research Association - it advises driving smoothly, proper tyre pressure, regular engine checks and switching off engines at red lights to save fuel.",
+     "self_check": true
+    },
+    {
+     "q": "List three habits that save fuel at home and on the road.",
+     "a": "Using public transport or car pools, keeping vehicle engines tuned, and cooking in pressure cookers or on low flame.",
+     "self_check": true
+    },
+    {
+     "q": "Why should we switch to alternative energy sources?",
+     "a": "Fossil fuels are limited and polluting; solar, wind and hydel energy are renewable and cleaner.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.103.4.2",
+   "title": "Power Shortage Percentage Difference Calculation",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "shortage_change",
+     "expr": "shortage_year2 - shortage_year1",
+     "explain": "how much the power shortage grew or fell between the years"
+    },
+    {
+     "step": 2,
+     "name": "average_shortage",
+     "expr": "(shortage_year1 + shortage_year2) / 2",
+     "explain": "average shortage over the two years"
+    },
+    {
+     "step": 3,
+     "name": "shortage_change_pct",
+     "expr": "(shortage_change / shortage_year1) * 100",
+     "explain": "the change as a percentage of the first year"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A town's power shortage was 40 MW last year and 55 MW this year. Find the increase and its percentage.",
+     "vals": {
+      "shortage_year1": 40,
+      "shortage_year2": 55
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "37.5 %",
+     "self_check": false
+    },
+    {
+     "q": "Shortage figures were 25 MW two years ago and 30 MW last year. Compute the change and its per cent.",
+     "vals": {
+      "shortage_year1": 25,
+      "shortage_year2": 30
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "20 %",
+     "self_check": false
+    },
+    {
+     "q": "Electricity shortage fell from 80 units to 72 units. Find the decrease and its percentage.",
+     "vals": {
+      "shortage_year1": 80,
+      "shortage_year2": 72
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "-10 %",
+     "self_check": false
+    },
+    {
+     "q": "A state had 100 MW shortage in year 1 and 140 MW in year 2. Calculate the rise in per cent.",
+     "vals": {
+      "shortage_year1": 100,
+      "shortage_year2": 140
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "40 %",
+     "self_check": false
+    },
+    {
+     "q": "Shortage went from 16 MU to 20 MU. What is the change and its percentage?",
+     "vals": {
+      "shortage_year1": 16,
+      "shortage_year2": 20
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "25 %",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hesc.103.4.3",
+   "title": "Remaining Fuel Reserve Percentage Calculation",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "left_over",
+     "expr": "total_reserve - consumed_amount",
+     "explain": "reserve still unused"
+    },
+    {
+     "step": 2,
+     "name": "used_percent",
+     "expr": "(consumed_amount / total_reserve) * 100",
+     "explain": "per cent of the reserve already used"
+    },
+    {
+     "step": 3,
+     "name": "remaining_pct",
+     "expr": "(left_over / total_reserve) * 100",
+     "explain": "unused reserve as a percentage"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A nation had 200 billion tonnes of coal; 80 billion tonnes are used. What per cent remains?",
+     "vals": {
+      "total_reserve": 200,
+      "consumed_amount": 80
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "60 %",
+     "self_check": false
+    },
+    {
+     "q": "Of 500 units of fuel reserve, 150 units are consumed. Find the remaining percentage.",
+     "vals": {
+      "total_reserve": 500,
+      "consumed_amount": 150
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "70 %",
+     "self_check": false
+    },
+    {
+     "q": "Petroleum reserve is 300 million tonnes and 210 million tonnes are burnt. What per cent is left?",
+     "vals": {
+      "total_reserve": 300,
+      "consumed_amount": 210
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "30 %",
+     "self_check": false
+    },
+    {
+     "q": "A gas reserve of 90 units has 27 units used. Compute the per cent remaining.",
+     "vals": {
+      "total_reserve": 90,
+      "consumed_amount": 27
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "70 %",
+     "self_check": false
+    },
+    {
+     "q": "From 1000 tonnes of reserve, 350 tonnes are extracted. What percentage still lies unused?",
+     "vals": {
+      "total_reserve": 1000,
+      "consumed_amount": 350
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "65 %",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

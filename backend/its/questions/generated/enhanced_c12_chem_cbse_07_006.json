@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_07_006",
+   "title": "c12_chem_cbse_07_006",
+   "questions": [
+    {
+     "q": "Write the balanced chemical equation for the reaction of ethanol with sodium metal. State the products and the gas evolved.",
+     "a": "2CH₃CH₂OH + 2Na → 2CH₃CH₂ONa + H₂↑. Products: sodium ethoxide and hydrogen gas. A wrong answer (e.g., writing NaOH as product or missing H₂) reveals confusion between reaction of metals with water vs. alcohols, or not recognizing alcohols as weak acids that donate H⁺ to strong reducing metals.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why tertiary alcohols (e.g., tert-butanol) do not undergo esterification with carboxylic acids under standard Fischer conditions (conc. H₂SO₄, heat) as readily as primary alcohols.",
+     "a": "Tertiary alcohols have bulky alkyl groups that hinder nucleophilic attack on the protonated carbonyl carbon. Additionally, under strong acid/heat, they readily undergo elimination (dehydration) to form alkenes, competing with esterification. A student who says \"tertiary alcohols are less acidic\" misses the steric and mechanistic point — the rate-determining step is nucleophilic addition, not deprotonation.",
+     "self_check": true
+    },
+    {
+     "q": "Balance the following esterification reaction and calculate the theoretical yield of ethyl acetate (in grams) when 4.6 g ethanol reacts with excess acetic acid (molar masses: ethanol = 46 g/mol, ethyl acetate = 88 g/mol).\nCH₃CH₂OH + CH₃COOH ⇌ CH₃COOCH₂CH₃ + H₂O",
+     "a": "Equation is already balanced 1:1:1:1. Moles ethanol = 4.6/46 = 0.1 mol. Theoretical moles ethyl acetate = 0.1 mol. Mass = 0.1 × 88 = 8.8 g. A wrong calculation (e.g., using 1:2 ratio or wrong molar mass) shows inability to apply stoichiometry to reversible organic reactions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the acidity of ethanol, phenol, and water. Arrange in increasing order of acid strength and justify using conjugate base stability.",
+     "a": "Ethanol (pKa ~16) < Water (pKa ~15.7) < Phenol (pKa ~10). Ethoxide ion has localized negative charge on O; hydroxide has localized charge but on smaller, more electronegative O; phenoxide has resonance delocalization into aromatic ring, stabilizing the anion most. A student who orders water < ethanol confuses the electron-donating alkyl group effect (destabilizes alkoxide) with the inherent electronegativity of oxygen.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the reaction of ethanol with acetyl chloride as: CH₃CH₂OH + CH₃COCl → CH₃COOCH₂CH₃ + HCl. They claim no catalyst is needed. Evaluate this statement and correct if necessary.",
+     "a": "The equation is balanced but the claim is wrong. Pyridine (or another base) is required to neutralize the HCl produced, otherwise the reaction mixture becomes acidic and the alcohol can be protonated, reducing its nucleophilicity. Also, HCl can cause side reactions (e.g., formation of ethyl chloride). A student missing the role of pyridine misunderstands the need to drive the equilibrium and protect the nucleophile.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple lab test to distinguish between methanol, ethanol, and tert-butanol using only sodium metal and observation of reaction rate. Explain the expected observations.",
+     "a": "Add a small piece of Na to each alcohol in separate dry test tubes. Methanol and ethanol (primary) react steadily with H₂ evolution; tert-butanol (tertiary) reacts very slowly due to steric hindrance around the O–H bond. Rate order: methanol ≈ ethanol > tert-butanol. A poor answer that says \"all react at same rate\" ignores steric effects on acidity and accessibility of the O–H proton.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

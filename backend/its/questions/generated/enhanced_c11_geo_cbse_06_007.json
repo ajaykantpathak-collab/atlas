@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_06_007",
+   "title": "c11_geo_cbse_06_007",
+   "questions": [
+    {
+     "q": "What is the primary mechanism by which plant roots contribute to the physical disintegration of rocks?",
+     "a": "Plant roots grow into cracks and joints in rocks, exerting pressure as they thicken (root wedging), which widens the cracks and eventually breaks the rock apart. A wrong answer (e.g., \"roots secrete acids that dissolve the rock\") indicates confusion between physical root wedging and chemical weathering by organic acids.",
+     "self_check": true
+    },
+    {
+     "q": "Why is biological weathering considered a bridge between physical and chemical weathering processes?",
+     "a": "Biological weathering involves both physical forces (root pressure, burrowing) and chemical processes (organic acids from roots, lichens, and microbial activity) that decompose minerals. A wrong answer that only mentions one aspect shows the student hasn't grasped the dual nature of biological weathering.",
+     "self_check": true
+    },
+    {
+     "q": "In the Western Ghats, laterite soils are formed under high rainfall and temperature. Identify the role of biological weathering in laterite formation and explain how human activity (deforestation) alters this process.",
+     "a": "In the Western Ghats, dense vegetation (plants, microbes) accelerates chemical weathering through organic acids and chelation, leading to intense leaching and laterite formation. Deforestation removes the biological cover, reducing organic acid input but increasing physical erosion, which strips the laterite profile. A wrong answer that ignores the chemical role of biology or the impact of deforestation shows incomplete understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the weathering impact of termites in the Deccan Plateau with that of earthworms in the Indo-Gangetic plains. How do their activities differ in terms of soil mixing and mineral exposure?",
+     "a": "Termites in the Deccan Plateau build deep mounds, bringing subsoil material to the surface and enhancing aeration and mineral exposure in semi-arid regions. Earthworms in the Indo-Gangetic plains continuously mix organic matter with mineral soil in humid conditions, creating a thick, fertile topsoil. A wrong answer that treats both as similar burrowers misses the climatic and soil-type context.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Human activities are the most significant agent of biological weathering in modern times.\" Provide two Indian examples to support your evaluation.",
+     "a": "The statement is valid because human activities (mining, quarrying, construction, agriculture) accelerate weathering rates far beyond natural biological processes. Examples: (1) Open-cast mining in Jharkhand exposes fresh rock surfaces to weathering, increasing erosion. (2) Intensive agriculture in Punjab with heavy machinery and chemical inputs disrupts soil structure and enhances decomposition. A wrong answer that downplays human impact or gives irrelevant examples shows lack of awareness of anthropogenic geomorphology.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field study to investigate the role of lichens in weathering of granitic rocks in the Bangalore region. Outline the steps, variables to measure, and expected outcomes.",
+     "a": "A good answer would include: (1) Select granitic outcrops with and without lichen cover. (2) Measure surface recession rates using micro-erosion meters over a year. (3) Analyze lichen species and their organic acid production. (4) Compare weathering rates and correlate with lichen coverage. Expected outcome: Lichen-covered surfaces show higher chemical weathering rates. A poor answer lacks controlled comparison or measurable variables.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

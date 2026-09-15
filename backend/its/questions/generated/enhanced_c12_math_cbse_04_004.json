@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_04_004",
+   "title": "c12_math_cbse_04_004",
+   "questions": [
+    {
+     "q": "Write the determinant expression for the area of a triangle with vertices A(2, 3), B(−1, 4), and C(5, −2). Do not evaluate.",
+     "a": "The determinant is |2 3 1; −1 4 1; 5 −2 1|. Area = ½ |det|. A wrong answer reveals the student either forgets the column of 1s, places coordinates in wrong order (columns vs rows), or omits the factor ½. The correct structure requires x-coordinates in column 1, y-coordinates in column 2, and 1 in column 3.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why we take the absolute value of the determinant when computing area, and why we must consider both positive and negative values of the determinant when the area is given and we need to find an unknown coordinate.",
+     "a": "Area is a positive physical quantity, so we take |det|. When area is given (e.g., 10 sq units), the determinant could be +20 or −20, giving two possible positions for the unknown vertex on opposite sides of the line formed by the other two points. A student who says \"determinant is always positive\" confuses the determinant value with area; the determinant can be negative depending on vertex order (orientation).",
+     "self_check": true
+    },
+    {
+     "q": "Find the area of the triangle with vertices (1, 2), (4, 6), and (7, 2). Show all steps of determinant expansion.",
+     "a": "Matrix: |1 2 1; 4 6 1; 7 2 1|. Expand along C3: 1·|4 6; 7 2| − 1·|1 2; 7 2| + 1·|1 2; 4 6| = 1(8−42) − 1(2−14) + 1(6−8) = −34 + 12 − 2 = −24. Area = ½|−24| = 12 sq units. A common error: expanding along a row with no zeros, making arithmetic mistakes, or forgetting the alternating signs in cofactor expansion.",
+     "self_check": true
+    },
+    {
+     "q": "Three points A(k, 0), B(4, 0), and C(0, 2) form a triangle of area 4 square units. Find all possible values of k. Explain why there are two values.",
+     "a": "Matrix: |k 0 1; 4 0 1; 0 2 1|. Expand along C2 (two zeros): −0 + 0 − 2·|k 1; 4 1| = −2(k−4) = 8−2k. Area = ½|8−2k| = 4 ⇒ |8−2k| = 8 ⇒ 8−2k = ±8 ⇒ k = 0 or k = 8. Two values because the third vertex can lie on either side of line AB (the x-axis) at the same perpendicular distance. A student giving only k=0 misses the \"±\" from absolute value.",
+     "self_check": true
+    },
+    {
+     "q": "A student computes the area of triangle with vertices (2, 3), (5, 7), (8, 11) and gets 12 sq units. Is this correct? Identify the error.",
+     "a": "The points are collinear (slopes: (7−3)/(5−2)=4/3, (11−7)/(8−5)=4/3), so area = 0. The student likely made an arithmetic error in determinant expansion or forgot that collinear points give zero determinant. The correct determinant: |2 3 1; 5 7 1; 8 11 1| = 2(7−11) − 3(5−8) + 1(55−56) = −8 + 9 − 1 = 0. Area = 0. The error reveals the student did not check collinearity first.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a triangle with vertices having integer coordinates such that its area is exactly 7 square units and one vertex is at the origin. Give the coordinates and verify using the determinant method.",
+     "a": "One solution: (0,0), (7,0), (0,2). Matrix: |0 0 1; 7 0 1; 0 2 1| = 0 − 0 + 1(14−0) = 14. Area = ½×14 = 7. Another: (0,0), (1,0), (0,14) or (0,0), (2,0), (0,7). A poor answer uses non-integer coordinates, forgets the ½ factor, or gives collinear points. The task tests ability to reverse-engineer the formula and understand the geometric meaning of base×height/2.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

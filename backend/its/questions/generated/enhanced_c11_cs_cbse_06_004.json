@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_06_004",
+   "title": "c11_cs_cbse_06_004",
+   "questions": [
+    {
+     "q": "What is the result of the expression `\"Hello\" + \"World\"` in Python?",
+     "a": "The result is `\"HelloWorld\"` (without a space). A wrong answer like `\"Hello World\"` reveals the student assumes a space is automatically inserted, which is a common misconception: concatenation joins exactly the given strings with no extra characters.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what the expression `\"Ab\" * 3` evaluates to and why.",
+     "a": "It evaluates to `\"AbAbAb\"` because the `*` operator repeats the string `\"Ab\"` three times. A wrong answer like `\"Ab3\"` or `\"Ab Ab Ab\"` shows the student confuses repetition with multiplication of numbers or expects spaces between repetitions.",
+     "self_check": true
+    },
+    {
+     "q": "Given `s1 = \"Py\"` and `s2 = \"thon\"`, write a Python statement that creates the string `\"Python\"` using concatenation, and then write a statement that creates `\"PyPyPy\"` using repetition.",
+     "a": "Concatenation: `s1 + s2` gives `\"Python\"`. Repetition: `s1 * 3` gives `\"PyPyPy\"`. If the student writes `s1 + s1 + s1` for repetition, it works but misses the point of using `*`; if they write `s1 * s2` it reveals confusion about operand types (the right operand of `*` must be an integer).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the expressions `\"5\" + \"3\"` and `5 + 3`. What are their results and why are they different?",
+     "a": "`\"5\" + \"3\"` yields `\"53\"` (string concatenation) while `5 + 3` yields `8` (integer addition). The difference is due to the data types: strings use `+` for concatenation, numbers use `+` for arithmetic. A student who says both give `8` or both give `\"53\"` does not understand operator overloading based on operand types.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `greeting = \"Hi\"` and then `greeting * 2` but finds that `greeting` is still `\"Hi\"` afterwards. They claim the repetition didn't work. Evaluate their claim and explain the correct behavior.",
+     "a": "The student's claim is incorrect: `greeting * 2` returns a new string `\"HiHi\"` but does not modify `greeting` because strings are immutable. The original variable still refers to `\"Hi\"`. To capture the result, they must assign it: `greeting = greeting * 2`. A student who thinks the original string changes has not grasped immutability.",
+     "self_check": true
+    },
+    {
+     "q": "Create a Python program that takes a user's first name and last name as input, then prints a username formed by concatenating the first letter of the first name, a dot, and the full last name (e.g., \"A.Kumar\"). Use concatenation and repetition only (no string methods like `join`).",
+     "a": "A correct program:\n```python\nfirst = input(\"Enter first name: \")\nlast = input(\"Enter last name: \")\nusername = first[0] + \".\" + last\nprint(username)\n```\nA poor answer might use `first[0] + last` (missing dot) or try to use `*` inappropriately. This tests the ability to combine indexing (from prior node) with concatenation to solve a real problem.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_04_007",
+   "title": "c11_stat_cbse_04_007",
+   "questions": [
+    {
+     "q": "What is the primary difference between a frequency polygon and a frequency curve in terms of how they are drawn?",
+     "a": "A frequency polygon is drawn by joining the midpoints of the tops of histogram rectangles with straight line segments, while a frequency curve is a smooth freehand curve drawn through those same points (or as close as possible) without sharp angles. A wrong answer (e.g., saying both are drawn with straight lines) reveals the student confuses the polygon's straight-line construction with the curve's smooth nature.",
+     "self_check": true
+    },
+    {
+     "q": "If a frequency curve has a longer tail on the right side and the peak is shifted to the left, what type of skewness does it indicate? Explain why the mean, median, and mode would be ordered in a particular way for this shape.",
+     "a": "This indicates positive skewness (right-skewed). In a positively skewed distribution, the mean is pulled toward the long tail, so mean > median > mode. A wrong answer (e.g., saying it's negatively skewed or that mean < median) reveals the student does not understand how tail direction relates to skewness and the relative positions of central tendency measures.",
+     "self_check": true
+    },
+    {
+     "q": "Given a frequency distribution of marks of 60 students: 0-20: 5, 20-40: 10, 40-60: 20, 60-80: 15, 80-100: 10. Draw the frequency polygon and then sketch the corresponding frequency curve. What type of frequency curve does it resemble?",
+     "a": "Steps: 1) Find class marks (10,30,50,70,90). 2) Plot points (10,5), (30,10), (50,20), (70,15), (90,10). 3) Join with straight lines for polygon. 4) Draw smooth curve through points. 5) The curve is roughly symmetrical (bell-shaped) because frequencies rise and fall symmetrically around the central class. A wrong answer (e.g., identifying it as skewed) reveals the student cannot visually assess symmetry from the polygon's shape.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the usefulness of a frequency curve versus a histogram when you want to compare the shapes of two different distributions on the same graph. Why is the frequency curve preferred for this purpose?",
+     "a": "A frequency curve is preferred because multiple smooth curves can be plotted on the same axes without visual clutter, allowing easy comparison of shapes (symmetry, skewness, modality). Histograms with adjacent rectangles would overlap and obscure each other. A wrong answer (e.g., saying histograms are better because they show exact frequencies) reveals the student does not grasp the trade-off between precise frequency representation and shape comparison.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a frequency curve that passes exactly through every point of the frequency polygon. Evaluate whether this is correct. What is the purpose of a frequency curve if it doesn't necessarily pass through all points?",
+     "a": "It is not necessary for the frequency curve to pass through every polygon point; it should pass as close as possible to represent the overall trend. The purpose is to show the general shape of the distribution, smoothing out random fluctuations. A wrong answer (e.g., insisting the curve must pass through all points) reveals the student misunderstands the curve as an interpolating tool rather than a smoothing tool.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (with a small frequency table) where the frequency curve would be U-shaped. Explain why the data would produce such a shape.",
+     "a": "Example: Distribution of ages at a community event with many children and many elderly but few middle-aged adults. Frequency table: Age 0-20: 30, 20-40: 5, 40-60: 5, 60-80: 30. The curve is U-shaped because frequencies are high at both ends and low in the middle. A poor answer (e.g., giving a bell-shaped scenario) reveals the student cannot connect data patterns to curve shapes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

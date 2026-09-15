@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch14_003",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch14_003",
+   "title": "c7_math_ch14_003",
+   "questions": [
+    {
+     "q": "What geometric tool is used alongside a straightedge (ruler without measurement markings) to perform an angle bisector construction?",
+     "a": "The correct answer is a compass. A student who answers \"protractor\" is confusing construction with measurement, failing to understand that geometric constructions rely purely on equidistant arcs rather than reading numerical degrees off a scale.",
+     "self_check": true
+    },
+    {
+     "q": "When constructing an angle bisector, why do we use the same compass width when drawing the two intersecting arcs from the points on the arms of the angle?",
+     "a": "The correct answer is that keeping the compass width the same ensures that the points are equidistant from the two arm intersections, which is necessary to form a rhombus or congruent triangles that guarantee the bisector line divides the angle symmetrically. A student who says \"it makes the drawing look neat\" does not understand the geometric principle of equidistance that underpins the construction.",
+     "self_check": true
+    },
+    {
+     "q": "Suppose you have an angle $\\angle ABC$ measuring $80^\\circ$. If you correctly construct its angle bisector $\\vec{BD}$, what is the exact measure of $\\angle ABD$?",
+     "a": "The correct answer is $40^\\circ$. Working: \nStep 1: Identify the total angle measure, which is $80^\\circ$. \nStep 2: Recognize that an angle bisector divides an angle into two equal parts. \nStep 3: Divide the total measure by 2: $\\frac{80^\\circ}{2} = 40^\\circ$. \nA student who answers $80^\\circ$ or $160^\\circ$ has confused the definition of an angle bisector with either the original angle or doubling it instead of halving it.",
+     "self_check": true
+    },
+    {
+     "q": "If you change the compass width midway through drawing the two intersecting interior arcs from the arms of the angle, what will happen to the resulting line?",
+     "a": "The correct answer is that the resulting line will not be the true angle bisector because the intersecting point will no longer be equidistant from both arms. A student who answers \"nothing, the angle is still bisected\" fails to understand that construction accuracy depends entirely on maintaining a fixed, equal radius when striking intersecting arcs.",
+     "self_check": true
+    },
+    {
+     "q": "A student constructs an angle bisector for an obtuse angle measuring $120^\\circ$. After drawing the construction arcs, they connect the vertex to the intersection point. However, when they measure the two resulting angles with a protractor, they get $55^\\circ$ and $65^\\circ$. Evaluate what went wrong in their construction process.",
+     "a": "The correct answer is that the student likely changed their compass radius between drawing the first arc on the arms and the second set of interior arcs, or they placed the compass needle incorrectly on the arm intersection points instead of the exact arc-arm intersection points. A student who says \"protractors are always wrong\" fails to check their own mechanical construction steps and lacks error-analysis skills.",
+     "self_check": true
+    },
+    {
+     "q": "Describe how you would use the angle bisector construction method to divide a straight angle ($180^\\circ$) into four equal parts of $45^\\circ$ each.",
+     "a": "The expected response involves a multi-step construction: First, construct the perpendicular bisector or use a straight line to establish the $180^\\circ$ angle. Second, construct the angle bisector of the $180^\\circ$ angle to create two $90^\\circ$ angles. Third, construct the angle bisectors of each of those two $90^\\circ$ angles to yield four equal parts of $45^\\circ$ each. A poor answer would suggest using a protractor to measure $45^\\circ$ increments directly, which misses the entire geometric construction requirement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

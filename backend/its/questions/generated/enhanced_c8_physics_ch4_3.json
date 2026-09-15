@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch4_3",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch4_3",
+   "title": "c8_physics_ch4_3",
+   "questions": [
+    {
+     "q": "State the formula for pressure and name its SI unit. If a force of 10 N acts on an area of 2 m², what is the pressure in pascals?",
+     "a": "Pressure = Force / Area = 10 N / 2 m² = 5 Pa. SI unit: pascal (Pa) = N/m². A wrong answer like “5 N” or “5 N/m” shows the student recalls the formula but does not track units, treating pressure as force or ignoring area’s dimension.",
+     "self_check": true
+    },
+    {
+     "q": "A camel walks easily on sand while a horse of similar weight sinks. Explain this using the concept of pressure, force, and area. Why does increasing the contact area help?",
+     "a": "The camel’s wide feet increase the contact area with sand. Since pressure = force/area, the same weight (force) spread over a larger area produces lower pressure, so the sand does not yield. A wrong answer like “camel is lighter” or “camel has special feet” reveals the student thinks weight changes or misses the inverse area–pressure relationship.",
+     "self_check": true
+    },
+    {
+     "q": "A rectangular brick of weight 30 N rests on a table. Its dimensions are 20 cm × 10 cm × 5 cm. Calculate the pressure exerted when the brick lies on its largest face and on its smallest face. Express answers in Pa.",
+     "a": "Step 1: Convert cm to m: 20 cm = 0.20 m, 10 cm = 0.10 m, 5 cm = 0.05 m.  \nStep 2: Largest face area = 0.20 m × 0.10 m = 0.020 m². Pressure = 30 N / 0.020 m² = 1500 Pa.  \nStep 3: Smallest face area = 0.10 m × 0.05 m = 0.0050 m². Pressure = 30 N / 0.0050 m² = 6000 Pa.  \nStep 4: Unit check: N/m² = Pa.  \nA wrong answer like 1500 N/m² (missing Pa) or 600 Pa (using wrong face) shows unit conversion or area identification error.",
+     "self_check": true
+    },
+    {
+     "q": "Two students push identical boxes with forces of 50 N and 80 N respectively. The first box has a base area of 0.25 m², the second 0.40 m². Which box exerts greater pressure on the floor? Show your reasoning.",
+     "a": "Box 1: P = 50 N / 0.25 m² = 200 Pa. Box 2: P = 80 N / 0.40 m² = 200 Pa. Both exert equal pressure (200 Pa). A student who picks “Box 2 because force is larger” ignores the area increase; they treat pressure as dependent only on force, not the ratio.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate says: “If I double the force and double the area, the pressure stays the same.” Is this statement always correct? Justify with the formula.",
+     "a": "Yes, it is correct. P = F/A. If F → 2F and A → 2A, then new P = (2F)/(2A) = F/A = original P. The factors cancel. A student who says “pressure doubles because force doubles” or “pressure halves because area doubles” is changing only one variable at a time and not seeing the combined effect.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items (e.g., sand, coins, cardboard) to demonstrate that pressure depends on area. Describe the setup, what you will measure/observe, and how you will conclude the relationship.",
+     "a": "Good answer: Place a coin flat on sand, then stand it on edge; measure depth of indentation with a ruler. Same coin (same force = weight), different contact area → deeper indentation for smaller area shows higher pressure. Poor answer: “Press thumb and palm on sand” without controlling force or measuring outcome reveals confusion between force and pressure and lack of controlled variables.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

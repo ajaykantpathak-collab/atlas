@@ -1,0 +1,656 @@
+{
+ "class": "12",
+ "subject": "economics",
+ "chapter": "3",
+ "chapter_title": "Determination of Income and Employment",
+ "source_file": "NCERT Class 12 Economics -- Unit 3 (Determination of Income and Employment)",
+ "concepts": [
+  {
+   "id": "c12eco.3.1",
+   "title": "Aggregate Demand and its Components",
+   "section": "Aggregate Demand",
+   "definition": "Aggregate Demand (AD) is the total demand for final goods and services in an economy during a given period of time. Its components are Consumption (C), Investment (I), Government Expenditure (G) and Net Exports (X - M).",
+   "formula": "AD = C + I + G + (X - M)",
+   "key_idea": "AD is the sum of all planned expenditure on final goods and services in the economy; in a simple two-sector model it is C + I.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define Aggregate Demand and list its components.",
+    "Calculate AD given C, I, G, X and M.",
+    "Explain the relationship between AD and national income.",
+    "Why is AD considered a flow variable?",
+    "Distinguish between autonomous and induced components of AD."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify components",
+     "explain": "List C, I, G, X, M from the data.",
+     "compute": "C, I, G, X, M"
+    },
+    {
+     "step": 2,
+     "action": "Compute net exports",
+     "explain": "Subtract imports from exports.",
+     "compute": "(X - M)"
+    },
+    {
+     "step": 3,
+     "action": "Sum all components",
+     "explain": "Add C, I, G and net exports to get AD.",
+     "compute": "AD = C + I + G + (X - M)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "In a two-sector economy, C = 500 and I = 200. Find AD.",
+     "solution": "In a two-sector model AD = C + I = 500 + 200.",
+     "answer": "AD = 700"
+    },
+    {
+     "question": "Given C = 1000, I = 300, G = 200, X = 100, M = 50, find AD.",
+     "solution": "AD = C + I + G + (X - M) = 1000 + 300 + 200 + (100 - 50).",
+     "answer": "AD = 1550"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "If C = 800, I = 400, G = 100, X = 60, M = 40, compute AD.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain why government spending is a component of AD.",
+     "type": "verify_property"
+    },
+    {
+     "question": "AD = C + I in which type of economy? Justify.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.3.2",
+   "title": "Consumption Function and Marginal Propensity to Consume",
+   "section": "Consumption Function",
+   "definition": "The consumption function expresses the functional relationship between consumption expenditure and national income: C = C_bar + bY, where C_bar is autonomous consumption, b is the MPC and Y is income.",
+   "formula": "C = C_bar + bY;  MPC (b) = dC / dY",
+   "key_idea": "Consumption consists of an autonomous part (independent of income) and an induced part that rises with income; MPC lies between 0 and 1.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Write the consumption function and explain each term.",
+    "Compute consumption given autonomous consumption, MPC and income.",
+    "Find MPC when consumption at two income levels is given.",
+    "Explain why 0 < MPC < 1.",
+    "Distinguish between autonomous and induced consumption."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify parameters",
+     "explain": "Note C_bar, b and Y.",
+     "compute": "C_bar, b, Y"
+    },
+    {
+     "step": 2,
+     "action": "Apply consumption function",
+     "explain": "Use C = C_bar + bY.",
+     "compute": "C = C_bar + bY"
+    },
+    {
+     "step": 3,
+     "action": "Compute MPC if needed",
+     "explain": "MPC = delta C / delta Y.",
+     "compute": "b = dC / dY"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "C_bar = 100, MPC = 0.8, Y = 1000. Find C.",
+     "solution": "C = C_bar + bY = 100 + 0.8 * 1000 = 100 + 800.",
+     "answer": "C = 900"
+    },
+    {
+     "question": "Consumption is 200 at income 500 and 280 at income 700. Find MPC.",
+     "solution": "MPC = delta C / delta Y = (280 - 200) / (700 - 500) = 80 / 200.",
+     "answer": "MPC = 0.4"
+    },
+    {
+     "question": "If C = 50 + 0.75Y, find consumption at Y = 400.",
+     "solution": "C = 50 + 0.75 * 400 = 50 + 300.",
+     "answer": "C = 350"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "C_bar = 200, MPC = 0.6, Y = 1500. Compute C.",
+     "type": "compute"
+    },
+    {
+     "question": "Given C = 80 + 0.9Y, find MPC and autonomous consumption.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain the economic meaning of MPC = 0.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.3.3",
+   "title": "Saving Function and Marginal Propensity to Save",
+   "section": "Saving Function",
+   "definition": "The saving function expresses saving as a function of income: S = -C_bar + (1 - b)Y, where (1 - b) is the MPS. Saving is the part of income not consumed.",
+   "formula": "S = Y - C = -C_bar + sY;  MPS (s) = 1 - b = dS / dY",
+   "key_idea": "Saving is the residual of income after consumption; MPS + MPC = 1. Autonomous saving is negative (dissaving) equal to -C_bar.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Derive the saving function from the consumption function.",
+    "Compute saving given income and the consumption function.",
+    "Find MPS when MPC is given.",
+    "Explain why MPS + MPC = 1.",
+    "What is autonomous saving and why is it negative?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find consumption",
+     "explain": "Compute C = C_bar + bY.",
+     "compute": "C = C_bar + bY"
+    },
+    {
+     "step": 2,
+     "action": "Compute saving",
+     "explain": "S = Y - C.",
+     "compute": "S = Y - C"
+    },
+    {
+     "step": 3,
+     "action": "Find MPS",
+     "explain": "MPS = 1 - MPC.",
+     "compute": "s = 1 - b"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "C = 100 + 0.8Y, Y = 1000. Find S and MPS.",
+     "solution": "C = 100 + 800 = 900; S = 1000 - 900 = 100; MPS = 1 - 0.8 = 0.2.",
+     "answer": "S = 100, MPS = 0.2"
+    },
+    {
+     "question": "MPC = 0.75. Find MPS.",
+     "solution": "MPS = 1 - MPC = 1 - 0.75.",
+     "answer": "MPS = 0.25"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "C = 200 + 0.6Y, Y = 2000. Compute S and MPS.",
+     "type": "compute"
+    },
+    {
+     "question": "If MPS = 0.3, find MPC.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain why saving is negative at zero income.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.3.4",
+   "title": "Investment Multiplier",
+   "section": "Investment Multiplier",
+   "definition": "The investment multiplier (k) is the ratio of the total change in income to the initial change in investment. k = 1 / (1 - MPC) = 1 / MPS.",
+   "formula": "k = 1 / (1 - MPC) = 1 / MPS;  delta Y = k * delta I",
+   "key_idea": "An initial increase in investment causes a magnified increase in income through successive rounds of consumption spending.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define the investment multiplier and state its formula.",
+    "Compute the multiplier given MPC or MPS.",
+    "Find the change in income given delta I and MPC.",
+    "Explain the working of the multiplier process.",
+    "Why is the multiplier greater than 1?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine MPC or MPS",
+     "explain": "Use the given value or compute MPS = 1 - MPC.",
+     "compute": "MPC or MPS = 1 - MPC"
+    },
+    {
+     "step": 2,
+     "action": "Compute multiplier",
+     "explain": "k = 1 / (1 - MPC) or k = 1 / MPS.",
+     "compute": "k = 1 / (1 - MPC)"
+    },
+    {
+     "step": 3,
+     "action": "Find change in income",
+     "explain": "delta Y = k * delta I.",
+     "compute": "delta Y = k * delta I"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "MPC = 0.8. Find the multiplier.",
+     "solution": "k = 1 / (1 - 0.8) = 1 / 0.2.",
+     "answer": "k = 5"
+    },
+    {
+     "question": "MPC = 0.75, delta I = 200. Find delta Y.",
+     "solution": "k = 1 / (1 - 0.75) = 4; delta Y = 4 * 200.",
+     "answer": "delta Y = 800"
+    },
+    {
+     "question": "MPS = 0.2. Find k.",
+     "solution": "k = 1 / MPS = 1 / 0.2.",
+     "answer": "k = 5"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "MPC = 0.6, delta I = 500. Compute delta Y.",
+     "type": "compute"
+    },
+    {
+     "question": "MPS = 0.25. Compute the multiplier.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain why k = 1 when MPC = 0.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.3.5",
+   "title": "Equilibrium Level of Income",
+   "section": "Income Determination",
+   "definition": "The equilibrium level of income is the level at which aggregate demand equals aggregate supply (output), i.e. AD = Y or C + I = Y. In a two-sector model: Y = (C_bar + I) / (1 - b).",
+   "formula": "Y_eq = (C_bar + I) / (1 - b)",
+   "key_idea": "Equilibrium occurs where planned spending equals planned output; any deviation causes unintended inventory changes that push the economy back to equilibrium.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "State the condition for equilibrium income.",
+    "Compute equilibrium income given C_bar, b and I.",
+    "Find the change in equilibrium income when investment changes.",
+    "Explain the inventory mechanism that restores equilibrium.",
+    "Derive the formula Y = (C_bar + I) / (1 - b)."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Set up equilibrium condition",
+     "explain": "AD = Y, so C_bar + bY + I = Y.",
+     "compute": "C_bar + bY + I = Y"
+    },
+    {
+     "step": 2,
+     "action": "Solve for Y",
+     "explain": "Y - bY = C_bar + I, so Y(1 - b) = C_bar + I.",
+     "compute": "Y(1 - b) = C_bar + I"
+    },
+    {
+     "step": 3,
+     "action": "Compute Y_eq",
+     "explain": "Y_eq = (C_bar + I) / (1 - b).",
+     "compute": "Y_eq = (C_bar + I) / (1 - b)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "C_bar = 100, b = 0.8, I = 200. Find equilibrium income.",
+     "solution": "Y = (100 + 200) / (1 - 0.8) = 300 / 0.2.",
+     "answer": "Y = 1500"
+    },
+    {
+     "question": "C = 50 + 0.75Y, I = 100. Find Y_eq.",
+     "solution": "Y = (50 + 100) / (1 - 0.75) = 150 / 0.25.",
+     "answer": "Y = 600"
+    },
+    {
+     "question": "If investment rises by 50 and MPC = 0.8, find the new equilibrium income change.",
+     "solution": "delta Y = k * delta I = 5 * 50.",
+     "answer": "delta Y = 250"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "C_bar = 200, b = 0.6, I = 100. Compute Y_eq.",
+     "type": "compute"
+    },
+    {
+     "question": "C = 80 + 0.9Y, I = 120. Compute Y_eq.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain what happens if AD > Y at the current income level.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.3.6",
+   "title": "Full Employment and Involuntary Unemployment",
+   "section": "Employment",
+   "definition": "Full employment is a situation where all those who are willing and able to work at the prevailing wage rate are employed. Involuntary unemployment occurs when workers are willing to work at the current wage but cannot find jobs.",
+   "formula": "",
+   "key_idea": "Keynesian full employment does not mean zero unemployment; it allows for frictional and voluntary unemployment but not involuntary unemployment.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define full employment in the Keynesian sense.",
+    "Distinguish between voluntary and involuntary unemployment.",
+    "Explain why full employment does not mean zero unemployment.",
+    "How does deficient AD cause involuntary unemployment?",
+    "Describe the policy measures to remove involuntary unemployment."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define full employment",
+     "explain": "State that all willing and able workers are employed at the prevailing wage."
+    },
+    {
+     "step": 2,
+     "action": "Identify involuntary unemployment",
+     "explain": "Explain that workers willing to work at the current wage cannot find jobs."
+    },
+    {
+     "step": 3,
+     "action": "Relate to AD deficiency",
+     "explain": "Show that insufficient aggregate demand leaves output below full-employment level."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Is an economy at full employment if 5% are frictionally unemployed but none are involuntarily unemployed?",
+     "solution": "Frictional unemployment is consistent with full employment; since no involuntary unemployment exists, the economy is at full employment.",
+     "answer": "Yes, the economy is at full employment."
+    },
+    {
+     "question": "A worker is willing to work at the prevailing wage but cannot find a job. What type of unemployment is this?",
+     "solution": "This is involuntary unemployment because the worker is willing to work at the current wage but is unable to find employment.",
+     "answer": "Involuntary unemployment."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between voluntary and involuntary unemployment with examples.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain the Keynesian concept of full employment.",
+     "type": "verify_property"
+    },
+    {
+     "question": "How does a fall in AD lead to involuntary unemployment?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.3.7",
+   "title": "Effective Demand",
+   "section": "Effective Demand",
+   "definition": "Effective demand is the level of aggregate demand at which the economy is in equilibrium; it is the AD that corresponds to the equilibrium level of output and employment. It is determined at the point where AD = AS.",
+   "formula": "AD = AS at equilibrium; Effective Demand = C + I at Y_eq",
+   "key_idea": "Effective demand determines the actual level of output and employment in the economy; according to Keynes, it can be less than the full-employment level.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define effective demand.",
+    "Explain how effective demand determines output and employment.",
+    "Compute effective demand at equilibrium income.",
+    "Why may effective demand fall short of full employment?",
+    "Distinguish between effective demand and aggregate demand."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find equilibrium income",
+     "explain": "Compute Y_eq = (C_bar + I) / (1 - b).",
+     "compute": "Y_eq = (C_bar + I) / (1 - b)"
+    },
+    {
+     "step": 2,
+     "action": "Compute AD at Y_eq",
+     "explain": "AD = C_bar + b * Y_eq + I.",
+     "compute": "AD = C_bar + b * Y_eq + I"
+    },
+    {
+     "step": 3,
+     "action": "Verify AD = Y_eq",
+     "explain": "Confirm AD equals equilibrium output.",
+     "compute": "AD = Y_eq"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "C_bar = 100, b = 0.8, I = 200. Find effective demand.",
+     "solution": "Y_eq = (100 + 200) / 0.2 = 1500; AD at Y_eq = 100 + 0.8*1500 + 200 = 1500.",
+     "answer": "Effective demand = 1500"
+    },
+    {
+     "question": "C = 50 + 0.75Y, I = 100. Find effective demand.",
+     "solution": "Y_eq = (50 + 100) / 0.25 = 600; AD = 50 + 0.75*600 + 100 = 600.",
+     "answer": "Effective demand = 600"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "C_bar = 200, b = 0.6, I = 100. Compute effective demand.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain why effective demand may be below full-employment output.",
+     "type": "verify_property"
+    },
+    {
+     "question": "C = 80 + 0.9Y, I = 120. Compute effective demand.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.3.8",
+   "title": "Paradox of Thrift",
+   "section": "Paradox of Thrift",
+   "definition": "The paradox of thrift states that if all individuals in an economy try to save more (increase their MPS), the aggregate saving may remain unchanged or even fall because the increase in saving reduces consumption, income and ultimately saving itself.",
+   "formula": "",
+   "key_idea": "Higher intended saving lowers AD, reduces equilibrium income, and through the multiplier reduces actual saving; the economy ends up with the same or lower saving.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the paradox of thrift.",
+    "Why does an increase in the desire to save not increase aggregate saving?",
+    "Show the paradox of thrift using the multiplier mechanism.",
+    "What is the implication of the paradox of thrift for policy?",
+    "Distinguish between individual saving and aggregate saving."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Increase in MPS",
+     "explain": "A higher desire to save raises MPS and lowers MPC, reducing consumption."
+    },
+    {
+     "step": 2,
+     "action": "Fall in AD and income",
+     "explain": "Lower consumption reduces AD, which reduces equilibrium income via the multiplier."
+    },
+    {
+     "step": 3,
+     "action": "Saving unchanged or lower",
+     "explain": "Because income falls, actual aggregate saving remains the same or decreases."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "If everyone tries to save more, will aggregate saving rise? Explain.",
+     "solution": "Higher saving reduces consumption and AD; through the multiplier, income falls. Since S = -C_bar + sY, the fall in Y offsets the rise in s, leaving S unchanged or lower.",
+     "answer": "No, aggregate saving does not rise; it may stay the same or fall."
+    },
+    {
+     "question": "MPC falls from 0.8 to 0.5. What happens to equilibrium income?",
+     "solution": "k falls from 1/0.2 = 5 to 1/0.5 = 2; with the same investment, equilibrium income falls.",
+     "answer": "Equilibrium income falls."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the paradox of thrift using the multiplier.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why is thrift virtuous for an individual but harmful in aggregate?",
+     "type": "verify_property"
+    },
+    {
+     "question": "If MPS rises, what happens to the multiplier and equilibrium income?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.3.9",
+   "title": "Keynesian Theory of Income and Employment",
+   "section": "Keynesian Theory",
+   "definition": "Keynesian theory holds that the level of income and employment is determined by effective demand (aggregate demand). The economy can be in equilibrium at less than full employment, and government intervention may be needed to raise AD.",
+   "formula": "Y_eq = (C_bar + I + G) / (1 - b)  (with government sector)",
+   "key_idea": "Keynes argued that AD determines output and employment; supply does not create its own demand, and equilibrium below full employment is possible.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "State the main propositions of Keynesian theory.",
+    "Explain why equilibrium may occur below full employment.",
+    "Compute equilibrium income with government spending included.",
+    "How does an increase in government spending affect equilibrium income?",
+    "Contrast Keynesian theory with the classical theory of employment."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Set up AD with government",
+     "explain": "AD = C_bar + bY + I + G.",
+     "compute": "AD = C_bar + bY + I + G"
+    },
+    {
+     "step": 2,
+     "action": "Apply equilibrium condition",
+     "explain": "Set AD = Y and solve.",
+     "compute": "Y(1 - b) = C_bar + I + G"
+    },
+    {
+     "step": 3,
+     "action": "Compute Y_eq",
+     "explain": "Y_eq = (C_bar + I + G) / (1 - b).",
+     "compute": "Y_eq = (C_bar + I + G) / (1 - b)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "C_bar = 100, b = 0.8, I = 200, G = 50. Find Y_eq.",
+     "solution": "Y = (100 + 200 + 50) / (1 - 0.8) = 350 / 0.2.",
+     "answer": "Y = 1750"
+    },
+    {
+     "question": "Government spending increases by 100, MPC = 0.75. Find the change in income.",
+     "solution": "k = 1 / (1 - 0.75) = 4; delta Y = 4 * 100.",
+     "answer": "delta Y = 400"
+    },
+    {
+     "question": "C = 50 + 0.8Y, I = 100, G = 50. Find equilibrium income.",
+     "solution": "Y = (50 + 100 + 50) / (1 - 0.8) = 200 / 0.2.",
+     "answer": "Y = 1000"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "C_bar = 200, b = 0.6, I = 100, G = 100. Compute Y_eq.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain the Keynesian view that AD determines employment.",
+     "type": "verify_property"
+    },
+    {
+     "question": "G increases by 200, MPC = 0.8. Compute delta Y.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c12eco.3.10",
+   "title": "Autonomous and Induced Investment",
+   "section": "Investment",
+   "definition": "Autonomous investment is independent of the level of income (a constant), while induced investment depends on the level of income and is positively related to it. In the simple Keynesian model, investment is treated as autonomous.",
+   "formula": "I = I_bar (autonomous);  I = I_bar + eY (induced)",
+   "key_idea": "Autonomous investment is exogenous and does not vary with income; induced investment rises with income through the accelerator effect.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Distinguish between autonomous and induced investment.",
+    "Compute total investment given autonomous and induced components.",
+    "Explain why Keynes treated investment as autonomous.",
+    "How does induced investment affect the multiplier?",
+    "Give examples of autonomous investment."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify investment type",
+     "explain": "Determine if I is autonomous (I_bar) or induced (I_bar + eY).",
+     "compute": "I_bar or I_bar + eY"
+    },
+    {
+     "step": 2,
+     "action": "Apply formula",
+     "explain": "Use the appropriate investment function.",
+     "compute": "I = I_bar + eY"
+    },
+    {
+     "step": 3,
+     "action": "Compute total investment",
+     "explain": "Substitute Y and solve.",
+     "compute": "I = I_bar + e * Y"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Autonomous investment = 200. Find I at any income level.",
+     "solution": "Autonomous investment is constant regardless of income.",
+     "answer": "I = 200"
+    },
+    {
+     "question": "I = 100 + 0.1Y, Y = 2000. Find total investment.",
+     "solution": "I = 100 + 0.1 * 2000 = 100 + 200.",
+     "answer": "I = 300"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "I = 150 + 0.05Y, Y = 3000. Compute I.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain the difference between autonomous and induced investment.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why is autonomous investment graphically a horizontal line?",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache"
+}

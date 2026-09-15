@@ -1,0 +1,362 @@
+{
+ "catalog": "catalog_class8_maths_hegp105.json",
+ "concepts": [
+  {
+   "id": "hegp.105.5.1",
+   "title": "Sums of Consecutive Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Starting from 1, add the first 9 odd numbers: 1 + 3 + 5 + ... What square do you get?",
+     "a": "81",
+     "self_check": false
+    },
+    {
+     "q": "Starting from 1, add the first 12 odd numbers: 1 + 3 + 5 + ... What square do you get?",
+     "a": "144",
+     "self_check": false
+    },
+    {
+     "q": "Starting from 1, add the first 11 odd numbers: 1 + 3 + 5 + ... What square do you get?",
+     "a": "121",
+     "self_check": false
+    },
+    {
+     "q": "Add the first 3 odd numbers and report the result as a perfect square value.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "Add the first 8 odd numbers and report the result as a perfect square value.",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "Starting from 1, add the first 6 odd numbers: 1 + 3 + 5 + ... What square do you get?",
+     "a": "36",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.105.5.2",
+   "title": "Same Parity of a +/- b +/- c +/- d Combinations",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "expand with the algebraic identity and evaluate",
+     "explain": "expand with the algebraic identity and evaluate: val = 6 * 6 + 2 * 6 * 7 + 7 * 7 gives 169",
+     "compute": "val = 6 * 6 + 2 * 6 * 7 + 7 * 7"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Use the identity (a + b)^2 = a^2 + 2ab + b^2 to find the square of 7 more than 6; report the value.",
+     "a": "169",
+     "self_check": false
+    },
+    {
+     "q": "Using (a - b)^2 = a^2 - 2ab + b^2, evaluate 14^2 - 2 x 14 x 8 + 8^2.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Use a^2 - b^2 = (a + b)(a - b) to compute 14 x 6 where the numbers are a + b and a - b for a = 10, b = 4.",
+     "a": "84",
+     "self_check": false
+    },
+    {
+     "q": "Expand (x + 3)(x + 6) using the identity x^2 + (a + b)x + ab and evaluate it at x = 7.",
+     "a": "130",
+     "self_check": false
+    },
+    {
+     "q": "Compute 105^2 using (100 + 5)^2 = 10000 + 2 x 100 x 5 + 5^2.",
+     "a": "11025",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 98 x 102 using a^2 - b^2 with a = 100 and b = 2.",
+     "a": "9996",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.105.5.3",
+   "title": "Spotting Expressions That Are Always Even",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Evaluate 3x + 8 when x = 2.",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 6x^2 + 6x + 5 when x = 4.",
+     "a": "125",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 4x + 4x - 2x and give the coefficient of x.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 2 x (4 + 8) equals 2 x 4 + 2 x 8. Compute it.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 7 + 3 x 2 (respect the order of operations).",
+     "a": "13",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (3 + 4) x 5.",
+     "a": "35",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.105.5.4",
+   "title": "Remainder Classes of Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A canteen offers 7 drinks and 4 snacks. How many drink-snack combos are possible (rule of product)?",
+     "a": "28",
+     "self_check": false
+    },
+    {
+     "q": "How many ordered pairs are in the Cartesian product of a set of size 2 with a set of size 9?",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "How many subsets does a set with 2 elements have?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "A set A has 5 elements. A relation from A to A is any subset of A x A; how many such relations exist?",
+     "a": "33554432",
+     "self_check": false
+    },
+    {
+     "q": "Find the number of arrangements (permutations) of 5 distinct objects taken 2 at a time.",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "How many distinct arrangements does the word with 2 identical 'a's and 2 identical 'b's have? (total 4 letters)",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.105.5.5",
+   "title": "Digit-Sum Test for Divisibility by 9",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two numbers 30 and 10 have HCF 10 with coprime multipliers 3 and 1. Verify by computing hcf = 10 x 1; then find the HCF value.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Find the LCM of 30 and 10 given their HCF is 10 and HCF x LCM = product of the numbers.",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "The LCM of 30 and 10 is 30. Use HCF x LCM = a x b to find their HCF.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Two ropes of lengths 30 cm and 10 cm are cut into equal pieces of greatest length. What is the length of each piece?",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Two bells ring together now. They ring at intervals of 30 minutes and 10 minutes. After how many minutes will they next ring together?",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "How many multiples of 12 are there up to 100?",
+     "a": "8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.105.5.6",
+   "title": "Alternating-Sum Test for Divisibility by 11",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two numbers 42 and 24 have HCF 6 with coprime multipliers 7 and 4. Verify by computing hcf = 6 x 1; then find the HCF value.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Find the LCM of 42 and 24 given their HCF is 6 and HCF x LCM = product of the numbers.",
+     "a": "168",
+     "self_check": false
+    },
+    {
+     "q": "The LCM of 42 and 24 is 168. Use HCF x LCM = a x b to find their HCF.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Two ropes of lengths 42 cm and 24 cm are cut into equal pieces of greatest length. What is the length of each piece?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Two bells ring together now. They ring at intervals of 42 minutes and 24 minutes. After how many minutes will they next ring together?",
+     "a": "168",
+     "self_check": false
+    },
+    {
+     "q": "How many multiples of 36 are there up to 90?",
+     "a": "2",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.105.5.7",
+   "title": "Digital Root by Repeated Digit Addition",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Use the identity (a + b)^2 = a^2 + 2ab + b^2 to find the square of 4 more than 4; report the value.",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "Using (a - b)^2 = a^2 - 2ab + b^2, evaluate 24^2 - 2 x 24 x 2 + 2^2.",
+     "a": "484",
+     "self_check": false
+    },
+    {
+     "q": "Use a^2 - b^2 = (a + b)(a - b) to compute 15 x 9 where the numbers are a + b and a - b for a = 12, b = 3.",
+     "a": "135",
+     "self_check": false
+    },
+    {
+     "q": "Expand (x + 6)(x + 6) using the identity x^2 + (a + b)x + ab and evaluate it at x = 4.",
+     "a": "100",
+     "self_check": false
+    },
+    {
+     "q": "Compute 102^2 using (100 + 2)^2 = 10000 + 2 x 100 x 2 + 2^2.",
+     "a": "10404",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 98 x 102 using a^2 - b^2 with a = 100 and b = 2.",
+     "a": "9996",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.105.5.8",
+   "title": "Divisibility Laws for Always-Sometimes-Never Claims",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
+     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 5 * 1 gives 5",
+     "compute": "hcf = 5 * 1"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two numbers 35 and 10 have HCF 5 with coprime multipliers 7 and 2. Verify by computing hcf = 5 x 1; then find the HCF value.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Find the LCM of 35 and 10 given their HCF is 5 and HCF x LCM = product of the numbers.",
+     "a": "70",
+     "self_check": false
+    },
+    {
+     "q": "The LCM of 35 and 10 is 70. Use HCF x LCM = a x b to find their HCF.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Two ropes of lengths 35 cm and 10 cm are cut into equal pieces of greatest length. What is the length of each piece?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Two bells ring together now. They ring at intervals of 35 minutes and 10 minutes. After how many minutes will they next ring together?",
+     "a": "70",
+     "self_check": false
+    },
+    {
+     "q": "How many multiples of 24 are there up to 96?",
+     "a": "4",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.105.5.9",
+   "title": "Cryptarithms - Letters Standing for Digits",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "split the number into digits and apply the rule",
+     "explain": "split the number into digits and apply the rule: diff = 9 * abs(5 - 7) gives 18",
+     "compute": "diff = 9 * abs(5 - 7)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "The digits of the 2-digit number 57 are swapped to make 75. Find the difference between the two numbers using 9 x |a - b|.",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "A 2-digit number and the number formed by reversing its digits add up to 11 x (sum of digits). Find the sum for the number 57.",
+     "a": "132",
+     "self_check": false
+    },
+    {
+     "q": "All cyclic permutations of the 3-digit number with digits 1, 6, 1 are added. The sum equals 111 x (sum of digits). Find it.",
+     "a": "888",
+     "self_check": false
+    },
+    {
+     "q": "In the 2 x 1 multiplication 96 x 7, the units digit of the answer is what?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "The password trick: multiply the 3-digit number 399 by 1001. Report the thousands digit of the 6-digit result.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "A supercell hunt in the 2-digit world: between 78 and 87, how many of the two numbers are even? (Compute each number's parity count.)",
+     "a": "1",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

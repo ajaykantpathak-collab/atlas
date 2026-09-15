@@ -1,0 +1,760 @@
+{
+ "class": 6,
+ "subject": "maths",
+ "chapter": 110,
+ "chapter_title": "Integers",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\fegp110.txt",
+ "concepts": [
+  {
+   "id": "fegp.110.1",
+   "title": "Definition of Integers",
+   "section": "10.1",
+   "definition": "Counting numbers, their signed mirrors, and zero together make up the integers.",
+   "formula": "",
+   "key_idea": "The number line marches both ways from 0: ... -3, -2, -1, 0, 1, 2, 3 ...",
+   "textbook_ref": "fegp110.txt lines 250-251",
+   "question_patterns": [
+    "what are integers",
+    "define the set of integers",
+    "is zero an integer",
+    "list the integers between -3 and 2",
+    "Which integers sit between -4 and 1?",
+    "Are the mirror numbers of the counting numbers integers too?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the number",
+     "explain": "Check if the number is a whole number, a negative of a whole number, or zero."
+    },
+    {
+     "step": 2,
+     "action": "Place the number on the number line",
+     "explain": "Every integer has a fixed position to the left or right of zero"
+    },
+    {
+     "step": 3,
+     "action": "Confirm membership in the integer set",
+     "explain": "if it is a counting number, the negative of a counting number, or zero, it belongs to the set of integers"
+    }
+   ]
+  },
+  {
+   "id": "fegp.110.2",
+   "title": "Positive and Negative Numbers",
+   "section": "10.1",
+   "definition": "A plus in front marks a number as positive, a minus in front marks it as negative; zero alone is neither.",
+   "formula": "",
+   "key_idea": "The sign records direction from zero: right side positive, left side negative.",
+   "textbook_ref": "fegp110.txt lines 244-245",
+   "question_patterns": [
+    "what is a positive number",
+    "what is a negative number",
+    "is zero positive or negative",
+    "identify the sign of the number",
+    "Is zero positive, negative, or neither?",
+    "What sign marks a number as below zero?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check the sign",
+     "explain": "Look for + or - symbols; if no symbol is present on a non-zero number, it is usually positive."
+    },
+    {
+     "step": 2,
+     "action": "Locate the number relative to zero",
+     "explain": "positive numbers sit to the right of zero, negative numbers to the left"
+    },
+    {
+     "step": 3,
+     "action": "Classify zero separately",
+     "explain": "zero is neither positive nor negative; it is the reference point on the number line"
+    }
+   ]
+  },
+  {
+   "id": "fegp.110.3",
+   "title": "Additive Inverse",
+   "section": "10.1",
+   "definition": "Pair a number with the partner that sums it to zero; that partner is its mirror under addition (for 5 it is -5).",
+   "formula": "inverse = 0 - n",
+   "key_idea": "Flip the sign and the total becomes zero.",
+   "textbook_ref": "fegp110.txt lines 246, 269",
+   "question_patterns": [
+    "find the additive inverse of {n}",
+    "what is the inverse of {n}",
+    "calculate the inverse of {n}",
+    "what number added to {n} gives zero",
+    "What is the mirror partner of -9 under addition?",
+    "Which number plus 12 gives zero?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Change the sign of the number",
+     "explain": "To find the inverse, subtract the number from zero.",
+     "compute": "inverse = 0 - n"
+    },
+    {
+     "step": 2,
+     "action": "Verify the pair sums to zero",
+     "explain": "adding the number and its inverse should give zero",
+     "compute": "check = n + inverse"
+    },
+    {
+     "step": 3,
+     "action": "State the additive inverse",
+     "explain": "the inverse is the mirror partner that returns the sum to zero"
+    }
+   ]
+  },
+  {
+   "id": "fegp.110.4",
+   "title": "Integer Addition (Movement Model)",
+   "section": "10.1",
+   "definition": "Read a sum as a journey: from a starting floor, a movement takes you to a target floor.",
+   "formula": "target = start + movement",
+   "key_idea": "Rightward or upward motion is positive, leftward or downward motion negative.",
+   "textbook_ref": "fegp110.txt lines 245, 269",
+   "question_patterns": [
+    "you start at floor {start} and move {movement} floors, where are you",
+    "calculate the sum of {start} and {movement}",
+    "find the target position if start is {start} and movement is {movement}",
+    "evaluate the expression ({start}) + ({movement})",
+    "You stand on floor 3 and go down 5 floors -- where are you?",
+    "Evaluate (+6) + (-9) as a journey."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add the movement to the starting position",
+     "explain": "The final position is the algebraic sum of the start and the change.",
+     "compute": "target = start + movement"
+    },
+    {
+     "step": 2,
+     "action": "Determine the direction of movement",
+     "explain": "a positive movement moves right or up, a negative movement moves left or down"
+    },
+    {
+     "step": 3,
+     "action": "State the final floor",
+     "explain": "the target floor is the result of the algebraic sum on the number line",
+     "compute": "result = start + movement"
+    }
+   ]
+  },
+  {
+   "id": "fegp.110.5",
+   "title": "Integer Subtraction (Movement Model)",
+   "section": "10.1",
+   "definition": "Read a difference as a journey too: the motion needed to go from your start to the target.",
+   "formula": "movement = target - start",
+   "key_idea": "Subtracting names the trip, not just the gap.",
+   "textbook_ref": "fegp110.txt lines 248-249, 269",
+   "question_patterns": [
+    "find the movement needed to reach {target} from {start}",
+    "what button to press to go from {start} to {target}",
+    "calculate {target} minus {start}",
+    "evaluate the expression ({target}) - ({start})",
+    "Which motion takes you from floor -2 to floor 4?",
+    "Find the journey from 5 down to -3."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract the starting position from the target position",
+     "explain": "The difference represents the movement required.",
+     "compute": "movement = target - start"
+    },
+    {
+     "step": 2,
+     "action": "Interpret the sign of the movement",
+     "explain": "a positive result means moving right or up, a negative result means moving left or down"
+    },
+    {
+     "step": 3,
+     "action": "State the journey",
+     "explain": "the movement value tells which button to press to travel from start to target",
+     "compute": "result = target - start"
+    }
+   ]
+  },
+  {
+   "id": "fegp.110.6",
+   "title": "Comparing Integers",
+   "section": "10.1",
+   "definition": "On the number line, any number sitting further left is the smaller one.",
+   "formula": "a < b if a is to the left of b",
+   "key_idea": "Everything above zero beats everything below zero.",
+   "textbook_ref": "fegp110.txt lines 247, 252",
+   "question_patterns": [
+    "compare {a} and {b} using < or >",
+    "which is smaller, {a} or {b}",
+    "is {a} greater than {b}",
+    "arrange the integers in increasing order",
+    "Which is smaller: -7 or -2?",
+    "Arrange -5, 3, -1, 0 from smallest up."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Locate numbers on the number line",
+     "explain": "Negative numbers are to the left of 0, positive numbers are to the right."
+    },
+    {
+     "step": 2,
+     "action": "Determine relative position",
+     "explain": "The number further to the right is the greater number."
+    },
+    {
+     "step": 3,
+     "action": "Write the comparison",
+     "explain": "use < or > to record which number is smaller and which is greater"
+    }
+   ]
+  },
+  {
+   "id": "fegp.110.7",
+   "title": "Brahmagupta's Rules for Addition",
+   "section": "10.5",
+   "definition": "Adding opposite signs? Take away the smaller size from the larger and adopt the larger one's sign; two negatives end negative.",
+   "formula": "result = a + b",
+   "key_idea": "Same signs: add the sizes and keep the sign. Mixed signs: subtract sizes, keep the stronger.",
+   "textbook_ref": "fegp110.txt lines 267, 270",
+   "question_patterns": [
+    "add {a} and {b}",
+    "find the sum of {a} and {b}",
+    "evaluate {a} + {b}",
+    "what is the result of adding {a} and {b}",
+    "Add -15 and +9 using the sign rules.",
+    "Find the sum of (-8) and (-6)."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Perform integer addition",
+     "explain": "Apply the rule for same or different signs.",
+     "compute": "result = a + b"
+    },
+    {
+     "step": 2,
+     "action": "Check if signs match",
+     "explain": "if both numbers share the same sign, add their sizes and keep that sign",
+     "compute": "size = abs(a) + abs(b)"
+    },
+    {
+     "step": 3,
+     "action": "Handle mixed signs",
+     "explain": "if the signs differ, subtract the smaller size from the larger size and keep the sign of the larger number for the final sum",
+     "compute": "difference = abs(a) - abs(b)"
+    }
+   ]
+  },
+  {
+   "id": "fegp.110.8",
+   "title": "Subtraction as Addition of Inverse",
+   "section": "10.1",
+   "definition": "Taking away an integer means adding its mirror: a - b = a + (-b).",
+   "formula": "a - b = a + (0 - b)",
+   "key_idea": "Minus a negative turns into plus a positive.",
+   "textbook_ref": "fegp110.txt lines 252, 255, 270",
+   "question_patterns": [
+    "evaluate {a} - ({b})",
+    "subtract {b} from {a}",
+    "calculate the difference between {a} and {b}",
+    "convert the subtraction {a} - {b} to addition",
+    "Evaluate 7 - (-4) by adding the mirror.",
+    "Rewrite 5 - 9 as an addition and finish it."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find the additive inverse of the subtrahend",
+     "explain": "The inverse of b is -b.",
+     "compute": "inv = 0 - b"
+    },
+    {
+     "step": 2,
+     "action": "Add the inverse to the first number",
+     "explain": "a - b is equivalent to a + (-b).",
+     "compute": "result = a + inv"
+    },
+    {
+     "step": 3,
+     "action": "State the final result",
+     "explain": "the subtraction is complete once the addition of the inverse is evaluated",
+     "compute": "result = a + (0 - b)"
+    }
+   ]
+  },
+  {
+   "id": "fegp.110.9",
+   "title": "Token Model and Zero Pairs",
+   "section": "10.2",
+   "definition": "One plus token and one minus token wipe each other out -- the pair is worth nothing, a zero pair.",
+   "formula": "(+1) + (-1) = 0",
+   "key_idea": "Build sums with tokens, cancel zero pairs, and read what remains.",
+   "textbook_ref": "fegp110.txt lines 256-258",
+   "question_patterns": [
+    "how many zero pairs are in {pos} positive and {neg} negative tokens",
+    "use tokens to add {a} and {b}",
+    "what is left after cancelling zero pairs",
+    "represent the addition using tokens",
+    "How many zero pairs hide in 6 positive and 4 negative tokens?",
+    "What remains after 3 positive and 3 negative tokens meet?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify number of zero pairs",
+     "explain": "The number of zero pairs is the minimum of the counts of positive and negative tokens.",
+     "compute": "pairs = min(abs(a), abs(b))"
+    },
+    {
+     "step": 2,
+     "action": "Calculate remaining tokens",
+     "explain": "The final value is the sum of all tokens.",
+     "compute": "result = a + b"
+    },
+    {
+     "step": 3,
+     "action": "Read the leftover tokens",
+     "explain": "after cancelling zero pairs, the remaining unpaired tokens give the final answer with their sign",
+     "compute": "leftover = abs(a) - pairs"
+    }
+   ]
+  },
+  {
+   "id": "fegp.110.10",
+   "title": "Integers in Real World",
+   "section": "10.3",
+   "definition": "Money in, heights above the sea, temperatures above freezing go positive; money out, depths, and cold below zero go negative.",
+   "formula": "",
+   "key_idea": "Zero is the agreed reference: sea level, ground level, freezing point.",
+   "textbook_ref": "fegp110.txt lines 259-262",
+   "question_patterns": [
+    "represent a debit of {val} as an integer",
+    "represent {val} meters below sea level",
+    "what is the bank balance after a credit of {c} and debit of {d}",
+    "represent a temperature of {t} degrees below zero",
+    "A submarine sits 250 m under the sea -- write that as an integer.",
+    "A debit of 400 rupees hits your account -- represent it."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Assign signs to values",
+     "explain": "Credits/Above are +, Debits/Below are -.",
+     "compute": "balance = credit - debit"
+    },
+    {
+     "step": 2,
+     "action": "Identify the real-world reference point",
+     "explain": "sea level, ground level, or freezing point acts as zero",
+     "compute": "reference = 0"
+    },
+    {
+     "step": 3,
+     "action": "Compute the net value",
+     "explain": "add all positive and negative quantities to find the final signed result",
+     "compute": "result = credit + debit"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fegp110.txt line 245",
+   "concept": "fegp.110.4",
+   "question_type": "compute",
+   "question_pattern": "You start from Floor {start} and press {movement} in the lift. Where will you reach?",
+   "extracted_variables": {
+    "start": "starting floor",
+    "movement": "lift button press"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Add movement to start",
+     "explain": "The target floor is the sum of the starting floor and the movement.",
+     "compute": "target = start + movement"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fegp110.txt line 249",
+   "concept": "fegp.110.5",
+   "question_type": "compute",
+   "question_pattern": "If the Target Floor is {target} and Starting floor is {start}, what button should you press?",
+   "extracted_variables": {
+    "target": "destination floor",
+    "start": "initial floor"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract start from target",
+     "explain": "Movement needed is target floor minus starting floor.",
+     "compute": "movement = target - start"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "fegp110.txt line 246",
+   "concept": "fegp.110.3",
+   "question_type": "compute",
+   "question_pattern": "Write the inverse of {n}",
+   "extracted_variables": {
+    "n": "the integer"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find additive inverse",
+     "explain": "The inverse of n is -n, which is 0 - n.",
+     "compute": "inverse = 0 - n"
+    }
+   ]
+  },
+  {
+   "concept": "fegp.110.3",
+   "question_pattern": "Find the mirror partner of {n} under addition.",
+   "extracted_variables": {
+    "n": "-9"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "flip the sign",
+     "explain": "the partner of -9 is 9",
+     "compute": "inverse = 0 - n"
+    }
+   ],
+   "id": "ex4",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.110.4",
+   "question_pattern": "You start on floor {start} and move {movement} floors -- where do you land?",
+   "extracted_variables": {
+    "start": "3",
+    "movement": "-5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "start plus motion",
+     "explain": "3 + (-5) = -2",
+     "compute": "target = start + movement"
+    }
+   ],
+   "id": "ex5",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.110.4",
+   "question_pattern": "Evaluate ({start}) + ({movement}).",
+   "extracted_variables": {
+    "start": "6",
+    "movement": "-9"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "start plus motion",
+     "explain": "6 + (-9) = -3",
+     "compute": "target = start + movement"
+    }
+   ],
+   "id": "ex6",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.110.5",
+   "question_pattern": "Which motion takes you from {start} to {target}?",
+   "extracted_variables": {
+    "start": "-2",
+    "target": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "target minus start",
+     "explain": "4 - (-2) = 6",
+     "compute": "movement = target - start"
+    }
+   ],
+   "id": "ex7",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.110.5",
+   "question_pattern": "Find the journey from {start} to {target}.",
+   "extracted_variables": {
+    "start": "5",
+    "target": "-3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "target minus start",
+     "explain": "-3 - 5 = -8",
+     "compute": "movement = target - start"
+    }
+   ],
+   "id": "ex8",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.110.7",
+   "question_pattern": "Add {a} and {b} using the sign rules.",
+   "extracted_variables": {
+    "a": "-15",
+    "b": "9"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "mixed signs: subtract sizes",
+     "explain": "15 - 9 = 6",
+     "compute": "size = abs(a) - abs(b)"
+    },
+    {
+     "step": 2,
+     "action": "keep the stronger sign",
+     "explain": "the negative wins: -6",
+     "compute": "result = a + b"
+    }
+   ],
+   "id": "ex9",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.110.7",
+   "question_pattern": "Find ({a}) + ({b}).",
+   "extracted_variables": {
+    "a": "-8",
+    "b": "-6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "same signs: add sizes",
+     "explain": "8 + 6 = 14",
+     "compute": "size = abs(a) + abs(b)"
+    },
+    {
+     "step": 2,
+     "action": "keep the shared sign",
+     "explain": "-14",
+     "compute": "result = a + b"
+    }
+   ],
+   "id": "ex10",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.110.8",
+   "question_pattern": "Evaluate {a} - ({b}) by adding the mirror.",
+   "extracted_variables": {
+    "a": "7",
+    "b": "-4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "rewrite as addition",
+     "explain": "7 + 4",
+     "compute": "rewritten = a + (0 - b)"
+    },
+    {
+     "step": 2,
+     "action": "finish it",
+     "explain": "7 + 4 = 11",
+     "compute": "result = a + (0 - b)"
+    }
+   ],
+   "id": "ex11",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.110.9",
+   "question_pattern": "How many zero pairs hide in {pos} positive and {neg} negative tokens?",
+   "extracted_variables": {
+    "pos": "6",
+    "neg": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "pair them off",
+     "explain": "min(6, 4) = 4 pairs",
+     "compute": "pairs = pos"
+    },
+    {
+     "step": 2,
+     "action": "read the leftover",
+     "explain": "2 positives remain",
+     "compute": "leftover = pos - pairs"
+    }
+   ],
+   "id": "ex12",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.110.10",
+   "question_pattern": "A diver reaches {depth} m under the sea -- write the depth as an integer.",
+   "extracted_variables": {
+    "depth": "-250"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "below the reference is negative",
+     "explain": "-250 m",
+     "compute": "value = depth"
+    }
+   ],
+   "id": "ex13",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.110.8",
+   "question_pattern": "Work out ({a}) - ({b}) by adding the mirror.",
+   "extracted_variables": {
+    "a": "-2",
+    "b": "-6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "rewrite as addition",
+     "explain": "-2 + 6",
+     "compute": "rewritten = a + (0 - b)"
+    },
+    {
+     "step": 2,
+     "action": "finish it",
+     "explain": "-2 + 6 = 4",
+     "compute": "result = a + (0 - b)"
+    }
+   ],
+   "id": "ex14",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.110.9",
+   "question_pattern": "{pos} positives meet {neg} negatives -- what survives after zero pairs cancel?",
+   "extracted_variables": {
+    "pos": "7",
+    "neg": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "pair everything off",
+     "explain": "7 + (-7) = 0",
+     "compute": "leftover = pos - neg"
+    },
+    {
+     "step": 2,
+     "action": "read the answer",
+     "explain": "nothing remains: 0",
+     "compute": "value = pos - neg"
+    }
+   ],
+   "id": "ex15",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "fegp.110.10",
+   "question_pattern": "A plane cruises {alt} m above sea level -- write that as an integer.",
+   "extracted_variables": {
+    "alt": "9000"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "above the reference is positive",
+     "explain": "+9000 m",
+     "compute": "value = alt"
+    }
+   ],
+   "id": "ex16",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex10.1",
+   "source_ref": "fegp110.txt page 245",
+   "questions": [
+    "(+1) + (+4)",
+    "(+4) + (-3)",
+    "(-1) + (+2)",
+    "(-1) + (+1)",
+    "0 + (-2)"
+   ]
+  },
+  {
+   "id": "ex10.2",
+   "source_ref": "fegp110.txt page 247",
+   "questions": [
+    "Compare -2 and +5",
+    "Compare -5 and -3",
+    "Compare 0 and -4",
+    "Compare -10 and -12"
+   ]
+  },
+  {
+   "id": "ex10.3",
+   "source_ref": "fegp110.txt page 249",
+   "questions": [
+    "(+1) - (+4)",
+    "(0) - (+2)",
+    "(+4) - (-3)",
+    "(-1) - (+2)",
+    "(+3) - (-3)"
+   ]
+  },
+  {
+   "id": "ex10.4",
+   "source_ref": "fegp110.txt page 265",
+   "questions": [
+    "Write all integers between 0 and -7 in increasing order",
+    "Give three numbers such that their sum is -8",
+    "Solve: 8 - 13",
+    "Solve: (-8) - (-13)",
+    "Solve: 13 - (-8)"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "class": 9,
+ "subject": "english",
+ "chapter": 7,
+ "chapter_title": "Carrier of Words",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iebe107.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iebe.107.7.1",
+   "title": "The Postal System as Carrier of Words",
+   "section": "7",
+   "definition": "The chapter presents the postal system as the great carrier of words: letters, messages and news travel between people who are far apart, and the post connects hearts and homes long before phones and the internet.",
+   "formula": "-",
+   "key_idea": "Before wires and waves, the postman walked - carrying words that bound people together.",
+   "textbook_ref": "iebe107.txt sections on the postal system (carrier of words)",
+   "question_patterns": [
+    "why is the postal system called the carrier of words",
+    "how did letters reach their destinations in earlier times",
+    "what role did the postman play in villages and towns",
+    "compare letter writing with messaging today",
+    "what kinds of things travel by post - list them",
+    "why do people still value handwritten letters - discuss"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "trace the journey",
+     "explain": "A letter moves from writer to post office to postman to reader."},
+    {"step": 2, "action": "note the meaning",
+     "explain": "The post carries feelings, news and official words alike."},
+    {"step": 3, "action": "feel the connection",
+     "explain": "Distance shrinks when words travel reliably."}
+   ]
+  },
+  {
+   "id": "iebe.107.7.2",
+   "title": "Postal History and the Indian Context",
+   "section": "7",
+   "definition": "The text contrasts older courier traditions with the British postal system set up in India, tracing how a organised network of post offices, stamps and postmen grew into one of the widest communication networks of the country.",
+   "formula": "-",
+   "key_idea": "From runners and daks to post offices: the Indian post grew into a nationwide network.",
+   "textbook_ref": "iebe107.txt historical sections on the post in India",
+   "question_patterns": [
+    "how was mail carried in India before the British postal system",
+    "what changes did the organised postal system bring",
+    "what is the role of the post office in rural India",
+    "why are postage stamps important - discuss",
+    "describe the journey of a letter through the postal network",
+    "how has the postal service adapted to modern times"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "recall the earlier ways",
+     "explain": "Messengers and dak runners carried words before the network."},
+    {"step": 2, "action": "trace the organised system",
+     "explain": "Uniform postage, stamps and offices standardised the service."},
+    {"step": 3, "action": "see the reach",
+     "explain": "The post office now serves banking, savings and delivery too."}
+   ]
+  },
+  {
+   "id": "iebe.107.7.3",
+   "title": "Informational Text Features and the Theme of Connection",
+   "section": "7",
+   "definition": "As an informational text, the chapter uses columns, examples and explanation to build understanding; its deeper theme is connection - words carried faithfully turn strangers into correspondents and distance into intimacy.",
+   "formula": "-",
+   "key_idea": "Faithful carriage of words is faithful carriage of feelings - connection is the theme.",
+   "textbook_ref": "iebe107.txt text features and concluding theme",
+   "question_patterns": [
+    "what features make this an informational text - list them",
+    "how do the columns and examples help understanding",
+    "what is the deeper theme of the chapter - explain",
+    "why do letters carry more than information - discuss",
+    "would a world without post offices be poorer - give views",
+    "write a short letter to show the post still matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the text type",
+     "explain": "Facts, structure and explanation mark informational writing."},
+    {"step": 2, "action": "read the structure",
+     "explain": "Columns and examples organise the information clearly."},
+    {"step": 3, "action": "grasp the heart",
+     "explain": "Beyond information, the post delivers connection."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex7.1",
+   "source_ref": "iebe107.txt exercises",
+   "questions": [
+     "How did the postal system connect people in earlier times?",
+     "Compare the postal system of the past with communication today.",
+     "Why is the post called the carrier of words - explain."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,590 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 11,
+ "chapter_title": "Keeping Time with the Skies",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hecu111.txt",
+ "concepts": [
+  {
+   "id": "c8cu.11.1",
+   "title": "Day and Night -- Earth's Rotation",
+   "section": "11.1",
+   "definition": "The Earth rotates on its axis from west to east, completing one rotation in about 24 hours, which causes the cycle of day and night as different parts of the Earth face the Sun or face away from it.",
+   "formula": "1 rotation = 24 hours",
+   "key_idea": "Day and night occur because the Earth spins on its axis once every 24 hours, with the side facing the Sun having day and the opposite side having night.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What causes day and night on the Earth?",
+    "How long does the Earth take to complete one rotation?",
+    "In which direction does the Earth rotate?",
+    "Why does the Sun appear to rise in the east and set in the west?",
+    "Explain how Earth's rotation leads to the cycle of day and night."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the direction and duration of rotation",
+     "explain": "The Earth rotates on its axis from west to east and completes one full rotation in about 24 hours."
+    },
+    {
+     "step": 2,
+     "action": "Relate rotation to the lit and dark halves",
+     "explain": "The half of the Earth facing the Sun experiences day, while the opposite half in shadow experiences night."
+    },
+    {
+     "step": 3,
+     "action": "Explain the apparent motion of the Sun",
+     "explain": "Because the Earth rotates west to east, the Sun appears to rise in the east and set in the west, completing the day-night cycle."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What causes day and night on the Earth?",
+     "solution": "The Earth rotates on its axis once every 24 hours. The part facing the Sun has day and the part turned away has night.",
+     "answer": "Earth's rotation on its axis causes day and night."
+    },
+    {
+     "question": "Why does the Sun appear to rise in the east?",
+     "solution": "The Earth rotates from west to east, so places in the east come into sunlight before places in the west, making the Sun appear to rise in the east.",
+     "answer": "Because the Earth rotates west to east, the Sun appears to rise in the east."
+    },
+    {
+     "question": "How much time does the Earth take for one complete rotation?",
+     "solution": "The Earth completes one rotation on its axis in about 24 hours, which gives us one full day-night cycle.",
+     "answer": "About 24 hours for one rotation."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State the direction of Earth's rotation and its effect on day and night.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Calculate how many rotations the Earth makes in 7 days.",
+     "type": "numerical"
+    },
+    {
+     "question": "Explain why the Sun appears to move from east to west.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.11.2",
+   "title": "Seasons -- Earth's Revolution and Tilt",
+   "section": "11.2",
+   "definition": "The Earth revolves around the Sun in about 365.25 days while its axis remains tilted at about 23.5 degrees, causing different parts of the Earth to receive varying amounts of sunlight at different times of the year and producing the seasons.",
+   "formula": "1 revolution = 365.25 days; axial tilt = 23.5 degrees",
+   "key_idea": "Seasons are caused by the combined effect of Earth's revolution around the Sun and the tilt of its axis, which changes the angle and duration of sunlight received by a region.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What causes the seasons on the Earth?",
+    "How does the tilt of the Earth's axis affect the seasons?",
+    "How long does the Earth take to revolve around the Sun?",
+    "Why do the northern and southern hemispheres have opposite seasons?",
+    "Explain the role of Earth's revolution in causing seasons."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Note the revolution period and axial tilt",
+     "explain": "The Earth revolves around the Sun in about 365.25 days and its axis is tilted at about 23.5 degrees from the vertical."
+    },
+    {
+     "step": 2,
+     "action": "Relate the tilt to sunlight received",
+     "explain": "As the Earth moves around the Sun, the tilted axis means one hemisphere leans towards the Sun (more direct sunlight, summer) while the other leans away (less direct sunlight, winter).",
+     "compute": "toward_sun_v = summer"
+    },
+    {
+     "step": 3,
+     "action": "Relate the tilt to sunlight received",
+     "explain": "As the Earth moves around the Sun, the tilted axis means one hemisphere leans towards the Sun (more direct sunlight, summer) while the other leans away (less direct sunlight, winter).",
+     "compute": "away_from_sun_v = winter"
+    },
+    {
+     "step": 4,
+     "action": "Explain opposite seasons in the two hemispheres",
+     "explain": "When the northern hemisphere is tilted towards the Sun it has summer, while the southern hemisphere tilted away has winter, and vice versa six months later."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why do the northern and southern hemispheres have opposite seasons?",
+     "solution": "Because of the tilt of the Earth's axis, when one hemisphere leans towards the Sun and has summer, the other leans away and has winter.",
+     "answer": "The tilt makes one hemisphere face the Sun more directly while the other faces away, giving opposite seasons."
+    },
+    {
+     "question": "What is the angle of tilt of the Earth's axis?",
+     "solution": "The Earth's axis is tilted at about 23.5 degrees from the vertical, which is the main reason for the seasons.",
+     "answer": "About 23.5 degrees."
+    },
+    {
+     "question": "How long does the Earth take to complete one revolution around the Sun?",
+     "solution": "The Earth takes about 365.25 days to complete one revolution around the Sun, which is one year.",
+     "answer": "About 365.25 days (one year)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how the tilt of the Earth's axis causes seasons.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Calculate the number of days in 4 revolutions of the Earth around the Sun.",
+     "type": "numerical"
+    },
+    {
+     "question": "Why is it summer in India when it is winter in Australia?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.11.3",
+   "title": "Phases of the Moon",
+   "section": "11.3",
+   "definition": "The Moon does not produce its own light but reflects sunlight. As the Moon revolves around the Earth in about 29.5 days, the portion of its lit half visible from the Earth changes, producing the phases of the Moon from new moon to full moon and back.",
+   "formula": "lunar cycle = 29.5 days",
+   "key_idea": "The phases of the Moon occur because we see different portions of the Moon's sunlit half as the Moon orbits the Earth over a cycle of about 29.5 days.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why does the Moon change its shape (phases) during a month?",
+    "What is the time period of the lunar cycle?",
+    "What is a new moon and a full moon?",
+    "Why does the Moon shine even though it has no light of its own?",
+    "Explain the phases of the Moon with examples."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Recall that the Moon reflects sunlight",
+     "explain": "The Moon has no light of its own; it shines because it reflects the light of the Sun, and only the half facing the Sun is lit."
+    },
+    {
+     "step": 2,
+     "action": "Relate the Moon's position to the visible lit part",
+     "explain": "As the Moon revolves around the Earth in about 29.5 days, the amount of the lit half that we can see changes, producing phases like crescent, half and full."
+    },
+    {
+     "step": 3,
+     "action": "Identify the main phases",
+     "explain": "When the Moon is between the Earth and the Sun we see a new moon (dark), and when the Earth is between the Sun and the Moon we see a full moon (fully lit)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why does the Moon appear to change its shape over a month?",
+     "solution": "The Moon reflects sunlight and as it revolves around the Earth, we see different portions of its lit half, which appear as different phases.",
+     "answer": "Different portions of the Moon's lit half become visible as it orbits the Earth."
+    },
+    {
+     "question": "What is the duration of one complete lunar cycle?",
+     "solution": "The Moon completes one cycle of phases from one new moon to the next in about 29.5 days.",
+     "answer": "About 29.5 days."
+    },
+    {
+     "question": "When do we see a full moon?",
+     "solution": "We see a full moon when the Earth is between the Sun and the Moon, so the entire half of the Moon facing the Earth is lit by the Sun.",
+     "answer": "When the Earth is between the Sun and the Moon."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain why the Moon has phases.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How many days pass between two successive full moons?",
+     "type": "numerical"
+    },
+    {
+     "question": "Distinguish between a new moon and a full moon.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.11.4",
+   "title": "Eclipses -- Solar and Lunar",
+   "section": "11.4",
+   "definition": "An eclipse is a temporary hiding of one celestial body by another. A solar eclipse occurs when the Moon comes between the Sun and the Earth and blocks the Sun's light, while a lunar eclipse occurs when the Earth comes between the Sun and the Moon and casts its shadow on the Moon.",
+   "formula": "Solar eclipse: Sun -- Moon -- Earth; Lunar eclipse: Sun -- Earth -- Moon",
+   "key_idea": "Eclipses happen when the Sun, the Moon and the Earth align in a straight line, with a solar eclipse blocking the Sun's light to the Earth and a lunar eclipse casting the Earth's shadow on the Moon.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is an eclipse?",
+    "Distinguish between a solar eclipse and a lunar eclipse.",
+    "When does a solar eclipse occur?",
+    "When does a lunar eclipse occur?",
+    "Why do eclipses not occur every month?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the alignment of the three bodies",
+     "explain": "Check whether the Sun, the Moon and the Earth are aligned in a nearly straight line, which is necessary for any eclipse."
+    },
+    {
+     "step": 2,
+     "action": "Determine which body is in the middle",
+     "explain": "If the Moon is in the middle (Sun -- Moon -- Earth), it is a solar eclipse. If the Earth is in the middle (Sun -- Earth -- Moon), it is a lunar eclipse."
+    },
+    {
+     "step": 3,
+     "action": "Explain the shadow effect",
+     "explain": "In a solar eclipse the Moon's shadow falls on the Earth, while in a lunar eclipse the Earth's shadow falls on the Moon; eclipses are rare because the Moon's orbit is tilted."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a solar eclipse?",
+     "solution": "A solar eclipse occurs when the Moon comes between the Sun and the Earth and blocks the Sun's light, casting its shadow on the Earth.",
+     "answer": "The Moon blocks the Sun's light from reaching the Earth."
+    },
+    {
+     "question": "What is a lunar eclipse?",
+     "solution": "A lunar eclipse occurs when the Earth comes between the Sun and the Moon and the Earth's shadow falls on the Moon.",
+     "answer": "The Earth's shadow falls on the Moon."
+    },
+    {
+     "question": "Why do eclipses not occur every month?",
+     "solution": "The Moon's orbit around the Earth is tilted by about 5 degrees from the Earth's orbit around the Sun, so the three bodies usually do not align in a straight line every month.",
+     "answer": "The tilt of the Moon's orbit prevents perfect alignment every month."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between a solar and a lunar eclipse.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Draw the alignment of the Sun, Moon and Earth during a solar eclipse.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why should we not view a solar eclipse with the naked eye?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.11.5",
+   "title": "Stars and Constellations",
+   "section": "11.5",
+   "definition": "Stars are huge balls of hot glowing gases that produce their own light and are very far away from the Earth. A constellation is a group of stars that form a recognisable pattern in the sky, such as Orion, Ursa Major and Cassiopeia.",
+   "formula": "",
+   "key_idea": "Stars are self-luminous bodies very far from the Earth, and constellations are recognisable patterns formed by groups of stars that have been named and used for navigation since ancient times.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a star?",
+    "Why do stars appear so small even though they are huge?",
+    "What is a constellation?",
+    "Name two well-known constellations.",
+    "How were constellations useful in ancient times?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define a star and its light",
+     "explain": "A star is a huge ball of hot glowing gases that produces its own light and heat; the Sun is the star closest to the Earth."
+    },
+    {
+     "step": 2,
+     "action": "Explain why stars appear small",
+     "explain": "Stars appear as tiny points because they are extremely far away from the Earth, even though many are much larger than the Sun."
+    },
+    {
+     "step": 3,
+     "action": "Identify a constellation pattern",
+     "explain": "A constellation is a group of stars forming a recognisable shape, such as Orion (the hunter) or Ursa Major (the great bear), used for navigation and telling directions."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why do stars appear so small in the sky?",
+     "solution": "Stars are very far away from the Earth, so they appear as tiny points of light even though they are huge.",
+     "answer": "Stars appear small because they are extremely far away."
+    },
+    {
+     "question": "What is a constellation? Give one example.",
+     "solution": "A constellation is a group of stars that forms a recognisable pattern in the sky, such as Ursa Major (the great bear).",
+     "answer": "A group of stars forming a pattern, e.g., Ursa Major."
+    },
+    {
+     "question": "How were constellations useful to ancient people?",
+     "solution": "Ancient people used constellations to identify directions and to navigate while travelling, especially across seas and deserts.",
+     "answer": "Constellations helped ancient people find directions and navigate."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define a star and state why the Sun is called a star.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name any two constellations and describe their shapes.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why do stars twinkle?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.11.6",
+   "title": "The Pole Star and Finding Directions",
+   "section": "11.6",
+   "definition": "The Pole Star (Polaris) is a bright star that appears almost fixed in the northern sky because it lies nearly above the Earth's north pole. It is used to find the north direction and can be located with the help of constellations like Ursa Major (Saptarishi).",
+   "formula": "",
+   "key_idea": "The Pole Star appears stationary in the sky as the Earth rotates because it lies almost directly above the north pole, making it a reliable guide for finding the north direction.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the Pole Star?",
+    "Why does the Pole Star appear to remain fixed in the sky?",
+    "How can you locate the Pole Star using Ursa Major?",
+    "How is the Pole Star useful for finding directions?",
+    "Why is the Pole Star important for navigation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Locate Ursa Major (Saptarishi)",
+     "explain": "Find the seven bright stars of Ursa Major that form the shape of a ladle or a kite in the northern sky."
+    },
+    {
+     "step": 2,
+     "action": "Use the pointer stars to find the Pole Star",
+     "explain": "Imagine a straight line through the two stars at the front of the ladle and extend it about five times the distance between them; this line points to the Pole Star."
+    },
+    {
+     "step": 3,
+     "action": "Use the Pole Star to find north",
+     "explain": "The Pole Star lies almost directly above the north pole, so the direction in which it is seen is the north direction, useful for navigation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why does the Pole Star appear to remain fixed in the sky?",
+     "solution": "The Pole Star lies almost directly above the Earth's north pole, so as the Earth rotates it appears to stay in nearly the same position while other stars seem to move.",
+     "answer": "It lies above the north pole, so it appears fixed as the Earth rotates."
+    },
+    {
+     "question": "How can you locate the Pole Star using Ursa Major?",
+     "solution": "Draw an imaginary line through the two pointer stars of Ursa Major and extend it about five times their separation; the bright star at the end of this line is the Pole Star.",
+     "answer": "Extend the line through the two pointer stars of Ursa Major about five times to reach the Pole Star."
+    },
+    {
+     "question": "How is the Pole Star useful for finding directions?",
+     "solution": "Since the Pole Star always indicates the north direction, travellers and sailors use it to find their way at night.",
+     "answer": "The Pole Star shows the north direction, helping in navigation."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain why the Pole Star is useful for navigation.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Describe the method to locate the Pole Star using Ursa Major.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why do other stars appear to move while the Pole Star does not?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.11.7",
+   "title": "Time Zones and Earth's Rotation",
+   "section": "11.7",
+   "definition": "Because the Earth rotates from west to east, different places experience sunrise and sunset at different times. The Earth is divided into 24 time zones of roughly one hour each, so that local time is based on the position of the Sun, with places to the east having a later time than places to the west.",
+   "formula": "24 time zones = 24 hours; 1 zone = 15 degrees of longitude = 1 hour",
+   "key_idea": "As the Earth rotates, places to the east see the Sun earlier than places to the west, so the world is divided into time zones so that local time matches the Sun's position.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why do different places on the Earth have different local times?",
+    "What is a time zone?",
+    "Why are time zones needed?",
+    "How does Earth's rotation affect time across the world?",
+    "If it is morning in Delhi, why may it be night in New York?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Relate rotation to sunrise timing",
+     "explain": "The Earth rotates west to east, so places in the east come into sunlight before places in the west and have an earlier local time."
+    },
+    {
+     "step": 2,
+     "action": "Divide the Earth into time zones",
+     "explain": "The Earth is divided into 24 time zones, each covering about 15 degrees of longitude and differing by one hour from the next."
+    },
+    {
+     "step": 3,
+     "action": "Compare times in two places",
+     "explain": "To find the time difference, count the number of time zones between two places; a place to the east is ahead in time and a place to the west is behind."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why do different places on the Earth have different local times?",
+     "solution": "Because the Earth rotates from west to east, places in the east see the Sun earlier than places in the west, so their local times differ.",
+     "answer": "Earth's rotation makes eastern places see the Sun earlier, giving different local times."
+    },
+    {
+     "question": "How many time zones is the Earth divided into and why?",
+     "solution": "The Earth is divided into 24 time zones, one for each hour of the day, because the Earth rotates 360 degrees in 24 hours, so each 15 degrees of longitude equals one hour.",
+     "answer": "24 time zones, one for each hour of the day."
+    },
+    {
+     "question": "If it is morning in India, why may it be night in the United States?",
+     "solution": "India lies to the east of the United States, so India sees the Sun much earlier; when it is morning in India, the United States is still on the side of the Earth facing away from the Sun and has night.",
+     "answer": "India is east of the US, so India has day while the US has night."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain why time zones are needed on the Earth.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Calculate the time difference between two places separated by 45 degrees of longitude.",
+     "type": "numerical"
+    },
+    {
+     "question": "Why is a place to the east ahead in time compared to a place to the west?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.11.8",
+   "title": "Calendars and Astronomical Events",
+   "section": "11.8",
+   "definition": "Calendars are systems of organising days based on astronomical events such as the Earth's rotation (a day), the Moon's revolution (a month) and the Earth's revolution around the Sun (a year), helping people track time and plan events.",
+   "formula": "1 day = 1 rotation; 1 month = 1 lunar cycle; 1 year = 1 revolution",
+   "key_idea": "Calendars are built from astronomical cycles -- the day from Earth's rotation, the month from the Moon's phases and the year from Earth's revolution around the Sun.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How is a calendar related to astronomical events?",
+    "On which astronomical event is a day based?",
+    "How is a month related to the Moon?",
+    "On which astronomical event is a year based?",
+    "Why do different calendars use the Sun or the Moon?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the day with Earth's rotation",
+     "explain": "A day is based on one complete rotation of the Earth on its axis, which takes about 24 hours."
+    },
+    {
+     "step": 2,
+     "action": "Identify the month with the Moon's cycle",
+     "explain": "A month is based on the cycle of the Moon's phases, which takes about 29.5 days from one new moon to the next."
+    },
+    {
+     "step": 3,
+     "action": "Identify the year with Earth's revolution",
+     "explain": "A year is based on one complete revolution of the Earth around the Sun, which takes about 365.25 days."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "On which astronomical event is a day based?",
+     "solution": "A day is based on one complete rotation of the Earth on its axis, which takes about 24 hours.",
+     "answer": "A day is based on Earth's rotation (about 24 hours)."
+    },
+    {
+     "question": "How is a month related to the Moon?",
+     "solution": "A month is based on the cycle of the Moon's phases from one new moon to the next, which takes about 29.5 days.",
+     "answer": "A month is based on the Moon's phase cycle of about 29.5 days."
+    },
+    {
+     "question": "On which astronomical event is a year based?",
+     "solution": "A year is based on one complete revolution of the Earth around the Sun, which takes about 365.25 days.",
+     "answer": "A year is based on Earth's revolution (about 365.25 days)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how calendars are connected to astronomical events.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Calculate the number of lunar cycles in one year of 365.25 days.",
+     "type": "numerical"
+    },
+    {
+     "question": "Why do some calendars follow the Moon while others follow the Sun?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "exgen.c8cu.11.2.1",
+   "source_ref": "generated practice sample aligned to hecu111.txt",
+   "concept": "c8cu.11.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate the away from sun v step by step for a case with {summer}, {winter}.",
+   "extracted_variables": {
+    "summer": "summer (given value)",
+    "winter": "winter (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute toward sun v",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "toward_sun_v = summer"
+    },
+    {
+     "step": 2,
+     "action": "compute away from sun v",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "away_from_sun_v = winter"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8cu.11.2.2",
+   "source_ref": "generated practice sample aligned to hecu111.txt",
+   "concept": "c8cu.11.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate the away from sun v step by step for a case with {summer}, {winter}.",
+   "extracted_variables": {
+    "summer": "summer (given value)",
+    "winter": "winter (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute toward sun v",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "toward_sun_v = summer"
+    },
+    {
+     "step": 2,
+     "action": "compute away from sun v",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "away_from_sun_v = winter"
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

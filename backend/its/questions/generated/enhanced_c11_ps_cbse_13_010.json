@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_13_010",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_13_010",
+   "title": "c11_ps_cbse_13_010",
+   "questions": [
+    {
+     "q": "Which constitutional article specifies the election of the Vice President by an electoral college consisting of members of both Houses of Parliament?",
+     "a": "Article 66. A wrong answer (e.g., Article 54 or 55) reveals confusion between Presidential and Vice Presidential elections - the President is elected by an electoral college including state legislators, while the Vice President's electoral college is only Parliament members.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Vice President serve as ex-officio Chairman of Rajya Sabha rather than being elected by Rajya Sabha members like the Lok Sabha Speaker?",
+     "a": "The Vice President's election by the entire Parliament (both Houses) gives them a national mandate to neutrally preside over the States' House (Rajya Sabha), symbolizing federal balance. A wrong answer (e.g., \"it's just tradition\") misses the constitutional design: the Vice President represents the Union's oversight of States' interests, unlike the Speaker who represents the directly elected House's majority.",
+     "self_check": true
+    },
+    {
+     "q": "A vacancy arises in the President's office due to resignation. The Vice President assumes office as Acting President. Under Article 65, what is the maximum period they can serve before a new President must be elected?",
+     "a": "Six months. A wrong answer (e.g., \"until the next general election\" or \"five years\") reveals misunderstanding of the temporary nature of the Acting President role - the Constitution mandates a Presidential election within six months to restore direct electoral legitimacy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the removal processes: Vice President (Article 67b) vs President (Article 61). Why does the Vice President's removal require only Rajya Sabha initiation while President's impeachment can start in either House?",
+     "a": "The Vice President is primarily the Rajya Sabha Chairman, so accountability flows from that House (resolution by majority of all members, then Lok Sabha agreement). The President represents the entire Union, so impeachment can originate in either House. A wrong answer conflates the two processes or misses the functional link between Vice President's role and removal mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The Vice President is a 'superfluous' office because they have no executive powers and only preside over Rajya Sabha.\" Use constitutional provisions to justify your position.",
+     "a": "The statement is incorrect. The Vice President ensures constitutional continuity (Article 65), guards federal balance as Rajya Sabha Chairman (Article 64), and participates in President/Vice President elections. A wrong answer accepting the statement ignores the office's critical contingency role and its unique position linking legislative and executive branches in a parliamentary system.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a constitutional amendment proposal to make the Vice President directly elected by citizens. Identify three specific constitutional provisions that would need amendment and explain the systemic impact on parliamentary democracy.",
+     "a": "Amend Articles 66 (election method), 64 (Chairman role), 67 (term/removal). Direct election would give the Vice President a popular mandate rivaling the Prime Minister's, disrupting parliamentary responsibility where executive emerges from legislature. A poor answer lists provisions without analyzing the structural shift from parliamentary to quasi-presidential dynamics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,365 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 205,
+ "chapter_title": "Consumer Rights: Consumer Movement, COPRA and Redressal",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess205.txt",
+ "concepts": [
+  {
+   "id": "jess.205.1.1",
+   "title": "Rise of the Consumer Movement in India",
+   "section": "The Consumer Movement",
+   "definition": "The consumer movement grew out of frequent shortages, hoarding, black marketing and adulteration, shifting from small local actions in the 1960s to an organised national campaign that pressed the government to frame rules against unfair trade practices.",
+   "formula": "",
+   "key_idea": "Until the 1970s and 1980s, voluntary consumer organisations were busy writing articles and holding exhibitions, and the campaign became a united front only after the enactment of COPRA in 1986.",
+   "textbook_ref": "jess205.txt lines 189-384",
+   "question_patterns": [
+    "what factors gave birth to the consumer movement in india",
+    "trace the evolution of the consumer movement in india",
+    "why did consumers start organising themselves into a movement",
+    "how did copra change the consumer movement",
+    "what problems of the marketplace pushed consumers to act",
+    "describe the role of voluntary consumer organisations"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the trigger problems",
+     "explain": "Look for unfair practices such as ration shop shortages, black marketing, adulteration and underweighing that harmed buyers."
+    },
+    {
+     "step": 2,
+     "action": "trace the stages of growth",
+     "explain": "Follow the shift from individual complaints to local groups, then to united national campaigning after 1986."
+    },
+    {
+     "step": 3,
+     "action": "verify the outcomes",
+     "explain": "Confirm the movement won legal protection through COPRA and led to consumer awareness campaigns and redressal machinery."
+    }
+   ]
+  },
+  {
+   "id": "jess.205.2.1",
+   "title": "Rights of Consumers",
+   "section": "Consumer Rights",
+   "definition": "Consumers hold a bundle of rights: safety against hazardous goods, information about ingredients, price and expiry, choice against forced selling, representation in forums, redressal with compensation, consumer education, and a healthy environment.",
+   "formula": "",
+   "key_idea": "The right to information is so vital that the RTI Act, 2005 now lets citizens ask government departments for records, and the right to choose means nobody can force a stove purchase with a gas connection.",
+   "textbook_ref": "jess205.txt lines 400-660",
+   "question_patterns": [
+    "list the rights that every consumer has",
+    "what does the right to information mean for a buyer",
+    "how can the right to choose be denied by a seller",
+    "why is the right to seek redressal important",
+    "how does the rti act strengthen the right to information",
+    "explain the right to safety with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "match the right to the situation",
+     "explain": "Classify the exploitation: hazardous goods, missing information, forced buying, unfair practice needing redressal."
+    },
+    {
+     "step": 2,
+     "action": "verify the legal backing",
+     "explain": "COPRA grants representation and redressal; the RTI Act, 2005 opens government records to public questioning."
+    },
+    {
+     "step": 3,
+     "action": "check the remedy",
+     "explain": "Confirm the consumer can seek compensation depending on the degree of damage through an easy public system."
+    }
+   ]
+  },
+  {
+   "id": "jess.205.3.1",
+   "title": "Proportionate Course Fee Refund",
+   "section": "Consumer Rights",
+   "definition": "When a student pays a lumpsum fee for a multi-year course and exits early, the fee for one year is worked out by dividing the total fee by the number of course years, a calculation that redressal commissions use while directing refunds.",
+   "formula": "annual_fee = total_fee / course_years",
+   "key_idea": "In the institute case, a two-year lumpsum fee was challenged after one year, and the District Commission directed a refund while restricting advance collection of full-course fees.",
+   "textbook_ref": "jess205.txt lines 560-660",
+   "question_patterns": [
+    "calculate the fee for one year from a lumpsum course fee",
+    "find the per year fee when the total course fee is known",
+    "how much refund can a student expect for one year of a two year course",
+    "compute the proportionate fee from the lumpsum amount",
+    "what did the district commission direct the institute to refund",
+    "why did the state commission fine the institute"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "split the lumpsum fee by years",
+     "explain": "Divide the total course fee by the number of years of the course to get the fee for one year",
+     "compute": "annual_fee = total_fee / course_years"
+    }
+   ]
+  },
+  {
+   "id": "jess.205.4.1",
+   "title": "Three-Tier Consumer Disputes Redressal Machinery",
+   "section": "Where Should Consumers Go to Get Justice",
+   "definition": "Under COPRA a three-tier quasi-judicial machinery hears consumer disputes: the District Commission for claims up to Rs 1 crore, the State Commission for claims between Rs 1 crore and Rs 10 crore, and the National Commission for claims above Rs 10 crore.",
+   "formula": "",
+   "key_idea": "A consumer can file a complaint alone or with lawyers, physically or online, and appeals move upward from district to state to national commission, as Prakash's money-order case shows.",
+   "textbook_ref": "jess205.txt lines 660-700, 780-840",
+   "question_patterns": [
+    "which commission deals with claims up to one crore",
+    "distinguish between the district state and national commissions",
+    "where can a consumer appeal if the district commission dismisses the case",
+    "can a consumer file a complaint without a lawyer",
+    "how did prakash seek justice for his lost money order",
+    "what is the claim limit of the state commission"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "value the claim",
+     "explain": "Place the claim amount in its band: up to Rs 1 crore (district), Rs 1-10 crore (state), above Rs 10 crore (national)."
+    },
+    {
+     "step": 2,
+     "action": "check the filing mode",
+     "explain": "Confirm the complaint may be filed individually or as a class action suit, in person, by post or through the internet."
+    },
+    {
+     "step": 3,
+     "action": "trace the appeal ladder",
+     "explain": "Verify that a dismissed case can move to the state and then the national commission, keeping the ladder intact."
+    }
+   ]
+  },
+  {
+   "id": "jess.205.4.2",
+   "title": "Consumer Protection Councils and COPRA Amendment",
+   "section": "Learning to Become Well-Informed Consumers",
+   "definition": "Consumer protection councils are voluntary bodies that guide consumers on filing cases and represent them, while the Consumer Protection Act, amended in 2019, brought internet buying, e-commerce liability, penalties and mediation into the redressal system.",
+   "formula": "",
+   "key_idea": "COPRA's enactment created separate Departments of Consumer Affairs in central and state governments and spread awareness through posters and television campaigns.",
+   "textbook_ref": "jess205.txt lines 330-400, 780-880, 1023-1060",
+   "question_patterns": [
+    "what is the difference between consumer protection council and consumer disputes redressal commission",
+    "what changes did the 2019 amendment bring to copra",
+    "how do consumer councils help an aggrieved buyer",
+    "why was copra amended to include online purchases",
+    "what role does a mediator play in consumer disputes",
+    "how does the government spread consumer awareness"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "separate the two bodies",
+     "explain": "Councils guide and represent consumers voluntarily; Commissions are quasi-judicial bodies that decide cases."
+    },
+    {
+     "step": 2,
+     "action": "verify the 2019 additions",
+     "explain": "Check for internet buying coverage, service provider and manufacturer liability, penalties or imprisonment, and encouraged mediation at all three tiers."
+    },
+    {
+     "step": 3,
+     "action": "confirm the awareness machinery",
+     "explain": "Note the Departments of Consumer Affairs and public posters as the awareness channels created after COPRA."
+    }
+   ]
+  },
+  {
+   "id": "jess.205.5.1",
+   "title": "Quality Certification: ISI, Agmark and Hallmark",
+   "section": "ISI and Agmark",
+   "definition": "Certification logos such as ISI, Agmark, Hallmark and the +F mark assure buyers of quality, and for products affecting health and safety like LPG cylinders, food colours, cement and packaged drinking water, certification is mandatory for producers.",
+   "formula": "",
+   "key_idea": "Certifying organisations let producers use their logos only if they follow set quality standards, though certification is not compulsory for every product.",
+   "textbook_ref": "jess205.txt lines 880-905",
+   "question_patterns": [
+    "why are isi and agmark logos printed on products",
+    "for which products is certification mandatory",
+    "what does the hallmark logo certify",
+    "who monitors and issues quality certificates",
+    "is it compulsory for all producers to get certified",
+    "how do logos and certification help consumers get assured of quality"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "match logo to product class",
+     "explain": "ISI for industrial goods, Agmark for agricultural products, Hallmark for jewellery, +F for fortified foods."
+    },
+    {
+     "step": 2,
+     "action": "check the mandatory list",
+     "explain": "Confirm health-and-safety and mass consumption items such as LPG cylinders, food colours and additives, cement and packaged drinking water must be certified."
+    },
+    {
+     "step": 3,
+     "action": "verify the assurance logic",
+     "explain": "Standards are set and monitored by certifying organisations, and logo use is conditional on following those standards."
+    }
+   ]
+  },
+  {
+   "id": "jess.205.6.1",
+   "title": "Organised Share of Consumer Groups",
+   "section": "The Consumer Movement",
+   "definition": "India today has more than two thousand consumer organisations, but only a small recognised fraction is well organised, so the recognised share is computed by dividing the number of organised groups by the total number of groups.",
+   "formula": "organised_share = organised_groups / total_groups * 100",
+   "key_idea": "Of over 2000 consumer groups only about 50 to 60 are well organised and recognised, and the redressal process remains cumbersome, expensive and time consuming.",
+   "textbook_ref": "jess205.txt lines 905-930",
+   "question_patterns": [
+    "calculate the share of well organised consumer groups in india",
+    "what per cent of consumer organisations are recognised for their work",
+    "find the percentage of organised groups from the total number of groups",
+    "how many consumer groups exist in india and how many are well organised",
+    "compute the recognised proportion of the consumer movement",
+    "critically examine the progress of consumer movement in india"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "express the organised fraction",
+     "explain": "Divide the number of well organised groups by the total number of consumer groups and multiply by 100",
+     "compute": "organised_share = organised_groups / total_groups * 100"
+    }
+   ]
+  },
+  {
+   "id": "jess.205.7.1",
+   "title": "National Consumers Day and Consumer Awareness",
+   "section": "National Consumers Day",
+   "definition": "India observes 24 December as National Consumers Day because Parliament enacted the Consumer Protection Act on that day in 1986, and awareness spreads through posters, advertisements and school learning, though enforcement remains uneven.",
+   "formula": "",
+   "key_idea": "After more than thirty years of COPRA, awareness is spreading slowly, laws for unorganised sector workers stay weak, and the movement succeeds only with active voluntary involvement of consumers.",
+   "textbook_ref": "jess205.txt lines 905-930, 1023-1080",
+   "question_patterns": [
+    "why is 24 december observed as national consumers day",
+    "which act was enacted on national consumers day",
+    "critically examine the progress of consumer movement in india",
+    "why is enforcement of consumer laws still weak",
+    "how can consumers participate actively in the consumer movement",
+    "what factors slow down the spread of consumer awareness"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "verify the date and act",
+     "explain": "Connect 24 December with the 1986 enactment of COPRA by the Indian Parliament."
+    },
+    {
+     "step": 2,
+     "action": "assess the progress",
+     "explain": "Weigh the growth to over 2000 groups against the slow spread of awareness and the cumbersome, expensive redressal process."
+    },
+    {
+     "step": 3,
+     "action": "identify the weak links",
+     "explain": "Note missing cash memos, small retail purchases, weak labour law enforcement in the unorganised sector, and the need for voluntary consumer participation."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jess205.txt lines 560-600",
+   "concept": "jess.205.3.1",
+   "question_type": "compute_fee_split",
+   "question_pattern": "A student paid a lumpsum fee of {total_fee} rupees for a course of {course_years} years. Calculate the fee for one year to work out the refund she can claim on opting out after a year.",
+   "extracted_variables": {
+    "total_fee": 61020,
+    "course_years": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "split the lumpsum fee by years",
+     "explain": "Divide the total course fee by the number of years of the course to get the fee for one year",
+     "compute": "annual_fee = total_fee / course_years"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jess205.txt lines 560-600",
+   "concept": "jess.205.3.1",
+   "question_type": "compute_fee_split",
+   "question_pattern": "An institute collects {total_fee} rupees in advance for a {course_years} year programme. Find the fee attributable to one year of study.",
+   "extracted_variables": {
+    "total_fee": 90000,
+    "course_years": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "split the lumpsum fee by years",
+     "explain": "Divide the total course fee by the number of years of the course to get the fee for one year",
+     "compute": "annual_fee = total_fee / course_years"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jess205.txt lines 905-930",
+   "concept": "jess.205.6.1",
+   "question_type": "compute_share",
+   "question_pattern": "India has {total_groups} consumer groups, of which {organised_groups} are well organised and recognised. Calculate the recognised share of consumer groups in per cent.",
+   "extracted_variables": {
+    "total_groups": 2000,
+    "organised_groups": 60
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "express the organised fraction",
+     "explain": "Divide the number of well organised groups by the total number of consumer groups and multiply by 100",
+     "compute": "organised_share = organised_groups / total_groups * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jess205.txt lines 905-930",
+   "concept": "jess.205.6.1",
+   "question_type": "compute_share",
+   "question_pattern": "Out of {total_groups} consumer organisations in a state, {organised_groups} are recognised for their work. Find the percentage of recognised organisations.",
+   "extracted_variables": {
+    "total_groups": 400,
+    "organised_groups": 12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "express the organised fraction",
+     "explain": "Divide the number of well organised groups by the total number of consumer groups and multiply by 100",
+     "compute": "organised_share = organised_groups / total_groups * 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "jess205.txt lines 1023-1100",
+   "questions": [
+    "Find out the nearest Consumer Disputes Redressal Commission for your area.",
+    "What is the difference between consumer protection council and Consumer Disputes Redressal Commission?",
+    "What factors gave birth to the consumer movement in India? Trace its evolution.",
+    "Critically examine the progress of consumer movement in India.",
+    "COPRA was amended in the year - state the amendment and its effects.",
+    "Arrange in order the steps Arita followed from buying a wall clock to its replacement by the commission's order.",
+    "Say True or False: COPRA applies only to goods.",
+    "Say True or False: India is one of the countries which has exclusive authorities established for consumer disputes redressal."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,215 @@
+{
+ "catalog": "catalog_class12_biology_lebo110",
+ "concepts": [
+  {
+   "id": "lebo110.10.1.1",
+   "title": "Tissue Culture, Totipotency and Micro-propagation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Tissue Culture, Totipotency and Micro-propagation' refers to.",
+     "a": "Any living part of a plant excised and grown sterile in a nutrient tube -- an explant -- can regenerate an entire organism, a capacity called totipotency; scaling this up produces thousands of genetically identical somaclones in weeks (micro-propagation), and because apical and axillary meristems always stay virus-free even in sick plants, culturing an excised meristem recovers healthy stock of banana, sugarcane or potato.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Tissue Culture, Totipotency and Micro-propagation'.",
+     "a": "The medium must play chemist -- carbon source such as sucrose, inorganic salts, vitamins, amino acids and growth regulators like auxins and cytokinins -- for the explant to rebuild a whole plant.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Tissue Culture, Totipotency and Micro-propagation' taught, and from which source text?",
+     "a": "10.1 (source: lebo110.txt lines 54-79 (explant, totipotency, nutrient medium, micro-propagation, somaclones, meristem culture))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo110.10.1.2",
+   "title": "Protoplast Fusion and Somatic Hybridisation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Protoplast Fusion and Somatic Hybridisation' refers to.",
+     "a": "Digesting away the cell walls of single plant cells leaves naked protoplasts wrapped only in plasma membrane; fusing protoplasts from two chosen varieties generates a hybrid protoplast that grows into a somatic hybrid plant carrying traits of both -- the tomato-potato fusion nicknamed pomato worked technically, though the combination never suited commerce.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Protoplast Fusion and Somatic Hybridisation'.",
+     "a": "Strip the walls, merge the membranes -- somatic hybridisation crosses sexual barriers by fusing cells instead of gametes.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Protoplast Fusion and Somatic Hybridisation' taught, and from which source text?",
+     "a": "10.1 (source: lebo110.txt lines 80-95 (protoplast isolation, fusion, somatic hybrids, pomato))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo110.10.1.3",
+   "title": "GM Crops and Their Benefits",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'GM Crops and Their Benefits' refers to.",
+     "a": "Plants, bacteria, fungi and animals whose genes humans have altered are gene-modified organisms, and gm crops answer the gaps the green revolution left: tolerance to abiotic stresses like cold, drought, salt and heat, less pesticide dependence through pest-resistant varieties, reduced post-harvest losses, more efficient mineral use that spares soil fertility, and better nutrition -- the vitamin a enriched golden rice being the emblem -- plus tailor-made industrial starches, fuels and pharmaceuticals.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'GM Crops and Their Benefits'.",
+     "a": "Agrochemicals are costly and conventional breeding has plateaued -- gene modification adds traits breeding cannot deliver fast enough.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'GM Crops and Their Benefits' taught, and from which source text?",
+     "a": "10.1 (source: lebo110.txt lines 42-118 (three agriculture options, green revolution limits, five GM benefits, golden rice))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo110.10.1.4",
+   "title": "Bt Toxin, cry Genes and Bt Cotton",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Bt Toxin, cry Genes and Bt Cotton' refers to.",
+     "a": "Bacillus thuringiensis packs insecticidal protein crystals during one growth phase, but the poison sits as inactive protoxin that only dissolves and activates in an insect's alkaline midgut -- sparing the bacterium itself; the cloned cry genes (cryiac and cryiiab against cotton bollworm, cryiab against corn borer) expressed in plants give built-in protection to bt cotton, corn, rice, tomato, potato and soyabean, killing lepidopterans, coleopterans and dipterans by punching pores in midgut cells that swell and lyse.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Bt Toxin, cry Genes and Bt Cotton'.",
+     "a": "Alkaline gut chemistry is the switch -- the protoxin is harmless everywhere until an insect's own digestion arms it.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Bt Toxin, cry Genes and Bt Cotton' taught, and from which source text?",
+     "a": "10.1 (source: lebo110.txt lines 119-148 (Bt toxin crystals, protoxin activation, cry genes, Bt cotton and crops))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo110.10.1.5",
+   "title": "RNA Interference and Nematode-Resistant Tobacco",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'RNA Interference and Nematode-Resistant Tobacco' refers to.",
+     "a": "Rna interference is a eukaryotic cellular defence that silences a specific mrna when a complementary double-stranded rna binds and blocks its translation; engineers exploited it against the root nematode meloidegyne incognitia by introducing nematode-specific genes through agrobacterium vectors arranged to make both sense and anti-sense rna -- the pair anneals into dsrna, the parasite's mrna falls silent, and the transgenic tobacco roots stay healthy.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'RNA Interference and Nematode-Resistant Tobacco'.",
+     "a": "Feed the parasite its own mirror -- sense plus antisense transcripts build the dsrna trigger that switches off the nematode's essential genes.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'RNA Interference and Nematode-Resistant Tobacco' taught, and from which source text?",
+     "a": "10.1 (source: lebo110.txt lines 149-167 (Meloidogyne incognitia, RNAi mechanism, sense and anti-sense RNA, protected transgenic host))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo110.10.2.1",
+   "title": "Genetically Engineered Insulin",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Genetically Engineered Insulin' refers to.",
+     "a": "Human insulin is two short polypeptide chains, a and b, joined by disulphide bridges and cut from a longer pro-hormone whose c peptide is discarded during maturation; animal pancreas extracts triggered allergies, so in 1983 eli lilly built dna sequences for the a and b chains into plasmids of e coli, produced the chains separately and joined them with disulphide bonds -- bacterium-made human insulin, identical to the natural hormone.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Genetically Engineered Insulin'.",
+     "a": "The c peptide is the assembly headache -- bacteria make the chains, but maturation had to be mimicked by extracting both chains and bridging them chemically.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Genetically Engineered Insulin' taught, and from which source text?",
+     "a": "10.2.1 (source: lebo110.txt lines 176-225 (recombinant therapeutics, insulin chains, C peptide, Eli Lilly 1983))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo110.10.2.2",
+   "title": "Gene Therapy: Correcting ADA Deficiency",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Gene Therapy: Correcting ADA Deficiency' refers to.",
+     "a": "Gene therapy is a set of methods for correcting a gene defect diagnosed in a child or embryo by inserting normal genes into the patient's cells and tissues to take over the failed gene's job; the 1990 landmark treated a four-year-old with adenosine deaminase deficiency -- lymphocytes grown outside the body received a functional ada cdna through a retroviral vector and were returned, requiring periodic infusions since such cells are not immortal, while introducing the gene at the embryonic stage could cure permanently.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Gene Therapy: Correcting ADA Deficiency'.",
+     "a": "Lymphocyte therapy buys time, embryonic delivery buys a lifetime -- the difference between periodic infusion and permanent cure.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Gene Therapy: Correcting ADA Deficiency' taught, and from which source text?",
+     "a": "10.2.2 (source: lebo110.txt lines 226-249 (gene therapy definition, 1990 ADA case, retroviral vector, marrow and enzyme replacement options))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo110.10.2.3",
+   "title": "Molecular Diagnosis: PCR, Probes and ELISA",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Molecular Diagnosis: PCR, Probes and ELISA' refers to.",
+     "a": "Conventional serum and urine analysis cannot catch a disease early, but molecular tools can: pcr amplifies vanishingly small amounts of pathogen nucleic acid before symptoms show (routine for hiv and for mutations in suspected cancers), a radiolabelled single-stranded dna or rna probe hybridises only to its complementary sequence so clones bearing the mutated gene stay dark on the autoradiograph, and elisa reads antigen-antibody interactions to flag either pathogen antigens or the antibodies raised against them.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Molecular Diagnosis: PCR, Probes and ELISA'.",
+     "a": "Amplify, hybridise, or bind -- pcr finds the trace nucleic acid, probes find the exact sequence, elisa finds the protein signature.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Molecular Diagnosis: PCR, Probes and ELISA' taught, and from which source text?",
+     "a": "10.2.3 (source: lebo110.txt lines 250-282 (early diagnosis, PCR for low pathogen loads and mutations, radiolabelled probe, ELISA principle))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo110.10.3.1",
+   "title": "Transgenic Animals and Their Five Uses",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Transgenic Animals and Their Five Uses' refers to.",
+     "a": "Transgenic animals carry dna manipulated to possess and express an extra foreign gene -- rats, rabbits, pigs, sheep, cows and fish exist but over 95 percent are mice -- serving to study gene regulation and normal physiology, to model human diseases such as cancer, cystic fibrosis, rheumatoid arthritis and alzheimer's, to manufacture biological products (alpha-1-antitrypsin for emphysema; rosie the cow's human alpha-lactalbumin milk at 2.4 grams per litre), to test vaccine safety such as polio, and to speed chemical toxicity testing.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Transgenic Animals and Their Five Uses'.",
+     "a": "Sensitivity is the design goal -- transgenic testers react to toxins faster and model human diseases that ordinary animals cannot.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Transgenic Animals and Their Five Uses' taught, and from which source text?",
+     "a": "10.3 (source: lebo110.txt lines 283-334 (definition, five purposes, Rosie 1997, polio vaccine testing, toxicity testing))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo110.10.4.1",
+   "title": "Ethical Issues: GEAC, Patents and Biopiracy",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Ethical Issues: GEAC, Patents and Biopiracy' refers to.",
+     "a": "Manipulating living organisms demands regulation because released gene-modified organisms can have unpredictable ecological effects -- india's answer is the genetic engineering approval committee (geac), which decides the validity of gm research and the safety of public introductions; disputes over patenting life and the biopiracy of traditional resources -- the 1997 basmati patent on an indian farmer variety, claims over turmeric and neem -- drive countries to legal shields such as the amended indian patents bill.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Ethical Issues: GEAC, Patents and Biopiracy'.",
+     "a": "Biodiversity-rich but cash-poor nations hold the raw materials and the knowledge -- biopiracy is the uncompensated extraction of both.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Ethical Issues: GEAC, Patents and Biopiracy' taught, and from which source text?",
+     "a": "10.4 (source: lebo110.txt lines 335-402 (GEAC, patent anger, Basmati 1997, turmeric and neem, biopiracy definition, Indian Patents Bill))",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

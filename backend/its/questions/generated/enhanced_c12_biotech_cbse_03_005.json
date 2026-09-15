@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_03_005",
+   "title": "c12_biotech_cbse_03_005",
+   "questions": [
+    {
+     "q": "What are the two essential enzymatic activities required to insert a foreign DNA fragment into a plasmid vector, and what specific chemical bond does each enzyme act upon?",
+     "a": "The two essential enzymes are: (1) Restriction endonuclease (Type II) — hydrolyses specific phosphodiester bonds within the recognition sequence to generate defined ends (sticky or blunt). (2) DNA ligase — catalyses formation of a phosphodiester bond between the 3'-OH of one strand and the 5'-phosphate of the adjacent strand, sealing the nicks in the recombinant molecule. A wrong answer (e.g., \"polymerase joins DNA\") reveals confusion between DNA synthesis (polymerase) and DNA joining (ligase), a common error in board exams where students misattribute the sealing function.",
+     "self_check": true
+    },
+    {
+     "q": "Why must the vector and insert be cut with the same restriction enzyme (or enzymes producing compatible cohesive ends) for efficient sticky-end ligation?",
+     "a": "Sticky-end ligation relies on base-pairing between complementary single-stranded overhangs (e.g., EcoRI's 5'-AATT/3'-TTAA). This transient hydrogen-bonded alignment positions the 3'-OH and 5'-phosphate groups correctly for ligase to form phosphodiester bonds. If ends are incompatible (e.g., EcoRI vs BamHI), overhangs cannot anneal, drastically reducing ligation efficiency. A student who says \"any cut ends can be joined by ligase\" misunderstands that ligase seals nicks in a duplex; it cannot bridge non-complementary overhangs without linkers/adapters.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher digests a 4.0 kb plasmid vector with EcoRI (single site) and a 1.5 kb insert with EcoRI (flanking sites). After alkaline phosphatase treatment of the vector, they set up a ligation with a 3:1 insert:vector molar ratio using T4 DNA ligase. Calculate the mass of insert needed for 50 ng of vector in a 20 µL reaction. (Assume 1 bp = 650 Da).",
+     "a": "Step 1: Convert vector mass to moles. Vector mass = 50 ng = 5.0×10⁻⁸ g. Vector MW = 4000 bp × 650 g/mol/bp = 2.6×10⁶ g/mol. Moles vector = 5.0×10⁻⁸ / 2.6×10⁶ = 1.92×10⁻¹⁴ mol.\nStep 2: Desired insert moles = 3 × moles vector = 5.77×10⁻¹⁴ mol.\nStep 3: Insert MW = 1500 bp × 650 = 9.75×10⁵ g/mol.\nStep 4: Insert mass = moles × MW = 5.77×10⁻¹⁴ × 9.75×10⁵ = 5.63×10⁻⁸ g = 56.3 ng.\nStep 5: Verify ratio: (56.3 ng / 1.5 kb) ÷ (50 ng / 4.0 kb) = 37.5 ÷ 12.5 = 3.0. Correct. A wrong mass (e.g., 21 ng) indicates using a 1:1 mass ratio instead of molar ratio, a frequent NEET calculation trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ligation of EcoRI-generated sticky ends versus EcoRV-generated blunt ends in terms of: (a) requirement for complementary base pairing, (b) ligase concentration and incubation time, (c) suitability for directional cloning.",
+     "a": "(a) Sticky ends require complementary overhang annealing (hydrogen bonding) for alignment; blunt ends have no overhangs and ligate via random collision. (b) Blunt-end ligation is 10–100× less efficient, requiring higher ligase concentration (e.g., 5 U/µL vs 0.1 U/µL) and longer incubation (16 h at 16°C vs 1 h at room temperature). (c) Sticky ends from two different enzymes (e.g., EcoRI + BamHI) allow directional cloning because insert can only ligate in one orientation; blunt ends are non-directional (insert ligates in both orientations). A student claiming \"blunt ends are better for directional cloning\" confuses the lack of orientation control with control.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Alkaline phosphatase treatment of the cut vector is unnecessary if the vector is digested with two different restriction enzymes (e.g., EcoRI and BamHI) because the vector cannot self-ligate due to incompatible ends.\"",
+     "a": "The statement is FALSE. Even with two different enzymes, the vector can self-ligate if the two ends are compatible with each other (e.g., if both produce compatible overhangs) or if the vector recircularizes by ligating its own two different ends in a way that restores both sites (rare but possible). More importantly, the vector can still recircularize by ligating the EcoRI end to the BamHI end if the overhangs are made compatible by fill-in/chew-back, but the primary reason is that alkaline phosphatase removes 5'-phosphates from BOTH ends, preventing ANY intramolecular ligation. Without it, background colonies from vector self-ligation remain high. A student agreeing with the statement overlooks that phosphatase is a safety net against all self-ligation pathways.",
+     "self_check": true
+    },
+    {
+     "q": "Design a cloning strategy to insert a blunt-ended PCR product (amplified with a proofreading polymerase) into a plasmid vector that has a single EcoRI site in its MCS. The final construct must allow directional cloning. Specify all enzymatic steps, reagents, and how you will prevent vector self-ligation.",
+     "a": "1. Digest vector with EcoRI → sticky ends (5'-AATT).\n2. Treat vector with alkaline phosphatase → remove 5'-P, prevent self-ligation.\n3. Add EcoRI linkers (synthetic double-stranded oligos with EcoRI site) to blunt-ended PCR product using T4 DNA ligase (blunt-end ligation, high ligase, ATP, 16°C overnight).\n4. Digest linker-ligated PCR product with EcoRI → generates EcoRI sticky ends on insert.\n5. Purify insert (gel extraction) to remove linkers.\n6. Ligate EcoRI-digested insert with dephosphorylated EcoRI-digested vector using T4 DNA ligase + ATP.\nDirectionality is achieved because insert has EcoRI sites at both ends but in opposite orientation (linkers added symmetrically), so it can only ligate in one orientation relative to the vector's single EcoRI site. A poor answer omits linker addition or phosphatase treatment, leading to non-directional or high-background cloning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

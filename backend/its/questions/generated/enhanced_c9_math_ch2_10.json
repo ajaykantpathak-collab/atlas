@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch2_10",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch2_10",
+   "title": "c9_math_ch2_10",
+   "questions": [
+    {
+     "q": "What is the first step when solving any word problem using linear equations?",
+     "a": "The first step is to identify the unknown quantities and assign variables (like x and y) to them. A wrong answer (e.g., \"write the equation immediately\" or \"guess the answer\") reveals the student does not understand the systematic process of mathematical modelling — they skip the crucial translation from words to algebraic representation, which leads to incorrect equations.",
+     "self_check": true
+    },
+    {
+     "q": "In a two-variable word problem, you get two equations. Why must both equations be true at the same time for the solution to be correct?",
+     "a": "Both equations represent different conditions from the same real-world situation, so the values of the variables must satisfy all given conditions simultaneously. A wrong answer (e.g., \"we only need one equation\" or \"we can pick the easier equation\") reveals the student treats equations as isolated instead of a system — a critical misconception because real problems impose multiple constraints that must all hold.",
+     "self_check": true
+    },
+    {
+     "q": "Ravi is 3 times as old as his son. After 10 years, Ravi will be twice as old as his son. Find their present ages.",
+     "a": "Let son's age = x, Ravi's age = 3x. After 10 years: son = x+10, Ravi = 3x+10. Condition: 3x+10 = 2(x+10) → 3x+10 = 2x+20 → x = 10. Son = 10 years, Ravi = 30 years. A wrong answer (e.g., x=5 or 3x=2(x+10) without +10) reveals the student either misassigns variables, forgets to add 10 to both ages, or incorrectly sets up the future relationship — showing weak translation of \"after 10 years\" into algebraic expressions.",
+     "self_check": true
+    },
+    {
+     "q": "A boat travels 30 km upstream and 44 km downstream in 10 hours. It travels 40 km upstream and 55 km downstream in 13 hours. The speed of the boat in still water is 8 km/h and stream is 3 km/h. Without solving fully, explain how you would set up the equations and why this problem gives a pair of linear equations in two variables.",
+     "a": "Let boat speed in still water = x km/h, stream speed = y km/h. Upstream speed = x−y, downstream = x+y. Time = distance/speed. First trip: 30/(x−y) + 44/(x+y) = 10. Second: 40/(x−y) + 55/(x+y) = 13. These are not linear in x,y but become linear if we substitute u = 1/(x−y), v = 1/(x+y). A wrong answer (e.g., writing 30x+44y=10) reveals the student does not understand that time = distance/speed and incorrectly assumes speed adds linearly with distance — a fundamental confusion between rate and quantity.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved this problem: \"The sum of two numbers is 15. Their difference is 3. Find the numbers.\" They wrote: x+y=15, x−y=3, added to get 2x=18 → x=9, then y=6. They concluded the numbers are 9 and 6. Is this solution complete and correct? Justify.",
+     "a": "Yes, the solution is complete and correct. The student correctly formed equations from both conditions, solved the system, and found values satisfying both equations. A wrong answer (e.g., \"they should have used substitution\" or \"they didn't check\") reveals the student either prefers one method over another without mathematical reason, or doesn't recognize that verification is implicit when both equations are used — showing lack of flexibility in problem-solving approaches.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem from your daily life (school, home, market) that requires a pair of linear equations in two variables to solve. Write the problem, define variables, form equations, and solve.",
+     "a": "Example: \"I bought 3 pens and 2 notebooks for ₹80. Next day, I bought 2 pens and 3 notebooks for ₹85. Find cost of one pen and one notebook.\" Variables: pen = x, notebook = y. Equations: 3x+2y=80, 2x+3y=85. Solving gives x=14, y=19. A poor answer (e.g., problem with only one condition, or equations not matching the story) reveals the student cannot reverse-engineer a realistic scenario with two independent constraints — indicating they don't deeply understand what makes a problem require two variables.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

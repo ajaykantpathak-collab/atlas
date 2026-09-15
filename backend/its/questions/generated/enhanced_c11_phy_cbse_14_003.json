@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_14_003",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_14_003",
+   "title": "c11_phy_cbse_14_003",
+   "questions": [
+    {
+     "q": "State Newton's formula for the speed of sound in air and the thermodynamic assumption behind it. What is the predicted value at STP (P = 1.013 × 10⁵ Pa, ρ = 1.29 kg/m³)?",
+     "a": "Newton's formula: v = √(P/ρ) assuming isothermal compressions/rarefactions. At STP: v = √(1.013×10⁵ / 1.29) ≈ 280 m/s. A wrong answer (e.g., v = √(γP/ρ) or v = 331 m/s) reveals confusion between Newton's isothermal assumption and Laplace's adiabatic correction, or memorizing the final experimental value without understanding the derivation.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Newton assume the process is isothermal, and why is this assumption physically incorrect for sound wave propagation in air? Explain using the timescale of molecular collisions vs. heat conduction.",
+     "a": "Newton assumed isothermal because he thought pressure changes occur slowly enough for heat to flow between compressed/rarefied regions and the surroundings, maintaining constant temperature. This is incorrect because the period of audible sound (~1 ms for 1 kHz) is much shorter than the thermal relaxation time for air (~10⁻³ s for cm-scale regions), so heat cannot flow — the process is adiabatic. A wrong answer citing \"Newton didn't know about adiabatic processes\" or \"sound is isothermal because temperature doesn't change\" shows lack of understanding of timescale comparison.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the speed of sound in air at 27°C using Laplace's formula. Given: γ = 1.4, R = 8.31 J/(mol·K), molar mass of air M = 29 × 10⁻³ kg/mol. Show all steps with unit analysis.",
+     "a": "Step 1: Convert T = 27°C = 300 K. Step 2: Use v = √(γRT/M). Step 3: Substitute: v = √(1.4 × 8.31 × 300 / 0.029). Step 4: Numerator = 1.4 × 8.31 × 300 = 3490.2 J/mol. Step 5: Divide by M: 3490.2 / 0.029 = 120351.7 m²/s². Step 6: √120351.7 ≈ 347 m/s. Units: √(J·K⁻¹·mol⁻¹ × K / kg·mol⁻¹) = √(kg·m²/s² / kg) = m/s ✓. A wrong answer with units m/s² or missing √ reveals algebraic error or unit confusion.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since v = √(γP/ρ) and for an ideal gas P/ρ = RT/M, the speed of sound is independent of pressure but depends on temperature.\" Analyze this statement. Is it fully correct? Under what conditions might it fail?",
+     "a": "The statement is correct for an ideal gas where γ, R, M are constant. v = √(γRT/M) shows v ∝ √T and no P dependence because P/ρ = RT/M eliminates P. It fails if: (a) gas is non-ideal (high pressure/low temperature), (b) γ varies with temperature (vibrational modes excited at high T), (c) humidity changes effective M (water vapor lowers M, increasing v). A wrong answer saying \"v depends on pressure because P is in the formula\" shows failure to substitute the ideal gas law.",
+     "self_check": true
+    },
+    {
+     "q": "In a resonance tube experiment at 20°C, the first resonance occurs at 16.5 cm and the second at 50.5 cm with a tuning fork of frequency 512 Hz. The student calculates v = 348 m/s and concludes \"Laplace's formula is wrong because the theoretical value at 20°C is 343 m/s.\" Evaluate this conclusion.",
+     "a": "The conclusion is invalid. End correction e = (l₂ - 3l₁)/2 = (50.5 - 49.5)/2 = 0.5 cm. Effective length for first resonance: l₁ + e = 17.0 cm = λ/4 → λ = 68 cm. v = fλ = 512 × 0.68 = 348 m/s. The 5 m/s difference from 343 m/s is within experimental error (end correction approximation, temperature gradient, frequency tolerance). Laplace's formula v = √(γRT/M) = √(1.4×8.31×293/0.029) ≈ 343 m/s is correct. The student's error is ignoring experimental uncertainties and end correction precision.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a smartphone and a cardboard tube to verify the temperature dependence of the speed of sound in air. Specify the measurements, the graph to plot, and how to extract γ from the slope.",
+     "a": "Use a frequency generator app (fixed f = 1 kHz) and a microphone app to detect resonance lengths in a tube closed at one end (water column). Measure l₁ at 5 temperatures (e.g., 10°C, 20°C, 30°C, 40°C, 50°C). Compute v = 4f(l₁ + 0.3d) where d = tube diameter (end correction). Plot v² vs T (Kelvin). Slope = 4f² × (γR/M). From slope, calculate γ = slope × M / (4f²R). A poor answer uses only one temperature, ignores end correction, or plots v vs T instead of v² vs T, showing lack of understanding of the quadratic relationship.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

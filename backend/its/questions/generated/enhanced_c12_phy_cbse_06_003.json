@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_06_003",
+   "title": "c12_phy_cbse_06_003",
+   "questions": [
+    {
+     "q": "State the formula for motional EMF induced across a straight rod of length \\( l \\) moving with velocity \\( v \\) perpendicular to a uniform magnetic field \\( B \\). Give the SI unit of each quantity and the unit of the resulting EMF.",
+     "a": "\\( \\mathcal{E} = B l v \\). Units: \\( B \\) in tesla (T), \\( l \\) in metre (m), \\( v \\) in metre per second (m/s), \\( \\mathcal{E} \\) in volt (V). A wrong answer (e.g., \\( \\mathcal{E} = B/lv \\) or missing \\( l \\)) reveals confusion between magnetic flux (\\( BA \\)) and flux rate of change, or forgetting that EMF requires a length dimension.",
+     "self_check": true
+    },
+    {
+     "q": "A horizontal rod of length 1.0 m moves horizontally at 5 m/s in a region where Earth's magnetic field has a horizontal component of 0.3 G and a vertical component of 0.4 G. The rod is oriented east-west and moves northward. Which component of Earth's field produces a motional EMF across the rod? Explain why the other component does not contribute.",
+     "a": "The vertical component (0.4 G) produces the EMF. The rod moves north, its length is east-west, so \\( \\vec{v} \\) (north) and \\( \\vec{l} \\) (east) are horizontal. The vertical \\( \\vec{B} \\) is perpendicular to both, satisfying \\( \\vec{v} \\perp \\vec{B} \\) and \\( \\vec{l} \\perp \\vec{v}, \\vec{B} \\). The horizontal component is parallel to the plane of motion (either along \\( \\vec{v} \\) or \\( \\vec{l} \\)), so \\( \\vec{v} \\times \\vec{B} \\) has no component along the rod. Choosing the horizontal component reveals misunderstanding of the vector triple product condition \\( \\vec{l} \\cdot (\\vec{v} \\times \\vec{B}) \\neq 0 \\).",
+     "self_check": true
+    },
+    {
+     "q": "A metal rod of length 0.8 m rotates in a horizontal plane about one end with an angular speed of 12 rad/s. A uniform vertical magnetic field of 0.5 T exists. Calculate the motional EMF induced between the fixed end and the free end of the rod.",
+     "a": "**Step 1:** Identify given: \\( l = 0.8 \\, \\text{m} \\), \\( \\omega = 12 \\, \\text{rad/s} \\), \\( B = 0.5 \\, \\text{T} \\) (vertical). Rod rotates horizontally → each element \\( dr \\) at radius \\( r \\) has speed \\( v = \\omega r \\) perpendicular to \\( B \\).  \n**Step 2:** EMF of element: \\( d\\mathcal{E} = B v \\, dr = B \\omega r \\, dr \\).  \n**Step 3:** Integrate from 0 to \\( l \\): \\( \\mathcal{E} = \\int_0^l B \\omega r \\, dr = B \\omega \\frac{l^2}{2} \\).  \n**Step 4:** Substitute: \\( \\mathcal{E} = 0.5 \\times 12 \\times \\frac{(0.8)^2}{2} = 6 \\times 0.32 = 1.92 \\, \\text{V} \\).  \n**Step 5:** Unit check: \\( \\text{T} \\cdot \\text{rad/s} \\cdot \\text{m}^2 = \\frac{\\text{N}}{\\text{A·m}} \\cdot \\frac{1}{\\text{s}} \\cdot \\text{m}^2 = \\frac{\\text{N·m}}{\\text{A·s}} = \\text{V} \\). Correct.  \nA wrong answer (e.g., using \\( \\mathcal{E} = B l v_{\\text{tip}} = B l (\\omega l) = B \\omega l^2 \\)) reveals failure to integrate over the varying linear velocity along the rod.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical rods of length \\( l \\) move with the same speed \\( v \\) in the same uniform magnetic field \\( B \\). Rod A moves perpendicular to \\( B \\) with its length also perpendicular to both \\( v \\) and \\( B \\). Rod B moves at 45° to \\( B \\), but its length is adjusted to be perpendicular to both \\( v \\) and \\( B \\). Compare the motional EMF induced across the two rods.",
+     "a": "Rod A: \\( \\mathcal{E}_A = B l v \\) (since \\( \\theta = 90^\\circ \\) between \\( v \\) and \\( B \\)).  \nRod B: Angle between \\( v \\) and \\( B \\) is 45°, so the effective perpendicular component of \\( v \\) is \\( v \\sin 45^\\circ \\). The rod length is still perpendicular to both, so \\( \\mathcal{E}_B = B l (v \\sin 45^\\circ) = \\frac{B l v}{\\sqrt{2}} \\).  \nThus \\( \\mathcal{E}_B = \\mathcal{E}_A / \\sqrt{2} \\).  \nA wrong answer claiming they are equal reveals the misconception that only the rod's orientation matters, not the angle between \\( \\vec{v} \\) and \\( \\vec{B} \\). The formula \\( \\mathcal{E} = B l v \\) strictly requires \\( \\vec{v} \\perp \\vec{B} \\); the general form is \\( \\mathcal{E} = B l v_\\perp \\) where \\( v_\\perp \\) is the component of velocity perpendicular to \\( B \\).",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Motional EMF only exists if the rod is part of a closed circuit, because EMF is defined as the work done per unit charge around a closed loop.\" Evaluate this statement and correct it using the concept of charge separation in an open rod.",
+     "a": "The statement is **false**. Motional EMF exists across an open rod due to magnetic force separating charges until the internal electric field balances it (\\( qE = qvB \\)). The potential difference \\( V = \\int \\vec{E} \\cdot d\\vec{l} = Blv \\) is measurable with a high-impedance voltmeter. EMF is defined as \\( \\oint \\vec{E}_{\\text{non-electrostatic}} \\cdot d\\vec{l} \\); for an open rod, the integral along the rod gives the same value. A closed circuit is needed for *sustained current*, not for the EMF itself. The student's error confuses the *definition* of EMF (non-electrostatic work per charge) with the *condition for current flow*.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration of motional EMF using only a strong neodymium magnet, a 30 cm aluminium ruler, a sensitive galvanometer (or a phone with a magnetic sensor app), and connecting wires. Describe the procedure, the expected observation, and how you would verify the \\( \\mathcal{E} \\propto v \\) relationship.",
+     "a": "**Procedure:** Connect the ruler's ends to the galvanometer via wires. Hold the magnet vertically. Sweep the ruler horizontally through the magnetic field near the magnet's pole, keeping the ruler perpendicular to both motion and field. Vary the sweep speed.  \n**Observation:** Galvanometer deflects during motion; direction reverses if motion reverses. Faster sweep → larger deflection.  \n**Verification:** Use a phone's accelerometer to measure peak speed \\( v \\), or use a ramp to give reproducible speeds. Plot galvanometer deflection (proportional to current \\( I = \\mathcal{E}/R \\)) vs \\( v \\); straight line through origin confirms \\( \\mathcal{E} \\propto v \\).  \nA poor answer (e.g., rotating the magnet near a stationary ruler) tests transformer EMF, not motional EMF, showing confusion between the two mechanisms.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

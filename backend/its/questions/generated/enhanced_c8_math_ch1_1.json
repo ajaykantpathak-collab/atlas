@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch1_1",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch1_1",
+   "title": "c8_math_ch1_1",
+   "questions": [
+    {
+     "q": "Write the square of 7 using the correct notation and calculate its value.",
+     "a": "The square of 7 is written as \\( 7^2 \\) and its value is \\( 7 \\times 7 = 49 \\).  \nA wrong answer like \\( 7 \\times 2 = 14 \\) or \\( 2^7 = 128 \\) reveals the student confuses the exponent 2 with multiplication by 2 or with the base and exponent swapped. They have not grasped that the superscript 2 means \"multiply the base by itself once.\"",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \\( 5^2 \\) is not the same as \\( 2 \\times 5 \\). Use the area of a square in your explanation.",
+     "a": "\\( 5^2 \\) means \\( 5 \\times 5 = 25 \\), which is the area of a square of side 5 units. \\( 2 \\times 5 = 10 \\) is the area of a rectangle 2 by 5, not a square. The exponent 2 indicates two equal factors, not multiplication by 2.  \nA student who says \"both give 10\" or \"the 2 just means multiply by 2\" does not understand the geometric meaning of squaring and treats the exponent as a factor.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate \\( 12^2 \\) and \\( 15^2 \\) by showing the multiplication step by step.",
+     "a": "\\( 12^2 = 12 \\times 12 \\):  \n \\( 12 \\times 10 = 120 \\)  \n \\( 12 \\times 2 = 24 \\)  \n \\( 120 + 24 = 144 \\)  \n\\( 15^2 = 15 \\times 15 \\):  \n \\( 15 \\times 10 = 150 \\)  \n \\( 15 \\times 5 = 75 \\)  \n \\( 150 + 75 = 225 \\)  \nA student who writes \\( 12^2 = 24 \\) or \\( 15^2 = 30 \\) is multiplying by 2 instead of by itself. A student who gets \\( 12 \\times 12 = 134 \\) likely made an error in partial products or addition.",
+     "self_check": true
+    },
+    {
+     "q": "Observe the sequence: \\( 1^2 = 1 \\), \\( 2^2 = 4 \\), \\( 3^2 = 9 \\), \\( 4^2 = 16 \\), \\( 5^2 = 25 \\). What is the difference between consecutive squares? Describe the pattern and predict the difference between \\( 10^2 \\) and \\( 9^2 \\) without calculating the squares.",
+     "a": "The differences are: \\( 4-1=3 \\), \\( 9-4=5 \\), \\( 16-9=7 \\), \\( 25-16=9 \\). The differences are consecutive odd numbers: 3, 5, 7, 9. The difference between \\( n^2 \\) and \\( (n-1)^2 \\) is \\( 2n-1 \\). So between \\( 10^2 \\) and \\( 9^2 \\), the difference is \\( 2 \\times 10 - 1 = 19 \\).  \nA student who says the difference is constant or gives an even number does not recognise the pattern of odd numbers, which is foundational for later nodes on sum of odd numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Ravi says \\( (-6)^2 = -36 \\) because \"a negative times a positive is negative\". Is he correct? Justify your answer.",
+     "a": "Ravi is incorrect. \\( (-6)^2 = (-6) \\times (-6) = 36 \\). The product of two negative integers is positive (Class 7 integer multiplication rule). He mistakenly treated \\( (-6)^2 \\) as \\( - (6 \\times 6) \\) instead of \\( (-6) \\times (-6) \\).  \nA student who agrees with Ravi has not connected integer sign rules to squaring. They may also confuse \\( (-6)^2 \\) with \\( -6^2 \\) (which would be -36), but the parentheses make the base -6.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (using rupees, metres, or kilograms) that requires finding the square of a number between 10 and 20. Write the problem, the mathematical expression, and the solution.",
+     "a": "Example: \"A square garden has a side length of 13 metres. What is its area?\"  \nExpression: \\( 13^2 = 13 \\times 13 \\)  \nSolution: \\( 13 \\times 10 = 130 \\), \\( 13 \\times 3 = 39 \\), \\( 130 + 39 = 169 \\) m².  \nA poor answer uses addition instead of multiplication, chooses a non-square context (e.g., rectangle), or cannot set up the expression \\( n^2 \\). This reveals inability to connect the notation to a meaningful situation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

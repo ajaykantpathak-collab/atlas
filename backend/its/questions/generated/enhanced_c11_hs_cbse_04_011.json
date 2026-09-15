@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_04_011",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_04_011",
+   "title": "c11_hs_cbse_04_011",
+   "questions": [
+    {
+     "q": "Define \"family budget\" and state its three core components as per the management process taught in Class 11 Home Science.",
+     "a": "A family budget is a planned allocation of expected income across expense categories for a specific period (usually monthly). Its three core components are: (1) Income estimation (all sources), (2) Expense categorization into fixed, variable, and discretionary, and (3) Savings/debt allocation target. A wrong answer listing only \"income and expenses\" misses the savings component, revealing the student views budgeting as mere spending tracking rather than proactive resource management toward goals.",
+     "self_check": true
+    },
+    {
+     "q": "A family earns ₹50,000/month. They spend ₹22,000 on rent, ₹8,000 on groceries, ₹5,000 on transport, ₹6,000 on education, ₹4,000 on utilities, ₹3,000 on medical, and ₹7,000 on entertainment/dining. Explain whether this budget follows the 50/30/20 rule, showing calculations for each category.",
+     "a": "Total needs = ₹22,000+₹8,000+₹5,000+₹6,000+₹4,000+₹3,000 = ₹48,000 (96% of income — exceeds 50% limit). Wants = ₹7,000 (14% — within 30% limit). Savings = ₹0 (0% — below 20% minimum). This budget violates the rule because needs consume nearly all income, leaving nothing for savings. A wrong answer saying \"it's fine because wants are low\" shows the student doesn't grasp that the 50/30/20 rule requires ALL three ratios to be satisfied simultaneously, not just one.",
+     "self_check": true
+    },
+    {
+     "q": "Using zero-based budgeting, construct a monthly budget for a family of four with ₹75,000 income. Allocate every rupee across: housing (₹20,000 fixed), food (₹12,000), transport (₹5,000), education (₹10,000), utilities (₹4,000), medical (₹3,000), entertainment (₹4,000), emergency fund (₹5,000), retirement savings (₹7,000), and miscellaneous (₹5,000). Show the verification step.",
+     "a": "Step 1: List all categories with amounts. Step 2: Sum allocations = ₹20,000+₹12,000+₹5,000+₹10,000+₹4,000+₹3,000+₹4,000+₹5,000+₹7,000+₹5,000 = ₹75,000. Step 3: Verify sum equals income (₹75,000 = ₹75,000 ✓). Step 4: Confirm every rupee has a designated purpose — zero unallocated. Step 5: Note that \"miscellaneous\" acts as buffer for variable costs. A wrong answer with ₹70,000 total allocations reveals the student treats zero-based budgeting as approximate rather than exact — every rupee MUST be assigned.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the envelope system and digital spreadsheet tracking for a family with irregular income (freelance parents). Analyze which method better handles: (a) income variability, (b) impulse control, (c) long-term pattern analysis. Justify your recommendation.",
+     "a": "Envelope system excels at (b) impulse control — physical cash depletion creates tangible feedback — but fails at (a) because irregular income makes fixed monthly envelope filling impossible, and (c) because no historical data accumulates. Digital spreadsheets excel at (a) — can use rolling 3-month average income for budgeting — and (c) — auto-generates trend charts — but weak on (b) due to abstraction. Recommendation: Hybrid approach — use spreadsheet for planning with conservative income estimate (lowest 3-month average), then withdraw \"wants\" category cash into envelopes weekly. A wrong answer choosing only one method shows inability to analyze trade-offs and synthesize context-specific solutions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"A family should always prioritize building a 6-month emergency fund (₹3 lakh) before starting any long-term investments like PPF or SIP, even if the employer offers EPF matching.\" Provide a reasoned judgment with two supporting arguments and one counter-argument.",
+     "a": "Judgment: Generally agree, but with a critical exception for EPF matching. Argument 1: Emergency fund prevents high-interest debt (credit card 36-42% p.a.) during job loss/medical crisis — liquidity is paramount. Argument 2: Psychological security improves decision-making; panic-selling investments during emergencies locks in losses. Counter-argument: EPF matching is 100% immediate return (employer matches employee contribution) — foregoing it loses guaranteed wealth accumulation. Optimal sequence: (1) Capture full EPF match, (2) Build 1-month expense buffer, (3) Clear high-interest debt, (4) Complete 6-month emergency fund, (5) Then increase SIP/PPF. A wrong answer saying \"always emergency fund first\" ignores the mathematical superiority of employer matching, showing rigid rule-following over contextual evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel \"money leak detector\" template for a Class 11 student to use with their family. It must: (a) identify 5+ hidden expense categories, (b) include a weekly tracking mechanism, (c) calculate annualized cost of each leak, and (d) suggest a specific behavioral nudge for each. Present as a table with column headers and 3 filled example rows.",
+     "a": "| Hidden Expense Category | Weekly Tracking Method | Weekly Spend | Annualized Cost (×52) | Behavioral Nudge |\n|-------------------------|------------------------|--------------|----------------------|------------------|\n| Unused subscriptions (OTT, gym, apps) | Review bank statement every Sunday | ₹200 | ₹10,400 | \"Quarterly audit: cancel if not used 3× in last month\" |\n| Daily café beverages/snacks | Photo receipt or note in phone | ₹150 | ₹7,800 | \"Carry homemade alternative; allow treat only Friday\" |\n| Impulse online purchases (≤₹500) | 24-hour cart rule: screenshot, wait 1 day | ₹300 | ₹15,600 | \"Delete saved card details; manual entry adds friction\" |\n| Food delivery vs. cooking | Mark calendar: 🍱 home / 📦 ordered | ₹400 | ₹20,800 | \"Meal prep Sunday; frozen portions for busy days\" |\n| Phantom electricity (standby, old appliances) | Monthly meter reading at same time | ₹120 | ₹6,240 | \"Power strips for clusters; replace 1 appliance/year\" |\nA poor answer listing only obvious expenses (rent, fees) shows the student cannot distinguish structural costs from behavioral leaks — the core skill in controlling phase of money management.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

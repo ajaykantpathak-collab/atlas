@@ -1,0 +1,694 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 3,
+ "chapter_title": "Climates of India",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gees103.txt",
+ "concepts": [
+  {
+   "id": "c7ss.3.1",
+   "title": "Difference Between Weather and Climate",
+   "section": "Introduction to Climate",
+   "definition": "Weather refers to the short-term atmospheric conditions of a place at a specific time, while climate is the average weather pattern of a place over a long period, typically 30 years or more.",
+   "formula": "",
+   "key_idea": "Weather is temporary and changes daily; climate is long-term and relatively stable, representing the general pattern of weather over years.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define weather and climate and state the difference between them.",
+    "Why is weather described as short-term while climate is described as long-term?",
+    "Give an example to show the difference between weather and climate.",
+    "How does the duration of observation distinguish weather from climate?",
+    "Explain why two cities can have the same weather on a day but different climates."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the time scale",
+     "explain": "Determine whether the condition described is short-term (hours/days) or long-term (years)."
+    },
+    {
+     "step": 2,
+     "action": "Classify as weather or climate",
+     "explain": "Short-term atmospheric conditions are weather; long-term averages are climate."
+    },
+    {
+     "step": 3,
+     "action": "Justify with example",
+     "explain": "Support the classification with a suitable example, e.g., a rainy day is weather, while a region receiving heavy rain every June is climate."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A city has a sudden thunderstorm in the afternoon. Is this weather or climate?",
+     "solution": "A thunderstorm lasting a few hours is a short-term atmospheric condition, so it is weather.",
+     "answer": "Weather"
+    },
+    {
+     "question": "Kerala receives heavy rainfall every year during the monsoon season. Is this weather or climate?",
+     "solution": "The recurring pattern of heavy rainfall over many years describes the long-term average condition, so it is climate.",
+     "answer": "Climate"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between weather and climate with one example each.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why climate is considered more stable than weather.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.3.2",
+   "title": "Latitude as a Factor Affecting Climate",
+   "section": "Factors Affecting India's Climate",
+   "definition": "Latitude is the angular distance of a place north or south of the Equator. It determines the amount of solar energy received, which in turn affects the temperature and climate of a region.",
+   "formula": "",
+   "key_idea": "Places closer to the Equator receive more direct sunlight and are hotter, while places farther away receive slanting rays and are cooler.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How does latitude affect the climate of a place?",
+    "Why are regions near the Equator hotter than regions near the poles?",
+    "Explain the relationship between latitude and temperature.",
+    "How does India's latitudinal extent influence its climate?",
+    "Why do two places at the same latitude generally have similar temperatures?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Note the latitude of the place",
+     "explain": "Identify how far the place is from the Equator."
+    },
+    {
+     "step": 2,
+     "action": "Relate latitude to solar energy",
+     "explain": "Closer to the Equator means more direct rays and higher temperature; farther means slanting rays and lower temperature."
+    },
+    {
+     "step": 3,
+     "action": "Conclude the climatic effect",
+     "explain": "State how the latitude influences the overall temperature and climate of the region."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is Chennai hotter than Delhi in terms of latitude?",
+     "solution": "Chennai is closer to the Equator than Delhi, so it receives more direct solar radiation and has higher temperatures.",
+     "answer": "Chennai is closer to the Equator, so it is hotter."
+    },
+    {
+     "question": "How does India's latitudinal extent (about 8°N to 37°N) affect its climate?",
+     "solution": "The wide range of latitudes means India experiences tropical heat in the south and cooler conditions in the north, creating climatic diversity.",
+     "answer": "The wide latitudinal extent creates a variety of climatic zones."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how latitude influences the temperature of a region.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why do places near the Equator have a hot climate?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.3.3",
+   "title": "Altitude as a Factor Affecting Climate",
+   "section": "Factors Affecting India's Climate",
+   "definition": "Altitude is the height of a place above sea level. Temperature generally decreases with an increase in altitude, so higher places tend to be cooler.",
+   "formula": "",
+   "key_idea": "As altitude increases, the air becomes thinner and holds less heat, causing temperature to fall at an average rate of about 6.5°C per 1000 metres.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How does altitude affect the climate of a place?",
+    "Why are hill stations cooler than the plains even in summer?",
+    "Explain the relationship between altitude and temperature.",
+    "Why does Bengaluru have a pleasant climate despite being in the south?",
+    "How does the lapse rate describe the effect of altitude on temperature?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the altitude difference",
+     "explain": "Find the height of the place above sea level.",
+     "compute": "altitude = height_above_sea_level"
+    },
+    {
+     "step": 2,
+     "action": "Apply the lapse rate",
+     "explain": "Use the average temperature decrease of about 6.5°C per 1000 m of altitude.",
+     "compute": "temperature_drop = (altitude / 1000) * 6.5"
+    },
+    {
+     "step": 3,
+     "action": "Determine the resulting temperature",
+     "explain": "Subtract the temperature drop from the base temperature to estimate the climate.",
+     "compute": "estimated_temp = base_temp - temperature_drop"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A town is at 2000 m altitude. If the temperature at sea level is 30°C, estimate the temperature at the town.",
+     "solution": "Temperature drop = (2000 / 1000) * 6.5 = 13°C. Estimated temperature = 30 - 13 = 17°C.",
+     "answer": "17°C"
+    },
+    {
+     "question": "Why is Shimla cooler than Delhi even though both are in northern India?",
+     "solution": "Shimla is at a high altitude (about 2200 m), so its temperature is much lower than Delhi which is in the plains.",
+     "answer": "Shimla is cooler because of its high altitude."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the temperature at 3000 m if the sea-level temperature is 35°C.",
+     "type": "numerical"
+    },
+    {
+     "question": "Explain why altitude is an important factor in determining climate.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.3.4",
+   "title": "Distance from the Sea as a Factor Affecting Climate",
+   "section": "Factors Affecting India's Climate",
+   "definition": "The distance of a place from the sea influences its climate. Coastal areas have a moderating effect due to the sea, while places far inland experience extreme temperatures.",
+   "formula": "",
+   "key_idea": "The sea heats up and cools down slowly, giving coastal areas a moderate climate. Areas far from the sea have a continental climate with large temperature differences between summer and winter.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How does distance from the sea affect the climate of a place?",
+    "Why do coastal cities have a moderate climate compared to inland cities?",
+    "Explain the moderating influence of the sea on climate.",
+    "Why does Delhi experience more extreme temperatures than Mumbai?",
+    "What is a continental climate and how is it related to distance from the sea?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine proximity to the sea",
+     "explain": "Identify whether the place is coastal or inland."
+    },
+    {
+     "step": 2,
+     "action": "Assess the moderating effect",
+     "explain": "Coastal places are moderated by the sea; inland places lack this effect."
+    },
+    {
+     "step": 3,
+     "action": "Conclude the climatic character",
+     "explain": "Coastal areas have a moderate climate; inland areas have an extreme continental climate."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why does Mumbai have a moderate climate throughout the year?",
+     "solution": "Mumbai is a coastal city, so the sea moderates its temperature, keeping it relatively stable.",
+     "answer": "Mumbai has a moderate climate due to its coastal location."
+    },
+    {
+     "question": "Why does Delhi experience very hot summers and cold winters?",
+     "solution": "Delhi is far from the sea, so it does not benefit from the moderating influence of the sea, resulting in a continental climate.",
+     "answer": "Delhi has an extreme continental climate because it is far from the sea."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how distance from the sea affects the climate of a region.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Give one example each of a city with a moderate climate and one with an extreme climate.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.3.5",
+   "title": "The Southwest Monsoon",
+   "section": "The Monsoon System",
+   "definition": "The Southwest Monsoon is the seasonal wind that blows from the southwest during the summer months, bringing heavy rainfall to most parts of India from June to September.",
+   "formula": "",
+   "key_idea": "Intense heating of the Indian landmass in summer creates a low-pressure area that draws moisture-laden winds from the Indian Ocean, causing heavy rainfall.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the Southwest Monsoon and how is it formed?",
+    "Explain the mechanism by which the Southwest Monsoon brings rain to India.",
+    "Why does the Southwest Monsoon bring heavy rainfall to the western coast of India?",
+    "Describe the onset and progress of the Southwest Monsoon in India.",
+    "How does the low-pressure area over northern India contribute to the Southwest Monsoon?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the season and wind direction",
+     "explain": "In summer, intense heating creates low pressure over land, drawing winds from the southwest (Indian Ocean)."
+    },
+    {
+     "step": 2,
+     "action": "Trace the moisture-laden winds",
+     "explain": "These winds pick up moisture from the Arabian Sea and Bay of Bengal and move towards land."
+    },
+    {
+     "step": 3,
+     "action": "Explain the rainfall",
+     "explain": "When the moisture-laden winds strike mountains or cool air, they cause heavy rainfall across India."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why does the western coast of India receive heavy rainfall during the Southwest Monsoon?",
+     "solution": "The moisture-laden winds from the Arabian Sea strike the Western Ghats, rise, cool, and cause heavy rainfall on the western coast.",
+     "answer": "The Western Ghats force the winds to rise, causing heavy rainfall."
+    },
+    {
+     "question": "Explain how the low-pressure area over northern India helps bring the monsoon.",
+     "solution": "The intense summer heat creates a low-pressure zone over northern India, which attracts the moisture-bearing southwest winds, triggering the monsoon.",
+     "answer": "Low pressure over land draws the southwest winds, bringing the monsoon."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the formation and progress of the Southwest Monsoon in India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is the Southwest Monsoon important for Indian agriculture?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.3.6",
+   "title": "The Northeast Monsoon (Retreating Monsoon)",
+   "section": "The Monsoon System",
+   "definition": "The Northeast Monsoon, also called the retreating monsoon, occurs from October to December when the monsoon trough weakens and winds blow from the northeast, bringing rainfall mainly to the southern part of India, especially Tamil Nadu.",
+   "formula": "",
+   "key_idea": "As the land cools in autumn, the low-pressure area over northern India weakens, and dry winds blow from the northeast, picking up moisture over the Bay of Bengal and causing rain on the Tamil Nadu coast.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the Northeast Monsoon and when does it occur?",
+    "Why does Tamil Nadu receive rainfall during the retreating monsoon?",
+    "Differentiate between the Southwest and Northeast monsoons.",
+    "Explain the mechanism of the retreating monsoon.",
+    "Why is the Northeast Monsoon called the retreating monsoon?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the season",
+     "explain": "By October, the low-pressure area over northern India weakens as the land cools."
+    },
+    {
+     "step": 2,
+     "action": "Trace the wind direction",
+     "explain": "Winds now blow from the northeast towards the sea, opposite to the Southwest Monsoon."
+    },
+    {
+     "step": 3,
+     "action": "Explain the rainfall",
+     "explain": "These winds pick up moisture over the Bay of Bengal and bring rain to the Tamil Nadu coast and parts of southern India."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why does Chennai receive rainfall in November while most of India is dry?",
+     "solution": "During the retreating monsoon, the northeast winds pick up moisture over the Bay of Bengal and bring rain to the Tamil Nadu coast, including Chennai.",
+     "answer": "Chennai gets rain from the Northeast Monsoon."
+    },
+    {
+     "question": "How is the Northeast Monsoon different from the Southwest Monsoon?",
+     "solution": "The Southwest Monsoon blows from the sea to land in summer bringing widespread rain, while the Northeast Monsoon blows from land to sea in autumn bringing rain mainly to Tamil Nadu.",
+     "answer": "The Northeast Monsoon is retreating and affects mainly Tamil Nadu."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain why the Northeast Monsoon is called the retreating monsoon.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Describe the areas that benefit from the Northeast Monsoon and why.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.3.7",
+   "title": "Seasons of India",
+   "section": "Seasons of India",
+   "definition": "India experiences four main seasons: winter (December to February), summer (March to May), monsoon or rainy season (June to September), and post-monsoon or autumn (October to November).",
+   "formula": "",
+   "key_idea": "The annual cycle of seasons is driven by the changing position of the sun and the monsoon winds, creating distinct weather patterns throughout the year.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Name the four main seasons of India and their months.",
+    "Describe the characteristics of the winter season in India.",
+    "Why is the summer season in India hot and dry?",
+    "Explain the features of the monsoon season in India.",
+    "What happens during the post-monsoon season in India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the four seasons",
+     "explain": "Identify winter, summer, monsoon, and post-monsoon with their months."
+    },
+    {
+     "step": 2,
+     "action": "Describe each season's features",
+     "explain": "Winter is cold and dry, summer is hot and dry, monsoon is wet, and post-monsoon is a transition period."
+    },
+    {
+     "step": 3,
+     "action": "Relate to the annual cycle",
+     "explain": "Explain how the sun's position and monsoon winds cause the seasonal cycle."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which season brings the most rainfall to India and during which months?",
+     "solution": "The monsoon season (June to September) brings the most rainfall to India.",
+     "answer": "Monsoon season (June to September)"
+    },
+    {
+     "question": "Describe the weather during the winter season in northern India.",
+     "solution": "Winter (December to February) in northern India is cold and dry, with temperatures dropping significantly, especially at night.",
+     "answer": "Cold and dry weather"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the four seasons of India with their months and main features.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why does India have a distinct monsoon season?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.3.8",
+   "title": "Distribution of Rainfall in India",
+   "section": "Distribution of Rainfall",
+   "definition": "Rainfall in India is unevenly distributed. The western coast, northeastern regions, and the foothills of the Himalayas receive heavy rainfall, while western Rajasthan and parts of Gujarat receive very little.",
+   "formula": "",
+   "key_idea": "The amount of rainfall depends on the monsoon winds, topography, and location. Windward sides of mountains receive heavy rain while leeward sides (rain-shadow areas) receive little.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Describe the distribution of rainfall in India.",
+    "Why does Mawsynram receive the highest rainfall in the world?",
+    "Explain why western Rajasthan receives very little rainfall.",
+    "What is a rain-shadow area? Give an example from India.",
+    "How do the Western Ghats influence rainfall distribution in India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify high and low rainfall regions",
+     "explain": "Note areas of heavy rainfall (northeast, western coast) and low rainfall (Rajasthan, Gujarat)."
+    },
+    {
+     "step": 2,
+     "action": "Explain the role of topography",
+     "explain": "Mountains force winds to rise and cause rain on the windward side; the leeward side is dry."
+    },
+    {
+     "step": 3,
+     "action": "Relate to monsoon winds",
+     "explain": "The path and moisture content of monsoon winds determine how much rain each region receives."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why does Cherrapunji/Mawsynram in Meghalaya receive very heavy rainfall?",
+     "solution": "These places are on the windward side of the Khasi Hills, where the moisture-laden monsoon winds rise, cool, and cause heavy rainfall.",
+     "answer": "They are on the windward side of hills, causing heavy rainfall."
+    },
+    {
+     "question": "Why does western Rajasthan receive very little rainfall?",
+     "solution": "Western Rajasthan is far from the sea, and the Aravalli range is aligned parallel to the monsoon winds, so it does not force the winds to rise and shed rain.",
+     "answer": "Western Rajasthan is in a rain-shadow-like region with little monsoon rain."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the uneven distribution of rainfall in India with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is a rain-shadow area? Give one example.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.3.9",
+   "title": "Climate Regions of India",
+   "section": "Climate Regions of India",
+   "definition": "India is divided into several climate regions based on temperature and rainfall, including tropical rainy, tropical wet and dry, tropical semi-arid, tropical arid, humid subtropical, and mountain climates.",
+   "formula": "",
+   "key_idea": "Different parts of India have distinct climate regions determined by latitude, altitude, distance from the sea, and monsoon influence.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Name the major climate regions of India.",
+    "Describe the tropical rainy climate region of India.",
+    "Which parts of India have an arid climate and why?",
+    "Explain the features of the mountain climate region of India.",
+    "How is the humid subtropical climate different from the tropical climate?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the climate region",
+     "explain": "Determine the region based on its temperature and rainfall pattern."
+    },
+    {
+     "step": 2,
+     "action": "Match to a climate type",
+     "explain": "Classify the region as tropical rainy, arid, semi-arid, humid subtropical, or mountain climate."
+    },
+    {
+     "step": 3,
+     "action": "Justify with features",
+     "explain": "Explain the temperature and rainfall characteristics that define the region."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which climate region does the Thar Desert belong to?",
+     "solution": "The Thar Desert has very little rainfall and high temperatures, so it belongs to the tropical arid climate region.",
+     "answer": "Tropical arid climate"
+    },
+    {
+     "question": "What type of climate does the Himalayan region have?",
+     "solution": "The Himalayan region has high altitude and cool temperatures, so it has a mountain climate.",
+     "answer": "Mountain climate"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List and describe the major climate regions of India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Which climate region is found in the coastal areas of Kerala?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.3.10",
+   "title": "Effect of Climate on Agriculture",
+   "section": "Climate and Agriculture",
+   "definition": "Climate directly affects agriculture by determining the types of crops that can be grown, the timing of sowing and harvesting, and the amount of water available through rainfall.",
+   "formula": "",
+   "key_idea": "The monsoon is the backbone of Indian agriculture. Adequate and timely rainfall ensures good harvests, while droughts or floods can damage crops and reduce yields.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How does climate affect agriculture in India?",
+    "Why is the monsoon important for Indian agriculture?",
+    "Explain how different climate regions support different crops.",
+    "How does a delay in the monsoon affect farmers?",
+    "Why do farmers depend on the climate for their cropping calendar?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the climate conditions",
+     "explain": "Note the temperature, rainfall, and season of the region."
+    },
+    {
+     "step": 2,
+     "action": "Relate to crop requirements",
+     "explain": "Match the climate to suitable crops, e.g., rice needs heavy rain, wheat needs cool weather."
+    },
+    {
+     "step": 3,
+     "action": "Assess the impact on farming",
+     "explain": "Explain how adequate or inadequate rainfall affects sowing, growth, and harvest."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is rice grown mainly in regions with heavy rainfall?",
+     "solution": "Rice requires plenty of water and a warm climate, so it is grown in regions with heavy monsoon rainfall like West Bengal and Kerala.",
+     "answer": "Rice needs heavy rainfall and warm climate."
+    },
+    {
+     "question": "How does a failed monsoon affect Indian agriculture?",
+     "solution": "A failed monsoon leads to drought, shortage of water, poor crop growth, and reduced agricultural output.",
+     "answer": "A failed monsoon causes drought and crop failure."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the relationship between climate and agriculture in India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why do different regions of India grow different crops?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.3.11",
+   "title": "Climate Change and its Impact on India",
+   "section": "Climate Change",
+   "definition": "Climate change refers to long-term changes in temperature and weather patterns, mainly caused by human activities such as burning fossil fuels and deforestation, leading to global warming and altered weather patterns.",
+   "formula": "",
+   "key_idea": "Climate change causes rising temperatures, erratic monsoons, melting glaciers, rising sea levels, and increased frequency of extreme weather events, all of which affect India's environment and economy.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is climate change and what are its causes?",
+    "How does climate change affect the monsoon in India?",
+    "Explain the impact of rising sea levels on coastal India.",
+    "How does climate change affect agriculture in India?",
+    "What steps can be taken to reduce the impact of climate change?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the cause",
+     "explain": "Determine whether the change is due to natural factors or human activities like burning fossil fuels and deforestation."
+    },
+    {
+     "step": 2,
+     "action": "Describe the effect",
+     "explain": "Explain the impact such as rising temperatures, erratic monsoons, melting glaciers, or sea-level rise."
+    },
+    {
+     "step": 3,
+     "action": "Suggest mitigation",
+     "explain": "Mention measures like reducing emissions, afforestation, and using renewable energy."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How might climate change affect the monsoon in India?",
+     "solution": "Climate change can make the monsoon more erratic, with heavier downpours and longer dry spells, affecting agriculture and water supply.",
+     "answer": "The monsoon becomes more erratic and unpredictable."
+    },
+    {
+     "question": "Why are coastal cities like Mumbai at risk due to climate change?",
+     "solution": "Rising sea levels caused by global warming can submerge low-lying coastal areas and increase the risk of flooding in cities like Mumbai.",
+     "answer": "Rising sea levels threaten coastal cities."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the causes and effects of climate change on India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Suggest two ways to reduce the impact of climate change.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "exgen.c7ss.3.3.1",
+   "source_ref": "generated practice sample aligned to gees103.txt",
+   "concept": "c7ss.3.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate the estimated temp step by step for a case with {height_above_sea_level}, {base_temp}.",
+   "extracted_variables": {
+    "height_above_sea_level": "height above sea level (given value)",
+    "base_temp": "base temp (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute altitude",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "altitude = height_above_sea_level"
+    },
+    {
+     "step": 2,
+     "action": "compute temperature drop",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "temperature_drop = (altitude / 1000) * 6.5"
+    },
+    {
+     "step": 3,
+     "action": "compute estimated temp",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "estimated_temp = base_temp - temperature_drop"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c7ss.3.3.2",
+   "source_ref": "generated practice sample aligned to gees103.txt",
+   "concept": "c7ss.3.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate the estimated temp step by step for a case with {height_above_sea_level}, {base_temp}.",
+   "extracted_variables": {
+    "height_above_sea_level": "height above sea level (given value)",
+    "base_temp": "base temp (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute altitude",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "altitude = height_above_sea_level"
+    },
+    {
+     "step": 2,
+     "action": "compute temperature drop",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "temperature_drop = (altitude / 1000) * 6.5"
+    },
+    {
+     "step": 3,
+     "action": "compute estimated temp",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "estimated_temp = base_temp - temperature_drop"
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

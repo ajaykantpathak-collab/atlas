@@ -1,0 +1,244 @@
+{
+ "class": 9,
+ "subject": "science",
+ "chapter": 101,
+ "chapter_title": "Exploration: Entering the World of Secondary Science",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/iesc101.txt",
+ "concepts": [
+  {
+   "id": "iesc.101.1",
+   "title": "Scientific Modeling and Simplification",
+   "section": "1.1",
+   "definition": "A method of simplifying complex real-world systems by focusing on key factors and ignoring minor or irrelevant details to make them easier to analyze.",
+   "formula": "simplified_model = actual_system - ignored_details",
+   "key_idea": "Simplification makes complex physical systems solvable and understandable.",
+   "textbook_ref": "iesc101.txt lines 15-55",
+   "question_patterns": [
+    "what details should be included in a simple model of a moving car",
+    "how do scientists build models of complex natural systems",
+    "why do we ignore air resistance when modeling a falling object",
+    "explain the role of assumptions in scientific modeling"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the primary question or goal of the model",
+     "explain": "Determine what specific behavior or outcome the model is trying to predict or explain."
+    },
+    {
+     "step": 2,
+     "action": "Identify key variables to include",
+     "explain": "List the major physical factors that directly and significantly influence the outcome."
+    },
+    {
+     "step": 3,
+     "action": "Identify negligible details to ignore",
+     "explain": "List minor factors that have minimal impact and can be omitted to keep the model simple."
+    }
+   ]
+  },
+  {
+   "id": "iesc.101.2",
+   "title": "Standard Units and International Standards",
+   "section": "1.2",
+   "definition": "A universally accepted system of measurement units that ensures consistency, accuracy, and clear communication across global scientific and commercial domains.",
+   "formula": "standardized_value = numerical_value * standard_unit",
+   "key_idea": "In brief, Standardized units prevent errors and ensure fairness in trade and science.",
+   "textbook_ref": "iesc101.txt lines 70-100",
+   "question_patterns": [
+    "why is a standard unit like the kilogram used globally",
+    "what are the consequences of using non-standardized units in calculations",
+    "explain how standard units prevent errors in scientific communication",
+    "why do we need international standards for physical quantities"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the physical quantity being measured",
+     "explain": "Determine if the quantity is mass, length, time, or another physical property."
+    },
+    {
+     "step": 2,
+     "action": "Reference the universally agreed-upon international standard",
+     "explain": "Identify the SI unit associated with the physical quantity (e.g., kilogram for mass)."
+    },
+    {
+     "step": 3,
+     "action": "Verify that using this standard unit prevents discrepancies",
+     "explain": "Explain how standard units eliminate local variations and conversion errors."
+    }
+   ]
+  },
+  {
+   "id": "iesc.101.3",
+   "title": "Laws, Theories, and Principles",
+   "section": "1.3",
+   "definition": "Distinct scientific constructs where laws describe observed natural patterns, theories provide evidence-based explanations of why they occur, and principles act as guiding rules.",
+   "formula": "scientific_framework = law + theory + principle",
+   "key_idea": "Theories are robust, testable explanations open to refinement, not mere guesses.",
+   "textbook_ref": "iesc101.txt lines 105-135",
+   "question_patterns": [
+    "distinguish between a scientific law and a scientific theory",
+    "what is a scientific principle",
+    "why are scientific theories open to change and improvement",
+    "explain why a theory is not just an untested guess"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Classify the statement based on its role",
+     "explain": "Determine if the statement describes a regular pattern (law), explains a mechanism (theory), or guides reasoning (principle)."
+    },
+    {
+     "step": 2,
+     "action": "Assess the empirical evidence supporting the statement",
+     "explain": "Verify that the construct is built on rigorous testing and remains open to modification when new evidence arises."
+    }
+   ]
+  },
+  {
+   "id": "iesc.101.4",
+   "title": "Scientific Predictions and Testability",
+   "section": "1.4",
+   "definition": "The formulation of expected outcomes under specific conditions based on established scientific frameworks, which must be verifiable through measurable data.",
+   "key_idea": "Scientific predictions must be testable using empirical measurements.",
+   "formula": "testable_prediction = expected_outcome_based_on_measurable_variables",
+   "textbook_ref": "iesc101.txt lines 136-175",
+   "question_patterns": [
+    "how do we check if a prediction is scientifically testable",
+    "what makes a prediction scientific rather than a guess",
+    "formulate questions to test a weather prediction scientifically",
+    "why do scientific predictions need to rely on measurable data"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the prediction being made",
+     "explain": "State the expected outcome or hypothesis clearly."
+    },
+    {
+     "step": 2,
+     "action": "Identify the measurable variables involved",
+     "explain": "Determine which physical quantities (e.g., humidity, temperature, wind speed) can be measured to test the prediction."
+    },
+    {
+     "step": 3,
+     "action": "Formulate testable questions based on measurable data",
+     "explain": "Create specific questions comparing current measurements with past patterns to validate or invalidate the prediction."
+    }
+   ]
+  },
+  {
+   "id": "iesc.101.5",
+   "title": "Fermi Estimation and Approximate Reasoning",
+   "section": "1.5",
+   "definition": "A technique for making quick, order-of-magnitude calculations using sensible assumptions to check the feasibility of a physical scenario or value.",
+   "formula": "total_volume = breaths_per_minute * minutes_per_day * volume_per_breath",
+   "key_idea": "Approximations help build physical intuition and identify major calculation errors.",
+   "textbook_ref": "iesc101.txt lines 185-230",
+   "question_patterns": [
+    "estimate the volume of air breathed in one day",
+    "how many kilograms of rice are needed to feed a family for a month",
+    "calculate a rough estimate of daily water consumption",
+    "why is approximate reasoning useful in science"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate total breaths per day",
+     "explain": "Multiply the breathing rate per minute by the total minutes in a day",
+     "compute": "total_breaths = breaths_per_minute * minutes_per_day"
+    },
+    {
+     "step": 2,
+     "action": "calculate total volume of air",
+     "explain": "Multiply the total number of breaths by the volume of a single breath",
+     "compute": "total_volume = total_breaths * volume_per_breath"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1.1",
+   "source_ref": "iesc101.txt lines 30-45",
+   "concept": "iesc.101.1",
+   "question_type": "verify_property",
+   "question_pattern": "What details would you include and ignore to model a cricket shot for a six?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the primary goal of the model",
+     "explain": "The goal is to determine if the ball crosses the boundary line."
+    },
+    {
+     "step": 2,
+     "action": "Identify key variables to include",
+     "explain": "Include the mass of the ball, and the speed and direction of the hit."
+    },
+    {
+     "step": 3,
+     "action": "Identify negligible details to ignore",
+     "explain": "Ignore the brand of the bat, color of the ball, grass on the field, and minor effects like air resistance or ball spin."
+    }
+   ]
+  },
+  {
+   "id": "ex1.3",
+   "source_ref": "iesc101.txt lines 195-215",
+   "concept": "iesc.101.5",
+   "question_type": "compute",
+   "question_pattern": "Estimate the total volume of air breathed in one day if you take {breaths_per_minute} breaths per minute, there are {minutes_per_day} minutes in a day, and each breath has a volume of {volume_per_breath} litres.",
+   "extracted_variables": {
+    "breaths_per_minute": "number of breaths taken in one minute",
+    "minutes_per_day": "total number of minutes in a single day",
+    "volume_per_breath": "volume of air in litres inhaled during one breath"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate total breaths per day",
+     "explain": "Multiply the breathing rate per minute by the total minutes in a day",
+     "compute": "total_breaths = breaths_per_minute * minutes_per_day"
+    },
+    {
+     "step": 2,
+     "action": "calculate total volume of air",
+     "explain": "Multiply the total number of breaths by the volume of a single breath",
+     "compute": "total_volume = total_breaths * volume_per_breath"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ponder.1",
+   "source_ref": "iesc101.txt lines 160-170",
+   "questions": [
+    "Think of a prediction you or your family made recently (for example, the outcome of a cricket match). Was it based on evidence and reasoning, or mainly on guesswork? How can scientific thinking improve such predictions?"
+   ]
+  },
+  {
+   "id": "ponder.2",
+   "source_ref": "iesc101.txt lines 218-220",
+   "questions": [
+    "Describe one situation where an approximate answer is good enough, and one where you would need a very exact value."
+   ]
+  },
+  {
+   "id": "ponder.3",
+   "source_ref": "iesc101.txt lines 235-245",
+   "questions": [
+    "Choose a real‑life object (maybe a pressure cooker or a mobile phone) or a problem (maybe a traffic jam near your school). Make a sketch listing what kind of ideas from physics, chemistry, biology, earth science, or mathematics are involved. Show how at least two branches of science connect with your example."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_17_008",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_17_008",
+   "title": "c12_geo_cbse_17_008",
+   "questions": [
+    {
+     "q": "Name the chemical that leaked in the Bhopal disaster (1984) and state its industrial use.",
+     "a": "Methyl isocyanate (MIC), used as an intermediate in producing carbamate pesticides (e.g., carbaryl/Sevin). A wrong answer (e.g., \"chlorine\" or \"ammonia\") reveals confusion with other industrial gas leaks (like the 2022 Vizag styrene leak or chlorine leaks at water treatment plants) and indicates the student cannot distinguish signature chemicals of major disasters — a common board exam error where case studies are conflated.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why industrial disasters are classified as \"human-made\" rather than \"natural\" disasters, using the concept of \"endogenous risk\" and giving one example of how human decision-making amplifies the hazard.",
+     "a": "Industrial disasters arise from technological systems created and operated by humans; the hazard (e.g., MIC storage) exists only because of industrial activity — it is endogenous. Human decisions amplify risk: siting a hazardous plant in a densely populated area (Bhopal), deferring maintenance to cut costs, or ignoring safety audits. A wrong answer that cites \"earthquake damaging a factory\" as the primary cause misclassifies a triggered event (natech) as the root disaster and misses the geographical distinction that the hazard originates in the industrial system itself.",
+     "self_check": true
+    },
+    {
+     "q": "A chemical plant stores 50 tonnes of chlorine (Cl₂) in tonner containers. Using the \"threshold quantity\" concept from the Manufacture, Storage and Import of Hazardous Chemicals (MSIHC) Rules, 1989, determine if this installation qualifies as a \"Major Accident Hazard (MAH)\" unit. (Threshold for chlorine = 10 tonnes). Show your reasoning.",
+     "a": "Step 1: Identify the chemical — chlorine (Cl₂). Step 2: Recall MSIHC Rules Schedule 2 threshold quantity for chlorine = 10 tonnes. Step 3: Compare actual inventory (50 tonnes) with threshold (10 tonnes). Step 4: Since 50 > 10, the installation exceeds the threshold. Step 5: Conclusion — it is an MAH unit requiring on-site/off-site emergency plans, safety reports, and public information. A wrong answer (e.g., \"not MAH because chlorine is common\") shows ignorance of the regulatory threshold concept, a frequent gap in competitive exams testing legal geography.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the spatial pattern of industrial disaster risk in the Mumbai-Pune corridor vs. the Vishakhapatnam (Vizag) industrial cluster. Identify two locational factors that concentrate risk in each.",
+     "a": "Mumbai-Pune: (1) High-density urban-industrial intermix — residential slums abut chemical zones (e.g., Trans-Thane Creek), maximizing exposure; (2) Port-proximate petrochemical complexes (BPCL, HPCL, Rashtriya Chemicals) handling large hydrocarbon inventories. Vizag: (1) Concentrated heavy industry corridor (steel, fertilizers, pharma, petrochemicals) along the coast with shared infrastructure; (2) Cyclone-prone coastline adds natech (natural-triggered technological) risk — storm surge can breach containment. A weak answer listing only \"industries are there\" misses the geographical interplay of land-use zoning, population density, and multi-hazard coupling.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The Environment (Protection) Act, 1986 alone is sufficient to prevent industrial disasters in India.\" Use at least two specific gaps in implementation or coverage.",
+     "a": "The statement is flawed. Gap 1: The Act is an umbrella legislation; operational enforcement relies on subordinate rules (MSIHC, EIA Notification, Chemical Accidents Rules) and state-level Pollution Control Boards (SPCBs) which suffer from staffing deficits, lab capacity gaps, and political interference — documented in CAG reports. Gap 2: The Act focuses on environmental pollution (emissions, effluents) rather than process safety (runaway reactions, pressure vessel integrity, human factors) which is the domain of the Factories Act, 1948 (state-enforced) — creating a regulatory fragmentation where \"environment\" and \"safety\" are siloed. A student agreeing with the statement demonstrates a civics-textbook view of law-on-paper vs. implementation geography.",
+     "self_check": true
+    },
+    {
+     "q": "Design a community-level preparedness map for a village 2 km downwind of a chlorine-tonner storage depot. List four map layers (with data sources) and one actionable protocol the map enables.",
+     "a": "Layers: (1) Hazard footprint — ALOHA/CAMEO dispersion modeling output for worst-case chlorine release (source: depot's on-site emergency plan); (2) Vulnerable population — households with elderly, children, respiratory patients (source: ASHA/ANM health registers, Gram Panchayat survey); (3) Evacuation routes & assembly points — road network, community halls, schools (source: PMGSY maps, GP records); (4) Early warning sirens & communication nodes — siren coverage radius, mobile network dead zones (source: depot safety audit, TRAI coverage maps). Protocol enabled: \"Siren pattern 'wavering tone' → shelter-in-place (seal doors/windows, wet cloth over nose) for 15 min → if 'steady tone' sounds, evacuate perpendicular to wind via Route B to School Hall.\" A poor map omits wind rose data or assumes all roads are usable during monsoon flooding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_civ_ch3_6",
+ "concepts": [
+  {
+   "id": "enh:c8_civ_ch3_6",
+   "title": "c8_civ_ch3_6",
+   "questions": [
+    {
+     "q": "Under which article of the Indian Constitution is a High Court established for each state?",
+     "a": "Article 214 of the Indian Constitution mandates that there shall be a High Court for each state. A wrong answer shows confusion with Supreme Court provisions (like Article 124) or state legislative articles, indicating a need to separate union and state constitutional provisions.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Indian Constitution provide for a separate High Court in each state instead of routing all legal cases directly to the Supreme Court in New Delhi?",
+     "a": "A separate High Court ensures that citizens have accessible judicial review within their own state, reducing the burden on the Supreme Court and addressing state-specific legal matters efficiently. A wrong answer assumes the Supreme Court handles every single case in the country, revealing a misunderstanding of the federal court hierarchy and the distribution of judicial workload.",
+     "self_check": true
+    },
+    {
+     "q": "A citizen in Karnataka feels that a state government order violates their fundamental rights. Which court should they approach first for the issuance of writs like Habeas Corpus or Mandamus within that state?",
+     "a": "The citizen should approach the High Court of Karnataka under Article 226, which grants High Courts the power to issue writs for the enforcement of fundamental rights. A wrong answer suggesting the Supreme Court shows a lack of awareness that High Courts share concurrent writ jurisdiction with the Supreme Court for protecting rights at the state level.",
+     "self_check": true
+    },
+    {
+     "q": "How does the appellate jurisdiction of a High Court differ from its original jurisdiction?",
+     "a": "Original jurisdiction refers to cases that can be brought directly to the High Court in the first instance (such as election petitions or certain writ petitions), whereas appellate jurisdiction involves reviewing, correcting, or modifying decisions and judgements passed by lower subordinate courts within the state. A wrong answer confusing the two terms indicates a failure to understand how cases travel upward through the judicial hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Because the High Court is the highest court in a state, its decisions cannot be challenged or appealed anywhere else.\" Is this statement correct? Why or why not?",
+     "a": "The statement is incorrect because while the High Court is the highest court *within* the state, its judgements in civil, criminal, or constitutional matters can be appealed to the Supreme Court of India, which is the apex court of the nation. A wrong answer shows a misunderstanding of the finality of judicial authority and the supremacy of the Supreme Court over all state High Courts.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a short proposal explaining how a newly formed state in India should establish its High Court and what primary jurisdictions it must possess to ensure justice for its citizens.",
+     "a": "A good proposal should state that the Parliament will establish a High Court for the new state under constitutional provisions, and it must include original jurisdiction for writs, appellate jurisdiction over district courts, and administrative control over subordinate judiciary. A poor answer merely states that the state can make any rules it wants without referencing constitutional authority or judicial hierarchy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_07_008",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_07_008",
+   "title": "c12_cs_cbse_07_008",
+   "questions": [
+    {
+     "q": "Write the dual of the Boolean expression: F = A + B·C.",
+     "a": "The dual is F_d = A · (B + C). A wrong answer like A' · (B' + C') reveals the student is confusing duality with complementation (De Morgan's theorem). Duality does NOT complement variables — only operators and identity elements change. Another common error is A + (B·C) (no change), showing the student does not know AND and OR must be swapped.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the Principle of Duality holds in Boolean algebra. Why can we not simply complement all variables to get a valid new expression?",
+     "a": "Duality holds because every axiom and theorem of Boolean algebra is stated in pairs that are duals of each other (e.g., Identity: A+0=A and A·1=A; Distributive: A+(B·C)=(A+B)·(A+C) and A·(B+C)=A·B+A·C). Since the entire algebraic structure is symmetric under the interchange of (+,·) and (0,1), any derivation using these axioms remains valid after the interchange. Complementing variables (A→A') is a completely different operation — it uses De Morgan's theorems and changes the function's truth table, whereas duality preserves the logical structure but yields a different (though also valid) identity. A student who says \"duality is just De Morgan's\" confuses two distinct concepts.",
+     "self_check": true
+    },
+    {
+     "q": "Find the dual of the expression: F = (A + 0) · (B + 1) + A'·B.",
+     "a": "Step 1: Identify all operators and identity elements. Expression has +, ·, 0, 1, and complemented variable A'.\nStep 2: Apply interchanges: + becomes ·, · becomes +, 0 becomes 1, 1 becomes 0. A' remains A'.\nStep 3: Write dual: F_d = (A · 1) + (B · 0) · A' + B.\nStep 4: Simplify if needed (but duality does not require simplification): (A·1) = A, (B·0) = 0, so F_d = A + 0 · A' + B = A + 0 + B = A + B.\nA wrong answer like (A'·1)+(B'·0)+A·B' shows the student complemented variables (A→A', B→B') — this is De Morgan's complement, not duality. Another error: forgetting to change 0↔1, giving (A+1)·(B+0)+A'·B.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the dual and the complement of the expression F = A·B + C. Are they the same? Are they logically equivalent? Justify your answer.",
+     "a": "Dual: F_d = (A + B) · C (swap ·↔+, no 0/1 present, variables unchanged).\nComplement: F' = (A·B + C)' = (A·B)' · C' = (A' + B') · C' (De Morgan's, variables complemented).\nThey are NOT the same expression. They are NOT logically equivalent — F_d and F' have different truth tables. For A=1,B=1,C=0: F=1, F_d=0, F'=0. For A=0,B=0,C=1: F=1, F_d=0, F'=0. A student who claims they are the same or equivalent has not grasped that duality is a syntactic transformation on identities, while complementation is a semantic operation on functions. Duality preserves theorem-hood; complementation gives the opposite truth values.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The dual of X + X'·Y = X + Y is X · (X' + Y) = X · Y, so this must also be a valid theorem.\" Evaluate this claim. Is the student correct? If not, identify the error.",
+     "a": "The student's dual is correctly formed: + becomes ·, · becomes +, variables unchanged. The original X + X'·Y = X + Y is a valid theorem (Absorption variant). By the Principle of Duality, its dual X · (X' + Y) = X · Y is **also a valid theorem**. The student is correct! However, many students incorrectly think the dual must be simplified or that it should equal the original expression. The error would be if the student wrote X · (X + Y) = X · Y (forgetting X' stays X') or X' · (X + Y') = X' · Y' (complementing variables). This question tests whether the student understands that duality produces a *new, distinct* theorem that is guaranteed valid without re-proof.",
+     "self_check": true
+    },
+    {
+     "q": "Create a Boolean identity (not from the textbook) that involves at least three variables, both operators, and at least one identity element (0 or 1). Then write its dual. Verify both are true by constructing truth tables for a specific case (choose any values for variables).",
+     "a": "Example identity: A + (B · 1) = A + B. (Uses A,B, operators +,·, identity 1).\nDual: A · (B + 0) = A · B.\nVerification: Let A=1, B=0.\nOriginal LHS: 1 + (0·1) = 1+0 = 1. RHS: 1+0 = 1. ✓\nDual LHS: 1 · (0+0) = 1·0 = 0. RHS: 1·0 = 0. ✓\nA poor answer would create an invalid identity (e.g., A + B = A·B) or forget to include 0/1, or complement variables in the dual. The verification step must show both sides match for the chosen values, confirming the dual is also an identity. This tests synthesis: creating a valid starting identity, correctly applying duality, and empirically verifying the principle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

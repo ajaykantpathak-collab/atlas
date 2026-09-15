@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch8_5",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch8_5",
+   "title": "c8_physics_ch8_5",
+   "questions": [
+    {
+     "q": "What is a food web, and how does it differ from a food chain?",
+     "a": "A food web is a network of multiple interconnected food chains showing various feeding relationships in an ecosystem, while a food chain is a single linear sequence of who eats whom. A wrong answer (e.g., \"food web is just a bigger food chain\") reveals the student does not grasp the branching and multiple connections that define a web.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a food web provide more stability to an ecosystem than a single food chain?",
+     "a": "A food web provides alternative pathways for energy flow; if one species declines, predators can switch to other prey, preventing collapse. A wrong answer (e.g., \"food webs have more organisms\") shows the student misses the concept of alternative energy pathways and redundancy.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following organisms in a pond ecosystem: algae, zooplankton, small fish, large fish, kingfisher, and bacteria (decomposers). Draw a food web showing at least three interconnected food chains.",
+     "a": "A correct food web would show: algae → zooplankton → small fish → large fish → kingfisher; algae → zooplankton → small fish → kingfisher; and dead organisms → bacteria → nutrients → algae. The student must draw arrows indicating energy flow. A wrong answer with only a single linear chain indicates inability to see multiple feeding links.",
+     "self_check": true
+    },
+    {
+     "q": "In a forest food web, if the population of rabbits (primary consumers) suddenly decreases, predict the effect on the populations of foxes (secondary consumers) and grass (producers). Explain your reasoning.",
+     "a": "Foxes may decline due to less food, but they might switch to other prey (e.g., mice) if available, showing the buffering effect of a food web. Grass may increase initially due to reduced grazing, but other herbivores may increase and compensate. A wrong answer that predicts only linear effects (foxes die out, grass grows unchecked) shows failure to analyze alternative pathways.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Food webs are just complicated food chains; they don't tell us anything new about energy flow.\" Evaluate this statement.",
+     "a": "The statement is incorrect. Food webs reveal the complexity of energy flow, showing that energy can travel through multiple routes, and that ecosystems have resilience due to redundancy. They also show that organisms can occupy multiple trophic levels. A wrong evaluation indicates the student cannot critique the added value of food webs over chains.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple activity using locally available materials (e.g., yarn, cards with organism names) to demonstrate a food web for a nearby ecosystem (e.g., a farm, a lake, a garden). Explain how your activity shows interconnectedness.",
+     "a": "A good activity: Create organism cards (producers, consumers, decomposers) for a local ecosystem. Students hold cards and pass a ball of yarn to show who eats whom, creating a physical web. The web visualizes multiple connections. A poor activity might only create a single chain, missing the interconnectedness.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

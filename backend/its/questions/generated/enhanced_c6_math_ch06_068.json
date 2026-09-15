@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch06_068",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch06_068",
+   "title": "c6_math_ch06_068",
+   "questions": [
+    {
+     "q": "If a classroom has 10 boys and 15 girls, what is the ratio of boys to girls in its simplest form?",
+     "a": "The ratio is 2:3. A wrong answer like 10:15 suggests the student doesn't know how to simplify ratios by dividing both sides by a common factor (in this case, 5).",
+     "self_check": true
+    },
+    {
+     "q": "Are the ratios 3:4 and 9:12 equivalent? Explain why or why not.",
+     "a": "Yes, they are equivalent. A wrong answer suggests the student is looking at the numbers as separate entities rather than a relationship, failing to see that 3x3=9 and 4x3=12, keeping the proportion constant.",
+     "self_check": true
+    },
+    {
+     "q": "A map scale is 1:1000. If two towns are 5 cm apart on the map, what is the actual distance in metres?",
+     "a": "The actual distance is 5000 cm, which is 50 metres. A wrong answer often ignores the unit conversion or fails to multiply the map distance by the scale factor, indicating confusion between map units and real-world units.",
+     "self_check": true
+    },
+    {
+     "q": "If 5 notebooks cost 100 rupees, how much will 8 notebooks cost?",
+     "a": "Each notebook costs 20 rupees, so 8 notebooks cost 160 rupees. A wrong answer indicates the student is not finding the \"unit rate\" first or fails to set up the proportion correctly (5:100 = 8:x).",
+     "self_check": true
+    },
+    {
+     "q": "Can you have a ratio between 5 apples and 3 kilograms of rice? Why or why not?",
+     "a": "No, because ratios compare quantities of the same kind. A wrong answer shows the student does not understand that ratio requires a common unit of measure (e.g., you cannot compare \"count\" to \"weight\" directly as a ratio).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario where the ratio of two items must remain constant.",
+     "a": "A good answer involves recipes, fuel consumption, or salary/wage calculations where increasing one part requires increasing the other proportionately. A poor answer gives an example where variables change independently, like a child's age versus their height.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

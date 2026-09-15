@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_05_011",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_05_011",
+   "title": "c11_hist_cbse_05_011",
+   "questions": [
+    {
+     "q": "What was the immediate trigger for the Mongol Empire's division into competing khanates after 1259?",
+     "a": "The death of Möngke Khan in 1259 without a designated successor triggered a civil war (1260–1264) between his brothers Kublai and Ariq Böke for the Great Khan title. This fracture permanently ended unitary rule. A wrong answer (e.g., \"the Black Death\" or \"Ming rebellion\") reveals confusion between long-term pressures and the specific constitutional crisis that initiated fragmentation.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Yasa's succession principles fail to prevent the empire's disintegration despite its detailed legal code?",
+     "a": "The Yasa mandated election by kurultai but did not specify primogeniture or a clear hierarchy among Genghis Khan's descendants, allowing multiple princes to claim legitimacy simultaneously. A wrong answer (e.g., \"the Yasa was ignored\") misses the structural flaw: the code reflected steppe consensus politics unsuited for a sedentary imperial bureaucracy, a pattern seen in earlier nomadic confederations like the Xiongnu.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Yuan Dynasty's collapse in China (1368) with the Golden Horde's fragmentation in Russia. Identify one shared structural cause and one key difference in outcome.",
+     "a": "Shared cause: both khanates relied on extracting surplus from sedentary populations while remaining culturally distinct minorities, provoking nationalist resistance. Difference: the Yuan were expelled by a unified Ming restoration, while the Golden Horde fragmented into competing Tatar khanates (Kazan, Astrakhan, Crimea) that persisted until Russian annexation (16th century). A wrong answer conflates the two or ignores the role of settled-subject resistance in both cases.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the Pax Mongolica's trade integration paradoxically accelerated the empire's political decline.",
+     "a": "Secure trade routes enabled the rapid spread of the Black Death (1340s) along the very networks the Mongols maintained, depopulating cities, disrupting revenue, and weakening military recruitment across all khanates simultaneously. Meanwhile, the flow of gunpowder technology from China to Europe via these routes eventually armed the Mongols' adversaries. A wrong answer treats trade and disease as separate factors rather than recognizing the Mongol peace as the vector for both integration and catastrophe.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Mongol Empire's greatest legacy was not its conquests but the forced integration of Eurasian disease pools.\"",
+     "a": "Partially valid but incomplete. The epidemiological unification (spread of Yersinia pestis) caused demographic collapse that reshaped labour markets, ended serfdom in Western Europe, and weakened all khanates. However, the legacy also includes positive transfers: Persian astronomy in Beijing, Chinese printing in Tabriz, Muslim administrators in Russia, and the institutional template for early modern empires (Mughal, Ottoman, Ming). A wrong answer focuses solely on death tolls or solely on cultural exchange, missing the dialectic of destruction and creation.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a historical argument explaining why the Chagatai Khanate fragmented earliest (by 1340s) while the Golden Horde lasted longest (until 1502), using geography, economy, and succession practice.",
+     "a": "The Chagatai Khanate straddled the ecologically fragile steppe-sown frontier of Transoxiana with no strong sedentary tax base, suffered repeated succession disputes between sedentary and nomadic factions, and lacked a unified religious identity (Islamization incomplete until Tughluq Timur, 1340s). The Golden Horde controlled the Volga trade route, extracted tribute from Russian principalities through a stable \"basket\" system, and adopted Islam early (Berke, 1250s) providing ideological cohesion. A poor answer lists factors without linking geography to revenue to political stability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

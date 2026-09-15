@@ -1,0 +1,71 @@
+{
+ "catalog": "catalog_class9_science_iesc101.json",
+ "concepts": [
+  {
+   "id": "iesc.101.1.1",
+   "title": "The Spirit of Scientific Exploration",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why is curiosity called the heart of science?",
+     "a": "Asking 'why' about everyday happenings leads to questions, experiments and discoveries.",
+     "self_check": true
+    },
+    {
+     "q": "Give one example of a discovery that began with a simple question.",
+     "a": "Newton asking why apples fall led to the law of gravitation.",
+     "self_check": true
+    },
+    {
+     "q": "What attitude makes a good scientist?",
+     "a": "Curiosity, honesty in recording results, patience and willingness to be proved wrong.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.101.1.2",
+   "title": "Working Like a Scientist: Methods and Safety",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "List the steps of the scientific method in order.",
+     "a": "Observe, ask a question, form a hypothesis, test by experiment, analyse results and conclude.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a control set-up used in experiments?",
+     "a": "It stays unchanged so the effect of the one changed factor can be seen clearly.",
+     "self_check": true
+    },
+    {
+     "q": "Name two safety rules for a laboratory.",
+     "a": "Wear safety gear (goggles, apron) and never taste or directly smell chemicals.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iesc.101.1.3",
+   "title": "Science in Society and Everyday Life",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How does science help in daily life? Give two examples.",
+     "a": "Vaccines and antibiotics protect health; electricity and machines ease work and transport.",
+     "self_check": true
+    },
+    {
+     "q": "Name a scientific advance that changed farming.",
+     "a": "High-yielding seeds, fertilisers and irrigation of the Green Revolution raised food production.",
+     "self_check": true
+    },
+    {
+     "q": "How can society misuse science?",
+     "a": "Weapons and pollution show that science must be guided by ethics and law.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

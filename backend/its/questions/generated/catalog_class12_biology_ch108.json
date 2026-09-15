@@ -1,0 +1,225 @@
+{
+ "catalog": "catalog_class12_biology_ch108",
+ "concepts": [
+  {
+   "id": "lebo.108.1",
+   "title": "Microbes in Household Food Products",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Microbes in Household Food Products' refers to.",
+     "a": "Microorganisms like Lactic Acid Bacteria (LAB) and yeasts digest or ferment dietary substrates to enhance food texture, flavor, and nutritional value.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Microbes in Household Food Products'.",
+     "a": "Microbial fermentation produces organic acids and gases that transform everyday food items and improve nutritional profile.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Microbes in Household Food Products', in plain ASCII form.",
+     "a": "milk + LAB -> curd (enriched with vitamin B12)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.108.2",
+   "title": "Fermented Beverages and Industrial Fermentation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Fermented Beverages and Industrial Fermentation' refers to.",
+     "a": "Industrial scale production of alcoholic drinks uses yeasts to ferment fruit juices or malted cereals inside large vessels called fermentors.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Fermented Beverages and Industrial Fermentation'.",
+     "a": "Brewer's yeast ferments carbohydrates into ethanol, giving distilled or non-distilled alcoholic beverages depending on processing.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Fermented Beverages and Industrial Fermentation', in plain ASCII form.",
+     "a": "fermentable sugars + Saccharomyces cerevisiae -> ethanol + CO2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.108.3",
+   "title": "Antibiotics Discovery and Function",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Antibiotics Discovery and Function' refers to.",
+     "a": "Antibiotics are microbial chemical secretions that inhibit growth or kill pathogenic microorganisms.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Antibiotics Discovery and Function'.",
+     "a": "Secondary metabolites produced by specific fungi or bacteria act as metabolic inhibitors against infectious microbes.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Antibiotics Discovery and Function', in plain ASCII form.",
+     "a": "Penicillium notatum -> Penicillin (inhibits bacterial pathogens)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.108.4",
+   "title": "Microbial Production of Organic Acids, Enzymes, and Bioactive Molecules",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Microbial Production of Organic Acids, Enzymes, and Bioactive Molecules' refers to.",
+     "a": "Specific bacterial and fungal species are cultured to yield metabolic products like organic acids, enzymes, immunosuppressants, and cholesterol-lowering agents.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Microbial Production of Organic Acids, Enzymes, and Bioactive Molecules'.",
+     "a": "Microbes synthesize specialized biochemicals like citric acid, streptokinase, cyclosporin A, and statins for both medical and industrial applications.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Microbial Production of Organic Acids, Enzymes, and Bioactive Molecules', in plain ASCII form.",
+     "a": "Monascus purpureus -> Statins (inhibits HMG-CoA reductase enzyme)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.108.5",
+   "title": "Primary Sewage Treatment",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Primary Sewage Treatment' refers to.",
+     "a": "The physical separation of solid and suspended particles from municipal wastewater through both filtration and gravity sedimentation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Primary Sewage Treatment'.",
+     "a": "Primary treatment physically extracts floating debris and heavy grit to prepare wastewater for secondary biological treatment.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Primary Sewage Treatment', in plain ASCII form.",
+     "a": "raw sewage -> physical filtration + sedimentation -> primary sludge + effluent",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.108.6",
+   "title": "Secondary Sewage Treatment and Floc Formation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Secondary Sewage Treatment and Floc Formation' refers to.",
+     "a": "A biological process where aerobic microbes form mesh-like flocs to digest organic matter in wastewater, followed by anaerobic digestion of settled sludge.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Secondary Sewage Treatment and Floc Formation'.",
+     "a": "Aerobic microbial flocs consume organic pollutants in sewage, reducing water pollution before anaerobic sludge digestion.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Secondary Sewage Treatment and Floc Formation', in plain ASCII form.",
+     "a": "primary effluent + aerobic flocs + oxygen -> digested effluent + activated sludge",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.108.7",
+   "title": "Biochemical Oxygen Demand (BOD) and Water Pollution Measurement",
+   "questions": [
+    {
+     "q": "Calculate the percentage reduction in BOD during sewage treatment. Use the method 'Biochemical Oxygen Demand (BOD) and Water Pollution Measurement'. Work with: final_bod = 3, initial_bod = 5. Carry the chain through step by step and give the final value of treatment_efficiency.",
+     "a": "40 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Find the change in BOD given initial and final values. Use the method 'Biochemical Oxygen Demand (BOD) and Water Pollution Measurement'. Work with: final_bod = 3, initial_bod = 200. Carry the chain through step by step and give the final value of treatment_efficiency.",
+     "a": "98.5 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Biochemical Oxygen Demand (BOD) and Water Pollution Measurement' refers to.",
+     "a": "The total amount of dissolved oxygen consumed by microorganisms to completely oxidize the organic matter present in one liter of water.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Biochemical Oxygen Demand (BOD) and Water Pollution Measurement'.",
+     "a": "BOD measures organic load indirectly; a higher BOD value indicates greater organic pollution in the water body.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Biochemical Oxygen Demand (BOD) and Water Pollution Measurement', in plain ASCII form.",
+     "a": "reduction_percent = (initial_bod - final_bod) * 100 / initial_bod",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.108.8",
+   "title": "Microbial Biogas Production",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Microbial Biogas Production' refers to.",
+     "a": "Anaerobic digestion of cellulosic agricultural waste and cattle manure by methanogenic bacteria yields inflammable biogas rich in methane.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Microbial Biogas Production'.",
+     "a": "Methanogens convert cellulosic animal waste into methane-rich combustible gas inside anaerobic digesters.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Microbial Biogas Production', in plain ASCII form.",
+     "a": "cellulosic waste + Methanobacterium -> CH4 + CO2 + H2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.108.9",
+   "title": "Microbes as Biological Control Agents",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Microbes as Biological Control Agents' refers to.",
+     "a": "The deployment of biological natural enemies, parasites, or pathogens to manage pest and pathogen populations in agricultural ecosystems.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Microbes as Biological Control Agents'.",
+     "a": "Targeted microbial biocontrol agents suppress specific crop pests without destroying harmless beneficial insects or causing toxic chemical pollution.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Microbes as Biological Control Agents', in plain ASCII form.",
+     "a": "Bt spore ingestion -> endotoxin release in insect midgut -> caterpillar death",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebo.108.10",
+   "title": "Microbes as Biofertilisers",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Microbes as Biofertilisers' refers to.",
+     "a": "Living organisms like nitrogen-fixing bacteria, mycorrhizal fungi, and cyanobacteria that naturally replenish essential plant nutrients in soil.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Microbes as Biofertilisers'.",
+     "a": "Biofertilisers fix atmospheric nitrogen and solubilize soil phosphorus, offering a sustainable alternative to chemical fertilizers.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Microbes as Biofertilisers', in plain ASCII form.",
+     "a": "N2 + nitrogen-fixing microbes -> organic nitrogen (plant nutrient)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

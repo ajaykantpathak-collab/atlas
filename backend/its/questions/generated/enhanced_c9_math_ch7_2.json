@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch7_2",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch7_2",
+   "title": "c9_math_ch7_2",
+   "questions": [
+    {
+     "q": "What is the range of possible values for the probability of any event? Write your answer as an inequality.",
+     "a": "The correct answer is 0 ≤ P(E) ≤ 1. A wrong answer like \"0 < P(E) < 1\" reveals the student does not understand that impossible events (probability 0) and certain events (probability 1) are included in the scale. An answer like \"0 to 100\" reveals confusion between probability and percentage — the student has not internalised that probability is a number between 0 and 1, though it can be *expressed* as a percentage.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that the probability of getting a head when tossing a fair coin is 50, because \"there are 2 sides and 1 is heads, so 1 out of 2 is 50.\" Explain why this statement is incorrect and what the correct probability value is.",
+     "a": "The student has confused \"1 out of 2\" (which is the fraction 1/2) with the number 50. The correct probability is 1/2 = 0.5 = 50%. A wrong explanation that focuses only on \"50% is correct\" without addressing the notation error reveals the student does not distinguish between the *value* of probability (a number between 0 and 1) and its *percentage representation*. This misconception leads to writing probabilities as whole numbers like 50, 25, 75 instead of 0.5, 0.25, 0.75.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each of the following events by its probability value on the scale: (a) P(E) = 0, (b) P(E) = 0.15, (c) P(E) = 0.5, (d) P(E) = 0.85, (e) P(E) = 1. Use the terms: impossible, unlikely, equally likely, likely, certain.",
+     "a": "(a) 0 → impossible, (b) 0.15 → unlikely, (c) 0.5 → equally likely, (d) 0.85 → likely, (e) 1 → certain. A wrong classification such as calling 0.15 \"impossible\" or 0.85 \"certain\" reveals the student treats any non-zero probability as \"possible\" and any non-one probability as \"uncertain\" without understanding the *gradations* of likelihood. An answer that swaps \"unlikely\" and \"likely\" reveals the student does not grasp that values closer to 0 are less likely and values closer to 1 are more likely.",
+     "self_check": true
+    },
+    {
+     "q": "Two events A and B have probabilities P(A) = 3/8 and P(B) = 5/8. Without calculating decimals, determine which event is more likely to occur and explain how you know using only the fractions.",
+     "a": "Event B is more likely because 5/8 > 3/8 (same denominator, larger numerator). A wrong answer that converts to decimals (0.375 vs 0.625) and then compares is not incorrect mathematically, but reveals the student lacks the fraction comparison skill (c6_math_ch03_032) needed to reason efficiently on the probability scale. An answer claiming they are \"equally likely because both are less than 1\" reveals a fundamental misunderstanding that all probabilities between 0 and 1 represent the same degree of likelihood.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the probability of drawing a red card from a standard deck of 52 cards as 26:52 (using a colon). Is this an acceptable way to write probability? If not, what is the correct representation and why?",
+     "a": "No, 26:52 is a *ratio* (odds notation), not a probability. Probability must be written as a fraction (26/52), decimal (0.5), or percentage (50%). The colon notation represents \"26 to 52\" which is odds in favour, not probability. A wrong answer accepting 26:52 reveals the student confuses odds with probability — a critical board-level error because probability questions explicitly ask for P(E) as a number between 0 and 1, not as a ratio. The student must understand that probability = favourable/total, while odds = favourable:unfavourable.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life situation (Indian context) for each of these five probability values: 0, 0.2, 0.5, 0.8, 1. Describe the random experiment and the event clearly.",
+     "a": "Sample answers: (0) \"Drawing a green ball from a bag containing only red and blue balls\" — impossible. (0.2) \"Randomly selecting a Monday from a week\" — 1/7 ≈ 0.14 (unlikely), or \"getting a 6 on a fair die\" — 1/6 ≈ 0.17. (0.5) \"Tossing a fair coin and getting heads\" — equally likely. (0.8) \"A student who studies daily passing a Class 9 math test\" — likely (subjective but reasonable). (1) \"The sun rising in the east tomorrow\" — certain. A poor answer uses vague events like \"maybe it will rain\" without a clear random experiment, or gives events that don't match the probability (e.g., \"getting a 7 on a die\" for 0.2 instead of 0). This reveals the student cannot connect abstract probability values to concrete experiments.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

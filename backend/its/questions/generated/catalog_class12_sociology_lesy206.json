@@ -1,0 +1,408 @@
+{
+ "catalog": "catalog_class12_sociology_lesy206",
+ "concepts": [
+  {
+   "id": "lesy206.1",
+   "title": "Globalisation Through the Sociological Imagination",
+   "questions": [
+    {
+     "q": "Using the method 'Globalisation Through the Sociological Imagination', work with: distant_policies = 5, local_lives = 24, uneven_impact = 80. Carry the chain through step by step and give the final value of global_change.",
+     "a": "109 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Globalisation Through the Sociological Imagination' and work with: distant_policies = 25, local_lives = 75, uneven_impact = 120. Carry the chain through step by step and give the final value of global_change.",
+     "a": "220 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Globalisation Through the Sociological Imagination' refers to.",
+     "a": "Sociology reads big policies through small lives: a chinese pear on a neighbourhood fruit stall, dozens of television channels, or a bihari silk spinner thrown out of work by cheaper korean yarn all trace back to distant decisions such as the wto agreement and the withdrawal, from april 2001, of quantitative restrictions on imports. Globalisation touches everyone, but it hands new chances to some and takes livelihoods from others.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Globalisation Through the Sociological Imagination'.",
+     "a": "The same policy shift can widen choice for an affluent urban shopper while destroying a producer's earnings - gujarati gum collectors lost out to sudanese gum and rag pickers to imported waste paper.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Globalisation Through the Sociological Imagination', in plain ASCII form.",
+     "a": "global_change = local_lives + distant_policies + uneven_impact",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy206.2",
+   "title": "Old Global Interconnections: Silk Route to Colonialism",
+   "questions": [
+    {
+     "q": "Using the method 'Old Global Interconnections: Silk Route to Colonialism', work with: colonial_capitalism = 80000, kupamanduka_warning = 80, migration = 40, silk_route = 8. Carry the chain through step by step and give the final value of old_links.",
+     "a": "80128 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Old Global Interconnections: Silk Route to Colonialism' and work with: colonial_capitalism = 80000, kupamanduka_warning = 120, migration = 30, silk_route = 18. Carry the chain through step by step and give the final value of old_links.",
+     "a": "80168 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Old Global Interconnections: Silk Route to Colonialism' refers to.",
+     "a": "Worldwide links are ancient, not a modern novelty. The silk route long ago joined india to the civilisations of china, persia, egypt and rome; panini, the greatest sanskrit grammarian, was of afghan origin, and the chinese scholar yi jing learnt sanskrit in java. Colonial capitalism fed on global raw materials, markets and coerced migration - indentured labourers shipped from india and enslaved africans carried to distant shores - while the kupamanduka parable mocked the well-frog's isolationism.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Old Global Interconnections: Silk Route to Colonialism'.",
+     "a": "Amartya sen's retold parable of the well-frog warns that suspicion of the outside world would have starved the world's scientific, cultural and economic history.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Old Global Interconnections: Silk Route to Colonialism', in plain ASCII form.",
+     "a": "old_links = silk_route + migration + colonial_capitalism + kupamanduka_warning",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy206.3",
+   "title": "Liberalisation: The 1991 Policy and Structural Adjustment",
+   "questions": [
+    {
+     "q": "Using the method 'Liberalisation: The 1991 Policy and Structural Adjustment', work with: imf_loans = 8, open_world_market = 12, structural_adjustment = 400. Carry the chain through step by step and give the final value of liberalisation_1991.",
+     "a": "420 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Liberalisation: The 1991 Policy and Structural Adjustment' and work with: imf_loans = 10, open_world_market = 6, structural_adjustment = 10. Carry the chain through step by step and give the final value of liberalisation_1991.",
+     "a": "26 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Liberalisation: The 1991 Policy and Structural Adjustment' refers to.",
+     "a": "Liberalisation names the bundle of decisions by which the indian state, from july 1991 onwards, opened the economy to the world market, unwinding the protective rules built after independence on the belief that a former colony would lose out in free competition. It came with loans from the imf whose conditions impose structural adjustment - cuts in state spending on health, education and social security - and a louder voice for the wto.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Liberalisation: The 1991 Policy and Structural Adjustment'.",
+     "a": "Reforms ran across every major sector - farming, industry, trade, foreign investment, technology, the public sector and finance - resting on the wager that deeper world-market integration would reward the indian economy.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Liberalisation: The 1991 Policy and Structural Adjustment', in plain ASCII form.",
+     "a": "liberalisation_1991 = open_world_market + imf_loans + structural_adjustment",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy206.4",
+   "title": "TNCs and the New International Division of Labour",
+   "questions": [
+    {
+     "q": "Using the method 'TNCs and the New International Division of Labour', work with: india = 45, indonesia = 50, japan = 40, south_korea = 12, thailand = 100. Carry the chain through step by step and give the final value of nike_shift.",
+     "a": "247 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'TNCs and the New International Division of Labour' and work with: india = 25, indonesia = 15, japan = 12, south_korea = 150, thailand = 250. Carry the chain through step by step and give the final value of nike_shift.",
+     "a": "452 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'TNCs and the New International Division of Labour' refers to.",
+     "a": "Transnational corporations produce goods or market services in more than one country, chasing worldwide profit from a national base - the chapter names coca cola, general motors, colgate-palmolive, kodak and mitsubishi. Nike shows the logic: shoe output migrated from japan to south korea as costs rose, then to thailand and indonesia, and since the 1990s india - a new international division of labour in which routine production drifts to third world locations and workers stay insecure.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'TNCs and the New International Division of Labour'.",
+     "a": "Flexibility favours producers: instead of fordist mass output at one centralised site, post-fordism spreads flexible production across dispersed locations and moves on whenever wages rise.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'TNCs and the New International Division of Labour', in plain ASCII form.",
+     "a": "nike_shift = japan + south_korea + thailand + indonesia + india",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy206.5",
+   "title": "Global Production Shares: The Pontiac Le Mans Arithmetic",
+   "questions": [
+    {
+     "q": "Using the method 'Global Production Shares: The Pontiac Le Mans Arithmetic', work with: american_amount = 2500, region_share = 0.3, showroom_price = 80000. Carry the chain through step by step and give the final value of region_amount.",
+     "a": "232.5 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Global Production Shares: The Pontiac Le Mans Arithmetic' and work with: american_amount = 500, region_share = 0.2, showroom_price = 50000. Carry the chain through step by step and give the final value of region_amount.",
+     "a": "99 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Global Production Shares: The Pontiac Le Mans Arithmetic' refers to.",
+     "a": "A supposedly american car is really assembled worldwide. Of the pontiac le mans showroom price of 20,000 dollars only 7,600 dollars stay with americans; the overseas remainder splits by country - 48 percent to south korea for labour and assembly, 28 to japan for engines and electronics, 12 to germany for styling, 7 to taiwan and singapore for small components, 4 to britain for marketing, about 1 to barbados or ireland for data processing.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Global Production Shares: The Pontiac Le Mans Arithmetic'.",
+     "a": "Multiplying each partner's percentage by the overseas share of the price shows precisely how much of an american-branded car's value is actually earned abroad.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Global Production Shares: The Pontiac Le Mans Arithmetic', in plain ASCII form.",
+     "a": "region_amount = overseas_total * region_share / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy206.6",
+   "title": "Electronic Economy, Global Finance and the Weightless Economy",
+   "questions": [
+    {
+     "q": "Using the method 'Electronic Economy, Global Finance and the Weightless Economy', work with: electronic_money = 15, information_products = 8, round_the_clock_finance = 500. Carry the chain through step by step and give the final value of new_economy.",
+     "a": "523 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Electronic Economy, Global Finance and the Weightless Economy' and work with: electronic_money = 80, information_products = 60, round_the_clock_finance = 24. Carry the chain through step by step and give the final value of new_economy.",
+     "a": "164 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Electronic Economy, Global Finance and the Weightless Economy' refers to.",
+     "a": "Money now travels at screen speed: banks, corporations, fund managers and investors shift electronic money across borders with a click, and integrated markets trade round the clock through new york, tokyo and london, with mumbai as india's financial capital. Alongside runs the weightless economy, whose products are based in information - software, media and entertainment, internet services - and a knowledge economy employing workers in design, development, marketing and servicing rather than making goods.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Electronic Economy, Global Finance and the Weightless Economy'.",
+     "a": "Instant capital movement carries its own dangers - foreign investors can buy indian stocks, pocket a profit and sell off, leaving sudden dips in the market.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Electronic Economy, Global Finance and the Weightless Economy', in plain ASCII form.",
+     "a": "new_economy = electronic_money + round_the_clock_finance + information_products",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy206.7",
+   "title": "Digital Divide and the Internet User Arithmetic",
+   "questions": [
+    {
+     "q": "Using the method 'Digital Divide and the Internet User Arithmetic', work with: internet_users = 120, region_share = 0.8. Carry the chain through step by step and give the final value of region_users.",
+     "a": "0.96 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Digital Divide and the Internet User Arithmetic' and work with: internet_users = 120, region_share = 0.6. Carry the chain through step by step and give the final value of region_users.",
+     "a": "0.72 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Digital Divide and the Internet User Arithmetic' refers to.",
+     "a": "Satellites and networks compress time and space - bengaluru and new york can talk and swap documents instantly - yet access is deeply unequal. In 1998 the world had 70 million internet users, of whom the usa and canada held 62 percent and asia only 12 percent; by 2000 users reached 325 million. At home, barely one household in ten had a computer in 2017-18 and only about a quarter had internet connectivity, the digital divide in numbers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Digital Divide and the Internet User Arithmetic'.",
+     "a": "Applying a region's percentage to the world total shows how skewed early internet access was towards north america and away from asia.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Digital Divide and the Internet User Arithmetic', in plain ASCII form.",
+     "a": "region_users = internet_users * region_share / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy206.8",
+   "title": "India's Telephone Expansion and Village Coverage",
+   "questions": [
+    {
+     "q": "Calculate how many of india's 600,000 villages had a telephone when 3 percent were connected. Use the method 'India's Telephone Expansion and Village Coverage'. Work with: covered_pct = 120, total_villages = 1000. Carry the chain through step by step and give the final value of villages_covered.",
+     "a": "1200 years",
+     "self_check": false
+    },
+    {
+     "q": "How many telephone lines did india have at independence, long before the network became the world's ninth largest, and how large was the population then? Use the method 'India's Telephone Expansion and Village Coverage'. Work with: covered_pct = 6, total_villages = 50. Carry the chain through step by step and give the final value of villages_covered.",
+     "a": "3 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'India's Telephone Expansion and Village Coverage' refers to.",
+     "a": "At independence india held 84,000 telephone lines for 350 million people; by 1980 there were only 2.5 million telephones and just 3 percent of the country's 600,000 villages had phones. The late 1990s brought a sea change: over 25 million lines by 1999 made the network the world's ninth largest, villages with telephone facility jumped from 27,316 in 1988 to 300,000 by 1998, and about 650,000 pcos by 2000 carried calls into remote and tribal areas.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'India's Telephone Expansion and Village Coverage'.",
+     "a": "Telephony in india serves a sociocultural purpose as much as a commercial one - the pcos let people walk in, call home and keep family ties alive, like train journeys for weddings and funerals.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'India's Telephone Expansion and Village Coverage', in plain ASCII form.",
+     "a": "villages_covered = total_villages * covered_pct / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy206.9",
+   "title": "Glocalisation versus Homogenisation of Culture",
+   "questions": [
+    {
+     "q": "Using the method 'Glocalisation versus Homogenisation of Culture', work with: global_content = 75, local_flavour = 45. Carry the chain through step by step and give the final value of glocalisation.",
+     "a": "120 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Glocalisation versus Homogenisation of Culture' and work with: global_content = 20, local_flavour = 3. Carry the chain through step by step and give the final value of glocalisation.",
+     "a": "23 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Glocalisation versus Homogenisation of Culture' refers to.",
+     "a": "One fear says every culture will flatten into the same global mush; the chapter answers with glocalisation - blending the global with the local, a strategy foreign firms adopt to sell better. Mcdonald's drops beef in india, goes vegetarian for navaratri, global channels such as star, mtv and cartoon network broadcast in indian languages, and bhangra pop, indi pop and fusion remixes flavour the new with the familiar.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Glocalisation versus Homogenisation of Culture'.",
+     "a": "Culture is no fixed thing waiting to collapse; globalisation may create fresh local and even global traditions, though defenders of a rigid cultural identity can also invoke it to excuse undemocratic treatment of women.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Glocalisation versus Homogenisation of Culture', in plain ASCII form.",
+     "a": "glocalisation = global_content + local_flavour",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy206.10",
+   "title": "Culture of Consumption and Corporate Culture",
+   "questions": [
+    {
+     "q": "Using the method 'Culture of Consumption and Corporate Culture', work with: advertising = 4, cultural_consumption = 200, malls = 80, multiplexes = 5. Carry the chain through step by step and give the final value of city_growth.",
+     "a": "289 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Culture of Consumption and Corporate Culture' and work with: advertising = 75, cultural_consumption = 25, malls = 6, multiplexes = 50. Carry the chain through step by step and give the final value of city_growth.",
+     "a": "156 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Culture of Consumption and Corporate Culture' refers to.",
+     "a": "Since the 1970s the engine of city growth has shifted from factories to cultural consumption - art, food, fashion, music, tourism - visible in the spurt of shopping malls, multiplexes and amusement parks, while advertising praises spending and retires the old virtue of thrift. Corporate culture, a branch of management theory, builds a firm-wide identity of events, rituals and traditions meant to raise productivity, employee loyalty and group solidarity.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Culture of Consumption and Corporate Culture'.",
+     "a": "Beauty pageant wins and game shows like kaun banega crorepati fed new dreams - of cosmetics, fashion and health industries, and of fortunes turning overnight.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Culture of Consumption and Corporate Culture', in plain ASCII form.",
+     "a": "city_growth = cultural_consumption + malls + multiplexes + advertising",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy206.11",
+   "title": "Indigenous Craft, Literary Traditions and Knowledge Systems Under Threat",
+   "questions": [
+    {
+     "q": "Using the method 'Indigenous Craft, Literary Traditions and Knowledge Systems Under Threat', work with: dying_audiences = 360, mill_closure = 60, patenting_of_traditions = 300. Carry the chain through step by step and give the final value of threat.",
+     "a": "720 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Indigenous Craft, Literary Traditions and Knowledge Systems Under Threat' and work with: dying_audiences = 15, mill_closure = 30, patenting_of_traditions = 50. Carry the chain through step by step and give the final value of threat.",
+     "a": "95 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Indigenous Craft, Literary Traditions and Knowledge Systems Under Threat' refers to.",
+     "a": "Global competition and new media are erasing old livelihoods and arts: about thirty theatre groups around mumbai's parel and girgaon mill districts died with the mills, weavers of sircilla and dubakka who could not fund new technology killed themselves, television emptied the dombari acrobats' audience, and multinationals have tried to patent tulsi, haldi, rudraksha and basmati - sharpening the case for guarding indigenous knowledge systems in medicine and agriculture.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Indigenous Craft, Literary Traditions and Knowledge Systems Under Threat'.",
+     "a": "Change itself is not new - development had always entered traditional occupations - but the sheer scale and intensity of the current sweep is what endangers craft and literary traditions.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Indigenous Craft, Literary Traditions and Knowledge Systems Under Threat', in plain ASCII form.",
+     "a": "threat = dying_audiences + mill_closure + patenting_of_traditions",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy206.12",
+   "title": "Political Dimensions: Neo-liberalism and Global Institutions",
+   "questions": [
+    {
+     "q": "Using the method 'Political Dimensions: Neo-liberalism and Global Institutions', work with: igos = 6, ingos = 12, neo_liberal_vision = 15, regional_blocs = 120. Carry the chain through step by step and give the final value of political_layer.",
+     "a": "153 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Political Dimensions: Neo-liberalism and Global Institutions' and work with: igos = 45, ingos = 8, neo_liberal_vision = 360, regional_blocs = 24. Carry the chain through step by step and give the final value of political_layer.",
+     "a": "437 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Political Dimensions: Neo-liberalism and Global Institutions' refers to.",
+     "a": "The collapse of the socialist world speeded up a globalisation wearing a neo-liberal face: faith that free markets are efficient and fair, and suspicion of state regulation and subsidies - though an inclusive globalisation that carries every section along remains conceivable. Politics itself globalised through regional blocs like the european union, asean and saarc, intergovernmental organisations such as the wto that regulate transnational activity, and ingos like greenpeace, the red cross and amnesty international.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Political Dimensions: Neo-liberalism and Global Institutions'.",
+     "a": "An intergovernmental organisation is set up by participating governments to oversee a transnational domain - the wto increasingly shapes the rules of trade - while ingos act independently of governments.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Political Dimensions: Neo-liberalism and Global Institutions', in plain ASCII form.",
+     "a": "political_layer = neo_liberal_vision + regional_blocs + igos + ingos",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy206.13",
+   "title": "Globalisation and Employment: New Openings, Weak Job Growth",
+   "questions": [
+    {
+     "q": "Using the method 'Globalisation and Employment: New Openings, Weak Job Growth', work with: jobs_added = 25, jobs_total = 60. Carry the chain through step by step and give the final value of job_growth_rate.",
+     "a": "71.4286 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Globalisation and Employment: New Openings, Weak Job Growth' and work with: jobs_added = 12, jobs_total = 5. Carry the chain through step by step and give the final value of job_growth_rate.",
+     "a": "-171.4286 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Globalisation and Employment: New Openings, Weak Job Growth' refers to.",
+     "a": "Globalisation splits job fortunes. Urban middle-class youth ride the it wave into call centres, bpo firms, mall sales floors and new restaurants, yet the ilo's asia-pacific audit is sobering: between 2003 and 2004 only 25 million jobs were added, a disappointing 1.6 percent rise to 1.588 billion, while the region's economies grew over 7 percent - an employment gap that keeps the largest number of poor people in south asia.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Globalisation and Employment: New Openings, Weak Job Growth'.",
+     "a": "Working back from the new total to the earlier year's employment shows how thin the job creation was relative to asia's headline economic growth.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Globalisation and Employment: New Openings, Weak Job Growth', in plain ASCII form.",
+     "a": "job_growth_rate = jobs_added * 100 / base_jobs",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

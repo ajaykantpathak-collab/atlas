@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch11_117",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch11_117",
+   "title": "c6_math_ch11_117",
+   "questions": [
+    {
+     "q": "What is the primary purpose of an angle bisector?",
+     "a": "An angle bisector divides an angle into two equal parts. A wrong answer like \"it makes the angle smaller\" indicates the student does not understand that the division must result in two equal angles.",
+     "self_check": true
+    },
+    {
+     "q": "If you have an angle of 60°, what should be the measure of each angle after you construct its bisector?",
+     "a": "Each angle should be 30°. If the student says something other than 30°, they likely do not understand the concept of \"bisecting\" as splitting into two equal halves.",
+     "self_check": true
+    },
+    {
+     "q": "If you draw an arc from the vertex that crosses the sides of an angle, why do you need to draw two more arcs from those intersection points?",
+     "a": "You draw the two additional arcs to find a point that is the same distance from both sides of the angle. If the student says \"just to make a mark,\" they missed the geometric necessity of finding the equidistance point.",
+     "self_check": true
+    },
+    {
+     "q": "If a student constructs a bisector but the two resulting angles are 25° and 35° (instead of 30° each), what is the most likely error in their construction?",
+     "a": "They likely changed the width (radius) of the compass while drawing the two intersecting arcs. The radius must remain constant to ensure the point of intersection is perfectly centered between the two arms.",
+     "self_check": true
+    },
+    {
+     "q": "Can a reflex angle (greater than 180°) be bisected using the same compass method? Why or why not?",
+     "a": "Yes, the method remains the same because the principle of finding a point equidistant from the arms is universal. A wrong answer suggests the student thinks the method only works for acute or obtuse angles, failing to see the underlying geometric logic.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short set of instructions for a friend who has never used a compass to bisect a 90° angle.",
+     "a": "The instructions should include: 1) Place compass on vertex, draw arc cutting both arms. 2) Place compass on one intersection, draw arc inside. 3) Without changing width, place compass on other intersection, draw arc crossing the first. 4) Use ruler to connect vertex to the crossing point. Poor answers lack the \"constant radius\" step, which is critical for accuracy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

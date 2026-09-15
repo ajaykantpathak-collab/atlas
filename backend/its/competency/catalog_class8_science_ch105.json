@@ -1,0 +1,520 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 105,
+ "chapter_title": "Conservation of Plants and Animals (Class 8)",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\hesc105.txt",
+ "concepts": [
+  {
+   "id": "hesc.105.1",
+   "title": "Deforestation and Its Causes",
+   "section": "5.1",
+   "definition": "Clearing forested lands for agriculture, human settlements, industrial units, or timber collection degrades habitats and depletes natural vegetation.",
+   "formula": "",
+   "key_idea": "Urbanization, industrial growth, agricultural expansion, forest fires, and droughts drive forest destruction.",
+   "textbook_ref": "hesc105.txt lines 15-45",
+   "question_patterns": [
+    "what are the primary causes of deforestation in Class 8 science",
+    "list the main reasons why forests are cleared for human needs",
+    "explain how natural events like severe droughts contribute to forest loss",
+    "identify human activities that lead to large scale tree cutting",
+    "describe why land is cleared for industrial and agricultural expansion"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify human activities leading to forest clearance",
+     "explain": "Forests are cut for procuring cultivation land, building houses or factories, and obtaining timber or fuel wood."
+    },
+    {
+     "step": 2,
+     "action": "Identify natural triggers of tree destruction",
+     "explain": "Severe droughts and recurring forest fires represent major natural drivers of deforestation."
+    },
+    {
+     "step": 3,
+     "action": "Summarize combined impact on forest cover",
+     "explain": "Both human and natural causes together accelerate habitat loss, reducing biodiversity and depleting natural vegetation."
+    }
+   ]
+  },
+  {
+   "id": "hesc.105.2",
+   "title": "Consequences of Deforestation and Desertification",
+   "section": "5.2",
+   "definition": "Removing trees increases atmospheric carbon dioxide, alters thermal balance, reduces water infiltration into soil, and converts fertile land into desert.",
+   "formula": "",
+   "key_idea": "Deforestation accelerates global warming, intensifies soil erosion, causes severe floods, and triggers desertification.",
+   "textbook_ref": "hesc105.txt lines 46-95",
+   "question_patterns": [
+    "explain the consequences of deforestation on global climate in Class 8 science",
+    "how does deforestation lead to soil erosion and desertification",
+    "describe the impact of tree removal on groundwater levels and flood risks",
+    "what happens to soil fertility when topsoil is exposed due to tree loss",
+    "analyse how reduced photosynthesis increases atmospheric carbon dioxide"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Assess climatic and atmospheric alterations",
+     "explain": "Fewer trees consume less carbon dioxide, trapping heat on earth and leading to global warming and disrupted rainfall."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate soil structure and hydration changes",
+     "explain": "Erosion removes fertile humus-rich topsoil, exposing rocky ground to cause desertification, while lower infiltration increases flood risk."
+    },
+    {
+     "step": 3,
+     "action": "Link deforestation to biodiversity loss",
+     "explain": "Habitat destruction deprives wild animals of shelter and food, driving many species toward endangerment and extinction."
+    }
+   ]
+  },
+  {
+   "id": "hesc.105.3",
+   "title": "Biosphere Reserve and Protected Areas",
+   "section": "5.3 & 5.4",
+   "definition": "Multipurpose protected zones established to safeguard regional biodiversity, natural habitats, and the traditional lifestyle of indigenous tribal communities.",
+   "formula": "",
+   "key_idea": "Biosphere reserves integrate ecological conservation with cultural heritage and contain smaller protected units like national parks.",
+   "textbook_ref": "hesc105.txt lines 96-150",
+   "question_patterns": [
+    "what is a biosphere reserve and what does it conserve in Class 8 science",
+    "explain how biosphere reserves help maintain regional biodiversity and culture",
+    "describe the structure of Pachmarhi Biosphere Reserve",
+    "how do protected areas preserve both wildlife and tribal traditions",
+    "identify the components contained within a biosphere reserve zone"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the purpose of a biosphere reserve",
+     "explain": "Biosphere reserves preserve biodiversity, ecological integrity, and regional tribal heritage."
+    },
+    {
+     "step": 2,
+     "action": "Identify nested reserve components",
+     "explain": "For instance, Pachmarhi Biosphere Reserve comprises Satpura National Park along with Bori and Pachmarhi Wildlife Sanctuaries."
+    },
+    {
+     "step": 3,
+     "action": "Explain the role of buffer zones",
+     "explain": "Buffer zones around the core area allow limited human use while protecting the central habitat from disturbance."
+    }
+   ]
+  },
+  {
+   "id": "hesc.105.4",
+   "title": "Flora and Fauna",
+   "section": "5.5",
+   "definition": "Flora denotes the collection of plant species inhabiting a designated geographic region, while fauna comprises the resident animal population.",
+   "formula": "",
+   "key_idea": "Specific geographic environments sustain distinct combinations of plant (flora) and animal (fauna) life.",
+   "textbook_ref": "hesc105.txt lines 151-180",
+   "question_patterns": [
+    "differentiate between flora and fauna in Class 8 science",
+    "give examples of flora found in Pachmarhi Biosphere Reserve",
+    "list representative fauna native to protected forest reserves",
+    "how are plants and animals classified within a specific geographic area",
+    "identify wild species that fall under the category of local fauna"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Categorize local vegetation as flora",
+     "explain": "Trees like sal, teak, mango, jamun, and arjun form the local flora of Pachmarhi."
+    },
+    {
+     "step": 2,
+     "action": "Categorize resident animals as fauna",
+     "explain": "Animals such as chinkara, blue-bull, barking deer, leopard, and wild dog constitute the regional fauna."
+    },
+    {
+     "step": 3,
+     "action": "Relate flora and fauna to habitat dependence",
+     "explain": "The specific flora of a region provides food and shelter that sustains the corresponding fauna, linking plant and animal life."
+    }
+   ]
+  },
+  {
+   "id": "hesc.105.5",
+   "title": "Endemic Species and Biological Species",
+   "section": "5.6",
+   "definition": "Organisms uniquely restricted to a defined geographical zone that interbreed exclusively among themselves to produce fertile offspring form endemic species.",
+   "formula": "",
+   "key_idea": "Endemic organisms occur naturally in restricted territories and are highly vulnerable to habitat degradation.",
+   "textbook_ref": "hesc105.txt lines 181-225",
+   "question_patterns": [
+    "what are endemic species according to Class 8 science",
+    "define a biological species in terms of interbreeding capabilities",
+    "give examples of endemic flora and fauna from Pachmarhi reserve",
+    "why are endemic species particularly vulnerable to habitat destruction",
+    "explain how introducing non-native species threatens endemic wildlife"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define endemic distribution boundaries",
+     "explain": "Endemic species exist exclusively in particular zones, states, or countries and nowhere else in the wild."
+    },
+    {
+     "step": 2,
+     "action": "Highlight examples and threat factors",
+     "explain": "Wild mango and Indian giant squirrel are endemic to Pachmarhi; habitat loss and exotic species invasion endanger them."
+    },
+    {
+     "step": 3,
+     "action": "Define biological species by interbreeding",
+     "explain": "A biological species is a group of organisms that interbreed among themselves to produce fertile offspring under natural conditions."
+    }
+   ]
+  },
+  {
+   "id": "hesc.105.6",
+   "title": "Wildlife Sanctuary",
+   "section": "5.7",
+   "definition": "Designated forest regions giving strict legal protection to wild animals against hunting and capture while permitting limited local community rights.",
+   "formula": "",
+   "key_idea": "Sanctuaries provide natural living conditions for threatened fauna while prohibiting poaching and commercial exploitation.",
+   "textbook_ref": "hesc105.txt lines 226-265",
+   "question_patterns": [
+    "what is a wildlife sanctuary and how does it protect animals in Class 8 science",
+    "differentiate between a zoo and a wildlife sanctuary",
+    "list activities permitted for local residents inside a wildlife sanctuary",
+    "which threatened species are preserved in Indian wildlife sanctuaries",
+    "explain why poaching is strictly prohibited in sanctuary areas"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Distinguish sanctuary provisions from artificial enclosures",
+     "explain": "Sanctuaries protect wild animals in their natural habitat, unlike zoos which house captive animals in artificial settings."
+    },
+    {
+     "step": 2,
+     "action": "Identify regulated activities and preserved wildlife",
+     "explain": "Livestock grazing and medicinal plant gathering are allowed, while endangered fauna like black buck and python are protected."
+    },
+    {
+     "step": 3,
+     "action": "Emphasize anti-poaching enforcement",
+     "explain": "Strict legal prohibition on hunting and capture ensures threatened species can breed safely in their natural surroundings."
+    }
+   ]
+  },
+  {
+   "id": "hesc.105.7",
+   "title": "National Parks and Ecosystems",
+   "section": "5.8",
+   "definition": "Strictly protected reserves intended to preserve entire ecosystems comprising biotic organisms, non-living abiotic factors, landscapes, and historic artifacts.",
+   "formula": "",
+   "key_idea": "National parks prohibit all human exploitation to conserve full ecological networks, endemic fauna, and prehistoric heritage.",
+   "textbook_ref": "hesc105.txt lines 266-330",
+   "question_patterns": [
+    "what is a national park and what components does it protect in Class 8 science",
+    "describe the significance of Satpura National Park and its rock shelters",
+    "explain what constitutes an ecosystem including biotic and abiotic factors",
+    "differentiate between national parks and wildlife sanctuaries regarding human activity",
+    "how does Project Tiger aim to maintain the tiger population in reserve forests"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define an ecosystem and national park mandate",
+     "explain": "An ecosystem includes living organisms and non-living climate/soil factors; national parks protect whole ecosystems without allowing human extraction."
+    },
+    {
+     "step": 2,
+     "action": "Detail cultural and conservation milestones",
+     "explain": "Satpura National Park contains historic rock paintings and shelters, and houses initiatives like Project Tiger to reverse extinction trends."
+    },
+    {
+     "step": 3,
+     "action": "Contrast national parks with sanctuaries",
+     "explain": "National parks prohibit all human extraction and settlement, whereas sanctuaries permit limited traditional community use by local residents."
+    }
+   ]
+  },
+  {
+   "id": "hesc.105.8",
+   "title": "Red Data Book",
+   "section": "5.9",
+   "definition": "An international and national reference catalog tracking current global and regional population statuses of endangered plant and animal species.",
+   "formula": "",
+   "key_idea": "Red Data Book maintains standardized records to identify species nearing critical extinction thresholds.",
+   "textbook_ref": "hesc105.txt lines 331-348",
+   "question_patterns": [
+    "what is the Red Data Book in Class 8 science",
+    "which organisation maintains the international Red Data Book",
+    "explain the purpose of maintaining national Red Data Books for plants and animals",
+    "how does the Red Data Book help in wildlife conservation planning",
+    "identify what type of species are listed inside a Red Data Book"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the source book function",
+     "explain": "Red Data Book registers all threatened and endangered species to inform conservation priorities."
+    },
+    {
+     "step": 2,
+     "action": "Identify maintaining organizations",
+     "explain": "It is maintained internationally by a conservation organization, while India maintains specific national editions for local flora and fauna."
+    },
+    {
+     "step": 3,
+     "action": "Explain conservation planning use",
+     "explain": "The recorded population status guides governments and scientists in prioritizing protection efforts for species nearing extinction."
+    }
+   ]
+  },
+  {
+   "id": "hesc.105.9",
+   "title": "Migration of Birds",
+   "section": "5.10",
+   "definition": "The periodic long-distance flight of bird species from harsh seasonal climates to favorable habitats for laying eggs and raising offspring.",
+   "formula": "",
+   "key_idea": "Extreme weather changes in native zones trigger annual bird migrations across geographical boundaries for breeding.",
+   "textbook_ref": "hesc105.txt lines 349-370",
+   "question_patterns": [
+    "define bird migration as explained in Class 8 science",
+    "why do migratory birds travel long distances during specific seasons",
+    "explain how severe weather conditions in natural habitats trigger migration",
+    "what is the primary reproductive purpose behind seasonal bird migration",
+    "describe how climate change affects bird migration patterns"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define migratory phenomenon",
+     "explain": "Migration is the annual movement of organisms from home habitats to distant areas for specific survival functions."
+    },
+    {
+     "step": 2,
+     "action": "Identify driving factors",
+     "explain": "Unfavorable cold weather and egg-laying requirements drive birds to fly thousands of kilometers to warmer zones."
+    },
+    {
+     "step": 3,
+     "action": "Describe return and cyclical pattern",
+     "explain": "After breeding season ends and weather improves, migratory birds return to their original habitats, repeating the cycle annually."
+    }
+   ]
+  },
+  {
+   "id": "hesc.105.10",
+   "title": "Paper Recycling and Tree Preservation",
+   "section": "5.11",
+   "definition": "Quantifying forest conservation through paper recycling, based on the baseline requirement of seventeen full-grown trees to manufacture one tonne of paper.",
+   "formula": "trees_saved = 17 * paper_tonnes",
+   "key_idea": "Recycling paper saves forest trees while reducing water, energy, and chemical consumption in industrial processing.",
+   "textbook_ref": "hesc105.txt lines 371-395",
+   "question_patterns": [
+    "calculate how many full grown trees are saved by recycling paper in Class 8 science",
+    "find the number of trees saved when recycling a given quantity of paper in tonnes",
+    "how many mature trees are saved if a school recycles paper",
+    "determine the total trees required to produce paper in tonnes",
+    "compute the equivalent trees saved from recycling paper waste"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate total trees saved from recycled paper mass",
+     "explain": "Each metric tonne of paper recycled spares 17 mature trees from being felled.",
+     "compute": "trees_saved = paper_tonnes * 17"
+    },
+    {
+     "step": 2,
+     "action": "State the environmental benefit",
+     "explain": "Recycling also reduces water, energy, and chemical consumption compared to producing fresh paper from wood.",
+     "compute": "resource_savings = paper_tonnes * resource_per_tonne"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the result for conservation",
+     "explain": "The computed number of trees saved quantifies the direct contribution to forest preservation and biodiversity protection.",
+     "compute": "forest_impact = trees_saved"
+    }
+   ]
+  },
+  {
+   "id": "hesc.105.11",
+   "title": "Reforestation and Legal Conservation",
+   "section": "5.12",
+   "definition": "Restoring cleared forests by planting indigenous tree species or permitting natural regeneration supported by environmental preservation acts.",
+   "formula": "",
+   "key_idea": "Reforestation replenishes tree cover while legal acts protect natural forests and fulfill local community needs.",
+   "textbook_ref": "hesc105.txt lines 396-425",
+   "question_patterns": [
+    "what is reforestation and how does it help combat deforestation in Class 8 science",
+    "differentiate between natural reforestation and artificial plantation",
+    "explain the objectives of the Forest Conservation Act in India",
+    "why should planted trees match the native species of the cleared forest",
+    "describe measures individuals and communities can take to restore forest cover"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain methods of reforestation",
+     "explain": "Reforestation involves planting native species equal to cut numbers, or allowing undisturbed land to recover naturally."
+    },
+    {
+     "step": 2,
+     "action": "Describe statutory conservation frameworks",
+     "explain": "The Forest (Conservation) Act preserves natural woodlands and guarantees rights for local human populations living nearby."
+    },
+    {
+     "step": 3,
+     "action": "Emphasize native species selection",
+     "explain": "Planting the same indigenous tree species that were cut ensures the restored forest matches the original ecosystem and supports local fauna."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hesc105.txt lines 371-380",
+   "concept": "hesc.105.10",
+   "question_type": "compute",
+   "question_pattern": "Calculate how many full grown trees are saved by recycling {paper_tonnes} tonnes of paper.",
+   "extracted_variables": {
+    "paper_tonnes": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply tonnes of paper by 17 trees per tonne",
+     "explain": "Seventeen full grown trees are saved per tonne of paper recycled.",
+     "compute": "trees_saved = paper_tonnes * 17"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hesc105.txt lines 371-385",
+   "concept": "hesc.105.10",
+   "question_type": "compute",
+   "question_pattern": "A publishing factory recycled {paper_tonnes} tonnes of paper waste last year. How many trees were saved?",
+   "extracted_variables": {
+    "paper_tonnes": 12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply tonnes of paper by 17 trees per tonne",
+     "explain": "Seventeen full grown trees are saved per tonne of paper recycled.",
+     "compute": "trees_saved = paper_tonnes * 17"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "hesc105.txt lines 440-445",
+   "questions": [
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about protected.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about particular.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about migratory."
+   ]
+  },
+  {
+   "id": "ex5.2",
+   "source_ref": "hesc105.txt lines 446-452",
+   "questions": [
+    "Differentiate between Wildlife sanctuary and biosphere reserve.",
+    "Differentiate between Zoo and wildlife sanctuary.",
+    "Differentiate between Endangered and extinct species.",
+    "Differentiate between Flora and fauna."
+   ]
+  },
+  {
+   "id": "ex5.3",
+   "source_ref": "hesc105.txt lines 453-460",
+   "questions": [
+    "Discuss the effects of deforestation on wild animals, environment, rural areas, urban areas, earth, and the next generation."
+   ]
+  },
+  {
+   "id": "ex5.4",
+   "source_ref": "hesc105.txt lines 461-465",
+   "questions": [
+    "What will happen if we go on cutting trees?",
+    "What will happen if the habitat of an animal is disturbed?",
+    "What will happen if the top layer of soil is exposed?"
+   ]
+  },
+  {
+   "id": "ex5.5",
+   "source_ref": "hesc105.txt lines 466-475",
+   "questions": [
+    "Give a reason, in your own words, for the behaviour of biodiversity described here.",
+    "Why are protected forests also not completely safe for wild animals?",
+    "How do some tribals depend on the jungle?",
+    "State clearly what deforestation means in this chapter and why it matters.",
+    "What is Red Data Book?",
+    "State clearly what understand means in this chapter and why it matters."
+   ]
+  },
+  {
+   "id": "ex5.6",
+   "source_ref": "hesc105.txt lines 476-480",
+   "questions": [
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about continually."
+   ]
+  },
+  {
+   "id": "ex5.7",
+   "source_ref": "hesc105.txt lines 481-483",
+   "questions": [
+    "Describe, step by step and in your own words, the way maintenance works."
+   ]
+  },
+  {
+   "id": "ex5.8",
+   "source_ref": "hesc105.txt lines 484-485",
+   "questions": [
+    "Explain deforestation in your own words and add one example of your own."
+   ]
+  },
+  {
+   "id": "ex5.9",
+   "source_ref": "hesc105.txt lines 486-488",
+   "questions": [
+    "Frame a identify task like the chapter exercise and solve it with every step shown."
+   ]
+  },
+  {
+   "id": "ex5.10",
+   "source_ref": "hesc105.txt lines 489-491",
+   "questions": [
+    "Give a reason, in your own words, for the behaviour of prepare described here."
+   ]
+  },
+  {
+   "id": "ex5.11",
+   "source_ref": "hesc105.txt lines 492-500",
+   "questions": [
+    "Complete the word puzzle using clues for endangered species, Red Data Book, desertification, extinct species, endemic species, and biodiversity."
+   ]
+  }
+ ],
+ "gate_problems": [
+  "chapter_title does not match the file opening: wrong or mislabeled source file"
+ ],
+ "gate_status": "GATE_FAIL",
+ "source_link": "re-linked to new cache"
+}

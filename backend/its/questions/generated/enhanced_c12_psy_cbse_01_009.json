@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_01_009",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_01_009",
+   "title": "c12_psy_cbse_01_009",
+   "questions": [
+    {
+     "q": "A 12-year-old child has a mental age of 7 years. Calculate their IQ and state the correct classification label from Table 1.1 of NCERT.",
+     "a": "IQ = (7/12) × 100 = 58.33 ≈ 58. This falls in the range 55–70, classified as **Mild Intellectual Disability** (Table 1.1: \"Borderline\" is 70–79; \"Intellectually disabled\" begins below 70, with mild being 55–70). A wrong answer (e.g., \"Borderline\" or \"Moderate\") reveals the student either miscalculated IQ (used 12/7 instead of 7/12) or does not know the exact IQ boundaries for each level — a common board exam error where students confuse the 70 cutoff.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a child with IQ 65 who lives independently, manages money, and maintains friendships would NOT be diagnosed with intellectual disability according to the AAMD definition.",
+     "a": "The AAMD definition requires **all three criteria**: (1) significantly sub-average intellectual functioning (IQ < 70 — met), (2) deficits in adaptive behaviour (independence, money management, friendships show adequate adaptive skills — NOT met), and (3) onset during developmental period. Since adaptive behaviour is intact, the diagnosis is not given. A wrong answer focusing only on IQ reveals the misconception that \"low IQ = intellectual disability\" — ignoring adaptive functioning, which is exactly the error NCERT warns against in Box 1.1 (stigma from test scores alone).",
+     "self_check": true
+    },
+    {
+     "q": "A 9-year-old scores 135 on an individual IQ test. Teachers describe her as \"always asking unusual questions, preferring to work alone on complex puzzles for hours, and getting upset when routines change.\" Using NCERT characteristics, argue whether she fits the profile of intellectual giftedness.",
+     "a": "Yes, she fits the profile. NCERT lists: (a) advanced logical thinking/questioning — shown by \"unusual questions\"; (b) high speed in information processing — implied by complex puzzle engagement; (c) superior generalisation/discrimination — needed for puzzles; (d) advanced original/creative thinking — \"unusual questions\"; (e) high intrinsic motivation/self-esteem — \"works for hours\"; (f) independent/non-conformist thinking — \"prefers to work alone\"; (g) preference for solitary academic activities — matches. IQ > 130 meets the threshold. A wrong answer saying \"she's just intelligent, not gifted\" misses that giftedness requires the **combination** of high ability + creativity + commitment (NCERT: \"giftedness from teachers' point of view depends on a combination of high ability, high creativity, and high commitment\").",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"giftedness\" and \"talent\" as defined in NCERT. Give one real-life example of each that clearly shows the difference.",
+     "a": "**Giftedness**: Exceptional **general** ability shown in superior performance across a **wide variety** of areas (e.g., a child who excels in academics, music, leadership, and problem-solving). **Talent**: Remarkable ability in a **specific** field (e.g., a 12-year-old chess prodigy who struggles in other subjects). The key difference is **breadth vs. specificity**. A wrong answer equating them (\"both mean high ability\") ignores NCERT's explicit distinction: \"Giftedness is exceptional general ability... Talent is a narrower term and refers to remarkable ability in a specific field.\" This confusion leads to misidentification in case-based board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Group intelligence tests are sufficient for identifying intellectually gifted children for special programmes.\" Use NCERT content on test types and identification methods.",
+     "a": "**False.** NCERT states: \"Performance on intelligence tests is not the only measure for identifying the gifted. Many other sources... teachers' judgment, school achievement record, parents' interviews, peer and self-ratings... can be used in combination with intellectual assessment.\" Group tests (often verbal, multiple-choice) lack the depth of individual tests (rapport, observation of problem-solving, non-verbal items). They also miss creativity and commitment — essential for giftedness. A wrong answer agreeing shows over-reliance on IQ scores, ignoring the multi-source, multi-method approach NCERT mandates. This is a direct Board competency trap (case-based question on identification procedure).",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step screening protocol for a school to identify potentially gifted students in Class 6, using only resources available in a typical Indian school (no specialised psychologists). Justify each step with NCERT characteristics.",
+     "a": "**Step 1: Teacher nomination checklist** — Use NCERT characteristics (advanced questioning, rapid learning, creative problem-solving, intrinsic motivation, solitary focus) as observable behaviours. Teachers rate frequency over 4 weeks. *Justification: \"Gifted children show early signs... larger attention span, good recognition memory, preference for novelty... advanced logical thinking.\"*  \n**Step 2: Group non-verbal test (e.g., Raven's Progressive Matrices)** — Culture-fair, identifies fluid reasoning without language bias. *Justification: NCERT notes non-verbal tests \"reduce cultural bias\" and RPM measures simultaneous processing (PASS model).*  \n**Step 3: Portfolio + parent interview** — Collect work samples (original stories, inventions, math explorations); interview parents on early milestones (early language, curiosity, persistence). *Justification: NCERT requires \"teachers' judgment, school achievement record, parents' interviews... in combination with intellectual assessment.\"*  \nA poor answer lists only an IQ test — missing the multi-source, characteristic-based approach.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

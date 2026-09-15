@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch14_002",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch14_002",
+   "title": "c7_math_ch14_002",
+   "questions": [
+    {
+     "q": "What is the primary geometric definition of a perpendicular bisector of a line segment?",
+     "a": "It is a line that divides the segment into two equal parts and forms a $90^\\circ$ angle with it. A student who answers that it only cuts the line in half without mentioning the right angle confuses a regular bisector with a perpendicular bisector, missing the key $90^\\circ$ condition.",
+     "self_check": true
+    },
+    {
+     "q": "When constructing a perpendicular bisector using a compass, why must the opening (radius) of the compass be set to more than half the length of the line segment?",
+     "a": "The radius must exceed half the length so that the arcs drawn from both endpoints intersect each other both above and below the line segment. A student who thinks any random compass opening works will find that the arcs fail to cross each other, making it impossible to locate the two necessary intersection points for the dividing line.",
+     "self_check": true
+    },
+    {
+     "q": "If you construct the perpendicular bisector of line segment $AB$ of length $8\\text{ cm}$ and it intersects $AB$ at point $M$, what is the exact length of segment $AM$?",
+     "a": "The length of $AM$ is $4\\text{ cm}$. Steps: 1) Identify that a perpendicular bisector splits a line segment into two equal halves. 2) Divide the total length by $2$: $8\\text{ cm} \\div 2 = 4\\text{ cm}$. 3) Since $M$ is the midpoint, $AM = MB = 4\\text{ cm}$. A student who answers $8\\text{ cm}$ or $2\\text{ cm}$ has forgotten that \"bisect\" means to divide into two equal parts.",
+     "self_check": true
+    },
+    {
+     "q": "How does changing the compass radius (while keeping it greater than half the segment length) affect the position of the final perpendicular bisector line?",
+     "a": "It does not change the position of the final line at all; it only changes where the intersection arcs are drawn higher or lower on the page. A student who believes a larger radius shifts the bisector off-center does not understand that two points determine a unique straight line, and any valid pair of intersection points yields the exact same perpendicular line.",
+     "self_check": true
+    },
+    {
+     "q": "A student constructs a line through the midpoint of $AB$, but measures the angle with a protractor and finds it is $85^\\circ$. Is this line a valid perpendicular bisector? Why or why not?",
+     "a": "No, it is not a valid perpendicular bisector because the angle must be exactly $90^\\circ$, whereas $85^\\circ$ is acute and not perpendicular. A student who says yes ignores the strict perpendicular requirement in favor of only checking the bisecting property.",
+     "self_check": true
+    },
+    {
+     "q": "Design a construction challenge where a carpenter needs to find the exact center of a wooden plank of length $12\\text{ cm}$ without using a ruler marked with numbers, relying solely on a compass and an unmarked straightedge. Describe the steps.",
+     "a": "Steps: 1) Place the compass pointer on one end of the $12\\text{ cm}$ plank and open it to roughly $8\\text{ cm}$ (more than half). 2) Draw arcs above and below the plank. 3) Keep the exact same compass width, place the pointer on the other end of the plank, and draw intersecting arcs above and below. 4) Use the straightedge to connect the top and bottom intersection points. 5) Mark the spot where this connecting line crosses the plank; that point is the exact center ($6\\text{ cm}$). A poor answer suggests guessing or folding the wood, which fails the geometric construction requirement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

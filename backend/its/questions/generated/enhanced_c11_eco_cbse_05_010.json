@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_05_010",
+   "title": "c11_eco_cbse_05_010",
+   "questions": [
+    {
+     "q": "Define 'critical appraisal' in the context of rural development programmes and distinguish it from a mere 'description' or 'listing' of schemes.",
+     "a": "Critical appraisal is a structured evaluation that judges programme outcomes against stated objectives using quantitative indicators (e.g., loan recovery rate, farmer's share in consumer rupee, yield gap) and qualitative criteria (equity, sustainability, institutional coherence), identifying design flaws and implementation gaps. A description merely states what a scheme does; an appraisal explains why it succeeds or fails. A wrong answer that lists schemes without judging outcomes reveals the student confuses 'knowing about programmes' with 'evaluating programmes'.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT text states: 'Agriculture loan default rates have been chronically high. It is alleged that farmers are deliberately refusing to pay back loans.' Explain why this allegation is economically incomplete and identify the structural factors that actually drive defaults.",
+     "a": "The allegation ignores that defaults are largely involuntary: (1) covariate risk—drought/flood wipes out entire harvests, making repayment impossible; (2) price risk—MSP procurement is limited to wheat/rice, so farmers sell below cost; (3) long gestation—crop loans fund inputs but income arrives months later, and consumption needs force diversion; (4) institutional rigidity—banks demand lump-sum repayment at harvest, not matching cash flows. A wrong answer blaming 'farmer dishonesty' shows the student misses the risk-sharing function credit should perform and the design mismatch between loan terms and agricultural cycles.",
+     "self_check": true
+    },
+    {
+     "q": "Using the data below, calculate the effective credit gap for a marginal farmer in a rainfed district and interpret the result.\n- Kisan Credit Card (KCC) limit: ₹1.6 lakh\n- Actual crop loan disbursed: ₹1.2 lakh\n- Share of institutional credit in total borrowings: 60%\n- Interest subvention: 3% (farmer pays 4% if prompt)\n- Moneylender rate: 36% p.a.\n- Crop failure probability: 1 in 3 years\n- Average yield loss in failure year: 70%",
+     "a": "Step 1: Institutional credit available = ₹1.2 lakh. Step 2: Total credit needed (assuming institutional share = 60%) = ₹1.2 lakh / 0.6 = ₹2.0 lakh. Step 3: Informal credit = ₹0.8 lakh at 36%. Step 4: Expected repayment burden in normal year = ₹1.2 lakh × 1.04 + ₹0.8 lakh × 1.36 = ₹1.248 lakh + ₹1.088 lakh = ₹2.336 lakh. Step 5: In failure year (probability 1/3), revenue drops 70%, making repayment of ₹2.336 lakh impossible without asset sale. Effective credit gap = ₹2.0 lakh - ₹1.2 lakh = ₹0.8 lakh, but the *risk-adjusted* gap is higher because informal credit carries no insurance. A wrong answer that only subtracts limits shows the student ignores risk, interest burden, and the coercive role of moneylenders.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the outcomes of Operation Flood (milk cooperatives) and the current horticulture diversification push. Why did the former achieve scale while the latter struggles with cold-chain gaps and price volatility?",
+     "a": "Operation Flood succeeded because: (1) perishability was solved by village-level chilling and a national cold chain owned by cooperatives; (2) pricing was formula-based (fat/SNF), transparent, and paid weekly; (3) breed improvement (crossbred cows) and veterinary services were bundled with procurement; (4) the cooperative owned processing and branding (Amul), capturing value addition. Horticulture lacks: (1) fragmented cold storage (mostly private, 30% capacity utilisation); (2) no assured procurement—MSP exists for few crops; (3) no breed/quality extension system; (4) farmers sell to traders, not cooperatives. A wrong answer citing only 'government support' misses the institutional architecture—cooperatives vertically integrated procurement, processing, and marketing—that horticulture policy has not replicated.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: 'Jan-Dhan Yojana has solved the financial inclusion problem in rural India because over 50 crore accounts have been opened.' Use the concepts of 'active usage', 'overdraft facility', and 'direct benefit transfer' in your assessment.",
+     "a": "The claim confuses account opening with financial inclusion. Evidence against: (1) Active usage: As of 2023, ~20% of Jan-Dhan accounts are zero-balance or dormant; many opened only for DBT. (2) Overdraft: The ₹10,000 overdraft requires satisfactory operation for 6 months and a RuPay card—most poor households don't qualify. (3) DBT is a *push* factor (government puts money in), not a *pull* factor (household uses account for savings/credit). True inclusion requires: (a) credit access—Jan-Dhan doesn't create creditworthiness; (b) transaction utility—digital literacy and agent network density remain low. A wrong answer equating accounts with inclusion shows the student misses the distinction between *access* (supply-side) and *usage* (demand-side with capability).",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-evaluation framework (4 indicators + 1 qualitative check) to assess whether a new 'Rural Agri-Processing Cluster' scheme in your district actually raises farmer incomes sustainably. Justify each indicator.",
+     "a": "Indicator 1: **Farmer's share in final consumer price** (target >50%)—captures value-chain power. Indicator 2: **Net income per hectare from cluster-linked crops vs. control crops** (3-year panel)—isolates scheme effect. Indicator 3: **Employment days generated per ₹1 crore investment** (disaggregated by gender)—measures livelihood intensity. Indicator 4: **Soil organic carbon change in cluster farms**—tests ecological sustainability. Qualitative check: **Governance audit of the Farmer Producer Company**—are board members actual farmers or local elites? A poor answer listing only output metrics (tonnes processed) reveals the student confuses production with farmer welfare.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

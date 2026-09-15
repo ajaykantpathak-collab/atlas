@@ -1,0 +1,431 @@
+{
+ "class": 12,
+ "subject": "maths",
+ "chapter": 106,
+ "chapter_title": "Application of Derivatives",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lemh106.txt",
+ "concepts": [
+  {
+   "id": "lemh.6.2.1",
+   "title": "Rate of Change of Circle Area with respect to Radius",
+   "section": "6.2",
+   "definition": "The instantaneous variation in the area of a circle as the radius changes, calculated by differentiating the area formula with respect to r.",
+   "formula": "da_dr = 2 * pi * radius",
+   "key_idea": "The derivative of area with respect to radius equals the circumference.",
+   "textbook_ref": "lemh106.txt lines 45-55",
+   "question_patterns": [
+    "find the rate of change of the area of a circle with respect to its radius r",
+    "calculate how fast the area of a circle changes as the radius r increases",
+    "what is the derivative of circle area at radius r",
+    "determine the rate of change of area for a circle when r is given",
+    "at what rate does the area change per unit radius"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Differentiate area formula",
+     "explain": "The area A = pi * r**2, so dA/dr = 2 * pi * r",
+     "compute": "da_dr = 2 * pi * radius"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Rate of Change of Circle Area with respect to Radius, compute the result for radius = 3.",
+     "solution": "Step 1: Differentiate area formula: da_dr = 2 * pi * radius = 18.849556 Final result: 18.849556",
+     "answer": "18.849556"
+    },
+    {
+     "question": "Using Rate of Change of Circle Area with respect to Radius, compute the result for radius = 4.",
+     "solution": "Step 1: Differentiate area formula: da_dr = 2 * pi * radius = 25.132741 Final result: 25.132741",
+     "answer": "25.132741"
+    }
+   ]
+  },
+  {
+   "id": "lemh.6.2.2",
+   "title": "Rate of Change of Area with respect to Time",
+   "section": "6.2",
+   "definition": "The speed at which a circular region expands over time, determined using the chain rule and the rate of radial increase.",
+   "formula": "da_dt = 2 * pi * radius * dr_dt",
+   "key_idea": "Chain rule links the rate of area change to the rate of radius change over time.",
+   "textbook_ref": "lemh106.txt lines 75-85",
+   "question_patterns": [
+    "how fast is the enclosed area increasing when the radius is r",
+    "find the rate of increase of area given the speed of the circular wave",
+    "calculate the rate of change of area with respect to time t",
+    "the radius increases at rate dr_dt, find the area increase rate",
+    "at what speed does the area grow when radius is r"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Apply chain rule to area",
+     "explain": "dA/dt = (dA/dr) * (dr/dt) = 2 * pi * r * dr/dt",
+     "compute": "da_dt = 2 * pi * radius * dr_dt"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Rate of Change of Area with respect to Time, compute the result for radius = 3, dr_dt = 3.",
+     "solution": "Step 1: Apply chain rule to area: da_dt = 2 * pi * radius * dr_dt = 56.548668 Final result: 56.548668",
+     "answer": "56.548668"
+    },
+    {
+     "question": "Using Rate of Change of Area with respect to Time, compute the result for radius = 4, dr_dt = 4.",
+     "solution": "Step 1: Apply chain rule to area: da_dt = 2 * pi * radius * dr_dt = 100.530965 Final result: 100.530965",
+     "answer": "100.530965"
+    }
+   ]
+  },
+  {
+   "id": "lemh.6.2.3",
+   "title": "Marginal Revenue for Quadratic Revenue Functions",
+   "section": "6.2",
+   "definition": "The rate at which total revenue changes per unit increase in sales, found by differentiating the revenue function.",
+   "formula": "mr = 2 * a * x + b",
+   "key_idea": "Marginal revenue is the derivative of the total revenue function R(x) = ax^2 + bx + c.",
+   "textbook_ref": "lemh106.txt lines 115-125",
+   "question_patterns": [
+    "find the marginal revenue when x units are sold",
+    "calculate the rate of change of total revenue with respect to items sold",
+    "what is the marginal revenue for the revenue function R(x)",
+    "determine the instantaneous change in revenue at x units",
+    "find MR given the revenue equation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Differentiate revenue function",
+     "explain": "For R(x) = a*x**2 + b*x + c, the derivative is 2*a*x + b",
+     "compute": "term1 = 2 * a * x"
+    },
+    {
+     "step": 2,
+     "action": "Sum the terms",
+     "explain": "Add the constant coefficient from the linear term",
+     "compute": "mr = term1 + b"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Marginal Revenue for Quadratic Revenue Functions, compute the result for a = 3, x = 3, b = 3.",
+     "solution": "Step 1: Differentiate revenue function: term1 = 2 * a * x = 18.0 Step 2: Sum the terms: mr = term1 + b = 21.0 Final result: 21.0",
+     "answer": "21.0"
+    },
+    {
+     "question": "Using Marginal Revenue for Quadratic Revenue Functions, compute the result for a = 4, x = 4, b = 4.",
+     "solution": "Step 1: Differentiate revenue function: term1 = 2 * a * x = 32.0 Step 2: Sum the terms: mr = term1 + b = 36.0 Final result: 36.0",
+     "answer": "36.0"
+    }
+   ]
+  },
+  {
+   "id": "lemh.6.2.4",
+   "title": "Rate of Change of Sphere Volume with respect to Radius",
+   "section": "6.2",
+   "definition": "The instantaneous change in the volume of a spherical object as its radius varies.",
+   "formula": "dv_dr = 4 * pi * radius**2",
+   "key_idea": "The derivative of sphere volume with respect to radius equals the surface area.",
+   "textbook_ref": "lemh106.txt lines 150-160",
+   "question_patterns": [
+    "find the rate at which the volume of a balloon is increasing with the radius",
+    "calculate dV/dr for a sphere",
+    "what is the rate of change of volume of a spherical bubble with respect to r",
+    "determine volume increase per unit radius",
+    "find the derivative of sphere volume at r"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Differentiate volume formula",
+     "explain": "V = (4/3) * pi * r**3, so dV/dr = 4 * pi * r**2",
+     "compute": "dv_dr = 4 * pi * radius**2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Rate of Change of Sphere Volume with respect to Radius, compute the result for radius = 3.",
+     "solution": "Step 1: Differentiate volume formula: dv_dr = 4 * pi * radius**2 = 113.097336 Final result: 113.097336",
+     "answer": "113.097336"
+    },
+    {
+     "question": "Using Rate of Change of Sphere Volume with respect to Radius, compute the result for radius = 4.",
+     "solution": "Step 1: Differentiate volume formula: dv_dr = 4 * pi * radius**2 = 201.06193 Final result: 201.06193",
+     "answer": "201.06193"
+    }
+   ]
+  },
+  {
+   "id": "lemh.6.3.1",
+   "title": "Monotonicity of Functions",
+   "section": "6.3",
+   "definition": "Determining if a function is increasing or decreasing on an interval by checking the sign of its first derivative.",
+   "formula": "f'(x) > 0 (Increasing), f'(x) < 0 (Decreasing)",
+   "key_idea": "A positive derivative indicates a rising graph, while a negative derivative indicates a falling graph.",
+   "textbook_ref": "lemh106.txt lines 180-210",
+   "question_patterns": [
+    "find the intervals in which the function is increasing",
+    "determine where the function is strictly decreasing",
+    "show that the function is increasing on R",
+    "identify the nature of the function in the given interval",
+    "prove the function is monotonic"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find the derivative",
+     "explain": "Calculate f'(x) for the given function f(x)."
+    },
+    {
+     "step": 2,
+     "action": "Find critical points",
+     "explain": "Set f'(x) = 0 and solve for x to find points where the function might change direction."
+    },
+    {
+     "step": 3,
+     "action": "Test intervals",
+     "explain": "Check the sign of f'(x) in the intervals created by the critical points."
+    }
+   ]
+  },
+  {
+   "id": "lemh.6.4.1",
+   "title": "Local Maxima and Minima via Second Derivative Test",
+   "section": "6.4",
+   "definition": "A method to identify local extreme points by checking the sign of the second derivative at points where the first derivative is zero.",
+   "formula": "f'(c)=0 and f''(c)<0 (Max); f'(c)=0 and f''(c)>0 (Min)",
+   "key_idea": "The second derivative indicates the concavity of the function at a stationary point.",
+   "textbook_ref": "lemh106.txt lines 320-350",
+   "question_patterns": [
+    "find all points of local maxima and local minima",
+    "calculate the local maximum value of the function",
+    "use the second derivative test to find extremum points",
+    "identify the turning points of the graph",
+    "determine the local minimum value"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find first derivative and critical points",
+     "explain": "Solve f'(x) = 0 to find potential extrema."
+    },
+    {
+     "step": 2,
+     "action": "Find second derivative",
+     "explain": "Calculate f''(x)."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate at critical points",
+     "explain": "Substitute critical points into f''(x) to determine if they are maxima or minima."
+    }
+   ]
+  },
+  {
+   "id": "lemh.6.4.2",
+   "title": "Absolute Maxima and Minima on Closed Intervals",
+   "section": "6.4.1",
+   "definition": "Finding the highest and lowest possible values of a continuous function within a bounded, closed domain.",
+   "formula": "max/min of {f(critical_points), f(endpoints)}",
+   "key_idea": "Absolute extrema must occur either at critical points or at the boundaries of the interval.",
+   "textbook_ref": "lemh106.txt lines 450-480",
+   "question_patterns": [
+    "find the absolute maximum and minimum values in the interval [a, b]",
+    "calculate the global maximum of the function",
+    "what is the greatest value of the function on the given closed interval",
+    "determine the least value of f(x) on [a, b]",
+    "find the range of values for the function on a bounded domain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify critical points",
+     "explain": "Find x where f'(x) = 0 or f is not differentiable within the interval."
+    },
+    {
+     "step": 2,
+     "action": "List all candidate points",
+     "explain": "Include critical points and the interval endpoints a and b."
+    },
+    {
+     "step": 3,
+     "action": "Compare function values",
+     "explain": "Calculate f(x) for all candidates; the largest is absolute max, smallest is absolute min."
+    }
+   ]
+  },
+  {
+   "id": "lemh.6.4.3",
+   "title": "Optimization: Sum of Squares",
+   "section": "6.4",
+   "definition": "Finding two numbers with a fixed sum such that the sum of their squares is minimized.",
+   "formula": "S = x**2 + (k - x)**2",
+   "key_idea": "The sum of squares is minimized when the numbers are equal.",
+   "textbook_ref": "lemh106.txt lines 360-375",
+   "question_patterns": [
+    "find two numbers whose sum is k and sum of squares is minimum",
+    "divide a number into two parts such that the sum of their squares is least",
+    "minimize the sum of squares of two variables with a constant sum",
+    "at what values is the sum of squares minimum for a fixed total",
+    "optimize the sum of squares for given sum k"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Set up function",
+     "explain": "Let numbers be x and k-x. S(x) = x**2 + (k-x)**2",
+     "compute": "k_val = k"
+    },
+    {
+     "step": 2,
+     "action": "Find minimum point",
+     "explain": "Differentiating S(x) gives 2x - 2(k-x) = 0, which implies x = k/2",
+     "compute": "x_min = k / 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Optimization: Sum of Squares, compute the result for k = 3.",
+     "solution": "Step 1: Set up function: k_val = k = 3.0 Step 2: Find minimum point: x_min = k / 2 = 1.5 Final result: 1.5",
+     "answer": "1.5"
+    },
+    {
+     "question": "Using Optimization: Sum of Squares, compute the result for k = 4.",
+     "solution": "Step 1: Set up function: k_val = k = 4.0 Step 2: Find minimum point: x_min = k / 2 = 2.0 Final result: 2.0",
+     "answer": "2.0"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lemh106.txt lines 45-55",
+   "concept": "lemh.6.2.1",
+   "question_type": "compute",
+   "question_pattern": "Find the rate of change of the area of a circle per second with respect to its radius r when r = {radius}",
+   "extracted_variables": {
+    "radius": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Differentiate area formula",
+     "explain": "The area A = pi * r**2, so dA/dr = 2 * pi * r",
+     "compute": "dA_dr = 2 * pi * radius"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lemh106.txt lines 75-85",
+   "concept": "lemh.6.2.2",
+   "question_type": "compute",
+   "question_pattern": "A stone is dropped into a quiet lake and waves move in circles at a speed of {dr_dt} cm per second. At the instant, when the radius of the circular wave is {radius} cm, how fast is the enclosed area increasing?",
+   "extracted_variables": {
+    "dr_dt": 4,
+    "radius": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Apply chain rule to area",
+     "explain": "dA/dt = (dA/dr) * (dr/dt) = 2 * pi * r * dr/dt",
+     "compute": "dA_dt = 2 * pi * radius * dr_dt"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "lemh106.txt lines 120-125",
+   "concept": "lemh.6.2.3",
+   "question_type": "compute",
+   "question_pattern": "The total revenue in Rupees received from the sale of x units of a product is given by R(x) = {a}x^2 + {b}x + {c}. Find the marginal revenue, when x = {x}",
+   "extracted_variables": {
+    "a": 3,
+    "b": 36,
+    "c": 5,
+    "x": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Differentiate revenue function",
+     "explain": "For R(x) = a*x**2 + b*x + c, the derivative is 2*a*x + b",
+     "compute": "term1 = 2 * a * x"
+    },
+    {
+     "step": 2,
+     "action": "Sum the terms",
+     "explain": "Add the constant coefficient from the linear term",
+     "compute": "MR = term1 + b"
+    }
+   ]
+  },
+  {
+   "id": "ex9_v",
+   "source_ref": "lemh106.txt lines 150-155",
+   "concept": "lemh.6.2.4",
+   "question_type": "compute",
+   "question_pattern": "A balloon, which always remains spherical has a variable radius. Find the rate at which its volume is increasing with the radius when the later is {radius} cm.",
+   "extracted_variables": {
+    "radius": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Differentiate volume formula",
+     "explain": "V = (4/3) * pi * r**3, so dV/dr = 4 * pi * r**2",
+     "compute": "dV_dr = 4 * pi * radius**2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "6.1",
+   "source_ref": "lemh106.txt lines 130-165",
+   "questions": [
+    "Find the rate of change of the area of a circle with respect to its radius r when (a) r = 3 cm (b) r = 4 cm",
+    "The volume of a cube is increasing at the rate of 8 cm3/s. How fast is the surface area increasing when the length of an edge is 12 cm?",
+    "The radius of a circle is increasing uniformly at the rate of 3 cm/s. Find the rate at which the area of the circle is increasing when the radius is 10 cm.",
+    "An edge of a variable cube is increasing at the rate of 3 cm/s. How fast is the volume of the cube increasing when the edge is 10 cm long?",
+    "The radius of a circle is increasing at the rate of 0.7 cm/s. What is the rate of increase of its circumference?",
+    "A balloon, which always remains spherical on inflation, is being inflated by pumping in 900 cubic centimetres of gas per second. Find the rate at which the radius of the balloon increases when the radius is 15 cm."
+   ]
+  },
+  {
+   "id": "6.2",
+   "source_ref": "lemh106.txt lines 260-295",
+   "questions": [
+    "Show that the function given by f (x) = 3x + 17 is increasing on R.",
+    "Show that the function given by f (x) = e2x is increasing on R.",
+    "Find the intervals in which the function f given by f(x) = 2x2 - 3x is (a) increasing (b) decreasing",
+    "Prove that the logarithmic function is increasing on (0, infinity).",
+    "Prove that the function f given by f(x) = x2 - x + 1 is neither strictly increasing nor decreasing on (- 1, 1)."
+   ]
+  },
+  {
+   "id": "6.3",
+   "source_ref": "lemh106.txt lines 525-570",
+   "questions": [
+    "Find the maximum and minimum values, if any, of f(x) = (2x - 1)2 + 3",
+    "Find the local maxima and local minima, if any, of f(x) = x2",
+    "Find the absolute maximum value and the absolute minimum value of f(x) = x3, x in [- 2, 2]",
+    "Find two numbers whose sum is 24 and whose product is as large as possible.",
+    "Find two positive numbers x and y such that x + y = 60 and xy3 is maximum.",
+    "A square piece of tin of side 18 cm is to be made into a box without top, by cutting a square from each corner and folding up the flaps. What should be the side of the square to be cut off so that the volume of the box is the maximum possible."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

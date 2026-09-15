@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch08_002",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch08_002",
+   "title": "c7_math_ch08_002",
+   "questions": [
+    {
+     "q": "What is the rule for multiplying a whole number by a fraction $\\frac{a}{b}$?",
+     "a": "The correct rule is to multiply the whole number by the numerator and keep the denominator the same: $w \\times \\frac{a}{b} = \\frac{w \\times a}{b}$. A wrong answer like multiplying both numerator and denominator by the whole number reveals a confusion with creating equivalent fractions, where both terms are multiplied or divided by the same number.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul says that $5 \\times \\frac{2}{3}$ is equal to $\\frac{10}{15}$ because he multiplied both the top and bottom numbers by 5. Is Rahul correct? Explain why or why not.",
+     "a": "Rahul is incorrect because multiplying both the numerator and denominator by the same number creates an equivalent fraction (which has a value equal to 1 times the original fraction, not 5 times). To multiply a fraction by a whole number, only the numerator is multiplied by the whole number, giving $\\frac{5 \\times 2}{3} = \\frac{10}{3}$. A wrong answer shows a failure to distinguish between scaling a fraction's value and scaling its form.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the product of 6 and $\\frac{4}{9}$, and express your answer in its simplest form.",
+     "a": "The correct answer is $\\frac{8}{3}$ (or $2\\frac{2}{3}$). Working steps: Step 1: Set up the expression $6 \\times \\frac{4}{9}$. Step 2: Multiply the whole number by the numerator: $\\frac{6 \\times 4}{9} = \\frac{24}{9}$. Step 3: Simplify by dividing both numerator and denominator by their HCF, which is 3: $\\frac{24 \\div 3}{9 \\div 3} = \\frac{8}{3}$. A wrong answer where the student gets $\\frac{24}{9}$ but forgets to simplify indicates a gap in reducing fractions to lowest terms using HCF.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the product of $4 \\times \\frac{3}{5}$ and the sum of $\\frac{3}{5} + \\frac{3}{5} + \\frac{3}{5} + \\frac{3}{5}$. What mathematical property does this relationship demonstrate?",
+     "a": "Both expressions equal $\\frac{12}{5}$. This demonstrates that multiplication is a shorthand notation for repeated addition of the same fraction. A wrong answer shows a lack of conceptual connection between repeated addition and scalar multiplication of fractions.",
+     "self_check": true
+    },
+    {
+     "q": "Ananya evaluated $8 \\times \\frac{5}{8}$ and wrote her answer as $\\frac{40}{64}$. Look at her work. What error did she make, and what is the correct answer?",
+     "a": "Ananya multiplied both the numerator and denominator by the whole number 8. The correct answer is 5. Working steps: $8 \\times \\frac{5}{8} = \\frac{8 \\times 5}{8} = \\frac{40}{8} = 5$ (or by cancelling the 8 in the numerator and denominator directly). A wrong answer indicates confusion between fraction multiplication and scaling both terms of a fraction.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life word problem involving litres of milk where the solution requires multiplying a proper fraction by a whole number, and provide the solved answer.",
+     "a": "A good problem: \"A family consumes $\\frac{3}{4}$ litres of milk every day. How many litres of milk do they consume in 5 days?\" Solution: $5 \\times \\frac{3}{4} = \\frac{15}{4} = 3\\frac{3}{4}$ litres. A poor answer uses incorrect units or sets up a division instead of multiplication, showing confusion about scaling a fractional daily amount over multiple days.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_09_001",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_09_001",
+   "title": "c11_math_cbse_09_001",
+   "questions": [
+    {
+     "q": "Write the first four terms of the sequence defined by aₙ = 2n² − 3n + 1 for n ∈ ℕ.",
+     "a": "The first four terms are 0, 3, 10, 21. Substitute n = 1, 2, 3, 4 into the formula: a₁ = 2(1)² − 3(1) + 1 = 0; a₂ = 2(4) − 6 + 1 = 3; a₃ = 2(9) − 9 + 1 = 10; a₄ = 2(16) − 12 + 1 = 21. A wrong answer like 0, 3, 10, 19 reveals the student computed 2n² − 3n incorrectly for n=4 (e.g., 2×16 = 32, 32−12 = 20, 20+1 = 21 but wrote 19), indicating a careless arithmetic error or mis-evaluation of the quadratic.",
+     "self_check": true
+    },
+    {
+     "q": "A sequence is defined recursively by a₁ = 5 and aₙ = aₙ₋₁ + 4 for n ≥ 2. Explain why this sequence is arithmetic and state its common difference without listing terms.",
+     "a": "The sequence is arithmetic because the recursive rule aₙ = aₙ₋₁ + 4 shows that each term exceeds the previous term by a constant amount 4. The common difference is d = 4. A wrong answer stating \"d = 5\" reveals the student confused the first term a₁ = 5 with the common difference, a classic misconception where the initial value is mistaken for the increment.",
+     "self_check": true
+    },
+    {
+     "q": "Determine whether the sequence 3, 6, 12, 24, 48, ... is arithmetic, geometric, or neither. If geometric, find the common ratio r and write the explicit formula for aₙ.",
+     "a": "The sequence is geometric. Check ratios: 6/3 = 2, 12/6 = 2, 24/12 = 2, 48/24 = 2. Since the ratio is constant, r = 2. First term a = 3. Explicit formula: aₙ = 3 × 2ⁿ⁻¹. A wrong answer claiming it is arithmetic (because \"numbers are increasing\") reveals the student only checks additive patterns and does not test multiplicative constancy, a fundamental gap in distinguishing sequence types.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sequences S₁: aₙ = 5n − 2 and S₂: bₙ = 3 × 2ⁿ⁻¹. For n = 1 to 5, which sequence grows faster? Justify by computing the ratio of successive terms for each.",
+     "a": "S₂ grows faster. For S₁ (arithmetic, d=5), the ratio aₙ₊₁/aₙ = (5n+3)/(5n−2) → 1 as n increases. For S₂ (geometric, r=2), the ratio bₙ₊₁/bₙ = 2 for all n. Since 2 > 1 and constant, S₂ eventually surpasses S₁. A wrong answer saying \"S₁ grows faster because 5n is linear and 2ⁿ is exponential but n is small\" reveals the student misunderstands that exponential growth always dominates linear growth for sufficiently large n, and fails to compute the actual ratios.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The sequence 1, 4, 9, 16, 25, ... is arithmetic because the differences are 3, 5, 7, 9 which form a pattern.\" Evaluate this claim and correct the classification.",
+     "a": "The claim is incorrect. An arithmetic sequence requires a constant difference between consecutive terms. Here differences are 3, 5, 7, 9 — not constant. The sequence is neither arithmetic nor geometric; it is the sequence of perfect squares aₙ = n². A student who agrees reveals the misconception that \"any pattern in differences makes it arithmetic,\" confusing arithmetic sequences with sequences whose differences follow a pattern (which is a property of quadratic sequences).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a sequence that is neither arithmetic nor geometric but has a simple explicit formula. Write its first five terms and explain why it fails both tests.",
+     "a": "Example: aₙ = n² + n. First five terms: 2, 6, 12, 20, 30. Differences: 4, 6, 8, 10 (not constant → not arithmetic). Ratios: 6/2=3, 12/6=2, 20/12≈1.67, 30/20=1.5 (not constant → not geometric). A poor answer giving 2, 4, 8, 16, 32 (geometric) or 2, 5, 8, 11, 14 (arithmetic) shows the student cannot generate a non-standard sequence, indicating rigid template thinking rather than conceptual understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_10_006",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_10_006",
+   "title": "c11_hs_cbse_10_006",
+   "questions": [
+    {
+     "q": "List the five steps of making a family budget in the correct order as per NCERT.",
+     "a": "Correct order: (1) List and group commodities/services needed, (2) Estimate cost of each category and total, (3) Estimate total expected income (assured and possible), (4) Balance income and expenditure, (5) Check plan for reasonableness (needs met, emergencies, solvency, external conditions, long-term goals). A wrong answer (e.g., putting income estimation before expense listing, or omitting the checking step) reveals the student sees budgeting as a one-way calculation rather than an iterative planning loop that starts with *needs* and ends with *validation*.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Step 1 requires grouping related goods and services together (e.g., \"Food and related costs\" as one head) instead of listing every item separately.",
+     "a": "Grouping creates manageable categories that align with how families actually spend and track money — you pay one grocery bill, not separate bills for rice, dal, and vegetables. It also enables comparison across months (e.g., \"Food head increased 10%\") and makes the single-sheet record practical. A wrong answer (e.g., \"to make the list shorter\") shows the student misses the control-purpose: categories are the units against which actual spending is measured in later steps (control and evaluation).",
+     "self_check": true
+    },
+    {
+     "q": "A family has assured monthly income of ₹45,000 (salary) and possible income of ₹8,000 (expected bonus). Their estimated expenses total ₹58,000. Apply Step 4 to show two specific ways they can bring the budget into balance, stating which income source each adjustment relies on.",
+     "a": "Gap = ₹58,000 − ₹45,000 = ₹13,000 (using only assured income). Two valid adjustments: (a) Cut discretionary expenses (festival shopping, eating out) by ₹13,000 so assured income covers all — relies on *assured income only*. (b) Keep current expenses but commit ₹8,000 from *possible income* (bonus) and cut only ₹5,000 from expenses — relies on *both* assured and possible income. A wrong answer that uses the full ₹8,000 possible income to cover necessities (e.g., rent, food) reveals the student violates the NCERT rule: \"necessities from assured income, 'nice but not necessary' from possible income.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"mental check\" and \"mechanical check\" methods of control. Which method would be more effective for a family that struggles with impulse buying of snacks and why?",
+     "a": "Mental check = visualising what a lump sum must cover (e.g., \"₹1,000 must buy shoes, dress, books\"). Mechanical check = physically setting aside cash in labelled envelopes/purses (e.g., food purse). For impulse snack buying, mechanical check is more effective because the snacker sees the food purse shrinking in real time; the tactile limit stops the impulse before it happens. A wrong answer choosing mental check reveals the student underestimates the behavioural power of physical partitioning — mental checks fail when willpower is low.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"A budget that allocates 0% to 'Provision for future – saving, retirement' can still be considered successful if all current needs are met.\" Use the Step 5 checking criteria to justify your answer.",
+     "a": "The statement is **false**. Step 5 explicitly requires: \"The long term goals of the family are recognised\" and \"Solvency is assured\" — zero savings means no buffer for future solvency (e.g., job loss, medical emergency) and ignores long-term goals (children's education, retirement). A budget meeting only current needs fails the *forward-looking* validation criteria. A wrong answer accepting the statement shows the student treats budgeting as a monthly cash-flow exercise, not a life-cycle financial management tool.",
+     "self_check": true
+    },
+    {
+     "q": "Design a single-sheet budget template (column headings only) for a retired couple living in a tier-2 Indian city. Their income sources are pension and fixed deposit interest; expense heads must reflect their likely spending pattern. List at least 8 expense categories.",
+     "a": "Columns: Category | Sub-category | Amount Allocated (₹) | Amount Spent (₹) | Total Spent (₹) | Variance (₹).\nSample 8+ categories: 1. Food (groceries, milk, fruits/veg, eating out), 2. Housing (property tax, maintenance, repairs), 3. Healthcare (medicines, check-ups, insurance premium), 4. Utilities (electricity, water, gas, phone/internet), 5. Transport (fuel, auto/taxi, bus pass), 6. Personal Care (toiletries, barber, wellness), 7. Family Support (gifts to grandchildren, festival contributions), 8. Emergency/Contingency Fund, 9. Charity/Religious, 10. Savings Reinvestment (FD renewal top-up). A poor answer with generic heads like \"Miscellaneous\" or missing Healthcare/Emergency shows the student cannot tailor categories to the *specific family's life stage* — a core budgeting skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

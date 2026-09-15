@@ -1,0 +1,165 @@
+{
+ "class": 10,
+ "subject": "english",
+ "chapter": 103,
+ "chapter_title": "Two Stories about Flying: The First Flight and the Black Aeroplane",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jeff103.txt",
+ "concepts": [
+  {
+   "id": "jeff.103.1.1",
+   "title": "The Young Seagull's Fear of Flying",
+   "section": "His First Flight",
+   "definition": "A young seagull alone on his ledge is too afraid to fly, convinced his wings will not support him, even though his brothers and sister have already flown away the day before.",
+   "formula": "",
+   "key_idea": "The great expanse of sea stretched down beneath the ledge, and the fear of falling keeps the seagull rooted while hunger grows in him.",
+   "textbook_ref": "jeff103.txt lines 10-80",
+   "question_patterns": [
+    "why was the young seagull afraid to fly",
+    "how was the young seagull different from his brothers and sister",
+    "describe the seagull's ledge above the sea",
+    "what kept the young seagull on his ledge",
+    "why did the seagull's family leave him alone",
+    "how does fear hold the young seagull back"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the situation",
+     "explain": "The young seagull stays alone on the ledge; his siblings have flown away."
+    },
+    {
+     "step": 2,
+     "action": "identify the fear",
+     "explain": "He believes his wings will not carry him over the vast sea below."
+    },
+    {
+     "step": 3,
+     "action": "note the family's strategy",
+     "explain": "The parents taunt and threaten him, hoping hunger will force him to fly."
+    }
+   ]
+  },
+  {
+   "id": "jeff.103.1.2",
+   "title": "Hunger as the Teacher of Flight",
+   "section": "His First Flight",
+   "definition": "The mother flies close with a piece of fish and stops just out of reach, and hunger overpowers fear: the seagull dives at the food and finds his wings spread and carrying him in flight.",
+   "formula": "",
+   "key_idea": "The seagull's first flight begins as a plunge for food and ends as triumph, with the whole family flying round him in joy.",
+   "textbook_ref": "jeff103.txt lines 80-190",
+   "question_patterns": [
+    "how did the seagull's mother help him learn to fly",
+    "what made the young seagull take his first flight",
+    "how did hunger overcome the seagull's fear",
+    "describe the role of the piece of fish in the story",
+    "how did the family celebrate the seagull's first flight",
+    "what lesson does the seagull's first flight teach"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the mother's trick",
+     "explain": "She flies near him with fish, tempting him and stopping just short of his beak."
+    },
+    {
+     "step": 2,
+     "action": "mark the moment of flight",
+     "explain": "Diving at the fish, the seagull instinctively spreads his wings and finds himself flying."
+    },
+    {
+     "step": 3,
+     "action": "confirm the theme",
+     "explain": "Hunger drives out fear, showing that necessity teaches what warnings cannot."
+    }
+   ]
+  },
+  {
+   "id": "jeff.103.2.1",
+   "title": "The Pilot Lost in Storm Clouds",
+   "section": "The Black Aeroplane",
+   "definition": "The pilot of a Dakota aeroplane flies into huge storm clouds while dreaming of breakfast in England, and inside the black clouds his compass, radio and fuel all fail him.",
+   "formula": "",
+   "key_idea": "The aeroplane turns and twists in the clouds, the instruments die one by one, and nothing outside the window is visible.",
+   "textbook_ref": "jeff103.txt lines 200-300",
+   "question_patterns": [
+    "why did the pilot fly into the storm clouds",
+    "what happened to the aeroplane's instruments inside the clouds",
+    "why was the pilot dreaming of breakfast in england",
+    "describe the troubles of the dakota aeroplane in the storm",
+    "how did the compass and radio fail the pilot",
+    "what did the pilot see when he entered the clouds"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "follow the flight plan",
+     "explain": "The pilot leaves Paris hoping to reach England for a big English breakfast."
+    },
+    {
+     "step": 2,
+     "action": "mark the entry into clouds",
+     "explain": "He ignores the risk, flies into huge black storm clouds, and loses sight of everything."
+    },
+    {
+     "step": 3,
+     "action": "list the failures",
+     "explain": "The compass turns, the radio goes dead, and the fuel tanks are almost empty."
+    }
+   ]
+  },
+  {
+   "id": "jeff.103.2.2",
+   "title": "The Mysterious Black Aeroplane and the Safe Landing",
+   "section": "The Black Aeroplane",
+   "definition": "A strange black aeroplane appears beside the failing Dakota and guides it out of the storm, but at the landing the woman in the control centre says no other plane was seen on the radar.",
+   "formula": "",
+   "key_idea": "The rescuer remains unexplained, leaving a mystery about who or what guided the pilot safely through the storm.",
+   "textbook_ref": "jeff103.txt lines 300-400",
+   "question_patterns": [
+    "who helped the pilot land safely and how",
+    "what did the woman in the control centre say",
+    "why is the black aeroplane called mysterious",
+    "how was the pilot guided out of the storm clouds",
+    "what does the ending of the black aeroplane suggest",
+    "was there really another aeroplane on the radar"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the guidance",
+     "explain": "The black aeroplane signals the pilot to follow and leads him down towards safety."
+    },
+    {
+     "step": 2,
+     "action": "check the landing",
+     "explain": "The Dakota lands safely, and the pilot turns to thank the other pilot but finds no one."
+    },
+    {
+     "step": 3,
+     "action": "weigh the mystery",
+     "explain": "The control centre woman confirms no other aeroplane appeared on radar, deepening the mystery of the helper."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "jeff103.txt lines 190-430",
+   "questions": [
+    "Why was the young seagull afraid to fly? Do you think all young birds are afraid to make their first flight?",
+    "In the 'His First Flight' story, how did the mother help the young seagull to fly?",
+    "How did the young seagull's family celebrate his first flight?",
+    "Why did the pilot of the Dakota aeroplane fly into the storm clouds?",
+    "What instruments failed inside the black clouds?",
+    "Who do you think helped the pilot, and why is the black aeroplane a mystery?",
+    "What did the woman in the control centre say before the pilot could ask for help?"
+   ]
+  }
+ ]
+}

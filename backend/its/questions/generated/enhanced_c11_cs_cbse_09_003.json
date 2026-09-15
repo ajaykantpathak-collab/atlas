@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_09_003",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_09_003",
+   "title": "c11_cs_cbse_09_003",
+   "questions": [
+    {
+     "q": "What is the default file mode when using open('filename') without specifying a mode, and what operation does it allow?",
+     "a": "The default mode is 'r' (read mode), which opens the file for reading only and places the file pointer at the beginning. A wrong answer (e.g., 'w' or 'a') reveals that the student confuses the default mode with write or append, indicating they haven't memorized the default behavior and may accidentally overwrite files when intending to read.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what happens when you open an existing file in 'w' mode versus 'a' mode. What is the critical difference for the existing data?",
+     "a": "Opening in 'w' mode truncates the file to zero length, destroying all existing data, while 'a' mode preserves existing data and positions the pointer at the end for appending. A wrong answer that says both preserve data or both truncate shows the student doesn't understand the destructive nature of 'w' mode, a common error that leads to data loss in programs.",
+     "self_check": true
+    },
+    {
+     "q": "A program opens 'data.txt' in 'r+' mode, reads the first line, then writes a new line. Where will the new line be written, and what happens to the rest of the file?",
+     "a": "In 'r+' mode, the file pointer starts at the beginning. After reading the first line, the pointer is at the start of the second line. Writing then overwrites from that position onward, potentially corrupting the rest of the file if the new line is longer or shorter. A wrong answer (e.g., \"appends to end\" or \"creates new file\") shows the student doesn't grasp that 'r+' allows both reading and writing but does not automatically append, and overwrites existing content.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the behavior of 'w+' and 'a+' modes when the file does not exist. What do they have in common, and how do they differ in file pointer position after opening?",
+     "a": "Both 'w+' and 'a+' create the file if it doesn't exist and allow reading and writing. However, 'w+' truncates the file (if it exists) and positions the pointer at the beginning, while 'a+' positions the pointer at the end (for appending) and does not truncate. A wrong answer that says they behave identically reveals confusion about the truncation and pointer position differences, which are crucial for deciding whether to overwrite or preserve data.",
+     "self_check": true
+    },
+    {
+     "q": "A student wants to read a binary image file, modify a few bytes in the middle, and save it back. Which file mode should they use, and why would 'wb' be a poor choice?",
+     "a": "The correct mode is 'rb+' (or 'r+b') because it opens the binary file for both reading and writing without truncation, allowing in-place modification. 'wb' would truncate the file to zero length immediately, destroying the image data before any reading can occur. A wrong choice of 'wb' indicates the student doesn't understand that write modes truncate by default and that binary modes require a '+' for simultaneous read/write.",
+     "self_check": true
+    },
+    {
+     "q": "Design a small Python program scenario where you must choose between 'a' and 'w' mode for a log file that records timestamps. Justify your choice with a concrete example of what would go wrong with the other mode.",
+     "a": "A good answer: Use 'a' mode for a log file because each run of the program should add new timestamps without erasing previous logs. If 'w' mode were used, each program run would overwrite the log, losing all previous entries. A poor answer might choose 'w' for \"fresh logs each time\" without realizing the requirement is cumulative logging, showing the student cannot match mode behavior to real-world requirements.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

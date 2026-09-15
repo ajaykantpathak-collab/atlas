@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_11_008",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_11_008",
+   "title": "c11_geo_cbse_11_008",
+   "questions": [
+    {
+     "q": "Define 'mitigation' in the context of disaster management and give one structural and one non-structural measure for earthquake risk reduction in the Himalayan region.",
+     "a": "Mitigation refers to measures taken to reduce or eliminate the long-term risk to life and property from hazards. Structural measure: constructing earthquake-resistant buildings following Bureau of Indian Standards (BIS) codes. Non-structural measure: enforcing land-use zoning regulations to prevent construction on active fault lines. A wrong answer that confuses mitigation with preparedness (e.g., conducting drills) reveals the student does not distinguish between long-term risk reduction and immediate readiness.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why community-based disaster preparedness is more effective than top-down approaches alone, using the example of flood-prone villages in Assam.",
+     "a": "Community-based preparedness leverages local knowledge (e.g., traditional flood coping mechanisms), ensures culturally appropriate early warning dissemination (e.g., using local dialects and existing social networks), and builds ownership of evacuation plans. Top-down approaches often fail because they ignore indigenous practices and lack last-mile connectivity. A wrong answer that focuses only on government schemes shows the student overlooks the critical role of local participation in making preparedness actionable.",
+     "self_check": true
+    },
+    {
+     "q": "A district in Uttarakhand has a history of landslides. The administration wants to set up an early warning system. List the steps to design a community-level landslide early warning system, identifying the key stakeholders at each step.",
+     "a": "Step 1: Hazard mapping by Geological Survey of India (GSI) and district disaster management authority (DDMA) to identify vulnerable slopes. Step 2: Install monitoring instruments (rain gauges, inclinometers) by technical agencies (e.g., IIT Roorkee). Step 3: Develop threshold values for rainfall intensity/duration triggering alerts with scientists. Step 4: Create communication protocols (SMS, sirens, community volunteers) with Panchayati Raj institutions. Step 5: Conduct mock drills with National Disaster Response Force (NDRF) and community. Step 6: Regular maintenance and community feedback loops. A wrong answer that omits community volunteers or thresholds reveals a technocratic view that ignores human response capacity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the disaster response mechanisms for a sudden-onset hazard (earthquake in Gujarat) versus a slow-onset hazard (drought in Maharashtra). Highlight three key differences in coordination, resource mobilization, and information needs.",
+     "a": "Earthquake response: Immediate coordination via Incident Command System (ICS), urgent mobilization of search-and-rescue teams and medical supplies, real-time information on trapped populations and infrastructure damage. Drought response: Long-term coordination across agriculture, water, and rural development departments, phased mobilization of fodder, water tankers, and employment guarantee schemes (MGNREGA), seasonal information on reservoir levels, crop health, and groundwater. A wrong answer that treats both similarly shows the student does not grasp how hazard tempo dictates response architecture.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of India's National Disaster Management Act (2005) in shifting the paradigm from relief-centric to holistic disaster management. Provide two strengths and two limitations with evidence.",
+     "a": "Strengths: (1) Established institutional hierarchy (NDMA, SDMA, DDMA) enabling decentralized planning; (2) Mandated disaster management plans at all levels, integrating mitigation into development. Limitations: (1) Implementation gaps—many DDMAs lack technical staff and funds; (2) Overemphasis on response still visible in budget allocations (e.g., NDRF gets more than mitigation funds). A wrong answer that only lists provisions without critique indicates superficial understanding of policy-practice gaps.",
+     "self_check": true
+    },
+    {
+     "q": "Design a school-level disaster preparedness plan for a cyclone-prone area in Andhra Pradesh. Include: hazard identification, roles of students/teachers, evacuation routes, communication tree, and drill schedule. Justify each component.",
+     "a": "A good plan: Hazard identification using IMD cyclone tracks and school vulnerability assessment. Roles: Teachers as wardens, students as buddies for younger children, designated first-aid team. Evacuation routes mapped to nearest cyclone shelter with alternate paths. Communication tree: Principal -> Teacher coordinators -> Class monitors -> Parents via WhatsApp groups and local radio. Drill schedule: Quarterly full drills, monthly table-top exercises. Justification: Ensures muscle memory, reduces panic, leverages existing school hierarchy. A poor plan that copies a generic template without local context (e.g., not accounting for the school's double-storey building) shows lack of situational adaptation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,406 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 204,
+ "chapter_title": "Air",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/gess204.txt",
+ "concepts": [
+  {
+   "id": "gess.204.1.1",
+   "title": "The Atmosphere",
+   "section": "Introduction",
+   "definition": "The massive envelope of gases surrounding the planet that sustains life by providing air and shielding against solar radiation.",
+   "formula": "atmosphere = sum(gaseous_layers)",
+   "key_idea": "A protective gaseous shield that regulates earth's temperature for habitability.",
+   "textbook_ref": "gess204.txt lines 1-10",
+   "question_patterns": [
+    "What is the atmosphere?",
+    "How does the atmosphere protect living beings?",
+    "Why is the earth's temperature liveable?",
+    "Describe the importance of the air blanket.",
+    "What provides the air we breathe?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the protective layer",
+     "explain": "The atmosphere is the blanket of air surrounding the earth."
+    },
+    {
+     "step": 2,
+     "action": "List its functions",
+     "explain": "It provides oxygen for breathing and blocks harmful UV rays."
+    }
+   ]
+  },
+  {
+   "id": "gess.204.1.2",
+   "title": "Composition of the Atmosphere",
+   "section": "Composition of the Atmosphere",
+   "definition": "The specific proportions of different gases like nitrogen and oxygen that make up the air.",
+   "formula": "bulk_total = nitrogen_pct + oxygen_pct",
+   "key_idea": "Nitrogen and oxygen are the primary constituents of air.",
+   "textbook_ref": "gess204.txt lines 15-35",
+   "question_patterns": [
+    "Calculate the total percentage of major gases.",
+    "What is the combined volume of nitrogen and oxygen?",
+    "Find the sum of the two most plentiful gases.",
+    "How much of the air is made of nitrogen and oxygen?",
+    "Determine the bulk percentage of the atmosphere."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify gas percentages",
+     "explain": "Nitrogen is usually 78 and oxygen is 21.",
+     "compute": "bulk_total = nitrogen_pct + oxygen_pct"
+    }
+   ]
+  },
+  {
+   "id": "gess.204.1.3",
+   "title": "Greenhouse Effect and Global Warming",
+   "section": "Composition of the Atmosphere",
+   "definition": "The process where specific gases trap solar heat in the atmosphere, leading to a rise in global temperatures.",
+   "formula": "warming = heat_trapped - heat_radiated",
+   "key_idea": "Carbon dioxide acts as a greenhouse gas to maintain earth's warmth.",
+   "textbook_ref": "gess204.txt lines 11-25",
+   "question_patterns": [
+    "Which gas creates the greenhouse effect?",
+    "What causes global warming?",
+    "Explain the impact of increased CO2 levels.",
+    "What happens when the earth's temperature rises too high?",
+    "Define the greenhouse gas effect."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the gas responsible",
+     "explain": "Carbon dioxide traps heat radiated from the earth."
+    },
+    {
+     "step": 2,
+     "action": "Describe the thermal result",
+     "explain": "This heat retention is known as the greenhouse effect."
+    }
+   ]
+  },
+  {
+   "id": "gess.204.2.1",
+   "title": "Atmospheric Layers",
+   "section": "Structure of the Atmosphere",
+   "definition": "The five distinct vertical zones of the atmosphere categorized by their height and physical properties.",
+   "formula": "total_height = sum(layer_thickness)",
+   "key_idea": "The atmosphere is divided into Troposphere, Stratosphere, Mesosphere, Thermosphere, and Exosphere.",
+   "textbook_ref": "gess204.txt lines 45-75",
+   "question_patterns": [
+    "Name the five layers of the atmosphere.",
+    "Which layer is ideal for flying aeroplanes?",
+    "Where is the ozone layer located?",
+    "In which layer do meteorites burn up?",
+    "What is the most important layer for weather phenomena?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the layer by characteristic",
+     "explain": "Troposphere is for weather, Stratosphere for planes and ozone."
+    },
+    {
+     "step": 2,
+     "action": "Determine the sequence",
+     "explain": "Layers start from the surface: Troposphere, Stratosphere, Mesosphere, Thermosphere, Exosphere."
+    }
+   ]
+  },
+  {
+   "id": "gess.204.3.1",
+   "title": "Weather and Climate",
+   "section": "Weather and Climate",
+   "definition": "The distinction between short-term atmospheric states and long-term average conditions of a region.",
+   "formula": "climate = average(weather_over_30_years)",
+   "key_idea": "Weather is daily change; climate is the long-term average.",
+   "textbook_ref": "gess204.txt lines 80-95",
+   "question_patterns": [
+    "What is the difference between weather and climate?",
+    "Define weather.",
+    "What represents the average weather condition over a long period?",
+    "How does weather change compared to climate?",
+    "Why do we have daily weather forecasts?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define short-term state",
+     "explain": "Weather is the hour-to-hour or day-to-day condition."
+    },
+    {
+     "step": 2,
+     "action": "Define long-term average",
+     "explain": "Climate is the average weather over a long duration."
+    }
+   ]
+  },
+  {
+   "id": "gess.204.3.2",
+   "title": "Atmospheric Temperature",
+   "section": "Temperature",
+   "definition": "The measurement of thermal intensity in the air, varying by time, season, and latitude.",
+   "formula": "temp_diff = t_max - t_min",
+   "key_idea": "Temperature is the degree of hotness or coldness of the air.",
+   "textbook_ref": "gess204.txt lines 96-115",
+   "question_patterns": [
+    "Calculate the temperature difference.",
+    "Find the rise in heat between two points.",
+    "What is the thermal variation recorded?",
+    "How much did the temperature change from morning to evening?",
+    "Determine the difference between summer and winter temperatures."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract the lower temperature from the higher",
+     "explain": "The difference shows the thermal variation.",
+     "compute": "temp_diff = t_max - t_min"
+    }
+   ]
+  },
+  {
+   "id": "gess.204.3.3",
+   "title": "Air Pressure Dynamics",
+   "section": "Air Pressure",
+   "definition": "The force exerted by the weight of the air column, which decreases as altitude increases.",
+   "formula": "pressure_change = surface_pressure - altitude_pressure",
+   "key_idea": "Air moves from high-pressure zones to low-pressure zones.",
+   "textbook_ref": "gess204.txt lines 125-145",
+   "question_patterns": [
+    "Define air pressure.",
+    "Where is air pressure the highest?",
+    "How does pressure change with height?",
+    "What creates a low-pressure area?",
+    "Describe the movement of air in relation to pressure."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the pressure source",
+     "explain": "Air pressure is the weight of air on the surface."
+    },
+    {
+     "step": 2,
+     "action": "Relate to altitude",
+     "explain": "Pressure falls as we go higher in the atmosphere."
+    }
+   ]
+  },
+  {
+   "id": "gess.204.3.4",
+   "title": "Wind Classification",
+   "section": "Wind",
+   "definition": "The horizontal movement of air categorized into permanent, seasonal, and local types.",
+   "formula": "wind_velocity = distance / time",
+   "key_idea": "Winds are named after the direction from which they blow.",
+   "textbook_ref": "gess204.txt lines 146-170",
+   "question_patterns": [
+    "What are the three types of winds?",
+    "Give an example of a local wind in India.",
+    "What are permanent winds?",
+    "How are winds named?",
+    "Define seasonal winds."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the wind type",
+     "explain": "Winds are permanent (trade), seasonal (monsoon), or local (loo)."
+    },
+    {
+     "step": 2,
+     "action": "Determine the direction",
+     "explain": "A westerly wind blows from the west."
+    }
+   ]
+  },
+  {
+   "id": "gess.204.4.1",
+   "title": "Humidity and Precipitation",
+   "section": "Moisture",
+   "definition": "The presence of water vapour in the air and its eventual fall to earth in various forms.",
+   "formula": "relative_humidity = (actual_vapour / capacity) * 100",
+   "key_idea": "Moisture in the air is called humidity; liquid precipitation is rain.",
+   "textbook_ref": "gess204.txt lines 195-215",
+   "question_patterns": [
+    "What is humidity?",
+    "Why do clothes take longer to dry on a humid day?",
+    "Define precipitation.",
+    "What are the different forms of precipitation?",
+    "How do clouds form?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the moisture state",
+     "explain": "Humidity is the amount of water vapour in the air."
+    },
+    {
+     "step": 2,
+     "action": "Explain condensation",
+     "explain": "Cooling vapour forms droplets, which fall as rain."
+    }
+   ]
+  },
+  {
+   "id": "gess.204.4.2",
+   "title": "Types of Rainfall",
+   "section": "Moisture",
+   "definition": "The classification of rain based on the mechanism that causes air to rise and cool.",
+   "formula": "total_rainfall = sum(daily_precipitation)",
+   "key_idea": "Rainfall is classified as convectional, orographic, or cyclonic.",
+   "textbook_ref": "gess204.txt lines 216-230",
+   "question_patterns": [
+    "Name the three types of rainfall.",
+    "What is orographic rainfall?",
+    "Explain convectional rainfall.",
+    "How does cyclonic rainfall occur?",
+    "Why is rainfall important for the earth?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the rising mechanism",
+     "explain": "Air can rise due to heat, mountains, or fronts."
+    },
+    {
+     "step": 2,
+     "action": "Classify the rain",
+     "explain": "Mechanisms lead to convectional, orographic, or cyclonic types."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gess204.txt lines 15-20",
+   "concept": "gess.204.1.2",
+   "question_type": "compute",
+   "question_pattern": "If nitrogen makes up {nitrogen_pct} percent and oxygen makes up {oxygen_pct} percent of the air, what is their total combined percentage?",
+   "extracted_variables": {
+    "nitrogen_pct": 78,
+    "oxygen_pct": 21
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum the percentages",
+     "explain": "Add the values of nitrogen and oxygen to find the bulk composition.",
+     "compute": "bulk_total = nitrogen_pct + oxygen_pct"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gess204.txt lines 15-20",
+   "concept": "gess.204.1.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate the bulk percentage of air if nitrogen is {nitrogen_pct} and oxygen is {oxygen_pct}.",
+   "extracted_variables": {
+    "nitrogen_pct": 75,
+    "oxygen_pct": 20
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum the percentages",
+     "explain": "Add the values of nitrogen and oxygen to find the bulk composition.",
+     "compute": "bulk_total = nitrogen_pct + oxygen_pct"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "gess204.txt lines 96-100",
+   "concept": "gess.204.3.2",
+   "question_type": "compute",
+   "question_pattern": "If the daytime temperature is {t_max} degrees Celsius and the night temperature is {t_min} degrees Celsius, find the difference.",
+   "extracted_variables": {
+    "t_max": 38,
+    "t_min": 22
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract the temperatures",
+     "explain": "Find the thermal variation by subtracting the minimum from the maximum.",
+     "compute": "temp_diff = t_max - t_min"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "gess204.txt lines 96-100",
+   "concept": "gess.204.3.2",
+   "question_type": "compute",
+   "question_pattern": "What is the temperature rise if the air heats from {t_min} to {t_max} degrees Celsius?",
+   "extracted_variables": {
+    "t_max": 45,
+    "t_min": 30
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract the temperatures",
+     "explain": "Find the thermal variation by subtracting the minimum from the maximum.",
+     "compute": "temp_diff = t_max - t_min"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "gess204.txt lines 235-245",
+   "questions": [
+    "What is atmosphere?",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about atmosphere.",
+    "Answer the exercise task on atmosphere using your own phrasing.",
+    "What is weather?",
+    "Name three types of rainfall?",
+    "What is air pressure?"
+   ]
+  },
+  {
+   "id": "ex2.1",
+   "source_ref": "gess204.txt lines 246-255",
+   "questions": [
+    "Which of the following gases protects us from harmful sun rays?",
+    "Respond to this task about atmosphere without copying the book's wording.",
+    "Write your own answer to this chapter task on atmosphere, with full reasoning (variant 1).",
+    "Write your own answer to this chapter task on atmosphere, with full reasoning (variant 2).",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about precipitation."
+   ]
+  },
+  {
+   "id": "ex3.1",
+   "source_ref": "gess204.txt lines 256-260",
+   "questions": [
+    "Match Trade Winds with their type.",
+    "Match Loo with its category.",
+    "Match Monsoon with its wind type.",
+    "Match Wind with its definition."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_07_008",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_07_008",
+   "title": "c12_geo_cbse_07_008",
+   "questions": [
+    {
+     "q": "Define the term \"digital divide\" in one sentence and name the three distinct dimensions along which it is measured globally.",
+     "a": "Correct answer: The digital divide is the gap between individuals, households, businesses, and geographic areas at different socio-economic levels with regard to their opportunities to access information and communication technologies (ICTs) and their use of the internet for a wide variety of activities. The three dimensions are: (1) Access divide (infrastructure/connectivity), (2) Use divide (skills/literacy and actual usage), and (3) Quality divide (speed, reliability, device capability). A wrong answer that only mentions \"access to computers\" reveals the student conflates the divide with mere hardware availability, ignoring usage skills and quality of connection — a common error that leads to incomplete policy analysis in board answers.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the digital divide persist even in countries with near-universal mobile phone penetration (e.g., India has >1.1 billion mobile subscriptions but only ~55% internet users)? Explain using the distinction between \"access\" and \"meaningful use.\"",
+     "a": "Correct answer: Mobile subscription ≠ internet access. Many subscriptions are feature phones (2G/voice only), shared household devices, or multiple SIMs per person. Meaningful use requires: (a) affordable smartphones (not just basic phones), (b) affordable data plans (1GB/day ≠ adequate for video learning), (c) digital literacy to navigate apps/services, (d) reliable 4G/5G coverage (not just 2G), and (e) relevant local-language content. In India, the \"usage gap\" (people covered by mobile broadband but not using it) is ~40% — driven by affordability, literacy, and relevance. A wrong answer citing only \"poverty\" misses the structural supply-side factors (spectrum pricing, tower density, last-mile fiber) and demand-side barriers (language, gender norms) that geography exams expect.",
+     "self_check": true
+    },
+    {
+     "q": "Using the data below, calculate the internet user penetration rate (users per 100 population) for Country A and Country B. Then interpret the developmental implication of the gap.\nCountry A: Population 1.4 billion, Internet users 770 million\nCountry B: Population 330 million, Internet users 310 million",
+     "a": "Step 1: Country A penetration = (770M / 1400M) × 100 = 55%. Step 2: Country B penetration = (310M / 330M) × 100 = 93.9%. Step 3: Gap = 38.9 percentage points. Step 4: Interpretation — Country B (likely a developed nation) has near-saturation; Country A (likely India) has massive headroom but also a huge excluded population (~630M offline). The gap reflects income disparity (GNI per capita), urbanization level (~35% vs ~82%), and infrastructure investment history. A wrong calculation (e.g., using absolute users instead of rate) shows inability to normalize for population size — a frequent error in data-interpretation questions. Misinterpreting the gap as \"Country A is catching up fast\" without noting the absolute offline population misses the scale of exclusion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the urban-rural digital divide in India with that in Brazil. Both are large developing countries with ~50-55% overall internet penetration. What geographical factors explain why India's rural penetration (~37%) lags Brazil's rural penetration (~65%) despite similar national averages?",
+     "a": "Correct analysis: India's rural divide is steeper due to: (1) Lower rural population density in many states (making tower economics harder) vs. Brazil's more concentrated rural settlements; (2) India's fiber backbone (BharatNet) targets Gram Panchayats (village councils) but last-mile wireless is patchy; Brazil's \"Gesac\" program and private 4G rollout reached smaller towns earlier; (3) India's per capita data cost is among the world's lowest but absolute cost still excludes poorest; Brazil's Bolsa Família conditional cash transfers include digital inclusion components; (4) India's linguistic diversity (22 scheduled languages) complicates local content; Brazil's Portuguese unity aids content scaling. A wrong answer attributing it only to \"India is poorer\" ignores the spatial geometry of infrastructure deployment and policy design differences that geography demands.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Providing free smartphones to all rural households will eliminate the digital divide in India within five years.\" Use at least three dimensions of the divide (access, use, quality, affordability, relevance) in your assessment.",
+     "a": "Correct evaluation: The statement is flawed. Free devices address only the *device access* dimension. They do not solve: (1) *Connectivity quality* — rural towers often congested, backhaul fiber missing (BharatNet delays); (2) *Recurring affordability* — data recharge costs persist even if device is free; (3) *Digital literacy* — first-time users need training for banking, education, health apps; (4) *Relevance* — content in local languages/dialects for agriculture, governance, skills is limited; (5) *Gender norms* — women's phone access often controlled by men; (6) *Maintenance/repair* — no local service centers. Evidence: Past tablet distribution schemes (e.g., Aakash, state free laptop schemes) showed low sustained usage without ecosystem support. A good answer weighs supply-side hardware against demand-side ecosystem; a weak answer treats the divide as a single-factor hardware problem.",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-map infographic for a Class 12 geography project titled \"India's Digital Divide: 2015 vs 2023.\" Specify: (a) the two choropleth variables you would map (one per map), (b) the data source for each, (c) the classification scheme (number of classes, method), and (d) one key spatial pattern each map should reveal.",
+     "a": "Good answer criteria: Map 1 (2015): Variable = % households with internet access (any device). Source = NSSO 71st Round (2014-15) or NFHS-4. Classes = 5 (natural breaks/Jenks). Pattern = Southern/Western states (Kerala, Goa, Maharashtra, Gujarat) >30%; Northern/Central/Eastern states (Bihar, UP, Odisha, Jharkhand) <10%. Map 2 (2023): Variable = % population using internet (3-month recall). Source = TRAI/ITU estimates or NFHS-5 (2019-21) projected. Classes = 5 (same breaks for comparability). Pattern = Overall rise but persistent North-South gap; urban clusters (Delhi, Mumbai, Bangalore, Hyderabad) >85%; rural Bihar/UP still <30%. Bonus: inset map showing BharatNet Phase-I/II GP connectivity status. Poor answer: uses absolute user numbers (not rates), different class breaks (non-comparable), or maps only urban areas.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

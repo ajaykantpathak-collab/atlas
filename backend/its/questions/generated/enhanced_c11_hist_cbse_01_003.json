@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_01_003",
+   "title": "c11_hist_cbse_01_003",
+   "questions": [
+    {
+     "q": "What is the approximate date of the earliest known cuneiform tablets from Uruk, and what primary content do they record?",
+     "a": "The earliest cuneiform tablets date to c. 3200 BCE from Uruk and record lists of commodities (oxen, fish, grain, bread loaves) brought into or distributed from temples. A wrong answer (e.g., \"2000 BCE\" or \"law codes\") reveals the student confuses the script's origin with its later mature phase or misattributes content — they likely think writing began with literature or laws rather than economic administration.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Mesopotamian scribes use a reed stylus on clay tablets rather than ink on papyrus or carving on stone, given that Egypt used papyrus and the Harappans used stone seals?",
+     "a": "Mesopotamia lacked papyrus and had limited stone/wood; its alluvial plains provided abundant fine clay, and reeds grew in marshlands. The reed's angled cut produced wedge impressions ideal for clay. A wrong answer (e.g., \"clay was more durable\") shows the student ignores geographic determinism — they miss that material choice was constrained by local ecology, not preference, and that clay's reusability (before drying) suited high-volume temple accounting.",
+     "self_check": true
+    },
+    {
+     "q": "A scribe in 2600 BCE Uruk receives an order: \"Record the delivery of 300 litres of barley to the temple storehouse, received from Farmer A, witnessed by Official B.\" Describe the steps the scribe takes from raw materials to finished tablet, and explain why each step matters for the record's legal validity.",
+     "a": "Steps: (1) Collect levigated clay from riverbed — ensures fine texture for clear signs. (2) Pat into palm-sized tablet — standardizes handling/storage. (3) Smooth surfaces — prevents accidental marks. (4) Cut reed obliquely — creates wedge-shaped tip for cuneiform signs. (5) Press signs while clay is moist — signs become permanent on drying. (6) Dry in sun — hardens like pottery, making record tamper-proof. (7) Store in temple archive — enables future verification. A wrong answer omits the \"moist clay\" constraint or skips standardization, showing the student treats writing as abstract symbol-making rather than a material practice tied to bureaucratic reliability.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the development of cuneiform (Mesopotamia) and Brahmi (India, Ashokan edicts). Identify two structural differences in how each script represented language, and explain how each difference reflects its society's administrative needs.",
+     "a": "Cuneiform: syllabic (signs = syllables like *put, la, in*), hundreds of signs, required years of scribal training — suited for complex Sumerian/Akkadian morphology and centralized temple-palace bureaucracy where literacy was a specialized profession. Brahmi: alphasyllabic (consonant+vowel units), ~40 basic signs, easier to learn — suited for Prakrit dialects and Ashoka's need to disseminate dhamma widely across a vast empire through public inscriptions. A wrong answer (e.g., \"both are alphabets\") reveals the student cannot distinguish writing system types or link script structure to state communication strategy.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Cuneiform's longevity (3200 BCE – 1st century CE) proves it was a perfectly efficient writing system for all Mesopotamian languages.\"",
+     "a": "The claim is flawed. Cuneiform persisted due to institutional inertia (scribal schools, legal tradition) and adaptability (used for Sumerian, Akkadian, Hittite, Elamite), not efficiency. Its hundreds of syllabic signs made literacy elite-restricted; it poorly represented Indo-European languages (e.g., Persian cuneiform was a simplified subset). Alphabetic systems (Aramaic, Greek) replaced it because they were easier to learn and faster to write. A wrong answer (e.g., \"yes, it lasted 3000 years\") shows the student equates survival with optimality, ignoring path dependence and the role of political power in maintaining scripts.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a historical argument: \"The shift from token-based accounting to cuneiform writing was driven more by the needs of long-distance trade than by temple redistribution.\" Use evidence from Uruk-period archaeology and the Enmerkar epic to support or refute.",
+     "a": "Refute. Evidence: (1) Earliest tablets (c. 3200 BCE) are temple ration lists, not trade records. (2) Token envelopes (bullae) predate writing and track agricultural goods (grain, livestock) — temple staples. (3) Enmerkar epic shows writing invented for a royal demand to a distant chief (Aratta) for lapis lazuli — a prestige good for temple beautification, not staple trade. (4) Uruk's expansion (250→400 hectares) correlates with temple-administered labour (ration lists for 1500 men), not merchant quarters. A poor argument cites only the Enmerkar trade mission without noting its temple-centric motive, revealing the student conflates \"trade\" with \"state-organized procurement.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

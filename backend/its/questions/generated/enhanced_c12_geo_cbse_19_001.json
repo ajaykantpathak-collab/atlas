@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_19_001",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_19_001",
+   "title": "c12_geo_cbse_19_001",
+   "questions": [
+    {
+     "q": "A student downloads daily maximum temperature records for 50 weather stations across Rajasthan for the month of May. They immediately calculate the arithmetic mean of all 1500 values (50 stations × 30 days) and report it as \"average May temperature of Rajasthan\". Which fundamental step of geographical data processing have they skipped, and why does it invalidate the result?",
+     "a": "The student skipped **classification** (grouping data by homogeneous regions) and **tabulation** (organizing into meaningful summaries). Rajasthan has distinct climatic zones (arid west, semi-arid east); averaging across them masks spatial variability. A wrong answer reveals the misconception that \"more data points always improve accuracy\" — ignoring that geographical data must be structured by spatial/temporal homogeneity before aggregation.",
+     "self_check": true
+    },
+    {
+     "q": "In a study of groundwater depletion in Punjab, a researcher collects well-depth data from 200 wells but finds the dataset contains entries from both dug wells and tube wells, measured in feet and meters mixed together. Explain why \"data cleaning and standardization\" is a critical sub-step within classification, and what specific error would occur if they proceeded to tabulation without it.",
+     "a": "Without standardizing units (all to meters) and separating well types (different depth ranges), tabulation would combine incomparable measurements. The resulting frequency distribution would show artificial bimodality or inflated dispersion, leading to false conclusions about aquifer conditions. A wrong answer indicates the student thinks \"tabulation is just making tables\" rather than ensuring data comparability — a Class 11 map reading skill (c11_geo_cbse_22_005: interpreting symbols consistently) applied to numerical data.",
+     "self_check": true
+    },
+    {
+     "q": "You are given the following ungrouped dataset: Annual rainfall (mm) for 7 districts of Marathwada region: 680, 720, 650, 810, 590, 770, 640. Apply the first three steps of geographical data processing to prepare this data for dispersion analysis. Show the classification scheme you would use and the resulting frequency table.",
+     "a": "Step 1: Problem definition — \"Assess inter-district rainfall variability in Marathwada.\" Step 2: Data collection — already provided (7 districts). Step 3: Classification — create class intervals of 50 mm starting at 550: 550-600, 600-650, 650-700, 700-750, 750-800, 800-850. Frequency table: 550-600:1 (590), 600-650:1 (640), 650-700:2 (680,650), 700-750:1 (720), 750-800:1 (770), 800-850:1 (810). A wrong answer (e.g., using unequal intervals or ignoring the 550 start) shows inability to construct meaningful classes — prerequisite for c12_geo_cbse_19_003.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the data processing needs for two geographical studies: (A) Mapping literacy rates across Indian states using Census 2011 data, and (B) Analyzing hourly PM2.5 levels from a single Delhi monitoring station for January 2023. Identify which steps differ most and explain why.",
+     "a": "Study A (spatial cross-section): Emphasis on **classification by state boundaries**, tabulation as state-wise table, choropleth mapping. Study B (temporal time-series): Emphasis on **chronological classification** (hourly/daily), tabulation as time-series, line graph. The \"problem definition\" step differs: A seeks spatial patterns, B seeks diurnal/seasonal cycles. A wrong answer that treats both identically reveals failure to match processing steps to data structure (spatial vs temporal) — a key distinction from Class 11 GIS (c11_geo_cbse_26_008: spatial vs attribute data handling).",
+     "self_check": true
+    },
+    {
+     "q": "A Class 12 project concludes: \"Since the mean annual rainfall of District X is 1100 mm, farmers should grow rice.\" Evaluate this conclusion using the concept of data processing steps. What critical analytical step is missing, and what additional data would be required?",
+     "a": "The conclusion skips **dispersion analysis** (measure of variability) and **interpretation in context**. Mean alone hides risk: if standard deviation is 400 mm, rice fails in drought years. Missing step: compute coefficient of variation; required data: monthly distribution, soil water-holding capacity, crop water requirements. A wrong answer focusing only on \"need for median\" shows confusion between central tendency and variability — the exact trap addressed in c12_geo_cbse_19_006.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 6-step data processing workflow for a geographical investigation of \"Urban Heat Island intensity in Bengaluru using Landsat thermal bands\". Specify the input data, classification criteria, tabulation format, and statistical technique for each step.",
+     "a": "1. Problem: Quantify UHI intensity (°C difference between urban core and rural fringe). 2. Collect: Landsat 8 Band 10 (thermal) for summer cloud-free day + shapefile of Bengaluru wards. 3. Classify: Urban (built-up >50%), Vegetation (NDVI>0.3), Water; by ward. 4. Tabulate: Ward-wise mean LST (°C) for each class. 5. Analyze: ANOVA to test mean LST differences across classes; regression of LST vs NDVI. 6. Interpret: Identify wards with highest UHI; correlate with land-use change 2000-2023. A poor answer omits radiometric calibration (sub-step of collection) or uses inappropriate statistics (e.g., correlation for categorical classes) — showing inability to link remote sensing (c11_geo_cbse_26_001) with statistical workflow.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

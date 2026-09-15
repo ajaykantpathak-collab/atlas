@@ -1,0 +1,478 @@
+{
+ "class": 12,
+ "subject": "maths",
+ "chapter": 206,
+ "chapter_title": "Linear Programming",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lemh206.txt",
+ "concepts": [
+  {
+   "id": "lemh.12.1.1",
+   "title": "Optimisation Problem and Decision Variables",
+   "section": "12.1",
+   "definition": "An optimisation problem seeks to identify the best values for unknown decision variables to achieve maximum benefit or minimum expense under given limits.",
+   "formula": "Z = a * x + b * y",
+   "key_idea": "Representing choices as non-negative variables and goal metrics as a linear algebraic function.",
+   "textbook_ref": "lemh206.txt lines 15-45",
+   "question_patterns": [
+    "define an optimisation problem in linear programming",
+    "identify the decision variables in a linear programming scenario",
+    "what constitutes an objective function and decision variables",
+    "explain non-negativity restrictions in formulation",
+    "Explain Optimisation Problem and Decision Variables with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify decision variables",
+     "explain": "Define non-negative quantities representing choices, such as x and y."
+    },
+    {
+     "step": 2,
+     "action": "formulate objective function",
+     "explain": "Express profit or cost as a linear expression Z = a*x + b*y to maximize or minimize."
+    },
+    {
+     "step": 3,
+     "action": "state non-negativity constraints",
+     "explain": "Specify that all decision variables must satisfy x >= 0 and y >= 0 since quantities cannot be negative."
+    }
+   ]
+  },
+  {
+   "id": "lemh.12.2.1",
+   "title": "Linear Constraints and Feasible Region",
+   "section": "12.2.1",
+   "definition": "The region bounded by the simultaneous intersection of half-planes defined by all linear constraints and non-negativity conditions is called the feasible region.",
+   "formula": "a1 * x + b1 * y <= c1",
+   "key_idea": "The intersection of half-planes forms a convex feasible region containing all viable solutions.",
+   "textbook_ref": "lemh206.txt lines 46-105",
+   "question_patterns": [
+    "determine the feasible region for a given set of inequalities",
+    "verify if a given point is a feasible solution",
+    "distinguish between feasible and infeasible regions",
+    "check whether a coordinate satisfies all linear constraints",
+    "Explain Linear Constraints and Feasible Region with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "plot constraint lines",
+     "explain": "Graph the boundary lines corresponding to linear inequalities on the Cartesian plane."
+    },
+    {
+     "step": 2,
+     "action": "determine common region",
+     "explain": "Shade the intersection of half-planes satisfying all inequalities along with x >= 0, y >= 0."
+    },
+    {
+     "step": 3,
+     "action": "verify feasibility of a test point",
+     "explain": "Substitute a candidate point into every constraint to confirm it lies within the feasible region."
+    }
+   ]
+  },
+  {
+   "id": "lemh.12.2.2",
+   "title": "Corner Point Method for Maximisation",
+   "section": "12.2.2",
+   "definition": "A graphic technique where the linear objective function is calculated at each corner point of a bounded feasible polygon to find its highest value.",
+   "formula": "Z = a * x + b * y",
+   "key_idea": "The extreme values of a linear function on a convex polygon always lie at its vertices.",
+   "textbook_ref": "lemh206.txt lines 110-155",
+   "question_patterns": [
+    "find the maximum value of objective function using corner point method",
+    "calculate the optimal solution at vertices",
+    "solve the linear programming problem graphically for maximum profit",
+    "determine the optimal vertex for maximum Z",
+    "Numerical: apply Corner Point Method for Maximisation and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate Z at first corner point",
+     "explain": "Substitute coordinates (x1, y1) into Z = a*x + b*y",
+     "compute": "z1 = a * x1 + b * y1"
+    },
+    {
+     "step": 2,
+     "action": "evaluate Z at second corner point",
+     "explain": "Substitute coordinates (x2, y2) into Z = a*x + b*y",
+     "compute": "z2 = a * x2 + b * y2"
+    },
+    {
+     "step": 3,
+     "action": "evaluate Z at third corner point",
+     "explain": "Substitute coordinates (x3, y3) into Z = a*x + b*y",
+     "compute": "z3 = a * x3 + b * y3"
+    },
+    {
+     "step": 4,
+     "action": "evaluate Z at fourth corner point",
+     "explain": "Substitute coordinates (x4, y4) into Z = a*x + b*y",
+     "compute": "z4 = a * x4 + b * y4"
+    },
+    {
+     "step": 5,
+     "action": "determine maximum value",
+     "explain": "Find the maximum objective value among all evaluated corner points",
+     "compute": "z_max = max(z1, z2, z3, z4)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Corner Point Method for Maximisation, compute the result for a = 3, x1 = 3, b = 3, y1 = 2, x2 = 2, y2 = 2, x3 = 1, y3 = 1, x4 = 1, y4 = 0.5.",
+     "solution": "Step 1: evaluate Z at first corner point: z1 = a * x1 + b * y1 = 15.0 Step 2: evaluate Z at second corner point: z2 = a * x2 + b * y2 = 12.0 Step 3: evaluate Z at third corner point: z3 = a * x3 + b * y3 = 6.0 Step 4: evaluate Z at fourth corner point: z4 = a * x4 + b * y4 = 4.5 Step 5: determine maximum value: z_max = max(z1, z2, z3, z4) = 15.0 Final result: 15.0",
+     "answer": "15.0"
+    },
+    {
+     "question": "Using Corner Point Method for Maximisation, compute the result for a = 4, x1 = 4, b = 4, y1 = 3, x2 = 3, y2 = 3, x3 = 2, y3 = 2, x4 = 2, y4 = 1.5.",
+     "solution": "Step 1: evaluate Z at first corner point: z1 = a * x1 + b * y1 = 28.0 Step 2: evaluate Z at second corner point: z2 = a * x2 + b * y2 = 24.0 Step 3: evaluate Z at third corner point: z3 = a * x3 + b * y3 = 16.0 Step 4: evaluate Z at fourth corner point: z4 = a * x4 + b * y4 = 14.0 Step 5: determine maximum value: z_max = max(z1, z2, z3, z4) = 28.0 Final result: 28.0",
+     "answer": "28.0"
+    }
+   ]
+  },
+  {
+   "id": "lemh.12.2.3",
+   "title": "Corner Point Method for Minimisation",
+   "section": "12.2.2",
+   "definition": "A method to compute the minimum value of a linear cost function by evaluating it at all corner points of the bounded feasible region.",
+   "formula": "Z = a * x + b * y",
+   "key_idea": "The smallest value of a linear objective function occurs at one of the vertices of the feasible polygon.",
+   "textbook_ref": "lemh206.txt lines 160-200",
+   "question_patterns": [
+    "minimise the objective function graphically",
+    "find the minimum value of Z = ax + by",
+    "calculate the lowest cost from feasible corner points",
+    "determine optimal vertex for minimum Z",
+    "Numerical: apply Corner Point Method for Minimisation and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate Z at first corner point",
+     "explain": "Calculate Z value at vertex (x1, y1)",
+     "compute": "z1 = a * x1 + b * y1"
+    },
+    {
+     "step": 2,
+     "action": "evaluate Z at second corner point",
+     "explain": "Calculate Z value at vertex (x2, y2)",
+     "compute": "z2 = a * x2 + b * y2"
+    },
+    {
+     "step": 3,
+     "action": "evaluate Z at third corner point",
+     "explain": "Calculate Z value at vertex (x3, y3)",
+     "compute": "z3 = a * x3 + b * y3"
+    },
+    {
+     "step": 4,
+     "action": "determine minimum value",
+     "explain": "Find the minimum objective value among all corner points",
+     "compute": "z_min = min(z1, z2, z3)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Corner Point Method for Minimisation, compute the result for a = 3, x1 = 3, b = 3, y1 = 2, x2 = 2, y2 = 2, x3 = 1, y3 = 1.",
+     "solution": "Step 1: evaluate Z at first corner point: z1 = a * x1 + b * y1 = 15.0 Step 2: evaluate Z at second corner point: z2 = a * x2 + b * y2 = 12.0 Step 3: evaluate Z at third corner point: z3 = a * x3 + b * y3 = 6.0 Step 4: determine minimum value: z_min = min(z1, z2, z3) = 6.0 Final result: 6.0",
+     "answer": "6.0"
+    },
+    {
+     "question": "Using Corner Point Method for Minimisation, compute the result for a = 4, x1 = 4, b = 4, y1 = 3, x2 = 3, y2 = 3, x3 = 2, y3 = 2.",
+     "solution": "Step 1: evaluate Z at first corner point: z1 = a * x1 + b * y1 = 28.0 Step 2: evaluate Z at second corner point: z2 = a * x2 + b * y2 = 24.0 Step 3: evaluate Z at third corner point: z3 = a * x3 + b * y3 = 16.0 Step 4: determine minimum value: z_min = min(z1, z2, z3) = 16.0 Final result: 16.0",
+     "answer": "16.0"
+    }
+   ]
+  },
+  {
+   "id": "lemh.12.2.4",
+   "title": "Multiple Optimal Solutions",
+   "section": "12.2.2",
+   "definition": "When two adjacent corner points yield the identical maximum or minimum value, every point on the line segment connecting them is also an optimal solution.",
+   "formula": "z1 = z2",
+   "key_idea": "Identical optimal values at two vertices imply infinite optimal solutions along their connecting boundary segment.",
+   "textbook_ref": "lemh206.txt lines 201-225",
+   "question_patterns": [
+    "show that the linear programming problem has multiple optimal solutions",
+    "check if more than one vertex gives the same maximum value",
+    "explain why all points on a line segment give optimal Z",
+    "find conditions for multiple optimal solutions",
+    "Explain Multiple Optimal Solutions with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate objective function at vertices",
+     "explain": "Calculate Z values for all vertices of the feasible region."
+    },
+    {
+     "step": 2,
+     "action": "compare optimal values",
+     "explain": "Identify if two distinct adjacent vertices yield the same optimal value M."
+    },
+    {
+     "step": 3,
+     "action": "conclude infinite optimal solutions",
+     "explain": "State that every point on the line segment connecting these two vertices produces the same optimal value M."
+    }
+   ]
+  },
+  {
+   "id": "lemh.12.2.5",
+   "title": "Unbounded Feasible Region and Optimality Test",
+   "section": "12.2.2",
+   "definition": "For an unbounded feasible region, candidate optimal values must be verified by checking whether the open half-plane ax + by > M (or < m) intersects the feasible region.",
+   "formula": "a * x + b * y > M",
+   "key_idea": "An optimal value exists in an unbounded region only if the strict open half-plane has no points in common with the feasible region.",
+   "textbook_ref": "lemh206.txt lines 226-260",
+   "question_patterns": [
+    "check if optimal value exists for an unbounded feasible region",
+    "test whether open half plane intersects feasible region",
+    "determine if an unbounded LPP has a maximum or minimum value",
+    "solve LPP with unbounded shaded region graphically",
+    "Explain Unbounded Feasible Region and Optimality Test with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find candidate optimal value m or M at vertices",
+     "explain": "Calculate objective function values at corner points of the unbounded region."
+    },
+    {
+     "step": 2,
+     "action": "construct open half-plane inequality",
+     "explain": "Form the open inequality ax + by < m (for minimum) or ax + by > M (for maximum)."
+    },
+    {
+     "step": 3,
+     "action": "check intersection with feasible region",
+     "explain": "If the open half-plane shares common points with the feasible region, no optimal value exists; otherwise, m or M is optimal."
+    }
+   ]
+  },
+  {
+   "id": "lemh.12.2.6",
+   "title": "Infeasible Constraints and Non-Existence of Solution",
+   "section": "12.2.2",
+   "definition": "When a set of linear inequality constraints cannot be satisfied simultaneously by any point, no feasible region exists and the problem has no solution.",
+   "formula": "feasible_region = empty_set",
+   "key_idea": "Incompatible system of linear inequalities leads to an empty feasible set and no solution.",
+   "textbook_ref": "lemh206.txt lines 261-280",
+   "question_patterns": [
+    "show that LPP has no feasible solution",
+    "determine if constraints are mutually contradictory",
+    "check why no shaded feasible region exists",
+    "explain non-existence of solution in linear programming",
+    "Explain Infeasible Constraints and Non-Existence of Solution with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "graph all linear constraint inequalities",
+     "explain": "Plot each inequality on the coordinate plane including non-negativity axes."
+    },
+    {
+     "step": 2,
+     "action": "verify absence of common shaded area",
+     "explain": "Observe that there is no region satisfying all inequalities at once, concluding no feasible solution exists."
+    },
+    {
+     "step": 3,
+     "action": "conclude infeasibility",
+     "explain": "State that since the feasible region is empty, the linear programming problem has no solution."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lemh206.txt Example 1",
+   "concept": "lemh.12.2.2",
+   "question_type": "maximisation",
+   "question_pattern": "Maximise Z = {a}x + {b}y subject to constraints x + y <= {k1}, 3x + y <= {k2}, x >= 0, y >= 0",
+   "extracted_variables": {
+    "a": "4",
+    "b": "1",
+    "x1": "0",
+    "y1": "0",
+    "x2": "30",
+    "y2": "0",
+    "x3": "20",
+    "y3": "30",
+    "x4": "0",
+    "y4": "50"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "evaluate Z at (0,0)",
+     "explain": "Z at (0,0) = 4(0) + 1(0)",
+     "compute": "z1 = a * x1 + b * y1"
+    },
+    {
+     "step": 2,
+     "action": "evaluate Z at (30,0)",
+     "explain": "Z at (30,0) = 4(30) + 1(0)",
+     "compute": "z2 = a * x2 + b * y2"
+    },
+    {
+     "step": 3,
+     "action": "evaluate Z at (20,30)",
+     "explain": "Z at (20,30) = 4(20) + 1(30)",
+     "compute": "z3 = a * x3 + b * y3"
+    },
+    {
+     "step": 4,
+     "action": "evaluate Z at (0,50)",
+     "explain": "Z at (0,50) = 4(0) + 1(50)",
+     "compute": "z4 = a * x4 + b * y4"
+    },
+    {
+     "step": 5,
+     "action": "find maximum Z value",
+     "explain": "Maximum value among 0, 120, 110, 50 is 120",
+     "compute": "z_max = max(z1, z2, z3, z4)"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lemh206.txt Example 2",
+   "concept": "lemh.12.2.3",
+   "question_type": "minimisation",
+   "question_pattern": "Minimise Z = {a}x + {b}y subject to x + 2y >= {k1}, 3x + 4y <= {k2}, x >= 0, y >= 0",
+   "extracted_variables": {
+    "a": "200",
+    "b": "500",
+    "x1": "0",
+    "y1": "5",
+    "x2": "4",
+    "y2": "3",
+    "x3": "0",
+    "y3": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "evaluate Z at (0,5)",
+     "explain": "Z at (0,5) = 200(0) + 500(5)",
+     "compute": "z1 = a * x1 + b * y1"
+    },
+    {
+     "step": 2,
+     "action": "evaluate Z at (4,3)",
+     "explain": "Z at (4,3) = 200(4) + 500(3)",
+     "compute": "z2 = a * x2 + b * y2"
+    },
+    {
+     "step": 3,
+     "action": "evaluate Z at (0,6)",
+     "explain": "Z at (0,6) = 200(0) + 500(6)",
+     "compute": "z3 = a * x3 + b * y3"
+    },
+    {
+     "step": 4,
+     "action": "find minimum Z value",
+     "explain": "Minimum value among 2500, 2300, 3000 is 2300",
+     "compute": "z_min = min(z1, z2, z3)"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lemh206.txt Example 3",
+   "concept": "lemh.12.2.4",
+   "question_type": "multiple_optimal",
+   "question_pattern": "Minimise and Maximise Z = {a}x + {b}y subject to x + 3y <= 60, x + y >= 10, x <= y, x >= 0, y >= 0",
+   "extracted_variables": {
+    "a": "3",
+    "b": "9"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "evaluate Z at corner points",
+     "explain": "Corner points are A(0,10), B(5,5), C(15,15), D(0,20) giving Z values 90, 60, 180, 180."
+    },
+    {
+     "step": 2,
+     "action": "identify multiple maximums",
+     "explain": "Both C(15,15) and D(0,20) yield maximum value 180, indicating multiple optimal solutions along line segment CD."
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "lemh206.txt Example 4",
+   "concept": "lemh.12.2.5",
+   "question_type": "unbounded_region",
+   "question_pattern": "Determine graphically the minimum value of Z = {a}x + {b}y subject to 2x - y >= -5, 3x + y >= 3, 2x - 3y <= 12, x >= 0, y >= 0",
+   "extracted_variables": {
+    "a": "-50",
+    "b": "20"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "evaluate Z at corner points of unbounded region",
+     "explain": "Corner points give smallest candidate value -300 at (6,0)."
+    },
+    {
+     "step": 2,
+     "action": "check open half-plane intersection",
+     "explain": "Graph -50x + 20y < -300; it shares common points with the unbounded feasible region, so no minimum value exists."
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "lemh206.txt Example 5",
+   "concept": "lemh.12.2.6",
+   "question_type": "infeasible_constraints",
+   "question_pattern": "Minimise Z = 3x + 2y subject to x + y >= 8, 3x + 5y <= 15, x >= 0, y >= 0",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "plot constraints and check region",
+     "explain": "Plot x + y >= 8 and 3x + 5y <= 15 in the first quadrant."
+    },
+    {
+     "step": 2,
+     "action": "conclude no feasible region",
+     "explain": "There are no points satisfying all constraints simultaneously; hence no feasible solution exists."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex12.1",
+   "source_ref": "lemh206.txt Exercise 12.1",
+   "questions": [
+    "1. Maximise Z = 3x + 4y subject to the constraints : x + y <= 4, x >= 0, y >= 0.",
+    "2. Minimise Z = -3x + 4y subject to x + 2y <= 8, 3x + 2y <= 12, x >= 0, y >= 0.",
+    "3. Maximise Z = 5x + 3y subject to 3x + 5y <= 15, 5x + 2y <= 10, x >= 0, y >= 0.",
+    "4. Minimise Z = 3x + 5y such that x + 3y >= 3, x + y >= 2, x, y >= 0.",
+    "5. Maximise Z = 3x + 2y subject to x + 2y <= 10, 3x + y <= 15, x, y >= 0.",
+    "6. Minimise Z = x + 2y subject to 2x + y >= 3, x + 2y >= 6, x, y >= 0. Show that the minimum of Z occurs at more than two points.",
+    "7. Minimise and Maximise Z = 5x + 10y subject to x + 2y <= 120, x + y >= 60, x - 2y >= 0, x, y >= 0.",
+    "8. Minimise and Maximise Z = x + 2y subject to x + 2y >= 100, 2x - y <= 0, 2x + y <= 200; x, y >= 0.",
+    "9. Maximise Z = -x + 2y, subject to the constraints: x >= 3, x + y >= 5, x + 2y >= 6, y >= 0.",
+    "10. Maximise Z = x + y, subject to x - y <= -1, -x + y <= 0, x, y >= 0."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

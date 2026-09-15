@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_05_003",
+   "title": "c10_chem_cbse_05_003",
+   "questions": [
+    {
+     "q": "State Mendeleev's Periodic Law in the exact wording used in CBSE textbooks.",
+     "a": "Correct answer: \"The physical and chemical properties of elements are a periodic function of their atomic masses.\" A wrong answer like \"properties depend on atomic number\" reveals confusion with the Modern Periodic Law (Class 10 node c10_chem_cbse_05_005). A vague answer like \"elements are arranged by atomic mass\" misses the key phrase \"periodic function\" which implies repetition of properties at regular intervals — the core concept tested in 1-mark board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Mendeleev leave gaps in his periodic table instead of forcing all known elements into a continuous sequence? Explain using the concept of periodicity.",
+     "a": "Correct answer: Mendeleev left gaps because the periodic repetition of properties demanded specific positions for elements with specific properties. If the next known element didn't match the expected properties for that position, he concluded the element for that position was undiscovered. He predicted the properties of these missing elements (eka-boron, eka-aluminium, eka-silicon) based on the trends in the group. A wrong answer like \"he didn't know all elements\" shows lack of understanding that the gaps were a deliberate, predictive consequence of the periodic law, not just ignorance.",
+     "self_check": true
+    },
+    {
+     "q": "Mendeleev predicted the existence of Eka-silicon (later named Germanium). Using Mendeleev's table, if Eka-silicon is placed in Group IV and Period 4, predict: (a) its valency, (b) formula of its oxide, (c) formula of its chloride. Show reasoning.",
+     "a": "Correct answer with steps:\nStep 1: Identify group — Group IV elements (C, Si) show valency 4.\nStep 2: Valency of Eka-silicon = 4.\nStep 3: Oxide formula: Element (valency 4) + Oxygen (valency 2) → EO₂ (cross-valency method).\nStep 4: Chloride formula: Element (valency 4) + Chlorine (valency 1) → ECl₄.\nFinal: (a) Valency = 4, (b) Oxide = EO₂ (GeO₂), (c) Chloride = ECl₄ (GeCl₄).\nA wrong answer like ECl₃ or EO reveals inability to apply the valency cross-method (Class 9 node c9_chem_ch3_6) to predicted elements — a common 3-mark board question.",
+     "self_check": true
+    },
+    {
+     "q": "Mendeleev corrected the atomic mass of beryllium from 13.5 to 9.0. Given that beryllium's equivalent weight was experimentally found to be 4.5, and its oxide formula is BeO, show how Mendeleev used the relationship Atomic Mass = Equivalent Weight × Valency to correct it. Why was the original atomic mass 13.5 wrong?",
+     "a": "Correct answer:\nStep 1: In BeO, oxygen valency = 2, so Be valency = 2 (cross-method).\nStep 2: Correct atomic mass = Equivalent weight × Valency = 4.5 × 2 = 9.0.\nStep 3: Original atomic mass 13.5 implied valency = 13.5/4.5 = 3, which would give oxide Be₂O₃ — but BeO was known experimentally.\nStep 4: Mendeleev realized valency must be 2 (Group II), so atomic mass = 9.0.\nA wrong answer using valency 3 shows failure to link oxide formula to valency — a classic board trap where students forget that equivalent weight is experimentally determined while valency comes from group position.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Mendeleev's greatest achievement was arranging all 63 elements in strict increasing order of atomic mass.\" Is this true or false? Justify with a specific example from his table where he violated atomic mass order.",
+     "a": "Correct answer: FALSE. Mendeleev prioritized chemical properties over strict atomic mass order. Example: Tellurium (atomic mass 127.6) was placed BEFORE Iodine (atomic mass 126.9) because Tellurium belongs to Group VI (similar to Se, O) and Iodine to Group VII (similar to F, Cl, Br). Placing them by atomic mass would put Iodine in Group VI and Tellurium in Group VII, separating elements with similar properties. This shows the Periodic Law is based on properties, with atomic mass as a practical proxy — a nuance examiners test in assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a set of 5 \"element cards\" for a classroom activity demonstrating Mendeleev's method. Each card must show: element symbol, atomic mass (use approximate historical values), valency, and one key property. Choose elements that would reveal a gap for an undiscovered element between two known ones. Explain how a student would detect the gap.",
+     "a": "Expected answer criteria:\n- Cards for: Ca (40, 2, metal), Ti (48, 4, metal), ?? (gap), Cr (52, 3/6, metal), Mn (55, 2/7, metal).\n- Gap detection: Atomic masses jump from 48 to 52 with no element of valency ~4-5 in between; properties break periodicity.\n- Student should notice missing element with atomic mass ~50, valency 4, properties between Ti and Cr (Eka-titanium = Zirconium? Actually Scandium is 45, but Mendeleev predicted Scandium as Eka-boron. Better example: Group III gap after Al (27) → ?? (gap) → In (114) — too big. Use Period 4 Group III: Ca (40, Gr II), ?? (gap, Gr III), Ti (48, Gr IV). Gap at ~44-45, valency 3 → Scandium).\nPoor answer: Cards without valency or property, or no logical gap — shows inability to reverse-engineer Mendeleev's predictive process.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

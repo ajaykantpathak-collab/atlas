@@ -1,0 +1,100 @@
+{
+ "class": 10,
+ "subject": "science",
+ "chapter": 2,
+ "chapter_title": "Acids, Bases and Salts",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jesc102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "jesc.102.2.1",
+   "title": "Understanding Acids, Bases and Their Chemical Properties",
+   "section": "2.1",
+   "definition": "Acids taste sour and turn blue litmus red, bases are bitter and turn red litmus blue; acids react with metals to give hydrogen gas, with metal carbonates and hydrogencarbonates to give carbon dioxide, and acids neutralise bases to form salt and water.",
+   "formula": "-",
+   "key_idea": "Acid plus base gives salt and water; acid plus carbonate bubbles carbon dioxide.",
+   "textbook_ref": "jesc102.txt sections on chemical properties of acids and bases",
+   "question_patterns": [
+    "what happens when an acid reacts with a metal - write the reaction",
+    "why does dry HCl gas not turn litmus red but HCl solution does",
+    "describe the reaction of acid with metal carbonate with an equation",
+    "how do acids and bases neutralise each other - give the reaction",
+    "why does toothpaste help against tooth decay caused by acids",
+    "test the given solution with litmus and identify acid or base"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "test with indicators",
+     "explain": "Litmus and other indicators separate acids from bases."},
+    {"step": 2, "action": "run the reactions",
+     "explain": "Metal gives hydrogen gas; carbonate gives carbon dioxide; base gives salt and water."},
+    {"step": 3, "action": "write the equations",
+     "explain": "Record each reaction in balanced form."}
+   ]
+  },
+  {
+   "id": "jesc.102.2.2",
+   "title": "pH Scale - Strength and Importance",
+   "section": "2.3",
+   "definition": "The pH scale from 0 to 14 measures how acidic or basic a solution is: pH 7 is neutral, below 7 acidic, above 7 basic; plants, soils, our mouth and digestive system all work within careful pH ranges, so pH knowledge guides farming, health and even antacid use.",
+   "formula": "-",
+   "key_idea": "Seven is the balance point: below is acid country, above is base country.",
+   "textbook_ref": "jesc102.txt section on importance of pH in everyday life",
+   "question_patterns": [
+    "what is the pH scale - describe its range",
+    "what is the pH of a neutral solution - explain",
+    "why does tooth decay begin when mouth pH falls below 5.5",
+    "how do farmers treat soil of low pH - explain with the chapter",
+    "why is pH important in the digestive system - discuss antacids",
+    "the pH of the given solution is stated - classify it as acidic, basic or neutral"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "read the pH value",
+     "explain": "Place the value on the 0 to 14 scale."},
+    {"step": 2, "action": "classify the solution",
+     "explain": "Below 7 acidic, equal 7 neutral, above 7 basic."},
+    {"step": 3, "action": "connect to life",
+     "explain": "Relate the pH to soil, mouth, digestion or skin examples."}
+   ]
+  },
+  {
+   "id": "jesc.102.2.3",
+   "title": "Salts and Their Families",
+   "section": "2.4",
+   "definition": "Neutralisation produces salts, whose solutions may be neutral, acidic or basic depending on their origin: sodium chloride is neutral, washing soda is basic, baking soda is mildly basic, and bleaching powder, plaster of Paris andPOP-family salts find wide daily use.",
+   "formula": "-",
+   "key_idea": "Salts inherit character: strong-acid-strong-base pairs stay neutral, others lean acid or base.",
+   "textbook_ref": "jesc102.txt sections on salts, family of salts, important salts",
+   "question_patterns": [
+    "name the salts used as washing soda, baking soda and bleaching powder",
+    "what happens when baking soda is heated - write the change",
+    "how is plaster of Paris prepared from gypsum - give the reaction",
+    "why is an aqueous solution of sodium chloride neutral - explain",
+    "list the uses of the important salts discussed in the chapter",
+    "identify the family of the given salts by their common ions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "trace the salt's origin",
+     "explain": "Note which acid and base produced the salt."},
+    {"step": 2, "action": "predict the nature",
+     "explain": "Strong-weak pairings decide acidity or basicity of the salt solution."},
+    {"step": 3, "action": "list the uses",
+     "explain": "Washing soda, baking soda, bleaching powder and plaster of Paris each serve daily needs."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "jesc102.txt exercises",
+   "questions": [
+     "A solution turns red litmus blue - state its nature and pH range.",
+     "Write balanced equations for the given acid reactions.",
+     "Explain the preparation and uses of baking soda and bleaching powder."
+   ]
+  }
+ ]
+}

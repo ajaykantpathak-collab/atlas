@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_11_007",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_11_007",
+   "title": "c12_geo_cbse_11_007",
+   "questions": [
+    {
+     "q": "Name the three leading states for maize production in India and identify whether maize is predominantly a kharif or rabi crop in each of these states.",
+     "a": "Karnataka, Madhya Pradesh, and Bihar are the top three maize-producing states. In Karnataka and Madhya Pradesh, maize is primarily a kharif crop (sown with southwest monsoon, June–July). In Bihar, it is grown in both kharif and rabi seasons, but kharif dominates. A wrong answer (e.g., listing Punjab or Haryana, or saying maize is rabi in Karnataka) reveals the student confuses maize with wheat/rice Green Revolution zones and does not grasp that maize is a semi-arid, rainfed coarse cereal — not an irrigated temperate crop.",
+     "self_check": true
+    },
+    {
+     "q": "Why does gram (chickpea) cultivation decline in Punjab, Haryana, and northern Rajasthan after the Green Revolution, even though these states have irrigation infrastructure?",
+     "a": "Gram is a rainfed rabi crop requiring only 1–2 light irrigations; it thrives on residual soil moisture in semi-arid regions. After the Green Revolution, assured canal/tubewell irrigation made high-yielding wheat (HYVs) vastly more profitable per hectare, displacing gram from the cropping pattern. A wrong answer (e.g., \"gram needs more water than wheat\" or \"soil became saline\") shows the student misunderstands gram's low-water adaptation and the economic driver of crop substitution — the core concept of **cropping pattern shift due to irrigation-induced profitability change**.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Maharashtra's Marathwada region (annual rainfall 70 cm, shallow black soil) wants to maximise protein production per hectare with minimal irrigation. Using the crop requirements in the textbook, which pulse crop — gram or tur — should they choose, and in which season? Justify with two geographical reasons.",
+     "a": "Choose **tur (arhar)** in **kharif season**. Reason 1: Tur is a deep-rooted, drought-tolerant kharif legume suited to marginal lands and rainfed conditions in central/southern drylands (Marathwada's 70 cm rainfall matches tur's requirement). Reason 2: Gram is a rabi crop needing cool winter temperatures and residual moisture; Marathwada's winter is warm and post-monsoon moisture evaporates quickly in shallow black soils, making gram risky. A wrong choice (gram in kharif, or tur in rabi) reveals confusion between crop seasonality and moisture regime — a classic error in dryland cropping pattern questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the spatial distribution of jowar (sorghum) and bajra (pearl millet) in India. Explain why jowar dominates south of the Vindhyas while bajra concentrates in northwestern India, linking each to specific rainfall and temperature thresholds.",
+     "a": "Jowar: grown south of Vindhyas (Maharashtra, Karnataka, MP, AP, Telangana) in both kharif and rabi; requires 40–100 cm rainfall, tolerates high temperatures (27–32°C), thrives on black/red soils. Bajra: grown in NW/west (Rajasthan, Gujarat, Haryana, UP); requires 40–60 cm rainfall, extreme heat tolerance (30–35°C), sandy/light soils. Jowar's wider rainfall range and rabi adaptation suit the Deccan's bimodal rainfall; bajra's extreme xerophytism suits the Thar's hyper-arid kharif-only window. A wrong answer (swapping regions, ignoring rabi jowar) shows the student memorises state lists without understanding the **rainfall-temperature-soil envelope** that defines each millet's niche.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Promoting millets (jowar, bajra, ragi) as 'nutri-cereals' under the National Food Security Mission will automatically solve India's pulse deficit and malnutrition in dryland regions.\" Identify two geographical constraints and one socio-economic constraint that limit this outcome.",
+     "a": "Geographical constraints: (1) Millets and pulses compete for the same semi-arid rainfed area — expanding millet area may reduce pulse area unless cropping intensity rises (intercropping/sequential cropping needed). (2) Yield gap: millet yields (1–1.5 t/ha) are far below potential (3–4 t/ha) due to poor seed, no irrigation, and degraded soils — \"promotion\" without input support fails. Socio-economic constraint: (3) Market infrastructure and Minimum Support Price (MSP) procurement are weak for millets vs. rice/wheat; farmers lack price incentive to shift from subsidised fine cereals. A naive \"yes\" answer ignores the **land-use trade-off, yield gap, and market failure** that geography-economy interaction creates.",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-year cropping sequence for a 2-hectare rainfed farm in Telangana's Deccan Plateau (annual rainfall 85 cm, black cotton soil, kharif rainfall 70 cm, rabi rainfall 15 cm) that maximises: (a) total calorie + protein output, (b) soil nitrogen balance, and (c) risk reduction against monsoon failure. Specify crops, seasons, and one intercropping combination. Justify each choice geographically.",
+     "a": "Year 1 Kharif: **Maize + Pigeon pea (tur) intercropping** (1:2 row ratio) — maize provides quick calories (kharif harvest), tur fixes N, deep roots access subsoil moisture. Year 1 Rabi: **Chickpea (gram)** on residual moisture + tur ratoon — gram uses N fixed by tur, needs only 1–2 irrigations. Year 2 Kharif: **Ragi (finger millet) + Cowpea** — ragi tolerates erratic rainfall, cowpea adds protein/fodder. Year 2 Rabi: **Jowar (rabi sorghum)** on stored soil moisture. Justification: Black soil retains moisture for rabi crops; intercropping spreads risk; legume-cereal rotation maintains N-balance; all crops match Telangana's 85 cm rainfall bimodal distribution. A poor answer lists random crops without linking to soil moisture calendar, N-fixation, or risk — missing the **systems thinking** that geography demands.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

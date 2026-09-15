@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_02_008",
+   "title": "c12_cs_cbse_02_008",
+   "questions": [
+    {
+     "q": "What is the primary function of SMTP in email communication, and on which default port does it operate?",
+     "a": "SMTP is used for sending emails from a client to a server or between servers; its default port is 25 (port 587 is used for mail submission with authentication). A wrong answer (e.g., saying SMTP receives emails or uses port 110) reveals confusion between sending and receiving protocols and port numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words the difference between how POP3 and IMAP handle email messages on the server after a user reads them.",
+     "a": "POP3 typically downloads messages to the local device and deletes them from the server, so they are only available on that device. IMAP keeps messages on the server and synchronizes actions (read, delete, folder changes) across all devices. A wrong answer that says both delete from server or both keep on server shows the student has not grasped the fundamental synchronization difference.",
+     "self_check": true
+    },
+    {
+     "q": "A user wants to access their email from both a smartphone and a laptop, and see the same folder structure and read/unread status on both. Which receiving protocol should they configure, and why?",
+     "a": "They should configure IMAP because it leaves messages on the server and synchronizes folder structure and message flags (read/unread) across all clients. Choosing POP3 would cause messages to be downloaded to one device and removed from the server, breaking multi-device synchronization.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the direction of data flow for SMTP and POP3. Which protocol uses a push model and which uses a pull model? Justify your answer.",
+     "a": "SMTP uses a push model: the sender's client pushes the message to the outgoing server, and servers push messages to the next hop. POP3 uses a pull model: the client pulls messages from the server on demand. A wrong assignment (e.g., SMTP pull, POP3 push) indicates misunderstanding of client/server roles in each protocol.",
+     "self_check": true
+    },
+    {
+     "q": "A company decides to switch all employees from POP3 to IMAP. Evaluate the impact on (a) server storage requirements, (b) user experience for employees who travel frequently, and (c) backup strategy for email data.",
+     "a": "(a) Server storage increases because messages are retained on the server instead of being deleted after download. (b) Traveling employees benefit because they can access the same synchronized mailbox from any device. (c) Backup becomes centralized on the server, simplifying administration but requiring robust server-side backup solutions. An answer that ignores storage increase or claims backup becomes harder shows incomplete evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a small office email setup for 10 users who need to send emails, receive them on both desktop and mobile, and keep an archive of all sent and received messages on the server for compliance. Specify which protocols to use for sending and receiving, and any additional configuration needed.",
+     "a": "Use SMTP (port 587 with TLS) for sending. Use IMAP (port 993 with TLS) for receiving on both desktop and mobile. Enable IMAP folder synchronization for Sent, Drafts, and Archive folders so that all messages remain on the server. Configure server-side retention policies to comply with archival requirements. A poor answer would omit TLS, suggest POP3, or forget to mention folder synchronization for Sent items.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

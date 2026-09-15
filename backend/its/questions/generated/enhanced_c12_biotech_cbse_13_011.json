@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_13_011",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_13_011",
+   "title": "c12_biotech_cbse_13_011",
+   "questions": [
+    {
+     "q": "Define “public engagement” in biotechnology and state how it differs from one‑way science communication (outreach).",
+     "a": "Public engagement in biotechnology is a two‑way, iterative dialogue between experts and diverse publics that integrates public values, concerns, and knowledge into decision‑making about research priorities, risk governance, and innovation pathways. It differs from one‑way outreach (e.g., lectures, brochures) because outreach only transmits information, while engagement actively listens, shares power, and adapts plans based on public input. A wrong answer that equates engagement with “educating the public” reveals a deficit‑model mindset — the misconception that public resistance stems solely from ignorance.",
+     "self_check": true
+    },
+    {
+     "q": "A research institute releases a press statement claiming “Gene‑edited rice is completely safe because it has no foreign DNA.” Identify two science‑communication pitfalls in this statement and explain why each undermines public trust.",
+     "a": "Pitfall 1: Absolute certainty language (“completely safe”) ignores scientific uncertainty and the precautionary principle; when later studies reveal off‑target effects, trust collapses. Pitfall 2: Framing safety solely by “no foreign DNA” uses a technical proxy that sidesteps broader societal concerns (e.g., corporate control, biodiversity, farmer autonomy). A student who only spots “jargon” misses the deeper epistemic and ethical framing errors that fuel distrust.",
+     "self_check": true
+    },
+    {
+     "q": "You are tasked with designing a public consultation for a proposed confined field trial of GM mustard in Punjab. List four distinct stakeholder groups, one tailored engagement method for each, and the specific concern each method should surface.",
+     "a": "1. Smallholder farmers → Participatory field walks with demo plots → Concern: yield stability, seed cost, dependency on companies.  \n2. Beekeepers / pollinator‑dependent farmers → Focus‑group discussions with entomologists → Concern: gene flow to wild relatives, impact on honey quality/export.  \n3. Consumer‑rights NGOs → Deliberative workshop with independent scientists → Concern: labelling, long‑term health monitoring, corporate patents.  \n4. State agriculture department officials → Policy brief + closed‑door briefing → Concern: regulatory compliance, liability, seed certification logistics.  \nA response that lists only “farmers” and “scientists” shows failure to map the full sociotechnical system.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the “deficit model,” “dialogue model,” and “participatory model” of science communication. For a CRISPR‑based gene‑drive mosquito release to combat malaria, argue which model is ethically mandatory and why.",
+     "a": "Deficit model: assumes public opposition = ignorance; fixes by more facts. Dialogue model: two‑way exchange but agenda set by experts. Participatory model: publics co‑define questions, co‑design research, share governance. For gene‑drive mosquitoes — irreversible, cross‑border, ecological cascade risks — participatory model is ethically mandatory because affected communities (often marginalised) bear disproportionate consequences and must have veto power, not just input. Choosing “dialogue” ignores power asymmetry and the precautionary principle.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the Indian government’s 2021 “Science Communication Policy” draft (hypothetical) that allocates 90% of its budget to social media campaigns by scientists and 10% to community radio in tribal areas. Use equity, epistemic justice, and trust‑building criteria.",
+     "a": "The allocation fails on all three criteria: (1) Equity — digital divide excludes rural/tribal populations who lack smartphones/internet; community radio reaches them but gets token funding. (2) Epistemic justice — social media privileges scientist‑centric narratives; tribal ecological knowledge on local biodiversity is marginalised. (3) Trust‑building — top‑down campaigns deepen “expert vs. people” divide; sustained, face‑to‑face dialogue via community radio builds relational trust. A defence citing “cost‑effectiveness” ignores that trust is not a metric optimisable by reach alone.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel “engagement toolkit” component for a biotech startup developing a recombinant protein vaccine. The component must be low‑cost, usable by frontline health workers, and capture community questions on cold‑chain, side‑effects, and halal/haram status. Describe its format, workflow, and how data feeds back to the startup.",
+     "a": "Format: Illustrated flip‑chart (Hindi/regional language) + toll‑free IVR + WhatsApp chatbot. Workflow: Health worker uses flip‑chart in village meetings; attendees dial IVR or scan QR for anonymous questions; chatbot categorises queries (cold‑chain, side‑effects, religious permissibility) and pushes weekly summaries to startup’s R&D and regulatory affairs teams. Startup responds via voice notes on same IVR/chatbot within 72 hours. Good answers include feedback‑loop closure; poor answers propose only “brochures” or “apps” ignoring literacy/connectivity barriers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

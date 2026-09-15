@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_01_007",
+   "title": "c11_stat_cbse_01_007",
+   "questions": [
+    {
+     "q": "A researcher wants to study the literacy rate among adults (age 15+) in a specific district of Bihar. She collects data from 2,000 randomly selected adults in that district. In this context, what constitutes the **population** and what constitutes the **sample**? State both clearly.",
+     "a": "Population: All adults (age 15+) in that specific district of Bihar. Sample: The 2,000 randomly selected adults from that district. A wrong answer (e.g., \"population is the 2,000 adults\" or \"population is all adults in Bihar\") reveals the student cannot anchor the definition to the specific study scope — they confuse the *target group of the investigation* with the *data actually collected* or with a larger administrative unit.",
+     "self_check": true
+    },
+    {
+     "q": "\"In a census, there is no sampling error, so census results are always 100% accurate and preferable to sample surveys.\" Evaluate this statement. Is it true or false? Explain your reasoning in 3-4 sentences.",
+     "a": "False. A census eliminates *sampling error* (since the whole population is enumerated) but introduces large *non-sampling errors*: non-response bias, measurement errors due to fatigue/undertrained enumerators, processing errors in massive datasets, and time-lag errors (data becomes outdated during the long enumeration). A well-designed sample survey with trained investigators often yields *more accurate* estimates than a poorly executed census. A student agreeing with the statement confuses \"no sampling error\" with \"no error at all\" and ignores the practical trade-offs covered in the NCERT limitations of statistics.",
+     "self_check": true
+    },
+    {
+     "q": "The National Sample Survey Office (NSSO) conducts a survey on \"Household Consumption Expenditure\" in India. They select 8,000 villages and 4,000 urban blocks, then survey 8 households per village/block. The sample mean monthly per capita expenditure (MPCE) is ₹3,773. The true population MPCE (unknown) is ₹3,850.\n(a) What is the **sampling error** in this estimate?\n(b) If the survey had a non-response rate of 15% in urban blocks because wealthy households refused to participate, what *type* of error does this introduce? Is it sampling or non-sampling? Explain.",
+     "a": "(a) Sampling error = Sample statistic - Population parameter = ₹3,773 - ₹3,850 = -₹77 (the estimate understates true MPCE by ₹77). (b) This is **non-sampling error** (specifically, non-response bias). It arises not from the randomness of sample selection but from a systematic failure to obtain data from a specific subgroup (wealthy households), likely causing the urban MPCE to be underestimated. A student calling this \"sampling error\" confuses the *source* of error: sampling error is inherent to using a subset; non-sampling error arises from human/process failures in *any* data collection (census or sample).",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the following two scenarios in terms of **population definition**, **feasibility of census**, and **type of inference possible**:\nScenario A: A quality control manager tests the tensile strength of every 100th steel rod produced in a shift (destructive test).\nScenario B: The Election Commission verifies the voter ID details of every registered voter in a constituency before an election.\nWhich scenario *must* use sampling? Why can the other *choose* census?",
+     "a": "Scenario A: Population = all steel rods produced in that shift (finite, but destructive testing makes census impossible — testing destroys the unit). Sampling is **mandatory**; inference is probabilistic (confidence intervals for mean strength). Scenario B: Population = all registered voters in that constituency (finite, list available, non-destructive verification). Census is **feasible and preferred**; inference is deterministic (exact count of valid/invalid IDs). A student saying \"both can use sampling\" misses the *destructive testing* constraint — a key reason for sampling highlighted in NCERT. A student saying \"Scenario B must use sampling\" ignores that a complete, accurate voter list is a legal requirement where census is standard.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"If we increase the sample size from 1,000 to 10,000, the sampling error will definitely decrease, so we should always take the largest sample possible.\" Critique this argument using two distinct statistical concepts taught in this chapter. What practical constraints limit sample size?",
+     "a": "The argument is partially correct but dangerously incomplete. (1) **Sampling error** generally decreases with larger *n* (Law of Large Numbers), but **non-sampling errors** (measurement, non-response, processing) often *increase* with larger samples due to fatigue, cheaper/less-trained enumerators, and data management complexity. (2) **Diminishing returns**: reducing sampling error from ±5% to ±2% may require quadrupling sample size (cost ∝ √n for precision), but doubling non-sampling error. Practical constraints: budget, time, availability of trained investigators, and the sampling frame coverage. A student focusing only on sampling error ignores the total error framework (sampling + non-sampling) central to survey design in NCERT.",
+     "self_check": true
+    },
+    {
+     "q": "Design a **hypothetical** sample survey to estimate the average daily screen time (in hours) of Class 11 students in *your* city. Specify: (a) Target population definition (include inclusion/exclusion criteria), (b) Sampling frame source, (c) Sample size justification (one sentence), (d) One major potential non-sampling error and how to mitigate it. Write as a structured plan.",
+     "a": "(a) Population: All students enrolled in Class 11 (academic year 2024-25) in schools affiliated to CBSE/ICSE/State Board within the municipal corporation limits of [City Name], aged 15-17 years. Excludes: open schooling, dropout, special needs schools. (b) Frame: Consolidated list of Class 11 section-wise enrolment from District Education Office (UDEE+) + school principals' verification. (c) Sample size: 1,200 students (approx. 5% of estimated 24,000), stratified by board type and school category (govt/aided/private), to achieve ±0.5 hour precision at 95% confidence based on pilot SD=2.1 hrs. (d) Non-sampling error: **Recall bias / social desirability bias** — students under-report gaming/social media time. Mitigation: Use automated screen-time tracking apps (with consent) for a sub-sample of 200 to calibrate self-reported data. A poor answer gives vague population (\"all students\"), no frame source, arbitrary sample size, or generic \"non-response\" without context-specific mitigation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

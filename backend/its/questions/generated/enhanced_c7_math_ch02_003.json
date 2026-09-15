@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch02_003",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch02_003",
+   "title": "c7_math_ch02_003",
+   "questions": [
+    {
+     "q": "What symbol (<, >, or =) is used to show that two expressions evaluate to the exact same numerical value?",
+     "a": "The equals sign (=) is used when two expressions have the same value. A wrong answer like using (<) or (>) reveals a failure to recognize that these symbols indicate inequality, whereas an equals sign represents mathematical equivalence between two quantities.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why we must simplify expressions fully before attempting to place a comparison sign between them, rather than just comparing the first numbers in each expression.",
+     "a": "We must simplify fully because operations and grouping symbols change the final value of an entire expression, meaning the first numbers alone do not represent the total quantity. A wrong answer suggests the student thinks expression comparison is just comparing left-to-right numbers without respecting the order of operations or overall value.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two expressions by evaluating them and inserting the correct sign (<, >, or =): $15 + 4 \\times 3$ and $(15 + 4) \\times 3$.",
+     "a": "First, evaluate the left expression: $15 + (4 \\times 3) = 15 + 12 = 27$. Second, evaluate the right expression: $(15 + 4) \\times 3 = 19 \\times 3 = 57$. Third, compare the results: $27 < 57$. Therefore, $15 + 4 \\times 3 < (15 + 4) \\times 3$. A wrong answer often reveals that the student ignored the brackets on the right or failed to apply the multiplication precedence rule on the left.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the expressions $50 - (12 + 8)$ and $50 - 12 + 8$. Without calculating the full value, can you determine which one is larger, or are they equal? Explain your reasoning.",
+     "a": "The first expression $50 - (12 + 8)$ equals $50 - 20 = 30$. The second expression $50 - 12 + 8$ equals $38 + 8 = 46$. Therefore, $50 - (12 + 8) < 50 - 12 + 8$. A wrong answer shows confusion over how brackets distribute subtraction and alter the grouping of operations.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that $24 \\div 4 \\times 2$ is equal to $24 \\div (4 \\times 2)$ because the numbers and operations are identical. Evaluate both expressions to determine if the student is correct, and identify their exact error.",
+     "a": "The student is incorrect. Left expression: $24 \\div 4 \\times 2 = 6 \\times 2 = 12$. Right expression: $24 \\div (4 \\times 2) = 24 \\div 8 = 3$. Since $12 \\neq 3$, they are not equal. The student's error was assuming brackets do not change the order of division and multiplication operations evaluated from left to right.",
+     "self_check": true
+    },
+    {
+     "q": "Construct two different arithmetic expressions using the numbers 5, 4, and 2, along with addition and multiplication, such that one expression is strictly greater than the other. Show their evaluation.",
+     "a": "An acceptable response provides two expressions like $5 \\times 4 + 2$ and $5 + 4 \\times 2$. Evaluation: $5 \\times 4 + 2 = 20 + 2 = 22$, and $5 + 4 \\times 2 = 5 + 8 = 13$, so $22 > 13$. A poor answer uses incorrect order of operations or fails to use the required numbers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

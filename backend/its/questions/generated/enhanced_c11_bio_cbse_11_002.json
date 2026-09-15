@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_11_002",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_11_002",
+   "title": "c11_bio_cbse_11_002",
+   "questions": [
+    {
+     "q": "Name the two photosystems involved in the light reactions of photosynthesis and state the wavelength of maximum absorption for the reaction centre chlorophyll of each.",
+     "a": "Photosystem II (PS II) has a reaction centre chlorophyll a (P680) with absorption maximum at 680 nm. Photosystem I (PS I) has a reaction centre chlorophyll a (P700) with absorption maximum at 700 nm. A wrong answer (e.g., swapping the wavelengths or naming only one photosystem) reveals that the student has memorised names without linking them to their spectral properties, which is essential for understanding the energy sequence in the Z-scheme.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the electron transport chain in photosynthesis is called the \"Z-scheme\" and what the characteristic shape represents on a redox potential scale.",
+     "a": "The Z-scheme describes the path of electrons from water (low redox potential) up to the excited state of P680 (high energy), down through the electron transport chain to P700, up again to the excited state of P700 (even higher energy), and finally down to NADP+ (high redox potential). When all carriers are plotted on a redox potential scale, the two photoexcitation steps (uphill) and the intervening downhill flows create a Z-shaped profile. A wrong answer (e.g., \"it looks like the letter Z in the diagram\") shows the student sees only the diagram shape without understanding it represents energy changes of electrons at each step.",
+     "self_check": true
+    },
+    {
+     "q": "A chloroplast suspension is illuminated with light of wavelength 700 nm only. Predict whether non-cyclic photophosphorylation, cyclic photophosphorylation, both, or neither will occur. Justify your answer.",
+     "a": "Only cyclic photophosphorylation will occur. Light at 700 nm is absorbed by P700 (PS I reaction centre) but not by P680 (PS II reaction centre, which requires 680 nm). Without PS II excitation, water splitting does not occur, electrons are not supplied to the chain from water, and NADP+ reduction cannot proceed. However, PS I can still excite electrons that cycle back through the electron transport chain to P700, generating ATP without NADPH or O2 evolution. A wrong answer (e.g., \"both occur\" or \"neither occurs\") reveals the student does not grasp the wavelength-specific excitation of the two photosystems or the electron source requirement for non-cyclic flow.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the proton gradient formation in chloroplasts (photosynthesis) and mitochondria (respiration). Identify two similarities and two differences in the location, direction, and mechanism of proton accumulation.",
+     "a": "Similarities: (1) Both involve electron transport chains pumping protons across a membrane to create an electrochemical gradient. (2) Both use ATP synthase (CF0-CF1 in chloroplasts, F0-F1 in mitochondria) to harness the gradient for ATP synthesis. Differences: (1) In chloroplasts, protons accumulate in the thylakoid lumen (inside the membrane system); in mitochondria, protons accumulate in the intermembrane space (outside the inner membrane). (2) In chloroplasts, the gradient is built primarily by water splitting (releasing H+ into lumen) and plastoquinone-mediated H+ transfer from stroma to lumen; in mitochondria, complexes I, III, and IV pump protons from matrix to intermembrane space. A wrong answer (e.g., \"both pump protons into the matrix/lumen\") shows confusion about membrane topology and compartmentation.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Cyclic photophosphorylation is a wasteful process because it produces ATP but no NADPH or O2, so plants should always use non-cyclic photophosphorylation.\" Evaluate this statement.",
+     "a": "The statement is incorrect. Cyclic photophosphorylation is physiologically essential because the Calvin cycle requires ATP and NADPH in a 3:2 ratio per CO2 fixed (18 ATP : 12 NADPH for one glucose). Non-cyclic flow produces ATP and NADPH in roughly a 1:1 ratio (or less ATP per NADPH depending on stoichiometry), creating an ATP deficit. Cyclic flow supplements ATP without producing excess NADPH, balancing the energy budget. Additionally, cyclic flow operates when NADP+ is limiting (e.g., high NADPH/NADP+ ratio) or when only PS I wavelengths are available. A wrong evaluation (e.g., agreeing with the student) reveals a misunderstanding of the stoichiometric demands of carbon fixation and the regulatory role of cyclic electron flow.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using isolated chloroplasts, artificial electron acceptors (e.g., DCPIP), and specific inhibitors (e.g., DCMU) to demonstrate that Photosystem II and Photosystem I function in series during non-cyclic photophosphorylation.",
+     "a": "A good experiment: (1) Illuminate chloroplasts with DCPIP (accepts electrons from PS II) – DCPIP reduction occurs, showing PS II activity. (2) Add DCMU (blocks electron flow from PS II to plastoquinone) – DCPIP reduction stops, confirming the block is at PS II. (3) Add an artificial electron donor (e.g., ascorbate) that feeds electrons directly to PS I (via plastocyanin) along with an acceptor like methyl viologen – electron flow resumes, showing PS I can function independently when supplied with electrons. (4) Without the artificial donor, DCMU blocks all flow, proving PS II must supply electrons to PS I in the natural series. A poor design (e.g., only testing one condition or not using specific inhibitors/acceptors) reveals the student cannot isolate the function of each photosystem or understand the sequential electron flow.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_05_006",
+   "title": "c11_stat_cbse_05_006",
+   "questions": [
+    {
+     "q": "What is the positional formula for the first quartile (Q₁) in an individual series of N observations, and what does Q₁ represent?",
+     "a": "Q₁ = size of (N+1)/4 th item. Q₁ represents the value below which 25% of the observations lie. A wrong answer like \"Q₁ = N/4 th item\" reveals the student is confusing the ungrouped formula with the grouped data formula (which uses N/4). Using N/4 instead of (N+1)/4 for ungrouped data systematically underestimates the position, especially for small N.",
+     "self_check": true
+    },
+    {
+     "q": "In a continuous frequency distribution, the formula for Q₃ is Q₃ = L + [(3N/4 - cf)/f] × h. Explain why we use 3N/4 (not (3N+1)/4) and why we use cf of the *preceding* class.",
+     "a": "In grouped data, we assume observations are uniformly distributed within the class. The 3N/4th item marks the boundary of the top 25%; we locate the class containing this item. cf of the preceding class gives the number of items *before* the quartile class, so (3N/4 - cf) gives how many items into the quartile class we must go. Using (3N+1)/4 is an ungrouped-data adjustment; in grouped data, N is total frequency and the continuous interpolation replaces the +1 correction. A student using (3N+1)/4 here is mechanically applying the ungrouped formula without understanding the grouped-data assumption.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate D₇ for the following individual series: 12, 18, 25, 30, 35, 40, 42, 48, 50, 55.",
+     "a": "N=10. D₇ position = 7(10+1)/10 = 7.7th item. 7th item = 42, 8th item = 48. D₇ = 42 + 0.7(48-42) = 42 + 4.2 = 46.2. A wrong answer of 48 (taking the 8th item directly) reveals the student doesn't interpolate for fractional positions. A wrong answer using 7N/10 = 7th item (no +1) reveals confusion between grouped and ungrouped formulas.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the calculation of P₃₀ for a discrete series (with frequencies) versus a continuous series. What is the fundamental difference in how the \"position\" is determined?",
+     "a": "For discrete series, we use cumulative frequency to locate the (30(N+1)/100)th item exactly; the value of that item is P₃₀. For continuous series, we use 30N/100 to find the class containing P₃₀, then interpolate assuming uniform distribution within the class. The discrete series uses (N+1) because each observation is distinct; continuous uses N because we estimate within a class interval. A student who uses the same formula for both fails to recognize that discrete data has exact positions while continuous data requires estimation.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher says: \"Percentiles are only useful for large data sets like board exam results; for a class of 30 students, quartiles are sufficient.\" Evaluate this statement.",
+     "a": "The statement is partially true but misleading. Percentiles *can* be calculated for any N (e.g., P₉₀ for N=30 gives position 27.9, interpolated between 27th and 28th values). However, with small N, percentiles give coarse estimates (many percentiles map to the same value). Quartiles are more stable for small samples. The error is thinking percentiles *cannot* be calculated for small N. A student agreeing completely doesn't understand that the formulas work for any N; they just lose granularity.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where using P₁₀ and P₉₀ together gives more actionable insight than just the median or quartiles. Specify the variable, the population, and the decision it informs.",
+     "a": "Scenario: A state government analyzes monthly per-capita expenditure (MPCE) of 5000 rural households to design a targeted subsidy. P₁₀ = ₹1,200 identifies the poorest 10% for direct cash transfer. P₉₀ = ₹4,500 identifies the relatively well-off 10% who can be excluded. The median (P₅₀ = ₹2,300) alone would miss both tails. Quartiles (Q₁, Q₃) give broader bands (bottom 25%, top 25%) but lack the precision to target the *extreme* poor. A poor answer would use income instead of expenditure, or suggest using mean/median only, missing the policy need for tail-specific targeting.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

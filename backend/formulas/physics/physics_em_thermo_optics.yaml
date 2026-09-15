@@ -1,0 +1,1155 @@
+---
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_001
+  name: "Zeroth Law of Thermodynamics"
+  expression: "T_A = T_B, T_B = T_C \implies T_A = T_C"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_002
+  name: "First Law of Thermodynamics"
+  expression: "\Delta U = Q - W"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_003
+  name: "Work Done in Expansion"
+  expression: "W = \int_{V_1}^{V_2} P \, dV"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_004
+  name: "Work Done (Isobaric Process)"
+  expression: "W = P(V_2 - V_1)"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_005
+  name: "Work Done (Isochoric Process)"
+  expression: "W = 0"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_006
+  name: "Work Done (Isothermal Ideal Gas)"
+  expression: "W = nRT \ln\left(\frac{V_2}{V_1}\right)"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_007
+  name: "Work Done (Adiabatic Ideal Gas)"
+  expression: "W = \frac{P_1 V_1 - P_2 V_2}{\gamma - 1}"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_008
+  name: "Molar Specific Heat at Constant Volume"
+  expression: "C_V = \left(\frac{\partial U}{\partial T}\right)_V"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_009
+  name: "Molar Specific Heat at Constant Pressure"
+  expression: "C_P = \left(\frac{\partial H}{\partial T}\right)_P"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_010
+  name: "Relation Between Specific Heats"
+  expression: "C_P - C_V = R"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_011
+  name: "Heat Capacity Ratio"
+  expression: "\gamma = \frac{C_P}{C_V}"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_012
+  name: "Internal Energy (Ideal Gas)"
+  expression: "U = n C_V T = \frac{f}{2} nRT"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_013
+  name: "Enthalpy"
+  expression: "H = U + PV"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_014
+  name: "Efficiency of Carnot Engine"
+  expression: "\eta = 1 - \frac{T_C}{T_H}"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_015
+  name: "Work Done by Carnot Engine"
+  expression: "W = Q_H \left(1 - \frac{T_C}{T_H}\right)"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_016
+  name: "Second Law (Clausius Statement)"
+  expression: "\oint \frac{\delta Q}{T} \leq 0"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_017
+  name: "Second Law (Kelvin-Planck Statement)"
+  expression: "\eta_{engine} \leq \eta_{Carnot}"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_018
+  name: "Third Law of Thermodynamics (Nernst)"
+  expression: "S \to 0 \text{ as } T \to 0 \text{ K (perfect crystal)}"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_019
+  name: "Entropy Change"
+  expression: "\Delta S = \int_{T_1}^{T_2} \frac{C \, dT}{T}"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_020
+  name: "Entropy Change (Reversible)"
+  expression: "\Delta S = \frac{Q_{rev}}{T}"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_021
+  name: "Entropy Change (Isothermal Ideal Gas)"
+  expression: "\Delta S = nR \ln\left(\frac{V_2}{V_1}\right)"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_022
+  name: "Entropy Change (Phase Transition)"
+  expression: "\Delta S = \frac{L}{T}"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_023
+  name: "Adiabatic Process Relation"
+  expression: "TV^{\gamma-1} = \text{const}"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_024
+  name: "Adiabatic Pressure-Volume Relation"
+  expression: "PV^{\gamma} = \text{const}"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_025
+  name: "Isothermal Process Relation"
+  expression: "PV = \text{const}"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_026
+  name: "Carnot Efficiency"
+  expression: "\eta = 1 - \frac{T_C}{T_H}"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_027
+  name: "Refrigerator COP"
+  expression: "\beta = \frac{T_C}{T_H - T_C}"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_028
+  name: "Heat Pump COP"
+  expression: "\beta_{HP} = \frac{T_H}{T_H - T_C}"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_029
+  name: "Maxwell Relation 1"
+  expression: "\left(\frac{\partial T}{\partial V}\right)_P = -\left(\frac{\partial P}{\partial S}\right)_V"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_030
+  name: "Maxwell Relation 2"
+  expression: "\left(\frac{\partial T}{\partial P}\right)_V = \left(\frac{\partial V}{\partial S}\right)_P"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_031
+  name: "Maxwell Relation 3"
+  expression: "\left(\frac{\partial P}{\partial T}\right)_V = \left(\frac{\partial S}{\partial V}\right)_T"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_032
+  name: "Maxwell Relation 4"
+  expression: "\left(\frac{\partial V}{\partial T}\right)_P = -\left(\frac{\partial S}{\partial P}\right)_T"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_033
+  name: "Clausius-Clapeyron Equation"
+  expression: "\frac{dP}{dT} = \frac{L}{T \Delta V}"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_034
+  name: "Maxwell-Boltzmann Distribution (Speed)"
+  expression: "f(v) = 4\pi \left(\frac{m}{2\pi kT}\right)^{3/2} v^2 e^{-mv^2/2kT}"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_035
+  name: "Most Probable Speed"
+  expression: "v_p = \sqrt{\frac{2kT}{m}}"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_036
+  name: "Average Speed"
+  expression: "\bar{v} = \sqrt{\frac{8kT}{\pi m}}"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_037
+  name: "RMS Speed"
+  expression: "v_{rms} = \sqrt{\frac{3kT}{m}} = \sqrt{\frac{3RT}{M}}"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_038
+  name: "Pressure of Ideal Gas (Kinetic Theory)"
+  expression: "P = \frac{1}{3} \frac{N}{V} m \bar{v^2} = \frac{2}{3} \frac{N}{V} \bar{E}_{trans}"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_039
+  name: "Mean Free Path"
+  expression: "\lambda = \frac{kT}{\sqrt{2}\pi d^2 P}"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_040
+  name: "Mean Free Time"
+  expression: "\tau = \frac{\lambda}{v_{rms}}"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_041
+  name: "Average Kinetic Energy per Molecule"
+  expression: "\bar{E} = \frac{3}{2}kT"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_042
+  name: "Heat Conduction (Fourier Law)"
+  expression: "\dot{Q} = -kA \frac{dT}{dx}"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_043
+  name: "Thermal Resistance (Conduction)"
+  expression: "R_{th} = \frac{L}{kA}"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_044
+  name: "Stefan-Boltzmann Law"
+  expression: "j^* = \sigma T^4"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_045
+  name: "Total Power Radiated"
+  expression: "P = \sigma A T^4"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_046
+  name: "Wien's Displacement Law"
+  expression: "\lambda_{max} T = b"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_047
+  name: "Newton's Law of Cooling"
+  expression: "-\frac{dT}{dt} = hA(T - T_{env})"
+
+- domain: THERMODYNAMICS
+  formula_id: PHY_THM_048
+  name: "Thermal Conductivity"
+  expression: "\dot{Q} = \frac{kA(T_1 - T_2)}{L}"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_001
+  name: "Coulomb's Law"
+  expression: "F = k\frac{q_1 q_2}{r^2} = \frac{1}{4\pi\epsilon_0}\frac{q_1 q_2}{r^2}"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_002
+  name: "Electric Field (Point Charge)"
+  expression: "E = k\frac{q}{r^2} = \frac{1}{4\pi\epsilon_0}\frac{q}{r^2}"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_003
+  name: "Electric Field (Continuous Charge)"
+  expression: "\vec{E} = \frac{1}{4\pi\epsilon_0} \int \frac{\rho(\vec{r}') \, dv'}{|\vec{r} - \vec{r}'|^2} \hat{n}"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_004
+  name: "Electric Force on Charge"
+  expression: "\vec{F} = q\vec{E}"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_005
+  name: "Electric Field from Force"
+  expression: "E = \frac{F}{q}"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_006
+  name: "Electric Flux"
+  expression: "\Phi_E = \oint \vec{E} \cdot d\vec{A} = \frac{Q_{enc}}{\epsilon_0}"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_007
+  name: "Gauss's Law"
+  expression: "\oint \vec{E} \cdot d\vec{A} = \frac{Q_{enc}}{\epsilon_0}"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_008
+  name: "Electric Field (Infinite Line Charge)"
+  expression: "E = \frac{\lambda}{2\pi\epsilon_0 r}"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_009
+  name: "Electric Field (Infinite Plane Sheet)"
+  expression: "E = \frac{\sigma}{2\epsilon_0}"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_010
+  name: "Electric Field (Parallel Plate Capacitor)"
+  expression: "E = \frac{\sigma}{\epsilon_0}"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_011
+  name: "Electric Field (Uniformly Charged Sphere)"
+  expression: "E = \frac{1}{4\pi\epsilon_0}\frac{Q}{r^2} \quad (r > R)"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_012
+  name: "Electric Potential Difference"
+  expression: "V = \frac{W}{q} = -\int_{\infty}^{r} \vec{E} \cdot d\vec{r}"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_013
+  name: "Electric Potential (Point Charge)"
+  expression: "V = \frac{1}{4\pi\epsilon_0}\frac{q}{r}"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_014
+  name: "Potential Energy of Point Charges"
+  expression: "U = \frac{1}{4\pi\epsilon_0}\frac{q_1 q_2}{r}"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_015
+  name: "Relation Between E and V"
+  expression: "E = -\frac{dV}{dr} = -\nabla V"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_016
+  name: "Electric Dipole Moment"
+  expression: "\vec{p} = q\vec{l}"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_017
+  name: "Electric Field on Dipole Axis"
+  expression: "E = \frac{1}{4\pi\epsilon_0}\frac{2p}{r^3}"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_018
+  name: "Electric Potential from Dipole"
+  expression: "V = \frac{1}{4\pi\epsilon_0}\frac{\vec{p} \cdot \hat{r}}{r^2}"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_019
+  name: "Torque on Electric Dipole"
+  expression: "\vec{\tau} = \vec{p} \times \vec{E}"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_020
+  name: "Potential Energy of Electric Dipole"
+  expression: "U = -\vec{p} \cdot \vec{E}"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_021
+  name: "Capacitance (Definition)"
+  expression: "C = \frac{Q}{V}"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_022
+  name: "Parallel Plate Capacitor"
+  expression: "C = \frac{\epsilon_0 A}{d}"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_023
+  name: "Spherical Capacitor"
+  expression: "C = 4\pi\epsilon_0 \frac{R_1 R_2}{R_2 - R_1}"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_024
+  name: "Cylindrical Capacitor"
+  expression: "C = \frac{2\pi\epsilon_0 L}{\ln(R_2/R_1)}"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_025
+  name: "Energy Stored in Capacitor"
+  expression: "U = \frac{1}{2}CV^2 = \frac{Q^2}{2C} = \frac{1}{2}QV"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_026
+  name: "Energy Density in Electric Field"
+  expression: "u_E = \frac{1}{2}\epsilon_0 E^2"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_027
+  name: "Capacitance in Series"
+  expression: "\frac{1}{C_{eq}} = \sum_{i} \frac{1}{C_i}"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_028
+  name: "Capacitance in Parallel"
+  expression: "C_{eq} = \sum_i C_i"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_029
+  name: "Capacitor with Dielectric"
+  expression: "C = \kappa C_0 = \frac{\kappa\epsilon_0 A}{d}"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_030
+  name: "Electric Displacement"
+  expression: "\vec{D} = \epsilon_0 \vec{E} + \vec{P} = \epsilon_0 \kappa \vec{E}"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_031
+  name: "Electric Susceptibility"
+  expression: "\chi_e = \kappa - 1"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_032
+  name: "Bound Surface Charge Density"
+  expression: "\sigma_b = \vec{P} \cdot \hat{n}"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_033
+  name: "Polarization Charge Density"
+  expression: "\rho_b = -\nabla \cdot \vec{P}"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_034
+  name: "Electric Potential Energy in Dielectric"
+  expression: "U = \frac{Q^2}{2\kappa C_0}"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_035
+  name: "Laplace Equation"
+  expression: "\nabla^2 V = 0"
+
+- domain: ELECTROSTATICS
+  formula_id: PHY_ES_036
+  name: "Poisson Equation"
+  expression: "\nabla^2 V = -\frac{\rho}{\epsilon_0}"
+
+- domain: CURRENT ELECTRICITY
+  formula_id: PHY_CE_001
+  name: "Current Density"
+  expression: "\vec{J} = nq\vec{v}_d = \sigma \vec{E}"
+
+- domain: CURRENT ELECTRICITY
+  formula_id: PHY_CE_002
+  name: "Ohm's Law"
+  expression: "V = IR"
+
+- domain: CURRENT ELECTRICITY
+  formula_id: PHY_CE_003
+  name: "Resistance (Ohmic)"
+  expression: "R = \frac{V}{I}"
+
+- domain: CURRENT ELECTRICITY
+  formula_id: PHY_CE_004
+  name: "Resistivity"
+  expression: "\rho = \frac{RA}{L}"
+
+- domain: CURRENT ELECTRICITY
+  formula_id: PHY_CE_005
+  name: "Conductivity"
+  expression: "\sigma = \frac{1}{\rho}"
+
+- domain: CURRENT ELECTRICITY
+  formula_id: PHY_CE_006
+  name: "Resistors in Series"
+  expression: "R_{eq} = \sum_i R_i"
+
+- domain: CURRENT ELECTRICITY
+  formula_id: PHY_CE_007
+  name: "Resistors in Parallel"
+  expression: "\frac{1}{R_{eq}} = \sum_i \frac{1}{R_i}"
+
+- domain: CURRENT ELECTRICITY
+  formula_id: PHY_CE_008
+  name: "Drift Velocity"
+  expression: "v_d = \frac{I}{nqA}"
+
+- domain: CURRENT ELECTRICITY
+  formula_id: PHY_CE_009
+  name: "Current"
+  expression: "I = \frac{dq}{dt}"
+
+- domain: CURRENT ELECTRICITY
+  formula_id: PHY_CE_010
+  name: "EMF"
+  expression: "\mathcal{E} = \frac{W_{non-electrical}}{q}"
+
+- domain: CURRENT ELECTRICITY
+  formula_id: PHY_CE_011
+  name: "Terminal Voltage"
+  expression: "V = \mathcal{E} - Ir"
+
+- domain: CURRENT ELECTRICITY
+  formula_id: PHY_CE_012
+  name: "Power in Electric Circuit"
+  expression: "P = IV = I^2 R = \frac{V^2}{R}"
+
+- domain: CURRENT ELECTRICITY
+  formula_id: PHY_CE_013
+  name: "Joule's Law of Heating"
+  expression: "H = I^2 R t"
+
+- domain: CURRENT ELECTRICITY
+  formula_id: PHY_CE_014
+  name: "Kirchhoff's Current Law (KCL)"
+  expression: "\sum_{in} I = \sum_{out} I"
+
+- domain: CURRENT ELECTRICITY
+  formula_id: PHY_CE_015
+  name: "Kirchhoff's Voltage Law (KVL)"
+  expression: "\oint \vec{E} \cdot d\vec{l} = 0 \implies \sum \Delta V = 0"
+
+- domain: CURRENT ELECTRICITY
+  formula_id: PHY_CE_016
+  name: "Voltage Divider (Series)"
+  expression: "V_{R_2} = V_{in} \frac{R_2}{R_1 + R_2}"
+
+- domain: CURRENT ELECTRICITY
+  formula_id: PHY_CE_017
+  name: "Current Divider (Parallel)"
+  expression: "I_2 = I_{total} \frac{R_1}{R_1 + R_2}"
+
+- domain: CURRENT ELECTRICITY
+  formula_id: PHY_CE_018
+  name: "Wheatstone Bridge Condition"
+  expression: "\frac{R_1}{R_2} = \frac{R_3}{R_4}"
+
+- domain: CURRENT ELECTRICITY
+  formula_id: PHY_CE_019
+  name: "Wheatstone Bridge Galvanometer Current"
+  expression: "I_g = \frac{V}{R}\left(\frac{R_1}{R_1+R_3} - \frac{R_2}{R_2+R_4}\right)"
+
+- domain: CURRENT ELECTRICITY
+  formula_id: PHY_CE_020
+  name: "Potentiometer Null Point"
+  expression: "V = \frac{x}{L}\mathcal{E}"
+
+- domain: CURRENT ELECTRICITY
+  formula_id: PHY_CE_021
+  name: "Potential Gradient"
+  expression: "k = \frac{\mathcal{E}}{L} = \frac{IR}{L}"
+
+- domain: CURRENT ELECTRICITY
+  formula_id: PHY_CE_022
+  name: "Meter Bridge (Unbalanced)"
+  expression: "R_x = \frac{x}{L-x} R"
+
+- domain: CURRENT ELECTRICITY
+  formula_id: PHY_CE_023
+  name: "Resistance Temperature Relation"
+  expression: "R_T = R_0[1 + \alpha(T - T_0)]"
+
+- domain: CURRENT ELECTRICITY
+  formula_id: PHY_CE_024
+  name: "Resistivity Temperature Relation"
+  expression: "\rho_T = \rho_0[1 + \alpha(T - T_0)]"
+
+- domain: CURRENT ELECTRICITY
+  formula_id: PHY_CE_025
+  name: "Colour Code Resistance"
+  expression: "R = (R_1 R_2 \times 10^{R_3}) \pm R_4"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_001
+  name: "Force on Current-Carrying Wire"
+  expression: "\vec{F} = I(\vec{L} \times \vec{B})"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_002
+  name: "Force per Unit Length on Parallel Wires"
+  expression: "\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi d}"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_003
+  name: "Force on Moving Charge"
+  expression: "\vec{F} = q(\vec{v} \times \vec{B})"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_004
+  name: "Radius of Circular Path"
+  expression: "r = \frac{mv}{qB}"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_005
+  name: "Cyclotron Frequency"
+  expression: "f_c = \frac{qB}{2\pi m}"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_006
+  name: "Lorentz Force"
+  expression: "\vec{F} = q(\vec{E} + \vec{v} \times \vec{B})"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_007
+  name: "Drift Velocity"
+  expression: "v_d = \frac{q\tau E}{m} = \frac{I}{nqA}"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_008
+  name: "Biot-Savart Law (Current Element)"
+  expression: "d\vec{B} = \frac{\mu_0}{4\pi} \frac{I \, d\vec{l} \times \hat{r}}{r^2}"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_009
+  name: "Biot-Savart Law (Full Form)"
+  expression: "d\vec{B} = \frac{\mu_0}{4\pi} \frac{I \, d\vec{l} \times \vec{r}}{r^3}"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_010
+  name: "Magnetic Field (Infinite Straight Wire)"
+  expression: "B = \frac{\mu_0 I}{2\pi r}"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_011
+  name: "Magnetic Field (Center of Circular Coil)"
+  expression: "B = \frac{\mu_0 I}{2R}"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_012
+  name: "Magnetic Field (Circular Arc)"
+  expression: "B = \frac{\mu_0 I \theta}{4\pi R}"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_013
+  name: "Magnetic Field on Axis of Circular Coil"
+  expression: "B = \frac{\mu_0 I R^2}{2(R^2 + x^2)^{3/2}}"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_014
+  name: "Magnetic Field (Solenoid)"
+  expression: "B = \mu_0 n I = \frac{\mu_0 N I}{L}"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_015
+  name: "Magnetic Field (Toroid)"
+  expression: "B = \frac{\mu_0 NI}{2\pi r}"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_016
+  name: "Ampere's Circuital Law"
+  expression: "\oint \vec{B} \cdot d\vec{l} = \mu_0 I_{enc}"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_017
+  name: "Magnetic Field Intensity"
+  expression: "H = \frac{B}{\mu_0} - M"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_018
+  name: "Magnetic Field at Distance r"
+  expression: "B = \frac{\mu_0 I}{2\pi r}"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_019
+  name: "Magnetic Dipole Moment (Loop)"
+  expression: "\vec{\mu} = NI\vec{A}"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_020
+  name: "Magnetic Dipole Moment (Current Loop)"
+  expression: "\vec{m} = I \vec{A}"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_021
+  name: "Torque on Magnetic Dipole"
+  expression: "\vec{\tau} = \vec{\mu} \times \vec{B}"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_022
+  name: "Potential Energy of Magnetic Dipole"
+  expression: "U = -\vec{\mu} \cdot \vec{B} = -\mu B \cos\theta"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_023
+  name: "Force on Magnetic Dipole"
+  expression: "\vec{F} = \nabla(\vec{\mu} \cdot \vec{B})"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_024
+  name: "Magnetic Field of Dipole (Axial)"
+  expression: "B = \frac{\mu_0}{4\pi} \frac{2\mu}{r^3}"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_025
+  name: "Magnetic Field of Dipole (Equatorial)"
+  expression: "B = \frac{\mu_0}{4\pi} \frac{\mu}{r^3}"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_026
+  name: "Hall Voltage"
+  expression: "V_H = \frac{IB}{nqtd}"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_027
+  name: "Hall Coefficient"
+  expression: "R_H = \frac{1}{nq} = \frac{V_H t}{IB}"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_028
+  name: "Magnetization"
+  expression: "\vec{M} = \frac{\vec{m}}{V}"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_029
+  name: "Magnetic Intensity"
+  expression: "H = \frac{B}{\mu_0} - M"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_030
+  name: "Magnetic Susceptibility"
+  expression: "\chi_m = \frac{M}{H}"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_031
+  name: "Relative Permeability"
+  expression: "\mu_r = 1 + \chi_m = \frac{\mu}{\mu_0}"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_032
+  name: "B-H Relationship"
+  expression: "B = \mu_0(H + M) = \mu_0(1 + \chi_m)H"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_033
+  name: "Field Inside Toroid"
+  expression: "B = \mu_0 \mu_r \frac{NI}{2\pi r}"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_034
+  name: "Biot-Savart Law"
+  expression: "d\vec{B} = \frac{\mu_0}{4\pi} \frac{I \, d\vec{l} \times \hat{r}}{r^2}"
+
+- domain: MAGNETISM
+  formula_id: PHY_MAG_035
+  name: "Magnetic Field (Infinite Straight Wire)"
+  expression: "B = \frac{\mu_0 I}{2\pi r}"
+
+- domain: EMI
+  formula_id: PHY_EMI_001
+  name: "Faraday's Law of Induction"
+  expression: "\mathcal{E} = -\frac{d\Phi_B}{dt}"
+
+- domain: EMI
+  formula_id: PHY_EMI_002
+  name: "Magnetic Flux"
+  expression: "\Phi_B = \int \vec{B} \cdot d\vec{A} = BA\cos\theta"
+
+- domain: EMI
+  formula_id: PHY_EMI_003
+  name: "Lenz's Law"
+  expression: "\mathcal{E} = -\frac{d\Phi_B}{dt}"
+
+- domain: EMI
+  formula_id: PHY_EMI_004
+  name: "Motional EMF"
+  expression: "\mathcal{E} = B\ell v"
+
+- domain: EMI
+  formula_id: PHY_EMI_005
+  name: "Motional EMF (Rotating Loop)"
+  expression: "\mathcal{E} = NBA\omega\sin(\omega t)"
+
+- domain: EMI
+  formula_id: PHY_EMI_006
+  name: "Self Inductance Definition"
+  expression: "L = \frac{N\Phi_B}{I}"
+
+- domain: EMI
+  formula_id: PHY_EMI_007
+  name: "Self-Induced EMF"
+  expression: "\mathcal{E} = -L \frac{dI}{dt}"
+
+- domain: EMI
+  formula_id: PHY_EMI_008
+  name: "Self Inductance (Solenoid)"
+  expression: "L = \frac{\mu_0 N^2 A}{\ell} = \mu_0 n^2 A \ell"
+
+- domain: EMI
+  formula_id: PHY_EMI_009
+  name: "Self Inductance (Toroid)"
+  expression: "L = \frac{\mu_0 N^2 h}{2\pi} \ln\left(\frac{b}{a}\right)"
+
+- domain: EMI
+  formula_id: PHY_EMI_010
+  name: "Self Inductance (Coaxial Cable)"
+  expression: "L = \frac{\mu_0}{2\pi} \ell \ln\left(\frac{b}{a}\right)"
+
+- domain: EMI
+  formula_id: PHY_EMI_011
+  name: "Mutual Inductance Definition"
+  expression: "M = \frac{N_2 \Phi_{21}}{I_1} = \frac{N_1 \Phi_{12}}{I_2}"
+
+- domain: EMI
+  formula_id: PHY_EMI_012
+  name: "Mutual Induced EMF"
+  expression: "\mathcal{E}_2 = -M \frac{dI_1}{dt}"
+
+- domain: EMI
+  formula_id: PHY_EMI_013
+  name: "Reciprocity Theorem"
+  expression: "M_{12} = M_{21} = M"
+
+- domain: EMI
+  formula_id: PHY_EMI_014
+  name: "Coupling Coefficient"
+  expression: "k = \frac{M}{\sqrt{L_1 L_2}}"
+
+- domain: EMI
+  formula_id: PHY_EMI_015
+  name: "Energy in Magnetic Field"
+  expression: "U = \frac{1}{2}LI^2 = \frac{1}{2}L_1 I_1^2 + \frac{1}{2}L_2 I_2^2 + MI_1 I_2"
+
+- domain: EMI
+  formula_id: PHY_EMI_016
+  name: "RL Time Constant"
+  expression: "\tau_L = \frac{L}{R}"
+
+- domain: EMI
+  formula_id: PHY_EMI_017
+  name: "Current Growth in RL Circuit"
+  expression: "I(t) = \frac{\mathcal{E}}{R}\left(1 - e^{-t/\tau_L}\right)"
+
+- domain: EMI
+  formula_id: PHY_EMI_018
+  name: "LC Oscillation Frequency"
+  expression: "f = \frac{1}{2\pi\sqrt{LC}}"
+
+- domain: EMI
+  formula_id: PHY_EMI_019
+  name: "LC Angular Frequency"
+  expression: "\omega = \frac{1}{\sqrt{LC}}"
+
+- domain: EMI
+  formula_id: PHY_EMI_020
+  name: "Energy in LC Oscillator"
+  expression: "U = \frac{1}{2}LI^2 + \frac{1}{2}\frac{q^2}{C}"
+
+- domain: EMI
+  formula_id: PHY_EMI_021
+  name: "Eddy Current Power Loss"
+  expression: "P \propto B_m^2 f^2 t^2"
+
+- domain: EMI
+  formula_id: PHY_EMI_022
+  name: "EMF of AC Generator"
+  expression: "\mathcal{E} = NBA\omega \sin(\omega t)"
+
+- domain: EMI
+  formula_id: PHY_EMI_023
+  name: "Transformer EMF"
+  expression: "\mathcal{E}_s = -N_s \frac{d\Phi_B}{dt}"
+
+- domain: EMI
+  formula_id: PHY_EMI_024
+  name: "Transformer Voltage Ratio"
+  expression: "\frac{V_s}{V_p} = \frac{N_s}{N_p}"
+
+- domain: EMI
+  formula_id: PHY_EMI_025
+  name: "Transformer Current Ratio"
+  expression: "\frac{I_s}{I_p} = \frac{N_p}{N_s}"
+
+- domain: EMI
+  formula_id: PHY_EMI_026
+  name: "Transformer Efficiency"
+  expression: "\eta = \frac{V_s I_s}{V_p I_p}"
+
+- domain: EMI
+  formula_id: PHY_EMI_027
+  name: "Induced Electric Field"
+  expression: "\oint \vec{E} \cdot d\vec{l} = -\frac{d\Phi_B}{dt}"
+
+- domain: EMI
+  formula_id: PHY_EMI_028
+  name: "Self Inductance of Solenoid"
+  expression: "L = \frac{\mu_0 N^2 A}{l}"
+
+- domain: EMI
+  formula_id: PHY_EMI_029
+  name: "Mutual Inductance of Solenoids"
+  expression: "M = \frac{\mu_0 N_1 N_2 A}{l}"
+
+- domain: EMI
+  formula_id: PHY_EMI_030
+  name: "Energy Stored in Inductor"
+  expression: "U = \frac{1}{2}LI^2"
+
+- domain: AC CIRCUITS
+  formula_id: PHY_AC_001
+  name: "RMS Value of AC"
+  expression: "I_{rms} = \frac{I_0}{\sqrt{2}}"
+
+- domain: AC CIRCUITS
+  formula_id: PHY_AC_002
+  name: "RMS Voltage"
+  expression: "V_{rms} = \frac{V_0}{\sqrt{2}}"
+
+- domain: AC CIRCUITS
+  formula_id: PHY_AC_003
+  name: "RMS Current"
+  expression: "I_{rms} = \frac{I_0}{\sqrt{2}}"
+
+- domain: AC CIRCUITS
+  formula_id: PHY_AC_004
+  name: "Capacitive Reactance"
+  expression: "X_C = \frac{1}{\omega C} = \frac{1}{2\pi f C}"
+
+- domain: AC CIRCUITS
+  formula_id: PHY_AC_005
+  name: "Inductive Reactance"
+  expression: "X_L = \omega L = 2\pi f L"
+
+- domain: AC CIRCUITS
+  formula_id: PHY_AC_006
+  name: "Impedance (Resistor)"
+  expression: "Z = R"
+
+- domain: AC CIRCUITS
+  formula_id: PHY_AC_007
+  name: "Impedance (Inductor)"
+  expression: "Z = i\omega L"
+
+- domain: AC CIRCUITS
+  formula_id: PHY_AC_008
+  name: "Impedance (Capacitor)"
+  expression: "Z = \frac{1}{i\omega C}"
+
+- domain: AC CIRCUITS
+  formula_id: PHY_AC_009
+  name: "Impedance (RC Circuit)"
+  expression: "Z = \sqrt{R^2 + X_C^2}"
+
+- domain: AC CIRCUITS
+  formula_id: PHY_AC_010
+  name: "Impedance (RL Circuit)"
+  expression: "Z = \sqrt{R^2 + X_L^2}"
+
+- domain: AC CIRCUITS
+  formula_id: PHY_AC_011
+  name: "Impedance (RLC Circuit)"
+  expression: "Z = \sqrt{R^2 + (X_L - X_C)^2}"
+
+- domain: AC CIRCUITS
+  formula_id: PHY_AC_012
+  name: "Phase Angle (RC Circuit)"
+  expression: "\phi = \arctan\left(\frac{-X_C}{R}\right)"
+
+- domain: AC CIRCUITS
+  formula_id: PHY_AC_013
+  name: "Phase Angle (RL Circuit)"
+  expression: "\phi = \arctan\left(\frac{X_L}{R}\right)"
+
+- domain: AC CIRCUITS
+  formula_id: PHY_AC_014
+  name: "Resonance Condition (Series RLC)"
+  expression: "X_L = X_C \implies \omega_0 L = \frac{1}{\omega_0 C}"
+
+- domain: AC CIRCUITS
+  formula_id: PHY_AC_015
+  name: "Resonant Frequency"
+  expression: "\omega_0 = \frac{1}{\sqrt{LC}}"
+
+- domain: AC CIRCUITS
+  formula_id: PHY_AC_016
+  name: "Impedance at Resonance"
+  expression: "Z_{min} = R"
+
+- domain: AC CIRCUITS
+  formula_id: PHY_AC_017
+  name: "Current at Resonance"
+  expression: "I_{max} = \frac{V}{R}"
+
+- domain: AC CIRCUITS
+  formula_id: PHY_AC_018
+  name: "Power in AC Circuit"
+  expression: "P = VI\cos\phi"
+
+- domain: AC CIRCUITS
+  formula_id: PHY_AC_019
+  name: "Power Factor"
+  expression: "\cos\phi = \frac{R}{Z}"
+
+- domain: AC CIRCUITS
+  formula_id: PHY_AC_020
+  name: "Q-Factor (Series Resonance)"
+  expression: "Q = \frac{\omega_0 L}{R} = \frac{1}{\omega_0 CR}"
+
+- domain: AC CIRCUITS
+  formula_id: PHY_AC_021
+  name: "Q-Factor (Parallel Resonance)"
+  expression: "Q = \frac{R}{\omega_0 L} = \omega_0 CR"
+
+- domain: AC CIRCUITS
+  formula_id: PHY_AC_022
+  name: "Bandwidth"
+  expression: "\Delta\omega = \frac{\omega_0}{Q}"
+
+- domain: AC CIRCUITS
+  formula_id: PHY_AC_023
+  name: "Resonant Peak Voltage (Series)"
+  expression: "V_0 = QV"
+
+- domain: AC CIRCUITS
+  formula_id: PHY_AC_024
+  name: "Power Factor (Definition)"
+  expression: "PF = \cos\phi = \frac{P_{real}}{P_{apparent}}"
+
+- domain: AC CIRCUITS
+  formula_id: PHY_AC_025
+  name: "Apparent Power"
+  expression: "S = VI"
+
+- domain: AC CIRCUITS
+  formula_id: PHY_AC_026
+  name: "Reactive Power"
+  expression: "Q = VI\sin\phi"
+
+- domain: AC CIRCUITS
+  formula_id: PHY_AC_027
+  name: "Complex Power"
+  expression: "S = P + iQ = VI^*"
+
+- domain: MAXWELL & EM WAVES
+  formula_id: PHY_EMW_001
+  name: "Maxwell Equation 1 (Gauss's Law)"
+  expression: "\nabla \cdot \vec{E} = \frac{\rho}{\epsilon_0}"
+
+- domain: MAXWELL & EM WAVES
+  formula_id: PHY_EMW_002
+  name: "Maxwell Equation 2 (Gauss's Law for Magnetism)"
+  expression: "\nabla \cdot \vec{B} = 0"
+
+- domain: MAXWELL & EM WAVES
+  formula_id: PHY_EMW_003
+  name: "Maxwell Equation 3 (Faraday's Law)"
+  expression: "\nabla \times \vec{E} = -\frac{\partial \vec{B}}{\partial t}"
+
+- domain: MAXWELL & EM WAVES
+  formula_id: PHY_EMW_004
+  name: "Maxwell Equation 4 (Ampere-Maxwell)"
+  expression: "\nabla \times \vec{B} = \mu_0\vec{J} + \mu_0\epsilon_0\frac{\partial \vec{E}}{\partial t}"
+
+- domain: MAXWELL & EM WAVES
+  formula_id: PHY_EMW_005
+  name: "Displacement Current"
+  expression: "I_d = \epsilon_0 \frac{d\Phi_E}{dt}"
+
+- domain: MAXWELL & EM WAVES
+  formula_id: PHY_EMW_006
+  name: "Maxwell-Ampere Law (with Displacement Current)"
+  expression: "\oint \vec{B} \cdot d\vec{l} = \mu_0\left(I_{conduction} + \epsilon_0\frac{d\Phi_E}{dt}\right)"
+
+- domain: MAXWELL & EM WAVES
+  formula_id: PHY_EMW_007
+  name: "Electromagnetic Wave Equation"
+  expression: "\nabla^2 \vec{E} = \mu_0\epsilon_0 \frac{\partial^2 \vec{E}}{\partial t^2}"
+
+- domain: MAXWELL & EM WAVES
+  formula_id: PHY_EMW_008
+  name: "Speed of EM Waves in Vacuum"
+  expression: "c = \frac{1}{\sqrt{\mu_0\epsilon_0}}"
+
+- domain: MAXWELL & EM WAVES
+  formula_id: PHY_EMW_009
+  name: "Speed of Light (Experimental)"
+  expression: "c = 2.998 \times 10^8 \text{ m/s}"
+
+- domain: MAXWELL & EM WAVES
+  formula_id: PHY_EMW_010
+  name: "Wavelength-Frequency Relation"
+  expression: "c = \lambda f"
+
+- domain: MAXWELL & EM WAVES
+  formula_id: PHY_EMW_011
+  name: "Wave Number"
+  expression: "k = \frac{2\pi}{\lambda}"
+
+- domain: MAXWELL & EM WAVES
+  formula_id: PHY_EMW_012
+  name: "Angular Frequency"
+  expression: "\omega = 2\pi f"
+
+- domain: MAXWELL & EM WAVES
+  formula_id: PHY_EMW_013
+  name: "EM Wave Propagation Constant"
+  expression: "\vec{E}(\vec{r}, t) = \vec{E}_0 \cos(\vec{k} \cdot \vec{r} - \omega t)"
+
+- domain: MAXWELL & EM WAVES
+  formula_id: PHY_EMW_014
+  name: "E and B Field Relationship"
+  expression: "E = cB"
+
+- domain: MAXWELL & EM WAVES
+  formula_id: PHY_EMW_015
+  name: "Intrinsic Impedance of Free Space"
+  expression: "Z_0 = \sqrt{\frac{\mu_0}{\epsilon_0}} \approx 377 \Omega"
+
+- domain: MAXWELL & EM WAVES
+  formula_id: PHY_EMW_016
+  name: "Intrinsic Impedance of Medium"
+  expression: "\eta = \sqrt{\frac{\mu}{\epsilon}} = \eta_0\sqrt{\frac{\mu_r}{\epsilon_r}}"
+
+- domain: MAXWELL & EM WAVES
+  formula_id: PHY_EMW_017
+  name: "Poynting Vector"
+  expression: "\vec{S} = \frac{1}{\mu_0} \vec{E} \times \vec{B}"
+
+- domain: MAXWELL & EM WAVES
+  formula_id: PHY_EMW_018
+  name: "Poynting Vector Magnitude"
+  expression: "S = \frac{E^2}{\mu_0 c}"
+
+- domain: MAXWELL & EM WAVES
+  formula_id: PHY_EMW_019
+  name: "Time-Averaged Intensity"
+  expression: "\langle S \rangle = \frac{E_0^2}{2\mu_0 c}"
+
+- domain: MAXWELL & EM WAVES
+  formula_id: PHY_EMW_020
+  name: "Radiation Pressure (Perfect Absorber)"
+  expression: "P = \frac{\langle S \rangle}{c}"
+
+- domain: MAXWELL & EM WAVES
+  formula_id: PHY_EMW_021
+  name: "Radiation Pressure (Perfect Reflector)"
+  expression: "P = \frac{2\langle S \rangle}{c}"
+
+- domain: MAXWELL & EM WAVES
+  formula_id: PHY_EMW_022
+  name: "Critical Angle"
+  expression: "\sin\theta_c = \frac{n_2}{n_1}"
+
+- domain: MAXWELL & EM WAVES
+  formula_id: PHY_EMW_023
+  name: "Phase Change on Reflection"
+  expression: "180^\circ \text{ phase shift (denser to rarer: 0; denser medium: } \pi)"
+
+- domain: MAXWELL & EM WAVES
+  formula_id: PHY_EMW_024
+  name: "EM Wave Field Relation"
+  expression: "B_0 = \frac{E_0}{c}"
+
+- domain: MAXWELL & EM WAVES
+  formula_id: PHY_EMW_025
+  name: "Energy Density (Total)"
+  expression: "u = \frac{1}{2}\epsilon_0 E^2 + \frac{1}{2\mu_0} B^2 = \epsilon_0 E^2"
+
+- domain: MAXWELL & EM WAVES
+  formula_id: PHY_EMW_026
+  name: "EM Wave Equation for B Field"
+  expression: "\nabla^2 \vec{B} = \mu_0\epsilon_0 \frac{\partial^2 \vec{B}}{\partial t^2}"
+
+- domain: MAXWELL & EM WAVES
+  formula_id: PHY_EMW_027
+  name: "Snell's Law"
+  expression: "n_1 \sin\theta_1 = n_2 \sin\theta_2"
+
+- domain: MAXWELL & EM WAVES
+  formula_id: PHY_EMW_028
+  name: "Refractive Index"
+  expression: "n = \sqrt{\frac{\epsilon_r \mu_r}{\epsilon_0 \mu_0}} \approx \sqrt{\epsilon_r}"
+
+- domain: MAXWELL & EM WAVES
+  formula_id: PHY_EMW_029
+  name: "Gauss Law in Dielectric"
+  expression: "\oint \vec{D} \cdot d\vec{A} = Q_{free}"
+
+- domain: MAXWELL & EM WAVES
+  formula_id: PHY_EMW_030
+  name: "Skin Depth"
+  expression: "\delta = \sqrt{\frac{2}{\mu\sigma\omega}}"

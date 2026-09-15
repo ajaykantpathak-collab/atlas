@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_15_003",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_15_003",
+   "title": "c12_ps_cbse_15_003",
+   "questions": [
+    {
+     "q": "What was the official name of the commission chaired by B.P. Mandal, and in which year was it appointed?",
+     "a": "The Second Backward Classes Commission, appointed in 1978 by the Janata Party government under PM Morarji Desai. A wrong answer (e.g., \"First Backward Classes Commission\" or \"appointed in 1990\") reveals confusion between the Kaka Kalelkar Commission (1953) and Mandal Commission, or between the report year (1980) and implementation year (1990).",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Mandal Commission recommend identifying backward classes by caste rather than economic criteria alone?",
+     "a": "The Commission found that caste is the primary determinant of social and educational backwardness in India; economic criteria alone would miss structural discrimination embedded in the caste hierarchy. A wrong answer (e.g., \"because caste is easier to measure\") shows a misunderstanding of the sociological reasoning behind Article 16(4) and the Commission's field surveys.",
+     "self_check": true
+    },
+    {
+     "q": "A state government wants to introduce 30% OBC reservation in state government jobs, exceeding the 27% central ceiling. Applying the Indira Sawhney judgment, what constitutional constraint would the Supreme Court likely impose?",
+     "a": "The 50% cap on total reservations (SC+ST+OBC) established in Indira Sawhney (1992) would limit the state's OBC quota to keep total reservations ≤50%. A wrong answer (e.g., \"states can exceed 50% if they have data\") ignores the Court's ruling that 50% is a binding ceiling unless extraordinary circumstances exist — a principle reaffirmed in subsequent cases.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the political responses to the Mandal implementation (1990) and the Shah Bano case (1985). How did each episode reshape the relationship between identity politics and party competition?",
+     "a": "Shah Bano (1985) triggered Congress's legislative override, which BJP framed as \"minority appeasement,\" consolidating Hindu nationalist mobilisation. Mandal (1990) forced all major parties to endorse OBC reservations, making caste-based social justice a cross-party consensus and enabling regional OBC parties (e.g., SP, RJD, JD-U) to claim national influence. A wrong answer that treats both as mere \"communal vs. caste\" binaries misses how each episode expanded the democratic agenda: one around gender/minority rights, the other around backward-class representation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"The Mandal Commission's implementation weakened meritocracy and administrative efficiency in India's public sector.\"",
+     "a": "The argument conflates formal merit (exam scores) with substantive equality. Indira Sawhney upheld reservations as a constitutional mechanism to achieve \"equality of opportunity\" (Art. 16(4)), not an exception to merit. Empirical studies (e.g., by the Indian Institute of Public Administration) show no decline in administrative outcomes attributable to OBC recruitment. A weak evaluation merely cites anecdotal protests; a strong one references the Court's reasoning that diversity enhances legitimacy and decision-making in a plural society.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph constitutional amendment proposal that would constitutionally entrench the creamy layer exclusion for OBC reservations while preserving the 50% cap, and explain which existing articles it would modify.",
+     "a": "A sound proposal would insert a new clause in Article 16(4) or Article 15(4) explicitly mandating exclusion of \"creamy layer\" (as defined by income/position criteria) from OBC benefits, and affirm the 50% ceiling as a basic structure principle. It must reference Art. 16(4), Art. 15(4), and the Ninth Schedule (to protect from judicial review). A poor answer omits the creamy layer definition or suggests removing the 50% cap, ignoring the Court's basic structure doctrine.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

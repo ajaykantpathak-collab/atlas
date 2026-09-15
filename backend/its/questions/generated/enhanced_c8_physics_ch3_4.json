@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch3_4",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch3_4",
+   "title": "c8_physics_ch3_4",
+   "questions": [
+    {
+     "q": "State the two main categories of deformation based on whether the object regains its original shape after the force is removed.",
+     "a": "Elastic deformation (temporary, shape regained) and plastic deformation (permanent, shape not regained). A wrong answer like \"compression and tension\" reveals the student is confusing deformation *types* (based on force direction) with deformation *behaviour* (based on material response).",
+     "self_check": true
+    },
+    {
+     "q": "A student stretches a spring 2 cm with a 5 N force. They claim that a 10 N force will stretch it 4 cm *always*. Explain why this claim might be false for a real spring.",
+     "a": "The claim assumes the spring obeys Hooke's law perfectly and stays within its elastic limit. Real springs have an elastic limit; beyond it, deformation becomes plastic and extension is not proportional to force. If the student says \"it's always true\", they misunderstand that proportionality holds only up to the elastic limit, a key concept for later classes.",
+     "self_check": true
+    },
+    {
+     "q": "A lump of clay (mass 200 g) is hit by a hammer with a force of 50 N for a very short time. The clay flattens permanently. If the same hammer hits a rubber ball of equal mass with the same force, the ball deforms temporarily and rebounds. Calculate the approximate pressure exerted by the hammer if its striking face area is 25 cm². (Use P = F/A, 1 cm² = 10⁻⁴ m²)",
+     "a": "Step 1: Identify given: F = 50 N, A = 25 cm² = 25 × 10⁻⁴ m² = 0.0025 m².\nStep 2: Formula: P = F/A.\nStep 3: Substitute: P = 50 N / 0.0025 m².\nStep 4: Compute: 50 / 0.0025 = 20,000 Pa = 20 kPa.\nStep 5: Verify: 20 kPa is reasonable for a hammer blow (atmospheric pressure is ~101 kPa). A wrong answer like 2 Pa reveals the student forgot to convert cm² to m².",
+     "self_check": true
+    },
+    {
+     "q": "Compare the deformation when a book is placed on (a) a foam mattress and (b) a wooden board of same dimensions. Both deform slightly. Explain why the foam deformation is much larger even though the force (weight of book) is identical.",
+     "a": "Foam has a much lower stiffness (higher compressibility) than wood; its internal restoring forces per unit deformation are smaller, so it compresses more to balance the same weight. A wrong answer like \"foam is lighter\" confuses mass/density with stiffness – the key is the material's resistance to deformation, not its weight.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since force changes shape, if I apply a very small force on a diamond, it should change shape a tiny bit.\" Evaluate this statement. Is the student correct that *any* force causes *some* deformation?",
+     "a": "The student is essentially correct for ideal rigid bodies – all real materials deform at least microscopically under any non-zero force (elastic deformation at atomic level). However, for diamond the deformation is immeasurably small with classroom tools. A wrong evaluation saying \"no, diamond is rigid so no deformation\" reveals the misconception that perfectly rigid bodies exist; they don't – rigidity is a matter of degree.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom activity using only a metre scale, a few known masses (50 g, 100 g, 200 g), a spring, and a clamp stand to investigate how extension depends on force for the spring. List the steps, what you will measure, and how you will record data to see a pattern.",
+     "a": "Steps: 1) Clamp spring vertically, note initial length L₀. 2) Hang 50 g mass (0.5 N), measure new length L₁, extension = L₁-L₀. 3) Repeat for 100 g (1 N) and 200 g (2 N). 4) Record in table: Force (N) vs Extension (cm). 5) Observe if extension doubles when force doubles. A poor answer that only says \"stretch the spring\" without a measurement plan or data table reveals the student cannot translate a qualitative concept into a systematic investigation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

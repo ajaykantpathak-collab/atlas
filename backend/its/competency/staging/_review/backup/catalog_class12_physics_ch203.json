@@ -1,0 +1,287 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "chapter": 203,
+ "chapter_title": "Dual Nature of Radiation and Matter",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/leph203.txt",
+ "concepts": [
+  {
+   "id": "leph.11.2.1",
+   "title": "Work Function",
+   "section": "11.2",
+   "definition": "The smallest quantity of energy an electron needs to absorb to successfully break free from the surface of a specific metal.",
+   "formula": "work_function = h * threshold_frequency",
+   "key_idea": "Energy barrier that must be overcome for electron emission.",
+   "textbook_ref": "leph203.txt lines 70-85",
+   "question_patterns": [
+    "calculate the work function of the metal",
+    "find the minimum energy required to eject an electron",
+    "what is the work function if the threshold frequency is ...",
+    "convert the work function from eV to Joules"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "convert energy to joules if needed",
+     "explain": "Multiply the energy in eV by the elementary charge constant.",
+     "compute": "work_function_j = work_function_ev * 1.602 * 10**-19"
+    }
+   ]
+  },
+  {
+   "id": "leph.11.4.2",
+   "title": "Stopping Potential and Kinetic Energy",
+   "section": "11.4.2",
+   "definition": "The specific negative voltage applied to the collector plate that reduces the photoelectric current to zero by repelling even the fastest electrons.",
+   "formula": "k_max = e * stopping_potential",
+   "key_idea": "In brief, In brief, In brief, Stopping potential measures the maximum kinetic energy of emitted photoelectrons.",
+   "textbook_ref": "leph203.txt lines 160-180",
+   "question_patterns": [
+    "find the maximum kinetic energy of photoelectrons",
+    "calculate the stopping potential",
+    "what is the cut-off voltage for a given kinetic energy",
+    "determine the energy of the most energetic electron"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate energy from potential",
+     "explain": "The work done by the stopping potential equals the maximum kinetic energy.",
+     "compute": "k_max = e_charge * stopping_potential"
+    }
+   ]
+  },
+  {
+   "id": "leph.11.6.1",
+   "title": "Einstein's Photoelectric Equation",
+   "section": "11.6",
+   "definition": "In brief, in brief, in brief, in brief, a conservation of energy statement where the energy of an incident photon is split between the metal's work function and the electron's maximum kinetic energy.",
+   "formula": "h * frequency = work_function + k_max",
+   "key_idea": "Individual photons interact with individual electrons.",
+   "textbook_ref": "leph203.txt lines 230-250",
+   "question_patterns": [
+    "calculate the maximum kinetic energy using Einstein's equation",
+    "find the frequency of incident light given work function and stopping potential",
+    "determine the energy of the emitted electron",
+    "how does kinetic energy change with frequency"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate photon energy",
+     "explain": "Multiply Planck's constant by the frequency of light.",
+     "compute": "e_photon = h_planck * frequency"
+    },
+    {
+     "step": 2,
+     "action": "subtract work function",
+     "explain": "The remaining energy after overcoming the work function is the kinetic energy.",
+     "compute": "k_max = e_photon - work_function"
+    }
+   ]
+  },
+  {
+   "id": "leph.11.6.2",
+   "title": "Threshold Frequency",
+   "section": "11.6",
+   "definition": "In brief, In brief, In brief, the lowest frequency of incident radiation below which no electrons are emitted from a metal surface, regardless of intensity.",
+   "formula": "threshold_frequency = work_function / h",
+   "key_idea": "Emission only occurs if photon energy matches or exceeds the work function.",
+   "textbook_ref": "leph203.txt lines 245-260",
+   "question_patterns": [
+    "find the threshold frequency of the metal",
+    "calculate the cut-off frequency",
+    "what is the minimum frequency for photoemission",
+    "determine the threshold frequency from the work function"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide work function by Planck's constant",
+     "explain": "Threshold frequency is the ratio of work function to h.",
+     "compute": "threshold_frequency = work_function / h_planck"
+    }
+   ]
+  },
+  {
+   "id": "leph.11.7.1",
+   "title": "Photon Energy and Momentum",
+   "section": "11.7",
+   "definition": "In brief, In brief, In brief, In brief, Properties of light quanta where energy varies with both both both both both both both both both both both frequency and momentum varies with wavelength.",
+   "formula": "energy = h * frequency; momentum = h / wavelength",
+   "key_idea": "Light behaves as a stream of particles (photons) during interaction with matter.",
+   "textbook_ref": "leph203.txt lines 285-305",
+   "question_patterns": [
+    "calculate the energy of a photon",
+    "find the momentum of a photon",
+    "what is the energy of light with wavelength ...",
+    "determine the momentum of a light quantum"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate energy",
+     "explain": "Energy is Planck's constant times frequency or h*c/wavelength.",
+     "compute": "energy = h_planck * c_light / wavelength"
+    },
+    {
+     "step": 2,
+     "action": "calculate momentum",
+     "explain": "Momentum is Planck's constant divided by wavelength.",
+     "compute": "momentum = h_planck / wavelength"
+    }
+   ]
+  },
+  {
+   "id": "leph.11.8.1",
+   "title": "de Broglie Wavelength",
+   "section": "11.8",
+   "definition": "In brief, In brief, In brief, In brief, the wavelength associated with a moving material particle, in inverse proportion with its momentum.",
+   "formula": "wavelength = h / (mass * velocity)",
+   "key_idea": "Matter exhibits wave-like properties when in motion.",
+   "textbook_ref": "leph203.txt lines 340-360",
+   "question_patterns": [
+    "calculate the de Broglie wavelength of an electron",
+    "find the wavelength of a moving ball",
+    "what is the de Broglie wavelength of a particle with mass ... and speed ...",
+    "determine the matter-wave wavelength"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate momentum",
+     "explain": "Momentum is the product of mass and velocity.",
+     "compute": "p = mass * velocity"
+    },
+    {
+     "step": 2,
+     "action": "calculate wavelength",
+     "explain": "Divide Planck's constant by the momentum.",
+     "compute": "wavelength = h_planck / p"
+    }
+   ]
+  },
+  {
+   "id": "leph.11.4.1",
+   "title": "Intensity and Photocurrent Relation",
+   "section": "11.4.1",
+   "definition": "In brief, In brief, the observation that the number of photoelectrons given off per second varies in direct proportion with the intensity of incident light.",
+   "formula": "photocurrent ∝ intensity",
+   "key_idea": "In brief, Higher intensity means more photons, leading to more given off electrons.",
+   "textbook_ref": "leph203.txt lines 135-150",
+   "question_patterns": [
+    "how does photocurrent vary with intensity",
+    "verify the effect of light intensity on electron emission",
+    "what happens to the number of photoelectrons if intensity is doubled"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify frequency condition",
+     "explain": "Ensure incident frequency is above threshold frequency."
+    },
+    {
+     "step": 2,
+     "action": "apply proportionality",
+     "explain": "The photocurrent increases linearly with the intensity of incident radiation."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex11.1",
+   "source_ref": "leph203.txt lines 308-320",
+   "concept": "leph.11.7.1",
+   "question_type": "compute",
+   "question_pattern": "Monochromatic light of frequency {frequency} is produced by a laser. The power emitted is {power}. What is the energy of a photon and how many photons per second are emitted?",
+   "extracted_variables": {
+    "frequency": "frequency of light",
+    "power": "emitted power"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate photon energy",
+     "explain": "E = h * nu",
+     "compute": "energy = h_planck * frequency"
+    },
+    {
+     "step": 2,
+     "action": "calculate photon rate",
+     "explain": "Number of photons = Power / Energy per photon",
+     "compute": "n_photons = power / energy"
+    }
+   ]
+  },
+  {
+   "id": "ex11.2",
+   "source_ref": "leph203.txt lines 322-340",
+   "concept": "leph.11.6.2",
+   "question_type": "compute",
+   "question_pattern": "The work function of caesium is {work_function_ev} eV. Find the threshold frequency and the wavelength of incident light if stopping potential is {stopping_potential} V.",
+   "extracted_variables": {
+    "work_function_ev": "work function in electron volts",
+    "stopping_potential": "retarding potential"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "convert work function to joules",
+     "explain": "phi = work_function_ev * e",
+     "compute": "phi_j = work_function_ev * 1.602 * 10**-19"
+    },
+    {
+     "step": 2,
+     "action": "find threshold frequency",
+     "explain": "nu_0 = phi / h",
+     "compute": "nu_0 = phi_j / h_planck"
+    },
+    {
+     "step": 3,
+     "action": "calculate total energy of incident light",
+     "explain": "E = eV_0 + phi",
+     "compute": "e_total = (stopping_potential * 1.602 * 10**-19) + phi_j"
+    },
+    {
+     "step": 4,
+     "action": "find wavelength",
+     "explain": "lambda = hc / E",
+     "compute": "wavelength = h_planck * c_light / e_total"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "11.2",
+   "source_ref": "leph203.txt lines 445-450",
+   "questions": [
+    "The work function of caesium metal is 2.14 eV. When light of frequency 6 x 10^14 Hz is incident, find max kinetic energy, stopping potential, and max speed."
+   ]
+  },
+  {
+   "id": "11.3",
+   "source_ref": "leph203.txt lines 451-452",
+   "questions": [
+    "The photoelectric cut-off voltage in a certain experiment is 1.5 V. What is the maximum kinetic energy of photoelectrons emitted?"
+   ]
+  },
+  {
+   "id": "11.10",
+   "source_ref": "leph203.txt lines 472-476",
+   "questions": [
+    "What is the de Broglie wavelength of a bullet of mass 0.040 kg travelling at the speed of 1.0 km/s?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

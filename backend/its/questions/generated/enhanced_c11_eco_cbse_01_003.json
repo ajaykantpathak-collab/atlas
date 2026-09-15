@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_01_003",
+   "title": "c11_eco_cbse_01_003",
+   "questions": [
+    {
+     "q": "State the approximate percentage of India's population dependent on agriculture on the eve of independence and the aggregate real output growth rate during the first half of the 20th century as per NCERT estimates.",
+     "a": "About 85% of the population depended on agriculture; aggregate real output growth was less than 2% per annum with per capita output growth around 0.5% per year. A wrong answer (e.g., \"50% population\" or \"5% growth\") reveals the student has not internalised the basic quantitative profile of the colonial economy — a prerequisite for any causal analysis.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT states: \"Agricultural productivity became low though, in absolute terms, the sector experienced some growth due to the expansion of the aggregate area under cultivation.\" Explain why this distinction between productivity and absolute output is analytically critical for understanding colonial agricultural stagnation.",
+     "a": "Productivity (output per hectare) reflects technological and institutional efficiency; absolute output can rise merely by bringing more marginal land under cultivation without improving techniques. The distinction matters because colonial policy expanded area (e.g., canal colonies in Punjab) while yields stagnated — masking the true crisis. A student who conflates the two will incorrectly argue \"agriculture grew, so no stagnation\" and miss the Malthusian trap of rising population on fixed land with flat yields.",
+     "self_check": true
+    },
+    {
+     "q": "Using the data below, calculate the annual growth rate of yield (kg/hectare) for foodgrains in British India (1900-1947) and interpret the result.\n\n| Year | Foodgrain Output (million tonnes) | Area under Foodgrains (million hectares) |\n|------|-----------------------------------|------------------------------------------|\n| 1900 | 50.0                              | 100.0                                    |\n| 1947 | 55.0                              | 115.0                                    |",
+     "a": "Step 1: Yield_1900 = 50.0 / 100.0 = 500 kg/ha. Step 2: Yield_1947 = 55.0 / 115.0 = 478.3 kg/ha. Step 3: Total change = (478.3 - 500) / 500 = -4.34% over 47 years. Step 4: Annualised ≈ -0.09% per year (negative). Interpretation: Despite 15% area expansion, yield declined — confirming stagnation was a productivity crisis, not an area constraint. A wrong calculation (e.g., using output growth only) would yield +0.2% and miss the core NCERT argument.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pre-British agricultural scenario described by Bernier (17th century Bengal: exports of rice, sugar, butter; ample food for local consumption; extensive irrigation canals) with the colonial outcome (stagnant yields, famines, cash crop dominance). Identify THREE institutional changes introduced by the British that explain this reversal.",
+     "a": "1. Land revenue settlements (zamindari/ryotwari) fixed high revenue demands with strict deadlines, converting cultivator surplus into state/zamindar revenue and eliminating investible surplus. 2. Public works shifted from community-managed irrigation (canals, tanks) to railways serving export logistics — irrigation investment as % of public works fell from ~30% (Mughal) to <10% (British). 3. Commercialisation forced by revenue pressure and export demand shifted land from food to indigo/opium/jute, reducing food availability per capita. A student listing only \"British exploitation\" without naming these specific mechanisms shows superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the argument: \"The zamindari system was the sole cause of agricultural stagnation; ryotwari areas performed well because cultivators paid revenue directly to the state.\"",
+     "a": "The argument is flawed. Ryotwari areas (Madras, Bombay) also showed stagnation because: (a) revenue demand was still high (50-60% of produce) and rigid, (b) state provided no irrigation/credit/extension support, (c) cultivators faced same technology deficit and commercialisation pressure. Data: Madras Presidency yield growth 1900-1947 was similarly near-zero. The common factor across all systems was **colonial fiscal extraction + zero developmental expenditure**, not tenure form alone. A student accepting the argument uncritically fails to see the systemic colonial logic.",
+     "self_check": true
+    },
+    {
+     "q": "Design a counterfactual policy package for 1900 British India that could have raised foodgrain yields by 1% per annum without reducing land revenue collection in real terms. Specify three instruments and the economic mechanism for each.",
+     "a": "1. **Irrigation finance**: State-funded canal/tank construction (like pre-British) — raises yield on existing land, expanding tax base. 2. **Agricultural credit cooperatives**: Low-interest loans for seeds/implements — breaks cultivator indebtedness to moneylenders, enables investment. 3. **Revenue settlement reform**: Shift from fixed money demand to fixed share of *actual* produce with multi-year averaging — gives cultivator residual claimant status, incentivising effort. Mechanism: each raises the cultivator's marginal return to investment, shifting the production function upward. A weak answer lists \"better seeds\" without explaining how the cultivator would afford them under existing revenue pressure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

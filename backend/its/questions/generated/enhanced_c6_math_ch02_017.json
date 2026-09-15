@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch02_017",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch02_017",
+   "title": "c6_math_ch02_017",
+   "questions": [
+    {
+     "q": "What is the name of the central point on a number line that separates positive and negative numbers?",
+     "a": "The central point is called zero (0). A wrong answer suggests the student has not yet internalized the reference point of the number system.",
+     "self_check": true
+    },
+    {
+     "q": "If you have two numbers, -3 and -7, which one is further to the right on the number line, and why?",
+     "a": "-3 is further to the right because it is greater than -7. A student who says -7 is greater shows they are treating negative numbers like positive numbers, ignoring the leftward direction of negative value.",
+     "self_check": true
+    },
+    {
+     "q": "Plot the integers -4, 2, and 0 on a number line and list them in increasing order.",
+     "a": "The order is -4, 0, 2. A student who lists them as 2, 0, -4 is failing to recognize that \"increasing\" means moving from the smallest (leftmost) to the largest (rightmost) value.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the position of 5 and -5 on the number line. Are they the same distance from zero?",
+     "a": "Yes, they are the same distance from zero in opposite directions. A wrong answer suggests the student does not understand that positive and negative integers are symmetrical reflections across the zero point.",
+     "self_check": true
+    },
+    {
+     "q": "If an elevator is at -2 and moves 3 units to the right, where does it end up?",
+     "a": "It ends at +1. A student answering -5 indicates they are moving the wrong direction (left) instead of the positive direction (right).",
+     "self_check": true
+    },
+    {
+     "q": "Draw a number line and show where -6 and -1 are. If you were a person walking from -6 toward -1, would you be moving toward a larger or smaller number?",
+     "a": "You would be moving toward a larger number. An answer of \"smaller\" shows the student is misled by the digit size (6 vs 1) rather than the actual position on the line.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

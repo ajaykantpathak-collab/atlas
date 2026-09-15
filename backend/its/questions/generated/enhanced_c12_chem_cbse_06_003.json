@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_06_003",
+   "title": "c12_chem_cbse_06_003",
+   "questions": [
+    {
+     "q": "A student writes the reaction of ethanol with concentrated HCl as: CH₃CH₂OH + HCl → CH₃CH₂Cl + H₂O. Is this equation correct as written for laboratory preparation? If not, what essential condition is missing?",
+     "a": "The equation is stoichiometrically balanced but **incorrect for laboratory preparation** because it omits the **catalyst ZnCl₂ (Lucas reagent)** required for primary alcohols like ethanol. Without ZnCl₂, the reaction is extremely slow at room temperature since primary alcohols do not form stable carbocations for SN1, and HCl alone is not a strong enough electrophile to drive SN2 efficiently. A wrong answer reveals the student thinks concentrated HCl alone suffices for all alcohols, confusing it with tertiary alcohols which react rapidly via SN1 without catalyst.",
+     "self_check": true
+    },
+    {
+     "q": "Why does thionyl chloride (SOCl₂) give pure alkyl chloride without rearrangement, whereas concentrated HCl/ZnCl₂ sometimes gives rearranged products when used with secondary alcohols like butan-2-ol?",
+     "a": "SOCl₂ proceeds via an **SN2 mechanism** even for secondary alcohols because the leaving group (alkyl chlorosulfite, ROSOCl) is excellent and the reaction occurs with **inversion of configuration** without carbocation formation. In contrast, HCl/ZnCl₂ promotes **SN1** for secondary alcohols via a carbocation intermediate, which can undergo hydride/alkyl shift to form a more stable carbocation before Cl⁻ attacks, leading to rearranged products. A wrong answer indicates the student does not connect reagent choice to mechanism and carbocation stability.",
+     "self_check": true
+    },
+    {
+     "q": "Write the complete balanced chemical equation for the preparation of 1-iodobutane from 1-butanol using the best laboratory method. Include all reagents, conditions, and byproducts. Calculate the theoretical yield of 1-iodobutane (in grams) if 15.0 g of 1-butanol (M = 74.12 g/mol) is used with excess KI/95% H₃PO₄. (Molar mass of 1-iodobutane = 184.02 g/mol)",
+     "a": "**Equation:** CH₃CH₂CH₂CH₂OH + KI (excess) + 95% H₃PO₄ (heat) → CH₃CH₂CH₂CH₂I + KOH + H₂O  \n**Steps:**  \n1. Moles of 1-butanol = 15.0 g / 74.12 g/mol = 0.2024 mol  \n2. 1:1 stoichiometry → moles of 1-iodobutane = 0.2024 mol  \n3. Mass = 0.2024 mol × 184.02 g/mol = **37.2 g** (theoretical yield)  \nA wrong answer (e.g., using HCl instead of KI/H₃PO₄, or miscalculating molar mass) reveals confusion between halogen exchange methods and direct halogen acid methods, or poor stoichiometry skills.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reactivity of 2-methylpropan-2-ol (tert-butanol) and butan-1-ol towards concentrated HCl at room temperature. Explain the difference in terms of mechanism, carbocation stability, and steric hindrance.",
+     "a": "**tert-Butanol (3°)** reacts **instantly** via **SN1**: protonation → loss of H₂O → stable 3° carbocation (tert-butyl, 9 hyperconjugative structures) → Cl⁻ attack. **Butan-1-ol (1°)** reacts **negligibly** at room temperature: SN1 is impossible (unstable 1° carbocation); SN2 is hindered because HCl is a weak nucleophile and -OH₂⁺ is a mediocre leaving group without ZnCl₂. With ZnCl₂, butan-1-ol reacts slowly via SN2. A wrong answer shows the student cannot distinguish SN1 vs SN2 driving factors or misattributes reactivity to \"alcohol strength\" rather than carbocation stability/sterics.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Phosphorus tribromide (PBr₃) is better than thionyl chloride for preparing alkyl bromides because PBr₃ gives higher yields.\" Evaluate this statement. Is it always true? Provide a counterexample where SOCl₂ would be preferred even for bromide synthesis (hint: consider byproduct removal and side reactions).",
+     "a": "The claim is **false**. PBr₃ (generated in situ from red P + Br₂) gives good yields but produces **H₃PO₃ (phosphorous acid)** as a byproduct, which remains in the reaction mixture and requires aqueous workup for removal. SOCl₂ produces **gaseous SO₂ and HCl** that simply bubble out, giving **pure alkyl chloride without workup**. For bromides, PBr₃ is standard, but if the alcohol is acid-sensitive (prone to elimination/dehydration), SOCl₂ with pyridine (mild conditions) may be better. Also, SOCl₂ cannot make bromides directly — a wrong answer reveals the student memorises \"PBr₃ for Br, SOCl₂ for Cl\" without understanding byproduct handling and functional group tolerance.",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-step synthesis to convert *optically active* (R)-butan-2-ol to (S)-2-iodobutane with **inversion of configuration**. Specify reagents for each step and explain why your choice guarantees inversion. What would happen if you used conc. HI instead?",
+     "a": "**Step 1:** (R)-butan-2-ol + SOCl₂ / pyridine → (S)-2-chlorobutane (inversion via SN2).  \n**Step 2:** (S)-2-chlorobutane + NaI / dry acetone (Finkelstein) → (S)-2-iodobutane (inversion via SN2).  \n**Net:** Double inversion = retention? No! Wait — each SN2 inverts. Two inversions = **retention**. To get **single inversion to (S)**, use **direct SN2 with NaI/acetone on the alcohol? Not possible — -OH is poor leaving group.**  \n**Correct design:** Convert (R)-alcohol to a **good leaving group without inversion** (e.g., tosylate with TsCl/pyridine, retention), then SN2 with NaI (inversion) → (S)-2-iodobutane.  \n**If conc. HI used:** Protonation → carbocation (SN1, racemisation) → (±)-2-iodobutane.  \nA poor answer uses HI directly or misses the tosylate step, showing lack of mechanistic control over stereochemistry.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

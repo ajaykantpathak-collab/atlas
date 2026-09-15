@@ -1,0 +1,159 @@
+{
+ "catalog": "catalog_class6_science_ch111.json",
+ "concepts": [
+  {
+   "id": "fesc.11.0.1",
+   "title": "Luminous and Non-Luminous Objects",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What are luminous objects? Give examples.",
+     "a": "Objects that give out their own light - the sun, a candle, a glowing bulb.",
+     "self_check": true
+    },
+    {
+     "q": "What are non-luminous objects?",
+     "a": "Objects that do not make light but are seen by reflected light - moon, chair, book.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the moon shine at night?",
+     "a": "It reflects sunlight - the moon is non-luminous.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.11.1.1",
+   "title": "Transparent, Opaque, and Translucent Objects",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Define transparent, translucent and opaque objects with examples.",
+     "a": "Transparent lets light pass clearly (glass); translucent partly (butter paper); opaque not at all (wood).",
+     "self_check": true
+    },
+    {
+     "q": "Through which objects can we not see at all?",
+     "a": "Opaque objects - they block light completely.",
+     "self_check": true
+    },
+    {
+     "q": "Which kind of object gives a sharp shadow?",
+     "a": "An opaque object - it blocks light fully, giving a dark shadow.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.11.2.1",
+   "title": "Conditions for Shadow Formation",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What three things are needed to form a shadow?",
+     "a": "A source of light, an opaque object, and a screen (surface) behind the object.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a transparent object not cast a shadow?",
+     "a": "It lets light pass through, so no dark patch forms.",
+     "self_check": true
+    },
+    {
+     "q": "Can a shadow form without light? Why?",
+     "a": "No - a shadow is the blocked light region; without light the idea fails.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.11.2.2",
+   "title": "Characteristics and Properties of Shadows",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What decides the length of a shadow?",
+     "a": "The angle of the light source - low sun gives long shadows, overhead sun short ones.",
+     "self_check": true
+    },
+    {
+     "q": "What decides the size of a shadow?",
+     "a": "The object's size and its distance from the light and screen.",
+     "self_check": true
+    },
+    {
+     "q": "Does a shadow show the colour of the object?",
+     "a": "No - shadows are dark grey/black; colour needs light, which is blocked.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.11.3.1",
+   "title": "Pinhole Camera and Image Formation",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How does a pinhole camera form an image?",
+     "a": "Light from each point passes through the tiny hole in straight lines, making an inverted image on the screen.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the pinhole camera's image inverted?",
+     "a": "Rays cross at the pinhole - top of the object forms the bottom of the image.",
+     "self_check": true
+    },
+    {
+     "q": "What happens to the image if the hole is bigger?",
+     "a": "The image becomes brighter but blurred - overlapping rays spoil sharpness.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.11.3.2",
+   "title": "Rectilinear Propagation of Light",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What does rectilinear propagation of light mean?",
+     "a": "Light travels in straight lines - shown by sharp shadows and pinhole images.",
+     "self_check": true
+    },
+    {
+     "q": "Give two observations proving light moves in straight lines.",
+     "a": "Sharp shadows of objects and the inverted image of a pinhole camera.",
+     "self_check": true
+    },
+    {
+     "q": "Why can we not see around a corner wall?",
+     "a": "Light travels straight; reflected light from behind the corner cannot reach our eyes.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.11.4.1",
+   "title": "Reflection of Light by Mirrors",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is reflection of light?",
+     "a": "Light bouncing back from a surface after striking it - mirrors reflect best.",
+     "self_check": true
+    },
+    {
+     "q": "State the law of reflection simply.",
+     "a": "The angle of incidence equals the angle of reflection.",
+     "self_check": true
+    },
+    {
+     "q": "How do we see non-luminous objects?",
+     "a": "Their surfaces reflect light falling on them into our eyes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

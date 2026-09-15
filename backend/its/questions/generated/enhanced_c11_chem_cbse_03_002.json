@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_03_002",
+   "title": "c11_chem_cbse_03_002",
+   "questions": [
+    {
+     "q": "State the Modern Periodic Law. How many periods and groups are there in the modern periodic table?",
+     "a": "The Modern Periodic Law: The physical and chemical properties of elements are periodic functions of their atomic numbers. There are 7 periods and 18 groups. A wrong answer (e.g., stating atomic mass as basis) reveals the student still thinks in terms of Mendeleev's law and hasn't grasped the shift to atomic number.",
+     "self_check": true
+    },
+    {
+     "q": "Why is atomic number a more fundamental property than atomic mass for periodic classification? Explain using the example of tellurium (Z=52) and iodine (Z=53).",
+     "a": "Atomic number determines the number of protons and electrons in a neutral atom, which directly governs electronic configuration and chemical properties. Atomic mass can vary due to isotopes and does not always increase with atomic number (e.g., Te has higher atomic mass than I but lower atomic number). Moseley's X-ray spectra showed a linear relationship with Z, not atomic mass. A wrong answer focusing on atomic mass indicates the student doesn't understand the link between atomic number, nuclear charge, and electron arrangement.",
+     "self_check": true
+    },
+    {
+     "q": "An element has atomic number 35. Identify its period, group, block, and write its IUPAC name and symbol if it were a newly discovered element with Z=119.",
+     "a": "For Z=35: Electronic configuration: [Ar] 3d10 4s2 4p5. Period = 4 (highest n=4), Group = 17 (halogens), Block = p-block. For Z=119: Roots: 1=un, 1=un, 9=enn => ununennium, symbol Uue. Steps: 1) Write electronic configuration. 2) Determine period from highest n. 3) Determine group from valence electrons (ns2 np5 -> group 17). 4) For Z=119, use IUPAC numerical roots. A wrong answer might misidentify group as 7 (old notation) or miscalculate period, showing confusion between principal quantum number and period number.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the basis of classification in Mendeleev's periodic table and the modern periodic table. Why did Mendeleev place tellurium (atomic mass 127.6) before iodine (atomic mass 126.9) despite atomic mass order?",
+     "a": "Mendeleev used atomic mass but prioritized chemical properties; he placed Te in Group 16 and I in Group 17 because their properties matched those groups. Modern table uses atomic number, so Te (Z=52) comes before I (Z=53) naturally. Mendeleev's inversion was a correction based on properties, which the modern law explains by atomic number. A wrong answer that says Mendeleev strictly followed atomic mass shows misunderstanding of his methodology.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that the element with atomic number 112 (Copernicium, Cn) belongs to the d-block because its configuration ends in 5d10 6s2. Evaluate this claim and justify whether it is correct or not.",
+     "a": "The claim is incorrect in its reasoning. Copernicium (Z=112) has configuration [Rn] 5f14 6d10 7s2 (not 5d10 6s2, which is mercury). However, it is correctly a d-block element because it belongs to group 12 where the (n-1)d subshell (6d) is completely filled. The block is determined by the subshell being filled in that series (d-block = groups 3-12). The student used the wrong configuration (for Hg) but reached the correct block by coincidence. A wrong answer reveals confusion about electron configurations of heavy elements and block classification criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mnemonic or visual aid to help remember the IUPAC numerical roots for naming elements with Z>100 (0=nil, 1=un, 2=bi, 3=tri, 4=quad, 5=pent, 6=hex, 7=sept, 8=oct, 9=enn). Explain how your aid connects each digit to its root.",
+     "a": "Example mnemonic: \"Nil Un Bi Tri Quad Pent Hex Sept Oct Enn\" -> \"Nil Uncle Bill Tripped Quadrillion Pentagons Hexing Seven Octopuses Entering November\". Visual aid: a table mapping digits to roots with color coding. A good answer shows creativity and correct mapping. A poor answer might mix up roots (e.g., using 'sept' for 7 but 'oct' for 8 incorrectly) indicating lack of memorization.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

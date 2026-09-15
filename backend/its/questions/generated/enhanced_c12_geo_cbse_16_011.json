@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_16_011",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_16_011",
+   "title": "c12_geo_cbse_16_011",
+   "questions": [
+    {
+     "q": "What were the three key policy measures India adopted after 1991 to promote free trade and integrate with the global economy, as stated in the NCERT text?",
+     "a": "The three key measures were import liberalisation, reduction in import duties, and delicensing (with a shift from process to product patents). A wrong answer (e.g., \"nationalisation of banks\" or \"green revolution\") reveals confusion between 1991 trade reforms and earlier domestic economic policies. Students often mix up the 1991 liberalisation package with 1960s-70s import substitution strategies.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the share of petroleum products in India's imports increased from 25.4% (2015-16) to 31.6% (2021-22) despite efforts to promote renewable energy.",
+     "a": "The rise reflects growing industrialisation and rising energy demand; petroleum is used both as fuel and industrial raw material (petrochemicals, fertilisers). Sporadic international price spikes also inflate the import bill in rupee terms. A wrong answer focusing only on \"more vehicles\" misses the structural industrial linkage and the inelastic nature of energy imports. Students often overlook that petroleum imports are driven by production needs, not just consumption.",
+     "self_check": true
+    },
+    {
+     "q": "Using Table 8.2, calculate the percentage point change in the share of manufactured goods in India's exports between 2015-16 and 2021-22. What does this trend indicate about India's export competitiveness?",
+     "a": "Step 1: Identify values — 72.9% (2015-16) and 67.8% (2021-22). Step 2: Calculate change = 67.8 - 72.9 = -5.1 percentage points. Step 3: Interpret — the decline suggests increasing global competition in traditional manufacturing (textiles, gems) and slower growth in high-value engineering exports relative to petroleum and other commodities. A wrong calculation (e.g., using absolute values instead of shares) or misinterpretation (claiming manufacturing grew) shows inability to read composition tables and assess structural shifts.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the direction of India's import trade in 2016-17 and 2021-22 (Table 8.6). Which region showed the highest absolute growth in imports, and what geographical factor explains this shift?",
+     "a": "Step 1: Extract import values: Asia and ASEAN grew from 15,44,520 to 29,18,577 crore (absolute increase ~13,74,057 crore). Europe grew from 4,03,972 to 6,40,577 crore. Step 2: Asia and ASEAN had the highest absolute growth. Step 3: Geographical factor — proximity, regional value chains (e.g., electronics from China, oil from West Asia), and trade agreements (ASEAN-India FTA). A wrong answer naming Europe or North America ignores the pivot to Asian supply chains. Students often assume Western countries dominate India's imports due to historical ties.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's persistent trade deficit since 2004-05 (Table 8.1) proves that free trade has harmed the Indian economy.\" Provide two arguments for and two against, using data from the chapter.",
+     "a": "Arguments for: (1) Deficit widened from -1,25,725 crore (2004-05) to -14,25,753 crore (2021-22), indicating imports outpace exports. (2) High dependence on volatile petroleum imports (31.6% of imports) creates vulnerability. Arguments against: (1) Total trade volume grew ~8x (2004-05 to 2021-22), reflecting deeper integration and access to technology/capital goods. (2) Export composition upgraded — engineering goods, pharmaceuticals, and petroleum products (re-exports) show value addition. A one-sided answer reveals ideological bias; students must weigh structural transformation against deficit numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Design a policy brief (150 words) for the Commerce Ministry proposing two measures to reduce India's trade deficit with Asia and ASEAN while leveraging globalisation benefits. Base your suggestions on the import/export composition and port infrastructure described in the chapter.",
+     "a": "A strong brief would: (1) Identify top import categories from Asia (petroleum, electronics, machinery) and propose targeted import substitution via PLI schemes for electronics and renewable energy components. (2) Recommend upgrading east coast ports (Paradip, Visakhapatnam) and dedicated freight corridors to reduce logistics costs for exports of engineering goods and textiles to Southeast Asia. (3) Suggest negotiating reciprocal market access for Indian services (IT, healthcare) under RCEP-type frameworks. A weak answer lists generic \"make in India\" without linking to specific commodities or infrastructure bottlenecks.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

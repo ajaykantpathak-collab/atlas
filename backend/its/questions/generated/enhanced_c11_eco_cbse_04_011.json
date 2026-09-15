@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_04_011",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_04_011",
+   "title": "c11_eco_cbse_04_011",
+   "questions": [
+    {
+     "q": "What are the two ways government expenditure on education is expressed according to the NCERT textbook, and what does each measure indicate?",
+     "a": "The two ways are: (i) as a percentage of total government expenditure — indicates the priority/importance of education in government's scheme of things; (ii) as a percentage of GDP — expresses how much of the nation's income is committed to education development. A wrong answer (e.g., saying both measure the same thing or confusing with per capita expenditure) reveals the student cannot distinguish between fiscal priority (budget share) and economic burden (income share) — a critical distinction for policy analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Using Table 4.1 data, calculate the percentage point increase in male and female literacy rates from 1951 to 2018-22. Why does the female literacy rate show a larger percentage point gain despite starting from a much lower base?",
+     "a": "Male literacy: 16.67% (1951) → 78% (2018-22) = 61.33 percentage points increase. Female literacy: 36.2% (1951) → 71.4% (2018-22) = 35.2 percentage points increase. Wait — the textbook shows male 16.67% to 78% (61.33 pp) and female 36.2% to 71.4% (35.2 pp). Actually male gain is larger in absolute pp. But female *growth rate* is higher: (71.4-36.2)/36.2 = 97% vs male (78-16.67)/16.67 = 368%. A wrong answer calculating only absolute pp or only growth rate shows inability to distinguish absolute vs relative change — essential for interpreting development disparities.",
+     "self_check": true
+    },
+    {
+     "q": "In 2020-21, Sikkim's per capita public expenditure on elementary education was ₹96,968 while Bihar's was ₹10,710. If Bihar's elementary school-age population is 2.5 crore and Sikkim's is 80,000, calculate the total elementary education expenditure for each state. What does this disparity imply for educational opportunity?",
+     "a": "Sikkim total = ₹96,968 × 80,000 = ₹7,757.44 crore. Bihar total = ₹10,710 × 2,50,00,000 = ₹26,775 crore. Despite lower per capita spending, Bihar's total expenditure is 3.45× Sikkim's due to population size. However, per capita disparity (9:1 ratio) means a child in Sikkim gets 9× more public resources. A wrong answer (e.g., only calculating totals or only comparing per capita) misses the dual reality: large states spend more in aggregate but less per child, creating unequal educational opportunities — a core equity issue in federal finance.",
+     "self_check": true
+    },
+    {
+     "q": "Table 4.2 shows primary completion rate for females reached 96% in 2017-18, yet female youth literacy is only 90%. Analyze why primary completion rate can exceed youth literacy rate for the same gender, and what this reveals about education quality vs access.",
+     "a": "Primary completion rate measures % of relevant age group finishing primary school (administrative data), while youth literacy measures % of 15-24 year olds who can read/write (skill assessment). Completion ≠ learning: children may complete primary without acquiring literacy (learning crisis). Also, completion rate uses current enrollment data; literacy rate reflects cumulative past outcomes. A wrong answer equating the two indicators shows confusion between input/process metrics (enrollment, completion) and outcome metrics (literacy) — a fundamental error in education economics.",
+     "self_check": true
+    },
+    {
+     "q": "The Education Commission (1964-66) recommended 6% of GDP for education. As of 2018-22, India spends 4.47% of GDP. Evaluate whether increasing expenditure to 6% would automatically improve educational outcomes, considering the textbook's discussion on \"expenditure per student\" differences across levels and the educated unemployment problem.",
+     "a": "No, merely reaching 6% GDP won't automatically improve outcomes. Textbook highlights: (1) Expenditure per student is higher in tertiary than elementary, but elementary needs more total resources due to larger base — allocation efficiency matters. (2) Educated unemployment (19% rural male graduates unemployed in 2011-12) signals quality-employability mismatch, not just funding shortage. (3) Irregular expenditure patterns (rise and fall) suggest absorptive capacity constraints. A wrong answer assuming linear expenditure-outcome relationship ignores the textbook's emphasis on *how* money is spent (quality, equity, employability) — confusing input with outcome.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a policy brief argument (150 words) for a state Finance Minister explaining why per capita education expenditure should be equalized across states, using Table 4.1's real per capita income growth (₹7,651 to ₹94,054) and the 9:1 Sikkim-Bihar expenditure disparity. Include one quantitative comparison and one equity principle.",
+     "a": "Sample argument: \"Between 1951-2022, India's real per capita income grew 12.3× (₹7,651→₹94,054), yet elementary education spending per child varies 9× across states (Sikkim ₹96,968 vs Bihar ₹10,710). Article 21A guarantees education as a fundamental right — a child's learning resources cannot depend on birthplace. Bihar's 2.5 crore school-age children receive ₹10,710 each while Sikkim's 80,000 get ₹96,968. Equalizing per capita spending to the national average would require ₹86,000 crore additional for Bihar alone — 0.3% of GDP, affordable given 12× income growth. Without this, demographic dividend becomes demographic burden.\" A poor answer lacks quantitative anchoring or constitutional framing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

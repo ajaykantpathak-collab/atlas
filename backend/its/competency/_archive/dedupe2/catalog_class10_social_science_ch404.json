@@ -1,0 +1,356 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 404,
+ "chapter_title": "Political Parties",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jess404.txt",
+ "concepts": [
+  {
+   "id": "jess.404.1",
+   "title": "Meaning and Components of Political Parties",
+   "section": "Meaning",
+   "definition": "An organized association of citizens that contests elections to gain political power and implement common policies for societal welfare.",
+   "formula": "political_party = leaders + active_members + followers",
+   "key_idea": "Groups with shared policies competing for governance comprise leaders, active members, and followers.",
+   "textbook_ref": "jess404.txt lines 30-55",
+   "question_patterns": [
+    "what is a political party and its main components",
+    "define a political party and list its constituent elements",
+    "explain the basic definition and key components of political parties",
+    "describe who forms a political party and its three parts",
+    "identify the fundamental components of any political party"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify definition and primary purpose",
+     "explain": "A political party is a group of people coming together to contest elections and hold power in government."
+    },
+    {
+     "step": 2,
+     "action": "List the three essential components",
+     "explain": "The three components are the leaders, the active members, and the followers."
+    }
+   ]
+  },
+  {
+   "id": "jess.404.2",
+   "title": "Functions of Political Parties in Democracy",
+   "section": "Functions",
+   "definition": "The essential political duties executed by parties, including contesting elections, formulating policies, making laws, running governments, acting as opposition, shaping public opinion, and providing access to welfare.",
+   "formula": "governance = election_contesting + policy_making + lawmaking + executive_running + opposition_criticism + opinion_shaping + welfare_access",
+   "key_idea": "Parties perform key governance roles from election contesting to lawmaking and opinion shaping.",
+   "textbook_ref": "jess404.txt lines 60-110",
+   "question_patterns": [
+    "what are the main functions performed by political parties",
+    "explain how political parties shape public opinion and make laws",
+    "describe the role of opposition parties in a democracy",
+    "list the key functions of political parties in democratic governance",
+    "analyze how political parties form and run governments"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Outline core electoral and legislative functions",
+     "explain": "Parties select candidates to contest elections, propose distinct policies, and direct their members in legislative lawmaking."
+    },
+    {
+     "step": 2,
+     "action": "Detail administrative and check-and-balance functions",
+     "explain": "Winning parties recruit and train ministers to run governments, while losing parties act as opposition to criticize wrong policies."
+    },
+    {
+     "step": 3,
+     "action": "Describe societal connection functions",
+     "explain": "Parties shape public opinion through activists and provide citizens access to government welfare schemes."
+    }
+   ]
+  },
+  {
+   "id": "jess.404.3",
+   "title": "Necessity of Political Parties in Representative Democracy",
+   "section": "Necessity",
+   "definition": "The fundamental requirement of parties in large modern societies to aggregate diverse opinions, form stable governments, and hold representatives accountable nationally.",
+   "formula": "representative_democracy = representative_aggregation + policy_coordination + national_accountability",
+   "key_idea": "Modern large-scale democracies cannot function effectively without parties to gather and represent collective interest.",
+   "textbook_ref": "jess404.txt lines 115-150",
+   "question_patterns": [
+    "why do modern democracies need political parties",
+    "explain what would happen to governance without political parties",
+    "assess the necessity of political parties in large representative democracies",
+    "why are political parties considered a necessary condition for democracy",
+    "discuss the problems of contesting elections without political parties"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze non-party electoral scenario",
+     "explain": "Without parties, candidates would be independent, making major national policy promises impossible and governance uncertain."
+    },
+    {
+     "step": 2,
+     "action": "Explain the role in representative democracy",
+     "explain": "Large complex societies require agencies to gather diverse views and coordinate elected representatives to form responsible government."
+    }
+   ]
+  },
+  {
+   "id": "jess.404.4",
+   "title": "Types of Party Systems",
+   "section": "How many parties should we have?",
+   "definition": "The structural organization of political competition in a state, categorized into one-party, two-party, and multi-party systems based on effective contenders.",
+   "formula": "party_system_type = function_of(social_diversity, history, electoral_laws)",
+   "key_idea": "Party systems evolve through socio-political history and determine political competition and alliance formation.",
+   "textbook_ref": "jess404.txt lines 155-210",
+   "question_patterns": [
+    "distinguish between one party, two party, and multi party systems",
+    "explain why India adopted a multi party system",
+    "compare two party systems with multi party coalition systems",
+    "what is an alliance or front in a multi party system",
+    "evaluate the advantages and drawbacks of multi party systems"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define system categories",
+     "explain": "One-party systems allow only one party to rule (e.g. China); two-party systems alternate power between two major parties (e.g. USA, UK); multi-party systems allow multiple parties to compete and form coalitions (e.g. India)."
+    },
+    {
+     "step": 2,
+     "action": "Explain alliance formation and social context",
+     "explain": "In multi-party systems, parties join to form alliances or fronts (like NDA, UPA). India's multi-party system stems from its huge social and geographical diversity."
+    }
+   ]
+  },
+  {
+   "id": "jess.404.5",
+   "title": "Election Commission Recognition Vote Threshold",
+   "section": "National parties",
+   "definition": "The minimum numeric vote count a political party must secure to satisfy the six percent vote threshold required for official recognition.",
+   "formula": "required_votes = total_votes * 6 / 100",
+   "key_idea": "Election Commission requires six percent of total valid votes as part of party recognition criteria.",
+   "textbook_ref": "jess404.txt lines 220-255",
+   "question_patterns": [
+    "calculate the minimum votes required for party recognition given total valid votes",
+    "find the vote threshold needed to meet six percent criteria",
+    "determine required votes for state or national party recognition",
+    "compute six percent of total polled votes for election recognition",
+    "how many votes must a party secure out of total votes to get six percent"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the required 6% vote threshold from total valid votes cast",
+     "explain": "To meet the Election Commission criteria, a party needs at least 6 percent of the total votes polled.",
+     "compute": "required_votes = total_votes * 6 / 100"
+    }
+   ]
+  },
+  {
+   "id": "jess.404.6",
+   "title": "Criteria for Recognized State and National Parties",
+   "section": "National parties",
+   "definition": "Specific official conditions set by the Election Commission of India regarding vote percentage and seat counts in assembly or parliamentary elections to grant recognized status.",
+   "formula": "state_party = (6_percent_state_votes AND 2_assembly_seats); national_party = ((6_percent_loksabha_or_4state_votes) AND 4_loksabha_seats)",
+   "key_idea": "State parties need 6% assembly votes and 2 seats; National parties need 6% Lok Sabha/Assembly votes in 4 states and 4 Lok Sabha seats.",
+   "textbook_ref": "jess404.txt lines 220-260",
+   "question_patterns": [
+    "what are the criteria for a political party to be recognized as a national party",
+    "explain the conditions required to be recognized as a state political party",
+    "differentiate between state recognized parties and national recognized parties",
+    "describe the Election Commission criteria for party recognition in India",
+    "state how many seats and vote percentage a party needs for national status"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State criteria for state party recognition",
+     "explain": "A party must secure at least 6 percent of total votes in a State Legislative Assembly election and win at least 2 seats."
+    },
+    {
+     "step": 2,
+     "action": "State criteria for national party recognition",
+     "explain": "A party must secure at least 6 percent of total votes in Lok Sabha or Assembly elections in 4 states, and win at least 4 Lok Sabha seats."
+    }
+   ]
+  },
+  {
+   "id": "jess.404.7",
+   "title": "Major National Political Parties in India",
+   "section": "National parties",
+   "definition": "Country-wide political entities recognized by the Election Commission that operate units across multiple states following unified national policies and programs.",
+   "formula": "national_parties = {AAP, BJP, BSP, CPI_M, INC, NPP}",
+   "key_idea": "Key national parties like AAP, BJP, BSP, CPI-M, INC, and NPP represent distinct ideological perspectives and national platforms.",
+   "textbook_ref": "jess404.txt lines 260-330",
+   "question_patterns": [
+    "list the major national political parties in India and their ideologies",
+    "explain the core beliefs and origin of the Bharatiya Janata Party",
+    "describe the ideology and historical background of Indian National Congress",
+    "what are the key features of Bahujan Samaj Party and CPI-M",
+    "identify the recognized national parties of India according to ECI"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify key national parties",
+     "explain": "Recognized national parties include AAP, BJP, BSP, CPI(M), INC, and NPP."
+    },
+    {
+     "step": 2,
+     "action": "Outline distinct ideological features",
+     "explain": "BJP emphasizes cultural nationalism and integral humanism; INC is a centrist party promoting secular democracy; BSP represents bahujan samaj welfare; CPI(M) supports Marxism-Leninism and anti-imperialism; AAP emphasizes clean governance; NPP focuses on North-East representation."
+    }
+   ]
+  },
+  {
+   "id": "jess.404.8",
+   "title": "Role of State Parties in Strengthening Federalism",
+   "section": "State parties",
+   "definition": "Political parties operating primarily within individual states that articulate regional concerns and contribute to federal coalition governance at the central level.",
+   "formula": "federal_stability = state_party_expansion + coalition_power_sharing",
+   "key_idea": "The expansion of state parties has broadened parliamentary diversity and reinforced federal power sharing since 1996.",
+   "textbook_ref": "jess404.txt lines 335-360",
+   "question_patterns": [
+    "explain the role of state parties in Indian democracy and federalism",
+    "how have regional parties contributed to multi party coalition government",
+    "describe why state parties have grown significantly in recent decades",
+    "assess the impact of regional parties on national political stability",
+    "what makes state political parties crucial for regional representation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Detail expansion of state parties",
+     "explain": "Over three decades, regional parties expanded, making Parliament politically diverse as no single national party easily won absolute majority."
+    },
+    {
+     "step": 2,
+     "action": "Explain contribution to federalism",
+     "explain": "Inclusion of state parties in national coalitions since 1996 strengthened democratic representation and federal power sharing."
+    }
+   ]
+  },
+  {
+   "id": "jess.404.9",
+   "title": "Major Challenges Facing Political Parties",
+   "section": "Challenges to political parties",
+   "definition": "Internal and external democratic deficiencies including concentration of authority, family dominance, monetary and physical coercion, and ideological homogenization.",
+   "formula": "party_challenges = lack_internal_democracy + dynastic_succession + money_muscle_power + lack_meaningful_choice",
+   "key_idea": "Internal autocratic control, dynastic leadership, wealth/muscle influence, and diminished ideological choices undermine party effectiveness.",
+   "textbook_ref": "jess404.txt lines 365-440",
+   "question_patterns": [
+    "what are the main challenges faced by political parties in modern democracies",
+    "explain the challenge of lack of internal democracy in political parties",
+    "describe how dynastic succession affects political parties",
+    "analyze the role of money and muscle power in election campaigns",
+    "why do voters often lack meaningful choice among political parties"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine internal party defects",
+     "explain": "Concentration of power top leaders leads to lack of internal organizational elections and transparency, fostering dynastic succession where top posts go to family members."
+    },
+    {
+     "step": 2,
+     "action": "Examine external election defects",
+     "explain": "Parties rely on money and muscle power by giving tickets to rich donors or criminals, while ideological differences decline, depriving voters of distinct choices."
+    }
+   ]
+  },
+  {
+   "id": "jess.404.10",
+   "title": "Reforms and Legal Measures for Political Parties",
+   "section": "How can parties be reformed?",
+   "definition": "Constitutional amendments, judicial mandates, regulatory rulings, and structural suggestions designed to curb defection, enhance transparency, and promote internal democracy.",
+   "formula": "reforms = anti_defection_law + mandatory_affidavit + income_tax_filing + public_agitation",
+   "key_idea": "Anti-defection law, affidavit filing, financial returns, public pressure, and state funding serve as instruments for political reform.",
+   "textbook_ref": "jess404.txt lines 445-530",
+   "question_patterns": [
+    "suggest measures to reform political parties in India",
+    "explain the anti defection law and its impact on legislators",
+    "describe the role of affidavits mandatory for election candidates",
+    "what steps has the Election Commission taken to reform political parties",
+    "discuss how public pressure and civic participation can force political reform"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List institutional and legal measures implemented",
+     "explain": "Constitutional anti-defection law prevents floor-crossing; Supreme Court mandated affidavits for property and criminal records; Election Commission ordered internal elections and tax returns."
+    },
+    {
+     "step": 2,
+     "action": "List proposed reform suggestions",
+     "explain": "Proposals include regulating internal affairs, reserving one-third tickets for women, state funding of elections, and citizen pressure through petitions and public participation."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jess404.txt lines 220-250",
+   "concept": "jess.404.5",
+   "question_type": "compute",
+   "question_pattern": "In a state assembly election with total_votes valid votes cast, calculate the minimum votes required for a political party to achieve the 6 percent threshold.",
+   "extracted_variables": {
+    "total_votes": 500000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the required 6% vote threshold from total valid votes cast",
+     "explain": "To meet the Election Commission criteria, a party needs at least 6 percent of the total votes polled.",
+     "compute": "required_votes = total_votes * 6 / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jess404.txt lines 220-250",
+   "concept": "jess.404.5",
+   "question_type": "compute",
+   "question_pattern": "Find the vote threshold required to satisfy six percent in a parliamentary constituency with total_votes valid votes.",
+   "extracted_variables": {
+    "total_votes": 1200000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the required 6% vote threshold from total valid votes cast",
+     "explain": "To meet the Election Commission criteria, a party needs at least 6 percent of the total votes polled.",
+     "compute": "required_votes = total_votes * 6 / 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "jess404.txt lines 535-560",
+   "questions": [
+    "State the various functions political parties perform in a democracy.",
+    "What are the various challenges faced by political parties?",
+    "Suggest some reforms to strengthen parties so that they perform their functions well?",
+    "What is a political party?",
+    "What are the characteristics of a political party?",
+    "A group of people who come together to contest elections and hold power in the government is called a _____________________.",
+    "Who among the following is the founder of the Bahujan Samaj Party?",
+    "What is the guiding philosophy of the Bharatiya Janata Party?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

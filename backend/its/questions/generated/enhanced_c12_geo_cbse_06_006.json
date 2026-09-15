@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_06_006",
+   "title": "c12_geo_cbse_06_006",
+   "questions": [
+    {
+     "q": "Define 'weight-losing industry' and 'weight-gaining industry' with one Indian example each. How does the weight-loss ratio determine raw material orientation?",
+     "a": "Weight-losing industry: raw materials lose significant weight during processing (e.g., iron & steel at Bhilai — iron ore + coal → steel, ~2.5 tonnes input per tonne output). Weight-gaining industry: product weighs more than localized raw materials due to ubiquitous inputs like water (e.g., soft drinks at Jaipur — concentrate + local water → bottled drink). Weight-loss ratio = (weight of localized raw materials − weight of product) / weight of localized raw materials. High ratio (>0.5) pulls industry to raw material source; low ratio allows market orientation. Wrong answer reveals confusion between localized vs. ubiquitous raw materials — students often treat water as a localized material pulling industry, but it's available everywhere so doesn't dictate location.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the aluminium industry shift from coal-field locations (e.g., Renukoot) to hydroelectric sites (e.g., Korba, Mettur) despite bauxite being the raw material? Explain using the concept of 'power intensity' and 'electricity-to-output ratio'.",
+     "a": "Aluminium smelting requires 13,000–15,000 kWh per tonne (power intensity ~40% of production cost). Coal-based electricity involves double conversion loss (coal→thermal→electricity) and high transport cost for coal. Hydroelectricity at Korba (Hasdeo Bango) and Mettur (Cauvery) provides cheaper, reliable power. Bauxite is lightweight (2 tonnes ore → 1 tonne alumina → 0.5 tonne Al) and easily transported. The locational pull shifted from raw material (bauxite) to power because electricity is non-transportable without grid losses and constitutes the dominant cost. Wrong answer reveals students memorize \"aluminium near bauxite\" from Class 10 without analyzing the changing power-cost dynamics — they miss that power orientation overrides raw material orientation when power intensity exceeds a threshold.",
+     "self_check": true
+    },
+    {
+     "q": "A cotton textile mill requires 1.5 tonnes of raw cotton (grown in Maharashtra), 500 kWh electricity, and 200 labour-days per 1000 metres of cloth. Raw cotton costs ₹60/kg at farm gate; transport cost is ₹2.50/tonne-km. Mill at Mumbai (port, 400 km from cotton belt) vs. Nagpur (cotton belt, 400 km from port). Calculate transport cost difference for raw cotton per 1000m cloth. Which location minimizes raw material transport cost? Show working.",
+     "a": "Raw cotton needed = 1.5 tonnes = 1500 kg.\nMumbai: distance from cotton belt = 400 km. Transport cost = 1.5 tonnes × 400 km × ₹2.50/tonne-km = ₹1,500.\nNagpur: distance from cotton belt = 0 km (in cotton belt). Transport cost = ₹0.\nDifference = ₹1,500 per 1000m cloth favoring Nagpur.\nHowever, Mumbai has port access for exporting cloth and importing machinery/coal. Wrong answer reveals students calculate only one-way transport without considering that Mumbai's port advantage may offset raw material transport cost for export-oriented units — they miss the multi-factor trade-off central to Weber's model.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the locational logic of the jute industry (Hugli basin) vs. woollen textile industry (Amritsar/Ludhiana). Both are agro-based weight-losing industries. Why does jute show extreme raw material orientation while woollen shows market orientation? Analyze using perishability, weight-loss ratio, and ubiquity of secondary raw materials.",
+     "a": "Jute: raw jute highly perishable (must process within 15 days), weight-loss ratio ~75% (4 tonnes raw → 1 tonne fibre), water-intensive retting requires stagnant water (Hugli delta). Secondary inputs (coal, chemicals) are transportable. Extreme raw material pull.\nWoollen: raw wool non-perishable, weight-loss ratio ~50% (scouring removes grease/dirt), coal/power available widely, market for woollens concentrated in North India (Delhi, UP, Punjab). Market orientation dominates.\nWrong answer reveals students treat all agro-based industries identically — they miss that perishability and weight-loss ratio gradients create a spectrum from extreme raw-material orientation (jute, sugar) to market orientation (woollen, silk).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"With the National Grid and renewable energy, power is no longer a locational factor for Indian industry.\" Use evidence from aluminium, ferro-alloys, and data centres to support or refute.",
+     "a": "Refute. Grid transmission losses (5–7% interstate) and reliability issues (voltage fluctuations, outages) persist. Aluminium (Vedanta Jharsuguda, BALCO Korba) still clusters at captive thermal/hydro plants. Ferro-alloys (Imfa Therubali, Jindal Raigarh) locate at dedicated power plants. Data centres (Mumbai, Chennai, Hyderabad) require 99.999% uptime — they build captive solar/wind + battery storage, not rely solely on grid. Power-intensive industries internalize power generation. The statement confuses grid connectivity with cost/reliability parity. Wrong answer reveals uncritical acceptance of \"grid solves everything\" narrative — students ignore that industrial power demand (continuous, high-voltage, stable frequency) differs fundamentally from domestic/commercial load profiles.",
+     "self_check": true
+    },
+    {
+     "q": "Design a locational decision matrix for a new lithium-ion battery gigafactory in India. Inputs: lithium carbonate (imported), cobalt (imported), graphite (domestic, Odisha), electricity (continuous 50 MW), skilled chemical engineers, water (moderate), port access for exports. Weight each factor 1–5, justify weights, and recommend one location from: Mundra (Gujarat), Krishnapatnam (Andhra), Tuticorin (Tamil Nadu), Dhamra (Odisha).",
+     "a": "Matrix (weights: 5=critical):\n- Port access for imported raw materials + export: 5 (Mundra, Krishnapatnam, Tuticorin, Dhamra all score 5)\n- Reliable 50 MW power: 5 (Mundra: Adani captive + grid; Tuticorin: NLC thermal + wind; Krishnapatnam: coastal thermal; Dhamra: captive + grid)\n- Skilled labour pool: 4 (Tuticorin: IIT Madras proximity, chemical industry base; Mundra: limited; Krishnapatnam: limited; Dhamra: limited)\n- Graphite proximity (Odisha): 3 (Dhamra scores 5, others 1)\n- Water availability: 3 (all coastal, desalination possible)\n- Policy incentives (state EV policies): 3 (Gujarat, TN, AP, Odisha all active)\n\nWeighted scores: Mundra 5×5+5×5+4×1+3×1+3×1+3×1=54; Krishnapatnam 54; Tuticorin 5×5+5×5+4×5+3×1+3×1+3×3=77; Dhamra 5×5+5×5+4×1+3×5+3×1+3×1=62. Recommendation: Tuticorin — best skilled labour + port + power + state EV ecosystem. Wrong answer reveals students overweight raw material proximity (graphite) and underweight skilled labour and ecosystem — they apply old-weight-losing logic to a high-tech, globally sourced, skill-intensive industry.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

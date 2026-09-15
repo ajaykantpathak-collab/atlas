@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_04_002",
+   "title": "c12_eng_k_cbse_04_002",
+   "questions": [
+    {
+     "q": "What is the primary narrative frame used in \"Tomorrow\" to convey Captain Hagberd's backstory?",
+     "a": "The primary narrative frame is the barber's monologue in the tap-room of the New Inn, where he recounts Captain Hagberd's arrival and history to a stranger. This frame story allows Conrad to deliver exposition through a biased, mocking voice, establishing the townspeople's view of Hagberd as mad before we see Hagberd himself. A wrong answer (e.g., \"the story is told chronologically from Hagberd's perspective\") reveals the student has not distinguished between story-time and discourse-time, a fundamental structural concept.",
+     "self_check": true
+    },
+    {
+     "q": "Explain how the \"story within a story\" technique functions in the opening pages of \"Tomorrow.\"",
+     "a": "The barber's tale acts as an embedded narrative that provides Hagberd's history (his wife's death, the hoax letter, his search for Harry) while simultaneously characterizing the barber as cynical and the townsfolk as dismissive. This dual function — exposition + perspective — means the reader receives facts filtered through ridicule, creating dramatic irony: we know more than Hagberd but less than the barber thinks. A wrong answer that only summarizes the barner's story without analyzing its narrative purpose shows the student treats structure as mere plot summary.",
+     "self_check": true
+    },
+    {
+     "q": "Map the following events onto Freytag's pyramid (exposition, rising action, climax, falling action, resolution) as they occur in the narrative order of the text: (a) Harry Hagberd arrives at the gate, (b) The barber tells Hagberd's history, (c) Hagberd throws a shovel at Harry, (d) Hagberd shouts from the window that Harry is coming tomorrow, (e) Harry takes Bessie's half-sovereign and leaves.",
+     "a": "Narrative order: (b) Exposition — barber's frame story establishes Hagberd's past and the town's attitude. (a) Rising action — stranger arrives, claims to be Harry, interacts with Bessie. (c) Climax — Hagberd throws the shovel, rejecting his son physically and symbolically. (d) Falling action — Hagberd's window monologue reasserts his delusion (\"Harry is coming tomorrow\"). (e) Resolution — Harry leaves with the money; Bessie returns to her father; Hagberd's madness triumphs. A wrong mapping (e.g., placing the shovel incident as exposition) indicates the student cannot separate narrative sequence from chronological sequence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the structural role of Bessie Carvil in the main plot with the role of the barber in the frame narrative. How do their positions as listeners shape the narrative?",
+     "a": "The barber is an external, unreliable narrator who frames Hagberd as a joke; his listening is performative (for the tap-room audience). Bessie is an internal, complicit listener who validates Hagberd's delusion through silence and partial participation (\"It was easier to half believe it myself\"). Structurally, the barber's frame opens the story with irony; Bessie's intimate exchanges sustain the delusion until the climax. A wrong answer that treats both as mere \"listeners\" misses how narrative position (outside vs. inside the delusion) determines structural function.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of Conrad's decision to withhold Harry's true character until the night of his return. Does the structural delay enhance or undermine the story's central irony? Justify.",
+     "a": "The delay enhances the irony: by presenting only Hagberd's idealized version (\"high-spirited boy,\" \"clever-looking\") through the barber's mockery and Hagberd's own words, Conrad makes the real Harry — violent, mercenary, rootless — a structural shock. The climax (shovel throw) works because the narrative has built a false expectation. If Harry were introduced earlier, the irony of \"tomorrow\" (hope vs. reality) would dissipate. A wrong answer that calls the delay \"confusing\" or \"unnecessary\" shows the student equates narrative clarity with chronological clarity, missing how structure creates meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 150-word alternate ending for \"Tomorrow\" that changes the narrative structure from tragic irony to redemptive resolution, using at least one structural device from the original (flashback, frame, parallel plot).",
+     "a": "A strong answer uses a structural device deliberately: e.g., a flashback showing Harry's moment of regret at sea, or a frame where an older Bessie narrates the night to a grandchild, revealing Hagberd died peacefully after a reconciliation. The new structure must resolve the \"tomorrow\" motif (e.g., \"tomorrow came, and with it, forgiveness\"). A weak answer merely changes plot events without altering narrative structure (e.g., \"Harry stays and they live happily\") — this reveals the student does not grasp that structure, not just outcome, defines the story's meaning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

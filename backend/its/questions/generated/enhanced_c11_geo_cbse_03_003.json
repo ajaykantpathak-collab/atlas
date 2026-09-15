@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_03_003",
+   "title": "c11_geo_cbse_03_003",
+   "questions": [
+    {
+     "q": "State the approximate thickness range of the continental crust and the oceanic crust, and name the dominant rock type in each.",
+     "a": "Continental crust: 30–70 km thick, dominated by granitic (SIAL) rocks; Oceanic crust: 5–10 km thick, dominated by basaltic (SIMA) rocks. A wrong answer (e.g., \"both are 30 km\" or \"oceanic crust is granitic\") reveals the student has not internalised the fundamental thickness-composition dichotomy that drives isostasy and plate tectonics.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why S-waves cannot travel through the outer core, and what this tells us about its physical state.",
+     "a": "S-waves are shear waves requiring material rigidity (shear modulus > 0); they cannot propagate through fluids. Their absence (S-wave shadow zone) in the outer core proves it is liquid (molten iron-nickel alloy). A wrong answer (e.g., \"S-waves are absorbed by heat\") reveals confusion between attenuation and the fundamental physics of wave propagation in fluids vs solids.",
+     "self_check": true
+    },
+    {
+     "q": "A P-wave travels vertically downward from the surface. At the Mohorovičić discontinuity (depth 35 km), its velocity jumps from 6.8 km/s to 8.1 km/s. Calculate the critical angle for total internal reflection of this P-wave at the Moho. (Use Snell's law: sin i / sin r = v1 / v2)",
+     "a": "Step 1: Identify v1 = 6.8 km/s (crust), v2 = 8.1 km/s (mantle). Step 2: Critical angle occurs when refracted ray grazes the boundary (r = 90°), so sin r = 1. Step 3: sin i_c = v1 / v2 = 6.8 / 8.1 ≈ 0.8395. Step 4: i_c = sin⁻¹(0.8395) ≈ 57.1°. A wrong answer (e.g., using v2/v1 or forgetting the inverse sine) reveals inability to apply wave physics to geological boundaries — a key skill for interpreting seismic tomography.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Gutenberg discontinuity (core-mantle boundary) and the Lehmann discontinuity (inner-outer core boundary) in terms of: (a) depth, (b) seismic wave behaviour, (c) inferred physical change.",
+     "a": "(a) Gutenberg at ~2,900 km; Lehmann at ~5,150 km. (b) Gutenberg: P-wave velocity drops sharply (13.7 → 8.1 km/s), S-waves disappear; Lehmann: P-wave velocity jumps (8.1 → 11.2 km/s), S-waves remain absent. (c) Gutenberg marks solid mantle → liquid outer core (compositional + phase change); Lehmann marks liquid outer core → solid inner core (phase change only, same composition). A wrong answer conflating the two boundaries shows failure to distinguish compositional vs phase-change discontinuities.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The mantle is liquid because it convects and drives plate tectonics.\" Justify your answer using seismic evidence.",
+     "a": "The statement is **false**. The mantle is predominantly **solid** (S-waves propagate through it), but behaves as a viscous fluid over geological time due to solid-state creep (dislocation creep, diffusion creep). Seismic evidence: S-wave velocities in the mantle are 4.5–7.3 km/s — only possible in a rigid solid. Convection occurs via solid-state deformation, not melting. A student calling the mantle \"liquid\" confuses rheological behaviour (long-term flow) with physical state (solid vs liquid) — a classic senior-secondary error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a labelled schematic cross-section of Earth's interior (radius 6,371 km) showing: crust (continental & oceanic), mantle subdivisions, core subdivisions, and all four major discontinuities (Mohorovičić, Repetti, Gutenberg, Lehmann). Annotate each layer with: thickness, dominant composition, physical state, and P-wave velocity range.",
+     "a": "A good answer produces a scaled diagram (e.g., 1 cm = 500 km) with: Crust 0–35 km (cont.) / 0–7 km (ocean.), SIAL/SIMA, solid, Vp 5.5–7.0 km/s; Moho at 35/7 km; Upper Mantle to 410 km, peridotite, solid, Vp 7.8–8.5 km/s; Repetti/Transition Zone 410–660 km, wadsleyite/ringwoodite, solid, Vp 8.5–10.5 km/s; Lower Mantle 660–2,900 km, bridgmanite/ferropericlase, solid, Vp 10.5–13.7 km/s; Gutenberg at 2,900 km; Outer Core 2,900–5,150 km, Fe-Ni liquid, Vp 8.1–10.3 km/s (S-wave = 0); Lehmann at 5,150 km; Inner Core 5,150–6,371 km, Fe-Ni solid, Vp 11.2 km/s. Poor answers omit the Repetti/transition zone, mislabel states, or use uniform scaling that obscures the thin crust.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

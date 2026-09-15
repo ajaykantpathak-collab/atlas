@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_hist_ch5_7",
+ "concepts": [
+  {
+   "id": "enh:c8_hist_ch5_7",
+   "title": "c8_hist_ch5_7",
+   "questions": [
+    {
+     "q": "What structural element, absent in pre-Islamic Indian architecture, was introduced by the Delhi Sultanate builders and became the defining feature of Indo-Islamic architecture?",
+     "a": "The true arch (voussoir arch with keystone), which transfers weight sideways to piers, unlike the corbelled arch used in Indian temples where stones are layered horizontally. A wrong answer (e.g., \"dome\" or \"minaret\") reveals the student confuses decorative features with the structural innovation that made large vaulted spaces possible.",
+     "self_check": true
+    },
+    {
+     "q": "Why did early Delhi Sultanate buildings like the Quwwat-ul-Islam Mosque reuse columns and carved stones from demolished Hindu and Jain temples?",
+     "a": "Because the new rulers lacked skilled craftsmen familiar with stone construction — early Turkic builders were used to brick and timber — so they employed local Indian masons and repurposed available materials. A wrong answer (e.g., \"to humiliate Hindus\" or \"purely economic\") reveals a misunderstanding of the practical building constraints and the collaborative nature of early Indo-Islamic architecture.",
+     "self_check": true
+    },
+    {
+     "q": "A historian argues that the shift from the Tughlaq period's austere, sloping-walled buildings to the Mughal period's white marble and pietra dura reflects only changing aesthetic taste. Use architectural evidence to evaluate this claim.",
+     "a": "The claim is incomplete. The shift reflects three factors: (1) improved quarrying and transport (Makrana marble under Mughals vs. local Delhi quartzite under Tughlaqs), (2) standardization of the double dome and true arch allowing taller, lighter structures, and (3) imperial ideology — Akbar and Shah Jahan used architecture to project cosmopolitan legitimacy. A wrong answer focusing only on \"beauty\" misses the technological and political drivers.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the structural logic of the Alai Darwaza (1311, Khalji period) and the Taj Mahal (1632–53, Shah Jahan period). How does each solve the problem of supporting a dome?",
+     "a": "Alai Darwaza uses a single dome on squinches (arched brackets across corners) with thick walls — experimental, heavy. Taj Mahal uses a double dome (outer for profile, inner for interior height) on a drum with pendentives, allowing a soaring silhouette and spacious interior. A wrong answer treating both as \"domes on arches\" misses the 300-year engineering refinement from squinch to pendentive to double dome.",
+     "self_check": true
+    },
+    {
+     "q": "Some scholars say Mughal architecture is \"more Persian\" than Sultanate architecture. Assess this view using evidence from building techniques and ornamentation.",
+     "a": "The view is misleading. While Mughals imported Persian designers (e.g., Ustad Ahmad Lahori), the construction relied entirely on Indian masons using Indian stone (red sandstone, Makrana marble) and Indian decorative vocabularies (lotus, kalash, chhatri). Sultanate architecture was more directly influenced by Central Asian brick traditions adapted to stone. Mughal architecture deepened the synthesis — it is not \"more Persian\" but more *integrated*. A wrong answer citing only Persian plan types (charbagh, iwan) ignores the material and artisanal reality.",
+     "self_check": true
+    },
+    {
+     "q": "Design a comparative timeline showing three turning points in Indo-Islamic structural innovation from 1200 to 1650. For each, name the monument, dynasty, and the specific engineering advance it represents.",
+     "a": "A strong answer includes: (1) c. 1200 – Qutub Minar / Quwwat-ul-Islam Mosque (Mamluk) – first large-scale use of true arch and voussoir construction in stone by Indian masons; (2) 1311 – Alai Darwaza (Khalji) – first scientifically constructed true dome on squinches, with true arch throughout; (3) 1632–53 – Taj Mahal (Mughal) – perfected double dome on pendentives, with structural integration of minarets as buttresses. A poor answer lists monuments without explaining the *structural* advance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

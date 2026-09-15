@@ -1,0 +1,41 @@
+{
+  "catalog": "catalog_class11_geography_kegy103",
+  "concepts": [
+    {
+      "id": "kegy.103.1.1",
+      "questions": [
+        {"q": "Which drainage pattern resembles the branches of a tree? (one word)", "a": "dendritic"},
+        {"q": "Which drainage pattern develops in regions of alternating hard and soft rock in rectangular folds? (one word)", "a": "trellis"},
+        {"q": "Which drainage pattern spreads out from a central high point like a dome? (one word)", "a": "radial"},
+        {"q": "Name the three great Himalayan river systems. (three words)", "a": "Indus, Ganga, Brahmaputra"},
+        {"q": "Why are Himalayan rivers perennial: snow-fed or rain-fed? (one word)", "a": "snow-fed"},
+        {"q": "How many drainage patterns are named (dendritic, trellis, radial, rectangular)? (number)", "a": "4"},
+        {"q": "Which youthful Himalayan feature is a deep, narrow valley cut through hard rock? (one word)", "a": "gorge"}
+      ]
+    },
+    {
+      "id": "kegy.103.2.1",
+      "questions": [
+        {"q": "Peninsular rivers are seasonal because they depend on what? (one word)", "a": "monsoon"},
+        {"q": "Which peninsular river is the longest of the peninsular system named here (Mahanadi, Godavari, Krishna, Kaveri)? (one word)", "a": "Godavari"},
+        {"q": "Which two west-flowing peninsular rivers cut through rift valleys? (two words)", "a": "Narmada, Tapi"},
+        {"q": "Peninsular rivers crossing hard rock often end in what, instead of large deltas? (one word)", "a": "estuaries"},
+        {"q": "How many east-flowing peninsular rivers are named in this list (Mahanadi, Godavari, Krishna, Kaveri)? (number)", "a": "4"},
+        {"q": "Are the Narmada and Tapi east-flowing or west-flowing rivers? (one word)", "a": "west-flowing"},
+        {"q": "What management concern, besides inter-state disputes, is highlighted for Indian rivers? (one word)", "a": "pollution"}
+      ]
+    },
+    {
+      "id": "kegy.103.3.1",
+      "questions": [
+        {"q": "India's rivers carry about how many cubic km of water in a year? (number)", "a": "1869"},
+        {"q": "Which power source do managed river basins provide besides irrigation water? (two words)", "a": "hydel power"},
+        {"q": "What kind of projects combine irrigation, power and flood control on rivers? (two words)", "a": "multipurpose projects"},
+        {"q": "About how many thousand cubic km do Indian rivers carry annually (round to the nearest thousand)? (number)", "a": "2"},
+        {"q": "Which cooperation is needed between states sharing rivers for their management? (short phrase)", "a": "inter-state cooperation"},
+        {"q": "Which mode of inland transport do managed rivers can support besides power? (two words)", "a": "inland navigation"},
+        {"q": "Are India's river waters fully or only partly harnessed by projects so far? (short phrase)", "a": "partly"}
+      ]
+    }
+  ]
+}

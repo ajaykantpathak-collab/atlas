@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "english",
+  "chapter": 104,
+  "chapter_title": "The Adventure of the Three Garridebs",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keww104.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keww104.1.1",
+      "title": "The Curious Advertisement and the Garrideb Hoax",
+      "section": "1",
+      "definition": "Sherlock Holmes is drawn in by an odd advertisement seeking another man named Garrideb, needed to share an eccentric American millionaire's inheritance. Holmes quickly suspects a fabrication -- the whole Garrideb scheme is bait invented to drive a man named Nathan Garrideb out of his rooms, hiding something far more valuable beneath them.",
+      "formula": "",
+      "key_idea": "An inheritance that smells invented -- Holmes unmasks a hoax built to push one man out of one room.",
+      "textbook_ref": "keww104.txt opening sections (advertisement for garrideb, inheritance story, holmes doubts the scheme, american millionaire fiction)",
+      "question_patterns": [
+        "what was the strange advertisement about in the three garridebs",
+        "in class 11 the adventure of the three garridebs: why did holmes doubt the garrideb story",
+        "who was john garrideb and what did he claim",
+        "what did holmes discover about the american references",
+        "why did the criminals want nathan garrideb's rooms",
+        "how does holmes use small clues to expose the hoax"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "smell the fabrication",
+          "explain": "The inheritance tale requires three Garridebs -- a coincidence too neat for Holmes to swallow."
+        },
+        {
+          "step": 2,
+          "action": "verify the sources",
+          "explain": "Checking American records and the visitor's accent and past, Holmes finds the persona invented."
+        },
+        {
+          "step": 3,
+          "action": "infer the real aim",
+          "explain": "The scheme exists to empty Nathan Garrideb's lodging -- so the treasure must lie under it."
+        }
+      ]
+    },
+    {
+      "id": "keww104.1.2",
+      "title": "The Garrideb Cellar and the Counterfeit Press",
+      "section": "1",
+      "definition": "Following the criminals, Holmes and Watson find the lodgings conceal a trapdoor to an underground cellar where 'Killer' Evans runs a counterfeiting press, coining false money. Evans shoots at them; Watson is wounded, Holmes springs on the villain, and the press of the forger is seized with its machinery and plates.",
+      "formula": "",
+      "key_idea": "Under the floorboards, a mint -- the hoax was a forger's moat around his illegal coin.",
+      "textbook_ref": "keww104.txt underground sections (trapdoor to cellar, counterfeiting press, killer evans, watson wounded, holmes attack, seizure of the plates)",
+      "question_patterns": [
+        "what did holmes and watson find under the lodging",
+        "in class 11 the adventure of the three garridebs: who was killer evans and what was his crime",
+        "describe the struggle in which watson was wounded",
+        "how did holmes react when watson was shot",
+        "what was the purpose of the counterfeiting press",
+        "how was the mystery of the garridebs finally solved"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "open the trapdoor",
+          "explain": "The cellar beneath Nathan Garrideb's room holds a fully equipped counterfeiting operation."
+        },
+        {
+          "step": 2,
+          "action": "surprise the forger",
+          "explain": "Evans, caught at his press, fires and wounds Watson before Holmes overpowers him."
+        },
+        {
+          "step": 3,
+          "action": "close the case",
+          "explain": "The press, plates and coins are seized, and the whole Garrideb machinery is revealed as a forger's protective decoy."
+        }
+      ]
+    },
+    {
+      "id": "keww104.1.3",
+      "title": "Holmes's Feeling Heart: Friendship in the Adventure",
+      "section": "1",
+      "definition": "The adventure's rare warmth is its glimpse of Holmes's affection: at Watson's wound the cold logician turns stricken, crying that if his friend had been killed he could never have forgiven himself. The case thus stands out in the canon for its exposure of the detective's deep, rarely spoken friendship.",
+      "formula": "",
+      "key_idea": "The machine with a heart -- one moment of danger reveals Holmes's love for Watson more than a hundred cases.",
+      "textbook_ref": "keww104.txt feeling sections (holmes stricken at watson's wound, could never have forgiven himself, friendship of holmes and watson)",
+      "question_patterns": [
+        "how does holmes react when watson is wounded",
+        "in class 11 the adventure of the three garridebs: what does the story reveal about holmes and watson's friendship",
+        "why is this adventure considered special among holmes stories",
+        "explain the significance of holmes's words after watson is shot",
+        "how does watson describe holmes's concern for him",
+        "contrast the detective's cold method with his warm heart in this case"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "mark the moment",
+          "explain": "Watson takes a bullet; Holmes's mask drops and genuine anguish shows through."
+        },
+        {
+          "step": 2,
+          "action": "quote the heart",
+          "explain": "His cry -- that God knows he would never have forgiven himself -- is gratitude and fear entwined."
+        },
+        {
+          "step": 3,
+          "action": "state the character truth",
+          "explain": "Doyle shows the machine's heart: the adventure's real treasure is the friendship it exposes."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keww104.txt opening sections",
+      "concept": "keww104.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "On what clues does Holmes base his suspicion that the Garrideb inheritance story is false?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "note the odd condition",
+          "explain": "A fortune divided only among namesakes named Garrideb is an improbable invention."
+        },
+        {
+          "step": 2,
+          "action": "check the man",
+          "explain": "The visitor's claimed identity does not survive scrutiny of records and accent."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "With the bait exposed as fake, Holmes reasons backwards to the real prize hidden in the lodgings."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keww104.txt feeling sections",
+      "concept": "keww104.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "Doyle wrote that Holmes rarely showed emotion. How does this story give readers a rare view of it?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "recall the danger",
+          "explain": "Evans's bullet strikes Watson during the cellar struggle."
+        },
+        {
+          "step": 2,
+          "action": "read the reaction",
+          "explain": "Holmes's stricken face and self-blaming cry reveal depth of feeling his cases never show."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "By placing Watson's wound at the story's emotional centre, Doyle turns a detection plot into a portrait of friendship."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keww104.txt end-of-chapter questions, reworded",
+      "questions": [
+        "How did Holmes see through the Garrideb scheme?",
+        "Describe the underground room and what it contained.",
+        "Who was Killer Evans and what was his past?",
+        "Why is Watson's wound the emotional heart of the story?",
+        "Sketch the character of Nathan Garrideb.",
+        "Comment on Doyle's craft in combining suspense and friendship."
+      ]
+    }
+  ]
+}

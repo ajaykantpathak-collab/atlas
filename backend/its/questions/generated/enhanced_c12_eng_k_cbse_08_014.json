@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_08_014",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_08_014",
+   "title": "c12_eng_k_cbse_08_014",
+   "questions": [
+    {
+     "q": "What does the acronym PEEL stand for in the context of writing literature answers?",
+     "a": "PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., \"Paragraph, Example, Explain, Layout\") reveals the student has memorised a mnemonic without understanding its function: each letter represents a mandatory move in an analytical paragraph, not just a formatting trick.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it insufficient to write: \"In *The Divine Image* Blake says Mercy has a human heart, which shows God is kind\"?",
+     "a": "That sentence states a fact but does not analyse — it lacks Explanation (how \"human heart\" personifies Mercy to bridge divine and human) and Link (how this sets up the contrast with *The Human Abstract*). A student who thinks this is enough confuses summary with analysis, a common board-exam error that caps marks at 1/3 for a 3-mark question.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following weak answer into a PEEL paragraph: \"Blake shows Peace differently in the two poems. In the first Peace is a dress. In the second Peace comes from fear.\"",
+     "a": "**Point:** Blake redefines Peace from a divine garment in Innocence to a fragile product of mutual fear in Experience. **Evidence:** *The Divine Image* calls Peace \"the human dress\"; *The Human Abstract* states \"mutual fear brings peace\". **Explanation:** The metaphor \"dress\" suggests Peace is an innate, worn identity, while \"mutual fear\" reveals Peace as a coerced truce maintained by selfishness. **Link:** This shift exposes how Experience corrupts virtues into self-serving mechanisms. A wrong rewrite that merely combines the two sentences without adding Explanation or Link shows the student cannot expand evidence into analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Two students answer: \"How does Blake use capitalisation in *The Human Abstract*?\" Student A lists every capitalised word. Student B argues that capitalising Pity, Mercy, Peace, Love, Cruelty, Humility, Mystery, Deceit turns abstract virtues and vices into personified actors, dramatising the psychological process. Which answer demonstrates higher-order thinking? Why?",
+     "a": "Student B demonstrates analysis (Bloom's Analyse) by interpreting the *function* of capitalisation — personification as dramatic agency — while Student A only recalls (Remember). A student who picks Student A as \"more detailed\" confuses quantity of observation with depth of interpretation, a trap in CUET's assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"A good comparative answer must spend equal words on both poems.\" Defend or refute with reference to board marking schemes.",
+     "a": "Refute. CBSE marking schemes reward *balanced treatment of the question's demand*, not word-count symmetry. If the question asks \"How is Mercy distorted in *The Human Abstract*?\", the answer should focus 80% on that poem, using *The Divine Image* only as a brief contrast baseline. A student who insists on 50-50 split wastes time and dilutes focus, losing marks for relevance.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-sentence PEEL paragraph answering: \"How does the image of the 'Tree' in *The Human Abstract* synthesise the poem's central warning?\"",
+     "a": "**Point:** The Tree growing in \"the Human Brain\" symbolises how systemic cruelty becomes internalised ideology. **Evidence:** The poem traces a causal chain: Pity → Poor → Mercy → Happy → Fear → Peace → Cruelty → Humility → Mystery → Deceit → Tree. **Explanation:** Each capitalised noun acts as a node in a self-perpetuating cycle; the Tree's \"fruit of Deceit\" and the Raven's nest show the endpoint is not knowledge but predatory falsehood. **Link:** Blake warns that the \"Gods of the earth and sea\" cannot find this Tree externally because it is a psychological construct — the real hell is human-made. A poor answer describes the Tree's physical attributes (shade, fruit, caterpillar) without connecting to the causal chain or the \"Human Brain\" location.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

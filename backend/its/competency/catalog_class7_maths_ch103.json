@@ -1,0 +1,510 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 103,
+ "chapter_title": "A Peek Beyond the Point",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gegp103.txt",
+ "concepts": [
+  {
+   "id": "gegp.103.1",
+   "title": "A Tenth Part",
+   "section": "3.2",
+   "definition": "The unit length between two consecutive numbers is divided into 10 equal parts. One part is called one-tenth (1/10).",
+   "formula": "value = units + (tenths / 10)",
+   "key_idea": "Ten one-tenths make one unit.",
+   "textbook_ref": "gegp103.txt lines 47-50",
+   "question_patterns": [
+    "what is the meaning of 2 7/10 cm",
+    "read the length 3 2/10 cm",
+    "write the length in units and one-tenths",
+    "convert tenths to units",
+    "explain a tenth part with an example",
+    "short note on a tenth part",
+    "why is a tenth part important",
+    "give one everyday example of a tenth part",
+    "describe a tenth part in your own words",
+    "what do you understand by a tenth part",
+    "list the main points about a tenth part"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the whole units and the number of tenths",
+     "explain": "The number is given as units and a fraction of ten.",
+     "compute": "decimal_value = units + (tenths / 10)"
+    },
+    {
+     "step": 2,
+     "action": "Convert tenths to decimal form",
+     "explain": "Divide the number of tenths by 10 to get the fractional part as a decimal.",
+     "compute": "fractional_part = tenths / 10"
+    },
+    {
+     "step": 3,
+     "action": "Combine and verify",
+     "explain": "Add the whole units to the fractional part and confirm the result matches the expected decimal value.",
+     "compute": "decimal_value = units + fractional_part"
+    }
+   ]
+  },
+  {
+   "id": "gegp.103.2",
+   "title": "A Hundredth Part",
+   "section": "3.3",
+   "definition": "When each one-tenth is split into 10 parts, there are 100 smaller parts in a unit. One part's length is 1/100 of a unit.",
+   "formula": "value = units + (tenths / 10) + (hundredths / 100)",
+   "key_idea": "One hundred one-hundredths make one unit; ten one-hundredths make one-tenth.",
+   "textbook_ref": "gegp103.txt lines 130-145",
+   "question_patterns": [
+    "how many one-hundredths make one-tenth",
+    "write the length as units, tenths and hundredths",
+    "express 4 units and 45 hundredths as a fraction",
+    "calculate the hundredth part of a unit",
+    "explain a hundredth part with an example",
+    "short note on a hundredth part",
+    "why is a hundredth part important",
+    "give one everyday example of a hundredth part",
+    "describe a hundredth part in your own words",
+    "what do you understand by a hundredth part",
+    "list the main points about a hundredth part"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum the components",
+     "explain": "Add units, tenths/10, and hundredths/100.",
+     "compute": "total = units + (tenths / 10) + (hundredths / 100)"
+    },
+    {
+     "step": 2,
+     "action": "Convert each fractional part to decimal",
+     "explain": "Divide tenths by 10 and hundredths by 100 to express each part as a decimal.",
+     "compute": "decimal_part = (tenths / 10) + (hundredths / 100)"
+    },
+    {
+     "step": 3,
+     "action": "Combine and verify",
+     "explain": "Add the whole units to the decimal part and confirm the result matches the expected value.",
+     "compute": "total = units + decimal_part"
+    }
+   ]
+  },
+  {
+   "id": "gegp.103.3",
+   "title": "Decimal Point and Notation",
+   "section": "3.4",
+   "definition": "A dot placed immediately after the ones digit marks where the whole-number part finishes and the fractional digits begin; this separator dot is the decimal point.",
+   "formula": "decimal = whole_number + (tenths / 10) + (hundredths / 100) + (thousandths / 1000)",
+   "key_idea": "The decimal point separates whole numbers from fractional parts (tenths, hundredths, etc.).",
+   "textbook_ref": "gegp103.txt lines 215-230",
+   "question_patterns": [
+    "write 7 units and 5 hundredths in decimal notation",
+    "what is the decimal form of 234 tenths",
+    "convert 105 tenths to decimal",
+    "represent 7 tens and 5 tenths as a decimal",
+    "explain decimal point and notation with an example",
+    "short note on decimal point and notation",
+    "why is decimal point and notation important",
+    "give one everyday example of decimal point and notation",
+    "describe decimal point and notation in your own words",
+    "what do you understand by decimal point and notation",
+    "list the main points about decimal point and notation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Convert the fractional part to a decimal value",
+     "explain": "Divide the count of parts by its place value (10, 100, or 1000).",
+     "compute": "fractional_part = parts / place_divisor"
+    },
+    {
+     "step": 2,
+     "action": "Combine with the whole number",
+     "explain": "Add the whole number to the fractional decimal.",
+     "compute": "result = whole_number + fractional_part"
+    },
+    {
+     "step": 3,
+     "action": "Verify the decimal notation",
+     "explain": "Confirm that the decimal point is correctly placed between the whole number and the fractional part.",
+     "compute": "result = whole_number + fractional_part"
+    }
+   ]
+  },
+  {
+   "id": "gegp.103.4",
+   "title": "Length Conversion: mm to cm",
+   "section": "3.5",
+   "definition": "Since 1 cm = 10 mm, then 1 mm = 1/10 cm = 0.1 cm.",
+   "formula": "cm = mm / 10",
+   "key_idea": "Millimeters are converted to centimeters by dividing by 10.",
+   "textbook_ref": "gegp103.txt lines 260-275",
+   "question_patterns": [
+    "how many cm is 5 mm",
+    "convert 12 mm to cm",
+    "what is 134 mm in cm",
+    "express 56 mm in centimeters",
+    "explain length conversion: mm to cm with an example",
+    "short note on length conversion: mm to cm",
+    "why is length conversion: mm to cm important",
+    "give one everyday example of length conversion: mm to cm",
+    "describe length conversion: mm to cm in your own words",
+    "what do you understand by length conversion: mm to cm",
+    "list the main points about length conversion: mm to cm"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide the millimeter value by 10",
+     "explain": "10 mm make 1 cm.",
+     "compute": "cm = mm / 10"
+    },
+    {
+     "step": 2,
+     "action": "Express the result in decimal notation",
+     "explain": "Write the quotient as a decimal, placing the decimal point correctly to represent tenths of a centimeter.",
+     "compute": "cm_decimal = mm / 10.0"
+    },
+    {
+     "step": 3,
+     "action": "Verify the conversion",
+     "explain": "Multiply the result by 10 to confirm it returns the original millimeter value.",
+     "compute": "verify_mm = cm_decimal * 10"
+    }
+   ]
+  },
+  {
+   "id": "gegp.103.5",
+   "title": "Length Conversion: cm to m",
+   "section": "3.5",
+   "definition": "Since 1 m = 100 cm, then 1 cm = 1/100 m = 0.01 m.",
+   "formula": "m = cm / 100",
+   "key_idea": "Centimeters are converted to meters by dividing by 100.",
+   "textbook_ref": "gegp103.txt lines 290-305",
+   "question_patterns": [
+    "how many m is 15 cm",
+    "convert 36 cm to meters",
+    "express 325 cm in m",
+    "what is 4 cm in meters",
+    "explain length conversion: cm to m with an example",
+    "short note on length conversion: cm to m",
+    "why is length conversion: cm to m important",
+    "give one everyday example of length conversion: cm to m",
+    "describe length conversion: cm to m in your own words",
+    "what do you understand by length conversion: cm to m",
+    "list the main points about length conversion: cm to m"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide the centimeter value by 100",
+     "explain": "100 cm make 1 m.",
+     "compute": "m = cm / 100"
+    },
+    {
+     "step": 2,
+     "action": "Express the result in decimal notation",
+     "explain": "Write the quotient as a decimal, placing the decimal point to represent hundredths of a meter.",
+     "compute": "m_decimal = cm / 100.0"
+    },
+    {
+     "step": 3,
+     "action": "Verify the conversion",
+     "explain": "Multiply the result by 100 to confirm it returns the original centimeter value.",
+     "compute": "verify_cm = m_decimal * 100"
+    }
+   ]
+  },
+  {
+   "id": "gegp.103.6",
+   "title": "Weight Conversion: g to kg",
+   "section": "3.5",
+   "definition": "Since 1 kg = 1000 g, then 1 g = 1/1000 kg = 0.001 kg.",
+   "formula": "kg = g / 1000",
+   "key_idea": "Grams are converted to kilograms by dividing by 1000.",
+   "textbook_ref": "gegp103.txt lines 320-335",
+   "question_patterns": [
+    "how many kilograms is 5 g",
+    "convert 254 g to kg",
+    "what is 1560 g in kg",
+    "express 704 g in kilograms",
+    "explain weight conversion: g to kg with an example",
+    "short note on weight conversion: g to kg",
+    "why is weight conversion: g to kg important",
+    "give one everyday example of weight conversion: g to kg",
+    "describe weight conversion: g to kg in your own words",
+    "what do you understand by weight conversion: g to kg",
+    "list the main points about weight conversion: g to kg"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide the gram value by 1000",
+     "explain": "1000 g make 1 kg.",
+     "compute": "kg = g / 1000"
+    },
+    {
+     "step": 2,
+     "action": "Express the result in decimal notation",
+     "explain": "Write the quotient as a decimal, placing the decimal point to represent thousandths of a kilogram.",
+     "compute": "kg_decimal = g / 1000.0"
+    },
+    {
+     "step": 3,
+     "action": "Verify the conversion",
+     "explain": "Multiply the result by 1000 to confirm it returns the original gram value.",
+     "compute": "verify_g = kg_decimal * 1000"
+    }
+   ]
+  },
+  {
+   "id": "gegp.103.7",
+   "title": "Currency Conversion: Paise to Rupee",
+   "section": "3.5",
+   "definition": "Since 1 rupee = 100 paise, then 1 paisa = 1/100 rupee = 0.01 rupee.",
+   "formula": "rupees = paise / 100",
+   "key_idea": "Paise are converted to rupees by dividing by 100.",
+   "textbook_ref": "gegp103.txt lines 345-360",
+   "question_patterns": [
+    "convert 75 paise to rupees",
+    "how many rupees is 99 p",
+    "express 250 p in rupees",
+    "what is 10 p in rupee notation",
+    "explain currency conversion: paise to rupee with an example",
+    "short note on currency conversion: paise to rupee",
+    "why is currency conversion: paise to rupee important",
+    "give one everyday example of currency conversion: paise to rupee",
+    "describe currency conversion: paise to rupee in your own words",
+    "what do you understand by currency conversion: paise to rupee",
+    "list the main points about currency conversion: paise to rupee"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide the paise value by 100",
+     "explain": "100 paise make 1 rupee.",
+     "compute": "rupees = paise / 100"
+    },
+    {
+     "step": 2,
+     "action": "Express the result in decimal notation",
+     "explain": "Write the quotient as a decimal, placing the decimal point to represent hundredths of a rupee.",
+     "compute": "rupee_decimal = paise / 100.0"
+    },
+    {
+     "step": 3,
+     "action": "Verify the conversion",
+     "explain": "Multiply the result by 100 to confirm it returns the original paise value.",
+     "compute": "verify_paise = rupee_decimal * 100"
+    }
+   ]
+  },
+  {
+   "id": "gegp.103.8",
+   "title": "Comparing Decimals",
+   "section": "3.6",
+   "definition": "Compare the most significant digits (highest place value). If digits are the same, compare the next smaller place value until a difference is found.",
+   "formula": "n/a",
+   "key_idea": "The number with the larger digit at the first differing position is greater.",
+   "textbook_ref": "gegp103.txt lines 410-430",
+   "question_patterns": [
+    "which is larger 6.456 or 6.465",
+    "compare 1.23 and 1.32",
+    "arrange in descending order",
+    "identify the smallest decimal",
+    "explain comparing decimals with an example",
+    "short note on comparing decimals",
+    "why is comparing decimals important",
+    "give one everyday example of comparing decimals",
+    "describe comparing decimals in your own words",
+    "what do you understand by comparing decimals",
+    "list the main points about comparing decimals"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Align the decimal points of the numbers",
+     "explain": "This ensures place values are compared correctly."
+    },
+    {
+     "step": 2,
+     "action": "Compare digits from left to right",
+     "explain": "Start with units, then tenths, then hundredths."
+    },
+    {
+     "step": 3,
+     "action": "Identify the first position where digits differ",
+     "explain": "The number with the higher digit at this position is larger."
+    }
+   ]
+  },
+  {
+   "id": "gegp.103.9",
+   "title": "Addition of Decimals",
+   "section": "3.7",
+   "definition": "The standard procedure for adding whole numbers can be used to add decimals by aligning the decimal points.",
+   "formula": "sum = value1 + value2",
+   "key_idea": "Align decimal points so that digits of the same place value are added together.",
+   "textbook_ref": "gegp103.txt lines 450-470",
+   "question_patterns": [
+    "find the sum of 2.7 and 3.5",
+    "calculate 75.345 + 86.691",
+    "what is the total weight of items",
+    "add 5.3 and 2.6",
+    "explain addition of decimals with an example",
+    "short note on addition of decimals",
+    "why is addition of decimals important",
+    "give one everyday example of addition of decimals",
+    "describe addition of decimals in your own words",
+    "what do you understand by addition of decimals",
+    "list the main points about addition of decimals"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add the decimal values",
+     "explain": "Align the decimal points and add column-wise.",
+     "compute": "sum = value1 + value2"
+    },
+    {
+     "step": 2,
+     "action": "Align decimal points and pad with zeros",
+     "explain": "Ensure both numbers have the same number of decimal places by adding trailing zeros where needed.",
+     "compute": "aligned_sum = value1 + value2"
+    },
+    {
+     "step": 3,
+     "action": "Verify the sum",
+     "explain": "Recheck the column-wise addition to confirm the decimal point is correctly placed in the result.",
+     "compute": "sum = value1 + value2"
+    }
+   ]
+  },
+  {
+   "id": "gegp.103.10",
+   "title": "Subtraction of Decimals",
+   "section": "3.7",
+   "definition": "Subtracting decimals follows the same logic as whole numbers, requiring alignment of the decimal point and regrouping if necessary.",
+   "formula": "difference = value1 - value2",
+   "key_idea": "Align decimal points and subtract digits in the same place value columns.",
+   "textbook_ref": "gegp103.txt lines 470-485",
+   "question_patterns": [
+    "find the difference of 3.5 and 2.7",
+    "calculate 17 - 16.198",
+    "how much weight was lost",
+    "subtract 0.487 from 6.236",
+    "explain subtraction of decimals with an example",
+    "short note on subtraction of decimals",
+    "why is subtraction of decimals important",
+    "give one everyday example of subtraction of decimals",
+    "describe subtraction of decimals in your own words",
+    "what do you understand by subtraction of decimals",
+    "list the main points about subtraction of decimals"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract the second value from the first",
+     "explain": "Align decimal points and subtract column-wise.",
+     "compute": "difference = value1 - value2"
+    },
+    {
+     "step": 2,
+     "action": "Align decimal points and pad with zeros",
+     "explain": "Ensure both numbers have the same number of decimal places by adding trailing zeros where needed.",
+     "compute": "aligned_diff = value1 - value2"
+    },
+    {
+     "step": 3,
+     "action": "Verify the difference",
+     "explain": "Recheck the column-wise subtraction and confirm the decimal point is correctly placed in the result.",
+     "compute": "difference = value1 - value2"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gegp103.txt lines 100-115",
+   "concept": "gegp.103.9",
+   "question_type": "compute",
+   "question_pattern": "The lengths of the body parts of a honeybee are Head: {head} units, Thorax: {thorax} units, and Abdomen: {abdomen} units. Find its total length.",
+   "extracted_variables": {
+    "head": "length of head",
+    "thorax": "length of thorax",
+    "abdomen": "length of abdomen"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Add the lengths of all parts",
+     "explain": "Total length is the sum of head, thorax, and abdomen lengths.",
+     "compute": "total = head + thorax + abdomen"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gegp103.txt lines 115-130",
+   "concept": "gegp.103.10",
+   "question_type": "compute",
+   "question_pattern": "The length of Shylaja's hand is {total_hand} units, and her palm is {palm} units. What is the length of the longest finger?",
+   "extracted_variables": {
+    "total_hand": "total hand length",
+    "palm": "palm length"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract palm length from total hand length",
+     "explain": "Finger length = Total hand length - Palm length.",
+     "compute": "finger_length = total_hand - palm"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "gegp103.txt lines 265-270",
+   "concept": "gegp.103.4",
+   "question_type": "compute",
+   "question_pattern": "How many cm is {mm_val} mm?",
+   "extracted_variables": {
+    "mm_val": "length in millimeters"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide mm by 10",
+     "explain": "Conversion factor from mm to cm is 1/10.",
+     "compute": "cm_val = mm_val / 10"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "gegp103.txt lines 500-515",
+   "questions": [
+    "Find the sums: (a) 5.3 + 2.6, (b) 18 + 8.8, (c) 2.15 + 5.26",
+    "Find the differences: (a) 5.6 - 2.3, (b) 18 - 8.8, (c) 10.4 - 4.5",
+    "Convert the following fractions into decimals: (a) 5/100, (b) 16/1000, (c) 12/10",
+    "Arrange the following quantities in descending order: 11.01, 1.011, 1.101, 11.10, 1.01",
+    "Mahi purchases 0.25 kg of beans, 0.3 kg of carrots, 0.5 kg of potatoes, 0.2 kg of capsicums, and 0.05 kg of ginger. Calculate the total weight."
+   ]
+  }
+ ],
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)",
+ "source_link": "re-linked to new cache"
+}

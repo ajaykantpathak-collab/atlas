@@ -1,0 +1,702 @@
+{
+ "class": 9,
+ "subject": "social_science",
+ "chapter": 102,
+ "chapter_title": "Physical Features of India",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gees101.txt",
+ "concepts": [
+  {
+   "id": "iess.102.1",
+   "title": "Longitudinal Divisions of the Himalayas",
+   "section": "The Himalayan Mountains",
+   "definition": "The northern folded mountain range structured into three distinct continuous parallel belts running along a north-to-south axis, namely the Himadri, Himachal, and Shiwalik ranges.",
+   "formula": "none",
+   "key_idea": "Three parallel zones varying in altitude, continuity, and rock consolidation form the main longitudinal structure of the Himalayas.",
+   "textbook_ref": "iess102.txt lines 31-90",
+   "question_patterns": [
+    "identify the three parallel longitudinal ranges of the Himalayas",
+    "describe the characteristic features of Himadri, Himachal, and Shiwaliks",
+    "compare the average altitude and composition of the three Himalayan ranges",
+    "what are the main differences between the Inner Himalayas and the Outer Himalayas",
+    "explain the structural layout of the longitudinal ranges in Class 9 geography",
+    "differentiate among the three structural belts of the Himalayan mountain system"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the northernmost range",
+     "explain": "The Himadri or Great Himalayas is the northernmost range, featuring loftiest peaks with an average height of 6000 meters."
+    },
+    {
+     "step": 2,
+     "action": "identify the middle range",
+     "explain": "The Himachal or Lesser Himalayas lies south of Himadri with altitudes between 3700 and 4500 meters and contains famous valley regions."
+    },
+    {
+     "step": 3,
+     "action": "identify the outermost range",
+     "explain": "The Shiwaliks form the outermost southern chain with altitudes of 900 to 1100 meters, composed of loose river sediments."
+    }
+   ]
+  },
+  {
+   "id": "iess.102.2",
+   "title": "Regional Divisions of the Himalayas and Purvachal",
+   "section": "The Himalayan Mountains",
+   "definition": "The classification of the Himalayan chain from west to east demarcated by major river valleys, alongside its southward hairpin turn past the Dihang gorge termed the Purvachal.",
+   "formula": "none",
+   "key_idea": "River systems define regional Himalayan boundaries, while sandstone hills form the dense forest Purvachal along the eastern border.",
+   "textbook_ref": "iess102.txt lines 91-135",
+   "question_patterns": [
+    "name the regional divisions of the Himalayas from west to east based on river boundaries",
+    "explain how river valleys demarcate Kumaon, Nepal, and Assam Himalayas",
+    "describe the features and constituent hill ranges of the Purvachal",
+    "what rivers form the boundaries between Punjab, Kumaon, Nepal, and Assam Himalayas",
+    "locate and explain the significance of the Eastern Hills in Class 9 geography"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "map river boundaries to regional names",
+     "explain": "Indus to Satluj is Punjab Himalaya; Satluj to Kali is Kumaon; Kali to Teesta is Nepal; Teesta to Dihang is Assam Himalaya."
+    },
+    {
+     "step": 2,
+     "action": "characterize the eastern purvachal belt",
+     "explain": "Beyond the Dihang gorge, the mountains bend southwards as the Purvachal, comprising Patkai, Naga, Manipur, and Mizo hills composed of sandstone."
+    }
+   ]
+  },
+  {
+   "id": "iess.102.3",
+   "title": "River Systems and Broad Sections of the Northern Plain",
+   "section": "The Northern Plain",
+   "definition": "A major landform created by multi-million-year deposition of rich alluvial soil carried down by the Indus, Ganga, and Brahmaputra rivers and their tributaries.",
+   "formula": "none",
+   "key_idea": "Deposition across three primary river drainage basins forms a flat, fertile, highly populated plain divided into three main geographic zones.",
+   "textbook_ref": "iess102.txt lines 136-180",
+   "question_patterns": [
+    "describe the formation and major river systems of the Northern Plain",
+    "explain the three major sections of the Northern Plain in India",
+    "what is a doab and how does it relate to the Punjab Plains",
+    "identify the geographical extent of the Ganga and Brahmaputra plains",
+    "analyze why the Northern Plain is agriculturally productive and densely populated"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe basin formation",
+     "explain": "Alluvial accumulation at the foothills of Himalayas created a plain spanning 7 lakh square kilometers."
+    },
+    {
+     "step": 2,
+     "action": "partition into geographical sections",
+     "explain": "Divided into the western Punjab Plain (Indus basin), central Ganga Plain (between Ghaggar and Teesta), and eastern Brahmaputra Plain."
+    }
+   ]
+  },
+  {
+   "id": "iess.102.4",
+   "title": "Relief Features of the Northern Plain",
+   "section": "The Northern Plain",
+   "definition": "Morphological variations in the plain surface categorized into distinct belts based on river action, slope gradient, soil moisture, and age of alluvial deposits.",
+   "formula": "none",
+   "key_idea": "The Northern Plain comprises four relief belts: Bhabar pebble bed, marshy Terai, older Bhangar terrace, and renewed Khadar floodplain.",
+   "textbook_ref": "iess102.txt lines 181-215",
+   "question_patterns": [
+    "distinguish between Bhabar, Terai, Bhangar, and Khadar regions",
+    "explain why Khadar is highly fertile compared to Bhangar",
+    "describe the characteristics of the swampy Terai belt",
+    "what is the bhabar belt and how do streams behave in it",
+    "compare older alluvium and newer alluvium in the Northern Plains in Class 9 geography"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain bhabar and terai belts",
+     "explain": "Bhabar is an 8-16 km pebble belt where streams disappear; Terai lies south as a re-emergent marshy and swampy region."
+    },
+    {
+     "step": 2,
+     "action": "contrast bhangar and khadar soils",
+     "explain": "Bhangar is terrace-like older alluvium with kankar deposits; Khadar represents newer annually renewed flood deposits ideal for farming."
+    }
+   ]
+  },
+  {
+   "id": "iess.102.5",
+   "title": "Divisions of the Peninsular Plateau",
+   "section": "The Peninsular Plateau",
+   "definition": "An ancient tableland made of old crystalline metamorphic and igneous rocks, split by the Narmada river into northern Central Highlands and southern Deccan Plateau.",
+   "formula": "none",
+   "key_idea": "Part of ancient Gondwanaland, this uplifted plateau features two core segments surrounded by residual hill lines.",
+   "textbook_ref": "iess102.txt lines 216-260",
+   "question_patterns": [
+    "explain the formation and structural divisions of the Peninsular Plateau",
+    "describe the boundaries and river slope of the Central Highlands",
+    "what are the main features of the Deccan Plateau and its northeast extensions",
+    "differentiate between the Central Highlands and the Deccan Plateau",
+    "identify the hill ranges flanking the Malwa and Chotanagpur plateaus"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify central highlands features",
+     "explain": "Located north of river Narmada, wider in the west, bounded by Vindhyas and Aravalis, sloping southwest to northeast."
+    },
+    {
+     "step": 2,
+     "action": "identify deccan plateau features",
+     "explain": "Triangular landmass south of Narmada, flanked by Satpura range, sloping eastwards and extending to Meghalaya and Karbi-Anglong."
+    }
+   ]
+  },
+  {
+   "id": "iess.102.6",
+   "title": "Western Ghats versus Eastern Ghats",
+   "section": "The Peninsular Plateau",
+   "definition": "The coastal mountain borders of the Peninsular Plateau that differ in continuity, elevation, rainfall influence, and river drainage patterns.",
+   "formula": "none",
+   "key_idea": "Western Ghats form a continuous high barrier causing orographic rainfall, whereas Eastern Ghats are lower and dissected by rivers.",
+   "textbook_ref": "iess102.txt lines 261-295",
+   "question_patterns": [
+    "distinguish between the Western Ghats and the Eastern Ghats",
+    "compare the average height and continuity of Western Ghats and Eastern Ghats",
+    "explain why the Western Ghats cause orographic precipitation",
+    "name the highest peaks in the Western Ghats and Eastern Ghats",
+    "list the key mountain passes located in the Western Ghats"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare elevation and continuity",
+     "explain": "Western Ghats average 900-1600 m and are continuous; Eastern Ghats average 600 m and are broken by Bay of Bengal rivers."
+    },
+    {
+     "step": 2,
+     "action": "compare highest peaks and rainfall mechanism",
+     "explain": "Anai Mudi (2695 m) is highest in Western Ghats causing orographic rain; Mahendragiri (1501 m) is highest in Eastern Ghats."
+    }
+   ]
+  },
+  {
+   "id": "iess.102.7",
+   "title": "Characteristics of the Indian Desert",
+   "section": "The Indian Desert",
+   "definition": "An arid, dune-covered plain positioned along the western margin of the Aravali Hills, featuring low rainfall, seasonal drainage, and sand formations.",
+   "formula": "none",
+   "key_idea": "Low annual precipitation below 150 mm, ephemeral streams like Luni, and crescent sand dunes define the Thar region.",
+   "textbook_ref": "iess102.txt lines 296-318",
+   "question_patterns": [
+    "describe the climate and physical features of the Indian Desert",
+    "what are barchans and where are they prominently found in India",
+    "explain the drainage features of the Thar desert including river Luni",
+    "why do streams in the Indian Desert fail to reach the sea",
+    "locate and analyze the physical geography of the Thar region in Class 9"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe climate and terrain",
+     "explain": "Arid environment receiving under 150 mm annual rainfall, dominated by undulating sand dunes."
+    },
+    {
+     "step": 2,
+     "action": "identify hydrography and dune types",
+     "explain": "Luni is the sole significant river; crescent-shaped barchans cover wide areas near borders."
+    }
+   ]
+  },
+  {
+   "id": "iess.102.8",
+   "title": "Western and Eastern Coastal Plains",
+   "section": "The Coastal Plains",
+   "definition": "Strips of flat land situated along the sea margins of Peninsular India, split into a narrow western sea plain and a broad eastern deltaic plain.",
+   "formula": "none",
+   "key_idea": "The western coast is narrow with three regional sub-strips, while the eastern coast is wide with extensive deltas and coastal lakes.",
+   "textbook_ref": "iess102.txt lines 319-350",
+   "question_patterns": [
+    "differentiate between the Western Coastal Plains and Eastern Coastal Plains",
+    "name the three subdivisions of the Western Coastal Plain",
+    "describe the Northern Circar and Coromandel Coast along the eastern littoral",
+    "explain the origin and significance of Chilika Lake",
+    "compare the delta formations along the eastern and western coasts of India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list western coast subdivisions",
+     "explain": "Sandwiched between Western Ghats and Arabian Sea: Konkan (north), Kannad (center), and Malabar (south)."
+    },
+    {
+     "step": 2,
+     "action": "describe eastern coast features",
+     "explain": "Broad plains along Bay of Bengal named Northern Circar (north) and Coromandel (south), featuring Mahanadi/Godavari deltas and Chilika Lake."
+    }
+   ]
+  },
+  {
+   "id": "iess.102.9",
+   "title": "Island Groups of India",
+   "section": "The Islands",
+   "definition": "The two major offshore island territories of India, consisting of the coral-formed Lakshadweep in the Arabian Sea and the volcanic mountain-chain Andaman and Nicobar in the Bay of Bengal.",
+   "formula": "none",
+   "key_idea": "Lakshadweep consists of small coral deposits, whereas Andaman and Nicobar represent submerged mountain ridges near the equator.",
+   "textbook_ref": "iess102.txt lines 351-395",
+   "question_patterns": [
+    "compare the origin and features of Lakshadweep and Andaman and Nicobar Islands",
+    "explain how coral polyps form island structures like Lakshadweep",
+    "what is the administrative headquarter and total area of Lakshadweep",
+    "describe the strategic and ecological importance of the Andaman and Nicobar Islands",
+    "where is India's only active volcano located"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "detail lakshadweep characteristics",
+     "explain": "Coral island group covering 32 sq km with headquarters at Kavaratti and bird sanctuary at Pitti island."
+    },
+    {
+     "step": 2,
+     "action": "detail andaman and nicobar characteristics",
+     "explain": "Elongated chain of elevated submarine mountains experiencing equatorial climate, containing Barren Island active volcano."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iess102.txt lines 30-80",
+   "concept": "iess.102.1",
+   "question_type": "descriptive",
+   "question_pattern": "Name the three major longitudinal divisions of the Himalayas from north to south and give one main feature of each.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify northernmost range",
+     "explain": "Great or Inner Himalayas (Himadri): Most continuous range with average height of 6000 meters containing highest peaks."
+    },
+    {
+     "step": 2,
+     "action": "Identify middle range",
+     "explain": "Lesser Himalayas (Himachal): Rugged system with altitude ranging between 3700 and 4500 meters, famous for hill stations."
+    },
+    {
+     "step": 3,
+     "action": "Identify outermost range",
+     "explain": "Outer Himalayas (Shiwaliks): Width of 10-50 km and altitude 900-1100 meters, made of unconsolidated river sediments."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iess102.txt lines 181-215",
+   "concept": "iess.102.4",
+   "question_type": "descriptive",
+   "question_pattern": "Distinguish between Bhangar and Khadar soils based on age, location, and agricultural fertility.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Describe Bhangar features",
+     "explain": "Bhangar is older alluvium forming terraces above floodplains, containing calcareous kankar nodules, less fertile."
+    },
+    {
+     "step": 2,
+     "action": "Describe Khadar features",
+     "explain": "Khadar is newer floodplain deposit renewed almost every year, fine-textured, highly fertile, and ideal for intensive agriculture."
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "iess102.txt lines 261-295",
+   "concept": "iess.102.6",
+   "question_type": "descriptive",
+   "question_pattern": "Contrast the Western Ghats and Eastern Ghats on the basis of continuity, average elevation, and highest peak.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Contrast continuity and elevation",
+     "explain": "Western Ghats are continuous with 900-1600 m average height; Eastern Ghats are discontinuous and dissected by rivers with 600 m average height."
+    },
+    {
+     "step": 2,
+     "action": "Contrast highest peaks",
+     "explain": "Highest peak in Western Ghats is Anai Mudi (2695 m); highest peak in Eastern Ghats is Mahendragiri (1501 m)."
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.102.1",
+   "question_type": "verify_property",
+   "question_pattern": "compare the average altitude and composition of the three Himalayan ranges",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify the northernmost range",
+     "explain": "The Himadri or Great Himalayas is the northernmost range, featuring loftiest peaks with an average height of 6000 meters."
+    },
+    {
+     "step": 2,
+     "action": "identify the middle range",
+     "explain": "The Himachal or Lesser Himalayas lies south of Himadri with altitudes between 3700 and 4500 meters and contains famous valley regions."
+    },
+    {
+     "step": 3,
+     "action": "identify the outermost range",
+     "explain": "The Shiwaliks form the outermost southern chain with altitudes of 900 to 1100 meters, composed of loose river sediments."
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.102.2",
+   "question_type": "verify_property",
+   "question_pattern": "name the regional divisions of the Himalayas from west to east based on river boundaries",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "map river boundaries to regional names",
+     "explain": "Indus to Satluj is Punjab Himalaya; Satluj to Kali is Kumaon; Kali to Teesta is Nepal; Teesta to Dihang is Assam Himalaya."
+    },
+    {
+     "step": 2,
+     "action": "characterize the eastern purvachal belt",
+     "explain": "Beyond the Dihang gorge, the mountains bend southwards as the Purvachal, comprising Patkai, Naga, Manipur, and Mizo hills composed of sandstone."
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.102.2",
+   "question_type": "verify_property",
+   "question_pattern": "explain how river valleys demarcate Kumaon, Nepal, and Assam Himalayas",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "map river boundaries to regional names",
+     "explain": "Indus to Satluj is Punjab Himalaya; Satluj to Kali is Kumaon; Kali to Teesta is Nepal; Teesta to Dihang is Assam Himalaya."
+    },
+    {
+     "step": 2,
+     "action": "characterize the eastern purvachal belt",
+     "explain": "Beyond the Dihang gorge, the mountains bend southwards as the Purvachal, comprising Patkai, Naga, Manipur, and Mizo hills composed of sandstone."
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.102.3",
+   "question_type": "verify_property",
+   "question_pattern": "describe the formation and major river systems of the Northern Plain",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "describe basin formation",
+     "explain": "Alluvial accumulation at the foothills of Himalayas created a plain spanning 7 lakh square kilometers."
+    },
+    {
+     "step": 2,
+     "action": "partition into geographical sections",
+     "explain": "Divided into the western Punjab Plain (Indus basin), central Ganga Plain (between Ghaggar and Teesta), and eastern Brahmaputra Plain."
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.102.3",
+   "question_type": "verify_property",
+   "question_pattern": "explain the three major sections of the Northern Plain in India",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "describe basin formation",
+     "explain": "Alluvial accumulation at the foothills of Himalayas created a plain spanning 7 lakh square kilometers."
+    },
+    {
+     "step": 2,
+     "action": "partition into geographical sections",
+     "explain": "Divided into the western Punjab Plain (Indus basin), central Ganga Plain (between Ghaggar and Teesta), and eastern Brahmaputra Plain."
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.102.4",
+   "question_type": "verify_property",
+   "question_pattern": "describe the characteristics of the swampy Terai belt",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "explain bhabar and terai belts",
+     "explain": "Bhabar is an 8-16 km pebble belt where streams disappear; Terai lies south as a re-emergent marshy and swampy region."
+    },
+    {
+     "step": 2,
+     "action": "contrast bhangar and khadar soils",
+     "explain": "Bhangar is terrace-like older alluvium with kankar deposits; Khadar represents newer annually renewed flood deposits ideal for farming."
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.102.5",
+   "question_type": "verify_property",
+   "question_pattern": "explain the formation and structural divisions of the Peninsular Plateau",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify central highlands features",
+     "explain": "Located north of river Narmada, wider in the west, bounded by Vindhyas and Aravalis, sloping southwest to northeast."
+    },
+    {
+     "step": 2,
+     "action": "identify deccan plateau features",
+     "explain": "Triangular landmass south of Narmada, flanked by Satpura range, sloping eastwards and extending to Meghalaya and Karbi-Anglong."
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.102.5",
+   "question_type": "verify_property",
+   "question_pattern": "describe the boundaries and river slope of the Central Highlands",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify central highlands features",
+     "explain": "Located north of river Narmada, wider in the west, bounded by Vindhyas and Aravalis, sloping southwest to northeast."
+    },
+    {
+     "step": 2,
+     "action": "identify deccan plateau features",
+     "explain": "Triangular landmass south of Narmada, flanked by Satpura range, sloping eastwards and extending to Meghalaya and Karbi-Anglong."
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.102.6",
+   "question_type": "verify_property",
+   "question_pattern": "explain why the Western Ghats cause orographic precipitation",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compare elevation and continuity",
+     "explain": "Western Ghats average 900-1600 m and are continuous; Eastern Ghats average 600 m and are broken by Bay of Bengal rivers."
+    },
+    {
+     "step": 2,
+     "action": "compare highest peaks and rainfall mechanism",
+     "explain": "Anai Mudi (2695 m) is highest in Western Ghats causing orographic rain; Mahendragiri (1501 m) is highest in Eastern Ghats."
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.102.7",
+   "question_type": "verify_property",
+   "question_pattern": "describe the climate and physical features of the Indian Desert",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "describe climate and terrain",
+     "explain": "Arid environment receiving under 150 mm annual rainfall, dominated by undulating sand dunes."
+    },
+    {
+     "step": 2,
+     "action": "identify hydrography and dune types",
+     "explain": "Luni is the sole significant river; crescent-shaped barchans cover wide areas near borders."
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.102.7",
+   "question_type": "verify_property",
+   "question_pattern": "what are barchans and where are they prominently found in India",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "describe climate and terrain",
+     "explain": "Arid environment receiving under 150 mm annual rainfall, dominated by undulating sand dunes."
+    },
+    {
+     "step": 2,
+     "action": "identify hydrography and dune types",
+     "explain": "Luni is the sole significant river; crescent-shaped barchans cover wide areas near borders."
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.102.8",
+   "question_type": "verify_property",
+   "question_pattern": "differentiate between the Western Coastal Plains and Eastern Coastal Plains",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list western coast subdivisions",
+     "explain": "Sandwiched between Western Ghats and Arabian Sea: Konkan (north), Kannad (center), and Malabar (south)."
+    },
+    {
+     "step": 2,
+     "action": "describe eastern coast features",
+     "explain": "Broad plains along Bay of Bengal named Northern Circar (north) and Coromandel (south), featuring Mahanadi/Godavari deltas and Chilika Lake."
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.102.8",
+   "question_type": "verify_property",
+   "question_pattern": "name the three subdivisions of the Western Coastal Plain",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list western coast subdivisions",
+     "explain": "Sandwiched between Western Ghats and Arabian Sea: Konkan (north), Kannad (center), and Malabar (south)."
+    },
+    {
+     "step": 2,
+     "action": "describe eastern coast features",
+     "explain": "Broad plains along Bay of Bengal named Northern Circar (north) and Coromandel (south), featuring Mahanadi/Godavari deltas and Chilika Lake."
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.102.9",
+   "question_type": "verify_property",
+   "question_pattern": "compare the origin and features of Lakshadweep and Andaman and Nicobar Islands",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "detail lakshadweep characteristics",
+     "explain": "Coral island group covering 32 sq km with headquarters at Kavaratti and bird sanctuary at Pitti island."
+    },
+    {
+     "step": 2,
+     "action": "detail andaman and nicobar characteristics",
+     "explain": "Elongated chain of elevated submarine mountains experiencing equatorial climate, containing Barren Island active volcano."
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iess.102.9",
+   "question_type": "verify_property",
+   "question_pattern": "explain how coral polyps form island structures like Lakshadweep",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "detail lakshadweep characteristics",
+     "explain": "Coral island group covering 32 sq km with headquarters at Kavaratti and bird sanctuary at Pitti island."
+    },
+    {
+     "step": 2,
+     "action": "detail andaman and nicobar characteristics",
+     "explain": "Elongated chain of elevated submarine mountains experiencing equatorial climate, containing Barren Island active volcano."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "iess102.txt page 15",
+   "questions": [
+    "A landmass bounded by sea on three sides is referred to as (a) Coast (b) Island (c) Peninsula (d) None of the above",
+    "Mountain ranges in the eastern part of India forming its boundary with Myanmar are collectively called (a) Himachal (b) Uttarakhand (c) Purvachal (d) None of the above",
+    "The western coastal strip, south of Goa is referred to as (a) Coromandel (b) Konkan (c) Kannad (d) Northern Circar",
+    "The highest peak in the Eastern Ghats is (a) Anai Mudi (b) Kanchenjunga (c) Mahendragiri (d) Khasi"
+   ]
+  },
+  {
+   "id": "ex2.2",
+   "source_ref": "iess102.txt page 15",
+   "questions": [
+    "What is the bhabar?",
+    "Name the three major divisions of the Himalayas from north to south.",
+    "Which plateau lies between the Aravali and the Vindhyan ranges?",
+    "Name the island group of India having coral origin."
+   ]
+  },
+  {
+   "id": "ex2.3",
+   "source_ref": "iess102.txt page 15",
+   "questions": [
+    "Distinguish between Bhangar and Khadar",
+    "Distinguish between Western Ghats and Eastern Ghats"
+   ]
+  },
+  {
+   "id": "ex2.4",
+   "source_ref": "iess102.txt page 15",
+   "questions": [
+    "Which are the major physiographic divisions of India? Contrast the relief of the Himalayan region with that of the Peninsular plateau."
+   ]
+  },
+  {
+   "id": "ex2.5",
+   "source_ref": "iess102.txt page 15",
+   "questions": [
+    "Give an account of the Northern Plains of India."
+   ]
+  },
+  {
+   "id": "ex2.6",
+   "source_ref": "iess102.txt page 15",
+   "questions": [
+    "Write short notes on: (i) The Indian Desert, (ii) The Central Highlands, (iii) The Island groups of India"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

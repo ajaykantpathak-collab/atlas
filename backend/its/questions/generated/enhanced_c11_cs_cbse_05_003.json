@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_05_003",
+   "title": "c11_cs_cbse_05_003",
+   "questions": [
+    {
+     "q": "What is the exact syntax of a simple `if` statement in Python, and what happens if the colon (`:`) is omitted?",
+     "a": "The syntax is `if condition:` followed by an indented block. Omitting the colon raises a `SyntaxError` because the parser expects a colon to separate the condition from the block. A wrong answer (e.g., saying the colon is optional or that parentheses are required around the condition) reveals confusion with languages like C/Java and a lack of attention to Python's mandatory colon.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the following code prints nothing when `x = 5`:\n```python\nx = 5\nif x > 10:\n    print(\"Greater\")\nprint(\"Done\")\n```",
+     "a": "The condition `x > 10` evaluates to `False` because 5 is not greater than 10, so the indented `print(\"Greater\")` is skipped. The unindented `print(\"Done\")` always executes because it is not part of the `if` block. A wrong answer (e.g., claiming \"Greater\" prints or that \"Done\" is skipped) shows the student does not understand that only the indented block is conditional and that execution continues sequentially after the block.",
+     "self_check": true
+    },
+    {
+     "q": "Write a program that reads an integer `marks` from the user and prints \"Pass\" only if `marks` is greater than or equal to 33. Test your program with inputs 40 and 30, and show the exact output for each.",
+     "a": "```python\nmarks = int(input(\"Enter marks: \"))\nif marks >= 33:\n    print(\"Pass\")\n```\nFor input 40: condition `40 >= 33` is `True` → prints `Pass`. For input 30: condition `30 >= 33` is `False` → prints nothing. A wrong answer (e.g., using `=` instead of `>=`, forgetting `int()`, or indenting incorrectly) reveals gaps in condition formation, type conversion, or block structure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two code snippets below. Will they produce the same output for all inputs? Justify your answer.\n```python",
+     "a": "No, they differ when `age < 18`. In Snippet A, `print(\"Next\")` is unindented, so it always executes. In Snippet B, `print(\"Next\")` is indented, so it executes only when `age >= 18`. A wrong answer (claiming they are the same) indicates the student does not grasp that indentation determines block membership, not just line order.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following code to check if a number `n` is positive:\n```python\nn = int(input())\nif n > 0:\n    print(\"Positive\")\n    print(\"Checked\")\n```\nThey claim that \"Checked\" will print only for positive numbers. Evaluate this claim and explain whether it is correct.",
+     "a": "The claim is correct. Both print statements are indented under the same `if`, so they execute together only when `n > 0` is `True`. For `n <= 0`, neither prints. A wrong evaluation (saying \"Checked\" always prints) shows the student thinks only the first statement after `if` is conditional — a common \"dangling statement\" misconception from other languages.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new real-world scenario (different from voting age or pass marks) where a simple `if` statement is appropriate. Write the Python code for it, including input, condition, and indented action. Explain why an `if` (without `else`) is sufficient here.",
+     "a": "Example: A coffee machine dispenses a free cookie only when the customer buys a large coffee.\n```python\nsize = input(\"Enter coffee size (small/medium/large): \")\nif size == \"large\":\n    print(\"Free cookie added!\")\n```\nAn `if` alone is sufficient because no action is needed for other sizes — the program simply continues. A poor answer (using `if-else` unnecessarily, or choosing a scenario requiring two distinct actions) reveals the student cannot distinguish between one-way and two-way decisions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

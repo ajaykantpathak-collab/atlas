@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_10_001",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_10_001",
+   "title": "c12_hs_cbse_10_001",
+   "questions": [
+    {
+     "q": "Define meal planning in one sentence using the terms \"nutritional adequacy\", \"food groups\", and \"RDA\".",
+     "a": "Meal planning is the process of selecting and combining foods from different food groups in appropriate quantities to meet the Recommended Dietary Allowances (RDA) for all nutrients, ensuring nutritional adequacy for the target individual or group. A wrong answer that omits \"RDA\" or \"food groups\" reveals the student thinks meal planning is merely choosing recipes or listing dishes, not a nutrient-based systematic approach.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"variety\" is a principle of meal planning. Give two distinct reasons — one nutritional, one psychosocial.",
+     "a": "Nutritional reason: No single food provides all essential nutrients; variety across food groups and within groups (e.g., different coloured vegetables, alternating cereals) ensures a wider spectrum of vitamins, minerals, and phytonutrients. Psychosocial reason: Monotonous menus reduce appetite and meal satisfaction, leading to poor intake and food boredom, especially in children and elderly. A wrong answer that only says \"to get all nutrients\" misses the psychosocial dimension and shows incomplete understanding of the principle's dual role.",
+     "self_check": true
+    },
+    {
+     "q": "A family of four (two adults, two adolescents) plans a day’s menu: breakfast — aloo paratha with curd; lunch — rice, dal, potato sabzi; dinner — roti, dal, potato sabzi. Identify which principle(s) of meal planning are violated and explain how to fix each violation using specific food substitutions.",
+     "a": "Violations: (1) *Variety* — potato appears in both lunch and dinner; (2) *Balance* — breakfast lacks a vegetable/fruit group; (3) *Moderation* — high fat from paratha frying and possible excess oil in sabzi; (4) *Adequacy* — no fruit, no milk for adolescents, low iron/vitamin C. Fixes: Replace dinner potato with bhindi or spinach; add a fruit (guava/orange) at breakfast; use whole wheat roti with less oil; include a glass of milk or paneer for adolescents. A wrong answer that only spots \"potato repeated\" shows surface-level analysis without linking to principles.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the objectives of meal planning for a low-income rural family versus a high-income urban family. Highlight two similarities and two differences in priorities.",
+     "a": "Similarities: (1) Both aim for nutritional adequacy (meeting RDA); (2) Both seek to prevent deficiency diseases. Differences: (1) Low-income family prioritizes *economy* and *calorie density* (cheap staples like millets, seasonal vegetables) while high-income family may prioritize *convenience*, *aesthetics*, and *disease prevention* (low-sodium, low-fat, organic); (2) Low-income family focuses on *food security* and *satiety* whereas high-income family may focus on *weight management* and *micronutrient optimization*. A wrong answer that says \"rich people eat more protein\" shows stereotypical thinking without addressing objective shifts.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Following the Food Guide Pyramid for Indians automatically ensures a balanced meal plan for any individual.\" Provide two arguments for and two against.",
+     "a": "For: (1) Pyramid translates RDA into practical food group servings, ensuring baseline adequacy; (2) It builds in variety across groups and moderation of fats/sugars at the top. Against: (1) Pyramid gives *general* servings for a *reference* adult; it does not adjust for age, sex, activity, or physiological state (e.g., pregnancy, diabetes) — individual RDA may differ; (2) It does not account for food allergies, cultural taboos, regional availability, or budget — a plan must be *customized*. A wrong answer that says \"Pyramid is perfect\" ignores individualization; one that says \"Pyramid is useless\" ignores its evidence-based foundation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-day vegetarian meal plan for a 15-year-old adolescent girl (moderate activity) that demonstrates all five principles: balance, variety, moderation, adequacy, economy. List meals with food groups and justify each principle in one line.",
+     "a": "Breakfast: Milk (milk group) + vegetable upma (cereal + vegetable) + guava (fruit) — *Balance*: 3 groups; *Variety*: millet upma instead of wheat; *Moderation*: low oil; *Adequacy*: calcium, vit C, fiber; *Economy*: seasonal guava, home-made upma. Mid-meal: Roasted chana (pulse) + buttermilk (milk) — *Variety*: pulse snack; *Adequacy*: protein, calcium. Lunch: Brown rice (cereal) + rajma (pulse) + spinach sabzi (vegetable) + salad (vegetable) + curd (milk) — *Balance*: 4 groups; *Variety*: legume + leafy veg; *Moderation*: no deep fry; *Adequacy*: iron, folate, protein; *Economy*: seasonal spinach, home-cooked. Evening: Fruit chaat (fruit) + handful nuts (fat/oil) — *Variety*: fruit + nuts; *Moderation*: controlled nuts portion. Dinner: Multigrain roti (cereal) + moong dal (pulse) + bottle gourd sabzi (vegetable) + curd (milk) — *Balance*: 4 groups; *Variety*: different cereal, pulse, veg from lunch; *Economy*: bottle gourd cheap. A poor answer lists dishes without mapping to food groups or justifying principles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

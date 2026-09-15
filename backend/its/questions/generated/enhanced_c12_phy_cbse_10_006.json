@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_10_006",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_10_006",
+   "title": "c12_phy_cbse_10_006",
+   "questions": [
+    {
+     "q": "State the formula for fringe width in Young's double slit experiment and give the SI unit of each quantity in the formula.",
+     "a": "Fringe width β = λD/d, where λ (wavelength) is in metres (m), D (slit-to-screen distance) is in metres (m), d (slit separation) is in metres (m), so β is in metres (m). A wrong answer (e.g., β = d/λD or missing units) reveals the student has not memorised the correct relationship or confuses the roles of d and D.",
+     "self_check": true
+    },
+    {
+     "q": "Two coherent sources of equal intensity I₀ produce an interference pattern. Explain why the intensity at a bright fringe is 4I₀ and not 2I₀, using the principle of superposition.",
+     "a": "At a bright fringe the two waves arrive in phase (φ = 0). Their amplitudes add: a_res = a + a = 2a. Since intensity ∝ amplitude², I_res ∝ (2a)² = 4a² = 4I₀. A student answering 2I₀ is adding intensities directly (I₀ + I₀), which is only valid for incoherent sources; this shows confusion between coherent and incoherent superposition.",
+     "self_check": true
+    },
+    {
+     "q": "In a Young's double slit experiment, λ = 600 nm, d = 0.5 mm, D = 2.0 m. Calculate (a) the fringe width β, and (b) the distance of the 3rd bright fringe from the central maximum.",
+     "a": "(a) β = λD/d = (600 × 10⁻⁹ m × 2.0 m) / (0.5 × 10⁻³ m) = 2.4 × 10⁻³ m = 2.4 mm. (b) x₃ = 3β = 3 × 2.4 mm = 7.2 mm. A wrong answer (e.g., β = 2.4 cm or x₃ = 2.4 mm) indicates unit conversion errors (nm to m, mm to m) or confusion between fringe order and fringe width.",
+     "self_check": true
+    },
+    {
+     "q": "The intensity distribution of a double slit pattern is I = 4I₀ cos²(πxd/λD). For a fixed λ and D, sketch how the fringe width β changes if (i) d is doubled, (ii) D is halved. Explain the physical reason for each change.",
+     "a": "(i) β ∝ 1/d, so doubling d halves β (fringes become closer). (ii) β ∝ D, so halving D halves β. Physically, larger slit separation increases the angular separation of fringes, while smaller screen distance reduces the linear spread. A student who says β increases in either case has the proportionality reversed.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If the slit separation d is increased, the intensity at the central maximum increases because more light passes through the slits.\" Evaluate this statement.",
+     "a": "The statement is false. The central maximum intensity I_max = 4I₀ depends only on the intensity I₀ from each slit (which depends on source brightness and slit width, not on d). Changing d alters fringe width β, not I_max. A student agreeing with the claim confuses fringe spacing with intensity and ignores that I₀ is determined by the illumination of each slit, not their separation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a laser pointer, a double slit made from two razor blades, and a metre scale to determine the wavelength of the laser. List the measurements you would take and the formula you would use.",
+     "a": "Measure D (distance from slits to screen) with the metre scale. Shine the laser through the double slit onto a wall/screen. Measure the distance between 10 bright fringes (e.g., from n=0 to n=10) and divide by 10 to get β. Use λ = βd/D, where d is the known slit separation (can be measured with a micrometer or taken from manufacturer's specification). A poor answer omits averaging over multiple fringes or forgets to convert units consistently (e.g., mm to m).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

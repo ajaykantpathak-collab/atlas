@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_07_001",
+   "title": "c12_ps_cbse_07_001",
+   "questions": [
+    {
+     "q": "Define traditional security and name its two main categories of threats with one example each from the Indian context.",
+     "a": "Traditional security is a state-centric framework that defines security in terms of military threats to the state's sovereignty and territorial integrity. Its two categories are: (1) External threats — military aggression from other states (e.g., 1962 Sino-Indian War, 1999 Kargil conflict); (2) Internal threats — armed rebellions challenging state authority within recognized borders (e.g., Naxalite-Maoist insurgency, Khalistan movement in the 1980s). A wrong answer citing climate change or pandemics as traditional threats reveals confusion with non-traditional security concepts introduced later in the chapter.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the traditional security framework prioritizes military capabilities over diplomatic, economic, or developmental capacities of the state.",
+     "a": "Traditional security prioritizes military capabilities because it assumes the gravest dangers to the state emanate from organized armed violence — either invasion by external armies or armed internal challengers — which can only be countered by superior or credible military force. The logic is existential: without military survival, the state cannot exercise any other function. A wrong answer stating \"because the military is the strongest institution\" confuses institutional power with the theoretical reasoning about threat perception in this framework.",
+     "self_check": true
+    },
+    {
+     "q": "India experiences a massive ransomware attack on its banking infrastructure traced to a foreign intelligence agency. Would traditional security classify this as an external threat? Justify using the criteria of traditional security.",
+     "a": "Traditional security would likely NOT classify this as an external threat because it defines external threats narrowly as kinetic military aggression involving physical force, territorial violation, or declared war by state armed forces. Cyberattacks, while state-sponsored, fall outside this kinetic paradigm and are better categorized as non-traditional or hybrid threats. A wrong answer saying \"yes, because a foreign state is involved\" fails to distinguish the specific criteria of traditional security (physical military action) from broader modern threat definitions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the constitutional and operational basis for deploying the Indian Army in an external war (e.g., 1971 Bangladesh Liberation War) versus an internal insurgency (e.g., Operation Blue Star 1984). How does the role of the military differ?",
+     "a": "In external war, the Army operates under Article 352 (National Emergency) or executive war powers at international borders against a recognized enemy state, with clear rules of engagement under international humanitarian law. In internal insurgency, the Army operates under Article 355 (duty to protect states from internal disturbance) and AFSPA within national territory against non-state actors, requiring coordination with police/paramilitary and adherence to domestic law. A wrong answer treating both identically ignores the constitutional distinction between \"external aggression\" and \"internal disturbance\" and the stricter constraints on domestic military deployment.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Traditional security is obsolete because 21st-century threats like climate change, pandemics, and cyber warfare cannot be deterred by tanks and missiles.\"",
+     "a": "The claim is partially correct but overstated. Traditional security remains relevant for inter-state wars (Russia-Ukraine 2022, India-China border tensions) and internal armed conflicts (Naxalism, Kashmir insurgency) where kinetic military capacity is decisive. However, it is insufficient for transnational non-military threats that require cooperative, developmental, or technological responses. A nuanced evaluation acknowledges both continuity (state vs. state wars persist) and change (new threat spectra). A wrong answer calling traditional security \"completely obsolete\" ignores ongoing conflicts; one calling it \"fully adequate\" ignores the need for broader frameworks like human security.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario where a state simultaneously faces a conventional military buildup by a hostile neighbor and an armed separatist movement in a border region. Describe how traditional security logic would prioritize and sequence responses.",
+     "a": "Scenario: State X detects Neighbor Y massing armor at their border while Region Z (bordering Y) sees an armed separatist uprising backed by Y. Traditional logic: (1) Prioritize external threat — mobilize reserves, activate war plans, seek diplomatic deterrence — because inter-state war risks total conquest. (2) Treat internal threat as secondary but linked — deploy paramilitary/police to contain separatists, avoid heavy Army commitment unless separatists threaten state collapse. (3) Recognize the nexus — external support to internal rebels merges the threats, but the external source remains the primary target. A good answer shows hierarchy of existential risks. A poor answer treats both equally or prioritizes internal threat without justifying the greater immediacy of sovereign state-on-state war.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

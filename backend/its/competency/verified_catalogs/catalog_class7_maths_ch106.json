@@ -1,0 +1,498 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 106,
+ "chapter_title": "Number Play",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gegp106.txt",
+ "concepts": [
+  {
+   "id": "gegp.6.1.1",
+   "title": "Taller-in-front Rule",
+   "section": "6.1",
+   "definition": "Each child callsput differently,  out the number of children in front of them who are taller than them.",
+   "formula": "count = number of children in front with height > current child height",
+   "key_idea": "Representing relative height arrangements using a sequence of counts.",
+   "textbook_ref": "gegp106.txt lines 5-25",
+   "question_patterns": [
+    "what is the number a child says if 3 people in front are taller",
+    "calculate the sequence for a height arrangement",
+    "what is the largest number possible in a group of n people",
+    "find the rule for the number sequence in the arrangement",
+    "explain taller-in-front rule with an example",
+    "short note on taller-in-front rule",
+    "why is taller-in-front rule important",
+    "give one everyday example of taller-in-front rule",
+    "describe taller-in-front rule in your own words",
+    "what do you understand by taller-in-front rule",
+    "list the main points about taller-in-front rule"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the total number of people",
+     "explain": "The maximum possible count is one less than the total group size.",
+     "compute": "max_val = n - 1"
+    },
+    {
+     "step": 2,
+     "action": "Count taller children in front of each child",
+     "explain": "For each child, scan all children ahead of them and count how many are taller."
+    },
+    {
+     "step": 3,
+     "action": "Assemble the sequence",
+     "explain": "Write the counts in order to form the complete sequence representing the arrangement."
+    }
+   ]
+  },
+  {
+   "id": "gegp.6.2.1",
+   "title": "Parity of Numbers",
+   "section": "6.2",
+   "definition": "Any even number can be arranged in pairs without any leftovers. An odd number is one more than a collection of pairs.",
+   "formula": "parity = n % 2",
+   "key_idea": "Parity denotes the property of a number being even or odd.",
+   "textbook_ref": "gegp106.txt lines 45-65",
+   "question_patterns": [
+    "define parity",
+    "is the number even or odd",
+    "can this number be arranged in pairs",
+    "what is the parity of n",
+    "explain parity of numbers with an example",
+    "short note on parity of numbers",
+    "why is parity of numbers important",
+    "give one everyday example of parity of numbers",
+    "describe parity of numbers in your own words",
+    "what do you understand by parity of numbers",
+    "list the main points about parity of numbers"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check remainder when divided by 2",
+     "explain": "Even numbers have remainder 0, odd numbers have remainder 1.",
+     "compute": "ans = n % 2"
+    },
+    {
+     "step": 2,
+     "action": "Classify the number",
+     "explain": "If the remainder is 0 the number is even; if the remainder is 1 the number is odd."
+    },
+    {
+     "step": 3,
+     "action": "Verify with pairing",
+     "explain": "Confirm the result by checking if the number can be arranged in pairs without a leftover.",
+     "compute": "ans = n % 2"
+    }
+   ]
+  },
+  {
+   "id": "gegp.6.2.2",
+   "title": "Parity of Sums and Differences",
+   "section": "6.2",
+   "definition": "The sum of two even numbers is even; the sum of two odd numbers is even; the sum of an even and an odd number is odd.",
+   "formula": "even + even = even; odd + odd = even; even + odd = odd",
+   "key_idea": "The parity of a sum depends on the parity of the individual addends.",
+   "textbook_ref": "gegp106.txt lines 66-95",
+   "question_patterns": [
+    "what is the parity of the sum of two odd numbers",
+    "find the parity of even minus odd",
+    "calculate the parity of the sum of 5 odd numbers",
+    "is the sum of consecutive numbers always odd",
+    "explain parity of sums and differences with an example",
+    "short note on parity of sums and differences",
+    "why is parity of sums and differences important",
+    "give one everyday example of parity of sums and differences",
+    "describe parity of sums and differences in your own words",
+    "what do you understand by parity of sums and differences",
+    "list the main points about parity of sums and differences"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify parities of inputs",
+     "explain": "Determine if each number is even or odd."
+    },
+    {
+     "step": 2,
+     "action": "Apply parity rules",
+     "explain": "Use rules like odd + odd = even to find the final parity."
+    },
+    {
+     "step": 3,
+     "action": "Verify the result",
+     "explain": "Check the computed parity by testing with example numbers of the same parity to confirm the rule holds."
+    }
+   ]
+  },
+  {
+   "id": "gegp.6.2.3",
+   "title": "Parity of Grid Squares",
+   "section": "6.2",
+   "definition": "The parity of the total number of small squares in an m x n grid.",
+   "formula": "total_squares = rows * columns",
+   "key_idea": "The total is even if at least one dimension is even; it is odd only if both dimensions are odd.",
+   "textbook_ref": "gegp106.txt lines 110-125",
+   "question_patterns": [
+    "find the parity of the number of squares in a 27 x 13 grid",
+    "what is the parity of squares in a grid with dimensions m and n",
+    "calculate the total squares parity for 42 x 78",
+    "explain parity of grid squares with an example",
+    "short note on parity of grid squares",
+    "why is parity of grid squares important",
+    "give one everyday example of parity of grid squares",
+    "describe parity of grid squares in your own words",
+    "what do you understand by parity of grid squares",
+    "list the main points about parity of grid squares"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply dimensions",
+     "explain": "Total squares is the product of rows and columns.",
+     "compute": "total = rows * columns"
+    },
+    {
+     "step": 2,
+     "action": "Find parity of product",
+     "explain": "Check if the product is divisible by 2.",
+     "compute": "ans = total % 2"
+    },
+    {
+     "step": 3,
+     "action": "Verify using dimension parity",
+     "explain": "Confirm the result: the total is even if at least one dimension is even, and odd only if both dimensions are odd.",
+     "compute": "ans = (rows % 2) * (columns % 2)"
+    }
+   ]
+  },
+  {
+   "id": "gegp.6.2.4",
+   "title": "nth Even and Odd Numbers",
+   "section": "6.2",
+   "definition": "Formulas to find the even or odd number at a given position n.",
+   "formula": "nth_even = 2n; nth_odd = 2n - 1",
+   "key_idea": "Odd numbers are always one less than the corresponding even numbers in the sequence.",
+   "textbook_ref": "gegp106.txt lines 150-175",
+   "question_patterns": [
+    "find the 100th odd number",
+    "what is the nth even number",
+    "calculate the 20th term of the even sequence",
+    "write a formula for the nth odd number",
+    "explain nth even and odd numbers with an example",
+    "short note on nth even and odd numbers",
+    "why is nth even and odd numbers important",
+    "give one everyday example of nth even and odd numbers",
+    "describe nth even and odd numbers in your own words",
+    "what do you understand by nth even and odd numbers",
+    "list the main points about nth even and odd numbers"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate even number at position n",
+     "explain": "Multiply the position by 2.",
+     "compute": "even_val = 2 * n"
+    },
+    {
+     "step": 2,
+     "action": "Subtract 1 for odd number",
+     "explain": "The nth odd number is one less than the nth even number.",
+     "compute": "ans = even_val - 1"
+    },
+    {
+     "step": 3,
+     "action": "Verify the result",
+     "explain": "Confirm the answer has the correct parity: even numbers are divisible by 2 and odd numbers leave remainder 1 when divided by 2.",
+     "compute": "ans = 2 * n - 1"
+    }
+   ]
+  },
+  {
+   "id": "gegp.6.3.1",
+   "title": "Magic Square Properties",
+   "section": "6.3",
+   "definition": "A square grid of numbers where each row, each column and each diagonal add up to the same number called the magic sum.",
+   "formula": "magic_sum = 3 * center_number",
+   "key_idea": "For a 3x3 magic square of consecutive numbers, the magic sum is three times the middle number.",
+   "textbook_ref": "gegp106.txt lines 200-240",
+   "question_patterns": [
+    "what is the magic sum of a 3x3 magic square using 1-9",
+    "find the center number if the magic sum is 60",
+    "calculate the magic sum if the center is 25",
+    "is a grid a magic square if row sums are equal",
+    "explain magic square properties with an example",
+    "short note on magic square properties",
+    "why is magic square properties important",
+    "give one everyday example of magic square properties",
+    "describe magic square properties in your own words",
+    "what do you understand by magic square properties",
+    "list the main points about magic square properties"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the center number",
+     "explain": "The center number m is the middle value of the sequence."
+    },
+    {
+     "step": 2,
+     "action": "Multiply by 3",
+     "explain": "The magic sum of a 3x3 square is 3 times the center element.",
+     "compute": "ans = 3 * m"
+    },
+    {
+     "step": 3,
+     "action": "Verify the magic sum",
+     "explain": "Check that each row, column, and diagonal of the magic square adds up to the computed magic sum.",
+     "compute": "ans = 3 * m"
+    }
+   ]
+  },
+  {
+   "id": "gegp.6.3.2",
+   "title": "Magic Square Center and Bounds",
+   "section": "6.3",
+   "definition": "In a 3x3 magic square using numbers 1-9, the center must be 5 and the magic sum must be 15.",
+   "formula": "center = (first_num + last_num) / 2",
+   "key_idea": "The center number is the average of the first and last numbers of the consecutive sequence.",
+   "textbook_ref": "gegp106.txt lines 215-235",
+   "question_patterns": [
+    "what number must be at the center of a 1-9 magic square",
+    "find the center number for a magic square using 2-10",
+    "can 9 be at the center of a 3x3 magic square",
+    "explain magic square center and bounds with an example",
+    "short note on magic square center and bounds",
+    "why is magic square center and bounds important",
+    "give one everyday example of magic square center and bounds",
+    "describe magic square center and bounds in your own words",
+    "what do you understand by magic square center and bounds",
+    "list the main points about magic square center and bounds"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find the average of the range",
+     "explain": "The center is the midpoint of the nine consecutive numbers.",
+     "compute": "ans = (first + last) / 2"
+    },
+    {
+     "step": 2,
+     "action": "Confirm the center is an integer",
+     "explain": "For a sequence of nine consecutive numbers, the average of the first and last must be a whole number.",
+     "compute": "center = (first + last) / 2"
+    },
+    {
+     "step": 3,
+     "action": "Verify the magic sum",
+     "explain": "Multiply the center by 3 to confirm the magic sum matches the expected value for the sequence.",
+     "compute": "magic_sum = 3 * center"
+    }
+   ]
+  },
+  {
+   "id": "gegp.6.4.1",
+   "title": "Virahāṅka-Fibonacci Sequence",
+   "section": "6.4",
+   "definition": "A sequence where each number is the sum of the two previous numbers, starting with 1, 2, 3, 5, 8...",
+   "formula": "next_term = prev_term1 + prev_term2",
+   "key_idea": "Discovered in the context of Sanskrit poetry rhythms (short and long syllables).",
+   "textbook_ref": "gegp106.txt lines 280-340",
+   "question_patterns": [
+    "find the next number in the sequence 34, 55, ...",
+    "what is the 8th Virahāṅka number",
+    "calculate the number of rhythms for 5 beats",
+    "how many ways to write 8 as a sum of 1s and 2s",
+    "explain virahāṅka-fibonacci sequence with an example",
+    "short note on virahāṅka-fibonacci sequence",
+    "why is virahāṅka-fibonacci sequence important",
+    "give one everyday example of virahāṅka-fibonacci sequence",
+    "describe virahāṅka-fibonacci sequence in your own words",
+    "what do you understand by virahāṅka-fibonacci sequence",
+    "list the main points about virahāṅka-fibonacci sequence"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add the two preceding terms",
+     "explain": "The rule of the sequence is the sum of the two previous numbers.",
+     "compute": "ans = prev1 + prev2"
+    },
+    {
+     "step": 2,
+     "action": "Identify the position in the sequence",
+     "explain": "Determine which position the new term occupies to continue generating further terms if needed.",
+     "compute": "position = current_position + 1"
+    },
+    {
+     "step": 3,
+     "action": "Verify the result",
+     "explain": "Confirm the new term follows the pattern by checking that it equals the sum of the two terms before it.",
+     "compute": "ans = prev1 + prev2"
+    }
+   ]
+  },
+  {
+   "id": "gegp.6.5.1",
+   "title": "Cryptarithms",
+   "section": "6.5",
+   "definition": "Mathematical puzzles where digits are replaced by letters. Each letter stands for a unique digit (0-9).",
+   "formula": "letter + letter = result_with_letters",
+   "key_idea": "Using logical deduction to find which digit each letter represents.",
+   "textbook_ref": "gegp106.txt lines 370-400",
+   "question_patterns": [
+    "solve the cryptarithm T + T + T = UT",
+    "what digit does K stand for in K2 + K2 = HMM",
+    "find the value of letters in the addition puzzle",
+    "explain cryptarithms with an example",
+    "short note on cryptarithms",
+    "why is cryptarithms important",
+    "give one everyday example of cryptarithms",
+    "describe cryptarithms in your own words",
+    "what do you understand by cryptarithms",
+    "list the main points about cryptarithms"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze units place",
+     "explain": "Check the addition of the rightmost column to find constraints on digits."
+    },
+    {
+     "step": 2,
+     "action": "Check carries",
+     "explain": "Determine if the sum of digits produces a carry to the next place value."
+    },
+    {
+     "step": 3,
+     "action": "Test digits 0-9",
+     "explain": "Substitute possible values to see which satisfies the entire equation."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gegp106.txt lines 155-160",
+   "concept": "gegp.6.2.4",
+   "question_type": "compute",
+   "question_pattern": "What is the {n}th even number?",
+   "extracted_variables": {
+    "n": "position in sequence"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply position by 2",
+     "explain": "Even numbers are multiples of 2.",
+     "compute": "ans = 2 * n"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gegp106.txt lines 165-170",
+   "concept": "gegp.6.2.4",
+   "question_type": "compute",
+   "question_pattern": "What is the {n}th odd number?",
+   "extracted_variables": {
+    "n": "position in sequence"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find even number at position n",
+     "explain": "Multiply position by 2.",
+     "compute": "even_val = 2 * n"
+    },
+    {
+     "step": 2,
+     "action": "Subtract 1",
+     "explain": "The nth odd number is one less than the nth even number.",
+     "compute": "ans = even_val - 1"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "gegp106.txt lines 330-340",
+   "concept": "gegp.6.4.1",
+   "question_type": "compute",
+   "question_pattern": "If the previous two numbers are {prev1} and {prev2}, what is the next Virahāṅka number?",
+   "extracted_variables": {
+    "prev1": "last term",
+    "prev2": "second last term"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum the terms",
+     "explain": "Add the two previous numbers to get the next term.",
+     "compute": "ans = prev1 + prev2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex6.1",
+   "source_ref": "gegp106.txt lines 25-40",
+   "questions": [
+    "Arrange stick figures for sequence: 0, 1, 1, 2, 4, 1, 5",
+    "Is it true that the first person's number is always 0?",
+    "What is the largest number possible in a group of 8 people?"
+   ]
+  },
+  {
+   "id": "ex6.2",
+   "source_ref": "gegp106.txt lines 100-120",
+   "questions": [
+    "Find parity of: Sum of 2 even numbers and 2 odd numbers",
+    "Find parity of: Sum of 8 odd numbers",
+    "Lakpa has odd ₹1, odd ₹5, and even ₹10 coins. Total is ₹205. Mistake?",
+    "Find parity for: even - odd, odd - odd"
+   ]
+  },
+  {
+   "id": "ex6.3",
+   "source_ref": "gegp106.txt lines 125-130",
+   "questions": [
+    "Find parity of small squares in 27 x 13 grid",
+    "Find parity of small squares in 135 x 654 grid"
+   ]
+  },
+  {
+   "id": "ex6.4",
+   "source_ref": "gegp106.txt lines 245-260",
+   "questions": [
+    "Create a magic square using numbers 2-10",
+    "What happens to the magic sum if you double each number?",
+    "Find a magic square if the center number is 25",
+    "Create a magic square whose magic sum is 60"
+   ]
+  },
+  {
+   "id": "ex6.5",
+   "source_ref": "gegp106.txt lines 410-440",
+   "questions": [
+    "Dorjee toggles a switch 77 times. Bulb ON or OFF?",
+    "Parity of the sum of numbers from 1 to 100",
+    "Next 2 numbers in Virahāṅka sequence after 987 and 1597",
+    "Parity of the 20th term of the Virahāṅka sequence",
+    "Solve cryptarithm: UT + TA = TAT"
+   ]
+  }
+ ],
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)",
+ "source_link": "re-linked to new cache"
+}

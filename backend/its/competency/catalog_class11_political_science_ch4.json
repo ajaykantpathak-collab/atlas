@@ -1,0 +1,460 @@
+{
+ "class": "11",
+ "subject": "political_science",
+ "chapter": 4,
+ "chapter_title": "Executive",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\keps204.txt",
+ "concepts": [
+  {
+   "id": "c11ps.4.1",
+   "title": "Meaning of Executive",
+   "section": "Meaning of Executive",
+   "definition": "The executive is the organ of government responsible for the implementation and administration of laws and policies. It comprises all functionaries and institutions that carry out the day-to-day governance of the state.",
+   "formula": "",
+   "key_idea": "The executive is the branch of government that executes or implements the laws made by the legislature and runs the administration of the country.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the executive and what are its functions?",
+    "Distinguish between the legislature and the executive.",
+    "Why is the executive called the most visible organ of government?",
+    "Explain the role of the executive in a democratic government.",
+    "What are the different types of executive functionaries?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the executive as an organ of government",
+     "explain": "The executive is the branch that implements laws and administers the affairs of the state."
+    },
+    {
+     "step": 2,
+     "action": "Identify its primary functions",
+     "explain": "The executive enforces laws, maintains internal order and external security, formulates policies, and runs the administration."
+    },
+    {
+     "step": 3,
+     "action": "Explain its visibility and importance",
+     "explain": "Because it directly interacts with citizens and carries out visible day-to-day governance, the executive is the most visible organ of government."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is the executive considered the most visible organ of government?",
+     "solution": "Step 1: The executive implements laws and policies that directly affect citizens. Step 2: Its functionaries like the President, Prime Minister, and civil servants are in daily public view. Step 3: Hence it is the most visible organ.",
+     "answer": "Because it carries out day-to-day governance and its functionaries interact directly with citizens"
+    },
+    {
+     "question": "How does the executive differ from the legislature?",
+     "solution": "Step 1: The legislature makes laws while the executive implements them. Step 2: The legislature is the law-making body; the executive is the administrative body. Step 3: Thus their primary functions differ.",
+     "answer": "The legislature makes laws; the executive implements and administers them"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning and functions of the executive in a democratic government.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State two differences between the legislature and the executive.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.4.2",
+   "title": "Types of Executive: Parliamentary and Presidential",
+   "section": "Types of Executive",
+   "definition": "The parliamentary executive is one in which the executive is drawn from and accountable to the legislature, while the presidential executive is one in which the President is separately elected and is not accountable to the legislature.",
+   "formula": "",
+   "key_idea": "In a parliamentary system the executive is a part of and responsible to the legislature, whereas in a presidential system the executive is independent of and separate from the legislature.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Distinguish between parliamentary and presidential executive.",
+    "What are the main features of a parliamentary system of executive?",
+    "What are the main features of a presidential system of executive?",
+    "In which system is the executive accountable to the legislature?",
+    "Compare the relationship between legislature and executive in the two systems."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the basis of the executive's selection",
+     "explain": "In a parliamentary system the executive is drawn from the legislature; in a presidential system the President is elected separately from the legislature."
+    },
+    {
+     "step": 2,
+     "action": "Determine the accountability of the executive",
+     "explain": "In the parliamentary system the executive is accountable to the legislature; in the presidential system the executive is not accountable to the legislature."
+    },
+    {
+     "step": 3,
+     "action": "Compare the separation of powers",
+     "explain": "The parliamentary system blends legislative and executive powers; the presidential system separates them strictly."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "In which system of executive can the legislature remove the executive through a no-confidence motion?",
+     "solution": "Step 1: A no-confidence motion is a tool of the legislature to remove the executive. Step 2: This exists in the parliamentary system where the executive is accountable to the legislature. Step 3: Therefore it is the parliamentary system.",
+     "answer": "Parliamentary system"
+    },
+    {
+     "question": "The President of the United States is elected directly and cannot be removed by the legislature through a no-confidence vote. Which type of executive is this?",
+     "solution": "Step 1: The President is elected separately from the legislature. Step 2: The President is not accountable to the legislature and cannot be removed by it through a no-confidence vote. Step 3: This is a presidential executive.",
+     "answer": "Presidential executive"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Compare and contrast the parliamentary and presidential systems of executive.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State one feature each of the parliamentary and presidential executive.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.4.3",
+   "title": "President of India",
+   "section": "President of India",
+   "definition": "The President of India is the constitutional head of the Indian State, elected indirectly by an electoral college, who exercises executive powers formally on the advice of the Council of Ministers headed by the Prime Minister.",
+   "formula": "",
+   "key_idea": "The President is the formal or nominal head of the executive who acts on the advice of the Council of Ministers, while real executive power lies with the Prime Minister and the Council.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How is the President of India elected?",
+    "What are the powers of the President of India?",
+    "Explain the role of the President as the head of the State.",
+    "Is the President of India merely a rubber stamp? Discuss.",
+    "Describe the electoral college for the election of the President."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the position of the President",
+     "explain": "The President is the constitutional head of State, elected indirectly by an electoral college of elected members of Parliament and State Assemblies."
+    },
+    {
+     "step": 2,
+     "action": "Explain how the President exercises powers",
+     "explain": "The President exercises executive, legislative, judicial, financial, and emergency powers formally on the advice of the Council of Ministers."
+    },
+    {
+     "step": 3,
+     "action": "Clarify the nominal nature of the office",
+     "explain": "Because the President must act on the advice of the Council of Ministers, real executive power rests with the Prime Minister, making the President the nominal head."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How is the President of India elected?",
+     "solution": "Step 1: The President is not directly elected by the people. Step 2: An electoral college of elected MPs and elected MLAs elects the President. Step 3: The election is by proportional representation with single transferable vote.",
+     "answer": "Indirectly by an electoral college of elected MPs and MLAs using proportional representation"
+    },
+    {
+     "question": "Can the President of India act without the advice of the Council of Ministers?",
+     "solution": "Step 1: The President is the constitutional head who acts on ministerial advice. Step 2: Article 74 requires the President to act on the aid and advice of the Council of Ministers. Step 3: Therefore the President cannot act without such advice.",
+     "answer": "No, the President must act on the advice of the Council of Ministers"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the election and powers of the President of India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is the President called the nominal head of the executive?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.4.4",
+   "title": "Prime Minister and Council of Ministers",
+   "section": "Prime Minister and Council of Ministers",
+   "definition": "The Prime Minister is the head of the government and the real executive authority in India, who heads the Council of Ministers that is collectively responsible to the Lok Sabha and advises the President in the exercise of executive powers.",
+   "formula": "",
+   "key_idea": "The Prime Minister is the most powerful political executive in India; the Council of Ministers, headed by the Prime Minister, is the real executive that actually runs the government.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How is the Prime Minister of India appointed?",
+    "What are the powers and functions of the Prime Minister?",
+    "Explain the principle of collective responsibility of the Council of Ministers.",
+    "What is the relationship between the Prime Minister and the Council of Ministers?",
+    "Why is the Prime Minister called the real head of the executive?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify how the Prime Minister is appointed",
+     "explain": "The President appoints as Prime Minister the leader of the party or coalition that has a majority in the Lok Sabha."
+    },
+    {
+     "step": 2,
+     "action": "Explain the powers of the Prime Minister",
+     "explain": "The Prime Minister forms the Council of Ministers, allocates portfolios, presides over cabinet meetings, and is the chief advisor to the President."
+    },
+    {
+     "step": 3,
+     "action": "Relate the Council to collective responsibility",
+     "explain": "The Council of Ministers is collectively responsible to the Lok Sabha; if it loses a no-confidence motion, the entire Council must resign."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is the Prime Minister called the real executive head of India?",
+     "solution": "Step 1: The President acts on the advice of the Council of Ministers. Step 2: The Prime Minister heads this Council and actually runs the government. Step 3: Hence the Prime Minister is the real executive head.",
+     "answer": "Because the Prime Minister heads the Council of Ministers that actually exercises executive power"
+    },
+    {
+     "question": "What happens if the Council of Ministers loses a no-confidence motion in the Lok Sabha?",
+     "solution": "Step 1: The Council of Ministers is collectively responsible to the Lok Sabha. Step 2: Losing a no-confidence motion means it no longer has the confidence of the House. Step 3: The entire Council of Ministers must resign.",
+     "answer": "The entire Council of Ministers must resign"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the appointment, powers, and functions of the Prime Minister of India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is meant by collective responsibility of the Council of Ministers?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.4.5",
+   "title": "Real and Nominal Head",
+   "section": "Real and Nominal Head",
+   "definition": "The nominal head is the constitutional or formal head of the State who holds office and exercises powers in name, while the real head is the actual executive authority who exercises real powers and is responsible for running the government.",
+   "formula": "",
+   "key_idea": "In India, the President is the nominal head who acts on advice, while the Prime Minister is the real head who actually wields executive power.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Distinguish between the real and nominal head of the executive.",
+    "Who is the real head and who is the nominal head in India?",
+    "Why is the President called the nominal head and the Prime Minister the real head?",
+    "Explain the concept of nominal executive with reference to India.",
+    "How does the distinction between real and nominal head operate in a parliamentary system?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the nominal head",
+     "explain": "The nominal head holds formal authority and acts on the advice of others; in India this is the President."
+    },
+    {
+     "step": 2,
+     "action": "Define the real head",
+     "explain": "The real head actually exercises executive power and is accountable for governance; in India this is the Prime Minister."
+    },
+    {
+     "step": 3,
+     "action": "Explain the relationship between the two",
+     "explain": "The nominal head acts on the advice of the real head, so real power lies with the Prime Minister and the Council of Ministers."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Who is the nominal head and who is the real head of the Indian executive?",
+     "solution": "Step 1: The President is the formal constitutional head who acts on advice. Step 2: The Prime Minister actually exercises executive power. Step 3: The President is the nominal head and the Prime Minister is the real head.",
+     "answer": "President is the nominal head; Prime Minister is the real head"
+    },
+    {
+     "question": "Why is the President of India not considered the real head of the executive?",
+     "solution": "Step 1: The President exercises powers on the advice of the Council of Ministers. Step 2: Real decision-making power lies with the Prime Minister and the Council. Step 3: Hence the President is not the real head.",
+     "answer": "Because the President acts on ministerial advice and does not hold real executive power"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the distinction between the real and nominal head of the executive with reference to India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is the Prime Minister called the real head of the government?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.4.6",
+   "title": "Powers of the President",
+   "section": "Powers of the President",
+   "definition": "The President of India exercises executive, legislative, financial, judicial, diplomatic, and emergency powers as provided by the Constitution, although these powers are exercised on the advice of the Council of Ministers.",
+   "formula": "",
+   "key_idea": "The President's powers are broad and constitutional, covering all major areas of governance, but are exercised formally on the advice of the Council of Ministers.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the executive powers of the President of India?",
+    "Explain the legislative powers of the President.",
+    "What are the emergency powers of the President?",
+    "Describe the financial and judicial powers of the President.",
+    "How are the President's powers exercised in practice?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the category of presidential power",
+     "explain": "The President holds executive, legislative, financial, judicial, diplomatic, and emergency powers under the Constitution."
+    },
+    {
+     "step": 2,
+     "action": "Describe the specific power within that category",
+     "explain": "For example, legislative powers include summoning Parliament, giving assent to bills, and promulgating ordinances."
+    },
+    {
+     "step": 3,
+     "action": "Note that powers are exercised on ministerial advice",
+     "explain": "All these powers are exercised formally on the advice of the Council of Ministers headed by the Prime Minister."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the ordinance-making power of the President of India?",
+     "solution": "Step 1: The President can promulgate ordinances under Article 123. Step 2: Ordinances have the force of law when Parliament is not in session. Step 3: They must be approved by Parliament within six weeks of reassembly.",
+     "answer": "The President can issue ordinances with the force of law when Parliament is not in session, under Article 123"
+    },
+    {
+     "question": "Under what circumstances can the President declare a national emergency?",
+     "solution": "Step 1: Article 352 allows declaration of national emergency. Step 2: It can be declared on grounds of war, external aggression, or armed rebellion. Step 3: The declaration must be approved by both Houses of Parliament.",
+     "answer": "On grounds of war, external aggression, or armed rebellion, under Article 352, with parliamentary approval"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Discuss the various powers of the President of India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Explain the ordinance-making power of the President.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.4.7",
+   "title": "Relationship Between President and Prime Minister",
+   "section": "President and Prime Minister",
+   "definition": "The relationship between the President and the Prime Minister is defined by the constitutional principle that the President exercises executive powers on the aid and advice of the Council of Ministers headed by the Prime Minister.",
+   "formula": "",
+   "key_idea": "The President is the constitutional head who acts on the advice of the Prime Minister and the Council of Ministers, making the Prime Minister the real executive authority while the President remains the formal head.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the constitutional relationship between the President and the Prime Minister.",
+    "How does the Prime Minister advise the President?",
+    "What is the role of Article 74 in the President-Prime Minister relationship?",
+    "Can the President disregard the advice of the Prime Minister? Discuss.",
+    "How do the President and Prime Minister complement each other in the executive?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the constitutional basis of the relationship",
+     "explain": "Article 74 states that the President shall act on the aid and advice of the Council of Ministers headed by the Prime Minister."
+    },
+    {
+     "step": 2,
+     "action": "Explain the advisory role of the Prime Minister",
+     "explain": "The Prime Minister communicates the decisions of the Council of Ministers to the President and advises on all executive matters."
+    },
+    {
+     "step": 3,
+     "action": "Clarify the limits of presidential discretion",
+     "explain": "The President is bound by ministerial advice in most matters, though limited situational discretion exists in rare circumstances like appointing a Prime Minister in a hung Parliament."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the significance of Article 74 in the relationship between the President and the Prime Minister?",
+     "solution": "Step 1: Article 74 provides for a Council of Ministers to aid and advise the President. Step 2: The President acts on this advice in exercising powers. Step 3: This makes the Prime Minister and Council the real executive.",
+     "answer": "Article 74 binds the President to act on the advice of the Council of Ministers headed by the Prime Minister"
+    },
+    {
+     "question": "In a situation where no party has a clear majority in the Lok Sabha, what discretionary role can the President play?",
+     "solution": "Step 1: When no party has a clear majority, the choice of Prime Minister is not obvious. Step 2: The President can use situational discretion to invite a likely leader to form the government. Step 3: This is a rare case of presidential discretion.",
+     "answer": "The President can exercise situational discretion in appointing a Prime Minister in a hung Parliament"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the relationship between the President and the Prime Minister as laid down by the Constitution.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State the role of Article 74 in the working of the Indian executive.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.4.8",
+   "title": "Bureaucracy and Civil Services",
+   "section": "Bureaucracy and Civil Services",
+   "definition": "Bureaucracy refers to the permanent, professional body of civil servants who assist the political executive in implementing laws, formulating policies, and administering the day-to-day affairs of the government, remaining politically neutral and continuing in office regardless of changes in government.",
+   "formula": "",
+   "key_idea": "Bureaucracy is the administrative machinery that provides continuity, expertise, and political neutrality in governance, supporting the political executive in implementing policies.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is bureaucracy and what is its role in governance?",
+    "How does the civil service differ from the political executive?",
+    "Why is bureaucracy called the permanent executive?",
+    "Explain the importance of political neutrality in civil services.",
+    "What are the functions of civil servants in the Indian government?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define bureaucracy as the permanent executive",
+     "explain": "Bureaucracy is the body of professional civil servants who are recruited on merit and serve the government on a permanent basis."
+    },
+    {
+     "step": 2,
+     "action": "Explain its functions",
+     "explain": "Civil servants advise ministers, implement policies and laws, maintain records, and administer public services on a day-to-day basis."
+    },
+    {
+     "step": 3,
+     "action": "Highlight the principles of neutrality and continuity",
+     "explain": "Bureaucracy remains politically neutral and provides continuity of administration even as political executives change with elections."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is bureaucracy called the permanent executive?",
+     "solution": "Step 1: Political executives like ministers change with elections. Step 2: Civil servants are recruited on a permanent basis and continue in office regardless of the government. Step 3: Hence bureaucracy is the permanent executive.",
+     "answer": "Because civil servants serve permanently and continue in office even when the political executive changes"
+    },
+    {
+     "question": "How does the civil service differ from the political executive?",
+     "solution": "Step 1: The political executive is elected and changes with elections. Step 2: The civil service is appointed on merit and is permanent and politically neutral. Step 3: Thus they differ in tenure, selection, and political accountability.",
+     "answer": "The political executive is elected and temporary; the civil service is appointed, permanent, and politically neutral"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the role and importance of bureaucracy in the Indian system of governance.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is political neutrality important for civil servants?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

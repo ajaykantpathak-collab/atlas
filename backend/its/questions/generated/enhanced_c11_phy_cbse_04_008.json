@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_04_008",
+   "title": "c11_phy_cbse_04_008",
+   "questions": [
+    {
+     "q": "State the mathematical expression for maximum static friction and kinetic friction. Define each symbol with its SI unit.",
+     "a": "Maximum static friction: (fs)max = μs N, where μs is coefficient of static friction (dimensionless) and N is normal reaction (N). Kinetic friction: fk = μk N, where μk is coefficient of kinetic friction (dimensionless). A wrong answer like fs = μs mg reveals the student confuses normal reaction with weight, which is only true on horizontal surfaces with no vertical acceleration.",
+     "self_check": true
+    },
+    {
+     "q": "A block rests on an inclined plane at angle θ. The coefficient of static friction is μs. Explain why the block does not slide when tan θ < μs, using force components. Why is the condition independent of the block's mass?",
+     "a": "Weight mg resolves into mg sin θ down the plane and mg cos θ perpendicular. Normal reaction N = mg cos θ. Maximum static friction (fs)max = μs mg cos θ. For no sliding, mg sin θ ≤ μs mg cos θ → tan θ ≤ μs. Mass m cancels out, making the condition mass-independent. A wrong answer citing \"heavier blocks have more friction so they don't slide\" shows the student thinks friction depends on mass directly, not through normal force.",
+     "self_check": true
+    },
+    {
+     "q": "A 5 kg block is pulled horizontally by a force of 30 N on a rough surface with μk = 0.2. Find the acceleration of the block. Take g = 10 m/s².",
+     "a": "Given: m = 5 kg, F = 30 N, μk = 0.2, g = 10 m/s². N = mg = 50 N. fk = μk N = 0.2 × 50 = 10 N. Net force = F - fk = 30 - 10 = 20 N. a = F_net/m = 20/5 = 4 m/s². A wrong answer of 6 m/s² (using F/m only) shows the student forgot to subtract friction. A wrong answer using μs instead of μk shows confusion between static and kinetic friction.",
+     "self_check": true
+    },
+    {
+     "q": "Two blocks of masses 2 kg and 3 kg are connected by a light string over a frictionless pulley. The 2 kg block hangs vertically; the 3 kg block rests on a rough horizontal table (μk = 0.1). Compare the tension in the string to the weight of the 2 kg block. Is T > 2g, T = 2g, or T < 2g? Justify without solving fully.",
+     "a": "The 2 kg block accelerates downward, so net force on it is downward: 2g - T = 2a. Since a > 0, 2g - T > 0 → T < 2g. The tension is less than the hanging weight because the hanging mass accelerates downward. A student answering T = 2g assumes equilibrium (a=0), ignoring that the system accelerates. A student answering T > 2g incorrectly thinks tension \"pulls up harder\" than weight.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a problem: \"A 10 kg block on a 30° incline with μs = 0.5. Find friction force.\" They write: f = μs mg = 0.5 × 10 × 10 = 50 N. Evaluate this solution. Is it correct? If not, identify the error and give the correct value.",
+     "a": "The solution is incorrect. The student used fs = μs mg, but maximum static friction is μs N, and on an incline N = mg cos θ, not mg. Correct: N = 10 × 10 × cos 30° = 100 × (√3/2) ≈ 86.6 N. (fs)max = 0.5 × 86.6 = 43.3 N. The actual static friction equals the component of weight down the plane: mg sin θ = 100 × 0.5 = 50 N. Since 50 N > 43.3 N, the block slides! The student's error: using mg instead of mg cos θ for normal force, and assuming fs = (fs)max without checking if sliding occurs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a wooden block, a plank, a protractor, and a few known masses to determine the coefficient of static friction between the block and the plank. Describe the procedure and the calculation.",
+     "a": "Place block on plank. Gradually increase incline angle θ until block just starts to slide. Measure this critical angle θc with protractor. Repeat 3 times for average. μs = tan θc. To verify, add known masses on block and repeat - θc should remain same (mass-independent). A poor answer suggesting \"pull horizontally with a spring balance until it moves\" fails to account for the difficulty of measuring the exact instant of impending motion and the variation in applied force angle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

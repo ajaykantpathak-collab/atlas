@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_05_010",
+   "title": "c11_phy_cbse_05_010",
+   "questions": [
+    {
+     "q": "State the principle of conservation of mechanical energy in words and give its mathematical form. What is the SI unit of mechanical energy?",
+     "a": "The principle states: In a system where only conservative forces do work, the total mechanical energy (sum of kinetic and potential energy) remains constant. Mathematically: Ki + Vi = Kf + Vf or ΔK + ΔV = 0. SI unit: joule (J). A wrong answer (e.g., stating \"energy is always conserved\" without the conservative force condition, or confusing mechanical energy with total energy) reveals the student has memorized the formula without understanding the crucial condition — that non-conservative forces like friction must be absent or do no work.",
+     "self_check": true
+    },
+    {
+     "q": "A block slides down a frictionless inclined plane of height h. At the bottom, its speed is v. The same block is now dropped vertically from the same height h. Will its speed at ground level be the same, greater, or less than v? Explain using energy conservation.",
+     "a": "The speed will be the same. In both cases, only gravity (a conservative force) does work. Initial energy: mgh (pure potential). Final energy: ½mv² (pure kinetic). By conservation: mgh = ½mv² → v = √(2gh), independent of the path. A wrong answer (e.g., \"greater on the incline because it accelerates longer\" or \"less because the distance is longer\") reveals the student thinks work depends on path length rather than vertical displacement, confusing the scalar nature of work-energy with vector kinematics.",
+     "self_check": true
+    },
+    {
+     "q": "A 2.0 kg block is released from rest at the top of a smooth (frictionless) quarter-circle track of radius R = 1.5 m. At the bottom, it encounters a rough horizontal surface with coefficient of kinetic friction μk = 0.25. How far does the block travel on the rough surface before stopping? (Take g = 10 m/s²)",
+     "a": "**Step 1:** On the smooth track, mechanical energy is conserved. Initial: Ki = 0, Vi = mgR = 2 × 10 × 1.5 = 30 J. At bottom: Kf = 30 J, Vf = 0 (reference). So ½mv² = 30 → v = √(30) m/s.\n**Step 2:** On rough surface, friction does negative work. Friction force f = μk mg = 0.25 × 2 × 10 = 5 N.\n**Step 3:** Work-energy theorem: Wfric = ΔK = 0 - 30 = -30 J.\n**Step 4:** Wfric = -f × d = -5d = -30 → d = 6 m.\n**Answer:** 6 m. A wrong answer (e.g., using v² = u² + 2as on the incline, or forgetting to convert potential energy to kinetic first) reveals the student cannot segment a problem into conservative and non-conservative phases.",
+     "self_check": true
+    },
+    {
+     "q": "A particle of mass m moves in one dimension under a potential energy function V(x) = ax² - bx⁴, where a and b are positive constants. The total mechanical energy is E. Sketch the potential energy curve and indicate the regions where the particle can and cannot be found for a given E. How do you determine the turning points?",
+     "a": "The potential energy curve is a symmetric double-well (W-shaped) with minima at x = ±√(a/2b) and a local maximum at x = 0. For a given total energy E, the particle can only exist where V(x) ≤ E (since K = E - V(x) ≥ 0). The turning points are the x-values where V(x) = E (i.e., K = 0). The particle oscillates between the two turning points on either side of a potential well. If E > V(0), it can cross the central barrier. A wrong answer (e.g., saying the particle can be where V > E, or not identifying turning points as V(x) = E) reveals the student does not understand the physical meaning of K ≥ 0 as the constraint on motion in a potential field.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a pendulum problem: \"A bob of mass m is released from height h. Find its speed at the lowest point.\" They write: mgh = ½mv² → v = √(2gh). Then they say: \"The tension in the string also does work because it pulls the bob toward the center.\" Evaluate this statement. Is the student's final answer correct? Is their reasoning correct?",
+     "a": "The final answer v = √(2gh) is correct, but the reasoning is wrong. Tension is always perpendicular to the instantaneous displacement (which is tangential to the circular arc). Therefore, work done by tension is zero (W = F·d cos 90° = 0). The student incorrectly thinks a force that \"pulls\" must do work. This reveals a common misconception: confusing the direction of the force with the direction of displacement. The correct reasoning: only gravity (component along displacement) does work; tension is a constraint force doing no work.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a school laboratory setup (e.g., a dynamics cart on a track, a spring, a motion sensor) to verify the conservation of mechanical energy for a spring-block system. What measurements would you take? How would you account for non-conservative forces?",
+     "a": "**Setup:** Attach a spring (known k) to a cart on a level air track (to minimize friction). Compress the spring by a measured distance x₀, release from rest. Use a motion sensor to record velocity v at the equilibrium position (x = 0).\n**Measurements:** k (from static extension test), x₀ (initial compression), v_max (at x = 0), mass m of cart.\n**Verification:** Initial energy = ½kx₀². Final energy = ½mv_max². Compare. They should be equal within experimental error.\n**Accounting for non-conservative forces:** If track has friction, measure the decrease in amplitude over successive oscillations. The work done by friction per cycle = energy loss per cycle. Plot total mechanical energy vs. time — the slope gives power dissipated. A poor answer (e.g., \"just measure speed\" without specifying where, or ignoring friction entirely) reveals the student cannot translate the abstract principle into a measurable experimental protocol.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

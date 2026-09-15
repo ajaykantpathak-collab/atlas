@@ -1,0 +1,405 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 113,
+ "chapter_title": "Fun with Magnets",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\fecu104.txt",
+ "concepts": [
+  {
+   "id": "fesc.113.1",
+   "title": "Natural Magnets and Magnetite",
+   "section": "How Magnets Were Discovered",
+   "definition": "Naturally occurring rocks containing iron that have the inherent property of attracting iron pieces.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Magnetite is a natural magnetic mineral discovered in ancient times.",
+   "textbook_ref": "fesc113.txt lines 35-75",
+   "question_patterns": [
+    "How was the first natural magnet discovered?",
+    "What is magnetite and what does it contain?",
+    "Who discovered natural magnets and where?",
+    "What is a natural magnet?",
+    "why is natural magnets and magnetite important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the material",
+     "explain": "Verify if the material is a naturally occurring iron-rich rock (magnetite)."
+    },
+    {
+     "step": 2,
+     "action": "Observe attraction",
+     "explain": "Check if it naturally attracts iron objects without any artificial treatment."
+    },
+    {
+     "step": 3,
+     "action": "Confirm magnetite origin",
+     "explain": "Confirm the rock is magnetite (Fe3O4), an iron oxide mineral known since ancient times as lodestone, the first natural magnet."
+    }
+   ]
+  },
+  {
+   "id": "fesc.113.2",
+   "title": "Magnetic and Non-Magnetic Materials",
+   "section": "13.1 Magnetic and Non-Magnetic Materials",
+   "definition": "Classification of substances using whether they are attracted to a magnet (magnetic, like iron, nickel, cobalt) or not (non-magnetic, like plastic, wood, paper).",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Only specific metals and their alloys are indeed attracted to magnets.",
+   "textbook_ref": "fesc113.txt lines 100-140",
+   "question_patterns": [
+    "Classify the following materials as magnetic or non-magnetic",
+    "Why is a pencil sharpener attracted to a magnet despite its plastic body?",
+    "Is cobalt a magnetic material?",
+    "What is the difference between magnetic and non-magnetic substances?",
+    "state two key points about magnetic and non-magnetic materials"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Bring magnet close",
+     "explain": "Bring a magnet close to the given object or material."
+    },
+    {
+     "step": 2,
+     "action": "Observe force",
+     "explain": "Observe if there is an attractive force pulling the object toward the magnet."
+    },
+    {
+     "step": 3,
+     "action": "Classify material",
+     "explain": "Classify as magnetic if attracted (e.g., iron, nickel, cobalt) or non-magnetic if not attracted."
+    }
+   ]
+  },
+  {
+   "id": "fesc.113.3",
+   "title": "Poles of a Magnet",
+   "section": "13.2 Poles of Magnet",
+   "definition": "The regions near the two ends of a magnet where its magnetic strength is concentrated and attraction is strongest.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Every magnet has two poles, both North and South, located near its ends.",
+   "textbook_ref": "fesc113.txt lines 150-190",
+   "question_patterns": [
+    "Where is the magnetic strength of a bar magnet strongest?",
+    "What are the poles of a magnet?",
+    "How can you find the location of poles on a magnet using iron filings?",
+    "Do poles exist in magnets of all shapes?",
+    "why is poles of a magnet important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Spread filings",
+     "explain": "Spread iron filings uniformly on a flat sheet of paper."
+    },
+    {
+     "step": 2,
+     "action": "Place magnet",
+     "explain": "Place the magnet on the sheet and observe where the filings accumulate."
+    },
+    {
+     "step": 3,
+     "action": "Identify poles",
+     "explain": "Identify the regions of maximum accumulation at the ends as the magnetic poles."
+    }
+   ]
+  },
+  {
+   "id": "fesc.113.4",
+   "title": "Directive Property of a Freely Suspended Magnet",
+   "section": "13.3 Finding Directions",
+   "definition": "A magnet hung freely so it can swing settles pointing along the geographic north-south line.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "A suspended magnet acts as a natural compass pointing North-South.",
+   "textbook_ref": "fesc113.txt lines 195-245",
+   "question_patterns": [
+    "In which direction does a freely suspended bar magnet always align?",
+    "How can you find the North pole of an unmarked bar magnet?",
+    "Why does a suspended magnet point in a specific direction?",
+    "Describe the directive property of a magnet.",
+    "how does directive property of a freely suspended magnet work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Suspend magnet",
+     "explain": "Suspend a bar magnet freely from its center using a thread so it can rotate without obstruction."
+    },
+    {
+     "step": 2,
+     "action": "Allow to rest",
+     "explain": "Let the magnet come to rest away from any draft or magnetic materials."
+    },
+    {
+     "step": 3,
+     "action": "Determine orientation",
+     "explain": "Identify the end pointing towards geographic North as the North pole, and the opposite end as the South pole."
+    }
+   ]
+  },
+  {
+   "id": "fesc.113.5",
+   "title": "The Magnetic Compass",
+   "section": "13.3 Finding Directions",
+   "definition": "A navigation instrument consisting of a small, freely pivoted magnetic needle inside a dial marked with directions, used to find geographic directions.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "The pivoted needle aligns with the Earth's magnetic field to show the North-South direction.",
+   "textbook_ref": "fesc113.txt lines 246-275",
+   "question_patterns": [
+    "How does a compass help in finding directions?",
+    "Describe the construction of a magnetic compass.",
+    "Why is the north pole of a compass needle painted in a different color?",
+    "How do you use a compass to find the East-West direction?",
+    "justify why the magnetic compass matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Place compass",
+     "explain": "Place the compass on a flat surface at the location where directions need to be determined."
+    },
+    {
+     "step": 2,
+     "action": "Wait for rest",
+     "explain": "Wait for the magnetized needle to stop oscillating and come to rest in the North-South direction."
+    },
+    {
+     "step": 3,
+     "action": "Align dial",
+     "explain": "Rotate the compass casing until the 'N' and 'S' markings on the dial align with the ends of the needle."
+    }
+   ]
+  },
+  {
+   "id": "fesc.113.6",
+   "title": "Making an Artificial Magnet (Single-Touch Method)",
+   "section": "13.4 Make Your Own Magnet",
+   "definition": "A method of magnetizing an iron piece by repeatedly stroking it with one pole of a bar magnet along its length in a single, continuous direction.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "An ordinary iron strip can be turned into a temporary magnet using a permanent magnet.",
+   "textbook_ref": "fesc113.txt lines 276-310",
+   "question_patterns": [
+    "How can you make an iron strip into a magnet?",
+    "Explain the single-touch method of magnetization.",
+    "What precautions should be taken while making an artificial magnet?",
+    "How to magnetize an iron needle?",
+    "justify why making an artificial magnet (single-touch method) matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Position iron",
+     "explain": "Place the iron strip flat on a table."
+    },
+    {
+     "step": 2,
+     "action": "Stroke with magnet",
+     "explain": "Drag one pole of a bar magnet along the strip from one end to the other."
+    },
+    {
+     "step": 3,
+     "action": "Repeat cycle",
+     "explain": "Lift the magnet and return to the starting point, repeating this stroke 30-40 times in the same direction with the same pole."
+    },
+    {
+     "step": 4,
+     "action": "Test magnetization",
+     "explain": "Verify magnetization by bringing iron filings or pins near the strip."
+    }
+   ]
+  },
+  {
+   "id": "fesc.113.7",
+   "title": "Magnetic Attraction and Repulsion",
+   "section": "13.5 Attraction and Repulsion Between Magnets",
+   "definition": "The fundamental law of magnetism stating that like magnetic poles repel each other, while unlike magnetic poles attract each other.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "North-both both North and South-South repel; North-South and South-North attract.",
+   "textbook_ref": "fesc113.txt lines 311-350",
+   "question_patterns": [
+    "What happens when two similar poles of magnets are brought close?",
+    "What is the rule of attraction and repulsion between magnetic poles?",
+    "Will a North pole attract or repel another North pole?",
+    "How do opposite poles of two magnets interact?",
+    "what do you understand by magnetic attraction and repulsion"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify poles",
+     "explain": "Identify the poles of the two interacting magnets (North and South)."
+    },
+    {
+     "step": 2,
+     "action": "Check for similarity",
+     "explain": "Compare the facing poles: if they are identical (N-N or S-S), they repel."
+    },
+    {
+     "step": 3,
+     "action": "Check for difference",
+     "explain": "If the facing poles are different (N-S or S-N), they attract."
+    }
+   ]
+  },
+  {
+   "id": "fesc.113.8",
+   "title": "Care and Storage of Magnets",
+   "section": "13.5 Attraction and Repulsion Between Magnets",
+   "definition": "Guidelines to prevent demagnetization, which occurs when magnets are indeed heated, hammered, dropped, or stored improperly without magnetic keepers.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Proper handling and keepers preserve magnetic properties over time.",
+   "textbook_ref": "fesc113.txt lines 351-380",
+   "question_patterns": [
+    "How do magnets lose their magnetic properties?",
+    "How should bar magnets be stored safely?",
+    "What are the precautions to keep magnets from getting weak?",
+    "Why should magnets be kept away from electronic devices like mobiles and computers?",
+    "describe care and storage of magnets with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Avoid abuse",
+     "explain": "Avoid physical abuse such as heating, hammering, or dropping the magnet."
+    },
+    {
+     "step": 2,
+     "action": "Store with keepers",
+     "explain": "Store bar magnets in pairs with opposite poles adjacent, separated by wood, and with soft iron keepers across their ends."
+    },
+    {
+     "step": 3,
+     "action": "Isolate from electronics",
+     "explain": "Keep magnets away from magnetic storage and electronic devices (CDs, computers, phones)."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fesc113.txt Exercises Q4",
+   "concept": "fesc.113.7",
+   "question_type": "verify_property",
+   "question_pattern": "What is the interaction when {pole1} is placed near {pole2}?",
+   "extracted_variables": {
+    "pole1": "The magnetic pole of the first magnet",
+    "pole2": "The magnetic pole of the second magnet"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify poles",
+     "explain": "Identify the poles of the two interacting magnets (North and South)."
+    },
+    {
+     "step": 2,
+     "action": "Check for similarity",
+     "explain": "Compare the facing poles: if they are identical (N-N or S-S), they repel."
+    },
+    {
+     "step": 3,
+     "action": "Check for difference",
+     "explain": "If the facing poles are different (N-S or S-N), they attract."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fesc113.txt Exercises Q3",
+   "concept": "fesc.113.2",
+   "question_type": "verify_property",
+   "question_pattern": "A pencil sharpener gets attracted by both the poles of a magnet although its body is made of {outer_material}. Name a material {inner_material} that might have been used to make some part of it.",
+   "extracted_variables": {
+    "outer_material": "The material of the outer body of the sharpener",
+    "inner_material": "The magnetic material inside"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Bring magnet close",
+     "explain": "Bring a magnet close to the given object or material."
+    },
+    {
+     "step": 2,
+     "action": "Observe force",
+     "explain": "Observe if there is an attractive force pulling the object toward the magnet."
+    },
+    {
+     "step": 3,
+     "action": "Classify material",
+     "explain": "Classify as magnetic if attracted (e.g., iron, nickel, cobalt) or non-magnetic if not attracted."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex13.1",
+   "source_ref": "fesc113.txt lines 385-400",
+   "questions": [
+    "Artificial magnets are made in different shapes such as __________, __________ and ____________.",
+    "The Materials which are attracted towards a magnet are called________.",
+    "Paper is not a ______ material.",
+    "In olden days, sailors used to find direction by suspending a piece of ___________.",
+    "A magnet always has __________ poles."
+   ]
+  },
+  {
+   "id": "ex13.2",
+   "source_ref": "fesc113.txt lines 401-415",
+   "questions": [
+    "A cylindrical magnet has only one pole. (True/False)",
+    "Artificial magnets were discovered in Greece. (True/False)",
+    "Similar poles of a magnet repel each other. (True/False)",
+    "Maximum iron filings stick in the middle of a bar magnet when it is brought near them. (True/False)",
+    "Bar magnets always point towards North-South direction. (True/False)",
+    "A compass can be used to find East-West direction at any place. (True/False)",
+    "Rubber is a magnetic material. (True/False)"
+   ]
+  },
+  {
+   "id": "ex13.3",
+   "source_ref": "fesc113.txt lines 416-419",
+   "questions": [
+    "It was observed that a pencil sharpener gets attracted by both the poles of a magnet although its body is made of plastic. Name a material that might have been used to make some part of it."
+   ]
+  },
+  {
+   "id": "ex13.4",
+   "source_ref": "fesc113.txt lines 420-428",
+   "questions": [
+    "Fill in the blanks for the resulting action between magnetic poles: N-N, N-S, S-N, S-S."
+   ]
+  },
+  {
+   "id": "ex13.5",
+   "source_ref": "fesc113.txt lines 429-435",
+   "questions": [
+    "Write any two properties of a magnet.",
+    "Where are poles of a bar magnet located?",
+    "A bar magnet has no markings to indicate its poles. How would you find out near which end is its north pole located?",
+    "You are given an iron strip. How will you make it into a magnet?",
+    "How is a compass used to find directions?"
+   ]
+  },
+  {
+   "id": "ex13.6",
+   "source_ref": "fesc113.txt lines 436-455",
+   "questions": [
+    "Match the observed effects on a toy boat floating in water with the possible reasons (e.g., boat gets attracted, boat is not affected, boat moves towards north pole, boat moves away, boat floats without changing direction)."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

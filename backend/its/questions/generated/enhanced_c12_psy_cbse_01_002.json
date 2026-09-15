@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_01_002",
+   "title": "c12_psy_cbse_01_002",
+   "questions": [
+    {
+     "q": "A student says, \"Assessment and testing mean the same thing in psychology.\" Is this statement correct? Answer in one sentence.",
+     "a": "No. Assessment is the broader process of measurement and evaluation using multiple methods (tests, interviews, observation, etc.) against standards of comparison; a psychological test is only one standardized tool used within assessment. A wrong answer reveals the student conflates a tool (test) with the entire process (assessment), missing that interviews, case studies, and observations are also assessment methods.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why psychological attributes are described as \"multi-dimensional\" rather than \"unidimensional\" in the NCERT text. Use the \"box\" analogy from the textbook.",
+     "a": "A line (unidimensional) can be described by a single measure (length), but a box (multi-dimensional) requires three measures (length, width, height) to be fully described. Similarly, psychological attributes like intelligence or personality cannot be captured by a single score; they require assessment across multiple domains (e.g., verbal, spatial, emotional) to give a complete picture. A wrong answer indicates the student has memorized the term \"multi-dimensional\" without grasping the analogy that attributes are complex constructs needing multiple indices.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to study the leadership style of a student council president in a natural school setting over three months. Which assessment method is MOST appropriate? Justify your choice in two sentences.",
+     "a": "Observation is most appropriate because it systematically records naturally occurring behaviour in real time without artificial test conditions, capturing how the president actually leads meetings, resolves conflicts, and delegates tasks. A wrong answer (e.g., \"psychological test\" or \"interview\") shows the student cannot match the method's strength (naturalistic, real-time) to the research goal (studying behaviour in situ over time).",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"interest\" and \"aptitude\" as domains of psychological assessment. Why is it necessary to assess BOTH for career guidance?",
+     "a": "Interest is a person's preference for activities (what they like); aptitude is their potential to acquire skills in those activities (what they can do well with training). A student may love music (high interest) but lack musical aptitude (tone-deaf), or have high mechanical aptitude but zero interest in engineering. Assessing both prevents mismatches: interest without aptitude leads to frustration; aptitude without interest leads to disengagement. A wrong answer treats them as synonyms or fails to explain the practical consequence of assessing only one.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"A self-report questionnaire is the best method for assessing personality because it directly asks the person about themselves.\" Use two distinct limitations of self-report.",
+     "a": "The statement is flawed. Limitation 1: Social desirability bias — respondents may fake \"good\" answers to appear favourable. Limitation 2: Lack of self-insight — people often cannot accurately report their own unconscious traits (e.g., defence mechanisms). A good critique acknowledges self-report's utility (easy, economical) but argues it must be supplemented by observation or projective techniques. A weak answer only says \"it's subjective\" without naming specific biases.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-assessment plan for a 14-year-old referred for \"difficulty adjusting to new school.\" Specify: (a) two domains to assess, (b) one method per domain, (c) one reason for each choice.",
+     "a": "(a) Domains: Personality (to understand temperament, anxiety, social withdrawal) and Interest (to identify activities/clubs that could foster belonging). (b) Methods: Personality → Self-report questionnaire (e.g., adapted Big Five for adolescents) for breadth; Interest → Structured interview to explore preferences in depth. (c) Reasons: Self-report efficiently captures trait patterns; interview builds rapport and uncovers context-specific interests a checklist might miss. A poor answer picks domains/methods randomly (e.g., \"intelligence test\") without linking to the referral problem.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

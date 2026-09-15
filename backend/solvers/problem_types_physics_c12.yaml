@@ -1,0 +1,648 @@
+problem_types_physics_c12:
+  - id: ELECTRO_C12_01
+    title: Electric Field and Potential Due to Point Charge System
+    steps:
+      - CALCULATE_ELECTRIC_FIELD
+      - CALCULATE_ELECTRIC_POTENTIAL
+      - CALCULATE_ELECTRIC_POTENTIAL_ENERGY
+    marks: 5
+    difficulty: medium
+    thinking_question:
+      question: Two point charges +Q and -Q are separated by a distance 2a. At what distance r from the midpoint is the net electric field zero?
+      options:
+        - At r = 0
+        - At r = a/2 from the +Q charge
+        - At infinity only
+        - At r = a from the +Q charge
+      correct_answer: At infinity only
+    subtopic: Electrostatics
+
+  - id: ELECTRO_C12_02
+    title: Gauss's Law — Electric Field of a Spherical Shell
+    steps:
+      - APPLY_GAUSS_LAW
+      - CALCULATE_ELECTRIC_FIELD
+      - COMPARE_INTERIOR_EXTERIOR_FIELD
+    marks: 6
+    difficulty: medium
+    thinking_question:
+      question: For a uniformly charged spherical shell of radius R, the electric field at a point inside the shell (r < R) is:
+      options:
+        - Proportional to r
+        - Proportional to 1/r^2
+        - Zero
+        - Proportional to 1/r
+      correct_answer: Zero
+    subtopic: Electrostatics
+
+  - id: ELECTRO_C12_03
+    title: Capacitors — Series and Parallel Combination
+    steps:
+      - CALCULATE_EQUIVALENT_CAPACITANCE
+      - CALCULATE_CHARGE_DISTRIBUTION
+      - CALCULATE_POTENTIAL_DIFFERENCE
+      - CALCULATE_ENERGY_STORED
+    marks: 8
+    difficulty: hard
+    thinking_question:
+      question: When two capacitors C1 and C2 are connected in series, the equivalent capacitance is:
+      options:
+        - C1 + C2
+        - (C1 × C2) / (C1 + C2)
+        - C1 - C2
+        - 1/C1 + 1/C2
+      correct_answer: (C1 × C2) / (C1 + C2)
+    subtopic: Electrostatics
+
+  - id: ELECTRO_C12_04
+    title: Dielectric Slab — Effect on Capacitance
+    steps:
+      - CALCULATE_EQUIVALENT_CAPACITANCE
+      - CALCULATE_DISPLACEMENT_CHARGE
+      - CALCULATE_ENERGY_CHANGE
+    marks: 6
+    difficulty: medium
+    thinking_question:
+      question: A parallel plate capacitor is filled with a dielectric of constant K. The new capacitance is:
+      options:
+        - C/K
+        - KC
+        - C/K^2
+        - C(1 + K)
+      correct_answer: KC
+    subtopic: Electrostatics
+
+  - id: CURRENT_C12_01
+    title: Resistance and Resistivity — Effect of Dimensional Changes
+    steps:
+      - APPLY_RESISTIVITY_FORMULA
+      - ANALYZE_DIMENSIONAL_EFFECT
+      - CALCULATE_NEW_RESISTANCE
+    marks: 4
+    difficulty: easy
+    thinking_question:
+      question: If the length of a wire is doubled and its cross-sectional area is halved, the new resistance is:
+      options:
+        - 2R
+        - R/4
+        - 4R
+        - R
+      correct_answer: 4R
+    subtopic: Current Electricity
+
+  - id: CURRENT_C12_02
+    title: Kirchhoff's Laws — Circuit Analysis
+    steps:
+      - APPLY_KVL
+      - APPLY_KCL
+      - CALCULATE_BRANCH_CURRENTS
+      - VERIFY_LAW_OF_CONSERVATION
+    marks: 8
+    difficulty: hard
+    thinking_question:
+      question: Kirchhoff's current law (KCL) is based on the principle of:
+      options:
+        - Conservation of energy
+        - Conservation of charge
+        - Conservation of momentum
+        - Conservation of mass
+      correct_answer: Conservation of charge
+    subtopic: Current Electricity
+
+  - id: CURRENT_C12_03
+    title: Wheatstone Bridge — Null Point and Balance Condition
+    steps:
+      - APPLY_WHEATSTONE_CONDITION
+      - CALCULATE_UNKNOWN_RESISTANCE
+      - ANALYZE_GALVANOMETER_CURRENT
+    marks: 6
+    difficulty: medium
+    thinking_question:
+      question: In a balanced Wheatstone bridge, the current through the galvanometer is:
+      options:
+        - Maximum
+        - Minimum
+        - Zero
+        - Indeterminate
+      correct_answer: Zero
+    subtopic: Current Electricity
+
+  - id: CURRENT_C12_04
+    title: Meter Bridge — Determination of Unknown Resistance
+    steps:
+      - APPLY_WHEATSTONE_CONDITION
+      - MEASURE_NULL_POINT_LENGTH
+      - CALCULATE_SPECIFIC_RESISTANCE
+    marks: 6
+    difficulty: medium
+    thinking_question:
+      question: In a meter bridge, if the null point is at 40 cm from one end, the ratio of resistances is:
+      options:
+        - 4:6
+        - 2:3
+        - 3:2
+        - 6:4
+      correct_answer: 2:3
+    subtopic: Current Electricity
+
+  - id: CURRENT_C12_05
+    title: Potentiometer — EMF and Internal Resistance
+    steps:
+      - APPLY_POTENTIOMETER_PRINCIPLE
+      - MEASURE_NULL_POINT
+      - CALCULATE_EMF
+      - CALCULATE_INTERNAL_RESISTANCE
+    marks: 8
+    difficulty: hard
+    thinking_question:
+      question: The principle of a potentiometer is based on:
+      options:
+        - Ohm's law
+        - Joule's law
+        - Uniform potential gradient along a wire
+        - Faraday's laws of electrolysis
+      correct_answer: Uniform potential gradient along a wire
+    subtopic: Current Electricity
+
+  - id: MAGNET_C12_01
+    title: Biot-Savart Law — Magnetic Field of a Current Loop
+    steps:
+      - APPLY_BIOT_SAVART_LAW
+      - SETUP_INTEGRATION_LIMITS
+      - CALCULATE_MAGNETIC_FIELD
+    marks: 6
+    difficulty: medium
+    thinking_question:
+      question: The direction of the magnetic field at the center of a circular current loop is given by:
+      options:
+        - Left-hand rule
+        - Right-hand thumb rule
+        - Fleming's left-hand rule
+        - Lenz's law
+      correct_answer: Right-hand thumb rule
+    subtopic: Magnetism
+
+  - id: MAGNET_C12_02
+    title: Ampere's Circuital Law — Solenoid Field
+    steps:
+      - APPLY_AMPERES_LAW
+      - CHOOSE_AMPERIAN_LOOP
+      - CALCULATE_INTERIOR_FIELD
+    marks: 5
+    difficulty: medium
+    thinking_question:
+      question: For a long solenoid with n turns per unit length carrying current I, the magnetic field inside is:
+      options:
+        - μ₀nI
+        - μ₀I/n
+        - μ₀nI/2
+        - μ₀I/2πn
+      correct_answer: μ₀nI
+    subtopic: Magnetism
+
+  - id: MAGNET_C12_03
+    title: Force on Current-Carrying Conductor in Magnetic Field
+    steps:
+      - APPLY_LORENTZ_FORCE
+      - DETERMINE_FORCE_DIRECTION
+      - CALCULATE_FORCE_MAGNITUDE
+    marks: 4
+    difficulty: easy
+    thinking_question:
+      question: The force on a charge q moving with velocity v in a magnetic field B is:
+      options:
+        - qvB sin θ
+        - qvB cos θ
+        - qB/v
+        - qE
+      correct_answer: qvB sin θ
+    subtopic: Magnetism
+
+  - id: MAGNET_C12_04
+    title: Torque on a Current Loop — Moving Coil Galvanometer
+    steps:
+      - CALCULATE_TORQUE_ON_LOOP
+      - APPLY_TORSIONAL_RESTORING_TORQUE
+      - DETERMINE_DEFLECTION
+      - ANALYZE_SENSITIVITY
+    marks: 8
+    difficulty: hard
+    thinking_question:
+      question: The torque on a rectangular current loop in a uniform magnetic field is maximum when the plane of the loop is:
+      options:
+        - Parallel to the field
+        - Perpendicular to the field
+        - At 45° to the field
+        - At 30° to the field
+      correct_answer: Parallel to the field
+    subtopic: Magnetism
+
+  - id: EMI_C12_01
+    title: Faraday's Laws of Electromagnetic Induction
+    steps:
+      - APPLY_FARADAYS_LAW
+      - CALCULATE_INDUCED_EMF
+      - DETERMINE_DIRECTION_LENZ_LAW
+      - CALCULATE_INDUCED_CURRENT
+    marks: 6
+    difficulty: medium
+    thinking_question:
+      question: Lenz's law is a consequence of the conservation of:
+      options:
+        - Charge
+        - Energy
+        - Momentum
+        - Mass
+      correct_answer: Energy
+    subtopic: EMI
+
+  - id: EMI_C12_02
+    title: Self-Induction — Self Inductance of a Solenoid
+    steps:
+      - CALCULATE_MAGNETIC_FLUX
+      - DEFINE_SELF_INDUCTANCE
+      - CALCULATE_SELF_INDUCTANCE
+      - CALCULATE_ENERGY_STORED_IN_INDUCTOR
+    marks: 6
+    difficulty: medium
+    thinking_question:
+      question: The self-inductance of a long solenoid is proportional to:
+      options:
+        - 1/N²
+        - N
+        - N²
+        - 1/N
+      correct_answer: N²
+    subtopic: EMI
+
+  - id: EMI_C12_03
+    title: Mutual Induction — Coefficient of Mutual Inductance
+    steps:
+      - CALCULATE_FLUX_LINKAGE
+      - DEFINE_MUTUAL_INDUCTANCE
+      - CALCULATE_INDUCED_EMF
+    marks: 5
+    difficulty: medium
+    thinking_question:
+      question: If the coefficient of mutual inductance between two coils is M, the induced emf in the secondary coil when current in primary changes at rate dI/dt is:
+      options:
+        - M × dI/dt
+        - (1/M) × dI/dt
+        - M × I
+        - M / (dI/dt)
+      correct_answer: M × dI/dt
+    subtopic: EMI
+
+  - id: EMI_C12_04
+    title: Transformers — Principle and Efficiency
+    steps:
+      - APPLY_TRANSFORMER_EQUATION
+      - CALCULATE_TURNS_RATIO
+      - CALCULATE_EFFICIENCY
+    marks: 6
+    difficulty: medium
+    thinking_question:
+      question: In an ideal transformer, the quantity that remains constant is:
+      options:
+        - Voltage
+        - Current
+        - Power
+        - Frequency
+      correct_answer: Power
+    subtopic: EMI
+
+  - id: AC_C12_01
+    title: RMS and Mean Values of Alternating Current
+    steps:
+      - DEFINE_RMS_VALUE
+      - INTEGRATE_OVER_ONE_CYCLE
+      - CALCULATE_RMS_FOR_SINUSOID
+      - COMPARE_RMS_AND_MEAN
+    marks: 5
+    difficulty: medium
+    thinking_question:
+      question: The RMS value of a sinusoidal alternating current of peak value I₀ is:
+      options:
+        - I₀/√2
+        - I₀/2
+        - I₀/√3
+        - I₀
+      correct_answer: I₀/√2
+    subtopic: AC Circuits
+
+  - id: AC_C12_02
+    title: LCR Series Circuit — Impedance and Resonance
+    steps:
+      - CALCULATE_IMPEDANCE
+      - DETERMINE_RESONANCE_CONDITION
+      - CALCULATE_RESONANT_FREQUENCY
+      - CALCULATE_Q_FACTOR
+    marks: 8
+    difficulty: hard
+    thinking_question:
+      question: In a series LCR circuit at resonance, the impedance is:
+      options:
+        - Maximum
+        - Zero
+        - Equal to R
+        - Indeterminate
+      correct_answer: Equal to R
+    subtopic: AC Circuits
+
+  - id: AC_C12_03
+    title: Power in AC Circuits — Wattless Current
+    steps:
+      - CALCULATE_AVERAGE_POWER
+      - IDENTIFY_REACTIVE_COMPONENTS
+      - CALCULATE_POWER_FACTOR
+    marks: 5
+    difficulty: medium
+    thinking_question:
+      question: In a purely inductive AC circuit, the average power consumed is:
+      options:
+        - Maximum
+        - Zero
+        - VI
+        - VI cos φ
+      correct_answer: Zero
+    subtopic: AC Circuits
+
+  - id: OPTICS_RAY_C12_01
+    title: Reflection at Spherical Surfaces — Mirror Formula
+    steps:
+      - APPLY_MIRROR_FORMULA
+      - CALCULATE_IMAGE_DISTANCE
+      - CALCULATE_MAGNIFICATION
+      - DETERMINE_NATURE_OF_IMAGE
+    marks: 5
+    difficulty: medium
+    thinking_question:
+      question: For a concave mirror, if the object is placed at the center of curvature, the image is:
+      options:
+        - Virtual, erect, and enlarged
+        - Real, inverted, and same size
+        - Real, inverted, and diminished
+        - Virtual, erect, and same size
+      correct_answer: Real, inverted, and same size
+    subtopic: Ray Optics
+
+  - id: OPTICS_RAY_C12_02
+    title: Refraction at Spherical Surfaces — Lens Formula
+    steps:
+      - APPLY_LENS_FORMULA
+      - CALCULATE_IMAGE_DISTANCE
+      - CALCULATE_MAGNIFICATION
+      - DETERMINE_NATURE_OF_IMAGE
+    marks: 5
+    difficulty: medium
+    thinking_question:
+      question: A convex lens produces a real image three times the size of the object. If the object distance is 20 cm, the focal length is:
+      options:
+        - 10 cm
+        - 15 cm
+        - 20 cm
+        - 30 cm
+      correct_answer: 15 cm
+    subtopic: Ray Optics
+
+  - id: OPTICS_RAY_C12_03
+    title: Combination of Thin Lenses — Equivalent Focal Length
+    steps:
+      - CALCULATE_EQUIVALENT_FOCAL_LENGTH
+      - APPLY_LENS_FORMULA_COMBINATION
+      - CALCULATE_FINAL_IMAGE
+    marks: 6
+    difficulty: medium
+    thinking_question:
+      question: Two thin lenses of focal lengths +10 cm and -15 cm are placed in contact. The equivalent focal length is:
+      options:
+        - -30 cm
+        - +30 cm
+        - +6 cm
+        - -6 cm
+      correct_answer: +30 cm
+    subtopic: Ray Optics
+
+  - id: OPTICS_RAY_C12_04
+    title: Prism — Minimum Deviation and Dispersion
+    steps:
+      - APPLY_PRISM_FORMULA
+      - CALCULATE_MINIMUM_DEVIATION
+      - CALCULATE_REFRACTIVE_INDEX
+      - ANALYZE_DISPERSION
+    marks: 6
+    difficulty: medium
+    thinking_question:
+      question: At minimum deviation, the angle of incidence equals the angle of emergence, and the ray inside the prism is:
+      options:
+        - Parallel to the base
+        - Perpendicular to the base
+        - At 45° to the base
+        - At the prism angle
+      correct_answer: Parallel to the base
+    subtopic: Ray Optics
+
+  - id: OPTICS_WAVE_C12_01
+    title: Young's Double Slit Experiment — Fringe Width
+    steps:
+      - DERIVE_FRINGE_WIDTH_FORMULA
+      - CALCULATE_FRINGE_WIDTH
+      - ANALYZE_EFFECT_OF_PARAMETERS
+    marks: 6
+    difficulty: medium
+    thinking_question:
+      question: In Young's double slit experiment, if the slit separation is doubled, the fringe width:
+      options:
+        - Doubles
+        - Halves
+        - Remains same
+        - Quadruples
+      correct_answer: Halves
+    subtopic: Wave Optics
+
+  - id: OPTICS_WAVE_C12_02
+    title: Single Slit Diffraction — Minima Positions
+    steps:
+      - APPLY_DIFFRACTION_CONDITION
+      - CALCULATE_MINIMA_POSITION
+      - ANALYZE_WIDTH_OF_CENTRAL_MAXIMUM
+    marks: 5
+    difficulty: medium
+    thinking_question:
+      question: In single slit diffraction, the first minimum occurs when the path difference is:
+      options:
+        - λ
+        - λ/2
+        - aλ
+        - 2λ
+      correct_answer: λ
+    subtopic: Wave Optics
+
+  - id: OPTICS_WAVE_C12_03
+    title: Polarization — Malus's Law
+    steps:
+      - STATE_MALUS_LAW
+      - CALCULATE_INTENSITY_AFTER_POLARIZER
+      - ANALYZE_CROSSED_POLARIZERS
+    marks: 4
+    difficulty: easy
+    thinking_question:
+      question: According to Malus's law, when plane polarized light passes through an analyser at angle θ to the polarizer axis, the intensity is:
+      options:
+        - I₀ cos θ
+        - I₀ cos² θ
+        - I₀ sin θ
+        - I₀ sin² θ
+      correct_answer: I₀ cos² θ
+    subtopic: Wave Optics
+
+  - id: MODERN_C12_01
+    title: Photoelectric Effect — Einstein's Equation
+    steps:
+      - APPLY_EINSTEINS_PHOTOELECTRIC_EQUATION
+      - CALCULATE_KINETIC_ENERGY
+      - DETERMINE_THRESHOLD_FREQUENCY
+      - ANALYZE_STOPPING_POTENTIAL
+    marks: 6
+    difficulty: medium
+    thinking_question:
+      question: In the photoelectric effect, if the frequency of incident light is increased, the maximum kinetic energy of emitted electrons:
+      options:
+        - Increases
+        - Decreases
+        - Remains unchanged
+        - Becomes zero
+      correct_answer: Increases
+    subtopic: Modern Physics
+
+  - id: MODERN_C12_02
+    title: Bohr's Model of Hydrogen Atom — Energy Levels
+    steps:
+      - APPLY_BOHR_ENERGY_FORMULA
+      - CALCULATE_ENERGY_OF_LEVEL
+      - CALCULATE_PHOTON_WAVELENGTH
+      - DETERMINE_SERIES_LIMIT
+    marks: 6
+    difficulty: medium
+    thinking_question:
+      question: According to Bohr's model, the energy of an electron in the nth orbit is:
+      options:
+        - Proportional to n
+        - Proportional to 1/n
+        - Proportional to 1/n²
+        - Proportional to n²
+      correct_answer: Proportional to 1/n²
+    subtopic: Modern Physics
+
+  - id: MODERN_C12_03
+    title: de Broglie Wavelength — Matter Waves
+    steps:
+      - APPLY_DE_BROGLIE_RELATION
+      - CALCULATE_WAVELENGTH
+      - COMPARE_WITH_PHOTON_WAVELENGTH
+    marks: 4
+    difficulty: easy
+    thinking_question:
+      question: The de Broglie wavelength of a particle of mass m moving with velocity v is:
+      options:
+        - mv/h
+        - h/mv
+        - mvh
+        - h/mg
+      correct_answer: h/mv
+    subtopic: Modern Physics
+
+  - id: MODERN_C12_04
+    title: Radioactivity — Law of Disintegration
+    steps:
+      - APPLY_RADIOACTIVE_DECAY_LAW
+      - CALCULATE_HALF_LIFE
+      - CALCULATE_ACTIVITY
+      - ANALYZE_AVERAGE_LIFE
+    marks: 5
+    difficulty: medium
+    thinking_question:
+      question: The half-life of a radioactive substance is 10 years. After 30 years, the fraction remaining is:
+      options:
+        - 1/2
+        - 1/4
+        - 1/8
+        - 1/16
+      correct_answer: 1/8
+    subtopic: Modern Physics
+
+  - id: MODERN_C12_05
+    title: Semiconductor Diode — VI Characteristics
+    steps:
+      - ANALYZE_PN_JUNCTION
+      - STUDY_FORWARD_BIAS_CHARACTERISTICS
+      - STUDY_REVERSE_BIAS_CHARACTERISTICS
+      - CALCULATE_DYNAMIC_RESISTANCE
+    marks: 6
+    difficulty: medium
+    thinking_question:
+      question: In a forward-biased p-n junction diode, the current increases rapidly after the:
+      options:
+        - Threshold voltage
+        - Breakdown voltage
+        - Knee voltage
+        - Zero bias voltage
+      correct_answer: Knee voltage
+    subtopic: Modern Physics
+
+  - id: INTEGRATED_C12_01
+    title: Integrated Problem — RLC Circuit with Dielectric Capacitor
+    steps:
+      - CALCULATE_INITIAL_CAPACITANCE
+      - CALCULATE_NEW_CAPACITANCE_WITH_DIELECTRIC
+      - CALCULATE_NEW_RESONANT_FREQUENCY
+      - CALCULATE_CHANGE_IN_IMPEDANCE
+    marks: 10
+    difficulty: hard
+    thinking_question:
+      question: When a dielectric slab is inserted between the plates of a capacitor in a series LCR circuit at resonance, the resonant frequency:
+      options:
+        - Increases
+        - Decreases
+        - Remains unchanged
+        - Becomes zero
+      correct_answer: Decreases
+    subtopic: Integrated (Electrostatics + EMI + AC)
+
+  - id: INTEGRATED_C12_02
+    title: Integrated Problem — Magnetic Field and Induced EMF
+    steps:
+      - CALCULATE_MAGNETIC_FIELD_OF_SOLENOID
+      - CALCULATE_INDUCED_EMF_IN_LOOP
+      - CALCULATE_INDUCED_CURRENT
+      - CALCULATE_FORCE_ON_LOOP
+    marks: 10
+    difficulty: hard
+    thinking_question:
+      question: When a conducting loop is placed inside a solenoid and current in the solenoid is increasing, the induced current in the loop (as viewed from the same side) is:
+      options:
+        - In the same direction
+        - In the opposite direction
+        - Zero
+        - Alternating
+      correct_answer: In the opposite direction
+    subtopic: Integrated (Magnetism + EMI)
+
+  - id: INTEGRATED_C12_03
+    title: Integrated Problem — Lens and Diffraction Combined System
+    steps:
+      - APPLY_LENS_FORMULA
+      - CALCULATE_IMAGE_POSITION
+      - APPLY_DIFFRACTION_FORMULA
+      - CALCULATE_WIDTH_OF_CENTRAL_MAXIMUM
+    marks: 8
+    difficulty: hard
+    thinking_question:
+      question: When light from a distant source passes through a single slit and then through a converging lens, the width of the central diffraction maximum on the focal plane of the lens is:
+      options:
+        - 2λf/a
+        - λf/a
+        - λa/f
+        - 2λa/f
+      correct_answer: 2λf/a
+    subtopic: Integrated (Wave Optics + Ray Optics)

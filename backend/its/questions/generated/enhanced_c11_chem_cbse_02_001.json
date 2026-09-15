@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_02_001",
+   "title": "c11_chem_cbse_02_001",
+   "questions": [
+    {
+     "q": "What are the three key observations from cathode ray experiments that prove cathode rays consist of negatively charged particles?",
+     "a": "1) Cathode rays travel in straight lines in the absence of electric/magnetic fields (cast sharp shadows). 2) They deflect towards the positive plate in an electric field, indicating negative charge. 3) They deflect in a magnetic field in a direction consistent with negatively charged particles (using Fleming's left-hand rule). A wrong answer (e.g., saying they deflect towards negative plate) reveals confusion about charge sign conventions or misunderstanding of electrostatic attraction/repulsion.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the charge-to-mass ratio (e/m) of cathode rays remain constant regardless of the gas used in the discharge tube or the electrode material?",
+     "a": "Because cathode rays are streams of electrons, which are fundamental constituents of all atoms. The gas or electrode material only serves as a source of electrons; the particles themselves are identical electrons with fixed e/m. A wrong answer (e.g., \"because the voltage is the same\") reveals the student thinks the property depends on experimental conditions rather than the particle's intrinsic nature.",
+     "self_check": true
+    },
+    {
+     "q": "In Thomson's e/m experiment, electrons are subjected to perpendicular electric and magnetic fields. If the electric field is 2000 V/m and the magnetic field is 0.005 T, and the electrons pass undeflected, calculate the velocity of the electrons. (Use condition: eE = evB)",
+     "a": "When undeflected, electric force = magnetic force: eE = evB → v = E/B = 2000 / 0.005 = 4 × 10⁵ m/s. A wrong answer (e.g., using v = B/E or forgetting to equate forces) reveals misunderstanding of the balancing condition or confusion between electric and magnetic force formulas.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the deflection of cathode rays in an electric field versus a magnetic field. How does the direction of deflection differ, and what does this tell you about the nature of the force?",
+     "a": "In an electric field, deflection is along the field direction (towards positive plate for negative charge) — force is parallel to field. In a magnetic field, deflection is perpendicular to both velocity and field (Fleming's left-hand rule) — force is velocity-dependent and perpendicular to field. This shows electric force acts on charge regardless of motion, while magnetic force acts only on moving charge. A wrong answer (e.g., saying both deflect in same direction) reveals confusion between electrostatic and magnetic forces.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since cathode rays are produced from different gases, they must be different particles.\" Evaluate this statement using experimental evidence.",
+     "a": "The claim is false. Thomson showed e/m is constant (1.7588 × 10¹¹ C/kg) for all gases and electrode materials. Millikan's oil drop experiment confirmed the charge is quantized (-1.602 × 10⁻¹⁹ C). Thus cathode rays are identical electrons, not gas-dependent particles. A wrong evaluation (agreeing with the student) reveals failure to distinguish between source material and the fundamental particle emitted.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a cathode ray tube to demonstrate that cathode rays carry momentum and can do mechanical work.",
+     "a": "Place a lightweight paddle wheel (mica vanes) on rails inside the tube in the path of cathode rays. When rays strike the vanes, the wheel rotates, moving away from cathode. This shows rays have momentum (mass × velocity) and can transfer kinetic energy. A poor answer (e.g., \"heat the tube\") reveals inability to connect particle properties to macroscopic mechanical effects.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

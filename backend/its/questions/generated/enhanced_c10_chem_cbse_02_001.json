@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_02_001",
+   "title": "c10_chem_cbse_02_001",
+   "questions": [
+    {
+     "q": "Define an acid and a base according to Arrhenius concept. Give one example of each with chemical formula.",
+     "a": "Correct answer: Acid: substance that dissociates in water to give H⁺ ions (e.g., HCl → H⁺ + Cl⁻). Base: substance that dissociates in water to give OH⁻ ions (e.g., NaOH → Na⁺ + OH⁻). A wrong answer (e.g., defining acid as proton donor without mentioning aqueous solution, or confusing with Lewis definition) reveals the student has not grasped the specific Arrhenius definition required for Class 10 board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Why does dry HCl gas not turn blue litmus red, but aqueous HCl does? Explain using the Arrhenius concept.",
+     "a": "Correct answer: Dry HCl gas does not dissociate into H⁺ ions because there is no water to facilitate ionization. In aqueous solution, HCl dissociates into H⁺ and Cl⁻, and H⁺ ions (as H₃O⁺) cause the color change. A wrong answer (e.g., saying dry HCl is not acidic) shows the student doesn't understand that Arrhenius acidity requires aqueous medium.",
+     "self_check": true
+    },
+    {
+     "q": "A student has three colorless solutions: dilute HCl, dilute NaOH, and water. Using only blue litmus paper, describe a step-by-step procedure to identify each solution. Write the expected observations.",
+     "a": "Correct answer: Step 1: Dip blue litmus paper into each solution. Step 2: The solution that turns blue litmus red is HCl (acid). Step 3: The solution that does not change blue litmus is either NaOH or water. Step 4: Take the red litmus paper (from step 2) and dip into the remaining two solutions. The solution that turns red litmus blue is NaOH (base). The one with no change is water. A wrong answer (e.g., using red litmus first) reveals confusion about which indicator tests for which property.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the properties of strong acids (e.g., HCl) and weak acids (e.g., CH₃COOH) in terms of ionization, conductivity, and reaction rate with magnesium metal. Present in a table.",
+     "a": "Correct answer: Table with columns: Property, Strong Acid (HCl), Weak Acid (CH₃COOH). Rows: Degree of ionization (complete vs partial), Electrical conductivity (high vs low), Reaction rate with Mg (fast vs slow). A wrong answer (e.g., saying both have same conductivity) shows the student cannot differentiate based on degree of ionization.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"All bases are alkalis, but all alkalis are not bases.\" Evaluate this statement and correct it if necessary.",
+     "a": "Correct answer: The statement is incorrect. Correct statement: All alkalis are bases, but all bases are not alkalis. Alkalis are bases that are soluble in water (e.g., NaOH, KOH). Bases like Cu(OH)₂ are insoluble, so they are bases but not alkalis. A wrong answer reveals confusion between the definitions of base and alkali.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate that carbon dioxide gas produced from the reaction of an acid with a carbonate turns lime water milky. List materials, procedure, and expected observation.",
+     "a": "Expected answer: Materials: Vinegar (acetic acid), baking soda (sodium hydrogen carbonate), lime water (calcium hydroxide solution), test tubes, delivery tube. Procedure: Add vinegar to baking soda in a test tube, pass gas through delivery tube into lime water. Observation: Lime water turns milky due to formation of CaCO₃. A poor answer (e.g., missing control or not identifying gas as CO₂) shows inability to design a controlled experiment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

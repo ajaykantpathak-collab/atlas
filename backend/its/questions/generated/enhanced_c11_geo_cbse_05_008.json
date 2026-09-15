@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_05_008",
+   "title": "c11_geo_cbse_05_008",
+   "questions": [
+    {
+     "q": "Name the two main sub-categories of non-clastic sedimentary rocks and give one characteristic example of each.",
+     "a": "Chemically formed (e.g., limestone, rock salt, gypsum) and organically formed (e.g., coal, chalk, coquina). A wrong answer that lists sandstone or shale reveals confusion with mechanically formed (clastic) rocks covered in the previous node.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why limestone can be classified as both a chemically formed and an organically formed sedimentary rock.",
+     "a": "Limestone (CaCO₃) precipitates chemically from calcium-rich water in caves (stalactites) or shallow seas (ooids) — chemical origin. It also forms from the accumulation of shells, coral, and foraminifera tests — organic origin. A student who says \"limestone is only chemical\" misses the dual genesis and the concept of biogenic precipitation.",
+     "self_check": true
+    },
+    {
+     "q": "A coal sample from the Jharia coalfield shows distinct bright and dull bands. Identify the maceral groups responsible and state what each indicates about the original plant material and depositional conditions.",
+     "a": "Bright bands = vitrinite (woody tissue, humid conditions); dull bands = inertinite (oxidized/charred material, drier/fire-prone) or liptinite (spores/resins, anoxic). Correct interpretation requires linking macerals to plant parts and palaeoenvironment. A wrong answer (e.g., \"bands are impurities\") shows ignorance of coal petrology basics.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the depositional environments of the Vindhyan limestone (Central India) and the Gondwana coal seams (Damodar Valley). What tectonic-climatic setting does each imply?",
+     "a": "Vindhyan limestone: stable shallow marine shelf (Proterozoic), warm clear water, low clastic input → chemical/biogenic precipitation. Gondwana coal: fluvial-deltaic basins in rift valleys (Permian), temperate glacial-to-warm climate, high plant productivity, rapid burial. A student who places both in \"water\" without distinguishing marine vs. terrestrial fluvial systems fails to analyse tectonic control.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"All limestone deposits in India are suitable for cement manufacturing.\" Justify with reference to mineral purity and stratigraphic age.",
+     "a": "False. Cement-grade limestone requires >90% CaCO₃ and low MgO, SiO₂, Al₂O₃. Many Indian limestones (e.g., some Vindhyan, Cuddapah) are argillaceous or dolomitic. Only specific horizons (e.g., parts of Bilaspur, Kurnool, Jaisalmer) meet specs. A \"True\" answer ignores geochemical variability and industrial specifications.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field observation checklist for a Class 11 student visiting a limestone quarry and a coal mine to distinguish their formation processes. Include 4 diagnostic features for each rock type.",
+     "a": "Limestone checklist: (1) reaction with dilute HCl, (2) fossil shells/corals, (3) bedding planes with stylolites, (4) cave/karts features nearby. Coal checklist: (1) black streak, (2) conchoidal fracture, (3) plant impressions (bark, leaves), (4) association with sandstone/shale cyclothems. A poor checklist lists only colour or hardness, missing process-specific evidence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

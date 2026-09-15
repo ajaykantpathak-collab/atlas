@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_09_005",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_09_005",
+   "title": "c11_geo_cbse_09_005",
+   "questions": [
+    {
+     "q": "Name the two major subdivisions of the Peninsular Plateau separated by the Narmada-Son lineament, and state the general elevation trend from north to south across the Deccan Plateau.",
+     "a": "The two subdivisions are the Central Highlands (north of Narmada-Son) and the Deccan Plateau (south). The Deccan Plateau generally slopes gently from west (Western Ghats ~1000-1600 m) to east (Eastern Ghats ~600 m) and from north (Maharashtra Plateau ~500 m) to south (Karnataka Plateau ~600-900 m), with local highs on the Karnataka Plateau. A wrong answer (e.g., \"Vindhyas and Satpuras\" or \"elevation increases southward\") reveals confusion between mountain ranges and plateau subdivisions, or ignorance of the west-to-east tilt that controls east-flowing peninsular rivers.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Chotanagpur Plateau (Jharkhand) have a radically different economic geography from the Maharashtra Plateau, despite both being part of the Peninsular Plateau?",
+     "a": "Chotanagpur is underlain by Gondwana sedimentary rocks (Permian coal measures, iron ore in Banded Iron Formations) making it India's premier mineral belt (coal, iron, manganese, mica), whereas the Maharashtra Plateau is capped by Deccan Traps (Cretaceous flood basalts) yielding deep black regur soil ideal for cotton but poor in metallic minerals. A wrong answer attributing the difference to \"climate\" or \"river systems\" misses the fundamental geological control: rock type determines mineralisation and soil formation, which in turn dictate land use and industrial location.",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of India, the Narmada River flows west through a rift valley between the Vindhya and Satpura ranges. Using the concept of \"rift valley\" and \"structural control,\" explain why the Narmada and Tapti are the only major west-flowing peninsular rivers, and deduce the implication for drainage density on the Deccan Plateau.",
+     "a": "The Narmada-Son lineament is a Precambrian crustal fracture reactivated as a graben (rift valley) during Himalayan collision, providing a structural low for west-flowing rivers. The rest of the Deccan Plateau lacks such fractures; its gentle eastward tilt (from Western Ghats watershed) forces all other rivers (Mahanadi, Godavari, Krishna, Kaveri) to flow east. Consequently, drainage density is high on the western edge (parallel, short streams) but low on the broad, basalt-capped interior where rivers have wide, shallow valleys. A wrong answer citing \"rainfall gradient\" ignores the tectonic control; the rift valley is a structural, not climatic, feature.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the river drainage patterns on the Malwa Plateau (Central Highlands) and the Karnataka Plateau (Deccan Plateau). Identify the pattern type in each case and explain how the underlying rock structure controls the pattern.",
+     "a": "Malwa Plateau (Vindhyan sandstones, shales, limestones) shows **dendritic** pattern — soft, uniformly dipping sedimentary beds allow branching networks like tree roots. Karnataka Plateau (Archaean gneisses, schists, granites) shows **radial/centripetal** pattern on isolated inselbergs (e.g., around Mysore) and **trellis** pattern along structural lineaments (e.g., Cauvery tributaries following NW-SE fractures). The difference arises because Malwa's horizontal strata offer no structural control, while Karnataka's folded, faulted crystalline basement imposes strong structural control on stream alignment. A wrong answer swapping the patterns indicates failure to link rock competence/structure to drainage geometry.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Deccan Traps are a curse for agriculture because basalt weathers into sticky, impermeable clay.\" Support your evaluation with two specific pedological processes and one cropping-system adaptation.",
+     "a": "The statement is **false**. Basalt weathers to **vertisols (black cotton soil/regur)** which are clay-rich (smectite) but **highly moisture-retentive**, not impermeable. Two pedological processes: (1) **Alternate wetting-drying** creates deep cracks (self-mulching) that aerate the subsoil and allow root penetration; (2) **Base saturation** (Ca²⁺, Mg²⁺) from weathering of plagioclase and pyroxene maintains high pH (7.5-8.5) and nutrient availability. Cropping adaptation: **Double cropping** (kharif cotton/soybean → rabi wheat/chickpea) exploits stored soil moisture — impossible on sandy or lateritic soils. A wrong \"true\" evaluation confuses vertisol shrink-swell with impermeability, ignoring the soil's unique agronomic advantage in semi-arid regions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mineral-exploration transect across the Peninsular Plateau from the Aravalli Range (Rajasthan) to the Eastern Ghats (Andhra Pradesh) that would test the hypothesis: \"Mineral belts align with Proterozoic mobile belts, not Archaean cratons.\" Specify the rock units, expected minerals, and structural settings at three key stops.",
+     "a": "**Stop 1: Aravalli-Delhi Mobile Belt (Rajasthan)** — Proterozoic metasediments (Alwar, Ajabgarh groups) folded around Archaean Banded Gneissic Complex. Target: **Lead-zinc (Zawar), copper (Khetri), wollastonite** in shear zones.  \n**Stop 2: Satpura Mobile Belt / Chotanagpur (Jharkhand)** — Proterozoic Singhbhum Shear Zone reactivating Archaean craton margin. Target: **Iron ore (Noamundi), copper (Mosabani), uranium (Jaduguda)** in shear-hosted deposits.  \n**Stop 3: Eastern Ghats Mobile Belt (Andhra/Odisha)** — High-grade granulites/khondalites (Proterozoic reworking of Archaean). Target: **Bauxite (Laterite caps on khondalite), manganese (Kodurite), graphite** in structural traps.  \nA poor answer lists cratonic interiors (e.g., Dharwar craton gold) or Deccan Trap basalts, missing that **mobile belts concentrate hydrothermal fluids and ore fluids** during orogeny, whereas stable cratons lack the permeability and fluid pathways for large deposits.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

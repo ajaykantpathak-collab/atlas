@@ -1,0 +1,128 @@
+{
+ "class": 11,
+ "subject": "geography",
+ "chapter": 201,
+ "chapter_title": "Geography as a Discipline",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kegy201.txt",
+ "concepts": [
+  {
+   "id": "kegy.201.1.1",
+   "title": "Geography as an Integrating Discipline and Its Branches",
+   "section": "Geography as a discipline",
+   "definition": "Geography integrates the study of physical and human environments over the earth's surface, synthesising spatial and temporal relations, and divides into physical geography of geomorphology, climatology, hydrology and biogeography, and human geography of social, economic, population and settlement geography with branches of regional studies and spatial analysis.",
+   "formula": "",
+   "key_idea": "The word geography comes from Greek meaning earth description, and its dual approach studies both the natural and the cultural landscape.",
+   "textbook_ref": "kegy201.txt branches of geography section",
+   "question_patterns": [
+    "define geography as a discipline and its scope",
+    "name the branches of physical and human geography",
+    "what is the difference between regional and systematic geography",
+    "how does geography integrate natural and social sciences",
+    "explain the term spatial approach in geography",
+    "state the importance of studying geography"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.201.2.1",
+   "title": "Physical Geography and Its Importance",
+   "section": "Physical geography",
+   "definition": "Physical geography deals with earth's surface processes of landforms, weather and climate, water, soils, plants and animals as integrated systems, explaining the spatial distribution of natural phenomena and their influence on human life.",
+   "formula": "",
+   "key_idea": "Understanding geomorphic, climatic and biotic processes helps in resource use, hazard preparedness and environmental management.",
+   "textbook_ref": "kegy201.txt physical geography section",
+   "question_patterns": [
+    "define physical geography and its branches",
+    "why is physical geography important for human life",
+    "name the four spheres of the physical environment",
+    "how do geomorphic processes shape the land",
+    "explain the study of climatology",
+    "relate physical geography to environmental management"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with the key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.201.3.1",
+   "title": "Latitude, Longitude and the Study of the Earth's Surface",
+   "section": "Geography as a discipline",
+   "definition": "Geography uses coordinates of latitude and longitude, maps, scales and remote sensing to locate and explain phenomena on the earth's surface, making it the study of areal differentiation and spatial organisation of both physical and human features.",
+   "formula": "",
+   "key_idea": "Locating places precisely through the grid of parallels and meridians is the first step of all geographical analysis.",
+   "textbook_ref": "kegy201.txt locating features discussion",
+   "question_patterns": [
+    "how do latitude and longitude locate a place on the earth",
+    "what is the role of maps in geographical study",
+    "define areal differentiation with an example",
+    "how does remote sensing aid geographical analysis",
+    "state the difference between latitude and longitude",
+    "why is the spatial perspective unique to geography"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kegy201.txt exercises",
+   "questions": [
+    "Which one of the following scholars coined the term Geography?",
+    "Explain the branches of geography.",
+    "What is the difference between physical and human geography?",
+    "How does geography help in understanding the environment?",
+    "Define the term systematic approach in geography."
+   ]
+  }
+ ]
+}

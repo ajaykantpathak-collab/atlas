@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_05_001",
+   "title": "c12_bio_cbse_05_001",
+   "questions": [
+    {
+     "q": "State Mendel's Law of Segregation in one sentence using the term \"allele\" and \"gamete\".",
+     "a": "The Law of Segregation states that the two alleles of a gene separate during gamete formation so that each gamete receives only one allele. A wrong answer (e.g., \"genes separate during mitosis\" or \"traits blend\") reveals confusion between meiosis and mitosis, or retention of pre-Mendelian blending inheritance ideas.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Law of Independent Assortment holds true only for genes on different chromosomes or far apart on the same chromosome.",
+     "a": "Independent assortment occurs because homologous chromosome pairs align randomly at Metaphase I; genes on different chromosomes assort independently. Genes close together on the same chromosome (linked) tend to move together, violating independent assortment. A wrong answer (e.g., \"all genes assort independently\") ignores linkage and shows lack of chromosomal understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A pea plant heterozygous for seed shape (Rr) is self-pollinated. Using the Law of Segregation, predict the genotypic ratio in the F2 generation and explain the cellular event that produces this ratio.",
+     "a": "Genotypic ratio: 1 RR : 2 Rr : 1 rr. During meiosis in the F1 plant (Rr), homologous chromosomes separate in Anaphase I, producing gametes R and r in equal proportion. Random fusion gives the 1:2:1 ratio. A wrong ratio (e.g., 3:1 genotypic) confuses phenotypic with genotypic ratio; missing the meiotic explanation shows rote memorisation without cellular basis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Law of Dominance and Law of Segregation: which law explains the uniform F1 phenotype in a monohybrid cross, and which explains the reappearance of the recessive trait in F2?",
+     "a": "Law of Dominance explains uniform F1 phenotype (dominant allele masks recessive). Law of Segregation explains reappearance of recessive trait in F2 (alleles separate, allowing homozygous recessive genotype). Swapping the laws reveals confusion between expression (dominance) and transmission (segregation).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Mendel's Law of Independent Assortment is universally true for all pairs of genes.\" Justify your answer with a specific counterexample.",
+     "a": "False. The law applies only to genes on different chromosomes or far apart on the same chromosome. Counterexample: genes for seed shape and seed colour in peas are on different chromosomes (assort independently), but genes for body colour and wing shape in Drosophila are linked on the X chromosome and do not assort independently. Accepting the statement as universally true ignores linkage discovered by Morgan (node 007).",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment using a dihybrid cross (two traits) to demonstrate that the Law of Independent Assortment can be derived from the Law of Segregation applied to two gene pairs simultaneously.",
+     "a": "Cross pure-breeding round yellow (RRYY) with wrinkled green (rryy). F1: all RrYy. Self F1. If alleles segregate independently (Law of Segregation for each gene), gametes RY, Ry, rY, ry form in equal 1:1:1:1 ratio. Random fusion yields 9:3:3:1 phenotypic ratio. The 1:1:1:1 gamete ratio is the direct consequence of independent segregation of two gene pairs. A poor design (e.g., using linked genes) would not yield 1:1:1:1 gametes, showing failure to grasp the condition for independent assortment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

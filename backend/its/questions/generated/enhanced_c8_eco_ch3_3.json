@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch3_3",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch3_3",
+   "title": "c8_eco_ch3_3",
+   "questions": [
+    {
+     "q": "What is the standard economic formula used to measure population density in a city?",
+     "a": "Population Density is calculated as total population divided by total land area ($\\text{Density} = \\frac{\\text{Total Population}}{\\text{Total Land Area in sq km}}$), expressed as persons per square kilometer ($\\text{persons/sq km}$). \n\nA wrong answer stating $\\text{Area} / \\text{Population}$ or simply total population reveals a misunderstanding of how spatial concentration is measured relative to physical land constraints.",
+     "self_check": true
+    },
+    {
+     "q": "City A and City B both have a total population of 1,000,000 citizens. City A covers an area of $50\\text{ sq km}$, while City B covers an area of $200\\text{ sq km}$. Why does City A experience greater economic strain on its road networks and housing markets than City B?",
+     "a": "City A has a much higher population density ($20,000\\text{ persons/sq km}$) than City B ($5,000\\text{ persons/sq km}$), meaning four times as many people compete for space on every square kilometer of land. This concentrated demand creates land scarcity, leading to higher real estate prices and heavier traffic congestion per unit of road network. \n\nA wrong answer assuming both cities face identical economic pressure because their total populations are equal reveals the misconception that absolute population alone, rather than spatial density, determines resource strain.",
+     "self_check": true
+    },
+    {
+     "q": "A municipality in Gujarat has a population of 450,000 residents spread over a municipal area of $30\\text{ sq km}$. Due to a new industrial park, 90,000 migrant workers settle in the city while the city's geographical boundary remains unchanged. What is the new population density, and by how much did it increase?",
+     "a": "1. Initial population density = $\\frac{450,000\\text{ residents}}{30\\text{ sq km}} = 15,000\\text{ persons/sq km}$.\n2. New total population = $450,000 + 90,000 = 540,000\\text{ residents}$.\n3. New population density = $\\frac{540,000\\text{ residents}}{30\\text{ sq km}} = 18,000\\text{ persons/sq km}$.\n4. Increase in density = $18,000 - 15,000 = 3,000\\text{ persons/sq km}$.\n\nA wrong answer showing no change in area efficiency or incorrect arithmetic indicates a failure to treat land area as a fixed variable in short-term urban density equations.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why high population density in Indian metro cities can simultaneously lower the per-person cost of providing public piped water while increasing urban housing rental prices.",
+     "a": "High population density creates economies of scale in utility infrastructure, meaning laying one water main serves thousands of customers per kilometer, reducing per-capita infrastructure installation costs. However, because fixed city land cannot expand, high density causes severe land scarcity relative to housing demand, driving up rents and property costs.\n\nA wrong answer claiming density increases all costs equally shows a failure to separate supply-side fixed land constraints from utility delivery distribution economics.",
+     "self_check": true
+    },
+    {
+     "q": "A city council is deciding between expanding city boundaries horizontally into agricultural land or allowing vertical high-rise apartments to accommodate 100,000 new urban residents. From an economic perspective of density management, evaluate one major trade-off of choosing vertical growth over horizontal expansion.",
+     "a": "Choosing vertical growth maintains a compact spatial footprint, preventing high infrastructure costs associated with extending long roads and water lines into rural peripheries (urban sprawl). However, vertical growth dramatically increases localized population density on existing neighborhood plots, requiring expensive upgrades to local sewage networks, power transformers, and parking facilities to prevent localized infrastructure collapse.\n\nA wrong answer asserting that vertical building solves all urban density problems without internal cost trade-offs fails to evaluate spatial infrastructure capacity limits.",
+     "self_check": true
+    },
+    {
+     "q": "Propose a strategy that a municipal corporation could implement to reduce severe population density pressures in the commercial core of a overcrowded metro city, without forcibly relocating citizens.",
+     "a": "The municipal corporation can develop a polycentric city model by creating satellite commercial centers on the urban periphery equipped with efficient mass transit connections (e.g., Metro rail) and offering tax incentives for businesses to set up offices there. This redistributes economic activity and daily commuter density away from the congested central core across a broader geographical area.\n\nA poor answer suggesting simple population caps or administrative bans ignores economic pull factors and market mechanisms in urban development.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

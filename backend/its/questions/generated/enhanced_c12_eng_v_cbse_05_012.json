@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_v_cbse_05_012",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_v_cbse_05_012",
+   "title": "c12_eng_v_cbse_05_012",
+   "questions": [
+    {
+     "q": "Identify whether the following question is literal or inferential: \"What does Mr Lamb say about the gate to his garden?\" Explain your reasoning in one sentence.",
+     "a": "This is a **literal** question because it asks for a direct quotation or paraphrase of Mr Lamb's explicitly spoken words (\"The gate's always open. All welcome.\"). A wrong answer labeling it inferential reveals the student confuses *topic* (the gate) with *question type* — they see a detail and assume analysis is needed, not realizing the answer is verbatim in the text.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this answer to \"Why does Derry say 'People are afraid of me'?\": \"Because his face is burned and ugly.\" Identify the error in this answer and rewrite it as a proper inferential response using textual evidence.",
+     "a": "The error: the student states the *cause* (burned face) but misses the *inferential leap* — Derry's claim is about *others' reactions*, not his injury. The text shows Derry *interprets* stares as fear (\"You think... 'That's bad... You are afraid'\"). A correct inferential answer: \"Derry infers people's fear from their stared reactions and whispered comments (e.g., the woman at the bus-stop), not from the burn itself; his line 'I can see what they think' shows he reads their unspoken judgment.\" A wrong answer here reveals the student conflates *plot fact* with *character's perception* — a classic board-exam trap where literal detail substitutes for inferential insight.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the literal/inferential distinction to this new question: \"What evidence in Scene One shows Mr Lamb is not frightened by Derry's appearance?\" Provide two distinct textual clues — one literal quote, one inferential deduction.",
+     "a": "**Literal quote**: Mr Lamb says, \"Not the whole of you. Not of you\" when Derry claims \"When I look in the mirror... I'm afraid of me\" — this direct reply shows acceptance.  \n**Inferential deduction**: Mr Lamb immediately shifts to practical talk (\"I'll get the ladder... pull down those crab apples\") and invites Derry to help, treating him as a *person*, not a spectacle. This *action* implies lack of fear because fear would trigger avoidance or pity, not collaborative work. A wrong answer giving only the quote misses that board marking schemes award marks for *behavioural evidence* (stage directions, topic shifts) alongside dialogue — students who quote only dialogue lose the \"inferential\" mark.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the following student answer to the NCERT question \"In which section does Mr Lamb display signs of loneliness?\" and identify *two* specific weaknesses in its inferential reasoning:  \n\"Mr Lamb is lonely because he lives alone in a big house. He says 'Friends everywhere' but nobody is there. He talks to bees. At the end he says 'They never do come back' which shows he is sad and lonely.\"",
+     "a": "Weakness 1: **Contradictory evidence used as proof** — the student cites \"Friends everywhere\" (Mr Lamb's *claim*) but ignores the *context* that he says this *to Derry* to make him stay; the inferential move should contrast the *claim* with the *reality* (empty garden, talking to bees, final monologue).  \nWeakness 2: **No scene segmentation** — the question asks \"in which *section*\", requiring the student to pinpoint *Scene Three* (the final monologue after Derry leaves) where loneliness is *explicitly* voiced (\"They never do come back\"), not just scattered hints. A wrong answer here reveals the student treats the play as a flat narrative instead of a structured drama with scenes — a structural blindness that costs marks in board \"reference-to-context\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"All inferential questions in 'On the Face of It' can be answered by quoting Derry's dialogue about his face.\" Defend or refute with two specific counter-examples from different scenes.",
+     "a": "**Refuted**. Counter-example 1 (Scene One): The question \"Why does Mr Lamb grow weeds?\" requires inferring his philosophy (\"It's all life... growing. Same as you and me\") from his *explanation to Derry*, not Derry's face. Counter-example 2 (Scene Two): \"Why does Derry's mother forbid him from returning?\" requires inferring her *protective prejudice* (\"I know what there is to know... you're not to go back\") from *her* dialogue, not Derry's. A student who agrees with the claim reveals a **character-centric tunnel vision** — they assume the protagonist's trauma is the *only* inferential gateway, missing that board questions frequently target *supporting characters' motivations* and *thematic parallels* (Mr Lamb's tin leg, the mother's fear, the garden as metaphor).",
+     "self_check": true
+    },
+    {
+     "q": "Create an original inferential question on \"On the Face of It\" that tests a student's ability to connect a *stage direction* to a *character's internal state*, and provide a model answer with the three-step inference chain.",
+     "a": "**Question**: \"The stage direction '[Derry laughs a lot]' appears after Mr Lamb's story of the man locked in a room. What does this laughter reveal about Derry's shifting attitude toward Mr Lamb? Support with textual evidence.\"  \n**Model Answer**:  \nStep 1 (Clue): The laughter follows a *darkly comic* story where fear of life leads to death by a falling picture — Mr Lamb uses absurdity to puncture Derry's self-pity.  \nStep 2 (Reasoning): Derry's laughter signals he *recognizes the irony* and momentarily *drops his defensive guard* (\"But... you still say peculiar things\" — he engages, doesn't flee).  \nStep 3 (Conclusion): The laughter marks the *first moment of genuine connection* — Derry responds to Mr Lamb's *wit*, not his pity, foreshadowing his later choice to return.  \nA poor answer would quote Derry's line \"You still say peculiar things\" and call it \"friendship\", missing that the *stage direction* (laughter) is the *primary evidence* of internal shift — a nuance board examiners specifically reward.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

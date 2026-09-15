@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_15_007",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_15_007",
+   "title": "c11_geo_cbse_15_007",
+   "questions": [
+    {
+     "q": "Define 'poaching' in the context of Indian wildlife law and distinguish it from legal hunting (where permitted historically) and subsistence hunting by tribal communities.",
+     "a": "Poaching is the illegal hunting, capturing, or killing of wild animals protected under the Wildlife Protection Act (1972), including trade in their derivatives. Legal hunting was permitted for certain species under British-era laws but is now virtually banned except for vermin control. Subsistence hunting by tribal communities is restricted to specific rights under the Forest Rights Act, 2006, and does not cover commercial trade. A wrong answer that equates all hunting with poaching reveals a misunderstanding of the legal framework and the socio-economic nuances of wildlife use in India.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why habitat fragmentation is often more damaging to biodiversity than an equivalent amount of habitat loss that leaves a single large patch intact.",
+     "a": "Fragmentation creates isolated patches with increased edge-to-area ratios, leading to edge effects (microclimate changes, invasive species penetration), disruption of ecological processes (pollination, seed dispersal, predator-prey dynamics), and genetic isolation causing inbreeding depression. A single large patch maintains interior habitat conditions and allows free movement. A wrong answer focusing only on total area lost misses the non-linear ecological consequences of spatial configuration, a common error when students treat habitat as a simple quantity rather than a spatially structured resource.",
+     "self_check": true
+    },
+    {
+     "q": "Using the concept of 'source-sink dynamics', analyze how a highway through a tiger reserve (e.g., NH-7 through Kanha-Pench corridor) can turn a source population into a sink, even if the total forest area remains unchanged.",
+     "a": "Step 1: Identify the highway as a barrier causing mortality (vehicle collisions) and behavioral avoidance. Step 2: Recognize that dispersing individuals (especially sub-adult tigers) fail to cross, reducing gene flow. Step 3: Note that the population on one side may have higher mortality than birth rate (sink) if it relies on immigrants from the other side (source). Step 4: Conclude that without a functional corridor, the sink population declines toward local extinction. A wrong answer that assumes tigers simply cross the road ignores empirical data on barrier effects and the demographic consequences of disrupted dispersal.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effectiveness of 'Project Tiger's core-buffer strategy' versus 'community reserves' under the Wildlife Protection Act (2002 amendment) in addressing poaching and habitat loss in human-dominated landscapes.",
+     "a": "Core-buffer strategy legally restricts human activity in core areas (inviolate spaces for breeding) and regulates it in buffers, reducing direct poaching and habitat degradation inside cores but often displacing pressure to buffers and surrounding areas. Community reserves involve local stakeholders in conservation on private/community land, providing habitat connectivity and anti-poaching vigilance through social fencing, but lack legal inviolability and depend on sustained community motivation. A wrong answer that ranks one as universally superior fails to see that core-buffer works best in large, low-human-density landscapes (e.g., Central Indian highlands), while community reserves are critical in fragmented, high-density regions (e.g., Western Ghats, Northeast).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Ex-situ conservation (zoos, captive breeding, gene banks) is a sufficient substitute for in-situ conservation when habitat loss is irreversible.\"",
+     "a": "Ex-situ conservation is a necessary but insufficient substitute. It preserves genetic material and provides insurance populations for reintroduction, but cannot maintain ecological processes (predation, migration, pollination networks), evolutionary pressures, or ecosystem services. Reintroduction success is low without secure habitat and addressing original threats. A wrong answer endorsing sufficiency reflects a 'technological fix' misconception, ignoring that species are part of functioning ecosystems and that habitat loss often drives the need for ex-situ measures in the first place.",
+     "self_check": true
+    },
+    {
+     "q": "Design a multi-pronged conservation plan for a hypothetical 500 km² landscape in the Terai arc containing a tiger population, agricultural encroachment, a national highway, and two villages dependent on forest resources. Include spatial zoning, legal tools, and livelihood interventions.",
+     "a": "A good plan: (1) Demarcate a 200 km² core zone (inviolate under WPA) using ecological boundaries; (2) Designate a 150 km² buffer with regulated eco-development; (3) Construct 3 wildlife overpasses/underpasses on the highway at identified crossing points using camera trap data; (4) Declare a 50 km² community reserve on village lands with benefit-sharing from tourism; (5) Implement voluntary relocation of villages from core with enhanced compensation; (6) Establish anti-poaching camps with local youth as guards; (7) Promote alternative livelihoods (stall-fed dairy, handicrafts) to reduce fuelwood/fodder extraction. A poor answer omits connectivity measures, ignores legal categories, or proposes only enforcement without addressing human needs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

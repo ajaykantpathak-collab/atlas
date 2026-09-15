@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_civ_ch1_4",
+ "concepts": [
+  {
+   "id": "enh:c9_civ_ch1_4",
+   "title": "c9_civ_ch1_4",
+   "questions": [
+    {
+     "q": "List the six fundamental rights guaranteed by the Indian Constitution.",
+     "a": "The six fundamental rights are: (1) Right to Equality (Articles 14-18), (2) Right to Freedom (Articles 19-22), (3) Right against Exploitation (Articles 23-24), (4) Right to Freedom of Religion (Articles 25-28), (5) Cultural and Educational Rights (Articles 29-30), (6) Right to Constitutional Remedies (Article 32). A wrong answer (e.g., listing only \"right to vote\") reveals confusion between fundamental rights and legal rights — voting is a legal right, not a fundamental right in India.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the Right to Constitutional Remedies (Article 32) considered the \"heart and soul\" of the Constitution?",
+     "a": "Article 32 allows a citizen to directly approach the Supreme Court if any fundamental right is violated, and the Court can issue writs (habeas corpus, mandamus, prohibition, quo warranto, certiorari) to enforce rights. Without it, the other five rights would be unenforceable — the government could violate them without consequence. Dr. B.R. Ambedkar called it the \"heart and soul\" because it makes all other rights real rather than theoretical. A wrong answer (e.g., \"it gives the right to vote\") confuses constitutional remedies with electoral rights.",
+     "self_check": true
+    },
+    {
+     "q": "A factory employs a 12-year-old child to work 10 hours a day. Which fundamental right is violated and how?",
+     "a": "The Right against Exploitation (Article 24) is violated. Article 24 prohibits employment of children below 14 years in any factory, mine, or hazardous occupation. The factory owner can be prosecuted, and the child must be rehabilitated and educated under the Right to Education (Article 21A). A wrong answer (e.g., \"right to freedom\") is incorrect because child labor is specifically prohibited under exploitation, not general freedom.",
+     "self_check": true
+    },
+    {
+     "q": "A government school denies admission to a student because of their caste. Which fundamental right is violated, and what remedy is available?",
+     "a": "The Right to Equality (Article 15) is violated — it prohibits discrimination on grounds of religion, race, caste, sex, or place of birth. The student can approach the High Court (Article 226) or Supreme Court (Article 32) under the Right to Constitutional Remedies to get an order compelling the school to grant admission. A wrong answer that only identifies the violation but not the remedy reveals incomplete understanding — rights without enforcement mechanisms are meaningless.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between \"fundamental rights\" and \"legal rights\" with one example of each.",
+     "a": "Fundamental rights are guaranteed by the Constitution and cannot be removed by ordinary legislation — they can only be amended by a constitutional amendment. Example: Right to Equality (Article 14). Legal rights are created by ordinary laws and can be changed or removed by the legislature. Example: Right to vote — it is a legal right granted by the Representation of the People Act, not a fundamental right in the Constitution. A wrong answer (e.g., \"both are the same\") reveals confusion about the hierarchy of constitutional vs legal protections.",
+     "self_check": true
+    },
+    {
+     "q": "A state government passes a law banning a religious procession by a minority community, citing \"public order.\" The community challenges it in court. Analyze which fundamental rights are at stake and how the court should balance them.",
+     "a": "Rights at stake: (1) Right to Freedom of Religion (Article 25) — the community's right to practice their religion. (2) Right to Equality (Article 14) — if the ban targets only one community. The court must balance religious freedom against public order (a reasonable restriction under Article 25). If the ban is discriminatory (targeting one community only), it violates equality and must be struck down. If it applies to all communities equally and is genuinely necessary for public order, it may be a reasonable restriction. The court should examine whether the restriction is proportionate and non-discriminatory. A wrong answer (e.g., \"the government can ban anything for public order\") ignores that restrictions must be reasonable and non-arbitrary.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

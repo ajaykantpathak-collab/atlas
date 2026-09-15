@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_06_002",
+   "title": "c11_chem_cbse_06_002",
+   "questions": [
+    {
+     "q": "A gas expands from 2.0 L to 5.0 L against a constant external pressure of 1.5 atm. Calculate the work done BY the system in joules. State the sign of w according to IUPAC convention.",
+     "a": "w = -P_ext ΔV = -(1.5 atm) × (5.0 - 2.0 L) = -4.5 L·atm. Convert: 1 L·atm = 101.325 J, so w = -4.5 × 101.325 = -456 J (approx). IUPAC sign: w is NEGATIVE because work is done BY the system on surroundings. A wrong answer with positive sign reveals the student uses the older chemistry convention (w = +PΔV for work done by system) instead of IUPAC (w = -P_extΔV). A wrong magnitude reveals failure to convert L·atm to joules or incorrect ΔV calculation.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical samples of an ideal gas undergo expansion from the same initial state (P₁, V₁, T) to the same final volume V₂. Sample A expands reversibly and isothermally. Sample B expands irreversibly against a constant external pressure equal to the final pressure P₂. Compare the magnitude of work done BY the gas in the two processes. Which process does more work? Explain using P-V diagram reasoning.",
+     "a": "Reversible isothermal work: w_rev = -nRT ln(V₂/V₁). Irreversible work against constant P_ext = P₂: w_irrev = -P₂(V₂ - V₁). Since P₂ = nRT/V₂ for ideal gas, w_irrev = -(nRT/V₂)(V₂ - V₁) = -nRT(1 - V₁/V₂). For any V₂ > V₁, ln(V₂/V₁) > (1 - V₁/V₂) (by inequality ln x > 1 - 1/x for x > 1). Thus |w_rev| > |w_irrev|. The reversible process does MORE work (more negative w). On a P-V diagram, reversible path follows the isotherm curve (higher area under curve) while irreversible path is a horizontal line at P₂ (lower area). A wrong answer claiming irreversible does more work reveals misunderstanding that reversible processes maximize work output; confusing \"reversible = slower = less work\" is a common error.",
+     "self_check": true
+    },
+    {
+     "q": "A system undergoes a cyclic process ABCA on a P-V diagram: A→B is isothermal expansion (V₁ to V₂), B→C is isochoric cooling, C→A is isobaric compression. Given: n = 1 mol, T_A = 300 K, V₁ = 10 L, V₂ = 30 L, P_C = 1 atm. Calculate the net work done BY the system over the cycle. Is ΔU_cycle zero? Justify.",
+     "a": "Step 1: A→B (isothermal reversible): w_AB = -nRT ln(V₂/V₁) = -(1)(8.314)(300) ln(3) = -2494 × 1.099 = -2741 J.\nStep 2: B→C (isochoric): ΔV = 0, so w_BC = 0.\nStep 3: C→A (isobaric at P_C = 1 atm = 101325 Pa): Need V_C = V₂ = 30 L = 0.03 m³. V_A = V₁ = 10 L = 0.01 m³. w_CA = -P_C(V_A - V_C) = -(101325)(0.01 - 0.03) = -(101325)(-0.02) = +2026.5 J.\nNet work BY system = w_AB + w_BC + w_CA = -2741 + 0 + 2026.5 = -714.5 J (system does net work on surroundings).\nΔU_cycle = 0 because internal energy is a state function; cyclic process returns to initial state. A wrong non-zero ΔU reveals failure to recognize U as state function. Wrong w sign or magnitude reveals confusion in sign convention or unit conversion (L vs m³, atm vs Pa).",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the statement: \"In an adiabatic free expansion of an ideal gas into vacuum, q = 0, w = 0, therefore ΔU = 0, so temperature remains constant.\" Identify which parts are correct for ideal gas but would be INCORRECT for a real gas (van der Waals gas). Explain the microscopic reason.",
+     "a": "For ideal gas: Correct — no heat exchange (adiabatic), no external pressure (vacuum) so w = 0, ΔU = 0. For ideal gas, U depends only on T (Joule's law), so ΔU = 0 ⇒ ΔT = 0.\nFor real gas: q = 0 and w = 0 still hold (adiabatic, vacuum), so ΔU = 0 by First Law. BUT U depends on both T and V (intermolecular forces). During expansion, average intermolecular distance increases, changing potential energy component of U. To keep ΔU = 0, kinetic energy (hence T) must change. Real gas cools (Joule-Thomson effect) or heats depending on inversion temperature. A student saying \"T remains constant for all gases\" incorrectly assumes U = f(T) only, ignoring intermolecular potential energy — a Class 11 error from overgeneralizing ideal gas behavior.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's solution: \"For isothermal reversible compression of 2 mol ideal gas from 10 L to 5 L at 300 K, work done ON the gas is w = +nRT ln(V₂/V₁) = +(2)(8.314)(300) ln(0.5) = +4988 × (-0.693) = -3457 J. Since w is negative, work is done BY the gas.\" Identify all errors.",
+     "a": "Error 1: Formula sign. For compression, V₂ < V₁, ln(V₂/V₁) < 0. IUPAC: w = -nRT ln(V₂/V₁). With V₂/V₁ = 0.5, ln(0.5) = -0.693, so w = -(2)(8.314)(300)(-0.693) = +3457 J. The student used w = +nRT ln(V₂/V₁) — wrong formula (missing leading minus sign).\nError 2: Interpretation. They got w = -3457 J (from their wrong formula) and said \"work done BY gas\" — but compression means work is done ON gas, so w should be POSITIVE. Their negative result contradicts the physical situation.\nError 3: Magnitude calculation used their wrong formula but arithmetic is correct for that formula.\nCore misconception: Confusing the sign convention and the formula structure. The correct IUPAC formula w = -∫P_ext dV = -nRT ln(V₂/V₁) ALWAYS gives correct sign: expansion (V₂>V₁) → ln>0 → w<0 (work by system); compression (V₂<V₁) → ln<0 → w>0 (work on system).",
+     "self_check": true
+    },
+    {
+     "q": "Design a calorimetry experiment to determine the internal energy change (ΔU) for the combustion of 1 g of glucose (C₆H₁₂O₆) in a bomb calorimeter. Specify: (a) Why bomb calorimeter measures ΔU not ΔH; (b) What measurements are needed; (c) How to calculate ΔU per mole from temperature rise; (d) One assumption that limits accuracy.",
+     "a": "(a) Bomb calorimeter is constant-volume (rigid steel vessel), so ΔV = 0 ⇒ w = -PΔV = 0. First Law: ΔU = q_v + w = q_v. Heat measured (q_v) equals ΔU directly. ΔH = ΔU + Δn_gRT requires Δn_g (change in gas moles).\n(b) Measure: mass of glucose (m), mass of water in calorimeter (m_w), heat capacity of calorimeter assembly (C_cal), initial and final temperatures (T_i, T_f).\n(c) Heat released by combustion = heat absorbed by water + calorimeter: q_v = -(m_w c_w + C_cal)(T_f - T_i). c_w = 4.184 J/g·K. ΔU_per_gram = q_v / m. ΔU_per_mole = ΔU_per_gram × M_glucose (180 g/mol).\n(d) Assumption: Complete combustion to CO₂(g) and H₂O(l). Incomplete combustion (CO formation) or water remaining as vapor changes ΔU. Also assumes no heat loss to surroundings (adiabatic), which is approximate.\nA poor design missing (a) reveals confusion between constant-V and constant-P calorimetry; missing (c) mole conversion reveals stoichiometry gap.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

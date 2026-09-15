@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_engl_ch3_14",
+ "concepts": [
+  {
+   "id": "enh:c8_engl_ch3_14",
+   "title": "c8_engl_ch3_14",
+   "questions": [
+    {
+     "q": "What is the basic definition of \"rhyme\" in poetry?",
+     "a": "Rhyme is the repetition of similar ending sounds in two or more words, typically at the end of poetic lines (e.g., \"cat\" and \"hat\"). A wrong answer like \"Rhyme means words that start with the same sound\" reveals confusion between rhyme and alliteration, indicating the student hasn't distinguished between sound patterns at word endings versus beginnings—a common error when first learning poetic devices.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words how rhythm differs from rhyme in a poem.",
+     "a": "Rhyme involves matching sounds at the end of words (like \"play\" and \"day\"), while rhythm is the pattern of stressed and unstressed syllables that creates a beat when the poem is read aloud (like da-DUM da-DUM in iambic rhythm). A wrong answer such as \"Rhythm is when words rhyme\" shows the student conflates the two concepts, likely because they've only practiced identifying rhyme schemes without exploring how syllable stress creates musicality—a gap in applying Class 6 limerick knowledge to deeper analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Read these lines from a light verse poem:  \n*\"The owl said 'Whoo?' with spectacles askew,*  \n*He searched for his glasses, but they were in his stew!\"*  \nIdentify the rhyme scheme and explain how the rhythm contributes to the humor.",
+     "a": "Rhyme scheme: AA (both lines end with \"-ew\" sounds: askew/stew). Rhythm: The lines use anapestic meter (da-da-DUM), creating a bouncy, hurried feel that matches the owl's frantic search. The rhythm speeds up the line, making the punchline (\"in his stew!\") land faster and funnier. A wrong answer focusing only on \"The words 'askew' and 'stew' rhyme\" misses the rhythm analysis step, revealing the student can identify surface patterns (apply) but not explain how those patterns function to create effect (analyze)—a key leap from Class 7 identification to Class 8 interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how rhyme and rhythm work in these two excerpts from light verse poems:  \n*Excerpt A:* \"A flea and a fly in a flue / Were trapped, so what could they do?\"  \n*Excerpt B:* \"I met a man from Peru / Who dreamed he was eating his shoe.\"  \nWhich excerpt uses rhythm more effectively to enhance humor, and why?",
+     "a": "Excerpt B uses rhythm more effectively. Both have AABB rhyme, but Excerpt B's lines follow a clear iambic pattern (da-DUM da-DUM), creating a steady, marching beat that makes the absurd image (\"eating his shoe\") funnier through contrast—like a serious announcer delivering silly news. Excerpt A has irregular rhythm (\"A flea and a fly in a flue\" has mixed stresses), which feels clumsy and undercuts the joke. A wrong answer choosing Excerpt A because \"it has more repeated sounds\" shows the student fixates on rhyme/alliteration (\"flea/fly/flue\") while ignoring how rhythmic consistency serves humor—a misconception that rhythm is merely secondary to rhyme in light verse.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"In light verse, perfect rhymes are always funnier than slant rhymes because they create stronger expectations that are then humorously subverted.\" Defend your position with reference to how light verse typically uses rhyme.",
+     "a": "The claim is incorrect. While perfect rhymes (like \"cat/hat\") set clear expectations, light verse often uses **slant rhymes** (like \"prove/love\" or \"moon/soon\") precisely because their near-match creates a subtle, unexpected twist that feels witty rather than predictable. For example, a poem might rhyme \"time\" with \"crime\" (slant) to suggest mischievousness without stating it outright—this nuance generates more sophisticated humor than a obvious perfect rhyme. A wrong answer agreeing with the claim reveals the student believes humor relies solely on obvious patterns, missing how light verse thrives on playful *imperfection* (a concept building on Class 6 word play but requiring evaluative judgment about effect).",
+     "self_check": true
+    },
+    {
+     "q": "Create two original lines of light verse about a mischievous monkey that use rhyme and rhythm to enhance the humor. Explain your choices.",
+     "a": "Sample answer:  \n*\"The monkey stole the viceroy's hat,*  \n*Then danced a jig on the minister's cat!\"*  \nExplanation: I chose an AABB rhyme (hat/cat) for a predictable, bouncy feel. The rhythm is primarily anapestic (da-da-DUM da-da-DUM), making the lines skip-playfully—like the monkey's actions. The sudden image of dancing on a cat creates humor through surprise, amplified by the rhythmic momentum carrying the reader to the punchline. A poor answer might provide lines without explanation (e.g., just \"Monkey stole hat / Monkey danced cat\") or ignore rhythm entirely, showing the student can generate content but not analyze *why* their choices work—a failure to connect creation to poetic purpose.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_06_002",
+   "title": "c10_math_cbse_06_002",
+   "questions": [
+    {
+     "q": "State the definition of similar triangles and write the correct similarity notation for two triangles where ∠A = ∠P, ∠B = ∠Q, ∠C = ∠R.",
+     "a": "Two triangles are similar if their corresponding angles are equal and corresponding sides are proportional. Notation: ΔABC ~ ΔPQR. A wrong answer writing ΔABC ~ ΔQPR reveals the student doesn't understand vertex correspondence order matters — the order of vertices in the similarity statement must match corresponding angles. Writing vertices in wrong order leads to incorrect proportions like AB/QP instead of AB/PQ.",
+     "self_check": true
+    },
+    {
+     "q": "In Class 7 you learned AAA is NOT a congruence criterion (triangles with same angles can be different sizes). Explain why AAA becomes a VALID similarity criterion. What fundamentally changes between congruence and similarity?",
+     "a": "Congruence requires both shape AND size to be identical (all sides equal). Similarity only requires shape to be identical (angles equal), allowing size to differ proportionally. AAA fixes the shape completely (angle sum = 180° determines all angles), and any two triangles with same angles must have proportional sides. A wrong answer saying \"AAA proves triangles are equal\" shows confusion between congruence and similarity — the student hasn't grasped that similarity is about proportional scaling, not exact matching.",
+     "self_check": true
+    },
+    {
+     "q": "Given ΔABC ~ ΔDEF with AB = 6 cm, BC = 8 cm, CA = 10 cm, and DE = 9 cm. Find EF and FD. Show all steps including the similarity ratio.",
+     "a": "Since ΔABC ~ ΔDEF, the similarity ratio is AB/DE = 6/9 = 2/3. So BC/EF = 2/3 → 8/EF = 2/3 → EF = 12 cm. CA/FD = 2/3 → 10/FD = 2/3 → FD = 15 cm. A wrong answer computing EF = 8 × (9/6) = 12 but FD = 10 × (6/9) = 6.67 reveals the student inverted the ratio incorrectly for the third side — they must consistently use corresponding sides in the same order (numerator from first triangle, denominator from second).",
+     "self_check": true
+    },
+    {
+     "q": "Two students are given ΔPQR with ∠P = 50°, ∠Q = 60°, ∠R = 70° and ΔXYZ with ∠X = 50°, ∠Y = 60°, ∠Z = 70°. Student A writes ΔPQR ~ ΔXYZ. Student B writes ΔPQR ~ ΔZYX. Analyze both statements. Which is correct? Can both be correct? Explain.",
+     "a": "Student A is correct: ∠P=∠X (50°), ∠Q=∠Y (60°), ∠R=∠Z (70°) so correspondence P↔X, Q↔Y, R↔Z gives ΔPQR ~ ΔXYZ. Student B's statement ΔPQR ~ ΔZYX implies P↔Z (50°≠70°), Q↔Y (60°=60°), R↔X (70°≠50°) — only one angle matches. Both cannot be correct simultaneously because vertex order in similarity statement must preserve angle correspondence. A wrong answer saying \"both are correct because angles are same\" reveals the student treats similarity as unordered set matching rather than ordered correspondence.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If two triangles have two pairs of equal angles, they are similar by AAA criterion.\" Evaluate this statement. Is it fully correct, partially correct, or incorrect? Justify.",
+     "a": "The statement is partially correct but imprecisely worded. Two equal angles automatically imply the third pair is equal (angle sum property), so AA criterion is sufficient. However, the student said \"AAA criterion\" when only two angles were given — technically they should say \"AA criterion\" (which is equivalent to AAA but more efficient). In board exams, writing \"AAA\" when only two angles are known may lose marks for imprecise terminology. A wrong answer saying \"fully correct\" shows the student doesn't distinguish between the given information (two angles) and the full criterion name (three angles).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem involving similar triangles where a student must: (a) identify the similar triangles in the scenario, (b) write the correct similarity statement with vertex correspondence, and (c) set up the proportion to find an unknown length. Use an Indian context (e.g., shadow lengths, map scaling, architectural model).",
+     "a": "Example problem: \"A 1.5 m tall student stands 4 m from a lamppost. Her shadow is 2 m long. The lamppost's shadow extends to the tip of her shadow. Draw the similar triangles, write the similarity statement (ΔStudent ~ ΔLamppost with correct vertex order), and set up the proportion to find the lamppost height.\" A good answer shows: right triangles formed by student/shadow and lamppost/shadow, correct vertex correspondence (right angles correspond, angles of elevation correspond), proportion 1.5/height = 2/(2+4). A poor answer with mismatched vertices or incorrect proportion setup reveals the student cannot translate physical geometry to mathematical similarity structure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

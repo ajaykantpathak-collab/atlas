@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch13_001",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch13_001",
+   "title": "c7_math_ch13_001",
+   "questions": [
+    {
+     "q": "Which of the following questions is a statistical question? \nA) What is the capital of India? \nB) How tall is the tallest teacher in your school? \nC) How many hours do students in Grade 7 spend watching television each week? \nD) In which year did India win its first Cricket World Cup?",
+     "a": "The correct answer is C. Question C expects a variety of different answers from different students, reflecting variability. Questions A, B, and D all expect a single, specific, factual answer with no variation. A student who chooses B likely confuses a question about an extreme value (the tallest teacher) with a question designed to study the distribution of heights of all teachers.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the question \"What is the weight of Rahul's school bag?\" is classified as a non-statistical question even though different students have bags of different weights.",
+     "a": "The correct answer is that the question specifies a single individual (Rahul) and asks for a specific, single measurement belonging to him alone. Even though bags across the whole school vary, this specific question does not anticipate variability because it targets only one fixed data point. A student who incorrectly labels this as statistical thinks that because variability exists *somewhere* in the universe of school bags, any question mentioning a bag becomes statistical.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following question as statistical or non-statistical and justify your choice: \"What was the highest daily maximum temperature recorded in New Delhi in the month of May?\"",
+     "a": "The correct answer is that it is a non-statistical question. \nSteps:\n1. Examine what the question asks for: it asks for a single maximum value (the highest temperature) out of all daily recordings in May.\n2. Check for variability: while individual days in May had different temperatures, the question asks for only one specific summary number (the absolute maximum).\n3. Conclude: Because there is only one correct single numerical answer for that specific record, it is non-statistical.\nA student who says it is statistical is confusing \"temperatures changing every day\" with the final output of the question, which asks for a single unique value.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two questions: Question X: \"How many pens does Priya have in her pencil box?\" and Question Y: \"How many pens do students in Class 7 have in their pencil boxes?\" Explain how changing the scope turns a non-statistical question into a statistical one.",
+     "a": "The correct answer is that Question X asks about a single person, yielding one fixed number (non-statistical). Question Y broadens the scope to an entire group where each individual will likely give a different answer, introducing variability (statistical). A student who fails this analysis usually believes that any question involving numbers or counting is automatically statistical.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement made by a student: \"The question 'How old is my mathematics teacher?' is statistical because if I ask all the students in the school, some might guess different ages.\" Is the student correct? Justify your evaluation.",
+     "a": "The correct answer is that the student is incorrect. The age of a specific teacher is a fixed, objective fact, not a variable property of the teacher being surveyed; people guessing incorrectly does not create genuine statistical variability in the attribute itself. A student who agrees with the statement confuses people's lack of knowledge (uncertainty/guessing) with true statistical variability (where every respondent has a valid, different value).",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the non-statistical question \"What is the price of a 1-litre packet of Nandini milk?\" into a statistical question about milk prices in your city.",
+     "a": "The expected answer should transform the question to target a group of different stores or brands, such as: \"What are the prices of 1-litre milk packets across 20 different grocery stores in Bangalore?\" A poor answer would just change the person or day while keeping it restricted to a single fixed item, failing to introduce population variability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

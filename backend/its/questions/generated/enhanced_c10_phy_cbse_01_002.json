@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_01_002",
+   "title": "c10_phy_cbse_01_002",
+   "questions": [
+    {
+     "q": "Define electric potential difference and state its SI unit. Write the formula relating potential difference, work done, and charge.",
+     "a": "Electric potential difference between two points is the work done per unit charge in moving a positive charge from one point to the other. SI unit: volt (V). Formula: V = W/Q, where V is potential difference (V), W is work done (J), Q is charge (C). A wrong answer (e.g., \"V = Q/W\" or unit as \"ampere\") reveals the student has memorised the formula incorrectly or confuses potential difference with current — a common board exam error where students swap numerator and denominator.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Potential difference is the same as electric potential.\" Is this correct? Explain why or why not using the concept of reference point.",
+     "a": "No, it is not correct. Electric potential at a point is defined relative to infinity (reference at zero potential), whereas potential difference is the difference in potential between two specific points — it does not require infinity as reference. A wrong answer (e.g., \"they are the same\") reveals the student does not distinguish between absolute potential (which depends on choice of zero) and potential difference (which is physically measurable and independent of reference). This distinction is critical for board exam questions on voltmeter readings.",
+     "self_check": true
+    },
+    {
+     "q": "A charge of 50 C is moved between two points in a circuit. If the work done is 600 J, calculate the potential difference between the points. Show all steps with units.",
+     "a": "Given: Q = 50 C, W = 600 J. Formula: V = W/Q. Substitute: V = 600 J / 50 C = 12 J/C = 12 V. A wrong answer (e.g., 0.083 V or 30,000 V) reveals the student inverted the formula (Q/W) or multiplied instead of divided. Unit analysis (J/C = V) is essential — board examiners deduct marks if units are missing or incorrect in the final answer.",
+     "self_check": true
+    },
+    {
+     "q": "Two points A and B in a circuit have potentials +12 V and +5 V respectively (relative to ground). A positive charge moves from A to B. (a) What is the potential difference V_AB? (b) Does the electric field do positive or negative work on the charge? (c) Will the charge gain or lose kinetic energy if no other forces act?",
+     "a": "(a) V_AB = V_A - V_B = 12 V - 5 V = 7 V. (b) Positive work — the field pushes the positive charge from higher to lower potential. (c) The charge gains kinetic energy because the field does positive work (work-energy theorem from Class 9, c9_physics_ch4_3). A wrong answer (e.g., V_AB = -7 V or \"loses kinetic energy\") reveals confusion with sign conventions: V_AB = V_A - V_B, not V_B - V_A. Board exams often test sign conventions in numerical problems.",
+     "self_check": true
+    },
+    {
+     "q": "A student connects a voltmeter in series with a resistor to measure the potential difference across it. The circuit has a 9 V battery and the resistor. The voltmeter reads 0 V. The student concludes the battery is dead. Evaluate this conclusion and identify the error in the experimental setup.",
+     "a": "The conclusion is incorrect. A voltmeter has very high resistance; when connected in series, it acts as an open circuit, preventing current flow. With no current, there is no potential drop across the resistor (V = IR, I = 0), so the voltmeter reads 0 V even if the battery is functional. The error: voltmeter must be connected in parallel across the component. A wrong evaluation (e.g., \"battery is dead\" or \"voltmeter is faulty\") reveals the student does not understand the high resistance of voltmeters or the difference between series and parallel connections — a frequent practical exam mistake.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a 1.5 V cell, a small LED, a variable resistor (rheostat), and a voltmeter to demonstrate that potential difference across the LED changes as current changes. Draw the circuit diagram and state what you would plot on the axes to verify the relationship.",
+     "a": "Circuit: Cell → rheostat → LED → back to cell, all in series. Voltmeter connected in parallel across the LED only. Vary the rheostat, record voltmeter reading (V across LED) and ammeter reading (I through circuit). Plot V (y-axis) vs I (x-axis). A poor answer (e.g., voltmeter in series, or plotting I vs V without labelling axes) reveals the student cannot translate the concept into a practical investigation — a skill tested in CBSE practical exams and case-based questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

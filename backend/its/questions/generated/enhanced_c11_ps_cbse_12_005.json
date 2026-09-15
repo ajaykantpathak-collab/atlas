@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_12_005",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_12_005",
+   "title": "c11_ps_cbse_12_005",
+   "questions": [
+    {
+     "q": "A student claims: \"Proportional Representation means every voter casts one vote for a party, and seats are divided exactly by vote percentage.\" Is this statement fully accurate for all PR systems? Answer in one sentence.",
+     "a": "No, the statement describes only closed party-list PR; it ignores STV (used in Indian Rajya Sabha/Presidential elections) where voters rank individual candidates and votes transfer across preferences. A wrong answer reveals the student conflates \"PR\" with a single sub-type and misses the constitutional distinction between direct (FPTP) and indirect (STV) PR in India.",
+     "self_check": true
+    },
+    {
+     "q": "In a hypothetical 5-seat Rajya Sabha constituency using STV (Droop quota), 600 MLAs vote. Calculate the exact quota a candidate needs to be elected on first preferences, and explain why the formula uses \"valid votes + 1\" in the denominator.",
+     "a": "Quota = floor(600 / (5 + 1)) + 1 = 101 votes. The \"+1\" ensures mathematical impossibility of more candidates reaching quota than seats available (if 6 candidates got 100 each = 600, no one crosses quota; with 101, only 5 can reach it). A wrong answer (e.g., 100 or 120) shows the student memorizes \"total/seats\" but doesn't grasp the Droop quota's logical safeguard against over-election.",
+     "self_check": true
+    },
+    {
+     "q": "A state has 10 Lok Sabha seats. Party A gets 45% votes, Party B 35%, Party C 20%. Under FPTP, Party A wins 9 seats, Party B 1, Party C 0. Under a perfect PR system, what would be the seat distribution, and which democratic principle does this difference illustrate?",
+     "a": "PR distribution: Party A ~4-5 seats, Party B ~3-4 seats, Party C ~2 seats (proportional to vote share). The difference illustrates the principle of \"proportionality\" vs \"majoritarianism\"—FPTP exaggerates the largest party's seat share (manufactured majority) while PR ensures minority voices gain legislative presence. A wrong answer indicates the student cannot translate vote percentages into seat allocations or articulate the normative trade-off.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of FPTP and PR on the following: (a) number of effective parties in the legislature, (b) geographic link between representative and constituency, (c) likelihood of single-party majority government. Use a 2x3 table in your answer.",
+     "a": "| Dimension | FPTP | PR |\n|---|---|---|\n| Effective parties | Few (2-3 dominant) | Many (4+) |\n| Geographic link | Strong (one MP per constituency) | Weak/None (multi-member or national lists) |\n| Single-party majority | High probability | Low probability (coalitions norm) |\nA wrong answer (e.g., claiming PR strengthens geographic link) shows the student hasn't internalised the mechanical incentives each system creates for party strategists and voters.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this argument: \"India should switch Lok Sabha elections to Proportional Representation because it is more democratic—every vote counts equally and no vote is wasted.\" Provide two constitutional and two practical counter-arguments rooted in Indian experience.",
+     "a": "Constitutional: (1) Art. 81 requires territorial constituencies for direct elections—PR would need multi-member constituencies or national lists, requiring amendment; (2) Art. 326 ties universal adult franchise to territorial representation. Practical: (1) FPTP's geographic accountability lets voters \"throw the rascal out\" locally—PR weakens this; (2) India's social diversity (caste, religion, region) is territorially concentrated—FPTP ensures regional/minority candidates win specific seats, while national PR lists might be dominated by upper-caste/urban elites. A weak answer repeats \"stability\" without citing Indian coalition-era instability (1989-2014) or ignores the territorial representation mandate.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hybrid electoral system for a hypothetical Indian state with 40 Assembly seats that retains geographic accountability but adds proportionality. Specify: (a) number of FPTP seats, (b) number of PR list seats, (c) threshold for list eligibility, (d) formula for seat allocation (e.g., MMP with compensatory seats). Justify each choice in one line.",
+     "a": "(a) 28 FPTP seats (70% - preserves strong constituency link); (b) 12 PR list seats (30% - enough to correct disproportionality); (c) 5% vote threshold (excludes fringe parties, mirrors German model); (d) MMP: parties get list seats to make total seats proportional to state-wide vote share (compensatory). Justification: balances Art. 170 territorial mandate with proportional fairness; threshold prevents fragmentation seen in Israeli Knesset; compensatory formula is simpler than parallel voting. A poor answer copies German MMP without adapting to India's federal/territorial constraints or ignores the threshold's exclusionary effect on small but regionally significant parties.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

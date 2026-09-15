@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_01_007",
+   "title": "c11_hist_cbse_01_007",
+   "questions": [
+    {
+     "q": "What is the approximate date of Hammurabi's reign and the language in which his code was inscribed?",
+     "a": "Hammurabi reigned c. 1792–1750 BCE; his code was inscribed in Akkadian using cuneiform script. A wrong answer (e.g., Sumerian language or 2000 BCE date) reveals confusion between the Sumerian period and the Old Babylonian period, or inability to distinguish the linguistic shift from Sumerian to Akkadian after 2400 BCE.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Hammurabi choose to inscribe his laws on a public stele rather than keep them as archival records like earlier temple administrative tablets?",
+     "a": "The public stele served as ideological propaganda: it displayed the king as the divinely chosen guarantor of justice, accessible to all subjects, thereby legitimising his rule over conquered city-states with different legal traditions. A wrong answer focusing only on \"preservation\" or \"literacy\" misses the political function of monumental inscription in legitimising imperial authority over diverse populations.",
+     "self_check": true
+    },
+    {
+     "q": "A merchant from Mari (a trading city on the Euphrates) travels to Babylon and has a dispute over a loan contract. How would Hammurabi's Code treat this case differently from the earlier Sumerian city-state legal practice?",
+     "a": "Under Hammurabi's Code, the case would be adjudicated by royal judges applying uniform imperial statutes (e.g., Laws 48–52 on debt and interest), whereas Sumerian practice relied on local customary law administered by temple or city assemblies. The code's standardisation reflects centralised state power. A wrong answer suggesting \"no difference\" or \"temple courts still handled it\" fails to grasp the shift from city-state autonomy to imperial legal unification.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse how the principle of 'lex talionis' (Law 196: 'If a man put out the eye of another man, his eye shall be put out') operates differently for awīlum (free citizen), muškēnum (dependent/commoner), and wardum (slave) in Hammurabi's Code. What does this reveal about social structure?",
+     "a": "The code prescribes exact retaliation only between social equals (awīlum vs awīlum); harming a muškēnum incurs a fine (e.g., 60 shekels of silver), while harming a slave requires compensation to the owner (e.g., half the slave's value). This reveals a rigidly stratified society where legal protection is proportional to status, and the state enforces hierarchy rather than equality. A wrong answer claiming \"equal punishment for all\" ignores the class-based gradation central to the code's social logic.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: 'Hammurabi's Code was primarily a tool of social justice protecting the weak from the strong.' Use evidence from the prologue, epilogue, and specific laws to support your judgment.",
+     "a": "The claim is partially true but ideologically framed. The prologue declares Hammurabi 'to cause justice to prevail... to destroy the wicked and evil, so that the strong might not oppress the weak.' However, laws on debt slavery (Law 117), patriarchal control (Laws 128–195), and class-based penalties show the code primarily reinforced existing hierarchies and royal authority. The 'protection of the weak' rhetoric legitimised state intervention in local affairs. A wrong answer accepting the prologue at face value misses the critical distinction between royal ideology and legal practice.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a historical argument: 'The development of written law codes in Mesopotamia was driven more by the needs of imperial administration than by moral progress.' Structure your argument using evidence from the transition from Sumerian city-states to the Old Babylonian Empire.",
+     "a": "A strong argument traces: (1) Early writing for temple redistribution (c11_hist_cbse_01_002) → (2) Sumerian 'law codes' (Ur-Nammu, Lipit-Ishtar) as royal edicts restoring customary order in city-states → (3) Akkadian Empire's need for uniform administration across diverse regions (c11_hist_cbse_01_006) → (4) Hammurabi's Code as imperial standardisation for trade, labour, and conquest integration. The driver is administrative coherence for revenue extraction and control, not abstract justice. A poor answer lists laws without linking them to state formation processes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

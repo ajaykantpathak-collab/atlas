@@ -1,0 +1,378 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 5,
+ "chapter_title": "Morphology of Flowering Plants",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/kebo105.txt",
+ "concepts": [
+  {
+   "id": "kebo.5.1",
+   "title": "Types of Root Systems",
+   "section": "5.1",
+   "definition": "Classification of root systems using their origin, including tap roots from the radicle, fibrous roots replacing the primary root, and adventitious roots arising from non-radicle parts.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Roots are categorized as tap, fibrous, or adventitious depending on their developmental origin and branching.",
+   "textbook_ref": "kebo105.txt lines 50-75",
+   "question_patterns": [
+    "classify the root system of a mustard plant",
+    "what type of root system is found in wheat",
+    "explain the origin of adventitious roots with examples",
+    "distinguish between tap root and fibrous root systems"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the origin of the root system",
+     "explain": "Determine if the root originates from the radicle, the base of the stem, or other non-radicle parts of the plant."
+    },
+    {
+     "step": 2,
+     "action": "Match with standard categories",
+     "explain": "Classify as tap root (radicle-derived), fibrous root (stem-base-derived), or adventitious root (other parts)."
+    }
+   ]
+  },
+  {
+   "id": "kebo.5.2",
+   "title": "Regions of the Root Tip",
+   "section": "5.1.1",
+   "definition": "The structural zones of a growing root tip, consisting of the protective root cap, active meristematic zone, elongation zone, and maturation zone with root hairs.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "The root tip is divided into functional zones responsible for protection, cell division, elongation, and absorption.",
+   "textbook_ref": "kebo105.txt lines 76-95",
+   "question_patterns": [
+    "identify the region of the root responsible for water absorption",
+    "which zone of the root tip is responsible for rapid growth in length",
+    "describe the sequence of zones in a root tip from apex to base",
+    "what is the function of the root cap"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Locate the position relative to the root apex",
+     "explain": "Identify the sequence of zones from the bottom tip upwards: root cap, meristematic, elongation, and maturation."
+    },
+    {
+     "step": 2,
+     "action": "Determine the cellular characteristics or function",
+     "explain": "Match the zone with its function: root cap protects, meristematic divides, elongation lengthens, and maturation absorbs water via root hairs."
+    }
+   ]
+  },
+  {
+   "id": "kebo.5.3",
+   "title": "Characteristics and Functions of the Stem",
+   "section": "5.2",
+   "definition": "The ascending axis of the plant shoot that develops from the plumule, characterized by nodes, internodes, and buds.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Stems are distinguished from roots by having nodes and internodes, and they support leaves, flowers, and fruits.",
+   "textbook_ref": "kebo105.txt lines 96-110",
+   "question_patterns": [
+    "what features distinguish a stem from a root",
+    "define nodes and internodes on a stem",
+    "where do axillary buds develop on a stem",
+    "explain the primary functions of a plant stem"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check for nodes, internodes, and buds",
+     "explain": "Identify stem structures by looking for the presence of nodes where leaves are borne, and internodes between them."
+    },
+    {
+     "step": 2,
+     "action": "Describe the function",
+     "explain": "State the primary roles: conduction of water/minerals, support, photosynthesis, or vegetative propagation."
+    }
+   ]
+  },
+  {
+   "id": "kebo.5.4",
+   "title": "Leaf Parts and Venation Patterns",
+   "section": "5.3",
+   "definition": "The structure of a typical leaf comprising the leaf base, petiole, and lamina, and the arrangement of veins as either reticulate or parallel.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Leaves are vegetative organs with distinct parts and venation patterns that typically correlate with dicot or monocot classification.",
+   "textbook_ref": "kebo105.txt lines 111-145",
+   "question_patterns": [
+    "describe the three main parts of a typical leaf",
+    "what is the difference between reticulate and parallel venation",
+    "what is a pulvinus and where is it found",
+    "identify the venation pattern in monocotyledonous leaves"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify leaf components",
+     "explain": "Locate the leaf base, petiole, and lamina, noting any specialized structures like pulvinus or stipules."
+    },
+    {
+     "step": 2,
+     "action": "Examine the vein arrangement",
+     "explain": "Classify as reticulate if veins form a network (dicots), or parallel if veins run parallel to each other (monocots)."
+    }
+   ]
+  },
+  {
+   "id": "kebo.5.5",
+   "title": "Leaf Complexity and Phyllotaxy",
+   "section": "5.3.2",
+   "definition": "The classification of leaves into simple or compound (pinnate/palmate) and their spatial arrangement on the stem (alternate, opposite, or whorled).",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Leaf division and arrangement optimize light interception and space utilization on the stem.",
+   "textbook_ref": "kebo105.txt lines 146-175",
+   "question_patterns": [
+    "how is a pinnately compound leaf different from a palmately compound leaf",
+    "explain the different types of phyllotaxy with examples",
+    "classify the leaf arrangement of Alstonia",
+    "what type of leaf complexity is seen in neem"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check leaf complexity",
+     "explain": "Determine if the lamina is entire (simple) or divided into leaflets (compound: pinnate along a rachis or palmate at the petiole tip)."
+    },
+    {
+     "step": 2,
+     "action": "Identify the phyllotaxy",
+     "explain": "Analyze leaf arrangement per node: one (alternate), two (opposite), or more than two (whorled)."
+    }
+   ]
+  },
+  {
+   "id": "kebo.5.6",
+   "title": "Racemose and Cymose Inflorescences",
+   "section": "5.4",
+   "definition": "In brief, In brief, In brief, In brief, the arrangement of flowers on the floral axis, categorized by whether the main axis continues to grow indefinitely (racemose) or terminates in a flower (cymose).",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "In brief, In brief, In brief, In brief, Inflorescence is classified using the apex's growth pattern and the order of flower development (acropetal vs basipetal).",
+   "textbook_ref": "kebo105.txt lines 176-195",
+   "question_patterns": [
+    "differentiate between racemose and cymose inflorescence",
+    "what is meant by acropetal succession of flowers",
+    "define inflorescence and state its main types",
+    "how does the main axis behave in a cymose inflorescence"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze main axis growth",
+     "explain": "Determine if the main axis continues growing indefinitely (racemose) or terminates in a flower (cymose)."
+    },
+    {
+     "step": 2,
+     "action": "Identify the order of flower development",
+     "explain": "Check if flowers are borne in acropetal succession (racemose) or basipetal order (cymose)."
+    }
+   ]
+  },
+  {
+   "id": "kebo.5.7",
+   "title": "Flower Symmetry and Whorls",
+   "section": "5.5",
+   "definition": "In brief, the organization of a flower into calyx, corolla, androecium, and gynoecium, and its classification by symmetry (actinomorphic, zygomorphic, or asymmetric).",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "In brief, In brief, In brief, Flowers are indeed reproductive shoots with distinct symmetry planes and four concentric whorls of appendages.",
+   "textbook_ref": "kebo105.txt lines 196-225",
+   "question_patterns": [
+    "define actinomorphic and zygomorphic flowers with examples",
+    "what are the accessory and reproductive organs of a flower",
+    "classify the symmetry of a pea flower",
+    "what is a perianth and in which flower is it found"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze the symmetry",
+     "explain": "Determine if the flower has radial symmetry (actinomorphic), bilateral symmetry (zygomorphic), or is asymmetric."
+    },
+    {
+     "step": 2,
+     "action": "Identify the whorls present",
+     "explain": "Identify calyx, corolla, androecium, and gynoecium, noting if calyx and corolla are fused into a perianth."
+    }
+   ]
+  },
+  {
+   "id": "kebo.5.8",
+   "title": "Ovary Position on Thalamus",
+   "section": "5.5",
+   "definition": "In brief, In brief, the calyx's relative positioning, corolla, and androecium with respect to the ovary on the thalamus, determining whether the ovary is superior, half-inferior, or inferior.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Ovary position relative to other floral parts on the receptacle determines the flower's classification as hypogynous, perigynous, or epigynous.",
+   "textbook_ref": "kebo105.txt lines 226-245",
+   "question_patterns": [
+    "explain hypogynous, perigynous, and epigynous flowers with examples",
+    "what is a superior ovary and in which plants is it found",
+    "classify the ovary position of a guava flower",
+    "describe the characteristics of a perigynous flower"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the position of the gynoecium relative to other parts",
+     "explain": "Observe if the gynoecium is at the highest position, in the center at the same level, or enclosed below other parts."
+    },
+    {
+     "step": 2,
+     "action": "Classify the flower and ovary",
+     "explain": "Classify as hypogynous (superior ovary), perigynous (half-inferior), or epigynous (inferior ovary)."
+    }
+   ]
+  },
+  {
+   "id": "kebo.5.9",
+   "title": "Aestivation and Placentation Patterns",
+   "section": "5.5.1",
+   "definition": "In brief, In brief, In brief, In brief, the arrangement of sepals/petals in a floral bud (valvate, twisted, imbricate, vexillary) and the arrangement of ovules inside the ovary (marginal, axile, parietal, free central, basal).",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Aestivation describes the folding of perianth parts, while placentation describes how ovules attach to the ovary wall or axis.",
+   "textbook_ref": "kebo105.txt lines 246-310",
+   "question_patterns": [
+    "define aestivation and describe its main types",
+    "explain the different types of placentation with diagrams or examples",
+    "what type of placentation is found in pea plants",
+    "describe vexillary aestivation in papilionaceous flowers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine the aestivation type",
+     "explain": "Observe the overlapping pattern of sepals or petals (valvate, twisted, imbricate, or vexillary)."
+    },
+    {
+     "step": 2,
+     "action": "Determine the placentation type",
+     "explain": "Identify where ovules attach inside the ovary (marginal, axile, parietal, free central, or basal)."
+    }
+   ]
+  },
+  {
+   "id": "kebo.5.10",
+   "title": "Structure of Fruits and Seeds",
+   "section": "5.6",
+   "definition": "The anatomy of a mature fertilised ovary (fruit) consisting of pericarp (epicarp, mesocarp, endocarp) and the structure of both dicotyledonous and monocotyledonous seeds.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Fruits protect seeds and aid in dispersal, while seeds contain the embryo, cotyledons, and sometimes endosperm.",
+   "textbook_ref": "kebo105.txt lines 311-365",
+   "question_patterns": [
+    "describe the parts of a drupe fruit like mango or coconut",
+    "distinguish between dicotyledonous and monocotyledonous seeds",
+    "what is the function of the aleurone layer in monocot seeds",
+    "define endospermic and non-endospermic seeds with examples"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze fruit structure",
+     "explain": "Identify the pericarp layers: outer epicarp, middle mesocarp (fleshy or fibrous), and inner endocarp (stony in drupes)."
+    },
+    {
+     "step": 2,
+     "action": "Analyze seed structure",
+     "explain": "Examine the embryo, cotyledon count (one in monocots, two in dicots), and presence of endosperm."
+    }
+   ]
+  },
+  {
+   "id": "kebo.5.11",
+   "title": "Semi-Technical Description and Floral Formula",
+   "section": "5.8",
+   "definition": "The symbolic representation of floral features using standard abbreviations (Br, K, C, P, A, G) and geometric diagrams showing whorl arrangements.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Floral formulas and diagrams compactly represent the symmetry, sexuality, cohesion, and adhesion of floral parts.",
+   "textbook_ref": "kebo105.txt lines 366-395",
+   "question_patterns": [
+    "what do the symbols K, C, A, and G represent in a floral formula",
+    "how is a superior ovary represented in a floral formula",
+    "explain the meaning of brackets around numbers in a floral formula",
+    "write the floral formula of the family Solanaceae"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Decode the symbols",
+     "explain": "Interpret Br (bracteate), K (calyx), C (corolla), P (perianth), A (androecium), and G (gynoecium)."
+    },
+    {
+     "step": 2,
+     "action": "Interpret modifiers and relationships",
+     "explain": "Identify superior ovary (line under G), fusion (brackets around numbers), and adhesion (line above symbols)."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebo105.txt lines 226-245",
+   "concept": "kebo.5.8",
+   "question_type": "verify_property",
+   "question_pattern": "Identify the position of the ovary and the type of flower in {plant_name} where the gynoecium occupies the highest position while other parts are situated below it.",
+   "extracted_variables": {
+    "plant_name": "mustard"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the position of the gynoecium relative to other parts",
+     "explain": "In mustard, the gynoecium occupies the highest position on the thalamus, while the calyx, corolla, and androecium are situated below it."
+    },
+    {
+     "step": 2,
+     "action": "Classify the flower and ovary",
+     "explain": "Since other parts are below the gynoecium, the flower is hypogynous and the ovary is superior."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kebo105.txt lines 246-310",
+   "concept": "kebo.5.9",
+   "question_type": "verify_property",
+   "question_pattern": "Determine the type of placentation in {plant_name} where the ovules are attached to a central axis in a multilocular ovary.",
+   "extracted_variables": {
+    "plant_name": "tomato"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Determine the placentation type",
+     "explain": "In tomato, the placenta is axial and the ovules are attached to it in a multilocular ovary, which corresponds to axile placentation."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "kebo105.txt lines 400-420",
+   "questions": [
+    "How is a pinnately compound leaf different from a palmately compound leaf?",
+    "Explain with suitable examples the different types of phyllotaxy.",
+    "Define the following terms: (a) aestivation (b) placentation (c) actinomorphic (d) zygomorphic (e) superior ovary (f) perigynous flower (g) epipetalous stamen",
+    "Differentiate between (a) Racemose and cymose inflorescence (b) Apocarpous and syncarpous ovary",
+    "Draw the labelled diagram of the following: (i) gram seed (ii) V.S. of maize seed",
+    "Take one flower of the family Solanaceae and write its semi-technical description. Also draw their floral diagram.",
+    "Describe the various types of placentations found in flowering plants.",
+    "What is a flower? Describe the parts of a typical angiosperm flower.",
+    "Define the term inflorescence. Explain the basis for the different types inflorescence in flowering plants.",
+    "Describe the arrangement of floral members in relation to their insertion on thalamus."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

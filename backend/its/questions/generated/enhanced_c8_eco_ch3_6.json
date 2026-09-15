@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch3_6",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch3_6",
+   "title": "c8_eco_ch3_6",
+   "questions": [
+    {
+     "q": "What are urban utilities, and what are two primary economic functions they perform in a city?",
+     "a": "Urban utilities are essential public services provided to city residents and businesses, including electricity supply, piped water, sewage disposal, and solid waste management. Economically, they (1) lower production costs for urban businesses by providing bulk, cheap input resources, and (2) maintain public health, which prevents lost labor productivity due to disease. \n*If a student only mentions household conveniences (like taking a shower or running a fan), it reveals a failure to recognize utilities as critical economic capital inputs that directly sustain labor productivity and industrial output.*",
+     "self_check": true
+    },
+    {
+     "q": "Why does investing in high-capacity public mass transit (such as a Metro Rail) create higher economic efficiency in a crowded city than expanding roads for private cars?",
+     "a": "Mass transit carries significantly more passengers per square meter of road space per hour than private cars, drastically reducing traffic congestion, transit times, fuel consumption, and carbon emissions across the entire urban economy. \n*If a student answers that private cars are more economically efficient because they offer door-to-door convenience, they miss the concept of negative economic externalities (traffic jams, air pollution, space wastage) that private vehicles impose on high-density urban areas.*",
+     "self_check": true
+    },
+    {
+     "q": "A worker commutes 15 km to work daily. \n- Option A (Bus): Ticket costs ₹25; travel time is 80 minutes. \n- Option B (Metro): Ticket costs ₹50; travel time is 20 minutes. \n\nIf the worker values their time at ₹100 per hour, calculate the total economic cost (explicit fare + implicit time cost) for both options. Which transport mode is economically cheaper for this worker?",
+     "a": "**Working:**\n1. Calculate Option A (Bus) time cost: (80 / 60) hours * ₹100/hour = 1.333 hours * ₹100 = ₹133.33.\n2. Total Cost Option A = Ticket (₹25) + Time Cost (₹133.33) = **₹158.33**.\n3. Calculate Option B (Metro) time cost: (20 / 60) hours * ₹100/hour = 0.333 hours * ₹100 = ₹33.33.\n4. Total Cost Option B = Ticket (₹50) + Time Cost (₹33.33) = **₹83.33**.\n5. Compare: Option B (Metro) is economically cheaper by ₹75.00.\n\n*If a student incorrectly selects the Bus simply because the ₹25 fare is lower than ₹50, it reveals that they confuse explicit monetary outlay with total economic cost (which includes the opportunity cost of time).*",
+     "self_check": true
+    },
+    {
+     "q": "How does high-speed fiber-optic communication infrastructure lower economic \"transaction costs\" for a commercial bank operating in an urban area?",
+     "a": "High-speed internet allows instant digital money transfers, real-time data processing, and online loan approvals, eliminating physical paperwork, travel to branch offices, and long processing delays. \n*If a student states that internet only benefits office staff communication, they fail to analyze communication infrastructure as a core input that speeds up financial velocity and lowers operational overheads across markets.*",
+     "self_check": true
+    },
+    {
+     "q": "City X spends ₹500 Crore building an elevated road flyover strictly for private vehicles. City Y spends ₹500 Crore laying underground drainage networks and dedicated bus rapid transit (BRT) lanes. Evaluate which city will experience better long-term economic growth, justifying your answer.",
+     "a": "City Y will achieve far better long-term economic growth. Dedicated BRT lanes serve a much larger percentage of the workforce efficiently, reducing commute times for all income levels, while underground drainage prevents costly urban flooding that damages property and halts business activity. In contrast, City X's flyover encourages more private cars (\"induced demand\"), leading to renewed traffic bottlenecks without solving systemic urban disruptions.\n*If a student chooses City X, it reveals a misunderstanding of how equitable access to transport and basic utility resiliency drive sustained macro-economic productivity compared to isolated road construction.*",
+     "self_check": true
+    },
+    {
+     "q": "Propose a integrated municipal infrastructure plan for a new suburban satellite town experiencing rapid population growth, specifying one solution for transport, one for communication, and one for utilities.",
+     "a": "A strong proposal must include:\n1. **Transport**: A unified multimodal transport hub linking electric feeder buses directly to a commuter rail grid to minimize reliance on private fossil-fuel vehicles.\n2. **Communication**: Underground utility ducts carrying high-speed optical fiber backbones throughout the township to enable digital services and smart grid monitoring.\n3. **Utilities**: A dual-pipe municipal water supply system (drinking water in one line, treated recycled wastewater for toilets/gardening in the other) alongside solar-assisted power mini-grids.\n*A weak answer lists isolated items without connecting them to urban integration or economic sustainability.*",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_10_013",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_10_013",
+   "title": "c12_eng_k_cbse_10_013",
+   "questions": [
+    {
+     "q": "Define \"interpretation\" in literary analysis and explain how it differs from \"summary\" or \"personal opinion.\"",
+     "a": "Interpretation is an evidence-based argument about what a text *means* and *how* it achieves that meaning, grounded in specific textual patterns (imagery, syntax, structure). A summary only recounts *what happens*; a personal opinion states *how I feel* without textual warrant. A wrong answer (e.g., \"Interpretation is just your view of the poem\") reveals the student conflates subjectivity with analysis, a critical error in board exams where marks are awarded for *textually supported* reasoning, not unsupported assertions.",
+     "self_check": true
+    },
+    {
+     "q": "In the first poem, the Sun is referred to with capitalized pronouns (\"Himself,\" \"His\"). A student writes: \"Dickinson capitalizes 'His' to show respect for the Sun god.\" Explain why this interpretation is incomplete and what textual evidence complicates it.",
+     "a": "Capitalization here does not merely signal reverence; it personifies the Sun as an autonomous, capricious landowner (\"Estates of Cloud,\" \"whim of His\") who *chooses* to reveal or hide himself. The phrase \"As if Himself were optional\" suggests the Sun's presence is not a divine constant but a contingent act. A student missing the \"optional\"/\"whim\" nuance fails to see Dickinson's subversion of traditional nature poetry where the sun is a reliable, benevolent force — a misconception that flattens the poem's tension between order and arbitrariness.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"defamiliarization\" (making the familiar strange) to the image \"Bright Flowers slit a Calyx / And soared upon a Stem / Like Hindered Flags – Sweet hoisted – / With Spices – in the Hem –\" (second poem). Explain how the similes transform the biological process of blooming.",
+     "a": "Step 1: Identify the literal process — flowers opening (slitting calyx, rising on stem). Step 2: Analyze the first simile — \"Like Hindered Flags\" implies resistance, struggle, and deliberate unfurling, not passive growth. Step 3: Analyze the second — \"Sweet hoisted / With Spices – in the Hem –\" evokes a ceremonial raising of a banner, carrying fragrance like a hidden cargo. Step 4: Synthesize — the similes recast blooming as an intentional, almost military or ritualistic act, stripping away botanical familiarity to reveal effort and pageantry. A wrong answer that only identifies the similes without explaining their *transformative effect* shows the student can spot devices but cannot analyze their interpretive consequence.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of sound in both poems. The first poem mentions \"a Tune,\" \"Psalteries,\" \"Enamoring the Ear\"; the second has \"gossiped,\" \"charmed,\" and the implied silence of the \"careless\" Bird. Analyze how sound functions differently in each poem's portrayal of nature.",
+     "a": "In Poem 1, sound is *structured* and *musical* (\"Psalteries of Summer\" — a psaltery is a harp-like instrument), suggesting nature as a composed, harmonious performance that \"never yet did satisfy\" — the music is beautiful but incomplete, mirroring the Sun's intermittent presence. In Poem 2, sound is *casual* and *social* (\"gossiped in the Lane,\" \"charmed a Snake\") — nature communicates informally, even deceptively (the Snake is \"charmed\"). The contrast: Poem 1 presents nature as an aesthetic spectacle with elusive perfection; Poem 2 presents nature as a neighborhood of indifferent, self-absorbed actors. A student who only lists sound words without contrasting their *tonal implications* misses the interpretive shift from sublime to mundane.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Dickinson's dashes are merely a stylistic quirk; removing them would not change the poems' meaning.\" Defend your judgment with evidence from both poems.",
+     "a": "The claim is false. In Poem 1, dashes in \"The Trees like Tassels hit – and – swung –\" create a visual and rhythmic mimicry of the trees' jerky, wind-driven motion — each dash a pause like a branch caught mid-swing. In \"Far Psalteries of Summer – / Enamoring the Ear –\", the dashes isolate the musical image, letting it resonate. In Poem 2, \"A Bird sat careless on the fence – / One gossiped in the Lane\" — the dash after \"fence\" creates a caesura that emphasizes the Bird's stillness before the human-like \"gossiped\" disrupts it. Removing dashes collapses these rhythmic enactments into flat prose. A student agreeing with the claim reveals a fundamental misunderstanding: they see punctuation as decorative rather than *performative* — a costly error in board questions on \"poet's craft.\"",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-line stanza in Dickinson's style (unconventional capitalization, dashes, compressed imagery) that re-imagines a monsoon afternoon in an Indian city. Use at least two capitalized nouns as personified entities.",
+     "a": "Example criteria for a strong answer: (1) Dashes used to control pacing/fragmentation, (2) Capitalized nouns acting as agents (e.g., \"The Rain – / A sudden Landlord – / Demanding Rent from Rooftops –\"), (3) Compressed, startling imagery (not just \"rain falls hard\"), (4) Tone of wonder mixed with unease. A weak answer (e.g., standard sentence with random capitals) shows the student cannot internalize the *function* of Dickinson's innovations — they mimic form without grasping how form *generates* meaning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

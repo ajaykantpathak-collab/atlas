@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_03_011",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_03_011",
+   "title": "c11_hin_ar_cbse_03_011",
+   "questions": [
+    {
+     "q": "Identify the grammatical term for the verb form \"बैठ गया\" in the sentence \"वीं खटिया पर बैठ गया\" and state its aspectual value.",
+     "a": "**Answer:** Compound verb (संयुक्त क्रिया) — \"बैठ\" (main verb) + \"गया\" (vector verb); aspectual value: **perfective completive** (कार्य समाप्ति बोधक), indicating the action is viewed as a bounded, completed event with a resultant state.  \n**Wrong-answer diagnosis:** If a student labels it simply \"past tense\" or \"simple verb\", they miss the vector verb's role in adding *telicity* (endpoint focus). This reveals a middle-school habit of treating all past forms as monolithic, ignoring the aspectual layering critical for Class 11 textual analysis.",
+     "self_check": true
+    },
+    {
+     "q": "In the passage, the narrator uses \"वीं\" for the grandmother but \"आप\" for the village elders. Explain in your own words what this honorific shift reveals about the narrator's perceived social distance and emotional intimacy.",
+     "a": "**Answer:** \"वीं\" (a dialectal, affectionate contraction of \"वीं/दादी\") signals **zero social distance + high intimacy** — it is a family-specific lexeme. \"आप\" marks **formal respect + social distance** toward non-kin elders. The shift shows the narrator code-switches between *intimate kinship register* and *public deference register*, mirroring the dual world of the text (home vs. village).  \n**Wrong-answer diagnosis:** If a student says \"both mean respect\" or \"वीं is just a nickname\", they conflate *politeness* with *intimacy* and miss the sociolinguistic indexing of relationships — a common error when students map Hindi honorifics onto a binary \"formal/informal\" instead of a multidimensional grid (power, solidarity, affect).",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the sentence \"वीं ने खाना खा लिया\" replacing the compound verb with a simple verb. Then explain how the meaning changes regarding the narrator's focus on the *process* vs. *completion* of eating.",
+     "a": "**Rewritten:** \"वीं ने खाना खाया।\"  \n**Explanation:** \"खा लिया\" (perfective completive) foregrounds **completion and resultant satisfaction** — the meal is *finished*, implying Vee's appetite is met. \"खाया\" (simple perfective) merely states the **occurrence** of eating without emphasizing closure. In the text, the compound form underscores the narrator's attentive caregiving gaze: he *notices* the empty plate, the ritual concluded.  \n**Wrong-answer diagnosis:** If a student claims \"no difference\" or only notes \"emphasis\", they lack the aspectual distinction between *event quantification* (completive) and *event reporting* (perfective). This is a senior-secondary error where aspect is reduced to \"intensity\" rather than *viewpoint on time*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the narrative prose (\"मैंने देखा...\") with the reported dialogue (\"वीं बोली, 'बेटा, पानी लाओ'\"). Analyze **two** syntactic differences (e.g., sentence type, pronoun, verb mood) and argue how they construct distinct *voices* for narrator vs. character.",
+     "a": "**Answer:**  \n1. **Sentence type & mood:** Narrative uses declarative perfective (\"देखा\", \"गया\"); dialogue uses imperative (\"लाओ\") and vocative (\"बेटा\").  \n2. **Pronoun system:** Narrator = first-person \"मैं\"; Vee = second-person \"तुम/आप\" embedded in her speech, but third-person \"वीं\" in narration.  \n**Effect:** The narrator's voice is **retrospective, observational, controlled**; Vee's voice is **immediate, directive, affective**. The syntax enacts the gap between *remembering* and *living*.  \n**Wrong-answer diagnosis:** Listing differences without linking to *voice construction* (e.g., \"one is past, one is command\") shows surface-level comparison. Senior analysis requires connecting form to *narrative function*: how grammar allocates authority, temporality, and empathy.",
+     "self_check": true
+    },
+    {
+     "q": "The text uses \"ड्योढ़ी\" (threshold) and \"किवाड़\" (door) instead of standard \"देहली\" and \"दरवाज़ा\". Evaluate the author's decision: does this lexical choice *enhance* or *alienate* a non-rural reader? Justify with two textual arguments.",
+     "a": "**Answer:** **Enhances** — (1) **Sensory precision**: \"ड्योढ़ी\" evokes the raised, sacred threshold of a traditional courtyard house (where rituals occur), while \"देहली\" is generic. (2) **Cultural indexing**: These words anchor the narrative in a specific **Avadhi-rural lifeworld**; replacing them with standard Hindi would erase the *material culture* the story preserves. The glossary footnotes mitigate alienation, turning opacity into invited learning.  \n**Wrong-answer diagnosis:** \"Alienates because difficult\" reflects a reader-response fallacy — judging by *immediate comprehension* rather than *aesthetic function*. Senior students must evaluate lexical choice against *authorial intent* (here: ethnographic fidelity), not personal convenience.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-line micro-scene (prose or dialogue) set in the same household, using **at least two** dialect words from the glossary (e.g., \"बाँस\", \"खटिया\", \"ओझल\") and **one** compound verb, such that the grammar *shows* (not tells) a grandparent-grandchild bond.",
+     "a": "**Sample answer:**  \n\"अम्मा खटिया पर लेट गयीं, बाँस की टेक से सिर टिकाए।  \n'पानी ला, बेटा,' बोलीं, आँखें मूँदे।  \nमैं दौड़ गया, लोटा भर लाया —  \nउन्होंने पी लिया, तृप्त हो गयीं।\"  \n**Criteria for good answer:** (a) Dialect words used naturally, not forced; (b) Compound verb (\"लेट गयीं\", \"पी लिया\", \"तृप्त हो गयीं\") marks completive care; (c) Imperative + vocative (\"बेटा\") + zero honorific in grandchild's action (\"दौड़ गया\") mirrors text's intimacy grammar.  \n**Poor answer reveals:** Using dialect as decoration (\"The खटिया was brown\"), missing compound verbs, or flattening honorifics — shows inability to *transfer* analytical insights into creative syntax.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

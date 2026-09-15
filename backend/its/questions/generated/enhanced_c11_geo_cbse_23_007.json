@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_23_007",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_23_007",
+   "title": "c11_geo_cbse_23_007",
+   "questions": [
+    {
+     "q": "Define a conical projection and state the geometric condition that defines the 'standard parallel' in the tangent case.",
+     "a": "A conical projection projects the globe onto a cone tangent along one standard parallel (or secant along two), which is then unfolded. The standard parallel is the parallel of latitude where the cone touches the globe; it becomes a circular arc on the map with zero distortion (scale factor = 1). A wrong answer (e.g., \"standard parallel is the equator\" or \"cone touches at the poles\") reveals confusion with cylindrical or zenithal projections and misunderstanding of the developable surface geometry.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a simple conical projection with one standard parallel is more suitable for mapping India than a Mercator projection, referencing the pattern of scale distortion along meridians and parallels.",
+     "a": "Mercator is conformal but scale increases infinitely toward poles (sec φ), causing massive area exaggeration in northern India (37°N). Simple conical projection has true scale only along the standard parallel (e.g., 24°N); scale increases away from it but remains moderate within ±10°–15° of the standard parallel, keeping overall distortion low for India's latitudinal span (8°N–37°N). A wrong answer focusing only on \"shape preservation\" or \"straight meridians\" without comparing scale factor variation reveals inability to evaluate distortion distribution relative to the region's geometry.",
+     "self_check": true
+    },
+    {
+     "q": "A simple conical projection is constructed for a Reduced Earth of radius R = 5 cm with standard parallel at 30°N. Calculate: (a) the radius of the standard parallel on the developed map (r₃₀); (b) the slant height of the cone from apex to standard parallel (L₃₀); (c) the radius of the 10°N parallel on the map (r₁₀). Show all steps.",
+     "a": "(a) r₃₀ = R cot φ₀ = 5 × cot 30° = 5 × √3 ≈ 8.66 cm. (b) L₃₀ = R csc φ₀ = 5 × csc 30° = 5 × 2 = 10 cm. (c) r₁₀ = L₃₀ - R (φ₀ - φ) in radians? Wait: distance along meridian on globe from 30°N to 10°N = R × Δφ (radians) = 5 × (20° × π/180) = 5 × 0.349 = 1.745 cm. On map, r₁₀ = L₃₀ - 1.745 = 10 - 1.745 = 8.255 cm. (Alternatively, r_φ = R (cot φ₀ + φ₀ - φ) in radians). A wrong answer using degrees directly in the meridian distance (e.g., 5 × 20 = 100 cm) reveals failure to convert angular distance to radians for linear measurement on the Reduced Earth.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the distortion distribution in a simple conical projection (one standard parallel) versus a secant conical projection (two standard parallels, e.g., 18°N and 30°N) for a region spanning 8°N–37°N. Which projection would you recommend for a general-purpose map of India and why?",
+     "a": "Simple conical: scale factor = 1 only at 24°N (if chosen); scale < 1 (shrinking) between standard parallel and equator, > 1 (stretching) poleward. Secant conical: scale factor = 1 at both 18°N and 30°N; scale < 1 between them, > 1 outside. For India (8°N–37°N), secant with standard parallels at ~18°N and 30°N confines maximum scale error to ~±1.5% within the region, while simple conical with one standard parallel at 24°N gives ~+4% at 37°N and -3% at 8°N. Recommend secant conical for balanced distortion. A wrong answer choosing simple conical \"because it's simpler\" or placing standard parallels at extremes (8°N, 37°N) reveals misunderstanding of Chebyshev's minimax principle for distortion optimization.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Conical projections are ideal for mapping the entire continent of Asia because they preserve shape and area reasonably well across all latitudes.\" Provide a reasoned geographical judgment.",
+     "a": "The statement is false. Asia spans ~10°N to 77°N (including Arctic islands) – a 67° latitudinal range. Conical projections (even secant) are designed for limited latitudinal zones (typically ≤ 30°–40°). At high latitudes (Siberia > 60°N), scale distortion becomes extreme (scale factor ∝ 1/sin φ near apex), and the cone's apex angle causes severe angular deformation. For continental Asia, a polyconic or azimuthal equidistant projection centered on the continent is preferred. A student agreeing with the statement reveals inability to match projection properties to the geographic extent of the region.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step construction procedure (suitable for a practical geography examination) for a secant conical projection with two standard parallels at φ₁ and φ₂ (φ₁ < φ₂) on a Reduced Earth of radius R. Include formulas for all required radii and the central angle of the developed sector.",
+     "a": "1. Compute R (given). 2. Choose φ₁, φ₂ (e.g., 18°N, 30°N). 3. Radius of φ₁ on map: r₁ = R cot φ₁. 4. Radius of φ₂: r₂ = R cot φ₂. 5. Slant height between φ₁ and φ₂ on cone: L₁₂ = R (csc φ₁ - csc φ₂). 6. Verify r₁ - r₂ = L₁₂. 7. Central angle of sector: θ = (180° × sin φ₁) or sin φ₂? Actually, for secant, the cone constant n = sin φ₁ = sin φ₂? No, n = (sin φ₁ + sin φ₂)/2 for equal-area? Wait, standard Lambert Conformal Conic uses n = sin φ₀ (single) or n = (ln cos φ₁ - ln cos φ₂)/(ln tan(π/4+φ₂/2) - ln tan(π/4+φ₁/2)). For simple geometric secant (equidistant along meridians), the central angle = 360° × sin φ₀ where φ₀ is the standard parallel? Actually, the developed cone's sector angle = 360° × sin φ for a tangent cone at φ. For secant, the cone is not a right circular cone? It's a truncated cone. The central angle is still 360° × sin φ₁? No, the cone's apex angle is determined by the standard parallel where the cone is tangent to the globe. In secant case, the cone cuts the globe; the cone's geometry is defined by the two intersection parallels. The central angle = 360° × sin φ₁? This is a common confusion. The correct approach: The cone's apex semi-angle = 90° - φ₁? Actually, the cone is defined by its intersection with the globe. The developed sector angle = 360° × sin φ where φ is the latitude of the standard parallel for tangent case. For secant, there are two standard parallels; the cone is not a simple right circular cone tangent at one parallel. The Lambert Conformal Conic (secant) uses a cone constant n = sin φ₀ where φ₀ is the latitude of the standard parallel? Wait, Lambert Conformal Conic with two standard parallels has n = sin φ₀ where φ₀ is the \"cone constant\" derived from the two parallels. For the simple geometric secant conical projection (equidistant along meridians), the construction is: Draw two concentric arcs with radii r₁ = R cot φ₁ and r₂ = R cot φ₂. The distance between them along a meridian = R (φ₁ - φ₂) in radians. The sector angle is chosen so that the arc length at φ₁ equals the globe's parallel length: (θ/360) × 2π r₁ = 2π R cos φ₁ → θ = 360° × (R cos φ₁ / r₁) = 360° × sin φ₁. Similarly, using φ₂ gives θ = 360° × sin φ₂. Contradiction! This reveals that a simple geometric secant conical projection cannot have both standard parallels true to scale simultaneously unless it's a specific projection like Lambert Conformal Conic or Albers Equal-Area Conic. The student must recognize this limitation. A good answer identifies this impossibility for a simple geometric construction and names the specific named projections (Lambert, Albers) that resolve it mathematically.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

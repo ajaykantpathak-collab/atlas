@@ -1,0 +1,312 @@
+{
+ "catalog": "catalog_class6_maths_ch108.json",
+ "concepts": [
+  {
+   "id": "fegp.8.1.1",
+   "family": "circle_area",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "circ = 2 * 22 / 7 * 35"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "circ = 22 / 7 * 14"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "area = 22 / 7 * 63 * 63"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "area = 22 / 7 * (147 * 147 - 63 * 63)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "arc = 270 / 360 * 2 * 22 / 7 * 14"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "sector = 90 / 360 * 22 / 7 * 70 * 70"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "fegp.8.1.2",
+   "family": "counting_sets",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 4 * 7"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pairs = 9 * 7"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "subsets = 2 ** 9"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rels = 2 ** (3 * 3)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "ways = 3"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "ways = 24 / (2 * 2)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "fegp.8.2.1",
+   "family": "angle_pairs",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "other = 90 - 24"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "other = 180 - 83"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "other = 180 - 62"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rest = 360 - 57 - 127"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "adj = 180 - 79"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "partner = 180 - 132"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "other = 90 - 24"
+   ]
+  },
+  {
+   "id": "fegp.8.2.2",
+   "family": "squares",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "sq = 21 ** 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 36 * 36"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "count = 2 * 3"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "prod = 5 ** 2 - 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "sq = 58 ** 2",
+      "units = sq % 10"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "big = 15 ** 2 + 1"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "sq = 21 ** 2"
+   ]
+  },
+  {
+   "id": "fegp.8.4.1",
+   "family": "squares",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "sq = 16 ** 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 21 * 21"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "count = 2 * 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "prod = 12 ** 2 - 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "sq = 74 ** 2",
+      "units = sq % 10"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "big = 15 ** 2 + 1"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "fegp.8.5.1",
+   "family": "quad_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "adj = 180 - 80"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "perim = 2 * (4 + 6)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "half = 20 / 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "side = sqrt((20 / 2) ** 2 + (14 / 2) ** 2)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "hyp = sqrt(2 * 12 * 12)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total = 360 - 80 - 80"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "fegp.8.5.2",
+   "family": "quad_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "adj = 180 - 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "perim = 2 * (6 + 10)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "half = 20 / 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "side = sqrt((18 / 2) ** 2 + (6 / 2) ** 2)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "hyp = sqrt(2 * 9 * 9)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total = 360 - 40 - 80"
+     ]
+    }
+   ],
+   "steps_chain": []
+  }
+ ]
+}

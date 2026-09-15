@@ -1,0 +1,494 @@
+{
+ "catalog": "catalog_class8_maths_ch5_squares_square_roots.json",
+ "concepts": [
+  {
+   "id": "c8m5.1.1",
+   "title": "Square Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the square of 26.",
+     "a": "676",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 37 m. What is the number of square metres in its area?",
+     "a": "1369",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 9^2 and 10^2? (Rule: 2 x n)",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 6 x 4.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 35?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 30. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "226",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m5.2.1",
+   "title": "Properties of Square Numbers",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "split the number into digits and apply the rule",
+     "explain": "split the number into digits and apply the rule: diff = 9 * abs(4 - 2) gives 18",
+     "compute": "diff = 9 * abs(4 - 2)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "The digits of the 2-digit number 42 are swapped to make 24. Find the difference between the two numbers using 9 x |a - b|.",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "A 2-digit number and the number formed by reversing its digits add up to 11 x (sum of digits). Find the sum for the number 42.",
+     "a": "66",
+     "self_check": false
+    },
+    {
+     "q": "All cyclic permutations of the 3-digit number with digits 4, 9, 6 are added. The sum equals 111 x (sum of digits). Find it.",
+     "a": "2109",
+     "self_check": false
+    },
+    {
+     "q": "In the 2 x 1 multiplication 70 x 7, the units digit of the answer is what?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "The password trick: multiply the 3-digit number 563 by 1001. Report the thousands digit of the 6-digit result.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "A supercell hunt in the 2-digit world: between 78 and 87, how many of the two numbers are even? (Compute each number's parity count.)",
+     "a": "1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m5.3.1",
+   "title": "Numbers Between Square Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the square of 17.",
+     "a": "289",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 42 m. What is the number of square metres in its area?",
+     "a": "1764",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 9^2 and 10^2? (Rule: 2 x n)",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 5 x 3.",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 41?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 28. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "197",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m5.3.2",
+   "title": "Sum of First n Odd Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Starting from 1, add the first 7 odd numbers: 1 + 3 + 5 + ... What square do you get?",
+     "a": "49",
+     "self_check": false
+    },
+    {
+     "q": "Starting from 1, add the first 8 odd numbers: 1 + 3 + 5 + ... What square do you get?",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "Starting from 1, add the first 10 odd numbers: 1 + 3 + 5 + ... What square do you get?",
+     "a": "100",
+     "self_check": false
+    },
+    {
+     "q": "Add the first 7 odd numbers and report the result as a perfect square value.",
+     "a": "49",
+     "self_check": false
+    },
+    {
+     "q": "Add the first 4 odd numbers and report the result as a perfect square value.",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "Add the first 8 odd numbers and report the result as a perfect square value.",
+     "a": "64",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m5.3.3",
+   "title": "Square as Sum of Two Consecutive Natural Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Starting from 1, add the first 4 odd numbers: 1 + 3 + 5 + ... What square do you get?",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "Starting from 1, add the first 9 odd numbers: 1 + 3 + 5 + ... What square do you get?",
+     "a": "81",
+     "self_check": false
+    },
+    {
+     "q": "Starting from 1, add the first 7 odd numbers: 1 + 3 + 5 + ... What square do you get?",
+     "a": "49",
+     "self_check": false
+    },
+    {
+     "q": "Add the first 6 odd numbers and report the result as a perfect square value.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Add the first 4 odd numbers and report the result as a perfect square value.",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "Starting from 1, add the first 6 odd numbers: 1 + 3 + 5 + ... What square do you get?",
+     "a": "36",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m5.3.4",
+   "title": "Product of Two Consecutive Even or Odd Numbers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the square of 16.",
+     "a": "256",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 48 m. What is the number of square metres in its area?",
+     "a": "2304",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 7^2 and 8^2? (Rule: 2 x n)",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 13 x 11.",
+     "a": "143",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 86?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 26. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "170",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m5.4.1",
+   "title": "Finding the Square of a Number",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the square of 12.",
+     "a": "144",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 22 m. What is the number of square metres in its area?",
+     "a": "484",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 4^2 and 5^2? (Rule: 2 x n)",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 11 x 9.",
+     "a": "99",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 70?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 26. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "170",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m5.4.2",
+   "title": "Pythagorean Triplets",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the square of 22.",
+     "a": "484",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 31 m. What is the number of square metres in its area?",
+     "a": "961",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 4^2 and 5^2? (Rule: 2 x n)",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 12 x 10.",
+     "a": "120",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 79?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 18. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "82",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m5.5.1",
+   "title": "Square Roots",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the square of 31.",
+     "a": "961",
+     "self_check": false
+    },
+    {
+     "q": "A square garden plot has each side 31 m. What is the number of square metres in its area?",
+     "a": "961",
+     "self_check": false
+    },
+    {
+     "q": "How many non-square numbers lie between 8^2 and 9^2? (Rule: 2 x n)",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "Use the identity (a + 1)(a - 1) = a^2 - 1 to find 7 x 5.",
+     "a": "35",
+     "self_check": false
+    },
+    {
+     "q": "What is the units digit of the square of 66?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A Pythagorean triplet starts with 2m = 16. Using the triplet (2m, m^2 - 1, m^2 + 1), find the largest member.",
+     "a": "65",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m5.5.2",
+   "title": "Square Root by Repeated Subtraction",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the square root of 1600.",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "Find the square root of 729.",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "Find the square root of 25.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "The area of a square field is 576 m^2. Find the length of one side.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "In a hall with 784 seats arranged as a perfect square, how many rows are there?",
+     "a": "28",
+     "self_check": false
+    },
+    {
+     "q": "Check whether 144 is a perfect square by taking its square root; report the root if it is a whole number.",
+     "a": "12",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m5.5.3",
+   "title": "Square Root by Prime Factorisation",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two numbers 25 and 10 have HCF 5 with coprime multipliers 5 and 2. Verify by computing hcf = 5 x 1; then find the HCF value.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Find the LCM of 25 and 10 given their HCF is 5 and HCF x LCM = product of the numbers.",
+     "a": "50",
+     "self_check": false
+    },
+    {
+     "q": "The LCM of 25 and 10 is 50. Use HCF x LCM = a x b to find their HCF.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Two ropes of lengths 25 cm and 10 cm are cut into equal pieces of greatest length. What is the length of each piece?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Two bells ring together now. They ring at intervals of 25 minutes and 10 minutes. After how many minutes will they next ring together?",
+     "a": "50",
+     "self_check": false
+    },
+    {
+     "q": "How many multiples of 18 are there up to 96?",
+     "a": "5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m5.5.4",
+   "title": "Square Root by Long Division Method",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the square root of 64.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Find the square root of 25.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Find the square root of 1600.",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "The area of a square field is 144 m^2. Find the length of one side.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "In a hall with 900 seats arranged as a perfect square, how many rows are there?",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "Check whether 1764 is a perfect square by taking its square root; report the root if it is a whole number.",
+     "a": "42",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c8m5.6.1",
+   "title": "Square Roots of Decimals",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the square root of 961.",
+     "a": "31",
+     "self_check": false
+    },
+    {
+     "q": "Find the square root of 900.",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "Find the square root of 361.",
+     "a": "19",
+     "self_check": false
+    },
+    {
+     "q": "The area of a square field is 529 m^2. Find the length of one side.",
+     "a": "23",
+     "self_check": false
+    },
+    {
+     "q": "In a hall with 484 seats arranged as a perfect square, how many rows are there?",
+     "a": "22",
+     "self_check": false
+    },
+    {
+     "q": "Check whether 1600 is a perfect square by taking its square root; report the root if it is a whole number.",
+     "a": "40",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_f_cbse_09_008",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_f_cbse_09_008",
+   "title": "c12_eng_f_cbse_09_008",
+   "questions": [
+    {
+     "q": "Define \"imagery\" and \"metaphor\" in your own words, giving one example of each from everyday language (not from the poem).",
+     "a": "Imagery: Language appealing to senses (e.g., \"The kitchen smelled of frying cumin and onions\" — olfactory). Metaphor: Direct comparison without \"like/as\" (e.g., \"Time is a thief\" — time steals moments). A wrong answer that gives a simile (\"her face *looked like* a corpse\") for metaphor reveals confusion between direct and indirect comparison. A wrong answer that lists only visual details for imagery reveals the misconception that imagery = only visual description.",
+     "self_check": true
+    },
+    {
+     "q": "In the poem, the poet writes: \"her face ashen like that of a corpse\". Is this a metaphor or a simile? Explain why students often mislabel it, and identify the *actual* metaphor involving the mother's face later in the poem.",
+     "a": "It is a **simile** because it uses \"like\". Students mislabel it as metaphor because the comparison is stark and the vehicle (\"corpse\") is shocking, making it *feel* like a direct equation. The actual metaphor appears later: \"wan, pale as a late winter's moon\" — though \"as\" makes it a simile grammatically, the poem's single-sentence flow and the direct attribution of the moon's qualities (wan, pale, distant, dying) to the mother function metaphorically. A wrong answer that calls the first a metaphor shows inability to distinguish explicit comparative markers; missing the second reveals failure to see metaphorical function beyond grammatical form.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"kinetic imagery\" (imagery of movement) to the phrase \"Young Trees sprinting\". Explain how this kinetic image contrasts with the static imagery of the mother, and why the poet chooses \"sprinting\" rather than \"running\" or \"moving\".",
+     "a": "\"Young Trees sprinting\" is kinetic imagery — it conveys rapid, energetic, youthful movement. It contrasts with the mother's static, passive images: \"doze, open mouthed\", \"ashen\", \"wan, pale\". \"Sprinting\" implies short, intense bursts of speed and vitality, mirroring the \"merry children spilling out\" — both represent life at its peak pace. \"Running\" or \"moving\" would lack the connotation of youthful vigour and urgency. A wrong answer that only defines kinetic imagery without contrasting it with the mother's stillness misses the structural purpose. Choosing \"running\" as equivalent shows insensitivity to connotation and diction.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse how the single-sentence structure of the poem (punctuated only by commas) interacts with the imagery and metaphor to create a specific psychological effect. How does the flow of images mirror the poet's thought process?",
+     "a": "The single sentence mimics a continuous, unbroken stream of consciousness — the poet cannot *stop* the thought of ageing, just as she cannot stop the car. The commas act like breaths, each introducing a new image (corpse, sprinting trees, spilling children, airport security, winter moon) that flashes past the mind's eye. The imagery shifts from internal (mother's face) to external (trees, children) and back to internal (moon/mother), mirroring the poet's attempt to distract herself (\"put that thought away\") and the inevitable return of the \"old familiar ache\". The metaphors (corpse, winter moon) are embedded in this flow, not isolated, showing how grief infiltrates ordinary perception. A wrong answer that treats structure and imagery separately fails to see the formal enactment of content.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the \"late winter's moon\" metaphor compared to the \"corpse\" simile. Which conveys the *emotional* truth of the poet's fear more powerfully? Justify with reference to connotations, cultural associations, and the poem's ending.",
+     "a": "The \"late winter's moon\" metaphor is more powerful emotionally. The corpse simile is visceral but clinical — it states a physical resemblance. The winter moon carries layered connotations: waning light, cold, distance, the end of a cycle, beauty in fading, and crucially, *return* (the moon returns each month). This mirrors the poet's \"see you soon, Amma\" — a promise of return that masks the fear of final parting. The moon is also a traditional symbol of the mother/feminine in Indian poetry. The corpse offers no such resonance. A wrong answer that prefers the corpse because it is \"more shocking\" confuses shock value with poetic depth. Ignoring the cultural/lunar symbolism shows lack of contextual literary awareness.",
+     "self_check": true
+    },
+    {
+     "q": "Create a four-line stanza describing an elderly relative using at least two distinct sensory images and one original metaphor (not simile). Do not use any word from the poem.",
+     "a": "Example:  \n*His hands, dry leaves rustling on the blanket's edge,*  \n*Breath humming a low tune through the afternoon,*  \n*Time has folded him into a parchment letter*  \n*Waiting for a stamp that never comes.*  \nImages: tactile (dry leaves), auditory (humming). Metaphor: \"folded him into a parchment letter\" (elderly person = fragile, written-upon, awaiting dispatch). A poor answer uses clichés (\"wrinkled like a prune\" — simile), only visual imagery, or no metaphor. It reveals inability to transfer the skill of device-creation from analysis to synthesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

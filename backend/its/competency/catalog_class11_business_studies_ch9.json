@@ -1,0 +1,597 @@
+{
+ "class": 11,
+ "subject": "business_studies",
+ "chapter": 10,
+ "chapter_title": "Internal Trade",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kebs110.txt",
+ "concepts": [
+  {
+   "id": "c11bs.9.1",
+   "title": "Meaning of Internal Trade",
+   "section": "9.1",
+   "definition": "Internal trade refers to the buying and selling of goods and services within the geographical boundaries of a country, and is also called home trade or domestic trade.",
+   "formula": "",
+   "key_idea": "Internal trade takes place entirely within a country and involves no cross-border movement of goods, so it is free from customs duties and exchange controls.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is meant by internal trade?",
+    "Explain the features of internal trade.",
+    "Why is internal trade also called home trade?",
+    "How does internal trade differ from international trade?",
+    "What role does internal trade play in a country's economy?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define internal trade",
+     "explain": "Internal trade is the purchase and sale of goods and services within the boundaries of a single country, involving only domestic buyers and sellers."
+    },
+    {
+     "step": 2,
+     "action": "State the main features",
+     "explain": "Internal trade uses a single currency, involves no customs duty, has no exchange rate risk, and is governed by the country's own commercial laws."
+    },
+    {
+     "step": 3,
+     "action": "Explain its economic role",
+     "explain": "Internal trade ensures that goods produced in one region reach consumers in other regions, promoting balanced regional development and a unified national market."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is internal trade and why is it called home trade?",
+     "solution": "Internal trade is the buying and selling of goods and services within the boundaries of a country. It is called home trade because all transactions take place inside the home country with no cross-border movement of goods.",
+     "answer": "Internal trade is domestic buying and selling within a country's boundaries."
+    },
+    {
+     "question": "State any three features of internal trade.",
+     "solution": "Internal trade (1) takes place within one country, (2) uses a single national currency, and (3) does not involve customs duty or import-export restrictions.",
+     "answer": "Within one country, single currency, no customs duty."
+    },
+    {
+     "question": "How does internal trade help the economy?",
+     "solution": "Internal trade moves goods from surplus regions to deficit regions, creates employment in distribution, and promotes a unified national market that supports industrial growth.",
+     "answer": "It balances regional supply and demand and builds a unified national market."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define internal trade and explain its main features.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Distinguish between internal trade and international trade.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is internal trade important for a country's economy?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.9.2",
+   "title": "Types of Internal Trade: Wholesale and Retail",
+   "section": "9.2",
+   "definition": "Internal trade is classified into wholesale trade, where goods are bought in bulk from producers and sold in smaller lots to retailers, and retail trade, where goods are sold in small quantities directly to final consumers.",
+   "formula": "",
+   "key_idea": "Wholesale trade links producers to retailers, while retail trade links retailers to final consumers, forming the two-stage distribution chain of internal trade.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the two types of internal trade?",
+    "Distinguish between wholesale trade and retail trade.",
+    "Explain the role of a wholesaler in the distribution chain.",
+    "How does a retailer differ from a wholesaler in terms of customers?",
+    "Why is internal trade divided into wholesale and retail trade?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the two types",
+     "explain": "Internal trade is divided into wholesale trade (bulk purchase from producers and sale to retailers) and retail trade (sale of small quantities to final consumers)."
+    },
+    {
+     "step": 2,
+     "action": "Compare the customers",
+     "explain": "A wholesaler sells to retailers and industrial buyers, whereas a retailer sells directly to the final consumers for personal use."
+    },
+    {
+     "step": 3,
+     "action": "Explain the linkage",
+     "explain": "Wholesalers and retailers are linked in a chain: producer sells to wholesaler, wholesaler to retailer, and retailer to consumer, ensuring goods reach end users efficiently."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Distinguish between wholesale trade and retail trade.",
+     "solution": "Wholesale trade involves buying goods in large quantities from producers and selling them in smaller lots to retailers. Retail trade involves selling goods in small quantities directly to the final consumers. Wholesalers deal in bulk while retailers deal in small quantities.",
+     "answer": "Wholesale = bulk to retailers; retail = small quantities to final consumers."
+    },
+    {
+     "question": "Explain the role of a wholesaler in the distribution chain.",
+     "solution": "A wholesaler buys goods in bulk from producers, stores them, breaks bulk into smaller lots, and supplies them to retailers, thereby bridging the gap between production and retail distribution.",
+     "answer": "A wholesaler links producers to retailers through bulk purchase and onward supply."
+    },
+    {
+     "question": "Why is internal trade divided into wholesale and retail trade?",
+     "solution": "Division into wholesale and retail trade allows specialisation -- wholesalers handle bulk storage and distribution while retailers focus on direct consumer contact, making the distribution process more efficient.",
+     "answer": "Specialisation in bulk handling and consumer service makes distribution efficient."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the two types of internal trade with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does a retailer differ from a wholesaler?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the distribution chain from producer to consumer.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.9.3",
+   "title": "Wholesale Trade",
+   "section": "9.3",
+   "definition": "Wholesale trade refers to the purchase of goods in large quantities from producers or manufacturers and their sale in smaller lots to retailers, industrial users, or other wholesalers.",
+   "formula": "",
+   "key_idea": "Wholesalers act as intermediaries between producers and retailers, providing bulk-breaking, storage, financing, and market information services.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is wholesale trade?",
+    "Explain the functions of a wholesaler.",
+    "How does a wholesaler help a manufacturer?",
+    "What services does a wholesaler provide to retailers?",
+    "Why are wholesalers considered important in the distribution chain?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define wholesale trade",
+     "explain": "Wholesale trade is the purchase of goods in bulk from producers and their resale in smaller quantities to retailers or industrial buyers."
+    },
+    {
+     "step": 2,
+     "action": "List services to manufacturers",
+     "explain": "Wholesalers help manufacturers by bulk buying, providing storage, sharing market information, and sometimes financing by paying in advance."
+    },
+    {
+     "step": 3,
+     "action": "List services to retailers",
+     "explain": "Wholesalers help retailers by supplying goods in small lots, providing credit, bearing risk, and sharing information about new products and trends."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain any four functions of a wholesaler.",
+     "solution": "A wholesaler (1) buys goods in bulk from producers, (2) stores them in warehouses, (3) breaks bulk into smaller lots for retailers, and (4) provides credit and market information to retailers.",
+     "answer": "Bulk buying, storage, bulk-breaking, and credit and information services."
+    },
+    {
+     "question": "How does a wholesaler help a manufacturer?",
+     "solution": "A wholesaler relieves the manufacturer of the need to store large stocks, takes care of distribution to many retailers, provides market feedback, and sometimes finances production by paying in advance.",
+     "answer": "Storage, distribution, market feedback, and financing support to manufacturers."
+    },
+    {
+     "question": "What services does a wholesaler provide to retailers?",
+     "solution": "A wholesaler supplies goods in small quantities as needed, grants credit, bears the risk of price changes and storage, and informs retailers about new products and market trends.",
+     "answer": "Small-lot supply, credit, risk-bearing, and market information for retailers."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the functions and services of a wholesaler.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How does a wholesaler help both manufacturers and retailers?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is bulk-breaking an important function of a wholesaler?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.9.4",
+   "title": "Retail Trade",
+   "section": "9.4",
+   "definition": "Retail trade refers to the sale of goods in small quantities directly to the final consumers for personal or household use, and is the last link in the chain of distribution.",
+   "formula": "",
+   "key_idea": "Retailers are the link between wholesalers or manufacturers and final consumers, and they provide convenience, variety, and personal service to buyers.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is retail trade?",
+    "Explain the functions of a retailer.",
+    "How does a retailer serve the consumer?",
+    "Why is a retailer called the last link in distribution?",
+    "What services does a retailer provide to wholesalers?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define retail trade",
+     "explain": "Retail trade is the sale of goods in small quantities directly to final consumers for personal use, making the retailer the last link in the distribution chain."
+    },
+    {
+     "step": 2,
+     "action": "List services to consumers",
+     "explain": "Retailers provide convenience of location and time, variety of goods, credit facilities, and after-sales service to consumers."
+    },
+    {
+     "step": 3,
+     "action": "List services to wholesalers",
+     "explain": "Retailers help wholesalers by selling small quantities to many consumers, providing market feedback, and promoting products through display and personal selling."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is retail trade and why is it called the last link in distribution?",
+     "solution": "Retail trade is the sale of goods in small quantities directly to final consumers. It is called the last link because goods reach the end user through the retailer and no further intermediary is involved.",
+     "answer": "Retail trade sells directly to consumers, completing the distribution chain."
+    },
+    {
+     "question": "Explain any four services a retailer provides to consumers.",
+     "solution": "A retailer (1) provides goods at convenient locations, (2) offers a variety of products in one place, (3) sells in small quantities as needed, and (4) gives credit and after-sales service.",
+     "answer": "Convenience, variety, small quantities, and credit and after-sales service."
+    },
+    {
+     "question": "How does a retailer help a wholesaler?",
+     "solution": "A retailer collects small orders from many consumers, sells the wholesaler's goods at the local level, provides feedback on consumer preferences, and helps promote new products through display.",
+     "answer": "Local selling, consumer feedback, and product promotion for wholesalers."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the functions and services of a retailer.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is the retailer important for consumers?",
+     "type": "short_answer"
+    },
+    {
+     "question": "How does a retailer support the wholesaler and manufacturer?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.9.5",
+   "title": "Types of Retailers: Street and Fixed Shop",
+   "section": "9.5",
+   "definition": "Retailers are classified into itinerant or street retailers who move from place to place selling goods, and fixed shop retailers who operate from a permanent location.",
+   "formula": "",
+   "key_idea": "Itinerant retailers have no fixed location and sell cheap goods of daily use, while fixed shop retailers operate from permanent premises and may be small or large in scale.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are itinerant retailers? Give examples.",
+    "Explain the types of fixed shop retailers.",
+    "How do street retailers differ from fixed shop retailers?",
+    "What are the features of peddlers and hawkers?",
+    "Classify retailers on the basis of location."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define itinerant retailers",
+     "explain": "Itinerant or street retailers move from place to place selling goods. They include peddlers, hawkers, market traders, and street sellers who deal in low-priced goods of daily use."
+    },
+    {
+     "step": 2,
+     "action": "Define fixed shop retailers",
+     "explain": "Fixed shop retailers operate from a permanent location. They are divided into small-scale fixed shops (general stores, specialty shops, street stall holders) and large-scale fixed shops (departmental stores, chain stores)."
+    },
+    {
+     "step": 3,
+     "action": "Compare the two types",
+     "explain": "Itinerant retailers have low capital and no fixed premises while fixed shop retailers have higher investment and a permanent location, allowing them to offer more variety and stability."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are itinerant retailers? Give two examples.",
+     "solution": "Itinerant retailers are sellers who move from place to place to sell goods without a fixed location. Examples include peddlers who carry goods on cycles or carts and hawkers who sell in residential streets.",
+     "answer": "Itinerant retailers move place to place; examples are peddlers and hawkers."
+    },
+    {
+     "question": "Explain the types of fixed shop retailers.",
+     "solution": "Fixed shop retailers operate from permanent premises and are of two types -- small-scale fixed shops such as general and specialty stores, and large-scale fixed shops such as departmental stores and chain stores.",
+     "answer": "Small-scale (general, specialty) and large-scale (departmental, chain) fixed shops."
+    },
+    {
+     "question": "How do street retailers differ from fixed shop retailers?",
+     "solution": "Street retailers have no fixed location, low capital, and sell cheap daily-use goods, while fixed shop retailers have a permanent premises, higher investment, and offer a wider variety and more reliable service.",
+     "answer": "Street = mobile and low capital; fixed shop = permanent and higher investment."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Classify retailers on the basis of location with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What are the features of peddlers and hawkers?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Distinguish between small-scale and large-scale fixed shop retailers.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.9.6",
+   "title": "Large Scale Retail Trade",
+   "section": "9.6",
+   "definition": "Large scale retail trade refers to retailing through large organisations that operate on a big scale, such as departmental stores, chain stores, mail order houses, and consumer cooperative stores.",
+   "formula": "",
+   "key_idea": "Large scale retailers achieve economies of scale, offer wide variety, and use modern management techniques to serve a large number of customers efficiently.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is large scale retail trade?",
+    "Explain the features of departmental stores.",
+    "What are the advantages of large scale retailing?",
+    "How do chain stores operate?",
+    "Why are large scale retailers able to offer lower prices?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define large scale retail trade",
+     "explain": "Large scale retail trade is conducted by big retail organisations such as departmental stores, chain stores, and mail order houses that operate with high capital and serve many customers."
+    },
+    {
+     "step": 2,
+     "action": "State the features",
+     "explain": "Large scale retailers have high capital, wide product range, centralised management, standardised operations, and the ability to buy directly from producers at lower prices."
+    },
+    {
+     "step": 3,
+     "action": "Explain the advantages",
+     "explain": "They offer economies of scale, lower prices through bulk buying, wider choice, better service, and effective advertising, which small retailers cannot easily match."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is large scale retail trade? Give two examples.",
+     "solution": "Large scale retail trade is retailing by big organisations operating on a large scale. Examples include departmental stores that sell many product lines under one roof and chain stores that operate many branches under central control.",
+     "answer": "Big retail organisations like departmental stores and chain stores."
+    },
+    {
+     "question": "Explain the features of departmental stores.",
+     "solution": "A departmental store is a large retail outlet divided into departments, each selling a different product line, under one roof and central management, offering variety and convenience to customers.",
+     "answer": "Multiple departments, one roof, central management, wide variety."
+    },
+    {
+     "question": "Why are large scale retailers able to offer lower prices?",
+     "solution": "Large scale retailers buy in bulk directly from producers, enjoy economies of scale in storage and distribution, and spread fixed costs over large sales, allowing them to charge lower prices than small retailers.",
+     "answer": "Bulk buying, economies of scale, and lower per-unit cost enable lower prices."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain large scale retail trade and its features.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What are the advantages of large scale retailing?",
+     "type": "short_answer"
+    },
+    {
+     "question": "How do chain stores operate?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.9.7",
+   "title": "Mail Order Retailing",
+   "section": "9.7",
+   "definition": "Mail order retailing is a form of non-store retailing in which goods are advertised through catalogues, newspapers, or the internet and delivered to customers by post or courier on receipt of an order.",
+   "formula": "",
+   "key_idea": "Mail order retailing eliminates the need for a physical shop, reaching customers directly through advertising and postal delivery, and is suitable for goods that can be described easily.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is mail order retailing?",
+    "Explain the features of mail order business.",
+    "What are the advantages of mail order retailing?",
+    "Which goods are suitable for mail order business?",
+    "What are the limitations of mail order retailing?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define mail order retailing",
+     "explain": "Mail order retailing is a non-store retail method where goods are promoted through catalogues or advertisements and delivered to customers by post on receipt of orders and payment."
+    },
+    {
+     "step": 2,
+     "action": "State the features and suitable goods",
+     "explain": "It needs no physical shop, relies on wide advertising, and is suitable for goods that are light, durable, easy to describe, and have uniform quality such as books, cosmetics, and small appliances."
+    },
+    {
+     "step": 3,
+     "action": "Explain advantages and limitations",
+     "explain": "Advantages include low overhead cost and wide reach; limitations include no personal inspection, delivery delay, and difficulty in handling returns or complaints."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is mail order retailing and how does it operate?",
+     "solution": "Mail order retailing sells goods without a physical shop by advertising them through catalogues or newspapers. Customers place orders by post or online, and goods are delivered to their doorstep by post or courier.",
+     "answer": "Non-store retailing through catalogue advertising and postal delivery."
+    },
+    {
+     "question": "Which goods are suitable for mail order business?",
+     "solution": "Goods suitable for mail order are light in weight, durable, easy to describe in print, reasonably priced, and of uniform quality, such as books, cosmetics, and small electronic items.",
+     "answer": "Light, durable, easy-to-describe goods of uniform quality."
+    },
+    {
+     "question": "State two advantages and two limitations of mail order retailing.",
+     "solution": "Advantages are low overhead cost and wide reach without a shop. Limitations are that customers cannot inspect goods before purchase and there is delay in delivery and difficulty in returns.",
+     "answer": "Advantages: low cost, wide reach; limitations: no inspection, delayed delivery."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain mail order retailing, its features, and suitability.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What are the advantages of mail order retailing?",
+     "type": "short_answer"
+    },
+    {
+     "question": "State the limitations of mail order retailing.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.9.8",
+   "title": "Chain Stores",
+   "section": "9.8",
+   "definition": "Chain stores are a group of retail outlets owned by a single organisation, selling similar product lines, operating under central management and a uniform brand, and located in different areas.",
+   "formula": "",
+   "key_idea": "Chain stores achieve economies of scale through bulk buying, centralised management, and standardised operations across multiple branches under one brand.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are chain stores?",
+    "Explain the features of chain stores.",
+    "What are the advantages of chain stores?",
+    "How do chain stores differ from departmental stores?",
+    "Why are chain stores able to maintain uniform prices?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define chain stores",
+     "explain": "Chain stores are multiple retail outlets owned by one organisation, selling the same type of goods under a common brand, and managed centrally from a head office."
+    },
+    {
+     "step": 2,
+     "action": "State the features",
+     "explain": "Chain stores have central purchasing, uniform pricing, standardised layout, common branding, and central control over all branches, ensuring consistency across locations."
+    },
+    {
+     "step": 3,
+     "action": "Explain the advantages",
+     "explain": "Chain stores benefit from bulk buying discounts, economies of scale, brand recognition, efficient stock management, and the ability to spread risk across many locations."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are chain stores? Give one example.",
+     "solution": "Chain stores are a number of retail shops owned and operated by a single organisation, selling similar goods under one brand in different locations. An example is a chain of grocery stores run by one company across several cities.",
+     "answer": "Multiple outlets under one owner and brand with central management."
+    },
+    {
+     "question": "How do chain stores differ from departmental stores?",
+     "solution": "Chain stores are many shops of the same organisation in different locations selling one product line, while a departmental store is a single large shop divided into many departments selling different product lines under one roof.",
+     "answer": "Chain = many shops, one product line; departmental = one shop, many product lines."
+    },
+    {
+     "question": "Why are chain stores able to maintain uniform prices?",
+     "solution": "Chain stores buy goods centrally in bulk, follow standardised pricing set by head office, and use uniform branding, which allows them to charge the same price across all branches.",
+     "answer": "Central buying and standardised pricing ensure uniform prices across branches."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain chain stores, their features, and advantages.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Distinguish between chain stores and departmental stores.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why are chain stores able to offer lower prices?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11bs.9.9",
+   "title": "Role of Chambers of Commerce",
+   "section": "9.9",
+   "definition": "Chambers of commerce are voluntary, non-profit associations of business people and firms formed to protect and promote the interests of trade, commerce, and industry in a region or country.",
+   "formula": "",
+   "key_idea": "Chambers of commerce act as a bridge between business and government, safeguard business interests, collect and disseminate trade information, and promote fair trade practices.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is a chamber of commerce?",
+    "Explain the functions of chambers of commerce.",
+    "How do chambers of commerce help business firms?",
+    "What role do chambers of commerce play in promoting trade?",
+    "Why are chambers of commerce called non-profit associations?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define chambers of commerce",
+     "explain": "A chamber of commerce is a voluntary association of traders, manufacturers, and business firms working to protect and promote the interests of trade, commerce, and industry."
+    },
+    {
+     "step": 2,
+     "action": "List the main functions",
+     "explain": "Chambers of commerce collect and publish trade information, represent business interests to the government, promote fair trade practices, settle disputes, and organise trade fairs and exhibitions."
+    },
+    {
+     "step": 3,
+     "action": "Explain their role",
+     "explain": "They act as a bridge between business and government, advise on commercial policy, support new entrepreneurs, and help create a favourable environment for internal and external trade."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is a chamber of commerce and what are its main functions?",
+     "solution": "A chamber of commerce is a voluntary non-profit association of business people that protects and promotes trade interests. Its functions include collecting trade information, representing business to government, promoting fair practices, and organising trade fairs.",
+     "answer": "A voluntary business association that protects trade interests and links business with government."
+    },
+    {
+     "question": "How do chambers of commerce help business firms?",
+     "solution": "They provide market information, represent firms' problems to the government, settle trade disputes, promote fair practices, and create networking opportunities through meetings and trade events.",
+     "answer": "Information, representation, dispute settlement, and networking support for firms."
+    },
+    {
+     "question": "Why are chambers of commerce called non-profit associations?",
+     "solution": "Chambers of commerce are formed not to earn profit for themselves but to serve the common interests of their members and promote trade, so they are called non-profit associations.",
+     "answer": "They exist to serve members' interests, not to earn profit for themselves."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the role and functions of chambers of commerce.",
+     "type": "long_answer"
+    },
+    {
+     "question": "How do chambers of commerce promote internal trade?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why are chambers of commerce important for business firms?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

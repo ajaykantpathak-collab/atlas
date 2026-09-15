@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_02_010",
+   "title": "c11_eco_cbse_02_010",
+   "questions": [
+    {
+     "q": "Define import substitution and name the two main policy instruments used to implement it in India during 1950-1990.",
+     "a": "Import substitution is a trade strategy that aims to replace imports with domestic production by protecting domestic industries from foreign competition. The two main policy instruments were tariffs (taxes on imported goods making them more expensive) and quotas (quantity limits on imports). A wrong answer reveals the student confuses import substitution with export promotion or cannot distinguish between the two protection tools.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Indian planners in the 1950s believed import substitution was necessary for a newly independent country. Use the concepts of 'infant industry' and 'foreign exchange conservation' in your answer.",
+     "a": "Planners argued that Indian industries were like 'infants' — too young and small to compete with established industries of developed nations (infant industry argument). They also feared that without restrictions, scarce foreign exchange would be spent on luxury imports rather than essential capital goods, making India dependent on foreign countries and vulnerable to external pressure. A wrong answer shows the student cannot articulate the strategic reasoning behind protectionism or confuses it with mere revenue generation.",
+     "self_check": true
+    },
+    {
+     "q": "In 1980, an Indian car manufacturer produced 50,000 units annually at ₹50,000 per car. A comparable Japanese car cost ₹30,000 internationally. The Indian government imposed a 100% tariff on car imports. Calculate the domestic price of the Japanese car after tariff and explain whether this makes the Indian car competitive on merit or only by policy design.",
+     "a": "Japanese car international price = ₹30,000. After 100% tariff = ₹30,000 + ₹30,000 = ₹60,000. Indian car price = ₹50,000. The Indian car appears cheaper by ₹10,000, but this competitiveness is purely policy-induced, not based on superior efficiency or quality. The tariff artificially inflates the foreign price. A wrong answer reveals the student cannot calculate tariff effects or mistakenly believes protection makes domestic industry genuinely competitive.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the 'license raj' (requirement of government licenses for starting, expanding, or diversifying industry) interacted with import substitution to create inefficiencies. Provide two specific mechanisms.",
+     "a": "First, big industrial houses obtained licenses not to produce but to block competitors from entering (pre-emptive licensing), reducing competitive pressure even among domestic firms. Second, entrepreneurs spent more time lobbying ministries for licenses than improving products or processes, diverting entrepreneurial energy from innovation to rent-seeking. A wrong answer indicates the student sees licensing and import substitution as separate policies rather than interconnected tools of the same control regime.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Import substitution protected Indian consumers by ensuring availability of essential goods at affordable prices.\" Use evidence from the 1950-1990 period.",
+     "a": "The statement is false. Import substitution protected producers, not consumers. Consumers faced limited choices, poor quality, high prices, and long waiting periods (e.g., telephone connections, scooters, cars). Producers had captive markets and no incentive to improve quality or reduce costs. The 'affordable' claim ignores that protected goods were often more expensive than world prices due to inefficiency. A wrong answer shows the student confuses producer protection with consumer welfare or ignores the quality/choice dimension.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a comparative table showing the intended outcomes vs actual outcomes of import substitution on three dimensions: industrial diversification, technological upgrading, and export competitiveness.",
+     "a": "| Dimension | Intended Outcome | Actual Outcome (1950-1990) |\n|---|---|---|\n| Industrial Diversification | Build wide industrial base beyond textiles/jute | Achieved: diversified into electronics, automobiles, heavy engineering |\n| Technological Upgrading | Protected industries would learn and modernize | Failed: no competitive pressure led to technological stagnation; outdated processes persisted |\n| Export Competitiveness | Self-reliance would create strong export sector | Failed: inward focus neglected exports; share of world trade declined from 2.5% (1950) to 0.5% (1990) |\nA poor answer reveals the student cannot distinguish between structural diversification (achieved) and dynamic efficiency (failed), or misses the export neglect entirely.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

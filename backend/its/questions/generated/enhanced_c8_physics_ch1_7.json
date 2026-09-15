@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch1_7",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch1_7",
+   "title": "c8_physics_ch1_7",
+   "questions": [
+    {
+     "q": "A student investigates how the angle of a ramp affects the speed of a toy car. After the first trial, they get widely different speed values for the same angle. They decide to repeat the exact same procedure five more times without changing anything. Is this an iterative investigation? Answer yes or no and explain in one sentence.",
+     "a": "No. Iterative investigation requires modifying something (hypothesis, method, or variable control) based on the results of the previous cycle; merely repeating the same procedure is replication, not iteration. A wrong answer reveals the student confuses \"repetition for reliability\" with \"iteration for improvement\" — they think doing it again automatically makes it better, without analyzing why the first data was inconsistent.",
+     "self_check": true
+    },
+    {
+     "q": "In an investigation on how salt affects the boiling point of water, a student first uses a plastic spoon to stir, then switches to a metal spoon in the second cycle because \"it might conduct heat better\". They also change the amount of salt and the stove setting at the same time. Why does this violate the principle of iterative investigation?",
+     "a": "Iterative investigation requires changing only one element at a time so you can attribute any improvement to that specific change; changing multiple variables simultaneously makes it impossible to know which change caused the difference. A wrong answer reveals the student does not grasp the need for controlled comparison between cycles — they treat iteration as \"trying new things\" rather than \"testing a specific refinement\".",
+     "self_check": true
+    },
+    {
+     "q": "A Class 8 student investigates the time period of a simple pendulum. In Cycle 1, they measure time for 1 oscillation using a stopwatch and get 1.8 s, 2.1 s, 1.9 s. In Cycle 2, they measure time for 10 oscillations and divide by 10, getting 2.01 s, 2.00 s, 2.02 s. Calculate the average time period for each cycle and state which cycle gives more reliable data. Show units.",
+     "a": "Cycle 1 average = (1.8 + 2.1 + 1.9)/3 = 1.93 s. Cycle 2 average = (2.01 + 2.00 + 2.02)/3 = 2.01 s. Cycle 2 is more reliable because measuring multiple oscillations reduces human reaction time error (starting/stopping stopwatch) by a factor of 10. A wrong answer reveals the student cannot connect the procedural change (measuring 10 oscillations) to the reduction in a specific error source — they may just pick the \"neater\" numbers without reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Two students investigate how the surface area of a parachute affects its fall time. Student A drops the same parachute 10 times from a balcony, recording times. Student B makes 5 different parachutes of increasing surface area, drops each once, and plots fall time vs. area. Which student is conducting an iterative investigation? Justify by describing what each would need to do next to make it iterative.",
+     "a": "Neither is yet iterative. Student A is only replicating (same conditions). Student B is varying the independent variable (surface area) but only one trial per area. For iteration: Student A would need to identify a problem (e.g., \"times vary due to air currents\") and modify the method (e.g., drop indoors). Student B would need to repeat each parachute drop multiple times, find inconsistent results, then improve the release mechanism or timing method. A wrong answer reveals the student thinks \"changing the independent variable\" equals iteration, missing that iteration is about refining the *process* across cycles, not just testing different conditions once.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher gives this feedback on a student's investigation report: \"Your Cycle 2 data is more consistent, but you didn't explain *why* you changed the measuring cylinder to a burette. Without that reasoning, I cannot judge if the improvement was valid.\" Evaluate this feedback: is it fair? What does it reveal about the role of reasoning in iterative investigation?",
+     "a": "The feedback is fair. Iterative investigation is not just \"try again with better tools\" — it requires explicit reasoning linking the identified flaw in Cycle 1 (e.g., \"measuring cylinder had 1 mL least count, causing ±0.5 mL error\") to the specific change in Cycle 2 (\"burette has 0.1 mL least count, reducing error 5-fold\"). Without this reasoning, the cycle is not scientifically justified. A wrong answer reveals the student views iteration as a mechanical upgrade rather than a reasoned response to evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-cycle iterative investigation to answer: \"Does the temperature of water affect how fast a sugar cube dissolves?\" For each cycle, state: (a) the specific question for that cycle, (b) what you will measure, (c) what you will change from the previous cycle, and (d) why that change improves the investigation.",
+     "a": "Cycle 1: (a) Does hot vs. cold water make a visible difference in dissolving time? (b) Time for cube to disappear (stopwatch, seconds). (c) — (first cycle). (d) —. Cycle 2: (a) How does dissolving time change at 5 specific temperatures (10, 20, 30, 40, 50°C)? (b) Dissolving time at each temperature (3 trials each). (c) Use a thermometer to control/set exact temperatures; do 3 trials per temperature. (d) Cycle 1 only compared two vague temperatures; Cycle 2 quantifies the relationship and checks consistency. Cycle 3: (a) Is the relationship linear? (b) Dissolving time at 8 temperatures (5°C intervals from 5–40°C) with stirring rate controlled. (c) Add a mechanical stirrer at constant speed; increase temperature points. (d) Cycle 2 had hand-stirring (uncontrolled variable) and few points; Cycle 3 isolates temperature effect and tests linearity. A poor answer lists steps without linking each change to a specific limitation found in the previous cycle — showing they don't see iteration as evidence-driven refinement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

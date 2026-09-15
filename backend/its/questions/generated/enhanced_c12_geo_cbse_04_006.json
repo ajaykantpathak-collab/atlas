@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_04_006",
+   "title": "c12_geo_cbse_04_006",
+   "questions": [
+    {
+     "q": "Which of the following cities is BEST classified as an administrative town based on its dominant function?\n(a) Bhilai (Chhattisgarh)  \n(b) Chandigarh (Union Territory)  \n(c) Tiruppur (Tamil Nadu)  \n(d) Ahmedabad (Gujarat)",
+     "a": "Correct: (b) Chandigarh. It is a planned capital city housing Punjab & Haryana governments, Union Territory administration, and high proportion of government employees. Bhilai is industrial (steel plant), Tiruppur is industrial (textile/knitwear), Ahmedabad is commercial+industrial (textiles, trade, finance). A wrong answer reveals confusion between administrative capitals and industrial/commercial hubs — students often pick the largest city (Ahmedabad) instead of the one where government is the primary employer.",
+     "self_check": true
+    },
+    {
+     "q": "Why do many ancient Indian towns (e.g., Varanasi, Madurai, Patna) remain primarily administrative/religious/commercial rather than industrial, despite being large urban centers?",
+     "a": "Correct: These towns evolved as political/religious capitals or trade nodes on river routes *before* modern industry. Their dense historic cores, lack of flat land for factories, and absence of nearby coal/mineral resources discouraged industrialization. Colonial industrial policy favored new locations (Jamshedpur, Dhanbad) near resources. A wrong answer (e.g., \"they are too old\") misses the geographical reasoning: **site factors (land, resources, transport) and historical path dependence** lock functional trajectories.",
+     "self_check": true
+    },
+    {
+     "q": "Using the 2011 Census data below, classify the town's dominant function. Show your reasoning.\nTown X: Total workers = 1,20,000; Primary sector = 12,000; Secondary sector = 72,000; Tertiary sector = 36,000.",
+     "a": "Correct: Industrial town. Steps: (1) Calculate sector shares: Primary = 10%, Secondary = 60%, Tertiary = 30%. (2) Dominant sector = Secondary (manufacturing/construction) at 60% > 50% threshold. (3) Therefore, industrial function dominates. A wrong classification (e.g., commercial because tertiary is 30%) shows inability to apply the **majority-workforce criterion** used in Census classification. Students often confuse \"largest sector\" with \"largest absolute number\" without comparing percentages.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the locational factors that led to the emergence of Jamshedpur (industrial) and Mumbai (commercial). Why did Jamshedpur NOT become a major commercial hub like Mumbai despite having a large population?",
+     "a": "Correct: Jamshedpur: located near iron ore (Noamundi), coal (Jharia), water (Subarnarekha), and rail (Bengal-Nagpur line) — classic **Weberian least-cost industrial location**. Mumbai: natural deep-water harbor, hinterland connectivity (cotton, opium), and British port investment made it a **break-of-bulk/commercial node**. Jamshedpur lacked a port, navigable river to sea, and a large consumer hinterland for trade; its function was locked to steel by Tata's company town model. A weak answer lists factors but doesn't contrast **resource-oriented vs. trade-oriented location logic**.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"All state capitals in India are administrative towns.\" Is this always true? Provide two counter-examples with justification.",
+     "a": "Correct: False. Counter-examples: (1) **Bengaluru** (Karnataka capital) — IT/services (tertiary) employs far more than government; classified as commercial/technological hub. (2) **Hyderabad** (Telangana capital) — pharmaceuticals, biotech, IT dominate workforce. Justification: Functional classification uses **dominant economic activity**, not political status. Many capitals diversified post-independence due to industrialization policies and IT boom. A wrong \"True\" answer conflates political function with economic function — a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a functional classification scheme for a new planned city in a mineral-rich but landlocked region of Chhattisgarh. Specify: (a) dominant function, (b) two supporting functions, (c) one locational advantage and one challenge for each function.",
+     "a": "Expected answer: (a) Dominant: Industrial (mineral-based — steel/aluminum). Advantage: Proximity to iron ore/bauxite/coal reduces transport cost. Challenge: Landlocked — high export freight cost. (b) Supporting 1: Administrative (district HQ). Advantage: Government investment in infrastructure. Challenge: Limited autonomy, bureaucratic delays. (c) Supporting 2: Commercial (wholesale trade for mining equipment/supplies). Advantage: Captive demand from industry. Challenge: Small local market, dependence on industrial cycles. A poor answer picks generic functions without tying to **regional resource base and connectivity constraints**.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

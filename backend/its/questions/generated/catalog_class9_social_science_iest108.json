@@ -1,0 +1,68 @@
+{
+ "catalog": "catalog_class9_social_science_iest108",
+ "concepts": [
+  {
+   "id": "iest.108.8.1",
+   "title": "What Economics Deals With",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'What Economics Deals With' refers to.",
+     "a": "Economics deals with the everyday problem of making a living: how people, firms and governments use scarce resources to satisfy unlimited wants, and how choices about production, exchange and consumption shape wellbeing.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'What Economics Deals With'.",
+     "a": "Limited means, unlimited wants: managing this gap is what economics studies.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'What Economics Deals With' taught, and from which source text?",
+     "a": "8 (source: iest108.txt opening sections (what does economics deal with))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iest.108.8.2",
+   "title": "Scarcity, Choice and Opportunity Cost",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Scarcity, Choice and Opportunity Cost' refers to.",
+     "a": "Scarcity forces choice, and every choice carries an opportunity cost - the value of the next best alternative given up; choosing one use of money, time or land always means losing the chance to use it elsewhere.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Scarcity, Choice and Opportunity Cost'.",
+     "a": "Every yes is a no: the next best thing sacrificed is the true price of a choice.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Scarcity, Choice and Opportunity Cost' taught, and from which source text?",
+     "a": "8 (source: iest108.txt sections on scarcity, choice and opportunity cost)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "iest.108.8.3",
+   "title": "Production, Exchange and Distribution",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Production, Exchange and Distribution' refers to.",
+     "a": "Economic activity runs in three linked stages: production combines resources to create goods and services, exchange moves them through markets to those who need them, and distribution shares the income earned among land, labour, capital and enterprise.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Production, Exchange and Distribution'.",
+     "a": "Make, trade, share: the three questions of every economy.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Production, Exchange and Distribution' taught, and from which source text?",
+     "a": "8 (source: iest108.txt sections on production, exchange and distribution)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

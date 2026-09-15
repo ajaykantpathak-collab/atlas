@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_05_013",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_05_013",
+   "title": "c11_cs_cbse_05_013",
+   "questions": [
+    {
+     "q": "What is an infinite loop in Python? Give a one-line definition.",
+     "a": "An infinite loop is a loop whose condition never evaluates to False, causing it to execute indefinitely. A wrong answer such as \"a loop that runs many times\" reveals the student confuses large finite loops with truly non-terminating loops and does not grasp the critical role of the termination condition.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following code results in an infinite loop:\n```python\ni = 1\nwhile i <= 10:\n    print(i)\n```",
+     "a": "The loop variable `i` is never updated inside the loop, so the condition `i <= 10` remains True forever. A wrong answer like \"it prints 1 to 10\" shows the student does not trace variable updates and assumes the loop automatically increments the counter.",
+     "self_check": true
+    },
+    {
+     "q": "Fix the infinite loop in this code so it prints numbers 1 to 5:\n```python\ncount = 1\nwhile count <= 5:\n    print(count)\n```",
+     "a": "Add `count += 1` inside the loop. Steps: identify missing update, add increment, verify condition becomes False after 5 iterations. A wrong answer such as changing the condition to `count < 5` reveals misunderstanding of loop termination mechanics and off-by-one errors.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two loops. Which has an off-by-one error? Explain.\nLoop A:\n```python\nfor i in range(1, 10):\n    print(i)\n```\nLoop B:\n```python\nfor i in range(1, 11):\n    print(i)\n```",
+     "a": "Loop A prints 1 to 9 (off-by-one: stops at 9 instead of 10). Loop B correctly prints 1 to 10. A wrong answer like \"both are correct\" shows confusion about `range` stop being exclusive and the need to add 1 to include the endpoint.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes a loop to find the first even number in a list and uses `break`. They claim `break` always exits the program. Evaluate this claim.",
+     "a": "The claim is false: `break` exits only the innermost loop, not the entire program. A wrong answer such as \"break exits the program\" reveals confusion between `break` and `sys.exit()` or `return`, and indicates the student does not understand loop scope.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python `while` loop that intentionally becomes infinite, then modify it to terminate after 3 iterations using a counter. Provide both versions.",
+     "a": "Infinite version: `while True: print(\"Hello\")`. Modified: `c = 0; while c < 3: print(\"Hello\"); c += 1`. A poor answer using a `for` loop shows inability to construct and control `while` loop termination, and misses the concept of manually managing a counter.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

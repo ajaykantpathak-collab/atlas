@@ -1,0 +1,414 @@
+{
+ "class": 12,
+ "subject": "accountancy",
+ "chapter": 204,
+ "chapter_title": "Analysis of Financial Statements",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\leac203.txt",
+ "concepts": [
+  {
+   "id": "leac.204.1",
+   "title": "Financial Statement Analysis",
+   "section": "4.1",
+   "definition": "The systematic examination and interpretation of financial data to assess an enterprise's operational efficiency, profitability, and financial position.",
+   "formula": "",
+   "key_idea": "Simplifying and interpreting financial data to evaluate past performance and predict future trends.",
+   "textbook_ref": "leac204.txt lines 20-50",
+   "question_patterns": [
+    "Explain the meaning of financial statement analysis",
+    "What are the primary objectives of analyzing financial statements?",
+    "How is financial analysis useful to trade creditors and long-term lenders?",
+    "Discuss the significance of financial statement analysis for management",
+    "Explain Financial Statement Analysis with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the users and their specific informational needs",
+     "explain": "Different stakeholders (like creditors, investors, or management) analyze financial statements for different purposes such as liquidity, profitability, or solvency."
+    },
+    {
+     "step": 2,
+     "action": "Perform simplification and interpretation of data",
+     "explain": "Classify the financial data methodically and explain its meaning and significance to draw logical conclusions."
+    }
+   ]
+  },
+  {
+   "id": "leac.204.2",
+   "title": "Horizontal and Vertical Analysis",
+   "section": "4.4",
+   "definition": "Horizontal analysis compares financial data across multiple periods, whereas vertical analysis evaluates items within a single period relative to a common base.",
+   "formula": "",
+   "key_idea": "Horizontal tracks changes over time, while vertical analyzes structural proportions.",
+   "textbook_ref": "leac204.txt lines 130-160",
+   "question_patterns": [
+    "Distinguish between vertical and horizontal analysis of financial data",
+    "What is horizontal analysis of financial statements?",
+    "Why is common size analysis referred to as vertical analysis?",
+    "Compare dynamic and static financial analysis techniques",
+    "Explain Horizontal and Vertical Analysis with a suitable example."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine the direction of comparison",
+     "explain": "If comparing the same item across multiple consecutive years, it is horizontal analysis. If comparing different items to a common base in the same year, it is vertical analysis."
+    }
+   ]
+  },
+  {
+   "id": "leac.204.3",
+   "title": "Comparative Statement Absolute Change",
+   "section": "4.5",
+   "definition": "The absolute change is the difference in monetary terms of a specific financial item between the current period and the previous period.",
+   "formula": "absolute_change = current_val - previous_val",
+   "key_idea": "Subtracting the base year value from the current year value to find the net increase or decrease.",
+   "textbook_ref": "leac204.txt lines 170-195",
+   "question_patterns": [
+    "What is the absolute change in revenue if the previous year was {previous_val} and current year is {current_val}?",
+    "Calculate the absolute increase or decrease in share capital from {previous_val} to {current_val}.",
+    "Find the absolute change in expenses between {previous_val} and {current_val}.",
+    "Determine the absolute change for an item with base value {previous_val} and current value {current_val}.",
+    "Numerical: apply Comparative Statement Absolute Change and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract previous period value from current period value",
+     "explain": "Absolute change is calculated by taking the current year value and subtracting the previous year value.",
+     "compute": "absolute_change = current_val - previous_val"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Comparative Statement Absolute Change, compute the result for current_val = 3, previous_val = 3.",
+     "solution": "Step 1: Subtract previous period value from current period value: absolute_change = current_val - previous_val = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    },
+    {
+     "question": "Using Comparative Statement Absolute Change, compute the result for current_val = 4, previous_val = 4.",
+     "solution": "Step 1: Subtract previous period value from current period value: absolute_change = current_val - previous_val = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.204.4",
+   "title": "Comparative Statement Percentage Change",
+   "section": "4.5",
+   "definition": "The relative change expressed as a percentage of the previous period's value.",
+   "formula": "percentage_change = ((current_val - previous_val) / previous_val) * 100",
+   "key_idea": "Measuring the growth or decline relative to the starting period.",
+   "textbook_ref": "leac204.txt lines 170-195",
+   "question_patterns": [
+    "Calculate the percentage change in sales when previous year is {previous_val} and current year is {current_val}.",
+    "Find the percentage increase in net profit from {previous_val} to {current_val}.",
+    "What is the percentage change in trade payables if they changed from {previous_val} to {current_val}?",
+    "Determine the percentage change for an asset with previous value {previous_val} and current value {current_val}.",
+    "Numerical: apply Comparative Statement Percentage Change and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate absolute change",
+     "explain": "Subtract the previous year value from the current year value.",
+     "compute": "absolute_change = current_val - previous_val"
+    },
+    {
+     "step": 2,
+     "action": "Calculate percentage change",
+     "explain": "Divide the absolute change by the previous year value and multiply by 100 to get the percentage.",
+     "compute": "percentage_change = (absolute_change / previous_val) * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Comparative Statement Percentage Change, compute the result for current_val = 3, previous_val = 3.",
+     "solution": "Step 1: Calculate absolute change: absolute_change = current_val - previous_val = 0.0 Step 2: Calculate percentage change: percentage_change = (absolute_change / previous_val) * 100 = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    },
+    {
+     "question": "Using Comparative Statement Percentage Change, compute the result for current_val = 4, previous_val = 4.",
+     "solution": "Step 1: Calculate absolute change: absolute_change = current_val - previous_val = 0.0 Step 2: Calculate percentage change: percentage_change = (absolute_change / previous_val) * 100 = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.204.5",
+   "title": "Common Size Statement Percentage",
+   "section": "4.6",
+   "definition": "The proportion of an individual financial statement item relative to a designated base item, such as total assets or net revenue.",
+   "formula": "item_percentage = (item_val / base_val) * 100",
+   "key_idea": "Expressing each component as a percentage of a common denominator.",
+   "textbook_ref": "leac204.txt lines 250-280",
+   "question_patterns": [
+    "What is the common size percentage of an item valued at {item_val} when the base value is {base_val}?",
+    "Calculate the percentage of inventory {item_val} to total assets {base_val}.",
+    "Express employee benefit expenses of {item_val} as a percentage of revenue from operations of {base_val}.",
+    "Find the common size percentage of trade payables {item_val} relative to total liabilities {base_val}.",
+    "Numerical: apply Common Size Statement Percentage and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide item value by base value and multiply by 100",
+     "explain": "Compute the proportion of the item relative to the base value (such as total assets or revenue from operations) and convert to percentage.",
+     "compute": "item_percentage = (item_val / base_val) * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Common Size Statement Percentage, compute the result for item_val = 3, base_val = 3.",
+     "solution": "Step 1: Divide item value by base value and multiply by 100: item_percentage = (item_val / base_val) * 100 = 100.0 Final result: 100.0",
+     "answer": "100.0"
+    },
+    {
+     "question": "Using Common Size Statement Percentage, compute the result for item_val = 4, base_val = 4.",
+     "solution": "Step 1: Divide item value by base value and multiply by 100: item_percentage = (item_val / base_val) * 100 = 100.0 Final result: 100.0",
+     "answer": "100.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.204.6",
+   "title": "Trend Percentage",
+   "section": "4.4",
+   "definition": "The percentage relationship of a financial item in any given year compared to its value in a designated base year.",
+   "formula": "trend_percentage = (current_val / base_val) * 100",
+   "key_idea": "Tracking long-term performance by setting a base year to 100%.",
+   "textbook_ref": "leac204.txt lines 140-155",
+   "question_patterns": [
+    "Calculate the trend percentage for a year with value {current_val} relative to the base year value of {base_val}.",
+    "What is the trend percentage of sales if base year sales were {base_val} and current sales are {current_val}?",
+    "Find the trend percentage of profit when base year profit is {base_val} and current year profit is {current_val}?",
+    "Determine the trend percentage for an item with base value {base_val} and current value {current_val}.",
+    "Numerical: apply Trend Percentage and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide current year value by base year value and scale to percentage",
+     "explain": "The trend percentage is calculated by dividing the current year value by the base year value, then multiplying by 100.",
+     "compute": "trend_percentage = (current_val / base_val) * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Trend Percentage, compute the result for current_val = 3, base_val = 3.",
+     "solution": "Step 1: Divide current year value by base year value and scale to percentage: trend_percentage = (current_val / base_val) * 100 = 100.0 Final result: 100.0",
+     "answer": "100.0"
+    },
+    {
+     "question": "Using Trend Percentage, compute the result for current_val = 4, base_val = 4.",
+     "solution": "Step 1: Divide current year value by base year value and scale to percentage: trend_percentage = (current_val / base_val) * 100 = 100.0 Final result: 100.0",
+     "answer": "100.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.204.7",
+   "title": "Comparative Profit Before Tax",
+   "section": "4.5",
+   "definition": "The profit earned by an enterprise before accounting for income tax, calculated by subtracting total expenses from total revenue.",
+   "formula": "profit_before_tax = (revenue_operations + other_income) - total_expenses",
+   "key_idea": "Operating and non-operating earnings before tax deductions.",
+   "textbook_ref": "leac204.txt lines 196-220",
+   "question_patterns": [
+    "Calculate the profit before tax if revenue from operations is {revenue_operations}, other income is {other_income}, and total expenses are {total_expenses}.",
+    "What is the profit before tax when total revenue is composed of {revenue_operations} and {other_income}, and expenses are {total_expenses}?",
+    "Find the profit before tax given revenue of {revenue_operations}, other income of {other_income}, and expenses of {total_expenses}.",
+    "Determine the profit before tax with operational revenue {revenue_operations}, non-operational income {other_income}, and expenses {total_expenses}.",
+    "Numerical: apply Comparative Profit Before Tax and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate total revenue",
+     "explain": "Sum the revenue from operations and other income.",
+     "compute": "total_revenue = revenue_operations + other_income"
+    },
+    {
+     "step": 2,
+     "action": "Calculate profit before tax",
+     "explain": "Subtract total expenses from total revenue.",
+     "compute": "profit_before_tax = total_revenue - total_expenses"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Comparative Profit Before Tax, compute the result for revenue_operations = 3, other_income = 3, total_expenses = 3.",
+     "solution": "Step 1: Calculate total revenue: total_revenue = revenue_operations + other_income = 6.0 Step 2: Calculate profit before tax: profit_before_tax = total_revenue - total_expenses = 3.0 Final result: 3.0",
+     "answer": "3.0"
+    },
+    {
+     "question": "Using Comparative Profit Before Tax, compute the result for revenue_operations = 4, other_income = 4, total_expenses = 4.",
+     "solution": "Step 1: Calculate total revenue: total_revenue = revenue_operations + other_income = 8.0 Step 2: Calculate profit before tax: profit_before_tax = total_revenue - total_expenses = 4.0 Final result: 4.0",
+     "answer": "4.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.204.8",
+   "title": "Comparative Profit After Tax",
+   "section": "4.5",
+   "definition": "The net earnings of a company after deducting income tax from profit before tax.",
+   "formula": "profit_after_tax = profit_before_tax - (profit_before_tax * tax_rate / 100)",
+   "key_idea": "Final net profit available to shareholders.",
+   "textbook_ref": "leac204.txt lines 196-220",
+   "question_patterns": [
+    "Calculate the profit after tax if profit before tax is {profit_before_tax} and the tax rate is {tax_rate} percent.",
+    "Find the net profit after tax when earnings before tax are {profit_before_tax} and tax rate is {tax_rate}%.",
+    "What is the profit after tax given a pre-tax profit of {profit_before_tax} and tax rate of {tax_rate}?",
+    "Determine the profit after tax with profit before tax of {profit_before_tax} and tax rate of {tax_rate} percent.",
+    "Numerical: apply Comparative Profit After Tax and compute the final value step by step."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate tax amount",
+     "explain": "Multiply profit before tax by the tax rate percentage.",
+     "compute": "tax_amount = profit_before_tax * tax_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "Calculate profit after tax",
+     "explain": "Subtract the tax amount from profit before tax.",
+     "compute": "profit_after_tax = profit_before_tax - tax_amount"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Comparative Profit After Tax, compute the result for profit_before_tax = 3, tax_rate = 3.",
+     "solution": "Step 1: Calculate tax amount: tax_amount = profit_before_tax * tax_rate / 100 = 0.09 Step 2: Calculate profit after tax: profit_after_tax = profit_before_tax - tax_amount = 2.91 Final result: 2.91",
+     "answer": "2.91"
+    },
+    {
+     "question": "Using Comparative Profit After Tax, compute the result for profit_before_tax = 4, tax_rate = 4.",
+     "solution": "Step 1: Calculate tax amount: tax_amount = profit_before_tax * tax_rate / 100 = 0.16 Step 2: Calculate profit after tax: profit_after_tax = profit_before_tax - tax_amount = 3.84 Final result: 3.84",
+     "answer": "3.84"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "leac204.txt lines 170-195",
+   "concept": "leac.204.3",
+   "question_type": "compute",
+   "question_pattern": "What is the absolute change in revenue if the previous year was {previous_val} and current year is {current_val}?",
+   "extracted_variables": {
+    "previous_val": "value of the item in the previous year",
+    "current_val": "value of the item in the current year"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract previous period value from current period value",
+     "explain": "Absolute change is calculated by taking the current year value and subtracting the previous year value.",
+     "compute": "absolute_change = current_val - previous_val"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "leac204.txt lines 170-195",
+   "concept": "leac.204.4",
+   "question_type": "compute",
+   "question_pattern": "Calculate the percentage change in sales when previous year is {previous_val} and current year is {current_val}.",
+   "extracted_variables": {
+    "previous_val": "sales in the previous year",
+    "current_val": "sales in the current year"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate absolute change",
+     "explain": "Subtract the previous year value from the current year value.",
+     "compute": "absolute_change = current_val - previous_val"
+    },
+    {
+     "step": 2,
+     "action": "Calculate percentage change",
+     "explain": "Divide the absolute change by the previous year value and multiply by 100 to get the percentage.",
+     "compute": "percentage_change = (absolute_change / previous_val) * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "leac204.txt lines 250-280",
+   "concept": "leac.204.5",
+   "question_type": "compute",
+   "question_pattern": "Calculate the percentage of inventory {item_val} to total assets {base_val}.",
+   "extracted_variables": {
+    "item_val": "value of the specific item",
+    "base_val": "value of the base item (total assets)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide item value by base value and multiply by 100",
+     "explain": "Compute the proportion of the item relative to the base value (such as total assets or revenue from operations) and convert to percentage.",
+     "compute": "item_percentage = (item_val / base_val) * 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "leac204.txt lines 380-410",
+   "questions": [
+    "Following are the balance sheets of Alpha Ltd., as at March 31, 2016 and 2017. You are required to prepare Comparative Balance Sheet. (Share Capital: 2,00,000 to 4,00,000, Reserve & Surplus: 1,00,000 to 1,50,000, Long Term Borrowings: 2,00,000 to 3,00,000, etc.)"
+   ]
+  },
+  {
+   "id": "ex4.2",
+   "source_ref": "leac204.txt lines 411-435",
+   "questions": [
+    "Following are the Balance Sheets of Beta Ltd., as at March 31, 2016 and 2017. Prepare comparative Balance Sheet."
+   ]
+  },
+  {
+   "id": "ex4.3",
+   "source_ref": "leac204.txt lines 436-460",
+   "questions": [
+    "Prepare Comparative Statement of profit and loss from the following information: Freight Outward, Wages, Manufacturing Expenses, Stock adjustment, Purchases, Returns, Gross Profit, Carriage outward, Machinery, Depreciation, Interest, Debentures, Profit/Loss on sale, Tax rate."
+   ]
+  },
+  {
+   "id": "ex4.4",
+   "source_ref": "leac204.txt lines 461-485",
+   "questions": [
+    "Prepare Comparative Statement of Profit and Loss from the following information: Manufacturing expenses, Opening stock, Sales, Returns outward, Closing stock, Credit purchases, Cash purchases, Carriage outward, Building, Depreciation, Interest, Debentures, Profit/Loss on sale, Other operating expenses, Tax rate."
+   ]
+  },
+  {
+   "id": "ex4.5",
+   "source_ref": "leac204.txt lines 486-495",
+   "questions": [
+    "Prepare a Common size statement of profit and loss of Shefali Ltd. with the help of following information: Revenue from operations (6,00,000 and 8,00,000), Indirect expense (25% of gross profit), Cost of revenue from operations (4,28,000 and 7,28,000), Other incomes (10,000 and 12,000), Income tax (30%)."
+   ]
+  },
+  {
+   "id": "ex4.6",
+   "source_ref": "leac204.txt lines 496-515",
+   "questions": [
+    "Prepare a Common Size balance sheet from the following balance sheet of Aditya Ltd., and Anjali Ltd."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

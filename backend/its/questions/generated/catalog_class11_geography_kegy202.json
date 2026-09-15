@@ -1,0 +1,41 @@
+{
+  "catalog": "catalog_class11_geography_kegy202",
+  "concepts": [
+    {
+      "id": "kegy.202.1.1",
+      "questions": [
+        {"q": "Which two philosophers proposed the nebular hypothesis of a spinning gas cloud? (two words)", "a": "Kant, Laplace"},
+        {"q": "Which theory explains the universe's beginning as a singular huge explosion? (two words)", "a": "Big Bang"},
+        {"q": "About how many billion years ago did the Big Bang occur? (number, in billions)", "a": "13.7"},
+        {"q": "Which early theory attributed the planets to the pull of a passing star? (one word)", "a": "tidal"},
+        {"q": "In the nebular hypothesis, the solar system formed from a slowly spinning cloud of what? (one word)", "a": "gas"},
+        {"q": "How many main early theories of the earth's origin are named here? (number)", "a": "3"},
+        {"q": "From what size did the universe expand after the Big Bang, according to the theory? (short phrase)", "a": "size of a point"}
+      ]
+    },
+    {
+      "id": "kegy.202.2.1",
+      "questions": [
+        {"q": "What were the small accreting bodies that grew into planets called? (one word)", "a": "planetesimals"},
+        {"q": "Which theory explains the moon's birth by a giant impact with the earth? (short phrase)", "a": "big splat"},
+        {"q": "What process arranged the earth's materials into layered zones? (one word)", "a": "differentiation"},
+        {"q": "What happened to the earth's primordial atmosphere during its evolution? (one word)", "a": "lost"},
+        {"q": "The solar system evolved from a disc-shaped cloud of gas and what solid matter? (word)", "a": "dust"},
+        {"q": "Which development, besides atmosphere and oceans, made the earth a living planet? (one word)", "a": "life"},
+        {"q": "Did the moon form from the earth by impact or by capture of a passing star? (one word)", "a": "impact"}
+      ]
+    },
+    {
+      "id": "kegy.202.3.1",
+      "questions": [
+        {"q": "How many planets does the solar system hold? (number)", "a": "8"},
+        {"q": "Name the four terrestrial rocky planets. (four words)", "a": "Mercury, Venus, Earth, Mars"},
+        {"q": "Name one jovian gas giant besides Jupiter and Saturn. (one word)", "a": "Uranus"},
+        {"q": "Which planet alone sustains life in the solar system? (one word)", "a": "Earth"},
+        {"q": "Which atmospheric shield protects life on earth from harmful rays? (one word)", "a": "ozone"},
+        {"q": "How many terrestrial planets are there? (number)", "a": "4"},
+        {"q": "The earth's ideal what from the sun helps sustain life? (one word)", "a": "distance"}
+      ]
+    }
+  ]
+}

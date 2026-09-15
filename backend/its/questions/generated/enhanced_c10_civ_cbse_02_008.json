@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_02_008",
+   "title": "c10_civ_cbse_02_008",
+   "questions": [
+    {
+     "q": "What are the two Constitutional Amendment Acts that granted constitutional status to local self-government institutions in India, and in which year were they passed?",
+     "a": "The 73rd Constitutional Amendment Act (1992) for Panchayats and the 74th Constitutional Amendment Act (1992) for Municipalities. A wrong answer (e.g., \"42nd Amendment\" or \"1993\") reveals the student confuses the decentralisation amendments with other major amendments or misremembers the year — a common board exam trap where examiners test precise article-amendment mapping.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the 73rd Amendment created a *three-tier* structure for Panchayats (Gram Panchayat, Panchayat Samiti, Zila Parishad) instead of a single-tier system, linking your answer to India's diversity and the principle of subsidiarity.",
+     "a": "The three-tier structure matches governance to geographic and functional scale: Gram Panchayats handle village-level services (water, sanitation, MGNREGA), Panchayat Samitis coordinate inter-village projects (block-level roads, health centres), and Zila Parishads plan district-wide development and integrate state schemes. A single tier would either overburden villages with district-level planning or leave districts without local coordination. A wrong answer focusing only on \"administrative convenience\" misses the constitutional principle of subsidiarity — decisions should be made at the lowest effective level — which the amendment enshrines to respect India's vast rural diversity.",
+     "self_check": true
+    },
+    {
+     "q": "A State Government delays Panchayat elections for two years beyond the five-year term, citing \"administrative difficulties.\" The State Election Commissioner objects. Using Articles 243K and 243E, explain who has the constitutional authority to conduct elections and what the maximum permissible gap is between the expiry of a Panchayat's term and fresh elections.",
+     "a": "Article 243K vests the **State Election Commission** (not the State Government) with superintendence, direction, and control of Panchayat elections. Article 243E(2) mandates elections must be completed **before the expiry of the five-year term**; the maximum gap is **six months** if the Panchayat is dissolved prematurely. The State Government has no authority to postpone elections. A wrong answer assigning election power to the State Government or allowing indefinite delay reveals confusion between the *political executive* and the *independent constitutional authority* — a critical distinction board exams test via case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the composition of a Municipal Corporation (under Article 243Q) with a Zila Parishad (under Article 243B). Identify two structural similarities and two functional differences arising from their rural vs. urban contexts.",
+     "a": "**Similarities:** (1) Both have directly elected members from territorial wards; (2) Both have reserved seats for SCs/STs (proportionate to population) and women (not less than one-third). **Differences:** (1) Municipal Corporations have a **Mayor** (indirectly elected) as ceremonial head and a **Municipal Commissioner** (state-appointed IAS officer) as executive head — a dual structure absent in Zila Parishads, which have a directly/indirectly elected Chairperson and no state-appointed commissioner; (2) Corporations handle urban-specific functions (building regulations, fire services, urban transport, slum improvement) while Zila Parishads focus on rural development (agriculture extension, watershed management, rural housing). A wrong answer conflating the Mayor with the Commissioner or missing the rural/urban functional divide shows superficial memorisation without structural analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the **State Finance Commission (Article 243I/243Y)** in ensuring fiscal autonomy for local bodies. Use the concepts of \"vertical devolution\" (state to local) and \"horizontal distribution\" (among local bodies) in your answer, and cite one structural limitation that weakens SFC recommendations.",
+     "a": "SFCs are constitutionally mandated to review local finances every five years and recommend (a) vertical devolution — share of state taxes/grants to Panchayats/Municipalities, and (b) horizontal distribution — formula for allocating funds among local bodies based on population, area, backwardness, etc. **However**, SFC recommendations are **advisory**, not binding; state governments often delay implementation, deviate from formulas, or fail to act on reports. Additionally, most states have not devolved the **3Fs (Functions, Functionaries, Funds)** fully — local bodies remain dependent on tied scheme funds (e.g., MGNREGA, PMAY) rather than untied grants. A wrong answer claiming SFCs \"guarantee\" funds or ignoring the 3Fs gap shows inability to evaluate institutional design versus political practice — a key board exam competency.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph proposal for a **Gram Sabha resolution** demanding that the Gram Panchayat utilise its powers under Article 243G (Eleventh Schedule) to take over maintenance of the village primary school and the sub-health centre from the block administration. Your resolution must cite the specific Eleventh Schedule entries and explain how this strengthens accountability.",
+     "a": "**Expected answer criteria:** (1) Cites **Entry 17 (Education, including primary schools)** and **Entry 23 (Health and sanitation, including hospitals, primary health centres and dispensaries)** of the Eleventh Schedule; (2) Argues that transferring functionaries (teachers, ANMs) and funds to the Panchayat makes them answerable to the Gram Sabha — parents can question teacher absenteeism directly in the Sabha rather than petitioning a distant Block Development Officer; (3) References Article 243A (Gram Sabha powers) and 243G (Panchayat powers). A poor answer lists generic \"development works\" without Schedule entries, or confuses the Gram Sabha (voter body) with the Gram Panchayat (executive), revealing confusion between the *legislative* and *executive* tiers at village level — a frequent board exam error.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

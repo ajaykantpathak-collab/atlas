@@ -1,0 +1,418 @@
+{
+ "catalog": "catalog_class10_maths_ch101.json",
+ "concepts": [
+  {
+   "id": "jemh.1.1",
+   "family": "hcf_lcm",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "hcf = 2 * 1"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "lcm = 2 * 8 / 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hcf = 2 * 8 / 8"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "piece = 2 * 8 / 8"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "next_min = 2 * 8 / 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 120 // 12"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "hcf = 2 * 1"
+   ]
+  },
+  {
+   "id": "jemh.1.2",
+   "family": "hcf_lcm",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "hcf = 10 * 1"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "lcm = 50 * 70 / 10"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hcf = 50 * 70 / 350"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "piece = 50 * 70 / 350"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "next_min = 50 * 70 / 10"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 100 // 30"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "hcf = 10 * 1"
+   ]
+  },
+  {
+   "id": "jemh.1.3",
+   "family": "number_theory_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "lhs = 3 ** 3 + 4 ** 3",
+      "diff = 5 ** 3 - lhs"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total = 1 + 2 + 3"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "gap = 13 - 11"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "hcf = 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "dsum = 7 + 2 + 9",
+      "rem = dsum % 9"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "alt = 8 - 2 + 7 - 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "lhs = 3 ** 3 + 4 ** 3",
+    "diff = 5 ** 3 - lhs"
+   ]
+  },
+  {
+   "id": "jemh.1.4",
+   "family": "number_theory_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "lhs = 3 ** 3 + 4 ** 3",
+      "diff = 5 ** 3 - lhs"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total = 1 + 2 + 3"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "gap = 13 - 11"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "hcf = 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "dsum = 7 + 2 + 9",
+      "rem = dsum % 9"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "alt = 8 - 2 + 7 - 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "lhs = 3 ** 3 + 4 ** 3",
+    "diff = 5 ** 3 - lhs"
+   ]
+  },
+  {
+   "id": "jemh.1.5",
+   "family": "number_theory_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "lhs = 3 ** 3 + 4 ** 3",
+      "diff = 5 ** 3 - lhs"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total = 1 + 2 + 3"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "gap = 13 - 11"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "hcf = 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "dsum = 7 + 2 + 9",
+      "rem = dsum % 9"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "alt = 8 - 2 + 7 - 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "lhs = 3 ** 3 + 4 ** 3",
+    "diff = 5 ** 3 - lhs"
+   ]
+  },
+  {
+   "id": "jemh.1.6",
+   "family": "number_theory_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "lhs = 3 ** 3 + 4 ** 3",
+      "diff = 5 ** 3 - lhs"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total = 1 + 2 + 3"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "gap = 13 - 11"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "hcf = 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "dsum = 7 + 2 + 9",
+      "rem = dsum % 9"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "alt = 8 - 2 + 7 - 2"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "jemh.1.7",
+   "family": "hcf_lcm",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "hcf = 4 * 1"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "lcm = 8 * 12 / 4"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hcf = 8 * 12 / 24"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "piece = 8 * 12 / 24"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "next_min = 8 * 12 / 4"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 100 // 36"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "jemh.1.7b",
+   "family": "hcf_lcm",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "hcf = 4 * 1"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "lcm = 28 * 8 / 4"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hcf = 28 * 8 / 56"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "piece = 28 * 8 / 56"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "next_min = 28 * 8 / 4"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 100 // 18"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "jemh.1.8",
+   "family": "number_theory_facts",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "lhs = 3 ** 3 + 4 ** 3",
+      "diff = 5 ** 3 - lhs"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total = 1 + 2 + 3"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "gap = 13 - 11"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "hcf = 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "dsum = 7 + 2 + 9",
+      "rem = dsum % 9"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "alt = 8 - 2 + 7 - 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "lhs = 3 ** 3 + 4 ** 3",
+    "diff = 5 ** 3 - lhs"
+   ]
+  }
+ ]
+}

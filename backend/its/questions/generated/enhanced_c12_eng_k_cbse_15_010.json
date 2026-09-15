@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_15_010",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_15_010",
+   "title": "c12_eng_k_cbse_15_010",
+   "questions": [
+    {
+     "q": "Define \"content word\" and \"function word\" as per the NCERT Language Work classification. Give one example of each from the first paragraph of \"The Mark on the Wall.\"",
+     "a": "Content words (nouns, verbs, adjectives, adverbs, sometimes prepositions) carry definable lexical meaning (e.g., \"mark,\" \"wall,\" \"looked,\" \"white\"). Function words (conjunctions, pronouns, determiners, quantifiers, intensifiers, question words, sometimes prepositions) signal grammatical relationships and have little independent meaning (e.g., \"the,\" \"and,\" \"my,\" \"upon\"). A wrong answer that lists \"the\" as a content word reveals the student cannot distinguish lexical meaning from grammatical glue; they likely memorize parts of speech without understanding the *telegraph test* (function words are omitted in telegrams).",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"The mark was a small round mark, black upon the white wall, about six or seven inches above the mantelpiece,\" explain why \"round\" and \"black\" are content words while \"the\" and \"upon\" are function words, even though \"upon\" indicates a spatial relation.",
+     "a": "\"Round\" and \"black\" are adjectives describing inherent qualities of the mark; they belong to open classes (new adjectives can be coined). \"The\" is a determiner specifying definiteness — a closed class. \"Upon\" is a preposition; though it shows spatial relation, NCERT classifies prepositions as *ambiguous* (they appear in telegrams but form a closed set). A student calling \"upon\" a content word because \"it has meaning\" misses the NCERT's structural argument: function words are defined by *closed-set membership*, not absence of meaning. This error shows confusion between semantic and syntactic criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the \"telegraph test\" to the sentence: \"I might get up, but if I got up and looked at it, ten to one I shouldn't be able to say for certain.\" Write the telegraphic version and list *only* the function words removed.",
+     "a": "Telegraphic version: \"Might get up, got up looked, ten one shouldn't able say certain.\" Removed function words: \"I\" (pronoun, x2), \"but\" (conjunction), \"if\" (conjunction), \"and\" (conjunction), \"at\" (preposition), \"it\" (pronoun), \"to\" (particle/infinitive marker), \"for\" (preposition). A student who keeps \"up\" (adverb/particle) or \"certain\" (adjective) in the removed list confuses content/function boundaries; they must verify each word against the open/closed class test.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the word \"asphodel\" in the passage: \"Tumbling head over heels in the asphodel meadows like brown paper parcels...\" How does its classical allusion (Greek mythology: flower of the underworld) transform the simile's tone from merely chaotic to existentially weightless?",
+     "a": "\"Asphodel\" evokes Homer's *Odyssey* (fields where dead souls wander). The simile compares life's speed to \"brown paper parcels\" — mundane, disposable — but the setting \"asphodel meadows\" frames this disposal as *eternal*. The classical allusion lifts the domestic image (parcels, post office) into a mythic afterlife where identity dissolves (\"naked,\" \"hair flying\"). A student who only defines \"asphodel\" as \"a lily-like flower\" misses the intertextual resonance; they treat vocabulary as isolated definition, not as an allusive echo that deepens the essay's meditation on mortality.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Woolf's use of 'Whitaker's Almanack' and 'Table of Precedency' functions primarily as cultural satire, not philosophical symbolism.\" Support your judgment with two textual details.",
+     "a": "The claim is *partially true but incomplete*. Satire is present: \"The military sound of the word [generalisations] is enough. It recalls leading articles, cabinet ministers...\" mocks bureaucratic rigidity. However, the Table becomes a *symbol of existential constraint*: \"who will ever be able to lift a finger against Whitaker's Table of Precedency?\" It represents the inescapable social hierarchies that Nature uses to halt dangerous thoughts. A student who calls it \"only satire\" ignores the narrator's terror (\"if you must shatter this hour of peace\") and the philosophical weight given to the Table as a bulwark against the void. They fail to see how vocabulary operates simultaneously at satiric and metaphysical levels.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new sentence imitating Woolf's non-periodic, loose structure that incorporates *three* key vocabulary words from the essay (\"tumulus,\" \"attrition,\" \"antiquary\") to describe a mundane domestic moment (e.g., finding an old receipt in a coat pocket).",
+     "a": "Example: \"I pulled the coat from the hook and a receipt fluttered down, a small white tumulus of paper on the dark floor, worn soft at the edges by the patient attrition of years in that pocket, and I wondered what antiquary of my own life would bother to classify this fragment of a Tuesday's grocery spending.\" A weak answer uses the words as decorations in a tight, periodic sentence (\"The receipt, a tumulus worn by attrition, interested the antiquary\"), missing Woolf's syntactic drift — the clause-chain that mimics thought's meandering. The error reveals the student treats vocabulary as a list to insert, not as a tool to shape rhythm.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

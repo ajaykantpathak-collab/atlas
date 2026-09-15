@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_05_005",
+   "title": "c11_ps_cbse_05_005",
+   "questions": [
+    {
+     "q": "What is the exact date of adoption of the Universal Declaration of Human Rights and which UN body adopted it?",
+     "a": "The UDHR was adopted on 10 December 1948 by the UN General Assembly. A wrong answer (e.g., 1945, UN Security Council, or UNESCO) reveals the student confuses the UDHR with the UN Charter (1945) or does not know the distinction between UN principal organs; this indicates a gap in basic factual recall essential for board exam questions asking for specific dates and bodies.",
+     "self_check": true
+    },
+    {
+     "q": "The Preamble of the UDHR states that \"recognition of the inherent dignity and of the equal and inalienable rights of all members of the human family is the foundation of freedom, justice and peace in the world.\" Explain what \"inherent dignity\" means in this context and why it makes rights \"inalienable.\"",
+     "a": "\"Inherent dignity\" means every human being possesses worth simply by virtue of being human — not granted by any state, law, or achievement. Because dignity is intrinsic, the rights derived from it cannot be taken away (inalienable) by any government or authority. A wrong answer that ties dignity to citizenship, legal status, or social utility reveals the misconception that rights are state-conferred privileges rather than pre-political entitlements, undermining the entire moral architecture of the UDHR.",
+     "self_check": true
+    },
+    {
+     "q": "A country argues that the UDHR reflects \"Western values\" and should not apply to its cultural context where community interests supersede individual rights. Using the UDHR's own principles, how would you respond to this cultural relativist challenge?",
+     "a": "The UDHR was drafted by representatives from diverse legal and cultural backgrounds (including China, Lebanon, Chile, Philippines, USSR) and proclaimed as a \"common standard of achievement for all peoples and all nations.\" Its universality principle (Article 2: non-discrimination) and the Preamble's reference to \"all members of the human family\" reject cultural relativism as a ground for denying core rights. A response that accepts the relativist argument shows failure to grasp that the UDHR's legitimacy comes from its cross-cultural consensus, not Western imposition.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the UDHR's approach to rights with the natural rights theory of Locke (studied in c11_ps_cbse_05_004). Identify two key similarities and one fundamental difference in their philosophical grounding.",
+     "a": "Similarities: (1) Both posit rights as pre-existing the state (natural/inherent). (2) Both see rights as inalienable and universal. Difference: Locke grounds rights in natural law given by God/reason, while the UDHR deliberately avoids theological language, grounding rights in \"inherent dignity of the human person\" — a secular, humanistic foundation acceptable to pluralistic world community. A wrong answer that misses the secular shift shows inability to trace the evolution from 17th-century natural law to 20th-century human rights discourse.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The UDHR is merely a declaratory document with no legal binding force, therefore it has no real impact on state behavior.\" Support your evaluation with two specific historical or institutional consequences of the UDHR.",
+     "a": "The claim is false. Though not a treaty, the UDHR has acquired legal significance as: (1) customary international law (many provisions reflect customary norms binding on all states), and (2) the foundation for binding treaties (ICCPR, ICESCR, CEDAW, CRC) and national constitutions (e.g., India's Fundamental Rights under Part III draw directly from UDHR). It also established the normative framework for UN human rights mechanisms. A student calling it \"just a moral statement\" underestimates its constitutive role in the post-WWII international legal order.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a three-article mini-declaration for a hypothetical \"Rights of Students in Digital Learning Environments\" that mirrors the UDHR's structure (preamble + articles) and incorporates the principles of universality, non-discrimination, and state obligation. Write only the Preamble and Article 1.",
+     "a": "Preamble: Recognizing that digital access is essential for the realization of the right to education in the 21st century, and that all students possess inherent dignity entitling them to equitable, safe, and inclusive digital learning spaces... Article 1: Every student has the right to access quality digital educational resources without discrimination based on socioeconomic status, geography, gender, disability, or any other status. The State shall take progressive measures to ensure universal broadband connectivity and provide necessary devices to marginalized learners. A poor answer that omits non-discrimination language, state obligation, or the dignity foundation shows inability to transfer UDHR principles to a new context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

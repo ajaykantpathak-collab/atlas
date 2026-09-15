@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_18_009",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_18_009",
+   "title": "c12_eng_k_cbse_18_009",
+   "questions": [
+    {
+     "q": "Define 'situational irony' and 'symbol' in the specific context of non-fiction argumentative prose like Sen's essay. How do they differ from their use in a short story?",
+     "a": "Situational irony in non-fiction occurs when a historical outcome or intellectual position contradicts the explicit intentions or claims of the actors involved (e.g., Krishna's duty-argument \"winning\" but the epic's ending validating Arjuna's doubts). A symbol in non-fiction is a real historical entity (text, person, event) used by the author to embody an abstract concept (e.g., Oppenheimer symbolizes the peril of detached technical rationality). In fiction, irony/symbol are invented by the author; in Sen's essay, they are *discovered* in history and *deployed* as evidence. A wrong answer (e.g., \"irony is sarcasm\") reveals confusion between verbal irony/sarcasm and structural/historical irony, and a failure to grasp that non-fiction symbols are referential, not invented.",
+     "self_check": true
+    },
+    {
+     "q": "Sen writes: \"Krishna's hallowing of the demands of duty wins the argument, at least as seen in the religious perspective... And yet... the tragic desolation... can even be seen as something of a vindication of Arjuna's profound doubts.\" Identify the type of irony here and explain *why* it is not merely a contradiction.",
+     "a": "This is **historical/structural irony** (a subtype of situational irony): the declared \"winner\" of the debate (Krishna/Gita) is undermined by the very narrative framework (Mahabharata) that contains it. It is not a simple contradiction because the text *simultaneously* presents both positions as reasonable — the irony emerges from the *structure* of the epic, not a logical error. A wrong answer labeling this \"verbal irony\" or \"paradox\" misses that the irony resides in the historical/narrative outcome (the post-war desolation) contradicting the philosophical closure the Gita attempts, which is central to Sen's argument about the \"univocal message\" being insufficient.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of 'symbol' to Oppenheimer in Sen's essay. Quote the specific lines linking him to Krishna/Arjuna, then explain what abstract concept Oppenheimer *symbolizes* and why Sen chooses a 20th-century physicist rather than another ancient figure.",
+     "a": "Lines: \"J. Robert Oppenheimer... was moved to quote Krishna's words ('I am become death, the destroyer of worlds')... Oppenheimer, the physicist, could well find justification in his technical commitment to develop a bomb for what was clearly the right side.\" Oppenheimer **symbolizes the modern instantiation of the Krishna-Arjuna dilemma**: the danger of \"faring forward\" (duty/technical success) without \"faring well\" (consequential reflection). Sen chooses him because he makes the ancient dilemma *urgently contemporary* — nuclear annihilation is the ultimate consequence of ignoring Arjuna's perspective. A wrong answer (e.g., \"Oppenheimer symbolizes science\") fails to tie the symbol to the *specific ethical tension* (deontology vs consequentialism) that structures the essay.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how Sen uses the figures of **Gargi** and **Maitreyi** as *combined symbols*. What single abstract concept do they jointly represent that neither could alone, and how does this symbolic pairing serve his argument about gender and the argumentative tradition?",
+     "a": "Gargi (public, combative, intellectual interrogation) + Maitreyi (domestic, existential, questioning wealth's value) jointly symbolize **the epistemic authority of women across both public and private spheres**. Gargi alone symbolizes public debate; Maitreyi alone symbolizes philosophical insight. Together they shatter the \"tender/peace-loving\" stereotype Sen cites and prove women's arguments were \"not confined to an exclusive part.\" This pairing directly supports his claim that the argumentative tradition \"crossed barriers of gender.\" A wrong answer treating them as separate examples misses the *synthetic symbolic function* Sen constructs: he needs *both* modes to refute the \"male elite\" critique comprehensively.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of Sen's use of **irony** in the passage about the Congress Party presidency: \"The Presidentship... was not by any means a formal position only... Bose... led to a great inner-party tussle... secured—not entirely with propriety or elegance... Sonia Gandhi... chose to remain in that position, rather than take up the role of Prime Minister.\" Does this irony strengthen or weaken his case for women's political participation? Justify.",
+     "a": "It **strengthens** the case through **ironic juxtaposition**: the Congress presidency — a position of real power — was held by women (Naidu 1925, Sengupta 1933) *fifty years before* Britain's first female party leader (Thatcher 1975), yet the *same* position later becomes a site of male power-struggles (Bose ousted \"not entirely with propriety\") and a woman (Sonia Gandhi) *declines* the higher office (PM) to retain it. The irony exposes that women's leadership was *substantive* early on, but later co-opted by patriarchal power dynamics — proving participation ≠ unbroken equality. A wrong answer calling this \"just history\" misses the rhetorical work: the irony *performs* the argument that women's voice has been real but contested, mirroring the essay's broader thesis.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-sentence paragraph arguing a contemporary issue (e.g., social media regulation, climate policy) using **one symbol** and **one instance of situational irony** modeled on Sen's method (historical/contemporary parallel + abstract representation).",
+     "a": "*Example:* \"The 2024 heatwave that melted Delhi's asphalt — the very roads built for 'development' — is our modern Oppenheimer moment: the technical sweetness of infrastructure 'faring forward' without asking 'faring well' for the poor. The **air conditioner** has become the **symbol** of this asymmetry: it cools the rooms of the privileged while exhausting heat onto the streets where the homeless sleep. Ironically, the more we 'solve' heat with technology, the hotter the city becomes for those without access. Like Sen's Gita, our climate policies risk becoming a univocal 'duty to grow' that silences the Arjuna-question: *what world are we building?*\" A poor answer uses cliché symbols (e.g., \"dove for peace\") or verbal irony/sarcasm (\"Great job, polluters!\"), failing to replicate Sen's *historical-structural* irony and *conceptually precise* symbolism.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

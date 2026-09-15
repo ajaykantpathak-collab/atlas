@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_04_010",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_04_010",
+   "title": "c11_stat_cbse_04_010",
+   "questions": [
+    {
+     "q": "State the dimensional classification of a simple bar diagram and explain which geometric property represents the data magnitude.",
+     "a": "A simple bar diagram is a one-dimensional diagram. Only the height (or length) of the bar represents the magnitude of data; the width is arbitrary and carries no data information. A wrong answer (e.g., \"two-dimensional\" or \"width also matters\") reveals the student confuses bar diagrams with histograms where width represents class intervals. This confusion arises because both use rectangular bars, but the role of width differs fundamentally.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"A histogram is just a bar diagram with no gaps between bars, so it is also one-dimensional.\" Identify the error in this reasoning and explain why a histogram is two-dimensional.",
+     "a": "The error is assuming that visual similarity (rectangular bars) implies dimensional equivalence. In a histogram, the width of each rectangle equals the class interval and the height equals frequency density (frequency/width), so the AREA of each rectangle (width × height) represents the class frequency. Both dimensions carry data meaning. A wrong answer focusing only on \"no gaps\" reveals the student misses the mathematical reason for contiguous rectangles: continuous data requires area proportional to frequency, making it two-dimensional.",
+     "self_check": true
+    },
+    {
+     "q": "Given a frequency distribution with unequal class intervals, a student draws a histogram using frequency as height for all rectangles. Will this correctly represent the data? Justify your answer using the concept of two-dimensional diagrams.",
+     "a": "No, it will not correctly represent the data. Since a histogram is two-dimensional, the AREA of each rectangle must be proportional to class frequency. With unequal class intervals, using frequency as height makes wider classes appear disproportionately large. The correct height is frequency density = frequency / class width, so that area = width × (frequency/width) = frequency. A wrong answer (\"yes, height shows frequency\") reveals the student treats the histogram as one-dimensional like a bar diagram, ignoring that width carries data meaning in histograms.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a pie diagram and a component bar diagram representing the same compositional data (e.g., expenditure components of a family). Both show parts of a whole. Why is the pie diagram classified as two-dimensional while the component bar diagram is one-dimensional?",
+     "a": "In a pie diagram, the AREA of each sector (proportional to the square of the radius and the central angle) represents the component's magnitude — both radius and angle matter, making it two-dimensional. In a component bar diagram, only the LENGTH of each segment along the bar represents magnitude; the width of the bar is arbitrary and uniform. A wrong answer claiming both are one-dimensional or both two-dimensional reveals failure to distinguish between linear partitioning (bar) and angular/area partitioning (pie).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Three-dimensional diagrams (cubes, spheres, blocks) are more impressive and should be preferred over two-dimensional diagrams for presenting statistical data because they show more information.\"",
+     "a": "The statement is false and reflects a dangerous misconception. Three-dimensional diagrams are generally AVOIDED in statistical practice because human perception of volume is highly inaccurate — we systematically underestimate volume differences. A cube with double the side length has 8 times the volume, but viewers perceive it as only ~2 times larger. Two-dimensional diagrams (area) are already harder to compare than one-dimensional (length); adding a third dimension compounds distortion. A wrong answer agreeing with the statement reveals the student prioritises visual appeal over accurate data communication, violating the core principle of statistical graphics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new type of statistical diagram that could legitimately be classified as three-dimensional for a specific real-world dataset. Describe the dataset, the diagram design, and justify why volume (not just area or length) is the appropriate geometric representation.",
+     "a": "Example: A diagram showing \"CO₂ emissions by country\" where each country is represented by a sphere whose VOLUME is proportional to total emissions. Dataset: Country-wise annual CO₂ emissions (metric tonnes). Design: Spheres with radius r ∝ (emissions)^(1/3). Justification: Emissions are a volumetric physical quantity (gas volume); using volume creates a physically meaningful analogy. A poor answer would use 3D for non-volumetric data (e.g., \"3D bars for population\") or fail to justify why length/area wouldn't suffice, revealing the student doesn't understand that dimensional choice must match the data's physical/conceptual nature.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

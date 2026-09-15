@@ -1,0 +1,346 @@
+{
+ "class": 12,
+ "subject": "accountancy",
+ "chapter": 4,
+ "chapter_title": "Analysis of Financial Statements",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leac204.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leac.204.1.1",
+   "title": "Meaning of Financial Statement Analysis",
+   "section": "4.1",
+   "definition": "Financial statement analysis is the systematic study of the figures inside a company's statements -- sorting, relating and reading them -- so that the profitability, efficiency and health of the firm can be judged and decisions taken.",
+   "formula": "financial_analysis = classification_of_data + relationships_among_items + interpretation",
+   "key_idea": "Analysis simplifies the raw data first; interpretation then turns the simplified figures into judgements about the firm.",
+   "textbook_ref": "leac204.txt section 4.1 (lines 16-69)",
+   "question_patterns": [
+    "what is meant by analysis of financial statements",
+    "how does interpretation differ from analysis of statements",
+    "explain financial statement analysis as a study of relationships",
+    "what does an analyst try to learn from a set of statements",
+    "define the process of critically evaluating financial information",
+    "why must statement data be reorganised before it informs decisions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "simplify the data", "explain": "methodical classification of the statement figures reduces a mass of numbers to workable groups"},
+    {"step": 2, "action": "build the relationships", "explain": "items are compared across time, across statements and against totals to expose patterns"},
+    {"step": 3, "action": "read the results", "explain": "the relationships are interpreted to judge profitability, operational efficiency and financial health"}
+   ]
+  },
+  {
+   "id": "leac.204.2.1",
+   "title": "Significance of Financial Statement Analysis",
+   "section": "4.2",
+   "definition": "By setting statement items side by side, analysis exposes the strengths and weaknesses of a firm, and each reader -- management inside, creditors, investors and government outside -- extracts the answer to its own question.",
+   "formula": "analysis_output = financial_strengths + financial_weaknesses",
+   "key_idea": "The same analysed numbers let management steer, lenders secure and investors choose.",
+   "textbook_ref": "leac204.txt section 4.2 (lines 70-140)",
+   "question_patterns": [
+    "why is financial statement analysis significant for a firm",
+    "how does analysis reveal the strengths of a business",
+    "what do outsiders gain from analysing a company's statements",
+    "how does management use the analysis of its own statements",
+    "state the parties interested in financial statement analysis",
+    "can analysis of statements expose a firm's weaknesses"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the internal reader", "explain": "management measures efficiency, spots weaknesses and plans corrections"},
+    {"step": 2, "action": "identify the finance readers", "explain": "banks and creditors test short-term paying ability; investors judge earning power and growth"},
+    {"step": 3, "action": "identify the public readers", "explain": "government and researchers read the analysed figures for taxation, policy and industry study"}
+   ]
+  },
+  {
+   "id": "leac.204.3.1",
+   "title": "Objectives of Financial Statement Analysis",
+   "section": "4.3",
+   "definition": "Analysis aims at judging the earning capacity and efficiency of the firm, testing its ability to meet short-term and long-term obligations, and enabling comparison of performance across years and across firms.",
+   "formula": "analysis_goals = profitability_judgement + solvency_test + comparison_base",
+   "key_idea": "Every objective reduces to one move: put two figures beside each other and ask what the gap means.",
+   "textbook_ref": "leac204.txt section 4.3 (lines 141-172)",
+   "question_patterns": [
+    "state the objectives of analysing financial statements",
+    "how does analysis test the solvency of a firm",
+    "why is judging profitability an aim of statement analysis",
+    "what comparisons become possible after analysis",
+    "how does analysis help assess managerial efficiency",
+    "distinguish short-term and long-term solvency objectives"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "judge the earning side", "explain": "profitability and operating efficiency come out of the profit statement relationships"},
+    {"step": 2, "action": "judge the paying side", "explain": "short-term solvency (current obligations) and long-term solvency (debt burden) are tested from the balance sheet"},
+    {"step": 3, "action": "enable comparison", "explain": "intra-firm comparison across years and inter-firm comparison across companies rest on the analysed figures"}
+   ]
+  },
+  {
+   "id": "leac.204.4.1",
+   "title": "Tools of Financial Analysis",
+   "section": "4.4",
+   "definition": "The analyst's toolkit holds comparative statements, common size statements, trend analysis, ratio analysis and cash flow analysis; the first two run side by side (horizontal) while common size percentages read down the statement (vertical).",
+   "formula": "toolkit = comparative_statements + common_size_statements + trend_analysis + ratio_analysis + cash_flow_analysis",
+   "key_idea": "Comparative work is horizontal analysis across periods; common size work is vertical analysis inside one period.",
+   "textbook_ref": "leac204.txt section 4.4 (lines 173-253)",
+   "question_patterns": [
+    "name the tools used for analysing financial statements",
+    "which analysis is called horizontal and which vertical",
+    "how do common size statements differ from comparative statements",
+    "what does trend analysis add to statement study",
+    "when would an analyst pick ratio analysis over other tools",
+    "list the techniques financial experts have developed for analysis"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "pair the period tools", "explain": "comparative statements set two years' absolute figures and changes together; trend percentages stretch the view over several years"},
+    {"step": 2, "action": "pair the proportion tools", "explain": "common size statements express each item as a percentage of a common base; ratios relate chosen pairs of figures"},
+    {"step": 3, "action": "add the movement tool", "explain": "cash flow analysis traces where funds came from and where they went"}
+   ]
+  },
+  {
+   "id": "leac.204.4.2",
+   "title": "Trend Percentage",
+   "section": "4.4",
+   "definition": "A trend percentage shows how each item of a chosen year stands against the same item of a fixed base year, with the base year itself read as one hundred.",
+   "formula": "trend_percentage = item_value_in_given_year / item_value_in_base_year * 100",
+   "key_idea": "One fixed base year turns scattered yearly figures into a long-run direction line for every item.",
+   "textbook_ref": "leac204.txt section 4.4, Trend Analysis para (lines 173-253)",
+   "question_patterns": [
+    "compute the trend percentage taking a given year as base",
+    "how is a trend percentage calculated with the base year at one hundred",
+    "find the trend index of sales for the third year",
+    "express each year's figure as a percentage of the base year",
+    "what does a trend percentage above one hundred indicate",
+    "study the direction of an item across years using trend analysis"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "fix the base year figure", "explain": "pick the same item in the base year; it will read as one hundred", "compute": "base_index = item_value_in_base_year"},
+    {"step": 2, "action": "scale the given year to the base", "explain": "divide the given year's item value by the base value and multiply by one hundred", "compute": "trend_percentage = item_value_in_given_year / base_index * 100"}
+   ]
+  },
+  {
+   "id": "leac.204.5.1",
+   "title": "Comparative Statement: Absolute Change",
+   "section": "4.5",
+   "definition": "In a comparative statement the change column is found by subtracting each previous year figure from the matching current year figure, and the result is read as an increase or a decrease in rupees.",
+   "formula": "absolute_change = current_year_figure - previous_year_figure",
+   "key_idea": "A positive difference is an increase shown with a plus sign; a negative one is a decrease shown with a minus sign.",
+   "textbook_ref": "leac204.txt section 4.5, steps 1-2, Exhibit 4.1 (lines 254-294)",
+   "question_patterns": [
+    "find the absolute increase or decrease between two years",
+    "compute the change in rupees for an item in a comparative statement",
+    "by how much did revenue from operations rise over the year",
+    "prepare the difference column of a comparative balance sheet",
+    "what does a minus figure in the change column mean",
+    "work out the increase in an expense item between two dates"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "subtract the base year", "explain": "previous year figure comes off the current year figure", "compute": "absolute_change = current_year_figure - previous_year_figure"}
+   ]
+  },
+  {
+   "id": "leac.204.5.2",
+   "title": "Comparative Statement: Percentage Change",
+   "section": "4.5",
+   "definition": "The percentage column of a comparative statement divides the absolute change by the first year figure and multiplies by one hundred, showing how fast the item moved relative to where it started.",
+   "formula": "percentage_change = absolute_change / previous_year_figure * 100",
+   "key_idea": "Rupees say how much moved; the percentage says how big the move was against the base, which is what makes years comparable.",
+   "textbook_ref": "leac204.txt section 4.5 step 3, Illustration 1 (lines 265-371)",
+   "question_patterns": [
+    "calculate the percentage increase shown in a comparative statement",
+    "express the change in an item as a percentage of the previous year",
+    "find the percentage decrease in a cost item between two years",
+    "complete the percentage column of a comparative profit statement",
+    "by what percent did revenue grow compared with last year",
+    "which grew faster in percentage terms, revenue or expenses"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "measure the absolute move", "explain": "current year figure minus previous year figure", "compute": "absolute_change = current_year_figure - previous_year_figure"},
+    {"step": 2, "action": "scale the move to the starting point", "explain": "divide the change by the previous year figure and multiply by one hundred", "compute": "percentage_change = absolute_change / previous_year_figure * 100"}
+   ]
+  },
+  {
+   "id": "leac.204.5.3",
+   "title": "Profit after Tax in a Comparative Statement",
+   "section": "4.5",
+   "definition": "Each year's column in a comparative profit statement runs from total revenue, through expenses, to profit before tax, then tax at that year's rate, and finally profit after tax -- and the change columns compare the two years' bottom lines.",
+   "formula": "profit_after_tax = profit_before_tax - profit_before_tax * tax_rate",
+   "key_idea": "Tax belongs inside each year's column, so both the absolute and percentage comparisons of profit after tax are fair.",
+   "textbook_ref": "leac204.txt section 4.5, Illustration 1 (lines 295-371)",
+   "question_patterns": [
+    "find profit after tax for both years in a comparative statement",
+    "compute the tax charge for each year at the given rates",
+    "prepare a comparative profit statement from revenue and expense figures",
+    "how does the tax rate change the profit after tax comparison",
+    "work out profit before tax and then deduct income tax",
+    "compare the profit after tax of two years in absolute and percentage terms"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "reach the pre-tax line", "explain": "total revenue (operations plus other income) less total expenses", "compute": "profit_before_tax = total_revenue - total_expenses"},
+    {"step": 2, "action": "charge the year's tax", "explain": "apply that year's tax rate to the pre-tax profit", "compute": "tax_amount = profit_before_tax * tax_rate"},
+    {"step": 3, "action": "drop to the after-tax line", "explain": "pre-tax profit less the tax charge is profit after tax", "compute": "profit_after_tax = profit_before_tax - tax_amount"}
+   ]
+  },
+  {
+   "id": "leac.204.6.1",
+   "title": "Common Size Statement Percentage",
+   "section": "4.6",
+   "definition": "A common size statement re-expresses every item as a percentage of one chosen base for the same period -- revenue from operations in the profit statement, total assets or total liabilities in the balance sheet.",
+   "formula": "common_size_percentage = item_amount / base_amount * 100",
+   "key_idea": "Because every item becomes a share of the same hundred, statements of firms of very different sizes become comparable.",
+   "textbook_ref": "leac204.txt section 4.6, Illustration 5 (lines 812-941)",
+   "question_patterns": [
+    "convert an income statement into a common size statement",
+    "express each item as a percentage of revenue from operations",
+    "find the percentage of total assets occupied by an asset",
+    "prepare the common size balance sheet of a company",
+    "what number is taken as one hundred in a common size statement",
+    "compare the cost structure of two firms using common size figures"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "fix the base", "explain": "revenue from operations for the profit statement, total assets or total liabilities for the balance sheet", "compute": "base_amount = revenue_from_operations"},
+    {"step": 2, "action": "scale the item to the base", "explain": "divide the item amount by the base and multiply by one hundred", "compute": "common_size_percentage = item_amount / base_amount * 100"}
+   ]
+  },
+  {
+   "id": "leac.204.6.2",
+   "title": "Inter-firm Use of Common Size Analysis",
+   "section": "4.6",
+   "definition": "Stripping out absolute sizes, common size percentages let an analyst compare the structure of statements of firms of different magnitudes in one industry, and track how one firm's structure shifts year after year.",
+   "formula": "structure_comparison = firm_a_percentages_versus_firm_b_percentages",
+   "key_idea": "Percentages kill the size advantage: a small firm and a giant can be read on the same page.",
+   "textbook_ref": "leac204.txt section 4.6 (lines 824-841)",
+   "question_patterns": [
+    "why are common size statements suited to comparing firms of different sizes",
+    "how does common size analysis support inter-firm comparison",
+    "what changes do successive common size statements reveal",
+    "compare the expense mix of two companies using percentages",
+    "what insight does the component percentage view give an analyst",
+    "can a small company be compared with a large one through statements"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "put both firms on percentages", "explain": "each item becomes a share of the common base, so absolute size stops mattering"},
+    {"step": 2, "action": "read the structure", "explain": "cost shares, asset mixes and financing patterns line up side by side"},
+    {"step": 3, "action": "read the drift", "explain": "the same statement over successive years shows which components grew or shrank in importance"}
+   ]
+  },
+  {
+   "id": "leac.204.7.1",
+   "title": "Limitations of Financial Analysis",
+   "section": "4.7",
+   "definition": "Analysis inherits every weakness of the statements behind it: it ignores price level changes, stumbles on undisclosed accounting policy changes, reads only monetary data, and studies past reports rather than live conditions.",
+   "formula": "analysis_reliability = statement_quality - price_level_effects - non_monetary_gaps",
+   "key_idea": "Windows dressed for presentation and personal judgement inside the figures pass straight through into every tool's output.",
+   "textbook_ref": "leac204.txt section 4.7 (lines 1286-1332)",
+   "question_patterns": [
+    "state the limitations of financial statement analysis",
+    "why do price level changes distort the analysis",
+    "how can window dressing mislead an analyst",
+    "what is lost when only monetary information is analysed",
+    "why must the analyst know changes in accounting policy",
+    "is analysis of past reports enough to judge the present"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "carry over statement defects", "explain": "whatever weakened the statements -- estimates, conventions, judgements -- weakens the analysis"},
+    {"step": 2, "action": "flag the price level blind spot", "explain": "figures of different years sit on different price levels, so raw comparisons mislead"},
+    {"step": 3, "action": "flag the data blind spots", "explain": "non-monetary aspects stay invisible, and policy changes or window dressing can bend every ratio and percentage"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "leac204.txt Illustration 1 (BCR Co. Ltd, revenue line)",
+   "concept": "leac.204.5.2",
+   "question_type": "numeric",
+   "question_pattern": "Revenue from operations moves from Rs.{previous_year_figure} to Rs.{current_year_figure}. Show the absolute and percentage change.",
+   "extracted_variables": {
+    "previous_year_figure": 6000000,
+    "current_year_figure": 7500000
+   },
+   "solution_template": [
+    {"step": 1, "action": "measure the absolute move", "explain": "7500000 - 6000000 = 1500000", "compute": "absolute_change = current_year_figure - previous_year_figure"},
+    {"step": 2, "action": "scale the move to the starting point", "explain": "1500000 / 6000000 x 100 = 25", "compute": "percentage_change = absolute_change / previous_year_figure * 100"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "leac204.txt Illustration 1 (BCR Co. Ltd, 2016-17 column)",
+   "concept": "leac.204.5.3",
+   "question_type": "numeric",
+   "question_pattern": "Total revenue is Rs.{total_revenue} and expenses are Rs.{total_expenses}; income tax runs at {tax_rate}. What is profit after tax?",
+   "extracted_variables": {
+    "total_revenue": 7620000,
+    "total_expenses": 5060000,
+    "tax_rate": 0.40
+   },
+   "solution_template": [
+    {"step": 1, "action": "reach the pre-tax line", "explain": "7620000 - 5060000 = 2560000", "compute": "profit_before_tax = total_revenue - total_expenses"},
+    {"step": 2, "action": "charge the year's tax", "explain": "2560000 x 0.40 = 1024000", "compute": "tax_amount = profit_before_tax * tax_rate"},
+    {"step": 3, "action": "drop to the after-tax line", "explain": "2560000 - 1024000 = 1536000", "compute": "profit_after_tax = profit_before_tax - tax_amount"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "leac204.txt Illustration 5 (common size income statement, 2016-17)",
+   "concept": "leac.204.6.1",
+   "question_type": "numeric",
+   "question_pattern": "Revenue from operations is Rs.{base_amount} and cost of goods sold Rs.{item_amount}. State the common size percentage of the cost.",
+   "extracted_variables": {
+    "base_amount": 1800000,
+    "item_amount": 1000000
+   },
+   "solution_template": [
+    {"step": 1, "action": "fix the base", "explain": "revenue from operations is the base at one hundred", "compute": "base_amount_confirmed = base_amount"},
+    {"step": 2, "action": "scale the item to the base", "explain": "1000000 / 1800000 x 100 = 55.56", "compute": "common_size_percentage = item_amount / base_amount * 100"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-practice-1",
+   "source_ref": "leac204.txt Questions for Practice, Short Answer Q1-Q5",
+   "questions": [
+    "state the meaning of analysis of financial statements",
+    "why do parties outside the firm analyse its statements",
+    "how are comparative and common size statements different",
+    "name the tools an analyst can apply to financial statements",
+    "which analysis is horizontal and which is vertical"
+   ]
+  },
+  {
+   "id": "ex-practice-2",
+   "source_ref": "leac204.txt Questions for Practice, Long Answer Q1-Q4",
+   "questions": [
+    "discuss the significance of analysing financial statements for management and outsiders",
+    "explain the objectives an analyst pursues with the statements",
+    "describe the preparation of comparative statements with their steps",
+    "bring out the limitations of financial statement analysis"
+   ]
+  },
+  {
+   "id": "ex-numerical-1",
+   "source_ref": "leac204.txt Illustrations 1-2",
+   "questions": [
+    "convert a two-year profit statement into comparative form with absolute and percentage changes, tax applied at each year's rate",
+    "from revenue and expense figures of two years, find the change in profit before tax in rupees and percent"
+   ]
+  },
+  {
+   "id": "ex-numerical-2",
+   "source_ref": "leac204.txt Illustrations 5-6",
+   "questions": [
+    "prepare a common size income statement for two years taking revenue as the base",
+    "express the items of a profit statement as percentages of revenue from operations and compare the two years"
+   ]
+  }
+ ]
+}

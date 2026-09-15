@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_03_005",
+   "title": "c11_eco_cbse_03_005",
+   "questions": [
+    {
+     "q": "What were the top marginal personal income tax rate and corporation tax rate in India immediately before the 1991 reforms, and what was the primary rationale for reducing them?",
+     "a": "The top marginal personal income tax rate was 56% (with surcharge effectively higher) and corporation tax rate was around 50-55%. The primary rationale was that high rates encouraged tax evasion, discouraged savings and investment, and yielded low revenue due to narrow compliance; moderate rates were expected to widen the tax base and improve voluntary disclosure. A wrong answer (e.g., \"rates were already low\" or \"reduction was to help the rich\") reveals confusion between statutory rates and effective rates, and misunderstanding of the Laffer curve logic that underpinned the Chelliah Committee recommendations.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the introduction of MODVAT (Modified Value Added Tax) in 1986 and its evolution into CENVAT and finally GST represents a solution to the \"cascading effect\" of indirect taxes. Use a numerical example with a manufacturer, wholesaler, and retailer.",
+     "a": "Under the old system, tax was levied on the full value at each stage (manufacturer pays excise on raw materials + value added, wholesaler pays sales tax on manufacturer's price including excise, retailer pays sales tax on wholesaler's price including previous taxes) — tax on tax. MODVAT allowed credit for excise paid on inputs; CENVAT extended this to services; GST subsumed all central and state indirect taxes with seamless input tax credit across the chain. Example: Manufacturer buys raw material for ₹100 + ₹10 tax, sells for ₹150. Under old system: tax on ₹150. Under MODVAT/GST: tax only on ₹50 value added. Wrong answer (e.g., \"MODVAT reduced tax rates\") confuses rate reduction with structural elimination of cascading — the rate could stay same but base changes to value added only.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the tax-GDP ratio for India in 1990-91 and 2022-23 given: 1990-91 tax revenue ₹1,10,000 crore, GDP ₹5,86,000 crore; 2022-23 tax revenue ₹30,40,000 crore, GDP ₹2,72,40,000 crore. Interpret the change in the context of tax reforms.",
+     "a": "Step 1: 1990-91 tax-GDP ratio = (1,10,000 / 5,86,000) × 100 = 18.77%. Step 2: 2022-23 tax-GDP ratio = (30,40,000 / 2,72,40,000) × 100 = 11.16%. Step 3: Despite reforms, ratio declined from ~18.8% to ~11.2%. Step 4: This seems counterintuitive but reflects: (a) GDP denominator grew faster due to liberalisation, (b) direct tax cuts reduced revenue elasticity initially, (c) indirect tax base narrowed as services were undertaxed pre-GST, (d) tax exemptions/incentives for investment. Step 5: Post-GST (2017), ratio improved from ~10% to ~11.2%, showing structural reform takes time. Wrong answer (e.g., \"reforms failed because ratio fell\") ignores denominator effect and the distinction between tax buoyancy and tax-GDP ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the following statement: \"The reduction in peak customs duty from 150% (1991) to 10-15% (post-reforms) and the introduction of GST have had opposite effects on the government's revenue from indirect taxes.\" Is this accurate? Justify with the concepts of revenue elasticity and tax base.",
+     "a": "The statement is partially accurate but oversimplified. Customs duty reduction: lower rate × higher import volume (due to liberalisation) → revenue effect ambiguous; initially revenue fell but later rose as import volume surged (high elasticity). GST: replaced multiple taxes (excise, service tax, VAT, CST, etc.) with a single tax; initially revenue dipped due to rate rationalisation and compliance transition, but base widened dramatically (formalisation, input credit trail) and buoyancy improved. The key difference: customs reform was rate-cut driven (Laffer curve), GST was base-broadening driven (compliance). Wrong answer (e.g., \"both reduced revenue\") misses that GST's design aims for revenue neutrality at higher compliance — the 2022-23 GST collection of ₹18.1 lakh crore vs pre-GST indirect tax ~₹9 lakh crore (2016-17) shows base effect dominating.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Post-1991 tax reforms successfully reduced the fiscal deficit because lower tax rates led to higher compliance and thus higher absolute revenue.\" Use the concepts of fiscal deficit, primary deficit, and revenue deficit with reference to the FRBM Act (2003) targets.",
+     "a": "The claim is false. Fiscal deficit = Total expenditure - Total revenue (excluding borrowings). Post-1991: tax revenue as % of GDP fell from ~18% to ~10-11% until GST; fiscal deficit remained high (5-6% of GDP) until FRBM Act (2003) mandated reduction to 3% by 2008-09. The deficit reduction came from expenditure compression (capital expenditure cut, subsidy rationalisation) NOT from tax revenue surge. Revenue deficit (revenue expenditure - revenue receipts) persisted, showing current spending exceeded current revenue. Primary deficit (fiscal deficit - interest payments) improved only when interest burden fell. Wrong answer (e.g., \"reforms fixed the deficit\") confuses structural fiscal consolidation with cyclical revenue improvement — the FRBM Act enforced expenditure discipline, not tax miracles.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simplified tax reform proposal for a hypothetical state government that currently has: (a) 5% VAT on goods, (b) 8% entertainment tax, (c) 10% luxury tax, (d) no service tax. The state wants to adopt a mini-GST model. Specify the rate structure, input credit mechanism, and one administrative simplification. Justify how this addresses cascading and compliance.",
+     "a": "Proposal: Single SGST rate of 12% on all goods and services (replacing VAT, entertainment, luxury taxes). Input credit: full credit for SGST paid on inputs (raw materials, services, capital goods) against output SGST liability. Administrative simplification: unified monthly return (GSTR-3B equivalent) with auto-populated input credit from supplier invoices. Justification: (1) Cascading eliminated — service providers (previously untaxed) now in chain, manufacturers claim credit on services. (2) Compliance: one return, one rate, digital invoice matching reduces evasion. (3) Revenue neutrality: 12% on broader base (goods + services) ≈ old 5%+8%+10% on narrow base. Poor answer (e.g., \"keep multiple rates for equity\") reintroduces classification disputes and cascading — the core GST principle is \"one nation, one tax, one rate\" for efficiency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

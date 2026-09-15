@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch05_060",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch05_060",
+   "title": "c6_math_ch05_060",
+   "questions": [
+    {
+     "q": "If a sequence starts 5, 8, 11, 14, ..., what is the \"jump\" or common difference between consecutive terms?",
+     "a": "The jump is 3. A student who says \"5\" or \"14\" is confusing the starting term or the last term with the rate of change.",
+     "self_check": true
+    },
+    {
+     "q": "For the pattern 4, 7, 10, 13, ..., if the rule is $3n + 1$, what does the letter 'n' represent?",
+     "a": "'n' represents the position of the term (1st, 2nd, 3rd, etc.). If a student says 'n' is just any number, they miss the concept that 'n' links the position to the value.",
+     "self_check": true
+    },
+    {
+     "q": "A pattern follows the rule $5n - 2$. Find the 10th term.",
+     "a": "The 10th term is $5(10) - 2 = 48$. A student who calculates $5 \\times (10 - 2)$ shows an error in understanding the order of operations or the formula structure.",
+     "self_check": true
+    },
+    {
+     "q": "Given the pattern 2, 5, 8, 11, ..., why is it incorrect to say the rule is simply $3n$?",
+     "a": "$3n$ would give 3, 6, 9... for $n=1, 2, 3$. Because the sequence starts at 2, $3n$ is always 1 too high. A student who thinks $3n$ is correct ignores the starting value.",
+     "self_check": true
+    },
+    {
+     "q": "If a student claims the rule for 10, 20, 30, 40 is $n + 10$, is this correct? Justify your answer.",
+     "a": "No, it is incorrect. For $n=1$, $n+10$ gives 11, not 10. The correct rule is $10n$. A student who agrees with $n+10$ likely confuses addition with multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "Create a number pattern where the 1st term is 5 and each term increases by 4. Write the algebraic rule for your pattern.",
+     "a": "The sequence is 5, 9, 13, 17... The rule is $4n + 1$. A poor answer would be a sequence that doesn't increase by 4 or a rule that doesn't produce the first term correctly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

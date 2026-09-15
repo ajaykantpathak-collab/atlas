@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_18_006",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_18_006",
+   "title": "c11_ps_cbse_18_006",
+   "questions": [
+    {
+     "q": "According to Article 368, which type of constitutional amendment requires a special majority of Parliament and ratification by at least half of the state legislatures?",
+     "a": "Amendments affecting the federal structure — such as the election of the President (Articles 54, 55), extent of executive power of Union and States (Articles 73, 162), the judiciary (Articles 241, Chapter IV of Part V, Chapter V of Part VI), distribution of legislative powers (Chapter I of Part XI, Seventh Schedule), representation of States in Parliament, and Article 368 itself — require a special majority in both Houses of Parliament and ratification by legislatures of not less than one-half of the States. A wrong answer (e.g., \"all amendments require state ratification\") reveals the student has not distinguished the three categories of amendments under Article 368.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Constitution makers create a tiered amendment process instead of a single uniform procedure for all amendments?",
+     "a": "The tiered process balances rigidity and flexibility: provisions affecting the federal structure or fundamental rights need greater consensus (rigidity) to prevent arbitrary changes by a transient central majority, while administrative or procedural provisions can be updated more easily (flexibility) to keep the Constitution functional. A wrong answer (e.g., \"to make it easy for the government to change the Constitution\") shows the student misunderstands the protective purpose of rigidity and confuses flexibility with legislative convenience.",
+     "self_check": true
+    },
+    {
+     "q": "A political party with a simple majority in Parliament wants to amend the Constitution to increase the number of Supreme Court judges. Which amendment procedure applies, and can they do it alone?",
+     "a": "Increasing the number of Supreme Court judges falls under \"the Supreme Court\" (Chapter IV of Part V), a federal structure provision. It requires a special majority in Parliament (two-thirds of members present and voting, and a majority of the total membership of each House) AND ratification by at least half the state legislatures. They cannot do it with a simple majority. A wrong answer (e.g., \"simple majority is enough\") reveals the student cannot map specific constitutional provisions to the correct amendment category.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Indian Constitution's amendment procedure with that of the USA (rigid, requiring 2/3 Congress + 3/4 states) and the UK (flexible, ordinary legislation). What does the Indian model achieve that the other two do not?",
+     "a": "The Indian model achieves a calibrated balance: it is more flexible than the US (allowing some amendments by simple/special majority without state ratification) but more rigid than the UK (protecting federal and rights provisions via special majorities and state ratification). This allows the Constitution to adapt without losing its federal character or core rights. A wrong answer (e.g., \"Indian Constitution is just like the US\") shows the student hasn't analyzed the three-tier structure and its nuanced balance.",
+     "self_check": true
+    },
+    {
+     "q": "The 42nd Amendment (1976) was passed during Emergency with a massive majority and amended many parts of the Constitution, including the Preamble and fundamental rights. Evaluate whether the amendment procedure at that time provided sufficient rigidity to prevent such sweeping changes.",
+     "a": "The procedure required a special majority, which the government had. However, the basic structure doctrine (established in 1973) was not yet fully applied to strike down amendments. The rigidity was procedural but not substantive until the judiciary intervened. Thus, the procedure alone was insufficient; judicial review of amendments (basic structure) was needed to add substantive rigidity. A wrong answer (e.g., \"the procedure worked perfectly\") ignores the historical fact that the 42nd Amendment is widely seen as an abuse of the amendment power.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a constitutional amendment proposal that would change the method of electing the President of India from an electoral college to direct election by the people. Identify the exact amendment procedure required and justify why this provision falls in that category.",
+     "a": "The proposal must amend Articles 54 and 55 (election of President). These are federal structure provisions (affecting the Union executive and state representation). Procedure: Special majority in both Houses of Parliament + ratification by legislatures of at least half the states. Justification: Changing the President's election method alters the federal balance and the nature of the Union executive, so it requires broad consensus. A poor answer (e.g., \"simple majority because it's just an election method\") shows the student doesn't understand which provisions are considered federal and why they need extra protection.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

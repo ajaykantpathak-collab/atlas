@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch05_003",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch05_003",
+   "title": "c7_math_ch05_003",
+   "questions": [
+    {
+     "q": "What is the mathematical relationship between two vertically opposite angles formed by two intersecting straight lines?",
+     "a": "They are always equal to each other. A student who answers that they add up to $180^\\circ$ is confusing vertically opposite angles with linear pairs or supplementary angles. A student who says they are unequal lacks basic recall of intersecting line properties.",
+     "self_check": true
+    },
+    {
+     "q": "If two lines intersect, a student claims that all four angles formed around the point of intersection are equal. Explain why this claim is only true under a very specific condition, and state what that condition is.",
+     "a": "The claim is only true if the two intersecting lines are perpendicular to each other, forming four right angles ($90^\\circ$ each). A student who thinks all four angles are always equal does not understand that intersection can happen at any slant, creating acute and obtuse pairs rather than four equal angles.",
+     "self_check": true
+    },
+    {
+     "q": "Two straight lines AB and CD intersect at point O. If angle AOC is given as $65^\\circ$, what is the measure of its vertically opposite angle BOD?",
+     "a": "The measure of angle BOD is $65^\\circ$. \nSteps:\n1. Identify that angle AOC and angle BOD are vertically opposite angles formed by the intersection of lines AB and CD.\n2. Recall the property that vertically opposite angles are equal.\n3. Therefore, $\\angle BOD = \\angle AOC = 65^\\circ$.\nA student who subtracts $65^\\circ$ from $180^\\circ$ is incorrectly treating the vertically opposite angle as part of a linear pair.",
+     "self_check": true
+    },
+    {
+     "q": "Lines PQ and RS intersect at point T, forming angle PTR equal to $3x^\\circ$ and angle STQ equal to $(2x + 25)^\\circ$. How do you decide whether to set these two expressions equal or add them to $180^\\circ$?",
+     "a": "You set them equal to each other ($3x = 2x + 25$) because they are vertically opposite angles, not adjacent angles on a straight line. A student who adds them to $180^\\circ$ fails to analyze the geometric position of the angles relative to the intersecting lines.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves for $x$ in a diagram where two vertically opposite angles are given as $(4x - 10)^\\circ$ and $(2x + 30)^\\circ$. Their working is: $4x - 10 + 2x + 30 = 180$, leading to $6x + 20 = 180$, so $6x = 160$. Evaluate this working and identify the error.",
+     "a": "The student's working is incorrect. They mistakenly treated vertically opposite angles as a linear pair summing to $180^\\circ$. The correct approach is to equate them: $4x - 10 = 2x + 30$, which solves to $2x = 40$, giving $x = 20$. A student who defends the student's work does not understand the difference between vertical angles and linear pairs.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a word problem scenario involving a scissor blade opening up at an angle of $72^\\circ$, where a student must use vertically opposite angles to find the measurement of the angle directly across from it, including an algebraic twist.",
+     "a": "Expected answer format: A scenario where a pair of open scissor blades forms an intersection point. One blade angle is expressed as $(5x + 2)^\\circ$ and the vertically opposite angle is given as $37^\\circ$, requiring the student to set $5x + 2 = 37$ and solve for $x$. A poor answer creates adjacent angles instead of opposite ones or sets them up to equal $180^\\circ$ incorrectly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

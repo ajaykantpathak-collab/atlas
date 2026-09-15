@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_09_007",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_09_007",
+   "title": "c11_math_cbse_09_007",
+   "questions": [
+    {
+     "q": "State the formula for the sum of an infinite GP and the necessary and sufficient condition for its existence.",
+     "a": "The sum is S∞ = a/(1−r) provided |r| < 1. If |r| ≥ 1, the sum does not exist (diverges). A wrong answer like \"S∞ = a/(r−1)\" or stating the condition as \"r < 1\" (missing absolute value) reveals confusion about the derivation from Sₙ or misunderstanding that negative ratios with magnitude < 1 also converge.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the infinite GP 5, −10, 20, −40, ... does not have a finite sum, while 5, −2.5, 1.25, −0.625, ... does. Use the behaviour of rⁿ in your reasoning.",
+     "a": "For the first GP, r = −2 so |r| = 2 > 1. As n→∞, |rⁿ| = 2ⁿ → ∞, so Sₙ = a(1−rⁿ)/(1−r) oscillates with increasing magnitude and has no limit. For the second GP, r = −0.5 so |r| = 0.5 < 1. As n→∞, rⁿ = (−0.5)ⁿ → 0, so Sₙ → a/(1−r) = 5/1.5 = 10/3. A wrong answer focusing only on the sign of r (e.g. \"negative ratio means no sum\") reveals the misconception that convergence depends on sign rather than magnitude.",
+     "self_check": true
+    },
+    {
+     "q": "Find the sum of the infinite GP: 18, 6, 2, 2/3, ...",
+     "a": "Given: a = 18, r = 6/18 = 1/3. Check: |r| = 1/3 < 1 ✓. S∞ = a/(1−r) = 18/(1−1/3) = 18/(2/3) = 18 × 3/2 = 27. A wrong answer of 54 (using r = 3 instead of 1/3) or \"no sum\" (misidentifying r) reveals confusion between common ratio and its reciprocal, or inability to identify r from the sequence.",
+     "self_check": true
+    },
+    {
+     "q": "An infinite GP has first term 12 and sum 16. Find its common ratio. Then determine whether the GP 12, 12r, 12r², ... converges or diverges if r is replaced by −r.",
+     "a": "S∞ = a/(1−r) ⇒ 16 = 12/(1−r) ⇒ 1−r = 12/16 = 3/4 ⇒ r = 1/4. Original GP: r = 1/4, |r| < 1 → converges. With −r = −1/4: |−1/4| = 1/4 < 1 → still converges. Sum becomes 12/(1+1/4) = 12/(5/4) = 48/5 = 9.6. A wrong answer claiming divergence for −r reveals the misconception that negative ratio implies divergence.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The sum of the infinite GP 1, 2, 4, 8, ... is −1 because S∞ = 1/(1−2) = −1.\" Identify the error and explain why the formula cannot be applied here.",
+     "a": "The error is applying S∞ = a/(1−r) without verifying |r| < 1. Here r = 2, so |r| = 2 > 1. The formula is derived assuming rⁿ → 0 as n→∞, but 2ⁿ → ∞. The expression 1/(1−2) = −1 is algebraically correct but mathematically meaningless for this series — the partial sums are 1, 3, 7, 15, ... which diverge to +∞, not −1. A student who accepts −1 as the answer reveals they treat the formula as a black box without understanding its domain of validity.",
+     "self_check": true
+    },
+    {
+     "q": "Construct an infinite GP whose sum is 5 and whose first term is 2. Then create a different infinite GP with the same sum but a different first term. Explain how many such GPs exist.",
+     "a": "For a = 2, S∞ = 5: 5 = 2/(1−r) ⇒ 1−r = 2/5 ⇒ r = 3/5. GP: 2, 6/5, 18/25, ... For a = 3, S∞ = 5: 5 = 3/(1−r) ⇒ r = 2/5. GP: 3, 6/5, 12/25, ... Infinitely many such GPs exist: for any a with 0 < |a| < 5, choose r = 1 − a/5. Since |r| = |1−a/5| < 1 when 0 < a < 10, all these converge to 5. A poor answer giving only one example or claiming uniqueness reveals lack of understanding that (a, r) pairs satisfying a/(1−r) = 5 form a one-parameter family.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

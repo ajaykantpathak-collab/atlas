@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_07_003",
+   "title": "c10_geo_cbse_07_003",
+   "questions": [
+    {
+     "q": "State the exact track widths (in millimeters) for broad gauge, meter gauge, and narrow gauge in Indian Railways, and name the gauge conversion project aimed at unifying the network.",
+     "a": "Broad gauge = 1676 mm, Meter gauge = 1000 mm, Narrow gauge = 762 mm (or 610 mm for specific hill lines). The unification project is Project Unigauge. A wrong answer (e.g., stating broad gauge as 1524 mm — the Russian standard — or confusing meter gauge with 1067 mm Cape gauge) reveals the student has memorized approximate values without precision required for board exam definitions. Board marking schemes deduct marks for incorrect gauge measurements.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Northern Plains have the highest railway network density in India while the Himalayan region and northeastern states have sparse networks, linking your answer to specific physiographic features studied in Class 6.",
+     "a": "The Northern Plains (c6_geography_ch01_003) offer flat terrain, gentle gradients, and dense population — ideal for low-cost construction and high traffic volume. The Himalayas (c6_geography_ch01_002) have steep slopes, unstable geology, and sparse population, making construction prohibitively expensive. Northeastern states face similar terrain barriers plus heavy rainfall causing landslides. A wrong answer citing only \"population\" or only \"terrain\" shows incomplete understanding — board questions require linking physical geography (relief, drainage, geology) to human geography (network density, economic viability).",
+     "self_check": true
+    },
+    {
+     "q": "A freight train loads 4,500 tonnes of coal at Jharsuguda (Odisha) on broad gauge and must reach a power plant in Tamil Nadu. If the route includes a meter gauge section requiring transshipment, calculate the additional time and cost if transshipment takes 6 hours and costs ₹150 per tonne. Then explain how Project Unigauge eliminates this.",
+     "a": "Additional cost = 4,500 tonnes × ₹150/tonne = ₹6,75,000. Additional time = 6 hours transshipment + 2-3 hours for shunting/weighing = ~8-9 hours total delay. Project Unigauge converts meter/narrow gauge to broad gauge, creating a continuous 1676 mm network — wagons move directly without unloading/reloading, eliminating transshipment cost and time. A wrong answer that only calculates cost but ignores time, or vice versa, fails the \"analyze\" requirement. Board case-study questions test both quantitative and qualitative impacts.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the economic significance of the Eastern Dedicated Freight Corridor (Ludhiana–Dankuni) and Western Dedicated Freight Corridor (Dadri–JNPT) in terms of the industrial regions they connect and the type of freight they prioritize.",
+     "a": "Eastern DFC connects the coal-rich Chotanagpur Plateau (Jharkhand/Odisha/West Bengal) to the industrial hubs of Punjab/Haryana and the Kolkata port — prioritizes coal, steel, cement for power plants and export. Western DFC links the Delhi-Mumbai Industrial Corridor (DMIC) to JNPT (India's largest container port) — prioritizes containers, automobiles, fertilizers, food grains for EXIM trade. A wrong answer that swaps the corridors or lists generic \"goods\" without naming specific commodities/regions shows inability to map infrastructure to economic geography — a common board exam trap in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Converting all meter and narrow gauge lines to broad gauge is always economically justified for Indian Railways.\" Consider hilly regions like the Nilgiri Mountain Railway (UNESCO site) and strategic border areas.",
+     "a": "Not always justified. In hilly terrain (Nilgiri, Darjeeling, Kalka-Shimla), narrow gauge (610/762 mm) allows tighter curves, steeper gradients, and lower construction cost — broad gauge would require massive tunneling/bridging, making it financially unviable. These lines also have heritage/tourism value (UNESCO). In strategic border areas (e.g., Arunachal Pradesh), broad gauge enhances heavy military logistics but may be delayed by terrain. Evaluation must weigh: traffic volume, terrain gradient, construction cost, strategic need, heritage value. A simplistic \"yes\" or \"no\" without this multi-factor analysis fails the board's \"evaluate\" competency.",
+     "self_check": true
+    },
+    {
+     "q": "Design a map annotation exercise for a Class 10 student: On an outline map of India, mark and label (a) three railway zones with headquarters, (b) the route of Eastern DFC, (c) one meter gauge section still operational, (d) one narrow gauge UNESCO heritage line. Write a 30-word caption explaining how this map shows the relationship between physiography and railway development.",
+     "a": "Good answer: Map shows Northern Railway (Delhi), Western Railway (Mumbai), South Central Railway (Secunderabad); Eastern DFC from Ludhiana to Dankuni; meter gauge: Ratlam–Ajmer (partial); narrow gauge UNESCO: Nilgiri Mountain Railway (Mettupalayam–Ooty). Caption: \"Dense broad gauge network on flat Northern Plains contrasts with sparse meter/narrow gauge in Peninsular Plateau hills and Himalayas, proving relief determines gauge choice and network density.\" Poor answer: random zones, missing DFC, no UNESCO line, caption only describes — not analyzes — the physiography-network link. Board map questions test spatial reasoning, not rote plotting.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

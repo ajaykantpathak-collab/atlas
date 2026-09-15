@@ -1,0 +1,335 @@
+{
+ "catalog": "t2_class11_computer_science",
+ "note": "Wave-2 graded top-ups for class 11 Computer Science pools (kecs101-111). Numeric answers or one-term factual keys; no self_check flags, so every item is machine-graded.",
+ "concepts": [
+  {"id": "kecs101.1", "title": "Units of Digital Memory", "questions": [
+    {"q": "A movie file occupies 4 GB of disk space. How many megabytes is that? (Take 1 GB = 1024 MB.)", "a": "4096 MB"},
+    {"q": "How many bits are stored in one kilobyte? (Take 1 KB = 1024 bytes.)", "a": "8192 bits"},
+    {"q": "How many megabytes make one terabyte? (Take 1 TB = 1024 GB and 1 GB = 1024 MB.)", "a": "1048576 MB"}
+  ]},
+  {"id": "kecs101.2", "title": "Bits, Nibbles and Words", "questions": [
+    {"q": "A processor word is 64 bits wide. How many bytes does one word hold?", "a": "8 bytes"}
+  ]},
+  {"id": "kecs101.3", "title": "Data Transfer over the System Bus", "questions": [
+    {"q": "A 200 MB installer is fetched over a link rated at 100 Mbps. How many seconds does the transfer need? (1 MB = 8 megabits.)", "a": "16 seconds"}
+  ]},
+  {"id": "kecs101.4", "title": "Clock Speed and Instruction Throughput", "questions": [
+    {"q": "A CPU clock paces at 2 GHz and each instruction needs 4 cycles. How many million instructions finish per second?", "a": "500 million"}
+  ]},
+  {"id": "kecs101.5", "title": "Moore's Law Transistor Growth", "questions": [
+    {"q": "A chip carries 4000 transistors today. If the count doubles every 2 years, how many transistors will it carry after 6 years?", "a": "32000 transistors"}
+  ]},
+  {"id": "kecs101.6", "title": "Structured, Semi-structured and Unstructured Data", "questions": [
+    {"q": "A marksheet table has fixed rows and columns. Is it structured, semi-structured or unstructured data?", "a": "structured"},
+    {"q": "An HTML page carries tags around its text. Is it structured, semi-structured or unstructured data?", "a": "semi-structured"},
+    {"q": "Which category holds free-form media such as audio clips, videos and photographs?", "a": "unstructured"}
+  ]},
+  {"id": "kecs101.7", "title": "Language Translators and Machine Code", "questions": [
+    {"q": "Which translator converts a whole high-level program into machine code in one pass?", "a": "compiler"},
+    {"q": "Which translator converts and runs a high-level program one line at a time?", "a": "interpreter"},
+    {"q": "Which translator turns assembly language into machine code?", "a": "assembler"}
+  ]},
+  {"id": "kecs102.1", "title": "Character Capacity of ASCII and ISCII Codes", "questions": [
+    {"q": "ASCII codes characters with 7 bits. How many distinct characters can it label?", "a": "128"}
+  ]},
+  {"id": "kecs102.2", "title": "Positional Value in a Number System", "questions": [
+    {"q": "In base 10, what is the positional worth of the third slot to the left of the decimal point?", "a": "100"}
+  ]},
+  {"id": "kecs102.3", "title": "Binary to Decimal Conversion", "questions": [
+    {"q": "Convert the binary number 1011 to decimal.", "a": "11"}
+  ]},
+  {"id": "kecs102.4", "title": "Decimal to Binary by Repeated Division", "questions": [
+    {"q": "Convert decimal 13 to binary.", "a": "1101"}
+  ]},
+  {"id": "kecs102.5", "title": "Binary Grouping into Octal and Hexadecimal", "questions": [
+    {"q": "How many bits are grouped to form one hexadecimal digit?", "a": "4"}
+  ]},
+  {"id": "kecs102.6", "title": "Hexadecimal Colour Codes for Web Pages", "questions": [
+    {"q": "An RGB colour stores one byte each for red, green and blue. How many bits does one colour need in total?", "a": "24 bits"}
+  ]},
+  {"id": "kecs102.7", "title": "Fractional Binary to Decimal", "questions": [
+    {"q": "In fractional binary, what decimal value does the first bit after the binary point carry?", "a": "0.5"}
+  ]},
+  {"id": "kecs102.8", "title": "Unicode and UTF Encodings", "questions": [
+    {"q": "Which Unicode encoding stores every character in a fixed 4 bytes?", "a": "UTF-32"},
+    {"q": "Unicode codes 0 to 128 agree with which older character scheme?", "a": "ASCII"},
+    {"q": "Name the Unicode encoding that keeps English text unchanged while using a variable number of bytes per character.", "a": "UTF-8"}
+  ]},
+  {"id": "kecs103.1", "title": "Machine Learning Model Accuracy", "questions": [
+    {"q": "A trained model gets 45 test cases right out of 50. What is its accuracy in percent?", "a": "90 percent"}
+  ]},
+  {"id": "kecs103.2", "title": "Five Characteristics of Big Data", "questions": [
+    {"q": "Which of the five big-data traits describes the speed at which data arrives?", "a": "velocity"},
+    {"q": "Which big-data trait measures how trustworthy the data are?", "a": "veracity"},
+    {"q": "Which big-data trait names the mix of data formats?", "a": "variety"}
+  ]},
+  {"id": "kecs103.3", "title": "Sizing Daily Big Data Generation", "questions": [
+    {"q": "About 2.5 quintillion bytes arise worldwide each day. How many exabytes is that? (1 exabyte = 10^18 bytes.)", "a": "2.5 exabytes"},
+    {"q": "Which storage unit equals one billion gigabytes?", "a": "exabyte"},
+    {"q": "Which big-data trait explains why a single machine cannot hold the daily flood of web data?", "a": "volume"}
+  ]},
+  {"id": "kecs103.4", "title": "Web of Things Single Interface", "questions": [
+    {"q": "Four smart devices each need their own app today. Under a Web of Things interface, how many apps are needed in total?", "a": "1"}
+  ]},
+  {"id": "kecs103.5", "title": "Sensors and Smart Cities", "questions": [
+    {"q": "Which sensor detects orientation change so a phone can rotate its display?", "a": "accelerometer"},
+    {"q": "Which sensor adds rotation detail to orientation sensing?", "a": "gyroscope"},
+    {"q": "What do you call a sensor with on-board computing that processes readings before passing them on?", "a": "smart sensor"}
+  ]},
+  {"id": "kecs103.6", "title": "Pay-per-use Cloud Billing", "questions": [
+    {"q": "A cloud virtual machine costs Rs 5 per hour and runs 720 hours in a month. What is the month's bill in rupees?", "a": "3600"}
+  ]},
+  {"id": "kecs103.7", "title": "Grid Computing Parallel Speedup", "questions": [
+    {"q": "A grid of 10 identical nodes splits a 100-hour job evenly. Roughly how many hours does the job take?", "a": "10 hours"}
+  ]},
+  {"id": "kecs103.8", "title": "Blockchain Decentralised Ledger", "questions": [
+    {"q": "In a blockchain, verified transactions are packed into what before being appended?", "a": "blocks"},
+    {"q": "The blockchain design where entries can only be added, never edited, is described by which two-word property?", "a": "append-only"},
+    {"q": "In a blockchain of 50 participating computers, how many copies of the shared ledger exist?", "a": "50"}
+  ]},
+  {"id": "kecs104.1", "title": "Steps for Problem Solving", "questions": [
+    {"q": "What is the first stage of solving a task on a computer?", "a": "analysis"},
+    {"q": "Which stage turns an algorithm into an actual program?", "a": "coding"},
+    {"q": "Which final stage catches errors by running the program on varied inputs?", "a": "testing"}
+  ]},
+  {"id": "kecs104.2", "title": "Area and Perimeter of a Rectangle", "questions": [
+    {"q": "A rectangle is 8 cm long and 5 cm wide. What is its perimeter in cm?", "a": "26 cm"}
+  ]},
+  {"id": "kecs104.3", "title": "Average of Five Numbers with a Counter Loop", "questions": [
+    {"q": "Five test scores total 360. What is their average?", "a": "72"}
+  ]},
+  {"id": "kecs104.4", "title": "Selection with Conditionals: Even or Odd", "questions": [
+    {"q": "What remainder does 14 leave on division by 2 -- the test that separates even from odd?", "a": "0"}
+  ]},
+  {"id": "kecs104.5", "title": "Dry Run of a Time-Adding Algorithm", "questions": [
+    {"q": "A dry run adds 2 h 45 min and 1 h 30 min. How many minutes pile up before the carry into hours?", "a": "255 minutes"}
+  ]},
+  {"id": "kecs104.6", "title": "Sum of First N Natural Numbers", "questions": [
+    {"q": "Using the closed formula, what is the sum of the first 100 natural numbers?", "a": "5050"}
+  ]},
+  {"id": "kecs104.7", "title": "Prime Testing and Algorithm Complexity", "questions": [
+    {"q": "A prime check tests divisors from 2 up to a number's square root. For 101, how many divisor checks happen at most?", "a": "9"}
+  ]},
+  {"id": "kecs104.8", "title": "Decomposition of Complex Problems", "questions": [
+    {"q": "Splitting a railway reservation system into booking, payment and printing parts is called what?", "a": "decomposition"},
+    {"q": "Which problem-solving style assigns each sub-problem to a specialist team?", "a": "divide and conquer"},
+    {"q": "A project decomposes into 4 equal sub-problems of 30 hours each. How many hours does the whole project need, ignoring integration?", "a": "120 hours"}
+  ]},
+  {"id": "kecs105.1", "title": "Splitting Numbers with Floor Division and Modulus", "questions": [
+    {"q": "Using the modulus operator, what is the last digit of 374?", "a": "4"}
+  ]},
+  {"id": "kecs105.2", "title": "Operator Precedence in Expressions", "questions": [
+    {"q": "What does Python evaluate 2 + 3 * 4 to?", "a": "14"}
+  ]},
+  {"id": "kecs105.3", "title": "Logical Errors and Debugging", "questions": [
+    {"q": "Which error kind lets a program finish but print a wrong result: syntax, logical or runtime?", "a": "logical error"}
+  ]},
+  {"id": "kecs105.4", "title": "Simple Interest and Amount Payable", "questions": [
+    {"q": "Find the simple interest on Rs 8000 at 5 percent per year for 3 years, in rupees.", "a": "1200"}
+  ]},
+  {"id": "kecs105.5", "title": "Celsius to Fahrenheit Conversion", "questions": [
+    {"q": "Convert 25 degrees Celsius to Fahrenheit.", "a": "77"}
+  ]},
+  {"id": "kecs105.6", "title": "Volume of a Sphere", "questions": [
+    {"q": "What value does radius ** 3 compute when the radius is 2?", "a": "8"}
+  ]},
+  {"id": "kecs105.7", "title": "The String Trap of the input Function", "questions": [
+    {"q": "Which built-in function turns the string '2' into the number 2 before arithmetic?", "a": "int()"}
+  ]},
+  {"id": "kecs105.8", "title": "Identifier Naming Rules and Keywords", "questions": [
+    {"q": "Which of these is a valid Python identifier: 2total, total2, or total 2?", "a": "total2"},
+    {"q": "What is a reserved word such as True or class, which cannot name a variable, called?", "a": "keyword"},
+    {"q": "Total and total name two different variables because of which Python property?", "a": "case sensitivity"}
+  ]},
+  {"id": "kecs106.1", "title": "Counting Iterations of the range Function", "questions": [
+    {"q": "How many numbers does range(1, 10, 2) generate?", "a": "5"}
+  ]},
+  {"id": "kecs106.2", "title": "Positive Difference with Selection", "questions": [
+    {"q": "One number is 9 and the other is 4. What is their positive difference?", "a": "5"}
+  ]},
+  {"id": "kecs106.3", "title": "Sum of Digits of an Integer", "questions": [
+    {"q": "What is the sum of the digits of 472?", "a": "13"}
+  ]},
+  {"id": "kecs106.4", "title": "Factorial of a Number with a Loop", "questions": [
+    {"q": "What is 5 factorial?", "a": "120"}
+  ]},
+  {"id": "kecs106.5", "title": "Sum of Even Numbers up to N", "questions": [
+    {"q": "How many even numbers lie between 1 and 20?", "a": "10"}
+  ]},
+  {"id": "kecs106.6", "title": "Loop Sum of a Cubed Sequence", "questions": [
+    {"q": "What is the first term of the series 1 + 1/8 + 1/27 + ...?", "a": "1"}
+  ]},
+  {"id": "kecs106.7", "title": "Elif Ladder for Grade Allocation", "questions": [
+    {"q": "In a top-down grade ladder, which letter grade does 95 percent earn when above 90 is an A?", "a": "A"},
+    {"q": "In the ladder 90-A, 80-B, 70-C, 60-D, which grade does 75 percent earn?", "a": "C"},
+    {"q": "Which clause of an if..elif..else chain runs when every test above it fails?", "a": "else"}
+  ]},
+  {"id": "kecs106.8", "title": "Break and Continue Statements", "questions": [
+    {"q": "Which statement abandons a loop entirely?", "a": "break"},
+    {"q": "Which statement skips only the current pass and returns to the loop condition?", "a": "continue"},
+    {"q": "A loop runs over 1 to 10 and breaks when the number equals 6. How many numbers were actually processed?", "a": "5"}
+  ]},
+  {"id": "kecs107.1", "title": "Canvas Area of a Cylindrical-Conical Tent", "questions": [
+    {"q": "Using pi = 3.14, what is the curved area of a cylindrical canvas wall of radius 3 m and height 5 m?", "a": "94.2"}
+  ]},
+  {"id": "kecs107.2", "title": "Post-Tax Net Price Function", "questions": [
+    {"q": "A canvas costs Rs 2000 before tax. With 18 percent tax added, what is the payable amount in rupees?", "a": "2360"}
+  ]},
+  {"id": "kecs107.3", "title": "The pow Function with a Modulus Argument", "questions": [
+    {"q": "What does pow(5, 2, 4) return in Python?", "a": "1"}
+  ]},
+  {"id": "kecs107.4", "title": "Mean of Floating Values in a List", "questions": [
+    {"q": "Four values sum to 88. What is their mean?", "a": "22"}
+  ]},
+  {"id": "kecs107.5", "title": "Mixed Fraction from an Improper Fraction", "questions": [
+    {"q": "In mixedFraction(22, 5), what whole part does floor division give?", "a": "4"}
+  ]},
+  {"id": "kecs107.6", "title": "Compound Interest via a User Defined Function", "questions": [
+    {"q": "Rs 1000 grows at 10 percent per year compounded yearly. What is the amount after 2 years, in rupees?", "a": "1210"},
+    {"q": "Compound interest equals the grown amount minus what?", "a": "principal"},
+    {"q": "Compounding quarterly means how many conversion periods per year?", "a": "4"}
+  ]},
+  {"id": "kecs107.7", "title": "Determinant of a Quadratic Expression", "questions": [
+    {"q": "For a = 1, b = 5 and c = 6, what is the determinant b^2 - 4ac?", "a": "1"}
+  ]},
+  {"id": "kecs107.8", "title": "Global and Local Scope of Variables", "questions": [
+    {"q": "A variable created outside every function has what scope?", "a": "global"},
+    {"q": "A variable created inside a function vanishes when the function ends. What scope is that?", "a": "local"},
+    {"q": "Which keyword lets a function assign to a variable that lives outside it?", "a": "global"}
+  ]},
+  {"id": "kecs108.1", "title": "Indexing Characters in a String", "questions": [
+    {"q": "What is the index of the first character of a Python string?", "a": "0"},
+    {"q": "What is the index of the last character of a 9-letter string?", "a": "8"},
+    {"q": "Which negative index always reaches the last character of a string?", "a": "-1"}
+  ]},
+  {"id": "kecs108.2", "title": "Slice Length Arithmetic", "questions": [
+    {"q": "How many characters does the slice str1[2:7] copy?", "a": "5"}
+  ]},
+  {"id": "kecs108.3", "title": "Concatenation and Repetition Lengths", "questions": [
+    {"q": "A 4-letter word is repeated 3 times with the * operator. How many letters long is the result?", "a": "12"}
+  ]},
+  {"id": "kecs108.4", "title": "Sum of Digits Hidden in a String", "questions": [
+    {"q": "Digit characters convert by subtracting 48 from their ASCII code. Which digit has code 50?", "a": "2"}
+  ]},
+  {"id": "kecs108.5", "title": "Counting Alphabets, Digits and Symbols in a Line", "questions": [
+    {"q": "How many digit characters does the string 'a1!b2' hold?", "a": "2"}
+  ]},
+  {"id": "kecs108.6", "title": "Built-in Methods for String Manipulation", "questions": [
+    {"q": "Which string method answers -1 when the substring is missing?", "a": "find()"},
+    {"q": "Which string method converts every letter to capitals?", "a": "upper()"},
+    {"q": "What does 'HelloWorld'.count('l') return?", "a": "3"}
+  ]},
+  {"id": "kecs108.7", "title": "Palindrome Check by Two Indices", "questions": [
+    {"q": "Checking 'madam' with two indices: how many character pairs must match before the middle is reached?", "a": "2"},
+    {"q": "How many indices move inward during the two-index palindrome check?", "a": "2"},
+    {"q": "During the inward walk, what single event proves a string is not a palindrome?", "a": "mismatch"}
+  ]},
+  {"id": "kecs108.8", "title": "Immutability and Membership of Strings", "questions": [
+    {"q": "Assigning to one position of a string raises which error: IndexError, TypeError or ValueError?", "a": "TypeError"},
+    {"q": "Which single operator tests whether one string occurs inside another?", "a": "in"},
+    {"q": "Because strings cannot change in place, what must replace() hand back?", "a": "a new string"}
+  ]},
+  {"id": "kecs109.1", "title": "Aggregate Built-ins: sum, min and max", "questions": [
+    {"q": "For the list [34, 12, 63], what does sum() return?", "a": "109"}
+  ]},
+  {"id": "kecs109.2", "title": "Average Marks with a Function", "questions": [
+    {"q": "Six students' marks total 420. What average does computeAverage report?", "a": "70"}
+  ]},
+  {"id": "kecs109.3", "title": "Append versus Extend", "questions": [
+    {"q": "list1 holds 3 elements. After list1.extend([80, 90]), how many elements does it hold?", "a": "5"}
+  ]},
+  {"id": "kecs109.4", "title": "Negative Step Slicing of Lists", "questions": [
+    {"q": "What list does list1[::-1] return for the list [1, 2, 3]?", "a": "[3, 2, 1]"}
+  ]},
+  {"id": "kecs109.5", "title": "Linear Search Position", "questions": [
+    {"q": "Linear search finds 30 at zero-based index 4. What human-friendly position does the caller report?", "a": "5"}
+  ]},
+  {"id": "kecs109.6", "title": "Nested List Student Record", "questions": [
+    {"q": "In the record ['Ria', 'A-1', [56, 98, 99], 78.8], which first index picks the marks list?", "a": "2"}
+  ]},
+  {"id": "kecs109.7", "title": "Alias versus Clone of a List", "questions": [
+    {"q": "Does the statement list2 = list1 create a clone or an alias?", "a": "alias"},
+    {"q": "list1 has 3 elements and list2 is its alias. After list1.append(10), how many elements does list2 show?", "a": "4"},
+    {"q": "Which of these builds a truly independent list copy: slicing with [:], assigning the name again, or printing it?", "a": "slicing with [:]"}
+  ]},
+  {"id": "kecs109.8", "title": "Insert, Remove and Pop Shifting", "questions": [
+    {"q": "Which list method inserts an element at a chosen index, shifting later elements right?", "a": "insert()"},
+    {"q": "Which list method deletes only the first match of a value?", "a": "remove()"},
+    {"q": "Which list method extracts and returns the element at a given index?", "a": "pop()"}
+  ]},
+  {"id": "kecs110.1", "title": "Tuple Aggregates: sum, min and max", "questions": [
+    {"q": "For the tuple (19, 12, 56), what does max() return?", "a": "56"}
+  ]},
+  {"id": "kecs110.2", "title": "Swapping Numbers by Tuple Assignment", "questions": [
+    {"q": "Which assignment style swaps two numbers without a temporary variable?", "a": "tuple assignment"}
+  ]},
+  {"id": "kecs110.3", "title": "Circle Area and Circumference Returned as a Tuple", "questions": [
+    {"q": "Using pi = 3.14, what circumference does circle(10) return? (Take 2 * 3.14 * 10.)", "a": "62.8"}
+  ]},
+  {"id": "kecs110.4", "title": "Aggregating Dictionary Values", "questions": [
+    {"q": "A class dictionary's four marks are 89, 92, 75 and 84. What is their average?", "a": "85"}
+  ]},
+  {"id": "kecs110.5", "title": "Character Frequency Dictionary", "questions": [
+    {"q": "In the frequency counter for 'HelloWorld', how many times does the letter l appear?", "a": "3"}
+  ]},
+  {"id": "kecs110.6", "title": "Single-Element Tuple Comma Rule", "questions": [
+    {"q": "Is (20) a tuple or an integer?", "a": "integer"}
+  ]},
+  {"id": "kecs110.7", "title": "Immutable Tuple with a Mutable List Inside", "questions": [
+    {"q": "Assigning tuple1[4] = 10 raises which error?", "a": "TypeError"},
+    {"q": "tuple2 = (1, 2, [3, 4]). After tuple2[2][0] = 9, how many elements does the inner list hold?", "a": "2"},
+    {"q": "Which is mutable: the tuple itself, or a list stored inside it?", "a": "the list inside"}
+  ]},
+  {"id": "kecs110.8", "title": "Dictionary Methods: get, update, del and clear", "questions": [
+    {"q": "Which dictionary method fetches a value or falls back to None for a missing key?", "a": "get()"},
+    {"q": "Which method merges another dictionary's pairs into one dictionary?", "a": "update()"},
+    {"q": "Which method empties every pair while keeping the dictionary name alive?", "a": "clear()"}
+  ]},
+  {"id": "kecs111.1", "title": "Digital Footprints: Active and Passive", "questions": [
+    {"q": "Posts and emails you deliberately submit leave which kind of digital footprint?", "a": "active"},
+    {"q": "Browsing history and cookies collected without your intent leave which kind of digital footprint?", "a": "passive"},
+    {"q": "Copies of a deleted post keep surviving where?", "a": "remote servers"}
+  ]},
+  {"id": "kecs111.2", "title": "Net Etiquettes for a Responsible Netizen", "questions": [
+    {"q": "What is a person who uses digital technology ethically, respectfully and responsibly called?", "a": "netizen"},
+    {"q": "What is the most effective response to online trolls?", "a": "ignoring them"},
+    {"q": "Copying a web image into your project without credit violates which etiquette?", "a": "copyright violation"}
+  ]},
+  {"id": "kecs111.3", "title": "Screen Time and Ergonomics", "questions": [
+    {"q": "A student may watch 120 minutes daily but watches three 60-minute sessions. By how many minutes is the limit overshot?", "a": "60 minutes"}
+  ]},
+  {"id": "kecs111.4", "title": "Password Reuse Audit", "questions": [
+    {"q": "One password is reused on 5 accounts. How many accounts open if that single password leaks?", "a": "5"}
+  ]},
+  {"id": "kecs111.5", "title": "Plagiarism and Copyright Infringement", "questions": [
+    {"q": "Presenting another person's idea as your own without credit is called what?", "a": "plagiarism"},
+    {"q": "Using someone's work without permission or payment, even when the source is cited, is called what?", "a": "copyright infringement"},
+    {"q": "Besides citing the source, what else does lawful free use of an image need?", "a": "permission"}
+  ]},
+  {"id": "kecs111.6", "title": "Intellectual Property Rights: Copyright, Patent, Trademark", "questions": [
+    {"q": "Which intellectual property right protects an invention for 20 years after filing?", "a": "patent"},
+    {"q": "Which intellectual property right guards a brand's name, logo or symbol?", "a": "trademark"},
+    {"q": "Which intellectual property right arises automatically for original software code?", "a": "copyright"}
+  ]},
+  {"id": "kecs111.7", "title": "Phishing, Fraud Emails and Identity Theft", "questions": [
+    {"q": "Fake emails that mimic your bank to harvest credentials practice what?", "a": "phishing"},
+    {"q": "Behind a mail claiming to be your bank, what should you actually check: the logo or the URL?", "a": "the URL"},
+    {"q": "Stolen personal data misused to impersonate someone is called what kind of theft?", "a": "identity theft"}
+  ]},
+  {"id": "kecs111.8", "title": "Ethical and Non-Ethical Hacking", "questions": [
+    {"q": "What is a white-hat hacker also called?", "a": "ethical hacker"},
+    {"q": "Malicious break-ins for gain are called cracking, or hacking of which hat colour?", "a": "black hat"},
+    {"q": "What separates an ethical hacker's penetration test from a criminal break-in: skill, or intent and permission?", "a": "intent and permission"}
+  ]},
+  {"id": "kecs111.9", "title": "Ransomware and Cyber Crime Prevention", "questions": [
+    {"q": "Which malware locks a victim out of data and demands payment?", "a": "ransomware"},
+    {"q": "Which regular practice most limits the damage ransomware can do to your files?", "a": "backups"},
+    {"q": "Ransomware commonly arrives through spam attachments, doubtful repositories and malicious what?", "a": "advertisements"}
+  ]},
+  {"id": "kecs111.10", "title": "Indian IT Act 2000 and Open Licensing", "questions": [
+    {"q": "Which Indian law of 2000 gives legal recognition to electronic records and digital signatures?", "a": "IT Act 2000"},
+    {"q": "Name the public license family, abbreviated CC, that lets creators grant others the right to use and build upon their work.", "a": "Creative Commons"},
+    {"q": "Which body settles disputes under the IT Act: a Cyber Appellate what?", "a": "tribunal"}
+  ]}
+ ]
+}

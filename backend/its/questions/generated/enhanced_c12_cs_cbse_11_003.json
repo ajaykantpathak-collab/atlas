@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_11_003",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_11_003",
+   "title": "c12_cs_cbse_11_003",
+   "questions": [
+    {
+     "q": "What is the output of `lst = [10, 20, 30, 40, 50]; print(lst[1:4])`?",
+     "a": "The output is `[20, 30, 40]`. Slicing `lst[1:4]` starts at index 1 (inclusive) and stops before index 4 (exclusive), so it includes elements at indices 1, 2, and 3. A wrong answer like `[10, 20, 30]` reveals the student thinks slicing is 1-based or includes the stop index. An answer `[20, 30, 40, 50]` shows confusion between slice length and stop index.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what `[x*2 for x in range(5) if x%2==1]` produces and why.",
+     "a": "The comprehension iterates `x` over `range(5)` → `[0,1,2,3,4]`, keeps only odd `x` (1 and 3), doubles them, yielding `[2, 6]`. A wrong explanation like \"doubles all numbers then filters\" reveals the student thinks the `if` clause runs after the expression, not during iteration. The correct mental model: the `for` and `if` together select elements, then the expression transforms each selected element.",
+     "self_check": true
+    },
+    {
+     "q": "Given `data = [5, 10, 15, 20, 25, 30]`, write a single slicing expression to obtain `[20, 10]` (i.e., elements at indices 3 and 1 in that order).",
+     "a": "`data[3:0:-2]` — start at index 3 (value 20), stop before index 0 (exclusive), step -2 moves backwards picking indices 3 and 1. A common wrong attempt `data[3:1:-2]` stops before index 1, so it only yields `[20]`. Another wrong attempt `data[1:4:2]` gives `[10, 20]` (wrong order). This tests understanding that stop is exclusive even with negative step, and that the stop bound must be *beyond* the last desired index in the stepping direction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the memory behavior of `lst = [1,2,3]; new = lst[::]` versus `new = lst`. Which creates a copy? How can you verify this experimentally?",
+     "a": "`lst[::]` creates a shallow copy (new list object with same elements); `new = lst` makes `new` reference the same list object. Verification: after `new = lst[::]`, `new.append(4)` leaves `lst` unchanged; after `new = lst`, `new.append(4)` also changes `lst`. A student who says both create copies confuses slicing with assignment. One who says neither creates a copy misunderstands that slicing always returns a new list.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `[y for x in [[1,2],[3,4]] for y in x]` and claims it's invalid because \"two for clauses are not allowed\". Evaluate this claim and provide the correct output.",
+     "a": "The claim is false — nested `for` clauses are valid and flatten the list of lists. The comprehension reads left-to-right: outer loop `for x in [[1,2],[3,4]]` gives `x=[1,2]` then `x=[3,4]`; inner loop `for y in x` yields `1,2,3,4`. Output: `[1, 2, 3, 4]`. The student's error comes from confusing list comprehension syntax with a single `for` loop; they likely haven't seen the \"nested loop\" pattern which mirrors nested `for` statements in the same order.",
+     "self_check": true
+    },
+    {
+     "q": "Design a list comprehension that, given a list of words `words = [\"apple\", \"banana\", \"cherry\", \"date\"]`, produces a list of tuples `(word, length)` only for words longer than 5 characters. Show the output.",
+     "a": "`[(w, len(w)) for w in words if len(w) > 5]` → `[('banana', 6), ('cherry', 6)]`. A good answer shows the tuple construction in the expression part and the filter in the `if` clause. A poor answer like `[w, len(w) for w in words if len(w)>5]` (missing parentheses for tuple) or `[(w, len(w)) for w in words if w > 5]` (comparing string to integer) reveals confusion about tuple syntax or filter condition semantics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

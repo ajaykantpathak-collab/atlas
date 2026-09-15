@@ -1,0 +1,68 @@
+{
+ "catalog": "catalog_class11_biology_kebo108",
+ "concepts": [
+  {
+   "id": "kebo.108.1.1",
+   "title": "Cell Theory and an Overview of the Cell",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Cell Theory and an Overview of the Cell' refers to.",
+     "a": "The cell is the fundamental structural and functional unit of all living organisms; Schleiden and Schwann proposed the cell theory and Virchow added that cells arise from pre-existing cells through cell division omnis cellula e cellula.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cell Theory and an Overview of the Cell'.",
+     "a": "Cell biology developed with the microscope: from Robert Hooke's cork observation to the unified cell theory that all living beings are made of cells.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Cell Theory and an Overview of the Cell' taught, and from which source text?",
+     "a": "8.1 A Cell is defined as, 8.2 Cell Theory (source: kebo108.txt sections 8.1, 8.2)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.108.2.1",
+   "title": "Prokaryotic and Eukaryotic Cells",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Prokaryotic and Eukaryotic Cells' refers to.",
+     "a": "Prokaryotic cells lack a true nucleus and membrane-bound organelles but carry a nucleoid, glycocalyx, cell wall, mesosomes and 70S ribosomes, whereas eukaryotic cells have a membrane-bound nucleus and organelles with 80S ribosomes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Prokaryotic and Eukaryotic Cells'.",
+     "a": "The fluid mosaic model of Singer and Nicolson describes the plasma membrane as a bilayer of phospholipids with proteins moving within it, and passive transport of water is osmosis.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Prokaryotic and Eukaryotic Cells' taught, and from which source text?",
+     "a": "8.3 Prokaryotic Cells, 8.4 Eukaryotic Cells (source: kebo108.txt sections 8.3-8.5)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.108.3.1",
+   "title": "Cell Organelles: Mitochondria, Plastids, Endomembranes and Nucleus",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Cell Organelles: Mitochondria, Plastids, Endomembranes and Nucleus' refers to.",
+     "a": "Eukaryotic cells carry organelles such as the endoplasmic reticulum, Golgi complex, lysosomes, vacuoles, mitochondria as the site of aerobic respiration with double membranes and cristae, chloroplasts with grana and stroma among plastids, ribosomes for protein synthesis, and a nucleus with chromatin and nucleolus.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cell Organelles: Mitochondria, Plastids, Endomembranes and Nucleus'.",
+     "a": "The endomembrane system of ER, Golgi complex, lysosomes and vacuoles works in coordination, while semi-autonomous organelles like mitochondria and chloroplasts carry their own DNA and ribosomes.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Cell Organelles: Mitochondria, Plastids, Endomembranes and Nucleus' taught, and from which source text?",
+     "a": "8.5 Cell Organelles (source: kebo108.txt section 8.5)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

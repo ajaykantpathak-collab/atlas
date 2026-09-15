@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_02_001",
+   "title": "c11_bio_cbse_02_001",
+   "questions": [
+    {
+     "q": "State the five kingdoms in Whittaker's system and the three main criteria he used for classification.",
+     "a": "The five kingdoms are Monera, Protista, Fungi, Plantae, and Animalia. The three main criteria are: (1) cell structure (prokaryotic vs eukaryotic), (2) body organization (unicellular, multicellular, tissue/organ level), and (3) mode of nutrition (autotrophic, heterotrophic—saprophytic/parasitic/holozoic). Phylogenetic relationships guide the overall grouping. A wrong answer (e.g., listing \"Algae\" as a kingdom or citing \"habitat\" as a main criterion) reveals the student is recalling the outdated two-kingdom or three-kingdom systems, or confusing Whittaker's criteria with Linnaeus's morphological criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why fungi were separated from Plantae in Whittaker's system, even though both have cell walls and are non-motile.",
+     "a": "Fungi were separated because their cell walls are composed of chitin (a nitrogen-containing polysaccharide), not cellulose; their mode of nutrition is heterotrophic (absorptive saprophytic/parasitic), not photosynthetic autotrophic; and their body organization is loose tissue (mycelium of hyphae) rather than true tissues/organs. A wrong answer focusing only on \"fungi are not green\" or \"fungi are decomposers\" misses the structural (chitin vs cellulose) and organizational criteria that Whittaker prioritized for phylogenetic accuracy.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes a unicellular, eukaryotic, photosynthetic organism with a pellicle (protein-rich layer) instead of a cell wall, which becomes heterotrophic in darkness. Using Whittaker's criteria, classify this organism and justify your choice.",
+     "a": "The organism is Euglena, placed in Kingdom Protista. Step 1: Cell structure is eukaryotic (true nucleus, membrane-bound organelles) → not Monera. Step 2: Body organization is unicellular/cellular level → not Fungi, Plantae, or Animalia (which are multicellular tissue/organ level). Step 3: Mode of nutrition is mixotrophic (photosynthetic in light, heterotrophic in dark) → fits Protista's \"autotrophic and heterotrophic\" category. Step 4: Cell wall absent (pellicle present) → consistent with Protista's \"present in some.\" A wrong answer placing it in Plantae (due to photosynthesis) or Animalia (due to motility/heterotrophy) shows inability to weigh multiple criteria simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the placement of cyanobacteria (blue-green algae) in the two-kingdom system vs Whittaker's five-kingdom system. What criterion caused the shift?",
+     "a": "In the two-kingdom system, cyanobacteria were placed in Plantae because they are photosynthetic and have a cell wall. In Whittaker's system, they are placed in Kingdom Monera because they are prokaryotic (lack nuclear membrane and membrane-bound organelles). The decisive criterion is cell structure (prokaryotic vs eukaryotic), which overrides morphological similarity (photosynthesis, cell wall). A wrong answer stating \"they are bacteria so they go to Monera\" without contrasting the two systems' criteria shows superficial memorization without analytical comparison.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Whittaker's five-kingdom system perfectly reflects evolutionary relationships because it separates prokaryotes from eukaryotes.\" Provide two pieces of evidence from the NCERT text that support or challenge this claim.",
+     "a": "The statement is partially correct but incomplete. Evidence supporting: Separating prokaryotic Monera from eukaryotic Protista/Fungi/Plantae/Animalia aligns with the fundamental evolutionary split. Evidence challenging: (1) Kingdom Protista is polyphyletic—it groups together photosynthetic (Chlamydomonas) and heterotrophic (Paramoecium) eukaryotes that do not share a recent common ancestor; NCERT states \"boundaries of this kingdom are not well defined.\" (2) The three-domain system (Archaea, Bacteria, Eukarya) later replaced Monera because Archaebacteria differ significantly from Eubacteria in cell wall/lipid composition, showing Monera itself was not monophyletic. A wrong answer that only agrees ignores the explicit NCERT caveats about Protista's heterogeneity and the subsequent three-domain revision.",
+     "self_check": true
+    },
+    {
+     "q": "Design a dichotomous key using only Whittaker's five criteria (cell type, cell wall, nuclear membrane, body organization, nutrition) that distinguishes all five kingdoms in four steps.",
+     "a": "Step 1: Cell type → Prokaryotic (no nuclear membrane) → Kingdom Monera. Eukaryotic (nuclear membrane present) → go to Step 2.  \nStep 2: Body organization → Unicellular/colonial (cellular level) → go to Step 3. Multicellular with tissue/organ/organ-system level → go to Step 4.  \nStep 3: Mode of nutrition → Autotrophic (photosynthetic) ± heterotrophic, cell wall present in some → Kingdom Protista. (Note: This step separates Protista from Monera already done).  \nStep 4: Cell wall composition & nutrition → Cell wall of cellulose, autotrophic (photosynthetic) → Kingdom Plantae. Cell wall of chitin, heterotrophic (saprophytic/parasitic) → Kingdom Fungi. No cell wall, heterotrophic (holozoic) → Kingdom Animalia.  \nA poor answer that uses \"habitat\" or \"motility\" as key steps shows the student cannot restrict themselves to Whittaker's defined criteria.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

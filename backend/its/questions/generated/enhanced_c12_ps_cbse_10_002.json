@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_10_002",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_10_002",
+   "title": "c12_ps_cbse_10_002",
+   "questions": [
+    {
+     "q": "What was the principal obstacle to agricultural growth identified by the First Five Year Plan, and what policy instrument was proposed to address it?",
+     "a": "The Plan identified the pattern of land distribution (highly unequal, zamindari system) as the principal obstacle and proposed land reforms — abolition of intermediaries, tenancy reform, and ceilings on holdings — as the key policy instrument. A wrong answer (e.g., \"lack of fertilizers\" or \"need for tractors\") reveals the student is confusing technological inputs with structural/institutional constraints, missing the Plan's political economy insight that ownership patterns determine productivity.",
+     "self_check": true
+    },
+    {
+     "q": "Why did economist K.N. Raj argue that India should \"hasten slowly\" in the first two decades of planning? What political risk did he associate with a faster rate of development?",
+     "a": "K.N. Raj argued that a fast rate of development might endanger democracy because rapid structural transformation requires coercive state action, displacement, and suppression of dissent — all incompatible with democratic freedoms. A wrong answer (e.g., \"lack of capital\" or \"administrative capacity\") shows the student understands economic constraints but misses the Plan's core political insight: development strategy must be compatible with the constitutional choice of democracy, not just economic efficiency.",
+     "self_check": true
+    },
+    {
+     "q": "The First Plan allocated huge resources to the Bhakra Nangal Dam. If you were a planner in 1951, what specific agricultural problem in the Punjab-Haryana region would this dam solve, and how does that connect to the Partition's economic impact?",
+     "a": "Partition left the fertile Punjab plains in India but the headworks of the canal irrigation system (like Ferozepur) in Pakistan, creating water insecurity. Bhakra Nangal replaced that lost infrastructure by storing Sutlej waters for irrigation and power. A wrong answer (e.g., \"flood control\" or \"industrial power\") misses the direct Partition-agriculture link: the Plan's priorities were shaped by the specific territorial and economic rupture of 1947, not abstract \"development needs.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare the First Plan's approach to raising national income (pushing up savings) with the standard Keynesian prescription for a poor economy. Why did the planners reject deficit financing or consumption reduction as options?",
+     "a": "The First Plan recognised that consumption was already at subsistence level (could not be reduced) and capital stock was too low for deficit financing to generate real output (would only cause inflation). So savings had to be pushed up despite low incomes. A wrong answer (e.g., \"they followed Keynesian demand management\") reveals confusion between developed-economy macroeconomics and the structural constraints of a post-colonial agrarian economy where the savings-investment gap is a supply-side, not demand-side, problem.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The First Five Year Plan's focus on agriculture was a pragmatic necessity, not an ideological choice.\" Use evidence from the Plan's treatment of land reforms versus industrial policy to support your judgment.",
+     "a": "The claim is largely correct: agriculture was prioritised because Partition devastated food production and the agrarian structure was the binding constraint — not because planners were ideologically agrarian (Nehru personally favoured industry). Evidence: land reforms were pursued as a structural necessity, while industry received residual attention. However, the Plan did reflect a political consensus (including the Bombay Plan industrialists) that the state must lead — so the *role of the state* was ideological, the *sectoral choice* was pragmatic. A weak evaluation treats \"pragmatic\" and \"ideological\" as mutually exclusive; a strong one shows how they operate at different levels.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph justification that a First Plan planner might have written in 1951 to convince a skeptical industrialist that investing in irrigation and land reforms — not factories — is the fastest route to industrial raw materials and a domestic market.",
+     "a": "A strong answer links: (1) land reforms → higher peasant incomes → demand for industrial goods; (2) irrigation → reliable food surplus → releases labour for industry without famine; (3) agricultural exports (jute, cotton) → foreign exchange to buy machine tools. A poor answer lists benefits without showing the *causal chain* from agrarian transformation to industrial preconditions — missing the Plan's systemic logic that agriculture and industry are sequential, not competing, priorities.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

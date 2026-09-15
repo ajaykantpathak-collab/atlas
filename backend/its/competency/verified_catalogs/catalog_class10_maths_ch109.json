@@ -1,0 +1,475 @@
+{
+ "class": 10,
+ "subject": "maths",
+ "chapter": 109,
+ "chapter_title": "Some Applications of Trigonometry",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jemh109.txt",
+ "concepts": [
+  {
+   "id": "jemh.9.1",
+   "title": "Line of Sight and Horizontal Level",
+   "section": "9.1",
+   "definition": "The line of sight is the line drawn from the eye of an observer to the point in the object viewed. The horizontal level is the horizontal line through the eye of the observer.",
+   "formula": "",
+   "key_idea": "The line of sight and the horizontal level form the angle of elevation or depression at the point of observation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "identify the line of sight in a given situation",
+    "distinguish between line of sight and horizontal level",
+    "draw the line of sight for an observer looking at an object",
+    "identify the horizontal level in a heights and distances problem",
+    "explain the relationship between line of sight and angle of elevation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the observer position",
+     "explain": "Locate the eye of the observer and the point being viewed."
+    },
+    {
+     "step": 2,
+     "action": "Draw the line of sight and horizontal level",
+     "explain": "The line of sight joins the eye to the object. The horizontal level is the horizontal line through the eye of the observer."
+    },
+    {
+     "step": 3,
+     "action": "Identify the angle",
+     "explain": "The angle between the line of sight and the horizontal level is the angle of elevation (object above) or depression (object below)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "An observer looks at the top of a tower. Identify the line of sight and the angle formed.",
+     "solution": "The line from the eye of the observer to the top of the tower is the line of sight. The angle between this line and the horizontal level is the angle of elevation.",
+     "answer": "Angle of elevation"
+    },
+    {
+     "question": "From the top of a cliff, an observer looks at a boat. What is the line of sight and the angle called?",
+     "solution": "The line from the eye on the cliff to the boat is the line of sight. The angle between this line and the horizontal level is the angle of depression.",
+     "answer": "Angle of depression"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Draw the line of sight and horizontal level when a girl looks at the top of a pole.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Explain the difference between line of sight and horizontal level.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jemh.9.2",
+   "title": "Angle of Elevation",
+   "section": "9.1",
+   "definition": "The angle of elevation of an object viewed is the angle formed by the line of sight with the horizontal level when the object is above the horizontal level.",
+   "formula": "tan(theta) = opposite/adjacent = height/distance",
+   "key_idea": "The angle of elevation is measured upward from the horizontal to the line of sight.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the angle of elevation given height and distance",
+    "identify the angle of elevation in a diagram",
+    "compute angle of elevation using trigonometric ratios",
+    "determine angle of elevation from top of a building",
+    "find angle of elevation when observer moves closer or farther"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Set up the right triangle",
+     "explain": "The height, the horizontal distance and the line of sight form the triangle."
+    },
+    {
+     "step": 2,
+     "action": "Write the ratio",
+     "explain": "tan(theta) = height / distance."
+    },
+    {
+     "step": 3,
+     "action": "Invert to get the angle",
+     "explain": "The elevation angle is the inverse tangent of height/distance; use tables or a calculator."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A tower is 15 m high and the distance from the observer to the base is 20 m. Find the angle of elevation.",
+     "solution": "tan(theta) = 15/20 = 0.75, so theta = arctan(0.75) = 36.87 degrees.",
+     "answer": "36.87 degrees"
+    },
+    {
+     "question": "The angle of elevation of the top of a tower from a point 30 m away is 30 degrees. Find the height of the tower.",
+     "solution": "tan(30) = h/30, so h = 30 * tan(30) = 30/sqrt(3) = 10*sqrt(3) = 17.32 m.",
+     "answer": "17.32 m"
+    },
+    {
+     "question": "A vertical pole 10 m tall casts a shadow of 10 m. Find the angle of elevation of the sun.",
+     "solution": "tan(theta) = 10/10 = 1, so theta = 45 degrees.",
+     "answer": "45 degrees"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the angle of elevation of the top of a 20 m tower from a point 20 m from its base.",
+     "type": "compute"
+    },
+    {
+     "question": "The angle of elevation of a kite is 45 degrees and the string length is 50 m. Find the height of the kite.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.9.3",
+   "title": "Angle of Depression",
+   "section": "9.1",
+   "definition": "The angle of depression of an object viewed is the angle formed by the line of sight with the horizontal level when the object is below the horizontal level.",
+   "formula": "tan(theta) = vertical_drop/horizontal_distance",
+   "key_idea": "The angle of depression is measured downward from the horizontal to the line of sight, and equals the angle of elevation from the lower point.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the angle of depression from a height",
+    "compute distance using angle of depression",
+    "find height using angle of depression",
+    "relate angle of depression to angle of elevation",
+    "solve problems involving angle of depression from a tower"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Set up the right triangle",
+     "explain": "Observer height, horizontal distance and line of sight form the triangle."
+    },
+    {
+     "step": 2,
+     "action": "Write the ratio",
+     "explain": "tan(theta) = height / distance for the depression angle."
+    },
+    {
+     "step": 3,
+     "action": "Solve for the unknown",
+     "explain": "Rearrange for whichever of height or distance the question asks."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "From the top of a 50 m high tower, the angle of depression of a car is 30 degrees. Find the distance of the car from the base.",
+     "solution": "tan(30) = 50/d, so d = 50/tan(30) = 50*sqrt(3) = 86.6 m.",
+     "answer": "86.6 m"
+    },
+    {
+     "question": "From a cliff 60 m above sea level, the angle of depression of a boat is 45 degrees. Find the distance of the boat from the cliff.",
+     "solution": "tan(45) = 60/d, so d = 60/tan(45) = 60 m.",
+     "answer": "60 m"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "From the top of a 30 m building, the angle of depression of a person is 60 degrees. Find the distance of the person from the building.",
+     "type": "compute"
+    },
+    {
+     "question": "The angle of depression of a car from a tower is 45 degrees. If the car is 40 m from the base, find the height of the tower.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.9.4",
+   "title": "Finding Height of an Object Using Angle of Elevation",
+   "section": "9.1",
+   "definition": "The height of an object can be found using the angle of elevation and the known distance from the observer to the base of the object.",
+   "formula": "height = distance * tan(angle of elevation)",
+   "key_idea": "In the right triangle formed, tan of the angle of elevation relates the height to the horizontal distance.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find height of a tower given angle of elevation and distance",
+    "find height of a building using angle of elevation",
+    "compute height of a pole from a measured distance",
+    "find height of a mountain using angle of elevation",
+    "determine height of a flagstaff using trigonometry"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Mark the sides",
+     "explain": "Tower height is opposite; ground distance is adjacent to the elevation angle."
+    },
+    {
+     "step": 2,
+     "action": "Write the ratio",
+     "explain": "tan(angle) = height / distance."
+    },
+    {
+     "step": 3,
+     "action": "Multiply through",
+     "explain": "height = distance x tan(angle)."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "The angle of elevation of the top of a tower from a point 40 m away is 45 degrees. Find the height of the tower.",
+     "solution": "h = 40 * tan(45) = 40 * 1 = 40 m.",
+     "answer": "40 m"
+    },
+    {
+     "question": "From a point 30 m from the base of a building, the angle of elevation is 60 degrees. Find the height.",
+     "solution": "h = 30 * tan(60) = 30 * sqrt(3) = 51.96 m.",
+     "answer": "51.96 m"
+    },
+    {
+     "question": "A ladder leaning against a wall makes an angle of 60 degrees with the ground. If the foot is 5 m from the wall, find the height reached.",
+     "solution": "h = 5 * tan(60) = 5 * sqrt(3) = 8.66 m.",
+     "answer": "8.66 m"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the height of a tower if the angle of elevation from 50 m away is 30 degrees.",
+     "type": "compute"
+    },
+    {
+     "question": "The angle of elevation of the top of a hill from a point on the ground is 45 degrees. If the point is 100 m from the base, find the height.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.9.5",
+   "title": "Finding Distance Between Two Objects",
+   "section": "9.1",
+   "definition": "The distance between two objects can be found using angles of elevation or depression measured from a point of known height.",
+   "formula": "distance = height * (cot(alpha) - cot(beta)) or height / tan(angle)",
+   "key_idea": "When two objects are observed from the same elevated point at different angles, the distance between them is found using the difference of cotangents.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find distance between two objects observed from a height",
+    "compute distance between two cars using angles of depression",
+    "find distance between two points on the ground from a tower",
+    "determine distance between two boats using angles of depression",
+    "find the distance between two buildings using trigonometry"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Draw the two triangles",
+     "explain": "From the tower top, each depression angle gives a right triangle sharing the same height."
+    },
+    {
+     "step": 2,
+     "action": "Base distance per angle",
+     "explain": "Each base distance equals h / tan(angle)."
+    },
+    {
+     "step": 3,
+     "action": "Take the difference",
+     "explain": "Farther base distance minus nearer base distance is the gap between the objects."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "From the top of a 100 m tower, the angles of depression of two cars are 30 and 45 degrees. Find the distance between them.",
+     "solution": "d1 = 100*cot(30) = 100*sqrt(3) = 173.2; d2 = 100*cot(45) = 100. Distance = 173.2 - 100 = 73.2 m.",
+     "answer": "73.2 m"
+    },
+    {
+     "question": "From the top of a 75 m lighthouse, the angles of depression of two ships are 30 and 45 degrees. Find the distance between the ships.",
+     "solution": "d1 = 75*cot(45) = 75; d2 = 75*cot(30) = 75*sqrt(3) = 129.9. Distance = 129.9 - 75 = 54.9 m.",
+     "answer": "54.9 m"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "From the top of a 60 m tower, the angles of depression of two cars on the same side are 45 and 60 degrees. Find the distance between them.",
+     "type": "compute"
+    },
+    {
+     "question": "From a lighthouse 80 m high, the angles of depression of two boats are 30 and 60 degrees. Find the distance between the boats.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.9.6",
+   "title": "Word Problems on Heights and Distances",
+   "section": "9.1",
+   "definition": "Heights and distances problems apply trigonometric ratios to real-world situations involving finding heights of objects or distances between points using angles of elevation or depression.",
+   "formula": "height = distance * tan(theta); distance = height * cot(theta)",
+   "key_idea": "Translate the word problem into a right triangle and apply the appropriate trigonometric ratio.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "solve word problems on heights and distances",
+    "find the height of a tree using angle of elevation",
+    "find the width of a river using angle of elevation",
+    "determine the distance of a ship from the shore",
+    "find the height of a cloud using angle of elevation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Draw the triangle",
+     "explain": "Convert the word problem into a labelled right triangle."
+    },
+    {
+     "step": 2,
+     "action": "Choose the ratio",
+     "explain": "Pick the ratio that links the two known sides with the unknown."
+    },
+    {
+     "step": 3,
+     "action": "Solve and sanity-check",
+     "explain": "Substitute the values, solve for the unknown and check the size of the answer."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A tree breaks due to storm and the broken part bends so that the top touches the ground making an angle of 30 degrees. The distance between the foot and the top is 10 m. Find the height of the tree.",
+     "solution": "Let the standing part be h and broken part be x. tan(30) = h/10, so h = 10/sqrt(3) = 5.77 m. cos(30) = 10/x, so x = 10/cos(30) = 11.55 m. Total height = 5.77 + 11.55 = 17.32 m.",
+     "answer": "17.32 m"
+    },
+    {
+     "question": "A kite is flying at a height of 60 m above the ground. The string is inclined at 60 degrees to the horizontal. Find the length of the string.",
+     "solution": "sin(60) = 60/L, so L = 60/sin(60) = 60/(sqrt(3)/2) = 120/sqrt(3) = 69.28 m.",
+     "answer": "69.28 m"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "A 1.5 m tall boy stands 30 m from a tower. The angle of elevation from his eye to the top is 30 degrees. Find the height of the tower.",
+     "type": "compute"
+    },
+    {
+     "question": "The shadow of a tower is 30 m when the angle of elevation of the sun is 30 degrees. Find the height of the tower.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.9.7",
+   "title": "Using Trigonometric Ratios in Right Triangles to Solve Real-World Problems",
+   "section": "9.1",
+   "definition": "Trigonometric ratios sin, cos, and tan relate the sides of a right triangle to its angles and are used to solve real-world heights and distances problems.",
+   "formula": "sin = opposite/hypotenuse; cos = adjacent/hypotenuse; tan = opposite/adjacent",
+   "key_idea": "Choose the appropriate ratio based on which sides are known and which is to be found.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "use sin ratio to find height or hypotenuse",
+    "use cos ratio to find distance or hypotenuse",
+    "use tan ratio to find height or distance",
+    "choose the correct trigonometric ratio for a problem",
+    "apply trigonometric ratios to find unknown sides"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Mark known and unknown sides",
+     "explain": "Opposite, adjacent and hypotenuse relative to the given angle."
+    },
+    {
+     "step": 2,
+     "action": "Select the ratio",
+     "explain": "sin for opposite-hypotenuse, cos for adjacent-hypotenuse, tan for opposite-adjacent."
+    },
+    {
+     "step": 3,
+     "action": "Rearrange and substitute",
+     "explain": "Solve the ratio equation for the unknown side."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A ramp 10 m long is inclined at 30 degrees to the horizontal. Find the height of the ramp.",
+     "solution": "sin(30) = h/10, so h = 10 * sin(30) = 10 * 0.5 = 5 m.",
+     "answer": "5 m"
+    },
+    {
+     "question": "A guy wire is attached to a pole 12 m high and makes an angle of 30 degrees with the ground. Find the length of the wire.",
+     "solution": "sin(30) = 12/L, so L = 12/sin(30) = 12/0.5 = 24 m.",
+     "answer": "24 m"
+    },
+    {
+     "question": "From a point on the ground, the angle of elevation of the top of a 20 m building is 60 degrees. Find the distance from the point to the base.",
+     "solution": "tan(60) = 20/d, so d = 20/tan(60) = 20/sqrt(3) = 11.55 m.",
+     "answer": "11.55 m"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the length of a string of a kite flying at 50 m height at an angle of 45 degrees.",
+     "type": "compute"
+    },
+    {
+     "question": "A ladder 15 m long reaches a window. If the ladder makes 60 degrees with the ground, find the height of the window.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.9.8",
+   "title": "Problems Involving Two Right Triangles",
+   "section": "9.1",
+   "definition": "Some heights and distances problems require setting up two right triangles sharing a common side, typically the height of a tower, with two different angles of elevation.",
+   "formula": "height = d1 * tan(alpha) = d2 * tan(beta); d1 + d2 = total distance",
+   "key_idea": "When two angles of elevation are measured from two points on opposite sides of a tower, the height is found by equating the two expressions for height.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find height of tower given two angles of elevation from opposite sides",
+    "find distance between two observation points using two angles",
+    "solve problems with two right triangles sharing a common height",
+    "find height when two angles of elevation and total distance are given",
+    "determine the height of a tower from two points on the same line"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Draw the shared-height triangles",
+     "explain": "Two observation points give right triangles sharing the tower height h."
+    },
+    {
+     "step": 2,
+     "action": "Combine the base distances",
+     "explain": "d1 + d2 = D for points on opposite sides; d2 - d1 = D for the same side."
+    },
+    {
+     "step": 3,
+     "action": "Solve for the height",
+     "explain": "h = D / (cot(alpha) + cot(beta)) across the tower; h = D / (cot(alpha) - cot(beta)) on one side."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Two points on opposite sides of a tower are 50 m apart. The angles of elevation from these points are 30 and 60 degrees. Find the height of the tower.",
+     "solution": "h = 50 / (cot(30) + cot(60)) = 50 / (sqrt(3) + 1/sqrt(3)) = 50 / (4/sqrt(3)) = 50*sqrt(3)/4 = 21.65 m.",
+     "answer": "21.65 m"
+    },
+    {
+     "question": "The angles of elevation of the top of a tower from two points at distances 4 m and 9 m from the base (same side) are complementary. Find the height of the tower.",
+     "solution": "Let angles be theta and 90-theta. tan(theta) = h/9 and tan(90-theta) = h/4, so cot(theta) = h/4. Thus h/9 * h/4 = 1, so h^2 = 36, h = 6 m.",
+     "answer": "6 m"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Two points on opposite sides of a tower are 80 m apart. The angles of elevation are 30 and 45 degrees. Find the height of the tower.",
+     "type": "compute"
+    },
+    {
+     "question": "From two points on the same side of a tower, 20 m apart, the angles of elevation are 30 and 60 degrees. Find the height of the tower.",
+     "type": "compute"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_eco_ch2_10",
+ "concepts": [
+  {
+   "id": "enh:c9_eco_ch2_10",
+   "title": "c9_eco_ch2_10",
+   "questions": [
+    {
+     "q": "Define market equilibrium price and equilibrium quantity in your own words.",
+     "a": "Equilibrium price is the price at which quantity demanded equals quantity supplied; equilibrium quantity is that common quantity. A wrong answer (e.g., \"equilibrium is where demand curve meets supply curve\" without mentioning quantities) reveals the student memorizes the graphical intersection but cannot articulate the economic meaning: plans of buyers and sellers are mutually consistent, so no participant has incentive to change behavior.",
+     "self_check": true
+    },
+    {
+     "q": "In a market for mangoes, at ₹80/kg there is a surplus of 200 kg. Explain step-by-step why this surplus forces the price down toward equilibrium.",
+     "a": "At ₹80/kg, Qs > Qd by 200 kg. Sellers cannot sell all they brought, so they compete by lowering prices. Lower price increases Qd (law of demand) and decreases Qs (law of supply), shrinking the surplus. This continues until surplus vanishes at equilibrium. A wrong answer (e.g., \"price falls because demand increases\") reveals confusion between movement along curves vs. shift of curves, and misses the competitive pressure among sellers.",
+     "self_check": true
+    },
+    {
+     "q": "Given demand schedule: P=100, Qd=50; P=80, Qd=70; P=60, Qd=90; P=40, Qd=110; P=20, Qd=130. Supply schedule: P=20, Qs=30; P=40, Qs=50; P=60, Qs=70; P=80, Qs=90; P=100, Qs=110. Find equilibrium price and quantity. Show your work.",
+     "a": "Step 1: List Qd and Qs at each price. Step 2: Find price where Qd = Qs. At P=60: Qd=90, Qs=70 (shortage). At P=80: Qd=70, Qs=90 (surplus). Equilibrium lies between ₹60-80. Step 3: Interpolate linearly. Demand slope = (70-90)/(80-60) = -1. Supply slope = (90-70)/(80-60) = 1. Equations: Qd = 150 - P; Qs = P - 10. Step 4: Set 150 - P = P - 10 → 2P = 160 → P* = ₹80. Step 5: Q* = 150 - 80 = 70 kg. A wrong answer (e.g., picking P=60 because \"closest\") reveals inability to interpolate or solve simultaneous equations.",
+     "self_check": true
+    },
+    {
+     "q": "The equilibrium price of onions is ₹40/kg. Due to a poor harvest, supply decreases at every price. At the *original* equilibrium price of ₹40/kg, will there be a surplus or shortage? Explain the full adjustment process to the new equilibrium.",
+     "a": "At original P*=₹40, new Qs < old Qs = Qd, so shortage emerges. Shortage creates upward price pressure: buyers compete, bidding price up. As price rises, Qd falls (movement along demand) and Qs rises (movement along new supply) until new equilibrium at higher price, lower quantity. A wrong answer (e.g., \"surplus because supply decreased\") reveals confusion: decreased supply at same price means less quantity supplied, not more.",
+     "self_check": true
+    },
+    {
+     "q": "\"Government should fix the price of onions at ₹30/kg because the equilibrium price of ₹50/kg is too high for poor consumers.\" Evaluate this statement using equilibrium analysis. Consider both immediate and medium-term effects.",
+     "a": "At ₹30/kg (below equilibrium), Qd > Qs → persistent shortage. Immediate effect: consumers queue, black markets emerge at >₹50/kg. Medium-term: farmers reduce onion cultivation (low profit), supply shifts left further, worsening shortage. Equilibrium allocation is efficient; price ceiling creates non-price rationing (queuing, corruption) and reduces total welfare. A wrong answer (e.g., \"poor consumers benefit\") ignores shortage dynamics and supply response.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life market scenario (Indian context) where demand increases and supply decreases simultaneously. Draw the demand-supply diagram mentally and predict whether equilibrium price rises, falls, or is ambiguous. Explain your reasoning.",
+     "a": "Scenario: Diwali season (demand ↑ for sweets → milk demand ↑) + drought in Punjab (supply ↓ for milk). Both shifts push price up unambiguously. Quantity effect is ambiguous: demand ↑ raises Q, supply ↓ lowers Q. A poor answer (e.g., \"price ambiguous\") fails to recognize that same-direction price effects add, while opposite-direction quantity effects offset. Good answer includes diagram description: D right, S left, P* up, Q* indeterminate.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

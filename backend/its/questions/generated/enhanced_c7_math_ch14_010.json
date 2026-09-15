@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch14_010",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch14_010",
+   "title": "c7_math_ch14_010",
+   "questions": [
+    {
+     "q": "Which fundamental geometric construction tool is used to replicate an angle of a given measure or draw arcs of equal radius?",
+     "a": "The correct answer is a compass. A student who incorrectly answers \"a protractor\" or \"a set square\" is confusing mechanical drawing tools with precision geometric construction tools, missing the core principle that a compass maintains a fixed distance to transfer lengths and construct loci.",
+     "self_check": true
+    },
+    {
+     "q": "Why must we use a compass and ruler rather than a graduated ruler and protractor when solving precise geometric construction applications in engineering layouts?",
+     "a": "The correct answer is that compasses and straightedges rely on geometric principles of equidistance and intersection, which eliminate cumulative human measurement and rounding errors inherent in reading graduated scales. A student who thinks measuring tools are superior does not understand that classical constructions guarantee mathematical exactness rather than approximate measurement.",
+     "self_check": true
+    },
+    {
+     "q": "A local park committee wants to plant a flagpole equidistant from three benches located at points A, B, and C on a triangular lawn. Which specific construction method should you apply, and what is the first step?",
+     "a": "The correct answer is to construct the perpendicular bisectors of the sides AB and BC; their point of intersection (the circumcenter) is equidistant from all three vertices. Step 1: Draw line segments AB and BC joining the benches. Step 2: Using a compass with a radius greater than half of AB, draw intersecting arcs above and below AB from both endpoints. Step 3: Draw the perpendicular bisector line through these arc intersections. Step 4: Repeat the process for side BC to find the intersection point of the two bisectors, which marks the exact flagpole location. A student who attempts to use an angle bisector is confusing the circumcenter with the incenter, leading to incorrect placement that is equidistant from sides rather than vertices.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how constructing parallel lines using a compass and ruler relates to the properties of corresponding angles formed by a transversal line.",
+     "a": "The correct answer is that when we construct a parallel line using the compass method, we replicate an angle at a new vertex by copying arc lengths, ensuring that the corresponding angles are equal, which by geometric theorem guarantees the lines are parallel. A student who answers that parallel lines are just drawn by eye using grid lines fails to connect abstract angle relationships to physical drawing techniques.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following student claim: \"To find a point on a boundary wall that is the shortest distance from a water pipe represented by a line, I need to construct the angle bisector from the point to the line.\" Is this correct? Explain why or why not.",
+     "a": "The correct answer is that the claim is incorrect; the shortest distance from a point to a line is measured along a perpendicular line segment, so the student should construct a perpendicular from the point to the line, not an angle bisector. A student who agrees with the claim confuses angle bisectors with perpendicular drops, demonstrating a failure to link \"shortest distance\" with perpendicularity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short construction plan for a civil engineer who needs to divide a 12 cm long land boundary into four equal segments using only a compass and straightedge, without calculating division arithmetic.",
+     "a": "The expected response involves constructing the perpendicular bisector of the 12 cm segment to divide it into two 6 cm halves, and then constructing the perpendicular bisectors of each resulting 6 cm segment to divide them again, yielding four equal 3 cm sections. A poor response would rely on measuring with a 30 cm ruler and marking every 3 cm, which defeats the purpose of geometric construction and logical verification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

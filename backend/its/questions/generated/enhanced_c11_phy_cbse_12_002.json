@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_12_002",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_12_002",
+   "title": "c11_phy_cbse_12_002",
+   "questions": [
+    {
+     "q": "Write the kinetic theory formula for pressure of an ideal gas, defining each symbol with its SI unit. State the key assumption about molecular motion that allows replacing ⟨vₓ²⟩ with ⅓⟨v²⟩.",
+     "a": "P = (1/3) n m ⟨v²⟩ where: P = pressure (Pa = N/m²), n = number density (m⁻³), m = mass of one molecule (kg), ⟨v²⟩ = mean square speed (m²/s²). The assumption is **isotropy** — the gas has no preferred direction, so ⟨vₓ²⟩ = ⟨vᵧ²⟩ = ⟨v_z²⟩ = ⅓⟨v²⟩. A wrong answer (e.g., missing 1/3, confusing n with total number N, or omitting units) reveals the student has memorized the formula without understanding the vector decomposition or the distinction between number density and total molecule count.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since pressure is force per area, and force is rate of change of momentum, we should just multiply the momentum change 2mvₓ by the number of molecules hitting per second. Why does the textbook include a factor 1/2 when counting molecules hitting the wall?\" Explain the physical reason for this 1/2 factor.",
+     "a": "The 1/2 factor arises because **only half the molecules in the collision volume are moving toward the wall** at any instant; the other half move away. The volume A vₓ Δt contains molecules with both +vₓ and -vₓ. Assuming isotropic velocity distribution, exactly half have vₓ > 0 (toward the wall). A student who misses this thinks all molecules in the volume hit the wall, overestimating pressure by 2×. This reveals confusion between \"molecules in a region\" and \"molecules with velocity toward the boundary.\"",
+     "self_check": true
+    },
+    {
+     "q": "Nitrogen gas (N₂, molar mass 28.0 g/mol) is in a container at 300 K with number density n = 2.5 × 10²⁵ m⁻³. Calculate: (a) mass of one N₂ molecule, (b) rms speed of molecules, (c) pressure exerted by the gas. Use k_B = 1.38 × 10⁻²³ J/K, N_A = 6.02 × 10²³ mol⁻¹.",
+     "a": "**Step 1:** Molecular mass m = M/N_A = (28.0 × 10⁻³ kg/mol) / (6.02 × 10²³ mol⁻¹) = 4.65 × 10⁻²⁶ kg.  \n**Step 2:** From kinetic interpretation of temperature (forward node): ½ m ⟨v²⟩ = ³/₂ k_B T → v_rms = √(3k_B T/m) = √(3 × 1.38×10⁻²³ × 300 / 4.65×10⁻²⁶) = 517 m/s.  \n**Step 3:** Pressure P = ⅓ n m v_rms² = ⅓ × 2.5×10²⁵ × 4.65×10⁻²⁶ × (517)² = 1.03 × 10⁵ Pa ≈ 1.02 atm.  \n**Unit check:** n(m⁻³) × m(kg) × v²(m²/s²) = kg/(m·s²) = N/m² = Pa ✓. A wrong answer typically stems from using molar mass instead of molecular mass, forgetting the 1/3, or unit errors in m (using g instead of kg).",
+     "self_check": true
+    },
+    {
+     "q": "Two ideal gases A and B are at the same temperature and have the same number density n. Gas A has molecular mass m_A = 4 u (helium), gas B has m_B = 32 u (oxygen). Compare: (i) their pressures, (ii) their rms speeds, (iii) the average kinetic energy per molecule. Justify each comparison using kinetic theory formulas.",
+     "a": "(i) **Pressures are equal.** P = ⅓ n m ⟨v²⟩. From equipartition (forward node), ½ m ⟨v²⟩ = ³/₂ k_B T ⇒ m ⟨v²⟩ = 3 k_B T. Since T is same, m⟨v²⟩ is same for both gases. With same n, P is identical.  \n(ii) **v_rms,A > v_rms,B.** v_rms = √(3k_B T/m) ∝ 1/√m. m_B/m_A = 8, so v_rms,A / v_rms,B = √8 ≈ 2.83. Helium molecules move ~2.8× faster.  \n(iii) **Average KE per molecule is equal.** ½ m ⟨v²⟩ = ³/₂ k_B T depends only on T. A student who says \"heavier gas exerts more pressure\" confuses mass density ρ = nm with number density n, or forgets that ⟨v²⟩ adjusts to keep m⟨v²⟩ constant at fixed T.",
+     "self_check": true
+    },
+    {
+     "q": "A student derives pressure as follows: \"Momentum change per collision = 2mv. Number of collisions per second = n A v. Force = 2mnAv². Pressure = F/A = 2mnv².\" Identify **three** distinct errors in this derivation and explain why each is physically incorrect.",
+     "a": "**Error 1:** Uses speed v instead of x-component vₓ. Only vₓ changes in a collision with a wall perpendicular to x-axis; vᵧ and v_z are unchanged.  \n**Error 2:** Omits the 1/2 factor for molecules moving toward the wall. Assumes all molecules in volume AvΔt hit the wall.  \n**Error 3:** Uses single speed v instead of averaging over distribution ⟨vₓ²⟩. Real gases have a distribution of speeds; pressure depends on mean square speed.  \n**Error 4 (bonus):** Missing the 1/3 factor from isotropy. Even if vₓ were used correctly, ⟨vₓ²⟩ = ⅓⟨v²⟩ must be applied. A student making these errors treats molecules as all moving perpendicular to the wall at the same speed, ignoring vector nature of velocity and statistical distribution.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment using a **single molecule** in a cubical box to \"measure\" pressure. Describe how you would extrapolate from one molecule to Avogadro's number of molecules to recover the formula P = ⅓ n m ⟨v²⟩. What assumptions about the gas are implicitly tested by this extrapolation?",
+     "a": "**Thought experiment:** Place one molecule of mass m in a cube of side L. Track its x-velocity vₓ. Time between hits on the same wall: Δt = 2L/vₓ. Momentum transfer per hit: 2mvₓ. Average force on that wall: F = 2mvₓ / (2L/vₓ) = mvₓ²/L. Pressure on that wall: P₁ = F/L² = mvₓ²/L³ = mvₓ²/V.  \n**Extrapolation:** For N molecules, sum over all: P = (m/V) Σ vₓᵢ² = n m ⟨vₓ²⟩. By isotropy, ⟨vₓ²⟩ = ⅓⟨v²⟩ → P = ⅓ n m ⟨v²⟩.  \n**Assumptions tested:** (1) Elastic collisions with walls (vₓ reverses exactly), (2) No intermolecular collisions (single molecule), (3) Isotropy (⟨vₓ²⟩ = ⅓⟨v²⟩ holds for ensemble), (4) Large N so averages are meaningful. A poor answer treats the single molecule as having fixed vₓ, missing the statistical nature of pressure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

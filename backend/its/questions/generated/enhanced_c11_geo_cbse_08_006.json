@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_08_006",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_08_006",
+   "title": "c11_geo_cbse_08_006",
+   "questions": [
+    {
+     "q": "What is the longitudinal extent of mainland India and what is the approximate time difference between its easternmost and westernmost points?",
+     "a": "Mainland India extends from 68°7'E to 97°25'E, a span of ~29°18'. Since 1° longitude = 4 minutes, the time difference is 29.3° × 4 min/° ≈ 117 minutes (1 hour 57 minutes). A wrong answer (e.g., \"2 hours 30 minutes\" or \"30°\") reveals the student either misremembers the extreme coordinates or incorrectly calculates the degree difference, indicating a gap in recalling India's exact longitudinal boundaries from the previous node (c11_geo_cbse_08_001).",
+     "self_check": true
+    },
+    {
+     "q": "Why is the Standard Meridian of India chosen as 82°30'E instead of the mathematical central meridian of India's longitudinal extremes (which would be ~82°46'E)?",
+     "a": "82°30'E is a multiple of 7°30' (half-hour increments from the Prime Meridian), making IST exactly UTC+5:30 — a convenient half-hour offset used internationally. The mathematical centre (82°46'E) would give an awkward UTC+5:30:24 offset. A wrong answer like \"because it passes through the capital\" or \"it's the exact centre\" shows the student confuses administrative convenience with geometric centre, missing the link to international time-zone conventions (multiples of 15° or 7°30').",
+     "self_check": true
+    },
+    {
+     "q": "If it is 12:00 noon IST (referenced to 82°30'E), what is the local mean time at Porbandar (69°36'E) and at Itanagar (93°36'E)? Show your calculation.",
+     "a": "Step 1: Difference from Standard Meridian. Porbandar: 82°30' – 69°36' = 12°54' west. Itanagar: 93°36' – 82°30' = 11°06' east.\nStep 2: Convert to time. 1° = 4 min. Porbandar: 12.9° × 4 = 51.6 min ≈ 51 min 36 sec behind IST → 11:08:24 AM. Itanagar: 11.1° × 4 = 44.4 min ≈ 44 min 24 sec ahead IST → 12:44:24 PM.\nA wrong answer (e.g., using 1° = 6 min or adding instead of subtracting for west) reveals the student cannot apply the longitude-time conversion rule or confuses east/west directionality.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the longitudinal span of India (~29°) with that of the continental USA (~58°). The USA has four time zones; India has one. Analyse two geographical and two administrative reasons why India adopts a single time zone despite a span that could theoretically support two.",
+     "a": "Geographical: (1) India's north-south orientation (3214 km) is greater than its east-west span (2933 km), so latitudinal climate variation dominates daily life more than longitudinal time variation. (2) The population density is concentrated in the central longitudes, reducing the number of people experiencing extreme offsets. Administrative: (1) A single time zone simplifies railway/airline scheduling, national broadcasting, stock market hours, and legal deadlines across 28 states and 8 UTs. (2) Historical legacy: IST was adopted in 1906 for British Indian railways and retained post-independence for national unity. A wrong answer focusing only on \"India is smaller\" misses the nuanced interplay of population distribution, administrative continuity, and the half-hour offset convention.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the proposal to introduce a second time zone (UTC+6:30) for Northeastern states (east of 89°E). Weigh the potential benefits (daylight alignment, energy savings) against the costs (administrative complexity, inter-state coordination, strategic concerns). Conclude with a reasoned judgment.",
+     "a": "Benefits: Northeast sunrise can be as early as 4:00 AM IST in summer; advancing clocks by 1 hour could align working hours with daylight, reducing electricity use for lighting by an estimated 1-2% in the region. Costs: Railway signalling across zone boundaries (e.g., New Jalpaiguri to Guwahati) would require complex handover protocols; financial markets, defence communications, and national exams would need dual schedules; strategic risk of temporal disconnect with the capital during emergencies. Judgment: The marginal energy savings and social benefits do not outweigh the systemic risks and coordination costs for a region with <4% of national population; instead, flexible work hours (e.g., 8 AM – 4 PM) in NE states achieve similar daylight alignment without fragmentation. A wrong answer that uncritically supports \"two time zones because USA does it\" ignores India's unique federal structure, population density pattern, and strategic unity imperatives.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom activity using a globe, a torch (Sun), and two pins placed at Gujarat and Arunachal Pradesh to demonstrate why local noon occurs at different clock times across India. Write the step-by-step procedure and the key geographical concept each step illustrates.",
+     "a": "Procedure: (1) Mark Gujarat (69°E) and Arunachal (93°E) with pins on the globe. (2) Align globe so the Prime Meridian faces the torch (Sun at Greenwich noon). (3) Rotate globe westward (simulating Earth's rotation) until Gujarat pin faces the torch — note time elapsed. (4) Continue rotating until Arunachal pin faces the torch — note additional time. (5) Measure angle between pins; calculate time difference (angle/15° per hour). Concepts: (1) Longitude determines solar time. (2) Earth rotates west-to-east, so east experiences noon earlier. (3) Standard time is a human convention to synchronise clocks. A poor activity that just shows \"sun rises in east\" without measuring the angular difference or linking to the 4-min/degree rule fails to build quantitative geographical reasoning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

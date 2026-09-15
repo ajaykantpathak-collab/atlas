@@ -1,0 +1,635 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 6,
+ "chapter_title": "Resources and Development",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess101.txt",
+ "concepts": [
+  {
+   "id": "c10ss.6.1",
+   "title": "Types of Resources",
+   "section": "Types of Resources",
+   "definition": "Resources are classified into four types on the basis of ownership -- individual, community, national and international resources -- and on the basis of status of development into potential, developed, stock and reserve resources.",
+   "formula": "",
+   "key_idea": "Resources can be classified by ownership (individual, community, national, international) and by status of development (potential, developed, stock, reserve), each serving a different purpose.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Classify resources on the basis of ownership.",
+    "Differentiate between potential and developed resources.",
+    "What are stock resources and reserve resources?",
+    "Explain the difference between community and national resources.",
+    "Give one example each of individual and international resources."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the basis of classification",
+     "explain": "Note that resources are classified by ownership (individual, community, national, international) and by status of development (potential, developed, stock, reserve)."
+    },
+    {
+     "step": 2,
+     "action": "Verify the ownership categories",
+     "explain": "Check that individual resources are owned privately, community resources are accessible to a community, national resources belong to the nation, and international resources are governed by international institutions."
+    },
+    {
+     "step": 3,
+     "action": "Relate to development status",
+     "explain": "Confirm that potential resources can be used but are not yet used, developed resources are being used, stock resources cannot be used with current technology, and reserves are the usable part of stock."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Classify resources on the basis of ownership.",
+     "solution": "On the basis of ownership, resources are classified into individual resources (owned privately, e.g. a farmer's land), community resources (accessible to all, e.g. village grazing land), national resources (belonging to the nation, e.g. forests) and international resources (governed by international bodies, e.g. the ocean bed).",
+     "answer": "Individual, community, national and international resources."
+    },
+    {
+     "question": "Differentiate between potential and developed resources.",
+     "solution": "Potential resources are found in a region but have not been used yet, such as wind energy in parts of Rajasthan, while developed resources are those whose quantity and quality have been surveyed and are being used at present, such as coal mines in Jharkhand.",
+     "answer": "Potential resources are unused; developed resources are surveyed and in use."
+    },
+    {
+     "question": "What are stock and reserve resources?",
+     "solution": "Stock resources are materials that can satisfy human wants but lack the technology to be used, such as water rich in hydrogen; reserves are the part of stock that can be used with existing technology, such as water in dams used for hydroelectricity.",
+     "answer": "Stock cannot be used with current technology; reserves are the usable part of stock."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the difference between community and national resources with examples.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Give one example each of individual and international resources.",
+     "type": "recall"
+    },
+    {
+     "question": "What are stock resources and reserve resources?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.6.2",
+   "title": "Development of Resources",
+   "section": "Development of Resources",
+   "definition": "Development of resources means using resources to satisfy human needs through technology and institutions, but irrational use and over-utilisation have led to problems like depletion, accumulation of resources in few hands, and ecological crises, requiring sustainable development.",
+   "formula": "",
+   "key_idea": "Resource development must balance human needs with conservation; over-exploitation causes depletion and ecological crises, so sustainable development is essential.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is meant by development of resources?",
+    "Why has irrational use of resources caused problems?",
+    "Explain the concept of sustainable development.",
+    "What problems arise from the accumulation of resources in a few hands?",
+    "How can resource development be made sustainable?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the meaning of resource development",
+     "explain": "Note that resource development means using resources with the help of technology and institutions to satisfy human needs."
+    },
+    {
+     "step": 2,
+     "action": "Verify the problems of over-use",
+     "explain": "Check that irrational use and over-utilisation cause depletion of resources, accumulation in few hands, and ecological crises like land degradation."
+    },
+    {
+     "step": 3,
+     "action": "Relate to sustainable development",
+     "explain": "Confirm that sustainable development, using resources without harming the ability of future generations to meet their needs, is the solution."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is meant by development of resources?",
+     "solution": "Development of resources is the process of using resources with the help of technology and institutions to satisfy human needs, such as building dams to use water for irrigation and electricity.",
+     "answer": "Using resources with technology and institutions to meet human needs."
+    },
+    {
+     "question": "Why has irrational use of resources caused problems?",
+     "solution": "Irrational use and over-utilisation of resources have led to depletion of resources, concentration of resources in a few hands, and ecological crises such as land degradation, global warming and ozone layer depletion.",
+     "answer": "It causes depletion, unequal distribution and ecological crises."
+    },
+    {
+     "question": "Explain the concept of sustainable development.",
+     "solution": "Sustainable development means developing resources without harming the environment and without compromising the ability of future generations to meet their needs, balancing present use with conservation.",
+     "answer": "Using resources so that future generations can also meet their needs."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What problems arise from the accumulation of resources in a few hands?",
+     "type": "short_answer"
+    },
+    {
+     "question": "How can resource development be made sustainable?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Define sustainable development.",
+     "type": "recall"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.6.3",
+   "title": "Resource Planning in India",
+   "section": "Resource Planning in India",
+   "definition": "Resource planning in India involves identification and inventory of resources, planning matched with national development plans, and balanced development at the national, state and local levels, since some regions like Jharkhand are rich in minerals but poor in other resources.",
+   "formula": "",
+   "key_idea": "Resource planning in India balances uneven resource distribution by surveying resources, matching plans with national development, and ensuring balanced development at all levels.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is resource planning and why is it essential in India?",
+    "Describe the three stages of resource planning in India.",
+    "Why do some regions like Jharkhand need special resource planning?",
+    "How does resource planning match with national development plans?",
+    "Explain the need for balanced resource development at different levels."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the stages of resource planning",
+     "explain": "Note that resource planning involves identification and inventory of resources, evolving a planning structure, and matching with national development plans."
+    },
+    {
+     "step": 2,
+     "action": "Verify the need for planning",
+     "explain": "Check that some regions like Jharkhand are rich in minerals but lack water or infrastructure, requiring planned use."
+    },
+    {
+     "step": 3,
+     "action": "Relate to balanced development",
+     "explain": "Confirm that resource planning ensures balanced development at the national, state and local levels to avoid regional imbalance."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is resource planning and why is it essential in India?",
+     "solution": "Resource planning is the judicious use of resources considering their uneven distribution; it is essential in India because resources are not evenly spread -- some regions are rich in one resource but poor in others -- so planning is needed for balanced development.",
+     "answer": "It is the judicious use of resources needed because resources are unevenly distributed."
+    },
+    {
+     "question": "Describe the three stages of resource planning in India.",
+     "solution": "The three stages are: (1) identification and inventory of resources including surveying and mapping, (2) evolving a planning structure with appropriate technology and institutions, and (3) matching resource plans with national development plans.",
+     "answer": "Inventory, planning structure, and matching with national plans."
+    },
+    {
+     "question": "Why do some regions like Jharkhand need special resource planning?",
+     "solution": "Jharkhand is rich in minerals and coal but lacks adequate water resources and infrastructure, so it needs special planning to use its mineral wealth while developing water and other facilities for balanced growth.",
+     "answer": "It is rich in minerals but lacks water and infrastructure, needing balanced planning."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How does resource planning match with national development plans?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the need for balanced resource development at different levels.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name a region in India that is rich in minerals but poor in other resources.",
+     "type": "recall"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.6.4",
+   "title": "Land Resources",
+   "section": "Land Resources",
+   "definition": "Land is a natural resource of limited supply, covering about 43 per cent of the total geographical area of India as plains, 30 per cent as mountains and 27 per cent as plateaus, each supporting different types of economic activities.",
+   "formula": "",
+   "key_idea": "India's land is divided into plains (43 per cent), mountains (30 per cent) and plateaus (27 per cent), each supporting different economic activities and land uses.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why is land considered a limited natural resource?",
+    "Describe the relief features of India and their proportions.",
+    "How do plains, mountains and plateaus support different economic activities?",
+    "What percentage of India's area is covered by plains?",
+    "Why are plains important for agriculture and settlement?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the relief categories",
+     "explain": "Note that India's land is divided into plains, mountains and plateaus."
+    },
+    {
+     "step": 2,
+     "action": "Compute the proportions",
+     "explain": "Calculate the percentage of each: plains 43 per cent, mountains 30 per cent, plateaus 27 per cent.",
+     "compute": "plains_pct = 43"
+    },
+    {
+     "step": 3,
+     "action": "Compute the proportions",
+     "explain": "Calculate the percentage of each: plains 43 per cent, mountains 30 per cent, plateaus 27 per cent.",
+     "compute": "mountains_pct = 30"
+    },
+    {
+     "step": 4,
+     "action": "Compute the proportions",
+     "explain": "Calculate the percentage of each: plains 43 per cent, mountains 30 per cent, plateaus 27 per cent.",
+     "compute": "plateaus_pct = 27"
+    },
+    {
+     "step": 5,
+     "action": "Verify the total",
+     "explain": "Confirm that the three proportions add up to 100 per cent of the geographical area.",
+     "compute": "total = 43 + 30 + 27"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is land considered a limited natural resource?",
+     "solution": "Land is a natural resource of limited supply because only a fixed portion of the earth's surface is habitable and cultivable, and it cannot be increased, so it must be used carefully.",
+     "answer": "Because its supply is fixed and cannot be increased."
+    },
+    {
+     "question": "Describe the relief features of India and their proportions.",
+     "solution": "About 43 per cent of India's area is plains, 30 per cent is mountains and 27 per cent is plateaus; plains support agriculture and settlement, mountains provide forests and tourism, and plateaus hold minerals.",
+     "answer": "Plains 43 per cent, mountains 30 per cent, plateaus 27 per cent."
+    },
+    {
+     "question": "Verify that the proportions of plains (43 per cent), mountains (30 per cent) and plateaus (27 per cent) add up to 100 per cent.",
+     "solution": "Adding the three proportions: 43 + 30 + 27 = 100 per cent, confirming the total geographical area is fully accounted for.",
+     "answer": "43 + 30 + 27 = 100 per cent."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How do plains, mountains and plateaus support different economic activities?",
+     "type": "short_answer"
+    },
+    {
+     "question": "What percentage of India's area is covered by mountains?",
+     "type": "recall"
+    },
+    {
+     "question": "Verify that the proportions of plains, mountains and plateaus sum to 100 per cent.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.6.5",
+   "title": "Land Utilisation",
+   "section": "Land Utilisation",
+   "definition": "Land utilisation refers to the use of land for various purposes such as forests, land not available for cultivation (barren and waste land, land put to non-agricultural uses), other uncultivated land (excluding fallow), fallow land, and net sown area.",
+   "formula": "",
+   "key_idea": "Land in India is utilised for forests, non-agricultural uses, uncultivated land, fallow land and net sown area, each category reflecting a different use of the limited land resource.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the major categories of land utilisation in India?",
+    "Differentiate between net sown area and fallow land.",
+    "What is meant by land not available for cultivation?",
+    "Explain the category of other uncultivated land.",
+    "Why is the study of land utilisation important?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the categories of land use",
+     "explain": "Note that land is used for forests, land not available for cultivation, other uncultivated land, fallow land and net sown area."
+    },
+    {
+     "step": 2,
+     "action": "Verify the meaning of each",
+     "explain": "Check that net sown area is land sown at least once a year, fallow land is left uncultivated for a season, and land not available for cultivation includes barren and non-agricultural land."
+    },
+    {
+     "step": 3,
+     "action": "Relate to planning",
+     "explain": "Confirm that studying land utilisation helps plan the best use of limited land for agriculture, forests and other needs."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the major categories of land utilisation in India?",
+     "solution": "The major categories are: (1) forests, (2) land not available for cultivation (barren and waste land, land put to non-agricultural uses), (3) other uncultivated land excluding fallow, (4) fallow land, and (5) net sown area.",
+     "answer": "Forests, land not available for cultivation, other uncultivated land, fallow land and net sown area."
+    },
+    {
+     "question": "Differentiate between net sown area and fallow land.",
+     "solution": "Net sown area is the land sown with crops at least once in a year, while fallow land is cultivable land left uncultivated for one or two agricultural years to regain fertility.",
+     "answer": "Net sown area is cropped; fallow land is left uncultivated to regain fertility."
+    },
+    {
+     "question": "What is meant by land not available for cultivation?",
+     "solution": "Land not available for cultivation includes barren and waste land that cannot be brought under cultivation, and land put to non-agricultural uses such as buildings, roads and factories.",
+     "answer": "Barren/waste land and land under non-agricultural uses."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the category of other uncultivated land.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is the study of land utilisation important?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name two types of land not available for cultivation.",
+     "type": "recall"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.6.6",
+   "title": "Land Use Pattern in India",
+   "section": "Land Use Pattern in India",
+   "definition": "The land use pattern in India shows that about 54 per cent is under net sown area, 22 per cent under forests, and the rest under other uses; the pattern is influenced by topography, climate, soil and human factors like population density and technology.",
+   "formula": "",
+   "key_idea": "India's land use pattern is determined by both physical factors (topography, climate, soil) and human factors (population, technology), with net sown area being the largest category.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What factors influence the land use pattern in India?",
+    "Describe the share of net sown area and forests in India's land use.",
+    "How do human factors affect land use pattern?",
+    "Why does the land use pattern vary across regions?",
+    "Explain the role of technology in changing land use."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the physical and human factors",
+     "explain": "Note that land use is influenced by topography, climate and soil (physical) and population density, technology and institutions (human)."
+    },
+    {
+     "step": 2,
+     "action": "Compute the shares",
+     "explain": "Calculate the share of net sown area (about 54 per cent) and forests (about 22 per cent) of the total area.",
+     "compute": "net_sown = 54"
+    },
+    {
+     "step": 3,
+     "action": "Compute the shares",
+     "explain": "Calculate the share of net sown area (about 54 per cent) and forests (about 22 per cent) of the total area.",
+     "compute": "forests = 22"
+    },
+    {
+     "step": 4,
+     "action": "Verify the remaining",
+     "explain": "Confirm that the remaining area is under other uses such as fallow, barren and non-agricultural land.",
+     "compute": "other_uses = 100 - 54 - 22"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What factors influence the land use pattern in India?",
+     "solution": "The land use pattern is influenced by physical factors such as topography, climate and soil, and human factors such as population density, technological capability, culture and traditions, and government policies.",
+     "answer": "Physical factors (topography, climate, soil) and human factors (population, technology, policy)."
+    },
+    {
+     "question": "Describe the share of net sown area and forests in India's land use.",
+     "solution": "About 54 per cent of India's total land area is under net sown area, about 22 per cent is under forests, and the remaining is under fallow land, barren land and non-agricultural uses.",
+     "answer": "Net sown area about 54 per cent, forests about 22 per cent."
+    },
+    {
+     "question": "Calculate the share of land under uses other than net sown area (54 per cent) and forests (22 per cent).",
+     "solution": "Net sown area = 54 per cent, forests = 22 per cent. Remaining = 100 - 54 - 22 = 24 per cent under other uses.",
+     "answer": "24 per cent under other uses."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How do human factors affect land use pattern?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why does the land use pattern vary across regions?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Calculate the share of land under uses other than net sown area and forests.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.6.7",
+   "title": "Soil as a Resource",
+   "section": "Soil as a Resource",
+   "definition": "Soil is the upper layer of the earth's crust capable of supporting vegetation; it is a living system formed by the weathering of rocks over long periods and is a renewable resource that supports agriculture, but it takes 300 to 1000 years to form just 3 cm of topsoil.",
+   "formula": "",
+   "key_idea": "Soil is a renewable but slowly forming resource created by rock weathering; it is essential for agriculture and must be conserved because it forms very slowly.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why is soil considered a renewable resource?",
+    "How is soil formed from rocks?",
+    "Why does soil take a long time to form?",
+    "Explain the importance of soil for agriculture.",
+    "Why must soil be conserved despite being renewable?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify how soil forms",
+     "explain": "Note that soil forms by the weathering of rocks over long periods through physical, chemical and biological processes."
+    },
+    {
+     "step": 2,
+     "action": "Compute the rate of formation",
+     "explain": "Calculate the time taken to form 3 cm of topsoil, between 300 and 1000 years.",
+     "compute": "min_years = 300"
+    },
+    {
+     "step": 3,
+     "action": "Compute the rate of formation",
+     "explain": "Calculate the time taken to form 3 cm of topsoil, between 300 and 1000 years.",
+     "compute": "max_years = 1000"
+    },
+    {
+     "step": 4,
+     "action": "Interpret the renewability",
+     "explain": "Relate the slow rate of formation to the need for conservation despite soil being technically renewable.",
+     "compute": "formation_rate = 3 / ((300 + 1000) / 2)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is soil considered a renewable resource?",
+     "solution": "Soil is considered renewable because it can be formed again through the weathering of rocks and addition of organic matter, but it forms very slowly -- 300 to 1000 years for 3 cm -- so it must be used carefully.",
+     "answer": "It can reform through weathering, but very slowly."
+    },
+    {
+     "question": "How is soil formed from rocks?",
+     "solution": "Soil is formed by the weathering of rocks through the action of temperature, water, wind and living organisms over long periods, breaking rocks into small particles that mix with organic matter to form soil.",
+     "answer": "By weathering of rocks through temperature, water, wind and organisms."
+    },
+    {
+     "question": "Calculate the average time (in years) to form 3 cm of topsoil, given the range of 300 to 1000 years.",
+     "solution": "The range is 300 to 1000 years. Average = (300 + 1000) / 2 = 650 years for 3 cm of topsoil.",
+     "answer": "About 650 years on average for 3 cm of topsoil."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the importance of soil for agriculture.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why must soil be conserved despite being renewable?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Calculate the average time to form 3 cm of topsoil given the range 300-1000 years.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.6.8",
+   "title": "Classification of Soils",
+   "section": "Classification of Soils",
+   "definition": "Indian soils are classified into alluvial soil (43 per cent, fertile, found in river valleys), black soil (15 per cent, ideal for cotton), red and yellow soil, laterite soil, arid soil and forest soil, each formed under different conditions of climate and relief.",
+   "formula": "",
+   "key_idea": "India has six major soil types -- alluvial, black, red and yellow, laterite, arid and forest soils -- each suited to different crops and formed under different climatic and relief conditions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Classify the major types of soils found in India.",
+    "Describe the features of alluvial soil.",
+    "Why is black soil also called regur soil and where is it found?",
+    "Explain the formation and uses of laterite soil.",
+    "Differentiate between arid soil and forest soil."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the soil types",
+     "explain": "Note the six major soil types: alluvial, black, red and yellow, laterite, arid and forest soils."
+    },
+    {
+     "step": 2,
+     "action": "Compute the shares of major soils",
+     "explain": "Calculate the share of alluvial soil (43 per cent) and black soil (15 per cent) of India's total area.",
+     "compute": "alluvial_pct = 43"
+    },
+    {
+     "step": 3,
+     "action": "Compute the shares of major soils",
+     "explain": "Calculate the share of alluvial soil (43 per cent) and black soil (15 per cent) of India's total area.",
+     "compute": "black_pct = 15"
+    },
+    {
+     "step": 4,
+     "action": "Verify the combined share",
+     "explain": "Confirm the combined share of alluvial and black soils in India's soil cover.",
+     "compute": "combined = 43 + 15"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Classify the major types of soils found in India.",
+     "solution": "The major soil types in India are alluvial soil, black soil, red and yellow soil, laterite soil, arid soil and forest (mountain) soil, each formed under different conditions of climate, relief and vegetation.",
+     "answer": "Alluvial, black, red and yellow, laterite, arid and forest soils."
+    },
+    {
+     "question": "Describe the features of alluvial soil.",
+     "solution": "Alluvial soil is the most widespread soil, covering about 43 per cent of India's area; it is fertile, rich in potash but poor in phosphorus, found in the Indo-Gangetic plains and deltas, and is divided into bangar (old alluvium) and khadar (new alluvium).",
+     "answer": "Fertile, widespread (43 per cent), found in plains and deltas; types are bangar and khadar."
+    },
+    {
+     "question": "Calculate the combined share of alluvial soil (43 per cent) and black soil (15 per cent) in India's soil cover.",
+     "solution": "Alluvial soil = 43 per cent, black soil = 15 per cent. Combined = 43 + 15 = 58 per cent of India's soil cover.",
+     "answer": "58 per cent combined (alluvial + black)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why is black soil also called regur soil and where is it found?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the formation and uses of laterite soil.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Calculate the combined share of alluvial and black soils in India's soil cover.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.6.9",
+   "title": "Soil Erosion and Conservation",
+   "section": "Soil Erosion and Conservation",
+   "definition": "Soil erosion is the removal of topsoil by wind, water and human activities; it is caused by deforestation, overgrazing and faulty farming, and is conserved through contour ploughing, terrace farming, strip cropping, shelter belts and afforestation.",
+   "formula": "",
+   "key_idea": "Soil erosion removes fertile topsoil through wind and water, worsened by human activities, and is controlled through methods like contour ploughing, terracing, strip cropping, shelter belts and afforestation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is soil erosion and what are its causes?",
+    "Differentiate between wind erosion and water erosion.",
+    "Describe the methods of soil conservation.",
+    "How do contour ploughing and terrace farming prevent erosion?",
+    "Explain the role of afforestation in soil conservation."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the causes of soil erosion",
+     "explain": "Note that soil erosion is caused by wind and water acting on topsoil, worsened by deforestation, overgrazing and faulty farming methods."
+    },
+    {
+     "step": 2,
+     "action": "Verify the types of erosion",
+     "explain": "Check that water erosion includes sheet, rill and gully erosion, and wind erosion removes loose topsoil in dry regions."
+    },
+    {
+     "step": 3,
+     "action": "Relate to conservation methods",
+     "explain": "Confirm that contour ploughing, terrace farming, strip cropping, shelter belts and afforestation reduce erosion and conserve soil."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is soil erosion and what are its causes?",
+     "solution": "Soil erosion is the removal of the fertile topsoil by natural agents like wind and water, accelerated by human activities such as deforestation, overgrazing, over-irrigation and faulty methods of farming.",
+     "answer": "Removal of topsoil by wind and water, worsened by deforestation and overgrazing."
+    },
+    {
+     "question": "Describe the methods of soil conservation.",
+     "solution": "Soil conservation methods include contour ploughing along terrace contours, terrace farming on slopes, strip cropping with alternating crops, shelter belts of trees to break wind, and afforestation to bind the soil.",
+     "answer": "Contour ploughing, terracing, strip cropping, shelter belts and afforestation."
+    },
+    {
+     "question": "How do contour ploughing and terrace farming prevent erosion?",
+     "solution": "Contour ploughing makes furrows across the slope to slow water flow, and terrace farming cuts slopes into flat steps, both reducing the speed of running water and preventing gully erosion on hillsides.",
+     "answer": "They slow water flow and reduce runoff on slopes."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Differentiate between wind erosion and water erosion.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the role of afforestation in soil conservation.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name two methods of soil conservation used on slopes.",
+     "type": "recall"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

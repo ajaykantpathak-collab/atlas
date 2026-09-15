@@ -1,0 +1,311 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 9,
+ "chapter_title": "Mensuration",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hemh109.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hemh.109.9.1",
+   "title": "Area of a Trapezium",
+   "section": "9.2",
+   "definition": "A trapezium has one pair of parallel sides, and its area is half the sum of the parallel sides times the distance between them - the average of the parallel sides spread over the height.",
+   "formula": "area = (side_a + side_b) / 2 * height",
+   "key_idea": "Average of parallel sides times height: (a + b)/2 times h.",
+   "textbook_ref": "hemh109.txt section 9.2 (area of a trapezium, examples)",
+   "question_patterns": [
+    "find the area of a trapezium with parallel sides 8 cm and 6 cm and height 5 cm",
+    "the area of a trapezium is given - find the missing parallel side",
+    "calculate the area of the trapezium from the given measurements",
+    "the distance between the parallel sides of a trapezium is given - find the area",
+    "find the height of a trapezium whose area and parallel sides are known",
+    "why does the trapezium area use the average of the parallel sides"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "sum the parallel sides",
+     "explain": "Add side_a and side_b.",
+     "compute": "side_sum = side_a + side_b"},
+    {"step": 2, "action": "average and multiply by height",
+     "explain": "Half the sum times the height gives the area.",
+     "compute": "area = side_sum / 2 * height"}
+   ]
+  },
+  {
+   "id": "hemh.109.9.2",
+   "title": "Area of a General Polygon by Splitting",
+   "section": "9.2",
+   "definition": "Any polygon yields its area when split into friendly shapes - triangles, rectangles, trapeziums - on a suitable base line; computing each part and adding them gives the whole area, the standard trick for irregular fields.",
+   "formula": "-",
+   "key_idea": "Cut the awkward figure into shapes you know, then add the areas.",
+   "textbook_ref": "hemh109.txt section 9.2 (area of a polygon by splitting into known shapes)",
+   "question_patterns": [
+    "find the area of the given pentagonal field by splitting",
+    "split the polygon into triangles and trapeziums to find its area",
+    "find the area of the irregular quadrilateral from the given measurements",
+    "why is splitting the standard method for polygon areas",
+    "the diagonal and perpendiculars are given - find the polygon's area",
+    "compute the total area of the composite plot"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "choose the splitting line",
+     "explain": "Draw one diagonal or base on which the parts stand."},
+    {"step": 2, "action": "compute each part",
+     "explain": "Triangles use half base times height; trapeziums use the average formula."},
+    {"step": 3, "action": "add the areas",
+     "explain": "The sum rebuilds the full polygon area."}
+   ]
+  },
+  {
+   "id": "hemh.109.9.3",
+   "title": "Surface Area of Cube, Cuboid and Cylinder",
+   "section": "9.4",
+   "definition": "Surface area wraps the solid: a cuboid needs 2(lw + wh + hl) covering all six faces, a cube is 6 times its edge squared, and a cylinder takes the two circle ends plus the rolled rectangle, 2 pi r times (r + h).",
+   "formula": "surface = 2 * (length * width + width * height + height * length)",
+   "key_idea": "Unfold the solid into its net; the net's area is the surface area.",
+   "textbook_ref": "hemh109.txt sections 9.4 (surface areas of cube, cuboid, cylinder)",
+   "question_patterns": [
+    "find the surface area of a cuboid of given dimensions",
+    "find the surface area of a cube of edge 10 cm",
+    "find the total surface area of a cylinder of given radius and height",
+    "paint a box of given size - find the area to be painted",
+    "compare the lateral and total surface area of the cylinder",
+    "the surface area of a cube is given - find its edge"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "compute the three face pairs",
+     "explain": "lw, wh and hl are the three distinct rectangles.",
+     "compute": "faces = length * width + width * height + height * length"},
+    {"step": 2, "action": "double the total",
+     "explain": "Each face appears twice in the box.",
+     "compute": "surface = 2 * faces"}
+   ]
+  },
+  {
+   "id": "hemh.109.9.4",
+   "title": "Volume of Cube, Cuboid and Cylinder",
+   "section": "9.5",
+   "definition": "Volume counts the unit cubes inside a solid: a cuboid holds length times width times height of them, a cube repeats its edge thrice, and a cylinder stacks pi r squared circle layers up its height.",
+   "formula": "volume = length * width * height",
+   "key_idea": "Base area times height fills any prism-like solid, cylinder included.",
+   "textbook_ref": "hemh109.txt section 9.5 (volume of cube, cuboid and cylinder)",
+   "question_patterns": [
+    "find the volume of a cuboid of given dimensions",
+    "find the volume of a cube of edge 8 cm",
+    "find the volume of a cylinder of radius 7 cm and height 10 cm",
+    "how much water fills the given cylindrical tank",
+    "the volume of a cuboid is given with two sides - find the third",
+    "compare the volumes of the given solids"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "multiply the three dimensions",
+     "explain": "Length, width and height multiply for the cuboid volume.",
+     "compute": "volume = length * width * height"}
+   ]
+  },
+  {
+   "id": "hemh.109.9.5",
+   "title": "Volume of a Cylinder and Capacity",
+   "section": "9.6",
+   "definition": "A cylinder's volume is the circle base times the height - pi times radius squared times height - and capacity measures the same volume in litres, with one cubic centimetre holding one millilitre.",
+   "formula": "volume = pi * r * r * height",
+   "key_idea": "Circle area pi r squared stacked up the height; 1000 cubic cm equals one litre.",
+   "textbook_ref": "hemh109.txt sections 9.5.3 and 9.6 (cylinder volume, volume and capacity)",
+   "question_patterns": [
+    "find the volume of a cylinder of radius 14 cm and height 20 cm",
+    "how many litres does the given cylindrical drum hold",
+    "find the capacity of the cylindrical tank from its dimensions",
+    "the volume and radius are given - find the cylinder's height",
+    "convert the volume of the vessel into litres",
+    "compare the capacity of two cylindrical containers"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "compute the base circle",
+     "explain": "Pi times radius squared.",
+     "compute": "base = pi * r * r"},
+    {"step": 2, "action": "stack up the height",
+     "explain": "Base area times height is the volume.",
+     "compute": "volume = base * height"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hemh109.txt section 9.2 trapezium example",
+   "concept": "hemh.109.9.1",
+   "question_type": "compute",
+   "question_pattern": "Find the area of a trapezium with parallel sides {side_a} cm and {side_b} cm and height {height} cm.",
+   "extracted_variables": {
+    "side_a": "first parallel side in cm",
+    "side_b": "second parallel side in cm",
+    "height": "distance between parallel sides in cm"
+   },
+   "solution_template": [
+    {"step": 1, "action": "sum the parallel sides",
+     "explain": "Add the two parallel sides.",
+     "compute": "side_sum = side_a + side_b"},
+    {"step": 2, "action": "average times height",
+     "explain": "Half the sum times height is the area.",
+     "compute": "area = side_sum / 2 * height"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hemh109.txt section 9.2 practice",
+   "concept": "hemh.109.9.1",
+   "question_type": "compute",
+   "question_pattern": "The parallel sides of a trapezium are {side_a} cm and {side_b} cm, 9 cm apart. Find the area with height {height} cm.",
+   "extracted_variables": {
+    "side_a": "first parallel side",
+    "side_b": "second parallel side",
+    "height": "distance between the parallel sides"
+   },
+   "solution_template": [
+    {"step": 1, "action": "sum the parallel sides",
+     "explain": "Add side_a and side_b.",
+     "compute": "side_sum = side_a + side_b"},
+    {"step": 2, "action": "average times height",
+     "explain": "The area is half the sum times the height.",
+     "compute": "area = side_sum / 2 * height"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hemh109.txt section 9.4 cuboid surface example",
+   "concept": "hemh.109.9.3",
+   "question_type": "compute",
+   "question_pattern": "Find the surface area of a cuboid of length {length} cm, width {width} cm and height {height} cm.",
+   "extracted_variables": {
+    "length": "length in cm",
+    "width": "width in cm",
+    "height": "height in cm"
+   },
+   "solution_template": [
+    {"step": 1, "action": "compute the face pairs",
+     "explain": "Add lw, wh and hl.",
+     "compute": "faces = length * width + width * height + height * length"},
+    {"step": 2, "action": "double the total",
+     "explain": "Two of each face wrap the box.",
+     "compute": "surface = 2 * faces"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hemh109.txt section 9.4 practice",
+   "concept": "hemh.109.9.3",
+   "question_type": "compute",
+   "question_pattern": "A box measures {length} by {width} by {height} cm. Find the area of paper needed to cover it.",
+   "extracted_variables": {
+    "length": "length of the box",
+    "width": "width of the box",
+    "height": "height of the box"
+   },
+   "solution_template": [
+    {"step": 1, "action": "compute the face pairs",
+     "explain": "Sum the three distinct rectangles.",
+     "compute": "faces = length * width + width * height + height * length"},
+    {"step": 2, "action": "double the total",
+     "explain": "Covering needs both copies of each face.",
+     "compute": "surface = 2 * faces"}
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "hemh109.txt section 9.5 cuboid volume example",
+   "concept": "hemh.109.9.4",
+   "question_type": "compute",
+   "question_pattern": "Find the volume of a cuboid of length {length} cm, width {width} cm and height {height} cm.",
+   "extracted_variables": {
+    "length": "length in cm",
+    "width": "width in cm",
+    "height": "height in cm"
+   },
+   "solution_template": [
+    {"step": 1, "action": "multiply the dimensions",
+     "explain": "Length times width times height.",
+     "compute": "volume = length * width * height"}
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "hemh109.txt section 9.5 practice",
+   "concept": "hemh.109.9.4",
+   "question_type": "compute",
+   "question_pattern": "A tank is {length} cm long, {width} cm wide and {height} cm deep. Find its volume.",
+   "extracted_variables": {
+    "length": "tank length",
+    "width": "tank width",
+    "height": "tank depth"
+   },
+   "solution_template": [
+    {"step": 1, "action": "multiply the dimensions",
+     "explain": "The product is the tank's volume.",
+     "compute": "volume = length * width * height"}
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "hemh109.txt section 9.5.3 cylinder volume example",
+   "concept": "hemh.109.9.5",
+   "question_type": "compute",
+   "question_pattern": "Find the volume of a cylinder of radius {r} cm and height {height} cm.",
+   "extracted_variables": {
+    "r": "radius of the base in cm",
+    "height": "height of the cylinder in cm"
+   },
+   "solution_template": [
+    {"step": 1, "action": "compute the base circle",
+     "explain": "Pi times r squared.",
+     "compute": "base = pi * r * r"},
+    {"step": 2, "action": "stack up the height",
+     "explain": "Base times height gives the volume.",
+     "compute": "volume = base * height"}
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "hemh109.txt section 9.6 capacity practice",
+   "concept": "hemh.109.9.5",
+   "question_type": "compute",
+   "question_pattern": "A cylindrical drum has radius {r} cm and height {height} cm. Find its capacity in cubic cm.",
+   "extracted_variables": {
+    "r": "radius in cm",
+    "height": "height in cm"
+   },
+   "solution_template": [
+    {"step": 1, "action": "compute the base circle",
+     "explain": "pi r squared is the base area.",
+     "compute": "base = pi * r * r"},
+    {"step": 2, "action": "stack up the height",
+     "explain": "Multiply by the height for the capacity.",
+     "compute": "volume = base * height"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex9.1",
+   "source_ref": "hemh109.txt EXERCISE 9.1-9.2",
+   "questions": [
+     "The parallel sides of a trapezium are given with the distance between them - find the area.",
+     "Find the area of the given quadrilateral field by splitting.",
+     "The area of a trapezium is 34 sq cm with one side 10 cm and height 4 cm - find the other side."
+   ]
+  },
+  {
+   "id": "ex9.2",
+   "source_ref": "hemh109.txt EXERCISE 9.3",
+   "questions": [
+     "Find the surface area of the given cuboids and cylinders.",
+     "A closed cylindrical tank of given radius and height is to be painted - find the area.",
+     "Find the volume and capacity of the given vessels."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_18_008",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_18_008",
+   "title": "c12_geo_cbse_18_008",
+   "questions": [
+    {
+     "q": "Define 'reliability' in the context of geographical data and give one example of a threat to reliability in Indian Census data.",
+     "a": "Reliability refers to the consistency of a measurement — if the same phenomenon is measured repeatedly under similar conditions, the results should be similar. A threat to reliability in Indian Census data is enumerator bias: different enumerators may interpret 'literate' differently (e.g., counting someone who can only sign their name as literate in one district but not another), leading to inconsistent recording across regions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between internal validity and external validity using the example of using satellite-derived NDVI (Normalized Difference Vegetation Index) as a proxy for agricultural productivity in Punjab.",
+     "a": "Internal validity asks whether NDVI truly measures agricultural productivity in the study area (Punjab) — it may be affected by cloud cover, soil background, or irrigation timing, so the proxy might not capture actual yield. External validity asks whether the NDVI-productivity relationship established in Punjab can be generalized to other regions (e.g., rainfed Deccan plateau) where cropping patterns and soil types differ. A wrong answer confuses the two or assumes a proxy valid in one context is universally valid.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher uses 2011 Census village-level population data to estimate 2023 drinking water demand for a block in Rajasthan. Calculate the approximate percentage error if the annual growth rate is 1.5% and the researcher ignores the 12-year gap. Show steps.",
+     "a": "Step 1: Identify base year (2011) and target year (2023) → 12 years gap. Step 2: Use compound growth formula: P₂₀₂₃ = P₂₀₁₁ × (1 + 0.015)¹². Step 3: (1.015)¹² ≈ 1.1956 → 19.56% increase. Step 4: If researcher uses 2011 data directly, underestimation = 19.56%. Step 5: Error = (P₂₀₂₃ - P₂₀₁₁)/P₂₀₂₃ × 100 ≈ 16.4% underestimation of demand. Wrong answers typically use simple interest (18%) or forget to compound.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the limitations of using (a) IMD gridded rainfall data (0.25° × 0.25°) and (b) rain gauge station data for analyzing monsoon onset variability in the Western Ghats. Which is more suitable for capturing orographic rainfall gradients? Justify.",
+     "a": "IMD gridded data: smooths extreme values, misses micro-scale orographic enhancement (valley vs ridge), temporal continuity good but spatial resolution ~25 km too coarse for Western Ghats' sharp gradients. Rain gauge data: point measurements, high temporal resolution, but sparse network (gaps in ghats), may not represent area average. For orographic gradients, gauge data (if dense) is better because gridded interpolation averages out the very gradients we need. Wrong answer chooses gridded data because it's 'complete' without considering scale mismatch.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Since the Census of India covers every household, its data on household amenities (e.g., toilet access) has no sampling error and is therefore perfectly reliable for policy planning.\" Identify two non-sampling errors that could still compromise reliability.",
+     "a": "The claim is false. Complete enumeration eliminates sampling error but not non-sampling errors. Two key non-sampling errors: (1) Response error — households may over-report toilet access due to social desirability bias (Swachh Bharat campaign pressure). (2) Processing error — misclassification during data entry (e.g., 'functional toilet' vs 'toilet constructed but not used') leads to systematic overestimation. Both affect reliability despite full coverage. Wrong answer focuses only on sampling error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a data quality checklist for a student project that uses Google Earth Engine to map urban expansion in Bengaluru (2000–2023) using Landsat imagery. Include at least one check each for reliability, validity, and limitation.",
+     "a": "Checklist: Reliability — compare classification accuracy (kappa coefficient) across multiple random training samples; report inter-annual consistency of unchanged pixels. Validity — ground-truth 2023 urban extent with recent high-res imagery (e.g., Sentinel-2) or field visits; ensure 'urban' class matches Census definition (not just built-up). Limitation — document Landsat's 30m resolution missing small settlements; note cloud/monsoon season gaps causing temporal compositing artifacts; acknowledge spectral confusion between fallow land and built-up. Poor answer lists generic checks without sensor- or context-specific details.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

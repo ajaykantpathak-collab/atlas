@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_06_015",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_06_015",
+   "title": "c12_hin_ar_cbse_06_015",
+   "questions": [
+    {
+     "q": "कविता \"चकना जकस\" में 'चकना जकस' वाक्यांश की पुनरावृत्ति (refrain) का क्या कार्य है? एक वाक्य में बताइए।",
+     "a": "Correct: \"चकना जकस\" की पुनरावृत्ति पक्षी की पुकार/चीख को ध्वन्यात्मक रूप देती है और कविता की लय में उसकी व्याकुलता, निरंतरता और अनिवार्य उपस्थिति को स्थापित करती है — यह केवल शब्दालंकार नहीं, पक्षी की आवाज़ का काव्यात्मक अनुवाद है।  \nWrong answer reveals: Student treats refrain as mere decorative repetition (\"सजावट के लिए\") or identifies it only as \"अनुप्रास\" without linking to the bird's voice and the poem's auditory architecture. They miss that Nirala transforms onomatopoeia into structural device.",
+     "self_check": true
+    },
+    {
+     "q": "कविता में \"नीड़\" (nest) शब्द दो विपरीत अर्थों में प्रयुक्त हुआ है — स्पष्ट कीजिए कि कौन-से संदर्भों में यह 'सुरक्षा' दर्शाता है और कहाँ 'कैद' का प्रतीक बनता है।",
+     "a": "Correct: Stanza 1-2 में \"नीड़\" माँ की गोद, प्राकृतिक आवास, सुरक्षा का स्थान है (\"नीड़ में सोया चकना जकस\") — लेकिन stanza 4-5 में मानवीय हस्तक्षेप के बाद वही नीड़ \"बंदीगृह\" बन जाता है जहाँ पंख काटकर पक्षी को रखा जाता है (\"नीड़ नहीं, यह कारागार है\")। यही द्वंद्व कविता का केंद्रीय तनाव है।  \nWrong answer reveals: Student gives only one meaning (\"नीड़ = घर\") or quotes lines without explaining the semantic shift caused by human action. They fail to see that the *same word* carries opposing valences depending on agency — nature vs. human imposition.",
+     "self_check": true
+    },
+    {
+     "q": "मान लीजिए आपके समूह में एक सहपाठी कहता है: \"यह कविता केवल पक्षी की पीड़ा के बारे में है, मानवीय क्रूरता की नहीं।\" कविता के किन्हीं दो प्रमाणों (stanza/line descriptors) का उपयोग करके इस दावे का खंडन या समर्थन कीजिए।",
+     "a": "Correct refutation with evidence: (1) Stanza 4: \"मनुष्य ने पंख काट दिए / नीड़ में बंद कर दिया\" — यहाँ कर्ता 'मनुष्य' है, क्रिया सक्रिय हिंसा की ('काट दिए', 'बंद कर दिया'), पक्षी नहीं। (2) Stanza 5: \"आकाश देखता है / पर उड़ नहीं पाता\" — मानवीय कृत्य का परिणाम पक्षी की स्वाभाविक प्रवृत्ति (उड़ान) का निषेध है। कविता पक्षी की पीड़ा *के माध्यम से* मानवीय क्रूरता और प्रकृति-विरोधी प्रवृत्ति को उजागर करती है।  \nWrong answer reveals: Student agrees with the peer (\"हाँ, केवल पक्षी की पीड़ा है\") or gives generic \"मानव बुरा है\" without textual anchors. They cannot distinguish between *subject* of suffering (bird) and *agent* of causation (human) — a critical analytical distinction.",
+     "self_check": true
+    },
+    {
+     "q": "कविता के अंतिम दो पदों (stanzas) में आकाश और उड़ान के बिंबों (imagery) की तुलना कीजिए: पहले आकाश \"सहचर\" था, फिर \"साक्षी\" बन जाता है — इस परिवर्तन का काव्यात्मक औचित्य क्या है?",
+     "a": "Correct: प्रारंभ में आकाश पक्षी का \"सहचर\" (partner) है — दोनों मुक्त गति में एकाकार (\"आकाश संग उड़ता चकना जकस\")। मानवीय हस्तक्षेप के बाद पक्षी भूमिबद्ध हो जाता है; आकाश अब ऊपर रहकर केवल \"साक्षी\" (witness) बनता है — वह अब भागीदार नहीं, दर्शक है जो पक्षी की असमर्थता देखता है। यह परिवर्तन स्वतंत्रता की स्मृति और वर्तमान कैद के बीच की अनपाट खाई को दृश्यमान करता है।  \nWrong answer reveals: Student says \"आकाश बदल गया\" without explaining *relational* shift (partner → witness). They miss that the sky itself hasn't changed — the bird's *relationship* to it has, and the imagery encodes that relational rupture.",
+     "self_check": true
+    },
+    {
+     "q": "क्या आपको लगता है कि कविता का शीर्षक \"चकना जकस\" केवल पक्षी का नाम है या यह एक काव्यात्मक युक्ति (poetic device) भी है? तर्क सहित मूल्यांकन कीजिए।",
+     "a": "Correct evaluation: यह दोनों है। प्राथमिक स्तर पर यह पक्षी का नाम/ध्वनि-अनुकरण (onomatopoeia) है — \"चक-चक\" ध्वनि वाला पक्षी। लेकिन काव्यात्मक युक्ति के रूप में यह (a) refrain बनकर कविता की ध्वनि-संरचना को बांधता है, (b) पक्षी की पहचान को उसकी पुकार में विलीन कर देता है — उसका 'नाम' उसकी 'आवाज़' है, जो स्वतंत्रता की अभिव्यक्ति है, (c) शीर्षक में 'जकस' (जकड़ना/बांधना) का ध्वन्यात्मक साम्य बंधन की विडंबना को पूर्वसूचित करता है।  \nWrong answer reveals: Student treats title as mere label (\"पक्षी का नाम है\") or only as onomatopoeia (\"ध्वनि अनुकरण है\") without exploring how the title *functions* structurally and semantically across the poem. They don't see title as interpretive key.",
+     "self_check": true
+    },
+    {
+     "q": "कविता के आधार पर एक नया संवाद (dialogue) लिखिए जिसमें चकना पक्षी और एक नवागंतुक मनुष्य (जिसने अभी-अभी पिंजरा देखा है) के बीच वार्तालाप हो। पक्षी की आवाज़ में उसकी पीड़ा, स्मृति और आकांक्षा — तीनों आएं।",
+     "a": "Expected criteria for good answer: (1) Bird speaks in first person using poem's imagery (\"मेरे पंख काटे गए\", \"आकाश मेरा सहचर था\"), (2) Human voice shows awakening conscience (\"मैंने नहीं देखा था\", \"क्या किया हमने?\"), (3) Dialogue advances — not static lament but movement from pain → memory of flight → yearning for return, (4) Uses at least two poem-specific motifs (नीड़, पंख, आकाश, चकना जकस ध्वनि). Poor answer: Generic \"पक्षी रो रहा है, मनुष्य माफी मांगता है\" without textual grounding or poetic voice. Reveals inability to internalize poem's perspective and transform analysis into creative synthesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

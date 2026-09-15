@@ -1,0 +1,246 @@
+{
+ "catalog": "catalog_class7_social_ch3",
+ "concepts": [
+  {
+   "id": "c7ss.3.1",
+   "title": "Difference Between Weather and Climate",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Difference Between Weather and Climate' refers to.",
+     "a": "Weather refers to the short-term atmospheric conditions of a place at a specific time, while climate is the average weather pattern of a place over a long period, typically 30 years or more.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Difference Between Weather and Climate'.",
+     "a": "Weather is temporary and changes daily; climate is long-term and relatively stable, representing the general pattern of weather over years.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Difference Between Weather and Climate' taught, and from which source text?",
+     "a": "Introduction to Climate",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c7ss.3.2",
+   "title": "Latitude as a Factor Affecting Climate",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Latitude as a Factor Affecting Climate' refers to.",
+     "a": "Latitude is the angular distance of a place north or south of the Equator. It determines the amount of solar energy received, which in turn affects the temperature and climate of a region.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Latitude as a Factor Affecting Climate'.",
+     "a": "Places closer to the Equator receive more direct sunlight and are hotter, while places farther away receive slanting rays and are cooler.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Latitude as a Factor Affecting Climate' taught, and from which source text?",
+     "a": "Factors Affecting India's Climate",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c7ss.3.3",
+   "title": "Altitude as a Factor Affecting Climate",
+   "questions": [
+    {
+     "q": "Using the method 'Altitude as a Factor Affecting Climate', work with: base_temp = 15, height_above_sea_level = 100. Carry the chain through step by step and give the final value of estimated_temp.",
+     "a": "14.35 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Altitude as a Factor Affecting Climate' and work with: base_temp = 30, height_above_sea_level = 50. Carry the chain through step by step and give the final value of estimated_temp.",
+     "a": "29.675 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Altitude as a Factor Affecting Climate' refers to.",
+     "a": "Altitude is the height of a place above sea level. Temperature generally decreases with an increase in altitude, so higher places tend to be cooler.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Altitude as a Factor Affecting Climate'.",
+     "a": "As altitude increases, the air becomes thinner and holds less heat, causing temperature to fall at an average rate of about 6.5\u00b0C per 1000 metres.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Altitude as a Factor Affecting Climate' taught, and from which source text?",
+     "a": "Factors Affecting India's Climate",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c7ss.3.4",
+   "title": "Distance from the Sea as a Factor Affecting Climate",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Distance from the Sea as a Factor Affecting Climate' refers to.",
+     "a": "The distance of a place from the sea influences its climate. Coastal areas have a moderating effect due to the sea, while places far inland experience extreme temperatures.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Distance from the Sea as a Factor Affecting Climate'.",
+     "a": "The sea heats up and cools down slowly, giving coastal areas a moderate climate. Areas far from the sea have a continental climate with large temperature differences between summer and winter.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Distance from the Sea as a Factor Affecting Climate' taught, and from which source text?",
+     "a": "Factors Affecting India's Climate",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c7ss.3.5",
+   "title": "The Southwest Monsoon",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Southwest Monsoon' refers to.",
+     "a": "The Southwest Monsoon is the seasonal wind that blows from the southwest during the summer months, bringing heavy rainfall to most parts of India from June to September.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Southwest Monsoon'.",
+     "a": "Intense heating of the Indian landmass in summer creates a low-pressure area that draws moisture-laden winds from the Indian Ocean, causing heavy rainfall.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Southwest Monsoon' taught, and from which source text?",
+     "a": "The Monsoon System",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c7ss.3.6",
+   "title": "The Northeast Monsoon (Retreating Monsoon)",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Northeast Monsoon (Retreating Monsoon)' refers to.",
+     "a": "The Northeast Monsoon, also called the retreating monsoon, occurs from October to December when the monsoon trough weakens and winds blow from the northeast, bringing rainfall mainly to the southern part of India, especially Tamil Nadu.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Northeast Monsoon (Retreating Monsoon)'.",
+     "a": "As the land cools in autumn, the low-pressure area over northern India weakens, and dry winds blow from the northeast, picking up moisture over the Bay of Bengal and causing rain on the Tamil Nadu coast.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Northeast Monsoon (Retreating Monsoon)' taught, and from which source text?",
+     "a": "The Monsoon System",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c7ss.3.7",
+   "title": "Seasons of India",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Seasons of India' refers to.",
+     "a": "India experiences four main seasons: winter (December to February), summer (March to May), monsoon or rainy season (June to September), and post-monsoon or autumn (October to November).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Seasons of India'.",
+     "a": "The annual cycle of seasons is driven by the changing position of the sun and the monsoon winds, creating distinct weather patterns throughout the year.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Seasons of India' taught, and from which source text?",
+     "a": "Seasons of India",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c7ss.3.8",
+   "title": "Distribution of Rainfall in India",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Distribution of Rainfall in India' refers to.",
+     "a": "Rainfall in India is unevenly distributed. The western coast, northeastern regions, and the foothills of the Himalayas receive heavy rainfall, while western Rajasthan and parts of Gujarat receive very little.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Distribution of Rainfall in India'.",
+     "a": "The amount of rainfall depends on the monsoon winds, topography, and location. Windward sides of mountains receive heavy rain while leeward sides (rain-shadow areas) receive little.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Distribution of Rainfall in India' taught, and from which source text?",
+     "a": "Distribution of Rainfall",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c7ss.3.9",
+   "title": "Climate Regions of India",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Climate Regions of India' refers to.",
+     "a": "India is divided into several climate regions based on temperature and rainfall, including tropical rainy, tropical wet and dry, tropical semi-arid, tropical arid, humid subtropical, and mountain climates.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Climate Regions of India'.",
+     "a": "Different parts of India have distinct climate regions determined by latitude, altitude, distance from the sea, and monsoon influence.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Climate Regions of India' taught, and from which source text?",
+     "a": "Climate Regions of India",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c7ss.3.10",
+   "title": "Effect of Climate on Agriculture",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Effect of Climate on Agriculture' refers to.",
+     "a": "Climate directly affects agriculture by determining the types of crops that can be grown, the timing of sowing and harvesting, and the amount of water available through rainfall.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Effect of Climate on Agriculture'.",
+     "a": "The monsoon is the backbone of Indian agriculture. Adequate and timely rainfall ensures good harvests, while droughts or floods can damage crops and reduce yields.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Effect of Climate on Agriculture' taught, and from which source text?",
+     "a": "Climate and Agriculture",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c7ss.3.11",
+   "title": "Climate Change and its Impact on India",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Climate Change and its Impact on India' refers to.",
+     "a": "Climate change refers to long-term changes in temperature and weather patterns, mainly caused by human activities such as burning fossil fuels and deforestation, leading to global warming and altered weather patterns.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Climate Change and its Impact on India'.",
+     "a": "Climate change causes rising temperatures, erratic monsoons, melting glaciers, rising sea levels, and increased frequency of extreme weather events, all of which affect India's environment and economy.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Climate Change and its Impact on India' taught, and from which source text?",
+     "a": "Climate Change",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

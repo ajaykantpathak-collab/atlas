@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_03_005",
+   "title": "c10_phy_cbse_03_005",
+   "questions": [
+    {
+     "q": "Define tidal energy and state the primary astronomical cause of tides. What is the typical tidal range required for a commercially viable tidal barrage?",
+     "a": "Tidal energy is the energy obtained from the rise and fall of sea levels due to the gravitational pull of the Moon and the Sun (primarily the Moon). A commercially viable tidal barrage typically requires a tidal range of **at least 5–7 metres**. A wrong answer (e.g., \"tides are caused by wind\" or \"1 metre range is enough\") reveals confusion between tidal and wave energy, or ignorance of the high capital cost needing large hydraulic head.",
+     "self_check": true
+    },
+    {
+     "q": "An oscillating water column (OWC) wave energy device uses a partially submerged chamber. Explain the energy conversion sequence inside the chamber when a wave enters and recedes. Why is a Wells turbine (which rotates in the same direction irrespective of airflow direction) essential here?",
+     "a": "Sequence: Wave enters → Water column rises → Air in chamber compressed → Air forced *out* through turbine → Turbine spins → Generator produces electricity. Wave recedes → Water column falls → Vacuum created → Air sucked *in* through turbine → Turbine spins *same direction* → Electricity. Wells turbine is essential because airflow reverses every half-cycle; a conventional turbine would stall or need complex valve gear. A wrong answer (e.g., \"turbine spins only when air goes out\") shows misunderstanding of the bidirectional airflow and the need for unidirectional rotation.",
+     "self_check": true
+    },
+    {
+     "q": "A tidal barrage of area 12 km² traps water at high tide. The tidal range is 6 m. Density of seawater = 1025 kg/m³. Assuming the centre of mass of the trapped water falls by half the tidal range during emptying, and the turbine-generator efficiency is 30%, calculate the electrical energy generated in **one** emptying cycle (in MJ). (g = 9.8 m/s²)",
+     "a": "**Step 1:** Volume of water trapped = Area × Tidal range = 12 × 10⁶ m² × 6 m = 7.2 × 10⁷ m³.  \n**Step 2:** Mass of water = Volume × Density = 7.2 × 10⁷ m³ × 1025 kg/m³ = 7.38 × 10¹⁰ kg.  \n**Step 3:** Effective fall height of centre of mass = Tidal range / 2 = 6 m / 2 = 3 m.  \n**Step 4:** Gravitational PE available = mgh = (7.38 × 10¹⁰ kg) × 9.8 m/s² × 3 m = 2.17 × 10¹² J.  \n**Step 5:** Electrical energy = Efficiency × PE = 0.30 × 2.17 × 10¹² J = 6.51 × 10¹¹ J = **651,000 MJ** (or 6.51 × 10⁵ MJ).  \nA wrong answer (e.g., using full 6 m height, forgetting efficiency, or unit errors) reveals confusion between total PE and usable PE, or inability to track unit cancellations (kg·m²/s² = J).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the **predictability** and **geographical constraints** of tidal energy vs. wave energy vs. OTEC. Which source is most suitable for a country like India with a long coastline but limited high-tidal-range sites? Justify.",
+     "a": "Tidal: Highly predictable (astronomical), but requires specific geography (funnel-shaped bays, tidal range >5 m) — few sites in India (Gulf of Kutch, Gulf of Khambhat).  \nWave: Less predictable (depends on wind/storms), but widely available along any energetic coastline (India’s 7500 km coast has good potential).  \nOTEC: Continuous (baseload), requires tropical waters with ≥20°C surface-to-deep gradient — ideal for Lakshadweep, Andaman & Nicobar, and offshore mainland.  \n**Most suitable for India:** **Wave energy** (widely distributed) and **OTEC** (island territories). Tidal is limited to two gulfs. A wrong answer picking tidal for the whole coastline ignores the strict topographical requirement.",
+     "self_check": true
+    },
+    {
+     "q": "A proposed closed-cycle OTEC plant uses ammonia (boiling point -33°C at 1 atm) as working fluid. Surface water at 26°C vaporises ammonia; deep water at 6°C condenses it. The plant designer claims a thermal efficiency of 25%. Evaluate this claim using the Carnot efficiency limit (even though Carnot is not in Class 10 syllabus, the concept of maximum possible efficiency = 1 - T_cold/T_hot in Kelvin applies). Is 25% physically possible? (T in Kelvin = °C + 273)",
+     "a": "Carnot efficiency = 1 - T_cold/T_hot = 1 - (6+273)/(26+273) = 1 - 279/299 = 1 - 0.933 = **0.067 or 6.7%**.  \nThe claimed 25% efficiency **exceeds the absolute thermodynamic maximum** for these temperatures. It is **physically impossible**. A wrong answer accepting 25% reveals ignorance of the fundamental efficiency limit imposed by the small temperature difference — a classic OTEC trap. Real OTEC plants achieve 2–3% net efficiency.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration (using low-cost materials) to show how an **oscillating water column (OWC)** converts wave motion into air pressure changes that can spin a turbine. List materials, procedure, and the energy conversions observed.",
+     "a": "**Materials:** 2L plastic bottle (cut bottom off), balloon, flexible straw, small pinwheel (paper), tape, water tub.  \n**Procedure:** (1) Stretch balloon over bottle neck, tape straw through balloon centre. (2) Place bottle upside down in water tub (balloon above water). (3) Push bottle down → water rises inside → compresses air → air rushes out straw → spins pinwheel. (4) Pull bottle up → water falls → vacuum → air rushes in straw → spins pinwheel same direction.  \n**Energy conversions:** Wave motion (kinetic) → Water piston motion (kinetic) → Air pressure change (potential/kinetic) → Airflow (kinetic) → Pinwheel rotation (kinetic) → Electrical (if coupled to micro-generator).  \nA poor answer (e.g., just \"waves move turbine\") misses the crucial **air spring** and **bidirectional flow** concepts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

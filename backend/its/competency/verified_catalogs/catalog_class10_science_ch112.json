@@ -1,0 +1,580 @@
+{
+ "class": 10,
+ "subject": "science",
+ "chapter": 112,
+ "chapter_title": "Magnetic Effects of Electric Current",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jesc112.txt",
+ "concepts": [
+  {
+   "id": "jesc.12.1",
+   "title": "Magnetic Field and Field Lines",
+   "section": "12.1",
+   "definition": "The space surrounding a magnet where its magnetic force can be detected by other magnets or magnetic materials.",
+   "formula": "None",
+   "key_idea": "Field lines form continuous loops from the north pole to the south pole outside the magnet.",
+   "textbook_ref": "jesc112.txt lines 45-75",
+   "question_patterns": [
+    "What are the characteristics of magnetic field lines?",
+    "Why do magnetic field lines never cross each other?",
+    "Describe the direction of magnetic field lines inside and outside a magnet.",
+    "How is the strength of a magnetic field represented visually?",
+    "describe magnetic field and field lines with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify direction",
+     "explain": "Field lines emerge from the North pole and enter the South pole externally."
+    },
+    {
+     "step": 2,
+     "action": "Check for intersections",
+     "explain": "Lines never intersect because a compass cannot point in two directions at once."
+    },
+    {
+     "step": 3,
+     "action": "Assess density",
+     "explain": "Closer lines indicate a stronger magnetic field."
+    }
+   ]
+  },
+  {
+   "id": "jesc.12.2.1",
+   "title": "Magnetic Field of a Straight Conductor",
+   "section": "12.2.1",
+   "definition": "The magnetic field formed by a straight current-carrying wire is made up of concentric circular lines centered on the wire.",
+   "formula": "field_strength = current / distance",
+   "key_idea": "Field strength varies in direct proportion with current and in inverse proportion with the distance from the wire.",
+   "textbook_ref": "jesc112.txt lines 110-145",
+   "question_patterns": [
+    "How does the magnetic field change if the current in a straight wire increases?",
+    "What is the pattern of field lines around a straight conductor?",
+    "Calculate the relative change in field if distance from the wire is doubled.",
+    "Describe the relationship between current and magnetic field magnitude.",
+    "what is the result in this magnetic field of a straight conductor problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine field magnitude",
+     "explain": "The field strength is calculated as the ratio of current to distance.",
+     "compute": "field_strength = current / distance"
+    },
+    {
+     "step": 2,
+     "action": "Assess effect of changing current",
+     "explain": "Since field strength is directly proportional to current, doubling the current doubles the field.",
+     "compute": "new_field_strength = (new_current / current) * field_strength"
+    },
+    {
+     "step": 3,
+     "action": "Assess effect of changing distance",
+     "explain": "Since field strength is inversely proportional to distance, doubling the distance halves the field.",
+     "compute": "new_field_strength = field_strength * (distance / new_distance)"
+    }
+   ]
+  },
+  {
+   "id": "jesc.12.2.2",
+   "title": "Right-Hand Thumb Rule",
+   "section": "12.2.2",
+   "definition": "A rule that tells which way the field wraps when current flows through a straight wire.",
+   "formula": "None",
+   "key_idea": "Thumb points to current; curled fingers show the direction of magnetic field lines.",
+   "textbook_ref": "jesc112.txt lines 146-160",
+   "question_patterns": [
+    "State the Right-Hand Thumb Rule.",
+    "Find the direction of the magnetic field for a vertical wire with upward current.",
+    "Apply Maxwell's corkscrew rule to a conductor.",
+    "What is the field direction below a horizontal wire carrying current from East to West?",
+    "how does right-hand thumb rule work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Align thumb",
+     "explain": "Point the right thumb in the direction of the electric current."
+    },
+    {
+     "step": 2,
+     "action": "Observe finger curl",
+     "explain": "The direction in which the fingers wrap around the conductor is the direction of the magnetic field."
+    },
+    {
+     "step": 3,
+     "action": "Verify with a compass",
+     "explain": "Placing a compass near the wire confirms the field direction, as the needle aligns tangentially to the circular field lines."
+    }
+   ]
+  },
+  {
+   "id": "jesc.12.2.3",
+   "title": "Magnetic Field of a Circular Loop",
+   "section": "12.2.3",
+   "definition": "The magnetic field formed by a circular wire loop where field lines become straight at the center.",
+   "formula": "total_field = turns * field_per_turn",
+   "key_idea": "The total field strength increases linearly with the turn count in the coil.",
+   "textbook_ref": "jesc112.txt lines 170-190",
+   "question_patterns": [
+    "Why does a coil with multiple turns produce a stronger magnetic field?",
+    "Describe the field lines at the center of a circular loop.",
+    "Calculate the total field for a coil with n turns.",
+    "How does the direction of current in a loop affect the field at the center?",
+    "what is the result in this magnetic field of a circular loop problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply field by turns",
+     "explain": "Since current in each turn flows in the same direction, fields add up.",
+     "compute": "total_field = turns * field_per_turn"
+    },
+    {
+     "step": 2,
+     "action": "Determine field direction at center",
+     "explain": "Apply the Right-Hand Thumb Rule to the loop to find the direction of the field at the center, which is straight and perpendicular to the plane of the loop."
+    },
+    {
+     "step": 3,
+     "action": "Assess effect of increasing turns",
+     "explain": "Adding more turns increases the total field linearly, strengthening the magnetic field at the center.",
+     "compute": "new_total_field = new_turns * field_per_turn"
+    }
+   ]
+  },
+  {
+   "id": "jesc.12.2.4",
+   "title": "Magnetic Field in a Solenoid",
+   "section": "12.2.4",
+   "definition": "A cylindrical coil of many insulated copper wire turns that produces a uniform magnetic field inside when current flows.",
+   "formula": "None",
+   "key_idea": "The internal magnetic field of a solenoid is uniform and parallel.",
+   "textbook_ref": "jesc112.txt lines 195-210",
+   "question_patterns": [
+    "What is a solenoid?",
+    "Describe the nature of the magnetic field inside a current-carrying solenoid.",
+    "Compare the magnetic field of a solenoid with a bar magnet.",
+    "How can a solenoid be used to make an electromagnet?",
+    "what do you understand by magnetic field in a solenoid"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze internal lines",
+     "explain": "Inside the solenoid, field lines are parallel straight lines, indicating a uniform field."
+    },
+    {
+     "step": 2,
+     "action": "Identify poles",
+     "explain": "One end acts as a North pole and the other as a South pole, similar to a bar magnet."
+    },
+    {
+     "step": 3,
+     "action": "Compare with a bar magnet",
+     "explain": "The field pattern outside the solenoid matches that of a bar magnet, confirming it behaves as an equivalent magnet."
+    }
+   ]
+  },
+  {
+   "id": "jesc.12.3",
+   "title": "Force on a Conductor in a Magnetic Field",
+   "section": "12.3",
+   "definition": "The mechanical force felt by a current-carrying wire when placed inside an external magnetic field.",
+   "formula": "None",
+   "key_idea": "Force is maximum when the current direction is perpendicular to the magnetic field direction.",
+   "textbook_ref": "jesc112.txt lines 220-250",
+   "question_patterns": [
+    "When is the force on a conductor in a magnetic field the largest?",
+    "What happens to the force if the current direction is reversed?",
+    "Describe the effect of a magnetic field on a moving electron.",
+    "How does the strength of the magnet affect the displacement of a rod?",
+    "list the main features of force on a conductor in a magnetic field"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check orientation",
+     "explain": "Determine if the current and magnetic field are perpendicular for maximum force."
+    },
+    {
+     "step": 2,
+     "action": "Apply direction rules",
+     "explain": "Use Fleming's Left-Hand Rule to find the direction of the resulting force."
+    },
+    {
+     "step": 3,
+     "action": "Assess effect of reversing current",
+     "explain": "Reversing the current direction reverses the force direction, deflecting the conductor the opposite way."
+    }
+   ]
+  },
+  {
+   "id": "jesc.12.3.1",
+   "title": "Fleming's Left-Hand Rule",
+   "section": "12.3",
+   "definition": "A rule to find the direction of force using the thumb (motion), forefinger (field), and middle finger (current) of the left hand.",
+   "formula": "None",
+   "key_idea": "The three parameters—Force, Field, and Current—are mutually perpendicular.",
+   "textbook_ref": "jesc112.txt lines 255-270",
+   "question_patterns": [
+    "State Fleming's Left-Hand Rule.",
+    "An electron moves East in a Northward magnetic field; find the force direction.",
+    "Which finger represents the magnetic field in Fleming's rule?",
+    "Determine the direction of motion of a proton in a magnetic field.",
+    "list the main features of fleming's left-hand rule"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Position forefinger",
+     "explain": "Point the forefinger in the direction of the magnetic field."
+    },
+    {
+     "step": 2,
+     "action": "Position middle finger",
+     "explain": "Point the middle finger in the direction of the current (opposite to electron flow)."
+    },
+    {
+     "step": 3,
+     "action": "Identify thumb direction",
+     "explain": "The thumb points in the direction of the force or motion."
+    }
+   ]
+  },
+  {
+   "id": "jesc.12.4",
+   "title": "Domestic Electric Circuits",
+   "section": "12.4",
+   "definition": "The system of wiring used in homes, typically involving live, neutral, and earth wires at a potential of 220V.",
+   "formula": "potential_difference = 220",
+   "key_idea": "Appliances are joined in parallel to ensure they receive the same voltage.",
+   "textbook_ref": "jesc112.txt lines 295-325",
+   "question_patterns": [
+    "What are the colors of live, neutral, and earth wires?",
+    "What is the potential difference in Indian domestic circuits?",
+    "Why are domestic appliances connected in parallel?",
+    "Explain the function of the earth wire.",
+    "list the main features of domestic electric circuits"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify wire roles",
+     "explain": "Live (red) carries current, Neutral (black) completes the circuit, Earth (green) provides safety."
+    },
+    {
+     "step": 2,
+     "action": "Verify voltage",
+     "explain": "The standard potential difference between live and neutral is 220 V."
+    },
+    {
+     "step": 3,
+     "action": "Confirm parallel connection",
+     "explain": "Appliances are connected in parallel so each receives the full 220 V and can operate independently."
+    }
+   ]
+  },
+  {
+   "id": "jesc.12.4.1",
+   "title": "Short Circuit and Overloading",
+   "section": "12.4",
+   "definition": "Conditions of excessive current flow brought about by direct contact of live and neutral wires or connecting too many appliances.",
+   "formula": "None",
+   "key_idea": "Fuses protect circuits by melting when current exceeds a safe limit.",
+   "textbook_ref": "jesc112.txt lines 330-350",
+   "question_patterns": [
+    "What causes a short circuit?",
+    "Define overloading in an electric circuit.",
+    "How does a fuse prevent damage during a short circuit?",
+    "What happens to the current during a short circuit?",
+    "why is short circuit and overloading important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify cause",
+     "explain": "Direct contact between live and neutral wires leads to a sudden current surge."
+    },
+    {
+     "step": 2,
+     "action": "Observe fuse action",
+     "explain": "The high current produces heat that melts the fuse wire, breaking the circuit."
+    },
+    {
+     "step": 3,
+     "action": "Distinguish overloading",
+     "explain": "Overloading occurs when too many appliances draw current simultaneously, exceeding the safe limit even without a short circuit."
+    }
+   ]
+  },
+  {
+   "id": "jesc.12.4.2",
+   "title": "Domestic Power Safety Calculation",
+   "section": "12.4",
+   "definition": "Calculating the current drawn by an appliance to work out if it exceeds the circuit's safety rating.",
+   "formula": "current = power / voltage",
+   "key_idea": "If the current drawn exceeds the fuse rating, the fuse will blow.",
+   "textbook_ref": "jesc112.txt lines 360-370",
+   "question_patterns": [
+    "An appliance of 2kW is used in a 220V circuit with a 5A fuse. Will the fuse blow?",
+    "Calculate the current drawn by a 1.1kW electric iron.",
+    "What power rating can a 5A circuit support at 220V?",
+    "Determine if a circuit is overloaded given appliance power and fuse limit.",
+    "find the required value in a domestic power safety calculation problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Convert power to watts",
+     "explain": "Power in kilowatts must be multiplied by 1000.",
+     "compute": "power_watts = power_kw * 1000"
+    },
+    {
+     "step": 2,
+     "action": "Calculate current",
+     "explain": "Current is the power in watts divided by the voltage.",
+     "compute": "current_drawn = power_watts / voltage"
+    },
+    {
+     "step": 3,
+     "action": "Compare with rating",
+     "explain": "Check if current_drawn is greater than the fuse_limit.",
+     "compute": "safety_margin = fuse_limit - current_drawn"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex12.1",
+   "source_ref": "jesc112.txt lines 161-168",
+   "concept": "jesc.12.2.2",
+   "question_type": "verify_property",
+   "question_pattern": "A current through a horizontal power line flows in {direction} direction. What is the direction of magnetic field at a point directly below it?",
+   "extracted_variables": {
+    "direction": "east to west"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Apply Right-Hand Thumb Rule",
+     "explain": "Point thumb towards West. Fingers wrap in a clockwise direction when viewed from the East."
+    },
+    {
+     "step": 2,
+     "action": "Determine field at point",
+     "explain": "At a point below the wire, the field direction is towards the North (or clockwise in the perpendicular plane)."
+    }
+   ]
+  },
+  {
+   "id": "ex12.2",
+   "source_ref": "jesc112.txt lines 272-282",
+   "concept": "jesc.12.3.1",
+   "question_type": "verify_property",
+   "question_pattern": "An electron enters a magnetic field at right angles to it. The direction of force acting on the electron will be?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify current direction",
+     "explain": "Current direction is opposite to electron motion."
+    },
+    {
+     "step": 2,
+     "action": "Apply Fleming's Left-Hand Rule",
+     "explain": "Forefinger in field direction, middle finger opposite to electron motion; thumb points into the page."
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "jesc112.txt lines 110-145",
+   "concept": "jesc.12.2.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute magnetic field of a straight conductor step by step",
+   "extracted_variables": {
+    "current": "value of current",
+    "distance": "value of distance"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Determine field magnitude",
+     "explain": "The field strength is calculated as the ratio of current to distance.",
+     "compute": "field_strength = current / distance"
+    }
+   ]
+  },
+  {
+   "id": "exauto2",
+   "source_ref": "jesc112.txt lines 170-190",
+   "concept": "jesc.12.2.3",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute magnetic field of a circular loop step by step",
+   "extracted_variables": {
+    "turns": "value of turns",
+    "field_per_turn": "value of field_per_turn"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply field by turns",
+     "explain": "Since current in each turn flows in the same direction, fields add up.",
+     "compute": "total_field = turns * field_per_turn"
+    }
+   ]
+  },
+  {
+   "id": "exauto3",
+   "source_ref": "jesc112.txt lines 360-370",
+   "concept": "jesc.12.4.2",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute domestic power safety calculation step by step",
+   "extracted_variables": {
+    "power_kw": "value of power_kw",
+    "voltage": "value of voltage",
+    "fuse_limit": "value of fuse_limit"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Convert power to watts",
+     "explain": "Power in kilowatts must be multiplied by 1000.",
+     "compute": "power_watts = power_kw * 1000"
+    },
+    {
+     "step": 2,
+     "action": "Calculate current",
+     "explain": "Current is the power in watts divided by the voltage.",
+     "compute": "current_drawn = power_watts / voltage"
+    },
+    {
+     "step": 3,
+     "action": "Compare with rating",
+     "explain": "Check if current_drawn is greater than the fuse_limit.",
+     "compute": "safety_margin = fuse_limit - current_drawn"
+    }
+   ]
+  },
+  {
+   "id": "exauto4",
+   "source_ref": "jesc112.txt lines 110-145",
+   "concept": "jesc.12.2.1",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute magnetic field of a straight conductor step by step",
+   "extracted_variables": {
+    "current": "value of current",
+    "distance": "value of distance"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Determine field magnitude",
+     "explain": "The field strength is calculated as the ratio of current to distance.",
+     "compute": "field_strength = current / distance"
+    }
+   ]
+  },
+  {
+   "id": "exauto5",
+   "source_ref": "jesc112.txt lines 170-190",
+   "concept": "jesc.12.2.3",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute magnetic field of a circular loop step by step",
+   "extracted_variables": {
+    "turns": "value of turns",
+    "field_per_turn": "value of field_per_turn"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply field by turns",
+     "explain": "Since current in each turn flows in the same direction, fields add up.",
+     "compute": "total_field = turns * field_per_turn"
+    }
+   ]
+  },
+  {
+   "id": "exauto6",
+   "source_ref": "jesc112.txt lines 360-370",
+   "concept": "jesc.12.4.2",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute domestic power safety calculation step by step",
+   "extracted_variables": {
+    "power_kw": "value of power_kw",
+    "voltage": "value of voltage",
+    "fuse_limit": "value of fuse_limit"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Convert power to watts",
+     "explain": "Power in kilowatts must be multiplied by 1000.",
+     "compute": "power_watts = power_kw * 1000"
+    },
+    {
+     "step": 2,
+     "action": "Calculate current",
+     "explain": "Current is the power in watts divided by the voltage.",
+     "compute": "current_drawn = power_watts / voltage"
+    },
+    {
+     "step": 3,
+     "action": "Compare with rating",
+     "explain": "Check if current_drawn is greater than the fuse_limit.",
+     "compute": "safety_margin = fuse_limit - current_drawn"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex12.q1",
+   "source_ref": "jesc112.txt line 395",
+   "questions": [
+    "Which of the following correctly describes the magnetic field near a long straight wire?"
+   ]
+  },
+  {
+   "id": "ex12.q2",
+   "source_ref": "jesc112.txt line 400",
+   "questions": [
+    "At the time of short circuit, the current in the circuit increases heavily."
+   ]
+  },
+  {
+   "id": "ex12.q5",
+   "source_ref": "jesc112.txt line 408",
+   "questions": [
+    "When is the force experienced by a current-carrying conductor placed in a magnetic field largest?"
+   ]
+  },
+  {
+   "id": "ex12.q7",
+   "source_ref": "jesc112.txt line 412",
+   "questions": [
+    "State the rule to determine the direction of a magnetic field produced around a straight conductor-carrying current."
+   ]
+  },
+  {
+   "id": "ex12.q9",
+   "source_ref": "jesc112.txt line 417",
+   "questions": [
+    "What is the function of an earth wire? Why is it necessary to earth metallic appliances?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

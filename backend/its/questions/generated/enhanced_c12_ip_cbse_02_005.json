@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_02_005",
+   "title": "c12_ip_cbse_02_005",
+   "questions": [
+    {
+     "q": "What is the default number of rows displayed by `df.head()` and `df.tail()` if no argument is provided?",
+     "a": "Both `df.head()` and `df.tail()` display 5 rows by default. A wrong answer (e.g., 10, all rows, or 1) reveals the student has not memorised the default behaviour — a common board-exam trap where questions ask \"what will be the output of `df.head()`?\" without an argument.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `df.shape()` with parentheses and gets an error. Explain why this happens and how to fix it.",
+     "a": "`shape` is an **attribute** (a property), not a method, so it is accessed without parentheses: `df.shape`. Using parentheses treats it as a callable, raising `TypeError: 'tuple' object is not callable`. This confusion between attribute vs. method is a frequent board-exam error; students must memorise that `shape`, `size`, `ndim`, `columns`, `index`, `dtypes`, `values`, `T`, `empty` are attributes, while `head()`, `tail()`, `info()`, `describe()` are methods.",
+     "self_check": true
+    },
+    {
+     "q": "You load a DataFrame `sales` from a CSV. You run `sales.head(3)` and see columns `['Month', 'Region', 'Units']`. Then you run `sales.shape` and get `(120, 3)`. How many rows does the CSV actually contain, assuming the CSV has a header row? Explain your reasoning.",
+     "a": "120 rows. `shape` returns `(rows, columns)` **excluding** the header row. The CSV has 120 data rows + 1 header row = 121 lines total. A student who answers 121 confuses file lines with DataFrame rows — a classic competitive-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the output of `df.head(2)` and `df.iloc[:2]` for a DataFrame with a non-default index (e.g., index = ['A', 'B', 'C', 'D']). Are they always identical? Justify.",
+     "a": "Yes, they are identical in **values** and **order** because both return the first two rows by *position*. However, `head(2)` preserves the original index labels ('A', 'B'), while `iloc[:2]` also preserves them. The difference appears only when the index is not monotonic or when using `loc` with labels. This tests understanding that `head`/`tail` are positional by design, not label-based.",
+     "self_check": true
+    },
+    {
+     "q": "A board-exam question asks: \"Write the Python statement to display the last 3 rows of a DataFrame `df`.\" A student writes `print(df.tail(3))`. Is this fully correct for the board exam? Why or why not?",
+     "a": "In CBSE board exams, `df.tail(3)` **alone** is sufficient because the REPL/environment automatically prints the returned DataFrame. Adding `print()` is not wrong but unnecessary and wastes time. However, in a script file (non-interactive), `print(df.tail(3))` is required to see output. The student must know the context: board practicals use interactive mode, so `df.tail(3)` is the expected answer.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where `df.shape` returns `(0, 5)` and explain what this means about the DataFrame. Write the code to create such a DataFrame.",
+     "a": "Scenario: A CSV with a header row but zero data rows. Code: `df = pd.DataFrame(columns=['A','B','C','D','E'])`. `shape` = `(0, 5)` means 0 rows, 5 columns. This tests whether the student understands that columns can exist without data — a boundary condition often missed.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

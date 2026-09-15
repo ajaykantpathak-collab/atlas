@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_08_006",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_08_006",
+   "title": "c12_biotech_cbse_08_006",
+   "questions": [
+    {
+     "q": "Define anchorage dependence and name one cell type that exhibits it and one that does not.",
+     "a": "Anchorage dependence is the requirement for cells to adhere to a solid substrate via ECM-integrin interactions to proliferate. Fibroblasts and epithelial cells are anchorage-dependent; hematopoietic stem cells and many tumor-derived lines (e.g., HeLa, suspension-adapted CHO) are anchorage-independent. A wrong answer (e.g., \"all animal cells are anchorage-dependent\") reveals confusion between primary cells and continuous lines, or ignorance of blood-derived cells.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes that a primary fibroblast culture stops growing when the flask bottom is fully covered, but a HeLa culture continues to pile up into multilayers. Explain this difference using the concept of contact inhibition.",
+     "a": "Normal fibroblasts exhibit contact inhibition: cell-cell contact (via cadherins) activates the Hippo pathway, leading to YAP/TAZ cytoplasmic retention and p27^Kip1^-mediated G1 arrest at confluence. HeLa cells have lost contact inhibition due to transformation (e.g., HPV E6/E7 inactivating p53/Rb), so they ignore density signals and overgrow. A wrong answer citing \"nutrient depletion\" or \"space limitation\" misses the active signaling mechanism and the defining feature of transformation.",
+     "self_check": true
+    },
+    {
+     "q": "You are given a new cell line \"X\". Design a simple two-step experiment to test whether it is anchorage-dependent and whether it shows contact inhibition.",
+     "a": "Step 1 (anchorage): Seed cells in parallel on (a) tissue-culture treated plastic (adhesive) and (b) ultra-low attachment plates or poly-HEMA coated plates (non-adhesive). After 48h, assess viability/proliferation (e.g., MTT). Anchorage-dependent cells die/arrest on non-adhesive surface; independent cells grow. Step 2 (contact inhibition): Seed cells at low density on adhesive surface, let them reach confluence, and continue culture 3-4 more days. Monitor by phase-contrast: contact-inhibited cells remain a flat monolayer; non-inhibited cells pile up/focus. A wrong design (e.g., only testing one condition) fails to isolate the variables.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of serum and the culture vessel surface in supporting anchorage-dependent growth. Why is serum alone insufficient for attachment on a non-treated plastic dish?",
+     "a": "Serum provides adhesion factors (fibronectin, vitronectin) that adsorb onto the charged/hydrophilic surface of tissue-culture treated plastic, creating an ECM-like coating for integrin binding. Non-treated plastic is hydrophobic; serum proteins denature/adsorb poorly, failing to present functional RGD motifs. Thus, both a treated surface (to anchor proteins in correct conformation) and serum (to supply the proteins) are needed. A wrong answer saying \"serum contains nutrients so cells grow anywhere\" ignores the structural role of adsorbed ECM.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Loss of contact inhibition is sufficient to make a finite cell line continuous (immortal).\"",
+     "a": "False. Loss of contact inhibition allows overgrowth at high density, but immortality requires additional events: bypassing senescence (e.g., telomerase activation, p53/pRb pathway inactivation) and often anchorage independence. Many transformed lines are contact-inhibited but immortal (e.g., some viral-transformed lines), while others lose contact inhibition but still senesce. A student saying \"true\" conflates transformation phenotypes; the Hayflick limit (senescence) is distinct from density-dependent arrest.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario where a researcher wants to produce a recombinant protein from an anchorage-dependent cell line at 10,000 L scale. Propose a strategy that addresses both anchorage dependence and contact inhibition limitations.",
+     "a": "Use microcarrier beads (e.g., Cytodex) in a stirred-tank bioreactor: beads provide high surface-area-to-volume for attachment (solving anchorage), and cells grow as monolayers on beads until contact inhibition halts proliferation. To extend production, use a perfusion system to remove waste/add nutrients while retaining cells/beads, or engineer the line to express a temperature-sensitive SV40 T-antigen to conditionally bypass contact inhibition at production phase. A poor answer suggests \"just use a bigger flask\" (ignores scale) or \"switch to suspension culture\" (ignores anchorage dependence of the line).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_05_002",
+   "title": "c11_stat_cbse_05_002",
+   "questions": [
+    {
+     "q": "What is the formula for arithmetic mean using the Assumed Mean method for a discrete series, and what does each symbol represent?",
+     "a": "The formula is X̄ = A + Σfd/Σf, where A is the assumed mean, d = X - A (deviation of each value from A), f is the frequency of each value, and Σf is the total frequency. A wrong answer (e.g., X̄ = A + Σd/N) reveals the student is confusing discrete series with individual series and not accounting for frequencies in the deviation sum.",
+     "self_check": true
+    },
+    {
+     "q": "In a continuous series with class intervals 0-10, 10-20, 20-30, a student uses the lower limits (0, 10, 20) instead of mid-points (5, 15, 25) to calculate the mean. Will the answer be correct? Explain why or why not.",
+     "a": "No, the answer will be incorrect and systematically biased downward. In continuous series, we assume observations are uniformly distributed within each class, so the representative value is the mid-point (class mark). Using lower limits ignores the spread of data within the class. A student who does this misunderstands that class intervals represent ranges, not exact values, and fails to apply the mid-point convention.",
+     "self_check": true
+    },
+    {
+     "q": "The monthly pocket money (in ₹) of 5 students is: 800, 1000, 1200, 1400, 1600. Calculate the arithmetic mean using the Step Deviation method with A = 1200 and c = 200. Show all steps.",
+     "a": "Step 1: A = 1200, c = 200. Step 2: Find d = X - A: -400, -200, 0, 200, 400. Step 3: Find d' = d/c: -2, -1, 0, 1, 2. Step 4: Σd' = 0, N = 5. Step 5: X̄ = A + (Σd'/N)×c = 1200 + (0/5)×200 = 1200. A wrong answer (e.g., forgetting to multiply by c at the end) shows the student treats d' as the final deviation rather than a scaled version.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Direct Method and Step Deviation Method for calculating the mean of a discrete series with large frequencies and large values (e.g., X = 1000, 2000, 3000; f = 50, 80, 70). Which is more efficient and why? What condition must be met for Step Deviation to work smoothly?",
+     "a": "Step Deviation is more efficient because dividing deviations by a common factor c (here c=1000) reduces large numbers to small integers (d' = -1, 0, 1), making multiplication with frequencies easier. The condition: all deviations (X - A) must be divisible by the chosen common factor c. If not, d' becomes fractional and defeats the purpose. A student who says \"Direct Method is always better\" lacks strategic thinking about computational efficiency.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher calculates the mean marks of a class test (max 50) for 30 students using the Assumed Mean method with A = 25. She gets Σfd = -150. She concludes the class average is below 25. Is her conclusion correct? Justify with calculation.",
+     "a": "Yes, correct. X̄ = A + Σfd/Σf = 25 + (-150)/30 = 25 - 5 = 20. Since Σfd is negative, the sum of deviations below A exceeds those above, pulling the mean below A. A student who says \"we cannot tell without individual marks\" fails to understand that the sign of Σfd directly indicates direction of shift from A.",
+     "self_check": true
+    },
+    {
+     "q": "Create a discrete series with 4 distinct values and frequencies such that the arithmetic mean calculated by Direct Method equals exactly 50, and the Assumed Mean method with A = 45 gives Σfd = 30. Show your data and verify both methods.",
+     "a": "Example: X = 40, 45, 55, 60; f = 2, 3, 4, 1. Check: Σf = 10, ΣfX = 80+135+220+60 = 495 → X̄ = 49.5 (not 50). Adjust: X = 40, 45, 55, 65; f = 2, 3, 4, 1 → ΣfX = 80+135+220+65 = 500 → X̄ = 50. With A=45: d = -5,0,10,20; fd = -10,0,40,20; Σfd = 50 (not 30). A correct construction requires solving Σf=10, ΣfX=500, Σf(X-45)=30 → ΣfX - 45Σf = 30 → 500 - 450 = 50 ≠ 30. So no such series exists with Σf=10. A good answer recognizes the constraint Σfd = ΣfX - AΣf and shows the inconsistency. A poor answer just guesses numbers without checking the algebraic relationship.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

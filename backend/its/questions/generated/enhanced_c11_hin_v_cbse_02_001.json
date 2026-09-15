@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_v_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_v_cbse_02_001",
+   "title": "c11_hin_v_cbse_02_001",
+   "questions": [
+    {
+     "q": "What is the literal meaning of the term *johad* as used in the context of traditional water management in Rajasthan, and which geographical feature does it primarily harvest?",
+     "a": "A *johad* is a crescent-shaped earthen check-dam built across a slope to capture and store monsoon runoff (*ikyjikuh*), allowing it to percolate and recharge groundwater (*ikrkyikuh*). A wrong answer — such as defining it as a well, a canal, or a tank fed by river diversion — reveals the student confuses *johad* with other water structures and misses the critical distinction that *johads* harvest *surface runoff*, not river water or deep aquifer extraction.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the author distinguishes between *ikyjikuh*, *ikrkyikuh*, and *jstk.khikuh* instead of using the single word \"water\".",
+     "a": "The distinction reflects the hydrological journey: *ikyjikuh* is the ephemeral monsoon flow on the surface, *ikrkyikuh* is the stored groundwater accessed by wells, and *jstk.khikuh* is the slow sub-surface seepage that feeds wells laterally. The author separates them because the *johad* technology specifically converts *ikyjikuh* into *ikrkyikuh* and *jstk.khikuh* through percolation. A student who says \"they are just synonyms\" or \"the author is being poetic\" fails to grasp the techno-ecological logic that drives the entire water management system described in the chapter.",
+     "self_check": true
+    },
+    {
+     "q": "A village in Alwar district receives 600 mm annual rainfall. Using the concept of *johad* catchment-to-command ratio described in the background, calculate the approximate catchment area needed to provide protective irrigation for 10 hectares of *kharif* crop if the runoff coefficient is 0.3 and the *johad* storage efficiency is 70%. (Assume crop water requirement is 500 mm).",
+     "a": "Step 1: Crop water need = 10 ha × 500 mm = 50,000 m³. Step 2: Effective storage needed = 50,000 / 0.7 = 71,429 m³ (accounting for 70% efficiency). Step 3: Runoff volume = Catchment Area × Rainfall × Runoff Coefficient. So Catchment Area = 71,429 / (0.6 m × 0.3) = 396,828 m³ ≈ 39.7 ha. Step 4: Ratio ≈ 4:1 (catchment:command). A wrong answer that ignores efficiency or coefficient shows the student cannot apply the quantitative hydrology implicit in traditional *johad* design, reducing the system to a qualitative description only.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the social organization of *johad* construction (as described in the background) with modern government-contractor water projects. Identify two structural differences in decision-making and resource mobilization.",
+     "a": "Difference 1: *Johad* decisions emerge from *gram sabha* consensus where users are planners; modern projects use top-down bureaucratic approval where users are beneficiaries. Difference 2: *Johad* mobilizes *shramdaan* (labor contribution proportional to land holding) creating ownership; modern projects use cash contracts creating vendor dependency. A student who lists only \"one uses labor, the other uses money\" misses the governance shift from commons-based stewardship to state-centric service delivery, which is the chapter's core critique.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Reviving *johads* is only a technical fix for water scarcity; it does not require social restructuring.\" Use evidence from the chapter's background on caste, gender, and land tenure.",
+     "a": "The statement is invalid. The background shows *johad* management historically reinforced caste hierarchies (dominant castes controlled *paal* decisions) and excluded women from *gram sabha* forums. Successful revival (e.g., Tarun Bharat Sangh's work) required deliberate social restructuring: women's *jal sabhas*, equitable water-sharing rules across caste lines, and legal recognition of *gram sabha* authority over water bodies. A student who agrees with the statement overlooks the chapter's implicit argument that technology and social equity are co-constitutive in commons management.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-minute podcast script for Class 11 students that introduces the chapter's context using a \"Then vs Now\" narrative structure. Include: a hook, the three water terms, the *shramdaan* concept, and a reflective question.",
+     "a": "A strong script opens with the sound of a dry hand-pump vs. a gurgling *johad* (hook). Segment 1: \"Then\" — 1980s Alwar, *ikyjikuh* captured by *johads*, *ikrkyikuh* rose 20 ft, *jstk.khikuh* fed wells year-round, built by *shramdaan* where every household gave 2 days labor per bigha. Segment 2: \"Now\" — borewells chase *ikrkyikuh* to 500 ft, *ikyjikuh* runs off wasted, *shramdaan* replaced by contractor bills. Closing question: \"Can a democracy that forgot how to share labor relearn how to share water?\" A weak script merely lists facts without narrative tension or the reflective question, indicating the student cannot synthesize context into a communicative frame.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

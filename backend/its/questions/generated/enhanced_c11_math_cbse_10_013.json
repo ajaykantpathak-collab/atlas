@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_10_013",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_10_013",
+   "title": "c11_math_cbse_10_013",
+   "questions": [
+    {
+     "q": "Write the normal form of the line 3x + 4y - 12 = 0. State the values of p and α.",
+     "a": "The normal form is (3/5)x + (4/5)y = 12/5, so p = 12/5 = 2.4 units and cos α = 3/5, sin α = 4/5 giving α = cos⁻¹(3/5) ≈ 53.13°. A wrong answer like x(3/5) + y(4/5) = -12/5 reveals the student forgot that p must be positive and didn't flip the sign of the entire equation when the constant term was negative. Another error: p = 12/√(3²+4²) = 12/5 is correct but α = tan⁻¹(4/3) is wrong because α is the angle of the normal, not the line's angle with x-axis.",
+     "self_check": true
+    },
+    {
+     "q": "A line has normal form x cos 120° + y sin 120° = 5. Without converting to general form, explain why the perpendicular distance from origin is 5 units and determine which side of the origin the line lies on.",
+     "a": "In normal form x cos α + y sin α = p, p is by definition the perpendicular distance from origin, so p = 5 units directly. Since cos 120° = -1/2 and sin 120° = √3/2, the foot of perpendicular N has coordinates (p cos α, p sin α) = (-2.5, 2.5√3), which lies in the second quadrant. The line is perpendicular to ON and passes through N. A wrong answer stating \"distance is -5\" or \"line is in first quadrant\" shows the student doesn't understand that p ≥ 0 always, and the sign of cos α, sin α determines the quadrant of the foot of perpendicular, not the line's position relative to origin.",
+     "self_check": true
+    },
+    {
+     "q": "Convert the line 4x - 3y + 10 = 0 to normal form and find the perpendicular distance from the origin to this line.",
+     "a": "Step 1: Identify A = 4, B = -3, C = 10. Step 2: Compute √(A² + B²) = √(16 + 9) = 5. Step 3: Since C = 10 > 0, we divide by -5 to make constant positive: (4x - 3y + 10)/(-5) = 0 → (-4/5)x + (3/5)y - 2 = 0 → (-4/5)x + (3/5)y = 2. Step 4: But normal form requires x cos α + y sin α = p with p > 0. Multiply by -1: (4/5)x - (3/5)y = -2. Still negative constant! Correction: The rule is divide by -√(A²+B²) if C > 0. So divide by -5: -4/5 x + 3/5 y + 2 = 0 → -4/5 x + 3/5 y = -2. Multiply by -1: 4/5 x - 3/5 y = 2. Now cos α = 4/5, sin α = -3/5, p = 2. Perpendicular distance = 2 units. A wrong answer with p = -2 reveals the student doesn't enforce p ≥ 0. An answer with cos α = -4/5, sin α = 3/5 shows confusion about sign convention.",
+     "self_check": true
+    },
+    {
+     "q": "Two lines are given: L₁: x cos 30° + y sin 30° = 4 and L₂: x cos 210° + y sin 210° = 4. Are these the same line or different lines? Justify your answer using the normal form properties.",
+     "a": "They are different lines. For L₁: α₁ = 30°, p₁ = 4. Foot of perpendicular N₁ = (4 cos 30°, 4 sin 30°) = (2√3, 2). For L₂: α₂ = 210°, p₂ = 4. Foot of perpendicular N₂ = (4 cos 210°, 4 sin 210°) = (-2√3, -2). Since N₁ ≠ N₂, the lines are different. They are parallel (same normal direction up to sign) but on opposite sides of the origin. Actually, cos 210° = -cos 30°, sin 210° = -sin 30°, so L₂: -x cos 30° - y sin 30° = 4 → x cos 30° + y sin 30° = -4. This has p = -4, violating p ≥ 0. The correct normal form would be x cos 30° + y sin 30° = 4 for L₁ and x cos 30° + y sin 30° = -4 (invalid) or equivalently x cos(30°+180°) + y sin(30°+180°) = 4 for L₂. A wrong answer saying \"same line\" shows the student thinks cos α, sin α can have any sign without affecting p, not realizing the normal form is unique for a given line.",
+     "self_check": true
+    },
+    {
+     "q": "A student converts the line 2x + 2y - 1 = 0 to normal form as follows: √(2²+2²) = 2√2. Dividing by 2√2: (2/2√2)x + (2/2√2)y - 1/2√2 = 0 → (1/√2)x + (1/√2)y = 1/2√2. They claim p = 1/2√2 and α = 45°. Is this correct? If not, identify the error and give the correct normal form.",
+     "a": "The student's answer is correct! √(A²+B²) = 2√2. C = -1 < 0, so we divide by +2√2 (the positive root) to make constant positive: (2x + 2y - 1)/(2√2) = 0 → (1/√2)x + (1/√2)y - 1/(2√2) = 0 → (1/√2)x + (1/√2)y = 1/(2√2). Here cos α = 1/√2, sin α = 1/√2, so α = 45°. p = 1/(2√2) > 0. This is perfectly correct. A wrong evaluation saying \"incorrect because p should be 1/√2\" reveals the evaluator mistakenly thinks the constant term's absolute value gives p, not understanding the normalization process. Another error: claiming α = 225° because cos and sin are positive only in first quadrant - actually 45° is correct since both cos and sin are positive.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem where a drone flies from the origin (0,0) to a straight power line. The drone's path makes an angle of 60° with the positive x-axis and the shortest distance to the power line is 100 meters. Write the equation of the power line in normal form. Then, if the drone instead flies at angle 150° to reach the same line, what would be the new shortest distance? Explain.",
+     "a": "Normal form: x cos 60° + y sin 60° = 100 → (1/2)x + (√3/2)y = 100. This is the power line's equation. If the drone flies at 150°, the angle between the new path (150°) and the normal (60°) is 90°, meaning the drone would be flying parallel to the power line, never reaching it! The shortest distance from origin to line is fixed at 100 m regardless of approach angle. The normal form uniquely defines the line with α = 60°, p = 100. Any other approach angle θ gives distance p/|cos(θ - α)|. For θ = 150°, distance = 100/|cos(90°)| = undefined (infinite). A poor answer giving a different p value shows the student thinks p changes with approach angle, not understanding p is an invariant property of the line.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

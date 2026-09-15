@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_07_008",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_07_008",
+   "title": "c12_phy_cbse_07_008",
+   "questions": [
+    {
+     "q": "Define LC oscillations and state the formula for the angular frequency of oscillation in an ideal LC circuit. What are the SI units of the quantities in the formula?",
+     "a": "LC oscillations are the periodic exchange of energy between a capacitor and an inductor in a zero-resistance circuit. The angular frequency is $\\omega = \\frac{1}{\\sqrt{LC}}$, where $L$ is in henry (H), $C$ is in farad (F), and $\\omega$ is in rad/s. A wrong answer (e.g., $\\omega = \\sqrt{LC}$ or $\\omega = LC$) reveals the student has not understood the dimensional consistency: $[LC] = T^2$, so $1/\\sqrt{LC}$ has dimension $T^{-1}$, matching angular frequency.",
+     "self_check": true
+    },
+    {
+     "q": "In an LC circuit, the capacitor is initially fully charged. When the capacitor discharges completely ($q = 0$), a student claims the current must also be zero because \"no charge means no current.\" Is this correct? Explain using energy conservation.",
+     "a": "The student is incorrect. At $q = 0$, the capacitor's electric energy is zero. By energy conservation, all energy is stored in the inductor's magnetic field: $U_{total} = \\frac{1}{2}LI_{max}^2$. Thus current is **maximum** at $q = 0$. The student confuses instantaneous charge $q$ with current $i = dq/dt$; just as a mass at equilibrium position ($x=0$) has maximum speed in SHM, the capacitor at zero charge has maximum current. A wrong answer reveals confusion between the state variable (charge) and its rate of change (current).",
+     "self_check": true
+    },
+    {
+     "q": "A $30\\,\\mu\\text{F}$ capacitor charged to $100\\,\\text{V}$ is connected across a $27\\,\\text{mH}$ inductor. Calculate: (a) the angular frequency of oscillations, (b) the maximum current in the circuit, and (c) the total energy oscillating in the circuit.",
+     "a": "**Given:** $C = 30 \\times 10^{-6}\\,\\text{F}$, $L = 27 \\times 10^{-3}\\,\\text{H}$, $V_{max} = 100\\,\\text{V}$.\n**Step 1:** $\\omega = \\frac{1}{\\sqrt{LC}} = \\frac{1}{\\sqrt{(27 \\times 10^{-3})(30 \\times 10^{-6})}} = \\frac{1}{\\sqrt{8.1 \\times 10^{-7}}} = \\frac{1}{9 \\times 10^{-4}} \\approx 1111\\,\\text{rad/s}$.\n**Step 2:** Total energy $U = \\frac{1}{2}CV_{max}^2 = \\frac{1}{2}(30 \\times 10^{-6})(100)^2 = 0.15\\,\\text{J}$.\n**Step 3:** At maximum current, $U = \\frac{1}{2}LI_{max}^2 \\Rightarrow I_{max} = \\sqrt{\\frac{2U}{L}} = \\sqrt{\\frac{0.3}{27 \\times 10^{-3}}} = \\sqrt{11.11} \\approx 3.33\\,\\text{A}$.\n**Answers:** (a) $1111\\,\\text{rad/s}$, (b) $3.33\\,\\text{A}$, (c) $0.15\\,\\text{J}$. A wrong answer in (a) often comes from unit errors (using $\\mu\\text{F}$ and $\\text{mH}$ without converting to base units). In (b), forgetting the factor of 2 in energy equations is common.",
+     "self_check": true
+    },
+    {
+     "q": "Sketch qualitative graphs (no numerical axes) of charge $q(t)$, current $i(t)$, capacitor energy $U_C(t)$, and inductor energy $U_L(t)$ for one full cycle of an LC oscillation starting from maximum capacitor charge. Label the phase difference between $q(t)$ and $i(t)$.",
+     "a": "- $q(t)$: Cosine wave starting at $+Q_{max}$.\n- $i(t)$: Negative sine wave (since $i = dq/dt$, current leads charge by $-\\pi/2$ or lags by $\\pi/2$ depending on sign convention; here $i$ is zero at $t=0$ and becomes negative as capacitor discharges).\n- $U_C(t) \\propto q^2$: Always positive, frequency doubled, maxima at $q = \\pm Q_{max}$, zero at $q=0$.\n- $U_L(t) \\propto i^2$: Always positive, frequency doubled, maxima when $i = \\pm I_{max}$ (i.e., $q=0$), zero when $i=0$ (i.e., $q = \\pm Q_{max}$).\n- $U_C$ and $U_L$ are out of phase by $\\pi$ (when one is max, other is min). A wrong graph showing $U_C$ and $U_L$ in phase reveals the student thinks both energies peak together, violating energy conservation.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"In a real LC circuit, the oscillations eventually die out, so the total energy is not conserved. Therefore, the ideal LC oscillation model is useless.\" Evaluate this statement.",
+     "a": "The statement is **partially correct but misleading**. Real circuits have resistance (wire resistance, inductor winding resistance), causing energy dissipation as heat ($I^2R$), so oscillations are damped. However, the *ideal* LC model (zero resistance) is the foundation for understanding resonance, tuning circuits, and the undamped natural frequency $\\omega_0 = 1/\\sqrt{LC}$. It is not \"useless\" — it is the limiting case that defines the resonant frequency of RLC circuits and the operating principle of oscillators. A student calling it useless fails to appreciate the role of idealized models in physics (like frictionless planes in mechanics).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to demonstrate LC oscillations using a capacitor, an inductor, a DC source, a switch, and an oscilloscope (or a galvanometer with a high-frequency response). Describe the procedure, what you would observe on the oscilloscope, and how you would verify the formula $\\omega = 1/\\sqrt{LC}$.",
+     "a": "**Procedure:** (1) Charge capacitor $C$ using DC source via switch. (2) Open switch to disconnect source. (3) Immediately close switch to connect $C$ across $L$. (4) Observe voltage across $C$ on oscilloscope. **Observation:** Damped sinusoidal voltage waveform. Measure period $T$ from zero crossings; compute $\\omega_{exp} = 2\\pi/T$. **Verification:** Repeat with different $C$ or $L$ values; plot $\\omega_{exp}$ vs $1/\\sqrt{LC}$ — should be a straight line through origin with slope 1. A poor answer would omit the need to disconnect the DC source before connecting to $L$, or would not mention measuring period from the oscilloscope trace.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

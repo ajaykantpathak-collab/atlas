@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch2_10",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch2_10",
+   "title": "c8_physics_ch2_10",
+   "questions": [
+    {
+     "q": "What is the formula for calculating the energy efficiency of a light bulb as a percentage?",
+     "a": "Efficiency (%) = (Useful light energy output / Total electrical energy input) × 100%. A wrong answer like \"Efficiency = Output power / Input power\" without the percentage reveals the student recalls the ratio but forgets to express it as a percentage, which is standard for efficiency comparisons.",
+     "self_check": true
+    },
+    {
+     "q": "Two bulbs produce the same brightness: a 60 W incandescent bulb and a 14 W CFL. Which bulb is more efficient and why?",
+     "a": "The 14 W CFL is more efficient because it uses less electrical power (14 W vs 60 W) to produce the same amount of light. A wrong answer choosing the 60 W bulb reveals the misconception that higher power means better performance, confusing power consumption with light output.",
+     "self_check": true
+    },
+    {
+     "q": "An incandescent bulb consumes 100 J of electrical energy and produces 5 J of light energy. Calculate its efficiency.",
+     "a": "Step 1: Identify given: Electrical energy input = 100 J, Light energy output = 5 J.\nStep 2: Formula: Efficiency = (Light energy output / Electrical energy input) × 100%.\nStep 3: Substitute: (5 J / 100 J) × 100%.\nStep 4: Compute: 0.05 × 100% = 5%.\nAnswer: 5%. A wrong answer like 20% (from 100/5) reveals the student inverted the ratio, not understanding that efficiency is output over input.",
+     "self_check": true
+    },
+    {
+     "q": "A household replaces five 60 W incandescent bulbs with five 12 W CFLs. If all bulbs are used for 5 hours daily, how much electrical energy (in kWh) is saved per day?",
+     "a": "Step 1: Power saved per bulb = 60 W - 12 W = 48 W.\nStep 2: Total power saved for 5 bulbs = 5 × 48 W = 240 W = 0.24 kW.\nStep 3: Energy saved per day = Power × Time = 0.24 kW × 5 h = 1.2 kWh.\nAnswer: 1.2 kWh. A wrong answer of 1200 Wh (without converting to kWh) shows the student can compute energy but misses the required unit conversion, indicating a gap in unit awareness.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"A 100 W incandescent bulb is brighter than a 20 W CFL, so the incandescent bulb is more efficient.\" Evaluate this statement.",
+     "a": "The statement is incorrect. Efficiency compares light output for the same electrical input, or electrical input for the same light output. A 100 W incandescent and a 20 W CFL may have different brightness; we cannot judge efficiency without equalizing brightness. A 20 W CFL often matches a 100 W incandescent in brightness, making the CFL more efficient. A wrong agreement reveals the student equates higher power with higher efficiency, ignoring the need for a fair comparison.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to compare the efficiency of an incandescent bulb and a CFL using equipment available in a school lab (ammeter, voltmeter, lux meter, power supply).",
+     "a": "Connect each bulb to the power supply with ammeter in series and voltmeter in parallel. Measure voltage (V) and current (I) to calculate electrical power input (P = VI). Use the lux meter at a fixed distance to measure illuminance (lux) as a proxy for light output. Ensure both bulbs are at the same distance and orientation. Calculate efficiency ratio = (Illuminance / Electrical Power) for each; higher ratio means more efficient. A poor answer that only measures temperature or heat shows the student confuses heating effect with light output measurement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

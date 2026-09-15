@@ -1,0 +1,233 @@
+{
+ "catalog": "catalog_class11_computer_science_kecs104",
+ "concepts": [
+  {
+   "id": "kecs104.1",
+   "title": "Steps for Problem Solving",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Steps for Problem Solving' refers to.",
+     "a": "Solving a task on a computer runs through four stages: analyse the statement to pin down inputs and outputs, draft an algorithm, translate it into a program (coding), then test and debug until every kind of input yields the right output.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Steps for Problem Solving'.",
+     "a": "Garbage in, garbage out: a wrong input analysis poisons every later stage of the solution.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Steps for Problem Solving', in plain ASCII form.",
+     "a": "analyse -> algorithm -> coding -> testing",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs104.2",
+   "title": "Area and Perimeter of a Rectangle",
+   "questions": [
+    {
+     "q": "Using the method 'Area and Perimeter of a Rectangle', work with: breadth = 25, length = 45. Carry the chain through step by step and give the final value of perim.",
+     "a": "140 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Area and Perimeter of a Rectangle' and work with: breadth = 75, length = 40. Carry the chain through step by step and give the final value of perim.",
+     "a": "230 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Area and Perimeter of a Rectangle' refers to.",
+     "a": "A first algorithm records its input, states the processing and names the output; for a rectangle the processing multiplies length by breadth for area, and doubles the sum of the sides for perimeter.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Area and Perimeter of a Rectangle'.",
+     "a": "Every algorithm should begin by fixing three things: the input accepted, the processing done, and the output printed.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Area and Perimeter of a Rectangle', in plain ASCII form.",
+     "a": "perim = 2 * (length + breadth)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs104.3",
+   "title": "Average of Five Numbers with a Counter Loop",
+   "questions": [
+    {
+     "q": "Using the method 'Average of Five Numbers with a Counter Loop', work with: n1 = 240, n2 = 240, n3 = 45, n4 = 120, n5 = 500. Carry the chain through step by step and give the final value of average.",
+     "a": "229 years",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Average of Five Numbers with a Counter Loop' and work with: n1 = 120, n2 = 500, n3 = 300, n4 = 400, n5 = 80. Carry the chain through step by step and give the final value of average.",
+     "a": "280 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Average of Five Numbers with a Counter Loop' refers to.",
+     "a": "A counting loop reads one number per pass, adds it to a running total, and bumps a counter; when the counter reaches the loop limit, the total divided by the count of values gives the average.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Average of Five Numbers with a Counter Loop'.",
+     "a": "The counter both decides when the loop ends and records how many values entered the total.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Average of Five Numbers with a Counter Loop', in plain ASCII form.",
+     "a": "average = total / count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs104.4",
+   "title": "Selection with Conditionals: Even or Odd",
+   "questions": [
+    {
+     "q": "Using the method 'Selection with Conditionals: Even or Odd', work with: number = 4096. Carry the chain through step by step and give the final value of even_check.",
+     "a": "1 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Selection with Conditionals: Even or Odd' and work with: number = 4096. Carry the chain through step by step and give the final value of even_check.",
+     "a": "1 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Selection with Conditionals: Even or Odd' refers to.",
+     "a": "Selection lets an algorithm pick between two paths by testing a condition that evaluates to true or false; testing the remainder on division by 2 routes a number to the even or the odd branch.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Selection with Conditionals: Even or Odd'.",
+     "a": "A zero remainder after dividing by 2 signals an even number; anything else signals odd.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Selection with Conditionals: Even or Odd', in plain ASCII form.",
+     "a": "even_check = (number % 2 + 1) % 2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs104.5",
+   "title": "Dry Run of a Time-Adding Algorithm",
+   "questions": [
+    {
+     "q": "Using the method 'Dry Run of a Time-Adding Algorithm', work with: hh1 = 150, hh2 = 150, mm1 = 80, mm2 = 240. Carry the chain through step by step and give the final value of total_hours.",
+     "a": "305 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Dry Run of a Time-Adding Algorithm' and work with: hh1 = 400, hh2 = 8, mm1 = 12, mm2 = 20. Carry the chain through step by step and give the final value of total_hours.",
+     "a": "408 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Dry Run of a Time-Adding Algorithm' refers to.",
+     "a": "Verifying an algorithm means walking through its steps with sample inputs, called a dry run; adding two durations exposes a missing carry when the minutes cross 60, which the corrected algorithm folds into the hours.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Dry Run of a Time-Adding Algorithm'.",
+     "a": "A dry run with a case that crosses the boundary, such as 70 minutes, is what reveals a missing carry step.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Dry Run of a Time-Adding Algorithm', in plain ASCII form.",
+     "a": "total_hours = hh1 + hh2 + mm_total // 60",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs104.6",
+   "title": "Sum of First N Natural Numbers",
+   "questions": [
+    {
+     "q": "Using the method 'Sum of First N Natural Numbers', work with: n = 24. Carry the chain through step by step and give the final value of total.",
+     "a": "300 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Sum of First N Natural Numbers' and work with: n = 60. Carry the chain through step by step and give the final value of total.",
+     "a": "1830 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Sum of First N Natural Numbers' refers to.",
+     "a": "The total of the numbers from 1 to N has a closed form: multiply N by N plus one and halve the product; small cases such as N equals 6 give 21, which is how the formula is verified by hand.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sum of First N Natural Numbers'.",
+     "a": "Checking a formula against small manually computed cases is the simplest way to verify it.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Sum of First N Natural Numbers', in plain ASCII form.",
+     "a": "total = n * (n + 1) / 2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs104.7",
+   "title": "Prime Testing and Algorithm Complexity",
+   "questions": [
+    {
+     "q": "Using the method 'Prime Testing and Algorithm Complexity', work with: number = 4096. Carry the chain through step by step and give the final value of checks_saved.",
+     "a": "1984 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Prime Testing and Algorithm Complexity' and work with: number = 256. Carry the chain through step by step and give the final value of checks_saved.",
+     "a": "112 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Prime Testing and Algorithm Complexity' refers to.",
+     "a": "A prime check can test divisors up to the number, up to half of it, or only up to its square root; each refinement cuts the divisibility trials, which is exactly the trade-off captured by time complexity and, when a prime list is stored, space complexity.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Prime Testing and Algorithm Complexity'.",
+     "a": "Two algorithms that agree on the answer can still differ hugely in processing time and memory use.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Prime Testing and Algorithm Complexity', in plain ASCII form.",
+     "a": "checks_saved = number // 2 - sqrt(number) // 1",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kecs104.8",
+   "title": "Decomposition of Complex Problems",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Decomposition of Complex Problems' refers to.",
+     "a": "Decomposition splits a complex job, like a railway reservation system, into smaller sub-problems that can be solved and tested separately, often by different teams, and then joined into one working whole.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Decomposition of Complex Problems'.",
+     "a": "Divide and conquer: each sub-problem is easier than the original and can be assigned to specialist teams.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Decomposition of Complex Problems', in plain ASCII form.",
+     "a": "solution = combine(sub1, sub2, sub3)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

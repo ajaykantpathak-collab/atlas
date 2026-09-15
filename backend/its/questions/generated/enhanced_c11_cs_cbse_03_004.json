@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_03_004",
+   "title": "c11_cs_cbse_03_004",
+   "questions": [
+    {
+     "q": "What are the five essential structural components that every algorithm for a simple problem must contain, in the correct order?",
+     "a": "The five essential components in order are: **Start**, **Input** (reading all required data), **Process** (performing calculations/operations), **Output** (displaying results), and **Stop**. A wrong answer (e.g., missing \"Start/Stop\", putting Output before Process, or combining Input and Process) reveals the student views algorithms as just \"math steps\" rather than a complete executable procedure with defined boundaries and data flow direction.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this algorithm for finding the area of a rectangle: \"Step 1: Multiply length and breadth. Step 2: Read length and breadth. Step 3: Print area. Step 4: Start. Step 5: Stop.\" Explain why this algorithm will fail when executed step-by-step.",
+     "a": "The algorithm fails because **Step 1 uses variables (length, breadth) before they are assigned values in Step 2**. Execution follows written order: Start → Multiply (using garbage/uninitialized values) → Read (too late) → Print (wrong result) → Stop. A wrong explanation (e.g., \"steps are out of order\" without specifying the data dependency) reveals the student doesn't understand that algorithms execute *sequentially* and variables must be initialized before use – a fundamental concept from algebra (substitution) applied to procedural execution.",
+     "self_check": true
+    },
+    {
+     "q": "Write a complete algorithm to calculate the total amount payable for a purchase of `n` items where each item costs ₹`p`, given a discount of `d%` on the total. Use Indian currency context.",
+     "a": "**Algorithm:**\n1. Start\n2. Input number of items (n), price per item (p), discount percentage (d)\n3. Calculate total_cost = n * p\n4. Calculate discount_amount = (d / 100) * total_cost\n5. Calculate final_amount = total_cost - discount_amount\n6. Output final_amount\n7. Stop\n\n**Reasoning:** Steps 2-5 follow strict IPO: all inputs read first (step 2), then each calculation uses only previously computed values (step 3 uses inputs, step 4 uses step 3 result, step 5 uses steps 3&4), then output. A wrong algorithm (e.g., calculating discount before total_cost, or using `d` instead of `d/100`) reveals inability to sequence dependent calculations or handle percentage conversion – a direct application of Class 7/8 math (c7_math_ch02_002, c8_math_ch8_4).",
+     "self_check": true
+    },
+    {
+     "q": "Two algorithms are proposed to swap values of variables A and B:\n**Algo X:** `temp = A; A = B; B = temp`\n**Algo Y:** `A = B; B = A`\nAnalyze both and explain why Algo Y fails to swap correctly, tracing with A=5, B=10.",
+     "a": "**Algo X trace:** temp=5, A=10, B=5 → Final A=10, B=5 ✓ Swapped.\n**Algo Y trace:** A=10 (B's value), B=10 (A's *new* value) → Final A=10, B=10 ✗ Both become 10.\n**Why Y fails:** Step `A = B` overwrites A's original value (5) before it can be assigned to B. The temporary variable in X preserves the original A. A wrong analysis (e.g., \"Y works because A gets B and B gets A\") reveals the student thinks assignment is simultaneous or symmetric, not sequential destructive update – a critical misconception about variable mutation vs. mathematical equality.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this algorithm for calculating simple interest: \"Input P, R, T. Calculate SI = P * R * T / 100. Print SI. Stop.\" Is it complete and correct for all valid inputs? Justify.",
+     "a": "**Incomplete/Incorrect.** Missing **Start** (structural) and **no validation** for constraints: T must be in years (if R is annual rate), P/R/T must be positive. Also, if T is given in months, formula needs adjustment (T/12). A \"complete\" answer would add: \"Assume T is in years. Add Start. Add check: if P<=0 or R<0 or T<=0 then print 'Invalid input' and Stop.\" A student saying \"it's correct because formula is right\" reveals they confuse *mathematical formula correctness* with *algorithmic completeness* – algorithms must handle structure, boundaries, and real-world constraints, not just the core calculation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new simple problem from daily Indian life (not a textbook example) that requires exactly 3 inputs, 2 intermediate calculations, and 1 final output. Write its complete algorithm.",
+     "a": "**Problem:** Calculate the total fare for an auto-rickshaw ride: first 2 km at ₹25, subsequent km at ₹12/km, plus ₹5 waiting charge per minute. Inputs: distance_km, waiting_min. (Base fare fixed).\n**Algorithm:**\n1. Start\n2. Input distance_km, waiting_min\n3. If distance_km <= 2: base_fare = 25; Else: base_fare = 25 + (distance_km - 2) * 12\n4. wait_charge = waiting_min * 5\n5. total_fare = base_fare + wait_charge\n6. Output total_fare\n7. Stop\n**Criteria for good answer:** Realistic Indian context, exactly 3 inputs (distance, waiting, implicit base rates), 2 calculations (base_fare, wait_charge), 1 output. A poor answer (e.g., \"calculate average of 3 numbers\") reveals inability to abstract real-world scenarios into IPO structure or miscounts steps/inputs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,185 @@
+{
+ "catalog": "catalog_class7_maths_gegp201.json",
+ "concepts": [
+  {
+   "id": "gegp2.1.1",
+   "title": "Geometric Twins: Congruence",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the congruence condition and angle sums",
+     "explain": "use the congruence condition and angle sums: third = 180 - 69 - 80 gives 31",
+     "compute": "third = 180 - 69 - 80"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two triangles are congruent. In triangle one the angles are 69 and 80 degrees; the third angle is what? (The third angles must match.)",
+     "a": "31",
+     "self_check": false
+    },
+    {
+     "q": "A triangle has sides 4 cm, 8 cm and 15 cm. Its congruent twin has the same perimeter; find it.",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "By SSS congruence, three pairs of sides must be equal. How many side equalities must be checked?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "By ASA congruence, how many angle equalities plus side equalities must be checked (angles first)?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "In a right triangle the hypotenuse is 5 cm and one leg is 3 cm. Find the other leg; a congruent copy has the same value.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Two isosceles triangles with vertex angle 70 degrees are congruent by SAS. Each base angle in either triangle measures what?",
+     "a": "55",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp2.1.2",
+   "title": "Checking Twinship with Measurements",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the congruence condition and angle sums",
+     "explain": "use the congruence condition and angle sums: third = 180 - 61 - 71 gives 48",
+     "compute": "third = 180 - 61 - 71"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two triangles are congruent. In triangle one the angles are 61 and 71 degrees; the third angle is what? (The third angles must match.)",
+     "a": "48",
+     "self_check": false
+    },
+    {
+     "q": "A triangle has sides 3 cm, 4 cm and 10 cm. Its congruent twin has the same perimeter; find it.",
+     "a": "17",
+     "self_check": false
+    },
+    {
+     "q": "By SSS congruence, three pairs of sides must be equal. How many side equalities must be checked?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "By ASA congruence, how many angle equalities plus side equalities must be checked (angles first)?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "In a right triangle the hypotenuse is 5 cm and one leg is 3 cm. Find the other leg; a congruent copy has the same value.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Two isosceles triangles with vertex angle 62 degrees are congruent by SAS. Each base angle in either triangle measures what?",
+     "a": "59",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp2.1.3",
+   "title": "Corresponding Parts of Twins",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 18 gives 72",
+     "compute": "other = 90 - 18"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 18 degrees, find the other.",
+     "a": "72",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 117 degrees, find the other.",
+     "a": "63",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 24 degrees; find the other.",
+     "a": "156",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 149 degrees and 116 degrees, find the remaining angle.",
+     "a": "95",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 77 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "103",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 33 degrees. Find its co-interior partner.",
+     "a": "147",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp2.1.4",
+   "title": "Twins in Tiling, Stamps and Daily Life",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the area formula base times height",
+     "explain": "apply the area formula base times height: area = 16 * 9 gives 144",
+     "compute": "area = 16 * 9"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the area of a rectangle measuring 16 cm by 9 cm.",
+     "a": "144",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a square of side 23 m.",
+     "a": "529",
+     "self_check": false
+    },
+    {
+     "q": "A 8 m x 15 m garden has a 4 m x 11 m flower bed inside it. Find the area of the remaining garden.",
+     "a": "76",
+     "self_check": false
+    },
+    {
+     "q": "A rectangle has area 60 sq cm and length 6 cm. Find its breadth.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "Tiling costs Rs 25 per square metre. Find the cost of tiling a 14 m x 11 m floor.",
+     "a": "3850",
+     "self_check": false
+    },
+    {
+     "q": "How many tiles of side 4 m (square tiles) fit in a 20 m x 20 m hall?",
+     "a": "25",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

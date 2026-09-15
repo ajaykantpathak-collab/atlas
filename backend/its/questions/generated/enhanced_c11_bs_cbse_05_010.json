@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_05_010",
+   "title": "c11_bs_cbse_05_010",
+   "questions": [
+    {
+     "q": "List the three categories of resources required for e-business implementation as identified in the NCERT textbook, and give one specific example of each category.",
+     "a": "The three categories are: (1) Hardware - e.g., web server, client computers, routers; (2) Software - e.g., operating system, database management system, e-commerce platform; (3) Data - e.g., product catalogue, customer database, transaction logs. A wrong answer that lists \"internet connection\" as a separate category reveals the student confuses infrastructure connectivity with resource categories; internet is a service that runs on hardware/software, not a resource category itself.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a simple broadband connection and a laptop are insufficient for running a professional B2C e-commerce website, even though they can access the internet.",
+     "a": "A laptop and broadband are client-side resources; a professional B2C site requires server-side hardware (dedicated web server with high uptime, redundancy), server-side software (web server software like Apache/Nginx, database server, SSL certificates, shopping cart application), and structured data (product inventory database, customer accounts, order history). A wrong answer focusing only on \"speed\" or \"storage\" shows the student misunderstands the client-server architecture distinction and the need for 24/7 availability, security, and multi-user concurrency that consumer devices cannot provide.",
+     "self_check": true
+    },
+    {
+     "q": "A small artisan wants to sell customised jewellery via Instagram and WhatsApp, accepting UPI payments. Classify each of the following as Hardware (H), Software (S), or Data (D): (a) Smartphone, (b) Instagram app, (c) Product photos and descriptions, (d) UPI payment gateway integration, (e) Customer chat history, (f) Home Wi-Fi router.",
+     "a": "(a) H, (b) S, (c) D, (d) S, (e) D, (f) H. A wrong classification of (d) as Hardware reveals the student thinks payment gateway is a physical device rather than a software interface/API. Misclassifying (c) as Software shows confusion between the content (data) and the application displaying it. This error indicates the student cannot distinguish between the digital tool and the information it processes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the hardware and software resource requirements for an Intra-B (internal) e-business system (e.g., company ERP) versus a B2C e-commerce website. Identify two key differences in each category and explain why they arise.",
+     "a": "Hardware differences: (1) Intra-B typically uses on-premise/LAN servers with controlled access; B2C needs public-facing web servers with high bandwidth, load balancing, and CDN. (2) Intra-B client devices are company-owned standardised PCs; B2C must support diverse customer devices (mobiles, tablets, browsers). Software differences: (1) Intra-B uses ERP/CRM software with role-based access; B2C uses e-commerce platforms with shopping cart, payment gateway, public catalogue. (2) Intra-B security focuses on VPN/firewall; B2C requires SSL/TLS, PCI-DSS compliance, DDoS protection. These arise because Intra-B serves known employees in a trusted network, while B2C serves anonymous public over the open internet.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"For a startup, using a SaaS e-commerce platform (like Shopify) eliminates the need for hardware and software resources.\" Defend your position with three specific arguments.",
+     "a": "The statement is false. SaaS shifts but does not eliminate resource needs: (1) Hardware: Startup still needs client devices (laptops/mobiles) for management, and reliable internet hardware (routers, backup connections) — the server hardware is rented, not owned, but still required. (2) Software: The core platform is rented, but the startup needs integration software (accounting, inventory sync), analytics tools, email marketing software, and browser/OS on client devices. (3) Data: The startup entirely owns and must manage product data, customer data, order data — SaaS provides the database structure but not the data itself. A wrong answer agreeing with the statement reveals the \"cloud = no infrastructure\" misconception, ignoring client-side and data responsibilities.",
+     "self_check": true
+    },
+    {
+     "q": "Design a resource checklist for a traditional brick-and-mortar bookstore in Delhi wanting to launch a B2C website offering 5,000 titles, COD and UPI payments, and delivery across India. Organise into Hardware, Software, Data with at least 3 items each, specific to this scenario.",
+     "a": "Good answer includes: Hardware: (1) Cloud VPS/server (2 vCPU, 4GB RAM, 100GB SSD) for hosting, (2) Admin laptop + barcode scanner for inventory sync, (3) Backup 4G dongle for internet redundancy. Software: (1) WooCommerce/Shopify plan with Indian payment gateways (Razorpay/PayU), (2) Inventory management software synced with POS, (3) Logistics integration plugin (Shiprocket/Delhivery API). Data: (1) ISBN-based product catalogue (title, author, price, stock, images), (2) Customer database (name, address, phone, order history), (3) Courier pincode serviceability master data. A poor answer lists generic items like \"computer, internet, products\" showing inability to contextualise resources to the specific scale, payment methods, and logistics needs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

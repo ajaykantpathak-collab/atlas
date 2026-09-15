@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_03_003",
+   "title": "c12_eco_cbse_03_003",
+   "questions": [
+    {
+     "q": "What are the three stages of production according to the Law of Variable Proportions, and what happens to Marginal Product (MP) in each stage?",
+     "a": "Stage I: MP increases (increasing returns), Stage II: MP decreases but remains positive (diminishing returns), Stage III: MP becomes negative (negative returns). A wrong answer (e.g., saying MP increases in all stages) reveals confusion between total product and marginal product, or misunderstanding that diminishing returns set in after a point.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a rational producer never operate in Stage I or Stage III of production? Explain using the concepts of Marginal Product and Average Product.",
+     "a": "In Stage I, MP > AP and AP is rising, meaning fixed capital is underutilized; the producer can increase output per unit of variable input by hiring more. In Stage III, MP is negative, so total output falls with more input, wasting resources. A rational profit-maximizing producer operates in Stage II where MP is positive but diminishing, and AP is falling but positive. A wrong answer (e.g., \"producer operates where MP is maximum\") confuses the stage of increasing returns with the optimal stage.",
+     "self_check": true
+    },
+    {
+     "q": "Given the production function Q = 12L + 3L^2 - 0.2L^3 (where Q is total product and L is labor), find the range of labor for Stage II (diminishing but positive MP). Show all steps.",
+     "a": "First, find MP = dQ/dL = 12 + 6L - 0.6L^2. Set MP = 0 to find end of Stage II: 12 + 6L - 0.6L^2 = 0 => multiply by 5: 60 + 30L - 3L^2 = 0 => 3L^2 - 30L - 60 = 0 => L^2 - 10L - 20 = 0 => L = (10 ± √(100+80))/2 = (10 ± √180)/2 = 5 ± 3√5. Positive root: L ≈ 5 + 6.708 = 11.708. Stage II starts where MP is maximum (dMP/dL = 0): 6 - 1.2L = 0 => L = 5. So Stage II: L ∈ (5, 11.708). A wrong answer (e.g., using AP instead of MP) shows confusion between stages boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Law of Variable Proportions (short run) with Returns to Scale (long run). Identify two fundamental differences in assumptions and implications.",
+     "a": "Law of Variable Proportions: at least one fixed input, variable proportions, short run, three stages. Returns to Scale: all inputs variable, proportionate change, long run, constant/increasing/decreasing returns. A wrong answer (e.g., \"both have three stages\") conflates short-run diminishing returns with long-run scale effects.",
+     "self_check": true
+    },
+    {
+     "q": "A firm observes that hiring the 6th worker increases total output from 50 to 56 units, and the 7th worker increases output from 56 to 59 units. The firm concludes it is in Stage I because output is still increasing. Evaluate this reasoning.",
+     "a": "The firm is mistaken. Stage I is defined by increasing MP, not just increasing TP. Here MP of 6th worker = 6, MP of 7th worker = 3. Since MP is falling (6 to 3), the firm is in Stage II (diminishing returns), even though TP is rising. A wrong answer reveals confusion between total product increasing and marginal product increasing.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a numerical example (table) for a production function with 5 units of labor showing all three stages. Label TP, MP, AP for each labor unit and indicate the stage boundaries.",
+     "a": "Example:\nL | TP | MP | AP | Stage\n0 | 0 | - | - | -\n1 | 10 | 10 | 10 | I (MP rising)\n2 | 24 | 14 | 12 | I (MP rising)\n3 | 36 | 12 | 12 | End of Stage I (MP max, MP=AP)\n4 | 44 | 8 | 11 | II (MP falling, positive)\n5 | 48 | 4 | 9.6 | II\n6 | 48 | 0 | 8 | End of Stage II (MP=0)\n7 | 45 | -3 | 6.4 | III (MP negative)\nA poor answer would have MP not peaking then falling, or not crossing AP at its max, showing lack of understanding of the relationships.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

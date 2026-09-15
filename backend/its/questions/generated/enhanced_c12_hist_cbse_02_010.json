@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_02_010",
+   "title": "c12_hist_cbse_02_010",
+   "questions": [
+    {
+     "q": "Name the two principal long-distance trade routes of ancient India mentioned in Sanskrit texts and give one major city located on each route.",
+     "a": "The two routes are Uttarapatha (Northern Route) and Dakshinapatha (Southern Route). A major city on Uttarapatha is Taxila (or Mathura, Ujjayini); a major city on Dakshinapatha is Paithan (or Puhar, Kanchipuram). A wrong answer (e.g., naming the Silk Road or Grand Trunk Road) reveals confusion between indigenous route terminology and later imperial/modern road names, and indicates the student has not internalized the Sanskrit nomenclature used in inscriptions and texts.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Periplus of the Erythraean Sea is considered a crucial source for reconstructing Indo-Roman trade, and name two commodities it mentions as being exported from the Malabar coast.",
+     "a": "The Periplus (c. 1st century CE) is a first-hand Greek merchant’s handbook describing ports, routes, and commodities; it provides direct evidence of the volume and nature of trade, corroborated by archaeological finds (Roman coins, amphorae). It lists pepper and malabathrum (cinnamon) as major exports from the Malabar coast. A wrong answer that treats the Periplus as a later medieval text or confuses it with Chinese pilgrim accounts shows the student cannot distinguish contemporary commercial sources from later religious travelogues, a common error in source-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "A historian argues that the widespread distribution of Kushana gold coins in northern India and Central Asia proves the Kushana state exercised tight administrative control over the entire Uttarapatha. Using the concept of “trade routes vs. political boundaries,” evaluate this claim.",
+     "a": "The claim overstates political control: coin circulation reflects commercial networks that often transcend political frontiers. Kushana coins are found in regions not under direct Kushana rule (e.g., tribal republics like the Yaudheyas issued their own coins), and Roman coins penetrate deep into Satavahana territory without Roman political presence. The correct reasoning distinguishes monetary circulation from administrative authority — a nuance examiners test in assertion-reason questions. A student who equates coin finds with direct political control misses the difference between economic integration and political sovereignty.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of the Ganga riverine route (part of Uttarapatha) with the maritime route from Bharukachchha to the Red Sea in terms of (a) transport cost per unit weight, (b) seasonal reliability, and (c) type of goods typically carried.",
+     "a": "(a) Riverine transport on the Ganga was cheaper per unit weight for bulk goods (grain, timber, stone) than overland carts, but maritime transport was cheapest for high-value, low-bulk luxuries (pepper, gems, silk) over long distances. (b) The Ganga was navigable year-round with seasonal variation; the Arabian Sea route depended entirely on the monsoon — ships sailed with the southwest monsoon (June–Sept) and returned with the northeast monsoon (Nov–Mar), making it highly seasonal. (c) River routes carried everyday necessities and raw materials; maritime routes carried luxury items with high value-to-weight ratios. A wrong answer that treats both as equally suitable for all goods shows ignorance of transport economics — a key concept in competitive exam case studies.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the view that the decline in Roman gold coin finds in India after c. 3rd century CE indicates a collapse of Indo-Roman trade, using at least two alternative explanations from the textbook.",
+     "a": "The textbook (p. 45) notes historians are divided: (1) the collapse of the Western Roman Empire (c. 476 CE) reduced demand for eastern luxuries and the supply of gold coins, but (2) new towns and trade networks emerged, and (3) coins may have remained in circulation rather than being hoarded, reducing archaeological visibility. A good critique weighs monetary evidence against textual references (inscriptions still mention trade) and archaeological continuity (bead-making at Kodumanal persists). A student who accepts the “collapse” narrative uncritically fails to apply the historian’s skill of triangulating multiple sources — a competency explicitly tested in board source-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 6-event chronological sequence showing how the development of Uttarapatha and Dakshinapatha interacted with (a) the rise of Mahajanapadas, (b) Mauryan imperial expansion, (c) post-Mauryan foreign dynasties, and (d) the flourishing of Indo-Roman trade, using approximate dates.",
+     "a": "A valid sequence: 1) c. 600 BCE — Mahajanapadas (Magadha, Avanti, Kosala) emerge along Ganga valley, stimulating Uttarapatha (node c12_hist_cbse_02_005); 2) c. 321 BCE — Mauryas unify much of Uttarapatha, build roads, appoint officers to protect traders (node c12_hist_cbse_02_002); 3) c. 185 BCE — Mauryan decline fragments control, but routes persist; 4) c. 100 BCE–100 CE — Indo-Greeks, Shakas, Kushanas control northwestern Uttarapatha, issue gold coins, link to Silk Road (node c12_hist_cbse_02_008); 5) c. 1st century CE — Satavahanas dominate Dakshinapatha, connect Deccan ports to Roman trade (Periplus); 6) c. 300–500 CE — Guptas revive imperial control over both routes, issue pure gold coins, but Roman gold dwindles after 3rd century. A poor answer jumbles chronology or omits the feedback loop: political unification → route security → trade revenue → further state consolidation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

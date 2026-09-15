@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_08_006",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_08_006",
+   "title": "c11_bs_cbse_08_006",
+   "questions": [
+    {
+     "q": "Define a debenture and state the status of a debenture holder in a company.",
+     "a": "A debenture is a written acknowledgment of debt issued by a company under its common seal, carrying a fixed rate of interest and repayable after a specified period. The debenture holder is a **creditor** of the company, not an owner. A wrong answer that calls the holder an \"owner\" or \"shareholder\" reveals confusion between borrowed funds (debentures) and owners' funds (shares), a fundamental classification error from node c11_bs_cbse_08_003.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a company with stable earnings might prefer issuing debentures over equity shares, using the concepts of control and tax.",
+     "a": "Debentures do not carry voting rights, so equity shareholders' control over management is not diluted. Also, interest on debentures is tax-deductible, reducing the effective cost of borrowing, whereas dividends on equity shares are paid from post-tax profits and are not deductible. A wrong answer that claims debentures dilute control or that dividends are tax-deductible shows misunderstanding of the distinction between fixed charge funds and ownership capital, and the tax treatment of interest vs. dividend.",
+     "self_check": true
+    },
+    {
+     "q": "A company issues 1,000 secured, convertible debentures of ₹1,000 each at 9% interest per annum. The debentures are convertible into equity shares after 3 years at a ratio of 10 shares per debenture. Calculate the annual interest obligation and describe what happens if a debenture holder exercises the conversion option.",
+     "a": "Annual interest obligation = 1,000 debentures × ₹1,000 × 9% = ₹90,000. If converted, the holder receives 10 equity shares per debenture, so 1,000 debentures become 10,000 equity shares. The company's debt reduces by ₹10,00,000 and equity share capital increases by the face value of 10,000 shares. The holder becomes a shareholder with voting rights and variable dividends. A wrong answer that forgets to multiply by the number of debentures or thinks conversion increases debt reveals inability to apply the convertible feature and calculate fixed charge.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the position of a secured debenture holder and an unsecured debenture holder in the event of company liquidation. How does this affect the risk and interest rate offered?",
+     "a": "Secured debenture holders have a charge on specific company assets and are paid from the proceeds of those assets before unsecured creditors. Unsecured debenture holders rank pari passu with other unsecured creditors and are paid only after secured creditors. Therefore, secured debentures carry lower risk and typically offer a lower interest rate than unsecured debentures. A wrong answer that says both are paid equally or that unsecured debentures have priority shows lack of understanding of 'charge on assets' and the risk-return trade-off in borrowed funds.",
+     "self_check": true
+    },
+    {
+     "q": "\"Debentures are always a cheaper source of finance than equity shares.\" Evaluate this statement considering tax deductibility, flotation costs, and financial risk.",
+     "a": "The statement is not universally true. While interest on debentures is tax-deductible (making post-tax cost lower) and flotation costs are often lower than equity issues, debentures increase financial risk because interest must be paid even in losses, and repayment of principal is mandatory. If earnings are unstable, the fixed charge can lead to insolvency. Equity shares have no mandatory payment and no repayment burden, so they may be cheaper in a risk-adjusted sense for volatile businesses. A wrong answer that agrees without qualification ignores the risk dimension and the condition \"when sales and earnings are relatively stable\" from the NCERT merits.",
+     "self_check": true
+    },
+    {
+     "q": "Design a debenture issue for a startup that wants to raise ₹5 crore for 7 years. The startup expects losses in the first 3 years, then profits. Specify the type (secured/unsecured, convertible/non-convertible, etc.), interest structure, and justify your choices.",
+     "a": "A good answer: Issue **unsecured, convertible debentures** with **zero coupon (ZID)** for the first 3 years (no cash interest outflow during losses), converting to equity at a premium in year 4. This avoids fixed charge burden when earnings are negative, gives investors upside via conversion, and does not require asset security (startup may lack assets). Justification must link each feature to the startup's profile. A poor answer that suggests secured, non-convertible debentures with fixed annual interest ignores the startup's loss-making phase and asset-light nature, showing inability to match source features to business context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

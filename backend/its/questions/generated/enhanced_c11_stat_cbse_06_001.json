@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_06_001",
+   "title": "c11_stat_cbse_06_001",
+   "questions": [
+    {
+     "q": "Define \"measure of dispersion\" in your own words and state its primary purpose in statistical analysis.",
+     "a": "A measure of dispersion is a statistical tool that quantifies the spread or variability of data points around a central value (mean, median, or mode). Its primary purpose is to describe how much the data deviates from the average, indicating the reliability of the central tendency and the heterogeneity of the dataset. A WRONG answer (e.g., \"it finds the average\" or \"it measures central tendency\") reveals the student confuses dispersion with central tendency — a fundamental category error where they think dispersion locates the centre rather than describing spread around it.",
+     "self_check": true
+    },
+    {
+     "q": "Two cricket batsmen, Rohit and Virat, both have a batting average of 50 runs over 10 innings. Rohit's scores: 48, 49, 50, 51, 52, 48, 49, 50, 51, 52. Virat's scores: 0, 0, 0, 0, 100, 100, 100, 100, 50, 50. Explain why their averages are misleading as sole performance indicators and what additional information dispersion provides.",
+     "a": "The average of 50 is misleading because it suggests consistent performance for both, but Rohit is highly consistent (scores tightly clustered around 50) while Virat is extremely volatile (alternating between failure and century). Dispersion measures would quantify this: Rohit has low dispersion (high reliability), Virat has high dispersion (unpredictable performance). A WRONG answer (e.g., \"both are equally good because averages are same\") reveals the student believes central tendency fully represents a distribution — the \"average fallacy\" — failing to grasp that identical averages can mask radically different underlying patterns.",
+     "self_check": true
+    },
+    {
+     "q": "A factory produces 1000 bolts daily. The target length is 5.00 cm. The quality control manager only checks the mean length of a sample of 50 bolts each day. On Day 1, mean = 5.00 cm. On Day 2, mean = 5.00 cm. The manager declares both days \"perfect.\" Why is this conclusion statistically flawed? What dispersion measure would you recommend and why?",
+     "a": "The conclusion is flawed because the mean alone hides variation: Day 1 could have all bolts at 5.00 ± 0.01 cm (excellent), while Day 2 could have half at 4.80 cm and half at 5.20 cm (unacceptable for precision machinery) — both yield mean 5.00 cm. I would recommend standard deviation (or range for quick check) because it quantifies the typical deviation from target. A WRONG answer (e.g., \"mean is enough if it matches target\" or \"use median instead\") reveals the student doesn't understand that central tendency ignores spread, and that quality control fundamentally depends on consistency (low dispersion), not just accuracy (correct mean).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two income distributions in two villages (incomes in ₹ lakhs/year):\nVillage X: 2, 2.1, 2.2, 2.3, 2.4\nVillage Y: 0.5, 1.0, 2.3, 4.0, 7.2\nBoth have mean = 2.2. Analyse which village has greater income inequality and explain how dispersion measures would capture this difference better than the mean. Discuss why the *type* of dispersion measure (absolute vs relative) matters for comparing these villages.",
+     "a": "Village Y has far greater inequality: incomes range from 0.5 to 7.2 (spread 6.7) vs Village X's 2.0 to 2.4 (spread 0.4). Absolute measures (range, standard deviation) would show Village Y's larger absolute spread. However, relative measures (coefficient of variation) are more meaningful for comparison because they express dispersion as a percentage of the mean, allowing comparison across different scales — though here means are equal, relative measures standardise for future comparisons. A WRONG answer (e.g., \"both equal because means are same\" or \"only range matters\") reveals the student cannot distinguish absolute vs relative dispersion or understand that inequality is a dispersion concept, not a central tendency concept.",
+     "self_check": true
+    },
+    {
+     "q": "A government policy uses \"average household income\" to allocate funds to districts. District A has mean income ₹50,000 with low dispersion. District B has mean income ₹50,000 with very high dispersion (few ultra-rich, many poor). Evaluate whether using only the mean for fund allocation is fair or effective. Justify your position using dispersion concepts.",
+     "a": "Using only the mean is neither fair nor effective. District B's high dispersion means the mean is not representative — the \"average\" household doesn't exist; most are far below ₹50,000 while a few are far above. Funds allocated based on mean would inadequately support District B's poor majority. Dispersion measures (e.g., Gini coefficient, coefficient of variation, or percentile ratios) would reveal the true need. A WRONG answer (e.g., \"mean is fair because it's the average\" or \"use median instead of dispersion\") reveals the student treats the mean as a sufficient summary statistic and fails to recognise that policy decisions require understanding the *distribution shape*, not just its centre — a critical error in applied statistics.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where two datasets have identical mean, median, and mode but completely different dispersions. Describe the scenario, give sample data for both datasets (minimum 7 values each), and explain why a decision-maker would reach a wrong conclusion if they only looked at central tendency.",
+     "a": "Scenario: Two government hospitals, Hospital A and Hospital B, both report \"average patient waiting time = 30 minutes.\"\nHospital A (consistent): 28, 29, 30, 30, 30, 31, 32 minutes. Mean=30, Median=30, Mode=30.\nHospital B (erratic): 5, 10, 15, 30, 45, 55, 65 minutes. Mean=30, Median=30, Mode=30 (no mode, but median=30).\nA patient choosing based on \"average 30 minutes\" would expect similar experience at both. In reality, Hospital A offers predictable 30-minute waits; Hospital B offers a lottery — you might wait 5 minutes or 65 minutes. For a patient with a scheduled appointment, Hospital B's high dispersion is unacceptable. A poor answer (e.g., identical data or no explanation of decision impact) reveals the student cannot construct distributions with identical central tendency but different spread, or cannot articulate the practical consequences of ignoring dispersion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

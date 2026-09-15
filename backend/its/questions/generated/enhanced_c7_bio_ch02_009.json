@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_bio_ch02_009",
+ "concepts": [
+  {
+   "id": "enh:c7_bio_ch02_009",
+   "title": "c7_bio_ch02_009",
+   "questions": [
+    {
+     "q": "What is the primary gas required for aerobic respiration to take place in animal cells?",
+     "a": "Oxygen is the primary gas required for aerobic respiration. A student who answers \"carbon dioxide\" has confused respiration with photosynthesis or gas exchange directions, showing a failure to distinguish between what an organism takes in versus what it releases during energy production.",
+     "self_check": true
+    },
+    {
+     "q": "Why do muscle cells undergo anaerobic respiration temporarily during very heavy physical exercise like sprinting?",
+     "a": "Muscle cells undergo anaerobic respiration because the supply of oxygen from the lungs and blood cannot keep up with the extreme energy demand of fast-moving muscles. A student who answers \"because muscles hate oxygen\" is using non-biological reasoning, whereas the correct concept relies on oxygen supply deficit versus high cellular demand.",
+     "self_check": true
+    },
+    {
+     "q": "A piece of yeast dough is left in a warm kitchen overnight and produces bubbles that make the dough rise. Which type of cellular process is occurring in the yeast cells, and what byproduct causes the rising?",
+     "a": "Anaerobic respiration (specifically fermentation) is occurring in the yeast cells, producing carbon dioxide gas bubbles that make the dough rise. Reasoning steps: 1. Yeast cells are sealed in dough with very little available oxygen. 2. They break down sugar without oxygen, which is anaerobic respiration. 3. The breakdown releases energy, alcohol, and carbon dioxide gas. 4. The trapped carbon dioxide gas creates bubbles, causing the dough to swell. A student who answers \"aerobic respiration producing water\" misunderstands that yeast switches to anaerobic pathways in low-oxygen dough environments.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the complete breakdown of glucose in aerobic respiration with the partial breakdown in anaerobic respiration regarding energy output.",
+     "a": "Aerobic respiration releases a large amount of energy because glucose is broken down completely into carbon dioxide and water. Anaerobic respiration releases a smaller amount of energy because glucose is only partially broken down. A student who states that anaerobic respiration releases more energy because it hurts our muscles has confused pain or byproduct toxicity with total energy efficiency.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that plants only perform aerobic respiration at night because they cannot do photosynthesis in the dark. Evaluate this claim biologically.",
+     "a": "The claim is partially flawed because plants perform aerobic respiration 24 hours a day, not just at night. Reasoning steps: 1. Respiration is the continuous process of extracting energy from food to sustain life functions in all living cells. 2. Photosynthesis only occurs in the presence of sunlight to make food. 3. Even during the day, plants respire aerobically, but photosynthesis masks the gas exchange because it uses up carbon dioxide faster than respiration produces it. A student who agrees entirely with the student's claim fails to understand that cellular respiration is an ongoing, non-stop requirement for living cells regardless of light availability.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple home investigation using everyday items to demonstrate that living organisms produce carbon dioxide during respiration, and explain the expected observation.",
+     "a": "A good design involves placing germinating moong seeds in a sealed airtight glass bottle with a small cup of freshly prepared lime water hanging inside, and leaving it for a few hours. The expected observation is that the clear lime water turns milky, proving that carbon dioxide gas is released by the respiring seeds. A poor answer would suggest measuring temperature change without a gas indicator or failing to provide a control setup, which shows a lack of understanding of experimental validation in life processes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

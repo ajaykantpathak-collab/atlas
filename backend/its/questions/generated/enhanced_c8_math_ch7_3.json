@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch7_3",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch7_3",
+   "title": "c8_math_ch7_3",
+   "questions": [
+    {
+     "q": "What is the condition for a ratio a:b to be in its simplest form?",
+     "a": "A ratio a:b is in simplest form when the highest common factor (HCF) of a and b is 1. A wrong answer (e.g., \"when a and b are prime numbers\") reveals confusion between prime numbers and co-prime numbers; the terms need not be prime, only co-prime.",
+     "self_check": true
+    },
+    {
+     "q": "Why does dividing both terms of a ratio by the same non-zero number not change the ratio? Explain using the concept of equivalent fractions.",
+     "a": "Dividing both terms by the same number is like multiplying the ratio by 1 (since n/n = 1), which preserves the value. A wrong answer (e.g., \"it makes the numbers smaller\") shows the student focuses on the effect on size rather than the multiplicative invariance.",
+     "self_check": true
+    },
+    {
+     "q": "Reduce the ratio 48:72 to its simplest form. Show all steps including finding the HCF.",
+     "a": "HCF of 48 and 72 is 24. 48 ÷ 24 = 2, 72 ÷ 24 = 3. Simplest form = 2:3. A wrong answer (e.g., 4:6 or 8:12) indicates the student divided by a common factor but not the HCF, so the ratio is not fully simplified.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two methods of simplifying 56:84: (a) dividing by 2 repeatedly, (b) dividing by HCF directly. Which is more efficient and why? When might method (a) be preferred?",
+     "a": "Method (b) is more efficient for large numbers because it reduces in one step. Method (a) is useful when HCF is not obvious and the student uses divisibility rules stepwise. A wrong answer that says both are equally efficient ignores the cognitive load of multiple steps.",
+     "self_check": true
+    },
+    {
+     "q": "A student simplified 1.2 : 3.6 by multiplying both by 10 to get 12:36, then dividing by 12 to get 1:3. Is this correct? Justify.",
+     "a": "Yes, correct. Multiplying by 10 converts decimals to whole numbers without changing the ratio, then dividing by HCF (12) gives simplest form. A wrong answer might say it's incorrect because you should divide by 1.2 directly, showing misunderstanding of equivalent ratios with decimals.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem where simplifying a ratio to its simplest form is necessary for making a decision. Provide the problem and the solution.",
+     "a": "Example: \"A recipe uses 150 g flour and 250 g sugar. The cook wants to halve the recipe but keep proportions. Simplify the ratio to decide the new amounts.\" Solution: 150:250 = 3:5, so half recipe uses 3 parts flour to 5 parts sugar. A poor answer gives a trivial ratio like 2:4 without context, showing inability to connect simplification to proportional reasoning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

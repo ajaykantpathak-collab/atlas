@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_06_010",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_06_010",
+   "title": "c10_math_cbse_06_010",
+   "questions": [
+    {
+     "q": "State the converse of Pythagoras theorem in your own words. What condition must be checked to conclude a triangle is right-angled?",
+     "a": "Correct answer: In a triangle, if the square of the longest side equals the sum of squares of the other two sides, then the angle opposite the longest side is a right angle (90°). The condition is: c² = a² + b² where c is the longest side. A wrong answer like \"if a² + b² = c² then it's a right triangle\" without specifying that c must be the longest side reveals the student does not understand the necessity of identifying the hypotenuse correctly — a common board exam error where students apply the formula to any side without ordering lengths.",
+     "self_check": true
+    },
+    {
+     "q": "A triangle has sides 5 cm, 12 cm, and 13 cm. Without using a protractor, explain why this triangle must be right-angled. Which angle is 90°?",
+     "a": "Correct answer: The longest side is 13 cm. Check: 13² = 169, 5² + 12² = 25 + 144 = 169. Since 13² = 5² + 12², by the converse of Pythagoras theorem, the angle opposite the 13 cm side is 90°. A wrong answer that computes 5² + 13² or 12² + 13² shows the student does not recognise that the hypotenuse is always the longest side in a right triangle. This misconception leads to incorrect identification of the right angle in board exam case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Determine whether a triangle with sides 7 m, 24 m, and 26 m is right-angled. Show all steps.",
+     "a": "Correct answer:\nStep 1: Identify longest side = 26 m.\nStep 2: Compute squares: 26² = 676, 7² = 49, 24² = 576.\nStep 3: Sum of squares of two shorter sides = 49 + 576 = 625.\nStep 4: Compare: 676 ≠ 625.\nStep 5: Since 26² ≠ 7² + 24², the triangle is NOT right-angled.\nA wrong answer stating it is right-angled because 7² + 24² = 25² (confusing with the 7-24-25 triple) reveals the student relies on memorised triples without verifying the given numbers. In board exams, this causes loss of marks when side lengths are close to but not exactly Pythagorean triples.",
+     "self_check": true
+    },
+    {
+     "q": "Two triangles have side lengths (9, 40, 41) and (9, 40, 42). Both have two sides 9 and 40. Compare the angles opposite the longest side in each triangle. Which triangle has an obtuse angle? Justify using the converse of Pythagoras theorem and its extension.",
+     "a": "Correct answer:\nTriangle 1: 41² = 1681, 9² + 40² = 81 + 1600 = 1681 → 41² = 9² + 40² → right angle opposite 41.\nTriangle 2: 42² = 1764, 9² + 40² = 1681 → 42² > 9² + 40² → angle opposite 42 is obtuse (greater than 90°).\nThus the second triangle has an obtuse angle. A wrong answer that only checks equality misses the extension: if c² > a² + b² the angle is obtuse, if c² < a² + b² it is acute. This deeper understanding is tested in CBSE competency-based questions asking to classify triangles by angle type.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In any triangle, if the square of one side equals the sum of squares of the other two sides, the triangle is right-angled.\" Evaluate this statement. Is it fully correct? If not, correct it.",
+     "a": "Correct answer: The statement is incomplete. It must specify \"the square of the **longest side**\" equals the sum of squares of the **other two sides**. In a triangle, the hypotenuse is always the longest side. If a student checks a² + b² = c² but c is not the longest side, the conclusion is invalid. For example, sides 3, 4, 5: 3² + 4² = 5² works because 5 is longest. But if sides were 3, 5, 4, checking 3² + 5² = 4² gives 34 = 16 false, yet the triangle is right-angled. The error is not identifying the longest side first. This is a frequent board exam trap in assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (Indian context) where a person uses the converse of Pythagoras theorem to verify a right angle. Include three side lengths that are NOT a standard Pythagorean triple but still satisfy the condition. Provide the full solution.",
+     "a": "Example problem: A mason laying a rectangular foundation for a room measures three sides of a corner triangle as 1.5 m, 2 m, and 2.5 m. He wants to confirm the corner is 90°.\nSolution: Longest side = 2.5 m. (2.5)² = 6.25. 1.5² + 2² = 2.25 + 4 = 6.25. Since equal, corner is right angle.\nA poor answer uses only standard triples like 3-4-5 or 5-12-13, showing lack of flexibility with decimals/non-integer sides. Board exams often use non-integer lengths (e.g., 1.5, 2, 2.5) to test if students can compute squares of decimals correctly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

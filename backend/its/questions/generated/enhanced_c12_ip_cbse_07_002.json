@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_07_002",
+   "title": "c12_ip_cbse_07_002",
+   "questions": [
+    {
+     "q": "List the four essential characteristics of a strong password according to NIST SP 800-63B and CBSE Class 12 guidelines.",
+     "a": "**Answer:** Length ≥ 12 characters, use of mixed character sets (upper, lower, digits, symbols), unpredictability (no dictionary words, patterns, or personal info), and uniqueness (not reused across accounts).  \n**Wrong answer reveals:** Student likely memorized \"long and complex\" without understanding that *unpredictability* and *uniqueness* are independent requirements. A 20-character password like \"aaaaaaaaaaaaaaaaaaaa\" fails unpredictability; a unique but short password fails length.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the password \"Tr0ub4dor&3\" (from the famous XKCD comic) is considered weaker than \"correct horse battery staple\" despite containing uppercase, lowercase, digits, and symbols.",
+     "a": "**Answer:** \"Tr0ub4dor&3\" follows a predictable leetspeak substitution pattern on a single dictionary word (\"troubador\"), giving it only ~28 bits of entropy. \"correct horse battery staple\" uses four random dictionary words from a 2048-word list, yielding 4 × log₂(2048) = 44 bits of entropy — and is easier to remember.  \n**Wrong answer reveals:** Student focuses on character variety (which the first password has) rather than *randomness source*. They don't grasp that attackers' dictionaries include leetspeak variants, so pattern-based complexity adds negligible entropy.",
+     "self_check": true
+    },
+    {
+     "q": "A student creates a password by taking the first letters of \"My dog Bruno barks at 6 AM daily!\" → \"MdBba6AMd!\". Calculate its approximate entropy assuming the attacker knows the method but not the sentence. The sentence has 9 words, each chosen from a personal vocabulary of ~500 words. Show your work.",
+     "a": "**Steps:**  \n1. Identify the random component: the 9-word sentence chosen from 500-word vocabulary.  \n2. Entropy per word = log₂(500) ≈ 8.97 bits.  \n3. Total entropy = 9 × 8.97 ≈ 80.7 bits.  \n4. The first-letter extraction and capitalization/punctuation are deterministic — they add zero entropy if the method is known.  \n**Answer:** ≈ 81 bits.  \n**Wrong answer reveals:** Student calculates entropy based on the *output* string length (10 chars × log₂(95) ≈ 66 bits) instead of the *input* randomness. This is the \"output-length fallacy\" — entropy depends on the generation process, not the resulting characters.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two password policies for a school ERP system. Which provides better security against offline cracking? Justify with entropy estimates.  \nPolicy A: 8 characters, must include upper, lower, digit, symbol.  \nPolicy B: 16 characters, no composition rules, blocklist of top 10,000 passwords.",
+     "a": "**Answer:** Policy B is stronger.  \n- Policy A: Effective entropy ≈ log₂(95⁸ - 69⁸ - 69⁸ - 85⁸ - 85⁸ + ...) ≈ 52 bits (reduced by composition rules forcing predictable patterns).  \n- Policy B: Even with only lowercase (N=26), 16 chars gives 16 × log₂(26) ≈ 75 bits. Blocklist removes <14 bits. Real-world entropy ~70+ bits.  \n**Wrong answer reveals:** Student thinks composition rules (Policy A) increase entropy. They don't realize rules *reduce* the search space by eliminating valid strings and users compensate with predictable patterns (e.g., \"Password@1\").",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Using a password manager eliminates the need for strong master passwords because the manager encrypts everything with AES-256.\" Defend or refute with technical reasoning.",
+     "a": "**Answer:** Refute. The master password *is* the key derivation input for AES-256. If the master password has 30 bits of entropy, an offline attacker who obtains the encrypted vault can brute-force the master password in 2³⁰ attempts (seconds), then decrypt everything. AES-256 only protects data *if* the key (derived from master password) has sufficient entropy.  \n**Wrong answer reveals:** Student confuses *encryption algorithm strength* (AES-256) with *key entropy*. They think the algorithm's 256-bit key space matters, not realizing the effective key space is limited by the master password's entropy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a password creation strategy for a visually impaired user who relies on screen readers and cannot easily type special characters. The strategy must yield ≥ 80 bits of entropy, be memorable, and avoid ambiguous characters (e.g., 1/l/I, 0/O). Describe the method and compute its entropy.",
+     "a": "**Example strategy:** Diceware with a 7776-word list (6⁵), using 7 words separated by spaces.  \n- Entropy = 7 × log₂(7776) = 7 × 12.9 ≈ 90 bits.  \n- Screen reader reads each word clearly; spaces are easy to type; no special chars needed.  \n- Avoids ambiguous chars by using only dictionary words.  \n**Good answer criteria:** Specifies word list size, number of words, entropy calculation, and accessibility justification.  \n**Poor answer reveals:** Suggests \"long sentence\" without quantifying vocabulary size, or uses character-substitution patterns that screen readers announce confusingly (e.g., \"at sign\" for @).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

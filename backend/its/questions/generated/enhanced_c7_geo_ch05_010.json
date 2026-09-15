@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch05_010",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch05_010",
+   "title": "c7_geo_ch05_010",
+   "questions": [
+    {
+     "q": "What does the acronym SAARC stand for, and when was it established?",
+     "a": "SAARC stands for the South Asian Association for Regional Cooperation, and it was established in December 1985. A wrong answer shows confusion with other international bodies like ASEAN or a failure to recall basic historical-geographical facts about South Asian integration.",
+     "self_check": true
+    },
+    {
+     "q": "Why is physical connectivity (such as roads, railways, and inland waterways) considered crucial for the success of regional cooperation in South Asia, given the region's diverse physical geography?",
+     "a": "Physical connectivity is crucial because South Asia features massive geographical barriers—such as the Himalayan mountain ranges in the north, dense river networks in the east, and vast coastlines. Without constructed transit corridors like highways and rail links, trade and people-to-people contact remain restricted by these natural obstacles. A wrong answer suggests the student thinks trade happens purely through digital means or ignores how physical landforms obstruct movement.",
+     "self_check": true
+    },
+    {
+     "q": "If a freight train travels from New Delhi, India, through transit routes to reach Dhaka, Bangladesh, a distance of approximately 1,600 km at an average speed of 40 km/h, calculate the travel time. If border clearance adds 12 hours of delay, what is the total transit time?",
+     "a": "Steps: 1. Identify travel distance (1,600 km) and speed (40 km/h). 2. Calculate travel time using time = distance / speed (1,600 / 40 = 40 hours). 3. Add border clearance delay (40 hours + 12 hours = 52 hours). 4. Convert total hours into days if needed (52 hours = 2 days and 4 hours). Total transit time is 52 hours. A wrong answer reveals errors in basic speed-distance calculation or failure to account for real-world logistical delays at international borders.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how sharing river waters and energy grids between India and its Himalayan neighbours (like Nepal and Bhutan) fosters mutual regional interdependence.",
+     "a": "Sharing energy grids allows nations with surplus hydroelectric potential (such as Bhutan's fast-flowing Himalayan rivers) to export electricity to energy-deficient plains in India, while India provides technological and financial assistance. This creates a win-win economic loop where physical infrastructure links natural resource generation directly with consumer demand across borders. A wrong answer shows the student views natural resources purely as domestic assets and does not understand cross-border resource sharing.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Regional cooperation through SAARC is unnecessary because each South Asian country has enough resources to develop independently.\" Is this claim geographically and economically sound?",
+     "a": "This claim is not sound. South Asian nations have uneven resource distribution—some are landlocked (Nepal, Bhutan), some are island nations (Maldives, Sri Lanka), and others have vast mineral or agricultural plains (India). Regional cooperation is essential to share energy, facilitate transit for landlocked nations to reach maritime ports, and jointly tackle regional issues like monsoon-driven floods and climate change. A wrong answer reveals a lack of understanding about uneven resource distribution and globalization.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical transport corridor connecting a landlocked country in South Asia (like Nepal) to a major seaport in India. Outline two physical or political challenges this corridor might face and how regional cooperation could solve them.",
+     "a": "A successful answer should propose a rail or road route originating in Nepal, passing through the Indo-Gangetic plains, and terminating at a port like Kolkata or Haldia. Challenges should include rugged terrain transitions from mountains to plains and customs delays at the international border. Solutions should involve joint infrastructure funding, digital customs clearance, and shared transport agreements. A poor answer lacks geographical realism, ignores terrain changes, or misses the purpose of regional cooperation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

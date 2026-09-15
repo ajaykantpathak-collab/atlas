@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_chem_ch2_4",
+ "concepts": [
+  {
+   "id": "enh:c8_chem_ch2_4",
+   "title": "c8_chem_ch2_4",
+   "questions": [
+    {
+     "q": "What is the primary difference between an atom and a molecule?",
+     "a": "An atom is the smallest single unit of an element that may or may not exist independently, whereas a molecule is formed by the chemical combination of two or more atoms and can exist independently while retaining its chemical properties. A wrong answer reveals that the student is confusing the fundamental building block (atom) with its stable combined state (molecule).",
+     "self_check": true
+    },
+    {
+     "q": "Why do oxygen atoms in the air exist as diatomic molecules ($O_2$) instead of single, isolated oxygen atoms?",
+     "a": "Single oxygen atoms are chemically unstable due to incomplete outer electron shells, so two oxygen atoms share electrons to form a stable diatomic molecule ($O_2$). A wrong answer shows a misunderstanding of atomic stability and the driving force behind why atoms combine to form molecules.",
+     "self_check": true
+    },
+    {
+     "q": "A chemistry student analyzes a gas sample and finds its molecules are made of one carbon atom and two oxygen atoms bonded together. What is the chemical formula of this substance, and is it a molecule of an element or a compound?",
+     "a": "Steps:\n1. Identify constituent atoms: 1 Carbon (C) atom and 2 Oxygen (O) atoms.\n2. Combine symbols to write the formula: $CO_2$.\n3. Determine if atoms are identical or different: The substance contains different types of atoms (carbon and oxygen).\n4. Classify the substance: Since it contains different elements combined chemically, it is a molecule of a compound.\nAnswer: The formula is $CO_2$, and it is a molecule of a compound. A wrong answer indicates confusion between molecules of elements (same atoms) and molecules of compounds (different atoms).",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the formulas $O_2$, $H_2O$, and $CO_2$. How do the atom ratios differ between the molecule of an element and the molecules of compounds?",
+     "a": "$O_2$ is a molecule of an element because it consists of two atoms of the exact same element (oxygen). In contrast, $H_2O$ and $CO_2$ are molecules of compounds because each contains fixed ratios of two *different* elements ($H_2O$ has 2 hydrogen to 1 oxygen; $CO_2$ has 1 carbon to 2 oxygen). A wrong answer reveals an inability to differentiate elemental molecules from compound molecules based on their constituent atom types.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that a beaker containing a mixture of hydrogen gas ($H_2$) and oxygen gas ($O_2$) at room temperature is chemically the same as a beaker of water ($H_2O$). Evaluate this claim using your knowledge of molecules.",
+     "a": "The claim is incorrect. In a mixture of $H_2$ and $O_2$, the hydrogen and oxygen atoms are physically mixed but not chemically bonded, meaning they retain their individual properties as gases. In water ($H_2O$), the hydrogen and oxygen atoms have undergone a chemical combination into fixed molecules with entirely new physical and chemical properties. A wrong answer demonstrates a failure to distinguish between physical mixtures and chemically combined molecules.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple model using everyday kitchen items (like different colored clay balls or pulses and toothpicks) to represent how one carbon atom combines with oxygen atoms to form carbon dioxide, and explain what your model shows about atomic ratios.",
+     "a": "The student should use one large clay ball for carbon and two smaller clay balls of a different color for oxygen, connected by toothpicks in a 1:2 ratio. The model must visually demonstrate that a single molecule of $CO_2$ always maintains a fixed ratio of one carbon atom to two oxygen atoms. A poor answer fails to show the correct 1:2 atom ratio or confuses physical attachment with chemical combination rules.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

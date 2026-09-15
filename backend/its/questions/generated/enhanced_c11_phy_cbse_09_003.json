@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_09_003",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_09_003",
+   "title": "c11_phy_cbse_09_003",
+   "questions": [
+    {
+     "q": "State the formula for absolute pressure at depth \\(h\\) in a liquid of density \\(\\rho\\) open to atmosphere, and give the SI unit of each term.",
+     "a": "\\(P = P_{\\text{atm}} + \\rho gh\\). \\(P\\) and \\(P_{\\text{atm}}\\) in Pa (N·m⁻²), \\(\\rho\\) in kg·m⁻³, \\(g\\) in m·s⁻², \\(h\\) in m. A wrong answer (e.g., missing \\(P_{\\text{atm}}\\) or using cm for \\(h\\)) reveals confusion between gauge and absolute pressure or unit inconsistency.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the pressure at the bottom of a V-shaped vessel and a cylindrical vessel filled to the same height with the same liquid come out equal, even though the V-shaped vessel holds less liquid?",
+     "a": "Pressure at a depth depends only on the vertical height of the fluid column above that point (\\(P = P_0 + \\rho gh\\)), not on the total weight or shape of the container. The V-shaped vessel exerts the same pressure because the vertical depth is identical. A wrong answer citing total weight or volume indicates the student has not internalized the hydrostatic paradox and still thinks pressure = total weight / bottom area.",
+     "self_check": true
+    },
+    {
+     "q": "A diver is 15 m below the surface of a lake (density \\(1000\\ \\text{kg·m}^{-3}\\)). Atmospheric pressure is \\(1.01 \\times 10^5\\ \\text{Pa}\\). Take \\(g = 9.8\\ \\text{m·s}^{-2}\\). Calculate (a) the gauge pressure and (b) the absolute pressure on the diver.",
+     "a": "(a) Gauge pressure \\(P_g = \\rho gh = 1000 \\times 9.8 \\times 15 = 1.47 \\times 10^5\\ \\text{Pa}\\).  \n(b) Absolute pressure \\(P = P_{\\text{atm}} + P_g = 1.01 \\times 10^5 + 1.47 \\times 10^5 = 2.48 \\times 10^5\\ \\text{Pa}\\).  \nA wrong answer (e.g., forgetting to add atmospheric pressure, or using \\(g=10\\) without stating it) shows computational carelessness or confusion between gauge and absolute pressure.",
+     "self_check": true
+    },
+    {
+     "q": "Two points A and B are at the same horizontal level inside a continuous static fluid. Point A is under a wide section of the container, point B under a narrow tube. Compare the pressures at A and B and justify using the pressure-depth formula.",
+     "a": "Pressures at A and B are equal. Since they are at the same horizontal level, their vertical depths \\(h\\) from the free surface are identical. By \\(P = P_0 + \\rho gh\\), with same \\(P_0\\), \\(\\rho\\), \\(g\\), and \\(h\\), \\(P_A = P_B\\). A wrong answer claiming higher pressure under the wider section reveals the misconception that pressure depends on the weight of fluid directly above the point rather than vertical depth.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"If I double the cross-sectional area of the cylindrical element in the derivation, the weight doubles and the area doubles, so pressure should remain the same. But if I use a conical element instead, the slanted sides exert vertical forces, so the simple formula \\(\\Delta P = \\rho gh\\) might not hold.\" Evaluate this argument.",
+     "a": "The argument is partially correct for the cylinder but wrong for the cone. For any shape, the net vertical force from pressure on the slanted sides exactly balances the extra weight, so \\(\\Delta P = \\rho gh\\) holds universally for static fluids. The student correctly sees the cylinder's area cancels but incorrectly assumes the formula fails for other shapes. This reveals a lack of understanding that the derivation using a cylinder is a special case of a general principle (Pascal's law + equilibrium).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate that water pressure at the bottom of a container depends only on the height of the water column, not on the container's shape.",
+     "a": "Take three plastic bottles of different shapes (wide, narrow, slanted) but same height. Cut off the bottoms and attach a thin rubber sheet with a small straw to each bottom. Fill each with water to the same height. Observe the water rise in the straws: they will reach the same height, showing equal pressure at the bottom. A poor answer (e.g., measuring flow rate from holes at different heights) confuses pressure with flow velocity and does not isolate the depth dependence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

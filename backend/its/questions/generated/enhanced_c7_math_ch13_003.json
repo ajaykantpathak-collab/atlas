@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch13_003",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch13_003",
+   "title": "c7_math_ch13_003",
+   "questions": [
+    {
+     "q": "What is the mathematical definition of the *mode* of a data set?",
+     "a": "The mode is the value that appears most frequently in a data set. A student who answers \"the middle value\" is confusing mode with median, while someone who says \"the sum divided by the count\" is describing the mean.",
+     "self_check": true
+    },
+    {
+     "q": "A data set of five test scores is: 12, 14, 15, 14, 98. Why might the *mean* be a misleading representative value for this data set?",
+     "a": "The mean is heavily pulled upward by the extreme outlier (98), making the average score much higher than what 4 out of the 5 students actually scored. A student who thinks the mean is still a good representative value does not understand how extreme values distort the arithmetic average.",
+     "self_check": true
+    },
+    {
+     "q": "Find the median of the following set of 7 book prices (in rupees): 120, 150, 110, 200, 130, 180, 140.",
+     "a": "Step 1: Arrange the prices in ascending order: 110, 120, 130, 140, 150, 180, 200. \nStep 2: Count the total number of values ($N = 7$, which is odd). \nStep 3: Find the middle position using $\\frac{N + 1}{2} = \\frac{7+1}{2} = 4$th position. \nStep 4: Identify the 4th value in the ordered list, which is 140. \nAnswer: Rs. 140. A student who gets 150 likely forgot to sort the data before finding the middle value.",
+     "self_check": true
+    },
+    {
+     "q": "If every number in a data set is increased by 5, how does the median of the data set change?",
+     "a": "The median will also increase by exactly 5. A student who answers that the median stays the same is confusing \"relative position\" with \"absolute value,\" failing to realize that shifting all numbers up shifts their exact middle position up by that same constant.",
+     "self_check": true
+    },
+    {
+     "q": "Arjun calculated the mean of 5 numbers to be 20. Later, he realized he accidentally included the number 50 instead of the correct number 30. Evaluate Arjun's error and find the true mean.",
+     "a": "The sum of the 5 numbers was $5 \\times 20 = 100$. The incorrect inclusion of 50 instead of 30 means the sum is too high by $50 - 30 = 20$. The true sum is $100 - 20 = 80$. The true mean is $\\frac{80}{5} = 16$. A student who just subtracts 20 from the mean (getting 0) does not understand that the mean is a distributed average, not a total.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a data set of 6 integers where the mode is 10, the median is 12, and the mean is 14. Show your verification.",
+     "a": "One valid data set is: 8, 10, 10, 14, 18, 24. \nVerification: Mode is 10 (appears twice). Sorted values: 8, 10, 10, 14, 18, 24. Middle two are 10 and 14, average is 12 (median). Sum = $8+10+10+14+18+24 = 84$, and $84 \\div 6 = 14$ (mean). A poor answer lists numbers randomly without checking if the three representative constraints are simultaneously satisfied.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,245 @@
+{
+ "catalog": "catalog_class7_social_science_ch202",
+ "concepts": [
+  {
+   "id": "gess.202.1.1",
+   "title": "Earth's Layers Volume Calculation",
+   "questions": [
+    {
+     "q": "Calculate the volume of the core given the total Earth volume is {total_volume} cubic km and its percentage is {percentage}.. Use the method 'Earth's Layers Volume Calculation'. Work with: percentage = 18, total_volume = 24. Carry the chain through step by step and give the final value of layer_volume.",
+     "a": "4.32 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the volume of the crust when the total volume is {total_volume} and the crust percentage is {percentage}.. Use the method 'Earth's Layers Volume Calculation'. Work with: percentage = 8, total_volume = 24. Carry the chain through step by step and give the final value of layer_volume.",
+     "a": "1.92 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Earth's Layers Volume Calculation' refers to.",
+     "a": "The quantitative proportion of the Earth's total volume occupied by its individual layers, namely the crust, mantle, and core.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Earth's Layers Volume Calculation'.",
+     "a": "Volume of a layer is calculated as a percentage of the total Earth volume.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Earth's Layers Volume Calculation', in plain ASCII form.",
+     "a": "layer_volume = total_volume * percentage / 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.202.1.2",
+   "title": "Remaining Depth to Earth's Center",
+   "questions": [
+    {
+     "q": "Find the remaining distance to the center of the Earth if we have already penetrated {dug_depth} km deep, assuming the radius is {earth_radius} km.. Use the method 'Remaining Depth to Earth's Center'. Work with: dug_depth = 4, earth_radius = 12. Carry the chain through step by step and give the final value of remaining_depth.",
+     "a": "8 units",
+     "self_check": false
+    },
+    {
+     "q": "How many more kilometers are needed to reach the center of a planet of radius {earth_radius} km after digging {dug_depth} km? Use the method 'Remaining Depth to Earth's Center'. Work with: dug_depth = 300, earth_radius = 400. Carry the chain through step by step and give the final value of remaining_depth.",
+     "a": "100 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Remaining Depth to Earth's Center' refers to.",
+     "a": "The remaining distance to reach the Earth's center after digging a certain depth from the surface.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Remaining Depth to Earth's Center'.",
+     "a": "Subtracting the depth of a dug hole from the Earth's radius gives the remaining distance to the center.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Remaining Depth to Earth's Center', in plain ASCII form.",
+     "a": "remaining_depth = earth_radius - dug_depth",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.202.1.3",
+   "title": "Earth's Interior Layers",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Earth's Interior Layers' refers to.",
+     "a": "The division of the Earth's interior into three distinct concentric zones: the thin outer crust, the thick intermediate mantle, and the dense central core.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Earth's Interior Layers'.",
+     "a": "The Earth consists of three main layers with different thicknesses and properties.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Earth's Interior Layers' taught, and from which source text?",
+     "a": "Interior of the Earth (source: gess202.txt lines 10-44)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.202.1.4",
+   "title": "Crust Composition (Sial and Sima)",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Crust Composition (Sial and Sima)' refers to.",
+     "a": "The mineral composition of the continental crust, dominated by silicon and aluminium, and the oceanic crust, dominated by silicon and magnesium.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Crust Composition (Sial and Sima)'.",
+     "a": "Sial and sima represent the primary mineral components of the continental and oceanic crusts respectively.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Crust Composition (Sial and Sima)' taught, and from which source text?",
+     "a": "Interior of the Earth (source: gess202.txt lines 25-35)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.202.1.5",
+   "title": "Average Crust Thickness",
+   "questions": [
+    {
+     "q": "Calculate the average thickness of the Earth's crust given a continental thickness of {continental_thickness} km and an oceanic thickness of {oceanic_thickness} km.. Use the method 'Average Crust Thickness'. Work with: continental_thickness = 200, oceanic_thickness = 45. Carry the chain through step by step and give the final value of average_thickness.",
+     "a": "122.5 years",
+     "self_check": false
+    },
+    {
+     "q": "Find the mean thickness of the crust when the continental mass is {continental_thickness} km and the ocean floor is {oceanic_thickness} km.. Use the method 'Average Crust Thickness'. Work with: continental_thickness = 12, oceanic_thickness = 4. Carry the chain through step by step and give the final value of average_thickness.",
+     "a": "8 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Average Crust Thickness' refers to.",
+     "a": "The average thickness of the Earth's crust calculated from its continental and oceanic components.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Average Crust Thickness'.",
+     "a": "The mean of continental and oceanic crust thicknesses represents the average crustal depth.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Average Crust Thickness', in plain ASCII form.",
+     "a": "average_thickness = (continental_thickness + oceanic_thickness) / 2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.202.2.1",
+   "title": "Igneous Rocks (Intrusive and Extrusive)",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Igneous Rocks (Intrusive and Extrusive)' refers to.",
+     "a": "Primary rocks created through the cooling and solidification of liquid magma, categorised into extrusive types on the surface and intrusive types deep underground.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Igneous Rocks (Intrusive and Extrusive)'.",
+     "a": "Igneous rocks form from cooled magma and are classified by where they solidify.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Igneous Rocks (Intrusive and Extrusive)' taught, and from which source text?",
+     "a": "Rocks and Minerals (source: gess202.txt lines 55-75)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.202.2.2",
+   "title": "Sedimentary Rocks and Fossils",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Sedimentary Rocks and Fossils' refers to.",
+     "a": "Rocks formed by the accumulation, compaction, and cementation of mineral and organic particles transported by natural agents like wind or water.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sedimentary Rocks and Fossils'.",
+     "a": "Sedimentary rocks are formed from compressed sediments and often contain fossils.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Sedimentary Rocks and Fossils' taught, and from which source text?",
+     "a": "Rocks and Minerals (source: gess202.txt lines 75-85)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.202.2.3",
+   "title": "Metamorphic Rocks",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Metamorphic Rocks' refers to.",
+     "a": "Existing rocks that undergo structural or chemical alteration due to intense heat and pressure without melting.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Metamorphic Rocks'.",
+     "a": "Heat and pressure transform igneous and sedimentary rocks into metamorphic rocks.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Metamorphic Rocks' taught, and from which source text?",
+     "a": "Rocks and Minerals (source: gess202.txt lines 85-90)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.202.2.4",
+   "title": "The Rock Cycle",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Rock Cycle' refers to.",
+     "a": "A continuous geological process where rocks are constantly transformed among igneous, sedimentary, and metamorphic forms over time.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Rock Cycle'.",
+     "a": "The rock cycle describes the continuous transformation of rocks from one type to another.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Rock Cycle' taught, and from which source text?",
+     "a": "Rocks and Minerals (source: gess202.txt lines 95-110)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "gess.202.2.5",
+   "title": "Minerals and Their Uses",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Minerals and Their Uses' refers to.",
+     "a": "Naturally occurring inorganic substances characterized by a specific chemical makeup and distinct physical traits.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Minerals and Their Uses'.",
+     "a": "Minerals are natural substances with fixed chemical compositions used as fuels and raw materials.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Minerals and Their Uses' taught, and from which source text?",
+     "a": "Rocks and Minerals (source: gess202.txt lines 110-120)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

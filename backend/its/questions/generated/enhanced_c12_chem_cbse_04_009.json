@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_04_009",
+   "title": "c12_chem_cbse_04_009",
+   "questions": [
+    {
+     "q": "State the definition of lanthanoid contraction and name the subshell whose filling causes it.",
+     "a": "Lanthanoid contraction is the greater-than-expected decrease in atomic/ionic radii across the lanthanoid series (La to Lu) caused by the poor shielding of nuclear charge by electrons entering the 4f subshell. A wrong answer (e.g., \"5d subshell\" or \"increasing nuclear charge alone\") reveals the student confuses the *filling* subshell (4f) with the *affected* series (5d), or misses the shielding mechanism entirely.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the shielding effect of a 4f electron is less effective than that of a 5d electron, using orbital shape and penetration arguments.",
+     "a": "4f orbitals are more contracted and have greater radial penetration near the nucleus than 5d orbitals; their radial distribution peaks closer to the nucleus. A 4f electron therefore spends more time *inside* the shielding sphere of other 4f electrons, failing to screen the nuclear charge effectively for its peers. In contrast, 5d orbitals are more diffuse and extend further out, providing better mutual shielding. If a student says \"4f is higher energy so shields less\", they confuse energy with spatial distribution — the key is radial probability density, not orbital energy.",
+     "self_check": true
+    },
+    {
+     "q": "Given: Ionic radius of Zr⁴⁺ = 72 pm, Hf⁴⁺ = 71 pm. Without lanthanoid contraction, Hf⁴⁺ would be ~15% larger than Zr⁴⁺ (typical group trend). Calculate the \"missing\" radius increment and express it as a percentage of the expected Hf⁴⁺ radius.",
+     "a": "Expected Hf⁴⁺ radius without contraction = 72 pm × 1.15 = 82.8 pm. Actual = 71 pm. Missing increment = 82.8 − 71 = 11.8 pm. Percentage of expected = (11.8 / 82.8) × 100 ≈ 14.3%. A student who calculates 72 × 0.15 = 10.8 pm and stops there misses that the *base* for percentage is the *expected* radius (82.8 pm), not the Zr radius. This tests whether they distinguish absolute vs. relative deviation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the difficulty of separating Zr/Hf versus Nb/Ta. Which pair is harder to separate and why? Use ionic radii and charge density arguments.",
+     "a": "Zr/Hf separation is harder. Both are Group 4, +4 oxidation state dominant, ionic radii nearly identical (Zr⁴⁺ 72 pm, Hf⁴⁺ 71 pm) → identical charge density → identical hydration enthalpies, complex formation constants, and extraction behavior. Nb/Ta (Group 5) also have similar radii (Nb⁵⁺ 64 pm, Ta⁵⁺ 64 pm) but their higher charge (+5) amplifies small differences in hydrolysis and complexation, allowing slightly better separation via solvent extraction. A student who says \"both equally hard\" ignores the charge-density amplification effect — higher charge magnifies tiny radius differences.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Lanthanoid contraction makes 5d elements smaller than 4d elements.\" Evaluate this statement. Is it true, false, or partially true? Justify with data.",
+     "a": "False. Lanthanoid contraction makes 5d elements *similar in size* to 4d elements, not smaller. Data: Zr 160 pm, Hf 159 pm; Nb 146 pm, Ta 146 pm; Mo 139 pm, W 139 pm. The 5d radii are *slightly* smaller in some cases (Hf < Zr by 1 pm) but within experimental error. The statement reflects a misconception that contraction *overcompensates* the new shell addition. In reality, the new 6s/6p shell adds ~15–20 pm, and lanthanoid contraction subtracts ~15–20 pm — near-perfect cancellation, not overcorrection.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment: If the 4f subshell shielded as effectively as the 5d subshell (i.e., no lanthanoid contraction), predict *two* measurable differences in the properties of Hf compared to actual Hf. Specify the property and the direction of change.",
+     "a": "(1) Atomic radius of Hf would be ~15–20 pm larger (≈175–180 pm vs actual 159 pm), making it clearly larger than Zr (160 pm) — normal group trend restored. (2) Density of Hf would be significantly lower (actual 13.3 g/cm³; predicted ~10–11 g/cm³) because volume increases as r³ while mass increases only linearly. A student who only says \"Hf would be larger\" misses the density consequence — they must connect radius to macroscopic property via ρ = M/V. Also, separation from Zr would become easy (different ionic radii → different extraction coefficients).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

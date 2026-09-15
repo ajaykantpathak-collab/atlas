@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch5_6",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch5_6",
+   "title": "c8_math_ch5_6",
+   "questions": [
+    {
+     "q": "For the four consecutive numbers 5, 6, 7, 8, how many different expressions can be formed by placing + or - signs in the three gaps between them?",
+     "a": "Answer: 8 expressions. Each of the 3 gaps has 2 choices (+ or -), so \\(2 \\times 2 \\times 2 = 8\\). A wrong answer of 6 or 4 reveals the student thinks some sign combinations are invalid or they are counting only distinct results rather than distinct expressions. A wrong answer of 16 reveals they think there are 4 gaps instead of 3.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the expression \\(n - (n+1) + (n+2) - (n+3)\\). Without substituting a specific value for \\(n\\), explain why the result must always be an even number.",
+     "a": "Answer: Simplify algebraically: \\(n - n - 1 + n + 2 - n - 3 = (n - n + n - n) + (-1 + 2 - 3) = 0 - 2 = -2\\). The variable terms cancel completely, leaving a constant even number. Any expression of this form simplifies to an even integer because the four \\(n\\) terms contribute \\(\\pm n \\pm n \\pm n \\pm n\\) which always sums to an even multiple of \\(n\\) (0, \\(\\pm 2n\\), or \\(\\pm 4n\\)), and the constants sum to an even number. A wrong answer focusing only on \"even minus odd is odd\" reveals the student is not seeing the algebraic cancellation and is trying to use parity rules without simplifying first.",
+     "self_check": true
+    },
+    {
+     "q": "For the consecutive numbers 10, 11, 12, 13, find the value of the expression with signs: \\(10 - 11 - 12 + 13\\). Then list all 8 possible values for this set of four numbers.",
+     "a": "Step 1: \\(10 - 11 = -1\\)\nStep 2: \\(-1 - 12 = -13\\)\nStep 3: \\(-13 + 13 = 0\\). So \\(10 - 11 - 12 + 13 = 0\\).\nAll 8 values for 10,11,12,13:\n\\(10+11+12+13 = 46\\)\n\\(10+11+12-13 = 20\\)\n\\(10+11-12+13 = 22\\)\n\\(10+11-12-13 = -4\\)\n\\(10-11+12+13 = 24\\)\n\\(10-11+12-13 = -2\\)\n\\(10-11-12+13 = 0\\)\n\\(10-11-12-13 = -26\\)\nSet: \\(\\{-26, -4, -2, 0, 20, 22, 24, 46\\}\\). All even. A wrong answer with odd numbers reveals sign errors in integer subtraction (e.g., treating \\(-11 - 12\\) as \\(-1\\) instead of \\(-23\\)).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sets of possible values for two different starting numbers: (a) 1,2,3,4 and (b) 2,3,4,5. What is the relationship between the two sets? Explain why this relationship holds algebraically.",
+     "a": "Set for 1,2,3,4: \\(\\{-8, -2, 0, 4, 6, 8, 10, 16\\}\\) (all even)\nSet for 2,3,4,5: \\(\\{-10, -4, -2, 2, 4, 8, 10, 18\\}\\) (all even)\nRelationship: The second set is the first set shifted by +2? No, let's check: 16→18 (+2), 10→10 (0), 8→8 (0), 6→4 (-2)... not a constant shift.\nBetter relationship: Both sets contain only even numbers. The minimum increases by 2 (-8 to -10? No, -8 to -10 is -2). Wait: min for 1,2,3,4 is \\(1-2-3-4 = -8\\). Min for 2,3,4,5 is \\(2-3-4-5 = -10\\). Max for first: \\(1+2+3+4=10\\). Max for second: \\(2+3+4+5=14\\). \nActually, the correct observation: Each value in the second set equals the corresponding value in the first set plus 2? Let's pair by sign pattern:\nPattern +++: 10 vs 14 (+4)\nPattern ++-: 1+2+3-4=2 vs 2+3+4-5=4 (+2)\nPattern +-+: 1-2+3+4=6 vs 2-3+4+5=8 (+2)\nPattern +--: 1-2-3-4=-8 vs 2-3-4-5=-10 (-2)\nPattern -++: -1+2+3+4=8 vs -2+3+4+5=10 (+2)\nPattern -+-: -1+2-3-4=-6? Wait, for 1,2,3,4: -1+2-3+4=2? No, signs are between numbers: \\(1 - 2 - 3 + 4 = 0\\)? Let me redo systematically.\n\nActually, the algebraic form for a sign pattern \\(s_1, s_2, s_3 \\in \\{+1, -1\\}\\) is:\n\\(n + s_1(n+1) + s_2(n+2) + s_3(n+3) = n(1+s_1+s_2+s_3) + (s_1 + 2s_2 + 3s_3)\\)\nWhen \\(n\\) increases by 1, the value increases by \\((1+s_1+s_2+s_3)\\). This coefficient can be -2, 0, 2, or 4. So different patterns shift by different amounts! That's the key insight. A wrong answer claiming a constant shift reveals the student hasn't derived the general algebraic form.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"For any four consecutive numbers, the largest possible value is always the sum of all four, and the smallest is always the first minus the other three.\" Is this claim correct? Justify your answer with reasoning.",
+     "a": "The claim is CORRECT. The maximum occurs when all signs are \\(+\\): \\(n + (n+1) + (n+2) + (n+3) = 4n+6\\). The minimum occurs when all signs after the first are \\(-\\): \\(n - (n+1) - (n+2) - (n+3) = n - n - 1 - n - 2 - n - 3 = -2n - 6\\). Any other sign pattern replaces a \\(+\\) with a \\(-\\) for some term, which subtracts twice that term from the maximum, making it smaller. Similarly, changing a \\(-\\) to \\(+\\) in the minimum pattern adds twice that term, making it larger. A wrong answer saying the minimum is \\(-n - (n+1) - (n+2) - (n+3)\\) reveals the student forgets the first number has no sign before it (it's always positive as the starting term).",
+     "self_check": true
+    },
+    {
+     "q": "Create a new problem: Choose four consecutive numbers such that one of the 8 possible values equals exactly 100. Show your work and explain how you chose the numbers.",
+     "a": "Good answer: Let the numbers be \\(n, n+1, n+2, n+3\\). The maximum value is \\(4n+6\\). Set \\(4n+6 = 100 \\Rightarrow 4n = 94 \\Rightarrow n = 23.5\\) (not integer). Try another pattern: the pattern \\(+++-\\) gives \\(n+(n+1)+(n+2)-(n+3) = 2n\\). Set \\(2n = 100 \\Rightarrow n = 50\\). So 50, 51, 52, 53 works: \\(50+51+52-53 = 100\\). A poor answer guesses randomly without using the algebraic forms of the 8 patterns, revealing the student doesn't see the connection between sign patterns and linear expressions in \\(n\\).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

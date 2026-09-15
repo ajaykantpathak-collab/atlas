@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch06_063",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch06_063",
+   "title": "c6_math_ch06_063",
+   "questions": [
+    {
+     "q": "What does it mean for two ratios to be \"equivalent\"?",
+     "a": "Equivalent ratios represent the same comparison or relationship between two quantities. A wrong answer like \"the numbers are the same\" reveals the student confuses equality of numbers with equality of ratios.",
+     "self_check": true
+    },
+    {
+     "q": "If you have the ratio 3:5, is 6:10 an equivalent ratio? Explain why.",
+     "a": "Yes, because both terms of 3:5 are multiplied by 2 to get 6:10 ($3 \\times 2 = 6$ and $5 \\times 2 = 10$). A student who says \"no\" likely fails to see that ratios can be scaled up or down while maintaining the same relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Use the cross-product rule to check if 2:4 and 5:10 are in proportion.",
+     "a": "$2 \\times 10 = 20$ and $4 \\times 5 = 20$. Since $20 = 20$, they are in proportion. A wrong answer suggests the student is either multiplying the wrong terms or does not understand the equality requirement.",
+     "self_check": true
+    },
+    {
+     "q": "If $a:b = c:d$, why must $a \\times d$ equal $b \\times c$?",
+     "a": "Because $a/b = c/d$ is equivalent to $a \\times d = b \\times c$ when you clear the denominators. A student who struggles here lacks the algebraic understanding of how equations work.",
+     "self_check": true
+    },
+    {
+     "q": "Is 2:3 equivalent to 4:7? Defend your answer.",
+     "a": "No. Using the cross-product rule: $2 \\times 7 = 14$ and $3 \\times 4 = 12$. Since $14 \\neq 12$, they are not equivalent. A student claiming they are equivalent is likely just guessing without using a mathematical rule.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own proportion using the ratio 1:4 and show why it is correct.",
+     "a": "A correct answer would be 1:4 = 2:8, because $1 \\times 8 = 8$ and $4 \\times 2 = 8$. A poor answer would show random numbers that don't satisfy the cross-product rule.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

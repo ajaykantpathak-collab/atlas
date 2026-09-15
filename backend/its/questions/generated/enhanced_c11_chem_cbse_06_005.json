@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_06_005",
+   "title": "c11_chem_cbse_06_005",
+   "questions": [
+    {
+     "q": "State Hess's Law of Constant Heat Summation and write the mathematical expression for calculating standard reaction enthalpy (ΔH°_rxn) using standard enthalpies of formation (ΔH°_f).",
+     "a": "Hess's Law: The enthalpy change of a reaction is the same whether it occurs in one step or multiple steps, because enthalpy is a state function. ΔH°_rxn = ΣnΔH°_f(products) - ΣmΔH°_f(reactants), where n and m are stoichiometric coefficients. A wrong answer (e.g., \"ΔH depends on the reaction pathway\" or writing ΔH°_rxn = ΣΔH°_f(reactants) - ΣΔH°_f(products)) reveals confusion about the state function nature of enthalpy and sign conventions for formation vs. reaction enthalpy.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the standard enthalpy of formation of an element in its most stable state at 298 K and 1 bar is defined as zero, and why this convention is essential for Hess's Law calculations.",
+     "a": "By definition, ΔH°_f for an element in its reference form (e.g., O₂(g), C(graphite), H₂(g)) is zero because no formation reaction occurs - the element is already in its standard state. This convention provides a universal baseline: all compound enthalpies are measured relative to their constituent elements. Without this zero reference, ΔH°_rxn = ΣΔH°_f(products) - ΣΔH°_f(reactants) would be inconsistent across data tables. A student who says \"it's zero because elements have no energy\" misunderstands that absolute enthalpy is undefined; only changes matter. The convention ensures all thermochemical equations share a common origin.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following thermochemical equations:\n(1) C(graphite) + O₂(g) → CO₂(g)    ΔH° = -393.5 kJ/mol\n(2) 2CO(g) + O₂(g) → 2CO₂(g)       ΔH° = -566.0 kJ/mol\nCalculate ΔH° for the reaction: 2C(graphite) + O₂(g) → 2CO(g)",
+     "a": "**Steps:**\n1. Target: 2C(graphite) + O₂(g) → 2CO(g)\n2. Multiply eqn (1) by 2: 2C(graphite) + 2O₂(g) → 2CO₂(g)    ΔH° = 2 × (-393.5) = -787.0 kJ\n3. Reverse eqn (2): 2CO₂(g) → 2CO(g) + O₂(g)    ΔH° = +566.0 kJ\n4. Add the two manipulated equations: 2C(graphite) + 2O₂(g) + 2CO₂(g) → 2CO₂(g) + 2CO(g) + O₂(g)\n5. Cancel 2CO₂(g) on both sides and 1 O₂(g) from reactants: 2C(graphite) + O₂(g) → 2CO(g)\n6. ΔH°_target = -787.0 + 566.0 = -221.0 kJ\nA wrong answer (e.g., -1349.5 kJ or +221.0 kJ) reveals errors in equation manipulation: forgetting to multiply ΔH when multiplying the equation, forgetting to reverse the sign when reversing the equation, or incorrect cancellation of species.",
+     "self_check": true
+    },
+    {
+     "q": "The standard enthalpy of combustion of liquid benzene (C₆H₆) is -3267.7 kJ/mol. Given ΔH°_f(CO₂(g)) = -393.5 kJ/mol and ΔH°_f(H₂O(l)) = -285.8 kJ/mol, calculate ΔH°_f(C₆H₆(l)). The combustion reaction is: C₆H₆(l) + ¹⁵/₂O₂(g) → 6CO₂(g) + 3H₂O(l).",
+     "a": "**Steps:**\n1. Write ΔH°_comb = ΣnΔH°_f(products) - ΣmΔH°_f(reactants)\n2. ΔH°_comb = [6ΔH°_f(CO₂) + 3ΔH°_f(H₂O(l))] - [ΔH°_f(C₆H₆) + ¹⁵/₂ΔH°_f(O₂)]\n3. ΔH°_f(O₂) = 0 (element in standard state)\n4. -3267.7 = [6(-393.5) + 3(-285.8)] - [ΔH°_f(C₆H₆) + 0]\n5. -3267.7 = [-2361.0 - 857.4] - ΔH°_f(C₆H₆)\n6. -3267.7 = -3218.4 - ΔH°_f(C₆H₆)\n7. ΔH°_f(C₆H₆) = -3218.4 + 3267.7 = +49.3 kJ/mol\nA wrong answer (e.g., -49.3 kJ/mol or +6486.1 kJ/mol) reveals sign errors in rearranging the equation or arithmetic mistakes with negative numbers. The positive ΔH°_f indicates benzene is less stable than its constituent elements due to resonance stabilization energy not fully offsetting the endothermic formation.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since Hess's Law says enthalpy change is path-independent, the activation energy (Eₐ) for a reaction must also be path-independent.\" Evaluate this statement and explain the fundamental difference between ΔH and Eₐ in this context.",
+     "a": "The statement is **false**. Hess's Law applies only to **state functions** (ΔH, ΔU, ΔG, ΔS) which depend solely on initial and final states. Activation energy (Eₐ) is a **kinetic parameter** describing the energy barrier along a specific reaction pathway - it is **path-dependent**. A catalyst provides an alternative pathway with lower Eₐ but does not change ΔH. The student confuses thermodynamics (state functions, equilibrium) with kinetics (pathway, rates). A correct evaluation identifies that ΔH = H_products - H_reactants (state function difference), while Eₐ = energy of transition state - energy of reactants (pathway-specific maximum). This misconception reveals a fundamental confusion between thermodynamic and kinetic control of reactions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thermochemical cycle (Born-Haber type) to determine the lattice enthalpy of NaCl(s) using the following data: ΔH°_f(NaCl(s)) = -411.2 kJ/mol, ΔH°_sub(Na(s)) = +108.4 kJ/mol, IE₁(Na) = +496 kJ/mol, ½BDE(Cl₂) = +121 kJ/mol, EA(Cl) = -349 kJ/mol. Draw the cycle and calculate the lattice enthalpy.",
+     "a": "**Expected cycle (steps):**\n1. Na(s) → Na(g)                    ΔH₁ = +108.4 kJ (sublimation)\n2. Na(g) → Na⁺(g) + e⁻              ΔH₂ = +496 kJ (ionization)\n3. ½Cl₂(g) → Cl(g)                  ΔH₃ = +121 kJ (½ bond dissociation)\n4. Cl(g) + e⁻ → Cl⁻(g)              ΔH₄ = -349 kJ (electron affinity)\n5. Na⁺(g) + Cl⁻(g) → NaCl(s)        ΔH₅ = -LE (lattice enthalpy, exothermic)\n6. Net: Na(s) + ½Cl₂(g) → NaCl(s)   ΔH°_f = -411.2 kJ\n\n**Calculation:**\nΔH°_f = ΔH₁ + ΔH₂ + ΔH₃ + ΔH₄ + ΔH₅\n-411.2 = 108.4 + 496 + 121 - 349 - LE\n-411.2 = 376.4 - LE\nLE = 376.4 + 411.2 = **+787.6 kJ/mol** (lattice enthalpy magnitude)\n\nA poor answer (e.g., omitting sublimation, using wrong sign for EA, or calculating LE = -787.6 kJ/mol) reveals inability to construct a complete thermochemical cycle, confusion between endothermic/exothermic steps, or misunderstanding that lattice enthalpy is defined as the energy released when gaseous ions form the solid (negative ΔH) but often reported as a positive magnitude.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+  "catalog": "catalog_class12_geography_legy202",
+  "concepts": [
+    {
+      "id": "legy.202.1",
+      "questions": [
+        {"q": "How many main types of rural settlement are recognised (clustered, semi-clustered, hamleted, dispersed)? (number)", "a": "4"},
+        {"q": "Which rural settlement type has houses built close together? (one word)", "a": "clustered"},
+        {"q": "Which settlement type consists of separate small units of a few huts? (one word)", "a": "hamleted"},
+        {"q": "Which rural settlement type scatters farmsteads across the fields? (one word)", "a": "dispersed"},
+        {"q": "Which physical need most often decides whether houses cluster around a common point? (one word)", "a": "water"},
+        {"q": "Which settlement type is partly clustered and partly spread? (short phrase)", "a": "semi-clustered"},
+        {"q": "Defence needs push rural settlements towards clustered or dispersed forms? (one word)", "a": "clustered"}
+      ]
+    },
+    {
+      "id": "legy.202.2",
+      "questions": [
+        {"q": "India's urban population share reached about 31 per cent by which census year? (give the year)", "a": "2011"},
+        {"q": "If 31 per cent of Indians lived in towns in 2011, about what per cent lived in villages? (give the per cent)", "a": "69"},
+        {"q": "India's exact urban share in 2011 was 31.16 per cent. What is 100 minus 31.16, to two decimals? (number)", "a": "68.84"},
+        {"q": "Urban settlements are tied to which two categories of activity? (two words)", "a": "secondary, tertiary"},
+        {"q": "Is India one of the most or least urbanised large economies? (one word)", "a": "least"},
+        {"q": "A town grows from which activities: agriculture or manufacturing and services? (one word)", "a": "manufacturing"},
+        {"q": "Does the rural share of India's population exceed 50 per cent? (yes or no)", "a": "yes"}
+      ]
+    },
+    {
+      "id": "legy.202.3",
+      "questions": [
+        {"q": "Which function dominates a town built around a state capital? (one word)", "a": "administrative"},
+        {"q": "Which function dominates a garrison town? (one word)", "a": "defence"},
+        {"q": "Which function dominates Jamshedpur-type settlements? (one word)", "a": "industrial"},
+        {"q": "Which function dominates a town grown at a railway junction or port? (one word)", "a": "transport"},
+        {"q": "Which function dominates Varanasi-type towns? (one word)", "a": "cultural"},
+        {"q": "How many census categories of urban units are listed (statutory towns, census towns, urban agglomerations)? (number)", "a": "3"},
+        {"q": "A city and its contiguous outgrowths counted together form an urban what? (one word)", "a": "agglomeration"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_25_011",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_25_011",
+   "title": "c11_eng_w_cbse_25_011",
+   "questions": [
+    {
+     "q": "What is the grammatical term for a sentence that begins with a coordinating conjunction like \"And\" or \"But\", and why is it traditionally discouraged in formal writing?",
+     "a": "The term is \"initial conjunction\" or \"sentence-initial coordinator\". Traditional grammar discourages it because coordinators are meant to join elements within a sentence, not start a new one; it can create fragments if the following clause is dependent. A wrong answer (e.g., \"It's always wrong\") reveals the student treats prescriptive rules as absolute, missing rhetorical context.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"It is right that a false Latin quantity should excite a smile in the House of Commons; but it is wrong that a false English meaning should not excite a frown there,\" identify the two parallel structures and explain how the contrast between \"smile\" and \"frown\" supports Ruskin's argument.",
+     "a": "The parallel structures are the subordinate clauses \"that a false Latin quantity should excite a smile...\" and \"that a false English meaning should not excite a frown...\". The contrast highlights misplaced priorities: trivial classical errors get attention while serious semantic errors in one's own language are ignored. A wrong answer focusing only on \"Latin vs English\" misses the syntactic balance that makes the critique authoritative.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following three sentences from the text into a single complex sentence using a subordinate clause and a participial phrase: \"You must, in a word, love these people if you are to be among them. No ambition is of any use. They scorn your ambition.\" Then state one rhetorical effect lost in your version.",
+     "a": "\"Since they scorn ambition, you must love these people to be among them, ambition being of no use.\" The original's three short, declarative sentences create a staccato, commanding rhythm suited to oral delivery; the combined version turns the imperative force into a logical explanation, weakening the direct address.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the extended mining metaphor (gold, fissures, pickaxes, smelting furnace) in paragraphs 10–12 interacts with the shift from descriptive third-person narration to second-person imperatives (\"Do not hope...\", \"you must get into the habit...\"). What does this syntactic shift achieve?",
+     "a": "The metaphor frames reading as physical labor; the shift to imperative mood directly conscripts the reader as a miner. Syntactically, the move from \"Nature does not manage it so\" (declarative) to \"Do not hope...\" (imperative) transforms the essay from observation to exhortation, mirroring the lecture's call to action. A wrong answer that only lists the metaphor without linking syntax to audience positioning misses the rhetorical design.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Ruskin's use of archaic diction (fain, canaille, noblesse, peerage) is merely decorative Victorian flourish.\" Support your judgment with two specific examples from the text.",
+     "a": "The claim is false. \"Fain\" (willingly/eagerly) in \"He would fain set it down forever\" conveys voluntary, almost spiritual compulsion that \"willingly\" cannot capture. \"Canaille\" (rabble) and \"peerage/noblesse\" (nobility) extend the central metaphor of words having social rank; replacing them with \"common words\" and \"noble words\" collapses the aristocratic conceit that structures the essay's argument about intellectual meritocracy.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 50-word paragraph arguing for the value of \"slow reading\" using at least three syntactic features imitated from Ruskin: an initial conjunction, a balanced antithesis with semicolon, and an imperative address to the reader.",
+     "a": "And so we rush through pages, mistaking speed for wisdom; but true reading demands pause, not haste. You must sharpen your attention like a miner's pick; you must weigh each syllable. Only then does the ore of meaning yield its gold. A poor answer uses the features mechanically without integrating them into a coherent argument about reading.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

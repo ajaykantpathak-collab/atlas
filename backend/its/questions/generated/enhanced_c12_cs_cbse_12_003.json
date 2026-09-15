@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_12_003",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_12_003",
+   "title": "c12_cs_cbse_12_003",
+   "questions": [
+    {
+     "q": "A student receives an email claiming to be from \"CBSE Board\" with sender address \"cbse.results@gov.in.biz\" and subject \"URGENT: Your Class 12 Marksheet Error - Click to Correct\". The email body contains a link \"http://cbse.nic.in.corrections.portal.xyz/login\". List three specific technical indicators that prove this is a phishing attempt.",
+     "a": "Correct indicators: (1) Sender domain \"gov.in.biz\" is a subdomain of \"biz\" — not the official \"gov.in\"; (2) Link domain \"portal.xyz\" does not match legitimate \"cbse.gov.in\" or \"cbse.nic.in\"; (3) Use of urgency (\"URGENT\", \"Error\") to bypass critical thinking. A wrong answer like \"the email has spelling mistakes\" reveals the student relies on superficial cues rather than structural domain analysis — they would miss sophisticated phishing with perfect grammar but malicious domains.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words how a phishing attack can lead to identity theft, using the sequence: fake UPI payment request → user enters MPIN → attacker gains account access → SIM swap → loan taken in victim's name. Identify the exact step where \"identity theft\" legally begins.",
+     "a": "Identity theft legally begins at the SIM swap step — when the attacker uses stolen credentials (MPIN, OTPs) to impersonate the victim to the telecom provider and take control of the phone number. This enables interception of all future OTPs, making the victim's digital identity fully compromised. A wrong answer identifying \"user enters MPIN\" as the start of identity theft confuses credential theft (phishing outcome) with identity assumption (misuse of those credentials) — a critical distinction for legal reporting under IT Act Section 66C.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 12 student receives this WhatsApp message from an unknown number: \"Hi, I'm from your school's alumni association. We need your Aadhaar and PAN for a scholarship database. Reply with photos of both cards.\" Apply the \"SLAM\" verification method (Sender, Link, Attachment, Message) to decide if this is phishing. Show your evaluation for each component.",
+     "a": "SLAM evaluation: Sender — unknown number, not official school landline/email (fail); Link — none, but request for direct data reply (equivalent to malicious link); Attachment — request to send sensitive document photos (high risk); Message — unsolicited request for Aadhaar/PAN violates data minimization principle (fail). Verdict: Phishing. A student who only checks \"no suspicious link\" misses that phishing evolves — modern attacks harvest data via direct replies, not just links. This reveals over-reliance on link-checking as the sole phishing indicator.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast these two scenarios: (A) A classmate posts one rude comment on your photo: \"You look stupid.\" (B) For three weeks, multiple anonymous accounts post daily insults on all your posts, create memes mocking your disability, and threaten to share morphed images. Analyze which constitutes cyberbullying using the three criteria: repetition, power imbalance, intent to harm. Justify why the other is not cyberbullying.",
+     "a": "Scenario B is cyberbullying: repetition (daily for weeks), power imbalance (anonymous mob vs single target, disability targeting), intent to harm (threats, morphed images). Scenario A is not cyberbullying — single incident, no established pattern, no power imbalance (peer-to-peer), ambiguous intent (could be thoughtless remark). A student labeling both as cyberbullying dilutes the term and misallocates school resources; a student labeling neither misses the severe harm in B. The distinction hinges on *pattern* and *power dynamics*, not just hurt feelings.",
+     "self_check": true
+    },
+    {
+     "q": "Your friend argues: \"Cyberbullying isn't real bullying because you can just block the person or log off.\" Evaluate this claim using psychological and technical realities of digital platforms. Provide two reasons why \"just block/log off\" fails as a solution, referencing platform design features.",
+     "a": "The claim is invalid. Reason 1: Platform algorithms amplify harmful content — blocking one account doesn't stop coordinated attacks from multiple throwaway accounts (sock puppets) or prevent screenshot sharing in groups the victim can't access. Reason 2: Digital footprint permanence — morphed images/threats persist on servers and can resurface years later (e.g., during college admissions), unlike physical bullying that ends when you leave the playground. A student accepting this claim underestimates the *architectural* nature of cyberbullying — it's designed into platform mechanics (virality, anonymity, permanence), not just user behavior.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic phishing scenario targeting Class 12 students during board exam season. Your scenario must include: (1) a plausible sender identity, (2) a context-specific urgency trigger, (3) a technical deception technique (domain spoofing, link masking, or QR code), and (4) a requested action that leads to credential theft. Write the full message text and annotate each deceptive element.",
+     "a": "Example scenario:  \n**Sender**: \"CBSE Grievance Cell <grievance@cbse.gov.in.helpdesk.xyz>\"  \n**Subject**: \"URGENT: Discrepancy in Your Class 12 Roll Number - Action Required Today\"  \n**Body**: \"Dear Student, Our system detects a mismatch in your roll number for the upcoming Computer Science paper. To prevent admit card cancellation, verify your details immediately: [Verify Now](http://cbse.gov.in.verification.portal.xyz/student/login). Use your DigiLocker credentials. Deadline: 5 PM today. - CBSE Grievance Team\"  \n**Annotations**: (1) Sender: Subdomain spoofing — \"gov.in.helpdesk.xyz\" mimics hierarchy but \"xyz\" is attacker-controlled. (2) Urgency: \"Deadline 5 PM\", \"admit card cancellation\" — exploits exam anxiety. (3) Technical deception: Link text \"Verify Now\" masks malicious domain \"portal.xyz\"; DigiLocker credential request escalates value of stolen data. (4) Action: Clicking leads to fake DigiLocker login harvesting Aadhaar-linked credentials. A good answer demonstrates understanding of *context-aware* social engineering — not generic \"bank update\" templates.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

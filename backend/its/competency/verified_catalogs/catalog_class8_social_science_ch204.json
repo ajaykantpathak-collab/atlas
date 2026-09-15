@@ -1,0 +1,383 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 204,
+ "chapter_title": "Tribals, Dikus and the Vision of a Golden Age",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hess204.txt",
+ "concepts": [
+  {
+   "id": "hess.204.1",
+   "title": "Shifting Cultivation (Jhum)",
+   "section": "Some were jhum cultivators",
+   "definition": "A traditional farming method where small forest plots are cleared by cutting treetops and burning vegetation to enrich the soil with potash-rich ash before scattering seeds.",
+   "formula": "",
+   "key_idea": "Cultivating a plot temporarily and leaving it fallow for years to restore soil fertility naturally.",
+   "textbook_ref": "hess204.txt lines 35-60",
+   "question_patterns": [
+    "What is shifting cultivation or jhum cultivation?",
+    "How did jhum cultivators prepare their land for farming?",
+    "Why was ash spread on the fields in shifting cultivation?",
+    "Where was shifting cultivation primarily practiced in India?",
+    "Explain the process of jhum cultivation in forest tracts."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain land preparation",
+     "explain": "Cultivators cut treetops for sunlight and burnt vegetation to clear the ground."
+    },
+    {
+     "step": 2,
+     "action": "Explain soil fertilization",
+     "explain": "They spread potash-containing ash from the fire to fertilize the soil."
+    },
+    {
+     "step": 3,
+     "action": "Explain sowing and migration",
+     "explain": "They scattered seeds instead of ploughing, and moved to a new field once the crop was harvested, leaving the old field fallow."
+    }
+   ]
+  },
+  {
+   "id": "hess.204.2",
+   "title": "Hunters and Gatherers",
+   "section": "Some were hunters and gatherers",
+   "definition": "Tribal communities that sustained themselves by collectively hunting wild animals and gathering forest produce like fruits, roots, and medicinal herbs.",
+   "formula": "",
+   "key_idea": "Complete reliance on forest resources for food, medicine, and local trade.",
+   "textbook_ref": "hess204.txt lines 61-105",
+   "question_patterns": [
+    "How did the Khonds of Orissa sustain themselves?",
+    "What forest products did hunter-gatherers use for food and medicine?",
+    "Why were local weavers and leather workers dependent on the Khonds?",
+    "Describe the lifestyle of hunter-gatherer tribal groups.",
+    "How did forest communities obtain grains and other essential goods?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify food sources",
+     "explain": "They ate forest fruits, roots, and meat from collective hunts, cooking with oil from sal and mahua seeds."
+    },
+    {
+     "step": 2,
+     "action": "Identify trade and exchange",
+     "explain": "They sold forest produce in local markets and exchanged valuable forest items for grains."
+    },
+    {
+     "step": 3,
+     "action": "Identify supply of raw materials",
+     "explain": "They supplied kusum and palash flowers to local weavers and leather workers for coloring clothes."
+    }
+   ]
+  },
+  {
+   "id": "hess.204.3",
+   "title": "Pastoralist Herders",
+   "section": "Some herded animals",
+   "definition": "Nomadic tribal groups who reared livestock and migrated seasonally across different geographical regions in search of fresh pastures.",
+   "formula": "",
+   "key_idea": "Seasonal migration with herds of cattle, sheep, or goats based on grass availability.",
+   "textbook_ref": "hess204.txt lines 115-130",
+   "question_patterns": [
+    "Who were the pastoralist tribal groups mentioned in the text?",
+    "How did herders adjust their movements according to the seasons?",
+    "Name the cattle herders of the Punjab hills and Andhra Pradesh.",
+    "Which tribal group in Kashmir was known for rearing goats?",
+    "Describe the seasonal movement of the Gaddis of Kulu."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define pastoralism",
+     "explain": "Pastoralists moved with their herds of cattle or sheep according to seasonal changes."
+    },
+    {
+     "step": 2,
+     "action": "Identify key groups",
+     "explain": "Van Gujjars (Punjab hills) and Labadis (Andhra Pradesh) herded cattle; Gaddis (Kulu) were shepherds; Bakarwals (Kashmir) reared goats."
+    }
+   ]
+  },
+  {
+   "id": "hess.204.4",
+   "title": "Settled Cultivation",
+   "section": "Some took to settled cultivation",
+   "definition": "A system where tribal communities abandoned nomadic farming to cultivate fixed plots of land continuously, often using ploughs and establishing clan-based land rights.",
+   "formula": "",
+   "key_idea": "Transition from shifting to permanent agriculture with defined land rights.",
+   "textbook_ref": "hess204.txt lines 150-175",
+   "question_patterns": [
+    "How did settled cultivation differ from shifting cultivation?",
+    "What were the land rights of the Mundas of Chottanagpur?",
+    "Why did British officials prefer settled tribal groups over shifting cultivators?",
+    "How did power dynamics change within clans practicing settled agriculture?",
+    "Which tribal groups were viewed as more civilized by the British?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain land ownership",
+     "explain": "Land belonged to the clan as a whole, with all members regarded as descendants of the original settlers."
+    },
+    {
+     "step": 2,
+     "action": "Explain tools and methods",
+     "explain": "They used ploughs and cultivated the same fields year after year instead of moving."
+    },
+    {
+     "step": 3,
+     "action": "Contrast British views",
+     "explain": "British officials saw settled groups like Gonds and Santhals as more civilized than wild forest-dwelling hunter-gatherers."
+    }
+   ]
+  },
+  {
+   "id": "hess.204.5",
+   "title": "Impact of Colonial Rule on Tribal Chiefs",
+   "section": "What happened to tribal chiefs?",
+   "definition": "The administrative and economic transformation under British rule where traditional leaders lost their sovereign authority, police powers, and administrative control, becoming mere rent collectors and tribute payers.",
+   "formula": "",
+   "key_idea": "Loss of traditional administrative authority and subordination to British laws.",
+   "textbook_ref": "hess204.txt lines 180-205",
+   "question_patterns": [
+    "How did the powers of tribal chiefs change under British rule?",
+    "What administrative functions did tribal chiefs lose during colonial administration?",
+    "Were tribal chiefs allowed to keep their land titles under the British?",
+    "Why were tribal chiefs unable to fulfill their traditional roles under colonial rule?",
+    "Explain the impact of British policies on traditional tribal leadership."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze economic changes",
+     "explain": "Chiefs kept land titles over clusters of villages and could rent out land."
+    },
+    {
+     "step": 2,
+     "action": "Analyze political and administrative changes",
+     "explain": "They lost administrative power, were forced to follow British laws, and had to pay tribute to the colonial state."
+    }
+   ]
+  },
+  {
+   "id": "hess.204.6",
+   "title": "Forest Laws and Reserved Forests",
+   "section": "Forest laws and their impact",
+   "definition": "Colonial regulations that declared forests as state property and restricted tribal access to resources, classifying key timber-producing areas to secure raw materials for railway sleepers.",
+   "formula": "",
+   "key_idea": "State control of forests leading to loss of tribal livelihoods and creation of forest villages for cheap labor.",
+   "textbook_ref": "hess204.txt lines 210-235",
+   "question_patterns": [
+    "What were Reserved Forests and why did the British establish them?",
+    "How did changes in forest laws affect the lives of shifting cultivators?",
+    "Why did the British establish forest villages in tribal areas?",
+    "What was the purpose of railway sleepers and how did it impact forests?",
+    "How did tribal groups react to colonial forest laws?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define Reserved Forests",
+     "explain": "Forests controlled by the state to produce timber for British needs, where free movement and jhum cultivation were banned."
+    },
+    {
+     "step": 2,
+     "action": "Explain the labor dilemma",
+     "explain": "Banning tribals left the Forest Department without labor to cut trees for railway sleepers."
+    },
+    {
+     "step": 3,
+     "action": "Explain the solution",
+     "explain": "The British set up forest villages, giving small land patches to jhum cultivators in exchange for cheap labor."
+    }
+   ]
+  },
+  {
+   "id": "hess.204.7",
+   "title": "Middleman Price Markup in Silk Trade",
+   "section": "The problem with trade",
+   "definition": "The calculation of the export price of silk cocoons based on the purchase price paid to tribal growers and the multiplier markup charged by middlemen.",
+   "formula": "export_price = purchase_price * markup_factor",
+   "key_idea": "Middlemen sold cocoons at a multiple of the price they paid to Santhal weavers.",
+   "textbook_ref": "hess204.txt lines 240-260",
+   "question_patterns": [
+    "If Santhal growers are paid {purchase_price} rupees for cocoons and the middlemen sell them at a markup of {markup_factor} times, what is the export price?",
+    "Calculate the export price of cocoons when the buying price is {purchase_price} and the resale multiplier is {markup_factor}.",
+    "Find the final selling price of silk cocoons bought at {purchase_price} rupees with a markup factor of {markup_factor}.",
+    "How much did the middlemen sell the cocoons for in Gaya if they bought them for {purchase_price} rupees and marked them up by {markup_factor} times?",
+    "What is the export value of a batch of cocoons purchased at {purchase_price} rupees and sold at a {markup_factor} fold price?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the purchase price paid to the tribal growers",
+     "explain": "The buying price is represented by purchase_price.",
+     "compute": "purchase_price"
+    },
+    {
+     "step": 2,
+     "action": "Multiply the purchase price by the markup factor to find the export price",
+     "explain": "The export price is the product of the purchase price and the markup factor.",
+     "compute": "export_price = purchase_price * markup_factor"
+    }
+   ]
+  },
+  {
+   "id": "hess.204.8",
+   "title": "Tribal Rebellions",
+   "section": "A Closer Look",
+   "definition": "Armed uprisings and resistance movements organized by various tribal communities across India against colonial forest laws, high taxes, and exploitation by traders.",
+   "formula": "",
+   "key_idea": "Active resistance to British policies and economic exploitation through organized revolts.",
+   "textbook_ref": "hess204.txt lines 270-285",
+   "question_patterns": [
+    "When did the Kols rebel against colonial policies?",
+    "What was the significance of the Santhal revolt of 1855?",
+    "Where and when did the Bastar Rebellion take place?",
+    "Name some of the major tribal uprisings during the nineteenth and twentieth centuries.",
+    "Why did tribal groups rise in open rebellion against the British and dikus?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify key rebellions and timelines",
+     "explain": "Kols rebelled in 1831-32; Santhals rose in 1855; Bastar Rebellion occurred in 1910; Warli Revolt happened in 1940."
+    },
+    {
+     "step": 2,
+     "action": "Explain the causes of rebellion",
+     "explain": "Tribals rebelled against changes in laws, restrictions on traditional practices, new taxes, and exploitation by traders and moneylenders."
+    }
+   ]
+  },
+  {
+   "id": "hess.204.9",
+   "title": "Birsa Munda and the Golden Age",
+   "section": "Birsa Munda",
+   "definition": "A socio-religious and political movement led by Birsa Munda aiming to reform tribal society, resist colonial land policies, and restore a legendary era of self-rule and purity.",
+   "formula": "",
+   "key_idea": "Restoration of ancestral rights and establishment of a Munda Raj free from dikus.",
+   "textbook_ref": "hess204.txt lines 286-345",
+   "question_patterns": [
+    "What was Birsa Munda's vision of a golden age or satyug?",
+    "How did Birsa Munda urge his followers to reform their society?",
+    "Why did the political aims of the Birsa movement worry British officials?",
+    "What was the significance of the Birsa Munda movement?",
+    "How did Birsa Munda use traditional symbols to gather support?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the vision of Satyug",
+     "explain": "Birsa envisioned a golden age where Mundas lived honestly, built embankments, planted orchards, and did not kill their relatives."
+    },
+    {
+     "step": 2,
+     "action": "Explain social reform calls",
+     "explain": "He urged followers to clean their villages, stop drinking liquor, and reject belief in witchcraft and sorcery."
+    },
+    {
+     "step": 3,
+     "action": "Explain political goals and impact",
+     "explain": "The movement aimed to set up a Munda Raj by driving out missionaries, landlords, and the British government, forcing the introduction of protective land laws."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hess204.txt",
+   "concept": "hess.204.7",
+   "question_type": "compute",
+   "question_pattern": "If Santhal growers are paid {purchase_price} rupees for cocoons and the middlemen sell them at a markup of {markup_factor} times, what is the export price?",
+   "extracted_variables": {
+    "purchase_price": 4,
+    "markup_factor": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the purchase price paid to the tribal growers",
+     "explain": "The buying price is represented by purchase_price.",
+     "compute": "purchase_price"
+    },
+    {
+     "step": 2,
+     "action": "Multiply the purchase price by the markup factor to find the export price",
+     "explain": "The export price is the product of the purchase price and the markup factor.",
+     "compute": "export_price = purchase_price * markup_factor"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hess204.txt",
+   "concept": "hess.204.7",
+   "question_type": "compute",
+   "question_pattern": "Calculate the export price of cocoons when the buying price is {purchase_price} and the resale multiplier is {markup_factor}.",
+   "extracted_variables": {
+    "purchase_price": 3,
+    "markup_factor": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the purchase price paid to the tribal growers",
+     "explain": "The buying price is represented by purchase_price.",
+     "compute": "purchase_price"
+    },
+    {
+     "step": 2,
+     "action": "Multiply the purchase price by the markup factor to find the export price",
+     "explain": "The export price is the product of the purchase price and the markup factor.",
+     "compute": "export_price = purchase_price * markup_factor"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "hess204.txt lines 346-355",
+   "questions": [
+    "Fill in the blanks: (a) The British described the tribal people as ____________.",
+    "Fill in the blanks: (b) The method of sowing seeds in jhum cultivation is known as ____________.",
+    "Fill in the blanks: (c) The tribal chiefs got _________ titles in central India under the British land settlements.",
+    "Fill in the blanks: (d) Tribals went to work in the __________ of Assam and the ____________ in Bihar."
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hess204.txt lines 356-365",
+   "questions": [
+    "State whether true or false: (a) Jhum cultivators plough the land and sow seeds.",
+    "State whether true or false: (b) Cocoons were bought from the Santhals and sold by the traders at five times the purchase price.",
+    "State whether true or false: (c) Birsa urged his followers to purify themselves, give up drinking liquor and stop believing in witchcraft and sorcery.",
+    "State whether true or false: (d) The British wanted to preserve the tribal way of life."
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hess204.txt lines 366-375",
+   "questions": [
+    "What problems did shifting cultivators face under British rule?",
+    "How did the powers of tribal chiefs change under colonial rule?",
+    "What accounts for the anger of the tribals against the dikus?",
+    "What was Birsa's vision of a golden age? Why do you think such a vision appealed to the people of the region?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

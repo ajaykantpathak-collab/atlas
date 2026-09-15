@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch11_3",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch11_3",
+   "title": "c8_math_ch11_3",
+   "questions": [
+    {
+     "q": "What is the number of remaining triangles in the Sierpinski Gasket at Step 2, and what fraction of the original area do they cover?",
+     "a": "At Step 2, there are 9 remaining triangles covering (3/4)^2 = 9/16 of the original area. A wrong answer of 6 triangles reveals the student thinks the pattern is additive (adding 3 each time) rather than multiplicative (multiplying by 3). A wrong area fraction like 1/2 or 3/8 reveals the student does not understand that each step retains 3 out of 4 equal-area pieces.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the number of triangles triple at each step, while the total area is multiplied by 3/4? Explain using the construction process.",
+     "a": "Each step divides every existing triangle into 4 congruent smaller triangles (each 1/4 the area of the parent) and removes the middle one, leaving 3. Hence the number of triangles multiplies by 3, and the total area multiplies by 3 × (1/4) = 3/4. A wrong answer that says \"area halves\" or \"triangles double\" shows the student is not visualising the division into 4 equal parts and removal of 1.",
+     "self_check": true
+    },
+    {
+     "q": "If the original equilateral triangle has an area of 64 cm², what is the total remaining area after Step 3? Show your calculation.",
+     "a": "Step 0 area = 64 cm². Step 1: 64 × (3/4) = 48 cm². Step 2: 48 × (3/4) = 36 cm². Step 3: 36 × (3/4) = 27 cm². Alternatively, 64 × (3/4)^3 = 64 × 27/64 = 27 cm². A wrong answer of 24 cm² (subtracting 1/4 each time: 64-16=48, 48-12=36, 36-9=27? Wait, 36-9=27 is correct. A common error is 64 × (1/4)^3 = 1 cm², confusing the area of one small triangle with the total remaining area.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the pattern of triangle counts in the Sierpinski Gasket (3, 9, 27, ...) with the pattern of squares in the Sierpinski Carpet (8, 64, 512, ...). What is the fundamental difference in the construction that causes the different multipliers (3 vs 8)?",
+     "a": "The Sierpinski Gasket divides a triangle into 4 self-similar pieces and keeps 3 (multiplier 3). The Sierpinski Carpet divides a square into 9 self-similar squares and keeps 8 (multiplier 8). The difference arises from the number of congruent pieces the shape is divided into (4 for triangle, 9 for square) and how many are removed (1 in both cases). A wrong answer focusing only on the numbers without linking to the geometric division shows lack of structural understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that at Step 4, the Sierpinski Gasket will have 12 triangles because \"you add 3 triangles each step.\" Evaluate this claim and explain the error.",
+     "a": "The claim is incorrect. The pattern is multiplicative (×3), not additive (+3). Step 0: 1, Step 1: 3, Step 2: 9, Step 3: 27, Step 4: 81. The student incorrectly assumed a linear pattern. The error stems from not recognising that each of the 27 triangles at Step 3 produces 3 new ones, giving 81, not 27+3=30.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new fractal pattern starting with a square where you divide it into 16 smaller congruent squares and remove 4 of them in a symmetric pattern. Write the formula for the number of remaining squares at step n and the fraction of remaining area.",
+     "a": "Number of squares at step n = 12^n (since 16-4=12 kept each time). Area fraction = (12/16)^n = (3/4)^n. A poor answer that gives 12n or 16^n - 4^n shows the student cannot generalise the multiplicative structure from the Sierpinski examples to a new variation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

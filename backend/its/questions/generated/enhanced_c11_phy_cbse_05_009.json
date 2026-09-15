@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_05_009",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_05_009",
+   "title": "c11_phy_cbse_05_009",
+   "questions": [
+    {
+     "q": "State the defining property of a conservative force in terms of work done over a closed path. What is the SI unit of work?",
+     "a": "A conservative force does zero net work over any closed path (\\( W_{\\text{closed}} = 0 \\)). The SI unit of work is the joule (J). A wrong answer (e.g., \"work depends on path\" or \"unit is newton\") reveals the student confuses conservative with non-conservative forces or confuses force and work units.",
+     "self_check": true
+    },
+    {
+     "q": "A block is moved from point A to point B along two different paths: Path 1 is a straight line, Path 2 is a longer curved path. The gravitational force does work \\( W_1 \\) and \\( W_2 \\) respectively. The kinetic friction force does work \\( W'_1 \\) and \\( W'_2 \\). Compare \\( W_1 \\) and \\( W_2 \\), and compare \\( W'_1 \\) and \\( W'_2 \\). Explain why.",
+     "a": "For gravity (conservative), \\( W_1 = W_2 \\) because work depends only on vertical height difference. For kinetic friction (non-conservative), \\( |W'_2| > |W'_1| \\) (both negative) because friction opposes motion and its work magnitude is \\( \\mu_k mg \\times \\text{path length} \\). A wrong answer (e.g., saying \\( W_1 \\neq W_2 \\)) shows the student does not grasp path-independence of conservative forces.",
+     "self_check": true
+    },
+    {
+     "q": "A 2 kg block slides down a rough inclined plane of length 5 m and height 3 m. The coefficient of kinetic friction is 0.2. Calculate the work done by gravity and the work done by friction. Use \\( g = 10 \\, \\text{m/s}^2 \\).",
+     "a": "**Given:** \\( m = 2 \\, \\text{kg} \\), \\( L = 5 \\, \\text{m} \\), \\( h = 3 \\, \\text{m} \\), \\( \\mu_k = 0.2 \\), \\( g = 10 \\, \\text{m/s}^2 \\).  \n**Step 1:** Work by gravity = \\( mgh = 2 \\times 10 \\times 3 = 60 \\, \\text{J} \\) (positive, independent of path length).  \n**Step 2:** Normal force \\( N = mg \\cos\\theta \\). \\( \\cos\\theta = \\sqrt{L^2 - h^2}/L = 4/5 = 0.8 \\). So \\( N = 2 \\times 10 \\times 0.8 = 16 \\, \\text{N} \\).  \n**Step 3:** Friction force \\( f_k = \\mu_k N = 0.2 \\times 16 = 3.2 \\, \\text{N} \\).  \n**Step 4:** Work by friction = \\( -f_k \\times L = -3.2 \\times 5 = -16 \\, \\text{J} \\) (negative, depends on path length).  \n**Answer:** \\( W_g = 60 \\, \\text{J} \\), \\( W_f = -16 \\, \\text{J} \\). A wrong answer (e.g., using \\( h \\) for friction work) shows confusion between conservative and non-conservative work calculation.",
+     "self_check": true
+    },
+    {
+     "q": "A particle moves in a closed loop under the action of a force \\( \\vec{F} = (3x^2y)\\hat{i} + (x^3)\\hat{j} \\) N. Determine if this force is conservative by computing the work done over the rectangular path with vertices (0,0), (2,0), (2,1), (0,1) and back to (0,0). (Hint: Compute \\( \\oint \\vec{F} \\cdot d\\vec{r} \\) or check if \\( \\partial F_y/\\partial x = \\partial F_x/\\partial y \\).)",
+     "a": "Check the 2D condition: \\( \\partial F_x/\\partial y = 3x^2 \\), \\( \\partial F_y/\\partial x = 3x^2 \\). They are equal, so the force is conservative. Alternatively, compute line integral: along each segment, the total work sums to zero. A wrong answer (e.g., non-zero work) indicates the student cannot apply the curl condition or evaluate line integrals correctly.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since the normal force does no work (it's perpendicular to displacement), it must be a conservative force.\" Evaluate this statement. Is the normal force conservative? Why or why not?",
+     "a": "The statement is false. A force that does zero work for a particular displacement (because it's perpendicular) is not necessarily conservative. Conservativity requires zero work for *every* closed path. The normal force can do work if the surface moves (e.g., a block on an accelerating wedge). Moreover, the normal force is a constraint force that adjusts to prevent penetration; it cannot be expressed as the gradient of a scalar potential. A wrong evaluation shows the student confuses \"zero work in a specific situation\" with the general definition of a conservative force.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a spring, a block, and a rough horizontal surface to demonstrate that the spring force is conservative while kinetic friction is non-conservative. Describe the measurements you would take and the expected outcome.",
+     "a": "**Experiment:** Compress the spring by distance \\( x \\) and release the block. Measure the maximum distance \\( d \\) the block travels before stopping. Repeat with different compression distances. For a conservative spring force, the initial spring potential energy \\( \\frac{1}{2}kx^2 \\) equals the work done by friction \\( -\\mu_k mg d \\). Plot \\( x^2 \\) vs \\( d \\); a straight line through the origin confirms spring energy is fully converted to friction work, showing spring force is conservative (energy stored and recovered) and friction is non-conservative (energy dissipated). A poor design (e.g., not varying \\( x \\), ignoring friction's path-dependence) reveals the student cannot link the concepts to a testable prediction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

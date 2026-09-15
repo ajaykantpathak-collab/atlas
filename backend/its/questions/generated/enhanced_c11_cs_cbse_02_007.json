@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_02_007",
+   "title": "c11_cs_cbse_02_007",
+   "questions": [
+    {
+     "q": "State the two distributive laws of Boolean Algebra and the two identity laws using proper notation. How many variables are needed in a truth table to verify the distributive law A + (B · C) = (A + B) · (A + C)?",
+     "a": "The distributive laws are: (1) A + (B · C) = (A + B) · (A + C) [OR over AND], (2) A · (B + C) = (A · B) + (A · C) [AND over OR]. The identity laws are: (3) A + 0 = A, (4) A · 1 = A. A truth table for the distributive law requires 3 variables (A, B, C), hence 2³ = 8 rows. A wrong answer (e.g., stating only one distributive law, or saying 2 variables suffice) reveals the student does not recognise that Boolean algebra has dual distributivity unlike ordinary algebra, or does not understand that three distinct variables require 8 combinations for complete verification.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the distributive law A + (B · C) = (A + B) · (A + C) is valid in Boolean algebra but the analogous expression a + (b × c) = (a + b) × (a + c) is FALSE in ordinary arithmetic. Use a concrete numeric counterexample for arithmetic and explain the Boolean reasoning.",
+     "a": "In arithmetic, let a=2, b=3, c=4: LHS = 2 + (3×4) = 2+12 = 14; RHS = (2+3)×(2+4) = 5×6 = 30. Since 14 ≠ 30, the law fails. In Boolean algebra, variables only take values 0 or 1. The law holds because when A=1, both sides equal 1 (since 1+X=1 and 1·X=X). When A=0, LHS = 0+(B·C) = B·C, and RHS = (0+B)·(0+C) = B·C. A wrong answer (e.g., claiming it works in arithmetic too, or not using the 0/1 case analysis) reveals the student memorised the law without understanding the fundamental difference: Boolean variables are restricted to {0,1} where idempotence (1+1=1, 0·0=0) makes the dual distribution possible.",
+     "self_check": true
+    },
+    {
+     "q": "Simplify the Boolean expression (X + Y) · (X + Z) · (X + 0) using distributive and identity laws. Show each step with the law name used.",
+     "a": "Step 1: (X + Y) · (X + Z) · (X + 0) — Given\nStep 2: (X + Y) · (X + Z) · X — Identity Law: A + 0 = A (here A=X)\nStep 3: X · (X + Y) · (X + Z) — Commutative Law (reordering)\nStep 4: (X · X + X · Y) · (X + Z) — Distributive Law: A·(B+C) = A·B + A·C on first two factors\nStep 5: (X + X·Y) · (X + Z) — Idempotent Law: X·X = X\nStep 6: X · (X + Z) — Absorption Law: X + X·Y = X (or factor X: X(1+Y)=X·1=X)\nStep 7: X — Absorption Law: X·(X+Z) = X\nFinal answer: X. A wrong answer (e.g., stopping at step 2, or misapplying distributive law as (X+Y)(X+Z)=X+YZ) reveals confusion between the two distributive forms or not recognising that identity law eliminates the (X+0) term immediately.",
+     "self_check": true
+    },
+    {
+     "q": "Given the Boolean expression F = A·B + A·C + B·C, use the distributive law to factor it into a product-of-sums form. Then verify your result by expanding it back using the other distributive law. Show all steps.",
+     "a": "Factoring: F = A·B + A·C + B·C = A·(B+C) + B·C [Distributive: A·B+A·C=A(B+C)].\nTo get product-of-sums, we use the dual distributive law in reverse. Notice (A+B)(A+C) = A + BC. We want to introduce (A+B)(A+C) structure.\nConsider (A+B)(A+C)(B+C): Expand first two: (A+BC)(B+C) = A(B+C) + BC(B+C) = AB+AC + BBC+BCC = AB+AC+BC+BC = AB+AC+BC. \nSo F = (A+B)(A+C)(B+C). \nVerification by expanding back: \n(A+B)(A+C) = A + BC [Distributive: A+(B·C)=(A+B)(A+C)]\nThen (A+BC)(B+C) = A(B+C) + BC(B+C) = AB+AC + B·B·C + B·C·C = AB+AC+BC+BC = AB+AC+BC. \nA wrong answer (e.g., giving (A+B)(A+C) only, missing (B+C) factor) reveals the student does not understand that factoring a 3-term sum-of-products into product-of-sums requires all pairwise sums, or confuses the direction of distributive application.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since A + 0 = A and A · 1 = A, then A + 1 = A and A · 0 = A must also be true by symmetry.\" Evaluate this claim. Is the student correct? Justify your answer using truth tables or the definitions of the operations.",
+     "a": "The student is INCORRECT. The identity laws only state A+0=A and A·1=A. The operations A+1 and A·0 are governed by ANNULMENT laws (not identity laws): A+1=1 and A·0=0. Truth table proof: For A+1: if A=0, 0+1=1; if A=1, 1+1=1. Result is always 1, not A. For A·0: if A=0, 0·0=0; if A=1, 1·0=0. Result is always 0, not A. The student's error stems from assuming symmetry between 0 and 1 across both operations, but 0 is identity for OR and annihilator for AND, while 1 is identity for AND and annihilator for OR. A wrong answer accepting the claim reveals confusion between identity and annulment laws, and not understanding that OR and AND have different neutral elements.",
+     "self_check": true
+    },
+    {
+     "q": "Design a Boolean expression with 4 variables (W, X, Y, Z) that requires BOTH distributive laws AND both identity laws to simplify to a single variable. Show the original expression and the complete step-by-step simplification.",
+     "a": "Expression: F = (W + X·Y) · (W + 0) · (W + Z) · 1\nSimplification:\n1. (W + X·Y) · (W + 0) · (W + Z) · 1 — Given\n2. (W + X·Y) · W · (W + Z) · 1 — Identity Law: W+0=W\n3. (W + X·Y) · W · (W + Z) — Identity Law: A·1=A (on the trailing ·1)\n4. W · (W + X·Y) · (W + Z) — Commutative (reorder)\n5. (W·W + W·X·Y) · (W + Z) — Distributive: A·(B+C)=A·B+A·C on first two\n6. (W + W·X·Y) · (W + Z) — Idempotent: W·W=W\n7. W · (W + Z) — Absorption: W + W·X·Y = W (or W(1+XY)=W·1=W)\n8. W — Absorption: W·(W+Z)=W\nFinal answer: W. A poor answer (e.g., expression not using both distributive laws, or not requiring both identity laws) reveals the student cannot construct expressions that strategically combine multiple laws, indicating surface-level understanding rather than structural mastery.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_24_008",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_24_008",
+   "title": "c11_eng_w_cbse_24_008",
+   "questions": [
+    {
+     "q": "What is the difference between a simile and a metaphor? Give one example of each from everyday language.",
+     "a": "A simile compares two things using \"like\" or \"as\" (e.g., \"Her smile is like sunshine\"), while a metaphor states one thing *is* another directly (e.g., \"Her smile is sunshine\"). A wrong answer that says \"similes use 'like', metaphors don't\" without explaining the *direct equation* reveals the student memorized a rule but doesn't grasp the conceptual transfer — they might miss metaphors that lack explicit comparative words, such as the Munda song's \"The cowshed was depleted\" standing for the son's birth.",
+     "self_check": true
+    },
+    {
+     "q": "In the Kondh song, the speakers offer \"a small baby fowl\" to the departing spirit. Identify the sensory imagery in this offering and explain why the *size* and *age* of the fowl matter for the ritual's emotional tone.",
+     "a": "The phrase \"small baby fowl\" evokes visual (tiny, downy), tactile (fragile, warm), and auditory (cheeping) imagery. The diminutive size mirrors the speakers' vulnerability and humility before the spirit; a large rooster would signal aggression, not appeasement. A wrong answer that only notes \"it's an offering\" misses how sensory details encode the power dynamic — the living are small and afraid, the dead spirit is large and potentially harmful.",
+     "self_check": true
+    },
+    {
+     "q": "The Adi chant says: \"I tie this Ridin creeper / To fasten your soul to your body.\" Identify the metaphor here. What is the source domain and what is the target domain? What physical property of the creeper makes the metaphor work?",
+     "a": "Metaphor: The Ridin creeper *is* a spiritual binding agent. Source domain: botanical/physical (creeper's tensile strength, clinging growth). Target domain: metaphysical (soul's attachment to body). The creeper's real medicinal/vine-like property of wrapping tightly maps onto the desired spiritual \"fastening.\" A wrong answer that calls it \"symbolism\" confuses *standing for* (symbol) with *being used as* (metaphorical instrument) — the creeper isn't a symbol of binding; in the ritual logic, it *performs* the binding.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Munda song's use of the cowshed imagery with the Kondh song's use of the \"hearth\" (mentioned in the note). How do both images function as *extended metaphors* for the tribe's socioeconomic structure? Write 3-4 sentences.",
+     "a": "In the Munda song, the cowshed's fullness/emptiness maps directly onto daughter/son value, making the cattle economy a metaphor for gender economics — the daughter *is* wealth (cows return), the son *is* dispersal (cows leave). In the Kondh note, the hearth represents the domestic center the dead soul clings to; the hearth *is* the family's continuity. Both extend a concrete, daily-life space (cowshed, hearth) into a structural metaphor for social reproduction. A weak answer treats them as separate symbols rather than seeing the *extension*: each song sustains its central image across multiple lines to map an entire social logic.",
+     "self_check": true
+    },
+    {
+     "q": "G.N. Devy writes: \"In tribal stories, oceans fly in the sky as birds, mountains swim in the water as fish.\" Evaluate whether this description applies to the three songs in the chapter. Support your judgment with one specific example from each song.",
+     "a": "Yes, the description applies. Munda song: celestial bodies (sun/moon) *become* human gender events — the sky enacts the domestic. Kondh song: the dead spirit's journey *is* a physical return path (\"Whichever way you came / Go back\") — death is spatialized as a reversible trip. Adi song: a creeper *is* a soul-fastener, a cock's footprints *are* a spirit's roadmap — botanical and animal acts perform metaphysical work. A wrong answer that says \"no, these are realistic songs\" fails to see that the *ritual logic* operates on metaphorical identity, not literal description — the songs don't *describe* a world where oceans fly; they *enact* a world where a creeper ties a soul.",
+     "self_check": true
+    },
+    {
+     "q": "Write a four-line chant in the style of the Adi healing song that uses an extended metaphor from your own local environment (a plant, animal, or natural feature) to \"call back\" something lost (health, courage, memory, etc.). Use at least two sensory images.",
+     "a": "Example (using a banyan tree's aerial roots):\n\"Oh my weary heart,\nIf courage left you in the storm,\nI bring this banyan root\nTo stitch your spine to the earth.\nHear the whisper of hanging ropes,\nFollow them down to your standing ground.\"\nA poor answer uses a generic metaphor (\"light of hope\") without grounding it in a specific, sensorially rich local element — showing the student hasn't internalized how tribal metaphor *requires* ecological specificity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

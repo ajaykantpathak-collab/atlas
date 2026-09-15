@@ -1,0 +1,200 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 11,
+ "chapter_title": "Keeping Time with the Skies",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hecu111.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hecu.111.11.1",
+   "title": "Phases of the Moon",
+   "section": "11.1",
+   "definition": "The Moon shines by reflected sunlight, and as it circles the earth we see changing lit portions called phases - new moon to crescent, first quarter, gibbous, full moon and back; the whole cycle from one new moon to the next takes about 29.5 days.",
+   "formula": "-",
+   "key_idea": "The Moon never changes shape - only the sunlight portion visible from earth does, cycling in about 29.5 days.",
+   "textbook_ref": "hecu111.txt lines 40-200 (moon's appearance, phases, waxing and waning)",
+   "question_patterns": [
+    "why does the moon change its shape every night",
+    "name the phases of the moon in order",
+    "how long does one cycle of moon phases take",
+    "what is the difference between waxing and waning moon",
+    "why do we not see the moon on a new moon day",
+    "how does a ball-and-stick model explain the phases of the moon"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "explain the light source",
+     "explain": "The Moon reflects sunlight; half its surface stays lit."},
+    {"step": 2, "action": "move around the earth",
+     "explain": "As the Moon orbits, the visible lit fraction grows and shrinks, creating the phases."},
+    {"step": 3, "action": "time the cycle",
+     "explain": "One full run of phases, new moon to new moon, needs about 29.5 days."}
+   ]
+  },
+  {
+   "id": "hecu.111.11.2",
+   "title": "Eclipses",
+   "section": "11.1",
+   "definition": "When the earth comes between the sun and the moon, the earth's shadow darkens the moon - a lunar eclipse; when the moon slips between the sun and the earth, its shadow falls on the earth - a solar eclipse; eclipses are rare because the moon's tilted orbit rarely lines all three up.",
+   "formula": "-",
+   "key_idea": "Eclipses are shadow games of the sun-earth-moon lineup.",
+   "textbook_ref": "hecu111.txt lines 30-40 (lunar eclipse), 200-300 (shadows and alignment)",
+   "question_patterns": [
+    "what is a lunar eclipse and when does it occur",
+    "how is a solar eclipse different from a lunar eclipse",
+    "why do eclipses not happen every month",
+    "draw the arrangement of the sun, moon and earth for a solar eclipse",
+    "is it safe to watch a solar eclipse directly - what care is needed",
+    "why does the moon turn reddish during some lunar eclipses"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "arrange the bodies",
+     "explain": "Sun, earth and moon must line up nearly straight for any eclipse."},
+    {"step": 2, "action": "identify the shadow catcher",
+     "explain": "Moon in earth's shadow gives a lunar eclipse; earth in moon's shadow gives a solar eclipse."},
+    {"step": 3, "action": "explain the rarity",
+     "explain": "The moon's orbital tilt keeps it out of line most months."}
+   ]
+  },
+  {
+   "id": "hecu.111.11.3",
+   "title": "Calendars from the Skies: Lunar and Solar Years",
+   "section": "11.2",
+   "definition": "Time-keeping grew from the sky: the day is the shortest natural unit, a lunar month runs about 29.5 days from new moon to new moon, twelve such months make a lunar year of 354 days, while the cycle of seasons - one trip of the earth around the sun - fixes the solar year of about 365 days.",
+   "formula": "lunar_year = month_days * months_in_year",
+   "key_idea": "12 lunar months of 29.5 days give a 354-day lunar year, 11 days short of the 365-day solar year.",
+   "textbook_ref": "hecu111.txt lines 473-600 (how calendars came into existence, lunar calendars)",
+   "question_patterns": [
+    "find the length of a lunar year with 12 lunar months of 29.5 days",
+    "by how many days is the lunar year shorter than the solar year",
+    "how did ancient people build calendars from the moon",
+    "what is a solar year and what causes the seasons",
+    "why do lunar calendar months drift across seasons",
+    "define a lunar month using the phases of the moon"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "multiply the month length",
+     "explain": "12 lunar months of 29.5 days make the lunar year.",
+     "compute": "lunar_year = month_days * months_in_year"},
+    {"step": 2, "action": "find the drift",
+     "explain": "Subtracting the lunar year from the 365-day solar year gives the yearly gap.",
+     "compute": "drift = solar_days - lunar_year"}
+   ]
+  },
+  {
+   "id": "hecu.111.11.4",
+   "title": "Festivals and Astronomy",
+   "section": "11.3",
+   "definition": "Many Indian festivals are tied to sky events: Diwali falls on the new-moon night, Guru Nanak Jayanti and Buddha Purnima on full-moon days, and harvest festivals like Makar Sankranti mark the sun's northward journey - astronomy lives inside the calendar of celebrations.",
+   "formula": "-",
+   "key_idea": "Festivals encode lunar phases and solar positions on the calendar.",
+   "textbook_ref": "hecu111.txt lines 966-1050 (are festivals related to astronomical events)",
+   "question_patterns": [
+    "which festivals fall on full moon days",
+    "on which phase of the moon is Diwali celebrated",
+    "how is Makar Sankranti connected to the sun's motion",
+    "name two festivals linked to lunar phases",
+    "why did ancient people tie festivals to the sky",
+    "find the moon phase on which a given festival occurs"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "check the festival date",
+     "explain": "Look up whether the date follows the lunar tithi or the solar sankranti."},
+    {"step": 2, "action": "match with the sky event",
+     "explain": "Full moon, new moon or solar transit decides the day."},
+    {"step": 3, "action": "see the pattern",
+     "explain": "The festival calendar mirrors the astronomical calendar."}
+   ]
+  },
+  {
+   "id": "hecu.111.11.5",
+   "title": "Artificial Satellites",
+   "section": "11.4",
+   "definition": "Artificial satellites are human-made objects launched to circle the earth, serving communication, weather watching, navigation and research; placed at the right height and speed, they keep moving like the moon under gravity's grip.",
+   "formula": "-",
+   "key_idea": "A satellite is a controlled moon: gravity bends its motion into a closed orbit.",
+   "textbook_ref": "hecu111.txt lines 1050-1120 (why do we launch artificial satellites)",
+   "question_patterns": [
+    "what is an artificial satellite - name two Indian satellites",
+    "why do satellites not fall back to the earth",
+    "list the uses of artificial satellites",
+    "how does a satellite stay in its orbit",
+    "what keeps the moon revolving around the earth",
+    "how do satellites help in weather forecasting"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "launch with the right speed",
+     "explain": "A rocket lifts the satellite above the atmosphere with enough sideways speed."},
+    {"step": 2, "action": "let gravity hold the orbit",
+     "explain": "Earth's pull curves the path into a circle or ellipse, so the satellite keeps falling around the planet."},
+    {"step": 3, "action": "read the services",
+     "explain": "TV signals, GPS, weather images and scientific data all arrive from orbit."}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hecu111.txt lines 560-575, lunar year of 12 lunar months",
+   "concept": "hecu.111.11.3",
+   "question_type": "compute",
+   "question_pattern": "A lunar month lasts {month_days} days. Find the length of a lunar year of {months_in_year} months.",
+   "extracted_variables": {
+    "month_days": "days in one lunar month",
+    "months_in_year": "number of lunar months in a lunar year"
+   },
+   "solution_template": [
+    {"step": 1, "action": "multiply months by month length",
+     "explain": "12 lunar months of 29.5 days give the lunar year.",
+     "compute": "lunar_year = month_days * months_in_year"},
+    {"step": 2, "action": "compare with the solar year",
+     "explain": "Subtracting from 365 days shows the drift per year.",
+     "compute": "drift = solar_days - lunar_year"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hecu111.txt lines 568-575, 354 vs 365 days",
+   "concept": "hecu.111.11.3",
+   "question_type": "compute",
+   "question_pattern": "The seasons repeat in {solar_days} days while the lunar year is {lunar_year} days. Find the yearly gap between the two calendars.",
+   "extracted_variables": {
+    "solar_days": "days in the solar year",
+    "lunar_year": "days in the lunar year"
+   },
+   "solution_template": [
+    {"step": 1, "action": "subtract the lunar year from the solar year",
+     "explain": "The difference is how far lunar months drift each year.",
+     "compute": "gap = solar_days - lunar_year"},
+    {"step": 2, "action": "read the drift",
+     "explain": "The gap explains why lunar months shift across seasons.",
+     "compute": "check = gap"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex11.1",
+   "source_ref": "hecu111.txt sections 11.1-11.2",
+   "questions": [
+     "Draw and name the phases of the moon.",
+     "Explain a lunar eclipse with a diagram of the sun, earth and moon.",
+     "Why is a lunar year of 354 days shorter than the solar year?"
+   ]
+  },
+  {
+   "id": "ex11.2",
+   "source_ref": "hecu111.txt sections 11.3-11.4",
+   "questions": [
+     "List three festivals linked to the phases of the moon.",
+     "What are the uses of artificial satellites?",
+     "Why does the moon not fall onto the earth?"
+   ]
+  }
+ ]
+}

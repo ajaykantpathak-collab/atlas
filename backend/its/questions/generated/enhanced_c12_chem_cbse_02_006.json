@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_02_006",
+   "title": "c12_chem_cbse_02_006",
+   "questions": [
+    {
+     "q": "State Kohlrausch's law of independent migration of ions in words and write its mathematical expression for an electrolyte AₓBᵧ that dissociates into x Aʸ⁺ and y Bˣ⁻ ions.",
+     "a": "Kohlrausch's law: The limiting molar conductivity of an electrolyte equals the sum of the limiting molar conductivities of its constituent ions, each multiplied by its stoichiometric coefficient. For AₓBᵧ → x Aʸ⁺ + y Bˣ⁻, Λ°m = x λ°(Aʸ⁺) + y λ°(Bˣ⁻). A wrong answer (e.g., Λ°m = λ°+ + λ°- without coefficients, or confusing it with Λm = Λ°m - A√c) reveals the student has memorised the formula without understanding the physical meaning of \"independent migration\" or the role of stoichiometry.",
+     "self_check": true
+    },
+    {
+     "q": "Why can Λ°m for a weak electrolyte like CH₃COOH not be obtained by extrapolating a plot of Λm vs √c to zero concentration, unlike strong electrolytes?",
+     "a": "For weak electrolytes, Λm increases steeply near infinite dilution because the degree of dissociation α increases dramatically as concentration decreases (Ostwald's dilution law). The Λm vs √c plot is strongly curved, not linear, so extrapolation is unreliable. At very low concentrations where α→1, the conductivity becomes too small to measure accurately. A wrong answer (e.g., \"weak electrolytes don't follow Kohlrausch's law\" or \"the plot is linear but with a different slope\") shows the student confuses the *law* (which applies to all electrolytes at infinite dilution) with the *method of determining Λ°m*.",
+     "self_check": true
+    },
+    {
+     "q": "The molar conductivity of 0.001 M CH₃COOH is 4.8 × 10⁻² S m² mol⁻¹. Given λ°(H⁺) = 34.96 × 10⁻³ S m² mol⁻¹ and λ°(CH₃COO⁻) = 4.09 × 10⁻³ S m² mol⁻¹, calculate the dissociation constant Ka of acetic acid at this concentration.",
+     "a": "Step 1: Λ°m(CH₃COOH) = λ°(H⁺) + λ°(CH₃COO⁻) = (34.96 + 4.09) × 10⁻³ = 39.05 × 10⁻³ S m² mol⁻¹.\nStep 2: α = Λm/Λ°m = (4.8 × 10⁻²) / (39.05 × 10⁻³) = 1.229 (Wait — this gives α > 1, which is impossible. The given Λm = 4.8 × 10⁻² is likely in S cm² mol⁻¹, not S m² mol⁻¹. Correcting units: Λm = 4.8 × 10⁻² S cm² mol⁻¹ = 4.8 × 10⁻⁶ S m² mol⁻¹. Then α = 4.8 × 10⁻⁶ / 39.05 × 10⁻³ = 0.00123. But this seems too low. Let's re-check: typical Λm for 0.001 M CH₃COOH is ~48 S cm² mol⁻¹. So Λm = 48 × 10⁻⁴ S m² mol⁻¹. Then α = 48 × 10⁻⁴ / 39.05 × 10⁻³ = 0.123. Ka = cα²/(1-α) = 0.001 × (0.123)² / (1-0.123) = 1.72 × 10⁻⁵ mol L⁻¹.\nA wrong answer with α > 1 or missing unit conversion reveals the student does not track units (S cm² mol⁻¹ vs S m² mol⁻¹) — a critical error in board and JEE exams.",
+     "self_check": true
+    },
+    {
+     "q": "Given Λ°m(NaCl) = 126.4, Λ°m(HCl) = 425.9, Λ°m(NaAc) = 91.0 S cm² mol⁻¹ (all at 298 K), calculate Λ°m(CH₃COOH). Explain the logic using Kohlrausch's law.",
+     "a": "Λ°m(CH₃COOH) = λ°(H⁺) + λ°(CH₃COO⁻). From given data:\nλ°(H⁺) + λ°(Cl⁻) = 425.9  ...(1)\nλ°(Na⁺) + λ°(CH₃COO⁻) = 91.0  ...(2)\nλ°(Na⁺) + λ°(Cl⁻) = 126.4  ...(3)\n(1) + (2) - (3): [λ°(H⁺) + λ°(Cl⁻) + λ°(Na⁺) + λ°(CH₃COO⁻)] - [λ°(Na⁺) + λ°(Cl⁻)] = λ°(H⁺) + λ°(CH₃COO⁻) = 425.9 + 91.0 - 126.4 = 390.5 S cm² mol⁻¹.\nA wrong answer (e.g., averaging values, or using Λ°m(HCl) - Λ°m(NaCl)) shows the student treats Λ°m as additive for whole compounds rather than understanding ion-level additivity — the core of Kohlrausch's law.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"For a strong electrolyte like KCl, Λm increases with dilution because the ions move faster. For a weak electrolyte like CH₃COOH, Λm increases with dilution because more molecules dissociate.\" Evaluate this statement.",
+     "a": "The statement is **partially correct but incomplete**. For strong electrolytes: Λm increases because interionic attraction decreases (Debye-Hückel-Onsager effect), not because ions move faster — their mobility is nearly constant. For weak electrolytes: Λm increases primarily because α increases (more ions), but also because the existing ions experience less interionic attraction. A student who says \"ions move faster\" for strong electrolytes reveals a misconception about the physical origin of the concentration dependence — they confuse mobility (which is nearly constant) with the number of charge carriers (which is constant for strong electrolytes).",
+     "self_check": true
+    },
+    {
+     "q": "Design a procedure to determine the dissociation constant of a weak acid HA using only conductivity measurements and tabulated limiting ionic conductivities. List the measurements needed, the calculations, and the assumptions.",
+     "a": "Measurements: (1) Conductivity (κ) of HA solution at known concentration c. (2) Cell constant (G*) using standard KCl. Calculations: Λm = κ/c (ensure units: S cm² mol⁻¹). Λ°m(HA) = λ°(H⁺) + λ°(A⁻) from tables. α = Λm/Λ°m. Ka = cα²/(1-α). Assumptions: (i) Ostwald's dilution law holds (no ion pairing), (ii) Λ°m values are at same temperature, (iii) solution is dilute enough that activity coefficients ≈ 1. A poor answer omits the cell constant determination, unit consistency, or the assumption of negligible activity corrections — showing the student treats the formula as a black box.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

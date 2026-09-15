@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_18_004",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_18_004",
+   "title": "c12_geo_cbse_18_004",
+   "questions": [
+    {
+     "q": "Which of the following is a quasi-government secondary data source for urban infrastructure in India? (a) Census of India (b) Municipal Corporation development plan documents (c) UN-Habitat World Cities Report (d) Private real estate consultancy report",
+     "a": "Correct answer: (b) Municipal Corporation development plan documents. Quasi-government bodies include Urban Development Authorities, Municipal Corporations, and Zila Parishads — they are not full government ministries but perform governmental functions. The Census (a) is a central government publication; UN-Habitat (c) is an international publication; private consultancy reports (d) are private publications. A wrong answer reveals confusion between government, quasi-government, international, and private publication categories — a distinction the NCERT explicitly makes in Fig. 1.1 and the accompanying text.",
+     "self_check": true
+    },
+    {
+     "q": "A student uses the \"Human Development Report 2021-22\" published by UNDP for district-level HDI values in Maharashtra. Why is this likely to be problematic?",
+     "a": "The UNDP Human Development Report provides national and sometimes state-level HDI, but rarely district-level data for India; district HDI is typically computed by state governments or research institutes using UNDP methodology. The student confuses the *methodology source* (UNDP) with the *data source* for sub-national units. A wrong answer indicates the student does not grasp the spatial resolution hierarchy: international publications → national/state aggregates; government publications (Census, NSSO) → district/village level. This is a classic competitive-exam trap where the prestigious name (UNDP) distracts from the spatial mismatch.",
+     "self_check": true
+    },
+    {
+     "q": "You need annual rainfall data for the last 30 years for a specific tehsil in Vidarbha, Maharashtra, to analyse drought frequency. Which secondary source is most appropriate and why?",
+     "a": "Most appropriate: India Meteorological Department (IMD) gridded rainfall dataset (0.25° × 0.25°) or tehsil-level rainfall normals published in IMD's \"Rainfall Statistics of India\" or state meteorological department reports. Reasoning: (1) IMD is the nodal agency for meteorological data in India; (2) gridded data allows extraction for any tehsil; (3) 30-year period matches climatological normal definition; (4) daily/monthly resolution enables drought indices (SPI, SPEI). Census and NSSO do not collect rainfall; state agricultural departments may have it but often derive from IMD. A wrong answer (e.g., \"Census of India\" or \"Newspaper reports\") shows ignorance of agency mandates and data granularity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Census of India and the National Sample Survey Office (NSSO) as sources for studying rural employment patterns. Identify two fundamental differences in their design that affect geographical analysis.",
+     "a": "Two fundamental differences: (1) **Coverage vs. Sampling**: Census is a complete enumeration (every household) providing village-level data; NSSO uses stratified multi-stage sampling (≈1 lakh households nationally) giving only state/region-level estimates — village-level employment patterns cannot be derived from NSSO. (2) **Frequency and Reference Period**: Census is decadal (snapshot on a specific date); NSSO rounds are quinquennial (roughly every 5 years) with a reference period of \"last 365 days\" for usual status employment, capturing seasonality better. A wrong answer that treats them as interchangeable ignores the spatial resolution vs. temporal depth trade-off central to geographical research design.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Electronic media, especially the internet, has made government publications obsolete as secondary data sources for geographical research.\"",
+     "a": "The statement is **false**. The internet is an *access medium*, not a *data source* — most \"electronic media\" data for geography are digitised government publications (Census PDFs, NSSO unit-level data on MOSPI portal, IMD gridded NetCDF files). Government publications remain the *primary authoritative source*; the internet only improves accessibility. Moreover, many critical datasets (village-level Census tables, NSSO unit records) require formal request procedures even when digital. A wrong evaluation conflates *delivery platform* with *data provenance* and overlooks that unofficial web sources (Wikipedia, blogs) lack the metadata, quality control, and citation authority of official publications — a fatal error in board and competitive exam answers.",
+     "self_check": true
+    },
+    {
+     "q": "Design a secondary data acquisition plan for a study on \"Changing cropping patterns in the Malwa region of Madhya Pradesh (1990–2020)\". Specify: (a) three specific government publications, (b) the spatial unit for each, (c) one definitional change you must adjust for.",
+     "a": "(a) 1. **Madhya Pradesh Statistical Abstract** (annual, Directorate of Economics & Statistics) — district-level area/production/yield for major crops. 2. **Agricultural Census** (quinquennial, Ministry of Agriculture) — operational holding-wise cropped area by size class, district-level. 3. **Season and Crop Report** (annual, State Dept. of Agriculture) — season-wise (Kharif/Rabi) sown area, tehsil-level. (b) Spatial units: district (Abstract, Agri Census), tehsil (Season & Crop Report). (c) Definitional change: The 2015-16 Agricultural Census revised the \"operational holding\" definition to include leased-in land more comprehensively; pre-2015 data undercounts tenant-operated area, biasing cropping pattern trends if unadjusted. A poor answer lists generic sources (\"government reports\") without specific publication titles, spatial units, or awareness of definitional breaks — exactly what costs marks in board case-study questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

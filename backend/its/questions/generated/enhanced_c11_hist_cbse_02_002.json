@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_02_002",
+   "title": "c11_hist_cbse_02_002",
+   "questions": [
+    {
+     "q": "What name did the Romans give to the Mediterranean Sea once they established control over all its shores, and what does this Latin term signify about their perception of the sea?",
+     "a": "The Romans called it *Mare Nostrum* (\"Our Sea\"), signifying their perception of the Mediterranean as an internal Roman lake rather than an international frontier. A wrong answer (e.g., \"Mediterraneum\" or \"Great Sea\") reveals the student misses the political-ideological claim embedded in the name — Rome saw the sea as sovereign territory, not shared space.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Mediterranean's *physical geography* (not just its location) make it uniquely suited to become the integration zone for a transcontinental empire, unlike the Indian Ocean or the Atlantic?",
+     "a": "The Mediterranean's enclosed basin creates predictable, non-monsoonal wind patterns (etesian winds), its indented coastline offers countless natural harbours, and its narrow straits (Gibraltar, Sicily-Tunisia, Dardanelles) allow naval control — none of which apply to the Indian Ocean (monsoon-dependent, vast) or Atlantic (stormy, no natural chokepoints). A wrong answer focusing only on \"location between three continents\" misses the *hydrographic* reasons that made daily, year-round bulk transport feasible.",
+     "self_check": true
+    },
+    {
+     "q": "A shipwreck off the coast of southern France contains Dressel 20 amphorae stamped with the mark of a producer from Baetica (southern Spain) dated 150 CE. Using this evidence, reconstruct the minimum number of Mediterranean sub-regions this single cargo connected, and explain what this implies about Roman economic integration.",
+     "a": "The cargo connects at least four sub-regions: production (Baetica, Spain), packaging (local kilns), transit (Italian ports like Ostia/Puteoli), and consumption (Gaul/France). This implies a *single integrated market* where Spanish olive oil displaced Italian oil (per NCERT) — producers 2,000 km away competed directly for Gaulish consumers. A wrong answer listing only \"Spain and France\" misses the intermediate nodes (Italian entrepôts, Roman tax/quality control) that made this a *system*, not bilateral trade.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of the Mediterranean in Roman imperial integration with the role of the Gangetic plains in Mauryan imperial integration (Class 6, c6_history_ch05_010). Identify two structural similarities and one critical difference in how geography shaped administration.",
+     "a": "Similarities: (1) Both were *agricultural heartlands* generating surplus (Gangetic wheat/rice; Mediterranean grain/oil/wine) that fed capitals and armies. (2) Both had *linear urban chains* along the corridor (Pataliputra-Taxila; Carthage-Alexandria-Antioch) serving as administrative nodes. Critical difference: The Mediterranean was a *maritime network* enabling cheap bulk transport (1:50 cost ratio sea:land), while the Gangetic system relied on *riverine and overland routes* with higher friction — making Roman integration faster, denser, and more responsive to price signals across 3,000 km.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the historian Fergus Millar's claim (quoted in NCERT) that Trajan \"looked longingly at a merchant-ship setting off for India\" — does this moment reveal the *limits* of Mediterranean integration or its *ambition* to transcend them? Justify with evidence from the Roman-Indian trade balance.",
+     "a": "It reveals the *limits*: the Mediterranean was a *closed system* (Rome controlled all shores), but Indian Ocean trade required *negotiation with external powers* (Parthians, Aksumites, Tamil kingdoms). Rome's massive trade deficit with India (Pliny's \"100 million sesterces annually\" drain) proved the Mediterranean integration *could not be extended* by conquest — Trajan's India dream failed because the monsoon world operated on different logics. A wrong answer calling it \"ambition\" ignores that Rome *never* controlled Red Sea/Indian Ocean shores — the Mediterranean was the *maximum* of direct Roman maritime sovereignty.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 5-node causal chain showing how the Mediterranean's *wind patterns* → *ship design* → *cargo types* → *urban locations* → *imperial frontiers* created a self-reinforcing system that determined *where* Rome expanded and *where* it stopped.",
+     "a": "Valid chain: (1) Etesian winds (NW in summer, variable in winter) → (2) Shallow-draft, square-rigged ships optimised for coastal hopping, not ocean crossings → (3) Bulk, low-value cargoes (grain, oil, wine in amphorae) requiring short hops between ports → (4) Cities founded *only* on sheltered harbours (Cartagena, Narbo, Caesarea, Leptis Magna) → (5) Frontiers stabilised at *coastal chokepoints* (Rhine-Danube *land* frontier; Sahara *desert* frontier; Euphrates *river* frontier) because the sea-logic ended there. A poor chain lists factors without showing *causal dependence* (e.g., \"winds helped trade\" without linking to ship design constraints).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

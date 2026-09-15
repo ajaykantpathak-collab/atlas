@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_06_007",
+   "title": "c11_phy_cbse_06_007",
+   "questions": [
+    {
+     "q": "A uniform metre rule is balanced on a knife-edge at the 50 cm mark. A 20 g mass is suspended at the 10 cm mark. At which mark must a 40 g mass be suspended to restore balance? (Assume g = 9.8 m/s²)",
+     "a": "The 40 g mass must be suspended at the 70 cm mark. Working: Taking moments about the fulcrum (50 cm mark). Anticlockwise moment = (20 g × 9.8) × (50 - 10) cm = 20g × 40 cm. Clockwise moment = (40 g × 9.8) × d. For equilibrium: 20 × 40 = 40 × d → d = 20 cm from fulcrum. So position = 50 + 20 = 70 cm mark. A wrong answer (e.g., 30 cm mark) reveals the student incorrectly used distance from the end instead of from the fulcrum, or confused the mass ratio with distance ratio.",
+     "self_check": true
+    },
+    {
+     "q": "A crowbar of length 1.5 m is used to lift a heavy stone. The fulcrum is placed 0.2 m from the stone. If a person applies a downward force of 150 N at the other end, what is the maximum weight of the stone that can be lifted? Explain why the mechanical advantage is greater than 1.",
+     "a": "Maximum weight of stone = 975 N (approx 99.5 kg). Effort arm = 1.5 - 0.2 = 1.3 m, Load arm = 0.2 m. By Principle of Moments: Load × 0.2 = 150 × 1.3 → Load = 975 N. Mechanical Advantage = Load/Effort = 975/150 = 6.5 = Effort arm/Load arm = 1.3/0.2. A wrong answer reveals the student either swapped effort and load arms, or forgot to subtract the fulcrum distance from total length to get the effort arm.",
+     "self_check": true
+    },
+    {
+     "q": "A uniform rod AB of length 2 m and weight 10 N is supported horizontally on two knife-edges at A and B. A weight of 30 N is suspended at a point 0.5 m from A. Calculate the reaction forces at A and B.",
+     "a": "R_A = 27.5 N, R_B = 12.5 N. Steps: (1) Total downward force = 10 + 30 = 40 N → R_A + R_B = 40 N (translational equilibrium). (2) Take moments about A: Clockwise moments = (10 N × 1 m) + (30 N × 0.5 m) = 10 + 15 = 25 N·m. Anticlockwise moment = R_B × 2 m. For rotational equilibrium: R_B × 2 = 25 → R_B = 12.5 N. (3) R_A = 40 - 12.5 = 27.5 N. A wrong answer (e.g., R_A = R_B = 20 N) reveals the student ignored the position of the suspended weight and assumed symmetric distribution.",
+     "self_check": true
+    },
+    {
+     "q": "A see-saw consists of a uniform plank 4 m long pivoted at its centre. Child X (mass 30 kg) sits 1.2 m from the pivot on one side. Child Y (mass 40 kg) sits on the other side. Where must Child Y sit to balance the see-saw? If Child Y moves 0.2 m closer to the pivot, which side goes down and why?",
+     "a": "Child Y must sit at 0.9 m from the pivot. Balance: 30 × 1.2 = 40 × d → d = 0.9 m. If Y moves 0.2 m closer (to 0.7 m), Y's moment = 40 × 0.7 = 28 N·m (using g implicitly), X's moment = 30 × 1.2 = 36 N·m. X's side goes down because anticlockwise moment (36) > clockwise moment (28). A wrong answer reveals the student either used mass instead of weight without cancelling g, or incorrectly determined which moment is larger after the move.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a lever problem: \"A force of 50 N applied at 0.4 m from the fulcrum balances a load at 0.1 m. The load is 50 × 0.4 / 0.1 = 200 N.\" The student claims the mechanical advantage is 0.25. Evaluate this claim and correct the error.",
+     "a": "The claim is incorrect. Mechanical Advantage = Load/Effort = 200/50 = 4 (or Effort arm/Load arm = 0.4/0.1 = 4). The student calculated Load arm/Effort arm = 0.1/0.4 = 0.25, which is the reciprocal (Velocity Ratio for ideal lever). A wrong evaluation reveals the student confuses Mechanical Advantage (force multiplication factor) with Velocity Ratio (distance ratio), a common error in simple machines.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a metre rule, a triangular prism as fulcrum, and known masses to verify the Principle of Moments for a lever with three forces: two on one side of the fulcrum and one on the other. Describe the procedure, measurements, and how you would analyse the data.",
+     "a": "Procedure: (1) Balance the empty metre rule on the prism to find its centre of gravity (should be at 50 cm for uniform rule). (2) Place the fulcrum at the 50 cm mark. (3) Suspend a 50 g mass at 20 cm mark and a 30 g mass at 35 cm mark (both on left side). (4) Find the position on the right side where a 100 g mass balances the rule. (5) Calculate Στ_left = (50g×30) + (30g×15) and Στ_right = 100g×d. Verify equality. Analysis: Plot Στ_left vs Στ_right for multiple trials; slope should be 1. A poor answer reveals inability to handle multiple forces on one side or confusion about sign conventions for moments.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,669 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 108,
+ "chapter_title": "Cell: The Unit of Life",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebo108.txt",
+ "concepts": [
+  {
+   "id": "kebo.108.1",
+   "title": "Cell Theory and Classical Discoveries",
+   "section": "8.1, 8.2",
+   "definition": "The foundational biological principles asserting that all living organisms are built of cells and cell products, with new cells arising exclusively from pre-existing cell division.",
+   "formula": "All living units = pre-existing cells + cellular products",
+   "key_idea": "Cells form the universal both structural and functional basis of life, generated solely through pre-existing cellular division.",
+   "textbook_ref": "kebo108.txt lines 35-70",
+   "question_patterns": [
+    "what are the main tenets of modern cell theory",
+    "who proposed that new cells arise from pre-existing cells",
+    "explain the contribution of Schleiden, Schwann, and Virchow to cell theory",
+    "describe how cell theory was formulated and modified",
+    "state the core principles of cellular organisation in living organisms"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify early cellular observations",
+     "explain": "Recognize Leeuwenhoek's first description of living cells and Brown's subsequent discovery of the nucleus."
+    },
+    {
+     "step": 2,
+     "action": "Summarize Schleiden and Schwann's contribution",
+     "explain": "Botanical and zoological findings established that plants and animals consist of cells and cell products."
+    },
+    {
+     "step": 3,
+     "action": "Apply Virchow's modification",
+     "explain": "Integrate 'Omnis cellula-e cellula' to specify that all new cells originate from divisions of existing cells."
+    }
+   ]
+  },
+  {
+   "id": "kebo.108.2",
+   "title": "Prokaryotic Cell Envelope and Modifications",
+   "section": "8.4, 8.4.1",
+   "definition": "A complex three-tiered protective covering in prokaryotes comprising an outer glycocalyx, middle cell wall, and inner plasma membrane, along with specialized membrane infoldings like mesosomes.",
+   "formula": "Cell envelope = glycocalyx + cell wall + plasma membrane",
+   "key_idea": "Prokaryotic cell envelopes provide protection, structural stability, and specialized infoldings for replication and respiration.",
+   "textbook_ref": "kebo108.txt lines 110-160",
+   "question_patterns": [
+    "what is a mesosome in a prokaryotic cell and what are its functions",
+    "describe the three layers of the bacterial cell envelope",
+    "how do Gram-positive and Gram-negative bacteria differ in cell envelope response to staining",
+    "explain the role of flagella, pili, and fimbriae in bacterial cells",
+    "identify bacterial surface structures involved in motility and attachment"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze envelope layers",
+     "explain": "Identify outer glycocalyx (loose sheath or tough capsule), cell wall, and selectively permeable plasma membrane."
+    },
+    {
+     "step": 2,
+     "action": "Examine mesosome functions",
+     "explain": "Recognize mesosomal extensions as sites for cell wall synthesis, DNA replication, secretion, and respiration."
+    },
+    {
+     "step": 3,
+     "action": "Distinguish surface appendages",
+     "explain": "Differentiate motile flagella from non-motile surface attachment structures like pili and fimbriae."
+    }
+   ]
+  },
+  {
+   "id": "kebo.108.3",
+   "title": "Prokaryotic Ribosomes and Inclusion Bodies",
+   "section": "8.4.2",
+   "definition": "Membraneless 70S ribonucleoprotein particles involved in protein translation, alongside non-membrane bound cytoplasmic granules that store reserve nutrients.",
+   "formula": "70S ribosome = 50S subunit + 30S subunit",
+   "key_idea": "Prokaryotes utilize membrane-associated 70S ribosomes for translation and naked cytoplasmic inclusions for nutrient storage.",
+   "textbook_ref": "kebo108.txt lines 165-185",
+   "question_patterns": [
+    "what are polysomes or polyribosomes in bacterial cells",
+    "describe the subunits and function of prokaryotic ribosomes",
+    "what are inclusion bodies and give examples found in bacteria",
+    "how do gas vacuoles assist photosynthetic bacteria",
+    "how does prokaryotic ribosomes and inclusion bodies work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify ribosomal composition",
+     "explain": "Note that 70S ribosomes consist of 50S and 30S subunits associated with the plasma membrane."
+    },
+    {
+     "step": 2,
+     "action": "Explain polyribosome formation",
+     "explain": "Describe how multiple ribosomes attach to a single mRNA strand to translate proteins concurrently."
+    },
+    {
+     "step": 3,
+     "action": "Classify inclusion bodies",
+     "explain": "List non-membrane bound reserve stores such as phosphate, cyanophycean, and glycogen granules."
+    }
+   ]
+  },
+  {
+   "id": "kebo.108.4",
+   "title": "Plasma Membrane Fluidity and Solute Transport",
+   "section": "8.5.1",
+   "definition": "A fluid mosaic phospholipid bilayer with mosaic both integral and peripheral proteins that mediates cell growth, secretion, passive diffusion, osmosis, and active ion pumping.",
+   "formula": "other_percentage = 100 - (protein_percentage + lipid_percentage)",
+   "key_idea": "The lipid bilayer's fluid nature allows protein movement and selectively regulates molecule exchange across cell boundaries.",
+   "textbook_ref": "kebo108.txt lines 200-245",
+   "question_patterns": [
+    "calculate the remaining chemical component percentage in a cell membrane given protein and lipid percentages",
+    "how much non-protein non-lipid content exists in an erythrocyte membrane with 52 percent protein and 40 percent lipid",
+    "find the percentage of carbohydrates and other constituents in plasma membrane",
+    "explain the fluid mosaic model proposed by Singer and Nicolson",
+    "how do neutral solutes and polar molecules move across the plasma membrane"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum protein and lipid percentages",
+     "explain": "Combine the given percentages of membrane protein and lipid components.",
+     "compute": "total_defined = protein_percentage + lipid_percentage"
+    },
+    {
+     "step": 2,
+     "action": "Calculate remaining component percentage",
+     "explain": "Subtract total defined percentage from 100 to find carbohydrates and other constituents.",
+     "compute": "other_percentage = 100 - total_defined"
+    },
+    {
+     "step": 3,
+     "action": "Validate the remaining percentage",
+     "explain": "Confirm the other_percentage is non-negative and represents carbohydrates and other non-protein non-lipid constituents of the membrane."
+    }
+   ]
+  },
+  {
+   "id": "kebo.108.5",
+   "title": "Cell Wall and Intercellular Junctions",
+   "section": "8.5.2",
+   "definition": "A non-living rigid outer layer in plants, fungi, and algae that provides structural integrity, protection against infection, and intercellular connection via plasmodesmata.",
+   "formula": "Middle lamella = calcium pectate adhesive layer",
+   "key_idea": "Plant cell walls provide mechanical strength while middle both lamellae and plasmodesmata join neighboring cells.",
+   "textbook_ref": "kebo108.txt lines 250-265",
+   "question_patterns": [
+    "what is the chemical composition of algal and plant cell walls",
+    "explain the role of calcium pectate in the middle lamella",
+    "what are plasmodesmata and what function do they serve",
+    "describe the difference between primary and secondary cell walls",
+    "list the main features of cell wall and intercellular junctions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify wall constituents",
+     "explain": "Recognize cellulose, hemicellulose, pectins, and proteins in plant cell walls and galactans/mannans in algae."
+    },
+    {
+     "step": 2,
+     "action": "Describe middle lamella function",
+     "explain": "Identify calcium pectate as the middle layer that glues adjacent cell walls together."
+    },
+    {
+     "step": 3,
+     "action": "Explain plasmodesmata structure",
+     "explain": "Detail how cytoplasmic channels traverse cell walls to link neighboring plant cell cytoplasms."
+    }
+   ]
+  },
+  {
+   "id": "kebo.108.6",
+   "title": "Endomembrane System and Vacuolar Dynamics",
+   "section": "8.5.3",
+   "definition": "A functionally coordinated organelle network comprising the ER, Golgi apparatus, lysosomes, and vacuoles that works together to synthesize, modify, package, and segregate cellular products.",
+   "formula": "vacuole_volume = total_cell_volume * (vacuole_percentage / 100)",
+   "key_idea": "Coordinated membrane organelles process and route proteins, lipids, and cellular wastes inside eukaryotic cells.",
+   "textbook_ref": "kebo108.txt lines 270-345",
+   "question_patterns": [
+    "calculate the volume occupied by a plant vacuole given cell volume and volume percentage",
+    "find how much space the vacuole takes in a plant cell of specific volume",
+    "why are ER, Golgi, lysosomes, and vacuoles grouped as the endomembrane system",
+    "explain the function of smooth and rough endoplasmic reticulum",
+    "describe the formation and role of lysosomes and contractile vacuoles"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Convert percentage to fraction",
+     "explain": "Divide vacuole volume percentage by 100 to get decimal fraction.",
+     "compute": "vacuole_fraction = vacuole_percentage / 100"
+    },
+    {
+     "step": 2,
+     "action": "Compute vacuole volume",
+     "explain": "Multiply total cell volume by the vacuole fraction.",
+     "compute": "vacuole_volume = total_cell_volume * vacuole_fraction"
+    },
+    {
+     "step": 3,
+     "action": "Validate vacuole volume against cell volume",
+     "explain": "Confirm the computed vacuole volume does not exceed the total cell volume, ensuring the percentage input is valid."
+    }
+   ]
+  },
+  {
+   "id": "kebo.108.7",
+   "title": "Mitochondrial Structure and Energy Generation",
+   "section": "8.5.4",
+   "definition": "A double-membrane organelle containing folded inner cristae, circular DNA, 70S ribosomes, and respiratory enzymes responsible for generating ATP through aerobic respiration.",
+   "formula": "Mitochondrial lumen = outer compartment + inner matrix",
+   "key_idea": "Mitochondria act as cellular powerhouses, producing ATP across inner membranes expanded by cristae infoldings.",
+   "textbook_ref": "kebo108.txt lines 350-375",
+   "question_patterns": [
+    "describe the structural organisation of a mitochondrion",
+    "why are mitochondria termed the power houses of the cell",
+    "what is the function of cristae in mitochondria",
+    "mention the semi-autonomous features present in mitochondrial matrix",
+    "how does mitochondrial structure and energy generation work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine membrane division",
+     "explain": "Identify the outer continuous limiting membrane and inner membrane folded into cristae."
+    },
+    {
+     "step": 2,
+     "action": "Detail matrix contents",
+     "explain": "Recognize circular DNA, RNA, 70S ribosomes, and proteins necessary for semi-autonomous function."
+    },
+    {
+     "step": 3,
+     "action": "Relate structure to respiration",
+     "explain": "Explain how cristae increase surface area for ATP synthesis during aerobic metabolism."
+    }
+   ]
+  },
+  {
+   "id": "kebo.108.8",
+   "title": "Plastids and Chloroplast Architecture",
+   "section": "8.5.5",
+   "definition": "Pigment- or nutrient-storing double-membrane organelles in plants, including light-harvesting chloroplasts organized into fluid stroma and stacked thylakoid grana.",
+   "formula": "Plastids = Chloroplasts + Chromoplasts + Leucoplasts",
+   "key_idea": "Chloroplasts harvest solar energy within thylakoid membrane stacks to synthesize organic compounds in the stroma.",
+   "textbook_ref": "kebo108.txt lines 380-415",
+   "question_patterns": [
+    "classify plastids based on pigments and stored nutrients",
+    "describe the internal structure of a chloroplast including grana and stroma",
+    "differentiate between amyloplasts, elaioplasts, and aleuroplasts",
+    "where are chlorophyll pigments located within the chloroplast",
+    "why is plastids and chloroplast architecture important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Classify plastid types",
+     "explain": "Distinguish photosynthetic chloroplasts, pigmented chromoplasts, and storage leucoplasts."
+    },
+    {
+     "step": 2,
+     "action": "Sub-classify leucoplasts",
+     "explain": "Differentiate starch-storing amyloplasts, oil-storing elaioplasts, and protein-storing aleuroplasts."
+    },
+    {
+     "step": 3,
+     "action": "Analyze chloroplast compartments",
+     "explain": "Identify double membrane boundary, stroma matrix, light-trapping thylakoids stacked as grana, and stroma lamellae."
+    }
+   ]
+  },
+  {
+   "id": "kebo.108.9",
+   "title": "Cilia, Flagella, and Centrosome Microtubular Architecture",
+   "section": "8.5.8, 8.5.9",
+   "definition": "Motility and structural organelles made up of tubulin protein arrangements, featuring a 9+2 axoneme array in cilia/flagella and a cartwheel triplet pattern in centrioles.",
+   "formula": "total_microtubules = (peripheral_doublets * 2) + central_singlets",
+   "key_idea": "Nine radially arranged peripheral microtubule doublets surrounding two central singlets form the core eukaryotic locomotory axoneme.",
+   "textbook_ref": "kebo108.txt lines 435-485",
+   "question_patterns": [
+    "calculate the total number of individual microtubules in a standard 9 plus 2 axoneme",
+    "find how many microtubules make up the peripheral doublets and central pair of a cilium",
+    "how many total microfilaments exist in an axoneme with 9 doublets and 2 central singlets",
+    "describe the internal microtubular structure of eukaryotic cilia and flagella",
+    "explain the cartwheel organization of centrioles"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate total peripheral microtubules",
+     "explain": "Multiply the 9 peripheral doublets by 2 to get individual peripheral microtubules.",
+     "compute": "peripheral_total = peripheral_doublets * 2"
+    },
+    {
+     "step": 2,
+     "action": "Sum peripheral and central microtubules",
+     "explain": "Add the 2 central singlet microtubules to the peripheral count.",
+     "compute": "total_microtubules = peripheral_total + central_singlets"
+    },
+    {
+     "step": 3,
+     "action": "Validate the axoneme microtubule total",
+     "explain": "Confirm the total matches the canonical 9+2 arrangement, yielding 20 individual microtubules for a standard eukaryotic axoneme."
+    }
+   ]
+  },
+  {
+   "id": "kebo.108.10",
+   "title": "Nuclear Structure and Chromosome Morphologies",
+   "section": "8.5.10",
+   "definition": "A double-membrane bound nuclear envelope containing nucleoplasm, nucleoli, and chromatin, which condenses into distinct chromosomes categorized by centromere location.",
+   "formula": "avg_length_per_chromosome = total_dna_length / total_chromosomes",
+   "key_idea": "Nuclear DNA packages into chromatin and distinct chromosomes classified into metacentric, sub-metacentric, acrocentric, or telocentric using centromere position.",
+   "textbook_ref": "kebo108.txt lines 490-545",
+   "question_patterns": [
+    "calculate the average length of DNA per chromosome given total DNA length and total chromosome number",
+    "find how much DNA length is present per chromosome in a human cell with 2 meters of DNA and 46 chromosomes",
+    "calculate average DNA per chromosome for a cell",
+    "classify chromosomes based on the position of the centromere",
+    "what are nuclear pores and what function do they perform",
+    "describe the composition of interphase chromatin"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide total DNA length by chromosome count",
+     "explain": "Divide total meters of DNA by total number of chromosomes in the genome.",
+     "compute": "avg_length_per_chromosome = total_dna_length / total_chromosomes"
+    },
+    {
+     "step": 2,
+     "action": "Validate the average DNA length",
+     "explain": "Confirm the computed average is positive and consistent with the total DNA distributed evenly across all chromosomes."
+    },
+    {
+     "step": 3,
+     "action": "Relate average length to chromosome classification",
+     "explain": "Use the centromere position to classify each chromosome as metacentric, sub-metacentric, acrocentric, or telocentric, since arm lengths depend on centromere location."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Textbook Section 8.5.1, Page 93",
+   "concept": "kebo.108.4",
+   "question_type": "compute",
+   "question_pattern": "In human erythrocytes, plasma membrane contains {protein_percentage}% protein and {lipid_percentage}% lipids. Find the percentage of carbohydrates and other non-lipid non-protein components.",
+   "extracted_variables": {
+    "protein_percentage": 52,
+    "lipid_percentage": 40
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum protein and lipid percentages",
+     "explain": "Combine 52% protein and 40% lipids.",
+     "compute": "total_defined = protein_percentage + lipid_percentage"
+    },
+    {
+     "step": 2,
+     "action": "Calculate remaining component percentage",
+     "explain": "Subtract 92% from 100% total membrane composition.",
+     "compute": "other_percentage = 100 - total_defined"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Textbook Section 8.5.3.4, Page 96",
+   "concept": "kebo.108.6",
+   "question_type": "compute",
+   "question_pattern": "A mature plant cell has a total cell volume of {total_cell_volume} cubic micrometers. If the central vacuole occupies {vacuole_percentage}% of the cell volume, calculate the volume of the vacuole.",
+   "extracted_variables": {
+    "total_cell_volume": 5000,
+    "vacuole_percentage": 90
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Convert percentage to fraction",
+     "explain": "Divide 90% by 100 to obtain 0.90.",
+     "compute": "vacuole_fraction = vacuole_percentage / 100"
+    },
+    {
+     "step": 2,
+     "action": "Compute vacuole volume",
+     "explain": "Multiply 5000 by 0.90.",
+     "compute": "vacuole_volume = total_cell_volume * vacuole_fraction"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "Textbook Section 8.5.8, Page 99",
+   "concept": "kebo.108.9",
+   "question_type": "compute",
+   "question_pattern": "In a eukaryotic flagellum axoneme, there are {peripheral_doublets} peripheral doublets and {central_singlets} central singlet microtubules. Calculate the total number of individual microtubules present in the axoneme.",
+   "extracted_variables": {
+    "peripheral_doublets": 9,
+    "central_singlets": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate total peripheral microtubules",
+     "explain": "Multiply 9 doublets by 2 to get 18 peripheral tubules.",
+     "compute": "peripheral_total = peripheral_doublets * 2"
+    },
+    {
+     "step": 2,
+     "action": "Sum peripheral and central microtubules",
+     "explain": "Add 2 central singlets to 18 peripheral tubules.",
+     "compute": "total_microtubules = peripheral_total + central_singlets"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "Textbook Section 8.5.10, Page 101",
+   "concept": "kebo.108.10",
+   "question_type": "compute",
+   "question_pattern": "A single human cell contains approximately {total_dna_length} meters of DNA distributed equally among its {total_chromosomes} chromosomes. Calculate the average length of DNA per chromosome in meters.",
+   "extracted_variables": {
+    "total_dna_length": 2,
+    "total_chromosomes": 46
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide total DNA length by chromosome count",
+     "explain": "Divide 2 meters total length by 46 chromosomes.",
+     "compute": "avg_length_per_chromosome = total_dna_length / total_chromosomes"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "Textbook Exercise Question 5, Page 103",
+   "concept": "kebo.108.2",
+   "question_type": "verify_property",
+   "question_pattern": "What is a mesosome in a prokaryotic cell? Mention the functions that it performs.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define mesosome structure",
+     "explain": "A mesosome is a specialized differentiated infolding of the plasma membrane in prokaryotes formed as vesicles, tubules, or lamellae."
+    },
+    {
+     "step": 2,
+     "action": "List primary functions",
+     "explain": "Mesosomes assist in cell wall formation, DNA replication, daughter cell distribution, respiration, secretion, and increasing membrane surface area."
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "kebo108.txt lines 200-245",
+   "concept": "kebo.108.4",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute plasma membrane fluidity and solute transport step by step",
+   "extracted_variables": {
+    "protein_percentage": "value of protein_percentage",
+    "lipid_percentage": "value of lipid_percentage"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum protein and lipid percentages",
+     "explain": "Combine the given percentages of membrane protein and lipid components.",
+     "compute": "total_defined = protein_percentage + lipid_percentage"
+    },
+    {
+     "step": 2,
+     "action": "Calculate remaining component percentage",
+     "explain": "Subtract total defined percentage from 100 to find carbohydrates and other constituents.",
+     "compute": "other_percentage = 100 - total_defined"
+    }
+   ]
+  },
+  {
+   "id": "exauto2",
+   "source_ref": "kebo108.txt lines 270-345",
+   "concept": "kebo.108.6",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute endomembrane system and vacuolar dynamics step by step",
+   "extracted_variables": {
+    "vacuole_percentage": "value of vacuole_percentage",
+    "total_cell_volume": "value of total_cell_volume"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Convert percentage to fraction",
+     "explain": "Divide vacuole volume percentage by 100 to get decimal fraction.",
+     "compute": "vacuole_fraction = vacuole_percentage / 100"
+    },
+    {
+     "step": 2,
+     "action": "Compute vacuole volume",
+     "explain": "Multiply total cell volume by the vacuole fraction.",
+     "compute": "vacuole_volume = total_cell_volume * vacuole_fraction"
+    }
+   ]
+  },
+  {
+   "id": "exauto3",
+   "source_ref": "kebo108.txt lines 435-485",
+   "concept": "kebo.108.9",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute cilia, flagella, and centrosome microtubular architecture step by step",
+   "extracted_variables": {
+    "peripheral_doublets": "value of peripheral_doublets",
+    "central_singlets": "value of central_singlets"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate total peripheral microtubules",
+     "explain": "Multiply the 9 peripheral doublets by 2 to get individual peripheral microtubules.",
+     "compute": "peripheral_total = peripheral_doublets * 2"
+    },
+    {
+     "step": 2,
+     "action": "Sum peripheral and central microtubules",
+     "explain": "Add the 2 central singlet microtubules to the peripheral count.",
+     "compute": "total_microtubules = peripheral_total + central_singlets"
+    }
+   ]
+  },
+  {
+   "id": "exauto4",
+   "source_ref": "kebo108.txt lines 490-545",
+   "concept": "kebo.108.10",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute nuclear structure and chromosome morphologies step by step",
+   "extracted_variables": {
+    "total_dna_length": "value of total_dna_length",
+    "total_chromosomes": "value of total_chromosomes"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Divide total DNA length by chromosome count",
+     "explain": "Divide total meters of DNA by total number of chromosomes in the genome.",
+     "compute": "avg_length_per_chromosome = total_dna_length / total_chromosomes"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex8.1",
+   "source_ref": "Page 103, Question 1",
+   "questions": [
+    "Which of the following is not correct? (a) Robert Brown discovered the cell. (b) Schleiden and Schwann formulated the cell theory. (c) Virchow explained that cells are formed from pre-existing cells. (d) A unicellular organism carries out its life activities within a single cell."
+   ]
+  },
+  {
+   "id": "ex8.2",
+   "source_ref": "Page 103, Question 2",
+   "questions": [
+    "New cells generate from (a) bacterial fermentation (b) regeneration of old cells (c) pre-existing cells (d) abiotic materials."
+   ]
+  },
+  {
+   "id": "ex8.3",
+   "source_ref": "Page 103, Question 3",
+   "questions": [
+    "Match the following: (a) Cristae - (i) Flat membranous sacs in stroma, (b) Cisternae - (ii) Infoldings in mitochondria, (c) Thylakoids - (iii) Disc-shaped sacs in Golgi apparatus."
+   ]
+  },
+  {
+   "id": "ex8.4",
+   "source_ref": "Page 103, Question 4",
+   "questions": [
+    "Which of the following is correct: (a) Cells of all living organisms have a nucleus. (b) Both animal and plant cells have a well defined cell wall. (c) In prokaryotes, there are no membrane bound organelles. (d) Cells are formed de novo from abiotic materials."
+   ]
+  },
+  {
+   "id": "ex8.5",
+   "source_ref": "Page 103, Question 5",
+   "questions": [
+    "What is a mesosome in a prokaryotic cell? Mention the functions that it performs."
+   ]
+  },
+  {
+   "id": "ex8.6",
+   "source_ref": "Page 103, Question 6",
+   "questions": [
+    "How do neutral solutes move across the plasma membrane? Can the polar molecules also move across it in the same way? If not, then how are these transported across the membrane?"
+   ]
+  },
+  {
+   "id": "ex8.7",
+   "source_ref": "Page 103, Question 7",
+   "questions": [
+    "Name two cell-organelles that are double membrane bound. What are the characteristics of these two organelles? State their functions and draw labelled diagrams of both."
+   ]
+  },
+  {
+   "id": "ex8.8",
+   "source_ref": "Page 103, Question 8",
+   "questions": [
+    "What are the characteristics of prokaryotic cells?"
+   ]
+  },
+  {
+   "id": "ex8.9",
+   "source_ref": "Page 103, Question 9",
+   "questions": [
+    "Multicellular organisms have division of labour. Explain."
+   ]
+  },
+  {
+   "id": "ex8.10",
+   "source_ref": "Page 103, Question 10",
+   "questions": [
+    "Cell is the basic unit of life. Discuss in brief."
+   ]
+  },
+  {
+   "id": "ex8.11",
+   "source_ref": "Page 103, Question 11",
+   "questions": [
+    "What are nuclear pores? State their function."
+   ]
+  },
+  {
+   "id": "ex8.12",
+   "source_ref": "Page 103, Question 12",
+   "questions": [
+    "Both lysosomes and vacuoles are endomembrane structures, yet they differ in terms of their functions. Comment."
+   ]
+  },
+  {
+   "id": "ex8.13",
+   "source_ref": "Page 103, Question 13",
+   "questions": [
+    "Describe the structure of the following with the help of labelled diagrams: (i) Nucleus (ii) Centrosome."
+   ]
+  },
+  {
+   "id": "ex8.14",
+   "source_ref": "Page 103, Question 14",
+   "questions": [
+    "What is a centromere? How does the position of centromere form the basis of classification of chromosomes. Support your answer with a diagram showing the position of centromere on different types of chromosomes."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

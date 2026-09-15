@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_09_002",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_09_002",
+   "title": "c12_hist_cbse_09_002",
+   "questions": [
+    {
+     "q": "In which region and decade was the Ryotwari System first introduced, and who were the two key British officials associated with its design?",
+     "a": "The Ryotwari System was first introduced in the Bombay Deccan in the 1820s under Governor Thomas Munro and his predecessor Alexander Read. A wrong answer (e.g., \"Bengal, 1793, Cornwallis\") reveals confusion with the Permanent Settlement; answering \"Madras, 1800s\" without naming Munro/Read shows incomplete recall of the system's specific Deccan origins.",
+     "self_check": true
+    },
+    {
+     "q": "Why did British officials in the 1820s believe the Ryotwari System was theoretically superior to the Permanent Settlement, and what specific economic theory did they draw upon?",
+     "a": "Officials drew on David Ricardo's rent theory: they argued that under the Permanent Settlement, zamindars became rentiers capturing the \"surplus\" (produce above average rent) that rightfully belonged to the state. By settling directly with the ryot, the state could claim this surplus as revenue, preventing cultivators from turning into idle rentiers. A wrong answer citing \"to help peasants\" or \"to reduce revenue\" misses the core Ricardian motive — maximizing state share — and ignores the theoretical debt to Ricardo.",
+     "self_check": true
+    },
+    {
+     "q": "A ryot in the Deccan holds 10 acres of \"black cotton soil\" assessed at ₹5/acre annual revenue. Rainfall fails for two consecutive years; his yield drops 60%. Under the Ryotwari terms described in the NCERT, what options does he have to pay the revenue, and what is the likely long-term consequence?",
+     "a": "He must borrow from a moneylender (sahukar) because revenue is inflexible and collected with severity (crops seized, fines imposed on whole village). Repeated borrowing leads to mounting debt, eventual loss of land/assets, and dependence on the moneylender for production loans. A wrong answer suggesting \"he can petition for remission\" or \"revenue adjusts automatically\" ignores the NCERT's emphasis on the system's rigidity and the collectors' pressure to show efficiency.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the revenue flexibility of the Permanent Settlement (Bengal) and the Ryotwari Settlement (Bombay Deccan) during the 1830s price depression. Which system created greater immediate pressure on the primary revenue-payer, and why?",
+     "a": "The Ryotwari System created greater immediate pressure. In Bengal, the zamindar bore the fixed demand and could sometimes delay/evade payment (fictitious sales, NCERT p. 232); the ryot paid rent to the zamindar, who had some local leverage. In the Deccan, the ryot faced the state directly: revenue was invariable, collected punctually by salaried collectors under pressure to show results, and backed by coercion (crop seizure, village fines). A wrong answer claiming \"both were equally rigid\" misses the intermediation buffer in Bengal and the 30-year revision clause that *increased* Deccan demands over time.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT states: \"The revenue system that was introduced in the Bombay Deccan came to be known as the ryotwari settlement... The lands were resurveyed every 30 years and the revenue rates increased. Therefore the revenue demand was no longer permanent.\" Evaluate whether this periodic revision was a *design feature* or a *flaw* from the peasant's perspective, using evidence from the 1820s-1860s period.",
+     "a": "It was a design feature from the *state's* perspective (capturing rising land values per Ricardian theory) but a fatal flaw for peasants. The 1820s settlement set exorbitant rates; the 1830s price depression made them unpayable; the 1840s moderation came too late for many; the post-1865 revision (50-100% increase) coincided with the cotton bust, directly triggering the 1875 riots. A wrong answer calling it \"fair because it adjusted to productivity\" ignores the asymmetric timing: revisions captured upswings but offered no downside protection during depressions/famines.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a cause-effect chain (minimum 5 links) connecting: Ricardian theory → Ryotwari design choices → 1820s high assessment → 1830s price crash/famine → peasant borrowing → moneylender power → 1875 Deccan Riots. Identify the *critical link* where colonial policy could have broken the chain but did not.",
+     "a": "Chain: (1) Ricardian theory → state claims \"surplus\" as revenue; (2) Ryotwari design: direct settlement, field-level assessment, 30-year revision, no intermediaries; (3) 1820s assessment set high to capture anticipated surplus; (4) 1832-34 price crash + famine destroys repayment capacity; (5) Peasants borrow from moneylenders at high interest; (6) Debt traps deepen, moneylenders acquire land/assets via deeds/bonds; (7) 1865 revision doubles demand as cotton boom ends → riots. Critical missed link: **No remission mechanism for ecological shocks** (unlike Mughal *taqavi* loans or temporary remissions). The state refused to acknowledge that \"average rent\" varies with rainfall, treating revenue as a pure financial claim.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

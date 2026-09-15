@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_civ_ch2_4",
+ "concepts": [
+  {
+   "id": "enh:c8_civ_ch2_4",
+   "title": "c8_civ_ch2_4",
+   "questions": [
+    {
+     "q": "What constitutional principle guarantees that every adult citizen in India has the right to vote for their Lok Sabha representative?",
+     "a": "Universal Adult Suffrage (Article 326). A wrong answer usually confuses this with indirect election methods or eligibility age, revealing a misunderstanding of how direct popular sovereignty operates in the Lok Sabha.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the Lok Sabha referred to as the \"House of the People\" rather than a council of states or appointed delegates?",
+     "a": "It is called the House of the People because its members are directly elected by ordinary citizens of India, ensuring direct accountability to the electorate. A wrong answer claiming members are chosen by state assemblies confuses the Lok Sabha with the Rajya Sabha.",
+     "self_check": true
+    },
+    {
+     "q": "A citizen living in a rural constituency turns 18 years old just before the general elections. Can they cast a vote to elect their Member of Parliament for the Lok Sabha?",
+     "a": "Yes. Under Article 326 of the Constitution, any Indian citizen who is 18 years of age or older, and not otherwise disqualified, has the right to vote in Lok Sabha elections. A wrong answer suggests the student does not understand universal adult suffrage or age eligibility.",
+     "self_check": true
+    },
+    {
+     "q": "How does the territorial constituency system ensure that densely populated states like Uttar Pradesh have more Lok Sabha seats than smaller states like Sikkim?",
+     "a": "Constituencies are carved out based on population size so that roughly equal numbers of citizens are represented by each MP, giving more populous states a higher seat count. A wrong answer indicates confusion between equal state representation and proportional popular representation.",
+     "self_check": true
+    },
+    {
+     "q": "Does the direct election of Lok Sabha members make the government more accountable to citizens compared to a system with appointed lawmakers?",
+     "a": "Yes, because elected officials must face the voters every five years, forcing them to address public welfare and citizen concerns to win reelection. A wrong answer shows a lack of understanding of democratic accountability and electoral consequences.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short rule for a mock school parliament explaining how your school would elect a \"Student Lok Sabha\" if it mirrored the Indian national legislature.",
+     "a": "A good response proposes direct, secret-ballot voting by all students (representing citizens) divided into equal grade-based constituencies. A poor response suggests teachers appointing representatives, missing the core requirement of direct election.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

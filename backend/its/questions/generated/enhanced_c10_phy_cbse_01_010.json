@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_01_010",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_01_010",
+   "title": "c10_phy_cbse_01_010",
+   "questions": [
+    {
+     "q": "Define electric power and state its SI unit.",
+     "a": "Electric power is the rate at which electrical energy is consumed: P = VI. SI unit: watt (W), where 1 W = 1 V × 1 A. A wrong answer (e.g., \"power is energy\") confuses power (rate) with energy (total).",
+     "self_check": true
+    },
+    {
+     "q": "State the three equivalent formulas for electric power.",
+     "a": "P = VI, P = I²R, P = V²/R. The second and third are derived from P = VI using V = IR (Ohm's law). A wrong answer (e.g., omitting P = V²/R) shows incomplete knowledge of the equivalent forms.",
+     "self_check": true
+    },
+    {
+     "q": "A bulb rated 60 W operates at 220 V. Find the current drawn and the resistance of the bulb.",
+     "a": "I = P/V = 60/220 ≈ 0.273 A. R = V/I = 220/0.273 ≈ 806.7 Ω. (Or: R = V²/P = 220²/60 = 48400/60 ≈ 806.7 Ω.) A wrong answer (e.g., R = 220/60) shows the student confused V/I with V/P.",
+     "self_check": true
+    },
+    {
+     "q": "An electric heater draws a current of 5 A when connected to a 220 V supply. Calculate the power consumed.",
+     "a": "P = VI = 220 × 5 = 1100 W = 1.1 kW. A wrong answer (e.g., P = 220/5 = 44 W) shows the student divided instead of multiplying.",
+     "self_check": true
+    },
+    {
+     "q": "What is 1 kilowatt-hour (kWh) in joules?",
+     "a": "1 kWh = 1000 W × 3600 s = 3.6 × 10⁶ J. A wrong answer (e.g., 3600 J) shows the student did not convert kW to W or hours to seconds correctly.",
+     "self_check": true
+    },
+    {
+     "q": "A 1500 W heater runs for 2 hours. Calculate the energy consumed in kWh and the cost at Rs 6 per kWh.",
+     "a": "Energy = P × t = 1.5 kW × 2 h = 3 kWh. Cost = 3 × 6 = Rs 18. A wrong answer (e.g., 1500 × 2 = 3000 kWh) shows the student did not convert watts to kilowatts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

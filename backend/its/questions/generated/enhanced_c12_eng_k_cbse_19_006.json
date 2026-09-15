@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_19_006",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_19_006",
+   "title": "c12_eng_k_cbse_19_006",
+   "questions": [
+    {
+     "q": "State the primary theme of Asimov's essay \"On Science Fiction\" in one sentence.",
+     "a": "The primary theme is the fundamental distinction between pre-scientific imagination (myths/legends relying on gods, demons, and magic) and science fiction (grounded in the understanding and extrapolation of immutable natural laws), and the assertion that science fiction is the uniquely valid literature of wonder for the scientific age. A wrong answer that merely says \"Asimov defines science fiction\" reveals the student has identified the topic but not the *argument* — the theme is a claim about the *relationship* between two modes of imagination and the *superior validity* of one in the modern world.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Asimov believes science fiction could not exist before the Industrial Revolution.",
+     "a": "Asimov argues that science fiction requires the idea that science and technology produce the future and make it different from the present. This idea only becomes possible when the rate of scientific/technological change becomes noticeable within a human lifetime, which began with the Industrial Revolution (~1800). Before that, change was too slow to perceive, so people imagined the future as essentially like the past. A wrong answer that says \"because science didn't exist\" misses the nuance: Asimov's point is about the *perception of change*, not the existence of science per se.",
+     "self_check": true
+    },
+    {
+     "q": "Asimov writes: \"In a narrow sense, only science fiction is valid for today since, as far as we can tell, the Universe does follow the dictates of the laws of nature and is not at the mercy of gods and demons.\" Apply this reasoning to explain why a story about a character who solves problems by praying to a deity for miracles would *not* be science fiction, even if set in a spaceship.",
+     "a": "The story's problem-solving mechanism relies on supernatural intervention (prayer/miracle) which operates outside natural law — the deity can suspend laws arbitrarily. Science fiction, per Asimov, requires that the universe operates by \"impersonal and unswervable laws of nature\" that characters understand and manipulate. Setting it on a spaceship only changes the *setting*, not the *governing logic* of the universe. A wrong answer focusing on the spaceship setting shows the student confuses *background* (Asimov's term) with the *governing principle* that defines the genre.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how Asimov's structure in Section I (moving from myths → magical formulas → priests/magicians → specific examples like crystal balls/seven-league boots → explicit comparison with modern technology → final contrast of governing principles) builds his argument for the primary theme.",
+     "a": "The structure follows a logical progression: (1) establishes the *emotional need* (wonder) common to both myths and SF, (2) shows the *mechanism* in myths (gods controlled by formulas), (3) gives concrete *parallels* (crystal ball ≈ TV, seven-league boots ≈ car), (4) explicitly states the *governing principle difference* (gods/magic vs. natural law), (5) concludes with the *validity claim* for today. This step-by-step mapping makes the abstract distinction tangible and proves the \"analogous paths\" claim. A wrong answer that just lists the examples misses the *argumentative function* of each structural move.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate Asimov's claim that \"mainstream fiction... forms only an inconsiderable fraction of the whole\" of conceivable societies. Is this a fair assessment of literary value, or does it reflect a genre bias? Justify your position with reference to the essay.",
+     "a": "Asimov's claim is *structurally* fair within his definition (SF = all conceivable societies, mainstream = here-and-now), but *evaluatively* biased: he equates \"size of domain\" with literary significance, ignoring that mainstream fiction's depth of psychological realism in the *one* society we actually inhabit may offer insights SF's extrapolation cannot. The essay itself admits SF's \"grand vision\" but also notes Campbell's \"failure of nerve\" about SF mysteries, suggesting even SF's practitioners recognize limits. A strong evaluation acknowledges both the logical consistency of his definition and the unexamined assumption that breadth > depth. A wrong answer that simply agrees or disagrees without engaging his definition shows uncritical acceptance or rejection.",
+     "self_check": true
+    },
+    {
+     "q": "Create a one-paragraph \"blurb\" for a hypothetical science fiction anthology that embodies Asimov's definition of the genre (background-based, law-governed, extrapolative) and explicitly contrasts it with a fantasy anthology blurb written in the \"prescientific universe\" mode.",
+     "a": "**SF Anthology Blurb:** \"Twelve visions of societies shaped by the relentless logic of physics and biology: a colony where genetics determines caste, a fleet where relativity makes trade a time-dilation gamble, an AI-governed habitat optimizing for stability — each world built on extrapolated science, each conflict resolved by understanding the rules.\" **Fantasy Anthology Blurb:** \"Twelve tales of realms where will bends reality: a kingdom saved by a prophecy-fulfilling sword, a quest guided by a capricious river spirit, a war won by awakening a sleeping dragon — each wonder invoked by ancient pacts and heroic hearts, where the impossible serves the story.\" A poor answer would mix the two modes (e.g., \"magic-powered spaceships\") showing failure to internalize Asimov's core distinction of *governing principle*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

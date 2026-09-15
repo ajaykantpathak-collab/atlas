@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch01_003",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch01_003",
+   "title": "c7_physics_ch01_003",
+   "questions": [
+    {
+     "q": "What is the primary difference between a qualitative observation and a quantitative observation when studying a burning candle in a science lab?",
+     "a": "A qualitative observation describes properties using words without numbers (e.g., the flame is yellow, the wax melts smoothly), whereas a quantitative observation involves numerical measurement (e.g., the candle burns down by 2 cm in 5 minutes). A wrong answer usually confuses descriptive sensory details with measurable physical quantities, failing to recognize that quantitative data requires instruments and units.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it essential to change only one variable at a time during a scientific experiment while keeping all other conditions constant?",
+     "a": "Keeping all other conditions constant (called controlling variables) ensures that any change you observe in the result is caused solely by the single variable you modified. A wrong answer often assumes that changing multiple factors at once makes an experiment faster or more efficient, ignoring the fact that it becomes impossible to know which factor caused the observed result.",
+     "self_check": true
+    },
+    {
+     "q": "A student measures the time taken for a toy car to roll down a 2-meter wooden ramp three separate times. The recorded times are 4.2 seconds, 4.1 seconds, and 4.3 seconds. What is the average time taken, and why do scientists take multiple readings instead of just one?",
+     "a": "The average time is calculated as (4.2 + 4.1 + 4.3) / 3 = 12.6 / 3 = 4.2 seconds. Scientists take multiple readings to reduce human reaction-time error and account for minor experimental variations, ensuring more reliable data. A wrong answer often adds the numbers incorrectly or fails to divide by the number of trials, or states that one reading is enough if it looks correct.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze a scenario where a student tests how fast sugar dissolves in water. They stir cold water gently in cup A and stir hot water vigorously in cup B. Can they make a valid scientific conclusion about whether temperature affects dissolving speed? Explain why or why not.",
+     "a": "No, they cannot make a valid conclusion because they changed two variables at the same time: temperature (cold vs. hot) and stirring rate (gentle vs. vigorous). To test temperature properly, stirring must be kept identical in both cups. A wrong answer suggests that any difference in dissolving speed proves temperature is the cause, ignoring the confounding effect of stirring.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following student procedure: \"To see if heavy objects fall faster than light objects, I dropped a crumpled paper ball and a flat sheet of paper from the balcony at the same time. The crumpled ball hit the ground first, proving heavy objects fall faster.\" Is this conclusion justified?",
+     "a": "The conclusion is not justified. While the crumpled ball hit first, the difference was caused by air resistance acting differently on the flat sheet's surface area, not its weight. A valid test in a school lab requires dropping objects of similar shape and size but different mass, or dropping them inside an evacuated tube. A wrong answer accepts the student's surface-level observation without considering environmental factors like air resistance.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to test whether the color of a container affects how fast water inside it heats up under sunlight. Describe your observation method, controlled variables, and what data you would record.",
+     "a": "A good answer will specify taking two identical containers (one painted black, one painted white), filling them with equal volumes of water at the same initial temperature, placing them in direct sunlight for 30 minutes, and recording final temperatures with a thermometer. A poor answer lacks controlled variables (e.g., using different amounts of water or placing one in shade), failing to isolate container color as the sole test variable.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

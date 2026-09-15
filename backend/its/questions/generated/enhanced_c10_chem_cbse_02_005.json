@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_02_005",
+   "title": "c10_chem_cbse_02_005",
+   "questions": [
+    {
+     "q": "Write the balanced chemical equation for the reaction between dilute hydrochloric acid and sodium carbonate. Name all three products formed.",
+     "a": "Na₂CO₃(s) + 2HCl(aq) → 2NaCl(aq) + H₂O(l) + CO₂(g). Products: sodium chloride (salt), water, carbon dioxide. A wrong answer where the student writes only NaCl + CO₂ (missing H₂O) reveals they do not understand that the carbonate ion (CO₃²⁻) combines with 2H⁺ to form H₂CO₃ which decomposes to H₂O + CO₂. Missing water violates mass conservation and is a common 1-mark deduction in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the reaction of sulfuric acid with sodium hydrogencarbonate requires only half the moles of acid compared to sodium carbonate for the same amount of CO₂ production.",
+     "a": "NaHCO₃ contains one replaceable H⁺ equivalent (HCO₃⁻ + H⁺ → H₂CO₃ → H₂O + CO₂) while CO₃²⁻ requires two H⁺ (CO₃²⁻ + 2H⁺ → H₂CO₃ → H₂O + CO₂). Thus 1 mol H₂SO₄ (2H⁺) reacts with 2 mol NaHCO₃ but only 1 mol Na₂CO₃. A wrong answer stating \"both need 2H⁺\" reveals confusion between the anion charges and failure to apply valency cross-method from Class 9 (c9_chem_ch3_6) to acid-base stoichiometry.",
+     "self_check": true
+    },
+    {
+     "q": "A student adds dilute HCl to a white solid X. A colourless gas Y evolves which turns lime water milky. The residue after reaction dissolves completely in water giving a neutral solution. Identify X and Y, and write the balanced equation.",
+     "a": "X = CaCO₃ (calcium carbonate), Y = CO₂. Equation: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g). Steps: (1) Gas turns lime water milky → CO₂. (2) Residue dissolves giving neutral solution → CaCl₂ (salt of strong acid + strong base). (3) Balance: Ca and Cl balanced with 2HCl, H and O balanced with H₂O. A wrong answer identifying X as Na₂CO₃ reveals inability to use solubility/residue clues — Na₂CO₃ would also dissolve but the \"white solid\" description fits both; however, CaCO₃ is the classic \"limestone\" example in NCERT. Missing (s) and (aq) state symbols loses ½ mark in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the volume of CO₂ gas produced at STP when 10 g of Na₂CO₃ and 10 g of NaHCO₃ are reacted separately with excess dilute HCl. Which gives more CO₂ and by what factor? (Molar masses: Na₂CO₃ = 106 g/mol, NaHCO₃ = 84 g/mol)",
+     "a": "Na₂CO₃: 10 g = 0.0943 mol → produces 0.0943 mol CO₂ (1:1). NaHCO₃: 10 g = 0.119 mol → produces 0.119 mol CO₂ (1:1). NaHCO₃ gives more CO₂ by factor 0.119/0.0943 ≈ 1.26. A wrong answer claiming Na₂CO₃ gives more because \"it has 2 Na\" reveals confusion between formula units and mole concept (c9_chem_ch3_9). Students must calculate moles first, then use stoichiometry — mass alone is misleading due to different molar masses.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the reaction: 2NaHCO₃ + H₂SO₄ → Na₂SO₄ + 2CO₂ + 2H₂O. Evaluate if this equation is correctly balanced and chemically accurate. If not, correct it.",
+     "a": "The equation is correctly balanced: Na (2), H (2+2=4 on left, 4 on right), C (2), O (6+4=10 left, 4+4+2=10 right), S (1). Chemically accurate: H₂SO₄ provides 2H⁺, each NaHCO₃ needs 1H⁺ → 2:1 ratio correct. A wrong answer saying \"should be NaHCO₃ + H₂SO₄ → NaHSO₄ + CO₂ + H₂O\" reveals misunderstanding that with excess acid, complete neutralisation to normal salt (Na₂SO₄) occurs. Board exams expect complete reaction unless \"limited acid\" is specified.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory experiment to distinguish between solid samples of sodium carbonate and sodium hydrogencarbonate using only dilute HCl and lime water. Write the procedure, expected observations, and the chemical reasoning.",
+     "a": "Procedure: (1) Take two test tubes, add 1 g each solid. (2) Add 5 mL dilute HCl to both. (3) Pass gas from each through separate lime water tubes. Observations: Both produce CO₂ (lime water turns milky). Na₂CO₃ reacts vigorously with 2HCl; NaHCO₃ reacts moderately with 1HCl per mole. To distinguish: measure gas volume — same mass of NaHCO₃ gives ~1.26× more CO₂ (see Q4). Or add acid dropwise: Na₂CO₃ needs 2× more drops for complete reaction. Reasoning: Different H⁺ stoichiometry (CO₃²⁻ vs HCO₃⁻). A poor answer that only says \"both fizz\" without quantitative distinction reveals inability to apply mole concept for identification — a common board practical question.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

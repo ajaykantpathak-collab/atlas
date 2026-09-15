@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_02_010",
+   "title": "c11_hist_cbse_02_010",
+   "questions": [
+    {
+     "q": "In what year did Constantine I officially dedicate Constantinople as the new capital of the Roman Empire, and what was the city's earlier name?",
+     "a": "Constantine dedicated Constantinople in 324 CE (formally inaugurated 330 CE); the city was formerly the Greek colony of Byzantium. A wrong answer (e.g., 312 CE, the Battle of Milvian Bridge, or \"Rome\") reveals confusion between Constantine's conversion, his victory over Licinius, and the actual foundation of the eastern capital — a common chronology error in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the eastern Roman Empire survive the 5th-century Germanic invasions that destroyed the western empire, despite facing similar pressures?",
+     "a": "The east survived because: (1) its capital Constantinople was defensible by sea and land with massive walls; (2) it retained richer, more urbanised provinces (Egypt, Syria, Asia Minor) generating stable tax revenue in gold; (3) it maintained a professional field army paid in solidi, not foederati; (4) emperors like Zeno and Anastasius used diplomacy (subsidies, marriage alliances) to divert invaders westward. A wrong answer focusing only on \"stronger walls\" or \"better emperors\" misses the systemic fiscal-military-diplomatic integration that Class 11 requires.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the following statement using evidence from the 6th century: \"Justinian's reconquest of the western Mediterranean strengthened the Byzantine Empire in the long run.\" Support or refute with three specific consequences.",
+     "a": "Refute. Consequences: (1) Fiscal exhaustion — the Gothic War (535–554) devastated Italy's economy and cost ~300,000 lbs of gold, emptying Anastasius's treasury surplus; (2) Overextension — garrisons in Africa, Italy, Spain stretched the army thin, leaving the Balkan and eastern frontiers undermanned against Slavs and Persians; (3) Plague vulnerability — the 541–549 bubonic plague spread rapidly along reconquest supply lines, killing ~25–50% of the population. A \"support\" answer ignores the structural trade-off between territorial ambition and core resilience — a key analytical skill for \"evaluate\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the administrative response of the eastern empire to the 7th-century crisis (Heraclius, 610–641) with Diocletian's 3rd-century reforms. Identify two structural similarities and one critical difference in military organisation.",
+     "a": "Similarities: (1) Both separated civilian and military authority to prevent usurpation; (2) Both reorganised provinces into smaller units for tighter control. Difference: Diocletian created mobile comitatenses and limitanei under central command; Heraclius created the theme system where soldier-farmers (stratiotai) held land grants (stratiotika ktemata) in exchange for hereditary military service, decentralising defence and reducing cash salary dependence. A wrong answer conflating \"theme\" with \"province\" or missing the land-for-service swap shows lack of grasp on the evolution from late Roman to medieval Byzantine military-fiscal structure.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the historian A.H.M. Jones's claim that \"the Byzantine Empire was the Roman Empire in its medieval phase.\" Use evidence from religion, law, language, and army to justify your position.",
+     "a": "Partially valid but requires nuance. Continuity: Roman law (Corpus Juris Civilis, 529–534), imperial ideology (basileus as God's vice-regent), bureaucracy, and citizenship concept persisted. Transformation: Greek replaced Latin as administrative language (7th century); Orthodox Christianity became state ideology with caesaropapism; theme army replaced professional legions; economy shifted from monetary to semi-naturalised. The empire was Roman in legal-political DNA but Byzantine in socio-cultural expression. A binary \"yes/no\" answer fails the \"evaluate\" demand for weighed judgement with multi-dimensional evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline (324–642 CE) showing the causal chain from Constantine's foundation to the Arab conquests, with annotations explaining how each event altered the empire's fiscal-military capacity. Include at least 8 dated events.",
+     "a": "Sample timeline: 324 – Constantinople founded (strategic capital, tax hub); 395 – Final east-west split (separate fiscal systems); 491–518 – Anastasius's reforms (abolished chrysargyron, built 320,000 lbs gold reserve); 527–565 – Justinian's reign (reconquest costs, plague, legal codification); 541–549 – Plague of Justinian (demographic-fiscal shock); 602–628 – Byzantine-Sasanian War (exhausted both empires); 610–641 – Heraclius (theme system inception, True Cross recovery); 633–642 – Arab conquests (loss of Egypt/Syria = 60% revenue, 50% manpower). Each annotation must link event to fiscal-military capacity change. Poor answers list events without causal annotation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

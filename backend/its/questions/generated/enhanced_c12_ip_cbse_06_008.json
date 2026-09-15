@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_06_008",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_06_008",
+   "title": "c12_ip_cbse_06_008",
+   "questions": [
+    {
+     "q": "What is the correct HTML syntax to link an external stylesheet named `styles.css` located in the same folder as the HTML file?",
+     "a": "`<link rel=\"stylesheet\" href=\"styles.css\">` placed inside the `<head>` element. A wrong answer like `<style src=\"styles.css\"></style>` or `<script src=\"styles.css\"></script>` reveals confusion between the `<link>` tag (for external resources) and `<style>`/`<script>` tags (for embedded code). Students often mix up `href` vs `src` or forget `rel=\"stylesheet\"`.",
+     "self_check": true
+    },
+    {
+     "q": "A developer writes `<h1 style=\"color: red;\">Welcome</h1>` and also has an internal stylesheet rule `h1 { color: blue; }`. What color will the heading be, and why?",
+     "a": "Red. Inline styles have higher specificity than internal (or external) stylesheet rules, so they override them regardless of order. A wrong answer of \"blue\" shows the student doesn't understand the specificity hierarchy: inline > internal/embedded > external. They may think \"last declared wins\" applies universally, not realizing inline styles sit at the top of the cascade for that element.",
+     "self_check": true
+    },
+    {
+     "q": "You are styling a 5-page website where all pages share the same header, footer, and navigation bar, but each page has a unique hero section. Which CSS inclusion strategy minimizes duplication and maximizes maintainability?",
+     "a": "Use an external stylesheet (`common.css`) for shared components (header, footer, nav) and internal `<style>` blocks on each page for the unique hero section. A wrong answer like \"put everything in one external file\" creates unnecessary HTTP requests for page-specific styles, while \"use inline styles for hero sections\" sacrifices maintainability. The student must balance reuse (external) vs. scope isolation (internal).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the browser caching behavior of internal CSS vs. external CSS when a user navigates from `index.html` to `about.html` on the same site. Which reduces bandwidth on the second page load and why?",
+     "a": "External CSS reduces bandwidth because the browser caches `styles.css` after the first request and reuses it on `about.html` without re-downloading. Internal CSS is re-sent with every HTML page since it's embedded in each document. A wrong answer claiming \"both cache equally\" ignores that HTML documents are rarely cached aggressively, while static `.css` files are cached by default with long max-age headers.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this approach: \"For a React component library, we'll put all styles in external CSS files and use BEM naming to avoid conflicts.\" Identify one scenario where this fails and suggest a better alternative.",
+     "a": "Fails when components need dynamic styles based on props (e.g., `<Button variant=\"primary\" />` changing colors). External CSS + BEM can't express runtime values. Better: use CSS Modules or CSS-in-JS (styled-components) for component-scoped dynamic styling, keeping global theme tokens in external CSS. A weak answer misses the static-vs-dynamic distinction and suggests \"just add more classes\" which doesn't scale for arbitrary prop combinations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-page portfolio site structure (HTML + CSS files) showing exactly where inline, internal, and external CSS each live. Annotate each choice with a one-line justification.",
+     "a": "Expected structure:\n- `index.html`, `projects.html`, `contact.html` each link `<link rel=\"stylesheet\" href=\"global.css\">` (external — shared layout, typography, colors)\n- `projects.html` has `<style>` block for project-grid animations (internal — page-specific interactive behavior)\n- `contact.html` has `<button style=\"background: #ff6b6b;\">` on the submit button (inline — one-off emphasis color not reused)\nA poor answer puts everything in one file or uses inline for repeated patterns, showing no grasp of scope-based separation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

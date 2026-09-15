@@ -1,0 +1,358 @@
+{
+ "class": 11,
+ "subject": "computer_science",
+ "chapter": 10,
+ "chapter_title": "Tuples and Dictionaries",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kecs110.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kecs110.1",
+   "title": "Tuple Aggregates: sum, min and max",
+   "section": "10.3 and Table 10.1",
+   "definition": "Built-in functions read a numeric tuple in one call: sum() totals its elements, min() returns the smallest and max() the largest, and sorted() hands back a brand-new sorted list without touching the tuple.",
+   "formula": "total = sum(tuple1)",
+   "key_idea": "For the tuple (19, 12, 56, 18, 9, 87, 34) the three functions answer 235, 9 and 87.",
+   "textbook_ref": "kecs110.txt, section 10.3, Table 10.1",
+   "question_patterns": [
+    "For tuple1 = (19, 12, 56, 18, 9, 87, 34), what do sum, min and max return?",
+    "What does sorted(tuple1) produce for tuple1 = (23, 1, 45, 67, 45, 9, 55, 45), and does tuple1 change?",
+    "Evaluate tuple1.index(45) and tuple1.count(45) for the tuple (23, 1, 45, 67, 45, 9, 55, 45).",
+    "Why does sum(tuple2) work for (100, 200) but max of a mixed tuple like ('Economics', 87) fail?",
+    "Find the total of all elements of the tuple (9, 8, 10, 12, 15)."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "total the first four elements",
+     "explain": "Fold the leading elements into a partial sum.",
+     "compute": "partial = 19 + 12 + 56 + 18"
+    },
+    {
+     "step": 2,
+     "action": "add the remaining elements",
+     "explain": "9, 87 and 34 complete the total.",
+     "compute": "subtotal = partial + 9 + 87 + 34"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "For the tuple (19, 12, 56), what does max() return?",
+     "a": "56"
+    }
+   ]
+  },
+  {
+   "id": "kecs110.2",
+   "title": "Swapping Numbers by Tuple Assignment",
+   "section": "10.4 and Program 10-2",
+   "definition": "Tuple assignment places a tuple of variables on the left of = and values on the right, so two numbers swap without a temporary variable; the counts on both sides must match or a ValueError about unpacking appears.",
+   "formula": "(first, second) = (second, first)",
+   "key_idea": "The right side is fully evaluated before any assignment, which is why no value is lost during the swap.",
+   "textbook_ref": "kecs110.txt, section 10.4, Examples 10.2-10.3 and Program 10-2",
+   "question_patterns": [
+    "Show how (num1, num2) = (num2, num1) swaps 5 and 10 without a third variable.",
+    "What error appears for (a, b, c, d) = (5, 6, 8), and what does its message say?",
+    "After (num3, num4) = (10 + 5, 20 + 5), which values do the variables hold?",
+    "Unpack the record ('Pooja', 40, 'CS') into three variables and name each one.",
+    "Why does the right side of a tuple assignment evaluate before the left side receives values?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate the right-side pair",
+     "explain": "Both old values are read before anything is written.",
+     "compute": "new_first = second_value"
+    },
+    {
+     "step": 2,
+     "action": "complete the swap",
+     "explain": "The other variable receives the old first value.",
+     "compute": "new_second = first_value"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which assignment style swaps two numbers without a temporary variable?",
+     "a": "tuple assignment"
+    }
+   ]
+  },
+  {
+   "id": "kecs110.3",
+   "title": "Circle Area and Circumference Returned as a Tuple",
+   "section": "Program 10-3",
+   "definition": "The function circle(r) computes both the area (3.14 times radius squared) and the circumference (2 times 3.14 times radius), then returns them together as a two-element tuple that the caller unpacks in one statement.",
+   "formula": "circumference = 2 * 3.14 * radius",
+   "key_idea": "Returning (area, circumference) lets one function deliver two results without global variables.",
+   "textbook_ref": "kecs110.txt, Program 10-3",
+   "question_patterns": [
+    "For radius 5, which area and circumference does the circle function return?",
+    "Write a function that returns the area and circumference of a circle as a tuple.",
+    "How does the statement area, circumference = circle(radius) unpack the returned pair?",
+    "Which value is larger for a radius of 5: the area or the circumference, and by how much?",
+    "Why is returning a tuple preferable to printing both values inside the function?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the radius",
+     "explain": "The area formula needs radius squared.",
+     "compute": "squared = radius ** 2"
+    },
+    {
+     "step": 2,
+     "action": "compute the area",
+     "explain": "Multiply by 3.14.",
+     "compute": "area = 3.14 * squared"
+    },
+    {
+     "step": 3,
+     "action": "compute the circumference",
+     "explain": "Two pi times radius closes the pair.",
+     "compute": "circumference = 2 * 3.14 * radius"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Using pi = 3.14, what circumference does circle(10) return? (Take 2 * 3.14 * 10.)",
+     "a": "62.8"
+    }
+   ]
+  },
+  {
+   "id": "kecs110.4",
+   "title": "Aggregating Dictionary Values",
+   "section": "10.7 and 10.11",
+   "definition": "A dictionary maps unique keys to values, and the methods values() and items() expose the stored data; the marks of a class dictionary can be totalled and averaged by reading the value of every key.",
+   "formula": "average = (v1 + v2 + v3 + v4) / 4",
+   "key_idea": "Keys act as the index, so dict3['Ram'] always yields 89 no matter where the item sits.",
+   "textbook_ref": "kecs110.txt, sections 10.7, 10.10 and 10.11",
+   "question_patterns": [
+    "For dict3 = {'Mohan': 95, 'Ram': 89, 'Suhel': 92, 'Sangeeta': 85}, compute the average of the four marks.",
+    "What do dict3.keys() and dict3.values() return?",
+    "Why does dict3['Shyam'] raise KeyError while dict3.get('Shyam') returns None?",
+    "Find the total marks stored in the class dictionary and the topper's score.",
+    "How does the items() method help while traversing a dictionary with a for loop?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the first three values",
+     "explain": "Mohan, Ram and Suhel contribute the first partial total.",
+     "compute": "partial = 95 + 89 + 92"
+    },
+    {
+     "step": 2,
+     "action": "add the last value",
+     "explain": "Sangeeta's 85 completes the total.",
+     "compute": "total = partial + 85"
+    },
+    {
+     "step": 3,
+     "action": "average over the keys",
+     "explain": "Four students share the total.",
+     "compute": "average = total / 4"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A class dictionary's four marks are 89, 92, 75 and 84. What is their average?",
+     "a": "85"
+    }
+   ]
+  },
+  {
+   "id": "kecs110.5",
+   "title": "Character Frequency Dictionary",
+   "section": "Program 10-7 and Programming Problem 4",
+   "definition": "Traversing a string with a dictionary counter tallies each character: the first sighting stores 1 under that key and every later sighting increments it, so the dictionary maps each character to how many times it occurs.",
+   "formula": "extra_copies = total_letters - distinct_letters",
+   "key_idea": "For 'HelloWorld' the counter shows l at 3 and o at 2, and every other letter exactly once.",
+   "textbook_ref": "kecs110.txt, Program 10-7 and Programming Problem 4",
+   "question_patterns": [
+    "Build the character count dictionary for the string 'HelloWorld'.",
+    "How many distinct characters does 'w3resource' contain, and how many letters repeat?",
+    "In Program 10-7, what happens the first time a character is seen, and what on later sightings?",
+    "Convert the digits of 6512 into words using the numberNames dictionary.",
+    "Write a program that creates a dictionary from a string, tracking the count of each letter."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the distinct characters",
+     "explain": "H, e, l, o, W, r, d give seven distinct keys.",
+     "compute": "distinct_letters = 7"
+    },
+    {
+     "step": 2,
+     "action": "subtract from the total length",
+     "explain": "Ten letters minus seven distinct keys leaves the three surplus copies of l and o.",
+     "compute": "extra_copies = total_letters - distinct_letters"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "In the frequency counter for 'HelloWorld', how many times does the letter l appear?",
+     "a": "3"
+    }
+   ]
+  },
+  {
+   "id": "kecs110.6",
+   "title": "Single-Element Tuple Comma Rule",
+   "section": "10.1",
+   "definition": "A tuple holding exactly one element still needs a trailing comma: (20) is merely the integer 20 in brackets, while (20,) is a tuple; even without parentheses, comma-separated values such as 1, 2, 3 form a tuple.",
+   "formula": "tuple5 = (20,) # comma marks the tuple",
+   "key_idea": "The comma, not the parenthesis, is what makes a tuple.",
+   "textbook_ref": "kecs110.txt, section 10.1",
+   "question_patterns": [
+    "Why does len((20)) raise TypeError while len((20,)) returns 1?",
+    "What type does seq = 1, 2, 3 receive, and why?",
+    "How do you extend the tuple (1, 2, 3, 4, 5) by one more element using concatenation?",
+    "Write the correct way to create a one-element tuple containing the string 'Hello'.",
+    "What type is displayed by type(tuple5) when tuple5 = (20)?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "inspect the type",
+     "explain": "Parentheses alone make no tuple; the trailing comma does, and bare comma-separated values default to tuple type."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Is (20) a tuple or an integer?",
+     "a": "integer"
+    }
+   ]
+  },
+  {
+   "id": "kecs110.7",
+   "title": "Immutable Tuple with a Mutable List Inside",
+   "section": "10.1.2",
+   "definition": "Assigning to a tuple position raises TypeError because a tuple is immutable, yet a list stored inside the tuple remains editable through two indices, so tuple2[3][1] = 10 succeeds while tuple2[3] = something does not.",
+   "formula": "tuple1[4] = 10 -> TypeError; tuple2[3][1] = 10 -> allowed",
+   "key_idea": "Immutability freezes the references a tuple holds, not the contents those references point to.",
+   "textbook_ref": "kecs110.txt, section 10.1.2",
+   "question_patterns": [
+    "Why does tuple1[4] = 10 fail for tuple1 = (1, 2, 3, 4, 5)?",
+    "How can the list (8, 9) inside tuple2 = (1, 2, 3, [8, 9]) still be changed to (8, 10)?",
+    "What advantage do tuples have over lists for fixed data?",
+    "After tuple2[3][1] = 10, what does printing tuple2 show?",
+    "Explain why iterating over a tuple is faster than over a list."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "separate the two levels",
+     "explain": "Item assignment on the tuple itself is banned, but mutation of a mutable object referenced by the tuple, such as its inner list, goes through."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Assigning tuple1[4] = 10 raises which error?",
+     "a": "TypeError"
+    }
+   ]
+  },
+  {
+   "id": "kecs110.8",
+   "title": "Dictionary Methods: get, update, del and clear",
+   "section": "10.11 and Program 10-5",
+   "definition": "The get() method fetches a value or falls back to None for a missing key, update() merges another dictionary's pairs in, del removes one key's item or the whole dictionary, and clear() empties every pair while keeping the name alive.",
+   "formula": "dict1.get(key) -> value or None",
+   "key_idea": "After del dict1 the name itself is gone and reuse raises NameError, but after clear() the empty dictionary remains.",
+   "textbook_ref": "kecs110.txt, Table 10.2 and Program 10-5",
+   "question_patterns": [
+    "What do stateCapital.get('Bihar') and stateCapital.get('Assam') return for the given dictionary?",
+    "After dict1.update({'Sohan': 79, 'Geeta': 89}), how many pairs does dict1 hold?",
+    "Differentiate the effect of del dict1['Ram'] from that of dict1.clear().",
+    "Which error follows the statement del dict1 and then dict1?",
+    "In the ODD dictionary {1: 'One', 3: 'Three', 5: 'Five', 7: 'Seven', 9: 'Nine'}, what remains after deleting the item with key 9?",
+    "How does the in operator test for the presence of 7 in the ODD dictionary?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the four operations in order of severity",
+     "explain": "get() only reads, update() adds or overwrites pairs, del removes one key or the whole object, and clear() empties the dictionary but keeps the binding."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which dictionary method fetches a value or falls back to None for a missing key?",
+     "a": "get()"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "kecs110.we1",
+   "title": "Totalling a numeric tuple",
+   "concept_id": "kecs110.1",
+   "problem": "For tuple1 = (19, 12, 56, 18, 9, 87, 34), compute sum(tuple1) step by step.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "fold the first four elements",
+     "explain": "19 + 12 + 56 + 18 builds the partial total.",
+     "compute": "partial = 19 + 12 + 56 + 18"
+    },
+    {
+     "step": 2,
+     "action": "fold the last three elements",
+     "explain": "9, 87 and 34 finish the sum of 235.",
+     "compute": "subtotal = partial + 9 + 87 + 34"
+    }
+   ],
+   "answer_note": "The tuple totals 235, with minimum 9 and maximum 87."
+  },
+  {
+   "id": "kecs110.we2",
+   "title": "Swapping 5 and 10 with a tuple",
+   "concept_id": "kecs110.2",
+   "problem": "Using tuple assignment, swap num1 = 5 and num2 = 10 without a temporary variable.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "read both old values",
+     "explain": "The right side pairs up num2 first.",
+     "compute": "new_first = 10"
+    },
+    {
+     "step": 2,
+     "action": "assign the second variable",
+     "explain": "num2 receives the old num1.",
+     "compute": "new_second = 5"
+    }
+   ],
+   "answer_note": "After (num1, num2) = (num2, num1), num1 shows 10 and num2 shows 5."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "kecs110.ex1",
+   "source_ref": "NCERT Class 11 Computer Science, Chapter 10 Exercise (items reworded)",
+   "questions": [
+    "For tuple1 = (23, 1, 45, 67, 45, 9, 55, 45) and tuple2 = (100, 200), give the output of tuple1.index(45) and tuple1.count(45).",
+    "For the same tuples, evaluate tuple1 + tuple2, len(tuple2), max(tuple1), min(tuple1) and sum(tuple2).",
+    "For stateCapital = {'AndhraPradesh': 'Hyderabad', 'Bihar': 'Patna', 'Maharashtra': 'Mumbai', 'Rajasthan': 'Jaipur'}, give the output of stateCapital.get('Bihar'), len(stateCapital) and 'Maharashtra' in stateCapital.",
+    "For the same dictionary, show what remains after del stateCapital['Rajasthan'].",
+    "With an example, show how a function can return more than one value.",
+    "When would you choose a tuple over a dictionary or a list? Give two programming situations of each.",
+    "Prove with an example that a variable is rebuilt when an immutable value changes.",
+    "Why does len(tuple1) fail right after tuple1 = (5)? Correct the statement."
+   ]
+  }
+ ]
+}

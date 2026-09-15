@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_25_002",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_25_002",
+   "title": "c11_geo_cbse_25_002",
+   "questions": [
+    {
+     "q": "Define a vertical aerial photograph and state the orientation of the camera axis relative to the ground.",
+     "a": "A vertical aerial photograph is taken with the camera axis exactly perpendicular (90°) to the ground surface, pointing directly toward the nadir. A wrong answer (e.g., \"camera tilted at 45°\") reveals confusion between vertical and oblique categories and indicates the student cannot identify the defining geometric criterion.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the scale of a vertical aerial photograph is approximately uniform over flat terrain but becomes variable over hilly terrain, whereas an oblique photograph always has variable scale even over flat terrain.",
+     "a": "Over flat terrain, a vertical photograph has nearly constant photo-to-ground distance, so scale (f/H) is uniform; over hills, varying ground elevation changes H locally, causing scale variation. In oblique photographs, the camera axis is tilted, so the distance from lens to ground increases continuously from foreground to background, making scale vary systematically regardless of terrain. A wrong answer that claims oblique photos have uniform scale on flat ground shows misunderstanding of perspective geometry.",
+     "self_check": true
+    },
+    {
+     "q": "Given a vertical aerial photograph with focal length 152 mm and flying height 3000 m above mean sea level, calculate the nominal scale. Then explain why the actual scale at a hilltop of 500 m elevation differs from this nominal scale.",
+     "a": "Nominal scale = f / H = 152 mm / 3,000,000 mm = 1 : 19,737 (approx 1:20,000). At the hilltop, effective flying height above ground = 3000 - 500 = 2500 m, so actual scale = 152 / 2,500,000 = 1 : 16,447 (larger scale). A wrong calculation using the same H for both reveals failure to adjust flying height for relief.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the relief displacement patterns in vertical and high oblique photographs of the same mountainous area. Which photograph type shows greater displacement of tall peaks relative to valleys, and why?",
+     "a": "In vertical photographs, relief displacement radiates outward from the principal point (nadir), with displacement magnitude proportional to height and radial distance. In high oblique photographs, displacement is highly asymmetric: foreground features are displaced toward the nadir side, background features are compressed, and tall peaks near the horizon can be severely displaced or even obscured. High oblique photographs show greater displacement of tall peaks because the viewing geometry exaggerates height differences along the line of sight. An answer stating displacement is similar in both types indicates failure to grasp perspective effects of camera tilt.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the suitability of low oblique versus vertical photographs for (a) updating a 1:50,000 topographic map in the Himalayan foothills, and (b) assessing building facade damage after an earthquake in an urban area. Justify your choice for each.",
+     "a": "(a) Vertical photographs are suitable for topographic map updating because their near-orthographic geometry allows accurate planimetric measurement and contouring after rectification, despite relief displacement which can be corrected using DEMs. (b) Low oblique photographs are better for facade damage assessment because they capture vertical building surfaces, window/door details, and structural cracks invisible in vertical views. Choosing vertical for both tasks shows inability to match photograph geometry to information need.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field exercise for Class 11 students to demonstrate the difference in scale variation between a vertical and a low oblique photograph using a smartphone camera, a flat playground, and a model hill (e.g., a sand mound). List the steps, measurements to record, and the expected observation.",
+     "a": "Steps: 1) Place a 1 m scale bar on flat ground. 2) Take a vertical photo (camera pointing straight down) from 10 m height (e.g., from a ladder). 3) Take a low oblique photo from same height but tilted ~30°. 4) Print both photos at same size. 5) Measure the image length of the 1 m scale bar at near, middle, and far positions on each photo. 6) Compute photo scale at each position. Expected: Vertical photo shows nearly constant scale across the flat area; oblique photo shows progressively smaller scale (larger denominator) from foreground to background. A poor answer that omits measurement at multiple positions or ignores the tilted geometry fails to demonstrate the core concept.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_12_006",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_12_006",
+   "title": "c11_biotech_cbse_12_006",
+   "questions": [
+    {
+     "q": "What is the primary basis of separation for DNA fragments in agarose gel electrophoresis?",
+     "a": "DNA fragments are separated solely by size (length in base pairs) because all DNA molecules have the same charge-to-mass ratio (each nucleotide contributes one negative charge and roughly the same mass). A wrong answer like \"charge\" or \"charge-to-mass ratio\" reveals the student thinks separation depends on differing charge densities, not understanding that DNA's uniform phosphate backbone makes charge proportional to length, so the electric force per unit mass is constant — only sieving by the gel matrix differentiates them.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"In SDS-PAGE, proteins are separated by their native charge because SDS is just a stain.\" Explain why this statement is incorrect.",
+     "a": "SDS (sodium dodecyl sulfate) is an anionic detergent that binds to proteins at a constant ratio (~1.4 g SDS per g protein), imparting a uniform negative charge proportional to mass, thereby masking native charge. Separation then occurs by size alone. A wrong answer indicates the student confuses SDS with a tracking dye or stain (like Coomassie) and does not grasp that SDS denatures proteins and standardizes their charge-to-mass ratio — a prerequisite for size-based separation in PAGE.",
+     "self_check": true
+    },
+    {
+     "q": "You have two DNA fragments: 500 bp and 3000 bp. You run them on a 1% agarose gel at 100 V for 45 minutes. Sketch the expected band positions relative to the wells and the tracking dye (bromophenol blue). Label anode and cathode.",
+     "a": "Wells are at the cathode (negative) end. DNA migrates toward anode (positive). The 500 bp band will be closer to the anode (farther from wells), the 3000 bp band nearer the wells. Bromophenol blue runs ahead of both (small molecule, high mobility). A wrong sketch (e.g., larger fragment ahead, or bands on cathode side) shows the student does not understand the inverse relationship between fragment size and migration distance, or the direction of DNA migration due to negative charge.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of gel concentration in agarose vs. polyacrylamide gels: how does increasing % agarose affect DNA separation range, and how does increasing % acrylamide affect protein separation range? Explain the structural reason.",
+     "a": "Higher % agarose (e.g., 2%) creates smaller pores, better for resolving small DNA fragments (<1 kb); lower % (0.5%) gives larger pores for large fragments (>5 kb). Higher % acrylamide (12-20%) creates smaller pores, resolving low molecular weight proteins; lower % (4-8%) resolves high molecular weight proteins. The structural reason: agarose pore size is tuned by polymer concentration (hydrogen-bonded network), while polyacrylamide pore size is tuned by cross-linker (BIS) concentration in a covalently cross-linked network. A wrong answer that swaps the ranges or attributes pore size only to \"gel hardness\" without distinguishing the matrix chemistry shows lack of analytical comparison.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher runs a PCR product on an agarose gel but forgets to add ethidium bromide to the gel or buffer. After electrophoresis, they place the gel on a UV transilluminator and see no bands. They conclude the PCR failed. Evaluate this conclusion and suggest two corrective actions.",
+     "a": "The conclusion is invalid: absence of bands only means DNA was not visualized, not that it is absent. EtBr intercalates into DNA and fluoresces under UV; without it, DNA is invisible. Corrective actions: (1) Stain the gel post-run by soaking in EtBr solution (or safer alternative like SYBR Safe) and re-image. (2) Re-run the same PCR product with EtBr included in the gel/buffer. A student who accepts the conclusion fails to distinguish between \"no amplification\" and \"no detection\" — a critical evaluation skill in molecular biology.",
+     "self_check": true
+    },
+    {
+     "q": "Design a single experiment using gel electrophoresis to simultaneously check (a) the size of a PCR product, (b) the presence of primer dimers, and (c) the integrity of the template RNA (before reverse transcription). Specify gel type, staining, and expected band pattern for each.",
+     "a": "Use a 2% agarose gel (better for small fragments) with EtBr. Load: Lane 1 – DNA ladder; Lane 2 – PCR product (expect bright band at expected size, e.g., 500 bp, plus a faint lower band ~50-100 bp for primer dimers); Lane 3 – Total RNA (expect two sharp ribosomal RNA bands: 28S and 18S in ~2:1 ratio; smearing indicates degradation). A poor answer uses PAGE for RNA (RNA denatures in urea gels, not standard PAGE), omits ladder, or cannot explain why primer dimers appear lower than the product. This tests synthesis of knowledge across nucleic acid types and artifact recognition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

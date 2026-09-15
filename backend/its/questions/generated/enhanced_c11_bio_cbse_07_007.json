@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_07_007",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_07_007",
+   "title": "c11_bio_cbse_07_007",
+   "questions": [
+    {
+     "q": "A student observes a frog at rest on land and notes rhythmic movements of the floor of the buccal cavity. The student correctly identifies this as buccal respiration. What is the immediate fate of the air drawn into the buccal cavity during the first stroke of buccal pumping in a frog at rest on land?",
+     "a": "The air drawn into the buccal cavity during the first stroke (buccal floor depression) mixes with residual air and is then pushed into the lungs during the second stroke (buccal floor elevation with nostrils closed and glottis open). A wrong answer revealing that air goes directly from nostrils to lungs in one continuous flow indicates the student misunderstands the two-stroke buccal pumping cycle and confuses it with mammalian tidal ventilation.",
+     "self_check": true
+    },
+    {
+     "q": "During hibernation, a frog buried in mud at the bottom of a frozen pond survives for months without accessing atmospheric air. Explain why cutaneous respiration alone can sustain the frog's metabolic needs during this period, referencing Fick's law of diffusion and the frog's physiological state.",
+     "a": "During hibernation, metabolic rate drops dramatically (Q10 effect), reducing oxygen demand to 5-10% of active levels. Simultaneously, the skin remains highly vascularized and moist, providing large surface area (A) and minimal diffusion distance (d). According to Fick's law (Rate ∝ A × ΔP / d), the reduced ΔP requirement (due to low metabolic O2 consumption) matches the limited cutaneous diffusion capacity. A wrong answer citing \"skin has gills\" or \"frog breathes through lungs underwater\" reveals confusion between larval (tadpole) and adult respiratory structures.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher measures oxygen consumption in a frog at 20°C under three conditions: (i) fully submerged in aerated water, (ii) on land at rest, (iii) on land after forced exercise. Predict the rank order of pulmonary ventilation volume (mL air/kg/min) across these three conditions and justify using the concept of respiratory drive and chemoreceptor sensitivity.",
+     "a": "Rank order: (iii) > (ii) > (i). After exercise, metabolic CO2 production increases, lowering blood pH and raising PaCO2, which strongly stimulates central and peripheral chemoreceptors to increase buccal pumping frequency and lung inflation volume. On land at rest, moderate chemoreceptor drive maintains periodic lung ventilation. Submerged, cutaneous respiration satisfies most O2 needs; low CO2/pH stimulus reduces pulmonary ventilation to minimal levels. A wrong answer ranking (i) highest reveals the misconception that water immersion stimulates lung breathing (it actually suppresses it).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the structural design of frog lungs (paired, thin-walled, poorly septated sacs) with mammalian lungs (highly branched bronchial tree ending in alveoli). Analyze how these structural differences reflect the different selective pressures on respiratory surface area-to-volume ratio in ectothermic vs endothermic vertebrates.",
+     "a": "Frog lungs have low internal surface area (minimal septation) because ectothermy imposes low, variable metabolic demand; cutaneous and buccopharyngeal surfaces supplement gas exchange. Mammalian lungs maximize surface area (alveoli ~70 m²) to support high, constant metabolic rates of endothermy. The structural trade-off: frog lungs are energetically cheap to build/maintain but limit maximal aerobic capacity; mammalian lungs are costly but enable sustained high O2 flux. A wrong answer claiming \"frog lungs are primitive/inefficient\" reflects a teleological misconception — they are well-adapted for ectothermy.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The glottis in frogs remains open continuously to allow free airflow between buccal cavity and lungs, unlike the mammalian epiglottis which closes during swallowing.\" Is this correct? Provide evidence from frog feeding and respiratory mechanics.",
+     "a": "The statement is FALSE. The frog glottis is normally CLOSED except during the brief lung inflation phase of buccal pumping. It opens only when buccal floor elevates with nostrils closed, allowing positive pressure to push air into lungs. During swallowing, the glottis closes and the eyeballs retract to help push prey down the esophagus. A wrong answer accepting the statement reveals confusion between the mammalian glottis (normally open, closed during swallowing) and the frog glottis (normally closed, opened actively for lung ventilation).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a live frog (ethically approved, non-invasive) to demonstrate that cutaneous respiration contributes significantly to total gas exchange at rest on land. Specify the measurable variables, controls, and expected outcome that would support the hypothesis.",
+     "a": "Place frog in a sealed respirometer chamber with known O2 concentration at 20°C. Measure O2 consumption rate (mL O2/g/hr) under two conditions: (A) normal skin exposed to air, (B) skin coated with thin layer of petroleum jelly (blocks cutaneous diffusion) but nostrils/buccal cavity unobstructed. Control: temperature, humidity, frog mass, activity state. Expected: Condition B shows 30-50% reduction in O2 consumption vs Condition A, confirming cutaneous contribution. Poor answer: \"measure lung volume\" — ignores that cutaneous exchange is measured by its absence, not lung metrics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

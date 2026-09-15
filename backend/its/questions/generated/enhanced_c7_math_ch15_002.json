@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch15_002",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch15_002",
+   "title": "c7_math_ch15_002",
+   "questions": [
+    {
+     "q": "If an equation is balanced as $x + 5 = 12$, what operation must be performed on both sides to isolate $x$?",
+     "a": "Subtract 5 from both sides. A student who answers \"add 5 to both sides\" confuses the operation needed to undo an addition with repeating the addition, failing to recognize that the goal is to isolate the variable by using inverse operations.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul says that if you multiply the LHS of an equation by 3, you do not need to change the RHS as long as you find the value of $x$. Is Rahul correct, and why or why not?",
+     "a": "Rahul is incorrect because multiplying only one side destroys the balance of the equation; to keep the scale equal, both the LHS and RHS must be multiplied by 3. A student who agrees with Rahul does not understand that an equation represents a physical or numerical balance where equality must be strictly maintained at every step.",
+     "self_check": true
+    },
+    {
+     "q": "Solve for $y$ using the balance method: $y - 7 = 15$. Show the step of balancing both sides.",
+     "a": "$y = 22$. Working steps: \n1. Given equation: $y - 7 = 15$. \n2. Add 7 to both sides: $y - 7 + 7 = 15 + 7$. \n3. Simplify both sides: $y = 22$. \nA student who gets $8$ has subtracted 7 from 15 instead of adding 7 to undo the subtraction on the left side.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two equations: $2x = 10$ and $x + 2 = 10$. Why do they require completely different operations to solve for $x$ even though both involve the numbers 2 and 10?",
+     "a": "In $2x = 10$, 2 is multiplied by $x$, so we must divide both sides by 2; in $x + 2 = 10$, 2 is added to $x$, so we must subtract 2 from both sides. A student who applies division to both equations fails to analyze the relationship (operation) between the constant and the variable before choosing an inverse operation.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves $4x = 24$ by writing the steps: $4x - 4 = 24 - 4$, leading to $4x = 20$, and then $x = 5$. Evaluate this student's work and identify the error.",
+     "a": "The student's solution is incorrect because they incorrectly used subtraction to undo a multiplication; since 4 is multiplied by $x$, they should have divided both sides by 4 to get $x = 6$. A student who thinks this method is correct does not understand that inverse operations must match the operation currently connecting the coefficient to the variable.",
+     "self_check": true
+    },
+    {
+     "q": "Create an equation involving multiplication and subtraction where the solution is $x = 6$, and explain how you would solve it using the balance method.",
+     "a": "An example equation is $3x - 4 = 14$. To solve it using the balance method: first add 4 to both sides to get $3x = 18$, then divide both sides by 3 to get $x = 6$. A poor answer would provide an expression instead of an equation, or fail to show how both sides are changed simultaneously.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

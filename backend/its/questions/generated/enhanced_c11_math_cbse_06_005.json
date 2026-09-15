@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_06_005",
+   "title": "c11_math_cbse_06_005",
+   "questions": [
+    {
+     "q": "State the solution set of the system: 2x - 3 > 5 AND 4x + 1 ≤ 17, using interval notation.",
+     "a": "Correct answer: (4, 4] which is the empty set ∅. Solving: 2x - 3 > 5 gives 2x > 8 so x > 4 → (4, ∞). 4x + 1 ≤ 17 gives 4x ≤ 16 so x ≤ 4 → (-∞, 4]. Intersection is (4, ∞) ∩ (-∞, 4] = ∅. A wrong answer like (4, 4] or {4} reveals the student incorrectly includes the endpoint 4, forgetting that the first inequality is strict (x > 4, not x ≥ 4). This exposes confusion between open and closed brackets in interval notation when combining strict and non-strict inequalities.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the system 3x + 2 < 11 AND 5x - 7 > 18 has no solution, and describe what the number line graph would look like.",
+     "a": "Correct explanation: 3x + 2 < 11 → 3x < 9 → x < 3. 5x - 7 > 18 → 5x > 25 → x > 5. The first requires x to be less than 3, the second requires x to be greater than 5. No real number can be simultaneously less than 3 AND greater than 5. The number line shows two disjoint rays: an open ray (-∞, 3) and an open ray (5, ∞) with a gap between 3 and 5. A wrong answer claiming there is a solution (e.g., \"x = 4\") reveals the student treats the system as \"OR\" (union) instead of \"AND\" (intersection), a fundamental misunderstanding of system semantics.",
+     "self_check": true
+    },
+    {
+     "q": "Solve the system and graph the solution on a number line: (x - 2)/3 ≥ 1 AND 2x + 5 < 15.",
+     "a": "Step 1: (x - 2)/3 ≥ 1 → multiply by 3: x - 2 ≥ 3 → x ≥ 5.\nStep 2: 2x + 5 < 15 → 2x < 10 → x < 5.\nStep 3: Intersection: x ≥ 5 AND x < 5. No number satisfies both.\nStep 4: Solution set = ∅ (empty set).\nStep 5: Number line: closed circle at 5 with ray right for first, open circle at 5 with ray left for second — no overlap.\nA wrong answer like [5, 5) or {5} reveals the student incorrectly thinks x = 5 satisfies the second inequality (it doesn't, since 2(5)+5=15 is NOT < 15). This exposes failure to check boundary values against strict inequalities.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the solution sets of System A: x > 2 AND x ≤ 8 versus System B: x > 2 OR x ≤ 8. How do the number of solutions differ?",
+     "a": "System A (AND): Intersection → (2, 8]. Finite interval, infinitely many solutions but bounded.\nSystem B (OR): Union → (-∞, 8] ∪ (2, ∞) = ℝ (all real numbers). Every real number satisfies at least one inequality.\nKey difference: System A restricts x to a specific range; System B imposes no restriction at all — any x works. A wrong answer stating both have the same solution set reveals the student does not distinguish between conjunction (intersection) and disjunction (union), a critical conceptual gap for word problems where \"and\" vs \"or\" changes the feasible region entirely.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved: -2x + 4 ≥ 10 AND 3x - 1 < 8 and got x ≤ -3 AND x < 3, then wrote the final answer as x < 3. Identify the error and give the correct solution.",
+     "a": "Error: The student took the UNION (OR) instead of INTERSECTION (AND). Correct: -2x + 4 ≥ 10 → -2x ≥ 6 → x ≤ -3 (dividing by negative flips inequality). 3x - 1 < 8 → 3x < 9 → x < 3. Intersection: x ≤ -3 AND x < 3 = (-∞, -3]. The student's answer x < 3 = (-∞, 3) is larger — it includes values like -2, 0, 2 which violate the first inequality. This reveals the student defaults to \"pick the broader condition\" instead of finding common values, a common procedural error when inequalities have different directions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) that leads to a system of three linear inequalities in one variable with a non-empty bounded solution set. Write the system and its solution.",
+     "a": "Example scenario: A small bakery in Mumbai makes cupcakes. Each cupcake costs ₹25 to make and sells for ₹50. Daily rent is ₹2000. The owner wants: (1) profit at least ₹1000, (2) production capacity max 200 cupcakes, (3) at least 50 cupcakes to justify opening. Let x = number of cupcakes.\nSystem: 25x - 2000 ≥ 1000 (profit), x ≤ 200 (capacity), x ≥ 50 (minimum).\nSolving: 25x ≥ 3000 → x ≥ 120. Combined: x ≥ 120 AND x ≤ 200 AND x ≥ 50 → [120, 200].\nA poor answer with trivial inequalities (e.g., x > 0, x < 100, x > 50) reveals the student cannot translate realistic constraints into proper algebraic form or misses that profit requires revenue minus cost.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

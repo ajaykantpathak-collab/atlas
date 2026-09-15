@@ -1,0 +1,135 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 4,
+ "chapter_title": "The Colonial Era in India",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hees104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hees.104.4.1",
+   "title": "What Drew Europeans to India",
+   "section": "4",
+   "definition": "Spices, fine cotton cloth, silk and indigo pulled European merchants across the seas to India from the fifteenth century; Portuguese, Dutch, French and English companies competed for these profitable trades, fighting each other for ports and privileges.",
+   "formula": "-",
+   "key_idea": "India's spices and textiles were the magnet; trade rivalry was the engine of European arrival.",
+   "textbook_ref": "hees104.txt lines 20-110 (what drew European traders, age of colonialism)",
+   "question_patterns": [
+    "which Indian goods attracted European traders",
+    "name the European powers that traded with India",
+    "why did European companies fight each other in India",
+    "how did trade turn into territorial ambition",
+    "what was the role of spice trade in European expansion",
+    "compare the Portuguese and English arrival in India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "list the attractions",
+     "explain": "Pepper and spices, cotton textiles and indigo fetched high profits in Europe."},
+    {"step": 2, "action": "follow the companies",
+     "explain": "Chartered companies monopolised the trade and armed themselves."},
+    {"step": 3, "action": "watch commerce become conquest",
+     "explain": "Rivalry for ports and privileges pulled Europeans into Indian politics."}
+   ]
+  },
+  {
+   "id": "hees.104.4.2",
+   "title": "The English East India Company",
+   "section": "4",
+   "definition": "Chartered in 1600, the English East India Company built trading factories at Madras, Bombay and Calcutta, kept its own army, and used diplomacy and war to bend Indian rulers, transforming from a trading body into a territorial power.",
+   "formula": "-",
+   "key_idea": "A company with an army: trade posts at Madras, Bombay and Calcutta grew into an empire.",
+   "textbook_ref": "hees104.txt lines 67-110 (English East India Company, Madras Bombay and Calcutta), 400-475",
+   "question_patterns": [
+    "when and why was the English East India Company formed",
+    "name the three presidency cities of the English company",
+    "how did a trading company build its own army",
+    "what rights did the company obtain from Indian rulers",
+    "how did the company's factories grow into fortified settlements",
+    "describe the transformation of the company from trader to ruler"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "note the charter",
+     "explain": "The 1600 charter gave the company a monopoly of English trade in the East."},
+    {"step": 2, "action": "trace the settlements",
+     "explain": "Madras, Bombay and Calcutta became fortified trading headquarters."},
+    {"step": 3, "action": "note the military turn",
+     "explain": "Recruiting sepoys and waging wars made the company a political power."}
+   ]
+  },
+  {
+   "id": "hees.104.4.3",
+   "title": "Battle of Plassey and Company Rule",
+   "section": "4",
+   "definition": "The Battle of Plassey in 1757 gave the English company control over Bengal's riches, and victories that followed - Buxar and the annexation of Punjab - step by step converted commercial footholds into direct colonial rule over India.",
+   "formula": "-",
+   "key_idea": "Plassey 1757 is the hinge: from revenue-rich Bengal the company annexed India province by province.",
+   "textbook_ref": "hees104.txt lines 109-130 (Battle of Plassey, company annexes Punjab), 474-540 (Plassey 1757 in focus)",
+   "question_patterns": [
+    "what happened at the Battle of Plassey",
+    "who led the English at Plassey and who was defeated",
+    "how did the victory at Plassey change the company's position",
+    "why is the Battle of Plassey a turning point in Indian history",
+    "how did the company annex Punjab",
+    "trace the steps by which the company became ruler of India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "recount Plassey",
+     "explain": "In 1757 company forces defeated the nawab of Bengal, aided by conspiracy."},
+    {"step": 2, "action": "harvest the gains",
+     "explain": "Revenue of Bengal financed further conquests, sealing control after Buxar."},
+    {"step": 3, "action": "extend the rule",
+     "explain": "Wars and annexations, including Punjab, completed the colonial map by the mid-1800s."}
+   ]
+  },
+  {
+   "id": "hees.104.4.4",
+   "title": "Life under Colonial Rule: Portuguese Rule and Europeans in India",
+   "section": "4",
+   "definition": "Colonialism reshaped Indian life: the Portuguese enforced religious policies in their enclaves, European settlements changed coastal cities, and exploitative land taxes and trade rules drained Indian wealth while drawing India into a world empire.",
+   "formula": "-",
+   "key_idea": "Colonial rule meant political control plus economic drain and cultural pressure.",
+   "textbook_ref": "hees104.txt lines 187-300 (Europeans in India, Portuguese policies)",
+   "question_patterns": [
+    "how did Portuguese rule affect the people of their territories",
+    "what was the economic impact of colonial rule on India",
+    "how did European settlements change Indian coastal cities",
+    "define colonialism in the Indian context",
+    "why is the colonial era called exploitative",
+    "describe the social changes brought by Europeans in India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "examine political control",
+     "explain": "Indian rulers lost sovereignty to company and crown rule."},
+    {"step": 2, "action": "examine the economy",
+     "explain": "Heavy taxation, forced crops and one-way trade drained India's wealth."},
+    {"step": 3, "action": "examine society",
+     "explain": "Missionary activity, new laws and western education reshaped urban life."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "hees104.txt early sections",
+   "questions": [
+     "Why did European trading companies come to India?",
+     "Describe the growth of the English East India Company's settlements.",
+     "How did the Portuguese treat the people of their Indian enclaves?"
+   ]
+  },
+  {
+   "id": "ex4.2",
+   "source_ref": "hees104.txt Plassey and after",
+   "questions": [
+     "Explain the significance of the Battle of Plassey.",
+     "How did the company annex Punjab and other provinces?",
+     "What is meant by the colonial drain of Indian wealth?"
+   ]
+  }
+ ]
+}

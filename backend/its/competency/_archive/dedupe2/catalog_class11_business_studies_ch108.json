@@ -1,0 +1,490 @@
+{
+ "class": 11,
+ "subject": "business_studies",
+ "chapter": 108,
+ "chapter_title": "Sources of Business Finance",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/kebs108.txt",
+ "concepts": [
+  {
+   "id": "kebs.8.1",
+   "title": "Fixed and Working Capital Requirements",
+   "section": "8.2",
+   "definition": "Business finance represents the monetary resources required to establish, operate, and expand a commercial enterprise, split into long-term fixed assets and short-term operational needs.",
+   "formula": "Total Capital = Fixed Capital + Working Capital",
+   "key_idea": "Capital requirements are divided into long-term investments in fixed assets and short-term funds for daily operations.",
+   "textbook_ref": "kebs108.txt lines 45-100",
+   "question_patterns": [
+    "distinguish between fixed capital and working capital requirements",
+    "identify whether a restaurant's daily food supply purchase requires fixed or working capital",
+    "explain why a manufacturing concern requires more fixed capital than a trading firm",
+    "what type of capital is needed to purchase land and machinery for a new factory"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the nature of the asset or expense",
+     "explain": "Determine whether the requirement involves long-term infrastructure or day-to-day operations."
+    },
+    {
+     "step": 2,
+     "action": "Classify as fixed capital if it involves acquiring non-current assets",
+     "explain": "Long-term assets like land, buildings, or machinery that remain in the business represent fixed capital."
+    },
+    {
+     "step": 3,
+     "action": "Classify as working capital if it involves current assets or routine payments",
+     "explain": "Day-to-day operational expenses like raw materials, salaries, and utility bills represent working capital."
+    }
+   ]
+  },
+  {
+   "id": "kebs.8.2",
+   "title": "Classification of Sources of Funds",
+   "section": "8.3",
+   "definition": "Categorization of business funding options based on duration (short, medium, long term), ownership status (owner's vs borrowed), and origin (internal vs external).",
+   "formula": "",
+   "key_idea": "Funds are classified by period, ownership, and source of generation to help businesses choose the optimal mix.",
+   "textbook_ref": "kebs108.txt lines 101-160",
+   "question_patterns": [
+    "classify the sources of business finance on the basis of ownership",
+    "how are sources of funds categorized based on the period of usage",
+    "distinguish between internal and external sources of finance",
+    "determine if public deposits are classified as owned or borrowed funds"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine the duration of fund requirement",
+     "explain": "Classify as short-term (under 1 year), medium-term (1 to 5 years), or long-term (above 5 years)."
+    },
+    {
+     "step": 2,
+     "action": "Identify ownership status of the funds",
+     "explain": "Classify as owner's funds if they are provided by the owners/reinvested profits, or borrowed funds if raised through loans or debt."
+    },
+    {
+     "step": 3,
+     "action": "Determine the source of generation",
+     "explain": "Classify as internal if generated from within the business (e.g., retained earnings), or external if raised from outside sources (e.g., suppliers, banks)."
+    }
+   ]
+  },
+  {
+   "id": "kebs.8.3",
+   "title": "Retained Earnings",
+   "section": "8.4.1",
+   "definition": "The portion of net profits not distributed to shareholders as dividends but kept within the company to finance future growth and operations.",
+   "formula": "Retained Earnings = Net Profit - Dividends Distributed",
+   "key_idea": "Self-financing through ploughing back profits without explicit interest or dilution of control.",
+   "textbook_ref": "kebs108.txt lines 161-195",
+   "question_patterns": [
+    "explain the merits and limitations of retained earnings as a source of finance",
+    "why is retained earnings called a cushion or self-financing mechanism",
+    "how does a company's dividend policy affect its retained earnings",
+    "evaluate retained earnings as a permanent source of internal funds"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze the company's net profit and dividend payout ratio",
+     "explain": "The amount available for retention depends directly on the net profit earned and the portion distributed as dividends."
+    },
+    {
+     "step": 2,
+     "action": "Assess the advantages of retained earnings",
+     "explain": "Retained earnings involve no explicit cost, do not dilute control, and enhance the firm's capacity to absorb unexpected losses."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate the limitations of retained earnings",
+     "explain": "Excessive retention can lead to shareholder dissatisfaction due to lower dividends, and the source is highly dependent on fluctuating profits."
+    }
+   ]
+  },
+  {
+   "id": "kebs.8.4",
+   "title": "Trade Credit",
+   "section": "8.4.2",
+   "definition": "A short-term credit facility extended by one business supplier to another, allowing the buyer to purchase goods or services without immediate payment.",
+   "formula": "",
+   "key_idea": "A convenient, interest-free short-term financing option based on creditworthiness and supplier relations.",
+   "textbook_ref": "kebs108.txt lines 196-235",
+   "question_patterns": [
+    "what is trade credit and how does it facilitate short-term business operations",
+    "identify the factors that determine the volume and period of trade credit",
+    "discuss the merits and demerits of trade credit for a retail business",
+    "how does trade credit appear in the financial records of the buyer"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the credit purchase transaction",
+     "explain": "Recognize when goods are acquired from suppliers without immediate cash outflow."
+    },
+    {
+     "step": 2,
+     "action": "Record the liability in the buyer's books",
+     "explain": "The transaction appears as 'sundry creditors' or 'accounts payable' in the financial records."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate the credit terms and volume",
+     "explain": "The credit period and limit depend on the buyer's reputation, financial standing, and degree of market competition."
+    }
+   ]
+  },
+  {
+   "id": "kebs.8.5",
+   "title": "Factoring Services",
+   "section": "8.4.3",
+   "definition": "A financial arrangement where a business sells its accounts receivable (invoices) to a specialized third party (factor) at a discount to receive immediate cash.",
+   "formula": "Net Cash Received = Total Invoice Value - Factoring Discount - Service Fees",
+   "key_idea": "Accelerating cash inflows from credit sales by outsourcing debt collection and credit control.",
+   "textbook_ref": "kebs108.txt lines 236-285",
+   "question_patterns": [
+    "explain the concept of factoring as a source of short-term finance",
+    "distinguish between recourse and non-recourse factoring",
+    "what are the advantages of using factoring services for managing receivables",
+    "how does factoring help a firm focus on its core business activities"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify outstanding book debts or accounts receivable",
+     "explain": "The firm identifies the invoices generated from credit sales that are yet to be collected."
+    },
+    {
+     "step": 2,
+     "action": "Assign or sell the receivables to a factor",
+     "explain": "The receivables are sold to a financial intermediary (the factor) at a discount to obtain immediate liquidity."
+    },
+    {
+     "step": 3,
+     "action": "Determine the type of factoring arrangement",
+     "explain": "Under recourse factoring, the client bears the risk of bad debts; under non-recourse factoring, the factor assumes the entire credit risk."
+    }
+   ]
+  },
+  {
+   "id": "kebs.8.6",
+   "title": "Lease Financing",
+   "section": "8.4.4",
+   "definition": "A contractual transaction where the owner of an asset (lessor) grants another party (lessee) the right to use the asset for a specified period in exchange for periodic rental payments.",
+   "formula": "",
+   "key_idea": "Acquiring the utility of an asset without incurring the heavy capital expenditure of ownership.",
+   "textbook_ref": "kebs108.txt lines 286-340",
+   "question_patterns": [
+    "define lease financing and distinguish between a lessor and a lessee",
+    "what are the tax benefits and financial advantages of lease financing",
+    "explain why lease financing is preferred for high-obsolescence technology assets",
+    "evaluate the limitations of leasing an asset instead of purchasing it"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the asset requirement and compare acquisition options",
+     "explain": "Evaluate whether leasing is more cost-effective than purchasing the asset outright."
+    },
+    {
+     "step": 2,
+     "action": "Establish the lease contract and rental schedule",
+     "explain": "The lessor grants usage rights to the lessee in exchange for fixed periodic lease rentals."
+    },
+    {
+     "step": 3,
+     "action": "Treat lease rentals as operating expenses",
+     "explain": "Lease rentals are fully deductible for computing taxable profits, providing tax advantages to the lessee."
+    }
+   ]
+  },
+  {
+   "id": "kebs.8.7",
+   "title": "Public Deposits and Commercial Paper",
+   "section": "8.4.5 & 8.4.6",
+   "definition": "Short-to-medium term unsecured debt instruments raised directly from the public (public deposits) or issued by highly-rated corporates as promissory notes (commercial papers).",
+   "formula": "",
+   "key_idea": "Unsecured debt instruments that bypass traditional banking intermediaries to offer lower costs for issuers and higher returns for investors.",
+   "textbook_ref": "kebs108.txt lines 341-410",
+   "question_patterns": [
+    "compare public deposits and commercial papers as sources of short-to-medium term finance",
+    "what are the eligibility criteria for a company to issue commercial paper",
+    "explain the advantages of public deposits over bank loans",
+    "why are commercial papers considered highly liquid and transferable"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Assess the creditworthiness of the issuing company",
+     "explain": "Only highly-rated and financially sound firms can successfully raise funds through unsecured commercial papers or public deposits."
+    },
+    {
+     "step": 2,
+     "action": "Determine the maturity and denomination of the instrument",
+     "explain": "Public deposits are generally invited for up to 3 years, while commercial papers are issued for maturities between 7 days and 1 year in large denominations."
+    },
+    {
+     "step": 3,
+     "action": "Evaluate the regulatory and security requirements",
+     "explain": "These instruments do not create a charge on the assets of the company, but are regulated by the Reserve Bank of India."
+    }
+   ]
+  },
+  {
+   "id": "kebs.8.8",
+   "title": "Equity Shares",
+   "section": "8.4.7 (a)",
+   "definition": "Securities representing fractional ownership in a company, carrying voting rights and receiving fluctuating dividends based on residual earnings.",
+   "formula": "Equity Share Capital = Number of Shares Issued x Nominal Value per Share",
+   "key_idea": "Permanent ownership capital that bears the ultimate risk and enjoys the rewards of business success.",
+   "textbook_ref": "kebs108.txt lines 411-470",
+   "question_patterns": [
+    "why are equity shareholders called the residual owners of a company",
+    "discuss the merits of raising long-term capital through equity shares",
+    "how does the issue of additional equity shares affect existing shareholders' control",
+    "explain the risk-return profile of equity share investments"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide the company's capital into small units called shares",
+     "explain": "Each share represents a unit of ownership with a specific nominal value."
+    },
+    {
+     "step": 2,
+     "action": "Issue shares to investors to raise permanent ownership capital",
+     "explain": "Equity capital is not repayable during the lifetime of the business, serving as permanent capital."
+    },
+    {
+     "step": 3,
+     "action": "Distribute residual earnings as dividends",
+     "explain": "Equity shareholders receive dividends only after all other obligations and claims are settled."
+    }
+   ]
+  },
+  {
+   "id": "kebs.8.9",
+   "title": "Preference Shares",
+   "section": "8.4.7 (b)",
+   "definition": "Hybrid corporate securities that carry preferential rights to receive a fixed rate of dividend before equity dividends and priority in capital repayment during liquidation.",
+   "formula": "Preference Dividend = Preference Share Capital x Stated Dividend Rate",
+   "key_idea": "Fixed-income investment option with lower risk than equity and no voting rights, preserving management control.",
+   "textbook_ref": "kebs108.txt lines 471-525",
+   "question_patterns": [
+    "explain the preferential rights enjoyed by preference shareholders",
+    "distinguish between cumulative and non-cumulative preference shares",
+    "why are preference shares considered a hybrid source of finance",
+    "analyze the limitations of preference shares from the company's perspective"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the fixed dividend rate associated with the preference shares",
+     "explain": "Preference shares carry a predetermined rate of dividend that is paid out of profits after tax."
+    },
+    {
+     "step": 2,
+     "action": "Apply preferential rights during dividend distribution",
+     "explain": "Preference dividends must be paid in full before any dividend can be declared for equity shareholders."
+    },
+    {
+     "step": 3,
+     "action": "Apply preferential rights during liquidation",
+     "explain": "In the event of winding up, preference shareholders are repaid their capital before equity shareholders."
+    }
+   ]
+  },
+  {
+   "id": "kebs.8.10",
+   "title": "Debentures",
+   "section": "8.4.8",
+   "definition": "Long-term debt instruments issued by a company under its common seal, carrying a fixed rate of interest and representing an acknowledgment of debt.",
+   "formula": "Annual Interest Outlay = Total Debenture Face Value x Coupon Rate",
+   "key_idea": "Fixed-charge debt capital that provides tax-deductible interest payments without diluting ownership control.",
+   "textbook_ref": "kebs108.txt lines 526-590",
+   "question_patterns": [
+    "what is a debenture and how does it differ from a share",
+    "explain the tax advantages of raising funds through debentures",
+    "classify debentures on the basis of security and convertibility",
+    "why do debentures put a permanent financial burden on a company"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Issue debentures representing a long-term loan from the public",
+     "explain": "The company acknowledges its debt and promises to repay the principal at a specified future date."
+    },
+    {
+     "step": 2,
+     "action": "Pay a fixed rate of interest at regular intervals",
+     "explain": "Interest is a charge against profits and must be paid regardless of whether the company makes a profit."
+    },
+    {
+     "step": 3,
+     "action": "Utilize the tax deductibility of interest expenses",
+     "explain": "Interest paid on debentures is tax-deductible, which lowers the company's overall tax liability and effective cost of debt."
+    }
+   ]
+  },
+  {
+   "id": "kebs.8.11",
+   "title": "International Sources of Finance",
+   "section": "8.5",
+   "definition": "Global financial instruments and channels, such as GDRs, ADRs, IDRs, and FCCBs, used by companies to raise foreign currency capital from international investors.",
+   "formula": "",
+   "key_idea": "Accessing global capital markets to diversify funding sources and obtain foreign currency.",
+   "textbook_ref": "kebs108.txt lines 640-720",
+   "question_patterns": [
+    "distinguish between Global Depository Receipts (GDR) and American Depository Receipts (ADR)",
+    "what is an Indian Depository Receipt (IDR) and who can issue it",
+    "explain the features of Foreign Currency Convertible Bonds (FCCB)",
+    "how do depository receipts help domestic companies raise funds abroad"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Deposit local currency shares with a domestic custodian bank",
+     "explain": "The domestic shares of the company are held as backing for the international instruments."
+    },
+    {
+     "step": 2,
+     "action": "Issue depository receipts through an overseas depository bank",
+     "explain": "The depository bank issues negotiable depository receipts (GDRs or ADRs) denominated in foreign currency against those shares."
+    },
+    {
+     "step": 3,
+     "action": "Trade the depository receipts on international stock exchanges",
+     "explain": "Global investors buy and sell these receipts like regular shares, providing foreign capital to the issuing firm."
+    }
+   ]
+  },
+  {
+   "id": "kebs.8.12",
+   "title": "Factors Affecting the Choice of Source of Funds",
+   "section": "8.6",
+   "definition": "The strategic parameters, such as cost, risk, control, flexibility, tax benefits, and time period, that guide a business in selecting an optimal mix of financial sources.",
+   "formula": "",
+   "key_idea": "No single source is perfect; companies must balance cost, risk, and control to find the best financing mix.",
+   "textbook_ref": "kebs108.txt lines 721-780",
+   "question_patterns": [
+    "what factors should a business consider before choosing a source of finance",
+    "how does the risk profile of a company affect its choice between debt and equity",
+    "explain how tax benefits influence the decision to issue debentures over shares",
+    "why does a company's desire to retain control restrict the issue of new equity shares"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Evaluate the cost of procurement and utilization",
+     "explain": "Analyze both the upfront floatation costs and the ongoing servicing costs (interest or dividends) of each source."
+    },
+    {
+     "step": 2,
+     "action": "Assess the risk profile and impact on management control",
+     "explain": "Determine if the source imposes fixed payment obligations (high risk) or dilutes voting rights and control (equity issue)."
+    },
+    {
+     "step": 3,
+     "action": "Match the funding source with the purpose and time period",
+     "explain": "Ensure that long-term assets are financed with long-term sources, and short-term operational needs are met using short-term instruments."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebs108.txt lines 45-100",
+   "concept": "kebs.8.1",
+   "question_type": "classify_capital_requirement",
+   "question_pattern": "A restaurant owner wants to purchase a new commercial oven costing {oven_cost} and also needs to pay {monthly_salaries} for staff salaries. Classify these two financial requirements into fixed capital and working capital.",
+   "extracted_variables": {
+    "oven_cost": "cost of the commercial oven (long-term asset)",
+    "monthly_salaries": "monthly staff salaries (day-to-day operational expense)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the nature of the asset or expense",
+     "explain": "The commercial oven is a long-term asset that remains in the business for several years, whereas staff salaries are recurring day-to-day expenses."
+    },
+    {
+     "step": 2,
+     "action": "Classify as fixed capital if it involves acquiring non-current assets",
+     "explain": "Since the oven is a durable asset used for production over a long period, the expenditure of {oven_cost} represents a fixed capital requirement."
+    },
+    {
+     "step": 3,
+     "action": "Classify as working capital if it involves current assets or routine payments",
+     "explain": "Since staff salaries of {monthly_salaries} are routine operating expenses needed for daily restaurant functioning, they represent a working capital requirement."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kebs108.txt lines 526-590",
+   "concept": "kebs.8.10",
+   "question_type": "explain_tax_shield",
+   "question_pattern": "A company is considering raising {capital_amount} either by issuing equity shares or by issuing debentures at an annual interest rate of {interest_rate}%. Explain how the tax deductibility of interest on debentures creates a tax shield if the corporate tax rate is {tax_rate}%.",
+   "extracted_variables": {
+    "capital_amount": "total capital to be raised",
+    "interest_rate": "annual interest rate on debentures",
+    "tax_rate": "corporate income tax rate"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Issue debentures representing a long-term loan from the public",
+     "explain": "If the company raises {capital_amount} through debentures, it acknowledges a long-term debt obligation."
+    },
+    {
+     "step": 2,
+     "action": "Pay a fixed rate of interest at regular intervals",
+     "explain": "The company must pay an annual interest of {interest_rate}% on the raised {capital_amount}, which constitutes a fixed financial charge."
+    },
+    {
+     "step": 3,
+     "action": "Utilize the tax deductibility of interest expenses",
+     "explain": "Because interest is deducted from gross profits before calculating corporate tax, it reduces the taxable income by the interest amount, saving taxes equal to {tax_rate}% of the interest paid. This is known as the tax shield."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "short_answers",
+   "source_ref": "kebs108.txt lines 795-805",
+   "questions": [
+    "What is business finance? Why do businesses need funds? Explain.",
+    "List sources of raising long-term and short-term finance.",
+    "What is the difference between internal and external sources of raising funds? Explain.",
+    "What preferential rights are enjoyed by preference shareholders. Explain.",
+    "Name any three special financial institutions and state their objectives.",
+    "What is the difference between GDR and ADR? Explain."
+   ]
+  },
+  {
+   "id": "long_answers",
+   "source_ref": "kebs108.txt lines 806-815",
+   "questions": [
+    "Explain trade credit and bank credit as sources of short-term finance for business enterprises.",
+    "Discuss the sources from which a large industrial enterprise can raise capital for financing modernisation and expansion.",
+    "What advantages does issue of debentures provide over the issue of equity shares?",
+    "State the merits and demerits of public deposits and retained earnings as methods of business finance."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_12_010",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_12_010",
+   "title": "c12_hs_cbse_12_010",
+   "questions": [
+    {
+     "q": "Define \"programme evaluation\" in the context of extension education. How does it differ from \"monitoring\"?",
+     "a": "Programme evaluation is the systematic assessment of a programme's design, implementation, and outcomes to determine its merit, worth, or significance. Monitoring is the routine tracking of inputs, activities, and outputs during implementation (e.g., number of training sessions held), while evaluation judges the quality and impact of those activities (e.g., did the training change farming practices?). A wrong answer that equates the two reveals the student confuses *process tracking* with *judgment of value* — a critical error in board exams where \"monitoring vs evaluation\" is a frequent 2-mark distinction question.",
+     "self_check": true
+    },
+    {
+     "q": "A Krishi Vigyan Kendra (KVK) conducts a \"Mushroom Cultivation\" training for 50 women. After training, 40 women start cultivation. The KVK reports \"80% success rate.\" Is this an example of output, outcome, or impact indicator? Justify.",
+     "a": "This is an **output indicator** (immediate product: number of trainees who adopted the skill). Outcome indicators would measure medium-term changes (e.g., \"increase in household income from mushroom sales after 6 months\"), and impact indicators would measure long-term systemic changes (e.g., \"reduction in district-level malnutrition rates after 3 years\"). A student calling this \"impact\" confuses immediate adoption with long-term societal change — a common error in case-based questions where time-frame distinction is tested.",
+     "self_check": true
+    },
+    {
+     "q": "Design a formative evaluation plan for a \"Digital Literacy for Senior Citizens\" programme running in a community centre. Specify: (a) two criteria you will judge, (b) one quantitative and one qualitative indicator for each criterion, (c) one data collection method per indicator.",
+     "a": "(a) Criteria: **Relevance** and **Effectiveness**.  \n(b) Relevance: Quantitative — \"% of participants rating curriculum topics as 'useful for daily needs' on a 5-point scale\"; Qualitative — \"Themes from focus group discussions on unmet digital needs\". Effectiveness: Quantitative — \"Average score improvement on pre/post digital skills test\"; Qualitative — \"Observed confidence levels during practical tasks (field notes)\".  \n(c) Methods: Questionnaire (quantitative), Focus Group Discussion (qualitative), Pre-post test (quantitative), Participant Observation (qualitative).  \nA wrong answer that uses only quantitative indicators or selects \"impact\" as a criterion for formative evaluation reveals misunderstanding that formative evaluation focuses on *process improvement* (relevance, effectiveness) during implementation, not long-term impact.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"Criteria-Indicator\" relationship in extension evaluation with the \"Objective-Indicator\" relationship in a scientific experiment. How are they similar and how do they differ in purpose?",
+     "a": "Similarity: Both use indicators as measurable proxies to assess whether a standard (criterion/objective) is met. Difference: In science, indicators test a *hypothesis* under controlled conditions to establish causality; in extension, indicators judge *programme performance* in complex social settings to inform decision-making (continue, modify, scale up). A student who says \"they are the same\" misses the normative, decision-oriented nature of extension evaluation versus the knowledge-generation purpose of scientific experimentation — a distinction tested in assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"If a programme achieves all its output targets, it is successful and does not need summative evaluation.\" Use the concepts of efficiency, effectiveness, and sustainability.",
+     "a": "The statement is flawed. Output targets (e.g., \"100 training sessions conducted\") measure **efficiency** (resource use), not **effectiveness** (whether participants actually learned and changed behavior) or **sustainability** (whether changes persist without external support). A programme can be 100% efficient in delivering sessions but 0% effective if the content was irrelevant. Summative evaluation is essential to judge effectiveness and sustainability — board exams often include case studies where high output masks low outcome, requiring this critique.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel \"indicator dashboard\" for a hypothetical \"Adolescent Anaemia Prevention\" programme in a rural block. Include 5 indicators covering input, process, output, outcome, and impact levels. Present as a table with columns: Level, Indicator, Data Source, Frequency.",
+     "a": "| Level | Indicator | Data Source | Frequency |\n|-------|-----------|-------------|-----------|\n| Input | Budget utilised for IFA tablets procurement (₹) | Financial records | Monthly |\n| Process | % of Anganwadi centres conducting weekly IFA distribution sessions | Supervisor reports | Monthly |\n| Output | % of adolescent girls (10-19 yrs) receiving 4 IFA tablets/month | Distribution registers | Monthly |\n| Outcome | % reduction in moderate/severe anaemia (Hb <10 g/dL) among enrolled girls after 6 months | Haemoglobin camps | Bi-annual |\n| Impact | Change in district-level adolescent anaemia prevalence (NFHS data) | NFHS survey | 3-5 years |\nA poor answer that lists only output indicators or uses the same data source for all levels reveals inability to conceptualise the *results chain* — a core competency for CUET/NEET-style case studies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

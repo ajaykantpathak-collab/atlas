@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_20_003",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_20_003",
+   "title": "c11_geo_cbse_20_003",
+   "questions": [
+    {
+     "q": "Name the four essential raw materials required for an integrated iron and steel plant and state the typical weight ratio of iron ore : coking coal : limestone needed to produce one tonne of pig iron.",
+     "a": "The four essential raw materials are iron ore, coking coal, limestone, and manganese (as flux/alloy). The typical weight ratio for one tonne of pig iron is approximately 1.5–2 tonnes iron ore : 0.6–0.8 tonnes coking coal : 0.2–0.3 tonnes limestone. A wrong answer (e.g., listing thermal coal instead of coking coal, or omitting limestone) reveals the student confuses fuel types or does not understand the chemical role of flux in removing silica impurities.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Chotanagpur plateau region hosts the maximum concentration of integrated iron and steel plants in India, referring to at least three specific locational factors.",
+     "a": "The Chotanagpur plateau (Jharkhand, Odisha, West Bengal) hosts TISCO-Jamshedpur, IISCO-Burnpur, Bhilai, Rourkela, Durgapur, and Bokaro because: (1) proximity to high-grade haematite iron ore (Noamundi, Gua, Badampahar) and coking coal (Jharia, Bokaro, Raniganj) reduces transport cost for weight-losing inputs; (2) perennial rivers (Damodar, Subarnarekha, Koel) provide cooling water; (3) dense rail/road network (Kolkata-Delhi main line) links to Kolkata port for export and to northern markets. A wrong answer focusing only on \"raw materials\" without specifying coking coal vs. thermal coal, or ignoring water and transport, shows incomplete understanding of multi-factor location theory.",
+     "self_check": true
+    },
+    {
+     "q": "Using the concept of weight-losing industry, calculate the approximate total weight of raw materials (iron ore + coking coal + limestone) required to produce 10,000 tonnes of finished steel, assuming a conversion ratio of 2 tonnes raw material per tonne of crude steel and 90% yield from crude to finished steel. Show your steps.",
+     "a": "Step 1: Finished steel target = 10,000 tonnes. Step 2: Crude steel needed = 10,000 / 0.90 = 11,111 tonnes (approx). Step 3: Raw material weight = 11,111 × 2 = 22,222 tonnes. Step 4: This demonstrates why plants locate near raw material sources—moving 22,222 tonnes of bulky inputs is costlier than moving 10,000 tonnes of finished product. A wrong calculation (e.g., forgetting the yield factor or using 1:1 ratio) reveals the student cannot apply the weight-loss principle quantitatively.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the locational logic of Bhilai (Chhattisgarh) and Visakhapatnam (Andhra Pradesh) steel plants. Why does Visakhapatnam violate the typical raw-material-orientation pattern?",
+     "a": "Bhilai follows classic raw-material orientation: located near Dalli-Rajhara iron ore and Korba coal, on the Kolkata-Mumbai rail route, with water from the Shivnath river. Visakhapatnam (RINL) is a coastal, export-oriented plant: it imports coking coal (Australia) and exports steel via its deep-water port; iron ore comes from Bailadila (Kirandul) via a dedicated 267 km slurry pipeline. It violates the Weberian model because modern bulk carriers and slurry pipelines drastically reduce per-tonne-km transport cost for inputs/outputs, and government policy (1970s) prioritised coastal dispersal and export earnings. A student who says \"Visakhapatnam has local coal/iron ore\" shows a factual misconception; one who cannot explain the pipeline/port economics misses the technology-policy shift.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the impact of the 1991 Industrial Policy liberalisation on the Indian iron and steel industry's ownership, capacity, and spatial distribution. Provide two positive and one negative outcome.",
+     "a": "Positive: (1) Private sector entry (Tata Steel expansion, JSW Steel at Vijayanagar/Tarapur, Essar at Hazira) doubled capacity from ~15 MT (1991) to ~120 MT (2023); (2) Coastal private plants (JSW Vijayanagar, Hazira) use imported coal and port access, breaking Chotanagpur monopoly. Negative: (1) Uneven regional development—private investment bypasses mineral-rich but infrastructure-poor states (Jharkhand, Odisha interior), widening intra-regional disparity. A student listing only \"growth\" without spatial/ownership specifics shows superficial evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a locational proposal for a new 3 MTPA integrated steel plant in India. Choose a site (state/district), justify it with four locational factors (raw material, water, power, transport, market, policy), and identify one major challenge you would need to mitigate.",
+     "a": "Example proposal: Kendrapara district, Odisha. Justification: (1) Raw material—proximity to Daitari-Tomka iron ore and Talcher coal (thermal, but coking coal import via Paradip port 80 km away); (2) Water—Mahanadi delta distributaries; (3) Transport—Paradip deep-water port for coking coal import/steel export, NH-53 and rail link; (4) Policy—Odisha's industrial corridor incentives, SEZ status. Challenge: Coastal regulation zone (CRZ) clearance and cyclone risk requiring resilient infrastructure. A poor answer picks a site without port/rail access or ignores coking coal import logistics, showing inability to synthesize multi-factor location analysis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

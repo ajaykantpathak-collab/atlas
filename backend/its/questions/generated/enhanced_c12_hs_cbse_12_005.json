@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_12_005",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_12_005",
+   "title": "c12_hs_cbse_12_005",
+   "questions": [
+    {
+     "q": "List the three broad categories of audio-visual aids used in extension work and give one example of each.",
+     "a": "The three categories are: (1) Audio aids – e.g., radio, audio recordings; (2) Visual aids – e.g., charts, posters, models, flashcards; (3) Audio-visual aids – e.g., video films, slide shows with narration, television. A wrong answer that lists \"projector\" as a category instead of an example reveals confusion between hardware (equipment) and software (aid type), a common error in board exams where students classify devices instead of communication formats.",
+     "self_check": true
+    },
+    {
+     "q": "An extension worker plans to teach soil testing to farmers using a video film. The village has no electricity and most farmers are elderly with poor eyesight. Explain why this choice violates at least two selection criteria for audio-visual aids.",
+     "a": "The choice violates (1) Resource availability – no electricity to run video equipment; (2) Audience characteristics – elderly farmers with poor eyesight cannot see a screen clearly, and video pace may be too fast. A wrong answer that only mentions \"no electricity\" misses the audience factor, showing students often focus on technical constraints while ignoring human factors like age, literacy, and sensory abilities — a frequent error in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "You are conducting a demonstration on \"correct handwashing technique\" for school children in a rural primary school with no electricity. Select the most appropriate audio-visual aid from: (a) Video on tablet, (b) Flip chart with step-by-step photos, (c) Radio broadcast, (d) 3D model of germs. Justify your choice using three selection criteria.",
+     "a": "Best choice: (b) Flip chart with step-by-step photos. Justification: (1) No electricity needed – works in resource-poor setting; (2) Visual sequence matches procedural learning objective (step-by-step); (3) Large, colorful photos engage children and overcome literacy barriers. A wrong choice of (a) video ignores the electricity constraint; choosing (c) radio fails the visual demonstration need; choosing (d) 3D model is too abstract for handwashing steps. This tests application of multiple criteria simultaneously — a skill required for board case studies.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the use of \"flashcards\" versus \"video film\" for teaching \"importance of immunization\" to a group of young mothers in a tribal area. Analyze across four dimensions: cost, portability, interactivity, and cultural adaptability.",
+     "a": "Flashcards: Low cost, highly portable, high interactivity (can pause, ask questions, reorder), easily adaptable (local language, local images). Video film: Higher cost (production/equipment), less portable (needs screen/projector/power), low interactivity (fixed sequence), harder to adapt (requires re-shooting). A wrong answer that says \"video is better because it's modern\" reveals the misconception that technology level equals effectiveness, ignoring context-specific analysis needed for competitive exam questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The most expensive audio-visual aid is always the most effective for extension teaching.\" Provide three arguments with examples from extension contexts.",
+     "a": "The statement is false. Arguments: (1) Cost ≠ effectiveness: A ₹50 flip chart on breastfeeding techniques used interactively in an Anganwadi is more effective than a ₹50,000 video shown once in a dark room; (2) Appropriateness matters: A radio program (low cost) reaches nomadic pastoralists better than a TV program (high cost) they cannot access; (3) Sustainability: Locally made puppets (near zero cost) can be reused repeatedly by village leaders, while expensive imported films become obsolete. A wrong answer agreeing with the statement shows equating technology with impact — a trap in both board and competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-aid combination (one audio, one visual, one audio-visual) for a 2-hour extension session on \"Kitchen Gardening for Nutrition\" for semi-literate rural women with no electricity. Specify the sequence of use and the specific learning objective each aid addresses.",
+     "a": "Example design: (1) Audio: Radio-style recorded song/jingle (5 min) on \"Grow Greens, Grow Healthy\" – objective: attract attention, motivate; (2) Visual: Flip chart with 8 large laminated photos showing bed preparation, sowing, watering, harvesting – objective: demonstrate steps sequentially, allow discussion; (3) Audio-visual: Battery-operated tablet showing 3-min video of local woman harvesting and cooking spinach – objective: reinforce outcome, build confidence. Sequence: Audio → Visual → Audio-visual. A poor answer that uses three visual aids or ignores the no-electricity constraint shows inability to synthesize constraints into a coherent media mix — a higher-order skill for competency questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

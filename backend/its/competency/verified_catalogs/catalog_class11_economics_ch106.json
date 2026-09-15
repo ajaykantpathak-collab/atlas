@@ -1,0 +1,548 @@
+{
+ "class": 11,
+ "subject": "economics",
+ "chapter": 106,
+ "chapter_title": "Employment: Growth, Informalisation and Other Issues",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\keec106.txt",
+ "concepts": [
+  {
+   "id": "keec.6.2.1",
+   "title": "Economic Activities and Definition of a Worker",
+   "section": "6.2",
+   "definition": "An economic activity encompasses all actions contributing to national product, and any individual engaged in such productive efforts—whether self-employed, hired, or temporarily absent due to illness—is classified as a worker.",
+   "formula": "GNP = GDP + net_factor_income_from_abroad",
+   "key_idea": "Every individual contributing directly or through assisting roles to the production of goods and services is part of the workforce.",
+   "textbook_ref": "keec106.txt lines 35-70",
+   "question_patterns": [
+    "who is considered a worker",
+    "state whether an individual assisting in family business is a worker",
+    "define economic activity and worker",
+    "is a person temporarily absent from work due to illness considered a worker",
+    "Explain economic activities and definition of a worker in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify economic contribution",
+     "explain": "Check if the activity contributes to the generation of goods, services, or gross national product."
+    },
+    {
+     "step": 2,
+     "action": "classify worker status",
+     "explain": "Individuals engaged in productive activities, including self-employed, unpaid family helpers, and those temporarily abstaining from duty, are designated as workers."
+    }
+   ]
+  },
+  {
+   "id": "keec.6.3.1",
+   "title": "Worker-Population Ratio",
+   "section": "6.3",
+   "definition": "The worker-population ratio measures the proportion of a country's total population that actively participates in the production of goods and services.",
+   "formula": "worker_population_ratio = (total_workers / total_population) * 100",
+   "key_idea": "A higher worker-population ratio indicates greater engagement of the population in economic activities.",
+   "textbook_ref": "keec106.txt lines 71-115",
+   "question_patterns": [
+    "calculate the worker-population ratio",
+    "find the worker-population ratio given total workers and population",
+    "what is the worker population ratio of a region",
+    "compute the percentage of population participating in economic activity",
+    "Explain worker-population ratio in your own words."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide total workers by total population",
+     "explain": "Ratio of economically active individuals to the total resident population",
+     "compute": "total_workers / total_population"
+    },
+    {
+     "step": 2,
+     "action": "convert to percentage",
+     "explain": "Multiply the ratio by 100 to obtain the worker-population ratio percentage",
+     "compute": "ratio * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving worker-population ratio.",
+     "solution": "Step 1: divide total workers by total population. Step 2: convert to percentage. Working: total_workers / total_population, ratio * 100.",
+     "answer": "Worker-Population Ratio applied step by step gives the required result."
+    },
+    {
+     "question": "Apply worker-population ratio to a fresh example and interpret the result.",
+     "solution": "Step 1: divide total workers by total population. Step 2: convert to percentage. Working: total_workers / total_population, ratio * 100.",
+     "answer": "The method of worker-population ratio leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keec.6.3.2",
+   "title": "Estimation of Workforce from Worker-Population Ratio",
+   "section": "6.3",
+   "definition": "The total workforce in a given region or country can be calculated by applying the worker-population ratio to the aggregate population.",
+   "formula": "workforce = (population * worker_population_ratio) / 100",
+   "key_idea": "Total number of employed persons equals the product of population and participation rate divided by 100.",
+   "textbook_ref": "keec106.txt lines 75-100",
+   "question_patterns": [
+    "estimate the total workforce from population and worker population ratio",
+    "find the number of workers given population and WPR",
+    "calculate the estimated number of workers in urban area",
+    "how many people are employed given population and participation rate",
+    "Explain estimation of workforce from worker-population ratio in your own words."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply population by worker population ratio",
+     "explain": "Scale population by the given worker-population percentage",
+     "compute": "population * worker_population_ratio"
+    },
+    {
+     "step": 2,
+     "action": "divide by 100",
+     "explain": "Convert percentage product into the estimated workforce count",
+     "compute": "total_product / 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving estimation of workforce from worker-population ratio.",
+     "solution": "Step 1: multiply population by worker population ratio. Step 2: divide by 100. Working: population * worker_population_ratio, total_product / 100.",
+     "answer": "Estimation of Workforce from Worker-Population Ratio applied step by step gives the required result."
+    },
+    {
+     "question": "Apply estimation of workforce from worker-population ratio to a fresh example and interpret the result.",
+     "solution": "Step 1: multiply population by worker population ratio. Step 2: divide by 100. Working: population * worker_population_ratio, total_product / 100.",
+     "answer": "The method of estimation of workforce from worker-population ratio leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keec.6.4.1",
+   "title": "Classification of Workers by Employment Status",
+   "section": "6.4",
+   "definition": "Workers are grouped into self-employed individuals who operate their own enterprise, regular salaried employees who receive periodic wages with job continuity, and casual wage labourers hired intermittently without job security.",
+   "formula": "total_workforce = self_employed + regular_salaried + casual_wage_labourers",
+   "key_idea": "Employment status reflects the nature of contractual arrangement, level of security, and authority over production.",
+   "textbook_ref": "keec106.txt lines 116-160",
+   "question_patterns": [
+    "distinguish between self-employed, regular salaried, and casual wage workers",
+    "classify the following occupations into employment status categories",
+    "identify the category of a casual wage labourer",
+    "explain why casual labourers are the most vulnerable group",
+    "Explain classification of workers by employment status in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify ownership of enterprise or contractual relation",
+     "explain": "Determine whether the worker owns the business (self-employed), holds ongoing employment with regular pay (salaried), or is hired on day-to-day terms (casual)."
+    },
+    {
+     "step": 2,
+     "action": "assign employment category",
+     "explain": "Place into self-employed, regular salaried employee, or casual wage labourer based on terms of remuneration and attachment."
+    }
+   ]
+  },
+  {
+   "id": "keec.6.5.1",
+   "title": "Sectoral Distribution of Workforce",
+   "section": "6.5",
+   "definition": "Workforce allocation across primary (agriculture, mining), secondary (manufacturing, construction, utilities), and tertiary (services, trade, transport) sectors reflects economic structural composition.",
+   "formula": "total_share = primary_share + secondary_share + tertiary_share",
+   "key_idea": "Economic development traditionally drives structural shifts from primary agriculture to secondary manufacturing and tertiary service sectors.",
+   "textbook_ref": "keec106.txt lines 161-210",
+   "question_patterns": [
+    "analyse the sectoral distribution of workforce in India",
+    "compare primary, secondary, and tertiary sector employment",
+    "explain the difference in rural and urban employment by industry",
+    "why does female employment remain heavily concentrated in the primary sector",
+    "Explain sectoral distribution of workforce in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify industrial activities",
+     "explain": "Group activities into primary (extraction/farming), secondary (manufacturing/construction), and tertiary (services)."
+    },
+    {
+     "step": 2,
+     "action": "evaluate sector shares",
+     "explain": "Examine workforce proportion residing in rural versus urban regions across the three broad sectors."
+    }
+   ]
+  },
+  {
+   "id": "keec.6.6.1",
+   "title": "Jobless Growth and Casualisation of Workforce",
+   "section": "6.6",
+   "definition": "Jobless growth is a macroeconomic state where GDP expands without generating proportional employment opportunities, whereas casualisation refers to the structural drift of labour toward temporary casual wage work.",
+   "formula": "employment_elasticity_of_growth = employment_growth_rate / gdp_growth_rate",
+   "key_idea": "Output expansion through capital-intensive methods fails to absorb labour, pushing displaced workers into unprotected casual jobs.",
+   "textbook_ref": "keec106.txt lines 211-260",
+   "question_patterns": [
+    "what is meant by jobless growth",
+    "define casualisation of workforce",
+    "explain the trends in employment pattern over the planning era",
+    "why does casualisation increase vulnerability of workers",
+    "Explain jobless growth and casualisation of workforce in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyse output versus employment growth",
+     "explain": "Check if output expands while employment growth rate stagnates or declines."
+    },
+    {
+     "step": 2,
+     "action": "identify shift toward casual work",
+     "explain": "Observe the increasing share of casual wage labour at the expense of regular salaried and secure self-employed roles."
+    }
+   ]
+  },
+  {
+   "id": "keec.6.7.1",
+   "title": "Informalisation of the Workforce",
+   "section": "6.7",
+   "definition": "Formal sector units comprise public enterprises and private establishments with 10 or more hired workers providing social security, while informal units comprise all remaining small enterprises, self-employed, and casual laborers lacking social protection.",
+   "formula": "informal_share_pct = (informal_workers / total_workers) * 100",
+   "key_idea": "The informal sector lacks labour legislation protections, social security benefits, and trade union representation.",
+   "textbook_ref": "keec106.txt lines 261-340",
+   "question_patterns": [
+    "distinguish between formal and informal sector employment",
+    "calculate the percentage of workers in the informal sector",
+    "what criteria define an establishment as formal sector",
+    "why is informalisation a major challenge for the Indian economy",
+    "Explain informalisation of the workforce in your own words."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute informal workforce fraction",
+     "explain": "Divide the number of informal sector workers by the total workforce",
+     "compute": "informal_workers / total_workers"
+    },
+    {
+     "step": 2,
+     "action": "convert to percentage",
+     "explain": "Multiply by 100 to obtain informal sector workforce percentage",
+     "compute": "fraction * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving informalisation of the workforce.",
+     "solution": "Step 1: compute informal workforce fraction. Step 2: convert to percentage. Working: informal_workers / total_workers, fraction * 100.",
+     "answer": "Informalisation of the Workforce applied step by step gives the required result."
+    },
+    {
+     "question": "Apply informalisation of the workforce to a fresh example and interpret the result.",
+     "solution": "Step 1: compute informal workforce fraction. Step 2: convert to percentage. Working: informal_workers / total_workers, fraction * 100.",
+     "answer": "The method of informalisation of the workforce leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "keec.6.8.1",
+   "title": "Forms of Unemployment: Open, Disguised, and Seasonal",
+   "section": "6.8",
+   "definition": "Unemployment occurs when individuals willing and able to work at prevailing wages cannot find work; it manifests as open unemployment, disguised unemployment (marginal productivity of surplus labour is zero), or seasonal unemployment (lack of year-round agricultural work).",
+   "formula": "unemployed_count = labour_force - workforce",
+   "key_idea": "Disguised unemployment conceals excess labour in farming where removing workers does not diminish total output.",
+   "textbook_ref": "keec106.txt lines 341-395",
+   "question_patterns": [
+    "differentiate between disguised and seasonal unemployment",
+    "define open unemployment",
+    "explain disguised unemployment with an example from Indian agriculture",
+    "what are the main sources of unemployment data in India",
+    "Explain forms of unemployment: open, disguised, and seasonal in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify nature of unutilised labour",
+     "explain": "Determine if workers are visibly without work (open), working on family farms beyond actual labour requirements (disguised), or idle during off-season (seasonal)."
+    },
+    {
+     "step": 2,
+     "action": "classify unemployment type",
+     "explain": "Assign the appropriate category based on seasonal cycles or zero marginal productivity."
+    }
+   ]
+  },
+  {
+   "id": "keec.6.9.1",
+   "title": "Government Direct and Indirect Employment Generation",
+   "section": "6.9",
+   "definition": "The government generates employment directly by hiring staff in public departments and state-owned enterprises, and indirectly through multiplier effects when increased public sector output stimulates demand in supplying and purchasing private industries.",
+   "formula": "total_employment_generated = direct_employment + indirect_employment",
+   "key_idea": "Public enterprise expansion and statutory schemes like MGNREGA provide both direct livelihood and stimulate indirect private sector employment.",
+   "textbook_ref": "keec106.txt lines 396-440",
+   "question_patterns": [
+    "distinguish between direct and indirect employment generation by the government",
+    "explain the role of MGNREGA in rural employment creation",
+    "how does an increase in public sector output generate indirect jobs",
+    "state the employment generation strategies adopted by the state",
+    "Explain government direct and indirect employment generation in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify direct employment mechanism",
+     "explain": "Public administration, state utilities, and public sector undertakings hire workers on government payroll."
+    },
+    {
+     "step": 2,
+     "action": "identify indirect employment linkage",
+     "explain": "Backward and forward industrial linkages cause private enterprises supplying inputs or processing outputs to expand their own hiring."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "keec106.txt Table 6.1 lines 85-115",
+   "concept": "keec.6.3.1",
+   "question_type": "compute",
+   "question_pattern": "In an economy with a total population of {total_population} million and a total workforce of {total_workers} million, calculate the worker-population ratio.",
+   "extracted_variables": {
+    "total_workers": "number of employed persons (in millions)",
+    "total_population": "total resident population (in millions)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide total workers by total population",
+     "explain": "Calculate proportion of economically active individuals",
+     "compute": "ratio = total_workers / total_population"
+    },
+    {
+     "step": 2,
+     "action": "convert to percentage",
+     "explain": "Multiply the ratio by 100 to determine the worker-population ratio",
+     "compute": "worker_population_ratio = ratio * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "keec106.txt Exercise 12 lines 480-495",
+   "concept": "keec.6.3.2",
+   "question_type": "compute",
+   "question_pattern": "An urban region has an estimated population of {population} crores and a worker-population ratio of {worker_population_ratio} percent. Find the estimated number of workers.",
+   "extracted_variables": {
+    "population": "urban population (in crores)",
+    "worker_population_ratio": "worker population ratio percentage"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply population by worker population ratio",
+     "explain": "Obtain product of population and participation rate",
+     "compute": "total_product = population * worker_population_ratio"
+    },
+    {
+     "step": 2,
+     "action": "divide by 100",
+     "explain": "Compute total estimated workforce in crores",
+     "compute": "workforce = total_product / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "keec106.txt Chart 6.4 lines 290-315",
+   "concept": "keec.6.7.1",
+   "question_type": "compute",
+   "question_pattern": "In an economy with {total_workers} million workers, {informal_workers} million workers belong to the informal sector. Calculate the percentage of workforce in the informal sector.",
+   "extracted_variables": {
+    "total_workers": "total working population in millions",
+    "informal_workers": "number of informal sector workers in millions"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute informal workforce fraction",
+     "explain": "Divide informal workers by aggregate workforce",
+     "compute": "fraction = informal_workers / total_workers"
+    },
+    {
+     "step": 2,
+     "action": "convert to percentage",
+     "explain": "Multiply fraction by 100 to find informal sector share",
+     "compute": "informal_share_pct = fraction * 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex6.1",
+   "source_ref": "keec106.txt line 460",
+   "questions": [
+    "Who is a worker?"
+   ]
+  },
+  {
+   "id": "ex6.2",
+   "source_ref": "keec106.txt line 461",
+   "questions": [
+    "Define worker-population ratio."
+   ]
+  },
+  {
+   "id": "ex6.3",
+   "source_ref": "keec106.txt lines 462-463",
+   "questions": [
+    "Are the following workers — a beggar, a thief, a smuggler, a gambler? Why?"
+   ]
+  },
+  {
+   "id": "ex6.4",
+   "source_ref": "keec106.txt lines 464-467",
+   "questions": [
+    "Find the odd man out: (i) owner of a saloon (ii) a cobbler (iii) a cashier in Mother Dairy or Milk Cooperative Society of your area (iv) a tuition master (v) transport operator (vi) construction worker."
+   ]
+  },
+  {
+   "id": "ex6.5",
+   "source_ref": "keec106.txt lines 468-469",
+   "questions": [
+    "The newly emerging jobs are found mostly in the sector (service/manufacturing)."
+   ]
+  },
+  {
+   "id": "ex6.6",
+   "source_ref": "keec106.txt lines 470-471",
+   "questions": [
+    "An establishment with four hired workers is known as (formal/informal) sector establishment."
+   ]
+  },
+  {
+   "id": "ex6.7",
+   "source_ref": "keec106.txt lines 472-474",
+   "questions": [
+    "Raj is going to school. When he is not in school, you will find him working in his farm. Can you consider him as a worker? Why?"
+   ]
+  },
+  {
+   "id": "ex6.8",
+   "source_ref": "keec106.txt lines 475-476",
+   "questions": [
+    "Compared to urban women, more rural women are found working. Why?"
+   ]
+  },
+  {
+   "id": "ex6.9",
+   "source_ref": "keec106.txt lines 477-479",
+   "questions": [
+    "Meena is a housewife. Besides taking care of household chores, she works in the cloth shop which is owned and operated by her husband. Can she be considered as a worker? Why?"
+   ]
+  },
+  {
+   "id": "ex6.10",
+   "source_ref": "keec106.txt lines 480-481",
+   "questions": [
+    "Find the odd man out: (i) rickshaw puller who works under a rickshaw owner (ii) mason (iii) mechanic shop worker (iv) shoeshine boy."
+   ]
+  },
+  {
+   "id": "ex6.11",
+   "source_ref": "keec106.txt lines 482-488",
+   "questions": [
+    "The following table shows distribution of workforce in India for the year 1972-73. Analyse it and give reasons for the nature of workforce distribution: Rural (Male: 125, Female: 69, Total: 195 million); Urban (Male: 32, Female: 7, Total: 39 million)."
+   ]
+  },
+  {
+   "id": "ex6.12",
+   "source_ref": "keec106.txt lines 489-498",
+   "questions": [
+    "The following table shows the population and worker population ratio for India in 1999-2000. Can you estimate the workforce (urban and total) for India? Rural: Population 71.88 crore, WPR 41.9, Workers 30.12 crore; Urban: Population 28.52 crore, WPR 33.7; Total: Population 100.40 crore, WPR 39.5."
+   ]
+  },
+  {
+   "id": "ex6.13",
+   "source_ref": "keec106.txt lines 499-500",
+   "questions": [
+    "Why are regular salaried employees more in urban areas than in rural areas?"
+   ]
+  },
+  {
+   "id": "ex6.14",
+   "source_ref": "keec106.txt line 501",
+   "questions": [
+    "Why are less women found in regular salaried employment?"
+   ]
+  },
+  {
+   "id": "ex6.15",
+   "source_ref": "keec106.txt line 502",
+   "questions": [
+    "Analyse the recent trends in sectoral distribution of workforce in India."
+   ]
+  },
+  {
+   "id": "ex6.16",
+   "source_ref": "keec106.txt lines 503-504",
+   "questions": [
+    "Compared to the 1970s, there has hardly been any change in the distribution of workforce across various industries. Comment."
+   ]
+  },
+  {
+   "id": "ex6.17",
+   "source_ref": "keec106.txt lines 505-506",
+   "questions": [
+    "Do you think that during 1950-2010 employment generated in the country is commensurate with the growth of GDP in India? How?"
+   ]
+  },
+  {
+   "id": "ex6.18",
+   "source_ref": "keec106.txt lines 507-508",
+   "questions": [
+    "Is it necessary to generate employment in the formal sector rather than in the informal sector? Why?"
+   ]
+  },
+  {
+   "id": "ex6.19",
+   "source_ref": "keec106.txt lines 509-511",
+   "questions": [
+    "Victor is able to get work only for two hours in a day. Rest of the day, he is looking for work. Is he unemployed? Why? What kind of jobs could persons like Victor be doing?"
+   ]
+  },
+  {
+   "id": "ex6.20",
+   "source_ref": "keec106.txt lines 512-514",
+   "questions": [
+    "You are residing in a village. If you are asked to advise the village panchayat, what kinds of activities would you suggest for the improvement of your village which would also generate employment?"
+   ]
+  },
+  {
+   "id": "ex6.21",
+   "source_ref": "keec106.txt line 515",
+   "questions": [
+    "Who is a casual wage labourer?"
+   ]
+  },
+  {
+   "id": "ex6.22",
+   "source_ref": "keec106.txt line 516",
+   "questions": [
+    "How will you know whether a worker is working in the informal sector?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

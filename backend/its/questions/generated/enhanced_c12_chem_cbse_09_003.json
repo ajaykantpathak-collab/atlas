@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_09_003",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_09_003",
+   "title": "c12_chem_cbse_09_003",
+   "questions": [
+    {
+     "q": "What is the change in oxidation state of nitrogen when nitrobenzene (C₆H₅NO₂) is reduced to aniline (C₆H₅NH₂)?",
+     "a": "In nitrobenzene, nitrogen is in +3 oxidation state (each O is –2, total –4; the phenyl group is treated as C₆H₅– with carbon more electronegative than H but less than N, so N gets +3). In aniline, nitrogen is –3 (each H is +1, phenyl group is considered as C₆H₅– with carbon slightly more electronegative, but conventionally nitrogen in amines is –3). The change is a gain of 6 electrons (reduction). A wrong answer (e.g., +5 to –3) reveals confusion about oxidation state assignment in covalent organic compounds.",
+     "self_check": true
+    },
+    {
+     "q": "Why is iron scrap with HCl preferred over tin with HCl for industrial reduction of nitrobenzene?",
+     "a": "Fe/HCl is preferred because FeCl₂ formed undergoes hydrolysis to regenerate HCl, so only a catalytic amount of acid is needed. Sn/HCl consumes stoichiometric acid and produces SnCl₂ which does not regenerate acid. A student who says \"iron is cheaper\" misses the chemical reason (acid regeneration) and would lose marks in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Write the balanced chemical equation for the reduction of 1-nitropropane (CH₃CH₂CH₂NO₂) to 1-aminopropane using Sn/HCl. Include states.",
+     "a": "CH₃CH₂CH₂NO₂(l) + 6[H] → CH₃CH₂CH₂NH₂(l) + 2H₂O(l). The 6[H] comes from Sn + 2HCl → SnCl₂ + 2[H] (×3). Overall: CH₃CH₂CH₂NO₂ + 3Sn + 6HCl → CH₃CH₂CH₂NH₂ + 3SnCl₂ + 2H₂O. A common error is forgetting the 2H₂O product or balancing H atoms incorrectly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the products of catalytic hydrogenation of nitrobenzene vs. reduction with Zn/NH₄Cl (neutral medium). Are they the same? Explain.",
+     "a": "Both give aniline as the major product. However, Zn/NH₄Cl (neutral) can also produce some phenylhydroxylamine (C₆H₅NHOH) as a side product due to partial reduction (4-electron reduction). Catalytic hydrogenation usually goes directly to the amine. A student who says \"they are identical\" ignores the possibility of intermediate formation under different conditions.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the reduction of nitrobenzene with H₂/Pd as: C₆H₅NO₂ + H₂ → C₆H₅NH₂ + H₂O. Is this equation balanced? If not, correct it.",
+     "a": "Not balanced. Left: N=1, O=2, H=2; Right: N=1, H=3, O=1. Correct: C₆H₅NO₂ + 3H₂ → C₆H₅NH₂ + 2H₂O. The student forgot that 3 moles of H₂ (6 H atoms) are needed to provide 6[H] for the 6-electron reduction and to form 2 water molecules. This error shows misunderstanding of stoichiometry of reduction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a small-scale lab experiment to confirm that the product of nitrobenzene reduction with Sn/HCl is aniline. List reagents, observations, and one confirmatory test.",
+     "a": "Reagents: nitrobenzene, Sn granules, conc. HCl, NaOH, ice. Procedure: Heat nitrobenzene with Sn/HCl under reflux, cool, add NaOH to liberate free amine, steam distill to collect aniline. Observations: reaction mixture becomes warm, Sn dissolves, aniline distills as a colorless liquid with characteristic odor. Confirmatory test: Add bromine water – white precipitate of 2,4,6-tribromoaniline forms instantly. A poor answer omits the liberation of free base with NaOH or the confirmatory test.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

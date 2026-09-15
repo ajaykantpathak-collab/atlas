@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_04_008",
+   "title": "c11_chem_cbse_04_008",
+   "questions": [
+    {
+     "q": "Define a bonding molecular orbital and an antibonding molecular orbital in terms of electron density distribution relative to the internuclear axis.",
+     "a": "A bonding MO has enhanced electron density between the two nuclei (no nodal plane perpendicular to the internuclear axis), lowering energy. An antibonding MO has a nodal plane between the nuclei where electron density is zero, raising energy. A wrong answer (e.g., \"antibonding orbitals have more electron density between nuclei\") reveals confusion between constructive/destructive interference of wave functions.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the σ₂p_z orbital lie higher in energy than π₂p_x/π₂p_y for B₂, C₂, N₂ but lower for O₂, F₂? Explain using orbital overlap and s-p mixing.",
+     "a": "For B₂–N₂, the 2s and 2p_z orbitals are close in energy, causing significant s-p mixing that pushes σ₂p_z above π₂p_x/π₂p_y. For O₂/F₂, the 2s-2p energy gap is larger, reducing mixing, so σ₂p_z drops below π₂p_x/π₂p_y. A wrong answer (e.g., \"π orbitals are always lower\") shows lack of understanding of orbital interaction dependence on energy separation.",
+     "self_check": true
+    },
+    {
+     "q": "Write the molecular orbital electron configuration for N₂ and calculate its bond order. Predict its magnetic behaviour.",
+     "a": "N₂ (14 electrons): KK (σ₂s)² (σ*₂s)² (π₂p_x)² (π₂p_y)² (σ₂p_z)². Bond order = ½(8 bonding – 2 antibonding) = 3. All electrons paired → diamagnetic. Steps: 1) Total valence electrons = 10. 2) Fill MOs in order for N₂ (π before σ₂p_z). 3) Count bonding (σ₂s, π₂p_x, π₂p_y, σ₂p_z = 8) and antibonding (σ*₂s = 2). 4) Apply formula. 5) Check unpaired electrons. A wrong bond order (e.g., 2) indicates incorrect energy ordering or electron counting.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the MO diagrams of O₂ and F₂. Why does O₂ have two unpaired electrons while F₂ has none, despite both using the same energy ordering?",
+     "a": "O₂ has 12 valence electrons → configuration: (σ₂s)²(σ*₂s)²(σ₂p_z)²(π₂p_x)²(π₂p_y)²(π*₂p_x)¹(π*₂p_y)¹. Two electrons singly occupy degenerate π* orbitals (Hund's rule). F₂ has 14 valence electrons → fills π*₂p_x and π*₂p_y completely (π*₂p_x)²(π*₂p_y)². All paired. A wrong answer (e.g., \"F₂ has unpaired electrons\") reveals misunderstanding of degenerate orbital filling.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"He₂⁺ has bond order 0.5 and should be stable, but He₂ has bond order 0 and is unstable. Therefore, adding an electron to He₂⁺ destabilises it.\" Evaluate this statement.",
+     "a": "The statement is correct in conclusion but incomplete reasoning. He₂⁺: (σ₁s)²(σ*₁s)¹ → bond order = ½(2–1)=0.5 (stable). He₂: (σ₁s)²(σ*₁s)² → bond order = ½(2–2)=0 (unstable). Adding an electron to the antibonding orbital increases antibonding character, reducing bond order. The student correctly identifies the trend but should explicitly reference the bond order formula and the fact that the added electron occupies an antibonding orbital.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment: If you could artificially compress the 2s-2p energy gap in O₂ to match that of N₂, how would the MO diagram and magnetic properties change? Justify.",
+     "a": "Reducing the 2s-2p gap would increase s-p mixing, raising σ₂p_z above π₂p_x/π₂p_y. The MO ordering would switch to the N₂-type sequence. For O₂ (12 valence electrons), the new filling would be: (σ₂s)²(σ*₂s)²(π₂p_x)²(π₂p_y)²(σ₂p_z)²(π*₂p_x)¹(π*₂p_y)¹ — still two unpaired electrons in π* orbitals, so paramagnetism remains. However, bond order unchanged (still 2). A poor answer would claim diamagnetism or bond order change, missing that the electron count in bonding/antibonding sets is identical.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

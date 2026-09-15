@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_02_012",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_02_012",
+   "title": "c12_phy_cbse_02_012",
+   "questions": [
+    {
+     "q": "State the three equivalent formulas for the energy stored in a capacitor and give the SI unit of each quantity involved.",
+     "a": "The three formulas are \\( U = \\frac{1}{2}CV^2 \\), \\( U = \\frac{1}{2}QV \\), and \\( U = \\frac{1}{2}\\frac{Q^2}{C} \\). SI units: U in joules (J), C in farads (F), V in volts (V), Q in coulombs (C). A wrong answer (e.g., missing the 1/2 factor, or writing \\( U = QV \\)) reveals that the student assumes constant voltage during charging, confusing the energy supplied by the battery with the energy stored in the capacitor.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the energy stored in a capacitor is \\( \\frac{1}{2}QV \\) and not \\( QV \\), even though the battery does work \\( QV \\) to move charge Q across a potential difference V.",
+     "a": "During charging, the potential difference across the capacitor increases from 0 to V. The average potential difference during the process is \\( V/2 \\), so the work done (energy stored) is \\( Q \\times (V/2) = \\frac{1}{2}QV \\). The battery supplies energy \\( QV \\); the other half is dissipated as heat in the connecting wires (or radiated) during the transient current. A wrong answer (e.g., \"energy is QV because W=QV\") shows the student treats the voltage as constant throughout charging, ignoring the variable nature of the potential difference.",
+     "self_check": true
+    },
+    {
+     "q": "A 12 μF capacitor is charged to 200 V. Calculate the energy stored in it. If this capacitor is then disconnected from the supply and connected in parallel with an uncharged 6 μF capacitor, find the final energy of the system. (Use \\( \\frac{1}{2}CV^2 \\) and charge conservation.)",
+     "a": "**Step 1:** Initial energy \\( U_i = \\frac{1}{2} C_1 V^2 = \\frac{1}{2} \\times 12 \\times 10^{-6} \\times (200)^2 = 0.24 \\, \\text{J} \\).  \n**Step 2:** Initial charge \\( Q = C_1 V = 12 \\times 10^{-6} \\times 200 = 2.4 \\times 10^{-3} \\, \\text{C} \\).  \n**Step 3:** After connecting in parallel, total capacitance \\( C_{\\text{eq}} = 12 + 6 = 18 \\, \\mu\\text{F} \\). Common voltage \\( V' = Q / C_{\\text{eq}} = 2.4 \\times 10^{-3} / 18 \\times 10^{-6} = 133.33 \\, \\text{V} \\).  \n**Step 4:** Final energy \\( U_f = \\frac{1}{2} C_{\\text{eq}} (V')^2 = \\frac{1}{2} \\times 18 \\times 10^{-6} \\times (133.33)^2 = 0.16 \\, \\text{J} \\).  \n**Step 5:** Energy lost = \\( 0.24 - 0.16 = 0.08 \\, \\text{J} \\) (dissipated as heat/radiation).  \nA wrong answer (e.g., using \\( V' = 200 \\, \\text{V} \\) or forgetting to convert μF to F) indicates confusion about charge conservation vs. voltage conservation in isolated systems.",
+     "self_check": true
+    },
+    {
+     "q": "A parallel-plate capacitor with plate area A and separation d is charged to a potential difference V and then disconnected from the battery. The plates are slowly pulled apart to double the separation (2d). Does the stored energy increase, decrease, or stay the same? Justify using the formula \\( U = \\frac{1}{2}\\frac{Q^2}{C} \\) and the capacitance of a parallel-plate capacitor.",
+     "a": "The stored energy **increases**. Since the capacitor is disconnected, charge Q remains constant. Capacitance \\( C = \\varepsilon_0 A / d \\); when d doubles, C halves. From \\( U = \\frac{1}{2}\\frac{Q^2}{C} \\), if C halves, U doubles. The external agent pulling the plates does positive work against the attractive force between the plates, which adds to the stored energy. A wrong answer (e.g., \"energy stays the same\" or \"energy decreases\") reveals the student incorrectly assumes constant voltage or ignores the work done by the external agent.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"When a dielectric slab is inserted into a capacitor that remains connected to a battery, the stored energy decreases because the capacitance increases but the voltage is constant, so \\( U = \\frac{1}{2}CV^2 \\) increases. Wait, that means energy increases. Actually, the battery supplies extra energy, so the capacitor's stored energy increases.\" Evaluate this statement and identify any conceptual error.",
+     "a": "The student's final conclusion is correct: **stored energy increases** when a dielectric is inserted with the battery connected. However, the reasoning is slightly garbled. The correct logic: Voltage V is fixed by the battery. Capacitance increases by factor K (dielectric constant). Since \\( U = \\frac{1}{2}CV^2 \\), U increases by factor K. The battery supplies additional charge to maintain V, doing work \\( \\Delta U_{\\text{battery}} = \\Delta Q \\cdot V = (KC_0 - C_0)V \\cdot V = (K-1)C_0V^2 \\). The capacitor's energy increases by \\( \\frac{1}{2}(K-1)C_0V^2 \\); the other half is dissipated as heat or work done on the dielectric. The student's initial \"decreases\" was a slip, but they corrected it. A fully wrong answer would be to say energy decreases or that the battery does no work.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a capacitor, a battery, and a small electric motor (or LED) to demonstrate that a charged capacitor stores energy. Describe the procedure, what you would observe, and how you would estimate the stored energy from the observations.",
+     "a": "**Procedure:** Charge a large electrolytic capacitor (e.g., 1000 μF, 16 V) using a 9 V battery through a current-limiting resistor. Disconnect the battery. Connect the capacitor to a small DC motor (or LED with a series resistor). Observe the motor spinning (or LED glowing) for a short time.  \n**Observation:** The motor runs/LED lights using only the capacitor's stored energy, proving energy was stored.  \n**Estimation:** Measure the time the motor runs and its average current (using a multimeter in series). Approximate energy delivered = \\( \\int V(t)I(t)\\,dt \\). If voltage drops linearly from 9 V to 0, average voltage = 4.5 V. If average current is 10 mA for 2 s, energy ≈ 4.5 V × 0.01 A × 2 s = 0.09 J. Compare with \\( \\frac{1}{2}CV^2 = \\frac{1}{2} \\times 1000 \\times 10^{-6} \\times 81 = 0.0405 \\, \\text{J} \\). Discrepancy due to non-ideal discharge and measurement errors.  \nA poor answer (e.g., \"just connect and see\" without quantitative estimation) shows inability to link the physical demonstration to the energy formula.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

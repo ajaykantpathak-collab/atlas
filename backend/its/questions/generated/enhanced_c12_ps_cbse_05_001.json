@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_05_001",
+   "title": "c12_ps_cbse_05_001",
+   "questions": [
+    {
+     "q": "Name the eight countries that constitute the geopolitical region of South Asia as defined in the NCERT Class 12 Contemporary World Politics textbook.",
+     "a": "The eight countries are India, Pakistan, Bangladesh, Nepal, Sri Lanka, Bhutan, Maldives, and Afghanistan. A wrong answer (e.g., including Myanmar, excluding Afghanistan, or listing only seven) reveals the student lacks the basic geographic-political framework for the chapter. This is a recall error that will cascade into misidentifying conflict parties in later nodes (e.g., thinking India-Myanmar border is a core South Asian conflict).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Partition of 1947 is considered the \"foundational trauma\" that structures interstate relations in South Asia, rather than just a historical event.",
+     "a": "Partition created three enduring structural legacies: (1) contested borders (Kashmir, Sir Creek, maritime boundaries) because the Radcliffe Line was drawn hastily without ground demarcation; (2) competing national identities—Pakistan as a homeland for Muslims vs. India as a secular state—making each state's legitimacy dependent on the other's failure; (3) massive refugee flows and minority anxieties that fuel mutual suspicion (e.g., treatment of Hindus in Pakistan/Bangladesh, Muslims in India). A wrong answer treating Partition as merely \"a division of territory\" misses how it embedded zero-sum security perceptions into the region's DNA.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"South Asia shares rivers, culture, and history—so SAARC should work like the EU. The failure is just lack of political will.\" Apply the concept of **security dilemma** to evaluate this claim.",
+     "a": "The security dilemma explains why shared geography/culture doesn't guarantee cooperation: when India builds dams on shared rivers (e.g., Farakka, Kishanganga) for its water security, Pakistan and Bangladesh perceive existential threats to agriculture/survival, triggering counter-moves (diplomatic protests, militarization). Unlike the EU, where post-WWII reconciliation preceded economic integration, South Asia's conflicts (Kashmir, 1971 war, nuclear tests) created **asymmetric threat perceptions**—India sees itself as a regional hegemon managing multiple threats; neighbors see India as the primary threat. Political will is endogenous to this structural distrust, not an independent variable. A wrong answer ignoring the security dilemma treats cooperation as a simple choice, missing why confidence-building measures (CBMs) repeatedly fail.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the conflict drivers in **India-Pakistan** (Kashmir, terrorism, nuclear deterrence) and **Sri Lanka** (ethnic Tamil-Sinhala divide, LTTE, post-war militarization). Identify one structural similarity and one critical difference in how these conflicts challenge regional stability.",
+     "a": "**Similarity**: Both are **post-colonial state-building failures** where the inheritor state (India/Pakistan; Sri Lankan Sinhalese-majority state) failed to accommodate pluralism, leading to armed resistance framed as self-determination. **Difference**: India-Pakistan is an **interstate conflict with nuclear deterrence**, making escalation potentially catastrophic but also creating stability-instability paradox (limited wars like Kargil under nuclear umbrella). Sri Lanka was an **intrastate ethnic war** ending in military victory (2009) but leaving unresolved Tamil grievances and external involvement (India's IPKF, China's port investments). A wrong answer conflating them as \"ethnic conflicts\" misses that India-Pakistan involves two sovereign nuclear-armed states, while Sri Lanka's conflict was internal with regional spillovers.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Nuclearization of India and Pakistan (1998) has brought **more stability than instability** to South Asia.\" Use the concepts of **deterrence stability**, **stability-instability paradox**, and **command-control risks**.",
+     "a": "**Deterrence stability**: Nuclear weapons likely prevented full-scale war (e.g., 2001-02 standoff, 2019 Balakot crisis stayed limited). **Stability-instability paradox**: But they enabled **sub-conventional warfare** (cross-border terrorism, Kargil infiltration) because Pakistan calculates India won't risk nuclear escalation for limited provocations. **Command-control risks**: Nascent arsenals, ambiguous doctrines (India's \"no first use\" vs. Pakistan's \"full spectrum deterrence\"), and non-state actor access risks (A.Q. Khan network) create accident/unauthorized use dangers. **Verdict**: Nuclearization produced a **fragile negative peace**—absence of major war but persistence of low-intensity conflict and crisis instability. A wrong answer claiming \"nuclear weapons ensure peace\" ignores the paradox and command-control fragility; one claiming \"they made things worse\" ignores the deterrence effect on major war.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a **two-paragraph proposal** for a \"South Asian Regional Security Charter\" that addresses the core obstacle: **mutual threat perception asymmetry** (India sees neighbors as proxies for external powers; neighbors see India as hegemon). Your proposal must include: (a) a confidence-building measure (CBM) for military transparency, (b) a dispute-resolution mechanism for water/territory, and (c) a non-traditional security pillar (climate/health/migration).",
+     "a": "**Expected answer criteria**: (a) CBM: Annual exchange of military budgets, deployment plans, and missile test notifications—modeled on 1988 India-Pakistan Non-Attack Agreement on Nuclear Facilities but expanded to all eight states. (b) Dispute mechanism: A **South Asian Water Tribunal** (binding arbitration for Indus/Ganges/Brahmaputra disputes) + **Territorial Conciliation Commission** (non-binding mediation for Kashmir, Sir Creek, maritime boundaries) with equal representation. (c) Non-traditional pillar: **Regional Climate Resilience Fund** (financed by GDP-share contributions) for glacial melt adaptation, cyclone early warning, and pandemic preparedness—operationalized through SAARC Disaster Management Centre. **Poor answer reveals**: Proposing only \"more SAARC summits\" (ignores institutional paralysis), or \"India should unilaterally concede\" (ignores sovereignty constraints), or omitting non-traditional security (shows traditional-only mindset).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

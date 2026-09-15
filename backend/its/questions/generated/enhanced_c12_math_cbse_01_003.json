@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_01_003",
+   "title": "c12_math_cbse_01_003",
+   "questions": [
+    {
+     "q": "State the formal definition of a one-one (injective) function \\( f: X \\to Y \\) using logical quantifiers.",
+     "a": "Correct answer: \\( \\forall x_1, x_2 \\in X,\\; f(x_1) = f(x_2) \\implies x_1 = x_2 \\).  \nA wrong answer like \"different inputs give different outputs\" is informally correct but lacks the precise logical structure needed for proofs. If a student writes \"\\( f(x_1) \\neq f(x_2) \\implies x_1 \\neq x_2 \\)\", they have written the converse, which is always true for any function and does **not** define injectivity — this reveals confusion between a statement and its converse.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The function \\( f: \\mathbb{R} \\to \\mathbb{R} \\) defined by \\( f(x) = x^3 - x \\) is one-one because it is a cubic polynomial and all cubic polynomials are strictly increasing.\" Explain why this reasoning is flawed, and determine whether \\( f \\) is actually one-one.",
+     "a": "The reasoning is flawed because not all cubic polynomials are strictly increasing (e.g., \\( x^3 - x \\) has derivative \\( 3x^2 - 1 \\), which changes sign). To test injectivity, solve \\( f(x_1)=f(x_2) \\): \\( x_1^3 - x_1 = x_2^3 - x_2 \\implies (x_1-x_2)(x_1^2+x_1x_2+x_2^2-1)=0 \\). This gives \\( x_1=x_2 \\) OR \\( x_1^2+x_1x_2+x_2^2=1 \\). The second equation has solutions with \\( x_1 \\neq x_2 \\) (e.g., \\( x_1=1, x_2=0 \\) gives \\( 1=1 \\)), so \\( f(1)=0=f(0) \\). Hence \\( f \\) is **not** one-one. A student who only checks \"cubic ⇒ one-one\" misses the critical role of the derivative's sign and the algebraic condition.",
+     "self_check": true
+    },
+    {
+     "q": "Check whether the function \\( f: \\mathbb{Z} \\to \\mathbb{Z} \\) defined by \\( f(n) = 2n + 3 \\) is one-one. Show all steps.",
+     "a": "Assume \\( f(n_1) = f(n_2) \\) for \\( n_1, n_2 \\in \\mathbb{Z} \\).  \nThen \\( 2n_1 + 3 = 2n_2 + 3 \\)  \n⇒ \\( 2n_1 = 2n_2 \\) (subtract 3 from both sides)  \n⇒ \\( n_1 = n_2 \\) (divide by 2, valid in integers).  \nSince \\( f(n_1)=f(n_2) \\implies n_1=n_2 \\), the function is **one-one**.  \nA common error: forgetting that division by 2 is allowed in \\( \\mathbb{Z} \\) only because the result is guaranteed to be an integer (here it is, since both sides are even). If a student says \"divide by 2\" without noting the integer closure, they are glossing over a subtle domain issue.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the function \\( f: \\mathbb{R} \\to \\mathbb{R} \\) defined by \\( f(x) = \\frac{x}{1+|x|} \\). Without using calculus, prove that \\( f \\) is one-one by analyzing the equation \\( f(x_1) = f(x_2) \\). (Hint: consider cases based on the signs of \\( x_1, x_2 \\).)",
+     "a": "Assume \\( f(x_1)=f(x_2) \\), i.e., \\( \\frac{x_1}{1+|x_1|} = \\frac{x_2}{1+|x_2|} \\).  \n**Case 1:** \\( x_1, x_2 \\ge 0 \\). Then \\( \\frac{x_1}{1+x_1} = \\frac{x_2}{1+x_2} \\implies x_1(1+x_2)=x_2(1+x_1) \\implies x_1+x_1x_2 = x_2+x_1x_2 \\implies x_1=x_2 \\).  \n**Case 2:** \\( x_1, x_2 \\le 0 \\). Then \\( |x_i|=-x_i \\), so \\( \\frac{x_1}{1-x_1} = \\frac{x_2}{1-x_2} \\implies x_1(1-x_2)=x_2(1-x_1) \\implies x_1=x_2 \\).  \n**Case 3:** \\( x_1 \\ge 0, x_2 \\le 0 \\) (or vice versa). Then LHS ≥ 0, RHS ≤ 0. Equality forces both sides = 0 ⇒ \\( x_1=0, x_2=0 \\), which falls into Case 1/2.  \nThus in all cases \\( x_1=x_2 \\), so \\( f \\) is one-one.  \nA student who tries to cross-multiply without splitting cases will get \\( x_1(1+|x_2|)=x_2(1+|x_1|) \\) and may incorrectly cancel terms, missing the sign dependence of the absolute value. The case analysis is essential.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following \"proof\" that \\( f(x)=x^2 \\) is one-one on \\( \\mathbb{R} \\):  \n\"Assume \\( f(x_1)=f(x_2) \\). Then \\( x_1^2 = x_2^2 \\). Taking square roots gives \\( x_1 = x_2 \\). Hence \\( f \\) is one-one.\"  \nIdentify the exact logical error and give a correct counterexample.",
+     "a": "The error is in \"taking square roots gives \\( x_1 = x_2 \\)\". From \\( x_1^2 = x_2^2 \\) we correctly get \\( |x_1| = |x_2| \\), i.e., \\( x_1 = x_2 \\) **or** \\( x_1 = -x_2 \\). The student ignored the second possibility. A concrete counterexample: \\( x_1 = 2, x_2 = -2 \\) gives \\( f(2)=4=f(-2) \\) but \\( 2 \\neq -2 \\). Hence \\( f \\) is **not** one-one on \\( \\mathbb{R} \\). This reveals the classic mistake of treating \\( \\sqrt{x^2} = x \\) instead of \\( \\sqrt{x^2} = |x| \\).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a function \\( f: \\mathbb{N} \\to \\mathbb{N} \\) that is one-one but **not** onto, and prove both properties. Then modify the domain/codomain to make the same formula bijective.",
+     "a": "Example: \\( f(n) = 2n \\) (or \\( f(n)=n+1 \\)).  \n**One-one:** \\( 2n_1 = 2n_2 \\implies n_1=n_2 \\).  \n**Not onto:** No \\( n \\in \\mathbb{N} \\) gives \\( f(n)=1 \\) (or any odd number).  \nTo make it bijective, change codomain to the range: \\( f: \\mathbb{N} \\to \\{2,4,6,\\dots\\} \\) (or \\( f: \\mathbb{N} \\to \\mathbb{N}\\setminus\\{1\\} \\) for \\( n+1 \\)). Then it becomes onto by definition, and remains one-one.  \nA poor answer might give a formula without proving both properties, or suggest changing the domain to \\( \\mathbb{Z} \\) (which would break injectivity for \\( n+1 \\) because \\( f(0)=f(-1)? \\) Wait, \\( n+1 \\) on \\( \\mathbb{Z} \\) is still injective but not onto unless codomain is \\( \\mathbb{Z} \\)). The key is to recognize that **restricting the codomain to the range** always turns an injective function into a bijection.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

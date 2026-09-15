@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_05_003",
+   "title": "c11_ps_cbse_05_003",
+   "questions": [
+    {
+     "q": "Define 'negative right' and 'positive right' in one sentence each, citing the nature of the state obligation in each case.",
+     "a": "A negative right is a claim that obligates the state to refrain from interfering with an individual's liberty or autonomy (duty of non-interference). A positive right is a claim that obligates the state to take active measures and allocate resources to provide a specific good or service (duty of provision). A wrong answer (e.g., defining negative rights as 'bad rights' or positive rights as 'good rights') reveals a fundamental confusion between moral valuation and the structural direction of state duty.",
+     "self_check": true
+    },
+    {
+     "q": "Article 19(1)(a) guarantees freedom of speech and expression. Article 21A guarantees free and compulsory education to children aged 6-14. Classify each as negative or positive and explain WHY the classification matters for judicial enforcement.",
+     "a": "Article 19(1)(a) is a negative right (state must not censor); Article 21A is a positive right (state must build schools, hire teachers, fund education). Classification matters because negative rights are immediately justiciable — courts can strike down a censorship order instantly. Positive rights involve progressive realisation and resource constraints; courts typically issue structural directives (e.g., deadlines for compliance) rather than immediate injunctions. A student who says 'both are equally enforceable immediately' misunderstands the remedial difference between restraining state power and compelling state expenditure.",
+     "self_check": true
+    },
+    {
+     "q": "A state government passes a law requiring all private unaided schools to reserve 25% seats for economically weaker sections (EWS) without reimbursing the full per-child cost. The schools challenge this under Article 19(1)(g) (freedom to practice profession). Identify the negative right and positive right in conflict. Which constitutional provision resolves this, and how?",
+     "a": "Negative right: Schools' Article 19(1)(g) autonomy (state must not dictate admission policies). Positive right: EWS children's Article 21A right to education (state must ensure access). The conflict is resolved by Article 21A itself (inserted by 86th Amendment) and the RTE Act 2009, which explicitly mandate the 25% quota and provide for reimbursement — converting the positive right into a specific statutory obligation that qualifies the negative right. A wrong answer that ignores the constitutional amendment and treats this as a pure judicial balancing act misses the democratic legitimisation of the positive right through legislative action.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the judicial approach in *Maneka Gandhi v. Union of India* (1978) (expanding Article 21 to include 'procedure established by law' as fair, just, reasonable) with *Unni Krishnan v. State of Andhra Pradesh* (1993) (reading right to education into Article 21). How does the negative/positive distinction explain the difference in the Court's remedial orders?",
+     "a": "*Maneka Gandhi* protects a negative right (liberty from arbitrary state action) — remedy: strike down the passport impoundment order, immediate relief. *Unni Krishnan* enforces a positive right (education) — remedy: capitation fee regulation, directives to state to regulate private colleges, phased implementation. The negative right yields a 'stop' order; the positive right yields a 'do' order requiring ongoing supervision. A student who sees both as 'expanding Article 21' without distinguishing the remedial logic fails to grasp how the nature of the right shapes judicial power.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Positive rights are not real rights because they depend on state resources and political will, whereas negative rights are absolute and cost-free.\" Use the Indian constitutional scheme to support your evaluation.",
+     "a": "The argument is flawed. Negative rights are not cost-free (police, courts, legal aid require massive expenditure). Positive rights are constitutionally entrenched in India: Article 21A is a justiciable Fundamental Right; Directive Principles (Articles 39, 41, 47) are 'fundamental in governance' (Article 37) and courts increasingly treat them as enforceable (e.g., right to food via *PUCL v. Union of India*). The distinction is one of immediacy and remedy, not existence. A student accepting the argument reveals a libertarian bias uncritically adopted, ignoring the Indian Constitution's transformative design which explicitly mandates socio-economic transformation.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph constitutional amendment proposal that would convert the Directive Principle in Article 47 (duty to raise nutrition levels and public health) into a justiciable positive right, specifying: (a) the new article number, (b) the core obligation, (c) a progressive realisation clause, and (d) a judicial remedy mechanism.",
+     "a": "A good answer proposes: New Article 21B. Core obligation: 'The State shall ensure access to adequate nutrition and essential healthcare for every citizen.' Progressive realisation: 'The State shall achieve this within ten years through legislated schemes with annual benchmarks.' Remedy: 'Any citizen may approach the High Court for a structural interdict compelling the State to submit a compliance plan; the Court may appoint a monitoring committee.' A poor answer omits the progressive clause (making it unrealistic) or the remedy (making it symbolic), showing inability to translate moral claims into constitutional architecture.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

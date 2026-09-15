@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_05_001",
+   "title": "c12_ip_cbse_05_001",
+   "questions": [
+    {
+     "q": "Define the Internet and the World Wide Web in one sentence each.",
+     "a": "The Internet is the global network of interconnected computing devices and networking hardware that enables data communication. The World Wide Web is an information system of interlinked hypertext documents accessed via the Internet using browsers. A wrong answer that says \"they are the same thing\" reveals the core misconception that the terms are synonyms. A wrong answer that describes the Web as hardware reveals confusion between infrastructure and service.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the World Wide Web cannot exist without the Internet, but the Internet can exist without the World Wide Web.",
+     "a": "The Web relies on the Internet's infrastructure to transmit HTML pages, resolve URLs via DNS, and use HTTP over TCP/IP. Without the Internet's physical connections and routing, there is no way to fetch a web page. However, the Internet existed before the Web (since 1969) and supports many other services like email (SMTP), file transfer (FTP), and VoIP that do not use HTTP or HTML. A wrong answer that claims the Web is the Internet reveals the misconception; a wrong answer that says the Internet needs the Web shows lack of historical knowledge.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"I use the Internet to check email, and I use the Web to watch YouTube. So email is not part of the Web.\" Is this statement correct? Justify your answer.",
+     "a": "Yes, the statement is correct. Email uses protocols like SMTP, POP3, IMAP which are distinct from HTTP/HTML that define the Web. YouTube is a website accessed via HTTP/HTML, hence part of the Web. Email can be accessed via a webmail interface (which uses the Web), but the email service itself is an Internet service, not inherently a Web service. A wrong answer that says email is part of the Web because you can check it in a browser reveals confusion between access method and underlying service.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of HTML, URL, and HTTP in the World Wide Web. Which one identifies a resource, which one defines its structure, and which one transfers it?",
+     "a": "URL (Uniform Resource Locator) identifies the location of a resource on the Web. HTML (HyperText Markup Language) defines the structure and presentation of the resource (web page). HTTP (HyperText Transfer Protocol) defines the rules for transferring the resource between client and server. A wrong answer that swaps these roles (e.g., HTML transfers, HTTP structures) reveals a lack of understanding of the three distinct functions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The invention of the World Wide Web made the Internet popular among the general public.\" Provide two pieces of evidence to support or refute.",
+     "a": "The claim is largely supported. Evidence 1: Before the Web (1990), the Internet was used mainly by researchers and the military; after browsers like Mosaic (1993) and Netscape, public adoption exploded. Evidence 2: The Web provided a user-friendly, graphical interface (HTML) and easy navigation (hyperlinks) that made the Internet accessible to non-technical users. A wrong answer that says the Internet and Web were invented together reveals historical inaccuracy; a wrong answer that says the Web is just a small part of the Internet and didn't affect popularity underestimates its impact.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world analogy (different from the road/vehicle analogy) that explains the relationship between the Internet and the World Wide Web. Explain each component of your analogy.",
+     "a": "Example analogy: The Internet is the electrical grid (wires, transformers, power plants); the Web is the set of appliances (TV, refrigerator, lights) that use electricity to provide specific services. Other Internet services (email, VoIP) are other appliances. The grid can exist without appliances (but is useless), and appliances cannot work without the grid. A poor analogy would be one where the Web is a subset of the Internet but the analogy implies they are the same thing (e.g., \"Internet is a library, Web is a book\" – but a library contains books, so the Web would be part of the Internet, which is correct, but the analogy fails to show that other services exist). A good analogy must show the Internet as infrastructure and the Web as one of many services.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,144 @@
+{
+  "class": 11,
+  "subject": "political_science",
+  "chapter": 202,
+  "chapter_title": "Rights in the Indian Constitution",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keps202.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keps202.1.1",
+      "title": "Bill of Rights and Why Constitutions Need One",
+      "section": "1.1",
+      "definition": "A bill of rights is the part of a constitution that lists what the state may never do to individuals and what it must secure for them. It converts moral claims into enforceable entitlements, places limits even on elected majorities, and gives citizens legal weapons -- courts -- rather than appeals to goodwill.",
+      "formula": "",
+      "key_idea": "Rights written as law and guarded by courts survive the change of governments and moods.",
+      "textbook_ref": "keps202.txt lines 15-110 (introduction, bill of rights, why rights need constitutional status, rights and the limits of majorities)",
+      "question_patterns": [
+        "what is a bill of rights and why is it needed in a constitution",
+        "in class 11 rights in the indian constitution: how do fundamental rights differ from ordinary legal rights",
+        "why should rights be placed beyond the reach of legislative majorities",
+        "what role do courts play in protecting rights",
+        "explain how a bill of rights limits government",
+        "can parliament override fundamental rights by a simple majority"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "define the instrument", "explain": "The bill of rights catalogues enforceable entitlements binding on the state."},
+        {"step": 2, "action": "explain the entrenchment", "explain": "Amending them needs special majorities, so temporary majorities cannot abolish citizen protections."},
+        {"step": 3, "action": "explain enforcement", "explain": "Courts can strike down laws and executive acts that violate these rights, making protection real."}
+      ]
+    },
+    {
+      "id": "keps202.1.2",
+      "title": "The Six Fundamental Rights: An Overview",
+      "section": "1.2",
+      "definition": "Part III of the Constitution lists six fundamental rights: equality (Articles 14-18), freedom (19-22), against exploitation (23-24), freedom of religion (25-28), cultural and educational rights of minorities (29-30), and constitutional remedies (32). Together they cover the citizen's public, personal and group life.",
+      "formula": "",
+      "key_idea": "Six rights, one shield -- equality, freedom, anti-exploitation, religion, minority culture, and the remedy that unlocks the rest.",
+      "textbook_ref": "keps202.txt lines 110-220 (list of fundamental rights in part three, equality rights, right to freedom, right against exploitation, religious and cultural rights, remedies)",
+      "question_patterns": [
+        "list the six fundamental rights given in the indian constitution",
+        "in class 11 rights in the indian constitution: which articles contain the right to equality",
+        "what does the right against exploitation prohibit",
+        "explain the cultural and educational rights of minorities",
+        "which right lets citizens move the supreme court directly",
+        "name the freedoms guaranteed under article 19"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "catalogue the six", "explain": "Equality before law and non-discrimination; speech, assembly, association, movement, residence, profession freedoms and protection in arrest; bans on forced labour and child labour; religious freedom; minority culture and institutions; and remedies."},
+        {"step": 2, "action": "note the beneficiaries", "explain": "Some rights belong to persons generally, some only to citizens, and the cultural rights specifically to minorities."},
+        {"step": 3, "action": "connect to enforcement", "explain": "Article 32 makes the Supreme Court the guarantor who can enforce all the rest."}
+      ]
+    },
+    {
+      "id": "keps202.1.3",
+      "title": "Rights and Reasonable Restrictions",
+      "section": "1.3",
+      "definition": "Indian fundamental rights are not absolute: the Constitution itself allows reasonable restrictions -- for public order, decency, health, sovereignty and the rights of others. A restriction is valid only if imposed by law, for a listed purpose, and proportionate; otherwise courts strike it down as an unconstitutional invasion.",
+      "formula": "",
+      "key_idea": "Rights come with rule-of-law brakes -- limits must be lawful, listed and proportionate, not arbitrary.",
+      "textbook_ref": "keps202.txt lines 220-330 (reasonable restrictions on rights, limits on freedom of speech and assembly, judicial review of restrictions)",
+      "question_patterns": [
+        "are fundamental rights absolute explain reasonable restrictions",
+        "in class 11 rights in the indian constitution: on what grounds can speech be restricted",
+        "when does a restriction on a right become unreasonable",
+        "who decides whether a restriction is reasonable",
+        "compare absolute rights with rights subject to restrictions",
+        "give an example of a valid restriction on assembly"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "check the legal basis", "explain": "Restriction must flow from a valid law, not from administrative whim or mob pressure."},
+        {"step": 2, "action": "check the purpose", "explain": "The Constitution lists permissible aims: sovereignty, security, public order, decency, morality, health, others' rights."},
+        {"step": 3, "action": "test proportionality in court", "explain": "Courts balance the restriction against the right; excess or purposeless limits fail judicial review."}
+      ]
+    },
+    {
+      "id": "keps202.1.4",
+      "title": "Directive Principles and Their Relation to Rights",
+      "section": "1.4",
+      "definition": "Part IV carries directive principles -- instructions to the state to fight inequality, secure livelihoods, protect environment and workers, and promote village self-government. They are non-justiciable, yet they complete Part III: rights guard the individual from the state, directives command the state to build conditions where those rights mean something.",
+      "formula": "",
+      "key_idea": "Rights stop the state from harming; directives push the state to help -- two halves of one constitutional vision.",
+      "textbook_ref": "keps202.txt lines 330-430 (directive principles of state policy, their non-justiciability, relation with fundamental rights, equal pay, environment, village panchayats)",
+      "question_patterns": [
+        "what are directive principles of state policy",
+        "in class 11 rights in the indian constitution: how do directive principles differ from fundamental rights",
+        "why are directive principles called non justiciable",
+        "give examples of directives aiming at economic equality",
+        "can a law implementing a directive override a fundamental right",
+        "how do directives and rights together shape a welfare state"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "define the directives", "explain": "Part IV directs the state toward social and economic goals -- living wage, equal pay, environment, panchayats, uniform ideals of justice."},
+        {"step": 2, "action": "note their status", "explain": "They cannot be enforced by courts directly, but legislation built on them is politically mandatory."},
+        {"step": 3, "action": "relate to rights", "explain": "Realising directives -- education, livelihood, equality -- makes fundamental rights genuinely exercisable for every citizen."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keps202.txt lines 220-330 (reasonable restrictions)",
+      "concept": "keps202.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "A municipal order bans all public meetings for five years because one gathering once turned violent. Test the order as a restriction on the right to assemble.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "check purpose and scope", "explain": "Public order is a permitted ground, but a blanket five-year ban covers far more than the danger shown."},
+        {"step": 2, "action": "apply proportionality", "explain": "A reasonable restriction targets the offending situations -- places, times -- not the whole right forever."},
+        {"step": 3, "action": "conclude", "explain": "Being overbroad and disproportionate, the order would fail as an unreasonable restriction."}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keps202.txt lines 330-430 (directive principles)",
+      "concept": "keps202.1.4",
+      "question_type": "verify_property",
+      "question_pattern": "A state passes a law for equal pay for equal work citing a directive principle. Explain how the directive functions here despite being non-justiciable.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "identify the directive", "explain": "Equal pay for equal work for men and women appears among the directive principles of Part IV."},
+        {"step": 2, "action": "explain its route into law", "explain": "Though no court can directly order its enforcement, the state can legislate on it, and such laws are constitutionally encouraged."},
+        {"step": 3, "action": "conclude", "explain": "The directive guided legislation, which then binds as ordinary law -- showing how non-justiciable principles still act."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keps202.txt end-of-chapter exercises, reworded",
+      "questions": [
+        "Why do constitutions include a bill of rights?",
+        "List the six fundamental rights and name one article under each.",
+        "Explain reasonable restrictions with reference to freedom of speech.",
+        "How do directive principles complement fundamental rights?",
+        "Which right ensures enforcement of all other rights and through which court?",
+        "Distinguish the rights available to all persons from those available only to citizens of India."
+      ]
+    }
+  ]
+}

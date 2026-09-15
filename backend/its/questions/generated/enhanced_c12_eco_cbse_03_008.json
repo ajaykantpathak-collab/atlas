@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_03_008",
+   "title": "c12_eco_cbse_03_008",
+   "questions": [
+    {
+     "q": "What is the geometric relationship between the Long Run Average Cost (LRAC) curve and the Short Run Average Cost (SAC) curves? State it precisely.",
+     "a": "The LRAC curve is the lower envelope of the family of SAC curves — it touches each SAC at exactly one point (the tangency point) and lies on or below every SAC at all output levels. A wrong answer (e.g., \"LRAC is the average of all SAC curves\" or \"LRAC intersects each SAC at its minimum\") reveals confusion between envelope and average, or between tangency and intersection. The envelope property means LRAC is never above any SAC, and each SAC is tangent to LRAC at the output where that plant size is optimal.",
+     "self_check": true
+    },
+    {
+     "q": "A firm has three possible plant sizes with SAC curves SAC₁, SAC₂, SAC₃. At output q = 100, SAC₁ = ₹50, SAC₂ = ₹45, SAC₃ = ₹48. At output q = 200, SAC₁ = ₹60, SAC₂ = ₹40, SAC₃ = ₹42. Which plant size is optimal at each output, and what is the LRAC at these outputs?",
+     "a": "At q = 100, the minimum SAC is ₹45 (SAC₂), so optimal plant is medium, LRAC = ₹45. At q = 200, the minimum SAC is ₹40 (SAC₂), so optimal plant is medium, LRAC = ₹40. A wrong answer selecting SAC₁ at q=100 because \"it's the smallest plant\" shows failure to compare costs numerically. A wrong answer averaging the three SACs shows misunderstanding of envelope as minimum, not mean. The student must identify the lowest SAC at each output — that is the LRAC by definition.",
+     "self_check": true
+    },
+    {
+     "q": "Draw a diagram with three U-shaped SAC curves (SAC₁, SAC₂, SAC₃) where SAC₁ is smallest plant, SAC₃ largest. Sketch the LRAC envelope. Label the output ranges where each plant is optimal. Explain why the LRAC is U-shaped even though each SAC is U-shaped.",
+     "a": "The LRAC envelope touches SAC₁ at low outputs, SAC₂ at medium outputs, SAC₃ at high outputs. The LRAC is U-shaped because: (1) Downward slope: larger plants exploit economies of scale (spreading fixed costs, specialization), so minimum SAC falls as plant size increases. (2) Flat portion: constant returns to scale — minimum SAC constant across plant sizes. (3) Upward slope: diseconomies of scale (coordination, monitoring costs) cause minimum SAC to rise with plant size. A wrong answer stating \"LRAC is U-shaped because SACs are U-shaped\" confuses the shape of individual curves with the envelope of their minima. The envelope's shape depends on how the minima of SACs change with plant size — i.e., returns to scale.",
+     "self_check": true
+    },
+    {
+     "q": "A firm's production function exhibits increasing returns to scale up to 500 units, constant returns from 500 to 1000, and decreasing returns beyond 1000. If the firm can build any plant size, describe the shape of the LRAC curve and the optimal plant size decision at outputs 400, 700, and 1200.",
+     "a": "LRAC slopes downward up to 500 (increasing returns), is flat from 500–1000 (constant returns), slopes upward beyond 1000 (decreasing returns). At q=400: optimal plant is the one whose SAC minimum occurs at 400 (or the largest plant that still has falling LRAC). At q=700: any plant size with minimum SAC in the flat region is optimal — multiple plants yield same LRAC. At q=1200: optimal plant is the one whose SAC minimum occurs at 1200 (smaller than the plant that would minimize SAC at 1500). A wrong answer picking the largest plant for all outputs ignores that diseconomies make large plants costly at low outputs. A wrong answer saying \"plant size doesn't matter in constant returns region\" misses that the firm must still choose a plant whose SAC envelope covers that output at minimum cost.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"In the long run, the firm always operates at the minimum point of its LRAC curve.\" Use the concepts of output choice and market structure.",
+     "a": "The statement is false. The firm chooses output where MR = MC (profit maximization), not necessarily at minimum LRAC. Only in long-run perfect competition equilibrium does the firm produce at minimum LRAC (where P = MC = minimum LRAC). In monopoly, the firm produces where MR = MC, which is at an output less than the minimum LRAC output. In monopolistic competition, long-run equilibrium has P = AC but not at minimum AC (excess capacity). A wrong answer agreeing with the statement confuses long-run cost minimization for a given output with profit-maximizing output choice. The LRAC gives the minimum cost for each output; the firm then picks the output that maximizes profit, which may not be the output at the bottom of the LRAC.",
+     "self_check": true
+    },
+    {
+     "q": "A startup in Bengaluru produces software services. It currently uses a small team (SAC₁) but plans to scale. Create a hypothetical table of SAC values for three team sizes (small, medium, large) at outputs 10, 20, 30, 40 projects/month. Then derive the LRAC values and state the optimal team size for each output.",
+     "a": "Example table (costs in ₹ lakhs/project):\nOutput | SAC_small | SAC_medium | SAC_large\n10 | 5.0 | 6.0 | 8.0\n20 | 4.5 | 4.0 | 5.5\n30 | 5.5 | 3.8 | 4.2\n40 | 7.0 | 4.5 | 4.0\n\nLRAC = minimum of each column: q=10 → 5.0 (small), q=20 → 4.0 (medium), q=30 → 3.8 (medium), q=40 → 4.0 (large).\nOptimal team: small at 10, medium at 20–30, large at 40.\nA poor answer would just copy one row or average columns. A good answer shows the envelope logic: at each output, pick the lowest SAC. This tests ability to operationalize the envelope concept with discrete data — a common board exam table question.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

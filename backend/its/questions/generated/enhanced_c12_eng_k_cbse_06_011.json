@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_06_011",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_06_011",
+   "title": "c12_eng_k_cbse_06_011",
+   "questions": [
+    {
+     "q": "List the six words from Donne's poem that the NCERT Language Work box explicitly identifies as carrying a terminal '-e' no longer used in modern spelling.",
+     "a": "The six words are: houres, shadowes, Sunne, noone, clearnesse, behinde. A wrong answer (e.g., listing \"loves\" or \"doe\") reveals the student cannot distinguish the textbook's explicit examples from other archaic forms in the poem, indicating they have not read the Language Work box carefully.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why \"loves philosophy\" in line 2 lacks an apostrophe, and state whether this would be considered an error in Donne's time.",
+     "a": "In Donne's era (early 17th century), the apostrophe to mark the possessive case had not yet become standard convention; the genitive was often written without punctuation (e.g., \"loves philosophy\" = \"love's philosophy\"). This was not an error — it was the prevailing orthographic practice. A wrong answer claiming it is a \"mistake\" or \"poetic licence\" reveals the student imposes modern punctuation rules on historical texts, a common anachronism error.",
+     "self_check": true
+    },
+    {
+     "q": "In the phrase \"infant loves\" (line 5), the adjective \"infant\" does not mean 'a baby'. Using the poem's context, explain what \"infant\" means here and why Donne chooses this word instead of 'young' or 'new'.",
+     "a": "\"Infant\" here means 'in its earliest stage, newly born, not yet mature' — modifying \"loves\" to convey a love that is just beginning and therefore vulnerable. Donne chooses \"infant\" over 'young' because its Latin root *infans* ('unable to speak') subtly echoes the poem's opening \"Stand still and I will read to thee / A Lecture\" — the lovers' early love cannot yet articulate itself, just as an infant cannot speak. A wrong answer giving only the dictionary meaning 'baby' shows the student fails to analyse adjectives in their poetic collocation, a key skill for metaphysical poetry.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the meaning of \"brave\" in \"brave clearnesse\" (line 7) with its modern common meaning 'courageous'. How does the older meaning 'splendid, showy, defiantly bright' change the reader's picture of the noon sun?",
+     "a": "Modern 'brave' = courageous (human virtue). Donne's 'brave' = splendid, finely dressed, making a brilliant show (visual quality). \"Brave clearnesse\" therefore depicts the noon sun not as 'courageous' but as 'magnificently, almost aggressively bright' — the light that strips away shadows and disguises. This matters because the poem's argument is that such blazing clarity exposes love's imperfections. A wrong answer clinging to 'courageous' personifies the sun as a moral agent, missing the visual/expository force of the metaphysical conceit.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: \"The archaic spellings in Donne's poem are just old-fashioned mistakes; a good editor would fix them to modern spelling so students understand better.\" Defend or refute using two specific reasons from linguistic or literary principles.",
+     "a": "Refute. Reason 1: The terminal '-e' in \"shadowes\"/\"Sunne\" preserves the historical phonology — it signals the vowel quality of Middle English (e.g., /u:/ in \"Sunne\" vs modern /ʌn/), and removing it erases evidence of the Great Vowel Shift. Reason 2: In metaphysical poetry, visual spelling patterns often mirror conceptual patterns; the paired '-es' endings in \"houres/shadowes\" and \"Sunne/noone\" create a visual symmetry that reinforces the poem's structural argument about pairs and opposites. Modernising spelling destroys this textual evidence. A wrong answer agreeing with the student reveals a prescriptivist view that ignores historical linguistics and textual scholarship.",
+     "self_check": true
+    },
+    {
+     "q": "Write two original sentences using the archaic possessive pattern (noun + s without apostrophe) to describe a modern situation, e.g., \"The phones battery died.\" Then explain what a modern reader might misunderstand.",
+     "a": "Example sentences: \"The cars engine overheated.\" \"My friends dog barks loudly.\" A modern reader would likely parse \"cars engine\" as plural noun + noun (multiple cars' engine?) or as a compound noun (car-engine), missing the possessive relationship entirely. This demonstrates why the apostrophe-s convention became necessary for disambiguation. A poor answer that writes \"The car's engine\" (with apostrophe) fails the constraint of using the archaic pattern, showing the student cannot deliberately reproduce historical syntax.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

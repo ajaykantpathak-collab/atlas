@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_03_009",
+   "title": "c11_phy_cbse_03_009",
+   "questions": [
+    {
+     "q": "A particle is located at point P(3, 4) in a coordinate system with origin O(0, 0). Write its position vector in terms of unit vectors **î** and **ĵ** and state its magnitude with units.",
+     "a": "**r** = 3**î** + 4**ĵ** m; magnitude = 5 m.  \nA wrong answer like **r** = 4**î** + 3**ĵ** reveals confusion between x and y coordinates. Writing magnitude as 7 m (3+4) shows the student adds components instead of using Pythagoras. Forgetting units (metres) indicates incomplete physical quantity specification.",
+     "self_check": true
+    },
+    {
+     "q": "A car moves from point A(2, 1) to point B(5, 5) on a flat field. The driver actually takes a winding path of length 8 m. Find the displacement vector and its magnitude. Explain why the displacement magnitude is different from the path length.",
+     "a": "**Δr** = 3**î** + 4**ĵ** m; magnitude = 5 m.  \nThe path length is 8 m > 5 m. A student who says displacement is 8 m confuses displacement with distance travelled. A student who writes **Δr** = (5−2)**î** + (1−5)**ĵ** = 3**î** − 4**ĵ** has subtracted coordinates in wrong order (final minus initial for x, but initial minus final for y). The correct reasoning: displacement is the straight line from start to end, independent of the winding path.",
+     "self_check": true
+    },
+    {
+     "q": "The position of a particle at time t = 2 s is **r**₁ = (4**î** + 3**ĵ**) m and at t = 5 s is **r**₂ = (10**î** − 2**ĵ**) m. Calculate the displacement vector **Δr** and its magnitude.",
+     "a": "**Δr** = **r**₂ − **r**₁ = (10−4)**î** + (−2−3)**ĵ** = 6**î** − 5**ĵ** m.  \nMagnitude = √(6² + (−5)²) = √(36+25) = √61 ≈ 7.81 m.  \nA wrong answer like **Δr** = 4**î** + 5**ĵ** (subtracting **r**₂ − **r**₁ incorrectly) or magnitude = 11 m (adding absolute components) shows procedural errors in vector subtraction and magnitude calculation. Forgetting the negative sign in y-component reveals sign handling weakness.",
+     "self_check": true
+    },
+    {
+     "q": "Two particles start at the same point O. Particle A moves to P(3, 4) along a straight line. Particle B moves to the same point P(3, 4) along a curved path of length 10 m. Compare their displacement vectors and magnitudes. What does this illustrate about displacement?",
+     "a": "Both have the same displacement vector **Δr** = 3**î** + 4**ĵ** m and magnitude 5 m.  \nThis illustrates that displacement depends ONLY on initial and final positions, not on the path taken. A student who says Particle B has larger displacement because it travelled farther confuses path length with displacement. A student who says displacements are different because paths are different has not grasped the definition of displacement as a state function (depends only on endpoints).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If a particle moves in a circle of radius R and completes one full revolution, its displacement is 2πR.\" Evaluate this statement and correct it if wrong.",
+     "a": "The statement is FALSE. After one full revolution, the particle returns to its starting point, so initial position = final position. Therefore **Δr** = **0** (null vector) and its magnitude is 0 m. The value 2πR is the path length (circumference), not displacement. A student who agrees with the claim confuses distance travelled with displacement. This tests understanding that displacement is a vector from start to end, and for a closed loop it is zero.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a metre scale, a thread, and a few pins on a cardboard to demonstrate that displacement magnitude is always less than or equal to path length. Describe the procedure and what measurements you would take.",
+     "a": "Fix pins at points A and B on cardboard. Stretch a thread from A to B along a curved path (e.g., via pin C) and measure its length L_path. Then stretch the thread straight from A to B and measure L_displacement. Observe L_displacement ≤ L_path, with equality only when the path is straight. A poor answer might just say \"measure distance\" without specifying the two different measurements (curved vs straight) or without identifying which corresponds to path length and which to displacement. This reveals lack of operational understanding of the definitions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

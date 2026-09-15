@@ -1,0 +1,203 @@
+{
+ "catalog": "catalog_class12_computer_science_lecs108",
+ "concepts": [
+  {
+   "id": "lecs108.1",
+   "title": "Degree and Cardinality of a Relation",
+   "questions": [
+    {
+     "q": "Using the method 'Degree and Cardinality of a Relation', work with: attrs = 25, tuples = 360. Carry the chain through step by step and give the final value of nonkey_cells.",
+     "a": "8640 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Degree and Cardinality of a Relation' and work with: attrs = 40, tuples = 240. Carry the chain through step by step and give the final value of nonkey_cells.",
+     "a": "9360 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Degree and Cardinality of a Relation' refers to.",
+     "a": "In a relation, the degree counts its attributes (columns) and the cardinality counts its tuples (rows); multiplying the two gives the number of data values the relation state holds, of which one column per row is usually the key.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Degree and Cardinality of a Relation'.",
+     "a": "The GUARDIAN relation of Figure 8.4 has degree 4 and cardinality 5, so it stores 20 values.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Degree and Cardinality of a Relation', in plain ASCII form.",
+     "a": "cells = attrs * tuples",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs108.2",
+   "title": "Attendance Percentage from Working Days",
+   "questions": [
+    {
+     "q": "Using the method 'Attendance Percentage from Working Days', work with: present_days = 24, working_days = 12. Carry the chain through step by step and give the final value of percent.",
+     "a": "200 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Attendance Percentage from Working Days' and work with: present_days = 240, working_days = 18. Carry the chain through step by step and give the final value of percent.",
+     "a": "1333.3333 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Attendance Percentage from Working Days' refers to.",
+     "a": "A school consolidates attendance by dividing the days a student was marked present by the total working days and scaling to percent, which is the calculation done manually in registers but reliably by software.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Attendance Percentage from Working Days'.",
+     "a": "In the ATTENDANCE snapshot, roll number 3 is absent on both dates, so the percentage is 0.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Attendance Percentage from Working Days', in plain ASCII form.",
+     "a": "percent = present_days / working_days * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs108.3",
+   "title": "Manual Register Record Count",
+   "questions": [
+    {
+     "q": "How many attendance records must a teacher write each month for a class of 50 over 26 working days? Use the method 'Manual Register Record Count'. Work with: days = 5, students = 25. Carry the chain through step by step and give the final value of yearly_entries.",
+     "a": "1500 years",
+     "self_check": false
+    },
+    {
+     "q": "Compute the yearly attendance entries for the same class.. Use the method 'Manual Register Record Count'. Work with: days = 500, students = 50. Carry the chain through step by step and give the final value of yearly_entries.",
+     "a": "300000 years",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Manual Register Record Count' refers to.",
+     "a": "The chapter opens by counting the burden of paper registers: a class of 50 students over 26 working days needs 50 times 26 entries every month, and the yearly total shows why manual entry becomes tedious.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Manual Register Record Count'.",
+     "a": "Fifty students across 26 working days produce 1300 attendance records in one month.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Manual Register Record Count', in plain ASCII form.",
+     "a": "yearly_entries = students * days * 12",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs108.4",
+   "title": "Limitations of the File System",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Limitations of the File System' refers to.",
+     "a": "Storing data in separate files brings trouble: access needs custom programs, the same data get duplicated (redundancy), duplicated copies drift apart (inconsistency), related files stay unlinked (isolation), format changes break programs (dependence), and fine-grained sharing is hard to enforce.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Limitations of the File System'.",
+     "a": "Student names appear in both STUDENT and ATTENDANCE files, so a spelling change must be made twice or the files disagree.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Limitations of the File System', in plain ASCII form.",
+     "a": "redundancy -> inconsistency -> extra storage and errors",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs108.5",
+   "title": "Database Management System Basics",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Database Management System Basics' refers to.",
+     "a": "A DBMS is software that creates and manages databases, serving as the interface between users and stored data; its key terms are schema (the design), constraints, metadata or data dictionary, instance (a snapshot of the state), query, data manipulation and the database engine.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Database Management System Basics'.",
+     "a": "The DBMS keeps one centralised repository that the teacher and office staff can query at the same time.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Database Management System Basics', in plain ASCII form.",
+     "a": "query -> DBMS -> database -> query result",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs108.6",
+   "title": "Attribute, Tuple and Domain",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Attribute, Tuple and Domain' refers to.",
+     "a": "Relational vocabulary: a column of a relation is an attribute (also called field), a row is a tuple representing one entity's facts, and the domain is the set of permitted values for an attribute, such as integers for RollNumber or strings for SName.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Attribute, Tuple and Domain'.",
+     "a": "GUID, GName, GPhone and GAddress are the four attributes of relation GUARDIAN.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Attribute, Tuple and Domain', in plain ASCII form.",
+     "a": "relation = attributes (columns) x tuples (rows), values from domains",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs108.7",
+   "title": "Candidate, Primary, Composite and Foreign Keys",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Candidate, Primary, Composite and Foreign Keys' refers to.",
+     "a": "Keys enforce tuple uniqueness and relationships: attributes that can uniquely identify tuples are candidate keys; the designer's chosen candidate becomes the primary key and the rest are alternate keys; two or more attributes can form a composite primary key; and a foreign key in one relation refers to the primary key of another to link them.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Candidate, Primary, Composite and Foreign Keys'.",
+     "a": "In GUARDIAN, GUID and GPhone are candidate keys; choosing GUID as primary makes GPhone the alternate key.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Candidate, Primary, Composite and Foreign Keys', in plain ASCII form.",
+     "a": "{RollNumber, AttendanceDate} -> composite primary key of ATTENDANCE",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lecs108.8",
+   "title": "Properties of a Relation and NULL",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Properties of a Relation and NULL' refers to.",
+     "a": "A relation differs from a plain table by three properties: attribute names are unique and their order immaterial, every tuple is distinct and unordered, and each value is atomic, from one domain, single-valued, with NULL marking unknown or inapplicable values.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Properties of a Relation and NULL'.",
+     "a": "A guardian who withholds a phone number gets NULL under GPhone rather than a fake number.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Properties of a Relation and NULL', in plain ASCII form.",
+     "a": "no duplicate tuples; atomic single-domain values; NULL = unknown",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

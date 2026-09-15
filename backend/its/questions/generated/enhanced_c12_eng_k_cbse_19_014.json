@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_19_014",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_19_014",
+   "title": "c12_eng_k_cbse_19_014",
+   "questions": [
+    {
+     "q": "Define \"discourse markers\" and give three examples from Asimov's essay that signal contrast, addition, and conclusion respectively.",
+     "a": "Discourse markers (or discourse signalers) are words/phrases that connect ideas across paragraphs or sentences, guiding the reader through the logical flow. Examples from the essay: contrast — \"Nevertheless\" (para 1, Section I); addition — \"For that matter\" (para 4, Section II); conclusion — \"After all\" (para 6, Section II). A wrong answer (e.g., listing \"and, but, so\") reveals the student confuses basic conjunctions with paragraph-level discourse markers that organize academic argumentation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Asimov believes a science fiction mystery is possible despite John Campbell's objection, using the concept of \"boundary conditions.\"",
+     "a": "Asimov argues that a science fiction mystery is fair if the writer establishes clear \"boundary conditions\" — explicit rules of the imaginary society (what technology/magic can/cannot do) — before the mystery unfolds. Once fixed, the reader has equal access to clues as the detective. Campbell wrongly assumed science fiction's broad possibilities prevent fair play, but Asimov counters that fixed rules make it equally solvable. A wrong answer focusing only on \"Asimov wrote mysteries\" misses the structural argument about rule-setting, showing the student cannot extract the essay's central logical defense.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite this sentence from the essay in passive voice: \"The writer must carefully explain to the reader all the boundary conditions of the imaginary society.\"",
+     "a": "All the boundary conditions of the imaginary society must be carefully explained to the reader by the writer. Steps: (1) Identify object: \"all the boundary conditions...\" (2) Make object the subject. (3) Change verb to passive: \"must be explained.\" (4) Add \"by the writer\" for agent. A wrong answer like \"The reader must be explained...\" misidentifies the object, revealing confusion about ditransitive verb passivization (explain + indirect object + direct object).",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how Asimov uses the single-sentence paragraph \"Never!\" (Section I, para 7) for rhetorical effect. What would be lost if it were merged with the previous paragraph?",
+     "a": "The one-word paragraph \"Never!\" acts as an emphatic rejection of the rhetorical questions preceding it (\"Shall we no longer thrill...?\"). Its isolation creates a dramatic pause, forcing the reader to absorb the force of the denial before the explanation follows. Merging it would dilute the emotional intensity and remove the visual/structural signal that this is the essay's pivotal stance: myths retain value despite scientific obsolescence. A wrong answer describing it as \"just a short sentence\" misses the paragraph-as-rhetorical-unit concept, showing inability to analyze form-function relationships.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: \"Asimov dismisses myths as inferior to science fiction because they are unscientific.\" Support your evaluation with textual evidence.",
+     "a": "The claim is false. Asimov explicitly states: \"It would be wrong to throw out a style of literature that has tickled the human fancy for thousands of years for the trivial reason that it is not in accord with reality.\" He calls myths \"the equivalent of science fiction set in another kind of Universe\" and asks only that they be \"self-consistent\" and \"well-written.\" He values both for fulfilling \"the longing for wonder.\" A wrong answer agreeing with the claim reveals the student read selectively (focusing on \"narrow sense, only science fiction is valid\") and missed the nuanced \"Nevertheless\" pivot — a critical board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 100-word analytical paragraph comparing the \"sports story\" and \"science fiction sports story\" using Asimov's framework. Use at least two discourse markers and one passive construction.",
+     "a": "A sports story is defined by its content — competitive athletic activity — whereas a science fiction sports story retains that content but places it against a scientifically altered background. For instance, Asimov notes that replacing \"baseball and bat\" with \"gas gun and sphere in an atmosphere enclosed on a space station under zero gravity\" does not change the genre's core; it merely adds a speculative setting. Consequently, the emotional appeal of competition remains intact while the rules of physics are extrapolated. Furthermore, the writer must establish boundary conditions so the reader understands the new constraints. In this way, genre hybridity expands rather than replaces literary possibilities. (Passive: \"is defined by,\" \"are extrapolated\"; markers: \"whereas,\" \"Consequently,\" \"Furthermore\")",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

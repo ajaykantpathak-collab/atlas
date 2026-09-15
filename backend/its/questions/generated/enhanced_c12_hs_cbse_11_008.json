@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_11_008",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_11_008",
+   "title": "c12_hs_cbse_11_008",
+   "questions": [
+    {
+     "q": "Define \"work simplification\" and name the three levels of change through which it can be achieved, as classified in Home Science.",
+     "a": "Work simplification is the deliberate reduction of effort, time, and motions needed to complete a task. The three levels are: (1) Change in body use/posture, (2) Change in motion pattern, (3) Change in work sequence, storage, or tools. A wrong answer that only says \"doing work faster\" reveals the misconception that simplification equals speed-up rather than systematic redesign; missing any level shows incomplete recall of the classification framework.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Ergonomics just means buying an expensive chair with lumbar support.\" Explain why this statement is incomplete and give two specific ergonomic principles that apply to a kitchen workstation.",
+     "a": "Ergonomics is the holistic fit between person, task, tool, and environment — not just furniture. Two kitchen principles: (1) Work surface height should be 5–10 cm below elbow height for precision tasks (chopping) and 10–15 cm below for forceful tasks (kneading) to maintain neutral shoulder posture. (2) Frequently used items (spices, oils) must be stored in the primary reach zone (within 30–50 cm horizontally, between shoulder and knee height vertically) to avoid trunk flexion/extension. A wrong answer focusing only on furniture reveals the \"equipment-only\" misconception; missing specific anthropometric dimensions shows lack of quantitative ergonomic knowledge.",
+     "self_check": true
+    },
+    {
+     "q": "A homemaker currently stands at a 90 cm high counter to roll chapatis for 30 minutes, complaining of lower back pain. Using ergonomic principles, propose a modified workstation design (height, posture, support) and explain the physiological reason for each change.",
+     "a": "Modified design: (1) Lower counter to 75–80 cm (elbow height minus 5–10 cm) so shoulders remain relaxed, reducing trapezius load. (2) Provide a high stool with foot ring allowing sit-stand posture; sitting reduces lumbar disc pressure by ~40% vs standing. (3) Add anti-fatigue mat if standing intermittently to promote calf pump circulation. (4) Place flour bin and rolling board within 40 cm reach to avoid forward trunk flexion >20°. Physiological reason: neutral spine maintains intradiscal pressure near 100 kPa (vs 200+ kPa in flexion); relaxed shoulders prevent static contraction fatigue. A wrong answer that only suggests \"sit down\" misses the critical work-height adjustment; suggesting a standard dining chair (45 cm) without foot support causes popliteal pressure and posterior pelvic tilt.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast a \"process chart\" and a \"pathway chart\" in time-motion study. For the task of making tea, describe what each chart would capture and which simplification level each primarily informs.",
+     "a": "Process chart: symbolic record of sequence (operation, transport, inspection, delay, storage) — e.g., \"take kettle → fill water → boil → add tea → strain → pour\". Informs Level 3 (work sequence/storage) by revealing unnecessary transports/delays. Pathway chart: scaled floor plan tracing actual foot/hand paths — e.g., zigzag between stove, sink, fridge. Informs Level 2 (motion pattern) by exposing cross-traffic and excessive travel. A wrong answer that says \"both show steps\" misses the fundamental distinction: process chart = logical sequence (time focus), pathway chart = spatial movement (distance focus). Confusing which level each informs indicates inability to link analysis tool to intervention level.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The most effective way to reduce energy expenditure in household work is to buy labor-saving devices (mixer-grinder, washing machine, dishwasher).\" Support your evaluation with three arguments considering cost, energy type, and task suitability.",
+     "a": "The claim is partially true but incomplete. Arguments: (1) Cost-accessibility: Devices require high capital (₹15,000–50,000) and electricity; low-income households cannot afford them — work simplification via method change costs near zero. (2) Energy type: Devices shift metabolic energy to electrical energy but may increase mental/monitoring load (e.g., setting programs, cleaning parts); net physiological saving varies. (3) Task suitability: Not all tasks are automatable (e.g., folding laundry, organizing shelves, child care); ergonomic redesign of manual tasks remains essential. A wrong answer that uncritically agrees reveals \"technological determinism\" misconception; ignoring the \"human energy vs monetary cost\" trade-off shows lack of systems thinking.",
+     "self_check": true
+    },
+    {
+     "q": "Design a work-simplification intervention for the task \"washing and putting away dishes for a family of four\" that addresses all three levels of change. Present as a before/after table with estimated time savings.",
+     "a": "Before: Stand at sink (86 cm) → scrape plates (L hand holds, R scrapes) → wash one-by-one → rinse under running tap → walk to drying rack (2 m away) → place individually → after drying, carry each to overhead cabinet (stretch up). Time: 25 min. After: (Level 1) Sit on height-adjustable stool at sink with footrest; use long-handled brush to avoid bending. (Level 2) Use double-bowl sink: left wash, right rinse; batch wash (all plates, then cups) → two-handed placement on rack. (Level 3) Store daily-use dishes in waist-high pull-out drawer next to sink; soak heavily soiled pots while eating. Estimated time: 14 min (44% reduction). A poor answer that only lists \"buy dishwasher\" or \"sit down\" fails to demonstrate multi-level systemic redesign; missing quantitative estimate shows inability to measure outcomes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

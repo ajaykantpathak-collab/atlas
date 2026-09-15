@@ -1,0 +1,100 @@
+{
+ "class": 10,
+ "subject": "science",
+ "chapter": 8,
+ "chapter_title": "Heredity",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jesc108.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "jesc.108.8.1",
+   "title": "Mendel's Experiments and the Rules of Inheritance",
+   "section": "8.2",
+   "definition": "Gregor Mendel crossed pea plants with contrasting characters like tall and short: crossing pure tall with pure short gave all tall F1 plants, and self-pollinating them gave an F2 with three tall for every one short - proving traits are controlled by paired factors that separate and recombine.",
+   "formula": "-",
+   "key_idea": "Three tall to one short: the 3 : 1 ratio exposed the hidden rules of inheritance.",
+   "textbook_ref": "jesc108.txt sections on Mendel's monohybrid crosses",
+   "question_patterns": [
+    "describe Mendel's monohybrid cross with the F1 and F2 results",
+    "why did the tall trait hide in the F1 generation - explain dominant and recessive",
+    "what phenotypic and genotypic ratios appear in the F2 of a monohybrid cross",
+    "draw a Punnett square for the cross TT with tt and its F2",
+    "state Mendel's laws of inheritance derived from his crosses",
+    "why did Mendel choose pea plants for his experiments"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "set up the cross",
+     "explain": "Pure tall (TT) with pure short (tt) gives all Tt tall in F1."},
+    {"step": 2, "action": "self-pollinate the F1",
+     "explain": "Tt with Tt gives TT, Tt, Tt and tt in F2."},
+    {"step": 3, "action": "read the ratios",
+     "explain": "Phenotypically 3 tall : 1 short; genotypically 1 : 2 : 1."}
+   ]
+  },
+  {
+   "id": "jesc.108.8.2",
+   "title": "How Traits Are Expressed - Genes and DNA",
+   "section": "8.2",
+   "definition": "Chromosomes in the nucleus carry genes made of DNA; each gene pair controls a trait, enzymes made from gene instructions control plant height and other characters, and a changed gene - like the one for recessive shortness - changes the enzyme and hence the trait.",
+   "formula": "-",
+   "key_idea": "Gene to enzyme to trait: DNA instructions express themselves through proteins.",
+   "textbook_ref": "jesc108.txt sections on genes, DNA and expression of traits",
+   "question_patterns": [
+    "explain how genes control a trait like plant height",
+    "what is DNA and where is it located in the cell",
+    "how does a recessive gene change the expression of a character - use the height example",
+    "differentiate genotype and phenotype with the tall-short example",
+    "why do gametes carry only one gene of each pair - explain",
+    "what happens to trait expression if the gene for the enzyme changes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "locate the genes",
+     "explain": "Genes sit on chromosomes inside the nucleus."},
+    {"step": 2, "action": "follow the instruction chain",
+     "explain": "Gene instructs enzyme; enzyme decides the character."},
+    {"step": 3, "action": "note the dominance",
+     "explain": "One dominant gene masks the recessive partner's expression."}
+   ]
+  },
+  {
+   "id": "jesc.108.8.3",
+   "title": "Sex Determination in Humans",
+   "section": "8.3",
+   "definition": "Human sex is decided at fertilisation by the sex chromosomes: females carry XX and males XY, so an egg with X meeting an X-sperm gives a girl and an X egg with a Y-sperm gives a boy - a 50 : 50 chance inherited from the father.",
+   "formula": "-",
+   "key_idea": "The father's sperm decides: X or Y meets the mother's X - equal chances, no blame.",
+   "textbook_ref": "jesc108.txt section on sex determination in humans",
+   "question_patterns": [
+    "explain the sex determination mechanism in humans with a cross",
+    "which parent determines the sex of the child - justify with chromosomes",
+    "what are the sex chromosomes of a human male and female",
+    "why is the chance of a boy or girl equal at every pregnancy",
+    "is the belief that the mother determines the child's sex correct - discuss",
+    "draw the Punnett square for the sex determination cross"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "write the chromosome sets",
+     "explain": "Mother is XX; father is XY."},
+    {"step": 2, "action": "split the gametes",
+     "explain": "All eggs carry X; sperms carry X or Y equally."},
+    {"step": 3, "action": "combine the chances",
+     "explain": "XX gives a girl and XY gives a boy, each with half probability."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex8.1",
+   "source_ref": "jesc108.txt exercises",
+   "questions": [
+     "Explain Mendel's monohybrid cross with Punnett square.",
+     "How is the sex of a child determined in humans?",
+     "Explain how variations arise during reproduction."
+   ]
+  }
+ ]
+}

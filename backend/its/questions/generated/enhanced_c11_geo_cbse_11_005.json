@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_11_005",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_11_005",
+   "title": "c11_geo_cbse_11_005",
+   "questions": [
+    {
+     "q": "Define meteorological drought and state the IMD's criterion for declaring it at the meteorological subdivision level.",
+     "a": "Meteorological drought occurs when seasonal rainfall is significantly below the long-term average; IMD declares it when rainfall departure is -26% to -50% (moderate) or >-50% (severe) from the normal for a subdivision. A wrong answer (e.g., confusing it with water shortage in dams) reveals the student cannot distinguish the atmospheric trigger from its downstream hydrological consequences.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a region may experience hydrological drought even after the meteorological drought has ended.",
+     "a": "Hydrological drought lags because groundwater and reservoir recharge require sustained percolation over multiple seasons; aquifers and large dams have long memory. If a student says \"hydrological drought ends with the first good rain,\" they misunderstand the storage inertia of surface and subsurface water bodies.",
+     "self_check": true
+    },
+    {
+     "q": "Given a district with 600 mm annual normal rainfall, actual rainfall of 360 mm, and a 40% drop in reservoir storage, classify the drought types present and justify with numbers.",
+     "a": "Rainfall departure = (360-600)/600 × 100 = -40% → moderate meteorological drought (IMD: -26% to -50%). Reservoir storage drop of 40% indicates hydrological drought. Agricultural drought is inferred if soil moisture falls below wilting point for the dominant crop. A wrong classification (e.g., calling it severe meteorological drought) shows inability to apply IMD thresholds.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the drought vulnerability of the Marathwada region (Maharashtra) and the Thar Desert (Rajasthan) in terms of rainfall variability, groundwater dependence, and cropping pattern.",
+     "a": "Marathwada: high variability (CV >30%), heavy groundwater reliance for sugarcane, rainfed kharif crops → high agricultural drought risk. Thar: low mean rainfall (<250 mm), high variability, pastoralism + limited irrigation → chronic meteorological and hydrological drought. A student equating both as \"low rainfall areas\" misses the role of variability and human water use in shaping drought type.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Providing free electricity for irrigation pumps is an effective drought mitigation strategy for peninsular India.\"",
+     "a": "Ineffective and counterproductive: it accelerates groundwater depletion, worsening hydrological drought, and encourages water-intensive crops in rain-shadow zones. A student endorsing it fails to link energy policy to aquifer sustainability and the distinction between meteorological trigger and anthropogenic amplification.",
+     "self_check": true
+    },
+    {
+     "q": "Design a three-indicator early-warning dashboard for a district collector to monitor impending agricultural drought during the kharif season.",
+     "a": "1) Weekly rainfall departure from normal (meteorological), 2) Reservoir live storage % of capacity (hydrological), 3) Satellite-derived soil moisture anomaly or NDVI deviation (agricultural). A poor answer listing only rainfall shows inability to integrate multi-source data for cross-sectoral drought typing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

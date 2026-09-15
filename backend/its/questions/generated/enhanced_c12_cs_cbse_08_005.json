@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_08_005",
+   "title": "c12_cs_cbse_08_005",
+   "questions": [
+    {
+     "q": "What is the fundamental principle that governs the order of removal in a queue?",
+     "a": "The fundamental principle is First-In-First-Out (FIFO): the element that has been in the queue the longest (inserted first) is the one removed first. A wrong answer (e.g., \"Last-In-First-Out\") reveals the student is confusing queue with stack, indicating they haven't internalized the directional difference between the two linear structures.",
+     "self_check": true
+    },
+    {
+     "q": "In a queue, if you insert elements A, B, C in that order, which element will be at the front and which at the rear? Explain why.",
+     "a": "After inserting A, B, C: front = A, rear = C. A was inserted first so it sits at the front (next to be removed); C was inserted last so it sits at the rear (most recent arrival). A wrong answer (e.g., front = C) shows the student thinks insertion happens at the front or doesn't grasp that \"front\" is the removal end, not the insertion end.",
+     "self_check": true
+    },
+    {
+     "q": "A printer receives three print jobs: Job1, Job2, Job3, in that order. The printer uses a queue to manage jobs. If Job2 is cancelled before printing starts, which job prints first and why?",
+     "a": "Job1 prints first. The queue order is Job1 (front), Job2, Job3 (rear). Cancelling Job2 removes it from the middle, but Job1 remains at the front. A wrong answer (e.g., Job3 prints first) indicates the student thinks the queue reorders elements or that cancellation changes the front, revealing a misunderstanding that queue order is strictly by arrival time unless explicitly dequeued.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the behavior of a stack and a queue when the sequence of operations is: push/enqueue 10, push/enqueue 20, push/enqueue 30, then pop/dequeue once. What is the removed element in each case, and what does this tell you about their underlying principles?",
+     "a": "Stack pop removes 30 (LIFO — last pushed). Queue dequeue removes 10 (FIFO — first enqueued). This contrast shows stack accesses the most recent element, while queue accesses the oldest. A wrong answer (e.g., both remove 10) means the student hasn't distinguished the two principles; they may be memorizing \"first in first out\" for both.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In a queue, you can remove an element from the rear if you want to, because it's just a list.\" Evaluate this statement and justify your answer using the definition of a queue.",
+     "a": "The statement is false. A queue is defined by restricted access: insertion **only** at rear, deletion **only** at front. Allowing removal from the rear would violate FIFO and make it a deque (double-ended queue), not a standard queue. A wrong evaluation (e.g., \"true, because Python lists allow pop() from any end\") shows the student confuses the *abstract data type* (with its rules) with a particular *implementation* (which may offer more flexibility).",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-life scenario (different from ticket counter or printer) that strictly requires a queue. Describe the scenario, identify the \"front\" and \"rear\", and explain why a stack would fail in this situation.",
+     "a": "Example: A hospital emergency room triage queue. Patients arrive and are added to the rear; the doctor treats the patient at the front (longest waiting). Front = patient being treated; rear = latest arrival. A stack would treat the newest patient first, which is medically unethical and dangerous. A good answer shows the student can transfer the FIFO concept to a new domain. A poor answer (e.g., \"a stack of plates\") describes a LIFO situation, indicating they cannot differentiate contexts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

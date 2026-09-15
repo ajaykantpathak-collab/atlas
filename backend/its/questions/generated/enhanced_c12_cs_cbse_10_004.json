@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_10_004",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_10_004",
+   "title": "c12_cs_cbse_10_004",
+   "questions": [
+    {
+     "q": "What is the exact difference between `file.write(s)` and `file.writelines(seq)` in terms of the argument each expects?",
+     "a": "`write()` expects a single string argument and writes it to the file; `writelines()` expects an iterable of strings (e.g., list, tuple) and writes each element in sequence. A wrong answer such as \"both take a list\" or \"writelines adds newlines automatically\" reveals that the student confuses the argument types or assumes automatic formatting, which leads to runtime TypeErrors or merged lines in the output file.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following code produces a file with all content on a single line, and how to fix it:\n```python\nlines = [\"Apple\", \"Banana\", \"Cherry\"]\nwith open(\"fruits.txt\", \"w\") as f:\n    f.writelines(lines)\n```",
+     "a": "`writelines()` does not insert newline characters; it writes each string exactly as given. Since the strings in `lines` lack `\\n`, they are concatenated without separation. The fix is to ensure each string ends with `\\n`, e.g., `lines = [\"Apple\\n\", \"Banana\\n\", \"Cherry\\n\"]` or use a list comprehension: `f.writelines([fruit + \"\\n\" for fruit in lines])`. A student who thinks `writelines` adds newlines automatically will produce files that are hard to parse later.",
+     "self_check": true
+    },
+    {
+     "q": "You have a list `data = [\"10,20,30\", \"40,50,60\"]`. Write Python code to save each string as a separate line in `numbers.csv` using `write()` in a loop, then rewrite the same task using `writelines()`. Show both versions.",
+     "a": "Version 1 (loop with `write`):\n```python\nwith open(\"numbers.csv\", \"w\") as f:\n    for line in data:\n        f.write(line + \"\\n\")\n```\nVersion 2 (single `writelines`):\n```python\nwith open(\"numbers.csv\", \"w\") as f:\n    f.writelines(line + \"\\n\" for line in data)\n```\nBoth produce a file with two lines. A wrong answer that omits `+ \"\\n\"` in either version will result in a single-line file; a student who uses `f.writelines(data)` without adding newlines demonstrates the same misconception as in Q2.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effect of opening a file in `'w'` mode versus `'a'` mode when writing multiple times in a program. Give a concrete scenario where choosing the wrong mode would cause data loss.",
+     "a": "`'w'` truncates the file to zero length each time it is opened, discarding any previous content; `'a'` preserves existing content and appends new data at the end. If a program logs daily attendance by opening `attendance.txt` in `'w'` mode inside a loop that runs for each class period, only the last period's record will remain — all earlier records are lost. The correct mode is `'a'`. A student who cannot articulate this distinction will inadvertently overwrite logs in real applications.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following approach for writing a large list of strings to a file. Is it efficient? Why or why not?\n```python\nbig_list = [\"item\" + str(i) for i in range(1000000)]\nwith open(\"big.txt\", \"w\") as f:\n    for s in big_list:\n        f.write(s + \"\\n\")\n```",
+     "a": "The loop with `write()` works but makes one system call per iteration (1 million calls), which is slower than a single `writelines()` call that can buffer the entire iterable. A more efficient version is `f.writelines(s + \"\\n\" for s in big_list)` or `f.write(\"\\n\".join(big_list) + \"\\n\")`, reducing system calls. A student who thinks the loop is just as fast misses the performance implication of repeated I/O operations, which matters in competitive programming and large-scale data processing.",
+     "self_check": true
+    },
+    {
+     "q": "Design a small Python function `save_records(filename, records, mode='w')` that accepts a filename, a list of strings `records`, and a mode (`'w'` or `'a'`), and writes each record as a new line in the file. The function should ensure newline termination for each record regardless of whether the input strings already end with `\\n`. Provide the complete function definition.",
+     "a": "```python\ndef save_records(filename, records, mode='w'):\n    with open(filename, mode) as f:\n        for rec in records:\n            # Strip any existing trailing newline to avoid double newlines\n            line = rec.rstrip('\\n') + '\\n'\n            f.write(line)\n```\nAlternative using `writelines`:\n```python\ndef save_records(filename, records, mode='w'):\n    with open(filename, mode) as f:\n        f.writelines(rec.rstrip('\\n') + '\\n' for rec in records)\n```\nA poor answer might ignore the `rstrip` step, causing double newlines if input already has them, or forget to handle the `mode` parameter, showing incomplete understanding of file modes and newline normalization.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

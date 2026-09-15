@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch3_7",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch3_7",
+   "title": "c9_math_ch3_7",
+   "questions": [
+    {
+     "q": "State the necessary and sufficient condition on the denominator \\( q \\) (in lowest terms) for a rational number \\( \\frac{p}{q} \\) to have a terminating decimal expansion.",
+     "a": "The denominator \\( q \\) must have only 2 and/or 5 as prime factors, i.e., \\( q = 2^m \\times 5^n \\) for non-negative integers \\( m, n \\). A wrong answer (e.g., \"denominator must be even\" or \"denominator must be a multiple of 10\") reveals the student confuses the condition with divisibility rules or does not understand the role of prime factorization in base-10 representation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a rational number with denominator 12 (in lowest terms) cannot have a terminating decimal expansion, while one with denominator 25 can.",
+     "a": "12 = \\( 2^2 \\times 3 \\) contains a prime factor 3, which is not 2 or 5. Multiplying by any integer can never turn 12 into a power of 10 because the factor 3 will always remain. In contrast, 25 = \\( 5^2 \\) has only 5 as a prime factor; multiplying numerator and denominator by \\( 2^2 \\) gives denominator 100, a power of 10, yielding a terminating decimal. A wrong answer indicates the student does not connect the prime factors of the denominator to the base-10 place value system.",
+     "self_check": true
+    },
+    {
+     "q": "Without performing long division, determine whether \\( \\frac{17}{1250} \\) has a terminating decimal expansion. If yes, state after how many decimal places it will terminate.",
+     "a": "Step 1: Check if fraction is in lowest terms. 17 is prime and does not divide 1250, so yes.\nStep 2: Factor denominator: \\( 1250 = 125 \\times 10 = 5^3 \\times 2 \\times 5 = 2 \\times 5^4 \\).\nStep 3: Prime factors are only 2 and 5 → terminating.\nStep 4: Powers: \\( m=1, n=4 \\). Maximum is 4.\nAnswer: Yes, it terminates after 4 decimal places.\nA wrong answer (e.g., \"3 places\" or \"non-terminating\") reveals the student either miscounts the powers or forgets to take the maximum of the two exponents.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the decimal expansions of \\( \\frac{3}{8} \\) and \\( \\frac{3}{80} \\). Both have denominators with only 2s and 5s. How many decimal places does each terminate after? What pattern do you notice about the relationship between the denominator's prime factorization and the number of decimal places?",
+     "a": "\\( \\frac{3}{8} \\): \\( 8 = 2^3 \\), so \\( m=3, n=0 \\) → terminates after 3 places (0.375).\n\\( \\frac{3}{80} \\): \\( 80 = 16 \\times 5 = 2^4 \\times 5 \\), so \\( m=4, n=1 \\) → terminates after 4 places (0.0375).\nPattern: The number of decimal places equals \\( \\max(m, n) \\) where \\( q = 2^m 5^n \\). A wrong answer (e.g., \"both terminate after 3 places\" or \"80 gives 5 places\") shows the student does not generalize the rule or confuses the role of the maximum exponent.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"\\( \\frac{7}{15} \\) terminates because 15 ends with a 5.\" Evaluate this claim and correct the student's reasoning.",
+     "a": "The claim is false. 15 = \\( 3 \\times 5 \\). The presence of prime factor 3 means the denominator cannot be converted to a power of 10 by multiplying by any integer. The decimal expansion of \\( \\frac{7}{15} = 0.4\\overline{6} \\) is non-terminating repeating. The student's error is judging by the last digit (5) instead of prime factorization. A wrong evaluation (e.g., agreeing with the student) reveals a surface-level misconception that any denominator ending in 0, 2, 4, 5, 6, 8 gives terminating decimals.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a rational number \\( \\frac{p}{q} \\) in lowest terms such that:\n(a) Its decimal expansion terminates exactly after 5 decimal places.\n(b) Its denominator is less than 100.\nExplain your construction.",
+     "a": "We need \\( q = 2^m 5^n \\) with \\( \\max(m,n) = 5 \\) and \\( q < 100 \\).\nPossible pairs: \\( (m,n) = (5,0) \\rightarrow q=32 \\); \\( (4,1) \\rightarrow q=80 \\); \\( (3,2) \\rightarrow q=200 \\) (too big); \\( (2,3) \\rightarrow 500 \\); \\( (1,4) \\rightarrow 1250 \\); \\( (0,5) \\rightarrow 3125 \\).\nChoose \\( q = 32 \\) or \\( 80 \\). Pick \\( p \\) coprime to \\( q \\), e.g., \\( \\frac{1}{32} \\) or \\( \\frac{3}{80} \\).\nA poor answer (e.g., \\( \\frac{1}{50} \\) which terminates after 2 places, or \\( \\frac{1}{64} \\) which terminates after 6 places) shows the student cannot reverse-engineer the condition or does not enforce the \"exactly 5 places\" constraint.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

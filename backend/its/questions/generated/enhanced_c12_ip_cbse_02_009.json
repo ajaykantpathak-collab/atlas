@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_02_009",
+   "title": "c12_ip_cbse_02_009",
+   "questions": [
+    {
+     "q": "What is the output of the following code?\n```python\nimport pandas as pd\ndf = pd.DataFrame({'Class': ['A','A','B','B'], 'Marks': [80,90,70,85]})\nresult = df.groupby('Class')['Marks'].sum()\nprint(result)\n```",
+     "a": "Correct output:\n```\nClass\nA    170\nB    155\nName: Marks, dtype: int64\n```\nA wrong answer like `A 170, B 155` without the index name or dtype reveals the student does not understand that groupby returns a Series with the grouping column as the index (not a DataFrame). A wrong answer showing `0 170, 1 155` reveals the student thinks groupby preserves the original integer index — it does not; the grouping key becomes the new index.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what happens when you write `df.groupby('Region')['Sales'].mean()` — describe the three conceptual steps (split, apply, combine) and what the resulting object looks like.",
+     "a": "Correct explanation: (1) Split — Pandas partitions the DataFrame into sub-DataFrames, one per unique value in 'Region'. (2) Apply — For each partition, it selects the 'Sales' column and computes its mean. (3) Combine — The means are assembled into a Series whose index is the unique region labels and whose values are the corresponding mean sales. A wrong answer that says \"it calculates the mean of the whole Sales column\" shows the student misses the split step. A wrong answer that says \"it returns a DataFrame with Region and Mean_Sales columns\" shows confusion about as_index=True (default) vs as_index=False.",
+     "self_check": true
+    },
+    {
+     "q": "Given the DataFrame `df` with columns `['City', 'Product', 'Units_Sold']`, write a single statement to get the total units sold for each (City, Product) combination, sorted descending by total units.",
+     "a": "Correct code:\n```python\ndf.groupby(['City', 'Product'])['Units_Sold'].sum().sort_values(ascending=False)\n```\nSteps: group by two columns (list), select target column, apply sum, then sort. A wrong answer using `df.groupby('City', 'Product')` (two separate arguments) raises TypeError — groupby expects a single list for multiple keys. A wrong answer forgetting `['Units_Sold']` before sum will sum all numeric columns, which may include unwanted columns. A wrong answer using `sort_values()` on the grouped object before aggregation fails because the grouped object is not yet aggregated.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the outputs of these two statements on the same DataFrame `df` with columns `['Dept', 'Salary']`:\n(A) `df.groupby('Dept')['Salary'].mean()`\n(B) `df.groupby('Dept', as_index=False)['Salary'].mean()`\nWhat is the structural difference? When would you prefer (B)?",
+     "a": "(A) returns a Series with 'Dept' as index (name='Dept') and dtype float64. (B) returns a DataFrame with two columns: 'Dept' (plain column) and 'Salary' (mean values). Prefer (B) when you need to merge the result with another DataFrame on 'Dept', or when you want to keep 'Dept' as a regular column for further filtering/plotting without calling reset_index(). A student who says \"they are the same\" misses the index-vs-column distinction critical for downstream operations.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: `df.groupby('Category')['Price'].agg(['mean', 'std'])` and gets a DataFrame with columns 'mean' and 'std'. They then try `result['mean'] > 1000` to filter categories with mean price > 1000, but it returns a Series of booleans. They ask: \"How do I get only the category names where mean > 1000?\" Evaluate their approach and give the correct one-liner.",
+     "a": "The student's approach is correct up to the boolean mask. To get the category names (index labels) where the condition holds, they need: `result[result['mean'] > 1000].index.tolist()` or `result.index[result['mean'] > 1000].tolist()`. A wrong answer like `result[result['mean'] > 1000]['Category']` fails because 'Category' is not a column — it is the index. This reveals the misconception that groupby output always has grouping keys as columns; with default as_index=True, they are the index.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world dataset (describe columns and 5-6 sample rows) where grouping by two columns and aggregating with three different functions (e.g., sum, mean, count) would yield actionable business insight. Write the Pandas code to produce that insight.",
+     "a": "Example dataset: `orders.csv` with columns `['OrderDate', 'Region', 'SalesRep', 'Product', 'Quantity', 'UnitPrice']`. Sample rows: \n```\n2024-01-15,North,Amit,Laptop,2,50000\n2024-01-16,South,Priya,Mouse,10,500\n2024-01-17,North,Amit,Keyboard,5,1500\n2024-01-18,East,Rahul,Monitor,3,12000\n2024-01-19,West,Sneha,Laptop,1,55000\n```\nInsight: \"For each Region and SalesRep, what is total revenue, average order value, and number of orders?\" Code:\n```python\ndf['Revenue'] = df['Quantity'] * df['UnitPrice']\ninsight = df.groupby(['Region', 'SalesRep'])['Revenue'].agg(['sum', 'mean', 'count'])\ninsight.columns = ['Total_Revenue', 'Avg_Order_Value', 'Order_Count']\nprint(insight.sort_values('Total_Revenue', ascending=False))\n```\nA poor answer uses only one grouping column or only one aggregation function, missing the multi-dimensional insight. A poor answer forgets to create the Revenue column first, showing they don't connect derived columns to aggregation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

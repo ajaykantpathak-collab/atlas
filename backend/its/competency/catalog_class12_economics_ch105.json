@@ -1,0 +1,390 @@
+{
+ "class": 12,
+ "subject": "english",
+ "chapter": 105,
+ "chapter_title": "One Centimetre",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lekl105.txt",
+ "concepts": [
+  {
+   "id": "lekl.105.1",
+   "title": "Parental Role Modeling and Self-Worth",
+   "section": "71-73",
+   "definition": "The deliberate effort of a parent to act with absolute honesty and moral rectitude to serve as an exemplary model for their child's upbringing.",
+   "formula": "exemplary_behavior = parent_actions + moral_consistency",
+   "key_idea": "Children imitate their parents, making parental integrity crucial for a child's moral development.",
+   "textbook_ref": "lekl105.txt lines 45-110",
+   "question_patterns": [
+    "How does Tao Ying's behavior change when she is with her son compared to when she is alone?",
+    "Why does Tao Ying feel a sense of responsibility when touching her son's head?",
+    "Explain the concept of parental role modeling as depicted in One Centimetre.",
+    "What does Tao Ying mean by carrying an audience with her wherever she goes?",
+    "Analyze how Tao Ying's desire to be an ideal mother affects her daily choices."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify Tao Ying's dual behavior",
+     "explain": "Tao Ying is astute and frugal when alone, but strictly rule-abiding and exemplary when accompanied by her son."
+    },
+    {
+     "step": 2,
+     "action": "Explain her underlying motivation",
+     "explain": "She views herself as the center of her son's universe and wants to set a perfect, flawless example for him."
+    },
+    {
+     "step": 3,
+     "action": "Connect behavior to self-worth",
+     "explain": "Acting graciously and setting a moral example elevates her sense of self-worth and dignity."
+    }
+   ]
+  },
+  {
+   "id": "lekl.105.2",
+   "title": "Childhood Self-Esteem and Economic Value",
+   "section": "73-74",
+   "definition": "The prioritization of a child's dignity, self-worth, and emotional happiness over minor financial savings or material benefits.",
+   "formula": "value_of_self_esteem > ticket_cost",
+   "key_idea": "Purchasing a ticket can represent buying self-esteem and validation for a child rather than just paying a fare.",
+   "textbook_ref": "lekl105.txt lines 111-150",
+   "question_patterns": [
+    "Why does Tao Ying insist on buying a ticket for Xiao Ye even when he is under the height limit?",
+    "What does the author mean by purchasing self-esteem with twenty cents?",
+    "How does the ticket purchase on the bus reflect the conflict between economy and pride?",
+    "Analyze the purchasing power of twenty cents in Tao Ying's household budget.",
+    "Why was the ticket so important to Xiao Ye's sense of dignity?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the cost of the ticket and its opportunity cost",
+     "explain": "The ticket costs twenty cents, which could otherwise buy essential food items like cucumbers, tomatoes, or spinach."
+    },
+    {
+     "step": 2,
+     "action": "Describe the child's desire for validation",
+     "explain": "Xiao Ye wants his growth and status recognized, viewing the ticket as a symbol of being grown up."
+    },
+    {
+     "step": 3,
+     "action": "Explain the mother's choice",
+     "explain": "Tao Ying chooses to spend the money to preserve her son's happiness and self-esteem, which is far more valuable than the monetary saving."
+    }
+   ]
+  },
+  {
+   "id": "lekl.105.3",
+   "title": "Arbitrary Institutional Standards and Height Limits",
+   "section": "72",
+   "definition": "The enforcement of rigid, physical benchmarks by public bodies to regulate access and fees, often leading to disputes over minor discrepancies.",
+   "formula": "eligibility = height <= threshold",
+   "key_idea": "Physical height thresholds serve as arbitrary boundaries for childhood benefits.",
+   "textbook_ref": "lekl105.txt lines 50-70",
+   "question_patterns": [
+    "How is the 1.10 meter height limit used as a regulatory tool in the story?",
+    "Describe the significance of the painted finger and the red line on the wall.",
+    "Why does the guard at the temple insist that Xiao Ye needs a ticket?",
+    "Discuss the arbitrary nature of height-based ticketing rules in public transport and temples.",
+    "How does the temple guard justify his measurement of Xiao Ye?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the institutional rule",
+     "explain": "The rule states that children under 1.10 meters (110 cm) are exempt from purchasing tickets."
+    },
+    {
+     "step": 2,
+     "action": "Describe how the rule is visually enforced",
+     "explain": "It is marked by a painted finger on the bus door and a red line resembling an earthworm on the temple wall."
+    },
+    {
+     "step": 3,
+     "action": "Analyze the conflict arising from rigid enforcement",
+     "explain": "Minor variations in posture, hair, or inaccurate measurement markers lead to disputes and accusations of dishonesty."
+    }
+   ]
+  },
+  {
+   "id": "lekl.105.4",
+   "title": "Deceptive Metrics and Flattering Scales",
+   "section": "81-82",
+   "definition": "The commercial practice of using intentionally miscalibrated measuring devices to flatter customers by showing desirable but false readings.",
+   "formula": "measured_height = actual_height + flattering_bias",
+   "key_idea": "Inaccurate scales are used commercially to flatter customers' desires to be taller or lighter.",
+   "textbook_ref": "lekl105.txt lines 380-420",
+   "question_patterns": [
+    "Why did the old woman's scales show Xiao Ye's height as one metre eleven?",
+    "What are flattering scales or fitness scales according to the old woman?",
+    "Explain the convoluted logic behind the old lady's measurements.",
+    "How did the old woman's inaccurate scale create a conflict between Tao Ying and her son?",
+    "Why did Xiao Ye trust the old woman's scale over his mother's word?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the calibration of the old woman's scales",
+     "explain": "The scales were intentionally adjusted to make people look lighter and taller to make them happy."
+    },
+    {
+     "step": 2,
+     "action": "Detail the reading obtained",
+     "explain": "The scale measured Xiao Ye at 1.11 meters, which was taller than his actual height of 1.09 meters."
+    },
+    {
+     "step": 3,
+     "action": "Analyze the psychological impact",
+     "explain": "This commercial deception made Xiao Ye believe his mother was lying to save money, destroying his trust in her."
+    }
+   ]
+  },
+  {
+   "id": "lekl.105.5",
+   "title": "Maternal Vindication and Institutional Redress",
+   "section": "83-87",
+   "definition": "The pursuit of moral clearance and truth by an individual to restore their child's trust and vindicate themselves from false accusations of dishonesty.",
+   "formula": "vindication = truth_acknowledgment + restored_trust",
+   "key_idea": "Restoring a child's trust is more valuable than monetary compensation or free tickets.",
+   "textbook_ref": "lekl105.txt lines 430-550",
+   "question_patterns": [
+    "Why did Tao Ying write a letter to the temple administrators?",
+    "What did the temple officials find when they measured Xiao Ye at his home?",
+    "Why did Tao Ying refuse the five-dollar compensation and free tickets offered by the officials?",
+    "What was the ultimate vindication that Tao Ying sought from the temple officials?",
+    "How does the ending of the story highlight the importance of maternal dignity?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the purpose of Tao Ying's letter",
+     "explain": "She wrote to the administrators to prove she was honest and to resolve the distrust in her son's eyes."
+    },
+    {
+     "step": 2,
+     "action": "Describe the investigation and findings",
+     "explain": "Officials measured Xiao Ye at exactly 1.10 meters, confirming he was under the limit a month prior."
+    },
+    {
+     "step": 3,
+     "action": "Explain the refusal of material compensation",
+     "explain": "Tao Ying rejected money and tickets, requesting instead that the officials explain the truth to her son to restore his trust."
+    }
+   ]
+  },
+  {
+   "id": "lekl.105.6",
+   "title": "Literary Devices: Simile in Narrative Style",
+   "section": "87-88",
+   "definition": "The literary technique of making direct, explicit comparisons between two distinct entities using comparative words such as like or as.",
+   "formula": "comparison = subject + 'like'/'as' + object",
+   "key_idea": "Similes enhance imagery and help readers visualize characters' emotions and physical states.",
+   "textbook_ref": "lekl105.txt lines 560-585",
+   "question_patterns": [
+    "Identify examples of similes used in the story One Centimetre.",
+    "How does the author use the simile of the ballooning jacket to describe Tao Ying?",
+    "Explain the comparison of the white wall to a virgin canvas.",
+    "What is the significance of comparing Xiao Ye's hair to a bundle of straw?",
+    "Analyze the narrative effect of similes in Bi Shu-min's writing."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define a simile",
+     "explain": "A simile is an explicit comparison between two things using words such as 'like' or 'as'."
+    },
+    {
+     "step": 2,
+     "action": "Identify examples from the text",
+     "explain": "Examples include her jacket ballooning 'like a tent', and the white wall looking 'like a virgin canvas'."
+    },
+    {
+     "step": 3,
+     "action": "Explain the literary effect",
+     "explain": "These comparisons create vivid visual imagery, highlighting the characters' physical presence and emotional states."
+    }
+   ]
+  },
+  {
+   "id": "lekl.105.7",
+   "title": "Literary Devices: Metaphor in Narrative Style",
+   "section": "88",
+   "definition": "The literary technique of making implicit, symbolic comparisons between two unrelated concepts to convey deeper emotional or psychological states.",
+   "formula": "implicit_comparison = subject_equated_to_object",
+   "key_idea": "Metaphors convey deep emotional and psychological states through direct symbolic substitution.",
+   "textbook_ref": "lekl105.txt lines 586-600",
+   "question_patterns": [
+    "Explain the metaphor of melting the ice in her son's eyes.",
+    "How is the yellow tape measure compared to a poisonous viper?",
+    "Identify and explain a metaphor from the story One Centimetre.",
+    "What does the author imply by comparing the red line to an earthworm?",
+    "Discuss how metaphors are used to represent psychological distance in the story."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define a metaphor",
+     "explain": "A metaphor is an implicit comparison that equates one thing to another without using 'like' or 'as'."
+    },
+    {
+     "step": 2,
+     "action": "Identify key metaphors in the text",
+     "explain": "Key metaphors include 'melting the ice' (dissolving coldness/distrust) and the yellow tape turning into a 'poisonous viper' (symbolizing the pain of measurement)."
+    },
+    {
+     "step": 3,
+     "action": "Explain their symbolic significance",
+     "explain": "These metaphors represent internal psychological struggles, emotional distance, and the pain of broken trust."
+    }
+   ]
+  },
+  {
+   "id": "lekl.105.8",
+   "title": "Social Class, Frugality, and Dignity",
+   "section": "71-74",
+   "definition": "The internal conflict faced by working-class families between strict economic frugality and the preservation of personal honor and social dignity.",
+   "formula": "dignity_maintenance = ethical_integrity - economic_opportunism",
+   "key_idea": "Working-class individuals often prioritize moral integrity and self-respect over minor economic gains.",
+   "textbook_ref": "lekl105.txt lines 10-40, 115-140",
+   "question_patterns": [
+    "How does Tao Ying's working-class background influence her attitude towards money?",
+    "Why does Tao Ying refuse to claim back bus tickets or sell the temple ticket?",
+    "Analyze the conflict between frugality and dignity in Tao Ying's life.",
+    "How does the author portray the economic reality of blue-collar workers in China?",
+    "What does Tao Ying's refusal of the five-dollar refund show about her character?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe Tao Ying's economic background",
+     "explain": "She works as a factory cook and her husband is a blue-collar worker, making financial savings highly relevant to their household."
+    },
+    {
+     "step": 2,
+     "action": "Identify instances of her frugality",
+     "explain": "She carefully budgets twenty cents and calculates its equivalent value in vegetables like cucumbers, tomatoes, and spinach."
+    },
+    {
+     "step": 3,
+     "action": "Contrast frugality with her sense of honor",
+     "explain": "Despite her poverty, she refuses to lie, cheat, or accept material compensation that compromises her dignity or her son's trust."
+    }
+   ]
+  },
+  {
+   "id": "lekl.105.9",
+   "title": "Height Deficit for Ticketing",
+   "section": "72",
+   "definition": "The calculation of the difference between a standard height threshold required for ticketing and a child's actual physical height.",
+   "formula": "deficit = threshold - child_height",
+   "key_idea": "The difference between the required height for a ticket and the child's actual height.",
+   "textbook_ref": "lekl105.txt lines 65-85",
+   "question_patterns": [
+    "Calculate the height deficit if the threshold is {threshold} cm and the child's height is {child_height} cm.",
+    "How many centimeters short of the ticket requirement is a child of height {child_height} cm when the limit is {threshold} cm?",
+    "Find the difference between the ticketing limit of {threshold} cm and the child's height of {child_height} cm.",
+    "What is the height deficit for a child measuring {child_height} cm against a standard of {threshold} cm?",
+    "Determine by how many centimeters a child is under the ticketing threshold of {threshold} cm if their height is {child_height} cm."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the threshold and child's height",
+     "explain": "The threshold is threshold and the child's height is child_height",
+     "compute": "deficit = threshold - child_height"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Height Deficit for Ticketing, compute the result for threshold = 3, child_height = 3.",
+     "solution": "Step 1: Identify the threshold and child's height: deficit = threshold - child_height = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    },
+    {
+     "question": "Using Height Deficit for Ticketing, compute the result for threshold = 4, child_height = 4.",
+     "solution": "Step 1: Identify the threshold and child's height: deficit = threshold - child_height = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lekl105.txt lines 65-85",
+   "concept": "lekl.105.9",
+   "question_type": "compute",
+   "question_pattern": "Calculate the height deficit if the threshold is {threshold} cm and the child's height is {child_height} cm.",
+   "extracted_variables": {
+    "threshold": 110,
+    "child_height": 109
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the threshold and child's height",
+     "explain": "The threshold is 110 cm and the child's height is 109 cm.",
+     "compute": "deficit = threshold - child_height"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lekl105.txt lines 240-260",
+   "concept": "lekl.105.9",
+   "question_type": "compute",
+   "question_pattern": "How many centimeters short of the ticket requirement is a child of height {child_height} cm when the limit is {threshold} cm?",
+   "extracted_variables": {
+    "threshold": 110,
+    "child_height": 108
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the threshold and child's height",
+     "explain": "The threshold is 110 cm and the child's height is 108 cm.",
+     "compute": "deficit = threshold - child_height"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex105.1",
+   "source_ref": "lekl105.txt lines 551-558",
+   "questions": [
+    "How did Tao Ying's son influence the way she led her life?",
+    "Pick out instances from the story to show that official rules are often arbitrary.",
+    "Tao Ying was very careful about spending money. What were her reasons for refusing the compensation offered by the temple officials?",
+    "Why was her final vindication important to Tao Ying?"
+   ]
+  },
+  {
+   "id": "ex105.2",
+   "source_ref": "lekl105.txt lines 559-563",
+   "questions": [
+    "The way a child looks at the world is very different from that of an adult.",
+    "There is always a gap between what we really are and what we wish to appear to be to others."
+   ]
+  },
+  {
+   "id": "ex105.3",
+   "source_ref": "lekl105.txt lines 564-573",
+   "questions": [
+    "Comment on the significance of the first sentence of the story to its theme.",
+    "Would you describe the author's portrayal of Tao Ying's character in the story as sympathetic, critical or realistic?",
+    "Identify the episodes that bring out the ambivalent attitude to ethics commonly seen in human life?",
+    "How effectively does the narrative technique adopted in this story illustrate 'unity of thought'?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

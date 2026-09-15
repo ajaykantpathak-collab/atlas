@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_10_002",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_10_002",
+   "title": "c11_soc_cbse_10_002",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between the emergence of modernity in Western Europe and its emergence in colonial India, as stated in the NCERT text?",
+     "a": "In Western Europe, modernity emerged endogenously through industrialisation, urbanisation, and the Enlightenment; in colonial India, modernity was imposed from outside and intertwined with colonial subjugation, making the first experience of modernity one of conquest rather than internal transformation. A wrong answer (e.g., \"modernity came later to India\" or \"India lacked industry\") reveals the student misses the structural point: it is not about timing or absence, but about the *relation* between modernity and colonial power — the text explicitly says \"the first experience of modernity in India was closely intertwined with the experience of colonial subjugation.\"",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT text identifies three questions the colonial context raised for Indian sociology. Explain the second question in your own words and why it was a dilemma for Indian anthropologists.",
+     "a": "The second question asks: if Western social anthropology arose from European curiosity about 'primitive' cultures elsewhere, what should its role be in India, which was an ancient civilisation *but also contained* communities labelled 'primitive' by colonial administrators? The dilemma was that Indian anthropologists could not simply study 'other' cultures as Western anthropologists did — the 'primitive' were their own fellow citizens within the same civilisation, making the colonial category of 'tribe' politically and ethically fraught. A wrong answer that says \"India had tribes so anthropology was needed\" misses the critical reflexive problem: the *category* 'tribe' was a colonial construct that Indian scholars had to either accept, reject, or redefine — they couldn't just borrow the Western disciplinary logic.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of 'colonial specificity' to analyse the following statement: \"G.S. Ghurye's classification of tribes as 'backward Hindus' was a nationalist response to British anthropological categories.\" Identify two ways this statement reflects the colonial context shaping Indian sociology.",
+     "a": "Step 1: Recognise that British administrator-anthropologists (like Elwin) categorised tribes as distinct, isolated 'primitive' groups needing protection from Hindu assimilation.\nStep 2: Note that Ghurye, as a nationalist scholar, rejected this colonial taxonomy because it fragmented Indian unity and justified colonial divide-and-rule.\nStep 3: Identify first reflection: Ghurye used *indigenous textual evidence* (Sanskrit texts, historical continuity) to argue tribes were part of the Hindu fold — a methodological choice shaped by the need to counter colonial ethnography with Indian epistemology.\nStep 4: Identify second reflection: The debate itself (protectionist vs. assimilationist) was *forced* by colonial policy — the British state had created 'excluded areas' and 'partially excluded areas' for tribes, making the classification a live governance issue, not just academic.\nA wrong answer that only describes Ghurye's view without linking it to the colonial structure of knowledge/power misses the 'specificity' — it treats his view as mere opinion rather than a structurally positioned intervention.",
+     "self_check": true
+    },
+    {
+     "q": "Compare D.P. Mukerji's concept of 'living tradition' with the Western sociological view of tradition vs. modernity as a binary. What does this comparison reveal about the specificity of Indian social change?",
+     "a": "Western sociology (e.g., Parsons, Weber) typically treats tradition and modernity as opposing types: tradition = static, collective, ascriptive; modernity = dynamic, individualistic, achievement-oriented. Mukerji's 'living tradition' (parampara/aitihya + anubhava) shows tradition as *internally dynamic* — it preserves the past through transmission but adapts via collective experience (anubhava), so change occurs *within* tradition, not by breaking it. This reveals Indian social change is non-binary: the Bhakti movement challenged orthodoxy but was reabsorbed into a transformed Hinduism; caste inhibited class formation but also mediated change. The colonial context matters because Western modernity was imposed as an external rupture, while Indian modernity had to negotiate an 'over-developed' social structure where tradition was the primary site of both continuity and transformation. A wrong answer that says \"Mukerji liked tradition\" misses the theoretical sophistication: he is offering an *alternative theory of social change* rooted in Indian specificity, not a preference.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"A.R. Desai's Marxist critique of the welfare state is more relevant for understanding post-independence India than Ghurye's diffusionist approach.\" Use the colonial context and the three foundational questions to justify your position.",
+     "a": "Desai's critique is more relevant for *post-independence developmental sociology* (third foundational question: sociology's role in a planned democracy) because he directly engages the state's economic policies, class structure, and unmet welfare criteria — issues central to Nehruvian planning. Ghurye's diffusionism (from Rivers/Haddon) addresses the *second* question (anthropology's role in studying Indian diversity) but treats culture as trait-complexes diffusing across groups, which cannot explain structural inequalities produced by colonial capitalism and continued in the post-colonial state. However, Ghurye's institutional role (founding departments, journals) answered the *first* question (building sociology as a discipline in a colony) more concretely. The evaluation must weigh *which question* each addresses: Desai answers Q3 (sociology for development), Ghurye answers Q1 (institutionalising sociology) and partially Q2 (defining Indian social structure against colonial categories). A wrong answer that picks one as 'better' without mapping to the three questions shows inability to use the colonial-context framework as an analytical grid.",
+     "self_check": true
+    },
+    {
+     "q": "Create a conceptual diagram (describe in words) showing how the three foundational questions of Indian sociology map onto the four founding sociologists (Ghurye, Mukerji, Desai, Srinivas). Each sociologist may address multiple questions. Label the connections with the specific concept or debate each used.",
+     "a": "A strong answer will produce a mapping like:\n- Q1 (Sociology in a colony → institutionalisation): Ghurye → Bombay department, Indian Sociological Society, *Sociological Bulletin*; Srinivas → Baroda & Delhi School departments, village studies network.\n- Q2 (Anthropology in ancient civilisation with 'tribes'): Ghurye → 'backward Hindus' vs. Elwin's protectionism (tribal debate); Srinivas → village as relevant entity vs. Dumont's caste-centrism; Mukerji → 'living tradition' integrating high/low culture, rejecting primitive/civilised binary.\n- Q3 (Sociology in post-colonial developmental state): Desai → Marxist critique of welfare state, peasant movements, state-society; Mukerji → critique of unthinking borrowing in planning, tradition as resource for development; Srinivas → village studies as policy-relevant ethnography for planned development.\nConnections must be labelled with specific concepts (e.g., 'diffusionism', 'anubhava', 'welfare state criteria', 'dominant caste', 'Sanskritisation'). A poor answer lists names without concepts or maps all sociologists to all questions generically, showing no grasp of each thinker's distinct intellectual project.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

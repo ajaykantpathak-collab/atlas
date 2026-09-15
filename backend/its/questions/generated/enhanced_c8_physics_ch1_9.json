@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch1_9",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch1_9",
+   "title": "c8_physics_ch1_9",
+   "questions": [
+    {
+     "q": "What gas is produced by yeast during fermentation that causes dough to rise?",
+     "a": "Carbon dioxide (CO₂) is produced. A wrong answer like \"oxygen\" reveals the student confuses anaerobic fermentation with aerobic respiration or photosynthesis, not recognizing that yeast ferments sugar without oxygen to release CO₂ and ethanol.",
+     "self_check": true
+    },
+    {
+     "q": "Why does dough rise faster when kept in a warm place compared to a cold place?",
+     "a": "Yeast enzymes work faster at higher temperatures (up to an optimum), increasing the rate of fermentation and CO₂ production. A wrong answer like \"heat makes the gas expand\" shows the student confuses thermal expansion of gas with the biological rate of gas production, missing the enzyme-temperature relationship.",
+     "self_check": true
+    },
+    {
+     "q": "A student wants to test whether adding sugar affects the speed of dough rising. Identify the independent variable, dependent variable, and two controlled variables.",
+     "a": "Independent: amount of sugar added; Dependent: time taken for dough to double in volume (or volume increase after fixed time); Controlled: type/amount of flour, yeast quantity, water temperature, container size. A wrong answer that swaps independent/dependent variables indicates the student cannot distinguish the cause (sugar) from the effect (rising speed).",
+     "self_check": true
+    },
+    {
+     "q": "Given a graph showing atmospheric CO₂ concentration (ppm) and global average temperature anomaly (°C) both rising steadily from 1900 to 2020, describe the relationship and propose a hypothesis linking them.",
+     "a": "The graph shows a positive correlation: as CO₂ increases, temperature anomaly increases. Hypothesis: Increased CO₂ enhances the greenhouse effect, trapping more outgoing infrared radiation and raising Earth's average temperature. A wrong answer that claims \"correlation proves causation\" without mentioning the greenhouse mechanism reveals a lack of understanding of the physical process linking the variables.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate argues: \"Climate change is natural; Earth has had ice ages and warm periods before, so current warming is just another cycle.\" Evaluate this claim using scientific evidence.",
+     "a": "The claim is incomplete. While natural cycles exist, the current rate of warming and CO₂ rise is unprecedented in the last 800,000 years (ice core data). Isotopic signatures show the extra CO₂ comes from fossil fuel burning. A wrong answer that accepts the claim without evidence shows inability to evaluate scientific arguments and distinguish natural variability from human-driven change.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to investigate how different types of flour (whole wheat, all-purpose, rice flour) affect dough rising. Outline the steps, variables, and how you would measure the result.",
+     "a": "Steps: 1) Prepare identical dough batches with each flour type (same yeast, water, sugar, salt). 2) Place in same warm spot. 3) Measure initial volume. 4) Record volume every 30 minutes for 3 hours. 5) Plot volume vs. time for each flour. Variables: Independent = flour type; Dependent = volume increase rate; Controlled = yeast, temperature, container. A poor answer that changes multiple variables at once or lacks a measurement plan shows the student cannot design a fair test.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

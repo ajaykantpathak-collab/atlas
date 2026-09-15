@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_08_001",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_08_001",
+   "title": "c11_eco_cbse_08_001",
+   "questions": [
+    {
+     "q": "What were the starting years of planned development for India, Pakistan, and China, and what common planning instrument did all three adopt?",
+     "a": "India (1951), Pakistan (1956), China (1953) — all adopted Five Year Plans. A wrong answer (e.g., saying India started in 1947 or China in 1949) reveals confusion between political independence/establishment and the formal commencement of planned economic development, missing that planning is a policy choice distinct from sovereignty.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the textbook state that China's reforms in 1978 were \"on its own initiative\" while India and Pakistan's reforms were \"forced upon\" them by international agencies?",
+     "a": "China's leadership voluntarily initiated reforms due to dissatisfaction with slow growth under Maoism (per capita grain output in 1978 equaled mid-1950s levels), whereas India (1991) and Pakistan (1988) faced balance-of-payments crises requiring IMF/World Bank loans with structural adjustment conditionalities. A wrong answer attributing China's reforms to external pressure reveals misunderstanding of the distinction between endogenous vs exogenous reform triggers — a critical concept for evaluating reform sustainability.",
+     "self_check": true
+    },
+    {
+     "q": "Using Table 8.1, calculate how many years it would take for Pakistan's population to double at its 2021-23 annual growth rate of 1.96%, and compare with China's -0.10% rate. What does this imply for future dependency ratios?",
+     "a": "Pakistan doubling time = 70/1.96 ≈ 35.7 years (Rule of 70). China's negative growth means population shrinking — no doubling. Implication: Pakistan faces rising youth dependency burden needing massive job creation; China faces rising elderly dependency with shrinking workforce. A wrong calculation (e.g., using 72/1.96 or ignoring negative sign) or missing the dependency ratio implication shows inability to translate demographic data into economic policy challenges.",
+     "self_check": true
+    },
+    {
+     "q": "Table 8.3 shows China's industry sector employs 32% of workforce but contributes 38% to GVA, while India's industry employs 26% but contributes 28%. Calculate and compare the labour productivity ratios (GVA share / workforce share) for industry in both countries. What does the difference reveal about industrial structure?",
+     "a": "China industry productivity ratio = 38/32 = 1.1875. India industry productivity ratio = 28/26 = 1.0769. China's higher ratio indicates more capital-intensive, higher-value manufacturing (SOE reform, township-village enterprises, SEZs), while India's lower ratio suggests more labour-intensive, lower-value industrial activity. A wrong answer reversing the ratio or missing the structural interpretation shows inability to derive productivity insights from sectoral share data.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the textbook's claim that China's human development gains (Table 8.5) were \"attributed not to the reform process but the strategies that China adopted in the pre-reform period.\" Use two specific indicators from Table 8.5 to support your evaluation.",
+     "a": "Strong evaluation: China's life expectancy (78.0) and infant mortality (4.8) far exceed India (72.0, 25.5) and Pakistan (67.6, 51). These reflect pre-1978 investments: commune-based rural health (barefoot doctors), universal primary education, land reforms ensuring food security. Post-1978 growth accelerated income (GNI $22,029 vs India $9,047) but HDI foundations were laid earlier. A weak answer crediting only post-1978 growth misses the textbook's explicit causal distinction — a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a comparative timeline (1947-2024) showing three parallel tracks: political system evolution, reform initiation year, and one key policy milestone per decade for each country. Identify one critical juncture where paths diverged most sharply.",
+     "a": "Good answer includes: India (democracy throughout, 1991 reforms, 1950s land reforms/1960s Green Revolution/1991 LPG), Pakistan (military coups 1958, 1977, 1999, 1988 reforms, 1960s Green Revolution/1970s nationalization/1980s denationalization), China (one-party throughout, 1978 reforms, 1950s land reform/1958 GLF/1978 HRS). Critical juncture: 1978 — China reforms while India/Pakistan wait 10-13 more years. Poor answer lists events without analytical framing or misses the 1978 divergence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

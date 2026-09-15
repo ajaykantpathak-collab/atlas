@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_bio_ch02_006",
+ "concepts": [
+  {
+   "id": "enh:c7_bio_ch02_006",
+   "title": "c7_bio_ch02_006",
+   "questions": [
+    {
+     "q": "What is the primary function of the finger-like projections called villi found in the inner lining of the small intestine?",
+     "a": "The correct answer is that villi increase the surface area for the efficient absorption of digested food into the blood vessels. A wrong answer—such as thinking villi chew the food or produce stomach acid—reveals a confusion between mechanical breakdown in the mouth and chemical absorption in the lower digestive tract.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it necessary for the small intestine to receive digestive juices from organs like the liver and pancreas rather than producing all of its own enzymes?",
+     "a": "The correct answer is that the liver (producing bile for fats) and pancreas (producing pancreatic juice for carbohydrates, proteins, and fats) secrete specialized chemicals into the small intestine's first region (duodenum) to handle complex, large-scale chemical breakdown efficiently. A wrong answer indicates the misconception that the stomach completes all chemical digestion, ignoring that specialized alkaline conditions and specific enzyme blends are required in the small intestine.",
+     "self_check": true
+    },
+    {
+     "q": "If a person's diet lacks sufficient fat-emulsifying bile due to a liver malfunction, how would this specifically affect nutrient absorption in their small intestine?",
+     "a": "The correct answer is reasoned in four steps: (1) Bile normally breaks large fat droplets into tiny globules (emulsification); (2) Without bile, fat droplets remain large, drastically reducing the surface area exposed to digestive enzymes; (3) Lipase enzymes cannot efficiently break down these large fat masses into fatty acids and glycerol; (4) Consequently, unabsorbed fats pass through the digestive system, leading to malnutrition and fatty stools. A wrong answer reveals the misconception that fats are digested entirely in the mouth or stomach without needing chemical preparation in the small intestine.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the physical environment of the stomach (which is strongly acidic) with the environment of the small intestine (which is alkaline). Why is this difference in acidity essential for proper digestion?",
+     "a": "The correct answer is that stomach enzymes (like pepsin) require an acidic environment to function, but the enzymes in the small intestine (such as trypsin and intestinal amylase) require an alkaline environment created by pancreatic and intestinal secretions to avoid being denatured and to work effectively. A wrong answer shows a misunderstanding that all digestive organs share the exact same chemical environment and pH levels.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Once food molecules are broken down into simple sugars and amino acids inside the small intestine, they immediately enter the human respiratory system to provide energy.\" Is this statement scientifically accurate? Justify your reasoning.",
+     "a": "The statement is inaccurate. The correct reasoning is: (1) Digested molecules like simple sugars and amino acids are absorbed by the villi into the blood circulatory system, not the respiratory system; (2) The blood transports these nutrients to body cells; (3) The respiratory system's job is gas exchange (oxygen intake and carbon dioxide removal); (4) Nutrients and oxygen meet inside the body cells during cellular respiration, making the claim biologically flawed. A wrong answer reveals confusion between the circulatory transport of digested food and the gas exchange function of lungs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple model using household materials (such as a folded cloth, a tube, and colored water) to demonstrate how villi increase surface area for absorption. Explain how your model represents the biological structure.",
+     "a": "A good response describes using a smooth plastic tube versus a tube lined with folded velvet cloth or corrugated paper, showing how colored water (representing nutrients) is soaked up much faster and in greater quantity by the folded surface. A poor answer fails to connect the folds of the material to the microscopic surface area expansion provided by villi in the small intestine.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

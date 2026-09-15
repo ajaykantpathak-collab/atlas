@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_11_007",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_11_007",
+   "title": "c11_cs_cbse_11_007",
+   "questions": [
+    {
+     "q": "What is the primary function of a DNS recursive resolver in the domain name resolution process?",
+     "a": "The recursive resolver acts on behalf of the client (stub resolver) to perform the full sequence of queries — starting from root servers, then TLD servers, then authoritative servers — until it obtains the final IP address or an error, which it returns to the client. A wrong answer (e.g., \"it stores all domain-to-IP mappings\") reveals the student confuses recursive resolvers with authoritative servers or assumes a centralized database, missing the distributed, hierarchical nature of DNS.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the DNS hierarchy uses both recursive and iterative queries instead of just one type throughout the entire resolution process.",
+     "a": "Recursive queries are used between the client and recursive resolver because the client expects a complete answer; iterative queries are used between the recursive resolver and authoritative servers (root, TLD, domain) because those servers only return referrals (NS records) to the next level, avoiding the load of full recursion on critical infrastructure. A wrong answer (e.g., \"iterative is faster\") shows the student doesn't understand the load-distribution design: root/TLD servers handle millions of queries per second and cannot perform recursive lookups for each.",
+     "self_check": true
+    },
+    {
+     "q": "Given the URL `https://www.example.com:8080/path/to/resource?query=value#section`, identify each of the six standard URL components and state the default port that would be used if `:8080` were omitted.",
+     "a": "Scheme: https, Domain: www.example.com, Port: 8080, Path: /path/to/resource, Query: query=value, Fragment: section. Default port for https is 443. A wrong answer (e.g., default port 80) reveals confusion between HTTP (port 80) and HTTPS (port 443) defaults, or inability to parse the URL syntax when non-standard ports are present.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the DNS record types A, AAAA, CNAME, and MX. For each, state what it maps FROM and what it maps TO, and give one scenario where you would use each type.",
+     "a": "A: domain name → IPv4 address (e.g., www.example.com → 93.184.216.34); AAAA: domain name → IPv6 address (e.g., www.example.com → 2606:2800:220:1:248:1893:25c8:1946); CNAME: alias domain → canonical domain (e.g., blog.example.com → www.example.com); MX: domain name → mail server hostname with priority (e.g., example.com → mail.example.com, priority 10). A wrong answer (e.g., \"CNAME maps to IP\") shows the student confuses aliasing with direct address mapping, missing that CNAME chains require an additional lookup to resolve to A/AAAA.",
+     "self_check": true
+    },
+    {
+     "q": "A company hosts its website at `web.company.com` (A record → 203.0.113.10) and email at `mail.company.com` (A record → 203.0.113.20). The DNS zone also has `www CNAME web.company.com` and `company.com MX 10 mail.company.com`. Evaluate whether a user accessing `http://www.company.com` and a user sending email to `user@company.com` will reach the correct servers. Justify.",
+     "a": "Yes, both work correctly. For HTTP: `www.company.com` → CNAME → `web.company.com` → A → 203.0.113.10 (web server). For email: sending MTA queries MX for `company.com` → gets `mail.company.com` (priority 10) → resolves A for `mail.company.com` → 203.0.113.20 (mail server). A wrong answer (e.g., \"email fails because MX points to hostname not IP\") reveals the student doesn't know MX records point to hostnames that must be further resolved via A/AAAA — a two-step process.",
+     "self_check": true
+    },
+    {
+     "q": "Design a DNS zone file snippet for a fictional startup `techstart.in` that: (a) points the apex domain to IPv4 198.51.100.5 and IPv6 2001:db8::5, (b) creates `www` as an alias for the apex, (c) delegates `blog` to a separate nameserver `ns1.bloghost.net`, and (d) sets up email via Google Workspace (ASPMX.L.GOOGLE.COM priority 1). Write the zone entries in standard BIND format.",
+     "a": "```\n$ORIGIN techstart.in.\n@   IN  A       198.51.100.5\n@   IN  AAAA    2001:db8::5\n@   IN  MX  1   ASPMX.L.GOOGLE.COM.\nwww IN  CNAME   @\nblog IN NS      ns1.bloghost.net.\n```\nA poor answer (missing trailing dots on FQDNs, wrong MX priority syntax, or using CNAME at apex) reveals misunderstanding of zone file syntax rules: apex cannot have CNAME, FQDNs must end with dot, and NS delegation requires glue records if in-bailiwick.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

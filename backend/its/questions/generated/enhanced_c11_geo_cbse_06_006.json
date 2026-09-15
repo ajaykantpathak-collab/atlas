@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_06_006",
+   "title": "c11_geo_cbse_06_006",
+   "questions": [
+    {
+     "q": "Define carbonation weathering and write the balanced chemical equation for the carbonation of calcite (CaCO3).",
+     "a": "Carbonation is the reaction of carbonate minerals with carbonic acid (H2CO3) formed when atmospheric CO2 dissolves in rainwater. The balanced equation: CaCO3(s) + H2CO3(aq) → Ca(HCO3)2(aq). A wrong answer writing CaCO3 + CO2 → Ca(HCO3)2 reveals the misconception that CO2 reacts directly with the mineral rather than first forming carbonic acid in solution. Students often omit the aqueous state symbols which are critical because the reaction only proceeds in water — this is why carbonation dominates in humid regions like Meghalaya's limestone caves but is negligible in Rajasthan's arid zones.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why oxidation weathering produces reddish-brown stains on basalt flows of the Deccan Plateau but is minimal on quartzite ridges of the Aravalli Range.",
+     "a": "Oxidation requires iron-bearing minerals (pyroxene, amphibole, magnetite in basalt) reacting with O2 and H2O to form iron oxides/hydroxides (Fe2O3·nH2O). Quartzite is >95% quartz (SiO2) which lacks iron in its crystal structure, so oxidation cannot occur. A wrong answer attributing the difference to climate alone reveals failure to connect process to mineralogy. The Deccan basalt and Aravalli quartzite experience similar tropical climates, yet weathering products differ fundamentally due to parent rock composition — this is the Goldich stability series in action.",
+     "self_check": true
+    },
+    {
+     "q": "A limestone block (density 2.7 g/cm³, dimensions 50 cm × 30 cm × 20 cm) in Cherrapunji (annual rainfall 11,777 mm) loses 0.5 mm thickness per year through carbonation. Calculate the mass loss in kg after 100 years. Assume only the top surface weathers.",
+     "a": "Step 1: Top surface area = 0.5 m × 0.3 m = 0.15 m² = 1500 cm². Step 2: Annual thickness loss = 0.5 mm = 0.05 cm. Step 3: Annual volume loss = 1500 cm² × 0.05 cm = 75 cm³. Step 4: 100-year volume loss = 75 cm³/yr × 100 yr = 7500 cm³. Step 5: Mass loss = 7500 cm³ × 2.7 g/cm³ = 20,250 g = 20.25 kg. A wrong answer using total surface area instead of top surface reveals misunderstanding that carbonation primarily attacks exposed upper surfaces where CO2-charged water ponds, not vertical faces where water runs off.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the depth of weathering profiles developed on granite in humid tropical Kerala versus arid western Rajasthan. Explain the difference using the concept of water as both solvent and transport medium.",
+     "a": "Kerala's lateritic profiles reach 30-50 m depth because high rainfall (3000+ mm/yr) provides abundant water for hydrolysis, hydration, and solution, plus deep percolation transports dissolved ions downward. Rajasthan's arid climate (100-400 mm/yr) limits water availability, restricting chemical weathering to a thin rind (<1 m) with physical weathering dominating. A wrong answer citing only temperature difference misses that both regions are warm — the critical variable is moisture enabling water to act as reactant (hydrolysis), solvent (solution), and transport agent (leaching). Without percolating water, reaction products accumulate and armor the surface, halting further weathering.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Hydration weathering is the most important process in forming bauxite deposits of the Eastern Ghats.\" Justify your answer with reference to the mineral transformation sequence.",
+     "a": "The statement is partially correct but incomplete. Hydration (e.g., feldspar → kaolinite: 2KAlSi3O8 + 2H2CO3 + 9H2O → Al2Si2O5(OH)4 + 4H4SiO4 + 2K+ + 2HCO3-) initiates clay formation, but bauxitization requires intense leaching (solution) removing silica and concentrating Al/Fe oxides under alternating wet-dry cycles. Hydration alone produces kaolinite; solution removes SiO2 to form gibbsite/boehmite. A wrong answer selecting only hydration reveals failure to see bauxite as a multi-process product: hydrolysis/hydration first, then carbonation/solution-driven desilication. The Eastern Ghats' seasonal monsoon provides the critical wet-dry alternation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field investigation to distinguish whether solution or carbonation dominates weathering of marble monuments at the Taj Mahal. Specify measurements, locations, and expected diagnostic evidence.",
+     "a": "Measure: (1) pH and conductivity of runoff water from horizontal vs. vertical surfaces, (2) Ca2+ and HCO3- concentrations in runoff, (3) surface recession rates using micro-erosion meters on sheltered vs. exposed faces. Sample: horizontal ledges (water ponds, high CO2 residence time) vs. vertical walls (rapid runoff). Diagnostic: If HCO3- dominates and recession is higher on horizontal surfaces → carbonation. If pH near neutral, high Ca2+ without HCO3-, and uniform recession → solution by pure water. A poor design measuring only total dissolved solids cannot distinguish the processes — the HCO3-/Ca2+ ratio is the fingerprint of carbonation vs. simple solution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

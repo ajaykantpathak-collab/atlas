@@ -1,0 +1,383 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 101,
+ "chapter_title": "Integers",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/gemh101.txt",
+ "concepts": [
+  {
+   "id": "gemh101.1.1",
+   "title": "Closure Property of Addition and Subtraction",
+   "section": "1.1.1",
+   "definition": "Integers are closed under addition and subtraction, meaning the sum or difference of any two integers is always an integer.",
+   "formula": "a + b = integer; a - b = integer",
+   "key_idea": "The result of adding or subtracting integers never leaves the set of integers.",
+   "textbook_ref": "gemh101.txt lines 10-45",
+   "question_patterns": [
+    "Is the sum of these integers an integer?",
+    "Verify closure property for the following pair",
+    "What is the result of subtracting these two integers?",
+    "Check if integers are closed under subtraction"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Perform the operation",
+     "explain": "Add or subtract the given integers a and b."
+    },
+    {
+     "step": 2,
+     "action": "Check result type",
+     "explain": "Confirm if the resulting value belongs to the set of integers."
+    }
+   ]
+  },
+  {
+   "id": "gemh101.1.3",
+   "title": "Commutative Property of Addition",
+   "section": "1.1.3",
+   "definition": "The sum of two integers remains the same regardless of the order in which they are added.",
+   "formula": "a + b = b + a",
+   "key_idea": "Order does not affect the result in integer addition.",
+   "textbook_ref": "gemh101.txt lines 55-80",
+   "question_patterns": [
+    "Verify the commutative property for addition",
+    "Does changing the order of addition change the sum?",
+    "Calculate the sum in two different orders",
+    "Fill the blank: (-5) + (-8) = (-8) + (...)"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate first order",
+     "explain": "Add the first integer to the second.",
+     "compute": "sum_1 = val_a + val_b"
+    },
+    {
+     "step": 2,
+     "action": "Calculate second order",
+     "explain": "Add the second integer to the first.",
+     "compute": "sum_2 = val_b + val_a"
+    }
+   ]
+  },
+  {
+   "id": "gemh101.1.4",
+   "title": "Associative Property of Addition",
+   "section": "1.1.4",
+   "definition": "When adding three integers, the grouping of the numbers does not change the final sum.",
+   "formula": "(a + b) + c = a + (b + c)",
+   "key_idea": "Grouping of terms is flexible in integer addition.",
+   "textbook_ref": "gemh101.txt lines 85-110",
+   "question_patterns": [
+    "Verify the associative property for the given integers",
+    "Group the integers differently and find the sum",
+    "Show that (a+b)+c equals a+(b+c)",
+    "Find the missing value using associativity"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Group first two",
+     "explain": "Add a and b first, then add c.",
+     "compute": "sum_abc = (val_a + val_b) + val_c"
+    },
+    {
+     "step": 2,
+     "action": "Group last two",
+     "explain": "Add b and c first, then add a.",
+     "compute": "sum_bca = val_a + (val_b + val_c)"
+    }
+   ]
+  },
+  {
+   "id": "gemh101.1.5",
+   "title": "Additive Identity",
+   "section": "1.1.5",
+   "definition": "Zero is the additive identity for integers because adding zero to any integer results in that same integer.",
+   "formula": "a + 0 = a",
+   "key_idea": "Adding zero preserves the identity of the integer.",
+   "textbook_ref": "gemh101.txt lines 115-135",
+   "question_patterns": [
+    "What is the additive identity of integers?",
+    "Find the sum of an integer and zero",
+    "Identify the property: -23 + 0 = -23",
+    "What must be added to an integer to get the same value?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add zero",
+     "explain": "Add 0 to the given integer val_a.",
+     "compute": "result = val_a + 0"
+    }
+   ]
+  },
+  {
+   "id": "gemh101.2.1",
+   "title": "Multiplication of Unlike Signed Integers",
+   "section": "1.2.1",
+   "definition": "The product of a positive integer and a negative integer is a negative integer, found by multiplying their absolute values and adding a minus sign.",
+   "formula": "a * (-b) = -(a * b)",
+   "key_idea": "Positive times negative always equals negative.",
+   "textbook_ref": "gemh101.txt lines 160-220",
+   "question_patterns": [
+    "Multiply a positive and a negative integer",
+    "Find the product of 6 and -19",
+    "Calculate the result of multiplying unlike signs",
+    "What is the sign of the product of 15 and -16?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply magnitudes",
+     "explain": "Multiply the numbers as if they were whole numbers.",
+     "compute": "magnitude = abs_a * abs_b"
+    },
+    {
+     "step": 2,
+     "action": "Apply negative sign",
+     "explain": "Since signs are different, the product is negative.",
+     "compute": "product = -1 * magnitude"
+    }
+   ]
+  },
+  {
+   "id": "gemh101.2.2",
+   "title": "Multiplication of Two Negative Integers",
+   "section": "1.2.2",
+   "definition": "Multiplying two negative integers results in a positive integer product.",
+   "formula": "(-a) * (-b) = a * b",
+   "key_idea": "Negative times negative always equals positive.",
+   "textbook_ref": "gemh101.txt lines 225-265",
+   "question_patterns": [
+    "Find the product of two negative integers",
+    "Calculate (-21) times (-30)",
+    "What is the result of multiplying -10 and -12?",
+    "Verify that the product of two negatives is positive"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply magnitudes",
+     "explain": "Multiply the absolute values of the two negative integers.",
+     "compute": "product = abs_a * abs_b"
+    }
+   ]
+  },
+  {
+   "id": "gemh101.3.4",
+   "title": "Multiplicative Identity",
+   "section": "1.3.4",
+   "definition": "The integer 1 is the multiplicative identity for integers, as any integer multiplied by 1 remains unchanged.",
+   "formula": "a * 1 = a",
+   "key_idea": "Multiplying by 1 does not change the value.",
+   "textbook_ref": "gemh101.txt lines 310-335",
+   "question_patterns": [
+    "What is the multiplicative identity for integers?",
+    "Multiply an integer by 1",
+    "Identify the property: (-3) * 1 = -3",
+    "Find the product of -4 and 1"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply by one",
+     "explain": "Multiply the given integer by 1.",
+     "compute": "result = val_a * 1"
+    }
+   ]
+  },
+  {
+   "id": "gemh101.3.6",
+   "title": "Distributive Property",
+   "section": "1.3.6",
+   "definition": "Multiplication distributes over addition and subtraction, meaning a(b + c) = ab + ac.",
+   "formula": "a * (b + c) = (a * b) + (a * c)",
+   "key_idea": "Multiplying a sum is equal to the sum of the individual products.",
+   "textbook_ref": "gemh101.txt lines 350-405",
+   "question_patterns": [
+    "Verify the distributive property",
+    "Solve using distributive property: 18 * [7 + (-3)]",
+    "Show that a(b-c) = ab - ac",
+    "Calculate the product using distributivity"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply first term",
+     "explain": "Multiply the outer integer by the first inner integer.",
+     "compute": "term_1 = val_a * val_b"
+    },
+    {
+     "step": 2,
+     "action": "Multiply second term",
+     "explain": "Multiply the outer integer by the second inner integer.",
+     "compute": "term_2 = val_a * val_c"
+    },
+    {
+     "step": 3,
+     "action": "Sum the products",
+     "explain": "Add the two products together.",
+     "compute": "final_result = term_1 + term_2"
+    }
+   ]
+  },
+  {
+   "id": "gemh101.4.1",
+   "title": "Division of Integers",
+   "section": "1.4",
+   "definition": "Division of integers follows sign rules similar to multiplication: unlike signs result in a negative quotient, and like signs result in a positive quotient.",
+   "formula": "(-a) / b = -(a / b); (-a) / (-b) = a / b",
+   "key_idea": "Sign of the quotient depends on the signs of the dividend and divisor.",
+   "textbook_ref": "gemh101.txt lines 420-480",
+   "question_patterns": [
+    "Divide a negative integer by a positive one",
+    "Find the quotient of (-36) and (-9)",
+    "Calculate 50 divided by -5",
+    "What is the result of dividing -100 by 5?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide magnitudes",
+     "explain": "Divide the absolute values of the numbers.",
+     "compute": "mag_quotient = abs_dividend / abs_divisor"
+    },
+    {
+     "step": 2,
+     "action": "Determine sign",
+     "explain": "If signs were different, result is negative; if same, result is positive.",
+     "compute": "final_quotient = mag_quotient * sign_factor"
+    }
+   ]
+  },
+  {
+   "id": "gemh101.5.1",
+   "title": "Properties of Division",
+   "section": "1.5",
+   "definition": "Division is not commutative or associative for integers; division by zero is undefined, and division by 1 returns the same integer.",
+   "formula": "a / 1 = a; a / 0 = undefined",
+   "key_idea": "Division has specific constraints and lacks commutativity.",
+   "textbook_ref": "gemh101.txt lines 485-525",
+   "question_patterns": [
+    "Is division commutative for integers?",
+    "What is the result of dividing an integer by 1?",
+    "Evaluate 0 divided by -12",
+    "Check if (a/b)/c equals a/(b/c)"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Apply division rule",
+     "explain": "Divide the integer by the divisor (1 or 0)."
+    },
+    {
+     "step": 2,
+     "action": "Identify result",
+     "explain": "State if the result is the integer itself or undefined."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gemh101.txt lines 145-155",
+   "concept": "gemh101.1.1",
+   "question_type": "compute",
+   "question_pattern": "Write down a pair of integers whose sum is {target_sum}",
+   "extracted_variables": {
+    "target_sum": "-3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Select first integer",
+     "explain": "Choose an integer val_a.",
+     "compute": "val_a = -1"
+    },
+    {
+     "step": 2,
+     "action": "Find second integer",
+     "explain": "Subtract val_a from target_sum to find val_b.",
+     "compute": "val_b = target_sum - val_a"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gemh101.txt lines 530-545",
+   "concept": "gemh101.4.1",
+   "question_type": "compute",
+   "question_pattern": "Radhika scored {total_score} marks with {correct_count} correct answers. If each correct answer gives {pos_marks} and each incorrect gives {neg_marks}, find incorrect answers.",
+   "extracted_variables": {
+    "total_score": "30",
+    "correct_count": "10",
+    "pos_marks": "5",
+    "neg_marks": "-2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate correct marks",
+     "explain": "Multiply correct count by marks per correct answer.",
+     "compute": "correct_total = correct_count * pos_marks"
+    },
+    {
+     "step": 2,
+     "action": "Find marks from errors",
+     "explain": "Subtract correct marks from total score.",
+     "compute": "error_total = total_score - correct_total"
+    },
+    {
+     "step": 3,
+     "action": "Calculate error count",
+     "explain": "Divide error marks by marks per incorrect answer.",
+     "compute": "error_count = error_total / neg_marks"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "1.1",
+   "source_ref": "gemh101.txt lines 160-175",
+   "questions": [
+    "Write down a pair of integers whose sum is -7",
+    "Write a pair of negative integers whose difference gives 8",
+    "In a quiz, team A scored -40, 10, 0 and team B scored 10, 0, -40. Which team scored more?"
+   ]
+  },
+  {
+   "id": "1.2",
+   "source_ref": "gemh101.txt lines 410-425",
+   "questions": [
+    "Find the product: (-12) * (-11) * (10)",
+    "Verify: 18 * [7 + (-3)] = [18 * 7] + [18 * (-3)]",
+    "Determine the integer whose product with (-1) is -22"
+   ]
+  },
+  {
+   "id": "1.3",
+   "source_ref": "gemh101.txt lines 565-585",
+   "questions": [
+    "Evaluate: (-31) / [(-30) + (-1)]",
+    "Verify that a / (b + c) != (a / b) + (a / c) for a=12, b=-4, c=2",
+    "An elevator descends at 6 m/min from 10 m above ground. How long to reach -350 m?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

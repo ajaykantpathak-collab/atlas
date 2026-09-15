@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_01_003",
+   "title": "c11_hs_cbse_01_003",
+   "questions": [
+    {
+     "q": "List the four domains of Human Ecology as defined in the NCERT Class 11 HEFS framework and give one concrete example of a factor belonging to each domain for an adolescent living in an urban slum.",
+     "a": "Correct answer: Physical (e.g., overcrowded housing, lack of clean water), Economic (e.g., family’s irregular daily-wage income), Social (e.g., community violence, caste discrimination), Psychological (e.g., chronic stress, low self-esteem). A wrong answer that lists \"education\" as a separate domain reveals the student conflates a social institution with the domain framework; listing \"nutrition\" only under Physical shows they miss its Economic (affordability) and Social (intra-household distribution) dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"The Psychological domain is just about mental health problems like depression.\" Explain why this statement is incomplete and give two examples of positive psychological factors that Human Ecology studies.",
+     "a": "Correct explanation: The Psychological domain includes *both* vulnerabilities (anxiety, trauma) *and* strengths (resilience, self-efficacy, identity formation, aspiration, motivation). Human Ecology examines how these positive traits interact with other domains — e.g., an adolescent’s *aspiration* (psychological) drives skill acquisition (economic) which alters family dynamics (social). A wrong answer that only mentions \"happiness\" or \"stress\" shows the student views psychology as a deficit model rather than a resource domain.",
+     "self_check": true
+    },
+    {
+     "q": "Case: A family in Bhopal loses their home in a flood (Physical domain shock). Trace the likely cascade effects into the Economic, Social, and Psychological domains over a 6-month period, naming at least one specific mechanism per domain.",
+     "a": "Correct trace: Economic → loss of assets & livelihood (mechanism: destruction of workplace/tools); Social → displacement disrupts kinship networks & children’s schooling (mechanism: migration to relief camp); Psychological → grief & helplessness (mechanism: trauma from loss of safe haven). A wrong answer that stops at \"they become poor\" fails to identify *mechanisms* (e.g., how physical loss translates to economic loss via specific asset destruction) and misses the feedback loop (psychological distress reducing economic recovery capacity).",
+     "self_check": true
+    },
+    {
+     "q": "Compare how the *same* resource — a smartphone — functions differently across the four domains for a 17-year-old boy in a middle-class Delhi family versus a 17-year-old girl in a tribal Jharkhand household. Identify one domain where the *valence* (positive/negative impact) flips between the two contexts.",
+     "a": "Correct comparison: Delhi boy — Physical: access to information; Economic: skill-building for gig work; Social: peer connection; Psychological: autonomy & anxiety (valence mixed). Jharkhand girl — Physical: rare tech access; Economic: limited by connectivity/cost; Social: *surveillance* by family (valence negative); Psychological: aspiration vs. restriction conflict. Valence flips in Social domain: connectivity vs. control. A wrong answer that lists identical functions for both ignores how *context* (gender, geography, class) reshapes a resource’s domain-level meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Improving a family’s Economic domain (e.g., through a cash transfer) automatically improves their Quality of Life because money can buy Physical, Social, and Psychological resources.\" Use the concept of *domain interdependence* and *conversion factors* in your evaluation.",
+     "a": "Correct critique: Money is a *necessary but insufficient* conversion factor. Sen’s capability approach (implicit in HEFS) shows conversion depends on: Physical (market access, infrastructure), Social (gender norms controlling expenditure, caste barriers), Psychological (literacy, mental bandwidth, aspiration). Example: Cash transfer to a woman in a patriarchal household may be seized by husband (Social conversion failure); a malnourished child’s body cannot utilize purchased food if gut health is compromised (Physical conversion failure). A wrong answer that agrees uncritically treats domains as linearly additive rather than interactively constitutive.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-domain intervention plan for a 15-year-old first-generation learner in a Mumbai chawl who wants to pursue vocational training in hospitality. Specify one action per domain and explain how each action *enables* the others (synergy).",
+     "a": "Good plan: Physical — secure safe study space + nutritious tiffin (enables concentration); Economic — scholarship covering fees + stipend for transport (removes opportunity cost); Social — mentor from alumni network + parent counselling on career value (builds normative support); Psychological — goal-setting workshops + stress-management (builds agency). Synergy: Economic stipend allows Physical attendance; Social mentor boosts Psychological persistence; Psychological agency helps navigate Social barriers. A poor answer lists isolated actions without cross-domain *enabling* links (e.g., \"give money\" + \"give counselling\" without explaining how counselling makes money more effective).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_13_006",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_13_006",
+   "title": "c12_bio_cbse_13_006",
+   "questions": [
+    {
+     "q": "Define semelparity and give one plant and one animal example from the Indian subcontinent.",
+     "a": "Semelparity: organisms reproduce once in their lifetime and then die. Plant example: Bamboo (e.g., *Melocanna baccifera*) flowers gregariously after 30-50 years, sets seed, and dies. Animal example: Pacific salmon (not native but illustrates concept) or certain marsupials like *Antechinus* (male dies after mating season). A wrong answer (e.g., \"semelparity means reproducing many times\") reveals confusion with iteroparity; the student has not grasped the fundamental trade-off between single massive reproductive effort and survival.",
+     "self_check": true
+    },
+    {
+     "q": "Why do r-selected species typically have a Type III survivorship curve while K-selected species show Type I? Explain the connection between life history strategy and survivorship pattern.",
+     "a": "r-selected species produce many offspring with little parental care, resulting in high early mortality (Type III curve — steep drop in young age classes). K-selected species produce few offspring with high parental investment, leading to low juvenile mortality and most deaths occurring in old age (Type I curve). A wrong answer (e.g., \"r-selected have Type I because they reproduce fast\") indicates the student memorized curve shapes without linking them to the underlying reproductive trade-offs and mortality patterns.",
+     "self_check": true
+    },
+    {
+     "q": "A population of mosquitoes in a seasonal pond shows exponential growth during monsoon but crashes in dry season. Predict whether this population is r-selected or K-selected, and justify using at least three life history traits.",
+     "a": "r-selected. Traits: (1) high intrinsic rate of increase (r), (2) early maturity (days), (3) large clutch size (hundreds of eggs), (4) no parental care, (5) short lifespan, (6) exploit unpredictable, temporary habitats. The seasonal pond is an unstable environment favoring rapid colonization and reproduction before habitat disappears. A wrong answer (e.g., \"K-selected because population grows fast\") confuses growth rate with selection type; the student misses that K-selection occurs in stable environments near carrying capacity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the life history trade-offs in a semelparous annual plant (e.g., wheat) and an iteroparous perennial plant (e.g., mango tree). How does resource allocation differ between vegetative growth and reproduction in each?",
+     "a": "Annual wheat: allocates most resources to a single massive reproductive event (grain production) after brief vegetative growth; no resources saved for future survival. Perennial mango: allocates resources to vegetative growth and storage structures (woody trunk, roots) for years before first reproduction; each year allocates a portion to reproduction while maintaining survival structures. A wrong answer (e.g., \"both allocate equally\") shows failure to understand the fundamental allocation trade-off: semelparous organisms \"bet everything\" on one reproductive bout, while iteroparous organisms partition resources across multiple bouts.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"r-selection and K-selection are fixed categories; a species cannot exhibit traits of both.\" Provide a counterexample and explain why the continuum model is more accurate.",
+     "a": "False. Many species show intermediate traits (e.g., sea turtles: high fecundity like r-selected but long lifespan and delayed maturity like K-selected). The r/K continuum is a spectrum; selection pressures vary across environments and life stages. A wrong answer (e.g., \"true, they are distinct categories\") reveals rigid categorical thinking; the student hasn't grasped that life history evolution produces a gradient of strategies shaped by multiple selective pressures.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field study to determine whether a local bird species is r-selected or K-selected. List the specific data you would collect over two breeding seasons and how you would analyze it.",
+     "a": "Collect: (1) clutch size per nest, (2) number of broods per season, (3) age at first breeding (band nestlings), (4) parental care duration (feeding visits/hour), (5) juvenile survival rate (mark-recapture), (6) adult annual survival. Analyze: high clutch size, multiple broods, early maturity, short care, low juvenile survival, low adult survival → r-selected; opposite → K-selected. A poor answer (e.g., \"just watch them\") lacks quantitative traits and longitudinal design; the student doesn't know which measurable life history parameters distinguish the strategies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_06_005",
+   "title": "c12_hs_cbse_06_005",
+   "questions": [
+    {
+     "q": "List the three categories of extension teaching methods based on the number of learners and interaction intensity.",
+     "a": "The three categories are individual contact methods, group contact methods, and mass contact methods. A wrong answer (e.g., listing \"lecture, demonstration, field day\" without categorising) reveals the student is confusing specific methods with the overarching classification framework. The classification is the mental scaffold; specific methods are instances.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why individual contact methods are more effective for skill development but less efficient for reaching large numbers.",
+     "a": "Individual methods (farm visit, office call) allow tailored pacing, immediate feedback, and hands-on guided practice — essential for psychomotor skills. However, they require high worker time per learner, making them impractical for large audiences. A wrong answer that claims \"individual methods reach more people because they are personal\" confuses effectiveness per learner with overall reach.",
+     "self_check": true
+    },
+    {
+     "q": "A KVK scientist wants to teach 500 farmers about pest identification. Choose the most appropriate method category and justify your choice in two sentences.",
+     "a": "Mass contact methods (e.g., radio programme, poster exhibition, SMS alerts) are most appropriate because the audience is large and geographically dispersed, and the learning objective is awareness/knowledge of pest identification — not a complex psychomotor skill. A wrong choice of group or individual method ignores the resource constraint: 500 farmers cannot be accommodated in feasible group sessions or individual visits within a reasonable time.",
+     "self_check": true
+    },
+    {
+     "q": "Compare group discussion and method demonstration in terms of learner participation, cost, and suitability for attitude change.",
+     "a": "Group discussion: high participation (verbal), low cost, excellent for attitude change through peer exchange. Method demonstration: moderate participation (observation + practice), moderate cost (materials), good for skill acquisition but weaker for attitude change. A wrong answer that rates both equally on all dimensions fails to distinguish the cognitive (discussion) vs psychomotor (demonstration) focus of each method.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Mass contact methods are obsolete in the digital age because everyone has smartphones.\"",
+     "a": "The statement is flawed. First, smartphone penetration is not universal — digital divide excludes marginalised groups (women, elderly, remote areas). Second, mass contact includes non-digital methods (wall paintings, folk media) that work without connectivity. Third, even digital mass methods (YouTube, WhatsApp) lack interaction for skill practice and trust-building. A wrong answer agreeing with the statement shows ignorance of the digital divide and the unique strengths of non-digital mass methods.",
+     "self_check": true
+    },
+    {
+     "q": "Design a combined extension teaching strategy for promoting kitchen gardening in an urban slum, using at least one method from each category (individual, group, mass).",
+     "a": "Mass: Community radio spots + poster on \"Grow your own vegetables\" in local language. Group: Method demonstration of container gardening at the anganwadi centre with 15 women per batch. Individual: Follow-up home visits to troubleshoot each family's containers, advise on watering, pest control. A poor answer lists three methods but does not sequence them logically (mass → awareness, group → skill, individual → adoption support) or ignores the slum context (space constraints, water scarcity).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_25_005",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_25_005",
+   "title": "c11_geo_cbse_25_005",
+   "questions": [
+    {
+     "q": "Define relief displacement and state its direction relative to the principal point on a vertical aerial photograph.",
+     "a": "Relief displacement is the radial shift of an elevated object's image from its true planimetric position on a vertical aerial photograph. The displacement is always directed radially outward from the principal point (nadir point) for features above datum, and radially inward for depressions below datum. A wrong answer (e.g., \"displacement is towards the principal point\" or \"direction is random\") reveals confusion between relief displacement and tilt displacement, or failure to visualize the perspective geometry from the exposure station.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why relief displacement is zero at the principal point and increases towards the edges of a vertical aerial photograph, using the geometry of similar triangles.",
+     "a": "At the principal point, the radial distance r = 0, so displacement d = r·h/H = 0 regardless of height h. As r increases towards photo edges, the slant range from exposure station to ground point becomes more oblique, increasing the difference between the planimetric position (where a ray from the exposure station through the base would hit the photo plane) and the actual image position of the top. A wrong answer citing \"lens distortion\" or \"scale change\" confuses relief displacement with optical aberrations or the scale variation itself rather than the positional shift caused by perspective geometry.",
+     "self_check": true
+    },
+    {
+     "q": "A vertical aerial photograph is taken at a flying height of 3000 m above mean sea level with a 150 mm focal length lens. A radio tower stands on a hill at 1200 m elevation. The tower top appears at a radial distance of 65 mm from the principal point on the photograph. Calculate the relief displacement of the tower top and its actual height above the hill base if the tower base image is at 62 mm radial distance.",
+     "a": "Step 1: Identify given values: H = 3000 m (flying height above MSL), h_datum = 1200 m (hill elevation), so flying height above hill base H' = 3000 - 1200 = 1800 m. Focal length f = 150 mm. Radial distance of tower top r_top = 65 mm, tower base r_base = 62 mm.\nStep 2: Relief displacement d = r_top - r_base = 65 - 62 = 3 mm.\nStep 3: Use displacement formula d = r·h_tower / H' where r ≈ r_base (base position approximates planimetric position). So h_tower = d·H' / r_base = 3 mm × 1800 m / 62 mm = 87.1 m.\nStep 4: Verify: The tower height 87.1 m is reasonable for a radio tower.\nWrong answer using H = 3000 m instead of H' = 1800 m yields h_tower = 145 m, revealing failure to adjust flying height for terrain elevation. Wrong answer using r_top instead of r_base reveals misunderstanding that displacement is measured from the true planimetric position (base), not the displaced top position.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the relief displacement pattern for a mountain ridge running radially outward from the principal point versus a ridge running tangentially (perpendicular to radial direction). How would each appear on the photograph relative to their map positions?",
+     "a": "For a radial ridge: each point along the ridge is displaced radially outward, so the ridge appears stretched radially (elongated away from principal point) with increased spacing between contours. For a tangential ridge: points at the same radial distance experience equal outward displacement, so the ridge shifts outward as a whole without shape distortion, maintaining its map orientation but at a larger radial distance. A wrong answer claiming both distort similarly misses that displacement magnitude depends only on radial distance r, not azimuth. A wrong answer claiming tangential ridge curves reveals confusion with tilt displacement which has azimuthal variation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Orthorectification completely eliminates all geometric errors in an aerial photograph, making it equivalent to a map.\" Justify your answer with specific residual error sources.",
+     "a": "The statement is false. Orthorectification removes relief displacement and tilt displacement using a DEM and sensor model, producing an orthophoto with uniform scale. However, residual errors remain: (1) DEM inaccuracies propagate into positional errors, especially in steep terrain; (2) image matching errors during rectification; (3) lens distortion not fully calibrated; (4) atmospheric refraction effects; (5) the orthophoto still lacks cartographic generalization, feature classification, and symbolic representation that define a map. A wrong answer agreeing with the statement reveals confusion between geometric correction and cartographic representation, or ignorance of DEM dependency in orthorectification.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field verification procedure to assess the positional accuracy of an orthorectified aerial photograph of a hilly urban area, using ground control points (GCPs) and independent check points (ICPs). Specify the minimum number of points, their distribution strategy, and the statistical test for accuracy assessment.",
+     "a": "Minimum 20 GCPs (for bundle adjustment) + 20 ICPs (for independent validation) = 40 points total. Distribution: stratified by elevation zones (valley, mid-slope, ridge), land cover (built-up, vegetation, bare soil), and radial distance from photo center (near, middle, edge) to capture systematic error patterns. Use RMSE (Root Mean Square Error) in X, Y, and radial directions with 95% confidence interval (1.96 × RMSE). Report LE90 (Linear Error at 90% confidence) per ASPRS standards. A poor answer suggesting random point placement or using same points for GCPs and ICPs reveals misunderstanding of bias-variance tradeoff in accuracy assessment and the need for independent validation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

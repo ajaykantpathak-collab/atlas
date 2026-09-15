@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch03_008",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch03_008",
+   "title": "c7_physics_ch03_008",
+   "questions": [
+    {
+     "q": "Which method of heat transfer is primarily responsible for the Sun heating the Earth's oceans to start the water cycle?",
+     "a": "Radiation is responsible for transferring heat from the Sun through the vacuum of space to the Earth's oceans. A wrong answer like \"conduction\" or \"convection\" reveals a failure to remember that heat needs a physical medium to travel via conduction or convection, whereas radiation can travel through empty space.",
+     "self_check": true
+    },
+    {
+     "q": "Why does warm water vapor rise into the upper atmosphere after evaporating from the sea?",
+     "a": "Warm water vapor rises because heating makes the air and vapor less dense, causing it to ascend through convection currents. A wrong answer stating that vapor rises because \"light things always float upward without any force or heat\" shows a misconception that ignores the role of density differences caused by thermal expansion and convection.",
+     "self_check": true
+    },
+    {
+     "q": "If a pan of water with an initial mass of $500\\ g$ loses $120\\ g$ of water due to solar evaporation over $4\\ hours$, what is the average rate of evaporation in grams per hour ($g/h$)?",
+     "a": "Steps: 1. Identify given values: Total mass evaporated ($m = 120\\ g$), Total time ($t = 4\\ h$). 2. Identify formula: Rate = $m / t$. 3. Substitute values: Rate = $120\\ g / 4\\ h$. 4. Compute: $30\\ g/h$. A wrong answer like $500 / 4 = 125\\ g/h$ reveals that the student used the initial total mass instead of the mass that actually evaporated.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the heat transfer process happening during the evaporation of surface water with the process happening during cloud formation high in the sky.",
+     "a": "During evaporation at the surface, liquid water absorbs heat energy from the surroundings to turn into vapor. Conversely, during cloud formation (condensation) high in the sky, water vapor cools down and releases heat energy into the atmosphere. A wrong answer claiming that both processes absorb heat shows confusion between vaporization (which absorbs heat) and condensation (which releases heat).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that clouds float in the sky because they are made of gas that is naturally lighter than air. Evaluate this statement based on heat transfer and states of matter.",
+     "a": "The statement is incorrect because clouds are not made of gas; they are composed of tiny liquid water droplets and ice crystals formed when water vapor condenses. They stay aloft temporarily because rising convection currents of warm air support these microscopic droplets against gravity. A wrong answer accepting the student's claim shows a failure to recognize that phase change produces liquid droplets, not a lighter-than-air gas.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple model using everyday kitchen items to demonstrate both evaporation (driven by heat) and condensation in a closed container.",
+     "a": "A good design involves placing a small bowl of warm colored water inside a larger, wide bowl, covering the top tightly with plastic wrap, and placing a small pebble in the center of the plastic wrap right above the small bowl. When placed in sunlight, radiation heats the water, causing evaporation; the vapor rises, hits the cool plastic wrap (condensation), and drips back down into the bowl like rain. A poor design omits the heat source or the cooling surface, showing a lack of understanding of how phase change requires both thermal energy input and removal.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_01_009",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_01_009",
+   "title": "c12_eco_cbse_01_009",
+   "questions": [
+    {
+     "q": "In the two-sector circular flow model, which of the following represents a real flow from households to firms?\nA) Wages paid to workers\nB) Consumption expenditure on goods\nC) Labour services supplied by workers\nD) Profit earned by entrepreneurs",
+     "a": "Correct answer: C) Labour services supplied by workers. Real flows are physical movements of factor services (labour, land, capital, entrepreneurship) from households to firms, and goods/services from firms to households. Wages (A) and profit (D) are money flows (factor payments) from firms to households. Consumption expenditure (B) is a money flow from households to firms. A wrong answer reveals confusion between real flows (physical) and money flows (monetary), or confusion about direction — students often think \"payment for labour\" is the real flow rather than the labour service itself.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why, in a simple two-sector economy with no savings, the total value of real flow from firms to households must equal the total value of money flow from households to firms.",
+     "a": "Correct answer: In a two-sector model with no savings, all income received by households (factor payments = money flow from firms to households) is spent on consumption (money flow from households to firms). This consumption expenditure purchases the entire output of goods/services (real flow from firms to households). Since every rupee of output value is paid as factor income and every rupee of factor income is spent on output, the monetary value of real flow (output) equals money flow (consumption expenditure). A wrong answer reveals the student thinks money flow and real flow are independent, or doesn't grasp that factor payments = factor incomes = consumption expenditure = value of output in this closed model.",
+     "self_check": true
+    },
+    {
+     "q": "A firm produces 10,000 units of a good at ₹50 per unit. It pays ₹2,00,000 as wages, ₹1,50,000 as rent, ₹1,00,000 as interest, and the rest as profit. Calculate the profit paid to entrepreneurs and verify that total factor payments equal the value of output.",
+     "a": "Step 1: Value of output = 10,000 units × ₹50 = ₹5,00,000.\nStep 2: Total factor payments (wages + rent + interest) = ₹2,00,000 + ₹1,50,000 + ₹1,00,000 = ₹4,50,000.\nStep 3: Profit = Value of output − Total other factor payments = ₹5,00,000 − ₹4,50,000 = ₹50,000.\nStep 4: Total factor payments = ₹4,50,000 + ₹50,000 = ₹5,00,000 = Value of output. Verified.\nA wrong answer (e.g., calculating profit as ₹5,00,000 − ₹2,00,000 = ₹3,00,000) reveals the student forgot to include rent and interest, or doesn't understand that profit is a residual factor payment that ensures total factor payments equal output value.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the direction of real flow and money flow between households and firms in the circular flow diagram. Why do they flow in opposite directions?",
+     "a": "Correct answer: Real flow of factor services goes from households → firms; real flow of goods/services goes from firms → households. Money flow of factor payments goes from firms → households; money flow of consumption expenditure goes from households → firms. They are opposite because every transaction has two sides: when households supply labour (real flow), firms pay wages (money flow in opposite direction). When firms supply goods (real flow), households pay money (money flow in opposite direction). The real flow is the \"what\" being exchanged; the money flow is the \"payment\" for it — they are two sides of the same exchange, hence opposite directions. A wrong answer reveals the student thinks both flows go the same way (e.g., \"money follows goods\"), missing the fundamental principle that every exchange involves a quid pro quo.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"In the circular flow model, money flows are more important than real flows because money is what people actually use to buy things.\"",
+     "a": "Correct evaluation: The statement is incorrect. Real flows and money flows are equally important and interdependent — they represent the two sides of every transaction. Real flows (goods, services, factor services) represent the actual production and consumption that satisfy wants; money flows merely facilitate the exchange. Without real flows, money flows would have no purpose (nothing to buy). Without money flows, barter would be needed (double coincidence of wants problem). In the circular flow, they are simultaneous and of equal magnitude. A wrong evaluation reveals the student prioritizes the monetary/financial aspect over the real economic activity, a common error when students confuse nominal values with real welfare.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a circular flow diagram for a simple economy where households own all factors of production and firms produce only one good: wheat. Label all four factor payments and both real flows. Then explain what happens to the circular flow if households decide to save ₹10,000 of their income.",
+     "a": "Expected diagram: Two circles labeled \"Households\" and \"Firms\". Arrows: Households → Firms labeled \"Factor services (land, labour, capital, entrepreneurship)\" [Real flow]; Firms → Households labeled \"Wheat (goods)\" [Real flow]; Firms → Households labeled \"Rent, Wages, Interest, Profit\" [Money flow]; Households → Firms labeled \"Consumption expenditure\" [Money flow]. Explanation: If households save ₹10,000, consumption expenditure falls by ₹10,000. Firms receive less revenue, so they cannot pay the full ₹10,000 in factor payments. Factor incomes fall, leading to further reduction in consumption — the circular flow shrinks. This leakage (saving) breaks the equality of real and money flows unless matched by an injection (investment). A poor answer draws the diagram incorrectly (wrong directions, missing factor payments) or says \"saving doesn't affect the circular flow\" — revealing the student doesn't yet grasp leakages/injections (covered in next node).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_07_013",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_07_013",
+   "title": "c11_chem_cbse_07_013",
+   "questions": [
+    {
+     "q": "Define a buffer solution and give one example each of an acidic buffer and a basic buffer with their chemical formulas.",
+     "a": "A buffer solution resists pH change upon addition of small amounts of acid/base or dilution. Acidic buffer: CH₃COOH (weak acid) and CH₃COONa (salt of its conjugate base). Basic buffer: NH₄OH (weak base) and NH₄Cl (salt of its conjugate acid). A wrong answer (e.g., citing strong acid + salt like HCl/NaCl) reveals confusion between strong and weak electrolytes and the necessity of a conjugate pair.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a mixture of HCl and NaCl does NOT act as a buffer, while CH₃COOH and CH₃COONa does. Use the concept of equilibrium and conjugate pairs.",
+     "a": "HCl is a strong acid, fully dissociated; no equilibrium exists to shift upon adding acid/base. CH₃COOH is a weak acid with equilibrium CH₃COOH ⇌ H⁺ + CH₃COO⁻. Adding CH₃COONa provides common-ion CH₃COO⁻, shifting equilibrium left (Le Chatelier). When H⁺ is added, it combines with CH₃COO⁻; when OH⁻ is added, it reacts with CH₃COOH. A wrong answer indicates failure to distinguish strong vs weak acid equilibrium and the role of the conjugate base.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the pH of a buffer solution containing 0.10 M CH₃COOH and 0.15 M CH₃COONa. Given Kₐ for CH₃COOH = 1.8 × 10⁻⁵ at 298 K.",
+     "a": "Step 1: pKₐ = -log(1.8 × 10⁻⁵) = 4.7447. Step 2: Use Henderson-Hasselbalch: pH = pKₐ + log([salt]/[acid]) = 4.7447 + log(0.15/0.10) = 4.7447 + log(1.5) = 4.7447 + 0.1761 = 4.92. A wrong answer (e.g., using [acid]/[salt] or forgetting log) reveals algebraic errors or misunderstanding the ratio.",
+     "self_check": true
+    },
+    {
+     "q": "A buffer is prepared by mixing 100 mL of 0.2 M NH₄OH (K_b = 1.8 × 10⁻⁵) with 50 mL of 0.2 M NH₄Cl. Compare its pH with a buffer made from 100 mL of 0.2 M NH₄OH and 100 mL of 0.2 M NH₄Cl. Which has higher pH and why?",
+     "a": "First buffer: total volume 150 mL. [NH₄OH] = (0.2×100)/150 = 0.133 M; [NH₄Cl] = (0.2×50)/150 = 0.0667 M. Ratio [salt]/[base] = 0.5. Second buffer: total volume 200 mL. [NH₄OH] = 0.1 M; [NH₄Cl] = 0.1 M. Ratio = 1. pOH = pK_b + log([salt]/[base]). pK_b = 4.74. First buffer pOH = 4.74 + log(0.5) = 4.44 → pH = 9.56. Second buffer pOH = 4.74 + log(1) = 4.74 → pH = 9.26. First buffer has higher pH because lower [salt]/[base] ratio means less common-ion suppression, so [OH⁻] is higher. A wrong comparison shows inability to handle dilution and ratio simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Adding 0.01 mol HCl to 1 L of a buffer (0.1 M CH₃COOH / 0.1 M CH₃COONa) will change the pH by the same amount as adding 0.01 mol NaOH.\" Evaluate this claim quantitatively.",
+     "a": "Initial pH = pKₐ + log(0.1/0.1) = 4.74. After adding 0.01 mol HCl: reacts with CH₃COO⁻ → CH₃COOH. New [salt] = 0.09 M, [acid] = 0.11 M. pH = 4.74 + log(0.09/0.11) = 4.74 - 0.087 = 4.65. ΔpH = -0.09. After adding 0.01 mol NaOH: reacts with CH₃COOH → CH₃COO⁻. New [salt] = 0.11 M, [acid] = 0.09 M. pH = 4.74 + log(0.11/0.09) = 4.74 + 0.087 = 4.83. ΔpH = +0.09. Magnitude of change is equal (0.09) but directions opposite. The claim is correct in magnitude but the student must specify direction. A wrong evaluation (e.g., saying pH changes differently) reveals misunderstanding of stoichiometric symmetry in buffer reaction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a buffer of pH 5.0 using acetic acid (pKₐ = 4.74) and sodium acetate. Specify the required [CH₃COONa]/[CH₃COOH] ratio. If you have 500 mL of 0.2 M CH₃COOH, what mass of CH₃COONa·3H₂O (molar mass 136 g/mol) must be added? Assume volume change negligible.",
+     "a": "pH = pKₐ + log([salt]/[acid]) → 5.0 = 4.74 + log(ratio) → log(ratio) = 0.26 → ratio = 10^0.26 = 1.82. [salt] = 1.82 × 0.2 = 0.364 M. Moles needed = 0.364 × 0.5 = 0.182 mol. Mass = 0.182 × 136 = 24.75 g. A poor answer (e.g., ratio = 0.55 or mass calculation error) reveals inability to invert log, handle stoichiometry, or apply molar mass of hydrate.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

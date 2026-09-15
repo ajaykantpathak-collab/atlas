@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_07_007",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_07_007",
+   "title": "c12_ip_cbse_07_007",
+   "questions": [
+    {
+     "q": "What does the padlock icon in the browser address bar actually guarantee about a website?",
+     "a": "The padlock only guarantees that the connection between your browser and the server is encrypted via TLS and that the server presented a certificate valid for that domain. It does NOT guarantee the site is legitimate, malware-free, or operated by the organisation it claims to represent. A phishing site with a valid Let's Encrypt certificate for \"paypal-security-update.com\" will show a padlock. A wrong answer (e.g., \"padlock means the site is safe/genuine\") reveals the student conflates encryption with identity assurance — a critical confusion exploited by phishing campaigns.",
+     "self_check": true
+    },
+    {
+     "q": "A user sees \"https://www.amazon.com.attacker-site.com/\" in the address bar with a valid padlock. Explain why this is still a phishing attempt despite HTTPS.",
+     "a": "The registered domain is \"attacker-site.com\" (the rightmost two labels before the TLD). \"amazon.com\" here is merely a subdomain controlled by the attacker. The certificate is valid for \"attacker-site.com\" or its subdomains, so the padlock appears. The student must understand DNS hierarchy: browsers highlight the registered domain (e.g., Chrome shows \"attacker-site.com\" in bold), but users often read left-to-right and stop at \"amazon.com\". A wrong answer focusing only on \"HTTPS is present\" shows failure to parse domain structure — the single most exploited visual trick in phishing.",
+     "self_check": true
+    },
+    {
+     "q": "You receive an email with a link shortened via bit.ly. Describe a safe, step-by-step method to inspect the true destination without clicking the link.",
+     "a": "Step 1: Copy the shortened URL (do not click). Step 2: Use a URL expander service (e.g., checkshorturl.com, urlex.org) or browser extension that reveals the final destination after following redirects. Step 3: Analyse the expanded URL for domain legitimacy (registered domain, subdomains, TLD). Step 4: Optionally, check the domain's age via WHOIS (new domains <30 days are high-risk). Step 5: If the expanded URL points to a known legitimate domain (e.g., amazon.in) but the email context is unsolicited, verify independently by navigating manually. A wrong answer like \"click and see where it goes\" or \"trust the sender\" reveals dangerous impulsivity and ignorance of redirect chains.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: a certificate issued by DigiCert (EV) for \"hdfcbank.com\" vs. a certificate issued by Let's Encrypt (DV) for \"hdfcbank.com\". What does each prove, and what does neither prove?",
+     "a": "Both prove the certificate holder controls the domain \"hdfcbank.com\" (Domain Validation). The EV certificate additionally proves the legal entity \"HDFC Bank Ltd.\" was verified via official records (Extended Validation), which browsers may display as a green/organisation bar. Neither proves the site is free of vulnerabilities, malware, or that the business practices are ethical. A wrong answer claiming \"EV means the site is 100% safe\" or \"Let's Encrypt is insecure\" shows misunderstanding of validation levels vs. operational security — a nuance tested in board case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"If I only visit websites with HTTPS, I don't need to worry about certificates or suspicious links.\" Evaluate this claim with three specific counterexamples.",
+     "a": "Counterexample 1: Phishing sites routinely use valid HTTPS certificates (Let's Encrypt issues them free for any domain the attacker controls). Counterexample 2: A legitimate site with HTTPS can be compromised (e.g., supply-chain attack injecting malicious JS) — the certificate remains valid. Counterexample 3: Homograph attacks (e.g., \"аmazon.com\" with Cyrillic 'а') obtain valid certificates for the spoofed domain. The claim fails because HTTPS only secures the channel, not the destination's intent or integrity. A weak evaluation (e.g., \"HTTPS is not enough\" without examples) shows inability to apply threat modelling — a key competency for board and CUET.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-step \"Link Safety Checklist\" a Class 12 student can use on their phone before tapping any link received via WhatsApp/email. Each step must be actionable without technical tools.",
+     "a": "1. **Context Check**: Is the message unsolicited, urgent, threatening, or offering unrealistic rewards? (Social engineering red flag) 2. **Sender Verification**: Does the sender's email/phone match the official contact? (Check independently, not via reply) 3. **Domain Inspection**: Long-press link → \"Copy link address\" → paste in notes. Identify the registered domain (rightmost two labels). Does it match the claimed organisation exactly? 4. **Subdomain/Path Scan**: Look for deceptive subdomains (e.g., \"sbi.attacker.com\"), misspellings (paypa1.com), or suspicious paths (/login, /verify, /update). 5. **Manual Navigation**: If unsure, open browser and type the known official URL (e.g., sbi.co.in) manually. A poor answer lists generic advice (\"be careful\") without concrete, ordered steps — indicating the student hasn't internalised a repeatable procedure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

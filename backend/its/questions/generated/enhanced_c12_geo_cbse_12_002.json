@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_12_002",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_12_002",
+   "title": "c12_geo_cbse_12_002",
+   "questions": [
+    {
+     "q": "Name the three Himalayan river systems that together account for 60% of India's total surface water resources, and state the approximate percentage of the country's total area covered by their combined catchments.",
+     "a": "Correct answer: The Ganga, Brahmaputra, and Barak (Meghna) river systems together account for 60% of India's surface water resources while their combined catchments cover about one-third (33%) of the country's total area. A wrong answer (e.g., naming Indus instead of Barak, or stating 50% area) reveals the student has not internalised the NCERT's explicit linkage between high orographic rainfall in the eastern Himalayan catchments and disproportionate water yield — a key board exam fact.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Godavari, Krishna, and Kaveri basins have had much of their annual water flow harnessed, while the Brahmaputra and Ganga basins remain relatively under-utilised, despite the latter having larger water resources.",
+     "a": "Correct answer: Peninsular rivers flow through hard rock terrain with steep gradients, allowing dam construction at favourable sites; their seasonal flow necessitates storage for dry-season use, driving early harnessing. Himalayan rivers carry enormous sediment loads, flow through seismically active zones, have braided channels in plains, and face transboundary complexities (Brahmaputra: China, Bangladesh; Ganga: Nepal, Bangladesh), making large storage projects technically and politically difficult. A wrong answer focusing only on \"water availability\" misses the geomorphological and geopolitical constraints central to Class 12 analysis.",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of India, the Ambala-Saharanpur water divide separates the Indus and Ganga drainage basins. If a raindrop falls 10 km north of this divide, trace its complete surface flow path to the sea, naming every major river and tributary it joins, and identify the final water body.",
+     "a": "Correct trace: Raindrop → surface runoff → seasonal stream → Ghaggar river (or Markanda/Saraswati tributaries) → joins Indus system via Sutlej → Indus main stem → Arabian Sea (near Karachi). Steps: (1) Locate divide on map (2) Identify northward slope toward Indus basin (3) Recall Ghaggar is an inland drainage stream that historically fed Sutlej (4) Follow Sutlej → Indus. A wrong path sending water to Yamuna/Ganga reveals confusion about the divide's location — a common map-work error in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the catchment characteristics of the Narmada and Tapi rivers with those of the Mahanadi and Godavari. Why do the former flow west into the Arabian Sea while the latter flow east into the Bay of Bengal, despite all originating in the Central Indian highlands?",
+     "a": "Correct analysis: Narmada and Tapi originate on the western flanks of the Maikal/Amarkantak hills and Satpura range, flowing through linear rift valleys (graben structures) bounded by faults — a structural control from Mesozoic rifting. Mahanadi and Godavari originate on eastern flanks of the same highlands but flow across the Deccan Plateau's regional eastward tilt (established by Cretaceous-Paleogene uplift of the Western Ghats). The Western Ghats act as the primary water divide. A wrong answer citing \"slope\" without mentioning rift valleys vs regional tilt misses the tectonic control — a JEE/NEET geography crossover concept.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Brahmaputra basin has the highest water yield per unit catchment area among all Indian river basins.\" Use NCERT data on catchment area, annual flow, and rainfall distribution to justify your evaluation.",
+     "a": "Correct evaluation: The statement is TRUE. Brahmaputra catchment (in India) receives 3000-5000 mm annual rainfall (highest in India), has steep gradients, dense forest cover reducing infiltration, and minimal evaporation loss due to cloud cover. Its Indian catchment (~194,000 km²) contributes ~537 km³ annual flow (within India), yielding ~2.77 million m³/km² — higher than Ganga (~1.1) or Godavari (~0.9). A wrong evaluation ignoring the \"within India\" qualification (total Brahmaputra basin extends into Tibet) or using total basin area without rainfall weighting shows inability to handle transboundary hydrology nuances.",
+     "self_check": true
+    },
+    {
+     "q": "Design a schematic cross-section (west-to-east) across Peninsular India at 16°N latitude showing: (a) the Western Ghats water divide, (b) westward-flowing Narmada/Tapi in rift valleys, (c) eastward-flowing Godavari/Krishna across the Deccan Plateau, (d) the Eastern Ghats discontinuity, and (e) the Bay of Bengal. Annotate with geological controls on drainage direction.",
+     "a": "Good answer criteria: Cross-section shows asymmetric profile — steep Western Ghats escarpment (1000-1500 m), narrow coastal plain, Narmada/Tapi in deep graben valleys (rift faults annotated), broad Deccan Plateau gently dipping east (0.5°-1°), Godavari/Krishna valleys incised into basalt, Eastern Ghats as low discontinuous hills (300-600 m), wide eastern coastal plain. Annotations: \"Western Ghats: Cenozoic uplift → primary divide\", \"Narmada/Tapi: Mesozoic rift faults → structural control\", \"Deccan: Regional eastward tilt → consequent drainage\", \"Eastern Ghats: Ancient relict mountains → no barrier\". Poor answer draws symmetric profile or misses rift valley annotation — reveals lack of structural geology integration.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

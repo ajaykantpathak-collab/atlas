@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_04_005",
+   "title": "c12_eco_cbse_04_005",
+   "questions": [
+    {
+     "q": "A firm in perfect competition faces a market price of ₹40 per unit. Its AVC curve reaches a minimum of ₹35 at 100 units, and its MC at 100 units is ₹35 (rising). Should the firm produce or shut down in the short run? State the decision rule.",
+     "a": "The firm should produce because P (₹40) > min AVC (₹35). The decision rule: produce if P ≥ min AVC; shut down if P < min AVC. A wrong answer (shut down) reveals the student confuses shutdown with negative profit — they think any loss means stopping, not realizing fixed costs are sunk and continuing reduces losses when P > AVC.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the portion of the MC curve below the minimum AVC is NOT part of the firm's short run supply curve, even though MC = MR holds at those points.",
+     "a": "Below min AVC, P < AVC, so TR < TVC. Producing would make losses exceed TFC (since Loss = TFC + TVC - TR > TFC). Shutting down limits losses to exactly TFC. A wrong answer (e.g., \"MC = MR still holds so it's supply\") reveals the student treats the FOC MR=MC as sufficient without checking the shutdown constraint — they miss that profit maximization requires both FOC and the condition that the firm prefers producing over shutting down.",
+     "self_check": true
+    },
+    {
+     "q": "A firm's cost functions are: TVC = 2Q² + 10Q, TFC = 200. The market price is ₹50. Calculate the profit-maximizing output, total revenue, total cost, and profit/loss. Should the firm produce or shut down?",
+     "a": "Step 1: MC = d(TVC)/dQ = 4Q + 10. Step 2: Set P = MC → 50 = 4Q + 10 → Q = 10. Step 3: Check shutdown: AVC = TVC/Q = 2Q + 10. At Q=10, AVC = 30. P=50 > 30 → produce. Step 4: TR = 50×10 = 500. TC = TVC+TFC = (2×100+100)+200 = 500. Profit = 0 (normal profit). A wrong output (e.g., Q=0) reveals the student forgot to check P vs AVC before applying P=MC, or miscalculated MC derivative.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two firms: Firm A has min AVC = ₹20, Firm B has min AVC = ₹30. Market price is ₹25. Which firm produces? Draw the supply curves for both on the same axes and explain the difference in their supply curve starting points.",
+     "a": "Firm A produces (P=25 > 20); Firm B shuts down (P=25 < 30). Firm A's supply curve starts at (Q_A_min, ₹20); Firm B's starts at (Q_B_min, ₹30). The supply curve is the MC curve above each firm's min AVC. A wrong answer (both produce or both shut down) reveals the student thinks market price alone determines production, ignoring firm-specific cost structures — they miss that shutdown point is firm-specific.",
+     "self_check": true
+    },
+    {
+     "q": "\"Since fixed costs are sunk in the short run, a profit-maximizing firm should ignore them completely when deciding how much to produce.\" Evaluate this statement. Is it fully correct, partially correct, or incorrect? Justify.",
+     "a": "Partially correct. Fixed costs are irrelevant for the OUTPUT decision (how much to produce, given P=MC), but they determine whether the firm stays in the industry in the long run and affect total profit calculation. The statement is wrong if interpreted as \"fixed costs don't matter at all\" — they matter for entry/exit and accounting profit. A student calling it \"fully correct\" reveals they conflate short-run production decision with long-run viability; calling it \"incorrect\" reveals they think fixed costs affect marginal decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a numerical example where a firm incurs losses in the short run but continues to produce. Specify TFC, TVC function, market price, and show that producing reduces losses compared to shutting down.",
+     "a": "Example: TFC = 100, TVC = Q² + 5Q, P = 15. MC = 2Q+5. P=MC → 15=2Q+5 → Q=5. AVC = Q+5 = 10 at Q=5. P=15 > AVC=10 → produce. TR=75, TVC=50, TFC=100. Loss producing = 100+50-75 = 75. Loss shutting down = TFC = 100. Producing reduces loss by 25. A poor answer (e.g., showing profit) reveals the student cannot construct a loss-making-yet-producing scenario, missing the core insight that covering variable costs + part of fixed costs is better than covering none.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

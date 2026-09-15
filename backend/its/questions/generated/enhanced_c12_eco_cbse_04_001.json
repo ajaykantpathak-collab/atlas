@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_04_001",
+   "title": "c12_eco_cbse_04_001",
+   "questions": [
+    {
+     "q": "State any four features of a perfectly competitive market.",
+     "a": "The four features are: (1) Large number of buyers and sellers, (2) Homogeneous product, (3) Free entry and exit of firms, (4) Perfect knowledge. A wrong answer (e.g., mentioning differentiated products or barriers to entry) reveals that the student confuses perfect competition with monopolistic competition or monopoly, and has not memorised the exact NCERT list of assumptions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the demand curve faced by an individual firm under perfect competition is perfectly elastic (horizontal), while the market demand curve is downward sloping.",
+     "a": "The market demand curve is downward sloping because as price falls, total quantity demanded in the market rises. However, an individual firm is so small relative to the market that its output decision does not affect the market price. It can sell any quantity at the prevailing market price, but cannot sell anything at a higher price (buyers would switch to other identical sellers) and has no incentive to charge a lower price (it can already sell all it wants at the market price). Hence its demand curve is horizontal at the market price. A wrong answer (e.g., saying the firm's demand curve is also downward sloping) shows the student does not grasp the distinction between firm-level and market-level demand, a critical concept for later revenue and equilibrium analysis.",
+     "self_check": true
+    },
+    {
+     "q": "In a perfectly competitive market for rice, the market price is ₹20 per kg. A farmer (a price-taking firm) currently produces 100 kg. If the farmer tries to sell at ₹21 per kg, what will happen to his sales? If he lowers the price to ₹19 per kg, what happens to his revenue? Calculate the revenue in both scenarios assuming he can sell all 100 kg at the market price.",
+     "a": "At ₹21/kg: sales drop to zero because buyers can purchase identical rice from other farmers at ₹20/kg. Revenue = ₹0. At ₹19/kg: he can sell all 100 kg, but revenue = 100 × ₹19 = ₹1,900, which is less than the ₹2,000 he would earn at the market price (100 × ₹20). There is no gain from lowering the price. A wrong answer (e.g., saying he sells some at ₹21 or that lowering price increases revenue) indicates the student misunderstands the price-taker assumption and the horizontal demand curve.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the feature \"free entry and exit\" in perfect competition with \"barriers to entry\" in monopoly. How does this difference affect long-run profitability? (No calculations needed, only qualitative reasoning.)",
+     "a": "In perfect competition, free entry and exit mean that if firms earn supernormal profits in the short run, new firms enter, increasing market supply, driving down price until only normal profits remain. If firms incur losses, some exit, reducing supply, raising price until normal profits are restored. In monopoly, barriers to entry prevent new firms from entering, so the monopolist can sustain supernormal profits in the long run. A wrong answer (e.g., saying perfect competition also allows long-run supernormal profits) shows the student misses the dynamic role of entry/exit, which is essential for understanding long-run equilibrium in later nodes.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The assumption of perfect knowledge in perfect competition is unrealistic and therefore the model is useless for policy analysis.\" Provide two arguments for and two against this view.",
+     "a": "For: (1) Real markets have asymmetric information (e.g., sellers know more about product quality than buyers), so perfect knowledge is an idealisation. (2) Transaction costs and search costs exist, violating perfect knowledge. Against: (1) The model serves as a benchmark to measure market efficiency; deviations from perfect competition (like information asymmetry) can be analysed as market failures. (2) Many agricultural and financial markets approximate perfect knowledge closely enough for the model to give useful predictions (e.g., price-taking behaviour). A weak answer (e.g., only saying \"it's unrealistic\" without nuance) shows the student cannot evaluate economic models critically, a skill needed for board case-based questions and competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple real-world example of a market that closely resembles perfect competition in India. List the features it satisfies and the ones it likely violates. Explain why it is still useful to study the perfect competition model for this market.",
+     "a": "Example: A local vegetable market (mandi) for a standard variety of onions. Satisfies: many buyers and sellers, homogeneous product (same grade onions), relatively free entry/exit (small farmers and traders can join/leave), low transport costs within the area. Violates: perfect knowledge (buyers may not know all prices instantly), some transport costs, possible government regulations (e.g., APMC rules). The model is still useful because it predicts that prices will be uniform across the market and that no single seller can influence price, which broadly holds. A poor answer (e.g., picking a branded product market) shows the student cannot apply the abstract assumptions to concrete Indian contexts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

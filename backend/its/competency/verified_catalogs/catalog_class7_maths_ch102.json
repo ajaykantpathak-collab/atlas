@@ -1,0 +1,465 @@
+{
+ "class": 7,
+ "subject": "maths",
+ "chapter": 102,
+ "chapter_title": "Arithmetic Expressions",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gegp102.txt",
+ "concepts": [
+  {
+   "id": "gegp.2.1.1",
+   "title": "Arithmetic Expressions and Values",
+   "section": "2.1",
+   "definition": "Mathematical phrases like 13 + 2, 20 \u2013 4, 12 \u00d7 5, and 18 \u00f7 3 are called arithmetic expressions. Every arithmetic expression has a value which is the number it evaluates to.",
+   "formula": "expression = value",
+   "key_idea": "An expression is a sequence of numbers and operations that results in a single numerical value.",
+   "textbook_ref": "gegp102.txt lines 5-15",
+   "question_patterns": [
+    "find the value of the expression",
+    "evaluate the arithmetic expression",
+    "what is the value of",
+    "calculate the result of the expression",
+    "explain arithmetic expressions and values with an example",
+    "short note on arithmetic expressions and values",
+    "why is arithmetic expressions and values important",
+    "give one everyday example of arithmetic expressions and values",
+    "describe arithmetic expressions and values in your own words",
+    "what do you understand by arithmetic expressions and values",
+    "list the main points about arithmetic expressions and values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Perform the operations",
+     "explain": "Apply the arithmetic operators in the expression to find the result.",
+     "compute": "value = val1 + val2"
+    },
+    {
+     "step": 2,
+     "action": "Follow the order of operations",
+     "explain": "Evaluate multiplication and division before addition and subtraction to respect operator precedence.",
+     "compute": "value = (val1 * val2) + val3"
+    },
+    {
+     "step": 3,
+     "action": "Verify the final value",
+     "explain": "Recheck each operation to confirm the computed value is correct."
+    }
+   ]
+  },
+  {
+   "id": "gegp.2.1.2",
+   "title": "Comparing Expressions",
+   "section": "2.1",
+   "definition": "We compare expressionsput differently,  based on their values and write the \u2018equal to\u2019 (=), \u2018greater than\u2019 (>) or \u2018less than\u2019 (<) sign accordingly.",
+   "formula": "value_1 [=|<|>] value_2",
+   "key_idea": "Expressions are compared by evaluating their respective numerical values.",
+   "textbook_ref": "gegp102.txt lines 25-35",
+   "question_patterns": [
+    "compare the expressions using <, > or =",
+    "which expression is greater",
+    "is the expression ... equal to ...",
+    "arrange the expressions in ascending order",
+    "explain comparing expressions with an example",
+    "short note on comparing expressions",
+    "why is comparing expressions important",
+    "give one everyday example of comparing expressions",
+    "describe comparing expressions in your own words",
+    "what do you understand by comparing expressions",
+    "list the main points about comparing expressions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Evaluate LHS",
+     "explain": "Calculate the value of the expression on the left-hand side."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate RHS",
+     "explain": "Calculate the value of the expression on the right-hand side."
+    },
+    {
+     "step": 3,
+     "action": "Compare values",
+     "explain": "Determine if the first value is less than, greater than, or equal to the second."
+    }
+   ]
+  },
+  {
+   "id": "gegp.2.2.1",
+   "title": "Brackets in Expressions",
+   "section": "2.2",
+   "definition": "When evaluating anin short,  expression having brackets, we need to first find the values of the expressions inside the brackets before performing other operations.",
+   "formula": "a + (b * c)",
+   "key_idea": "Brackets specify the order of operations to resolve ambiguity.",
+   "textbook_ref": "gegp102.txt lines 105-115",
+   "question_patterns": [
+    "evaluate the expression with brackets",
+    "find the value of ... using brackets",
+    "solve the expression by evaluating the bracket first",
+    "calculate the result of a - (b + c)",
+    "explain brackets in expressions with an example",
+    "short note on brackets in expressions",
+    "why is brackets in expressions important",
+    "give one everyday example of brackets in expressions",
+    "describe brackets in expressions in your own words",
+    "what do you understand by brackets in expressions",
+    "list the main points about brackets in expressions"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Evaluate inside bracket",
+     "explain": "Find the value of the expression contained within the parentheses.",
+     "compute": "inner_val = val_b + val_c"
+    },
+    {
+     "step": 2,
+     "action": "Perform outer operation",
+     "explain": "Apply the remaining operation to the result of the bracket.",
+     "compute": "final_value = val_a - inner_val"
+    },
+    {
+     "step": 3,
+     "action": "Verify the result",
+     "explain": "Re-evaluate the full expression to confirm the bracketed and outer operations produce the correct value.",
+     "compute": "final_value = val_a - (val_b + val_c)"
+    }
+   ]
+  },
+  {
+   "id": "gegp.2.2.2",
+   "title": "Terms in Expressions",
+   "section": "2.2",
+   "definition": "Terms are the parts of an expression separated by a \u2018+\u2019 sign. Subtractions are converted to additions of the inverse to identify terms.",
+   "formula": "a - b = a + (-b)",
+   "key_idea": "Expressions are sums of terms; multiplication and division results are treated as single terms.",
+   "textbook_ref": "gegp102.txt lines 135-155",
+   "question_patterns": [
+    "identify the terms in the expression",
+    "write the expression as a sum of its terms",
+    "what are the terms of",
+    "break the expression into terms",
+    "explain terms in expressions with an example",
+    "short note on terms in expressions",
+    "why is terms in expressions important",
+    "give one everyday example of terms in expressions",
+    "describe terms in expressions in your own words",
+    "what do you understand by terms in expressions",
+    "list the main points about terms in expressions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Convert subtractions",
+     "explain": "Change all minus signs to plus signs followed by the negative of the number."
+    },
+    {
+     "step": 2,
+     "action": "Identify segments",
+     "explain": "List the parts of the expression separated by the plus signs."
+    },
+    {
+     "step": 3,
+     "action": "List each term",
+     "explain": "Write out every term as a separate component to confirm the expression is fully decomposed into its parts."
+    }
+   ]
+  },
+  {
+   "id": "gegp.2.2.3",
+   "title": "Commutative Property of Addition",
+   "section": "2.2",
+   "definition": "Swapping the terms does not change the sum. This is called the commutative property of addition.",
+   "formula": "term1 + term2 = term2 + term1",
+   "key_idea": "The order of terms in an addition expression does not affect the final value.",
+   "textbook_ref": "gegp102.txt lines 190-205",
+   "question_patterns": [
+    "verify the commutative property for",
+    "does swapping terms change the value of",
+    "show that a + b is equal to b + a",
+    "rearrange the terms and check the sum",
+    "explain commutative property of addition with an example",
+    "short note on commutative property of addition",
+    "why is commutative property of addition important",
+    "give one everyday example of commutative property of addition",
+    "describe commutative property of addition in your own words",
+    "what do you understand by commutative property of addition",
+    "list the main points about commutative property of addition"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate original sum",
+     "explain": "Add the terms in the given order."
+    },
+    {
+     "step": 2,
+     "action": "Calculate swapped sum",
+     "explain": "Swap the terms and add them again."
+    },
+    {
+     "step": 3,
+     "action": "Compare sums",
+     "explain": "Verify that both sums are identical."
+    }
+   ]
+  },
+  {
+   "id": "gegp.2.2.4",
+   "title": "Associative Property of Addition",
+   "section": "2.2",
+   "definition": "Grouping the terms of an expression in different ways gives the same value. This is called the associative property of addition.",
+   "formula": "(term1 + term2) + term3 = term1 + (term2 + term3)",
+   "key_idea": "The way terms are grouped in addition does not change the result.",
+   "textbook_ref": "gegp102.txt lines 215-230",
+   "question_patterns": [
+    "verify the associative property for",
+    "group the terms differently and find the sum",
+    "show that (a+b)+c = a+(b+c)",
+    "does changing the grouping change the value",
+    "explain associative property of addition with an example",
+    "short note on associative property of addition",
+    "why is associative property of addition important",
+    "give one everyday example of associative property of addition",
+    "describe associative property of addition in your own words",
+    "what do you understand by associative property of addition",
+    "list the main points about associative property of addition"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate first grouping",
+     "explain": "Sum the first two terms then add the third."
+    },
+    {
+     "step": 2,
+     "action": "Calculate second grouping",
+     "explain": "Sum the last two terms then add the first."
+    },
+    {
+     "step": 3,
+     "action": "Compare results",
+     "explain": "Confirm the values are equal."
+    }
+   ]
+  },
+  {
+   "id": "gegp.2.2.5",
+   "title": "Removing Brackets Preceded by a Negative Sign",
+   "section": "2.2",
+   "definition": "Upon removing thesimply put,  brackets preceded by a negative sign, the signs of the terms inside the brackets change.",
+   "formula": "a - (b + c) = a - b - c",
+   "key_idea": "A minus sign before a bracket acts on every term inside the bracket by flipping its sign.",
+   "textbook_ref": "gegp102.txt lines 300-320",
+   "question_patterns": [
+    "remove the brackets from the expression",
+    "simplify the expression by removing brackets",
+    "what happens to signs inside the bracket when preceded by a minus",
+    "calculate 100 - (15 + 56) without brackets",
+    "explain removing brackets preceded by a negative sign with an example",
+    "short note on removing brackets preceded by a negative sign",
+    "why is removing brackets preceded by a negative sign important",
+    "give one everyday example of removing brackets preceded by a negative sign",
+    "describe removing brackets preceded by a negative sign in your own words",
+    "what do you understand by removing brackets preceded by a negative sign",
+    "list the main points about removing brackets preceded by a negative sign"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Flip internal signs",
+     "explain": "Change positive terms to negative and negative terms to positive inside the bracket.",
+     "compute": "term_b_new = -1 * term_b"
+    },
+    {
+     "step": 2,
+     "action": "Remove bracket",
+     "explain": "Write the expression as a sum of the outer term and the modified inner terms.",
+     "compute": "term_c_new = -1 * term_c"
+    },
+    {
+     "step": 3,
+     "action": "Evaluate",
+     "explain": "Sum the resulting terms.",
+     "compute": "result = term_a + term_b_new + term_c_new"
+    }
+   ]
+  },
+  {
+   "id": "gegp.2.2.6",
+   "title": "Distributive Property",
+   "section": "2.2",
+   "definition": "The multiple of a sum (difference) is the same as the sum (difference) of the multiples. Also known as multiplying a number with an expression inside brackets.",
+   "formula": "a * (b + c) = a * b + a * c",
+   "key_idea": "Multiplication distributes over addition and subtraction.",
+   "textbook_ref": "gegp102.txt lines 415-430",
+   "question_patterns": [
+    "use distributive property to solve",
+    "calculate the product using (a + b) * c",
+    "expand the expression using distributive law",
+    "find 97 * 25 using (100 - 3) * 25",
+    "explain distributive property with an example",
+    "short note on distributive property",
+    "why is distributive property important",
+    "give one everyday example of distributive property",
+    "describe distributive property in your own words",
+    "what do you understand by distributive property",
+    "list the main points about distributive property"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply factor with first term",
+     "explain": "Distribute the multiplier to the first term inside the bracket.",
+     "compute": "prod1 = factor * term1"
+    },
+    {
+     "step": 2,
+     "action": "Multiply factor with second term",
+     "explain": "Distribute the multiplier to the second term inside the bracket.",
+     "compute": "prod2 = factor * term2"
+    },
+    {
+     "step": 3,
+     "action": "Sum or subtract products",
+     "explain": "Combine the results of the multiplications.",
+     "compute": "final_result = prod1 + prod2"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex4",
+   "source_ref": "gegp102.txt lines 90-100",
+   "concept": "gegp.2.2.1",
+   "question_type": "compute",
+   "question_pattern": "Mallesh brought {m_count} marbles. Arun brought {bag_count} bags with {per_bag} marbles each. How many total?",
+   "extracted_variables": {
+    "m_count": "initial marbles",
+    "bag_count": "number of bags",
+    "per_bag": "marbles per bag"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Evaluate multiplication first",
+     "explain": "Calculate marbles in bags: bag_count * per_bag",
+     "compute": "bag_total = bag_count * per_bag"
+    },
+    {
+     "step": 2,
+     "action": "Add to initial count",
+     "explain": "Total = m_count + bag_total",
+     "compute": "total = m_count + bag_total"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "gegp102.txt lines 115-130",
+   "concept": "gegp.2.2.5",
+   "question_type": "compute",
+   "question_pattern": "Irfan bought items for \u20b9{p1} and \u20b9{p2}. He gave \u20b9{paid}. Find the change.",
+   "extracted_variables": {
+    "p1": "price of item 1",
+    "p2": "price of item 2",
+    "paid": "amount given to shopkeeper"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sum the costs",
+     "explain": "Total cost = p1 + p2",
+     "compute": "total_cost = p1 + p2"
+    },
+    {
+     "step": 2,
+     "action": "Subtract from payment",
+     "explain": "Change = paid - total_cost",
+     "compute": "change = paid - total_cost"
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "gegp102.txt lines 445-455",
+   "concept": "gegp.2.2.6",
+   "question_type": "compute",
+   "question_pattern": "Evaluate {num1} * {num2} using distributive property.",
+   "extracted_variables": {
+    "num1": "first factor",
+    "num2": "second factor"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Rewrite factor",
+     "explain": "Express num1 as (100 - diff)",
+     "compute": "diff = 100 - num1"
+    },
+    {
+     "step": 2,
+     "action": "Distribute",
+     "explain": "100 * num2 - diff * num2",
+     "compute": "p1 = 100 * num2"
+    },
+    {
+     "step": 3,
+     "action": "Calculate second product",
+     "explain": "diff * num2",
+     "compute": "p2 = diff * num2"
+    },
+    {
+     "step": 4,
+     "action": "Subtract",
+     "explain": "p1 - p2",
+     "compute": "ans = p1 - p2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "gegp102.txt lines 45-55",
+   "questions": [
+    "13 + 4 = ____ + 6",
+    "22 + ____ = 6 \u00d7 5",
+    "8 \u00d7 ____ = 64 \u00f7 2",
+    "34 \u2013 ____ = 25"
+   ]
+  },
+  {
+   "id": "ex2.2",
+   "source_ref": "gegp102.txt lines 355-365",
+   "questions": [
+    "28 \u2013 7 + 8",
+    "39 \u2013 2 \u00d7 6 + 11",
+    "48 \u2013 10 \u00d7 2 + 16 \u00f7 2",
+    "6 \u00d7 3 \u2013 4 \u00d7 8 \u00d7 5"
+   ]
+  },
+  {
+   "id": "ex2.3",
+   "source_ref": "gegp102.txt lines 400-410",
+   "questions": [
+    "14 + (12 + 10)",
+    "14 \u2013 (12 + 10)",
+    "14 \u2013 (12 \u2013 10)",
+    "14 \u2013 (\u201312 \u2013 10)"
+   ]
+  }
+ ],
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)",
+ "source_link": "re-linked to new cache"
+}

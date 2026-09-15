@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_09_001",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_09_001",
+   "title": "c11_bio_cbse_09_001",
+   "questions": [
+    {
+     "q": "Define a reducing sugar and give one example each of a reducing monosaccharide and a reducing polysaccharide. Explain the structural feature that confers reducing property.",
+     "a": "A reducing sugar has a free anomeric carbon (C1 in aldoses, C2 in ketoses) capable of opening to a carbonyl group that reduces Fehling's/Benedict's reagent. Glucose (monosaccharide) and maltose (disaccharide) are reducing; starch and glycogen are reducing polysaccharides because their non-reducing ends have free anomeric carbons. A wrong answer (e.g., naming sucrose as reducing) reveals confusion between glycosidic bond involvement and free anomeric carbon availability.",
+     "self_check": true
+    },
+    {
+     "q": "Starch and cellulose are both polymers of glucose. Explain why humans can digest starch but not cellulose, referencing the specific glycosidic linkage and its consequence on molecular geometry.",
+     "a": "Starch has α-1,4-glycosidic bonds allowing helical coiling, which fits human amylase's active site. Cellulose has β-1,4-glycosidic bonds forcing linear, extended chains that form strong inter-chain hydrogen bonds, creating rigid microfibrils inaccessible to human amylase. A wrong answer (e.g., \"cellulose has different monomers\") shows failure to link bond stereochemistry to 3D structure and enzyme specificity.",
+     "self_check": true
+    },
+    {
+     "q": "A student tests four unknown solutions with iodine and Benedict's reagent. Solution A: blue-black with iodine, negative Benedict's. Solution B: no iodine color, positive Benedict's. Solution C: blue-black with iodine, positive Benedict's. Solution D: no color with either. Identify each as starch, glucose, glycogen, or cellulose. Justify.",
+     "a": "A = starch (helical traps iodine, non-reducing ends masked); B = glucose (free aldehyde reduces Benedict's, no helix for iodine); C = glycogen (highly branched → many non-reducing ends give positive Benedict's, helical regions trap iodine); D = cellulose (β-linkages prevent helix formation → no iodine color, reducing ends too few/accessible → negative Benedict's). Wrong mapping indicates inability to integrate two independent structural tests.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the biological roles of glycogen in animals and starch in plants. Why does glycogen have more frequent branching (α-1,6 every 8-12 residues) than amylopectin (every 24-30 residues)? Relate branching frequency to metabolic demand.",
+     "a": "Both are α-glucose energy stores. Glycogen's higher branching creates more non-reducing ends, allowing simultaneous glycogen phosphorylase action for rapid glucose release during fight-or-flight (high metabolic rate). Plants mobilize starch slower (lower metabolic demand). A wrong answer missing the kinetic advantage of branching shows superficial understanding of structure-function adaptation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Chitin is functionally analogous to cellulose, not starch.\" Support with structural evidence from glycosidic linkage and substituent groups.",
+     "a": "True. Chitin (β-1,4-linked N-acetylglucosamine) and cellulose (β-1,4-linked glucose) both form extended, hydrogen-bonded linear chains providing tensile strength in exoskeletons and cell walls respectively. Starch (α-1,4/α-1,6) is branched/helical for compact storage. A wrong evaluation (e.g., grouping chitin with starch because both contain nitrogen) ignores the decisive role of β-linkage in structural rigidity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only iodine solution, Benedict's reagent, and salivary amylase to distinguish between starch, glycogen, and cellulose. Write the expected observations in a table.",
+     "a": "| Sample | Iodine test | Benedict's (before amylase) | Benedict's (after amylase incubation) |\n|--------|-------------|-----------------------------|---------------------------------------|\n| Starch | Blue-black  | Negative                    | Positive (hydrolyzed to maltose)      |\n| Glycogen | Red-brown  | Positive (many ends)        | Stronger positive                     |\n| Cellulose | No color   | Negative                    | Negative (no hydrolysis)              |\nPoor design (e.g., omitting amylase control) reveals inability to use enzymatic specificity as a diagnostic tool.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

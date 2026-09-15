@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_06_003",
+   "title": "c11_hs_cbse_06_003",
+   "questions": [
+    {
+     "q": "A student says, \"Writing a diary entry every night is inter-personal communication because I am expressing my feelings to the diary.\" Is this correct? Identify the level of communication and justify your answer in two sentences.",
+     "a": "Correct answer: No, it is intra-personal communication. The diary is not a separate person capable of reciprocal feedback; the writer is both sender and receiver, engaging in self-reflection. A wrong answer (calling it inter-personal) reveals the student confuses \"expressing to an object\" with \"interacting with a person,\" missing the core criterion of a living receiver who can respond.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a doctor-patient consultation in a private clinic is classified as inter-personal communication, but the same doctor addressing 50 villagers at a health camp is NOT inter-personal communication. Use the terms \"feedback immediacy\" and \"participant structure\" in your explanation.",
+     "a": "Correct answer: In the clinic, two participants exchange messages with instantaneous verbal and non-verbal feedback (feedback immediacy) in a dyadic structure. At the health camp, one sender faces many receivers; feedback is delayed, filtered, or collective, not dyadic (participant structure is one-to-many). A wrong answer that focuses only on \"face-to-face\" without distinguishing dyadic vs. one-to-many structure shows the student hasn't internalised participant count as a defining boundary.",
+     "self_check": true
+    },
+    {
+     "q": "Your school's Eco Club (12 members) meets to plan a tree-plantation drive. During the meeting, three sub-groups form: one discusses sapling sourcing, another designs posters, a third coordinates permissions. Classify the communication level of (a) the full club meeting, (b) each sub-group discussion, and (c) a member mentally rehearsing her poster slogan before speaking. Justify each in one sentence.",
+     "a": "(a) Full club meeting: group communication—12 members, shared goal, structured turn-taking. (b) Sub-group discussions: group communication—each has 3-4 members collaborating on a sub-task with mutual feedback. (c) Mental rehearsal: intra-personal communication—single individual processing internally, no external receiver. A wrong answer that labels (b) as inter-personal because \"only 3 people\" reveals the student uses a rigid headcount threshold instead of the defining feature: collaborative goal with multi-directional feedback among all members.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of non-verbal cues (eye contact, posture, facial expression) in inter-personal vs. group communication. Why does the NCERT text state inter-personal communication is \"the most effective and ideal type\" for persuasion, while group communication \"augments one's status in the group\"? Analyse using the concepts of feedback density and social presence.",
+     "a": "In inter-personal communication, high feedback density (instant, continuous non-verbal cues from one person) and high social presence (undivided attention) allow real-time adjustment for persuasion. In group communication, feedback density is distributed across multiple sources (lower per-person intensity) and social presence is shared; effectiveness shifts from dyadic persuasion to collective influence where contributing visibly raises status. A wrong answer that claims \"non-verbal cues don't matter in groups\" or \"persuasion is impossible in groups\" shows failure to analyse how the same cues function differently when receiver count changes.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher claims: \"Group communication is just multiple inter-personal communications happening at once.\" Evaluate this claim. Is it accurate? Defend your position with two distinct arguments referencing interaction pattern and decision-making outcome.",
+     "a": "The claim is inaccurate. Argument 1: Interaction pattern—inter-personal is dyadic (A↔B), group is networked (A↔B, A↔C, B↔C simultaneously), creating emergent dynamics like coalition-building and conformity pressure absent in dyads. Argument 2: Decision-making outcome—inter-personal yields mutual agreement or compromise between two; group yields collective decisions (consensus, majority vote) that bind all members, requiring facilitation skills irrelevant in dyads. A wrong answer agreeing with the claim reveals the student overlooks emergent properties of multi-party systems.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-minute classroom activity that makes students experience the shift from intra-personal → inter-personal → group communication on the same topic (e.g., \"Should homework be banned?\"). Describe the activity steps and the specific observation each student must record at each level to prove they experienced the difference.",
+     "a": "Activity: Step 1 (Intra-personal): 60 seconds silent written reflection—students list 3 personal reasons for/against. Observation: \"What changed in my reasoning when I had to write it down?\" Step 2 (Inter-personal): Pair up, 60 seconds each to persuade partner using only verbal cues. Observation: \"Which non-verbal cue from my partner made me modify my argument?\" Step 3 (Group): Form groups of 4, 60 seconds to reach a consensus statement. Observation: \"What decision rule did we use (vote, consensus, loudest voice) and how did it feel different from convincing one person?\" A poor answer that merges steps or uses vague observations (\"it was harder\") shows the student cannot operationalise the theoretical distinctions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

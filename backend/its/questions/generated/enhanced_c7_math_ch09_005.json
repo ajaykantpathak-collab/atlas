@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch09_005",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch09_005",
+   "title": "c7_math_ch09_005",
+   "questions": [
+    {
+     "q": "In $\\triangle ABC$ and $\\triangle PQR$, if $AB = PQ$, $BC = QR$, and $AC = PR$, which congruence criterion proves that $\\triangle ABC \\cong \\triangle PQR$? State the criterion name.",
+     "a": "The correct answer is the SSS (Side-Side-Side) congruence criterion. A wrong answer—such as guessing SAS or AAA—reveals that the student is confusing side conditions with angle conditions or has not learned to check which specific parts of the triangles are given as equal.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul claims that if two triangles have side lengths of 4 cm, 5 cm, and 6 cm respectively, they must be congruent, but their angles do not need to match in any specific order. Is Rahul correct? Explain why or why not.",
+     "a": "Rahul is incorrect regarding vertex correspondence; while the triangles are congruent, the congruence statement must match corresponding vertices correctly (e.g., if $\\triangle ABC$ has sides 4, 5, 6 corresponding to $\\triangle DEF$, then vertex $A$ must pair with vertex $D$ if side $BC$ matches $EF$). A wrong answer shows the student thinks congruence is only about having the same numbers without regard to the correct matching of vertices and angles (CPCTC).",
+     "self_check": true
+    },
+    {
+     "q": "In $\\triangle XYZ$ and $\\triangle LMN$, we are given $XY = 7\\text{ cm}$, $YZ = 9\\text{ cm}$, $XZ = 12\\text{ cm}$, and $LM = 7\\text{ cm}$, $MN = 9\\text{ cm}$, $LN = 12\\text{ cm}$. Write the correct correspondence statement for these two congruent triangles and state the length of $\\angle L$.",
+     "a": "Steps:\n1. Identify matching side lengths: $XY = LM = 7\\text{ cm}$, $YZ = MN = 9\\text{ cm}$, $XZ = LN = 12\\text{ cm}$.\n2. Match the vertices based on side lengths: Vertex $X$ corresponds to vertex $L$, vertex $Y$ to vertex $M$, and vertex $Z$ to vertex $N$.\n3. Write the congruence statement: $\\triangle XYZ \\cong \\triangle LMN$.\n4. Determine corresponding angles using CPCTC: $\\angle L$ corresponds to $\\angle X$. However, without numerical angle values given, we conclude $\\angle L = \\angle X$. (Wait, let us adapt: if $\\triangle XYZ$ has $\\angle X = 50^\\circ$, then $\\angle L = 50^\\circ$). Let us assume $\\angle X = 50^\\circ$ is given, so $\\angle L = 50^\\circ$.\nAnswer: $\\triangle XYZ \\cong \\triangle LMN$, and $\\angle L = 50^\\circ$. A wrong answer indicates the student mixed up vertex naming order (e.g., writing $\\triangle XYZ \\cong \\triangle NML$), ignoring how side lengths link directly to vertex positions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the SSS criterion with the concept of constructing triangles learned in Class 6 geometry. How does knowing three sides guarantee that not only the shape but also all three internal angles of the triangle are fixed?",
+     "a": "When three side lengths are fixed, the hinges at the vertices cannot move without bending or breaking the sides, locking the triangle into a rigid structure where only one set of interior angles can satisfy the side lengths (governed by trigonometry or geometric rigidity). A wrong answer shows the student views sides and angles as completely independent variables in a triangle rather than realizing side lengths rigidly determine angle measures.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"In $\\triangle ABC$ and $\\triangle DEF$, $AB = DE = 5\\text{ cm}$, $BC = EF = 7\\text{ cm}$, and $\\angle B = \\angle E = 60^\\circ$. Therefore, by SSS congruence, $\\triangle ABC \\cong \\triangle DEF$.\" Identify the error in the student's reasoning and correct it.",
+     "a": "The student made an error by citing the SSS criterion when they actually used two sides and an included angle ($\\angle B$ between $AB$ and $BC$). The correct criterion is SAS congruence, not SSS. A wrong answer reveals the student memorized acronyms without checking whether the given data represents three sides or two sides and an angle.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem set in an Indian school context (using courtyard measurements in metres) where two triangular garden beds are built with identical side lengths, and explain how a gardener uses SSS congruence to verify they are identical.",
+     "a": "Expected Answer: A gardener builds two triangular flower beds in a school courtyard. Bed 1 has side lengths 3 m, 4 m, and 5 m. Bed 2 has side lengths 3 m, 4 m, and 5 m. By measuring all three boundary lengths of both beds and confirming they are equal ($3 = 3$, $4 = 4$, $5 = 5$), the gardener applies the SSS criterion to conclude both beds have identical areas and corner angles, ensuring symmetrical landscaping. A poor answer fails to connect the physical measurement of three sides to the mathematical proof of congruence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_hist_ch1_5",
+ "concepts": [
+  {
+   "id": "enh:c9_hist_ch1_5",
+   "title": "c9_hist_ch1_5",
+   "questions": [
+    {
+     "q": "A student finds a terracotta figurine at a site. Which of the following can be *directly observed* without inference: (a) the figurine represents a mother goddess, (b) the figurine was made using a mould, (c) the figurine was used in fertility rituals, (d) the figurine proves the society was matriarchal?",
+     "a": "Correct answer: (b) the figurine was made using a mould. This can be directly observed through manufacturing marks (seam lines, uniform thickness). Options (a), (c), and (d) are *inferences* requiring interpretation of symbolism, ritual practice, and social structure — none directly visible on the object. A wrong answer reveals the student confuses direct physical evidence with interpretive claims, a fundamental error in source analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Why do archaeologists prefer *stratigraphic context* (the layer where an artefact is found) over the artefact's style alone for dating? Explain using the principle of superposition.",
+     "a": "Stratigraphy provides a *relative chronological sequence* based on the law of superposition: lower layers are older than upper layers (unless disturbed). An artefact's style can persist, be revived, or be imitated centuries later — a Gupta-style coin could be a later imitation. Stratigraphic context anchors the object in a depositional sequence independent of stylistic assumptions. A wrong answer suggests the student treats style as a direct chronological marker, ignoring issues of heirlooms, revivals, and contamination.",
+     "self_check": true
+    },
+    {
+     "q": "An inscription mentions a king \"Devaputra\" who \"ruled the four quarters.\" A coin from the same site bears the legend \"Maharaja Devaputra\" in Brahmi script. How would a historian *corroborate* these two sources to establish political authority? List the steps.",
+     "a": "Steps: (1) Verify both come from the same archaeological layer/context (contemporaneity). (2) Compare palaeography — do the Brahmi letter forms match the same period? (3) Check if \"Devaputra\" (son of god) is a known title (Kushana) or a generic claim. (4) Cross-reference with other inscriptions/coins naming the same ruler. (5) Assess whether \"four quarters\" reflects actual control or royal rhetoric. A wrong answer treats the inscription as literal truth without checking context, script evolution, or the gap between royal claims and ground reality.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the *limitations* of artefacts versus inscriptions for reconstructing: (a) ancient economy, (b) religious beliefs. Which source type is more reliable for each, and why?",
+     "a": "For economy: artefacts (coins, weights, seals, pottery distributions) provide *direct* evidence of trade networks, standardization, craft production — more reliable than inscriptions which often mention donations or taxes selectively. For religious beliefs: inscriptions (votive records, dedicatory texts) explicitly state intent, deity names, patronage — more reliable than artefacts (figurines, symbols) where ritual function is inferred. A wrong answer reverses this or claims both are equally reliable for everything, missing how source *genre* shapes what it can reveal.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Since the Harappan script is undeciphered, we know nothing about Harappan administration or political organisation.\" Use specific archaeological evidence to support your evaluation.",
+     "a": "The statement is *false*. Even without decipherment, we infer administration from: (1) standardised weights/measures across 1M km² implying central authority, (2) uniform brick ratios (4:2:1) suggesting regulated construction, (3) citadel/lower town division indicating social hierarchy, (4) seals with consistent motifs implying bureaucratic control of trade, (5) granaries at Harappa/Mohenjo-daro suggesting state redistribution. Undeciphered script limits *detail* but not *all* knowledge. A wrong answer equates \"no texts\" with \"no evidence,\" ignoring material proxies for political complexity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a research question a historian could investigate *only* by combining artefact distributions with inscriptional data from the Mauryan period. Explain why neither source alone would suffice.",
+     "a": "Example question: \"Did Ashoka's dhamma policy change the *actual* movement of goods across the empire, or only royal rhetoric?\" Artefacts (punch-marked coins, Northern Black Polished Ware pottery) show trade routes and intensity; inscriptions (Rock Edicts, pillar edicts) state policy intentions. Neither alone reveals *implementation*: artefacts don't record policy, inscriptions don't record ground-level trade volume. A poor question would be answerable by one source type (e.g., \"What titles did Ashoka use?\" — only inscriptions needed).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

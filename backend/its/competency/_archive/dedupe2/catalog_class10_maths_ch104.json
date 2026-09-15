@@ -1,0 +1,360 @@
+{
+ "class": 10,
+ "subject": "maths",
+ "chapter": 104,
+ "chapter_title": "Quadratic Equations",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jemh104.txt",
+ "concepts": [
+  {
+   "id": "jemh.4.2.1",
+   "title": "Standard Form of a Quadratic Equation",
+   "section": "4.2",
+   "definition": "A second-degree polynomial equation in a single variable, typically arranged with terms in descending order of their powers and equated to zero.",
+   "formula": "ax**2 + bx + c = 0",
+   "key_idea": "The equation must have a non-zero coefficient for the squared term.",
+   "textbook_ref": "jemh104.txt lines 38-85",
+   "question_patterns": [
+    "check whether the following are quadratic equations",
+    "write the equation in standard form",
+    "is the given equation a quadratic",
+    "simplify and identify the degree of the equation",
+    "represent the situation as a quadratic equation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "expand and simplify",
+     "explain": "Multiply all factors and combine like terms on both sides of the equality."
+    },
+    {
+     "step": 2,
+     "action": "rearrange to zero",
+     "explain": "Move all terms to the left-hand side so the right-hand side equals zero."
+    },
+    {
+     "step": 3,
+     "action": "check degree",
+     "explain": "Verify if the highest power of the variable is exactly 2 and the coefficient 'a' is not zero."
+    }
+   ]
+  },
+  {
+   "id": "jemh.4.3.1",
+   "title": "Roots of a Quadratic Equation",
+   "section": "4.3",
+   "definition": "Specific numerical values that, when substituted for the variable, make the quadratic expression equal to zero.",
+   "formula": "a * alpha**2 + b * alpha + c = 0",
+   "key_idea": "Roots of the equation are identical to the zeroes of the corresponding quadratic polynomial.",
+   "textbook_ref": "jemh104.txt lines 125-135",
+   "question_patterns": [
+    "verify if the given value is a root",
+    "check if x satisfies the quadratic equation",
+    "is the number a solution to the equation",
+    "show that the value is a zero of the quadratic"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitution",
+     "explain": "Replace the variable in the equation with the given numerical value."
+    },
+    {
+     "step": 2,
+     "action": "evaluate LHS",
+     "explain": "Calculate the numerical value of the expression on the left-hand side."
+    },
+    {
+     "step": 3,
+     "action": "compare with zero",
+     "explain": "If the result is zero, the value is a root; otherwise, it is not."
+    }
+   ]
+  },
+  {
+   "id": "jemh.4.3.2",
+   "title": "Solving by Factorisation",
+   "section": "4.3",
+   "definition": "A method of finding roots by splitting the middle term into two parts whose sum is 'b' and whose product is 'ac'.",
+   "formula": "(x - r1)(x - r2) = 0",
+   "key_idea": "Transforming a quadratic trinomial into a product of two linear factors.",
+   "textbook_ref": "jemh104.txt lines 141-160",
+   "question_patterns": [
+    "find the roots by factorisation",
+    "solve the equation by splitting the middle term",
+    "factorise the quadratic equation to find solutions",
+    "calculate the roots using the factoring method"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find product ac",
+     "explain": "Multiply the coefficient of the squared term by the constant term."
+    },
+    {
+     "step": 2,
+     "action": "split middle term",
+     "explain": "Find two numbers that multiply to 'ac' and add up to 'b'."
+    },
+    {
+     "step": 3,
+     "action": "group and factor",
+     "explain": "Group the terms into pairs and extract common factors to form two linear expressions."
+    },
+    {
+     "step": 4,
+     "action": "solve linear factors",
+     "explain": "Set each linear factor to zero to find the roots."
+    }
+   ]
+  },
+  {
+   "id": "jemh.4.4.1",
+   "title": "Discriminant Calculation",
+   "section": "4.4",
+   "definition": "A specific numerical value derived from the coefficients of a quadratic equation that determines the nature of its roots.",
+   "formula": "disc = b**2 - 4 * a * c",
+   "key_idea": "The discriminant indicates whether roots are real, equal, or non-existent.",
+   "textbook_ref": "jemh104.txt lines 210-220",
+   "question_patterns": [
+    "find the discriminant of the equation",
+    "calculate the value of D",
+    "what is the discriminant for the given quadratic",
+    "find the value of b**2 - 4ac"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the b coefficient",
+     "explain": "Calculate the square of the coefficient of the linear term.",
+     "compute": "sq_b = b**2"
+    },
+    {
+     "step": 2,
+     "action": "calculate 4ac",
+     "explain": "Multiply 4 by the coefficient of x^2 and the constant term.",
+     "compute": "ac4 = 4 * a * c"
+    },
+    {
+     "step": 3,
+     "action": "subtract to find discriminant",
+     "explain": "Subtract the product 4ac from the square of b.",
+     "compute": "disc = sq_b - ac4"
+    }
+   ]
+  },
+  {
+   "id": "jemh.4.4.2",
+   "title": "Nature of Roots",
+   "section": "4.4",
+   "definition": "The classification of quadratic solutions based on the sign of the discriminant.",
+   "formula": "D > 0 (distinct), D = 0 (equal), D < 0 (no real)",
+   "key_idea": "Real roots only exist if the discriminant is non-negative.",
+   "textbook_ref": "jemh104.txt lines 221-235",
+   "question_patterns": [
+    "determine the nature of the roots",
+    "check if the equation has real roots",
+    "state whether the roots are equal or distinct",
+    "is it possible to have roots for this situation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate discriminant",
+     "explain": "Find the value of D = b^2 - 4ac."
+    },
+    {
+     "step": 2,
+     "action": "compare with zero",
+     "explain": "If D > 0, roots are real and distinct. If D = 0, roots are real and equal. If D < 0, no real roots exist."
+    }
+   ]
+  },
+  {
+   "id": "jemh.4.4.3",
+   "title": "Quadratic Formula",
+   "section": "4.4",
+   "definition": "A universal algebraic formula used to compute the roots of any quadratic equation using its coefficients.",
+   "formula": "x = (-b + sqrt(b**2 - 4*a*c)) / (2*a)",
+   "key_idea": "Provides a direct solution when factorisation is difficult.",
+   "textbook_ref": "jemh104.txt lines 200-210",
+   "question_patterns": [
+    "solve using the quadratic formula",
+    "find the roots using the formula",
+    "calculate the values of x for the equation",
+    "find the solutions for the quadratic"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate discriminant",
+     "explain": "Find the value of D = b^2 - 4ac.",
+     "compute": "d = b**2 - 4 * a * c"
+    },
+    {
+     "step": 2,
+     "action": "find square root of D",
+     "explain": "Calculate the square root of the discriminant.",
+     "compute": "sd = sqrt(d)"
+    },
+    {
+     "step": 3,
+     "action": "calculate numerator",
+     "explain": "Add the square root of D to the negative of b.",
+     "compute": "num = -b + sd"
+    },
+    {
+     "step": 4,
+     "action": "divide by 2a",
+     "explain": "Divide the numerator by twice the coefficient of x^2.",
+     "compute": "root = num / (2 * a)"
+    }
+   ]
+  },
+  {
+   "id": "jemh.4.4.4",
+   "title": "Finding Coefficient for Equal Roots",
+   "section": "4.4",
+   "definition": "Determining an unknown coefficient (like k) by setting the discriminant to zero for coincident roots.",
+   "formula": "b**2 = 4 * a * c",
+   "key_idea": "Equal roots imply that the discriminant must be exactly zero.",
+   "textbook_ref": "jemh104.txt lines 250-260",
+   "question_patterns": [
+    "find the value of k for equal roots",
+    "for what value of k are the roots coincident",
+    "calculate k such that the equation has two equal real roots"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate 4ac",
+     "explain": "Multiply 4 by the known coefficients a and c.",
+     "compute": "ac4 = 4 * a * c"
+    },
+    {
+     "step": 2,
+     "action": "find square root",
+     "explain": "The coefficient k (or b) is the square root of 4ac.",
+     "compute": "k_val = sqrt(ac4)"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jemh104.txt lines 86-105",
+   "concept": "jemh.4.2.1",
+   "question_type": "verify_property",
+   "question_pattern": "John and Jivanti together have {total} marbles... find the quadratic representation.",
+   "extracted_variables": {
+    "total": "sum of marbles"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "expand and simplify",
+     "explain": "Represent marbles as x and (45-x), apply loss of 5 each, and equate product to 124."
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "jemh104.txt lines 236-242",
+   "concept": "jemh.4.4.1",
+   "question_type": "compute",
+   "question_pattern": "Find the discriminant of {a}x^2 + {b}x + {c} = 0",
+   "extracted_variables": {
+    "a": 2,
+    "b": -4,
+    "c": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the b coefficient",
+     "compute": "sq_b = b**2"
+    },
+    {
+     "step": 2,
+     "action": "calculate 4ac",
+     "compute": "ac4 = 4 * a * c"
+    },
+    {
+     "step": 3,
+     "action": "subtract to find discriminant",
+     "compute": "disc = sq_b - ac4"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "jemh104.txt lines 243-275",
+   "concept": "jemh.4.4.3",
+   "question_type": "compute",
+   "question_pattern": "A pole erected... distances from gates A and B... find distance x.",
+   "extracted_variables": {
+    "a": 1,
+    "b": 7,
+    "c": -60
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate discriminant",
+     "compute": "d = b**2 - 4 * a * c"
+    },
+    {
+     "step": 2,
+     "action": "find square root of D",
+     "compute": "sd = sqrt(d)"
+    },
+    {
+     "step": 3,
+     "action": "calculate numerator",
+     "compute": "num = -b + sd"
+    },
+    {
+     "step": 4,
+     "action": "divide by 2a",
+     "compute": "root = num / (2 * a)"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "jemh104.txt lines 115-124",
+   "questions": [
+    "Check whether the following are quadratic equations: (x + 1)^2 = 2(x - 3)",
+    "Represent the area of a rectangular plot 528 m2 as a quadratic equation."
+   ]
+  },
+  {
+   "id": "ex4.2",
+   "source_ref": "jemh104.txt lines 175-189",
+   "questions": [
+    "Find the roots of x^2 - 3x - 10 = 0 by factorisation.",
+    "Find two numbers whose sum is 27 and product is 182."
+   ]
+  },
+  {
+   "id": "ex4.3",
+   "source_ref": "jemh104.txt lines 285-300",
+   "questions": [
+    "Find the nature of the roots of 2x^2 - 3x + 5 = 0.",
+    "Find the values of k for 2x^2 + kx + 3 = 0 so that they have two equal roots.",
+    "Is it possible to design a rectangular park of perimeter 80 m and area 400 m2?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

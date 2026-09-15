@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch2_10",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch2_10",
+   "title": "c9_physics_ch2_10",
+   "questions": [
+    {
+     "q": "A particle moves in uniform circular motion with radius 0.5 m and speed 2 m/s. State the magnitude and direction of its centripetal acceleration. Include SI units.",
+     "a": "Magnitude: \\(a_c = \\frac{v^2}{r} = \\frac{(2\\ \\text{m/s})^2}{0.5\\ \\text{m}} = 8\\ \\text{m/s}^2\\). Direction: radially inward, toward the center of the circle. A wrong answer (e.g., stating acceleration is zero because speed is constant, or giving tangential direction) reveals the student confuses speed with velocity and does not recognize that changing direction constitutes acceleration.",
+     "self_check": true
+    },
+    {
+     "q": "A stone tied to a string is whirled in a horizontal circle at constant speed. The string suddenly breaks. Describe the subsequent path of the stone and explain why it follows that path using Newton's first law.",
+     "a": "The stone moves in a straight line tangent to the circle at the point of release. Newton's first law (c8_physics_ch3_12) states an object continues in uniform motion unless acted upon by a net force. When the string breaks, the centripetal force vanishes, so no net force acts — the stone continues with its instantaneous velocity (tangent to the circle). A wrong answer (e.g., \"it flies radially outward\" or \"it spirals out\") reveals the centrifugal misconception: the student thinks a fictitious outward force was acting and continues to act after release.",
+     "self_check": true
+    },
+    {
+     "q": "A cyclist rides on a circular track of radius 20 m at a constant speed of 5 m/s. The combined mass of cyclist and bicycle is 70 kg. Calculate the centripetal force required. If the coefficient of friction between tyres and track is 0.4, will the cyclist skid? (Take \\(g = 10\\ \\text{m/s}^2\\))",
+     "a": "Step 1: Centripetal force needed: \\(F_c = \\frac{mv^2}{r} = \\frac{70 \\times (5)^2}{20} = \\frac{70 \\times 25}{20} = 87.5\\ \\text{N}\\).\nStep 2: Maximum friction force available: \\(f_{\\text{max}} = \\mu mg = 0.4 \\times 70 \\times 10 = 280\\ \\text{N}\\).\nStep 3: Since \\(F_c = 87.5\\ \\text{N} < f_{\\text{max}} = 280\\ \\text{N}\\), friction can provide the required centripetal force — the cyclist will NOT skid.\nA wrong answer (e.g., comparing \\(F_c\\) to \\(mg\\) instead of \\(\\mu mg\\), or forgetting to square \\(v\\)) reveals confusion about the role of friction as the centripetal force provider on unbanked roads.",
+     "self_check": true
+    },
+    {
+     "q": "Two satellites orbit Earth in circular orbits. Satellite A has orbital radius \\(r\\) and period \\(T\\). Satellite B has orbital radius \\(4r\\). Using the relationship between centripetal force and gravitational force, determine the period of Satellite B in terms of \\(T\\).",
+     "a": "For a satellite, gravitational force provides centripetal force: \\(\\frac{GMm}{r^2} = \\frac{mv^2}{r}\\). With \\(v = \\frac{2\\pi r}{T}\\), this gives \\(\\frac{GM}{r^2} = \\frac{4\\pi^2 r}{T^2}\\) or \\(T^2 \\propto r^3\\) (Kepler's third law).\nIf \\(r_B = 4r_A\\), then \\(\\frac{T_B^2}{T_A^2} = \\frac{(4r)^3}{r^3} = 64\\), so \\(T_B = 8T\\).\nA wrong answer (e.g., \\(T_B = 2T\\) or \\(T_B = 4T\\)) reveals the student incorrectly assumes \\(T \\propto r\\) or \\(T \\propto r^2\\) instead of deriving the \\(T^2 \\propto r^3\\) relationship from force balance.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In uniform circular motion, the acceleration is zero because the speed is constant.\" Evaluate this claim and provide a counter-argument using the definition of acceleration.",
+     "a": "The claim is false. Acceleration is defined as the rate of change of velocity (vector), not speed (scalar). In uniform circular motion, the velocity vector changes direction continuously — at any instant, \\(\\vec{v}\\) is tangent to the circle. Over a small time \\(\\Delta t\\), the change in velocity \\(\\Delta \\vec{v}\\) points radially inward, so acceleration \\(\\vec{a} = \\frac{\\Delta \\vec{v}}{\\Delta t}\\) is directed toward the center with magnitude \\(\\frac{v^2}{r}\\). A student who agrees with the claim confuses scalar speed with vector velocity and has not internalized the vector nature of acceleration from c9_physics_ch2_5.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a rubber stopper, string, and hanging masses to verify the relationship \\(F_c \\propto v^2\\) for uniform circular motion. List the independent, dependent, and controlled variables, and describe how you would measure the speed.",
+     "a": "Independent variable: hanging mass (provides \\(F_c = mg\\)). Dependent variable: orbital speed \\(v\\) (or period \\(T\\)). Controlled variables: radius \\(r\\) (fixed by string length below tube), mass of stopper. Procedure: Whirl the stopper horizontally so the hanging mass stays stationary; measure time for 20 revolutions to find \\(T\\); compute \\(v = \\frac{2\\pi r}{T}\\). Repeat for different hanging masses. Plot \\(F_c\\) vs \\(v^2\\) — a straight line through origin verifies \\(F_c \\propto v^2\\). A poor answer (e.g., varying radius instead of mass, or measuring speed incorrectly) reveals inability to identify variables and connect force to measurable quantities.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

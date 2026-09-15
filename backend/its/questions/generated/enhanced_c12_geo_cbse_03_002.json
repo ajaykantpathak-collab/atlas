@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_03_002",
+   "title": "c12_geo_cbse_03_002",
+   "questions": [
+    {
+     "q": "State the NCERT definition of \"growth\" and \"development\" and give one example where growth occurs without development.",
+     "a": "Growth is quantitative and value-neutral (can be positive or negative); development is qualitative and always value-positive. Example: A city's population doubles (growth) but housing, sanitation, and schools remain unchanged, so quality of life declines (no development). A wrong answer that equates growth with development reveals the student has not internalised the value-neutral vs value-positive distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the NCERT say \"positive growth does not always lead to development\"? Explain using the city population example from the textbook.",
+     "a": "Positive growth (population increase) only adds numbers; development requires qualitative improvement in services and opportunities. If infrastructure and services do not expand proportionally, the same facilities are shared by more people, reducing per-capita access. A wrong answer that claims growth automatically brings development shows the student misses the conditional link: development occurs only when growth is accompanied by investment in human capabilities.",
+     "self_check": true
+    },
+    {
+     "q": "Two Indian states, A and B, have identical per capita income (₹2,00,000). State A has life expectancy 75 years and literacy 95%; State B has life expectancy 65 years and literacy 70%. Using the capability approach, which state has higher human development? Justify in three steps.",
+     "a": "Step 1: Recognise that the capability approach values health and education as intrinsic capabilities, not just income. Step 2: Compare health capability — State A's 75-year life expectancy indicates better healthcare, nutrition, and disease control. Step 3: Compare education capability — State A's 95% literacy means far greater access to knowledge and skill formation. Conclusion: State A has higher human development despite equal income. A wrong answer that picks based on income alone reveals the student still defaults to the income approach.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the following statement: \"Kerala has lower per capita income than Gujarat but higher HDI rank. This proves economic growth is irrelevant for human development.\" Identify the logical flaw and correct the interpretation.",
+     "a": "The flaw is treating the relationship as binary. Kerala's higher HDI shows that income is not the sole determinant; it does not prove income is irrelevant. Correct interpretation: Kerala converts its moderate income into better health/education outcomes through high social-sector spending, equitable distribution, and historical investments in public services. A wrong answer that agrees with the statement shows the student cannot distinguish \"not the only factor\" from \"not a factor at all\".",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the welfare approach versus the capability approach for addressing child malnutrition in a tribal district. Which approach better empowers the community long-term? Give two reasons.",
+     "a": "The capability approach is superior. Reason 1: Welfare approach delivers food supplements (passive receipt), while capability approach builds mothers' knowledge, healthcare access, and livelihood skills (active agency). Reason 2: Capability approach addresses root causes (education, gender equity, forest rights) making gains sustainable; welfare approach creates dependency on state transfers. A wrong answer favouring welfare approach reveals the student confuses short-term relief with long-term development.",
+     "self_check": true
+    },
+    {
+     "q": "Design a village-level indicator dashboard that captures human development beyond economic growth. List five indicators, explain why each reflects a capability, and specify the data source for each.",
+     "a": "Good answer includes: (1) Under-5 mortality rate (health capability) — NFHS data; (2) Mean years of schooling for women (education capability) — Census/ASER; (3) Percentage of households with piped water (resource access capability) — Jal Jeevan Mission MIS; (4) Youth unemployment rate (economic opportunity capability) — PLFS; (5) Women's participation in Gram Sabha (political freedom capability) — Panchayat records. A poor answer lists only income or infrastructure indicators, showing the student cannot operationalise the capability concept.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

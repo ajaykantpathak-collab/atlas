@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch02_023",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch02_023",
+   "title": "c6_math_ch02_023",
+   "questions": [
+    {
+     "q": "What is the rule for the sign of the quotient when you divide two integers with different signs?",
+     "a": "The quotient is always negative. A wrong answer like \"positive\" suggests the student is confusing division with the rule for multiplying two negatives, or simply guessing.",
+     "self_check": true
+    },
+    {
+     "q": "If you divide 0 by -5, what is the result, and why is it possible to do this, unlike dividing -5 by 0?",
+     "a": "The result is 0 because 0 multiplied by -5 is 0. A student who says \"undefined\" for 0 / -5 is confusing the dividend (0) with the divisor (0); division by zero is only undefined when zero is the divisor.",
+     "self_check": true
+    },
+    {
+     "q": "A submarine is at sea level (0 meters) and descends to -120 meters in 6 equal stages. What integer represents the change in depth for each stage?",
+     "a": "-120 / 6 = -20. The change is -20 meters per stage. A student who answers +20 has ignored the negative sign representing descent.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the calculation of (-30) / (-5) and (-30) / 5. Which is larger and why?",
+     "a": "(-30) / (-5) = 6, while (-30) / 5 = -6. Since 6 is greater than -6, the first result is larger. An error here shows a failure to apply sign rules correctly to the final comparison.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that (-15) / (-3) = -5. Is this correct? Explain using multiplication.",
+     "a": "No, it is incorrect because (-3) x (-5) = +15, not -15. The correct answer is +5 because (-3) x (+5) = -15. A wrong answer here shows the student does not understand division as the inverse of multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "Create a division problem using integers that results in -4 and explain your reasoning.",
+     "a": "Any problem like (-12) / 3 or 12 / (-3) is acceptable. The student must show they know the signs must be different to result in a negative quotient.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

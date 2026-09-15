@@ -1,0 +1,225 @@
+{
+ "catalog": "catalog_class6_social_science_ch201",
+ "concepts": [
+  {
+   "id": "fess.201.1.1",
+   "title": "Celestial Bodies",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Celestial Bodies' refers to.",
+     "a": "Natural objects visible in the night sky, including the sun, the moon, stars, and other shining entities.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Celestial Bodies'.",
+     "a": "All objects existing in outer space are classified as celestial bodies.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Celestial Bodies' taught, and from which source text?",
+     "a": "THE EARTH IN THE SOLAR SYSTEM (source: fess201.txt lines 25-35)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.201.1.2",
+   "title": "Stars",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Stars' refers to.",
+     "a": "Massive, extremely hot celestial bodies made of gases that produce and emit their own heat and light.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Stars'.",
+     "a": "Stars are self-luminous gaseous bodies, with the Sun being the closest star to Earth.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Stars' taught, and from which source text?",
+     "a": "THE EARTH IN THE SOLAR SYSTEM (source: fess201.txt lines 30-45)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.201.1.3",
+   "title": "Constellations and the Pole Star",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Constellations and the Pole Star' refers to.",
+     "a": "Recognizable patterns formed by groups of stars in the night sky, used historically to determine directions.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Constellations and the Pole Star'.",
+     "a": "Star patterns like Ursa Major help locate the fixed North Star (Pole Star) to find directions.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Constellations and the Pole Star' taught, and from which source text?",
+     "a": "THE EARTH IN THE SOLAR SYSTEM (source: fess201.txt lines 50-75)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.201.1.4",
+   "title": "Planets and Earth's Twin",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Planets and Earth's Twin' refers to.",
+     "a": "Celestial bodies that do not possess their own heat and light but are illuminated by the light of stars.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Planets and Earth's Twin'.",
+     "a": "Planets orbit stars, and Venus is known as Earth's twin due to its similar size and shape.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Planets and Earth's Twin' taught, and from which source text?",
+     "a": "THE EARTH IN THE SOLAR SYSTEM (source: fess201.txt lines 75-95, 140-150)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.201.1.5",
+   "title": "The Solar System",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Solar System' refers to.",
+     "a": "A cosmic family consisting of the Sun at the center, eight planets, their satellites, and other minor bodies like asteroids and meteoroids.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Solar System'.",
+     "a": "The Sun's gravitational pull binds the planets and other bodies into a cohesive orbital system.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Solar System' taught, and from which source text?",
+     "a": "THE SOLAR SYSTEM (source: fess201.txt lines 95-130)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.201.1.6",
+   "title": "The Earth as a Unique Planet",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Earth as a Unique Planet' refers to.",
+     "a": "The third nearest planet to the Sun and the fifth largest, characterized by a Geoid shape and conditions that support life.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Earth as a Unique Planet'.",
+     "a": "Earth is a unique blue planet because of its water, air, and life-supporting oxygen.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Earth as a Unique Planet' taught, and from which source text?",
+     "a": "The Earth (source: fess201.txt lines 155-180)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.201.1.7",
+   "title": "The Moon",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Moon' refers to.",
+     "a": "The Earth's sole natural satellite, which orbits and spins in perfect synchronization, showing only one side to Earth.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Moon'.",
+     "a": "The moon takes about 27 days to complete both one orbit and one spin on its axis.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Moon' taught, and from which source text?",
+     "a": "The Moon (source: fess201.txt lines 180-210)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.201.1.8",
+   "title": "Asteroids and Meteoroids",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Asteroids and Meteoroids' refers to.",
+     "a": "Small rocky bodies and fragments orbiting the Sun, with asteroids concentrated between Mars and Jupiter, and meteoroids occasionally entering Earth's atmosphere.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Asteroids and Meteoroids'.",
+     "a": "Asteroids are planetary remnants, while meteoroids are smaller rock pieces that burn up due to atmospheric friction.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Asteroids and Meteoroids' taught, and from which source text?",
+     "a": "Asteroids (source: fess201.txt lines 215-235)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.201.1.9",
+   "title": "Galaxies and the Universe",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Galaxies and the Universe' refers to.",
+     "a": "A galaxy is a massive system of billions of stars, dust, and gases, while millions of such galaxies collectively constitute the universe.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Galaxies and the Universe'.",
+     "a": "Our solar system belongs to the Milky Way galaxy, which is just one of millions in the vast universe.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Galaxies and the Universe' taught, and from which source text?",
+     "a": "Meteoroids (source: fess201.txt lines 235-255)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.201.1.10",
+   "title": "Light Travel Distance",
+   "questions": [
+    {
+     "q": "Calculate the distance traveled by light in {time_seconds} seconds when speed is {speed} km per second.. Use the method 'Light Travel Distance'. Work with: speed = 18, time_seconds = 4. Carry the chain through step by step and give the final value of distance.",
+     "a": "72 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance of a star if its light takes {time_seconds} seconds to reach us at a speed of {speed} km per second.. Use the method 'Light Travel Distance'. Work with: speed = 100, time_seconds = 60. Carry the chain through step by step and give the final value of distance.",
+     "a": "6000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Light Travel Distance' refers to.",
+     "a": "The distance traversed by light over a given duration, calculated by multiplying the speed of light by the time elapsed in seconds.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Light Travel Distance'.",
+     "a": "Light travels at an immense speed, taking about 8 minutes to cover the distance from the Sun to the Earth.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Light Travel Distance', in plain ASCII form.",
+     "a": "distance = speed * time_seconds",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

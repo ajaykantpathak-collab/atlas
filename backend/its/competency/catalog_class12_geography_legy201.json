@@ -1,0 +1,221 @@
+{
+ "class": 12,
+ "subject": "geography",
+ "chapter": 20,
+ "chapter_title": "Population Distribution, Density, Growth and Composition",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/legy201.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "legy.201.1",
+   "title": "Distribution and Density of India's Population",
+   "section": "Distribution and Density of Population",
+   "definition": "India is the second most populous country with 1,210 million people (2011); its population is unevenly distributed, with density rising from sparse Aravalli and north-eastern hills to over a thousand persons per sq km in the northern plains, depending on terrain, climate, water and development.",
+   "formula": "population_density = total_population / area_sq_km",
+   "key_idea": "Dividing a state's population by its area in square kilometres gives its density in persons per sq km.",
+   "textbook_ref": "legy201.txt distribution and density sections (2011 census figures)",
+   "question_patterns": [
+    "what was India's population in the 2011 census",
+    "compute density from a state's population and area",
+    "why is density high in the northern plains",
+    "which regions of India are sparsely populated and why",
+    "how does terrain affect distribution",
+    "define population density with units"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the ratio",
+     "explain": "density equals population divided by area",
+     "compute": "population_density = total_population / area_sq_km"
+    }
+   ]
+  },
+  {
+   "id": "legy.201.2",
+   "title": "Phases of Population Growth",
+   "section": "Population Growth",
+   "definition": "India's population growth falls into four phases: the stagnant phase before 1921 with high mortality, the steadily expanding phase 1921-1951 (1921 as the year of great divide), the rapid high-growth phase 1951-1981, and the phase of high growth with definite signs of slowing since 1981.",
+   "formula": "",
+   "key_idea": "The death rate fell faster than the birth rate in every phase after 1921, which is why growth accelerated even as families shrank.",
+   "textbook_ref": "legy201.txt growth phases and year of great divide sections",
+   "question_patterns": [
+    "name the four phases of India's population growth",
+    "why is 1921 called the year of great divide",
+    "what characterised the stagnant phase of growth",
+    "when did growth rates peak in India",
+    "which phase shows definite signs of slowing",
+    "relate death rate decline to growth acceleration"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "mark the divide",
+     "explain": "1921 separates the earlier mortality-dominated period from sustained expansion"
+    },
+    {
+     "step": 2,
+     "action": "sequence the phases",
+     "explain": "stagnant, steady, rapid and slowing phases follow in order"
+    },
+    {
+     "step": 3,
+     "action": "close with rates",
+     "explain": "birth-death differentials explain each phase's growth"
+    }
+   ]
+  },
+  {
+   "id": "legy.201.3",
+   "title": "Sex Ratio and Age Composition",
+   "section": "Population Composition",
+   "definition": "The sex ratio counts females per thousand males; India's 2011 census recorded 940 females per thousand males, with sharp interstate contrasts, while the age composition shows India as a young country with a large working-age share and a declining child share.",
+   "formula": "sex_ratio = number_of_females * 1000 / number_of_males",
+   "key_idea": "Multiplying the female-male ratio by a thousand expresses the sex ratio conventionally as females per thousand males.",
+   "textbook_ref": "legy201.txt sex ratio (940 in 2011) and age composition sections",
+   "question_patterns": [
+    "define sex ratio and give India's 2011 figure",
+    "compute a sex ratio from female and male populations",
+    "why do some states show adverse sex ratios",
+    "what does the age composition reveal about India",
+    "how does the child population share affect dependency",
+    "compare sex ratios of Kerala and Haryana states"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the convention",
+     "explain": "sex ratio is females per thousand males",
+     "compute": "sex_ratio = number_of_females * 1000 / number_of_males"
+    }
+   ]
+  },
+  {
+   "id": "legy.201.4",
+   "title": "Work Participation and Occupational Structure",
+   "section": "Occupational Structure",
+   "definition": "The work participation rate is the proportion of working population (workers) to total population; occupational structure divides workers into cultivators, agricultural labourers, household industry and other workers, and a high share of primary workers signals underemployment disguised in agriculture.",
+   "formula": "",
+   "key_idea": "Development shifts workers from primary to secondary and tertiary occupations, so occupational structure is a development indicator.",
+   "textbook_ref": "legy201.txt work participation rate and occupational categories sections",
+   "question_patterns": [
+    "define work participation rate",
+    "list the four occupational categories of the census",
+    "why does a large primary workforce indicate disguised unemployment",
+    "how does occupational structure change with development",
+    "compare male and female work participation",
+    "relate literacy to occupational structure"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the rate",
+     "explain": "workers as a proportion of total population is the participation rate"
+    },
+    {
+     "step": 2,
+     "action": "read the categories",
+     "explain": "cultivators, agricultural labourers, household industry workers and other workers form the census classes"
+    },
+    {
+     "step": 3,
+     "action": "close with development",
+     "explain": "tertiary share rises as economies mature"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_legy201_1",
+   "source_ref": "legy201.txt density section",
+   "concept": "legy.201.1",
+   "question_type": "compute",
+   "question_pattern": "A state has a population of 9,12,00,000 and an area of 1,90,000 sq km. Compute its population density.",
+   "extracted_variables": {
+    "total_population": 91200000,
+    "area_sq_km": 190000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the formula",
+     "explain": "density = population / area",
+     "compute": "population_density = total_population / area_sq_km"
+    }
+   ]
+  },
+  {
+   "id": "we_legy201_2",
+   "source_ref": "legy201.txt sex ratio section (940 in 2011)",
+   "concept": "legy.201.3",
+   "question_type": "compute",
+   "question_pattern": "India's 2011 census counts about 586 million females and 623 million males. Estimate the sex ratio.",
+   "extracted_variables": {
+    "number_of_females": 586,
+    "number_of_males": 623
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the formula",
+     "explain": "sex ratio = females per thousand males",
+     "compute": "sex_ratio = number_of_females * 1000 / number_of_males"
+    }
+   ]
+  },
+  {
+   "id": "we_legy201_3",
+   "source_ref": "legy201.txt growth phases",
+   "concept": "legy.201.2",
+   "question_type": "short_answer",
+   "question_pattern": "Why is 1921 the year of great divide? Explain in three steps.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "before 1921",
+     "explain": "growth was stagnant as epidemics and famines kept death rates high"
+    },
+    {
+     "step": 2,
+     "action": "after 1921",
+     "explain": "death rates began a sustained fall while births stayed high"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "the turning point splits two demographic regimes, hence the name"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_legy201_1",
+   "source_ref": "legy201.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "describe the regional pattern of India's population distribution",
+    "compute density for a state from census population and area",
+    "explain the phases of population growth with the year of great divide",
+    "define sex ratio and compute it from census counts",
+    "discuss occupational structure as a development indicator"
+   ]
+  },
+  {
+   "id": "ex_legy201_2",
+   "source_ref": "legy201.txt applied questions, reworded",
+   "questions": [
+    "argue why plains hold more people than plateaus",
+    "evaluate the demographic dividend of a young age structure",
+    "explain interstate contrasts in work participation",
+    "relate literacy with sex ratio patterns",
+    "identify causes of slowing growth after 1981"
+   ]
+  }
+ ]
+}

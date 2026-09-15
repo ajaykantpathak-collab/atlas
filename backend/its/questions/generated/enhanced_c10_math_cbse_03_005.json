@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_03_005",
+   "title": "c10_math_cbse_03_005",
+   "questions": [
+    {
+     "q": "What is the first step in the substitution method when solving the pair of equations: 2x + 3y = 12 and x - y = 1?",
+     "a": "The first step is to solve one of the equations for one variable in terms of the other. For example, from x - y = 1, we get x = y + 1 (or y = x - 1). A wrong answer like \"substitute x = 0\" or \"add the equations\" reveals the student confuses substitution with elimination or trial-and-error, and does not understand the method's core step of isolating a variable.",
+     "self_check": true
+    },
+    {
+     "q": "In the substitution method, after obtaining x = 5 - 2y from the first equation, why must we substitute this expression into the SECOND equation and not back into the first equation?",
+     "a": "Substituting back into the same equation gives an identity (0 = 0) because the expression was derived from that equation; it provides no new information to solve for y. The second equation is independent and provides the necessary constraint. A student who says \"we can substitute into either\" shows they do not understand that the two equations must be used together to find a unique solution, and they may waste time or get stuck in a loop.",
+     "self_check": true
+    },
+    {
+     "q": "Solve the following pair of equations by the substitution method: 3x - 2y = 7 and x + 4y = 11. Show all steps.",
+     "a": "Step 1: From x + 4y = 11, isolate x: x = 11 - 4y.\nStep 2: Substitute into 3x - 2y = 7: 3(11 - 4y) - 2y = 7.\nStep 3: Simplify: 33 - 12y - 2y = 7 → 33 - 14y = 7.\nStep 4: Solve for y: -14y = 7 - 33 → -14y = -26 → y = 26/14 = 13/7.\nStep 5: Substitute y = 13/7 into x = 11 - 4y: x = 11 - 4(13/7) = 11 - 52/7 = (77 - 52)/7 = 25/7.\nStep 6: Verify: 3(25/7) - 2(13/7) = 75/7 - 26/7 = 49/7 = 7 ✓; 25/7 + 4(13/7) = 25/7 + 52/7 = 77/7 = 11 ✓.\nAnswer: x = 25/7, y = 13/7. A wrong answer like y = 26/14 without simplifying, or forgetting to find x, reveals incomplete algebraic manipulation or failure to complete the back-substitution step.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the substitution method and the elimination method for solving the pair: 5x + 2y = 16 and 3x - 2y = 4. Which method is more efficient and why?",
+     "a": "Elimination is more efficient because the coefficients of y are opposites (+2 and -2); adding the equations directly eliminates y without any multiplication or rearrangement. Substitution would require isolating a variable (e.g., x = (16 - 2y)/5), leading to fractions and more steps. A student who insists substitution is always better or cannot articulate the advantage of elimination for this specific structure shows lack of strategic flexibility expected in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved the pair x + 2y = 10 and 2x + 4y = 20 by substitution and got \"0 = 0\" after substituting. They concluded \"no solution\". Is this correct? Explain.",
+     "a": "The student is incorrect. Getting 0 = 0 means the two equations are dependent (one is a multiple of the other); they represent the same line and have infinitely many solutions. \"No solution\" occurs when substitution leads to a contradiction like 0 = 5 (parallel lines). The student confused the identity case with the contradiction case, a common board exam error that loses full marks on consistency questions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem involving two unknowns (e.g., cost of items, ages, speeds) that leads to a pair of linear equations where the substitution method is the natural choice because one equation has a variable with coefficient 1. Write the problem, form the equations, and solve.",
+     "a": "Example problem: \"Riya buys 1 kg of apples and 2 kg of oranges for ₹180. The cost of 1 kg of apples is ₹20 more than 1 kg of oranges. Find the cost per kg of each fruit.\"\nEquations: x + 2y = 180 and x = y + 20 (coefficient of x is 1 in both).\nSubstitute x = y + 20 into first: (y + 20) + 2y = 180 → 3y = 160 → y = 160/3 ≈ 53.33; x = 73.33.\nA good answer shows a realistic scenario, correctly forms equations with a unit coefficient, and solves completely. A poor answer creates equations without a unit coefficient (forcing elimination) or makes arithmetic errors, indicating they don't recognize when substitution is advantageous.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

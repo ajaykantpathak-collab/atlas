@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch04_001",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch04_001",
+   "title": "c7_math_ch04_001",
+   "questions": [
+    {
+     "q": "In the algebraic expression $4x + 7$, what does the letter $x$ represent? Is it a fixed number or a variable?",
+     "a": "The letter $x$ represents a variable, which is a quantity that can change or take various numerical values. A wrong answer like \"x is always 4\" or \"x is a constant\" reveals that the student confuses the coefficient (the number multiplying the variable) with the variable itself, missing the core idea that letters stand for changeable quantities.",
+     "self_check": true
+    },
+    {
+     "q": "A school canteen sells samosas for ₹15 each. Rahul writes the total cost as $15y$, where $y$ is the number of samosas bought. Priya says $y$ must always be equal to 5. Who is correct and why?",
+     "a": "Rahul is correct. The letter $y$ is a variable, meaning Rahul can buy 1 samosa, 2 samosas, 5 samosas, or any number of samosas; $y$ is not locked to a single fixed value. A wrong answer supporting Priya reveals the common misconception that variables have a single hidden correct answer like in arithmetic puzzles, rather than representing a range of possible values.",
+     "self_check": true
+    },
+    {
+     "q": "If Anita has $p$ stamps and she gives 12 stamps to her brother, write an algebraic expression for the number of stamps she has left. If $p = 45$, evaluate the expression.",
+     "a": "Steps:\n1. Identify the initial quantity of stamps as $p$.\n2. Identify the operation for giving away stamps as subtraction ($-\\;12$).\n3. Write the algebraic expression: $p - 12$.\n4. Substitute $p = 45$ into the expression: $45 - 12$.\n5. Compute the final value: $33$ stamps.\nA wrong answer like $12 - p$ or $45 + 12$ reveals that the student either reverses the direction of subtraction or confuses addition with subtraction when dealing with quantities being removed.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the arithmetic statement \"$5 + 5 + 5 + 5 = 20$\" with the algebraic expression \"$4 \\times m = 20$\". Explain how the letter $m$ makes the second statement more powerful than the first.",
+     "a": "The arithmetic statement only describes one specific situation involving four 5s. The algebraic expression with variable $m$ ($4m = 20$) can represent any situation where 4 equal groups add up to 20, and we can easily solve for $m$ (here $m = 5$). A wrong answer claiming both statements are identical shows a failure to recognize that variables generalize mathematical relationships beyond a single numerical calculation.",
+     "self_check": true
+    },
+    {
+     "q": "Teacher gives a statement: \"The sum of a number $n$ and 8 is 15.\" Student A writes $n + 8 = 15$. Student B writes $n = 15 + 8$. Evaluate both answers and explain any errors.",
+     "a": "Student A is correct because \"sum of a number $n$ and 8\" translates to $n + 8$, and \"is 15\" means it equals 15. Student B is incorrect because writing $n = 15 + 8$ means $n$ equals 23, which contradicts the problem statement (if $n=23$, then $23 + 8 = 31$, not 15). A wrong answer siding with Student B shows the student struggles with translating verbal statements into correct mathematical equations and misinterprets the word \"is\" as an operation instruction rather than an equals sign.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario from your daily life in India (involving auto-rickshaw fares, buying fruits, or school items) that can be represented using a variable $k$, and write the corresponding algebraic expression.",
+     "a": "An acceptable answer should describe a scenario with a fixed rate and a variable quantity, such as: \"An auto-rickshaw charges a base meter reading plus ₹12 per kilometre. If $k$ is the number of kilometres travelled, the variable part of the fare is $12k$.\" A poor answer fails to define what $k$ represents or creates a purely arithmetic sentence with no variable (e.g., \"I bought 3 apples for ₹30\").",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

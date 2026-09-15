@@ -1,0 +1,890 @@
+{
+ "class": 9,
+ "subject": "maths",
+ "chapter": 102,
+ "chapter_title": "Introduction to Linear Polynomials",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\iemh102.txt",
+ "concepts": [
+  {
+   "id": "iemh.102.1",
+   "title": "Degree of a Polynomial",
+   "section": "2.1",
+   "definition": "For a one-letter polynomial, the biggest power that the letter carries decides the degree; degrees 0, 1, 2 and 3 give constant, linear, quadratic and cubic types in order.",
+   "formula": "degree = max of the term powers",
+   "key_idea": "Scan the powers; the largest one fixes the degree.",
+   "textbook_ref": "iemh102.txt lines 113-116 (Recall box), lines 93-112 (Exercise Set 2.1)",
+   "question_patterns": [
+    "Find the degree of the polynomial 2x^2 - 5x + 3.",
+    "Classify y^3 + 2y - 1 by its degree.",
+    "Which of the given expressions is cubic?",
+    "State the degree of the constant polynomial -9.",
+    "Identify the degree of 4z - 3."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the exponent of the variable in each term",
+     "explain": "A constant term counts as exponent 0."
+    },
+    {
+     "step": 2,
+     "action": "Take the largest exponent",
+     "explain": "That value is the degree; 1 means linear, 2 quadratic, 3 cubic."
+    },
+    {
+     "step": 3,
+     "action": "Classify the polynomial by degree",
+     "explain": "Use the degree to name the type: degree 0 is constant, degree 1 is linear, degree 2 is quadratic, and degree 3 is cubic."
+    }
+   ]
+  },
+  {
+   "id": "iemh.102.2",
+   "title": "Value of a Polynomial",
+   "section": "2.2",
+   "definition": "To find a polynomial's value at a chosen input, put the number into the letter's slot, then multiply and add term by term. Read it like a machine: one number goes in, exactly one value comes out.",
+   "formula": "value = coeff_a * x**2 + coeff_b * x + coeff_c",
+   "key_idea": "Substitute first, then simplify in order: powers, products, sums.",
+   "textbook_ref": "iemh102.txt lines 167-189 (input-output view), Exercise Set 2.2 lines 190-215",
+   "question_patterns": [
+    "Find the value of the linear polynomial 5x - 3 if x = 2.",
+    "Evaluate 7s^2 - 4s + 6 for s = 4.",
+    "What output does the machine 2x + 3 give for input 4?",
+    "Calculate the value of the polynomial when the variable is -3.",
+    "Work out the value of 5x^2 - 3x + 7 at x = 1."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the squared-term contribution",
+     "explain": "Multiply the coefficient of the squared term by the square of the input.",
+     "compute": "quad_term = coeff_a * x * x"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the linear-term contribution",
+     "explain": "Multiply the coefficient of the linear term by the input.",
+     "compute": "lin_term = coeff_b * x"
+    },
+    {
+     "step": 3,
+     "action": "Add every term including the constant",
+     "explain": "The sum of all contributions is the output value.",
+     "compute": "total_value = quad_term + lin_term + coeff_c"
+    }
+   ]
+  },
+  {
+   "id": "iemh.102.3",
+   "title": "Linear Patterns",
+   "section": "2.3",
+   "definition": "When every step from one term to the next carries the same amount, the sequence counts as linear; its nth term follows from the stage count alone: difference times n plus a starting value.",
+   "formula": "term_value = difference * n + initial_offset",
+   "key_idea": "Fixed step per stage: scale n, then shift by the start-up value.",
+   "textbook_ref": "iemh102.txt lines 148-157 (patterns), Examples 7-8 lines 270-331",
+   "question_patterns": [
+    "Find the number of matchsticks needed for the nth stage of the growing pattern.",
+    "Calculate the amount left on the 12th day if 5 rupees are spent daily from 100 rupees.",
+    "What is the fare for a 10 km trip that starts at 25 rupees for the first 2 km and rises 15 rupees per km after that?",
+    "Write the nth term of the pattern 6, 10, 14, 18, ...",
+    "Predict the value at stage 15 for a pattern with rule 4n - 1."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply the stage number by the fixed step",
+     "explain": "The rate of change per stage is multiplied by the stage number.",
+     "compute": "diff_part = difference * n"
+    },
+    {
+     "step": 2,
+     "action": "Add the starting constant",
+     "explain": "Add the starting offset to get the nth term.",
+     "compute": "term_value = diff_part + initial_offset"
+    },
+    {
+     "step": 3,
+     "action": "Verify the linear pattern",
+     "explain": "Check that the difference between consecutive terms is constant, confirming the sequence is linear and the nth-term formula is correct."
+    }
+   ]
+  },
+  {
+   "id": "iemh.102.4",
+   "title": "Linear Growth",
+   "section": "2.4",
+   "definition": "Growth is linear when a quantity adds one fixed step per interval of time; the value is the starting amount plus the rate times the elapsed steps.",
+   "formula": "current_value = initial_value + growth_rate * time",
+   "key_idea": "Value = start + (rate x steps taken).",
+   "textbook_ref": "iemh102.txt lines 356-410 (section 2.4, Examples 9-10)",
+   "question_patterns": [
+    "Find the cost for travelling 15 km if C(d) = 100 + 60d.",
+    "What is the plant height after 7 months if it starts at 1.75 feet and grows 0.5 feet each month?",
+    "Calculate the village population after 6 years starting from 750 with 50 arrivals each year.",
+    "How much money has been saved after 6 months at 250 rupees per month from zero?",
+    "Predict the pages read after t days at 20 pages per day."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the accumulated gain",
+     "explain": "Multiply the fixed growth rate by the elapsed steps.",
+     "compute": "total_growth = growth_rate * time"
+    },
+    {
+     "step": 2,
+     "action": "Add the starting amount",
+     "explain": "The starting amount plus the accumulated gain is the current value.",
+     "compute": "current_value = initial_value + total_growth"
+    },
+    {
+     "step": 3,
+     "action": "Verify the linear growth",
+     "explain": "Confirm the result increases by the growth_rate for each additional step, which is the hallmark of linear growth."
+    }
+   ]
+  },
+  {
+   "id": "iemh.102.5",
+   "title": "Linear Decay",
+   "section": "2.4",
+   "definition": "Decay is linear when a quantity drops by one fixed step per interval of time; subtract the total dropped from the starting amount.",
+   "formula": "current_value = initial_value - decay_rate * time",
+   "key_idea": "Value = start - (rate x steps taken).",
+   "textbook_ref": "iemh102.txt lines 383-410 (Example 10), Exercise Set 2.4 lines 411-466",
+   "question_patterns": [
+    "Find the water height after 5 months if h(t) = 3 - 0.5t.",
+    "What is the phone's value after 3 years if it loses 800 rupees a year from 10,000?",
+    "Calculate the prepaid balance left after 10 days if 600 rupees reduce by 15 a day.",
+    "How many pages remain of a 500-page book after 15 days of reading 20 daily?",
+    "Work out the tank level at month 4 given a start of 3 m and a fall of 0.5 m monthly."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the accumulated loss",
+     "explain": "Multiply the fixed decay rate by the elapsed steps.",
+     "compute": "total_decay = decay_rate * time"
+    },
+    {
+     "step": 2,
+     "action": "Subtract from the starting amount",
+     "explain": "The starting amount minus the accumulated loss is what remains.",
+     "compute": "current_value = initial_value - total_decay"
+    },
+    {
+     "step": 3,
+     "action": "Verify the linear decay",
+     "explain": "Confirm the result decreases by the decay_rate for each additional step, which is the hallmark of linear decay."
+    }
+   ]
+  },
+  {
+   "id": "iemh.102.6",
+   "title": "Linear Relationship from Two Points",
+   "section": "2.5",
+   "definition": "When two observations (x1, y1) and (x2, y2) both fit y = ax + b, the two unknowns can be pinned down: substitute both pairs to get two equations, then solve them together.",
+   "formula": "a = (y2 - y1) / (x2 - x1)",
+   "key_idea": "Two equations, two unknowns: eliminate b by subtraction, then back-substitute.",
+   "textbook_ref": "iemh102.txt lines 468-504 (section 2.5, Example 11)",
+   "question_patterns": [
+    "Find a and b if y = ax + b passes through (10, 350) and (20, 550).",
+    "Determine the linear relationship between modules accessed and bill amount from two observations.",
+    "A gym bill is 800 for 10 hours and 1100 for 15 hours; find the rule y = ax + b.",
+    "Use the freezing and boiling points of water to find a and b in the Celsius-Fahrenheit relation.",
+    "Explain why two points are enough to fix a linear rule completely."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Substitute both points",
+     "explain": "Each point gives one equation in a and b."
+    },
+    {
+     "step": 2,
+     "action": "Eliminate b",
+     "explain": "Subtract one equation from the other so only a remains, then divide."
+    },
+    {
+     "step": 3,
+     "action": "Back-substitute for b",
+     "explain": "Put a into either equation and solve for b; state the rule y = ax + b."
+    }
+   ]
+  },
+  {
+   "id": "iemh.102.7",
+   "title": "Graphs of Linear Equations",
+   "section": "2.6",
+   "definition": "The graph of y = ax + b is a line: choose two inputs, plot the matching outputs, and join them. Changing a tilts the line (steeper when a > 1, falling when a < 0), while changing b slides it up or down; every line written as y = ax crosses at (0, 0).",
+   "formula": "y = ax + b",
+   "key_idea": "a controls tilt, b controls lift; with b = 0 the line exits the plane at the origin.",
+   "textbook_ref": "iemh102.txt lines 571-640 (section 2.6), Examples 12-16",
+   "question_patterns": [
+    "Draw the graph of y = 2x + 1 by plotting two points.",
+    "What does changing a do to the graph of y = ax + b?",
+    "Which of the lines y = 4x, y = 2x, y = x is steepest?",
+    "Explain why every line y = ax goes through the origin.",
+    "Name the point where the line y = 3x - 1 meets the y-axis."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Pick two convenient inputs",
+     "explain": "x = 0 is easiest because it gives the y-axis crossing directly."
+    },
+    {
+     "step": 2,
+     "action": "Plot both points and join",
+     "explain": "Extend the line in both directions with a ruler."
+    },
+    {
+     "step": 3,
+     "action": "Read the roles of a and b",
+     "explain": "Compare several lines: a changes the tilt, b shifts the crossing height."
+    }
+   ]
+  },
+  {
+   "id": "iemh.102.8",
+   "title": "Linear Equation in One Variable",
+   "section": "2.2",
+   "definition": "When a linear rule is set equal to a number, the result is an equation with a single unknown; undo the operations in reverse order to isolate it.",
+   "formula": "x = (c - b) / a",
+   "key_idea": "Undo in reverse order: shift constants across, then divide by the multiplier.",
+   "textbook_ref": "iemh102.txt lines 158-166 (Example 6), Think and Reflect line 147",
+   "question_patterns": [
+    "Solve 2x + 10 = 64.",
+    "The sum of two numbers is 64 and one exceeds the other by 10; find them.",
+    "A player paid 750 rupees at 200 joining plus 50 per match; how many matches were played?",
+    "Find x if 5x - 3 = 12.",
+    "Solve for the number: multiply by 5/2 and add 2/3 to get -7/12."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Move the constant across",
+     "explain": "Subtract the constant term from both sides.",
+     "compute": "diff = target - constant"
+    },
+    {
+     "step": 2,
+     "action": "Divide by the multiplier",
+     "explain": "Dividing by the coefficient of the variable gives its value.",
+     "compute": "x = diff / coeff"
+    },
+    {
+     "step": 3,
+     "action": "Verify the solution",
+     "explain": "Substitute the value of x back into the original equation to confirm both sides are equal.",
+     "compute": "check = coeff * x + constant"
+    }
+   ]
+  },
+  {
+   "id": "iemh.102.9",
+   "title": "Terms, Variables and Coefficients",
+   "section": "2.1",
+   "definition": "A sum such as 4x + 5y + 3 is built from terms joined by plus or minus signs. The letters are variables, each number multiplying a variable is a coefficient, and a standalone number is a constant.",
+   "formula": "term + term + ... + constant",
+   "key_idea": "Terms carry a sign; multipliers ride on letters; constants stand alone.",
+   "textbook_ref": "iemh102.txt lines 20-27 (Example 1 recap), Exercise Set 2.1 lines 93-112",
+   "question_patterns": [
+    "List the terms of 4x + 5y + 3.",
+    "What are the coefficients of x and y in 4x + 5y + 3?",
+    "Identify the constant term in 9x^3 + 5x^2 - 8x - 10.",
+    "Name the variables used in the expression 4z^3 + 5z^2 - 11.",
+    "Explain the difference between a term and a factor."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Split at the plus and minus signs",
+     "explain": "Each signed piece is one term."
+    },
+    {
+     "step": 2,
+     "action": "Label the parts of each term",
+     "explain": "Number factor: coefficient; letter factor: variable; lone number: constant."
+    },
+    {
+     "step": 3,
+     "action": "State the full structure",
+     "explain": "Combine the labelled terms to describe the polynomial as a sum of variable terms each carrying a coefficient, plus a standalone constant."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iemh102.txt lines 477-504 (Example 11: 10 GB -> 350, 20 GB -> 550, a = 20, b = 150)",
+   "concept": "iemh.102.6",
+   "question_type": "verify_property",
+   "question_pattern": "A telecom company charges a fixed monthly fee plus a cost per GB. When {x1} GB were used the bill was {y1}; when {x2} GB were used it was {y2}. If y = ax + b, find a and b.",
+   "extracted_variables": {
+    "x1": "10",
+    "y1": "350",
+    "x2": "20",
+    "y2": "550"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Substitute both observations",
+     "explain": "350 = 10a + b and 550 = 20a + b."
+    },
+    {
+     "step": 2,
+     "action": "Eliminate b by subtraction",
+     "explain": "200 = 10a, so a = 20."
+    },
+    {
+     "step": 3,
+     "action": "Back-substitute for b",
+     "explain": "b = 350 - 10a = 350 - 200 = 150, giving y = 20x + 150."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iemh102.txt lines 359-382 (Example 9: C(d) = 100 + 60d; Think and Reflect: 15 km -> 1000)",
+   "concept": "iemh.102.4",
+   "question_type": "compute",
+   "question_pattern": "The cost of a journey is given by the linear function C(d) = {initial_value} + {growth_rate}d. Find the cost for travelling {time} km.",
+   "extracted_variables": {
+    "initial_value": "100",
+    "growth_rate": "60",
+    "time": "15"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the accumulated gain",
+     "explain": "Multiply the per-km rate by the distance.",
+     "compute": "total_growth = growth_rate * time"
+    },
+    {
+     "step": 2,
+     "action": "Add the starting amount",
+     "explain": "Add the fixed charge to get the total cost.",
+     "compute": "current_value = initial_value + total_growth"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "iemh102.txt lines 437-441 (Exercise Set 2.4 Q3: 750 + 50 x 6 = 1050)",
+   "concept": "iemh.102.4",
+   "question_type": "compute",
+   "question_pattern": "The initial population of a village is {initial_value}. Every year, {growth_rate} people move in. Find the population after {time} years.",
+   "extracted_variables": {
+    "initial_value": "750",
+    "growth_rate": "50",
+    "time": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the accumulated gain",
+     "explain": "Multiply the yearly inflow by the number of years.",
+     "compute": "total_growth = growth_rate * time"
+    },
+    {
+     "step": 2,
+     "action": "Add the starting amount",
+     "explain": "Add the inflow total to the starting population.",
+     "compute": "current_value = initial_value + total_growth"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "iemh102.txt lines 383-406 (Example 10: h(t) = 3 - 0.5t; Think and Reflect: month 5 -> 0.5 m)",
+   "concept": "iemh.102.5",
+   "question_type": "compute",
+   "question_pattern": "The height of water in a cylindrical tank is {initial_value} m at the start of summer, and h(t) = {initial_value} - {decay_rate}t after t months. Find the height after {time} months.",
+   "extracted_variables": {
+    "initial_value": "3",
+    "decay_rate": "0.5",
+    "time": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the accumulated loss",
+     "explain": "Multiply the monthly fall by the number of months.",
+     "compute": "total_decay = decay_rate * time"
+    },
+    {
+     "step": 2,
+     "action": "Subtract from the starting amount",
+     "explain": "Subtract the total fall from the starting height.",
+     "compute": "current_value = initial_value - total_decay"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "iemh102.txt lines 424-428 (Exercise Set 2.4 Q2: 10000 - 800 x 3 = 7600)",
+   "concept": "iemh.102.5",
+   "question_type": "compute",
+   "question_pattern": "A mobile phone is bought for {initial_value} rupees. Its value decreases by {decay_rate} rupees every year. Find the value of the phone after {time} years.",
+   "extracted_variables": {
+    "initial_value": "10000",
+    "decay_rate": "800",
+    "time": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the accumulated loss",
+     "explain": "Multiply the yearly fall by the number of years.",
+     "compute": "total_decay = decay_rate * time"
+    },
+    {
+     "step": 2,
+     "action": "Subtract from the starting amount",
+     "explain": "Subtract the total decrease from the purchase price.",
+     "compute": "current_value = initial_value - total_decay"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "iemh102.txt lines 270-298 (Example 7: Bela 100 rupees, 5 per day, 12th day -> 40)",
+   "concept": "iemh.102.3",
+   "question_type": "compute",
+   "question_pattern": "Bela has {initial_offset} rupees for pocket money. She spends {spend} rupees every day. Find the amount left on the {n}th day.",
+   "extracted_variables": {
+    "initial_offset": "100",
+    "spend": "5",
+    "n": "12"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Express the pattern",
+     "explain": "The amount left on day n is 100 - 5n.",
+     "compute": "difference = 0 - spend"
+    },
+    {
+     "step": 2,
+     "action": "Evaluate at n",
+     "explain": "Substitute the day number.",
+     "compute": "term_value = difference * n + initial_offset"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "iemh102.txt lines 299-327 (Example 8: auto fare 25 + 15 x (n - 2); 10 km -> 145)",
+   "concept": "iemh.102.3",
+   "question_type": "compute",
+   "question_pattern": "An auto-rikshaw fare is {initial_offset} rupees for the initial {free_km} km, then rises by {rate} rupees per km. Find the fare for {n} km.",
+   "extracted_variables": {
+    "initial_offset": "25",
+    "free_km": "2",
+    "rate": "15",
+    "n": "10"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Count the charged kilometres",
+     "explain": "The first 2 km are already covered by the base fare.",
+     "compute": "extra = n - free_km"
+    },
+    {
+     "step": 2,
+     "action": "Add the per-km charge to the base",
+     "explain": "Base fare plus rate times charged kilometres.",
+     "compute": "fare = initial_offset + rate * extra"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "iemh102.txt lines 191-196 (Exercise Set 2.2 Q1: 5x - 3 at x = 2 -> 7)",
+   "concept": "iemh.102.2",
+   "question_type": "compute",
+   "question_pattern": "Find the value of the linear polynomial {coeff_b}x + {coeff_c} if x = {x}.",
+   "extracted_variables": {
+    "coeff_b": "5",
+    "coeff_c": "-3",
+    "x": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply the linear term",
+     "explain": "5 x 2 = 10.",
+     "compute": "lin_term = coeff_b * x"
+    },
+    {
+     "step": 2,
+     "action": "Add the constant",
+     "explain": "10 - 3 = 7.",
+     "compute": "value = lin_term + coeff_c"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "iemh102.txt lines 197-202 (Exercise Set 2.2 Q2: 7s^2 - 4s + 6 at s = 4 -> 102)",
+   "concept": "iemh.102.2",
+   "question_type": "compute",
+   "question_pattern": "Find the value of the quadratic polynomial {coeff_a}s^2 + {coeff_b}s + {coeff_c} if s = {x}.",
+   "extracted_variables": {
+    "coeff_a": "7",
+    "coeff_b": "-4",
+    "coeff_c": "6",
+    "x": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate the squared-term contribution",
+     "explain": "7 x 16 = 112.",
+     "compute": "quad_term = coeff_a * x * x"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the linear-term contribution",
+     "explain": "-4 x 4 = -16.",
+     "compute": "lin_term = coeff_b * x"
+    },
+    {
+     "step": 3,
+     "action": "Add every term",
+     "explain": "112 - 16 + 6 = 102.",
+     "compute": "total_value = quad_term + lin_term + coeff_c"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "iemh102.txt lines 160-166 (Example 6: sum 64, one is 10 more -> 27 and 37)",
+   "concept": "iemh.102.8",
+   "question_type": "compute",
+   "question_pattern": "The sum of two numbers is {target}. One of the numbers is {constant} more than the other. Find the numbers.",
+   "extracted_variables": {
+    "target": "64",
+    "constant": "10",
+    "coeff": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Set up the equation",
+     "explain": "x + (x + 10) = 64, so 2x + 10 = 64."
+    },
+    {
+     "step": 2,
+     "action": "Move the constant across",
+     "explain": "2x = 54.",
+     "compute": "diff = target - constant"
+    },
+    {
+     "step": 3,
+     "action": "Divide by the multiplier",
+     "explain": "x = 27; the numbers are 27 and 37.",
+     "compute": "x = diff / coeff"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "iemh102.txt lines 146-147 (Think and Reflect: 750 paid -> 11 matches)",
+   "concept": "iemh.102.8",
+   "question_type": "compute",
+   "question_pattern": "A chess club charges {constant} rupees to join plus {coeff} rupees for every match played. If a player paid {target} rupees in all, how many matches did he play?",
+   "extracted_variables": {
+    "target": "750",
+    "constant": "200",
+    "coeff": "50"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Set up the equation",
+     "explain": "200 + 50m = 750."
+    },
+    {
+     "step": 2,
+     "action": "Move the constant across",
+     "explain": "50m = 550.",
+     "compute": "diff = target - constant"
+    },
+    {
+     "step": 3,
+     "action": "Divide by the multiplier",
+     "explain": "m = 11 matches.",
+     "compute": "x = diff / coeff"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.102.1",
+   "question_type": "verify_property",
+   "question_pattern": "Find the degree of the polynomial 2x^2 - 5x + 3.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "List the exponent of the variable in each term",
+     "explain": "A constant term counts as exponent 0."
+    },
+    {
+     "step": 2,
+     "action": "Take the largest exponent",
+     "explain": "That value is the degree; 1 means linear, 2 quadratic, 3 cubic."
+    },
+    {
+     "step": 3,
+     "action": "Classify the polynomial by degree",
+     "explain": "Use the degree to name the type: degree 0 is constant, degree 1 is linear, degree 2 is quadratic, and degree 3 is cubic."
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.102.1",
+   "question_type": "verify_property",
+   "question_pattern": "Classify y^3 + 2y - 1 by its degree.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "List the exponent of the variable in each term",
+     "explain": "A constant term counts as exponent 0."
+    },
+    {
+     "step": 2,
+     "action": "Take the largest exponent",
+     "explain": "That value is the degree; 1 means linear, 2 quadratic, 3 cubic."
+    },
+    {
+     "step": 3,
+     "action": "Classify the polynomial by degree",
+     "explain": "Use the degree to name the type: degree 0 is constant, degree 1 is linear, degree 2 is quadratic, and degree 3 is cubic."
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.102.6",
+   "question_type": "verify_property",
+   "question_pattern": "A gym bill is 800 for 10 hours and 1100 for 15 hours; find the rule y = ax + b.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Substitute both points",
+     "explain": "Each point gives one equation in a and b."
+    },
+    {
+     "step": 2,
+     "action": "Eliminate b",
+     "explain": "Subtract one equation from the other so only a remains, then divide."
+    },
+    {
+     "step": 3,
+     "action": "Back-substitute for b",
+     "explain": "Put a into either equation and solve for b; state the rule y = ax + b."
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.102.7",
+   "question_type": "verify_property",
+   "question_pattern": "Draw the graph of y = 2x + 1 by plotting two points.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Pick two convenient inputs",
+     "explain": "x = 0 is easiest because it gives the y-axis crossing directly."
+    },
+    {
+     "step": 2,
+     "action": "Plot both points and join",
+     "explain": "Extend the line in both directions with a ruler."
+    },
+    {
+     "step": 3,
+     "action": "Read the roles of a and b",
+     "explain": "Compare several lines: a changes the tilt, b shifts the crossing height."
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.102.7",
+   "question_type": "verify_property",
+   "question_pattern": "What does changing a do to the graph of y = ax + b?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Pick two convenient inputs",
+     "explain": "x = 0 is easiest because it gives the y-axis crossing directly."
+    },
+    {
+     "step": 2,
+     "action": "Plot both points and join",
+     "explain": "Extend the line in both directions with a ruler."
+    },
+    {
+     "step": 3,
+     "action": "Read the roles of a and b",
+     "explain": "Compare several lines: a changes the tilt, b shifts the crossing height."
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.102.9",
+   "question_type": "verify_property",
+   "question_pattern": "List the terms of 4x + 5y + 3.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Split at the plus and minus signs",
+     "explain": "Each signed piece is one term."
+    },
+    {
+     "step": 2,
+     "action": "Label the parts of each term",
+     "explain": "Number factor: coefficient; letter factor: variable; lone number: constant."
+    },
+    {
+     "step": 3,
+     "action": "State the full structure",
+     "explain": "Combine the labelled terms to describe the polynomial as a sum of variable terms each carrying a coefficient, plus a standalone constant."
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "iemh.102.9",
+   "question_type": "verify_property",
+   "question_pattern": "What are the coefficients of x and y in 4x + 5y + 3?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Split at the plus and minus signs",
+     "explain": "Each signed piece is one term."
+    },
+    {
+     "step": 2,
+     "action": "Label the parts of each term",
+     "explain": "Number factor: coefficient; letter factor: variable; lone number: constant."
+    },
+    {
+     "step": 3,
+     "action": "State the full structure",
+     "explain": "Combine the labelled terms to describe the polynomial as a sum of variable terms each carrying a coefficient, plus a standalone constant."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "iemh102.txt lines 93-112 (Exercise Set 2.1)",
+   "questions": [
+    "Find the degrees of the following polynomials: (i) 2x^2 - 5x + 3 (ii) y^3 + 2y - 1 (iii) -9 (iv) 4z - 3",
+    "Write polynomials of degrees 1, 2 and 3.",
+    "What are the coefficients of x^2 and x^3 in the polynomial x^4 - 3x^3 + 6x^2 - 2x + 7?",
+    "What is the coefficient of z in the polynomial 4z^3 + 5z^2 - 11?",
+    "What is the constant term of the polynomial 9x^3 + 5x^2 - 8x - 10?"
+   ]
+  },
+  {
+   "id": "ex2.2",
+   "source_ref": "iemh102.txt lines 190-215 (Exercise Set 2.2)",
+   "questions": [
+    "Find the value of the linear polynomial 5x - 3 if: (i) x = 0 (ii) x = -1 (iii) x = 2",
+    "Find the value of the quadratic polynomial 7s^2 - 4s + 6 if: (i) s = 0 (ii) s = -3 (iii) s = 4",
+    "The present age of Salil's mother is three times Salil's present age. After 5 years, their ages will add up to 70 years. Find their present ages.",
+    "The difference between two positive integers is 63. The ratio of the two integers is 2:5. Find the two integers.",
+    "Ruby has 3 times as many two-rupee coins as she has five-rupee-coins. If she has a total 88 rupees, how many coins does she have of each type?",
+    "A farmer cuts a 300 feet fence into two pieces of different sizes. The longer piece is four times as long as the shorter piece. How long are the two pieces?",
+    "If the length of a rectangle is three more than twice its width and its perimeter is 24 cm, what are the dimensions of the rectangle?"
+   ]
+  },
+  {
+   "id": "ex2.3",
+   "source_ref": "iemh102.txt lines 332-357 (Exercise Set 2.3)",
+   "questions": [
+    "A student has 500 rupees in her savings bank account. She gets 150 rupees every month as pocket money. How much money will she have at the end of every month from the second month onwards? Find a linear expression to represent the amount she will have in the nth month.",
+    "A rally starts with 120 members. Each hour, 9 members drop out of the group. How many members will remain after 1, 2, 3, ... hours? Find a linear expression to represent the number of members at the end of the nth hour.",
+    "Suppose the length of a rectangle is 13 cm. Find the area if the breadth is (i) 12 cm, (ii) 10 cm, (iii) 8 cm. Find the linear pattern representing the area of the rectangle.",
+    "Suppose the length of a rectangular box is 7 cm and breadth is 11 cm. Find the volume if the height is (i) 5 cm, (ii) 9 cm, (iii) 13 cm. Find the linear pattern representing the volume of the rectangular box.",
+    "Sarita is reading a book of 500 pages. She reads 20 pages every day. How many pages will be left after 15 days? Express this as a linear pattern."
+   ]
+  },
+  {
+   "id": "ex2.4",
+   "source_ref": "iemh102.txt lines 411-466 (Exercise Set 2.4)",
+   "questions": [
+    "Suppose a plant has height 1.75 feet and it grows by 0.5 feet each month. (i) Find the height after 7 months. (ii) Make a table of values for t varying from 0 to 10 months and show how the height, h, increases every month. (iii) Find an expression that relates h and t, and explain why it represents linear growth.",
+    "A mobile phone is bought for 10,000 rupees. Its value decreases by 800 rupees every year. (i) Find the value of the phone after 3 years. (ii) Make a table of values for t varying from 0 to 8 years and show how the value of the phone, v, depreciates with time. (iii) Find an expression that relates v and t, and explain why it represents linear decay.",
+    "The initial population of a village is 750. Every year, 50 people move from a nearby city to the village. (i) Find the population of the village after 6 years. (ii) Make a table of values for t varying from 0 to 10 years and show how the population, P, increases every year. (iii) Find an expression that relates P and t, and explain why it represents linear growth.",
+    "A telecom company charges 600 rupees for a certain recharge scheme. This prepaid balance is reduced by 15 rupees each day after the recharge. (i) Write an equation that models the remaining balance b(x) after using the scheme for x days. Explain why it represents linear decay. (ii) After how many days will the balance run out? (iii) Make a table of values for x varying from 1 to 10 days and show how the balance b(x), reduces with time."
+   ]
+  },
+  {
+   "id": "ex2.5",
+   "source_ref": "iemh102.txt lines 505-570 (Exercise Set 2.5)",
+   "questions": [
+    "A learning platform charges a fixed monthly fee and an additional cost per digital learning module accessed. A student observes that when she accessed 10 modules, her bill was 400 rupees. When she accessed 14 modules, her bill was 500 rupees. If the monthly bill y depends on the number of modules accessed, x, according to the relation y = ax + b, find the values of a and b.",
+    "A gym charges a fixed monthly fee and an additional cost per hour for using the badminton court. A student using the gym observed that when she used the badminton court for 10 hours, her bill was 800 rupees. When she used it for 15 hours, her bill was 1100 rupees. If the monthly bill y depends on the hours of the use of the badminton court, x, according to the relation y = ax + b, find the values of a and b.",
+    "Consider the relationship between temperature measured in degrees Celsius and degrees Fahrenheit, which is given by C = a * F + b. Find a and b, given that ice melts at 0 degrees Celsius and 32 degrees Fahrenheit, and water boils at 100 degrees Celsius and 212 degrees Fahrenheit."
+   ]
+  },
+  {
+   "id": "ex2.6",
+   "source_ref": "iemh102.txt lines 1088-1099 (Exercise Set 2.6)",
+   "questions": [
+    "Draw the graphs of the following sets of lines. In each case, reflect on the role of 'a' and 'b': (i) y = 4x, y = 2x, y = x (ii) y = -6x, y = -3x, y = -x (iii) y = 5x, y = -5x (iv) y = 3x - 1, y = 3x, y = 3x + 1 (v) y = -2x - 3, y = -2x, y = 2x + 3"
+   ]
+  },
+  {
+   "id": "exEOC",
+   "source_ref": "iemh102.txt lines 1100-1287 (End-of-Chapter Exercises)",
+   "questions": [
+    "Write a polynomial of degree 3 in the variable x, in which the coefficient of the x^2 term is -7.",
+    "Find the values of the following polynomials at the indicated values of the variables: (i) 5x^2 - 3x + 7 if x = 1 (ii) 4t^3 - t^2 + 6 if t = a",
+    "If we multiply a number by 5/2 and add 2/3 to the product, we get -7/12. Find the number.",
+    "If you have 800 rupees and you save 250 rupees every month, find the amount you have after (i) 6 months (ii) 2 years. Express this as a linear pattern.",
+    "Draw the graph of the following equations, and identify their slopes and y-intercepts: (i) y = -3x + 4 (ii) 2y = 4x + 7 (iii) 5y = 6x - 10 (iv) 3y = 6x - 11. Are any of the lines parallel?",
+    "The graph of a linear polynomial p(x) passes through the points (1, 5) and (3, 11). (i) Find the polynomial p(x). (ii) Find the coordinates where the graph of p(x) cuts the axes.",
+    "Look at the growing pattern of hexagons made using matchsticks. Find a rule for the number of matchsticks required for the nth stage, and the number required at the 15th stage."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; schema/copyright/DSL/grounding reviewed, deduped and enriched by quality reviewer"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_10_006",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_10_006",
+   "title": "c12_cs_cbse_10_006",
+   "questions": [
+    {
+     "q": "What does `file.tell()` return immediately after opening a file in `'r'` mode, before any read or write operation?",
+     "a": "`file.tell()` returns `0` because the file pointer starts at the very beginning of the file (byte/character position 0). A wrong answer like `1` or `-1` reveals the student thinks file positions are 1-indexed or uninitialized — a fundamental misunderstanding of zero-based indexing in file I/O.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words the difference between `seek(10, 0)`, `seek(10, 1)`, and `seek(-10, 2)` assuming the file is opened in binary mode.",
+     "a": "`seek(10, 0)` moves the pointer to absolute byte 10 from the start of the file. `seek(10, 1)` moves the pointer 10 bytes forward from the current position. `seek(-10, 2)` moves the pointer 10 bytes backward from the end of the file (i.e., positions at file_size - 10). A wrong answer that treats all three as \"move to byte 10\" shows the student ignores the `whence` parameter — the most common error in board practical exams.",
+     "self_check": true
+    },
+    {
+     "q": "A binary file `data.bin` contains 100 records of exactly 20 bytes each. The file is opened as `f = open('data.bin', 'rb+')`. Write the single `seek()` call to position the pointer at the start of the 5th record (0-indexed, so record index 4).",
+     "a": "`f.seek(4 * 20, 0)` or `f.seek(80, 0)`. Each record is 20 bytes; the 5th record (index 4) starts at byte offset 4 × 20 = 80 from the beginning. A wrong answer like `f.seek(5 * 20, 0)` (off-by-one) or `f.seek(4, 0)` (forgetting to multiply by record size) reveals the student cannot translate logical record index to byte offset — a critical skill for competitive exam problems on random-access files.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the behaviour of `tell()` and `seek()` when a file is opened in text mode (`'r'`) versus binary mode (`'rb'`). Why does NCERT recommend binary mode for random-access operations?",
+     "a": "In text mode, `tell()` returns an opaque \"cookie\" that may not equal the true byte offset due to encoding (e.g., UTF-8 multi-byte characters) and universal newline translation (`\\r\\n` → `\\n`). `seek()` in text mode only accepts offsets returned by a previous `tell()` (or 0); arbitrary offsets raise `OSError`. In binary mode, `tell()` returns the exact byte index and `seek()` accepts any integer offset, enabling predictable arithmetic (record_size × index). NCERT recommends binary mode because record calculations require exact byte addressing. A student who says \"text mode works the same\" misses the encoding/newline pitfalls that cause silent data corruption in board practicals.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this code to append a new record to a binary file of fixed-length records:\n```python\nwith open('records.dat', 'rb+') as f:\n    f.seek(0, 2)          # go to end\n    f.write(new_record)\n```\nIs this correct? If not, what is the subtle bug and how would you fix it?",
+     "a": "The code is **incorrect** for `rb+` mode if the file is empty or if the intention is to *append* without overwriting. `seek(0, 2)` positions at the end correctly, but `rb+` opens for reading AND writing — if the file doesn't exist, `rb+` raises `FileNotFoundError` (unlike `'wb'` or `'ab'`). The fix: use `'ab'` (append binary) mode which creates the file if missing and always writes at the end, or use `'wb+'` if a new file is acceptable. A student who says \"it's correct\" misses the file-creation semantics of `+` modes — a frequent JEE/NEET trap where modes are tested for exact behaviour.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal Python function `update_record(filename, record_index, new_data, record_size)` that updates the `record_index`-th fixed-length record in a binary file *in-place* without reading the entire file into memory. Assume `len(new_data) == record_size`.",
+     "a": "```python\ndef update_record(filename, record_index, new_data, record_size):\n    with open(filename, 'rb+') as f:\n        f.seek(record_index * record_size, 0)\n        f.write(new_data)\n```\nA good answer uses `rb+` (read+write, no truncation), computes byte offset as `record_index * record_size`, seeks from start (`whence=0`), and writes exactly `record_size` bytes. A poor answer opens in `'wb'` (truncates file), uses text mode, forgets to multiply by `record_size`, or reads the whole file first — showing inability to apply random-access concepts to a realistic update scenario.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

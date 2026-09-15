@@ -1,0 +1,191 @@
+{
+ "catalog": "catalog_class12_political_science_leps204",
+ "concepts": [
+  {
+   "id": "leps.204.1.1",
+   "title": "Objectives and Constitutional Basis of Indian Foreign Policy",
+   "questions": [
+    {
+     "q": "Using the method 'Objectives and Constitutional Basis of Indian Foreign Policy', work with: preserve_sovereignty = 240, promote_economic_development = 50, protect_territorial_integrity = 24. Carry the chain through step by step and give the final value of foreign_policy_goals.",
+     "a": "314 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Objectives and Constitutional Basis of Indian Foreign Policy' and work with: preserve_sovereignty = 240, promote_economic_development = 15, protect_territorial_integrity = 6. Carry the chain through step by step and give the final value of foreign_policy_goals.",
+     "a": "261 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Objectives and Constitutional Basis of Indian Foreign Policy' refers to.",
+     "a": "Foreign policy grew out of the freedom movement's ideals and the international setting of the Cold War: Nehru, holding the Prime Minister and Foreign Minister posts together from 1946 to 1964, aimed at three goals -- preserving hard-won sovereignty, protecting territorial integrity and promoting rapid economic development -- with Article 51 of the Constitution directing the State to promote international peace, honourable relations between nations, respect for international law and settlement of disputes by arbitration.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Objectives and Constitutional Basis of Indian Foreign Policy'.",
+     "a": "For Nehru, the true test of independence was holding foreign relations in one's own hands; everything else was only local autonomy.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Objectives and Constitutional Basis of Indian Foreign Policy', in plain ASCII form.",
+     "a": "foreign_policy_goals = preserve_sovereignty + protect_territorial_integrity + promote_economic_development",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.204.2.1",
+   "title": "Policy of Non-Alignment and Distance from the Two Camps",
+   "questions": [
+    {
+     "q": "Using the method 'Policy of Non-Alignment and Distance from the Two Camps', work with: friendship_with_both_blocs = 75, independent_stance = 3, no_military_alliances = 24. Carry the chain through step by step and give the final value of non_alignment.",
+     "a": "102 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Policy of Non-Alignment and Distance from the Two Camps' and work with: friendship_with_both_blocs = 4, independent_stance = 18, no_military_alliances = 3. Carry the chain through step by step and give the final value of non_alignment.",
+     "a": "25 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Policy of Non-Alignment and Distance from the Two Camps' refers to.",
+     "a": "Non-alignment meant refusing to join the US-led NATO or the Soviet-led Warsaw Pact while staying friendly with both sides: India led world protest when Britain attacked Egypt over the Suez Canal in 1956 yet stayed silent when the USSR invaded Hungary, drew aid from both blocs, and irritated Washington by its independent line even as Pakistan joined US-led military alliances.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Policy of Non-Alignment and Distance from the Two Camps'.",
+     "a": "The balancing act was never perfect, but it kept India out of power-bloc entanglement and let it take independent positions on world issues.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Policy of Non-Alignment and Distance from the Two Camps', in plain ASCII form.",
+     "a": "non_alignment = no_military_alliances + independent_stance + friendship_with_both_blocs",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.204.3.1",
+   "title": "Afro-Asian Unity and the Founding of NAM",
+   "questions": [
+    {
+     "q": "Using the method 'Afro-Asian Unity and the Founding of NAM', work with: asian_relations_conference = 10, bandung_conference = 3, belgrade_summit = 300. Carry the chain through step by step and give the final value of nam_foundations.",
+     "a": "313 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Afro-Asian Unity and the Founding of NAM' and work with: asian_relations_conference = 240, bandung_conference = 6, belgrade_summit = 100. Carry the chain through step by step and give the final value of nam_foundations.",
+     "a": "346 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Afro-Asian Unity and the Founding of NAM' refers to.",
+     "a": "Nehru envisaged a major role for India in Asian and world affairs: convening the Asian Relations Conference of March 1947, an international conference in 1949 for Indonesia's freedom from Dutch rule, opposition to apartheid in South Africa, and the Bandung Conference of 1955 -- the zenith of Afro-Asian engagement -- which paved the way for the Non-Aligned Movement whose first summit met at Belgrade in September 1961 with Nehru as co-founder.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Afro-Asian Unity and the Founding of NAM'.",
+     "a": "Decolonised Asia and Africa found a collective voice, and India used its moral standing to convene and lead it.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Afro-Asian Unity and the Founding of NAM', in plain ASCII form.",
+     "a": "nam_foundations = asian_relations_conference + bandung_conference + belgrade_summit",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.204.4.1",
+   "title": "From Panchsheel to the China War of 1962",
+   "questions": [
+    {
+     "q": "Using the method 'From Panchsheel to the China War of 1962', work with: border_dispute = 240, invasion_1962 = 240, tibet_annexation = 24. Carry the chain through step by step and give the final value of china_crisis_chain.",
+     "a": "504 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'From Panchsheel to the China War of 1962' and work with: border_dispute = 20, invasion_1962 = 25, tibet_annexation = 24. Carry the chain through step by step and give the final value of china_crisis_chain.",
+     "a": "69 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'From Panchsheel to the China War of 1962' refers to.",
+     "a": "India's China friendship began warmly -- early recognition of the communist government after 1949 and the joint Panchsheel declaration of the five principles of peaceful coexistence on 29 April 1954 -- then soured over Tibet, annexed by China in 1950 and followed by the Dalai Lama's 1959 asylum in India, and over a boundary dispute in which China occupied Aksai Chin in Ladakh and claimed NEFA, launching an invasion in October 1962 that ended with a unilateral ceasefire but dented Nehru's stature.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'From Panchsheel to the China War of 1962'.",
+     "a": "A buffer lost in Tibet and an unsettled boundary converted brotherhood into battle within eight years of Panchsheel.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'From Panchsheel to the China War of 1962', in plain ASCII form.",
+     "a": "china_crisis_chain = tibet_annexation + border_dispute + invasion_1962",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.204.5.1",
+   "title": "Wars and Peace with Pakistan, 1947 to 1972",
+   "questions": [
+    {
+     "q": "Using the method 'Wars and Peace with Pakistan, 1947 to 1972', work with: bangladesh_war_1971_shimla = 25, kashmir_dispute_1947 = 500, war_1965_tashkent = 150. Carry the chain through step by step and give the final value of indo_pak_conflict.",
+     "a": "675 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Wars and Peace with Pakistan, 1947 to 1972' and work with: bangladesh_war_1971_shimla = 6, kashmir_dispute_1947 = 3, war_1965_tashkent = 360. Carry the chain through step by step and give the final value of indo_pak_conflict.",
+     "a": "369 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Wars and Peace with Pakistan, 1947 to 1972' refers to.",
+     "a": "Conflict with Pakistan began with the 1947-48 proxy war over Jammu and Kashmir referred to the UN, coexisted with cooperation such as the Indus Waters Treaty of 1960 mediated by the World Bank, and then escalated through the 1965 war ended by the Soviet-brokered Tashkent Agreement of January 1966, and the 1971 Bangladesh war in which about 80 lakh refugees entered India, a 20-year Treaty of Peace and Friendship with the USSR countered the US-Pakistan-China axis, about 90,000 Pakistani troops surrendered at Dhaka, and the Shimla Agreement of 3 July 1972 restored peace.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Wars and Peace with Pakistan, 1947 to 1972'.",
+     "a": "Even amid wars the two neighbours could settle river waters by treaty, yet Kashmir and great-power alignments kept the rivalry alive.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Wars and Peace with Pakistan, 1947 to 1972', in plain ASCII form.",
+     "a": "indo_pak_conflict = kashmir_dispute_1947 + war_1965_tashkent + bangladesh_war_1971_shimla",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.204.6.1",
+   "title": "Nuclear Policy and the Cost of Wars for Development",
+   "questions": [
+    {
+     "q": "Using the method 'Nuclear Policy and the Cost of Wars for Development', work with: defence_expenditure_rise = 25, derailed_five_year_plans = 100. Carry the chain through step by step and give the final value of war_cost.",
+     "a": "125 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Nuclear Policy and the Cost of Wars for Development' and work with: defence_expenditure_rise = 500, derailed_five_year_plans = 1000. Carry the chain through step by step and give the final value of war_cost.",
+     "a": "1500 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Nuclear Policy and the Cost of Wars for Development' refers to.",
+     "a": "The nuclear programme begun under Homi J. Bhabha in the late 1940s served peaceful purposes in Nehru's vision, and India called its first explosion of May 1974 a peaceful explosion while rejecting the NPT of 1968 and later the CTBT as discriminatory; meanwhile three wars in a decade diverted scarce resources to defence -- defence production and supplies departments rose in 1962 and 1965, the Third Plan faltered, three annual plans followed, and the Fourth Plan could start only in 1969.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Nuclear Policy and the Cost of Wars for Development'.",
+     "a": "A broad party consensus covered national interest in external affairs even as wars pushed guns ahead of the plans and the bomb question stayed unresolved.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Nuclear Policy and the Cost of Wars for Development', in plain ASCII form.",
+     "a": "war_cost = defence_expenditure_rise + derailed_five_year_plans",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

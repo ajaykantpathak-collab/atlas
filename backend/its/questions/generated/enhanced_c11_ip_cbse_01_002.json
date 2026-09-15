@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_01_002",
+   "title": "c11_ip_cbse_01_002",
+   "questions": [
+    {
+     "q": "List the four primary hardware components of a computer system as per the von Neumann architecture.",
+     "a": "The four primary hardware components are: (1) Central Processing Unit (CPU), (2) Primary Memory (RAM/ROM), (3) Input Devices, and (4) Output Devices. Secondary storage is often considered a fifth essential component in modern systems. A wrong answer that omits the CPU or memory, or includes software like \"Windows\", reveals that the student has not internalised the hardware-only perspective of the von Neumann model and is conflating physical components with logical layers.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a computer with only hardware components (CPU, memory, keyboard, monitor) but no software cannot perform any useful task for a user.",
+     "a": "Hardware provides the physical capability to compute, but without software (instructions), the CPU has no program to fetch, decode, or execute. The hardware remains an inert collection of circuits. A wrong answer that says \"the computer will still work but slowly\" or \"the user can type commands directly into the CPU\" shows a fundamental misunderstanding of the stored-program concept: the CPU only understands machine code, not human intent, and that machine code must be supplied as software.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each of the following as Hardware (H) or Software (S), and if Software, further classify as System Software (SS), Application Software (AS), or Programming Tool (PT): (a) Linux Ubuntu, (b) Laser Printer, (c) Python Interpreter, (d) SSD, (e) Tally ERP 9, (f) Device Driver for Wi-Fi card.",
+     "a": "(a) Linux Ubuntu – SS (Operating System); (b) Laser Printer – H (Output Device); (c) Python Interpreter – PT (translates high-level code to machine code); (d) SSD – H (Secondary Storage); (e) Tally ERP 9 – AS (Customised accounting software); (f) Device Driver – SS (manages specific hardware). A wrong classification of the Python Interpreter as Application Software indicates the student does not distinguish between tools that create software and software that solves end-user problems. Misclassifying a device driver as application software shows confusion about the system software layer.",
+     "self_check": true
+    },
+    {
+     "q": "Compare RAM and ROM across three dimensions: volatility, write-access during normal operation, and typical content stored. Present your answer as a 2×3 table.",
+     "a": "| Dimension | RAM | ROM |\n|-----------|-----|-----|\n| Volatility | Volatile (loses data on power-off) | Non-volatile (retains data without power) |\n| Write-access | Read-write (user programs modify it constantly) | Read-only in normal operation (written only during manufacturing or firmware updates) |\n| Typical content | Currently running programs, OS kernel, active data | Bootloader (BIOS/UEFI), firmware, permanent microcode |\n\nA wrong answer that claims ROM is \"read-only forever\" ignores modern EEPROM/flash updates. Claiming RAM stores the OS permanently confuses primary memory with secondary storage.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A smartphone is not a computer system because it does not have a separate CPU, keyboard, and monitor.\" Provide a reasoned judgment using the definition of a computer system.",
+     "a": "The statement is false. A smartphone integrates all von Neumann components: a System-on-Chip (SoC) contains CPU, GPU, and memory controllers (processing); built-in RAM and flash storage (primary/secondary memory); touchscreen (combined input/output); and runs an OS (Android/iOS) with apps. The form factor differs, but the architectural components are present. A wrong answer that agrees with the statement reveals a rigid, desktop-centric mental model and failure to apply the abstract definition to a concrete, modern device.",
+     "self_check": true
+    },
+    {
+     "q": "Design a block diagram for a computer system used in an ATM (Automated Teller Machine). Label all hardware components (including specialised I/O devices) and indicate the flow of data when a user withdraws cash. Briefly describe the role of the OS and the banking application software in this flow.",
+     "a": "A good answer includes: CPU (SoC), RAM, Secure Cryptoprocessor (hardware security module), Card Reader (input), Keypad (input), Display (output), Receipt Printer (output), Cash Dispenser (output), Network Interface (communication), Encrypted Storage (secondary). Data flow: Card Reader → CPU (verify PIN via OS & banking app) → Network → Bank Server → Response → CPU → Cash Dispenser + Printer + Display. OS manages hardware resources, schedules tasks, handles secure storage; banking app implements withdrawal logic, communicates with bank server. A poor diagram omits the secure element, network interface, or treats the cash dispenser as a generic printer, showing inability to map abstract components to a specialised embedded system.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

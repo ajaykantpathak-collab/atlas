@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_07_009",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_07_009",
+   "title": "c11_geo_cbse_07_009",
+   "questions": [
+    {
+     "q": "Define \"base level\" in Davis's cycle and distinguish between ultimate base level and local base level with one Indian example each.",
+     "a": "Base level is the lowest level to which a river can erode its channel. Ultimate base level is sea level (e.g., the Ganga entering the Bay of Bengal). Local base level is a temporary level like a lake, resistant rock layer, or dam (e.g., the Bhakra Dam on the Sutlej creating Gobind Sagar as a local base level). A wrong answer—such as confusing base level with \"river bed\" or \"water level\"—reveals the student does not grasp that base level controls the vertical limit of erosion and drives the entire cycle's progression.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a river in the Youth stage has a V-shaped valley with waterfalls and rapids, while a river in the Old Age stage develops a wide floodplain with meanders and oxbow lakes. What process dominates in each stage?",
+     "a": "In Youth, vertical erosion (downcutting) dominates because the river is far above base level with high gradient and kinetic energy, cutting deep V-valleys and forming waterfalls where resistant rock layers interrupt the profile. In Old Age, the river nears base level, gradient approaches zero, vertical erosion ceases, and lateral erosion dominates, widening the valley into a broad floodplain with meanders, oxbow lakes, and natural levees. A wrong answer attributing V-valleys to \"fast water\" without linking to gradient relative to base level shows the student memorizes landforms but not the process-form relationship central to Davis's model.",
+     "self_check": true
+    },
+    {
+     "q": "A topographic map shows a river with the following features: (a) valley cross-profile is asymmetric with steep slopes, (b) drainage density is very high, (c) no floodplain visible, (d) several waterfalls marked along the course. Identify the Davisian stage and justify using all four pieces of evidence.",
+     "a": "Youth stage. (a) Asymmetric steep slopes indicate active downcutting with insufficient time for mass wasting to widen the valley symmetrically. (b) High drainage density means many tributaries rapidly dissecting the upland—characteristic of initial dissection. (c) Absence of floodplain confirms lateral erosion has not begun. (d) Waterfalls mark knickpoints where resistant strata interrupt the long profile—common in Youth before graded profile develops. If a student picks \"Maturity\" because they see tributaries, they miss that high drainage density + no floodplain + waterfalls = Youth; Maturity has lower drainage density and a clear floodplain.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Narmada River (flowing through a rift valley with entrenched meanders at Bhedaghat) and the Damodar River (flowing through the Chotanagpur plateau with multiple waterfalls and gorges). Which river shows stronger evidence of rejuvenation? Explain using the concept of \"interruption of the cycle.\"",
+     "a": "The Narmada shows stronger rejuvenation evidence. Its entrenched meanders at Bhedaghat (marble rocks gorge) indicate a mature-stage meandering river that was uplifted, forcing it to cut downward into its own floodplain—classic rejuvenation. The Damodar's waterfalls and gorges (e.g., at Rajrappa) primarily reflect Youth-stage downcutting on a newly exposed plateau surface after regional uplift, not necessarily a \"reset\" of an already mature cycle. A student claiming both are \"Youth stage because of waterfalls\" fails to distinguish between initial Youth downcutting and rejuvenated downcutting—the latter preserves relict mature features (meander form) incised into bedrock.",
+     "self_check": true
+    },
+    {
+     "q": "Critique Davis's cycle using the Deccan Traps landscape: the Western Ghats escarpment has retreated eastward over millions of years, leaving a series of stepped plateaus rather than a single peneplain. Does this support or contradict Davis? What alternative concept explains it better?",
+     "a": "This contradicts Davis's prediction of a single, region-wide peneplain forming through progressive lowering. The Deccan Traps show parallel slope retreat (escarpment migration) creating successive planation surfaces (e.g., the Maharashtra Plateau, Karnataka Plateau), which aligns with Penck's morphogenetic cycle (simultaneous uplift and erosion) or King's pediplanation model, not Davis's sequential stages. A student saying \"Davis is wrong because India has plateaus\" misses the nuance: Davis works for tectonically stable cratons (e.g., parts of Bundelkhand), but fails where lithology (horizontal basalt flows) and tectonics (passive margin retreat) produce different evolution. The critique must reference process, not just outcome.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field investigation plan for a Class 11 geography project to determine the Davisian stage of a local stream near your school. Specify: (a) three measurable field parameters, (b) instruments needed, (c) how you would map the long profile, and (d) the decision rule to classify the stage.",
+     "a": "(a) Parameters: (1) Valley cross-profile width-to-depth ratio (W/D), (2) Channel gradient (slope) measured over 500 m reaches, (3) Floodplain width relative to channel width. (b) Instruments: Abney level/clinometer for slope, 30 m tape for widths, GPS for elevation points, ranging rods. (c) Long profile: Survey elevation at 50 m intervals along a 2 km stretch using leveling or GPS; plot elevation vs. distance; identify knickpoints and concavity. (d) Decision rule: Youth = W/D < 5, gradient > 0.5%, no floodplain; Maturity = W/D 5–20, gradient 0.1–0.5%, floodplain width > 5× channel width; Old Age = W/D > 20, gradient < 0.1%, floodplain width > 20× channel width, monadnocks present. A poor plan measures only \"water speed\" or \"rock size\" without linking to Davis's defining criteria (valley form, gradient, floodplain).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

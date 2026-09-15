@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_v_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_v_cbse_03_001",
+   "title": "c12_eng_v_cbse_03_001",
+   "questions": [
+    {
+     "q": "What is the single sentence in the \"Before You Read\" box, and what does it claim about Antarctica's value for understanding Earth?",
+     "a": "The box reads: \"If you want to know more about the planet's past, present and future, the Antarctica is the place to go to. Bon Voyage!\" It claims Antarctica is a unique archive for Earth's entire timeline. A wrong answer (e.g., \"It's about a trip to Antarctica\") reveals the student treats the box as a narrative hook rather than a conceptual thesis — they miss that the chapter frames Antarctica as a scientific laboratory, not a destination.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the author says \"for humans, the prognosis isn't good\" after describing the geological timescale of Gondwana and the 12,000-year span of human civilisation.",
+     "a": "On a geological clock where 500 million years of Gondwana is a full day, humans appear in the last few seconds — yet in that blink we've altered the atmosphere (CO₂ blanket) and triggered changes (ice-shelf collapse) that normally take millennia. The prognosis is poor because our impact rate vastly outpaces planetary adaptation rates. A wrong answer focusing only on \"global warming is bad\" misses the comparative timescale argument — the core of the chapter's perspective.",
+     "self_check": true
+    },
+    {
+     "q": "The text states: \"Antarctica... holds in its ice-cores half-million-year-old carbon records trapped in its layers of ice.\" Design a 3-step procedure a glaciologist would use to extract and interpret one such record.",
+     "a": "Step 1: Drill a vertical ice core at a site with minimal horizontal flow (e.g., Dome C) to preserve stratigraphic order. Step 2: Date each layer using isotopic ratios (δ¹⁸O for temperature, trapped air bubbles for CO₂/CH₄ concentration). Step 3: Correlate the CO₂ curve with global temperature proxies to reconstruct past climate sensitivity. A wrong answer that omits dating or correlation shows the student sees ice cores as \"frozen history books\" rather than data requiring scientific inference.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Gondwana breakup narrative (India pushing north → Himalayas; Drake Passage opening → Antarctic circumpolar current) with the modern climate-change narrative (fossil fuels → CO₂ blanket → warming). What structural similarity makes both \"geological phenomena\" that \"help us know about the history of humankind\"?",
+     "a": "Both are tectonic-scale forcings that reconfigure Earth's heat engine: Gondwana breakup rearranged continents and ocean currents, creating new climate regimes; anthropogenic CO₂ rearranges the atmospheric insulation, forcing a new regime. The similarity is boundary-condition change — the \"rules\" of the climate system shift. A wrong answer listing only superficial parallels (both involve warming/cooling) misses the systems-thinking framework the chapter demands.",
+     "self_check": true
+    },
+    {
+     "q": "Geoff Green switched from \"carting celebrities and retired, rich, curiosity-seekers\" to taking high-school students. Evaluate this decision using two criteria: (a) cognitive plasticity of the target group, (b) long-term policy leverage. Which criterion is more defensible?",
+     "a": "(a) Adolescents have high neuroplasticity and unformed worldviews — the \"age when they're ready to absorb, learn, and act.\" (b) They become future policy-makers; a single cohort of 52 students multiplies into decades of voting, funding, and legislative influence. Criterion (b) is more defensible because it scales: one expedition creates a distributed advocacy network, whereas (a) benefits only the participants. A wrong answer that calls it \"inspiring\" without analysing leverage reveals uncritical acceptance of the author's framing.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 50-word \"Before You Read\" box for a hypothetical chapter titled \"Journey to the Bottom of the Ocean: The Mariana Trench\" that mirrors the structure and rhetorical function of the Antarctica box.",
+     "a": "\"If you want to know more about the planet's deepest secrets, extremophile life, and the limits of human engineering, the Mariana Trench is the place to go. Dive deep!\" A poor answer copies the wording (\"past, present, future\") without adapting to the trench's unique scientific value (pressure adaptation, subduction zones, hadal ecosystems) — showing the student doesn't grasp the box's function as a content-specific thesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

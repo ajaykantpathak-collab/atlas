@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch9_8",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch9_8",
+   "title": "c8_math_ch9_8",
+   "questions": [
+    {
+     "q": "State the Pythagoras theorem formula and write the two rearranged forms to find (a) the hypotenuse when both legs are known, (b) a leg when the hypotenuse and the other leg are known.",
+     "a": "The theorem: \\(a^2 + b^2 = c^2\\), where \\(c\\) is the hypotenuse. (a) \\(c = \\sqrt{a^2 + b^2}\\). (b) \\(a = \\sqrt{c^2 - b^2}\\) or \\(b = \\sqrt{c^2 - a^2}\\). A wrong answer (e.g., writing \\(c = a + b\\) or forgetting the square root) reveals the student has memorized the formula without understanding the algebraic manipulation needed to isolate the unknown.",
+     "self_check": true
+    },
+    {
+     "q": "In a right triangle, the hypotenuse is 13 cm and one leg is 5 cm. A student computes the other leg as \\(\\sqrt{13^2 + 5^2} = \\sqrt{194} \\approx 13.9\\) cm. Explain why this is incorrect and what the student misunderstood.",
+     "a": "The student added the squares instead of subtracting. Since the hypotenuse is the longest side, the unknown leg must be \\(\\sqrt{13^2 - 5^2} = \\sqrt{169 - 25} = \\sqrt{144} = 12\\) cm. The error shows the student does not understand that the hypotenuse squared equals the sum of the squares of the legs, so to find a leg we must subtract the known leg's square from the hypotenuse's square.",
+     "self_check": true
+    },
+    {
+     "q": "A rectangular garden is 12 m long and 5 m wide. Find the length of the diagonal path across the garden. (Hint: The diagonal divides the rectangle into two right-angled triangles.)",
+     "a": "The diagonal is the hypotenuse of a right triangle with legs 12 m and 5 m. Using \\(c = \\sqrt{12^2 + 5^2} = \\sqrt{144 + 25} = \\sqrt{169} = 13\\) m. The diagonal is 13 m. A wrong answer (e.g., 17 m by adding 12+5) reveals the student is not squaring the sides or not taking the square root.",
+     "self_check": true
+    },
+    {
+     "q": "Two right triangles have the same hypotenuse length of 10 cm. Triangle A has legs 6 cm and 8 cm. Triangle B has one leg 5 cm. Compare the other leg of Triangle B with the legs of Triangle A. Which triangle has the longer unknown leg? Justify without calculating the exact value of the unknown leg of Triangle B.",
+     "a": "For Triangle A: \\(6^2+8^2=36+64=100=10^2\\). For Triangle B: unknown leg = \\(\\sqrt{10^2 - 5^2} = \\sqrt{100-25}=\\sqrt{75}\\). Since 75 is between 64 and 81, \\(\\sqrt{75}\\) is between 8 and 9. The legs of Triangle A are 6 and 8. The unknown leg of Triangle B is greater than 8 (since 75>64) but less than 9. So the unknown leg of Triangle B is longer than both legs of Triangle A. A wrong answer might say Triangle A's leg 8 is longer because 8>5, showing they don't analyze the relationship between squares.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Find the hypotenuse of a right triangle with legs 9 cm and 12 cm.\" Their working: \\(c^2 = 9^2 + 12^2 = 81 + 144 = 225\\). \\(c = 225\\). They answer 225 cm. Evaluate the solution: Is the final answer correct? If not, identify the error and give the correct answer.",
+     "a": "The final answer is incorrect. The error is in the last step: \\(c^2 = 225\\), so \\(c = \\sqrt{225} = 15\\), not 225. The student forgot to take the square root. The correct hypotenuse is 15 cm. A wrong evaluation (e.g., saying the answer is correct) reveals the student does not understand that \\(c^2 = 225\\) means \\(c\\) is the square root of 225.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (in Indian context) that requires using the Pythagoras theorem to find an unknown side. The problem must involve a right triangle where the unknown is a leg (not the hypotenuse). Provide the problem statement, a diagram description, and the solution steps.",
+     "a": "Example problem: \"A kite is flying at a height of 20 m. The string is 25 m long. How far horizontally is the kite from the person holding the string?\" Diagram: right triangle with vertical leg 20 m (height), hypotenuse 25 m (string), horizontal leg unknown. Solution: horizontal distance = \\(\\sqrt{25^2 - 20^2} = \\sqrt{625 - 400} = \\sqrt{225} = 15\\) m. A poor answer might create a problem where the unknown is the hypotenuse, or uses a non-right triangle, showing they don't understand the condition for applying the theorem.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

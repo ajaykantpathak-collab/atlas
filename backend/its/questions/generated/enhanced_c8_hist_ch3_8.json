@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_hist_ch3_8",
+ "concepts": [
+  {
+   "id": "enh:c8_hist_ch3_8",
+   "title": "c8_hist_ch3_8",
+   "questions": [
+    {
+     "q": "Name the three major land revenue systems introduced by the British in India, the primary region where each was implemented, and the key British official associated with each.",
+     "a": "1. **Permanent Settlement (1793)**: Implemented in Bengal, Bihar, and Odisha; introduced by Governor-General Lord Cornwallis.\n2. **Ryotwari Settlement (1820)**: Implemented in the Madras and Bombay Presidencies; developed by Thomas Munro and Alexander Read.\n3. **Mahalwari Settlement (1822)**: Implemented in the North-West Provinces, Central India, and Punjab; devised by Holt Mackenzie.\n\n*What a wrong answer reveals*: If a student mixes up the regions or administrators, it shows they are struggling with basic historical categorization and spatial mapping of British administrative policies.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the British East India Company decide to fix the land revenue permanently under the Permanent Settlement of 1793, and what major problem did this create for the Company later on?",
+     "a": "The Company fixed the revenue permanently to secure a regular, guaranteed minimum income to cover its administrative and military expenses, and to create a loyal class of landowning zamindars who would support British rule. However, this backfired because as agricultural prices and production rose in the 19th century, the zamindars' incomes increased dramatically, but the Company could not claim any share of this new wealth due to the permanent agreement.\n\n*What a wrong answer reveals*: A wrong answer often suggests the student believes the system was designed to protect peasants. It reveals a failure to recognize the Company's primary motive of risk-minimization and the long-term financial conflict between the colonial state and the zamindars.",
+     "self_check": true
+    },
+    {
+     "q": "A peasant in Madras under the Ryotwari system is unable to pay his high land revenue during a dry season. Why is he more likely to lose his land directly to a local moneylender rather than a zamindar?",
+     "a": "Under the Ryotwari system, there were no zamindars; the British state dealt directly with the individual peasant (*ryot*) as the recognized owner of the land. Because the land revenue was extremely high and demanded strictly in cash, the peasant had to mortgage his newly recognized land ownership rights to a local moneylender to get cash. When the peasant defaulted on the high-interest loan, the moneylender legally seized the land.\n\n*What a wrong answer reveals*: The student may fail to distinguish between the structural setups of the Permanent Settlement (zamindar-led) and the Ryotwari system (state-ryot direct relation), indicating a misconception that zamindars operated universally across all colonial revenue systems.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the major shift in how the East India Company financed its purchases of Indian goods (like textiles and spices) before 1765 versus after 1765.",
+     "a": "Before 1765, the Company had to import gold and silver bullion from Britain to purchase Indian goods, which benefited the Indian economy by injecting precious metals. After obtaining the *Diwani* rights in 1765, the Company used the surplus land revenues collected from Bengal peasants to buy Indian goods. This meant they no longer imported bullion and were essentially taking Indian goods for free to export and sell worldwide, initiating the \"Drain of Wealth.\"\n\n*What a wrong answer reveals*: The student might treat trade and revenue collection as isolated economic activities. A wrong answer shows they do not understand how political control (*Diwani*) directly subsidized colonial trade, which is the core concept of mercantilist exploitation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim that the Mahalwari system was \"fairer\" than the Permanent Settlement because it was based on periodic surveys of actual village lands.",
+     "a": "While the Mahalwari system appeared fairer in theory because it allowed for periodic revisions of revenue and surveyed actual land productivity, in practice, it was highly oppressive. The revenue estimates were set arbitrarily high (often up to 80% of rental value), the surveys were highly inaccurate, and the village headman (*Lambardar*) who collected the tax often used brutal force and passed the entire tax burden onto poor, lower-caste cultivators to protect his own position.\n\n*What a wrong answer reveals*: The student is taking colonial policy documents at face value. They fail to look past the \"scientific\" terminology of colonial administrators to evaluate the harsh, practical socio-economic realities of tax collection on the ground.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a logical chain of historical events showing how the British demand for revenue strictly in cash forced Indian farmers to shift from growing food crops (like rice and wheat) to cash crops (like indigo, opium, and cotton).",
+     "a": "The logical chain must include:\n1. **High Cash Revenue Demand**: The British demanded heavy taxes strictly in cash by fixed dates.\n2. **Need for Quick Cash**: Peasants could not get enough cash quickly by selling food crops in local, low-priced village markets.\n3. **Intervention of Traders/Planters**: British merchants and local agents offered cash advances to peasants if they agreed to grow lucrative export crops like indigo or opium.\n4. **Debt Trap & Forced Cultivation**: Peasants took the advances to pay their taxes, but the low prices paid for cash crops left them in permanent debt, forcing them to continue growing cash crops instead of food, leading to severe local food shortages and famines.\n\n*What a wrong answer reveals*: A poor answer would treat the shift to cash crops as a voluntary, modernizing choice by Indian farmers to earn more money, failing to see the structural coercion of cash revenue demands.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

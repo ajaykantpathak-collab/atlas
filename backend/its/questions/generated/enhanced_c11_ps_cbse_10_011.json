@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_10_011",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_10_011",
+   "title": "c11_ps_cbse_10_011",
+   "questions": [
+    {
+     "q": "What are the three organs of government in India as per the Constitution, and which article directs the separation of judiciary from executive?",
+     "a": "The three organs are Legislature, Executive, and Judiciary. Article 50 (a Directive Principle) directs the state to separate the judiciary from the executive in public services. A wrong answer (e.g., naming the President, Prime Minister, and Chief Justice as the three organs) reveals confusion between institutions and the structural branches of government.",
+     "self_check": true
+    },
+    {
+     "q": "Why does India not follow a strict separation of powers like the USA? Explain with reference to the parliamentary system.",
+     "a": "India adopts a parliamentary system where the executive (Council of Ministers) is drawn from and accountable to the legislature (Lok Sabha), leading to a fusion of personnel and functions. Strict separation would undermine collective responsibility (Article 75) and the confidence mechanism. A wrong answer (e.g., \"India has no separation of powers\") shows a misunderstanding of the nuanced Indian model which separates functions but fuses personnel at the political level.",
+     "self_check": true
+    },
+    {
+     "q": "A bill passed by Parliament is sent to the President. The President returns it for reconsideration. Parliament passes it again without changes and sends it back. What must the President do? Which check and balance is illustrated?",
+     "a": "Under Article 111, the President must give assent to the bill. This illustrates the President's suspensive veto as a check on the legislature, and Parliament's ultimate authority to override that veto as a check on the President. A wrong answer (e.g., \"the President can still refuse assent\") reveals ignorance of the mandatory nature of assent after reconsideration.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mechanism of judicial review in India with the US. How does the Indian Constitution balance judicial review with parliamentary sovereignty?",
+     "a": "India follows \"procedure established by law\" (Article 21) rather than the US \"due process\"; Indian judicial review is limited to constitutional validity, not policy wisdom. Parliament can amend the Constitution (Article 368) but not its basic structure (Kesavananda Bharati case). This creates a balance: the judiciary checks legislative excess, but Parliament retains constituent power within constitutional limits. A wrong answer (e.g., \"the Indian judiciary is supreme\") misses this delicate equilibrium.",
+     "self_check": true
+    },
+    {
+     "q": "Critically assess whether the anti-defection law (Tenth Schedule) strengthens or weakens checks and balances in Indian parliamentary democracy.",
+     "a": "The anti-defection law strengthens party discipline and government stability (a check on executive instability) but weakens individual legislators' freedom to dissent and hold the executive accountable, thereby reducing legislative oversight. A balanced evaluation must acknowledge both effects. A one-sided answer shows a lack of critical thinking about the trade-offs in institutional design.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical constitutional provision for a new democracy that ensures checks and balances between a directly elected President and a Parliament. Specify at least two mechanisms.",
+     "a": "A good answer might include: (1) The President can veto legislation, but Parliament can override with a two-thirds majority; (2) Parliament can impeach the President for constitutional violations; (3) The President appoints judges with Parliament's approval. A poor answer copies the US system without adaptation or omits mutual checks (e.g., only giving powers to one branch).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

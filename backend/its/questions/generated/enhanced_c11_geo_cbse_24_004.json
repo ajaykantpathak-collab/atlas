@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_24_004",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_24_004",
+   "title": "c11_geo_cbse_24_004",
+   "questions": [
+    {
+     "q": "On a 1:50,000 toposheet, you see a series of contour lines forming a distinct V-shape with the apex pointing towards higher elevation (contour values increase towards the apex). The contour interval is 20m. What landform does this represent, and what is the direction of stream flow if a blue line runs through the apex?",
+     "a": "This represents a **valley** (V-shaped, youthful river valley). The V-shape points upslope (towards higher elevation), and the stream flows **towards the apex of the V** (downslope). A wrong answer (e.g., \"ridge\" or \"stream flows away from apex\") reveals the student has memorized \"V-shape = valley\" but not understood the **contour bending rule**: contours bend upstream when crossing a valley because the valley floor is lower than surrounding land. They are confusing valley and ridge patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Two students examine a contour pattern showing a narrow, elongated projection of contours extending from a main hill mass (contour values: 300m, 320m, 340m on the projection; 360m, 380m on the main hill). Student A calls it a \"spur\"; Student B calls it a \"ridge.\" Who is correct, and what specific contour evidence distinguishes a spur from a ridge?",
+     "a": "**Student A is correct - it is a spur.** A spur is a **subsidiary projection** from a higher main feature (hill/ridge), shown by contours bulging outward from the main mass with **lower elevation values on the projection than the main feature**. A ridge is a **primary linear elevated crest** forming the main watershed divide, with contours forming a continuous high spine. The error reveals confusion between **hierarchy of relief features**: students often treat any linear elevation as a \"ridge\" without checking if it's a primary divide (ridge) or secondary projection (spur).",
+     "self_check": true
+    },
+    {
+     "q": "Given a toposheet extract (scale 1:50,000, CI=20m) showing two hill summits at 420m and 440m separated by a saddle. The lowest contour crossing the saddle neck is 380m. Calculate the **relative relief of the saddle** (difference between higher summit and saddle floor) and the **prominence of the lower summit** (difference between lower summit and saddle floor). Show working.",
+     "a": "**Step 1:** Identify higher summit = 440m, lower summit = 420m, saddle floor = 380m (lowest contour crossing the neck).\n**Step 2:** Relative relief of saddle = Higher summit - Saddle floor = 440 - 380 = **60m**.\n**Step 3:** Prominence of lower summit = Lower summit - Saddle floor = 420 - 380 = **40m**.\n**Step 4:** Verify: Saddle floor must be lower than both summits (380 < 420, 440 ✓).\nA wrong answer (e.g., using 400m as saddle floor) reveals inability to identify the **exact saddle floor elevation** - students often pick a contour near the neck rather than the lowest contour actually crossing the divide. This is critical for distinguishing saddle from col.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the contour patterns of a **glacial U-shaped valley** and a **river V-shaped valley** on a 1:50,000 toposheet (CI=20m). Both show contours bending upstream. List three distinct contour-based criteria to differentiate them, referencing contour spacing, shape of bend, and valley floor width.",
+     "a": "1. **Contour spacing on valley sides:** U-shaped valley shows **uniform, wide spacing** (gentle, planar slopes from glacial erosion); V-shaped valley shows **progressively closer spacing** towards valley floor (steep, convex slopes from fluvial erosion).\n2. **Shape of contour bend:** U-shaped valley has **broad, open U-bend** with large radius of curvature; V-shaped valley has **sharp, acute V-bend** with small radius.\n3. **Valley floor width (contour-free zone):** U-shaped valley has **wide flat floor** (multiple contiguous contours at same elevation or wide gap between opposite valley-side contours); V-shaped valley has **narrow or no flat floor** (contours from opposite sides nearly meet).\nWrong answers (e.g., \"U-valley has steeper sides\") reveal confusion between **process (glacial vs. fluvial) and form** - students memorize shapes but not the morphometric expression on contours.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"On a toposheet, a saddle and a col are identical - both are low points between two hills. The terms are interchangeable.\" Evaluate this statement using contour geometry and provide a counter-example from Himalayan topography.",
+     "a": "**The statement is incorrect.** A **saddle** is a **broad, gentle depression** between two summits with a **relatively wide, flat floor** (multiple contours or wide gap at the neck), allowing easy passage. A **col** is a **narrow, sharp notch** (deep, V-shaped gap) with **steep sides**, often the lowest point on a ridge crest, difficult to cross. Contour evidence: Saddle = wide contour spacing at neck, floor width > contour interval; Col = tight contour spacing, floor width ≈ 0. Counter-example: **Shipki La (Sutlej valley, Himachal)** is a broad saddle (ancient trade route); **Niti Pass (Uttarakhand)** is a sharp col on the main Himalayan ridge. Wrong evaluation reveals lack of **morphometric precision** - students treat all \"gaps\" as identical without quantifying width, slope, and floor geometry.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step field verification protocol for a Class 11 student to confirm a \"spur\" identified on a 1:50,000 toposheet (contour values 280m, 300m, 320m on spur; main ridge at 360m). The protocol must use only a compass, clinometer, GPS, and the toposheet - no satellite imagery. Include how to distinguish it from a ridge in the field.",
+     "a": "**Protocol:**\n1. **Locate on ground:** Use GPS + toposheet grid to reach spur crest (e.g., 300m contour).\n2. **Measure orientation:** Compass bearing along spur crest → should align with contour projection direction on map.\n3. **Profile slope:** Clinometer readings perpendicular to crest → should show **steep drop on both sides** (valley slopes), gentle slope along crest.\n4. **Check connectivity:** Walk downslope along crest → must **descend continuously to main ridge** (360m) without crossing a higher divide. If you must climb up to reach main ridge → it's a separate hill, not a spur.\n5. **Verify hierarchy:** From main ridge, observe spur as **subsidiary projection** (lower elevation, shorter length).\n**Distinction from ridge:** On a ridge, walking along crest in **both directions** leads to higher ground or continues as primary watershed. On a spur, **one direction leads up to main ridge**, the other descends to valley floor.\nPoor protocol (e.g., \"just walk and see\") reveals inability to **operationalize contour geometry into field observables** - the core skill of topographical analysis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

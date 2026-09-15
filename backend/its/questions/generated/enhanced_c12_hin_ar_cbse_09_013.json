@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_09_013",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_09_013",
+   "title": "c12_hin_ar_cbse_09_013",
+   "questions": [
+    {
+     "q": "What is the primary difference between *literal comprehension* (node 012) and *critical interpretation* of a poem?",
+     "a": "Literal comprehension answers \"what happens in the poem?\" (plot, surface meaning). Critical interpretation answers \"how does the poem achieve its effect and why does it matter?\" (devices, structure, context, thematic significance). A wrong answer that equates the two reveals the student is still hunting for facts instead of analyzing craft — they will paraphrase the poem in board exams instead of analyzing it, losing 3-4 marks on a 6-mark question.",
+     "self_check": true
+    },
+    {
+     "q": "In \"नक्शा मेरा खेत\", the poet writes \"नक्शा मेरा खेत / नक्शा मेरा खेत\" (repetition). A student says: \"The repetition shows the poet is emphasizing his ownership.\" Why is this answer incomplete for a Class 12 critical analysis?",
+     "a": "The answer identifies the device (repetition) and a surface function (emphasis) but misses the *structural* and *political* work: the repetition mimics the obsessive surveying of colonial cartography, transforms the map from a bureaucratic tool into a lyrical act of reclamation, and creates a chant-like rhythm that asserts identity against erasure. A student giving the incomplete answer treats devices as decoration, not argument — they will list devices in exams without explaining their thematic necessity.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the PEEL structure to analyze this claim: \"In 'चिड़ियों का आँगन', the line 'गकसय गकसय तकरह एस> फुट एक;क लस' uses onomatopoeia to create a peaceful mood.\" Write the Point and Evidence steps only.",
+     "a": "**Point:** The poet uses onomatopoeic repetition (\"गकसय गकसय\") to sonically enact the birds' movement, embedding tranquility in the poem's soundscape. **Evidence:** The reduplicated syllables \"गकसय गकसय\" mimic the soft, rhythmic flutter of wings, while the long vowels (अ, आ) slow the reading pace to match the \"गकसय\" (leisurely) gait. A wrong answer quotes the line without explaining *how* the sound creates mood — this is the \"quote-drop\" error that gets 1/6 marks.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the symbol of \"land\" in both poems. How does the shift from \"खेत\" (field) in Poem 1 to \"आँगन\" (courtyard) in Poem 2 reframe the concept of belonging?",
+     "a": "\"खेत\" is public, productive, contested terrain — mapped, measured, taxed by the state; the poet reclaims it through poetic mapping. \"आँगन\" is domestic, intimate, generational space — where birds nest and children play; it represents belonging that predates and exceeds colonial administration. The shift moves the argument from *political resistance* (reclaiming surveyed land) to *cultural continuity* (the courtyard as eternal sanctuary). A wrong answer treats both as generic \"land\" symbols, missing the poem's dialectical structure: resistance → rootedness.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student thesis: \"Makhanlal Chaturvedi's poems are primarily about nature's beauty.\" Defend or refute using evidence from both poems.",
+     "a": "Refute. Poem 1 opens with a colonial map (\"नक्शा\") and a \"वैकम\" (intruder) planting a \"छत\" (stake) — the central conflict is dispossession, not beauty. Poem 2's birds are \"उड़ह-कचख\" (fluttering) in a courtyard threatened by \"दतजस कनय\" (modernity's noise). Nature here is a *site of memory and resistance*, not aesthetic object. The thesis fails because it ignores the historical context (1947, colonial survey) and the poet's documented role in the freedom movement. A student holding this view will write descriptive nature essays instead of political-literary analyses.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-line stanza in Hindi that uses *one* device from Poem 1 (repetition/anaphora) and *one* device from Poem 2 (onomatopoeia/kinetic imagery) to express \"reclaiming a lost space.\"",
+     "a": "**Sample:**\nमेरा आँगन, मेरा आँगन — अनुप्रास से पुकारूं  \nफुर्र-फुर्र पंख, धरती चूमे — ध्वन्यानुकरण से सजाऊँ  \nनक्शे जला दिए मैंने, अब पैरों से नापूं  \nजड़ें गहरी, आसमान छुएँ — स्वराज का गीत गाऊँ  \n**Criteria:** Must use anaphora (repeated opening phrase) AND onomatopoeia/kinetic verb; must thematically link mapping/reclaiming. A poor answer uses devices mechanically without thematic integration — revealing they see devices as checklists, not expressive tools.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

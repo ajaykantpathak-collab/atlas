@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_02_002",
+   "title": "c11_biotech_cbse_02_002",
+   "questions": [
+    {
+     "q": "State the two main structural components of the plasma membrane according to the Fluid Mosaic Model and their approximate percentage composition in a human erythrocyte membrane.",
+     "a": "The two main components are lipids (~40%) and proteins (~52%) in human erythrocyte membrane. Carbohydrates (as glycolipids/glycoproteins) constitute the remainder. A wrong answer revealing \"phospholipids and cholesterol\" as the two main components shows confusion between lipid sub-types and the major macromolecular classes. Students often forget proteins are the majority component by mass in many membranes.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why phospholipids spontaneously form a bilayer in aqueous environments, and why the hydrophobic tails face each other rather than the water.",
+     "a": "Phospholipids are amphipathic: hydrophilic phosphate heads interact favorably with water (hydrogen bonding), while hydrophobic fatty acid tails avoid water. The bilayer minimizes hydrophobic surface area exposed to water, which is thermodynamically favorable (ΔG < 0). A wrong answer stating \"tails repel water so they hide\" uses anthropomorphic language and misses the thermodynamic driving force—hydrophobic effect is about water's entropy increase when nonpolar groups are sequestered, not active \"repulsion.\"",
+     "self_check": true
+    },
+    {
+     "q": "A researcher treats red blood cells with an enzyme that cleaves oligosaccharide chains from membrane glycoproteins. Predict the effect on: (a) cell-cell recognition, (b) membrane fluidity, (c) glucose transport via GLUT1. Justify each prediction.",
+     "a": "(a) Impaired: glycoproteins act as identity markers (e.g., ABO blood group antigens); (b) No change: fluidity depends on lipid composition (cholesterol, saturation) and temperature, not carbohydrate chains; (c) No change: GLUT1 is a transmembrane protein whose transport function is independent of glycosylation. A wrong answer claiming fluidity decreases reveals confusion between structural lipids and peripheral carbohydrate modifications.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the energy source and directionality of transport for: (i) Na⁺-K⁺ pump, (ii) glucose-Na⁺ symporter (SGLT1), (iii) GLUT1 uniporter. Present as a table with columns: Transporter, Energy Source, Direction Relative to Gradient, Transport Type.",
+     "a": "| Transporter | Energy Source | Direction | Transport Type |\n|-------------|---------------|-----------|----------------|\n| Na⁺-K⁺ pump | ATP hydrolysis | Both ions against gradient | Primary active transport (antiport) |\n| SGLT1 (glucose-Na⁺ symporter) | Na⁺ electrochemical gradient | Glucose against, Na⁺ along gradient | Secondary active transport (symport) |\n| GLUT1 | None (kinetic energy) | Along gradient only | Facilitated diffusion (uniport) |\nA wrong answer listing SGLT1 as \"ATP-driven\" confuses primary and secondary active transport. Students often miss that SGLT1 uses the Na⁺ gradient established by the Na⁺-K⁺ pump, not direct ATP.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Cholesterol makes the membrane more fluid at all temperatures because it spaces out phospholipids.\" Provide the correct temperature-dependent role of cholesterol.",
+     "a": "The statement is false. Cholesterol is a **fluidity buffer**: at high temperatures (above Tm), it restrains phospholipid motion, **decreasing** fluidity; at low temperatures (below Tm), it prevents tight packing, **increasing** fluidity. A wrong answer agreeing with the statement reveals a middle-school misconception that cholesterol only \"increases fluidity\" without understanding its bidirectional, temperature-dependent regulatory role. This is a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical experiment using fluorescent recovery after photobleaching (FRAP) to test whether a newly discovered membrane protein (Protein X) is integral or peripheral. Describe the expected fluorescence recovery curve for each case.",
+     "a": "Label Protein X with GFP. Bleach a small membrane region with laser. Monitor fluorescence recovery over time. **Integral protein**: Slow, incomplete recovery (limited lateral diffusion in bilayer). **Peripheral protein**: Rapid, complete recovery (freely diffusing on membrane surface, or cytosolic exchange). A poor answer suggesting \"no recovery for integral, full recovery for peripheral\" oversimplifies—integral proteins *do* diffuse laterally (fluid mosaic), just slower. The key is diffusion coefficient difference (D ~ 10⁻¹⁰ cm²/s for integral vs 10⁻⁸ cm²/s for peripheral).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch03_006",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch03_006",
+   "title": "c7_math_ch03_006",
+   "questions": [
+    {
+     "q": "Between which two consecutive whole numbers does the decimal $5.6$ lie on the number line?",
+     "a": "The decimal $5.6$ lies between whole numbers $5$ and $6$. A student who answers $4$ and $5$ has confused the whole number part or miscounted from zero, while a student who answers $6$ and $7$ has incorrectly rounded up instead of reading the integer part directly from the number's place value.",
+     "self_check": true
+    },
+    {
+     "q": "When dividing the unit segment between $2$ and $3$ into parts to locate $2.4$, into how many equal subdivisions must the interval be divided, and why?",
+     "a": "The interval must be divided into $10$ equal subdivisions because the first decimal place represents tenths ($\\frac{1}{10}$), requiring the whole unit to be split into ten equal parts. A student who says $100$ is confusing tenths with hundredths, and a student who says $4$ is mistakenly looking at the digit in the tenths place as the number of divisions rather than its fractional value.",
+     "self_check": true
+    },
+    {
+     "q": "A point $P$ is marked exactly $7$ small tick marks to the right of $4$ on a number line divided into tenths between each whole number. What decimal number does point $P$ represent?",
+     "a": "The decimal number represented is $4.7$. Working steps: 1) Identify the starting whole number integer, which is $4$. 2) Count the number of subdivision steps to the right, which is $7$ tenths ($0.7$). 3) Add the parts together: $4 + 0.7 = 4.7$. A student who answers $7.4$ has swapped the whole number and decimal parts, while a student who answers $4.07$ has confused tenths with hundredths place value.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the locations of $3.2$ and $3.02$ on a number line. Which one appears further to the right, and why?",
+     "a": "$3.2$ appears further to the right than $3.02$. Working/Reasoning: $3.2$ is equivalent to $3.20$, and when comparing $3.20$ and $3.02$, the tenths digit of $3.20$ is $2$, whereas the tenths digit of $3.02$ is $0$, making $3.2$ larger and thus positioned further right. A student who answers $3.02$ is misled by the length of the digits, thinking more digits mean a larger number without aligning place values.",
+     "self_check": true
+    },
+    {
+     "q": "Arjun located $4.3$ on a number line by starting at $4$, moving forward $3$ tenths marks, but then he claimed that $4.3$ is the exact midpoint between $4$ and $5$. Evaluate Arjun's claim and correct his error.",
+     "a": "Arjun's claim is incorrect. The exact midpoint between $4$ and $5$ is $4.5$ (or $4\\frac{1}{2}$), because $4.3$ is only three-tenths past $4$, whereas $4.5$ is five-tenths past $4$. A student who agrees with Arjun does not understand relative magnitude or thinks that any decimal ending in an odd number must be a halfway point.",
+     "self_check": true
+    },
+    {
+     "q": "Design a set of instructions for a classmate on how to locate the hundredths decimal $3.47$ on a number line, specifying the zoomed-in intervals needed.",
+     "a": "Expected response criteria: Instructions must state first to locate the integers $3$ and $4$, then zoom into the tenth interval between $3.4$ and $3.5$, and finally divide that tenth interval into ten equal microscopic subdivisions to find the $7$th mark for $3.47$. A poor answer simply says \"count to 3.47 on the ruler,\" failing to explain the hierarchical division into tenths and hundredths.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

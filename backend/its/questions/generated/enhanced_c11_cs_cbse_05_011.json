@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_05_011",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_05_011",
+   "title": "c11_cs_cbse_05_011",
+   "questions": [
+    {
+     "q": "What is the output of the following code?\n```python\nfor i in range(1, 6):\n    if i == 3:\n        break\n    print(i, end=' ')\n```",
+     "a": "Output: `1 2 `\nExplanation: The loop prints 1 and 2. When i becomes 3, the break statement executes, immediately terminating the loop. Numbers 3, 4, 5 are never printed. A wrong answer like `1 2 3` reveals the student thinks break completes the current iteration before exiting. A wrong answer like `1 2 3 4 5` reveals they think break only skips the print statement.",
+     "self_check": true
+    },
+    {
+     "q": "What is the output of the following code?\n```python\nfor i in range(1, 6):\n    if i == 3:\n        continue\n    print(i, end=' ')\n```",
+     "a": "Output: `1 2 4 5 `\nExplanation: When i is 3, continue skips the print statement and moves directly to the next iteration (i=4). The loop completes all iterations 1 through 5, only skipping the body for i=3. A wrong answer like `1 2` reveals confusion with break. A wrong answer like `1 2 3 4 5` reveals the student thinks continue does nothing or only works in while loops.",
+     "self_check": true
+    },
+    {
+     "q": "Predict the output of this nested loop:\n```python\nfor i in range(1, 4):\n    for j in range(1, 4):\n        if j == 2:\n            break\n        print(f\"({i},{j})\", end=' ')\n    print()\n```",
+     "a": "Output:\n```\n(1,1) \n(2,1) \n(3,1) \n```\nExplanation: For each i (1,2,3), the inner j-loop runs. When j=2, break executes, exiting ONLY the inner j-loop. The outer i-loop continues with next i. So for each i, only j=1 prints. A wrong answer showing `(1,1) (2,1) (3,1) (1,2) ...` reveals the student thinks break exits both loops. A wrong answer showing all 9 pairs reveals they think break only skips the print.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the final value of `count` in these two snippets:\n```python",
+     "a": "Snippet A: count = 5 (odd numbers 1,3,5,7,9 increment count). Snippet B: count = 0 (loop breaks at i=0 because 0%2==0, so count never increments). This tests understanding that continue processes all iterations (skipping some bodies), while break stops the entire loop at first even number (including 0). A wrong answer like both 5 reveals confusion between the two statements. A wrong answer like A=0, B=5 reveals reversed understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this code to find the first prime number in a list and stop searching:\n```python\nnumbers = [4, 6, 8, 9, 11, 13, 15]\nfor num in numbers:\n    is_prime = True\n    for d in range(2, num):\n        if num % d == 0:\n            is_prime = False\n            break\n    if is_prime:\n        print(f\"First prime: {num}\")\n        break\n```\nEvaluate: Does this code correctly find the first prime? If not, what is the logical flaw?",
+     "a": "The code works correctly and prints \"First prime: 11\". The inner break exits the divisor-checking loop early when a factor is found (efficient). The outer break exits the number-searching loop when a prime is found. This is a correct nested break pattern. A student who says \"it's wrong because break exits both loops\" holds the misconception that break exits all enclosing loops. A student who says \"it prints 13\" thinks the inner break exits the outer loop.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where you would use a while loop with both break and continue. Write pseudocode and explain why each is needed.",
+     "a": "Example: ATM withdrawal system. User has ₹10,000 balance. While balance > 0: ask for amount. If amount == 0: break (user cancels). If amount > balance: print \"Insufficient funds\", continue (skip deduction, ask again). Else: deduct, print new balance. Break handles voluntary exit. Continue handles invalid transaction without exiting loop. A poor answer uses break for both cases (would exit on insufficient funds) or continue for cancel (would loop infinitely). Reveals inability to map control flow to real logic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

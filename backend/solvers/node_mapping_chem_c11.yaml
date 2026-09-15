@@ -1,0 +1,681 @@
+# Maps 92 ISC Class 11 Chemistry syllabus nodes to problem types
+# Ensures complete syllabus coverage
+
+nodes:
+  # ─── Topic 1: Basic Concepts (10 nodes) ────────────────────────────────────
+  1.1:
+    node_name: "Matter and its states"
+    topic: "Basic Concepts of Chemistry"
+    problem_types: [mole_concept]
+    description: "Calculate moles from mass for various states of matter"
+
+  1.2:
+    node_name: "Properties of matter"
+    topic: "Basic Concepts of Chemistry"
+    problem_types: [mole_concept]
+    description: "Use density and molar mass to relate properties"
+
+  1.3:
+    node_name: "Laws of chemical combination"
+    topic: "Basic Concepts of Chemistry"
+    problem_types: [stoichiometry]
+    description: "Apply law of conservation of mass and definite proportions"
+
+  1.4:
+    node_name: "Dalton's atomic theory"
+    topic: "Basic Concepts of Chemistry"
+    problem_types: [mole_concept]
+    description: "Relate atomic theory to mole concept and stoichiometry"
+
+  1.5:
+    node_name: "Mole concept"
+    topic: "Basic Concepts of Chemistry"
+    problem_types: [mole_concept, stoichiometry, limiting_reagent]
+    description: "Fundamental mole calculations, Avogadro's number"
+
+  1.6:
+    node_name: "Molar mass"
+    topic: "Basic Concepts of Chemistry"
+    problem_types: [mole_concept, stoichiometry]
+    description: "Calculate molar mass from periodic table data"
+
+  1.7:
+    node_name: "Empirical formula"
+    topic: "Basic Concepts of Chemistry"
+    problem_types: [empirical_formula]
+    description: "Determine empirical formula from % composition"
+
+  1.8:
+    node_name: "Molecular formula"
+    topic: "Basic Concepts of Chemistry"
+    problem_types: [molecular_formula]
+    description: "Determine molecular formula from empirical formula and molar mass"
+
+  1.9:
+    node_name: "Stoichiometry"
+    topic: "Basic Concepts of Chemistry"
+    problem_types: [stoichiometry, limiting_reagent]
+    description: "Stoichiometric calculations from balanced equations"
+
+  1.10:
+    node_name: "Limiting reagent and percentage yield"
+    topic: "Basic Concepts of Chemistry"
+    problem_types: [limiting_reagent, percent_yield]
+    description: "Identify limiting reagent and calculate % yield"
+
+  # ─── Topic 2: Atomic Structure (11 nodes) ───────────────────────────────────
+  2.1:
+    node_name: "Discovery of subatomic particles"
+    topic: "Atomic Structure"
+    problem_types: [electronic_configuration]
+    description: "Thomson, Millikan, Rutherford experiments"
+
+  2.2:
+    node_name: "Rutherford's nuclear model"
+    topic: "Atomic Structure"
+    problem_types: [mole_concept]
+    description: "Nuclear model and its limitations"
+
+  2.3:
+    node_name: "Bohr's model"
+    topic: "Atomic Structure"
+    problem_types: [bohr_energy_levels]
+    description: "Bohr model for hydrogen atom, energy levels, spectral lines"
+
+  2.4:
+    node_name: "Quantum mechanical model"
+    topic: "Atomic Structure"
+    problem_types: [electronic_configuration, debroglie_wavelength]
+    description: "Wave nature of matter, Heisenberg uncertainty"
+
+  2.5:
+    node_name: "Quantum numbers"
+    topic: "Atomic Structure"
+    problem_types: [electronic_configuration]
+    description: "Four quantum numbers: n, l, m_l, m_s"
+
+  2.6:
+    node_name: "Shapes of orbitals"
+    topic: "Atomic Structure"
+    problem_types: [electronic_configuration]
+    description: "s, p, d orbital shapes (qualitative)"
+
+  2.7:
+    node_name: "Aufbau principle"
+    topic: "Atomic Structure"
+    problem_types: [electronic_configuration]
+    description: "Filling order of orbitals"
+
+  2.8:
+    node_name: "Pauli exclusion principle"
+    topic: "Atomic Structure"
+    problem_types: [electronic_configuration]
+    description: "No two electrons have same set of four quantum numbers"
+
+  2.9:
+    node_name: "Hund's rule of maximum multiplicity"
+    topic: "Atomic Structure"
+    problem_types: [electronic_configuration]
+    description: "Electrons fill degenerate orbitals singly first"
+
+  2.10:
+    node_name: "Electronic configuration of atoms"
+    topic: "Atomic Structure"
+    problem_types: [electronic_configuration]
+    description: "Writing configurations, exceptions (Cr, Cu)"
+
+  2.11:
+    node_name: "Stability of half-filled and fully-filled orbitals"
+    topic: "Atomic Structure"
+    problem_types: [electronic_configuration]
+    description: "Extra stability of d⁵ and d¹⁰ configurations"
+
+  # ─── Topic 3: Classification of Elements (8 nodes) ──────────────────────────
+  3.1:
+    node_name: "Significance of classification"
+    topic: "Classification of Elements"
+    problem_types: [ionization_enthalpy_trend, electronegativity_calculation]
+    description: "Mendeleev's and modern periodic table"
+
+  3.2:
+    node_name: "Modern periodic law"
+    topic: "Classification of Elements"
+    problem_types: [electron_gain_enthalpy]
+    description: "Properties periodic function of atomic number"
+
+  3.3:
+    node_name: "Periodic trends in properties"
+    topic: "Classification of Elements"
+    problem_types: [atomic_radii, ionization_enthalpy_trend, electron_gain_enthalpy, electronegativity_calculation]
+    description: "General periodic trends"
+
+  3.4:
+    node_name: "Atomic radii"
+    topic: "Classification of Elements"
+    problem_types: [atomic_radii]
+    description: "covalent, van der Waals, metallic, ionic radii"
+
+  3.5:
+    node_name: "Ionization enthalpy"
+    topic: "Classification of Elements"
+    problem_types: [ionization_enthalpy_trend]
+    description: "IE₁, IE₂, IE₃ and trends"
+
+  3.6:
+    node_name: "Electron gain enthalpy"
+    topic: "Classification of Elements"
+    problem_types: [electron_gain_enthalpy]
+    description: "Trends and anomalies"
+
+  3.7:
+    node_name: "Electronegativity"
+    topic: "Classification of Elements"
+    problem_types: [electronegativity_calculation]
+    description: "Pauling, Mulliken scales, bond polarity"
+
+  3.8:
+    node_name: "Anomalous properties of second period elements"
+    topic: "Classification of Elements"
+    problem_types: [electronegativity_calculation]
+    description: "Li, Be, B, C, N, O, F anomalies"
+
+  # ─── Topic 4: Chemical Bonding (10 nodes) ────────────────────────────────────
+  4.1:
+    node_name: "Kossel-Lewis approach to chemical bonding"
+    topic: "Chemical Bonding"
+    problem_types: [lewis_structure]
+    description: "Octet rule, Lewis structures"
+
+  4.2:
+    node_name: "Ionic bond formation"
+    topic: "Chemical Bonding"
+    problem_types: [lewis_structure]
+    description: "Electrostatic attraction in ionic compounds"
+
+  4.3:
+    node_name: "Bond parameters"
+    topic: "Chemical Bonding"
+    problem_types: [bond_enthalpy]
+    description: "Bond length, bond angle, bond enthalpy"
+
+  4.4:
+    node_name: "VSEPR theory and shapes"
+    topic: "Chemical Bonding"
+    problem_types: [vsepr_geometry]
+    description: "Predicting molecular shapes from VSEPR"
+
+  4.5:
+    node_name: "Valence bond theory"
+    topic: "Chemical Bonding"
+    problem_types: [hybridization, molecular_orbital_theory]
+    description: "Overlapping atomic orbitals, hybridization"
+
+  4.6:
+    node_name: "Hybridization"
+    topic: "Chemical Bonding"
+    problem_types: [hybridization]
+    description: "sp, sp², sp³, sp³d, sp³d² hybridization"
+
+  4.7:
+    node_name: "Molecular orbital theory"
+    topic: "Chemical Bonding"
+    problem_types: [molecular_orbital_theory]
+    description: "MO diagrams for homonuclear diatomics"
+
+  4.8:
+    node_name: "Bonding in homonuclear diatomics"
+    topic: "Chemical Bonding"
+    problem_types: [molecular_orbital_theory]
+    description: "H₂, N₂, O₂, F₂ MO diagrams"
+
+  4.9:
+    node_name: "Hydrogen bonding"
+    topic: "Chemical Bonding"
+    problem_types: [hydrogen_bonding]
+    description: "Intermolecular H-bonding and its effects"
+
+  4.10:
+    node_name: "Molecular orbital diagrams"
+    topic: "Chemical Bonding"
+    problem_types: [molecular_orbital_theory]
+    description: "Energy level diagrams, bond order, magnetism"
+
+  # ─── Topic 5: Thermodynamics (10 nodes) ─────────────────────────────────────
+  5.1:
+    node_name: "Concept of a system"
+    topic: "Thermodynamics"
+    problem_types: [hess_law, gibbs_free_energy]
+    description: "System, surroundings, boundary types"
+
+  5.2:
+    node_name: "First law of thermodynamics"
+    topic: "Thermodynamics"
+    problem_types: [hess_law, bond_enthalpy]
+    description: "ΔU = q + w; work, heat, internal energy"
+
+  5.3:
+    node_name: "Internal energy and enthalpy"
+    topic: "Thermodynamics"
+    problem_types: [hess_law, bond_enthalpy]
+    description: "H = U + PV, ΔH = q_p"
+
+  5.4:
+    node_name: "Measurement of ΔU and ΔH"
+    topic: "Thermodynamics"
+    problem_types: [bond_enthalpy]
+    description: "Calorimetry, bomb calorimeter"
+
+  5.5:
+    node_name: "Hess's law of constant heat summation"
+    topic: "Thermodynamics"
+    problem_types: [hess_law]
+    description: "State function, path independence"
+
+  5.6:
+    node_name: "Enthalpy of bond dissociation"
+    topic: "Thermodynamics"
+    problem_types: [bond_enthalpy]
+    description: "Average bond enthalpies"
+
+  5.7:
+    node_name: "Enthalpy of combustion, formation, atomization"
+    topic: "Thermodynamics"
+    problem_types: [hess_law]
+    description: "Standard enthalpies from tables"
+
+  5.8:
+    node_name: "Entropy and second law"
+    topic: "Thermodynamics"
+    problem_types: [gibbs_free_energy]
+    description: "Spontaneity, ΔS_universe"
+
+  5.9:
+    node_name: "Gibbs energy change"
+    topic: "Thermodynamics"
+    problem_types: [gibbs_free_energy]
+    description: "ΔG = ΔH - TΔS, spontaneity criterion"
+
+  5.10:
+    node_name: "Relationship between ΔG and equilibrium constant"
+    topic: "Thermodynamics"
+    problem_types: [gibbs_free_energy]
+    description: "ΔG° = -RT ln K"
+
+  # ─── Topic 6: Equilibrium (11 nodes) ────────────────────────────────────────
+  6.1:
+    node_name: "Concept of dynamic equilibrium"
+    topic: "Chemical Equilibrium"
+    problem_types: [kp_kc_relation]
+    description: "Dynamic nature, forward = reverse rate"
+
+  6.2:
+    node_name: "Homogeneous and heterogeneous equilibrium"
+    topic: "Chemical Equilibrium"
+    problem_types: [kp_kc_relation, solubility_product]
+    description: "Single vs multiple phases"
+
+  6.3:
+    node_name: "Law of mass action"
+    topic: "Chemical Equilibrium"
+    problem_types: [kp_kc_relation]
+    description: "Rate laws and equilibrium constant expression"
+
+  6.4:
+    node_name: "Equilibrium constant"
+    topic: "Chemical Equilibrium"
+    problem_types: [kp_kc_relation]
+    description: "Kc expression from balanced equation"
+
+  6.5:
+    node_name: "Relationship between Kp and Kc"
+    topic: "Chemical Equilibrium"
+    problem_types: [kp_kc_relation]
+    description: "Kp = Kc(RT)^Δn"
+
+  6.6:
+    node_name: "Le Chatelier's principle"
+    topic: "Chemical Equilibrium"
+    problem_types: [kp_kc_relation]
+    description: "Effect of T, P, concentration on equilibrium"
+
+  6.7:
+    node_name: "Ionic equilibrium"
+    topic: "Chemical Equilibrium"
+    problem_types: [ph_calculation_strong, buffer_solution, solubility_product]
+    description: "Acid-base equilibrium in aqueous solutions"
+
+  6.8:
+    node_name: "Acids and bases (Arrhenius, Bronsted-Lowry, Lewis)"
+    topic: "Chemical Equilibrium"
+    problem_types: [ph_calculation_strong, buffer_solution, hydrolysis_of_salts]
+    description: "Definitions, conjugate pairs, amphiprotic species"
+
+  6.9:
+    node_name: "pH scale"
+    topic: "Chemical Equilibrium"
+    problem_types: [ph_calculation_strong, buffer_solution, hydrolysis_of_salts]
+    description: "pH, pOH, neutralization"
+
+  6.10:
+    node_name: "Solubility product and common ion effect"
+    topic: "Chemical Equilibrium"
+    problem_types: [solubility_product, common_ion_effect]
+    description: "Ksp, precipitation conditions"
+
+  6.11:
+    node_name: "Hydrolysis of salts"
+    topic: "Chemical Equilibrium"
+    problem_types: [hydrolysis_of_salts]
+    description: "pH of salt solutions, Kh"
+
+  # ─── Topic 7: Redox Reactions (8 nodes) ─────────────────────────────────────
+  7.1:
+    node_name: "Concept of oxidation and reduction"
+    topic: "Redox Reactions"
+    problem_types: [oxidation_number, redox_balancing_ion_electron]
+    description: "Loss/gain of electrons, change in oxidation number"
+
+  7.2:
+    node_name: "Oxidation number rules"
+    topic: "Redox Reactions"
+    problem_types: [oxidation_number]
+    description: "Rules for assigning oxidation numbers"
+
+  7.3:
+    node_name: "Balancing redox reactions"
+    topic: "Redox Reactions"
+    problem_types: [redox_balancing_ion_electron]
+    description: "Oxidation number method and ion-electron method"
+
+  7.4:
+    node_name: "Redox reactions as electron transfer"
+    topic: "Redox Reactions"
+    problem_types: [redox_balancing_ion_electron]
+    description: "Disproportionation, comproportionation"
+
+  7.5:
+    node_name: "Ion-electron method"
+    topic: "Redox Reactions"
+    problem_types: [redox_balancing_ion_electron]
+    description: "Half-reaction method in acidic/basic medium"
+
+  7.6:
+    node_name: "Redox titrations"
+    topic: "Redox Reactions"
+    problem_types: [redox_titration]
+    description: "KMnO₄, K₂Cr₂O₇ titrations, indicators"
+
+  7.7:
+    node_name: "Redox reactions and electrode processes"
+    topic: "Redox Reactions"
+    problem_types: [redox_titration]
+    description: "Introduction to electrochemistry"
+
+  7.8:
+    node_name: "Applications of redox reactions"
+    topic: "Redox Reactions"
+    problem_types: [oxidation_number, redox_titration]
+    description: "Industrial processes, corrosion, combustion"
+
+  # ─── Topic 8: Hydrogen (8 nodes) ────────────────────────────────────────────
+  8.1:
+    node_name: "Position of hydrogen in periodic table"
+    topic: "Hydrogen"
+    problem_types: [hydride_classification]
+    description: "Unique position of H in group 1 and 17"
+
+  8.2:
+    node_name: "Isotopes of hydrogen"
+    topic: "Hydrogen"
+    problem_types: [hydride_classification]
+    description: "Protium, deuterium, tritium properties and uses"
+
+  8.3:
+    node_name: "Preparation of hydrogen"
+    topic: "Hydrogen"
+    problem_types: [hydrogen_preparation]
+    description: "Lab and industrial methods"
+
+  8.4:
+    node_name: "Properties of hydrogen"
+    topic: "Hydrogen"
+    problem_types: [hydrogen_preparation]
+    description: "Physical and chemical properties"
+
+  8.5:
+    node_name: "Hydrides"
+    topic: "Hydrogen"
+    problem_types: [hydride_classification]
+    description: "Ionic, covalent, metallic, interstitial hydrides"
+
+  8.6:
+    node_name: "Water"
+    topic: "Hydrogen"
+    problem_types: [water_hardness]
+    description: "Structure, properties, hardness, softening"
+
+  8.7:
+    node_name: "Hydrogen peroxide"
+    topic: "Hydrogen"
+    problem_types: [redox_titration]
+    description: "Preparation, properties, oxidizing/reducing nature"
+
+  8.8:
+    node_name: "Heavy water"
+    topic: "Hydrogen"
+    problem_types: [hydride_classification]
+    description: "D₂O preparation and use as moderator"
+
+  # ─── Topic 9: s-Block Elements (10 nodes) ───────────────────────────────────
+  9.1:
+    node_name: "Group 1 elements - alkali metals"
+    topic: "s-Block Elements"
+    problem_types: [alkali_metal_properties, sodium_compounds]
+    description: "Li, Na, K, Rb, Cs, Fr - general characteristics"
+
+  9.2:
+    node_name: "Properties of alkali metals"
+    topic: "s-Block Elements"
+    problem_types: [alkali_metal_properties]
+    description: "Physical and chemical properties trends"
+
+  9.3:
+    node_name: "Compounds of sodium - NaOH"
+    topic: "s-Block Elements"
+    problem_types: [sodium_compounds]
+    description: "Caustic soda - preparation, properties, uses"
+
+  9.4:
+    node_name: "Compounds of sodium - Na₂CO₃ and NaHCO₃"
+    topic: "s-Block Elements"
+    problem_types: [sodium_compounds]
+    description: "Washing soda, baking soda - Solvay process"
+
+  9.5:
+    node_name: "Group 2 elements - alkaline earth metals"
+    topic: "s-Block Elements"
+    problem_types: [alkaline_earth_properties]
+    description: "Be, Mg, Ca, Sr, Ba, Ra - general characteristics"
+
+  9.6:
+    node_name: "Properties of alkaline earth metals"
+    topic: "s-Block Elements"
+    problem_types: [alkaline_earth_properties]
+    description: "Physical and chemical properties trends"
+
+  9.7:
+    node_name: "Compounds of calcium"
+    topic: "s-Block Elements"
+    problem_types: [calcium_compounds]
+    description: "CaO, Ca(OH)₂, CaCO₃, CaSO₄·2H₂O, CaSO₄·½H₂O"
+
+  9.8:
+    node_name: "Plaster of Paris"
+    topic: "s-Block Elements"
+    problem_types: [calcium_compounds]
+    description: "Preparation, setting, uses"
+
+  9.9:
+    node_name: "Cement"
+    topic: "s-Block Elements"
+    problem_types: [calcium_compounds]
+    description: "Composition, setting, types"
+
+  9.10:
+    node_name: "Biological importance of Na and K"
+    topic: "s-Block Elements"
+    problem_types: [alkali_metal_properties]
+    description: "Na⁺/K⁺ pump, nerve transmission"
+
+  # ─── Topic 10: p-Block Elements (8 nodes) ───────────────────────────────────
+  10.1:
+    node_name: "Group 13 elements"
+    topic: "p-Block Elements"
+    problem_types: [boron_compounds, silicon_compounds]
+    description: "B, Al, Ga, In, Tl - general characteristics"
+
+  10.2:
+    node_name: "Important compounds of boron"
+    topic: "p-Block Elements"
+    problem_types: [boron_compounds]
+    description: "Borax, boric acid, diborane"
+
+  10.3:
+    node_name: "Aluminium compounds"
+    topic: "p-Block Elements"
+    problem_types: [boron_compounds]
+    description: "Al₂O₃, AlCl₃, alum"
+
+  10.4:
+    node_name: "Group 14 elements"
+    topic: "p-Block Elements"
+    problem_types: [carbon_compounds, silicon_compounds]
+    description: "C, Si, Ge, Sn, Pb - general characteristics"
+
+  10.5:
+    node_name: "Allotropes of carbon"
+    topic: "p-Block Elements"
+    problem_types: [carbon_compounds]
+    description: "Diamond, graphite, fullerenes, graphene"
+
+  10.6:
+    node_name: "Compounds of carbon - CO and CO₂"
+    topic: "p-Block Elements"
+    problem_types: [carbon_compounds]
+    description: "Properties, preparation, uses"
+
+  10.7:
+    node_name: "Compounds of silicon"
+    topic: "p-Block Elements"
+    problem_types: [silicon_compounds]
+    description: "Silicones, silicates, zeolites"
+
+  10.8:
+    node_name: "Uses of group 13 and 14 elements"
+    topic: "p-Block Elements"
+    problem_types: [boron_compounds, carbon_compounds, silicon_compounds]
+    description: "Industrial and biological applications"
+
+  # ─── Topic 11: Organic Chemistry Basics (10 nodes) ──────────────────────────
+  11.1:
+    node_name: "General concepts in organic chemistry"
+    topic: "Organic Chemistry – Basic Principles"
+    problem_types: [iupac_nomenclature, structural_isomerism]
+    description: "GWC rule, catenation, tetravalence"
+
+  11.2:
+    node_name: "Hybridization in organic molecules"
+    topic: "Organic Chemistry – Basic Principles"
+    problem_types: [iupac_nomenclature, reaction_mechanism]
+    description: "sp, sp², sp³ hybridization and geometry"
+
+  11.3:
+    node_name: "Shapes of organic molecules"
+    topic: "Organic Chemistry – Basic Principles"
+    problem_types: [hybridization]
+    description: "Bond angles, shapes based on hybridization"
+
+  11.4:
+    node_name: "IUPAC nomenclature"
+    topic: "Organic Chemistry – Basic Principles"
+    problem_types: [iupac_nomenclature]
+    description: "Systematic naming of organic compounds"
+
+  11.5:
+    node_name: "Structural isomerism"
+    topic: "Organic Chemistry – Basic Principles"
+    problem_types: [structural_isomerism]
+    description: "Chain, position, functional group isomerism"
+
+  11.6:
+    node_name: "Stereoisomerism"
+    topic: "Organic Chemistry – Basic Principles"
+    problem_types: [stereoisomerism]
+    description: "Geometrical and optical isomerism"
+
+  11.7:
+    node_name: "Homolytic and heterolytic fission"
+    topic: "Organic Chemistry – Basic Principles"
+    problem_types: [reaction_mechanism]
+    description: "Bond breaking mechanisms"
+
+  11.8:
+    node_name: "Electrophiles and nucleophiles"
+    topic: "Organic Chemistry – Basic Principles"
+    problem_types: [reaction_mechanism]
+    description: "Reactive intermediates and reagents"
+
+  11.9:
+    node_name: "Carbocations and carbanions"
+    topic: "Organic Chemistry – Basic Principles"
+    problem_types: [reaction_mechanism]
+    description: "Stability and reactions"
+
+  11.10:
+    node_name: "Free radicals"
+    topic: "Organic Chemistry – Basic Principles"
+    problem_types: [reaction_mechanism]
+    description: "Formation and reactions"
+
+  # ─── Topic 12: Hydrocarbons (7 nodes) ───────────────────────────────────────
+  12.1:
+    node_name: "Alkanes - preparation"
+    topic: "Hydrocarbons"
+    problem_types: [alkane_preparation_properties]
+    description: "Wurtz reaction, catalytic hydrogenation, decarboxylation"
+
+  12.2:
+    node_name: "Alkanes - properties"
+    topic: "Hydrocarbons"
+    problem_types: [alkane_preparation_properties]
+    description: "Free radical halogenation, combustion"
+
+  12.3:
+    node_name: "Alkenes - preparation and properties"
+    topic: "Hydrocarbons"
+    problem_types: [alkene_markovnikov]
+    description: "Dehydration of alcohols, electrophilic addition"
+
+  12.4:
+    node_name: "Markovnikov's rule"
+    topic: "Hydrocarbons"
+    problem_types: [alkene_markovnikov]
+    description: "Regiospecificity of electrophilic addition"
+
+  12.5:
+    node_name: "Alkynes - preparation and properties"
+    topic: "Hydrocarbons"
+    problem_types: [alkyne_preparation_properties]
+    description: "Calcium carbide, dehydrohalogenation, acidity"
+
+  12.6:
+    node_name: "Aromatic hydrocarbons - benzene"
+    topic: "Hydrocarbons"
+    problem_types: [benzene_aromatic]
+    description: "Structure, resonance, aromaticity"
+
+  12.7:
+    node_name: "Electrophilic substitution in benzene"
+    topic: "Hydrocarbons"
+    problem_types: [benzene_aromatic]
+    description: "Nitration, sulfonation, halogenation, Friedel-Crafts"

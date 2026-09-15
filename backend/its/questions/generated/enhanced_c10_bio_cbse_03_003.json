@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_03_003",
+   "title": "c10_bio_cbse_03_003",
+   "questions": [
+    {
+     "q": "Define fragmentation as a mode of asexual reproduction and name one organism that reproduces by this method.",
+     "a": "Fragmentation is a mode of asexual reproduction in which the parent body breaks into two or more fragments, each of which develops into a complete new individual; example: Spirogyra (a filamentous green alga). A wrong answer — such as \"fragmentation is when an organism regrows lost parts\" — reveals confusion between fragmentation (natural breaking as a reproductive strategy) and regeneration (regrowth ability that may serve reproduction); another error is naming Planaria as an example of fragmentation, which indicates the student does not distinguish that Planaria reproduces by regeneration when cut, not by natural fragmentation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why fragmentation and regeneration are possible only in organisms with relatively simple body organisation and not in complex multicellular organisms like mammals.",
+     "a": "Fragmentation and regeneration require the presence of undifferentiated or pluripotent cells distributed throughout the body that can divide and differentiate into all cell types; in simple organisms like Spirogyra and Planaria, many cells retain this capacity, whereas in complex organisms like mammals, cells are highly specialised early in development and lose the ability to dedifferentiate and form a complete organism. A wrong answer — such as \"mammals are too big\" or \"mammals don't live in water\" — reveals the student has not grasped the cellular basis (stem cell potency) and is reasoning from superficial features like size or habitat instead of cell differentiation status.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes a green filamentous alga in a pond. After a few days, the filaments break into smaller pieces, and each piece grows into a new filament. The student concludes this is regeneration. Is the student correct? Justify your answer.",
+     "a": "The student is incorrect. The process described is fragmentation, not regeneration. In fragmentation, the parent organism naturally breaks into fragments (often at specific weak points like septa in Spirogyra), and each fragment develops into a new individual without any external cutting or injury. Regeneration, in contrast, is the regrowth of lost parts after injury or experimental cutting; while some organisms like Planaria use regeneration as a reproductive mode when cut, Spirogyra's natural breaking is fragmentation. A wrong answer accepting \"regeneration\" shows the student cannot differentiate between a natural reproductive breakage (fragmentation) and injury-induced regrowth (regeneration), a distinction frequently tested in CBSE case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare fragmentation in Spirogyra and regeneration in Planaria with respect to: (i) trigger for the process, (ii) role of specialised cells, and (iii) whether it occurs naturally as a routine reproductive strategy.",
+     "a": "(i) Trigger: In Spirogyra, fragmentation occurs naturally due to mechanical stress or decay of intercalary cells; in Planaria, regeneration as reproduction is triggered by injury/cutting (experimental or accidental). (ii) Specialised cells: Spirogyra fragments contain ordinary vegetative cells that can divide; Planaria relies on neoblasts (pluripotent stem cells distributed throughout the body) that migrate to the wound site and differentiate. (iii) Natural routine: Fragmentation in Spirogyra is a routine, natural reproductive mode; regeneration in Planaria is primarily a survival mechanism, though it results in reproduction when the worm is cut. A wrong answer stating both use \"stem cells\" or both are \"triggered by cutting\" reveals confusion between the natural breakage mechanism of fragmentation and the injury-induced mechanism of regenerative reproduction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since starfish can regenerate lost arms, cutting a starfish into five pieces is an effective way to increase its population in a marine conservation programme.\" Identify the biological flaw and the practical limitation.",
+     "a": "The statement has a biological flaw: not every piece of a starfish can regenerate a complete organism — regeneration requires a portion of the central disc (containing vital organs) to be present in the fragment; an arm alone cannot regenerate a whole starfish. The practical limitation: deliberately cutting organisms is ethically unacceptable and ecologically risky, as it causes stress, infection risk, and may not yield viable individuals. A wrong answer focusing only on \"it's cruel\" without the biological requirement of the central disc shows the student lacks the specific anatomical knowledge that regeneration capacity is region-dependent, a key concept in CBSE competency questions on regeneration.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple investigation to test whether a given freshwater worm reproduces by fragmentation or by regeneration. List the materials, procedure, observations to record, and the conclusion criteria.",
+     "a": "Materials: Live freshwater worms (e.g., Tubifex or unidentified oligochaete), shallow dishes, pond water, magnifying glass, scissors. Procedure: (1) Place 10 worms in a dish undisturbed for 7 days; observe for natural breaking. (2) In a second dish, cut 10 similar worms into 2–3 pieces each; observe regrowth. Observations: Record if undisturbed worms break naturally and fragments develop (fragmentation); record if cut pieces regenerate heads/tails and become complete worms (regeneration). Conclusion: If natural breaking occurs → fragmentation; if only cut pieces regenerate → regeneration; if both → both modes possible. A poor answer that only says \"cut the worm and see\" without a control group (undisturbed worms) reveals the student does not understand the need to distinguish natural fragmentation from injury-induced regeneration — a critical experimental design skill for CBSE practical-based questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

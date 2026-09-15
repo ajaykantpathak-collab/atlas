@@ -1,0 +1,278 @@
+{
+ "class": 9,
+ "subject": "hindi",
+ "chapter": 11,
+ "chapter_title": "झाँसी की रानी",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/ihga111.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "ihga.111.1.1",
+   "title": "सुभद्रा कुमारी चौहान: राष्ट्र-चेतना की स्वतंत्रता सेनानी कवयित्री",
+   "section": "1",
+   "definition": "प्रयागराज (1904-1948) की सुभद्रा कुमारी चौहान स्वतंत्रता सेनानी भी थीं - दो बार जेल गईं - और कविताओं के माध्यम से जनमानस में राष्ट्रीय चेतना जगाने वाली रचनाकार भी; मुकुल, त्रिधारा, बिखरे मोती जैसी रचनाओं और सहज भाषा के लिए उन्हें दो बार सेकसरिया पुरस्कार तथा डाक टिकट के रूप में सम्मान मिला।",
+   "formula": "-",
+   "key_idea": "लेखन और संघर्ष - दोनों मोर्चों पर सक्रिय रही यह कवयित्री देशप्रेम को जन-भाषा में गाकर लोकप्रिय बनाई।",
+   "textbook_ref": "ihga111.txt lines 1-15 (कवयित्री का परिचय) तथा lines 16-22 (कविता की प्रस्तावना)",
+   "question_patterns": [
+    "Subhadra Kumari Chauhan ka parichay dijiye",
+    "svatantrata senani hone ke karan unke jeevan mein kya ghata",
+    "unke lekhan mein kaun kaun se vishay hain",
+    "Sekseriya puraskar kis kis rachna ke liye mila",
+    "unke bal sahitya ki rachnaein kaun si hain",
+    "rashtriya chetna jagane mein unki kavitaon ki bhumika kya thi"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "दोहरा परिचय बाँधिए",
+     "explain": "जेल-यात्रा वाली सेनानी और प्रसिद्ध रचनाकार - दोनों पहचानें साथ रखिए।"},
+    {"step": 2, "action": "रचनाएँ विधा-वार सूचिबद्ध कीजिए",
+     "explain": "कविता-संग्रह, कहानी-संग्रह और बाल-साहित्य तीनों में रचनाएँ हैं।"},
+    {"step": 3, "action": "भाषा-विशेष जोड़िए",
+     "explain": "भाषा की सहजता ही उनकी रचनाओं को जन-लोकप्रिय बनाती है।"}
+   ]
+  },
+  {
+   "id": "ihga.111.1.2",
+   "title": "'सिंहासन हिल उठे': बूढ़े भारत में नई जवानी",
+   "section": "1",
+   "definition": "कविता के आरंभ में 1857 की क्रांति का ऐलान है - सिंहासन हिले, राजवंशों ने भृकुटी तानी और बूढ़े भारत में फिर नई जवानी आई; गुमी हुई आजादी की कीमत सबने पहचानी और फिरंगी को दूर करने का ठान लिया - 'चमक उठी सन् सत्तावन में वह तलवार पुरानी थी' - विद्रोह की यह चिंगारी पूरे गीत की प्रेरणा है।",
+   "formula": "-",
+   "key_idea": "नई जवानी का भाव देश के जागता स्वाभिमान और विद्रोह की चेतना का प्रतीक है।",
+   "textbook_ref": "ihga111.txt lines 25-37 (पहली स्तवक) तथा अभ्यास प्रश्न-1 (lines 388-393)",
+   "question_patterns": [
+    "budhe bharat mein nai javani ka bhaav kya hai",
+    "simhasan hil utha se kya tatyap hai",
+    "gumi hui azadi ki keemat pahchanna kya matlab hai",
+    "chamak uthi san sattavan mein wah talwar purani thi ka arth likhiye",
+    "1857 ki kranti ki prishthbhumi samjhaiye",
+    "bhidroh ki chingari kis pankti mein jalti hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "चित्र की दो परतें देखिए",
+     "explain": "बूढ़ा भारत और नई जवानी के विरोधाभास से जागृति की प्रतीकात्मकता पकड़िए।"},
+    {"step": 2, "action": "तलवार का प्रतीक रखिए",
+     "explain": "पुरानी तलवार परंपरागत वीरता है जो 1857 में चमक उठी।"},
+    {"step": 3, "action": "भाव बाँधिए",
+     "explain": "नई जवानी उम्र नहीं, देशभक्ति की नई चेतना है।"}
+   ]
+  },
+  {
+   "id": "ihga.111.1.3",
+   "title": "लक्मीबाई का बचपन: छबीली, शस्त्राभ्यास और शिवाजी की गाथाएँ",
+   "section": "1",
+   "definition": "कानपुर के नाना की मुँहबोली बहन 'छबीली' - लक्मीबाई का बचपन उस युग की साधारण लड़कियों से भिन्न था; वह बरछी, ढाल, कृपाण, कटारी को सहेली मानती थी, नकली युद्ध, व्यूह-रचना और शिकार उसके प्रिय खिलवाड़ थे तथा वीर शिवाजी की गाथाएँ उसे ज़बानी याद थीं - यही शिक्षा उसमें वीरता का अवतार भर देती है।",
+   "formula": "-",
+   "key_idea": "शारीरिक साहस और इतिहास-चेतना का बचपन से मिलना ही रानी के भविष्य की नींव है।",
+   "textbook_ref": "ihga111.txt lines 38-69 (बचपन और व्यायाम के स्तवक)",
+   "question_patterns": [
+    "Lakmibai ke priya khel kaun kaun se the",
+    "Chhabili kahne se kya bhav prakat hota hai",
+    "uska bachpan doosron se kaise bhinn tha",
+    "barchhi dhaal kripan katari uski saheli kyon kahi gayi",
+    "Shivaji ki gathayen yaad hona kya batata hai",
+    "Lakshmi ya Durga virata ka avatar kaise kaha gaya"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "बचपन की पहचान बाँधिए",
+     "explain": "मुँहबोली बहन और साथ पढ़ना-खेलना नाना-संग की आत्मीयता बताता है।"},
+    {"step": 2, "action": "शस्त्र-अभ्यास की भाषा देखिए",
+     "explain": "हथियारों को सहेली कहना युद्धकला को जीवन-साथी बनाने का प्रतीक है।"},
+    {"step": 3, "action": "आदर्श-स्रोत जोड़िए",
+     "explain": "शिवाजी की गाथाएँ उसमें वीरता और देशसेवा की प्रेरणा भरती थीं।"}
+   ]
+  },
+  {
+   "id": "ihga.111.1.4",
+   "title": "'बुझा दीप झाँसी का': विधवा-रानी और डलहौजी का अवसरवाद",
+   "section": "1",
+   "definition": "महाराज के निःसंतान स्वर्गवास से रानी शोक-समानी हो जाती है और झाँसी का बुझा दीप डलहौजी को राज्य-हड़पने का अवसर दे देता है; 'लावारिस का वारिस बनकर ब्रिटिश राज्य झाँसी आया' - गोद लेने की भारतीय परंपरा के विरुद्ध जब्त-नीति लागू हुई और अश्रुपूर्ण रानी ने देखा कि झाँसी बिरानी हो गई।",
+   "formula": "-",
+   "key_idea": "व्यक्तिगत शोक के ऊपर राज्य-हड़प की चाल - यही उपनिवेशवाद का असली चेहरा है।",
+   "textbook_ref": "ihga111.txt lines 83-115 (विधवा होना और झाँसी जब्ती) तथा अभ्यास प्रश्न-3 (lines 399-403)",
+   "question_patterns": [
+    "bujha deep jhansi ka ka bhavarth kya hai",
+    "lavaris ka varis banne ki niti kya thi",
+    "Dalhauji ne kya avasar paya",
+    "rani vidhva hone par kya hua",
+    "jhansi birani hone ka kya arth hai",
+    "god lene ki parampara par angrejon ka kya rukh tha"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "दीप का प्रतीक रखिए",
+     "explain": "झाँसी राज्य की उम्मीदों का बुझ जाना या आकस्मिक निधन - दोनों अर्थ चलते हैं।"},
+    {"step": 2, "action": "नीति पहचानिए",
+     "explain": "लावारिस शब्द गोद-ग्रहण की मान्यता को अस्वीकार करने वाली जब्ती-नीति की ओर इशारा है।"},
+    {"step": 3, "action": "अन्याय का पैमाना रखिए",
+     "explain": "शोक-समानी रानी पर अतिक्रम ही कविता का नैतिक आरोप है।"}
+   ]
+  },
+  {
+   "id": "ihga.111.1.5",
+   "title": "समग्र दासता का चित्र: दिल्ली-लखनऊ से बंगाल-मद्रास तक की कहानी",
+   "section": "1",
+   "definition": "कविता केवल झाँसी नहीं, पूरे भारत की पराधीनता का नक्शा खींचती है - दिल्ली छिनी, लखनऊ बातों-बात लिया गया, पेशवा बिठूर में कैद, उदैपूर-तंजोर-सतारा-करनाटक की बिसात बिखरी और रनिवासों के आभूषण कलकत्ते के बाजार में नीलाम होने लगे - परदे की इज्जत तक बिकानी थी।",
+   "formula": "-",
+   "key_idea": "एक राज्य की पराधीनता नहीं, पूरे देश की गुलामी का सामूहिक चित्र ही क्रांति की पृष्ठभूमि है।",
+   "textbook_ref": "ihga111.txt lines 129-188 (फिरंगी की माया, राज्यों की जब्ती, रनिवासों की नीलामी)",
+   "question_patterns": [
+    "sare aam neelam chhapte the angrezon ke akhbar ka kya arth hai",
+    "kiski neelami hoti thi aur kyon",
+    "vyapari ban daya chahta tha jab yeh bharat aaya ka arth likhiye",
+    "jhansi ki rani ke samay angrezon ne dilli lakhnau aur doosre rajyon par kabza kaise kiya tha",
+    "ranivas ki beezati ka kya sanghatabhaav hai",
+    "poore desh ki paratantrata ka chitra kaise bana hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "भौगोलिक सूची को व्यवस्थित कीजिए",
+     "explain": "उत्तर से दक्षिण तक राज्यों की सूची ही साम्राज्य-विस्तार का प्रमाण है।"},
+    {"step": 2, "action": "व्यंग्य पकड़िए",
+     "explain": "'व्यापारी बन आया' कहकर कवियत्री ईस्ट इंडिया कंपनी के चेहरे को खोलती हैं।"},
+    {"step": 3, "action": "गरिमा-हनन देखिए",
+     "explain": "नौलख हार की नीलामी व्यक्तिगत नहीं, राष्ट्रीय अपमान का बिंब है।"}
+   ]
+  },
+  {
+   "id": "ihga.111.1.6",
+   "title": "स्वतंत्रता-महायज्ञ: क्रांति की चिंगारी और वीरों की सूची",
+   "section": "1",
+   "definition": "महलों ने आग दी और झोंपड़ी ने ज्वाला सुलगाई - स्वतंत्रता की चिंगारी अंतरतम से आई; झाँसी, दिल्ली, लखनऊ, मेरठ, कानपुर, पटना सब चेटे और इस महायज्ञ में नाना धुंधूपंत, ताँतिया, अज़ीमुल्ला, अहमद शाह मौलवी, कुँवरसिंह जैसे वीरों ने वे कुरबानियाँ दीं जो आज जुर्म कहलाती हैं।",
+   "formula": "-",
+   "key_idea": "वर्ग-भेद मिटाकर सबकी भागीदारी वाली सामूहिक क्रांति ही स्वतंत्रता-यज्ञ की आहुति है।",
+   "textbook_ref": "ihga111.txt lines 189-250 (क्रांति का प्रारंभ और वीरों की गाथा)",
+   "question_patterns": [
+    "mahalon ne di aag jhopdi ne jwala sulgai ka kya arth hai",
+    "swatantrata ki chingari antartam se kyon kahi gayi",
+    "1857 ke mahayag mein kaun kaun se veer aaye kaam",
+    "kis kis sthan mein kranti phaili",
+    "veeron ki kurbaani ko jurm kahlana kya batata hai",
+    "samaj ke vibhinn vargon ki ekta ka mahatva likhiye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "यज्ञ-उपमा का भाव रखिए",
+     "explain": "बलिदान की आहुतियों से ही स्वतंत्रता की ज्योति जलती है।"},
+    {"step": 2, "action": "भूगोल-प्रसार देखिए",
+     "explain": "नगर-नगर की चेट उठना दर्शाता है कि क्रांति स्थानीय नहीं थी।"},
+    {"step": 3, "action": "वीर-सूची बाँधिए",
+     "explain": "हर नाम इतिहास-गगन में अमर है - यही कवियत्री की श्रद्धांजलि है।"}
+   ]
+  },
+  {
+   "id": "ihga.111.1.7",
+   "title": "रणभूमि से वीरगति तक: द्वंद्व, कालपी-ग्वालियर और अमर स्मारक",
+   "section": "1",
+   "definition": "रानी ने लेफ्टिनेंट वॉकर को द्वंद्व में घायल किया, सौ मील निरंतर चलकर कालपी पहुँची, ग्वालियर पर अधिकार किया; काना-मंदरा सखियों के साथ लड़ते हुए नाले की बाधा में घायल सिंहनी की तरह वीरगति को प्राप्त हुई - मात्र तेइस वर्ष की आयु में उसने जीवित करने आई स्वतंत्रता-नारी का पथ दिखा दिया।",
+   "formula": "-",
+   "key_idea": "हार के बावजूद शौर्यपूर्ण अंत ही रानी को अमिट निशानी और शाश्वत स्मारक बना देता है।",
+   "textbook_ref": "ihga111.txt lines 251-380 (युद्ध के प्रसंग, वीरगति और श्रद्धांजलि स्तवक)",
+   "question_patterns": [
+    "rani ne Walker se yuddh ka parinam kya nikla",
+    "kalpi aur gwalior ki yatra ka varnan kijiye",
+    "kana aur mandara kaun thi aur unka kya yogdan raha",
+    "ghayal sinhni jaisi kyon kahi gayi rani",
+    "abhi umr kul teis ki thi pankti ka bhaav samjhaiye",
+    "teri smarak tu hi hogi ka sandesh kya hai"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "युद्ध-क्रम याद कीजिए",
+     "explain": "झाँसी - कालपी - ग्वालियर की यात्रा ही रानी की वीरगाथा की रीढ़ है।"},
+    {"step": 2, "action": "बाधा की गरिमा देखिए",
+     "explain": "नाला और संख्या-बल का असमान लाभ रानी की हार का कारण था, साहस नहीं।"},
+    {"step": 3, "action": "स्मारक-भाव बाँधिए",
+     "explain": "कृतज्ञ भारतवासी की श्रद्धा में रानी स्वयं अमर स्मारक है।"}
+   ]
+  },
+  {
+   "id": "ihga.111.1.8",
+   "title": "कथ्य-कविता की संरचना: गाथा, रिफ्रेन और समय-रेखा",
+   "section": "1",
+   "definition": "'झाँसी की रानी' कथ्य-कविता है जिसमें कविता और कहानी के तत्व जुड़े हैं - लक्मीबाई के बचपन से वीरगति तक की घटनाएँ क्रमबद्ध हैं; 'बुंदेले हरबोलों के मुँह हमने सुनी कहानी थी... खूब लड़ी मर्दानी वह तो झाँसी वाली रानी थी' का रिफ्रेन हर स्तवक को गेय और लोक-गाथा जैसा बनाता है।",
+   "formula": "-",
+   "key_idea": "लोकगाथा शैली और दोहराए जाने वाले स्तवक मिलकर कविता को गायन-क्षमता और स्मरणीयता देते हैं।",
+   "textbook_ref": "ihga111.txt lines 443-449 (कविता में कहानी) तथा हर स्तवक का अंतिम दोहा (जैसे lines 35-37)",
+   "question_patterns": [
+    "kathyata kavitva se kya tatyap hota hai",
+    "bundele harbolon ka ullekh kis liye kiya gaya hai",
+    "khub ladi mardani refrain ka kya kavya saundarya hai",
+    "kavita ki sangya mein ghatnaon ka kram kaise hai",
+    "kavita ki gayata aur lok-gatha shaili samjhaiye",
+    "lakmibai ke jeevan ki samay-rekha banaiye"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "कथ्य-तत्व पहचानिए",
+     "explain": "घटनाओं का क्रम और चरित्र-विकास कहानी की विशेषताएँ हैं।"},
+    {"step": 2, "action": "रिफ्रेन का कार्य देखिए",
+     "explain": "हर स्तवक के अंत का दोहा स्मृति में गूँज बना रहता है।"},
+    {"step": 3, "action": "समय-रेखा बनाइए",
+     "explain": "बचपन - विवाह - विधवा होना - क्रांति - वीरगति, इसी क्रम में गाथा बाँधिए।"}
+   ]
+  },
+  {
+   "id": "ihga.111.2.1",
+   "title": "अनेकार्थी शब्द और मुहावरे",
+   "section": "2",
+   "definition": "अनेकार्थी वे शब्द हैं जिनके एक से अधिक अर्थ होते हैं - 'नाना' (मातामह/अनेक), 'कर' (हाथ/बाण/नदी का किनारा), 'विधि' (विधाता/व्यवस्था), 'द्वंद्व' (युद्ध/संशय/युग्म); जबकि मुहावरे शाब्दिक अर्थ से भिन्न विशेष अर्थ देते हैं - 'मन में ठान लेना' (दृढ़ निश्चय), 'मुँह की खाना' (पराजित होना), 'पैर पसारना' (सीमा-उल्लंघन)।",
+   "formula": "-",
+   "key_idea": "संदर्भ ही बताता है कि शब्द का और मुहावरे का कौन-सा अर्थ चलेगा।",
+   "textbook_ref": "ihga111.txt lines 477-539 (शब्द एक अर्थ अनेक तथा मुहावरे)",
+   "question_patterns": [
+    "anekarthi shabd kya hote hain - udaharan dijiye",
+    "nana shabd ke kaun kaun se arth hain",
+    "kar aur vidhi shabdon ke sandarbh anusaar arth likhiye",
+    "man mein than lena muhavare ka arth kya hai",
+    "muh ki khana ka prayog karte hue vakya banaiye",
+    "muhavare bhasha ko saundarya aur prabhav kaise dete hain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "अनेक अर्थ सूचिबद्ध कीजिए",
+     "explain": "हर शब्द के शब्दकोश अर्थ एक साथ याद कीजिए।"},
+    {"step": 2, "action": "संदर्भ से चयन कीजिए",
+     "explain": "काव्य-पंक्ति का संदर्भ देखकर सही अर्थ पर घेरा लगाइए।"},
+    {"step": 3, "action": "मुहावरा-वाक्य बनाइए",
+     "explain": "भावार्थ के अनुरूप नया वाक्य बनाकर अभ्यास पूरा कीजिए।"}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex11.1",
+   "source_ref": "ihga111.txt lines 386-418 (मेरे उत्तर मेरे तर्क - बहुविकल्पीय)",
+   "questions": [
+    "'बूढ़े भारत में भी आई फिर से नई जवानी थी' में 'नई जवानी' किस भाव को व्यक्त करता है?",
+    "लक्मीबाई को 'छबीली' कहना उनके व्यक्तित्व की किस विशेषता को दर्शाता है?",
+    "'बुझा दीप झाँसी का' पंक्ति का भावार्थ क्या है?",
+    "'इस स्वतंत्रता-महायज्ञ में कई वीरवर आए काम' में किस ऐतिहासिक घटना का संकेत है?",
+    "'व्यापारी बन दया चाहता था जब यह भारत आया' में 'यह' शब्द किसके लिए कहा गया है?"
+   ]
+  },
+  {
+   "id": "ex11.2",
+   "source_ref": "ihga111.txt lines 419-439 (मेरी समझ मेरे विचार)",
+   "questions": [
+    "लक्मीबाई के प्रिय खेल कौन-कौन से थे और उनका बचपन दूसरों से कैसे भिन्न था?",
+    "'कालगति चुपके-चुपके काली घटा घेर लाई' किस घटना की ओर संकेत करती है?",
+    "'महलों ने दी आग, झोंपड़ी ने ज्वाला सुलगाई थी' से समाज की एकता का क्या महत्व है?",
+    "'नीलाम छापते' शब्द किसकी ओर संकेत करता है और किसकी नीलामी क्यों होती थी?",
+    "लक्मीबाई के किन गुणों के कारण उन्हें 'अवतारी' कहा गया है?"
+   ]
+  },
+  {
+   "id": "ex11.3",
+   "source_ref": "ihga111.txt lines 477-539 (व्याकरण - अनेकार्थी शब्द और मुहावरे)",
+   "questions": [
+    "कविता की पंक्तियों में आए अनेकार्थी शब्दों के संदर्भ-अनुसार सही अर्थ चुनकर लिखिए।",
+    "कानपुर/कानपूर जैसी वर्तनी-भिन्नता के अन्य उदाहरण पाठ से ढूँढ़कर लिखिए।",
+    "पाठ के मुहावरों - मुँह की खाना, पैर पसारना, धूम मचाना - का प्रयोग करते हुए नए वाक्य बनाइए।"
+   ]
+  }
+ ]
+}

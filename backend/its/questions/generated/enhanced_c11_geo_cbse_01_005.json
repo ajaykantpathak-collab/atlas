@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_01_005",
+   "title": "c11_geo_cbse_01_005",
+   "questions": [
+    {
+     "q": "Define Human Geography and name any four of its sub-branches as classified in the NCERT Class 11 textbook.",
+     "a": "Human Geography studies the interrelationship between the physical environment and the socio-cultural environment created by humans through mutual interaction. Four sub-branches: Population Geography, Settlement Geography, Economic Geography, Political Geography (also acceptable: Social Geography, Urban Geography, Cultural Geography). A wrong answer that lists Physical Geography sub-branches (e.g., Geomorphology, Climatology) reveals confusion between the two major branches; listing topics like \"migration\" or \"urbanization\" instead of sub-branch names reveals confusion between *phenomena studied* and *disciplinary sub-fields*.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Urban Geography and Settlement Geography are distinct sub-branches despite both studying human habitations. Use the concepts of 'process' and 'pattern' in your answer.",
+     "a": "Settlement Geography focuses on the *spatial pattern* of human habitations — their site, situation, morphology, hierarchy, and distribution across rural-urban continuum (e.g., dispersed vs. nucleated villages in India). Urban Geography focuses on the *processes* within and between cities — urbanization trends, internal structure (CBD, zones), functional classification, and urban systems. A wrong answer that treats them as synonyms misses the systematic distinction: Settlement Geography is broader (includes rural) and pattern-oriented; Urban Geography is deeper on urban processes and internal dynamics. This confusion often stems from Class 9/10 where \"urbanization\" is a topic, not a disciplinary lens.",
+     "self_check": true
+    },
+    {
+     "q": "A geographer studies the spatial distribution of literacy rates across districts of Bihar and correlates it with female workforce participation. Identify the TWO most relevant sub-branches of Human Geography for this study and justify your choice.",
+     "a": "1. Population Geography — studies spatial distribution of demographic attributes (literacy, sex ratio, age structure). 2. Social Geography — analyzes spatial patterns of social phenomena (gender, caste, education) and their relationship with economic participation. Justification: Literacy is a demographic attribute; female workforce participation is a socio-economic outcome shaped by social structure. A wrong answer choosing Economic Geography alone misses the demographic/spatial focus; choosing Political Geography misattributes the phenomenon to governance. This tests ability to map real-world research to disciplinary lenses.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the focus of Political Geography and Economic Geography when analyzing the India-Bangladesh border region. Identify one research question each sub-branch would prioritize.",
+     "a": "Political Geography: focuses on sovereignty, border management, enclaves/exclaves (e.g., Tin Bigha corridor), cross-border migration policies, geopolitical strategies. Research question: \"How has the Land Boundary Agreement (2015) altered the political geography of enclaves and border security?\" Economic Geography: focuses on cross-border trade flows, informal economy, resource sharing (water, rail transit), development disparities. Research question: \"What are the spatial patterns of formal vs. informal trade across the Petrapole-Benapole land port and their impact on local livelihoods?\" A wrong answer that swaps the questions shows failure to distinguish political vs. economic spatial analysis. This requires synthesizing Class 10 knowledge of India's neighbours (c10_geo_cbse_07_008) with disciplinary lenses.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Human Geography sub-branches operate in isolation; a geographer studying rural poverty needs only Economic Geography.\" Provide a counter-argument using at least three sub-branches.",
+     "a": "The statement is false. Rural poverty is multi-dimensional: Economic Geography analyzes livelihoods, landholding, income; Population Geography examines demographic pressure, out-migration, dependency ratio; Social Geography investigates caste/gender discrimination in access to resources; Settlement Geography studies housing quality, service access, spatial marginalization. A single-lens approach yields incomplete policy insights. A wrong answer agreeing with the statement reveals a siloed understanding of geography, contrary to the integrating spirit of the discipline (c11_geo_cbse_01_009). This tests evaluation of interdisciplinary necessity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a research framework for studying the impact of the Delhi Metro on urban spatial structure. Specify: (a) two Human Geography sub-branches involved, (b) one key spatial concept each would use, (c) one primary data source each would require.",
+     "a": "(a) Urban Geography and Economic Geography. (b) Urban Geography: 'distance decay' / 'central place hierarchy' — how Metro alters accessibility and reshapes urban centers. Economic Geography: 'agglomeration economies' / 'land rent gradient' — how Metro stations generate commercial clusters and shift land values. (c) Urban Geography: ridership data by station/time, land use maps pre/post Metro. Economic Geography: property price trends along corridors, employment density changes. A poor answer lists generic methods (survey, census) without linking to sub-branch-specific concepts, showing inability to operationalize disciplinary lenses.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

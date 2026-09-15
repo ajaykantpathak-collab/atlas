@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_12_004",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_12_004",
+   "title": "c12_cs_cbse_12_004",
+   "questions": [
+    {
+     "q": "Define eavesdropping in the context of network security. How does it differ from snooping in terms of timing and data handling?",
+     "a": "Eavesdropping is the unauthorized real-time interception of private communications (e.g., VoIP, chat, video calls) as they occur. Snooping captures network packets for *later* analysis and may store them; it is not necessarily real-time. A wrong answer that treats them as synonyms reveals the student misses the critical distinction: eavesdropping = live monitoring (like a hidden microphone), snooping = packet capture + offline analysis (like photocopying a letter).",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"HTTPS prevents Man-in-the-Middle attacks completely because it encrypts data.\" Explain why this statement is partially incorrect and what additional condition is required for HTTPS to actually thwart MitM.",
+     "a": "HTTPS encrypts the *payload*, but a MitM attacker can still intercept the connection if the client accepts a fraudulent certificate (e.g., from a compromised CA or a rogue access point presenting a self-signed cert). The additional condition is **certificate validation**: the client must verify the server's certificate chain against trusted root CAs and check hostname matching. A wrong answer that ignores certificate validation reveals the student thinks encryption alone guarantees integrity/authenticity, missing the trust anchor.",
+     "self_check": true
+    },
+    {
+     "q": "You are on a public Wi-Fi network (no password). You open a website using `http://example.com`. An attacker on the same network captures your session cookie. Identify the attack type, the vulnerability exploited, and one immediate mitigation you could apply without disconnecting.",
+     "a": "Attack: **Eavesdropping** (passive sniffing). Vulnerability: **Unencrypted HTTP traffic** — session cookies sent in plaintext. Immediate mitigation: **Switch to HTTPS** (if the site supports it) or use a **VPN** to encrypt all traffic from your device. A wrong answer naming \"MitM\" shows confusion between passive sniffing and active interception; suggesting \"use antivirus\" reveals misunderstanding of network-layer vs. host-layer defenses.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast eavesdropping and Man-in-the-Middle attacks across these dimensions: (a) attacker position in network, (b) ability to modify data, (c) detectability by communicating parties, (d) typical tools used.",
+     "a": "(a) Eavesdropping: attacker is on same broadcast segment (promiscuous mode) or taps a link; MitM: attacker actively inserts themselves *between* victim and gateway (ARP spoofing, rogue AP, DNS spoofing). (b) Eavesdropping: read-only; MitM: read, modify, inject, drop. (c) Eavesdropping: nearly undetectable (passive); MitM: detectable via certificate warnings, latency anomalies, ARP table inconsistencies. (d) Eavesdropping: Wireshark, tcpdump; MitM: Ettercap, Bettercap, MITMf, custom scripts. A wrong answer that says both allow modification reveals failure to grasp the passive/active distinction.",
+     "self_check": true
+    },
+    {
+     "q": "An organization enforces HTTPS everywhere and uses HSTS. An attacker performs ARP spoofing on the internal LAN to position themselves between an employee and the internal HR portal (which uses HTTPS with a valid certificate). Evaluate whether the attack will succeed in stealing credentials. Justify your answer.",
+     "a": "The attack **will fail** to steal credentials *if* the employee's browser correctly validates the certificate. ARP spoofing redirects traffic to the attacker's machine, but the attacker cannot present a valid certificate for the HR portal's domain (unless they compromise the CA or the portal's private key). The browser will show a certificate error (mismatched domain or untrusted issuer). However, if the employee clicks through the warning, credentials are compromised. A wrong answer saying \"HTTPS prevents it automatically\" ignores the human factor (warning bypass); saying \"ARP spoofing breaks HTTPS\" shows confusion between network-layer redirection and application-layer encryption.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration (using only standard command-line tools available on Linux/Windows) to show how ARP spoofing enables a Man-in-the-Middle position. List the exact commands and explain what each step achieves. Do not use specialized attack frameworks.",
+     "a": "Demonstration outline:\n1. Enable IP forwarding: `echo 1 > /proc/sys/net/ipv4/ip_forward` (Linux) — makes attacker a router.\n2. Find victim IP and gateway IP: `arp -a` or `ip neigh`.\n3. Spoof victim: `arpspoof -i eth0 -t <victim_ip> <gateway_ip>` (requires `dsniff` package) — sends gratuitous ARP replies telling victim \"I am the gateway\".\n4. Spoof gateway: `arpspoof -i eth0 -t <gateway_ip> <victim_ip>` — tells gateway \"I am the victim\".\n5. Traffic now flows through attacker; use `tcpdump -i eth0 -n` to show intercepted packets.\nA poor answer that suggests using Wireshark alone misses the active ARP poisoning step; one that says \"use Ettercap\" violates the \"no specialized frameworks\" constraint.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_11_003",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_11_003",
+   "title": "c12_geo_cbse_11_003",
+   "questions": [
+    {
+     "q": "Define Common Property Resources (CPRs) and give two examples from rural India.",
+     "a": "CPRs are community natural resources where every member has access and usage rights with obligations, but no individual holds property rights. Examples: village pasture land (grazing land), community forest, village pond. A wrong answer (e.g., “government-owned forest only” or “open access with no rules”) reveals confusion between state property, common property, and open-access regimes — a critical distinction for understanding governance and equity.",
+     "self_check": true
+    },
+    {
+     "q": "Why are CPRs particularly important for landless and marginal farmers and for women in rural India?",
+     "a": "Landless/marginal farmers have limited private land, so they rely on CPRs for fodder, fuel, and minor forest products to sustain livestock and household energy. Women are primarily responsible for fodder and fuel collection; degraded CPRs force them to walk longer hours, increasing drudgery. A wrong answer focusing only on “poor people use them” misses the structural linkage between landlessness, livestock-based livelihood, and gendered labor — a common board-exam omission.",
+     "self_check": true
+    },
+    {
+     "q": "A village has 100 hectares of culturable wasteland classified as CPR. Over a decade, 30 hectares are converted to private cultivation. Using the concept of CPR significance, explain the likely impact on (a) livestock economy and (b) women’s time allocation.",
+     "a": "(a) Reduced grazing area lowers fodder availability, forcing households to reduce herd size or buy feed, hurting the livestock economy that landless households depend on. (b) Women must travel farther to collect fodder/fuel, increasing daily time spent by 2–3 hours, reducing time for childcare, education, or income-generating work. A wrong answer that only mentions “less grass” without linking to livelihood and gender dimensions shows incomplete application of the concept.",
+     "self_check": true
+    },
+    {
+     "q": "Compare CPRs and private agricultural land in terms of: (i) access rights, (ii) management responsibility, (iii) equity outcome for landless households.",
+     "a": "(i) CPRs: all community members have access; private land: only owner/tenant. (ii) CPRs: collective management (e.g., Gram Panchayat rules); private land: individual decision-making. (iii) CPRs provide a safety net for landless; private land excludes them unless they lease/ work as labor. A wrong answer that equates CPRs with “government land” or says “anyone can use private land” confuses property regimes and fails to analyze institutional differences.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: “Converting common grazing land into private cropland increases agricultural productivity and therefore benefits the village.”",
+     "a": "The statement is partially true for total grain output but false for overall village welfare. Conversion raises crop yield on that plot (private gain) but reduces fodder supply, hurting livestock — a major income source for landless. It also externalizes costs onto women (longer collection trips). Net effect: increased inequality and hidden productivity loss in livestock sector. A wrong answer that agrees wholly ignores the multi-dimensional value of CPRs and the distributional consequences — a classic competitive-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a community management rule for a village pond (a CPR) that ensures sustainable water use for irrigation, domestic needs, and livestock, while preventing elite capture.",
+     "a": "A good rule set includes: (1) defined user group (all resident households), (2) seasonal water allocation priorities (drinking > livestock > irrigation), (3) rotational irrigation schedule monitored by a water committee with women’s representation, (4) penalties for over-extraction, (5) maintenance contributions (labor/cash) proportional to landholding. A poor answer that suggests “first come first served” or “panchayat decides alone” shows inability to design inclusive, sustainable CPR governance — a higher-order skill tested in case-based questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

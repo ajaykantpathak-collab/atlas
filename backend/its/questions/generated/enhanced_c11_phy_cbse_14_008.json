@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_14_008",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_14_008",
+   "title": "c11_phy_cbse_14_008",
+   "questions": [
+    {
+     "q": "What is the fundamental frequency of a pipe closed at one end of length 0.5 m if the speed of sound in air is 330 m/s?",
+     "a": "The fundamental frequency is \\( \\nu_1 = \\frac{v}{4L} = \\frac{330}{4 \\times 0.5} = 165 \\text{ Hz} \\). A wrong answer (e.g., using \\( \\frac{v}{2L} \\)) reveals the student has confused the closed-pipe formula with the open-pipe formula, indicating they haven't internalized the boundary condition difference (node at closed end vs antinode at both ends).",
+     "self_check": true
+    },
+    {
+     "q": "Why does a pipe closed at one end produce only odd harmonics (1st, 3rd, 5th, ...) while a pipe open at both ends produces all harmonics (1st, 2nd, 3rd, ...)?",
+     "a": "In a closed pipe, the closed end must be a displacement node and the open end a displacement antinode. The distance between a node and the nearest antinode is \\( \\lambda/4 \\), and additional segments must be half-wavelengths (\\( \\lambda/2 \\)) to maintain the pattern, giving allowed lengths \\( L = (2n-1)\\lambda/4 \\) (odd multiples of \\( \\lambda/4 \\)). In an open pipe, both ends are antinodes, so the distance between them must be an integer multiple of \\( \\lambda/2 \\), giving \\( L = n\\lambda/2 \\) (all integers). A student who says \"closed pipes have only odd harmonics because they are shorter\" reveals a superficial memorization without understanding the node/antinode constraint.",
+     "self_check": true
+    },
+    {
+     "q": "A 30 cm long pipe open at both ends resonates with a tuning fork of frequency 1.1 kHz. Given speed of sound = 330 m/s, which harmonic mode is excited? If one end is now closed, will the same tuning fork still produce resonance? Explain.",
+     "a": "For open pipe: \\( \\nu_n = n \\frac{v}{2L} = n \\frac{330}{0.6} = 550n \\text{ Hz} \\). For 1100 Hz, \\( n = 2 \\) (second harmonic). For closed pipe: fundamental \\( = \\frac{330}{4 \\times 0.3} = 275 \\text{ Hz} \\); harmonics are odd multiples: 275, 825, 1375 Hz. 1100 Hz is not an odd multiple of 275 Hz, so no resonance. A wrong answer (e.g., saying resonance occurs because 1100 is a multiple of 275) shows the student doesn't recognize that only odd harmonics are allowed in a closed pipe.",
+     "self_check": true
+    },
+    {
+     "q": "Two organ pipes of equal length are sounded together. Pipe A is open at both ends, Pipe B is closed at one end. The fundamental frequency of Pipe A is 256 Hz. What is the fundamental frequency of Pipe B? If both pipes are excited at their third harmonics, what is the beat frequency heard?",
+     "a": "For Pipe A (open): \\( \\nu_{1A} = \\frac{v}{2L} = 256 \\text{ Hz} \\). For Pipe B (closed): \\( \\nu_{1B} = \\frac{v}{4L} = \\frac{1}{2} \\frac{v}{2L} = 128 \\text{ Hz} \\). Third harmonic of A: \\( 3 \\times 256 = 768 \\text{ Hz} \\). Third harmonic of B (which is the 3rd odd harmonic, i.e., n=3 in \\( (2n-1)\\nu_1 \\)): \\( 3 \\times 128 = 384 \\text{ Hz} \\). Beat frequency = \\( |768 - 384| = 384 \\text{ Hz} \\). A student who uses \\( 3 \\times 128 = 384 \\) for B's third harmonic but thinks it's the 5th harmonic (5×128=640) reveals confusion about harmonic numbering in closed pipes (only odd harmonics exist, so the \"third harmonic\" means the third allowed frequency, which is 3×fundamental).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In a closed pipe, the pressure variation is maximum at the closed end and zero at the open end. Therefore, the closed end is a pressure antinode and the open end is a pressure node.\" Evaluate this statement and explain how it relates to displacement nodes/antinodes.",
+     "a": "The statement is correct. Pressure and displacement are 90° out of phase in a standing sound wave: a displacement node (zero displacement amplitude) corresponds to a pressure antinode (maximum pressure variation), and a displacement antinode corresponds to a pressure node. At the closed end, air cannot move (displacement node) so pressure varies maximally (pressure antinode). At the open end, air moves freely (displacement antinode) so pressure equals atmospheric pressure (pressure node). A student who says \"pressure is maximum at the open end because the wave is open\" confuses displacement and pressure boundary conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a resonance tube (a cylindrical tube with a movable piston/water level) and a set of tuning forks to determine the speed of sound in air at room temperature. Describe the procedure, measurements, and formula you would use.",
+     "a": "Procedure: (1) Fill a resonance tube with water, leaving an air column of adjustable length. (2) Strike a tuning fork of known frequency \\( \\nu \\) and hold it over the open end. (3) Lower the water level (or raise the tube) until a loud resonance is heard (first resonance). Measure the air column length \\( L_1 \\). (4) Continue lowering to find the next resonance (second resonance) and measure length \\( L_2 \\). (5) For a closed pipe, \\( L_2 - L_1 = \\lambda/2 \\). So \\( \\lambda = 2(L_2 - L_1) \\). (6) Speed of sound \\( v = \\nu \\lambda = 2\\nu (L_2 - L_1) \\). A poor answer that only finds one resonance length and uses \\( L = \\lambda/4 \\) without end correction reveals ignorance of the end correction and the advantage of using two resonances to eliminate it.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

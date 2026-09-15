@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_05_009",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_05_009",
+   "title": "c11_acc_cbse_05_009",
+   "questions": [
+    {
+     "q": "When the Pass Book shows a credit balance of ₹30,000 and cheques issued but not presented total ₹8,000, what adjustment is made to the Pass Book balance to arrive at the Cash Book balance?",
+     "a": "**Answer:** Add ₹8,000 to the Pass Book balance.\n**Why wrong answers reveal misunderstanding:** If a student deducts ₹8,000, they are applying Cash Book starting point logic (where unpresented cheques are added to Cash Book balance). This shows they haven't internalized that the adjustment direction reverses when the starting point changes. The Pass Book balance is higher than Cash Book because the bank hasn't paid these cheques yet, so to get to the lower Cash Book balance, we must add the unpresented cheques back.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the treatment of \"cheques deposited but not credited by bank\" is opposite when starting from Pass Book balance versus Cash Book balance.",
+     "a": "**Answer:** When starting from Cash Book, the deposit is already recorded (increasing Cash Book balance) but bank hasn't credited it yet (Pass Book lower), so we deduct it from Cash Book to reach Pass Book. When starting from Pass Book, the deposit is missing from Pass Book (making it lower than Cash Book), so we must add it to Pass Book to reach the higher Cash Book balance. The physical reality is the same, but the mathematical direction reverses because we're solving for the other variable.\n**Why wrong answers reveal misunderstanding:** A student who says \"always deduct uncredited deposits\" has memorized a rule without understanding the comparative balance logic. They cannot adapt when the starting point changes, which is exactly what board exams test through reversed scenarios.",
+     "self_check": true
+    },
+    {
+     "q": "A firm's Pass Book shows a debit balance (overdraft) of ₹25,000. The following discrepancies exist: (i) Cheques deposited but not collected ₹12,000, (ii) Bank charges debited by bank ₹500 not in Cash Book, (iii) Cheques issued but not presented ₹7,000. Prepare the BRS to find Cash Book balance.",
+     "a": "**Steps:**\n1. Start with Pass Book overdraft (debit balance) = ₹25,000 (shown as minus/negative)\n2. Cheques deposited not collected: Pass Book is lower (bank hasn't credited), Cash Book is higher → ADD ₹12,000\n3. Bank charges: Pass Book is lower (bank debited), Cash Book is higher → ADD ₹500\n4. Cheques issued not presented: Pass Book is higher (bank hasn't paid), Cash Book is lower → DEDUCT ₹7,000\n5. Net adjustment = +12,000 + 500 - 7,000 = +₹5,500\n6. Cash Book balance = -25,000 + 5,500 = -₹19,500 (overdraft)\n**Answer:** Cash Book shows overdraft of ₹19,500 (credit balance)\n**Why wrong answers reveal misunderstanding:** Students often treat overdraft as positive number and get confused with signs. If they deduct uncollected deposits (treating as Cash Book start), they'd get -₹31,500. This shows they haven't grasped that overdraft is a negative balance and the same comparative logic applies: \"which balance is higher/lower?\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the adjustment for \"interest credited by bank but not entered in Cash Book\" when: (a) Cash Book balance is starting point, (b) Pass Book balance is starting point. Create a numerical example with ₹10,000 interest to prove the final reconciled balance is identical in both approaches.",
+     "a": "**Answer:**\n(a) Cash Book start: Interest increases Pass Book only → Cash Book lower → ADD ₹10,000 to Cash Book\n(b) Pass Book start: Interest increases Pass Book only → Pass Book higher → DEDUCT ₹10,000 from Pass Book\n**Numerical proof:** Let Cash Book = ₹50,000, Pass Book = ₹60,000 (difference = ₹10,000 interest)\n- From Cash Book: 50,000 + 10,000 = 60,000 (Pass Book) ✓\n- From Pass Book: 60,000 - 10,000 = 50,000 (Cash Book) ✓\nBoth yield same reconciled balances.\n**Why wrong answers reveal misunderstanding:** Students who cannot demonstrate this equivalence don't understand that BRS is an identity reconciliation - both paths must converge. They see two separate procedures rather than one mathematical relationship viewed from two directions.",
+     "self_check": true
+    },
+    {
+     "q": "A student prepares BRS from Pass Book balance (credit ₹40,000) and writes: \"Cheques issued but not presented ₹5,000 - Deducted\". Evaluate this entry. Is it correct? If not, what conceptual error does it reveal, and what would be the impact on the final Cash Book balance?",
+     "a": "**Answer:** The entry is INCORRECT. Cheques issued but not presented should be ADDED to Pass Book balance (credit balance).\n**Conceptual error:** The student applied Cash Book starting point logic (where unpresented cheques are added to Cash Book) without reversing the direction. They think \"unpresented cheques = always add\" instead of \"unpresented cheques make Pass Book higher than Cash Book, so to go from Pass Book to Cash Book, we add.\"\n**Impact:** Wrong deduction of ₹5,000 instead of addition → Cash Book balance calculated as ₹35,000 instead of correct ₹45,000. Error of ₹10,000 (double the item amount).\n**Why this reveals deep misunderstanding:** The student hasn't grasped the core principle: \"Compare the two balances - which is higher? Adjust the starting balance toward the target balance.\" They're following memorized rules without the comparative framework.",
+     "self_check": true
+    },
+    {
+     "q": "Design a BRS problem where the Pass Book shows a credit balance of ₹1,00,000 and there are exactly 5 discrepancies: 2 timing differences that increase Pass Book relative to Cash Book, 2 timing differences that decrease Pass Book relative to Cash Book, and 1 error in Pass Book. Provide the complete problem statement and solution.",
+     "a": "**Problem:** Pass Book credit balance ₹1,00,000. Discrepancies: (i) Cheques issued not presented ₹15,000, (ii) Interest credited by bank ₹3,000 not in Cash Book, (iii) Cheques deposited not collected ₹20,000, (iv) Bank charges ₹500 not in Cash Book, (v) Bank wrongly credited ₹2,000 to this account (error in Pass Book).\n**Solution:**\nStart: Pass Book ₹1,00,000\nAdd (Pass Book lower than Cash Book): Uncollected deposits ₹20,000 + Bank charges ₹500 = +₹20,500\nLess (Pass Book higher than Cash Book): Unpresented cheques ₹15,000 + Interest ₹3,000 + Wrong credit ₹2,000 = -₹20,000\nCash Book balance = 1,00,000 + 20,500 - 20,000 = ₹1,00,500\n**Criteria for good answer:** Correctly categorizes each item by comparative balance effect, applies reverse logic consistently, handles error in Pass Book correctly (wrong credit makes Pass Book artificially high, so deduct), and arrives at correct answer. Poor answers reveal item-by-item memorization without the \"which balance is higher\" framework.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

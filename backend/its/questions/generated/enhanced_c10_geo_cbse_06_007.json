@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_06_007",
+   "title": "c10_geo_cbse_06_007",
+   "questions": [
+    {
+     "q": "List the seven geographical factors that influence the siting of an industry, as per the Class 10 NCERT framework.",
+     "a": "The seven factors are: 1) Availability of raw materials, 2) Availability of labour, 3) Availability of capital, 4) Availability of power, 5) Proximity to market, 6) Transport facilities, 7) Government policies. A wrong answer (e.g., listing \"climate\" or \"soil\" as primary factors) reveals confusion between agricultural and industrial location factors — students often transfer farming criteria to manufacturing.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the iron and steel industry is typically located near coal fields or iron ore mines, whereas the cotton textile industry historically concentrated in the Mumbai-Ahmedabad region despite cotton being grown in the Deccan plateau.",
+     "a": "Iron and steel uses weight-losing raw materials (iron ore, coal, limestone) — transporting them over long distances raises costs, so the industry locates at the raw material source (e.g., Jamshedpur, Bhilai). Cotton textile uses a non-weight-losing raw material (cotton) but requires humid climate for spinning, skilled labour, port access for export, and capital — all available in Mumbai-Ahmedabad. A wrong answer indicates the student cannot distinguish between weight-losing and non-weight-losing raw materials and their locational pull.",
+     "self_check": true
+    },
+    {
+     "q": "A new aluminium smelter is proposed in Odisha. The state has bauxite mines, coal reserves, and a coastline. Using the concept of \"weight loss during processing,\" determine the most cost-effective location: near the bauxite mine, near the coal mine, or near the port. Show your reasoning.",
+     "a": "Aluminium smelting loses ~2 tonnes of bauxite to produce 1 tonne of alumina, then ~2 tonnes of alumina + heavy electricity to produce 1 tonne of aluminium. Bauxite is bulky but coal is also bulky; however, electricity (from coal) is the dominant cost (40%). The least-cost location is near cheap power — i.e., near coal mines with thermal plants (e.g., Talcher, Angul). Port location adds transport cost for both raw materials. A wrong answer (choosing port or bauxite mine) shows inability to quantify weight-loss ratios and identify the dominant cost factor (power).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the locational factors for the traditional cotton textile industry in Maharashtra-Gujarat with the modern IT industry in Bengaluru-Hyderabad. Identify three factors that have reversed in importance and explain why.",
+     "a": "Reversed factors: 1) Climate — critical for cotton spinning (humidity prevents thread breakage), irrelevant for IT (climate-controlled offices). 2) Labour — cotton needed large unskilled workforce; IT needs small highly skilled workforce. 3) Market access — cotton needed ports for raw cotton import/export; IT needs global digital connectivity (bandwidth), not physical ports. Wrong answer (listing same factors) shows failure to recognize how technology changes the production function and thus locational pull.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Government policy is the most important factor for industrial location in modern India.\" Use examples of successful and failed policy-driven industrial locations.",
+     "a": "Policy can catalyze but cannot override geography. Successful: Maruti Suzuki in Gurugram (policy + proximity to Delhi market, transport, labour). Failed: BHEL units in remote areas (policy-driven but lacked vendor ecosystem, skilled labour, market access). Policy ranks below raw material, power, and market for heavy industry; above them only for footloose industries (electronics, pharma) where other factors are evenly distributed. Wrong answer (uncritical agreement) reveals inability to weigh factors contextually.",
+     "self_check": true
+    },
+    {
+     "q": "Design a location decision matrix for a proposed integrated steel plant in India. Choose four candidate sites (e.g., near iron ore in Odisha, near coal in Jharkhand, near port in Gujarat, near market in Maharashtra). Assign weights to five factors (raw material, power, transport, market, policy) and score each site. Justify your weight assignment.",
+     "a": "Weights: Raw material 30% (weight-losing, high transport cost), Power 25% (electricity-intensive), Transport 20% (link to ports/markets), Market 15% (domestic demand), Policy 10% (secondary). Scores: Odisha (iron ore + port) 85, Jharkhand (coal + iron ore) 80, Gujarat (port + market) 65, Maharashtra (market) 60. Good answer shows quantitative reasoning with geographical justification. Poor answer uses equal weights or ignores weight-loss principle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_10_007",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_10_007",
+   "title": "c12_bio_cbse_10_007",
+   "questions": [
+    {
+     "q": "Name the enzyme responsible for biological nitrogen fixation and state its two key properties that dictate the cellular environment required for its function.",
+     "a": "Nitrogenase; it is extremely O₂-sensitive (irreversibly inactivated by O₂) and requires high energy (16 ATP per N₂ reduced to 2 NH₃). A wrong answer (e.g., \"nitrate reductase\" or \"nitrogenase works in aerobic conditions\") reveals confusion between nitrogen assimilation (nitrate → ammonia) and nitrogen fixation (N₂ → ammonia), and ignorance of the O₂-paradox that shapes nodule/heterocyst structure.",
+     "self_check": true
+    },
+    {
+     "q": "Why does *Rhizobium* form root nodules only on leguminous plants and not on cereals like wheat or rice? Explain the molecular basis of host specificity.",
+     "a": "Host specificity is determined by flavonoid signals from legume roots that activate *nod* genes in compatible *Rhizobium* strains, leading to Nod factor (lipo-chitooligosaccharide) production recognized by plant LysM receptor kinases. Cereals lack these specific flavonoids and receptors. A wrong answer (\"Rhizobium cannot infect cereals because cereals don't have nodules\") is circular reasoning — it confuses the result (no nodules) with the cause (missing molecular dialogue).",
+     "self_check": true
+    },
+    {
+     "q": "A farmer inoculates soybean seeds with *Rhizobium japonicum* but gets poor nodulation. The soil pH is 5.2 and he applied 100 kg/ha urea at sowing. Identify two likely reasons for failure and explain the physiological basis for each.",
+     "a": "(1) Low pH (5.2) inhibits *Rhizobium* survival and nod gene expression — most rhizobia prefer pH 6.5–7.5; acidity reduces bacterial viability and flavonoid secretion. (2) High urea (100 kg/ha) supplies ample NH₄⁺/NO₃⁻, which represses *nif* gene expression and nodule formation via feedback inhibition — the plant \"senses\" sufficient fixed nitrogen and downregulates symbiosis. A wrong answer blaming only \"poor quality inoculant\" misses the agronomic management errors that are equally critical in competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the nitrogen fixation strategy of *Azotobacter* (free-living aerobic) with *Rhizobium* (symbiotic). How does each solve the oxygen paradox? What is the energetic trade-off?",
+     "a": "*Rhizobium* uses plant-supplied leghemoglobin in nodules to maintain microaerobic conditions (high O₂ affinity, buffers O₂ diffusion). *Azotobacter* uses extremely high respiratory rates (respiratory protection) and conformational protection of nitrogenase to scavenge O₂. Trade-off: *Azotobacter* spends ~30–50% of its ATP on O₂ scavenging respiration, leaving less for growth; *Rhizobium* gets plant photosynthate (C-source) and leghemoglobin, making fixation energetically cheaper per N fixed. A wrong answer stating \"both use leghemoglobin\" or \"*Azotobacter* fixes nitrogen anaerobically\" confuses free-living aerobes with anaerobes like *Clostridium*.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Blue-green algae (BGA) like *Nostoc* and *Anabaena* are ideal biofertilizers for all Indian crops because they fix nitrogen and add organic matter.\" Identify the flaw and specify the actual crop/condition where BGA are most effective.",
+     "a": "Flaw: BGA require standing water for growth and dispersal — they are effective ONLY in flooded rice paddies, not in upland crops (wheat, pulses, oilseeds). In non-flooded soils, they desiccate and die. A student who agrees with the statement ignores the ecological requirement (water) and overgeneralizes — a classic board exam trap where \"nitrogen-fixing\" is equated with \"universally applicable.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple low-cost experiment for a Class 12 student to demonstrate that *Rhizobium* inoculation increases nitrogen content in legume plants compared to uninoculated controls, using only school lab equipment (no spectrophotometer, no Kjeldahl). Specify measurable parameters, controls, and duration.",
+     "a": "Grow soybean in sterilized sand culture (N-free nutrient solution) in pots: (1) Inoculated with *Rhizobium*, (2) Uninoculated control, (3) Uninoculated + 5 mM KNO₃ (positive control for nitrogen sufficiency). Measure after 4 weeks: nodule number/weight, shoot dry weight, total chlorophyll (SPAD meter or acetone extraction + color chart), and leaf protein via Bradford assay (coomassie dye, readable at 595 nm with simple colorimeter). Expect inoculated ≈ KNO₃ > uninoculated. A poor design uses garden soil (uncontrolled native rhizobia) or measures only plant height (confounded by other factors).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

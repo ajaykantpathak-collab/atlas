@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_09_012",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_09_012",
+   "title": "c11_soc_cbse_09_012",
+   "questions": [
+    {
+     "q": "State the one core concept that each thinker uses to explain social order: Marx, Durkheim, and Weber.",
+     "a": "Marx: mode of production (economic base determining superstructure). Durkheim: social facts (collective representations external to and constraining individuals). Weber: social action (subjectively meaningful behavior oriented toward others). A wrong answer (e.g., \"Marx uses social facts\") reveals the student is conflating terminology across frameworks instead of keeping each theoretical vocabulary distinct.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Durkheim calls modern law \"restitutive\" while Marx sees law as an instrument of class domination.",
+     "a": "Durkheim argues restitutive law repairs broken contracts in interdependent organic solidarity; Marx argues law codifies bourgeois property rights to maintain exploitation. A wrong answer that says \"both think law is fair\" shows the student misses the fundamental conflict-vs-consensus divide and cannot distinguish functionalist from critical explanations.",
+     "self_check": true
+    },
+    {
+     "q": "A new city metro system is built. Using each thinker's framework, write one sentence describing what the metro represents for (a) Marx, (b) Durkheim, (c) Weber.",
+     "a": "(a) Marx: the metro is capital-intensive infrastructure that lowers workers' reproduction costs, enabling greater surplus-value extraction. (b) Durkheim: the metro is a new morphological density generator that intensifies organic solidarity through scheduled interdependence. (c) Weber: the metro is a rational-legal bureaucratic apparatus that calculates optimal routes via formal rationality. A wrong answer that gives identical descriptions (e.g., \"it helps people travel\") shows inability to operationalize distinct theoretical lenses.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how Marx and Weber explain the origin of modern capitalism. Identify two points of convergence and two points of divergence.",
+     "a": "Convergence: both see capitalism as historically specific, both emphasize rational calculation in production. Divergence: Marx roots it in material class relations and primitive accumulation; Weber roots it in cultural-religious ethic (Protestant asceticism) and formal rationality. Marx predicts revolutionary overthrow; Weber predicts \"iron cage\" entrapment. A wrong answer that claims \"Weber agrees with Marx that economics determines culture\" reveals failure to grasp Weber's multidimensional causality.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Durkheim's organic solidarity is just a polite word for Marx's capitalist division of labour.\" Defend or refute using each thinker's own terms.",
+     "a": "Refute: Durkheim's organic solidarity is a moral integration through functional interdependence with restitutive law; Marx's division of labour is a coercive separation of workers from means of production generating alienation and class antagonism. Durkheim sees differentiation as liberating individuality; Marx sees it as fragmenting collective power. A wrong answer that agrees shows the student cannot distinguish normative-functionalist from critical-materialist diagnoses of the same empirical phenomenon.",
+     "self_check": true
+    },
+    {
+     "q": "Design a research question about smartphone addiction among teenagers that could be answered differently by a Marxist, a Durkheimian, and a Weberian researcher. Write the three distinct questions.",
+     "a": "Marxist: \"How does the smartphone commodity form extract surplus value from teen attention and reproduce class inequality?\" Durkheimian: \"What collective representations and anomic deregulation underlie the shift from face-to-face to mediated teen rituals?\" Weberian: \"What subjective meanings do teens attach to smartphone use, and how does the app's bureaucratic algorithm rationally structure their action?\" A poor answer that produces three versions of \"Why are teens addicted?\" shows inability to translate theory into methodological orientation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

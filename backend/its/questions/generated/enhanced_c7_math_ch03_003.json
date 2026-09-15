@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch03_003",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch03_003",
+   "title": "c7_math_ch03_003",
+   "questions": [
+    {
+     "q": "What fraction and decimal represent 7 shaded parts out of a total of 100 equal parts of a square?",
+     "a": "The fraction is $\\frac{7}{100}$ and the decimal is $0.07$. A student who answers $0.7$ confuses tenths with hundredths, failing to realize that $0.7$ represents 70 hundredths ($\\frac{70}{100}$), whereas 7 hundredths requires a zero in the tenths place.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the number $0.35$ read as \"thirty-five hundredths\" rather than \"three tenths and five\"? Explain how its place value structure works.",
+     "a": "The number $0.35$ means 3 tenths ($\\frac{3}{10}$ or $\\frac{30}{100}$) plus 5 hundredths ($\\frac{5}{100}$), which combines to $\\frac{35}{100}$. A student who says \"three tenths and five\" forgets that the 5 is in the hundredths place and represents $\\frac{5}{100}$, not a whole number 5.",
+     "self_check": true
+    },
+    {
+     "q": "Express the fraction $\\frac{48}{100}$ as a decimal and calculate what value is added to it to make a whole ($1.0$).",
+     "a": "Step 1: Write the fraction $\\frac{48}{100}$ as a decimal by placing the numerator in the hundredths place: $0.48$. Step 2: Set up the subtraction equation to find the missing part: $1.00 - 0.48$. Step 3: Perform subtraction with regrouping: $1.00 - 0.48 = 0.52$. Step 4: Verify by adding $0.48 + 0.52 = 1.00$. A student who answers $0.58$ likely made an error in subtraction by not borrowing correctly across the decimal places.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the decimals $0.4$ and $0.38$. Which one is larger, and why is a common student error to think $0.38$ is larger because 38 is greater than 4?",
+     "a": "$0.4$ is larger than $0.38$. To compare them properly, convert $0.4$ to an equivalent hundredths form by annexing a zero: $0.40$. Comparing $40$ hundredths to $38$ hundredths clearly shows $40 > 38$. A student who thinks $0.38$ is larger is wrongly comparing the digits after the decimal point as whole numbers (38 vs 4) without equalizing their place value lengths.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the fraction $\\frac{5}{100}$ as $0.5$. Identify the error in their reasoning and correct it.",
+     "a": "The student's error is writing $\\frac{5}{100}$ as $0.5$, which actually represents $\\frac{5}{10}$ or 5 tenths. To correct this, remember that hundredths must occupy the second decimal place, so $\\frac{5}{100}$ must be written with a zero holder in the tenths place as $0.05$.",
+     "self_check": true
+    },
+    {
+     "q": "Create a decimal number that has a 2 in the hundredths place, a 7 in the tenths place, and a 4 in the ones place. Then, write this number as a sum of its place values using fractions.",
+     "a": "The number is $4.72$. As a sum of place values, it is written as $4 + \\frac{7}{10} + \\frac{2}{100}$. A poor answer would mix up the place value positions (e.g., writing $4 + \\frac{2}{10} + \\frac{7}{100}$), showing a failure to map digit positions correctly to tenths and hundredths.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

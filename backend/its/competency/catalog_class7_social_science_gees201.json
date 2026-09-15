@@ -1,0 +1,210 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 1,
+ "chapter_title": "The Story of Indian Farming",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gees201.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gees2.1.1",
+   "title": "The Farmer's Knowledge",
+   "section": "Krishi Parashara",
+   "definition": "Indian farming rests on knowledge handed down for millennia; the Krishi Parashara verse quoted in the chapter praises the farmer who knows his cattle, his seasons and his seeds, and is rewarded with harvests of every kind.",
+   "formula": "",
+   "key_idea": "Farming is a science of observation: seasons, seeds and soil read carefully, season after season.",
+   "textbook_ref": "gees201.txt, Krishi Parashara",
+   "question_patterns": [
+    "what qualities should a farmer have according to krishi parashara",
+    "why is knowledge of the seasons important for farming",
+    "how do farmers choose seeds for sowing",
+    "what does the chapter say about care of cattle",
+    "why has farming been called the story of india",
+    "what rewards does the verse promise the industrious farmer"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  },
+  {
+   "id": "gees2.1.2",
+   "title": "How Farming Began",
+   "section": "Beginnings of agriculture",
+   "definition": "Farming began when communities learnt to save seeds and settle near fields: wild grasses were tamed into crops, forests cleared, and wandering food-gatherers slowly became villagers tied to the rhythm of sowing and harvest.",
+   "formula": "",
+   "key_idea": "The seed saved today is the field of tomorrow: settling down to grow food changed society forever.",
+   "textbook_ref": "gees201.txt, Beginnings of agriculture",
+   "question_patterns": [
+    "how did early humans learn to grow crops",
+    "which wild plants became early crops",
+    "why did farming make people settle in one place",
+    "what tools did the earliest farmers use",
+    "how did villages grow around farming",
+    "what changed when people began producing food"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  },
+  {
+   "id": "gees2.1.3",
+   "title": "Crops of India",
+   "section": "Crops",
+   "definition": "Indian fields grow a rich variety: rice in the monsoon wet, wheat and mustard in the winter cool, millets on dry land, besides cotton, sugarcane, tea and spices, each crop matched to its season and region.",
+   "formula": "",
+   "key_idea": "Crop follows climate: the same subcontinent grows rice in one state and wheat in another.",
+   "textbook_ref": "gees201.txt, Crops",
+   "question_patterns": [
+    "name the major food crops of india",
+    "which crops grow in the monsoon season",
+    "which crops need the cool winter to grow",
+    "where are tea coffee and spices grown in india",
+    "why do different regions grow different crops",
+    "which millets grow on dry land"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  },
+  {
+   "id": "gees2.1.4",
+   "title": "Water for the Fields",
+   "section": "Irrigation",
+   "definition": "Rain alone cannot feed the fields, so farmers built wells, tanks, canals and check dams from ancient times; irrigation lets a second crop grow and shields the harvest when the monsoon fails.",
+   "formula": "",
+   "key_idea": "Water is farming's first input: whoever stores and shares it wisely doubles the land's gift.",
+   "textbook_ref": "gees201.txt, Irrigation",
+   "question_patterns": [
+    "why do fields need irrigation",
+    "name the traditional ways of lifting water for fields",
+    "what is a tank and where are tanks common",
+    "how do canals carry river water to farms",
+    "why should farmers save every drop of rain",
+    "how does irrigation allow a second crop"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gees201.txt",
+   "concept": "gees2.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why has farming been called the story of India itself?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "follow the ages",
+     "explain": "From early clearings to green revolutions, farming shaped villages, festivals and trade."
+    },
+    {
+     "step": 2,
+     "action": "draw the thread",
+     "explain": "Most Indians lived off the land, so each change in farming rewrote the story of the people."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gees201.txt",
+   "concept": "gees2.1.2",
+   "question_type": "verify_property",
+   "question_pattern": "which crops of india does the chapter describe?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gees201.txt, Let us explore",
+   "questions": [
+    "What does the Krishi Parashara verse promise the good farmer?",
+    "Which crops of India does the chapter describe?",
+    "How do farmers water their fields when the rains fail?",
+    "List the crops grown in your region and their seasons.",
+    "Interview a farmer or gardener about the year's farming calendar."
+   ]
+  }
+ ]
+}

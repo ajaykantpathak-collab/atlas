@@ -1,0 +1,515 @@
+{
+ "class": 12,
+ "subject": "home_science",
+ "chapter": 11,
+ "chapter_title": "Hospitality Management",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lehe204.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "drafter draft; gate-validated; review pending",
+ "concepts": [
+  {
+   "id": "lehe204.1",
+   "title": "Hospitality and the Guest",
+   "section": "Introduction and Significance",
+   "definition": "Hospitality is the warm, generous bond between host and guest -- shelter, food, entertainment and courteous service -- owed to every traveller; Indian tradition holds the guest as divine, and modern trade has turned that duty into a fast growing industry promising a home away from home.",
+   "formula": "hospitality = welcome plus stay plus food plus entertainment plus courteous service",
+   "key_idea": "A tourist is anyone who travels and stays temporarily elsewhere, and repeat visits depend on comfort, safety and hygiene.",
+   "textbook_ref": "lehe204.txt, Introduction and Significance (approx lines 72-111)",
+   "question_patterns": [
+    "what is hospitality and why is it significant today",
+    "what does Athithi Devo Bhava imply for the service industry",
+    "who is a tourist",
+    "why is hospitality called a home away from home",
+    "which reasons bring travellers to a city and why do they need hospitality services"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define hospitality",
+     "explain": "guest host relationship expressed through reception, entertainment and warm service"
+    },
+    {
+     "step": 2,
+     "action": "link travel growth to industry growth",
+     "explain": "business, medical, leisure and pilgrimage travel all demand comfortable safe stays"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Indian tradition holds the guest as what: divine or difficult?",
+     "a": "divine"
+    }
+   ]
+  },
+  {
+   "id": "lehe204.2",
+   "title": "Types of Hospitality Establishments",
+   "section": "Basic Concepts",
+   "definition": "Establishments range from the hotel with lodging, meals and services, through the motel with doorstep parking, the lodge offering only sleeping space, the leisure rich resort, to furnished apartments and camps for hikers and adventure seekers.",
+   "formula": "establishment ladder -- lodge plus motel plus hotel plus resort plus apartments plus camps",
+   "key_idea": "What separates the types is the bundle offered: rooms only, rooms plus parking, or a full vacation experience.",
+   "textbook_ref": "lehe204.txt, establishment types (approx lines 118-149)",
+   "question_patterns": [
+    "differentiate between a hotel, a motel and a lodge",
+    "what makes a resort different from other establishments",
+    "who would choose furnished camps and why",
+    "what services does a furnished apartment offer guests",
+    "name the establishments that provide hospitality services"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define each establishment",
+     "explain": "hotel, motel, lodge, resort, furnished apartment, furnished camp"
+    },
+    {
+     "step": 2,
+     "action": "contrast the service bundles",
+     "explain": "sleeping only, parking access, full amenities, leisure programming"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which establishment offers lodging, meals and services: a hotel or a lodge?",
+     "a": "a hotel"
+    }
+   ]
+  },
+  {
+   "id": "lehe204.3",
+   "title": "Guest Cycle and Industry Sectors",
+   "section": "Basic Concepts: Guest Cycle",
+   "definition": "The guest cycle tracks one stay through four stages -- pre arrival quoting and reserving, arrival with registration, occupancy with services and security aimed at winning loyalty, and departure with check out, occupancy records and guest history -- while the industry itself divides into front office, food and beverage, meetings and events, entertainment and tourism sectors.",
+   "formula": "cycle stages -- pre arrival plus arrival plus occupancy plus departure",
+   "key_idea": "Guest history and feedback recorded at departure feed the next pre arrival, closing the loop.",
+   "textbook_ref": "lehe204.txt, guest cycle and Fig 17.1 sectors (approx lines 157-212)",
+   "question_patterns": [
+    "name and explain the four stages of the guest cycle",
+    "which activities happen before the guest reaches the hotel",
+    "what is recorded at the departure stage",
+    "what is meant by customer loyalty in the occupancy stage",
+    "list the sectors shown in the hospitality industry chart"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "walk the four stages",
+     "explain": "reserve, check in, serve, check out with records"
+    },
+    {
+     "step": 2,
+     "action": "map the sectors",
+     "explain": "front office, food and beverage, meetings and events, entertainment, tourism"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Name the guest cycle's first stage: pre-arrival or departure?",
+     "a": "pre-arrival"
+    }
+   ]
+  },
+  {
+   "id": "lehe204.4",
+   "title": "Front Office: Services and Staff",
+   "section": "Front office",
+   "definition": "The front office is a hotel's focal point where the guest first meets the organisation -- welcoming, reserving, registering and rooming guests, holding keys, relaying messages, settling bills -- run round the clock by a manager, assistant manager, shift supervisors, cashier, telephone operator, lobby manager, receptionists, bell captain, bellboys and the doorman.",
+   "formula": "front office value = first impression plus records plus billing plus coordination",
+   "key_idea": "Cold, indifferent service at the desk can undo the work of every other department; the desk runs twenty four hours on rotating shifts.",
+   "textbook_ref": "lehe204.txt, front office and Table 17.1 (approx lines 214-295)",
+   "question_patterns": [
+    "why is the front office called the focal point of a hotel",
+    "write the duties of any three front office staff members",
+    "what does the front office cashier handle",
+    "which duties belong to the bell captain and the bellboys",
+    "what does the front office manager check each day",
+    "why must front office duties run in shifts",
+    "which departments does the front office coordinate with"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the guest facing services",
+     "explain": "greeting, reservation status, registration and rooming, keys, messages, bills"
+    },
+    {
+     "step": 2,
+     "action": "match designations to duties",
+     "explain": "manager schedules and checks arrivals, cashier holds bills, receptionist rooms guests, bell staff moves baggage"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which department is the hotel's focal point where the guest first meets it: front office or laundry?",
+     "a": "the front office"
+    }
+   ]
+  },
+  {
+   "id": "lehe204.5",
+   "title": "Housekeeping: Functions and Sections",
+   "section": "Housekeeping Department",
+   "definition": "Housekeeping guards cleanliness, hygiene and the looks of the whole establishment -- guest rooms, public areas, linen and uniform exchange, flowers and gardens, pest control and inter department coordination -- through seven sections from the control desk to the lost and found.",
+   "formula": "sections -- control desk plus management plus guestroom brigade plus public area brigade plus linen room plus horticulture plus lost and found",
+   "key_idea": "Contract housekeeping has become a business avenue of its own, serving offices and organisations that outsource cleaning.",
+   "textbook_ref": "lehe204.txt, housekeeping functions and sections (approx lines 300-368)",
+   "question_patterns": [
+    "what are the prime functions of the housekeeping department",
+    "list the sections into which housekeeping is divided",
+    "what work does the linen and uniform room coordinate",
+    "why is pest control a housekeeping duty",
+    "how does the control desk link housekeeping with other departments",
+    "which section keeps a guest's misplaced luggage"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the functions",
+     "explain": "cleaning rooms and public areas, linen and uniforms, flowers and landscape, coordination, pest control"
+    },
+    {
+     "step": 2,
+     "action": "match sections to functions",
+     "explain": "each of the seven sections owns one slice of the work"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which department guards cleanliness, hygiene and looks: housekeeping or accounts?",
+     "a": "housekeeping"
+    }
+   ]
+  },
+  {
+   "id": "lehe204.6",
+   "title": "Housekeeping Staffing and Duties",
+   "section": "Staffing pattern of Housekeeping Department",
+   "definition": "The department runs on an executive housekeeper steering manpower, money and time, an assistant per shift, a desk control supervisor who trades room status with the front office around the clock, floor supervisors per floor, room attendants and housemen on cleaning, a public area supervisor, florist and linen room supervisor.",
+   "formula": "hierarchy -- executive plus assistant plus desk control plus floor supervisors plus attendants plus housemen plus specialists",
+   "key_idea": "The desk control supervisor must be reachable twenty four hours because departures, cleaning and handovers never stop.",
+   "textbook_ref": "lehe204.txt, staffing and responsibilities (approx lines 373-436)",
+   "question_patterns": [
+    "write the responsibilities of any three housekeeping personnel",
+    "what does the executive housekeeper manage",
+    "why must the desk control supervisor be available at all hours",
+    "differentiate the work of a room attendant and housemen",
+    "who supplies clean linen and uniforms to the hotel",
+    "what does a floor supervisor look after"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "order the hierarchy",
+     "explain": "executive to assistant to supervisors to attendants and helpers"
+    },
+    {
+     "step": 2,
+     "action": "attach duties",
+     "explain": "scheduling, room status exchange, floor cleanliness, heavy cleaning, gardens, linen issue"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Who steers manpower, money and time in housekeeping: the executive housekeeper or the chef?",
+     "a": "the executive housekeeper"
+    }
+   ]
+  },
+  {
+   "id": "lehe204.7",
+   "title": "Cleaning Practices, Equipment and Agents",
+   "section": "Cleaning practices",
+   "definition": "Cleaning runs on daily, weekly, monthly and seasonal rounds with matching tools -- vacuum cleaners, brushes, brooms, mops, trolleys -- and agents from water, soap and vinegar to ammonia, washing soda, abrasives and polishes, chosen carefully since strong agents can ruin surfaces like wood, marble, granite or vinyl.",
+   "formula": "cleaning choice = surface material plus suitable agent plus right tool and schedule",
+   "key_idea": "Eco friendly practice now guides the trade: organic cotton sheets, chemical free laundering, biodegradable agents, towel reuse cards and efficient bulbs.",
+   "textbook_ref": "lehe204.txt, cleaning practices, agents and eco friendly notes (approx lines 437-458, 518-524)",
+   "question_patterns": [
+    "which cleaning rounds does a hotel follow through the year",
+    "name four cleaning agents and the caution needed with strong ones",
+    "which equipment does housekeeping use for daily cleaning",
+    "how can a hotel make its laundry eco friendly",
+    "why must cleaning agents be matched to the surface material",
+    "what do towel reuse cards in rooms aim to save"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "order the cleaning frequencies",
+     "explain": "daily tasks, weekly deeper rounds, monthly and seasonal or spring cleaning"
+    },
+    {
+     "step": 2,
+     "action": "match agents to surfaces",
+     "explain": "gentle agents for wood and marble, abrasives only where safe"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which agents can ruin marble and wood surfaces: strong abrasives or plain water?",
+     "a": "strong abrasives"
+    }
+   ]
+  },
+  {
+   "id": "lehe204.8",
+   "title": "Food and Beverage Department",
+   "section": "Food and Beverages Department",
+   "definition": "The food and beverage department sells food and drink through kitchens, banquets, restaurants, room service, stewarding and bars; large kitchens split into butchery, bakery, confectionery, vegetable work, soups, pantry and hot range under an executive chef, deputies and section chefs, while kitchen stewarding guards the cutlery, crockery and glassware and restaurant staff serve the guest.",
+   "formula": "outlets -- kitchen plus banquets plus restaurants plus room service plus stewarding plus bars",
+   "key_idea": "The chef de cuisine plans and controls kitchen operations; chef de parties supervise sections; stewards wash pots and issue service equipment.",
+   "textbook_ref": "lehe204.txt, food and beverage department (approx lines 526-564)",
+   "question_patterns": [
+    "which service departments fall under food and beverages",
+    "name the independent sections of a large hotel kitchen",
+    "who heads the kitchen and what are the duties",
+    "what is kitchen stewarding concerned with",
+    "compare the roles of head waiter and assistant waiter",
+    "what qualities must restaurant service staff show"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "map the outlets",
+     "explain": "kitchen through bars, each with its crew"
+    },
+    {
+     "step": 2,
+     "action": "trace the kitchen ladder",
+     "explain": "executive chef, deputy, chef de parties, cooks; stewarding beside them"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Who plans and controls kitchen operations: the chef de cuisine or the doorman?",
+     "a": "the chef de cuisine"
+    }
+   ]
+  },
+  {
+   "id": "lehe204.9",
+   "title": "Support Departments and Management Functions",
+   "section": "Support Service Departments and Management Functions",
+   "definition": "Back office departments -- finance and accounts, engineering, human resources, sales and marketing -- hold the hotel up, while management itself runs through planning, organising, coordinating, staffing, directing, controlling and evaluating resources against the institution's goals.",
+   "formula": "management functions -- planning plus organising plus coordinating plus staffing plus directing plus controlling plus evaluating",
+   "key_idea": "Smooth functioning means managing man, material and other resources across departments with complex relationships.",
+   "textbook_ref": "lehe204.txt, support departments and management functions (approx lines 566-578)",
+   "question_patterns": [
+    "name the back office departments of a hotel",
+    "list the management functions applied in hotels",
+    "what does controlling ensure in an institution",
+    "why does a hotel need an engineering department",
+    "how do the departments of a hotel relate to each other"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "name the support departments",
+     "explain": "finance, engineering, HR, sales and marketing"
+    },
+    {
+     "step": 2,
+     "action": "state the seven functions",
+     "explain": "from planning through evaluating resources against goals"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Name one back office department of a hotel: finance and accounts, or the bar?",
+     "a": "finance and accounts"
+    }
+   ]
+  },
+  {
+   "id": "lehe204.10",
+   "title": "Careers and Competencies in Hospitality",
+   "section": "Scope and Career Opportunities",
+   "definition": "The industry hires from operations staff up through supervisors and junior, middle and top management, favouring energetic, educated youth; personal competencies count -- grooming, hygiene, courtesy, fitness, communication, confidence and languages -- and certificate to degree courses in hotel management open housekeeping, front office and event specialisation careers plus entrepreneurship.",
+   "formula": "career ladder -- operations plus supervisor plus junior plus middle plus top management",
+   "key_idea": "Front office staff must look their best at all times because their appearance projects the establishment's image.",
+   "textbook_ref": "lehe204.txt, scope, competencies and careers (approx lines 580-631)",
+   "question_patterns": [
+    "which levels of jobs does a hotel hierarchy offer",
+    "why do hotels prefer young workers",
+    "list the competencies required of front office staff",
+    "which courses prepare one for hospitality careers",
+    "what entrepreneurial openings exist in housekeeping and events",
+    "why must grooming and uniform standards be met at all times"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "stack the hierarchy",
+     "explain": "five levels from operations to top management"
+    },
+    {
+     "step": 2,
+     "action": "list the competencies and routes",
+     "explain": "grooming to language skills; certificates to degrees; housekeeping, front office, events"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Front office staff must look their best because appearance projects whose image: the establishment's or their own?",
+     "a": "the establishment's"
+    }
+   ]
+  },
+  {
+   "id": "lehe204.11",
+   "title": "Shift Rotation Arithmetic",
+   "section": "Front office: round the clock operation",
+   "definition": "A hotel that never closes divides its twenty four working hours into equal duty shifts, so the number of shift rotations each post needs per day is the operating hours divided by the shift length.",
+   "formula": "shifts_per_day = operating_hours / shift_hours",
+   "key_idea": "With eight hour shifts, every front office and desk control post needs three staff rotations daily.",
+   "textbook_ref": "lehe204.txt, front office manager duties and desk control (approx lines 256-262, 414-417)",
+   "question_patterns": [
+    "a hotel runs 24 hours a day with 8 hour shifts; how many shift rotations does each front office post need daily",
+    "if the desk control operates 24 hours on 6 hour shifts, compute the rotations per day",
+    "find the number of daily shifts from the operating hours and the shift length",
+    "a lobby post works 12 hour shifts round the clock; how many staff rotations does it need per day",
+    "calculate the daily shift count for a post that must never be left unattended"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide hours by shift length",
+     "explain": "the quotient counts how many teams hand over each day",
+     "compute": "shifts_per_day = operating_hours / shift_hours"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Eight-hour shifts over twenty-four hours need how many rotations daily: three or thirty?",
+     "a": "three"
+    }
+   ]
+  },
+  {
+   "id": "lehe204.12",
+   "title": "Cleaning Schedule Frequency",
+   "section": "Cleaning practices",
+   "definition": "Cleaning rounds repeat on a schedule, so the yearly count of any round is its frequency per week multiplied by the weeks in a year -- the arithmetic that shows daily chores tower over seasonal ones.",
+   "formula": "rounds_per_year = cleanings_per_week * weeks_per_year",
+   "key_idea": "A once a week deep clean means 52 rounds a year, while seasonal spring cleaning may touch a room only a few times.",
+   "textbook_ref": "lehe204.txt, cleaning frequencies (approx lines 443-444)",
+   "question_patterns": [
+    "a room gets a weekly deep clean; how many such rounds fall in a year",
+    "a corridor is polished twice a week; compute the rounds completed in a year",
+    "calculate the yearly count of a cleaning round from its weekly frequency",
+    "how many times a year does a monthly schedule run compared with a weekly one",
+    "find the annual rounds for any cleaning task given how often it repeats each week"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the weekly frequency by the weeks in a year",
+     "explain": "fifty two weeks turn a weekly habit into an annual total",
+     "compute": "rounds_per_year = cleanings_per_week * weeks_per_year"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A once-a-week deep clean means how many rounds a year: 52 or 5?",
+     "a": "52"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lehe204.txt front office manager scheduling duties",
+   "concept": "lehe204.11",
+   "question_type": "numeric",
+   "question_pattern": "The front office works {operating_hours} hours daily and the manager schedules shifts of {shift_hours} hours each. How many shift rotations does every post need per day?",
+   "extracted_variables": {
+    "operating_hours": 24,
+    "shift_hours": 8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide hours by shift length",
+     "explain": "24 / 8 = 3 shifts, so three teams hand over each day",
+     "compute": "shifts_per_day = operating_hours / shift_hours"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lehe204.txt cleaning frequency note",
+   "concept": "lehe204.12",
+   "question_type": "numeric",
+   "question_pattern": "A guest room receives a deep clean {cleanings_per_week} time a week. How many deep clean rounds occur in {weeks_per_year} weeks?",
+   "extracted_variables": {
+    "cleanings_per_week": 1,
+    "weeks_per_year": 52
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply by the weeks",
+     "explain": "1 x 52 = 52 rounds in the year",
+     "compute": "rounds_per_year = cleanings_per_week * weeks_per_year"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lehe204.txt Table 17.1 designations",
+   "concept": "lehe204.4",
+   "question_type": "short_answer",
+   "question_pattern": "A guest checks out at noon with a query about the city tour desk. Which front office members handle the payment and the information, and what exactly does each do?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "assign the payment",
+     "explain": "the front office cashier maintains guest bills and receives payment at check out"
+    },
+    {
+     "step": 2,
+     "action": "assign the information",
+     "explain": "the telephone operator or information assistant provides information and communicates with in house guests and visitors"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-rv-1",
+   "source_ref": "lehe204.txt Review Questions 1-7",
+   "questions": [
+    "What makes the front office important in a hotel?",
+    "Write the responsibilities of three members of the front office staff.",
+    "Write the responsibilities of three members of the housekeeping department.",
+    "Explain the working of the restaurant and the kitchen.",
+    "Which types of food service operate in a hotel?",
+    "State the management functions as applied to hotels.",
+    "Mark true or false: a suite has two rooms; housekeeping cooks for guests; kitchen stewarding prepares food; controlling keeps plans within budget."
+   ]
+  },
+  {
+   "id": "ex-pr-1",
+   "source_ref": "lehe204.txt Activities 1 and 2",
+   "questions": [
+    "Visit a hotel in groups and record the steps, materials and tools used in daily, weekly, monthly and seasonal cleaning.",
+    "Survey the market for brooms, brushes and mops, drawing each type and noting cost and use.",
+    "Survey cleaning agents in the market, recording brand, cost, properties, label instructions and precautions.",
+    "Observe the flower arrangements in a hotel's restaurant, banquet hall and reception, noting size and placement."
+   ]
+  }
+ ]
+}

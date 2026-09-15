@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_02_005",
+   "title": "c11_ip_cbse_02_005",
+   "questions": [
+    {
+     "q": "List any five Python keywords and state whether `True`, `False`, and `None` are keywords or identifiers.",
+     "a": "Five Python keywords: `if`, `else`, `for`, `while`, `def`. `True`, `False`, and `None` are keywords (they are reserved constants). A wrong answer — such as listing `print` or `input` as keywords, or saying `True` is an identifier — reveals that the student confuses built-in functions/constants with reserved keywords, or does not know the exact keyword list.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why `2total` is an invalid identifier but `total2` is valid. Also, why is `for` not allowed as a variable name while `For` is allowed?",
+     "a": "`2total` is invalid because identifiers cannot start with a digit; they must start with a letter or underscore. `total2` is valid because it starts with a letter and contains only letters and digits. `for` is a keyword (all lowercase) and cannot be used as an identifier. `For` (capital F) is not a keyword because Python keywords are case-sensitive and `For` is not in the keyword list, so it is a valid identifier. A wrong answer indicates the student either does not know the first-character rule, or thinks keywords are case-insensitive (e.g., believes `For` is also a keyword).",
+     "self_check": true
+    },
+    {
+     "q": "A student wants to write a program to compute the area of a rectangle. They propose the following variable names: `length`, `breadth`, `area`, `class`, `global`, `1side`, `side_1`. Identify which are valid identifiers, which are keywords, and which are invalid. For each invalid one, state the rule violated.",
+     "a": "Valid identifiers: `length`, `breadth`, `area`, `side_1` (follow all rules). Keywords: `class`, `global` (reserved words). Invalid: `1side` (starts with a digit). A wrong answer — such as marking `class` as valid or `side_1` as invalid — shows the student cannot distinguish keywords from identifiers or misapplies the underscore rule.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the rules for identifiers in Python with the rules for variable names in algebra (e.g., in a mathematical expression like `2x + 3y = 12`). Highlight at least two similarities and two differences.",
+     "a": "Similarities: Both use letters to represent values; both are case-sensitive in modern contexts (x vs X). Differences: (1) Algebraic variables are typically single letters, while Python identifiers can be multiple characters and include underscores/digits. (2) Algebraic variables cannot start with a digit (implied by notation like `2x` meaning multiplication), but Python explicitly forbids a leading digit. (3) Python has a list of reserved keywords; algebra has no reserved words. A poor answer suggests the student sees no connection between mathematical variables and programming identifiers, missing the conceptual bridge.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"Since Python is case-sensitive, we can safely use `If`, `IF`, and `if` as three different variable names in the same program.\" Justify your evaluation with reference to Python's keyword list and coding best practices.",
+     "a": "The statement is technically true for `If` and `IF` (they are valid, distinct identifiers) but false for `if` because `if` is a keyword and cannot be used as an identifier. Even for `If` and `IF`, using such similar names violates readability best practices (PEP 8) and can cause confusion. A wrong evaluation that says all three are allowed shows the student does not know `if` is a keyword; one that says none are allowed shows confusion about case sensitivity.",
+     "self_check": true
+    },
+    {
+     "q": "Create a set of five meaningful identifier names for a program that calculates the monthly electricity bill for a household. The program needs to store: consumer number, previous meter reading, current meter reading, unit rate per kWh, and fixed charge. Each name must follow Python identifier rules, avoid keywords, and follow the PEP 8 naming convention (snake_case). Explain your choices.",
+     "a": "Example answer: `consumer_number`, `prev_reading`, `curr_reading`, `unit_rate`, `fixed_charge`. All start with a letter, use only lowercase letters and underscores, are descriptive, and none are keywords. A poor answer might use `1consumer` (starts with digit), `class` (keyword), or `ConsumerNumber` (violates snake_case convention for variables). This reveals whether the student can synthesize naming rules with real-world context and style guidelines.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

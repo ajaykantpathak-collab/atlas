@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_11_001",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_11_001",
+   "title": "c10_math_cbse_11_001",
+   "questions": [
+    {
+     "q": "State the formula for the area of a circle in terms of its radius \\(r\\). What is the value of \\(\\pi\\) commonly used in CBSE Class 10 examinations when the radius is a multiple of 7?",
+     "a": "The formula is \\(A = \\pi r^2\\). When the radius is a multiple of 7, \\(\\pi\\) is taken as \\(\\frac{22}{7}\\) for exact calculation. A wrong answer (e.g., \\(2\\pi r\\) or \\(\\pi d\\)) reveals confusion between circumference and area formulas, or not knowing that \\(\\frac{22}{7}\\) simplifies computation when \\(r\\) is a multiple of 7.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the area of a circle is \\(\\pi r^2\\) and not \\(2\\pi r^2\\) or \\(\\pi d^2\\). Use the sector-rearrangement idea in your explanation.",
+     "a": "When the circle is divided into many sectors and rearranged, the resulting shape approaches a rectangle with breadth \\(r\\) and length half the circumference (\\(\\pi r\\)). Area = length × breadth = \\(\\pi r \\times r = \\pi r^2\\). If a student says \\(2\\pi r^2\\), they likely used the full circumference instead of half. If they say \\(\\pi d^2\\), they confused diameter with radius and missed the factor of \\(\\frac{1}{4}\\) (since \\(d = 2r\\), \\(\\pi d^2 = 4\\pi r^2\\)).",
+     "self_check": true
+    },
+    {
+     "q": "A circular garden has a diameter of 14 metres. Find the area of the garden in square metres. Use \\(\\pi = \\frac{22}{7}\\).",
+     "a": "Given: diameter \\(d = 14\\) m → radius \\(r = 7\\) m.  \n\\(A = \\pi r^2 = \\frac{22}{7} \\times 7 \\times 7 = 22 \\times 7 = 154\\) m².  \nA wrong answer of 616 m² indicates the student used \\(d\\) instead of \\(r\\) (\\(\\frac{22}{7} \\times 14 \\times 14\\)). An answer of 308 m² suggests they used \\(\\pi d\\) (circumference) instead of \\(\\pi r^2\\).",
+     "self_check": true
+    },
+    {
+     "q": "Two circles have radii in the ratio 2:3. What is the ratio of their areas? If the area of the smaller circle is 88 cm², find the area of the larger circle.",
+     "a": "Ratio of radii = 2:3 → ratio of areas = \\(2^2 : 3^2 = 4 : 9\\).  \nLet areas be \\(4k\\) and \\(9k\\). Given \\(4k = 88\\) → \\(k = 22\\). Larger area = \\(9 \\times 22 = 198\\) cm².  \nA wrong ratio of 2:3 shows the student thinks area scales linearly with radius. An answer of 132 cm² (using 3/2 × 88) reveals the same linear misconception.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved: \"Find the area of a circle of radius 5 cm.\" Their working: \\(A = 2 \\times \\frac{22}{7} \\times 5 = \\frac{220}{7} \\approx 31.4\\) cm². Identify the error and give the correct answer.",
+     "a": "The student used the circumference formula \\(2\\pi r\\) instead of area formula \\(\\pi r^2\\). Correct working: \\(A = \\frac{22}{7} \\times 5 \\times 5 = \\frac{550}{7} \\approx 78.57\\) cm². If the student only forgot to square the radius, they might write \\(2\\pi r\\) or \\(\\pi r\\); both indicate confusion between linear and quadratic measurements.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (Indian context) where you need to find the area of a circle, but the given measurement is the circumference (e.g., a circular track). Write the problem and solve it step by step.",
+     "a": "**Problem:** A circular running track has a circumference of 440 metres. Find the area of the grass field inside the track. Use \\(\\pi = \\frac{22}{7}\\).  \n**Solution:**  \n\\(C = 2\\pi r = 440\\) → \\(2 \\times \\frac{22}{7} \\times r = 440\\) → \\(r = \\frac{440 \\times 7}{44} = 70\\) m.  \n\\(A = \\pi r^2 = \\frac{22}{7} \\times 70 \\times 70 = 22 \\times 700 = 15,400\\) m².  \nA poor answer would directly use 440 as radius or diameter, or fail to derive radius from circumference, showing inability to connect the two formulas.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

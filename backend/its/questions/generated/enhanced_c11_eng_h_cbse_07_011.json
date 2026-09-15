@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_07_011",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_07_011",
+   "title": "c11_eng_h_cbse_07_011",
+   "questions": [
+    {
+     "q": "Identify the tense and aspect of the verb phrase \"had been travelling\" in the sentence: \"Professor Gaitonde had been travelling on the Jijamata Express.\" Explain why the past perfect continuous is used here instead of simple past.",
+     "a": "The verb phrase \"had been travelling\" is in the past perfect continuous tense. It is used to emphasize the duration of an action that was ongoing before another past event (the narrative's 'now' of the story). A wrong answer (e.g., identifying it as simple past or past perfect simple) reveals the student cannot distinguish between completed actions and ongoing duration in past time reference, which is critical for tracking the protagonist's timeline shifts.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"If the Marathas had won the Battle of Panipat, history would have been different,\" identify the conditional type and explain how the grammar constructs a counterfactual meaning. Why can't we use \"If the Marathas win...\" here?",
+     "a": "This is a third conditional (if + past perfect, would have + past participle) expressing a hypothetical past situation contrary to fact. \"If the Marathas win\" (first conditional) suggests a real future possibility, which contradicts the known historical fact that they lost. A wrong answer shows the student confuses conditional types and fails to see how grammar encodes the novel's central 'what if' premise.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following direct speech as reported speech, maintaining the original tense logic: Professor Gaitonde said, \"I am experiencing a different world.\" Then explain why the reporting verb \"said\" might be replaced with \"realised\" in the narrative.",
+     "a": "Reported speech: Professor Gaitonde said that he was experiencing a different world. (Backshift: am → was). \"Realised\" replaces \"said\" to show internal cognitive processing rather than mere utterance, reflecting the protagonist's epistemic shift. A wrong answer (e.g., \"is experiencing\") reveals failure to apply backshift rules in reported speech, losing the narrative's past-time anchor.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two sentences from the text: (a) \"The train stopped at a small station.\" (b) \"The train had been stopped by a signal failure.\" Analyze the voice change and its effect on agency and focus. Why does the author choose passive in (b) but active in (a)?",
+     "a": "(a) Active voice: focus on the train as agent performing the action; (b) Passive voice: focus on the train as recipient, with the true cause (\"signal failure\") demoted to a by-phrase. The author uses active for narrative momentum (train as moving force) and passive for explanatory digression (external cause). A wrong answer (e.g., \"both are active\") shows inability to detect voice shifts that manipulate narrative focus — a key stylistic tool in the text.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The exclusive use of past tense in 'The Adventure' makes the alternate history feel like a settled fact rather than a speculation.\" Support your evaluation with two grammatical counter-examples from the text.",
+     "a": "The claim is false. Counter-examples: (1) Third conditionals (\"would have been\") mark speculation explicitly; (2) Modal verbs like \"might have been\" and \"could have happened\" in Professor Gaitonde's internal monologue encode uncertainty. A student agreeing with the claim reveals a surface-level reading that misses how modality and conditionals create the text's speculative texture beneath the past-tense narrative frame.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 3-sentence paragraph continuing the story from Professor Gaitonde's perspective, using: (i) a past perfect continuous verb, (ii) a third conditional, and (iii) a passive construction with a scientific term. Ensure the grammar reinforces the 'alternate history' theme.",
+     "a": "Example: \"I had been searching for the familiar landmarks of my Bombay when the cathedral appeared. If the British had never colonised this coast, the skyline would have remained indigenous. The divergence point is explained by catastrophe theory applied to historical trajectories.\" Criteria: correct formation of all three structures + thematic coherence. A poor answer (mixed tenses, wrong conditional form) shows the student cannot deploy these structures productively to serve the text's central conceit.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

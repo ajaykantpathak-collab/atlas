@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch12_002",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch12_002",
+   "title": "c7_math_ch12_002",
+   "questions": [
+    {
+     "q": "What is the rule for placing the decimal point when multiplying a decimal number by a whole number?",
+     "a": "The product has the same number of decimal places as the decimal number being multiplied. A wrong answer like \"always put the decimal point after two digits\" reveals a rigid memorization of money problems rather than understanding place value, while \"align the decimal points as in addition\" shows confusion between addition/subtraction rules and multiplication rules.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why $0.3 \\times 4$ equals $1.2$ and not $12$ or $0.12$. Use fractions to explain your reasoning.",
+     "a": "As a fraction, $0.3 = \\frac{3}{10}$. Multiplying by 4 gives $\\frac{3}{10} \\times 4 = \\frac{12}{10}$, which converts back to the decimal $1.2$. A wrong answer like $12$ shows the student ignored the place value denominator entirely, while $0.12$ shows the student incorrectly treated the whole number 4 as a decimal multiplier of 0.1.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the product of $3.45$ and $6$.",
+     "a": "First, multiply $345 \\times 6 = 2070$. Second, count the decimal places in $3.45$, which is two decimal places. Third, place the decimal point two spots from the right in $2070$, yielding $20.70$ or $20.7$. A wrong answer like $207.0$ indicates the student miscounted the decimal places and shifted the point by only one digit instead of two.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the results of multiplying $5.6$ by $10$ and $5.6$ by $0.1$. How does the position of the digits change in both cases?",
+     "a": "Multiplying $5.6 \\times 10 = 56$, where the digits shift one place to the left because the value increases ten times. A wrong answer might state that multiplying by a decimal or whole number always moves the decimal point to the right regardless of whether the multiplier is greater or less than 1, failing to analyze the inverse scaling effect.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved $4.2 \\times 5$ and wrote the answer as $2.10$. Identify the error in their reasoning and state the correct answer.",
+     "a": "The student incorrectly treated $4.2$ as $0.42$ or divided by 10 instead of multiplying properly, getting $2.10$ instead of $21.0$. The correct working is $42 \\times 5 = 210$, with one decimal place giving $21.0$. A wrong evaluation that accepts $2.10$ shows a failure to estimate or check the reasonableness of the answer (since $4 \\times 5 = 20$, the answer must be around 20, not 2).",
+     "self_check": true
+    },
+    {
+     "q": "Create a multiplication problem involving a decimal and a whole number where the product is a whole number, and explain why your numbers work.",
+     "a": "An example is $2.5 \\times 4 = 10.0$ or $10$. This works because $2.5 = \\frac{5}{2}$, and multiplying by 4 gives $\\frac{20}{2} = 10$, where the fractional parts combine to make a complete whole. A poor answer gives numbers that still result in a decimal without explaining the underlying factor relationship.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

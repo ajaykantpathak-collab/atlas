@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_geo_ch1_6",
+ "concepts": [
+  {
+   "id": "enh:c9_geo_ch1_6",
+   "title": "c9_geo_ch1_6",
+   "questions": [
+    {
+     "q": "Define the terms 'focus' and 'epicenter' of an earthquake and state the relationship between them.",
+     "a": "The focus (hypocenter) is the point within the Earth where the earthquake rupture starts and energy is released; the epicenter is the point on the Earth's surface directly above the focus. A wrong answer (e.g., swapping the two or placing the focus on the surface) reveals the student confuses the 3D origin of seismic waves with its 2D surface projection, a fundamental spatial misunderstanding that will hinder interpretation of depth-related effects like deep-focus vs. shallow-focus quakes.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Richter scale is logarithmic and what it means when an earthquake of magnitude 6 releases approximately 32 times more energy than a magnitude 5 earthquake.",
+     "a": "The Richter scale is logarithmic (base 10 for amplitude, ~32 for energy) because earthquake energy spans many orders of magnitude; each whole number increase represents a tenfold increase in seismic wave amplitude and roughly 31.6 times more energy release. A wrong answer (e.g., \"magnitude 6 is just 1 unit bigger than 5\") reveals the student treats the scale as linear, a critical error that leads to gross underestimation of large earthquake hazards — for example, thinking the 2001 Bhuj quake (M7.7) was only slightly stronger than a M6.5 event.",
+     "self_check": true
+    },
+    {
+     "q": "A seismograph station records P-waves arriving at 10:00:00 and S-waves at 10:02:30. If the average speed of P-waves is 8 km/s and S-waves is 4.5 km/s, calculate the approximate distance of the station from the epicenter. Show your steps.",
+     "a": "Step 1: Time difference = 150 seconds. Step 2: Let distance = d km. Time for P-wave = d/8, for S-wave = d/4.5. Step 3: d/4.5 - d/8 = 150. Step 4: d(1/4.5 - 1/8) = 150 → d(0.2222 - 0.125) = 150 → d × 0.0972 = 150 → d ≈ 1543 km. Step 5: Verify: P-wave time = 1543/8 ≈ 193 s, S-wave = 1543/4.5 ≈ 343 s, difference = 150 s. A wrong answer (e.g., using only one wave speed or adding times) reveals inability to apply the time-lag method for epicenter location, a core skill for reading seismograms in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the earthquake distribution patterns along the Himalayan belt and the Andaman-Sumatra subduction zone. Why do Himalayan earthquakes tend to be shallow while Andaman earthquakes can be deep?",
+     "a": "Himalayan earthquakes occur at the continental-continental convergent boundary where the Indian Plate underthrusts the Eurasian Plate; the collision zone is shallow (10-20 km depth) because both plates are buoyant and resist subduction, so strain releases near the surface. Andaman-Sumatra earthquakes occur at an oceanic-continental convergent boundary where the denser Indian Ocean plate subducts beneath the Burma microplate, allowing quakes at depths up to 300 km along the dipping slab. A wrong answer (e.g., \"both are convergent so same depth\") reveals failure to link plate density and subduction geometry to focal depth — a key distinction for understanding why Himalayan quakes cause more surface damage per unit magnitude.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Building codes based on seismic zoning maps (like India's Zone V) are sufficient to prevent earthquake casualties.\" Consider the 2001 Bhuj earthquake (Zone V) and the 1993 Latur earthquake (Zone I, later reclassified).",
+     "a": "The statement is false. Seismic zoning maps are probabilistic and based on historical records; they can underestimate hazard in intraplate regions (Latur was in Zone I but experienced M6.2). Building codes ensure structural resilience but cannot prevent casualties if: (a) enforcement is weak (non-engineered masonry in rural areas), (b) population density is high in vulnerable structures, (c) secondary effects like liquefaction (common in alluvial plains of Ganga-Brahmaputra) amplify damage. A wrong answer (e.g., \"Zone V codes will save everyone\") reveals overreliance on zoning without considering vulnerability factors — a common board exam trap where students quote zones but ignore human geography of risk.",
+     "self_check": true
+    },
+    {
+     "q": "Design a community-level earthquake preparedness plan for a village in the Indo-Gangetic plain (high liquefaction potential, Zone IV). Include: (a) one structural measure, (b) one non-structural measure, (c) one early warning action, and (d) one post-earthquake response step — each justified with a geographical reason.",
+     "a": "(a) Structural: Build on reinforced concrete raft foundations with sand compaction piles — because thick alluvial soils amplify shaking and liquefy, spreading load reduces differential settlement. (b) Non-structural: Secure heavy furniture, store water at ground level — because unsecured objects become projectiles during prolonged shaking in soft soils. (c) Early warning: Install community siren linked to Indian Earthquake Early Warning System (IEEWS) — because P-wave detection gives 20-30 seconds lead time for drop-cover-hold in this region. (d) Post-earthquake: Pre-identify open spaces on high ground away from riverbanks for evacuation — because liquefaction causes lateral spreading toward rivers, and aftershocks can collapse weakened structures. A poor answer (generic \"make strong houses, run outside\") reveals lack of site-specific geographical reasoning about alluvial plain hazards.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

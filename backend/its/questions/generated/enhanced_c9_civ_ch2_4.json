@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_civ_ch2_4",
+ "concepts": [
+  {
+   "id": "enh:c9_civ_ch2_4",
+   "title": "c9_civ_ch2_4",
+   "questions": [
+    {
+     "q": "What constitutional article empowers the Election Commission of India to announce and enforce the election schedule?",
+     "a": "Article 324 of the Constitution of India vests the superintendence, direction, and control of elections in the Election Commission, including the power to announce the schedule. A wrong answer (e.g., Article 326 or Article 356) reveals confusion between the constitutional basis for universal adult franchise (Article 326) or President's Rule (Article 356) and the ECI's independent authority to manage the electoral timeline.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Model Code of Conduct (MCC) come into effect immediately upon the announcement of the election schedule by the ECI, rather than at the notification stage?",
+     "a": "The MCC applies from announcement because that is when the election process effectively begins and the ruling party could misuse state resources for campaigning; the ECI uses its Article 324 powers to enforce a level playing field from the earliest moment. A wrong answer (e.g., \"MCC starts at notification\") shows misunderstanding of the distinction between the ECI's administrative announcement (which triggers MCC) and the statutory notification under the Representation of the People Act (which legally constitutes the election).",
+     "self_check": true
+    },
+    {
+     "q": "A state legislative assembly is dissolved prematurely. The ECI announces a by-election schedule with nomination on Day 10, scrutiny on Day 11, withdrawal on Day 13, polling on Day 30, and counting on Day 32. If a candidate files nomination on Day 10 but withdraws on Day 12, is the withdrawal valid? Explain using the election schedule rules.",
+     "a": "Yes, withdrawal on Day 12 is valid because the withdrawal window typically remains open until the last date for withdrawal (Day 13 in this schedule). The Representation of the People Act, 1951, allows withdrawal any time before the deadline after scrutiny. A wrong answer (e.g., \"withdrawal not allowed after scrutiny\") reveals ignorance of the statutory provision that candidates can withdraw after scrutiny but before the withdrawal deadline.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the election schedule for a general election to the Lok Sabha (typically 7-8 phases over 4-5 weeks) with a by-election for a single assembly constituency (single phase, ~3 weeks). Analyze why the ECI designs such different timelines despite the same legal stages.",
+     "a": "General elections require multi-phase polling due to the massive scale (968 million voters, 1 million polling stations, security deployment across states), while a by-election covers one constituency with far fewer logistical constraints. Both follow the same statutory stages (notification to declaration) but the duration of each stage is compressed or expanded based on operational needs. A wrong answer (e.g., \"by-elections have fewer legal stages\") indicates confusion between the mandatory legal stages (which are identical) and the operational timeline (which varies).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"The Election Commission should not announce the election schedule so early because it freezes government decision-making through the Model Code of Conduct for too long, harming governance.\"",
+     "a": "The argument overlooks that early announcement is essential for a level playing field; the MCC prevents misuse of state resources, and the ECI balances governance by allowing routine administrative decisions while restricting new policy announcements. The Supreme Court has upheld the ECI's power to announce schedules well in advance. A weak evaluation (e.g., \"governance is more important\") shows inability to weigh democratic fairness against administrative convenience and ignorance of judicial precedent.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a simplified election schedule for a hypothetical school student council election (single phase) that mirrors the statutory stages of a real Indian election, labeling each stage with its purpose and approximate duration.",
+     "a": "A good answer includes: (1) Announcement by principal (ECI equivalent) → MCC starts; (2) Notification (returning officer issues notice) → 2 days; (3) Nomination filing → 3 days; (4) Scrutiny → 1 day; (5) Withdrawal → 2 days; (6) Campaigning → 5 days; (7) Polling → 1 day; (8) Counting → same day; (9) Declaration. Each stage labeled with purpose (e.g., scrutiny ensures eligibility). A poor answer omits scrutiny/withdrawal or merges stages, showing lack of understanding of the mandatory legal sequence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

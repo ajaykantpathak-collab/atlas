@@ -1,0 +1,555 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "chapter": 204,
+ "chapter_title": "Atoms",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leph204.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leph204.12.2.1",
+   "title": "Rutherford Scattering and the Nuclear Atom",
+   "section": "12.2",
+   "definition": "Firing alpha particles at a thin gold foil showed most sailing straight through while roughly one in eight thousand bounced back past 90 degrees, which only makes sense if the positive charge and nearly all the mass sit in a minute central nucleus.",
+   "formula": "impact parameter b sets the scattering angle",
+   "key_idea": "Atoms are mostly empty space; head-on approaches to the nucleus produce the rare large deflections.",
+   "textbook_ref": "leph204.txt section 12.2 (Geiger-Marsden experiment, 0.14 percent beyond 1 degree, impact parameter)",
+   "question_patterns": [
+    "what did the alpha particle scattering experiment reveal about the atom",
+    "why do only a few alpha particles bounce straight back from a gold foil",
+    "explain the meaning of impact parameter in alpha scattering",
+    "how large is the nucleus compared with the size of the atom",
+    "what conclusion follows from most alpha particles passing through the foil undeviated",
+    "describe how the scattering angle changes as the alpha particle passes closer to the nucleus"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "note the almost empty atom",
+     "explain": "most alpha particles meet nothing solid, so they sail through the foil"
+    },
+    {
+     "step": 2,
+     "action": "blame the tiny core for big bends",
+     "explain": "a close pass to the dense positive nucleus gives a strong Coulomb repulsion and a large angle"
+    },
+    {
+     "step": 3,
+     "action": "tie deflection to impact parameter",
+     "explain": "small b means head-on and near 180 degree rebound, large b means almost no bend"
+    }
+   ]
+  },
+  {
+   "id": "leph204.12.2.2.1",
+   "title": "Distance of Closest Approach",
+   "section": "12.2",
+   "definition": "A head-on alpha particle halts for an instant when all its kinetic energy sits as electrostatic potential energy, and that turning point fixes the closest distance it ever gets to the nucleus.",
+   "formula": "d = (1/4 pi e0) * 2 Z e^2 / K",
+   "key_idea": "The closest approach caps the nucleus radius from above, since the particle turns back before touching it.",
+   "textbook_ref": "leph204.txt Example 12.2 (7.7 MeV alpha on gold, d = 3.0e-14 m)",
+   "question_patterns": [
+    "find the distance of closest approach of a 7.7 MeV alpha particle heading for a gold nucleus",
+    "calculate how near an alpha particle of given energy gets to a nucleus of atomic number Z",
+    "what is the stopping distance for a head-on alpha collision with a gold nucleus",
+    "determine the closest approach when all the alpha kinetic energy turns into potential energy",
+    "an alpha particle of 5.5 MeV runs at a gold nucleus; where does it momentarily stop",
+    "compute the turning point distance for an alpha particle fired straight at a heavy nucleus"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "convert the alpha energy to joules",
+     "explain": "one MeV equals 1.6e-13 joule",
+     "compute": "alpha_energy_joule = alpha_energy_mev * 1.6e-13"
+    },
+    {
+     "step": 2,
+     "action": "form the Coulomb numerator",
+     "explain": "nine billion times the two alpha charges against the nucleus charge Ze squared",
+     "compute": "coulomb_top = 9.0e9 * 2.0 * (1.6e-19 ** 2) * atomic_z"
+    },
+    {
+     "step": 3,
+     "action": "divide by the kinetic energy",
+     "explain": "energy balance at the turning point gives d = numerator over K",
+     "compute": "closest_dist = coulomb_top / alpha_energy_joule"
+    }
+   ]
+  },
+  {
+   "id": "leph204.12.2.2.2",
+   "title": "Total Energy of the Orbiting Electron",
+   "section": "12.2.2",
+   "definition": "A Rutherford electron in a stable circle carries negative total energy: the potential part is exactly twice the kinetic part but opposite in sign, leaving E equal to minus the Coulomb term over twice the orbit radius.",
+   "formula": "E = -(1/4 pi e0) * e^2 / (2 r)",
+   "key_idea": "The negative sign is the binding: positive energy would let the electron escape instead of circling.",
+   "textbook_ref": "leph204.txt section 12.2.2 (K, U and Eq. 12.4, Example 12.3)",
+   "question_patterns": [
+    "find the total energy of the electron in a hydrogen orbit of radius 5.3e-11 m",
+    "calculate the total energy of a circling electron from its orbital radius",
+    "what does the negative total energy of an orbital electron tell you",
+    "determine E for an electron bound at a stated orbital radius",
+    "how do the kinetic and potential parts combine for a circular electron orbit",
+    "compute the total energy as minus the Coulomb term over twice the radius"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "form the Coulomb constant times e squared",
+     "explain": "one over four pi e0 is 9e9 and the electron charge is 1.6e-19 coulomb",
+     "compute": "coulomb_e2 = 9.0e9 * (1.6e-19 ** 2)"
+    },
+    {
+     "step": 2,
+     "action": "halve and negate over the radius",
+     "explain": "total energy is minus the Coulomb term divided by twice the radius",
+     "compute": "total_energy = -1 * coulomb_e2 / (2 * orbit_radius)"
+    }
+   ]
+  },
+  {
+   "id": "leph204.12.3.1",
+   "title": "Line Spectra as Atomic Fingerprints",
+   "section": "12.3",
+   "definition": "Excited thin gases radiate only at certain discrete wavelengths, printing bright emission lines, while a cool gas crossing white light deletes exactly those same wavelengths as dark absorption lines.",
+   "formula": "emission lines = absorption lines of the same gas",
+   "key_idea": "Each element's line pattern is unique, so spectra identify gases like fingerprints identify people.",
+   "textbook_ref": "leph204.txt section 12.3 (emission and absorption line spectra)",
+   "question_patterns": [
+    "what is an emission line spectrum and how does it arise",
+    "how does an absorption spectrum relate to the emission lines of the same gas",
+    "why do rarefied gases emit only certain discrete wavelengths",
+    "explain how spectra serve to identify elements in a gas",
+    "what produces the dark lines seen when white light passes through a gas",
+    "distinguish between a continuous and a line spectrum"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "excite the gas",
+     "explain": "a current or flame lifts atoms into higher energy states"
+    },
+    {
+     "step": 2,
+     "action": "watch the emitted wavelengths",
+     "explain": "falling electrons radiate only at discrete frequencies, giving bright lines"
+    },
+    {
+     "step": 3,
+     "action": "reverse the process for absorption",
+     "explain": "the same atoms subtract those exact wavelengths from white light, leaving dark lines"
+    }
+   ]
+  },
+  {
+   "id": "leph204.12.4.1",
+   "title": "Bohr Postulates of the Hydrogen Atom",
+   "section": "12.4",
+   "definition": "Bohr rescued the nuclear atom with three rules: electrons hold certain non-radiating stationary orbits, only orbits with angular momentum an integer times h over two pi are allowed, and jumps between orbits emit or absorb a photon carrying the energy gap.",
+   "formula": "L = n h / (2 pi)",
+   "key_idea": "Quantised angular momentum plus the photon energy rule turn the runaway classical atom into a stable one with sharp spectral lines.",
+   "textbook_ref": "leph204.txt section 12.4 (three postulates, Eqs. 12.5-12.6)",
+   "question_patterns": [
+    "state the three postulates of the Bohr model",
+    "what is the quantisation condition on the electron's angular momentum",
+    "why do electrons in Bohr orbits refuse to radiate energy",
+    "what decides the frequency of the photon emitted in an orbit jump",
+    "explain how Bohr's model fixes the instability of the Rutherford atom",
+    "define the stationary states of an atom"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "allow non-radiating orbits",
+     "explain": "in stationary states the electron circulates without emitting radiant energy"
+    },
+    {
+     "step": 2,
+     "action": "quantise the angular momentum",
+     "explain": "only orbits with L equal to n h over two pi survive"
+    },
+    {
+     "step": 3,
+     "action": "charge jumps to photons",
+     "explain": "a drop between levels emits a photon with h nu equal to the energy difference"
+    }
+   ]
+  },
+  {
+   "id": "leph204.12.4.2",
+   "title": "Energy of the nth Bohr Level",
+   "section": "12.4",
+   "definition": "The allowed energies of hydrogen collapse to one compact formula: the nth level carries minus 13.6 electron volts divided by n squared.",
+   "formula": "E_n = -13.6 / n^2 eV",
+   "key_idea": "Levels crowd toward zero as n grows, with n equals 1 the deepest state at -13.6 eV.",
+   "textbook_ref": "leph204.txt section 12.4 (Eqs. 12.8-12.10)",
+   "question_patterns": [
+    "find the energy of the electron in the n = 2 Bohr orbit",
+    "calculate the hydrogen level energy for a given quantum number",
+    "what energy does the third stationary state of hydrogen hold",
+    "determine E n from the minus 13.6 over n squared rule",
+    "compute the level energy in electron volts for n = 5",
+    "how does the hydrogen energy depend on the principal quantum number"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the quantum number",
+     "explain": "the level energy falls off as one over n squared",
+     "compute": "level_sq = level_n ** 2"
+    },
+    {
+     "step": 2,
+     "action": "divide -13.6 eV by it",
+     "explain": "the ground state depth spreads over n squared",
+     "compute": "level_energy = -13.6 / level_sq"
+    }
+   ]
+  },
+  {
+   "id": "leph204.12.4.3",
+   "title": "Excitation Energy From the Ground State",
+   "section": "12.4.1",
+   "definition": "Raising hydrogen's electron from the ground state to level n costs the difference between the two level energies, and that cost shrinks as the target level climbs.",
+   "formula": "excite_energy = E_n - E_1",
+   "key_idea": "First excitation takes 10.2 eV, second 12.09 eV, while ionisation needs the full 13.6 eV.",
+   "textbook_ref": "leph204.txt section 12.4.1 (10.2 eV and 12.09 eV examples, ionisation energy)",
+   "question_patterns": [
+    "how much energy lifts a hydrogen atom from the ground state to the n = 2 level",
+    "calculate the excitation energy needed to reach the second excited state",
+    "what energy promotes the electron from level 1 to a higher level n",
+    "determine the energy gap between the ground state and the n = 3 level",
+    "find the minimum energy that excites hydrogen to a stated level",
+    "compute how much energy the atom must absorb for a given jump from the ground state"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "energy of the target level",
+     "explain": "the nth level sits at -13.6 over n squared electron volts",
+     "compute": "final_energy = -13.6 / (level_n ** 2)"
+    },
+    {
+     "step": 2,
+     "action": "add the ground state depth",
+     "explain": "the gap to the ground state is the target energy plus 13.6 eV",
+     "compute": "excite_energy = final_energy + 13.6"
+    }
+   ]
+  },
+  {
+   "id": "leph204.12.4.4",
+   "title": "Bohr Orbit Radii",
+   "section": "12.4",
+   "definition": "Quantised angular momentum lets the electron occupy only certain circles, and each radius grows with the square of the quantum number starting from the Bohr radius near 5.3e-11 m.",
+   "formula": "r_n = 0.529 * n^2 angstrom",
+   "key_idea": "Doubling the level quadruples the orbit: radii run a0, 4 a0, 9 a0 and onward.",
+   "textbook_ref": "leph204.txt section 12.4 (Eq. 12.7 and Exercise 12.7)",
+   "question_patterns": [
+    "the innermost hydrogen orbit measures 5.3e-11 m; find the radii of the n = 2 and n = 3 orbits",
+    "calculate the radius of the electron orbit for a given quantum number",
+    "what is the size of the second Bohr orbit",
+    "determine r n from the Bohr radius times n squared",
+    "find how much wider the third orbit is than the first",
+    "compute the orbital radius for level n in a hydrogen atom"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the quantum number",
+     "explain": "radii scale with n squared",
+     "compute": "level_sq = level_n ** 2"
+    },
+    {
+     "step": 2,
+     "action": "scale the Bohr radius",
+     "explain": "multiply the ground orbit 5.3e-11 m by n squared",
+     "compute": "orbit_radius = 5.3e-11 * level_sq"
+    }
+   ]
+  },
+  {
+   "id": "leph204.12.4.5",
+   "title": "Electron Speed in a Bohr Orbit",
+   "section": "12.4",
+   "definition": "The orbital speed of hydrogen's electron falls off as one over the quantum number, topping out near 2.2 million metres per second in the ground orbit.",
+   "formula": "v_n = 2.18e6 / n m/s",
+   "key_idea": "Outer electrons travel slower, so higher levels mean longer, lazier circuits.",
+   "textbook_ref": "leph204.txt section 12.4 (Eq. 12.3 applied to Bohr orbits, Example 12.3, Exercise 12.6)",
+   "question_patterns": [
+    "find the electron speed in the first Bohr orbit of hydrogen",
+    "calculate the orbital velocity for the n = 2 level",
+    "what speed does the electron have in the third stationary orbit",
+    "determine v n from the ground speed divided by the level number",
+    "find how the electron's orbital speed changes between levels 1, 2 and 3",
+    "compute the revolving electron's speed for a stated quantum number"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide the ground speed by the level",
+     "explain": "Bohr speeds run as 2.18e6 over n metres per second",
+     "compute": "electron_speed = 2.18e6 / level_n"
+    }
+   ]
+  },
+  {
+   "id": "leph204.12.5.1",
+   "title": "Photon Energy of a Level Transition",
+   "section": "12.5",
+   "definition": "When an electron drops from a higher level to a lower one, the freed energy difference leaves as a single photon, and in hydrogen that gap comes straight from the level formula.",
+   "formula": "gap_ev = -13.6/ni^2 + 13.6/nf^2",
+   "key_idea": "Only jumps, not spirals, produce light, and each jump owns one exact energy.",
+   "textbook_ref": "leph204.txt section 12.5 (Eq. 12.11, emission and absorption of photons)",
+   "question_patterns": [
+    "how much energy does the jump from level 4 to level 2 release in electron volts",
+    "find the photon energy for a transition between two hydrogen levels",
+    "calculate the energy gap when an electron falls from ni to nf",
+    "what energy photon appears when the electron drops from the third to the second orbit",
+    "determine the energy released in a stated downward transition",
+    "compute the difference of level energies for a given pair of quantum numbers"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "energy of the upper level",
+     "explain": "the starting level carries -13.6 over n i squared",
+     "compute": "energy_upper = -13.6 / (level_hi ** 2)"
+    },
+    {
+     "step": 2,
+     "action": "energy of the lower level",
+     "explain": "the landing level carries -13.6 over n f squared",
+     "compute": "energy_lower = -13.6 / (level_lo ** 2)"
+    },
+    {
+     "step": 3,
+     "action": "subtract the levels",
+     "explain": "upper minus lower is positive for a downward jump and becomes the photon energy",
+     "compute": "gap_ev = energy_upper - energy_lower"
+    }
+   ]
+  },
+  {
+   "id": "leph204.12.5.2",
+   "title": "Photon Frequency From the Energy Gap",
+   "section": "12.5",
+   "definition": "Dividing a transition's energy gap by Planck's constant turns it into the frequency of the light the atom emits or absorbs, which is why spectra show sharp lines.",
+   "formula": "h nu = Ei - Ef",
+   "key_idea": "Each level pair maps to exactly one frequency, filling the spectrum with discrete lines.",
+   "textbook_ref": "leph204.txt section 12.5 (Eq. 12.11 and Exercise 12.3, 12.5)",
+   "question_patterns": [
+    "a 2.3 eV gap separates two atomic levels; what frequency does the emitted radiation have",
+    "find the frequency of the photon emitted when hydrogen falls from level 4 to the ground state",
+    "calculate the light frequency for a transition of known energy gap",
+    "what frequency belongs to a jump releasing a stated number of electron volts",
+    "determine the photon frequency from the level energies before and after the jump",
+    "compute h nu for an electron transition between two given levels"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "energy of the upper level",
+     "explain": "the starting level carries -13.6 over n i squared electron volts",
+     "compute": "energy_upper = -13.6 / (level_hi ** 2)"
+    },
+    {
+     "step": 2,
+     "action": "energy of the lower level",
+     "explain": "the landing level carries -13.6 over n f squared electron volts",
+     "compute": "energy_lower = -13.6 / (level_lo ** 2)"
+    },
+    {
+     "step": 3,
+     "action": "form the gap in joules",
+     "explain": "subtract the levels and convert electron volts with 1.6e-19",
+     "compute": "gap_joule = (energy_upper - energy_lower) * 1.6e-19"
+    },
+    {
+     "step": 4,
+     "action": "fix Planck's constant",
+     "explain": "h = 6.63e-34 joule second",
+     "compute": "planck_h = 6.63e-34"
+    },
+    {
+     "step": 5,
+     "action": "divide the gap by h",
+     "explain": "frequency equals the energy gap over Planck's constant",
+     "compute": "photon_freq = gap_joule / planck_h"
+    }
+   ]
+  },
+  {
+   "id": "leph204.12.6.1",
+   "title": "de Broglie Standing Waves on Bohr Orbits",
+   "section": "12.6",
+   "definition": "Bohr's quantisation stops looking arbitrary once the electron is a wave: a stable orbit is one whose circumference fits a whole number of de Broglie wavelengths, which recreates the n h over two pi rule.",
+   "formula": "2 pi r_n = n lambda",
+   "key_idea": "Only resonant standing particle waves persist on the orbit, so the allowed orbits are the constructive ones.",
+   "textbook_ref": "leph204.txt section 12.6 (Eq. 12.12 and the standing wave picture)",
+   "question_patterns": [
+    "how does de Broglie's wave idea explain Bohr's second postulate",
+    "why must an integer number of electron wavelengths fit around the orbit",
+    "show that the standing wave condition gives the quantised angular momentum",
+    "what happens to electron waves whose wavelength does not close on itself",
+    "explain the orbit quantisation using the picture of a particle wave on a circle",
+    "relate the orbit circumference to n de Broglie wavelengths"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "wrap the wave on the circle",
+     "explain": "a persistent orbit needs the wave to meet itself in phase after one lap"
+    },
+    {
+     "step": 2,
+     "action": "impose the whole-wavelength fit",
+     "explain": "two pi r equals n times the de Broglie wavelength"
+    },
+    {
+     "step": 3,
+     "action": "recover Bohr's rule",
+     "explain": "substituting lambda equals h over m v returns m v r equal to n h over two pi"
+    }
+   ]
+  },
+  {
+   "id": "leph204.12.4.6",
+   "title": "Quantum Numbers of Everyday Orbits",
+   "section": "12.4",
+   "definition": "Bohr's quantisation applied to a planet-scale orbit yields a quantum number in the ten-to-the-seventies, which is exactly why the graininess of angular momentum is never seen in daily life.",
+   "formula": "n = m v r / (h / 2 pi)",
+   "key_idea": "Angular momentum steps of h over two pi are so minute that ordinary orbits sit unimaginably far up the ladder.",
+   "textbook_ref": "leph204.txt Exercise 12.9 (earth's orbit quantum number) and Points to Ponder",
+   "question_patterns": [
+    "estimate the quantum number of the earth's revolution around the sun",
+    "why does nobody notice the quantisation of angular momentum in daily life",
+    "what happens to the quantum number when Bohr quantisation is applied to a planet",
+    "compare the quantum number of an electron orbit with that of a macroscopic orbit",
+    "how large is the angular momentum ladder step of h over two pi",
+    "explain why quantum effects vanish for massive orbiting bodies"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "form the orbital angular momentum",
+     "explain": "for a circular orbit the angular momentum is m v r"
+    },
+    {
+     "step": 2,
+     "action": "divide by the ladder step",
+     "explain": "n is m v r over h over two pi, about 1.05e-34 joule second"
+    },
+    {
+     "step": 3,
+     "action": "read the astronomical size",
+     "explain": "for planetary data n lands near ten to the seventy-fourth, so adjacent levels are indistinguishable"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_leph204_1",
+   "source_ref": "leph204.txt Example 12.2",
+   "concept": "leph204.12.2.2.1",
+   "question_type": "distance_of_closest_approach",
+   "question_pattern": "An alpha particle of energy {alpha_energy_mev} MeV runs head-on at a gold nucleus of atomic number {atomic_z}. Find its distance of closest approach in metres.",
+   "extracted_variables": {"alpha_energy_mev": 7.7, "atomic_z": 79},
+   "solution_template": [
+    {"step": 1, "action": "convert MeV to joules", "explain": "one MeV is 1.6e-13 J", "compute": "alpha_energy_joule = alpha_energy_mev * 1.6e-13"},
+    {"step": 2, "action": "form the Coulomb numerator", "explain": "nine billion, factor two for the alpha, e squared, times Z", "compute": "coulomb_top = 9.0e9 * 2.0 * (1.6e-19 ** 2) * atomic_z"},
+    {"step": 3, "action": "divide by the kinetic energy", "explain": "the turning point of the head-on run", "compute": "closest_dist = coulomb_top / alpha_energy_joule"}
+   ]
+  },
+  {
+   "id": "we_leph204_2",
+   "source_ref": "leph204.txt section 12.4.1 (E2 value)",
+   "concept": "leph204.12.4.2",
+   "question_type": "bohr_level_energy",
+   "question_pattern": "What energy does the hydrogen electron hold in the Bohr orbit with n = {level_n}?",
+   "extracted_variables": {"level_n": 2},
+   "solution_template": [
+    {"step": 1, "action": "square the level", "explain": "n squared enters the denominator", "compute": "level_sq = level_n ** 2"},
+    {"step": 2, "action": "scale the ground depth", "explain": "E_n = -13.6 over n squared eV", "compute": "level_energy = -13.6 / level_sq"}
+   ]
+  },
+  {
+   "id": "we_leph204_3",
+   "source_ref": "leph204.txt Exercise 12.7 data",
+   "concept": "leph204.12.4.4",
+   "question_type": "bohr_orbit_radius",
+   "question_pattern": "The innermost hydrogen orbit measures 5.3e-11 m. What is the orbit radius for level {level_n}?",
+   "extracted_variables": {"level_n": 2},
+   "solution_template": [
+    {"step": 1, "action": "square the level", "explain": "radii grow as n squared", "compute": "level_sq = level_n ** 2"},
+    {"step": 2, "action": "scale the Bohr radius", "explain": "5.3e-11 m times n squared", "compute": "orbit_radius = 5.3e-11 * level_sq"}
+   ]
+  },
+  {
+   "id": "we_leph204_4",
+   "source_ref": "leph204.txt Exercise 12.5 data (n = 4 from ground)",
+   "concept": "leph204.12.5.2",
+   "question_type": "transition_frequency",
+   "question_pattern": "Hydrogen drops from level {level_hi} straight to the ground state (level {level_lo}). What is the frequency of the emitted photon?",
+   "extracted_variables": {"level_hi": 4, "level_lo": 1},
+   "solution_template": [
+    {"step": 1, "action": "energy of the upper level", "explain": "-13.6 over n i squared", "compute": "energy_upper = -13.6 / (level_hi ** 2)"},
+    {"step": 2, "action": "energy of the lower level", "explain": "-13.6 over n f squared", "compute": "energy_lower = -13.6 / (level_lo ** 2)"},
+    {"step": 3, "action": "gap in joules", "explain": "difference times 1.6e-19", "compute": "gap_joule = (energy_upper - energy_lower) * 1.6e-19"},
+    {"step": 4, "action": "fix Planck's constant", "explain": "h = 6.63e-34 joule second", "compute": "planck_h = 6.63e-34"},
+    {"step": 5, "action": "divide by h", "explain": "frequency = gap over Planck's constant", "compute": "photon_freq = gap_joule / planck_h"}
+   ]
+  },
+  {
+   "id": "we_leph204_5",
+   "source_ref": "leph204.txt Exercise 12.9 data",
+   "concept": "leph204.12.4.6",
+   "question_type": "macroscopic_quantum_number",
+   "question_pattern": "Treat the earth as an orbiting mass of {mass} kg moving at {orbital_speed} m/s around a circle of radius {orbit_radius} m. What Bohr quantum number fits this orbit?",
+   "extracted_variables": {"mass": 6.0e+24, "orbital_speed": 3.0e+04, "orbit_radius": 1.5e+11},
+   "solution_template": [
+    {"step": 1, "action": "orbital angular momentum", "explain": "for a circle the angular momentum is mass times speed times radius: 6e24 * 3e4 * 1.5e11 = 2.7e40 J s"},
+    {"step": 2, "action": "divide by the ladder step", "explain": "h over two pi is 1.05e-34 J s, so n = 2.7e40 / 1.05e-34"},
+    {"step": 3, "action": "read the astronomical size", "explain": "n lands near 2.6e74, so adjacent levels are indistinguishable and the orbit looks classical"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_leph204_12_1_to_12_4",
+   "source_ref": "leph204.txt end-of-chapter exercises 12.1-12.4",
+   "questions": [
+    "Compare the two early atom models: atomic size, electron equilibrium, collapse tendency, mass spread, and where the positive charge and mass live.",
+    "What would an alpha scattering run give if the gold foil were swapped for a thin sheet of solid hydrogen?",
+    "Two atomic levels sit 2.3 eV apart; what frequency of radiation does the downward jump emit?",
+    "With the hydrogen ground state at -13.6 eV, what are the electron's kinetic and potential energies in that state?"
+   ]
+  },
+  {
+   "id": "ex_leph204_12_5_to_12_9",
+   "source_ref": "leph204.txt end-of-chapter exercises 12.5-12.9",
+   "questions": [
+    "A ground-state hydrogen atom soaks up a photon and lands on level n = 4; find that photon's wavelength and frequency.",
+    "Use the Bohr model to get the electron speed in levels 1, 2 and 3 of hydrogen, then the orbital period for each.",
+    "Given the innermost orbit at 5.3e-11 m, what radii do the n = 2 and n = 3 orbits have?",
+    "A 12.5 eV electron beam bombards room-temperature hydrogen gas; which transition wavelengths come out?",
+    "Bohr-quantise the earth's motion: mass 6e24 kg on a 1.5e11 m orbit at 3e4 m/s; what quantum number results?"
+   ]
+  }
+ ]
+}

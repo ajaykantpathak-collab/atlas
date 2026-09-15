@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch1_9",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch1_9",
+   "title": "c9_physics_ch1_9",
+   "questions": [
+    {
+     "q": "What is the primary purpose of the Globally Harmonized System (GHS) hazard pictograms on chemical containers in a school laboratory?",
+     "a": "The primary purpose is to provide a standardized, language-independent visual warning about the specific type of hazard a chemical poses (e.g., flammable, corrosive, toxic, oxidizing) so that any user can instantly recognize the danger and take appropriate precautions. A wrong answer (e.g., \"to show the chemical name\" or \"to indicate price\") reveals the student confuses hazard communication with labeling for identification or inventory, missing the critical safety function of immediate hazard recognition.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it unsafe to wear synthetic clothing (like polyester) while working with open flames or heating experiments in a physics lab, even if you are wearing a cotton lab coat over it?",
+     "a": "Synthetic fibers melt at relatively low temperatures and adhere to skin, causing severe burns that are difficult to treat; a cotton lab coat does not fully protect because synthetic material underneath can melt through the coat's weave or via openings (cuffs, collar) when exposed to radiant heat or a flash fire. A wrong answer (e.g., \"synthetic clothes catch fire easily\") shows the student knows they are flammable but misses the specific mechanism of melting and adherence, which is far more dangerous than simple burning of natural fibers.",
+     "self_check": true
+    },
+    {
+     "q": "During an experiment to determine the specific heat capacity of a metal block using a hot plate, a student accidentally spills 50 mL of hot water (80°C) on their forearm. List the exact sequence of first-aid steps they should take in the first 10 minutes, referencing lab safety equipment.",
+     "a": "1. Immediately move away from the hot plate to prevent further spills. 2. Rush to the emergency eyewash/shower station; if only eyewash is available, use the sink with cold running water. 3. Flush the affected area with copious amounts of cool (not ice-cold) running water for at least 10–15 minutes to dissipate heat and stop thermal damage. 4. Remove any jewelry or clothing not stuck to the skin while flushing. 5. Do not apply creams, oils, or ice. 6. Inform the teacher immediately for further medical assessment. A wrong sequence (e.g., applying ointment first or using ice) reveals misunderstanding of thermal injury management: the priority is heat removal, not covering the wound, and ice causes vasoconstriction worsening tissue damage.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the fire hazards of using a Bunsen burner versus a hot plate for heating a flammable organic solvent (like ethanol) in a distillation setup. Which is safer and why? What specific safety equipment must be present in each case?",
+     "a": "A hot plate is significantly safer because it has no open flame; ethanol vapors are heavier than air and can travel to a Bunsen burner flame causing a flash fire. With a hot plate, the heating element is enclosed, but vapors can still accumulate, so a fume hood or well-ventilated area is mandatory for both. For Bunsen burner: fire blanket and Class B fire extinguisher (CO₂ or dry powder) within arm's reach. For hot plate: same extinguisher, plus a spill tray and thermal gloves. A wrong answer choosing Bunsen burner for \"better control\" ignores vapor density and flash point physics, a critical conceptual gap.",
+     "self_check": true
+    },
+    {
+     "q": "A student proposes the following risk assessment for an experiment on series/parallel circuits using a 12V DC power supply, wires, and bulbs: \"Risk: Electric shock. Control: Wear rubber gloves. Emergency: Call teacher.\" Evaluate this risk assessment. Is it sufficient? Identify three specific deficiencies.",
+     "a": "The assessment is insufficient. Deficiencies: 1. 12V DC is generally not a shock hazard (below 50V threshold); the real risks are thermal burns from hot bulbs/wires, short circuits causing wire melting or battery overheating, and tripping over trailing wires. 2. Rubber gloves are unnecessary for 12V and reduce dexterity, increasing risk of knocking over equipment; proper control is using insulated leads, checking for damaged insulation, and keeping work area dry. 3. \"Call teacher\" is not an emergency procedure; it should specify: \"Switch off power supply at mains, then inform teacher.\" A wrong evaluation that accepts this shows the student cannot distinguish real hazards from perceived ones and lacks procedural specificity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"Lab Safety Passport\" checklist for a Class 9 physics student to complete before starting any experiment. It must have 5 categories with 2 specific checkpoints each, covering PPE, equipment, environment, procedure, and emergency. Write it as a table structure in plain text.",
+     "a": "A good answer will be a structured table with columns: Category, Checkpoint 1, Checkpoint 2. Example rows:\nPPE | Safety goggles worn? (Y/N) | Closed-toe shoes? (Y/N)\nEquipment | All cords intact? (Y/N) | Apparatus clamped securely? (Y/N)\nEnvironment | Aisles clear? (Y/N) | Flammables away from heat? (Y/N)\nProcedure | SOP read & understood? (Y/N) | Circuit checked by teacher before power-on? (Y/N)\nEmergency | Fire extinguisher location known? (Y/N) | Eyewash/shower accessible? (Y/N)\nA poor answer lists generic items like \"be careful\" or misses categories, showing the student cannot translate safety principles into actionable, verifiable steps.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

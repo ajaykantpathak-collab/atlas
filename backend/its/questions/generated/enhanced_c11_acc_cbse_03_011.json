@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_03_011",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_03_011",
+   "title": "c11_acc_cbse_03_011",
+   "questions": [
+    {
+     "q": "What is the correct phrase written on the shorter side of a ledger account when balancing it at the end of an accounting period?",
+     "a": "The correct phrase is \"Balance c/d\" (Balance carried down). A wrong answer like \"Balance b/d\" or \"Closing Balance\" reveals the student confuses the *act of balancing* (c/d) with the *opening entry for next period* (b/d), or uses informal terminology not accepted in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A student totals the debit side of a Furniture Account at ₹85,000 and the credit side at ₹10,000. They write \"Balance c/d ₹75,000\" on the *debit* side. Explain why this is incorrect and state the correct side for \"Balance c/d\".",
+     "a": "\"Balance c/d\" must always be written on the *shorter* side to make the two sides equal. Here the credit side (₹10,000) is shorter, so \"Balance c/d ₹75,000\" goes on the credit side. Writing it on the debit side would make the debit side even larger (₹1,60,000 vs ₹10,000), defeating the purpose of balancing. This error shows the student thinks \"Balance c/d\" goes on the same side as the larger total, misunderstanding that it *equalises* the sides.",
+     "self_check": true
+    },
+    {
+     "q": "The \"Sales Account\" has a credit total of ₹5,00,000 and a debit total of ₹20,000 (due to sales returns). Show the complete balancing step: write the totals, the balance c/d, and the balance b/d with correct sides and narrations.",
+     "a": "Step 1: Total credit side = ₹5,00,000. Step 2: Total debit side = ₹20,000. Step 3: Difference = ₹4,80,000. Step 4: Write \"Balance c/d ₹4,80,000\" on the *debit* side (shorter side) to equalise totals at ₹5,00,000 each. Step 5: Bring down \"Balance b/d ₹4,80,000\" on the *credit* side (opposite side) for next period. A wrong answer placing \"Balance b/d\" on the debit side reveals confusion that revenue accounts have a credit balance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the balancing of a \"Capital Account\" (which has a credit balance) and a \"Drawings Account\" (which has a debit balance). Explain why both show \"Balance b/d\" on opposite sides despite both being related to the owner.",
+     "a": "Capital is a liability to the business (owner's claim), so increases are credited → credit balance → \"Balance c/d\" on debit side → \"Balance b/d\" on credit side. Drawings reduce capital, so it behaves like an expense (debit balance) → \"Balance c/d\" on credit side → \"Balance b/d\" on debit side. A student who puts both on the same side fails to recognise that Drawings is a *contra-capital* account, not a liability.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since the trial balance only needs the closing balances, we can skip writing 'Balance c/d' and 'Balance b/d' in the ledger and just write the final figure once.\" Evaluate this argument with reference to audit trail and accounting standards.",
+     "a": "The argument is invalid. \"Balance c/d\" and \"Balance b/d\" provide a clear audit trail: they show *when* the account was closed, *that* the two sides were equalised, and *which* figure is the opening balance for the next period. Skipping them violates the double-entry principle of transparency and makes verification impossible. A student who agrees misunderstands that ledger accounts are legal evidence, not just calculation sheets.",
+     "self_check": true
+    },
+    {
+     "q": "Design a ledger account for \"Rent Expense\" with at least 4 transactions (mix of cash and outstanding) such that the account has a debit balance at year-end. Show full balancing with \"Balance c/d\" and \"Balance b/d\". Then create a *different* scenario for the same account where it would have a *credit* balance (prepaid rent) and show its balancing.",
+     "a": "**Scenario 1 (Debit Balance - Normal):** Dr side: Cash ₹10,000, Outstanding ₹2,000 (Total ₹12,000). Cr side: nil. Balance c/d ₹12,000 on Cr side. Balance b/d ₹12,000 on Dr side. **Scenario 2 (Credit Balance - Prepaid):** Dr side: Cash ₹10,000. Cr side: Prepaid adjustment ₹2,000 (or opening prepaid). If Cr > Dr, Balance c/d on Dr side, Balance b/d on Cr side. A poor answer uses identical transactions for both or puts Balance b/d on the wrong side, showing inability to visualise how the same account type can have opposite balances under different circumstances.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

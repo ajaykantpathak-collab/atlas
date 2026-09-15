@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_01_003",
+   "title": "c11_acc_cbse_01_003",
+   "questions": [
+    {
+     "q": "Name any three ancient civilisations that developed early accounting systems and state the primary economic purpose (taxation, trade, or treasury management) that drove each civilisation's accounting innovation.",
+     "a": "Correct answer: Babylonia (trade/fraud detection), Egypt (treasury management/tax collection), Greece (public revenue apportionment), Rome (public finance/memorandum recording), China (government accounting), India (state administration per Arthashastra). A wrong answer revealing confusion would be listing only one civilisation, confusing the purpose (e.g., saying Egypt used accounting for trade rather than treasury), or naming modern countries instead of ancient civilisations — this shows the student hasn't grasped the geographical and functional diversity of early accounting origins.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the Roman practice of posting from daybooks (memorandum) to ledgers on a monthly basis was an advancement over Babylonian clay tablet recording, but still insufficient for calculating periodic profit.",
+     "a": "Correct answer: Romans introduced chronological recording in daybooks followed by classified posting to ledgers, enabling organised retrieval — an advance over Babylonian chronological-only tablets. However, both systems were essentially single-entry (listing receipts/payments) without the dual-aspect concept; they tracked cash flow but couldn't match revenues to expenses for a period, so profit determination was impossible. A wrong answer claiming Romans calculated profit shows misunderstanding of single-entry vs double-entry; saying daybooks and ledgers are the same thing reveals confusion about the recording vs classifying distinction.",
+     "self_check": true
+    },
+    {
+     "q": "A 14th century Italian merchant records a credit sale of 500 florins to a buyer in his daybook as \"Sold goods to Giovanni, 500 florins.\" Using Pacioli's double-entry principle, show the two accounts affected and the debit/credit entry for this transaction, explaining why both entries are necessary.",
+     "a": "Correct answer: Debit Giovanni (Debtor/Asset) 500 florins — Credit Sales (Revenue) 500 florins. Both entries are necessary because double-entry captures the dual effect: the merchant gains a claim on Giovanni (asset increase) and earns revenue (capital increase). This allows later matching of this revenue against expenses to determine profit. A wrong answer recording only \"Giovanni owes 500\" (single-entry) misses the revenue recognition; debiting Cash instead of Giovanni ignores the credit nature; reversing debit/credit shows confusion about \"owed to proprietor\" (debit) vs \"owed by proprietor\" (credit) from Pacioli's Latin roots.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Kautilya's Arthashastra prescriptions for government accounting (23 centuries ago) with the Egyptian treasury system described in your textbook. Identify two similarities in their administrative purpose and one key difference in their reporting frequency.",
+     "a": "Correct answer: Similarities — both served state administration (tax collection, expenditure control, fraud prevention); both required hierarchical reporting (subordinates to superiors). Difference — Egyptian system mandated daily reports to Wazirs and monthly to kings, while Arthashastra emphasised periodic audits and annual statements for the treasury. A wrong answer claiming both used double-entry bookkeeping is anachronistic; saying Arthashastra had no reporting frequency shows incomplete reading; confusing Kautilya with a Greek/Roman figure indicates geographical confusion.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Luca Pacioli invented double-entry bookkeeping in 1494.\" Defend your position using evidence from the textbook about Pacioli's own statement and the Italian merchant context.",
+     "a": "Correct answer: The claim is false. Pacioli explicitly did not claim invention — he codified and disseminated existing Italian merchant practices (\"he probably relied on then-current book-keeping manuals\"). His contribution was systematic documentation in Summa de Arithmetica, introducing standardised terminology (Debit/Credit from Italian debito/credito) and the rule \"if you make one creditor, you must make some debtor.\" A wrong answer accepting the invention claim shows uncritical reading; saying double-entry began in 1494 ignores centuries of Italian merchant evolution; attributing Debit/Credit to Pacioli rather than Italian/Latin origins misses the etymological evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Create a timeline diagram (described in words) showing five milestones in accounting evolution from 4000 B.C. to 1494 A.D., where each milestone includes: (a) civilisation/period, (b) key innovation, (c) economic driver. Ensure the timeline demonstrates increasing sophistication in handling credit transactions.",
+     "a": "Expected answer: 1) 4000 B.C. Babylonia/Egypt — clay tablet wage/tax records — state treasury needs; 2) 700 B.C.–400 A.D. Rome — daybook to ledger posting (monthly) — expanding public finance; 3) 2000 B.C. China — sophisticated government accounting — bureaucratic administration; 4) 3rd century B.C. India (Arthashastra) — detailed audit procedures, classification — imperial revenue management; 5) 1494 Venice (Pacioli) — codified double-entry with Debit/Credit — complex long-distance credit trade. A poor answer lists milestones without economic drivers, omits the credit transaction progression, or places Pacioli before ancient civilisations — revealing inability to synthesise chronological and functional development.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

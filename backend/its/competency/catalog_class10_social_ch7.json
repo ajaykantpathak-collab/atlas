@@ -1,0 +1,577 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 7,
+ "chapter_title": "Forest and Wildlife",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess102.txt",
+ "concepts": [
+  {
+   "id": "c10ss.7.1",
+   "title": "Biodiversity and its Importance",
+   "section": "Introduction",
+   "definition": "Biodiversity refers to the variety of plant and animal life in a particular habitat or in the world as a whole, including genetic, species, and ecosystem diversity.",
+   "formula": "",
+   "key_idea": "Biodiversity is the foundation of healthy ecosystems and is essential for ecological stability, human survival, and economic development.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define biodiversity and explain its three levels.",
+    "Why is biodiversity important for ecological balance?",
+    "Explain the relationship between biodiversity and human survival.",
+    "How does loss of biodiversity affect ecosystem services?",
+    "Describe the role of biodiversity in sustaining livelihoods."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the three levels of biodiversity",
+     "explain": "Genetic, species, and ecosystem diversity form the complete picture of biodiversity."
+    },
+    {
+     "step": 2,
+     "action": "Link biodiversity to ecosystem services",
+     "explain": "Biodiversity supports pollination, soil formation, nutrient cycling, and climate regulation."
+    },
+    {
+     "step": 3,
+     "action": "Conclude with the importance for human survival",
+     "explain": "Humans depend on biodiversity for food, medicine, fibre, and raw materials."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is biodiversity and why is it important for human beings?",
+     "solution": "Biodiversity is the variety of living organisms found on Earth. It is important because it provides food, medicine, raw materials, and maintains ecological balance through nutrient cycling and pollination.",
+     "answer": "Biodiversity is the variety of life forms and is essential for ecosystem services and human survival."
+    },
+    {
+     "question": "Explain the three levels of biodiversity with examples.",
+     "solution": "Genetic diversity (variation within a species), species diversity (variety of species in a region), and ecosystem diversity (variety of habitats and ecological processes).",
+     "answer": "The three levels are genetic, species, and ecosystem diversity."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define biodiversity and describe its three levels.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how biodiversity contributes to ecological stability.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.7.2",
+   "title": "Flora and Fauna in India",
+   "section": "Flora and Fauna in India",
+   "definition": "India is one of the world's richest countries in terms of biological diversity, with over 81,000 species of fauna and 47,000 species of flora, owing to its varied climate and topography.",
+   "formula": "",
+   "key_idea": "India's rich biodiversity is a result of diverse climatic and geographical conditions supporting a wide range of plant and animal species.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Describe the extent of flora and fauna diversity in India.",
+    "Why is India considered a mega-diverse country?",
+    "How do climatic variations contribute to India's biodiversity?",
+    "Name some endemic species of India.",
+    "Explain the distribution of flora and fauna across different regions of India."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the magnitude of India's biodiversity",
+     "explain": "India has approximately 47,000 plant species and over 81,000 animal species."
+    },
+    {
+     "step": 2,
+     "action": "Relate diversity to geography and climate",
+     "explain": "The Himalayas, plains, deserts, and coastal regions create diverse habitats."
+    },
+    {
+     "step": 3,
+     "action": "Identify endemic and threatened species",
+     "explain": "Species like the Asiatic lion, one-horned rhino, and Nilgiri tahr are endemic or threatened."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is India considered one of the mega-diverse countries of the world?",
+     "solution": "India has a wide variety of flora and fauna due to its diverse climate and relief. It hosts about 8% of the world's biodiversity on only 2.4% of the land area.",
+     "answer": "India is mega-diverse because it holds a large share of global biodiversity on a small land area."
+    },
+    {
+     "question": "Name two endemic fauna species found in India.",
+     "solution": "The Asiatic lion (Gir forest) and the Indian one-horned rhinoceros (Kaziranga) are endemic to India.",
+     "answer": "Asiatic lion and one-horned rhinoceros are endemic to India."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the flora and fauna wealth of India.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the factors responsible for India's rich biodiversity.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.7.3",
+   "title": "Classification of Species",
+   "section": "Classification of Species",
+   "definition": "Species are classified as normal, endangered, vulnerable, rare, and endemic based on their population status and risk of extinction.",
+   "formula": "",
+   "key_idea": "Classification of species helps prioritise conservation efforts by identifying those most at risk of extinction.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Differentiate between endangered and vulnerable species.",
+    "Define endemic species with examples.",
+    "What are rare species? Give an example.",
+    "Explain the basis on which species are classified.",
+    "Why is classification of species necessary for conservation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the categories of species",
+     "explain": "Normal, endangered, vulnerable, rare, and endemic are the main categories."
+    },
+    {
+     "step": 2,
+     "action": "Define each category by risk level",
+     "explain": "Endangered species face immediate extinction; vulnerable species are likely to become endangered; rare species have small populations; endemic species are confined to a region."
+    },
+    {
+     "step": 3,
+     "action": "Give examples for each category",
+     "explain": "Examples: endangered -- Asiatic lion, vulnerable -- Indian rhino, rare -- Himalayan brown bear, endemic -- Nicobar pigeon."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Distinguish between endangered and vulnerable species with one example each.",
+     "solution": "Endangered species are in danger of extinction (e.g., Asiatic lion). Vulnerable species are likely to become endangered in the near future (e.g., Indian rhinoceros).",
+     "answer": "Endangered species face immediate extinction; vulnerable species are at high risk of becoming endangered."
+    },
+    {
+     "question": "What are endemic species? Give two examples.",
+     "solution": "Endemic species are those found only in a particular geographical region, like the Nicobar pigeon and the Andaman wild pig.",
+     "answer": "Endemic species are restricted to a specific region."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Classify species based on their conservation status.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the importance of classifying species for wildlife conservation.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.7.4",
+   "title": "Conservation of Forest and Wildlife",
+   "section": "Conservation of Forest and Wildlife in India",
+   "definition": "Conservation of forest and wildlife involves protection, preservation, and sustainable management of natural resources to maintain ecological balance and prevent species extinction.",
+   "formula": "",
+   "key_idea": "Conservation is essential to preserve biodiversity, maintain ecological balance, and ensure sustainable use of natural resources for future generations.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why is conservation of forest and wildlife necessary?",
+    "Describe the measures taken for conservation of wildlife in India.",
+    "Explain the role of biosphere reserves in conservation.",
+    "What is the difference between a national park and a wildlife sanctuary?",
+    "How do conservation efforts contribute to sustainable development?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the need for conservation",
+     "explain": "Conservation is needed to prevent species extinction, maintain biodiversity, and preserve ecological balance."
+    },
+    {
+     "step": 2,
+     "action": "List conservation measures",
+     "explain": "National parks, wildlife sanctuaries, biosphere reserves, and legal protection under the Wildlife Protection Act 1972."
+    },
+    {
+     "step": 3,
+     "action": "Explain the role of local communities",
+     "explain": "Community participation through Joint Forest Management and sacred groves strengthens conservation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why do we need to conserve forests and wildlife?",
+     "solution": "Conservation is necessary to maintain ecological balance, preserve biodiversity, protect watersheds, and ensure sustainable livelihoods for local communities.",
+     "answer": "Conservation maintains ecological balance and preserves biodiversity for future generations."
+    },
+    {
+     "question": "Mention any three measures taken for the conservation of wildlife in India.",
+     "solution": "Establishment of national parks and sanctuaries, enactment of the Wildlife Protection Act 1972, and launch of Project Tiger.",
+     "answer": "National parks, Wildlife Protection Act, and Project Tiger are key conservation measures."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the need for conservation of forest and wildlife.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Describe the measures taken for wildlife conservation in India.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.7.5",
+   "title": "Project Tiger",
+   "section": "Project Tiger",
+   "definition": "Project Tiger is a wildlife conservation initiative launched by the Government of India in 1973 to protect the Bengal tiger from extinction and to preserve its habitat.",
+   "formula": "",
+   "key_idea": "Project Tiger was launched to protect the endangered Bengal tiger and its habitat through tiger reserves across India.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "When and why was Project Tiger launched?",
+    "Describe the objectives of Project Tiger.",
+    "How many tiger reserves are there in India?",
+    "Evaluate the success of Project Tiger.",
+    "Explain the role of tiger reserves in biodiversity conservation."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the origin of Project Tiger",
+     "explain": "Project Tiger was launched in 1973 by the Government of India."
+    },
+    {
+     "step": 2,
+     "action": "Explain its objectives",
+     "explain": "The project aims to ensure a viable population of tigers in their natural habitats and protect them from poaching and habitat loss."
+    },
+    {
+     "step": 3,
+     "action": "Assess its impact",
+     "explain": "The tiger population has increased from around 1,800 in the 1970s to over 2,900 tigers, making India home to the largest tiger population."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "When was Project Tiger launched? What are its main objectives?",
+     "solution": "Project Tiger was launched in 1973. Its objectives are to protect the Bengal tiger, ensure a viable tiger population, and preserve tiger habitats by creating tiger reserves.",
+     "answer": "Project Tiger was launched in 1973 to protect Bengal tigers and their habitats."
+    },
+    {
+     "question": "Evaluate the success of Project Tiger in India.",
+     "solution": "Project Tiger has been largely successful, increasing the tiger population from about 1,800 in the 1970s to over 2,900 tigers today. India now has the largest tiger population in the world.",
+     "answer": "Project Tiger increased the tiger population to over 2,900, making India home to the most tigers."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the objectives and achievements of Project Tiger.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Explain the role of tiger reserves in wildlife conservation.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.7.6",
+   "title": "Types and Distribution of Forests in India",
+   "section": "Types and Distribution of Forests",
+   "definition": "India's forests are classified into reserved, protected, and unclassed forests based on legal status, and into tropical evergreen, tropical deciduous, thorn, montane, and mangrove forests based on climate and vegetation type.",
+   "formula": "",
+   "key_idea": "India has diverse forest types distributed according to climate, rainfall, and soil, classified legally and ecologically for management.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Classify forests on the basis of legal status in India.",
+    "Describe the major types of forests found in India.",
+    "Explain the distribution of tropical deciduous forests.",
+    "Differentiate between tropical evergreen and tropical deciduous forests.",
+    "Where are mangrove forests found in India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Classify forests by legal status",
+     "explain": "Reserved forests (over 50% of total), protected forests (around 30%), and unclassed forests (the remainder)."
+    },
+    {
+     "step": 2,
+     "action": "Classify forests by type",
+     "explain": "Tropical evergreen, tropical deciduous (wet and dry), tropical thorn, montane, and mangrove forests."
+    },
+    {
+     "step": 3,
+     "action": "Describe distribution",
+     "explain": "Evergreen forests in the Western Ghats and Northeast; deciduous forests cover most of India; mangroves in the Sundarbans deltas."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Classify forests on the basis of legal status in India.",
+     "solution": "Forests are classified as reserved forests (more than 50%), protected forests (around 30%), and unclassed forests (the rest). Reserved and protected forests are considered permanent forests.",
+     "answer": "Reserved, protected, and unclassed forests are the three legal categories."
+    },
+    {
+     "question": "Differentiate between tropical evergreen and tropical deciduous forests.",
+     "solution": "Tropical evergreen forests are found in regions of high rainfall and remain green throughout the year. Tropical deciduous forests shed leaves in the dry season and are the most widespread in India.",
+     "answer": "Evergreen forests stay green year-round; deciduous forests shed leaves in the dry season."
+    },
+    {
+     "question": "Where are mangrove forests found in India?",
+     "solution": "Mangrove forests are found in the deltas of the Ganga, Mahanadi, Godavari, and Krishna rivers. The Sundarbans is the largest mangrove forest in the world.",
+     "answer": "Mangrove forests are found in the Sundarbans and other river deltas."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Classify the forests of India on the basis of legal status.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Describe the distribution of different types of forests in India.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.7.7",
+   "title": "Community and Conservation",
+   "section": "Community and Conservation",
+   "definition": "Community conservation involves local communities in the protection and management of forests and wildlife, recognising their traditional knowledge and dependence on natural resources.",
+   "formula": "",
+   "key_idea": "Community participation is crucial for effective conservation, as local people have traditional knowledge and a stake in sustainable resource use.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the role of communities in forest conservation.",
+    "Describe the Joint Forest Management programme.",
+    "How have local communities contributed to wildlife conservation in India?",
+    "Explain the significance of the Chipko movement.",
+    "Why is community participation important for conservation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Explain the role of communities",
+     "explain": "Local communities protect forests through traditional practices and movements like the Chipko Andolan."
+    },
+    {
+     "step": 2,
+     "action": "Describe Joint Forest Management (JFM)",
+     "explain": "JFM involves local communities in the management and restoration of degraded forests, initiated in 1988."
+    },
+    {
+     "step": 3,
+     "action": "Give examples of community conservation",
+     "explain": "The Chipko movement in the Himalayas, the Beej Bachao Andolan in Tehri, and the Navdanya movement are examples."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Explain the role of local communities in the conservation of forests.",
+     "solution": "Local communities have protected forests through movements like the Chipko Andolan and the Beej Bachao Andolan. Joint Forest Management involves village communities in the management and restoration of degraded forests.",
+     "answer": "Communities conserve forests through movements and Joint Forest Management."
+    },
+    {
+     "question": "What is the Chipko movement?",
+     "solution": "The Chipko movement was a forest conservation movement in the Himalayas where villagers hugged trees to prevent them from being cut down by contractors.",
+     "answer": "The Chipko movement was a tree-hugging protest to prevent deforestation."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the role of communities in forest conservation with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Describe the Joint Forest Management programme.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.7.8",
+   "title": "Sacred Groves",
+   "section": "Community and Conservation",
+   "definition": "Sacred groves are patches of forest or trees that are protected by local communities for religious and cultural reasons, preserving biodiversity in its pristine form.",
+   "formula": "",
+   "key_idea": "Sacred groves are nature's sanctuaries protected by communities for religious and cultural beliefs, preserving rare and endemic species.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are sacred groves?",
+    "Explain the significance of sacred groves in biodiversity conservation.",
+    "Where are sacred groves found in India?",
+    "How do sacred groves help in conserving flora and fauna?",
+    "Describe the cultural importance of sacred groves."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define sacred groves",
+     "explain": "Sacred groves are patches of forest protected by local communities on religious grounds."
+    },
+    {
+     "step": 2,
+     "action": "Explain their conservation value",
+     "explain": "They preserve rare, threatened, and endemic species and serve as refugia for biodiversity."
+    },
+    {
+     "step": 3,
+     "action": "Identify locations in India",
+     "explain": "Sacred groves are found in Meghalaya, Maharashtra (Khasi and Garo hills), Kerala, and Karnataka."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are sacred groves? Why are they important for conservation?",
+     "solution": "Sacred groves are forest patches protected by local communities for religious reasons. They are important because they preserve biodiversity in its natural form and protect rare and endemic species.",
+     "answer": "Sacred groves are religiously protected forest patches that preserve biodiversity."
+    },
+    {
+     "question": "Name two states where sacred groves are found in India.",
+     "solution": "Sacred groves are found in Meghalaya (Khasi, Garo, and Jaintia hills) and Maharashtra.",
+     "answer": "Sacred groves are found in Meghalaya and Maharashtra."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the concept of sacred groves and their role in conservation.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Name two regions in India where sacred groves are found.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.7.9",
+   "title": "Deforestation and its Causes",
+   "section": "Deforestation",
+   "definition": "Deforestation is the clearing of forests for non-forest uses such as agriculture, mining, and urbanisation, leading to loss of biodiversity and ecological imbalance.",
+   "formula": "",
+   "key_idea": "Deforestation is the permanent destruction of forests for alternative land use, causing biodiversity loss, soil erosion, and climate change.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define deforestation and state its causes.",
+    "Explain the consequences of deforestation.",
+    "How does deforestation contribute to climate change?",
+    "What is the impact of deforestation on biodiversity?",
+    "Suggest measures to control deforestation."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define deforestation",
+     "explain": "Deforestation is the diversion of forest land to non-forest uses like agriculture, mining, and infrastructure."
+    },
+    {
+     "step": 2,
+     "action": "Identify causes",
+     "explain": "Causes include agricultural expansion, mining, urbanisation, overgrazing, and fuelwood collection."
+    },
+    {
+     "step": 3,
+     "action": "Explain consequences",
+     "explain": "Consequences include loss of biodiversity, soil erosion, disruption of the water cycle, and contribution to global warming."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is deforestation? Mention any two causes.",
+     "solution": "Deforestation is the clearing of forests for non-forest purposes. Two causes are agricultural expansion and mining activities.",
+     "answer": "Deforestation is forest clearing for non-forest use; causes include agriculture and mining."
+    },
+    {
+     "question": "Explain two consequences of deforestation.",
+     "solution": "Deforestation leads to loss of biodiversity and soil erosion. It also contributes to climate change by increasing carbon dioxide levels in the atmosphere.",
+     "answer": "Deforestation causes biodiversity loss and soil erosion."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define deforestation and explain its causes.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss the environmental consequences of deforestation.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.7.10",
+   "title": "Conservation Efforts and Legal Framework",
+   "section": "Conservation of Forest and Wildlife in India",
+   "definition": "India has enacted several laws and policies for forest and wildlife conservation, including the Indian Wildlife Protection Act 1972, the Forest Conservation Act 1980, and the National Forest Policy 1988.",
+   "formula": "",
+   "key_idea": "Legal and policy frameworks in India provide the foundation for forest and wildlife conservation through legislation and institutional mechanisms.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Describe the Indian Wildlife Protection Act 1972.",
+    "Explain the objectives of the Forest Conservation Act 1980.",
+    "What is the National Forest Policy 1988?",
+    "How does the legal framework help in conservation?",
+    "Discuss the role of the government in forest conservation."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify key legislation",
+     "explain": "The Wildlife Protection Act 1972, Forest Conservation Act 1980, and National Forest Policy 1988 are key legal instruments."
+    },
+    {
+     "step": 2,
+     "action": "Explain their objectives",
+     "explain": "These laws aim to protect endangered species, prevent diversion of forest land, and increase forest cover to 33% of the geographical area."
+    },
+    {
+     "step": 3,
+     "action": "Assess their impact",
+     "explain": "These frameworks have led to the creation of protected areas, regulation of forest use, and increased awareness of conservation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the Indian Wildlife Protection Act 1972?",
+     "solution": "The Indian Wildlife Protection Act 1972 is a law enacted to protect wildlife in India by prohibiting hunting of endangered species and establishing protected areas.",
+     "answer": "The Wildlife Protection Act 1972 protects endangered species and establishes protected areas."
+    },
+    {
+     "question": "State the main objective of the Forest Conservation Act 1980.",
+     "solution": "The main objective of the Forest Conservation Act 1980 is to check deforestation and prevent the diversion of forest land for non-forest purposes without prior approval from the central government.",
+     "answer": "The Forest Conservation Act 1980 prevents diversion of forest land for non-forest use."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the legal framework for forest and wildlife conservation in India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Explain the objectives of the National Forest Policy 1988.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache"
+}

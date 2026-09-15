@@ -1,0 +1,549 @@
+problem_types_chem_c12:
+  - id: SS_001
+    title: Cubic Crystal Structure – Atomic Packing and Density
+    steps: [STEP_CONCEPT, STEP_CALCULATION, STEP_INFERENCE]
+    marks: 4
+    difficulty: Medium
+    topic: Solid State
+    thinking_question:
+      text: A metal crystallises in a face-centred cubic (FCC) lattice with a cell edge of 3.60 Å. Given that the atomic mass of the metal is 63.55 u, the density of the metal is:
+      options:
+        - 8.92 g cm⁻³
+        - 6.23 g cm³
+        - 10.45 g cm⁻³
+        - 4.50 g cm⁻³
+      correct_answer: 8.92 g cm⁻³
+
+  - id: SS_002
+    title: Ionic Crystal – Radius Ratio and Coordination Number
+    steps: [STEP_CONCEPT, STEP_APPLICATION]
+    marks: 3
+    difficulty: Easy
+    topic: Solid State
+    thinking_question:
+      text: In an AB type of ionic crystal, if the radius ratio r⁺/r⁻ = 0.414, the coordination number of the cation is:
+      options:
+        - 4
+        - 6
+        - 8
+        - 12
+      correct_answer: 6
+
+  - id: SS_003
+    title: Schottky and Frenkel Defects – Stoichiometry and Density
+    steps: [STEP_CONCEPT, STEP_ANALYSIS, STEP_INFERENCE]
+    marks: 5
+    difficulty: Hard
+    topic: Solid State
+    thinking_question:
+      text: In an NaCl crystal containing Schottky defects, if the number of missing Na⁺ and Cl⁻ ions is n per unit volume, the density of the crystal compared to the ideal crystal:
+      options:
+        - Increases by a factor of (N − n)/N
+        - Decreases by a factor of (N − n)/N
+        - Remains unchanged
+        - Doubles
+      correct_answer: Decreases by a factor of (N − n)/N
+
+  - id: SOL_001
+    title: Raoult's Law – Vapour Pressure of Binary Solutions
+    steps: [STEP_CONCEPT, STEP_CALCULATION, STEP_VERIFICATION]
+    marks: 4
+    difficulty: Medium
+    topic: Solutions
+    thinking_question:
+      text: The vapour pressure of pure benzene at a certain temperature is 0.850 bar. When 2.675 g of a non-volatile solid is added to 50 g of benzene, the vapour pressure becomes 0.824 bar. The molar mass of the solid is:
+      options:
+        - 96.5 g mol⁻¹
+        - 43.2 g mol⁻¹
+        - 116.2 g mol⁻¹
+        - 78.0 g mol⁻¹
+      correct_answer: 116.2 g mol⁻¹
+
+  - id: SOL_002
+    title: Colligative Properties – Elevation in Boiling Point
+    steps: [STEP_CONCEPT, STEP_CALCULATION, STEP_INFERENCE]
+    marks: 4
+    difficulty: Medium
+    topic: Solutions
+    thinking_question:
+      text: The boiling point of pure water is 373 K. When 18 g of glucose (C₆H₁₂O₆) is dissolved in 1 kg of water, the boiling point of the solution (K_b for water = 0.512 K kg mol⁻¹) is:
+      options:
+        - 373.052 K
+        - 373.512 K
+        - 374.072 K
+        - 373.256 K
+      correct_answer: 373.052 K
+
+  - id: SOL_003
+    title: Ideal vs Non-Ideal Solutions – Azeotrope Formation
+    steps: [STEP_CONCEPT, STEP_ANALYSIS, STEP_INFERENCE]
+    marks: 5
+    difficulty: Hard
+    topic: Solutions
+    thinking_question:
+      text: Ethanol and water form a minimum-boiling azeotrope. This occurs because the A–B intermolecular interactions are:
+      options:
+        - Stronger than A–A and B–B interactions
+        - Weaker than A–A and B–B interactions
+        - Equal to A–A and B–B interactions
+        - Independent of molecular interactions
+      correct_answer: Weaker than A–A and B–B interactions
+
+  - id: ELEC_001
+    title: Nernst Equation – EMF of a Galvanic Cell
+    steps: [STEP_CONCEPT, STEP_CALCULATION, STEP_INFERENCE]
+    marks: 4
+    difficulty: Medium
+    topic: Electrochemistry
+    thinking_question:
+      text: For the cell Zn | Zn²⁺ (0.1 M) || Cu²⁺ (0.01 M) | Cu at 298 K, the cell EMF (E° = 1.10 V) is:
+      options:
+        - 1.13 V
+        - 1.07 V
+        - 1.22 V
+        - 1.01 V
+      correct_answer: 1.13 V
+
+  - id: ELEC_002
+    title: Faraday's Laws – Electrochemical Equivalent and Deposition
+    steps: [STEP_CONCEPT, STEP_CALCULATION, STEP_VERIFICATION]
+    marks: 4
+    difficulty: Medium
+    topic: Electrochemistry
+    thinking_question:
+      text: A current of 2 A is passed through a solution of CuSO₄ for 30 minutes. The amount of copper deposited (atomic mass of Cu = 63.5 u, valency = 2) is:
+      options:
+        - 1.19 g
+        - 0.59 g
+        - 2.38 g
+        - 0.30 g
+      correct_answer: 1.19 g
+
+  - id: ELEC_003
+    title: Conductivity – Molar Conductivity and Kohlrausch's Law
+    steps: [STEP_CONCEPT, STEP_CALCULATION, STEP_INFERENCE]
+    marks: 5
+    difficulty: Hard
+    topic: Electrochemistry
+    thinking_question:
+      text: The molar conductivity of 0.1 M KCl at 298 K is 12.88 × 10⁻² S m² mol⁻¹. If the limiting molar conductivity of KCl is 149.86 × 10⁻⁴ S m² mol⁻¹ at infinite dilution, this data is used to determine:
+      options:
+        - The transport number of K⁺
+        - The ionic mobility of Cl⁻ at infinite dilution
+        - The degree of dissociation of KCl
+        - The cell constant of the conductivity cell
+      correct_answer: The ionic mobility of Cl⁻ at infinite dilution
+
+  - id: KIN_001
+    title: Order of Reaction – Integrated Rate Law and Half-Life
+    steps: [STEP_CONCEPT, STEP_CALCULATION, STEP_INFERENCE]
+    marks: 4
+    difficulty: Medium
+    topic: Chemical Kinetics
+    thinking_question:
+      text: For a first-order reaction, 75% of the reactant is consumed in 30 minutes. The half-life of the reaction is:
+      options:
+        - 10 min
+        - 15 min
+        - 20 min
+        - 30 min
+      correct_answer: 15 min
+
+  - id: KIN_002
+    title: Arrhenius Equation – Temperature Dependence of Rate Constant
+    steps: [STEP_CONCEPT, STEP_CALCULATION, STEP_INFERENCE]
+    marks: 4
+    difficulty: Medium
+    topic: Chemical Kinetics
+    thinking_question:
+      text: The rate constant of a reaction increases from 1.0 × 10⁻³ s⁻¹ to 2.0 × 10⁻² s⁻¹ when the temperature changes from 300 K to 330 K. The activation energy (R = 8.314 J mol⁻¹ K⁻¹) is approximately:
+      options:
+        - 41.4 kJ mol⁻¹
+        - 82.8 kJ mol⁻¹
+        - 20.7 kJ mol⁻¹
+        - 62.1 kJ mol⁻¹
+      correct_answer: 41.4 kJ mol⁻¹
+
+  - id: KIN_003
+    title: Catalysis – Mechanism and Activation Energy
+    steps: [STEP_CONCEPT, STEP_ANALYSIS, STEP_INFERENCE]
+    marks: 5
+    difficulty: Hard
+    topic: Chemical Kinetics
+    thinking_question:
+      text: A catalyst increases the rate of a reaction by:
+      options:
+        - Increasing the equilibrium constant
+        - Lowering the activation energy
+        - Increasing the temperature
+        - Changing the thermodynamic feasibility
+      correct_answer: Lowering the activation energy
+
+  - id: SURF_001
+    title: Adsorption – Freundlich and Langmuir Isotherms
+    steps: [STEP_CONCEPT, STEP_CALCULATION, STEP_INFERENCE]
+    marks: 4
+    difficulty: Medium
+    topic: Surface Chemistry
+    thinking_question:
+      text: According to the Freundlich adsorption isotherm, the plot of log(x/m) versus log P is linear. The slope and intercept give information about:
+      options:
+        - Enthalpy of adsorption and surface area
+        - Adsorption constant and temperature
+        - The value of 1/n and K (adsorption constant)
+        - Catalyst activity and selectivity
+      correct_answer: The value of 1/n and K (adsorption constant)
+
+  - id: SURF_002
+    title: Colloids – Tyndall Effect and Brownian Motion
+    steps: [STEP_CONCEPT, STEP_APPLICATION, STEP_VERIFICATION]
+    marks: 3
+    difficulty: Easy
+    topic: Surface Chemistry
+    thinking_question:
+      text: Which of the following is NOT exhibited by colloidal solutions?
+      options:
+        - Tyndall effect
+        - Brownian motion
+        - Filterability through ordinary filter paper
+        - Settling under gravity
+      correct_answer: Settling under gravity
+
+  - id: MET_001
+    title: Extraction of Metals – Ellingham Diagram and Reduction
+    steps: [STEP_CONCEPT, STEP_ANALYSIS, STEP_INFERENCE]
+    marks: 5
+    difficulty: Hard
+    topic: General Principles and Processes of Isolation of Elements
+    thinking_question:
+      text: In the Ellingham diagram, a line with a more negative slope for the reaction 2M + O₂ → 2MO indicates that the metal M:
+      options:
+        - Is more easily oxidised and harder to reduce
+        - Is less easily oxidised and easier to reduce
+        - Has a higher melting point
+        - Forms a more stable oxide
+      correct_answer: Is more easily oxidised and harder to reduce
+
+  - id: MET_002
+    title: Zone Refining and Hydrometallurgy
+    steps: [STEP_CONCEPT, STEP_APPLICATION]
+    marks: 3
+    difficulty: Easy
+    topic: General Principles and Processes of Isolation of Elements
+    thinking_question:
+      text: Zone refining is used to purify:
+      options:
+        - Aluminium
+        - Germanium and Silicon
+        - Copper
+        - Iron
+      correct_answer: Germanium and Silicon
+
+  - id: PB_001
+    title: p-Block Group 15 – Oxoacids of Nitrogen
+    steps: [STEP_CONCEPT, STEP_ANALYSIS, STEP_INFERENCE]
+    marks: 4
+    difficulty: Medium
+    topic: p-Block Elements
+    thinking_question:
+      text: Among HNO₂, HNO₃, and H₃PO₄, the acid with the highest pK_a value (weakest acid) is:
+      options:
+        - HNO₂
+        - HNO₃
+        - H₃PO₄
+        - All have the same pK_a
+      correct_answer: H₃PO₄
+
+  - id: PB_002
+    title: p-Block Group 16 – Ozone and Its Reactions
+    steps: [STEP_CONCEPT, STEP_ANALYSIS]
+    marks: 3
+    difficulty: Easy
+    topic: p-Block Elements
+    thinking_question:
+      text: Which of the following reactions demonstrates the oxidising property of ozone?
+      options:
+        - 2PbS + 3O₃ → 2PbO + 2SO₂
+        - 2KI + H₂O + O₃ → 2KOH + I₂ + O₂
+        - O₃ → O₂ + O
+        - 2O₃ → 3O₂
+      correct_answer: 2KI + H₂O + O₃ → 2KOH + I₂ + O₂
+
+  - id: PB_003
+    title: p-Block Group 17 – Interhalogen Compounds and SF₆
+    steps: [STEP_CONCEPT, STEP_ANALYSIS, STEP_INFERENCE]
+    marks: 4
+    difficulty: Medium
+    topic: p-Block Elements
+    thinking_question:
+      text: SF₆ is kinetically inert because:
+      options:
+        - Sulphur has a complete octet
+        - The six fluorine atoms sterically shield the sulphur atom
+        - S–F bonds are very weak
+        - Sulphur has no lone pairs
+      correct_answer: The six fluorine atoms sterically shield the sulphur atom
+
+  - id: DB_001
+    title: d-Block – Transition Metals and Their Characteristics
+    steps: [STEP_CONCEPT, STEP_ANALYSIS]
+    marks: 3
+    difficulty: Easy
+    topic: d- and f-Block Elements
+    thinking_question:
+      text: Which of the following is NOT a characteristic property of transition elements?
+      options:
+        - Formation of coloured compounds
+        - Variable oxidation states
+        - Low melting and boiling points
+        - Formation of complexes
+      correct_answer: Low melting and boiling points
+
+  - id: DB_002
+    title: d-Block – KMnO₄ as Oxidising Agent in Acidic Medium
+    steps: [STEP_CONCEPT, STEP_BALANCING, STEP_CALCULATION]
+    marks: 5
+    difficulty: Hard
+    topic: d- and f-Block Elements
+    thinking_question:
+      text: In acidic medium, MnO₄⁻ oxidises Fe²⁺ to Fe³⁺. The equivalent mass of KMnO₄ in this reaction is:
+      options:
+        - Molar mass / 1
+        - Molar mass / 3
+        - Molar mass / 5
+        - Molar mass / 7
+      correct_answer: Molar mass / 5
+
+  - id: COORD_001
+    title: Coordination Compounds – IUPAC Nomenclature
+    steps: [STEP_CONCEPT, STEP_APPLICATION]
+    marks: 3
+    difficulty: Easy
+    topic: Coordination Compounds
+    thinking_question:
+      text: The IUPAC name of [Co(NH₃)₅Cl]Cl₂ is:
+      options:
+        - Pentaamminechlorocobalt(III) chloride
+        - Pentamminechlorocobalt(II) chloride
+        - Pentaamminechlorocobalt(III) dichloride
+        - Chloropentaamminecobalt(III) chloride
+      correct_answer: Pentaamminechlorocobalt(III) chloride
+
+  - id: COORD_002
+    title: Coordination Compounds – Valence Bond Theory and Magnetic Properties
+    steps: [STEP_CONCEPT, STEP_ANALYSIS, STEP_INFERENCE]
+    marks: 5
+    difficulty: Hard
+    topic: Coordination Compounds
+    thinking_question:
+      text: The complex [Ni(CN)₄]²⁻ is square planar and diamagnetic. This is explained by:
+      options:
+        - sp³ hybridisation with two unpaired electrons
+        - dsp² hybridisation with zero unpaired electrons
+        - sp³d² hybridisation with two unpaired electrons
+        - d²sp³ hybridisation with zero unpaired electrons
+      correct_answer: dsp² hybridisation with zero unpaired electrons
+
+  - id: HALO_001
+    title: Haloalkanes – SN1 and SN2 Mechanisms
+    steps: [STEP_CONCEPT, STEP_ANALYSIS, STEP_INFERENCE]
+    marks: 4
+    difficulty: Medium
+    topic: Haloalkanes and Haloarenes
+    thinking_question:
+      text: The rate of SN2 reaction of (CH₃)₃C–Br with NaOH is extremely slow because:
+      options:
+        - Tertiary alkyl halides undergo SN1 exclusively
+        - Steric hindrance prevents backside attack
+        - The C–Br bond is too strong
+        - Tertiary carbocations are unstable
+      correct_answer: Steric hindrance prevents backside attack
+
+  - id: HALO_002
+    title: Haloarenes – Electrophilic Substitution and Reactivity
+    steps: [STEP_CONCEPT, STEP_ANALYSIS, STEP_INFERENCE]
+    marks: 4
+    difficulty: Medium
+    topic: Haloalkanes and Haloarenes
+    thinking_question:
+      text: Chlorobenzene is less reactive towards electrophilic substitution than benzene because the chlorine atom:
+      options:
+        - Donates electrons by resonance and withdraws by induction
+        - Withdraws electrons by both resonance and induction
+        - Donates electrons by both resonance and induction
+        - Has no effect on the ring electron density
+      correct_answer: Donates electrons by resonance and withdraws by induction
+
+  - id: ALC_001
+    title: Alcohols – Dehydration and Oxidation Reactions
+    steps: [STEP_CONCEPT, STEP_APPLICATION, STEP_INFERENCE]
+    marks: 4
+    difficulty: Medium
+    topic: Alcohols, Phenols and Ethers
+    thinking_question:
+      text: When ethanol is heated with concentrated H₂SO₄ at 170 °C, the major product formed is:
+      options:
+        - Ethanal
+        - Diethyl ether
+        - Ethene
+        - Ethanoic acid
+      correct_answer: Ethene
+
+  - id: ALC_002
+    title: Phenols – Acidity and Electrophilic Aromatic Substitution
+    steps: [STEP_CONCEPT, STEP_ANALYSIS, STEP_INFERENCE]
+    marks: 4
+    difficulty: Medium
+    topic: Alcohols, Phenols and Ethers
+    thinking_question:
+      text: Phenol is more acidic than cyclohexanol because the phenoxide ion is stabilised by:
+      options:
+        - Hydrogen bonding only
+        - Inductive effect of the –OH group
+        - Resonance delocalisation of the negative charge
+        - Solvation energy
+      correct_answer: Resonance delocalisation of the negative charge
+
+  - id: ALD_001
+    title: Aldehydes and Ketones – Nucleophilic Addition
+    steps: [STEP_CONCEPT, STEP_APPLICATION, STEP_INFERENCE]
+    marks: 4
+    difficulty: Medium
+    topic: Aldehydes, Ketones and Carboxylic Acids
+    thinking_question:
+      text: Propanal reacts with 2,4-DNP to give a yellow-orange precipitate. This test is used to confirm the presence of:
+      options:
+        - Alcohol group
+        - Aldehyde or ketone group
+        - Carboxylic acid group
+        - Amine group
+      correct_answer: Aldehyde or ketone group
+
+  - id: ALD_002
+    title: Aldehydes – Cannizzaro Reaction and Tollen's Test
+    steps: [STEP_CONCEPT, STEP_APPLICATION, STEP_INFERENCE]
+    marks: 4
+    difficulty: Medium
+    topic: Aldehydes, Ketones and Carboxylic Acids
+    thinking_question:
+      text: Benzaldehyde undergoes the Cannizzaro reaction with concentrated NaOH. The products are:
+      options:
+        - Benzyl alcohol and sodium benzoate
+        - Benzyl alcohol and benzoic acid
+        - Sodium benzoate and sodium benzyloxide
+        - Benzene and sodium formate
+      correct_answer: Benzyl alcohol and sodium benzoate
+
+  - id: AMIN_001
+    title: Amines – Basicity and Hinsberg's Test
+    steps: [STEP_CONCEPT, STEP_ANALYSIS, STEP_INFERENCE]
+    marks: 4
+    difficulty: Medium
+    topic: Amines
+    thinking_question:
+      text: Aniline is a weaker base than methylamine because in aniline, the lone pair on nitrogen is:
+      options:
+        - Involved in resonance with the benzene ring
+        - More available for protonation
+        - Involved in hydrogen bonding
+        - Less electronegative than carbon
+      correct_answer: Involved in resonance with the benzene ring
+
+  - id: AMIN_002
+    title: Diazonium Salts – Sandmeyer Reaction and Coupling
+    steps: [STEP_CONCEPT, STEP_APPLICATION, STEP_INFERENCE]
+    marks: 5
+    difficulty: Hard
+    topic: Amines
+    thinking_question:
+      text: Benzenediazonium chloride reacts with CuCN to give benzonitrile. This reaction is known as:
+      options:
+        - Sandmeyer reaction
+        - Gattermann reaction
+        - Coupling reaction
+        - Diazotisation
+      correct_answer: Sandmeyer reaction
+
+  - id: BIO_001
+    title: Biomolecules – Carbohydrates – Glucose Structure and Properties
+    steps: [STEP_CONCEPT, STEP_ANALYSIS, STEP_INFERENCE]
+    marks: 4
+    difficulty: Medium
+    topic: Biomolecules
+    thinking_question:
+      text: Glucose exists in two anomeric forms (α and β) that differ in configuration at:
+      options:
+        - C-1
+        - C-2
+        - C-3
+        - C-4
+      correct_answer: C-1
+
+  - id: BIO_002
+    title: Biomolecules – Amino Acids and Peptide Bond Formation
+    steps: [STEP_CONCEPT, STEP_CALCULATION, STEP_INFERENCE]
+    marks: 4
+    difficulty: Medium
+    topic: Biomolecules
+    thinking_question:
+      text: A tripeptide is formed from three different amino acids. The number of peptide bonds formed is:
+      options:
+        - 1
+        - 2
+        - 3
+        - 4
+      correct_answer: 2
+
+  - id: BIO_003
+    title: Biomolecules – Nucleic Acids – DNA and RNA
+    steps: [STEP_CONCEPT, STEP_ANALYSIS]
+    marks: 3
+    difficulty: Easy
+    topic: Biomolecules
+    thinking_question:
+      text: Which of the following is NOT a pyrimidine base found in nucleic acids?
+      options:
+        - Cytosine
+        - Thymine
+        - Uracil
+        - Adenine
+      correct_answer: Adenine
+
+  - id: MIX_001
+    title: Integrated Problem – Electrochemistry + Kinetics
+    steps: [STEP_CONCEPT, STEP_CALCULATION, STEP_INFERENCE, STEP_VERIFICATION]
+    marks: 6
+    difficulty: Hard
+    topic: Electrochemistry + Kinetics
+    thinking_question:
+      text: A first-order reaction has k = 1.0 × 10⁻³ s⁻¹. An electrolytic cell using this reaction is operated at 2 A for 15 minutes. The amount of product formed is limited by the smaller of: (i) the charge passed or (ii) the extent of reaction from kinetics. For n = 2, the kinetically limited mass (g, molar mass = 100 g mol⁻¹) is:
+      options:
+        - 0.375 g
+        - 0.600 g
+        - 0.750 g
+        - 1.000 g
+      correct_answer: 0.375 g
+
+  - id: MIX_002
+    title: Integrated Problem – Solutions + Electrochemistry
+    steps: [STEP_CONCEPT, STEP_CALCULATION, STEP_ANALYSIS, STEP_INFERENCE]
+    marks: 6
+    difficulty: Hard
+    topic: Solutions + Electrochemistry
+    thinking_question:
+      text: The molar conductivity of a 0.01 M weak electrolyte is 50 S cm² mol⁻¹, and its limiting molar conductivity is 500 S cm² mol⁻¹. The degree of dissociation of the electrolyte is:
+      options:
+        - 0.01
+        - 0.05
+        - 0.10
+        - 0.50
+      correct_answer: 0.10
+
+step_types:
+  STEP_CONCEPT: "Recall and explain the underlying concept or principle"
+  STEP_APPLICATION: "Apply a known formula or rule to a new situation"
+  STEP_CALCULATION: "Perform numerical computation using appropriate formulae"
+  STEP_ANALYSIS: "Analyse given data or conditions to draw meaningful conclusions"
+  STEP_INFERENCE: "Make logical inferences from calculated or analysed results"
+  STEP_VERIFICATION: "Verify or cross-check results against known principles"
+  STEP_BALANCING: "Balance a chemical equation or determine stoichiometric ratios"

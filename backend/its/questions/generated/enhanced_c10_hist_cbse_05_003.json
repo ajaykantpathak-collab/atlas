@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_hist_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c10_hist_cbse_05_003",
+   "title": "c10_hist_cbse_05_003",
+   "questions": [
+    {
+     "q": "What was the *first major book* printed by Gutenberg using movable metal type in Mainz, and in approximately what year was it completed?",
+     "a": "The Gutenberg Bible (42-line Bible), completed c. 1455. A wrong answer (e.g., \"Luther's Bible\" or \"Erasmus's New Testament\") reveals the student confuses the *invention* of the press with the *later religious uses* of print — a chronological compression error common in board exams where students merge the 1450s and 1520s into one \"printing moment.\"",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Print Revolution *not* immediately lead to mass literacy among European peasants in the 1500s, despite the flood of cheap books?",
+     "a": "Early printed books were still relatively expensive (a Bible cost a clerk's monthly wages), mostly in Latin, and distributed through urban markets; peasants lacked purchasing power, reading skills, and access to distribution networks. Literacy rose slowly over centuries. A wrong answer (\"printing made everyone literate quickly\") shows the student equates *book production* with *literacy acquisition*, ignoring the socio-economic mediators (schools, wages, language) that board exam case-study questions often test.",
+     "self_check": true
+    },
+    {
+     "q": "A historian argues: \"The printing press *caused* the Protestant Reformation.\" Using the distinction between *necessary condition* and *sufficient condition*, explain why this claim is only half-true.",
+     "a": "The press was a *necessary condition* — without it, Luther's theses would have remained a local academic dispute — but not a *sufficient condition*: pre-existing anti-clericalism, political fragmentation of the Holy Roman Empire, and Luther's theological appeal were also required. A wrong answer (\"press caused Reformation\") commits mono-causal determinism, a trap in CBSE assertion-reason questions where students must evaluate \"Printing press was the main cause of Reformation\" as *false* because it ignores the *interaction* of technology and social context.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of print on the *Scientific Revolution* (1550–1700) with its impact on the *Reformation* (1517–1550). Identify one key similarity and one key difference in how printed materials functioned in each movement.",
+     "a": "Similarity: both relied on *vernacular* and *Latin* texts to bypass gatekeepers (Church for Reformers; Aristotelian professors for scientists). Difference: Reformation used print for *polemic and mass mobilization* (pamphlets, hymns, cartoons for semi-literate crowds), while the Scientific Revolution used print for *cumulative, technical exchange* (diagrams, data tables, Latin correspondence among elites). A wrong answer (\"both spread ideas\") misses the *genre/audience distinction* that CBSE source-based questions test via contrasting a Luther pamphlet (woodcut + German) vs. a Newton diagram (Latin + geometry).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Print Revolution created a unified European public sphere by 1600.\" Support your judgment with two pieces of evidence *for* and two *against*.",
+     "a": "*For*: (1) Republic of Letters — scholars corresponded across borders using printed journals; (2) bestsellers like Erasmus's *Adagia* or *Foxe's Book of Martyrs* created shared cultural references. *Against*: (1) censorship (Index Librorum Prohibitorum) and state licensing fragmented the market; (2) literacy remained below 20% in most regions, excluding peasants/women. A balanced \"partial creation\" judgment is needed. A wrong answer (\"yes, it united Europe\") ignores the *exclusionary mechanisms* (censorship, language barriers, illiteracy) that board exam \"evaluate\" questions reward addressing.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 5-event timeline (with years) showing the causal chain from Gutenberg's press to the *Enlightenment* (1680s onward), ensuring each step is a *direct consequence* of the previous one.",
+     "a": "Example: 1455 Gutenberg Bible → 1517 Luther's 95 Theses printed/spread → 1543 Copernicus's *De Revolutionibus* printed → 1620s first scientific journals (*Journal des Sçavans*) → 1689 Locke's *Two Treatises* printed → Enlightenment. Each arrow must show *print-enabled diffusion* (not just temporal order). A poor answer lists unrelated events (e.g., \"Columbus 1492\") revealing the student cannot trace *information-technology causality* — a skill CBSE competency questions explicitly assess.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

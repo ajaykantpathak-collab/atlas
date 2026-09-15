@@ -1,0 +1,205 @@
+{
+ "class": 6,
+ "subject": "english",
+ "chapter": 3,
+ "chapter_title": "Neem Baba",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fepr103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fepr.3.1",
+   "title": "Uses of the Neem Tree",
+   "section": "Neem Baba, Let us read II",
+   "definition": "Neem serves health and farming together: twigs clean teeth, leaves fight germs in measles, bark and flowers make medicines, seed powder shields crops from locusts and termites, and oil goes into soap and toothpaste.",
+   "formula": "neem_uses = medicines + crop protection + daily products",
+   "key_idea": "Every part of the neem, from leaf to root, has a use, which is why it is called nature's gift.",
+   "textbook_ref": "fepr103.txt, Neem Baba, Let us read II",
+   "question_patterns": [
+    "how is the neem tree useful to farmers",
+    "mention some uses of the neem tree",
+    "why are neem leaves advised for a measles patient",
+    "how does neem seed powder protect crops",
+    "which parts of the neem tree are used to make medicines",
+    "how does neem stop mosquitoes from breeding in stagnant water"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "scan for the uses",
+     "explain": "Collect each use of neem as the dialogue mentions it, part by part."
+    },
+    {
+     "step": 2,
+     "action": "sort them by purpose",
+     "explain": "Group the uses under health, farming and daily life."
+    },
+    {
+     "step": 3,
+     "action": "sum up the value",
+     "explain": "State in one line why people call neem useful and precious."
+    }
+   ]
+  },
+  {
+   "id": "fepr.3.2",
+   "title": "Neem Baba: Names and Origins",
+   "section": "Neem Baba, Let us read I",
+   "definition": "The neem tree was born millions of years ago in North India or Myanmar and spread across Asia, Africa and parts of America. Its Sanskrit names include Arishta and Nimba, Iranians gave the name Neem, and scientists call it the bitter grace of God and the magic tree.",
+   "formula": "",
+   "key_idea": "A name story, from Arishta the healer to Nimb and Neem, carries the tree's fame across languages.",
+   "textbook_ref": "fepr103.txt, Neem Baba, Let us read I",
+   "question_patterns": [
+    "where was the neem tree born and where is it found now",
+    "which sanskrit names does the neem tree have",
+    "who gave the neem tree the name neem",
+    "why do scientists call the neem the magic tree",
+    "what are the different names of neem in india",
+    "why is neem called arishta or the one who cures diseases"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the origin",
+     "explain": "Note the birthplace and spread of the tree from the dialogue."
+    },
+    {
+     "step": 2,
+     "action": "list the names with their givers",
+     "explain": "Arrange the names under Sanskrit, Iranian, Hindi and scientist groups."
+    },
+    {
+     "step": 3,
+     "action": "explain the naming idea",
+     "explain": "Say why each name fits the tree's healing nature."
+    }
+   ]
+  },
+  {
+   "id": "fepr.3.3",
+   "title": "Reading a Dialogue: Amber and Neem Baba",
+   "section": "Neem Baba, Let us read",
+   "definition": "The chapter is written as a conversation between a child and a tree that speaks; questions by Amber pull out facts one by one, which is how a dialogue text organises information.",
+   "formula": "",
+   "key_idea": "In a dialogue, each speaker's turn gives one new fact; following the turns gives the whole picture.",
+   "textbook_ref": "fepr103.txt, Neem Baba, Let us read",
+   "question_patterns": [
+    "who are the two speakers in the chapter neem baba",
+    "why does amber call the tree neem baba",
+    "how does the dialogue form help share facts about neem",
+    "what question does amber ask about farmers",
+    "what warning does neem baba give about home remedies",
+    "what does neem baba wish for amber at the end"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the speakers",
+     "explain": "Name who speaks and what each one wants from the talk."
+    },
+    {
+     "step": 2,
+     "action": "follow the turns",
+     "explain": "Track how one question leads to one new fact in each turn."
+    },
+    {
+     "step": 3,
+     "action": "collect the outcome",
+     "explain": "State what the child learns by the end of the conversation."
+    }
+   ]
+  },
+  {
+   "id": "fepr.3.4",
+   "title": "Word Meanings: Twigs, Measles and Stagnant",
+   "section": "Neem Baba, Let us learn",
+   "definition": "Context gives the meanings: twigs are small thin branches, measles is a disease with fever and red spots, stagnant water is water that does not flow, and purifies means removes harmful particles.",
+   "formula": "",
+   "key_idea": "Gloss pairs in the margin mirror the clues inside the sentence, so meaning can be checked both ways.",
+   "textbook_ref": "fepr103.txt, Neem Baba, Let us learn",
+   "question_patterns": [
+    "what are twigs according to the chapter",
+    "what kind of disease is measles",
+    "what does stagnant water mean",
+    "what does purifies the air mean here",
+    "find the meaning of cost-effective from the text",
+    "use the word breeds in a sentence about mosquitoes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find the word in its line",
+     "explain": "Locate the sentence where the new word appears."
+    },
+    {
+     "step": 2,
+     "action": "use the surrounding clues",
+     "explain": "Read before and after the word to see what sense the sentence needs."
+    },
+    {
+     "step": 3,
+     "action": "replace and test",
+     "explain": "Swap in the guessed meaning; if the sentence still makes sense, the meaning is right."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fepr103.txt, Let us read II",
+   "concept": "fepr.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "How does neem seed powder help rice farmers?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find the farming passage",
+     "explain": "Neem Baba explains that seed powder mixed with water is sprayed on plants."
+    },
+    {
+     "step": 2,
+     "action": "list the three benefits",
+     "explain": "Locusts stop eating the crop, mosquito breeding falls in standing water, and termites are kept away."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fepr103.txt, Let us read I",
+   "concept": "fepr.1.2",
+   "question_type": "verify_property",
+   "question_pattern": "Why is the name Arishta suitable for the neem tree?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "translate the name",
+     "explain": "Arishta means the one who cures diseases."
+    },
+    {
+     "step": 2,
+     "action": "match it to the tree's work",
+     "explain": "Neem leaves, bark and roots make medicines, so the healer name fits."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fepr103.txt, Let us think and reflect",
+   "questions": [
+    "Write any two facts about the neem tree that surprise you the most.",
+    "Complete: Amber played in the shade of what?",
+    "Neem seed powder protects crops from which pests?",
+    "Why is the story of the neem tree thought-provoking?",
+    "Which parts of the neem tree can be used to make medicines?"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,172 @@
+{
+ "catalog": "catalog_class12_sociology_lesy202",
+ "concepts": [
+  {
+   "id": "lesy202.1",
+   "title": "Nineteenth Century Reform: The Modern Context and the Mix of Ideas",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Nineteenth Century Reform: The Modern Context and the Mix of Ideas' refers to.",
+     "a": "The reform movements against sati, child marriage, the widow remarriage ban and caste discrimination were new in one respect: they ran on a modern infrastructure. Satish Saberwal names its three faces - faster communication, new kinds of organisation, and a changed nature of ideas - and reformers combined western liberalism with a fresh reading of traditional texts rather than rejecting tradition outright.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Nineteenth Century Reform: The Modern Context and the Mix of Ideas'.",
+     "a": "Printing press, railways, newspapers and associations like the brahmo samaj and arya samaj let reformers from punjab, bengal, madras and maharashtra campaign together.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Nineteenth Century Reform: The Modern Context and the Mix of Ideas', in plain ASCII form.",
+     "a": "modern_context = communication + organisation + ideas ; reform_argument = western_liberalism + traditional_texts",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy202.2",
+   "title": "Debate and Opposition: Reformers versus Orthodoxy",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Debate and Opposition: Reformers versus Orthodoxy' refers to.",
+     "a": "Reform proposals split the very communities they addressed. Orthodox groups answered with organised resistance - dharma sabha in bengal petitioned the british claiming reformers had no right to interpret sacred texts - while reforming women such as jahanara shah nawas pushed anti-polygamy resolutions inside their own community, and women's journals took sides.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Debate and Opposition: Reformers versus Orthodoxy'.",
+     "a": "Change was argued out inside communities: the brahmo samaj opposed sati, orthodox bengalis formed dharma sabha, and tahsib-e-niswan backed the anti-polygamy resolve while other journals objected.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Debate and Opposition: Reformers versus Orthodoxy', in plain ASCII form.",
+     "a": "debate = reformers + orthodoxy ; outcome = petition + press_argument + resolutions",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy202.3",
+   "title": "Sanskritisation: The Process M N Srinivas Named",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Sanskritisation: The Process M N Srinivas Named' refers to.",
+     "a": "Sanskritisation, a term minted by m n srinivas, names the route by which a low placed caste or tribe takes over the ritual, beliefs, customs and life style of a high, twice-born caste, hoping to rise in the local hierarchy. It mostly works inside the hindu space, usually presupposes some economic or political gain or contact with a great tradition centre, and meets punishment from the dominant caste when the ambitious group is bold.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sanskritisation: The Process M N Srinivas Named'.",
+     "a": "Where a sanskritised caste dominates a region its culture spreads, but where non-sanskritic castes dominate the reverse pull, de-sanskritisation, operates - punjab long felt persian influence instead.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Sanskritisation: The Process M N Srinivas Named', in plain ASCII form.",
+     "a": "sanskritisation = low_group_adopts + high_caste_customs ; precondition = economic_or_political_gain + great_tradition_contact",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy202.4",
+   "title": "Five Criticisms of Sanskritisation",
+   "questions": [
+    {
+     "q": "Using the method 'Five Criticisms of Sanskritisation', work with: dalit_culture_eroded = 24, gender_backlash = 30, pollution_justified = 15, positional_not_structural = 18, superiority_assumed = 4. Carry the chain through step by step and give the final value of criticisms.",
+     "a": "91 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Five Criticisms of Sanskritisation' and work with: dalit_culture_eroded = 18, gender_backlash = 300, pollution_justified = 6, positional_not_structural = 240, superiority_assumed = 120. Carry the chain through step by step and give the final value of criticisms.",
+     "a": "684 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Five Criticisms of Sanskritisation' refers to.",
+     "a": "The concept draws five attacks: it inflates how far low castes can actually rise, since only positions shift while the unequal structure stays put; it treats upper caste ways as superior and imitation as natural; it quietly justifies purity-pollution thinking; its rewards push women backwards through seclusion and dowry in place of bride-price; and it erodes dalit culture by branding the labour and crafts of lower castes as shameful.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Five Criticisms of Sanskritisation'.",
+     "a": "Positional change moves a few individuals; structural change would alter the ladder itself, and sanskritisation leaves the ladder standing.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Five Criticisms of Sanskritisation', in plain ASCII form.",
+     "a": "criticisms = positional_not_structural + superiority_assumed + pollution_justified + gender_backlash + dalit_culture_eroded",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy202.5",
+   "title": "Westernisation: Levels and Limits of a Colonial Imprint",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Westernisation: Levels and Limits of a Colonial Imprint' refers to.",
+     "a": "Srinivas uses westernisation for the changes british rule produced in indian society and culture across technology, institutions, ideology and values. It splits into a narrow sub-cultural kind - the intellectuals who first met western culture and spread its ways - and the broad diffusion of traits like new machines, dress and food. Crucially, copying outside forms does not force anyone to internalise democratic or egalitarian values.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Westernisation: Levels and Limits of a Colonial Imprint'.",
+     "a": "A household can fill its living room with a television, fridge and dining table and still hold conservative views - the chapter's example is female foeticide using modern technology.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Westernisation: Levels and Limits of a Colonial Imprint', in plain ASCII form.",
+     "a": "westernisation = technology + institutions + ideology + values ; kinds = subcultural_elite + general_trait_diffusion",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy202.6",
+   "title": "Modernisation: From Machines to a Whole Path of Development",
+   "questions": [
+    {
+     "q": "Using the method 'Modernisation: From Machines to a Whole Path of Development', work with: achieved_identity = 40, choice_over_birth = 360, science_over_sacred = 2500, universal_over_parochial = 100. Carry the chain through step by step and give the final value of modernisation.",
+     "a": "3000 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Modernisation: From Machines to a Whole Path of Development' and work with: achieved_identity = 60, choice_over_birth = 10, science_over_sacred = 250, universal_over_parochial = 18. Carry the chain through step by step and give the final value of modernisation.",
+     "a": "338 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Modernisation: From Machines to a Whole Path of Development' refers to.",
+     "a": "Modernisation began as a word for better technology and production processes and widened into the claim that every society should follow the west european or north american route of development. Rudolph and rudolph list its marks: universal commitments replacing parochial ties, calculation and science over the sacred and non-rational, the individual as the basic unit, associations joined by choice not birth, and identity achieved rather than ascribed.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Modernisation: From Machines to a Whole Path of Development'.",
+     "a": "In india the process started inside colonialism, so it arrived tangled with humiliation and pride - the english educated middle class dreamt of a progressive india while asserting traditional learning.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Modernisation: From Machines to a Whole Path of Development', in plain ASCII form.",
+     "a": "modernisation = universal_over_parochial + science_over_sacred + choice_over_birth + achieved_identity",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lesy202.7",
+   "title": "Secularisation and the Secularisation of Caste",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Secularisation and the Secularisation of Caste' refers to.",
+     "a": "In the modern west secularisation meant the fading of religion's hold, read off indicators like involvement with religious bodies and the holding of beliefs. India complicates the line: modern communication and organisation actually bred new religious reform bodies, ritual still pursues secular ends such as status display, and caste itself has turned secular as caste associations and caste based parties press demands on the state.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Secularisation and the Secularisation of Caste'.",
+     "a": "Kothari's point: the useful question is not whether caste vanishes but what form caste takes under modern politics and what form politics takes in a caste oriented society.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Secularisation and the Secularisation of Caste', in plain ASCII form.",
+     "a": "secularisation = religion_declining ; indian_twist = ritual_secular_ends + caste_as_pressure_group",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,583 @@
+{
+ "class": 12,
+ "subject": "political_science",
+ "chapter": 9,
+ "chapter_title": "Era of One-Party Dominance",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leps202.txt",
+ "concepts": [
+  {
+   "id": "c12ps.9.1",
+   "title": "Congress Dominance in the First Three General Elections",
+   "section": "Era of One-Party Dominance",
+   "definition": "The Indian National Congress won overwhelming majorities in the Lok Sabha in the first three general elections (1952, 1957, 1962), establishing a system of one-party dominance that was distinct from a one-party system because free and fair elections were held and opposition parties operated legally.",
+   "formula": "",
+   "key_idea": "Congress dominance rested on its organisational reach, its legacy of the freedom struggle, and its ability to absorb diverse social groups, making it the natural ruling party of the post-independence period.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain why the Congress party dominated the first three general elections.",
+    "How did the Congress manage to win a majority in the Lok Sabha in 1952?",
+    "Distinguish between one-party dominance and a one-party system with reference to India.",
+    "What factors contributed to the electoral success of the Congress in the 1950s?",
+    "Analyse the results of the 1957 general elections and the role of the Congress."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the election year and the seats won by the Congress.",
+     "explain": "Locate the Lok Sabha election data for the given year and note the total seats and Congress seats.",
+     "compute": "congress_seats / total_seats * 100"
+    },
+    {
+     "step": 2,
+     "action": "Compute the vote share of the Congress.",
+     "explain": "Divide the votes polled by Congress by the total valid votes and multiply by 100.",
+     "compute": "congress_votes / total_valid_votes * 100"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the majority and the dominance pattern.",
+     "explain": "Compare the seat share and vote share to explain how the Congress secured a two-thirds majority despite a vote share of around 45 percent.",
+     "compute": "seat_share - vote_share"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "In the 1952 Lok Sabha elections the Congress won 364 out of 489 seats. Calculate its seat share.",
+     "solution": "Seat share = (364 / 489) * 100 = 74.44 percent.",
+     "answer": "Congress secured approximately 74.4 percent of the seats in 1952.",
+     "_n": 1
+    },
+    {
+     "question": "In 1957 the Congress won 371 out of 494 seats. Calculate the seat share and compare it with 1952.",
+     "solution": "1957 seat share = (371 / 494) * 100 = 75.10 percent. In 1952 it was 74.44 percent, so 1957 was marginally higher.",
+     "answer": "The Congress seat share rose slightly from 74.4 percent in 1952 to 75.1 percent in 1957.",
+     "_n": 2
+    },
+    {
+     "question": "If the Congress vote share in 1962 was 44.7 percent and its seat share was 73.1 percent, what was the gap between seat share and vote share?",
+     "solution": "Gap = 73.1 - 44.7 = 28.4 percentage points.",
+     "answer": "The Congress had a 28.4 percentage-point advantage of seat share over vote share in 1962."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the seat share of the Congress in the 1962 Lok Sabha elections if it won 361 of 494 seats.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain how the first-past-the-post electoral system helped the Congress convert its vote share into a large seat share.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why is the Indian experience of the 1950s called one-party dominance and not a one-party system?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.9.2",
+   "title": "Nature of Congress Organisation",
+   "section": "Era of One-Party Dominance",
+   "definition": "The Congress functioned as a broad umbrella organisation that contained within it groups with divergent ideological positions, often described as the 'Congress system' where the party acted as a forum for negotiation among internal factions.",
+   "formula": "",
+   "key_idea": "The Congress was not a unified, ideologically coherent party but a coalition of factions -- the left, the right, and the centre -- that contested elections and debated policy within a single organisational framework.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is meant by the 'Congress system' as described by Rajni Kothari?",
+    "How did the Congress accommodate different ideological groups within one party?",
+    "Explain the factional nature of the Congress organisation in the 1950s and 1960s.",
+    "Why was the Congress described as a social and ideological coalition rather than a party?",
+    "Discuss the role of internal factions in maintaining Congress dominance."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the internal groups within the Congress.",
+     "explain": "List the major ideological strands -- conservative, liberal, socialist, and radical -- that coexisted within the party."
+    },
+    {
+     "step": 2,
+     "action": "Explain the mechanism of factional accommodation.",
+     "explain": "Describe how the party high command balanced tickets, ministries, and policy positions among factions to maintain unity."
+    },
+    {
+     "step": 3,
+     "action": "Verify the claim that the Congress was a coalition in organisational form.",
+     "explain": "Confirm that the presence of multiple factions contesting internal elections and debating policy within one party distinguishes the Congress from a cadre-based or ideologically uniform party."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did the Congress accommodate both socialists and conservatives within one party?",
+     "solution": "The Congress allowed internal factions such as the Congress Socialist Party and the conservative group led by Morarji Desai to coexist. The party high command distributed tickets and portfolios to balance these factions, treating the party as a forum for negotiation rather than a rigidly disciplined organisation.",
+     "answer": "The Congress functioned as an umbrella organisation that balanced socialist and conservative factions through negotiated distribution of tickets and power."
+    },
+    {
+     "question": "What did Rajni Kothari mean by the 'Congress system'?",
+     "solution": "Kothari argued that the Congress was not merely a ruling party but a system of one-party dominance in which the opposition parties were weak and the real competition took place as factional competition within the Congress itself.",
+     "answer": "The 'Congress system' refers to a model where intra-party factional competition substituted for inter-party competition."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the concept of the 'Congress system' and its significance for Indian democracy.",
+     "type": "verify_property"
+    },
+    {
+     "question": "How did factionalism within the Congress contribute to its electoral dominance?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.9.3",
+   "title": "Congress as a Social Coalition",
+   "section": "Era of One-Party Dominance",
+   "definition": "The Congress derived its strength from a social coalition that included upper castes, peasants, the landed classes, industrialists, and sections of the working class and minorities, allowing it to represent a wide cross-section of Indian society.",
+   "formula": "",
+   "key_idea": "The Congress was a social coalition because it drew support from diverse caste, class, religious, and regional groups, and its organisational structure allowed local elites from different social strata to participate in the party.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did the Congress function as a social coalition in the early years of independence?",
+    "Which social groups supported the Congress and why?",
+    "Explain the relationship between the Congress organisation and local elites.",
+    "Why was the Congress able to represent diverse social groups while opposition parties could not?",
+    "Discuss the role of caste and class in the social base of the Congress."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the social groups that formed the Congress coalition.",
+     "explain": "List upper castes, dominant peasant castes, industrialists, minorities, and sections of the working class as the core support base."
+    },
+    {
+     "step": 2,
+     "action": "Explain how the party organisation linked these groups.",
+     "explain": "Describe how the District Congress Committees and state units allowed local notables and caste leaders to join the party and mobilise their followers."
+    },
+    {
+     "step": 3,
+     "action": "Verify that this coalition was broader than any opposition party.",
+     "explain": "Confirm that no single opposition party could match the social breadth of the Congress, which explains its electoral dominance."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why did the Congress enjoy support from both the landed classes and the peasantry?",
+     "solution": "The Congress included landlords and rich peasants who supported it for stability and the protection of property, while poor peasants and tenants were drawn to it because of its freedom-struggle legacy and promises of land reform. The party balanced these interests through its factional structure.",
+     "answer": "The Congress balanced the interests of landed elites and peasants within a single social coalition."
+    },
+    {
+     "question": "How did the inclusion of local elites strengthen the Congress organisation?",
+     "solution": "By allowing local caste leaders, landlords, and professionals to hold positions in the District Congress Committees, the party ensured that its organisational network reached every village and town, translating social influence into electoral support.",
+     "answer": "Local elites provided the organisational backbone that converted social influence into Congress votes."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how the Congress built a social coalition across caste and class lines.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why was the social coalition of the Congress difficult for opposition parties to replicate?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Discuss the role of minorities in the social base of the Congress.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.9.4",
+   "title": "Role of Opposition Parties",
+   "section": "Era of One-Party Dominance",
+   "definition": "Opposition parties in the 1950s and 1960s were weak in terms of seats but played a crucial role in maintaining the democratic character of the polity by articulating alternative visions, criticising the government, and keeping alive a competitive party system.",
+   "formula": "",
+   "key_idea": "Even though opposition parties won few seats, their presence ensured that the Congress did not become authoritarian, and they kept alive ideological alternatives that would later mature into viable challengers.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Evaluate the role of opposition parties during the period of Congress dominance.",
+    "Why were opposition parties important even though they won few seats?",
+    "How did opposition parties contribute to the democratic character of the Indian polity?",
+    "Explain the limitations faced by opposition parties in the first three general elections.",
+    "Discuss the relationship between a dominant ruling party and weak opposition parties in a democracy."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the major opposition parties of the period.",
+     "explain": "List the Socialist Party, the Communist Party of India, the Bharatiya Jana Sangh, and the Swatantra Party as the principal opposition forces."
+    },
+    {
+     "step": 2,
+     "action": "Explain their electoral limitations.",
+     "explain": "Note that these parties lacked the organisational reach and social coalition of the Congress and therefore won only a small number of seats."
+    },
+    {
+     "step": 3,
+     "action": "Verify their democratic contribution despite electoral weakness.",
+     "explain": "Confirm that by contesting elections, criticising government policy, and presenting alternative programmes, these parties maintained a competitive party system and prevented the dominance from becoming authoritarian."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did weak opposition parties contribute to Indian democracy in the 1950s?",
+     "solution": "Opposition parties like the Socialists, Communists, and the Jana Sangh contested elections and criticised the Congress in Parliament and in the press. Even with few seats, they articulated alternative visions of development and society, ensuring that debate continued and the ruling party remained accountable.",
+     "answer": "Opposition parties kept alive ideological alternatives and ensured accountability despite their electoral weakness."
+    },
+    {
+     "question": "Why could opposition parties not defeat the Congress in the first three elections?",
+     "solution": "The opposition parties were fragmented, lacked a nationwide organisation, and did not possess the social coalition or the freedom-struggle legacy of the Congress. They also suffered from splits and ideological divisions that weakened their electoral appeal.",
+     "answer": "Fragmentation, lack of organisational reach, and absence of a broad social coalition prevented opposition parties from challenging the Congress."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Evaluate the contribution of opposition parties to Indian democracy during the period of one-party dominance.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why did opposition parties remain electorally weak despite the democratic system?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.9.5",
+   "title": "The Socialist Party",
+   "section": "Era of One-Party Dominance",
+   "definition": "The Socialist Party was formed in 1948 by leaders who believed that the Congress was becoming a party of the propertied classes and that a separate socialist party was needed to pursue democratic socialism, land reforms, and workers' rights.",
+   "formula": "",
+   "key_idea": "The Socialist Party represented the democratic socialist tradition in Indian politics, advocating land reforms, cooperative farming, and workers' rights, but it suffered from factionalism and could not build a durable electoral base.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Trace the formation and evolution of the Socialist Party.",
+    "Why did the Socialist Party separate from the Congress?",
+    "What were the main ideological positions of the Socialist Party?",
+    "Explain the reasons for the electoral weakness of the Socialist Party.",
+    "Discuss the relationship between the Congress Socialist Party and the Socialist Party."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Trace the origin of the Socialist Party.",
+     "explain": "Note that the Congress Socialist Party was formed in 1934 within the Congress and that its members left the Congress in 1948 to form the Socialist Party."
+    },
+    {
+     "step": 2,
+     "action": "Explain the ideological programme of the party.",
+     "explain": "Describe the party's commitment to democratic socialism, land redistribution, cooperative farming, and workers' rights."
+    },
+    {
+     "step": 3,
+     "action": "Verify the reasons for its electoral decline.",
+     "explain": "Confirm that factional splits, the lack of a mass organisation, and the appeal of the Congress among the same social base weakened the Socialist Party electorally."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why did the Congress Socialists leave the Congress in 1948?",
+     "solution": "The Congress Socialists believed that the Congress under Patel and Nehru was becoming a party of the propertied classes and was not committed to radical land reforms or workers' rights. They left to form a separate party that could pursue democratic socialism independently.",
+     "answer": "The Congress Socialists left to pursue democratic socialism outside the Congress, which they felt was drifting towards the propertied classes."
+    },
+    {
+     "question": "What caused the repeated splits in the Socialist movement?",
+     "solution": "Personal rivalries among leaders like Rammanohar Lohia and Acharya Narendra Dev, ideological differences over strategy, and the inability to build a mass base led to repeated splits, producing parties like the Praja Socialist Party and later the Samyukta Socialist Party.",
+     "answer": "Factionalism, personal rivalries, and ideological disagreements caused repeated splits in the Socialist movement."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the ideological differences between the Socialist Party and the Congress.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Discuss the causes of the electoral decline of the Socialist Party.",
+     "type": "verify_property"
+    },
+    {
+     "question": "What was the relationship between the Congress Socialist Party and the parent Congress organisation?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.9.6",
+   "title": "The Communist Party of India",
+   "section": "Era of One-Party Dominance",
+   "definition": "The Communist Party of India (CPI) was founded in 1925 and, after independence, emerged as the main opposition party in the first general elections, winning 16 seats and performing strongly in states like Kerala, Andhra, and West Bengal.",
+   "formula": "",
+   "key_idea": "The CPI combined a Marxist ideological framework with electoral participation, and its strong regional bases in Kerala, Andhra, and West Bengal made it the most successful opposition party of the period, though internal ideological debates over the path to socialism led to splits.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Describe the electoral performance of the CPI in the first general elections.",
+    "Why was the CPI successful in Kerala but weak in other parts of India?",
+    "Explain the ideological debates within the CPI regarding parliamentary democracy.",
+    "How did the CPI combine revolutionary ideology with electoral participation?",
+    "Discuss the formation of the first Communist ministry in Kerala in 1957."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the electoral strongholds of the CPI.",
+     "explain": "Note that the CPI performed well in Kerala, Andhra, and West Bengal due to its organisational work among peasants, workers, and the landless."
+    },
+    {
+     "step": 2,
+     "action": "Explain the ideological debate within the party.",
+     "explain": "Describe the division between those who supported parliamentary participation and those who favoured armed revolution, a debate sharpened by the 1956 Soviet intervention in Hungary."
+    },
+    {
+     "step": 3,
+     "action": "Verify the significance of the 1957 Kerala ministry.",
+     "explain": "Confirm that the formation of the Communist government in Kerala under E. M. S. Namboodiripad in 1957 was the first democratically elected Communist government in the world and demonstrated the CPI's commitment to parliamentary politics."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What was the significance of the 1957 Kerala election for the CPI?",
+     "solution": "In 1957 the CPI won the Kerala assembly elections and formed a government under E. M. S. Namboodiripad. This was the first time a Communist party came to power through democratic elections anywhere in the world, demonstrating that revolutionary parties could participate in parliamentary democracy.",
+     "answer": "The 1957 Kerala ministry was the world's first democratically elected Communist government."
+    },
+    {
+     "question": "Why did the CPI face an internal ideological crisis in the 1950s?",
+     "solution": "The CPI was divided between a moderate wing that accepted parliamentary democracy and a radical wing that believed in armed revolution. The Soviet invasion of Hungary in 1956 deepened this divide, as moderates criticised the invasion while radicals defended it, eventually leading to a split in 1964 and the formation of the CPI(Marxist).",
+     "answer": "The ideological debate over the path to socialism, intensified by the 1956 Hungary crisis, led to a split in the CPI in 1964."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the factors behind the strong electoral performance of the CPI in Kerala.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Discuss the ideological divisions within the CPI and their consequences.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.9.7",
+   "title": "Bharatiya Jana Sangh",
+   "section": "Era of One-Party Dominance",
+   "definition": "The Bharatiya Jana Sangh was formed in 1951 by Shyama Prasad Mukherjee with the support of the RSS and represented the Hindu nationalist tradition in Indian politics, advocating a strong and united India, the abolition of Article 370, and a pro-Hindi, pro-market economic programme.",
+   "formula": "",
+   "key_idea": "The Jana Sangh represented the right-wing alternative to the Congress, drawing its ideological inspiration from the RSS and advocating Hindu nationalism, cultural nationalism, and a market-oriented economy, though its electoral base remained limited in the 1950s and 1960s.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Trace the formation and ideology of the Bharatiya Jana Sangh.",
+    "What was the relationship between the Jana Sangh and the RSS?",
+    "Explain the core demands of the Jana Sangh regarding Kashmir and Article 370.",
+    "Why did the Jana Sangh have a limited electoral base in the 1950s?",
+    "Discuss the economic and cultural programme of the Jana Sangh."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the founding and leadership of the Jana Sangh.",
+     "explain": "Note that the party was founded in 1951 by Shyama Prasad Mukherjee with the organisational support of the RSS."
+    },
+    {
+     "step": 2,
+     "action": "Explain the ideological programme of the party.",
+     "explain": "Describe its advocacy of Hindu nationalism, a strong unitary state, abolition of Article 370, promotion of Hindi, and a market-friendly economic policy."
+    },
+    {
+     "step": 3,
+     "action": "Verify the reasons for its limited electoral base.",
+     "explain": "Confirm that the Jana Sangh's appeal was concentrated among urban traders and some sections of the middle class in north India, and that its Hindu nationalist ideology limited its appeal among minorities and rural voters."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What was the Jana Sangh's position on Article 370 and why?",
+     "solution": "The Jana Sangh demanded the abolition of Article 370, which granted special status to Jammu and Kashmir, arguing that it undermined the unity of India. Shyama Prasad Mukherjee led a campaign against the permit system for entering Kashmir and died in detention in 1953, making this a defining issue for the party.",
+     "answer": "The Jana Sangh demanded the abolition of Article 370 to integrate Kashmir fully with India."
+    },
+    {
+     "question": "Why did the Jana Sangh appeal mainly to urban traders and the middle class?",
+     "solution": "The party's pro-market economic programme, its advocacy of Hindi as a national language, and its emphasis on cultural nationalism resonated with urban traders, small industrialists, and the Hindi-speaking middle class in north India, but did not attract rural voters or minorities.",
+     "answer": "The Jana Sangh's pro-market and cultural-nationalist programme attracted urban traders and the middle class but not rural or minority voters."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the ideological foundations of the Bharatiya Jana Sangh.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Discuss the relationship between the Jana Sangh and the RSS.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why did the Jana Sangh fail to build a broad electoral base in the 1950s and 1960s?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.9.8",
+   "title": "Swatantra Party",
+   "section": "Era of One-Party Dominance",
+   "definition": "The Swatantra Party was formed in 1959 by C. Rajagopalachari, N. G. Ranga, and Minoo Masani in reaction to the increasing state control and socialist orientation of the Congress, advocating free enterprise, a reduction in state regulation, and the protection of private property.",
+   "formula": "",
+   "key_idea": "The Swatantra Party represented the classical liberal and conservative critique of the Congress's socialist and statist policies, arguing for free markets, reduced government intervention, and the protection of fundamental rights, and drew support from landlords, princes, and business interests.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why was the Swatantra Party formed and what did it stand for?",
+    "Explain the economic philosophy of the Swatantra Party.",
+    "How did the Swatantra Party differ from the Congress on the role of the state?",
+    "Discuss the social base of the Swatantra Party.",
+    "Evaluate the significance of the Swatantra Party in the politics of the 1960s."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the founders and the context of formation.",
+     "explain": "Note that C. Rajagopalachari, N. G. Ranga, and Minoo Masani founded the party in 1959 in response to the Congress's socialist policies and growing state control over the economy."
+    },
+    {
+     "step": 2,
+     "action": "Explain the economic and political programme.",
+     "explain": "Describe the party's advocacy of free enterprise, reduced state regulation, protection of private property, and opposition to the nationalisation of industries and land reforms."
+    },
+    {
+     "step": 3,
+     "action": "Verify the social base and electoral significance of the party.",
+     "explain": "Confirm that the Swatantra Party drew support from former princes, landlords, and business interests, and that it became the largest opposition party in the 1962 Lok Sabha elections, winning 22 seats."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What were the main differences between the Swatantra Party and the Congress on economic policy?",
+     "solution": "The Swatantra Party opposed the Congress's socialist orientation, criticising the nationalisation of industries, heavy state regulation, and the planning process. It advocated free enterprise, a reduced role for the state in the economy, and the protection of private property and fundamental rights.",
+     "answer": "The Swatantra Party advocated free enterprise and minimal state intervention in contrast to the Congress's socialist and statist policies."
+    },
+    {
+     "question": "Who formed the social base of the Swatantra Party and why?",
+     "solution": "The Swatantra Party drew support from former princely families, landlords who opposed land-reform legislation, and business interests who resented state regulation. These groups saw the party as a defender of property rights against the socialist policies of the Congress.",
+     "answer": "Former princes, landlords, and business interests formed the social base of the Swatantra Party."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the economic philosophy of the Swatantra Party and its critique of planning.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Discuss the social base of the Swatantra Party and the reasons for its formation.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c12ps.9.9",
+   "title": "Elections and Democracy in the Early Years",
+   "section": "Era of One-Party Dominance",
+   "definition": "The conduct of regular, free, and fair elections based on universal adult franchise from 1952 onwards established the institutional foundation of Indian democracy, even though the Congress dominated the outcomes, and the elections produced a competitive party system that deepened over time.",
+   "formula": "",
+   "key_idea": "The first three general elections demonstrated that a large, poor, and largely illiterate society could sustain democratic elections based on universal adult franchise, and that elections created a competitive political culture even under one-party dominance.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did the first general elections strengthen Indian democracy?",
+    "Evaluate the significance of universal adult franchise in the Indian context.",
+    "Why was the holding of elections in 1952 considered a remarkable achievement?",
+    "How did elections contribute to the deepening of democracy despite one-party dominance?",
+    "Discuss the role of the Election Commission in conducting the first general elections."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the scale of the first general elections.",
+     "explain": "Note the number of registered voters, constituencies, and polling stations to understand the magnitude of the exercise.",
+     "compute": "registered_voters / total_population * 100"
+    },
+    {
+     "step": 2,
+     "action": "Compute the voter turnout.",
+     "explain": "Divide the votes cast by the total registered voters and multiply by 100 to obtain the turnout percentage.",
+     "compute": "votes_cast / registered_voters * 100"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the significance of the turnout for democratic legitimacy.",
+     "explain": "Compare the turnout with other democracies of the period and explain how a high turnout demonstrated popular faith in the electoral process.",
+     "compute": "turnout_india - turnout_average_other_democracies"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "In the 1952 general elections approximately 173 million voters were registered and about 88 million votes were cast. Calculate the voter turnout.",
+     "solution": "Turnout = (88 / 173) * 100 = 50.87 percent.",
+     "answer": "The voter turnout in the 1952 general elections was approximately 51 percent."
+    },
+    {
+     "question": "If 45.7 percent of the votes went to the Congress and the remaining votes were divided among several opposition parties, what share of votes went to the opposition?",
+     "solution": "Opposition vote share = 100 - 45.7 = 54.3 percent.",
+     "answer": "The opposition parties collectively secured 54.3 percent of the votes in 1952."
+    },
+    {
+     "question": "Why was a voter turnout of about 51 percent in 1952 considered significant?",
+     "solution": "Given that India was a largely illiterate and poor society with no prior experience of universal adult franchise, a turnout of 51 percent in the first general elections demonstrated that ordinary citizens were willing and able to participate in the democratic process, lending legitimacy to the new republic.",
+     "answer": "A 51 percent turnout in a poor and largely illiterate society demonstrated strong popular commitment to democracy."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the voter turnout for the 1957 general elections if 193 million voters were registered and 92 million votes were cast.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain how the first three general elections established the institutional foundation of Indian democracy.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Discuss the significance of universal adult franchise for the legitimacy of the Indian republic.",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "leps202.txt",
+   "concept": "c12ps.9.1",
+   "question_type": "short_answer",
+   "question_pattern": "In the 1952 Lok Sabha elections the Congress won 364 out of 489 seats. Calculate its seat share.",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Seat share = (364 /",
+     "explain": "Seat share = (364 / 489) * 100 = 74.44 percent."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "leps202.txt",
+   "concept": "c12ps.9.1",
+   "question_type": "short_answer",
+   "question_pattern": "In 1957 the Congress won 371 out of 494 seats. Calculate the seat share and compare it with 1952.",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "1957 seat share = (371",
+     "explain": "1957 seat share = (371 / 494) * 100 = 75.10 percent. In 1952 it was 74.44 percent, so 1957 was marginally higher."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

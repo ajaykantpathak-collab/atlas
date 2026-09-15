@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_10_002",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_10_002",
+   "title": "c11_hs_cbse_10_002",
+   "questions": [
+    {
+     "q": "List the three categories of family resources as defined in Home Science and give one concrete example of each category from a typical Indian urban household.",
+     "a": "The three categories are: (1) Human resources — e.g., mother's tailoring skill, father's ability to repair appliances, teenager's tutoring capacity; (2) Material resources — e.g., family's savings account, owned flat, refrigerator, two-wheeler; (3) Community resources — e.g., neighbourhood park, government dispensary, public library, municipal water supply. A wrong answer that lists only money or only tangible assets reveals the misconception that \"resources = money\" and ignores the non-monetary assets families actually use daily.",
+     "self_check": true
+    },
+    {
+     "q": "A family has ₹50,000 in savings (material), the mother knows organic gardening (human), and the colony has a composting pit (community). They want to reduce their monthly vegetable bill of ₹3,000. Explain how using all three resource categories together achieves better optimisation than using savings alone to buy vegetables.",
+     "a": "Using savings alone (₹50,000) only converts material resource into vegetables — a one-way depletion. Combining mother's gardening skill (human) with the colony composting pit (community) creates a recurring vegetable yield at near-zero monetary cost, preserving savings for emergencies or investment. The optimisation lies in transforming a flow (monthly expense) into a sustainable cycle using human + community resources. A wrong answer that says \"just buy vegetables from savings\" misses the core principle: optimisation leverages non-material resources to reduce dependence on finite material resources.",
+     "self_check": true
+    },
+    {
+     "q": "The Sharma family has: (a) ₹2 lakh fixed deposit maturing in 3 years, (b) father's 25 years of accounting experience, (c) mother's free time 2–5 pm weekdays, (d) a community centre offering free computer classes. They need ₹5 lakh for daughter's engineering admission in 2 years. Design a resource optimisation plan using all four resources. Show the allocation logic.",
+     "a": "Step 1: Fixed deposit (material) — keep untouched as safety net; it matures after need date so cannot fund admission directly. Step 2: Father's accounting skill (human) — offer weekend tax-filing service to neighbours, targeting ₹15,000/month → ₹3.6 lakh in 2 years. Step 3: Mother's free time (human) — assist father in client coordination/data entry, doubling capacity. Step 4: Community computer classes (community) — daughter learns advanced Excel, increasing father's service efficiency and her own scholarship eligibility. Logic: Human resources generate new income flow; community resource upgrades human capital; material resource preserved for risk buffer. A wrong plan that breaks the FD early loses interest and safety, showing failure to distinguish between resource *availability* and resource *timing*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two families with identical monthly income ₹60,000. Family A: both parents work, no domestic help, elderly grandparents at home, live near metro and government school. Family B: single earner, full-time maid, no elders, live in gated community with clubhouse but far from public transport. Analyse which family has greater *total* resource availability and why income alone is a poor indicator.",
+     "a": "Family A has greater total resources: grandparents provide childcare/eldercare (human), metro access reduces transport cost (community), government school saves fees (community), dual income adds resilience (human). Family B spends heavily on maid (material outflow), clubhouse fees (material), fuel/taxi (material), and has no backup care. Income is identical but Family A's human + community resources substitute for material expenditure. A wrong answer equating \"resources = income\" misses that resources are *stocks and flows* across three categories; optimisation depends on the *mix*, not just the monetary flow.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A family with high material resources but low human and community resources is more vulnerable than a family with moderate material resources but strong human and community resources.\" Use the concept of resource substitutability and risk diversification in your evaluation.",
+     "a": "The statement is valid. High material resources alone create concentration risk — job loss, inflation, or health crisis rapidly depletes money with no substitute skills (human) or public support (community) to fall back on. Strong human resources (employable skills, health literacy) and community resources (public healthcare, SHGs, libraries) provide *alternative pathways* to meet needs when material resources shrink. This is diversification: needs can be met via multiple resource channels. A wrong evaluation that says \"money solves everything\" ignores that during crises (pandemic, recession), material resources become illiquid or insufficient, while skills and community networks remain functional.",
+     "self_check": true
+    },
+    {
+     "q": "Create a \"Resource Audit Template\" for a Class 11 student's own family that captures all three resource categories, includes a column for \"current utilisation level\" (low/medium/high), and a column for \"potential reallocation to goal X\". Specify goal X as \"funding a professional certification course costing ₹40,000 in 12 months\". The template must be usable by any Indian household regardless of income level.",
+     "a": "A good template has rows for: Human — skills of each member, health status, available hours/week, learning capacity; Material — monthly surplus, liquid savings, saleable assets, upcoming inflows; Community — free/low-cost training centres, library access, peer networks, government schemes (PMKVY, SWAYAM), employer upskilling benefits. Columns: Resource | Category | Current Use (Low/Med/High) | Can Redirect to Course? (Yes/No/Partial) | Action Needed. A poor template lists only income and expenses, showing the student still equates resources with cash flow and cannot see non-monetary levers like a sibling's free time for tutoring or a community centre's free computer lab.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

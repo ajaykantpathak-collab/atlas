@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_05_006",
+   "title": "c11_eco_cbse_05_006",
+   "questions": [
+    {
+     "q": "Define agricultural diversification and state its two distinct dimensions as per the NCERT framework. Why is the second dimension critical for addressing disguised unemployment?",
+     "a": "Agricultural diversification has two dimensions: (1) change in cropping pattern (e.g., shifting from cereals to high-value crops like fruits, vegetables, spices), and (2) shift of workforce from crop farming to allied activities (livestock, poultry, fisheries) and non-farm sectors (agro-processing, handicrafts, services). The second dimension directly addresses disguised unemployment because it moves surplus labor — whose marginal productivity in crop farming is near zero — into activities with higher labor productivity. A wrong answer that only mentions \"growing different crops\" reveals the misconception that diversification is purely about crop choice, ignoring the structural labor shift essential for sustainable rural livelihoods.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in a rainfed region of Rajasthan grows bajra during Kharif but has no irrigation for Rabi. His family of 5 works on the farm for 4 months and remains idle for 8 months. Using the concept of seasonal unemployment, explain why diversification into goat rearing would be more effective than simply switching to a different Kharif crop.",
+     "a": "Switching Kharif crops only changes *what* is grown in the same 4-month window — it does not create employment during the 8-month Rabi lean season when irrigation is absent. Goat rearing provides year-round engagement: grazing management, breeding, health care, and milk/meat sales generate daily/weekly income streams. This converts seasonal employment into perennial livelihood. A wrong answer focusing only on \"higher income from goats\" misses the temporal dimension: diversification must address the *time gap* in labor utilization, not just increase peak-season earnings. The NCERT explicitly states: \"Much of agricultural employment activities are concentrated in the Kharif season... during Rabi season... it becomes difficult to find gainful employment.\"",
+     "self_check": true
+    },
+    {
+     "q": "In 2019, India's livestock sector supported 70 million small/marginal farmers and landless laborers. Poultry accounted for 61% of livestock population. If a landless laborer household invests ₹25,000 in a 50-bird backyard poultry unit (variable cost ₹15/bird/month, sale price ₹200/bird after 4 months), calculate the net profit per cycle and monthly average income. Compare this to MGNREGA wage of ₹220/day for 100 days/year.",
+     "a": "Step 1: Revenue = 50 birds × ₹200 = ₹10,000 per 4-month cycle.\nStep 2: Variable cost = 50 birds × ₹15/bird/month × 4 months = ₹3,000.\nStep 3: Net profit per cycle = ₹10,000 - ₹3,000 = ₹7,000.\nStep 4: Monthly average income = ₹7,000 ÷ 4 = ₹1,750/month.\nStep 5: Annualized = ₹1,750 × 12 = ₹21,000/year (assuming 3 cycles).\nStep 6: MGNREGA annual income = ₹220 × 100 = ₹22,000/year.\nComparison: Poultry yields ₹21,000 with asset creation (birds reproduce), while MGNREGA gives ₹22,000 as pure wage with no asset. Poultry also provides nutrition (eggs/meat) and women's employment. A wrong answer calculating only total profit (₹7,000) without annualizing or comparing to MGNREGA reveals inability to evaluate livelihood options on comparable time-scales and asset-building dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "Horticulture contributes nearly 1/3 of agriculture output value and 6% of GDP despite using less land than food grains. Analyze why horticulture is considered a \"high-value diversification pathway\" for smallholders, and identify two infrastructure bottlenecks that prevent realization of its full potential.",
+     "a": "Horticulture is high-value because: (a) per-hectare returns are 3-5× food grains (e.g., mango ₹2-3 lakh/ha vs wheat ₹50,000/ha), (b) labor-intensive — creates 860 person-days/ha/year vs 140 for cereals, absorbing family labor, (c) enables women's employment in harvesting, grading, nursery, processing. Two critical bottlenecks: (1) Cold storage gap — India has 37 million MT capacity against 60 million MT requirement, causing 15-20% post-harvest losses; (2) Fragmented markets — lack of direct farmer-to-consumer channels (like Rythu Bazars) forces dependence on 4-5 intermediaries, reducing farmer's share to 30-40% of consumer price. A wrong answer listing only \"lack of storage\" without quantifying the gap or mentioning market intermediation failure shows superficial understanding of the value chain constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: \"Fisheries diversification is only viable for coastal communities.\" Use data on inland vs marine fish production share, employment structure, and gender participation to support your argument.",
+     "a": "The statement is incorrect. NCERT data: Inland fisheries contribute 75% of fish production value, marine only 25%. Inland sources — rivers, reservoirs, ponds, tanks — exist in landlocked states (e.g., Andhra Pradesh, West Bengal, Uttar Pradesh, Bihar). Employment: 60% of export marketing and 40% of internal marketing workforce are women, showing fisheries creates non-fishing jobs accessible to landless households. Further, aquaculture (tank/pond culture) requires small water bodies manageable by SHGs or cooperatives. A wrong answer accepting the statement reveals confusion between \"fishing\" (capture) and \"fisheries\" (culture + capture + marketing), and ignores the inland aquaculture revolution that made states like Andhra Pradesh top fish producers without extensive coastline.",
+     "self_check": true
+    },
+    {
+     "q": "Design a diversification plan for a 1.5-hectare rainfed farm household in Bundelkhand (UP) with 4 adult workers, currently growing only wheat and gram. The plan must include: (a) one cropping pattern change, (b) one allied activity, (c) one non-farm activity, and (d) a risk-sharing mechanism. Justify each choice with economic reasoning.",
+     "a": "Good answer criteria:\n(a) Cropping change: Shift 0.5 ha to mentha (mint) or mustard — short duration (90-100 days), high value (₹80,000-1 lakh/ha), fits between wheat cycles, oilseed demand rising.\n(b) Allied activity: 2 buffaloes (₹1.2 lakh investment via dairy cooperative loan) — daily milk income (₹300-400/day), dung for biogas/manure, risk uncorrelated with rainfall.\n(c) Non-farm: One worker to nearby stone-cutting cluster or food processing unit — ₹10,000-12,000/month steady wage, reduces labor pressure on farm.\n(d) Risk-sharing: Join FPO (Farmer Producer Organization) for collective input purchase, warehouse receipt financing, and direct market access — reduces transaction costs and price risk.\nEach element addresses a different risk: crop failure (mentha drought-tolerant), income seasonality (daily milk), labor surplus (off-farm wage), market access (FPO). Poor answer lists activities without linking to specific risks or household constraints (land size, water, labor, capital).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

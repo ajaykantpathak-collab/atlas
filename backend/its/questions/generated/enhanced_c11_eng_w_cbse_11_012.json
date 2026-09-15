@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_11_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_11_012",
+   "title": "c11_eng_w_cbse_11_012",
+   "questions": [
+    {
+     "q": "What is the primary difference between a literal comprehension question and an inferential comprehension question in poetry analysis?",
+     "a": "A literal question asks for information explicitly stated in the poem (e.g., \"What bird sings in the poem?\"), while an inferential question requires the reader to deduce meaning not directly written by combining textual clues (e.g., \"Why does the thrush's song astonish the brickwork?\"). A wrong answer that defines both as \"questions about the poem\" reveals the student cannot distinguish between retrieval and reasoning, leading to answers that either over-quote without analysis or speculate without evidence.",
+     "self_check": true
+    },
+    {
+     "q": "In the poem \"Coming,\" the line \"Light, chill and yellow, / Bathes the serene / Foreheads of houses\" appears. A student writes: \"The light is yellow because it is evening.\" Is this a literal or inferential statement? Justify your classification.",
+     "a": "This is an inferential statement. The poem explicitly states the light is \"chill and yellow\" and that it \"bathes the serene foreheads of houses,\" but it never states the time of day as evening. The student inferred \"evening\" from \"chill and yellow\" and \"longer evenings\" in the first line. A wrong classification as literal shows the student confuses textual detail with logical deduction, risking answers that present assumptions as facts in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the literal-inferential distinction to this question from \"Coming\": \"What does the phrase 'fresh-peeled voice' suggest about the thrush's song?\" Write a two-step answer: first quote the literal words, then make one supported inference.",
+     "a": "Step 1 (Literal): The poem uses the exact phrase \"fresh-peeled voice\" to describe the thrush's song. Step 2 (Inference): \"Fresh-peeled\" suggests a new, raw, vivid quality — like a newly peeled fruit — implying the song is startlingly clear, innocent, and perfectly suited to announce spring's arrival. A wrong answer that only quotes the phrase without explaining the imagery's effect shows inability to move from evidence to interpretation, a core skill for 3-mark questions.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the relationship between the two scenes in the poem: the thrush in the garden (stanza 1) and the child witnessing \"adult reconciling\" (stanza 2). How does the literal description of the first scene enable the inferential understanding of the second?",
+     "a": "The literal scene — \"Light, chill and yellow,\" \"thrush sings,\" \"fresh-peeled voice / Astonishing the brickwork\" — establishes a moment of sudden, natural beauty that transforms the ordinary. This literal transformation (brickwork astonished) becomes the analogical bridge: just as the song astonishes the physical world, the \"unusual laughter\" of adults astonishes the child-speaker. The inference is that spring's arrival mirrors the speaker's sudden access to happiness. A wrong answer that treats the scenes as unrelated misses the poem's central comparative structure, losing marks for thematic coherence.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student answer to \"Why is the speaker's childhood described as 'a forgotten boredom'?\": \"Because the speaker was bored as a child and forgot it.\" Does this answer demonstrate adequate inferential comprehension? Why or why not?",
+     "a": "No, it is inadequate. The answer merely paraphrases the literal phrase without inferring the cause. Adequate inference requires connecting \"forgotten boredom\" to the contrast with the present moment: the child in the memory \"can understand nothing / But the unusual laughter,\" implying childhood lacked such moments of joy or reconciliation. The answer fails to use the poem's comparative structure (child vs. adult scene) as evidence. A wrong evaluation that calls this \"correct because it uses the text\" reveals confusion between restatement and interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Create an inferential question about the poem \"Coming\" that requires connecting the title to the final stanza. Provide the question and a model answer outline.",
+     "a": "Question: \"How does the title 'Coming' reflect the speaker's emotional transformation in the final stanza?\" Model outline: (1) Literal anchor: Title suggests arrival of spring (from thrush's song \"It will be spring soon\"). (2) Inference: Spring's coming parallels the speaker \"coming\" into happiness — \"starts to be happy.\" (3) Evidence: The child \"comes on a scene\" and the speaker \"feels like a child.\" (4) Synthesis: The title encapsulates both seasonal and psychological arrival. A poor question like \"What comes in the poem?\" shows inability to design questions that probe layered meaning, a skill needed for critical thinking tasks ahead.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

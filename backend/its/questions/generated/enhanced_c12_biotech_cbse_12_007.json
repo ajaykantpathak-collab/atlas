@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_12_007",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_12_007",
+   "title": "c12_biotech_cbse_12_007",
+   "questions": [
+    {
+     "q": "Name the three primary regulatory bodies that oversee biotechnology product approval in India and state the specific domain (pharmaceuticals, GM crops, or rDNA research) each one governs.",
+     "a": "The three primary bodies are: (1) DCGI (Drug Controller General of India) — governs pharmaceuticals, vaccines, and biologics under the Drugs & Cosmetics Act; (2) GEAC (Genetic Engineering Appraisal Committee) — governs environmental release of GMOs and large-scale use of hazardous microorganisms under the EPA Act 1986; (3) RCGM (Review Committee on Genetic Manipulation) — governs rDNA research and small-scale contained use under the EPA Act 1986. A wrong answer that merges GEAC and RCGM roles or assigns drug approval to GEAC reveals confusion between *contained research oversight* (RCGM) and *environmental release approval* (GEAC), a distinction that board examiners explicitly test.",
+     "self_check": true
+    },
+    {
+     "q": "A startup has completed preclinical toxicity studies for a recombinant malaria vaccine in mice. They plan to directly approach DCGI for Phase I clinical trial permission. Explain why this application would be rejected and identify the missing prior approval.",
+     "a": "The application would be rejected because the startup lacks IBSC (Institutional Biosafety Committee) clearance and RCGM (Review Committee on Genetic Manipulation) approval for the rDNA work involved in vaccine construction. Under the 1989 Rules of the EPA Act, any rDNA product requires IBSC certification at the institutional level *and* RCGM nod for preclinical work *before* DCGI can entertain a clinical trial application. A student who says \"they need FDA approval first\" confuses US and Indian jurisdiction; one who says \"they need GEAC approval\" confuses environmental release (GEAC) with contained research/clinical development (RCGM/DCGI).",
+     "self_check": true
+    },
+    {
+     "q": "A biotech company has developed a Bt brinjal event. They have RCGM approval for contained field trials. List the *exact sequence* of next regulatory steps required before commercial cultivation, naming the specific committee/authority at each step.",
+     "a": "Correct sequence: (1) RCGM monitors contained field trials (already done) → (2) State Biotechnology Coordination Committee (SBCC) and District Level Committee (DLC) monitor trial sites → (3) Company submits biosafety data to GEAC → (4) GEAC evaluates environmental safety, food/feed safety, and agronomic data → (5) GEAC grants approval for environmental release → (6) Ministry of Environment, Forest & Climate Change (MoEF&CC) issues final notification → (7) Seed registration under Seeds Act 1966 by State Seed Certification Agency → (8) Commercial cultivation begins. Missing SBCC/DLC monitoring or skipping seed registration are common omissions that cost marks in board case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the FDA's Investigational New Drug (IND) application and India's DCGI Clinical Trial Application (CTA) for a recombinant protein therapeutic. Identify two substantive procedural differences that affect timeline and data requirements.",
+     "a": "Difference 1: FDA IND requires a pre-IND meeting (optional but standard) and allows 30-day default approval if FDA does not object; DCGI CTA mandates mandatory review by Subject Expert Committee (SEC) and does not have a default-approval timeline — approval is explicit and often takes 6-12 months. Difference 2: FDA IND accepts foreign preclinical data (GLP-compliant) more readily; DCGI often requires *bridging studies* or repeat toxicology in Indian populations/conditions per Rule 122DAB of Drugs & Cosmetics Rules. A student who claims \"both are identical\" ignores the Indian regulatory requirement for local data generation, a frequent NEET/board trap in comparative regulatory questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Once GEAC approves a GM crop for environmental release, the developer can immediately sell seeds to farmers across India.\" Provide three specific regulatory or legal reasons why this is incorrect.",
+     "a": "The statement is incorrect because: (1) GEAC approval is *environmental release* only — commercial seed sale requires separate *registration under the Seeds Act 1966* by the State Seed Certification Agency, which involves distinct variety testing (VCU trials). (2) State governments have constitutional authority over agriculture (State List) and can restrict or ban cultivation (e.g., Bt brinjal moratorium in several states) even after central GEAC approval. (3) The developer must also comply with the *Seed (Control) Order 1983* for labeling, packaging, and pricing regulations. A student who thinks GEAC approval = market launch conflates *biosafety clearance* with *commercial authorization* — two legally distinct gates.",
+     "self_check": true
+    },
+    {
+     "q": "Design a regulatory strategy checklist for an Indian biotech startup developing a recombinant enzyme for industrial use (non-pharma, non-food). The enzyme is produced in a GM *E. coli* strain. Include every clearance needed from lab-scale R&D to commercial sale, with the responsible authority and the governing rule/act for each.",
+     "a": "Checklist: (1) IBSC registration & project approval — Institution, under 1989 EPA Rules → (2) RCGM approval for rDNA research & development — RCGM, under 1989 EPA Rules → (3) RCGM permission for scale-up in contained fermentation — RCGM, under 1989 EPA Rules → (4) GEAC approval for large-scale commercial use of GM microorganism — GEAC, under 1989 EPA Rules (Schedule III) → (5) State Pollution Control Board consent to establish/operate — SPCB, under Water/Air Acts → (6) Factory License — Chief Inspector of Factories, under Factories Act 1948 → (7) BIS standardization (if applicable) — Bureau of Indian Standards → (8) GST registration & commercial sale. A poor answer misses SPCB consent or factory license, treating industrial enzymes as \"only GEAC\" — a dangerous oversight because environmental discharge from fermentation falls under Pollution Control Boards, not GEAC.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

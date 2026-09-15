@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch6_3",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch6_3",
+   "title": "c9_physics_ch6_3",
+   "questions": [
+    {
+     "q": "Name the five principal layers of Earth's atmosphere in order from the surface upward, and state the approximate altitude range of the troposphere.",
+     "a": "Troposphere (0–12 km), Stratosphere (12–50 km), Mesosphere (50–85 km), Thermosphere (85–600 km), Exosphere (600–10,000 km). The troposphere extends up to about 12 km on average (8–15 km depending on latitude and season). A wrong answer (e.g., missing mesosphere or reversing stratosphere/mesosphere) reveals the student has memorized names without understanding the thermal structure that defines each layer.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why temperature increases with altitude in the stratosphere but decreases in the troposphere, identifying the specific gas and radiation responsible.",
+     "a": "In the troposphere, temperature decreases because the ground warms the air from below via conduction and convection; in the stratosphere, temperature increases because ozone (O₃) absorbs incoming solar ultraviolet (UV-B and UV-C) radiation, converting it to heat. A wrong answer that attributes stratospheric warming to \"being closer to the Sun\" or \"greenhouse gases\" reveals a fundamental confusion between radiative absorption by ozone and solar proximity or greenhouse effect.",
+     "self_check": true
+    },
+    {
+     "q": "A weather balloon records a temperature of 15°C at sea level and –56.5°C at 11 km altitude. Calculate the average environmental lapse rate in the troposphere for this sounding. Express your answer in °C/km.",
+     "a": "Given: ΔT = –56.5°C – 15°C = –71.5°C; Δz = 11 km. Lapse rate = ΔT/Δz = –71.5°C / 11 km = –6.5 °C/km. The negative sign indicates temperature decreases with height. A student who forgets the sign or uses 11,000 m without converting to km (giving –0.0065 °C/m) shows a unit-conversion error; one who computes +6.5 °C/km has missed the physical meaning of decreasing temperature.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the composition of air at 10 km (upper troposphere) and 100 km (lower thermosphere). Explain why the relative percentages of N₂ and O₂ change between these altitudes.",
+     "a": "At 10 km (within the homosphere), turbulent mixing keeps composition nearly uniform: ~78% N₂, ~21% O₂. At 100 km (in the heterosphere), diffusion dominates over mixing; lighter gases (atomic O, He, H) become relatively more abundant at higher altitudes, while heavier N₂ and O₂ decrease in relative proportion. A wrong answer claiming composition is the same everywhere ignores the transition from homosphere to heterosphere and the role of molecular diffusion vs. eddy mixing.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"The thermosphere has temperatures over 1000°C, so a satellite orbiting there would melt.\" Evaluate this statement using the concepts of temperature, heat, and molecular density.",
+     "a": "The statement is false. Temperature in the thermosphere reflects the high average kinetic energy of individual molecules, but the molecular density is extremely low (~10⁻¹² kg/m³). Heat transfer to a satellite depends on the number of collisions per second; with so few molecules, the total thermal energy transferred is negligible, so the satellite does not melt. A student who agrees with the statement confuses thermodynamic temperature (microscopic kinetic energy) with sensible heat (macroscopic energy transfer), a classic misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration using a clear tube, colored water, and a heat source to model the temperature inversion at the tropopause. List materials, procedure, and the observation that confirms the model.",
+     "a": "Materials: long transparent tube (1 m), water, blue and red food coloring, ice bath, heat lamp. Procedure: Fill tube with water; cool bottom section in ice bath (simulates cold tropopause), heat top section with lamp (simulates stratospheric warming). Add blue dye at bottom, red at top. Observation: The dyes remain separated, showing stable stratification with cold dense fluid below warm less-dense fluid — analogous to the tropopause acting as a lid. A poor answer that simply mixes hot and cold water without a stable layer misses the key concept of static stability inhibiting vertical mixing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

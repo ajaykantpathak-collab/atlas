@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch07_024",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch07_024",
+   "title": "c6_physics_ch07_024",
+   "questions": [
+    {
+     "q": "What is the primary device used to measure the temperature of an object?",
+     "a": "A thermometer. Answering \"a calorimeter\" or \"a heater\" suggests a confusion between devices that measure properties and devices that generate or transfer energy.",
+     "self_check": true
+    },
+    {
+     "q": "If you have a cup of hot coffee and a giant lake, both at 60°C, which one has more heat? Why?",
+     "a": "The lake has more heat because it contains a much larger number of molecules. A student who says \"the cup\" is likely confusing \"temperature\" (intensity) with \"heat\" (total energy).",
+     "self_check": true
+    },
+    {
+     "q": "If you touch a metal spoon that has been sitting in a bowl of hot soup, the spoon gets hot. What is actually moving from the soup into the spoon?",
+     "a": "Heat (energy) is moving into the spoon. If a student says \"temperature is moving,\" they are incorrectly treating temperature as a physical substance that flows, rather than a measurement.",
+     "self_check": true
+    },
+    {
+     "q": "Two containers of water are at 40°C. If you combine them into one larger container, does the temperature change? Does the heat change?",
+     "a": "The temperature remains 40°C, but the total heat doubles. A student who says the temperature doubles is failing to understand that temperature is an average, not a total sum.",
+     "self_check": true
+    },
+    {
+     "q": "Can a clinical thermometer designed for human bodies accurately measure the temperature of boiling water? Why or why not?",
+     "a": "No, because the range of a clinical thermometer is too small (usually 35°C to 42°C), and boiling water (100°C) would exceed its limit and potentially break it. If a student says \"yes,\" they are ignoring the safety and design constraints of scientific instruments.",
+     "self_check": true
+    },
+    {
+     "q": "Imagine you are designing a new temperature scale. What is the most important thing you need to define to make your scale useful for other people?",
+     "a": "You must define fixed reference points (like the freezing and boiling points of water) and the number of divisions between them. A poor answer would just mention a name or a color, showing a lack of understanding that a scale requires a standard, reproducible reference.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

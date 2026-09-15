@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_05_010",
+   "title": "c11_chem_cbse_05_010",
+   "questions": [
+    {
+     "q": "What is the value of compressibility factor Z for an ideal gas, and what does Z = PV/nRT represent physically?",
+     "a": "For an ideal gas, Z = 1 at all temperatures and pressures. Z represents the ratio of actual molar volume of a gas to the molar volume it would have if it behaved ideally at the same T and P. A wrong answer (e.g., Z = 0 or Z = RT/P) reveals the student confuses Z with the ideal gas equation itself or doesn't understand Z as a dimensionless deviation parameter.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the compressibility factor Z for nitrogen gas at 273 K first decreases below 1 and then increases above 1 as pressure increases from 1 atm to 1000 atm.",
+     "a": "At low to moderate pressures, intermolecular attractive forces dominate, pulling molecules closer and reducing volume below ideal prediction (Z < 1). At very high pressures, the finite volume of molecules becomes significant - the excluded volume makes the actual volume larger than ideal prediction (Z > 1). A wrong answer that only mentions one effect reveals incomplete understanding of the two competing factors (attractive forces vs molecular volume) that cause deviation.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the compressibility factor Z for 2 moles of CO₂ gas occupying 40 L at 300 K and 50 atm. (R = 0.0821 L·atm·mol⁻¹·K⁻¹). Does CO₂ show positive or negative deviation under these conditions?",
+     "a": "Z = PV/nRT = (50 × 40) / (2 × 0.0821 × 300) = 2000 / 49.26 = 40.6. Since Z > 1, CO₂ shows positive deviation (repulsive forces/volume dominance). A wrong answer with Z < 1 reveals calculation error (e.g., using wrong R value, inverting formula) or conceptual confusion about what Z > 1 vs Z < 1 means. The high Z value here indicates extreme non-ideality - typical for CO₂ at high pressure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Z vs P curves for H₂ and N₂ at 300 K. Why does H₂ show Z > 1 at all pressures while N₂ shows a dip below 1 at moderate pressures?",
+     "a": "H₂ has very weak intermolecular forces (small polarizability, no dipole) and low molecular volume, so attractive forces are negligible even at moderate pressures - molecular volume effect dominates immediately giving Z > 1. N₂ has stronger London forces, so at moderate pressures attraction reduces V (Z < 1) before volume effect takes over at higher P. A wrong answer claiming both behave similarly reveals failure to connect intermolecular force strength (from c11_chem_cbse_05_001, 05_002) to deviation behaviour.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"At Boyle temperature, a real gas behaves ideally over a wide range of pressures because Z = 1.\" Evaluate this statement and explain the precise meaning of Boyle temperature.",
+     "a": "The statement is partially correct but imprecise. At Boyle temperature (T_B), Z = 1 at low to moderate pressures and the slope dZ/dP = 0 at P = 0, meaning the gas obeys Boyle's law (PV = constant) over a wider pressure range than at other temperatures. However, at very high pressures, Z still deviates from 1 due to molecular volume. A wrong answer treating Boyle temperature as \"perfect ideal behaviour at all pressures\" reveals confusion between low-pressure limiting behaviour and high-pressure behaviour.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a gas syringe and pressure sensor to demonstrate that CO₂ deviates from ideal behaviour more than N₂ at room temperature. What would you measure and how would you interpret the data?",
+     "a": "Measure pressure at fixed temperature while compressing a known amount of each gas in the syringe (vary volume from 60 mL to 10 mL). Calculate Z = PV/nRT at each volume. Plot Z vs P for both gases. CO₂ curve will show a deeper dip below 1 (stronger attraction) and steeper rise at high P compared to N₂. A poor answer that only measures final pressure without calculating Z or comparing curves reveals inability to design a quantitative deviation experiment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

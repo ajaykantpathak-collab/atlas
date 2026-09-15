@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_03_003",
+   "title": "c10_chem_cbse_03_003",
+   "questions": [
+    {
+     "q": "Write the balanced chemical equation for the reaction of magnesium with oxygen. State the physical state of the product formed.",
+     "a": "**Answer:** 2Mg(s) + O₂(g) → 2MgO(s). Magnesium oxide is a white solid.  \n**Wrong answer reveals:** If a student writes Mg + O₂ → MgO (unbalanced) or Mg + O₂ → MgO₂, they lack balancing skills or confuse oxide with peroxide. If they write MgO(aq) or MgO(l), they don't know MgO is a high-melting solid at room temperature.",
+     "self_check": true
+    },
+    {
+     "q": "Copper does not burn in air on strong heating, but iron filings burn vigorously when sprinkled in a flame. Explain this difference using the reactivity series.",
+     "a": "**Answer:** Iron is above copper in the reactivity series (Fe > Cu), so iron has greater affinity for oxygen and reacts on strong heating to form Fe₂O₃/Fe₃O₄. Copper is less reactive; it only forms a black CuO coating on prolonged strong heating but does not \"burn\" (no dazzling flame).  \n**Wrong answer reveals:** If a student says \"copper is less reactive so it doesn't react at all\" — they confuse \"no reaction\" with \"slow reaction forming a coating.\" If they say \"iron burns because it's a metal,\" they don't use reactivity series reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "A student heats 12 g of magnesium ribbon in a crucible. After reaction, the mass of the product is 20 g. Calculate the mass of oxygen that combined. Write the balanced equation and verify the law of conservation of mass.",
+     "a": "**Steps:**  \n1. Mass of Mg = 12 g, mass of product (MgO) = 20 g.  \n2. Mass of O₂ combined = 20 g – 12 g = 8 g.  \n3. Balanced equation: 2Mg + O₂ → 2MgO.  \n4. Molar masses: Mg = 24 g/mol, O₂ = 32 g/mol, MgO = 40 g/mol.  \n5. 12 g Mg = 0.5 mol Mg → requires 0.25 mol O₂ = 8 g O₂ → produces 0.5 mol MgO = 20 g MgO.  \n**Law verified:** Total mass reactants (12+8=20 g) = mass product (20 g).  \n**Wrong answer reveals:** If student gets 8 g but doesn't show mole calculation, they used subtraction only (lacks stoichiometry). If they write mass of O₂ = 20 g, they think product mass = oxygen mass.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the oxides formed by sodium (Na₂O), aluminium (Al₂O₃), and copper (CuO) in terms of: (a) reaction condition with oxygen, (b) nature of oxide (basic/amphoteric), (c) balanced equation.",
+     "a": "**Answer:**  \n(a) Na: reacts vigorously at room temperature (catches fire); Al: reacts on strong heating (forms protective layer); Cu: reacts only on prolonged strong heating (black coating).  \n(b) Na₂O: strongly basic; Al₂O₃: amphoteric; CuO: basic (but less basic than Na₂O).  \n(c) 4Na + O₂ → 2Na₂O; 4Al + 3O₂ → 2Al₂O₃; 2Cu + O₂ → 2CuO.  \n**Wrong answer reveals:** If student says Al₂O₃ is basic only, they missed amphoteric nature. If they write 2Al + O₂ → Al₂O₃ (unbalanced), they can't balance with odd oxygen atoms. If they say Na reacts on heating, they confuse with Mg.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the reaction of iron with oxygen as: Fe + O₂ → FeO. Identify two errors in this equation and write the correct balanced equation for the reaction when iron filings are burnt in air.",
+     "a": "**Errors:** (1) Equation is unbalanced (O atoms: 2 on left, 1 on right). (2) Product is wrong — iron forms Fe₃O₄ (mixed oxide) when burnt in air, not FeO. FeO forms only under specific low-oxygen conditions.  \n**Correct equation:** 3Fe + 2O₂ → Fe₃O₄ (or 4Fe + 3O₂ → 2Fe₂O₃ for red-hot iron in limited air).  \n**Wrong answer reveals:** If student only balances as 2Fe + O₂ → 2FeO, they fix balancing but miss the actual product formed in air (Fe₃O₄). If they say \"FeO is correct,\" they don't know the common oxide formed during burning.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to show that the oxide of a metal (choose any one) is basic in nature. List materials, procedure, observation, and conclusion.",
+     "a": "**Expected answer (example using MgO):**  \nMaterials: Magnesium ribbon, tongs, burner, litmus paper (red and blue), water, test tube.  \nProcedure: Burn Mg ribbon → collect white ash (MgO) → dissolve in water → test with litmus.  \nObservation: Red litmus turns blue; blue litmus stays blue.  \nConclusion: MgO dissolves in water to form Mg(OH)₂, a basic solution.  \n**Poor answer reveals:** If student says \"test the oxide directly with litmus\" (solid oxide won't change litmus), they don't know testing requires aqueous solution. If they use CuO and say \"red litmus turns blue,\" they are wrong — CuO is insoluble, so no colour change.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

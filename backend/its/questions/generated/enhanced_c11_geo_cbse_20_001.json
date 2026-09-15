@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_20_001",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_20_001",
+   "title": "c11_geo_cbse_20_001",
+   "questions": [
+    {
+     "q": "Define manufacturing in a geographical context and state its primary distinction from primary and tertiary activities.",
+     "a": "Manufacturing is the secondary economic activity involving mechanical/chemical transformation of raw materials into finished goods of higher value using machinery and labor. Unlike primary activities (extraction/harvesting of natural resources) and tertiary activities (services), manufacturing adds tangible value through physical processing. A wrong answer that equates manufacturing with \"any production\" or omits \"value addition\" reveals confusion between economic sectors and inability to classify activities — a critical error for board questions on sectoral contribution to GDP.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the \"least transportation cost\" principle alone cannot explain the location of the information technology industry in Bengaluru, whereas it largely explains the location of the iron and steel industry in Jamshedpur.",
+     "a": "Iron and steel is a weight-losing industry (raw materials like iron ore, coal, limestone are bulky; finished steel is lighter) so minimizing inbound transport cost pulls it to raw material sources (Jamshedpur near Jharia coal + Odisha iron ore). IT industry is footloose — its raw material (data, human skill) and product (software) have near-zero transport weight; location is driven by skilled labor pool, pleasant climate, university ecosystem, and government policy (Electronics City). A student who applies \"least transport cost\" to both reveals a mechanical misapplication of Weber's model without considering the **material index** (weight of localized raw materials / weight of product) — a classic Class 11 error.",
+     "self_check": true
+    },
+    {
+     "q": "A proposed aluminium smelter requires 15,000 kWh of electricity per tonne of aluminium. The raw material (bauxite) is available in Region A (Odisha), while cheap hydroelectric power is available in Region B (Himachal Pradesh). Bauxite loses 50% weight during refining to alumina, and alumina loses no further weight during smelting. Using the material index concept, determine the optimal location stage for the smelter and justify with calculations.",
+     "a": "**Step 1:** Calculate material index for bauxite → alumina: Weight of localized raw material (bauxite) = 2 tonnes per tonne alumina (50% loss). Weight of product (alumina) = 1 tonne. Material index = 2/1 = 2 (>1) → alumina refining should locate near bauxite (Region A).  \n**Step 2:** Calculate material index for alumina → aluminium: Weight of localized raw material (alumina) = 2 tonnes per tonne aluminium (no weight loss). Weight of product = 1 tonne. Material index = 2/1 = 2 (>1) → but alumina is already a concentrated intermediate product; the decisive factor now is **electricity cost** (15,000 kWh/tonne).  \n**Step 3:** Compare transport cost of moving 2 tonnes alumina vs. transmitting electricity. Electricity transmission loss ~5-10% over long distances; transporting alumina by rail is cheaper per tonne-km.  \n**Conclusion:** Smelter should locate near **cheap power (Region B)** because the material index for the smelting stage is high but the energy cost dominates. A wrong answer placing the smelter near bauxite ignores the shift from material-oriented to power-oriented location after the first refining stage — a nuanced error in multi-stage industrial location analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the locational factors for the traditional cotton textile industry in Mumbai (historical) and the modern automotive industry in Pune. Identify three factors that have remained constant and three that have fundamentally shifted in importance over the last century.",
+     "a": "**Constant factors:** (1) **Market access** — both need large urban consumers; (2) **Transport connectivity** — port/rail for cotton export, highways/rail for auto components; (3) **Labor availability** — though skill type changed.  \n**Shifted factors:** (1) **Raw material** — cotton was locally grown (Deccan trap soil); auto uses globally sourced steel/plastics — raw material pull weakened. (2) **Power** — cotton mills needed coal (imported to Mumbai); auto plants need reliable grid power (less location-specific). (3) **Agglomeration economies** — cotton benefited from financial/services cluster in Mumbai; auto benefits from specialized component supplier clusters (Chakan, Talegaon) and R&D institutions — a shift from **general urban agglomeration** to **specialized industrial clusters**. A student listing only \"labor, market, transport\" for both misses the evolutionary geography of industrial location — a key analytical skill for 5-mark questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Government policy is the most decisive factor for industrial location in post-1991 India.\" Use the examples of the Tata Nano plant (Sanand, Gujarat) and the POSCO steel project (Odisha, stalled) to support your judgment.",
+     "a": "**Judgment:** Government policy is a **necessary but not sufficient** condition; it can override geographical disadvantages but cannot create viability without underlying locational logic.  \n**Evidence:** Tata Nano at Sanand — Gujarat offered land, tax holidays, single-window clearance, and infrastructure, **but** Sanand also had proximity to Mumbai port (export), automotive cluster (vendor base), and labor — policy **accelerated** a geographically plausible location. POSCO in Odisha — massive policy push (MoU, land allocation, port promise) failed because of **insurmountable geographical/human constraints**: forest clearance delays, tribal resistance, water scarcity, and global steel price crash — policy could not compensate for weak social license and resource conflicts.  \n**Conclusion:** Policy acts as a **catalyst** where geographical factors are favorable; it cannot **create** comparative advantage where factor endowments are absent. A student calling policy \"most decisive\" commits determinism; one calling it \"irrelevant\" ignores the liberalisation-era spatial redistribution — both are reductionist.",
+     "self_check": true
+    },
+    {
+     "q": "Design a locational decision framework for a new lithium-ion battery gigafactory in India. Your framework must integrate at least five geographical factors, two non-geographical factors, and one sustainability constraint. Present as a weighted checklist with justification for each weight.",
+     "a": "**Framework (weights sum to 100):**  \n1. **Proximity to lithium/cobalt/nickel import ports** (15%) — raw materials are imported; coastal location reduces inbound logistics.  \n2. **Renewable energy availability (solar/wind capacity factor)** (20%) — battery manufacturing is energy-intensive; green power reduces carbon footprint and operating cost.  \n3. **Water stress index (Central Ground Water Board data)** (15%) — electrolyte production needs ultra-pure water; avoid over-exploited blocks.  \n4. **Skilled technical labor pool (engineering colleges + ITI density)** (15%) — precision manufacturing needs chemists, electrical engineers, technicians.  \n5. **EV demand cluster proximity (auto OEMs + 2-wheeler hubs)** (10%) — just-in-time supply to automotive clusters (Pune, Chennai, Delhi-NCR).  \n6. **State industrial policy incentives (capital subsidy, stamp duty waiver, power tariff)** (15%) — non-geographical but decisive for capex-heavy project.  \n7. **Land availability in notified industrial area with effluent treatment** (10%) — non-geographical; avoids land acquisition delays and ensures pollution compliance.  \n**Sustainability constraint:** **Zero liquid discharge (ZLD) mandatory** — eliminates sites without CETP capacity or water recycling infrastructure.  \nA poor answer lists factors without weights, ignores the **import-dependence of critical minerals**, or treats sustainability as optional — failing to integrate resource geography with industrial ecology.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

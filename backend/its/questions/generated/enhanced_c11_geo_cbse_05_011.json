@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_05_011",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_05_011",
+   "title": "c11_geo_cbse_05_011",
+   "questions": [
+    {
+     "q": "Name the three rock types involved in the rock cycle and state the primary process that forms each type from pre-existing material.",
+     "a": "Igneous rocks form by crystallization from magma/lava; sedimentary rocks form by lithification (compaction and cementation) of sediments; metamorphic rocks form by recrystallization of pre-existing rocks under heat and pressure without melting. A wrong answer (e.g., \"sedimentary rocks form by cooling of lava\") reveals confusion between igneous and sedimentary formation mechanisms and inability to distinguish melting from lithification as fundamentally different processes.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the rock cycle is better represented as a multi-directional network rather than a simple circular diagram, using the transformation of Deccan Basalt as an example.",
+     "a": "Deccan Basalt (igneous) can follow multiple paths: (1) weather → sediment → lithify → sandstone (sedimentary), (2) subduct → melt → new magma → granite (igneous), (3) bury deeply → metamorphose → amphibolite (metamorphic), or (4) uplift → weather again without changing type. A simple circle forces one sequence; the network shows all possible transitions. A wrong answer treating it as a fixed sequence (igneous→sedimentary→metamorphic→igneous) reveals misunderstanding that any rock type can transform directly into any other type depending on tectonic setting.",
+     "self_check": true
+    },
+    {
+     "q": "A sample of conglomerate from the Siwalik Hills contains rounded pebbles of granite, quartzite, and limestone. Trace the complete rock cycle history of this conglomerate from its ultimate igneous source to its current form, naming the specific process at each of the 5+ transitions.",
+     "a": "1) Granite (igneous) forms by crystallization of felsic magma in continental crust. 2) Uplift and exposure to surface. 3) Physical/chemical weathering breaks granite into quartz grains, feldspar clay, and rock fragments. 4) Erosion and transport by Himalayan rivers rounds fragments into pebbles. 5) Deposition in Siwalik foreland basin. 6) Compaction and cementation (lithification) forms conglomerate (sedimentary). A wrong answer missing uplift before weathering, or placing metamorphism between granite and conglomerate, reveals failure to sequence surface vs. deep-Earth processes correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the rock cycle pathways operating at a convergent plate boundary (Himalaya) versus a divergent boundary (mid-ocean ridge). Identify which rock type dominates the output at each boundary and why.",
+     "a": "Himalaya (convergent): Continental collision → thickening crust → high-grade metamorphism (gneiss, schist) dominates; partial melting produces leucogranite (igneous); erosion feeds foreland basin → sedimentary rocks (Siwaliks). Mid-ocean ridge (divergent): Decompression melting → basaltic magma → pillow basalt (igneous) dominates; hydrothermal alteration → low-grade metamorphism (greenstone); minimal sedimentary output. Wrong answers that assign similar outputs to both boundaries reveal failure to link plate tectonic mechanism (compression vs. extension) to specific rock-forming processes.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The rock cycle is a closed system with no net creation or destruction of rock material.\" Consider the role of subduction, mantle melting, and continental crust growth in your evaluation.",
+     "a": "The statement is false at geological time scales. Subduction destroys oceanic crust (recycled into mantle), while mantle melting at arcs and hotspots creates new continental crust (net addition of felsic material). Continental crust has grown from ~10% to ~40% of Earth's surface over 4 Ga. The rock cycle is open to mantle exchange. A \"true\" answer reveals confusion between mass conservation within the crust-mantle system vs. the crustal rock cycle alone, and ignorance of crustal growth evidence from zircon age peaks.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field investigation plan for a Class 11 project to identify rock cycle transitions exposed in a road cut along the Mumbai-Pune Expressway (Deccan Traps region). Specify: (a) three rock types to locate, (b) two transition zones to document with photographs, (c) one quantitative measurement to collect at each transition.",
+     "a": "(a) Basalt (igneous flow), red bole (weathered basalt → lateritic soil/sediment), amygdaloidal basalt (vesicles filled by zeolites → hydrothermal metamorphism). (b) Transition 1: Fresh basalt → red bole (weathering front); Transition 2: Basalt → zeolite-filled amygdules (hydrothermal alteration). (c) Measurement 1: Weathering rind thickness vs. distance from surface (mm); Measurement 2: Vesicle fill percentage and mineral assemblage (point count). Poor answers list only rock names without transition logic, or suggest measurements irrelevant to process identification (e.g., \"measure rock hardness\" without linking to weathering grade).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

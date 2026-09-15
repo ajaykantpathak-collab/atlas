@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_09_009",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_09_009",
+   "title": "c12_eco_cbse_09_009",
+   "questions": [
+    {
+     "q": "Define the money multiplier and state its formula in terms of the Cash Reserve Ratio (CRR). What is the value of the money multiplier if CRR = 5%?",
+     "a": "The money multiplier (m) = 1/CRR. It represents the maximum factor by which the banking system can expand total deposits from an initial deposit, assuming no leakages. If CRR = 5% = 0.05, then m = 1/0.05 = 20. A wrong answer (e.g., m = CRR or m = 1 - CRR) reveals confusion between the reserve ratio and its reciprocal, or misunderstanding that the multiplier amplifies, not reduces, the initial deposit.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the actual credit creation by commercial banks is always less than the theoretical maximum given by the money multiplier formula (1/CRR). Identify at least two specific leakages.",
+     "a": "Actual credit creation falls short due to: (1) Currency drain — the public holds a portion of money as cash rather than depositing it back into banks, breaking the lending-deposit cycle. (2) Excess reserves — banks may hold reserves above the mandatory CRR due to risk aversion or lack of creditworthy borrowers. (3) Insufficient loan demand — even with excess reserves, credit creation stops if borrowers don't seek loans. A wrong answer that only mentions \"banks don't lend all\" without specifying these distinct leakages shows incomplete understanding of the transmission mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "A commercial bank receives a fresh deposit of ₹50,000. The CRR is 10%. Assuming zero currency drain and zero excess reserves, calculate: (a) the money multiplier, (b) total deposits created in the banking system, (c) total credit created, and (d) total reserves held by all banks combined.",
+     "a": "(a) m = 1/CRR = 1/0.10 = 10. (b) Total deposits = Initial deposit × m = ₹50,000 × 10 = ₹5,00,000. (c) Total credit created = Total deposits - Initial deposit = ₹5,00,000 - ₹50,000 = ₹4,50,000. (Alternatively: Initial deposit × (m - 1) = ₹50,000 × 9 = ₹4,50,000). (d) Total reserves = Initial deposit = ₹50,000 (since all reserves ultimately trace back to the initial deposit; also = Total deposits × CRR = ₹5,00,000 × 0.10 = ₹50,000). A common error: calculating credit as ₹5,00,000 (confusing total deposits with credit created) or reserves as ₹5,00,000 × 0.10 = ₹50,000 but forgetting to verify consistency.",
+     "self_check": true
+    },
+    {
+     "q": "Trace the first three rounds of credit creation starting with an initial deposit of ₹10,000 and CRR = 20%. Show the deposit received, reserves kept, and loan made in each round. What is the cumulative deposit creation after three rounds?",
+     "a": "Round 1: Deposit = ₹10,000; Reserves (20%) = ₹2,000; Loan = ₹8,000.\nRound 2: Deposit = ₹8,000 (loan from Round 1 becomes deposit); Reserves = ₹1,600; Loan = ₹6,400.\nRound 3: Deposit = ₹6,400; Reserves = ₹1,280; Loan = ₹5,120.\nCumulative deposits = ₹10,000 + ₹8,000 + ₹6,400 = ₹24,400.\nA wrong answer that uses the initial ₹10,000 as the deposit for every round, or calculates reserves on the original amount each time, reveals failure to grasp the iterative nature where each loan becomes the next round's deposit.",
+     "self_check": true
+    },
+    {
+     "q": "The RBI reduces CRR from 5% to 4%. Evaluate the impact on the money multiplier, total credit creation capacity, and the banking system's liquidity. Is this an expansionary or contractionary monetary policy move? Justify.",
+     "a": "Money multiplier rises from 1/0.05 = 20 to 1/0.04 = 25. For a given initial deposit, total potential deposits increase by 25% (from 20× to 25×). Banks must hold less reserves per rupee of deposits, freeing up lendable funds — this increases banking system liquidity. This is an expansionary monetary policy move because it enhances credit creation capacity, lowers cost of funds, and stimulates aggregate demand. A wrong answer stating \"lower CRR means less reserves so less lending\" confuses reserve requirement with reserve availability — lower CRR means banks need to keep less, so they can lend more.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a numerical example where the actual money multiplier is 6 while the theoretical multiplier (1/CRR) is 10. Specify the CRR, the currency-deposit ratio (c), and the excess reserve ratio (e) that would produce this outcome. Use the formula: Actual multiplier = (1 + c) / (c + e + CRR).",
+     "a": "Let CRR = 0.10 (10%), so theoretical multiplier = 10. We need actual multiplier = 6.\nUsing (1 + c) / (c + e + 0.10) = 6.\nOne solution: c = 0.20 (public holds 20% of deposits as cash), e = 0.05 (banks hold 5% excess reserves).\nCheck: (1 + 0.20) / (0.20 + 0.05 + 0.10) = 1.20 / 0.35 ≈ 3.43 — not 6.\nTry c = 0.10, e = 0.05: (1.10) / (0.10 + 0.05 + 0.10) = 1.10 / 0.25 = 4.4.\nTry c = 0.05, e = 0.02: (1.05) / (0.05 + 0.02 + 0.10) = 1.05 / 0.17 ≈ 6.18 ≈ 6.\nSo CRR = 10%, c = 5%, e = 2% gives actual multiplier ≈ 6.\nA poor answer that cannot set up the equation or guesses randomly shows inability to work with the generalized money multiplier formula that includes leakages.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

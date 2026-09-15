@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_01_005",
+   "title": "c11_math_cbse_01_005",
+   "questions": [
+    {
+     "q": "Write the interval notation for the set {x ∈ R : -3 ≤ x < 5}.",
+     "a": "[-3, 5). A wrong answer like (-3, 5) reveals the student does not distinguish between ≤ (square bracket) and < (parenthesis). Writing [-3, 5] would mean they missed that the upper bound is strict.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the interval (2, 2) is empty, but the interval [2, 2] is not.",
+     "a": "(2,2) = {x ∈ R : 2 < x < 2} has no real numbers because no number is strictly greater than 2 and strictly less than 2 simultaneously. [2,2] = {x ∈ R : 2 ≤ x ≤ 2} contains exactly the single number 2. A student who says both are empty or both contain 2 confuses the strict vs. non-strict inequality conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Convert the interval (-∞, 7] into set-builder notation and state its length.",
+     "a": "Set-builder: {x ∈ R : x ≤ 7}. Length is not defined (infinite). A student who writes {x ∈ R : x < 7} misreads the bracket at 7. A student who gives a numerical length (e.g., 7 or ∞) does not understand that length is only defined for bounded intervals (b - a).",
+     "self_check": true
+    },
+    {
+     "q": "Given intervals A = [1, 4) and B = (3, 6], which of the following numbers belong to A ∩ B? Choose all that apply: 1, 3, 3.5, 4, 5.",
+     "a": "Only 3.5. A = {x: 1 ≤ x < 4}, B = {x: 3 < x ≤ 6}. Intersection requires 1 ≤ x < 4 AND 3 < x ≤ 6 → 3 < x < 4. 1 is not >3; 3 is not >3; 4 is not <4; 5 is not <4. A student choosing 3 or 4 does not handle the mixed strict/non-strict boundaries correctly.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the solution set of the inequality 2x - 5 ≤ 3 as x ∈ (-∞, 4). Is this correct? Justify.",
+     "a": "Incorrect. Solving: 2x ≤ 8 → x ≤ 4. The solution set is (-∞, 4] (including 4). The student used a parenthesis at 4, which excludes 4, but the inequality is non-strict (≤). This reveals confusion between strict and non-strict inequalities when converting to interval notation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (using Indian context) that can be modeled by the interval [500, 2000) and explain what the endpoints represent.",
+     "a": "Example: \"A metro ride in Delhi costs between ₹500 and ₹2000 per month for a daily commuter, where ₹500 is the minimum monthly pass cost (included) and ₹2000 is the maximum before a different fare slab applies (excluded).\" Endpoints: 500 = minimum cost (inclusive), 2000 = upper limit of this slab (exclusive). A poor answer uses abstract numbers without context or misassigns inclusion/exclusion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

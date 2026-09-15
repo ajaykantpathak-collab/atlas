@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_02_008",
+   "title": "c11_math_cbse_02_008",
+   "questions": [
+    {
+     "q": "What is the domain of the rational function \\( f(x) = \\frac{x^2 - 4}{x^2 - 5x + 6} \\)? Write your answer in set notation.",
+     "a": "The domain is \\( \\mathbb{R} \\setminus \\{2, 3\\} \\). The denominator \\( x^2 - 5x + 6 = (x-2)(x-3) \\) is zero at \\( x = 2 \\) and \\( x = 3 \\). A wrong answer like \\( \\mathbb{R} \\setminus \\{2\\} \\) or \\( \\mathbb{R} \\setminus \\{3\\} \\) reveals the student only found one root or incorrectly factorised. An answer of \\( \\mathbb{R} \\) shows they forgot domain restrictions entirely.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the function \\( f(x) = \\frac{x^2 - 4}{x - 2} \\) is NOT the same as \\( g(x) = x + 2 \\), even though they simplify algebraically to the same expression for \\( x \\neq 2 \\).",
+     "a": "\\( f(x) \\) has domain \\( \\mathbb{R} \\setminus \\{2\\} \\) while \\( g(x) \\) has domain \\( \\mathbb{R} \\). At \\( x = 2 \\), \\( f \\) is undefined (division by zero) but \\( g(2) = 4 \\). Two functions are equal only if they have identical domains and matching outputs for every input in that domain. A student who says \"they are the same because they simplify\" confuses algebraic equivalence with functional equality — a critical Class 11 distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Solve the equation \\( |2x - 5| = 3 \\) and represent the solution set on a number line.",
+     "a": "Step 1: \\( |2x - 5| = 3 \\) means \\( 2x - 5 = 3 \\) or \\( 2x - 5 = -3 \\).\nStep 2: Case 1: \\( 2x = 8 \\Rightarrow x = 4 \\). Case 2: \\( 2x = 2 \\Rightarrow x = 1 \\).\nStep 3: Solution set \\( \\{1, 4\\} \\). On number line: solid dots at 1 and 4.\nA wrong answer like \\( x = 4 \\) only reveals the student forgot the negative case. An answer like \\( x = -1, 4 \\) shows sign error in solving \\( 2x - 5 = -3 \\).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the graphs of \\( y = \\frac{1}{x} \\) and \\( y = \\frac{1}{x-2} + 3 \\). Describe the transformation sequence and state the new asymptotes.",
+     "a": "The graph of \\( y = \\frac{1}{x} \\) is shifted right by 2 units (replacing \\( x \\) with \\( x-2 \\)) then up by 3 units (adding 3). Vertical asymptote moves from \\( x = 0 \\) to \\( x = 2 \\); horizontal asymptote moves from \\( y = 0 \\) to \\( y = 3 \\). A student who says \"shift left by 2\" confuses \\( x-2 \\) with \\( x+2 \\). One who gives asymptotes as \\( x = -2, y = 3 \\) makes the same error. This tests understanding of transformation order and asymptote behaviour.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The range of \\( f(x) = \\frac{x^2 + 1}{x^2 + 2} \\) is \\( (0, 1) \\) because numerator < denominator always.\" Evaluate this claim and correct if necessary.",
+     "a": "The claim is partially correct but incomplete. Let \\( y = \\frac{x^2+1}{x^2+2} = 1 - \\frac{1}{x^2+2} \\). Since \\( x^2+2 \\geq 2 \\), \\( \\frac{1}{x^2+2} \\in (0, \\frac{1}{2}] \\), so \\( y \\in [\\frac{1}{2}, 1) \\). The range is \\( [\\frac{1}{2}, 1) \\), not \\( (0, 1) \\). The student correctly noted \\( y < 1 \\) but missed the lower bound because they didn't consider the minimum of \\( x^2+2 \\). This reveals a common error: assuming numerator < denominator implies range starts at 0, without finding actual minimum.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a rational function \\( f(x) = \\frac{p(x)}{q(x)} \\) that has domain \\( \\mathbb{R} \\setminus \\{-1, 3\\} \\), a horizontal asymptote at \\( y = 2 \\), and passes through the point \\( (0, -1) \\). Justify your construction.",
+     "a": "One possible function: \\( f(x) = \\frac{2x^2 - 2x - 6}{x^2 - 2x - 3} \\).\nConstruction: Denominator \\( q(x) = (x+1)(x-3) = x^2 - 2x - 3 \\) gives domain exclusions. For horizontal asymptote \\( y = 2 \\), degrees of \\( p \\) and \\( q \\) must be equal with leading coefficient ratio 2:1, so \\( p(x) = 2x^2 + bx + c \\). Using \\( f(0) = -1 \\): \\( \\frac{c}{-3} = -1 \\Rightarrow c = 3 \\). Choose \\( b = -2 \\) for simplicity: \\( p(x) = 2x^2 - 2x + 3 \\). Wait, check: \\( f(0) = 3/-3 = -1 \\). But \\( p(x) = 2x^2 - 2x + 3 \\), \\( q(x) = x^2 - 2x - 3 \\). A student who only gives \\( \\frac{2x^2}{x^2-2x-3} \\) satisfies domain and asymptote but fails the point condition. Good answer shows systematic use of all three conditions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

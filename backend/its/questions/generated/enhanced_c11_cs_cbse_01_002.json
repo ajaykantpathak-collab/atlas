@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_01_002",
+   "title": "c11_cs_cbse_01_002",
+   "questions": [
+    {
+     "q": "Name the four primary hardware components of a computer system as per the von Neumann architecture and state the one-word function of each (e.g., CPU → processing).",
+     "a": "The four primary hardware components are: (1) CPU — processing, (2) Primary Memory — storage (temporary), (3) Input Devices — entry, (4) Output Devices — display. A wrong answer that lists \"hard disk\" or \"monitor\" as a primary von Neumann component reveals the student conflates secondary storage or specific peripherals with the abstract architectural blocks. The von Neumann model defines memory as a single unified store (primary), not distinguishing secondary storage.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a computer with only hardware but no software cannot perform any useful task, and why software alone without hardware is equally useless.",
+     "a": "Hardware provides the physical machinery (circuits, gates, memory cells) that can manipulate binary signals, but without software (instructions), it has no direction — it is like a car with an engine but no driver. Software is a set of logical instructions encoded in binary; without hardware to fetch, decode, and execute those instructions, software remains static text on a storage medium — like a recipe without a kitchen. A wrong answer that says \"hardware runs software\" or \"software controls hardware\" without explaining the fetch-decode-execute cycle shows the student sees the relationship as one-way control rather than co-dependent execution.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each of the following into the correct software category and sub-category: (a) Ubuntu, (b) Python IDLE, (c) LibreOffice Calc, (d) Device driver for HP printer, (e) GCC compiler, (f) School fee management system.",
+     "a": "(a) Ubuntu → System Software → Operating System; (b) Python IDLE → Programming Tools → IDE (Integrated Development Environment); (c) LibreOffice Calc → Application Software → General Purpose (spreadsheet); (d) HP printer driver → System Software → Device Driver; (e) GCC → Programming Tools → Translator (Compiler); (f) School fee management system → Application Software → Customised. A wrong answer that places Ubuntu or device driver under Application Software reveals the student cannot distinguish software that manages hardware resources (system software) from software that solves user problems (application software).",
+     "self_check": true
+    },
+    {
+     "q": "Compare a microcontroller (e.g., in a washing machine) and a microprocessor (e.g., Intel Core i7 in a laptop) across three dimensions: (i) integration level, (ii) typical word size, (iii) intended use case. Which would you choose for a smart fridge and why?",
+     "a": "(i) Integration: Microcontroller integrates CPU + fixed RAM + ROM + I/O peripherals on a single chip; Microprocessor is CPU-only on chip, requires external RAM, ROM, I/O controllers. (ii) Word size: Microcontrollers typically 8/16/32-bit; Modern microprocessors 64-bit. (iii) Use case: Microcontroller for dedicated, repetitive, real-time control tasks (washing cycle); Microprocessor for general-purpose, multi-tasking, high-performance computing. For a smart fridge: choose microcontroller — it runs one dedicated firmware (temperature control, compressor timing, display), needs low power, low cost, real-time response, and no OS overhead. A wrong answer choosing microprocessor for the fridge shows the student equates \"more powerful\" with \"better\" ignoring cost, power, and purpose-fit constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Since RAM is volatile and loses data on power-off, it is a design flaw; computers should use only non-volatile memory like ROM or SSD for all storage.\" Defend or refute with two technical arguments.",
+     "a": "Refute. Argument 1: Speed–volatility trade-off. RAM (DRAM) access time ~10–100 ns; SSD (NAND flash) ~50–150 μs (1000× slower). CPU runs at GHz (cycle ~0.3 ns); if main memory were SSD-speed, CPU would stall >99% of time waiting for data, destroying performance. Argument 2: Write endurance. NAND flash wears out after ~10³–10⁵ program/erase cycles; a program modifying variables millions of times per second would kill an SSD in hours. RAM supports unlimited writes. A wrong answer agreeing with the statement reveals the student ignores the memory hierarchy principle: volatile RAM is a deliberate performance optimization, not a flaw; non-volatile storage serves a different tier (capacity/persistence).",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal computer system for a rural primary health centre that must: (a) store patient records offline, (b) run a customised diagnosis-assist app, (c) print prescriptions, (d) operate on intermittent solar power with battery backup. List exactly 5 hardware components and 3 software components with one-line justification for each.",
+     "a": "Hardware: (1) Low-power CPU (e.g., ARM Cortex-A53) — minimal watts for solar/battery; (2) 4 GB RAM — holds OS + app + active records; (3) 128 GB SSD — non-volatile, shock-resistant, fast boot; (4) Thermal printer — no ink, works on low power, prints prescriptions; (5) 10-inch touchscreen — input+output combined, rugged, low power. Software: (1) Linux-based OS (e.g., Ubuntu Server minimal) — free, lightweight, runs on ARM; (2) Customised diagnosis app (offline-first, syncs when online) — meets requirement (b); (3) SQLite embedded DB — zero-config, file-based, stores patient records locally. A poor answer listing \"Windows 11, Microsoft Word, laser printer, 16 GB RAM, Core i5\" reveals the student ignores power constraints, cost, and purpose-fit — treating every computer as a generic office PC.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

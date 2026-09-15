@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_10_001",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_10_001",
+   "title": "c12_phy_cbse_10_001",
+   "questions": [
+    {
+     "q": "Define a wavefront and state Huygens' Principle in your own words. What is the shape of the wavefront from a point source in a homogeneous isotropic medium?",
+     "a": "A wavefront is the locus of points oscillating in the same phase; Huygens' Principle: each point on a wavefront acts as a source of secondary spherical wavelets, and the new wavefront is the forward envelope of these wavelets. From a point source, the wavefront is spherical. A wrong answer (e.g., \"wavefront is the path of a light ray\" or \"wavelets are planar\") reveals confusion between ray and wavefront concepts or misunderstanding of the secondary wavelet geometry.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the backward wave (backwave) does not appear in Huygens' construction. What ad hoc assumption did Huygens make, and why is it considered unsatisfactory by modern wave theory?",
+     "a": "The backward envelope of secondary wavelets would form a backwave, but Huygens assumed the amplitude of secondary wavelets is maximum forward and zero backward, eliminating it. This is ad hoc because it is not derived from the wave equation; rigorous theory (Kirchhoff's diffraction integral) shows the backwave cancels due to phase differences. A student who says \"backwave is absorbed\" or \"energy only goes forward\" misses the mathematical origin of the cancellation.",
+     "self_check": true
+    },
+    {
+     "q": "A plane wavefront is incident on a glass slab (refractive index 1.5) at an angle of 30° to the normal. Using Huygens' construction, find the angle of the refracted wavefront inside the glass. Speed of light in vacuum = 3.0 × 10⁸ m/s. Show the geometric steps.",
+     "a": "Given: n₁=1 (air), n₂=1.5 (glass), i=30°. Snell's law: n₁ sin i = n₂ sin r → sin r = (1/1.5) sin 30° = 0.3333 → r = 19.47°. The refracted wavefront bends toward the normal by 19.47°. Steps: (1) Draw incident wavefront AB at 30° to interface. (2) In time t, point B travels BC = v₁t in air. (3) In same time, point A travels AE = v₂t in glass. (4) Tangent from C to sphere radius AE gives refracted wavefront CE. (5) Geometry yields sin i / sin r = v₁/v₂ = n₂/n₁. Wrong answer (e.g., r=30° or r=45°) indicates failure to apply the velocity ratio or confusion between ray angle and wavefront angle.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Huygens construction for a spherical wavefront and a plane wavefront. How does the radius of curvature change with time in each case? What does this imply about the ray direction relative to the wavefront?",
+     "a": "For a spherical wavefront, the radius of curvature increases linearly with time (R = vt), and rays are radial lines from the source. For a plane wavefront, the radius of curvature is infinite (remains plane), and rays are parallel straight lines perpendicular to the wavefront. In both cases, rays are everywhere perpendicular to the wavefront. A student who claims \"plane wavefront becomes spherical\" or \"rays curve\" misunderstands that plane wave propagation in a uniform medium preserves planarity.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Huygens' Principle is just a geometric trick; it doesn't explain why light bends when entering a denser medium.\" Evaluate this claim. Does Huygens' construction *predict* the bending direction, or does it merely *describe* it?",
+     "a": "Huygens' construction *predicts* the bending direction quantitatively. Given v₂ < v₁, the wavelet in the denser medium has smaller radius (v₂t < v₁t), so the tangent envelope tilts toward the normal — this is a geometric necessity, not an assumption. The construction yields sin i / sin r = v₁/v₂, which matches Snell's law and correctly predicts v₂ < v₁ (confirmed by Foucault, 1850). The claim is false: the principle provides a causal wave-based mechanism, unlike the corpuscular model which predicted the opposite.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple home experiment using a ripple tank (or a shallow tray of water) to demonstrate Huygens' construction for a plane wave. Specify how you would generate a plane wave, mark the initial wavefront, and observe the new wavefront after a short time. What would you measure to verify the construction?",
+     "a": "Use a straight vibrator (ruler) at one end of a ripple tank to generate plane waves. Freeze the pattern with a stroboscope synchronized to the vibrator frequency. Mark the initial wavefront position on the tank bottom. After a known time Δt (e.g., 10 periods), mark the new wavefront. Measure the distance between wavefronts; it should equal vΔt where v = fλ (measured separately). Verify the new wavefront is parallel to the initial one. A poor answer (e.g., \"use a point source\") fails to produce a plane wave; \"measure angle\" is irrelevant for plane waves.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

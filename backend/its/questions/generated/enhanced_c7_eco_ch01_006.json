@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_eco_ch01_006",
+ "concepts": [
+  {
+   "id": "enh:c7_eco_ch01_006",
+   "title": "c7_eco_ch01_006",
+   "questions": [
+    {
+     "q": "What gives a modern Indian paper currency note its purchasing power and value in the market?",
+     "a": "The value of a modern paper note comes from the guarantee of the central authority (the Reserve Bank of India) and government backing, combined with public trust, rather than the value of the paper it is printed on. A student who answers that \"the paper is expensive to make\" confuses fiat currency with commodity money, misunderstanding that paper notes have negligible intrinsic value and rely entirely on institutional trust and legal tender laws.",
+     "self_check": true
+    },
+    {
+     "q": "Why is a 2,000-rupee paper note considered much more efficient for a wholesale merchant than carrying two thousand 1-rupee coins?",
+     "a": "A paper note drastically reduces transport, storage, and counting costs, making trade faster and safer over long distances. A student who thinks coins are safer because they are made of metal misses the economic concept of transaction costs, failing to see that the physical weight and bulk of coins make large-scale commerce economically inefficient.",
+     "self_check": true
+    },
+    {
+     "q": "If a single 500-rupee note weighs approximately 1 gram, and a 10-rupee metal coin weighs approximately 8 grams, how many grams of weight does a merchant save by accepting one 500-rupee note instead of fifty 10-rupee coins for a sale?",
+     "a": "Steps:\n1. Identify the weight of the alternative payment: fifty 10-rupee coins weigh $50 \\times 8\\text{ grams} = 400\\text{ grams}$.\n2. Identify the weight of the paper currency: one 500-rupee note weighs $1\\text{ gram}$.\n3. Calculate the difference: $400\\text{ grams} - 1\\text{ gram} = 399\\text{ grams}$ saved.\n4. Conclude that the merchant saves 399 grams of carrying weight.\nA student who incorrectly calculates 400 grams forgot to subtract the 1 gram of the paper note itself, or a student who multiplies instead of subtracting reveals a basic arithmetic confusion in comparative weight analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the introduction of paper currency helps expand national markets compared to local metallic coin markets.",
+     "a": "Paper currency allows merchants to transport large sums of capital safely across long distances without hiring heavily guarded wagons for massive coin chests, linking local markets into a national economy. A student who believes paper money only works inside a single village fails to analyze how portability enables long-distance trade and regional specialization, which are essential for national market integration.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Because paper currency notes cost very little to print compared to their face value, the government should print unlimited notes to make every citizen wealthy.\"",
+     "a": "This statement is false because printing paper notes without a corresponding increase in real goods and services (output) leads to severe inflation, where prices skyrocket and the actual purchasing power of each note collapses. A student who agrees with the statement fails to understand that money is a medium of exchange representing real economic output, not wealth in itself; multiplying paper notes without production only devalues the currency.",
+     "self_check": true
+    },
+    {
+     "q": "Propose a simple rule or design feature that a central bank must maintain so that citizens continue to trust paper currency notes over time.",
+     "a": "A good response must state that the central bank must control the total supply of notes to prevent inflation and incorporate robust security features (like watermarks and security threads) to prevent counterfeiting, thereby preserving public trust. A poor response simply suggests printing prettier colors or making notes larger, which ignores the foundational economic principles of scarcity and institutional trust.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

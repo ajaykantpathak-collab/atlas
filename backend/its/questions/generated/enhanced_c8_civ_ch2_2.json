@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_civ_ch2_2",
+ "concepts": [
+  {
+   "id": "enh:c8_civ_ch2_2",
+   "title": "c8_civ_ch2_2",
+   "questions": [
+    {
+     "q": "What is the primary legal status of the Constitution of India within the nation's political system?",
+     "a": "The Constitution of India is the supreme law of the land, meaning all laws made by Parliament and state legislatures must conform to it, and any law violating its provisions can be declared null and void. A wrong answer—such as thinking the Prime Minister's orders override the Constitution—reveals a fundamental misunderstanding of constitutional supremacy and rule of law, mistaking temporary political office for supreme legal authority.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a democratic country require a written constitution rather than relying on unwritten traditions or oral agreements?",
+     "a": "A written constitution provides certainty, clarity, and protection against arbitrary changes by temporary majorities, clearly outlining citizen rights and government limits so everyone knows the exact rules of governance. A wrong answer—such as believing unwritten rules are better because they are flexible—shows a misunderstanding of how written documents protect minority rights and prevent abuses of power by those currently holding political office.",
+     "self_check": true
+    },
+    {
+     "q": "A newly elected state government wants to pass a law banning newspapers from criticizing its economic policies. Based on constitutional principles, what happens to this proposed law?",
+     "a": "The proposed law will be struck down by the judiciary because the Constitution guarantees freedom of speech and expression under Fundamental Rights, which the government cannot infringe upon through ordinary legislation. A wrong answer—such as assuming the government can ban criticism because it won a democratic election—demonstrates a confusion between majority rule and constitutional limits, failing to understand that fundamental rights protect citizens even from elected majorities.",
+     "self_check": true
+    },
+    {
+     "q": "How does the Constitution of India divide authority between different organs of government to prevent the misuse of power?",
+     "a": "The Constitution distributes powers among the legislature (which makes laws), the executive (which implements laws), and the judiciary (which interprets laws), establishing a system of checks and balances where each organ monitors the others. A wrong answer—such as stating that the executive holds all power because it runs the day-to-day administration—reflects a failure to grasp the structural separation of powers and institutional interdependence mandated by the Constitution.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Because the Parliament is elected directly by the people, it should have the absolute power to alter any part of the Constitution without judicial interference.\" Is this view compatible with Indian constitutionalism?",
+     "a": "This view is incompatible with Indian constitutionalism because the Constitution contains basic structures and fundamental rights that limit even parliamentary majority, ensuring that democratic governance does not turn into parliamentary dictatorship. A wrong answer—such as agreeing that elected representatives should have unlimited power—shows a lack of comprehension regarding constitutional democracy, where popular sovereignty is mediated and restrained by fundamental laws.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a short constitutional principle that prevents a government from arresting citizens without stating a valid legal reason.",
+     "a": "The principle should state that no person shall be deprived of personal liberty except according to procedure established by law, and every detained person must be informed of the grounds for arrest. A poor answer—such as saying \"the police can arrest anyone if the Chief Minister orders it\"—reveals a complete lack of understanding regarding constitutional protections against arbitrary state action and arbitrary detention.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

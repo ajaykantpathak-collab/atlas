@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch07_004",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch07_004",
+   "title": "c7_physics_ch07_004",
+   "questions": [
+    {
+     "q": "What happens to the color of blue litmus paper when it is dipped into a neutral substance like pure distilled water?",
+     "a": "The color of the blue litmus paper remains blue with no change whatsoever. A wrong answer—such as stating it turns red or colorless—reveals that the student is confusing neutral substances with acids, or misunderstanding that indicators only change color in the presence of distinct acidic or basic properties.",
+     "self_check": true
+    },
+    {
+     "q": "Why do neutral substances fail to change the color of either red or blue litmus paper?",
+     "a": "Neutral substances fail to change litmus color because they contain a balanced proportion of acidic and basic characteristics, meaning they lack the excess hydrogen ions of acids or excess hydroxide ions required to alter the dye molecules in indicators. A wrong answer showing belief that neutral substances are just weak acids reveals a misunderstanding of neutrality as a distinct, balanced state rather than a point of chemical balance.",
+     "self_check": true
+    },
+    {
+     "q": "If 10 mL of a sugar solution shows no color change with red litmus and no color change with blue litmus, what is its chemical classification and what is its expected pH value?",
+     "a": "Steps:\n1. Observe indicator test results: red litmus stays red, blue litmus stays blue.\n2. Recall that neither acidic nor basic properties are indicated by color change.\n3. Conclude that the substance is neutral.\n4. Assign the corresponding standard pH value for neutrality, which is 7.\nA wrong answer involving acidic or basic classification indicates failure to apply the rule that lack of color change in both litmus papers signifies neutrality.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following test results for three unknown solutions: Solution A turns blue litmus red; Solution B turns red litmus blue; Solution C shows no color change on either red or blue litmus paper. Which solution is neutral and why?",
+     "a": "Solution C is neutral because it does not alter the color of either red or blue litmus paper, unlike Solution A (which is acidic) and Solution B (which is basic). A wrong answer selecting Solution A or B reveals confusion between active acid-base indicators and neutral, unreactive reference solutions.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that since common salt solution is neutral, it must be a strong acid diluted with a strong base. Evaluate this claim based on the definition of neutral substances.",
+     "a": "The student's claim is partially correct in terms of origin (salt is formed from an acid and a base), but calling it a \"strong acid diluted\" is incorrect because a neutral substance has completely lost its acidic and basic dominance, resulting in a balanced pH of 7 that is neither acidic nor basic. A wrong answer agreeing that it is a diluted acid reveals a failure to understand that chemical combination creates a new substance with unique neutral properties.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple testing procedure using turmeric powder and lemon juice to prove that tap water is neutral compared to lemon juice.",
+     "a": "To prove tap water is neutral, prepare a turmeric indicator paper or paste (which is yellow in neutral/acidic conditions and red in basic). Apply lemon juice (acid) to show it stays yellow, and test tap water to show it also remains yellow, confirming it is not basic like soap, while noting that turmeric does not distinguish between acids and neutrals directly, requiring litmus for complete proof. A poor answer fails to include a comparative baseline or misidentifies color changes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

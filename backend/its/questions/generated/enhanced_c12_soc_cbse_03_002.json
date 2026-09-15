@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_03_002",
+   "title": "c12_soc_cbse_03_002",
+   "questions": [
+    {
+     "q": "State the three core features that define caste as a system of stratification according to the NCERT textbook.",
+     "a": "The three core features are: (1) hierarchy based on purity-pollution, (2) hereditary occupation, and (3) endogamy (marriage within the caste). A wrong answer that lists “untouchability” or “varna” instead reveals the student is confusing specific practices or the four-fold varna model with the structural pillars of the jati-based caste system.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why endogamy is considered the “key” to maintaining the caste system, using the concepts of hierarchy and hereditary occupation.",
+     "a": "Endogamy prevents mixing of castes, which would blur the purity-pollution hierarchy and break the link between birth and occupation. If people married across castes, children would have mixed ritual status, undermining the hereditary claim to a specific occupation and rank. A wrong answer that says “endogamy preserves culture” misses the structural point: it preserves the *stratification system* by closing the boundaries that hierarchy and hereditary occupation depend on.",
+     "self_check": true
+    },
+    {
+     "q": "A village has three castes: Brahmins (priests), Kumhars (potters), and Chamars (leather workers). The Kumhars want to stop making pots and open a grocery shop. Using the concept of hereditary occupation, explain why this move faces resistance from both Brahmins and Chamars.",
+     "a": "Hereditary occupation means each caste has a monopoly on its traditional work and a duty to perform it. If Kumhars leave pottery, Brahmins lose their ritual service providers, and Chamars lose a buffer caste that maintains the hierarchy. Resistance comes because the system relies on *complementary, non-competing* roles; one caste’s exit threatens the whole structure. A wrong answer focusing only on “economic competition” ignores the ritual-service obligation that binds castes together.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how hierarchy operates in the caste system versus in a class system. Identify two similarities and two differences, referencing purity-pollution and economic capital.",
+     "a": "Similarities: both rank groups unequally and affect life chances. Differences: (1) Caste hierarchy is ritual (purity-pollution) and ascribed at birth; class hierarchy is economic (capital) and potentially achievable. (2) Caste hierarchy is closed (no mobility); class hierarchy is relatively open. A wrong answer that says “both are based on money” conflates ritual status with economic class and misses the unique *ritual* foundation of caste hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: “Hereditary occupation is the economic base of caste; without it, the caste system would collapse.” Use evidence from the NCERT text about colonialism and modern industry.",
+     "a": "The statement is partially true but incomplete. Colonialism and modern industry *did* create jobs with no caste rules, yet caste persisted through endogamy and hierarchy. The NCERT notes recruitment in mills remained caste-based, and endogamy stayed strong. So hereditary occupation is *one* pillar; the system survives even when that pillar weakens because the other two (endogamy, hierarchy) compensate. A wrong answer that agrees wholly ignores the resilience shown in the text.",
+     "self_check": true
+    },
+    {
+     "q": "Create a short case study (150 words) of a fictional village where a lower-caste family attempts to educate their daughter for a government job. Show how all three pillars — hierarchy, hereditary occupation, and endogamy — create barriers at each step.",
+     "a": "A good case study will show: (1) Hierarchy — teachers/school officials discriminate (purity-pollution), denying her equal attention. (2) Hereditary occupation — village elders pressure her to do traditional work, saying “your caste’s duty is X.” (3) Endogamy — when she succeeds, marriage proposals dry up because higher castes won’t marry “up” and her own caste sees her as “too modern.” A poor case study treats barriers as isolated incidents rather than interconnected systemic forces.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

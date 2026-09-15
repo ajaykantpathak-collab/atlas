@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_02_004",
+   "title": "c12_ip_cbse_02_004",
+   "questions": [
+    {
+     "q": "What is the default value of the `sep` parameter in `pd.read_csv()`, and what does it imply about the file format?",
+     "a": "The default value of `sep` is a comma (`,`), which implies the file is a standard CSV where values are separated by commas. A wrong answer (e.g., \"space\" or \"tab\") reveals the student has not memorised the default behaviour and will fail when reading a standard CSV without explicitly specifying the separator, leading to a single-column DataFrame where all data is jammed into one column.",
+     "self_check": true
+    },
+    {
+     "q": "A CSV file \"data.csv\" contains no header row — the first row is actual data. A student writes `df = pd.read_csv(\"data.csv\")`. What will be the column labels of the resulting DataFrame, and why is this likely incorrect for the student's intention?",
+     "a": "The column labels will be the values from the first data row (e.g., if the first row is \"1,Arnab,85\", the columns become 1, Arnab, 85). This is incorrect because the student likely wants meaningful column names like \"RollNo\", \"Name\", \"Marks\". The misunderstanding is that `header=0` is the default, so the first row is always treated as headers unless `header=None` is explicitly passed. A wrong answer shows the student does not understand the default header inference behaviour.",
+     "self_check": true
+    },
+    {
+     "q": "You have a file \"sales.txt\" where fields are separated by the pipe character `|` (e.g., \"101|Laptop|45000\"). Write the exact `read_csv` statement to load this into a DataFrame with columns \"ID\", \"Product\", \"Price\".",
+     "a": "`df = pd.read_csv(\"sales.txt\", sep=\"|\", names=[\"ID\", \"Product\", \"Price\"], header=None)`\nSteps: (1) Identify separator is `|`, not comma → `sep=\"|\"`. (2) File has no header → `header=None`. (3) Provide custom column names → `names=[...]`. A wrong answer (missing `sep`, or missing `header=None`, or using `read_excel`) reveals the student cannot adapt the function to non-standard delimiters and headerless files — a common board exam scenario.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the behaviour of `pd.read_csv(\"file.csv\", header=0)` vs `pd.read_csv(\"file.csv\", header=None, names=[\"A\",\"B\",\"C\"])` when \"file.csv\" contains a valid header row as its first line. Which approach preserves the original header names, and which replaces them?",
+     "a": "`header=0` (default) preserves the original header names from the file's first row. `header=None` with `names=[\"A\",\"B\",\"C\"]` treats the first row as data and replaces headers with \"A\", \"B\", \"C\", pushing the original header into the first data row. A wrong answer (e.g., \"both give same result\") reveals confusion between \"use first row as header\" vs \"ignore first row as header and supply my own\" — a critical distinction for data integrity.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `df = pd.read_excel(\"marks.xlsx\")` but gets a `ModuleNotFoundError: No module named 'openpyxl'`. Evaluate: Is this an error in the student's code logic, or an environment issue? What must the student do to fix it without changing the code?",
+     "a": "This is an environment issue, not a code logic error. `read_excel` requires the `openpyxl` engine (for .xlsx) or `xlrd` (for .xls) which are not installed by default with pandas. The student must run `pip install openpyxl` in the terminal/command prompt. A wrong answer (e.g., \"change to read_csv\" or \"import openpyxl in code\") shows the student confuses runtime dependencies with import statements — a practical deployment issue tested in board practical exams.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario where a CSV file uses semicolons as separators, has 3 header rows (metadata) before the actual column headers, and the actual data starts from row 5. Write the `read_csv` call that correctly loads only the data with proper column names, explaining each parameter used.",
+     "a": "Scenario: A bank statement CSV where rows 1-3 are bank name, account info, date range (metadata), row 4 has column headers (\"Date\", \"Description\", \"Debit\", \"Credit\"), row 5 onward has transactions.\nCode: `df = pd.read_csv(\"statement.csv\", sep=\";\", header=3)`\nExplanation: `sep=\";\"` handles semicolon delimiter; `header=3` tells pandas the 4th row (0-indexed) is the header. A poor answer (using `skiprows` incorrectly, or `header=4`) reveals inability to map real-world messy files to parameter logic — a key competency for case-based board questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

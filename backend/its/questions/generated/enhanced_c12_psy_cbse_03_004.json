@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_03_004",
+   "title": "c12_psy_cbse_03_004",
+   "questions": [
+    {
+     "q": "A student experiencing examination stress reports \"heart pounding, hands clammy, mind gone blank.\" Which TWO domains of stress effects are illustrated by \"heart pounding\" and \"mind gone blank\" respectively?",
+     "a": "\"Heart pounding\" = physiological effect (autonomic arousal: adrenaline/cortisol release → increased heart rate). \"Mind gone blank\" = cognitive effect (impaired working memory and retrieval due to high cortisol disrupting prefrontal cortex and hippocampus). A wrong answer (e.g., labelling both as emotional) reveals the student cannot distinguish somatic arousal from information-processing deficits — a critical error for case-based questions where domain identification is step 1.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"mood swings\" and \"irritability\" are classified as EMOTIONAL effects of stress, while \"increased absenteeism\" and \"excessive caffeine consumption\" are BEHAVIOURAL effects. What is the fundamental difference in what these two categories describe?",
+     "a": "Emotional effects are internal feeling states (subjective experience: anxiety, fear, depression, mood swings). Behavioural effects are observable actions or changes in behaviour patterns (absenteeism, substance use, sleep disruption, performance decline). The fundamental difference: emotional = \"what I feel inside\"; behavioural = \"what I do that others can see.\" A wrong answer conflating them (e.g., \"irritability is a behaviour\") shows the student misses the internal vs. external distinction crucial for writing precise board answers and for NEET questions linking stress to specific observable outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "A 17-year-old faces chronic parental conflict. Over six months, she develops: (a) frequent headaches and stomach aches, (b) difficulty concentrating in class, (c) avoids friends and stops attending dance class, (d) feels hopeless about the future. Map each symptom to its correct domain (physiological, cognitive, behavioural, emotional). Then explain WHY chronic stress produces this specific cluster rather than just one domain.",
+     "a": "(a) Headaches/stomach aches → physiological (somatic complaints from sustained autonomic arousal). (b) Difficulty concentrating → cognitive (prefrontal cortex impairment). (c) Avoids friends/stops dance → behavioural (withdrawal, reduced engagement). (d) Hopelessness → emotional (depressive affect). WHY cluster: Chronic stress activates the HPA axis continuously → cortisol bathes multiple brain regions (amygdala, hippocampus, prefrontal cortex) AND body systems simultaneously. The appraisal of the conflict as uncontrollable (secondary appraisal failure) prevents resolution, so all four domains stay activated. A wrong mapping or missing the \"simultaneous multi-system activation\" explanation reveals the student thinks stress effects are isolated — a misconception that loses marks in \"explain the effects of stress\" long-answer questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the physiological effects of ACUTE stress (e.g., sudden loud noise) vs. CHRONIC stress (e.g., ongoing board exam preparation for 3 months) on the cardiovascular and immune systems. Use the terms \"catecholamines,\" \"cortisol,\" and \"immune suppression\" in your answer.",
+     "a": "Acute stress: Sympathetic-adrenal-medullary (SAM) axis → rapid catecholamine (epinephrine/norepinephrine) surge → immediate heart rate/BP increase, bronchodilation — adaptive fight-or-flight. Chronic stress: Hypothalamic-pituitary-adrenal (HPA) axis → sustained cortisol elevation → prolonged cardiovascular strain (hypertension risk) AND cortisol-induced immune suppression (reduced natural killer cell cytotoxicity, inhibited inflammation) → increased illness susceptibility. A wrong answer that swaps the axes (e.g., \"chronic stress uses SAM axis\") or omits immune suppression shows the student memorised terms without understanding the temporal dynamics — a classic NEET trap where acute vs. chronic pathways are contrasted.",
+     "self_check": true
+    },
+    {
+     "q": "\"Stress always impairs cognitive functioning.\" Evaluate this statement. Provide one scenario where stress MIGHT temporarily enhance a specific cognitive function, and explain the mechanism (refer to the Yerkes-Dodson principle implicitly).",
+     "a": "The statement is FALSE. Moderate, acute stress (eustress) can enhance focused attention and working memory for a well-practised task (e.g., a pianist performing a known piece) via optimal noradrenaline/dopamine in prefrontal cortex — the inverted-U arousal-performance relationship. However, high or chronic stress impairs complex decision-making, flexible thinking, and retrieval. A student who says \"always impairs\" misses the eustress concept (c12_psy_cbse_03_001) and the arousal-performance curve — an error that costs marks in \"discuss effects of stress\" questions where nuance is required.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-row × 4-column table. Rows = the four domains (Emotional, Physiological, Cognitive, Behavioural). Columns = (1) One core symptom, (2) Underlying biological/psychological mechanism, (3) One observable sign a teacher/parent might notice, (4) One adaptive vs. maladaptive coping link. Fill all 16 cells with specific, non-repetitive content from the chapter.",
+     "a": "A good answer fills each cell accurately, e.g.:\n- Emotional: (1) Anxiety, (2) Amygdala hyperactivity + low GABA, (3) Restlessness, fidgeting, (4) Adaptive: seeking support; Maladaptive: rumination.\n- Physiological: (1) Elevated BP, (2) SAM/HPA axis → catecholamines/cortisol, (3) Flushed face, rapid breathing, (4) Adaptive: exercise; Maladaptive: smoking.\n- Cognitive: (1) Poor concentration, (2) Cortisol impairs prefrontal cortex, (3) Staring blankly, incomplete work, (4) Adaptive: chunking tasks; Maladaptive: procrastination.\n- Behavioural: (1) Sleep disruption, (2) Hyperarousal disrupts sleep architecture, (3) Yawning, napping in class, (4) Adaptive: sleep hygiene; Maladaptive: sleeping pills.\nA poor answer with vague mechanisms (\"stress causes it\") or missing adaptive/maladaptive distinction shows the student cannot integrate biology, observation, and coping — exactly what competency questions demand.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

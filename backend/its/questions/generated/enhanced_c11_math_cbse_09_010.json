@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_09_010",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_09_010",
+   "title": "c11_math_cbse_09_010",
+   "questions": [
+    {
+     "q": "State the exact formulas for Σₖ₌₁ⁿ k, Σₖ₌₁ⁿ k², and Σₖ₌₁ⁿ k³ with proper mathematical notation.",
+     "a": "Σₖ₌₁ⁿ k = n(n+1)/2; Σₖ₌₁ⁿ k² = n(n+1)(2n+1)/6; Σₖ₌₁ⁿ k³ = [n(n+1)/2]². A wrong answer like Σk² = [n(n+1)/2]² reveals the student confuses the sum of squares with the square of the sum — a critical error because (1²+2²) = 5 but (1+2)² = 9.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the formula for Σk³ equals the square of the formula for Σk. Is this a coincidence or is there a structural reason?",
+     "a": "It is not a coincidence. The identity Σk³ = (Σk)² can be proved by induction or by observing that the sum of cubes represents the volume of a square pyramid of cubes whose base is the triangular number Σk. A student who says \"it's just a pattern\" shows lack of deeper understanding; the structural reason is that both sides satisfy the same recurrence relation S(n) - S(n-1) = n³ with S(0)=0.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate Σₖ₌₁¹⁰ (2k² - 3k + 5) using the special series formulas. Show all steps.",
+     "a": "Σ(2k² - 3k + 5) = 2Σk² - 3Σk + Σ5 = 2[10(11)(21)/6] - 3[10(11)/2] + 5(10) = 2(385) - 3(55) + 50 = 770 - 165 + 50 = 655. A wrong answer like 2(385) - 3(55) + 5 = 770 - 165 + 5 = 610 reveals the student forgets that Σ(constant) = constant × n, not just the constant.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the growth rates of Σk, Σk², and Σk³ as n → ∞. Which dominates and by what factor asymptotically?",
+     "a": "Σk ~ n²/2, Σk² ~ n³/3, Σk³ ~ n⁴/4. The sum of cubes dominates, growing as n⁴ while sum of squares grows as n³ and sum of n grows as n². A student who says \"they all grow at the same rate because they're all polynomials\" fails to understand asymptotic dominance and the degree of the leading term.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims Σₖ₌₁ⁿ (k³ - k) = [n(n+1)/2]² - n(n+1)/2. Is this correct? If not, identify the error and give the correct simplified form.",
+     "a": "The claim is algebraically correct but not simplified. Σ(k³ - k) = Σk³ - Σk = [n(n+1)/2]² - n(n+1)/2 = n(n+1)/2 [n(n+1)/2 - 1] = n(n+1)(n²+n-2)/4 = n(n+1)(n+2)(n-1)/4. A student who leaves it unsimplified or writes Σ(k³ - k) = Σk³ - Σk³ = 0 reveals confusion between Σ(k³) - Σ(k) and Σ(k³ - k³).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) where the total cost involves Σk², and the answer is exactly 2870. Specify the cost per unit and the number of terms.",
+     "a": "Example: \"A contractor builds a step pyramid where the kth layer uses k² bricks. If each brick costs ₹2 and there are 20 layers, find the total cost.\" Σₖ₌₁²⁰ k² = 20×21×41/6 = 2870. Total cost = 2 × 2870 = ₹5740. Wait — the problem asks for answer 2870, so either cost per brick is ₹1 or the sum itself is the answer. Better: \"Find the total number of bricks in a 20-layer square pyramid where layer k has k² bricks.\" A poor answer gives n=10 (Σk²=385) or n=15 (Σk²=1240), showing inability to solve n(n+1)(2n+1)/6 = 2870 for n.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

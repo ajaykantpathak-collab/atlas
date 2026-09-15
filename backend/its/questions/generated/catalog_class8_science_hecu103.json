@@ -1,0 +1,115 @@
+{
+ "catalog": "catalog_class8_science_hecu103.json",
+ "concepts": [
+  {
+   "id": "hecu.103.3.1",
+   "title": "Health Beyond Not Falling Sick",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What does 'health' mean beyond not falling sick?",
+     "a": "Full physical, mental and social well-being - feeling fit, happy and getting along with others.",
+     "self_check": true
+    },
+    {
+     "q": "Name two things besides medicine that keep us healthy.",
+     "a": "Balanced food, clean water, exercise, rest and hygiene.",
+     "self_check": true
+    },
+    {
+     "q": "How does community health differ from personal health?",
+     "a": "Community health covers clean surroundings, safe water and disease control for all, not just one person.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.103.3.2",
+   "title": "How We Stay Healthy",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How does clean water protect health?",
+     "a": "It keeps water-borne diseases like cholera and typhoid away.",
+     "self_check": true
+    },
+    {
+     "q": "Why is exercise part of staying healthy?",
+     "a": "It keeps muscles, heart and lungs strong and helps the body fight illness.",
+     "self_check": true
+    },
+    {
+     "q": "Name two personal hygiene habits.",
+     "a": "Daily bathing and hand-washing before meals (also brushing teeth, trimmed nails).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.103.3.3",
+   "title": "Knowing We Are Unwell: Symptoms and Diagnosis",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a symptom?",
+     "a": "A sign of disease the patient feels or shows - fever, cough, rash, headache.",
+     "self_check": true
+    },
+    {
+     "q": "Why do doctors ask many questions before diagnosing?",
+     "a": "Symptoms point to causes; the pattern helps identify the disease and choose treatment.",
+     "self_check": true
+    },
+    {
+     "q": "Name two symptoms that suggest a stomach infection.",
+     "a": "Vomiting and loose motions (often with stomach ache and fever).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.103.3.4",
+   "title": "Diseases: Causes and Types",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How are diseases classified by how long they last?",
+     "a": "Acute diseases end quickly (cold, flu); chronic ones last long (TB, diabetes).",
+     "self_check": true
+    },
+    {
+     "q": "Give one example each of infectious and non-infectious disease.",
+     "a": "Infectious: malaria. Non-infectious: high blood pressure (or scurvy).",
+     "self_check": true
+    },
+    {
+     "q": "What causes infectious diseases?",
+     "a": "Germs - bacteria, viruses, fungi, protozoa - spreading through air, water, food or insect bites.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.103.3.5",
+   "title": "Prevention and Control of Diseases",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name two ways to prevent infectious diseases.",
+     "a": "Vaccination and keeping surroundings clean (safe water, hygiene, mosquito control).",
+     "self_check": true
+    },
+    {
+     "q": "How does a mosquito net or repellent protect health?",
+     "a": "It stops mosquitoes that carry malaria and dengue from biting.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we boil or filter drinking water?",
+     "a": "Boiling kills germs and filtering removes them, making water safe from water-borne disease.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

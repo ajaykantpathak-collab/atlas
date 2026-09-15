@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_05_008",
+   "title": "c12_chem_cbse_05_008",
+   "questions": [
+    {
+     "q": "A student writes the spin-only magnetic moment formula as μ = √[n(n+1)] BM. Is this correct? If not, write the correct formula and calculate μ for a d⁵ high-spin octahedral complex.",
+     "a": "The correct formula is μ = √[n(n+2)] BM, not √[n(n+1)]. For d⁵ high-spin octahedral (t₂g³ e_g²), n = 5 unpaired electrons. μ = √[5(7)] = √35 ≈ 5.92 BM. A student using √[n(n+1)] would get √30 ≈ 5.48 BM, underestimating the moment. This error reveals confusion with the total spin quantum number S = n/2 where μ = 2√[S(S+1)] = √[n(n+2)]; the student likely misremembered the algebraic simplification.",
+     "self_check": true
+    },
+    {
+     "q": "[Ti(H₂O)₆]³⁺ absorbs blue-green light (λ ≈ 498 nm) and appears violet. Explain why the complex is coloured while anhydrous TiCl₃ is colourless, using crystal field theory. What happens to the d-orbitals in the absence of ligands?",
+     "a": "In [Ti(H₂O)₆]³⁺ (d¹), octahedral crystal field splits the degenerate d-orbitals into t₂g (lower) and e_g (higher); the single electron occupies t₂g. Absorption of 498 nm light promotes it to e_g (d-d transition), and the transmitted light appears violet (complementary to blue-green). In anhydrous TiCl₃, there are no ligands to create an asymmetrical crystal field — the d-orbitals remain degenerate, so no d-d transition is possible and the substance is colourless. A wrong answer stating \"TiCl₃ has no d-electrons\" reveals ignorance that Ti³⁺ is d¹ regardless of ligands; the error is confusing oxidation state with coordination environment.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the spin-only magnetic moment (in BM) for [CoF₆]³⁻ and [Co(NH₃)₆]³⁺. Both are octahedral Co(III) d⁶ complexes. Use the spectrochemical series to justify the difference in the number of unpaired electrons.",
+     "a": "Spectrochemical series: F⁻ < H₂O < NH₃ < CN⁻. F⁻ is weak-field → high-spin d⁶: t₂g⁴ e_g² → n = 4 unpaired e⁻ → μ = √[4(6)] = √24 ≈ 4.90 BM. NH₃ is strong-field → low-spin d⁶: t₂g⁶ e_g⁰ → n = 0 → μ = 0 BM (diamagnetic). A student giving μ = 4.90 BM for both has ignored ligand field strength and assumed all Co(III) complexes are high-spin. A student giving μ = 0 for both has assumed all Co(III) are low-spin. Both errors show failure to apply the spectrochemical series to decide Δ₀ vs P.",
+     "self_check": true
+    },
+    {
+     "q": "A complex [NiCl₄]²⁻ is paramagnetic with μ ≈ 2.83 BM, while [Ni(CN)₄]²⁻ is diamagnetic. Both are Ni(II) d⁸. Predict the geometry of each complex and explain the magnetic difference using crystal field splitting diagrams.",
+     "a": "[NiCl₄]²⁻: Cl⁻ is weak-field, tetrahedral geometry (Δ_t small, pairing never favoured). d⁸ in tetrahedral: e⁴ t₂⁴ → two unpaired e⁻ → μ = √[2(4)] = √8 ≈ 2.83 BM. [Ni(CN)₄]²⁻: CN⁻ is strong-field, square planar geometry (large Δ_sp). d⁸ in square planar: dₓ²₋ᵧ² empty, all others filled → 0 unpaired e⁻ → diamagnetic. A student claiming both are tetrahedral cannot explain diamagnetism of [Ni(CN)₄]²⁻. A student claiming both are square planar cannot explain paramagnetism of [NiCl₄]²⁻. The error is not recognizing that ligand field strength dictates geometry for 4-coordinate d⁸: strong-field → square planar (dsp²), weak-field → tetrahedral (sp³).",
+     "self_check": true
+    },
+    {
+     "q": "The hexaaquamanganese(II) ion [Mn(H₂O)₆]²⁺ has five unpaired electrons, while [Mn(CN)₆]⁴⁻ has one unpaired electron. Both are octahedral Mn(II) d⁵. A student claims: \"Since CN⁻ is a stronger ligand, it increases Δ₀, so the electron jumps to a higher orbital, reducing unpaired electrons.\" Evaluate this statement and correct the reasoning.",
+     "a": "The statement is incorrect. In [Mn(H₂O)₆]²⁺ (weak-field, Δ₀ < P): high-spin t₂g³ e_g² → 5 unpaired e⁻. In [Mn(CN)₆]⁴⁻ (strong-field, Δ₀ > P): low-spin t₂g⁵ e_g⁰ → electrons pair in t₂g, leaving 1 unpaired e⁻. The student's error: \"electron jumps to a higher orbital\" describes absorption (d-d transition), not ground-state configuration. Strong-field ligands increase Δ₀, making it energetically favourable for electrons to PAIR in the lower t₂g set rather than occupy e_g. The number of unpaired electrons decreases because of pairing in t₂g, not because electrons jump up. This confusion between ground-state filling (Hund's rule vs pairing energy) and excited-state transitions is a classic JEE trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only aqueous solutions of [Co(H₂O)₆]²⁺ (pink), concentrated HCl, and a magnetic balance (Gouy balance) to demonstrate that [CoCl₄]²⁻ is tetrahedral and paramagnetic while [Co(H₂O)₆]²⁺ is octahedral and paramagnetic, but with different magnetic moments. Describe the observations and the underlying d-orbital splitting changes.",
+     "a": "Add conc. HCl to pink [Co(H₂O)₆]²⁺ (d⁷, octahedral, high-spin t₂g⁵ e_g², 3 unpaired e⁻, μ ≈ 3.87 BM). The solution turns blue due to formation of [CoCl₄]²⁻ (tetrahedral, d⁷ e⁴ t₂³, 3 unpaired e⁻, μ ≈ 4.4–4.8 BM due to orbital contribution). Gouy balance shows increased mass loss (higher μ) for blue solution. The colour change (pink → blue) occurs because Δ_t ≈ 4/9 Δ₀ shifts absorption from green (pink observed) to red (blue observed). A poor answer that only notes colour change without magnetic measurement or orbital splitting explanation misses the core competency: correlating geometry, magnetism, and colour via CFT.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_03_001",
+   "title": "c10_phy_cbse_03_001",
+   "questions": [
+    {
+     "q": "State the definition of calorific value of a fuel and write its SI unit.",
+     "a": "Calorific value is the amount of heat energy produced on complete combustion of 1 kg of a fuel. Its SI unit is joule per kilogram (J/kg). A wrong answer (e.g., giving unit as J/g or confusing it with specific heat capacity) reveals the student has not internalised the per-unit-mass basis or is mixing up thermal concepts from Class 9.",
+     "self_check": true
+    },
+    {
+     "q": "Why does coal have a lower calorific value than petroleum, even though both originate from organic matter?",
+     "a": "Coal forms mainly from plant material in swampy environments and retains more oxygen and mineral impurities (ash), while petroleum forms from marine microorganisms under high pressure and temperature, yielding a higher hydrogen-to-carbon ratio and fewer impurities, giving it a higher calorific value (~45 MJ/kg vs ~25 MJ/kg for coal). A wrong answer indicates the student thinks all fossil fuels have similar energy density or ignores the role of chemical composition.",
+     "self_check": true
+    },
+    {
+     "q": "A thermal power plant burns 500 kg of coal per minute. If the coal has a calorific value of 25,000 kJ/kg, calculate the heat energy released per minute in megajoules (MJ).",
+     "a": "Step 1: Identify given: mass m = 500 kg, calorific value CV = 25,000 kJ/kg = 25 MJ/kg.  \nStep 2: Formula: Heat energy Q = m × CV.  \nStep 3: Substitute: Q = 500 kg × 25 MJ/kg = 12,500 MJ.  \nStep 4: Units: kg × MJ/kg = MJ (correct).  \nStep 5: Answer: 12,500 MJ per minute.  \nA wrong answer (e.g., forgetting to convert kJ to MJ, or multiplying incorrectly) shows a unit-conversion or arithmetic error common in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the environmental impact of burning coal versus petroleum in terms of (a) CO₂ emissions per unit energy, (b) sulphur dioxide emissions, and (c) solid waste produced.",
+     "a": "(a) Coal emits more CO₂ per joule because of its lower calorific value and higher carbon content. (b) Coal typically contains more sulphur, so burning it releases more SO₂, causing acid rain; petroleum also releases SO₂ but modern refining reduces it. (c) Coal produces large amounts of ash (solid waste), while petroleum leaves negligible solid residue. A wrong answer that claims petroleum is cleaner in all aspects ignores the CO₂ intensity and refining emissions.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since petroleum has a higher calorific value than coal, it is always the better fuel for electricity generation.\" Evaluate this statement considering cost, availability, infrastructure, and environmental factors.",
+     "a": "The statement is not universally true. While petroleum has higher calorific value, coal is cheaper per unit energy, more abundant in India, and existing thermal plants are designed for coal. Petroleum is preferred for transport due to energy density and liquid handling. A good evaluation weighs multiple factors; a wrong answer focuses only on calorific value, showing a lack of systems thinking required for competency questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to compare the calorific values of two solid fuels (e.g., coal and wood) using a school laboratory setup. List the apparatus, measurements, and calculation steps.",
+     "a": "Apparatus: calorimeter (copper can), thermometer, stirrer, stand, known masses of fuels, water, ignition source.  \nProcedure: (1) Measure mass of water (m_w) and initial temperature (T_i). (2) Burn a known mass of fuel (m_f) under the calorimeter. (3) Record final temperature (T_f). (4) Calculate heat absorbed by water: Q = m_w × c_w × (T_f - T_i), where c_w = 4.18 J/g°C. (5) Calorific value = Q / m_f. Repeat for the other fuel.  \nA poor answer omits controlling heat losses, uses incorrect specific heat, or forgets to measure fuel mass, revealing weak experimental design skills.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

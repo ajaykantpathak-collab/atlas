@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_engl_ch5_1",
+ "concepts": [
+  {
+   "id": "enh:c8_engl_ch5_1",
+   "title": "c8_engl_ch5_1",
+   "questions": [
+    {
+     "q": "What are the two primary physical limitations of the space station setting in \"Feathered Friend\" that differ from a typical Earth setting?",
+     "a": "The two primary physical limitations are the lack of natural gravity (resulting in a low-gravity or zero-gravity environment) and the lack of a natural atmosphere (requiring artificial air-purifier systems to survive). \n\n*What a wrong answer reveals:* If a student suggests elements like \"high-tech lasers\" or \"aliens,\" they are recalling generic science fiction tropes rather than identifying the specific physical and environmental constraints of the space station setting that directly affect the characters' daily survival.",
+     "self_check": true
+    },
+    {
+     "q": "Explain how the space station setting in \"Feathered Friend\" makes keeping a pet canary both a practical challenge and a unique experience.",
+     "a": "The space station setting makes keeping a pet canary a challenge because space is highly restricted and official regulations forbid pets due to limited resources (like food and air). However, the low-gravity environment makes it a unique experience because it allows the canary to fly in effortless, slow-motion loops, hovering in the air without needing to flap its wings constantly as it would on Earth.\n\n*What a wrong answer reveals:* If the student only mentions that pets are not allowed, they fail to comprehend how the physical laws of the setting (low gravity) directly alter the bird's behavior and the crew's experience of observing it.",
+     "self_check": true
+    },
+    {
+     "q": "A crew member on the space station wants to pour a cup of hot tea from a kettle into a mug. Apply your understanding of the space station's physical setting to explain why this simple task cannot be done normally, and describe how they must adapt.",
+     "a": "1. **Identify the setting constraint:** The setting is a low-gravity/zero-gravity environment.\n2. **Determine the physical effect:** Liquid will not pour downward because gravity is not pulling it down; instead, it would form floating spheres or cling to the kettle.\n3. **Formulate the adaptation:** To drink tea, the crew member cannot use an open mug. They must use a sealed container with a squeeze mechanism or a straw to keep the liquid contained and direct it into their mouth.\n\n*What a wrong answer reveals:* If the student says the tea simply spills on the table, they are incorrectly applying Earth's gravitational rules to a space station setting, showing a failure to apply the concept of zero-gravity physics.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the author uses the setting's mechanical nature (reliance on air purifiers and sensors) to build suspense and drive the climax of the story.",
+     "a": "The setting's absolute reliance on artificial systems creates a vulnerability where the characters are entirely dependent on machines to breathe. The author builds suspense by showing that these highly advanced, expensive electronic sensors fail to detect a slow drop in oxygen levels. This setting constraint drives the climax because it forces the crew to rely on the natural, low-tech instincts of a canary (Claribel) to realize they are suffocating, highlighting the irony that human survival in a highly advanced artificial environment still depends on nature.\n\n*What a wrong answer reveals:* If the student says the climax is exciting just because the bird fainted, they fail to analyze the relationship between the mechanical setting (the failing purifiers/sensors) and the plot's resolution.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"The story 'Feathered Friend' would lose its core meaning if it were rewritten to take place in a deep underground research bunker on Earth.\" Do you agree or disagree? Justify your stance using details of the setting.",
+     "a": "I agree with the statement. While an underground bunker is isolated and relies on artificial air, it still has normal Earth gravity. The unique zero-gravity setting of the space station is crucial because it allows Claribel the canary to perform low-gravity acrobatics, which is what first endears her to the crew and makes her presence joyful. Furthermore, the extreme isolation of space—where help is thousands of miles away—amplifies the psychological need for a natural companion like a bird, making the space setting far more critical to the emotional core of the story than an underground Earth setting.\n\n*What a wrong answer reveals:* If the student simply agrees or disagrees without contrasting the specific environmental differences (like gravity and extreme spatial isolation), they are not evaluating how setting elements directly construct the story's deeper themes.",
+     "self_check": true
+    },
+    {
+     "q": "Create a brief descriptive passage (4-5 sentences) of a crew member looking out of the space station's observation window. Your description must highlight at least one sensory detail of the station's interior and contrast it with the view of space outside.",
+     "a": "**Expected response criteria:**\n1. Mentions an interior sensory detail (e.g., the hum of air recyclers, metallic walls, floating strap-handles).\n2. Contrasts it with the external view of space (e.g., the silent, infinite darkness, the glowing curve of the Earth).\n3. Demonstrates an understanding of the station's artificial nature versus natural space.\n\n*Example of a high-quality response:* \n\"Leaning against the cold metal frame of the observation portal, Ravi held onto a nylon strap to keep his boots from drifting off the floor plates. Inside, the quiet, rhythmic hum of the oxygen recyclers was the only sound reminding him of survival. Outside the thick glass, however, there was only absolute, breathtaking silence. The brilliant blue curve of the Earth hung suspended in a sea of ink-black space, looking so close yet entirely unreachable.\"\n\n*What a poor answer reveals:* If the passage reads like a standard Earth window view (e.g., \"he looked out and saw stars while sitting on a chair\"), it shows the student is not successfully generating a creative description aligned with the physical constraints of a space station.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

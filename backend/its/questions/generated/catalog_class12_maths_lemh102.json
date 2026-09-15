@@ -1,0 +1,447 @@
+{
+ "catalog": "catalog_class12_maths_lemh102.json",
+ "concepts": [
+  {
+   "id": "lemh.102.2.1",
+   "title": "Domain Restriction for Invertibility",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 4 gives 4",
+     "compute": "count = 4"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A set has 4 elements. How many elements are in its identity relation (a, a) for every element?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "A set with 4 elements: how many pairs are in the full universal relation A x A?",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "How many pairs are in the empty relation on any set?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "A reflexive relation on a set of 5 elements must contain at least how many pairs?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Set A = {3}. How many elements does the singleton set A have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many elements are in the empty set (its cardinality)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.102.2.2",
+   "title": "Principal Value Branch of sin Inverse",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 4 / 2 gives 2",
+     "compute": "t1 = 4 / 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Write the ratio 4 : 14 in its simplest form and give the first term of the simplest form.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Rs 1100 is divided between two friends in the ratio 4 : 7. Find the smaller share.",
+     "a": "400",
+     "self_check": false
+    },
+    {
+     "q": "Rs 180 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "90",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 8 : 7 = 16 : ?  (give the fourth term).",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 8 : 7 :: 16 : 14 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 4 notebooks cost Rs 100, what will 6 notebooks cost at the same rate (direct proportion)?",
+     "a": "150",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.102.2.3",
+   "title": "Principal Branch of cos Inverse",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 16 / 8 gives 2",
+     "compute": "t1 = 16 / 8"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Write the ratio 16 : 56 in its simplest form and give the first term of the simplest form.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Rs 640 is divided between two friends in the ratio 2 : 6. Find the smaller share.",
+     "a": "160",
+     "self_check": false
+    },
+    {
+     "q": "Rs 300 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "150",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 6 : 3 = 24 : ?  (give the fourth term).",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 6 : 3 :: 24 : 12 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 2 notebooks cost Rs 120, what will 15 notebooks cost at the same rate (direct proportion)?",
+     "a": "900",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.102.2.4",
+   "title": "Principal Branches of tan Inverse and cot Inverse",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 18 / 6 gives 3",
+     "compute": "t1 = 18 / 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Write the ratio 18 : 42 in its simplest form and give the first term of the simplest form.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Rs 720 is divided between two friends in the ratio 5 : 7. Find the smaller share.",
+     "a": "300",
+     "self_check": false
+    },
+    {
+     "q": "Rs 480 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "240",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 7 : 9 = 21 : ?  (give the fourth term).",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 7 : 9 :: 21 : 27 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 2 notebooks cost Rs 80, what will 8 notebooks cost at the same rate (direct proportion)?",
+     "a": "320",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.102.2.5",
+   "title": "Principal Branches of sec Inverse and cosec Inverse",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 9 / 3 gives 3",
+     "compute": "t1 = 9 / 3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Write the ratio 9 : 27 in its simplest form and give the first term of the simplest form.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Rs 900 is divided between two friends in the ratio 1 : 8. Find the smaller share.",
+     "a": "100",
+     "self_check": false
+    },
+    {
+     "q": "Rs 600 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "300",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 8 : 8 = 24 : ?  (give the fourth term).",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 8 : 8 :: 24 : 24 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 4 notebooks cost Rs 100, what will 20 notebooks cost at the same rate (direct proportion)?",
+     "a": "500",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.102.2.6",
+   "title": "Principal Value Evaluation",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the ratio of the relevant sides",
+     "explain": "take the ratio of the relevant sides: s = 12 / 20 gives 0.6",
+     "compute": "s = 12 / 20"
+    }
+   ],
+   "questions": [
+    {
+     "q": "In a right triangle the sides adjacent to the right angle are 12 and 16, and the hypotenuse is 20. Find sin of the angle opposite the side 12. (give the fraction)",
+     "a": "3/5",
+     "self_check": false
+    },
+    {
+     "q": "For the same triangle (legs 12 and 16, hypotenuse 20), find cos of the angle opposite the side 16. (give the fraction)",
+     "a": "4/5",
+     "self_check": false
+    },
+    {
+     "q": "For a right triangle with legs 12 and 16 and hypotenuse 20, find tan of the angle opposite the side 12. (give the fraction)",
+     "a": "3/4",
+     "self_check": false
+    },
+    {
+     "q": "If sin(A) = 12/20, find cosec(A). (give the fraction)",
+     "a": "5/3",
+     "self_check": false
+    },
+    {
+     "q": "If cos(A) = 16/20, find sec(A). (give the fraction)",
+     "a": "5/4",
+     "self_check": false
+    },
+    {
+     "q": "Given sin(A) = 12/20 and cos(A) = 16/20, find tan(A). (give the fraction)",
+     "a": "3/4",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.102.3.1",
+   "title": "Inverse Composition Property",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 6 / 2 gives 3",
+     "compute": "t1 = 6 / 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Write the ratio 6 : 16 in its simplest form and give the first term of the simplest form.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Rs 280 is divided between two friends in the ratio 1 : 6. Find the smaller share.",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "Rs 240 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "120",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 7 : 9 = 35 : ?  (give the fourth term).",
+     "a": "45",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 7 : 9 :: 35 : 45 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 5 notebooks cost Rs 80, what will 12 notebooks cost at the same rate (direct proportion)?",
+     "a": "192",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.102.3.2",
+   "title": "Inverse Symbol versus Reciprocal",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 10 / 10 gives 1",
+     "compute": "t1 = 10 / 10"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Write the ratio 10 : 70 in its simplest form and give the first term of the simplest form.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Rs 800 is divided between two friends in the ratio 3 : 7. Find the smaller share.",
+     "a": "240",
+     "self_check": false
+    },
+    {
+     "q": "Rs 120 is split in the ratio 1 : 2 : 3. Find the largest share.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "Find the missing term: 6 : 3 = 30 : ?  (give the fourth term).",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "Check the proportion 6 : 3 :: 30 : 15 by computing the cross products and give the value of ad - bc.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "If 4 notebooks cost Rs 80, what will 6 notebooks cost at the same rate (direct proportion)?",
+     "a": "120",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.102.3.3",
+   "title": "Simplest Form by Substitution",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "State the principal value (in degrees) of the sin inverse of 1 (in degrees).",
+     "a": "90",
+     "self_check": false
+    },
+    {
+     "q": "State the principal value (in degrees) of the sin inverse of 1/2 (in degrees).",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "State the principal value (in degrees) of the cos inverse of 0 (in degrees).",
+     "a": "90",
+     "self_check": false
+    },
+    {
+     "q": "State the principal value (in degrees) of the cos inverse of 1/2 (in degrees).",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "State the principal value (in degrees) of the tan inverse of 1 (in degrees).",
+     "a": "45",
+     "self_check": false
+    },
+    {
+     "q": "State the principal value (in degrees) of the tan inverse of sqrt(3) (in degrees).",
+     "a": "60",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.102.3.4",
+   "title": "Reducing Angles to the Principal Branch",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 38 gives 52",
+     "compute": "other = 90 - 38"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 38 degrees, find the other.",
+     "a": "52",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 80 degrees, find the other.",
+     "a": "100",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 16 degrees; find the other.",
+     "a": "164",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 48 degrees and 201 degrees, find the remaining angle.",
+     "a": "111",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 25 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "155",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 67 degrees. Find its co-interior partner.",
+     "a": "113",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_10_007",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_10_007",
+   "title": "c12_ps_cbse_10_007",
+   "questions": [
+    {
+     "q": "What were the three main legislative components of land reforms initiated during the First Five Year Plan period?",
+     "a": "The three main components were: (1) **Abolition of intermediaries** (zamindars, jagirdars, inamdars) to establish direct state-cultivator link; (2) **Tenancy reforms** covering security of tenure, regulation of rent (typically 1/4 to 1/6 of produce), and conferment of ownership rights on tenants; (3) **Ceiling laws** imposing a maximum limit on land a family could hold, with surplus land to be redistributed to landless/marginal farmers. A wrong answer listing only \"redistribution of land\" or \"giving land to the poor\" reveals a conflation of *outcome* with *legal mechanism* and misses the sequential logic: you must first remove the intermediary before the tenant can claim ownership, and only then does a ceiling on the new owner's holding make sense.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the First Five Year Plan identify the \"pattern of land distribution\" as the *principal obstacle* to agricultural growth, rather than lack of technology or credit?",
+     "a": "The Plan's rationale was *incentive-based*: when land is concentrated in the hands of non-cultivating intermediaries (zamindars), the actual tiller has no security of tenure and no incentive to invest in land improvement (wells, bunds, better seeds). The intermediary extracts surplus via rent without investing in productivity. Redistributing land to the tiller aligns ownership with cultivation, creating the *micro-incentive* for productivity-enhancing investment. A wrong answer focusing solely on \"poverty alleviation\" or \"social justice\" misses the *economic growth* argument explicit in the Plan: equity and efficiency were argued to be complementary, not competing, at this stage.",
+     "self_check": true
+    },
+    {
+     "q": "A state government passes a tenancy reform law granting ownership rights to tenants after 12 years of continuous cultivation. Landlords respond by evicting tenants en masse before the 12-year period elapses, converting tenancy into sharecropping or wage labor. Which constitutional provision empowers the state to enact such a law, and which level of government is responsible for its implementation?",
+     "a": "**Constitutional basis:** Article 39(b) and (c) (Directive Principles of State Policy) direct the state to ensure that ownership and control of material resources serve the common good and prevent concentration of wealth. **Implementation level:** Land reform is a **State List subject (Entry 18, List II)** under the Seventh Schedule. Therefore, the *state legislature* enacts the law, and the *state administration* (revenue department, land tribunals) implements it. A wrong answer citing the Union List or Fundamental Rights (Articles 14, 19, 31) reveals two critical errors: (a) confusion about federal division of powers — land reforms are *not* a central subject; (b) misunderstanding that Directive Principles are non-justiciable (Article 37), so courts cannot *compel* implementation, only review procedural validity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the implementation of land reforms in West Bengal (Operation Barga, 1978 onward) and Bihar (post-1950s zamindari abolition). Both states had similar tenancy and ceiling laws on paper. Why did West Bengal achieve significant tenancy registration and surplus redistribution while Bihar saw minimal ceiling surplus distribution and widespread \"benami\" transfers?",
+     "a": "The divergence stems from **political sociology of state power**, not legal text. West Bengal: The Left Front government (1977 onward) combined *political will* with *party cadre mobilization* (CPI(M) karyakartas) to register sharecroppers (bargadars) via Operation Barga, backed by empowered Panchayats (c11_ps_cbse_17_003). Bihar: Dominant upper-caste landlords (Bhumihars, Rajputs) controlled the Congress party and state bureaucracy; they used legal delays, benami (fictitious) transfers to relatives/servants, and \"voluntary surrender\" deeds to evade ceilings. No countervailing peasant mobilization existed. A wrong answer attributing it to \"corruption\" or \"illiteracy\" misses the *structural* explanation: land reform success requires a *coalition* of political party + peasant organization + bureaucratic accountability — absent in Bihar due to caste-class alignment of the ruling elite.",
+     "self_check": true
+    },
+    {
+     "q": "\"Land reforms in India failed because they were designed by the elite for the elite.\" Evaluate this statement with specific reference to the design of ceiling laws and the phenomenon of benami transfers.",
+     "a": "The statement is **partially valid but analytically incomplete**. **Valid:** Ceiling laws had *high limits* (e.g., 27–54 acres for irrigated land, higher for dry), *exemptions* for plantations, orchards, religious trusts, and *family-based* (not individual) ceilings allowing fragmentation among sons. Laws were enacted *after* a 5–10 year lag (First Plan 1951, ceiling laws mostly 1960s), giving elites time for **benami transfers** — registering surplus land in names of farm servants, distant relatives, or fictitious persons. **Incomplete:** Abolition of intermediaries *did* transfer ownership to ~20 million former tenants (mainly in UP, Bihar, MP, Bengal), creating a new class of peasant proprietors. Tenancy reforms gave security in Kerala, West Bengal, J&K. The \"failure\" is better described as **incomplete bourgeois transformation**: the landlord class adapted, not vanished. A wrong answer claiming \"total failure\" ignores the *political economy* of compromise: the Nehruvian state needed landlord support for industrialization (c12_ps_cbse_10_003), so reforms were calibrated to not alienate the dominant rural elite entirely.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a concise proposal (4–5 bullet points) for a \"Second Generation Land Reform\" addressing three specific gaps of the first generation: (a) gender-blind land titles, (b) informal/reverse tenancy in the Green Revolution belt, (c) fragmentation of holdings. Justify each point with a limitation of the 1950s–70s laws.",
+     "a": "A strong proposal would include:  \n1. **Mandatory joint titling** for all future land allocations and mutations — *justification*: First-generation laws vested titles solely in the male household head, excluding women from ownership and credit access (c11_ps_cbse_11_004: Right against discrimination).  \n2. **Legalize tenancy with model lease law** (like NITI Aayog's 2016 Model Agricultural Land Leasing Act) — *justification*: Original tenancy laws drove tenancy underground; today reverse tenancy (small farmers leasing to large capitalist farmers) is informal, denying tenants security and access to crop insurance/bank credit.  \n3. **Voluntary land consolidation** via cooperative pooling or land banks — *justification*: Ceiling laws + inheritance fragmentation created uneconomic holdings; consolidation was attempted in Punjab/Haryana but not in eastern states.  \n4. **Digital land records with gender-disaggregated data** — *justification*: Outdated records (last updated 1970s in many states) hide benami holdings and women's names.  \n5. **Statutory recognition of women as \"farmers\"** for credit/subsidy eligibility — *justification*: Current definitions tie \"farmer\" to land title, excluding women cultivators. A poor proposal merely repeats \"give more land to the poor\" without addressing *legal-administrative* bottlenecks.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

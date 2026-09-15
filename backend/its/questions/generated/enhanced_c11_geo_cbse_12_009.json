@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_12_009",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_12_009",
+   "title": "c11_geo_cbse_12_009",
+   "questions": [
+    {
+     "q": "Define sheet erosion and state the Indian physiographic region where it is most pervasive due to the combination of steep slopes and high rainfall intensity.",
+     "a": "Sheet erosion is the relatively uniform removal of a thin layer of topsoil by overland flow (rainfall runoff moving as a thin sheet). It is most pervasive in the Himalayan foothills (Shivaliks) and the Western Ghats where steep slopes and intense monsoon rainfall combine to generate high-velocity overland flow. A wrong answer that describes sheet erosion as \"formation of small channels\" confuses it with rill erosion, indicating the student has not grasped the distinction between unchannelized and channelized flow.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why rill erosion inevitably follows sheet erosion on a bare, sloping agricultural field during a prolonged rainstorm, using the concepts of flow concentration and soil detachability.",
+     "a": "Sheet erosion creates microscopic irregularities on the soil surface; overland flow converges into these depressions due to gravity, increasing flow depth and velocity. This concentrated flow exceeds the critical shear stress required to detach soil particles, initiating tiny channels (rills). Rills are thus the incipient stage of channelized flow. If a student claims rills form independently of sheet erosion, they miss the fundamental geomorphic principle that erosion is a continuum from diffuse to concentrated flow.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in the Chambal ravines (Madhya Pradesh) observes a gully network covering 2 hectares with an average cross-sectional area of 2.5 m² and total gully length of 600 m. The bulk density of the alluvial soil is 1.35 g/cm³. Calculate the total volume of soil lost (in m³) and the mass loss (in tonnes).",
+     "a": "Step 1: Volume = cross-sectional area × total length = 2.5 m² × 600 m = 1500 m³. Step 2: Convert bulk density: 1.35 g/cm³ = 1350 kg/m³. Step 3: Mass = volume × density = 1500 m³ × 1350 kg/m³ = 2,025,000 kg = 2025 tonnes. A student who forgets to convert g/cm³ to kg/m³ (or uses 1.35 kg/m³) will get an answer 1000 times too small, revealing a lack of unit awareness critical for quantitative geography.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effectiveness of contour bunding versus bench terracing for controlling gully erosion on a 20% slope in the Nilgiri Hills (Western Ghats). Which method addresses the root cause of excessive runoff velocity more sustainably, and why?",
+     "a": "Contour bunding reduces slope length and slows runoff but is structurally inadequate on slopes >10% because bunds breach under high hydrostatic pressure. Bench terracing converts the steep slope into a series of level platforms separated by vertical risers, drastically reducing both slope gradient and length, thereby lowering runoff velocity below the erosive threshold. Terracing directly modifies the topographic factor (LS in USLE) and is sustainable for steep slopes if risers are vegetated. A student choosing contour bunding ignores the slope-threshold concept and the mechanics of structural failure.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Large-scale afforestation of the Shivalik Hills alone will solve the region's severe gully erosion problem.\" Evaluate this claim considering ecological succession, socio-economic pressures, and the stage of erosion.",
+     "a": "Afforestation is necessary but insufficient alone because: (1) Active gullies have near-vertical walls where tree roots cannot establish without prior slope stabilization (check dams, reshaping); (2) Local communities depend on these lands for grazing and fuelwood; without participatory management (Joint Forest Management), saplings are browsed or cut; (3) Ecological succession takes decades, while gullies expand annually during monsoons. A sound critique integrates the need for mechanical structures (check dams, gully plugging) in the first 5-10 years, coupled with silvipasture and community usufruct rights. A weak answer treats afforestation as a purely technical fix.",
+     "self_check": true
+    },
+    {
+     "q": "Design a soil conservation plan for a 4-hectare farm in the Deccan Plateau (Vertisol/black soil region) with a 6% slope experiencing sheet and rill erosion under cotton cultivation. Specify three complementary measures (one agronomic, one mechanical, one vegetative) with justification linked to black soil properties.",
+     "a": "Plan: (1) Agronomic: Contour cultivation with strip cropping (alternating cotton and pigeon pea) — utilizes black soil's high moisture retention to support intercrops, while strips impede rill development. (2) Mechanical: Graded contour bunds at 30-40 m horizontal interval — black soil's low infiltration when wet generates high runoff; bunds safely dispose excess water via grassed waterways. (3) Vegetative: Vetiver grass hedges on bunds and field boundaries — deep roots penetrate shrink-swell cracks, binding soil and preventing piping failure. Justification: Black soils crack deeply in summer; bunds must be stabilized with vegetation to avoid collapse. Strip cropping maintains organic matter, reducing erodibility (K factor). A poor answer lists generic measures without addressing black soil's unique shrink-swell behavior and low permeability when saturated.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

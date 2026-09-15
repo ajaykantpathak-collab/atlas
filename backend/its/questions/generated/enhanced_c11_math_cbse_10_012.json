@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_10_012",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_10_012",
+   "title": "c11_math_cbse_10_012",
+   "questions": [
+    {
+     "q": "What is the intercept form of a straight line, and what do the parameters \\(a\\) and \\(b\\) represent geometrically?",
+     "a": "The intercept form is \\(\\frac{x}{a} + \\frac{y}{b} = 1\\), where \\(a\\) is the x-intercept (the x-coordinate where the line crosses the x-axis, so the point is \\((a,0)\\)) and \\(b\\) is the y-intercept (the y-coordinate where the line crosses the y-axis, so the point is \\((0,b)\\)). Both \\(a\\) and \\(b\\) must be non-zero. A wrong answer where the student writes \\(ax + by = 1\\) or swaps \\(a\\) and \\(b\\) reveals confusion between intercept form and general form, or misunderstanding that the intercepts appear in the denominator, not as coefficients.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that the line \\(3x - 4y = 12\\) has x-intercept 3 and y-intercept -4 because the coefficients are 3 and -4. Explain why this reasoning is incorrect and find the actual intercepts.",
+     "a": "The student incorrectly assumes the general form \\(Ax + By = C\\) gives intercepts directly as \\(A\\) and \\(B\\). To find intercepts, we must convert to intercept form: divide both sides by 12 to get \\(\\frac{3x}{12} - \\frac{4y}{12} = 1\\), which simplifies to \\(\\frac{x}{4} + \\frac{y}{-3} = 1\\). Thus x-intercept = 4, y-intercept = -3. The error reveals the misconception that coefficients in general form equal intercepts, ignoring the need to normalize the constant term to 1.",
+     "self_check": true
+    },
+    {
+     "q": "Find the equation of the line that makes intercepts 5 and -3 on the x-axis and y-axis respectively. Then find the area of the triangle formed by this line with the coordinate axes.",
+     "a": "Given \\(a = 5\\), \\(b = -3\\). Using intercept form: \\(\\frac{x}{5} + \\frac{y}{-3} = 1\\). Multiply by 15: \\(3x - 5y = 15\\). The triangle vertices are \\((0,0)\\), \\((5,0)\\), \\((0,-3)\\). Area = \\(\\frac{1}{2} \\times |5| \\times |-3| = 7.5\\) square units. A wrong answer of 15 (forgetting the 1/2) or -7.5 (not taking absolute value) reveals computational errors in area formula or sign handling.",
+     "self_check": true
+    },
+    {
+     "q": "The line \\(\\frac{x}{a} + \\frac{y}{b} = 1\\) passes through the point \\((2,3)\\) and the sum of its intercepts is 10. Find the possible equations of the line.",
+     "a": "Given: \\(\\frac{2}{a} + \\frac{3}{b} = 1\\) and \\(a + b = 10\\). Substitute \\(b = 10 - a\\): \\(\\frac{2}{a} + \\frac{3}{10-a} = 1\\). Multiply by \\(a(10-a)\\): \\(2(10-a) + 3a = a(10-a)\\). Simplify: \\(20 - 2a + 3a = 10a - a^2\\) → \\(a^2 - 9a + 20 = 0\\) → \\((a-4)(a-5)=0\\). So \\(a=4, b=6\\) or \\(a=5, b=5\\). Equations: \\(\\frac{x}{4} + \\frac{y}{6} = 1\\) (or \\(3x+2y=12\\)) and \\(\\frac{x}{5} + \\frac{y}{5} = 1\\) (or \\(x+y=5\\)). Wrong answers often miss one solution or make algebraic errors in clearing denominators.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves for the intercepts of the line \\(2x + 3y = 6\\) by setting \\(x=0\\) to get \\(y=2\\) and \\(y=0\\) to get \\(x=3\\), then writes the intercept form as \\(\\frac{x}{2} + \\frac{y}{3} = 1\\). Evaluate this solution.",
+     "a": "The student correctly found intercepts \\((3,0)\\) and \\((0,2)\\) but incorrectly wrote the intercept form. The intercept form uses the intercept values in the denominator: x-intercept is 3, so denominator under x is 3; y-intercept is 2, so denominator under y is 2. Correct form: \\(\\frac{x}{3} + \\frac{y}{2} = 1\\). The student swapped the intercept values, revealing confusion between the coordinate values and their placement in the formula.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem where the intercept form of a line is the most natural way to model the situation, and explain why other forms (point-slope, slope-intercept) would be less convenient.",
+     "a": "Example: A factory produces two products A and B. Each unit of A requires 2 hours of machine time and 3 hours of labour. Each unit of B requires 4 hours of machine time and 1 hour of labour. The factory has 24 hours of machine time and 12 hours of labour available daily. If \\(x\\) units of A and \\(y\\) units of B are produced, the constraints are \\(2x + 4y = 24\\) (machine) and \\(3x + y = 12\\) (labour). The intercept form \\(\\frac{x}{12} + \\frac{y}{6} = 1\\) and \\(\\frac{x}{4} + \\frac{y}{12} = 1\\) immediately shows maximum possible production of each product alone (when other is zero). Other forms would require extra steps to find these boundary values. A poor answer gives a generic \"graphing\" problem without justifying why intercept form is uniquely suited.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

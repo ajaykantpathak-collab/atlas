@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_19_009",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_19_009",
+   "title": "c12_geo_cbse_19_009",
+   "questions": [
+    {
+     "q": "What is the range of Karl Pearson's Coefficient of Correlation (r) and what do the extreme values signify?",
+     "a": "Correct answer: r lies between -1 and +1 inclusive. r = +1 indicates perfect positive linear relationship (as one variable increases, the other increases proportionally). r = -1 indicates perfect negative linear relationship (as one increases, the other decreases proportionally). r = 0 means no linear correlation. A wrong answer (e.g., \"0 to 1\" or \"r = 0 means no relationship at all\") reveals confusion with coefficient of determination or misunderstanding that r only captures linear association, not non-linear patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we divide the sum of cross-products of deviations by the product of standard deviations in Pearson's formula?",
+     "a": "Correct answer: The numerator Σ(x - X̄)(y - Ȳ) measures covariance (joint variability), but its magnitude depends on the units and scales of X and Y. Dividing by σₓσᵧ (or √[Σ(x - X̄)² Σ(y - Ȳ)²]) standardizes the measure, making it unit-free and bounded between -1 and +1, allowing comparison across different geographical datasets (e.g., rainfall-yield vs. altitude-temperature). A wrong answer like \"to make the formula look symmetric\" or \"to get a percentage\" shows lack of understanding of standardization and dimensional analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Given paired data for 5 districts: Fertilizer use (kg/ha): 50, 60, 70, 80, 90; Wheat yield (quintals/ha): 20, 22, 25, 28, 30. Compute r using the direct method. Show steps.",
+     "a": "Step 1: X̄ = 70, Ȳ = 25. Step 2: Deviations dx = -20, -10, 0, 10, 20; dy = -5, -3, 0, 3, 5. Step 3: Σdx dy = (-20)(-5)+(-10)(-3)+(0)(0)+(10)(3)+(20)(5) = 100+30+0+30+100 = 260. Step 4: Σdx² = 400+100+0+100+400 = 1000. Σdy² = 25+9+0+9+25 = 68. Step 5: r = 260 / √(1000 × 68) = 260 / √68000 = 260 / 260.77 ≈ 0.997. Strong positive correlation. Wrong answer (e.g., r = 1.2 or negative) reveals arithmetic errors in deviations, sign mistakes in cross-products, or forgetting square root.",
+     "self_check": true
+    },
+    {
+     "q": "A student computes r = 0.85 between \"Number of hospitals in a district\" and \"Literacy rate (%)\" across 20 districts and concludes \"Building more hospitals increases literacy.\" Analyze this reasoning.",
+     "a": "Correct analysis: Correlation ≠ causation. r = 0.85 shows strong positive linear association, but the direction of causality is not established. Both variables may be driven by a third factor (e.g., economic development, urbanization). The student commits the post hoc ergo propter hoc fallacy. A wrong answer accepting the conclusion reveals confusion between statistical association and causal mechanism, a critical error in geographical interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether Karl Pearson's r is appropriate for analyzing the relationship between \"Soil type (categorical: alluvial, black, red, laterite)\" and \"Cropping intensity (continuous, %)\".",
+     "a": "Correct evaluation: Pearson's r is NOT appropriate because soil type is a nominal categorical variable, not continuous. Pearson's r requires both variables to be continuous (interval/ratio scale) and linearly related. Suitable alternatives: ANOVA (comparing mean cropping intensity across soil types) or correlation ratio (η). A wrong answer saying \"yes, if we code soil types as 1,2,3,4\" reveals misunderstanding that arbitrary coding imposes false ordinal/interval properties and can produce spurious correlation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a geographical study using Pearson's r to investigate a hypothesis about any two continuous variables in your local region. Specify variables, data source, expected sign of r, and one limitation.",
+     "a": "Good answer example: Hypothesis: \"Groundwater depth increases with distance from river channel in the Ganga floodplain.\" Variables: X = distance from river (m), Y = depth to water table (m). Data: 30 wells measured in March (pre-monsoon). Expected r: positive (further from river → deeper water table). Limitation: Confounding by pumping intensity, lithology variations; r only captures linear trend, may miss threshold effects. Poor answer: vague variables, no data source, ignores scale/confounders, treats r as proof.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

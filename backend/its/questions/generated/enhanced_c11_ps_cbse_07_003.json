@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_07_003",
+   "title": "c11_ps_cbse_07_003",
+   "questions": [
+    {
+     "q": "Define civic nationalism and ethnic nationalism in one sentence each, highlighting the core basis of membership for each.",
+     "a": "Civic nationalism bases national membership on shared political values (democracy, constitutional loyalty, rule of law) and legal citizenship, open to anyone who accepts these principles. Ethnic nationalism bases membership on common descent, language, religion, and cultural heritage, treating the nation as an extended kinship group. A wrong answer that swaps the bases (e.g., saying civic nationalism is about common language) reveals the student has memorised labels without grasping the fundamental distinction between voluntary political association and ascribed cultural identity.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the NCERT textbook argue that democracies should emphasise loyalty to a set of values enshrined in the Constitution rather than adherence to a particular religion, race, or language? Explain using the two reasons given in the text.",
+     "a": "The text gives two reasons: (1) All major religions are internally diverse with multiple sects; imposing a single religious identity creates an authoritative, oppressive society that suppresses internal dissent. (2) Most societies are culturally diverse; imposing a single linguistic or religious identity as a condition of state membership necessarily excludes minorities, restricting their religious liberty or disadvantaging non-speakers, thereby violating the democratic ideal of equal treatment and liberty for all. A wrong answer that only mentions \"unity in diversity\" without explaining the mechanism of exclusion and oppression shows superficial reading without analytical comprehension.",
+     "self_check": true
+    },
+    {
+     "q": "The Citizenship (Amendment) Act, 2019 provides a fast-track path to citizenship for non-Muslim migrants from three neighbouring countries. Analyse whether this law aligns more with civic nationalism or ethnic nationalism, using the membership criteria of each.",
+     "a": "The CAA 2019 introduces religion as a criterion for citizenship eligibility, privileging non-Muslim migrants (Hindus, Sikhs, Buddhists, Jains, Parsis, Christians) from Afghanistan, Bangladesh, and Pakistan. This aligns with ethnic nationalism because it treats the nation as a cultural community defined by religious identity (specifically, Indic religions) and uses descent/origin from a cultural-religious sphere as the basis for inclusion. Civic nationalism would require religion-neutral criteria (e.g., persecution-based asylum regardless of faith). A student who argues it is civic because it helps \"persecuted minorities\" misses that the classification itself is religious, not political, and thus excludes Muslim persecuted groups (e.g., Ahmadis, Rohingyas), violating the civic principle of equal treatment.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Basque nationalist movement (described in the NCERT box) and the Indian nationalist movement led by the Congress. Identify two key similarities and two key differences in their basis of nationhood claims.",
+     "a": "Similarities: Both claim a distinct historical identity (Basque autonomy since Roman times; Indian civilisational continuity) and a specific territory (Basque region; Indian subcontinent) as the homeland. Differences: Basque nationalism emphasises unique language (Euskara), distinct legal/administrative traditions, and cultural difference from Spain — an ethnic/cultural basis. The Congress-led Indian nationalism explicitly embraced linguistic and religious diversity, defining the nation through shared political ideals (democracy, secularism, anti-colonialism) — a civic basis. The Basque demand is for separate statehood (secession); the Indian demand was for a unified, pluralistic state. A wrong answer that labels both as purely \"ethnic\" ignores the Congress's deliberate rejection of religious/linguistic homogeneity (e.g., 1929 Lahore session's pledge for complete independence without religious qualification).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Civic nationalism is inherently more stable and peaceful than ethnic nationalism.\" Use the NCERT's discussion of the post-WWI Treaty of Versailles and the Indian Constitution's minority protections to support your judgment.",
+     "a": "The statement is largely supported but with nuances. The Treaty of Versailles attempted to implement \"one culture-one state\" (ethnic principle), leading to mass population transfers, minority oppression, and instability — showing ethnic nationalism's destabilising consequences. The Indian Constitution adopted civic nationalism (citizenship, fundamental rights, minority cultural/educational rights under Articles 29-30) enabling diverse groups to coexist without secessionist pressures — demonstrating civic nationalism's capacity for stable pluralism. However, civic nationalism can also face challenges if the political contract is perceived as illegitimate (e.g., Quebec in Canada). A student who claims civic nationalism is \"always\" stable ignores the need for continuous democratic delivery; one who claims ethnic nationalism is \"always\" violent overlooks peaceful cultural autonomy movements (e.g., Wales in UK).",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph preamble for a hypothetical new nation-state that explicitly adopts civic nationalism as its founding principle. Your preamble must include: (a) the source of sovereignty, (b) the basis of membership, (c) the core political values, and (d) the commitment to pluralism.",
+     "a": "A strong answer: \"We, the people of [Nation], constituting ourselves as a sovereign democratic republic, affirm that citizenship belongs equally to all who pledge allegiance to this Constitution, regardless of race, religion, language, or descent. We commit to the ideals of liberty, equality, secularism, and the rule of law as the sole bond of our political community. We guarantee the protection of cultural, linguistic, and religious diversity as a strength of our nation, ensuring every citizen the freedom to preserve their heritage while participating fully in our shared democratic life.\" A poor answer that invokes \"our ancient culture,\" \"common ancestry,\" or \"the glory of our race\" reveals an inability to internalise the civic nationalist framework and defaults to ethnic tropes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

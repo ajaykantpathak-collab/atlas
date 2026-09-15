@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_10_003",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_10_003",
+   "title": "c11_biotech_cbse_10_003",
+   "questions": [
+    {
+     "q": "State the three secondary structure states predicted by both Chou-Fasman and GOR methods and the single-letter codes conventionally used to represent them in output files.",
+     "a": "The three states are α-helix (H), β-sheet (E for extended strand), and coil/turn (C). A wrong answer such as \"α, β, γ\" or \"helix, sheet, loop\" without the standard codes reveals the student has not memorised the output convention used in DSSP and prediction servers, which is essential for interpreting published results.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Chou-Fasman method requires a separate \"nucleation\" step before \"extension,\" whereas GOR evaluates every window position independently.",
+     "a": "Chou-Fasman treats helix/sheet formation as a cooperative process: a short cluster of high-propensity residues must first nucleate the structure, after which lower-propensity residues can be added during extension. GOR, by contrast, computes a position-specific score from the entire window using information theory, so no separate nucleation concept exists. A student who says \"both use nucleation\" confuses the cooperative physics of helix formation with the statistical framework of GOR.",
+     "self_check": true
+    },
+    {
+     "q": "Given the hexapeptide `Ala-Glu-Leu-Lys-Met-Phe` and the following Chou-Fasman parameters (Pα, Pβ, Pτ): Ala (1.42, 0.83, 0.66), Glu (1.51, 0.37, 0.74), Leu (1.21, 1.30, 0.59), Lys (1.16, 0.74, 1.01), Met (1.45, 1.05, 0.60), Phe (1.13, 1.38, 0.61), identify all helix nucleation sites using the rule: four out of six contiguous residues with Pα > 1.00.",
+     "a": "Residues 1–6 all have Pα > 1.00 (Ala 1.42, Glu 1.51, Leu 1.21, Lys 1.16, Met 1.45, Phe 1.13). Therefore the entire hexapeptide forms a single helix nucleation site spanning positions 1–6. A student who misses this because they only check tetrapeptides misunderstands the \"four out of six\" rule and will under-predict helices in longer sequences.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how Chou-Fasman and GOR handle a proline residue encountered during helix extension. Which method is more likely to terminate the helix at that position and why?",
+     "a": "Chou-Fasman assigns proline a very low Pα (0.57) and high Pτ (1.52), so it acts as a strong helix breaker during extension; the helix stops before proline. GOR incorporates proline's negative information value for helix (Iα ≈ –0.5 bits) within the window, which reduces the helix score but may not terminate it if flanking residues contribute strongly. A student claiming \"both terminate equally\" ignores Chou-Fasman's explicit breaker rule versus GOR's probabilistic scoring.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher runs both methods on a 100-residue protein and obtains 62% Q3 accuracy for Chou-Fasman and 68% for GOR. She concludes GOR is universally superior. Critique this conclusion using two methodological considerations.",
+     "a": "First, Q3 accuracy on a single protein is statistically unreliable; benchmarking requires large, non-redundant datasets (e.g., CB513). Second, Chou-Fasman was parameterised on < 30 structures from the 1970s, while GOR I used a larger but still dated set; modern performance differences reflect training data size, not inherent algorithmic superiority. A student who accepts the conclusion uncritically fails to appreciate the historical context and evaluation rigour required in bioinformatics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal 12-residue sequence that would be predicted as a single continuous α-helix by Chou-Fasman but as two separate helices with a coil break by GOR. Justify your design using the proprietary parameters of each method.",
+     "a": "A strong Chou-Fasman helix requires ≥ 4/6 residues with Pα > 1.00 and no breakers (Pro, Gly). Example: `Ala-Glu-Leu-Ala-Met-Glu-Lys-Ala-Leu-Glu-Met-Ala` (all Pα > 1.1). For GOR to predict a break, the central window must have low helix information; inserting a single residue with strongly negative Iα (e.g., Pro at position 6) flanked by moderate helix formers can split the prediction. A good answer provides the sequence, parameter values, and window scores. A poor answer merely states \"add proline\" without showing the window calculation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

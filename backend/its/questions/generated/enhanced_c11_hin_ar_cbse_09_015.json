@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_09_015",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_09_015",
+   "title": "c11_hin_ar_cbse_09_015",
+   "questions": [
+    {
+     "q": "What is the primary purpose of a 'discussion point' in a literature class?",
+     "a": "A discussion point is a specific, text-based observation or question that a student raises to deepen the group's understanding of the chapter's themes, characters, or language. A wrong answer (e.g., \"to share my personal feelings about the poem\") reveals the student confuses literary discussion with personal opinion sharing, missing the requirement for textual evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why simply stating \"Dharmraj says everyone is equal\" is a weak discussion point for this chapter.",
+     "a": "It is weak because it paraphrases the theme without citing a specific line, metaphor, or structural choice from the poem, leaving nothing for peers to analyze or respond to. A wrong answer (e.g., \"because it's too short\") shows the student focuses on length rather than the absence of textual anchoring, which is the core flaw.",
+     "self_check": true
+    },
+    {
+     "q": "You are preparing a discussion point on the metaphor of the 'burden' (टोकरी) in the poem. List the exact steps you would take to turn this into a strong contribution.",
+     "a": "Steps: 1) Locate the exact lines with the metaphor. 2) Identify what the burden represents (caste/untouchability). 3) Note the poet's attitude (rejection of the burden). 4) Frame a point: \"Dharmraj uses the burden metaphor in lines X-Y to show... This challenges...\" A wrong answer skipping step 1 or 3 reveals the student doesn't know how to move from a vague theme to evidence-based analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two discussion points: A) \"The poem is against caste.\" B) \"In stanza 2, the poet equates the burden with birth-based identity, using the word 'जाति' to show...\" Which is more analytically valuable and why?",
+     "a": "Point B is more valuable because it directs the group to a specific stanza, a key word, and the poet's technique, enabling close reading. Choosing A indicates the student cannot distinguish between a general theme statement and an analytical entry point for discussion.",
+     "self_check": true
+    },
+    {
+     "q": "A peer says, \"Dharmraj's message is outdated because caste doesn't exist in cities.\" Evaluate this claim using the poem and your knowledge of modern India.",
+     "a": "The claim is partially flawed: while legal caste discrimination is banned, the poem's focus on social mindset (e.g., 'मन का भेद') remains relevant in urban housing, marriage, and workplace biases. A wrong answer that simply agrees or disagrees without textual support shows the student cannot evaluate an interpretation against both the text and reality.",
+     "self_check": true
+    },
+    {
+     "q": "Create a discussion question for your group that connects Dharmraj's metaphor of the 'clean/dirty' distinction to a current social issue, without mentioning caste directly.",
+     "a": "Example: \"The poem contrasts 'clean' and 'dirty' work assigned by birth. Where do you see similar 'clean vs. dirty' labels attached to people's jobs or backgrounds in your city today?\" A poor question would be vague (\"Do you like the poem?\") or leading (\"Isn't caste bad?\"), revealing the student struggles to design open-ended, text-linked prompts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_v_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_v_cbse_03_001",
+   "title": "c12_hin_v_cbse_03_001",
+   "questions": [
+    {
+     "q": "The title \"vHkh Hkh eqvutks&nM+ks vkSj gM+Iik izkphu\" contains the word \"izkphu\". What does \"izkphu\" indicate about the nature of this text, and which TWO cities are being referenced?",
+     "a": "\"izkphu\" (ancient/former) indicates the text describes these cities as they existed historically, not in their present ruined state. The two cities are Fatehpur Sikri (eqvutks&nM+ks) — Akbar's capital near Agra — and Agra (gM+Iik) itself, the later Mughal capital. A wrong answer (e.g., \"izkphu means 'old' without connecting to historical reconstruction, or naming Delhi instead of Agra) reveals the student cannot decode title-level semantic cues or lacks basic Mughal geography knowledge.",
+     "self_check": true
+    },
+    {
+     "q": "The opening paragraph states: \"Hkkjr osQ gh ugha] nqfu;k osQ nks lcls iqjkus fu;ksftr 'kgj ekus tkrs gSaA\" (Not just in India, but counted among the two most magnificent cities in the world). Why does the author make this hyperbolic claim at the very start, and what narrative purpose does it serve?",
+     "a": "The hyperbole establishes the chapter's central tension: the contrast between past glory and present ruin. By claiming world-historical status, the author frames the subsequent architectural descriptions as evidence for a lost civilization's greatness, inviting the reader to measure the ruins against this benchmark. A student who answers \"to make it sound interesting\" misses the structural function — this is not mere decoration but a thesis statement that the rest of the text will substantiate through architectural detail.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the \"proper noun clustering\" technique: From the first three paragraphs, extract ALL proper nouns (names of people, places, buildings, years). Group them into three categories: Political Figures, Architectural Sites, and Historical Events. How many distinct entries does each category contain?",
+     "a": "Political Figures (4): Akbar (implied by \"flaèkq ?kkVh\"), Jahangir (jk[kkynkl), British archaeologist (tkWu ek'kZy), Archaeological Survey director (vfHk;ku). Architectural Sites (6): Fatehpur Sikri, Agra, Buland Darwaza (ckS¼ Lrwi), Jama Masjid (eqvutks&nM+ks dh lH;rk), Diwan-i-Khas (x<+), Panch Mahal (MhosQ). Historical Events (3): 1571 founding (implied), 1585 abandonment (implied), 1922 archaeological survey (jk[kkynkl cuthZ). A student missing \"tkWu ek'kZy\" or \"vfHk;ku\" fails to distinguish colonial-era actors from Mughal ones — a critical distinction for later colonial-heritage analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the phrase: \"flaèkq ?kkVh lH;rk dk lcls cM+k 'kgj gh ugha Fkk] mls lkèkuksa vkSj O;oLFkkvksa dks ns[krs gq, lcls le`¼ Hkh ekuk x;k gSA\" (Fatehpur Sikri was not just the largest city of Akbar's reign, but also the most planned when viewing its systems and arrangements). What specific urban planning evidence from the text supports the claim of \"le`¼\" (planned), and how does this contrast with typical medieval Indian cities?",
+     "a": "Evidence for \"le`¼\": (1) Grid-like \"x<+\" (ridge) layout with distinct zones — administrative (Diwan-i-Aam/Khas), residential (palaces on ridge), religious (Jama Masjid), commercial (bazaars along roads). (2) Uniform building materials (red sandstone) and proportional scaling. (3) Integrated water management (lake, wells, drainage). (4) Social zoning — craftsmen quarters separated by trade, not caste. Contrast: Medieval Indian cities typically grew organically around a fort/temple with mixed-use, irregular lanes, caste-based segregation, and no master plan. A student citing only \"wide roads\" misses the systemic zoning evidence; one claiming \"Mughal cities were always planned\" overgeneralizes — Shahjahanabad (Delhi) was far less planned.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this interpretation: \"The author romanticizes Fatehpur Sikri by calling it 'ty&laLo`Qfr' (material civilization) while ignoring the forced labor and imperial extravagance that built it.\" Using ONLY textual evidence from the provided excerpt, defend or refute this claim.",
+     "a": "Refute. The text explicitly acknowledges labor systems: \"cqd vkSj dPph b±Vksa dk feyk&tqyk fuekZ.k mtkxj gqvk gSA\" (both rich and poor housing constructed in graded manner) and \"dkexkjksa dh cLrh\" (workers' quarters) with \"NksVh ladjh lhf<+;k¡\" (small organized spaces). It notes \"dYiuk vkSj cjken ph\"kksa osQ tpsM+ ls mi;ksx dk vank\"kk Hkj yxk;k tk ldrk gSA\" (luxury items affordable due to cheap labor/materials) — a direct admission of economic disparity. The phrase \"lekt&iksf\"kr Fkk\" (society-governed, not king/priest-governed) further complicates any pure romanticization. A student agreeing with the interpretation fails to spot the text's self-critical economic observations embedded in architectural description.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-line \"found poem\" using ONLY phrases from the first two pages of the chapter that captures the central paradox of Fatehpur Sikri: built for eternity, abandoned in 15 years. Each line must be a direct textual fragment (3-8 words). Provide the page/line reference for each.",
+     "a": "Example valid response:\n1. \"lcls mRo`Q\"V Hkh gSA\" (p.36, para1) — supreme grandeur claimed\n2. \"fodkl dh HksaV p<+ x,A\" (p.36, para1) — development's breath stopped\n3. \"vc Hkh ogha gSA\" (p.36, para2) — still there (ruins)\n4. \"dksbZ vk¡xu dh VwVh&iwQVh lhf<+;k¡ vc vkidks dgha ugha ys tkrha\" (p.36, para3) — no ghost takes you now\nA poor answer uses non-textual phrases (\"empty city,\" \"silent stones\") or misses the paradox by selecting only glory OR only ruin phrases. This tests whether the student can synthesize the text's dialectical structure at the phrasal level.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

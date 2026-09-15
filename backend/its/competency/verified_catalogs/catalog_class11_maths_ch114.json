@@ -1,0 +1,479 @@
+{
+ "class": 11,
+ "subject": "maths",
+ "chapter": 114,
+ "chapter_title": "Probability",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kemh114.txt",
+ "concepts": [
+  {
+   "id": "kemh.14.1.1",
+   "title": "Event and Sample Space",
+   "section": "14.1",
+   "definition": "A specific outcome or a collection of outcomes from a random experiment that corresponds to a subset of the sample space.",
+   "formula": "E subset of S",
+   "key_idea": "Events are represented as subsets of the universal set of outcomes.",
+   "textbook_ref": "kemh114.txt lines 15-45",
+   "question_patterns": [
+    "define an event in probability",
+    "write the subset associated with the event",
+    "describe the sample space for the experiment",
+    "list the outcomes for the event",
+    "identify the subset of S for the given description"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify sample space",
+     "explain": "List all possible outcomes of the random experiment as set S."
+    },
+    {
+     "step": 2,
+     "action": "filter outcomes",
+     "explain": "Select outcomes from S that satisfy the specific condition of the event."
+    },
+    {
+     "step": 3,
+     "action": "form subset",
+     "explain": "Group the filtered outcomes into a set E, which is a subset of S."
+    }
+   ]
+  },
+  {
+   "id": "kemh.14.1.2",
+   "title": "Simple and Compound Events",
+   "section": "14.1.2",
+   "definition": "An event is simple if it contains only one outcome, and compound if it contains multiple outcomes from the sample space.",
+   "formula": "n(E) = 1 (Simple), n(E) > 1 (Compound)",
+   "key_idea": "Classification based on the number of sample points in the event set.",
+   "textbook_ref": "kemh114.txt lines 85-115",
+   "question_patterns": [
+    "is the event simple or compound",
+    "identify the simple events in the sample space",
+    "give an example of a compound event",
+    "classify the following events",
+    "how many simple events are possible for this experiment"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list event elements",
+     "explain": "Identify all sample points that belong to the event set E."
+    },
+    {
+     "step": 2,
+     "action": "count elements",
+     "explain": "Determine the cardinality n(E) of the event set."
+    },
+    {
+     "step": 3,
+     "action": "classify",
+     "explain": "If n(E) is 1, it is simple; if n(E) is greater than 1, it is compound."
+    }
+   ]
+  },
+  {
+   "id": "kemh.14.1.4",
+   "title": "Mutually Exclusive Events",
+   "section": "14.1.4",
+   "definition": "Events that cannot happen at the same time, meaning their intersection is an empty set.",
+   "formula": "A intersection B = empty_set",
+   "key_idea": "Disjoint sets in the context of probability where occurrence of one prevents the other.",
+   "textbook_ref": "kemh114.txt lines 155-180",
+   "question_patterns": [
+    "check if events A and B are mutually exclusive",
+    "are these events disjoint",
+    "show that the events cannot occur simultaneously",
+    "determine if the intersection of events is empty",
+    "state whether the pair of events is mutually exclusive"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find intersection",
+     "explain": "Identify outcomes common to both event A and event B."
+    },
+    {
+     "step": 2,
+     "action": "check for empty set",
+     "explain": "Verify if the intersection set contains any elements."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "If the intersection is empty, the events are mutually exclusive."
+    }
+   ]
+  },
+  {
+   "id": "kemh.14.1.5",
+   "title": "Exhaustive Events",
+   "section": "14.1.5",
+   "definition": "A collection of events whose union covers the entire sample space, ensuring at least one of them must occur.",
+   "formula": "E1 union E2 union ... union En = S",
+   "key_idea": "The set of events accounts for every possible outcome in the experiment.",
+   "textbook_ref": "kemh114.txt lines 185-210",
+   "question_patterns": [
+    "are the events exhaustive",
+    "verify if the union of events equals the sample space",
+    "do these events form an exhaustive set",
+    "check if at least one of these events must happen",
+    "determine if the given events cover all outcomes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find union",
+     "explain": "Combine all outcomes from the given set of events into a single union set."
+    },
+    {
+     "step": 2,
+     "action": "compare with S",
+     "explain": "Check if the union set is identical to the sample space S."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "If the union equals S, the events are exhaustive."
+    }
+   ]
+  },
+  {
+   "id": "kemh.14.2.1",
+   "title": "Axiomatic Probability Validity",
+   "section": "14.2",
+   "definition": "Rules requiring that probabilities are non-negative, the total probability of the sample space is one, and the sum of probabilities of disjoint outcomes equals one.",
+   "formula": "sum(P(wi)) = 1 and 0 <= P(wi) <= 1",
+   "key_idea": "Mathematical constraints for a valid probability assignment.",
+   "textbook_ref": "kemh114.txt lines 260-285",
+   "question_patterns": [
+    "is the assignment of probabilities valid",
+    "check if the sum of probabilities is 1",
+    "verify the axiomatic conditions for the given probabilities",
+    "can these numbers represent probabilities of outcomes",
+    "determine if any probability is outside the range 0 to 1"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check range",
+     "explain": "Ensure every individual probability is between 0 and 1 inclusive."
+    },
+    {
+     "step": 2,
+     "action": "calculate sum",
+     "explain": "Add all individual probabilities assigned to the sample points."
+    },
+    {
+     "step": 3,
+     "action": "verify sum",
+     "explain": "Check if the total sum equals exactly 1."
+    }
+   ]
+  },
+  {
+   "id": "kemh.14.2.2",
+   "title": "Classical Probability Calculation",
+   "section": "14.2.2",
+   "definition": "The probability of an event in a sample space where all outcomes are equally likely to occur.",
+   "formula": "P(E) = n(E) / n(S)",
+   "key_idea": "Ratio of favorable outcomes to the total number of possible outcomes.",
+   "textbook_ref": "kemh114.txt lines 315-330",
+   "question_patterns": [
+    "find the probability of drawing a diamond",
+    "calculate the chance of getting a prime number",
+    "what is the probability that the sum is 8",
+    "how likely is it to pick a vowel from the word",
+    "determine the probability of the event"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count total outcomes",
+     "explain": "Find the total number of elements in the sample space S."
+    },
+    {
+     "step": 2,
+     "action": "count favorable outcomes",
+     "explain": "Find the number of elements in the event set E."
+    },
+    {
+     "step": 3,
+     "action": "calculate ratio",
+     "explain": "Divide the number of favorable outcomes by the total number of outcomes."
+    }
+   ]
+  },
+  {
+   "id": "kemh.14.2.3",
+   "title": "Addition Rule for Probability",
+   "section": "14.2.3",
+   "definition": "The probability that at least one of two events occurs is the sum of their individual probabilities minus the probability of their joint occurrence.",
+   "formula": "P(A or B) = P(A) + P(B) - P(A and B)",
+   "key_idea": "Adjusting the sum of probabilities by subtracting the overlapping intersection.",
+   "textbook_ref": "kemh114.txt lines 335-370",
+   "question_patterns": [
+    "find the probability of A or B",
+    "calculate the chance of at least one event occurring",
+    "what is the probability that either Anil or Ashima qualifies",
+    "determine P(A union B) given P(A), P(B) and P(A intersection B)",
+    "find the probability of opting for NCC or NSS"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum individual probabilities",
+     "explain": "Add the probability of event A and the probability of event B.",
+     "compute": "p_a + p_b"
+    },
+    {
+     "step": 2,
+     "action": "subtract intersection",
+     "explain": "Subtract the probability of both events occurring from the sum.",
+     "compute": "sum_p - p_ab"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving addition rule for probability.",
+     "solution": "Step 1: sum individual probabilities. Step 2: subtract intersection. Working: p_a + p_b, sum_p - p_ab.",
+     "answer": "Addition Rule for Probability applied step by step gives the required result."
+    },
+    {
+     "question": "Apply addition rule for probability to a fresh example and interpret the result.",
+     "solution": "Step 1: sum individual probabilities. Step 2: subtract intersection. Working: p_a + p_b, sum_p - p_ab.",
+     "answer": "The method of addition rule for probability leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh.14.2.4",
+   "title": "Complementary Event Probability",
+   "section": "14.2.4",
+   "definition": "The probability that an event does not occur is found by subtracting the probability of its occurrence from one.",
+   "formula": "P(not A) = 1 - P(A)",
+   "key_idea": "The sum of probabilities of an event and its complement is always one.",
+   "textbook_ref": "kemh114.txt lines 375-400",
+   "question_patterns": [
+    "find the probability of not A",
+    "calculate the chance that event A does not occur",
+    "what is the probability of the complement of A",
+    "determine P(A') given the value of P(A)",
+    "if the probability of an event is p, find the probability of its non-occurrence"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract from one",
+     "explain": "Subtract the probability of the event from the total probability of 1.",
+     "compute": "1 - p_a"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving complementary event probability.",
+     "solution": "Step 1: subtract from one. Working: 1 - p_a.",
+     "answer": "Complementary Event Probability applied step by step gives the required result."
+    },
+    {
+     "question": "Apply complementary event probability to a fresh example and interpret the result.",
+     "solution": "Step 1: subtract from one. Working: 1 - p_a.",
+     "answer": "The method of complementary event probability leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh.14.2.5",
+   "title": "Probability of Event Difference",
+   "section": "14.1.3",
+   "definition": "The probability of event A occurring without event B is the probability of A minus the probability of the intersection of A and B.",
+   "formula": "P(A but not B) = P(A) - P(A and B)",
+   "key_idea": "Removing the joint occurrence from the probability of the primary event.",
+   "textbook_ref": "kemh114.txt lines 140-145",
+   "question_patterns": [
+    "find the probability of A but not B",
+    "calculate the chance that only event A occurs",
+    "what is the probability of A intersection B-prime",
+    "determine the likelihood of Anil qualifying but not Ashima",
+    "find the probability of opting for NSS but not NCC"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract intersection",
+     "explain": "Subtract the probability of both events from the probability of event A.",
+     "compute": "p_a - p_ab"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving probability of event difference.",
+     "solution": "Step 1: subtract intersection. Working: p_a - p_ab.",
+     "answer": "Probability of Event Difference applied step by step gives the required result."
+    },
+    {
+     "question": "Apply probability of event difference to a fresh example and interpret the result.",
+     "solution": "Step 1: subtract intersection. Working: p_a - p_ab.",
+     "answer": "The method of probability of event difference leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh.14.2.6",
+   "title": "Probability of Exactly One Event",
+   "section": "14.2.3",
+   "definition": "The probability that exactly one of two events occurs, calculated by summing the probabilities of each event occurring alone.",
+   "formula": "P(exactly one) = P(A) + P(B) - 2 * P(A and B)",
+   "key_idea": "Summing the differences (A-B) and (B-A).",
+   "textbook_ref": "kemh114.txt lines 304-305",
+   "question_patterns": [
+    "find the probability that only one of them qualifies",
+    "calculate the chance that exactly one event happens",
+    "what is the probability of (A but not B) or (B but not A)",
+    "determine the likelihood of exactly one student passing",
+    "find the probability that either A or B occurs but not both"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate only A",
+     "explain": "Subtract intersection from P(A).",
+     "compute": "p_a - p_ab"
+    },
+    {
+     "step": 2,
+     "action": "calculate only B",
+     "explain": "Subtract intersection from P(B).",
+     "compute": "p_b - p_ab"
+    },
+    {
+     "step": 3,
+     "action": "sum differences",
+     "explain": "Add the probabilities of the two exclusive cases.",
+     "compute": "only_a + only_b"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving probability of exactly one event.",
+     "solution": "Step 1: calculate only A. Step 2: calculate only B. Step 3: sum differences. Working: p_a - p_ab, p_b - p_ab, only_a + only_b.",
+     "answer": "Probability of Exactly One Event applied step by step gives the required result."
+    },
+    {
+     "question": "Apply probability of exactly one event to a fresh example and interpret the result.",
+     "solution": "Step 1: calculate only A. Step 2: calculate only B. Step 3: sum differences. Working: p_a - p_ab, p_b - p_ab, only_a + only_b.",
+     "answer": "The method of probability of exactly one event leads to the required value or conclusion."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kemh114.txt lines 304-305",
+   "concept": "kemh.14.2.3",
+   "question_type": "compute",
+   "question_pattern": "Anil qualifies with probability {p_a} and Ashima with {p_b}. Both qualify with {p_ab}. Find probability at least one qualifies.",
+   "extracted_variables": {
+    "p_a": 0.05,
+    "p_b": 0.1,
+    "p_ab": 0.02
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum individual probabilities",
+     "explain": "Add 0.05 and 0.1.",
+     "compute": "sum_p = p_a + p_b"
+    },
+    {
+     "step": 2,
+     "action": "subtract intersection",
+     "explain": "Subtract 0.02 from the sum.",
+     "compute": "p_union = sum_p - p_ab"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kemh114.txt lines 302-303",
+   "concept": "kemh.14.2.4",
+   "question_type": "compute",
+   "question_pattern": "If the probability of drawing an ace is {p_a}, find the probability of not drawing an ace.",
+   "extracted_variables": {
+    "p_a": 0.0769
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract from one",
+     "explain": "Subtract 0.0769 from 1.",
+     "compute": "p_not_a = 1 - p_a"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "kemh114.txt lines 304-305",
+   "concept": "kemh.14.2.6",
+   "question_type": "compute",
+   "question_pattern": "Probability of Anil qualifying is {p_a}, Ashima is {p_b}, and both is {p_ab}. Find probability only one qualifies.",
+   "extracted_variables": {
+    "p_a": 0.05,
+    "p_b": 0.1,
+    "p_ab": 0.02
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate only A",
+     "explain": "0.05 - 0.02",
+     "compute": "only_a = p_a - p_ab"
+    },
+    {
+     "step": 2,
+     "action": "calculate only B",
+     "explain": "0.1 - 0.02",
+     "compute": "only_b = p_b - p_ab"
+    },
+    {
+     "step": 3,
+     "action": "sum differences",
+     "explain": "0.03 + 0.08",
+     "compute": "res = only_a + only_b"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "14.1",
+   "source_ref": "kemh114.txt lines 215-255",
+   "questions": [
+    "A die is rolled. Let E be the event die shows 4 and F be the event die shows even number. Are E and F mutually exclusive?",
+    "A die is thrown. Describe events: A number less than 7, B number greater than 7, C multiple of 3.",
+    "Three coins are tossed once. Let A denote three heads, B two heads one tail, C three tails. Which are simple?"
+   ]
+  },
+  {
+   "id": "14.2",
+   "source_ref": "kemh114.txt lines 415-465",
+   "questions": [
+    "A coin is tossed twice, what is the probability that atleast one tail occurs?",
+    "If 2/11 is the probability of an event, what is the probability of the event not A?",
+    "In a class of 60 students, 30 opted for NCC, 32 opted for NSS and 24 opted for both. Find probability student opted for NCC or NSS."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

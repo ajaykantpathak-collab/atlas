@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch4_5",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch4_5",
+   "title": "c8_math_ch4_5",
+   "questions": [
+    {
+     "q": "State the definition of a square and list any three properties that distinguish it from a general rectangle.",
+     "a": "A square is a quadrilateral with all four sides equal and all four angles 90°. Three distinguishing properties: (1) All sides equal (rectangle only has opposite sides equal), (2) Diagonals are perpendicular (rectangle diagonals are not necessarily perpendicular), (3) Diagonals bisect the interior angles (rectangle diagonals do not). A wrong answer that only says \"all sides equal\" without mentioning right angles reveals the student confuses square with rhombus. If they list properties true for rectangles too (like \"diagonals are equal\"), they haven't grasped the additional constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why every square is a rectangle, but not every rectangle is a square. Use the concept of necessary and sufficient conditions.",
+     "a": "A square satisfies the rectangle definition (quadrilateral with four right angles) because it has four right angles – this is a necessary condition. However, a rectangle only requires opposite sides equal, not all four sides equal. The extra condition \"all sides equal\" is sufficient to make a rectangle a square. A wrong answer that says \"a square is a rectangle because it has four sides\" shows confusion between definition and properties. If they cannot articulate the \"extra condition\", they don't understand the hierarchical classification.",
+     "self_check": true
+    },
+    {
+     "q": "A square garden has a side length of 12 m. Find the length of its diagonal. Show your steps.",
+     "a": "Step 1: In a square, diagonal d = side × √2 (by Pythagoras theorem on the right triangle formed by two sides and the diagonal). Step 2: Substitute side = 12 m → d = 12√2 m. Step 3: Compute approximate value: √2 ≈ 1.414, so d ≈ 12 × 1.414 = 16.97 m. Step 4: Answer: Diagonal = 12√2 m (exact) or ≈ 16.97 m. A wrong answer of 24 m (doubling the side) reveals the student thinks diagonal = 2 × side. An answer of 12 m reveals they think diagonal = side. Both show lack of understanding of the right triangle relationship.",
+     "self_check": true
+    },
+    {
+     "q": "A quadrilateral has diagonals that are equal in length, bisect each other, and intersect at 90°. Is it necessarily a square? Justify your answer by comparing with rectangle and rhombus properties.",
+     "a": "Yes, it must be a square. Equal diagonals that bisect each other ⇒ rectangle (property of rectangle). Diagonals bisect at 90° ⇒ rhombus (property of rhombus). A quadrilateral that is both a rectangle and a rhombus is a square. If the student says \"no, it could be a rhombus with equal diagonals\", they don't know that a rhombus with equal diagonals forces right angles (making it a square). If they say \"yes, because all sides become equal\", they are on the right track but need to articulate the rectangle+rhombus intersection logic.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If a quadrilateral has four equal sides, it is a square.\" Evaluate this statement. If false, give a counterexample and state the missing condition.",
+     "a": "The statement is false. Counterexample: A rhombus that is not a square (e.g., a diamond shape with angles 60° and 120°) has four equal sides but not all angles 90°. The missing condition is \"all angles are 90°\" or equivalently \"one angle is 90°\" (since opposite angles equal and adjacent supplementary forces all to 90°). A wrong evaluation that says \"true\" reveals the student confuses square with rhombus. If they give a counterexample but cannot state the precise missing condition, they have partial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world problem (Indian context) where a student must use the property that diagonals of a square bisect each other at 90° to find an unknown length. Provide the problem statement and the solution outline.",
+     "a": "Good problem: \"A square tile of side 30 cm is to be cut along one diagonal. The two triangular pieces are used to make a right-angled corner bracket. If the bracket's legs must be equal, what is the length of each leg?\" Solution outline: The diagonal is cut, so each triangle has legs = side of square = 30 cm. The property that diagonals bisect at 90° ensures the triangles are isosceles right triangles. A poor answer would give a problem that only uses side length or area, not the diagonal bisection property, indicating the student doesn't see the geometric significance of that property.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

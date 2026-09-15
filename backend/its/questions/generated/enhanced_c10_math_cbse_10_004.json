@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_10_004",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_10_004",
+   "title": "c10_math_cbse_10_004",
+   "questions": [
+    {
+     "q": "How many tangents can be drawn to a circle from a point lying on the circle?",
+     "a": "Exactly one tangent can be drawn from a point on the circle. A wrong answer (e.g., \"zero\", \"two\", or \"infinite\") reveals that the student confuses this with tangents from an external point (which has two) or does not understand that a line through a point on the circle either touches it once (tangent) or cuts it twice (secant). The student may also be recalling the number of tangents from an external point instead of a point on the circle.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a second line through a point P on the circle cannot be a tangent if the first line through P is already the tangent perpendicular to radius OP.",
+     "a": "Any line through P other than the perpendicular to OP will make an acute or obtuse angle with OP. Since all points on the circle are at a fixed distance (radius) from O, such a line will intersect the circle at another point Q ≠ P (by symmetry, the chord PQ will have its perpendicular bisector passing through O). Thus it becomes a secant, not a tangent. A wrong explanation (e.g., \"because the tangent is unique by definition\") shows the student has memorised the fact without understanding the geometric reason — the perpendicular distance from centre to line equals radius only for the perpendicular line.",
+     "self_check": true
+    },
+    {
+     "q": "In the figure, O is the centre of a circle of radius 5 cm. P is a point on the circle. A line l passes through P and makes an angle of 30° with OP. Is l a tangent? Justify your answer with a calculation.",
+     "a": "No, l is not a tangent. The tangent at P must be perpendicular to OP (angle = 90°). Since l makes 30° with OP, it is not perpendicular. The perpendicular distance from O to l is OP sin 30° = 5 × 0.5 = 2.5 cm, which is less than the radius 5 cm. Therefore l cuts the circle at two points (a secant). A wrong answer (\"yes\" or no justification) reveals the student does not apply the perpendicular condition or cannot compute the perpendicular distance to verify secant/tangent.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If I draw a circle and pick a point P on it, I can draw two tangents at P by drawing two lines that just touch the circle at P on opposite sides.\" Analyse this statement and identify the geometric error.",
+     "a": "The statement is false. At a given point P on the circle, there is only one line that touches the circle exactly at P — the line perpendicular to radius OP. Any other line through P will cross the circle and intersect it at another point, making it a secant. The student erroneously thinks \"opposite sides\" of the point create two distinct tangents, confusing the tangent line (which extends infinitely in both directions) with directed rays. The tangent line is a single straight line; its two rays lie on opposite sides of P but belong to the same line.",
+     "self_check": true
+    },
+    {
+     "q": "In a board exam, a question asks: \"Prove that the tangent at any point of a circle is perpendicular to the radius through the point of contact.\" A student writes: \"Given: Circle with centre O, point P on circle, tangent PT. To prove: OP ⟂ PT. Proof: By theorem, tangent is perpendicular to radius. Hence proved.\" Evaluate this answer. Would it get full marks in CBSE? Why or why not?",
+     "a": "This answer would get 0 marks. It uses the theorem itself as the proof (circular reasoning). CBSE expects a proper proof using contradiction or construction (e.g., take another point Q on the tangent, show OQ > OP, so OP is the shortest distance, hence perpendicular). The student has not demonstrated understanding of the logical structure of the proof. A wrong evaluation (\"it's correct because the theorem is true\") shows the student cannot distinguish between stating a theorem and proving it.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (Indian context) where the fact \"exactly one tangent at a point on the circle\" is essential to solve it. The problem must involve a circular object and a constraint that only one straight path is possible at a boundary point.",
+     "a": "Example: \"A circular garden of radius 7 m has a gate at point P on its boundary. A straight path is to be built from the gate such that it just touches the garden boundary and goes outward. How many such straight paths can be designed? If the path must be perpendicular to the radius at P, find the angle the path makes with the tangent drawn at the opposite end of the diameter through P.\" A good answer creates a coherent scenario, uses the uniqueness of the tangent, and incorporates the perpendicular property. A poor answer (e.g., \"a car driving on a circular track\") fails to set up a geometric constraint requiring exactly one tangent line.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

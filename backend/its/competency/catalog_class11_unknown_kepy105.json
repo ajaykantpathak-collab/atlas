@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "psychology",
+  "chapter": 105,
+  "chapter_title": "Learning",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kepy105.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kepy105.1.1",
+      "title": "Nature of Learning: Change Brought by Experience",
+      "section": "5.1",
+      "definition": "Learning is any relatively permanent change in behaviour or behaviour potential that results from experience or practice -- not from maturation, fatigue or drugs. It shows in doing, but also in knowing: changed capacity counts as learning even before it is performed.",
+      "formula": "",
+      "key_idea": "Learning is experience-written change -- relatively permanent, practice-made, and more than performance.",
+      "textbook_ref": "kepy105.txt nature sections (describe the nature of learning, change in behaviour through experience and practice, learning versus maturation)",
+      "question_patterns": [
+        "define learning and state its essential features",
+        "in class 11 learning chapter: why is change from maturation not called learning",
+        "distinguish learning from performance with an example",
+        "what does relatively permanent mean in the definition of learning",
+        "give examples of learning beyond the classroom",
+        "is a change caused by drugs an instance of learning discuss"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "test the source",
+          "explain": "Ask whether practice or experience produced the change; maturation and temporary states do not count."
+        },
+        {
+          "step": 2,
+          "action": "test the durability",
+          "explain": "The change must be relatively permanent, not a passing shift in energy or mood."
+        },
+        {
+          "step": 3,
+          "action": "allow latent learning",
+          "explain": "Learning may stay unperformed -- knowledge gained is learning even if behaviour has not yet shown it."
+        }
+      ]
+    },
+    {
+      "id": "kepy105.1.2",
+      "title": "Classical and Operant Conditioning",
+      "section": "5.2",
+      "definition": "Conditioning explains learning by association and consequence. In classical conditioning a neutral stimulus paired repeatedly with a significant one comes to evoke its response -- Pavlov's dogs salivating to a bell. In operant conditioning behaviour is strengthened by reinforcement and weakened by punishment -- consequences shape future action.",
+      "formula": "",
+      "key_idea": "Learn by pairing, learn by payoff -- associations teach anticipation, consequences teach repetition.",
+      "textbook_ref": "kepy105.txt conditioning sections (classical conditioning pavlov, operant conditioning skinner, reinforcement punishment, shaping)",
+      "question_patterns": [
+        "explain classical conditioning with pavlov's experiment",
+        "in class 11 learning chapter: how does operant conditioning differ from classical conditioning",
+        "define reinforcement and punishment with classroom examples",
+        "what is shaping of behaviour through successive approximations",
+        "identify stimulus and response in a given conditioning example",
+        "why does reinforcement work better than punishment in shaping behaviour"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "trace the association",
+          "explain": "Classical conditioning links a neutral stimulus to a meaningful one until the neutral alone triggers the response."
+        },
+        {
+          "step": 2,
+          "action": "trace the consequence",
+          "explain": "Operant conditioning follows behaviour with reinforcement or punishment, changing the odds of its repetition."
+        },
+        {
+          "step": 3,
+          "action": "build complex acts",
+          "explain": "Reinforcing closer and closer approximations -- shaping -- can train skills no single trial could produce."
+        }
+      ]
+    },
+    {
+      "id": "kepy105.1.3",
+      "title": "Observational Learning and Cognitive Forms of Learning",
+      "section": "5.3",
+      "definition": "Not all learning needs direct reinforcement. Observational learning copies models -- children imitate what they watch, for better or worse; insight learning solves problems by sudden reorganisation of the field; and verbal learning shows how words and associations are memorised. Cognition thus joins conditioning in the full picture.",
+      "formula": "",
+      "key_idea": "Watch, understand, reorganise -- learning also happens without reward, by example and by insight.",
+      "textbook_ref": "kepy105.txt cognitive sections (observational learning modelling, insight learning, verbal learning, forms or types of learning)",
+      "question_patterns": [
+        "explain observational learning with an example",
+        "in class 11 learning chapter: what is insight learning describe an experiment",
+        "how does modelling influence children's behaviour",
+        "distinguish trial and error learning from insight learning",
+        "what is verbal learning and how is it studied",
+        "compare the different forms of learning discussed in the chapter"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "learn by watching",
+          "explain": "Observational learning acquires behaviour by attending to a model, retaining it and reproducing it when motivated."
+        },
+        {
+          "step": 2,
+          "action": "learn by insight",
+          "explain": "Insight learning reorganises the problem suddenly -- the solution appears as a whole, as in Kohler's chimpanzee studies."
+        },
+        {
+          "step": 3,
+          "action": "learn the symbols",
+          "explain": "Verbal learning studies serial lists, paired associates and free recall -- the cognitive layer of human learning."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kepy105.txt conditioning sections",
+      "concept": "kepy105.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "A child fears the dentist after one painful visit and now cries at the clinic's smell. Analyse the fear using classical conditioning.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "identify the pairings",
+          "explain": "Pain (unconditioned stimulus) produced fear (unconditioned response); the clinic smell was merely present."
+        },
+        {
+          "step": 2,
+          "action": "show the learning",
+          "explain": "Paired with pain, the smell became a conditioned stimulus now triggering fear by itself."
+        },
+        {
+          "step": 3,
+          "action": "note the remedy",
+          "explain": "New, pain-free pairings with the same smell can gradually extinguish the conditioned fear."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kepy105.txt cognitive sections",
+      "concept": "kepy105.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "After watching elders rudely interrupt, a child starts interrupting guests despite no reward. Explain this learning.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "identify the method",
+          "explain": "This is observational learning -- the child attended to models, retained their behaviour and reproduced it."
+        },
+        {
+          "step": 2,
+          "action": "note the absence of direct reward",
+          "explain": "No reinforcement was given to the child; the model's perceived status sufficed."
+        },
+        {
+          "step": 3,
+          "action": "draw the implication",
+          "explain": "Models teach without teaching -- which is why adults' example is a permanent lesson."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kepy105.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Define learning and explain its characteristics.",
+        "Explain classical conditioning with a real-life example.",
+        "How does operant conditioning shape behaviour?",
+        "Distinguish reinforcement from punishment with classroom cases.",
+        "What is insight learning? Describe Kohler's experiment.",
+        "How does observational learning differ from conditioning?"
+      ]
+    }
+  ]
+}

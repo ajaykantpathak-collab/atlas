@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch15_009",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch15_009",
+   "title": "c7_math_ch15_009",
+   "questions": [
+    {
+     "q": "If making 1 square requires 4 matchsticks, 2 connected squares require 7 matchsticks, and 3 connected squares require 10 matchsticks, what is the exact algebraic expression for the number of matchsticks needed to make $n$ connected squares in a row?",
+     "a": "The correct expression is $3n + 1$. Each new square added after the first one requires 3 additional matchsticks, and the very first square starts with 4 (or $3(1) + 1$). A student who answers $4n$ has incorrectly assumed every single square independently takes 4 matchsticks without accounting for the shared side between adjacent squares.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul writes the expression $5n - 2$ for a matchstick pattern where 1 shape takes 3 matchsticks, 2 shapes take 8 matchsticks, and 3 shapes take 13 matchsticks. Is Rahul's expression correct? Explain why or why not.",
+     "a": "Rahul's expression is incorrect. While the common difference between terms is 5 (8 - 3 = 5, and 13 - 8 = 5), testing $n = 1$ gives $5(1) - 2 = 3$, but testing $n = 2$ gives $5(2) - 2 = 8$, which matches, but let's check the first term rule properly: for $n=1$, $5(1)$ is 5, but we need 3, so it should be $5n - 2$. Wait, $5(1) - 2 = 3$, $5(2) - 2 = 8$, $5(3) - 2 = 13$. Actually, Rahul's expression is correct! A student who says it's wrong often confuses the constant offset sign (+ or -) or confuses the coefficient with the first term value.",
+     "self_check": true
+    },
+    {
+     "q": "A row of regular hexagons made of matchsticks follows the rule $6 + 5(n - 1)$, which simplifies to $5n + 1$. Calculate the exact number of matchsticks required to build a continuous chain of 25 hexagons.",
+     "a": "To find the total matchsticks for 25 hexagons, substitute $n = 25$ into the simplified expression $5n + 1$. First, multiply 5 by 25 to get 125. Next, add 1 to 125, resulting in 126 matchsticks. A student who gets 150 likely multiplied 6 by 25, forgetting that adjacent hexagons share a side and do not use 6 independent matchsticks each.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the patterns for triangles (rule: $2n + 1$) and squares (rule: $3n + 1$). Why does the coefficient of $n$ increase from 2 to 3 when moving from a 3-sided polygon to a 4-sided polygon?",
+     "a": "The coefficient of $n$ represents the number of new matchsticks needed to append each subsequent shape to the chain. A triangle requires 2 new matchsticks to attach to the previous one (sharing 1 side), whereas a square requires 3 new matchsticks to attach to the previous one (sharing 1 side). A student who thinks the coefficient represents the total sides of a single isolated shape fails to understand how shapes share matchsticks in a continuous chain.",
+     "self_check": true
+    },
+    {
+     "q": "Priya evaluated the matchstick pattern rule $4n + 2$ for $n = 10$ and claimed it requires 48 matchsticks. Evaluate her calculation, identify any errors in working, and provide the correct calculation.",
+     "a": "Priya's calculation is incorrect because she likely added 2 to 4 first to get 6, and then multiplied by 10 to get 60, or made an arithmetic error. Following proper order of operations (BODMAS), multiplication must be performed before addition: $4 \\times 10 = 40$, and then $40 + 2 = 42$ matchsticks. A student who agrees with 48 has violated the order of operations by adding before multiplying.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own matchstick pattern rule for a sequence of connected letter 'H' shapes where 1 'H' uses 7 matchsticks, 2 connected 'H's use 12 matchsticks, and 3 connected 'H's use 17 matchsticks. Write the algebraic expression for $n$ shapes.",
+     "a": "The expected expression is $5n + 2$. Verification: for $n = 1$, $5(1) + 2 = 7$; for $n = 2$, $5(2) + 2 = 12$; for $n = 3$, $5(3) + 2 = 17$. A poor answer would be $7n$ or an expression where the coefficient does not match the common difference of 5 between consecutive terms.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_01_005",
+   "title": "c12_acc_cbse_01_005",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a Profit and Loss Account and a Profit and Loss Appropriation Account in a partnership firm?",
+     "a": "The Profit and Loss Account determines the net profit/loss from business operations (revenue minus expenses) and is prepared for all entities. The Profit and Loss Appropriation Account is unique to partnerships — it shows how that net profit is *distributed* among partners after charging appropriations like interest on capital, salary, and commission. A wrong answer reveals the student confuses *ascertainment* of profit (P&L Account) with *appropriation* of profit (P&L Appropriation Account).",
+     "self_check": true
+    },
+    {
+     "q": "A partnership firm's Profit and Loss Account shows a net profit of ₹4,00,000. The deed provides for interest on capital @ 10% p.a. on capitals of ₹5,00,000 (Partner X) and ₹3,00,000 (Partner Y), and Partner X receives a salary of ₹5,000 per month. Interest on drawings is ₹12,000 (X) and ₹8,000 (Y). Profit-sharing ratio is 3:2. Without calculating the final divisible profit, explain which items appear on the debit side and which on the credit side of the P&L Appropriation Account.",
+     "a": "Credit side: Net Profit ₹4,00,000 (from P&L A/c), Interest on Drawings ₹20,000 (₹12,000 + ₹8,000). Debit side: Interest on Capital ₹80,000 (₹50,000 + ₹30,000), Partner X Salary ₹60,000 (₹5,000 × 12). A wrong answer (e.g., putting salary on credit side or interest on drawings on debit side) reveals the student doesn't understand that appropriations *reduce* divisible profit (debits) while interest on drawings *increases* the pool (credit) — they're treating all partner-related items uniformly instead of by economic substance.",
+     "self_check": true
+    },
+    {
+     "q": "A and B are partners sharing profits 3:2. Net profit before appropriations is ₹3,00,000. Interest on capital @ 12% on ₹4,00,000 (A) and ₹2,00,000 (B). B gets salary ₹3,000/month. Interest on drawings: A ₹6,000, B ₹4,000. Prepare the Profit and Loss Appropriation Account and show the divisible profit transferred to capital accounts.",
+     "a": "**Profit and Loss Appropriation Account**\n| Dr. | | Cr. |\n|---|---|---|\n| **Particulars** | **₹** | **Particulars** | **₹** |\n| Interest on Capital: | | Net Profit (P&L A/c) | 3,00,000 |\n| A (4,00,000 × 12%) | 48,000 | Interest on Drawings: | |\n| B (2,00,000 × 12%) | 24,000 | A | 6,000 |\n| Salary to B (3,000 × 12) | 36,000 | B | 4,000 |\n| Divisible Profit transferred: | | | 10,000 |\n| A (3/5 × 2,02,000) | 1,21,200 | | |\n| B (2/5 × 2,02,000) | 80,800 | | |\n| **Total** | **3,10,000** | **Total** | **3,10,000** |\n\nDivisible profit = ₹3,00,000 + ₹10,000 − ₹48,000 − ₹24,000 − ₹36,000 = ₹2,02,000. A wrong divisible profit (e.g., ₹1,92,000) reveals arithmetic error or incorrect treatment of interest on drawings.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the treatment of \"Interest on Capital\" and \"Interest on Drawings\" in the Profit and Loss Appropriation Account. Why are they on opposite sides despite both relating to partners?",
+     "a": "Interest on Capital is an *appropriation* — it's a charge against profit to compensate partners for capital contributed, so it's debited (reduces divisible profit). Interest on Drawings is a *recovery* — it's income to the firm from partners for using firm's money, so it's credited (increases divisible pool). They're opposite because one is a cost of capital (like expense) and the other is a penalty/income for early withdrawal. A wrong answer reveals the student memorises \"capital = debit, drawings = credit\" without understanding the economic rationale: capital is a liability to the firm (cost), drawings are an asset recovery (income).",
+     "self_check": true
+    },
+    {
+     "q": "A firm's net profit is ₹2,00,000. The deed provides: (i) Interest on capital @ 10% on ₹5,00,000 each for two partners, (ii) Salary to Partner A ₹2,000/month, (iii) Commission to Partner B @ 5% of net profit *before* charging such commission. Evaluate whether the firm can sustain these appropriations. If not, how should the shortfall be handled per accounting standards?",
+     "a": "Total appropriations = Interest on Capital (₹1,00,000) + Salary to A (₹24,000) + Commission to B (₹10,000 = 5% × ₹2,00,000) = ₹1,34,000. Net profit is ₹2,00,000, so divisible profit = ₹66,000 — firm *can* sustain. However, if appropriations exceeded net profit (e.g., net profit ₹1,00,000), the shortfall would be borne by partners in profit-sharing ratio *unless* deed specifies otherwise. Per AS 26/Partnership Act, appropriations are not expenses — they're distribution of profit. If profit is insufficient, interest on capital and salary are *not* paid in full; they're restricted to available profit in agreed priority (usually salary → interest on capital → commission → divisible profit). A wrong answer (e.g., \"show loss in P&L Appropriation\") reveals confusion between *expenses* (charged in P&L) and *appropriations* (distributed in P&L Appropriation).",
+     "self_check": true
+    },
+    {
+     "q": "Design a scenario where a partnership firm has a net loss in the Profit and Loss Account but the Profit and Loss Appropriation Account still shows entries. Explain what entries would appear and why.",
+     "a": "Scenario: Net loss ₹50,000. Deed provides interest on capital ₹40,000 and salary ₹20,000. P&L Appropriation Account:\nDr. Side: Interest on Capital ₹40,000, Salary ₹20,000\nCr. Side: Net Loss (transferred from P&L) ₹50,000, Interest on Drawings ₹10,000\nBalance (debit) = ₹1,00,000 − ₹60,000 = ₹40,000 loss transferred to partners' capital in profit-sharing ratio.\nEntries appear because appropriations are *contractual obligations* — they're recorded even if profit is insufficient, and the resulting debit balance (net loss after appropriations) is shared by partners. A poor answer (e.g., \"no appropriation account if loss\") reveals the student thinks appropriation account only exists when there's profit — but it's prepared *whenever* there are appropriation terms in the deed, regardless of profit/loss.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

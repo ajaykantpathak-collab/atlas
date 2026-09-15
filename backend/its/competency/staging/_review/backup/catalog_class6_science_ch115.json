@@ -1,0 +1,398 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 115,
+ "chapter_title": "Air Around us",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/fesc115.txt",
+ "concepts": [
+  {
+   "id": "fesc.15.1.1",
+   "title": "Atmosphere and Physical Presence of Air",
+   "section": "15.1",
+   "definition": "Air is an invisible, transparent fluid mixture surrounding the Earth that takes up physical space and forms an atmospheric blanket.",
+   "formula": "atmosphere_layer_thickness = top_altitude - surface_elevation",
+   "key_idea": "In brief, In brief, In brief, In brief, Air is indeed present everywhere around us, occupies space, and is transparent.",
+   "textbook_ref": "fesc115.txt lines 15-45",
+   "question_patterns": [
+    "is air present everywhere around us",
+    "how can you prove that air occupies space",
+    "what is the layer of air surrounding the earth called",
+    "why can we see through air"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "observe space displacement",
+     "explain": "An inverted open bottle pushed into water prevents water entry until tilted to release air bubbles."
+    },
+    {
+     "step": 2,
+     "action": "identify atmospheric layer",
+     "explain": "The thin envelope of air extending kilometers above Earth's surface is termed the atmosphere."
+    }
+   ]
+  },
+  {
+   "id": "fesc.15.2.1",
+   "title": "Water Vapour in Air",
+   "section": "15.2",
+   "definition": "Water present in gaseous state within air that condenses into liquid droplets upon encountering cool surfaces.",
+   "formula": "condensed_water_mass = initial_air_vapour_mass - final_air_vapour_mass",
+   "key_idea": "Atmospheric water vapour plays a crucial role in maintaining the natural water cycle.",
+   "textbook_ref": "fesc115.txt lines 50-65",
+   "question_patterns": [
+    "why do water droplets appear on the outer surface of a cold glass",
+    "what is the role of water vapour in air",
+    "how is water vapour in air important for nature",
+    "find the significance of water vapour in the water cycle"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "observe surface condensation",
+     "explain": "When air contacts a cold surface, contained vapour cools and condenses into liquid water drops."
+    },
+    {
+     "step": 2,
+     "action": "relate to natural water cycle",
+     "explain": "Evaporated water vapour in air ascends and condenses to form clouds, driving precipitation."
+    }
+   ]
+  },
+  {
+   "id": "fesc.15.2.2",
+   "title": "Oxygen Component and Combustion Support",
+   "section": "15.2",
+   "definition": "The gaseous component of atmospheric air essential for supporting biological both both both both both both both both both both both both both both both both both both both both both both both both respiration and fuel combustion.",
+   "formula": "burning_duration = contained_oxygen_volume / burning_rate",
+   "key_idea": "In brief, In brief, Oxygen supports both both both both both both both both both both both both both burning and is indeed necessary for living organisms to sustain life.",
+   "textbook_ref": "fesc115.txt lines 66-88",
+   "question_patterns": [
+    "how will you prove that air supports burning",
+    "which component of air is consumed during combustion",
+    "why does a burning candle get extinguished under an inverted tumbler",
+    "what gas in air is essential for respiration"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "cover burning candle with glass",
+     "explain": "Inverting a glass over a candle limits the supply of available oxygen inside."
+    },
+    {
+     "step": 2,
+     "action": "observe extinguishment",
+     "explain": "The candle goes off once the limited oxygen supporting combustion is completely consumed."
+    }
+   ]
+  },
+  {
+   "id": "fesc.15.2.3",
+   "title": "Nitrogen Gas in Air",
+   "section": "15.2",
+   "definition": "In brief, the most abundant atmospheric gas that does indeed not support combustion and remains after burning stops in a closed space.",
+   "formula": "nitrogen_percent = 100 - (oxygen_percent + other_percent)",
+   "key_idea": "Nitrogen constitutes the major non-combustible part of atmospheric air.",
+   "textbook_ref": "fesc115.txt lines 89-100",
+   "question_patterns": [
+    "which major gas in air does not support burning",
+    "what gas remains in a jar after a candle extinguishes",
+    "identify the non-combustible main component of air",
+    "what is the main constituent gas in atmospheric air"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "examine remaining gas in enclosed jar",
+     "explain": "Air remains in a container even after combustion ceases, demonstrating a gas that does not support burning."
+    },
+    {
+     "step": 2,
+     "action": "identify non-combustible constituent",
+     "explain": "This non-burning majority constituent is identified as nitrogen gas."
+    }
+   ]
+  },
+  {
+   "id": "fesc.15.2.4",
+   "title": "Carbon Dioxide, Dust, and Smoke",
+   "section": "15.2",
+   "definition": "Minor air components comprising gaseous carbon dioxide along with solid particulates released during fuel combustion and respiration.",
+   "formula": "pollutant_concentration = particle_count / sample_air_volume",
+   "key_idea": "In brief, In brief, Carbon dioxide, smoke, and fine dust particles form essential minor constituents of atmospheric air.",
+   "textbook_ref": "fesc115.txt lines 101-140",
+   "question_patterns": [
+    "why do we feel suffocation in a closed room with burning material",
+    "how can you detect tiny dust particles in air",
+    "why do factory chimneys extend high into the air",
+    "why are fine hairs present inside our nostrils"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "pass sunlight through a small slit in dark room",
+     "explain": "Shining light through a beam illuminates tiny floating dust particles dancing in the light path."
+    },
+    {
+     "step": 2,
+     "action": "explain respiration protection",
+     "explain": "Mucus and fine hair inside nostrils trap inhaled dust particles before entering lungs."
+    }
+   ]
+  },
+  {
+   "id": "fesc.15.2.5",
+   "title": "Quantitative Composition of Air",
+   "section": "15.2",
+   "definition": "The numerical percentage breakdown of gases forming atmospheric air, dominated by both both both both both both both both both both both both both both both both both both both both both both both both nitrogen and oxygen.",
+   "formula": "component_volume = total_air_volume * component_percent / 100",
+   "key_idea": "In brief, In brief, In brief, In brief, both both both both both both both both both both both both Nitrogen and oxygen together constitute 99 percent of atmospheric air volume.",
+   "textbook_ref": "fesc115.txt lines 141-155",
+   "question_patterns": [
+    "what is the percentage composition of nitrogen and oxygen in air",
+    "calculate the volume of oxygen in a given volume of air",
+    "find the remaining percentage of gases when nitrogen and oxygen are known",
+    "how much nitrogen is present in a volume of air"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum major gas percentages",
+     "explain": "nitrogen_percent and oxygen_percent combine to form the vast majority of air",
+     "compute": "major_percent = nitrogen_percent + oxygen_percent"
+    },
+    {
+     "step": 2,
+     "action": "calculate volume of specific component",
+     "explain": "multiply total volume by component percentage divided by 100",
+     "compute": "component_volume = total_air_volume * component_percent / 100"
+    }
+   ]
+  },
+  {
+   "id": "fesc.15.3.1",
+   "title": "Dissolved Air in Water",
+   "section": "15.3",
+   "definition": "Air trapped solution-wise inside water that provides oxygen necessary for aquatic organisms.",
+   "formula": "dissolved_gas_volume = total_water_volume * solubility_coefficient",
+   "key_idea": "Heating water drives out dissolved air as small visible bubbles before boiling starts.",
+   "textbook_ref": "fesc115.txt lines 156-172",
+   "question_patterns": [
+    "how will you show that air is dissolved in water",
+    "why do tiny bubbles appear on the inner surface of container during water heating",
+    "how do aquatic animals breathe underwater",
+    "does boiled water contain dissolved air"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "heat water in a glass vessel",
+     "explain": "Gentle heating causes dissolved air to come out of solution, forming tiny bubbles on inner vessel walls."
+    },
+    {
+     "step": 2,
+     "action": "relate to aquatic organism respiration",
+     "explain": "Fish and aquatic life extract this dissolved oxygen for survival underwater."
+    }
+   ]
+  },
+  {
+   "id": "fesc.15.3.2",
+   "title": "Trapped Air in Soil",
+   "section": "15.3",
+   "definition": "Air trapped within tiny pore spaces and burrows in soil that supplies oxygen to plant roots and soil organisms.",
+   "formula": "soil_air_volume = pore_space_volume - displaced_water_volume",
+   "key_idea": "Water added to soil displaces trapped air pockets, forcing soil organisms out during heavy rains.",
+   "textbook_ref": "fesc115.txt lines 173-195",
+   "question_patterns": [
+    "how will you demonstrate that soil contains air",
+    "why do earthworms come out of soil during heavy rainfall",
+    "what happens when water is poured on a lump of dry soil",
+    "how do organisms living inside soil obtain oxygen"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "pour water on a lump of dry soil",
+     "explain": "Water enters soil pores and displaces trapped air, releasing visible air bubbles."
+    },
+    {
+     "step": 2,
+     "action": "explain rain effect on soil animals",
+     "explain": "Heavy rain floods subterranean burrows, forcing organisms like earthworms to come out to breathe."
+    }
+   ]
+  },
+  {
+   "id": "fesc.15.4.1",
+   "title": "Atmospheric Oxygen Cycle and Interdependence",
+   "section": "15.4",
+   "definition": "In brief, the reciprocal gas exchange where plant photosynthesis gives out oxygen and animal respiration gives out carbon dioxide, maintaining atmospheric equilibrium.",
+   "formula": "net_oxygen_release = photosynthesis_oxygen_produced - plant_respiration_oxygen_consumed",
+   "key_idea": "Photosynthesis by green plants maintains the balance of both both both both both both both both both both both both both both both both both both both both both both both both oxygen and carbon dioxide in nature.",
+   "textbook_ref": "fesc115.txt lines 196-215",
+   "question_patterns": [
+    "how is oxygen replenished in the atmosphere",
+    "how do plants and animals maintain gas balance in air",
+    "why does atmospheric oxygen not get exhausted",
+    "explain the interdependence of plants and animals regarding atmospheric gases"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify oxygen production mechanism",
+     "explain": "Green plants produce oxygen during food synthesis via photosynthesis in excess of their respiration needs."
+    },
+    {
+     "step": 2,
+     "action": "identify carbon dioxide production mechanism",
+     "explain": "Animals consume oxygen and yield carbon dioxide during respiration, which plants then consume for photosynthesis."
+    }
+   ]
+  },
+  {
+   "id": "fesc.15.4.2",
+   "title": "Wind and Applications of Air Motion",
+   "section": "15.4",
+   "definition": "Air moving continuously in a direction, called wind, which harnesses mechanical force for power generation and seed dispersal.",
+   "formula": "wind_power = 0.5 * air_density * area * wind_speed ** 3",
+   "key_idea": "Moving air drives windmills, assists aerial transport, disperses seeds, and powers water cycles.",
+   "textbook_ref": "fesc115.txt lines 216-235",
+   "question_patterns": [
+    "what is wind and list its uses",
+    "how does wind help in operating windmills",
+    "list activities that are possible due to presence of air",
+    "how does air assist in seed dispersal and pollination"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define wind",
+     "explain": "Air in physical motion across regions is termed wind."
+    },
+    {
+     "step": 2,
+     "action": "enumerate practical applications",
+     "explain": "Wind rotates windmills to pump water or generate electricity, enables flight of birds and gliders, and aids plant seed dispersal."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fesc115.txt lines 145-155",
+   "concept": "fesc.15.2.5",
+   "question_type": "compute_component_volume",
+   "question_pattern": "Calculate the volume of oxygen in {total_air_volume} litres of atmospheric air given that oxygen constitutes {component_percent}% of air.",
+   "extracted_variables": {
+    "total_air_volume": "500",
+    "component_percent": "21"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate constituent gas volume",
+     "explain": "multiply total air volume by oxygen percentage divided by 100",
+     "compute": "component_volume = total_air_volume * component_percent / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fesc115.txt lines 145-155",
+   "concept": "fesc.15.2.5",
+   "question_type": "compute_major_percent",
+   "question_pattern": "Find the combined percentage of nitrogen and oxygen in air if nitrogen is {nitrogen_percent}% and oxygen is {oxygen_percent}%.",
+   "extracted_variables": {
+    "nitrogen_percent": "78",
+    "oxygen_percent": "21"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum major gas percentages",
+     "explain": "add nitrogen percentage and oxygen percentage together",
+     "compute": "major_percent = nitrogen_percent + oxygen_percent"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex15.1",
+   "source_ref": "fesc115.txt page 154 exercise 1",
+   "questions": [
+    "What is the composition of air?"
+   ]
+  },
+  {
+   "id": "ex15.2",
+   "source_ref": "fesc115.txt page 154 exercise 2",
+   "questions": [
+    "Which gas in the atmosphere is essential for respiration?"
+   ]
+  },
+  {
+   "id": "ex15.3",
+   "source_ref": "fesc115.txt page 154 exercise 3",
+   "questions": [
+    "How will you prove that air supports burning?"
+   ]
+  },
+  {
+   "id": "ex15.4",
+   "source_ref": "fesc115.txt page 154 exercise 4",
+   "questions": [
+    "How will you show that air is dissolved in water?"
+   ]
+  },
+  {
+   "id": "ex15.5",
+   "source_ref": "fesc115.txt page 154 exercise 5",
+   "questions": [
+    "Why does a lump of cotton wool shrink in water?"
+   ]
+  },
+  {
+   "id": "ex15.6",
+   "source_ref": "fesc115.txt page 154 exercise 6",
+   "questions": [
+    "The layer of air around the earth is known as ___________."
+   ]
+  },
+  {
+   "id": "ex15.7",
+   "source_ref": "fesc115.txt page 154 exercise 7",
+   "questions": [
+    "The component of air used by green plants to make their food, is ___________."
+   ]
+  },
+  {
+   "id": "ex15.8",
+   "source_ref": "fesc115.txt page 154 exercise 8",
+   "questions": [
+    "List five activities that are possible due to the presence of air."
+   ]
+  },
+  {
+   "id": "ex15.9",
+   "source_ref": "fesc115.txt page 154 exercise 9",
+   "questions": [
+    "How do plants and animals help each other in the exchange of gases in the atmosphere?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

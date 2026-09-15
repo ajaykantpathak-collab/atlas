@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_06_008",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_06_008",
+   "title": "c11_eco_cbse_06_008",
+   "questions": [
+    {
+     "q": "According to the NSO (PLFS), a person who worked for only 1 hour on at least one day during the reference week of 7 days is classified as which of the following? (a) Unemployed (b) Employed (c) Not in labour force (d) Underemployed",
+     "a": "Correct answer: (b) Employed. The NSO's Current Weekly Status considers a person employed if they worked for at least 1 hour on any day during the reference week. A wrong answer (a) reveals the student mistakenly applies a \"full-time work\" threshold, confusing economic measurement with normative adequacy. This misconception leads to overestimation of unemployment in informal economies where part-time/casual work is prevalent.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Unemployment Rate (UR) based on Usual Status (principal + subsidiary) typically yield a lower estimate than the Current Daily Status (CDS) measure for the same year in India?",
+     "a": "Usual Status uses a 365-day reference period and counts a person as employed if they worked for a major time (183+ days) even if unemployed for the rest of the year. CDS measures day-to-day unemployment within a week, capturing intermittent joblessness. A wrong answer focusing only on \"sample size differences\" misses the conceptual distinction: Usual Status measures chronic unemployment, CDS measures underemployment intensity. This confusion prevents understanding why India's \"official\" unemployment rate (Usual Status) appears lower than the \"real\" daily experience of casual workers.",
+     "self_check": true
+    },
+    {
+     "q": "In a village of 10,000 people, the PLFS data shows: Population = 10,000; Labour Force (Usual Status) = 4,200; Employed (Usual Status) = 4,050. Calculate the Unemployment Rate (UR) and Worker Population Ratio (WPR) for this village. Show the formulas and steps.",
+     "a": "Step 1: UR = (Unemployed / Labour Force) × 100. Unemployed = Labour Force - Employed = 4,200 - 4,050 = 150.\nStep 2: UR = (150 / 4,200) × 100 = 3.57%.\nStep 3: WPR = (Employed / Total Population) × 100 = (4,050 / 10,000) × 100 = 40.5%.\nStep 4: Interpretation: Only 3.57% of those seeking work are unemployed, but only 40.5% of the total population is actually working.\nA wrong answer using Population instead of Labour Force for UR (e.g., 150/10,000 = 1.5%) reveals confusion between stock (population) and flow (labour force) denominators, a critical error in labour economics.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following statement: \"Disguised unemployment in Indian agriculture is essentially a measurement problem: if we used Current Daily Status instead of Usual Status, the unemployment rate would capture it fully.\" Is this true or false? Justify with the concept of marginal productivity.",
+     "a": "False. Disguised unemployment is a structural phenomenon where marginal productivity of labour is zero or negative (more workers than needed for given land/capital). CDS measures time disposition (days unemployed), not productivity. A worker \"employed\" all 7 days on a family farm with zero marginal product is still disguised unemployed. CDS would classify them as employed all 7 days, missing the disguise. A student answering \"True\" confuses measurement frequency with the economic definition of unemployment based on productivity contribution. This misconception leads to policy errors like assuming better data collection alone solves structural underemployment.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The decline in India's Usual Status Unemployment Rate from 6.1% (2017-18) to 3.2% (2023-24) proves that the economy has generated sufficient quality jobs for new labour market entrants.\" Consider LFPR trends and the nature of employment generated.",
+     "a": "The claim is flawed. A falling UR with stagnant or falling LFPR can indicate discouraged worker exit (people stop looking for work, leaving the labour force). PLFS 2023-24 shows rising self-employment (58.4%) and falling casual labour (19.9%), but much self-employment is distress-driven (own-account workers in agriculture). Quality requires regular wages, social security, and productivity growth. A student accepting the claim at face value ignores the denominator effect (LFPR) and composition effect (informalisation). This reveals an inability to synthesize multiple indicators (UR, LFPR, WPR, status distribution) for holistic labour market assessment.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-survey questionnaire (5 questions) to identify seasonal unemployment among migrant construction workers in an urban area, ensuring it captures the NSO's Current Weekly Status framework while adding a seasonal dimension. Explain how your questions avoid the \"1-hour criterion\" pitfall.",
+     "a": "Good answer includes: (1) \"In the last 7 days, how many days did you work for pay/profit?\" (captures CDS intensity), (2) \"In the last 365 days, how many months did you have NO work available?\" (seasonal gap), (3) \"During months with no work, did you return to your village?\" (migration link), (4) \"When working, how many hours per day on average?\" (avoids 1-hour trap by measuring intensity), (5) \"Are you registered with any employment exchange/portal?\" (data source link). A poor answer uses only \"Are you employed?\" binary questions, replicating the Usual Status flaw of masking seasonal joblessness. This tests ability to translate measurement concepts into data collection design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

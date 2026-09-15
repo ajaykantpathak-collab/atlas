@@ -1,0 +1,163 @@
+{
+ "class": 11,
+ "subject": "business_studies",
+ "chapter": 107,
+ "chapter_title": "Formation of a Company",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebs107.txt",
+ "concepts": [
+  {
+   "id": "kebs.107.1.1",
+   "title": "Promotion: Identification of Business Opportunity",
+   "section": "Promotion",
+   "definition": "Promotion is the first stage of company formation in which the promoter conceives the business idea, investigates its feasibility, assembles resources and takes steps to set up the company, and the promoter stands in a fiduciary position towards the company.",
+   "formula": "",
+   "key_idea": "The promoter performs discovery of the idea, detailed investigation, financing, assembling the business unit and entering into preliminary contracts before incorporation.",
+   "textbook_ref": "kebs107.txt promotion stage section",
+   "question_patterns": [
+    "define promotion and the role of a promoter",
+    "what functions does a promoter perform",
+    "explain the fiduciary position of a promoter",
+    "what are preliminary contracts in promotion",
+    "how does a promoter investigate feasibility of an idea",
+    "state the legal position of a promoter"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the promoter",
+     "explain": "Note the person conceiving and setting up the company."
+    },
+    {
+     "step": 2,
+     "action": "check the functions",
+     "explain": "List idea discovery, investigation and resource assembling."
+    },
+    {
+     "step": 3,
+     "action": "confirm fiduciary duty",
+     "explain": "Recall the trust like duty owed to the coming company."
+    }
+   ]
+  },
+  {
+   "id": "kebs.107.2.1",
+   "title": "Incorporation: Registration Documents and Certificate",
+   "section": "Incorporation",
+   "definition": "Incorporation brings the company into legal existence through registration with the Registrar of Companies by filing the memorandum of association, articles of association, declaration and the prescribed fee, after which a certificate of incorporation is issued granting the company its birth.",
+   "formula": "",
+   "key_idea": "From the date of the certificate of incorporation, the company becomes an artificial person with separate legal entity and perpetual succession.",
+   "textbook_ref": "kebs107.txt incorporation stage section",
+   "question_patterns": [
+    "state the steps of incorporation of a company",
+    "which documents are filed for registration of a company",
+    "what is a certificate of incorporation and its effect",
+    "what is the memorandum of association",
+    "differentiate memorandum and articles of association",
+    "why is the registered office address required"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the documents",
+     "explain": "Recall memorandum, articles, declaration and fee."
+    },
+    {
+     "step": 2,
+     "action": "follow the registration",
+     "explain": "File with the Registrar and obtain the certificate."
+    },
+    {
+     "step": 3,
+     "action": "note the legal birth",
+     "explain": "State the rights gained on incorporation."
+    }
+   ]
+  },
+  {
+   "id": "kebs.107.3.1",
+   "title": "Capital Subscription: SEBI and Minimum Subscription",
+   "section": "Capital subscription",
+   "definition": "After incorporation the company raises capital through public subscription, requiring a name approval earlier, securities from SEBI, filing of prospectus or statement in lieu of prospectus, minimum subscription, and allotment of shares after the application money is received.",
+   "formula": "",
+   "key_idea": "Minimum subscription is the minimum amount stated in the prospectus that must be raised before allotment, and SEBI regulates the disclosure and investor protection norms of public issues.",
+   "textbook_ref": "kebs107.txt capital subscription stage section",
+   "question_patterns": [
+    "what steps are taken for capital subscription of a company",
+    "what is minimum subscription and why is it required",
+    "state the role of sebi in company fund raising",
+    "what is a prospectus and who issues it",
+    "when is a statement in lieu of prospectus filed",
+    "define underwriting of shares"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the regulatory clearance",
+     "explain": "Confirm SEBI registration of the issue documents."
+    },
+    {
+     "step": 2,
+     "action": "verify the public offer documents",
+     "explain": "Recall prospectus or statement in lieu of prospectus."
+    },
+    {
+     "step": 3,
+     "action": "apply allotment rules",
+     "explain": "Check minimum subscription before shares are allotted."
+    }
+   ]
+  },
+  {
+   "id": "kebs.107.4.1",
+   "title": "Commencement of Business",
+   "section": "Commencement of business",
+   "definition": "A public company must obtain a certificate of commencement of business by filing the statement of share capital and a declaration that minimum subscription has been raised before it can start operations or borrow, while a private company can begin business after incorporation.",
+   "formula": "",
+   "key_idea": "The certificate of commencement of business is the final licence that lets a public company start its operations.",
+   "textbook_ref": "kebs107.txt commencement stage section",
+   "question_patterns": [
+    "what is a certificate of commencement of business",
+    "which companies need the certificate of commencement",
+    "compare private and public company on commencement of business",
+    "what documents support the commencement application",
+    "can a public company borrow before commencement explain",
+    "state the final stage of company formation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the company type",
+     "explain": "Check whether the company is public or private."
+    },
+    {
+     "step": 2,
+     "action": "check the filing",
+     "explain": "Recall the statement of share capital and declaration."
+    },
+    {
+     "step": 3,
+     "action": "verify the permission",
+     "explain": "Confirm the certificate before business begins."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kebs107.txt exercises",
+   "questions": [
+    "State the steps in the formation of a company.",
+    "What is a promoter? Explain his functions and legal position.",
+    "Differentiate between memorandum of association and articles of association.",
+    "What is meant by minimum subscription?",
+    "Explain the role of SEBI in capital subscription."
+   ]
+  }
+ ]
+}

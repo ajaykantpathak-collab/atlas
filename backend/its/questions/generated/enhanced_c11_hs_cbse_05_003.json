@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_05_003",
+   "title": "c11_hs_cbse_05_003",
+   "questions": [
+    {
+     "q": "List the four fibre properties that collectively determine spinnability, and state the minimum requirement for each property that allows a fibre to be spun into a continuous yarn on a ring-spinning frame.",
+     "a": "The four properties are: (1) Fibre length – must exceed the critical fibre length (typically >12 mm for cotton-type spinning) to allow fibre-to-fibre friction to transmit twist; (2) Tensile strength – must withstand the drafting and twisting tensions without excessive breakage (minimum ~1.5 g/denier for cotton); (3) Flexibility – must bend repeatedly around other fibres during twisting without fracturing (bending rigidity low enough to permit 180° bends over short radii); (4) Surface friction/cohesion – must provide sufficient inter-fibre friction (coefficient of friction >0.15) to prevent fibre slippage under twist. A wrong answer that omits \"surface friction\" or \"flexibility\" reveals the student thinks only length and strength matter, ignoring the mechanical interlocking and bending that actually hold a yarn together.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Silk is a filament fibre, so it has infinite length; therefore it has the best spinnability of all fibres.\" Explain why this reasoning is incomplete by identifying which spinnability property silk lacks compared to cotton, and how that deficiency is overcome during silk yarn manufacture.",
+     "a": "Silk filaments have excellent length, strength, and flexibility, but their surface is smooth and sericin-coated, giving very low inter-fibre friction (cohesion). Without the natural scales or convolutions found on cotton/wool, silk filaments slip past each other when twist is inserted. This is overcome by (a) degumming to remove sericin, increasing surface roughness, and (b) throwing—twisting multiple filaments together (plying) so that filament-to-filament friction is multiplied. A wrong answer that says \"silk has no spinnability issues because it's a filament\" reveals the misconception that length alone guarantees spinnability, ignoring the essential role of surface cohesion in staple-fibre spinning mechanics.",
+     "self_check": true
+    },
+    {
+     "q": "You are given two unknown fibres, Fibre X and Fibre Y. Fibre X: length 35 mm, tenacity 3.5 g/denier, moisture regain 8.5%, elastic recovery 65% at 2% strain. Fibre Y: length 40 mm, tenacity 5.0 g/denier, moisture regain 0.4%, elastic recovery 95% at 2% strain. For a summer school shirt in a humid climate, which fibre would provide better wearer comfort? Justify your choice using at least three consumer-satisfaction properties.",
+     "a": "Fibre X (cotton-like) is better for summer comfort. Reasoning: (1) Moisture regain 8.5% vs 0.4% → Fibre X absorbs sweat, creating evaporative cooling; Fibre Y leaves moisture on skin, causing clamminess. (2) Thermal insulation: higher moisture regain fibres feel cooler initially due to heat of sorption; low-regain fibres feel warmer. (3) Tactile feel: Fibre X's moderate elastic recovery (65%) gives a soft, non-clingy drape; Fibre Y's high recovery (95%) with low moisture creates a synthetic, clammy hand. (4) Dye affinity (implied by moisture regain): cellulosic fibres (X) take reactive dyes with high wash fastness for school uniforms. A wrong answer choosing Fibre Y because \"higher strength and elastic recovery mean better durability\" reveals the student prioritises durability properties over comfort properties for a context where comfort is the primary consumer-satisfaction driver.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the abrasion resistance mechanism of nylon (polyamide) and wool (protein) at the molecular level. Explain why nylon shows higher flat abrasion resistance but wool shows better flex abrasion resistance in end-use conditions.",
+     "a": "Nylon: linear aliphatic polyamide chains with strong hydrogen bonding between chains → high crystallinity, high tensile strength, high yield point → resists fibre rupture during flat abrasion (Martindale test). Wool: α-keratin with helical coiled-coil structure, disulphide cross-links, and matrix proteins → lower tensile strength but high extensibility (30–40%) and elastic recovery → during flex abrasion (repeated bending), wool fibres stretch and recover, dissipating energy without breaking, whereas nylon's lower extensibility (~20%) and higher modulus cause stress concentration at bend points, leading to fatigue fracture. A wrong answer stating \"nylon is stronger so it wins in all abrasion\" reveals the student conflates tensile strength with abrasion resistance and ignores the deformation mechanism (flat vs flex) that differentiates the two fibres' real-world performance.",
+     "self_check": true
+    },
+    {
+     "q": "A textile manufacturer claims: \"Our new 100% acrylic blanket outperforms wool because acrylic has higher tenacity, lower moisture regain, and is moth-proof.\" Evaluate this claim for a consumer in a cold, damp climate who values thermal comfort and ease of care. Provide a balanced judgment with three supporting arguments.",
+     "a": "The claim is partially valid but misleading for the stated context. Judgment: Acrylic wins on care (moth-proof, washable, quick-dry) but loses on thermal comfort in cold-damp conditions. Arguments: (1) Moisture regain: wool ~16%, acrylic ~1.5% → wool absorbs ambient humidity, releasing heat of sorption (exothermic) that warms the microclimate; acrylic cannot, so the wearer feels colder in damp air. (2) Thermal insulation: wool's crimped, scaly structure traps more still air per unit weight than acrylic's round, smooth fibres; wool blankets are warmer at equal weight. (3) Durability trade-off: acrylic's higher tenacity (2.5–3.5 g/denier) vs wool (1.0–1.5 g/denier) gives better abrasion resistance, but wool's superior elastic recovery (99% at 2% strain) maintains loft and insulation after repeated compression. A wrong answer that fully accepts the claim reveals the student evaluates fibres on isolated lab properties without integrating the thermodynamic interaction between fibre, moisture, and human physiology in the actual use environment.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical fibre property profile (specify numerical ranges for length, tenacity, moisture regain, elastic recovery, and surface friction) for a next-generation fibre intended for high-performance athletic base layers that must simultaneously manage sweat, retain warmth when wet, resist odour, and survive 200+ wash cycles. Explain how each chosen value addresses a specific performance requirement.",
+     "a": "Target profile: Length 38–45 mm (staple for ring spinning, long enough for low hairiness); Tenacity 4.0–5.0 g/denier (wet & dry) for seam strength and abrasion in pack straps; Moisture regain 12–15% (hydrophilic amorphous regions) for sweat absorption + heat of sorption warmth when wet; Elastic recovery >90% at 3% strain for stretch-fit and shape retention after movement; Surface friction coefficient 0.25–0.35 (controlled micro-roughness) for yarn cohesion without pilling; Thermal conductivity <0.04 W/m·K for insulation; Inherent antimicrobial (e.g., chitosan graft) for odour resistance. Each value maps to a requirement: length/tenacity → manufacturing + durability; moisture regain/thermal conductivity → thermophysiological comfort; elastic recovery → fit; surface friction → yarn integrity + anti-pill; antimicrobial → hygiene. A poor answer that copies cotton or polyester values without justifying trade-offs reveals the student cannot synthesise a multi-objective property specification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "catalog": "catalog_class8_science_hecu107.json",
+ "concepts": [
+  {
+   "id": "hecu.107.7.1",
+   "title": "Matter Is Made of Particles",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is matter made of?",
+     "a": "Tiny particles (atoms/molecules) with spaces between them, always moving and attracting each other.",
+     "self_check": true
+    },
+    {
+     "q": "How does heating affect particles of matter?",
+     "a": "Heat makes particles move faster and spread apart, changing state if enough heat is given.",
+     "self_check": true
+    },
+    {
+     "q": "Why can we smell food cooking in the next room?",
+     "a": "Particles of the smell mix with air and travel to us - diffusion shows matter is particulate.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.107.7.2",
+   "title": "States of Matter and Interparticle Space",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the three states of matter.",
+     "a": "Solid, liquid and gas.",
+     "self_check": true
+    },
+    {
+     "q": "How do the spaces between particles differ in the three states?",
+     "a": "Solids: packed tight; liquids: loosely spaced; gases: very far apart.",
+     "self_check": true
+    },
+    {
+     "q": "Which state has fixed shape and volume?",
+     "a": "Solids have both; liquids keep volume but take the container's shape; gases fill any space.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.107.7.3",
+   "title": "Change of State by Heating and Cooling",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What happens to ice on heating?",
+     "a": "It melts into water - particles gain energy and slide past each other (change of state).",
+     "self_check": true
+    },
+    {
+     "q": "What is condensation?",
+     "a": "A gas turning into liquid on cooling, like steam becoming water drops on a cold lid.",
+     "self_check": true
+    },
+    {
+     "q": "Can a solid change directly to gas? Name an example.",
+     "a": "Yes - sublimation, as naphthalene balls or camphor vanish into vapour.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hecu.107.7.4",
+   "title": "Movement of Particles in Different States",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "In which state do particles move fastest?",
+     "a": "Gas - its particles fly freely in all directions at high speed.",
+     "self_check": true
+    },
+    {
+     "q": "Why do liquids flow while solids keep shape?",
+     "a": "Liquid particles can slide over each other; solid particles only vibrate in place.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a gas fill its container completely?",
+     "a": "Its particles move freely in all directions with almost no attraction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_04_002",
+   "title": "c12_biotech_cbse_04_002",
+   "questions": [
+    {
+     "q": "**REMEMBER level:** Name the yeast plasmid vector used for the first licensed recombinant subunit vaccine (Hepatitis B surface antigen) and state the promoter driving its expression.",
+     "a": "Correct answer: The vector is **pMA56**, a *S. cerevisiae* shuttle vector containing the **alcohol dehydrogenase (ADH1) promoter** upstream of the HBsAg gene. A wrong answer (e.g., \"pBR322 with lac promoter\") reveals the student confuses *E. coli* vectors with yeast vectors and does not recall the specific NCERT Box 5 example. This error costs marks in board questions asking for the \"first recombinant vaccine produced in yeast.\"",
+     "self_check": true
+    },
+    {
+     "q": "**UNDERSTAND level:** A researcher clones a human glycoprotein gene into *S. cerevisiae* under the GAL1 promoter with an α-factor secretion signal. The protein is secreted but shows reduced in vivo half-life in mouse trials. Explain the most likely molecular cause rooted in yeast glycosylation machinery.",
+     "a": "Correct answer: *S. cerevisiae* performs **high-mannose N-glycosylation** (Man₈₋₁₄GlcNAc₂) instead of human complex sialylated glycans. Terminal mannose residues are recognised by mammalian mannose receptors on macrophages, causing rapid clearance. A wrong answer blaming \"protease degradation\" or \"incorrect folding\" misses the specific glycosylation difference taught in NCERT and competitive exams. This misconception persists because students memorise \"yeast does glycosylation\" without learning the structural difference.",
+     "self_check": true
+    },
+    {
+     "q": "**APPLY level:** You are tasked to produce a 45 kDa human cytokine that requires disulfide bonds and one N-glycosylation site for activity. Choose between *E. coli* (c12_biotech_cbse_04_001), *S. cerevisiae*, and *P. pastoris*. Justify your choice with three specific reasons.",
+     "a": "Correct answer: Choose ***P. pastoris*** (or *S. cerevisiae* with caveats). Reasons: (1) Eukaryotic ER/Golgi enables **disulfide bond formation** (unlike *E. coli* cytoplasm), (2) **N-glycosylation machinery** exists (absent in *E. coli*), (3) *P. pastoris* AOX1 promoter gives **very high expression** on methanol induction and secretes protein via α-factor, simplifying purification. A wrong answer choosing *E. coli* ignores the glycosylation/disulfide requirement; choosing *S. cerevisiae* without mentioning hyperglycosylation risk shows incomplete analysis.",
+     "self_check": true
+    },
+    {
+     "q": "**ANALYZE level:** Compare the vector architectures of pMA56 (yeast) and pET-28a (E. coli) for recombinant protein production. Identify three functional elements present in pMA56 but absent or different in pET-28a, and explain why each is necessary for yeast.",
+     "a": "Correct answer: (1) **2µm ARS (Autonomously Replicating Sequence)** — allows episomal replication in yeast; *E. coli* uses pBR322 ori. (2) **TRP1 (tryptophan biosynthesis) gene** — nutritional selection in yeast auxotrophs; *E. coli* uses antibiotic resistance (kanamycin). (3) **ADH1 promoter + α-factor pre-pro leader** — eukaryotic RNA Pol II transcription + ER secretion signal; *E. coli* uses T7/lac promoter and no secretion signal for cytoplasmic expression. A wrong answer listing only \"promoter and terminator\" fails to distinguish prokaryotic vs eukaryotic vector biology.",
+     "self_check": true
+    },
+    {
+     "q": "**EVALUATE level:** A biotech startup proposes using wild-type *S. cerevisiae* to produce a human monoclonal antibody (mAb) for cancer therapy. Critique this proposal on three grounds: glycosylation, assembly, and regulatory approval.",
+     "a": "Correct critique: (1) **Glycosylation**: Yeast adds α-1,3-mannose and β-1,2-mannose linkages → **immunogenic in humans** (anti-yeast antibodies), unlike human Fc sialylation needed for ADCC/CDC effector functions. (2) **Assembly**: mAbs require heavy-light chain pairing and correct disulfide bonding; yeast ER chaperones may misfold complex heteromultimers, yielding low functional titers. (3) **Regulatory**: FDA/EMA require **glyco-engineered hosts** (e.g., *P. pastoris* GlycoSwitch® or CHO cells) for therapeutic mAbs; wild-type yeast product would fail comparability studies. A weak answer saying \"yeast is not good for antibodies\" without molecular specifics shows superficial evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "**CREATE level:** Design a minimal yeast expression cassette for secreting a human growth hormone (hGH) variant in *P. pastoris*. Specify: promoter, secretion signal, gene modifications (if any), terminator, and selection strategy. Explain each choice in one sentence.",
+     "a": "Expected answer: **Promoter**: AOX1 (methanol-inducible, strongest in *P. pastoris*). **Secretion signal**: *S. cerevisiae* α-factor pre-pro leader (cleaved by Ste13/Kex2 in Golgi). **Gene modification**: Remove native signal peptide; codon-optimise for *P. pastoris* (high A/T bias); add C-terminal His₆ tag for purification. **Terminator**: AOX1 3'UTR or CYC1 terminator (polyadenylation). **Selection**: Zeocin™ resistance (Sh ble gene) on YPDS plates — works in wild-type strains without auxotrophy. A poor answer copies *E. coli* elements (lac promoter, no secretion signal) or omits codon optimisation, revealing failure to transfer knowledge across expression systems.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

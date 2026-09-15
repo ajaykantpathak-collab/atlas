@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_03_006",
+   "title": "c10_phy_cbse_03_006",
+   "questions": [
+    {
+     "q": "State the two primary sources of Earth's internal heat that make geothermal energy possible, and give the typical geothermal gradient value (°C/km) in tectonically stable regions.",
+     "a": "The two primary sources are: (1) radioactive decay of uranium, thorium, and potassium isotopes in the crust and mantle, and (2) primordial heat from planetary accretion and core formation. The typical geothermal gradient in stable continental regions is 25–30°C/km. A wrong answer (e.g., citing only volcanic activity or solar heating) reveals confusion between geothermal (Earth-internal) and other renewable sources; omitting radioactive decay shows ignorance of the dominant continuous heat production mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why binary cycle power plants can generate electricity from lower-temperature geothermal resources (100–180°C) while dry steam plants require >230°C, referencing the working fluid's thermodynamic properties.",
+     "a": "Binary plants use a secondary working fluid (e.g., isobutane, R-134a) with a lower boiling point and higher vapor pressure at moderate temperatures than water. This allows efficient vaporization and turbine expansion using geothermal fluid at 100–180°C via a heat exchanger, without the geothermal fluid flashing to steam. Dry steam plants directly pipe geothermal steam to turbines, requiring high-temperature (>230°C), high-pressure steam to achieve sufficient enthalpy drop for efficient expansion. A wrong answer focusing only on \"different fluids\" without explaining boiling point/vapor pressure relationship shows superficial understanding of thermodynamic matching between resource temperature and power cycle.",
+     "self_check": true
+    },
+    {
+     "q": "A geothermal power plant receives 500 kg/s of hot water at 200°C. The binary cycle plant uses isobutane (boiling point -11.7°C at 1 atm) as working fluid with a heat exchanger effectiveness of 85%. If the geothermal water exits at 120°C and the plant's net electrical efficiency is 12%, calculate the electrical power output in MW. (Specific heat of water = 4.18 kJ/kg·K)",
+     "a": "**Step 1:** Identify given: ṁ_water = 500 kg/s, T_in = 200°C, T_out = 120°C, c_water = 4.18 kJ/kg·K, η_heat_exchanger = 85%, η_electrical = 12%. Find: P_electrical (MW).  \n**Step 2:** Heat transferred from geothermal water: Q_geo = ṁ_water × c_water × (T_in - T_out) = 500 × 4.18 × (200 - 120) = 500 × 4.18 × 80 = 167,200 kW = 167.2 MW (thermal).  \n**Step 3:** Heat actually transferred to working fluid: Q_wf = η_heat_exchanger × Q_geo = 0.85 × 167.2 = 142.12 MW (thermal).  \n**Step 4:** Electrical power output: P_elec = η_electrical × Q_wf = 0.12 × 142.12 = 17.0544 MW.  \n**Step 5:** Verify: Carnot efficiency between 200°C (473 K) and 30°C (303 K) = 1 - 303/473 = 36%; 12% net is realistic for binary cycle. Answer: **17.1 MW (approx)**.  \nA wrong answer forgetting heat exchanger effectiveness (yielding 20.1 MW) reveals ignorance of real-world heat transfer losses; using °C instead of K for Carnot check shows temperature scale confusion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the environmental impact profiles of a flash steam plant vs. a binary cycle plant at the same geothermal site. Analyze which plant type is more suitable for a location near a densely populated agricultural region, justifying with three specific impact categories.",
+     "a": "Binary cycle plant is more suitable. Three impact categories:  \n(1) **Gas emissions**: Flash plants release non-condensable gases (CO₂, H₂S, NH₃, CH₄) directly to atmosphere during steam separation; binary plants keep geothermal fluid in closed loop, reinjecting all gases — near-zero emissions.  \n(2) **Water consumption/chemistry**: Flash plants consume steam (lost to atmosphere) requiring makeup water; binary plants reinject 100% fluid, preserving aquifer and preventing toxic brine discharge into agricultural water.  \n(3) **Induced seismicity**: Both reinject fluid, but binary plants typically reinject at lower pressure/temperature, reducing thermal stress on rock fractures.  \nA wrong answer choosing flash steam due to \"higher efficiency\" ignores that binary plants' slightly lower efficiency is outweighed by environmental compliance in sensitive areas; missing reinjection distinction shows incomplete lifecycle analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Geothermal energy is completely renewable and sustainable everywhere because Earth's internal heat is practically infinite.\" Identify two geological conditions where this claim fails, and one engineering practice that can extend sustainability at a specific site.",
+     "a": "The claim fails under: (1) **Low heat recharge rate**: In regions with low geothermal gradient (<25°C/km) and no magma proximity, heat extraction exceeds conductive/convective recharge → reservoir cools in decades (e.g., The Geysers, California, saw pressure decline). (2) **Impermeable reservoir**: Hot dry rock without natural fractures cannot circulate fluid; artificial stimulation (EGS) is needed but not always feasible. Engineering practice to extend sustainability: **Managed reinjection** — reinjecting cooled fluid at strategic locations maintains reservoir pressure and creates thermal sweep, delaying thermal breakthrough. A wrong answer citing only \"infinite heat\" ignores that renewability depends on *extraction rate vs. recharge rate*, not total resource size; missing reinjection shows ignorance of reservoir management.",
+     "self_check": true
+    },
+    {
+     "q": "Design a conceptual direct-use geothermal system for a rural community in Ladakh (cold desert, high altitude) using a 90°C hydrothermal resource at 1.5 km depth. Specify: (a) two direct-use applications prioritized for local needs, (b) one reason why binary cycle electricity generation is less favorable than direct use here, (c) one geological risk specific to Himalayan tectonics.",
+     "a": "(a) **Space heating** (greenhouses, homes, livestock shelters) and **agricultural drying** (apricots, barley) — highest thermal demand in cold desert, uses 90°C fluid directly without conversion losses.  \n(b) Binary cycle at 90°C has very low Carnot efficiency (1 - 273/363 ≈ 25% theoretical, ~8-10% net); parasitic losses from pumping at high altitude (low air density → poor condenser cooling) further reduce net output. Direct use captures ~90% of thermal energy.  \n(c) **Active faulting/seismicity**: Himalayan convergence zone has frequent earthquakes; reinjection-induced seismicity risk is amplified on pre-stressed faults, potentially triggering damaging events.  \nA poor answer suggesting electricity generation as priority misjudges energy quality matching; ignoring altitude effect on air-cooled condensers shows lack of systems thinking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

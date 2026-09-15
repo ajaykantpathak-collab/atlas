@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_07_005",
+   "title": "c12_geo_cbse_07_005",
+   "questions": [
+    {
+     "q": "A student classifies \"software development for a multinational corporation\" as a personal service because it involves individual programmers writing code. Is this correct? Justify your answer in two sentences.",
+     "a": "Incorrect. Software development for an MNC is a business service (often also professional) because its primary client is another business, it supports commercial operations, and it requires high skill/certification — not direct service to an individual consumer. A wrong answer reveals confusion between the *nature of work* (individual coding) and the *client relationship* (B2B vs B2C), a common error when students focus on labor process instead of market orientation.",
+     "self_check": true
+    },
+    {
+     "q": "Why do high-order professional services like specialized medical centers and corporate law firms cluster in metropolitan cores (e.g., Delhi, Mumbai) rather than distributing evenly across towns? Explain using threshold population and range concepts.",
+     "a": "High-order professional services have high threshold population (minimum clients needed to sustain the practice) and long range (maximum distance clients travel). Only metropolitan cores provide sufficient affluent population within travel distance. A wrong answer that cites \"better infrastructure\" or \"prestige\" without linking to threshold/range shows the student memorizes factors but doesn't grasp the central place theory logic that governs service location.",
+     "self_check": true
+    },
+    {
+     "q": "Given: Town A (population 50,000, avg. income ₹15,000/month) and City B (population 5 million, avg. income ₹40,000/month). A chartered accountancy firm requires 200 corporate clients/year to break even. Only 2% of businesses in Town A and 5% in City B need such services. Business density is 1 per 500 people in both. Where should the firm locate? Show calculations.",
+     "a": "Step 1: Calculate businesses in Town A = 50,000/500 = 100. Potential clients = 2% of 100 = 2. < 200 needed → not viable.\nStep 2: Businesses in City B = 5,000,000/500 = 10,000. Potential clients = 5% of 10,000 = 500. > 200 → viable.\nStep 3: Firm locates in City B. A wrong answer choosing Town A (lower competition) ignores threshold calculation; choosing \"both\" ignores that Town A cannot meet minimum demand. This tests application of threshold concept with real numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the locational pattern of a hair salon chain (personal service) vs. a management consulting firm (business service) across a state. Identify two geographical factors that explain why the salon chain has 50 outlets while the consulting firm has only 2.",
+     "a": "Factor 1: Threshold population — salon needs ~5,000 local residents per outlet; consulting firm needs ~500,000 corporate clients per office. Factor 2: Range — salon clients travel <5 km; consulting clients travel 100+ km to major hubs. A wrong answer listing \"rent\" or \"competition\" without distinguishing threshold/range magnitudes shows inability to apply central place hierarchy to different service orders.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"The rapid growth of app-based gig services (food delivery, ride-hailing, home repairs) represents a shift from personal services to business services because platforms like Zomato and Urban Company are corporations.\" Is this statement geographically sound?",
+     "a": "Unsound. The *platform* is a business service, but the *gig workers* (drivers, delivery agents, plumbers) provide personal services directly to consumers. Geographically, gig workers disperse with population density (like traditional personal services), while platform HQs cluster in tech hubs (like business services). A student calling it purely business service conflates the intermediary with the actual service delivered, missing the dual spatial pattern — a critical error for CUET/JEE case studies on platform economy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a service location plan for a new district (population 2 lakh, mixed income) that currently has no professional services. Specify: (a) which professional service to prioritize, (b) threshold calculation, (c) site within district, (d) one risk if threshold is miscalculated.",
+     "a": "(a) Primary health clinic (doctor + diagnostics) — highest universal demand. (b) Threshold: 1 doctor per 10,000 people (WHO norm) → 20 doctors needed. With 30% utilization rate, 60,000 catchment per doctor → 2 lakh population supports 3-4 clinics. (c) Site: Near bus stand/main road intersection for maximum accessibility (range minimization). (d) Risk: If threshold overestimated → clinic fails financially; if underestimated → underserved population travels to city, increasing time-cost. A poor answer picks \"law firm\" (low demand) or ignores catchment calculation, showing inability to match service order to population size.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,311 @@
+{
+  "class": 12,
+  "subject": "biology",
+  "chapter": 110,
+  "chapter_title": "Biotechnology and Its Applications",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lebo110.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "lebo110.10.1.1",
+      "title": "Tissue Culture, Totipotency and Micro-propagation",
+      "section": "10.1",
+      "definition": "Any living part of a plant excised and grown sterile in a nutrient tube -- an explant -- can regenerate an entire organism, a capacity called totipotency; scaling this up produces thousands of genetically identical somaclones in weeks (micro-propagation), and because apical and axillary meristems always stay virus-free even in sick plants, culturing an excised meristem recovers healthy stock of banana, sugarcane or potato.",
+      "formula": "",
+      "key_idea": "The medium must play chemist -- carbon source such as sucrose, inorganic salts, vitamins, amino acids and growth regulators like auxins and cytokinins -- for the explant to rebuild a whole plant.",
+      "textbook_ref": "lebo110.txt lines 54-79 (explant, totipotency, nutrient medium, micro-propagation, somaclones, meristem culture)",
+      "question_patterns": [
+        "define totipotency and explain how an explant regrows a whole plant",
+        "what does a tissue culture nutrient medium have to supply",
+        "why does micropropagation produce genetically identical plants called somaclones",
+        "which plant part yields virus free plants and why is it free of virus",
+        "how has meristem culture rescued commercially important crops",
+        "compare micropropagation with conventional breeding for speed of plant production"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Explain totipotency", "explain": "Since the 1950s scientists knew whole plants regenerate from any excised part (explant) grown sterile in a special nutrient medium -- every living cell retains the full genetic programme."},
+        {"step": 2, "action": "Feed the culture", "explain": "The medium supplies a carbon source (sucrose), inorganic salts, vitamins, amino acids and growth regulators such as auxins and cytokinins."},
+        {"step": 3, "action": "Scale it up", "explain": "Micro-propagation turns the trick into thousands of plants in short order, each a somaclone identical to the parent -- tomato, banana and apple are done commercially."},
+        {"step": 4, "action": "Cure the virus", "explain": "Meristems (apical and axillary) escape viral infection even in diseased plants, so excising and culturing them in vitro yields virus-free banana, sugarcane and potato."}
+      ]
+    },
+    {
+      "id": "lebo110.10.1.2",
+      "title": "Protoplast Fusion and Somatic Hybridisation",
+      "section": "10.1",
+      "definition": "Digesting away the cell walls of single plant cells leaves naked protoplasts wrapped only in plasma membrane; fusing protoplasts from two chosen varieties generates a hybrid protoplast that grows into a somatic hybrid plant carrying traits of both -- the tomato-potato fusion nicknamed pomato worked technically, though the combination never suited commerce.",
+      "formula": "",
+      "key_idea": "Strip the walls, merge the membranes -- somatic hybridisation crosses sexual barriers by fusing cells instead of gametes.",
+      "textbook_ref": "lebo110.txt lines 80-95 (protoplast isolation, fusion, somatic hybrids, pomato)",
+      "question_patterns": [
+        "what are protoplasts and how are they isolated from plant cells",
+        "explain somatic hybridisation with the pomato example",
+        "how does protoplast fusion differ from conventional sexual hybridisation",
+        "what is a somatic hybrid plant",
+        "why did the pomato fail commercially despite the technical success",
+        "which enzyme action prepares plant cells for protoplast fusion"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Nake the cells", "explain": "Single cells isolated from two varieties are treated to digest their walls, leaving protoplasts enclosed only by plasma membranes."},
+        {"step": 2, "action": "Fuse chosen partners", "explain": "Protoplasts each carrying a desirable character are fused into hybrid protoplasts."},
+        {"step": 3, "action": "Regrow the hybrid", "explain": "The fused cell regenerates into a somatic hybrid plant mixing both parents' traits -- tomato plus potato yielded the famous pomato, a laboratory success without commercial payoff."}
+      ]
+    },
+    {
+      "id": "lebo110.10.1.3",
+      "title": "GM Crops and Their Benefits",
+      "section": "10.1",
+      "definition": "Plants, bacteria, fungi and animals whose genes humans have altered are gene-modified organisms, and gm crops answer the gaps the green revolution left: tolerance to abiotic stresses like cold, drought, salt and heat, less pesticide dependence through pest-resistant varieties, reduced post-harvest losses, more efficient mineral use that spares soil fertility, and better nutrition -- the vitamin a enriched golden rice being the emblem -- plus tailor-made industrial starches, fuels and pharmaceuticals.",
+      "formula": "",
+      "key_idea": "Agrochemicals are costly and conventional breeding has plateaued -- gene modification adds traits breeding cannot deliver fast enough.",
+      "textbook_ref": "lebo110.txt lines 42-118 (three agriculture options, green revolution limits, five GM benefits, golden rice)",
+      "question_patterns": [
+        "list the benefits genetic modification brings to crop plants",
+        "what is golden rice and why was it engineered",
+        "why did the green revolution alone fail to secure food supply",
+        "compare agrochemical based organic and gene engineered agriculture",
+        "how do gm crops reduce reliance on chemical pesticides",
+        "which gm trait helps prevent early exhaustion of soil fertility"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Frame the problem", "explain": "The green revolution tripled food but mostly via agrochemicals that developing-world farmers cannot afford, and conventional breeding has squeezed out the yield gains it can."},
+        {"step": 2, "action": "Define gmos", "explain": "Organisms whose genes people have deliberately altered -- plants, bacteria, fungi, animals -- are gene-modified organisms."},
+        {"step": 3, "action": "Tally the gains", "explain": "Stress tolerance (cold, drought, salt, heat), built-in pest resistance, lower post-harvest losses, efficient mineral use, and enhanced nutrition as in vitamin a rich golden rice."},
+        {"step": 4, "action": "Add the industrial angle", "explain": "Tailor-made plants also supply alternative resources -- starches, fuels and pharmaceuticals -- to industry."}
+      ]
+    },
+    {
+      "id": "lebo110.10.1.4",
+      "title": "Bt Toxin, cry Genes and Bt Cotton",
+      "section": "10.1",
+      "definition": "Bacillus thuringiensis packs insecticidal protein crystals during one growth phase, but the poison sits as inactive protoxin that only dissolves and activates in an insect's alkaline midgut -- sparing the bacterium itself; the cloned cry genes (cryiac and cryiiab against cotton bollworm, cryiab against corn borer) expressed in plants give built-in protection to bt cotton, corn, rice, tomato, potato and soyabean, killing lepidopterans, coleopterans and dipterans by punching pores in midgut cells that swell and lyse.",
+      "formula": "",
+      "key_idea": "Alkaline gut chemistry is the switch -- the protoxin is harmless everywhere until an insect's own digestion arms it.",
+      "textbook_ref": "lebo110.txt lines 119-148 (Bt toxin crystals, protoxin activation, cry genes, Bt cotton and crops)",
+      "question_patterns": [
+        "why do bt toxin crystals not kill the bacillus that makes them",
+        "how does the inactive protoxin become lethal inside the insect gut",
+        "which cry genes protect cotton against bollworms",
+        "name the insect groups killed by bt toxin proteins",
+        "what is bt cotton and how was the toxin gene introduced",
+        "why does the activated toxin cause midgut cells to swell and lyse"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Describe the crystals", "explain": "Some bacillus thuringiensis strains form protein crystals containing a toxic insecticidal protein during a particular growth phase."},
+        {"step": 2, "action": "Explain the safety switch", "explain": "The toxin exists as inactive protoxin; only when an insect ingests it does the alkaline pH of the gut solubilise the crystals and arm the toxin -- which is why the bacterium survives its own poison."},
+        {"step": 3, "action": "Follow the kill mechanism", "explain": "Activated toxin binds midgut epithelial surfaces and opens pores; the cells swell and lyse, and the insect dies -- with specificity per insect group (lepidopterans, coleopterans, dipterans)."},
+        {"step": 4, "action": "Move the gene into crops", "explain": "Specific cry genes cloned from the bacterium were expressed in crops -- cryiac and cryiiab guard cotton from bollworms, cryiab shields corn from borers -- creating bio-pesticide plants like bt cotton without sprays."}
+      ]
+    },
+    {
+      "id": "lebo110.10.1.5",
+      "title": "RNA Interference and Nematode-Resistant Tobacco",
+      "section": "10.1",
+      "definition": "Rna interference is a eukaryotic cellular defence that silences a specific mrna when a complementary double-stranded rna binds and blocks its translation; engineers exploited it against the root nematode meloidegyne incognitia by introducing nematode-specific genes through agrobacterium vectors arranged to make both sense and anti-sense rna -- the pair anneals into dsrna, the parasite's mrna falls silent, and the transgenic tobacco roots stay healthy.",
+      "formula": "",
+      "key_idea": "Feed the parasite its own mirror -- sense plus antisense transcripts build the dsrna trigger that switches off the nematode's essential genes.",
+      "textbook_ref": "lebo110.txt lines 149-167 (Meloidogyne incognitia, RNAi mechanism, sense and anti-sense RNA, protected transgenic host)",
+      "question_patterns": [
+        "explain the mechanism of rna interference as a cellular defence",
+        "how was rnai used to protect tobacco plants from nematode infection",
+        "which nematode attacks tobacco roots and what damage does it cause",
+        "why do sense and antisense rna molecules together stop translation",
+        "what role do agrobacterium vectors play in the rnai strategy",
+        "name the natural sources of double stranded rna inside cells"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Define the defence", "explain": "Rnai occurs in all eukaryotes: a complementary dsrna molecule binds a specific mrna and prevents its translation -- silencing the gene."},
+        {"step": 2, "action": "Recall natural triggers", "explain": "The complementary rna can arise from rna-genomed virus infections or from transposons replicating through an rna intermediate."},
+        {"step": 3, "action": "Engineer the trigger", "explain": "Using agrobacterium vectors, nematode-specific genes were installed in the host so its cells transcribe both sense and anti-sense rna, which anneal into dsrna."},
+        {"step": 4, "action": "Watch the parasite starve", "explain": "The dsrna silences the nematode's own mrna, meloidegyne incognitia cannot survive in the transgenic host, and the tobacco roots escape the yield-robbing infestation."}
+      ]
+    },
+    {
+      "id": "lebo110.10.2.1",
+      "title": "Genetically Engineered Insulin",
+      "section": "10.2.1",
+      "definition": "Human insulin is two short polypeptide chains, a and b, joined by disulphide bridges and cut from a longer pro-hormone whose c peptide is discarded during maturation; animal pancreas extracts triggered allergies, so in 1983 eli lilly built dna sequences for the a and b chains into plasmids of e coli, produced the chains separately and joined them with disulphide bonds -- bacterium-made human insulin, identical to the natural hormone.",
+      "formula": "",
+      "key_idea": "The c peptide is the assembly headache -- bacteria make the chains, but maturation had to be mimicked by extracting both chains and bridging them chemically.",
+      "textbook_ref": "lebo110.txt lines 176-225 (recombinant therapeutics, insulin chains, C peptide, Eli Lilly 1983)",
+      "question_patterns": [
+        "why does insulin from slaughtered animals cause allergic reactions in some patients",
+        "describe the structure of mature human insulin and its two chains",
+        "what is the c peptide and when is it removed from pro insulin",
+        "how did eli lilly produce human insulin in bacteria in 1983",
+        "why must insulin be injected rather than swallowed",
+        "how many recombinant therapeutics are approved worldwide and how many are marketed in india"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Recall the old source", "explain": "Insulin was once extracted from cattle and pig pancreases; being foreign protein, it provoked allergy and other reactions in some patients."},
+        {"step": 2, "action": "Know the molecule", "explain": "Mature insulin has an a chain and a b chain cross-linked by disulphide bridges; in mammals it is first made as a pro-hormone carrying an extra c peptide that must be excised during maturation."},
+        {"step": 3, "action": "Reproduce it in bacteria", "explain": "Eli lilly prepared two dna sequences matching the a and b chains, inserted them into e coli plasmids, grew the chains separately, extracted them and stitched them into mature human insulin via disulphide bonds."},
+        {"step": 4, "action": "Place it in context", "explain": "About 30 recombinant therapeutics are approved for humans worldwide and 12 are marketed in india; being identical to human proteins they avoid the unwanted immunological responses of animal extracts."}
+      ]
+    },
+    {
+      "id": "lebo110.10.2.2",
+      "title": "Gene Therapy: Correcting ADA Deficiency",
+      "section": "10.2.2",
+      "definition": "Gene therapy is a set of methods for correcting a gene defect diagnosed in a child or embryo by inserting normal genes into the patient's cells and tissues to take over the failed gene's job; the 1990 landmark treated a four-year-old with adenosine deaminase deficiency -- lymphocytes grown outside the body received a functional ada cdna through a retroviral vector and were returned, requiring periodic infusions since such cells are not immortal, while introducing the gene at the embryonic stage could cure permanently.",
+      "formula": "",
+      "key_idea": "Lymphocyte therapy buys time, embryonic delivery buys a lifetime -- the difference between periodic infusion and permanent cure.",
+      "textbook_ref": "lebo110.txt lines 226-249 (gene therapy definition, 1990 ADA case, retroviral vector, marrow and enzyme replacement options)",
+      "question_patterns": [
+        "what is gene therapy and which defect did the first clinical attempt treat",
+        "outline the steps of gene therapy given to the ada deficient girl",
+        "why does ada deficiency damage the immune system",
+        "compare bone marrow transplantation with enzyme replacement therapy for ada deficiency",
+        "why must genetically engineered lymphocytes be re infused periodically",
+        "how could introducing ada cdna at the embryonic stage give a permanent cure"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Define the approach", "explain": "Gene therapy inserts genes into a person's cells and tissues so a normal copy compensates for the non-functional one -- the first clinical application came in 1990."},
+        {"step": 2, "action": "Know the disease", "explain": "Deletion of the adenosine deaminase gene cripples the immune system; marrow transplantation or injected functional ada help some children but neither cures completely."},
+        {"step": 3, "action": "Run the protocol", "explain": "The patient's blood lymphocytes are cultured outside the body, a functional ada cdna is delivered by a retroviral vector, and the engineered cells are returned -- repeated because lymphocytes die off."},
+        {"step": 4, "action": "See the permanent route", "explain": "Introducing the ada gene isolated from marrow-producing cells into cells at early embryonic stages could fix the defect for life."}
+      ]
+    },
+    {
+      "id": "lebo110.10.2.3",
+      "title": "Molecular Diagnosis: PCR, Probes and ELISA",
+      "section": "10.2.3",
+      "definition": "Conventional serum and urine analysis cannot catch a disease early, but molecular tools can: pcr amplifies vanishingly small amounts of pathogen nucleic acid before symptoms show (routine for hiv and for mutations in suspected cancers), a radiolabelled single-stranded dna or rna probe hybridises only to its complementary sequence so clones bearing the mutated gene stay dark on the autoradiograph, and elisa reads antigen-antibody interactions to flag either pathogen antigens or the antibodies raised against them.",
+      "formula": "",
+      "key_idea": "Amplify, hybridise, or bind -- pcr finds the trace nucleic acid, probes find the exact sequence, elisa finds the protein signature.",
+      "textbook_ref": "lebo110.txt lines 250-282 (early diagnosis, PCR for low pathogen loads and mutations, radiolabelled probe, ELISA principle)",
+      "question_patterns": [
+        "how can pcr detect a pathogen before disease symptoms appear",
+        "what is a probe and how does it locate a mutated gene",
+        "why does a clone carrying the mutated gene fail to show on the autoradiograph",
+        "on what principle does elisa work for infection detection",
+        "name the molecular techniques used for early diagnosis of disease",
+        "how is pcr used in suspected aids and cancer patients"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Amplify the trace", "explain": "Pathogen numbers only grow large once symptoms exist; pcr multiplies even minute bacterial or viral nucleic acid loads to detectable levels -- standard for hiv screening and for spotting gene mutations in suspected cancers."},
+        {"step": 2, "action": "Hybridise the probe", "explain": "A single-stranded dna or rna probe tagged with a radioactive molecule binds its complementary sequence in a cell clone; autoradiography exposes the match."},
+        {"step": 3, "action": "Read the negative", "explain": "A clone carrying the mutated gene stays off the photographic film because the probe lacks complementarity with the altered sequence."},
+        {"step": 4, "action": "Bind the protein", "explain": "Elisa rests on antigen-antibody interaction -- detecting either pathogen antigens (proteins, glycoproteins) or the antibodies the patient has made against the invader."}
+      ]
+    },
+    {
+      "id": "lebo110.10.3.1",
+      "title": "Transgenic Animals and Their Five Uses",
+      "section": "10.3",
+      "definition": "Transgenic animals carry dna manipulated to possess and express an extra foreign gene -- rats, rabbits, pigs, sheep, cows and fish exist but over 95 percent are mice -- serving to study gene regulation and normal physiology, to model human diseases such as cancer, cystic fibrosis, rheumatoid arthritis and alzheimer's, to manufacture biological products (alpha-1-antitrypsin for emphysema; rosie the cow's human alpha-lactalbumin milk at 2.4 grams per litre), to test vaccine safety such as polio, and to speed chemical toxicity testing.",
+      "formula": "",
+      "key_idea": "Sensitivity is the design goal -- transgenic testers react to toxins faster and model human diseases that ordinary animals cannot.",
+      "textbook_ref": "lebo110.txt lines 283-334 (definition, five purposes, Rosie 1997, polio vaccine testing, toxicity testing)",
+      "question_patterns": [
+        "what makes an animal transgenic and why are most transgenic animals mice",
+        "list the purposes for which transgenic animals are produced",
+        "how do transgenic animals serve as models of human disease",
+        "what did the transgenic cow rosie produce and how much per litre",
+        "how are transgenic mice used in testing the safety of the polio vaccine",
+        "why do transgenic animals speed up chemical toxicity testing"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Define and count", "explain": "Transgenic animals have their dna manipulated to hold and express a foreign gene; mice make up over 95 percent of all such animals."},
+        {"step": 2, "action": "Study genes and diseases", "explain": "They reveal how genes are regulated and affect development (insulin-like growth factor work), and they model human diseases -- cancer, cystic fibrosis, rheumatoid arthritis, alzheimer's -- letting new treatments be tried."},
+        {"step": 3, "action": "Harvest the products", "explain": "Engineered to carry product genes, they make human alpha-1-antitrypsin for emphysema and similar candidates for pku and cystic fibrosis; rosie's 1997 milk carried human alpha-lactalbumin at 2.4 g/l, better balanced for babies."},
+        {"step": 4, "action": "Test safely and quickly", "explain": "Transgenic mice stand in for monkeys in polio vaccine safety testing, and animals made extra sensitive to toxic substances deliver chemical safety results sooner."}
+      ]
+    },
+    {
+      "id": "lebo110.10.4.1",
+      "title": "Ethical Issues: GEAC, Patents and Biopiracy",
+      "section": "10.4",
+      "definition": "Manipulating living organisms demands regulation because released gene-modified organisms can have unpredictable ecological effects -- india's answer is the genetic engineering approval committee (geac), which decides the validity of gm research and the safety of public introductions; disputes over patenting life and the biopiracy of traditional resources -- the 1997 basmati patent on an indian farmer variety, claims over turmeric and neem -- drive countries to legal shields such as the amended indian patents bill.",
+      "formula": "",
+      "key_idea": "Biodiversity-rich but cash-poor nations hold the raw materials and the knowledge -- biopiracy is the uncompensated extraction of both.",
+      "textbook_ref": "lebo110.txt lines 335-402 (GEAC, patent anger, Basmati 1997, turmeric and neem, biopiracy definition, Indian Patents Bill)",
+      "question_patterns": [
+        "why is regulation needed for genetically modified organisms",
+        "which indian body approves gm research and what does it decide",
+        "define biopiracy and give an indian example",
+        "how was basmati rice patented by a foreign company and why was it contested",
+        "what complaints surround patents on turmeric and neem based products",
+        "how does the amended indian patents bill respond to exploitation of bio resources"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Set the ethical frame", "explain": "Modifying organisms cannot continue unregulated -- moral standards must weigh benefits and harms, and ecological introductions of gene-modified organisms carry unpredictable results."},
+        {"step": 2, "action": "Name the regulator", "explain": "India's geac (genetic engineering approval committee) rules on the validity of gm research and the safety of releasing gm organisms for public services."},
+        {"step": 3, "action": "Examine the patent grievances", "explain": "Companies patent products built on genetic material and knowledge that farmers and indigenous communities developed over centuries; in 1997 an american company patented a 'new' basmati derived from indian farmer varieties, restricting others' sales."},
+        {"step": 4, "action": "Define and resist biopiracy", "explain": "Biopiracy is the unauthorised, uncompensated use of bio-resources by multinationals; with industrialised nations rich in money but poor in biodiversity, india countered through turmeric and neem challenges and the second amendment of the indian patents bill."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we_lebo110_1",
+      "source_ref": "lebo110.txt lines 127-137 (Bt protoxin activation; exercise 4, lines 417-466)",
+      "concept": "lebo110.10.1.4",
+      "question_type": "verify_property",
+      "question_pattern": "Crystals of bt toxin made by bacillus thuringiensis do not harm the bacterium itself. Pick the correct reason and explain the chemistry.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "Reject the wrong options", "explain": "The bacteria are not resistant, the toxin is not immature, and no special sac encloses it -- the real reason lies in the toxin's chemical state."},
+        {"step": 2, "action": "State the correct reason", "explain": "The toxin exists as an inactive protoxin; only an insect's alkaline gut solubilises the crystals and converts it to the active form, so the bacterium itself is never exposed to active toxin."},
+        {"step": 3, "action": "Trace the kill", "explain": "Once activated in the insect midgut, the toxin binds epithelial cells and forms pores that swell and lyse them, killing the larva."}
+      ]
+    },
+    {
+      "id": "we_lebo110_2",
+      "source_ref": "lebo110.txt lines 74-79 (meristem virus freedom; exercise 1, line 408-410)",
+      "concept": "lebo110.10.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "A banana stock is infected with a virus. Which plant part should be cultured to raise healthy plants, and why does that part stay clean?",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "Choose the meristem", "explain": "The apical or axillary meristem is the part best suited for regenerating virus-free plants."},
+        {"step": 2, "action": "Give the reason", "explain": "Even in a systemically infected plant, the meristem remains free of virus, so excising and growing it in vitro yields disease-free banana (likewise sugarcane and potato)."}
+      ]
+    },
+    {
+      "id": "we_lebo110_3",
+      "source_ref": "lebo110.txt lines 317-321 (Rosie's enriched milk figures)",
+      "concept": "lebo110.10.3.1",
+      "question_type": "verify_property",
+      "question_pattern": "The transgenic cow {cow_name} produced milk enriched with a human protein. Identify the protein, its concentration, and why the milk mattered for babies.",
+      "extracted_variables": {
+        "cow_name": "Rosie"
+      },
+      "solution_template": [
+        {"step": 1, "action": "Name the product", "explain": "Rosie, the first transgenic cow (1997), secreted human alpha-lactalbumin in her milk at 2.4 grams per litre."},
+        {"step": 2, "action": "State the significance", "explain": "Human-protein-enriched milk is a more balanced food for human babies than ordinary cow milk -- proof that transgenic animals can manufacture medicinal biological products."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_lebo110_1",
+      "source_ref": "lebo110.txt lines 407-492 (end-of-chapter exercises 1-13, reworded)",
+      "questions": [
+        "Which plant part is best for raising virus-free plants, and what makes it so?",
+        "What is the chief advantage of micropropagation for producing plants?",
+        "List the components of the medium used to grow an explant in vitro.",
+        "Bt toxin crystals do not kill the bacteria that make them -- give the correct reason from the options and justify it.",
+        "What are transgenic bacteria? Illustrate with one example.",
+        "Weigh the advantages and disadvantages of growing gene modified crops.",
+        "What are cry proteins, which organism makes them, and how have humans turned them to benefit?",
+        "Define gene therapy and illustrate it with the ada deficiency case.",
+        "Diagram the steps for cloning and expressing a human gene such as growth hormone in e coli.",
+        "Suggest an rdna based method for removing oil (hydrocarbons) from seeds.",
+        "Find out what golden rice is and report on it.",
+        "Does human blood contain proteases and nucleases?",
+        "Investigate how an orally active protein pharmaceutical could be made, and name the main obstacle."
+      ]
+    }
+  ]
+}

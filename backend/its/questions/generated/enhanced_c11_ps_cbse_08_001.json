@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_08_001",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_08_001",
+   "title": "c11_ps_cbse_08_001",
+   "questions": [
+    {
+     "q": "Define secularism in one sentence using the precise political theory terminology from the NCERT textbook. What are the two forms of religious domination it opposes?",
+     "a": "Correct answer: Secularism is a normative doctrine that seeks to realise a secular society devoid of both inter-religious domination (domination of one religious community by another) and intra-religious domination (domination within a religious community, e.g., gender or caste-based oppression). A wrong answer that only mentions \"separation of religion and state\" or \"equal respect for all religions\" reveals the student has memorised a slogan but not grasped the core *anti-domination* logic. If they omit intra-religious domination, they hold the common misconception that secularism only addresses minority-majority relations.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT text states: \"Tolerance is compatible with religious domination. It may allow some space to everyone but such freedom is usually limited.\" Explain why mere tolerance is insufficient for secularism, using a concrete example of intra-religious domination.",
+     "a": "Correct answer: Tolerance implies putting up with something one finds objectionable, which preserves hierarchy—the dominant group \"tolerates\" the subordinate. For example, if a temple allows Dalits to enter only through a side door or at restricted times \"out of tolerance,\" the caste hierarchy remains intact; secularism demands *equal dignity* and the *abolition* of the discriminatory practice (Article 17), not conditional inclusion. A wrong answer that equates tolerance with secularism reveals the student cannot distinguish between *hierarchical coexistence* and *egalitarian non-domination*—a critical Class 11 analytical distinction.",
+     "self_check": true
+    },
+    {
+     "q": "A state declares it has no official religion and does not fund any religious institutions. However, its legal code recognizes only Hindu personal law for all citizens, including Muslims and Christians. Applying the concept of secularism from this node, explain why this state fails to be secular despite separating religion from state institutions.",
+     "a": "Correct answer: Secularism requires opposition to *inter-religious domination*. By imposing Hindu personal law on minorities, the state enables the majority community to dominate minorities in family matters (marriage, inheritance), violating equality *between* religions. Separation of religion and state (no official religion, no funding) is necessary but not sufficient—the state must also ensure its laws do not privilege one religion's norms over others. A wrong answer claiming the state is secular because it \"doesn't favour any religion officially\" reveals the student treats separation as a sufficient condition, missing the NCERT's explicit argument that a secular state must pursue substantive equality goals.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two scenarios: (A) A government bans all religious symbols in public schools. (B) A government allows all religious symbols but intervenes to stop a religious practice that bars women from entering a shrine. Which scenario aligns with the *Indian* conception of secularism as introduced in this node, and why? (Hint: Consider intra-religious domination.)",
+     "a": "Correct answer: Scenario (B) aligns with Indian secularism. The node explicitly states Indian secularism \"equally opposed the oppression of dalits and women within Hinduism\" and permits \"state-supported religious reform.\" Scenario (A) reflects the Western \"mutual exclusion\" model (covered in c11_ps_cbse_08_003) which treats religion as purely private and refuses *any* intervention—even to end intra-religious domination. A wrong answer choosing (A) reveals the student has imported the Western model as the *only* model of secularism, missing the node's central thesis that Indian secularism is distinct precisely because it addresses intra-religious domination through principled intervention.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Secularism is anti-religious because it prevents the state from supporting any religious activity.\" Use the NCERT's arguments about religion's role in human suffering and the distinction between opposing domination vs. opposing religion.",
+     "a": "Correct answer: The statement is false. The NCERT argues religion responds to unavoidable human suffering (mortality, loss, accident)—\"Religion, art and philosophy are responses to such sufferings. Secularism too accepts this and therefore it is not anti-religious.\" Secularism opposes *institutionalised religious domination* (e.g., priestly control over state, caste hierarchy, gender subordination), not religion per se. A state can support religious reform (e.g., banning untouchability) while protecting religious freedom. A wrong answer agreeing with the statement reveals the conflation of *anti-clericalism* or *anti-domination* with *anti-religion*—a Category Error the textbook explicitly warns against.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 50-word preamble for a hypothetical \"Secularism Charter\" that captures the dual opposition (inter- and intra-religious domination), the necessity of religion-state separation, and the positive goals (freedom within religions, equality between and within religions). Do not use the words \"tolerance\" or \"equal respect.\"",
+     "a": "Expected criteria: The preamble must explicitly name both inter-religious and intra-religious domination as targets, state that religion-state separation is a means (not the end), and articulate positive goals of freedom *within* religions and equality *between* and *within* religions. Example: \"We commit to a society free from domination of any religious community over another, and from domination within any religion based on caste, gender, or sect. The state shall maintain principled distance from organised religion to secure every individual's freedom of conscience and equal citizenship, and to enable reform of oppressive religious practices.\" A poor answer that only mentions \"all religions are equal\" or \"state has no religion\" reveals the student cannot synthesize the node's multi-dimensional definition into a coherent normative statement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

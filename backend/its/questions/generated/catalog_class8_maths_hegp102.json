@@ -1,0 +1,264 @@
+{
+ "catalog": "catalog_class8_maths_hegp102.json",
+ "concepts": [
+  {
+   "id": "hegp.102.2.1",
+   "title": "Exponential Notation",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Using the law a^m x a^n = a^(m+n), evaluate 4^3 x 4^3.",
+     "a": "4096",
+     "self_check": false
+    },
+    {
+     "q": "Using a^m / a^n = a^(m-n), evaluate 4^6 / 4^1.",
+     "a": "1024",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (3^3)^3 using the power of a power law.",
+     "a": "19683",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 3^2 x 2^2 using a^m x b^m = (ab)^m.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 5^0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 5^(-3) and give the value as a fraction.",
+     "a": "1/125",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.102.2.2",
+   "title": "Multiplying Powers with the Same Base",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Using the law a^m x a^n = a^(m+n), evaluate 4^4 x 4^3.",
+     "a": "16384",
+     "self_check": false
+    },
+    {
+     "q": "Using a^m / a^n = a^(m-n), evaluate 5^3 / 5^1.",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (2^3)^2 using the power of a power law.",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 3^2 x 3^2 using a^m x b^m = (ab)^m.",
+     "a": "81",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 8^0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 4^(-4) and give the value as a fraction.",
+     "a": "1/256",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.102.2.3",
+   "title": "Dividing Powers and the Zero Exponent",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Using the law a^m x a^n = a^(m+n), evaluate 3^2 x 3^4.",
+     "a": "729",
+     "self_check": false
+    },
+    {
+     "q": "Using a^m / a^n = a^(m-n), evaluate 4^5 / 4^2.",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (4^2)^2 using the power of a power law.",
+     "a": "256",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 4^2 x 5^2 using a^m x b^m = (ab)^m.",
+     "a": "400",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 8^0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 9^(-4) and give the value as a fraction.",
+     "a": "1/6561",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.102.2.4",
+   "title": "Negative Exponents",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Using the law a^m x a^n = a^(m+n), evaluate 4^2 x 4^3.",
+     "a": "1024",
+     "self_check": false
+    },
+    {
+     "q": "Using a^m / a^n = a^(m-n), evaluate 7^5 / 7^2.",
+     "a": "343",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (5^3)^2 using the power of a power law.",
+     "a": "15625",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 2^3 x 3^3 using a^m x b^m = (ab)^m.",
+     "a": "216",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 2^0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 2^(-3) and give the value as a fraction.",
+     "a": "1/8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.102.2.5",
+   "title": "Powers of 10 and Scientific Notation",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Using the law a^m x a^n = a^(m+n), evaluate 3^2 x 3^4.",
+     "a": "729",
+     "self_check": false
+    },
+    {
+     "q": "Using a^m / a^n = a^(m-n), evaluate 6^3 / 6^1.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (3^3)^3 using the power of a power law.",
+     "a": "19683",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 3^3 x 4^3 using a^m x b^m = (ab)^m.",
+     "a": "1728",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 7^0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 8^(-4) and give the value as a fraction.",
+     "a": "1/4096",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.102.2.6",
+   "title": "Exponential Growth by Doubling",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Using the law a^m x a^n = a^(m+n), evaluate 4^3 x 4^3.",
+     "a": "4096",
+     "self_check": false
+    },
+    {
+     "q": "Using a^m / a^n = a^(m-n), evaluate 4^5 / 4^1.",
+     "a": "256",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (5^3)^2 using the power of a power law.",
+     "a": "15625",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 4^2 x 2^2 using a^m x b^m = (ab)^m.",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 9^0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 7^(-2) and give the value as a fraction.",
+     "a": "1/49",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hegp.102.2.7",
+   "title": "Counting Password Combinations",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "The digits of the 2-digit number 83 are swapped to make 38. Find the difference between the two numbers using 9 x |a - b|.",
+     "a": "45",
+     "self_check": false
+    },
+    {
+     "q": "A 2-digit number and the number formed by reversing its digits add up to 11 x (sum of digits). Find the sum for the number 83.",
+     "a": "121",
+     "self_check": false
+    },
+    {
+     "q": "All cyclic permutations of the 3-digit number with digits 4, 4, 3 are added. The sum equals 111 x (sum of digits). Find it.",
+     "a": "1221",
+     "self_check": false
+    },
+    {
+     "q": "In the 2 x 1 multiplication 56 x 7, the units digit of the answer is what?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "The password trick: multiply the 3-digit number 395 by 1001. Report the thousands digit of the 6-digit result.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "A supercell hunt in the 2-digit world: between 74 and 47, how many of the two numbers are even? (Compute each number's parity count.)",
+     "a": "1",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

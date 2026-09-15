@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch04_004",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch04_004",
+   "title": "c7_math_ch04_004",
+   "questions": [
+    {
+     "q": "If Rahul has $x$ marbles and Priya has 5 more marbles than Rahul, write the algebraic expression for Priya's number of marbles.",
+     "a": "The correct expression is $x + 5$. A student who writes $5x$ has confused the phrase \"5 more than\" (which means addition) with \"5 times\" (which means multiplication). Similarly, writing $5 - x$ reverses the order of subtraction, ignoring that Priya has *more* than Rahul.",
+     "self_check": true
+    },
+    {
+     "q": "A shopkeeper packs $m$ mangoes into each box and has 12 loose mangoes left over. If he uses 4 boxes, explain why the total number of mangoes is represented by $4m + 12$ rather than $(m + 12)4$.",
+     "a": "The correct expression is $4m + 12$ because $4$ boxes each contain $m$ mangoes, giving $4m$ mangoes in total, to which we add the $12$ loose ones. Writing $(m + 12)4$ implies that *each* box contains both $m$ mangoes and 12 loose ones, which contradicts the problem statement. A student who writes $(m+12)4$ fails to group the items correctly according to the real-world distribution.",
+     "self_check": true
+    },
+    {
+     "q": "A taxi charges a fixed fee of ₹50 plus ₹12 per kilometre travelled. Write an algebraic expression for the total fare in rupees for a journey of $k$ kilometres.",
+     "a": "The correct expression is $12k + 50$. \nSteps:\n1. Identify the variable: Let $k$ be the number of kilometres.\n2. Identify the rate per kilometre: ₹12 per kilometre translates to $12 \\times k$ or $12k$.\n3. Identify the fixed cost: ₹50 is a constant added once regardless of distance.\n4. Combine them with addition: $12k + 50$.\nA student who writes $50k + 12$ has mistakenly applied the fixed fee per kilometre and the variable rate as a one-time charge, reversing the roles of the constant and coefficient.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the expressions $3(x + 4)$ and $3x + 4$. In the context of buying pencils where $x$ is the cost of a pencil, what real-world situation does each expression represent?",
+     "a": "The expression $3(x + 4)$ represents buying 3 identical sets, where each set contains one pencil costing $x$ rupees and an eraser costing ₹4. The expression $3x + 4$ represents buying 3 pencils costing $x$ rupees each, plus a single notebook costing ₹4. A student who thinks these two expressions are identical does not understand how parentheses alter the scope of multiplication in word problems.",
+     "self_check": true
+    },
+    {
+     "q": "Ankit evaluates the phrase \"subtract $x$ from 15\" and writes the expression as $x - 15$. Is Ankit correct? Justify your answer.",
+     "a": "Ankit is incorrect. The correct expression is $15 - x$. \nJustification: The phrase \"subtract $x$ *from* 15\" means $x$ is being taken away *starting with* 15. Therefore, 15 must come first in the subtraction statement. A student who writes $x - 15$ confuses the order of operations in English phrasing, mistaking \"subtract $A$ from $B$\" for $A - B$ instead of $B - A$.",
+     "self_check": true
+    },
+    {
+     "q": "Create an algebraic expression involving two variables, $p$ and $q$, to represent the following scenario: \"Amit scored $p$ runs in a cricket match, and Rohit scored twice as many runs as Amit minus 15 runs.\" Explain each part of your expression.",
+     "a": "The expected expression is $2p - 15$. \nExplanation: \"Amit scored $p$ runs\" establishes our variable $p$. \"Twice as many runs as Amit\" translates to multiplication by 2, written as $2p$. \"Minus 15 runs\" means subtracting 15 from that product. A poor answer would write $p - 15 \\times 2$, which ignores standard order of operations or misinterprets \"twice as many\" as applying only after subtraction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

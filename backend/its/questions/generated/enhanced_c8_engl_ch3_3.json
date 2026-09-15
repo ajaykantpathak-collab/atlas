@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_engl_ch3_3",
+ "concepts": [
+  {
+   "id": "enh:c8_engl_ch3_3",
+   "title": "c8_engl_ch3_3",
+   "questions": [
+    {
+     "q": "What are the five standard stages of a plot diagram, and which stage typically contains the crime in a mystery story?",
+     "a": "The five stages are exposition, rising action, climax, falling action, and resolution. In a mystery, the crime usually occurs in the exposition or early rising action. A wrong answer (e.g., saying the crime is the climax) reveals the student confuses the inciting incident with the moment of highest tension, meaning they don't yet grasp how mystery plots front-load the puzzle.",
+     "self_check": true
+    },
+    {
+     "q": "In your own words, explain why a mystery plot cannot simply be a list of events — what must connect them?",
+     "a": "A mystery plot requires causal links: each clue discovered must logically lead to the next step in the investigation, and the solution must follow inevitably from the evidence planted earlier. If a student says \"it's just what happens first, second, third,\" they miss the deductive structure that distinguishes mystery from other genres.",
+     "self_check": true
+    },
+    {
+     "q": "Given a new short mystery scenario: \"A classroom trophy goes missing. A note reads 'Meet me at the library at 3 PM.' The detective notices the fifth word is 'library' and realizes the thief is the librarian.\" Apply the concept of the pivotal clue to explain how the fifth word solves this case.",
+     "a": "Step 1: Identify the note as a planted clue. Step 2: Count words — \"Meet (1) me (2) at (3) the (4) library (5)\". Step 3: Recognize that the fifth word names a location only the librarian controls. Step 4: Conclude the note was written by someone with access to the library, pointing to the librarian. A wrong answer that ignores the word count or the uniqueness of the location shows the student cannot transfer the \"fifth word\" pattern to a new context.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the plot of this Tim Nolan mystery with the plot of \"The Tunnel\" (Class 7) — both have a young protagonist investigating something. How does the mystery genre change the plot structure compared to an adventure story?",
+     "a": "In \"The Tunnel\", the plot is driven by physical exploration and suspense (Suraj enters the tunnel, faces dangers, discovers a secret). In the Tim Nolan mystery, the plot is driven by intellectual deduction: the crime happens off-stage, the protagonist examines evidence, and the climax is a revelation, not a physical confrontation. A student who only lists \"both have a kid solving a problem\" misses the genre-specific structural difference: mystery = clue → deduction → reveal; adventure = action → obstacle → discovery.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The fifth word clue is a cheap trick — the author could have made any word the key.\" Defend or critique using the story's internal logic.",
+     "a": "Critique: The fifth word works because the note was supposedly written in haste by the robber, and the unnatural phrasing (\"the fifth word\" stands out) signals it's a coded message. The story establishes earlier that the robber left a note; the clue is fair because the reader has the same note. A student who calls it a \"trick\" without referencing the story's setup (the note's existence, the robber's haste) fails to evaluate based on textual evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Create a one-paragraph alternate ending for the Tim Nolan mystery where the fifth word clue leads to a different suspect. Ensure your ending still uses logical deduction from the same clue.",
+     "a": "A strong answer keeps the fifth word (\"library\" or whatever the actual word is) but reinterprets it: e.g., the fifth word is \"cellar\", implicating the janitor who has keys. The deduction must flow from the word's meaning. A weak answer changes the clue itself (e.g., \"the sixth word\") or introduces a suspect with no link to the word, showing the student doesn't understand that the clue must remain the anchor of the logic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

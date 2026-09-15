@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_12_003",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_12_003",
+   "title": "c12_bio_cbse_12_003",
+   "questions": [
+    {
+     "q": "Name the enzyme deficient in the most common form of SCID treated by gene therapy in India, and state the type of viral vector currently preferred for its delivery.",
+     "a": "Adenosine deaminase (ADA); self-inactivating (SIN) lentiviral vector. A wrong answer (e.g., \"purine nucleoside phosphorylase\" or \"retroviral vector without SIN modification\") reveals the student hasn't updated from first-generation γ-retroviral trials that caused leukemia — a critical NEET/CUET distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Why are hematopoietic stem cells (CD34+), not mature T lymphocytes, the preferred target for ex vivo gene therapy in SCID?",
+     "a": "HSCs self-renew and differentiate into all lymphoid lineages, providing lifelong correction; mature T cells are short-lived and cannot repopulate the bone marrow. A student answering \"T cells are easier to transduce\" confuses technical convenience with therapeutic durability — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A gene therapy trial uses a γ-retroviral vector (LTR-driven) to deliver *IL2RG* to X-SCID patients. Five years later, 25% develop T-cell leukemia. Explain the molecular mechanism linking the vector to oncogenesis.",
+     "a": "The γ-retroviral LTR enhancer/promoter integrates near proto-oncogenes (e.g., *LMO2*), driving their aberrant expression — insertional mutagenesis. A wrong answer citing \"random mutation during PCR\" or \"viral replication\" shows confusion between vector integration biology and laboratory artifacts.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the long-term immune reconstitution achieved by (i) PEG-ADA enzyme replacement, (ii) matched-sibling HSCT, and (iii) autologous HSC gene therapy for ADA-SCID. Rank them by durability and immunological breadth.",
+     "a": "Gene therapy ≈ HSCT > PEG-ADA. Gene therapy and HSCT provide polyclonal T/B/NK reconstitution with thymic output; PEG-ADA only reduces metabolites temporarily, requiring lifelong injections and failing to restore humoral immunity. A student ranking PEG-ADA above gene therapy misunderstands the difference between metabolic detoxification and genetic correction.",
+     "self_check": true
+    },
+    {
+     "q": "A clinician proposes using an AAV vector for *ADA* gene therapy because it has a safer integration profile. Evaluate this proposal for SCID treatment.",
+     "a": "AAV remains episomal and is diluted in dividing HSCs — unsuitable for a disease requiring lifelong correction in a self-renewing compartment. The student who approves this confuses \"safer integration\" with \"no integration in dividing cells,\" ignoring the stem cell biology prerequisite (c11_bio_cbse_10_001).",
+     "self_check": true
+    },
+    {
+     "q": "Design a monitoring strategy for a patient 6 months post-gene therapy to confirm sustained engraftment of corrected HSCs and detect early insertional oncogenesis.",
+     "a": "Quarterly: (1) qPCR for vector copy number in sorted CD34+ cells; (2) TREC assay for thymic output; (3) integration site analysis (LM-PCR/NGS) to track clonal expansion; (4) immunophenotyping (CD3, CD4, CD8, CD19, CD56). A poor answer omits integration site analysis — the only direct assay for insertional mutagenesis risk.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch13_004",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch13_004",
+   "title": "c7_math_ch13_004",
+   "questions": [
+    {
+     "q": "What is the primary mathematical operation performed first when calculating the mean of a data set containing five numbers?",
+     "a": "The correct answer is addition (finding the sum of all the observations). A student who answers \"division\" or \"counting\" is confusing the final step or the preliminary counting step with the primary aggregation step needed before dividing by the total count.",
+     "self_check": true
+    },
+    {
+     "q": "If you calculate the mean of a set of 6 positive numbers, can the value of the mean be smaller than the smallest number in the data set? Explain why or why not.",
+     "a": "No, the mean can never be smaller than the smallest number or larger than the largest number in a set of positive values because it is an intermediate balance point. A student who says \"yes\" does not understand that the mean is bounded by the minimum and maximum values of the data set.",
+     "self_check": true
+    },
+    {
+     "q": "A student scored the following marks in 4 weekly math tests out of 20: 12, 15, 14, and 19. Calculate the mean mark for these tests.",
+     "a": "The correct answer is 15 marks. \nStep 1: Identify all observations: 12, 15, 14, 19, and the total count is 4.\nStep 2: Find the sum: 12 + 15 + 14 + 19 = 60.\nStep 3: Set up the division: Mean = Total Sum / Count = 60 / 4.\nStep 4: Compute the result: 60 / 4 = 15.\nA student who gets 14 likely miscounted the number of tests or made an addition error while summing the scores.",
+     "self_check": true
+    },
+    {
+     "q": "Look at two data sets: Set A = {10, 10, 10, 10} and Set B = {2, 5, 12, 21}. Both sets have a sum of 40 and consist of 4 numbers. Why is the mean the exact same (10) even though the numbers inside the sets are completely different?",
+     "a": "The mean only cares about the total sum and the total count of items, not how the numbers are spread out. A student who claims the means must be different because the numbers vary is confusing the spread or distribution of data with its aggregate balance point.",
+     "self_check": true
+    },
+    {
+     "q": "Rohan calculated the mean of five numbers: 8, 12, 15, 20, and 25. He added them up to get 80, and then divided 80 by 4 because there are four commas in the list. Evaluate his method and identify his mistake.",
+     "a": "Rohan's method is incorrect because he divided by 4 instead of 5. There are actually 5 distinct numbers in the data set (count = 5), so the correct mean should be 80 / 5 = 16. A student who agrees with Rohan does not understand that the divisor must equal the total number of data items, not the number of commas or spaces between them.",
+     "self_check": true
+    },
+    {
+     "q": "Create a data set of four whole numbers whose mean is exactly 12, where no two numbers in the set are identical.",
+     "a": "An acceptable answer is {8, 10, 14, 16}, because their sum is 8 + 10 + 14 + 16 = 48, and 48 / 4 = 12, with all unique numbers. A poor answer gives numbers with a sum not divisible by 4, or repeats numbers when uniqueness was requested, showing a failure to work backward from a target mean.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

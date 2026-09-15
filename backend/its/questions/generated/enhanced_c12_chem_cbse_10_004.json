@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_10_004",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_10_004",
+   "title": "c12_chem_cbse_10_004",
+   "questions": [
+    {
+     "q": "State the exact glycosidic linkage present in amylose, amylopectin (main chain), amylopectin (branch points), and cellulose. Use standard nomenclature (e.g., α-D-(1→4)).",
+     "a": "Amylose: α-D-(1→4); Amylopectin main chain: α-D-(1→4); Amylopectin branch points: α-D-(1→6); Cellulose: β-D-(1→4). A wrong answer (e.g., writing β for starch or α for cellulose) reveals the student has memorized \"starch = α, cellulose = β\" but cannot assign the correct linkage to each sub-component — a common Board exam error when asked specifically about amylopectin branching.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why iodine gives a blue-black complex with amylose but not with cellulose, even though both are polymers of D-glucose.",
+     "a": "Iodine (I₃⁻/I₅⁻) fits inside the hydrophobic helical cavity of amylose (6 glucose units per turn) forming a charge-transfer complex; cellulose adopts an extended linear conformation with no helical cavity, so iodine cannot intercalate. A wrong answer citing \"different monomer\" or \"branching\" shows the student confuses primary structure with secondary conformation — they miss that the β-linkage forces a 180° flip preventing helix formation.",
+     "self_check": true
+    },
+    {
+     "q": "A 10 g sample of starch (assume pure amylose, DP = 500) is completely hydrolyzed. Calculate the mass of glucose produced. (Molar mass: glucose = 180 g/mol, anhydroglucose unit in polymer = 162 g/mol)",
+     "a": "Step 1: Moles of anhydroglucose units = 10 g / 162 g/mol = 0.06173 mol.\nStep 2: Each unit yields one glucose on hydrolysis (+ H₂O).\nStep 3: Moles of glucose = 0.06173 mol.\nStep 4: Mass of glucose = 0.06173 mol × 180 g/mol = 11.11 g.\nA wrong answer using 180 g/mol for the polymer unit (giving 10 g) ignores the loss of H₂O per glycosidic bond during polymerization — a frequent stoichiometry trap in JEE.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the hydrogen bonding patterns in starch (amylose) and cellulose. How do these patterns explain the difference in tensile strength and water solubility?",
+     "a": "Amylose: intra-chain H-bonds (O3-H⋯O5) stabilize the helix; limited inter-chain H-bonding → water can penetrate → soluble. Cellulose: extensive inter-chain H-bonds (O3-H⋯O5' and O6-H⋯O2') between adjacent parallel chains form rigid sheets → high tensile strength, insoluble. A wrong answer stating \"cellulose has more H-bonds because it has more OH groups\" misses that both have three OH per glucose; the difference is geometry (parallel vs helical) enabling inter-chain vs intra-chain bonding.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Cellulose is a polymer of β-D-glucose joined by β-1,6-glycosidic bonds.\" Evaluate this statement and correct the error.",
+     "a": "The statement is false. Cellulose has β-1,4-glycosidic bonds (C1 of one glucose to C4 of the next). β-1,6 linkages occur in some hemicelluloses (e.g., gentiobiose) and in glycogen/starch branch points (but α-1,6 there). The student likely confuses the branch point linkage (1→6) with cellulose's linear linkage. This error would lose 1 mark in Board exams for incorrect linkage specification.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory test to distinguish between a solution of starch and a solution of cellulose (both 1% w/v in water) using only iodine solution and a centrifuge. Describe the procedure, expected observations, and the chemical basis.",
+     "a": "Procedure: 1) Add 2 drops of iodine solution to 2 mL of each solution. 2) Observe color: starch gives blue-black; cellulose gives no color (brown iodine remains). 3) Centrifuge both: starch solution remains homogeneous (colloidal dispersion); cellulose settles as insoluble fibers. Chemical basis: amylose forms helical inclusion complex with I₃⁻; cellulose lacks helical cavity and is insoluble. A poor answer omits centrifugation or claims cellulose dissolves — revealing confusion between \"polymer of glucose\" and \"solubility determined by secondary structure.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

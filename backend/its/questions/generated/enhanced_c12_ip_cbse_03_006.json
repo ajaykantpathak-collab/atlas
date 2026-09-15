@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_03_006",
+   "title": "c12_ip_cbse_03_006",
+   "questions": [
+    {
+     "q": "Write the binary representation of the IPv4 address 172.16.25.10 and identify its class and default subnet mask in both dotted-decimal and CIDR notation.",
+     "a": "Binary: 10101100.00010000.00011001.00001010. First octet 172 (10101100) starts with bits 10 → Class B. Default mask: 255.255.0.0 or /16. A wrong answer (e.g., calling it Class C because 172 > 192, or giving mask 255.255.255.0) reveals the student is memorising ranges without checking the leading-bit pattern (Class A: 0xxx, B: 10xx, C: 110x, D: 1110, E: 1111) or confusing private ranges with classes.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The IP address 10.0.0.5 with mask 255.255.255.0 is a Class A address, so its network address is 10.0.0.0.\" Explain why this statement is conceptually incorrect even though the calculated network address happens to be numerically correct.",
+     "a": "Class is determined solely by the first octet's leading bits (10.x.x.x → Class A), but the network address is derived by ANDing the IP with the *given* mask, not the default mask. With mask /24, the network is 10.0.0.0/24 — a *subnet* of the Class A network 10.0.0.0/8. The error: conflating classful boundary (fixed by address) with subnetting boundary (defined by mask). This misconception leads to mistakes in VLSM where the same Class A address is split into multiple /24, /26, etc., subnets.",
+     "self_check": true
+    },
+    {
+     "q": "Given the IP address 192.168.10.130 and subnet mask 255.255.255.192, calculate: (a) the network address, (b) the broadcast address, (c) the first and last usable host addresses, and (d) the number of usable hosts per subnet. Show all binary steps.",
+     "a": "IP: 11000000.10101000.00001010.10000010\nMask: 11111111.11111111.11111111.11000000 (/26)\n(a) Network = IP AND Mask = 11000000.10101000.00001010.10000000 = 192.168.10.128\n(b) Broadcast = Network OR (NOT Mask) = 192.168.10.128 | 0.0.0.63 = 192.168.10.191\n(c) First usable = 192.168.10.129, Last usable = 192.168.10.190\n(d) Host bits = 6 → 2^6 − 2 = 62 usable hosts.\nWrong answers often forget the −2 (network/broadcast), mis-align the borrowed bits (e.g., use /25 instead of /26), or do decimal AND without binary, causing errors like 192.168.10.128 vs 192.168.10.0.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: (i) Classful addressing with default masks, (ii) CIDR (Classless Inter-Domain Routing) with VLSM. Use the example of allocating addresses for three departments needing 100, 50, and 20 hosts respectively from a single 192.168.1.0/24 block. Show why classful fails and CIDR succeeds.",
+     "a": "Classful: 192.168.1.0 is Class C → only one /24 (254 hosts). Cannot split into three networks without wasting addresses or using multiple Class C blocks. CIDR/VLSM: Subnet 192.168.1.0/24 → 192.168.1.0/25 (126 hosts) for dept-1, 192.168.1.128/26 (62 hosts) for dept-2, 192.168.1.192/27 (30 hosts) for dept-3. Total used: 126+62+30 = 218 < 254. Classful forces rigid boundaries; CIDR lets mask length vary per subnet (VLSM), matching allocation to actual need. A wrong answer that suggests \"use three Class C networks\" misses the point of address conservation and route aggregation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The subnet mask 255.255.255.255 (/32) is invalid because it leaves zero host bits, so no device can use it.\" Defend or refute with a specific use case.",
+     "a": "Refute. /32 is valid and widely used for loopback interfaces (e.g., 127.0.0.1/8 is special, but router loopbacks often use /32 like 1.1.1.1/32) and point-to-point links where the \"network\" is a single host. In OSPF/IS-IS, a /32 loopback serves as a stable router ID. The claim assumes every subnet must host multiple devices — a classful mindset. A student who agrees has not encountered /32 in routing protocols or host routes (e.g., `ip route 10.1.1.5/32 ...`).",
+     "self_check": true
+    },
+    {
+     "q": "Design a subnetting scheme for a small ISP that has been allocated 203.0.113.0/24. They need to serve: (a) 4 residential branches, each needing up to 30 customer LANs (each LAN max 14 devices), (b) 2 data-center pods, each needing 6 server VLANs (each VLAN max 60 devices), (c) 8 point-to-point WAN links. Use VLSM. Provide the subnet allocation table with network address, mask, and purpose for each. Optimise for minimal waste.",
+     "a": "Start from largest requirement: server VLANs need 60 hosts → /26 (62 usable). 2 pods × 6 = 12 subnets → 12 × /26 = 12/64 of /24 = 3/16 → use 203.0.113.0/26 to 203.0.113.192/26 (12 subnets). Remaining: 203.0.113.192/26 (64 addresses). Residential LANs: 14 devices → /28 (14 usable). 4 branches × 30 = 120 /28 subnets → need 120 × 16 = 1920 addresses > 64 left → impossible in single /24. Correct approach: ISP gets larger block (e.g., /20) or uses private addressing (RFC 1918) with NAT. The exercise exposes the student to real-world constraint: public IPv4 scarcity forces NAT + private addressing. A good answer recognises the /24 is insufficient and proposes 10.0.0.0/8 internally with NAT at edge.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_10_010",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_10_010",
+   "title": "c11_ps_cbse_10_010",
+   "questions": [
+    {
+     "q": "What is the defining procedural difference between a deliberative constitution and an imposed constitution in terms of authorship and decision-making authority?",
+     "a": "A deliberative constitution is authored collectively by a representative body through structured debate and consensus-building (e.g., Indian Constituent Assembly 1946-49), while an imposed constitution is drafted by an external or unilateral authority without meaningful participation of the governed (e.g., Government of India Act 1935 by British Parliament; Japanese Constitution 1947 by US occupation officials). A wrong answer — such as \"deliberative means it has a preamble\" — reveals confusion between *formal features* and *procedural legitimacy*.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Indian Constituent Assembly adopt a committee system (Advisory Committee, Drafting Committee, etc.) instead of debating every clause in the full Assembly?",
+     "a": "The committee system enabled specialized scrutiny, manageable deliberation, and consensus-building on technical details before full Assembly debate — essential for a 299-member body drafting a complex document in limited time. A wrong answer like \"to save time only\" misses the epistemic function: committees allowed experts and minority voices to shape provisions (e.g., Sub-Committee on Minorities chaired by H.C. Mookherjee) that might be drowned in plenary majoritarianism.",
+     "self_check": true
+    },
+    {
+     "q": "The Iraqi Constitution of 2005 was drafted under US occupation with a deadline imposed by the occupying power. Apply the deliberative vs. imposed framework to evaluate its legitimacy deficit compared to the Indian Constitution.",
+     "a": "The Iraqi Constitution exhibits an imposed character: external deadline (August 2005), limited Sunni participation (boycott), and key provisions shaped by US negotiators (e.g., federalism design). Unlike India's Assembly — which controlled its timeline, included diverse communities via nomination, and debated 2,473 amendments — Iraq's process lacked autonomous agenda-setting and inclusive deliberation. A wrong answer focusing only on \"both had elections\" ignores the *conditions* of deliberation: freedom from external coercion and sufficient time for reasoned exchange.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the South African Constitution (1996) and the Indian Constitution (1950) on the dimension of *inclusive composition*. How did each address the representation of historically excluded groups?",
+     "a": "South Africa's Constitutional Assembly (1994-96) was directly elected on universal franchise with proportional representation, ensuring Black majority participation — but negotiated *after* an interim constitution. India's Assembly (1946) was elected by provincial legislatures on limited franchise (≈15% adult suffrage), yet *deliberately* nominated representatives of minorities, women, and princely states (e.g., 15 women members, 28 Scheduled Caste members, Frank Anthony for Anglo-Indians). A wrong answer claiming \"South Africa was more inclusive because of universal suffrage\" overlooks India's *conscious design* to include excluded voices despite colonial electoral constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Indian Constitution's legitimacy derives entirely from the Constituent Assembly's deliberations; the 1950 adoption was merely ceremonial.\"",
+     "a": "The claim is partially correct but incomplete. Deliberative legitimacy *primarily* stems from the Assembly's procedures (open debates, recorded dissent, consensus on Objectives Resolution, clause-by-clause voting). However, the *formal* legitimacy required the Assembly's final vote (November 26, 1949) and the Governor-General's assent under the Independence Act 1947 — a legal continuity mechanism. A wrong answer dismissing the legal enactment ignores that deliberation without *authorized ratification* lacks constitutional effect (contrast: the 1946 Cabinet Mission Plan failed because it lacked ratification).",
+     "self_check": true
+    },
+    {
+     "q": "Design a deliberative constitution-making process for a hypothetical diverse federation of 50 million people with 5 major ethnic groups and a history of authoritarian rule. Specify three procedural safeguards to ensure it is not perceived as imposed.",
+     "a": "A strong answer includes: (1) *Composition*: Directly elected assembly with reserved seats for minorities + civil society nominees (not just parties); (2) *Agenda autonomy*: Assembly sets its own timeline and rules of procedure (no external deadline); (3) *Public deliberation*: Mandatory public hearings in all regions, multilingual drafts, digital feedback portal with transparent response tracking. A poor answer copies India's 1946 model without adapting for universal suffrage era — revealing inability to transfer principles across contexts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

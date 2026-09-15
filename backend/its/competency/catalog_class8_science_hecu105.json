@@ -1,0 +1,161 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 5,
+ "chapter_title": "Exploring Forces",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hecu105.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hecu.105.5.1",
+   "title": "Force as Push or Pull",
+   "section": "5.1",
+   "definition": "A force is a push or a pull that one body exerts on another; every force involves an interaction between two objects, is applied through contact or across a distance, and has both magnitude and direction.",
+   "formula": "-",
+   "key_idea": "No force without an interaction: something pushes or pulls something else.",
+   "textbook_ref": "hecu105.txt lines 43-130 (what is a force, interaction between two objects)",
+   "question_patterns": [
+    "define force with examples of push and pull",
+    "why is force called an interaction between two objects",
+    "give two examples of forces applied without touching",
+    "what two things must be stated to describe a force completely",
+    "classify everyday actions as push or pull",
+    "can an object exert force on itself - justify"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the action",
+     "explain": "Decide whether the body is pushed or pulled."},
+    {"step": 2, "action": "spot the pair",
+     "explain": "Name the two interacting objects; a force always needs both."},
+    {"step": 3, "action": "note magnitude and direction",
+     "explain": "Both decide the final effect of the force."}
+   ]
+  },
+  {
+   "id": "hecu.105.5.2",
+   "title": "What a Force Can Do to Objects",
+   "section": "5.2",
+   "definition": "A force can move a stationary object, stop a moving one, change its speed or direction of motion, and even change its shape - pressing, stretching or bending a body are all effects of force.",
+   "formula": "-",
+   "key_idea": "Forces start, stop, redirect and deform - four signatures of a force at work.",
+   "textbook_ref": "hecu105.txt lines 64-130 (what can a force do to objects)",
+   "question_patterns": [
+    "list the effects a force can produce on an object",
+    "how does a force change the speed of a moving ball",
+    "give an example where force changes the shape of an object",
+    "can a force stop a moving object - explain with example",
+    "how does force change the direction of motion",
+    "which effect of force do you see when dough is kneaded"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "observe motion changes",
+     "explain": "Forces may start motion, stop it, speed it up or slow it down."},
+    {"step": 2, "action": "observe direction change",
+     "explain": "A sideways force bends the path of a moving body."},
+    {"step": 3, "action": "observe deformation",
+     "explain": "Squeezing or stretching shows forces changing shape."}
+   ]
+  },
+  {
+   "id": "hecu.105.5.3",
+   "title": "Types of Forces",
+   "section": "5.4",
+   "definition": "Forces come in families: muscular force acts through body contact, friction opposes sliding between surfaces in contact, while magnetic, electrostatic and gravitational forces act without touching, across empty space.",
+   "formula": "-",
+   "key_idea": "Contact forces need touch; field forces such as gravity and magnetism act at a distance.",
+   "textbook_ref": "hecu105.txt lines 170-456 (different types of forces)",
+   "question_patterns": [
+    "name the different types of forces with one example each",
+    "what is muscular force - is it a contact force",
+    "how does friction act on a sliding box",
+    "why do objects fall towards the earth - name the force",
+    "which forces act without contact between objects",
+    "classify magnetic, frictional and gravitational forces"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "check for contact",
+     "explain": "Muscular and frictional forces need touching surfaces."},
+    {"step": 2, "action": "identify field forces",
+     "explain": "Gravity, magnetism and static electricity pull or push across space."},
+    {"step": 3, "action": "note the direction of friction",
+     "explain": "Friction always opposes relative sliding between the surfaces."}
+   ]
+  },
+  {
+   "id": "hecu.105.5.4",
+   "title": "Weight and Its Measurement",
+   "section": "5.5",
+   "definition": "Weight is the gravitational pull the earth exerts on a body; it is a force measured in newtons with a spring balance, whose stretch grows with the pull - readings like 1.6 N or 25.4 N state how strongly gravity acts on the object.",
+   "formula": "-",
+   "key_idea": "Weight is a force in newtons, read from the stretch of a spring balance.",
+   "textbook_ref": "hecu105.txt lines 456-681 (weight and its measurement, spring balance readings)",
+   "question_patterns": [
+    "what is the difference between mass and weight",
+    "in which unit is weight measured and why",
+    "how does a spring balance measure weight",
+    "the spring balance reads 1.6 N for an object - what does it tell",
+    "why is weight called a force",
+    "would your weight be the same on the moon - explain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "define weight as a force",
+     "explain": "Weight is the earth's gravitational pull on the body, so its unit is the newton."},
+    {"step": 2, "action": "read the instrument",
+     "explain": "A spring balance stretches in proportion to the pull; the scale gives the reading in N."},
+    {"step": 3, "action": "contrast with mass",
+     "explain": "Mass counts matter and stays the same everywhere; weight depends on gravity."}
+   ]
+  },
+  {
+   "id": "hecu.105.5.5",
+   "title": "Floating and Sinking",
+   "section": "5.6",
+   "definition": "Whether an object floats or sinks in water is decided by the tug-of-war between its weight and the upward push of water on it; heavy-for-their-size objects sink while lighter ones float, and the comparison is judged through density.",
+   "formula": "-",
+   "key_idea": "Float or sink is decided by comparing how much mass is packed per unit volume with water.",
+   "textbook_ref": "hecu105.txt lines 681-760 (floating and sinking)",
+   "question_patterns": [
+    "why does an iron nail sink while a ship floats",
+    "what decides whether an object floats or sinks in water",
+    "how does the upward push of water act on a submerged object",
+    "give two examples of floating and sinking from daily life",
+    "would an object that floats in water float in oil - reason",
+    "how can a heavy ship made of steel float"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "compare the pulls",
+     "explain": "Weight pulls down; water pushes up on the immersed object."},
+    {"step": 2, "action": "compare the crowdedness",
+     "explain": "Objects less crowded with mass than water float; more crowded ones sink."},
+    {"step": 3, "action": "explain shape effects",
+     "explain": "Ships spread their mass over a large volume, so their average crowdedness stays below water's."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "hecu105.txt sections 5.1-5.4",
+   "questions": [
+     "Give five examples of forces from daily life and classify them as push or pull.",
+     "Name contact and non-contact forces with examples.",
+     "List the effects of force with one example each."
+   ]
+  },
+  {
+   "id": "ex5.2",
+   "source_ref": "hecu105.txt sections 5.5-5.6",
+   "questions": [
+     "How is weight measured with a spring balance?",
+     "Why do some objects float and others sink?",
+     "Explain why the reading 25.4 N describes a force."
+   ]
+  }
+ ]
+}

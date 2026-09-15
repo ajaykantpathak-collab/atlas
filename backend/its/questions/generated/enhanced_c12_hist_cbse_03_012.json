@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_03_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_03_012",
+   "title": "c12_hist_cbse_03_012",
+   "questions": [
+    {
+     "q": "What does the term *patriliny* mean in the context of early Indian societies, and which epic narrative reinforced this ideal?",
+     "a": "Patriliny means tracing descent and inheritance from father to son, grandson, and so on. The Mahabharata's central story — the Kaurava-Pandava conflict over the Kuru throne — reinforced patriliny by culminating in patrilineal succession after the battle. A wrong answer (e.g., \"descent through mother\" or \"equal inheritance for daughters\") reveals confusion with matriliny or modern legal concepts, and misses the text's explicit link between the epic narrative and the legitimation of male-line succession.",
+     "self_check": true
+    },
+    {
+     "q": "According to the Manusmriti (Source 12), list the seven means by which men could acquire wealth and the six means for women. What does the *absence* of \"inheritance\" and \"conquest\" from the women's list signify?",
+     "a": "Men: inheritance, finding, purchase, conquest, investment, work, acceptance of gifts. Women: gifts before fire (marriage), bridal procession gifts, token of affection, gifts from brother/mother/father, subsequent gifts, husband's affectionate gifts. The exclusion of inheritance and conquest from women's list signifies that patriarchal law denied women independent access to ancestral property and political/military power — they could only receive wealth *relationally* (through male kin or husband), not *autonomously*. A wrong answer that lists \"inheritance\" for women or misses the structural implication shows failure to recognize how legal categories encoded gender hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "In the dice-game episode (Source 11), Draupadi asks whether Yudhisthira had lost himself before staking her. The text records two contrary opinions but leaves the matter unresolved. What does this *narrative silence* tell historians about women's legal status in the text's worldview?",
+     "a": "The unresolved debate — whether a wife remains under her husband's control even after he loses his own freedom, or whether an unfree person cannot stake another — reveals that the text *stages* the problem of women's personhood without resolving it. This silence indicates that women's legal status was ambiguous: they were neither fully autonomous persons nor mere chattel, but *dependent* entities whose fate was tied to their husband's status. A student who claims \"the text shows wives were property\" or \"the text protects women's autonomy\" oversimplifies; the correct reading notes the *deliberate ambiguity* as historical evidence of contested norms.",
+     "self_check": true
+    },
+    {
+     "q": "The Satavahana inscriptions (c. 2nd century BCE–2nd century CE) show rulers identified as *Gotami-puta* and *Vasithi-puta* (sons of Gotami/Vasithi). How does this evidence *contradict* the Brahmanical rule that women adopt their husband's gotra upon marriage?",
+     "a": "Brahmanical texts prescribed that a woman gives up her father's gotra and adopts her husband's. But Satavahana queens retained names derived from *their father's* gotras (Gotama, Vasistha), and rulers used *metronymics* (mother's name + *puta*). This shows elite women *did not* always follow the gotra-adoption rule, and maternal lineage was publicly acknowledged — contradicting the patrilineal ideal. A wrong answer that says \"this proves matriliny\" overstates; the correct analysis notes *non-compliance with prescriptive norms* while succession remained patrilineal.",
+     "self_check": true
+    },
+    {
+     "q": "The Buddhist text *Majjhima Nikaya* (Source 13) presents a dialogue where a wealthy Shudra commands Brahmana and Kshatriya servants. Kachchana concludes: \"are not these four varnas exactly the same?\" Evaluate how this Buddhist critique *undermines* the Brahmanical link between varna, gender, and property access.",
+     "a": "The Brahmanical view (Manusmriti, Purusha Sukta) ties property rights to birth-based varna: Brahmanas/Kshatriyas control wealth; Shudras serve. The Buddhist story severs this link — wealth (economic power) determines social deference, not birth. A wealthy Shudra *becomes* the master; varna hierarchy collapses when economic roles reverse. This undermines the *naturalness* of both varna and the gendered property rules that accompany it (since varna and gender regulations are intertwined in Dharmashastras). A weak answer merely summarizes the story; a strong answer explains the *theoretical rupture*: Buddhism historicizes social hierarchy as human-made, not divinely ordained.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a historical argument (150 words) using *three* pieces of evidence from the chapter to answer: \"Were Brahmanical prescriptions on women's property (stridhana, inheritance exclusion) universally followed in early India?\"",
+     "a": "A strong answer will: (1) cite Manusmriti's prescriptive asymmetry (Source 12) as the *norm*; (2) use Satavahana metronymics (Source 4) to show elite women retaining natal gotra identity and maternal lineage visibility, contradicting gotra-adoption and strict patriliny; (3) reference the Buddhist wealthy-Shudra story (Source 13) to demonstrate alternative social logics where economic power overrides birth/gender norms. The argument must conclude that prescriptions were *authoritative but not hegemonic* — followed by some, contested by others, and variably implemented across regions and classes. A poor answer lists facts without synthesizing them into a thesis about the *gap between norm and practice*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

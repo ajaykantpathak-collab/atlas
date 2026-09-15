@@ -1,0 +1,614 @@
+{
+  "class": 12,
+  "subject": "business_studies",
+  "chapter": 101,
+  "chapter_title": "Nature and Significance of Management",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lebs101.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "lebs.101.1.1",
+      "title": "Management as a Goal-Directed Process",
+      "section": "1.1",
+      "definition": "The organised effort of steering people, money and materials inside an enterprise so that its shared targets are met without avoidable waste of resources.",
+      "formula": "",
+      "key_idea": "It is a deliberate, never-ending process -- planning through controlling -- not something an organisation attains by luck.",
+      "textbook_ref": "lebs101.txt lines 241-310 (definitions box and Concept)",
+      "question_patterns": [
+        "what do you understand by the term management",
+        "define management and bring out its basic nature",
+        "explain why management is called a process with a suitable example",
+        "is management required in every kind of organisation give reasons",
+        "describe management as a purposeful and deliberate activity",
+        "why can we say successful organisations reach their goals through management"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "State the core idea in one line",
+          "explain": "Management unites the efforts of different individuals toward one common purpose of the enterprise."
+        },
+        {
+          "step": 2,
+          "action": "Bring in the twin tests it applies",
+          "explain": "Work must reach its target (effectiveness) and must do so at an economical input cost (efficiency)."
+        },
+        {
+          "step": 3,
+          "action": "Name the functions that form the process",
+          "explain": "Planning, organising, staffing, directing and controlling together make up the ongoing sequence."
+        },
+        {
+          "step": 4,
+          "action": "Close with its universal presence",
+          "explain": "Schools, hospitals, shops and factories alike need it, whatever goal they pursue."
+        }
+      ]
+    },
+    {
+      "id": "lebs.101.1.2",
+      "title": "Effectiveness versus Efficiency",
+      "section": "1.1",
+      "definition": "Two yardsticks for judging managerial work: one asks whether the assigned job was completed and the target attained, the other asks whether it was achieved at the lowest sensible input cost.",
+      "formula": "",
+      "key_idea": "Meeting the target while overspending is effective but inefficient; saving inputs while missing the target is the reverse -- sound management balances both.",
+      "textbook_ref": "lebs101.txt lines 294-390 (effectiveness vs efficiency discussion and 5000-unit example)",
+      "question_patterns": [
+        "distinguish between effectiveness and efficiency with one example each",
+        "a manager completes the target but at a high cost comment on the performance",
+        "can a manager be efficient yet fail to be effective explain",
+        "why should effectiveness and efficiency move together in an organisation",
+        "give one situation of being effective without being efficient and one of the opposite",
+        "how do the terms effectiveness and efficiency differ in management"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Check the end result",
+          "explain": "Ask whether the planned output or target figure was actually attained."
+        },
+        {
+          "step": 2,
+          "action": "Check the input side",
+          "explain": "Compare the resources consumed against what was budgeted for that output."
+        },
+        {
+          "step": 3,
+          "action": "Classify the performance",
+          "explain": "Target met means effective; inputs within or below the norm means efficient -- either may hold without the other."
+        },
+        {
+          "step": 4,
+          "action": "Conclude with the balance rule",
+          "explain": "Both failures count as poor management; the managerial aim scores high on the two scales together."
+        }
+      ]
+    },
+    {
+      "id": "lebs.101.1.3",
+      "title": "Unit Cost as a Measure of Efficiency",
+      "section": "1.1",
+      "definition": "A numeric test of efficiency: the average expense borne by each finished unit shows whether production used its inputs economically.",
+      "formula": "unit_cost = total_cost / units_produced",
+      "key_idea": "The worker or plant with the lower per-unit expense is the more efficient one for the same output.",
+      "textbook_ref": "lebs101.txt lines 320-342 (efficiency as cost-benefit, inputs and outputs) and exercise at lines 2291-2300",
+      "question_patterns": [
+        "calculate the cost per unit when the total cost is {total_cost} for {units_produced} units",
+        "find the unit cost of producing {units_produced} pieces at a total expense of {total_cost}",
+        "a firm spends {total_cost} to make {units_produced} units compute its average cost per unit",
+        "which worker is more efficient given their unit costs",
+        "compute the per unit expense from the given total cost and output"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Read off the two givens",
+          "explain": "Pick up the total expense incurred and the number of units turned out.",
+          "compute": "input_cost = total_cost"
+        },
+        {
+          "step": 2,
+          "action": "Spread the cost over the output",
+          "explain": "Dividing total expense by units produced gives the expense carried by each unit.",
+          "compute": "unit_cost = input_cost / units_produced"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Unit Cost as a Measure of Efficiency, compute the result for total_cost = 3, units_produced = 3.",
+          "solution": "Step 1: Read off the two givens: input_cost = total_cost = 3.0 Step 2: Spread the cost over the output: unit_cost = input_cost / units_produced = 1.0 Final result: 1.0",
+          "answer": "1.0"
+        },
+        {
+          "question": "Using Unit Cost as a Measure of Efficiency, compute the result for total_cost = 4, units_produced = 4.",
+          "solution": "Step 1: Read off the two givens: input_cost = total_cost = 4.0 Step 2: Spread the cost over the output: unit_cost = input_cost / units_produced = 1.0 Final result: 1.0",
+          "answer": "1.0"
+        }
+      ]
+    },
+    {
+      "id": "lebs.101.2.1",
+      "title": "Characteristics of Management",
+      "section": "1.2",
+      "definition": "Seven hallmark traits: it exists only to reach goals, appears in every kind of organisation, spans work people and operations, never pauses, rests on teamwork, shifts with the environment, and works as a force one feels rather than sees.",
+      "formula": "",
+      "key_idea": "Match the case clue to the trait -- a firm reworking its menu for a new market shows the dynamic trait; orderly results with no visible handler show the intangible one.",
+      "textbook_ref": "lebs101.txt lines 391-611 (Characteristics of Management, i to vii)",
+      "question_patterns": [
+        "state any four characteristics of management",
+        "which characteristic of management stands out when schools hospitals and clubs all need it",
+        "explain why management is called a group activity",
+        "why is management described as an intangible force",
+        "comment on the statement that management is a continuous process",
+        "justify that management is all pervasive",
+        "what behaviour of a firm shows that management is a dynamic function"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Name the trait the question targets",
+          "explain": "Pick the one characteristic the case or question points to -- goal-oriented, all pervasive, multidimensional, continuous, group activity, dynamic or intangible."
+        },
+        {
+          "step": 2,
+          "action": "Unfold its meaning in your own words",
+          "explain": "One or two lines on what that trait asserts about managerial work."
+        },
+        {
+          "step": 3,
+          "action": "Attach a fresh supporting example",
+          "explain": "A short instance -- a hospital or a candle unit works as well as a factory."
+        },
+        {
+          "step": 4,
+          "action": "Tie back to the case if one is given",
+          "explain": "Quote the clue from the case and link it explicitly to the named trait."
+        }
+      ]
+    },
+    {
+      "id": "lebs.101.3.1",
+      "title": "Objectives of Management",
+      "section": "1.3",
+      "definition": "The ends a manager pursues, grouped in three bundles: organisational aims of surviving, earning a surplus and expanding; social aims of offering the community safe products, jobs and clean methods; and personal aims of pay, recognition and growth that members seek.",
+      "formula": "",
+      "key_idea": "Read the bundle from the case: covering costs signals survival, hiring disadvantaged workers signals social aims, competitive salary signals personal aims.",
+      "textbook_ref": "lebs101.txt lines 612-755 (Objectives: organisational, social, personnel)",
+      "question_patterns": [
+        "explain the three categories of objectives of management",
+        "name the organisational objectives of a business enterprise",
+        "a railway project saves fuel and money which objective of management does this reflect",
+        "separate the social objectives of management from its personal objectives",
+        "why is survival treated as the basic objective of any business",
+        "state two indicators by which the growth of a firm can be measured"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Sort the aim into its bundle",
+          "explain": "Decide whether the case speaks of the firm's own results, of society, or of individual employees."
+        },
+        {
+          "step": 2,
+          "action": "Expand the chosen bundle",
+          "explain": "Organisational covers survival, profit and growth; social covers community benefit; personal covers member needs."
+        },
+        {
+          "step": 3,
+          "action": "Quote the case evidence",
+          "explain": "Point to the exact line of the case that justifies the classification."
+        }
+      ]
+    },
+    {
+      "id": "lebs.101.3.2",
+      "title": "Profit as Revenue Minus Cost",
+      "section": "1.3",
+      "definition": "The financial surplus left for a business once every expense of running it has been met from its sales earnings; it rewards owners and covers the risks undertaken.",
+      "formula": "profit = total_revenue - total_cost",
+      "key_idea": "Profit is the organisational objective that keeps an enterprise running beyond bare survival.",
+      "textbook_ref": "lebs101.txt lines 650-658 (Profit objective) and Survival at lines 642-648",
+      "question_patterns": [
+        "calculate the profit when sales amount to {total_revenue} and expenses come to {total_cost}",
+        "a firm earned {total_revenue} in sales against {total_cost} of expenses find its profit",
+        "compute the surplus remaining after all costs are paid",
+        "derive the profit figure from the given revenue and expenditure",
+        "how much profit results from revenue of {total_revenue} and cost of {total_cost}"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Take the earnings figure",
+          "explain": "Note the total sales revenue for the period.",
+          "compute": "earnings = total_revenue"
+        },
+        {
+          "step": 2,
+          "action": "Subtract every expense",
+          "explain": "What remains of earnings after meeting all costs is the profit.",
+          "compute": "profit = earnings - total_cost"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Profit as Revenue Minus Cost, compute the result for total_revenue = 3, total_cost = 3.",
+          "solution": "Step 1: Take the earnings figure: earnings = total_revenue = 3.0 Step 2: Subtract every expense: profit = earnings - total_cost = 0.0 Final result: 0.0",
+          "answer": "0.0"
+        },
+        {
+          "question": "Using Profit as Revenue Minus Cost, compute the result for total_revenue = 4, total_cost = 4.",
+          "solution": "Step 1: Take the earnings figure: earnings = total_revenue = 4.0 Step 2: Subtract every expense: profit = earnings - total_cost = 0.0 Final result: 0.0",
+          "answer": "0.0"
+        }
+      ]
+    },
+    {
+      "id": "lebs.101.4.1",
+      "title": "Importance of Management",
+      "section": "1.4",
+      "definition": "Why the function is indispensable: it points individual effort toward group targets, lifts output per unit of input, keeps the organisation ready for change, helps members reach personal goals while contributing, and supplies society with goods, jobs and new technology.",
+      "formula": "",
+      "key_idea": "Five payoffs to remember -- group goals, efficiency, a dynamic organisation, personal objectives, development of society.",
+      "textbook_ref": "lebs101.txt lines 756-846 (Importance of Management, i to v)",
+      "question_patterns": [
+        "explain the importance of management in an organisation",
+        "how does management contribute to the development of society",
+        "discuss the statement that management helps in achieving group goals",
+        "why is management considered essential for every organisation",
+        "state the part management plays in building a dynamic organisation",
+        "in what way does management raise the efficiency of an enterprise"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Pick the benefit the question asks for",
+          "explain": "The five standard benefits cover group goals, efficiency, dynamism, personal objectives and social development."
+        },
+        {
+          "step": 2,
+          "action": "Explain the mechanism",
+          "explain": "One or two lines on how that benefit actually flows from managerial work."
+        },
+        {
+          "step": 3,
+          "action": "Add a concrete illustration",
+          "explain": "A one-line example, such as retraining staff when technology changes."
+        }
+      ]
+    },
+    {
+      "id": "lebs.101.5.1",
+      "title": "Management as an Art",
+      "section": "1.5",
+      "definition": "The art view of managing: a body of theory exists in books, yet each manager applies it with a personal creative touch polished by long practice, which is why two managers can reach the same goal by different routes.",
+      "formula": "",
+      "key_idea": "All three art tests hold -- existence of theory, personalised application, and practice-based creativity.",
+      "textbook_ref": "lebs101.txt lines 885-1029 (Management as an Art)",
+      "question_patterns": [
+        "is management an art give reasons for your answer",
+        "explain the features of art that management satisfies",
+        "why do two managers apply the same principle in different ways",
+        "discuss how practice and creativity shape managerial skill",
+        "state the criteria of an art fulfilled by management"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Recall the three tests of an art",
+          "explain": "Theoretical knowledge, personal style of application, and creative practice."
+        },
+        {
+          "step": 2,
+          "action": "Test managing against each",
+          "explain": "Management literature exists; every manager applies it in an individual way; skill matures with practice."
+        },
+        {
+          "step": 3,
+          "action": "Conclude the classification",
+          "explain": "Managing satisfies the art criteria, so it deserves to be called an art."
+        }
+      ]
+    },
+    {
+      "id": "lebs.101.5.2",
+      "title": "Management as an Inexact Science",
+      "section": "1.5",
+      "definition": "The science view of managing: it owns an organised set of principles built through repeated observation, but because human behaviour resists exact replication, it ranks as a soft or social science rather than a pure one.",
+      "formula": "",
+      "key_idea": "Systematised knowledge and experimentation yes; universal exact validity no -- principles bend to each situation.",
+      "textbook_ref": "lebs101.txt lines 1030-1211 (Management as a Science, inexact science)",
+      "question_patterns": [
+        "is management a science why is it labelled an inexact science",
+        "explain the features of science that management only partly satisfies",
+        "why are the principles of management less exact than those of physics",
+        "comment on the claim that management has a systematised body of knowledge",
+        "why can experiments involving people not be replicated exactly in management"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Recall the three marks of science",
+          "explain": "Organised body of knowledge, principles tested by experiment, and universal validity."
+        },
+        {
+          "step": 2,
+          "action": "Check each mark for managing",
+          "explain": "Knowledge exists and grew from observation, but outcomes involve people and cannot be exactly repeated, so validity is not universal."
+        },
+        {
+          "step": 3,
+          "action": "State the accepted verdict",
+          "explain": "Managing is an inexact or social science; its principles still guide training and practice."
+        }
+      ]
+    },
+    {
+      "id": "lebs.101.5.3",
+      "title": "Management as a Profession",
+      "section": "1.5",
+      "definition": "The professional standing of managing is partial: a defined knowledge base, teaching institutes and associations exist, but anyone may be designated a manager, no licence is demanded, and the conduct code carries no legal force.",
+      "formula": "",
+      "key_idea": "Restricted entry and statutory backing are missing, so managing is not yet a full profession even though it is increasingly professional in character.",
+      "textbook_ref": "lebs101.txt lines 1212-1408 (Management as a Profession, features i to v and the matching discussion)",
+      "question_patterns": [
+        "does management possess the characteristics of a full fledged profession discuss",
+        "why is entry into the managerial role not restricted",
+        "name the features of a profession that management does not satisfy",
+        "explain the professional features that management already shows",
+        "is a specific degree necessary to work as a manager give your view",
+        "what role do associations like AIMA play for managers"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "List the tests of a profession",
+          "explain": "Defined knowledge, restricted entry, professional association, ethical code, service motive."
+        },
+        {
+          "step": 2,
+          "action": "Mark each test as met or unmet",
+          "explain": "Knowledge and associations are present; entry is open and the code is not legally enforceable."
+        },
+        {
+          "step": 3,
+          "action": "Conclude with the balanced verdict",
+          "explain": "Managing falls short of a full profession yet shows a clear professional tilt."
+        }
+      ]
+    },
+    {
+      "id": "lebs.101.6.1",
+      "title": "Levels of Management and Their Roles",
+      "section": "1.6",
+      "definition": "The three-rung authority ladder of an enterprise: senior executives such as the CEO and board who set overall goals and policies, divisional heads who convert those policies into departmental plans, and supervisors who lead the workforce at the base.",
+      "formula": "",
+      "key_idea": "Top integrates diverse elements and decides strategy; middle interprets policy and links the two ends; operational guards quality, output and safety on the floor.",
+      "textbook_ref": "lebs101.txt lines 1409-1554 (Top, Middle, Supervisory/Operational levels)",
+      "question_patterns": [
+        "at which level of management does a divisional head work and what are her functions",
+        "explain the three levels of management with their main tasks",
+        "who belongs to top management and what work do they perform",
+        "what duties does supervisory management carry out",
+        "justify that middle management links the top and lower levels",
+        "a production manager implements policies framed above identify the level"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Identify the rung from the designation",
+          "explain": "CEO, president or vice-president sits at the top; department or division heads in the middle; foremen and supervisors at the base."
+        },
+        {
+          "step": 2,
+          "action": "State that rung's core job",
+          "explain": "Top sets goals and strategy, middle interprets and implements, operational oversees workers directly."
+        },
+        {
+          "step": 3,
+          "action": "Justify with the case facts",
+          "explain": "Tie the duties named in the question to the identified level."
+        }
+      ]
+    },
+    {
+      "id": "lebs.101.7.1",
+      "title": "Functions of Management",
+      "section": "1.7",
+      "definition": "The five linked duties making up a manager's job: deciding in advance what must be done, grouping tasks and assigning authority, filling posts with suitable people, guiding and motivating them, and checking results against set standards.",
+      "formula": "",
+      "key_idea": "The five functions interlock and overlap in daily work -- the order is logical, not a rigid timetable.",
+      "textbook_ref": "lebs101.txt lines 1555-1729 (Planning, Organising, Staffing, Directing, Controlling)",
+      "question_patterns": [
+        "explain the five functions of management",
+        "name and describe the duties a manager performs",
+        "which function of management covers motivating employees",
+        "a manager compares actual output against targets which function does this show",
+        "why are the managerial functions called interrelated",
+        "what does the staffing function involve in practice"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Match the activity to its function",
+          "explain": "Setting targets is planning; arranging duties is organising; recruiting is staffing; leading is directing; comparing with standards is controlling."
+        },
+        {
+          "step": 2,
+          "action": "Define that function in a line",
+          "explain": "Give the one-line meaning of the identified function."
+        },
+        {
+          "step": 3,
+          "action": "Note its linkage with the others",
+          "explain": "Each function feeds the next and all run side by side in real work."
+        }
+      ]
+    },
+    {
+      "id": "lebs.101.8.1",
+      "title": "Coordination as the Essence of Management",
+      "section": "1.8",
+      "definition": "The synchronising force that lines up the work of all departments and individuals behind one common purpose; it is not a stand-alone function but runs inside planning, organising, staffing, directing and controlling alike.",
+      "formula": "",
+      "key_idea": "Its traits: integrates group effort, secures unity of action, continuous, all pervasive, every manager's duty, deliberate; the need grows with size, departmental splits and specialists.",
+      "textbook_ref": "lebs101.txt lines 1730-2230 (Coordination: essence, characteristics i-vi, importance i-iii)",
+      "question_patterns": [
+        "coordination is the essence of management do you agree give reasons",
+        "state the characteristics of coordination",
+        "why does an organisation need coordination among its departments",
+        "how does coordination differ from cooperation",
+        "production and sales teams keep blaming each other which quality of management is missing",
+        "is coordination a separate function of management explain your answer"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Open with the essence claim",
+          "explain": "Coordination binds the other functions together and so is called the essence rather than one more function."
+        },
+        {
+          "step": 2,
+          "action": "List the six characteristics",
+          "explain": "Integrates group effort, unity of action, continuous, all pervasive, responsibility of all managers, deliberate."
+        },
+        {
+          "step": 3,
+          "action": "Give the reasons it becomes necessary",
+          "explain": "Growing size, functional differentiation between departments, and rising specialisation create the need."
+        },
+        {
+          "step": 4,
+          "action": "Apply to the case if given",
+          "explain": "Blame games between departments signal absent coordination; the remedy is deliberate synchronising of their work."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "lebs101.txt lines 2291-2300 (exercise: Ashita and Lakshita)",
+      "concept": "lebs.101.1.3",
+      "question_type": "compute",
+      "question_pattern": "Ashita was to produce {units_produced} bracelets at a standard cost of Rs 100 each. She delivered all of them at a total cost of {total_cost}. Work out her unit cost.",
+      "extracted_variables": {
+        "total_cost": 55000,
+        "units_produced": 500
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Read off the two givens",
+          "explain": "Total expense Rs 55000 and output 500 units.",
+          "compute": "input_cost = total_cost"
+        },
+        {
+          "step": 2,
+          "action": "Spread the cost over the output",
+          "explain": "55000 divided by 500 gives Rs 110 per bracelet.",
+          "compute": "unit_cost = input_cost / units_produced"
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "lebs101.txt lines 2291-2300 (exercise: Ashita and Lakshita)",
+      "concept": "lebs.101.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Lakshita turned out 450 units at Rs 90 each against an order of 500 units at Rs 100 per unit. Was she effective, efficient, both or neither?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Check the end result",
+          "explain": "Only 450 of the ordered 500 units were made, so the target was missed -- not effective."
+        },
+        {
+          "step": 2,
+          "action": "Check the input side",
+          "explain": "Rs 90 per unit is below the Rs 100 standard, so inputs were used thriftily -- efficient."
+        },
+        {
+          "step": 3,
+          "action": "Classify and conclude",
+          "explain": "Lakshita is efficient but not effective; Ashita by contrast is effective but not efficient at Rs 110 per unit."
+        }
+      ]
+    },
+    {
+      "id": "we3",
+      "source_ref": "lebs101.txt lines 2275-2288 (exercise: departments in conflict)",
+      "concept": "lebs.101.8.1",
+      "question_type": "verify_property",
+      "question_pattern": "In a white-goods firm the production, marketing and finance departments each blame the others for falling sales and returns. Which quality of management is the firm missing and what should it do?",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "Name the missing quality",
+          "explain": "Departments working in silos and blaming each other point to missing coordination."
+        },
+        {
+          "step": 2,
+          "action": "Explain the gap",
+          "explain": "Each unit has its own objectives and style; without a deliberate synchronising force their efforts diverge."
+        },
+        {
+          "step": 3,
+          "action": "Suggest the remedy",
+          "explain": "Management should reconcile departmental goals, set common targets and keep coordination running through planning to controlling."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex101_vsa",
+      "source_ref": "lebs101.txt lines 2249-2262 (Very Short Answer Type)",
+      "questions": [
+        "What is meant by management?",
+        "Name any two important characteristics of management.",
+        "Identify and state the force that binds all the other functions of management.",
+        "List any two indicators of growth of an organisation.",
+        "Indian Railways launched a broad gauge solar power DEMU train with 6 trailer coaches expected to save about 21000 litres of diesel and Rs 1200000 per year. Name the objectives of management achieved in this case."
+      ]
+    },
+    {
+      "id": "ex101_sa",
+      "source_ref": "lebs101.txt lines 2268-2300 (Short Answer Type)",
+      "questions": [
+        "Ritu manages the northern division of a large corporate house. At what level does she work and what are her basic functions?",
+        "State the basic features of management as a profession.",
+        "Why is management considered to be a multi-dimensional concept?",
+        "A white-goods company faces declining profits and market share; production blames marketing for missed targets, marketing blames production quality, and finance blames both. Which quality of management is the company lacking and what steps should it take?",
+        "Coordination is the essence of management. Do you agree? Give reasons.",
+        "Ashita and Lakshita were each to produce 500 bracelets in 4 days at Rs 100 per bracelet. Ashita delivered 500 at a total cost of Rs 55000; Lakshita produced 450 units at Rs 90 per unit. State whether each is efficient and effective, with reasons."
+      ]
+    },
+    {
+      "id": "ex101_la",
+      "source_ref": "lebs101.txt lines 2301-2322 (Long Answer Type)",
+      "questions": [
+        "Management is considered to be both an art and science. Explain.",
+        "Do you think management has the characteristics of a full-fledged profession?",
+        "A successful enterprise has to achieve its goals effectively and efficiently. Explain.",
+        "Management is a series of continuous interrelated functions. Comment.",
+        "A company wants to modify its existing product due to decreasing sales. What decisions or steps should each level of management take?",
+        "A firm plans in advance and has a sound structure, efficient supervisors and controls, yet plans are often not followed, causing confusion and duplication. Advise a remedy."
+      ]
+    }
+  ]
+}

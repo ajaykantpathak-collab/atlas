@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_04_004",
+   "title": "c11_ps_cbse_04_004",
+   "questions": [
+    {
+     "q": "State the three principles of justice in holdings according to Nozick's entitlement theory.",
+     "a": "The three principles are: (1) Justice in acquisition – how unowned resources become legitimately owned; (2) Justice in transfer – voluntary exchange, gift, or bequest of holdings; (3) Justice in rectification – correcting violations of the first two principles. A wrong answer (e.g., listing \"equality, need, merit\") reveals confusion between patterned principles and historical entitlement theory.",
+     "self_check": true
+    },
+    {
+     "q": "Why does Nozick argue that \"liberty upsets patterns\"? Explain using the Wilt Chamberlain example in your own words.",
+     "a": "Nozick says any patterned principle (e.g., \"to each according to need/merit/effort\") requires constantly disrupting voluntary transactions to maintain the pattern. In the Wilt Chamberlain example, fans freely pay extra to watch him play; the resulting distribution deviates from the starting pattern. To restore the pattern, the state must forcibly prevent people from paying Chamberlain or seize his earnings – violating liberty. A wrong answer that claims \"Nozick thinks inequality is good\" misses the point: he thinks *voluntary* transactions are just regardless of the resulting pattern.",
+     "self_check": true
+    },
+    {
+     "q": "A state government introduces a \"wealth cap\" policy: no individual may hold net assets exceeding ₹10 crore; excess is redistributed to fund rural healthcare. Using Nozick's framework, identify which principle(s) of justice in holdings this policy violates and why.",
+     "a": "The policy violates justice in transfer (it seizes assets acquired through voluntary exchanges) and justice in acquisition (it retroactively nullifies legitimate appropriation). It imposes an end-state pattern (max ₹10 crore) and requires continuous interference with voluntary transactions. A wrong answer that says \"it violates justice in rectification\" confuses rectification (correcting past injustice) with patterned redistribution; the policy is not correcting a specific past violation but imposing a new pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Nozick's and Rawls' views on the role of the state in distributive justice. Highlight two fundamental differences in their conceptions of rights and the starting point of justice.",
+     "a": "Difference 1: Rawls uses a hypothetical original position/veil of ignorance to derive principles for the basic structure; Nozick takes existing individual rights (self-ownership, property) as side-constraints that no state may override. Difference 2: Rawls' difference principle assesses justice by the current time-slice distribution (end-state); Nozick assesses justice by the historical process that produced the distribution (historical entitlement). A wrong answer that says \"Rawls wants equality, Nozick wants inequality\" oversimplifies: Rawls permits inequality if it benefits the worst-off; Nozick permits any inequality arising from just steps.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Nozick's entitlement theory provides no mechanism to address historical injustices like land dispossession of Adivasi communities in India.\" Is this claim accurate? Justify with reference to the principle of rectification.",
+     "a": "The claim is inaccurate. Nozick's third principle – justice in rectification – explicitly addresses past violations of justice in acquisition or transfer. For Adivasi land dispossession, rectification would require identifying the unjust acts (force, fraud), estimating the counterfactual just holdings, and restoring or compensating accordingly. However, practical difficulties (historical records, counterfactuals) make implementation complex. A wrong answer that says \"Nozick ignores history\" confuses his historical entitlement theory with ahistorical patterned theories; rectification is central to his framework.",
+     "self_check": true
+    },
+    {
+     "q": "Create a brief scenario (3-4 sentences) set in an Indian city that illustrates a violation of justice in transfer according to Nozick, and state what rectification would require.",
+     "a": "Scenario: A municipal corporation forcibly evicts street vendors from a marketplace without compensation to build a mall, then allocates shops to a developer at below-market rates. The vendors' earnings from voluntary customer transactions are seized (violation of justice in transfer), and the developer's acquisition traces to state coercion (violation of justice in acquisition). Rectification would require returning the vendors' right to vend or compensating them at fair market value for lost livelihood, and nullifying the developer's ill-gotten title. A poor answer that only describes the eviction without linking to voluntary exchange and rectification shows inability to apply the three principles concretely.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

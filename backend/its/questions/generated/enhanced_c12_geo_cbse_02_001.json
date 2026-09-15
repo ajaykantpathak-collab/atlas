@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_02_001",
+   "title": "c12_geo_cbse_02_001",
+   "questions": [
+    {
+     "q": "Name the six Asian countries that are among the ten most populous countries in the world, and state the approximate percentage of world population these ten countries collectively contribute.",
+     "a": "The six Asian countries are China, India, Indonesia, Pakistan, Bangladesh, and Japan. The ten most populous countries contribute approximately 60% of the world's population. A wrong answer (e.g., including Russia or Nigeria in the Asian six, or stating 90%) reveals confusion between the \"10% land area\" statistic and the \"60% population\" statistic, or inability to distinguish Asian from non-Asian nations in the top-ten list.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the statement \"Asia has many places where people are few and few places where people are very many\" (George B. Cressey) accurately describes global population distribution, using the concepts of ecumene and non-ecumene.",
+     "a": "The statement reflects the dichotomy between ecumene (permanently inhabited areas) and non-ecumene (sparsely/uninhabited areas). Asia contains vast non-ecumene zones — the Siberian tundra, Gobi Desert, Himalayan highlands, and Arabian Desert — where extreme cold, aridity, or altitude limit settlement. Simultaneously, it holds the world's largest ecumene concentrations: the Indo-Gangetic plain, North China plain, Java, and Japan's coastal lowlands. A wrong answer that treats Asia as uniformly dense misses the core geographical concept that habitability, not continental size, determines distribution.",
+     "self_check": true
+    },
+    {
+     "q": "Given that Region A has an area of 250 sq km and a population of 375,000, and Region B has an area of 400 sq km and a population of 480,000, calculate the population density of each region. Which region has higher population concentration, and what geographical factor might explain this difference if Region A is a river delta and Region B is a mineral-rich plateau?",
+     "a": "Region A density = 375,000 / 250 = 1,500 persons/sq km. Region B density = 480,000 / 400 = 1,200 persons/sq km. Region A has higher concentration. The river delta's flat terrain, fertile alluvial soil, and reliable water supply (geographical factors) support intensive agriculture and dense settlement, whereas the plateau's mineral wealth (economic factor) attracts population but the rugged terrain limits total carrying capacity compared to the delta. A wrong calculation (e.g., inverting the formula) or attributing the difference solely to minerals without considering landform constraints shows procedural or conceptual gaps.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of water availability in shaping population distribution in the Nile Valley (Egypt) versus the Indus-Ganga-Brahmaputra plains (South Asia). How does the *nature* of water availability (single river vs. multiple perennial rivers fed by different mechanisms) create different distribution patterns?",
+     "a": "The Nile Valley exhibits a linear, ribbon-like distribution tightly bound to a single exogenous river in a hyper-arid desert — population is confined to the narrow floodplain and delta. The Indus-Ganga-Brahmaputra plains show a broad, areal distribution across a vast alluvial plain fed by multiple rivers with dual sources: Himalayan snowmelt (perennial) and monsoon rainfall (seasonal). This multi-source reliability allows settlement to spread widely across the interfluves, not just along channels. A wrong answer treating both as \"river valley civilizations\" without distinguishing linear vs. areal patterns misses how water *reliability* and *spatial extent* shape distribution geometry.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Economic factors such as minerals and industrialization have become more important than geographical factors in determining modern population distribution.\" Support your judgment with two contrasting examples from different continents.",
+     "a": "The claim is partially valid but overstated. In the Ruhr region (Germany) and the Kobe-Osaka belt (Japan), coal/steel and manufacturing created dense urban clusters on otherwise unremarkable terrain — economic factors *overrode* moderate geographical disadvantages. However, in the Amazon Basin (mineral wealth exists but equatorial climate, poor soils, and disease limit settlement) and the Siberian Arctic (vast resources but permafrost and extreme cold restrict permanent towns), geographical factors remain the *ultimate constraint*. Economic factors redistribute population *within* geographically permissible zones; they do not nullify geographical limits. A wrong evaluation that ignores the Amazon/Siberia counterexamples shows failure to analyze the hierarchy of factors.",
+     "self_check": true
+    },
+    {
+     "q": "Design a choropleth map legend for world population distribution using five classes that effectively communicates both the extreme concentration (90% in 10% land) and the vast empty areas. Specify class intervals, color scheme rationale, and one annotation you would add to prevent misinterpretation.",
+     "a": "Class intervals (persons/sq km): 0–2 (white/very light yellow — non-ecumene: deserts, ice caps, high mountains), 2–25 (light orange — sparse: boreal forests, semi-arid margins), 25–100 (medium orange — moderate: temperate grasslands, Mediterranean), 100–500 (dark orange — dense: coastal plains, river valleys), >500 (red/brown — very dense: Indo-Gangetic, North China, Java, NW Europe, NE USA). Color progression from cool/light to warm/dark mirrors intensity. Critical annotation: \"Classes represent density, not total population; large low-density areas may contain fewer people than small high-density areas.\" A poor legend using equal intervals (e.g., 0–100, 100–200…) would visually overemphasize empty lands and hide the extreme concentration, misleading the map reader.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

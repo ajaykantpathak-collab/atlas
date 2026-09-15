@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_12_007",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_12_007",
+   "title": "c12_hist_cbse_12_007",
+   "questions": [
+    {
+     "q": "In which part of the Indian Constitution are the Directive Principles of State Policy enshrined, and what is their justiciability status?",
+     "a": "The Directive Principles of State Policy are enshrined in Part IV (Articles 36–51) of the Indian Constitution. They are explicitly non-justiciable — Article 37 states they \"shall not be enforceable by any court.\" A wrong answer (e.g., \"Part III\" or \"justiciable\") reveals confusion between Fundamental Rights (Part III, justiciable) and DPSP (Part IV, non-justiciable), a fundamental distinction tested in every board and competitive exam.",
+     "self_check": true
+    },
+    {
+     "q": "Why did B.R. Ambedkar describe the Directive Principles as \"instruments of instructions\" to the legislature and executive, rather than making them legally enforceable like Fundamental Rights?",
+     "a": "Ambedkar argued that in a resource-poor, newly independent nation, socio-economic goals (e.g., living wage, free education, public health) could not be guaranteed by courts because they required legislative policy choices and financial capacity. Making them justiciable would invite judicial overreach into policy domains and risk constitutional crises when the State failed to deliver. A wrong answer (e.g., \"Ambedkar opposed welfare\") reveals ignorance of his actual position: he championed the *content* of DPSP but insisted on their *non-justiciability* as a pragmatic constitutional design.",
+     "self_check": true
+    },
+    {
+     "q": "A socialist member of the Constituent Assembly moves an amendment to make Directive Principles justiciable. Using the debates of November 1948, construct the counter-argument that K.M. Munshi or Alladi Krishnaswami Ayyar would have given, citing at least two specific concerns.",
+     "a": "Munshi/Ayyar would argue: (1) Justiciability would transfer legislative power over resource allocation (e.g., how much to spend on health vs defence) to unelected judges, violating separation of powers. (2) Courts lack the expertise and enforcement machinery to supervise complex welfare administration — a judicial order to \"provide free education\" cannot build schools or train teachers. A weak answer misses the institutional competence argument and focuses only on \"State cannot afford it,\" ignoring the constitutional theory of separation of powers.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the classification of Directive Principles into \"Socialist,\" \"Gandhian,\" and \"Liberal-Intellectual\" categories. Which specific Articles correspond to each category, and what does this tripartite division reveal about the ideological compromises in the Constituent Assembly?",
+     "a": "Socialist: Articles 38, 39, 39A, 41, 42, 43, 43A (state duty to minimize inequality, ensure livelihood, equal pay, work, maternity relief, living wage, workers' participation). Gandhian: Articles 40, 43, 46, 47, 48 (village panchayats, cottage industries, SC/ST protection, prohibition, cow protection). Liberal-Intellectual: Articles 44, 45, 48A, 49, 50, 51 (uniform civil code, free education, environment, monuments, judiciary-executive separation, international peace). The division reveals the Assembly accommodated Nehruvian socialism, Gandhian moral economics, and liberal constitutionalism — a compromise, not a coherent philosophy. A wrong answer that lumps all DPSP as \"socialist\" misses the Gandhian and liberal strands.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The non-justiciability of Directive Principles was a betrayal of the Objectives Resolution's promise of economic justice.\" Use evidence from the Constituent Assembly debates and the first two decades of Supreme Court jurisprudence (1950–1970).",
+     "a": "The statement is partially valid but historically incomplete. The Objectives Resolution (c12_hist_cbse_12_003) promised \"economic justice,\" and socialist members (e.g., K.T. Shah) did call non-justiciability a \"cheque on a bank that has failed.\" However, Ambedkar and Nehru defended it as a *political* mandate: governments ignoring DPSP would face electoral consequences. Early jurisprudence (State of Madras v. Champakam Dorairajan, 1951) held FR prevail over DPSP, but later (Golaknath, 1967) the Court began reading FR in light of DPSP. The \"betrayal\" critique ignores the deliberate design: DPSP as *political* directives enabled flexible, democratic welfare legislation (e.g., land reforms, five-year plans) without judicial straitjacketing. A one-sided answer fails to weigh institutional pragmatism against moral idealism.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 150-word speech for a Constituent Assembly member (choose: Ambedkar, Nehru, or a socialist dissenter like K.T. Shah) arguing for or against making Directive Principles justiciable, using at least three specific phrases from the actual debates (CAD Vol. VII, Nov 1948).",
+     "a": "Sample (Ambedkar): \"Sir, I move that these Principles be non-justiciable. They are 'instruments of instructions' to the Legislature and Executive — not legal commands. A Constitution must distinguish between *justiciable rights* and *political directives*. If we make the State's duty to provide a 'living wage' (Art. 43) enforceable, every budget shortfall becomes a contempt of court. The Irish Constitution, our model, made them non-justiciable precisely because 'the courts cannot run the administration.' We trust the electorate, not the judiciary, to enforce the 'moral mandate' of Article 37.\" A poor answer uses generic language (\"rights are important\") without CAD phrases like \"instruments of instructions,\" \"moral mandate,\" or \"cheque on a failing bank,\" showing no engagement with primary sources.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

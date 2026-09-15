@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_eco_ch1_8",
+ "concepts": [
+  {
+   "id": "enh:c8_eco_ch1_8",
+   "title": "c8_eco_ch1_8",
+   "questions": [
+    {
+     "q": "What are the four primary factors of production that must interconnect to create any good or service in an economy?",
+     "a": "The four primary factors are land, labour, capital, and entrepreneurship. A wrong answer reveals a confusion between everyday consumer goods and the fundamental economic inputs required to produce them.",
+     "self_check": true
+    },
+    {
+     "q": "Why can modern industrial production not take place using only capital (machines) and land (factories) without labour or entrepreneurship?",
+     "a": "Machines and land are passive resources; they cannot organise themselves, initiate production, or operate without human physical/mental effort (labour) and strategic decision-making (entrepreneurship). A wrong answer suggests the student views capital as self-sustaining rather than dependent on human agency.",
+     "self_check": true
+    },
+    {
+     "q": "A garment factory in Tirupur has 50 sewing machines (capital) and 50 workers (labour), but due to poor management (entrepreneurship), workers sit idle because raw fabric (land/materials) is never ordered. If fixing the management increases total output from 100 shirts to 500 shirts per day without adding new machines or workers, what does this prove about the interconnection of factors?",
+     "a": "Steps: 1. Identify initial output (100 shirts) with flawed entrepreneurship. 2. Identify the bottleneck (lack of raw material management). 3. Observe the change when entrepreneurship is corrected (output jumps to 500 shirts). 4. Conclude that the productivity of physical capital and labour is entirely dependent on the quality of entrepreneurial coordination. Answer: It proves that factors are interdependent; the best machines and labour are unproductive if coordination (entrepreneurship) fails. A wrong answer shows the student thinks factors operate independently of management.",
+     "self_check": true
+    },
+    {
+     "q": "How does an improvement in human capital (worker training) typically affect the productivity and economic lifespan of physical capital (machinery)?",
+     "a": "Better-trained workers operate machinery with greater care, causing fewer breakdowns, lower maintenance costs, and higher daily output, thereby enhancing the return on physical capital. A wrong answer indicates the student thinks human skills and physical machines operate in totally separate silos.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"An economy can achieve rapid growth by investing solely in advanced technology and machines, ignoring education and training for its labour force.\" Is this economically sound?",
+     "a": "This statement is economically unsound because advanced machinery requires skilled operators (human capital) and entrepreneurial direction to function. Without investing in labour and entrepreneurship alongside physical capital, expensive machinery will remain underutilised or break down. A wrong answer reveals a misunderstanding of how unbalanced factor investments lead to bottlenecks and wasted capital.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short scenario for a local bakery showing how a failure in one factor of production disrupts all other factors.",
+     "a": "A good answer will describe a bakery where an electrical power outage (failure of infrastructure/capital input) stops the oven, rendering the baker's labour useless and spoiling the prepared dough (land/raw materials), ultimately causing the entrepreneur to lose daily revenue. A poor answer merely lists inputs without showing their active, disruptive interconnection.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,591 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 104,
+ "chapter_title": "Animal Kingdom",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebo104.txt",
+ "concepts": [
+  {
+   "id": "kebo.4.1.1",
+   "title": "Levels of Body Organisation",
+   "section": "4.1.1",
+   "definition": "Structural hierarchy in multicellular organisms ranging from simple cellular aggregations to specialized tissues, organs, and integrated organ systems.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Animals exhibit cellular, tissue, organ, or organ-system levels of structural complexity based on functional division of labor.",
+   "textbook_ref": "kebo104.txt lines 13-35",
+   "question_patterns": [
+    "what are the different levels of organisation in animals",
+    "identify the level of organisation in sponges and coelenterates",
+    "explain organ system level of organisation with examples",
+    "distinguish between incomplete and complete digestive systems",
+    "how does levels of body organisation work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify cellular level",
+     "explain": "Cells exist as loose aggregates with minimal division of labor, as seen in Porifera."
+    },
+    {
+     "step": 2,
+     "action": "Identify tissue level",
+     "explain": "Cells performing similar functions organize into distinct tissues, seen in Coelenterata and Ctenophora."
+    },
+    {
+     "step": 3,
+     "action": "Identify organ and organ-system levels",
+     "explain": "Tissues group into specialized organs (Platyhelminthes) or complex functional organ systems (Annelids to Chordates)."
+    }
+   ]
+  },
+  {
+   "id": "kebo.4.1.2",
+   "title": "Body Symmetry in Animals",
+   "section": "4.1.2",
+   "definition": "Geometric arrangement of anatomical structures relative to a central longitudinal axis of the organism.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Animals are categorized as asymmetrical, radially symmetrical, or bilaterally symmetrical.",
+   "textbook_ref": "kebo104.txt lines 36-54",
+   "question_patterns": [
+    "define radial symmetry and give examples",
+    "what is bilateral symmetry in animal classification",
+    "how does symmetry differ between adult and larval echinoderms",
+    "classify organisms based on body symmetry",
+    "how does body symmetry in animals work"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check for asymmetry",
+     "explain": "No plane passing through the center divides the body into matching halves (e.g., sponges)."
+    },
+    {
+     "step": 2,
+     "action": "Check for radial symmetry",
+     "explain": "Any plane passing through the central axis produces identical mirror halves (e.g., coelenterates, ctenophores, adult echinoderms)."
+    },
+    {
+     "step": 3,
+     "action": "Check for bilateral symmetry",
+     "explain": "Only a single vertical plane produces identical left and right halves (e.g., annelids, arthropods, chordates)."
+    }
+   ]
+  },
+  {
+   "id": "kebo.4.1.3",
+   "title": "Germinal Layers Organisation",
+   "section": "4.1.3",
+   "definition": "Primary embryonic cell layers formed during early development that give rise to all tissues and organs.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Diploblastic organisms develop two germ layers, whereas triploblastic organisms possess a third middle layer called mesoderm.",
+   "textbook_ref": "kebo104.txt lines 55-67",
+   "question_patterns": [
+    "difference between diploblastic and triploblastic animals",
+    "what is mesoglea and where is it found",
+    "which phyla show triploblastic organization",
+    "describe germ layer arrangement in coelenterates",
+    "explain germinal layers organisation in your own words"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify diploblastic organization",
+     "explain": "Outer ectoderm and inner endoderm are separated by non-cellular mesoglea (e.g., coelenterates)."
+    },
+    {
+     "step": 2,
+     "action": "Identify triploblastic organization",
+     "explain": "Mesoderm layer forms between ectoderm and endoderm (e.g., Platyhelminthes to Chordates)."
+    },
+    {
+     "step": 3,
+     "action": "Classify organism by germ layer count",
+     "explain": "Count germ layers: two layers indicate diploblastic, three layers with mesoderm indicate triploblastic organization."
+    }
+   ]
+  },
+  {
+   "id": "kebo.4.1.4",
+   "title": "Body Cavity and Coelom Types",
+   "section": "4.1.4",
+   "definition": "Fluid-filled internal cavity between the body both wall and gut wall, classified by the presence and nature of its mesodermal lining.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Coelomates have mesoderm-lined cavities, pseudocoelomates have scattered mesodermal pouches, and acoelomates lack a body cavity.",
+   "textbook_ref": "kebo104.txt lines 68-87",
+   "question_patterns": [
+    "define coelom and distinguish its types",
+    "what are pseudocoelomate animals with examples",
+    "explain acoelomate condition in flatworms",
+    "how is body cavity used in classification",
+    "short note on body cavity and coelom types"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Verify true coelom",
+     "explain": "Body cavity is completely lined by mesoderm (coelomates: Annelids, Arthropods, Molluscs, Chordates)."
+    },
+    {
+     "step": 2,
+     "action": "Verify pseudocoelom",
+     "explain": "Body cavity is not lined by mesoderm; mesoderm exists as scattered pouches (pseudocoelomates: Aschelminthes)."
+    },
+    {
+     "step": 3,
+     "action": "Verify acoelomate condition",
+     "explain": "No body cavity is present between the digestive tract and outer body wall (acoelomates: Platyhelminthes)."
+    }
+   ]
+  },
+  {
+   "id": "kebo.4.1.5",
+   "title": "Metamerism and Notochord",
+   "section": "4.1.5",
+   "definition": "Structural segmentation showing repeated organ sets along the body, and the embryonic dorsal supporting rod that defines chordates.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Metamerism is serial body segmentation, while the notochord is a mesodermally derived axial rod.",
+   "textbook_ref": "kebo104.txt lines 88-100",
+   "question_patterns": [
+    "what is metameric segmentation",
+    "explain metamerism in earthworms",
+    "define notochord and its embryonic origin",
+    "distinguish between chordates and non-chordates",
+    "what do you understand by metamerism and notochord"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify metamerism",
+     "explain": "Body is segmented externally and internally with repetitive organ units (e.g., earthworms)."
+    },
+    {
+     "step": 2,
+     "action": "Identify notochord presence",
+     "explain": "Mesodermally derived rod formed on the dorsal side during development distinguishes chordates from non-chordates."
+    },
+    {
+     "step": 3,
+     "action": "Correlate metamerism and notochord for classification",
+     "explain": "Use the presence of metamerism to place organisms in Annelida/Arthropoda and the presence of notochord to place them in Chordata."
+    }
+   ]
+  },
+  {
+   "id": "kebo.4.2.1",
+   "title": "Phyla Porifera, Coelenterata, and Ctenophora",
+   "section": "4.2.1",
+   "definition": "Lower aquatic invertebrates characterized by cellular aggregates with water canals, or diploblastic tissue structures with stinging cells or comb plates.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Porifera feature ostia and choanocytes; Coelenterata possess cnidocytes and metagenesis; Ctenophora feature locomotion via comb plates.",
+   "textbook_ref": "kebo104.txt lines 105-160",
+   "question_patterns": [
+    "describe water canal system in sponges",
+    "what are cnidoblasts and their functions",
+    "explain alternation of generation or metagenesis in Obelia",
+    "what are comb plates in ctenophores",
+    "describe phyla porifera, coelenterata, and ctenophora with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine Porifera traits",
+     "explain": "Water enters ostia into spongocoel and exits osculum; lined by flagellated choanocytes."
+    },
+    {
+     "step": 2,
+     "action": "Examine Coelenterata traits",
+     "explain": "Cnidocytes on tentacles serve defense and prey capture; exist as polyp or medusa forms."
+    },
+    {
+     "step": 3,
+     "action": "Examine Ctenophora traits",
+     "explain": "Comb jellies exhibit eight rows of ciliated comb plates and bioluminescence."
+    }
+   ]
+  },
+  {
+   "id": "kebo.4.2.2",
+   "title": "Phyla Platyhelminthes and Aschelminthes",
+   "section": "4.2.2",
+   "definition": "Worm phyla comprising acoelomate dorsoventrally flattened flatworms and pseudocoelomate cylindrical roundworms.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Platyhelminths are acoelomate flatworms with flame cells; Aschelminthes are indeed pseudocoelomate roundworms with a muscular pharynx.",
+   "textbook_ref": "kebo104.txt lines 161-197",
+   "question_patterns": [
+    "what are flame cells and their function",
+    "list characteristic features of parasitic flatworms",
+    "describe body cavity and alimentary canal in Aschelminthes",
+    "how do flatworms and roundworms differ",
+    "state two key points about phyla platyhelminthes and aschelminthes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze Platyhelminthes",
+     "explain": "Dorsoventrally flattened, triploblastic, acoelomate; flame cells aid osmoregulation and excretion."
+    },
+    {
+     "step": 2,
+     "action": "Analyze Aschelminthes",
+     "explain": "Circular cross-section, pseudocoelomate; complete gut with muscular pharynx; dioecious."
+    },
+    {
+     "step": 3,
+     "action": "Compare body cavity and reproductive strategy",
+     "explain": "Platyhelminthes are acoelomate and mostly hermaphroditic, while Aschelminthes are pseudocoelomate and dioecious, confirming their distinct phylum status."
+    }
+   ]
+  },
+  {
+   "id": "kebo.4.2.3",
+   "title": "Higher Non-Chordate Phyla (Annelida to Hemichordata)",
+   "section": "4.2.3",
+   "definition": "Advanced coelomate invertebrates possessing segmented bodies, chitinous exoskeletons, soft mantle coverings, water vascular systems, or stomochords.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Includes Annelida (metameres/nephridia), Arthropoda (jointed legs/chitinous skin), Mollusca (shell/mantle/radula), Echinodermata (spiny skin/water vascular system), and Hemichordata (proboscis/stomochord).",
+   "textbook_ref": "kebo104.txt lines 198-265",
+   "question_patterns": [
+    "what is the function of water vascular system in echinoderms",
+    "describe excretory organs across annelids, arthropods, and hemichordates",
+    "what is radula in molluscs",
+    "explain structural features of Balanoglossus",
+    "justify why higher non-chordate phyla (annelida to hemichordata) matters"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify Annelida and Arthropoda traits",
+     "explain": "Annelids have metameric segments and nephridia; Arthropods possess jointed appendages, chitinous exoskeleton, and Malpighian tubules."
+    },
+    {
+     "step": 2,
+     "action": "Identify Mollusca and Echinodermata traits",
+     "explain": "Molluscs have visceral hump, mantle cavity, and rasping radula; Echinoderms possess a water vascular system and adult radial symmetry."
+    },
+    {
+     "step": 3,
+     "action": "Identify Hemichordata traits",
+     "explain": "Worm-like marine bodies divided into proboscis, collar with stomochord, and trunk."
+    }
+   ]
+  },
+  {
+   "id": "kebo.4.1.7",
+   "title": "Estimation of Arthropod Species Count",
+   "section": "4.2.7",
+   "definition": "Quantitative calculation of arthropod abundance using the principle that two-thirds of all named animal species on Earth belong to phylum Arthropoda.",
+   "formula": "arthropod_species = total_species * 2 / 3",
+   "key_idea": "Arthropods account for about two-thirds of all described living animal species.",
+   "textbook_ref": "kebo104.txt lines 218-223",
+   "question_patterns": [
+    "calculate the number of arthropod species if total named species is ...",
+    "how many arthropod species exist out of ... total animal species",
+    "find the arthropod species count given total species",
+    "what proportion of animal species are arthropods",
+    "what is the result in this estimation of arthropod species count problem"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate arthropod species count",
+     "explain": "Multiply the total animal species by 2/3 to estimate arthropod representation.",
+     "compute": "arthropod_species = total_species * 2 / 3"
+    },
+    {
+     "step": 2,
+     "action": "Verify the proportion",
+     "explain": "Confirm that the calculated arthropod species count equals approximately two-thirds of the total species, ensuring the ratio is applied correctly.",
+     "compute": "proportion = arthropod_species / total_species"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the result",
+     "explain": "The result represents the estimated number of arthropod species, reflecting their dominance as roughly two-thirds of all named animal species."
+    }
+   ]
+  },
+  {
+   "id": "kebo.4.2.4",
+   "title": "Phylum Chordata and Subphyla Division",
+   "section": "4.2.11",
+   "definition": "Animals defined by a dorsal notochord, hollow nerve cord, pharyngeal gill slits, and post-anal tail, split into Urochordata, Cephalochordata, and Vertebrata.",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Protochordates are marine non-vertebrate chordates; Vertebrates replace embryonic notochord with a vertebral column.",
+   "textbook_ref": "kebo104.txt lines 266-300",
+   "question_patterns": [
+    "list diagnostic characters of phylum chordata",
+    "compare chordates and non-chordates",
+    "justify why all vertebrates are chordates but all chordates are not vertebrates",
+    "distinguish between Urochordata and Cephalochordata",
+    "why is phylum chordata and subphyla division important"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Verify essential chordate features",
+     "explain": "Presence of dorsal hollow nerve cord, notochord, paired pharyngeal gill slits, and post-anal tail."
+    },
+    {
+     "step": 2,
+     "action": "Differentiate protochordate subphyla",
+     "explain": "In Urochordata, notochord is limited to larval tail; in Cephalochordata, it persists head-to-tail throughout life."
+    },
+    {
+     "step": 3,
+     "action": "Distinguish subphylum Vertebrata",
+     "explain": "Embryonic notochord is replaced by a bony or cartilaginous vertebral column in adult vertebrates."
+    }
+   ]
+  },
+  {
+   "id": "kebo.4.2.5",
+   "title": "Classes of Pisces and Jawless Vertebrates",
+   "section": "4.2.11.1",
+   "definition": "Aquatic vertebrates with two-chambered hearts, including jawless ectoparasitic cyclostomes and finned fishes (cartilaginous and bony).",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Cyclostomes lack jaws; Chondrichthyes have cartilaginous skeletons and placoid scales; Osteichthyes have bony skeletons and opercula.",
+   "textbook_ref": "kebo104.txt lines 301-355",
+   "question_patterns": [
+    "differentiate between Chondrichthyes and Osteichthyes",
+    "what are the key features of class Cyclostomata",
+    "explain the role of air bladder in bony fishes",
+    "why must cartilaginous fishes swim constantly",
+    "list the main features of classes of pisces and jawless vertebrates"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze Cyclostomata",
+     "explain": "Jawless circular sucking mouth, 6-15 pairs of gill slits, lack scales and paired fins."
+    },
+    {
+     "step": 2,
+     "action": "Analyze Chondrichthyes",
+     "explain": "Ventral mouth, placoid scales, cartilaginous endoskeleton, absent operculum and air bladder."
+    },
+    {
+     "step": 3,
+     "action": "Analyze Osteichthyes",
+     "explain": "Terminal mouth, cycloid/ctenoid scales, bony endoskeleton, operculum covering gills, and air bladder for buoyancy."
+    }
+   ]
+  },
+  {
+   "id": "kebo.4.2.6",
+   "title": "Superclass Tetrapoda Classes",
+   "section": "4.2.11.4",
+   "definition": "Vertebrates with two pairs of limbs, living on land or in water; the group spans amphibians (Amphibia), reptiles (Reptilia), birds (Aves), and mammals (Mammalia).",
+   "formula": "concept method; no single closed formula",
+   "key_idea": "Both Amphibians and reptiles are cold-blooded; birds have feathers and pneumatic bones; mammals feature epidermal hair and mammary glands.",
+   "textbook_ref": "kebo104.txt lines 356-435",
+   "question_patterns": [
+    "what are the unique features of class Mammalia",
+    "describe flight adaptations in birds",
+    "compare heart chambers across tetrapod classes",
+    "explain cloaca in amphibians",
+    "give one everyday example of superclass tetrapoda classes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine Amphibia and Reptilia traits",
+     "explain": "Amphibians have moist skin, 3-chambered heart, cloaca; reptiles have dry scaly skin, 3-chambered heart (4 in crocodiles)."
+    },
+    {
+     "step": 2,
+     "action": "Examine Aves traits",
+     "explain": "Warm-blooded, forelimbs modified into wings, pneumatic hollow bones, air sacs, 4-chambered heart."
+    },
+    {
+     "step": 3,
+     "action": "Examine Mammalia traits",
+     "explain": "Mammary glands for nourishing young, hair on skin, external ear pinnae, heterodont teeth, 4-chambered heart."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Textbook concept / Section 4.2.7",
+   "concept": "kebo.4.1.7",
+   "question_type": "compute",
+   "question_pattern": "If a biological survey documents a total of {total_species} animal species, calculate the estimated number of arthropod species.",
+   "extracted_variables": {
+    "total_species": "total number of identified animal species"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate arthropod species count",
+     "explain": "Arthropods account for two-thirds of all named animal species.",
+     "compute": "arthropod_species = total_species * 2 / 3"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "Exercise Question 9",
+   "concept": "kebo.4.2.4",
+   "question_type": "verify_property",
+   "question_pattern": "Justify the statement: 'All vertebrates are chordates but all chordates are not vertebrates.'",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define basic chordate features",
+     "explain": "All chordates possess a notochord, dorsal hollow nerve cord, and pharyngeal gill slits at some developmental stage."
+    },
+    {
+     "step": 2,
+     "action": "Explain vertebrate distinction",
+     "explain": "Subphylum Vertebrata possesses a notochord during embryonic development, which is replaced by a cartilaginous or bony vertebral column in adults."
+    },
+    {
+     "step": 3,
+     "action": "Conclude relationship",
+     "explain": "Protochordates (Urochordata and Cephalochordata) retain or lose the notochord without forming a vertebral column, so not all chordates belong to Vertebrata."
+    }
+   ]
+  },
+  {
+   "id": "exauto1",
+   "source_ref": "kebo104.txt lines 218-223",
+   "concept": "kebo.4.1.7",
+   "question_type": "numerical",
+   "question_pattern": "numerical example: compute estimation of arthropod species count step by step",
+   "extracted_variables": {
+    "total_species": "value of total_species"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate arthropod species count",
+     "explain": "Multiply the total animal species by 2/3 to estimate arthropod representation.",
+     "compute": "arthropod_species = total_species * 2 / 3"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.1",
+   "source_ref": "Exercise 1",
+   "questions": [
+    "What are the difficulties that you would face in classification of animals, if common fundamental features are not taken into account?"
+   ]
+  },
+  {
+   "id": "ex4.2",
+   "source_ref": "Exercise 2",
+   "questions": [
+    "If you are given a specimen, what are the steps that you would follow to classify it?"
+   ]
+  },
+  {
+   "id": "ex4.3",
+   "source_ref": "Exercise 3",
+   "questions": [
+    "How useful is the study of the nature of body cavity and coelom in the classification of animals?"
+   ]
+  },
+  {
+   "id": "ex4.4",
+   "source_ref": "Exercise 4",
+   "questions": [
+    "Distinguish between intracellular and extracellular digestion?"
+   ]
+  },
+  {
+   "id": "ex4.5",
+   "source_ref": "Exercise 5",
+   "questions": [
+    "What is the difference between direct and indirect development?"
+   ]
+  },
+  {
+   "id": "ex4.6",
+   "source_ref": "Exercise 6",
+   "questions": [
+    "What are the peculiar features that you find in parasitic platyhelminthes?"
+   ]
+  },
+  {
+   "id": "ex4.7",
+   "source_ref": "Exercise 7",
+   "questions": [
+    "What are the reasons that you can think of for the arthropods to constitute the largest group of the animal kingdom?"
+   ]
+  },
+  {
+   "id": "ex4.8",
+   "source_ref": "Exercise 8",
+   "questions": [
+    "Water vascular system is the characteristic of which group of the following: (a) Porifera (b) Ctenophora (c) Echinodermata (d) Chordata"
+   ]
+  },
+  {
+   "id": "ex4.9",
+   "source_ref": "Exercise 9",
+   "questions": [
+    "'All vertebrates are chordates but all chordates are not vertebrates'. Justify the statement."
+   ]
+  },
+  {
+   "id": "ex4.10",
+   "source_ref": "Exercise 10",
+   "questions": [
+    "How important is the presence of air bladder in Pisces?"
+   ]
+  },
+  {
+   "id": "ex4.11",
+   "source_ref": "Exercise 11",
+   "questions": [
+    "What are the modifications that are observed in birds that help them fly?"
+   ]
+  },
+  {
+   "id": "ex4.12",
+   "source_ref": "Exercise 12",
+   "questions": [
+    "Could the number of eggs or young ones produced by an oviparous and viviparous mother be equal? Why?"
+   ]
+  },
+  {
+   "id": "ex4.13",
+   "source_ref": "Exercise 13",
+   "questions": [
+    "Segmentation in the body is first observed in which of the following: (a) Platyhelminthes (b) Aschelminthes (c) Annelida (d) Arthropoda"
+   ]
+  },
+  {
+   "id": "ex4.14",
+   "source_ref": "Exercise 14",
+   "questions": [
+    "Match the following: (a) Operculum - (i) Ctenophora, (b) Parapodia - (ii) Mollusca, (c) Scales - (iii) Porifera, (d) Comb plates - (iv) Reptilia, (e) Radula - (v) Annelida, (f) Hairs - (vi) Cyclostomata and Chondrichthyes, (g) Choanocytes - (vii) Mammalia, (h) Gill slits - (viii) Osteichthyes"
+   ]
+  },
+  {
+   "id": "ex4.15",
+   "source_ref": "Exercise 15",
+   "questions": [
+    "Prepare a list of some animals that are found parasitic on human beings."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

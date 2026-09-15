@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_10_003",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_10_003",
+   "title": "c12_bs_cbse_10_003",
+   "questions": [
+    {
+     "q": "State the one-line NCERT definition of Capital Market and name its two components.",
+     "a": "Capital Market is the market for long-term funds (maturity > 1 year) consisting of Primary Market (new issue market) and Secondary Market (stock exchange). A wrong answer that says \"market for shares and debentures\" without mentioning \"long-term funds\" reveals the student is confusing instrument types with the defining characteristic (maturity period). Another error: listing \"Money Market\" as a component — this confuses the chapter's two main markets (Money vs Capital) with the components *within* Capital Market.",
+     "self_check": true
+    },
+    {
+     "q": "A company issues bonus shares to existing shareholders. Is this a primary market or secondary market transaction? Justify your answer in two sentences.",
+     "a": "Bonus issue is a **primary market** transaction because new shares are created and allotted to existing shareholders — the company's share capital increases (though no cash flows in). A student who says \"secondary market because shares are given to existing shareholders\" misunderstands that \"primary\" refers to *issuance of new securities by the company*, not the identity of the buyer. The test: does the company's issued capital change? Yes → primary.",
+     "self_check": true
+    },
+    {
+     "q": "An investor buys 100 shares of Reliance Industries on NSE at ₹2,500 per share. The next day, Reliance announces a new factory. Does Reliance receive any money from this investor's purchase? Explain the flow of funds.",
+     "a": "No, Reliance receives **zero** money. The ₹2,50,000 paid by the buyer goes to the *seller* (another investor), minus brokerage/STT. The company is not a party to this trade. A wrong answer like \"company gets money because share price may rise\" confuses **wealth effect** (market cap increases) with **cash flow**. This is the single most tested concept in board exams: secondary market provides liquidity to investors, not capital to companies.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of Primary Market and Secondary Market in capital formation. Which one directly adds to the economy's productive capacity? Why?",
+     "a": "Primary Market directly adds to productive capacity because funds raised are used by companies for new plants, R&D, expansion — real investment. Secondary Market *indirectly* supports capital formation by providing liquidity and price discovery, which encourages investors to participate in primary issues. A student who claims \"both directly add\" fails to distinguish between **financial investment** (buying existing shares) and **real investment** (building factories). Board marking scheme awards marks only for \"primary market → direct capital formation\".",
+     "self_check": true
+    },
+    {
+     "q": "\"Secondary market is a waste because the company gets no money.\" Evaluate this statement from the perspective of (a) an investor, (b) a company planning an IPO next year.",
+     "a": "The statement is **false**. (a) For an investor, secondary market provides **exit route** — without it, primary market investments would be illiquid, deterring participation. (b) For a company planning an IPO, a vibrant secondary market ensures **better pricing** (higher valuation) and **oversubscription** because investors know they can sell later. A poor answer ignores the **interdependence**: no secondary market → no primary market. Competitive exams (CUET, IPMAT) often test this link via assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-row table showing a hypothetical transaction in Primary Market, Secondary Market, and Money Market. Columns: Instrument, Maturity, Funds Flow To, Purpose.",
+     "a": "| Market | Instrument | Maturity | Funds Flow To | Purpose |\n|--------|------------|----------|---------------|---------|\n| Primary | IPO of Equity Shares | Perpetual | Issuing Company | Capital formation (new plant) |\n| Secondary | Sale of TCS shares on NSE | Perpetual | Selling Investor | Liquidity / portfolio rebalancing |\n| Money Market | 91-day Treasury Bill | < 1 year | Government (borrower) | Short-term liquidity management |\n\nA weak answer puts \"Company\" in the secondary market funds-flow column — the classic error. Another error: writing \"1 year\" for equity shares (they have no maturity). This tests whether the student can simultaneously apply three chapter concepts (Capital Market components + Money Market distinction).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

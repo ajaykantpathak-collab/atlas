@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_civ_ch2_7",
+ "concepts": [
+  {
+   "id": "enh:c9_civ_ch2_7",
+   "title": "c9_civ_ch2_7",
+   "questions": [
+    {
+     "q": "What constitutional article establishes the Election Commission of India and vests it with the power of superintendence, direction, and control of elections?",
+     "a": "Article 324 of the Indian Constitution establishes the Election Commission of India and gives it the power of superintendence, direction, and control of the preparation of electoral rolls and the conduct of all elections to Parliament, State Legislatures, and the offices of President and Vice-President. A wrong answer (e.g., Article 326 or Article 243K) reveals confusion between the constitutional basis of the Election Commission and the provision for universal adult franchise (Article 326) or local body elections (Article 243K).",
+     "self_check": true
+    },
+    {
+     "q": "Why is the 'Model Code of Conduct' considered a safeguard for free and fair elections even though it is not a law passed by Parliament?",
+     "a": "The Model Code of Conduct (MCC) is a set of guidelines issued by the Election Commission under its Article 324 powers to ensure a level playing field. It becomes operational from the announcement of the election schedule until results are declared. Although not a statute, it has the force of law because the Supreme Court has upheld the EC's authority to enforce it, and violations can lead to disciplinary action under the Representation of the People Act. A wrong answer that says \"it is just a voluntary agreement\" reveals a misunderstanding of the EC's regulatory power derived from Article 324.",
+     "self_check": true
+    },
+    {
+     "q": "In a state assembly election, the ruling party's chief minister announces a new welfare scheme and distributes cash benefits two days before polling. Which specific condition of free and fair elections is violated, and which safeguard can the Election Commission invoke to stop this?",
+     "a": "The condition violated is the 'level playing field' — the ruling party is misusing state resources and administrative machinery for electoral gain, which gives it an unfair advantage. The Election Commission can invoke the Model Code of Conduct (MCC), which prohibits the announcement of new schemes or distribution of benefits after the election schedule is announced. The EC can also order the stoppage of such distribution under its Article 324 powers. A wrong answer that focuses only on 'bribery' under Section 123 of the Representation of the People Act misses the broader structural violation of the level playing field and the EC's preventive role via the MCC.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the safeguards for 'secrecy of ballot' in a ballot paper system versus the EVM-VVPAT system. Which system provides a stronger guarantee against voter intimidation, and why?",
+     "a": "The EVM-VVPAT system provides a stronger guarantee against voter intimidation because the voter's choice is recorded electronically inside a sealed machine, and the VVPAT slip is visible only to the voter for a few seconds before it drops into a sealed box — no one else can see the vote. In the ballot paper system, the voter marks the paper in a compartment but the folded paper could be seen or forcibly taken, and booth capturing allowed stuffed ballots to be identified. A wrong answer that claims ballot papers are more secret because they are 'physical' reveals a lack of understanding of how booth capturing and forced display of ballot papers historically undermined secrecy.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the 'None of the Above' (NOTA) option as a safeguard for free and fair elections. Does it enhance voter freedom or merely serve as a symbolic protest?",
+     "a": "NOTA enhances voter freedom by allowing a voter to register dissent without abstaining, which protects the right to secrecy (the voter need not reveal why they rejected all candidates). However, it is largely symbolic because even if NOTA gets the highest votes, the candidate with the next highest votes wins — it does not trigger a re-election. Thus, it is a partial safeguard: it measures dissatisfaction but does not alter the outcome. A wrong answer that says \"NOTA forces a re-election\" reveals a factual error; one that says \"it is useless\" ignores its value as a democratic feedback mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new safeguard to prevent the misuse of social media for targeted misinformation during the election silence period (48 hours before polling). Your proposal must be enforceable under the existing powers of the Election Commission.",
+     "a": "A good proposal would: (1) Require all political advertisements on social media to be pre-certified by the EC's Media Certification and Monitoring Committee (MCMC), as already done for TV/radio; (2) Mandate platforms to label political content and disclose sponsors using the EC's 'cVIGIL' app framework; (3) Empower the EC to issue takedown orders for unverified political content during the silence period under Section 126 of the Representation of the People Act, extended to digital media via Article 324. A poor answer that suggests \"banning social media during elections\" reveals an inability to balance free speech with electoral integrity and ignorance of the EC's existing regulatory toolkit.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

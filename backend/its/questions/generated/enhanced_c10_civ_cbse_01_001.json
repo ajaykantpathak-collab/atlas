@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_01_001",
+   "title": "c10_civ_cbse_01_001",
+   "questions": [
+    {
+     "q": "What is the key feature of the Belgian central government's composition that ensures power sharing between Dutch and French speakers?",
+     "a": "The Belgian Constitution mandates equal number of Dutch-speaking and French-speaking ministers in the central Council of Ministers (except the Prime Minister), so neither community can outvote the other on national decisions. A wrong answer (e.g., \"majority community gets more ministers\") reveals the student confuses accommodation with majoritarian rule — the exact error this model was designed to avoid.",
+     "self_check": true
+    },
+    {
+     "q": "Why does Belgium have both Regional Governments and Community Governments instead of just one type of sub-national government?",
+     "a": "Regional Governments handle territorial matters (economy, infrastructure, environment) for Flanders, Wallonia, and Brussels, while Community Governments handle person-based matters (education, culture, language) for Dutch, French, and German speakers — because linguistic communities overlap geographically (e.g., Brussels is bilingual). A wrong answer (e.g., \"they do the same thing\") shows the student misses the core innovation: separating *territorial* from *identity-based* jurisdiction to avoid forcing people into mono-linguistic boxes.",
+     "self_check": true
+    },
+    {
+     "q": "A new law proposes making Dutch the sole language of instruction in all Brussels public schools. Using the Belgian model, explain which government(s) would decide this and why the French-speaking community could block it.",
+     "a": "Education falls under Community Governments (cultural/educational matters). The French Community Government would decide for French speakers; the Flemish Community Government for Dutch speakers. Since Brussels is bilingual, both communities operate schools there. The French Community Government could block the law because community governments have exclusive competence over education — no single community can impose its language on the other. A wrong answer citing the Regional Government or Central Government reveals confusion between territorial and community jurisdictions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Belgian and Indian approaches to linguistic diversity. Identify one structural similarity and one fundamental difference in how power is shared.",
+     "a": "Similarity: Both create sub-national units with legislative powers (Indian States, Belgian Regions/Communities). Difference: India uses *territorial* federalism (states drawn on linguistic lines, but each state has one dominant language); Belgium uses *non-territorial* community governments that cut across regions (e.g., French Community operates in both Wallonia and Brussels). A wrong answer claiming \"both are federal\" without distinguishing territorial vs. non-territorial shows superficial comparison — a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"The Belgian model is inefficient because every decision requires consensus between communities.\" Is this a valid criticism for a board exam answer? Justify.",
+     "a": "No — board exam answers must distinguish *efficiency* from *legitimacy*. The model trades speed for stability: without mutual veto, the French minority (40%) would face permanent majority domination, risking secession (as nearly happened in 1960s Leuven crisis). Consensus is the *price of unity*. A student calling it \"inefficient\" without acknowledging the conflict-prevention rationale loses marks for ignoring the prudential reason (next node: c10_civ_cbse_01_003).",
+     "self_check": true
+    },
+    {
+     "q": "Design a power-sharing clause for a fictional bilingual city (60% Language X, 40% Language Y) that applies the Belgian principle of \"mutual veto on vital interests.\" Write one constitutional sentence.",
+     "a": "\"Any law affecting language use in education, public employment, or cultural institutions shall require a two-thirds majority in the City Council including at least 50% of members from each linguistic group.\" A poor answer (e.g., \"majority vote decides\") ignores the core Belgian insight: *vital interest* issues need *dual majority* — not just numbers, but cross-community consent.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

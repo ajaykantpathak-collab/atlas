@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_11_002",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_11_002",
+   "title": "c12_geo_cbse_11_002",
+   "questions": [
+    {
+     "q": "List all nine land-use categories maintained in India's land-revenue records in the correct order as given in the NCERT textbook.",
+     "a": "The nine categories in order: (i) Forests, (ii) Barren and Wastelands, (iii) Land put to Non-agricultural Uses, (iv) Permanent Pastures and Grazing Lands, (v) Miscellaneous Tree Crops and Groves (not in net sown area), (vi) Culturable Wasteland, (vii) Current Fallow, (viii) Fallow other than Current Fallow, (ix) Net Area Sown. A wrong answer (missing categories, wrong order, or adding \"marginal land\") reveals the student is relying on memory of Class 10's simplified list rather than the precise Class 12 revenue-record classification; they will lose 1-mark recall questions in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "The share of \"area under forest\" increased from 14.2% (1950–51) to 23.8% (2019–20) of reporting area. Explain why this does **not** mean India's actual forest cover increased by a corresponding amount.",
+     "a": "\"Area under forest\" in land-revenue records refers to *notified/demarcated* forest land legally reserved for forest growth, not actual tree canopy cover. The increase reflects administrative reclassification (more land notified as forest) rather than ecological regeneration. Actual forest cover (measured by satellite/FSI) may have declined or stayed stable due to degradation, encroachment, or diversion. A student who says \"forest cover increased\" confuses legal category with physical reality — a classic board-exam trap (see Exercise Q1(ii) where option (c) \"increase in notified area allocated for forest growth\" is the correct answer).",
+     "self_check": true
+    },
+    {
+     "q": "Using Table 3.1 data, calculate the **actual increase** (in percentage points of reporting area) and the **simple annual growth rate** (percent per year) for \"Net Area Sown\" between 1950–51 (41.7%) and 2019–20 (45.6%). Show all steps.",
+     "a": "Step 1: Actual increase = 45.6 – 41.7 = **3.9 percentage points** of reporting area.  \nStep 2: Base year value = 41.7.  \nStep 3: Simple growth rate (total) = (3.9 / 41.7) × 100 = **9.35%** over 69 years.  \nStep 4: Annual growth rate ≈ 9.35% / 69 = **0.136% per year**.  \nA student who divides by 2019–20 value (45.6) or uses compound annual growth rate (CAGR) formula introduces a methodological error; the textbook explicitly asks for \"simple growth rate i.e. (terminal – base)/base × 100\" (Teacher's Note). This distinction is tested in competitive exams like CUET.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the trends of \"Culturable Wasteland\" and \"Current Fallow\" between 1950–51 and 2019–20. Why did one decline sharply while the other increased, even though both represent uncultivated land?",
+     "a": "Culturable Wasteland fell from 8.0% to 3.9% (–4.1 pp) because land left fallow >5 years was reclaimed for cultivation (net sown area rose) or diverted to non-agricultural uses. Current Fallow rose from 3.7% to 4.5% (+0.8 pp) because it fluctuates annually with rainfall variability and cropping cycles — a dry year pushes more land into current fallow. The student must distinguish *structural* decline (wasteland conversion) from *cyclical* fluctuation (current fallow). Confusing the two shows inability to separate long-term drivers from short-term weather effects.",
+     "self_check": true
+    },
+    {
+     "q": "\"India's total cultivable land as a percentage of reporting area declined from 59.5% to 57.7% (Table 3.1), yet net sown area increased. Evaluate whether this implies Indian agriculture is becoming more land-efficient or simply mining the remaining cultivable stock.\"",
+     "a": "It signals **both**: net sown area rose (41.7% → 45.6%) by converting culturable wasteland and other fallows (structural drawdown of the cultivable stock), *and* cropping intensity must rise to sustain output from a shrinking cultivable base. The textbook states: \"scope for bringing additional land under net sown area is limited… urgent need to evolve land-saving technologies.\" A student who says \"agriculture is more efficient because net sown area rose\" misses the stock-depletion warning; one who says \"we are mining soil\" ignores the intensity/yield gains. Full credit requires acknowledging the dual reality and the policy imperative for *both* yield-raising and intensity-raising technologies.",
+     "self_check": true
+    },
+    {
+     "q": "Design a land-use transition plan for a hypothetical 10,000-ha district that currently has: 30% forest (notified), 10% barren, 15% non-agricultural, 5% pastures, 5% tree crops, 10% culturable wasteland, 5% current fallow, 5% other fallow, 15% net sown. The district aims to: (a) increase net sown to 25% in 20 years, (b) keep forest notified area unchanged, (c) reduce culturable wasteland to 2%. Specify which categories will shrink, by how much, and the economic driver for each change.",
+     "a": "Target net sown = 2,500 ha (25%), up from 1,500 ha → need +1,000 ha.  \nCulturable wasteland must fall from 1,000 ha to 200 ha → releases 800 ha.  \nRemaining 200 ha must come from: other fallow (500 ha → 300 ha, –200 ha) and/or current fallow (500 ha → 400 ha, –100 ha) and/or barren (1,000 ha → 900 ha, –100 ha).  \nDrivers: (1) Culturable wasteland → net sown: agricultural intensification/reclamation (Green Revolution tech). (2) Other fallow → net sown: shorter fallow cycles due to population pressure. (3) Barren → non-agricultural (if any): infrastructure/urbanisation. Forest notified area fixed at 3,000 ha. A poor answer merely lists numbers without linking each shift to the textbook's three economic-change types.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

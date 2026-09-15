@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_09_007",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_09_007",
+   "title": "c12_eco_cbse_09_007",
+   "questions": [
+    {
+     "q": "What is the repo rate, and what collateral is required for a bank to borrow at this rate from the RBI?",
+     "a": "The repo rate is the rate at which the RBI lends short-term funds to commercial banks against the collateral of government securities. A wrong answer (e.g., \"no collateral\" or \"long-term loan\") reveals confusion with the bank rate or a misunderstanding of the repurchase agreement mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Why does an increase in the repo rate typically lead to a reduction in aggregate demand in the economy?",
+     "a": "When the repo rate rises, banks' cost of borrowing from the RBI increases. Banks pass this higher cost to borrowers by raising lending rates on loans to households and firms. Higher loan rates discourage borrowing for consumption and investment, reducing aggregate demand. A wrong answer that says \"higher repo rate increases money supply\" shows a reversal of the transmission mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "A commercial bank borrows ₹500 crore from the RBI under the repo window for one day at a repo rate of 6.25% per annum. Calculate the interest payable for that one day. (Assume 365 days in a year.)",
+     "a": "Interest = Principal × Rate × (Days/365) = 500 crore × 6.25% × (1/365) = 500 × 0.0625 / 365 = ₹0.0856 crore ≈ ₹85.6 lakh. A wrong answer (e.g., using 360 days, or forgetting to divide by 365) reveals a unit-conversion or formula-application error common in board numericals.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the repo rate and the bank rate on three dimensions: (i) typical tenure, (ii) collateral requirement, (iii) primary purpose in monetary policy.",
+     "a": "(i) Repo rate: overnight/short-term (usually 1 day); Bank rate: long-term (no fixed tenure, used for longer-term refinancing). (ii) Repo rate: requires government securities as collateral; Bank rate: no collateral (unsecured) or rediscounting of bills. (iii) Repo rate: primary tool for daily liquidity management under LAF; Bank rate: signals the medium-term policy stance and acts as a penal rate for banks borrowing beyond LAF. A wrong answer that swaps tenure or collateral shows confusion between the two instruments.",
+     "self_check": true
+    },
+    {
+     "q": "The RBI raises the repo rate by 50 basis points. Evaluate the likely impact on (a) the yield on 10-year government bonds, (b) the EMI on a floating-rate home loan, and (c) the exchange rate of the rupee (assuming capital mobility). Justify each.",
+     "a": "(a) 10-year bond yields usually rise because higher short-term rates increase the opportunity cost of holding long-term bonds and signal tighter policy. (b) Home loan EMIs increase as banks reset their external benchmark lending rates (EBLR) linked to the repo rate. (c) The rupee tends to appreciate because higher domestic interest rates attract foreign portfolio inflows. A wrong answer that says bond yields fall or rupee depreciates indicates a misunderstanding of interest-rate parity and portfolio flows.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a simple flowchart showing the transmission chain from a repo rate hike to a change in inflation. Include at least four intermediate steps.",
+     "a": "Repo rate ↑ → Banks' marginal cost of funds ↑ → Lending rates (EBLR/MCLR) ↑ → Cost of borrowing for firms/households ↑ → Investment & consumption demand ↓ → Aggregate demand ↓ → Output gap widens (negative) → Inflationary pressure ↓. A poor flowchart that omits the lending-rate step or jumps directly to inflation shows a gap in understanding the transmission mechanism.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

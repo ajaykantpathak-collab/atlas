@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_07_001",
+   "title": "c11_cs_cbse_07_001",
+   "questions": [
+    {
+     "q": "What is the correct definition of a tuple in Python? Choose the most accurate statement:\nA) A mutable ordered collection that allows duplicates.\nB) An immutable ordered collection that allows duplicates and heterogeneous data.\nC) An unordered collection of unique elements.\nD) A mutable unordered collection that allows duplicates.",
+     "a": "The correct answer is **B**. A tuple is an immutable ordered collection that allows duplicates and heterogeneous data.  \nA wrong answer (e.g., choosing A) reveals the student confuses tuples with lists, not grasping immutability. Choosing C suggests confusion with sets. Choosing D indicates misunderstanding of both mutability and ordering.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a tuple is more suitable than a list for storing the RGB values of a color (e.g., red = (255, 0, 0)) in a graphics program.",
+     "a": "A tuple is more suitable because RGB values are fixed constants that should not change during program execution. The immutability of tuples prevents accidental modification, ensures data integrity, and can improve performance (since Python can optimize immutable objects). If a student says \"tuples are faster\" without mentioning immutability or data integrity, they are recalling a fact without understanding the conceptual reason. If they say \"lists cannot store three integers\", they have a fundamental misconception about list capabilities.",
+     "self_check": true
+    },
+    {
+     "q": "Write Python code to create a tuple named `student_record` that stores the following data for a student: name (\"Priya\"), roll number (101), and marks (87.5). Then, write code to access and print the marks.",
+     "a": "**Code:**\n```python\nstudent_record = (\"Priya\", 101, 87.5)\nprint(student_record[2])  # Output: 87.5\n```\n**Steps:** 1) Create tuple with heterogeneous data using parentheses. 2) Access the third element (index 2) using zero-based indexing.  \nA wrong answer might use square brackets `[]` (creating a list), use 1-based indexing (`student_record[3]`), or try to modify the tuple (e.g., `student_record[2] = 90`). This reveals confusion between list/tuple syntax, indexing rules, or immutability.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the following code:\n```python\nt = (1, 2, [3, 4])\nt[2].append(5)\nprint(t)\n```\nWhat is the output? Explain why this does NOT violate tuple immutability.",
+     "a": "**Output:** `(1, 2, [3, 4, 5])`  \n**Explanation:** The tuple `t` itself is immutable — its *references* to elements cannot change. However, the third element is a *list*, which is mutable. The tuple stores a reference to that list object. Calling `append()` mutates the *list object*, not the tuple's reference. The tuple still points to the same list object.  \nA wrong answer (e.g., \"this raises an error\" or \"tuples are fully immutable\") reveals the common misconception that tuple immutability extends recursively to all contained objects. This is a critical senior-secondary distinction.",
+     "self_check": true
+    },
+    {
+     "q": "A programmer wants to store the monthly sales targets for a year (12 fixed values) and says: \"I'll use a list because I might need to sort them later.\" Evaluate this decision. Is a list or tuple more appropriate? Justify your answer with two reasons.",
+     "a": "A **tuple** is more appropriate.  \n**Reason 1:** Sales targets are fixed for the year — they represent constant reference data, not data that changes. Using a tuple communicates intent (immutability) and prevents accidental modification.  \n**Reason 2:** If sorting is needed, `sorted(sales_tuple)` returns a new sorted list without altering the original tuple, preserving the original order for reference.  \nA wrong evaluation (choosing list) shows the student prioritizes convenience over semantic correctness and doesn't understand that tuples can be used with `sorted()` or that immutability is a design feature for fixed data.",
+     "self_check": true
+    },
+    {
+     "q": "Design a tuple structure to represent a 3D point in space with an optional label (e.g., \"origin\", \"vertex_A\"). The structure must support: (a) fixed coordinates (x, y, z), (b) an optional string label, and (c) immutability of coordinates. Show how to create two instances: one with a label and one without.",
+     "a": "**Good answer:** Use a tuple with 3 or 4 elements where the last element is the optional label. Since tuples are immutable, coordinates cannot change.  \n```python\npoint1 = (0, 0, 0, \"origin\")      # with label\npoint2 = (1.5, -2.0, 3.7)         # without label\n```\n**Alternative:** Use a tuple of `(coordinates_tuple, label)` where `coordinates_tuple = (x, y, z)`.  \nA poor answer uses a list for coordinates, includes mutable structures, or tries to enforce optionality via `None` without explaining the design. This reveals inability to apply tuple properties to structure real-world data.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

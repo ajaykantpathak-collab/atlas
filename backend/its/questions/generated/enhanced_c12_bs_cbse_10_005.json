@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_10_005",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_10_005",
+   "title": "c12_bs_cbse_10_005",
+   "questions": [
+    {
+     "q": "State the one fundamental difference between primary market and secondary market in terms of who receives the proceeds from the sale of securities.",
+     "a": "Correct answer: In the primary market, the issuing company receives the proceeds; in the secondary market, the selling investor receives the proceeds — the company gets nothing. A wrong answer (e.g., \"primary market is for new issues, secondary is for old issues\") reveals the student is memorising labels without grasping the economic distinction: capital formation vs capital transfer. This misunderstanding leads to errors in case-based questions where they must identify which market a transaction belongs to based on who gets the money.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a stock exchange is called a \"barometer of the economy\" — what specific information does it reflect and how?",
+     "a": "Correct answer: Stock prices aggregate expectations of millions of investors about future corporate profits and economic conditions; rising indices signal optimism about growth, falling indices signal pessimism. A wrong answer like \"it shows how much money people have\" or \"it measures GDP\" reveals confusion between a leading indicator (stock market) and coincident/lagging indicators. Students often conflate the stock market with the economy itself — a trap in assertion-reason questions where \"stock market rise = economic growth\" is presented as a statement to evaluate.",
+     "self_check": true
+    },
+    {
+     "q": "A company's shares are listed on both BSE and NSE. On a particular day, the share price on BSE is ₹2,450 and on NSE is ₹2,455. An arbitrageur notices this. Describe step-by-step what the arbitrageur would do and what happens to the price difference.",
+     "a": "Correct steps: (1) Buy shares on BSE at ₹2,450. (2) Simultaneously sell same quantity on NSE at ₹2,455. (3) Lock in risk-free profit of ₹5 per share. (4) This buying on BSE pushes its price up; selling on NSE pushes its price down. (5) Price difference narrows until arbitrage profit disappears. A wrong answer that misses the simultaneous execution or the price convergence mechanism reveals the student doesn't understand how stock exchanges enforce the \"law of one price\" — a concept tested in competitive exams via arbitrage scenarios.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the function of \"providing liquidity\" with \"price discovery\" in a stock exchange. How does the same mechanism (continuous trading) serve both functions? Give a concrete example showing the difference in outcome if one function were absent.",
+     "a": "Correct analysis: Liquidity = ability to buy/sell quickly at near-market price without large price impact. Price discovery = process by which market arrives at a fair price through matching buy/sell orders. Continuous trading serves both: high order flow ensures tight bid-ask spreads (liquidity) and frequent updates reflecting new information (price discovery). If liquidity absent: wide spreads, investor cannot exit — IPOs would fail. If price discovery absent: prices stale, misallocation of capital — e.g., a failing firm's shares trade at inflated prices, diverting savings from productive firms. A wrong answer treating them as synonyms misses that liquidity is about transaction ease, price discovery is about information efficiency — a distinction tested in board case studies on market efficiency.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Stock exchanges perform a social function by channelising household savings into productive investment — therefore, every listed company must be socially beneficial.\" Defend or critique with reasoning.",
+     "a": "Correct evaluation: Critique. Stock exchanges channel savings based on investor expectations of returns, not social benefit. A tobacco or liquor company may be highly profitable and attract savings, but be socially harmful. The exchange's role is neutral allocation efficiency; social benefit requires regulation (SEBI, government policy), not the exchange mechanism itself. A wrong answer that agrees reveals the student conflates \"capital formation\" with \"socially optimal allocation\" — a normative error common in board long-answer questions where they must distinguish market functions from policy goals.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical scenario where a stock exchange's \"listing requirements\" (minimum public float, financial track record, governance norms) prevent a specific type of market failure. Explain the failure and how the requirement addresses it.",
+     "a": "Good answer example: A promoter wants to list a shell company with no operations, ₹10 crore paid-up capital, 95% promoter holding, to raise ₹500 crore from public via IPO. Failure: adverse selection — uninformed investors buy worthless shares. Listing requirement \"minimum 25% public float\" and \"3 years profitability\" forces promoter to dilute and prove viability, reducing information asymmetry. Poor answer: vague \"prevents fraud\" without naming the specific market failure (adverse selection / moral hazard / information asymmetry) and linking the requirement to the mechanism. This tests ability to apply institutional economics concepts — a CUET/IPMAT style question.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

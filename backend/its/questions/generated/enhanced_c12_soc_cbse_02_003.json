@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_02_003",
+   "title": "c12_soc_cbse_02_003",
+   "questions": [
+    {
+     "q": "What was India's average annual population growth rate during 1911-1921, and what major event caused this anomaly?",
+     "a": "The average annual growth rate was -0.03% (negative), caused by the 1918-19 influenza pandemic which killed approximately 12.5 million people (5% of the population). A wrong answer (e.g., positive growth or attributing it to famine) reveals the student cannot link demographic data to specific historical mortality crises or misreads the negative sign in Table 1.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why India's death rate fell sharply after 1921 while the birth rate remained high for several more decades.",
+     "a": "Death rates fell due to improved famine control (better transport, irrigation, state relief), epidemic disease control (vaccination, sanitation), and medical advances — all of which could be implemented relatively quickly by the state. Birth rates remained high because they are influenced by deep-seated socio-cultural factors (son preference, low female literacy, early marriage, lack of contraception access) that change slowly with education, economic development, and women's empowerment. A wrong answer that attributes both to \"development\" or \"medical advances\" shows the student does not distinguish between mortality (biological/environmental) and fertility (socio-cultural) determinants.",
+     "self_check": true
+    },
+    {
+     "q": "Using Table 1, calculate the decadal growth rate for 1961-1971 if the population in 1961 was 439 million and in 1971 was 548 million. Show your work.",
+     "a": "Decadal growth rate = [(Population in 1971 - Population in 1961) / Population in 1961] × 100 = [(548 - 439) / 439] × 100 = (109 / 439) × 100 = 24.83% ≈ 24.8% (matches Table 1). A wrong calculation (e.g., using 1971 as base, or forgetting ×100) reveals the student cannot apply the standard demographic formula for decadal growth rate.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the demographic transition phase of India in 1951 versus 2011 using the concepts of birth rate, death rate, and growth rate. Which stage of the demographic transition theory does each year represent?",
+     "a": "In 1951: high birth rate (~40), high death rate (~25), moderate growth rate (1.25%) — Stage 2 (early transition). In 2011: lower birth rate (~22), low death rate (~7), declining growth rate (1.63%) — Stage 3 (late transition). The student must recognize that both rates fell but the gap widened then narrowed. A wrong answer that places both in the same stage or reverses the stages shows inability to map real data to theoretical stages.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The demographic dividend is guaranteed for India because its working-age population share is rising.\" Use evidence from the text (Box 2.3) to support your judgment.",
+     "a": "The statement is false. Box 2.3 explicitly states the dividend is not automatic — it requires rising education and employment. Data shows employment growth for youth fell from 2.4% (1987-94) to 0.7%/0.3% (1994-2004). Without productive employment, the rising working-age share becomes a liability (unemployed dependents). A student who agrees without qualification misses the critical conditionality emphasized in the text.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new example of a regional population projection scenario for 2041 that illustrates the concept of \"population momentum\" described in Box 2.4. Specify the state, current TFR, and why growth continues despite below-replacement fertility.",
+     "a": "Example: Kerala's TFR is 1.7 (below replacement 2.1) but its population will still grow for 2-3 decades because a large cohort of women (born during high-fertility 1970s-80s) are now in reproductive age. Even with fewer children per woman, the absolute number of births remains high. A poor answer would ignore the age-structure mechanism or confuse momentum with current fertility.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

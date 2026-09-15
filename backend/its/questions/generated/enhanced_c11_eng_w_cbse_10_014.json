@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_10_014",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_10_014",
+   "title": "c11_eng_w_cbse_10_014",
+   "questions": [
+    {
+     "q": "What does the acronym PEEL stand for in the context of writing literature answers?",
+     "a": "PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., \"Paragraph, Example, Explain, Layout\") reveals the student has not internalized the standard answer structure taught in Class 9-10 and will likely produce disorganized, summary-like responses instead of analytical paragraphs.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it better to embed short phrases from the poem (e.g., \"ever-fixed mark\") rather than quote whole lines or paraphrase completely?",
+     "a": "Embedding short phrases keeps the answer flowing, shows precise textual knowledge, and allows immediate analysis of specific words. A wrong answer (e.g., \"Quoting whole lines gets more marks\") reveals the misconception that length equals quality; board examiners reward concise, integrated evidence, not copied passages.",
+     "self_check": true
+    },
+    {
+     "q": "Improve this weak answer using PEEL: \"Shakespeare says love is not time's fool. He means love doesn't change when time passes. The sickle is time's tool. Love lasts till doom.\"",
+     "a": "Improved answer: Point — Shakespeare personifies Time as a reaper to contrast love's permanence with physical decay. Evidence — \"Love's not Time's fool\" (line 9) and \"Within his bending sickle's compass come\" (line 10). Explanation — \"Fool\" suggests subservience; the sickle imagery evokes the Grim Reaper harvesting youth (\"rosy lips and cheeks\"). Yet love \"bears it out even to the edge of doom\" (line 12), surviving beyond death. Link — This personification establishes that true love transcends mortality, reinforcing the sonnet's central argument of constancy. A weak attempt would merely paraphrase without device identification or effect analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two responses to \"Explain the phrase 'his bending sickle's compass'.\" Response A: \"It means Time's curved blade reaches everyone.\" Response B: \"The metaphor compares Time to Death with a sickle; 'compass' means range or circle. The bending sickle suggests the inevitable arc of aging that cuts down youth, but love remains outside this circle.\" Which response demonstrates higher-order analysis and why?",
+     "a": "Response B is superior because it unpacks the metaphor (Time as Death), defines the polysemous word \"compass\" (range/circle), connects \"bending\" to the arc of life, and contrasts the sickle's reach with love's endurance. Response A only paraphrases. A student choosing A reveals they treat metaphor as decoration rather than a meaning-making device.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The couplet 'If this be error and upon me proved, / I never writ, nor no man ever loved' is just Shakespeare boasting.\" Evaluate this interpretation. Is it a valid reading? Justify your judgment.",
+     "a": "The interpretation is reductive and invalid. The couplet is a logical proof (reductio ad absurdum): if his definition of love is wrong, then his writing (the sonnets) and all human love are impossible — an absurdity that confirms his definition's truth. It's a rhetorical guarantee, not boasting. A student calling it \"boasting\" misses the argumentative structure and the philosophical weight of the final twist.",
+     "self_check": true
+    },
+    {
+     "q": "Write a new PEEL paragraph (4-5 sentences) answering: \"How does the sonnet's structure (three quatrains + couplet) reinforce its argument about love's constancy?\"",
+     "a": "A strong answer: Point — The Shakespearean sonnet form mirrors the poem's argument by building three distinct defenses of constancy before a final logical seal. Evidence — Quatrain 1 defines love negatively (\"Love is not love / Which alters\"); Quatrain 2 uses extended metaphors (star, mark); Quatrain 3 confronts Time directly. Explanation — Each quatrain adds a layer: definition, imagery, confrontation. The couplet then acts as a legal affidavit (\"If this be error...\"). Link — The structural progression from definition to proof enacts the very steadfastness the poem describes. A poor answer would list the rhyme scheme without linking form to content.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

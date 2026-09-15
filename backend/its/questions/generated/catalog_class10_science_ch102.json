@@ -1,0 +1,372 @@
+{
+ "catalog": "catalog_class10_science_ch102.json",
+ "concepts": [
+  {
+   "id": "jesc.2.1.1",
+   "title": "Chemical and Olfactory Indicators",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How does turmeric paper help identify a base?",
+     "a": "Turmeric stain stays yellow in acid but turns reddish-brown with a base, so it acts as an indicator.",
+     "self_check": true
+    },
+    {
+     "q": "Name two olfactory indicators and what they show.",
+     "a": "Onion and vanilla essence lose their characteristic smell in a base; the smell change signals a basic solution.",
+     "self_check": true
+    },
+    {
+     "q": "What colour does litmus show in acids and in bases?",
+     "a": "Blue litmus turns red in an acid and red litmus turns blue in a base.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.2.1.2",
+   "title": "Reaction of Metals with Acids and Bases",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What gas is released when a metal reacts with an acid, and how is it tested?",
+     "a": "Hydrogen gas; it burns with a pop sound when a burning splinter is brought near.",
+     "self_check": true
+    },
+    {
+     "q": "Do all metals react with bases? What forms when zinc reacts with sodium hydroxide?",
+     "a": "Only some reactive amphoteric metals like zinc and aluminium; zinc gives sodium zincate with hydrogen gas.",
+     "self_check": true
+    },
+    {
+     "q": "Complete: Metal carbonate + acid gives?",
+     "a": "Salt + water + carbon dioxide - effervescence of CO2 is seen.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.2.1.3",
+   "title": "Reaction of Acids with Carbonates and Hydrogencarbonates",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What happens when baking soda is treated with vinegar?",
+     "a": "Sodium hydrogencarbonate reacts with the acid to give salt, water and brisk effervescence of carbon dioxide.",
+     "self_check": true
+    },
+    {
+     "q": "How is carbon dioxide gas identified in a reaction?",
+     "a": "By passing it through lime water, which turns milky due to calcium carbonate formed.",
+     "self_check": true
+    },
+    {
+     "q": "Why do metal hydrogencarbonates also give CO2 with acids?",
+     "a": "They contain the hydrogencarbonate ion, which acids convert to water and carbon dioxide along with a salt.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.2.1.4",
+   "title": "Neutralisation Reaction and Volumetric Ratio",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "acid_ratio",
+     "expr": "v_base_target / v_base_initial",
+     "explain": "same alkali, so acid volume scales with the alkali volume taken"
+    },
+    {
+     "step": 2,
+     "name": "acid_per_base_ml",
+     "expr": "v_acid_initial / v_base_initial",
+     "explain": "acid used per mL of alkali in the first test"
+    },
+    {
+     "step": 3,
+     "name": "v_acid_needed",
+     "expr": "acid_ratio * v_acid_initial",
+     "explain": "scale the acid volume that worked before"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A student neutralised 20 mL of sodium hydroxide solution using 15 mL of hydrochloric acid of the same concentration. How much of this acid will neutralise 50 mL of the same alkali?",
+     "vals": {
+      "v_base_initial": 20,
+      "v_acid_initial": 15,
+      "v_base_target": 50
+     },
+     "unit": "mL",
+     "steps": null,
+     "a": "37.5 mL",
+     "self_check": false
+    },
+    {
+     "q": "12 mL of a given NaOH solution needed 9 mL of HCl for complete neutralisation. Find the volume of the same HCl needed for 30 mL of the NaOH solution.",
+     "vals": {
+      "v_base_initial": 12,
+      "v_acid_initial": 9,
+      "v_base_target": 30
+     },
+     "unit": "mL",
+     "steps": null,
+     "a": "22.5 mL",
+     "self_check": false
+    },
+    {
+     "q": "In a titration, 25 mL of KOH solution was neutralised by 20 mL of H2SO4 solution. What volume of the same H2SO4 will neutralise 40 mL of the KOH solution?",
+     "vals": {
+      "v_base_initial": 25,
+      "v_acid_initial": 20,
+      "v_base_target": 40
+     },
+     "unit": "mL",
+     "steps": null,
+     "a": "32 mL",
+     "self_check": false
+    },
+    {
+     "q": "8 mL of lime water took 6 mL of a standard acid to neutralise. How much of the same acid neutralises 60 mL of the lime water?",
+     "vals": {
+      "v_base_initial": 8,
+      "v_acid_initial": 6,
+      "v_base_target": 60
+     },
+     "unit": "mL",
+     "steps": null,
+     "a": "45 mL",
+     "self_check": false
+    },
+    {
+     "q": "40 mL of a base was exactly neutralised by 25 mL of an acid. If only 10 mL of the base is taken next time, how much acid will be used up?",
+     "vals": {
+      "v_base_initial": 40,
+      "v_acid_initial": 25,
+      "v_base_target": 10
+     },
+     "unit": "mL",
+     "steps": null,
+     "a": "6.25 mL",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.2.1.5",
+   "title": "Oxide Reactions and Their Chemical Nature",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What happens when a metal oxide reacts with an acid?",
+     "a": "Metal oxides are basic: with an acid they form salt and water, e.g. copper oxide with dilute HCl gives copper chloride and water.",
+     "self_check": true
+    },
+    {
+     "q": "Why are metal oxides called basic oxides?",
+     "a": "Because they neutralise acids forming salt and water, the hallmark of bases.",
+     "self_check": true
+    },
+    {
+     "q": "Name one oxide that reacts both with acids and bases.",
+     "a": "Aluminium oxide is amphoteric - it reacts with acids to give salt and water and also with strong bases to give a salt.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.2.2.1",
+   "title": "Ionization of Acids and Bases in Water",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is formed when HCl dissolves in water?",
+     "a": "Hydrogen ions join water molecules giving hydronium ions (H3O+) along with chloride ions.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a dry HCl gas sample not turn litmus red?",
+     "a": "Without water, HCl cannot ionise to give H+(aq) ions, and only ions show acidic behaviour.",
+     "self_check": true
+    },
+    {
+     "q": "What do acids and bases produce in aqueous solutions?",
+     "a": "Acids give H3O+ (hydronium) ions and bases give OH- (hydroxide) ions in water.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.2.3.1",
+   "title": "pH Scale and Hydrogen Ion Concentration",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "h_a",
+     "expr": "10 ** (0 - ph_a)",
+     "explain": "pH is the negative power of ten for hydrogen ion concentration"
+    },
+    {
+     "step": 2,
+     "name": "h_b",
+     "expr": "10 ** (0 - ph_b)",
+     "explain": "same relation for the second solution"
+    },
+    {
+     "step": 3,
+     "name": "strength_ratio",
+     "expr": "h_a / h_b",
+     "explain": "divide the hydrogen ion concentrations"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A sample of hydrochloric acid tests at pH 1 while a weak acid sample tests at pH 4. How many times higher is the hydrogen ion concentration of the pH 1 sample?",
+     "vals": {
+      "ph_a": 1,
+      "ph_b": 4
+     },
+     "unit": "times",
+     "steps": null,
+     "a": "1000 times",
+     "self_check": false
+    },
+    {
+     "q": "A soft drink has pH 2 and tomato juice has pH 4. How many times greater is the drink's hydrogen ion concentration?",
+     "vals": {
+      "ph_a": 2,
+      "ph_b": 4
+     },
+     "unit": "times",
+     "steps": null,
+     "a": "100 times",
+     "self_check": false
+    },
+    {
+     "q": "A lemon juice sample of pH 3 is compared with tomato juice of pH 4. How many times more concentrated in H+ ions is the lemon juice?",
+     "vals": {
+      "ph_a": 3,
+      "ph_b": 4
+     },
+     "unit": "times",
+     "steps": null,
+     "a": "10 times",
+     "self_check": false
+    },
+    {
+     "q": "Gastric juice has pH about 1 while saliva is nearly neutral at pH 6. How many times stronger is the gastric juice in H+ ions?",
+     "vals": {
+      "ph_a": 1,
+      "ph_b": 6
+     },
+     "unit": "times",
+     "steps": null,
+     "a": "100000 times",
+     "self_check": false
+    },
+    {
+     "q": "Two soil samples test at pH 5 and pH 7. How many times greater is the hydrogen ion concentration of the more acidic sample?",
+     "vals": {
+      "ph_a": 5,
+      "ph_b": 7
+     },
+     "unit": "times",
+     "steps": null,
+     "a": "100 times",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.2.3.2",
+   "title": "Importance of pH in Everyday Life",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why is the pH of the mouth kept below 7.8 for healthy teeth?",
+     "a": "Tooth enamel decays when mouth pH falls below about 5.5; keeping pH near neutral prevents acid attack by bacteria.",
+     "self_check": true
+    },
+    {
+     "q": "How does an antacid cure indigestion?",
+     "a": "It is a mild base (like milk of magnesia) that neutralises excess hydrochloric acid in the stomach.",
+     "self_check": true
+    },
+    {
+     "q": "What is the use of treating soil with quicklime or slaked lime?",
+     "a": "When soil turns too acidic for crops, farmers mix in bases like lime to neutralise the acidity; slaked lime also treats acidic factory waste.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.2.4.1",
+   "title": "Classification and pH Nature of Salts",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What kind of salt is formed by a strong acid and a strong base?",
+     "a": "A neutral salt (pH 7), e.g. sodium chloride from HCl and NaOH.",
+     "self_check": true
+    },
+    {
+     "q": "Why is washing soda solution basic while that of aluminium chloride acidic?",
+     "a": "Washing soda comes from a strong base and weak acid, so its solution is basic; aluminium chloride comes from a strong acid and weak base, so its solution is acidic.",
+     "self_check": true
+    },
+    {
+     "q": "What pH would you expect for ammonium chloride solution?",
+     "a": "Below 7 - it is a salt of a strong acid and weak base, so its solution is acidic.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.2.4.3",
+   "title": "Industrial Chemicals Derived from Common Salt",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is the chlor-alkali process and what does it yield?",
+     "a": "Electrolysis of brine: at the cathode hydrogen is released, at the anode chlorine, and sodium hydroxide forms in solution.",
+     "self_check": true
+    },
+    {
+     "q": "Name three important products of the chlor-alkali process and one use of each.",
+     "a": "Sodium hydroxide (soaps), chlorine (bleaching powder, PVC), hydrogen (fuels, margarine, fertilisers).",
+     "self_check": true
+    },
+    {
+     "q": "What is bleaching powder and how is it made?",
+     "a": "Calcium oxychloride, made by passing chlorine gas over dry slaked lime; used to bleach cotton and disinfect water.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.2.4.4",
+   "title": "Water of Crystallisation and Plaster of Paris",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is water of crystallisation?",
+     "a": "Fixed number of water molecules present in one formula unit of a salt, e.g. copper sulphate crystals hold five waters.",
+     "self_check": true
+    },
+    {
+     "q": "What happens when blue copper sulphate crystals are heated?",
+     "a": "They lose water of crystallisation, turn white; on adding water the blue colour returns.",
+     "self_check": true
+    },
+    {
+     "q": "How is plaster of Paris obtained from gypsum?",
+     "a": "Gypsum (CaSO4.2H2O) is heated to 373 K, losing water to give plaster of Paris CaSO4.1/2H2O, which sets to a hard mass with water.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_04_001",
+   "title": "c11_ip_cbse_04_001",
+   "questions": [
+    {
+     "q": "Write the exact Python syntax to create: (a) an empty list, (b) a list of three integers, (c) a list containing an integer, a float, a string, and another list.",
+     "a": "(a) `[]` or `list()` (b) `[10, 20, 30]` (c) `[42, 3.14, 'hello', [1, 2]]`. A wrong answer like `{}` for empty list reveals confusion with dictionary syntax. Using parentheses `(1,2,3)` reveals confusion with tuple syntax. Omitting the inner brackets in (c) shows misunderstanding of nesting.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a list is called \"mutable\" and \"heterogeneous\". Give a one-line code example that proves each property.",
+     "a": "Mutable: contents can be changed after creation without creating a new object. Example: `lst = [1,2]; lst[0] = 99` changes first element. Heterogeneous: elements can be of different data types. Example: `lst = [1, 'a', 2.5]`. A wrong answer that says \"mutable means you can add elements\" confuses mutability with dynamic sizing (which is a consequence). Saying \"heterogeneous means it can hold many elements\" confuses heterogeneity with capacity.",
+     "self_check": true
+    },
+    {
+     "q": "Create a list `employee` to store: name \"Priya\", employee ID 2045, department \"IT\", and a list of three project codes `[101, 102, 103]`. Then write the statement to change the department to \"R&D\".",
+     "a": "`employee = ['Priya', 2045, 'IT', [101, 102, 103]]` followed by `employee[2] = 'R&D'`. Steps: 1) Identify four components, 2) Use square brackets with commas, 3) Nest project codes in inner brackets, 4) Use zero-based indexing (department is at index 2), 5) Assign new string. A wrong index like `employee[3]` shows indexing confusion; using `employee.department` shows attribute-access confusion.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following two lists and explain the structural difference: `listA = [1, 2, [3, 4], 5]` and `listB = [1, 2, 3, 4, 5]`. How many elements does each have? What is the data type of the third element in `listA`?",
+     "a": "`listA` has 4 elements (the nested list `[3,4]` is a single element at index 2). `listB` has 5 elements. The third element of `listA` (index 2) is of type `list`. A student answering 5 elements for `listA` flattens the nested list mentally, a common error when visualizing nested structures. Saying the third element is `int` or `3` ignores the container.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate which data structure — list or string — is more appropriate for storing a DNA sequence \"ATCGATCG\" if you need to: (i) replace the third base with 'G', (ii) extract a subsequence from position 2 to 5. Justify your choice.",
+     "a": "List is more appropriate. Strings are immutable, so (i) would require creating a new string, while a list allows `dna[2] = 'G'` in-place. For (ii), both support slicing, but list slicing returns a list which can be further mutated. Choosing string shows failure to apply mutability requirement; choosing list but saying \"strings don't support slicing\" shows factual error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a list structure to represent a weekly timetable for a student. Each day has a list of periods, each period is a list containing [subject, teacher, room]. Create the list for Monday with 3 periods: Physics (Dr. Rao, Lab1), Chemistry (Ms. Singh, Room20), Mathematics (Mr. Das, Room15). Write the Python code.",
+     "a": "`monday = [['Physics', 'Dr. Rao', 'Lab1'], ['Chemistry', 'Ms. Singh', 'Room20'], ['Mathematics', 'Mr. Das', 'Room15']]`. A good answer uses three nested lists inside an outer list. A poor answer uses a flat list `['Physics', 'Dr. Rao', 'Lab1', 'Chemistry', ...]` losing the period grouping, or uses dictionaries (not yet taught), showing inability to map real-world hierarchy to nested lists.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

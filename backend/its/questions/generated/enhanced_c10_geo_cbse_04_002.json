@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_04_002",
+   "title": "c10_geo_cbse_04_002",
+   "questions": [
+    {
+     "q": "Name the type of farming practised in the hilly regions of Northeast India where farmers clear a patch of forest, burn the vegetation, and cultivate it for a few years until soil fertility declines, then shift to a new patch.",
+     "a": "Correct answer: Primitive subsistence farming (also called shifting cultivation or jhum cultivation). A wrong answer such as \"intensive subsistence\" reveals the student confuses high labour input with primitive techniques; they miss that shifting cultivation uses no modern inputs, no irrigation, and relies on long fallow periods rather than continuous cropping. A wrong answer of \"commercial farming\" shows the student cannot distinguish market-oriented plantation agriculture from self-consumption forest clearing.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why intensive subsistence farming is characterised by very small landholdings and yet produces high output per hectare in states like West Bengal and Kerala.",
+     "a": "Correct answer: High population density leads to fragmentation of landholdings through inheritance laws, forcing farmers to maximise yield from tiny plots by using family labour intensively, applying high doses of fertilisers and manure, ensuring irrigation, and growing 2-3 crops per year (multiple cropping). A wrong answer that attributes high output to \"large farms using machines\" confuses intensive subsistence with commercial farming; a wrong answer citing \"low population pressure\" reverses the causal relationship — it is precisely high population pressure that drives intensification.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Punjab owns 50 hectares of irrigated land, uses tractors, combine harvesters, HYV wheat seeds, chemical fertilisers, and sells the entire produce to the Food Corporation of India. Classify the farming type and justify with three distinct characteristics from the scenario.",
+     "a": "Correct answer: Commercial farming. Justification: (1) Large landholding (50 ha) — commercial farms operate on consolidated large holdings; (2) High capital investment in machinery (tractors, combine harvesters) and modern inputs (HYV seeds, chemical fertilisers) — hallmark of commercial agriculture; (3) Entire produce sold to FCI (market orientation) — production is for sale, not self-consumption. A wrong classification as \"intensive subsistence\" ignores the scale, mechanisation, and market orientation; a wrong classification as \"primitive subsistence\" shows fundamental confusion about technology and surplus.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the environmental sustainability of primitive subsistence shifting cultivation in Nagaland with intensive subsistence rice-wheat cultivation in Punjab. Which exerts greater long-term pressure on soil and water resources, and why?",
+     "a": "Correct answer: Intensive subsistence rice-wheat cultivation in Punjab exerts greater long-term pressure. Shifting cultivation in Nagaland allows 15-20 year fallow cycles for natural forest regeneration and soil recovery, making it sustainable at low population density. In contrast, Punjab's rice-wheat system extracts groundwater faster than recharge (water table falling 0.5-1 m/year), depletes soil organic matter through continuous double cropping, and causes salinisation from flood irrigation — a non-sustainable trajectory. A wrong answer choosing shifting cultivation as more damaging overlooks the fallow recovery mechanism and confuses traditional practice with modern intensive extraction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Commercial farming is always more productive and therefore better for India's food security than subsistence farming.\" Provide two arguments for and two against, using geographical reasoning.",
+     "a": "Correct evaluation: The statement is oversimplified. Arguments FOR: (1) Commercial farming achieves higher per-hectare yields through technology and scale, contributing large marketable surplus to buffer stocks (e.g., Punjab wheat in FCI godowns). (2) It generates export earnings (tea, cotton, basmati rice) that finance food imports if needed. Arguments AGAINST: (1) Subsistence farming (especially intensive subsistence) feeds the majority of India's rural population directly — 86% of farmers are small/marginal holders producing for self-consumption and local markets; disrupting this risks household food insecurity. (2) Commercial farming's resource intensity (groundwater, chemicals) causes long-term degradation, threatening future productivity, whereas diversified subsistence systems often maintain agro-biodiversity and soil health. A wrong answer that uncritically agrees ignores the distributional and ecological dimensions of food security.",
+     "self_check": true
+    },
+    {
+     "q": "Design a land-use plan for a hypothetical district that has: (a) hilly forested terrain with tribal population in the north, (b) fertile alluvial plains with high population density in the centre, and (c) well-connected flatlands near a highway and city in the south. Assign the most suitable farming type to each zone and justify each assignment with two geographical factors.",
+     "a": "Expected answer: North zone → Primitive subsistence (shifting cultivation) because: (i) hilly forested terrain unsuitable for mechanisation/irrigation, (ii) low population density allows long fallow cycles. Centre zone → Intensive subsistence because: (i) fertile alluvial soil and high population density necessitate maximum output from small holdings, (ii) availability of family labour and traditional irrigation (wells, canals) supports multiple cropping. South zone → Commercial farming because: (ii) flat consolidated land near highway enables mechanisation and low transport costs to urban markets, (ii) proximity to city creates demand for perishable high-value crops (vegetables, flowers, dairy). A poor answer assigns the same farming type to all zones, ignoring the physical and human geography determinants.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

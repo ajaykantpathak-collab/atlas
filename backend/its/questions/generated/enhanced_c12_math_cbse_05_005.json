@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_05_005",
+   "title": "c12_math_cbse_05_005",
+   "questions": [
+    {
+     "q": "State the precise condition for a function \\( f \\) to be differentiable at \\( x = c \\) using left-hand and right-hand derivatives.",
+     "a": "The function \\( f \\) is differentiable at \\( x = c \\) if both \\( \\lim_{h \\to 0^-} \\frac{f(c+h)-f(c)}{h} \\) and \\( \\lim_{h \\to 0^+} \\frac{f(c+h)-f(c)}{h} \\) exist finitely and are equal. A common wrong answer is to only check that the derivative formula from differentiation rules gives the same value from both sides without verifying the limit definition, or to confuse differentiability with continuity (thinking continuity is sufficient). This reveals the student does not understand that differentiability requires the limit of the difference quotient to exist from both sides and be equal, which is stricter than continuity.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the function \\( f(x) = |x| \\) is continuous at \\( x = 0 \\) but not differentiable at \\( x = 0 \\). Use the definitions of continuity and differentiability in your explanation.",
+     "a": "\\( f(x)=|x| \\) is continuous at 0 because \\( \\lim_{x\\to 0}|x| = 0 = f(0) \\). However, the left-hand derivative is \\( \\lim_{h\\to 0^-}\\frac{|h|-0}{h} = \\lim_{h\\to 0^-}\\frac{-h}{h} = -1 \\), while the right-hand derivative is \\( \\lim_{h\\to 0^+}\\frac{h}{h} = 1 \\). Since LHD ≠ RHD, the derivative does not exist. A wrong answer might claim it is differentiable because the function is continuous, or might incorrectly compute the derivative as 0 by misapplying the power rule. This shows the student confuses continuity with differentiability or does not handle the piecewise definition correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Determine whether the function \\( f(x) = \\begin{cases} x^2, & x \\le 1 \\\\ 2x - 1, & x > 1 \\end{cases} \\) is differentiable at \\( x = 1 \\). Show all steps.",
+     "a": "First check continuity: \\( f(1)=1 \\), LHL = \\( \\lim_{x\\to 1^-}x^2 = 1 \\), RHL = \\( \\lim_{x\\to 1^+}(2x-1)=1 \\). Continuous.  \nLHD = \\( \\lim_{h\\to 0^-}\\frac{f(1+h)-f(1)}{h} = \\lim_{h\\to 0^-}\\frac{(1+h)^2-1}{h} = \\lim_{h\\to 0^-}\\frac{2h+h^2}{h} = 2 \\).  \nRHD = \\( \\lim_{h\\to 0^+}\\frac{f(1+h)-f(1)}{h} = \\lim_{h\\to 0^+}\\frac{(2(1+h)-1)-1}{h} = \\lim_{h\\to 0^+}\\frac{2h}{h} = 2 \\).  \nLHD = RHD = 2, so \\( f \\) is differentiable at \\( x=1 \\) with \\( f'(1)=2 \\).  \nA common error is to differentiate each piece separately (\\( 2x \\) and \\( 2 \\)) and plug \\( x=1 \\) getting 2 and 2, then conclude differentiability without checking continuity or the limit definition. While the answer matches here, the method is not rigorous for board exams. Another error is forgetting to check continuity first.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the differentiability of \\( f(x) = x^{2/3} \\) and \\( g(x) = x^{1/3} \\) at \\( x = 0 \\). Which has a vertical tangent? Which has a cusp? Justify using limits.",
+     "a": "For \\( f(x)=x^{2/3} \\), \\( f'(0) = \\lim_{h\\to 0}\\frac{h^{2/3}}{h} = \\lim_{h\\to 0}h^{-1/3} \\). As \\( h\\to 0^+ \\), limit is \\( +\\infty \\); as \\( h\\to 0^- \\), \\( h^{-1/3} \\) is negative (cube root of negative) and magnitude \\( \\to +\\infty \\), so limit is \\( -\\infty \\). LHD ≠ RHD (both infinite, opposite signs) → cusp.  \nFor \\( g(x)=x^{1/3} \\), \\( g'(0) = \\lim_{h\\to 0}\\frac{h^{1/3}}{h} = \\lim_{h\\to 0}h^{-2/3} = +\\infty \\) from both sides. Both LHD and RHD are \\( +\\infty \\) → vertical tangent (not differentiable in the usual sense because derivative is not finite).  \nA wrong answer might say both are not differentiable because derivative is infinite, without distinguishing cusp vs vertical tangent, or might incorrectly apply power rule \\( \\frac{2}{3}x^{-1/3} \\) and say it's undefined at 0 without limit analysis.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If a function is continuous at a point, it must be differentiable there.\" Evaluate this claim and provide a counterexample. Then state the correct theorem relating differentiability and continuity.",
+     "a": "The claim is false. Counterexample: \\( f(x)=|x| \\) at \\( x=0 \\) is continuous but not differentiable (as shown in Q2). The correct theorem: \"If a function is differentiable at a point, then it is continuous at that point.\" Differentiability ⇒ Continuity, but the converse is not true. A wrong answer might give a discontinuous function as counterexample (which doesn't address the claim) or might state the converse theorem incorrectly. This reveals confusion about logical implication direction.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a piecewise function \\( f(x) \\) defined on \\( \\mathbb{R} \\) that is continuous everywhere but not differentiable at exactly two points: \\( x = -1 \\) and \\( x = 2 \\). Define the function explicitly and verify your claims.",
+     "a": "Example: \\( f(x) = |x+1| + |x-2| \\). This is continuous everywhere (sum of continuous functions). At \\( x=-1 \\), the term \\( |x+1| \\) has a corner, while \\( |x-2| \\) is differentiable. LHD = -1 + (-1) = -2? Wait, compute properly:  \nFor \\( x<-1 \\): \\( f(x) = -(x+1) + -(x-2) = -2x+1 \\), slope -2.  \nFor \\( -1<x<2 \\): \\( f(x) = (x+1) + -(x-2) = 3 \\), slope 0.  \nSo LHD at -1 = -2, RHD = 0 → not differentiable.  \nAt \\( x=2 \\): for \\( -1<x<2 \\), slope 0; for \\( x>2 \\), \\( f(x) = (x+1)+(x-2)=2x-1 \\), slope 2. LHD=0, RHD=2 → not differentiable.  \nAny function with corners at exactly those two points works. A poor answer might give a function with more non-differentiable points, or a discontinuous function, or fail to verify.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+  "catalog": "catalog_class11_history_kehs107",
+  "concepts": [
+    {
+      "id": "kehs.107.1.1",
+      "questions": [
+        {"q": "Which wars with Britain forced opium trade terms on Qing China? (two words)", "a": "opium wars"},
+        {"q": "What kind of treaties did the defeated Qing empire have to sign? (two words)", "a": "unequal treaties"},
+        {"q": "Which huge internal rebellion shook the Qing empire mid-nineteenth century? (two words)", "a": "Taiping rebellion"},
+        {"q": "In which year did the Chinese republic replace the Qing empire? (give the year)", "a": "1911"},
+        {"q": "Who was the first president and father of the Chinese republic? (two words)", "a": "Sun Yat-sen"},
+        {"q": "In which year did the Communist revolution triumph in China? (give the year)", "a": "1949"},
+        {"q": "Who led the Communist revolution of 1949? (two words)", "a": "Mao Zedong"}
+      ]
+    },
+    {
+      "id": "kehs.107.2.1",
+      "questions": [
+        {"q": "In which year did the Meiji restoration transform Japan? (give the year)", "a": "1868"},
+        {"q": "The Meiji restoration ended the rule of which military dictatorship? (one word)", "a": "shogunate"},
+        {"q": "Whom did the Meiji restoration restore to nominal rule? (one word)", "a": "emperor"},
+        {"q": "Which country did Japan defeat in the war of 1894-95? (one word)", "a": "China"},
+        {"q": "Which country did Japan defeat in the war of 1904-05? (one word)", "a": "Russia"},
+        {"q": "Did Meiji Japan adopt western technology or reject it? (two words)", "a": "western technology"},
+        {"q": "How many years after the Meiji restoration (1868) did the Sino-Japanese war begin (1894)? (number)", "a": "26"}
+      ]
+    },
+    {
+      "id": "kehs.107.3.1",
+      "questions": [
+        {"q": "On which two Japanese cities were atomic bombs dropped in 1945? (two cities)", "a": "Hiroshima, Nagasaki"},
+        {"q": "Which country occupied and rebuilt Japan after 1945? (short form)", "a": "USA"},
+        {"q": "What kind of constitution did occupied Japan adopt? (one word)", "a": "democratic"},
+        {"q": "Which 1919 Chinese movement demanded science and democracy? (two words)", "a": "May Fourth"},
+        {"q": "Which country's invasion of China deepened its crisis before the communist victory? (one word)", "a": "Japan"},
+        {"q": "Japan's militarist governments ended in defeat in which world war? (one word)", "a": "Second World War"},
+        {"q": "Which three ideals did May Fourth intellectuals debate? (three words)", "a": "science, democracy, nationhood"}
+      ]
+    }
+  ]
+}

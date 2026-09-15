@@ -1,0 +1,144 @@
+{
+  "class": 11,
+  "subject": "political_science",
+  "chapter": 104,
+  "chapter_title": "Social Justice",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keps104.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keps104.1.1",
+      "title": "Justice as Fairness in Institutions",
+      "section": "1.1",
+      "definition": "Justice is not only what courts deliver; it is the quality of a society's basic structure -- its laws, markets and institutions -- judged by whether they treat persons fairly. A just society is one whose rules would still look fair to those born into the worst positions it creates.",
+      "formula": "",
+      "key_idea": "Judge the rules, not just the referees -- justice belongs first to institutions.",
+      "textbook_ref": "keps104.txt lines 1-80 (overview and introduction, justice as a attribute of institutions, intuitive grasp of justice)",
+      "question_patterns": [
+        "what does justice mean beyond court judgements",
+        "in class 11 social justice chapter: why must institutions be just",
+        "how can we test whether a social institution is fair",
+        "explain justice as fairness in the basic structure of society",
+        "give an example of an unjust institution despite fair individuals",
+        "why is justice called the first virtue of social institutions"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "look at the structure", "explain": "Identify the rules that assign rights, duties and advantages in the institution or society."},
+        {"step": 2, "action": "test from the worst position", "explain": "Ask whether someone born into the least favoured position could accept these rules as fair."},
+        {"step": 3, "action": "adjust the rules", "explain": "Where the test fails, the rules -- not merely individual conduct -- need reform."}
+      ]
+    },
+    {
+      "id": "keps104.1.2",
+      "title": "Procedural and Distributive Justice",
+      "section": "1.2",
+      "definition": "Procedural justice asks whether the process is fair -- equal rules, impartial application, a real chance to be heard. Distributive justice asks whether the resulting shares of wealth, opportunity and burdens are fair -- a question processes alone cannot settle, since fair procedures can still accumulate unfair outcomes over time.",
+      "formula": "",
+      "key_idea": "Fair process matters, but the fairness of the resulting distribution needs judging too.",
+      "textbook_ref": "keps104.txt lines 80-160 (procedural justice, distributive justice, free market arguments and their critique)",
+      "question_patterns": [
+        "distinguish procedural justice from distributive justice",
+        "in class 11 social justice chapter: can a fair procedure produce unjust outcomes",
+        "what does distributive justice ask about",
+        "give an example of procedural fairness with unfair results",
+        "how do markets raise questions of distributive justice",
+        "why do proponents of markets rely on procedural justice"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "audit the process", "explain": "Check whether the rules are equal, public and impartially applied, and whether those affected get a hearing."},
+        {"step": 2, "action": "audit the outcomes", "explain": "Even with clean procedures, ask who ends up with what and whether accumulated disadvantage is compounding."},
+        {"step": 3, "action": "close the loop", "explain": "Justice requires both: sound procedures and corrective measures where distributions drift into unfairness."}
+      ]
+    },
+    {
+      "id": "keps104.1.3",
+      "title": "John Rawls' Theory of Justice and the Veil of Ignorance",
+      "section": "1.3",
+      "definition": "Rawls invites us to design society's rules from behind a veil of ignorance, not knowing which class, gender, religion or talent we will be born with. He argues rational people there would secure equal basic liberties for all, allow inequalities only where they benefit the worst off, and keep positions open to all under fair opportunity.",
+      "formula": "",
+      "key_idea": "Choose rules before you know your place in the world -- whatever you would accept blind is just.",
+      "textbook_ref": "keps104.txt lines 160-260 (John Rawls, veil of ignorance, two principles of justice, equal liberty, difference principle)",
+      "question_patterns": [
+        "explain Rawls' veil of ignorance and its purpose",
+        "in class 11 social justice chapter: state Rawls' two principles of justice",
+        "why would people behind the veil protect the worst off",
+        "what does the difference principle permit",
+        "how does the veil remove bias from rule-making",
+        "apply the veil of ignorance to design a school admission rule"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "strip the identifiers", "explain": "Imagine choosing society's rules without knowing your own caste, class, gender, religion or abilities."},
+        {"step": 2, "action": "derive the first principle", "explain": "Each person gets an equal claim to the most extensive basic liberties compatible with like liberty for all."},
+        {"step": 3, "action": "derive the second principle", "explain": "Inequalities are allowed only if attached to open positions and arranged to the greatest benefit of the least advantaged."}
+      ]
+    },
+    {
+      "id": "keps104.1.4",
+      "title": "Pursuing Social Justice: Free Markets versus State Action",
+      "section": "1.4",
+      "definition": "One school trusts free markets and minimal government, holding that voluntary exchange plus welfare floors suffice; another holds that markets systematically leave the unlucky behind, so the state must actively redistribute through taxation, public services and reservations for the deprived.",
+      "formula": "",
+      "key_idea": "Leave it to the market, or steer with the state -- social justice turns on this choice.",
+      "textbook_ref": "keps104.txt lines 260-360 (free markets versus state intervention, welfare state, reservations and compensatory discrimination, Amartya Sen's capabilities mention)",
+      "question_patterns": [
+        "compare the free market and state intervention approaches to justice",
+        "in class 11 social justice chapter: what justifies reservations for backward groups",
+        "how does the welfare state pursue social justice",
+        "what are the limits of relying on markets for justice",
+        "how does capability approach broaden the idea of deprivation",
+        "argue for or against compensatory discrimination with reasons"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "state the market case", "explain": "Voluntary exchange respects choice and creates growth; the state should keep the peace and a minimal safety net."},
+        {"step": 2, "action": "state the intervention case", "explain": "Inherited disadvantage blocks equal participation, so the state must redistribute and compensate to make rights real."},
+        {"step": 3, "action": "weigh the policies", "explain": "Reservations, progressive taxation and public education are the standard tools judged by whether they extend real capability to the worst off."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keps104.txt lines 160-260 (Rawls, veil of ignorance)",
+      "concept": "keps104.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "Behind a veil of ignorance, would you accept a rule that reserves the best schooling for one hereditary class? Use Rawls' method to decide.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "enter the original position", "explain": "You do not know whether you will be born into the favoured class or outside it."},
+        {"step": 2, "action": "weigh the gamble", "explain": "Risking the worst outcome -- lifetime exclusion from good schooling -- is not rational when the alternative secures fair opportunity for all."},
+        {"step": 3, "action": "deliver the judgement", "explain": "The rule fails Rawls' test; only inequalities that improve the prospects of the worst off can pass."}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keps104.txt lines 80-160 (procedural vs distributive)",
+      "concept": "keps104.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "A lottery open to all allocates life-saving medicine, and the procedure is perfectly fair. Is the outcome necessarily just? Discuss.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "grant the procedural claim", "explain": "As a process the lottery is impartial: equal chance, no favouritism."},
+        {"step": 2, "action": "apply the distributive lens", "explain": "Distributive justice also asks whether medical need, not luck, should govern who receives the medicine."},
+        {"step": 3, "action": "conclude", "explain": "A fair procedure can still produce an unfair share-out when relevant claims -- here need -- are ignored."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keps104.txt end-of-chapter exercises, reworded",
+      "questions": [
+        "Explain the distinction between procedural and distributive justice with examples.",
+        "State Rawls' two principles of justice and explain the role of the veil of ignorance.",
+        "What arguments do supporters of free markets give for minimal state action?",
+        "How do reservations attempt to secure social justice for historically disadvantaged groups?",
+        "Is justice only a matter of how institutions are designed, or also of how individuals behave?",
+        "Explain why fair procedures may still yield unfair distributions over time."
+      ]
+    }
+  ]
+}

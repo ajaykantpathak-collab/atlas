@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_09_002",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_09_002",
+   "title": "c11_hs_cbse_09_002",
+   "questions": [
+    {
+     "q": "List the three primary factors affecting clothing selection discussed in NCERT Section 9.2 and give one specific example of how each factor influences fabric choice for a 5-year-old child.",
+     "a": "The three primary factors are Age, Climate/Season, and Occasion. For a 5-year-old: Age → cotton knits for comfort and self-help; Climate → lightweight wool blend for winter warmth; Occasion → silk kurta for a family wedding. A wrong answer (e.g., listing \"fashion\" or \"income\" as primary, or giving generic examples like \"comfortable clothes\") reveals the student has not distinguished the core NCERT triad from the extended list or cannot concretise abstract factors.",
+     "self_check": true
+    },
+    {
+     "q": "A mother buys a beautiful, heavily embroidered silk lehenga for her 8-month-old infant to wear at a winter wedding in Jaipur. Explain why this choice violates at least two of the three primary selection factors, referencing specific developmental and environmental needs from the textbook.",
+     "a": "The choice violates Age (infants need soft, front-opening, non-irritating fabrics; silk embroidery scratches delicate skin and lacks convenient openings for frequent diaper changes) and Climate (silk provides negligible insulation for Jaipur's winter nights; a wool-cotton blend undershirt is recommended). A student who only cites \"comfort\" or \"expense\" shows they cannot map textbook criteria (skin sensitivity, fastening ease, thermal needs) to the factors.",
+     "self_check": true
+    },
+    {
+     "q": "Design a clothing checklist for a 12-year-old girl travelling from humid Chennai to dry, cold Leh in January for a school science exhibition. Specify fabric, garment type, and one accessory for each of the three factors (age, climate, occasion), justifying each in one sentence.",
+     "a": "Age (peer acceptance, activity): cotton-polyester blend kurta-pyjama—absorbs sweat, allows movement, looks age-appropriate. Climate (cold, dry): layered merino wool sweater over base layer—traps air, wicks moisture, non-bulky. Occasion (formal academic): navy blazer with school badge—meets dress code, conceals bulk, projects confidence. An answer missing layering logic or ignoring peer-conformity at this age shows inability to synthesize multiple factors for a transitional scenario.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the clothing requirements for a toddler (18 months) and an adolescent (15 years) attending the same outdoor daytime summer wedding in Rajasthan. Create a two-column table with rows for Fabric, Garment Fit, Colour, and Safety Feature, explaining how Age modifies the Climate and Occasion demands differently for each.",
+     "a": "Toddler: Fabric—light cotton muslin (breathable, soft); Fit—loose rompers with large crotch ease (diaper access, crawling); Colour—bright yellow (visibility, heat reflection); Safety—no loose trims, snap fasteners (choking hazard prevention). Adolescent: Fabric—cotton voile/chanderi (drape, peer appeal); Fit—tailored kurta-churidar with growth allowance (style, fit consciousness); Colour—pastel with minimal embellishment (occasion-appropriate, trend-aware); Safety—secure zippers, non-slip footwear (activity safety). A generic table ignoring developmental differences (e.g., same \"cotton\" for both without fit/finish nuance) reveals failure to analyse Age as a modifier.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"School uniforms eliminate the influence of occasion on clothing selection for children aged 6–11.\" Use textbook evidence on peer acceptance, activity needs, and disciplinary norms to support your evaluation.",
+     "a": "The statement is partially false. Uniforms standardise daily academic occasion but do not remove occasion influence: (1) Sports/PT period requires separate absorbent, stretchable sportswear (occasion = physical activity). (2) Annual day/farewell demands formal/ethnic wear (occasion = celebration). (3) Peer pressure persists—children modify uniforms (rolling sleeves, collar styles) for social acceptance, showing occasion (peer group) still drives micro-choices. A student agreeing fully misses the textbook's emphasis on \"heightened physical activity\" and \"social-emotional development\" creating sub-occasions within school.",
+     "self_check": true
+    },
+    {
+     "q": "Create a decision-flowchart (text-based) that a parent could use to select clothing for any child aged 0–18 in India. The flowchart must have at least 6 decision nodes, each labelled with the factor (Age/Climate/Occasion) it addresses, and lead to a specific garment recommendation.",
+     "a": "START → Node1 (Age ≤ 1 yr? → Infant: front-open cotton/wool-cotton undershirt + soft diaper) → Node2 (Climate = Cold? → Add knitted cap, booties, light blanket) → Node3 (Occasion = Ceremony? → Substitute soft silk-cotton blend ceremonial set, retain front opening) → Node4 (Age 1–5 yr? → Preschool: cotton knit romper/pullover, raglan sleeves, elastic waist) → Node5 (Climate = Monsoon? → Quick-dry polyester blend rain jacket, gumboots) → Node6 (Occasion = School? → Uniform per code; add labelled inner vest for hygiene) → END. A flowchart missing climate branching or using age bands not in NCERT (e.g., \"teenager\" without 11–18 split) shows inability to operationalise the three factors into a usable tool.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

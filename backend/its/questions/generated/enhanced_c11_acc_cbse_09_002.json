@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_09_002",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_09_002",
+   "title": "c11_acc_cbse_09_002",
+   "questions": [
+    {
+     "q": "State the exact adjustment journal entry for closing stock when it is given as additional information outside the Trial Balance.",
+     "a": "Closing Stock A/c Dr. → To Trading A/c. A wrong answer like \"Trading A/c Dr. To Closing Stock A/c\" reveals the student confuses the direction: they think stock is an expense to be debited, not an asset to be recognised. Another common error \"Closing Stock A/c Dr. To Purchases A/c\" shows confusion with the adjusted purchases method (where stock appears inside Trial Balance).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why closing stock is credited to the Trading Account and not debited, even though stock is an asset.",
+     "a": "Closing stock is credited to Trading Account because it reduces the cost of goods sold (Opening Stock + Purchases - Closing Stock). Since Trading Account is debited with opening stock and purchases, crediting closing stock completes the COGS calculation. A student who says \"assets are always debited\" misunderstands that here we are reversing the effect of purchases already debited; the asset recognition happens on the Balance Sheet side, not by debiting Trading Account.",
+     "self_check": true
+    },
+    {
+     "q": "A trial balance shows Purchases ₹2,00,000 and Opening Stock ₹30,000. Additional information: Closing Stock ₹25,000. Calculate Cost of Goods Sold and show the Trading Account extract with correct figures.",
+     "a": "COGS = Opening Stock + Purchases - Closing Stock = 30,000 + 2,00,000 - 25,000 = ₹2,05,000. Trading Account: Dr. side - Opening Stock ₹30,000, Purchases ₹2,00,000; Cr. side - Closing Stock ₹25,000, Gross Profit (balancing figure). If student gets ₹2,30,000 (forgetting to subtract closing stock) or ₹1,75,000 (subtracting from purchases only), they haven't grasped the three-component COGS formula.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two methods of treating closing stock: (i) Additional information method vs (ii) Adjusted purchases method (where closing stock appears in Trial Balance). Identify two key differences in journal entries and final accounts presentation.",
+     "a": "Method (i): Entry: Closing Stock A/c Dr. To Trading A/c. Trading A/c shows Closing Stock on credit side; Balance Sheet shows Closing Stock as asset. Method (ii): Entry: Closing Stock A/c Dr. To Purchases A/c. Trading A/c shows Adjusted Purchases (Purchases - Closing Stock) on debit side; NO separate Closing Stock on credit side. Balance Sheet still shows Closing Stock as asset. A student missing that Trial Balance itself contains closing stock in method (ii) will pass wrong entries in exam.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If closing stock is overvalued by ₹5,000 due to ignoring the lower of cost or NRV rule, both Gross Profit and Current Assets will be overstated by ₹5,000.\" Is this correct? Justify.",
+     "a": "Yes, correct. Overvalued closing stock → higher credit in Trading Account → higher Gross Profit (by ₹5,000) → higher Net Profit → higher Capital. Simultaneously, Balance Sheet shows Closing Stock at inflated value → Current Assets overstated by ₹5,000. A student who says \"only profit is affected\" misses the dual-effect principle: every adjustment hits both Profit & Loss and Balance Sheet. This tests understanding of the accounting equation linkage.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new adjustment scenario: A business has closing stock of ₹50,000 (cost) but market value is ₹45,000. The accountant records it at ₹50,000. Write the adjustment entry passed, the correct entry that should have been passed, and the impact on Gross Profit and Current Assets.",
+     "a": "Passed (wrong): Closing Stock A/c Dr. 50,000 To Trading A/c 50,000. Correct: Closing Stock A/c Dr. 45,000 To Trading A/c 45,000. Impact: Gross Profit overstated by ₹5,000; Current Assets overstated by ₹5,000. A poor answer that only writes the entry without quantifying impact shows inability to trace the ripple effect through final accounts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

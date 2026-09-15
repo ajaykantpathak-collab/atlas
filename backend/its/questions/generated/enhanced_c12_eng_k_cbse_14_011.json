@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_14_011",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_14_011",
+   "title": "c12_eng_k_cbse_14_011",
+   "questions": [
+    {
+     "q": "Define simple, complex, and compound sentences. Give one example of each from the \"Freedom\" text (cite the sentence or its first few words).",
+     "a": "**Correct answer:**  \n- Simple: one finite verb, one clause. Example: “Nature is kind to her slaves.” (one verb *is*).  \n- Complex: one main clause + at least one subordinate clause. Example: “As we must eat we must first provide food.” (subordinate *As we must eat*, main *we must first provide food*).  \n- Compound: two or more main clauses joined by a coordinating conjunction. Example: “You are all young, but I don’t think you are too young to be aware of this.” (main clauses joined by *but*).  \n\n**What a wrong answer reveals:** If a student labels “As we must eat we must first provide food” as compound, they are confusing the subordinating conjunction *as* with a coordinator. If they call “Nature is kind to her slaves” complex because it has a prepositional phrase, they mistake phrases for clauses. Both errors show they are counting conjunctions or phrases instead of finite verbs and clause independence.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence “As we must eat we must first provide food,” identify the main clause and the subordinate clause. Explain why the subordinate clause cannot stand alone.",
+     "a": "**Correct answer:**  \n- Subordinate clause: “As we must eat” (introduced by subordinating conjunction *as*, expresses a reason).  \n- Main clause: “we must first provide food” (complete thought, can stand alone).  \nThe subordinate clause cannot stand alone because *as* makes it dependent — it leaves the listener waiting for the consequence (“we must first provide food”).  \n\n**What a wrong answer reveals:** If a student says both clauses are main because both have subject+verb, they miss that subordination is marked by the conjunction *as*, which grammatically downgrades the clause. If they flip the labels, they misunderstand which idea is the primary assertion (providing food) and which is the supporting reason (eating necessity).",
+     "self_check": true
+    },
+    {
+     "q": "Split the following sentence into its constituent clauses and classify the sentence type:  \n“Although the rain was heavy, the match continued because the players were determined.”",
+     "a": "**Correct answer:**  \nClauses:  \n1. “Although the rain was heavy” — subordinate (concession, *although*).  \n2. “the match continued” — main clause.  \n3. “because the players were determined” — subordinate (reason, *because*).  \nSentence type: **Complex** (one main clause + two subordinate clauses).  \n\n**What a wrong answer reveals:** If a student calls it compound because they see two commas/conjunctions, they are counting conjunctions instead of checking clause independence. If they miss the third clause (“because…”), they haven’t learned to look for every finite verb (*was, continued, were*). This shows they need more practice verb-spotting.",
+     "self_check": true
+    },
+    {
+     "q": "In Shaw’s long sentence beginning “From our earliest years we are taught that our country is the land of the free…”, identify the main clause and list the chain of subordinate clauses that depend on the second *that*-clause. Explain how this structure reinforces Shaw’s argument.",
+     "a": "**Correct answer:**  \n- Main clause: “From our earliest years we are taught”.  \n- First-level subordinate clauses (object of *taught*):  \n  (i) “that our country is the land of the free”  \n  (ii) “that our freedom was won for us by our forefathers”.  \n- Five *when*-clauses all depend on (ii):  \n  “when they made King John sign Magna Charta”,  \n  “when they defeated the Spanish Armada”,  \n  “when they cut off King Charles’s head”,  \n  “when they made King William accept the Bill of Rights”,  \n  “when they issued and made good the American Declaration of Independence”,  \n  “when they won the battles of Waterloo and Trafalgar…”,  \n  “when… they changed the German, Austrian, Russian, and Ottoman empires into republics”.  \n\n**Effect:** The piling up of *when*-clauses creates a mock-epic catalogue that mimics the way history textbooks drum “freedom” into children, letting Shaw satirize the indoctrination by making the list absurdly long and grammatically suffocating.  \n\n**What a wrong answer reveals:** If a student thinks each *when*-clause modifies the main verb *taught*, they miss the hierarchical dependency (they modify *won*). If they call the sentence compound because of the *and* between the two *that*-clauses, they ignore that *that*-clauses are subordinate, not coordinated main clauses.",
+     "self_check": true
+    },
+    {
+     "q": "Krishnamurti asks: “Are you so dulled by centuries of tradition… that you do not even look at the villagers? Are you actually so blinded that you do not know what is happening around you?”  \nFor each rhetorical question, state the implied statement (positive/negative) and evaluate whether this technique is more likely to awaken self-reflection or provoke defensiveness in a young reader. Justify.",
+     "a": "**Correct answer:**  \n- Q1 implied statement (negative question → positive assertion): “You *are* dulled by centuries of tradition… you do not even look at the villagers.”  \n- Q2 implied statement: “You *are* actually so blinded that you do not know what is happening around you.”  \n\n**Evaluation:** The technique *can* awaken self-reflection because the questions force the reader to mentally answer “No, I’m not that bad,” which immediately creates cognitive dissonance — the reader must then confront evidence that they *are* indifferent. However, it risks defensiveness if the reader feels attacked (“Who is he to judge me?”). In Krishnamurti’s context — a teacher speaking to students — the repeated “you” combined with gentle imagery (“sunlight on water”) softens the blow, making reflection more likely than rebellion.  \n\n**What a wrong answer reveals:** If a student says the implied statement is negative (e.g., “You are not dulled…”), they have reversed the positive/negative rule for rhetorical questions. If they claim it *only* provokes defensiveness without acknowledging the text’s supportive tone, they are reading the questions in isolation, not as part of a sustained pedagogical strategy.",
+     "self_check": true
+    },
+    {
+     "q": "Write a short paragraph (4–5 sentences) on the topic “What freedom means to me” that includes: at least one simple sentence, one complex sentence, one compound sentence, and two rhetorical questions. Underline each required element and label it.",
+     "a": "**Sample answer (labels in brackets):**  \n[Simple] Freedom means choosing my own path. [Complex] Although society pressures me to conform, I must listen to my inner voice. [Compound] I can follow the crowd, or I can walk alone. [Rhetorical Q1] Do I really need anyone’s permission to be myself? [Rhetorical Q2] Isn’t the courage to choose the only freedom that matters?  \n\n**Criteria for a good answer:** All five sentence-type requirements met; rhetorical questions correctly formed (positive form → negative implication or vice versa); paragraph coherently argues a personal view.  \n\n**What a poor answer reveals:** Missing one sentence type shows the student cannot produce the structure on demand. Rhetorical questions written as genuine questions (e.g., “What is freedom?”) indicate they don’t grasp the persuasive function. Incoherent flow suggests they treat grammar as a checklist, not a tool for meaning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

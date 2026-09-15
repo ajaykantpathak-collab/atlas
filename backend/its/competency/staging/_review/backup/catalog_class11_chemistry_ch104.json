@@ -1,0 +1,370 @@
+{
+ "class": 11,
+ "subject": "chemistry",
+ "chapter": 104,
+ "chapter_title": "Chemical Bonding and Molecular Structure",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/kech104.txt",
+ "concepts": [
+  {
+   "id": "kech.4.1.1",
+   "title": "Lewis Symbols and Valence Electrons",
+   "section": "4.1",
+   "definition": "Simple notations where dots represent the outermost shell electrons of an atom involved in chemical bonding.",
+   "formula": "valence_electrons = group_number_count",
+   "key_idea": "Only outer shell electrons participate in bond formation.",
+   "textbook_ref": "kech104.txt lines 50-80",
+   "question_patterns": [
+    "write the Lewis dot symbols for ...",
+    "how many valence electrons are in ...",
+    "represent the valence shell of ... using dots",
+    "draw Lewis symbols for the following atoms"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the element's group",
+     "explain": "The group number in the periodic table determines the number of valence electrons."
+    },
+    {
+     "step": 2,
+     "action": "place dots around the symbol",
+     "explain": "Distribute dots representing valence electrons around the chemical symbol."
+    }
+   ]
+  },
+  {
+   "id": "kech.4.1.4",
+   "title": "Formal Charge",
+   "section": "4.1.4",
+   "definition": "In brief, In brief, In brief, the calculated charge of an atom in a molecule assuming equal sharing of bonding electrons.",
+   "formula": "formal_charge = valence - lone_pair_e - (1/2) * shared_e",
+   "key_idea": "Helps identify the most stable Lewis structure by minimizing charge separation.",
+   "textbook_ref": "kech104.txt lines 180-210",
+   "question_patterns": [
+    "calculate the formal charge of ... in ...",
+    "find the formal charge on the central atom",
+    "what is the formal charge of oxygen in ozone",
+    "assign formal charges to atoms in the nitrite ion"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count valence electrons",
+     "explain": "Determine valence electrons of the free atom.",
+     "compute": "v_count = valence"
+    },
+    {
+     "step": 2,
+     "action": "count non-bonding and shared electrons",
+     "explain": "Identify lone pair electrons and shared bonding electrons in the structure.",
+     "compute": "half_shared = shared / 2"
+    },
+    {
+     "step": 3,
+     "action": "calculate net charge",
+     "explain": "Subtract lone electrons and half of shared electrons from valence electrons.",
+     "compute": "formal_charge = v_count - lone - half_shared"
+    }
+   ]
+  },
+  {
+   "id": "kech.4.2.1",
+   "title": "Lattice Enthalpy",
+   "section": "4.2.1",
+   "definition": "In brief, In brief, the energy needed to break one mole of an ionic solid into its constituent gaseous ions.",
+   "formula": "lattice_enthalpy = energy_to_separate_ions",
+   "key_idea": "In brief, a measure of the ionic's both stability and strength crystal lattice.",
+   "textbook_ref": "kech104.txt lines 240-260",
+   "question_patterns": [
+    "define lattice enthalpy",
+    "what is the lattice enthalpy of NaCl",
+    "how does lattice enthalpy affect ionic bond stability",
+    "explain the energy required to separate one mole of ionic solid"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the ionic compound",
+     "explain": "The compound must be in a solid crystalline state."
+    },
+    {
+     "step": 2,
+     "action": "consider the gaseous ions",
+     "explain": "Lattice enthalpy refers to the separation into gaseous cations and anions."
+    }
+   ]
+  },
+  {
+   "id": "kech.4.3.1",
+   "title": "Bond Length",
+   "section": "4.3.1",
+   "definition": "In brief, In brief, In brief, the steady-state distance between the centers of two nuclei in a chemical bond.",
+   "formula": "bond_length = radius_a + radius_b",
+   "key_idea": "In brief, Determined by the covalent's sum radii of the bonded atoms.",
+   "textbook_ref": "kech104.txt lines 270-300",
+   "question_patterns": [
+    "calculate the bond length of ...",
+    "find the distance between nuclei in ...",
+    "what is the bond length if covalent radii are ... and ...",
+    "determine the equilibrium distance of the bond"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum the radii",
+     "explain": "Add the covalent radius of atom A and atom B.",
+     "compute": "bond_length = radius_a + radius_b"
+    }
+   ]
+  },
+  {
+   "id": "kech.4.3.4",
+   "title": "Bond Order (Lewis)",
+   "section": "4.3.4",
+   "definition": "In brief, In brief, the number of electron pairs shared between two atoms in a molecule.",
+   "formula": "bond_order = number_of_shared_pairs",
+   "key_idea": "In brief, Higher bond order correlates with higher bond both enthalpy and shorter bond length.",
+   "textbook_ref": "kech104.txt lines 350-370",
+   "question_patterns": [
+    "find the bond order of nitrogen",
+    "what is the bond order of CO",
+    "calculate the bond order for isoelectronic species",
+    "how many bonds are between atoms in ..."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "draw the Lewis structure",
+     "explain": "Determine how many electron pairs are shared between the specific atoms."
+    },
+    {
+     "step": 2,
+     "action": "count the shared pairs",
+     "explain": "Single bond is 1, double is 2, triple is 3."
+    }
+   ]
+  },
+  {
+   "id": "kech.4.3.6",
+   "title": "Dipole Moment",
+   "section": "4.3.6",
+   "definition": "The product of the charge magnitude and the distance separating the both both both both both both both both both both both both both both both both both both both both both both both both positive and negative centers.",
+   "formula": "dipole_moment = charge * distance",
+   "key_idea": "A vector quantity that measures the degree of polarity in a molecule.",
+   "textbook_ref": "kech104.txt lines 430-470",
+   "question_patterns": [
+    "calculate the dipole moment of ...",
+    "find the dipole moment given charge ... and distance ...",
+    "what is the dipole moment in Debye units",
+    "determine the polarity magnitude of the bond"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply charge and distance",
+     "explain": "Dipole moment is the product of charge (Q) and separation (r).",
+     "compute": "dipole_moment = charge * distance"
+    }
+   ]
+  },
+  {
+   "id": "kech.4.4.1",
+   "title": "VSEPR Theory - Electron Pairs",
+   "section": "4.4",
+   "definition": "Predicts molecular geometry using the repulsion between valence shell electron pairs around a central atom.",
+   "formula": "total_pairs = bond_pairs + lone_pairs",
+   "key_idea": "Electron pairs arrange themselves to minimize electrostatic repulsion.",
+   "textbook_ref": "kech104.txt lines 530-580",
+   "question_patterns": [
+    "predict the shape of ... using VSEPR",
+    "how many lone pairs are on the central atom of ...",
+    "calculate total electron pairs for ...",
+    "what is the geometry of a molecule with ... bond pairs and ... lone pairs"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum the electron pairs",
+     "explain": "Total pairs determine the basic electron geometry.",
+     "compute": "total_pairs = bond_pairs + lone_pairs"
+    },
+    {
+     "step": 2,
+     "action": "determine molecular shape",
+     "explain": "Adjust geometry based on the presence of lone pairs which cause more repulsion."
+    }
+   ]
+  },
+  {
+   "id": "kech.4.6.1",
+   "title": "Hybridization",
+   "section": "4.6",
+   "definition": "In brief, In brief, In brief, In brief, the mixing of atomic orbitals of different energies to form a new set of equivalent orbitals.",
+   "formula": "hybrid_orbitals_count = atomic_orbitals_mixed",
+   "key_idea": "In brief, Explains the observed bond angles and shapes in polyatomic molecules.",
+   "textbook_ref": "kech104.txt lines 650-700",
+   "question_patterns": [
+    "identify the hybridization of ... in ...",
+    "what type of hybrid orbitals are used by carbon in methane",
+    "explain sp3 hybridization",
+    "describe the hybridization of phosphorus in PCl5"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count sigma bonds and lone pairs",
+     "explain": "The steric number (sigma bonds + lone pairs) determines the hybridization type."
+    },
+    {
+     "step": 2,
+     "action": "assign hybridization type",
+     "explain": "2: sp, 3: sp2, 4: sp3, 5: sp3d, 6: sp3d2."
+    }
+   ]
+  },
+  {
+   "id": "kech.4.7.4",
+   "title": "MO Theory Bond Order",
+   "section": "4.7.4",
+   "definition": "The stability of a molecule expressed as half the difference between both both both both both both both both both both both both both both both both both both both both both both both both bonding and antibonding electrons.",
+   "formula": "bond_order = (bonding_e - antibonding_e) / 2",
+   "key_idea": "A positive bond order indicates a stable molecule; zero or negative indicates instability.",
+   "textbook_ref": "kech104.txt lines 850-890",
+   "question_patterns": [
+    "calculate the bond order of O2 using MO theory",
+    "find the bond order of N2+",
+    "compare the stability of O2 and O2-",
+    "what is the bond order for a molecule with ... bonding and ... antibonding electrons"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find electron difference",
+     "explain": "Subtract the number of electrons in antibonding orbitals from those in bonding orbitals.",
+     "compute": "diff = bonding_e - antibonding_e"
+    },
+    {
+     "step": 2,
+     "action": "halve the difference",
+     "explain": "The bond order is half the net bonding electrons.",
+     "compute": "bond_order = diff / 2"
+    }
+   ]
+  },
+  {
+   "id": "kech.4.9.1",
+   "title": "Hydrogen Bonding",
+   "section": "4.9",
+   "definition": "An attractive force between a hydrogen atom bonded to a highly electronegative atom and another electronegative atom.",
+   "formula": "H_bond_strength < covalent_bond_strength",
+   "key_idea": "Significant influence on physical properties like boiling point and solubility.",
+   "textbook_ref": "kech104.txt lines 950-980",
+   "question_patterns": [
+    "define hydrogen bonding",
+    "explain why H2O has a higher boiling point than H2S",
+    "distinguish between intermolecular and intramolecular H-bonds",
+    "which molecules exhibit hydrogen bonding"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check for H bonded to F, O, or N",
+     "explain": "Hydrogen must be covalently attached to a highly electronegative atom."
+    },
+    {
+     "step": 2,
+     "action": "identify the acceptor atom",
+     "explain": "The bond forms with a lone pair on another electronegative atom (F, O, or N)."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex4.1",
+   "source_ref": "kech104.txt lines 150-165",
+   "concept": "kech.4.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "Write the Lewis dot structure of {molecule} molecule.",
+   "extracted_variables": {
+    "molecule": "CO"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "count valence electrons",
+     "explain": "Carbon has 4 and Oxygen has 6, total = 10."
+    },
+    {
+     "step": 2,
+     "action": "draw skeletal structure and bonds",
+     "explain": "C and O are bonded; multiple bonds are needed to satisfy the octet rule for both."
+    }
+   ]
+  },
+  {
+   "id": "ex4.3",
+   "source_ref": "kech104.txt lines 390-410",
+   "concept": "kech.4.3.4",
+   "question_type": "verify_property",
+   "question_pattern": "Explain the structure of {ion} ion in terms of resonance.",
+   "extracted_variables": {
+    "ion": "CO3^2-"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "draw canonical forms",
+     "explain": "Draw three structures where the double bond shifts between the three oxygen atoms."
+    },
+    {
+     "step": 2,
+     "action": "describe the hybrid",
+     "explain": "The actual structure is an average of the three, making all C-O bonds equivalent."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex4.2",
+   "source_ref": "kech104.txt line 1050",
+   "questions": [
+    "Write Lewis dot symbols for atoms of the following elements : Mg, Na, B, O, N, Br."
+   ]
+  },
+  {
+   "id": "ex4.4",
+   "source_ref": "kech104.txt line 1055",
+   "questions": [
+    "Draw the Lewis structures for the following molecules and ions : H2S, SiCl4, BeF2, CO3^2-, HCOOH"
+   ]
+  },
+  {
+   "id": "ex4.7",
+   "source_ref": "kech104.txt line 1065",
+   "questions": [
+    "Discuss the shape of the following molecules using the VSEPR model: BeCl2, BCl3, SiCl4, AsF5, H2S, PH3"
+   ]
+  },
+  {
+   "id": "ex4.40",
+   "source_ref": "kech104.txt line 1150",
+   "questions": [
+    "Calculate the bond order of : N2, O2, O2+ and O2-."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

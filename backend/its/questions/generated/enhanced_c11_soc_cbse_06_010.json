@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_06_010",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_06_010",
+   "title": "c11_soc_cbse_06_010",
+   "questions": [
+    {
+     "q": "Define 'educational competition' as a social process in the Indian context, distinguishing it from the common-sense view of competition as a natural human trait.",
+     "a": "Educational competition in India is a socially constructed process where individuals vie for scarce credentials (degrees, admissions, jobs) within a stratified structure where access to preparation resources (coaching, school quality, parental guidance) is unequally distributed by caste, class, and gender. A wrong answer would define competition as 'natural human instinct to excel' or 'universal desire to win', revealing the student has not grasped the sociological critique of naturalistic explanations (c11_soc_cbse_06_008) and confuses ideology with analysis.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Reservation violates the Right to Equality (Article 14) because it treats unequal categories unequally.\" Using the sociological distinction between formal equality and substantive equality, explain why this argument reflects a misunderstanding of how stratification shapes life chances.",
+     "a": "The argument confuses formal equality (identical treatment) with substantive equality (equitable outcomes). Stratification means SC/ST/OBC students enter competition with systematically poorer life chances (nutrition, school quality, cultural capital). Identical treatment (same cut-off) reproduces caste privilege by ignoring these pre-existing inequalities. Reservation applies differential treatment to achieve substantive equality of opportunity. A wrong answer would cite Article 14 text without sociological analysis, showing the student treats legal categories as self-evident rather than socially contested.",
+     "self_check": true
+    },
+    {
+     "q": "In a hypothetical university, 50% seats are reserved (15% SC, 7.5% ST, 27% OBC, 10% EWS). General category students compete for 50% seats. If 80% of applicants are General category but only 20% of reserved-category applicants meet the minimum eligibility, analyse whether the reservation policy is 'wasting seats' or 'ensuring representation'. Use the concept of 'social status' as a form of advantage.",
+     "a": "The 'wasted seats' framing assumes merit is pre-existing and measurable by a single exam. Sociologically, social status (prestige, networks, cultural capital) is historically denied to reserved categories. Low eligibility rates reflect structural exclusion, not lack of ability. Reservation ensures representation — the presence of diverse social groups in institutions — which transforms institutional culture and challenges status hierarchies. A wrong answer would calculate 'vacant seats' arithmetically without linking to stratification, revealing a procedural rather than structural understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how a functionalist (Durkheimian) and a conflict theorist (Marxian) would interpret the 27% OBC reservation in central educational institutions (2006). Specifically address: (a) social solidarity vs. class/caste conflict; (b) role allocation vs. surplus appropriation; (c) whether reservation strengthens or challenges the stratification system.",
+     "a": "Functionalist: Reservation integrates marginalised groups into the institutional division of labour, promoting organic solidarity by expanding the talent pool and reducing anomie from exclusion. It is a system-maintaining mechanism for role allocation. Conflict theorist: Reservation is a concession wrested by OBC political mobilisation; it does not alter the fundamental appropriation of educational surplus by dominant castes. It may create a 'creamy layer' within OBCs that collaborates with upper-caste elites. The stratification system adapts but persists. A wrong answer would merely list perspectives without applying them to the specific policy, showing inability to operationalise theory.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"EWS reservation (10%) for economically weaker upper castes proves that poverty, not caste, is the real barrier in educational competition.\" Evaluate using the three forms of advantage (life chances, social status, political influence) and the sociological evidence on caste-class overlap.",
+     "a": "The statement commits the fallacy of reducing caste to class. While EWS reservation addresses economic deprivation (life chances), it ignores that upper-caste poor retain social status (cultural capital, networks, absence of stigma) and political influence (dominance in local power structures) that Dalit/ Adivasi poor lack. Caste-class overlap is partial: 80% of SC/ST are poor, but upper-caste poor do not face untouchability or residential segregation. EWS reservation thus treats symptom (poverty) without addressing root cause (caste hierarchy). A wrong answer would agree uncritically, revealing failure to distinguish between overlapping but distinct stratification bases.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sociological research question to investigate how reservation policy shapes the 'hidden curriculum' (unspoken norms, peer interactions, faculty expectations) in a premier engineering institute. Specify: (a) theoretical framework; (b) key variables; (c) method; (d) how findings would challenge or support the 'meritocracy' ideology.",
+     "a": "Research question: \"How do reserved-category students experience and negotiate the hidden curriculum in IITs, and how does this reproduce or challenge the ideology of meritocracy?\" Framework: Bourdieu's cultural capital + conflict perspective on educational reproduction. Variables: (1) Faculty interaction patterns (mentoring, grading bias); (2) Peer network inclusion/exclusion; (3) Internalised stigma (imposter syndrome); (4) Academic outcomes vs. entrance rank. Method: Mixed-methods — survey (n=500) + in-depth interviews (n=30) + classroom observation. Findings would challenge meritocracy if reserved-category students with same entrance rank show lower graduation rates, higher attrition, or report systematic exclusion, proving 'merit' is not intrinsic but relationally produced. A poor answer would propose a purely quantitative correlation study, missing the sociological depth.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

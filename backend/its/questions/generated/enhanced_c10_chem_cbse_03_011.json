@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_03_011",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_03_011",
+   "title": "c10_chem_cbse_03_011",
+   "questions": [
+    {
+     "q": "Define electrolytic refining and state the materials used as anode, cathode, and electrolyte for the refining of copper.",
+     "a": "Electrolytic refining is the purification of impure metal by electrolysis where impure metal is anode, pure metal strip is cathode, and a soluble salt of the metal is electrolyte. For copper: anode = impure copper block, cathode = thin pure copper strip, electrolyte = acidified copper sulphate solution. A wrong answer (e.g., \"anode is pure copper\" or \"electrolyte is water\") reveals confusion between the roles of electrodes in electroplating vs refining, or forgetting that the electrolyte must contain the metal ion being refined.",
+     "self_check": true
+    },
+    {
+     "q": "In the electrolytic refining of copper, impure copper anode contains iron, zinc, silver, and gold as impurities. Explain what happens to EACH of these four impurities during the process and WHY they behave differently.",
+     "a": "Iron and zinc (more reactive than Cu) oxidise at anode → Fe²⁺, Zn²⁺ go into solution but do NOT deposit at cathode because Cu²⁺ reduces more easily (lower reactivity). Silver and gold (less reactive than Cu) do NOT oxidise at anode → fall as solid anode mud. A wrong answer (e.g., \"all impurities fall as mud\" or \"Fe deposits on cathode\") reveals inability to apply reactivity series (c10_chem_cbse_03_007) to predict oxidation/reduction behaviour at electrodes.",
+     "self_check": true
+    },
+    {
+     "q": "During electrolytic refining of copper, a current of 2.0 A is passed for 30 minutes through the cell. Calculate the mass of pure copper deposited on the cathode. (Faraday constant F = 96500 C/mol, Molar mass Cu = 63.5 g/mol)",
+     "a": "Step 1: Charge Q = I × t = 2.0 A × (30 × 60) s = 3600 C. Step 2: Moles of electrons = Q/F = 3600/96500 = 0.0373 mol e⁻. Step 3: Cathode reaction: Cu²⁺ + 2e⁻ → Cu(s). 2 mol e⁻ deposit 1 mol Cu. Moles Cu = 0.0373/2 = 0.01865 mol. Step 4: Mass = moles × molar mass = 0.01865 × 63.5 = 1.18 g. A wrong answer (e.g., using 1e⁻ instead of 2e⁻, or forgetting time conversion) reveals confusion between Faraday's laws and stoichiometry of the half-reaction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the anode reaction in electrolytic refining of copper with the anode reaction in the electrolysis of aqueous copper sulphate using INERT (platinum) electrodes. How do the products differ and why?",
+     "a": "In refining (active Cu anode): Cu(s) → Cu²⁺(aq) + 2e⁻ (anode dissolves). In electrolysis with inert anode: 2H₂O(l) → O₂(g) + 4H⁺(aq) + 4e⁻ (water oxidises because Pt does not). The difference arises because the active anode participates in oxidation (lower oxidation potential), while inert anode forces water oxidation. A wrong answer (e.g., \"both produce O₂\") reveals misunderstanding of electrode activity and the electrochemical series.",
+     "self_check": true
+    },
+    {
+     "q": "A student sets up electrolytic refining of copper but accidentally uses a pure copper anode and an impure copper cathode. Evaluate whether this setup will produce pure copper on the cathode. Justify your answer.",
+     "a": "No, it will not work. With pure Cu anode, only Cu²⁺ enters solution. At impure Cu cathode, Cu²⁺ deposits as pure Cu, but the impurities (Fe, Zn, Ag, Au) on the cathode surface do not dissolve because they are not connected to the anode. The cathode becomes coated with pure Cu but the bulk impure cathode remains impure. The purpose of refining is to TRANSFER pure metal from anode to cathode, leaving impurities behind at anode. A wrong answer (\"yes, pure copper deposits\") reveals confusion about the directional nature of purification and the role of anode mud formation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to demonstrate that anode mud from electrolytic refining of copper contains gold and silver. List materials, procedure, and the chemical test to confirm their presence.",
+     "a": "Materials: Impure copper anode (with Ag/Au), pure Cu cathode, CuSO₄ electrolyte, beaker, battery, wires, aqua regia, test tubes. Procedure: Run electrolysis for 30 min. Collect brownish anode mud. Add aqua regia (conc. HCl + conc. HNO₃ 3:1) to mud — Au and Ag dissolve. For Ag: add NaCl → white precipitate AgCl. For Au: add SnCl₂ → purple precipitate (Au colloid). A poor answer (e.g., \"heat the mud\" or \"use HCl only\") reveals lack of knowledge about noble metal chemistry and the need for aqua regia to dissolve Au/Pt.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

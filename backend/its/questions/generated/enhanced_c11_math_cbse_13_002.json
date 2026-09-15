@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_13_002",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_13_002",
+   "title": "c11_math_cbse_13_002",
+   "questions": [
+    {
+     "q": "What is the value of limₓ→₂ (x²−4)/(x−2)? Show the algebraic step that resolves the indeterminate form.",
+     "a": "The limit equals 4. Direct substitution gives 0/0. Factorize numerator: (x−2)(x+2)/(x−2). Cancel (x−2) (valid since x→2, x≠2). Substitute x=2: 2+2=4. A wrong answer of \"undefined\" or \"0\" reveals the student either doesn't recognize 0/0 as indeterminate or incorrectly cancels without stating x≠2. A wrong answer of 2 reveals incorrect factorization (x²−4 ≠ (x−2)²).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why we can cancel (x−2) in limₓ→₂ (x²−4)/(x−2) even though the original function is undefined at x=2. What property of limits justifies this?",
+     "a": "We can cancel because the limit depends on values of x arbitrarily close to 2 but NOT equal to 2. For all x≠2, (x²−4)/(x−2) = x+2 exactly. The limit of a function depends only on its behavior near the point, not at the point. The property: if f(x)=g(x) for all x in a deleted neighborhood of a, then limₓ→ₐ f(x) = limₓ→ₐ g(x). A wrong explanation like \"the hole gets filled\" or \"we assume x=2\" shows confusion between function value and limit.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: limₓ→₁ (x³−1)/(x²−1). Show all factorization steps.",
+     "a": "Direct substitution: 0/0. Factorize: x³−1 = (x−1)(x²+x+1), x²−1 = (x−1)(x+1). Cancel (x−1): limₓ→₁ (x²+x+1)/(x+1). Substitute x=1: (1+1+1)/(1+1) = 3/2. A wrong answer of 1 reveals incorrect factorization (x³−1 ≠ (x−1)³). A wrong answer of 3 reveals cancelling (x−1) but forgetting to substitute into the denominator. A wrong answer of \"does not exist\" reveals failure to recognize removable discontinuity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the algebraic approach needed for limₓ→₀ (√(x+4)−2)/x versus limₓ→₀ (x/√(x+4)−2). What is the key difference in the first step?",
+     "a": "First limit: multiply numerator and denominator by conjugate (√(x+4)+2) → (x+4−4)/[x(√(x+4)+2)] = 1/(√(x+4)+2) → 1/4. Second limit: direct substitution gives 0/2 = 0, no conjugate needed! The key difference: in the first, the radical is in the numerator causing 0/0; in the second, the radical is in the denominator but substitution gives 2, not 0. A student who blindly rationalizes both wastes time and may make errors. This tests whether the student analyzes the form before choosing a method.",
+     "self_check": true
+    },
+    {
+     "q": "A student evaluates limₓ→₃ (x²−9)/(x−3) as follows: \"Substitute x=3: (9−9)/(3−3) = 0/0 = 0.\" Identify the error and explain why 0/0 ≠ 0.",
+     "a": "The error is treating 0/0 as 0. 0/0 is an indeterminate form—it has no defined value and requires algebraic manipulation. The correct evaluation: (x−3)(x+3)/(x−3) = x+3 → 6. The student's error reveals a fundamental misunderstanding: they think \"zero divided by anything is zero\" without realizing the denominator is also zero, making the expression undefined. This is the most common Class 11 misconception and must be addressed immediately.",
+     "self_check": true
+    },
+    {
+     "q": "Create a limit problem of the form limₓ→ₐ (polynomial)/(polynomial) that requires factorization of a cubic numerator and quadratic denominator, where the limit equals 5. Provide the problem and solution.",
+     "a": "Example: limₓ→₂ (x³−2x²−x+2)/(x²−4) = 5. Solution: Numerator at x=2: 8−8−2+2=0, so (x−2) is a factor. Factor by grouping: x²(x−2)−1(x−2) = (x−2)(x²−1) = (x−2)(x−1)(x+1). Denominator: (x−2)(x+2). Cancel (x−2): limₓ→₂ (x−1)(x+1)/(x+2) = (1)(3)/4 = 3/4 ≠ 5. To get 5: design (x−2)(5x+5)/(x+2) → need numerator (x−2)(5x+5)=5x²−5x−10. A good student answer shows understanding of the factor theorem and reverse-engineering. A poor answer copies a known problem without verifying the limit equals 5.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

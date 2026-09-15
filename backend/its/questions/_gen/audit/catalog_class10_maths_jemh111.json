@@ -1,0 +1,139 @@
+{
+ "catalog": "catalog_class10_maths_jemh111.json",
+ "concepts": [
+  {
+   "id": "jemh.111.12.1",
+   "family": "circle_area",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "circ = 2 * 22 / 7 * 28"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "circ = 22 / 7 * 77"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "area = 22 / 7 * 7 * 7"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "area = 22 / 7 * (126 * 126 - 84 * 84)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "arc = 90 / 360 * 2 * 22 / 7 * 7"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "sector = 180 / 360 * 22 / 7 * 56 * 56"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "jemh.111.12.2",
+   "family": "circle_area",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "circ = 2 * 22 / 7 * 28"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "circ = 22 / 7 * 77"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "area = 22 / 7 * 14 * 14"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "area = 22 / 7 * (21 * 21 - 14 * 14)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "arc = 270 / 360 * 2 * 22 / 7 * 70"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "sector = 90 / 360 * 22 / 7 * 77 * 77"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "jemh.111.12.3",
+   "family": "area_rect",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "area = 16 * 25"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 12 * 12"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total = 12 * 7",
+      "bed = 8 * 3",
+      "left = total - bed"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "width = 120 / 6"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "area = 16 * 11",
+      "cost = area * 25"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 14 * 12 / (2 * 2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "area = 16 * 25"
+   ]
+  }
+ ]
+}

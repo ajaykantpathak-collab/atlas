@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_engl_cbse_18_008",
+ "concepts": [
+  {
+   "id": "enh:c10_engl_cbse_18_008",
+   "title": "c10_engl_cbse_18_008",
+   "questions": [
+    {
+     "q": "What is the primary function of stage directions in a play script?",
+     "a": "Stage directions instruct actors and directors on physical actions, movements, facial expressions, tone of voice, lighting, sound, and setting details that are not spoken aloud. A wrong answer (e.g., \"Stage directions are the lines spoken by characters\") reveals the student confuses stage directions with dialogue, a fundamental category error that will lead to misidentifying evidence in board answers.",
+     "self_check": true
+    },
+    {
+     "q": "In *The Book That Saved the Earth*, the stage direction \"[Think‑Tank holds the book upside down, peers at it]\" appears. Explain in your own words what this direction achieves for the audience's understanding of Think‑Tank's character.",
+     "a": "The direction visually demonstrates Think‑Tank's ignorance and arrogance: he misinterprets a simple book because he cannot read it, yet he confidently examines it the wrong way. A wrong answer (e.g., \"It shows he is reading carefully\") misses the irony and shows the student cannot infer character traits from physical action — a key skill for \"analyse\" level questions.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following invented script snippet, identify the stage direction, the dialogue, and the character role implied for each speaker:\n> **[Noodle trembles, eyes downcast]**\n> **Noodle:** \"O Great Think‑Tank, might I suggest…?\"\n> **[Think‑Tank waves a tentacle dismissively]**\n> **Think‑Tank:** \"Silence! My intellect needs no assistance.\"",
+     "a": "Stage directions: \"[Noodle trembles, eyes downcast]\" and \"[Think‑Tank waves a tentacle dismissively]\". Dialogue: Noodle's polite suggestion and Think‑Tank's arrogant command. Character roles: Noodle = subordinate/foil (timid, respectful); Think‑Tank = authoritarian protagonist/antagonist (dismissive, self‑important). A wrong answer that swaps the roles or labels dialogue as stage direction shows inability to apply the definitions to a new text.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how stage directions and dialogue *together* establish the comic tone in the scene where the Martians mistake nursery rhymes for Earth's defence codes. Use one example of each from the play.",
+     "a": "Stage direction: \"[Omega and Iota turn pages with exaggerated care]\" shows mock seriousness. Dialogue: Think‑Tank's \"Aha! 'The cow jumped over the moon' — a clear reference to space travel!\" combines absurd literalism with pompous vocabulary. Together they create humour by contrasting high‑status language with ridiculous interpretation. A wrong answer that only quotes dialogue or only describes action fails to show the *interplay* the board expects in \"analyse\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: \"Stage directions are less important than dialogue because the audience only hears the dialogue.\" Defend or refute with reference to *The Book That Saved the Earth*.",
+     "a": "Refute. In the play, the visual gag of Think‑Tank wearing a giant magnifying glass (stage direction) before he speaks establishes his pseudo‑scientific pretension; without it, his first line loses its satirical edge. The audience *sees* the magnifying glass, so stage directions are equally vital. A wrong answer that agrees reveals a misconception that drama is purely auditory, ignoring the visual medium — a mistake that loses marks in questions about staging effects.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4‑line script snippet (with stage directions and dialogue) for a new scene where Noodle secretly corrects Think‑Tank's misreading of a rhyme, showing Noodle's hidden intelligence and Think‑Tank's obliviousness.",
+     "a": "Example:\n> **[Noodle quietly rotates the book right‑side up while Think‑Tank monologues]**\n> **Think‑Tank:** \"…and the dish ran away with the spoon — obviously a report on cutlery espionage!\"\n> **[Noodle suppresses a smile, taps the page]**\n> **Noodle:** \"My Lord, the dish *ran* — perhaps a metaphor for fast food delivery?\"\nA good answer includes clear stage directions in brackets, distinct dialogue voices, and character-consistent behaviour. A poor answer omits brackets, makes both characters sound alike, or misses the ironic contrast.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

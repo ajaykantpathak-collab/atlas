@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_bio_ch02_001",
+ "concepts": [
+  {
+   "id": "enh:c7_bio_ch02_001",
+   "title": "c7_bio_ch02_001",
+   "questions": [
+    {
+     "q": "What is the primary purpose of nutrition as a life process in animals?",
+     "a": "The correct answer is to provide energy, raw materials for growth, and substances needed for body repair. A wrong answer often reveals the misconception that animals eat merely to satisfy hunger or create waste, rather than understanding that food is the fundamental fuel for all cellular activities.",
+     "self_check": true
+    },
+    {
+     "q": "Why must respiration immediately follow or accompany the process of nutrition in an animal's body?",
+     "a": "Respiration is necessary because digested food nutrients trapped in cells cannot release their stored energy without oxygen to break them down. A wrong answer shows that the student thinks food directly turns into energy by itself without needing oxygen or cellular chemical reactions.",
+     "self_check": true
+    },
+    {
+     "q": "If a stray dog eats a contaminated piece of food containing harmful bacteria, which life process will immediately deal with the toxins and undigested waste?",
+     "a": "Steps: 1) Identify that the food enters the alimentary canal through nutrition. 2) Recognize that harmful or unabsorbed parts cannot be used by cells. 3) Determine that the large intestine and excretory pathways will expel these unwanted substances. 4) Conclude that excretion and egestion manage the removal of these waste materials. A wrong answer suggests the student confuses digestion with waste elimination or believes toxic substances remain inside cells forever.",
+     "self_check": true
+    },
+    {
+     "q": "How do nutrition and excretion function as opposing yet complementary processes in maintaining a healthy animal body?",
+     "a": "Nutrition brings useful molecules (proteins, carbohydrates, fats) into the body to build and power it, whereas excretion removes the unwanted and toxic byproducts generated after those molecules are used. A wrong answer indicates the student views the body as a static container rather than a dynamic system that constantly inputs resources and outputs waste.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that an animal that stops eating will immediately stop respiring because respiration does not matter if there is no food. Evaluate this statement biologically.",
+     "a": "The statement is false. While starvation eventually depletes nutrient reserves, the body initially draws on stored fat and glycogen to continue cellular respiration so vital organs keep functioning. A wrong answer shows a failure to understand that respiration uses stored body reserves when immediate food intake ceases.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple concept map or flow chart showing how a glass of milk consumed by a growing calf connects nutrition, respiration, and excretion.",
+     "a": "A successful answer will show milk entering through nutrition (digestion and absorption), nutrients and inhaled oxygen meeting in cells via respiration to release energy for growth, and metabolic wastes leaving the body through excretion. A poor answer simply lists random organs without showing how the three processes interact sequentially.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

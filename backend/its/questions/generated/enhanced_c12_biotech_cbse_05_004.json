@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_05_004",
+   "title": "c12_biotech_cbse_05_004",
+   "questions": [
+    {
+     "q": "Define synteny in the context of comparative genomics. How does it differ from simple sequence homology?",
+     "a": "Synteny refers to the conservation of gene order and orientation on chromosomes between two or more species, indicating descent from a common ancestral chromosomal segment. Sequence homology only requires similarity at the nucleotide or amino acid level (e.g., two genes share 80% identity) but they could be located on different chromosomes or in different genomic contexts. A WRONG answer would equate synteny with homology alone — this reveals the student confuses gene-level similarity with chromosome-level conservation, a critical distinction for inferring large-scale evolutionary events like inversions or translocations.",
+     "self_check": true
+    },
+    {
+     "q": "Two plant species diverged 50 million years ago. Species A has a gene cluster for flavonoid biosynthesis arranged as Gene1-Gene2-Gene3 on chromosome 5. In Species B, the same three genes are found but in order Gene3-Gene1-Gene2 on chromosome 12. Explain what evolutionary events likely occurred and how you would confirm this using comparative genomics tools.",
+     "a": "The gene order rearrangement (Gene1-Gene2-Gene3 → Gene3-Gene1-Gene2) plus chromosomal translocation (chr5 → chr12) suggests at least two events: an inversion or transposition within the cluster, followed by a translocation to a different chromosome. To confirm: (1) Run whole-genome alignment (e.g., MUMmer) to visualise synteny blocks; (2) Check flanking genes — if genes upstream/downstream of the cluster are also translocated, it's a large segmental translocation; if only the cluster moved, it's a transposition. A WRONG answer would say \"genes are homologous so synteny is conserved\" — this reveals the student misses that synteny requires conserved ORDER and chromosomal context, not just gene presence.",
+     "self_check": true
+    },
+    {
+     "q": "You are annotating a newly sequenced bacterial genome. You find a gene with 85% amino acid identity to a known antibiotic resistance gene in a distantly related species, but the genomic neighbourhood (flanking genes) is completely different. The gene is also flanked by insertion sequences. What does comparative genomics suggest about the origin of this gene, and what analysis would you perform to test your hypothesis?",
+     "a": "Comparative genomics suggests horizontal gene transfer (HGT) rather than vertical inheritance: high sequence similarity but disrupted synteny (different flanking genes) and presence of mobile elements (insertion sequences) are hallmarks of HGT. To test: (1) Construct a phylogenetic tree of the gene homologs across many species — if the gene tree conflicts with the species tree (e.g., the gene clusters with distant taxa), HGT is supported; (2) Check GC content and codon usage of the gene vs. the host genome — significant deviation supports recent acquisition. A WRONG answer would assume vertical inheritance because of high sequence identity — this reveals the student overlooks that synteny context and mobile elements are stronger evidence for HGT than sequence similarity alone.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the concepts of \"core genome\" and \"accessory genome\" in comparative genomics. Give one example of each from a bacterial species complex (e.g., E. coli or Streptococcus) and explain how pan-genome analysis uses these concepts.",
+     "a": "Core genome = genes present in ALL strains of a species (essential, conserved functions like replication, transcription, central metabolism). Accessory genome = genes present in ONLY SOME strains (often niche-adaptive: virulence factors, antibiotic resistance, metabolic pathways for specific substrates). Example: In E. coli, core genes include rpoB (RNA polymerase) and gyrA (DNA gyrase); accessory genes include the LEE pathogenicity island (enteropathogenic strains) or blaCTX-M (extended-spectrum beta-lactamase). Pan-genome analysis plots the number of new genes discovered as more genomes are sequenced: core genome size plateaus, accessory genome keeps growing (open pan-genome) or plateaus (closed pan-genome). A WRONG answer would define core genome as \"most common genes\" — this reveals the student confuses frequency with universality; core means 100% presence, not just high frequency.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher claims: \"Since humans and mice share ~85% protein-coding sequence identity and extensive synteny, we can directly transfer all functional annotations from mouse to human without experimental validation.\" Evaluate this claim using principles of comparative genomics. Identify at least three specific reasons why this is incorrect.",
+     "a": "The claim is incorrect for three reasons: (1) **Regulatory divergence**: Even with conserved coding sequences, enhancers/promoters can diverge, altering expression patterns (e.g., Hox gene regulation differs significantly); (2) **Lineage-specific gene loss/duplication**: Humans have lost some mouse genes (e.g., olfactory receptor pseudogenes) and gained others (e.g., SRGAP2 duplications in brain development); (3) **Subfunctionalization/neofunctionalization**: After whole-genome duplication or tandem duplication, paralogs may partition ancestral functions or evolve new ones — ortholog assignment alone doesn't guarantee identical function. A WRONG answer would accept the claim because \"high sequence similarity = same function\" — this reveals the student ignores regulatory evolution, gene birth/death, and paralog divergence, which are central to comparative genomics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a comparative genomics study to identify the genetic basis of drought tolerance in a wild rice relative (Oryza rufipogon) compared to cultivated rice (Oryza sativa). Specify: (a) the genomic datasets needed, (b) the analytical pipeline (tools and steps), (c) how you would distinguish causal variants from neutral divergence, and (d) one experimental validation strategy.",
+     "a": "(a) Datasets: High-quality genome assemblies + annotations for both species; RNA-seq from root/leaf tissues under drought vs. control for both; resequencing data from multiple accessions of each species. (b) Pipeline: 1) Whole-genome alignment (MUMmer/Minimap2) to identify syntenic blocks and structural variants; 2) Ortholog identification (OrthoFinder/InParanoid) + Ka/Ks calculation (PAML) to detect positive selection; 3) Differential expression analysis (DESeq2) of RNA-seq to find drought-responsive genes; 4) Overlap selection: genes with both signatures (positive selection + drought-induced expression) in syntenic regions; 5) GWAS/selection sweep analysis (XP-CLR) on resequencing data to pinpoint causal SNPs. (c) Causal vs. neutral: Prioritize non-synonymous SNPs in conserved domains, regulatory variants in promoters/enhancers (ATAC-seq if available), and structural variants affecting gene dosage; filter out variants with high frequency in both tolerant/sensitive accessions. (d) Validation: CRISPR-Cas9 knockout/allele swap in rice followed by drought phenotyping in controlled conditions. A poor answer would only list tools without logical flow or validation — this reveals the student treats comparative genomics as a tool catalogue rather than a hypothesis-driven framework.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

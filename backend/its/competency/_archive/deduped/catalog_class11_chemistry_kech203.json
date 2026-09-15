@@ -1,0 +1,163 @@
+{
+ "class": 11,
+ "subject": "chemistry",
+ "chapter": 203,
+ "chapter_title": "Hydrocarbons",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kech203.txt",
+ "concepts": [
+  {
+   "id": "kech.203.1.1",
+   "title": "Classification and Nomenclature of Hydrocarbons",
+   "section": "Hydrocarbons",
+   "definition": "Hydrocarbons contain only carbon and hydrogen and are classified into saturated alkanes with sigma bonds only, unsaturated alkenes and alkynes with pi bonds, and aromatic hydrocarbons with benzene ring systems, each named by IUPAC rules with locants for multiple bonds and substituents.",
+   "formula": "",
+   "key_idea": "Alkanes follow the general formula CnH2n+2, alkenes CnH2n and alkynes CnH2n-2, showing the decreasing hydrogen content with unsaturation.",
+   "textbook_ref": "kech203.txt classification and nomenclature sections",
+   "question_patterns": [
+    "classify hydrocarbons into alkanes alkenes alkynes and aromatics",
+    "write the general formulas of alkanes alkenes and alkynes",
+    "name substituted alkanes and alkenes by iupac rules",
+    "define aromaticity of benzene ring compounds",
+    "how are branched hydrocarbons named",
+    "distinguish saturated and unsaturated hydrocarbons"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count bonds between carbons",
+     "explain": "Note single, double or triple bonds to pick the series."
+    },
+    {
+     "step": 2,
+     "action": "check for rings",
+     "explain": "Separate open chain from aromatic ring systems."
+    },
+    {
+     "step": 3,
+     "action": "apply the name rules",
+     "explain": "Use locants and longest chain for the IUPAC name."
+    }
+   ]
+  },
+  {
+   "id": "kech.203.2.1",
+   "title": "Preparation and Properties of Alkanes, Alkenes and Alkynes",
+   "section": "Preparation and properties",
+   "definition": "Alkanes come from hydrogenation of alkenes, Wurtz reaction and decarboxylation; alkenes form by beta elimination of alkyl halides and dehydration of alcohols following Saytzeff rule; alkynes arise by dehydrohalogenation of vicinal dihalides, and all show combustion, addition and substitution reactions.",
+   "formula": "",
+   "key_idea": "Markovnikov's rule predicts the addition of unsymmetrical reagents to alkenes, while peroxide effect reverses the orientation for hydrogen bromide addition.",
+   "textbook_ref": "kech203.txt preparation and properties sections",
+   "question_patterns": [
+    "describe the preparation of alkanes by wurtz reaction",
+    "state markovnikov's rule for addition to alkenes",
+    "how are alkynes prepared from vicinal dihalides",
+    "explain beta elimination and saytzeff rule in alkene formation",
+    "give the reactions of combustion of hydrocarbons",
+    "what is peroxide effect or anti markovnikov addition"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "note the starting material",
+     "explain": "Identify the precursor and reagent for the preparation."
+    },
+    {
+     "step": 2,
+     "action": "follow the reaction rule",
+     "explain": "Apply Markovnikov, Saytzeff or elimination logic to the product."
+    },
+    {
+     "step": 3,
+     "action": "verify the product class",
+     "explain": "Confirm the product belongs to the right hydrocarbon series."
+    }
+   ]
+  },
+  {
+   "id": "kech.203.3.1",
+   "title": "Aromatic Hydrocarbons: Benzene Structure, Aromaticity and Electrophilic Substitution",
+   "section": "Aromatic hydrocarbons",
+   "definition": "Benzene, with a planar ring of six sp2 carbons and six delocalised pi electrons obeying Huckel's 4n plus 2 rule, shows aromaticity, resists addition and undergoes electrophilic substitution reactions of nitration, halogenation, sulphonation, Friedel-Crafts alkylation and acylation, with substituent directing effects deciding the orientation of the entering group.",
+   "formula": "",
+   "key_idea": "Ortho and para directors like the hydroxyl group activate the ring, while meta directors like the nitro group deactivate it, governing electrophilic substitution orientation.",
+   "textbook_ref": "kech203.txt aromatic hydrocarbons sections",
+   "question_patterns": [
+    "explain the structure and aromaticity of benzene by huckel rule",
+    "describe the electrophilic substitution reactions of benzene",
+    "state the mechanism of nitration of benzene",
+    "what are ortho para and meta directing groups",
+    "explain friedel crafts alkylation and acylation",
+    "compare addition and substitution behaviour of benzene"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "confirm the aromatic ring",
+     "explain": "Check planarity, conjugation and the Huckel electron count."
+    },
+    {
+     "step": 2,
+     "action": "identify the attacking electrophile",
+     "explain": "Name the electrophile generated for the substitution."
+    },
+    {
+     "step": 3,
+     "action": "predict the orientation",
+     "explain": "Apply the directing effect of the existing substituent."
+    }
+   ]
+  },
+  {
+   "id": "kech.203.4.1",
+   "title": "Carcinogenicity and Uses of Hydrocarbons",
+   "section": "Carcinogenicity",
+   "definition": "Polynuclear aromatic hydrocarbons formed by incomplete combustion of fuels and tobacco are carcinogenic, entering the body and damaging DNA to cause cancer, while benzene and other hydrocarbons serve as fuels, solvents and starting materials for dyes, drugs and polymers.",
+   "formula": "",
+   "key_idea": "Health hazards of aromatic hydrocarbons link combustion chemistry to environmental and occupational safety.",
+   "textbook_ref": "kech203.txt carcinogenicity section",
+   "question_patterns": [
+    "which hydrocarbons are carcinogenic and how do they act",
+    "how are polynuclear aromatic hydrocarbons formed",
+    "state the uses of benzene and its derivatives",
+    "why is incomplete combustion of tobacco harmful",
+    "name the hydrocarbons used as fuels and solvents",
+    "how do aromatic hydrocarbons damage dna"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the hydrocarbon",
+     "explain": "Note the polynuclear aromatic compound involved."
+    },
+    {
+     "step": 2,
+     "action": "trace the exposure route",
+     "explain": "Recall combustion products of fuels and tobacco smoke."
+    },
+    {
+     "step": 3,
+     "action": "state the hazard",
+     "explain": "Explain DNA damage and carcinogenic risk."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kech203.txt exercises",
+   "questions": [
+    "How do you account for the formation of ethane during chlorination of methane?",
+    "Write IUPAC names of the given hydrocarbons.",
+    "Explain Markovnikov's rule with an example.",
+    "What effect does branching have on the boiling point of alkanes?",
+    "Why is benzene extraordinarily stable though it contains three double bonds?"
+   ]
+  }
+ ]
+}

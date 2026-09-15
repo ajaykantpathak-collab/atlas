@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_04_003",
+   "title": "c10_civ_cbse_04_003",
+   "questions": [
+    {
+     "q": "Name the three types of party systems classified by the number of effective political parties competing for power, and give one country example for each.",
+     "a": "The three types are: (1) One-party system — e.g., China (Communist Party); (2) Two-party system — e.g., USA (Democrats and Republicans) or UK (Conservatives and Labour); (3) Multi-party system — e.g., India (BJP, Congress, AAP, DMK, TMC, etc.). A wrong answer reveals the student confuses \"registered parties\" with \"effective parties\" — e.g., listing India as two-party because BJP and Congress are largest, ignoring that regional parties regularly win seats and form governments.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a multi-party system often leads to coalition governments, and why this is considered both a strength and a weakness for democracy.",
+     "a": "In a multi-party system, no single party usually wins a majority of seats (e.g., India 1989-2014), forcing parties to form pre-poll or post-poll alliances to reach the majority mark. Strength: accommodates diverse social groups and regional aspirations (e.g., DMK for Tamil Nadu, Akali Dal for Punjab). Weakness: coalitions can be unstable, lead to policy paralysis, or force compromises that dilute manifesto promises. A wrong answer shows the student thinks coalitions are \"undemocratic\" or \"always unstable\" — missing that they reflect voter fragmentation and can enhance representation.",
+     "self_check": true
+    },
+    {
+     "q": "India uses the First-Past-The-Post (FPTP) electoral system, which typically produces two-party systems (Duverger's Law). Yet India has a multi-party system. Analyze why FPTP in India did not produce a two-party system.",
+     "a": "FPTP favors two parties when social cleavages are national (class, ideology). In India, social cleavages are territorial/regional (language, religion, caste, ethnicity) — voters in Tamil Nadu prioritize Dravidian parties, in Punjab prioritize Akali Dal, in West Bengal prioritize TMC. Regional parties win concentrated votes in specific states, translating FPTP seats efficiently. A wrong answer reveals the student doesn't understand the interaction between electoral system and social structure — they may blame \"too many parties\" or \"weak national parties\" without analyzing vote concentration geography.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of Opposition in a two-party system (UK) versus a multi-party system (India). How does the number of parties affect the Opposition's ability to hold government accountable?",
+     "a": "In UK's two-party system, the Opposition is a single party (Shadow Cabinet) that consistently challenges government, offering an alternative government-in-waiting — clear accountability. In India's multi-party system, Opposition is fragmented across many parties (Congress, Left, regional parties) with different ideologies; they rarely unite except on specific issues, weakening sustained parliamentary scrutiny. However, multi-party Opposition can represent more diverse dissent. A wrong answer shows the student thinks \"more parties = stronger Opposition\" — missing that fragmentation dilutes collective accountability.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"India should adopt a two-party system to ensure stable governments and faster decision-making.\" Use evidence from Indian political history (1989-2014 vs 2014-2024) to support your judgment.",
+     "a": "The argument oversimplifies. 1989-2014 (coalition era) saw frequent government changes but also landmark reforms (liberalization 1991, RTI 2005, MGNREGA 2005) — stability ≠ effectiveness. 2014-2024 (BJP majority) brought stability but also concerns about centralized decision-making, weakened federal consultation, and majoritarianism. A two-party system in India's diverse context would marginalize regional/linguistic/minority voices, risking alienation (e.g., Punjab, Kashmir, Northeast). Better reform: strengthen intra-party democracy and anti-defection law, not reduce party plurality. A wrong answer reveals the student equates \"stability\" with \"majority government\" and ignores representation-federalism trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical country \"Democrania\" with 5 major social groups (linguistic, religious, regional, class, tribal) and an FPTP electoral system. Predict its party system type and explain how you would structure party competition to ensure both representation and governability.",
+     "a": "Democrania would likely evolve a multi-party system with 4-6 effective parties: each social group forms/backs a party (e.g., Linguistic Party, Tribal Front). To ensure governability: (a) encourage pre-poll alliances along ideological lines (e.g., progressive alliance vs conservative alliance), (b) set a reasonable electoral threshold (e.g., 4%) to prevent excessive fragmentation, (c) adopt constructive vote of no-confidence (like Germany) to stabilize coalitions. A poor answer creates a two-party system ignoring social diversity, or a fragmented 20-party system with no coalition mechanism — showing inability to balance representation and stability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_08_001",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_08_001",
+   "title": "c11_bs_cbse_08_001",
+   "questions": [
+    {
+     "q": "State the meaning of business finance as per NCERT and explain why it is referred to as the \"lifeblood of business\" in exactly two sentences.",
+     "a": "Business finance is the requirement of funds by a business to carry out its various activities including purchasing fixed assets and meeting day-to-day expenses. It is called the lifeblood because no business can function or survive without adequate funds, just as a living organism cannot survive without blood circulation.  \nA wrong answer that only defines finance as \"money\" or \"capital\" reveals the student misses the *functional* aspect—finance is about *requirement for activities*, not just possession of cash. Omitting the \"lifeblood\" justification shows inability to connect the definition to operational necessity.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Fixed capital and long-term sources are the same thing because both are for more than 5 years.\" Explain why this statement is incorrect using the distinction between *need* (capital requirement) and *source* (financing instrument).",
+     "a": "Fixed capital is a *need*—the funds required to buy long-term assets like plant and machinery—whereas long-term sources are *instruments* (shares, debentures, long-term loans) used to meet that need. A business can use short-term sources (like a bank overdraft) to temporarily finance fixed capital, though it is risky; conversely, long-term sources can finance working capital. The student's error is conflating the *purpose* of funds with the *duration* of the source.  \nA wrong answer that agrees with the student reveals confusion between the classification of *requirements* (fixed vs working capital) and classification of *sources by period* (long/medium/short term)—two separate analytical frameworks in the chapter.",
+     "self_check": true
+    },
+    {
+     "q": "\"GreenFields Pvt Ltd\" needs ₹50 lakh to purchase a delivery van (fixed asset) and ₹20 lakh for three months' fuel, driver salaries, and maintenance (working capital). The owner has ₹10 lakh personal savings and can get a 3-year bank loan at 10% p.a. or a 1-year trade credit from the fuel supplier. Classify each *need* and each *potential source* under all three classification bases (period, ownership, generation).",
+     "a": "**Needs:**  \n- Delivery van (₹50L): Fixed capital requirement → Long-term need (>5 years asset life)  \n- Fuel/salaries (₹20L): Working capital requirement → Short-term need (<1 year cycle)  \n\n**Sources:**  \n- Personal savings (₹10L): Long-term period (no repayment), Owner's funds, Internal source  \n- 3-year bank loan: Medium-term period (1-5 years), Borrowed funds, External source  \n- Trade credit (fuel supplier): Short-term period (<1 year), Borrowed funds, External source  \n\nA wrong answer that classifies the bank loan as \"long-term\" shows misunderstanding of the 5-year threshold for long-term. Classifying trade credit as \"internal\" reveals confusion between *source of generation* (internal = generated within business) and *nature of obligation* (trade credit arises from external supplier).",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"Owner's funds\" and \"Borrowed funds\" on the following dimensions: (a) Claim on assets during liquidation, (b) Cost to the business, (c) Control implications, (d) Risk to the business. Present as a 4-row table.",
+     "a": "| Dimension | Owner's Funds (Equity/Retained Earnings) | Borrowed Funds (Loans/Debentures/Public Deposits) |\n|-----------|------------------------------------------|---------------------------------------------------|\n| (a) Claim on liquidation | Residual claim—paid last after all creditors | Prior claim—paid before owners; secured creditors first |\n| (b) Cost to business | No fixed cost; dividend discretionary; not tax-deductible | Fixed interest obligation; tax-deductible (reduces effective cost) |\n| (c) Control implications | Equity shares carry voting rights—dilutes control | No voting rights—control retained; but restrictive covenants may apply |\n| (d) Risk to business | Low financial risk—no compulsory repayment | High financial risk—interest payable even in losses; repayment schedule binding |\n\nA wrong answer that says \"owner's funds have no cost\" ignores opportunity cost and flotation costs. Saying \"borrowed funds always dilute control\" confuses debt covenants with voting rights. The key is recognising the *trade-off*: owner's funds reduce bankruptcy risk but dilute control; borrowed funds preserve control but increase financial leverage risk.",
+     "self_check": true
+    },
+    {
+     "q": "\"Retained earnings is a cost-free source of finance because the company pays no interest or dividend on it.\" Evaluate this statement. Is it true, false, or partially true? Justify with reference to explicit cost, implicit cost, and opportunity cost.",
+     "a": "The statement is **false**. While retained earnings have *no explicit cost* (no interest, no mandatory dividend, no flotation cost), they carry a significant *implicit opportunity cost*—the return shareholders could have earned if the same amount was distributed and invested elsewhere at comparable risk. Ignoring this leads to sub-optimal investment decisions (accepting projects with returns below the cost of equity). Additionally, excessive retention may dissatisfy shareholders, depressing the share price—a hidden cost.  \nA wrong answer calling it \"true\" reveals the common misconception that \"no cash outflow = no cost.\" A \"partially true\" without explaining opportunity cost shows incomplete understanding of the economic concept of cost in finance.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario (Indian context, ₹ amounts) where a manufacturing startup must choose between three sources: (i) equity shares, (ii) 5-year bank loan, (iii) trade credit. Specify the *purpose* (fixed/working capital), *amount*, and *one key factor* from the chapter (cost, risk, control, flexibility, tax benefit) that would make each source the *best* choice for that specific purpose. Explain your reasoning in 4-5 sentences.",
+     "a": "**Scenario:** \"Aarambh Electronics\" (Pune) needs ₹2 crore for plant & machinery (fixed capital) and ₹50 lakh for raw material inventory (working capital).  \n- **Equity shares (₹2 cr for machinery):** Best when *risk profile* is paramount—startup has uncertain earnings; equity imposes no fixed burden, no repayment schedule, and absorbs losses.  \n- **5-year bank loan (₹50 lakh for inventory):** Best when *tax benefit* and *flexibility* matter—interest is tax-deductible, loan can be repaid early if inventory turns faster, and inventory can be hypothecated as security.  \n- **Trade credit (₹20 lakh of the ₹50 lakh inventory):** Best for *ease and flexibility*—no formal documentation, no asset charge, aligns with operating cycle (pay after selling finished goods).  \nA poor answer assigns equity to working capital or trade credit to fixed assets, showing inability to match *source characteristics* to *purpose and risk profile*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

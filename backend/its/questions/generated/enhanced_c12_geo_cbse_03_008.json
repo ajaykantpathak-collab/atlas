@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_03_008",
+   "title": "c12_geo_cbse_03_008",
+   "questions": [
+    {
+     "q": "What was India's HDI value and global rank in the 2025 Human Development Report (reflecting 2023 data), and how did the value change from 2022?",
+     "a": "India's HDI value was 0.685 in 2023 (rank 130 out of 193), up from 0.676 in 2022. A wrong answer (e.g., quoting 0.645 or rank 132) reveals the student is using outdated report data (pre-2022) or confusing HDI with the Human Poverty Index. It also shows they haven't tracked the post-pandemic recovery trend highlighted in recent reports.",
+     "self_check": true
+    },
+    {
+     "q": "Kerala consistently ranks highest among Indian states in HDI despite having a lower per capita income than Gujarat or Maharashtra. Explain this paradox using the three HDI dimensions.",
+     "a": "Kerala's high HDI is driven by exceptionally high life expectancy (~75 years) and near-universal literacy (~96%), which outweigh its moderate income index. Gujarat/Maharashtra have higher income indices but lag in health (lower life expectancy) and education (lower mean years of schooling, especially for women). A wrong answer attributing Kerala's lead solely to \"better governance\" or \"matriliny\" without quantifying the component indices shows the student cannot decompose HDI into its drivers — a critical skill for board case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following 2021 state-level data, calculate the approximate HDI for State X and State Y using the geometric mean method (assume equal weights). State X: Life Expectancy 70, Mean Years Schooling 8.5, Expected Years Schooling 12, GNI per capita (PPP $) 6,000. State Y: Life Expectancy 65, Mean Years Schooling 5.5, Expected Years Schooling 10, GNI per capita (PPP $) 8,000. Use the standard goalposts: Life Expectancy (20, 85), Education (0, 15 for both), Income (100, 75,000). Which state has higher HDI and why?",
+     "a": "Step 1: Compute dimension indices. Health Index = (LE-20)/(85-20). Education Index = geometric mean of (MYS/15) and (EYS/15). Income Index = (ln(GNI)-ln(100))/(ln(75000)-ln(100)).\nState X: Health = (70-20)/65 = 0.769. MYS index = 8.5/15 = 0.567; EYS index = 12/15 = 0.8; Education = sqrt(0.567*0.8) = 0.673. Income = (ln6000 - ln100)/(ln75000 - ln100) = (8.699-4.605)/(11.225-4.605) = 4.094/6.62 = 0.618. HDI = (0.769*0.673*0.618)^(1/3) = 0.683.\nState Y: Health = (65-20)/65 = 0.692. MYS index = 5.5/15 = 0.367; EYS index = 10/15 = 0.667; Education = sqrt(0.367*0.667) = 0.494. Income = (ln8000 - 4.605)/6.62 = (8.987-4.605)/6.62 = 0.662. HDI = (0.692*0.494*0.662)^(1/3) = 0.606.\nState X has higher HDI despite lower income because its education and health indices are substantially higher. A wrong answer (e.g., State Y higher because of income) shows the student treats HDI as income-dominated and doesn't apply the geometric mean which penalizes imbalance.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the spatial pattern of state-level HDI in India: why do the southern states (Kerala, Tamil Nadu, Karnataka) and some northern states (Himachal Pradesh, Punjab) cluster at the top, while the Empowered Action Group (EAG) states (Bihar, UP, MP, Rajasthan, Odisha) cluster at the bottom? Integrate historical, geographical, and policy factors.",
+     "a": "Southern states benefited from early missionary/state investment in education and health (pre-independence), matrilineal/matrilocal norms improving female agency, and effective land reforms reducing agrarian inequality. Himachal Pradesh leveraged high central per-capita transfers, low population density, and strong community participation in schooling. EAG states share a colonial legacy of extractive land tenure (zamindari), high fertility, persistent caste/gender discrimination limiting female education, and weak public health infrastructure. A wrong answer listing only \"poverty\" or \"illiteracy\" as causes fails to distinguish between proximate symptoms and deep structural drivers — a distinction board examiners expect in 5-mark \"analyze\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"India's rise in HDI rank from 133 (2022) to 130 (2023) proves that national programmes like Ayushman Bharat and Samagra Shiksha are effectively reducing inter-state disparities.\" Support your judgment with evidence.",
+     "a": "The claim is partially valid but overstated. The national HDI rise reflects recovery from COVID-19 mortality (life expectancy rebounded) and income growth, not necessarily disparity reduction. NFHS-5 (2019-21) shows stunting declined nationally but inter-state gaps persist (Bihar 42.9% vs Kerala 23.4%). Ayushman Bharat improved hospitalization access but out-of-pocket expenditure remains high in low-HDI states. Samagra Shiksha boosted enrolment but learning outcomes (ASER) show widening gaps. A strong evaluation acknowledges the national average improvement while flagging that the *coefficient of variation* across states has not significantly narrowed — the \"average\" masks persistent inequality. A wrong answer that simply agrees/disagrees without dissecting average vs distribution misses the core HDI limitation discussed in the textbook.",
+     "self_check": true
+    },
+    {
+     "q": "Design a targeted intervention plan to raise the HDI of a hypothetical low-performing state (State Z: HDI 0.55, high infant mortality, female literacy 52%, per capita income $3,200 PPP) by 0.05 points in 5 years. Specify which HDI component you would prioritize, the specific schemes to converge, and the monitoring indicators.",
+     "a": "Prioritize health (infant mortality) and female education — they have multiplicative effects on all three dimensions. Converge: (1) NHM + ICDS for home-based newborn care and nutrition (target: IMR <30), (2) Samagra Shiksha + Beti Bachao Beti Padhao for residential girls' schools and conditional cash transfers for secondary completion (target: female literacy >70%), (3) MGNREGS + PM-KISAN for income support to women-headed households. Monitor quarterly: IMR, neonatal mortality rate, female secondary GER, women's workforce participation. A poor answer proposes generic \"build more hospitals/schools\" without targeting the *binding constraint* (female agency) or using convergence — showing inability to translate HDI components into operational geography.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

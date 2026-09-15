@@ -1,0 +1,498 @@
+{
+ "catalog": "catalog_class11_maths_ch107.json",
+ "concepts": [
+  {
+   "id": "kemh107.7.2.1",
+   "family": "counting_sets",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 9 * 7"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pairs = 2 * 8"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "subsets = 2 ** 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rels = 2 ** (5 * 5)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "ways = 5 * 4 * 3 * 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "ways = 720 / (24 * 2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total = 9 * 7"
+   ]
+  },
+  {
+   "id": "kemh107.7.2.2",
+   "family": "counting_sets",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 5 * 4"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pairs = 3 * 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "subsets = 2 ** 3"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rels = 2 ** (4 * 4)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "ways = 7 * 6"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "ways = 720 / (24 * 2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total = 5 * 4"
+   ]
+  },
+  {
+   "id": "kemh107.7.2.3",
+   "family": "counting_sets",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 9 * 6"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pairs = 6 * 8"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "subsets = 2 ** 6"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rels = 2 ** (4 * 4)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "ways = 3"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "ways = 24 / (2 * 2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total = 9 * 6"
+   ]
+  },
+  {
+   "id": "kemh107.7.2.4",
+   "family": "counting_sets",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 5 * 9"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pairs = 9 * 7"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "subsets = 2 ** 9"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rels = 2 ** (5 * 5)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "ways = 8 * 7"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "ways = 24 / (2 * 2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total = 5 * 9"
+   ]
+  },
+  {
+   "id": "kemh107.7.2.5",
+   "family": "exp_laws",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "val = 4 ** (3 + 2)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "val = 7 ** (3 - 2)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "val = 4 ** (2 * 3)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "val = (4 * 2) ** 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "val = 6 ** 0"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "val = 1 / 5 ** 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "val = 4 ** (3 + 2)"
+   ]
+  },
+  {
+   "id": "kemh107.7.2.6",
+   "family": "counting_sets",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 9 * 6"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pairs = 2 * 5"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "subsets = 2 ** 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rels = 2 ** (6 * 6)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "ways = 6 * 5 * 4"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "ways = 720 / (24 * 2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total = 9 * 6"
+   ]
+  },
+  {
+   "id": "kemh107.7.2.7",
+   "family": "hcf_lcm",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "hcf = 6 * 1"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "lcm = 30 * 36 / 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hcf = 30 * 36 / 180"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "piece = 30 * 36 / 180"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "next_min = 30 * 36 / 6"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "count = 100 // 18"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "hcf = 6 * 1"
+   ]
+  },
+  {
+   "id": "kemh107.7.2.8",
+   "family": "counting_sets",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 7 * 7"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pairs = 2 * 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "subsets = 2 ** 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rels = 2 ** (4 * 4)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "ways = 5 * 4"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "ways = 24 / (2 * 2)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "kemh107.7.2.9",
+   "family": "counting_sets",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 9 * 5"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pairs = 4 * 7"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "subsets = 2 ** 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rels = 2 ** (3 * 3)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "ways = 3 * 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "ways = 720 / (24 * 2)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "kemh107.7.2.10",
+   "family": "counting_sets",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 3 * 8"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pairs = 7 * 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "subsets = 2 ** 7"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rels = 2 ** (6 * 6)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "ways = 5"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "ways = 120 / (6 * 2)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "kemh107.7.2.11",
+   "family": "num_play",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "big = 9 * 1000 + 8 * 100 + 6 * 10 + 2",
+      "small = 2 * 1000 + 6 * 100 + 8 * 10 + 9",
+      "diff = big - small"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "groups = 8298 // 1000"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "dsum = 8 + 2 + 9 + 8"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rem = (8 + 2 + 9 + 8) % 9"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "diff = abs(62 - 26)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "diff = 9 * abs(6 - 2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "big = 9 * 1000 + 8 * 100 + 6 * 10 + 2",
+    "small = 2 * 1000 + 6 * 100 + 8 * 10 + 9",
+    "diff = big - small"
+   ]
+  }
+ ]
+}

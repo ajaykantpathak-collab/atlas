@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_06_003",
+   "title": "c11_soc_cbse_06_003",
+   "questions": [
+    {
+     "q": "Define 'life chances' as used in sociology, and give two examples beyond wealth and income.",
+     "a": "Life chances are all material advantages improving quality of life, including health access, job security, recreation, nutrition, and education quality. A wrong answer listing only \"money\" or \"wealth\" reveals the student conflates life chances with purely economic capital, missing the multidimensional nature (health, security, leisure) emphasized in NCERT.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Social status is just about how much money you have — rich people automatically get respect.\" Explain why this is sociologically incorrect using the textbook distinction.",
+     "a": "Status is prestige/high standing in others' eyes, which can derive from lineage, occupation, education, or caste, not solely wealth. A wealthy criminal may have low status; a poor priest may have high status. A wrong answer equating status with income reveals confusion between economic capital (life chances) and symbolic capital (status) — a classic Class 11 error.",
+     "self_check": true
+    },
+    {
+     "q": "In a village, the Sarpanch belongs to a dominant caste. Villagers seek his help for ration cards, police complaints, and school admissions. Identify which form of advantage he wields and explain how it differs from the other two.",
+     "a": "Political influence — the ability to dominate decision-making and benefit from decisions. It differs from life chances (material quality-of-life goods) and status (prestige). A wrong answer calling it \"status\" misses that the Sarpanch's power comes from formal authority/decision-control, not merely respect. A wrong answer calling it \"life chances\" confuses resource-control with personal material consumption.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how the three forms of advantage operate for: (a) a third-generation industrialist family in Gujarat, (b) a first-generation IAS officer from a Dalit background in UP. Which form is most fragile for each and why?",
+     "a": "Industrialist: strong life chances (wealth, health), high status (business prestige), high political influence (lobbying, party funding) — status most fragile if business fails. IAS officer: strong political influence (bureaucratic power), moderate life chances (salary, perks), contested status (caste prejudice may deny prestige) — status most fragile due to caste stigma. A wrong answer claiming both have equal status reveals ignorance of caste-based status denial despite formal position.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Reservation policies in India address life chances but ignore status and political influence.\" Use sociological reasoning.",
+     "a": "Partially valid: reservations primarily target life chances (education, jobs, income). However, they indirectly affect status (presence in elite institutions confers prestige) and political influence (reserved constituencies, bureaucratic representation). A wrong answer agreeing fully misses the spillover effects; a wrong answer disagreeing fully misses the primary design focus. Nuanced evaluation required.",
+     "self_check": true
+    },
+    {
+     "q": "Create a fictional 3-generation family narrative showing how an initial advantage in ONE form (life chances OR status OR political influence) gets converted into the other two forms over time. Specify the conversion mechanisms at each generation.",
+     "a": "Example: Gen 1 — political influence (village headman uses authority to secure irrigation contract). Conversion: contract profits → life chances (land purchase, English-medium school for children). Gen 2 — life chances (education) → status (engineer, respected profession). Gen 3 — status (professional networks) → political influence (son elected MLA). A poor answer lists advantages without showing conversion mechanisms (e.g., \"they got rich and powerful\") revealing lack of understanding of intergenerational transmission dynamics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

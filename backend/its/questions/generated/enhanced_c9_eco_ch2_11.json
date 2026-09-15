@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_eco_ch2_11",
+ "concepts": [
+  {
+   "id": "enh:c9_eco_ch2_11",
+   "title": "c9_eco_ch2_11",
+   "questions": [
+    {
+     "q": "Define a binding price ceiling and state the condition required for it to be effective in the market.",
+     "a": "A binding price ceiling is a legally mandated maximum price set **below** the market equilibrium price. It is effective only when the ceiling price is lower than the equilibrium price; if set above equilibrium, it is non-binding and has no effect. A wrong answer (e.g., \"price ceiling is always above equilibrium\" or \"it creates surplus\") reveals confusion between ceiling and floor, or misunderstanding that the control must be below equilibrium to bind.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a binding price ceiling, intended to help consumers, often leads to a black market where the same good sells at a price higher than the original equilibrium price.",
+     "a": "At the ceiling price, quantity demanded exceeds quantity supplied, creating a shortage. Desperate buyers compete for limited goods, offering higher unofficial payments (bribes, under-the-counter payments) to sellers, effectively bidding the price up above the original equilibrium. The black market price reflects the true scarcity value. A wrong answer (e.g., \"black market price is lower than ceiling\" or \"shortage disappears\") shows failure to grasp that price controls do not eliminate scarcity; they only change the allocation mechanism from price to non-price competition.",
+     "self_check": true
+    },
+    {
+     "q": "In a local vegetable market, the equilibrium price of onions is ₹40/kg with equilibrium quantity 500 kg/day. The government imposes a price ceiling of ₹30/kg. At ₹30/kg, quantity demanded is 700 kg/day and quantity supplied is 300 kg/day. Calculate the shortage and describe two non-price rationing methods that will likely emerge.",
+     "a": "Shortage = Quantity Demanded - Quantity Supplied = 700 - 300 = **400 kg/day**. Non-price rationing methods: (1) Queuing/first-come-first-served, where buyers wait in long lines; (2) Ration cards/coupons limiting purchase per family; (3) Seller preference (favouring regular customers or those paying bribes). A wrong calculation (e.g., using equilibrium quantity) or listing price-based rationing reveals inability to apply the shortage formula or confusion between price and non-price allocation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of a binding price ceiling on consumers and producers with the impact of a binding price floor. Use the concepts of consumer surplus, producer surplus, and deadweight loss in your comparison.",
+     "a": "Price ceiling: Consumers who buy at the lower price gain, but many are excluded due to shortage; net consumer surplus change is ambiguous. Producers lose unambiguously (lower price, lower quantity sold). Price floor: Producers who sell at the higher price gain, but many cannot sell due to surplus; net producer surplus change is ambiguous. Consumers lose unambiguously (higher price, lower quantity bought). Both create deadweight loss from unrealised mutually beneficial trades. A wrong answer (e.g., \"both consumers gain under ceiling and producers gain under floor\") ignores the quantity rationing and the fact that not all participants benefit.",
+     "self_check": true
+    },
+    {
+     "q": "The government sets Minimum Support Price (MSP) for wheat at ₹2,275/quintal, while the market equilibrium is ₹2,000/quintal. Farmers produce 120 million tonnes, but private buyers demand only 90 million tonnes at MSP. The government procures the surplus. Evaluate whether this policy is efficient from a societal perspective, considering fiscal cost and resource allocation.",
+     "a": "The policy creates a surplus of 30 million tonnes. Government procurement cost = 30 million tonnes × ₹2,275 = ₹68,250 crore (fiscal burden). Resources (land, water, labour) used to produce the surplus 30 million tonnes could have produced other crops with higher social value — this is allocative inefficiency (deadweight loss). However, it provides income security to farmers and builds buffer stocks for food security. Efficiency depends on whether the food security benefits outweigh the fiscal cost and misallocation. A wrong answer (e.g., \"it is efficient because farmers get higher income\" or \"it is inefficient because government spends money\") fails to weigh both sides and identify the trade-off between equity/food security and allocative efficiency.",
+     "self_check": true
+    },
+    {
+     "q": "Design a policy alternative to a price ceiling on essential medicines that ensures affordability for poor patients without creating shortages or black markets. Justify your design using demand-supply principles.",
+     "a": "Alternative: Targeted subsidy via Direct Benefit Transfer (DBT) to poor households, allowing market price to prevail. Steps: (1) Identify eligible beneficiaries (e.g., Ayushman Bharat cardholders). (2) Transfer cash equivalent to the price difference between market price and affordable price. (3) Patients buy at market price, no shortage arises because price mechanism rations supply. (4) Suppliers have no incentive to divert to black market. This preserves allocative efficiency while addressing equity. A poor answer (e.g., \"give free medicines to all\" or \"set a lower price ceiling\") ignores fiscal sustainability or repeats the shortage problem.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

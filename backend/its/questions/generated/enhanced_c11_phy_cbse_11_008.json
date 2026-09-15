@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_11_008",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_11_008",
+   "title": "c11_phy_cbse_11_008",
+   "questions": [
+    {
+     "q": "State the defining thermodynamic condition for an isothermal process and an adiabatic process in terms of heat exchange (Q) and temperature change (ΔT). Give the SI unit for the adiabatic exponent γ.",
+     "a": "Isothermal: ΔT = 0 (temperature constant), Q ≠ 0 generally; Adiabatic: Q = 0 (no heat exchange), ΔT ≠ 0 generally. The adiabatic exponent γ = C_p/C_v is dimensionless (no SI unit). A wrong answer like \"isothermal means Q=0\" reveals confusion between \"no temperature change\" and \"no heat exchange\" — the student is mixing up the two processes.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the adiabatic curve on a P-V diagram is steeper than the isothermal curve for the same gas at the same point. Use the mathematical expressions for slope (dP/dV) to justify.",
+     "a": "For isothermal: PV = constant → dP/dV = -P/V. For adiabatic: PV^γ = constant → dP/dV = -γP/V. Since γ = C_p/C_v > 1 for all ideal gases, the magnitude of the adiabatic slope is γ times the isothermal slope. A wrong answer stating \"adiabatic has higher pressure\" without referencing the derivative shows the student memorized the diagram but not the mathematical reason.",
+     "self_check": true
+    },
+    {
+     "q": "Two moles of a monatomic ideal gas (γ = 5/3) at 300 K and volume 0.02 m³ are compressed to 0.01 m³. Calculate the work done on the gas (in joules) for (a) isothermal compression and (b) adiabatic compression. Use R = 8.31 J mol⁻¹ K⁻¹.",
+     "a": "(a) Isothermal: W_on = -W_by = nRT ln(V_i/V_f) = 2 × 8.31 × 300 × ln(2) = 3456 J (work done ON gas is positive). (b) Adiabatic: First find T_f = T_i (V_i/V_f)^(γ-1) = 300 × 2^(2/3) = 300 × 1.587 = 476 K. Then W_on = nC_v(T_f - T_i) = n(R/(γ-1))(T_f - T_i) = 2 × (8.31/(2/3)) × 176 = 2 × 12.465 × 176 = 4388 J. A wrong sign (negative for compression) reveals confusion about sign convention (W_by vs W_on). Unit check: nRT has units mol × J/mol·K × K = J ✓.",
+     "self_check": true
+    },
+    {
+     "q": "A gas undergoes a cyclic process consisting of an isothermal expansion from A to B followed by an adiabatic compression from B back to A. The net work done by the gas in the cycle is positive. Is this possible? Justify using the First Law and the fact that internal energy is a state function.",
+     "a": "Yes, it is possible. Over the cycle ΔU = 0 (state function). For the isothermal expansion: Q_in = W_out1 > 0. For the adiabatic compression: Q = 0, so W_out2 = -ΔU = -nC_vΔT < 0 (work done ON gas). Net work W_net = W_out1 + W_out2. Since the adiabatic compression ends at the same state A, the temperature returns to initial value, so ΔT over the adiabatic step is positive (temperature rises during compression). The net work can be positive if the isothermal expansion work magnitude exceeds the adiabatic compression work magnitude. A wrong answer saying \"net work must be zero because it returns to initial state\" confuses state function (U) with path function (W).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In an adiabatic expansion, the gas cools because it loses heat to the surroundings.\" Evaluate this statement and correct the misconception using the First Law.",
+     "a": "The statement is false. In an adiabatic process, Q = 0 by definition — no heat is exchanged. The gas cools because it does work on the surroundings (W > 0), so ΔU = -W < 0. For an ideal gas, ΔU = nC_vΔT, so ΔT < 0. The energy for the work comes from the internal energy, not from heat flow. A student who says \"heat is lost\" is confusing adiabatic with isothermal or general cooling; they have not internalized Q=0 as the defining condition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration using a syringe (sealed at the tip) and a temperature sensor to distinguish between near-isothermal and near-adiabatic compression of air. Describe the procedure, what to measure, and the expected qualitative difference.",
+     "a": "Procedure: (1) Seal a plastic syringe tip with glue/tape. (2) Insert a fast-response digital thermometer probe through a hole in the plunger seal. (3) For near-adiabatic: push plunger rapidly (~0.5 s) from 50 mL to 10 mL, record max temperature. (4) Allow to cool back to room temperature. (5) For near-isothermal: push plunger very slowly (~30 s) while holding syringe in a water bath at room temperature, record temperature. Expected: Adiabatic shows significant temperature rise (e.g., 20-30°C); isothermal shows negligible change (<1°C). A poor design that doesn't control timescale or thermal contact reveals misunderstanding of the quasi-static requirement and the role of thermal reservoirs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

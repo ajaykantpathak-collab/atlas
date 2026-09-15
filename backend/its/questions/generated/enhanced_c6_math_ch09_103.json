@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch09_103",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch09_103",
+   "title": "c6_math_ch09_103",
+   "questions": [
+    {
+     "q": "If you flip a standard coin, what is the probability of getting \"Tails\"?",
+     "a": "The probability is 1/2 or 0.5. A student who says \"it's 50/50\" understands the chance but needs to learn how to represent it as a formal mathematical value (fraction/decimal).",
+     "self_check": true
+    },
+    {
+     "q": "If you roll a standard 6-sided die, is it possible to roll an 8? What is its probability?",
+     "a": "It is impossible; the probability is 0. A student who answers \"1/8\" or \"1/6\" is confusing the number of faces on the die with the requested outcome.",
+     "self_check": true
+    },
+    {
+     "q": "In a box of 10 chocolates, 3 are dark chocolate and 7 are milk chocolate. If you pick one, what is the probability of picking a dark chocolate?",
+     "a": "The probability is 3/10 or 0.3. A student who answers \"3/7\" has confused the \"favourable\" outcomes with the \"other\" outcomes, forgetting to use the total (10) as the denominator.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it impossible to have a probability of 1.5?",
+     "a": "Probability must be between 0 and 1 because you cannot have more favourable outcomes than there are total outcomes. A student who thinks it can be higher than 1 is misunderstanding the ratio nature of probability.",
+     "self_check": true
+    },
+    {
+     "q": "If a teacher says there is a 0% chance of a pop quiz today, what does that mean for the students?",
+     "a": "It means the event is impossible; the quiz will definitely not happen. A student who thinks 0% means \"a tiny bit likely\" has not grasped the definition of 0 as an impossible event.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where the probability of an event is 1.",
+     "a": "An example is: \"What is the probability that the sun will rise tomorrow?\" or \"If a bag contains only red balls, what is the probability of picking a red ball?\" A student who provides a scenario that is merely \"likely\" (e.g., \"the probability of raining\") has not understood that 1 means the event is certain.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

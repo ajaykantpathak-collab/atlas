@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_01_004",
+   "title": "c11_chem_cbse_01_004",
+   "questions": [
+    {
+     "q": "State Gay Lussac's Law of Gaseous Volumes and specify the two conditions under which it holds true.",
+     "a": "Gay Lussac's Law: When gases combine or are produced in a chemical reaction at constant temperature and pressure, the volumes of reactant and product gases are in simple whole-number ratios. Conditions: (1) constant temperature, (2) constant pressure. A wrong answer (e.g., omitting conditions or stating mass ratios) reveals the student confuses this with Law of Definite Proportions (mass-based) or doesn't grasp that gas volume changes with T/P, making conditions essential.",
+     "self_check": true
+    },
+    {
+     "q": "In the reaction N₂(g) + 3H₂(g) → 2NH₃(g), 100 mL of N₂ reacts completely with 300 mL of H₂. Explain why the total volume of reactants (400 mL) does not equal the volume of product (200 mL), and why this does not violate Gay Lussac's Law.",
+     "a": "The volume decreases because 4 volumes of reactants (1 N₂ + 3 H₂) produce 2 volumes of product (2 NH₃) — a 2:1 volume contraction. Gay Lussac's Law only requires that the *ratio* of volumes be simple whole numbers (1:3:2), not that total volume be conserved. A wrong answer claiming volume conservation reveals the student incorrectly applies mass conservation logic to gas volumes, forgetting gases are compressible and molecule count (not volume) is conserved.",
+     "self_check": true
+    },
+    {
+     "q": "At STP, 22.4 L of oxygen gas reacts with excess hydrogen to form water vapour. Calculate the volume of water vapour produced at STP, and the volume of hydrogen consumed. Show all steps.",
+     "a": "Step 1: Write balanced equation: 2H₂(g) + O₂(g) → 2H₂O(g).\nStep 2: Volume ratio from coefficients: H₂ : O₂ : H₂O = 2 : 1 : 2.\nStep 3: Given 22.4 L O₂ (1 volume unit), so H₂ consumed = 2 × 22.4 = 44.8 L, H₂O produced = 2 × 22.4 = 44.8 L.\nStep 4: At STP, all gases measured at same T/P, so volume ratio = mole ratio.\nAnswer: H₂ consumed = 44.8 L, H₂O produced = 44.8 L. A wrong answer (e.g., 22.4 L H₂O) reveals the student uses 1:1 ratio instead of 2:1:2, missing the stoichiometric coefficients.",
+     "self_check": true
+    },
+    {
+     "q": "Two gases, X and Y, react at constant T and P: 2 volumes of X + 1 volume of Y → 2 volumes of product Z. When 50 mL X and 30 mL Y are mixed, 50 mL Z forms. Identify the limiting reagent and calculate the volume of excess reagent left unreacted. Explain your reasoning using Avogadro's Law.",
+     "a": "Step 1: Volume ratio X:Y:Z = 2:1:2 (from given reaction).\nStep 2: For 50 mL X, required Y = 50/2 = 25 mL. Available Y = 30 mL > 25 mL, so X is limiting.\nStep 3: Y consumed = 25 mL, Y left = 30 - 25 = 5 mL.\nStep 4: Z produced = 50 mL (2 volumes X → 2 volumes Z).\nStep 5: Avogadro's Law justification: equal volumes = equal moles at same T/P, so volume ratio = mole ratio = stoichiometric ratio.\nAnswer: Limiting reagent = X, excess Y left = 5 mL. A wrong answer (e.g., Y limiting) reveals the student compares absolute volumes instead of stoichiometric ratios.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Avogadro's Law means 1 L of any gas always contains the same number of molecules, regardless of temperature and pressure.\" Evaluate this statement and correct it if necessary.",
+     "a": "The statement is FALSE. Avogadro's Law states: equal volumes of gases contain equal numbers of molecules *only when compared at the same temperature and pressure*. At different T/P, 1 L of gas contains different molecule counts (e.g., 1 L at STP vs 1 L at high T). The corrected statement: \"At constant T and P, equal volumes of all gases contain equal numbers of molecules.\" A wrong evaluation reveals the student misses the critical \"same conditions\" clause, confusing Avogadro's Law with the definition of molar volume (which is specific to STP).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple thought experiment using only volume measurements (no mass, no mole concept) to prove that oxygen gas exists as diatomic molecules (O₂) rather than monatomic (O), based on Gay Lussac's and Avogadro's Laws. Describe the reaction, measurements, and logical steps.",
+     "a": "Thought experiment: React hydrogen and oxygen to form water vapour. Measure volumes at same T/P: 2 volumes H₂ + 1 volume O₂ → 2 volumes H₂O. By Avogadro's Law, volume ratio = molecule ratio. So 2 molecules H₂ + 1 molecule O₂ → 2 molecules H₂O. Each H₂O contains 1 O atom, so 2 H₂O contain 2 O atoms. These 2 O atoms came from 1 molecule of oxygen gas. Therefore, 1 molecule of oxygen gas contains 2 O atoms → O₂. A poor answer (e.g., \"we know O₂ from formula\") reveals the student cannot reason from volume data alone, missing the historical logic that established diatomic nature before molecular formulas were known.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

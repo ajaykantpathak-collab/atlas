@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_v_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_v_cbse_01_002",
+   "title": "c11_hin_v_cbse_01_002",
+   "questions": [
+    {
+     "q": "What are the three structural components (feuV) of a traditional play as referenced in the text, and which term does the author use for the middle component?",
+     "a": "The three components are: प्रस्तावना (exposition), विकास (development/rising action), and उपसंहार (resolution). The author uses \"विकास\" for the middle component. A wrong answer (e.g., naming \"climax\" as a separate fourth part or using English terms like \"rising action\") reveals the student is imposing Western dramatic structure onto the Indian classical framework the text explicitly outlines, missing the text's indigenous terminology.",
+     "self_check": true
+    },
+    {
+     "q": "The author states: \"fp=kiV laxhr dk rky izkFkfed voLFkk dk rky gksrk gS\" (Cinematic theatre's director is the director of the fundamental state). Explain in your own words what \"voLFkk\" means in this context and why the director controls it rather than the playwright.",
+     "a": "\"voLFkk\" here means the foundational visual-aural reality of the performance — the concrete images, sounds, and spatial arrangements that the audience directly perceives. In classical theatre, the playwright's script fixes the \"state\" through words; in cinematic theatre, the director constructs that state through camera, lighting, sound design, and editing. A wrong answer focusing only on \"director vs playwright hierarchy\" misses the ontological shift: the text argues cinematic theatre's very *substance* (voLFkk) is visual, not verbal, so control must shift to the visual architect.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"xkuiu\" (visual showing) to the chapter's opening anecdote. How does the gramophone incident function as a miniature \"xkuiu\" moment that foreshadows the chapter's central thesis?",
+     "a": "The gramophone incident is a pure \"xkuiu\" moment: sound emerges without visible source (Loj without fp=k), creating mystery and anticipation — exactly what cinematic theatre does by separating sound from its origin and recombining them. The author hears \"Loj\" first, then later sees the film \"yrk eaxs'kdj\" — mirroring the historical shift from aural to visual primacy. A student who only summarizes the anecdote (\"he heard a record\") fails to see it as a structural microcosm of the macro-argument.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the narrative function of \"djQ.k jl\" (delicate water/water-like subtlety) in the author's description of his own writing versus \"xkuiu\" in fp=kiV laxhr. How do these two concepts represent opposing structural principles?",
+     "a": "\"djQ.k jl\" represents the author's literary method: subtle, inferential, flowing — where meaning emerges through suggestion and reader inference (like water finding its path). \"xkuiu\" represents cinematic method: direct, concrete, constructed — where meaning is built through visible/audible elements assembled by the director. The text positions them as complementary: literary narrative relies on the reader's imagination (djQ.k jl), cinematic narrative on the viewer's perception (xkuiu). A wrong answer treating them as synonyms (\"both mean subtlety\") misses the text's explicit contrast between linguistic suggestion and visual construction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the author's claim: \"'kkL=kh; laxhr vkSj fp=kiV laxhr esa rqyuk gks gh ugha ldrh\" (Classical and cinematic theatre cannot be compared). Is this a structural claim or an evaluative claim? Defend your answer using the text's own structural logic.",
+     "a": "It is a structural claim grounded in incommensurable media: classical theatre's substance is \"Loj\" (speech) governed by fixed rules (fu;e), cinematic theatre's substance is \"xkuiu\" (visual showing) governed by directorial vision. The author argues they operate on different ontological planes — like comparing poetry to architecture. A student calling it \"evaluative\" (he prefers one) misses the text's rigorous formalism: the comparison fails because the *structural units* (Loj vs xkuiu) are non-convertible, not because one is better.",
+     "self_check": true
+    },
+    {
+     "q": "Create a three-panel storyboard (described in words) that captures the chapter's narrative structure: Panel 1 = the personal anecdote, Panel 2 = the case study (yrk eaxs'kdj), Panel 3 = the theoretical framework. For each panel, name the narrative technique used.",
+     "a": "Panel 1: \"Autobiographical Framing\" — first-person memory of gramophone sound, establishing the aural-to-visual trajectory. Panel 2: \"Concrete Exemplification\" — the film \"yrk eaxs'kdj\" serves as a specific instance illustrating the general shift. Panel 3: \"Analytical Abstraction\" — the author moves from particular to universal, contrasting two theatre systems using indigenous terms (voLFkk, xkuiu, feuV). A poor answer lists events without naming the *structural role* each plays in the chapter's argument architecture.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

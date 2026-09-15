@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_bio_ch2_6",
+ "concepts": [
+  {
+   "id": "enh:c8_bio_ch2_6",
+   "title": "c8_bio_ch2_6",
+   "questions": [
+    {
+     "q": "Which of the following is a characteristic feature of non-infectious diseases?\nA) They are caused by bacteria and viruses\nB) They can spread from one person to another through touch\nC) They are non-transmissible and often linked to lifestyle or genetics\nD) They can be cured completely within a week by antibiotics",
+     "a": "The correct answer is C. Non-infectious diseases are non-transmissible and develop due to genetic factors, physiological malfunctions, or poor lifestyle habits over time. A wrong answer shows confusion with infectious diseases (caused by pathogens like bacteria and viruses) or the misconception that all diseases spread from person to person.",
+     "self_check": true
+    },
+    {
+     "q": "Why does consuming a diet high in processed sugars and fats regularly lead to type 2 diabetes over time?\nA) Sugars cause bacterial infections in the pancreas\nB) Excess glucose and cellular overload reduce the body's sensitivity to insulin, disrupting blood sugar regulation\nC) Fats react chemically with blood to form solid deposits instantly\nD) Sugars destroy white blood cells directly",
+     "a": "The correct answer is B. Overconsumption of refined carbohydrates and fats overloads metabolic pathways, leading to insulin resistance where cells fail to respond effectively to the hormone insulin, keeping blood glucose levels abnormally high. A wrong answer reveals a misconception that metabolic diseases are caused by external pathogens rather than internal biochemical dysregulation.",
+     "self_check": true
+    },
+    {
+     "q": "A 45-year-old person has a sedentary lifestyle, eats fried snacks daily, and has a blood test showing high LDL (bad cholesterol) levels. What is the primary biochemical risk for this person?\nA) Rapid multiplication of fungal spores in the lungs\nB) Accumulation of plaque in blood vessels leading to cardiovascular disease\nC) Immediate bone demineralization similar to rusting iron\nD) Rapid destruction of red blood cells by stomach acid",
+     "a": "The correct answer is B. High LDL cholesterol combined with physical inactivity causes lipid plaques to build up inside the arteries (atherosclerosis), narrowing blood vessels and restricting blood flow to the heart, which increases heart disease risk. Steps of analysis: (1) Identify risk factors: sedentary lifestyle and high fat diet; (2) Note biomarker: high LDL cholesterol; (3) Connect biomarker to physiological effect: plaque formation in arteries; (4) Predict long-term outcome: restricted blood flow and cardiovascular strain. A wrong answer indicates a failure to link dietary lipid accumulation to vascular health.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the relationship between physical inactivity (sedentary lifestyle) and the onset of metabolic non-infectious diseases. How does exercise prevent these conditions?\nA) Exercise burns excess calories, improves insulin sensitivity, and helps maintain healthy lipid levels in the blood.\nB) Exercise introduces antibodies that fight off metabolic disorders.\nC) Exercise lowers body temperature to kill disease-causing molecules.\nD) Exercise replaces the need for any nutritional intake.",
+     "a": "The correct answer is A. Physical activity increases glucose uptake by muscle cells independently of insulin and helps burn excess lipids, preventing both insulin resistance (diabetes) and plaque buildup in arteries (heart disease). A wrong answer shows a misunderstanding of how physical exertion influences cellular metabolism and energy storage.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Since non-infectious diseases are not caused by germs, lifestyle changes cannot prevent or control them.\" Is this statement scientifically accurate?\nA) Yes, because genes determine everything and lifestyle has no role.\nB) No, because environmental and behavioral lifestyle factors like diet and exercise are the primary triggers and modifiers for most non-infectious diseases.\nC) Yes, only medicines can alter non-infectious diseases.\nD) No, because non-infectious diseases actually turn into infectious diseases over time.",
+     "a": "The correct answer is B. The statement is false; while genetics play a role, lifestyle choices such as a balanced diet, regular exercise, and stress management can significantly prevent, delay, or manage conditions like diabetes and heart disease. A wrong answer demonstrates fatalistic thinking and a lack of understanding regarding preventive healthcare and metabolic modification.",
+     "self_check": true
+    },
+    {
+     "q": "Design a daily routine for a middle-school student that incorporates holistic health principles (inspired by dinacharya concepts) to prevent future lifestyle diseases. What key components must be included?\nA) Eating junk food all day and sleeping late.\nB) Balancing study time with outdoor physical play, eating whole foods with adequate nutrients, and maintaining a consistent sleep schedule.\nC) Avoiding all physical activity to preserve energy.\nD) Taking vitamin supplements instead of eating meals.",
+     "a": "The correct answer is B. A preventive daily routine must integrate balanced nutrition, regular physical exercise, and adequate rest to support proper metabolic function and mental well-being. A poor answer focuses on unscientific habits or complete avoidance of activity, showing a failure to connect daily habits to long-term health outcomes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

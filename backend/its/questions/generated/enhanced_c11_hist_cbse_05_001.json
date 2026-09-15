@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_05_001",
+   "title": "c11_hist_cbse_05_001",
+   "questions": [
+    {
+     "q": "Identify the five domesticated animals (tavan hoshuu) that formed the core of the Mongol pastoral economy and state the primary product or function each provided for steppe survival.",
+     "a": "The five animals are: horse (transport, warfare, fermented mare's milk/airag), sheep (meat, wool, felt for gers), goat (meat, cashmere, milk), camel (long-distance transport across deserts, wool), cattle/yak (draught, milk, dung fuel). A wrong answer — such as listing \"cow\" instead of \"yak\" for high altitudes, or omitting the horse — reveals the student has memorised a list without understanding the *ecological niche partitioning* each species filled: horses graze snow-covered grass, camels browse saline desert shrubs, yaks tolerate hypoxia above 3,000 m.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Mongol steppe's climate — specifically its low and highly variable precipitation — made settled agriculture impossible and pastoral nomadism the only viable subsistence strategy.",
+     "a": "The steppe receives 150–350 mm annual rainfall, mostly in summer thunderstorms, with high inter-annual variability (coefficient of variation >30%). This is below the 400–500 mm threshold for reliable rain-fed cereal cultivation; moreover, the growing season is shortened by late spring frosts and early autumn freezes (90–120 frost-free days). Grasses (C3 and C4 species) have deep root systems that exploit episodic moisture and survive drought, whereas wheat/barley cannot. Therefore, humans could not extract calories directly from grains but only indirectly by converting grass protein into animal products via mobile herds. A wrong answer citing \"poor soil\" or \"cold weather\" alone misses the *precipitation-evapotranspiration deficit* as the primary limiting factor.",
+     "self_check": true
+    },
+    {
+     "q": "A 13th-century Mongol household manages a mixed herd of 300 sheep units (1 horse = 7 sheep units, 1 camel = 5, 1 cattle = 6, 1 sheep/goat = 1). If the household owns 20 horses, 10 camels, 15 cattle, and the rest sheep/goats, calculate the number of sheep/goats and determine whether this herd composition reflects optimal risk-spreading for the steppe environment. Justify your answer.",
+     "a": "Total sheep units from listed animals: 20×7 + 10×5 + 15×6 = 140 + 50 + 90 = 280. Remaining for sheep/goats = 300 − 280 = 20 sheep units = 20 sheep/goats. Herd composition: horses 46.7%, camels 16.7%, cattle 30%, sheep/goats 6.7% of total biomass. This is *sub-optimal* for risk-spreading: sheep/goats should dominate (60–70%) because they reproduce fastest (twinning, short gestation), provide daily milk/wool, and recover quickest after zud. Over-investment in horses signals a household oriented toward military service or elite status rather than pure subsistence. A wrong answer that only calculates the number without evaluating the *portfolio logic* of herd diversification misses the economic reasoning behind pastoral risk management.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Mongol clan (obog) and tribe (ulus) as social institutions. How did the steppe's ecological constraints shape the *fluidity* of tribal boundaries compared to the more rigid caste or varna structures students studied in Class 6 (Mauryan/Gupta periods)?",
+     "a": "The obog was a patrilineal descent group claiming a common ancestor, bound by mutual obligation (andes) and collective responsibility (collective vengeance, bride-price pooling). The ulus was a political-military confederation of multiple clans, formed and dissolved by allegiance to a charismatic leader (khan); membership was voluntary and situational. Ecological drivers: dispersed, mobile camps prevented fixed territorial boundaries; pasture rights were usufructuary (first-come, seasonal), not landed property; a clan could switch ulus if its leader failed to secure grazing or booty. In contrast, varna/jati in the Gangetic plains emerged from *sedentary surplus agriculture* where land was inheritable, labour was tied to soil, and hierarchy was ritualised. A wrong answer that treats ulus as a \"tribe\" in the fixed anthropological sense (like a caste) fails to grasp the *contractual, leader-centric* nature of steppe polity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Mongol nomadic economy was self-sufficient and isolated from settled civilisations until Genghis Khan's conquests forced contact.\" Use evidence from the steppe's ecological deficits and archaeological trade data.",
+     "a": "The claim is false. The steppe *structurally lacked* grain, metal, textiles, luxury goods, and craft specialists — all produced only in oasis cities (Karakorum, Beshbalik, Samarkand) and agrarian zones (North China, Transoxiana). Archaeological finds (Chinese silk, Persian ceramics, iron tools) in 12th-century Mongol graves prove *pre-imperial* trade. Nomads exchanged horses, furs, slaves, and pastoral products for grain, iron (for bits, stirrups, arrowheads), and tea. This dependency created a \"trade-or-raid\" dilemma: when trade terms turned unfavourable (e.g., Jin dynasty embargoes), raiding became the alternative market mechanism. Genghis Khan did not *create* this link; he *monopolised and secured* it via the Pax Mongolica. A wrong answer that accepts the \"isolated nomad\" trope ignores the *symbiotic, often coercive* relationship between steppe and sown documented since the Xiongnu (3rd century BCE).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 6-panel storyboard (visual or descriptive) showing the annual migration cycle of a Mongol household, labeling each camp with its Mongolian name, the ecological trigger for movement, the herd management task performed there, and the social activity (e.g., quriltai, marriage negotiations, Naadam) that coincides. Explain how this cycle reinforced clan cohesion and military readiness.",
+     "a": "Panel 1: **Uvulju** (winter camp, Nov–Mar) — trigger: first heavy snow; task: herd concentrated in sheltered valley, fed stored hay/dung; activity: indoor crafts, storytelling, planning. Panel 2: **Khavarjaa** (spring camp, Apr–May) — trigger: snowmelt, green-up; task: lambing/kidding, castration, shearing; activity: clan quriltai to allocate summer pastures. Panel 3: **Zuslan** (summer camp, Jun–Aug) — trigger: peak grass, biting insects; task: milking, airag fermentation, haymaking; activity: Naadam (three manly games — wrestling, archery, racing) — *direct military training*. Panel 4: **Namarjaa** (autumn camp, Sep–Oct) — trigger: frost, grass curing; task: culling, fattening, felt-making for gers; activity: marriage negotiations, bride-price finalisation. Panel 5: **Pre-migration** — trigger: first snow forecast; task: ger dismantling, packing, herd consolidation; activity: collective prayer to Eternal Blue Sky (Tengri). Panel 6: **Migration (nutag shiljuuleh)** — trigger: weather window; task: moving 10–20 km/day, scouts ahead; activity: cavalry drills en route. The cycle *is* the training ground: every male rides daily, herd defence = perimeter defence, quriltai = command hierarchy rehearsal. A poor answer lists camps without linking *ecological trigger → labour → social ritual → military function*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

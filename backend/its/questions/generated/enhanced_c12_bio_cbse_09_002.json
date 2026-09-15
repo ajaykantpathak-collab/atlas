@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_09_002",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_09_002",
+   "title": "c12_bio_cbse_09_002",
+   "questions": [
+    {
+     "q": "A dairy farmer feeds his crossbred cow 30 kg green maize fodder, 4 kg wheat straw, and 2 kg concentrate mixture daily. The cow yields 15 L milk with 3.5% fat. Calculate the approximate dry matter intake (DMI) as % of body weight (assume 450 kg body weight, maize fodder 20% DM, wheat straw 90% DM, concentrate 90% DM). Is this DMI adequate for a 15 L yielder?",
+     "a": "DMI = (30×0.20) + (4×0.90) + (2×0.90) = 6 + 3.6 + 1.8 = 11.4 kg DM. DMI % BW = (11.4/450)×100 = 2.53%. For a 450 kg cow yielding 15 L, requirement is ~3.0-3.5% BW (13.5-15.75 kg DM). This cow is underfed by ~2-4 kg DM/day. A WRONG answer (e.g., calculating only fresh weight or ignoring DM%) reveals the student confuses fresh weight with nutrient intake — a critical error in ration formulation where water content varies wildly (20% in silage vs 90% in hay).",
+     "self_check": true
+    },
+    {
+     "q": "Why is it physiologically harmful to milk a cow with full udder without pre-milking teat stimulation (fore-stripping, udder wash, massage) for at least 60-90 seconds before machine attachment?",
+     "a": "Teat stimulation triggers neuroendocrine reflex: afferent nerves → spinal cord → hypothalamus → posterior pituitary releases oxytocin → bloodstream → myoepithelial cells around alveoli contract → milk ejection (let-down). Without 60-90s stimulation, oxytocin peak doesn't coincide with machine vacuum; alveolar milk (60-80% of total) remains trapped, causing incomplete milking, residual milk → increased intramammary pressure → teat canal dilation → bacterial entry → mastitis. A WRONG answer focusing only on \"cleaning teats\" misses the neuroendocrine mechanism — students often confuse hygiene with physiology of milk let-down.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer switches his 10 Holstein-Friesian crossbred cows from individual stall feeding to a loose housing system with group feeding of TMR. Within 2 weeks, milk yield drops 15% and 3 cows show lameness. Analyze the likely management failures in transition.",
+     "a": "Step 1: Loose housing requires ≥4.5 m²/cow bedded area + 3.5 m²/cow loafing; overcrowding increases cortisol → suppresses oxytocin → reduces milk yield. Step 2: Group TMR feeding without feed bunk space ≥60 cm/cow causes dominant cows to overeat (acidosis risk) and subordinates to under-eat → yield drop. Step 3: Concrete flooring without rubber mats/grooving causes hoof wear → lameness (sole ulcers, white line disease). Step 4: Transition stress (social hierarchy re-establishment) elevates cortisol for 7-14 days. A WRONG answer blaming only \"stress\" without specifying space, feed access, and flooring parameters shows inability to link housing design to physiology.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the rumen fermentation pattern and metabolic risk when a high-yielding crossbred cow (25 L/day) is fed: (A) 60% concentrate + 40% dry fodder vs (B) 40% concentrate + 60% green fodder + 10 kg legume fodder. Which ration minimizes subacute ruminal acidosis (SARA) risk and why?",
+     "a": "Ration A: High concentrate → rapid starch fermentation → propionate ↑, lactate ↑ → rumen pH drops <5.6 for >3h/day → SARA → rumenitis, laminitis, milk fat depression. Ration B: High fiber (NDF) from green/legume fodder → slower fermentation → acetate ↑ → pH stable 6.2-6.8 → healthy rumen mat → cud chewing → saliva (buffer) → no SARA. Legume fodder adds rumen-degradable protein for microbial synthesis. Ration B minimizes SARA. A WRONG answer choosing A for \"higher energy\" ignores that SARA reduces DMI and milk fat % — net energy for milk may actually be lower despite higher concentrate.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Feeding 50 g bypass protein (rumen-undegradable protein) per kg concentrate to early lactation cows always increases milk protein yield because it supplies amino acids directly to the intestine.\"",
+     "a": "Partially true but incomplete. Bypass protein (RUP) escapes rumen degradation → digested in abomasum/small intestine → absorbed as amino acids → used for milk protein synthesis. However: (1) Only effective if rumen-degradable protein (RDP) is adequate for microbial protein synthesis (bacteria need ammonia/peptides); excess RUP with deficient RDP wastes money. (2) Amino acid profile matters — lysine and methionine are often limiting; bypass protein must supply these. (3) Energy must be sufficient (glucose for mammary uptake). A WRONG answer accepting the statement uncritically ignores the RDP:RUP balance and limiting amino acid concept — a classic competitive exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a clean milk production protocol for a 20-cow farm targeting somatic cell count (SCC) <200,000 cells/mL and total plate count (TPC) <50,000 cfu/mL. Include pre-milking, milking, and post-milking steps with biological justification for each.",
+     "a": "Pre-milking: (1) Cow entry → clean loafing area (reduces environmental mastitis pathogens). (2) Fore-strip 3-4 streams → detects clinical mastitis, stimulates oxytocin. (3) Pre-dip with 0.5% iodine → 30s contact kills teat skin bacteria. (4) Dry with single-use paper towel → removes dip + dirt, prevents vacuum drop. Milking: (5) Attach cluster within 60-90s of stimulation → matches oxytocin peak. (6) Monitor vacuum (40-48 kPa) and pulsation (60:40) → prevents teat end damage. Post-milking: (7) Post-dip (barrier + germicide) → seals teat canal, kills residual bacteria. (8) Teat dip cup sanitized between cows. (9) Milk filtered, chilled to 4°C within 30 min → inhibits bacterial proliferation (generation time >6h at 4°C vs 20 min at 37°C). A poor answer lists steps without linking to bacterial growth kinetics or udder physiology.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

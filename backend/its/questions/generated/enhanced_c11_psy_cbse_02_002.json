@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_02_002",
+   "title": "c11_psy_cbse_02_002",
+   "questions": [
+    {
+     "q": "A researcher records the number of hours each student in Class XI spends on social media daily. Under which category of psychological data does this fall, and why?",
+     "a": "This falls under **demographic information** (specifically behavioural demographic data) because it describes a measurable, routine behaviour pattern of the participants that helps characterise the sample. A wrong answer such as \"psychological information\" reveals the misconception that any numerical behavioural measure is automatically a psychological construct; students confuse *behavioural frequency* (demographic/behavioural descriptor) with *psychological constructs* like addiction or attention span which require inference.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the same student's \"anxiety level\" measured through a self-report questionnaire, a teacher's observation checklist, and a physiological measure (heart rate) would yield three different sets of data for the same construct.",
+     "a": "Data are **context-bound and method-dependent**: the questionnaire captures the student's *subjective interpretation* of their anxiety (cognitive appraisal), the observation checklist records *overt behavioural manifestations* (fidgeting, avoidance) filtered through the teacher's perception, and heart rate measures *autonomic arousal* which may not correlate perfectly with subjective anxiety. A wrong answer claiming \"all three measure the same thing so they should match\" reveals the misconception that psychological constructs have a single \"true\" value independent of measurement method—ignoring the textbook's emphasis that data are tied to the method and theory of collection.",
+     "self_check": true
+    },
+    {
+     "q": "A study on \"effect of classroom lighting on reading speed\" collects: (a) lux levels in the room, (b) students' reading speed in words/minute, (c) students' self-reported eye strain on a 5-point scale, (d) students' board exam percentages. Classify each as demographic, physical, physiological, or psychological data.",
+     "a": "(a) **Physical** – ecological condition of the environment; (b) **Psychological** – behavioural performance measure of a cognitive skill; (c) **Psychological** – subjective experience (sensation/perception); (d) **Demographic** – background characteristic (academic history). A wrong classification of (b) as \"physiological\" reveals confusion between *behavioural output* (reading speed) and *bodily processes*; classifying (d) as \"psychological\" shows failure to distinguish stable background variables from the psychological constructs under investigation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: \"Data are not independent entities; they are located in a context\" vs. \"Data do not in themselves speak about reality; inferences have to be made.\" How do these two statements together define the epistemological status of psychological data?",
+     "a": "The first statement addresses **data genesis**: data emerge from a specific person-context-method interaction (e.g., a student's test anxiety score exists only because of that test, that day, that scoring method). The second addresses **data interpretation**: the raw score \"18/30\" means nothing until placed in a normative context, theoretical framework, or research hypothesis. Together they mean psychological data are *constructed* (not discovered) and *interpretive* (not self-evident). A wrong answer treating them as synonymous reveals failure to distinguish *origin* from *meaning*—a senior-secondary error where students conflate \"context of collection\" with \"process of inference.\"",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Since psychological data lack a true zero point, ranks (1st, 2nd, 3rd) are a more honest representation of psychological attributes than interval scores (10, 20, 30).\" Use the textbook's discussion of relative measurement and rank limitations.",
+     "a": "The claim is **partially valid but misleading**. Ranks acknowledge the *relative* nature of psychological measurement (no true zero), but they introduce a new distortion: **unequal intervals** (the gap between rank 1 and 2 may be 1 mark, while rank 2 and 3 may be 10 marks). Interval scores, while assuming equal intervals that may not exist, at least preserve magnitude information. The textbook explicitly warns that rank differences are not equal. A stronger evaluation would note that *both* are relative; the choice depends on whether the research question requires magnitude (interval) or ordinal position (ranks). A wrong answer agreeing fully reveals the misconception that \"acknowledging relativity\" solves measurement problems—ignoring that ranks create their own inferential limitations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-study on \"peer pressure and academic choices in Class XI\" where you must collect **all four types of data** (demographic, physical, physiological, psychological). Specify exactly what you would measure for each type and justify why each is necessary for your research question.",
+     "a": "**Demographic**: Gender, socioeconomic status, board (CBSE/ICSE/State), stream (Science/Commerce/Humanities) – to control for confounding background variables. **Physical**: Classroom seating arrangement, noise level during decision-making, time of day – to account for environmental influences on peer interaction. **Physiological**: Heart rate variability during peer discussion, galvanic skin response when announcing choices – to capture autonomic arousal accompanying social pressure. **Psychological**: Conformity tendency (scale), academic self-efficacy (scale), reported peer influence (interview) – to measure the core constructs. A poor answer listing only \"age, temperature, heart rate, anxiety\" without linking each to the *specific research question* reveals the misconception that data types are a checklist rather than theory-driven choices.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

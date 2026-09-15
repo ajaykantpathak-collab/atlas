@@ -1,0 +1,447 @@
+{
+ "catalog": "catalog_class12_applied_maths_am12_001_numbers_quantification.json",
+ "concepts": [
+  {
+   "id": "am12_001.1",
+   "family": "counting_sets",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 4 * 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pairs = 6 * 4"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "subsets = 2 ** 6"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rels = 2 ** (5 * 5)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "ways = 4 * 3 * 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "ways = 24 / (2 * 2)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am12_001.2",
+   "family": "counting_sets",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total = 4 * 4"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pairs = 2 * 4"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "subsets = 2 ** 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rels = 2 ** (6 * 6)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "ways = 5 * 4 * 3"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "ways = 24 / (2 * 2)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am12_001.3",
+   "family": "index_fin",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "idx = 145 / 100 * 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "idx = (9 + 10 + 17) / (14 + 10 + 18) * 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "tr = 85.71 * 85.71 / 10000"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "y = 56 + 7 * 5"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mean = (4 * 2 + 2 * 3) / (4 + 2)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "left = 80 * ((80 - 8) / 80) ** 1"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am12_001.4",
+   "family": "index_fin",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "idx = 130 / 100 * 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "idx = (9 + 11 + 10) / (13 + 7 + 16) * 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "tr = 83.33 * 83.33 / 10000"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "y = 26 + 5 * 5"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mean = (3 * 5 + 6 * 8) / (3 + 6)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "left = 60 * ((60 - 10) / 60) ** 1"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am12_001.5",
+   "family": "work_rate",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "rate = 1 / 4 + 1 / 6",
+      "days = 1 / rate"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "net = 1 / 6 - 1 / 8",
+      "time = 1 / net"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_d = 120 + 180",
+      "total_t = 3 + 2",
+      "speed = total_d / total_t"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "days = 10 * 6 / 20"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "stream = (16 - 8) / 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "time = 60 / 8"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am12_001.6",
+   "family": "work_rate",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "rate = 1 / 8 + 1 / 8",
+      "days = 1 / rate"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "net = 1 / 3 - 1 / 6",
+      "time = 1 / net"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_d = 120 + 180",
+      "total_t = 3 + 2",
+      "speed = total_d / total_t"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "days = 6 * 12 / 24"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "stream = (14 - 10) / 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "time = 48 / 10"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am12_001.7",
+   "family": "profit_loss",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "profit = 480 - 400"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "profit = 480 - 400",
+      "pct = profit / 400 * 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "loss = 400 - 240",
+      "pct = loss / 400 * 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "sp = 400 * (1 + 10 / 100)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "disc = 600 * 15 / 100",
+      "sp = 600 - disc"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "disc = 600 - 510",
+      "pct = disc / 600 * 100"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am12_001.8",
+   "family": "index_fin",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "idx = 113 / 100 * 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "idx = (17 + 18 + 15) / (18 + 6 + 13) * 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "tr = 135.14 * 135.14 / 10000"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "y = 21 + 6 * 5"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mean = (9 * 4 + 6 * 7) / (9 + 6)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "left = 80 * ((80 - 20) / 80) ** 1"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am12_001.9",
+   "family": "index_fin",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "idx = 131 / 100 * 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "idx = (9 + 15 + 19) / (14 + 8 + 7) * 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "tr = 148.28 * 148.28 / 10000"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "y = 30 + 7 * 5"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mean = (6 * 8 + 7 * 9) / (6 + 7)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "left = 80 * ((80 - 20) / 80) ** 1"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "am12_001.10",
+   "family": "linear_eq",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "x = (57 - 3) / 6"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "x = (18 + 9) / 3"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "x = (3 - ((-18))) / 7"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "x = (3 + 15) / 6"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "x = (6 - 5) / (3 - 2)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "x = (15 / 3) - 4"
+     ]
+    }
+   ],
+   "steps_chain": []
+  }
+ ]
+}

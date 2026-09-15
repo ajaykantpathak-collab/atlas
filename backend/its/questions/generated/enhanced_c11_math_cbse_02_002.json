@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_02_002",
+   "title": "c11_math_cbse_02_002",
+   "questions": [
+    {
+     "q": "State the cardinality formula for the Cartesian product of two finite sets A and B. If n(A) = 5 and n(B) = 3, what is n(A × B)?",
+     "a": "The formula is n(A × B) = n(A) × n(B). For n(A) = 5 and n(B) = 3, n(A × B) = 15. A wrong answer (e.g., n(A) + n(B) = 8) reveals the student is confusing Cartesian product with union of sets or misapplying the addition principle instead of the multiplication principle.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why A × B ≠ B × A in general, using the sets A = {1, 2} and B = {3, 4} as an illustration. Under what condition would A × B = B × A hold?",
+     "a": "A × B = {(1,3), (1,4), (2,3), (2,4)} while B × A = {(3,1), (3,2), (4,1), (4,2)}. The ordered pairs differ in their first and second components, so the sets are unequal. Equality holds only when A = B (or one set is empty). If a student claims they are equal because both have 4 elements, they confuse cardinality with set equality, ignoring that ordered pairs (a,b) and (b,a) are distinct unless a = b.",
+     "self_check": true
+    },
+    {
+     "q": "Let A = {1, 2}, B = {2, 3}, C = {3, 4}. Compute A × (B ∪ C) and (A × B) ∪ (A × C) and verify they are equal.",
+     "a": "B ∪ C = {2, 3, 4}. A × (B ∪ C) = {(1,2), (1,3), (1,4), (2,2), (2,3), (2,4)}. A × B = {(1,2), (1,3), (2,2), (2,3)}. A × C = {(1,3), (1,4), (2,3), (2,4)}. (A × B) ∪ (A × C) = {(1,2), (1,3), (1,4), (2,2), (2,3), (2,4)}. Both sets match. A wrong answer (e.g., missing (1,4) or (2,4)) reveals the student either computed B ∪ C incorrectly or forgot to include pairs with elements from C when forming A × C.",
+     "self_check": true
+    },
+    {
+     "q": "Given A × B = {(x, 1), (x, 2), (y, 1), (y, 2)}, find sets A and B. Now, if instead A × B = {(1, x), (1, y), (2, x), (2, y)}, what are A and B? Compare the two cases.",
+     "a": "First case: A = {x, y} (first elements), B = {1, 2} (second elements). Second case: A = {1, 2}, B = {x, y}. The roles of first and second components are swapped. A student who gives A = {x, y}, B = {1, 2} for both cases fails to recognise that the position in the ordered pair determines membership in A or B, revealing a misunderstanding of the definition of Cartesian product.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since A × (B ∩ C) = (A × B) ∩ (A × C), it follows that (A × B) ∩ (A × C) = A × (B ∩ C) is always true, so the intersection of two Cartesian products is always a Cartesian product.\" Evaluate this claim.",
+     "a": "The claim is false. While A × (B ∩ C) = (A × B) ∩ (A × C) is a valid distributive property, the intersection of two arbitrary Cartesian products (e.g., (A × B) ∩ (C × D)) is not necessarily a Cartesian product unless A = C or B = D or other special conditions hold. The student incorrectly generalises a specific identity to all intersections. A correct evaluation identifies the distributive law as a special case where the first set is common, not a universal property of intersections of Cartesian products.",
+     "self_check": true
+    },
+    {
+     "q": "Construct an example of three sets A, B, C such that A × (B \\ C) ≠ (A × B) \\ (A × C), where \\ denotes set difference. Explain why the distributive property fails for set difference.",
+     "a": "Let A = {1}, B = {1, 2}, C = {2}. Then B \\ C = {1}. A × (B \\ C) = {(1, 1)}. A × B = {(1,1), (1,2)}, A × C = {(1,2)}. (A × B) \\ (A × C) = {(1,1)}. Here they are equal, so choose A = {1, 2}, B = {1, 2}, C = {2}. B \\ C = {1}. A × (B \\ C) = {(1,1), (2,1)}. A × B = {(1,1), (1,2), (2,1), (2,2)}. A × C = {(1,2), (2,2)}. (A × B) \\ (A × C) = {(1,1), (2,1)}. Still equal. To get inequality, need A with >1 element and B, C such that... Actually, A × (B \\ C) = (A × B) \\ (A × C) IS always true! The distributive property DOES hold for set difference. A good answer would discover this and explain why: (a,b) ∈ A × (B \\ C) iff a ∈ A and b ∈ B and b ∉ C iff (a,b) ∈ A × B and (a,b) ∉ A × C iff (a,b) ∈ (A × B) \\ (A × C). A poor answer would give a false counterexample or claim it fails without proof.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

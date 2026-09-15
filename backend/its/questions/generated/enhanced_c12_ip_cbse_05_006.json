@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_05_006",
+   "title": "c12_ip_cbse_05_006",
+   "questions": [
+    {
+     "q": "A student claims: \"Any web page that has animations or moving images must be a dynamic web page.\" Is this statement correct? Explain why or why not in 2-3 sentences.",
+     "a": "The statement is **incorrect**. A static web page can contain animations, videos, and interactive elements using CSS animations, JavaScript, or embedded media — all delivered as pre-written files. \"Dynamic\" refers to *server-side content generation per request*, not client-side visual effects. A page with a CSS loading spinner served from a .html file is static; a page that shows \"Welcome, [YourName]\" after querying a user table is dynamic.",
+     "self_check": true
+    },
+    {
+     "q": "You are given two URLs: `https://example.com/about.html` and `https://example.com/profile.php?id=101`. Without visiting them, how can you infer which is likely static and which is dynamic? What specific clues in the URL structure suggest this?",
+     "a": "`about.html` suggests a **static** page — the `.html` extension typically indicates a pre-existing file served directly. `profile.php?id=101` suggests a **dynamic** page — the `.php` extension indicates a server-side script, and the query parameter `id=101` implies the page content depends on a variable input (user ID) that will be used to fetch specific data from a database. Wrong answers reveal confusion between file extensions and actual server behaviour; some dynamic pages use URL rewriting to hide extensions.",
+     "self_check": true
+    },
+    {
+     "q": "A web developer creates a page `weather.html` that shows the current temperature for Delhi. The page uses JavaScript's `fetch()` to call a public weather API and updates the DOM with the response. Is this a static or dynamic web page? Justify your answer by describing the request-response flow.",
+     "a": "This is a **static web page** from the server's perspective. The server delivers the identical `weather.html` file (containing HTML, CSS, and JavaScript code) to every user. The *dynamic behaviour* (fetching live weather data) happens **client-side** in the browser via JavaScript calling an external API. The web server does not execute any code or query a database to generate the page. Students often confuse client-side dynamism with server-side dynamism — this distinction is critical for board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the server-side processing steps when a browser requests (a) a static `.html` page and (b) a dynamic `.php` page that displays a user's order history from a MySQL database. List the steps in order for each case and highlight the *additional* steps in the dynamic case.",
+     "a": "**Static (.html):**\n1. Browser sends HTTP GET request for `/orders.html`\n2. Web server (e.g., Apache/Nginx) locates `orders.html` in filesystem\n3. Server reads file content\n4. Server sends HTTP 200 response with file content as body\n\n**Dynamic (.php with MySQL):**\n1. Browser sends HTTP GET request for `/orders.php?user=101`\n2. Web server passes request to PHP interpreter (via FastCGI/module)\n3. PHP script executes: connects to MySQL → runs `SELECT * FROM orders WHERE user_id=101`\n4. PHP script builds HTML string using fetched data\n5. PHP returns generated HTML to web server\n6. Server sends HTTP 200 response with generated HTML\n\n**Additional steps in dynamic case:** 3, 4, 5 (database connection, query execution, HTML generation). Wrong answers often omit the PHP interpreter step or think the web server directly queries the database.",
+     "self_check": true
+    },
+    {
+     "q": "A startup wants to build a website with these pages: (i) Home page with company info, (ii) Product catalogue with 500 items, (iii) User dashboard showing personal orders, (iv) Contact form that emails the company. For each page, recommend static or dynamic and justify. Which *one* page could be implemented either way, and what would be the trade-off?",
+     "a": "(i) **Static** — same content for all, rarely changes.\n(ii) **Dynamic** — 500 items imply a database; easier to manage/update via CMS.\n(iii) **Dynamic** — personalised per user, requires authentication + database query.\n(iv) **Dynamic** — form processing needs server-side code (email sending, validation).\n\n**Page (i) Home page** could be either. **Static trade-off:** faster load, cheaper hosting, but every content change requires code edit + redeploy. **Dynamic trade-off:** editable via CMS/admin panel, but slower (DB query + template rendering) and more complex infrastructure. Wrong answers often say \"all dynamic\" or \"all static\" without justifying based on *content variability* and *data source*.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal example showing how the *same* visual page (a greeting \"Hello, [Name]!\") can be implemented as (a) a static page with client-side JavaScript and (b) a dynamic page with server-side Python (Flask). Write the key code snippets for both and explain where the name \"Aarav\" comes from in each case.",
+     "a": "**(a) Static + Client-side JS:**\n```html\n<!-- greeting.html (served identically to all) -->\n<h1 id=\"greeting\"></h1>\n<script>\n  const name = new URLSearchParams(window.location.search).get('name') || 'Guest';\n  document.getElementById('greeting').textContent = `Hello, ${name}!`;\n</script>\n```\nName \"Aarav\" comes from **URL query parameter** `?name=Aarav` read by browser JS.\n\n**(b) Dynamic (Flask):**\n```python",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

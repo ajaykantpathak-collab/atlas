@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_engl_ch2_13",
+ "concepts": [
+  {
+   "id": "enh:c8_engl_ch2_13",
+   "title": "c8_engl_ch2_13",
+   "questions": [
+    {
+     "q": "What is the primary purpose of a poem summary, and how does it differ from a paraphrase?",
+     "a": "A poem summary captures the main ideas, narrative arc, and central message in the student's own words, condensing the poem's essence. A paraphrase restates each line or stanza in simpler language without condensing. A wrong answer that confuses the two reveals the student thinks summary means \"rewrite in easy words\" rather than \"distill the core meaning.\"",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this summary: \"The poem talks about soldiers fighting in a war. They are brave. They die for the country. It is sad but proud.\" What is missing that would make this a Class 8-level summary?",
+     "a": "The summary lacks specific references to the poem's structure (stanzas), imagery (what the poet actually describes), and the progression of thought (how the poem moves from one idea to the next). A Class 8 summary must show *how* the poem builds its message — e.g., \"In the first stanza, the poet describes... then in the second, shifts to...\" A wrong answer that calls this \"good enough\" reveals the student thinks summary is just listing topics, not tracing the poem's architecture.",
+     "self_check": true
+    },
+    {
+     "q": "Read this stanza from a patriotic poem (not the textbook poem): \"They stood where the Himalayas kiss the sky, / Breath frozen, rifles steady in the night. / No orders came to retreat or fly — / They held the line till morning's first light.\" Write a one-sentence summary of *just this stanza* that includes the setting, action, and implied quality of the soldiers.",
+     "a": "In the Himalayan heights, soldiers endure freezing temperatures through the night, refusing to retreat and holding their position until dawn, demonstrating unwavering resolve. A wrong answer that only says \"soldiers fight in mountains\" misses the specific imagery (frozen breath, morning light) and the implied discipline (no orders to retreat, yet they stay), showing the student cannot extract layered meaning from a single stanza.",
+     "self_check": true
+    },
+    {
+     "q": "A patriotic poem has four stanzas: (1) describes a quiet border post at dawn, (2) recalls a letter from home, (3) depicts a sudden attack, (4) ends with a flag raised over a silent battlefield. Explain how the *progression* across stanzas builds the theme of sacrifice.",
+     "a": "The poem moves from peace (dawn stillness) to personal connection (letter from home, humanizing the soldier) to violence (attack disrupting both) to a final image that honors the cost (flag over silence). This arc — peace → humanity → violence → memorial — mirrors the sacrifice: what was peaceful and personal is given up for the nation. A wrong answer that treats stanzas as separate topics misses the *causal and emotional linkage* between them, revealing the student cannot analyze structural progression.",
+     "self_check": true
+    },
+    {
+     "q": "Two students summarize the same poem. Student A writes: \"The poem honors soldiers who died protecting the border.\" Student B writes: \"The poem uses the image of a lantern burning through a storm to show how a soldier's duty endures beyond death.\" Which summary demonstrates deeper understanding, and why?",
+     "a": "Student B's summary shows deeper understanding because it identifies a *central controlling image* (the lantern) and explains *how* the poem conveys its theme (endurance beyond death), not just *what* the theme is. Student A states the topic; Student B analyzes the poetic strategy. A wrong answer choosing Student A reveals the student equates summary with theme-stating, not with explaining *how the poem works*.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-sentence summary of an *imaginary* patriotic poem about a soldier who plants a tree before leaving for war, and the tree grows while he is gone, becoming a landmark for returning soldiers. Your summary must show the passage of time and connect the tree to the soldier's legacy.",
+     "a": "A young soldier plants a sapling at his post before departing for battle, entrusting the earth with a living promise. Seasons pass and the tree grows tall through monsoon and frost, mirroring the endurance of his commitment. When he falls in combat, the tree remains, its roots deep in the soil he defended. Years later, returning soldiers gather beneath its shade, recognizing in its steady presence the quiet permanence of his sacrifice. A poor answer that lists events without linking the tree's growth to the soldier's legacy or the passage of time reveals the student cannot synthesize imagery into thematic meaning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

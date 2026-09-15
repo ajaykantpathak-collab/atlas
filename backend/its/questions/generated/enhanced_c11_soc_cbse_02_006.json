@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_02_006",
+   "title": "c11_soc_cbse_02_006",
+   "questions": [
+    {
+     "q": "Define social control in your own words and list two agencies each of formal and informal social control.",
+     "a": "Social control is the process by which society regulates behaviour to maintain order, using formal agencies (law, police, judiciary, state) and informal agencies (family, peer group, religion, kinship). A wrong answer that only lists \"police and family\" without distinguishing the codified vs. uncodified nature reveals the student conflates agencies with mechanisms — they cannot differentiate between a structured legal system and customary practice, which is essential for Board exam distinctions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the same behaviour (e.g., a teenager staying out past 10 PM) might trigger informal sanctions in one context but formal sanctions in another. Use the concepts of 'primary group' and 'secondary group' in your answer.",
+     "a": "In a primary group (family), staying out late triggers informal sanctions (parental disapproval, loss of privileges) because control is personal and relationship-based. In a secondary group context (e.g., a residential society with codified rules), the same behaviour could trigger formal sanctions (written warning, fine) because control is rule-based and impersonal. A wrong answer that says \"family is strict but society has rules\" misses the sociological distinction: primary groups use affective ties and unwritten norms; secondary groups rely on codified regulations and contractual obligations — a key Board exam differentiation.",
+     "self_check": true
+    },
+    {
+     "q": "A village panchayat imposes a fine on a family for violating a community norm about water usage during drought. The family refuses to pay, citing the Panchayati Raj Act which gives statutory panchayats specific legal powers. Analyse this situation using the formal/informal social control distinction. Which type is the panchayat exercising? Justify.",
+     "a": "The panchayat is exercising informal social control despite its institutional appearance. Reasoning: (1) The norm (water usage) is community-based, not codified in state law; (2) The sanction (fine) is enforced through social pressure/ostracism, not state coercion; (3) The family's defence using the Panchayati Raj Act reveals the tension — statutory panchayats have formal legal powers, but this panchayat acts as a traditional caste/community body. A wrong answer claiming \"panchayat = formal control because it's a government body\" fails to distinguish between statutory-legal authority and customary-moral authority — a classic Board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how a functionalist and a conflict theorist would explain the existence of 'honour killings' as a form of social control. Identify the core theoretical assumption driving each explanation.",
+     "a": "Functionalist: Honour killings maintain social cohesion by enforcing collective norms (caste endogamy, family honour) that preserve the social structure; they mitigate deviance that threatens group solidarity. Core assumption: society seeks equilibrium and shared values. Conflict theorist: Honour killings are tools of dominant groups (upper castes, patriarchal males) to control subordinate groups (women, lower castes) and protect material interests (property, lineage purity). Core assumption: society is characterised by power struggles and inequality. A wrong answer that says \"functionalists say it's good, conflict theorists say it's bad\" reveals moral judgement substituting for theoretical analysis — students must articulate the structural logic each perspective attributes to the phenomenon.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"In modern urban India, formal social control has completely replaced informal social control.\" Provide three sociological arguments with evidence.",
+     "a": "The statement is false. Three arguments: (1) Informal control persists in new forms — residential welfare associations (RWAs) enforce norms on parking, noise, waste segregation through peer pressure and WhatsApp groups, not legal statutes; (2) Family and kinship control intensifies in marriage/career choices — \"love marriages\" still face informal sanctions (ostracism, emotional blackmail) despite legal validity; (3) Digital informal control emerges — social media \"call-out culture,\" trolling, and cancel culture function as powerful informal sanctions regulating speech and behaviour. A wrong answer citing only \"police and courts exist\" shows inability to see informal control's adaptation to modernity — Board exams test this dynamic understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical scenario where a single act of deviance (e.g., a woman wearing jeans to work) triggers all four sanction types: positive formal, negative formal, positive informal, negative informal. Explain the social context for each.",
+     "a": "Scenario: A female software engineer wears jeans to her conservative MNC office. Negative formal: HR issues written warning citing dress code policy (codified rule). Positive formal: She files grievance; internal committee upholds her right to \"smart casuals\" per updated policy (legal protection). Negative informal: Colleagues exclude her from lunch, label her \"unprofessional\" on team chat (peer sanction). Positive informal: Younger colleagues praise her \"courage,\" invite her to lead diversity initiative (peer reward). Context: Formal sanctions derive from organisational hierarchy; informal from peer culture. A poor answer that mixes up \"formal = serious, informal = casual\" reveals confusion between sanction severity and sanction source — the sociological distinction is institutional vs. interpersonal, not magnitude.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

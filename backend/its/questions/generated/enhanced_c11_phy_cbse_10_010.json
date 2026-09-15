@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_10_010",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_10_010",
+   "title": "c11_phy_cbse_10_010",
+   "questions": [
+    {
+     "q": "State the SI unit of latent heat and write the formula relating heat supplied (Q), mass (m), and latent heat (L) for a phase change.",
+     "a": "SI unit: J kg⁻¹. Formula: Q = mL. A wrong answer like \"J\" or \"J/kg·K\" reveals confusion between latent heat and specific heat capacity, or missing the per-unit-mass nature of latent heat.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the temperature of a substance remains constant during melting even though heat is continuously supplied. What happens to the supplied energy at the molecular level?",
+     "a": "During melting, supplied heat energy is used to overcome intermolecular forces and increase potential energy of molecules, not their kinetic energy. Since temperature is proportional to average kinetic energy, it stays constant. A wrong answer citing \"heat is lost to surroundings\" shows a misunderstanding of the energy conversion during phase change.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the heat required to convert 50 g of ice at 0°C to water at 0°C. Latent heat of fusion of ice = 3.33 × 10⁵ J kg⁻¹.",
+     "a": "Given: m = 50 g = 0.050 kg, L_f = 3.33 × 10⁵ J kg⁻¹. Q = mL_f = 0.050 × 3.33 × 10⁵ = 1.665 × 10⁴ J = 16.65 kJ. A wrong answer using m = 50 (without kg conversion) yields 1.665 × 10⁷ J, revealing a unit inconsistency error.",
+     "self_check": true
+    },
+    {
+     "q": "A temperature-time graph for heating ice shows a horizontal plateau at 0°C and another at 100°C. The first plateau is longer than the second for the same mass of water. Is this statement correct? Justify using latent heat values.",
+     "a": "Incorrect. For water, L_v (22.6 × 10⁵ J kg⁻¹) is about 7 times larger than L_f (3.33 × 10⁵ J kg⁻¹). At constant heating rate, the vaporisation plateau (100°C) should be longer than the fusion plateau (0°C). A student claiming the first plateau is longer confuses the magnitudes of L_f and L_v.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a calorimetry problem: \"100 g ice at 0°C mixed with 200 g water at 40°C. Find final temperature.\" They write: Heat lost by water = m_w c_w (40 - T) = Heat gained by ice = m_ice L_f. They forget the melted ice water warming up to T. Evaluate this solution.",
+     "a": "The solution is incomplete. After melting, the resulting 100 g of water at 0°C must absorb further heat to reach final temperature T: m_ice c_w (T - 0). The correct equation: m_w c_w (40 - T) = m_ice L_f + m_ice c_w T. Missing this term is a common error in multi-step phase change problems.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a calorimeter, thermometer, and stopwatch to determine the latent heat of fusion of ice. Outline the procedure and the formula you would use.",
+     "a": "Procedure: (1) Measure mass of calorimeter + stirrer (m_c). (2) Add known mass of warm water (m_w), record initial temperature T_i. (3) Add known mass of dry ice at 0°C (m_ice), stir until melted, record final temperature T_f. (4) Use heat balance: m_w c_w (T_i - T_f) + m_c c_c (T_i - T_f) = m_ice L_f + m_ice c_w (T_f - 0). Solve for L_f. A poor answer omits the calorimeter's heat capacity or the warming of melted ice.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

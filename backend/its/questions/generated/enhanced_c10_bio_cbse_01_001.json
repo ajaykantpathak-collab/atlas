@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_01_001",
+   "title": "c10_bio_cbse_01_001",
+   "questions": [
+    {
+     "q": "Define \"life processes\" and name the four fundamental life processes identified in the CBSE Class 10 curriculum.",
+     "a": "Life processes are the essential biological activities that living organisms perform to maintain homeostasis and sustain life. The four fundamental life processes are nutrition, respiration, transportation, and excretion. A wrong answer (e.g., listing \"growth\" or \"reproduction\" as a fundamental life process) reveals that the student confuses life processes with characteristics of living organisms — growth and reproduction are outcomes of life processes, not the maintenance processes themselves.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why nutrition and respiration must occur together in every living cell, using the terms \"raw materials\" and \"energy currency\" in your answer.",
+     "a": "Nutrition provides raw materials (glucose, amino acids, fatty acids) and respiration converts glucose into ATP (energy currency) that powers cellular work. Without nutrition, respiration has no substrate; without respiration, raw materials cannot be converted into usable energy. A wrong answer (e.g., \"plants only do photosynthesis, not respiration\") reveals the misconception that photosynthesis replaces respiration in plants — in reality, plants respire continuously in all living cells, day and night, to generate ATP for cellular activities.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Transportation is only needed in large animals like humans because they have a heart and blood vessels. Plants don't need transportation since they stand still.\" Use your knowledge of plant anatomy to evaluate this claim.",
+     "a": "The claim is incorrect. Plants require transportation to move water and minerals from roots to leaves (via xylem) and to distribute photosynthates (sucrose) from leaves to roots, stems, fruits, and storage organs (via phloem). Even a small herb like tulsi transports water upward against gravity and distributes food to non-photosynthetic parts. A wrong answer reveals the student thinks transportation equals \"blood circulation\" and fails to recognise that xylem and phloem are the plant's transport tissues, performing the same functional role as the circulatory system in animals.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the excretory products of a human, a mango tree, and a yeast cell. Identify which process — aerobic respiration, anaerobic respiration, or protein metabolism — produces each major waste product.",
+     "a": "Human: urea (from protein metabolism/deamination of amino acids), CO₂ (from aerobic respiration). Mango tree: oxygen (from photosynthesis — not excretion but gas exchange), CO₂ (from respiration), excess water (transpiration), some waste stored in leaves/bark. Yeast: ethanol and CO₂ (from anaerobic respiration). A wrong answer (e.g., \"plants excrete urea\") reveals confusion between nitrogenous waste in animals (urea/uric acid) and plant waste management (storage, diffusion, transpiration) — plants lack a specialised excretory system and do not produce urea as a primary excretory product.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Excretion is simply the removal of undigested food from the body.\" Provide a biologically accurate correction.",
+     "a": "The statement is incorrect. Removal of undigested food (faeces) is egestion, not excretion. Excretion specifically refers to the removal of metabolic wastes — substances produced by cellular metabolic reactions (e.g., CO₂ from respiration, urea from protein metabolism, excess salts/water). Egestion removes material that never entered the cells; excretion removes substances that were produced inside cells. A wrong answer reveals the student cannot distinguish between digestive waste (egestion) and metabolic waste (excretion) — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple observation-based experiment using a potted plant (e.g., money plant or hibiscus) to demonstrate that transportation occurs in plants. List materials, procedure, expected observation, and the life process being demonstrated.",
+     "a": "Materials: potted plant with white flowers (or celery stalk), water, red/blue ink, knife. Procedure: (1) Add ink to water in a beaker. (2) Place plant stem in coloured water. (3) Wait 2–3 hours. (4) Cut cross-section of stem and observe. Expected observation: Coloured dots/rings visible in stem cross-section (xylem vessels). Life process demonstrated: Transportation (water movement through xylem). A poor answer (e.g., \"put plant in sunlight and watch it grow\") reveals the student cannot design a controlled observation to isolate transportation from photosynthesis or growth.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

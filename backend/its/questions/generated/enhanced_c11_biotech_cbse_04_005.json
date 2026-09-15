@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_04_005",
+   "title": "c11_biotech_cbse_04_005",
+   "questions": [
+    {
+     "q": "Define the term \"optimum temperature\" for an enzyme and state the typical optimum temperature range for most human enzymes.",
+     "a": "Optimum temperature is the specific temperature at which an enzyme exhibits its maximum catalytic activity; for most human enzymes, this range is 37–40°C (centered around 37°C). A wrong answer (e.g., \"optimum temperature is the highest temperature an enzyme can withstand\" or \"human enzymes work best at 100°C\") reveals a confusion between *optimum* (peak activity) and *thermal stability limit*, or a failure to connect human body temperature to enzyme evolution.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why enzyme activity decreases sharply when the temperature rises above the optimum, even though higher temperature increases molecular motion and collision frequency.",
+     "a": "Above the optimum temperature, the increased kinetic energy disrupts the weak non-covalent interactions (hydrogen bonds, hydrophobic interactions, van der Waals forces) that maintain the enzyme's precise tertiary structure, causing irreversible denaturation and loss of the active site's complementary shape. A wrong answer that only mentions \"enzyme gets destroyed\" without specifying *loss of 3D conformation* or *disruption of weak bonds* indicates a superficial understanding that misses the structural basis of enzyme function taught in the induced-fit model (c11_biotech_cbse_04_003).",
+     "self_check": true
+    },
+    {
+     "q": "A student measures the activity of salivary amylase at pH 4, 7, and 9. The results show high activity at pH 7, low at pH 4, and moderate at pH 9. Sketch the expected bell-shaped curve and label the optimum pH. Predict what would happen to the enzyme's structure if it were incubated at pH 2 for 30 minutes and then returned to pH 7.",
+     "a": "The curve peaks at pH 7 (optimum). Incubation at pH 2 would likely cause irreversible denaturation due to extreme protonation of carboxyl groups and disruption of salt bridges; returning to pH 7 would *not* restore activity because the tertiary structure is permanently unfolded. A wrong answer predicting full recovery reveals the misconception that pH-induced denaturation is always reversible (like some competitive inhibition), ignoring that extreme pH can hydrolyze peptide bonds or cause aggregation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the temperature-activity profiles of a typical human metabolic enzyme (e.g., hexokinase) and Taq DNA polymerase from *Thermus aquaticus*. Explain the structural adaptations that allow Taq polymerase to function at 72°C (its optimum) where human enzymes are completely denatured.",
+     "a": "Human hexokinase shows a sharp peak at ~37°C and is denatured above 45°C; Taq polymerase has a broad peak at 72–80°C and retains activity at 95°C. Taq polymerase achieves this through increased hydrophobic core packing, more salt bridges, shorter surface loops, and a higher proportion of charged amino acids that stabilize the folded state at high temperatures. A wrong answer attributing the difference solely to \"different amino acids\" without specifying *types of stabilizing interactions* shows inability to link protein structure (Class 11 Chemistry/Chapter 9 Biomolecules) to thermal stability.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"Since pepsin works optimally at pH 1.5 in the stomach, taking antacids (which raise stomach pH to ~4) will completely stop protein digestion.\" Justify your answer using the concept of pH-activity curves and physiological context.",
+     "a": "The statement is partially correct but overgeneralized. Antacids raise pH toward pepsin's inactive range (activity drops sharply above pH 3–4), *severely reducing* gastric protein digestion. However, protein digestion is not *completely* stopped because pancreatic proteases (trypsin, chymotrypsin) in the small intestine (pH 7.5–8.5) take over. A wrong answer that says \"digestion stops completely\" ignores the multi-compartment, multi-enzyme nature of the digestive system (c10_bio_cbse_01_005, c10_bio_cbse_01_006).",
+     "self_check": true
+    },
+    {
+     "q": "Design a controlled experiment to determine the optimum pH of a newly isolated protease from a fungus growing in acidic mine drainage (pH ~3). Specify the independent variable, dependent variable, three controlled variables, and how you would ensure the enzyme's stability during the assay.",
+     "a": "Independent variable: pH (range 2–8, using appropriate buffers like citrate-phosphate, Tris-HCl). Dependent variable: initial reaction velocity (e.g., μmol product/min/mg protein) measured by absorbance change of a chromogenic substrate. Controlled variables: temperature (e.g., 30°C), substrate concentration (saturating, >> Km), enzyme concentration, ionic strength, assay duration. Pre-incubate enzyme in each buffer for 5 min at assay temperature before adding substrate to allow equilibration; include a control without enzyme to correct for non-enzymatic hydrolysis. A poor answer that uses a single buffer for all pH values or forgets to control temperature reveals a lack of experimental design rigor.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

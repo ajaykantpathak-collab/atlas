@@ -1,0 +1,437 @@
+{
+  "class": 12,
+  "subject": "biology",
+  "chapter": 107,
+  "chapter_title": "Human Health and Disease",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lebo107.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "lebo107.7.1.1",
+      "title": "Health, Disease and Pathogens",
+      "section": "7.1",
+      "definition": "Health means well-being across body, mind and social life rather than mere freedom from illness, and it depends on genetics, infections and daily habits; disease marks failing organs with signs and symptoms, splitting into transmissible infections and non-infectious conditions, while the bacteria, viruses, fungi, protozoans and worms that cause infections are called pathogens.",
+      "formula": "",
+      "key_idea": "Balanced diet, hygiene, exercise and awareness keep the body defensible -- pathogens must additionally adapt to each body niche they invade, such as surviving stomach acid in the gut.",
+      "textbook_ref": "lebo107.txt lines 42-118 (health definition, disease classification, pathogen concept)",
+      "question_patterns": [
+        "define health in its fullest sense rather than as absence of disease",
+        "which three groups of factors affect human health",
+        "differentiate infectious from non-infectious diseases with one example each",
+        "what are pathogens and which groups of organisms include them",
+        "how did william harvey's work overturn the humor theory of health",
+        "list the personal habits that help maintain good health"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Define health broadly", "explain": "Well-being spans the physical, mental and social dimensions; a healthy person works efficiently, lives longer, and maternal and infant deaths fall."},
+        {"step": 2, "action": "Name the influences on health", "explain": "Disorders inherited at birth, infections, and lifestyle -- food, water, rest, exercise and habits -- jointly decide health."},
+        {"step": 3, "action": "Sort the diseases", "explain": "Infectious diseases pass easily between people (aids is a fatal extreme); among non-infectious ones, cancer leads deaths, and substance abuse erodes health."},
+        {"step": 4, "action": "Introduce the attackers", "explain": "Pathogens enter through varied routes, multiply, and disrupt normal body functions; each must adapt to its niche -- gut dwellers must resist acid and digestive enzymes."}
+      ]
+    },
+    {
+      "id": "lebo107.7.1.2",
+      "title": "Bacterial and Viral Diseases: Typhoid, Pneumonia, Common Cold",
+      "section": "7.1",
+      "definition": "Salmonella typhi swallowed with contaminated food or water brings typhoid -- steady fever near 39-40 degrees, weakness and appetite loss, confirmed by the widal test and infamously spread by the cook typhoid mary; streptococcus pneumoniae and haemophilus influenzae flood the lung alveoli with fluid to cause pneumonia, while rhinoviruses irritate nose and respiratory passage for the 3-7 day common cold.",
+      "formula": "",
+      "key_idea": "Transmission route decides the safeguard -- faecal contamination demands clean food and water, droplet infections demand distance from the infected and their belongings.",
+      "textbook_ref": "lebo107.txt lines 119-153 (typhoid and Widal test, Typhoid Mary, pneumonia, common cold)",
+      "question_patterns": [
+        "which bacterium causes typhoid and how is the disease confirmed",
+        "why is mary mallon remembered in the history of typhoid",
+        "how does pneumonia damage the lungs and spread between people",
+        "which viruses bring on the common cold and how long does it last",
+        "name the symptoms that distinguish typhoid fever from pneumonia",
+        "list other bacterial diseases of humans besides typhoid and pneumonia"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Trace typhoid", "explain": "Salmonella typhi enters the small intestine via contaminated food and water, rides the blood to other organs, and produces sustained high fever, stomach pain, constipation and headache; the widal test confirms it, and intestinal perforation can kill in severe cases."},
+        {"step": 2, "action": "Note the carrier lesson", "explain": "Typhoid mary, a cook who harboured the bacteria, spread infection for years through her food -- carriers need not look ill."},
+        {"step": 3, "action": "Trace pneumonia", "explain": "Streptococcus pneumoniae or haemophilus influenzae inhaled in droplets or shared utensils fill the alveoli with fluid, giving fever, chills, cough, and bluish lips or nails in grave cases."},
+        {"step": 4, "action": "Trace the common cold", "explain": "Rhinoviruses attack only nose and respiratory passage; nasal discharge, sore throat and hoarseness run 3-7 days, passed by cough droplets and contaminated objects such as pens, doorknobs or keyboards."}
+      ]
+    },
+    {
+      "id": "lebo107.7.1.3",
+      "title": "Malaria and the Plasmodium Life Cycle",
+      "section": "7.1",
+      "definition": "The protozoan plasmodium needs two hosts to finish its cycle: the female anopheles mosquito injects sporozoites that multiply in liver cells and then burst red blood cells, freeing the toxin haemozoin that drives the recurring chills and high fever every three to four days; mosquitoes picking up parasites from an infected person restart the chain, with falciparum malaria the deadliest form.",
+      "formula": "",
+      "key_idea": "The mosquito is both vector and second host -- killing its breeding grounds breaks the cycle where medicine alone cannot.",
+      "textbook_ref": "lebo107.txt lines 154-175 (Plasmodium species, sporozoites, haemozoin, two-host cycle)",
+      "question_patterns": [
+        "explain the life cycle of the malarial parasite inside the human body",
+        "why do malarial chills and fever recur every three to four days",
+        "which mosquito species transmits malaria and which form of the parasite does it inject",
+        "why does plasmodium need two hosts to complete its life cycle",
+        "which plasmodium species causes the most dangerous malaria",
+        "what is the role of haemozoin in malarial symptoms"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Enter the human host", "explain": "Sporozoites, the infectious stage, enter with the bite of an infected female anopheles and multiply first inside liver cells."},
+        {"step": 2, "action": "Attack the red cells", "explain": "Parasites then invade red blood cells; their rupture releases haemozoin, whose toxicity produces the periodic chill and high fever signature of malaria."},
+        {"step": 3, "action": "Return to the vector", "explain": "A mosquito feeding on an infected person takes up parasites, which multiply into sporozoites lodged in its salivary glands, ready for the next bite."},
+        {"step": 4, "action": "Rank the species", "explain": "Vivax, malariae and falciparum cause different malarias; falciparum drives malignant malaria, the gravest and sometimes fatal form."}
+      ]
+    },
+    {
+      "id": "lebo107.7.1.4",
+      "title": "Amoebiasis, Ascariasis, Filariasis and Ringworm",
+      "section": "7.1",
+      "definition": "Entamoeba histolytica colonising the large intestine causes amoebic dysentery spread by faecal contamination with houseflies as couriers; the round worm ascaris blocks and bleeds the gut, the filarial worms wuchereria inflame lymph vessels of the legs for years to produce elephantiasis via mosquito bites, and the fungi microsporum, trichophyton and epidermophyton raise dry, itchy, scaly ringworm lesions in warm moist skin folds.",
+      "formula": "",
+      "key_idea": "Sanitation defeats the faecal-orally spread parasites, mosquito control defeats filariasis, and shared towels or combs spread the skin fungi.",
+      "textbook_ref": "lebo107.txt lines 179-230 (Entamoeba, Ascaris, Wuchereria/elephantiasis, ringworm fungi)",
+      "question_patterns": [
+        "which protozoan causes amoebiasis and how does the infection spread",
+        "what part do houseflies play in transmitting entamoeba",
+        "name the helminth that causes elephantiasis and its vector",
+        "what symptoms mark an ascaris infection of the intestine",
+        "which fungi are behind ringworm and why do they favour skin folds",
+        "how does the filarial worm damage the lymphatic vessels over the years"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Pin the amoeba", "explain": "Entamoeba histolytica lives in the large intestine; constipation, cramps and mucous-and-blood stools follow, and faeces-contaminated water or food (flies help move the parasite) spreads it."},
+        {"step": 2, "action": "Pin the round worm", "explain": "Ascaris eggs leave with faeces, contaminate soil, water and produce, and the worms inside the gut bring internal bleeding, muscle pain, fever, anaemia and blocked passages."},
+        {"step": 3, "action": "Pin the filarial worm", "explain": "Wuchereria bancrofti and malayi lodge in lymphatic vessels of the lower limbs and genitals; female mosquitoes transmit them, and chronic inflammation slowly distorts the organs -- elephantiasis."},
+        {"step": 4, "action": "Pin the fungi", "explain": "Microsporum, trichophyton and epidermophyton thrive in heat and moisture, so lesions appear in the groin and between toes, caught from soil or an infected person's towels, clothes or comb."}
+      ]
+    },
+    {
+      "id": "lebo107.7.1.5",
+      "title": "Prevention and Control of Infectious Diseases",
+      "section": "7.1",
+      "definition": "Blocking transmission is the heart of control: personal and public hygiene for food- and water-borne infections, avoiding close contact for air-borne ones, and wiping out vector breeding -- stagnant water, unclean coolers, open ditches -- for mosquito-carried ones, helped by nets, wire mesh and larva-eating fishes like gambusia; vaccines have eradicated smallpox and tamed polio, diphtheria and tetanus, while antibiotics treat established infections.",
+      "formula": "",
+      "key_idea": "Match the measure to the route -- clean water for faecal diseases, masks and distance for droplets, drainage for vectors, immunisation where a vaccine exists.",
+      "textbook_ref": "lebo107.txt lines 231-265 (hygiene measures, vector control, Gambusia, dengue/chikungunya, vaccines and antibiotics)",
+      "question_patterns": [
+        "which public health measures guard against infectious diseases",
+        "how can vector borne diseases like malaria and filariasis be controlled",
+        "why is gambusia introduced into ponds in mosquito control programmes",
+        "which disease did vaccination completely eradicate worldwide",
+        "what precautions apply to air borne infections such as pneumonia and cold",
+        "how do hygiene practices differ for water borne versus insect borne diseases"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Clean the personal sphere", "explain": "Keep the body clean and consume safe drinking water, food and produce -- the core defence where typhoid, amoebiasis and ascariasis travel by mouth."},
+        {"step": 2, "action": "Clean the public sphere", "explain": "Dispose waste and excreta properly, disinfect reservoirs, pools and tanks, and keep hygiene standards in public catering."},
+        {"step": 3, "action": "Break the vector chain", "explain": "Avoid stagnant water, clean household coolers, use nets and wire mesh, spray ditches and swamps, and stock gambusia to eat larvae -- vital against malaria, filariasis, dengue and chikungunya."},
+        {"step": 4, "action": "Deploy the medical arsenal", "explain": "Immunisation erased smallpox and curbed polio, diphtheria, pneumonia and tetanus; antibiotics and newer biotechnology vaccines treat and prevent the rest."}
+      ]
+    },
+    {
+      "id": "lebo107.7.2.1",
+      "title": "Innate Immunity: Four Barriers",
+      "section": "7.2.1",
+      "definition": "Immunity is the host's overall capacity to repel disease-causing organisms, and its inborn, non-specific half -- innate immunity -- stands guard from birth through four barrier types: physical covers like skin and mucus, physiological agents like stomach acid, saliva and tears, cellular squads of neutrophils, monocytes, natural killer cells and macrophages that swallow microbes, and cytokine barriers where infected cells release interferons to shield their neighbours.",
+      "formula": "",
+      "key_idea": "None of these barriers recognises a particular pathogen -- they block everything foreign indiscriminately, which is exactly what makes them innate.",
+      "textbook_ref": "lebo107.txt lines 266-308 (immunity definition, four innate barrier types)",
+      "question_patterns": [
+        "list the four types of barriers that make up innate immunity",
+        "how do physical and physiological barriers differ in blocking microbes",
+        "which blood cells act as the cellular barrier against infection",
+        "what are interferons and how do they protect neighbouring cells",
+        "why is innate immunity called non-specific",
+        "how do mucus coatings help trap invading micro organisms"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Build the physical wall", "explain": "Skin blocks microbial entry, while mucus on respiratory, gastrointestinal and urogenital linings traps whatever lands there."},
+        {"step": 2, "action": "Flood the chemical moats", "explain": "Acid in the stomach, saliva in the mouth and tears from the eyes all stop microbes from growing."},
+        {"step": 3, "action": "Dispatch the cell squads", "explain": "PMNL-neutrophils, monocytes, natural killer lymphocytes in blood and macrophages in tissues phagocytose and destroy microbes that slip through."},
+        {"step": 4, "action": "Raise the viral alarm", "explain": "Virus-infected cells secrete interferon proteins that guard the not-yet-infected cells around them from further attack."}
+      ]
+    },
+    {
+      "id": "lebo107.7.2.2",
+      "title": "Acquired Immunity: B Cells, T Cells and Antibodies",
+      "section": "7.2.2",
+      "definition": "Pathogen-specific and armed with memory, acquired immunity answers a first meeting with a weak primary response but a massive secondary (anamnestic) strike later; b-lymphocytes pour out antibodies -- h2l2 molecules of two light and two heavy chains, with iga, igm, ige and igg among the classes -- for the humoral response, while t-lymphocytes run the cell-mediated arm that also rejects mismatched grafts.",
+      "formula": "",
+      "key_idea": "Memory is the whole trick -- the immune system remembers every pathogen it has met, which is why the second encounter hurts it far less.",
+      "textbook_ref": "lebo107.txt lines 309-366 (primary/secondary response, H2L2 antibody, humoral vs CMI, graft rejection)",
+      "question_patterns": [
+        "contrast the primary and secondary immune responses",
+        "describe the antibody molecule and explain how b lymphocytes use it in the humoral response",
+        "name the antibody classes produced in the human body",
+        "which lymphocytes mediate humoral and which the cell mediated response",
+        "why are tissue matching and blood group matching done before organ transplants",
+        "what does the anamnestic response mean in immunology"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Meet the pathogen twice", "explain": "The first encounter yields a low-intensity primary response; re-exposure triggers a fast, intensified secondary response -- proof of immunological memory."},
+        {"step": 2, "action": "Run the humoral arm", "explain": "B-lymphocytes release antibody proteins into blood; each antibody is H2L2 -- two light plus two heavy chains -- and the classes include IgA, IgM, IgE and IgG."},
+        {"step": 3, "action": "Run the cell-mediated arm", "explain": "T-lymphocytes do not secrete antibodies but help B cells and themselves destroy infected or foreign cells (CMI)."},
+        {"step": 4, "action": "Explain graft rejection", "explain": "The body separates self from non-self, so transplants from animals, other primates or mismatched humans are attacked by CMI -- hence tissue and blood matching plus lifelong immunosuppressants."}
+      ]
+    },
+    {
+      "id": "lebo107.7.2.3",
+      "title": "Active versus Passive Immunity and Vaccination",
+      "section": "7.2.3, 7.2.4",
+      "definition": "When a body makes its own antibodies after meeting live or dead microbes or their proteins, immunity is active -- slow to build but long-remembered; hand it ready-made antibodies instead and the cover is passive, as with the iga-rich colostrum a newborn drinks and the antibodies crossing the placenta; vaccination exploits memory by priming the body with antigenic proteins or weakened pathogens, while tetanus or snakebite demand instant preformed antitoxin.",
+      "formula": "",
+      "key_idea": "Active immunity teaches, passive immunity lends -- vaccines buy time for the body to learn, antitoxins cover emergencies the body cannot learn fast enough.",
+      "textbook_ref": "lebo107.txt lines 367-400 (active/passive immunity, colostrum, placenta, vaccines, antitoxin, hepatitis B from yeast)",
+      "question_patterns": [
+        "differentiate active immunity from passive immunity with examples",
+        "why is mother's milk essential for a newborn baby immunologically",
+        "how do antibodies reach the foetus during pregnancy",
+        "what principle underlies vaccination and immunisation",
+        "when must preformed antibodies be injected instead of a vaccine",
+        "how has recombinant dna technology improved vaccine production"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Make the body learn", "explain": "Deliberate immunisation or natural infection exposes the host to antigens; the antibodies the host then makes constitute active immunity, slow but durable."},
+        {"step": 2, "action": "Lend ready-made cover", "explain": "Injected antibodies protect immediately -- passive immunity; colostrum's abundant IgA and placenta-crossing antibodies are its natural gifts to the child."},
+        {"step": 3, "action": "Prime with vaccines", "explain": "Vaccines of antigenic proteins or inactivated pathogens generate memory B and T cells that overwhelm the real pathogen on a later day."},
+        {"step": 4, "action": "Cover emergencies", "explain": "Tetanus and snakebite need instant action, so preformed antibodies (antitoxin, anti-venom) are injected -- passive immunisation; recombinant yeast now makes hepatitis B vaccine at scale."}
+      ]
+    },
+    {
+      "id": "lebo107.7.2.4",
+      "title": "Allergy and Autoimmunity",
+      "section": "7.2.5, 7.2.6",
+      "definition": "When the immune system overreacts to harmless environmental antigens -- dust mites, pollen, animal dander -- the ige-driven surge releases histamine and serotonin from mast cells, producing sneezing, watery eyes and wheezing that anti-histamines and steroids calm down; sometimes the same system mistakes the body's own cells for enemies, and that self-attack, as in rheumatoid arthritis, is an auto-immune disease.",
+      "formula": "",
+      "key_idea": "Both malfunctions are aimed wrongly -- outward at trivial particles in allergy, inward at self in autoimmunity -- yet both trace back to an immune system doing its job too zealously.",
+      "textbook_ref": "lebo107.txt lines 405-436 (allergens, IgE, histamine and serotonin, diagnosis, auto-immune disease)",
+      "question_patterns": [
+        "what is an allergy and which antibody class mediates it",
+        "name common allergens and the symptoms they provoke",
+        "which chemicals released from mast cells cause allergic symptoms",
+        "which drugs quickly relieve an allergic reaction",
+        "how do doctors identify the substance causing a patient's allergy",
+        "what is an auto immune disease and give one example"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Define the overreaction", "explain": "Allergy is the exaggerated immune response to environmental antigens called allergens -- dust mites, pollens, animal dander -- answered by IgE antibodies."},
+        {"step": 2, "action": "Trace the chemistry", "explain": "Mast cells release histamine and serotonin, driving sneezing, running nose, watery eyes and breathing difficulty; antihistamine, adrenalin and steroids quieten the episode."},
+        {"step": 3, "action": "Diagnose by exposure", "explain": "Tiny doses of suspect allergens are given to the patient and the reactions observed to find the culprit."},
+        {"step": 4, "action": "Turn inward for autoimmunity", "explain": "Higher vertebrates normally tell self from non-self, but occasionally the body attacks its own cells -- rheumatoid arthritis is the everyday example; modern low-exposure lifestyles may even promote such sensitivities."}
+      ]
+    },
+    {
+      "id": "lebo107.7.2.5",
+      "title": "Lymphoid Organs of the Immune System",
+      "section": "7.2.7",
+      "definition": "The immune system's hardware spans lymphoid organs, tissues, cells and antibodies: bone marrow makes all blood cells and, with the thymus, matures immature lymphocytes into antigen-sensitive ones; the mature cells then camp in the spleen, lymph nodes, tonsils, peyer's patches and appendix where antigens meet them, and mucosa-associated lymphoid tissue along the body's tracts holds about half of all lymphoid tissue.",
+      "formula": "",
+      "key_idea": "Primary organs train the soldiers; secondary organs host the battles -- and the spleen additionally filters blood while lymph nodes trap antigens in lymph.",
+      "textbook_ref": "lebo107.txt lines 437-478 (bone marrow, thymus, spleen, lymph nodes, MALT)",
+      "question_patterns": [
+        "name the primary and the secondary lymphoid organs of humans",
+        "what role does the bone marrow play in the immune system",
+        "why does the thymus shrink with age and what does it do before that",
+        "how does the spleen act as a filter of the blood",
+        "what happens to antigens trapped inside lymph nodes",
+        "what is malt and how much of the body's lymphoid tissue does it form"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Tour the primary organs", "explain": "Bone marrow, the main lymphoid organ, produces all blood cells; the thymus near the heart gives t-lymphocytes their maturation niche, shrinking to a nub by puberty."},
+        {"step": 2, "action": "Tour the secondary organs", "explain": "Spleen (bean-shaped, blood-filtering, erythrocyte reservoir), lymph nodes along the lymphatics, tonsils, peyer's patches and appendix all provide stages where lymphocytes meet antigen and multiply into effectors."},
+        {"step": 3, "action": "Line the tracts", "explain": "Mucosa-associated lymphoid tissue guards respiratory, digestive and urogenital linings -- about 50 percent of the body's lymphoid tissue."},
+        {"step": 4, "action": "Sum the system", "explain": "Recognise, respond, remember -- plus roles in allergy, autoimmunity and transplant rejection -- is the immune system's brief."}
+      ]
+    },
+    {
+      "id": "lebo107.7.3.1",
+      "title": "HIV and AIDS: Transmission and Attack on Immunity",
+      "section": "7.3",
+      "definition": "Aids -- an immunodeficiency picked up during life, not inherited -- comes from hiv, an enveloped retrovirus whose rna genome is copied into dna by reverse transcriptase; the virus turns macrophages into virus factories and kills helper t-lymphocytes, so the patient drowns in otherwise beatable infections, with elisa as the standard test and body fluids -- sex, blood, needles, placenta -- as the only transmission routes.",
+      "formula": "",
+      "key_idea": "Hiv never spreads by touch -- only body fluids carry it -- and because aids has no cure, prevention through safe practice and awareness is everything.",
+      "textbook_ref": "lebo107.txt lines 479-556 (AIDS definition, transmission routes, macrophage/T-cell attack, ELISA, NACO prevention)",
+      "question_patterns": [
+        "why is aids called a syndrome and why not a congenital disease",
+        "list the routes by which hiv transmission takes place",
+        "how does the aids virus destroy the immune system of the infected person",
+        "what role does reverse transcriptase play in hiv replication",
+        "which test detects hiv infection and which drugs partially hold aids off",
+        "why should hiv infected persons not be isolated from society"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Name the agent and its entry", "explain": "Hiv, an enveloped retrovirus, travels only in body fluids -- sexual contact, contaminated transfusions, shared needles, or mother-to-child across the placenta; touching carries no risk."},
+        {"step": 2, "action": "Follow the replication", "explain": "Inside macrophages, reverse transcriptase copies viral rna into dna that splices into the host genome, so the cell keeps manufacturing virus -- a hiv factory."},
+        {"step": 3, "action": "Watch the immune collapse", "explain": "Progeny virus then invades helper t-lymphocytes, repeating the cycle; the t-cell count steadily falls, fever, diarrhoea and weight loss set in, and trivial infections by mycobacterium, fungi or toxoplasma turn deadly."},
+        {"step": 4, "action": "Test, delay, prevent", "explain": "Elisa detects the infection, anti-retroviral drugs only stretch life, and naco/who programmes push safe blood, disposable needles, condoms and regular check-ups -- the only real defence, since symptoms may lag 5-10 years."}
+      ]
+    },
+    {
+      "id": "lebo107.7.4.1",
+      "title": "Cancer Cells, Tumours and Metastasis",
+      "section": "7.4",
+      "definition": "Normal cells stop dividing on touching their neighbours -- a restraint called contact inhibition -- and cancer begins when that control breaks; unrestrained division builds tumours, with benign masses staying home while malignant ones invade nearby tissue, out-compete normal cells for nutrients, and shed cells that ride the blood to seed new tumours elsewhere -- metastasis, the feared signature of malignancy.",
+      "formula": "",
+      "key_idea": "The difference between a contained lump and a lethal cancer is spread -- loss of contact inhibition first, metastasis second.",
+      "textbook_ref": "lebo107.txt lines 557-583 (contact inhibition, benign vs malignant tumours, neoplastic cells, metastasis)",
+      "question_patterns": [
+        "how does a cancerous cell differ from a normal cell",
+        "what is contact inhibition and what happens when cells lose it",
+        "differentiate benign tumours from malignant tumours",
+        "explain what metastasis means and why it is feared",
+        "how do malignant tumour cells starve the surrounding normal tissue",
+        "what are neoplastic cells"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Recall the normal brake", "explain": "Cell growth and differentiation are tightly regulated, and contact with other cells inhibits further division -- contact inhibition."},
+        {"step": 2, "action": "Break the brake", "explain": "Cancerous cells lose this restraint and divide endlessly, piling into masses called tumours."},
+        {"step": 3, "action": "Sort the tumours", "explain": "Benign ones stay put and do little harm; malignant (neoplastic) ones grow fast, invade and damage surrounding tissue, and grab the nutrients normal cells need."},
+        {"step": 4, "action": "Follow the spread", "explain": "Cells sloughing off the malignant mass travel in blood, lodge at distant sites and start fresh tumours -- metastasis, why early detection matters so much."}
+      ]
+    },
+    {
+      "id": "lebo107.7.4.2",
+      "title": "Cancer Causes, Detection and Treatment",
+      "section": "7.4",
+      "definition": "Carcinogens -- ionising x- and gamma rays, ultraviolet light, tobacco-smoke chemicals, and oncogenic viruses carrying viral oncogenes -- push normal cells into cancer, often by waking the cell's own proto oncogenes; diagnosis leans on biopsy and histopathology, blood and marrow counts for leukemias, radiography, ct and mri imaging, and even cancer-specific antibodies, while treatment combines surgery, radiotherapy, chemotherapy and immune boosters like alpha-interferon.",
+      "formula": "",
+      "key_idea": "Early detection saves -- a biopsy read under the microscope remains the decisive test, and knowing one's inherited susceptibility says which carcinogens to shun.",
+      "textbook_ref": "lebo107.txt lines 584-631 (carcinogens, viral and cellular oncogenes, biopsy, CT/MRI, surgery/radio/chemo/immunotherapy)",
+      "question_patterns": [
+        "name the physical chemical and biological agents that cause cancer",
+        "what are oncogenic viruses and how do their genes promote cancer",
+        "what role do cellular oncogenes or proto oncogenes play in transformation",
+        "how is a biopsy used in the detection of cancer",
+        "compare the imaging techniques ct and mri for detecting internal tumours",
+        "list the common approaches used to treat cancer"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "List the triggers", "explain": "Physical (x-rays, gamma rays, uv), chemical (tobacco smoke -- a major lung-cancer cause) and biological (oncogenic viruses with viral oncogenes) agents all damage or reprogram dna."},
+        {"step": 2, "action": "Blame the sleeping genes", "explain": "Normal cells carry cellular oncogenes (c-onc) or proto oncogenes that, once activated under certain conditions, drive oncogenic transformation."},
+        {"step": 3, "action": "Detect early", "explain": "Biopsy with histopathological study of stained thin sections, blood and bone-marrow counts for leukemias, radiography, ct (x-ray based 3-d imaging) and mri (magnetic fields, non-ionising), plus antibodies against cancer-specific antigens and molecular tests for inherited susceptibility."},
+        {"step": 4, "action": "Treat on several fronts", "explain": "Surgery removes the mass, radiotherapy lethally irradiates tumour cells while sparing neighbours, chemotherapeutic drugs kill dividing cells (hair loss and anaemia are familiar side effects), and biological response modifiers such as alpha-interferon wake the patient's own immune system against the tumour."}
+      ]
+    },
+    {
+      "id": "lebo107.7.5.1",
+      "title": "Drugs of Abuse: Opioids, Cannabinoids, Cocaine and Tobacco",
+      "section": "7.5",
+      "definition": "The commonly abused plant-derived drugs sort into three receptor families: opioids such as heroin (diacetylmorphine from poppy latex) that sedate by binding opioid receptors in the central nervous system and gut; cannabinoids from cannabis sativa inflorescences -- marijuana, hashish, charas, ganja -- acting on brain cannabinoid receptors; and cocaine from erythroxylum coca, which blocks dopamine transport and sparks euphoria or hallucinations, while tobacco's nicotine raises blood pressure and heart rate through adrenaline release.",
+      "formula": "",
+      "key_idea": "Each drug class hooks a different receptor system -- sedation, cardiovascular distortion or stimulation -- and smoking doubles as a gateway to harder drugs and several cancers.",
+      "textbook_ref": "lebo107.txt lines 632-707 (opioids/heroin, cannabinoids, cocaine, barbiturates, morphine, nicotine effects)",
+      "question_patterns": [
+        "from which plant is heroin obtained and what is its chemical name",
+        "how do opioids act on the central nervous system",
+        "which plant yields cannabinoids and name the products made from it",
+        "how does cocaine produce euphoria and what does excess dose cause",
+        "why does nicotine raise blood pressure and heart rate",
+        "which cancers and lung diseases are linked with smoking and tobacco chewing"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Sort the opioid family", "explain": "Opioids bind specific receptors in the central nervous system and gastrointestinal tract; heroin (smack) is acetylated morphine from papaver somniferum latex -- a depressant that slows body functions, while morphine itself serves as sedative and painkiller after surgery."},
+        {"step": 2, "action": "Sort the cannabinoid family", "explain": "Cannabinoids from cannabis sativa flower tops, leaves and resin hit cannabinoid receptors chiefly in the brain, giving marijuana, hashish, charas and ganja -- known for cardiovascular effects and also abused by some sportspersons."},
+        {"step": 3, "action": "Sort the coca alkaloid", "explain": "Cocaine (coke or crack) from erythroxylum coca interferes with dopamine transport; snorted, it stimulates the central nervous system into euphoria and excess doses bring hallucinations -- atropa belladona and datura are other hallucinogenic plants."},
+        {"step": 4, "action": "Add tobacco and the medical sedatives", "explain": "Nicotine spurs the adrenal gland to release adrenaline and nor-adrenaline, raising blood pressure and heart rate, cutting oxygen carriage via carbon monoxide, and raising risks of lung, bladder, throat and oral cancers; prescribed barbiturates, amphetamines and benzodiazepines are abused too."}
+      ]
+    },
+    {
+      "id": "lebo107.7.5.2",
+      "title": "Addiction, Dependence and Prevention among Adolescents",
+      "section": "7.5.1, 7.5.2, 7.5.3, 7.5.4",
+      "definition": "Adolescence, the bridge from childhood to adulthood around 12-18 years, is the vulnerable window where curiosity, exam stress and peer pressure pull youngsters toward drugs and alcohol; repeated use raises receptor tolerance so higher doses are needed (addiction), and abrupt stopping brings withdrawal -- anxiety, shakiness, nausea, sweating (dependence) -- so prevention leans on avoiding peer pressure, education, family support, watching for danger signs and professional de-addiction help.",
+      "formula": "",
+      "key_idea": "Tolerance traps the user into escalation while withdrawal traps them into continuation -- breaking either needs counselling and medical support, not willpower alone.",
+      "textbook_ref": "lebo107.txt lines 708-872 (adolescence, addiction, tolerance, withdrawal syndrome, effects, prevention steps)",
+      "question_patterns": [
+        "why is adolescence the most vulnerable period for drug and alcohol abuse",
+        "differentiate addiction from dependence in substance abuse",
+        "what is withdrawal syndrome and what are its common symptoms",
+        "how does rising tolerance of receptors worsen drug abuse",
+        "list the warning signs that a youngster may be abusing drugs or alcohol",
+        "which measures help prevent and control substance abuse among youth"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "Spot the gateway motives", "explain": "Curiosity, adventure, perceived benefits, academic stress, the notion of being cool, media portrayals, unstable families and peer pressure all push first use during adolescence (12-18 years)."},
+        {"step": 2, "action": "Define addiction", "explain": "A psychological attachment to effects like euphoria grows with repeated use; body receptors tolerate rising doses, so intake escalates -- even one use can seed the spiral."},
+        {"step": 3, "action": "Define dependence", "explain": "The body then rebels at abrupt stoppage with a withdrawal syndrome -- anxiety, shakiness, nausea, sweating -- relieved only by resuming, sometimes life-threatening enough to need medical supervision."},
+        {"step": 4, "action": "Lay out the rescue plan", "explain": "Avoid undue peer pressure, educate and counsel, seek help from parents, peers and teachers early, watch for danger signs like falling grades and isolation, and use professional psychologists, psychiatrists and de-addiction programmes; immediate effects already include violence, coma and death from respiratory or heart failure, and shared needles add aids and hepatitis b."}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we_lebo107_1",
+      "source_ref": "lebo107.txt lines 160-175 (Plasmodium life cycle and two hosts)",
+      "concept": "lebo107.7.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "A patient in a malaria-endemic district suffers chills and high fever every {fever_interval} days. Identify the pathogen, its vector, and the toxin behind the fever.",
+      "extracted_variables": {
+        "fever_interval": "3 to 4"
+      },
+      "solution_template": [
+        {"step": 1, "action": "Name the pathogen and vector", "explain": "Recurring 3-4 day fever points to plasmodium, injected as sporozoites by the female anopheles mosquito."},
+        {"step": 2, "action": "Trace the cycle", "explain": "Sporozoites multiply in liver cells, then rupture red blood cells, releasing haemozoin -- the toxin causing the periodic chills and fever."},
+        {"step": 3, "action": "Note the two-host requirement", "explain": "The parasite completes its cycle only across human and mosquito hosts, so controlling breeding grounds attacks the chain."}
+      ]
+    },
+    {
+      "id": "we_lebo107_2",
+      "source_ref": "lebo107.txt lines 367-396 (active and passive immunity, colostrum, antitoxin)",
+      "concept": "lebo107.7.2.3",
+      "question_type": "verify_property",
+      "question_pattern": "A snakebite victim reaches a clinic minutes after the bite. Decide whether a vaccine or a preformed antibody injection is appropriate, and justify the choice.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "Judge the time available", "explain": "Venom acts within minutes; a vaccine would need the body's slow active response to build its own antibodies."},
+        {"step": 2, "action": "Choose passive immunisation", "explain": "Preformed antibodies against snake venom are injected directly -- immediate protection with no waiting for memory cells."},
+        {"step": 3, "action": "Contrast with vaccination", "explain": "Vaccines suit prevention by priming memory b and t cells, as in the hepatitis b from yeast or the eradication of smallpox -- the wrong tool for an emergency envenomation."}
+      ]
+    },
+    {
+      "id": "we_lebo107_3",
+      "source_ref": "lebo107.txt lines 273-308 and 309-366 (innate barriers vs acquired response)",
+      "concept": "lebo107.7.2.1",
+      "question_type": "verify_property",
+      "question_pattern": "Classify each defence as innate or acquired: skin, antibodies of the igg class, stomach acid, and memory b cells.",
+      "extracted_variables": {},
+      "solution_template": [
+        {"step": 1, "action": "Apply the specificity test", "explain": "Innate defences are non-specific and present from birth; acquired defences are pathogen-specific and carry memory."},
+        {"step": 2, "action": "Sort each item", "explain": "Skin and stomach acid are innate physical and physiological barriers; igg antibodies and memory b cells belong to the acquired, antigen-specific arm."}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_lebo107_1",
+      "source_ref": "lebo107.txt lines 890-944 (end-of-chapter exercises 1-17, reworded)",
+      "questions": [
+        "Suggest the public health measures that would safeguard people against infectious diseases.",
+        "In what ways has biological knowledge helped humanity control infectious diseases?",
+        "Describe how amoebiasis, malaria, ascariasis and pneumonia each spread from person to person.",
+        "What steps would you take to prevent water-borne diseases?",
+        "Discuss with your teacher what 'a suitable gene' refers to in the design of dna vaccines.",
+        "List the primary and the secondary lymphoid organs of the human body.",
+        "Expand the abbreviations malt, cmi, aids, naco and hiv.",
+        "Contrast innate with acquired immunity and active with passive immunity, giving examples of each.",
+        "Draw a well-labelled diagram of an antibody molecule.",
+        "Through which routes does the human immuno-deficiency virus pass between people?",
+        "Explain the mechanism by which the aids virus leaves its host without a working immune system.",
+        "In what respects is a cancerous cell unlike a normal cell?",
+        "Explain what metastasis means.",
+        "List the harmful effects of alcohol and drug abuse on the individual and the family.",
+        "Can friends influence a person toward alcohol or drugs, and how can one resist such pressure?",
+        "Why is it so hard to give up alcohol or drugs once the habit has formed?",
+        "What draws youngsters toward alcohol or drugs in your view, and how can those pulls be countered?"
+      ]
+    }
+  ]
+}

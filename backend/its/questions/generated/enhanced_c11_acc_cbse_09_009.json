@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_09_009",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_09_009",
+   "title": "c11_acc_cbse_09_009",
+   "questions": [
+    {
+     "q": "A trader sends goods costing ₹8,000 to a customer on approval basis at a sale price of ₹10,000 on March 25. The accountant records it as a regular sale. On March 31 (year-end), the customer has not yet approved. What is the correct adjustment entry to reverse the sale?",
+     "a": "**Correct Answer:**  \nSales A/c Dr. ₹10,000  \n To Debtors A/c ₹10,000  \n(Being sale on approval reversed as approval not received by year-end)\n\n**Why wrong answers reveal misunderstanding:**  \nIf a student debits Debtors and credits Sales, they confuse the direction of reversal. If they use ₹8,000 (cost) instead of ₹10,000 (sale price), they don't understand that the original entry was at sale price, so reversal must be at the same amount. If they omit this entry entirely, they fail to recognize that unapproved goods do not constitute revenue.",
+     "self_check": true
+    },
+    {
+     "q": "In the same scenario (goods costing ₹8,000 sent at ₹10,000 on approval, recorded as sale, unapproved at year-end), a student passes only the first entry (reversing sale) and forgets the second entry for stock. Explain why the financial statements will still be incorrect.",
+     "a": "**Correct Answer:**  \nWithout the second entry (Stock on Approval A/c Dr. ₹8,000 to Trading A/c ₹8,000), the Trading Account will not include these goods in closing stock. This understates gross profit by ₹8,000 (since closing stock is credited to Trading Account) and understates current assets in the Balance Sheet by ₹8,000. The reversal of sale reduces revenue by ₹10,000, but without adding back the cost, the net effect is an artificial reduction of profit by ₹10,000 instead of the correct reduction of only the unrealized profit of ₹2,000.\n\n**Why wrong answers reveal misunderstanding:**  \nIf the student thinks the first entry alone is sufficient, they don't grasp the dual effect of adjustments (every adjustment hits two places). If they add the stock at sale price (₹10,000), they violate the cost concept (stock valued at cost, not sale price). If they debit Trading A/c and credit Stock, they reverse the correct direction.",
+     "self_check": true
+    },
+    {
+     "q": "Goods costing ₹12,000 were sent on approval at ₹15,000 on March 20 and recorded as sales. On March 31, the customer approves the goods. No adjustment is needed. True or False? Justify.",
+     "a": "**Correct Answer:**  \nTrue. No adjustment is needed because the sale is now confirmed (approval received before year-end). The original entry (Debtors Dr. ₹15,000 to Sales ₹15,000) is correct. The goods are no longer the seller's stock; they belong to the customer. The profit of ₹3,000 is rightly recognized in the current year.\n\n**Why wrong answers reveal misunderstanding:**  \nIf the student says \"False, we still need to adjust,\" they confuse \"goods sent on approval\" with \"goods awaiting approval at year-end.\" They fail to distinguish between the *transaction type* (which is fine) and the *year-end status* (which triggers adjustment). If they say we need to reverse and re-record, they don't understand that approval converts the conditional sale into a final sale retroactively.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the treatment of \"Goods sent on approval\" with \"Goods sent on consignment\" at year-end when goods remain unsold/unapproved. Identify two key differences in accounting treatment.",
+     "a": "**Correct Answer:**  \n1. **Ownership:** In approval, ownership transfers only on approval; in consignment, ownership remains with consignor throughout.  \n2. **Valuation of unsold stock:** Approval stock is valued at *cost* (since it's the seller's own stock). Consignment stock is valued at *cost + proportionate non-recurring expenses* (e.g., freight, insurance) because the consignor incurs extra costs to send goods to the consignee's location.  \n3. **Revenue recognition:** Approval sale recognized at approval date; consignment sale recognized only when consignee sells to third party.\n\n**Why wrong answers reveal misunderstanding:**  \nIf the student values approval stock at invoice price, they treat it like consignment stock (which is sometimes valued at invoice price for memorandum purposes). If they say both require a \"stock reserve\" for unrealized profit, they confuse approval (where unrealized profit is eliminated by reversing sale) with consignment (where stock reserve is created on consignment stock). If they think both are the seller's stock, they miss the legal distinction.",
+     "self_check": true
+    },
+    {
+     "q": "A company sends goods on approval frequently. At year-end, 20 such transactions are pending approval. The accountant proposes: \"Instead of reversing each sale individually, let's just reduce Sales by total invoice price and increase Closing Stock by total cost.\" Evaluate this proposal.",
+     "a": "**Correct Answer:**  \nThe proposal is **correct in effect but incomplete in procedure**. The net impact on Trading Account and Balance Sheet is identical: Sales reduced by total invoice price, Closing Stock increased by total cost. However, proper accounting requires individual journal entries (or a combined entry with narration) to maintain audit trail, allow customer-wise tracking (for follow-up), and ensure the Debtors control account agrees with the subsidiary ledger. Skipping individual reversals makes it impossible to identify which specific customers still need to approve/return goods.\n\n**Why wrong answers reveal misunderstanding:**  \nIf the student says \"It's wrong because we must reverse each sale separately,\" they prioritize form over substance and don't understand that combined entries are acceptable if supported by a schedule. If they say \"It's perfectly fine, no need for journal entries,\" they neglect internal control and reconciliation requirements. If they suggest reducing Debtors by cost instead of invoice price, they confuse the two accounts affected.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new adjustment problem (with numbers) involving goods sent on approval where: (a) some goods are approved before year-end, (b) some are returned after year-end, and (c) some are still pending. Provide the additional information note as it would appear in a board exam question.",
+     "a": "**Expected Answer (example):**  \n*Additional Information:*  \n1. Goods costing ₹25,000 were sent on approval at ₹30,000 on March 15 and recorded as sales. Of these:  \n   - Goods costing ₹10,000 (invoice ₹12,000) were approved by the customer on March 28.  \n   - Goods costing ₹5,000 (invoice ₹6,000) were returned by the customer on April 5.  \n   - The remaining goods are still with the customer awaiting approval.  \n\n**Criteria for good answer:**  \n- Clearly states cost and invoice price for each category.  \n- Specifies dates showing approval/return before/after year-end.  \n- Only the \"awaiting approval\" portion requires adjustment.  \n- The returned goods (after year-end) do NOT require adjustment at year-end (they were still unapproved on March 31).  \n\n**Why poor answers reveal misunderstanding:**  \nIf the student includes the returned goods in the adjustment, they confuse subsequent events with year-end status. If they exclude the approved goods correctly but forget to mention them, the problem is incomplete. If they set all goods at same cost/invoice ratio, they oversimplify and miss the need to calculate cost per transaction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_05_002",
+   "title": "c11_cs_cbse_05_002",
+   "questions": [
+    {
+     "q": "What is the output of the expression `\"5\" > 5` in Python, and why does Python behave this way?",
+     "a": "The expression raises a TypeError: '>' not supported between instances of 'str' and 'int'. Python 3 does not allow implicit comparison between strings and numbers, unlike Python 2. A wrong answer (e.g., claiming it returns True or False) reveals the student assumes Python performs automatic type conversion during comparison, which is a common misconception from languages like JavaScript or from misunderstanding Python's dynamic typing.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words how Python evaluates the chained comparison `x < y < z`. Is it equivalent to `(x < y) < z` or `(x < y) and (y < z)`? Justify with an example where the two interpretations would give different results.",
+     "a": "Python evaluates `x < y < z` as `(x < y) and (y < z)` with `y` evaluated only once. It is NOT equivalent to `(x < y) < z`. For example, with x=10, y=20, z=15: `(10 < 20) and (20 < 15)` → `True and False` → `False`. But `(10 < 20) < 15` → `True < 15` → `True` (since True == 1, and 1 < 15). A wrong answer reveals the student thinks chained comparisons are left-associative like arithmetic operators, misunderstanding Python's special chaining semantics.",
+     "self_check": true
+    },
+    {
+     "q": "Given `a = 10`, `b = 3`, `c = 7`, evaluate the expression `a // b > c % b >= a % c` step by step, showing how operator precedence affects the order of evaluation.",
+     "a": "Step 1: Arithmetic operators have higher precedence than relational. Compute `a // b` → `10 // 3` → `3`. Step 2: Compute `c % b` → `7 % 3` → `1`. Step 3: Compute `a % c` → `10 % 7` → `3`. Step 4: Expression becomes `3 > 1 >= 3`. Step 5: Chained comparison evaluates as `(3 > 1) and (1 >= 3)` → `True and False` → `False`. A wrong answer (e.g., evaluating left-to-right ignoring precedence) reveals confusion about the precedence hierarchy: arithmetic (**, *, /, //, %, +, -) > relational (==, !=, >, <, >=, <=) > logical (not, and, or).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the string comparisons `\"Zebra\" > \"apple\"` and `\"Zebra\" > \"Apple\"`. Explain why the results differ, and describe the exact rule Python uses for string comparison.",
+     "a": "`\"Zebra\" > \"apple\"` is `False` (Z=90, a=97 → 90 < 97). `\"Zebra\" > \"Apple\"` is `True` (Z=90, A=65 → 90 > 65). Python compares strings lexicographically using Unicode code points (ASCII subset for English letters): uppercase letters (65-90) have lower code points than lowercase (97-122). A wrong answer reveals the student assumes alphabetical order ignoring case, or thinks Python compares string lengths, or is unaware that case matters in default string comparison.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `if 0 < x < 100:` to check if x is strictly between 0 and 100. Another writes `if 0 < x and x < 100:`. Are these always equivalent? Evaluate both for x = 50, x = -5, and x = 105. Then argue which form is better style and why, considering readability and the \"evaluate once\" property.",
+     "a": "For x=50: both `True`. For x=-5: both `False`. For x=105: both `False`. They are logically equivalent for all values. However, `0 < x < 100` is better style because: (1) it reads like mathematical notation, (2) x is evaluated only once (critical if x is a function call with side effects), (3) it is less error-prone than writing the variable twice. A student who claims they differ for some values misunderstands chained comparison semantics; one who prefers the `and` form misses Python's elegant chaining feature.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where a Boolean expression using at least three different relational operators and one chained comparison would be needed. Write the Python expression and explain each part.",
+     "a": "Scenario: A railway concession program checks if a passenger qualifies for a senior citizen discount. Conditions: age ≥ 60, distance > 500 km, and fare between ₹1000 and ₹5000 inclusive. Expression: `age >= 60 and distance > 500 and 1000 <= fare <= 5000`. Parts: `age >= 60` (>= relational), `distance > 500` (> relational), `1000 <= fare <= 5000` (chained comparison with <= twice). A poor answer uses only one operator type, omits chained comparison, or creates an unrealistic scenario (e.g., comparing unrelated quantities like age and fare directly).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

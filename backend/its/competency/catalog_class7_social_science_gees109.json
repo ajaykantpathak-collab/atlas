@@ -1,0 +1,210 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 9,
+ "chapter_title": "From the Rulers to the Ruled: Types of Governments",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gees109.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gees.9.1",
+   "title": "Government and the Ruler's Duties",
+   "section": "Introduction",
+   "definition": "Government is the machinery that rules a country on the people's behalf; Kautilya sums a ruler's internal duties as three-fold, raksha or protection from aggression, palana or law and order within, and yogakshema or the welfare of the people.",
+   "formula": "duties = raksha + palana + yogakshema",
+   "key_idea": "Whoever rules is answerable for safety, order and welfare; types of government differ in who checks that answer.",
+   "textbook_ref": "gees109.txt, Introduction",
+   "question_patterns": [
+    "what are the three duties of a ruler according to kautilya",
+    "what does raksha palana and yogakshema mean",
+    "why does a country need a government",
+    "how do we judge whether a government is good",
+    "what is the difference between the state and the rulers",
+    "how does a government protect its people"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  },
+  {
+   "id": "gees.9.2",
+   "title": "Democracy: Direct and Representative",
+   "section": "Democratic forms",
+   "definition": "In a democracy the people are the source of power: direct democracy lets all citizens decide together, while representative democracy, India's model, elects law-makers who answer to voters at fixed intervals.",
+   "formula": "",
+   "key_idea": "Democracy turns rulers into servants: power is lent by the people and recalled at the ballot box.",
+   "textbook_ref": "gees109.txt, Democratic forms",
+   "question_patterns": [
+    "what is the difference between direct and representative democracy",
+    "why does a large country need representative democracy",
+    "how do elections keep rulers answerable",
+    "what role does the citizen play between elections",
+    "which form of democracy does india follow",
+    "why is the vote called the citizen's power"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set the two sides",
+     "explain": "Write the two ideas, places or periods side by side."
+    },
+    {
+     "step": 2,
+     "action": "mark what differs",
+     "explain": "Note the points on which they differ and one point they share."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State in one line what the comparison teaches."
+    }
+   ]
+  },
+  {
+   "id": "gees.9.3",
+   "title": "Monarchy and Other Forms of Rule",
+   "section": "Monarchy",
+   "definition": "In a monarchy rule passes by birth within a royal family, and the ruler is not elected; the chapter studies a different kind of monarchy too, where the king's power is checked by custom and counsel.",
+   "formula": "",
+   "key_idea": "Monarchy bets on birth, democracy on ballots; history shows both can rule well or badly, but only one answers to the people.",
+   "textbook_ref": "gees109.txt, Monarchy",
+   "question_patterns": [
+    "how does a monarchy choose its ruler",
+    "can a monarch be limited by customs give examples",
+    "how is a king different from an elected prime minister",
+    "which ancient indian texts discuss limits on kings",
+    "why do some monarchies survive in today's world",
+    "compare the position of a monarch and a president"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set the two sides",
+     "explain": "Write the two ideas, places or periods side by side."
+    },
+    {
+     "step": 2,
+     "action": "mark what differs",
+     "explain": "Note the points on which they differ and one point they share."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State in one line what the comparison teaches."
+    }
+   ]
+  },
+  {
+   "id": "gees.9.4",
+   "title": "Who Checks the Rulers",
+   "section": "Conclusion",
+   "definition": "Every form of government needs a check: democracies use constitutions and elections, even monarchies leaned on dharma and counsellors; where no check exists, the ruled have no remedy against misrule.",
+   "formula": "",
+   "key_idea": "Power without accountability decays: the health of any government lies in what can question it.",
+   "textbook_ref": "gees109.txt, Conclusion",
+   "question_patterns": [
+    "why must every government be checked",
+    "which checks exist in a democracy",
+    "what checked kings in ancient india",
+    "what happens when rulers face no accountability",
+    "how do citizens question their government",
+    "compare the checks on power in monarchy and democracy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gees109.txt",
+   "concept": "gees.9.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why does democracy make recall of rulers peaceful?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "look at the source of power",
+     "explain": "In democracy power comes from the people through votes."
+    },
+    {
+     "step": 2,
+     "action": "see the transfer",
+     "explain": "Because power is lent for a term, changing a government needs only a new election, not a revolution."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gees109.txt",
+   "concept": "gees.9.2",
+   "question_type": "verify_property",
+   "question_pattern": "which forms of democratic government does the chapter explain?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gees109.txt, Let us explore",
+   "questions": [
+    "What are the three-fold duties of a ruler according to Kautilya?",
+    "Which forms of democratic government does the chapter explain?",
+    "What example of a different kind of monarchy is discussed?",
+    "Prepare a chart comparing democracy and monarchy.",
+    "Find the forms of government of five countries you know."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "psychology",
+  "chapter": 104,
+  "chapter_title": "Sensory, Attentional and Perceptual Processes",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kepy104.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kepy104.1.1",
+      "title": "Sensory Processes and the Nature of Stimuli",
+      "section": "4.1",
+      "definition": "Knowing the world begins with sensory processes: receptors in eyes, ears, skin, nose and mouth convert physical energy -- light, sound, pressure, molecules -- into neural signals. Each sense responds to its own stimulus within limits of intensity, so the world we register is only the band our receptors can catch.",
+      "formula": "",
+      "key_idea": "Senses are translators -- physical energy in, neural code out -- and each translates only its own band.",
+      "textbook_ref": "kepy104.txt sensory sections (nature of sensory processes, receptors, stimuli, modalities of sense)",
+      "question_patterns": [
+        "what are sensory processes in psychology",
+        "in class 11 sensory attentional and perceptual processes: how do receptors convert stimuli",
+        "why can humans not see all light that exists",
+        "list the senses and their stimuli",
+        "distinguish stimulus from sensation with an example",
+        "what happens when a receptor is stimulated below its threshold"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "identify the stimulus",
+          "explain": "Each sense answers a specific physical energy -- light for vision, sound waves for hearing, molecules for smell and taste."
+        },
+        {
+          "step": 2,
+          "action": "trace the transduction",
+          "explain": "Receptors convert that energy into neural impulses the brain can read."
+        },
+        {
+          "step": 3,
+          "action": "note the limits",
+          "explain": "Intensities below threshold go unregistered, so sensation already selects from reality."
+        }
+      ]
+    },
+    {
+      "id": "kepy104.1.2",
+      "title": "Attention: Selectivity and Its Determinants",
+      "section": "4.2",
+      "definition": "Attention selects a few stimuli for full processing and screens out the rest -- a spotlight with narrow beams. Its focus is driven both by stimulus properties (intensity, novelty, movement, contrast) and by personal factors (motive, interest, expectation), which is why the same lecture holds one student and bores another.",
+      "formula": "",
+      "key_idea": "Attention is a bouncer at the door of mind -- stimuli loud, new or interesting get in; the rest wait outside.",
+      "textbook_ref": "kepy104.txt attention sections (processes and types of attention, determinants of attention, selectivity, span of attention)",
+      "question_patterns": [
+        "define attention and explain its selective nature",
+        "in class 11 sensory attentional and perceptual processes: what stimulus factors attract attention",
+        "how do interest and motive direct attention",
+        "distinguish focused from divided attention",
+        "explain attention span with an example",
+        "why do we fail to notice events outside our attention"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "state the selectivity",
+          "explain": "Capacity is limited, so consciousness receives a selection, not the full stream."
+        },
+        {
+          "step": 2,
+          "action": "list the pull factors",
+          "explain": "Intensity, novelty, movement and contrast pull attention from outside; motives, interest and expectations pull from inside."
+        },
+        {
+          "step": 3,
+          "action": "note the types",
+          "explain": "Attention may be focused on one task or divided among several, with cost rising as division increases."
+        }
+      ]
+    },
+    {
+      "id": "kepy104.1.3",
+      "title": "Perception: Organisation of Sensation into Meaning",
+      "section": "4.3",
+      "definition": "Perception turns sensations into meaningful wholes: figures against grounds, grouped elements, completed outlines and depth read from cues. It is shaped by learning and motivation -- the same ambiguous drawing becomes a duck or a rabbit depending on the perceiver -- so perception is a construction, not a photograph.",
+      "formula": "",
+      "key_idea": "Perception is the mind's rendering -- sensations are raw pixels; meaning is drawn in by the perceiver.",
+      "textbook_ref": "kepy104.txt perception sections (form and space perception, figure ground, grouping, depth perception, principles of perceptual organisation, perceptual constancy)",
+      "question_patterns": [
+        "distinguish sensation from perception with an example",
+        "in class 11 sensory attentional and perceptual processes: explain figure ground organisation",
+        "how do we perceive depth with two eyes",
+        "what is perceptual constancy give examples",
+        "how do needs and expectations shape perception",
+        "explain the gestalt principles of perceptual grouping"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "organise figure and ground",
+          "explain": "The perceptual system splits the field into a focused figure against a receding ground."
+        },
+        {
+          "step": 2,
+          "action": "group and complete",
+          "explain": "Elements near each other, similar, or moving together group into wholes; gaps get filled in."
+        },
+        {
+          "step": 3,
+          "action": "add depth and meaning",
+          "explain": "Cues from both eyes and from motion give depth; past experience and motives give objects their meaning and stability."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kepy104.txt attention sections",
+      "concept": "kepy104.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "In a noisy fair, a mother instantly hears her child's voice calling from far away. Explain this using the determinants of attention.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "note the personal factor",
+          "explain": "The child's voice is supremely significant to the mother -- a motivational determinant."
+        },
+        {
+          "step": 2,
+          "action": "contrast with strangers' voices",
+          "explain": "Louder but less meaningful voices fail to capture her the same way."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "Attention follows significance as well as loudness -- inner determinants can beat outer intensity."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kepy104.txt perception sections",
+      "concept": "kepy104.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "A friend reads an ambiguous drawing as a young woman; you see an old woman. Explain the difference using perceptual processes.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "note the same stimulus",
+          "explain": "The ink pattern reaching both retinas is identical -- sensation is the same."
+        },
+        {
+          "step": 2,
+          "action": "differ the organisation",
+          "explain": "Each mind groups lines into a different figure -- organisation is constructive."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "Experience and expectation complete the drawing differently -- perception is interpretation, not copying."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kepy104.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Distinguish sensation from perception with examples.",
+        "Explain the determinants of attention.",
+        "Describe the nature of sensory processes and receptors.",
+        "Explain figure-ground and grouping in perception.",
+        "What cues help us perceive depth?",
+        "How do motivation and expectation bias what we perceive?"
+      ]
+    }
+  ]
+}

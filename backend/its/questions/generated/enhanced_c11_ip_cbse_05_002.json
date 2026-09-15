@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_05_002",
+   "title": "c11_ip_cbse_05_002",
+   "questions": [
+    {
+     "q": "What is the exact syntax to define a function named `greet` that takes no parameters and prints \"Hello\"?",
+     "a": "The correct syntax is:\n```\ndef greet():\n    print(\"Hello\")\n```\nA wrong answer (e.g., missing colon, incorrect indentation, or using `function` instead of `def`) reveals that the student has not memorized the precise syntax rules for function definition in Python.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what happens when Python encounters a function definition versus when it encounters a function call.",
+     "a": "When Python sees a function definition (`def ...:`), it creates a function object and binds it to the given name but does not execute the body. When a function call (`name()`) is encountered, Python executes the body of the function. A wrong answer (e.g., saying the body runs at definition time) reveals the common misconception that defining a function runs its code.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python program that defines a function `print_line()` which prints a line of 20 dashes, and then calls it three times to produce three separate lines.",
+     "a": "```python\ndef print_line():\n    print(\"-\" * 20)\n\nprint_line()\nprint_line()\nprint_line()\n```\nOutput:\n```\n--------------------\n--------------------\n--------------------\n```\nA wrong answer (e.g., calling the function inside the definition, or not calling it at all) reveals the student cannot apply the concept of separate definition and call to produce repeated output.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the following code:\n```python\ndef show():\n    print(\"A\")\nprint(\"B\")\nshow()\nprint(\"C\")\n```\nPredict the exact output and explain the order of execution.",
+     "a": "Output:\n```\nB\nA\nC\n```\nExplanation: The definition of `show` is skipped initially. `print(\"B\")` runs first, then `show()` is called, which prints \"A\", then `print(\"C\")` runs. A wrong answer (e.g., printing A before B) reveals the student does not understand that function definitions are not executed until called, and that code executes sequentially from top to bottom.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes:\n```python\ndef calculate():\n    a = 10\n    b = 20\n    print(a + b)\ncalculate\n```\nThe program runs without error but prints nothing. Evaluate why this happens and how to fix it.",
+     "a": "The student wrote `calculate` (without parentheses) which is just a reference to the function object, not a call. To fix, change the last line to `calculate()`. A wrong answer (e.g., thinking the function runs automatically) reveals the misconception that naming a function invokes it; the student must understand that parentheses are mandatory for calling.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new function named `welcome_user` that prints a welcome message including your name, and then write a short program that calls it twice with a blank line between the calls (i.e., print an empty line between the two calls).",
+     "a": "Example answer:\n```python\ndef welcome_user():\n    print(\"Welcome, Aryan!\")\n\nwelcome_user()\nprint()\nwelcome_user()\n```\nOutput:\n```\nWelcome, Aryan!\n\nWelcome, Aryan!\n```\nA poor answer might omit the blank line or call the function only once, revealing the student cannot combine function calls with other statements to control output formatting.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

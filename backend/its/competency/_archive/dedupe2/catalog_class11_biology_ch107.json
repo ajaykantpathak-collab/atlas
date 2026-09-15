@@ -1,0 +1,382 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 107,
+ "chapter_title": "Structural Organisation in Animals",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/kebo107.txt",
+ "concepts": [
+  {
+   "id": "kebo.107.1",
+   "title": "Organ and Organ System Level of Organisation",
+   "section": "7.1",
+   "definition": "The structural arrangement where distinct groups of tissues assemble to construct organs, which further cooperate physically or chemically to execute higher-level physiological functions.",
+   "formula": "organ_system = sum(interacting_organs)",
+   "key_idea": "Tissue integration forming organs and organ systems enables efficient functional division of labor in complex multicellular bodies.",
+   "textbook_ref": "kebo107.txt lines 1-40",
+   "question_patterns": [
+    "explain the organ system level of organisation in Class 11 biology",
+    "how do tissues and organs demonstrate division of labor in multicellular animals",
+    "describe how basic tissues assemble to form an organ like the heart",
+    "what is meant by evolutionary trend in organ system complexity",
+    "differentiate between morphology and anatomy in animal structural organisation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify cellular and tissue composition",
+     "explain": "Groups of similar cells and extracellular matrix form basic tissues such as epithelial, connective, muscular, and neural tissue."
+    },
+    {
+     "step": 2,
+     "action": "explain organ and organ system formation",
+     "explain": "Basic tissues associate in specific patterns to build organs, which further combine through physical or chemical interaction into functional organ systems."
+    }
+   ]
+  },
+  {
+   "id": "kebo.107.2",
+   "title": "Adaptive Features and Environmental Survival in Frogs",
+   "section": "7.2",
+   "definition": "Ecological and physiological strategies employed by amphibians, including variable body temperature, protective color alteration, and dormant survival periods during climatic extremes.",
+   "formula": "body_temp = environmental_temp",
+   "key_idea": "Poikilothermy, camouflage, aestivation, and hibernation allow frogs to survive environmental fluctuations.",
+   "textbook_ref": "kebo107.txt lines 41-55",
+   "question_patterns": [
+    "explain how frogs adapt to extreme summer and winter conditions",
+    "what is poikilothermy and how does it affect the body temperature of Rana tigrina",
+    "distinguish between aestivation and hibernation in Class 11 biology",
+    "how does camouflage or mimicry provide survival advantage to frogs",
+    "describe the taxonomic position and Indian species of frog"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define poikilothermy and camouflage",
+     "explain": "Frogs are cold-blooded animals whose temperature tracks the ambient environment, and they alter skin coloration to blend into surroundings."
+    },
+    {
+     "step": 2,
+     "action": "explain dormant survival modes",
+     "explain": "Burrowing deep underground enables summer sleep (aestivation) during extreme heat and winter sleep (hibernation) during extreme cold."
+    }
+   ]
+  },
+  {
+   "id": "kebo.107.3",
+   "title": "External Morphology and Sexual Dimorphism of Frog",
+   "section": "7.2.1",
+   "definition": "The external structural traits of a frog including moist mucus-covered skin, division into head and trunk, limb digit variations, and gender-identifying features.",
+   "formula": "hindlimb_digits = forelimb_digits + 1",
+   "key_idea": "Frogs lack a neck and tail, possess webbed hind digits for swimming, and display male-specific vocal sacs and copulatory pads.",
+   "textbook_ref": "kebo107.txt lines 56-85",
+   "question_patterns": [
+    "describe the external morphological features of Rana tigrina",
+    "how can male and female frogs be morphologically distinguished",
+    "what features of frog skin assist in its aquatic and terrestrial lifestyle",
+    "compare the structure and digit count of forelimbs and hindlimbs in frog",
+    "explain the role of the nictitating membrane and tympanum in frogs"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe body divisions and specialized integument",
+     "explain": "The body consists of head and trunk without neck or tail; smooth moist skin absorbs water directly without drinking."
+    },
+    {
+     "step": 2,
+     "action": "identify sexual dimorphic traits",
+     "explain": "Male frogs possess vocal sacs for sound production and copulatory pads on the first digit of forelimbs, which are absent in females."
+    }
+   ]
+  },
+  {
+   "id": "kebo.107.4",
+   "title": "Digestive System and Processing of Food in Frog",
+   "section": "7.2.2",
+   "definition": "The complete alimentary tract and associated digestive glands adapted for a carnivorous diet, involving prey capture by a bifid tongue, stomach secretion, and enzymatic breakdown.",
+   "formula": "digested_nutrients = stomach_action + liver_bile + pancreatic_enzymes",
+   "key_idea": "Short alimentary canal processing carnivorous diet via liver bile, pancreatic enzymes, and intestinal villi absorption.",
+   "textbook_ref": "kebo107.txt lines 86-125",
+   "question_patterns": [
+    "trace the pathway of food through the digestive tract of a frog",
+    "why is the alimentary canal of frog short compared to herbivores",
+    "explain the digestive secretions produced by the stomach, liver, and pancreas in frog",
+    "describe how digested food is absorbed in the small intestine of frog",
+    "what is the function of the bilobed tongue and cloaca in frog digestion"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the digestive canal path",
+     "explain": "Prey captured by bilobed tongue moves from mouth to pharynx, short oesophagus, stomach, small intestine (duodenum), rectum, and cloaca."
+    },
+    {
+     "step": 2,
+     "action": "detail chemical digestion and absorption",
+     "explain": "Gastric HCl converts food to chyme; common bile duct delivers liver bile (fat emulsification) and pancreatic juice (carbohydrates and proteins digestion) to duodenum; villi absorb nutrients."
+    }
+   ]
+  },
+  {
+   "id": "kebo.107.5",
+   "title": "Respiratory Modes in Frog (Cutaneous and Pulmonary Respiration)",
+   "section": "7.2.2",
+   "definition": "Dual modes of gas exchange in frogs utilizing moist vascular skin in aquatic environments or dormant phases, alongside buccal and pulmonary mechanisms on land.",
+   "formula": "total_respiration = cutaneous_exchange + pulmonary_exchange",
+   "key_idea": "Cutaneous diffusion functions in water and dormancy, whereas lungs and buccal cavity perform respiration on land.",
+   "textbook_ref": "kebo107.txt lines 126-145",
+   "question_patterns": [
+    "compare cutaneous respiration and pulmonary respiration in frog",
+    "how does a frog respire during aestivation and hibernation",
+    "describe the structural setup of lungs in Rana tigrina",
+    "explain the mechanism of gaseous exchange across the skin of a frog",
+    "what organs participate in terrestrial respiration in frogs"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain aquatic and cutaneous respiration",
+     "explain": "Dissolved oxygen diffuses directly across moist vascular skin during submerged aquatic life and period of aestivation/hibernation."
+    },
+    {
+     "step": 2,
+     "action": "explain terrestrial and pulmonary respiration",
+     "explain": "On land, air passes through nostrils into the buccal cavity and paired elongated pink sac-like lungs inside the thorax."
+    }
+   ]
+  },
+  {
+   "id": "kebo.107.6",
+   "title": "Circulatory and Lymphatic Systems of Frog",
+   "section": "7.2.2",
+   "definition": "A closed vascular framework comprising a three-chambered muscular heart, specialized portal systems, nucleated red blood cells, and a supplementary lymphatic fluid network.",
+   "formula": "vascular_system = heart_3_chambers + arterial_system + venous_portal_systems",
+   "key_idea": "Heart with two atria and one ventricle pumps blood through arterial and venous circuits, complemented by hepatic and renal portal systems.",
+   "textbook_ref": "kebo107.txt lines 146-175",
+   "question_patterns": [
+    "describe the structure of the heart in frog including sinus venosus and conus arteriosus",
+    "explain the hepatic and renal portal systems in frog vascular circulation",
+    "how do the red blood cells of frog differ from mammalian erythrocytes",
+    "differentiate between blood and lymph in Class 11 frog anatomy",
+    "outline the pattern of blood circulation in Rana tigrina"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe heart structure and chambers",
+     "explain": "The pericardium-wrapped heart has right atrium, left atrium, and one ventricle, joined by sinus venosus dorsally and conus arteriosus ventrally."
+    },
+    {
+     "step": 2,
+     "action": "detail portal connections and blood components",
+     "explain": "Hepatic portal links intestine to liver, renal portal links lower body to kidneys; nucleated RBCs contain haemoglobin, while lymph lacks RBCs and select proteins."
+    }
+   ]
+  },
+  {
+   "id": "kebo.107.7",
+   "title": "Excretory System and Nitrogenous Waste Elimination in Frog",
+   "section": "7.2.2",
+   "definition": "The renal apparatus formed by paired compact kidneys containing nephrons that filter nitrogenous wastes from blood to excrete urea.",
+   "formula": "excretory_route = blood_filtering_kidneys -> ureters -> cloaca",
+   "key_idea": "Frogs are ureotelic organisms that filter blood via nephrons and void urine through ureters into the cloaca.",
+   "textbook_ref": "kebo107.txt lines 176-195",
+   "question_patterns": [
+    "describe the components of the excretory system of frog",
+    "why is frog classified as a ureotelic animal",
+    "explain the structural difference in ureters between male and female frogs",
+    "what is the functional unit of excretion in frog kidneys",
+    "state the path of nitrogenous waste from blood to cloaca in frog"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify kidney anatomy and nephron units",
+     "explain": "Paired bean-like dark red kidneys positioned posteriorly contain functional units called nephrons or uriniferous tubules."
+    },
+    {
+     "step": 2,
+     "action": "trace nitrogenous waste excretion pathway",
+     "explain": "Blood nitrogenous waste is processed into urea, passing via ureters (urinogenital duct in males) into cloaca; urinary bladder lies ventral to rectum."
+    }
+   ]
+  },
+  {
+   "id": "kebo.107.8",
+   "title": "Neural and Endocrine Regulation in Frog",
+   "section": "7.2.2",
+   "definition": "The integrated control system consisting of endocrine glands secreting hormones and a central, peripheral, and autonomic nervous network anchored by a ten-pair cranial nerve framework.",
+   "formula": "cranial_nerves_total = 10 * 2",
+   "key_idea": "Brain partitioned into forebrain, midbrain, and hindbrain coordinates nervous responses alongside hormones from pituitary, adrenal, and thyroid glands.",
+   "textbook_ref": "kebo107.txt lines 196-220",
+   "question_patterns": [
+    "describe the division of brain in frog into forebrain, midbrain, and hindbrain",
+    "how many pairs of cranial nerves originate from the brain of a frog",
+    "list the major endocrine glands responsible for chemical coordination in frog",
+    "explain the anatomical connection between medulla oblongata and spinal cord",
+    "what constitutes the central and peripheral nervous system of Rana tigrina"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "outline brain anatomical divisions",
+     "explain": "Forebrain includes olfactory lobes, cerebral hemispheres, diencephalon; midbrain has optic lobes; hindbrain has cerebellum and medulla oblongata."
+    },
+    {
+     "step": 2,
+     "action": "detail spinal cord and nerve origin",
+     "explain": "Ten pairs of cranial nerves arise from cranium-protected brain; medulla oblongata exits foramen magnum to form spinal cord within vertebral column."
+    }
+   ]
+  },
+  {
+   "id": "kebo.107.9",
+   "title": "Sensory Organs of Frog",
+   "section": "7.2.2",
+   "definition": "Receptor structures including simple eyes, external tympanum with internal ear, and localized sensory aggregations for touch, smell, and taste.",
+   "formula": "sense_organs = visual + auditory_equilibrium + tactile + gustatory + olfactory",
+   "key_idea": "Eyes provide vision while the internal ear paired with tympanum serves both auditory reception and body equilibrium.",
+   "textbook_ref": "kebo107.txt lines 221-235",
+   "question_patterns": [
+    "list the five types of sense organs found in frog",
+    "explain the dual role of the ear in maintaining balance and hearing in frogs",
+    "how are eyes structured and positioned in the skull of a frog",
+    "which sense organs in frog are organized structures versus simple cellular aggregations",
+    "describe the sensory perception mechanisms present in Rana tigrina"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify organized versus cellular sense organs",
+     "explain": "Eyes (in orbital skulls) and internal ears (with external tympanum) are complex organs; sensory papillae, taste buds, and nasal epithelium are cellular aggregations."
+    },
+    {
+     "step": 2,
+     "action": "explain auditory and equilibrium functions",
+     "explain": "The ear functions as an organ for hearing sound signals as well as maintaining body balance and equilibrium."
+    }
+   ]
+  },
+  {
+   "id": "kebo.107.10",
+   "title": "Male and Female Reproductive Systems of Frog",
+   "section": "7.2.2",
+   "definition": "The anatomical organization of male paired testes linked via vasa efferentia to Bidder's canal, and female paired ovaries discharging eggs through oviducts for external fertilization.",
+   "formula": "development = external_fertilisation + tadpole_metamorphosis",
+   "key_idea": "Male sperm passes through urinogenital ducts while female ova pass through separate oviducts, both leading to cloacal release in water.",
+   "textbook_ref": "kebo107.txt lines 236-260",
+   "question_patterns": [
+    "describe the male reproductive system of frog including mesorchium and Bidder canal",
+    "explain the path of sperms from testes to the exterior in male frog",
+    "describe the female reproductive organs of frog and their connection to cloaca",
+    "how does fertilization and development occur in frogs",
+    "what is the role of the cloaca in the reproductive process of frogs"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace male reproductive pathway",
+     "explain": "Testes attached by mesorchium discharge sperm through 10-12 vasa efferentia into Bidder's canal, entering urinogenital duct to reach cloaca."
+    },
+    {
+     "step": 2,
+     "action": "trace female reproductive pathway and development",
+     "explain": "Paired ovaries near kidneys release ova into separate oviducts opening in cloaca; external aquatic fertilization yields tadpole larvae that metamorphose into adults."
+    }
+   ]
+  },
+  {
+   "id": "kebo.107.11",
+   "title": "Calculation of Ova Production and Fecundity in Frogs",
+   "section": "7.2.2",
+   "definition": "Quantitative calculation of total ova produced by female frogs during spawning based on average batch fecundity.",
+   "formula": "total_ova = female_count * average_ova_per_female",
+   "key_idea": "Total eggs spawned is calculated by multiplying the number of mature female frogs by the average ova produced per female (2500 to 3000).",
+   "textbook_ref": "kebo107.txt lines 250-265",
+   "question_patterns": [
+    "calculate total ova laid by a population of female frogs",
+    "how many total eggs are produced by female frogs given average clutch size",
+    "find the minimum number of ova produced by a given number of mature female frogs",
+    "compute the total egg yield from female frogs in a breeding pond",
+    "determine the maximum number of ova released by multiple female frogs at a time"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply female frog count by average ova per female",
+     "explain": "total ova equal female count times average batch size",
+     "compute": "total_ova = female_count * average_ova_per_female"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "NCERT Chapter 7 Text, Section 7.2.2 (Female Reproductive System)",
+   "concept": "kebo.107.11",
+   "question_type": "compute",
+   "question_pattern": "If {female_count} mature female frogs spawn simultaneously, each laying an average of {average_ova_per_female} eggs, calculate the total number of ova produced.",
+   "extracted_variables": {
+    "female_count": 5,
+    "average_ova_per_female": 2500
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply female frog count by average ova per female",
+     "explain": "total ova equal female count times average batch size",
+     "compute": "total_ova = female_count * average_ova_per_female"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "NCERT Chapter 7 Text, Section 7.2.2 (Female Reproductive System)",
+   "concept": "kebo.107.11",
+   "question_type": "compute",
+   "question_pattern": "A field study observes {female_count} female frogs in a pond during breeding season. If each female lays {average_ova_per_female} ova, compute the total ova count.",
+   "extracted_variables": {
+    "female_count": 12,
+    "average_ova_per_female": 3000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply female frog count by average ova per female",
+     "explain": "total ova equal female count times average batch size",
+     "compute": "total_ova = female_count * average_ova_per_female"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex7.1",
+   "source_ref": "NCERT Class 11 Biology Chapter 7 Exercise 1",
+   "questions": [
+    "Draw a neat diagram of digestive system of frog."
+   ]
+  },
+  {
+   "id": "ex7.2",
+   "source_ref": "NCERT Class 11 Biology Chapter 7 Exercise 2",
+   "questions": [
+    "Mention the function of the Ureters in frog."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_05_005",
+   "title": "c11_biotech_cbse_05_005",
+   "questions": [
+    {
+     "q": "What is the defining event that occurs during Pachytene of Prophase I, and what structure marks its occurrence?",
+     "a": "The defining event of Pachytene is crossing over — the exchange of genetic material between non-sister chromatids of homologous chromosomes. This occurs at structures called recombination nodules, which appear on the synaptonemal complex. A wrong answer (e.g., \"pairing of homologous chromosomes\" or \"condensation of chromosomes\") reveals confusion between Zygotene (synapsis) and Pachytene (crossing over), or failure to associate recombination nodules with crossing over.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In Meiosis I, sister chromatids separate during Anaphase I, just like in mitosis.\" Explain why this statement is incorrect using the terms 'homologous chromosomes', 'sister chromatids', and 'centromere'.",
+     "a": "In Meiosis I, homologous chromosomes (each composed of two sister chromatids joined at their centromeres) separate and move to opposite poles. Sister chromatids do NOT separate because their centromeres do not divide during Anaphase I. The student's error shows a fundamental confusion between equational division (mitosis/Meiosis II) where centromeres split, and reductional division (Meiosis I) where centromeres remain intact. This misconception leads to incorrect chromosome counts in gametes.",
+     "self_check": true
+    },
+    {
+     "q": "In an organism with 2n = 10 chromosomes, draw a table showing the number of chromosomes and number of DNA molecules (chromatids) per cell at the end of each stage: Prophase I, Metaphase I, Anaphase I, Telophase I.",
+     "a": "**Step 1:** At start of Meiosis I (after S phase), 2n = 10 chromosomes, each with 2 chromatids → 10 chromosomes, 20 DNA molecules.  \n**Step 2:** Prophase I: Chromosomes condense but number unchanged → 10 chromosomes, 20 DNA molecules.  \n**Step 3:** Metaphase I: Bivalents align, each bivalent = 2 homologous chromosomes (4 chromatids) → still 10 chromosomes, 20 DNA molecules.  \n**Step 4:** Anaphase I: Homologues separate → each pole gets 5 chromosomes (each still with 2 chromatids) → 5 chromosomes, 10 DNA molecules per cell.  \n**Step 5:** Telophase I: Two haploid cells formed, each with 5 chromosomes, 10 DNA molecules.  \nA wrong table (e.g., showing 10 chromosomes at Telophase I) reveals failure to track that chromosome number halves only when homologues separate.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the chromosomal arrangement at Metaphase I of meiosis and Metaphase of mitosis in a cell with 2n = 6. How does this difference ensure reductional vs equational division?",
+     "a": "At Metaphase I, homologous chromosomes pair as bivalents (3 bivalents for 2n=6) and align on the metaphase plate with kinetochores of sister chromatids facing the same pole. At Metaphase of mitosis, individual chromosomes (6 chromosomes, each with 2 chromatids) align singly with sister kinetochores facing opposite poles. This difference ensures that in Meiosis I, whole homologous chromosomes are pulled apart (reductional), while in mitosis, sister chromatids separate (equational). A student who cannot contrast the alignment pattern misses the mechanical basis of ploidy reduction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Crossing over in Pachytene is the only source of genetic variation in meiosis.\" Justify your answer with at least two other mechanisms.",
+     "a": "The statement is false. Crossing over is a major source, but independent assortment of homologous chromosomes at Metaphase I (random orientation of maternal/paternal homologues) and random fertilization are two other independent mechanisms. For 2n=6, independent assortment alone can produce 2^3 = 8 different gamete combinations without any crossing over. A student who agrees with the statement overlooks Mendel's law of independent assortment and its meiotic basis, indicating a narrow view of variation sources.",
+     "self_check": true
+    },
+    {
+     "q": "Design a labeled diagram sequence (description only, no drawing) that a textbook could use to show the transition from Zygotene to Diplotene, highlighting the fate of the synaptonemal complex and the appearance of chiasmata.",
+     "a": "A good sequence description would include:  \n1. Zygotene: Homologous chromosomes paired along their length, synaptonemal complex fully formed (tripartite structure: lateral elements + central element).  \n2. Early Pachytene: Recombination nodules appear on central element; crossing over initiated.  \n3. Late Pachytene: Crossing over complete; nodules disappear.  \n4. Diplotene: Synaptonemal complex disassembles (central element degrades first); homologues start moving apart but remain attached at chiasmata (visible X-shaped structures).  \n5. Diakinesis: Chiasmata terminalize; chromosomes maximally condensed.  \nA poor answer (e.g., \"chiasmata appear in Zygotene\" or \"synaptonemal complex remains in Diplotene\") reveals incorrect temporal ordering of these hallmark events.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

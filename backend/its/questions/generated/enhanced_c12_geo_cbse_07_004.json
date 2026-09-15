@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_07_004",
+   "title": "c12_geo_cbse_07_004",
+   "questions": [
+    {
+     "q": "Name the two vital man-made navigation canals that serve as gateways of commerce for the eastern and western worlds, and state which ocean each connects.",
+     "a": "The Suez Canal (connects Mediterranean Sea to Red Sea/Indian Ocean) and the Panama Canal (connects Atlantic Ocean to Pacific Ocean). A wrong answer (e.g., naming the Kiel Canal or confusing the oceans) reveals the student cannot distinguish major global chokepoints that shape maritime trade routes — a prerequisite for understanding how communication cables often follow similar corridors.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the unit cost and time of communication become invariant with distance when using satellite communication, unlike land-based telegraph or telephone lines.",
+     "a": "Satellites in geostationary orbit cover a fixed footprint on Earth; a signal goes up to the satellite and down to any point within that footprint, so the path length (and thus cost/time) is nearly constant whether the two points are 500 km or 5,000 km apart. Land lines require physical cables whose length, maintenance, and signal degradation increase with distance. A wrong answer indicates the student memorises \"satellites make distance irrelevant\" without understanding the geometry of orbital footprints versus linear cable networks.",
+     "self_check": true
+    },
+    {
+     "q": "Using the data: \"Internet users grew from <50 million in 1995 to ~5.4 billion in 2023\", calculate the approximate average annual growth rate (compound) over this 28-year period. Show steps.",
+     "a": "Step 1: Identify initial (P₀ = 50 million) and final (P = 5,400 million) values, time t = 28 years.  \nStep 2: Use compound growth formula: P = P₀(1+r)ᵗ → 5,400 = 50(1+r)²⁸.  \nStep 3: Divide: 108 = (1+r)²⁸.  \nStep 4: Take 28th root: 1+r = 108^(1/28) ≈ e^(ln(108)/28) ≈ e^(4.682/28) ≈ e^0.1672 ≈ 1.182.  \nStep 5: r ≈ 0.182 or 18.2% per year.  \nA wrong answer (e.g., simple linear growth) reveals the student cannot apply exponential growth reasoning to technology diffusion — a key geographical pattern for innovation spread.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the spatial distribution of optic fiber cable (OFC) networks and satellite communication footprints in India. Which is more effective for connecting remote Himalayan villages and why?",
+     "a": "OFC networks follow transport corridors (highways, railways) and are dense in plains/urban areas; laying cables in high-altitude, sparsely populated Himalayan terrain is prohibitively expensive and physically difficult. Satellite footprints cover the entire region uniformly regardless of terrain. Therefore, satellite communication (e.g., VSAT, mobile satellite phones) is more effective for remote Himalayan villages. A wrong answer that prefers OFC ignores the geographical constraints of terrain and population density on infrastructure economics.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The internet has made the concept of a global village a reality, but the digital divide means this village has 'gated communities'.\" Use Indian evidence.",
+     "a": "The internet enables real-time communication, e-commerce, e-governance, and e-learning across the globe — fulfilling the \"global village\" vision. However, in India, urban internet penetration >60% while rural <30% (per recent NSSO data); states like Kerala and Delhi lead, while Bihar and Odisha lag. Gender gap: men 2x more likely to own smartphones. This creates \"gated communities\" of digital access. A weak evaluation treats the digital divide as only about hardware, missing socio-economic, linguistic, and regulatory barriers that sustain inequality.",
+     "self_check": true
+    },
+    {
+     "q": "Design a communication infrastructure plan for a hypothetical new smart city in central India (latitude 23°N, longitude 80°E) that must support 1 million residents, high-speed internet for all, disaster-resilient emergency alerts, and low-cost access for low-income groups. Annotate a sketch map with your chosen technologies and justify each.",
+     "a": "A good plan includes: (1) City-wide OFC backbone in ring topology for redundancy; (2) 5G small cells on street furniture for last-mile mobile broadband; (3) Community Wi-Fi hotspots in slums/low-income areas subsidised by municipal budget; (4) Satellite-linked emergency broadcast system (e.g., ISRO's NavIC/IRNSS integration) independent of ground power; (5) Public access kiosks with vernacular interfaces. Justification must link each technology to a specific requirement (capacity, resilience, equity). A poor plan relies on a single technology (e.g., only 5G) and ignores terrain, power backup, or affordability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

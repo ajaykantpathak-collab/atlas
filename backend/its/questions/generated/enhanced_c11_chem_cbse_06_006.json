@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_06_006",
+   "title": "c11_chem_cbse_06_006",
+   "questions": [
+    {
+     "q": "Define average bond enthalpy and state the standard conditions under which it is measured.",
+     "a": "Average bond enthalpy is the mean energy required to break one mole of a particular covalent bond in gaseous molecules to form gaseous atoms/radicals, averaged over similar bonds in different compounds. It is measured at 298 K and 1 bar pressure. A wrong answer (e.g., \"energy to break a bond in solid state\" or \"energy for a specific molecule only\") reveals confusion between bond dissociation energy of a specific bond and the average value, and ignorance of the gaseous state requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we use average bond enthalpies instead of exact bond dissociation energies for each molecule when calculating reaction enthalpy?",
+     "a": "Bond dissociation energy for a specific bond (e.g., C–H in CH₄ vs CH₃Cl) varies with molecular environment. Average bond enthalpies provide a single transferable value for a bond type (e.g., C–H ≈ 413 kJ mol⁻¹) that works across many compounds, enabling quick estimation without needing data for every molecule. A wrong answer (e.g., \"they are the same thing\" or \"average values are more accurate\") shows misunderstanding of the variability of bond energies and the purpose of averaging.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate ΔH° for the gas-phase reaction: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(g) using average bond enthalpies: C–H = 413, O=O = 498, C=O (in CO₂) = 799, O–H = 463 kJ mol⁻¹.",
+     "a": "Bonds broken: 4 C–H (4×413 = 1652) + 2 O=O (2×498 = 996) = 2648 kJ mol⁻¹. Bonds formed: 2 C=O (2×799 = 1598) + 4 O–H (4×463 = 1852) = 3450 kJ mol⁻¹. ΔH° = 2648 – 3450 = –802 kJ mol⁻¹. A wrong answer often arises from miscounting bonds (e.g., forgetting water has two O–H bonds per molecule) or using wrong sign convention (adding instead of subtracting).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ΔH° calculated from bond enthalpies for N₂(g) + 3H₂(g) → 2NH₃(g) with the experimental value of –92 kJ mol⁻¹. Explain any discrepancy.",
+     "a": "Bond enthalpies: N≡N = 946, H–H = 436, N–H = 391 kJ mol⁻¹. Broken: 946 + 3×436 = 2254. Formed: 6×391 = 2346. Calculated ΔH° = 2254 – 2346 = –92 kJ mol⁻¹. The match is unusually good; typically discrepancies of ±50–100 kJ mol⁻¹ occur because bond enthalpies are averages and do not capture specific molecular environments, resonance, or non-gaseous phases. A wrong answer claiming \"bond enthalpies are exact\" ignores their average nature and the fact that they are derived from many molecules.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates ΔH° for H₂(g) + Cl₂(g) → 2HCl(g) using bond enthalpies H–H = 436, Cl–Cl = 242, H–Cl = 431 kJ mol⁻¹ and obtains +153 kJ mol⁻¹. Identify the error and give the correct value.",
+     "a": "Error: The student likely computed Σ(bonds formed) – Σ(bonds broken) instead of the reverse. Correct: Broken = 436 + 242 = 678 kJ mol⁻¹. Formed = 2×431 = 862 kJ mol⁻¹. ΔH° = 678 – 862 = –184 kJ mol⁻¹ (exothermic). The sign error reveals confusion about the direction of energy flow: breaking bonds absorbs energy, forming bonds releases energy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a spirit burner and water calorimetry to estimate the bond enthalpy of the O–H bond in methanol combustion, given the other bond enthalpies. Outline the steps and the calculation.",
+     "a": "Burn a known mass of methanol (CH₃OH) in a spirit burner under a copper calorimeter with a known mass of water. Measure temperature rise. Calculate heat released: q = m_water × c_water × ΔT. Convert to ΔH per mole of methanol. Write balanced equation: 2CH₃OH(g) + 3O₂(g) → 2CO₂(g) + 4H₂O(g). Use known bond enthalpies (C–H, C–O, C=O, O=O) and the experimental ΔH to solve for the O–H bond enthalpy algebraically. A poor answer omits the need for gaseous methanol (vaporization enthalpy) or forgets to multiply by stoichiometric coefficients.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

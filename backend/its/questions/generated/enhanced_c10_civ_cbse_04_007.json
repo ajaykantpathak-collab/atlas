@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_04_007",
+   "title": "c10_civ_cbse_04_007",
+   "questions": [
+    {
+     "q": "Name the constitutional article that empowers the Election Commission to register and regulate political parties, and state one condition it imposes for registration.",
+     "a": "Article 324 read with Section 29A of the Representation of the People Act, 1951. One condition: the party must swear allegiance to the Constitution of India and principles of socialism, secularism, and democracy. A wrong answer (e.g., citing Article 326 or saying \"no conditions\") reveals the student confuses voter registration with party registration and does not know parties are legally regulated entities.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Anti-Defection Law (Tenth Schedule) is considered both a reform measure and a challenge to internal party democracy.",
+     "a": "It is a reform because it curbs opportunistic floor-crossing (money/muscle power) and stabilizes governments. It becomes a challenge because it empowers party leadership to enforce whip dictates, suppressing dissent and inner-party debate — centralizing power instead of democratizing it. A wrong answer focusing only on \"stability\" or only on \"suppressing dissent\" shows inability to see institutional trade-offs, a key board exam analytical skill.",
+     "self_check": true
+    },
+    {
+     "q": "A regional party receives ₹50 crore in donations but declares only ₹5 crore. The Election Commission issues a notice under Section 29C of the RPA, 1951. Which reform measure would most directly prevent this recurrence, and why?",
+     "a": "Mandatory digital disclosure of all donations above ₹2,000 (per 2017 amendment) combined with state funding of elections (partial) to reduce dependence on opaque private funds. The student must link the specific legal provision (Section 29C) to the transparency reform. A wrong answer suggesting \"stricter punishment\" without naming the disclosure mechanism shows lack of procedural knowledge.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Law Commission's 255th Report recommendation for internal party elections with the Supreme Court's 2013 directive in *People's Union for Civil Liberties v. Union of India*. What common principle do they share, and how do their enforcement mechanisms differ?",
+     "a": "Common principle: parties are public institutions accountable to citizens. Law Commission: statutory mandate for periodic organizational elections (legislative enforcement). Supreme Court: mandatory disclosure of candidate assets/criminal records (judicial enforcement via Election Commission). A wrong answer conflating the two or missing the \"public institution\" principle shows failure to distinguish legislative vs judicial reform pathways.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"State funding of elections will eliminate money power in politics.\" Consider fiscal burden, fairness to new parties, and international experience.",
+     "a": "Partial agreement. State funding (e.g., Germany, Brazil) reduces but doesn't eliminate private donations; it creates entry barriers for new parties if based on past vote share; fiscal cost is manageable (0.1% GDP). Best model: matching grants for small donations + audit. A wrong answer giving unqualified \"yes/no\" without addressing the three dimensions shows inability to evaluate policy trade-offs — a competency-based question requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a two-clause constitutional amendment proposal that would make internal party democracy justiciable. Clause 1: define the right. Clause 2: specify the enforcement body.",
+     "a": "Clause 1: \"Every registered political party shall hold periodic, free, and fair elections for all executive positions and candidate selection, open to all registered members, in a manner prescribed by law.\" Clause 2: \"The Election Commission shall have the power to derecognize parties violating this provision, subject to judicial review by the High Court.\" A poor answer omits \"justiciable\" enforcement (e.g., only \"EC will monitor\") or forgets judicial review, showing ignorance of separation of powers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

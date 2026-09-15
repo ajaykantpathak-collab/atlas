@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_02_008",
+   "title": "c12_math_cbse_02_008",
+   "questions": [
+    {
+     "q": "State the principal value range of the inverse tangent function (tan⁻¹ x) and explain why this range is chosen for the principal branch.",
+     "a": "The principal value range of tan⁻¹ x is (-π/2, π/2). This open interval is chosen because the tangent function is bijective (one-one and onto) when its domain is restricted to (-π/2, π/2), covering all real numbers as its range. A wrong answer (e.g., [0, π] or [-π/2, π/2]) reveals confusion with the principal ranges of sin⁻¹ or cos⁻¹, or misunderstanding that tan⁻¹ excludes the endpoints because tan(±π/2) is undefined.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a word problem and writes: \"θ = sin⁻¹(1.2) = 0.93 rad\". Why is this statement mathematically incorrect? What should the student have done instead?",
+     "a": "The statement is incorrect because the domain of sin⁻¹ x is [-1, 1]; 1.2 lies outside this domain, so sin⁻¹(1.2) is undefined. The student likely misidentified the sides of the triangle (e.g., used hypotenuse/opposite instead of opposite/hypotenuse) or made a calculation error leading to a ratio >1. The correct step is to re-check the triangle sides: the sine ratio must be ≤1. If the problem gives sides that produce a ratio >1, the triangle is impossible (violates triangle inequality or Pythagoras). A wrong answer here shows the student does not recall the domain restrictions of inverse trig functions.",
+     "self_check": true
+    },
+    {
+     "q": "From a point on the ground 40 m away from the foot of a vertical tower, the angle of elevation of the top of the tower is 30°. Find the height of the tower. (Use √3 ≈ 1.732)",
+     "a": "Let height = h. tan(30°) = h/40 → h = 40 tan(30°) = 40 × (1/√3) = 40/√3 ≈ 40/1.732 ≈ 23.09 m. Alternatively, using inverse: θ = tan⁻¹(h/40) = 30° → h = 40 tan 30°. A wrong answer (e.g., h = 40 sin 30° = 20 m) reveals the student used the wrong trigonometric ratio (sine instead of tangent) because they misidentified the known side as hypotenuse rather than adjacent.",
+     "self_check": true
+    },
+    {
+     "q": "Two students solve the same problem: \"Find the angle θ if sin θ = 1/2 and θ is the angle of elevation of a tower.\" Student A writes θ = sin⁻¹(1/2) = π/6. Student B writes θ = sin⁻¹(1/2) = 5π/6. Which student is correct for the context of angle of elevation? Justify using the principal value range and the physical meaning of angle of elevation.",
+     "a": "Student A is correct. The principal value range of sin⁻¹ is [-π/2, π/2], so sin⁻¹(1/2) = π/6. The angle of elevation is measured from the horizontal upward, so it must lie between 0 and π/2 (0° and 90°). 5π/6 (150°) is outside this range and also outside the principal branch of sin⁻¹. Student B incorrectly used a general solution of sin θ = 1/2 without restricting to the principal branch or the physical context. This error shows confusion between the general solution of a trigonometric equation and the principal value of an inverse trigonometric function.",
+     "self_check": true
+    },
+    {
+     "q": "A solution to the problem \"Find the angle of depression from a cliff 50 m high to a boat at a horizontal distance of 50 m\" is given as: θ = tan⁻¹(50/50) = tan⁻¹(1) = π/4. The student then writes \"θ = 45° or 225°\". Evaluate this solution and identify the error.",
+     "a": "The solution correctly computes tan⁻¹(1) = π/4 (45°). However, adding \"or 225°\" is wrong because the principal value of tan⁻¹ is unique and lies in (-π/2, π/2). The angle of depression is measured downward from the horizontal, so it is a positive acute angle (0 to π/2). 225° is not in the principal range and does not represent a depression angle. The error is treating the inverse trigonometric function as a multi-valued relation instead of a function with a restricted range. This reveals the student does not understand that tan⁻¹ denotes the principal value only.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem that requires using the identity sin⁻¹ x + cos⁻¹ x = π/2 to find an unknown angle. Provide the problem statement and outline the solution steps.",
+     "a": "Problem: \"A right triangle has an acute angle α such that sin α = 3/5. Another acute angle β in the same triangle satisfies cos β = 3/5. Show that α + β = 90° using inverse trigonometric functions.\" Solution: α = sin⁻¹(3/5), β = cos⁻¹(3/5). Using the identity sin⁻¹ x + cos⁻¹ x = π/2, we get α + β = π/2 = 90°. A poor answer would be a problem that does not naturally lead to this identity (e.g., using different ratios) or a solution that computes angles numerically without invoking the identity, missing the point of the exercise.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

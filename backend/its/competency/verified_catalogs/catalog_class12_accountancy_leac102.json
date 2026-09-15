@@ -1,0 +1,1114 @@
+{
+ "class": 12,
+ "subject": "accountancy",
+ "chapter": 2,
+ "chapter_title": "Reconstitution of a Partnership Firm - Admission of a Partner",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leac102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leac.102.3.1",
+   "title": "New Profit Sharing Ratio",
+   "section": "2.3",
+   "definition": "Once an incoming partner takes a slice of profit, every old partner's slice shrinks; the full set of revised fractions for all partners together forms the new profit sharing ratio.",
+   "formula": "new_share = old_share_fraction - surrendered_fraction",
+   "key_idea": "Profit shares always total one, so whatever the entrant gains must come out of the existing partners' portions.",
+   "textbook_ref": "leac102.txt section 2.3, Illustrations 1-5 (lines 130-350)",
+   "question_patterns": [
+    "find the new profit sharing ratio when a partner is admitted",
+    "calculate the new ratio of all partners after the admission",
+    "what is the new profit sharing ratio among the old partners and the incoming partner",
+    "determine the ratio in which A, B and C will share future profits after C joins",
+    "in Class 12 partnership accounts, work out the revised profit sharing proportion on admission",
+    "state the profit ratio of the reconstituted firm once the entrant takes a stated share"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "write each share as a fraction of the whole",
+     "explain": "convert every partner's entitlement, old and new, into fractions that can sit on one denominator"
+    },
+    {
+     "step": 2,
+     "action": "reduce each old partner's fraction",
+     "explain": "deduct the exact part surrendered, or scale the old fraction by the profit left once the entrant's part is set aside"
+    },
+    {
+     "step": 3,
+     "action": "state the ratio",
+     "explain": "express all revised fractions over one common denominator; the numerators read out as the new ratio"
+    }
+   ]
+  },
+  {
+   "id": "leac.102.3.2",
+   "title": "Remaining Share Method for an Old Partner",
+   "section": "2.3",
+   "definition": "When the deed is silent about whose shares the entrant buys into, the profit left after the entrant's slice is shared by the old partners in their old proportion; one partner's revised entitlement is his old fraction times that leftover.",
+   "formula": "partner_new_share = old_share_fraction * (1 - new_share_fraction)",
+   "key_idea": "Silence about the source of the entrant's share means the old ratio keeps applying to whatever profit remains.",
+   "textbook_ref": "leac102.txt section 2.3, Illustration 1 (lines 143-181)",
+   "question_patterns": [
+    "find the old partner's new share under the remaining share method",
+    "calculate A's share when C is admitted for a fraction and no sacrifice detail is given",
+    "what fraction of profit will an old partner hold after the new partner enters",
+    "determine the continuing partner's revised share assuming sacrifice in the old ratio",
+    "compute each old partner's slice of the profit left after the incoming partner's share",
+    "how much of the profit does an existing partner keep once the entrant takes his part"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take away the entrant's slice from the whole",
+     "explain": "the profit left for the old partners is one minus the incoming share",
+     "compute": "remaining_share = 1 - new_share_fraction"
+    },
+    {
+     "step": 2,
+     "action": "scale the old fraction by the leftover",
+     "explain": "the old partner keeps his old proportion of whatever profit remains",
+     "compute": "partner_new_share = old_share_fraction * remaining_share"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Remaining Share Method for an Old Partner, compute the result for new_share_fraction = 3, old_share_fraction = 3.",
+     "solution": "Step 1: take away the entrant's slice from the whole: remaining_share = 1 - new_share_fraction = -2.0 Step 2: scale the old fraction by the leftover: partner_new_share = old_share_fraction * remaining_share = -6.0 Final result: -6.0",
+     "answer": "-6.0"
+    },
+    {
+     "question": "Using Remaining Share Method for an Old Partner, compute the result for new_share_fraction = 4, old_share_fraction = 4.",
+     "solution": "Step 1: take away the entrant's slice from the whole: remaining_share = 1 - new_share_fraction = -3.0 Step 2: scale the old fraction by the leftover: partner_new_share = old_share_fraction * remaining_share = -12.0 Final result: -12.0",
+     "answer": "-12.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.102.3.3",
+   "title": "New Share After a Fixed Surrender",
+   "section": "2.3",
+   "definition": "If the admission terms name the exact fraction an existing partner gives up, that partner's revised entitlement is just his old fraction reduced by the surrendered piece.",
+   "formula": "partner_new_share = old_share_fraction - surrendered_fraction",
+   "key_idea": "Add up every surrendered piece and the total equals the entrant's share.",
+   "textbook_ref": "leac102.txt section 2.3, Illustrations 3 and 5 (lines 219-345)",
+   "question_patterns": [
+    "find the new share of a partner who surrendered a stated fraction",
+    "calculate the share left after giving part of it to the new partner",
+    "what does a partner hold once he has surrendered a named portion",
+    "deduct the surrendered fraction from the old share to get the revised share",
+    "work out the revised entitlement of each partner after fixed surrenders",
+    "how much profit share remains with a partner who gave away a quoted piece"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract the surrender from the old fraction",
+     "explain": "the difference is what the partner still owns of the profit",
+     "compute": "partner_new_share = old_share_fraction - surrendered_fraction"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using New Share After a Fixed Surrender, compute the result for old_share_fraction = 3, surrendered_fraction = 3.",
+     "solution": "Step 1: subtract the surrender from the old fraction: partner_new_share = old_share_fraction - surrendered_fraction = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    },
+    {
+     "question": "Using New Share After a Fixed Surrender, compute the result for old_share_fraction = 4, surrendered_fraction = 4.",
+     "solution": "Step 1: subtract the surrender from the old fraction: partner_new_share = old_share_fraction - surrendered_fraction = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.102.4.1",
+   "title": "Sacrifice Share of a Partner",
+   "section": "2.4",
+   "definition": "For any continuing partner, the piece of profit handed to the entrant equals the share held before admission minus the share held afterwards.",
+   "formula": "sacrifice_share = old_share_fraction - new_share_fraction",
+   "key_idea": "A minus result flips the meaning: that partner gained share instead of giving it up.",
+   "textbook_ref": "leac102.txt section 2.4, Illustration 6 (lines 346-408)",
+   "question_patterns": [
+    "how much share has the old partner sacrificed",
+    "calculate the sacrifice made by a partner on admission of a new partner",
+    "find the portion of profit given up by an old partner",
+    "what is the extent of sacrifice when both the old and the new share are known",
+    "measure the reduction in a partner's profit share after the admission",
+    "compute the loss of share suffered by each existing partner"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "deduct the new fraction from the old fraction",
+     "explain": "the difference measures exactly how much profit share moved to the entrant",
+     "compute": "sacrifice_share = old_share_fraction - new_share_fraction"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Sacrifice Share of a Partner, compute the result for old_share_fraction = 3, new_share_fraction = 3.",
+     "solution": "Step 1: deduct the new fraction from the old fraction: sacrifice_share = old_share_fraction - new_share_fraction = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    },
+    {
+     "question": "Using Sacrifice Share of a Partner, compute the result for old_share_fraction = 4, new_share_fraction = 4.",
+     "solution": "Step 1: deduct the new fraction from the old fraction: sacrifice_share = old_share_fraction - new_share_fraction = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.102.4.2",
+   "title": "Sacrificing Ratio",
+   "section": "2.4",
+   "definition": "Setting each old partner's sacrifice side by side gives the sacrificing ratio, the proportion in which the goodwill premium is handed over to them.",
+   "formula": "sacrificing_ratio = sacrifice_of_each_old_partner_in_lowest_terms",
+   "key_idea": "The sacrificing ratio compares how much share each old partner gives up; premium money follows it.",
+   "textbook_ref": "leac102.txt section 2.4, Illustrations 6-8 (lines 346-537)",
+   "question_patterns": [
+    "calculate the sacrificing ratio of the old partners",
+    "find in what ratio the existing partners sacrificed their profit shares",
+    "what is the ratio in which the goodwill premium will be divided",
+    "determine the sacrificing proportion when the new ratio is given",
+    "calculate the sacrificing ratio when the new profit sharing ratio is given",
+    "work out how the premium is split between the sacrificing partners",
+    "compare the sacrifices of the old partners to get their ratio",
+    "what is the sacrificing ratio of A and B on the admission of C"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list old and new fractions for each old partner",
+     "explain": "both shares must sit on a common denominator before comparing"
+    },
+    {
+     "step": 2,
+     "action": "subtract new from old for every old partner",
+     "explain": "each difference is that partner's sacrifice"
+    },
+    {
+     "step": 3,
+     "action": "reduce the differences to whole numbers",
+     "explain": "the simplified pair or triple of differences is the sacrificing ratio"
+    }
+   ]
+  },
+  {
+   "id": "leac.102.5.1",
+   "title": "Goodwill by Average Profits Method",
+   "section": "2.5.4.1",
+   "definition": "The firm's past profits are averaged over the agreed span, and that average multiplied by the agreed years' purchase is taken as the goodwill.",
+   "formula": "goodwill = average_profit * years_purchase",
+   "key_idea": "A steady profit history stands in for the earnings a fresh business would miss in its first years.",
+   "textbook_ref": "leac102.txt section 2.5.4.1, Illustration 9 (lines 664-707)",
+   "question_patterns": [
+    "calculate goodwill at a given number of years purchase of average profits",
+    "value the goodwill of the firm on the average profits basis",
+    "find goodwill using the simple average profits method",
+    "what is the goodwill if the average profit and the years purchase are known",
+    "determine the value of goodwill from the profits of the last few years",
+    "compute goodwill when past profits are averaged and multiplied by the purchase years"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "average the past profits",
+     "explain": "divide the total profit of the reviewed years by the number of years",
+     "compute": "average_profit = profits_total / years_count"
+    },
+    {
+     "step": 2,
+     "action": "multiply by the years purchase",
+     "explain": "goodwill equals the average profit times the agreed purchase multiplier",
+     "compute": "goodwill = average_profit * years_purchase"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Goodwill by Average Profits Method, compute the result for profits_total = 3, years_count = 3, years_purchase = 3.",
+     "solution": "Step 1: average the past profits: average_profit = profits_total / years_count = 1.0 Step 2: multiply by the years purchase: goodwill = average_profit * years_purchase = 3.0 Final result: 3.0",
+     "answer": "3.0"
+    },
+    {
+     "question": "Using Goodwill by Average Profits Method, compute the result for profits_total = 4, years_count = 4, years_purchase = 4.",
+     "solution": "Step 1: average the past profits: average_profit = profits_total / years_count = 1.0 Step 2: multiply by the years purchase: goodwill = average_profit * years_purchase = 4.0 Final result: 4.0",
+     "answer": "4.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.102.5.2",
+   "title": "Goodwill by Weighted Average Profits",
+   "section": "2.5.4.1",
+   "definition": "Recent years get larger weights, and goodwill is valued by applying the purchase multiplier to the weighted average rather than the plain average.",
+   "formula": "goodwill = weighted_average_profit * years_purchase",
+   "key_idea": "Weights tilt the average toward recent performance when profits show a rising or falling trend.",
+   "textbook_ref": "leac102.txt section 2.5.4.1, Illustrations 10-11 (lines 713-891)",
+   "question_patterns": [
+    "calculate goodwill on the basis of weighted average profits",
+    "value goodwill when weights are attached to each year's profit",
+    "find goodwill using the weighted average with weights one two three four",
+    "what is the goodwill at given years purchase of the weighted average profit",
+    "determine goodwill after weighting the recent profits more heavily"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "weight each year's profit",
+     "explain": "multiply every profit by its weight and total the products",
+     "compute": "weighted_profit_total = profit1*w1 + profit2*w2 + profit3*w3 + profit4*w4"
+    },
+    {
+     "step": 2,
+     "action": "total the weights",
+     "explain": "add the weights attached to the years",
+     "compute": "weights_total = w1 + w2 + w3 + w4"
+    },
+    {
+     "step": 3,
+     "action": "divide the products by the weights",
+     "explain": "the quotient is the weighted average profit",
+     "compute": "weighted_average_profit = weighted_profit_total / weights_total"
+    },
+    {
+     "step": 4,
+     "action": "apply the purchase multiplier",
+     "explain": "goodwill equals the weighted average profit times the years purchase",
+     "compute": "goodwill = weighted_average_profit * years_purchase"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Goodwill by Weighted Average Profits, compute the result for profit1 = 3, w1 = 3, profit2 = 3, w2 = 2, profit3 = 2, w3 = 2, profit4 = 1, w4 = 1, years_purchase = 1.",
+     "solution": "Step 1: weight each year's profit: weighted_profit_total = profit1*w1 + profit2*w2 + profit3*w3 + profit4*w4 = 20.0 Step 2: total the weights: weights_total = w1 + w2 + w3 + w4 = 8.0 Step 3: divide the products by the weights: weighted_average_profit = weighted_profit_total / weights_total = 2.5 Step 4: apply the purchase multiplier: goodwill = weighted_average_profit * years_purchase = 2.5 Final result: 2.5",
+     "answer": "2.5"
+    },
+    {
+     "question": "Using Goodwill by Weighted Average Profits, compute the result for profit1 = 4, w1 = 4, profit2 = 4, w2 = 3, profit3 = 3, w3 = 3, profit4 = 2, w4 = 2, years_purchase = 2.",
+     "solution": "Step 1: weight each year's profit: weighted_profit_total = profit1*w1 + profit2*w2 + profit3*w3 + profit4*w4 = 41.0 Step 2: total the weights: weights_total = w1 + w2 + w3 + w4 = 12.0 Step 3: divide the products by the weights: weighted_average_profit = weighted_profit_total / weights_total = 3.416667 Step 4: apply the purchase multiplier: goodwill = weighted_average_profit * years_purchase = 6.833333 Final result: 6.833333",
+     "answer": "6.833333"
+    }
+   ]
+  },
+  {
+   "id": "leac.102.5.3",
+   "title": "Goodwill by Super Profits Method",
+   "section": "2.5.4.2",
+   "definition": "Only earnings above the normal return on capital employed count: deduct the normal profit from the average profit, then multiply the excess by the agreed years' purchase.",
+   "formula": "goodwill = super_profit * years_purchase",
+   "key_idea": "Goodwill exists only where the firm beats the normal rate of return on its capital.",
+   "textbook_ref": "leac102.txt section 2.5.4.2, Illustrations 12-13 (lines 892-997)",
+   "question_patterns": [
+    "calculate goodwill by the super profits method",
+    "value goodwill at given years purchase of the super profit",
+    "find the super profit and then the goodwill of the firm",
+    "what is the goodwill when the normal profit is deducted from the average profit",
+    "determine goodwill from the excess earnings over the normal return on capital"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute the normal profit",
+     "explain": "capital employed times the normal rate of return over one hundred",
+     "compute": "normal_profit = capital_employed * normal_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "measure the super profit",
+     "explain": "average profit less normal profit gives the excess earning",
+     "compute": "super_profit = average_profit - normal_profit"
+    },
+    {
+     "step": 3,
+     "action": "multiply by the years purchase",
+     "explain": "goodwill is the super profit times the agreed purchase multiplier",
+     "compute": "goodwill = super_profit * years_purchase"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Goodwill by Super Profits Method, compute the result for capital_employed = 3, normal_rate = 3, average_profit = 3, years_purchase = 2.",
+     "solution": "Step 1: compute the normal profit: normal_profit = capital_employed * normal_rate / 100 = 0.09 Step 2: measure the super profit: super_profit = average_profit - normal_profit = 2.91 Step 3: multiply by the years purchase: goodwill = super_profit * years_purchase = 5.82 Final result: 5.82",
+     "answer": "5.82"
+    },
+    {
+     "question": "Using Goodwill by Super Profits Method, compute the result for capital_employed = 4, normal_rate = 4, average_profit = 4, years_purchase = 3.",
+     "solution": "Step 1: compute the normal profit: normal_profit = capital_employed * normal_rate / 100 = 0.16 Step 2: measure the super profit: super_profit = average_profit - normal_profit = 3.84 Step 3: multiply by the years purchase: goodwill = super_profit * years_purchase = 11.52 Final result: 11.52",
+     "answer": "11.52"
+    }
+   ]
+  },
+  {
+   "id": "leac.102.5.4",
+   "title": "Goodwill by Capitalisation of Average Profits",
+   "section": "2.5.4.3",
+   "definition": "Capitalise the average profit at the normal rate to get the implied worth of the business, then subtract the actual net assets; the gap is the goodwill.",
+   "formula": "goodwill = capitalised_value - net_assets",
+   "key_idea": "Goodwill is whatever the capitalized earnings exceed the tangible worth of the business.",
+   "textbook_ref": "leac102.txt section 2.5.4.3 (a), Illustration 14 (lines 998-1034)",
+   "question_patterns": [
+    "calculate goodwill by capitalisation of average profits",
+    "value goodwill after capitalising the average profit at the normal rate",
+    "find goodwill as the capitalised value of profits less net assets",
+    "what is the goodwill when the capitalized profits exceed the net assets",
+    "determine goodwill under the capitalisation method from average profits and net assets"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "capitalise the average profit",
+     "explain": "multiply the average profit by one hundred and divide by the normal rate",
+     "compute": "capitalised_value = average_profit * 100 / normal_rate"
+    },
+    {
+     "step": 2,
+     "action": "deduct the net assets",
+     "explain": "goodwill is the capitalized value minus the actual capital employed",
+     "compute": "goodwill = capitalised_value - net_assets"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Goodwill by Capitalisation of Average Profits, compute the result for average_profit = 3, normal_rate = 3, net_assets = 3.",
+     "solution": "Step 1: capitalise the average profit: capitalised_value = average_profit * 100 / normal_rate = 100.0 Step 2: deduct the net assets: goodwill = capitalised_value - net_assets = 97.0 Final result: 97.0",
+     "answer": "97.0"
+    },
+    {
+     "question": "Using Goodwill by Capitalisation of Average Profits, compute the result for average_profit = 4, normal_rate = 4, net_assets = 4.",
+     "solution": "Step 1: capitalise the average profit: capitalised_value = average_profit * 100 / normal_rate = 100.0 Step 2: deduct the net assets: goodwill = capitalised_value - net_assets = 96.0 Final result: 96.0",
+     "answer": "96.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.102.5.5",
+   "title": "Goodwill by Capitalisation of Super Profits",
+   "section": "2.5.4.3",
+   "definition": "The excess earning itself is capitalized at the normal rate of return, which gives goodwill straight away without valuing the whole business.",
+   "formula": "goodwill = super_profit * 100 / normal_rate",
+   "key_idea": "This lands on the same figure as capitalising average profits when both start from the same data.",
+   "textbook_ref": "leac102.txt section 2.5.4.3 (b), Illustration 15 part 3 (lines 1035-1103)",
+   "question_patterns": [
+    "calculate goodwill by capitalising the super profits",
+    "value goodwill as the capitalised value of the super profit",
+    "find goodwill when super profits are capitalized at the normal rate",
+    "what is the goodwill under the capitalisation of super profits method",
+    "determine goodwill by capitalizing the excess earnings at the normal rate of return"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute the normal profit",
+     "explain": "capital employed times the normal rate over one hundred",
+     "compute": "normal_profit = capital_employed * normal_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "measure the super profit",
+     "explain": "average profit less normal profit",
+     "compute": "super_profit = average_profit - normal_profit"
+    },
+    {
+     "step": 3,
+     "action": "capitalise the super profit",
+     "explain": "multiply the super profit by one hundred over the normal rate",
+     "compute": "goodwill = super_profit * 100 / normal_rate"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Goodwill by Capitalisation of Super Profits, compute the result for capital_employed = 3, normal_rate = 3, average_profit = 3.",
+     "solution": "Step 1: compute the normal profit: normal_profit = capital_employed * normal_rate / 100 = 0.09 Step 2: measure the super profit: super_profit = average_profit - normal_profit = 2.91 Step 3: capitalise the super profit: goodwill = super_profit * 100 / normal_rate = 97.0 Final result: 97.0",
+     "answer": "97.0"
+    },
+    {
+     "question": "Using Goodwill by Capitalisation of Super Profits, compute the result for capital_employed = 4, normal_rate = 4, average_profit = 4.",
+     "solution": "Step 1: compute the normal profit: normal_profit = capital_employed * normal_rate / 100 = 0.16 Step 2: measure the super profit: super_profit = average_profit - normal_profit = 3.84 Step 3: capitalise the super profit: goodwill = super_profit * 100 / normal_rate = 96.0 Final result: 96.0",
+     "answer": "96.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.102.5.6",
+   "title": "Premium for Goodwill of the Incoming Partner",
+   "section": "2.5.5",
+   "definition": "The entrant compensates the old partners by paying for his own slice of the firm's goodwill; that premium equals the firm goodwill times the profit fraction he acquires.",
+   "formula": "premium_amount = firm_goodwill * new_share_fraction",
+   "key_idea": "The premium is then shared by the old partners in their sacrificing ratio.",
+   "textbook_ref": "leac102.txt section 2.5.5.1, Illustrations 16-17 (lines 1104-1345)",
+   "question_patterns": [
+    "calculate the premium for goodwill brought in by the new partner",
+    "how much goodwill premium will the incoming partner pay",
+    "find the new partner's share of the firm's goodwill",
+    "what amount of premium is due from a partner admitted for a given share",
+    "compute the goodwill share the entrant must bring in cash"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the acquired fraction to the firm goodwill",
+     "explain": "the entrant pays for his slice of the reputation value",
+     "compute": "premium_amount = firm_goodwill * new_share_fraction"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Premium for Goodwill of the Incoming Partner, compute the result for firm_goodwill = 3, new_share_fraction = 3.",
+     "solution": "Step 1: apply the acquired fraction to the firm goodwill: premium_amount = firm_goodwill * new_share_fraction = 9.0 Final result: 9.0",
+     "answer": "9.0"
+    },
+    {
+     "question": "Using Premium for Goodwill of the Incoming Partner, compute the result for firm_goodwill = 4, new_share_fraction = 4.",
+     "solution": "Step 1: apply the acquired fraction to the firm goodwill: premium_amount = firm_goodwill * new_share_fraction = 16.0 Final result: 16.0",
+     "answer": "16.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.102.5.7",
+   "title": "Hidden Goodwill",
+   "section": "2.5.5.2",
+   "definition": "When goodwill is not quoted, infer it: gross up the entrant's payment to the whole-firm capital, subtract the capital actually standing, and the difference is the hidden goodwill.",
+   "formula": "hidden_goodwill = implied_capital - combined_capital",
+   "key_idea": "The unquoted value is read off from how much capital the entrant paid for his fraction.",
+   "textbook_ref": "leac102.txt section 2.5.5.2, Illustration 21 (lines 1717-1826)",
+   "question_patterns": [
+    "calculate the hidden goodwill of the firm",
+    "find goodwill when its value is not given at the time of admission",
+    "what is the inferred goodwill from the new partner's capital",
+    "determine goodwill by comparing the implied capital with the actual capital",
+    "work out the goodwill inferred from the amount the incoming partner brought in"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "gross up the entrant's capital",
+     "explain": "divide what the entrant brought by his fraction to get the implied total capital",
+     "compute": "implied_capital = incoming_capital / new_share_fraction"
+    },
+    {
+     "step": 2,
+     "action": "compare with the actual capital",
+     "explain": "the excess of implied over actual total capital is the hidden goodwill",
+     "compute": "hidden_goodwill = implied_capital - combined_capital"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Hidden Goodwill, compute the result for incoming_capital = 3, new_share_fraction = 3, combined_capital = 3.",
+     "solution": "Step 1: gross up the entrant's capital: implied_capital = incoming_capital / new_share_fraction = 1.0 Step 2: compare with the actual capital: hidden_goodwill = implied_capital - combined_capital = -2.0 Final result: -2.0",
+     "answer": "-2.0"
+    },
+    {
+     "question": "Using Hidden Goodwill, compute the result for incoming_capital = 4, new_share_fraction = 4, combined_capital = 4.",
+     "solution": "Step 1: gross up the entrant's capital: implied_capital = incoming_capital / new_share_fraction = 1.0 Step 2: compare with the actual capital: hidden_goodwill = implied_capital - combined_capital = -3.0 Final result: -3.0",
+     "answer": "-3.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.102.6.1",
+   "title": "Accumulated Profits and Reserves Distribution",
+   "section": "2.6",
+   "definition": "Reserves and undistributed profits earned before admission belong to the old partners alone, so each takes his old-ratio fraction of the accumulated amount.",
+   "formula": "partner_share = accumulated_amount * old_share_fraction",
+   "key_idea": "The entrant must not benefit from profits earned before he joined the firm.",
+   "textbook_ref": "leac102.txt section 2.6, Illustration 22 (lines 1849-1904)",
+   "question_patterns": [
+    "calculate each old partner's share of the general reserve on admission",
+    "how is the accumulated profit divided among the old partners",
+    "find the share of reserve transferred to a partner's capital account",
+    "what portion of the accumulated profits goes to each existing partner",
+    "distribute the general reserve between the old partners in the old ratio"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the old fraction to the accumulated amount",
+     "explain": "each old partner's slice of the reserves follows the old profit ratio",
+     "compute": "partner_share = accumulated_amount * old_share_fraction"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Accumulated Profits and Reserves Distribution, compute the result for accumulated_amount = 3, old_share_fraction = 3.",
+     "solution": "Step 1: apply the old fraction to the accumulated amount: partner_share = accumulated_amount * old_share_fraction = 9.0 Final result: 9.0",
+     "answer": "9.0"
+    },
+    {
+     "question": "Using Accumulated Profits and Reserves Distribution, compute the result for accumulated_amount = 4, old_share_fraction = 4.",
+     "solution": "Step 1: apply the old fraction to the accumulated amount: partner_share = accumulated_amount * old_share_fraction = 16.0 Final result: 16.0",
+     "answer": "16.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.102.7.1",
+   "title": "Revaluation Profit and Its Distribution",
+   "section": "2.7",
+   "definition": "Totalling every upward revision and deducting the downward ones gives the net revaluation result, which the old partners divide in the old ratio.",
+   "formula": "partner_share = (gains_total - losses_total) * old_share_fraction",
+   "key_idea": "Only old partners absorb revaluation effects, because the assets and liabilities existed before the admission.",
+   "textbook_ref": "leac102.txt section 2.7, Illustrations 23-24 (lines 1905-2342)",
+   "question_patterns": [
+    "calculate the profit or loss on revaluation of assets and liabilities",
+    "find the net gain on revaluation transferred to the old partners",
+    "what is each partner's share of the revaluation profit",
+    "determine the balance of the revaluation account at admission",
+    "compute the old partners' share after revaluing assets and reassessing liabilities"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "net the revisions",
+     "explain": "subtract the total downward revisions from the total upward revisions",
+     "compute": "net_revaluation = gains_total - losses_total"
+    },
+    {
+     "step": 2,
+     "action": "give each old partner his slice",
+     "explain": "the net result is split in the old profit ratio",
+     "compute": "partner_share = net_revaluation * old_share_fraction"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Revaluation Profit and Its Distribution, compute the result for gains_total = 3, losses_total = 3, old_share_fraction = 3.",
+     "solution": "Step 1: net the revisions: net_revaluation = gains_total - losses_total = 0.0 Step 2: give each old partner his slice: partner_share = net_revaluation * old_share_fraction = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    },
+    {
+     "question": "Using Revaluation Profit and Its Distribution, compute the result for gains_total = 4, losses_total = 4, old_share_fraction = 4.",
+     "solution": "Step 1: net the revisions: net_revaluation = gains_total - losses_total = 0.0 Step 2: give each old partner his slice: partner_share = net_revaluation * old_share_fraction = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.102.8.1",
+   "title": "Proportionate Capital Adjustment",
+   "section": "2.8",
+   "definition": "If capitals must sit in the profit ratio, the entrant's payment fixes the whole-firm capital; each partner's required capital is his profit fraction of that total, and the gap against his adjusted capital is brought in or withdrawn.",
+   "formula": "capital_adjustment = required_capital - adjusted_capital",
+   "key_idea": "Capitals are made proportionate to the new profit sharing ratio; a positive gap brings cash in, a negative gap withdraws the excess.",
+   "textbook_ref": "leac102.txt section 2.8, Illustrations 25-26 (lines 2373-2656)",
+   "question_patterns": [
+    "calculate the new capital of each partner in the profit sharing proportion",
+    "find how much capital a partner must bring in or withdraw after the admission",
+    "what is the required capital of a partner when capitals follow the new ratio",
+    "determine the surplus or deficiency in a partner's capital",
+    "adjust the partners' capitals proportionate to their profit shares",
+    "compute the proportionate capital of every partner from the entrant's contribution",
+    "calculate the new capitals of all partners when capitals are adjusted in the new profit sharing ratio",
+    "find the amount a partner brings in or withdraws to make his capital proportionate to his share"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "gross up to the total capital",
+     "explain": "divide the base capital by its fraction to value the whole firm's capital",
+     "compute": "total_capital = base_capital / base_share_fraction"
+    },
+    {
+     "step": 2,
+     "action": "fix the partner's required capital",
+     "explain": "multiply the total capital by this partner's profit fraction",
+     "compute": "required_capital = total_capital * partner_share_fraction"
+    },
+    {
+     "step": 3,
+     "action": "measure the gap",
+     "explain": "required capital less the capital already standing gives the adjustment; a negative figure is a withdrawal",
+     "compute": "capital_adjustment = required_capital - adjusted_capital"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Proportionate Capital Adjustment, compute the result for base_capital = 3, base_share_fraction = 3, partner_share_fraction = 3, adjusted_capital = 2.",
+     "solution": "Step 1: gross up to the total capital: total_capital = base_capital / base_share_fraction = 1.0 Step 2: fix the partner's required capital: required_capital = total_capital * partner_share_fraction = 3.0 Step 3: measure the gap: capital_adjustment = required_capital - adjusted_capital = 1.0 Final result: 1.0",
+     "answer": "1.0"
+    },
+    {
+     "question": "Using Proportionate Capital Adjustment, compute the result for base_capital = 4, base_share_fraction = 4, partner_share_fraction = 4, adjusted_capital = 3.",
+     "solution": "Step 1: gross up to the total capital: total_capital = base_capital / base_share_fraction = 1.0 Step 2: fix the partner's required capital: required_capital = total_capital * partner_share_fraction = 4.0 Step 3: measure the gap: capital_adjustment = required_capital - adjusted_capital = 1.0 Final result: 1.0",
+     "answer": "1.0"
+    }
+   ]
+  },
+  {
+   "id": "leac.102.9.1",
+   "title": "Share Change on Ratio Revision",
+   "section": "2.9",
+   "definition": "When existing partners reshuffle shares among themselves, each one's gain or loss equals the new fraction minus the old fraction; a negative figure marks a sacrifice.",
+   "formula": "share_change = new_share_fraction - old_share_fraction",
+   "key_idea": "Whoever gains share compensates the one who gives it up, through a goodwill adjustment.",
+   "textbook_ref": "leac102.txt section 2.9, Illustration 29 (lines 3357-3583)",
+   "question_patterns": [
+    "find which partner gains and which sacrifices when the ratio changes",
+    "calculate the change in each partner's share after the profit ratio is revised",
+    "by how much did a partner's share increase under the new arrangement",
+    "what is the gain or sacrifice of each partner on a change in the profit sharing ratio",
+    "measure the share movement when existing partners only reset their ratios"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "deduct the old fraction from the new fraction",
+     "explain": "a positive result is a gain, a negative one a sacrifice",
+     "compute": "share_change = new_share_fraction - old_share_fraction"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Share Change on Ratio Revision, compute the result for new_share_fraction = 3, old_share_fraction = 3.",
+     "solution": "Step 1: deduct the old fraction from the new fraction: share_change = new_share_fraction - old_share_fraction = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    },
+    {
+     "question": "Using Share Change on Ratio Revision, compute the result for new_share_fraction = 4, old_share_fraction = 4.",
+     "solution": "Step 1: deduct the old fraction from the new fraction: share_change = new_share_fraction - old_share_fraction = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "leac102.txt Illustration 1",
+   "concept": "leac.102.3.2",
+   "question_type": "numeric",
+   "question_pattern": "Anil and Vishal share profits 3:2. Sumit is admitted for {new_share_fraction} of future profits. Find Anil's new share.",
+   "extracted_variables": {
+    "old_share_fraction": 0.6,
+    "new_share_fraction": 0.2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take away the entrant's slice from the whole",
+     "explain": "remaining profit = 1 - 1/5 = 4/5",
+     "compute": "remaining_share = 1 - new_share_fraction"
+    },
+    {
+     "step": 2,
+     "action": "scale the old fraction by the leftover",
+     "explain": "3/5 of 4/5 = 12/25 = 0.48",
+     "compute": "partner_new_share = old_share_fraction * remaining_share"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "leac102.txt Illustration 3",
+   "concept": "leac.102.3.3",
+   "question_type": "numeric",
+   "question_pattern": "Anshu and Nitu share 3:2. Jyoti is admitted for {surrendered_fraction_a} from Anshu and {surrendered_fraction_b} from Nitu. Find Anshu's new share.",
+   "extracted_variables": {
+    "old_share_fraction": 0.6,
+    "surrendered_fraction": 0.2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract the surrender from the old fraction",
+     "explain": "3/5 - 2/10 = 4/10 = 0.4",
+     "compute": "partner_new_share = old_share_fraction - surrendered_fraction"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "leac102.txt Illustration 6",
+   "concept": "leac.102.4.1",
+   "question_type": "numeric",
+   "question_pattern": "Rohit and Mohit share 5:3 and admit Bijoy. The new ratio is 4:2:1. Find Rohit's sacrifice.",
+   "extracted_variables": {
+    "old_share_fraction": 0.625,
+    "new_share_fraction": 0.571429
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "deduct the new fraction from the old fraction",
+     "explain": "5/8 - 4/7 = 3/56, about 0.0536",
+     "compute": "sacrifice_share = old_share_fraction - new_share_fraction"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "leac102.txt Illustration 9",
+   "concept": "leac.102.5.1",
+   "question_type": "numeric",
+   "question_pattern": "Profits of five years total {profits_total}. Value the goodwill at {years_purchase} years purchase of the average profit.",
+   "extracted_variables": {
+    "profits_total": 2193000,
+    "years_count": 5,
+    "years_purchase": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "average the past profits",
+     "explain": "2193000 / 5 = 438600",
+     "compute": "average_profit = profits_total / years_count"
+    },
+    {
+     "step": 2,
+     "action": "multiply by the years purchase",
+     "explain": "438600 x 4 = 1754400",
+     "compute": "goodwill = average_profit * years_purchase"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "leac102.txt Illustration 11",
+   "concept": "leac.102.5.2",
+   "question_type": "numeric",
+   "question_pattern": "Adjusted profits {profit1}, {profit2}, {profit3}, {profit4} carry weights 1, 2, 3, 4. Value goodwill at {years_purchase} years purchase of the weighted average.",
+   "extracted_variables": {
+    "profit1": 15400,
+    "w1": 1,
+    "profit2": 17600,
+    "w2": 2,
+    "profit3": 23400,
+    "w3": 3,
+    "profit4": 24620,
+    "w4": 4,
+    "years_purchase": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "weight each year's profit",
+     "explain": "15400 + 35200 + 70200 + 98480 = 219280",
+     "compute": "weighted_profit_total = profit1*w1 + profit2*w2 + profit3*w3 + profit4*w4"
+    },
+    {
+     "step": 2,
+     "action": "total the weights",
+     "explain": "1 + 2 + 3 + 4 = 10",
+     "compute": "weights_total = w1 + w2 + w3 + w4"
+    },
+    {
+     "step": 3,
+     "action": "divide the products by the weights",
+     "explain": "219280 / 10 = 21928",
+     "compute": "weighted_average_profit = weighted_profit_total / weights_total"
+    },
+    {
+     "step": 4,
+     "action": "apply the purchase multiplier",
+     "explain": "21928 x 3 = 65784",
+     "compute": "goodwill = weighted_average_profit * years_purchase"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "leac102.txt Illustration 12",
+   "concept": "leac.102.5.3",
+   "question_type": "numeric",
+   "question_pattern": "Capital employed is {capital_employed}, the normal rate is {normal_rate} percent and the average profit is {average_profit}. Find goodwill at {years_purchase} years purchase of super profit.",
+   "extracted_variables": {
+    "capital_employed": 500000,
+    "normal_rate": 10,
+    "average_profit": 60000,
+    "years_purchase": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute the normal profit",
+     "explain": "500000 x 10 / 100 = 50000",
+     "compute": "normal_profit = capital_employed * normal_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "measure the super profit",
+     "explain": "60000 - 50000 = 10000",
+     "compute": "super_profit = average_profit - normal_profit"
+    },
+    {
+     "step": 3,
+     "action": "multiply by the years purchase",
+     "explain": "10000 x 3 = 30000",
+     "compute": "goodwill = super_profit * years_purchase"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "leac102.txt Illustration 14",
+   "concept": "leac.102.5.4",
+   "question_type": "numeric",
+   "question_pattern": "Average profits are {average_profit}, the normal rate is {normal_rate} percent and net assets are {net_assets}. Find goodwill by capitalisation of average profits.",
+   "extracted_variables": {
+    "average_profit": 100000,
+    "normal_rate": 10,
+    "net_assets": 820000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "capitalise the average profit",
+     "explain": "100000 x 100 / 10 = 1000000",
+     "compute": "capitalised_value = average_profit * 100 / normal_rate"
+    },
+    {
+     "step": 2,
+     "action": "deduct the net assets",
+     "explain": "1000000 - 820000 = 180000",
+     "compute": "goodwill = capitalised_value - net_assets"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "leac102.txt Illustration 15 part 3",
+   "concept": "leac.102.5.5",
+   "question_type": "numeric",
+   "question_pattern": "Average profit is {average_profit} on capital employed of {capital_employed}; the normal rate is {normal_rate} percent. Find goodwill by capitalising super profits.",
+   "extracted_variables": {
+    "average_profit": 30000,
+    "capital_employed": 200000,
+    "normal_rate": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute the normal profit",
+     "explain": "200000 x 10 / 100 = 20000",
+     "compute": "normal_profit = capital_employed * normal_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "measure the super profit",
+     "explain": "30000 - 20000 = 10000",
+     "compute": "super_profit = average_profit - normal_profit"
+    },
+    {
+     "step": 3,
+     "action": "capitalise the super profit",
+     "explain": "10000 x 100 / 10 = 100000",
+     "compute": "goodwill = super_profit * 100 / normal_rate"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "leac102.txt Illustration 17",
+   "concept": "leac.102.5.6",
+   "question_type": "numeric",
+   "question_pattern": "A firm's goodwill is valued at {firm_goodwill}. Ajay is admitted for a {new_share_fraction} share. Find the premium he must bring.",
+   "extracted_variables": {
+    "firm_goodwill": 20000,
+    "new_share_fraction": 0.25
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the acquired fraction to the firm goodwill",
+     "explain": "20000 x 1/4 = 5000",
+     "compute": "premium_amount = firm_goodwill * new_share_fraction"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "leac102.txt Illustration 21",
+   "concept": "leac.102.5.7",
+   "question_type": "numeric",
+   "question_pattern": "Sam brings {incoming_capital} for a {new_share_fraction} share; the combined capitals are {combined_capital}. Find the hidden goodwill.",
+   "extracted_variables": {
+    "incoming_capital": 60000,
+    "new_share_fraction": 0.2,
+    "combined_capital": 190000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "gross up the entrant's capital",
+     "explain": "60000 / 0.2 = 300000",
+     "compute": "implied_capital = incoming_capital / new_share_fraction"
+    },
+    {
+     "step": 2,
+     "action": "compare with the actual capital",
+     "explain": "300000 - 190000 = 110000",
+     "compute": "hidden_goodwill = implied_capital - combined_capital"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "leac102.txt Illustration 22",
+   "concept": "leac.102.6.1",
+   "question_type": "numeric",
+   "question_pattern": "A general reserve of {accumulated_amount} exists when Narender is admitted. Rajinder and Surinder share 4:1. Find Rajinder's share of the reserve.",
+   "extracted_variables": {
+    "accumulated_amount": 20000,
+    "old_share_fraction": 0.8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the old fraction to the accumulated amount",
+     "explain": "20000 x 4/5 = 16000",
+     "compute": "partner_share = accumulated_amount * old_share_fraction"
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "leac102.txt Illustration 23",
+   "concept": "leac.102.7.1",
+   "question_type": "numeric",
+   "question_pattern": "Revaluation gains total {gains_total} and losses total {losses_total}. A and B share 3:2. Find A's share of the revaluation profit.",
+   "extracted_variables": {
+    "gains_total": 4100,
+    "losses_total": 3300,
+    "old_share_fraction": 0.6
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "net the revisions",
+     "explain": "4100 - 3300 = 800",
+     "compute": "net_revaluation = gains_total - losses_total"
+    },
+    {
+     "step": 2,
+     "action": "give each old partner his slice",
+     "explain": "800 x 3/5 = 480",
+     "compute": "partner_share = net_revaluation * old_share_fraction"
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "leac102.txt Illustration 25",
+   "concept": "leac.102.8.1",
+   "question_type": "numeric",
+   "question_pattern": "C brings {base_capital} for a {base_share_fraction} share. A's share is {partner_share_fraction} and A's adjusted capital is {adjusted_capital}. Find A's capital adjustment.",
+   "extracted_variables": {
+    "base_capital": 20000,
+    "base_share_fraction": 0.25,
+    "partner_share_fraction": 0.5,
+    "adjusted_capital": 45000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "gross up to the total capital",
+     "explain": "20000 / 0.25 = 80000",
+     "compute": "total_capital = base_capital / base_share_fraction"
+    },
+    {
+     "step": 2,
+     "action": "fix the partner's required capital",
+     "explain": "80000 x 0.5 = 40000",
+     "compute": "required_capital = total_capital * partner_share_fraction"
+    },
+    {
+     "step": 3,
+     "action": "measure the gap",
+     "explain": "40000 - 45000 = -5000, so A withdraws 5000",
+     "compute": "capital_adjustment = required_capital - adjusted_capital"
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "leac102.txt section 2.9 example",
+   "concept": "leac.102.9.1",
+   "question_type": "numeric",
+   "question_pattern": "Partners move from an {old_share_fraction} share to a {new_share_fraction} share. Find the change for that partner.",
+   "extracted_variables": {
+    "old_share_fraction": 0.5,
+    "new_share_fraction": 0.3125
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "deduct the old fraction from the new fraction",
+     "explain": "0.3125 - 0.5 = -0.1875, a sacrifice of 3/16",
+     "compute": "share_change = new_share_fraction - old_share_fraction"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-practice-1",
+   "source_ref": "leac102.txt Questions for Practice, numericals Q1-Q10",
+   "questions": [
+    "A and B share 3:2; C is admitted for 1/6 of profits; find the new ratio (answer 3:2:1)",
+    "Partners sharing 3:2:1 admit D for 10 percent of profits; find the new ratio (answer 9:6:3:2)",
+    "X and Y share 5:3; Z enters for 1/10 taken equally from both; find the new ratio (answer 23:13:4)",
+    "P and Q share 2:1; R is given 1/5 taken from P and Q in 1:2; find the new ratio (answer 3:1:1)",
+    "Partners sharing 3:2:2 admit D for 1/5 taken from A, B, C in 2:2:1; find the new ratio (answer 61:36:43:35)",
+    "Radha and Rukmani share 3:2 and admit Gopi; they surrender 1/3 and 1/4 of their own shares; find the new ratio (answer 4:3:3)"
+   ]
+  },
+  {
+   "id": "ex-practice-2",
+   "source_ref": "leac102.txt Questions for Practice, numericals Q11-Q12",
+   "questions": [
+    "Sandeep and Navdeep share 5:3; the new ratio is 4:2:1; find the sacrificing ratio (answer 3:5)",
+    "Rao and Swami share 3:2; Ravi is admitted for 1/8 and the old partners' new ratio is 4:3; find the new ratio and the sacrificing ratio (answers 4:3:1 and 4:1)"
+   ]
+  },
+  {
+   "id": "ex-practice-3",
+   "source_ref": "leac102.txt Questions for Practice, numericals Q13-Q17",
+   "questions": [
+    "Average the profits 40000, 50000, 60000, 50000, 60000 and value goodwill at 4 years purchase (answer 208000)",
+    "Capital 200000, normal return 15 percent, profit 48000; goodwill at 3 years purchase of super profit (answer 54000)",
+    "Capital 500000, profits 40000 to 85000 over five years, normal rate 10 percent; goodwill at 3 years purchase of average super profit (answer 30000)",
+    "Capitals 300000 and 200000, profit 150000, normal rate 20 percent; goodwill by capitalisation method (answer 250000)",
+    "Average profits 100000, assets 1000000, external liabilities 180000, normal rate 10 percent; goodwill by capitalisation (answer 180000)"
+   ]
+  },
+  {
+   "id": "ex-practice-4",
+   "source_ref": "leac102.txt Questions for Practice, numericals Q18-Q26",
+   "questions": [
+    "Pass journal entries when the premium brought in is retained, fully withdrawn, half withdrawn, or paid privately",
+    "Record entries for a premium brought in cash where the old partners later withdraw their shares of it",
+    "Write off goodwill already appearing in the books when a premium also comes in",
+    "Adjust goodwill through the new partner's current account when he cannot bring the premium in cash",
+    "Adjust goodwill without opening a goodwill account when the new ratio differs from the old"
+   ]
+  },
+  {
+   "id": "ex-practice-5",
+   "source_ref": "leac102.txt Questions for Practice, numericals Q27-Q35",
+   "questions": [
+    "Admission with revaluation of plant, building, stock, provision for doubtful debts and unrecorded creditors; prepare the revaluation account, capital accounts and balance sheet (revaluation gain 27000)",
+    "Admission with reserve and credit balance of profit and loss distributed in the old ratio; pass the journal entries",
+    "Debit balance of profit and loss written off by the old partners in the old ratio; pass the entry",
+    "Admission where capitals are adjusted through current accounts to match the new ratio; prepare the balance sheet (revaluation gain 2520)",
+    "Admission where the entrant's capital is one fifth of the total capital of the new firm; revalue land, building and plant first (revaluation gain 25000)"
+   ]
+  }
+ ]
+}

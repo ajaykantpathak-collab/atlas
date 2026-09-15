@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_05_009",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_05_009",
+   "title": "c12_ip_cbse_05_009",
+   "questions": [
+    {
+     "q": "State the primary distinguishing feature of Web 2.0 compared to Web 1.0 in one sentence.",
+     "a": "Web 2.0 enables user-generated content and two-way interaction (read-write), whereas Web 1.0 was primarily read-only static pages. A wrong answer (e.g., \"Web 2.0 uses HTML5\") reveals confusion between enabling technologies and the fundamental paradigm shift.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what \"Semantic Web\" means in the context of Web 3.0 and why it is not simply \"better search.\"",
+     "a": "The Semantic Web adds machine-readable metadata (meaning) to data so software agents can understand relationships and automate tasks, not just match keywords. A wrong answer equating it with improved search algorithms shows the student misses the shift from document-centric to data-centric representation.",
+     "self_check": true
+    },
+    {
+     "q": "A startup wants to build a platform where users own their identity and data, and no central server can censor content. Which web generation's principles align best, and name two specific technologies that would implement this.",
+     "a": "Web 3.0 principles align; technologies: blockchain (for decentralized identity/storage) and IPFS (for distributed file storage). A wrong answer suggesting \"Web 2.0 with better privacy settings\" reveals misunderstanding of architectural decentralization vs. policy-based privacy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of the server in Web 1.0, Web 2.0, and Web 3.0 architectures. How does the trust model change across generations?",
+     "a": "Web 1.0: central server serves static files; trust = server authority. Web 2.0: server processes user data and runs application logic; trust = platform reputation. Web 3.0: server replaced by peer-to-peer network/smart contracts; trust = cryptographic consensus. A wrong answer that says \"servers disappear in Web 3.0\" misses that nodes still serve data but without central control.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Web 3.0 is just Web 2.0 with blockchain added.\" Provide two technical arguments for or against.",
+     "a": "Against: (1) Web 3.0 introduces semantic metadata and AI reasoning layers absent in Web 2.0; (2) Web 3.0 re-architects data ownership via self-sovereign identity, not merely adding a ledger. A weak critique focusing only on cryptocurrency shows lack of grasp of the broader semantic/decentralization vision.",
+     "self_check": true
+    },
+    {
+     "q": "Design a concept for a Web 3.0 application for Indian farmers that uses semantic data, decentralized storage, and token incentives. Sketch the three core components and one user benefit.",
+     "a": "Components: (1) Semantic knowledge graph linking crop, soil, weather, market data; (2) IPFS storage for immutable land records and supply-chain logs; (3) Token rewards for contributing verified data. Benefit: Farmer owns data, gets fair price via transparent market oracle. A poor answer describing a regular app with a crypto wallet shows failure to integrate semantic and decentralized aspects.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_al_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_al_cbse_02_011",
+   "title": "c12_hin_al_cbse_02_011",
+   "questions": [
+    {
+     "q": "Identify the grammatical category of the word \"Hklh.k\" as used in the opening line \"dey iwQyrsA Hkkst eas ¯gnqvksa osQ ;gk¡ Hkkstu dey&i=k ij ijkslk tkrkA dey&i=k dks iqjbu dgrsA dey osQ uky dks Hklh.k dgrsA\". Explain its morphological composition.",
+     "a": "\"Hklh.k\" is a masculine singular noun in the direct case, formed from the root \"Hklh\" (to carry/lift) + the nominalizing suffix \"-k\" (krdant), meaning \"that which is carried/lifted\" — here, the edible kernel of the dey fruit. A wrong answer (e.g., calling it a verb or adjective) reveals the student cannot distinguish derivational morphology (krdant formation) from inflectional verb forms, a core gap for analyzing dialectal nominalizations in the text.",
+     "self_check": true
+    },
+    {
+     "q": "The text uses \"oqQeqn\" as a synonym for \"tyiq\"i\". Explain the semantic nuance that makes \"oqQeqn\" the preferred term in the village context, and identify the grammatical feature that signals this is a dialect borrowing rather than standard Hindi.",
+     "a": "\"oqQeqn\" (from Avadhi/Braj \"oqQe\" = water/liquid + \"qn\" = particle) specifically denotes the watery pulp surrounding the seed, carrying sensory immediacy — the villager experiences the fruit as juice-first. The final nasalized \"-n\" (anunasik) in \"oqQeqn\" is the grammatical marker of its dialect origin; standard Hindi would use \"oqQb;k¡\" or \"tyiq\"i\". A student who misses the anunasik as a dialect marker treats the word as mere vocabulary, not as grammatical evidence of the text's linguistic landscape.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"fclukFk cgqr fnuksa le>rs Fks fd dksb;k¡ flI+kZQ gekjs ;gk¡ dk iwQy gSA\", identify the tense-aspect combination of \"le>rs Fks\" and explain why the author chooses this over simple past \"le>k Fks\" or perfective \"le>k x;k\".",
+     "a": "\"le>rs Fks\" is habitual past (imperfective) — \"used to understand/kept understanding\". The author chooses it to convey a prolonged, repeated state of belief over \"cgqr fnuksa\" (many days), contrasting with the sudden revelation that follows. Simple past \"le>k Fks\" would imply a single completed act of understanding; perfective \"le>k x;k\" would emphasize resultative completion. A student who selects the wrong tense-aspect misses how aspect encodes duration and epistemological stance — a recurring pattern in the memoir's narration of childhood perception.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the honorific systems operating in these two passages: (a) \"fclukFk dks mUgksaus gh ikyk&ikslkA\" and (b) \"ek¡ us ”kksj ls FkIiM+ ekjk fiQj ikl esa cSBh ukmu ls dgkµnk¡r fudkys gS] Vhlr gSA\". Analyze how pronoun choice and verb agreement encode shifting power dynamics.",
+     "a": "In (a), \"mUgksaus\" (ergative plural honorific) + \"ikyk&ikslk\" (plural verb agreement) shows the villagers collectively addressing Chhutki with respect due to her father's status — third-person plural honorific for a child. In (b), mother uses \"ukmu\" (familiar singular \"you\") + \"fudkys\" (singular verb) with the child, but the reported speech \"nk¡r fudkyrs gSa\" shifts to plural \"gSa\" when the child addresses the father (\"gj ph”k\"), reflecting the child's internalized honorific code. A student who sees only \"politeness\" misses the grammatical mapping of social hierarchy: ergative subject + plural verb = institutional respect; familiar pronoun + singular verb = intimacy; plural verb in reported speech = performed deference.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The dense clustering of onomatopoeic words (e.g., 'rsy&rsy', 'f[kys f[kys', 'djsyk', 'fephZ') in the 'iwQy f[kys' passage functions primarily as decorative sound-play.\" Support or refute with grammatical evidence.",
+     "a": "Refute. Grammatically, these are not mere nouns/adjectives but **echo-form reduplicatives** (dvandva/echo compounds) functioning as **adverbial manner modifiers** of the verb \"f[kys\" (resound/ring). \"rsy&rsy\" (reduplicated stem) + \"f[kys f[kys\" (iterative verb) + \"djsyk\" (onomatopoeic adverb) + \"fephZ\" (echo-word) create a syntactic chain where each layer intensifies the sensory duration: reduplication → iterative aspect → manner adverb → echo-word. This is grammatical iconicity — form mimicking the unending, layered soundscape. A student calling it \"decoration\" misses that reduplication and iteration are grammatical categories in Hindi, not stylistic flourishes.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the sentence \"iwQy f[kys] f[kys iwQy / èkku iwQy] dksnks iwQy / oqQVdh iwQy f[kysA\" as a standard Hindi prose sentence using finite verbs, then explain what is lost in translation.",
+     "a": "Standard Hindi: \"iwQy bajti hain, baar-baar bajti hain; èkku ki awaz hai, dhool ki awaz hai, barish ki awaz bajti hai.\" Lost: (1) **Nominal predicate structure** — \"iwQy f[kys\" treats sound as noun+verb complex, not subject+finite verb; (2) **Elliptical parallelism** — each line drops the verb, creating rhythmic equivalence across sound-types; (3) **Present-habitual fusion** — \"f[kys\" (singular verb with plural sense) merges timeless truth with immediate perception; (4) **Oral prosody** — the slash-separated fragments mirror breath-units of folk singing. A student who produces only the prose version cannot articulate how grammar *is* the poem's rhythm.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

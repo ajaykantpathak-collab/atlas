@@ -1,0 +1,843 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 105,
+ "chapter_title": "Squares and Square Roots",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hemh105.txt",
+ "concepts": [
+  {
+   "id": "hemh.5.1",
+   "title": "Square Numbers and Perfect Squares",
+   "section": "5.1",
+   "definition": "A counting number that comes from multiplying another counting number by itself is a square (a perfect square).",
+   "formula": "square = n ** 2",
+   "key_idea": "Multiply a counting number by itself and the product is one of these.",
+   "textbook_ref": "hemh105.txt lines 12-40",
+   "question_patterns": [
+    "check if a given number is a perfect square",
+    "find the square of a given integer",
+    "calculate the square of a number",
+    "determine whether a number is a square number",
+    "Is 720 a square number -- why not?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the number by itself",
+     "explain": "squaring a number n means computing n multiplied by n",
+     "compute": "square = n ** 2"
+    }
+   ]
+  },
+  {
+   "id": "hemh.5.2.1",
+   "title": "Unit Digits of Square Numbers",
+   "section": "5.2",
+   "definition": "The units place digit of any square number depends solely on the units digit of the number being squared, always ending in 0, 1, 4, 5, 6, or 9.",
+   "formula": "unit_digit = (number % 10) ** 2 % 10",
+   "key_idea": "Perfect squares never end with the digits 2, 3, 7, or 8 in their ones place.",
+   "textbook_ref": "hemh105.txt lines 45-90",
+   "question_patterns": [
+    "what will be the unit digit of the square of a number",
+    "find the ones digit in the square of a given number",
+    "can a number ending in 7 be a perfect square",
+    "determine the ending digit of a square",
+    "What is the ones digit of 91 squared?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "extract the ones digit",
+     "explain": "find the remainder of the number when divided by 10",
+     "compute": "last_digit = number % 10"
+    },
+    {
+     "step": 2,
+     "action": "square the ones digit and take remainder modulo 10",
+     "explain": "the unit digit of the product is the unit digit of last_digit squared",
+     "compute": "unit_digit = (last_digit ** 2) % 10"
+    }
+   ]
+  },
+  {
+   "id": "hemh.5.2.2",
+   "title": "Number of Zeros in Square Numbers",
+   "section": "5.2",
+   "definition": "When a number ending in zeros is squared, the total count of trailing zeros doubles in the resulting square.",
+   "formula": "square_zeros = 2 * zeros",
+   "key_idea": "A square number always contains an even number of trailing zeros.",
+   "textbook_ref": "hemh105.txt lines 95-120",
+   "question_patterns": [
+    "how many zeros will be in the square of a number",
+    "find the number of zeros in the square",
+    "calculate trailing zeros of a square number",
+    "determine if a number with odd zeros is a perfect square",
+    "How many zeros end the square of 400?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "double the count of trailing zeros",
+     "explain": "squaring a number with zeros doubles the number of zeros at the end",
+     "compute": "square_zeros = 2 * zeros"
+    }
+   ]
+  },
+  {
+   "id": "hemh.5.3.1",
+   "title": "Non-Square Numbers Between Consecutive Squares",
+   "section": "5.3",
+   "definition": "The gap between neighbouring square results n^2 and (n+1)^2 holds exactly 2n non-square values.",
+   "formula": "count = 2 * n",
+   "key_idea": "There are exactly 2n non-perfect square integers between n^2 and (n+1)^2.",
+   "textbook_ref": "hemh105.txt lines 135-175",
+   "question_patterns": [
+    "how many natural numbers lie between squares of two consecutive numbers",
+    "find the non-square numbers between n^2 and (n+1)^2",
+    "calculate numbers lying between two consecutive squares",
+    "how many non square numbers lie between given numbers",
+    "How many non-squares sit between 6^2 and 7^2?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the smaller integer base by 2",
+     "explain": "the number of non-square integers between n^2 and (n+1)^2 is 2 times n",
+     "compute": "count = 2 * n"
+    }
+   ]
+  },
+  {
+   "id": "hemh.5.3.2",
+   "title": "Sum of First n Odd Numbers",
+   "section": "5.3",
+   "definition": "Add up 1 + 3 + 5 + ... for the opening n odd numbers and you land on n x n.",
+   "formula": "sum = n ** 2",
+   "key_idea": "The opening n odd values, totalled, give n squared.",
+   "textbook_ref": "hemh105.txt lines 180-215",
+   "question_patterns": [
+    "find the sum of first n odd natural numbers without adding",
+    "calculate sum of consecutive odd numbers",
+    "express a square number as a sum of odd numbers",
+    "what is the sum of odd numbers from 1 to 2n-1",
+    "Add the opening 12 odd numbers without adding."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the count of odd numbers",
+     "explain": "the sum of first n odd natural numbers is n raised to power 2",
+     "compute": "sum = n ** 2"
+    }
+   ]
+  },
+  {
+   "id": "hemh.5.3.3",
+   "title": "Square of an Odd Number as Sum of Consecutive Integers",
+   "section": "5.3",
+   "definition": "Any odd number's square splits into two neighbouring counting numbers (7 x 7 = 49 = 24 + 25).",
+   "formula": "first_num = (n ** 2 - 1) / 2",
+   "key_idea": "An odd square n^2 equals ((n^2 - 1)/2) + ((n^2 + 1)/2).",
+   "textbook_ref": "hemh105.txt lines 216-240",
+   "question_patterns": [
+    "express square of an odd number as sum of two consecutive integers",
+    "find two consecutive integers whose sum is a given odd square",
+    "calculate the two consecutive numbers forming an odd square",
+    "split an odd square into two consecutive positive integers",
+    "Write 11 x 11 as two neighbouring numbers."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate the first consecutive integer",
+     "explain": "the smaller integer is half of (n^2 - 1)",
+     "compute": "first_num = (n ** 2 - 1) / 2"
+    },
+    {
+     "step": 2,
+     "action": "calculate the second consecutive integer",
+     "explain": "the larger integer is half of (n^2 + 1)",
+     "compute": "second_num = (n ** 2 + 1) / 2"
+    }
+   ]
+  },
+  {
+   "id": "hemh.5.4.1",
+   "title": "Finding Square using Binomial Expansion",
+   "section": "5.4",
+   "definition": "Split a number into tens and ones, then expand (a + b)^2 to square it without column multiplication.",
+   "formula": "square = a ** 2 + 2 * a * b + b ** 2",
+   "key_idea": "Split a number into tens and units to apply algebraic identity (a + b)^2.",
+   "textbook_ref": "hemh105.txt lines 285-315",
+   "question_patterns": [
+    "find the square of a number without actual multiplication",
+    "calculate square using algebraic expansion",
+    "compute square by splitting into tens and ones",
+    "what is the square using binomial identity",
+    "Square 56 by splitting into tens and ones."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "expand using the binomial formula",
+     "explain": "(a + b)^2 = a^2 + 2ab + b^2",
+     "compute": "square = a ** 2 + 2 * a * b + b ** 2"
+    }
+   ]
+  },
+  {
+   "id": "hemh.5.4.2",
+   "title": "Pythagorean Triplets",
+   "section": "5.4.2",
+   "definition": "For any counting number m above 1, the trio 2m, m^2 - 1 and m^2 + 1 satisfies a^2 + b^2 = c^2.",
+   "formula": "member1 = 2 * m, member2 = m ** 2 - 1, member3 = m ** 2 + 1",
+   "key_idea": "Pick m, compute 2m, m^2 - 1 and m^2 + 1: the first two squares add to the third.",
+   "textbook_ref": "hemh105.txt lines 330-380",
+   "question_patterns": [
+    "write a Pythagorean triplet whose one member is given",
+    "find a Pythagorean triplet with a specified smallest member",
+    "calculate the remaining members of a Pythagorean triplet",
+    "generate a Pythagorean triplet given a parameter m",
+    "Write a right-triangle trio taking m = 6."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate first member",
+     "explain": "the even member is 2 * m",
+     "compute": "member1 = 2 * m"
+    },
+    {
+     "step": 2,
+     "action": "calculate second member",
+     "explain": "the second member is m^2 - 1",
+     "compute": "member2 = m ** 2 - 1"
+    },
+    {
+     "step": 3,
+     "action": "calculate third member",
+     "explain": "the hypotenuse member is m^2 + 1",
+     "compute": "member3 = m ** 2 + 1"
+    }
+   ]
+  },
+  {
+   "id": "hemh.5.5.1",
+   "title": "Square Root Concept as Inverse Operation",
+   "section": "5.5",
+   "definition": "Squaring asks which number times itself gives this; that answer (the non-negative one) is the root.",
+   "formula": "root = sqrt(number)",
+   "key_idea": "Root-finding undoes squaring, the way subtraction undoes addition.",
+   "textbook_ref": "hemh105.txt lines 395-445",
+   "question_patterns": [
+    "what is the square root of a given number",
+    "find the positive square root",
+    "calculate the inverse of squaring",
+    "determine the square root of a perfect square",
+    "Which number times itself gives 1024?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the square root",
+     "explain": "compute the non-negative square root of the number",
+     "compute": "root = sqrt(number)"
+    }
+   ]
+  },
+  {
+   "id": "hemh.5.5.3",
+   "title": "Square Root by Prime Factorisation",
+   "section": "5.5.3",
+   "definition": "A technique to compute square roots or make numbers perfect squares by expressing the number as a product of prime factors and forming pairs.",
+   "formula": "root = sqrt(number)",
+   "key_idea": "Every prime factor occurs an even number of times in a perfect square.",
+   "textbook_ref": "hemh105.txt lines 470-550",
+   "question_patterns": [
+    "find square root by prime factorisation method",
+    "find the smallest number by which a given number must be multiplied to get a perfect square",
+    "find the smallest number by which a given number must be divided to get a perfect square",
+    "calculate square root after making pairs of prime factors",
+    "Break 225 into prime pairs and take the root."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate square root using prime factors",
+     "explain": "group prime factors in pairs and multiply one factor from each pair",
+     "compute": "root = sqrt(number)"
+    }
+   ]
+  },
+  {
+   "id": "hemh.5.5.4",
+   "title": "Square Root by Long Division Method",
+   "section": "5.5.4",
+   "definition": "An algorithm to calculate square roots of large numbers or decimal numbers by grouping digits into pairs under bars and performing stepwise division.",
+   "formula": "root = sqrt(number)",
+   "key_idea": "Group digits in pairs from the right; every bar yields one digit of the answer.",
+   "textbook_ref": "hemh105.txt lines 580-690",
+   "question_patterns": [
+    "find the square root by long division method",
+    "find the least number that must be subtracted to get a perfect square",
+    "find the least number that must be added to get a perfect square",
+    "calculate the square root of a decimal number",
+    "Find the root of 17424 by long division."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute square root using division method",
+     "explain": "apply long division on digit pairs to find the exact square root",
+     "compute": "root = sqrt(number)"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hemh105.txt lines 295-310",
+   "concept": "hemh.5.4.1",
+   "question_type": "compute",
+   "question_pattern": "Find the square of {number} without actual multiplication.",
+   "extracted_variables": {
+    "a": "tens part of number",
+    "b": "units part of number"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "expand using the binomial formula",
+     "explain": "(a + b)^2 = a^2 + 2ab + b^2",
+     "compute": "square = a ** 2 + 2 * a * b + b ** 2"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hemh105.txt lines 345-365",
+   "concept": "hemh.5.4.2",
+   "question_type": "compute",
+   "question_pattern": "Write a Pythagorean triplet given integer parameter {m}.",
+   "extracted_variables": {
+    "m": "integer parameter greater than 1"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate first member",
+     "explain": "2 * m gives the even member",
+     "compute": "member1 = 2 * m"
+    },
+    {
+     "step": 2,
+     "action": "calculate second member",
+     "explain": "m^2 - 1 gives the second member",
+     "compute": "member2 = m ** 2 - 1"
+    },
+    {
+     "step": 3,
+     "action": "calculate third member",
+     "explain": "m^2 + 1 gives the hypotenuse member",
+     "compute": "member3 = m ** 2 + 1"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hemh105.txt lines 510-520",
+   "concept": "hemh.5.5.3",
+   "question_type": "compute",
+   "question_pattern": "Find the square root of {number} by prime factorisation.",
+   "extracted_variables": {
+    "number": "perfect square value"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate square root using prime factors",
+     "explain": "take square root of the number",
+     "compute": "root = sqrt(number)"
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "hemh105.txt lines 675-685",
+   "concept": "hemh.5.5.4",
+   "question_type": "compute",
+   "question_pattern": "Find the square root of decimal number {number}.",
+   "extracted_variables": {
+    "number": "decimal square value"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute square root using division method",
+     "explain": "apply long division on pairs of decimal digits",
+     "compute": "root = sqrt(number)"
+    }
+   ]
+  },
+  {
+   "concept": "hemh.5.1",
+   "question_pattern": "Find the square of {n}.",
+   "extracted_variables": {
+    "n": "23"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply by itself",
+     "explain": "23 x 23 = 529",
+     "compute": "square = n ** 2"
+    }
+   ],
+   "id": "ex14",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.5.1",
+   "question_pattern": "Is {number} a perfect square? Which number squared gives it?",
+   "extracted_variables": {
+    "number": "144"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the root",
+     "explain": "sqrt(144) = 12",
+     "compute": "root = sqrt(number)"
+    },
+    {
+     "step": 2,
+     "action": "check",
+     "explain": "12 x 12 = 144, yes",
+     "compute": "check = root ** 2"
+    }
+   ],
+   "id": "ex15",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.5.2.1",
+   "question_pattern": "Find the ones digit of {number} squared.",
+   "extracted_variables": {
+    "number": "47"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the units digit",
+     "explain": "7 x 7 = 49, ones digit 9",
+     "compute": "unit_digit = (number % 10) ** 2 % 10"
+    }
+   ],
+   "id": "ex16",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.5.2.1",
+   "question_pattern": "What digit ends the square of {number}?",
+   "extracted_variables": {
+    "number": "256"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the units digit",
+     "explain": "6 x 6 = 36, ones digit 6",
+     "compute": "unit_digit = (number % 10) ** 2 % 10"
+    }
+   ],
+   "id": "ex17",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.5.2.2",
+   "question_pattern": "How many zeros end the square of a number with {zeros} trailing zeros?",
+   "extracted_variables": {
+    "zeros": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "zeros double",
+     "explain": "2 x 2 = 4",
+     "compute": "square_zeros = 2 * zeros"
+    }
+   ],
+   "id": "ex18",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.5.2.2",
+   "question_pattern": "A number ends in {zeros} zeros -- how many will its square end in?",
+   "extracted_variables": {
+    "zeros": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "zeros double",
+     "explain": "2 x 3 = 6",
+     "compute": "square_zeros = 2 * zeros"
+    }
+   ],
+   "id": "ex19",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.5.3.1",
+   "question_pattern": "How many non-squares lie between {n}^2 and ({n}+1)^2?",
+   "extracted_variables": {
+    "n": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the rule",
+     "explain": "2 x 5 = 10",
+     "compute": "count = 2 * n"
+    }
+   ],
+   "id": "ex20",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.5.3.2",
+   "question_pattern": "Add the opening {n} odd numbers without adding.",
+   "extracted_variables": {
+    "n": "10"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the count",
+     "explain": "10 x 10 = 100",
+     "compute": "sum = n ** 2"
+    }
+   ],
+   "id": "ex21",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.5.3.2",
+   "question_pattern": "What do the first {n} odd numbers total?",
+   "extracted_variables": {
+    "n": "12"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the count",
+     "explain": "12 x 12 = 144",
+     "compute": "sum = n ** 2"
+    }
+   ],
+   "id": "ex22",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.5.3.3",
+   "question_pattern": "Write {n} x {n} as two neighbouring numbers.",
+   "extracted_variables": {
+    "n": "13"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square it",
+     "explain": "13 x 13 = 169",
+     "compute": "sq = n ** 2"
+    },
+    {
+     "step": 2,
+     "action": "halve around the middle",
+     "explain": "(169 - 1)/2 = 84",
+     "compute": "first_num = (n ** 2 - 1) / 2"
+    },
+    {
+     "step": 3,
+     "action": "partner",
+     "explain": "84 + 1 = 85",
+     "compute": "second_num = first_num + 1"
+    }
+   ],
+   "id": "ex23",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.5.4.1",
+   "question_pattern": "Square {number} by splitting into tens and ones.",
+   "extracted_variables": {
+    "number": "47"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "split",
+     "explain": "40 + 7",
+     "compute": "a = 40"
+    },
+    {
+     "step": 2,
+     "action": "ones part",
+     "explain": "7",
+     "compute": "b = 7"
+    },
+    {
+     "step": 3,
+     "action": "expand (a + b)^2",
+     "explain": "1600 + 560 + 49 = 2209",
+     "compute": "square = a ** 2 + 2 * a * b + b ** 2"
+    }
+   ],
+   "id": "ex24",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.5.4.2",
+   "question_pattern": "Write a right-triangle trio from m = {m}.",
+   "extracted_variables": {
+    "m": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "double m",
+     "explain": "2 x 4 = 8",
+     "compute": "member1 = 2 * m"
+    },
+    {
+     "step": 2,
+     "action": "square minus one",
+     "explain": "16 - 1 = 15",
+     "compute": "member2 = m ** 2 - 1"
+    },
+    {
+     "step": 3,
+     "action": "square plus one",
+     "explain": "16 + 1 = 17",
+     "compute": "member3 = m ** 2 + 1"
+    }
+   ],
+   "id": "ex25",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.5.5.1",
+   "question_pattern": "Which number times itself gives {number}?",
+   "extracted_variables": {
+    "number": "324"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the root",
+     "explain": "sqrt(324) = 18",
+     "compute": "root = sqrt(number)"
+    }
+   ],
+   "id": "ex26",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.5.5.1",
+   "question_pattern": "Undo the squaring: find the root of {number}.",
+   "extracted_variables": {
+    "number": "961"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the root",
+     "explain": "sqrt(961) = 31",
+     "compute": "root = sqrt(number)"
+    }
+   ],
+   "id": "ex27",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.5.5.3",
+   "question_pattern": "Break {number} into prime pairs and take the root.",
+   "extracted_variables": {
+    "number": "196"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "pair the primes",
+     "explain": "196 = 2 x 2 x 7 x 7",
+     "compute": "root = sqrt(number)"
+    },
+    {
+     "step": 2,
+     "action": "one of each pair",
+     "explain": "2 x 7 = 14",
+     "compute": "check = root * root"
+    }
+   ],
+   "id": "ex28",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.5.5.4",
+   "question_pattern": "Find the root of {number} by long division.",
+   "extracted_variables": {
+    "number": "54756"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "bar digit pairs from the right",
+     "explain": "5 | 47 | 56",
+     "compute": "root = sqrt(number)"
+    },
+    {
+     "step": 2,
+     "action": "verify",
+     "explain": "234 x 234 = 54756",
+     "compute": "check = root * root"
+    }
+   ],
+   "id": "ex29",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.5.3.1",
+   "question_pattern": "Count the non-squares sitting between {n}^2 and ({n}+1)^2.",
+   "extracted_variables": {
+    "n": "6"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the rule",
+     "explain": "2 x 6 = 12",
+     "compute": "count = 2 * n"
+    }
+   ],
+   "id": "ex30",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  },
+  {
+   "concept": "hemh.5.3.3",
+   "question_pattern": "Split {n} squared into two neighbouring numbers.",
+   "extracted_variables": {
+    "n": "11"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square it",
+     "explain": "11 x 11 = 121",
+     "compute": "sq = n ** 2"
+    },
+    {
+     "step": 2,
+     "action": "halve around the middle",
+     "explain": "(121 - 1)/2 = 60",
+     "compute": "first_num = (n ** 2 - 1) / 2"
+    },
+    {
+     "step": 3,
+     "action": "partner",
+     "explain": "60 + 1 = 61",
+     "compute": "second_num = first_num + 1"
+    }
+   ],
+   "id": "ex31",
+   "question_type": "compute",
+   "source_ref": "reviewer-added (method example)"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "hemh105.txt lines 250-280",
+   "questions": [
+    "What will be the unit digit of the squares of the following numbers? (i) 81 (ii) 272 (iii) 799 (iv) 3853 (v) 1234 (vi) 26387 (vii) 52698 (viii) 99880 (ix) 12796 (x) 55555",
+    "The following numbers are obviously not perfect squares. Give reason. (i) 1057 (ii) 23453 (iii) 7928 (iv) 222222 (v) 64000 (vi) 89722 (vii) 222000 (viii) 505050",
+    "The squares of which of the following would be odd numbers? (i) 431 (ii) 2826 (iii) 7779 (iv) 82004",
+    "Observe the following pattern and find the missing digits.",
+    "Observe the following pattern and supply the missing numbers.",
+    "Using the given pattern, find the missing numbers.",
+    "Without adding, find the sum. (i) 1 + 3 + 5 + 7 + 9 (ii) 1 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 17 +19 (iii) 1 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 17 + 19 + 21 + 23",
+    "(i) Express 49 as the sum of 7 odd numbers. (ii) Express 121 as the sum of 11 odd numbers.",
+    "How many numbers lie between squares of the following numbers? (i) 12 and 13 (ii) 25 and 26 (iii) 99 and 100"
+   ]
+  },
+  {
+   "id": "ex5.2",
+   "source_ref": "hemh105.txt lines 380-390",
+   "questions": [
+    "Find the square of the following numbers. (i) 32 (ii) 35 (iii) 86 (iv) 93 (v) 71 (vi) 46",
+    "Write a Pythagorean triplet whose one member is. (i) 6 (ii) 14 (iii) 16 (iv) 18"
+   ]
+  },
+  {
+   "id": "ex5.3",
+   "source_ref": "hemh105.txt lines 555-580",
+   "questions": [
+    "What could be the possible 'one's' digits of the square root of each of the following numbers? (i) 9801 (ii) 99856 (iii) 998001 (iv) 657666025",
+    "Without doing any calculation, find the numbers which are surely not perfect squares. (i) 153 (ii) 257 (iii) 408 (iv) 441",
+    "Find the square roots of 100 and 169 by the method of repeated subtraction.",
+    "Find the square roots of the following numbers by the Prime Factorisation Method. (i) 729 (ii) 400 (iii) 1764 (iv) 4096 (v) 7744 (vi) 9604 (vii) 5929 (viii) 9216 (ix) 529 (x) 8100",
+    "For each of the following numbers, find the smallest whole number by which it should be multiplied so as to get a perfect square number. Also find the square root of the square number so obtained. (i) 252 (ii) 180 (iii) 1008 (iv) 2028 (v) 1458 (vi) 768",
+    "For each of the following numbers, find the smallest whole number by which it should be divided so as to get a perfect square. Also find the square root of the square number so obtained. (i) 252 (ii) 2925 (iii) 396 (iv) 2645 (v) 2800 (vi) 1620",
+    "The students of Class VIII of a school donated Rs 2401 in all, for Prime Minister's National Relief Fund. Each student donated as many rupees as the number of students in the class. Find the number of students in the class.",
+    "2025 plants are to be planted in a garden in such a way that each row contains as many plants as the number of rows. Find the number of rows and the number of plants in each row.",
+    "Find the smallest square number that is divisible by each of the numbers 4, 9 and 10.",
+    "Find the smallest square number that is divisible by each of the numbers 8, 15 and 20."
+   ]
+  },
+  {
+   "id": "ex5.4",
+   "source_ref": "hemh105.txt lines 700-725",
+   "questions": [
+    "Find the square root of each of the following numbers by Division method. (i) 2304 (ii) 4489 (iii) 3481 (iv) 529 (v) 3249 (vi) 1369 (vii) 5776 (viii) 7921 (ix) 576 (x) 1024 (xi) 3136 (xii) 900",
+    "Find the number of digits in the square root of each of the following numbers (without any calculation). (i) 64 (ii) 144 (iii) 4489 (iv) 27225 (v) 390625",
+    "Find the square root of the following decimal numbers. (i) 2.56 (ii) 7.29 (iii) 51.84 (iv) 42.25 (v) 31.36",
+    "Find the least number which must be subtracted from each of the following numbers so as to get a perfect square. Also find the square root of the perfect square so obtained. (i) 402 (ii) 1989 (iii) 3250 (iv) 825 (v) 4000",
+    "Find the least number which must be added to each of the following numbers so as to get a perfect square. Also find the square root of the perfect square so obtained. (i) 525 (ii) 1750 (iii) 252 (iv) 1825 (v) 6412",
+    "Find the length of the side of a square whose area is 441 m2.",
+    "In a right triangle ABC, angle B = 90 deg. (a) If AB = 6 cm, BC = 8 cm, find AC (b) If AC = 13 cm, BC = 5 cm, find AB",
+    "A gardener has 1000 plants. He wants to plant these in such a way that the number of rows and the number of columns remain same. Find the minimum number of plants he needs more for this.",
+    "There are 500 children in a school. For a P.T. drill they have to stand in such a manner that the number of rows is equal to number of columns. How many children would be left out in this arrangement."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

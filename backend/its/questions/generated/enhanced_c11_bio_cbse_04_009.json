@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_04_009",
+   "title": "c11_bio_cbse_04_009",
+   "questions": [
+    {
+     "q": "Name the respiratory structures in cockroach and prawn respectively, and state the fundamental difference in how oxygen reaches tissues in these two organisms.",
+     "a": "Cockroach uses a tracheal system (network of air tubes opening via spiracles) delivering oxygen directly to tissues without blood involvement; prawn uses gills where oxygen diffuses into haemolymph for transport. A wrong answer (e.g., \"both use gills\" or \"cockroach uses lungs\") reveals confusion between terrestrial and aquatic respiratory adaptations and failure to understand that insects evolved a unique direct-delivery system independent of circulatory transport.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the chitinous exoskeleton is both an evolutionary advantage and a constraint for arthropods, and name the hormonal mechanism that resolves this constraint.",
+     "a": "The exoskeleton provides protection, prevents water loss (key for terrestrial colonization), and serves as muscle attachment site for leverage - but being rigid and non-living, it cannot grow, limiting body size increase. This constraint is resolved by ecdysis (moulting) triggered by ecdysone hormone from the prothoracic gland. A wrong answer focusing only on protection without mentioning desiccation prevention or moulting reveals incomplete understanding of the terrestrial adaptation trade-off.",
+     "self_check": true
+    },
+    {
+     "q": "A student finds an unknown arthropod specimen with two pairs of antennae, biramous appendages, and gills for respiration. Identify its class and justify your classification using three diagnostic features.",
+     "a": "Class Crustacea (e.g., prawn). Diagnostic features: (1) Two pairs of antennae (insects have one pair), (2) Biramous appendages (each limb branches into two - exopodite and endopodite; insects have uniramous), (3) Gills for aquatic respiration (insects have tracheal system). A wrong classification as Insecta reveals inability to distinguish crustacean vs. insect synapomorphies, particularly the antennae number and appendage branching pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the excretory organs of cockroach and prawn. Analyze how each organ's structure relates to the organism's habitat and nitrogenous waste product.",
+     "a": "Cockroach: Malpighian tubules (blind tubules opening into gut) extract uric acid from haemolymph and empty into hindgut - water-conserving, produces solid uric acid crystals (uricotelic), ideal for terrestrial life. Prawn: Green glands (antennal glands) at base of antennae filter haemolymph and excrete ammonia (ammonotelic) directly - requires abundant water for dilution, suits aquatic habitat. Wrong comparison (e.g., both produce ammonia) shows failure to link excretory physiology to osmoregulatory challenges of habitat.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The open circulatory system of arthropods is less efficient than the closed system of annelids, so arthropods are less active.\" Provide evidence from insect flight metabolism to support or refute.",
+     "a": "The statement is false. While arthropods have open circulation (haemolymph bathes tissues directly in haemocoel), insects achieve high metabolic rates during flight through the tracheal system delivering oxygen directly to flight muscles, bypassing circulatory transport limitations. Haemolymph mainly transports nutrients, hormones, and waste - not respiratory gases. Refuting this requires understanding that respiratory and circulatory systems are decoupled in insects, a key evolutionary innovation. Accepting the statement reveals the misconception that open circulation universally limits activity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple observation experiment using locally available arthropods (e.g., cockroach, housefly, prawn, crab) to demonstrate the concept of tagmosis (fusion of segments into functional body regions). List the body regions you would identify in each and the appendages associated with each region.",
+     "a": "Good answer: Observe cockroach - head (antennae, compound eyes, mouthparts: labrum, mandibles, maxillae, labium), thorax (3 pairs walking legs, 2 pairs wings), abdomen (cerci, anal styles, no locomotory appendages). Prawn - cephalothorax (fused head+thorax covered by carapace: 2 pairs antennae, mandibles, maxillae, maxillipeds, 5 pairs walking legs), abdomen (5 pairs swimmerets/pleopods, uropods + telson = tail fan). Poor answer (listing segments without grouping into tagmata) reveals failure to grasp tagmosis as evolutionary specialization beyond simple metameric segmentation seen in annelids.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

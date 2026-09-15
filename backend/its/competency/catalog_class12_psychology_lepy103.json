@@ -1,0 +1,509 @@
+{
+ "class": 12,
+ "subject": "psychology",
+ "chapter": 3,
+ "chapter_title": "Meeting Life Challenges",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lepy103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lepy103.1",
+   "title": "Nature, Types and Sources of Stress",
+   "section": "Nature, Types and Sources of Stress",
+   "definition": "Stress is the pattern of responses an organism makes when a stimulus event disturbs its inner balance and outruns its ability to cope; eustress is the helpful level that sharpens performance while distress wears the body down. It arrives as physical and environmental strain, as self-generated psychological pressure such as frustration and conflict, or as social strain from interactions, and its sources range from major life events through everyday hassles to traumatic events.",
+   "formula": "stress_types = physical_environmental + psychological + social ; sources = life_events + hassles + traumatic_events",
+   "key_idea": "Strain is the reaction to stressors; whether an event stresses you at all depends on how you perceive it, as the opening batsman and number-eleven batsman facing the same bowler show.",
+   "textbook_ref": "lepy103.txt, Nature of Stress (Selye's definition, strain vs stressors), Types of Stress, Sources of Stress (life events, hassles, traumatic events)",
+   "question_patterns": [
+    "explain the concept of stress with examples from daily life in Class 12 psychology",
+    "differentiate eustress from distress with one situation where each occurs",
+    "state the three major types of stress and give one source for each",
+    "how do daily hassles differ from major life events and traumatic events as sources of stress?",
+    "why is stress called a transaction between the person and the environment rather than a stimulus or a response?",
+    "give one example each of an environmental stressor and a psychological stressor"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the three-type division",
+     "explain": "physical and environmental demands, internally generated psychological pressures, and socially induced strains are the major types, and they are interrelated"
+    },
+    {
+     "step": 2,
+     "action": "check the source list",
+     "explain": "major life events that unsettle routine, frequent daily hassles, and extreme traumatic events such as accidents or earthquakes constitute the main sources"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The helpful level of stress that sharpens performance is called what?",
+     "a": "eustress"
+    }
+   ]
+  },
+  {
+   "id": "lepy103.2",
+   "title": "Cognitive Appraisal in the Stress Process",
+   "section": "Nature of Stress - Lazarus's model",
+   "definition": "In Lazarus's transactional account, feeling stressed depends on a two-step evaluation: primary appraisal labels a new or changing situation positive, neutral or negative, sorting negative events into harm already suffered, future threat, or challenge that can be overcome; secondary appraisal then weighs one's coping abilities and resources - mental, physical, personal, social - against those demands.",
+   "formula": "primary_appraisal = harm_or_threat_or_challenge ; secondary_appraisal = coping_resources vs event_demands",
+   "key_idea": "Past success with similar situations and a sense of personal control shrink the stress experience; perceived controllability decides whether an event reads as threat or challenge.",
+   "textbook_ref": "lepy103.txt, Nature of Stress (Fig 3.2 general model of the stress process, primary and secondary appraisal)",
+   "question_patterns": [
+    "distinguish primary appraisal from secondary appraisal in Lazarus's model of stress",
+    "how do harm, threat and challenge appraisals differ from one another?",
+    "why does a sense of personal control reduce the amount of stress a person feels?",
+    "name the kinds of resources weighed during a secondary appraisal",
+    "explain why the same examination feels threatening to one student and challenging to another",
+    "how do past experience and perceived controllability shape the appraisal of a stressor?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the two-level appraisal sequence",
+     "explain": "the environment is first judged positive, neutral or negative; only when it reads stressful does the person assess coping abilities and resources"
+    },
+    {
+     "step": 2,
+     "action": "check the appraisal determinants",
+     "explain": "subjective factors such as earlier success with similar conditions and belief in controlling onset or consequences decide the final stress response"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which appraisal labels a situation positive, neutral or negative: primary or secondary?",
+     "a": "primary"
+    }
+   ]
+  },
+  {
+   "id": "lepy103.3",
+   "title": "Signs and Effects of Stress on Functioning",
+   "section": "Effects of Stress on Psychological Functioning and Health",
+   "definition": "Stress shows itself in physical, emotional and behavioural warning signs - sleep or eating difficulties, mood swings, poor concentration - and produces four major kinds of effects: emotional turbulence such as anxiety and depression, physiological arousal through adrenaline and cortisol, cognitive damage to decisions and short-term memory, and behavioural changes like disturbed sleep, absenteeism and heavier use of stimulants or tranquillisers.",
+   "formula": "stress_effects = emotional + physiological + cognitive + behavioural",
+   "key_idea": "Prolonged exhaustion of body and mind in a demanding setting with little support is burnout; falling sick around examinations is a familiar sign of stress at work.",
+   "textbook_ref": "lepy103.txt, Signs and Symptoms of Stress, four major effects (emotional, physiological, cognitive, behavioural), Box 3.2 examination anxiety, burnout",
+   "question_patterns": [
+    "enumerate the four major effects of stress with one example of each",
+    "which hormones rise when the body is placed under stress, and what changes do they bring?",
+    "list any six warning signs that indicate a degree of stress needing resolution",
+    "how does stress impair decision making and short-term memory capacity?",
+    "what is examination anxiety and how does high test anxiety hurt performance?",
+    "define burnout and name the states of exhaustion that mark it"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the four-effect classification",
+     "explain": "mood disturbance, hormonal and autonomic arousal, overloaded thinking, and disrupted health behaviour form the four effect families"
+    },
+    {
+     "step": 2,
+     "action": "check the burnout condition",
+     "explain": "burnout is the combined physical, emotional and psychological exhaustion that appears when environmental demands and constraints stay too high while support stays low"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Prolonged exhaustion of body and mind in a demanding setting with little support is called what?",
+     "a": "burnout"
+    }
+   ]
+  },
+  {
+   "id": "lepy103.4",
+   "title": "Stress-Related Illness Percentages",
+   "section": "Stress and Health",
+   "definition": "Researchers credit stress with a role in roughly half to seventy per cent of all physical illnesses, and about sixty medical visits in every hundred are made chiefly for stress-related symptoms such as ulcers, asthma, allergies, headaches and high blood pressure.",
+   "formula": "stress_visit_count = medical_visits * stress_share_percent / 100",
+   "key_idea": "Multiply the number of visits or illness cases by the stress-related percentage to estimate the stress-linked share.",
+   "textbook_ref": "lepy103.txt, Stress and Health (50-70 per cent of physical illnesses, 60 per cent of medical visits for stress-related symptoms)",
+   "question_patterns": [
+    "out of 250 medical visits how many are expected to be primarily for stress-related symptoms?",
+    "in a clinic log of 400 visits, apply the chapter's percentage to find the stress-linked count",
+    "what percentage of medical visits does the chapter attribute to stress-related symptoms?",
+    "between which percentages does stress reportedly figure in all physical illnesses?",
+    "name four psychosomatic disorders that have been linked to stress",
+    "estimate the number of stress-associated illness cases in a group of 60 patients using the lower estimate"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the visit count by the stress-related percentage",
+     "explain": "the chapter puts the stress-related share of medical visits at about 60 per cent",
+     "compute": "stressed_total = medical_visits * stress_share_percent"
+    },
+    {
+     "step": 2,
+     "action": "divide by 100 to convert the percentage into a count",
+     "explain": "the result is the expected number of visits made chiefly for stress-related complaints",
+     "compute": "stress_visit_count = stressed_total / 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "About how many medical visits in every hundred are made chiefly for stress-related symptoms?",
+     "a": "60"
+    }
+   ]
+  },
+  {
+   "id": "lepy103.5",
+   "title": "General Adaptation Syndrome (GAS)",
+   "section": "General Adaptation Syndrome",
+   "definition": "Selye's General Adaptation Syndrome describes the body's fixed three-stage reply to any prolonged stressor: an alarm reaction in which the adrenal-pituitary-cortex system releases hormones and prepares fight or flight, a resistance stage where the parasympathetic system rations bodily resources while coping proceeds, and an exhaustion stage in which resources run dry and stress-related diseases such as high blood pressure take hold.",
+   "formula": "gas_stages = alarm_reaction + resistance + exhaustion",
+   "key_idea": "The same physiological pattern appears whatever the stressor, but critics say Selye gave psychological appraisal far too small a role.",
+   "textbook_ref": "lepy103.txt, General Adaptation Syndrome (Fig 3.3, animal experiments with heat, X-rays and insulin, criticism of the model)",
+   "question_patterns": [
+    "describe the three stages of the GAS model with the bodily system active at each stage",
+    "what happens to susceptibility to illness during the exhaustion stage?",
+    "why is the alarm reaction stage said to prepare a person for fight or flight?",
+    "how did Selye's laboratory experiments lead to the discovery of the general adaptation syndrome?",
+    "state one criticism of the GAS model concerning psychological factors",
+    "illustrate the resistance stage with an example of coping under prolonged stress"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the stage order and triggers",
+     "explain": "a noxious stimulus fires the alarm reaction; continued stress shifts the body into resistance; further exposure drains resources into exhaustion"
+    },
+    {
+     "step": 2,
+     "action": "check the model's claimed generality",
+     "explain": "Selye held the response non-specific - the same physiological pattern regardless of the demand - which later researchers found overstated"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Selye's three-stage syndrome runs alarm, resistance and then what?",
+     "a": "exhaustion"
+    }
+   ]
+  },
+  {
+   "id": "lepy103.6",
+   "title": "Coping with Stress: Strategies and Focus",
+   "section": "Coping with Stress",
+   "definition": "Coping is a dynamic, situation-specific set of concrete responses meant to solve the problem and soften the stress; Endler and Parker separate task-oriented, emotion-oriented and avoidance-oriented strategies, while Lazarus and Folkman divide coping into problem-focused efforts that alter the event and emotion-focused efforts that limit emotional disruption.",
+   "formula": "endler_parker = task_oriented + emotion_oriented + avoidance_oriented ; lazarus_folkman = problem_focused + emotion_focused",
+   "key_idea": "People generally reach for problem-focused coping more often than emotion-focused coping; poor copers show weaker natural killer cell activity.",
+   "textbook_ref": "lepy103.txt, Coping with Stress (three Endler-Parker strategies, Lazarus and Folkman problem-focused vs emotion-focused)",
+   "question_patterns": [
+    "enumerate the different ways of coping with stress given by Endler and Parker",
+    "differentiate problem-focused coping from emotion-focused coping with one example of each",
+    "which coping strategy involves obtaining information about the stressful situation and acting on priorities?",
+    "classify watching television or phoning a friend during a crisis as a coping strategy and justify",
+    "why do researchers describe coping as a dynamic process rather than a fixed trait?",
+    "give one statement each that captures a problem-focused and an emotion-focused coping response"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the three-strategy scheme",
+     "explain": "task-oriented coping gathers information and acts on the situation, emotion-oriented coping manages feelings or vents them, and avoidance-oriented coping minimises or suppresses the problem"
+    },
+    {
+     "step": 2,
+     "action": "check the two-focus scheme",
+     "explain": "problem-focused strategies attack the event itself and cut its threat value, while emotion-focused strategies mainly limit the emotional disruption the event causes"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which coping tries to alter the stressful event itself: problem-focused or emotion-focused?",
+     "a": "problem-focused"
+    }
+   ]
+  },
+  {
+   "id": "lepy103.7",
+   "title": "Stress Management Techniques and the Exercise Prescription",
+   "section": "Stress Management Techniques",
+   "definition": "Stress management trains people in relaxation that runs from the lower body up to the facial muscles, yogic meditation that refocuses attention, biofeedback with its three stages of awareness, quiet control and transfer to daily life, creative visualisation toward a realistic goal, Meichenbaum's stress inoculation training with assessment, stress reduction and follow-through phases, and regular exercise.",
+   "formula": "weekly_exercise_minutes = sessions_per_week * minutes_per_session",
+   "key_idea": "The chapter's exercise prescription is at least four sessions a week of thirty minutes each, with warm-up, exercise and cool-down phases in every session.",
+   "textbook_ref": "lepy103.txt, Stress Management Techniques (relaxation, meditation, biofeedback three stages, creative visualisation, stress inoculation training, exercise four times a week for 30 minutes)",
+   "question_patterns": [
+    "a person exercises four times a week for 30 minutes per session - compute the weekly exercise minutes",
+    "name the three stages of biofeedback training in order",
+    "what are the three main phases of stress inoculation training developed by Meichenbaum?",
+    "how does relaxation proceed through the body during a relaxation session?",
+    "why must a realistic goal be set before practising creative visualisation?",
+    "list any four stress management techniques recommended for schools and offices"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the recommended number of weekly sessions",
+     "explain": "the prescription asks for exercise at least four times a week",
+     "compute": "sessions_total = sessions_per_week"
+    },
+    {
+     "step": 2,
+     "action": "multiply the sessions by the duration of each session",
+     "explain": "each session lasts thirty minutes, so the product gives total weekly exercise time",
+     "compute": "weekly_exercise_minutes = sessions_total * minutes_per_session"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The chapter's exercise prescription is at least four sessions a week of how many minutes each?",
+     "a": "30"
+    }
+   ]
+  },
+  {
+   "id": "lepy103.8",
+   "title": "Scoring the Stressful Life Events Scale",
+   "section": "Box 3.1 - A Measure of Stressful Life Events",
+   "definition": "Holmes and Rahe's life-event measure, adapted for India by Singh, Kaur and Kaur as the Presumptive Stressful Life Events Scale, is a self-rating questionnaire of fifty-one life changes, each carrying a fixed severity value - death of a spouse 95, death of a close family member 66, personal illness 56, examination failure 43 - and a respondent's stress score is the weighted sum of the events checked over the past year.",
+   "formula": "stress_score = weighted_sum_of_checked_life_events",
+   "key_idea": "Both pleasant and unpleasant changes count, because any change disturbs equilibrium; on average about two stressful life events a year pass without overt illness.",
+   "textbook_ref": "lepy103.txt, Box 3.1 (fifty-one life changes, sample mean stress scores 66, 53, 52, 47, 43, 27, weighted sum scoring)",
+   "question_patterns": [
+    "a student reports examination appearance, break-up with a friend and change in eating habits this year - compute the stress score",
+    "who developed the life event measure of stress and which Indian team adapted it?",
+    "how many life changes make up the Presumptive Stressful Life Events Scale?",
+    "which life event carries the highest mean stress score in the sample items?",
+    "why are positive events also counted in the life events scale?",
+    "find the combined stress score for a person who faced an unexpected accident and a change in sleeping habits"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the assigned values of the first group of checked events",
+     "explain": "each life event on the scale carries a published severity value",
+     "compute": "events_partial = event_value_a + event_value_b"
+    },
+    {
+     "step": 2,
+     "action": "add the remaining checked events to complete the weighted sum",
+     "explain": "the running total after every checked event is the respondent's stress score for the year",
+     "compute": "stress_score = events_partial + event_value_c"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "What severity value does death of a spouse carry on the stressful life events scale?",
+     "a": "95"
+    }
+   ]
+  },
+  {
+   "id": "lepy103.9",
+   "title": "Hardiness and Resilience",
+   "section": "Promoting Positive Health and Well-being / Box 3.3",
+   "definition": "Kobasa's hardiness is the stress-resistant profile made of the three Cs - commitment to what one does, a sense of control over one's life, and seeing change as challenge rather than threat; resilience is the dynamic developmental capacity to keep positive adjustment, to bounce back under adversity, and it draws on three resources: I HAVE trusted people around me, I AM inwardly strong, and I CAN solve the problems I face.",
+   "formula": "hardiness = commitment + control + challenge ; resilience_resources = i_have + i_am + i_can",
+   "key_idea": "A child needs more than one resilience resource - self-esteem alone without a trusted supporter or problem-solving skill does not make a child resilient.",
+   "textbook_ref": "lepy103.txt, Stress Resistant Personality (Kobasa, three Cs) and Box 3.3 Resilience and Health (I HAVE, I AM, I CAN)",
+   "question_patterns": [
+    "name the three Cs of hardiness and explain what each contributes",
+    "how do the I HAVE, I AM and I CAN resources together build resilience in a child?",
+    "why does self-esteem by itself fail to make a child resilient?",
+    "what evidence do longitudinal studies give about children raised in poverty and adversity?",
+    "how does a stress-resistant person view changes in life?",
+    "define resilience as the chapter presents it in Class 12 psychology"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the three Cs",
+     "explain": "hardy people commit to work, family and social life, feel control and direction, and treat life changes as normal and positive"
+    },
+    {
+     "step": 2,
+     "action": "check the multi-resource condition for resilience",
+     "explain": "resilience requires more than one of the I HAVE, I AM and I CAN strengths; a single strength is not enough"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Kobasa's hardiness is built from three Cs: commitment, control and what?",
+     "a": "challenge"
+    }
+   ]
+  },
+  {
+   "id": "lepy103.10",
+   "title": "Life Skills, Positive Health and Social Support",
+   "section": "Life Skills / Promoting Positive Health and Well-being",
+   "definition": "Life skills are learnable abilities for adaptive, positive behaviour - assertiveness that can say no without self-consciousness, time management built on valuing one's hours, rational thinking that challenges distorted beliefs, relationship skills of listening and expressing, self-care with slow diaphragmatic breathing, and dropping unhelpful habits such as perfectionism and procrastination; they feed positive health, which adds diet, exercise, positive attitude, optimism and social support, where perceived support quality matters more than the size of one's social network.",
+   "formula": "positive_health = healthy_body + quality_relationships + purpose_in_life + self_regard + resilience ; support_quality beats network_size",
+   "key_idea": "Health is complete physical, mental, social and spiritual well-being, not just the absence of disease; optimists use problem-focused coping while pessimists deny or abandon the goal.",
+   "textbook_ref": "lepy103.txt, Life Skills (assertiveness, time management, rational thinking, improving relationships, self-care, overcoming unhelpful habits), positive health constructs, social support perceived vs network",
+   "question_patterns": [
+    "describe how life skills such as assertiveness and time management help meet life's challenges",
+    "which three communication skills keep a relationship sound and lasting?",
+    "differentiate perceived social support from social network in their relation to well-being",
+    "how do optimists and pessimists differ in the coping strategies they choose?",
+    "why is rapid shallow chest breathing a sign of stress and diaphragmatic breathing a sign of relaxation?",
+    "state the constructs that together make up positive health",
+    "explain why perfectionism and procrastination raise vulnerability to stress"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the life skills list",
+     "explain": "assertiveness, time management, rational thinking, improved relationships, self-care and dropping unhelpful habits are the named skills, all learnable"
+    },
+    {
+     "step": 2,
+     "action": "check the support finding",
+     "explain": "the quality of support (perceived) relates positively to health and well-being, whereas the sheer quantity of the network is unrelated because large networks are demanding to maintain"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which life skill lets you say no without self-consciousness: assertiveness or time management?",
+     "a": "assertiveness"
+    }
+   ]
+  },
+  {
+   "id": "lepy103.11",
+   "title": "Stress and the Immune System",
+   "section": "Stress and Immune System",
+   "definition": "Psychoneuroimmunology studies how mind and brain affect immune working: leucocytes guard the body, with T cells destroying invaders, B cells manufacturing antibodies, and natural killer cells fighting viruses and tumours; stress lowers natural killer cell cytotoxicity, which is why the highly stressed - examination candidates, the bereaved, the severely depressed - fall ill more easily, while social support keeps immune functioning better.",
+   "formula": "immune_guardians = t_cells + b_cells + natural_killer_cells ; stress lowers nk_cytotoxicity",
+   "key_idea": "HIV attacks the T-helper cells; negative emotions trigger stress hormones that weaken immunity and thereby damage mental and physical health.",
+   "textbook_ref": "lepy103.txt, Stress and Immune System (psychoneuroimmunology, leucocytes, T cells, B cells, natural killer cells, Fig 3.4 relation of stress with illness)",
+   "question_patterns": [
+    "how does stress affect the immune system and raise the chance of illness?",
+    "name the three kinds of white blood cells and the job of each",
+    "which cells does the HIV virus attack, and what condition follows?",
+    "what does psychoneuroimmunology study?",
+    "whose natural killer cell cytotoxicity has been found reduced, according to the chapter?",
+    "how does social support protect immune functioning under stress?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the cell division of labour",
+     "explain": "T cells destroy invaders with T-helper cells raising immunological activity, B cells produce antibodies, and natural killer cells fight both viruses and tumours"
+    },
+    {
+     "step": 2,
+     "action": "check the stress pathway",
+     "explain": "negative emotions release stress hormones that weaken the immune system, and reduced natural killer cell cytotoxicity appears in highly stressed groups"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which immune cells manufacture antibodies: T cells or B cells?",
+     "a": "B cells"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "lepy103.we1",
+   "concept_id": "lepy103.8",
+   "problem": "In the past one year a student checked three events on the life events scale: appearing for examinations (43), break-up with a friend (47), and change in eating habits (27). Compute the stress score.",
+   "given": {
+    "event_value_a": 43,
+    "event_value_b": 47,
+    "event_value_c": 27
+   },
+   "steps": [
+    {
+     "step": 1,
+     "action": "add the values of the first two checked events",
+     "compute": "events_partial = 43 + 47"
+    },
+    {
+     "step": 2,
+     "action": "add the remaining checked event to complete the weighted sum",
+     "compute": "stress_score = events_partial + 27"
+    }
+   ],
+   "answer": "stress_score = 117, the weighted sum of all life changes checked over the year"
+  },
+  {
+   "id": "lepy103.we2",
+   "concept_id": "lepy103.4",
+   "problem": "A hospital recorded 250 outpatient visits last month. Using the chapter's estimate of the stress-related share, how many visits were primarily for stress-related symptoms?",
+   "given": {
+    "medical_visits": 250,
+    "stress_share_percent": 60
+   },
+   "steps": [
+    {
+     "step": 1,
+     "action": "multiply the visits by the stress-related percentage",
+     "compute": "stressed_total = 250 * 60"
+    },
+    {
+     "step": 2,
+     "action": "divide by 100 to convert into a visit count",
+     "compute": "stress_visit_count = stressed_total / 100"
+    }
+   ],
+   "answer": "stress_visit_count = 150 visits primarily for stress-related symptoms"
+  },
+  {
+   "id": "lepy103.we3",
+   "concept_id": "lepy103.7",
+   "problem": "Following the chapter's prescription, a person exercises the recommended four times a week with each session lasting 30 minutes. How many minutes of exercise does she complete in a week?",
+   "given": {
+    "sessions_per_week": 4,
+    "minutes_per_session": 30
+   },
+   "steps": [
+    {
+     "step": 1,
+     "action": "take the weekly session count",
+     "compute": "sessions_total = 4"
+    },
+    {
+     "step": 2,
+     "action": "multiply sessions by minutes per session",
+     "compute": "weekly_exercise_minutes = sessions_total * 30"
+    }
+   ],
+   "answer": "weekly_exercise_minutes = 120 minutes of exercise per week, spread over four sessions"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lepy103.ex1",
+   "source_ref": "lepy103.txt Review Questions (chapter-end)",
+   "questions": [
+    "Explain the concept of stress, drawing examples from daily life.",
+    "State the symptoms and the sources of stress.",
+    "Describe the GAS model and show its relevance with an example.",
+    "Enumerate the different ways of coping with stress.",
+    "Explain the effects of stress on psychological functioning.",
+    "Describe how life skills equip people to meet life's challenges.",
+    "Discuss the factors that lead to positive health and well-being.",
+    "How does stress affect the immune system?",
+    "Give one example of a stressful life event and explain why it stresses different people to different degrees.",
+    "What suggestions would you give friends to keep everyday stress in check, using the coping strategies you know?"
+   ]
+  },
+  {
+   "id": "lepy103.ex2",
+   "source_ref": "lepy103.txt Activity 3.3 (coping self-rating) and Box 3.1",
+   "questions": [
+    "Rate the five coping statements on a five-point scale from always to never and add your scores; what does a higher total indicate about coping ability?",
+    "Using the sample items of the life events scale, add the mean stress scores of examination appearance (43) and illness of a family member (52). What is the combined score?",
+    "From Activity 3.4, pick the behaviours that are problem-focused and justify your choice."
+   ]
+  }
+ ]
+}

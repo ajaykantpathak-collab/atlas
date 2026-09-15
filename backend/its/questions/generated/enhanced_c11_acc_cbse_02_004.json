@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_02_004",
+   "title": "c11_acc_cbse_02_004",
+   "questions": [
+    {
+     "q": "State the Going Concern Concept in your own words as you would write it in a Class 11 board exam answer (2-3 sentences maximum).",
+     "a": "The Going Concern Concept assumes that a business enterprise will continue operating for the foreseeable future without any intention or necessity of liquidation. This assumption justifies recording assets at historical cost and allocating their cost over useful lives through depreciation rather than at break-up value. A wrong answer (e.g., \"business will never close\" or \"assets are valued at market price\") reveals confusion between indefinite continuation and permanent existence, or between historical cost and fair value measurement.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"If a company is making losses for three consecutive years, the going concern concept no longer applies and we should value assets at liquidation value.\" Explain why this reasoning is incorrect and state the correct accounting treatment.",
+     "a": "The going concern concept applies unless there is evidence the entity will cease operations in the near future (typically 12 months from balance sheet date). Consecutive losses alone don't invalidate going concern; management's plans, financing arrangements, and ability to continue operating matter. The correct treatment: continue historical cost accounting unless substantial doubt exists, in which case disclosure is required per AS-1. A wrong answer reveals the misconception that profitability determines going concern status rather than operational continuity intent and ability.",
+     "self_check": true
+    },
+    {
+     "q": "A firm purchases machinery for ₹12,00,000 on 1st April 2023. The machinery has an estimated useful life of 6 years and zero residual value. The firm follows the going concern concept. Calculate the depreciation expense for the year ended 31st March 2024 and explain why the full ₹12,00,000 is not charged to the Profit & Loss Account in 2023-24.",
+     "a": "Depreciation = ₹12,00,000 / 6 = ₹2,00,000 for 2023-24. The full cost is not charged because the going concern concept assumes the machinery will provide services over 6 years; only the portion consumed (1/6th) is matched against current year's revenue. Charging the entire amount would violate the matching concept and overstate expenses, understate profits, and misrepresent financial position. A wrong answer (e.g., charging full amount) shows failure to connect going concern with systematic cost allocation and revenue matching.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the asset valuation and expense recognition for a 5-year asset costing ₹5,00,000 under two scenarios: (A) Going concern assumption holds, (B) Entity plans to liquidate in 6 months. Analyze how the Balance Sheet and Profit & Loss Account would differ in Year 1.",
+     "a": "Scenario A (Going Concern): Asset at ₹5,00,000 less depreciation ₹1,00,000 = ₹4,00,000 on Balance Sheet; P&L shows ₹1,00,000 depreciation expense. Scenario B (Liquidation): Asset at net realizable value (likely < ₹5,00,000); P&L shows full impairment/loss to bring to realizable value. The difference: Going concern spreads cost systematically; liquidation recognizes immediate loss. A wrong answer reveals inability to distinguish between systematic allocation (going concern) and immediate recognition of diminished value (break-up basis).",
+     "self_check": true
+    },
+    {
+     "q": "An auditor's report states: \"Material uncertainty exists that may cast significant doubt on the entity's ability to continue as a going concern.\" Evaluate the impact on financial statements and explain what specific disclosures are required under Ind AS 1 / AS-1.",
+     "a": "Financial statements must disclose: (1) Principal conditions/events causing doubt, (2) Management's plans to address them, (3) Statement that going concern basis may be inappropriate. Assets may need revaluation to realizable value; liabilities reclassified as current. The auditor's emphasis of matter paragraph alerts users. A wrong answer (e.g., \"no change needed\" or \"immediate liquidation values required\") shows misunderstanding that doubt triggers disclosure, not automatic basis change, and that management's mitigation plans are critical to the assessment.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic business scenario (Indian context, 3-4 sentences) where the going concern concept would be questionable. Include specific financial indicators and management actions. Then write the exact note disclosure that should appear in the financial statements.",
+     "a": "Scenario: \"XYZ Textiles Ltd. (Mumbai) has accumulated losses of ₹45 crore exceeding its net worth of ₹10 crore. Current liabilities (₹30 crore) exceed current assets (₹12 crore). The bank has recalled a ₹15 crore term loan. However, the promoter has committed ₹20 crore fresh equity and negotiated a one-year moratorium with the bank.\" Disclosure: \"Note X: Material Uncertainty Related to Going Concern - The Company has incurred losses of ₹45 crore... [details]. Management believes going concern basis is appropriate based on promoter infusion and bank moratorium. If unable to continue, assets may realize at values lower than carrying amounts.\" A poor answer reveals inability to distinguish between technical insolvency and going concern doubt, or omission of management's mitigation plans.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

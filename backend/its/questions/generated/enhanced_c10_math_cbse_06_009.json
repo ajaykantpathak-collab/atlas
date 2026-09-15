@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_06_009",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_06_009",
+   "title": "c10_math_cbse_06_009",
+   "questions": [
+    {
+     "q": "State the three pairs of similar triangles formed when an altitude is drawn from the right angle to the hypotenuse in a right-angled triangle ABC (right-angled at B, with BD ⟂ AC).",
+     "a": "The three similar triangles are: ΔADB ~ ΔABC, ΔBDC ~ ΔABC, and ΔADB ~ ΔBDC. A wrong answer (e.g., naming ΔABD ~ ΔBCD without correct vertex order) reveals the student does not understand that vertex correspondence matters in similarity statements — the right angles must correspond, and the shared angles must match. This leads to incorrect proportionality ratios in the proof.",
+     "self_check": true
+    },
+    {
+     "q": "In the proof of Pythagoras Theorem using similarity, we write AB/AC = AD/AB from ΔADB ~ ΔABC. Explain WHY AB corresponds to AC and AD corresponds to AB in this ratio. Use angle reasoning.",
+     "a": "In ΔADB and ΔABC: ∠A is common, ∠ADB = ∠ABC = 90°. So the third angles are equal: ∠ABD = ∠ACB. Side AB in ΔADB is opposite ∠ADB (90°), so it corresponds to side AC in ΔABC (opposite ∠ABC = 90°). Side AD in ΔADB is opposite ∠ABD, so it corresponds to side AB in ΔABC (opposite ∠ACB). A wrong explanation shows the student memorizes ratios without understanding angle-side correspondence — a major board exam error where they write proportions like AB/AD = AC/AB and get stuck.",
+     "self_check": true
+    },
+    {
+     "q": "In right triangle PQR, right-angled at Q, QS ⟂ PR. If PS = 4 cm and SR = 9 cm, find the length of QS using the geometric mean (altitude) theorem derived from similarity.",
+     "a": "From similarity ΔPSQ ~ ΔQSR (AA criterion), we have PS/QS = QS/SR → QS² = PS × SR = 4 × 9 = 36 → QS = 6 cm. A wrong answer (e.g., QS = 13 cm by adding PS+SR, or QS = √(4²+9²) = √97) reveals the student confuses the altitude theorem with Pythagoras Theorem itself or treats QS as a hypotenuse. They fail to recognize that the altitude is the geometric mean of the hypotenuse segments.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the similarity-based proof of Pythagoras Theorem with the area-based proof (using squares on sides). Identify ONE structural similarity and ONE key difference in the logical flow.",
+     "a": "Similarity: Both proofs decompose the large square/triangle into smaller pieces whose relationships yield a² + b² = c². Difference: The similarity proof uses proportional reasoning from angle-angle similarity (no area calculation), while the area proof relies on dissection and rearrangement of areas. A student who says \"both use triangles\" misses the structural insight — the similarity proof derives the theorem from side ratios, making it purely algebraic after the similarity step, whereas the area proof is geometric throughout. This distinction matters for board exam \"prove using similarity\" questions where area arguments get zero marks.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following proof step: \"In ΔABC (∠B=90°), BD ⟂ AC. ΔABD ~ ΔACB (AA). So AB/AC = BD/CB = AD/AB. Cross-multiplying AB/AC = AD/AB gives AB² = AC × AD.\" Evaluate this step. Is it fully correct? If not, identify the error.",
+     "a": "The similarity statement ΔABD ~ ΔACB is INCORRECT — the vertex order is wrong. It should be ΔABD ~ ΔABC (or ΔADB ~ ΔACB). In ΔABD ~ ΔACB, the right angles are ∠ADB and ∠ABC, but vertex B in first corresponds to C in second, which misaligns the angles. The ratio AB/AC = AD/AB happens to be correct by coincidence, but BD/CB = AD/AB is wrong. A student who misses this shows they treat similarity as a ritual without checking angle-vertex correspondence — a fatal error in board exam proofs where every similarity statement must be justified by angle matching.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new right-triangle problem where the altitude to the hypotenuse divides it into segments of lengths x and y, and the altitude length is given as √(xy). Write the problem statement and show how the similarity proof naturally leads to this relationship without assuming it.",
+     "a": "Problem: \"In right triangle LMN (∠M=90°), MP ⟂ LN. If LP = 5 cm and PN = 20 cm, find MP. Prove that MP² = LP × PN using similarity.\" Solution: ΔLMP ~ ΔMPN (AA: ∠LMP = ∠PNM, ∠LPM = ∠MPN = 90°). So LP/MP = MP/PN → MP² = LP × PN = 100 → MP = 10 cm. A poor answer gives only the calculation without the similarity justification, or assumes MP² = LP×PN as a formula. This reveals the student cannot reconstruct the proof from first principles — they only recall the geometric mean theorem as a shortcut, not as a consequence of similarity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

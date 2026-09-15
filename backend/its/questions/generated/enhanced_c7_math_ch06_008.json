@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch06_008",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch06_008",
+   "title": "c7_math_ch06_008",
+   "questions": [
+    {
+     "q": "What is the primary difference between identifying a pattern in a sequence of whole numbers versus a sequence of integers?",
+     "a": "Integers can involve both positive and negative values, meaning the sequence can decrease as well as increase across zero, whereas whole numbers only start from zero and increase or stay non-negative. If a student thinks they are identical, they miss how negative signs flip the direction of addition and subtraction rules.",
+     "self_check": true
+    },
+    {
+     "q": "Why must we check at least three consecutive pairs of numbers when identifying a pattern in a sequence rather than just looking at the first two terms?",
+     "a": "Checking only the first two terms can mislead you because two numbers can fit many different rules (like both arithmetic and geometric rules). Checking three or more pairs ensures the rule is consistent across the entire sequence. If a student says two numbers are enough, they fail to recognize that non-linear or multi-step patterns require multiple confirmations.",
+     "self_check": true
+    },
+    {
+     "q": "Find the next two terms in the number sequence: $5, 11, 17, 23, \\dots$",
+     "a": "The correct answer is $29$ and $35$. Working steps: 1) Find the difference between the second and first term: $11 - 5 = 6$. 2) Verify with the next pair: $17 - 11 = 6$, and $23 - 17 = 6$. 3) Conclude that the rule is to add $6$ to the previous term. 4) Calculate the next terms: $23 + 6 = 29$, and $29 + 6 = 35$. If a student gives numbers like $28$ or $31$, they miscalculated the constant difference or used an incorrect operation.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the sequence: $2, 4, 8, 16, 32, \\dots$. Is the rule for this sequence additive or multiplicative? Explain how you can tell the difference.",
+     "a": "The rule is multiplicative. We can tell because the differences between consecutive terms are not constant ($4-2=2$, but $8-4=4$), whereas the ratios between consecutive terms are constant ($4 \\div 2 = 2$, $8 \\div 4 = 2$). If a student claims it is additive with a varying difference, they failed to check for constant multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that the sequence $1, 4, 9, 16, 25$ follows a rule of adding consecutive odd numbers ($+3, +5, +7, +9$). Another student claims it follows the rule $n^2$ where $n$ is the position number. Are both students correct, and which explanation is more powerful?",
+     "a": "Both students are mathematically correct. The first student describes the recursive pattern of differences, while the second student provides the explicit algebraic formula for the $n$-th term. The explicit formula ($n^2$) is more powerful because it allows us to find the 100th term directly without calculating the previous 99 terms. If a student says one is wrong, they misunderstand that different valid perspectives can describe the same pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Create a number sequence of 5 terms that starts with the number 3 and uses a two-step rule: \"multiply by 2, then subtract 1\". Show all terms.",
+     "a": "The expected sequence is: $3, 5, 9, 17, 33$. Working criteria: Term 1 is 3. Term 2: $(3 \\times 2) - 1 = 5$. Term 3: $(5 \\times 2) - 1 = 9$. Term 4: $(9 \\times 2) - 1 = 17$. Term 5: $(17 \\times 2) - 1 = 33$. A poor answer shows arithmetic errors in the multi-step calculation or applies the operations in the wrong order.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,454 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 108,
+ "chapter_title": "Eighteenth-Century Political Formations",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\gess108.txt",
+ "concepts": [
+  {
+   "id": "gess.108.1.1",
+   "title": "Crisis of the Mughal Empire",
+   "section": "The Crisis of the Empire and the Later Mughals",
+   "definition": "The era of administrative and financial decay in the imperial state after 1707, characterized by failing central oversight and the rise of local kingdoms.",
+   "formula": "none",
+   "key_idea": "Decline of central authority due to wars, weak successors, and noble factions.",
+   "textbook_ref": "gess108.txt lines 25-60",
+   "question_patterns": [
+    "Explain the reasons for the decline of the Mughal Empire.",
+    "What were the main factors leading to the crisis of the empire?",
+    "How did the later Mughals lose control over their governors?",
+    "Describe the impact of peasant revolts on the Mughal administration.",
+    "Why did the efficiency of the imperial administration break down?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify military depletion",
+     "explain": "Aurangzeb's long wars in the Deccan exhausted financial and military resources."
+    },
+    {
+     "step": 2,
+     "action": "Analyze administrative failure",
+     "explain": "Later Mughals could not control powerful mansabdars and provincial governors."
+    },
+    {
+     "step": 3,
+     "action": "Recognize local resistance",
+     "explain": "Peasant and zamindar rebellions over high taxes challenged imperial authority."
+    }
+   ]
+  },
+  {
+   "id": "gess.108.1.2",
+   "title": "External Invasions of the 18th Century",
+   "section": "The Crisis of the Empire and the Later Mughals",
+   "definition": "Military incursions by rulers from Iran and Afghanistan that resulted in the looting of the capital and the weakening of the sovereign's power.",
+   "formula": "none",
+   "key_idea": "Foreign raids by Nadir Shah and Ahmad Shah Abdali drained Mughal wealth.",
+   "textbook_ref": "gess108.txt lines 70-100",
+   "question_patterns": [
+    "Who was Nadir Shah and what was the impact of his invasion?",
+    "Describe the plundering raids of Ahmad Shah Abdali.",
+    "How did foreign invasions weaken the Mughal Empire?",
+    "What wealth did Nadir Shah take from Delhi?",
+    "When did Ahmad Shah Abdali invade north India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify Nadir Shah's raid",
+     "explain": "The ruler of Iran sacked Delhi in 1739, taking the Peacock Throne and immense riches."
+    },
+    {
+     "step": 2,
+     "action": "Identify Abdali's invasions",
+     "explain": "Ahmad Shah Abdali invaded north India five times between 1748 and 1761."
+    }
+   ]
+  },
+  {
+   "id": "gess.108.2.1",
+   "title": "Rajput Watan Jagirs",
+   "section": "The Rajputs",
+   "definition": "Semi-autonomous hereditary estates where local chieftains maintained governance while maintaining a formal link with the central throne.",
+   "formula": "none",
+   "key_idea": "Rajput rulers enjoyed internal autonomy in exchange for imperial service.",
+   "textbook_ref": "gess108.txt lines 120-150",
+   "question_patterns": [
+    "What were watan jagirs in the context of Rajput rulers?",
+    "How did Rajput kings like Jai Singh extend their territories?",
+    "Explain the role of Sawai Raja Jai Singh in the eighteenth century.",
+    "What was the significance of Jantar Mantar?",
+    "How did Maratha campaigns affect Rajput principalities?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define watan jagir",
+     "explain": "Hereditary lands where Rajput rulers were permitted considerable autonomy."
+    },
+    {
+     "step": 2,
+     "action": "Identify expansion efforts",
+     "explain": "Rulers like Ajit Singh and Jai Singh sought governorships of rich provinces like Gujarat and Malwa."
+    }
+   ]
+  },
+  {
+   "id": "gess.108.3.1",
+   "title": "Sikh Political Organization",
+   "section": "The Sikhs",
+   "definition": "The evolution of the Panth into a sovereign political body through the creation of the Khalsa and organized military units called misls.",
+   "formula": "none",
+   "key_idea": "Transformation of Sikhs into a militant state-building community.",
+   "textbook_ref": "gess108.txt lines 160-200",
+   "question_patterns": [
+    "How were the Sikhs organized into a political community?",
+    "What was the role of Guru Gobind Singh in Sikh state-building?",
+    "Describe the administration established by Banda Bahadur.",
+    "What are misls and how did they function?",
+    "Explain the significance of the Dal Khalsa."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify Khalsa formation",
+     "explain": "Guru Gobind Singh instituted the Khalsa in 1699 to resist oppression."
+    },
+    {
+     "step": 2,
+     "action": "Note administrative units",
+     "explain": "Sikhs organized into jathas and misls, collectively known as the Dal Khalsa."
+    }
+   ]
+  },
+  {
+   "id": "gess.108.3.2",
+   "title": "Rakhi System",
+   "section": "The Sikhs",
+   "definition": "A security arrangement where farmers provided one-fifth of their harvest to the Dal Khalsa for safety.",
+   "formula": "tax = produce * 20 / 100",
+   "key_idea": "Protection tax levied by Sikh bands on cultivators.",
+   "textbook_ref": "gess108.txt lines 200-210",
+   "question_patterns": [
+    "How much tax is paid under Rakhi?",
+    "Calculate the Rakhi tax for a produce of {produce}",
+    "What is the 20 percent tax for protection?",
+    "Find the amount due to the Dal Khalsa for {produce}",
+    "Determine the protection fee for a harvest of {produce}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify total produce",
+     "explain": "The total agricultural output is produce.",
+     "compute": "p = produce"
+    },
+    {
+     "step": 2,
+     "action": "Apply 20 percent rate",
+     "explain": "Rakhi tax is 20 percent of the produce.",
+     "compute": "tax = p * 20 / 100"
+    }
+   ]
+  },
+  {
+   "id": "gess.108.4.1",
+   "title": "The Maratha State",
+   "section": "The Marathas",
+   "definition": "A robust regional power established in the Deccan that used mobile warfare and specific levies to expand its influence across the subcontinent.",
+   "formula": "none",
+   "key_idea": "Rise of Marathas under Shivaji and the Peshwas.",
+   "textbook_ref": "gess108.txt lines 220-260",
+   "question_patterns": [
+    "How did Shivaji establish a stable Maratha kingdom?",
+    "What was the role of the Peshwas in the Maratha state?",
+    "Describe the military organization of the Marathas.",
+    "Why were other rulers hostile towards the Marathas?",
+    "Explain the administrative system developed by the Marathas."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify Shivaji's foundation",
+     "explain": "Shivaji used warrior families and peasant-pastoralists to challenge Mughals."
+    },
+    {
+     "step": 2,
+     "action": "Note Peshwa expansion",
+     "explain": "Under Peshwas, the capital moved to Poona and Maratha influence reached Delhi and Bengal."
+    }
+   ]
+  },
+  {
+   "id": "gess.108.4.2",
+   "title": "Chauth",
+   "section": "The Marathas",
+   "definition": "A levy representing a quarter of the agricultural tax gathered by Maratha forces from neighboring regions.",
+   "formula": "chauth = revenue * 25 / 100",
+   "key_idea": "Maratha tax consisting of 25 percent of land revenue.",
+   "textbook_ref": "gess108.txt lines 270-280",
+   "question_patterns": [
+    "Calculate the chauth for a revenue of {revenue}",
+    "Find the chauth tax when the revenue is {revenue}",
+    "What is the chauth for a collection of {revenue}",
+    "How much chauth is due on {revenue}",
+    "Determine the chauth for a land revenue of {revenue}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify land revenue",
+     "explain": "The total land revenue is revenue.",
+     "compute": "r = revenue"
+    },
+    {
+     "step": 2,
+     "action": "Calculate 25 percent",
+     "explain": "Chauth is 25 percent of the land revenue.",
+     "compute": "chauth = r * 25 / 100"
+    }
+   ]
+  },
+  {
+   "id": "gess.108.4.3",
+   "title": "Sardeshmukhi",
+   "section": "The Marathas",
+   "definition": "A supplementary charge of nine to ten percent given to the chief tax officer within the Deccan province.",
+   "formula": "levy = revenue * rate / 100",
+   "key_idea": "Additional levy of 9-10 percent paid to the head revenue collector.",
+   "textbook_ref": "gess108.txt lines 280-290",
+   "question_patterns": [
+    "Calculate the sardeshmukhi for a revenue of {revenue} at {rate} percent",
+    "Find the sardeshmukhi levy for {revenue}",
+    "What is the sardeshmukhi amount for a revenue of {revenue}?",
+    "Determine the levy for the head collector on {revenue}",
+    "How much is the 10 percent sardeshmukhi on {revenue}?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify revenue and rate",
+     "explain": "The revenue is revenue and the rate is rate.",
+     "compute": "r = revenue"
+    },
+    {
+     "step": 2,
+     "action": "Calculate levy",
+     "explain": "Sardeshmukhi is the percentage of revenue.",
+     "compute": "levy = r * rate / 100"
+    }
+   ]
+  },
+  {
+   "id": "gess.108.5.1",
+   "title": "The Jat State",
+   "section": "The Jats",
+   "definition": "A group of prosperous farmers who consolidated their influence near Delhi and Agra, eventually forming a fortified state at Bharatpur.",
+   "formula": "none",
+   "key_idea": "Jat consolidation under Churaman and Suraj Mal.",
+   "textbook_ref": "gess108.txt lines 300-330",
+   "question_patterns": [
+    "How did the Jats consolidate their power under Churaman?",
+    "Describe the prosperity of the Jat state under Suraj Mal.",
+    "What was the significance of the Bharatpur fort?",
+    "How did the Jats utilize architectural styles from Amber and Agra?",
+    "What regions were under the political control of Suraj Mal?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify leadership",
+     "explain": "Churaman acquired territories west of Delhi; Suraj Mal established Bharatpur."
+    },
+    {
+     "step": 2,
+     "action": "Note economic base",
+     "explain": "Jats were prosperous agriculturists with trading centers like Panipat."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex108.3.2.1",
+   "source_ref": "gess108.txt",
+   "concept": "gess.108.3.2",
+   "question_type": "compute",
+   "question_pattern": "If the total produce of a farm is {produce} units, find the Rakhi tax.",
+   "extracted_variables": {
+    "produce": 500
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify total produce",
+     "explain": "The total agricultural output is 500.",
+     "compute": "p = produce"
+    },
+    {
+     "step": 2,
+     "action": "Apply 20 percent rate",
+     "explain": "Rakhi tax is 20 percent of the produce.",
+     "compute": "tax = p * 20 / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex108.3.2.2",
+   "source_ref": "gess108.txt",
+   "concept": "gess.108.3.2",
+   "question_type": "compute",
+   "question_pattern": "Determine the protection fee for a harvest of {produce} kg.",
+   "extracted_variables": {
+    "produce": 1200
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify total produce",
+     "explain": "The total agricultural output is 1200.",
+     "compute": "p = produce"
+    },
+    {
+     "step": 2,
+     "action": "Apply 20 percent rate",
+     "explain": "Rakhi tax is 20 percent of the produce.",
+     "compute": "tax = p * 20 / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex108.4.2.1",
+   "source_ref": "gess108.txt",
+   "concept": "gess.108.4.2",
+   "question_type": "compute",
+   "question_pattern": "Calculate the chauth for a land revenue of {revenue} rupees.",
+   "extracted_variables": {
+    "revenue": 1000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify land revenue",
+     "explain": "The total land revenue is 1000.",
+     "compute": "r = revenue"
+    },
+    {
+     "step": 2,
+     "action": "Calculate 25 percent",
+     "explain": "Chauth is 25 percent of the land revenue.",
+     "compute": "chauth = r * 25 / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex108.4.2.2",
+   "source_ref": "gess108.txt",
+   "concept": "gess.108.4.2",
+   "question_type": "compute",
+   "question_pattern": "What is the chauth for a collection of {revenue} coins?",
+   "extracted_variables": {
+    "revenue": 4000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify land revenue",
+     "explain": "The total land revenue is 4000.",
+     "compute": "r = revenue"
+    },
+    {
+     "step": 2,
+     "action": "Calculate 25 percent",
+     "explain": "Chauth is 25 percent of the land revenue.",
+     "compute": "chauth = r * 25 / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex108.4.3.1",
+   "source_ref": "gess108.txt",
+   "concept": "gess.108.4.3",
+   "question_type": "compute",
+   "question_pattern": "Calculate the sardeshmukhi for a revenue of {revenue} at {rate} percent.",
+   "extracted_variables": {
+    "revenue": 1000,
+    "rate": 9
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify revenue and rate",
+     "explain": "The revenue is 1000 and the rate is 9.",
+     "compute": "r = revenue"
+    },
+    {
+     "step": 2,
+     "action": "Calculate levy",
+     "explain": "Sardeshmukhi is the percentage of revenue.",
+     "compute": "levy = r * rate / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex108.4.3.2",
+   "source_ref": "gess108.txt",
+   "concept": "gess.108.4.3",
+   "question_type": "compute",
+   "question_pattern": "How much is the {rate} percent sardeshmukhi on {revenue}?",
+   "extracted_variables": {
+    "revenue": 2000,
+    "rate": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify revenue and rate",
+     "explain": "The revenue is 2000 and the rate is 10.",
+     "compute": "r = revenue"
+    },
+    {
+     "step": 2,
+     "action": "Calculate levy",
+     "explain": "Sardeshmukhi is the percentage of revenue.",
+     "compute": "levy = r * rate / 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "gess108.txt",
+   "questions": [
+    "State whether true or false: Nadir Shah invaded Bengal.",
+    "State whether true or false: Sawai Raja Jai Singh was the ruler of Indore.",
+    "State whether true or false: Guru Gobind Singh was the tenth Guru of the Sikhs.",
+    "State whether true or false: Poona became the capital of the Marathas in the eighteenth century."
+   ]
+  },
+  {
+   "id": "ex2.1",
+   "source_ref": "gess108.txt",
+   "questions": [
+    "Describe, step by step and in your own words, the way eighteenth works.",
+    "Why did the Marathas want to expand beyond the Deccan?",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about eighteenth.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about mentioned."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

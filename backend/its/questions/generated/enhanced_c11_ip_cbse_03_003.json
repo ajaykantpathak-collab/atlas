@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_03_003",
+   "title": "c11_ip_cbse_03_003",
+   "questions": [
+    {
+     "q": "What is the exact syntax of a simple `if` statement in Python, and what two punctuation/structural elements are mandatory for it to run without syntax errors?",
+     "a": "Correct answer: `if condition:` followed by an indented block. The colon (`:`) after the condition and consistent indentation (typically 4 spaces) for the block are mandatory. A wrong answer (e.g., omitting the colon or using braces `{}`) reveals the student is transferring syntax from languages like C/Java or has not internalised Python's whitespace-sensitive block structure.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what happens during execution when the condition in an `if` statement evaluates to `False`. Use the terms \"control flow\" and \"indented block\" in your explanation.",
+     "a": "Correct answer: When the condition is `False`, the Python interpreter skips the entire indented block associated with that `if` and transfers control flow to the very next statement that is written at the same indentation level as the `if` keyword. A wrong answer (e.g., \"it goes to else\" or \"it stops the program\") reveals confusion with `if-else` structure or a misunderstanding that `if` alone has no alternative path — it simply continues sequentially.",
+     "self_check": true
+    },
+    {
+     "q": "Given the code snippet below, what will be the output when `marks = 75`? Trace the execution step by step.\n```python\nmarks = 75\nif marks >= 40:\n    print(\"Pass\")\nprint(\"Result declared\")\n```",
+     "a": "Correct answer: Output is two lines: \"Pass\" followed by \"Result declared\". Steps: (1) `marks` assigned 75. (2) Condition `marks >= 40` evaluates to `True`. (3) Indented block executes: prints \"Pass\". (4) After block, next statement at same indentation as `if` executes: prints \"Result declared\". A wrong answer (e.g., only \"Result declared\") reveals the student thinks the condition is `False` or that the print statement is not part of the block due to indentation error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the flowchart of a standalone `if` statement with that of a simple sequential program (no condition). Identify the additional symbol used and describe how the flow lines differ.",
+     "a": "Correct answer: The `if` flowchart adds a diamond-shaped decision box with two outgoing arrows: one labeled \"True\" pointing to the process box (the block), and one labeled \"False\" bypassing the block to merge back at the next sequential step. A sequential program has only rectangular process boxes connected by single arrows. A wrong answer (e.g., drawing two diamonds or showing \"False\" going to a separate box) reveals inability to map the single-entry-single-exit structure of `if` to flowchart conventions.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following code to check if a number `n` is positive. Evaluate whether this code correctly implements the requirement and justify your answer.\n```python\nn = int(input(\"Enter number: \"))\nif n > 0\n    print(\"Positive\")\n```",
+     "a": "Correct answer: The code is incorrect — it will raise a `SyntaxError` because the colon (`:`) after the condition `n > 0` is missing. Python requires the colon to delimit the condition from the block. A wrong answer (e.g., \"it works fine\" or \"indentation error\") reveals the student cannot distinguish between syntax errors (missing colon) and indentation errors, or does not recognise the colon as a mandatory syntactic token.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new real-world scenario (different from library fines) where a standalone `if` statement is sufficient — i.e., no `else` is needed. Write the Python code for it, including a comment explaining why `else` is not required.",
+     "a": "Expected answer: Any scenario where action is taken only on one condition and silence/inaction is the correct response otherwise. Example: \"A thermostat turns on the heater only if temperature < 18°C; otherwise it does nothing.\"\n```python\ntemp = 16\nif temp < 18:\n    print(\"Heater ON\")  # No else needed because heater stays OFF by default\n```\nA poor answer (e.g., including an `else` that prints \"Heater OFF\") reveals the student believes every `if` must have an `else`, misunderstanding that `if` alone is a valid complete construct for one-way decisions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

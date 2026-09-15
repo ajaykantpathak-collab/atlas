@@ -1,0 +1,586 @@
+{
+ "class": 11,
+ "subject": "maths",
+ "chapter": 102,
+ "chapter_title": "Relations and Functions",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gees109.txt",
+ "concepts": [
+  {
+   "id": "jemh.2.1",
+   "title": "Ordered Pairs",
+   "section": "2.2",
+   "definition": "An ordered pair consists of two elements grouped in a fixed order, written as (a, b), where a is the first element and b is the second element.",
+   "formula": "(a, b) where a is first coordinate, b is second coordinate",
+   "key_idea": "Order matters: (a, b) is not equal to (b, a) unless a equals b.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "determine if the given ordered pairs are equal",
+    "find the values of x and y if the ordered pairs are equal",
+    "list the ordered pairs formed from the given sets",
+    "identify the first and second elements of the ordered pair",
+    "Explain the method of Ordered Pairs."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare first elements",
+     "explain": "Check if the first coordinates of both ordered pairs are equal."
+    },
+    {
+     "step": 2,
+     "action": "compare second elements",
+     "explain": "Check if the second coordinates of both ordered pairs are equal."
+    },
+    {
+     "step": 3,
+     "action": "conclude equality",
+     "explain": "The ordered pairs are equal only if both the first and second coordinates match exactly."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Are the ordered pairs (2, 3) and (3, 2) equal?",
+     "solution": "Compare first elements: 2 is not equal to 3. Compare second elements: 3 is not equal to 2. Since the first coordinates differ, the pairs are not equal.",
+     "answer": "No, (2, 3) is not equal to (3, 2)."
+    },
+    {
+     "question": "Find x and y if (x, 5) = (4, y).",
+     "solution": "For ordered pairs to be equal, first elements must match and second elements must match. So x = 4 and y = 5.",
+     "answer": "x = 4, y = 5."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Are the ordered pairs (1, 2) and (1, 2) equal?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Find x if (x, 7) = (9, 7).",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.2.2",
+   "title": "Cartesian Product of Sets",
+   "section": "2.2",
+   "definition": "The Cartesian product of two non-empty sets A and B is the set of all ordered pairs (a, b) where a belongs to A and b belongs to B.",
+   "formula": "A x B = {(a, b) : a in A and b in B}",
+   "key_idea": "Every element of the first set is paired with every element of the second set.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the Cartesian product A x B",
+    "write all ordered pairs in A x B",
+    "determine the elements of A cross B",
+    "list the Cartesian product of the given sets",
+    "Explain the method of Cartesian Product of Sets."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list elements of A",
+     "explain": "Write down all distinct elements of the first set A."
+    },
+    {
+     "step": 2,
+     "action": "pair each with elements of B",
+     "explain": "For each element of A, form ordered pairs with every element of B."
+    },
+    {
+     "step": 3,
+     "action": "write the product set",
+     "explain": "Collect all ordered pairs inside braces to form A x B."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "If A = {1, 2} and B = {3, 4}, find A x B.",
+     "solution": "Pair each element of A with every element of B: (1,3), (1,4), (2,3), (2,4).",
+     "answer": "A x B = {(1,3), (1,4), (2,3), (2,4)}."
+    },
+    {
+     "question": "If A = {a, b} and B = {x, y, z}, find A x B.",
+     "solution": "Pair each element of A with every element of B: (a,x), (a,y), (a,z), (b,x), (b,y), (b,z).",
+     "answer": "A x B = {(a,x), (a,y), (a,z), (b,x), (b,y), (b,z)}."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "If A = {1, 2, 3} and B = {4, 5}, find A x B.",
+     "type": "compute"
+    },
+    {
+     "question": "If P = {m, n} and Q = {p, q, r}, write P x Q.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.2.3",
+   "title": "Number of Elements in Cartesian Product",
+   "section": "2.2",
+   "definition": "The number of elements in the Cartesian product A x B equals the product of the number of elements in A and the number of elements in B.",
+   "formula": "n(A x B) = n(A) * n(B)",
+   "key_idea": "Cardinality of the product is the product of cardinalities.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the number of elements in A x B",
+    "how many ordered pairs are in the Cartesian product",
+    "if n(A) and n(B) are given, find n(A x B)",
+    "determine the cardinality of the Cartesian product",
+    "Explain the method of Number of Elements in Cartesian Product."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count elements of A",
+     "explain": "Determine the number of distinct elements in set A.",
+     "compute": "a_total"
+    },
+    {
+     "step": 2,
+     "action": "count elements of B",
+     "explain": "Determine the number of distinct elements in set B.",
+     "compute": "b_total"
+    },
+    {
+     "step": 3,
+     "action": "multiply counts",
+     "explain": "The number of ordered pairs in A x B is the product of the two counts.",
+     "compute": "n_a * n_b"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "If n(A) = 3 and n(B) = 4, find n(A x B).",
+     "solution": "Using the formula n(A x B) = n(A) * n(B) = 3 * 4 = 12.",
+     "answer": "n(A x B) = 12."
+    },
+    {
+     "question": "If A = {1, 2, 3} and B = {a, b}, find the number of elements in A x B.",
+     "solution": "n(A) = 3, n(B) = 2. So n(A x B) = 3 * 2 = 6.",
+     "answer": "n(A x B) = 6."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "If n(A) = 5 and n(B) = 7, find n(A x B).",
+     "type": "compute"
+    },
+    {
+     "question": "If A x B has 20 elements and n(A) = 4, find n(B).",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.2.4",
+   "title": "Definition of Relation, Domain, Codomain, Range",
+   "section": "2.2",
+   "definition": "A relation R from a set A to a set B is a subset of the Cartesian product A x B. The set of all first elements is the domain, the set B is the codomain, and the set of all second elements is the range.",
+   "formula": "R subset A x B; Domain = {a : (a,b) in R}; Range = {b : (a,b) in R}",
+   "key_idea": "A relation is any subset of the Cartesian product; domain is first elements, range is second elements, codomain is the whole target set.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the domain and range of the given relation",
+    "determine if R is a relation from A to B",
+    "write the domain, codomain, and range of R",
+    "identify the relation as a subset of A x B",
+    "Explain the method of Definition of Relation, Domain, Codomain, Range."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the relation pairs",
+     "explain": "List all ordered pairs that belong to the relation R."
+    },
+    {
+     "step": 2,
+     "action": "extract domain and range",
+     "explain": "Collect all first elements for the domain and all second elements for the range."
+    },
+    {
+     "step": 3,
+     "action": "state codomain",
+     "explain": "The codomain is the entire set B to which the relation maps.",
+     "compute": "b"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Let R = {(1, a), (2, b), (3, a)} be a relation from A = {1, 2, 3} to B = {a, b, c}. Find the domain and range.",
+     "solution": "First elements: 1, 2, 3 form the domain. Second elements: a, b form the range. Codomain is B = {a, b, c}.",
+     "answer": "Domain = {1, 2, 3}, Range = {a, b}, Codomain = {a, b, c}."
+    },
+    {
+     "question": "If R = {(x, y) : x in {1,2}, y in {3,4} and x + y is even}, find the domain and range.",
+     "solution": "Check pairs: (1,3) sum 4 even, (1,4) sum 5 odd, (2,3) sum 5 odd, (2,4) sum 6 even. So R = {(1,3), (2,4)}. Domain = {1,2}, Range = {3,4}.",
+     "answer": "Domain = {1, 2}, Range = {3, 4}."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Let R = {(1, p), (2, q), (3, r)} from A to B. Find the domain and range.",
+     "type": "compute"
+    },
+    {
+     "question": "If R = {(a, 1), (b, 2), (a, 3)}, find the domain and range.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.2.5",
+   "title": "Pictorial Diagrams of Relations",
+   "section": "2.2",
+   "definition": "A relation can be represented pictorially using arrow diagrams, where elements of A and B are placed in two regions and arrows link each first element to its corresponding second element.",
+   "formula": "Arrow from a in A to b in B if (a, b) in R",
+   "key_idea": "Arrows visually represent the mapping from domain elements to range elements.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "draw the arrow diagram for the given relation",
+    "represent the relation pictorially",
+    "identify the relation from the arrow diagram",
+    "write the relation shown by the arrows",
+    "Explain the method of Pictorial Diagrams of Relations."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list elements of A and B",
+     "explain": "Place the elements of set A on the left and elements of set B on the right."
+    },
+    {
+     "step": 2,
+     "action": "draw arrows for each pair",
+     "explain": "For each ordered pair (a, b) in R, draw an arrow from a to b."
+    },
+    {
+     "step": 3,
+     "action": "verify the diagram",
+     "explain": "Confirm that every arrow corresponds to an ordered pair in the relation and no pair is missing."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Draw the arrow diagram for R = {(1, a), (2, b), (3, a)} from A = {1,2,3} to B = {a,b,c}.",
+     "solution": "Place 1,2,3 on the left and a,b,c on the right. Draw arrows: 1 to a, 2 to b, 3 to a.",
+     "answer": "Arrow diagram with 3 arrows: 1->a, 2->b, 3->a."
+    },
+    {
+     "question": "From an arrow diagram with arrows 1->x, 2->y, write the relation.",
+     "solution": "Each arrow represents an ordered pair. So R = {(1, x), (2, y)}.",
+     "answer": "R = {(1, x), (2, y)}."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Draw the arrow diagram for R = {(a, 1), (b, 2), (c, 1)}.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Write the relation represented by arrows p->3, q->5.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jemh.2.6",
+   "title": "Function as Special Type of Relation",
+   "section": "2.3",
+   "definition": "A function f from A to B is a relation where every element of A has exactly one image in B, meaning no element of A is left unmapped and no element of A maps to more than one element of B.",
+   "formula": "f: A -> B such that for each a in A, there exists unique b in B with (a,b) in f",
+   "key_idea": "Every input has exactly one output; no input is left without an image and no input has two images.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "determine if the given relation is a function",
+    "check whether f is a function from A to B",
+    "justify why the relation is or is not a function",
+    "identify which relation represents a function",
+    "Explain the method of Function as Special Type of Relation."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check total domain coverage",
+     "explain": "Verify that every element of A appears as a first element in the relation."
+    },
+    {
+     "step": 2,
+     "action": "check uniqueness of images",
+     "explain": "Verify that no element of A is paired with more than one element of B."
+    },
+    {
+     "step": 3,
+     "action": "conclude function status",
+     "explain": "If both conditions hold, the relation is a function; otherwise it is not."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Is R = {(1, a), (2, b), (3, c)} a function from A = {1,2,3} to B = {a,b,c}?",
+     "solution": "Every element of A (1, 2, 3) has exactly one image in B. No element maps to two values. So R is a function.",
+     "answer": "Yes, R is a function."
+    },
+    {
+     "question": "Is R = {(1, a), (1, b), (2, c)} a function from A = {1,2} to B = {a,b,c}?",
+     "solution": "Element 1 maps to both a and b, violating the uniqueness condition. So R is not a function.",
+     "answer": "No, R is not a function because 1 has two images."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Is R = {(1, p), (2, p), (3, p)} a function from A = {1,2,3} to B = {p,q}?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Is R = {(a, 1), (b, 2)} a function from A = {a,b,c} to B = {1,2,3}?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jemh.2.7",
+   "title": "Domain, Codomain, Range of Functions",
+   "section": "2.3",
+   "definition": "For a function f: A -> B, the set A is the domain, the set B is the codomain, and the set of all images of elements of A is the range, which is a subset of the codomain.",
+   "formula": "Domain = A, Codomain = B, Range = {f(x) : x in A} subset B",
+   "key_idea": "The range is the actual set of output values, which is always contained within the codomain.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the domain and range of the function",
+    "determine the range of f given its domain",
+    "identify the codomain of the function",
+    "state whether range equals codomain",
+    "Explain the method of Domain, Codomain, Range of Functions."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the domain",
+     "explain": "The domain is the set of all inputs A for which f is defined.",
+     "compute": "a"
+    },
+    {
+     "step": 2,
+     "action": "compute all images",
+     "explain": "Evaluate f(x) for every x in the domain to get the set of outputs."
+    },
+    {
+     "step": 3,
+     "action": "state range and codomain",
+     "explain": "The range is the set of images; the codomain is the declared target set B."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the domain and range of f(x) = x^2 where A = {-2, -1, 0, 1, 2}.",
+     "solution": "Compute f(-2)=4, f(-1)=1, f(0)=0, f(1)=1, f(2)=4. Domain = {-2,-1,0,1,2}, Range = {0, 1, 4}.",
+     "answer": "Domain = {-2, -1, 0, 1, 2}, Range = {0, 1, 4}."
+    },
+    {
+     "question": "If f: A -> B with A = {1,2,3}, B = {a,b,c,d} and f = {(1,a),(2,c),(3,a)}, find the range.",
+     "solution": "The images are a, c, a. So the range = {a, c}. Codomain = {a,b,c,d}.",
+     "answer": "Range = {a, c}, Codomain = {a, b, c, d}."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the domain and range of f(x) = x + 1 where A = {0, 1, 2, 3}.",
+     "type": "compute"
+    },
+    {
+     "question": "If f = {(1,5),(2,5),(3,5)} with codomain {5,6,7}, find the range.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.2.8",
+   "title": "Real Valued Functions",
+   "section": "2.4",
+   "definition": "A real valued function has its domain and codomain as subsets of the real numbers, including constant, identity, polynomial, rational, modulus, signum, and greatest integer functions.",
+   "formula": "f: R -> R (or subsets of R); types: constant f(x)=c, identity f(x)=x, polynomial f(x)=a_n*x^n+..., rational f(x)=p(x)/q(x), modulus f(x)=|x|, signum f(x)=x/|x|, greatest integer f(x)=[x]",
+   "key_idea": "Different standard functions map real numbers to real numbers following specific rules.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "identify the type of the given real valued function",
+    "evaluate the constant or identity function at a point",
+    "find the value of the modulus or signum function",
+    "compute the greatest integer function value",
+    "Explain the method of Real Valued Functions."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify function type",
+     "explain": "Determine whether the function is constant, identity, polynomial, rational, modulus, signum, or greatest integer."
+    },
+    {
+     "step": 2,
+     "action": "apply the rule",
+     "explain": "Use the specific rule of the identified function type to evaluate at the given point."
+    },
+    {
+     "step": 3,
+     "action": "state the result",
+     "explain": "Report the computed value along with the function type.",
+     "compute": "value"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Evaluate the modulus function f(x) = |x| at x = -5.",
+     "solution": "The modulus function returns the absolute value. f(-5) = |-5| = 5.",
+     "answer": "f(-5) = 5."
+    },
+    {
+     "question": "Evaluate the greatest integer function f(x) = [x] at x = 3.7.",
+     "solution": "The greatest integer function returns the largest integer less than or equal to x. [3.7] = 3.",
+     "answer": "[3.7] = 3."
+    },
+    {
+     "question": "Evaluate the signum function f(x) = x/|x| at x = -4 (for x not equal to 0).",
+     "solution": "Signum returns -1 for negative x. f(-4) = -4/|-4| = -4/4 = -1.",
+     "answer": "f(-4) = -1."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Evaluate the identity function f(x) = x at x = 7.",
+     "type": "compute"
+    },
+    {
+     "question": "Evaluate the greatest integer function [x] at x = -2.3.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.2.9",
+   "title": "Graphs of Functions",
+   "section": "2.4",
+   "definition": "The graph of a function f is the set of all points (x, f(x)) in the Cartesian plane, where x ranges over the domain of f.",
+   "formula": "Graph = {(x, y) : y = f(x), x in domain}",
+   "key_idea": "Each x value corresponds to exactly one y value on the graph, reflecting the function property.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "sketch the graph of the given function",
+    "identify the function from its graph",
+    "plot the points of the function",
+    "describe the shape of the graph of f",
+    "Explain the method of Graphs of Functions."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute key points",
+     "explain": "Evaluate f(x) at several representative x values to get points (x, f(x))."
+    },
+    {
+     "step": 2,
+     "action": "plot the points",
+     "explain": "Mark each computed point on the Cartesian plane."
+    },
+    {
+     "step": 3,
+     "action": "connect the points",
+     "explain": "Join the points smoothly following the function rule to obtain the graph."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Sketch the graph of f(x) = x for x in {-2, -1, 0, 1, 2}.",
+     "solution": "Compute points: (-2,-2), (-1,-1), (0,0), (1,1), (2,2). Plot and join them to get a straight line through the origin.",
+     "answer": "The graph is a straight line through the origin with slope 1."
+    },
+    {
+     "question": "Sketch the graph of f(x) = |x| for x in {-2, -1, 0, 1, 2}.",
+     "solution": "Compute points: (-2,2), (-1,1), (0,0), (1,1), (2,2). Plot and join to get a V-shaped graph.",
+     "answer": "The graph is a V-shape with vertex at the origin."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Sketch the graph of the constant function f(x) = 3.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Identify the function whose graph is a V-shape with vertex at the origin.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "jemh.2.10",
+   "title": "Sum, Difference, Product, Quotient of Functions",
+   "section": "2.4",
+   "definition": "Given two real valued functions f and g with the same domain, their sum, difference, product, and quotient are defined pointwise as (f+g)(x)=f(x)+g(x), (f-g)(x)=f(x)-g(x), (fg)(x)=f(x)*g(x), and (f/g)(x)=f(x)/g(x) where g(x) is not zero.",
+   "formula": "(f+g)(x)=f(x)+g(x); (f-g)(x)=f(x)-g(x); (fg)(x)=f(x)*g(x); (f/g)(x)=f(x)/g(x), g(x)!=0",
+   "key_idea": "Arithmetic operations on functions are performed point by point over the shared domain.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the sum of the functions f and g",
+    "compute the difference f - g at the given point",
+    "find the product of the two functions",
+    "evaluate the quotient f/g at x",
+    "Explain the method of Sum, Difference, Product, Quotient of Functions."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate both functions",
+     "explain": "Compute f(x) and g(x) at the given value of x."
+    },
+    {
+     "step": 2,
+     "action": "apply the operation",
+     "explain": "Perform the required arithmetic operation (sum, difference, product, or quotient) on the two values."
+    },
+    {
+     "step": 3,
+     "action": "state the result",
+     "explain": "Report the computed value, ensuring the denominator is non-zero for division.",
+     "compute": "result"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "If f(x) = x^2 and g(x) = 2x, find (f + g)(x) and evaluate at x = 3.",
+     "solution": "(f+g)(x) = x^2 + 2x. At x = 3: 9 + 6 = 15.",
+     "answer": "(f+g)(3) = 15."
+    },
+    {
+     "question": "If f(x) = x^2 and g(x) = x + 1, find (f/g)(x) and evaluate at x = 2.",
+     "solution": "(f/g)(x) = x^2 / (x+1). At x = 2: 4 / 3.",
+     "answer": "(f/g)(2) = 4/3."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "If f(x) = x and g(x) = x^2, find (fg)(x) at x = 4.",
+     "type": "compute"
+    },
+    {
+     "question": "If f(x) = x^2 and g(x) = x, find (f - g)(x) at x = 5.",
+     "type": "compute"
+    }
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

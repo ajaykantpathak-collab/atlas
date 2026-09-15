@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch02_028",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch02_028",
+   "title": "c6_math_ch02_028",
+   "questions": [
+    {
+     "q": "If a submarine is at -50 metres and it descends another 20 metres, what is the expression to find its new depth?",
+     "a": "The expression is (-50) + (-20). A student who answers (-50) + (+20) likely confuses \"descending\" (a negative change) with the distance value itself, failing to assign the correct sign to the movement.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why -5 degrees is colder than -2 degrees using the idea of a number line or a thermometer.",
+     "a": "-5 is colder because it is further to the left of zero on the number line. A student who says -5 is \"bigger\" because 5 is bigger than 2 is ignoring the negative sign, which indicates a position below the reference point of zero.",
+     "self_check": true
+    },
+    {
+     "q": "A bank account has a balance of ₹100. You make a withdrawal (a debit) of ₹150. What is your new balance, and how do you represent it?",
+     "a": "The balance is -₹50. Steps: 1. Identify starting balance (+100). 2. Identify movement (-150 for withdrawal). 3. Expression: (+100) + (-150) = -50. A student who calculates 150 - 100 = 50 ignores the direction of the transaction (a loss from a smaller amount).",
+     "self_check": true
+    },
+    {
+     "q": "If you are at floor -3 and you reach floor +2, what was the movement? Compare your result to the target.",
+     "a": "The movement was +5 floors. Expression: Target - Start = Movement, so (+2) - (-3) = +5. A student who answers -1 likely added the numbers incorrectly or failed to realize that subtracting a negative is the same as adding a positive (moving toward the positive direction).",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Subtracting a negative number always makes the result smaller.\"",
+     "a": "This is false. Subtracting a negative number is equivalent to adding a positive number, which makes the result larger. A student who thinks it makes the result smaller is likely treating the two minus signs as a single negative outcome rather than an inverse operation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario involving a temperature change that results in a final value of 0 degrees Celsius.",
+     "a": "A good response would be: \"The temperature started at -4 degrees and rose by 4 degrees.\" A poor response would involve non-integer values or fail to demonstrate the \"inverse\" relationship needed to reach zero.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

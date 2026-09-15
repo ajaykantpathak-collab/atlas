@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_10_008",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_10_008",
+   "title": "c12_geo_cbse_10_008",
+   "questions": [
+    {
+     "q": "According to Census 2011, what percentage of India's urban population lived in slums, and which state had the highest slum population?",
+     "a": "As per Census 2011, 17.4% of India's urban population lived in slums. Maharashtra had the highest slum population (approx. 11.8 million). A wrong answer (e.g., quoting 2001 data or confusing with rural slum data) reveals the student hasn't updated their knowledge with the latest Census or conflates slum definition with general urban poverty.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why slums tend to develop on ecologically fragile lands (e.g., floodplains, steep slopes) in Indian cities, and how this increases vulnerability to disasters.",
+     "a": "Slums develop on ecologically fragile lands because these are the only affordable/uncontested spaces for low-income migrants; formal housing markets exclude them. This increases vulnerability as floodplains face annual inundation (e.g., Yamuna pushta in Delhi) and slopes face landslides (e.g., Mumbai's hillside slums). A wrong answer that blames \"poor planning\" alone misses the structural land market forces and the agency of migrants in securing livelihoods.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the approximate population density of a slum cluster in Mumbai (Dharavi) given: area = 2.1 sq km, population = 850,000. Compare this with Mumbai's overall urban density (approx. 20,000 persons/sq km) and interpret the difference.",
+     "a": "Step 1: Density = Population / Area = 850,000 / 2.1 = 404,762 persons/sq km. Step 2: Mumbai's overall density ~20,000 persons/sq km. Step 3: Slum density is ~20 times higher. Interpretation: Extreme overcrowding leads to inadequate per capita space, shared sanitation, and fire hazards. A wrong calculation (e.g., using 2.1 as 21) or missing the comparison shows inability to quantify congestion and its implications.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the relationship between the growth of million-plus cities (c12_geo_cbse_10_007) and the emergence of infrastructure deficits. Use the concept of \"urban primacy\" and \"carrying capacity\".",
+     "a": "Million-plus cities attract disproportionate migration due to economic opportunities (urban primacy), causing population growth to outpace infrastructure expansion. Carrying capacity (the maximum population an urban area can sustain with given infrastructure) is exceeded, leading to deficits in water, transport, housing. For example, Delhi's population grew 21% (2001-2011) but water supply infrastructure didn't keep pace. A wrong answer that lists deficits without linking to primacy and carrying capacity fails to analyze the systemic cause.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the Slum Rehabilitation Authority (SRA) model in Mumbai (redevelopment via private builders giving free housing to slum dwellers) in solving the slum problem. Consider equity, sustainability, and scalability.",
+     "a": "The SRA model has improved housing for some but faces criticism: (1) Equity: only pre-2000 slum dwellers eligible, excluding many; (2) Sustainability: high-rise buildings often lack maintenance funds, become vertical slums; (3) Scalability: limited to high-value land, not replicable in low-value areas. A good evaluation balances achievements with structural limitations. A wrong answer that calls it \"fully successful\" ignores exclusion and long-term maintenance issues.",
+     "self_check": true
+    },
+    {
+     "q": "Design a multi-pronged strategy to reduce traffic congestion in a million-plus city like Bengaluru, integrating land-use planning, public transport, and demand management. Justify each component geographically.",
+     "a": "A good strategy: (1) Land-use: Promote mixed-use zoning along transit corridors (TOD) to reduce trip lengths – geographically, jobs-housing balance reduces peak-hour radial flows. (2) Public transport: Expand metro and bus rapid transit on high-density corridors – leverages existing urban form. (3) Demand management: Congestion pricing in CBD, parking restrictions – reduces private vehicle entry. (4) Non-motorized transport: Dedicated cycling lanes – suits Bengaluru's climate. A poor answer proposes only road widening (induced demand) or ignores spatial distribution of origins/destinations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

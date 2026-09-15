@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_01_008",
+   "title": "c11_bio_cbse_01_008",
+   "questions": [
+    {
+     "q": "What is the fundamental structural difference between a dichotomous key and a polytomous key in taxonomic identification?",
+     "a": "A dichotomous key presents exactly two contrasting alternatives (a couplet) at each step, forcing a binary choice, while a polytomous key offers three or more alternatives at a single step. A wrong answer (e.g., \"dichotomous keys are for plants, polytomous for animals\") reveals confusion between key structure and taxonomic group — the distinction is purely logical, not organismal.",
+     "self_check": true
+    },
+    {
+     "q": "Why are zoological parks considered superior to museums for studying reproductive behavior and breeding biology of endangered species?",
+     "a": "Zoological parks maintain living, breeding populations under controlled conditions allowing direct observation of courtship, mating, parental care, and developmental stages — processes impossible to study from preserved museum specimens. A wrong answer (e.g., \"museums have more specimens\") confuses quantity of specimens with quality of biological information; museums excel in morphological comparison and historical distribution records, not live behavioral data.",
+     "self_check": true
+    },
+    {
+     "q": "You are given four snake specimens: *Naja naja* (Indian cobra), *Bungarus caeruleus* (common krait), *Daboia russelii* (Russell's viper), and *Python molurus* (Indian rock python). Construct the first two couplets of a dichotomous key to separate these four species using only external morphological characters visible in a live specimen.",
+     "a": "Couplet 1: (a) Presence of heat-sensing loreal pits between eye and nostril → *Daboia russelii* (viperid); (b) Absence of loreal pits → go to Couplet 2. Couplet 2: (a) Presence of a distinct hood formed by elongated cervical ribs → *Naja naja*; (b) Absence of hood → go to Couplet 3 (for krait vs python). A wrong answer using color patterns alone (e.g., \"banded vs non-banded\") reveals reliance on variable characters rather than stable diagnostic morphological structures; color varies geographically and ontogenetically.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of zoological parks and botanical gardens as taxonomic aids. In what specific ways do their functions diverge due to fundamental biological differences between animals and plants?",
+     "a": "Both serve as living repositories for ex-situ conservation and taxonomic reference, but zoological parks must address animal-specific needs: behavioral enrichment, veterinary care for mobile organisms, managed breeding programs with studbooks to avoid inbreeding, and enclosures simulating 3D habitats. Botanical gardens focus on seed banks, tissue culture, and controlled pollination — exploiting plant sessility and totipotency. A wrong answer listing identical functions ignores that animal mobility and behavior require fundamentally different management protocols than plant propagation.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since DNA barcoding is now available, dichotomous keys and zoological parks are obsolete for taxonomy.\" Evaluate this claim with three specific counterarguments grounded in Class 11 biology.",
+     "a": "The claim is invalid because: (1) Dichotomous keys remain essential for rapid field identification where lab facilities are unavailable — they operationalize morphological diagnosis without technology; (2) Zoological parks maintain living genomes and epigenetic contexts that DNA sequences alone cannot capture — they are irreplaceable for conservation breeding, reintroduction programs, and studying phenotype-environment interactions; (3) Type specimens in museums and living collections in parks anchor nomenclature stability — molecular data supplements but cannot replace vouchered morphological references. A wrong answer accepting the claim reflects technological determinism, misunderstanding that taxonomy integrates multiple evidence streams.",
+     "self_check": true
+    },
+    {
+     "q": "Design a dichotomous key for identifying the following five Indian primate species using only characters observable in a zoo setting: *Macaca mulatta* (rhesus macaque), *Macaca radiata* (bonnet macaque), *Semnopithecus entellus* (gray langur), *Trachypithecus geei* (golden langur), and *Hoolock hoolock* (western hoolock gibbon). Include at least four couplets.",
+     "a": "Couplet 1: (a) Tail absent or vestigial (<5 cm) → *Hoolock hoolock*; (b) Tail well-developed (>20 cm) → go to 2. Couplet 2: (a) Tail carried upright with terminal tuft → *Macaca radiata*; (b) Tail not carried upright, no terminal tuft → go to 3. Couplet 3: (a) Tail longer than head-body length, slender → *Semnopithecus entellus*; (b) Tail shorter than head-body length, thicker → go to 4. Couplet 4: (a) Face pinkish-red, tail ~20-30 cm → *Macaca mulatta*; (b) Face black, tail ~40-50 cm, golden pelage → *Trachypithecus geei*. A poor answer using only \"monkey vs ape\" or color alone fails to demonstrate hierarchical character selection and ignores intraspecific variation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,307 @@
+{
+ "catalog": "catalog_class8_science_ch105.json",
+ "concepts": [
+  {
+   "id": "hesc.105.1",
+   "title": "Deforestation and Its Causes",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is deforestation?",
+     "a": "Felling of trees over large areas for farms, roads, housing, timber and industry.",
+     "self_check": true
+    },
+    {
+     "q": "Name two natural and two human causes of deforestation.",
+     "a": "Natural: forest fires, drought. Human: clearing land for agriculture, use of wood for fuel and furniture.",
+     "self_check": true
+    },
+    {
+     "q": "How does deforestation harm the water cycle?",
+     "a": "Fewer trees mean less transpiration and rain, more floods and soil erosion - the local climate dries up.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.105.2",
+   "title": "Consequences of Deforestation and Desertification",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is desertification?",
+     "a": "Fertile land slowly turning into desert after its tree cover is lost and soil erodes.",
+     "self_check": true
+    },
+    {
+     "q": "Why does cutting forests raise the amount of CO2 in air?",
+     "a": "Trees absorb CO2; with fewer trees, more carbon dioxide stays in the air, adding to global warming.",
+     "self_check": true
+    },
+    {
+     "q": "Name one effect of deforestation on wild animals.",
+     "a": "They lose food and shelter, so many die or must move, pushing species toward extinction.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.105.3",
+   "title": "Biosphere Reserve and Protected Areas",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a biosphere reserve?",
+     "a": "A large protected area where wildlife, plant and human life are conserved together, like the Nilgiri or Nanda Devi reserve.",
+     "self_check": true
+    },
+    {
+     "q": "How does a biosphere reserve differ from a sanctuary?",
+     "a": "A biosphere reserve is bigger and also allows limited human activity in zones; sanctuaries mainly protect animals.",
+     "self_check": true
+    },
+    {
+     "q": "Name one famous biosphere reserve of India.",
+     "a": "Nilgiri Biosphere Reserve (also Sundarbans, Nanda Devi, Pachmarhi).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.105.4",
+   "title": "Flora and Fauna",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What do the terms flora and fauna mean?",
+     "a": "Flora is the plant life of a region; fauna is its animal life.",
+     "self_check": true
+    },
+    {
+     "q": "Give two examples each of Indian flora and fauna.",
+     "a": "Flora: sal and teak trees; fauna: tiger, peacock (also bison, orchids).",
+     "self_check": true
+    },
+    {
+     "q": "Why must we keep records of flora and fauna?",
+     "a": "Records show which species are common, rare or vanishing, guiding conservation plans.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.105.5",
+   "title": "Endemic Species and Biological Species",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is an endemic species?",
+     "a": "A species found only in a particular region and nowhere else, like the Siberian crane in cold wetlands or sal and wild mango in India.",
+     "self_check": true
+    },
+    {
+     "q": "Why are endemic species at greater risk of extinction?",
+     "a": "They live in one place only, so habitat loss there wipes out the whole species.",
+     "self_check": true
+    },
+    {
+     "q": "Distinguish endangered from endemic species.",
+     "a": "Endangered species are close to extinction anywhere; endemic species are restricted to one area (they may or may not be endangered).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.105.6",
+   "title": "Wildlife Sanctuary",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a wildlife sanctuary?",
+     "a": "A protected area where wild animals live safely, with killing, capturing or poaching forbidden.",
+     "self_check": true
+    },
+    {
+     "q": "Name two well-known wildlife sanctuaries of India.",
+     "a": "Bharatpur Bird Sanctuary (Keoladeo) and Jaldapara sanctuary; also Ranthambore and Periyar.",
+     "self_check": true
+    },
+    {
+     "q": "Can people visit a wildlife sanctuary?",
+     "a": "Yes, for study and tourism under rules - unlike national parks, sanctuaries allow limited human use.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.105.7",
+   "title": "National Parks and Ecosystems",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a national park?",
+     "a": "A reserve large enough to protect whole ecosystems - habitat, plants and animals together, with human activity nearly banned.",
+     "self_check": true
+    },
+    {
+     "q": "Name two national parks of India.",
+     "a": "Jim Corbett (Uttarakhand) and Kaziranga (Assam); also Gir and Kanha.",
+     "self_check": true
+    },
+    {
+     "q": "What is an ecosystem?",
+     "a": "All plants, animals and microorganisms of an area together with their surroundings, functioning as one unit.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.105.8",
+   "title": "Red Data Book",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is the Red Data Book?",
+     "a": "A record of endangered and rare species of plants and animals, kept so they can be watched and saved.",
+     "self_check": true
+    },
+    {
+     "q": "Who maintains the Red Data Book?",
+     "a": "IUCN (International Union for Conservation of Nature) maintains it internationally; India keeps its own lists.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the red panda in the Red Data Book?",
+     "a": "Its numbers are falling fast due to habitat loss - it is an endangered species needing protection.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.105.9",
+   "title": "Migration of Birds",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is migration? Give an example.",
+     "a": "Seasonal movement of animals between habitats - the Siberian crane flies to Bharatpur each winter; Arctic terns migrate pole to pole.",
+     "self_check": true
+    },
+    {
+     "q": "Why do birds migrate?",
+     "a": "To escape harsh weather and find food and safe breeding grounds.",
+     "self_check": true
+    },
+    {
+     "q": "How do migratory birds find their way?",
+     "a": "They follow landmarks, the sun and stars, and the earth's magnetic field.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hesc.105.10",
+   "title": "Paper Recycling and Tree Preservation",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "trees_saved",
+     "expr": "17 * paper_tonnes",
+     "explain": "each tonne of recycled paper spares about seventeen trees"
+    },
+    {
+     "step": 2,
+     "name": "tonnes_per_tree",
+     "expr": "paper_tonnes / 17",
+     "explain": "tonnes recycled per tree saved"
+    },
+    {
+     "step": 3,
+     "name": "trees_per_person",
+     "expr": "trees_saved / people_recycling",
+     "explain": "trees saved for each household that recycles"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A colony recycles 5 tonnes of paper. How many trees are saved, and how many per family if 25 families recycle equally?",
+     "vals": {
+      "paper_tonnes": 5,
+      "people_recycling": 25
+     },
+     "unit": "trees",
+     "steps": null,
+     "a": "3.4 trees",
+     "self_check": false
+    },
+    {
+     "q": "A school collects 2 tonnes of paper for recycling. Calculate the trees saved.",
+     "vals": {
+      "paper_tonnes": 2,
+      "people_recycling": 1
+     },
+     "unit": "trees",
+     "steps": null,
+     "a": "34 trees",
+     "self_check": false
+    },
+    {
+     "q": "A city recycles 40 tonnes of paper yearly. How many trees does this spare, and per ward if 8 wards share it?",
+     "vals": {
+      "paper_tonnes": 40,
+      "people_recycling": 8
+     },
+     "unit": "trees",
+     "steps": null,
+     "a": "85 trees",
+     "self_check": false
+    },
+    {
+     "q": "An office recycles half a tonne (0.5 t) of paper each month. How many trees are saved in a year's worth of such effort?",
+     "vals": {
+      "paper_tonnes": 0.5,
+      "people_recycling": 1
+     },
+     "unit": "trees",
+     "steps": null,
+     "a": "8.5 trees",
+     "self_check": false
+    },
+    {
+     "q": "A district recycles 12 tonnes of paper; 60 villages share the credit. Find trees saved and per village.",
+     "vals": {
+      "paper_tonnes": 12,
+      "people_recycling": 60
+     },
+     "unit": "trees",
+     "steps": null,
+     "a": "3.4 trees",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hesc.105.11",
+   "title": "Reforestation and Legal Conservation",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is reforestation?",
+     "a": "Planting new trees to rebuild a forest on land that lost its forest cover.",
+     "self_check": true
+    },
+    {
+     "q": "How is reforestation different from afforestation?",
+     "a": "Reforestation replants a forest where one was cut; afforestation grows forests on land that never had them recently.",
+     "self_check": true
+    },
+    {
+     "q": "Suggest two ways to conserve forests.",
+     "a": "Ban illegal felling and involve local people in tree planting (like Chipko); use paper and wood sparingly and recycle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

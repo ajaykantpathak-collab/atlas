@@ -1,0 +1,445 @@
+{
+ "chapter": 111,
+ "class": 10,
+ "subject": "maths",
+ "chapter_number": 11,
+ "concepts": [
+  {
+   "id": "jemh.11.1",
+   "title": "Circumference of Circle",
+   "section": "Areas Related to Circles",
+   "definition": "The circumference of a circle is the total length of its boundary. It is the distance covered in one complete round along the circle.",
+   "formula": "C = 2 * pi * r, where r is the radius of the circle and pi is approximately 22/7 or 3.14",
+   "key_idea": "Circumference is the perimeter of a circle, directly proportional to its radius.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the circumference of a circle with a given radius",
+    "calculate the circumference when the diameter is given",
+    "what is the perimeter of the circle for the given radius",
+    "determine the distance covered in one revolution of a wheel of given radius",
+    "compute 2 pi r for the given radius",
+    "how far does a wheel travel in one turn given its radius"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Take the radius",
+     "explain": "Halve the diameter if the diameter is given instead."
+    },
+    {
+     "step": 2,
+     "action": "Apply the circumference formula",
+     "explain": "C = 2 x pi x r.",
+     "compute": "c = 2 * pi * r"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the circumference of a circle of radius 21 cm.",
+     "solution": "C = 2 * pi * r = 2 * (22/7) * 21 = 2 * 22 * 3 = 132 cm",
+     "answer": "132 cm"
+    },
+    {
+     "question": "Find the radius of a circle whose circumference is 44 cm.",
+     "solution": "44 = 2 * (22/7) * r, so r = (44 * 7) / (2 * 22) = 7 cm",
+     "answer": "7 cm"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the circumference of a circle with radius 14 cm.",
+     "type": "compute"
+    },
+    {
+     "question": "A wheel has diameter 70 cm. Find its circumference.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.11.2",
+   "title": "Area of Circle",
+   "section": "Areas Related to Circles",
+   "definition": "The area of a circle is the total region enclosed by the circle. It measures the space inside the circular boundary.",
+   "formula": "A = pi * r^2, where r is the radius of the circle",
+   "key_idea": "The area of a circle is proportional to the square of its radius.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the area of a circle with a given radius",
+    "calculate the area when the diameter is given",
+    "what is the area of the circle for the given radius",
+    "determine pi r squared for the given circle",
+    "compute the area of a circular sheet of given radius",
+    "how much area does a circle of the given radius cover"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Take the radius",
+     "explain": "Halve the diameter if needed."
+    },
+    {
+     "step": 2,
+     "action": "Apply the area formula",
+     "explain": "A = pi x r squared.",
+     "compute": "area = pi * r ** 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the area of a circle of radius 7 cm.",
+     "solution": "A = pi * r^2 = (22/7) * 7 * 7 = 22 * 7 = 154 sq cm",
+     "answer": "154 sq cm"
+    },
+    {
+     "question": "Find the radius of a circle whose area is 616 sq cm.",
+     "solution": "616 = (22/7) * r^2, so r^2 = (616 * 7)/22 = 196, r = 14 cm",
+     "answer": "14 cm"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the area of a circle with radius 21 cm.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the area of a circular field with diameter 56 m.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.11.3",
+   "title": "Length of Arc",
+   "section": "Areas Related to Circles",
+   "definition": "The length of an arc is the distance along the curved part of a circle between two points. It is a fraction of the circumference determined by the central angle.",
+   "formula": "l = (theta / 360) * 2 * pi * r, where theta is the central angle in degrees and r is the radius",
+   "key_idea": "The arc length is the fraction theta/360 of the full circumference.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the length of an arc of a circle with given radius and central angle",
+    "calculate the arc length when the angle subtended at the centre is given",
+    "what is the length of the arc for the given radius and angle",
+    "determine the arc length using theta over 360 times 2 pi r",
+    "compute the arc of the circle for the given sector angle",
+    "how long is the arc cut off by the given central angle"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Take the radius and the central angle",
+     "explain": "The angle is measured in degrees."
+    },
+    {
+     "step": 2,
+     "action": "Apply the arc length formula",
+     "explain": "l = (theta/360) x 2 pi r.",
+     "compute": "arc_length = (theta / 360) * 2 * pi * r"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the length of an arc of a circle of radius 21 cm subtending an angle of 60 degrees at the centre.",
+     "solution": "l = (60/360) * 2 * (22/7) * 21 = (1/6) * 2 * 22 * 3 = (1/6) * 132 = 22 cm",
+     "answer": "22 cm"
+    },
+    {
+     "question": "Find the angle subtended by an arc of length 11 cm of a circle of radius 21 cm.",
+     "solution": "11 = (theta/360) * 2 * (22/7) * 21 = (theta/360) * 132, so theta = (11 * 360)/132 = 30 degrees",
+     "answer": "30 degrees"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the length of an arc of radius 14 cm with central angle 90 degrees.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the radius of an arc of length 44 cm subtending 60 degrees at the centre.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.11.4",
+   "title": "Area of Sector",
+   "section": "Areas Related to Circles",
+   "definition": "A sector of a circle is the region enclosed by two radii and the corresponding arc. The area of a sector is a fraction of the area of the circle determined by the central angle.",
+   "formula": "A = (theta / 360) * pi * r^2, where theta is the central angle in degrees and r is the radius",
+   "key_idea": "The area of a sector is the fraction theta/360 of the total area of the circle.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the area of a sector with given radius and central angle",
+    "calculate the sector area when the angle at the centre is given",
+    "what is the area of the sector for the given radius and angle",
+    "determine the sector area using theta over 360 times pi r squared",
+    "compute the area of the pie slice for the given data",
+    "how much area does the sector of the given angle cover"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Take the radius and the central angle",
+     "explain": "The angle is measured in degrees."
+    },
+    {
+     "step": 2,
+     "action": "Apply the sector area formula",
+     "explain": "A = (theta/360) x pi r squared.",
+     "compute": "sector_area = (theta / 360) * pi * r ** 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the area of a sector of a circle of radius 21 cm with central angle 60 degrees.",
+     "solution": "A = (60/360) * (22/7) * 21 * 21 = (1/6) * (22/7) * 441 = (1/6) * 1386 = 231 sq cm",
+     "answer": "231 sq cm"
+    },
+    {
+     "question": "Find the area of the major sector of a circle of radius 10 cm with minor sector angle 90 degrees.",
+     "solution": "Major angle = 360 - 90 = 270 degrees. A = (270/360) * (22/7) * 10 * 10 = (3/4) * (2200/7) = 235.71 sq cm",
+     "answer": "235.71 sq cm"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the area of a sector of radius 14 cm with central angle 45 degrees.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the area of the major sector of a circle of radius 7 cm with minor angle 120 degrees.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.11.5",
+   "title": "Area of Segment of Circle",
+   "section": "Areas Related to Circles",
+   "definition": "A segment of a circle is the region between a chord and the corresponding arc. The area of a segment is found by subtracting the area of the triangle formed by the chord and two radii from the area of the sector.",
+   "formula": "Area of segment = Area of sector - Area of triangle = (theta/360) * pi * r^2 - (1/2) * r^2 * sin(theta)",
+   "key_idea": "The segment area equals the sector area minus the triangular area formed by the chord and the two radii.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Find the area of the minor segment given radius and central angle.",
+    "Find the area of the major segment given radius and central angle.",
+    "Find the area of segment when the chord length is given.",
+    "Find the area of the segment for a semicircle.",
+    "Find the difference between sector area and segment area."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute the sector area",
+     "explain": "Sector = (theta/360) x pi r^2."
+    },
+    {
+     "step": 2,
+     "action": "Compute the triangle area",
+     "explain": "Triangle = (1/2) r^2 sin(theta) with the same two radii."
+    },
+    {
+     "step": 3,
+     "action": "Subtract",
+     "explain": "Segment area = sector area minus triangle area."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the area of the minor segment of a circle of radius 14 cm with central angle 90 degrees.",
+     "solution": "Sector area = (90/360)*(22/7)*14*14 = (1/4)*616 = 154 sq cm. Triangle area = (1/2)*14*14 = 98 sq cm. Segment area = 154 - 98 = 56 sq cm",
+     "answer": "56 sq cm"
+    },
+    {
+     "question": "Find the area of the major segment of a circle of radius 7 cm with minor segment angle 60 degrees.",
+     "solution": "Sector area = (60/360)*(22/7)*7*7 = (1/6)*154 = 25.67 sq cm. Triangle area = (1/2)*7*7*sin(60) = (1/2)*49*(sqrt(3)/2) = 21.22 sq cm. Minor segment = 25.67 - 21.22 = 4.45 sq cm. Major segment = 154 - 4.45 = 149.55 sq cm",
+     "answer": "149.55 sq cm"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the area of the minor segment of a circle of radius 21 cm with central angle 120 degrees.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the area of the segment of a circle of radius 10 cm with central angle 90 degrees.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.11.6",
+   "title": "Area of Combination of Circular Regions",
+   "section": "Areas Related to Circles",
+   "definition": "The area of a combination of circular regions is found by adding or subtracting the areas of individual circles, sectors, or segments depending on how they overlap or combine.",
+   "formula": "Total area = Sum of individual areas (with appropriate addition or subtraction for overlaps)",
+   "key_idea": "Break down the combined figure into simple circular regions and compute each area separately, then combine.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Find the area of a design made of sectors and triangles.",
+    "Find the area of a shaded region combining circles and squares.",
+    "Find the area of a figure with multiple sectors.",
+    "Find the area of a leaf-shaped region formed by two sectors.",
+    "Find the area of a running track with semicircular ends."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Split the figure",
+     "explain": "Break the design into standard regions such as sectors, triangles and rectangles."
+    },
+    {
+     "step": 2,
+     "action": "Compute each region",
+     "explain": "Use the matching area formula for every piece."
+    },
+    {
+     "step": 3,
+     "action": "Combine",
+     "explain": "Add the regions that fill the design and subtract any removed ones."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the area of a shaded region in a square of side 14 cm with four quadrants of radius 7 cm at the corners.",
+     "solution": "Area of square = 14*14 = 196 sq cm. Area of 4 quadrants = 4 * (90/360) * (22/7) * 7 * 7 = 4 * (1/4) * 154 = 154 sq cm. Shaded area = 196 - 154 = 42 sq cm",
+     "answer": "42 sq cm"
+    },
+    {
+     "question": "Find the area of a leaf-shaped region formed by two quadrants of radius 7 cm each inside a square.",
+     "solution": "Area of one quadrant = (90/360)*(22/7)*7*7 = 38.5 sq cm. Two quadrants = 77 sq cm. Square area = 49 sq cm. Leaf area = 77 - 49 = 28 sq cm",
+     "answer": "28 sq cm"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the area of the shaded region in a rectangle 20 cm by 14 cm with two semicircles of radius 7 cm on the shorter sides.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the area of a design formed by two sectors of radius 21 cm with angles 60 degrees each.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.11.7",
+   "title": "Area Between Two Concentric Circles",
+   "section": "Areas Related to Circles",
+   "definition": "The area between two concentric circles (circles with the same center but different radii) is the region enclosed between the outer and inner circles. It is found by subtracting the area of the inner circle from the area of the outer circle.",
+   "formula": "Area = pi * R^2 - pi * r^2 = pi * (R^2 - r^2), where R is the outer radius and r is the inner radius",
+   "key_idea": "The area between concentric circles is the difference between the outer and inner circle areas.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the area between two concentric circles with given radii",
+    "calculate the area of the circular ring",
+    "what is the area of the path around a circular garden of given radii",
+    "determine pi times the difference of the squared radii",
+    "compute the area of the washer shaped region",
+    "how much area lies between the outer and inner circles"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Take both radii",
+     "explain": "R for the outer circle and r for the inner circle."
+    },
+    {
+     "step": 2,
+     "action": "Apply the ring formula",
+     "explain": "Area = pi x (R squared - r squared).",
+     "compute": "ring_area = pi * (outer_radius ** 2 - inner_radius ** 2)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Find the area of a ring between two concentric circles with radii 21 cm and 14 cm.",
+     "solution": "Area = pi*(R^2 - r^2) = (22/7)*(21^2 - 14^2) = (22/7)*(441 - 196) = (22/7)*245 = 770 sq cm",
+     "answer": "770 sq cm"
+    },
+    {
+     "question": "A circular path of width 7 m surrounds a circular garden of radius 21 m. Find the area of the path.",
+     "solution": "Outer radius R = 21 + 7 = 28 m, inner radius r = 21 m. Area = (22/7)*(28^2 - 21^2) = (22/7)*(784 - 441) = (22/7)*343 = 1078 sq m",
+     "answer": "1078 sq m"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the area between two concentric circles with radii 35 cm and 28 cm.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the cost of constructing a circular path of width 3.5 m around a circular park of radius 14 m at Rs 20 per sq m.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "jemh.11.8",
+   "title": "Problems Involving Sector and Segment Areas",
+   "section": "Areas Related to Circles",
+   "definition": "These problems involve finding areas of sectors and segments in practical scenarios, often combining multiple formulas to solve real-world applications such as finding shaded regions, costs, or comparing areas.",
+   "formula": "Sector area = (theta/360)*pi*r^2; Segment area = Sector area - Triangle area",
+   "key_idea": "Apply sector and segment area formulas in combination to solve practical and multi-step problems.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Find the area of the shaded region in a circle with a sector and segment.",
+    "Find the cost of painting a sector-shaped region at a given rate.",
+    "Find the area swept by a clock hand in a given time.",
+    "Find the area of a segment and the remaining area of the circle.",
+    "Find the angle of a sector given its area equals the area of the remaining circle."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute the sector or segment area",
+     "explain": "Use the matching formula for the region in the question."
+    },
+    {
+     "step": 2,
+     "action": "Handle shaded regions",
+     "explain": "Add the areas that make up the region and subtract those removed."
+    },
+    {
+     "step": 3,
+     "action": "Cost questions",
+     "explain": "Multiply the final area by the given rate."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A pendulum swings through an angle of 30 degrees and describes an arc of length 11 cm. Find the area of the sector swept by the pendulum.",
+     "solution": "l = (30/360)*2*pi*r = 11, so r = (11*360)/(30*2*(22/7)) = (11*360*7)/(30*44) = 21 cm. Area of sector = (30/360)*(22/7)*21*21 = (1/12)*1386 = 115.5 sq cm",
+     "answer": "115.5 sq cm"
+    },
+    {
+     "question": "Find the area of the segment of a circle of radius 21 cm if the central angle is 120 degrees.",
+     "solution": "Sector area = (120/360)*(22/7)*21*21 = (1/3)*1386 = 462 sq cm. Triangle area = (1/2)*21*21*sin(120) = (1/2)*441*(sqrt(3)/2) = 190.96 sq cm. Segment area = 462 - 190.96 = 271.04 sq cm",
+     "answer": "271.04 sq cm"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the area swept by the minute hand of a clock of length 14 cm in 5 minutes.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the area of the segment of a circle of radius 14 cm with central angle 60 degrees.",
+     "type": "compute"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "chapter_title": "Areas Related to Circles",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jemh111.txt"
+}

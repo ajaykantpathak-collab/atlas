@@ -1,0 +1,455 @@
+{
+ "class": 12,
+ "subject": "maths",
+ "chapter": 1,
+ "chapter_title": "Relations and Functions",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lemh101.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lemh.101.2.1",
+   "title": "Empty Relation",
+   "section": "1.2",
+   "definition": "A relation on a set that holds no pair at all: the relation set is the empty collection, so nothing in the set relates to anything, itself included.",
+   "formula": "R = { }",
+   "key_idea": "The relation holds no ordered pair, so no element of the set relates to any element.",
+   "textbook_ref": "lemh101.txt, section 1.2 opening (Definition 1 region, lines 45-65)",
+   "question_patterns": [
+    "show that the relation a is sister of b on the set of students of a boys school is the empty relation",
+    "prove that R = {(a, b) : a - b = 10} on {1, 2, 3, 4} is the empty relation since no pair satisfies the condition",
+    "why is this relation called an empty relation justify",
+    "check whether R contains no ordered pairs at all",
+    "how many ordered pairs does the empty relation on set A contain",
+    "give an example of a relation on a set that is empty"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "list the set and the pairing rule",
+     "explain": "Write the set A and the condition that decides membership in R."},
+    {"step": 2, "action": "hunt for any pair that satisfies the rule",
+     "explain": "Scan the ordered pairs of A x A for even one pair meeting the condition."},
+    {"step": 3, "action": "conclude the relation is empty",
+     "explain": "When no pair qualifies, R equals the empty set, so R is the empty relation."}
+   ]
+  },
+  {
+   "id": "lemh.101.2.2",
+   "title": "Universal Relation",
+   "section": "1.2",
+   "definition": "A relation under which every ordered pair of the set with itself belongs to R, so each member relates to all members including itself; the relation equals the full Cartesian product.",
+   "formula": "R = A x A",
+   "key_idea": "Every ordered pair of A x A lies in R, so all elements relate to all elements.",
+   "textbook_ref": "lemh101.txt, section 1.2 (Definition 2 region, lines 45-65)",
+   "question_patterns": [
+    "is the relation where heights differ by less than 3 meters on the set of students of a boys school a universal relation",
+    "show that the condition heights differ by less than 3 meters holds for every pair of students, so R = A x A is the universal relation",
+    "when do we call a relation universal on a set",
+    "check whether all ordered pairs of A x A satisfy the relation condition",
+    "verify that the relation equals the cartesian product A x A",
+    "state which relation on a set is called the universal relation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "write the set and the rule",
+     "explain": "State A and the condition defining R."},
+    {"step": 2, "action": "test an arbitrary pair from A x A",
+     "explain": "Take any pair (a, b) of elements of A and apply the condition."},
+    {"step": 3, "action": "conclude R is the full product",
+     "explain": "Since the condition holds for every pair, R coincides with A x A, the universal relation."}
+   ]
+  },
+  {
+   "id": "lemh.101.2.3",
+   "title": "Reflexive Relation",
+   "section": "1.2",
+   "definition": "A relation on a set in which each member is paired with its own image: every element a of A must appear as the pair (a, a) inside R.",
+   "formula": "(a, a) in R for every a in A",
+   "key_idea": "Each element pairs with itself: the diagonal pairs (a, a) must all lie in R.",
+   "textbook_ref": "lemh101.txt, section 1.2 (Definition 3(i), lines 74-81)",
+   "question_patterns": [
+    "check whether the relation y is divisible by x on the set {1, 2, 3, 4, 5, 6} is reflexive",
+    "is the relation x is wife of y on a set of people reflexive justify",
+    "show that every element relates to itself under this relation",
+    "test the diagonal pairs (a, a) of the relation defined on integers",
+    "state the condition a relation must meet to be reflexive",
+    "determine whether R given by a <= b on the real numbers is reflexive"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "pick an arbitrary element a of A",
+     "explain": "Let a range over every member of the set."},
+    {"step": 2, "action": "test the condition on the pair (a, a)",
+     "explain": "Substitute a on both sides of the rule defining R."},
+    {"step": 3, "action": "decide reflexivity",
+     "explain": "If (a, a) lies in R for all a, R is reflexive; one failing element disproves it."}
+   ]
+  },
+  {
+   "id": "lemh.101.2.4",
+   "title": "Symmetric Relation",
+   "section": "1.2",
+   "definition": "A relation that runs both ways: whenever the pair (a, b) belongs to R, the reversed pair (b, a) must belong to R as well.",
+   "formula": "(a, b) in R implies (b, a) in R",
+   "key_idea": "Reversed pairs must also belong: from (a, b) in R conclude (b, a) in R.",
+   "textbook_ref": "lemh101.txt, section 1.2 (Definition 3(ii), lines 74-81)",
+   "question_patterns": [
+    "is the relation x is wife of y on a set of people symmetric justify",
+    "check whether x is exactly 7 cm taller than y gives a symmetric relation on a set of people",
+    "show that b is related to a whenever a is related to b",
+    "test whether the reverse of each pair also lies in R",
+    "state the defining property of a symmetric relation",
+    "determine whether the perpendicular relation on lines in a plane is symmetric"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "assume (a, b) belongs to R",
+     "explain": "Start from an arbitrary pair that satisfies the rule."},
+    {"step": 2, "action": "derive the reversed pair",
+     "explain": "Use the same rule to check whether (b, a) must also satisfy it."},
+    {"step": 3, "action": "decide symmetry",
+     "explain": "If the reverse always follows, R is symmetric; exhibit one unreversed pair to disprove."}
+   ]
+  },
+  {
+   "id": "lemh.101.2.5",
+   "title": "Transitive Relation",
+   "section": "1.2",
+   "definition": "A relation where relatedness carries across a middle term: when a relates b and b relates c, the shortcut pair (a, c) must also sit in R.",
+   "formula": "(a, b) in R and (b, c) in R implies (a, c) in R",
+   "key_idea": "A chain of two pairs forces the third: (a, b) and (b, c) in R must give (a, c) in R.",
+   "textbook_ref": "lemh101.txt, section 1.2 (Definition 3(iii), lines 74-81)",
+   "question_patterns": [
+    "is the relation x is father of y on a set of people transitive justify",
+    "check whether the relation y is divisible by x is transitive on {1, 2, 3, 4, 5, 6}",
+    "show that a relates c whenever a relates b and b relates c",
+    "test whether the shortcut pair follows from two connected pairs in R",
+    "state what it means for a relation to be transitive",
+    "determine transitivity of the relation x is exactly 7 cm taller than y on people"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "take two connected pairs",
+     "explain": "Assume (a, b) and (b, c) both belong to R."},
+    {"step": 2, "action": "derive the shortcut pair",
+     "explain": "Combine the two conditions through the rule defining R."},
+    {"step": 3, "action": "decide transitivity",
+     "explain": "If every such chain closes with (a, c) in R, the relation is transitive; otherwise exhibit a broken chain."}
+   ]
+  },
+  {
+   "id": "lemh.101.2.6",
+   "title": "Equivalence Relation",
+   "section": "1.2",
+   "definition": "A relation that is reflexive, symmetric and transitive at once; it behaves like equality inside the set by sorting elements into interchangeable groups.",
+   "formula": "R reflexive and R symmetric and R transitive",
+   "key_idea": "Reflexive plus symmetric plus transitive together give an equivalence relation, like divisibility by 2 on the set of integers.",
+   "textbook_ref": "lemh101.txt, section 1.2 (Definition 4 and Examples 2-5, lines 86-121)",
+   "question_patterns": [
+    "show that the relation 2 divides a - b on the set of integers is an equivalence relation",
+    "prove that congruence of triangles is an equivalence relation on the set of all triangles in a plane",
+    "is x and y work at the same place an equivalence relation on a set of people justify",
+    "check all three properties reflexive symmetric transitive for the given relation",
+    "determine whether parallelism of lines in a plane is an equivalence relation",
+    "which three properties must a relation satisfy to be an equivalence relation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the self-pair property",
+     "explain": "Confirm (a, a) lies in R for every element a, so R is reflexive."},
+    {"step": 2, "action": "verify the reverse-pair property",
+     "explain": "From (a, b) in R derive (b, a) in R, so R is symmetric."},
+    {"step": 3, "action": "verify the chain property",
+     "explain": "From (a, b) and (b, c) in R derive (a, c) in R, so R is transitive."},
+    {"step": 4, "action": "conclude",
+     "explain": "With all three properties holding, R is an equivalence relation."}
+   ]
+  },
+  {
+   "id": "lemh.101.2.7",
+   "title": "Equivalence Class and Partition",
+   "section": "1.2",
+   "definition": "For an equivalence relation, the class of an element is the bundle of all elements that relate to it; these pairwise disjoint bundles fill the whole set, forming its partition.",
+   "formula": "[a] = set of all b in X with a R b",
+   "key_idea": "Class [a] gathers all elements related to a; even and odd integers form the two classes of divisibility by 2, disjoint with union Z.",
+   "textbook_ref": "lemh101.txt, section 1.2 (equivalence class discussion, lines 127-180)",
+   "question_patterns": [
+    "find the set of all elements related to 1 when the relation is |a - b| is a multiple of 4 on {0, 1, ..., 12}",
+    "show that the classes [0] and [1] of even and odd integers partition Z into disjoint subsets",
+    "list all elements of the equivalence class [2] for the relation 3 divides a - b",
+    "find the equivalence class of a for the given relation on X",
+    "which elements of the set belong to the same class as a",
+    "how do the disjoint equivalence classes cover the whole set"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "fix the element a",
+     "explain": "Choose the element whose class is wanted."},
+    {"step": 2, "action": "collect every related element",
+     "explain": "Gather all b for which the pair (a, b) satisfies the relation."},
+    {"step": 3, "action": "report the class and the partition",
+     "explain": "The collection [a] is the equivalence class; distinct classes are disjoint and their union is the whole set."}
+   ]
+  },
+  {
+   "id": "lemh.101.3.1",
+   "title": "One-One (Injective) Function",
+   "section": "1.3",
+   "definition": "A function that never sends two different inputs to the same output: equal images force equal inputs, so distinct domain elements keep distinct images.",
+   "formula": "f(x1) = f(x2) implies x1 = x2",
+   "key_idea": "Distinct inputs take distinct outputs, like roll numbers of students in a class: f(x1) = f(x2) must force x1 = x2.",
+   "textbook_ref": "lemh101.txt, section 1.3 (Definition 5 and Examples 7-8, lines 291-319)",
+   "question_patterns": [
+    "show that the function assigning roll numbers to students of a class is one-one",
+    "check whether f(x) = 2x from N to N is one-one but not onto",
+    "determine whether f(x) = x^2 is injective on N, on Z and on R",
+    "is the function many-one or one-one justify",
+    "prove that no two inputs of f produce the same output",
+    "state the test for a function to be one-one"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "set two images equal",
+     "explain": "Assume f(x1) = f(x2) for inputs x1 and x2 of the domain."},
+    {"step": 2, "action": "simplify toward the inputs",
+     "explain": "Use algebra on the rule of f to see whether x1 must equal x2."},
+    {"step": 3, "action": "conclude injectivity",
+     "explain": "If equal images always force equal inputs, f is one-one; otherwise some output repeats and f is many-one."}
+   ]
+  },
+  {
+   "id": "lemh.101.3.2",
+   "title": "Onto (Surjective) Function",
+   "section": "1.3",
+   "definition": "A function whose range exhausts the co-domain: each element of Y is hit by at least one input, leaving no outsider in Y.",
+   "formula": "range of f = co-domain Y",
+   "key_idea": "Range equals the co-domain: every y in Y is f of some x, which fails for f(x) = 2x from N to N since odd numbers are never hit.",
+   "textbook_ref": "lemh101.txt, section 1.3 (Definition 6 and remark, lines 296-305)",
+   "question_patterns": [
+    "is f(x) = 2x from N to N onto justify",
+    "check whether f(x) = x^2 from Z to Z is surjective",
+    "show that the greatest integer function f(x) = [x] is not onto R",
+    "determine whether every element of the co-domain has a pre-image",
+    "is the range of f equal to its co-domain justify",
+    "state the condition for a function to be onto"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "take an arbitrary co-domain value y",
+     "explain": "Let y be any element of the co-domain Y."},
+    {"step": 2, "action": "solve f(x) = y for x",
+     "explain": "Rearrange the rule of f to express a pre-image of y in the domain."},
+    {"step": 3, "action": "conclude surjectivity",
+     "explain": "If the solved x is valid for every y, f is onto; a stranded co-domain value shows f is not onto."}
+   ]
+  },
+  {
+   "id": "lemh.101.3.3",
+   "title": "Bijective Function",
+   "section": "1.3",
+   "definition": "A function that is both one-one and onto, pairing domain and co-domain elements perfectly one to one; only such maps can be inverted.",
+   "formula": "f one-one and f onto",
+   "key_idea": "One-one and onto together: distinct outputs for distinct inputs and every co-domain value hit, so f(x) = 2x on R is bijective.",
+   "textbook_ref": "lemh101.txt, section 1.3 (Definition 7 and Example 9, lines 306-330)",
+   "question_patterns": [
+    "show that f(x) = 2x from R to R is bijective",
+    "check injectivity and surjectivity of f(x) = 1/x on the non-zero real numbers",
+    "prove that f is both one-one and onto",
+    "is the function from R to R with the given rule bijective justify",
+    "determine whether the map pairs the two sets one-to-one and onto",
+    "what property must a function have to be bijective"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "prove injectivity",
+     "explain": "Show f(x1) = f(x2) forces x1 = x2."},
+    {"step": 2, "action": "prove surjectivity",
+     "explain": "Show every co-domain value y arises as f(x) for some domain element x."},
+    {"step": 3, "action": "conclude bijectivity",
+     "explain": "With both properties verified, f is one-one and onto, hence bijective."}
+   ]
+  },
+  {
+   "id": "lemh.101.4.1",
+   "title": "Composition of Functions",
+   "section": "1.4",
+   "definition": "Applying one function to the output of another: gof sends x through f first and then through g; order matters, and gof can differ from fog.",
+   "formula": "gof(x) = g(f(x))",
+   "key_idea": "Apply the inner function f first, then g: gof(x) = g(f(x)); for two linear rules the composite value at a point follows in two hops.",
+   "textbook_ref": "lemh101.txt, section 1.4 (Definition 8 and Examples 15-16, lines 503-516)",
+   "question_patterns": [
+    "find gof(2) when f(x) = 2x + 3 and g(x) = 5x - 1 are linear functions",
+    "evaluate gof at the given point for two linear functions f and g",
+    "calculate the composite function value at the given point",
+    "compute g after f at the given input",
+    "what is the value of the composite map at the given number",
+    "determine whether gof equals fog for f(x) = cos x and g(x) = 3x^2"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "apply f to the input",
+     "explain": "Run the inner function on x to get its image.",
+     "compute": "inner = f_slope * x + f_shift"},
+    {"step": 2, "action": "apply g to that output",
+     "explain": "Feed the intermediate value into the outer function; the result is the composite value.",
+     "compute": "gof = g_slope * inner + g_shift"}
+   ]
+  },
+  {
+   "id": "lemh.101.4.2",
+   "title": "Invertible Function",
+   "section": "1.4",
+   "definition": "A function possessing a reverse map g with gof and fog both identity; for a linear rule, solving y = slope times x plus shift for x writes the inverse explicitly.",
+   "formula": "f_inverse(y) = (y - f_shift) / f_slope",
+   "key_idea": "Reverse a linear rule by subtracting the shift then dividing by the slope, exactly as in inverting f(x) = 4x + 3.",
+   "textbook_ref": "lemh101.txt, section 1.4 (Definition 9 and Example 17, lines 517-578)",
+   "question_patterns": [
+    "find the inverse of f(x) = 4x + 3 where Y collects values of the form 4x + 3",
+    "solve y = 4x + 3 for x to write the inverse function",
+    "determine f inverse for the given one-one onto function",
+    "compute the reverse rule of the given linear function",
+    "if f maps x to slope times x plus shift, find the input x for a given y",
+    "obtain the inverse function and check that it undoes f"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "remove the constant term",
+     "explain": "Subtract the shift from the target output y.",
+     "compute": "num = y - f_shift"},
+    {"step": 2, "action": "undo the scaling",
+     "explain": "Divide by the slope to isolate the pre-image; this value is the inverse evaluated at y.",
+     "compute": "f_inverse = num / f_slope"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lemh101.txt section 1.4, composition discussion near Examples 15-16",
+   "concept": "lemh.101.4.1",
+   "question_type": "compute",
+   "question_pattern": "If f(x) = {f_slope}x + {f_shift} and g(t) = {g_slope}t + {g_shift}, find gof({x}).",
+   "extracted_variables": {
+    "x": "input at which the composite is evaluated",
+    "f_slope": "coefficient of x in f",
+    "f_shift": "constant added in f",
+    "g_slope": "coefficient of t in g",
+    "g_shift": "constant added in g"
+   },
+   "solution_template": [
+    {"step": 1, "action": "apply f to the input",
+     "explain": "Run the inner function on x.",
+     "compute": "inner = f_slope * x + f_shift"},
+    {"step": 2, "action": "apply g to that output",
+     "explain": "Feed the intermediate value into g.",
+     "compute": "gof = g_slope * inner + g_shift"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lemh101.txt section 1.4, composition discussion near Examples 15-16",
+   "concept": "lemh.101.4.1",
+   "question_type": "compute",
+   "question_pattern": "Let f(x) = {f_slope}x + {f_shift} and g(t) = {g_slope}t + {g_shift}. Evaluate (gof)({x}).",
+   "extracted_variables": {
+    "x": "input at which the composite is evaluated",
+    "f_slope": "coefficient of x in f",
+    "f_shift": "constant added in f",
+    "g_slope": "coefficient of t in g",
+    "g_shift": "constant added in g"
+   },
+   "solution_template": [
+    {"step": 1, "action": "apply f to the input",
+     "explain": "Run the inner function on x.",
+     "compute": "inner = f_slope * x + f_shift"},
+    {"step": 2, "action": "apply g to that output",
+     "explain": "Feed the intermediate value into g.",
+     "compute": "gof = g_slope * inner + g_shift"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lemh101.txt section 1.4, Example 17 region (invertible linear function)",
+   "concept": "lemh.101.4.2",
+   "question_type": "compute",
+   "question_pattern": "Find the inverse of f(x) = {f_slope}x + {f_shift} and give its value at y = {y_val}.",
+   "extracted_variables": {
+    "y_val": "output value where the inverse is evaluated",
+    "f_slope": "coefficient of x in f",
+    "f_shift": "constant added in f"
+   },
+   "solution_template": [
+    {"step": 1, "action": "remove the constant term",
+     "explain": "Subtract the shift from y.",
+     "compute": "num = y_val - f_shift"},
+    {"step": 2, "action": "undo the scaling",
+     "explain": "Divide by the slope to isolate the pre-image.",
+     "compute": "f_inverse = num / f_slope"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "lemh101.txt section 1.4, Example 17 region (invertible linear function)",
+   "concept": "lemh.101.4.2",
+   "question_type": "compute",
+   "question_pattern": "If f(x) = {f_slope}x + {f_shift}, solve y = f(x) for x and evaluate the inverse at y = {y_val}.",
+   "extracted_variables": {
+    "y_val": "output value where the inverse is evaluated",
+    "f_slope": "coefficient of x in f",
+    "f_shift": "constant added in f"
+   },
+   "solution_template": [
+    {"step": 1, "action": "remove the constant term",
+     "explain": "Subtract the shift from y.",
+     "compute": "num = y_val - f_shift"},
+    {"step": 2, "action": "undo the scaling",
+     "explain": "Divide by the slope to isolate the pre-image.",
+     "compute": "f_inverse = num / f_slope"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "lemh101.txt EXERCISE 1.1 (lines 181-275)",
+   "questions": [
+    "Test the relation R = {(x, y) : 3x - y = 0} on the set {1, 2, ..., 14} for reflexivity, symmetry and transitivity.",
+    "For the relation R = {(x, y) : y = x + 5 and x < 4} on the natural numbers, decide which of reflexive, symmetric, transitive hold.",
+    "Is the relation R = {(x, y) : y is divisible by x} on {1, 2, 3, 4, 5, 6} reflexive, symmetric or transitive? Give reasons.",
+    "Show that R = {(a, b) : a <= b} on the real numbers is reflexive and transitive but fails symmetry.",
+    "Check R = {(a, b) : a <= b^3} on the reals for the three relation properties.",
+    "The relation R = {(1, 2), (2, 1)} on {1, 2, 3}: which properties does it have and which does it lack?",
+    "For the relations 'x and y work at the same place' and 'x and y live in the same locality' on a set of people, decide reflexivity, symmetry and transitivity.",
+    "Classify the relations 'x is wife of y' and 'x is father of y' on a set of people as reflexive, symmetric, transitive or none of these.",
+    "Show that having the same number of pages is an equivalence relation on the set of books in a college library.",
+    "Show that |a - b| being even is an equivalence relation on {1, 2, 3, 4, 5}; also identify which of {1, 3, 5} and {2, 4} relate to each other."
+   ]
+  },
+  {
+   "id": "ex1.2",
+   "source_ref": "lemh101.txt EXERCISE 1.2 (lines 386-497)",
+   "questions": [
+    "Show that f(x) = 1/x is a bijection from the non-zero reals to themselves. Does the conclusion survive if the domain becomes N?",
+    "Inspect f(x) = x^2 for injectivity and surjectivity as a map on N, on Z and on R.",
+    "Prove that the greatest integer function f(x) = [x] is neither injective nor surjective on R.",
+    "Show that the modulus function f(x) = |x| is neither one-one nor onto from R to R.",
+    "For the signum function that outputs 1, 0 or -1 according to the sign of x, decide injectivity and surjectivity.",
+    "With f = {(1, 4), (2, 5), (3, 6)} from {1, 2, 3} to {4, 5, 6, 7}, show that f is one-one.",
+    "Decide whether f(x) = 3 - 4x and f(x) = 1 + x^2 are one-one, onto or bijective on R, with reasons.",
+    "For A = R - {3} and B = R - {1}, is f(x) = (x - 2)/(x - 3) a bijection from A to B? Justify."
+   ]
+  },
+  {
+   "id": "ex1.misc",
+   "source_ref": "lemh101.txt Miscellaneous Exercise (lines 713-766)",
+   "questions": [
+    "Prove that f(x) = x/(1 + |x|) maps R one-one onto the interval (-1, 1).",
+    "Show that the cubing function f(x) = x^3 is injective on R.",
+    "For subsets A and B of a non-empty set X, the power set P(X) carries the containment relation A is a subset of B. Is it an equivalence relation on P(X)? Justify.",
+    "How many onto functions exist from the set {1, 2, ..., n} to itself?",
+    "Let A = {-1, 0, 1, 2} and B = {-4, -2, 0, 2}. With f(x) = x^2 - x and g(x) = x/2 - 1 on A, are f and g equal functions? Give reasons.",
+    "Count the relations on {1, 2, 3} that contain (1, 2) and (1, 3) and are reflexive and symmetric but not transitive.",
+    "How many equivalence relations on {1, 2, 3} contain the pair (1, 2)?"
+   ]
+  }
+ ]
+}

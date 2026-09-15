@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_04_009",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_04_009",
+   "title": "c11_hs_cbse_04_009",
+   "questions": [
+    {
+     "q": "List the four stages of the management process covered in this node in their correct sequential order, and give the one-sentence NCERT definition of each.",
+     "a": "Correct sequence: Organising → Implementing → Controlling → Evaluation. NCERT definitions: Organising—collecting and arranging appropriate resources to implement plans effectively and efficiently; Implementing—carrying out the prepared plan; Controlling—ensuring activities produce desired results by monitoring outcomes and checking errors; Evaluation—comparing end results with desired results, noting limitations and strengths for future use. A wrong answer (e.g., swapping Controlling and Evaluation, or giving generic dictionary meanings) reveals the student has memorised labels but not the textbook's operational definitions, which are required for board-exam \"explain\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes in her exam: \"Controlling and Evaluation are the same because both check if the goal was reached.\" Explain why this statement is incorrect using the NCERT distinction between feedback during action and judgement after completion.",
+     "a": "Controlling occurs *during* implementation: it provides real-time feedback (e.g., \"I couldn't finish Chapter 3 because I watched TV\") so immediate corrective action can be taken (e.g., \"No TV during study hours tomorrow\"). Evaluation occurs *after* the entire plan is executed: it judges the final outcome against the original target (e.g., \"I scored 85% vs. target 90%\") and extracts lessons for *future* cycles. The student's error shows confusion between concurrent monitoring (process-oriented) and terminal assessment (outcome-oriented)—a distinction explicitly tested in 3-mark \"distinguish\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "You are organising a farewell party for 60 Class XII students with a budget of ₹15,000. During Organising, you realise the venue costs ₹8,000 and decorations ₹4,000, leaving only ₹3,000 for food. Apply the concept of resource interchangeability (from Chapter 4) to propose two specific substitutions that keep the party viable without increasing the budget.",
+     "a": "Substitution 1: Replace hired venue (₹8,000) with school auditorium (free with permission) → saves ₹8,000. Substitution 2: Replace purchased decorations (₹4,000) with student-made crafts using recycled paper/fabric (₹500) → saves ₹3,500. New food budget = ₹3,000 + ₹8,000 + ₹3,500 = ₹14,500 (within ₹15,000). A wrong answer that merely says \"cut costs\" without naming *specific interchangeable resources* from the textbook's examples (venue, transport, fuel) shows the student cannot operationalise the characteristic of interchangeability in a constrained scenario.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of \"feedback\" in Controlling versus \"lessons learned\" in Evaluation using the study-for-exams example from the textbook. Why can lessons learned not replace feedback during the process?",
+     "a": "In the textbook example, Controlling feedback is: \"Unable to complete allotted chapter because of TV watching\" → immediate corrective action: \"Stop TV during study hours.\" Evaluation lessons learned are: \"Scores fell short in Chemistry because I neglected numerical problems\" → future action: \"Include daily numerical practice next term.\" Feedback is *corrective* (fixes current deviation); lessons learned are *preventive* (improves future plans). They cannot replace each other because feedback operates on a live, adjustable process, while lessons learned apply only to a new, separate management cycle. A student who conflates them misses the temporal and functional distinction required for \"analyse\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following evaluation statement written by a student after her exams: \"I did well because I studied hard. Next time I will study harder.\" Identify three specific missing elements that make this evaluation inadequate according to the NCERT criteria.",
+     "a": "Missing elements: (1) No quantitative comparison of *actual marks vs. target marks* per subject (NCERT: \"end result compared with desired result\"). (2) No identification of *specific strengths* (e.g., \"Biology diagrams were accurate\") and *specific limitations* (e.g., \"Physics derivations incomplete\"). (3) No *actionable, measurable changes* for the next cycle (e.g., \"Solve 5 Physics derivations daily\" vs. vague \"study harder\"). The critique tests whether the student understands Evaluation as a structured diagnostic tool, not a motivational slogan—a common board-exam error where students write generalities instead of evidence-based analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page \"Management Cycle Template\" that a Class 11 student could reuse for any personal goal (exam prep, event planning, saving money). The template must have labelled sections for all five stages (including Planning from the previous node) with prompts that force quantitative targets, resource lists, control checkpoints, and evaluative metrics.",
+     "a": "A good template includes: **Planning** – Goal (SMART), Present Status, Gap, Alternatives, Chosen Plan. **Organising** – Resource Table (Human: time blocks, energy peaks, skills; Non-human: money, materials, space) with quantity & source. **Implementing** – Day/Week Schedule with tasks, duration, responsible person. **Controlling** – Checkpoint Calendar (date, metric, target, actual, deviation, corrective action). **Evaluation** – Results Table (target vs. actual per sub-goal), Strengths (evidence), Limitations (evidence), Three Specific Improvements for Next Cycle. A poor template uses vague headings (\"Do it,\" \"Check it\") without prompting numbers, evidence, or linkage between stages, revealing the student sees the process as linear checkboxes rather than an integrated cycle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

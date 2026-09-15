@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch09_010",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch09_010",
+   "title": "c7_math_ch09_010",
+   "questions": [
+    {
+     "q": "What condition describes two triangles whose corresponding angles are all equal, and why is this distinct from congruence?",
+     "a": "They are similar triangles, meaning they have the exact same shape but can be different sizes. A wrong answer often claims that equal angles force triangles to be congruent, which ignores the fact that scaling a triangle up or down changes its side lengths while keeping its angles identical.",
+     "self_check": true
+    },
+    {
+     "q": "If Triangle PQR has angles 50°, 60°, and 70°, and Triangle XYZ also has angles 50°, 60°, and 70°, can you conclude that Triangle PQR is congruent to Triangle XYZ? Explain your reasoning.",
+     "a": "No, you cannot conclude congruence. Equal corresponding angles only ensure that the triangles are equiangular (similar), but without knowing the actual length of at least one corresponding side, Triangle XYZ could be a miniature version or an enlarged version of Triangle PQR.",
+     "self_check": true
+    },
+    {
+     "q": "Triangle A has side lengths 4 cm, 5 cm, and 6 cm with angles 40°, 60°, and 80°. Triangle B has side lengths 8 cm, 10 cm, and 12 cm with angles 40°, 60°, and 80°. Are Triangle A and Triangle B congruent? Calculate their perimeters to justify your answer.",
+     "a": "Step 1: Identify the given side lengths of Triangle A as 4 cm, 5 cm, and 6 cm.\nStep 2: Identify the given side lengths of Triangle B as 8 cm, 10 cm, and 12 cm.\nStep 3: Calculate the perimeter of Triangle A by adding all sides: Perimeter = 4 + 5 + 6 = 15 cm.\nStep 4: Calculate the perimeter of Triangle B by adding all sides: Perimeter = 8 + 10 + 12 = 30 cm.\nStep 5: Compare perimeters; since 15 cm ≠ 30 cm, the triangles are not congruent despite having identical angles (40°, 60°, 80°).\nA wrong answer usually states they are congruent because the angles match, failing to check that the side lengths and perimeters are different.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why the SSS, SAS, and ASA criteria require side measurements, whereas AAA fails to guarantee congruence. What do side lengths provide that angles alone cannot?",
+     "a": "Side lengths provide a fixed physical scale or absolute unit of measurement. While angles determine the precise orientation and opening between lines (determining shape), side lengths anchor the absolute size, preventing the triangle from being scaled larger or smaller.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"If I draw a triangle on a sheet of paper and use a photocopier to enlarge it by 200%, the new triangle is congruent to the original because all three angles remain unchanged.\" Is this statement correct? Justify your answer.",
+     "a": "The statement is incorrect. While the angles remain unchanged (preserving the shape), the side lengths double in size, meaning the two triangles occupy different amounts of space and cannot coincide perfectly when superimposed. Thus, they are similar, not congruent.",
+     "self_check": true
+    },
+    {
+     "q": "Create an example of two non-congruent triangles that both have angles measuring 30°, 60°, and 90°, and specify their side lengths to prove they satisfy AAA but are different sizes.",
+     "a": "A valid response provides two right-angled triangles with angles 30°, 60°, and 90°. For example, Triangle 1 with sides 3 cm, 4 cm, 5 cm (scaled or exact ratios like 3, 3√3, 6) and Triangle 2 with sides 6 cm, 6√3 cm, 12 cm. A poor answer gives triangles with different angles or identical side lengths, showing a failure to understand how to scale a triangle while preserving its angles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

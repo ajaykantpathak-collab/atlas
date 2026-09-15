@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch07_008",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch07_008",
+   "title": "c7_physics_ch07_008",
+   "questions": [
+    {
+     "q": "Which of the following common household substances is known to contain a natural acid?\nA) Baking soda solution\nB) Lemon juice\nC) Soap solution\nD) Window cleaner",
+     "a": "B) Lemon juice. \nA wrong answer here reveals a misunderstanding of basic household substances, confusing alkaline cleaning agents with acidic food items. Lemon juice contains citric acid, giving it a sour taste and acidic properties.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we apply baking soda or calamine lotion on an ant sting?\nA) To cool down the skin through evaporation\nB) To neutralize the acidic formic acid injected by the ant\nC) To provide a protective physical barrier against dust\nD) To disinfect the wound from bacterial infection",
+     "a": "B) To neutralize the acidic formic acid injected by the ant. \nA wrong answer shows that the student does not connect neutralization reactions to practical real-world relief, confusing chemical neutralisation with physical cooling or disinfection.",
+     "self_check": true
+    },
+    {
+     "q": "If 15 mL of a dilute hydrochloric acid solution completely neutralizes 15 mL of a sodium hydroxide solution of equal concentration, what is the nature of the resulting mixture?\nA) Strongly acidic\nB) Strongly basic\nC) Neutral\nD) Highly reactive",
+     "a": "C) Neutral. \nSteps: \n1. Identify that an equal volume and concentration of a strong acid and strong base react completely. \n2. Recall that acid + base yields salt + water with a neutral pH of 7. \n3. Conclude that neither acidic nor basic properties dominate. \n4. The mixture is neutral. \nA wrong answer indicates confusion regarding the stoichiometry and outcome of a neutralisation reaction.",
+     "self_check": true
+    },
+    {
+     "q": "An antacid tablet containing a mild base is frequently consumed to relieve indigestion. How does this chemical interaction alter the condition inside the stomach?\nA) It increases the acidity to kill pathogens.\nB) It neutralizes excess gastric acid to reduce pain and burning.\nC) It stops the stomach from producing any future digestive juices.\nD) It converts the stomach lining into a basic tissue.",
+     "a": "B) It neutralizes excess gastric acid to reduce pain and burning. \nA wrong answer reveals a misconception that medicines alter bodily organs permanently rather than providing temporary chemical neutralisation of excess acid.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer tests soil in a field near a factory and finds it is excessively acidic. Which substance should the farmer add to restore proper balance for crop growth?\nA) Vinegar\nB) Lemon juice\nC) Slaked lime (Calcium hydroxide)\nD) Hydrochloric acid",
+     "a": "C) Slaked lime (Calcium hydroxide). \nJustification: Slaked lime is a base that reacts with and neutralizes excess acid in the soil, raising the pH to a level suitable for plants. Selecting vinegar or acid would worsen the acidity. A wrong answer shows failure to apply neutralization principles to agricultural problems.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple home experiment using kitchen items to classify three unknown liquids (A, B, and C) as acidic, basic, or neutral, and state what safety precautions you would take.",
+     "a": "A good answer will propose using a natural indicator like turmeric solution or red cabbage juice. It will describe adding a few drops of the indicator to each liquid, observing the color change (e.g., turmeric turns reddish-brown in bases and stays yellow in acids/neutrals), and list safety rules like wearing safety goggles and avoiding tasting unknown chemicals. A poor answer lacks safety precautions or fails to link color changes to specific chemical classifications.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

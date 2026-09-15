@@ -1,0 +1,549 @@
+{
+ "class": 10,
+ "subject": "maths",
+ "chapter": 108,
+ "chapter_title": "Introduction to Trigonometry",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jemh108.txt",
+ "concepts": [
+  {
+   "id": "jemh.8.2.1",
+   "title": "Trigonometric Ratios of an Acute Angle",
+   "section": "8.2",
+   "definition": "Ratios comparing lengths of pairs of sides in a right-angled triangle relative to one of its acute angles, defining sine, cosine, and tangent.",
+   "formula": "sin(A) = opp / hyp, cos(A) = adj / hyp, tan(A) = opp / adj",
+   "key_idea": "Trigonometric ratios connect side lengths of a right triangle to its acute angles.",
+   "textbook_ref": "jemh108.txt lines 40-75",
+   "question_patterns": [
+    "find sin A cos A and tan A from right triangle sides",
+    "calculate sine and cosine of an acute angle given side lengths",
+    "determine primary trigonometric ratios of an acute angle",
+    "what are the trigonometric ratios for angle A in a right triangle"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate hypotenuse",
+     "explain": "use pythagoras theorem given opposite and adjacent sides",
+     "compute": "hyp = sqrt(opp**2 + adj**2)"
+    },
+    {
+     "step": 2,
+     "action": "calculate sine",
+     "explain": "sine is side opposite to angle divided by hypotenuse",
+     "compute": "sin_val = opp / hyp"
+    },
+    {
+     "step": 3,
+     "action": "calculate cosine",
+     "explain": "cosine is side adjacent to angle divided by hypotenuse",
+     "compute": "cos_val = adj / hyp"
+    },
+    {
+     "step": 4,
+     "action": "calculate tangent",
+     "explain": "tangent is side opposite divided by side adjacent",
+     "compute": "tan_val = opp / adj"
+    }
+   ]
+  },
+  {
+   "id": "jemh.8.2.2",
+   "title": "Reciprocal Trigonometric Ratios",
+   "section": "8.2",
+   "definition": "Ratios formed by taking the multiplicative inverses of the primary trigonometric ratios, defining cosecant, secant, and cotangent.",
+   "formula": "cosec(A) = 1 / sin(A), sec(A) = 1 / cos(A), cot(A) = 1 / tan(A)",
+   "key_idea": "Cosecant, secant, and cotangent are reciprocal ratios of sine, cosine, and tangent respectively.",
+   "textbook_ref": "jemh108.txt lines 65-85",
+   "question_patterns": [
+    "calculate cosecant secant and cotangent of an angle",
+    "find cosec A sec A and cot A given triangle side lengths",
+    "determine reciprocal trigonometric ratios from given primary ratios",
+    "what are cosec sec and cot for angle A"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate cosecant",
+     "explain": "cosecant is hypotenuse divided by opposite side",
+     "compute": "cosec_val = hyp / opp"
+    },
+    {
+     "step": 2,
+     "action": "calculate secant",
+     "explain": "secant is hypotenuse divided by adjacent side",
+     "compute": "sec_val = hyp / adj"
+    },
+    {
+     "step": 3,
+     "action": "calculate cotangent",
+     "explain": "cotangent is adjacent side divided by opposite side",
+     "compute": "cot_val = adj / opp"
+    }
+   ]
+  },
+  {
+   "id": "jemh.8.2.3",
+   "title": "Finding All Trigonometric Ratios Given One Ratio",
+   "section": "8.2",
+   "definition": "Determining all six trigonometric ratios when one ratio is given, by modeling side lengths with a scaling constant and computing the third side via the Pythagorean theorem.",
+   "formula": "hyp**2 = opp**2 + adj**2",
+   "key_idea": "A single known trigonometric ratio fixes side proportions, enabling determination of all other ratios.",
+   "textbook_ref": "jemh108.txt lines 130-180",
+   "question_patterns": [
+    "given tan A find other trigonometric ratios",
+    "given sin A calculate cos A and tan A",
+    "given sec theta find all other trigonometric ratios",
+    "calculate remaining ratios given cot theta"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine unknown side using pythagoras theorem",
+     "explain": "solve for adjacent side when hypotenuse and opposite side are known",
+     "compute": "adj = sqrt(hyp**2 - opp**2)"
+    },
+    {
+     "step": 2,
+     "action": "calculate cosine ratio",
+     "explain": "divide adjacent side by hypotenuse",
+     "compute": "cos_val = adj / hyp"
+    },
+    {
+     "step": 3,
+     "action": "calculate tangent ratio",
+     "explain": "divide opposite side by adjacent side",
+     "compute": "tan_val = opp / adj"
+    }
+   ]
+  },
+  {
+   "id": "jemh.8.3.1",
+   "title": "Trigonometric Ratios of Specific Angles",
+   "section": "8.3",
+   "definition": "Exact values of trigonometric functions evaluated at special acute angles of 30, 45, and 60 degrees using geometric properties.",
+   "formula": "sin(30)=1/2, sin(45)=1/sqrt(2), sin(60)=sqrt(3)/2",
+   "key_idea": "Angles of 30, 45, and 60 degrees have constant exact trigonometric values derived from basic geometry.",
+   "textbook_ref": "jemh108.txt lines 230-310",
+   "question_patterns": [
+    "evaluate expressions with sin 60 cos 30 and sin 30 cos 60",
+    "calculate value of trigonometric ratios at 30 45 and 60 degrees",
+    "find exact values of trigonometric expressions for standard angles",
+    "what is sin 60 cos 30 plus sin 30 cos 60"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply first pair of trigonometric values",
+     "explain": "compute product of sin_a and cos_b values",
+     "compute": "term1 = val_sin_a * val_cos_b"
+    },
+    {
+     "step": 2,
+     "action": "multiply second pair of trigonometric values",
+     "explain": "compute product of cos_a and sin_b values",
+     "compute": "term2 = val_cos_a * val_sin_b"
+    },
+    {
+     "step": 3,
+     "action": "sum the products",
+     "explain": "add term1 and term2 to get final result",
+     "compute": "result = term1 + term2"
+    }
+   ]
+  },
+  {
+   "id": "jemh.8.3.2",
+   "title": "Trigonometric Ratios of Boundary Angles 0° and 90°",
+   "section": "8.3",
+   "definition": "Limiting values assumed by trigonometric ratios as an acute angle in a right triangle approaches 0 or 90 degrees.",
+   "formula": "sin(0)=0, cos(0)=1, sin(90)=1, cos(90)=0",
+   "key_idea": "At 0 degrees opposite side reduces to zero, while at 90 degrees adjacent side reduces to zero.",
+   "textbook_ref": "jemh108.txt lines 310-370",
+   "question_patterns": [
+    "find trigonometric ratios of 0 degrees and 90 degrees",
+    "determine why tan 90 and cosec 0 are undefined",
+    "evaluate trigonometric expressions involving 0 and 90 degrees",
+    "what is sin 0 plus cos 90"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate sine at given boundary angle",
+     "explain": "assign sine value for 0 or 90 degrees",
+     "compute": "val_sin = sin_angle"
+    },
+    {
+     "step": 2,
+     "action": "evaluate cosine at given boundary angle",
+     "explain": "assign cosine value for 0 or 90 degrees",
+     "compute": "val_cos = cos_angle"
+    },
+    {
+     "step": 3,
+     "action": "sum the values",
+     "explain": "add evaluated sine and cosine values",
+     "compute": "result = val_sin + val_cos"
+    }
+   ]
+  },
+  {
+   "id": "jemh.8.4.1",
+   "title": "Fundamental Pythagorean Identity",
+   "section": "8.4",
+   "definition": "An essential identity establishing that the sum of squares of sine and cosine of any angle equals one.",
+   "formula": "sin^2(A) + cos^2(A) = 1",
+   "key_idea": "The sum of squares of sine and cosine for any valid angle is always identically equal to 1.",
+   "textbook_ref": "jemh108.txt lines 430-460",
+   "question_patterns": [
+    "find cos A given sin A using identity",
+    "calculate sin A when cos A is known",
+    "evaluate cos^2 A + sin^2 A",
+    "verify sin^2 theta + cos^2 theta equals 1"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "calculate square of sine value",
+     "explain": "square the given sine value",
+     "compute": "sin_sq = sin_val**2"
+    },
+    {
+     "step": 2,
+     "action": "calculate cosine value using fundamental identity",
+     "explain": "take square root of 1 minus sin_sq",
+     "compute": "cos_val = sqrt(1 - sin_sq)"
+    }
+   ]
+  },
+  {
+   "id": "jemh.8.4.2",
+   "title": "Secant-Tangent Pythagorean Identity",
+   "section": "8.4",
+   "definition": "A trigonometric identity relating tangent and secant derived by dividing the fundamental Pythagorean relation by cos^2(A).",
+   "formula": "1 + tan^2(A) = sec^2(A)",
+   "key_idea": "One plus the square of tangent of an angle equals the square of its secant.",
+   "textbook_ref": "jemh108.txt lines 460-480",
+   "question_patterns": [
+    "find sec A given tan A using identity",
+    "calculate tan A given sec A",
+    "evaluate sec^2 A - tan^2 A",
+    "express sec A in terms of tan A"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute square of tangent ratio",
+     "explain": "square the given tangent value",
+     "compute": "tan_sq = tan_val**2"
+    },
+    {
+     "step": 2,
+     "action": "compute secant value",
+     "explain": "take square root of 1 plus tan_sq",
+     "compute": "sec_val = sqrt(1 + tan_sq)"
+    }
+   ]
+  },
+  {
+   "id": "jemh.8.4.3",
+   "title": "Cosecant-Cotangent Pythagorean Identity",
+   "section": "8.4",
+   "definition": "A trigonometric identity connecting cotangent and cosecant formed by dividing the fundamental Pythagorean relation by sin^2(A).",
+   "formula": "1 + cot^2(A) = cosec^2(A)",
+   "key_idea": "One plus the square of cotangent of an angle equals the square of its cosecant.",
+   "textbook_ref": "jemh108.txt lines 480-500",
+   "question_patterns": [
+    "find cosec A given cot A using identity",
+    "calculate cot A given cosec A",
+    "evaluate cosec^2 A - cot^2 A",
+    "express cosec A in terms of cot A"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute square of cotangent ratio",
+     "explain": "square the given cotangent value",
+     "compute": "cot_sq = cot_val**2"
+    },
+    {
+     "step": 2,
+     "action": "compute cosecant value",
+     "explain": "take square root of 1 plus cot_sq",
+     "compute": "cosec_val = sqrt(1 + cot_sq)"
+    }
+   ]
+  },
+  {
+   "id": "jemh.8.4.4",
+   "title": "Verification and Proof of Trigonometric Identities",
+   "section": "8.4",
+   "definition": "Technique of demonstrating algebraic equivalence between two trigonometric expressions using fundamental identities and reciprocal relations.",
+   "formula": "LHS = RHS",
+   "key_idea": "Transform LHS to RHS using algebraic identities and standard trigonometric relations.",
+   "textbook_ref": "jemh108.txt lines 500-600",
+   "question_patterns": [
+    "prove that sec A (1 - sin A)(sec A + tan A) = 1",
+    "verify the trigonometric identity",
+    "show that LHS equals RHS",
+    "prove (cosec theta - cot theta)^2 = (1 - cos theta)/(1 + cos theta)"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "express all terms in LHS in terms of sine and cosine",
+     "explain": "rewrite reciprocal and quotient ratios into sin and cos definitions"
+    },
+    {
+     "step": 2,
+     "action": "simplify algebraic expression in LHS",
+     "explain": "combine fractions, multiply binomials, and apply pythagorean identities"
+    },
+    {
+     "step": 3,
+     "action": "demonstrate equivalence to RHS",
+     "explain": "verify that simplified expression matches RHS"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jemh108.txt lines 185-200",
+   "concept": "jemh.8.2.3",
+   "question_type": "compute",
+   "question_pattern": "Given tan A = {tan_val}, find the other trigonometric ratios of the angle A.",
+   "extracted_variables": {
+    "tan_val": "4/3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "determine unknown side using pythagoras theorem",
+     "explain": "solve for hypotenuse when opposite side is 4 and adjacent side is 3",
+     "compute": "hyp = sqrt(opp**2 + adj**2)"
+    },
+    {
+     "step": 2,
+     "action": "calculate cosine ratio",
+     "explain": "divide adjacent side by hypotenuse",
+     "compute": "cos_val = adj / hyp"
+    },
+    {
+     "step": 3,
+     "action": "calculate tangent ratio",
+     "explain": "divide opposite side by adjacent side",
+     "compute": "tan_val = opp / adj"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jemh108.txt lines 201-220",
+   "concept": "jemh.8.2.1",
+   "question_type": "verify_property",
+   "question_pattern": "If angle B and angle Q are acute angles such that sin B = sin Q, prove that angle B = angle Q.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "write sine ratio expressions for both triangles",
+     "explain": "express sin B = AC/AB and sin Q = PR/PQ"
+    },
+    {
+     "step": 2,
+     "action": "use ratio equality and pythagoras theorem",
+     "explain": "show third sides BC and QR are in the same ratio k"
+    },
+    {
+     "step": 3,
+     "action": "apply SSS similarity criterion",
+     "explain": "triangles ACB and PRQ are similar, implying angle B = angle Q"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jemh108.txt lines 221-240",
+   "concept": "jemh.8.4.1",
+   "question_type": "compute",
+   "question_pattern": "In triangle ACB right-angled at C, AB = {hyp} units, BC = {adj} units and angle ABC = theta. Determine cos^2 theta + sin^2 theta.",
+   "extracted_variables": {
+    "hyp": "29",
+    "adj": "21"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "calculate square of sine value",
+     "explain": "find opposite side AC = sqrt(29^2 - 21^2) = 20, so sin theta = 20/29",
+     "compute": "sin_sq = sin_val**2"
+    },
+    {
+     "step": 2,
+     "action": "calculate cosine value using fundamental identity",
+     "explain": "cos theta = 21/29, verify cos^2 theta + sin^2 theta = 1",
+     "compute": "cos_val = sqrt(1 - sin_sq)"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jemh108.txt lines 241-255",
+   "concept": "jemh.8.4.1",
+   "question_type": "verify_property",
+   "question_pattern": "In a right triangle ABC, right-angled at B, if tan A = 1, then verify that 2 sin A cos A = 1.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "determine side lengths from tan A = 1",
+     "explain": "AB = BC = k, so hypotenuse AC = k * sqrt(2)"
+    },
+    {
+     "step": 2,
+     "action": "calculate sin A and cos A",
+     "explain": "sin A = 1/sqrt(2) and cos A = 1/sqrt(2)"
+    },
+    {
+     "step": 3,
+     "action": "evaluate product 2 sin A cos A",
+     "explain": "2 * (1/sqrt(2)) * (1/sqrt(2)) = 1"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "jemh108.txt lines 380-400",
+   "concept": "jemh.8.3.1",
+   "question_type": "compute",
+   "question_pattern": "In triangle ABC, right-angled at B, AB = {opp} cm and angle ACB = 30 degrees. Determine lengths of side BC and AC.",
+   "extracted_variables": {
+    "opp": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply first pair of trigonometric values",
+     "explain": "calculate BC using tan 30 = AB / BC",
+     "compute": "term1 = val_sin_a * val_cos_b"
+    },
+    {
+     "step": 2,
+     "action": "multiply second pair of trigonometric values",
+     "explain": "calculate AC using sin 30 = AB / AC",
+     "compute": "term2 = val_cos_a * val_sin_b"
+    },
+    {
+     "step": 3,
+     "action": "sum the products",
+     "explain": "combine findings to state side lengths",
+     "compute": "result = term1 + term2"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "jemh108.txt lines 415-430",
+   "concept": "jemh.8.3.1",
+   "question_type": "compute",
+   "question_pattern": "If sin (A - B) = 1/2, cos (A + B) = 1/2, find A and B.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply first pair of trigonometric values",
+     "explain": "sin(A - B) = 1/2 gives A - B = 30",
+     "compute": "term1 = val_sin_a * val_cos_b"
+    },
+    {
+     "step": 2,
+     "action": "multiply second pair of trigonometric values",
+     "explain": "cos(A + B) = 1/2 gives A + B = 60",
+     "compute": "term2 = val_cos_a * val_sin_b"
+    },
+    {
+     "step": 3,
+     "action": "sum the products",
+     "explain": "solving linear equations gives A = 45 and B = 15",
+     "compute": "result = term1 + term2"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "jemh108.txt lines 515-530",
+   "concept": "jemh.8.4.4",
+   "question_type": "verify_property",
+   "question_pattern": "Prove that sec A (1 - sin A)(sec A + tan A) = 1.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "express all terms in LHS in terms of sine and cosine",
+     "explain": "convert sec A to 1/cos A and tan A to sin A/cos A"
+    },
+    {
+     "step": 2,
+     "action": "simplify algebraic expression in LHS",
+     "explain": "LHS = (1 - sin A)(1 + sin A) / cos^2 A = (1 - sin^2 A) / cos^2 A"
+    },
+    {
+     "step": 3,
+     "action": "demonstrate equivalence to RHS",
+     "explain": "cos^2 A / cos^2 A = 1 = RHS"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex8.1",
+   "source_ref": "jemh108.txt lines 260-300",
+   "questions": [
+    "1. In triangle ABC, right-angled at B, AB = 24 cm, BC = 7 cm. Determine: (i) sin A, cos A (ii) sin C, cos C",
+    "2. In Fig. 8.13, find tan P - cot R.",
+    "3. If sin A = 3/4, calculate cos A and tan A.",
+    "4. Given 15 cot A = 8, find sin A and sec A.",
+    "5. Given sec theta = 13/12, calculate all other trigonometric ratios.",
+    "6. If angle A and angle B are acute angles such that cos A = cos B, then show that angle A = angle B.",
+    "7. If cot theta = 7/8, evaluate: (i) (1 + sin theta)(1 - sin theta) / ((1 + cos theta)(1 - cos theta)), (ii) cot^2 theta",
+    "8. If 3 cot A = 4, check whether (1 - tan^2 A)/(1 + tan^2 A) = cos^2 A - sin^2 A or not.",
+    "9. In triangle ABC, right-angled at B, if tan A = 1/sqrt(3), find the value of: (i) sin A cos C + cos A sin C, (ii) cos A cos C - sin A sin C",
+    "10. In triangle PQR, right-angled at Q, PR + QR = 25 cm and PQ = 5 cm. Determine the values of sin P, cos P and tan P.",
+    "11. State whether the following are true or false. Justify your answer: (i) The value of tan A is always less than 1. (ii) sec A = 12/5 for some value of angle A. (iii) cos A is the abbreviation used for the cosecant of angle A. (iv) cot A is the product of cot and A. (v) sin theta = 4/3 for some angle theta."
+   ]
+  },
+  {
+   "id": "ex8.2",
+   "source_ref": "jemh108.txt lines 430-465",
+   "questions": [
+    "1. Evaluate the following: (i) sin 60° cos 30° + sin 30° cos 60° (ii) 2 tan^2 45° + cos^2 30° - sin^2 60° (iii) cos 45° / (sec 30° + cosec 30°) (iv) (sin 30° + tan 45° - cosec 60°) / (sec 30° + cos 60° + cot 45°) (v) (5 cos^2 60° + 4 sec^2 30° - tan^2 45°) / (sin^2 30° + cos^2 30°)",
+    "2. Choose the correct option and justify your choice: (i) 2 tan 30° / (1 + tan^2 30°) (ii) (1 - tan^2 45°) / (1 + tan^2 45°) (iii) sin 2A = 2 sin A is true when A = (iv) 2 tan 30° / (1 - tan^2 30°)",
+    "3. If tan (A + B) = sqrt(3) and tan (A - B) = 1/sqrt(3); 0° < A + B <= 90°; A > B, find A and B.",
+    "4. State whether the following are true or false. Justify your answer: (i) sin (A + B) = sin A + sin B. (ii) The value of sin theta increases as theta increases. (iii) The value of cos theta increases as theta increases. (iv) sin theta = cos theta for all values of theta. (v) cot A is not defined for A = 0°."
+   ]
+  },
+  {
+   "id": "ex8.3",
+   "source_ref": "jemh108.txt lines 560-610",
+   "questions": [
+    "1. Express the trigonometric ratios sin A, sec A and tan A in terms of cot A.",
+    "2. Write all the other trigonometric ratios of angle A in terms of sec A.",
+    "3. Choose the correct option. Justify your choice: (i) 9 sec^2 A - 9 tan^2 A (ii) (1 + tan theta + sec theta)(1 + cot theta - cosec theta) (iii) (sec A + tan A)(1 - sin A) (iv) (1 + tan^2 A) / (1 + cot^2 A)",
+    "4. Prove the following identities, where the angles involved are acute angles for which the expressions are defined: (i) (cosec theta - cot theta)^2 = (1 - cos theta)/(1 + cos theta) (ii) cos A/(1 + sin A) + (1 + sin A)/cos A = 2 sec A (iii) tan theta/(1 - cot theta) + cot theta/(1 - tan theta) = 1 + sec theta cosec theta (iv) (1 + sec A)/sec A = sin^2 A / (1 - cos A) (v) (cos A - sin A + 1)/(cos A + sin A - 1) = cosec A + cot A (vi) sqrt((1 + sin A)/(1 - sin A)) = sec A + tan A (vii) (sin theta - 2 sin^3 theta) / (2 cos^3 theta - cos theta) = tan theta (viii) (sin A + cosec A)^2 + (cos A + sec A)^2 = 7 + tan^2 A + cot^2 A (ix) (cosec A - sin A)(sec A - cos A) = 1 / (tan A + cot A) (x) ((1 + tan^2 A)/(1 + cot^2 A)) = ((1 - tan A)/(1 - cot A))^2 = tan^2 A"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

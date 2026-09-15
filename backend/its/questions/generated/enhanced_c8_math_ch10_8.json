@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch10_8",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch10_8",
+   "title": "c8_math_ch10_8",
+   "questions": [
+    {
+     "q": "If \\(x\\) and \\(y\\) are in inverse proportion and \\(x = 4\\) when \\(y = 15\\), what is the constant of proportionality \\(k\\)?",
+     "a": "The constant \\(k = x \\times y = 4 \\times 15 = 60\\). A wrong answer (e.g., \\(k = 19\\) or \\(k = 3.75\\)) reveals the student is adding or dividing instead of multiplying, confusing inverse proportion with direct proportion or not grasping that the product is constant.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the equation \\(y = \\frac{k}{x}\\) represents inverse proportion, and describe what happens to \\(y\\) when \\(x\\) is doubled.",
+     "a": "The equation \\(y = k/x\\) shows that \\(y\\) is the constant \\(k\\) divided by \\(x\\); since \\(xy = k\\), the product is fixed. If \\(x\\) doubles, \\(y\\) becomes half because \\(y_{\\text{new}} = k/(2x) = \\frac{1}{2}(k/x) = y/2\\). A wrong explanation (e.g., \"\\(y\\) also doubles\") shows the student thinks it is direct proportion or does not understand the reciprocal relationship.",
+     "self_check": true
+    },
+    {
+     "q": "A table shows the number of workers \\(w\\) and days \\(d\\) to complete a job: \\(w = 6, d = 10\\); \\(w = 12, d = ?\\); \\(w = ?, d = 4\\). Fill in the missing values assuming inverse proportion.",
+     "a": "Constant \\(k = 6 \\times 10 = 60\\). For \\(w = 12\\): \\(d = 60/12 = 5\\). For \\(d = 4\\): \\(w = 60/4 = 15\\). Completed table: (6,10), (12,5), (15,4). A wrong answer (e.g., \\(d = 20\\) for 12 workers) indicates the student used direct proportion (\\(w\\) doubled so \\(d\\) doubled) instead of inverse.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the tabular representations of direct proportion (\\(y = 3x\\)) and inverse proportion (\\(xy = 24\\)) for \\(x = 2, 4, 6\\). What pattern do you notice in the products and ratios?",
+     "a": "Direct: \\(x=2,y=6\\); \\(x=4,y=12\\); \\(x=6,y=18\\). Ratio \\(y/x = 3\\) constant, product \\(xy\\) changes (12,48,108). Inverse: \\(x=2,y=12\\); \\(x=4,y=6\\); \\(x=6,y=4\\). Product \\(xy = 24\\) constant, ratio \\(y/x\\) changes (6, 1.5, 0.67). A student who says both have constant ratio or both have constant product confuses the two types.",
+     "self_check": true
+    },
+    {
+     "q": "Rohan solved an inverse proportion problem: \"If 8 machines take 6 hours, how many hours for 12 machines?\" He wrote: \\(8 \\times 6 = 48\\), then \\(12 \\times h = 48\\), so \\(h = 48/12 = 4\\). But he also wrote \\(8/6 = 12/h\\) and got \\(h = 9\\). Which method is correct? Identify the error in the incorrect method.",
+     "a": "The first method (constant product) is correct: \\(h = 4\\) hours. The second method sets up a direct proportion (\\(8/6 = 12/h\\)), which is wrong because machines and hours are inversely proportional. The error is treating inverse proportion as direct proportion by equating ratios instead of products. A student who picks the second method does not recognize the inverse relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (Indian context) that involves inverse proportion, write the algebraic equation, and make a table with at least four pairs of values.",
+     "a": "Example: \"A water tank is filled by 5 pipes in 8 hours. How long with 8 pipes?\" Equation: \\(p \\times t = 40\\) (where \\(p\\) = pipes, \\(t\\) = hours). Table: (1,40), (2,20), (4,10), (5,8), (8,5), (10,4). A poor answer uses direct proportion (e.g., more pipes, more time) or fails to keep the product constant, showing the student cannot generate a valid inverse proportion scenario.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

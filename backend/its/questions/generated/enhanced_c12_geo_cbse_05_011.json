@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_05_011",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_05_011",
+   "title": "c12_geo_cbse_05_011",
+   "questions": [
+    {
+     "q": "Name the two primary activities characterised by high capital investment, scientific management, and location near urban markets for perishable products.",
+     "a": "Large-scale dairy farming and truck farming (market gardening). A wrong answer like \"plantation agriculture\" or \"mixed farming\" reveals confusion between extensive commercial farming (low perishability, distant markets) and intensive perishable farming (high perishability, urban fringe location). Students often misclassify dairy as pastoralism; pastoralism is subsistence/extensive, dairy is commercial/intensive.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why large-scale dairy farms are concentrated in temperate grasslands (e.g., Wisconsin USA, Canterbury NZ, Punjab-Haryana India) while truck farms cluster exclusively around metropolitan areas.",
+     "a": "Dairy farms need temperate climate for natural pasture growth (low feed cost), large land for fodder, and moderate market access (milk keeps 24–48 hrs with cooling). Truck farms need daily market access (vegetables perish in hours), small land (high rent), and intensive irrigation — only urban fringes satisfy all three. A wrong answer citing \"good soil\" for both misses the differential role of climate (dairy) vs. transport time (truck farming).",
+     "self_check": true
+    },
+    {
+     "q": "A dairy farm in Karnal (Haryana) has 500 Holstein-Friesian cows yielding 30 litres/cow/day. Milk is sold at ₹35/litre to a cooperative. Daily feed cost is ₹120/cow; labour + vet + electricity = ₹45/cow. Calculate daily net profit per cow and total farm profit. Is this large-scale dairy farming? Justify.",
+     "a": "Revenue/cow = 30 × ₹35 = ₹1050. Cost/cow = ₹120 + ₹45 = ₹165. Net profit/cow = ₹885. Total profit = 500 × ₹885 = ₹4,42,500/day. Yes, this is large-scale dairy farming: (1) herd >200 cows (commercial threshold), (2) exotic high-yield breed, (3) cooperative market linkage, (4) mechanised milking implied by scale. Wrong answer ignoring breed/herd size confuses it with traditional dairying (5–10 indigenous cows).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the land-use intensity (output/hectare) and labour requirement (workers/hectare) of large-scale dairy farming vs. truck farming. Which is more intensive on each metric and why?",
+     "a": "Truck farming has higher land-use intensity (₹15–50 lakh/ha/yr from multiple vegetable crops) vs. dairy (₹2–5 lakh/ha/yr from milk + fodder). Truck farming has higher labour intensity (8–15 workers/ha for planting, harvesting, packing) vs. dairy (0.5–1 worker/ha due to mechanisation). Wrong answer claiming dairy is more labour-intensive confuses traditional dairying (hand-milking) with modern large-scale dairy (automated parlours, TMR wagons).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Truck farming is environmentally sustainable because it uses small land area and supplies local food.\" Consider water use, agrochemicals, soil health, and carbon footprint.",
+     "a": "Partially true but misleading. Pros: short food miles reduce transport emissions; high yield/ha spares land. Cons: intensive groundwater extraction (e.g., Bengaluru's tanker-dependent farms), heavy pesticide/fertiliser use contaminates aquifers, monocropping degrades soil organic matter. Net sustainability depends on adoption of drip irrigation, IPM, and crop rotation — not inherent. Wrong answer calling it \"fully sustainable\" ignores externalised environmental costs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 10-hectare integrated farm module on the Delhi-Gurugram border combining dairy and truck farming to maximise circular economy benefits. Specify land allocation, resource flows, and market channels.",
+     "a": "Good answer: 6 ha dairy (300 cows, biogas from dung → electricity for cold storage), 3 ha truck farming (leafy greens, compost from digested slurry → organic fertiliser), 1 ha fodder (maize + berseem rotation). Milk → Mother Dairy booth; vegetables → Azadpur mandi + direct apartment complexes. Biogas slurry replaces urea; cold storage reduces waste. Poor answer lacks quantified flows (e.g., \"some dung for manure\") or ignores market linkage (selling to whom?).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

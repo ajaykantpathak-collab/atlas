@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_03_002",
+   "title": "c10_bio_cbse_03_002",
+   "questions": [
+    {
+     "q": "Define binary fission and name two organisms that reproduce by this method. State the type of nuclear division involved.",
+     "a": "Binary fission is asexual reproduction where a parent cell divides into two genetically identical daughter cells; examples: Amoeba, Paramecium, bacteria; nuclear division is mitosis. A wrong answer (e.g., naming meiosis or sexual reproduction organisms like yeast) reveals confusion between mitotic and meiotic division, or between fission and budding — a common board exam error where students write \"meiosis\" for fission because they associate reproduction with meiosis.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why binary fission in Amoeba is called \"irregular\" while in Paramecium it is \"transverse\". What determines the plane of division?",
+     "a": "Amoeba has no fixed shape, so division plane is irregular (any plane); Paramecium has a fixed slipper shape with distinct anterior-posterior axis, so division occurs transversely perpendicular to the longitudinal axis. The plane of division is determined by cell shape and internal organization. A wrong answer (e.g., \"Amoeba divides transversely\") shows inability to link cell morphology to division pattern — a frequent 1-mark loss in diagram-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes a prepared slide of Plasmodium in a red blood cell showing many small nuclei in a common cytoplasm. Identify the process and explain why this is advantageous for the parasite.",
+     "a": "Process: multiple fission (schizogony). Advantage: produces many infective merozoites simultaneously from one parent, enabling rapid multiplication and host cell rupture for dissemination. A wrong answer (e.g., \"binary fission\" or \"budding\") reveals failure to recognize multiple nuclei in shared cytoplasm as hallmark of multiple fission; students often confuse this with colonial organisms like Volvox.",
+     "self_check": true
+    },
+    {
+     "q": "Compare binary fission and multiple fission on the basis of: (a) number of daughter cells, (b) nuclear division pattern, (c) typical environmental conditions, (d) plane of cytokinesis.",
+     "a": "(a) Binary: 2; Multiple: many. (b) Binary: one mitotic division; Multiple: repeated mitotic divisions without cytokinesis (coenocyte stage). (c) Binary: favorable conditions; Multiple: often unfavorable (encystment) or host cell exploitation. (d) Binary: defined by organism (transverse/longitudinal/irregular); Multiple: simultaneous cytokinesis around all nuclei. A wrong comparison (e.g., \"multiple fission occurs in favorable conditions\") shows lack of understanding of survival strategy — a 3-mark question trap in boards.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Binary fission in bacteria and Amoeba is identical because both involve mitosis.\" Justify your answer.",
+     "a": "Statement is false. Bacteria lack a true nucleus and mitotic apparatus; they reproduce by amitosis (direct nuclear division) or binary fission without spindle formation. Amoeba (eukaryote) undergoes proper mitosis with spindle fibers. Both produce two cells, but nuclear division mechanism differs fundamentally. A wrong evaluation (agreeing) reveals confusion between prokaryotic and eukaryotic cell division — a classic conceptual error tested in assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using hay infusion culture to observe binary fission in Paramecium. List the steps, what you would observe at each stage, and how you would confirm it is transverse binary fission.",
+     "a": "Steps: (1) Prepare hay infusion (boil hay in water, cool, inoculate with pond water). (2) Wait 2-3 days for Paramecium population. (3) Place a drop on slide, add methyl cellulose to slow movement. (4) Observe under low then high power. (5) Identify dividing cells: micronucleus and macronucleus divide, oral groove disappears, transverse constriction appears mid-body, two daughter cells separate. Confirmation: constriction perpendicular to longitudinal axis, two contractile vacuoles (one each), anterior-posterior polarity maintained. A poor design (e.g., no slowing agent, no nuclear staining) shows lack of practical skills — boards often ask \"how to observe\" in 2-3 marks.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

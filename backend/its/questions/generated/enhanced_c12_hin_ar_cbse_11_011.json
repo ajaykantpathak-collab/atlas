@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_ar_cbse_11_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_ar_cbse_11_011",
+   "title": "c12_hin_ar_cbse_11_011",
+   "questions": [
+    {
+     "q": "Identify the grammatical function of the particle \"घ\" in the sentence \"पक्व पक्व घ गयउ\" from the text. What does it convey about the speaker's attitude?",
+     "a": "\"घ\" is an emphatic particle (निपात) indicating completion with finality or resignation. In \"पक्व पक्व घ गयउ\" (ripe, fully ripe, it has gone/fallen), it conveys the mother's quiet acceptance of natural cycles — the fruit ripened and fell, that's just how it is. A wrong answer treating \"घ\" as merely a dialect marker without emotive force reveals the student misses how particles encode speaker stance in colloquial registers.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference in sentence structure between the mother's dialogue (\"एका एको गुन नाहीं\") and the narrator's reflective passage (\"फिर भी कभी-कभी संवाद में आवश्यकता ही आविष्कार की जननी बन जाती है\"). How does this structural contrast serve characterization?",
+     "a": "The mother uses elliptical, verb-final, coordinate structures typical of spoken Awadhi/Braj (\"एका एको गुन नाहीं\" — no conjunctions, direct negation). The narrator uses hypotactic, Sanskritized Hindi with subordinate clauses (\"फिर भी...बन जाती है\"). This contrast establishes the mother as rooted in oral tradition/experiential wisdom and the narrator as educated/reflective. A student who only notes \"one is simple, one is complex\" misses the sociolinguistic encoding of identity.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of code-mixing to analyze this sentence from the text: \"व्हाइट कॉलर नौकरी करने वाले भी भुखमरी के शिकार हो रहे हैं\". Identify the mixed elements, their grammatical integration, and the thematic purpose.",
+     "a": "Mixed elements: \"व्हाइट कॉलर\" (English adjective phrase) + \"नौकरी\" (Hindi noun) + \"भुखमरी\" (Sanskritized Hindi). Grammatically, \"व्हाइट कॉलर\" functions as a pre-nominal adjective in Hindi syntax. Thematically, it juxtaposes modern employment terminology with primal suffering (\"भुखमरी\"), highlighting how even \"modern\" jobs fail to prevent ancient hunger. A wrong answer listing words without analyzing syntactic integration or thematic contrast shows superficial treatment of code-mixing.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the proverb \"आवश्यकता ही आविष्कार की जननी है\" is structurally transformed in the text to \"संवाद में आवश्यकता ही आविष्कार की जननी बन जाती है\". What grammatical modification occurs and what semantic shift does it produce?",
+     "a": "The original proverb uses a timeless copular structure (\"आवश्यकता...जननी है\"). The text modifies it with \"संवाद में\" (locative phrase) + \"बन जाती है\" (become-verb complex predicate). This shifts meaning from universal truth to context-dependent emergence: necessity becomes the mother of invention *specifically in dialogue situations*. The compound verb \"बन जाती है\" adds processual aspect. Missing the aspectual shift reveals inability to analyze how grammar reshapes received wisdom.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the author's choice to render the mother's philosophical insights (\"जिंदगी में दो ही चीजें निश्चित हैं — मौत और टैक्स\") in a code-mixed register rather than pure Sanskritized Hindi or pure dialect. Defend or critique this choice with linguistic evidence.",
+     "a": "The choice is defensible: \"टैक्स\" (English loan) + \"निश्चित\" (Sanskritized) + \"मौत\" (Persian loan) in Awadhi syntax mirrors the mother's lived reality — she navigates traditional wisdom (\"मौत\"), colonial-modern bureaucracy (\"टैक्स\"), and formal education (\"निश्चित\"). Pure Sanskritized Hindi would alienate her voice; pure dialect would obscure the modern referent. A critique calling it \"inconsistent\" fails to recognize register heterogeneity as realistic characterization.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-line dialogue between a street vendor and a corporate employee about \"time\" that replicates the text's grammatical strategies: particle usage for stance, code-mixing, elliptical syntax, and proverb adaptation.",
+     "a": "**Vendor:** \"टाइम ही पैसा घ, बाबू! खाली हाथ घुमत रहियो।\"  \n**Employee:** \"डेडलाइन ने तो रातों की नींद हराम कर दी।\"  \n**Vendor:** \"सब माया घ, साहब। समय काहे न बिकत?\"  \n**Employee:** \"जरूरत ने 'टाइम इज मनी' को 'टाइम इज लाइफ' बना दिया।\"  \n\nCriteria: Uses \"घ\" for vendor's finality, code-mixing (\"टाइम\", \"डेडलाइन\"), elliptical vendor syntax vs. subordinate employee syntax, proverb adaptation. A poor answer uses full sentences for both speakers or misses particle/stance marking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

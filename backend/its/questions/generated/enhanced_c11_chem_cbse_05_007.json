@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_05_007",
+   "title": "c11_chem_cbse_05_007",
+   "questions": [
+    {
+     "q": "State Dalton's Law of Partial Pressures mathematically for a mixture of three non-reacting gases A, B, and C. Define each symbol used.",
+     "a": "P_total = P_A + P_B + P_C, where P_total is the total pressure of the mixture, and P_A, P_B, P_C are the partial pressures of gases A, B, and C respectively. Partial pressure of a gas is the pressure it would exert if it alone occupied the entire volume at the same temperature. A wrong answer (e.g., P_total = P_A × P_B × P_C or omitting the definition of partial pressure) reveals confusion between additive pressures and multiplicative relationships, or lack of clarity on what \"partial pressure\" physically means.",
+     "self_check": true
+    },
+    {
+     "q": "A mixture contains 2 moles of N₂ and 3 moles of O₂ in a 10 L vessel at 300 K. The total pressure is measured as 12.3 atm. Explain why the partial pressure of N₂ is 4.92 atm and not 6.15 atm.",
+     "a": "Partial pressure of N₂ = mole fraction of N₂ × total pressure = (2/5) × 12.3 = 4.92 atm. The incorrect value 6.15 atm would be obtained by using mole fraction of O₂ (3/5) or by assuming equal mole fractions. A wrong answer reveals misunderstanding that partial pressure is proportional to mole fraction, not to the number of moles alone, and that the sum of mole fractions must equal 1.",
+     "self_check": true
+    },
+    {
+     "q": "A gas is collected over water at 298 K. The total pressure in the gas jar is 760 mm Hg. The vapour pressure of water at 298 K is 23.8 mm Hg. Calculate the pressure of the dry gas collected. Show all steps.",
+     "a": "Step 1: Identify that collected gas is mixture of dry gas + water vapour. Step 2: Apply Dalton's law: P_total = P_dry_gas + P_water_vapour. Step 3: Rearrange: P_dry_gas = P_total - P_water_vapour = 760 - 23.8 = 736.2 mm Hg. Step 4: State answer with units. A wrong answer (e.g., 760 mm Hg or 783.8 mm Hg) reveals failure to account for aqueous vapour pressure or incorrect addition instead of subtraction.",
+     "self_check": true
+    },
+    {
+     "q": "Two bulbs of equal volume V are connected by a narrow tube. Bulb 1 contains helium at 2 atm, bulb 2 contains neon at 3 atm. The valve is opened at constant temperature. Compare the final total pressure with the initial sum of pressures (5 atm). Explain your reasoning using kinetic molecular theory.",
+     "a": "Final total pressure = 2.5 atm, which is less than initial sum (5 atm). Reason: When valve opens, each gas expands to fill 2V. By Boyle's law, P_He_final = 2 atm × (V/2V) = 1 atm; P_Ne_final = 3 atm × (V/2V) = 1.5 atm. Total = 2.5 atm. A wrong answer (e.g., 5 atm) reveals confusion between mixing at constant volume vs. expansion into larger volume, and misunderstanding that partial pressures change when volume changes.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"For a mixture of CO and CO₂, P_CO = (n_CO / n_total) × P_total. Therefore, if we double the amount of CO while keeping CO₂ constant, P_CO doubles.\" Evaluate this statement and correct if necessary.",
+     "a": "The statement is incorrect. Doubling n_CO while keeping n_CO₂ constant changes n_total, so mole fraction x_CO = n_CO/(n_CO + n_CO₂) does not double. Example: initially n_CO=1, n_CO₂=1 → x_CO=0.5. After doubling n_CO=2, n_CO₂=1 → x_CO=2/3 (not 1.0). Partial pressure increases but not proportionally to moles of that component alone. A wrong evaluation reveals failure to recognize that mole fraction depends on total moles, not just the component's moles.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using syringes and pressure sensors to verify Dalton's law for a mixture of air and carbon dioxide. Outline the procedure, measurements needed, and how you would analyze the data.",
+     "a": "Procedure: (1) Fill syringe A with known volume of air, measure its pressure P_air. (2) Fill syringe B with same volume of CO₂, measure P_CO₂. (3) Connect syringes, mix gases by pushing plungers, measure final total pressure P_mix in combined volume. (4) Expected: P_mix = (P_air + P_CO₂)/2 if volumes equal and temperature constant. Analysis: Compare measured P_mix with calculated sum of partial pressures after expansion. A poor answer (e.g., just mixing without accounting for volume change) reveals lack of understanding that partial pressures are defined for the same final volume and temperature.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

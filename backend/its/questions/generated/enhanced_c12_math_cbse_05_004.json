@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_05_004",
+   "title": "c12_math_cbse_05_004",
+   "questions": [
+    {
+     "q": "State the definition of the derivative of a function \\( f \\) at a point \\( x = c \\) using the limit of the difference quotient. Write the expressions for the left-hand derivative and right-hand derivative.",
+     "a": "The derivative is \\( f'(c) = \\lim_{h \\to 0} \\frac{f(c+h)-f(c)}{h} \\). Left-hand derivative: \\( f'_-(c) = \\lim_{h \\to 0^-} \\frac{f(c+h)-f(c)}{h} \\). Right-hand derivative: \\( f'_+(c) = \\lim_{h \\to 0^+} \\frac{f(c+h)-f(c)}{h} \\). A wrong answer (e.g., writing \\( \\lim_{x \\to c} \\frac{f(x)-f(c)}{x-c} \\) without specifying \\( h \\to 0 \\), or confusing left/right limits) shows the student hasn't internalised the precise limit definition and the role of \\( h \\) approaching 0 from both sides.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the existence of \\( \\lim_{h \\to 0} \\frac{f(c+h)-f(c)}{h} \\) forces \\( \\lim_{x \\to c} f(x) = f(c) \\). Use the identity \\( f(x)-f(c) = \\frac{f(x)-f(c)}{x-c} \\cdot (x-c) \\) in your reasoning.",
+     "a": "If \\( f'(c) \\) exists, then \\( \\lim_{x \\to c} \\frac{f(x)-f(c)}{x-c} = f'(c) \\) (finite). Then \\( \\lim_{x \\to c} [f(x)-f(c)] = \\lim_{x \\to c} \\left[ \\frac{f(x)-f(c)}{x-c} \\cdot (x-c) \\right] = f'(c) \\cdot 0 = 0 \\), so \\( \\lim_{x \\to c} f(x) = f(c) \\). A wrong answer (e.g., \"because derivative exists\" without the product-of-limits step) reveals the student doesn't see the algebraic link between the difference quotient and the continuity condition.",
+     "self_check": true
+    },
+    {
+     "q": "Check whether the function \\( f(x) = \\begin{cases} x^2, & x \\le 1 \\\\ 2x-1, & x > 1 \\end{cases} \\) is differentiable at \\( x = 1 \\). Compute both one-sided derivatives explicitly.",
+     "a": "Left-hand derivative: \\( f'_-(1) = \\lim_{h \\to 0^-} \\frac{(1+h)^2 - 1}{h} = \\lim_{h \\to 0^-} \\frac{1+2h+h^2-1}{h} = \\lim_{h \\to 0^-} (2+h) = 2 \\).\nRight-hand derivative: \\( f'_+(1) = \\lim_{h \\to 0^+} \\frac{2(1+h)-1 - 1}{h} = \\lim_{h \\to 0^+} \\frac{2+2h-2}{h} = \\lim_{h \\to 0^+} 2 = 2 \\).\nBoth equal 2, so \\( f \\) is differentiable at \\( x=1 \\) with \\( f'(1)=2 \\). A common error is using the wrong piece for the limit (e.g., using \\( x^2 \\) for the right-hand limit) or forgetting to subtract \\( f(1)=1 \\) correctly.",
+     "self_check": true
+    },
+    {
+     "q": "The function \\( f(x) = |x-2| \\) is continuous at \\( x=2 \\) but not differentiable there. Identify the left-hand and right-hand derivatives at \\( x=2 \\) and explain why they differ. Then sketch the graph near \\( x=2 \\) and describe the geometric feature that causes non-differentiability.",
+     "a": "For \\( x<2 \\), \\( f(x)=2-x \\); for \\( x>2 \\), \\( f(x)=x-2 \\). At \\( x=2 \\), \\( f(2)=0 \\).\n\\( f'_-(2) = \\lim_{h \\to 0^-} \\frac{|2+h-2|-0}{h} = \\lim_{h \\to 0^-} \\frac{-h}{h} = -1 \\).\n\\( f'_+(2) = \\lim_{h \\to 0^+} \\frac{h}{h} = 1 \\).\nSince \\( -1 \\ne 1 \\), \\( f \\) is not differentiable at 2. The graph has a sharp corner (cusp) at \\( (2,0) \\) — the tangent from the left has slope -1, from the right slope 1. A wrong answer that claims the derivative is 0 or doesn't compute both sides shows the student doesn't connect the absolute value's piecewise definition to the one-sided limits.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"The function \\( f(x) = x^{1/3} \\) is continuous at \\( x=0 \\), so it must be differentiable there.\" Evaluate this claim. Compute \\( f'(0) \\) using the definition and state whether the derivative exists as a finite number.",
+     "a": "\\( f'(0) = \\lim_{h \\to 0} \\frac{h^{1/3} - 0}{h} = \\lim_{h \\to 0} \\frac{1}{h^{2/3}} = +\\infty \\). The limit is not finite, so \\( f \\) is not differentiable at 0. The student's claim is false: continuity is necessary but not sufficient for differentiability. This counterexample shows a vertical tangent (infinite slope). A wrong answer that says \"derivative is 0\" or \"derivative exists because function is continuous\" reveals the misconception that continuity implies differentiability, and/or an algebraic error in simplifying \\( h^{1/3}/h \\).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a function that is continuous at \\( x=0 \\) but not differentiable at \\( x=0 \\), different from \\( |x| \\) and \\( x^{1/3} \\). Define it piecewise, verify continuity, and show the one-sided derivatives are unequal (or infinite).",
+     "a": "Example: \\( f(x) = \\begin{cases} x \\sin(1/x), & x \\ne 0 \\\\ 0, & x = 0 \\end{cases} \\).\nContinuity: \\( |x \\sin(1/x)| \\le |x| \\to 0 \\), so \\( \\lim_{x \\to 0} f(x) = 0 = f(0) \\).\nDerivative at 0: \\( f'(0) = \\lim_{h \\to 0} \\frac{h \\sin(1/h)}{h} = \\lim_{h \\to 0} \\sin(1/h) \\), which does not exist (oscillates between -1 and 1).\nThus \\( f \\) is continuous but not differentiable at 0. A poor answer might give a function that isn't continuous, or one where the derivative exists, showing the student cannot design a counterexample that satisfies the precise conditions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_02_002",
+   "title": "c12_ip_cbse_02_002",
+   "questions": [
+    {
+     "q": "What is the default row index of a DataFrame created from a dictionary of lists like `pd.DataFrame({'A': [1,2], 'B': [3,4]})` if no explicit index is provided?",
+     "a": "The default row index is a RangeIndex starting at 0: `RangeIndex(start=0, stop=2, step=1)`. A wrong answer (e.g., \"the dictionary keys become the row index\") reveals the student confuses column labels with row labels — a fundamental orientation error that will cause every subsequent indexing operation to fail.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why `pd.DataFrame([{'a': 1, 'b': 2}, {'a': 3, 'c': 4}])` produces a DataFrame with three columns (a, b, c) and two rows, with NaN in the (1, 'b') and (0, 'c') positions.",
+     "a": "Each dictionary becomes a row; the union of all keys becomes the column labels. Missing keys in a dictionary are filled with NaN. A wrong answer (e.g., \"it raises an error because dictionaries have different keys\") shows the student doesn't understand Pandas' flexible alignment — a critical concept for real-world messy data.",
+     "self_check": true
+    },
+    {
+     "q": "Given `s1 = pd.Series([10, 20], index=['x', 'y'])` and `s2 = pd.Series([30, 40], index=['y', 'z'])`, write the code to create a DataFrame where s1 and s2 become **columns** (not rows) and predict the resulting row index.",
+     "a": "`df = pd.DataFrame({'col1': s1, 'col2': s2})` → row index is `['x', 'y', 'z']` (union of Series indices). Values: x: (10, NaN), y: (20, 30), z: (NaN, 40). A wrong answer (e.g., using `pd.DataFrame([s1, s2])` which makes them rows) shows the student doesn't grasp that a dict-of-Series makes Series into columns, while a list-of-Series makes them rows.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the memory layout and access pattern of `df.values` versus `df.T.values` for a 3×4 DataFrame. Which one is contiguous in memory (C-order) and why does it matter for NumPy interoperability?",
+     "a": "`df.values` is a 2D NumPy array in C-contiguous order (row-major) only if the DataFrame is single-dtype; otherwise it's a 1D object array. `df.T.values` returns the transposed view, which is Fortran-contiguous (column-major) for the original data. For NumPy interoperability, C-contiguous arrays avoid copies. A wrong answer (\"they are the same\") shows ignorance of memory layout — critical for performance in large datasets.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `df = pd.DataFrame(np.array([[1,2],[3,4]]), columns=['A','B'], index=['x','y'])` and then `df['C'] = [5,6]`. They claim \"the new column C gets index ['x','y'] automatically\". Evaluate this claim and explain what actually happens if the right-hand side is a list vs a Series with a different index.",
+     "a": "The claim is **partially correct only for list assignment**: a list is aligned by position, so `df['C'] = [5,6]` assigns 5 to 'x' and 6 to 'y'. If the RHS is a Series with index ['p','q'], Pandas aligns on index labels, producing NaN for 'x' and 'y' because labels don't match. A wrong answer (\"it always aligns by position\") shows the student misses the critical index-alignment behaviour that distinguishes Pandas from NumPy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where you would choose **dictionary of lists** over **list of dictionaries** to create a DataFrame, and vice versa. Justify your choice based on data source structure and downstream analysis needs.",
+     "a": "**Dict of lists**: You have separate CSV files for each subject (Maths.csv, Science.csv) — each file is a column. You load each into a list and combine. **List of dicts**: You scrape a website where each student's record is a JSON object (row-oriented). You collect a list of these dicts. A poor answer (\"either works\") ignores that the natural data orientation dictates the easiest creation path and avoids expensive restructuring later.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

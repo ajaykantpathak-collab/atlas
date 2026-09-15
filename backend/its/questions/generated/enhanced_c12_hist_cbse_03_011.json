@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_03_011",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_03_011",
+   "title": "c12_hist_cbse_03_011",
+   "questions": [
+    {
+     "q": "What is the exact Sanskrit term used in the Bhagavad Gita (4.13) for the fourfold division, and what two factors does the verse say determine it?",
+     "a": "The term is **cāturvarṇyaṃ** (the fourfold varna). The verse states it is created by **guṇa** (qualities/dispositions) and **karma** (actions/duties). A wrong answer (e.g., \"birth\" or \"jati\") reveals the student is projecting the later jati system onto the Gita, missing the text's explicit theoretical basis.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT (p. 61) calls the Bhagavad Gita a \"pan-Indian authority across traditions.\" Explain why this description matters for historians reconstructing early Indian social history.",
+     "a": "It means the Gita was recognized as authoritative by **multiple, often competing traditions** (Brahmanical, Buddhist, Jain, later bhakti movements), not just one sect. Historians can therefore use it as a **shared reference point** to compare how different groups interpreted varna. A wrong answer (e.g., \"it was the only authority\" or \"only Brahmins accepted it\") shows the student misses the text's cross-traditional reach and its value as a comparative source.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"The Gita says varna is by guna and karma, so it rejects caste by birth.\" Using the NCERT text (pp. 61–62, 69–70) and the Rigvedic hymn (Source 6, p. 61), evaluate this claim in **three steps**.",
+     "a": "**Step 1:** The Gita *redefines* varna's basis (guna+karma) but does not explicitly *abolish* birth-based transmission; Arjuna is a Kshatriya by birth *and* guna. **Step 2:** The Rigvedic hymn (Source 6) shows early flexibility (poet, physician, grinder in one family), but the Dharmashastras later rigidified varna. **Step 3:** The Gita's model coexists with birth-practice — it offers an *ideal* typology, not a description of social reality. A wrong answer (\"Gita destroys caste\" or \"Gita supports caste\") fails to distinguish **prescriptive theory** from **historical practice**.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Buddhist critique of varna in the Majjhima Nikaya dialogue (Source 13, p. 70) with the Gita's guna-karma model. Identify **two similarities** and **one fundamental difference** in their understanding of social difference.",
+     "a": "**Similarities:** (1) Both reject **birth (jati) as the sole determinant** of status; (2) Both acknowledge **wealth/power can override varna labels** (Buddhist wealthy Shudra; Gita's guna-based merit). **Difference:** The Gita **retains the fourfold varna scheme** as a cosmic/ethical order (cāturvarṇyaṃ mayā sṛṣṭam), while the Buddhist dialogue **dissolves varna distinctions entirely** (\"are not these four varnas exactly the same?\"). A wrong answer conflates \"critique of rigidity\" with \"rejection of the category.\"",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT (p. 73) notes the Gita was added to the Mahabharata during c. 200–400 CE, when Vishnu worship was rising. Assess whether this historical context **strengthens or weakens** the Gita's claim to be a neutral \"pan-Indian authority\" on varna.",
+     "a": "It **complicates** the claim. The Gita's varna theory emerges when **Brahmanical orthodoxy is reasserting itself** (Manusmriti compilation, Vishnu-Krishna identification). Its \"pan-Indian\" status may reflect **elite Sanskrit consensus** rather than subaltern acceptance. However, its guna-karma language also **appropriates Samkhya philosophy** (non-Vedic origin), giving it cross-traditional traction. A one-sided answer (\"strengthens because it's old\" or \"weakens because it's Brahmanical\") misses the **strategic synthesis** the text performs.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a **historian's argument** (4–5 sentences) using the Gita's varna theory to explain why the Satavahana ruler Gotami-puta Siri-Satakani could claim to be both a \"unique Brahmana\" (eka bamhana) and a \"destroyer of Kshatriya pride\" (NCERT p. 62), despite Brahmanical texts saying kings must be Kshatriyas.",
+     "a": "The Gita's guna-karma framework allows **varna to be performed, not just inherited**. Gotami-puta's inscription emphasizes his *actions* (protecting varna order, destroying Kshatriya arrogance) and *qualities* (Brahmana-like ritual purity), making his claim legible within the Gita's flexible logic. Simultaneously, his marriage alliance with Rudradaman (a \"mlechchha\" Shaka) shows **pragmatic politics transcending textual norms**. A poor answer treats the inscription as either \"purely Brahmanical\" or \"purely subversive,\" missing the **strategic use of textual ambiguity**.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

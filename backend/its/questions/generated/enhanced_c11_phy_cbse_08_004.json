@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_08_004",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_08_004",
+   "title": "c11_phy_cbse_08_004",
+   "questions": [
+    {
+     "q": "Define yield strength and state its SI unit. How does it differ from the elastic limit?",
+     "a": "Yield strength (σ_y) is the stress at which a material begins to deform plastically; its SI unit is pascal (Pa) or N/m². The elastic limit is the maximum stress for fully reversible deformation; for many metals the elastic limit and yield point nearly coincide, but the elastic limit is a strict boundary of linearity while yield strength may be defined by a 0.2% offset for materials without a sharp yield point. A wrong answer (e.g., confusing yield strength with ultimate tensile strength) reveals the student cannot distinguish between the onset of plasticity and the maximum load-bearing capacity.",
+     "self_check": true
+    },
+    {
+     "q": "A stress-strain curve for a metal shows a linear region OA, a non-linear but elastic region AB, a yield plateau BC, and a strain-hardening region CD. Explain why the material still behaves elastically in region AB even though stress is not proportional to strain.",
+     "a": "In region AB the material is still elastic because unloading from any point in AB follows a path parallel to OA, returning to zero strain — no permanent deformation occurs. The non-linearity arises from atomic bond anharmonicity, not from dislocation motion. A student who claims AB is plastic because the graph curves shows a misconception that elasticity requires perfect linearity; the key is reversibility, not proportionality.",
+     "self_check": true
+    },
+    {
+     "q": "A mild steel wire of cross-sectional area 2.5 mm² is subjected to a tensile test. The force at the yield point is recorded as 7500 N. Calculate the yield strength in MPa.",
+     "a": "Given: A = 2.5 mm² = 2.5 × 10⁻⁶ m², F_y = 7500 N.  \nYield strength σ_y = F_y / A = 7500 N / (2.5 × 10⁻⁶ m²) = 3.0 × 10⁹ N/m² = 3000 MPa.  \n(Check: 3000 MPa is reasonable for high-strength steel; typical mild steel is 250–350 MPa, so this wire is likely a high-strength alloy.) A wrong answer (e.g., 3 MPa) indicates a unit conversion error (forgetting to convert mm² to m²).",
+     "self_check": true
+    },
+    {
+     "q": "Two stress-strain curves are plotted on the same axes: Material X has a long yield plateau and large strain before fracture; Material Y has no yield plateau, a steep linear region, and fractures at low strain. Compare their ductility, toughness, and typical applications.",
+     "a": "Material X is ductile (large plastic strain, yield plateau) with high toughness (large area under curve), used for structural beams, car bodies. Material Y is brittle (no plastic region, fractures soon after elastic limit) with low toughness, used for glass, ceramics, cast iron. A student who swaps the labels or says both are ductile fails to connect curve shape to microscopic deformation mechanisms (dislocation motion vs. crack propagation).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The elastic limit is always exactly the same as the yield point because both mark the end of elastic behavior.\" Evaluate this statement with reference to the stress-strain curve of (a) mild steel and (b) aluminium alloy.",
+     "a": "The statement is false. For mild steel, a sharp yield point B exists and the elastic limit (end of linear region A) is slightly below B; the material is still elastic between A and B. For aluminium alloy, there is no distinct yield point; the elastic limit is defined by the 0.2% proof stress, which is a conventional yield strength, not a sharp transition. A student who agrees overlooks the difference between the proportional limit (A) and the yield point (B), and the use of offset yield strength for non-yielding materials.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom experiment using rubber bands and weights to demonstrate the difference between a material with a clear yield point (like mild steel) and an elastomer (like rubber). Describe the procedure, measurements, and expected graph shapes.",
+     "a": "Procedure: Hang a rubber band vertically, add known weights incrementally, measure extension for each load. Plot stress (weight/area) vs strain (extension/original length). Repeat with a thin steel wire (if safe) or use a pre-recorded steel curve. Expected: Rubber shows a non-linear, S-shaped curve with no linear region, large elastic strains, no yield plateau. Steel shows a clear linear region, yield plateau, and plastic region. A poor answer would treat rubber as Hookean or ignore the need for cross-sectional area measurement, revealing confusion between stress/strain and force/extension.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

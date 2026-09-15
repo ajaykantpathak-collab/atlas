@@ -1,0 +1,371 @@
+{
+ "catalog": "catalog_class10_maths_ch102.json",
+ "concepts": [
+  {
+   "id": "jemh.2.1",
+   "title": "Degree of a Polynomial",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the exponent law to the given powers",
+     "explain": "apply the exponent law to the given powers: val = 6 ** (3 + 3) gives 46656",
+     "compute": "val = 6 ** (3 + 3)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Using the law a^m x a^n = a^(m+n), evaluate 6^3 x 6^3.",
+     "a": "46656",
+     "self_check": false
+    },
+    {
+     "q": "Using a^m / a^n = a^(m-n), evaluate 4^4 / 4^2.",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (4^2)^3 using the power of a power law.",
+     "a": "4096",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 2^2 x 3^2 using a^m x b^m = (ab)^m.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 2^0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 4^(-2) and give the value as a fraction.",
+     "a": "1/16",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.2.2",
+   "title": "Zeros of a Polynomial",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate the polynomial or use the root relations",
+     "explain": "evaluate the polynomial or use the root relations: val = 2 * 3 * 3 + 2 * 3 + 6 gives 30",
+     "compute": "val = 2 * 3 * 3 + 2 * 3 + 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the value of the polynomial 2x^2 + 2x + 6 at x = 3.",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of the cubic 1x^3 + 4x + 7 at x = 1.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "For p(x) = x^2 - 5x + 6, find p(5).",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "The zeros of a quadratic are 3 and 5. Find the sum of the zeros.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "The zeros of a quadratic are 3 and 5. Find the product of the zeros.",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "A quadratic has zeros 3 and 5. Write it as x^2 - (sum)x + product and give the value of the constant term.",
+     "a": "15",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.2.3",
+   "title": "Relationship Between Zeros and Coefficients of Quadratic Polynomials",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "combine the rates as reciprocals of the times",
+     "explain": "combine the rates as reciprocals of the times: rate = 1 / 4 + 1 / 6 gives 0.416667",
+     "compute": "rate = 1 / 4 + 1 / 6"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "combine the rates as reciprocals of the times: days = 1 / rate gives 2.4",
+     "compute": "days = 1 / rate"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A can finish a job in 4 days and B in 6 days. Working together, how many days will they take (two decimal places)?",
+     "a": "2.4",
+     "self_check": false
+    },
+    {
+     "q": "A pipe fills a tank in 8 hours while a leak empties it in 24 hours. With both open, how long to fill the tank (two decimal places)?",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "A bus covers 150 km in 2 hours and 180 km in 2 hours. Find its average speed for the whole journey.",
+     "a": "82.5",
+     "self_check": false
+    },
+    {
+     "q": "6 workers build a wall in 12 days. How long would 16 workers take (inverse proportion)?",
+     "a": "4.5",
+     "self_check": false
+    },
+    {
+     "q": "A boat's downstresam speed is 11 km/h and its upstream speed is 5 km/h. Find the speed of the stream.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "A boat travels 60 km upstream at 5 km/h. How many hours does the trip take?",
+     "a": "12",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.2.5",
+   "title": "Finding Zeros by Quadratic Formula",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate the polynomial or use the root relations",
+     "explain": "evaluate the polynomial or use the root relations: val = 2 * 3 * 3 + 2 * 3 + 9 gives 33",
+     "compute": "val = 2 * 3 * 3 + 2 * 3 + 9"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the value of the polynomial 2x^2 + 2x + 9 at x = 3.",
+     "a": "33",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of the cubic 3x^3 + 3x + 4 at x = 2.",
+     "a": "34",
+     "self_check": false
+    },
+    {
+     "q": "For p(x) = x^2 - 5x + 6, find p(2).",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "The zeros of a quadratic are 4 and 6. Find the sum of the zeros.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "The zeros of a quadratic are 4 and 6. Find the product of the zeros.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "A quadratic has zeros 4 and 6. Write it as x^2 - (sum)x + product and give the value of the constant term.",
+     "a": "24",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.2.6",
+   "title": "Constructing a Polynomial from Given Zeros",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate the polynomial or use the root relations",
+     "explain": "evaluate the polynomial or use the root relations: val = 2 * 5 * 5 + 5 * 5 + 7 gives 82",
+     "compute": "val = 2 * 5 * 5 + 5 * 5 + 7"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the value of the polynomial 2x^2 + 5x + 7 at x = 5.",
+     "a": "82",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of the cubic 1x^3 + 4x + 5 at x = 2.",
+     "a": "21",
+     "self_check": false
+    },
+    {
+     "q": "For p(x) = x^2 - 5x + 6, find p(1).",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "The zeros of a quadratic are 4 and 8. Find the sum of the zeros.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "The zeros of a quadratic are 4 and 8. Find the product of the zeros.",
+     "a": "32",
+     "self_check": false
+    },
+    {
+     "q": "A quadratic has zeros 4 and 8. Write it as x^2 - (sum)x + product and give the value of the constant term.",
+     "a": "32",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.2.7",
+   "title": "Division Algorithm for Polynomials",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate the polynomial or use the root relations",
+     "explain": "evaluate the polynomial or use the root relations: val = 4 * 2 * 2 + 1 * 2 + 4 gives 22",
+     "compute": "val = 4 * 2 * 2 + 1 * 2 + 4"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the value of the polynomial 4x^2 + 1x + 4 at x = 2.",
+     "a": "22",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of the cubic 3x^3 + 3x + 4 at x = 4.",
+     "a": "208",
+     "self_check": false
+    },
+    {
+     "q": "For p(x) = x^2 - 5x + 6, find p(3).",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "The zeros of a quadratic are 4 and 7. Find the sum of the zeros.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "The zeros of a quadratic are 4 and 7. Find the product of the zeros.",
+     "a": "28",
+     "self_check": false
+    },
+    {
+     "q": "A quadratic has zeros 4 and 7. Write it as x^2 - (sum)x + product and give the value of the constant term.",
+     "a": "28",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.2.9",
+   "title": "Factor Theorem",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate the polynomial or use the root relations",
+     "explain": "evaluate the polynomial or use the root relations: val = 4 * 5 * 5 + 6 * 5 + 6 gives 136",
+     "compute": "val = 4 * 5 * 5 + 6 * 5 + 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the value of the polynomial 4x^2 + 6x + 6 at x = 5.",
+     "a": "136",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of the cubic 2x^3 + 5x + 1 at x = 4.",
+     "a": "149",
+     "self_check": false
+    },
+    {
+     "q": "For p(x) = x^2 - 5x + 6, find p(6).",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "The zeros of a quadratic are 2 and 6. Find the sum of the zeros.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "The zeros of a quadratic are 2 and 6. Find the product of the zeros.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "A quadratic has zeros 2 and 6. Write it as x^2 - (sum)x + product and give the value of the constant term.",
+     "a": "12",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jemh.2.10",
+   "title": "Graphical Representation of Polynomial Zeros",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate the polynomial or use the root relations",
+     "explain": "evaluate the polynomial or use the root relations: val = 2 * 4 * 4 + 1 * 4 + 5 gives 41",
+     "compute": "val = 2 * 4 * 4 + 1 * 4 + 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the value of the polynomial 2x^2 + 1x + 5 at x = 4.",
+     "a": "41",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of the cubic 3x^3 + 2x + 9 at x = 2.",
+     "a": "37",
+     "self_check": false
+    },
+    {
+     "q": "For p(x) = x^2 - 5x + 6, find p(5).",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "The zeros of a quadratic are 4 and 7. Find the sum of the zeros.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "The zeros of a quadratic are 4 and 7. Find the product of the zeros.",
+     "a": "28",
+     "self_check": false
+    },
+    {
+     "q": "A quadratic has zeros 4 and 7. Write it as x^2 - (sum)x + product and give the value of the constant term.",
+     "a": "28",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

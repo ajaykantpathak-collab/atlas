@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_05_003",
+   "title": "c12_ip_cbse_05_003",
+   "questions": [
+    {
+     "q": "Write down the five components of the URL `https://www.example.com:8080/search?q=informatics+practices&page=2#results` and state the function of each component in one sentence.",
+     "a": "Correct answer: (1) Protocol: `https` — specifies the secure communication scheme. (2) Host: `www.example.com:8080` — identifies the server (domain `example.com`, subdomain `www`, port `8080`). (3) Path: `/search` — locates the specific resource/script on the server. (4) Query: `q=informatics+practices&page=2` — passes key-value parameters to the resource. (5) Fragment: `results` — identifies a secondary resource within the page (client-side only). A wrong answer revealing confusion between host and path (e.g., calling `/search` part of the domain) shows the student has not internalized the hierarchical delimiter structure (`://` separates protocol from host, `/` starts the path, `?` starts query).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The domain name in `https://mail.google.com/mail/u/0/#inbox` is `google.com` and the subdomain is `mail`.\" Is this correct? Explain why or why not, and identify the path, query, and fragment in this URL.",
+     "a": "Correct answer: Yes, the claim is correct. The full host is `mail.google.com` where `mail` is the subdomain, `google` is the second-level domain, and `com` is the top-level domain. Path: `/mail/u/0/` (hierarchical segments). Query: absent (no `?`). Fragment: `inbox` (after `#`). A wrong answer that includes `#inbox` in the path or misses the fragment entirely reveals the student does not understand that fragments are never sent to the server and are purely client-side navigation aids — a common board exam trap in \"identify the component\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Parse the following URL into a structured table with columns: Component, Value, Purpose. URL: `ftp://ftp.is.co.za/rfc/rfc1808.txt`\nThen, construct a new URL that uses HTTPS protocol, the same domain, a path `/download/rfc1808.txt`, and a query parameter `format=raw`.",
+     "a": "Correct parse table:\n| Component | Value | Purpose |\n|-----------|-------|---------|\n| Protocol | ftp | File Transfer Protocol for file download |\n| Host | ftp.is.co.za | Server address (subdomain ftp, domain is.co.za) |\n| Path | /rfc/rfc1808.txt | Hierarchical location of the file |\n| Query | (none) | No parameters passed |\n| Fragment | (none) | No client-side anchor |\n\nConstructed URL: `https://ftp.is.co.za/download/rfc1808.txt?format=raw`\nA wrong answer that keeps `ftp://` or omits the leading `/` in the path (e.g., `download/rfc1808.txt`) shows the student cannot transfer structural knowledge across protocols or forgets that paths must be absolute (starting with `/`) when the host changes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two URLs and explain which one is more likely to be a phishing attempt, justifying your answer using URL structure analysis:\nURL A: `https://www.icici.bank.login.secure-server.xyz/verify?account=12345`\nURL B: `https://www.icicibank.com/login?return_url=/dashboard`",
+     "a": "Correct answer: URL A is the phishing attempt. Analysis: (1) Domain in URL A is `secure-server.xyz` (top-level domain `.xyz`, second-level `secure-server`), with subdomains `www.icici.bank.login` — attackers use long subdomain chains to visually mimic legitimate brands. (2) URL B uses the legitimate domain `icicibank.com` (registered to ICICI Bank). (3) URL A's path `/verify` with query `account=12345` suggests credential harvesting. (4) URL B's query `return_url=/dashboard` is a standard post-login redirect. A student who focuses only on the presence of \"icici\" in the subdomain and misses the actual domain (the part immediately left of the TLD) falls for the classic \"subdomain spoofing\" trap — a frequent CUET/IPMAT cybersecurity case-study question.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the validity of each URL. If invalid, state the specific syntactic error and correct it.\n(a) `http://example.com/path with spaces/file.html`\n(b) `https://example.com?query=value#fragment`\n(c) `//cdn.example.com/script.js`",
+     "a": "Correct evaluation:\n(a) Invalid — spaces are not allowed in URLs; must be percent-encoded as `%20` or `+`. Corrected: `http://example.com/path%20with%20spaces/file.html`.\n(b) Valid — path is empty (defaults to `/`), query and fragment are correctly delimited. Browser treats it as `https://example.com/?query=value#fragment`.\n(c) Valid — protocol-relative URL (scheme-relative). Inherits the protocol of the current page (HTTP or HTTPS). Used for loading resources securely on both HTTP and HTTPS pages.\nA wrong answer that marks (b) invalid because \"path is missing\" reveals the student does not know the path component is optional and defaults to `/` — a subtle point tested in board \"find the error\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a URL structure for a school library web application that allows students to search books by title, author, and genre, with pagination and sort order. The base domain is `library.school.edu.in`. Provide:\n(i) The base URL for the search endpoint.\n(ii) A sample URL with all parameters filled (title=\"Physics\", author=\"HC Verma\", genre=\"Science\", page=3, sort=\"title_asc\").\n(iii) Explain why you chose the parameter names and order you did.",
+     "a": "Expected answer:\n(i) Base URL: `https://library.school.edu.in/search`\n(ii) Sample URL: `https://library.school.edu.in/search?title=Physics&author=HC+Verma&genre=Science&page=3&sort=title_asc`\n(iii) Parameter names are lowercase, descriptive, and use snake_case for multi-word keys (e.g., `sort` not `sortOrder`) for consistency with REST conventions. Order is logical: filter parameters first (title, author, genre), then pagination (page), then presentation (sort). Order does not affect server processing but improves readability and debuggability.\nA poor answer that uses spaces instead of `+` or `%20`, omits the `?`, or uses inconsistent casing (`Title=Physics&Author=HC Verma`) shows the student cannot apply URL encoding rules or REST-style parameter design — both required for Class 12 practical file viva and CUET application-based questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

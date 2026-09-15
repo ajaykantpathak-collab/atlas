@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_01_004",
+   "title": "c12_biotech_cbse_01_004",
+   "questions": [
+    {
+     "q": "What is the name of the strong late promoter in Autographa californica multiple nucleopolyhedrovirus (AcMNPV) that is routinely exploited for high-level foreign gene expression in the baculovirus-insect cell system?",
+     "a": "The polyhedrin promoter (or polh promoter). A wrong answer (e.g., \"p10 promoter\", \"T7 promoter\", \"lac promoter\") reveals the student cannot distinguish the two major late promoters of baculovirus (polyhedrin and p10) and may confuse prokaryotic expression system promoters with viral eukaryotic promoters.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the polyhedrin gene is an ideal target for replacement by a foreign gene in baculovirus expression vectors.",
+     "a": "The polyhedrin gene is non-essential for viral replication in cell culture (viruses replicate normally without it), its promoter is extremely strong and active late in infection when cellular resources are redirected to viral protein production, and its protein product (polyhedrin) forms occlusion bodies that are easily screened for loss (recombinants lack occlusion bodies). A wrong answer focusing only on \"strong promoter\" without mentioning non-essentiality or screenability shows incomplete understanding of vector design constraints.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to express a human membrane protein that requires correct disulfide bond formation and N-linked glycosylation. They have three host options: E. coli BL21(DE3), S. cerevisiae, and Sf9 insect cells. Using knowledge of post-translational modification capabilities, justify the best choice and predict the likely glycan structure difference compared to the native human protein.",
+     "a": "Best choice: Sf9 insect cells. Reasoning: E. coli lacks both disulfide bond formation in cytoplasm (reducing environment) and N-glycosylation machinery; S. cerevisiae performs N-glycosylation but adds hypermannose (α-1,6-mannose backbone with α-1,2/1,3 branches) which is immunogenic in humans; Sf9 insect cells have oxidative ER for disulfide bonds and perform N-glycosylation producing pauci-mannose structures (Man3GlcNAc2) that are closer to human complex glycans (though lacking terminal sialic acid). A wrong answer choosing yeast or E. coli indicates failure to link host PTM machinery to protein functional requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the homologous recombination method versus the transposon-based (e.g., Tn7) method for generating recombinant baculovirus. Identify two advantages and one limitation of each method.",
+     "a": "Homologous recombination: Advantages — (1) no foreign DNA sequences (e.g., transposon arms) remain in final virus, (2) well-established, low cost. Limitation — low recombination frequency (1-2%), requires plaque purification and screening (e.g., loss of occlusion bodies), time-consuming. Transposon-based (bacmid/Tn7): Advantages — (1) near 100% recombination efficiency in E. coli, no plaque screening needed, (2) faster (1-2 weeks vs 4-6 weeks). Limitation — requires propagation of large bacmid (~130 kb) in E. coli (stability issues), transposon arms (attTn7 sites) remain flanking the insert. A wrong answer that swaps advantages/limitations or misses the screening burden shows lack of practical workflow understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Baculovirus-insect cell system is the optimal choice for producing any human therapeutic glycoprotein because it performs eukaryotic post-translational modifications.\" Defend or critique with three specific biochemical arguments.",
+     "a": "Critique — the statement is false. Three arguments: (1) Insect cells produce pauci-mannose N-glycans (Man3GlcNAc2) lacking β-1,4-galactosyltransferase and α-2,6-sialyltransferase, so terminal galactose and sialic acid are absent — critical for serum half-life and effector functions of many therapeutics (e.g., antibodies). (2) Insect O-glycosylation differs: they lack core 1/2 structures, instead adding mannose or N-acetylgalactosamine in α-linkage, potentially altering protein stability. (3) Some human proteins require specific proteases/chaperones (e.g., furin for proprotein processing) that may have different cleavage specificity in insect cells, leading to incorrect maturation. A student who defends the statement reveals a misconception that \"eukaryotic PTMs\" are universally equivalent to human PTMs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a baculovirus transfer vector for expressing a secreted human growth factor in Sf9 cells. Specify: (a) promoter, (b) signal sequence, (c) affinity tag position, (d) selection marker for recombinant virus screening in insect cells, and (e) one safety feature to prevent replication-competent virus generation.",
+     "a": "(a) polyhedrin promoter (polh) or p10 promoter (both strong late promoters). (b) Native human signal peptide or baculovirus gp67 signal sequence for efficient secretion into culture medium. (c) C-terminal 6×His or Strep-tag (after the protein coding sequence, before stop codon) to allow purification from supernatant without interfering with N-terminal signal peptide cleavage. (d) lacZ α-complementation (blue/white screening on X-gal) or fluorescent marker (e.g., GFP) under a separate promoter — but note: in insect cells, loss of polyhedrin (occlusion-negative phenotype) is the classic screen; modern systems use antibiotic resistance (e.g., puromycin) in insect cells or bacmid-based selection in E. coli. (e) Deletion of essential viral gene (e.g., orf1629) in the bacmid backbone complemented only in packaging cell line, or use of suicide plasmid with conditional replication origin. A poor answer that omits signal sequence for secretion, places tag N-terminally blocking signal peptide, or ignores safety features shows incomplete vector design thinking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

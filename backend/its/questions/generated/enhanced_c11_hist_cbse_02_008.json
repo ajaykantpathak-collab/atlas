@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_02_008",
+   "title": "c11_hist_cbse_02_008",
+   "questions": [
+    {
+     "q": "In what year did Constantine issue the Edict of Milan granting religious tolerance to Christians, and what was its immediate political significance?",
+     "a": "The Edict of Milan was issued in 313 CE by Constantine and Licinius. Its immediate significance was ending state persecution of Christians and restoring confiscated church property, but more importantly, it signalled imperial recognition of Christianity as a legitimate religion, allowing the Church to operate openly and acquire legal personality. A wrong answer (e.g., 312 CE after Milvian Bridge, or 325 CE at Nicaea) reveals confusion between Constantine's personal conversion, the legal toleration edict, and the theological council — three distinct steps in the Christianisation process.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Diocletian divide the empire into eastern and western halves with separate emperors (the Tetrarchy), and how did this differ from earlier power-sharing arrangements?",
+     "a": "Diocletian created the Tetrarchy (293 CE) to manage simultaneous military crises on multiple frontiers (Rhine, Danube, Euphrates) by appointing two senior Augusti and two junior Caesares with defined geographic zones. Unlike earlier informal co-rule (e.g., Marcus Aurelius and Lucius Verus), this was a formal constitutional system with scheduled succession. A wrong answer focusing only on \"the empire was too big\" misses the specific military-administrative logic: the Tetrarchy solved the problem of one emperor being unable to command armies on distant fronts simultaneously, and the succession mechanism aimed to prevent the civil wars that had plagued the third century.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the economic reasoning behind Constantine's introduction of the solidus (4.5g pure gold coin) when the silver denarius had collapsed. What does this reveal about the late Roman fiscal system?",
+     "a": "The denarius collapsed because Spanish silver mines were exhausted and government lacked bullion for stable silver coinage. Constantine anchored the new system on gold (solidus) because gold was hoarded, internationally recognised, and available from eastern trade surpluses and Egyptian tax revenues paid in gold. The solidus maintained stable weight and purity for 700+ years. A wrong answer attributing this to \"gold being more valuable\" misses the fiscal logic: the state needed a reliable store of value to pay the army and bureaucracy, and gold's high value-to-weight ratio made it practical for large-state expenditures, while silver's debasement had destroyed trust in the currency.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Christianisation of the Roman Empire under Constantine with the spread of Buddhism under Ashoka (Class 6). Identify two structural similarities and one critical difference in how each ruler used religion to legitimise imperial authority.",
+     "a": "Similarities: (1) Both rulers adopted a minority religion after a pivotal military victory (Constantine at Milvian Bridge 312 CE; Ashoka after Kalinga 261 BCE) and used it to claim divine sanction. (2) Both institutionalised the religion through state patronage — Constantine funded churches, exempted clergy from taxes, and called councils; Ashoka erected edicts, sponsored missions, and convened the Third Buddhist Council. Difference: Ashoka's Dhamma was a universal ethical code transcending sectarian Buddhism, while Constantine aligned the state specifically with Nicene Christianity, making orthodoxy a test of political loyalty — creating a fused church-state structure absent in Mauryan India. A poor answer treats both as \"personal conversion\" without analysing the political instrumentalisation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim that \"Constantine's foundation of Constantinople was primarily a military decision, not a religious one.\" Use evidence from the city's location, institutions, and subsequent history.",
+     "a": "The claim is largely correct but incomplete. Militarily, Constantinople controlled the Bosphorus choke-point, defended the Danube and Euphrates frontiers, and was impregnable (surrounded on three sides by water, land walls added by Theodosius II). Institutionally, it was built as a \"New Rome\" with a Senate, grain dole, and hippodrome — replicating Roman administrative structures. Religiously, Constantine dedicated it to the Virgin Mary, filled it with churches (Hagia Irene, Holy Apostles), and made it a Christian capital from inception. The evaluation: the site was chosen for strategic and economic reasons (tax revenue from wealthy eastern provinces), but the city's symbolic identity was deliberately Christian to legitimise the new dynasty. A weak answer cites only the religious dedication or only the walls, missing the synthesis.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline showing the five key stages in the Christianisation of the Roman Empire from 312 to 391 CE, and for each stage identify whether it was driven by imperial initiative, church initiative, or popular pressure.",
+     "a": "1. 312 CE — Constantine's conversion (imperial initiative, personal). 2. 313 CE — Edict of Milan (imperial initiative, legal toleration). 3. 325 CE — Council of Nicaea (imperial initiative convening church leaders to define orthodoxy). 4. 380 CE — Edict of Thessalonica by Theodosius I making Nicene Christianity the sole authorised religion (imperial initiative, coercive). 5. 391 CE — Theodosius bans pagan sacrifices, closes temples (imperial initiative, enforcement). Church initiative appears at Nicaea (bishops defining creed) and in bishop Ambrose confronting Theodosius (390 CE). Popular pressure is minimal — Christianisation was top-down. A poor timeline merges toleration with establishment, or omits Theodosius's coercive laws, implying Constantine alone completed the process.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

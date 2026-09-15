@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_01_005",
+   "title": "c12_phy_cbse_01_005",
+   "questions": [
+    {
+     "q": "State the SI unit of electric field and write the formula for the magnitude of electric field due to a point charge \\( q \\) at distance \\( r \\).",
+     "a": "SI unit: N/C (or V/m). Formula: \\( E = \\frac{1}{4\\pi\\varepsilon_0} \\frac{|q|}{r^2} \\). A wrong answer like \"C/N\" or missing absolute value on \\( q \\) reveals confusion between field and force, or ignorance that field magnitude is always positive while direction carries the sign information.",
+     "self_check": true
+    },
+    {
+     "q": "A point charge \\( +Q \\) produces an electric field \\( \\vec{E} \\) at point P. If the charge is replaced by \\( -2Q \\) at the same location, how does the electric field at P change in magnitude and direction? Explain without calculation.",
+     "a": "Magnitude doubles (factor of 2) because \\( E \\propto |q| \\). Direction reverses (now radially inward) because the source charge is negative. A student who says \"direction stays same\" thinks field direction depends only on geometry, not charge sign. A student who says \"magnitude halves\" confuses the factor of 2 with inverse-square distance dependence.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the electric field at a point 15 cm from a point charge of \\( -4.0 \\mu C \\) in air. Give magnitude and direction. Use \\( \\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9 \\, \\text{N·m}^2/\\text{C}^2 \\).",
+     "a": "Given: \\( q = -4.0 \\times 10^{-6} \\, \\text{C} \\), \\( r = 0.15 \\, \\text{m} \\), \\( k = 9 \\times 10^9 \\).\nStep 1: \\( E = k \\frac{|q|}{r^2} = (9 \\times 10^9) \\frac{4.0 \\times 10^{-6}}{(0.15)^2} \\).\nStep 2: \\( (0.15)^2 = 0.0225 \\).\nStep 3: \\( E = \\frac{36 \\times 10^3}{0.0225} = 1.6 \\times 10^6 \\, \\text{N/C} \\).\nDirection: radially inward (toward the charge) because \\( q \\) is negative.\nA wrong answer of \\( 1.6 \\times 10^5 \\) N/C indicates a unit conversion error (cm to m). A positive direction indicates sign ignorance.",
+     "self_check": true
+    },
+    {
+     "q": "Two point charges \\( +3 \\mu C \\) and \\( -3 \\mu C \\) are placed 20 cm apart on the x-axis at \\( x = -10 \\) cm and \\( x = +10 \\) cm. Compare the electric field magnitude at the midpoint (x=0) with that at a point 10 cm to the right of the positive charge (x=20 cm). Which is larger and why?",
+     "a": "At midpoint: both fields point toward the negative charge (to the right), so they add. Each has magnitude \\( E = k \\frac{3\\mu C}{(0.1)^2} = 2.7 \\times 10^6 \\, \\text{N/C} \\). Total = \\( 5.4 \\times 10^6 \\, \\text{N/C} \\).\nAt x=20 cm: distance to +3 μC is 0.3 m, to -3 μC is 0.1 m. Field from +3 μC points right (away), magnitude \\( k \\frac{3\\mu C}{0.09} = 3 \\times 10^5 \\, \\text{N/C} \\). Field from -3 μC points left (toward it), magnitude \\( k \\frac{3\\mu C}{0.01} = 2.7 \\times 10^6 \\, \\text{N/C} \\). Net = \\( 2.4 \\times 10^6 \\, \\text{N/C} \\) left.\nMidpoint field is larger. A student choosing x=20 cm likely ignores vector addition or misjudges distances.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The electric field due to a point charge is \\( \\vec{E} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q}{r^2} \\).\" Is this expression correct as a vector equation? If not, correct it and explain the error.",
+     "a": "The expression is incorrect as a vector equation because the right side lacks a direction vector. The correct vector form is \\( \\vec{E} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q}{r^2} \\hat{r} \\), where \\( \\hat{r} \\) is the unit vector pointing from the source charge to the field point. The student's version treats \\( \\vec{E} \\) as a scalar. This error leads to sign mistakes when adding fields from multiple charges.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate that electric field magnitude decreases with distance from a point-like charged object. Describe the setup, what you would measure, and how you would verify the inverse-square relationship.",
+     "a": "Rub a plastic ruler with wool to charge it. Suspend a small aluminum foil ball (test charge) on a thread. Bring the ruler near the ball at different measured distances \\( r \\) and observe the deflection angle \\( \\theta \\). For small angles, \\( \\tan\\theta \\approx \\theta \\propto F \\propto E \\). Plot \\( \\theta \\) vs \\( 1/r^2 \\); a straight line through origin confirms inverse-square law. A poor answer would use a large test object (disturbs field) or measure force directly without isolating distance dependence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

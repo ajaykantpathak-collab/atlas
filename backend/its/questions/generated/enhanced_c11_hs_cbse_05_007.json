@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_05_007",
+   "title": "c11_hs_cbse_05_007",
+   "questions": [
+    {
+     "q": "Name the three main categories of manufactured fibres based on raw material origin, and give one example of each with its generic name (not trade name).",
+     "a": "The three categories are: (1) Regenerated cellulosic fibres — example: viscose rayon (raw material: wood pulp/cotton linters); (2) Modified cellulosic fibres — example: cellulose acetate (raw material: cellulose chemically modified with acetic anhydride); (3) Synthetic (non-cellulosic) fibres — example: nylon 6,6 (raw material: petrochemicals — adipic acid and hexamethylenediamine). A wrong answer like \"rayon, nylon, polyester\" without categorisation reveals the student memorises names but doesn't understand the raw-material-based classification logic that determines property families.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Rayon is a synthetic fibre because it's made in a factory using chemicals.\" Explain why this statement is incorrect using the distinction between 'regenerated' and 'synthetic' fibres.",
+     "a": "Rayon is regenerated cellulosic, not synthetic. The polymer (cellulose) exists naturally in wood pulp; chemicals only dissolve and reprecipitate it without altering the fundamental glucose-unit polymer chain. In synthetic fibres (nylon, polyester), the polymer itself is synthesised from small petrochemical monomers through polymerisation — the macromolecule does not exist in nature. A wrong answer focusing only on \"factory-made\" or \"chemicals used\" reveals the misconception that any industrial process = synthetic, missing the critical distinction: regeneration preserves the natural polymer backbone; synthesis creates a new polymer backbone.",
+     "self_check": true
+    },
+    {
+     "q": "A fabric label reads \"65% polyester / 35% cotton.\" The wearer complains it feels clammy in humid weather and develops static cling in dry weather. Using fibre property knowledge, explain both complaints and suggest a better blend ratio for Indian summers.",
+     "a": "Polyester has very low moisture regain (~0.4%) — it doesn't absorb sweat, leaving moisture on skin (clammy). Its hydrophobic surface generates static electricity in low humidity. Cotton (moisture regain ~8.5%) absorbs sweat but the blend's polyester majority dominates surface behaviour. Better ratio for Indian summers: 35% polyester / 65% cotton (or 50/50) — cotton becomes the continuous phase for moisture management, while polyester still contributes wrinkle resistance. A wrong answer blaming only \"synthetic fibre\" without linking moisture regain values to comfort physiology reveals lack of quantitative property-application connection.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the burning test observations for nylon and polyester in a table with four columns: Approach to flame, In flame, After removal, Odour and residue. Then analyse why both melt but leave different coloured beads (tan vs black).",
+     "a": "| Behaviour | Nylon | Polyester |\n|-----------|-------|-----------|\n| Approach | Shrinks away | Shrinks away |\n| In flame | Melts, catches fire, drips | Melts, catches fire, drips |\n| Removed | Continues melting | Continues melting |\n| Odour/Residue | Acrid (celery-like), hard tan bead | Sweet/chemical, hard black bead |\nBoth are aliphatic/aromatic polyamides/polyesters that melt before decomposing. Nylon's tan bead comes from aliphatic chain cyclisation; polyester's black bead reflects aromatic ring (terephthalate) carbonisation yielding more sooty residue. A wrong answer listing identical observations for both reveals failure to distinguish polymer chemistry signatures in pyrolysis products.",
+     "self_check": true
+    },
+    {
+     "q": "\"High-wet-modulus (HWM) rayon was developed to solve a major limitation of regular viscose rayon.\" Evaluate this statement: identify the limitation, the structural modification in HWM, and whether it fully matches cotton's wet strength.",
+     "a": "Limitation: Regular viscose loses ~50% strength when wet (low wet modulus) due to amorphous regions swelling, making it unsuitable for heavy-duty wet-use (e.g., tire cord). HWM modification: Higher crystallinity and orientation achieved by controlled stretching during regeneration, reducing amorphous accessibility to water. Result: Wet strength ~60-70% of dry strength (vs 50% for regular viscose), but still below cotton's ~110% wet/dry ratio (cotton strengthens when wet due to hydrogen bonding in crystalline cellulose I). Statement is partially true — HWM improved but didn't equal cotton. A wrong answer claiming HWM = cotton wet strength reveals confusion between modulus improvement and absolute parity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a fibre identification flowchart using only burning test observations that can distinguish between: cotton, wool, viscose rayon, nylon, polyester, and acrylic. Include decision nodes with observable criteria (no microscopy or chemicals).",
+     "a": "Flowchart logic:\n1. Does it shrink from flame? YES → synthetic (nylon/polyester/acrylic); NO → natural/regenerated cellulosic/protein.\n2. If NO: Smell? Burning paper → cellulosic (cotton/rayon); Burning hair → protein (wool/silk).\n3. Cotton vs rayon: Cotton has afterglow, soft grey ash; rayon burns rapidly, no afterglow, fluffy light ash.\n4. If YES (shrinks): Does it melt AND drip? YES → nylon/polyester; NO (burns with melting but no drip) → acrylic.\n5. Nylon vs polyester: Nylon = acrid/celery odour, tan bead; Polyester = sweet/plastic odour, black bead.\nA poor flowchart missing the \"drip vs no-drip\" or \"afterglow\" decision nodes reveals inability to translate tabular burning data into diagnostic logic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

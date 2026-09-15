@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_16_005",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_16_005",
+   "title": "c12_geo_cbse_16_005",
+   "questions": [
+    {
+     "q": "Name the five commodity groups used in Table 8.2 to classify India's exports and state the percentage share of manufactured goods in 2021-22.",
+     "a": "The five groups are: (1) Agriculture and allied products, (2) Ore and Minerals, (3) Manufactured goods, (4) Crude and petroleum products, (5) Other commodities. Manufactured goods share in 2021-22 = 67.8%. A wrong answer (e.g., listing \"textiles\" as a separate group or giving 72.9%) shows the student cannot read the table's column headers or confuses 2015-16 data with 2021-22 data.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the share of agriculture and allied products in India's exports declined from 12.6% (2015-16) to 11.9% (2021-22) even though absolute export value may have risen.",
+     "a": "Share declines when a category grows slower than total exports. NCERT states: \"The decline in traditional items is largely due to the tough international competition\" and \"Amongst the agriculture products, there is a decline in the export of traditional item, such as cashew, etc.\" A wrong answer blaming \"low production\" or \"government ban\" reveals confusion between share and absolute value, and ignorance of the textbook's competition argument.",
+     "self_check": true
+    },
+    {
+     "q": "Using Table 8.2, calculate the percentage-point change in the share of crude and petroleum products between 2015-16 and 2021-22. Then state whether this category is primary or manufactured.",
+     "a": "2015-16 share = 11.9%, 2021-22 share = 16.4%. Change = +4.5 percentage points. Crude and petroleum products are manufactured (refined) goods, not primary. A student who subtracts 11.9 from 16.4 but calls it \"primary\" or who calculates (16.4-11.9)/11.9 = 37.8% (growth rate) instead of percentage-point change shows misunderstanding of share vs growth rate and misclassification of refined petroleum.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the trend of \"Ore and Minerals\" share with \"Manufactured goods\" share from 2015-16 to 2021-22. What does the contrast reveal about India's export structure?",
+     "a": "Ore and Minerals: 1.6% → 1.9% → 3.2% → 2.0% (volatile but roughly constant). Manufactured goods: 72.9% → 73.6% → 71.2% → 67.8% (steady decline). Contrast shows India remains heavily dependent on manufactured exports, but that dominance is eroding while primary mineral exports stay marginal. A wrong answer claiming both declined or both rose indicates inability to read multi-year trends and missing the \"largely remained constant\" vs \"decreased\" distinction in NCERT.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's export basket has become more diversified between 2015-16 and 2021-22.\" Use data from Table 8.2 to support your judgment.",
+     "a": "Judgment: Partially true. Manufactured goods share fell (72.9% → 67.8%), while crude petroleum (+4.5 pp) and other commodities (+0.8 pp) rose, reducing concentration in manufacturing. However, manufactured goods still dominate at 67.8%, so diversification is modest. A student answering \"Yes, because all categories grew\" confuses absolute growth with share diversification; one answering \"No, because manufacturing still dominates\" ignores the measurable share redistribution NCERT highlights.",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-bar diagram (one bar for 2015-16, one for 2021-22) that visually compares the primary vs manufactured export shares. Define how you will group the five categories into \"Primary\" and \"Manufactured\" and calculate the total percentage for each group in both years.",
+     "a": "Grouping: Primary = Agriculture & allied + Ore & minerals. Manufactured = Manufactured goods + Crude & petroleum products + Other commodities.  \n2015-16: Primary = 12.6+1.6 = 14.2%; Manufactured = 72.9+11.9+1.1 = 85.9%.  \n2021-22: Primary = 11.9+2.0 = 13.9%; Manufactured = 67.8+16.4+1.9 = 86.1%.  \nDiagram shows manufactured share stable near 86%, primary stable near 14%. A poor answer that puts crude petroleum in primary or omits \"other commodities\" misclassifies refined products and ignores the textbook's implicit grouping.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

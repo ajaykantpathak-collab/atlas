@@ -1,0 +1,518 @@
+{
+ "class": "11",
+ "subject": "political_science",
+ "chapter": 4,
+ "chapter_title": "Social Justice",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hees204.txt",
+ "concepts": [
+  {
+   "id": "c11pt.4.1",
+   "title": "Meaning of Social Justice",
+   "section": "Introduction: What is Social Justice",
+   "definition": "Social justice is the principle that a society should be organised so that all its members receive a fair share of its benefits and burdens, and that no group is systematically disadvantaged or excluded from a life of dignity because of birth, caste, gender, or economic status.",
+   "formula": "",
+   "key_idea": "Social justice combines fair distribution of resources and opportunities with the removal of discrimination, so that every person can live with dignity and develop their potential.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is meant by social justice?",
+    "Why is social justice important for a society?",
+    "How does social justice differ from mere legal justice?",
+    "What are the main concerns of social justice?",
+    "Explain the relationship between social justice and equality."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define social justice as fair distribution of benefits and burdens",
+     "explain": "Social justice requires that all members of society receive a fair share of resources, opportunities, and respect."
+    },
+    {
+     "step": 2,
+     "action": "Identify the concerns of social justice",
+     "explain": "Its concerns include removal of discrimination, reduction of poverty, and ensuring dignity and opportunity for all."
+    },
+    {
+     "step": 3,
+     "action": "Relate social justice to equality and dignity",
+     "explain": "Social justice builds on equality by ensuring that fair shares and opportunities reach every person, especially the disadvantaged."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does social justice differ from legal justice?",
+     "solution": "Step 1: Legal justice ensures fair laws and their impartial application. Step 2: Social justice goes further to ensure fair distribution of social goods and removal of disadvantage. Step 3: Hence social justice is broader than legal justice.",
+     "answer": "Social justice concerns fair distribution and removal of disadvantage, beyond mere legal fairness"
+    },
+    {
+     "question": "Why is social justice considered essential for a democratic society?",
+     "solution": "Step 1: Democracy promises equal dignity and voice to all. Step 2: Without social justice, disadvantaged groups remain excluded and unequal. Step 3: Therefore social justice is essential to realise democracy's promise.",
+     "answer": "Because it ensures the disadvantaged can share in democracy's benefits"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning of social justice and its main concerns.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State two ways in which social justice differs from legal justice.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.4.2",
+   "title": "Distributive Justice",
+   "section": "Distributive Justice",
+   "definition": "Distributive justice is the branch of justice concerned with the fair allocation of resources, goods, benefits, and burdens among the members of a society, so that no section is unfairly deprived or privileged.",
+   "formula": "",
+   "key_idea": "Distributive justice asks how society's wealth, income, opportunities, and burdens should be shared so that the distribution is fair and just.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is distributive justice?",
+    "What are the main principles of distributive justice?",
+    "How should society distribute its resources fairly?",
+    "Distinguish between distributive justice and retributive justice.",
+    "Why is distributive justice important for social justice?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define distributive justice as fair allocation",
+     "explain": "Distributive justice concerns how benefits and burdens like income, wealth, and taxes are shared among members of society."
+    },
+    {
+     "step": 2,
+     "action": "Identify the principles of fair distribution",
+     "explain": "Principles include need, merit, equality, and fairness, which guide how goods should be allocated."
+    },
+    {
+     "step": 3,
+     "action": "Relate distributive justice to social justice",
+     "explain": "A fair distribution of resources is central to social justice, as it ensures the disadvantaged are not left deprived."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the central question that distributive justice tries to answer?",
+     "solution": "Step 1: Distributive justice concerns the allocation of social goods. Step 2: It asks how income, wealth, and opportunities should be shared. Step 3: Its central question is what counts as a fair distribution among members of society.",
+     "answer": "How society's benefits and burdens should be fairly shared"
+    },
+    {
+     "question": "Distinguish between distributive justice and retributive justice.",
+     "solution": "Step 1: Distributive justice deals with fair sharing of goods and burdens. Step 2: Retributive justice deals with fair punishment for wrongdoing. Step 3: Hence they address different aspects of justice.",
+     "answer": "Distributive justice is about fair allocation; retributive justice is about fair punishment"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning of distributive justice and its main principles.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State one difference between distributive and retributive justice.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.4.3",
+   "title": "Justice and Equality",
+   "section": "Justice and Equality",
+   "definition": "The relationship between justice and equality holds that genuine justice often requires equality of status and opportunity, but may also permit unequal treatment where it is needed to offset disadvantage and bring about a fair outcome.",
+   "formula": "",
+   "key_idea": "Justice and equality are closely linked: equality is a condition of justice, but justice may sometimes require unequal or differential treatment to achieve a fair result.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the relationship between justice and equality?",
+    "Can justice sometimes require unequal treatment? Explain.",
+    "How does equality support justice?",
+    "Why is mere formal equality not enough for justice?",
+    "Explain how differential treatment can promote justice."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State that equality is a condition of justice",
+     "explain": "Justice requires that people be treated as equals in dignity, rights, and opportunity."
+    },
+    {
+     "step": 2,
+     "action": "Explain that formal equality may not secure justice",
+     "explain": "Identical treatment can leave disadvantages intact, so formal equality alone may be unjust."
+    },
+    {
+     "step": 3,
+     "action": "Show that justice may require differential treatment",
+     "explain": "To achieve a fair outcome, justice may permit unequal treatment such as reservations for the disadvantaged."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Can justice sometimes require unequal treatment? Give an example.",
+     "solution": "Step 1: Justice aims at fair outcomes, not just identical rules. Step 2: Reservations give extra support to disadvantaged groups. Step 3: Hence justice may require unequal treatment to offset disadvantage.",
+     "answer": "Yes; for example, reservations for disadvantaged groups promote justice"
+    },
+    {
+     "question": "Why is mere formal equality not sufficient for justice?",
+     "solution": "Step 1: Formal equality gives everyone the same rules. Step 2: But disadvantaged groups start from behind. Step 3: Therefore formal equality alone may leave injustice intact.",
+     "answer": "Because identical rules can leave existing disadvantages unchanged"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the relationship between justice and equality with examples.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Give one example where justice requires unequal treatment.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.4.4",
+   "title": "Rawls' Theory of Justice",
+   "section": "John Rawls: Theory of Justice",
+   "definition": "John Rawls' theory of justice proposes that a just society is one whose basic institutions would be chosen by free and equal persons behind a 'veil of ignorance', where no one knows their future caste, class, or talents, leading to two principles: equal basic liberties for all, and social and economic inequalities arranged to benefit the least advantaged.",
+   "formula": "",
+   "key_idea": "Rawls argues that justice is fairness: rational people unaware of their own position would choose equal liberties and would permit inequalities only if they improve the position of the worst-off.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is Rawls' theory of justice?",
+    "Explain the 'veil of ignorance' in Rawls' theory.",
+    "What are the two principles of justice given by Rawls?",
+    "What is the 'difference principle'?",
+    "How does Rawls reconcile liberty and equality?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the original position and veil of ignorance",
+     "explain": "Rawls asks what principles people would choose if they did not know their caste, class, or talents, ensuring impartiality."
+    },
+    {
+     "step": 2,
+     "action": "State the two principles of justice",
+     "explain": "The first principle guarantees equal basic liberties for all; the second permits social and economic inequalities only if they benefit the least advantaged and attach to positions open to all."
+    },
+    {
+     "step": 3,
+     "action": "Explain the difference principle",
+     "explain": "The difference principle allows inequalities only insofar as they improve the position of the worst-off members of society."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the 'veil of ignorance' and why is it important in Rawls' theory?",
+     "solution": "Step 1: The veil of ignorance hides one's caste, class, and talents when choosing principles. Step 2: This ensures impartial and fair choices. Step 3: Hence it is central to Rawls' idea of justice as fairness.",
+     "answer": "It ensures impartial choice of principles by hiding one's own position"
+    },
+    {
+     "question": "Explain the difference principle with an example.",
+     "solution": "Step 1: The difference principle allows inequalities only if they help the worst-off. Step 2: For example, higher pay for doctors is justified if it improves healthcare for all. Step 3: Thus inequalities must benefit the least advantaged.",
+     "answer": "Inequalities are just only if they benefit the least advantaged"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain Rawls' theory of justice, including the veil of ignorance and the two principles.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State the difference principle in one sentence.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.4.5",
+   "title": "Entitlement Theory (Nozick)",
+   "section": "Robert Nozick: Entitlement Theory",
+   "definition": "Robert Nozick's entitlement theory holds that a distribution of holdings is just if it arises from just acquisition of unowned resources or just transfer through voluntary exchange, and that any patterned redistribution by the state, such as taxation for welfare, is unjust because it violates individual liberty.",
+   "formula": "",
+   "key_idea": "Nozick argues that justice consists in respecting entitlements arising from fair acquisition and transfer, and that redistributive taxation to enforce equality is a violation of individual rights.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is Nozick's entitlement theory of justice?",
+    "Explain the principles of just acquisition and just transfer.",
+    "How does Nozick's theory differ from Rawls' theory?",
+    "Why does Nozick oppose redistributive taxation?",
+    "What is the 'Wilt Chamberlain' argument in Nozick's theory?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the principle of just acquisition",
+     "explain": "A holding is just if it was acquired without force, fraud, or theft, such as by mixing one's labour with unowned resources."
+    },
+    {
+     "step": 2,
+     "action": "State the principle of just transfer",
+     "explain": "A holding is just if it was obtained through voluntary exchange or gift between willing parties."
+    },
+    {
+     "step": 3,
+     "action": "Contrast with Rawls and oppose redistributive taxation",
+     "explain": "Nozick holds that any state-enforced redistribution, such as welfare taxation, violates liberty, unlike Rawls who permits it for the least advantaged."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does Nozick's entitlement theory differ from Rawls' theory of justice?",
+     "solution": "Step 1: Nozick focuses on just acquisition and transfer of holdings. Step 2: Rawls focuses on fair principles chosen behind the veil of ignorance. Step 3: Hence Nozick emphasises liberty and entitlement, while Rawls emphasises fairness and the worst-off.",
+     "answer": "Nozick stresses entitlement and liberty; Rawls stresses fairness and the least advantaged"
+    },
+    {
+     "question": "Why does Nozick argue that redistributive taxation is unjust?",
+     "solution": "Step 1: Nozick holds that holdings gained justly belong to the holder. Step 2: Taxing them for redistribution is taking without consent. Step 3: Therefore redistributive taxation violates individual liberty and is unjust.",
+     "answer": "Because it takes justly held property without consent, violating liberty"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain Nozick's entitlement theory and how it differs from Rawls' theory.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State the two principles of Nozick's entitlement theory.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.4.6",
+   "title": "Social Justice in India",
+   "section": "Social Justice in the Indian Context",
+   "definition": "Social justice in India refers to the constitutional and policy efforts to remove caste, gender, and economic discrimination and to ensure equal dignity and opportunity for all, through provisions like fundamental rights, reservations, and welfare schemes for the disadvantaged.",
+   "formula": "",
+   "key_idea": "The Indian approach to social justice combines constitutional guarantees of equality with affirmative action and welfare programmes to uplift Scheduled Castes, Scheduled Tribes, OBCs, women, and the poor.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How does the Indian Constitution promote social justice?",
+    "What measures has India taken to achieve social justice?",
+    "Explain the role of reservations in social justice in India.",
+    "What are the main challenges to social justice in India?",
+    "How do welfare schemes contribute to social justice?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the constitutional basis of social justice",
+     "explain": "Fundamental Rights, Directive Principles, and provisions for reservations form the constitutional basis of social justice in India."
+    },
+    {
+     "step": 2,
+     "action": "Explain the role of reservations and welfare schemes",
+     "explain": "Reservations in education and jobs and welfare schemes like mid-day meals and MGNREGA support disadvantaged groups."
+    },
+    {
+     "step": 3,
+     "action": "Assess the challenges to social justice",
+     "explain": "Caste prejudice, poverty, gender discrimination, and uneven implementation limit the achievement of social justice."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How do the Directive Principles of State Policy contribute to social justice in India?",
+     "solution": "Step 1: Directive Principles guide the state to reduce inequality and secure welfare. Step 2: They direct measures like living wages, free legal aid, and public health. Step 3: Hence they promote social justice as a policy goal.",
+     "answer": "By guiding the state to reduce inequality and secure welfare for all"
+    },
+    {
+     "question": "Mention two challenges to achieving social justice in India.",
+     "solution": "Step 1: Caste prejudice continues to discriminate against SCs and STs. Step 2: Widespread poverty limits access to education and health. Step 3: These are major challenges to social justice.",
+     "answer": "Caste prejudice and widespread poverty"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how the Indian Constitution and state policies promote social justice.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State two challenges to social justice in India.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.4.7",
+   "title": "Reservation and Social Justice",
+   "section": "Reservation and Social Justice",
+   "definition": "Reservation is the policy of setting aside a fixed percentage of seats in legislatures, educational institutions, and government jobs for Scheduled Castes, Scheduled Tribes, and Other Backward Classes to compensate for historical exclusion and to give them fair access to opportunities.",
+   "formula": "reserved_seats = total_seats * quota_percent / 100",
+   "key_idea": "Reservations are a tool of social justice that give historically excluded groups access to representation, education, and employment so that they can overcome disadvantage.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the policy of reservation?",
+    "How does reservation promote social justice?",
+    "What is the constitutional basis for reservation in India?",
+    "Why are reservations provided for SCs, STs, and OBCs?",
+    "What are the arguments for and against reservation?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the total seats and the quota percentage",
+     "explain": "Find the total seats available and the percentage reserved for a category like SC, ST, or OBC."
+    },
+    {
+     "step": 2,
+     "action": "Calculate the reserved seats",
+     "explain": "Multiply the total seats by the quota percentage to find the number of reserved seats.",
+     "compute": "total_seats * quota_percent / 100"
+    },
+    {
+     "step": 3,
+     "action": "Determine the seats open to the general category",
+     "explain": "The remaining seats are open to all candidates on merit.",
+     "compute": "total_seats - reserved_seats"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A legislature has 200 seats with 15% reserved for SCs and 7.5% for STs. How many seats are reserved for each?",
+     "solution": "Step 1: Total seats = 200. Step 2: SC seats = 200 * 15 / 100 = 30; ST seats = 200 * 7.5 / 100 = 15. Step 3: 30 seats are reserved for SCs and 15 for STs.",
+     "answer": "SC = 30 seats, ST = 15 seats"
+    },
+    {
+     "question": "Why is reservation considered a measure of social justice rather than mere charity?",
+     "solution": "Step 1: Reservation gives disadvantaged groups access to opportunity. Step 2: It compensates for historical exclusion, not merely giving alms. Step 3: Hence it is a matter of justice, not charity.",
+     "answer": "Because it compensates for historical exclusion and secures a fair share of opportunity"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the policy of reservation and its role in promoting social justice in India.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Calculate reserved seats for SCs in a 100-seat body with a 15% quota.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.4.8",
+   "title": "Affirmative Action and Social Justice",
+   "section": "Affirmative Action and Social Justice",
+   "definition": "Affirmative action for social justice includes a range of state measures beyond reservations, such as scholarships, hostels, special coaching, and welfare schemes, designed to enable disadvantaged groups to compete on equal terms and to overcome the effects of historical discrimination.",
+   "formula": "",
+   "key_idea": "Affirmative action goes beyond quotas to provide support that builds capacity among disadvantaged groups, helping them convert formal equality into substantive social justice.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is affirmative action in the context of social justice?",
+    "How does affirmative action differ from reservation?",
+    "What forms does affirmative action take in India?",
+    "Why is affirmative action needed in addition to equal laws?",
+    "How does affirmative action promote substantive equality?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define affirmative action as supportive measures",
+     "explain": "Affirmative action includes scholarships, coaching, hostels, and welfare schemes that support disadvantaged groups."
+    },
+    {
+     "step": 2,
+     "action": "Distinguish affirmative action from reservation",
+     "explain": "Reservation fixes quotas in seats; affirmative action provides broader support to build capacity and access."
+    },
+    {
+     "step": 3,
+     "action": "Explain its role in achieving substantive social justice",
+     "explain": "By building capacity among the disadvantaged, affirmative action converts formal equality into real, substantive justice."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does affirmative action differ from reservation?",
+     "solution": "Step 1: Reservation sets aside fixed quotas of seats. Step 2: Affirmative action includes scholarships, coaching, and welfare support. Step 3: Hence affirmative action is broader than reservation alone.",
+     "answer": "Affirmative action provides broader support; reservation fixes quotas"
+    },
+    {
+     "question": "Give two examples of affirmative action measures in India.",
+     "solution": "Step 1: Affirmative action supports disadvantaged groups beyond quotas. Step 2: Examples include scholarships for SC/ST students and free coaching for competitive exams. Step 3: These measures build capacity for equal participation.",
+     "answer": "Scholarships for SC/ST students and free coaching for competitive exams"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning of affirmative action and its contribution to social justice.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Mention two affirmative action measures in India.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11pt.4.9",
+   "title": "Liberty, Equality, and Justice: Balancing the Values",
+   "section": "Integrating the Values",
+   "definition": "The integration of liberty, equality, and justice holds that a just society must protect individual liberty, ensure equality of status and opportunity, and secure a fair distribution of benefits and burdens, balancing these values so that none overrides the others unjustly.",
+   "formula": "",
+   "key_idea": "Liberty, equality, and justice are interdependent: liberty without equality can become privilege, equality without liberty can become coercion, and justice requires a balance of both.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How are liberty, equality, and justice related?",
+    "Can liberty and equality conflict? How can they be balanced?",
+    "Why is justice needed to balance liberty and equality?",
+    "Explain with an example how unchecked liberty can harm equality.",
+    "How does Rawls attempt to balance liberty and equality?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the meaning of each value",
+     "explain": "Liberty is freedom from coercion, equality is equal status and opportunity, and justice is fair distribution and treatment."
+    },
+    {
+     "step": 2,
+     "action": "Explain how the values can conflict",
+     "explain": "Unchecked liberty may allow the strong to dominate, harming equality; enforced equality may restrict liberty."
+    },
+    {
+     "step": 3,
+     "action": "Show how justice balances the values",
+     "explain": "Justice sets limits so that liberty does not become exploitation and equality does not become coercion, harmonising the two."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How can unchecked liberty harm equality? Give an example.",
+     "solution": "Step 1: Liberty allows individuals to accumulate wealth and power. Step 2: Without limits, this can concentrate resources in a few hands. Step 3: Hence unchecked liberty can produce inequality, as in extreme wealth gaps.",
+     "answer": "By allowing the strong to accumulate power and resources, creating inequality"
+    },
+    {
+     "question": "How does Rawls attempt to balance liberty and equality?",
+     "solution": "Step 1: Rawls gives priority to equal basic liberties for all. Step 2: He permits inequalities only if they benefit the least advantaged. Step 3: Thus he balances liberty with equality through the difference principle.",
+     "answer": "By prioritising equal liberties and allowing inequalities only if they benefit the worst-off"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how liberty, equality, and justice are interrelated and how they can be balanced.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State one way in which unchecked liberty can harm equality.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

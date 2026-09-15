@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_03_008",
+   "title": "c11_ps_cbse_03_008",
+   "questions": [
+    {
+     "q": "What is the core theoretical claim of the liberal perspective regarding the relationship between liberty and equality?",
+     "a": "Liberals argue that liberty and equality are compatible only when equality is understood as formal equality (equality before law and equal opportunity); they believe free competition under a neutral state maximizes both liberty and just outcomes, and that enforced substantive equality violates negative liberty. A wrong answer (e.g., \"liberals want absolute equality\") reveals confusion between liberal and socialist positions and ignorance of the distinction between negative and positive liberty.",
+     "self_check": true
+    },
+    {
+     "q": "Why do socialists argue that formal equality (equality before law) is insufficient to achieve real equality?",
+     "a": "Socialists contend that formal equality ignores entrenched structural inequalities (class, caste, gender) that give privileged groups a head start; without state intervention to redistribute resources and provide positive liberties (education, healthcare), formal equality merely legitimizes existing disparities. A wrong answer (e.g., \"socialists reject equality before law\") shows failure to grasp that socialists seek to deepen, not discard, formal equality through substantive measures.",
+     "self_check": true
+    },
+    {
+     "q": "A state passes a law capping CEO salaries at 20 times the median worker salary in the name of reducing economic inequality. Identify which concept of liberty this law restricts and which concept of equality it promotes, and explain the trade-off.",
+     "a": "The law restricts negative liberty (freedom from state interference in contractual agreements) to promote substantive economic equality (reducing income gaps). The trade-off: it limits the freedom of high earners to negotiate salaries but aims to prevent entrenched class domination. A wrong answer that says \"it promotes liberty\" confuses positive liberty (capacity to act) with negative liberty (non-interference) and misses the coercive nature of the cap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how the Indian Constitution handles the liberty-equality tension in Article 19 (Freedom of Speech) versus Article 39(b)-(c) (Directive Principles on resource distribution). What does this comparison reveal about the constitutional design?",
+     "a": "Article 19 guarantees negative liberties (subject to reasonable restrictions), while Articles 39(b)-(c) direct the state to distribute ownership and control of material resources for the common good and prevent concentration of wealth. This reveals a constitutional design that protects individual liberty as a justiciable right while pursuing substantive equality as a non-justiciable directive, creating a dynamic balance rather than a fixed hierarchy. A wrong answer that claims Directive Principles are legally enforceable like Fundamental Rights misunderstands the justiciability distinction central to the Indian scheme.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Reservations in public employment violate the liberty of general category candidates to compete on merit, therefore they are unjust.\" Use the framework of formal vs. substantive equality and the concept of positive liberty.",
+     "a": "The argument assumes formal equality (identical treatment) is the only valid equality, ignoring that substantive equality requires compensating for historical disadvantage so that marginalized groups gain the positive liberty (real capacity) to compete. Reservations are a temporary differential treatment justified by the goal of making formal equality meaningful. A poor evaluation treats liberty and equality as mutually exclusive and fails to engage with the distinction between negative liberty (non-interference) and positive liberty (enabling conditions).",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph policy proposal for a city government that aims to reduce educational inequality without banning private tutoring. Explicitly state which liberties are preserved, which equalities are targeted, and what trade-offs are accepted.",
+     "a": "A strong proposal might: (1) preserve the liberty of parents to hire tutors (negative liberty), (2) target substantive equality of opportunity by funding high-quality free after-school programs in government schools, (3) accept the trade-off of higher public expenditure (taxation limiting economic liberty of taxpayers) to level the playing field. A weak proposal either bans private tutoring (excessive liberty restriction) or only increases funding without addressing quality gaps (ignoring substantive equality).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

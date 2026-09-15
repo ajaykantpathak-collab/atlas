@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_03_003",
+   "title": "c11_chem_cbse_03_003",
+   "questions": [
+    {
+     "q": "State the period number and group number (IUPAC 1–18) for an element with the ground-state electronic configuration [Ar] 3d¹⁰ 4s² 4p³. Justify your answer using the principal quantum number and valence electrons.",
+     "a": "**Answer:** Period 4, Group 15.  \n**Reasoning:** The highest principal quantum number (n) in the configuration is 4 (from 4s and 4p), so the element belongs to Period 4. The valence electrons are in the 4s and 4p subshells: 4s²4p³ gives 5 valence electrons. For p-block elements, Group number = 10 + number of valence electrons = 10 + 5 = 15.  \n**Wrong answer reveals:** If a student says Period 3 (focusing on 3d¹⁰) or Group 5 (counting only 4p³), they confuse the principal quantum number of the valence shell with that of the penultimate shell, or they forget the s-electrons contribute to valence count for p-block.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the fourth period contain 18 elements while the second and third periods contain only 8 elements each? Explain using the order of orbital filling and the maximum electron capacity of subshells.",
+     "a": "**Answer:** The fourth period (n=4) begins with filling 4s (2 electrons), then the 3d subshell (10 electrons, 5 orbitals) becomes energetically favourable before 4p (6 electrons, 3 orbitals). Total orbitals available = 1 (4s) + 5 (3d) + 3 (4p) = 9 orbitals → 18 electrons → 18 elements. In contrast, Period 2 (n=2) has only 2s and 2p (1+3=4 orbitals → 8 elements); Period 3 (n=3) has only 3s and 3p because 3d is higher in energy than 4s and fills later.  \n**Wrong answer reveals:** If a student says \"because Period 4 has d-orbitals\" without mentioning the (n+l) rule or the specific filling order (4s < 3d < 4p), they lack the quantum mechanical reasoning. If they say 3d fills before 4s, they violate the aufbau principle.",
+     "self_check": true
+    },
+    {
+     "q": "An element X has atomic number 34. Determine its period, group, block, and the formula of its most common hydride. Show all steps.",
+     "a": "**Answer:** Period 4, Group 16, p-block, H₂X (hydrogen selenide, H₂Se).  \n**Steps:**  \n1. Write electronic configuration of Z=34: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁴ → [Ar] 3d¹⁰ 4s² 4p⁴.  \n2. Highest n = 4 → Period 4.  \n3. Valence electrons = 4s² 4p⁴ = 6 electrons. Last electron enters p-subshell → p-block.  \n4. For p-block: Group = 10 + valence electrons = 10 + 6 = 16.  \n5. Group 16 elements (chalcogens) form hydrides H₂E (valency 2). Formula = H₂X.  \n**Wrong answer reveals:** If a student writes Group 6 (old notation) or places it in d-block (seeing 3d¹⁰), they confuse core vs. valence electrons. If they write HX (valency 1), they misapply group valency rules.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the positions of lanthanoids (Ce–Lu) and actinoids (Th–Lr) in the periodic table. Why are they placed in separate panels at the bottom rather than in the main body? What would happen to the table's width if they were inserted in-line?",
+     "a": "**Answer:** Lanthanoids (4f series, n=6) and actinoids (5f series, n=7) are inner transition elements where the differentiating electron enters (n-2)f orbitals. If placed in-line between Groups 3 and 4 (after La and Ac), Periods 6 and 7 would each require 32 columns (2 s-block + 10 d-block + 14 f-block + 6 p-block), making the table impractically wide (32 columns vs. 18). The separate panel preserves the 18-column format while maintaining group-wise similarity — all lanthanoids share Group 3 properties, all actinoids share Group 3 properties.  \n**Wrong answer reveals:** If a student says \"they are placed at the bottom because they are radioactive\" (only actinoids) or \"because they are metals,\" they miss the structural/periodic classification reason. If they think the table would have 14 extra rows, they confuse rows and columns.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Elements in the same group always have identical valence shell electronic configurations.\" Is it true for all groups? Provide a counterexample if false, or justify if true.",
+     "a": "**Answer:** False. While groups 1, 2, 13–18 (s- and p-blocks) have consistent valence configurations (ns¹, ns², ns²np¹–⁶), the d-block (Groups 3–12) and f-block show variations.  \n**Counterexample:** Group 11 (Cu, Ag, Au) — Cu: [Ar] 3d¹⁰ 4s¹, Ag: [Kr] 4d¹⁰ 5s¹, Au: [Xe] 4f¹⁴ 5d¹⁰ 6s¹. Though all end in ns¹, the penultimate d-subshell is filled (d¹⁰) unlike Group 1 (alkali metals) where it is a noble gas core. Group 3: Sc [Ar] 3d¹4s², Y [Kr] 4d¹5s², La [Xe] 5d¹6s² — but Lu [Xe] 4f¹⁴ 5d¹6s² and Lr [Rn] 5f¹⁴ 7s² 7p¹ show irregularities.  \n**Wrong answer reveals:** If a student says \"True\" citing only alkali metals/halogens, they overgeneralise from representative elements. If they cite helium (1s² in Group 18) as a counterexample, they confuse the exception (He in p-block despite s² config) with the general d/f-block variability.",
+     "self_check": true
+    },
+    {
+     "q": "Design a decision tree (flowchart) that a student can use to determine the period, group, and block of any element (Z ≤ 118) given only its atomic number. Your flowchart must use quantum numbers (n, l) and orbital filling order as decision nodes.",
+     "a": "**Expected answer (criteria):** A valid flowchart with these decision nodes:  \n1. Input Z.  \n2. Determine ground-state electronic configuration using aufbau (n+l rule) and Pauli/Hund rules.  \n3. Identify highest n → Period number.  \n4. Identify subshell (l) of last electron added: l=0 (s) → s-block; l=1 (p) → p-block; l=2 (d) → d-block; l=3 (f) → f-block.  \n5. For s-block: Group = valence electrons (1 or 2).  \n   For p-block: Group = 10 + valence electrons (3–8 → Groups 13–18).  \n   For d-block: Group = (n-1)d electrons + ns electrons (3–12).  \n   For f-block: Place in separate panel (no group number in 1–18; all belong to Group 3 family).  \n6. Output: Period, Group, Block.  \n**Poor answer reveals:** If the flowchart uses \"atomic mass\" or \"chemical properties\" as decision nodes, the student hasn't internalised the quantum number basis. If it assigns group numbers to f-block elements (e.g., \"Group 3 for all lanthanoids\"), they misunderstand IUPAC convention.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_06_008",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_06_008",
+   "title": "c12_hs_cbse_06_008",
+   "questions": [
+    {
+     "q": "State the full forms of PRA and RRA, and give one fundamental philosophical difference between them in terms of who owns the knowledge generated.",
+     "a": "PRA = Participatory Rural Appraisal; RRA = Rapid Rural Appraisal. Fundamental difference: In RRA, knowledge is primarily extracted by outsiders for external use; in PRA, knowledge is generated and owned by local people, with outsiders facilitating. A wrong answer (e.g., \"PRA is just faster RRA\") reveals confusion between speed and participation — the core distinction is power over the process, not time taken.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"RRA and PRA are basically the same thing — both use tools like mapping and ranking to get information quickly from villages.\" Explain why this statement is incorrect, using the concepts of 'participation ladder' and 'triangulation'.",
+     "a": "The statement confuses *tools* with *paradigm*. RRA uses participatory tools but remains extractive — outsiders set the agenda, analyze data, and leave; participation is consultative (lower on the ladder). PRA hands over the stick — locals set agenda, analyze, and act; participation is collegiate/empowering (higher on the ladder). Triangulation in RRA cross-checks data for *accuracy*; in PRA it cross-checks *perspectives* for shared understanding. A wrong answer reveals tool-centric thinking instead of process-centric thinking.",
+     "self_check": true
+    },
+    {
+     "q": "You are facilitating a social mapping exercise in a village. Women participants draw the anganwadi center but omit the liquor shop; men include the liquor shop but omit the anganwadi. As a PRA practitioner, what should you do next, and why?",
+     "a": "Do not merge maps. Instead, display both side-by-side and facilitate a discussion on *why* perceptions differ — this reveals gendered access, safety concerns, and power dynamics. Merging would silence the difference; the PRA principle is to *explore* differences, not average them. A wrong answer (e.g., \"combine into one accurate map\") shows misunderstanding of PRA as data collection rather than perspective-sharing.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the use of a seasonal calendar in RRA versus PRA. Specifically, explain how the *purpose* of the calendar differs in the two approaches, and how this affects who interprets the labor peaks shown.",
+     "a": "In RRA, the seasonal calendar is drawn to *extract* labor-availability data for external project planning; the outsider interprets peaks to schedule interventions. In PRA, villagers draw it to *analyze their own* workload, migration, and food insecurity; *they* interpret peaks to decide coping strategies or demand services. The tool is identical; the ownership of analysis flips. A wrong answer treats the calendar as a data-gathering instrument in both cases.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this extension worker's plan: \"I will conduct a PRA in two days using wealth ranking, matrix ranking, and transect walk to identify the poorest households for a government subsidy scheme.\" Identify two violations of PRA principles.",
+     "a": "Violation 1: PRA cannot be \"conducted in two days\" — it is an iterative process requiring multiple visits to build trust and validate findings; this is RRA-style extraction. Violation 2: Wealth ranking for *targeting subsidies* makes the process extractive and risky (elite capture, social tension); PRA avoids labeling households for external benefits. A wrong answer focuses only on tool selection, missing the ethical and process violations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a PRA tool sequence for a village facing declining groundwater. The sequence must: (a) start with a spatial tool, (b) include a temporal tool, (c) end with a decision-making tool, and (d) ensure women's participation in at least two steps. Name the tools and justify the sequence.",
+     "a": "Example sequence: (1) Resource map (spatial) — men and women draw separately to show gendered water access; (2) Seasonal calendar (temporal) — women's group maps water-fetching time across months; (3) Matrix ranking of water-saving options (decision) — mixed group scores drip irrigation, mulching, crop change on *their* criteria (labor, cost, yield). Justification: Spatial first grounds discussion in visible reality; temporal reveals gendered burden; decision tool converts analysis to action. A poor answer lists tools randomly without linking to the learning arc or gender inclusion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,313 @@
+{
+  "class": 11,
+  "subject": "applied_maths",
+  "chapter": 5,
+  "chapter_title": "Sequences and Series",
+  "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am11_005_sequences_series.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "am11_005.1",
+      "title": "General Term of an Arithmetic Progression",
+      "section": "5.3.1",
+      "definition": "An arithmetic progression steps along by one fixed amount called the common difference; the term sitting at position n equals the first term plus one difference for every step after the first.",
+      "formula": "a_n = a + (n - 1) * d",
+      "key_idea": "Count the jumps from the first term, then add one difference per jump.",
+      "textbook_ref": "am11_005_sequences_series.txt, section 5.3.1, an = a + (n - 1)d and TV production example",
+      "question_patterns": [
+        "find the 20th term of the AP whose nth term is 2n + 5",
+        "find the 10th term of the arithmetic progression 7, 10, 13, ...",
+        "if the first term is 1200 and production rises by 200 each year, how many units are made in the 5th year",
+        "the nth term of a sequence is 3 - 4n; find its 20th term",
+        "write the general term of the AP 25, 35, 45, ...",
+        "which term of the AP -3, -7, -11 is -403"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "count the jumps from the first term", "explain": "position n means n minus one jumps", "compute": "jumps = n - 1"},
+        {"step": 2, "action": "scale the common difference", "explain": "one difference per jump", "compute": "climb = jumps * d"},
+        {"step": 3, "action": "add the first term", "explain": "landing value of the nth term", "compute": "a_n = a + climb"}
+      ]
+    },
+    {
+      "id": "am11_005.2",
+      "title": "Number of Terms of an AP",
+      "section": "5.3.1",
+      "definition": "Reversing the general term counts the membership of a finite progression: divide the distance from first term to last term by the common difference and add one for the starting term.",
+      "formula": "n_terms = (l - a) / d + 1",
+      "key_idea": "The span divided by the step size counts the jumps; one more term sits at the start.",
+      "textbook_ref": "am11_005_sequences_series.txt, section 5.3, illustration 3 and illustration 4 (7, 10, ..., 130 has 42 terms)",
+      "question_patterns": [
+        "how many terms are there in the AP 7, 10, 13, ..., 130",
+        "find the number of two digit numbers divisible by 6",
+        "how many integers from 100 to 500 are divisible by 5",
+        "count the terms of the AP 17, 15, 13, ..., -61",
+        "find which term of the AP 25, 35, 45 is 415"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "measure the distance from first to last term", "explain": "last value minus first value", "compute": "span = l - a"},
+        {"step": 2, "action": "divide by the step size", "explain": "this is the number of jumps", "compute": "jumps = span / d"},
+        {"step": 3, "action": "add one for the opening term", "explain": "jumps plus the first term is the term count", "compute": "n_terms = jumps + 1"}
+      ]
+    },
+    {
+      "id": "am11_005.3",
+      "title": "Sum of n Terms of an AP",
+      "section": "5.3.4",
+      "definition": "Adding the first n terms of an arithmetic progression amounts to n copies of the average term: pair the outer terms, or equivalently take half of n times twice the first term plus one difference per extra step.",
+      "formula": "s_n = n * (2 * a + (n - 1) * d) / 2",
+      "key_idea": "Average term times how many terms; pairing first with last gives the same total.",
+      "textbook_ref": "am11_005_sequences_series.txt, section 5.3.4, Sn = n/2 (2a + (n-1)d) and Sn = n/2 (a + l)",
+      "question_patterns": [
+        "find the sum of the first 100 even natural numbers",
+        "find the sum of 20 terms of the AP whose nth term is 2n + 1",
+        "how many terms of the AP 17, 15, 13 give the sum 72",
+        "find the sum of all integers from 100 to 500 divisible by 6",
+        "evaluate 4 + 7 + 10 + ... to 100 terms",
+        "in an AP the fourth term is 4; find the sum of its first 7 terms"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "build the bracket of first and last terms", "explain": "twice the first term plus one difference per extra step", "compute": "bracket = 2 * a + (n - 1) * d"},
+        {"step": 2, "action": "multiply by the count and halve", "explain": "n average terms", "compute": "s_n = n * bracket / 2"}
+      ]
+    },
+    {
+      "id": "am11_005.4",
+      "title": "Arithmetic Mean and Inserting Means",
+      "section": "5.3.5",
+      "definition": "The arithmetic mean of two numbers is the value that would sit midway between them in a progression, namely their average; inserting k means between two endpoints splits the gap into k plus one equal jumps.",
+      "formula": "a_mean = (a + b) / 2",
+      "key_idea": "One mean halves the interval; k means divide the gap into k + 1 equal steps.",
+      "textbook_ref": "am11_005_sequences_series.txt, section 5.3.5, A = (a+b)/2 and illustration inserting 6 numbers between 3 and 24",
+      "question_patterns": [
+        "insert 6 numbers between 3 and 24 so that the result is an AP",
+        "find the arithmetic mean of 5 and 15",
+        "insert 4 arithmetic means between 8 and 23",
+        "the arithmetic mean of two numbers is 13 and their sum is 26; find the numbers",
+        "insert n arithmetic means between 1 and 31 and find the common difference",
+        "find three numbers in AP whose sum is 24 and product is 440"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "average the two numbers for a single mean", "explain": "equal distances on both sides", "compute": "a_mean = (a + b) / 2"},
+        {"step": 2, "action": "split the gap for k inserted means", "explain": "the run becomes k plus one jumps", "compute": "step = (b - a) / (k + 1)"},
+        {"step": 3, "action": "take the first inserted mean", "explain": "one step past the opening value", "compute": "first_mean = a + step"}
+      ]
+    },
+    {
+      "id": "am11_005.5",
+      "title": "Properties of an AP",
+      "section": "5.3.2",
+      "definition": "An arithmetic progression survives uniform edits: shifting every term by a constant keeps the difference, scaling every term multiplies the difference, every other term forms another progression, and three numbers sit in progression exactly when the middle one equals the average of its neighbours.",
+      "formula": "b_in_ap = (a + c) / 2",
+      "key_idea": "Addition shifts nothing but values; multiplication rescales the common difference.",
+      "textbook_ref": "am11_005_sequences_series.txt, section 5.3.2 properties (i)-(viii), selection of terms table",
+      "question_patterns": [
+        "if each term of an AP is doubled, is the new sequence an AP and what is its common difference",
+        "a constant 5 is added to every term of the AP 1, 3, 5, 7; find the new common difference",
+        "each term of the AP 5, 9, 13 is multiplied by -4; find the new common difference",
+        "when are three numbers a, b, c said to be in AP",
+        "do the terms a1, a3, a5 of an AP taken at regular intervals form an AP",
+        "show that the sum of terms equidistant from the ends of a finite AP equals the sum of first and last terms"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "add or subtract a constant from every term", "explain": "the spacing between neighbours is untouched"},
+        {"step": 2, "action": "multiply every term by a constant", "explain": "differences scale by the same constant"},
+        {"step": 3, "action": "pick every second or k-th term", "explain": "regularly spaced members still step uniformly"},
+        {"step": 4, "action": "test the middle term of three", "explain": "twice the middle equals the sum of the outer pair"}
+      ]
+    },
+    {
+      "id": "am11_005.6",
+      "title": "General Term of a GP",
+      "section": "5.4.2",
+      "definition": "A geometric progression grows by one fixed multiplier called the common ratio; the term at position n equals the first term times the ratio raised to one less than the position.",
+      "formula": "a_n = a * r**(n - 1)",
+      "key_idea": "Each position after the first adds one more factor of the ratio.",
+      "textbook_ref": "am11_005_sequences_series.txt, section 5.4.2, an = ar^(n-1), 10th term of 2, 4, 8 is 1024",
+      "question_patterns": [
+        "find the 10th term of the GP 2, 4, 8, 16",
+        "find the 5th term of the GP 4, 12, 36",
+        "which term of the GP 5, 10, 20, 40 is 5120",
+        "the population grows 2.5 times each generation; how many insects are there in the 5th generation starting from 10000",
+        "find the nth term of the GP 3, -1, 1/3",
+        "if the mth term of a GP is n and the nth term is m, find the (m+n)th term"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "count the multiplications after the first term", "explain": "position n needs n minus one factors of the ratio", "compute": "power = n - 1"},
+        {"step": 2, "action": "raise the ratio to that power", "explain": "compounded growth factor", "compute": "factor = r**power"},
+        {"step": 3, "action": "multiply the first term", "explain": "the requested term", "compute": "a_n = a * factor"}
+      ]
+    },
+    {
+      "id": "am11_005.7",
+      "title": "Sum of n Terms of a GP",
+      "section": "5.4.4",
+      "definition": "Adding the first n terms of a geometric progression uses the shift-and-subtract trick: multiplying the whole sum by the ratio and subtracting collapses the overlap, leaving a closed formula.",
+      "formula": "s_n = a * (r**n - 1) / (r - 1)",
+      "key_idea": "For ratio 1 every term repeats and the sum collapses to n times the first term.",
+      "textbook_ref": "am11_005_sequences_series.txt, section 5.4.4, Sn = a(r^n - 1)/(r - 1), illustration S10 = 3069",
+      "question_patterns": [
+        "find the sum of 10 terms of the GP 3, 6, 12, 24",
+        "find the sum of 8 terms of the GP 1, -3, 9, -27",
+        "how many terms of the GP 32, 16, 8 give the sum 255/4",
+        "evaluate the sum of the first n terms of a GP with first term 5 and ratio 3",
+        "find the sum to 6 terms of the GP 3, 3 root 3, 9",
+        "a man saves 500 in the first month and doubles each month; find his savings over 6 months"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "raise the ratio to the term count", "explain": "the compounded factor after n terms", "compute": "rn = r**n"},
+        {"step": 2, "action": "subtract one and scale by the first term", "explain": "numerator of the shift-subtract formula", "compute": "num = a * (rn - 1)"},
+        {"step": 3, "action": "form the ratio offset", "explain": "r minus one, nonzero whenever the ratio differs from one", "compute": "offset = r - 1"},
+        {"step": 4, "action": "divide by the offset", "explain": "completes the closed sum", "compute": "s_n = num / offset"}
+      ]
+    },
+    {
+      "id": "am11_005.8",
+      "title": "Geometric Mean",
+      "section": "5.4.5",
+      "definition": "The geometric mean of two positive numbers is the value that would sit between them in a geometric progression, obtained as the square root of their product; inserting k means splits the log-gap into equal ratio jumps.",
+      "formula": "g_mean = sqrt(a * b)",
+      "key_idea": "Multiply first, take the square root once; the mean is the middle term of three in GP.",
+      "textbook_ref": "am11_005_sequences_series.txt, section 5.4.5, G = root(ab), GM of 4 and 9 is 6",
+      "question_patterns": [
+        "find the geometric mean of 4 and 9",
+        "insert 3 numbers between 1 and 256 so that the result is a GP",
+        "insert 6 geometric means between 27 and 1/81",
+        "the geometric mean of two numbers is 12 and their product is 144; find the numbers",
+        "find the geometric mean of 1/2 and 8",
+        "three consecutive terms of a GP have product 216 and sum 26; find the terms"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "multiply the two numbers", "explain": "the product carries the square of the mean", "compute": "prod = a * b"},
+        {"step": 2, "action": "take the square root", "explain": "the balanced middle value", "compute": "g_mean = sqrt(prod)"}
+      ]
+    },
+    {
+      "id": "am11_005.9",
+      "title": "AM-GM Inequality and Extremes",
+      "section": "5.5",
+      "definition": "For positive numbers the arithmetic mean never falls below the geometric mean, with equality only when all the numbers match; this pins down the least value of a sum with fixed product and the greatest value of a product with fixed sum.",
+      "formula": "abc_max = (total / 3)**3",
+      "key_idea": "Equality forces the numbers equal, which is exactly where extremes occur.",
+      "textbook_ref": "am11_005_sequences_series.txt, section 5.5, A >= G and illustrations on minimum of 3^x + 3^(1-x), maximum of abc",
+      "question_patterns": [
+        "if a + b + c = 18 find the maximum value of abc",
+        "find the minimum value of 3^x + 3^(1 - x) for real x",
+        "the AM of two positive numbers is 13 and the GM is 12; find the numbers",
+        "state the relation between the arithmetic mean and the geometric mean of two positive numbers",
+        "for positive a, b prove a/b + b/a is at least 2",
+        "if a, b, c, d are distinct positives in GP, show that a + d exceeds b + c"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "split a fixed sum into equal shares", "explain": "AM-GM equality needs equal numbers", "compute": "share = total / 3"},
+        {"step": 2, "action": "multiply the shares", "explain": "the largest possible product", "compute": "abc_max = share * share * share"}
+      ]
+    },
+    {
+      "id": "am11_005.10",
+      "title": "Sum to Infinity of a GP",
+      "section": "5.6",
+      "definition": "When the ratio sits strictly between -1 and 1, later terms of a geometric progression shrink toward zero and the endless sum settles on the first term divided by one minus the ratio.",
+      "formula": "s_inf = a / (1 - r)",
+      "key_idea": "Convergence needs the magnitude of r below one; the tail contributes nothing.",
+      "textbook_ref": "am11_005_sequences_series.txt, section 5.6, S = a/(1-r), recurring decimal 0.34, pendulum and ball rebounds",
+      "question_patterns": [
+        "find the sum to infinity of the GP 10, -8, 6.4",
+        "write the recurring decimal 0.3333 as a rational number using infinite GP",
+        "a ball rebounds one third of the height it fell from 90 feet; find the total vertical distance before rest",
+        "a pendulum swings 25 cm and each swing covers 90 percent of the previous; find the total distance",
+        "find the sum of the infinite GP 1/3 + 1/9 + 1/27",
+        "an economy spends 80 percent of every infusion; find the total spending generated by 10 lakh crore"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "compute the shortfall factor", "explain": "one minus the ratio", "compute": "short = 1 - r"},
+        {"step": 2, "action": "divide the first term by the shortfall", "explain": "the settled infinite total", "compute": "s_inf = a / short"}
+      ]
+    },
+    {
+      "id": "am11_005.11",
+      "title": "Growth, Decay and Depreciation Word Problems",
+      "section": "5.4.2",
+      "definition": "Quantities that change by a fixed percentage per period form a geometric progression; a growth rate turns into a ratio above one, a depreciation rate into a ratio below one, and the worth after some periods is the starting value times the ratio compounded.",
+      "formula": "value = cost * (1 - d / 100)**years",
+      "key_idea": "Convert the percentage to a multiplier once, then compound it per period.",
+      "textbook_ref": "am11_005_sequences_series.txt, illustrations 23-26 and machine worth Rs 56200 depreciating at 20 percent",
+      "question_patterns": [
+        "a machine costs Rs 56200 and depreciates 20 percent each year; find its value after 3 years",
+        "the population of a country is 114 million growing at 10 percent per year; find the population in 5 years",
+        "a machine worth Rs 51000 loses one fifth of its value each year; find its worth 3 years from now",
+        "an antique worth Rs 9000 appreciates 10 percent per year; find its worth 3 years later",
+        "Rs 5000 is deposited at 8 percent compounded annually; find the amount after 10 years",
+        "a bacteria culture doubles every 20 minutes; how many bacteria exist after 3 hours starting from one million"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "convert the percentage change to a multiplier", "explain": "subtract a decay rate from one or add a growth rate", "compute": "ratio = 1 - d / 100"},
+        {"step": 2, "action": "compound for the elapsed periods", "explain": "one factor per year", "compute": "factor = ratio**years"},
+        {"step": 3, "action": "scale the starting value", "explain": "present worth of the asset", "compute": "value = cost * factor"}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "am11_005.we1",
+      "source_ref": "am11_005 section 5.3.4 illustration 8",
+      "concept": "am11_005.3",
+      "question_type": "compute",
+      "question_pattern": "find the sum of the first 100 even natural numbers 2, 4, 6, 8",
+      "extracted_variables": {"a": 2, "d": 2, "n": 100},
+      "solution_template": [
+        {"step": 1, "action": "build the average-term bracket", "compute": "bracket = 2 * a + (n - 1) * d"},
+        {"step": 2, "action": "multiply by the count and halve", "compute": "s_n = n * bracket / 2"}
+      ]
+    },
+    {
+      "id": "am11_005.we2",
+      "source_ref": "am11_005 section 5.4 machine depreciation illustration 25",
+      "concept": "am11_005.11",
+      "question_type": "compute",
+      "question_pattern": "a machine costing Rs 56200 depreciates by 20 percent each year; find its value at the end of 3 years",
+      "extracted_variables": {"cost": 56200, "d": 20, "years": 3},
+      "solution_template": [
+        {"step": 1, "action": "yearly multiplier after 20 percent loss", "compute": "ratio = 1 - d / 100"},
+        {"step": 2, "action": "compound for three years", "compute": "factor = ratio**years"},
+        {"step": 3, "action": "scale the cost", "compute": "value = cost * factor"}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "am11_005.ex1",
+      "source_ref": "am11_005 check your progress 1",
+      "questions": [
+        "If S_n = 2n - 3 for a sequence, find its common difference.",
+        "Find the middle term of the AP 20, 16, 12, ..., -176.",
+        "Find the sum of integers from 100 to 500 that are divisible by both 2 and 3.",
+        "Find the sum of 20 terms of the AP whose nth term is 2n + 1.",
+        "How many terms of the AP 17, 15, 13 give a sum of 72? Explain the double answer.",
+        "Find the first negative term of the AP 19, 91/5, 87/5."
+      ]
+    },
+    {
+      "id": "am11_005.ex2",
+      "source_ref": "am11_005 check your progress 2",
+      "questions": [
+        "Find the 5th term of the GP 4, 12, 36.",
+        "Which term of the GP 5, 10, 20, 40 is 5120?",
+        "Insert 6 geometric means between 27 and 1/81.",
+        "A ball rebounds four fifths of the height it falls; dropped from 240 cm, find the total distance travelled before rest.",
+        "The sum of an infinite GP is 3 and the sum of the squares of its terms is also 3; find the first term and common ratio.",
+        "Rs 5000 is deposited at 8 percent per annum compounded annually; find the amount after 10 years."
+      ]
+    }
+  ]
+}

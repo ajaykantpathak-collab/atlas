@@ -1,0 +1,337 @@
+{
+ "class": 11,
+ "subject": "accountancy",
+ "chapter": 104,
+ "chapter_title": "Recording of Transactions II: Cash Book and Ledger",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keac104.txt",
+ "concepts": [
+  {
+   "id": "keac.104.1.1",
+   "title": "Single Column Cash Book",
+   "section": "4.1.1 Single Column Cash Book",
+   "definition": "A single column cash book records only cash receipts on the debit side and cash payments on the credit side, and the difference between the two totals gives the closing cash balance carried to the next period.",
+   "formula": "closing_cash = receipt_total - payment_total",
+   "key_idea": "The cash book serves as both a journal and a ledger account, so its balance is found without separate posting.",
+   "textbook_ref": "keac104.txt section 4.1.1",
+   "question_patterns": [
+    "what is a single column cash book and how is it balanced",
+    "how are cash receipts and payments recorded in the cash book",
+    "calculate the closing balance of cash from the cash book totals",
+    "why is the cash book both a journal and a ledger",
+    "on which side of the cash book are payments recorded",
+    "how is the cash balance carried down to the next period"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find the excess of receipts",
+     "explain": "Deduct the total of payments from the total of receipts to get the closing cash balance",
+     "compute": "closing_cash = receipt_total - payment_total"
+    }
+   ]
+  },
+  {
+   "id": "keac.104.2.1",
+   "title": "Double Column Cash Book with Bank Column",
+   "section": "4.1.2 Double Column Cash Book",
+   "definition": "A double column cash book carries cash and bank columns on both sides, records cheques received and deposited, and shows a credit bank balance as bank overdraft when payments exceed deposits.",
+   "formula": "",
+   "key_idea": "Contra entries, marked with C, record cash deposited into or withdrawn from the bank and affect both columns without touching the final result.",
+   "textbook_ref": "keac104.txt section 4.1.2",
+   "question_patterns": [
+    "what is a double column cash book and when is a bank overdraft shown",
+    "what is a contra entry and how is it marked",
+    "how are cheques received and deposited recorded in the cash book",
+    "distinguish cash column from bank column of the cash book",
+    "why can the cash column show a debit balance only",
+    "journalise the withdrawal of cash from bank for office use"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the columns affected",
+     "explain": "Decide whether cash column, bank column or both are affected."
+    },
+    {
+     "step": 2,
+     "action": "test for a contra entry",
+     "explain": "Mark the entry C when cash moves between the two columns."
+    },
+    {
+     "step": 3,
+     "action": "verify the balances",
+     "explain": "Confirm the bank column can show a credit balance as overdraft while cash cannot."
+    }
+   ]
+  },
+  {
+   "id": "keac.104.3.1",
+   "title": "Petty Cash Book and the Imprest System",
+   "section": "4.1.3 Petty Cash Book",
+   "definition": "The petty cash book records small repetitive payments under analytical columns such as postage, conveyance and stationery; under the imprest system the petty cashier is reimbursed exactly the amount spent, restoring the float to its fixed amount.",
+   "formula": "petty_reimbursement = imprest_amount - petty_cash_in_hand",
+   "key_idea": "The chief cashier advances the imprest amount, and the petty cashier reports expenses column-wise, which reduces the main cash book's size.",
+   "textbook_ref": "keac104.txt section 4.1.3",
+   "question_patterns": [
+    "what is a petty cash book and why is it maintained",
+    "explain the imprest system of petty cash",
+    "calculate the reimbursement due to the petty cashier",
+    "how are petty expenses analysed in the petty cash book",
+    "who is a petty cashier and how is he paid",
+    "state the advantages of the petty cash book"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find the amount spent",
+     "explain": "Deduct the petty cash in hand from the imprest amount to get the amount spent",
+     "compute": "amount_spent = imprest_amount - petty_cash_in_hand"
+    },
+    {
+     "step": 2,
+     "action": "restore the imprest float",
+     "explain": "The amount spent is the reimbursement that restores the petty cash to the imprest amount",
+     "compute": "petty_reimbursement = amount_spent"
+    }
+   ]
+  },
+  {
+   "id": "keac.104.4.1",
+   "title": "Posting from the Journal to the Ledger",
+   "section": "4.2 Posting in Ledger",
+   "definition": "Posting transfers journal entries to the ledger accounts of the concerned parties, debiting one account and crediting the other, and each account is balanced to find its net position.",
+   "formula": "account_balance = debit_total - credit_total",
+   "key_idea": "The ledger classifies the chronologically recorded transactions account-wise, and its balances feed the trial balance.",
+   "textbook_ref": "keac104.txt ledger sections",
+   "question_patterns": [
+    "how are journal entries posted to ledger accounts",
+    "what is meant by balancing a ledger account",
+    "calculate the balance of an account from its debit and credit totals",
+    "distinguish between journal and ledger",
+    "what is a debit balance and a credit balance",
+    "state the steps of posting and balancing an account"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "total the two sides",
+     "explain": "Deduct the credit total from the debit total to get the account balance",
+     "compute": "account_balance = debit_total - credit_total"
+    }
+   ]
+  },
+  {
+   "id": "keac.104.5.1",
+   "title": "Bank Balance after Deposits and Withdrawals",
+   "section": "4.1.2 Double Column Cash Book",
+   "definition": "The closing bank column balance is obtained by adding deposits to the opening bank balance and deducting cheques issued and payments made, and a negative result indicates a bank overdraft.",
+   "formula": "closing_bank_balance = opening_bank_balance + deposits - withdrawals",
+   "key_idea": "This computation mirrors the pass book and prepares the ground for the bank reconciliation statement of the next chapter.",
+   "textbook_ref": "keac104.txt section 4.1.2",
+   "question_patterns": [
+    "calculate the closing bank balance from deposits and withdrawals",
+    "when does a bank column show an overdraft",
+    "how is the bank balance arrived at in the cash book",
+    "find the bank balance after the given cheques are issued",
+    "distinguish favourable balance from overdraft",
+    "compute the balance carried down in the bank column"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add deposits and deduct withdrawals",
+     "explain": "Add the deposits to the opening bank balance and deduct the withdrawals to get the closing bank balance",
+     "compute": "closing_bank_balance = opening_bank_balance + deposits - withdrawals"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "keac104.txt section 4.1.1",
+   "concept": "keac.104.1.1",
+   "question_type": "compute_cash_balance",
+   "question_pattern": "A cash book shows total receipts of {receipt_total} rupees and total payments of {payment_total} rupees. Calculate the closing cash balance.",
+   "extracted_variables": {
+    "receipt_total": 48000,
+    "payment_total": 39500
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find the excess of receipts",
+     "explain": "Deduct the total of payments from the total of receipts to get the closing cash balance",
+     "compute": "closing_cash = receipt_total - payment_total"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "keac104.txt section 4.1.1",
+   "concept": "keac.104.1.1",
+   "question_type": "compute_cash_balance",
+   "question_pattern": "During the week a trader received {receipt_total} rupees in cash and paid out {payment_total} rupees. Find the cash in hand at the end.",
+   "extracted_variables": {
+    "receipt_total": 12600,
+    "payment_total": 9800
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find the excess of receipts",
+     "explain": "Deduct the total of payments from the total of receipts to get the closing cash balance",
+     "compute": "closing_cash = receipt_total - payment_total"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "keac104.txt section 4.1.3",
+   "concept": "keac.104.3.1",
+   "question_type": "compute_imprest_reimbursement",
+   "question_pattern": "The imprest amount of a petty cashier is {imprest_amount} rupees and {petty_cash_in_hand} rupees remain unspent at the end of the month. Calculate the reimbursement he will receive.",
+   "extracted_variables": {
+    "imprest_amount": 2000,
+    "petty_cash_in_hand": 320
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find the amount spent",
+     "explain": "Deduct the petty cash in hand from the imprest amount to get the amount spent",
+     "compute": "amount_spent = imprest_amount - petty_cash_in_hand"
+    },
+    {
+     "step": 2,
+     "action": "restore the imprest float",
+     "explain": "The amount spent is the reimbursement that restores the petty cash to the imprest amount",
+     "compute": "petty_reimbursement = amount_spent"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "keac104.txt section 4.1.3",
+   "concept": "keac.104.3.1",
+   "question_type": "compute_imprest_reimbursement",
+   "question_pattern": "Under the imprest system the float is {imprest_amount} rupees. The petty cashier holds {petty_cash_in_hand} rupees at month end. Work out the amount spent and the amount to be reimbursed.",
+   "extracted_variables": {
+    "imprest_amount": 5000,
+    "petty_cash_in_hand": 740
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find the amount spent",
+     "explain": "Deduct the petty cash in hand from the imprest amount to get the amount spent",
+     "compute": "amount_spent = imprest_amount - petty_cash_in_hand"
+    },
+    {
+     "step": 2,
+     "action": "restore the imprest float",
+     "explain": "The amount spent is the reimbursement that restores the petty cash to the imprest amount",
+     "compute": "petty_reimbursement = amount_spent"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "keac104.txt section 4.1.2",
+   "concept": "keac.104.5.1",
+   "question_type": "compute_bank_balance",
+   "question_pattern": "The opening bank balance is {opening_bank_balance} rupees. Deposits of {deposits} rupees are made and cheques of {withdrawals} rupees are issued. Calculate the closing bank balance.",
+   "extracted_variables": {
+    "opening_bank_balance": 25000,
+    "deposits": 62000,
+    "withdrawals": 48000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add deposits and deduct withdrawals",
+     "explain": "Add the deposits to the opening bank balance and deduct the withdrawals to get the closing bank balance",
+     "compute": "closing_bank_balance = opening_bank_balance + deposits - withdrawals"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "keac104.txt section 4.1.2",
+   "concept": "keac.104.5.1",
+   "question_type": "compute_bank_balance",
+   "question_pattern": "A firm's bank column shows {opening_bank_balance} rupees at the start, deposits of {deposits} rupees and payments of {withdrawals} rupees by cheques. Find the balance carried down.",
+   "extracted_variables": {
+    "opening_bank_balance": 40000,
+    "deposits": 90000,
+    "withdrawals": 118000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add deposits and deduct withdrawals",
+     "explain": "Add the deposits to the opening bank balance and deduct the withdrawals to get the closing bank balance",
+     "compute": "closing_bank_balance = opening_bank_balance + deposits - withdrawals"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "keac104.txt ledger sections",
+   "concept": "keac.104.4.1",
+   "question_type": "compute_account_balance",
+   "question_pattern": "A ledger account shows a debit total of {debit_total} rupees and a credit total of {credit_total} rupees. Calculate the balance of the account.",
+   "extracted_variables": {
+    "debit_total": 67000,
+    "credit_total": 52300
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "total the two sides",
+     "explain": "Deduct the credit total from the debit total to get the account balance",
+     "compute": "account_balance = debit_total - credit_total"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "keac104.txt ledger sections",
+   "concept": "keac.104.4.1",
+   "question_type": "compute_account_balance",
+   "question_pattern": "From debit postings of {debit_total} rupees and credit postings of {credit_total} rupees in an account, work out the balance to be carried down.",
+   "extracted_variables": {
+    "debit_total": 31800,
+    "credit_total": 29600
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "total the two sides",
+     "explain": "Deduct the credit total from the debit total to get the account balance",
+     "compute": "account_balance = debit_total - credit_total"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "keac104.txt exercises section",
+   "questions": [
+    "Record the following transactions in a single column cash book and balance it.",
+    "Enter the following transactions in a double column cash book with cash and bank columns.",
+    "Explain the imprest system of the petty cash book.",
+    "Prepare an analytical petty cash book from the given payments.",
+    "Bring out the differences between a cash book and a cash account.",
+    "Post the following journal entries into the ledger and balance the accounts.",
+    "What is a contra entry? Give two examples."
+   ]
+  }
+ ]
+}

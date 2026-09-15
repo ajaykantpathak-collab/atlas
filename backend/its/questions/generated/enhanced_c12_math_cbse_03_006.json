@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_03_006",
+   "title": "c12_math_cbse_03_006",
+   "questions": [
+    {
+     "q": "Define scalar multiplication of a matrix A = [aᵢⱼ] of order m × n by a scalar k. Write the resulting matrix's order and its (i, j)ᵗʰ element.",
+     "a": "Scalar multiplication kA produces a matrix of the same order m × n whose (i, j)ᵗʰ element is k·aᵢⱼ. A wrong answer (e.g., saying order changes to k×m × k×n, or element becomes aᵢⱼ + k) reveals confusion between scalar multiplication and matrix addition or matrix multiplication. Students often mistakenly think the scalar changes the matrix dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why k(A + B) = kA + kB holds for matrices A and B of the same order, but (k + l)A = kA + lA requires A to be a matrix and k, l to be scalars. What would go wrong if A and B had different orders in the first property?",
+     "a": "k(A + B) = kA + kB works because matrix addition is defined element-wise only for same-order matrices; if orders differ, A + B is undefined so the left side doesn't exist. (k + l)A = kA + lA uses scalar addition (k + l) which is always defined, then scalar multiplication. A wrong answer that ignores the same-order requirement for A + B shows the student doesn't grasp that matrix addition is a prerequisite for the distributive property to even be meaningful.",
+     "self_check": true
+    },
+    {
+     "q": "If A = \n⎡2  -1⎤\n⎣3   4⎦\nand B = \n⎡1   0⎤\n⎣-2  5⎦\ncompute 3A - 2B. Show all steps.",
+     "a": "Step 1: 3A = 3 × \n⎡2  -1⎤ = \n⎡6  -3⎤\n⎣3   4⎦   ⎣9  12⎦\n\nStep 2: 2B = 2 × \n⎡1   0⎤ = \n⎡2   0⎤\n⎣-2  5⎦   ⎣-4  10⎦\n\nStep 3: 3A - 2B = \n⎡6  -3⎤ - \n⎡2   0⎤ = \n⎡6-2  -3-0⎤ = \n⎡4  -3⎤\n⎣9  12⎦   ⎣-4  10⎦   ⎣9-(-4)  12-10⎦   ⎣13  2⎦\n\nA wrong answer like \n⎡4  -3⎤\n⎣5   2⎦\n(reveals subtracting 9 - 4 = 5 instead of 9 - (-4) = 13) shows sign error when subtracting negative elements — a very common mistake in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Given matrices A (2×3) and B (2×3), and scalars k = 2, l = -3. Compare the results of (k + l)A and kA + lA. Then explain why the property (k + l)A = kA + lA would fail if we tried to apply it to (k + l)(A + B) without additional conditions.",
+     "a": "(k + l)A = (2 - 3)A = (-1)A = -A. kA + lA = 2A + (-3)A = 2A - 3A = -A. They are equal. For (k + l)(A + B), the left side is (k + l) times the matrix (A + B), which requires A + B to be defined (same order). The right side would be (k + l)A + (k + l)B by distributivity of scalar over matrix addition, which also requires A and B same order. The property doesn't \"fail\" — it's that (k + l)(A + B) = (k + l)A + (k + l)B is a different distributive law (scalar over matrix sum). A wrong answer confusing the two distributive laws reveals the student memorizes formulas without understanding the hierarchy: scalar addition → scalar multiplication → matrix addition.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves for X in the equation 2X + 3A = 5B where \nA = \n⎡1  2⎤\n⎣3  4⎦\n, B = \n⎡2  0⎤\n⎣1  3⎦\nand writes:\n2X = 5B - 3A\nX = (5B - 3A)/2\nIs this correct? If not, identify the error and give the correct steps.",
+     "a": "The step X = (5B - 3A)/2 is notationally incorrect — matrix division is not defined. The correct step is X = ½(5B - 3A) or X = (1/2)(5B - 3A). The student treated scalar division like matrix division, which is a critical conceptual error. Correct steps:\n5B = \n⎡10  0⎤\n⎣5  15⎦\n3A = \n⎡3  6⎤\n⎣9  12⎦\n5B - 3A = \n⎡7  -6⎤\n⎣-4  3⎦\nX = ½(5B - 3A) = \n⎡3.5  -3⎤\n⎣-2   1.5⎦\nWriting \"/2\" instead of \"× ½\" costs marks in board exams and shows misunderstanding of matrix algebra vs scalar algebra.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world problem (Indian context: rupees, items, quantities) that requires scalar multiplication of a matrix and addition of two scaled matrices. Write the problem statement, set up the matrices, and show the computation.",
+     "a": "Problem: A stationery shop sells notebooks (₹40), pens (₹10), and erasers (₹5). On Monday, they sold 20 notebooks, 50 pens, 30 erasers. On Tuesday, sales were 15 notebooks, 40 pens, 25 erasers. Represent Monday and Tuesday sales as column matrices M and T. If the shop owner wants to calculate total revenue for 3 Mondays and 2 Tuesdays combined, set up and solve.\nM = \n⎡20⎤\n⎢50⎥\n⎣30⎦\n, T = \n⎡15⎤\n⎢40⎥\n⎣25⎦\nPrice matrix P = [40  10  5] (row matrix).\nRevenue for 3 Mondays = 3(P·M) = 3[40·20 + 10·50 + 5·30] = 3[800+500+150] = 3×1450 = ₹4350.\nRevenue for 2 Tuesdays = 2(P·T) = 2[40·15 + 10·40 + 5·25] = 2[600+400+125] = 2×1125 = ₹2250.\nTotal = ₹6600.\nAlternatively using matrix addition: 3M + 2T = \n⎡60⎤ + \n⎡30⎤ = \n⎡90⎤\n⎢150⎥   ⎢80⎥   ⎢230⎥\n⎣90⎦   ⎣50⎦   ⎣140⎦\nThen P·(3M + 2T) = [40 10 5]·\n⎡90⎤ = 40·90 + 10·230 + 5·140 = 3600+2300+700 = ₹6600.\n⎢230⎥\n⎣140⎦\nA poor answer that only computes one day or forgets to multiply by the scalar shows inability to translate \"3 Mondays\" into 3M.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

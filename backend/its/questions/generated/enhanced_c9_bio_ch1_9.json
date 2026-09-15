@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch1_9",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch1_9",
+   "title": "c9_bio_ch1_9",
+   "questions": [
+    {
+     "q": "Name the two membranes of the mitochondrion and state one key structural difference between them.",
+     "a": "The outer membrane is smooth and permeable to small molecules via porins; the inner membrane is highly folded into cristae, impermeable to most ions, and contains the electron transport chain complexes and ATP synthase. A wrong answer (e.g., \"both membranes are folded\" or \"outer membrane has cristae\") reveals the student has not distinguished the functional specialization of the two membranes — a critical board-level distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the inner mitochondrial membrane fold into cristae instead of remaining smooth like the outer membrane?",
+     "a": "Cristae dramatically increase the surface area of the inner membrane, allowing more copies of electron transport chain complexes and ATP synthase to be embedded, which directly increases the rate of oxidative phosphorylation and ATP production. A wrong answer (e.g., \"to increase volume\" or \"for protection\") shows the student memorizes the term \"cristae\" but does not understand the structure-function relationship — the core concept tested in board diagram-labeling and reason-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes two cell types under a microscope: Cell A has very few mitochondria; Cell B is packed with mitochondria. Predict which cell type is likely a skeletal muscle fiber and which is a mature red blood cell. Justify your prediction.",
+     "a": "Cell B (packed with mitochondria) is the skeletal muscle fiber — muscle contraction requires continuous, high-rate ATP supply for actin-myosin cross-bridge cycling. Cell A (few mitochondria) is the mature red blood cell — mammalian RBCs lack mitochondria entirely (they lose them during maturation) and rely solely on anaerobic glycolysis for ATP, maximizing space for hemoglobin. A wrong prediction reveals the student cannot link mitochondrial density to cellular energy demand, a classic board application question.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the location and function of the Krebs cycle and the electron transport chain within the mitochondrion. How does the double-membrane structure enable their coordination?",
+     "a": "The Krebs cycle occurs in the matrix (soluble enzymes), producing NADH and FADH2 that diffuse to the inner membrane; the electron transport chain is embedded in the inner membrane (cristae), where it uses those electron carriers to pump protons into the intermembrane space, creating a gradient that drives ATP synthase. The double membrane is essential: the outer membrane allows pyruvate entry, the inner membrane maintains the proton gradient (impermeable to H+), and the matrix concentrates Krebs cycle enzymes. A wrong answer (e.g., placing Krebs cycle on cristae or ETC in matrix) indicates the student treats respiration as a single undifferentiated process rather than compartmentalized stages — a key Class 9 board distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Mitochondria are the only organelles that produce ATP in eukaryotic cells.\" Is it correct? Explain your reasoning with evidence from cell biology.",
+     "a": "The statement is incorrect. While mitochondria produce the majority of ATP through oxidative phosphorylation, chloroplasts (in plant cells) produce ATP during photosynthesis via photophosphorylation, and substrate-level phosphorylation in the cytoplasm (glycolysis) also generates a small amount of ATP. A wrong evaluation (agreeing with the statement) reveals the student has not integrated knowledge across organelles (plastids, covered in c9_bio_ch1_10) and overlooks glycolysis — a common board-level overgeneralization.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple investigation using germinating seeds to demonstrate that mitochondria are active sites of respiration. List the materials, procedure, and the expected observation that would support the claim.",
+     "a": "Materials: Germinating moong (mung bean) seeds, boiled (dead) moong seeds, methylene blue indicator, two test tubes, water bath at 37°C. Procedure: Place live germinating seeds in one tube with methylene blue solution; place boiled seeds in another tube with same solution. Incubate at 37°C. Observation: Methylene blue (blue when oxidized) turns colorless in the live seed tube because active mitochondrial respiration reduces it; it stays blue in the boiled seed tube. A poor design (e.g., using dry seeds, no control, measuring CO2 without linking to mitochondria) shows the student cannot translate the abstract concept \"mitochondria respire\" into a testable, observable experiment — a skill board practical exams assess.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

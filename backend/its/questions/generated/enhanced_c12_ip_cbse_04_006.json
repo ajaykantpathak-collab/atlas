@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_04_006",
+   "title": "c12_ip_cbse_04_006",
+   "questions": [
+    {
+     "q": "A student receives an email claiming to be from \"Amazon India\" with sender address \"support@amazon-india-services.xyz\" and a link \"http://amazon-india-services.xyz/verify\". The email says their account will be locked unless they verify credit card details. List three specific technical indicators that reveal this is a phishing attempt.",
+     "a": "Correct indicators: (1) Sender domain \"amazon-india-services.xyz\" does not match Amazon's official domain \"amazon.in\" or \"amazon.com\" — attackers use subdomain-like names in unrelated TLDs (.xyz, .top, .club). (2) The link uses HTTP not HTTPS, and the domain is not Amazon's. (3) Legitimate companies never ask for full credit card details via email links. A wrong answer (e.g., \"the email has spelling mistakes\") reveals the student relies only on superficial cues and misses structural domain analysis — a critical gap because sophisticated spear-phishing emails often have perfect grammar.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why \"spear phishing\" is more dangerous than generic \"bulk phishing\", and give a concrete Indian-context example of spear phishing targeting a Class 12 student.",
+     "a": "Spear phishing uses personal details (name, school, roll number, recent activity) to build trust, making the lure highly credible — unlike bulk phishing's generic \"Dear Customer\". Example: An email \"From: CBSE Examination Controller <examcontroller@cbse.gov.in.attacker-domain.com>\" with subject \"URGENT: Discrepancy in your Class 12 Roll Number 12345678 — Click to Verify\" sent two days before admit card release. The student's roll number and timing make it appear authentic. A wrong answer confusing spear phishing with \"targeted ads\" or \"whaling\" (which targets executives) shows misunderstanding of the *personalization* aspect and the *victim profile*.",
+     "self_check": true
+    },
+    {
+     "q": "A friend tells you: \"I got a call from 'Bank of Baroda' saying my debit card was used for a ₹45,000 purchase in Dubai. They asked for the OTP sent to my phone to 'block the transaction'. I gave it. Was that phishing?\" Analyze the situation: identify the attack type, explain why giving the OTP was catastrophic, and state the correct action.",
+     "a": "This is **vishing** (voice phishing) combined with **real-time OTP interception**. The attacker likely triggered a legitimate transaction (or login) which sent the OTP to the victim; by asking for the OTP to \"block\" it, they actually completed the transaction. Giving the OTP authorized the fraudulent transfer — banks NEVER ask for OTP to block/cancel transactions. Correct action: Hang up, call the bank's official number (from back of card/statement), check transaction history, report to 1930 (National Cyber Crime Helpline). A wrong answer like \"it's not phishing because it was a call\" reveals confusion between phishing (email) and vishing (voice) — both are social engineering under the same umbrella.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"pharming\" and \"phishing\" in terms of (a) user interaction required, (b) technical mechanism, (c) detectability by an average user. Which poses a greater risk for a student using public Wi-Fi in a café?",
+     "a": "(a) Phishing requires user to click a link/open attachment; pharming redirects *automatically* via DNS poisoning/hosts file modification — user types correct URL but lands on fake site. (b) Phishing uses social engineering + fake URLs; pharming compromises DNS infrastructure (router, ISP, local hosts file). (c) Phishing detectable by URL inspection; pharming nearly invisible — URL bar shows correct address, SSL certificate may even be valid (if attacker obtains one). On public Wi-Fi, **pharming via rogue DHCP/DNS** is greater risk: attacker controls the network's DNS, redirecting all banking sites to clones without any user mistake. A wrong answer saying \"phishing is worse because it's more common\" ignores the *passive* nature of pharming — the user does everything \"right\" and still gets compromised.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Enabling Two-Factor Authentication (2FA) on all accounts makes you immune to identity theft resulting from phishing.\" Defend or refute with specific attack scenarios relevant to Indian digital payment ecosystem (UPI, net banking, Aadhaar OTP).",
+     "a": "**Refute.** 2FA significantly raises the bar but is not absolute immunity. Attack vectors that bypass 2FA: (1) **Real-time phishing kit (reverse proxy)**: Attacker's fake site proxies credentials + 2FA code to real site instantly (e.g., Evilginx2) — victim enters OTP on fake page, attacker uses it on real site within seconds. (2) **SIM swap / OTP interception**: Attacker ports victim's mobile number (using forged documents at telecom store), receives UPI/banking OTPs on new SIM. (3) **Malware on device**: Keylogger/accessibility service reads OTP from notifications (Android malware like \"EventBot\"). (4) **Consent phishing (OAuth)**: \"Login with Google/Microsoft\" prompts on fake sites grant attacker persistent access tokens without needing password/2FA again. In India, UPI PIN is *not* 2FA — it's the primary credential; phishing for UPI PIN via fake \"collect request\" or \"mandate\" screens is rampant. A wrong answer agreeing with immunity shows over-reliance on a single control and ignorance of session hijacking, SIM swap, and OAuth abuse.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-step \"Phishing Incident Response Checklist\" for a Class 12 student who just clicked a suspicious link and entered their school email password on a fake login page. The checklist must be actionable within 10 minutes, use only free tools/resources available in India, and prioritize limiting damage from potential identity theft.",
+     "a": "Good checklist: (1) **Immediately change password** on the *real* school email portal (not via any link) — use a unique 12+ char passphrase. (2) **Enable 2FA** (Google Authenticator/Authy — not SMS) on that email and all linked accounts (Google, Microsoft, social media). (3) **Check account activity/recent logins** — revoke unrecognized sessions/devices. (4) **Scan device** with free malware scanner (Malwarebytes Free, Windows Defender Offline) — phishing links often drop keyloggers. (5) **Report** to school IT admin, then to **National Cyber Crime Reporting Portal (cybercrime.gov.in)** and **CERT-In (cert-in.org.in)** with screenshot/URL. A poor answer omits device scanning (misses malware persistence), uses SMS 2FA (vulnerable to SIM swap), or suggests \"wait and see\" — revealing dangerous passivity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

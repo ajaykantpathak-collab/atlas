@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch4_7",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch4_7",
+   "title": "c9_math_ch4_7",
+   "questions": [
+    {
+     "q": "Write down the four standard algebraic identities used for factorisation in Class 9, clearly stating the expanded form on the left and the factorised form on the right.",
+     "a": "The four identities are: (1) a² + 2ab + b² = (a + b)², (2) a² - 2ab + b² = (a - b)², (3) a² - b² = (a + b)(a - b), (4) a² + b² + c² + 2ab + 2bc + 2ca = (a + b + c)². If a student writes (a + b)² = a² + b² (missing 2ab), they confuse the square of a sum with the sum of squares - a fundamental misconception from middle school. If they write a² - b² = (a - b)², they confuse difference of squares with square of a difference. Both errors show they have memorised forms without understanding the expansion logic.",
+     "self_check": true
+    },
+    {
+     "q": "A student factorises 4x² - 12x + 9 as (2x - 3)(2x - 3). Another student says it should be (2x - 3)². Are both answers correct? Explain why or why not, and identify which identity is being used.",
+     "a": "Yes, both answers are correct because (2x - 3)(2x - 3) is exactly the same as (2x - 3)² - the square notation is just a shorthand for writing the same factor twice. The identity used is a² - 2ab + b² = (a - b)² with a = 2x and b = 3. A wrong answer would be saying they are different, which reveals the student doesn't understand that exponent 2 means \"multiply by itself\". Another error: identifying it as (a + b)² because they see \"4x²\" and \"9\" as squares but miss the negative middle term, showing they only check first and last terms without verifying the middle term's sign and coefficient.",
+     "self_check": true
+    },
+    {
+     "q": "Factorise completely: 16y² - 25z². Show all steps including identifying a and b.",
+     "a": "Step 1: Recognise both terms are perfect squares: 16y² = (4y)² and 25z² = (5z)².\nStep 2: Identify the identity: a² - b² = (a + b)(a - b).\nStep 3: Set a = 4y, b = 5z.\nStep 4: Apply the identity: (4y)² - (5z)² = (4y + 5z)(4y - 5z).\nStep 5: Verify by expanding: (4y + 5z)(4y - 5z) = 16y² - 20yz + 20yz - 25z² = 16y² - 25z². ✓\nA wrong answer like (4y - 5z)² reveals the student incorrectly applies the perfect square identity to a difference of squares, ignoring that the middle term would be -40yz, not zero. Writing (4y + 5z)² shows they miss the subtraction sign entirely.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the factorisation of x² + 6x + 9 and x² - 9. What is the same about the process? What is different? Why does the first give a square of a binomial while the second gives a product of sum and difference?",
+     "a": "Both processes start by checking if terms are perfect squares: x² = (x)² in both, 9 = 3² in both. The difference: x² + 6x + 9 has THREE terms with a middle term 6x = 2·x·3, fitting a² + 2ab + b² = (a + b)². x² - 9 has only TWO terms with a minus sign, fitting a² - b² = (a + b)(a - b). The first gives a square because the middle term confirms it's a perfect square trinomial; the second gives sum/difference because there is NO middle term (coefficient of x is 0), so it cannot be a perfect square trinomial. A wrong answer saying \"both use the same identity\" shows the student cannot distinguish between three-term and two-term patterns.",
+     "self_check": true
+    },
+    {
+     "q": "A student factorises 9a² + 12ab + 4b² as (3a + 2b)(3a + 2b). They then write the final answer as 9a² + 12ab + 4b² = (3a + 2b)². Is this fully correct? If not, what step is missing in their working that a board exam would require?",
+     "a": "The factorisation is mathematically correct, but the working is incomplete for a board exam. The student must explicitly show: (i) identifying 9a² = (3a)² and 4b² = (2b)², (ii) checking the middle term: 12ab = 2 × (3a) × (2b), (iii) stating the identity used: a² + 2ab + b² = (a + b)² with a = 3a, b = 2b, (iv) writing the factorised form. Simply writing the answer without showing the verification of the middle term 2ab loses marks because the examiner cannot see if the student actually checked the identity conditions or just guessed. A wrong answer saying \"it's fully correct\" reveals the student doesn't understand board exam expectations for showing reasoning steps.",
+     "self_check": true
+    },
+    {
+     "q": "Create a polynomial in two variables x and y that can be factorised using the identity (a + b + c)², where a, b, c are distinct terms involving x and y. Write the polynomial in expanded form, then factorise it, showing how you chose a, b, c.",
+     "a": "Example: Choose a = 2x, b = 3y, c = 4. Then (a + b + c)² = (2x + 3y + 4)² = (2x)² + (3y)² + 4² + 2(2x)(3y) + 2(3y)(4) + 2(4)(2x) = 4x² + 9y² + 16 + 12xy + 24y + 16x. The expanded polynomial is 4x² + 9y² + 16 + 12xy + 24y + 16x. To factorise: identify squares: 4x² = (2x)², 9y² = (3y)², 16 = 4². Check cross terms: 12xy = 2(2x)(3y) ✓, 24y = 2(3y)(4) ✓, 16x = 2(4)(2x) ✓. All six terms match, so factorised form is (2x + 3y + 4)². A poor answer would create an expression missing one cross term (e.g., no 24y), showing the student doesn't understand that (a+b+c)² produces SIX terms, not three.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

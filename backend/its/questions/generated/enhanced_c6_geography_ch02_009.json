@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_geography_ch02_009",
+ "concepts": [
+  {
+   "id": "enh:c6_geography_ch02_009",
+   "title": "c6_geography_ch02_009",
+   "questions": [
+    {
+     "q": "What is the primary substance inside the tube of a standard thermometer that allows it to work?",
+     "a": "It uses a liquid like mercury or alcohol. A wrong answer suggests the student hasn't grasped the physical mechanism of expansion, perhaps confusing it with a digital screen.",
+     "self_check": true
+    },
+    {
+     "q": "If you take a thermometer out of a cold room and put it into the hot sun, what happens to the liquid inside the tube?",
+     "a": "The liquid expands and rises up the tube. If a student says it \"contracts,\" they have reversed the basic principle of thermal expansion.",
+     "self_check": true
+    },
+    {
+     "q": "You are looking at a thermometer where the liquid level is at the mark '20'. If the temperature drops, will the liquid level go above or below the 20 mark?",
+     "a": "It will go below the 20 mark because cold causes contraction. A wrong answer shows a failure to visualize the relationship between liquid volume and temperature.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it necessary for the glass tube of a thermometer to have a \"narrow bore\" (a very thin opening)?",
+     "a": "A narrow bore makes it easier to see small changes in the volume of the liquid. If the tube were too wide, the liquid would barely move, making it hard to measure precise changes.",
+     "self_check": true
+    },
+    {
+     "q": "Could a thermometer work if the glass tube were open at the top?",
+     "a": "No, the liquid would evaporate or spill out, and the pressure changes would make it inaccurate. This tests the understanding that a \"sealed\" environment is crucial for consistent measurement.",
+     "self_check": true
+    },
+    {
+     "q": "If you were to design a simple scale for a thermometer, what two \"anchor points\" would you choose to mark the tube?",
+     "a": "The freezing point of water and the boiling point of water. This shows an understanding of using fixed physical states to create a reliable measurement scale.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

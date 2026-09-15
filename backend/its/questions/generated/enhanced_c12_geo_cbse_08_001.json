@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_08_001",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_08_001",
+   "title": "c12_geo_cbse_08_001",
+   "questions": [
+    {
+     "q": "Define transport in the context of economic geography. How does it differ from the everyday meaning of \"moving people\"?",
+     "a": "Correct answer: Transport in economic geography is the movement of goods, services, and people across space to overcome the friction of distance, creating place utility and enabling spatial division of labour. It differs from everyday meaning by emphasizing *economic function* (linking production to consumption, integrating markets) rather than just physical displacement. A wrong answer that only mentions \"moving people and goods\" without the economic purpose reveals the student sees transport as a physical activity, not a geographic-economic process.",
+     "self_check": true
+    },
+    {
+     "q": "Why do economists say \"transport creates place utility\"? Explain using the example of coal moving from Jharkhand to Punjab.",
+     "a": "Correct answer: Place utility is the value added by making a good available where it is needed. Coal in Jharkhand has low utility for a Punjab power plant due to distance; transport moves it to where its marginal utility (value in electricity generation) is high, capturing the difference as economic gain. A wrong answer that says \"transport adds value by moving things\" without linking to *spatial mismatch of resource location and demand* reveals confusion between form utility (manufacturing) and place utility (transport).",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in western Uttar Pradesh grows sugarcane. The nearest sugar mill is 40 km away by road, but the road is unpaved and becomes unusable in monsoon. The farmer sells to a local jaggery unit at ₹280/quintal instead of the mill’s ₹340/quintal. Calculate the implicit transport cost per quintal that the poor road imposes, and explain how this affects the farmer’s production decision next season.",
+     "a": "Correct answer: Implicit transport cost = ₹340 – ₹280 = ₹60/quintal. This ₹60 is not a paid freight charge but an *opportunity cost* of inadequate transport. Next season, the farmer may reduce sugarcane area because the effective farm-gate price is lowered by this hidden transport cost, demonstrating how transport infrastructure directly shapes agricultural supply response. A wrong answer that calculates ₹60 but calls it \"loss due to middlemen\" misses the geographical point: the cost arises from *spatial friction* due to poor transport, not market structure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the economic role of the Golden Quadrilateral (NHAI highway network) with the Dedicated Freight Corridor (DFC) railway. Which contributes more to *manufacturing competitiveness* and why?",
+     "a": "Correct answer: The DFC contributes more to manufacturing competitiveness because it lowers *per-tonne-km cost for bulk raw materials and finished goods* over long distances (e.g., steel from Odisha to Maharashtra), enabling economies of scale in production. The Golden Quadrilateral excels at *time-sensitive, high-value, door-to-door* movement (auto components, perishables). A student who says \"highways are better because they are faster\" ignores that manufacturing competitiveness for bulk industries depends on *low unit freight cost*, not speed — revealing a confusion between passenger and freight transport economics.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Inland water transport is the cheapest mode, so India should shift all bulk freight from rail to rivers.\" Consider at least three geographical/economic constraints.",
+     "a": "Correct evaluation: The statement is flawed. Constraints: (1) **Geographical**: Peninsular rivers are seasonal, non-perennial, and flow across hard rock — not navigable year-round (unlike Ganga-Brahmaputra). (2) **Economic**: Water transport requires *double handling* (rail/road to river port, then river, then rail/road to destination), adding terminal costs that erase the line-haul advantage for short/medium hauls. (3) **Network**: Rivers don’t connect industrial clusters directly; rail/road networks do. A student who agrees without qualifications ignores *total logistics cost* vs *line-haul cost* and India’s river morphology — a classic competitive-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a transport improvement plan for a hypothetical backward district in central India (rich in limestone, 150 km from nearest railway, connected only by a single-lane state highway). Your plan must specify: (a) one immediate low-cost intervention, (b) one medium-term infrastructure project, (c) one policy measure to attract private investment. Justify each geographically.",
+     "a": "Good answer criteria: (a) Immediate: Upgrade state highway to two-lane with hard shoulders — reduces vehicle operating cost (VOC) by 15–20% immediately, enables two-way truck movement for limestone. (b) Medium-term: Build a 30 km railway siding from mainline to a new loading yard near limestone clusters — shifts bulk freight to rail, cuts freight cost by 40–50% for cement plants. (c) Policy: Declare the district a \"Logistics Hub\" under PM Gati Shakti, offering land at circle rate and single-window clearance for warehousing — leverages *agglomeration economies* by co-locating transport, storage, and processing. A poor answer lists generic \"build roads and railways\" without linking to the specific resource (limestone), distance (150 km), or the *economic geography* of cement value chains.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

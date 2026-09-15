@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_06_007",
+   "title": "c11_biotech_cbse_06_007",
+   "questions": [
+    {
+     "q": "Define linkage in your own words and state the fundamental difference between linked genes and independently assorting genes.",
+     "a": "Linkage is the tendency of genes on the same chromosome to be inherited together, retaining parental combinations. Linked genes do not assort independently; they segregate together during meiosis unless separated by crossing over. Independently assorting genes are on different chromosomes or far apart on the same chromosome, producing 50% recombinant gametes. A wrong answer that says \"linked genes are always inherited together\" reveals the misconception that crossing over never occurs between linked genes. A wrong answer equating linkage with \"genes being close\" without mentioning chromosome location misses the physical basis.",
+     "self_check": true
+    },
+    {
+     "q": "In a test cross of a dihybrid F1 (AaBb) with a double recessive (aabb), you observe the following progeny: 42% AB, 42% ab, 8% Ab, 8% aB. Are the genes linked? If so, is it complete or incomplete linkage? Justify using the expected ratio under independent assortment.",
+     "a": "Yes, the genes are linked and show incomplete linkage. Under independent assortment, a test cross yields 25% each of the four phenotypes (1:1:1:1). Here, parental types (AB, ab) total 84% while recombinants (Ab, aB) total 16%. Since recombinants are present but less than 50%, it is incomplete linkage. A wrong answer claiming \"complete linkage because parental types are more\" ignores the presence of recombinants. A wrong answer saying \"not linked because all four types appear\" fails to recognize that linkage is defined by deviation from 1:1:1:1, not absence of recombinants.",
+     "self_check": true
+    },
+    {
+     "q": "Morgan crossed a grey-bodied, vestigial-winged Drosophila (BBvv) with a black-bodied, long-winged Drosophila (bbVV). The F1 were all grey-bodied, long-winged (BbVv). When F1 females were test-crossed with bbvv males, the progeny were: 41.5% grey-vestigial, 41.5% black-long, 8.5% grey-long, 8.5% black-vestigial. Calculate the recombination frequency and the map distance between the body colour and wing shape genes.",
+     "a": "Recombination frequency = (grey-long + black-vestigial) / total = (8.5% + 8.5%) = 17%. Map distance = 17 map units = 17 centimorgans (cM). Steps: (1) Identify parental types (grey-vestigial, black-long) matching the original P generation combinations. (2) Identify recombinant types (grey-long, black-vestigial) as new combinations. (3) Sum recombinant percentages: 8.5 + 8.5 = 17%. (4) 1% recombination = 1 cM by definition. A wrong answer of 8.5% reveals counting only one recombinant class. A wrong answer of 83% confuses parental frequency with recombination frequency.",
+     "self_check": true
+    },
+    {
+     "q": "Bateson and Punnett crossed sweet pea plants with red flowers and long pollen (dominant) with white flowers and short pollen (recessive). The F2 showed a significant excess of parental combinations (red-long, white-short) over recombinant combinations (red-short, white-long). They could not explain this deviation. Explain why their data contradicted Mendel's law of independent assortment and what physical basis Morgan later provided.",
+     "a": "Independent assortment predicts a 9:3:3:1 phenotypic ratio in F2 (or 1:1:1:1 in test cross), which requires the two gene pairs to segregate independently. Bateson-Punnett's excess of parental types meant the alleles for flower colour and pollen length did not assort independently—they tended to stay together. Morgan later showed that genes are arranged linearly on chromosomes; genes on the same chromosome (linked) move together during meiosis unless crossing over separates them. The physical basis is chromosomal location: linked genes reside on the same chromosome. A wrong answer saying \"Mendel was wrong\" misses that independent assortment holds for unlinked genes. A wrong answer citing \"dominance\" confuses dominance relationships with segregation behavior.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If two genes are linked, a test cross of the F1 dihybrid will always produce only two phenotypes in the progeny.\" Evaluate this statement. Is it true for complete linkage, incomplete linkage, both, or neither? Provide a specific counterexample if false.",
+     "a": "The statement is true ONLY for complete linkage. In complete linkage, no crossing over occurs, so only parental gametes form, yielding only two phenotypes (parental types) in a 1:1 ratio in a test cross. In incomplete linkage, crossing over produces recombinant gametes, so four phenotypes appear (two parental, two recombinant), though parental types exceed 50% each. Counterexample: Morgan's Drosophila cross produced four phenotypes (41.5%, 41.5%, 8.5%, 8.5%), proving incomplete linkage. A wrong answer saying \"true for both\" ignores crossing over. A wrong answer saying \"false for both\" misunderstands complete linkage.",
+     "self_check": true
+    },
+    {
+     "q": "Design a genetic cross experiment using Drosophila to determine whether two newly discovered mutations—sepia eyes (se) and ebony body (e)—are linked or assort independently. Specify the parental genotypes, the cross scheme, and the phenotypic ratios you would expect in the F2 for each hypothesis (linked vs. independent). How would you distinguish complete from incomplete linkage if they are linked?",
+     "a": "Parental cross: Pure-breeding sepia eyes, normal body (se/se E+/E+) × pure-breeding normal eyes, ebony body (se+/se+ e/e). F1: All se+/se E+/e (wild-type eyes and body). Test cross F1 with double recessive (se/se e/e). If independent: F2 phenotypes 1:1:1:1 (25% each). If linked (incomplete): Parental types (sepia-normal, normal-ebony) > 50% total; recombinants (sepia-ebony, normal-normal) < 50% total. If complete linkage: Only two phenotypes (parental) in 1:1 ratio, zero recombinants. To distinguish complete vs. incomplete linkage: observe if ANY recombinant progeny appear. Even a single recombinant individual proves incomplete linkage. A poor answer that only describes F2 selfing without a test cross cannot distinguish linkage from epistasis. A poor answer that doesn't specify the double recessive test cross parent fails to reveal the F1 gamete composition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

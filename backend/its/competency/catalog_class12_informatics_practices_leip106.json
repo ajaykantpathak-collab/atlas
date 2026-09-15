@@ -1,0 +1,171 @@
+{
+ "class": 12,
+ "subject": "informatics_practices",
+ "chapter": 6,
+ "chapter_title": "Societal Impacts",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\leip106.txt",
+ "concepts": [
+  {
+   "id": "leip106.1",
+   "title": "Digital Footprints",
+   "definition": "A digital footprint is the trail of data a person leaves online: active footprints are deliberately shared posts, comments and uploads, while passive footprints are traces collected without a deliberate post, such as browsing logs and location records. Footprints persist and can be assembled into a profile.",
+   "formula": "-",
+   "key_idea": "Everything posted can outlive the account that posted it: screenshots, caches and shares mean deletion online is never guaranteed. Thinking before posting is the core habit of digital citizenship.",
+   "question_patterns": [
+    "Differentiate active and passive digital footprints with one example each.",
+    "Why can a deleted post still be recoverable?",
+    "List three items that form a person's digital footprint.",
+    "What habit describes responsible sharing of personal information online?",
+    "How can location records become part of a footprint?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [],
+   "worked_examples": [
+    {
+     "q": "Deliberately shared posts form which kind of digital footprint?",
+     "a": "active"
+    }
+   ]
+  },
+  {
+   "id": "leip106.2",
+   "title": "Netizen and Net Etiquettes",
+   "definition": "A netizen is a citizen of the digital society who uses the Internet responsibly. Net etiquettes are the manners of that society: communication etiquettes (no shouting in all caps, respectful replies), social media etiquettes (verify before sharing, respect others' privacy), file sharing etiquettes respecting licences, and protecting one's own and others' data.",
+   "formula": "-",
+   "key_idea": "Online communication loses tone and body language, so courtesy must be carried by the words themselves. Etiquette extends to intellectual respect: do not forward pirated files or private photos of others.",
+   "question_patterns": [
+    "Who is a netizen?",
+    "Why is typing an entire message in capital letters considered poor etiquette?",
+    "State two social media etiquettes.",
+    "What should you check before forwarding a message claiming a news event?",
+    "List the four etiquette areas the chapter describes."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [],
+   "worked_examples": [
+    {
+     "q": "What is a responsible citizen of the digital society called?",
+     "a": "netizen"
+    }
+   ]
+  },
+  {
+   "id": "leip106.3",
+   "title": "Data Protection and Privacy",
+   "definition": "Data protection keeps personal data safe from unauthorised access and misuse: strong unique passwords, two-step verification with OTP, privacy settings on services, encrypted communication, and limiting what apps may collect. IT law penalises unauthorised access to computer systems and mishandling of personal data.",
+   "formula": "combos = 10 ** n",
+   "key_idea": "Longer credentials raise the number of possible combinations exponentially: a 4-digit numeric PIN allows 10^4 combinations, while an 8-character mixed-case alphanumeric password allows far more, which is why length and variety both matter.",
+   "question_patterns": [
+    "How many 4-digit numeric PIN combinations exist?",
+    "Why is a longer password harder to guess by trying all combinations?",
+    "Name two protections besides passwords for an online account.",
+    "What is the role of an OTP in two-step verification?",
+    "State one provision of IT law about unauthorised access to systems."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "compute": "combos = 10 ** n"
+    },
+    {
+     "compute": "tries_each = time_s / combos"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "How many combinations does a 4-digit numeric PIN allow?",
+     "a": "10000"
+    }
+   ]
+  },
+  {
+   "id": "leip106.4",
+   "title": "Intellectual Property Right and Licensing",
+   "definition": "An intellectual property right protects creations of the mind: copyright covers software, books and artwork, patents cover inventions, and trademarks cover brand identity. Software licensing states what users may do: proprietary licences restrict copying and modification, while open source licences such as GPL, BSD and Apache grant study, modification and redistribution under stated terms, and Creative Commons licences let creators permit sharing of content in advance.",
+   "formula": "-",
+   "key_idea": "Using software outside its licence is not a victimless act: the licence is the legal contract. Open source is not the same as free of all conditions - each licence carries obligations, like GPL's requirement to share source of modified works.",
+   "question_patterns": [
+    "What does IPR stand for and name its three branches relevant to software.",
+    "Differentiate proprietary and open source software licences.",
+    "What does a Creative Commons licence allow a creator to do?",
+    "Name the open source licence that requires modified source code to be shared.",
+    "Why is using pirated software a violation even without monetary loss?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [],
+   "worked_examples": [
+    {
+     "q": "Which intellectual property right covers software, books and artwork?",
+     "a": "copyright"
+    }
+   ]
+  },
+  {
+   "id": "leip106.5",
+   "title": "Cyber Crime and Cyber Safety Categories",
+   "definition": "Cyber crime is unlawful activity using computers or networks. The chapter's categories include identity theft (impersonating someone using their personal data), phishing (fraudulent messages posing as trusted services to harvest credentials), cyber bullying and stalking (harassment through digital channels), hacking (unauthorised access to systems), and spreading malicious software. Cyber safety is the set of habits that reduce exposure: guarding credentials, verifying senders, reporting abuse, and keeping software updated.",
+   "formula": "-",
+   "key_idea": "The common thread across categories is misuse of trust or of personal data: Defence is verification (of senders, sites and requests) plus timely reporting to authorities and platforms.",
+   "question_patterns": [
+    "Define phishing and give one warning sign of such a message.",
+    "Which category involves impersonation using another person's personal information?",
+    "What distinguishes cyber bullying from ordinary argument online?",
+    "State two safety habits that reduce risk from unknown email attachments.",
+    "Why should software updates be installed promptly?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [],
+   "worked_examples": [
+    {
+     "q": "Impersonating someone using their personal data is which cyber crime?",
+     "a": "identity theft"
+    }
+   ]
+  },
+  {
+   "id": "leip106.6",
+   "title": "E-waste and Digital Society Impact",
+   "definition": "The digital society's costs include e-waste: discarded electronics containing toxic materials that need recycling rather than dumping, and the digital divide: unequal access to devices and connectivity across income and geography. Awareness of both is part of responsible technology use.",
+   "formula": "-",
+   "key_idea": "Technology's benefits reach society unevenly, and its hardware has an environmental end of life. The chapter's societal view covers benefits (access, jobs, services) alongside these costs.",
+   "question_patterns": [
+    "What is e-waste and why is dumping it harmful?",
+    "Define the digital divide with one example.",
+    "State two benefits of ICT for rural services.",
+    "What should be done with an unusable old phone?",
+    "Name one social benefit and one environmental cost of widespread computing."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [],
+   "worked_examples": [
+    {
+     "q": "Discarded electronics containing toxic materials are called what waste?",
+     "a": "e-waste"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "q": "How many combinations does a 4-digit numeric PIN have, and how does an attacker's success chance change if the PIN length grows to 6 digits?",
+   "a": "4 digits give 10^4 = 10000 combinations. At 6 digits it is 10^6 = 1000000 - a hundredfold increase. Each extra digit multiplies the work by 10, which is why longer credentials resist guessing far better."
+  },
+  {
+   "q": "A classmate forwards you a message claiming a school closure from an unverified account. What does net etiquette advise?",
+   "a": "Verify before sharing: check the school's official channel or ask a teacher. Unverified forwards spread misinformation; a responsible netizen confirms the source and does not amplify unconfirmed claims."
+  }
+ ],
+ "exercises": [
+  {
+   "group": "drill",
+   "items": [
+    "Classify: browsing logs collected by a website - active or passive footprint?",
+    "List two communication etiquettes for email.",
+    "Compute combinations for a 6-digit numeric PIN.",
+    "Match: GPL, patent, trademark to software code, invention, brand name.",
+    "Identify the category: a message posing as your bank asking for account details.",
+    "Give one e-waste disposal good practice."
+   ]
+  }
+ ]
+}

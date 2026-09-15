@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_03_006",
+   "title": "c12_hs_cbse_03_006",
+   "questions": [
+    {
+     "q": "List the 8 stages of Duvall's family life cycle in correct chronological order from marriage to old age.",
+     "a": "Correct order: 1. Beginning Family (married couple, no children), 2. Childbearing Family (oldest child 0-30 months), 3. Family with Preschool Children (oldest 2.5-6 years), 4. Family with School-Age Children (oldest 6-13 years), 5. Family with Teenagers (oldest 13-20 years), 6. Launching Family (first child leaves to last child leaves), 7. Middle-Aged Family (empty nest to retirement), 8. Aging Family (retirement to death of both spouses).  \nA wrong answer (e.g., swapping preschool and school-age, or omitting launching) reveals the student has memorized stage names but not the *developmental logic* that orders them by the age of the oldest child — a critical error for case-study questions in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "\"Developmental tasks in the 'Family with Teenagers' stage are simply the reverse of tasks in the 'Childbearing Family' stage.\" Explain why this statement is false using Erikson's psychosocial stages.",
+     "a": "False. Childbearing stage maps to Erikson's *Trust vs. Mistrust* (infant) and *Autonomy vs. Shame/Doubt* (toddler) — tasks are about *providing* safety and encouraging exploration. Teenage stage maps to *Identity vs. Role Confusion* (adolescent) and *Generativity vs. Stagnation* (parents) — tasks are about *negotiating autonomy*, renegotiating boundaries, and parents shifting from active caregiving to consulting. The direction of care reverses, but the *psychosocial content* is entirely different. A student who agrees confuses \"reversal of roles\" with \"reversal of tasks\" — a common board-exam trap in assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Case: The Sharmas — both 42, two children aged 14 and 11. Mrs. Sharma has just rejoined the workforce after 12 years; Mr. Sharma's mother (78) moved in after a fall. Identify the family's current life-cycle stage AND the *primary* developmental task conflict they are experiencing.",
+     "a": "Stage: Family with Teenagers (oldest child 14). Primary conflict: Simultaneous demands of *Identity vs. Role Confusion* (14-year-old needing autonomy) and *Generativity vs. Stagnation* (parents balancing work re-entry, adolescent parenting, and elder care) — a \"sandwich generation\" squeeze.  \nA wrong answer of \"Launching Family\" (because mother works) or \"Middle-Aged Family\" (because grandmother lives with them) shows the student anchors stage on *events* (employment, co-residence) rather than the *age of the oldest child* — the defining criterion in Duvall's model.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the developmental tasks of \"Family with Preschool Children\" and \"Family with School-Age Children\" on three dimensions: (a) primary socialization agent, (b) parental discipline focus, (c) family boundary permeability.",
+     "a": "(a) Preschool: Family is *sole* primary agent; School-age: School/peers become co-agents.  \n(b) Preschool: Discipline = safety/routine (external control); School-age: Discipline = internalizing rules, moral reasoning (internal control).  \n(c) Preschool: Boundaries *closed* (protect from outside risks); School-age: Boundaries *selectively permeable* (manage school, peers, activities).  \nA student who says \"both are about teaching values\" misses the *shift from external to internal regulation* — a key concept for \"analyze\" questions in CUET/board case studies.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The 'Launching Family' stage is the most stressful stage because it has the highest divorce rate.\" Use research evidence and the concept of \"unfinished developmental tasks\" to support your judgment.",
+     "a": "Claim is *partially true but misleading*. Launching *does* show elevated divorce rates (empty-nest syndrome), but research (e.g., Glenn, 1990) shows marital satisfaction often *improves* post-launching *if* couples completed the \"couple identity\" task in Beginning stage and \"collaborative parenting\" in childrearing stages. High stress arises from *unfinished tasks* (e.g., unresolved marital conflict masked by parenting roles) surfacing, not the stage itself. A student who agrees uncritically confuses *correlation* with *causation* and ignores the *cumulative* nature of developmental tasks — a frequent error in \"evaluate\" board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-generation genogram snippet (grandparents, parents, two children) for a family in the \"Middle-Aged Family\" stage. Annotate it with: (i) current developmental task for each member, (ii) one intergenerational stressor, (iii) one resource the family brings from prior stages.",
+     "a": "Example:  \n- Grandmother (75): Task = *Integrity vs. Despair* (life review); Stressor = health decline; Resource = family rituals she established.  \n- Parents (52, 50): Task = *Generativity vs. Stagnation* (mentoring adult children, community); Stressor = sandwiched care; Resource = established communication patterns from teenage stage.  \n- Daughter (24, launched): Task = *Intimacy vs. Isolation* (forming partner bond); Stressor = student debt; Resource = secure base from preschool stage.  \n- Son (21, launching): Task = *Identity vs. Role Confusion* (career launch); Stressor = job market; Resource = autonomy skills from school-age stage.  \nA poor answer lists ages only without linking tasks to *Erikson stages* or identifying *intergenerational* stressors/resources — showing inability to synthesize life-cycle + psychosocial theory.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

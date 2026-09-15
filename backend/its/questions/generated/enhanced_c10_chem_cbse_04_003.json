@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_04_003",
+   "title": "c10_chem_cbse_04_003",
+   "questions": [
+    {
+     "q": "Name the type of hybridization and the number of sigma bonds formed by each carbon atom in diamond, graphite, and C₆₀ fullerene.",
+     "a": "Diamond: sp³ hybridization, 4 sigma bonds per carbon. Graphite: sp² hybridization, 3 sigma bonds per carbon (plus 1 delocalized π electron). Fullerene C₆₀: sp² hybridization, 3 sigma bonds per carbon (with curvature-induced strain). A wrong answer (e.g., saying graphite has 4 sigma bonds) reveals the student confuses total valence electrons with sigma bond count and does not understand that one electron in graphite participates in delocalized π-bonding rather than a localized sigma bond.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why graphite conducts electricity but diamond does not, using the concept of electron delocalization and band theory at a Class 10 level.",
+     "a": "In graphite, each carbon is sp² hybridized with one unhybridized p-orbital perpendicular to the plane; these p-orbitals overlap sideways across the layer, creating a delocalized π-electron cloud that can move freely within the layers, allowing electrical conduction. In diamond, all four valence electrons are locked in strong sp³ sigma bonds in a rigid 3D network — no free electrons or delocalized orbitals exist for charge transport. A wrong answer (e.g., \"graphite has free ions\" or \"diamond has no electrons\") reveals the student conflates metallic bonding with covalent network solids and misunderstands that conduction requires mobile charge carriers, not just the presence of electrons.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that because both diamond and graphite are giant covalent structures, both should have very high melting points. Evaluate this claim and explain the role of interlayer forces in graphite.",
+     "a": "The claim is partially correct: both have high melting points because breaking the *intralayer* covalent bonds requires enormous energy. However, graphite sublimes at ~3900 K while diamond melts at ~4000 K (under pressure); the difference arises because graphite's layers are held by weak van der Waals forces, allowing layers to slide — but melting still requires breaking the strong covalent bonds *within* each layer. A wrong answer (e.g., \"graphite has low melting point because layers slide\") reveals the student confuses mechanical softness (shear between layers) with thermal stability (breaking covalent bonds), a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the C–C bond lengths in diamond (154 pm), graphite (142 pm), and C₆₀ fullerene (140–146 pm). Explain the trend using bond order and hybridization concepts.",
+     "a": "Diamond: pure sp³ single bonds (bond order 1) → longest at 154 pm. Graphite: sp² with resonance giving partial double bond character (bond order ~1.33) → shorter at 142 pm. Fullerene: sp² but with curvature causing angle strain; bonds alternate between shorter (pyracylene, ~138 pm, higher double bond character) and longer (corannulene, ~146 pm, more single bond character) → average ~140–146 pm. A wrong answer (e.g., \"all same because all C–C bonds\") reveals the student does not connect hybridization, resonance, and bond order to bond length — a key conceptual link tested in competency questions.",
+     "self_check": true
+    },
+    {
+     "q": "A board exam question states: \"Graphite is used as a lubricant because its layers are held by weak covalent bonds.\" Identify the error and rewrite the statement correctly.",
+     "a": "Error: \"weak covalent bonds\" — the interlayer forces in graphite are *van der Waals forces* (weak intermolecular forces), not covalent bonds. The covalent bonds are *within* each layer and are very strong. Correct statement: \"Graphite is used as a lubricant because its layers are held by weak van der Waals forces, allowing them to slide over each other easily.\" A wrong answer (keeping \"covalent bonds\") reveals the student cannot distinguish between intramolecular (covalent) and intermolecular (van der Waals) forces — a fundamental error that costs marks in structure-property questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only a pencil, a 9V battery, an LED, and connecting wires to demonstrate that graphite conducts electricity. Draw the circuit diagram and explain why the LED glows.",
+     "a": "Circuit: Battery (+) → wire → LED anode; LED cathode → wire → graphite track drawn heavily on paper with pencil; graphite track → wire → battery (−). The LED glows because the graphite track provides a continuous path of delocalized π-electrons that carry current. A poor answer (e.g., \"pencil lead is metal\" or no mention of delocalized electrons) reveals the student treats graphite as a metal rather than a non-metal with unique electronic structure, missing the core concept that conduction in graphite is due to *mobile π-electrons in sp² carbon networks*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

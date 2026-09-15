@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_11_010",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_11_010",
+   "title": "c11_math_cbse_11_010",
+   "questions": [
+    {
+     "q": "State the reflective property of a parabola and write the standard equation of a parabola that opens to the right with vertex at origin and focus at (a, 0).",
+     "a": "The reflective property: Any ray parallel to the axis of a parabola reflects through the focus. Equation: y² = 4ax. A wrong answer like x² = 4ay or y² = -4ax reveals confusion about orientation; writing \"rays from focus reflect parallel\" reverses the direction and shows misunderstanding of the physical principle.",
+     "self_check": true
+    },
+    {
+     "q": "A parabolic arch bridge has a span of 40 m and a maximum height of 10 m. If the vertex is at the highest point and the axis is vertical, which standard form should you use and why? What are the coordinates of the endpoints?",
+     "a": "Use x² = -4ay (opens downward) because the vertex is the maximum height. Endpoints are at (±20, -10). Choosing y² = 4ax shows confusion between horizontal and vertical axes; using x² = 4ay (opens upward) ignores that the arch goes downward from the vertex; endpoints as (±10, -20) swaps span and height.",
+     "self_check": true
+    },
+    {
+     "q": "A satellite dish is 4 m wide and 0.5 m deep at the center. Assuming the cross-section is a parabola with vertex at the deepest point and axis vertical, find the focal length (distance from vertex to focus) where the receiver should be placed.",
+     "a": "Place vertex at (0,0), axis vertical upward. Dish opens upward: x² = 4ay. At edge, x = 2, y = 0.5. So 2² = 4a(0.5) → 4 = 2a → a = 2 m. Receiver at focus (0, 2). Wrong answer a = 0.5 m comes from using y = 0.5 as focal length directly; a = 8 m comes from 4 = 4a(0.5) → a = 2 but then misreading; using y² = 4ax gives a = 0.5 m but wrong orientation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reflective properties of a parabola and an ellipse. A whispering gallery uses an elliptical ceiling. If two people stand at the foci, why can they hear each other clearly? How is this different from a parabolic reflector?",
+     "a": "Ellipse: Ray from one focus reflects to the other focus. Parabola: Ray parallel to axis reflects to focus (or vice versa). In a whispering gallery, sound from one focus reflects off the elliptical wall to the other focus. A parabola would send sound from focus to parallel rays, not to another point. Confusing the two properties (e.g., saying parabola focuses to two points) shows lack of distinction between single-focus and two-foci reflection.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a cooling tower problem: \"Hyperbolic tower, base diameter 80 m, top diameter 40 m, height 100 m. Find equation.\" They write x²/40² - y²/20² = 1. Is this correct? Identify the error and give the correct approach.",
+     "a": "Incorrect. The standard form for a vertical hyperbolic tower (axis along y) is y²/a² - x²/b² = 1 (opens up/down). The student used horizontal transverse axis. Also, a and b are not directly the radii. At y = 0 (narrowest waist), x = b = 20 m. At y = 100 (base), x = 40 m. Substitute (40, 100) into y²/a² - x²/20² = 1 to find a². The error shows confusion about orientation and parameter identification.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world problem where a parabolic trajectory is NOT the correct model, but an ellipse is. Provide the scenario, the given parameters, and the specific question to be solved.",
+     "a": "Example: \"A planet orbits the sun in an elliptical path with the sun at one focus. At perihelion it is 147 million km, at aphelion 152 million km. Find the equation of the orbit and the distance of the sun from the center.\" Good answer identifies ellipse (not parabola) because orbit is closed and periodic, uses sum of distances = constant, calculates a = 149.5, c = 2.5, b² = a² - c². Poor answer uses parabolic projectile motion or ignores the two-focus property.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

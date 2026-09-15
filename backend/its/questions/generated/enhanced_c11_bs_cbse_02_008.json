@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_02_008",
+   "title": "c11_bs_cbse_02_008",
+   "questions": [
+    {
+     "q": "State the legal definition of a 'company' as per Section 2(20) of the Companies Act, 2013, and name the two key characteristics that distinguish it from a partnership firm.",
+     "a": "A company means a company incorporated under the Companies Act, 2013 or any previous company law. The two distinguishing characteristics are: (1) Separate legal entity — the company is distinct from its members, unlike a partnership where the firm has no identity separate from partners; (2) Perpetual succession — the company continues regardless of changes in membership, whereas a partnership dissolves on death/retirement of a partner. A wrong answer (e.g., citing only limited liability) reveals the student confuses features with defining legal attributes and cannot articulate the juridical personality concept.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the 'veil of incorporation' (separate legal entity) is considered both a shield and a sword for shareholders, using the Salomon v. Salomon & Co. Ltd. principle.",
+     "a": "The veil acts as a shield because shareholders' personal assets cannot be attached for company debts (limited liability). It acts as a sword because the company can sue/be sued in its own name, own property, and enter contracts independently — shareholders cannot claim company assets as their own. A wrong answer (e.g., \"shareholders are protected from everything\") reveals the student treats separate entity as absolute immunity, ignoring that courts can lift the veil for fraud, tax evasion, or sham companies — a critical board-exam nuance.",
+     "self_check": true
+    },
+    {
+     "q": "Neha's pottery business (sole proprietorship) has assets of ₹40 lakh and debts of ₹70 lakh. She forms a Private Limited Company with ₹50 lakh authorised capital, issues 5 lakh shares of ₹10 each, and subscribes 3 lakh shares paying ₹7 per share. The company later fails with debts of ₹60 lakh. Calculate Neha's maximum personal liability in both scenarios and explain the difference.",
+     "a": "**Sole Proprietorship:** Unlimited liability — Neha pays ₹30 lakh (₹70L - ₹40L) from personal assets. **Company:** Limited to unpaid share capital — 3 lakh shares × ₹3 unpaid = ₹9 lakh maximum. Difference: In proprietorship, liability extends to all personal assets; in company, liability is capped at unpaid subscription. A wrong calculation (e.g., saying ₹60 lakh or zero) reveals the student doesn't grasp that limited liability applies only to unpaid share amount, not total debt, and that the company's separate assets are used first.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 'transferability of shares' feature in a Public Company vs. Private Company vs. Partnership. How does this affect the liquidity of investment and the stability of ownership structure in each form?",
+     "a": "Public Company: Freely transferable on stock exchanges — high liquidity, ownership changes constantly, stable entity but unstable shareholder base. Private Company: Restricted by Articles (right of first refusal) — low liquidity, stable ownership, suits closely-held businesses. Partnership: No transfer without all partners' consent — almost zero liquidity, ownership tied to personal relationships. A weak answer (e.g., \"private company shares cannot be transferred\") reveals confusion between 'restriction' and 'prohibition' and misses the strategic implication: transferability attracts public capital but dilutes control.",
+     "self_check": true
+    },
+    {
+     "q": "\"Despite numerous regulations, delay in decision-making, and oligarchic management, the Joint Stock Company remains the dominant form for large-scale enterprises.\" Evaluate this statement by weighing any three merits against three limitations, and conclude whether the trade-off is justified for a business aiming for ₹500 crore turnover.",
+     "a": "**Merits justifying dominance:** (1) Limited liability enables risk diversification across thousands of small investors — essential for ₹500 cr capital. (2) Perpetual succession allows long-gestation projects (infrastructure, R&D) without fear of dissolution. (3) Professional management separates ownership from operations, enabling scale expertise. **Limitations accepted as trade-off:** (1) Regulatory compliance cost is a small % of large turnover. (2) Decision delays are mitigated by delegation hierarchy. (3) Oligarchy is checked by SEBI, independent directors, and class-action suits. **Conclusion:** Trade-off is justified — the alternative (partnership/proprietorship) cannot mobilise ₹500 cr. A poor evaluation (listing merits/limitations without linking to scale) shows inability to contextualise features to business size.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical startup scenario (Indian context, ₹2 crore initial capital) where a Private Limited Company is clearly superior to both LLP and Partnership. Specify the business activity, growth plan, and investor profile, then justify each choice of feature (minimum 2 directors, 2-200 members, no prospectus, immediate commencement) against the alternatives.",
+     "a": "**Scenario:** \"AgriTech Solutions Pvt Ltd\" — drone-based crop monitoring for Punjab/Haryana farmers. **Capital:** ₹2 cr from 5 angel investors (₹40L each) + founders. **Growth:** Series A in 18 months, pan-India in 3 years. **Why Pvt Ltd over LLP:** (1) Investors prefer shares over partnership rights — shares are standardised, transferable, carry clear exit via buyback/IPO. (2) No prospectus needed — saves 6 months vs public issue. (3) Immediate commencement on incorporation — critical for kharif season launch. (4) 2 directors suffice — founders control board initially. **Why not Partnership:** Unlimited liability scares angels; max 50 partners limits future fundraising; no separate legal entity complicates IP ownership. A weak design (generic \"tech startup\" without linking features to specific constraints) reveals inability to match legal form to business strategy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

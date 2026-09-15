@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_01_001",
+   "title": "c10_math_cbse_01_001",
+   "questions": [
+    {
+     "q": "State the Fundamental Theorem of Arithmetic in your own words.",
+     "a": "The theorem states that every integer greater than 1 is either a prime number or can be uniquely expressed as a product of prime numbers, ignoring the order of the factors. A wrong answer (e.g., \"every number can be written as a product of primes\" without mentioning uniqueness) reveals that the student misses the critical \"unique\" aspect, which is essential for later proofs like irrationality of √2.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the factorization 12 = 2 × 2 × 3 is the only prime factorization of 12, while 12 = 3 × 4 is not a prime factorization.",
+     "a": "The factorization 2 × 2 × 3 uses only prime numbers (2 and 3), and by the Fundamental Theorem of Arithmetic, this representation is unique up to order. The factorization 3 × 4 is not a prime factorization because 4 is not a prime number (4 = 2 × 2). A student who says \"both are prime factorizations\" or \"4 is prime\" shows a misunderstanding of what constitutes a prime factor.",
+     "self_check": true
+    },
+    {
+     "q": "Find the prime factorization of 2310 and write it in exponential form.",
+     "a": "Step 1: Divide 2310 by the smallest prime 2 → 2310 ÷ 2 = 1155.\nStep 2: Divide 1155 by 3 → 1155 ÷ 3 = 385.\nStep 3: Divide 385 by 5 → 385 ÷ 5 = 77.\nStep 4: Divide 77 by 7 → 77 ÷ 7 = 11.\nStep 5: 11 is prime.\nSo 2310 = 2 × 3 × 5 × 7 × 11. In exponential form: 2¹ × 3¹ × 5¹ × 7¹ × 11¹.\nA wrong answer (e.g., missing a factor or writing 2310 = 2 × 3 × 5 × 77) reveals the student stopped factoring before reaching all primes.",
+     "self_check": true
+    },
+    {
+     "q": "Two students factor 360. Student A writes 360 = 2 × 2 × 2 × 3 × 3 × 5. Student B writes 360 = 2³ × 3² × 5. Are both factorizations correct? Does the Fundamental Theorem of Arithmetic allow both?",
+     "a": "Yes, both are correct. Student A wrote the expanded form, Student B used exponential notation. They represent the same prime factors with the same multiplicities. The theorem guarantees uniqueness of the multiset of prime factors, not the notation. A student who says \"only one is correct\" confuses representation with factorization.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that 1 has a prime factorization because 1 = 1 × 1. Evaluate this claim using the Fundamental Theorem of Arithmetic.",
+     "a": "The claim is false. The Fundamental Theorem of Arithmetic applies only to integers greater than 1. The number 1 is neither prime nor composite and has no prime factorization. A student who accepts the claim does not understand the domain restriction of the theorem.",
+     "self_check": true
+    },
+    {
+     "q": "Create a composite number between 100 and 200 whose prime factorization includes exactly three distinct prime numbers, and write its prime factorization in exponential form.",
+     "a": "Example: 110 = 2 × 5 × 11 → 2¹ × 5¹ × 11¹. Any number that is a product of three distinct primes (e.g., 102 = 2 × 3 × 17, 114 = 2 × 3 × 19) works. A poor answer (e.g., 100 = 2² × 5²) uses only two distinct primes, showing the student didn't enforce \"exactly three distinct primes.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_14_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_14_012",
+   "title": "c12_hin_a_cbse_14_012",
+   "questions": [
+    {
+     "q": "Define literal comprehension and inferential comprehension in your own words. Give one example question type for each.",
+     "a": "Literal comprehension: retrieving explicitly stated information (e.g., \"What did the narrator see on the first day in 'ksj'?\"). Inferential comprehension: drawing conclusions from textual clues (e.g., \"Why does the king's increasing absurdity in 'igpku' suggest his insecurity?\"). A wrong answer that swaps the definitions or gives only opinion-based examples reveals the student cannot distinguish text-dependent from text-independent thinking.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following question as literal or inferential and explain your reasoning: \"In 'pkj gkFk', what three methods did the feathered old man try before succeeding in giving the birds four legs?\"",
+     "a": "Literal. The question asks for a list of explicitly described actions (trying to attach legs, then wings, then single leg) — all directly narrated in the story. A student who labels this \"inferential\" because it requires \"remembering multiple steps\" confuses multi-step recall with inference; inference requires going beyond the stated actions to interpret motive or theme.",
+     "self_check": true
+    },
+    {
+     "q": "Answer this literal question using a direct quote or close paraphrase from 'ksj': \"What physical detail about the 'ksj' (cactus) does the narrator notice on the very first day?\"",
+     "a": "The narrator notices the cactus has a \"dry, thorny head\" (सूखा काँटेदार सिर) — explicitly stated in the opening paragraph. A wrong answer like \"it looked sad\" or \"it was struggling\" shows the student is projecting emotion (inference) instead of reporting the physical description (literal).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the inferential reasoning needed for these two questions: (A) \"Why does the king in 'igpku' keep issuing more absurd orders?\" (B) \"Why does the feathered old man in 'pkj gkFk' persist despite repeated failures?\" Identify the different textual clues each requires.",
+     "a": "(A) requires tracking the king's psychological arc: orders → obedience → increased absurdity → insecurity → need for control. Clues: \"turk vk¡[ksa can fd,&fd, lkjk dke djrh Fkh\" and escalating decrees. (B) requires analyzing bureaucratic satire: failed attempts → consultation of experts → absurd solutions → persistence driven by institutional pressure. Clues: \"oSKkfudksa dks eksVh ru[okgksa ij ukSdj j[kk\" and the old man's final solo attempt. A student who gives the same generic answer (\"they are stubborn\") misses the distinct textual foundations: one is psychological, the other systemic.",
+     "self_check": true
+    },
+    {
+     "q": "Two students answer: \"What does the ending of 'lk>k' suggest about the relationship between the individual and the system?\" Student X writes: \"It shows the system always wins because the goat gets eaten.\" Student Y writes: \"The goat's death after the jackal's manipulation shows how the system (jackal/goat) uses bureaucracy (the lion's court) to eliminate the individual, as seen when the lion accepts the jackal's false logic without verification.\" Evaluate which answer demonstrates stronger inferential comprehension and why.",
+     "a": "Student Y. Their answer uses specific textual evidence (jackal's manipulation, lion's uncritical acceptance) to support an inference about systemic oppression. Student X states a plot summary without linking to the \"relationship between individual and system\" — a literal retelling masquerading as inference. This reveals the common trap: confusing plot outcome with thematic inference.",
+     "self_check": true
+    },
+    {
+     "q": "Read the opening paragraph of 'ksj' (provided in your textbook). Write ONE literal question and ONE inferential question that a teacher could ask about this paragraph. Provide the ideal answer for each.",
+     "a": "Literal: \"What was the narrator's immediate reaction upon seeing the cactus?\" → \"His throat went dry and he instinctively stepped back.\" Inferential: \"What does the narrator's physical reaction suggest about his prior expectations of the place?\" → \"He expected a lush, welcoming environment; the cactus's hostility shocks him, foreshadowing the story's theme of harsh reality vs. illusion.\" A poor answer would create questions answerable by yes/no or not grounded in the paragraph.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

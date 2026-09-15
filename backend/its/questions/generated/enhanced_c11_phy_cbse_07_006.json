@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_07_006",
+   "title": "c11_phy_cbse_07_006",
+   "questions": [
+    {
+     "q": "State the formula for acceleration due to gravity at a depth \\(d\\) below the Earth's surface, assuming uniform density. Define each symbol and give its SI unit.",
+     "a": "The formula is \\(g(d) = g \\left(1 - \\frac{d}{R_E}\\right)\\). Here, \\(g(d)\\) is acceleration due to gravity at depth \\(d\\) (m/s²), \\(g = GM_E/R_E^2\\) is the surface gravity (m/s²), \\(d\\) is the depth below the surface (m), and \\(R_E\\) is the Earth's radius (m). A wrong answer (e.g., \\(g(d) = g(1 + d/R_E)\\) or \\(g(d) = GM_E/(R_E-d)^2\\)) reveals the student has not grasped the shell theorem or mistakenly treats the entire Earth's mass as concentrated at the centre even for interior points.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the gravitational force on a particle inside a uniform spherical shell is zero. How does this lead to the result that only the mass interior to the particle's position contributes to \\(g\\) at depth?",
+     "a": "For a particle inside a uniform spherical shell, every mass element attracts the particle, but the forces from opposite regions cancel due to symmetry: the solid angle subtended by a surface element is proportional to \\(1/r^2\\), while the gravitational force is also proportional to \\(1/r^2\\), making the force per unit solid angle constant. Opposite elements produce equal and opposite forces. Thus, at depth \\(d\\), the outer shells (radius > \\(R_E-d\\)) contribute zero net force. Only the inner sphere of radius \\(R_E-d\\) contributes, acting as if its mass is concentrated at the centre. A wrong answer (e.g., \"mass above pulls up\") indicates confusion between force direction and net force cancellation.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the acceleration due to gravity at a depth of 1600 km, given \\(R_E = 6400\\) km and \\(g = 9.8\\) m/s². Express your answer in m/s².",
+     "a": "Given: \\(d = 1600\\) km = \\(1.6 \\times 10^6\\) m, \\(R_E = 6400\\) km = \\(6.4 \\times 10^6\\) m, \\(g = 9.8\\) m/s².  \nStep 1: Compute fraction \\(d/R_E = 1600/6400 = 0.25\\).  \nStep 2: Apply formula \\(g(d) = g(1 - d/R_E) = 9.8 \\times (1 - 0.25) = 9.8 \\times 0.75\\).  \nStep 3: \\(g(d) = 7.35\\) m/s².  \nA wrong answer (e.g., 12.25 m/s² using \\(g(1+d/R_E)\\) or 9.8 m/s²) shows the student either used the altitude formula or thinks \\(g\\) is constant inside the Earth.",
+     "self_check": true
+    },
+    {
+     "q": "A graph of \\(g\\) vs. distance from Earth's centre \\(r\\) is plotted for \\(0 \\le r \\le 2R_E\\). Describe the shape of the graph for \\(r < R_E\\) and \\(r > R_E\\). Why is the graph continuous at \\(r = R_E\\)?",
+     "a": "For \\(r < R_E\\) (inside), \\(g(r) = \\frac{GM_E}{R_E^3}r\\) — a straight line through the origin with slope \\(GM_E/R_E^3\\). For \\(r > R_E\\) (outside), \\(g(r) = \\frac{GM_E}{r^2}\\) — a hyperbola decreasing as \\(1/r^2\\). At \\(r = R_E\\), both formulas give \\(g = GM_E/R_E^2\\), so the graph is continuous. The slope, however, changes abruptly (from positive to negative), indicating a kink. A wrong answer (e.g., \"graph is discontinuous\" or \"graph is flat inside\") reveals misunderstanding of the linear increase inside and the inverse-square decrease outside.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"At the centre of the Earth (\\(d = R_E\\)), \\(g\\) should be infinite because \\(r=0\\) in Newton's law \\(F = GMm/r^2\\).\" Evaluate this claim and correct the error.",
+     "a": "The claim is false. Newton's law \\(F = GMm/r^2\\) applies to point masses or spheres where the test particle is *outside* the sphere. At the centre, the particle is *inside* the Earth; the shell theorem applies. The mass interior to \\(r=0\\) is zero, so \\(g=0\\). The student incorrectly uses the point-mass formula for an interior point. A wrong evaluation (e.g., agreeing with the student) shows failure to distinguish between the point-mass formula and the shell theorem for extended bodies.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment to measure the variation of \\(g\\) with depth using a simple pendulum. What would you measure, and how would you isolate the effect of depth from other factors like temperature or air buoyancy?",
+     "a": "Take a seconds pendulum (period \\(T = 2\\) s at surface) down a vertical mine shaft. At each depth \\(d\\), measure the period \\(T(d)\\) using a precise stopwatch or electronic timer. Since \\(T = 2\\pi\\sqrt{L/g}\\), we get \\(g(d) = 4\\pi^2 L / T(d)^2\\). To isolate depth effects: (1) Use a vacuum chamber to eliminate air buoyancy and damping; (2) Use a low-expansion material (e.g., invar) for the rod to minimize temperature-induced length changes; (3) Control temperature or correct for thermal expansion. Plot \\(g(d)\\) vs. \\(d\\) and verify linearity. A poor answer (e.g., \"just measure time\" without addressing confounding factors) shows lack of experimental design awareness.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch11_118",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch11_118",
+   "title": "c6_math_ch11_118",
+   "questions": [
+    {
+     "q": "In an SSS construction, what tool do you use to ensure the third vertex is exactly the right distance from the two ends of your base line?",
+     "a": "You use a compass. A wrong answer like \"a ruler\" shows the student doesn't understand that the compass is used to maintain a fixed distance (radius) to find the intersection point, whereas a ruler only measures straight lines.",
+     "self_check": true
+    },
+    {
+     "q": "If you are given two sides of 5cm and 6cm, why can you not construct a unique triangle without knowing the angle between them?",
+     "a": "Because the two sides could be hinged at different angles, creating triangles of many different shapes and sizes. An answer suggesting \"it's impossible\" reveals they don't realize the sides can move (rotate) if the third side isn't fixed.",
+     "self_check": true
+    },
+    {
+     "q": "To construct a triangle with sides 4cm, 5cm, and 6cm, what is the best first step?",
+     "a": "Draw the longest side (6cm) as the base line. This makes the subsequent arcs from the ends (5cm and 4cm) easier to manage and keeps the drawing organized. An answer suggesting \"drawing a 4cm line\" is not wrong, but less efficient for keeping the drawing centered.",
+     "self_check": true
+    },
+    {
+     "q": "In an SAS construction with sides 5cm and 4cm and an included angle of 60°, why is it important that the angle is \"included\"?",
+     "a": "The angle must be between the two given sides so it acts as a \"hinge\" that fixes the distance between the two endpoints. If the angle were not included (e.g., opposite one of the sides), the triangle's shape would not be fixed.",
+     "self_check": true
+    },
+    {
+     "q": "If a student constructs a triangle using SSS but the arcs do not intersect, what does this tell you about the measurements given?",
+     "a": "The measurements are impossible; the sum of the two shorter sides is likely less than or equal to the longest side. This shows the student understands the geometric constraint that a triangle's sides must satisfy the triangle inequality theorem.",
+     "self_check": true
+    },
+    {
+     "q": "Create a set of instructions for a friend to construct a triangle with sides 7cm, 8cm, and 9cm using only a ruler and a compass.",
+     "a": "1. Draw a 9cm line segment. 2. Set the compass to 7cm and draw an arc from one endpoint. 3. Set the compass to 8cm and draw an arc from the other endpoint. 4. Connect the intersection point to both ends. A poor answer would lack the step of using the compass to \"fix\" the lengths of the other two sides.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

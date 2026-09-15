@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_04_004",
+   "title": "c11_ip_cbse_04_004",
+   "questions": [
+    {
+     "q": "What is the return value of `list1.append(5)` if `list1 = [1, 2, 3]`?",
+     "a": "The return value is `None`. `append()` modifies the list in-place and does not return the modified list. A wrong answer (e.g., `[1, 2, 3, 5]`) reveals the student confuses **mutator methods** (which return `None`) with **functional methods** like `sorted()` that return a new list.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between `remove(x)` and `pop(i)` in terms of *what they take as argument* and *what they return*.",
+     "a": "`remove(x)` takes a **value** `x` and deletes its first occurrence, returning `None`. `pop(i)` takes an **index** `i` (default `-1`), removes and **returns** that element. A wrong answer swapping the two (e.g., \"`remove` takes index\") shows the student has not internalised the **value-vs-index** distinction — a classic senior-secondary error when translating \"delete this item\" into code.",
+     "self_check": true
+    },
+    {
+     "q": "Trace the list `L = [10, 20, 30, 20, 40]` after these statements:\n```python\nL.remove(20)\nL.pop(1)\nL.insert(1, 25)\nL.sort()\n```\nWrite the final list.",
+     "a": "Step-by-step:\n1. `L.remove(20)` → removes first `20` → `[10, 30, 20, 40]`\n2. `L.pop(1)` → removes index `1` (`30`) → `[10, 20, 40]`\n3. `L.insert(1, 25)` → inserts at index `1` → `[10, 25, 20, 40]`\n4. `L.sort()` → in-place ascending → `[10, 20, 25, 40]`\nFinal list: `[10, 20, 25, 40]`. A wrong answer (e.g., `[10, 25, 20, 40]`) indicates the student thinks `sort()` returns a new list or forgets it mutates in-place.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effects of `L.sort()` followed by `L.reverse()` versus `L.sort(reverse=True)` on a list `L = [3, 1, 4, 2]`. Are the final lists identical? Justify.",
+     "a": "Yes, both produce `[4, 3, 2, 1]`. `sort()` arranges ascending → `[1, 2, 3, 4]`; `reverse()` flips → `[4, 3, 2, 1]`. `sort(reverse=True)` sorts descending directly → `[4, 3, 2, 1]`. A student who says \"different\" likely misunderstands that **both are in-place mutators** and that `reverse=True` is just a flag to the same Timsort algorithm, not a separate reversal step.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes:\n```python\nmarks = [45, 78, 90, 56]\nnew_marks = marks.sort()\nprint(new_marks)\n```\nThe output is `None`. Identify the error and rewrite **two different correct versions** that store the sorted list in `new_marks` while keeping `marks` unchanged in one version and changed in the other.",
+     "a": "Error: `sort()` returns `None` and mutates `marks`.  \n**Version 1 (mutate original):**  \n```python\nmarks.sort()\nnew_marks = marks          # both refer to same sorted list\n```  \n**Version 2 (keep original unchanged):**  \n```python\nnew_marks = sorted(marks)  # returns new list\n```  \nA student who only gives `new_marks = sorted(marks)` but cannot explain the mutability difference has not mastered the **in-place vs new-object** distinction critical for board exam questions on aliasing.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where you **must** use `insert()`, `remove()`, and `pop()` **in that order** on a list of strings. Write the initial list, the three calls with arguments, and the final list. Explain why `insert` before `remove` before `pop` is logically necessary for your scenario.",
+     "a": "**Scenario:** A queue of patients at a clinic: `queue = [\"Aarav\", \"Diya\", \"Rohan\"]`.  \n1. `queue.insert(1, \"Emergency\")` → VIP patient jumps to front → `[\"Aarav\", \"Emergency\", \"Diya\", \"Rohan\"]`  \n2. `queue.remove(\"Diya\")` → Diya cancels → `[\"Aarav\", \"Emergency\", \"Rohan\"]`  \n3. `next_patient = queue.pop(0)` → doctor calls first → `next_patient = \"Aarav\"`, queue = `[\"Emergency\", \"Rohan\"]`  \nOrder matters: insert first to prioritize, then remove a specific name, then pop the *current* first. A poor answer uses arbitrary values without justifying the sequence, showing lack of **algorithmic thinking**.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

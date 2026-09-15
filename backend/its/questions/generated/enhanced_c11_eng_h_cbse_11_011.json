@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_11_011",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_11_011",
+   "title": "c11_eng_h_cbse_11_011",
+   "questions": [
+    {
+     "q": "What is a rhetorical question, and how does it differ from a standard interrogative sentence in terms of expected response?",
+     "a": "A rhetorical question is a figure of speech in the form of a question asked for effect or emphasis, not to elicit an answer. Unlike a standard interrogative (e.g., \"What time is it?\"), which expects a factual reply, a rhetorical question (e.g., \"When did my childhood go?\") implies the answer is obvious, unknown, or unanswerable, forcing the reader to reflect. A wrong answer (e.g., \"It's a question waiting for an answer\") reveals the student confuses grammatical form with pragmatic function — a critical error in poetry analysis where intent shapes meaning.",
+     "self_check": true
+    },
+    {
+     "q": "In the poem, the line \"Was it the day I ceased to be eleven?\" uses the past tense \"ceased\". If the poet changed it to \"cease\" (present) or \"will cease\" (future), how would the meaning and tone shift?",
+     "a": "\"Ceased\" (past) marks the moment as a completed, irreversible event in the speaker's history, creating nostalgia and finality. \"Cease\" (present) would suggest a recurring or habitual loss, making childhood seem cyclical rather than a one-time departure. \"Will cease\" (future) would imply anticipation, turning the poem into a prediction rather than a retrospective realization. A wrong answer (e.g., \"Tense doesn't matter, it's the same event\") shows the student treats verbs as interchangeable labels rather than temporal anchors that construct the poem's emotional timeline — a senior-secondary error where grammatical aspect is divorced from thematic effect.",
+     "self_check": true
+    },
+    {
+     "q": "Identify the grammatical subject of the clause \"my mind was really mine\" and explain why the poet uses the possessive pronoun \"mine\" twice — as determiner (\"my mind\") and as standalone pronoun (\"mine\") — in the same clause.",
+     "a": "The grammatical subject is \"my mind\" (noun phrase with possessive determiner \"my\"). The double use of \"mine\" — first as determiner (\"my mind\") then as independent possessive pronoun (\"mine\") — creates a syntactic mirroring: the mind belongs to the speaker, and that belonging is asserted twice, once implicitly (determiner) and once explicitly (predicate pronoun). This repetition enacts the moment of claiming intellectual autonomy. A wrong answer (e.g., \"The subject is 'I'\") confuses the speaker with the grammatical subject, missing how the syntax shifts agency from the child (\"I\") to the mind as an independent entity — a subtle but essential distinction for analyzing voice in poetry.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sentence structures of the three stanzas' opening lines: \"When did my childhood go?\" (Stanza 1), \"When did my childhood go?\" (Stanza 2), \"When did my childhood go?\" (Stanza 3). What syntactic device is this, and how does its rigid repetition contrast with the varying subordinate clauses that follow (\"Was it the day...\", \"Was it the time...\", \"Was it the day...\")?",
+     "a": "This is anaphora — repetition of the same word/phrase at the start of successive clauses. The fixed main clause (\"When did my childhood go?\") acts as a structural anchor, while the varying subordinate clauses (\"Was it the day/time I realised...\") enumerate distinct cognitive milestones. The contrast creates a tension between the unchanging existential question (loss of childhood) and the specific, accumulating realizations (rationality, geography, self-ownership). A wrong answer (e.g., \"It's just repetition for emphasis\") identifies the device but misses the syntactic parallelism that maps the mind's progression from vague loss to defined gains — a failure to connect form to thematic architecture.",
+     "self_check": true
+    },
+    {
+     "q": "The poem ends with \"Where did my childhood go? / It went to some forgotten place, / That's hidden in an infant's face.\" Evaluate the shift from interrogative (\"When did...\") to declarative (\"It went...\") to relative clause (\"That's hidden...\"). Does this grammatical progression resolve the poem's central tension? Justify.",
+     "a": "Yes, the progression resolves the tension grammatically: the repeated rhetorical questions (interrogative) embody unresolved searching; the declarative \"It went to some forgotten place\" provides a syntactic \"answer\" — but one that is vague (\"some forgotten place\"), preserving mystery. The final relative clause (\"That's hidden in an infant's face\") embeds the answer inside a noun phrase, making childhood's location a modifier of \"place\" rather than a standalone fact. This mirrors the theme: adulthood gains language (declaratives) but loses direct access to childhood (now hidden in syntax). A wrong answer (e.g., \"The poem ends with an answer so tension is gone\") treats the declarative as final truth, ignoring how the relative clause subordinates and conceals the answer — a misreading of how syntax enacts thematic ambiguity.",
+     "self_check": true
+    },
+    {
+     "q": "Write two original lines of poetry that use anaphoric repetition of a rhetorical question to explore a personal transition (e.g., moving homes, changing schools, losing a belief). Use past tense verbs in the subordinate clauses to mark specific moments, and end with a declarative statement that offers a partial, metaphorical answer.",
+     "a": "Example:  \n\"When did my courage go? / Was it the night I watched the train leave without me? / Was it the morning I packed boxes labeled 'past'? / It settled in the dust on the windowsill, / Waiting in the crack where light enters.\"  \nA strong answer mirrors the poem's grammar: anaphoric rhetorical question + past tense subordinate clauses (\"watched\", \"packed\") + declarative with metaphorical location. A weak answer (e.g., \"I lost courage when I moved. It's gone.\") uses no anaphora, no subordinate clauses, and no syntactic progression — revealing the student cannot transfer the poem's grammatical architecture to their own voice.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

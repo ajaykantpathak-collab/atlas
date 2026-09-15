@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_02_004",
+   "title": "c10_eco_cbse_02_004",
+   "questions": [
+    {
+     "q": "State the approximate share of the tertiary sector in India's GDP as of the latest available data (2023-24) and name the two sectors whose development creates derived demand for services.",
+     "a": "The tertiary sector contributes approximately 54-55% of India's GDP (2023-24). The development of the primary (agriculture) and secondary (manufacturing/industry) sectors creates derived demand for transport, storage, finance, and communication services. A wrong answer (e.g., stating primary sector is largest or tertiary share is below 40%) reveals the student has not internalized the structural shift data from the previous GDP node and still thinks India is an agrarian economy.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the demand for services like banking, insurance, and transport increases automatically when the primary and secondary sectors grow, using the concept of derived demand.",
+     "a": "When agriculture produces more, it needs transport to mandis, cold storage, and credit/insurance for crops. When manufacturing grows, it requires banking for working capital, logistics for raw materials/finished goods, and telecom for coordination. These services are not demanded directly by consumers but are *derived* from the production needs of the other two sectors. A wrong answer that lists only consumer-facing services (hairdressing, restaurants) shows the student confuses final demand with derived/intermediate demand and misses the production-chain linkage.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following hypothetical data for India in a year: Primary Sector GDP = ₹25 lakh crore, Secondary Sector GDP = ₹30 lakh crore, Tertiary Sector GDP = ₹55 lakh crore. Calculate the percentage share of each sector in total GDP. Show steps.",
+     "a": "Step 1: Total GDP = 25 + 30 + 55 = ₹110 lakh crore.\nStep 2: Primary share = (25/110) × 100 = 22.7%.\nStep 3: Secondary share = (30/110) × 100 = 27.3%.\nStep 4: Tertiary share = (55/110) × 100 = 50%.\nStep 5: Interpretation: Tertiary sector is the largest contributor (half of GDP). A wrong calculation (e.g., dividing by 3 instead of total) reveals the student treats shares as simple averages rather than weighted proportions, a common error in board exam data interpretation questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the trend in tertiary sector's GDP share vs. its employment share in India from 1973 to 2023. Why has employment share not kept pace with output share? Identify two specific reasons.",
+     "a": "While tertiary GDP share rose from ~30% (1973) to ~54% (2023), employment share rose only from ~15% to ~32%. Two reasons: (1) Many modern services (IT, finance, telecom) are skill-intensive and capital-intensive, creating fewer jobs per unit of output compared to labor-intensive agriculture or traditional retail. (2) \"Jobless growth\" in services: automation and digital platforms (e.g., UPI replacing bank tellers, e-commerce reducing retail staff) raise productivity without proportional hiring. A wrong answer blaming \"laziness\" or \"lack of jobs\" shows the student misses the structural productivity difference between sectors.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's rapid shift to a service-dominated economy without a strong manufacturing base is a sustainable development model.\" Provide two arguments for and two against.",
+     "a": "For: (1) Services require less land/natural resources, easing environmental pressure. (2) India's demographic dividend (English-speaking, young workforce) aligns with global demand for IT/BPO/healthcare. Against: (1) Services cannot absorb low-skilled labor at scale — manufacturing is needed for mass employment. (2) High-value services depend on a domestic industrial base for hardware, infrastructure, and innovation ecosystem; over-reliance on exports makes GDP vulnerable to global demand shocks. A one-sided answer reveals the student cannot weigh trade-offs, a key competency for case-based board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a mind-map showing the chain of causation from \"Rise in Per Capita Income\" to \"Tertiary Sector becomes largest GDP contributor\". Include at least 5 intermediate links with arrows.",
+     "a": "Expected chain: Rise in per capita income → Engel's Law: demand for food (primary) grows slower than income → demand for manufactured goods (secondary) grows proportionally → demand for services (health, education, finance, recreation) grows fastest (income elasticity >1) → firms outsource services (logistics, IT, legal) to specialize → technology (internet, digital payments) lowers transaction costs for services → new service categories emerge (fintech, edtech, gig economy) → tertiary sector GDP share surpasses 50%. A poor mind-map with missing links or reverse arrows shows the student memorizes reasons as a list without understanding the causal mechanism.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

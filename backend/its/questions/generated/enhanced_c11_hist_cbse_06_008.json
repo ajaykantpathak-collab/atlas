@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_06_008",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_06_008",
+   "title": "c11_hist_cbse_06_008",
+   "questions": [
+    {
+     "q": "In which century did the sustained revival of European towns and long-distance trade begin, and what was the primary agricultural innovation that made it possible?",
+     "a": "The sustained revival began in the 11th century, driven primarily by the adoption of the heavy wheeled plough (with mouldboard) and the three-field rotation system, which together increased grain yields and created a reliable surplus. A wrong answer — such as \"12th century due to the Crusades\" — reveals the student conflates a later accelerator (Crusades opened Eastern markets) with the foundational cause (agricultural productivity), missing the internal European transformation that preceded external contact.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the phrase \"Stadtluft macht frei\" (city air makes you free) become a legal reality in medieval Europe, and what specific feudal obligation did it undermine?",
+     "a": "The phrase became legal reality because towns needed labour and lords needed revenue; charters often stipulated that a serf residing in a town for \"a year and a day\" without being claimed gained freedom, undermining the lord's right of seigneurie banale (compulsory labour and jurisdiction over the peasant's person). A wrong answer — \"kings freed serfs to weaken nobles\" — reveals a top-down political misconception; the process was bottom-up, driven by urban labour demand and fiscal bargaining, not royal decree.",
+     "self_check": true
+    },
+    {
+     "q": "A merchant from Lübeck transports Baltic herring and furs to the Champagne fairs, exchanges them for Italian silk and spices, and returns with Flemish cloth. Using the concept of the \"commercial revolution,\" explain how this triangular trade pattern depended on three distinct geographical zones and their complementary products.",
+     "a": "The triangular trade linked: (1) the Baltic/North Sea zone (Lübeck, Hanseatic League) supplying bulk raw materials — herring, furs, timber, grain; (2) the Mediterranean zone (Venice, Genoa) supplying luxury goods — silk, spices, cotton, sugar — via Levantine routes; (3) the North European plain (Flanders, Champagne) producing high-value textiles (Flemish cloth) using English wool. The fairs acted as the clearing house where these zones met. A wrong answer listing only \"Europe and Asia\" misses the intra-European specialization (Baltic raw materials ↔ Flemish manufacturing ↔ Mediterranean finance/luxuries) that defined the commercial revolution's structure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of the Church in fostering trade in medieval Europe with the role of temple institutions in early medieval India (c. 8th–12th century). Identify two similarities and one critical difference in how religious institutions enabled commercial networks.",
+     "a": "Similarities: (1) Both provided safe deposit and credit — European monasteries and bishops issued letters of credit; Indian temples (e.g., Chola temples) held deposits and made loans to merchants. (2) Both sponsored fairs/markets — Church feast days structured the European fair calendar; temple festivals (e.g., at Kanchipuram) drew merchant caravans. Critical difference: The Church in Europe gradually legitimised profit and interest (via canon law distinctions like damnum emergens), while Indian temple economies remained embedded in ritual redistribution (dāna, prasāda) and did not develop institutional banking or bills of exchange. A wrong answer claiming \"both developed banking\" conflates credit with banking; the bill of exchange was a distinct European innovation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The growth of towns was the single most important factor in the decline of serfdom in Western Europe.\" Support your judgement with two pieces of evidence and one counter-argument.",
+     "a": "Judgement: The claim is largely valid for Western Europe (France, England, Rhineland) but overstated as a universal cause. Evidence for: (1) Charter evidence — towns like Cologne, Milan, and London offered \"year and a day\" freedom, draining manorial labour. (2) Money rents — lords increasingly commuted labour services to cash rents to buy urban luxuries, converting serfs into tenant farmers. Counter-argument: In Eastern Europe (Prussia, Poland, Russia), the \"second serfdom\" intensified after 1300 despite town growth, because nobles controlled vast estates and restricted peasant mobility to meet grain export demand. A wrong answer ignoring the East/West divergence shows a Western-centric blind spot.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a historical argument: \"The commercial revolution of the 11th–13th centuries laid the institutional foundations for European capitalism, not merely by increasing trade volume but by creating new legal and financial instruments.\" Identify three such instruments and explain how each reduced transaction risk.",
+     "a": "Three instruments: (1) Bill of exchange (cambium) — allowed merchants to transfer value across distances without moving specie, reducing theft risk and solving currency multiplicity. (2) Commenda contract — a limited partnership where an investor (commendator) provided capital and a travelling partner (tractator) bore physical risk; losses limited to invested capital, encouraging capital pooling. (3) Merchant law (lex mercatoria) — a customary, pan-European commercial code enforced by merchant courts at fairs, providing predictable dispute resolution without feudal courts. A poor answer listing \"banks, coins, contracts\" without specifying how each mitigated a specific risk (distance, capital loss, legal uncertainty) shows descriptive rather than analytical thinking.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

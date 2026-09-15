@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch05_002",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch05_002",
+   "title": "c7_geo_ch05_002",
+   "questions": [
+    {
+     "q": "What is the approximate total length of India's land boundary?",
+     "a": "The approximate total length of India's land boundary is 15,106 kilometres. A wrong answer indicates confusion with India's coastline length (which is around 7,516 km including islands) or guessing a random number without recalling standard geographical statistics of India's borders.",
+     "self_check": true
+    },
+    {
+     "q": "Why does India's boundary with China primarily follow high mountain ranges while its boundary with Bangladesh largely cuts through flat riverine plains?",
+     "a": "India's boundary with China follows the Himalayas because high mountain watersheds naturally serve as physical dividers between nations. In contrast, the boundary with Bangladesh passes through the low-lying, flat deltaic plains of the Ganga-Brahmaputra river system where natural ridges are absent, resulting in a border shaped by historical river courses and administrative partitions rather than towering peaks. A wrong answer shows a misconception that all international borders are man-made lines drawn independently of physical geography.",
+     "self_check": true
+    },
+    {
+     "q": "If a traveler starts at the tri-junction border of India, China, and Bhutan in the eastern Himalayas and travels west along the northern boundary until reaching the westernmost point with Pakistan in the Rann of Kutch, what major shift in physical terrain will they experience?",
+     "a": "Working steps:\n1. Identify the starting point: The eastern Himalayan sector (high altitude, snow-capped mountains, steep valleys).\n2. Trace the northern sector westward: Move through Sikkim, Uttarakhand, and Himachal Pradesh, remaining in high-altitude cold desert and mountain terrain (Ladakh/Himachal sectors).\n3. Trace the northwestern sector southward: Descend from the mountains into the arid plains and thorn scrub forests of Punjab and Rajasthan.\n4. Reach the final destination: The flat, saline salt marshes of the Rann of Kutch in Gujarat.\n5. Conclude: The traveler shifts from extreme high-altitude alpine mountain terrain to arid desert and salt flats.\nA wrong answer reveals an inability to mentally trace India's northern perimeter and connect regional physical features to map locations.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the physical terrain of India's land boundary with Myanmar affects cross-border movement compared to the boundary with Pakistan.",
+     "a": "The boundary with Myanmar runs through rugged, densely forested mountain ranges and deep river valleys (such as the Patkai Bum and Naga Hills), which naturally restrict heavy vehicular transport and make movement challenging except through specific mountain passes. Conversely, the northern and western boundary segments with Pakistan feature desert stretches in Rajasthan and irrigated plains in Punjab where terrain is flatter, though militarized. A wrong answer shows failure to analyze how dense vegetation and rugged relief act as natural barriers compared to open desert or plain terrain.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether natural land boundaries like rivers and mountain ranges make international borders completely secure and permanent over time.",
+     "a": "Natural land boundaries like mountains and rivers provide initial physical barriers, but they are not permanently secure or static. Rivers frequently shift their channels due to annual floods and erosion (as seen in eastern riverine borders), changing local topography, while mountain passes have historically been traversed by trade and migration routes. Therefore, physical landforms assist defense and demarcation, but human management, treaties, and active border surveillance are required for security. A wrong answer assumes that physical barriers make borders completely impassable and unchanging.",
+     "self_check": true
+    },
+    {
+     "q": "Design a rough regional profile for a border outpost stationed along India's northernmost land boundary with China, describing the physical challenges soldiers face due to the land's extent and altitude.",
+     "a": "A strong response will describe an outpost located in a high-altitude cold desert (such as Ladakh), mentioning extreme sub-zero temperatures, low oxygen levels due to high elevation, rugged rocky terrain lacking vegetation, and logistical difficulties in transporting supplies during winter snowstorms. A poor response ignores the specific physical geography of the Himalayas and describes a generic outpost in a hot or flat region.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

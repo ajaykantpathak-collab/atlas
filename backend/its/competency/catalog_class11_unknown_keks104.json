@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "english",
+  "chapter": 104,
+  "chapter_title": "Indian Art and Architecture",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keks104.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keks104.1.1",
+      "title": "One of the World's Oldest Creative Civilisations",
+      "section": "4.1",
+      "definition": "The chapter opens a journey through one of the world's oldest and richest civilisations, where human beings pursued creative pursuits from the earliest times -- sculpting, building and painting for faith, power and beauty. Indian art and architecture record that long conversation between people and their purposes.",
+      "formula": "",
+      "key_idea": "Art here is a civilisation's diary -- every carving and building records what its makers believed and valued.",
+      "textbook_ref": "keks104.txt introduction (journey of civilisation, creative pursuits, oldest and richest traditions of art and architecture)",
+      "question_patterns": [
+        "why is indian art called among the oldest in the world",
+        "in class 11 indian art and architecture: what purposes did early art serve",
+        "what can art reveal about a civilisation",
+        "name the major periods of indian art covered in the chapter",
+        "how do creative pursuits record history",
+        "what makes indian architecture rich and varied"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "trace the antiquity",
+          "explain": "Creative work runs from prehistoric marks through urban civilisations to temple ages -- an unbroken line."
+        },
+        {
+          "step": 2,
+          "action": "read the motives",
+          "explain": "Faith, kingship and community needs drove building and image-making across periods."
+        },
+        {
+          "step": 3,
+          "action": "read the record",
+          "explain": "Surviving monuments and sculptures let each period speak for itself to the present."
+        }
+      ]
+    },
+    {
+      "id": "keks104.1.2",
+      "title": "Sacred Architecture: Stupas, Temples and Rock-cut Monuments",
+      "section": "4.2",
+      "definition": "Indian religious architecture evolved distinctive forms: the stupa housing relics, temples rising in nagara and dravida styles with their sanctum and towers, and rock-cut caves carved whole out of cliffs. Each form encoded worship -- a path for the eye to climb toward the sacred.",
+      "formula": "",
+      "key_idea": "Stone shaped into theology -- stupa, temple and cave each turn worship into architecture.",
+      "textbook_ref": "keks104.txt architecture sections (stupa, temple styles nagara dravida, rock cut caves, sanctum, shrine architecture)",
+      "question_patterns": [
+        "describe the stupa and its purpose",
+        "in class 11 indian art and architecture: distinguish nagara and dravida temple styles",
+        "what is a rock cut monument and give an example",
+        "explain the parts of a hindu temple",
+        "why were temples built as mountain like towers",
+        "compare cave architecture with structural architecture"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "follow the stupa",
+          "explain": "The domed stupa circled by worshippers organised early Buddhist devotion in solid stone."
+        },
+        {
+          "step": 2,
+          "action": "follow the temple",
+          "explain": "Temple architecture grew a sanctum, hall and tower, in northern nagara and southern dravida profiles."
+        },
+        {
+          "step": 3,
+          "action": "follow the chisel",
+          "explain": "Rock-cut caves reversed the method -- sculptors cut inward, carving whole monasteries from living rock."
+        }
+      ]
+    },
+    {
+      "id": "keks104.1.3",
+      "title": "Sculpture and Painting: The Image Traditions",
+      "section": "4.3",
+      "definition": "Alongside buildings ran the image traditions: sculpted Buddhas, gods and dancers that made doctrine visible, and wall and miniature paintings that coloured interiors from caves to courts. Iconography -- the fixed attributes and poses -- let worshippers read a sculpture like a text.",
+      "formula": "",
+      "key_idea": "Gods you can read -- fixed poses and attributes turn sculpture and painting into scripture for the eye.",
+      "textbook_ref": "keks104.txt art sections (sculpture, buddha images, iconography, murals and paintings, miniature tradition)",
+      "question_patterns": [
+        "what is iconography and why does it matter in indian art",
+        "in class 11 indian art and architecture: identify the features of a buddha image",
+        "how do murals differ from miniature paintings",
+        "explain how sculpture communicates stories",
+        "name famous sites of ancient indian painting",
+        "what do the poses and attributes of a deity signify"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "learn the code",
+          "explain": "Postures, hand gestures and carried objects identify deities and narrate their myths."
+        },
+        {
+          "step": 2,
+          "action": "see the styles evolve",
+          "explain": "From serene early Buddhas to densely ornamented temple gods, sculpture style tracks changing devotion."
+        },
+        {
+          "step": 3,
+          "action": "see painting parallel it",
+          "explain": "Cave murals and later miniatures applied the same narrative skill to walls and pages."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keks104.txt architecture sections",
+      "concept": "keks104.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "A traveller sees one temple with a curving shikhara and another with a stepped pyramidal tower. Classify the styles and explain.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "read the first tower",
+          "explain": "The curving, beehive-like shikhara marks the nagara style of northern India."
+        },
+        {
+          "step": 2,
+          "action": "read the second tower",
+          "explain": "The stepped, storeyed vimana marks the dravida style of the south."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "Tower profile is the quickest visible key to a temple's regional style."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keks104.txt art sections (iconography)",
+      "concept": "keks104.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "A sculpture shows a figure seated in meditation with elongated earlobes and a topknot. Identify it and explain how you know.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "read the attributes",
+          "explain": "Meditative posture, elongated earlobes and topknot are the fixed marks of the Buddha in iconography."
+        },
+        {
+          "step": 2,
+          "action": "apply the code",
+          "explain": "Iconography works like a script -- attributes spell out the identity without any label."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "The figure is a Buddha image; the identification method is the chapter's lesson in reading art."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keks104.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Why is Indian art considered among the world's oldest traditions?",
+        "Describe the stupa as a form of architecture.",
+        "Compare nagara and dravida temple styles.",
+        "What is rock-cut architecture? Give examples.",
+        "Explain iconography with an example of a Buddha image.",
+        "How do paintings and sculptures preserve cultural stories?"
+      ]
+    }
+  ]
+}

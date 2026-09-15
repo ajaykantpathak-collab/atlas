@@ -1,0 +1,499 @@
+{
+  "class": 12,
+  "subject": "chemistry",
+  "chapter": 4,
+  "chapter_title": "The d- and f-Block Elements",
+  "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lech104.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "lech.04.4.1.1",
+      "title": "Transition Elements: Definition and Position",
+      "section": "4.1",
+      "definition": "Metals whose atom or at least one common ion carries a partly filled d subshell; they occupy groups 3 to 12 in the middle of the periodic table, with zinc, cadmium and mercury left out because their d shells stay full.",
+      "formula": "transition metal = incomplete d subshell in atom or in a common ion; position = groups 3 to 12 between s and p block",
+      "key_idea": "Silver still qualifies because its +2 state opens the 4d shell, while scandium qualifies in the atom itself; a full d10 in both ground state and ions, as in zinc, cadmium and mercury, disqualifies an element from the position it otherwise holds.",
+      "textbook_ref": "lech104.txt, Sections 4.1-4.2 and Example 4.1",
+      "question_patterns": [
+        "explain why scandium with atomic number 21 counts as a transition element but zinc with atomic number 30 does not",
+        "state the IUPAC definition of a transition metal and apply it to silver",
+        "why are zinc, cadmium and mercury excluded from the transition metals despite sitting in the d block",
+        "identify which of the given atomic numbers belong to d block and which to f block elements",
+        "how does a partly filled d subshell make an element a transition metal",
+        "give the position of the d block and f block in the modern periodic table"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Write the d electron count in the free atom",
+          "explain": "Scandium carries 3d1, zinc carries 3d10."
+        },
+        {
+          "step": 2,
+          "action": "Check the d count in the common ions too",
+          "explain": "Zn2+ still holds d10, so no partially filled shell ever appears."
+        },
+        {
+          "step": 3,
+          "action": "Apply the definition",
+          "explain": "An incomplete d subshell in the atom or a stable ion marks a transition metal; otherwise the element is a d block metal only."
+        }
+      ]
+    },
+    {
+      "id": "lech.04.4.2.1",
+      "title": "Electronic Configurations of d-Block Atoms and Ions",
+      "section": "4.2",
+      "definition": "Outer shells of these metals follow the pattern of one to ten electrons in the inner d orbitals with one or two in the outer s orbital; chromium and copper bend the rule to gain the extra stability of half filled or full d sets.",
+      "formula": "configuration pattern = (n minus 1) d raised to 1 to 10, ns raised to 1 to 2",
+      "key_idea": "When ions form, the ns electrons leave first and the d electrons follow; the tiny energy gap between 3d and 4s explains why chromium settles for 3d5 4s1 and copper for 3d10 4s1.",
+      "textbook_ref": "lech104.txt, Section 4.2, Table 4.1 and Table 4.2",
+      "question_patterns": [
+        "write the electronic configuration of Cr3+, Cu+ and Mn2+",
+        "why does chromium take the 3d5 4s1 arrangement instead of 3d4 4s2",
+        "give the configuration of Ce4+ and Lu2+ using the appropriate core",
+        "state the general outer configuration of the 3d series and name its exceptions",
+        "which electrons leave first when a transition metal atom turns into an ion",
+        "use Hund's rule to work out the configuration of the tripositive cerium ion"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Fill the d orbitals one electron at a time with parallel spins",
+          "explain": "Hund's rule spreads electrons across the five d orbitals before pairing."
+        },
+        {
+          "step": 2,
+          "action": "Check for half filled or filled set stability",
+          "explain": "A d5 or d10 set gains exchange energy, so chromium and copper pull an electron up from 4s."
+        },
+        {
+          "step": 3,
+          "action": "Remove ns electrons first for cations",
+          "explain": "For example Fe goes from 3d6 4s2 to Fe2+ as 3d6, not 3d8."
+        }
+      ]
+    },
+    {
+      "id": "lech.04.4.3.1",
+      "title": "Melting Points and Enthalpy of Atomisation Trends",
+      "section": "4.3.1",
+      "definition": "These metals are dense, hard and slow to boil because many d electrons join the s electrons in the metallic glue; both melting points and atomisation enthalpies climb to a peak near the middle of each row and then slide down.",
+      "formula": "bonding strength tracks unpaired d electrons, peaking near the d5 member",
+      "key_idea": "One unpaired electron per d orbital gives the strongest interatomic bonding, which is why tungsten and the mid-series metals melt highest while zinc, with no d electrons to share, sits at the bottom.",
+      "textbook_ref": "lech104.txt, Section 4.3.1, Figs. 4.1-4.2 and Table 4.2",
+      "question_patterns": [
+        "explain why transition metals have high enthalpies of atomisation",
+        "why do the melting points of the 3d series rise to a maximum in the middle and then fall",
+        "account for the low enthalpy of atomisation of zinc in the series scandium to zinc",
+        "compare the metallic character and hardness of the transition metals with calcium",
+        "what explains the exceptionally low melting point of manganese against the general trend",
+        "relate the number of unpaired d electrons to the strength of metallic bonding"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Count the electrons available for metallic bonding",
+          "explain": "Both ns and participated (n-1)d electrons bond; more unpaired electrons mean stronger glue."
+        },
+        {
+          "step": 2,
+          "action": "Locate the peak of the trend",
+          "explain": "Bonding peaks where the d set is half filled, so melting points and atomisation enthalpies max out mid-series."
+        },
+        {
+          "step": 3,
+          "action": "Apply the idea to the outlier",
+          "explain": "Zinc offers no d electrons, hence the weakest bonding and the lowest atomisation enthalpy of its row."
+        }
+      ]
+    },
+    {
+      "id": "lech.04.4.3.2",
+      "title": "Atomic and Ionic Radii Trends in the d Series",
+      "section": "4.3.2",
+      "definition": "Radii shrink slightly across a row because extra nuclear charge is poorly screened by the added d electron; the third row then matches the second row in size instead of exceeding it, a legacy of the f block filling in between.",
+      "formula": "radius trend = small decrease across a series, 5d similar to 4d due to lanthanoid contraction",
+      "key_idea": "Imperfect shielding by f electrons lets the nuclear charge pull the 5d shells in, leaving zirconium and hafnium nearly the same size, which explains why they occur together and are hard to separate.",
+      "textbook_ref": "lech104.txt, Section 4.3.2, Fig. 4.3 and Table 4.2",
+      "question_patterns": [
+        "why do the atomic radii of the third transition series match those of the second series",
+        "explain the lanthanoid contraction and its consequences for zirconium and hafnium",
+        "account for the gradual decrease in ionic radius across the first transition series",
+        "what causes the poor shielding by 4f electrons and how does it shrink the 5d elements",
+        "compare the size change across a d series with the change down a group",
+        "how does the density of the first row metals change from titanium to copper and why"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Track nuclear charge versus shielding across the row",
+          "explain": "Each added d electron shields poorly, so the outer electrons feel a stronger pull and the radius eases down."
+        },
+        {
+          "step": 2,
+          "action": "Insert the 4f filling between the second and third rows",
+          "explain": "Fourteen f additions contract the atom further before 5d filling starts."
+        },
+        {
+          "step": 3,
+          "action": "State the consequence",
+          "explain": "Paired members such as Zr and Hf end up nearly identical in radius and chemistry."
+        }
+      ]
+    },
+    {
+      "id": "lech.04.4.3.3",
+      "title": "Ionisation Enthalpies and d5/d10 Stability",
+      "section": "4.3.3",
+      "definition": "Removing electrons grows costlier across a row, but the climb is interrupted wherever the ion left behind carries an exactly half filled or completely filled d set, because such arrangements maximise the exchange energy.",
+      "formula": "ionisation enthalpy bump = extra stability of d5 or d10 configurations",
+      "key_idea": "The second ionisation enthalpy jumps at chromium and copper where M+ would be d5 or d10, and the third jumps at manganese and zinc whose ions already hold d5 or d10, which is why higher oxidation states are rare past those points.",
+      "textbook_ref": "lech104.txt, Section 4.3.3, Table 4.2 ionisation data",
+      "question_patterns": [
+        "why is the ionisation enthalpy of Fe2+ lower than that of Mn2+ although iron follows manganese",
+        "explain the irregular variation of the first and second ionisation enthalpies in the 3d series",
+        "why does the third ionisation enthalpy shoot up at manganese and zinc",
+        "what role does exchange energy play in stabilising half filled and filled d subshells",
+        "why is it difficult to take copper or nickel beyond the +2 oxidation state",
+        "how do the sums of the first two ionisation enthalpies shape the stability of the +2 state"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Write the d count of the ion that would form",
+          "explain": "Removing an electron from Cr+ gives d5; from Cu+ gives d10."
+        },
+        {
+          "step": 2,
+          "action": "Weigh the exchange energy lost",
+          "explain": "A half filled or filled set carries maximum exchange stabilisation, so its ionisation costs extra."
+        },
+        {
+          "step": 3,
+          "action": "Connect to observed enthalpy jumps",
+          "explain": "The bumps at Cr, Cu, Mn and Zn in the tables are exactly these cases."
+        }
+      ]
+    },
+    {
+      "id": "lech.04.4.3.4",
+      "title": "Variety of Oxidation States in the d Block",
+      "section": "4.3.4",
+      "definition": "Because the ns and (n-1)d electrons sit close in energy, these metals lose them in changing combinations, giving a ladder of oxidation states spaced one unit apart that is richest near the middle of each row.",
+      "formula": "oxidation state spread = widest near mid series, manganese spans +2 to +7",
+      "key_idea": "States differing by one (V II to V V) mark a transition metal, unlike p block jumps of two; fluorine and oxygen prop up the highest states, and beyond manganese the high states collapse toward +2.",
+      "textbook_ref": "lech104.txt, Sections 4.3.4, 4.3.7, Tables 4.3, 4.5, 4.6",
+      "question_patterns": [
+        "which metal of the 3d series shows the largest number of oxidation states and why",
+        "explain why the oxidation states of transition metals differ by unity while p block ones differ by two",
+        "why is the highest oxidation state of a metal seen only in its oxide or fluoride",
+        "name the oxometal anions where the metal's oxidation number equals its group number",
+        "compare the variable valency of manganese with that of zinc and scandium",
+        "how do Mo(VI) and W(VI) differ from Cr(VI) in stability within group 6"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "List the s and d electrons available for loss or sharing",
+          "explain": "Manganese offers 4s2 3d5, enough for every state from +2 up to +7."
+        },
+        {
+          "step": 2,
+          "action": "Note which ligands stabilise the top states",
+          "explain": "Small, electronegative oxygen and fluorine hold the highest states, as in Mn2O7 and CrF6."
+        },
+        {
+          "step": 3,
+          "action": "Contrast the two ends of the row",
+          "explain": "Scandium and titanium have too few electrons and copper and zinc too many for wide spreads of states."
+        }
+      ]
+    },
+    {
+      "id": "lech.04.4.3.5",
+      "title": "Electrode Potentials and Chemical Reactivity",
+      "section": "4.3.5",
+      "definition": "The M2+/M and M3+/M2+ potentials decide how readily each metal or ion changes state; copper alone resists ordinary acids, manganese(III) and cobalt(III) act as oxidants, and copper(I) quietly splits into copper(II) and copper metal in water.",
+      "formula": "E0 balance = atomisation plus ionisation costs versus hydration energy",
+      "key_idea": "A positive E0 for Cu2+/Cu reflects the metal's high atomisation enthalpy unmatched by hydration gain, and the stability of d5 or d10 ions such as Mn2+ and Zn2+ explains the odd dips and peaks in the potential series.",
+      "textbook_ref": "lech104.txt, Sections 4.3.5, 4.3.6, 4.3.8, Tables 4.4 and Example 4.4",
+      "question_patterns": [
+        "why is the E naught value for copper positive and what follows for its reaction with acids",
+        "why is Cr2+ reducing while Mn3+ is oxidising even though both are d4 species",
+        "explain the irregular trend of E naught M2+ M values across the first row",
+        "which ions of the first row act as the strongest oxidising agents in aqueous solution",
+        "why does Cu+ undergo disproportionation in water while Cu2+ is stable",
+        "use the given electrode potential data to compare the ease of oxidising iron, chromium and manganese"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Add up the energy bill for forming the aqueous ion",
+          "explain": "Atomisation plus first and second ionisation enthalpies, offset by hydration enthalpy, set E0."
+        },
+        {
+          "step": 2,
+          "action": "Check the d count gained or lost",
+          "explain": "Moving to d3 (Cr2+ oxidised) or to d5 (Mn3+ reduced) is favoured by extra stability of the product."
+        },
+        {
+          "step": 3,
+          "action": "Read reactivity from the sign and size of E0",
+          "explain": "Negative E0 metals liberate hydrogen from acids; positive E0 couples make the ion the oxidant."
+        }
+      ]
+    },
+    {
+      "id": "lech.04.4.3.6",
+      "title": "Spin-only Magnetic Moment of Transition Metal Ions",
+      "section": "4.3.9",
+      "definition": "Ions holding unpaired d electrons are pulled by a magnetic field, and for the first row the pull is fixed by the unpaired count alone through the spin-only relation, quoted in Bohr magnetons.",
+      "formula": "moment_bm = sqrt(unpaired_electrons * (unpaired_electrons + 2))",
+      "key_idea": "Count the unpaired electrons first in Bohr magneton terms: for a d count between 1 and 9 the unpaired number is the smaller of d and 10 minus d; five unpaired electrons give 5.92 BM, one gives 1.73 BM and none gives zero.",
+      "textbook_ref": "lech104.txt, Section 4.3.9, spin-only formula, Table 4.7 and Example 4.8",
+      "question_patterns": [
+        "calculate the spin only magnetic moment of the divalent ion of an element with atomic number 25",
+        "find the magnetic moment of M2+ in water when the atomic number is 27",
+        "compute the spin-only moment in Bohr magnetons for a d7 ion",
+        "how many unpaired electrons sit in Mn3+ and Cr3+ and what moments do they give",
+        "use the spin only formula to predict the moment of an ion from its d electron count",
+        "determine mu for a tripositive lanthanoid-free 3d ion with the stated configuration"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Convert the d electron count into an unpaired count",
+          "explain": "Electrons pair beyond d5, so for d7 only three stay single; the smaller of d and 10 minus d is the unpaired number.",
+          "compute": "unpaired_electrons = min(d_electrons, 10 - d_electrons)"
+        },
+        {
+          "step": 2,
+          "action": "Apply the spin-only relation",
+          "explain": "For five unpaired electrons, the root of 5 times 7 gives 5.92 BM; for three it gives 3.87 BM.",
+          "compute": "moment_bm = sqrt(unpaired_electrons * (unpaired_electrons + 2))"
+        }
+      ],
+      "worked_examples": [
+        {
+          "question": "Using Spin-only Magnetic Moment of Transition Metal Ions, compute the result for d_electrons = 3.",
+          "solution": "Step 1: Convert the d electron count into an unpaired count: unpaired_electrons = min(d_electrons, 10 - d_electrons) = 3.0 Step 2: Apply the spin-only relation: moment_bm = sqrt(unpaired_electrons * (unpaired_electrons + 2)) = 3.872983 Final result: 3.872983",
+          "answer": "3.872983"
+        },
+        {
+          "question": "Using Spin-only Magnetic Moment of Transition Metal Ions, compute the result for d_electrons = 4.",
+          "solution": "Step 1: Convert the d electron count into an unpaired count: unpaired_electrons = min(d_electrons, 10 - d_electrons) = 4.0 Step 2: Apply the spin-only relation: moment_bm = sqrt(unpaired_electrons * (unpaired_electrons + 2)) = 4.898979 Final result: 4.898979",
+          "answer": "4.898979"
+        }
+      ]
+    },
+    {
+      "id": "lech.04.4.3.7",
+      "title": "Coloured Ions and Complex Formation",
+      "section": "4.3.10",
+      "definition": "Partly filled d shells let electrons hop between split d levels by absorbing visible light, and the small, highly charged ions bind lone-pair donors into complexes; both traits vanish for empty or full d sets.",
+      "formula": "colour requires a d electron that can be excited between split d levels",
+      "key_idea": "Sc3+, Ti4+ and Zn2+ stay colourless because d0 or d10 offers no d-d jump; water as ligand tints Cu2+ blue and Ni2+ green, and small size, high charge plus vacant d orbitals drive the rich complex chemistry.",
+      "textbook_ref": "lech104.txt, Sections 4.3.10-4.3.11, Tables 4.8",
+      "question_patterns": [
+        "predict which of Ti3+, Cu+, Sc3+ and Co2+ appear coloured in aqueous solution and why",
+        "explain the origin of colour in transition metal ions using d orbital splitting",
+        "why are Zn2+ and Sc3+ ions colourless while Ni2+ is green",
+        "what makes transition metals such prolific former of complex compounds",
+        "relate the ligand present to the frequency of light a complex absorbs",
+        "why do the f0 and f14 lanthanoid ions show no colour while the rest do"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Write the d count of the ion",
+          "explain": "An intermediate count such as d1 to d9 permits a d-d excitation."
+        },
+        {
+          "step": 2,
+          "action": "Decide colour from the absorbed visible frequency",
+          "explain": "The observed tint is the complement of the absorbed light; ligand identity shifts the absorption."
+        },
+        {
+          "step": 3,
+          "action": "Judge complexing ability",
+          "explain": "Small radius, high charge and available d orbitals let the ion bind several donor molecules or anions."
+        }
+      ]
+    },
+    {
+      "id": "lech.04.4.3.8",
+      "title": "Catalytic Activity, Interstitial Compounds and Alloys",
+      "section": "4.3.12",
+      "definition": "The same two talents, switching oxidation states and binding reactants at a surface, make these metals premier catalysts; their lattices also trap small atoms in hard interstitial phases and mix readily into alloys.",
+      "formula": "catalysis route = variable oxidation states plus surface complex formation",
+      "key_idea": "Iron(III) shuffles between states to ferry electrons from iodide to persulphate; trapped H, C or N give hard, conducting, chemically quiet phases like TiC, and radii matched within about 15 percent let the metals blend into steels, brass and bronze.",
+      "textbook_ref": "lech104.txt, Sections 4.3.12-4.3.14",
+      "question_patterns": [
+        "why do transition metals and their compounds behave as good catalysts",
+        "explain the catalytic action of Fe3+ in the reaction between iodide and persulphate ions",
+        "what are interstitial compounds and why are they common for transition metals",
+        "list the characteristic properties of interstitial compounds such as TiC and Mn4N",
+        "why do transition metals form alloys so readily and name two industrially important ones",
+        "how does a solid catalyst increase reactant concentration and weaken reactant bonds at its surface"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Identify the state-switching cycle",
+          "explain": "A catalyst such as Fe3+ is reduced in one half step and reoxidised in the next, looping without loss."
+        },
+        {
+          "step": 2,
+          "action": "Check the lattice trapping of small atoms",
+          "explain": "H, C or N slip into lattice gaps giving non stoichiometric, very hard, conducting phases."
+        },
+        {
+          "step": 3,
+          "action": "Compare radii for alloy formation",
+          "explain": "Metals within about 15 percent in radius substitute into each other's lattices, producing hard, high melting alloys."
+        }
+      ]
+    },
+    {
+      "id": "lech.04.4.4.1",
+      "title": "Potassium Dichromate and Potassium Permanganate",
+      "section": "4.4.1",
+      "definition": "The two flagship oxidants of the row: dichromate is fused out of chromite ore with carbonate and acidified, while permanganate comes from oxidatively fusing pyrolusite; both accept electrons from iodide, iron(II), sulphite and oxalate in acid.",
+      "formula": "Cr2O7 2- plus 14 H+ plus 6 e gives 2 Cr3+ plus 7 H2O",
+      "key_idea": "Chromate yellow and dichromate orange interconvert with pH, sharing the +6 state; permanganate's reduction product shifts with acidity, running to Mn2+ in acid, MnO2 when nearly neutral and manganate in strong alkali.",
+      "textbook_ref": "lech104.txt, Section 4.4.1 (K2Cr2O7 and KMnO4 preparations and oxidising actions)",
+      "question_patterns": [
+        "describe the preparation of potassium dichromate from chromite ore",
+        "write the ionic equation for acidified dichromate oxidising iron(II) to iron(III)",
+        "what happens to a dichromate solution when the pH is raised, give the equation",
+        "outline the preparation of potassium permanganate from pyrolusite",
+        "how does acidified permanganate react with oxalic acid, sulphur dioxide and iron(II) ions",
+        "compare the products of permanganate reduction in acidic, neutral and alkaline media"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Recall the industrial route",
+          "explain": "Chromite fused with sodium carbonate in air gives chromate; MnO2 fused with alkali and an oxidant gives manganate, which disproportionates to permanganate."
+        },
+        {
+          "step": 2,
+          "action": "Balance the oxidation half equations in acid",
+          "explain": "Dichromate takes six electrons to two Cr3+; permanganate takes five electrons to Mn2+ in acid."
+        },
+        {
+          "step": 3,
+          "action": "Track the pH effect",
+          "explain": "Adding acid turns chromate into dichromate, and acid level decides whether MnO4 minus stops at Mn2+, MnO2 or MnO4 2-."
+        }
+      ]
+    },
+    {
+      "id": "lech.04.4.5.1",
+      "title": "Lanthanoids and Actinoids: the f-Block Metals",
+      "section": "4.5",
+      "definition": "Two rows set below the table fill 4f and 5f orbitals; the lanthanoids hold to +3 with occasional +2 or +4, shrink steadily along the row, and contrast with the radioactive, multi-state actinoids.",
+      "formula": "f block trend = lanthanoid contraction along 4f, wider actinoid contraction along 5f",
+      "key_idea": "Cerium(IV) oxidises but reverts to +3, europium(II) reduces back to +3, all traced to empty, half filled or full f sets; poor 5f shielding makes the actinoid contraction steeper and pushes their oxidation states up to +7.",
+      "textbook_ref": "lech104.txt, Sections 4.5-4.6, Tables 4.9-4.11 and Examples 4.10",
+      "question_patterns": [
+        "what is lanthanoid contraction and what consequences does it have for the third transition series",
+        "which lanthanoids show +4 and which show +2 oxidation states, and how does configuration explain it",
+        "why is actinoid contraction greater from element to element than lanthanoid contraction",
+        "compare the chemistry of actinoids with lanthanoids in configuration, oxidation states and reactivity",
+        "why is the chemistry of the actinoids more complicated than that of the lanthanoids",
+        "name the lanthanoid best known for the +4 state and state its main use class of alloys"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "Write the f electron counts across the row",
+          "explain": "Lanthanoid tripositive ions run 4f1 to 4f14; actinoids fill 5f with 6d and 7s competing."
+        },
+        {
+          "step": 2,
+          "action": "Attribute stability to f0, f7 and f14",
+          "explain": "Ce4+ (empty), Eu2+ and Tb4+ (half), Yb2+ (full) borrow stability from these arrangements."
+        },
+        {
+          "step": 3,
+          "action": "Contrast the two series",
+          "explain": "Lanthanoids stay in +3 with small size changes; actinoids spread over many states, are radioactive, and contract faster due to poorer 5f shielding."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "question": "A divalent ion in aqueous solution belongs to an element of atomic number 25. Find its spin-only magnetic moment.",
+      "solution": "The ion is Mn2+ with a d5 set, so five electrons stay unpaired. Moment = root of 5 times 7.",
+      "answer": "5.92 BM"
+    },
+    {
+      "question": "On what basis is scandium a transition element while zinc is not?",
+      "solution": "Scandium's atom carries 3d1, a partly filled set; zinc holds 3d10 both as atom and as Zn2+.",
+      "answer": "Scandium qualifies under the incomplete d subshell rule; zinc does not."
+    },
+    {
+      "question": "What is seen when the pH of a potassium dichromate solution is raised?",
+      "solution": "The orange dichromate takes up hydroxide and turns to yellow chromate: Cr2O7 2- plus 2 OH minus gives 2 CrO4 2- plus H2O.",
+      "answer": "Yellow chromate forms; both share chromium in the +6 state."
+    },
+    {
+      "question": "Name a lanthanoid well known for a +4 oxidation state.",
+      "solution": "Cerium reaches +4 because the empty 4f0 set that results is stable, though the ion reverts to +3 as a strong oxidant.",
+      "answer": "Cerium (Z = 58)"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "lech104_ex1",
+      "source_ref": "lech104.txt Exercises 4.1-4.3",
+      "questions": [
+        "Write the electronic configurations of Cr3+, Pm3+, Cu+, Ce4+, Co2+, Lu2+, Mn2+ and Th4+.",
+        "Why are Mn2+ compounds sturdier against oxidation to +3 than Fe2+ compounds?",
+        "Explain how the +2 state grows more stable across the first half of the first transition row."
+      ]
+    },
+    {
+      "id": "lech104_ex2",
+      "source_ref": "lech104.txt Exercises 4.7-4.12",
+      "questions": [
+        "What is lanthanoid contraction and what follows from it?",
+        "Which d block elements may not be counted as transition elements and why?",
+        "Give reasons: paramagnetism, high enthalpy of atomisation, coloured compounds and catalytic power of the transition metals.",
+        "What are interstitial compounds and why do transition metals form them so well?"
+      ]
+    },
+    {
+      "id": "lech104_ex3",
+      "source_ref": "lech104.txt Exercises 4.14-4.16 and 4.18",
+      "questions": [
+        "Describe the preparation of potassium dichromate from chromite and the effect of pH on its solution.",
+        "Write ionic equations for permanganate oxidising iron(II), SO2 and oxalic acid.",
+        "Predict which of Ti3+, V3+, Cu+, Sc3+, Mn2+, Fe3+ and Co2+ are coloured in water, with reasons."
+      ]
+    },
+    {
+      "id": "lech104_ex4",
+      "source_ref": "lech104.txt Exercises 4.24 and 4.31",
+      "questions": [
+        "Count the unpaired electrons in Mn3+, Cr3+, V3+ and Ti3+ and say which ion is most stable in water.",
+        "Derive the configuration of Ce3+ by Hund's rule and compute its spin-only magnetic moment."
+      ]
+    }
+  ]
+}

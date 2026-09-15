@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch6_7",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch6_7",
+   "title": "c8_math_ch6_7",
+   "questions": [
+    {
+     "q": "Write the expansion of \\((p + 5)^2\\) using the algebraic identity.",
+     "a": "\\(p^2 + 10p + 25\\). A wrong answer like \\(p^2 + 25\\) reveals the student forgot the middle term \\(2ab\\). An answer like \\(p^2 + 5p + 25\\) shows they used \\(ab\\) instead of \\(2ab\\), indicating they don't realise the two cross terms are identical and must be added.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \\((2x + 3y)^2\\) is not equal to \\(4x^2 + 9y^2\\). Use the distributive property in your explanation.",
+     "a": "\\((2x + 3y)^2 = (2x + 3y)(2x + 3y) = 2x(2x + 3y) + 3y(2x + 3y) = 4x^2 + 6xy + 6xy + 9y^2 = 4x^2 + 12xy + 9y^2\\). The missing \\(12xy\\) term comes from the two cross products \\(2x \\cdot 3y\\) and \\(3y \\cdot 2x\\), which are equal and add to \\(2(2x)(3y)\\). A student who says \"you just square each term\" is treating the square as distributive over addition, which is false; they confuse \\((a+b)^2\\) with \\(a^2+b^2\\).",
+     "self_check": true
+    },
+    {
+     "q": "Expand \\((3m - 4n)^2\\) using the identity. Show all steps.",
+     "a": "\\((3m - 4n)^2 = (3m)^2 + 2(3m)(-4n) + (-4n)^2 = 9m^2 - 24mn + 16n^2\\). Steps: identify \\(a = 3m\\), \\(b = -4n\\); square \\(a\\): \\(9m^2\\); compute \\(2ab\\): \\(2(3m)(-4n) = -24mn\\); square \\(b\\): \\(16n^2\\); combine. A wrong sign in the middle term (e.g., \\(+24mn\\)) reveals the student treated \\(b\\) as \\(4n\\) instead of \\(-4n\\), missing that the sign of \\(b\\) affects \\(2ab\\) and \\(b^2\\) differently.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the expansions of \\((x + 2)^2\\) and \\((x - 2)^2\\). What is the same and what is different? How does this relate to the identity?",
+     "a": "\\((x + 2)^2 = x^2 + 4x + 4\\); \\((x - 2)^2 = x^2 - 4x + 4\\). The first and last terms are identical (\\(x^2\\) and \\(4\\)) because they depend on \\(a^2\\) and \\(b^2\\) (with \\(b = \\pm 2\\), \\(b^2 = 4\\)). The middle term differs in sign because \\(2ab\\) uses the signed value of \\(b\\). This shows the identity \\((a+b)^2\\) works for negative \\(b\\) if we keep the sign inside \\(b\\). A student who says they are completely different misses the structural similarity; one who says they are the same misses the sign change in the linear term.",
+     "self_check": true
+    },
+    {
+     "q": "A student expanded \\((5y + 2)^2\\) as \\(25y^2 + 4\\). Identify the error and write the correct expansion.",
+     "a": "The error is omitting the middle term \\(2ab = 2(5y)(2) = 20y\\). Correct expansion: \\(25y^2 + 20y + 4\\). The student likely squared each term separately, thinking \\((a+b)^2 = a^2 + b^2\\). This is a classic \"freshman's dream\" error. If the student instead wrote \\(25y^2 + 10y + 4\\), they computed \\(ab\\) instead of \\(2ab\\), forgetting the two cross terms are added.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (using metres, rupees, or kilograms) that requires using \\((a + b)^2\\) to solve. Provide the solution.",
+     "a": "Example: A square room has side length \\((x + 2)\\) metres. If the area is \\(x^2 + 10x + 25\\) sq m, find \\(x\\). Solution: \\((x+2)^2 = x^2 + 4x + 4\\). But given area is \\(x^2 + 10x + 25 = (x+5)^2\\). So \\(x+2 = x+5\\)? Wait, that's inconsistent. Better: A square garden's side is increased by 3 m. Original side \\(s\\). New area \\((s+3)^2 = s^2 + 6s + 9\\). If original area was 64 sq m, find new area. \\(s=8\\), new area = \\(11^2 = 121\\) sq m. Using identity: \\(8^2 + 6(8) + 9 = 64 + 48 + 9 = 121\\). A poor answer gives a problem that doesn't need the identity (e.g., just multiply numbers) or cannot set up the binomial square.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

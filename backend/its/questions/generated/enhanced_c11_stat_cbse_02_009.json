@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_02_009",
+   "title": "c11_stat_cbse_02_009",
+   "questions": [
+    {
+     "q": "Define sampling error in your own words, using the terms 'population parameter' and 'sample statistic'. Give a one-sentence definition.",
+     "a": "Sampling error is the difference between a sample statistic (e.g., sample mean) and the corresponding population parameter (e.g., population mean) that occurs because the sample is only a subset of the population. A wrong answer (e.g., \"error due to wrong calculations\" or \"bias in selection\") reveals the student confuses sampling error with non-sampling errors or human mistakes. They have not grasped that sampling error exists even in a perfectly conducted random sample.",
+     "self_check": true
+    },
+    {
+     "q": "A population consists of 4 values: 10, 20, 30, 40. A researcher draws a sample of size 2: {10, 40}. Calculate the sampling error for the mean. Explain why this error is not a \"mistake\" by the researcher.",
+     "a": "Population mean = (10+20+30+40)/4 = 25. Sample mean = (10+40)/2 = 25. Sampling error = 25 - 25 = 0. This shows sampling error can be zero by chance. A student who says \"sampling error is never zero\" or calculates incorrectly (e.g., uses median) reveals they think sampling error is always positive/non-zero or confuse it with bias. They miss that sampling error is a random variable that can be positive, negative, or zero.",
+     "self_check": true
+    },
+    {
+     "q": "Consider a population of 100 students' heights. You take a random sample of 10 students and compute the sample mean height. You repeat this process 50 times, getting 50 different sample means. How would the spread of these 50 sample means change if you increased the sample size from 10 to 30? Justify your answer using the concept of sampling error.",
+     "a": "The spread (variability) of the 50 sample means would decrease. Larger samples yield sample means that cluster more tightly around the population mean, reducing the magnitude of typical sampling errors. A student who says \"spread increases\" or \"stays the same\" fails to understand the inverse relationship between sample size and sampling error variability (Law of Large Numbers). They may be confusing the variability of the population with the variability of the estimator.",
+     "self_check": true
+    },
+    {
+     "q": "In the NCERT example (5 farmers with incomes 500, 550, 600, 650, 700), the population mean is 600. A sample of size 2 gives a sampling error of 50. List all possible samples of size 2 (without replacement) and their sampling errors. What is the mean of these sampling errors? What does this tell you about the sample mean as an estimator?",
+     "a": "Possible samples (10 total): (500,550)->mean=525, error=-75; (500,600)->550, error=-50; (500,650)->575, error=-25; (500,700)->600, error=0; (550,600)->575, error=-25; (550,650)->600, error=0; (550,700)->625, error=+25; (600,650)->625, error=+25; (600,700)->650, error=+50; (650,700)->675, error=+75. Mean of errors = 0. This shows the sample mean is an *unbiased estimator* of the population mean. A student who cannot list samples or calculates mean of errors as non-zero reveals gaps in combinatorial reasoning or misunderstanding of \"unbiasedness\" – a critical Class 11 concept linking sampling error to estimator properties.",
+     "self_check": true
+    },
+    {
+     "q": "A newspaper reports: \"Survey of 500 voters shows Candidate A leading with 52% support. The sampling error is ±3%.\" A student claims: \"This means the true support is definitely between 49% and 55%.\" Evaluate this claim. Is it correct? Why or why not?",
+     "a": "The claim is incorrect. The ±3% is typically a margin of error (e.g., 95% confidence interval), not a guarantee. It means *if* we repeated the survey many times, 95% of the intervals would contain the true value. There is still a 5% chance the true value lies outside 49%-55%. A student who agrees reveals a common misinterpretation of confidence intervals as probability statements about the specific interval, rather than long-run frequency properties. This confusion between \"error\" and \"certainty\" is a major senior-secondary statistical reasoning error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-investigation for your class: You want to estimate the average monthly pocket money of Class 11 students in your school (population ~200). You have resources to survey only 20 students. Describe your sampling method to *minimize* sampling error, and explain why your method is better than convenience sampling (e.g., asking your friends). Include how you would quantify the expected sampling error.",
+     "a": "Use simple random sampling (lottery method or random number table) to select 20 students from the full list of 200. This ensures every student has equal probability of selection, making the sample mean an unbiased estimator. Convenience sampling introduces *selection bias* (a non-sampling error) and the sampling error becomes unquantifiable because the probability structure is broken. To quantify expected sampling error, you would need the population standard deviation (unknown) or use the sample standard deviation to estimate the standard error = s/√n. A poor answer suggests convenience sampling or says \"sampling error cannot be quantified\" – missing that random sampling provides the probabilistic framework to *estimate* the error.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

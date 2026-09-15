@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_civ_ch1_8",
+ "concepts": [
+  {
+   "id": "enh:c9_civ_ch1_8",
+   "title": "c9_civ_ch1_8",
+   "questions": [
+    {
+     "q": "What constitutional article guarantees the freedom of speech and expression that includes press freedom in India?",
+     "a": "Article 19(1)(a) of the Indian Constitution guarantees freedom of speech and expression, which the Supreme Court has interpreted to include freedom of the press. A wrong answer (e.g., Article 19(1)(g) or Article 21) reveals the student confuses press freedom with other freedoms (trade/profession or life/liberty) and has not internalized the specific constitutional basis for media's democratic role.",
+     "self_check": true
+    },
+    {
+     "q": "Why is media often called the \"fourth estate\" in a democracy? Explain the term using the relationship between media and the three branches of government.",
+     "a": "The term \"fourth estate\" signifies that media acts as an independent check on the three branches (legislature, executive, judiciary) by exposing misuse of power, informing the public, and enabling accountability — functions not formally assigned to any branch. A wrong answer that defines it merely as \"the press\" or \"news industry\" shows the student misses the structural, institutional role of media in the democratic architecture and treats it as a passive reporter rather than an active accountability mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "A newspaper publishes an investigative report alleging corruption in a government housing scheme, based on documents obtained via an RTI application. The government denies the allegations and threatens legal action. Analyze whether the newspaper's action strengthens democracy. Use at least two democratic functions of media in your reasoning.",
+     "a": "Yes, it strengthens democracy. First, it performs the watchdog function by scrutinizing executive action using legally obtained evidence (RTI), enabling public accountability between elections. Second, it serves the information function by providing citizens verified facts to evaluate government performance. A wrong answer that focuses only on \"freedom of press\" without linking to accountability or informed citizenship shows the student cannot apply media's democratic functions to a concrete scenario.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of traditional print media and social media in agenda-setting during an election campaign. Identify one structural difference that affects democratic quality.",
+     "a": "Traditional print media typically follows editorial oversight, fact-checking, and public interest norms, allowing a shared factual basis for public debate. Social media algorithms prioritize engagement, often amplifying polarizing or unverified content, fragmenting the public sphere. A structural difference: print media has identifiable institutional accountability (editor, publisher), while social media platforms claim intermediary immunity. A wrong answer that only lists \"speed\" or \"reach\" misses the institutional design difference that shapes democratic discourse quality.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the Press Council of India (PCI) in ensuring media accountability. Cite one structural limitation and one functional limitation.",
+     "a": "The PCI has limited effectiveness. Structural limitation: it is a statutory body with no penal powers — it can only censure, not fine or suspend licenses. Functional limitation: it covers only print media, excluding electronic and digital media which dominate today. A wrong answer that says \"PCI is effective because it has a code of ethics\" ignores the enforcement gap and coverage gap, showing the student cannot evaluate institutional design against democratic needs.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a three-point \"Media Ethics Charter\" for a school news portal that ensures it serves democratic values within the student community. Each point must address a specific democratic function of media.",
+     "a": "A strong charter would include: (1) Accuracy & Verification: \"Every report must be cross-checked with at least two independent sources before publication\" — serves the information function. (2) Right to Reply: \"Any student or group criticized must be given space to respond in the same edition\" — serves the platform-for-debate function. (3) Independence from Authority: \"Editorial decisions rest with the student editorial board, not school administration\" — serves the watchdog function. A poor charter that lists vague values like \"be honest\" without operationalizing them for a school context shows the student cannot translate democratic media principles into practice.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

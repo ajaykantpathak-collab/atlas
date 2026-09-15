@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ca_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c12_ca_cbse_01_004",
+   "title": "c12_ca_cbse_01_004",
+   "questions": [
+    {
+     "q": "State the four primary groups of accounts in the NCERT grouping hierarchy and give one example account for each group.",
+     "a": "Correct answer: (1) Equity & Liabilities — e.g., Share Capital; (2) Assets — e.g., Plant & Machinery; (3) Revenues — e.g., Sales; (4) Expenses — e.g., Salaries & Wages. A wrong answer (e.g., listing \"Debtors\" as a primary group) reveals the student confuses sub-groups (Current Assets) with primary groups, or mixes the accounting equation elements with the grouping hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the NCERT coding scheme leaves a gap in the second digit (e.g., 11 for Shareholders' Funds, 13 for Non-Current Liabilities, 14 for Current Liabilities — skipping 12).",
+     "a": "Correct answer: The gap (skipping 12) provides flexibility to insert new sub-groups later without renumbering existing codes. A wrong answer (e.g., \"it's a typo\" or \"to make codes longer\") reveals the student does not understand that hierarchical coding must accommodate future expansion — a core principle of information system design.",
+     "self_check": true
+    },
+    {
+     "q": "A company creates a new account \"Provision for Warranty Claims\". Using the NCERT hierarchy, assign the correct primary group, sub-group, and a valid 4-digit code (first digit = primary group, next two = sub-group, last = sequence). Justify your choice.",
+     "a": "Correct answer: Primary group = Equity & Liabilities (1); Sub-group = Current Liabilities (14) because warranty provisions are short-term obligations; Code = 1401 (or 140x). Steps: (1) Identify nature — obligation from past event, expected outflow within 12 months → Current Liability. (2) Map to hierarchy: Equity & Liabilities → Current Liabilities → Short Term Provisions. (3) Assign code: 1 (Equity & Liabilities) + 14 (Current Liabilities) + 01 (first provision account). A wrong code like 2101 (Non-Current Assets) shows the student cannot link accounting classification to code structure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare block codes and mnemonic codes. For a retail chain with 50 stores, which method would you use to code store-wise sales accounts, and why?",
+     "a": "Correct answer: Block codes reserve number ranges (e.g., 3100–3199 for Store 1 Sales, 3200–3299 for Store 2 Sales) — ideal for grouped, numeric, scalable reporting. Mnemonic codes (e.g., SAL_DEL, SAL_MUM) are memorable but don't sort numerically into hierarchy. For 50 stores, block codes are superior because: (1) ascending order auto-groups by store, (2) easy range queries (3100–3199 = all Store 1), (3) accommodates new sub-accounts per store. Choosing mnemonic codes reveals the student prioritises memorability over structural reporting needs.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"In a Computerised Accounting System, the chart of accounts can be a flat list of account names because the software can generate Balance Sheet and P&L using tags.\" Defend or refute with reference to NCERT grouping and codification principles.",
+     "a": "Correct answer: Refute. NCERT explicitly states: \"There is a hierarchical relationship between the groups and its components. In order to maintain the hierarchical relationships… proper codification is required to ensure neatness of classification.\" A flat list with tags violates the principle that **code structure must mirror report structure** — ascending code order must yield Balance Sheet order (Equity & Liabilities → Assets) then P&L order (Revenues → Expenses). Tags are supplementary metadata, not a substitute for hierarchical coding. Agreement reveals the student misunderstands the foundational link between codification and automated financial statement generation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 10-digit coding structure for a manufacturing company's inventory accounts that must capture: (a) 3 divisions (Textiles, Chemicals, Engineering), (b) 4 warehouse zones per division, (c) 5 raw material categories, (d) up to 99 items per category. Specify digit allocation, give an example code for \"Textiles Division, North Zone, Cotton Yarn, Item 07\", and explain how this structure supports hierarchical reporting.",
+     "a": "Expected answer: Digit allocation — Division (1 digit: 1/2/3), Zone (1 digit: 1–4), Category (1 digit: 1–5), Item (2 digits: 01–99). Remaining 5 digits can be reserved for future (e.g., batch, grade). Example: Textiles=1, North=1, Cotton Yarn=2, Item 07=07 → Code: 11207 (padded to 10 digits: 1120700000). Hierarchical reporting: sorting by code auto-groups all Textiles (1xxxx), then North Zone (11xxx), then Cotton Yarn (112xx). A poor answer uses non-hierarchical digits (e.g., random 10-digit numbers) or omits expansion gaps, showing the student cannot translate real-world dimensions into a structured coding scheme.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

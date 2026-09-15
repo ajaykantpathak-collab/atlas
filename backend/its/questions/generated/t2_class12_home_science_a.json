@@ -1,0 +1,366 @@
+{
+ "catalog": "t2_class12_home_science_a",
+ "note": "Wave-2 graded top-ups for class 12 Home Science pools (lehe101-107). One-term factual keys and numeric answers; machine-graded.",
+ "concepts": [
+  {"id": "lehe101.1", "title": "Meaning of Work", "questions": [
+    {"q": "Purposeful human effort through which a person earns a living and finds a place in society is called what?", "a": "work"},
+    {"q": "Which view of work treats it as a religious duty: dharma or hobby?", "a": "dharma"}
+  ]},
+  {"id": "lehe101.2", "title": "Meaningful Work", "questions": [
+    {"q": "Effort that helps society, is carried out responsibly and is enjoyed is called what work?", "a": "meaningful work"},
+    {"q": "Meaningful effort repays the worker with growth, confidence and what sense of value: self worth or shame?", "a": "self worth"}
+  ]},
+  {"id": "lehe101.3", "title": "Job versus Career", "questions": [
+    {"q": "Engagement in work mainly for earnings is called a what: job or career?", "a": "job"},
+    {"q": "A sustained climb inside one chosen field is called a what?", "a": "career"}
+  ]},
+  {"id": "lehe101.4", "title": "Livelihood and Career Management", "questions": [
+    {"q": "The occupation and means through which a person meets basic needs is called what?", "a": "livelihood"},
+    {"q": "Is a career static or evolving?", "a": "evolving"}
+  ]},
+  {"id": "lehe101.5", "title": "Traditional Occupations of India", "questions": [
+    {"q": "Which inherited craft has sustained Indian village livelihood for centuries: weaving or software?", "a": "weaving"},
+    {"q": "Revival of artisan crafts needs design, training and which legal protection: IPR or subsidy?", "a": "IPR"}
+  ]},
+  {"id": "lehe101.6", "title": "Gender, Sex and Women and Work", "questions": [
+    {"q": "Which term sorts people by biology and chromosomes: sex or gender?", "a": "sex"},
+    {"q": "The socially built identity and expected roles attached to being male or female is called what?", "a": "gender"}
+  ]},
+  {"id": "lehe101.7", "title": "Quality of Work Life", "questions": [
+    {"q": "What does QWL stand for in workplace studies?", "a": "Quality of Work Life"},
+    {"q": "QWL treats people as assets or costs?", "a": "assets"}
+  ]},
+  {"id": "lehe101.8", "title": "Life Skills for Livelihood", "questions": [
+    {"q": "How many core life skill sets do experts list: ten or two?", "a": "ten"},
+    {"q": "Practical abilities for adaptive, positive conduct that handle everyday demands are called what skills?", "a": "life skills"}
+  ]},
+  {"id": "lehe101.9", "title": "Dignity of Labour, Values and Ethics", "questions": [
+    {"q": "Taking pride in every kind of honest effort is called the dignity of what: labour or leisure?", "a": "labour"},
+    {"q": "Personal beliefs about what is good are called what?", "a": "values"}
+  ]},
+  {"id": "lehe101.10", "title": "Ergonomics at the Workplace", "questions": [
+    {"q": "Which field reshapes tools and workstations so the workplace fits the worker: ergonomics or economics?", "a": "ergonomics"},
+    {"q": "Ergonomics is built from Greek roots for work and what else: natural laws or machines?", "a": "natural laws"}
+  ]},
+  {"id": "lehe101.11", "title": "Entrepreneurship", "questions": [
+    {"q": "Building a fresh enterprise by organising resources and taking calculated risks is called what?", "a": "entrepreneurship"},
+    {"q": "Which entrepreneurs measure success by impact, not profit: social or commercial?", "a": "social"}
+  ]},
+  {"id": "lehe101.12", "title": "Creche Rule of the Factories Act", "questions": [
+    {"q": "Under the Factories Act Section 48, more than how many women employees trigger the creche rule: thirty or three?", "a": "thirty"},
+    {"q": "A creche must serve children under what age: six or sixteen?", "a": "six"}
+  ]},
+  {"id": "lehe101.13", "title": "Turnover Sharing", "questions": [
+    {"q": "How many rupees does one crore carry?", "a": "10000000"},
+    {"q": "A 100-member collective with 2 crore turnover gives what per-member sales in rupees: 200000 or 20000000?", "a": "200000"}
+  ]},
+  {"id": "lehe102.1", "title": "Clinical Nutrition", "questions": [
+    {"q": "The branch of nutrition planning food intake during sickness is now widely called what therapy: Medical Nutrition Therapy or physiotherapy?", "a": "Medical Nutrition Therapy"},
+    {"q": "Adequate nourishment defends the body against what: infection or gravity?", "a": "infection"}
+  ]},
+  {"id": "lehe102.2", "title": "Role of the Dietitian", "questions": [
+    {"q": "Who turns the doctor's diagnosis into a diet prescription: the dietitian or the pharmacist?", "a": "the dietitian"},
+    {"q": "The physician treats the disease; the dietitian manages the what?", "a": "diet"}
+  ]},
+  {"id": "lehe102.3", "title": "Nutritional Assessment", "questions": [
+    {"q": "Combining histories, body measurements and laboratory readings to judge nutrition status is called what?", "a": "nutritional assessment"},
+    {"q": "Height, weight and body measurements are called what measurements: anthropometric or microscopic?", "a": "anthropometric"}
+  ]},
+  {"id": "lehe102.4", "title": "Objectives of Diet Therapy", "questions": [
+    {"q": "Diet therapy aims to speed what: recovery or advertising?", "a": "recovery"},
+    {"q": "Protein levels go up after which event: surgery or kidney failure?", "a": "surgery"}
+  ]},
+  {"id": "lehe102.5", "title": "Types of Diets", "questions": [
+    {"q": "Which diet covers all food groups for a healthy person: regular or liquid?", "a": "regular"},
+    {"q": "Which mineral may be capped in a modified diet: sodium or vitamin C?", "a": "sodium"}
+  ]},
+  {"id": "lehe102.6", "title": "Liquid and Soft Diets", "questions": [
+    {"q": "Which regimen follows immediately after an operation: clear liquid or regular?", "a": "clear liquid"},
+    {"q": "Which diet suits weak digestion or denture trouble: soft or full fluid?", "a": "soft"}
+  ]},
+  {"id": "lehe102.7", "title": "Feeding Routes", "questions": [
+    {"q": "Which feeding route is the first choice: oral or intravenous?", "a": "oral"},
+    {"q": "When the gut cannot work, prepared solutions drip into a what: vein or ear?", "a": "vein"}
+  ]},
+  {"id": "lehe102.8", "title": "Diet and Chronic Disease", "questions": [
+    {"q": "Urban plates have drifted towards more fat, refined sugar and what taste enhancer: salt or bitter?", "a": "salt"},
+    {"q": "Which mineral, rich in fruits and vegetables, is lacking in convenience foods: potassium or helium?", "a": "potassium"}
+  ]},
+  {"id": "lehe102.9", "title": "Study Risk Arithmetic", "questions": [
+    {"q": "A 52 percent fall in risk leaves what percent of the original risk?", "a": "48"},
+    {"q": "A 30 percent fall from a baseline risk of 100 leaves what risk?", "a": "70"}
+  ]},
+  {"id": "lehe102.10", "title": "Post-Harvest Wastage", "questions": [
+    {"q": "Between a fifth and a third of harvested produce what before processing: perishes or multiplies?", "a": "perishes"},
+    {"q": "A fifth of a 500 tonne harvest spoils. How many tonnes are lost?", "a": "100"}
+  ]},
+  {"id": "lehe103.1", "title": "Public Nutrition and Health", "questions": [
+    {"q": "Organised action by society to guard the health of whole populations is called what health: public or private?", "a": "public"},
+    {"q": "Public health nutrition works at population level or one patient at a time?", "a": "population level"}
+  ]},
+  {"id": "lehe103.2", "title": "Protein Energy Malnutrition", "questions": [
+    {"q": "Which deficiency causes marasmus: energy or protein?", "a": "energy"},
+    {"q": "Which deficiency causes kwashiorkor: protein or vitamin C?", "a": "protein"}
+  ]},
+  {"id": "lehe103.3", "title": "Hidden Hunger", "questions": [
+    {"q": "The quiet shortage of vitamins and minerals despite full bellies is called what hunger?", "a": "hidden"},
+    {"q": "Name one mineral whose shortage feeds hidden hunger: iron or oxygen?", "a": "iron"}
+  ]},
+  {"id": "lehe103.4", "title": "Iron Deficiency Anemia", "questions": [
+    {"q": "Which is the commonest nutritional disorder worldwide: iron deficiency anemia or scurvy?", "a": "iron deficiency anemia"},
+    {"q": "Iron shortfall cuts the output of which oxygen carrier: hemoglobin or chlorophyll?", "a": "hemoglobin"}
+  ]},
+  {"id": "lehe103.5", "title": "Vitamin A Deficiency", "questions": [
+    {"q": "Vitamin A deficiency begins as which night condition: night blindness or sleepwalking?", "a": "night blindness"},
+    {"q": "Vitamin A lack is the leading cause of which disability in children: blindness or deafness?", "a": "blindness"}
+  ]},
+  {"id": "lehe103.6", "title": "Iodine Deficiency Disorders", "questions": [
+    {"q": "Iodine shortage in adults shows as which visible swelling: goitre or rash?", "a": "goitre"},
+    {"q": "Which fortified staple is the classic iodine answer: iodised salt or iodised sugar?", "a": "iodised salt"}
+  ]},
+  {"id": "lehe103.7", "title": "Causes of Undernutrition", "questions": [
+    {"q": "Faulty intake and disease are which level causes of undernutrition: immediate or basic?", "a": "immediate"},
+    {"q": "Which level holds food access, care, water and health services: underlying or basic?", "a": "underlying"}
+  ]},
+  {"id": "lehe103.8", "title": "Food-Based versus Nutrient-Based Strategies", "questions": [
+    {"q": "Putting micronutrient-rich foods on the plate is which strategy: food based or medicinal?", "a": "food based"},
+    {"q": "Handing out supplements to at-risk groups is which strategy: nutrient based or garden based?", "a": "nutrient based"}
+  ]},
+  {"id": "lehe103.9", "title": "Government Nutrition Programmes", "questions": [
+    {"q": "Which programme delivers mother and child care through the anganwadi: ICDS or NSS?", "a": "ICDS"},
+    {"q": "Which campaign overlays nutrition programmes with district convergence: POSHAN Abhiyaan or Swachh Bharat?", "a": "POSHAN Abhiyaan"}
+  ]},
+  {"id": "lehe103.10", "title": "Three Levels of Health Care", "questions": [
+    {"q": "Which level of care is the family's first contact: primary or tertiary?", "a": "primary"},
+    {"q": "Medical colleges and specialised institutes sit at which rung: tertiary or primary?", "a": "tertiary"}
+  ]},
+  {"id": "lehe103.11", "title": "Low Birth Weight", "questions": [
+    {"q": "Low birth weight is defined below how many kilograms: 2.5 or 5?", "a": "2.5"},
+    {"q": "About one Indian infant in how many is born under 2.5 kg: five or fifty?", "a": "five"}
+  ]},
+  {"id": "lehe103.12", "title": "POSHAN District Rollout", "questions": [
+    {"q": "POSHAN Abhiyaan's year one covered how many districts: 315 or 31?", "a": "315"},
+    {"q": "Year two added how many districts: 235 or 2350?", "a": "235"}
+  ]},
+  {"id": "lehe103.13", "title": "Malnutrition Productivity Loss", "questions": [
+    {"q": "Malnutrition losses run past ten percent of individual lifetime what: earnings or height?", "a": "earnings"},
+    {"q": "A 2 percent GDP drag on a GDP of 100 lakh crore destroys how many lakh crore?", "a": "2"}
+  ]},
+  {"id": "lehe103.14", "title": "Costing a Supplementary Recipe", "questions": [
+    {"q": "Recipe costing divides the batch price by the number of what: servings or cooks?", "a": "servings"},
+    {"q": "Anganwadi recipe plans target what cost per serving: Rs 5 or Rs 500?", "a": "Rs 5"}
+  ]},
+  {"id": "lehe104.1", "title": "Food Science and Processing", "questions": [
+    {"q": "Which discipline studies the make-up and behaviour of foods: food science or astronomy?", "a": "food science"},
+    {"q": "Mass production of processed foods is called food what: manufacturing or meditation?", "a": "manufacturing"}
+  ]},
+  {"id": "lehe104.2", "title": "Milestones of Food Technology", "questions": [
+    {"q": "Who devised milk pasteurisation: Pasteur or Appert?", "a": "Pasteur"},
+    {"q": "In which year did Appert's canning breakthrough come: 1810 or 1910?", "a": "1810"}
+  ]},
+  {"id": "lehe104.3", "title": "Food Spoilage", "questions": [
+    {"q": "Protein catalysts inside the food itself that drive decay are called what?", "a": "enzymes"},
+    {"q": "Spoilage attacks through physical, chemical and what third kind of causes: biological or monetary?", "a": "biological"}
+  ]},
+  {"id": "lehe104.4", "title": "Perishability Classes", "questions": [
+    {"q": "Milk, curd, fish and meat fall in which keeping class: perishable or non-perishable?", "a": "perishable"},
+    {"q": "Grains, pulses and oilseeds keep about how long: a year or a day?", "a": "a year"}
+  ]},
+  {"id": "lehe104.5", "title": "Principles of Preservation", "questions": [
+    {"q": "Which preservation lever withdraws moisture: drying or chilling?", "a": "drying"},
+    {"q": "Which lever holds food cold during storage: chilling or heating?", "a": "chilling"}
+  ]},
+  {"id": "lehe104.6", "title": "Classes of Processed Foods", "questions": [
+    {"q": "Sugar and vanaspati are which class of processed food: derivatives or minimal?", "a": "derivatives"},
+    {"q": "Fresh-cut fruits are which class: minimally processed or formulated?", "a": "minimally processed"}
+  ]},
+  {"id": "lehe104.7", "title": "Fortification", "questions": [
+    {"q": "Which nutrient is added to salt: iodine or iron?", "a": "iodine"},
+    {"q": "Which authority sets fortified-food standards in India: FSSAI or ISI?", "a": "FSSAI"}
+  ]},
+  {"id": "lehe104.8", "title": "Careers in Food Technology", "questions": [
+    {"q": "Self-employment can start tiny with pickles, salted peanuts or which sealed drink packs: water pouches or oil drums?", "a": "water pouches"},
+    {"q": "Food technologists must know food chemistry, microbiology and which assurance discipline: quality or quantity?", "a": "quality"}
+  ]},
+  {"id": "lehe104.9", "title": "Industry Share Arithmetic", "questions": [
+    {"q": "The food industry adds about what percent of GDP: six or sixty?", "a": "six"},
+    {"q": "It contributes about thirteen percent of what: exports or imports?", "a": "exports"}
+  ]},
+  {"id": "lehe104.10", "title": "Danger Zone Temperatures", "questions": [
+    {"q": "The danger zone runs from 5 to how many degrees Celsius: 60 or 6?", "a": "60"},
+    {"q": "How wide is the danger zone in degrees: 55 or 5?", "a": "55"}
+  ]},
+  {"id": "lehe104.11", "title": "Shelf Life in Days", "questions": [
+    {"q": "Semi-perishables keep one to two weeks, that is at most how many days: 14 or 140?", "a": "14"},
+    {"q": "Non-perishables stretch to about how long: a year or a week?", "a": "a year"}
+  ]},
+  {"id": "lehe104.12", "title": "Costing a Preserved Product", "questions": [
+    {"q": "Full cost of a homemade preserve adds material, energy, labour and what else: packing or gossip?", "a": "packing"},
+    {"q": "Dividing the full batch cost by units made gives the cost of one what: jar or farm?", "a": "jar"}
+  ]},
+  {"id": "lehe105.1", "title": "Food Safety, Toxicity and Hazard", "questions": [
+    {"q": "A substance's inbuilt power to injure is called what: toxicity or hazard?", "a": "toxicity"},
+    {"q": "The likelihood of injury when a substance is misused is called what?", "a": "hazard"}
+  ]},
+  {"id": "lehe105.2", "title": "Physical, Chemical, Biological Hazards", "questions": [
+    {"q": "Stones, hair and glass in food make which hazard: physical or chemical?", "a": "physical"},
+    {"q": "Pesticide residues and toxic metals make which hazard: chemical or biological?", "a": "chemical"}
+  ]},
+  {"id": "lehe105.3", "title": "Infection versus Intoxication", "questions": [
+    {"q": "Which illness route involves live germs multiplying inside the body: infection or intoxication?", "a": "infection"},
+    {"q": "Which bacterium, carried on skin and in throats, brews toxins in food: Staphylococcus aureus or Lactobacillus?", "a": "Staphylococcus aureus"}
+  ]},
+  {"id": "lehe105.4", "title": "Contamination and Adulteration", "questions": [
+    {"q": "Mixing inferior material into food to drag quality down is called what?", "a": "adulteration"},
+    {"q": "The arrival of objectionable matter at any stage from field to table is called what?", "a": "contamination"}
+  ]},
+  {"id": "lehe105.5", "title": "Food Quality Attributes", "questions": [
+    {"q": "Which attribute is the entry ticket to food quality: safety or sweetness?", "a": "safety"},
+    {"q": "Colour, flavour and texture are which attributes of quality: positive or negative?", "a": "positive"}
+  ]},
+  {"id": "lehe105.6", "title": "Food Standards and Marks", "questions": [
+    {"q": "Which mark grades agricultural products: Agmark or ISI?", "a": "Agmark"},
+    {"q": "Which mark certifies processed foods under BIS: ISI or Agmark?", "a": "ISI"}
+  ]},
+  {"id": "lehe105.7", "title": "FSSA 2006 and FSSAI", "questions": [
+    {"q": "Which act gathered India's food laws into one statute in 2006: the FSSA or the PCA?", "a": "the FSSA"},
+    {"q": "Which authority frames science-based food standards in India: FSSAI or WHO?", "a": "FSSAI"}
+  ]},
+  {"id": "lehe105.8", "title": "Codex, ISO and WTO", "questions": [
+    {"q": "Which intergovernmental food code do nations adapt into their own rules: Codex Alimentarius or ISO 9000?", "a": "Codex Alimentarius"},
+    {"q": "In which year was the WTO born: 1995 or 1959?", "a": "1995"}
+  ]},
+  {"id": "lehe105.9", "title": "Food Control", "questions": [
+    {"q": "Food control rests on inspection plus accredited what: laboratories or kitchens?", "a": "laboratories"},
+    {"q": "Who chases contaminants and pathogens in food samples: trained analysts or salesmen?", "a": "trained analysts"}
+  ]},
+  {"id": "lehe105.10", "title": "GMP, GHP and HACCP", "questions": [
+    {"q": "Which system fixes controls at the exact stage where hazards can start: HACCP or end-product testing?", "a": "HACCP"},
+    {"q": "Which system stretches hygiene from farm to shop: GHP or GDP?", "a": "GHP"}
+  ]},
+  {"id": "lehe105.11", "title": "Careers in Food Safety", "questions": [
+    {"q": "Food safety careers demand chemistry, analysis, microbiology, laws and which evaluation of taste: sensory or financial?", "a": "sensory"},
+    {"q": "The sector accounts for about what percent of GDP: 26 or 2.6?", "a": "26"}
+  ]},
+  {"id": "lehe105.12", "title": "Bacterial Doubling", "questions": [
+    {"q": "Salmonella doubles every how many minutes: 20 or 200?", "a": "20"},
+    {"q": "Two hours of neglect multiplies a small load how many fold: sixty-four or two?", "a": "sixty-four"}
+  ]},
+  {"id": "lehe105.13", "title": "Adulterant Percentage Tests", "questions": [
+    {"q": "Tea stalks should stay under what percent: 25 or 2.5?", "a": "25"},
+    {"q": "Adulterant percent equals part weight divided by what, scaled by 100: sample weight or price?", "a": "sample weight"}
+  ]},
+  {"id": "lehe106.1", "title": "Human Development and Family Studies", "questions": [
+    {"q": "Which discipline studies changes from birth to old age: HDFS or geology?", "a": "HDFS"},
+    {"q": "Some colleges rename the field Human what: Ecology or Biology?", "a": "Ecology"}
+  ]},
+  {"id": "lehe106.2", "title": "Attachment in Infancy", "questions": [
+    {"q": "Around what age does fear of unknown faces appear: eight to twelve months, or eight years?", "a": "eight to twelve months"},
+    {"q": "Crying when the caregiver leaves is called separation what: protest or party?", "a": "protest"}
+  ]},
+  {"id": "lehe106.3", "title": "Substitute Care", "questions": [
+    {"q": "Which institution is formally built for infants away from home care: a creche or a cinema?", "a": "a creche"},
+    {"q": "Which care covers preschoolers as well: day care or night care?", "a": "day care"}
+  ]},
+  {"id": "lehe106.4", "title": "Objectives of ECCE", "questions": [
+    {"q": "ECCE aims at all-round development so the child's full what unfolds: potential or wardrobe?", "a": "potential"},
+    {"q": "ECCE readies the child for what: school or retirement?", "a": "school"}
+  ]},
+  {"id": "lehe106.5", "title": "Guiding Principles of ECCE", "questions": [
+    {"q": "What does ECCE rest on as the engine of learning: play or drilling?", "a": "play"},
+    {"q": "Which is the base of education per ECCE principles: art or arithmetic drills?", "a": "art"}
+  ]},
+  {"id": "lehe106.6", "title": "Age Stages", "questions": [
+    {"q": "Early childhood stretches from birth to what age: eight or eighteen?", "a": "eight"},
+    {"q": "The two to three year old whose walk still jumps is called a what: toddler or teenager?", "a": "toddler"}
+  ]},
+  {"id": "lehe106.7", "title": "Child-Centred Play Way Method", "questions": [
+    {"q": "Learning through enjoyable activity among peers is which method: play way or lecture way?", "a": "play way"},
+    {"q": "A good preschool stays safe, loving and rich in people and what: play material or money?", "a": "play material"}
+  ]},
+  {"id": "lehe106.8", "title": "Piaget and Vygotsky", "questions": [
+    {"q": "Which psychologist showed children understand the world in their own ways: Piaget or Vygotsky?", "a": "Piaget"},
+    {"q": "Who stressed how much a concerned, knowledgeable adult matters: Vygotsky or Piaget?", "a": "Vygotsky"}
+  ]},
+  {"id": "lehe106.9", "title": "Skills for ECCE Professionals", "questions": [
+    {"q": "Short attention spans make a large stock of ready what compulsory: activities or punishments?", "a": "activities"},
+    {"q": "Entry to ECCE runs through nursery teacher training or a degree with which studies: child development or accounting?", "a": "child development"}
+  ]},
+  {"id": "lehe106.10", "title": "Careers in ECCE", "questions": [
+    {"q": "Trained ECCE workers serve as nursery teachers, caregivers or what planners in NGOs: campaign or wedding?", "a": "campaign"},
+    {"q": "Entrepreneurship in ECCE means setting up one's own what: programme or passport?", "a": "programme"}
+  ]},
+  {"id": "lehe106.11", "title": "Stage Spans", "questions": [
+    {"q": "The toddler band covers how many years: one or ten?", "a": "one"},
+    {"q": "The preschool band spans how many years from three to seven: four or forty?", "a": "four"}
+  ]},
+  {"id": "lehe106.12", "title": "Infancy Share", "questions": [
+    {"q": "One year of infancy out of eight makes what percent of early childhood: 12.5 or 80?", "a": "12.5"},
+    {"q": "Infancy spans how many of the eight years: one or five?", "a": "one"}
+  ]},
+  {"id": "lehe107.1", "title": "Why Society Builds Support Services", "questions": [
+    {"q": "Which unit of society cannot deliver every specialised need alone: the family or the factory?", "a": "the family"},
+    {"q": "About what fraction of the world's poor live in India: a third or a tenth?", "a": "a third"}
+  ]},
+  {"id": "lehe107.2", "title": "Vulnerability", "questions": [
+    {"q": "A person or group struck harder by adverse circumstances is called what: vulnerable or volatile?", "a": "vulnerable"},
+    {"q": "Two thirds of under-fives face moderate or severe what: malnutrition or happiness?", "a": "malnutrition"}
+  ]},
+  {"id": "lehe107.3", "title": "Juvenile Justice Act", "questions": [
+    {"q": "Which act of 2000 framed India's juvenile justice: the Juvenile Justice Act or the Consumer Act?", "a": "the Juvenile Justice Act"},
+    {"q": "The Act separates children in conflict with law from those needing care and what: protection or punishment?", "a": "protection"}
+  ]},
+  {"id": "lehe107.4", "title": "ICDS and the Anganwadi", "questions": [
+    {"q": "Which is the largest early childhood programme anywhere: ICDS or NSS?", "a": "ICDS"},
+    {"q": "Through which neighbourhood centre is ICDS delivered: the anganwadi or the post office?", "a": "the anganwadi"}
+  ]},
+  {"id": "lehe107.5", "title": "SOS Villages and Children's Homes", "questions": [
+    {"q": "In SOS Children's Villages, orphaned children get a trained what: mother or manager?", "a": "mother"},
+    {"q": "Which homes hold juveniles found guilty: special homes or observation homes?", "a": "special homes"}
+  ]},
+  {"id": "lehe107.6", "title": "Adoption and CARA", "questions": [
+    {"q": "Which authority writes India's adoption guidelines: CARA or NASA?", "a": "CARA"},
+    {"q": "CARA was created on whose advice: the Supreme Court's or a club's?", "a": "the Supreme Court's"}
+  ]},
+  {"id": "lehe107.7", "title": "Youth Vulnerability", "questions": [
+    {"q": "The National Youth Policy 2014 places youth in the fifteen to what age band: twenty-nine or ninety?", "a": "twenty-nine"},
+    {"q": "Adolescents span which ages: thirteen to nineteen, or three to nine?", "a": "thirteen to nineteen"}
+  ]},
+  {"id": "lehe107.8", "title": "Youth Programmes", "questions": [
+    {"q": "Which scheme channels college volunteers: the National Service Scheme or a defence scheme?", "a": "the National Service Scheme"},
+    {"q": "Which programme links rural non-student youth: Nehru Yuva Kendras or cricket clubs?", "a": "Nehru Yuva Kendras"}
+  ]},
+  {"id": "lehe107.9", "title": "Elderly Vulnerability", "questions": [
+    {"q": "India counts senior citizens from what age: sixty or sixteen?", "a": "sixty"},
+    {"q": "What percent of the elderly live in villages: eighty or eight?", "a": "eighty"}
+  ]},
+  {"id": "lehe107.10", "title": "Programmes for the Elderly", "questions": [
+    {"q": "Which scheme pensions destitute seniors above sixty-five: NOAPS or NREGA?", "a": "NOAPS"},
+    {"q": "Which units carry medicare to remote elders: mobile medicare units or static museums?", "a": "mobile medicare units"}
+  ]},
+  {"id": "lehe107.11", "title": "Managing Institutions", "questions": [
+    {"q": "Programmes planned with the community earn what: ownership or boredom?", "a": "ownership"},
+    {"q": "Managing an institution needs people skills, administrative grip and a personal what: vision or vacation?", "a": "vision"}
+  ]},
+  {"id": "lehe107.12", "title": "Careers in Support Services", "questions": [
+    {"q": "Entry runs through a degree in Home Science, Social Work or allied what: social sciences or sports?", "a": "social sciences"},
+    {"q": "Which open university offers NGO management certificates: IGNOU or a private club?", "a": "IGNOU"}
+  ]},
+  {"id": "lehe107.13", "title": "SOS Village Capacity", "questions": [
+    {"q": "6000 children across 40 villages puts how many children per village on average: 150 or 1500?", "a": "150"},
+    {"q": "Average load per village equals total children divided by what: village count or weather?", "a": "village count"}
+  ]},
+  {"id": "lehe107.14", "title": "Life Expectancy Gain", "questions": [
+    {"q": "Life expectancy climbed from about 29 years in 1947 to what female figure by 2013: 69.3 or 29.3?", "a": "69.3"},
+    {"q": "The gain in how long people live swells which population: the elderly or the newborn?", "a": "the elderly"}
+  ]},
+  {"id": "lehe107.15", "title": "Elderly Population Shares", "questions": [
+    {"q": "Thirty percent of India's elderly are below the what line: poverty or finish?", "a": "poverty"},
+    {"q": "Eighty percent of the elderly live in what setting: villages or malls?", "a": "villages"}
+  ]},
+  {"id": "lehe107.16", "title": "School Retention Rate", "questions": [
+    {"q": "Only about a third of Standard I entrants reach which standard: VIII or XVIII?", "a": "VIII"},
+    {"q": "Retention rate equals still-enrolled count over intake scaled by what: 100 or 10?", "a": "100"}
+  ]}
+ ]
+}

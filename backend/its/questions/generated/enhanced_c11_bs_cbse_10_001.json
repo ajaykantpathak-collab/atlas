@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_10_001",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_10_001",
+   "title": "c11_bs_cbse_10_001",
+   "questions": [
+    {
+     "q": "A farmer in Punjab sells wheat to a flour mill in Punjab. The flour mill sells flour to a wholesaler in Delhi. The wholesaler sells to a retailer in Mumbai. The retailer sells to a consumer in Mumbai. Which of these transactions constitute internal trade? Justify your answer for each transaction.",
+     "a": "All four transactions are internal trade because each involves buying and selling within India's geographical boundaries — no goods cross national borders. A wrong answer (e.g., saying the farmer-to-mill sale is not trade, or that inter-state sales are external trade) reveals the student confuses \"internal trade\" with \"local trade\" or misunderstands that inter-state commerce within a country is still internal trade.",
+     "self_check": true
+    },
+    {
+     "q": "\"Wholesale trade and retail trade are distinguished only by the quantity of goods sold.\" Evaluate this statement. Is it correct, partially correct, or incorrect? Explain using the NCERT criteria.",
+     "a": "The statement is incorrect. While quantity is one difference, NCERT distinguishes them on three criteria: (1) quantity (large vs small), (2) purpose (resale/intermediate use vs final consumption), and (3) target customer (retailers/industrial users vs ultimate consumers). A student who says \"partially correct\" reveals they focus only on quantity and miss the functional distinction — e.g., a wholesaler selling 100 units to a factory for raw material use is wholesale trade, but a retailer selling 100 units to a consumer is retail trade.",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturer of packaged spices in Tamil Nadu wants to reach consumers in Kerala, Karnataka, and Andhra Pradesh. They have two options: (A) appoint 500 retailers directly, or (B) appoint 5 wholesalers who each serve 100 retailers. Using the concept of \"economies of scale in distribution,\" explain which option reduces the manufacturer's transaction costs and why.",
+     "a": "Option B reduces transaction costs. With 500 retailers, the manufacturer manages 500 orders, 500 deliveries, 500 payments, and 500 relationships. With 5 wholesalers, they manage 5 bulk orders, 5 bulk deliveries, 5 payments, and 5 relationships — wholesalers then break bulk and distribute to 100 retailers each. This demonstrates the wholesaler's service of \"facilitating large-scale production\" and \"help in marketing function\" (NCERT 10.3.1). A student who chooses A reveals they don't understand how intermediaries reduce transaction complexity through consolidation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the risk-bearing role of wholesalers versus retailers in the distribution chain. Which party bears greater variety of risks? Which bears greater risk per unit of inventory? Support your answer with specific risk types from the textbook.",
+     "a": "Wholesalers bear greater variety of risks (price fall, theft, pilferage, spoilage, fire — NCERT 10.3.1(ii)) because they hold large inventories in warehouses for longer periods. Retailers bear greater risk per unit because they hold smaller, diverse stocks with higher per-unit handling costs and face direct consumer rejection. A student who says \"retailers bear more risk because they deal with customers\" reveals they confuse customer-facing risk with inventory-holding risk and miss the wholesaler's warehouse-level exposure.",
+     "self_check": true
+    },
+    {
+     "q": "\"Eliminating wholesalers would reduce prices for consumers because it removes a layer of markup.\" Critique this argument using at least three services wholesalers provide to manufacturers and retailers that would otherwise have to be performed by someone else.",
+     "a": "The argument is flawed. If wholesalers are eliminated, manufacturers or retailers must absorb: (1) bulk-breaking and storage (wholesalers provide time/place utility), (2) credit to retailers (working capital relief), (3) market information flow (taste/preference feedback), (4) risk-bearing (price fall, spoilage), and (5) transportation/logistics coordination. These functions don't disappear — they shift, often at higher cost due to loss of specialization. A student who agrees reveals they view markup as pure profit rather than payment for distribution services, missing the \"functions cannot be eliminated\" principle (NCERT 10.3).",
+     "self_check": true
+    },
+    {
+     "q": "Design a classification flowchart for internal trade that starts with \"Internal Trade\" and branches into all categories and sub-categories mentioned in NCERT Chapter 10 (including types of retailers up to the level of detail in this chapter). Your flowchart must show the hierarchy and mutually exclusive categories.",
+     "a": "A correct flowchart shows:\nInternal Trade → (1) Wholesale Trade; (2) Retail Trade → (a) Itinerant Retailers → (i) Peddlers/Hawkers, (ii) Market Traders, (iii) Street Traders, (iv) Cheap Jacks; (b) Fixed Shop Retailers → (i) Small: General Stores, Specialty Shops, Street Stalls, Second-hand Goods Shops; (ii) Large: Departmental Stores, Chain Stores, Mail Order Houses, Consumer Cooperatives, Supermarkets, Vending Machines.\nA poor answer merges categories (e.g., putting \"supermarket\" under \"itinerant\") or misses levels, revealing the student hasn't grasped the classification logic based on fixed vs mobile, then size, then merchandise/ownership.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

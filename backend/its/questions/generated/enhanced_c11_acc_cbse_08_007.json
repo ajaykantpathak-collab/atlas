@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_08_007",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_08_007",
+   "title": "c11_acc_cbse_08_007",
+   "questions": [
+    {
+     "q": "State the two criteria used to classify an asset as current under the operating cycle concept, and give one example of an asset that meets only one criterion but not the other.",
+     "a": "An asset is current if (1) it is expected to be realised/consumed in the normal operating cycle, OR (2) it is held primarily for trading, OR (3) it is due within 12 months. Example: A 13-month fixed deposit meets the 12-month criterion? No, it exceeds 12 months, so it's non-current. A better example: Spare parts for machinery used in production – they are consumed in the operating cycle (criterion 1) but not due within 12 months if the cycle is longer. Wrong answer reveals confusion between operating cycle and 12-month rule; students often think both must be satisfied simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "A business has an operating cycle of 18 months. It holds raw materials that will be used in production in 14 months. Classify this raw material and justify whether it is current or non-current.",
+     "a": "Current asset. Under the operating cycle concept, any asset expected to be consumed/sold within the normal operating cycle is current, even if the cycle exceeds 12 months. Since raw material will be used in 14 months within the 18-month cycle, it is current. Wrong answer (non-current) reveals the misconception that the 12-month rule overrides the operating cycle rule. NCERT explicitly states operating cycle takes precedence when it exceeds 12 months.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following into Fixed (Tangible), Fixed (Intangible), or Current with one-line justification: (a) Goodwill purchased for ₹2,00,000, (b) Loose tools worth ₹50,000, (c) 10% Government Bonds maturing in 8 months, (d) Factory building, (e) Prepaid insurance for 15 months.",
+     "a": "(a) Fixed (Intangible) – non-physical, long-term benefit. (b) Fixed (Tangible) – loose tools are fixed assets per NCERT (not inventory unless dealer). (c) Current – short-term investment, matures within 12 months. (d) Fixed (Tangible) – long-term operational use. (e) Current – prepaid expense, service received within operating cycle/12 months? Actually 15 months > 12, but prepaid expenses are current if related to operating cycle. If operating cycle is 12 months, the portion beyond 12 months is non-current. Wrong answers reveal: (b) confusion with inventory, (c) treating all investments as fixed, (e) mechanical 12-month rule without operating cycle consideration.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the order of permanence and order of liquidity for marshalling assets. If a balance sheet shows: Land, Building, Machinery, Furniture, Debtors, Cash, Bank, Closing Stock – write the sequence for both orders and explain why the sequence differs.",
+     "a": "Permanence: Land → Building → Machinery → Furniture → Closing Stock → Debtors → Bank → Cash (most permanent to least). Liquidity: Cash → Bank → Debtors → Closing Stock → Furniture → Machinery → Building → Land (most liquid to least). The sequences are reverse because permanence ranks by duration of stay in business; liquidity ranks by speed of conversion to cash. Wrong answer (same order or random) reveals failure to grasp that marshalling is about presentation logic for different user needs: permanence for long-term solvency analysis, liquidity for short-term paying ability.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"All intangible assets are fixed assets, but not all fixed assets are intangible.\" Is it correct? Provide a counter-example if false, or explain the hierarchy if true.",
+     "a": "Correct. Intangible assets (goodwill, patents, trademarks) are a subset of fixed (non-current) assets because they provide long-term benefits and lack physical substance. Fixed assets include both tangible (land, machinery) and intangible. Counter-example would be if someone said \"Goodwill is a current asset\" – false. Wrong evaluation reveals confusion between tangibility and permanence; students often equate \"fixed\" with \"tangible\".",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a single item (e.g., a vehicle) could be classified as fixed asset in one business but current asset in another. Explain the determining factor.",
+     "a": "Scenario: A car dealership holds a vehicle for sale (inventory → current asset). A taxi company holds the same vehicle for passenger service (fixed asset → tangible fixed). Determining factor: purpose of holding – for resale in ordinary course of business (current) vs. for use in operations (fixed). Poor answer gives only one classification or cites value/cost as factor, revealing misunderstanding that classification depends on business model, not the asset's physical nature.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

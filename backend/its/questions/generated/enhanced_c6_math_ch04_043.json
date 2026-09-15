@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch04_043",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch04_043",
+   "title": "c6_math_ch04_043",
+   "questions": [
+    {
+     "q": "In the number 15.67, what is the place value of the digit 6?",
+     "a": "The place value is the tenths place (or 0.6). A student who answers \"tens\" is confusing the tenths place (to the right of the decimal) with the tens place (to the left of the decimal).",
+     "self_check": true
+    },
+    {
+     "q": "Why is the digit 3 in 0.03 worth less than the digit 3 in 0.3?",
+     "a": "The digit 3 in 0.3 is in the tenths place (3/10), while the 3 in 0.03 is in the hundredths place (3/100). A student who says \"because it is on the right\" is missing the specific fractional value of each position.",
+     "self_check": true
+    },
+    {
+     "q": "The value is 8/100. A student who writes 8/10 or 8/1000 has failed to count the positions correctly from the decimal point (tenths, hundredths, thousandths).",
+     "a": "The value of the digit 8 in the number 24.582 is 8/100. This is because the 8 is in the hundredths place, meaning it represents eight parts out of one hundred.\n\nA wrong answer reveals that the student likely confuses the place value positions of decimals, such as misidentifying the hundredths place as the tenths (8/10) or the thousandths (8/1000) place. It may also indicate a failure to understand that the denominator of a decimal fraction is determined by the digit's distance from the decimal point.",
+     "self_check": true
+    },
+    {
+     "q": "If you move a digit one place to the right in a decimal number, how does its value change?",
+     "a": "Its value becomes 1/10th of its previous value. Answering \"it gets smaller\" is too vague; the student must understand the specific power-of-ten relationship between adjacent decimal places.",
+     "self_check": true
+    },
+    {
+     "q": "Is 0.50 greater than, less than, or equal to 0.5? Justify your answer using place value.",
+     "a": "They are equal because 0.5 is 5/10, and 0.50 is 50/100, which simplifies to 5/10. A student who claims 0.50 is larger is mistakenly treating the decimal part like a whole number (thinking 50 is bigger than 5).",
+     "self_check": true
+    },
+    {
+     "q": "Create a decimal number where the digit 4 has a value of 0.004 and the digit 7 has a value of 70.",
+     "a": "A correct answer is 70.004 or 72.404 (as long as 4 is in the thousandths place and 7 is in the tens place). An incorrect answer reveals the student cannot correctly map the digit to its required fractional or whole-number position.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_14_005",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_14_005",
+   "title": "c12_phy_cbse_14_005",
+   "questions": [
+    {
+     "q": "What is the output frequency of a half-wave rectifier if the input AC frequency is 50 Hz?",
+     "a": "The output frequency is 50 Hz. In a half-wave rectifier, only one half-cycle (e.g., positive) appears in the output for each complete input cycle. Thus the output pulses occur at the same rate as the input frequency. A wrong answer (e.g., 100 Hz or 25 Hz) reveals confusion with full-wave rectification where output frequency is doubled, or misunderstanding that the output is not a pure sinusoid but pulsating DC with the same fundamental frequency as the input.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the diode in a half-wave rectifier conduct only during the positive half-cycle of the AC input (assuming the diode's p-side is connected to the transformer secondary terminal that goes positive)?",
+     "a": "During the positive half-cycle, the p-side of the diode is at a higher potential than the n-side, so the diode is forward biased and conducts. During the negative half-cycle, the p-side becomes negative relative to the n-side, reverse biasing the diode, which then blocks current (except negligible reverse saturation current). A wrong answer indicating that the diode conducts in both half-cycles or that it blocks during positive half-cycle shows a misunderstanding of forward/reverse bias conditions or the polarity of the AC voltage across the diode.",
+     "self_check": true
+    },
+    {
+     "q": "A half-wave rectifier is supplied with a sinusoidal AC voltage of peak value 20 V across the load resistor. Calculate the average DC voltage (V_dc) and the RMS voltage (V_rms) across the load. (Use π = 3.14)",
+     "a": "Given: V_m = 20 V.\nAverage DC voltage V_dc = V_m/π = 20/3.14 = 6.37 V.\nRMS voltage V_rms = V_m/2 = 20/2 = 10 V.\nSteps: 1) Identify formulas for half-wave rectifier: V_dc = (1/T)∫_0^T V_m sin(ωt) dt over 0 to T/2 (since zero for other half) = V_m/π. 2) V_rms = sqrt((1/T)∫_0^T V^2 dt) = V_m/2. 3) Substitute V_m = 20 V. 4) Compute with units. A wrong answer (e.g., V_dc = 10 V, V_rms = 14.14 V) indicates using full-wave formulas or incorrect integration limits.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ripple factor of a half-wave rectifier (1.21) with that of a full-wave rectifier (0.48). Explain physically why the half-wave rectifier has a higher ripple factor.",
+     "a": "The ripple factor γ = V_ac_rms / V_dc. For half-wave, V_dc = V_m/π, V_rms = V_m/2, so V_ac_rms = sqrt(V_rms^2 - V_dc^2) = sqrt((V_m/2)^2 - (V_m/π)^2) = V_m * sqrt(1/4 - 1/π^2) ≈ 0.385 V_m. Then γ = 0.385 V_m / (V_m/π) = 0.385π ≈ 1.21. For full-wave, V_dc = 2V_m/π, V_rms = V_m/√2, giving γ ≈ 0.48. The half-wave rectifier has higher ripple because it delivers power only during half the cycle, leaving larger gaps (zero voltage) between pulses, resulting in a larger AC component relative to the DC component. A wrong answer that attributes it only to \"lower efficiency\" without linking to the missing half-cycles shows incomplete physical reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that the efficiency of a half-wave rectifier is 81.2% because they used the formula for full-wave rectifier. Evaluate this claim and calculate the correct maximum theoretical efficiency of a half-wave rectifier.",
+     "a": "The claim is incorrect. The maximum theoretical efficiency of a half-wave rectifier is 40.6%, not 81.2%. Efficiency η = (DC power delivered to load) / (AC power input from transformer secondary) = (I_dc^2 R_L) / (I_rms^2 (R_L + r_f)) where r_f is diode forward resistance. For ideal diode (r_f=0), I_dc = I_m/π, I_rms = I_m/2, so η = (I_m^2/π^2 R_L) / (I_m^2/4 R_L) = 4/π^2 ≈ 0.405 = 40.5%. The 81.2% is the efficiency of a full-wave rectifier (8/π^2). The student confused the two rectifier types. A wrong answer that states 81.2% without recognizing the error indicates a lack of understanding of the derivation and the difference in current waveforms.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a signal generator, a diode (1N4007), a resistor (1 kΩ), and an oscilloscope to verify the working of a half-wave rectifier. Describe the connections, expected waveforms, and how you would measure the peak voltage and compare with the theoretical V_dc.",
+     "a": "Connect the signal generator output to the diode's anode, diode's cathode to the resistor, and the other end of the resistor to ground (signal generator ground). Connect oscilloscope Channel 1 across the signal generator output (input AC) and Channel 2 across the resistor (output). Set signal generator to 50 Hz sine wave, 10 V peak. Observe Channel 1: full sine wave. Channel 2: only positive half-cycles (negative half-cycles clipped at zero). Measure peak voltage on Channel 2 (should be ~9.3 V due to diode drop). Use oscilloscope's mean measurement to get V_dc (should be ~V_m/π ≈ 3.18 V for 10 V peak, minus diode drop). Compare with theoretical V_dc = V_m/π. A poor answer would omit the diode's forward voltage drop, connect the oscilloscope incorrectly, or not know how to measure mean voltage on the oscilloscope.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

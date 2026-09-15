@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_13_002",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_13_002",
+   "title": "c12_geo_cbse_13_002",
+   "questions": [
+    {
+     "q": "Name the two main types of iron ore found in India and give the chemical formula of each.",
+     "a": "Haematite (Fe₂O₃) and magnetite (Fe₃O₄). A wrong answer such as “siderite and limonite” reveals the student is confusing minor ores or global occurrences with India’s dominant ores; NCERT explicitly states only haematite and magnetite are the two main types in India.",
+     "self_check": true
+    },
+    {
+     "q": "Why is haematite considered the most important industrial iron ore in India even though magnetite has a slightly higher iron percentage?",
+     "a": "Haematite occurs in massive, thick, near-surface deposits in the Odisha–Jharkhand belt, is non-magnetic (easier to handle), and lies close to coking coal fields, lowering transport cost; magnetite deposits are deeper, often lower in the crust, and require finer grinding. A student who answers “magnetite is better because 72% > 70%” shows a textbook-recall error — they ignore geological accessibility and industrial logistics.",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of India, mark and label the following: (a) Badampahar mine, (b) Noamundi mine, (c) Kudremukh mine, (d) Bailadila range. For each, state the state and the belt it belongs to.",
+     "a": "(a) Badampahar – Odisha – Odisha–Jharkhand belt; (b) Noamundi – Jharkhand – Odisha–Jharkhand belt; (c) Kudremukh – Karnataka – Ballari–Chitradurga belt; (d) Bailadila – Chhattisgarh – Durg–Bastar–Chandrapur belt. A wrong placement (e.g., Kudremukh in Goa) shows the student has not internalised the belt–state–mine hierarchy; they are memorising names without spatial structure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Odisha–Jharkhand belt and the Maharashtra–Goa belt on three parameters: (i) dominant ore type, (ii) proximity to coal, (iii) export orientation.",
+     "a": "Odisha–Jharkhand: haematite dominant, adjacent to Jharia/Raniganj coal, feeds domestic steel plants (Jamshedpur, Bokaro, Rourkela). Maharashtra–Goa: haematite + some magnetite, no nearby coal (except distant Korba), historically export-oriented via Mormugao port. A student who says “both have coal nearby” fails to see the critical locational factor that made the north-eastern plateau the steel heartland.",
+     "self_check": true
+    },
+    {
+     "q": "“India should ban export of high-grade iron ore (Fe > 65%) to conserve it for domestic steel capacity targeting 300 MT by 2030.” Evaluate this statement using geographical reasoning.",
+     "a": "Ban would conserve finite high-grade haematite (non-renewable, inverse quality–quantity relationship) and reduce import dependence on coking coal (since high-grade ore needs less coal per tonne of steel). Counter-argument: export earnings finance mine mechanisation; low-grade ore can be beneficiated. A one-sided “yes” or “no” without weighing resource finiteness vs. economic trade-offs shows evaluative immaturity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page annotated map legend for a thematic map titled “Iron Ore Belts of India” that a Class 12 student could use to answer any 5-mark distribution question. List the symbols, colours, and labels you would include.",
+     "a": "Legend must show: (1) four belt polygons in distinct colours (e.g., red = Odisha–Jharkhand, orange = Durg–Bastar, green = Ballari–Chitradurga, blue = Maharashtra–Goa); (2) mine symbols (●) with mine names; (3) grade pie-charts per belt (haematite % vs magnetite %); (4) coal field proximity arrows; (5) port/export icons (Mormugao, Paradip). Missing any of these five elements indicates the student cannot synthesise spatial, qualitative, and economic layers — a key board-exam skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

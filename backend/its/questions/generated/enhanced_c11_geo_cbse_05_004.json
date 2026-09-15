@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_05_004",
+   "title": "c11_geo_cbse_05_004",
+   "questions": [
+    {
+     "q": "Name the three major classes of rocks based on their mode of formation and give one typical Indian example for each.",
+     "a": "The three classes are igneous (e.g., basalt of the Deccan Traps), sedimentary (e.g., sandstone of the Vindhyan range), and metamorphic (e.g., gneiss of the Himalayan crystalline zone). A wrong answer—such as listing “granite, basalt, marble” as the three classes—reveals confusion between rock types and rock classes, indicating the student has not grasped the genetic classification scheme.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the rock cycle is described as a “cycle” rather than a linear sequence, using the transformation of basalt to sandstone to quartzite as an illustration.",
+     "a": "The rock cycle is a cycle because any rock type can transform into any other type through multiple pathways; basalt (igneous) weathers to sediment, lithifies into sandstone (sedimentary), and under heat/pressure becomes quartzite (metamorphic), which can later melt to form magma again. A linear answer (e.g., “igneous → sedimentary → metamorphic → end”) shows the student misses the feedback loops and the role of uplift, erosion, and melting that keep the cycle in motion.",
+     "self_check": true
+    },
+    {
+     "q": "A student collects a rock sample from the Chotanagpur Plateau that shows alternating light and dark bands and is hard enough to scratch glass. Using the classification scheme, determine its rock class and justify your answer in three steps.",
+     "a": "Step 1: Banded texture (gneissic foliation) indicates metamorphic origin. Step 2: Hardness > glass suggests recrystallized quartz/feldspar, typical of high-grade metamorphism. Step 3: Chotanagpur Plateau is known for Archaean gneisses. Therefore, the sample is a metamorphic rock (gneiss). If the student calls it “sedimentary because it has layers,” they confuse sedimentary bedding with metamorphic foliation and need to revisit texture terminology.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of plate tectonics in forming igneous rocks at a divergent boundary versus a convergent boundary, and predict which boundary type is more likely to produce the granitic rocks of the Peninsular India.",
+     "a": "At divergent boundaries, decompression melting of mantle produces basaltic magma (e.g., mid-ocean ridges). At convergent boundaries, subduction triggers flux melting and crustal thickening, generating granitic magmas (e.g., continental arcs). Peninsular India’s granites (e.g., Bundelkhand, Singhbhum) formed in ancient convergent settings. A student who attributes all igneous rocks to “volcanoes” without distinguishing tectonic settings lacks the plate-tectonic framework needed for Class 11.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: “The rock cycle operates at the same speed everywhere on Earth.” Provide two geological reasons for your judgment.",
+     "a": "The statement is false. Reason 1: Plate-tectonic rates vary (fast at East Pacific Rise, slow at Himalaya), so magma production, uplift, and erosion rates differ. Reason 2: Climate controls weathering intensity—tropical regions cycle sedimentary material faster than polar deserts. A student who says “true because the cycle is continuous” confuses continuity with uniform rate and needs to link tectonics and climate to cycle tempo.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple field investigation plan for your school’s geography club to demonstrate the rock cycle using local rock outcrops, sediments, and soil. Include three specific observations you would record.",
+     "a": "A good plan: (1) Map and photograph an outcrop of bedrock (e.g., laterite or basalt), noting mineral grains and joints. (2) Collect downstream sediment samples, sieve and record grain size, rounding, and composition. (3) Dig a soil profile, describe horizons, and test for parent-rock minerals. Observations must link weathering → transport → deposition → soil formation → potential future lithification. A poor plan that only lists rock names without process observations shows the student cannot translate the abstract cycle into field evidence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

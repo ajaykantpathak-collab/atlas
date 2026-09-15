@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_13_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_13_012",
+   "title": "c12_hin_a_cbse_13_012",
+   "questions": [
+    {
+     "q": "What is the primary difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal question asks for information directly stated in the text (e.g., \"Where did the narrator meet xkaèkh th?\"), while an inferential question requires drawing a conclusion using textual evidence and reasoning (e.g., \"Why did xkaèkh th refuse to leave the house?\"). A wrong answer that swaps these definitions reveals the student cannot identify the cognitive demand of the question, leading to either over-quoting for inferences or guessing for literal questions.",
+     "self_check": true
+    },
+    {
+     "q": "In the chapter, the narrator describes xkaèkh th's laughter as \"g¡lrs gq, oqQN dgrs\" (laughing while saying something repeatedly). If a question asks, \"What does xkaèkh th's laughter reveal about his state of mind?\", is this literal or inferential? Explain your reasoning.",
+     "a": "This is an inferential question. The text explicitly describes the *action* (laughing while speaking) but never directly states his state of mind. The student must combine the laughter description with context (his isolation, the historical turmoil, his repetitive speech) to infer melancholy, resignation, or detachment. A student calling this literal mistakes a behavioral description for an explicit psychological statement — a common error where surface details are confused with authorial exposition.",
+     "self_check": true
+    },
+    {
+     "q": "A question asks: \"According to the text, what work did the narrator do in Delhi before joining the college?\" Using the chapter, write a 2-sentence literal answer in CBSE format.",
+     "a": "Step 1: Identify keywords — \"narrator\", \"Delhi\", \"work\", \"before college\". Step 2: Scan text for these. Step 3: Locate: \"ns'k&foHkktu ls iwoZ bUgksaus O;kikj osQ lkFk&lkFk ekun (vkWujsjh) vè;kiu dk dk;Z fd;kA foHkktu osQ ckn i=kdkfjrk] bIVk ukVd eaMyh esa dke fd;k] eqacbZ esa csjks”kxkj Hkh jgsA\". Step 4: Frame answer: \"Before joining college, the narrator worked as a translator with the Oriental Department and later as a journalist at the 'Bharat Mitra' press in Delhi, and also worked at a cloth shop in Calcutta.\" A wrong answer that adds \"he enjoyed the work\" introduces inference unsupported by the text — the text only lists jobs, not feelings.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the narrator's first meeting with xkaèkh th (at the press) and their last meeting (at the narrator's house). What does the shift in xkaèkh th's behavior from \"gw&c&gw oSls gh yx jgs Fks\" to \"g¡lrs gq, pys x, Fks\" infer about their relationship? Support with two textual clues.",
+     "a": "The shift infers a deepening of trust and emotional dependence. Clue 1: First meeting — xkaèkh th is formal, \"gw&c&gw\" (proper/correct), maintaining social decorum. Clue 2: Last meeting — he laughs freely (\"g¡lrs gq,\"), walks away without ceremony (\"pys x, Fks\"), and earlier leans on the narrator (\"mldh ihB ij gkFk j[ks >qosQ jgs\"). Together, these show a move from distant respect to intimate, unguarded familiarity. A weak answer lists the behaviors separately without linking them to the relationship arc, missing the analytical step of synthesis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's answer to an inferential question: \"Why did usg: th cry at the end? Because he was sad that xkaèkh th left.\" Is this a complete inferential answer? Justify.",
+     "a": "No, it is incomplete. A competent inferential answer must: (a) identify the *specific* sadness (not just generic sadness), (b) cite textual evidence (e.g., usg: th's \"dej osQ uhps ls yVdrh ?kM+h\", his writing \"fpf_;k¡\", the narrator seeing \"v[kckj\" and realizing \"usg: th mrj jgs gSa\"), and (c) explain the *cause* (the impending separation/death of his beloved disciple, the collapse of his world). The given answer states the emotion but provides zero textual anchoring or causal reasoning — it is a guess, not an inference. This reveals the misconception that inference = \"any reasonable guess\" rather than \"textually grounded conclusion.\"",
+     "self_check": true
+    },
+    {
+     "q": "Create an inferential question from the chapter that requires connecting a literary device (irony/symbolism) to a character's emotion. Provide the question and a model answer outline.",
+     "a": "Question: \"The narrator notes that xkaèkh th's laughter had 'no trace of joy' (psgjs ij ys'kek=k Hkh {kksHk dk Hkko ugha Fkk). How does this irony deepen our understanding of xkaèkh th's inner state?\" Model outline: Point — The irony of joyless laughter reveals profound grief masked by social performance. Evidence 1 — \"g¡lrs gq, oqQN dgrs\" (laughing while repeating words) shows mechanical, hollow action. Evidence 2 — Context: he has lost his homeland, disciples, and health; laughter is a shield. Explanation — The dissonance between laughter (symbol of joy) and its emptiness mirrors his displaced existence: outwardly surviving, inwardly broken. A poor answer defines irony but fails to connect it to the character's specific circumstances in the text.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

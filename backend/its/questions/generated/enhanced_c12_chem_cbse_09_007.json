@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_09_007",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_09_007",
+   "title": "c12_chem_cbse_09_007",
+   "questions": [
+    {
+     "q": "Define Kb and pKb for an amine in aqueous solution. Write the equilibrium expression for a generic primary amine RNH₂.",
+     "a": "Kb = [RNH₃⁺][OH⁻] / [RNH₂] (water concentration omitted as constant). pKb = –log₁₀ Kb. A common error is writing Kb = [RNH₃⁺][OH⁻] / [RNH₂][H₂O] or confusing Kb with Ka of the conjugate acid. This reveals the student does not distinguish between base dissociation constant and acid dissociation constant, and forgets that water activity is taken as unity in dilute aqueous solutions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the basicity order of methylamines in aqueous solution is (CH₃)₂NH > CH₃NH₂ > (CH₃)₃N > NH₃, whereas in the gas phase it follows the inductive effect order: (CH₃)₃N > (CH₃)₂NH > CH₃NH₂ > NH₃.",
+     "a": "In gas phase, only inductive effect operates: more alkyl groups → greater electron density on N → stronger base. In aqueous phase, the conjugate acid ions are stabilized by solvation (H-bonding with water). The tertiary ammonium ion (CH₃)₃NH⁺ has three bulky methyl groups that sterically hinder water molecules from approaching the N–H bonds, reducing solvation stabilization. The secondary ammonium ion (CH₃)₂NH₂⁺ has two N–H bonds and less steric bulk, so it is better solvated and more stabilized, making (CH₃)₂NH the strongest base in water. A wrong answer that cites only inductive effect shows the student ignores solvation and steric factors.",
+     "self_check": true
+    },
+    {
+     "q": "Given pKb values: CH₃NH₂ = 3.38, (CH₃)₂NH = 3.27, (CH₃)₃N = 4.22, NH₃ = 4.75. Calculate Kb for each and rank them in decreasing order of basic strength in aqueous solution.",
+     "a": "Kb = 10^(–pKb). CH₃NH₂: Kb = 10^(–3.38) = 4.17 × 10⁻⁴; (CH₃)₂NH: Kb = 10^(–3.27) = 5.37 × 10⁻⁴; (CH₃)₃N: Kb = 10^(–4.22) = 6.03 × 10⁻⁵; NH₃: Kb = 10^(–4.75) = 1.78 × 10⁻⁵. Decreasing basic strength: (CH₃)₂NH > CH₃NH₂ > (CH₃)₃N > NH₃. A student who ranks (CH₃)₃N > (CH₃)₂NH has applied only inductive effect and forgotten the aqueous-phase solvation/steric interplay.",
+     "self_check": true
+    },
+    {
+     "q": "Aniline (C₆H₅NH₂) has pKb = 9.38, while methylamine (CH₃NH₂) has pKb = 3.38. Using resonance structures, explain why aniline is a far weaker base than methylamine, and why the anilinium ion (C₆H₅NH₃⁺) has only two significant resonance structures whereas aniline has five.",
+     "a": "In aniline, the nitrogen lone pair delocalises into the benzene ring, giving five resonance structures (ortho/para positions bear negative charge). This delocalisation makes the lone pair less available for protonation. Upon protonation, the anilinium ion loses this resonance because the nitrogen becomes sp³ hybridised and the positive charge cannot be delocalised into the ring (only two Kekulé structures for the ring remain). In methylamine, no such delocalisation occurs; the +I effect of CH₃ increases electron density on N. A student who says \"aniline is weaker because the ring withdraws electrons inductively\" misses the dominant resonance effect and the stability difference between base and conjugate acid.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since –OCH₃ is electron-withdrawing by induction, p-methoxyaniline should be a weaker base than aniline.\" Evaluate this claim and correct it using the concepts of resonance vs. inductive effect in para-substituted anilines.",
+     "a": "The claim is incorrect. At the para position, the –OCH₃ group exerts a strong +R (resonance) effect, donating electron density into the ring, which increases electron density on the amino nitrogen via resonance, making the lone pair more available. The –I effect is weaker than +R at para. Thus p-methoxyaniline (pKb ≈ 8.9) is a stronger base than aniline (pKb = 9.38). A student who focuses only on –I effect fails to recognize that resonance dominates at ortho/para positions for groups with lone pairs on the atom attached to the ring.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only litmus paper, water, and solid samples of methylamine hydrochloride (CH₃NH₃⁺Cl⁻) and aniline hydrochloride (C₆H₅NH₃⁺Cl⁻) to demonstrate the relative basicity of the parent amines. Explain the expected observations and the chemical reasoning.",
+     "a": "Dissolve equal molar amounts of each salt in separate beakers of water. Test each solution with red litmus paper. The methylamine hydrochloride solution will be acidic (salt of strong acid + weak base → acidic hydrolysis: CH₃NH₃⁺ + H₂O ⇌ CH₃NH₂ + H₃O⁺), turning blue litmus red. The aniline hydrochloride solution will be more acidic (aniline is a weaker base, so its conjugate acid is stronger), also turning blue litmus red, but the pH will be lower (more acidic) for aniline hydrochloride. To compare basicity of the free amines, add NaOH to each solution to liberate the free amine, then test with red litmus: methylamine solution turns red litmus blue strongly; aniline solution shows very weak or no colour change. A student who expects both free amine solutions to turn litmus blue equally misses the huge basicity difference.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

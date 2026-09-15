@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_hist_ch2_2",
+ "concepts": [
+  {
+   "id": "enh:c9_hist_ch2_2",
+   "title": "c9_hist_ch2_2",
+   "questions": [
+    {
+     "q": "What is the primary purpose of stratigraphy in archaeological excavation?",
+     "a": "Stratigraphy establishes the relative chronological sequence of layers (strata) at a site based on the Law of Superposition—lower layers are older than upper layers—allowing archaeologists to determine the relative age of artifacts and features found within each layer. A wrong answer (e.g., \"it gives the exact calendar date\") reveals confusion between relative dating (sequence) and absolute dating (numerical age), a fundamental board-level distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the 'context' of an artifact (its precise three-dimensional location and association with other finds) considered more valuable than the artifact itself?",
+     "a": "Context provides the behavioral and temporal meaning: a stone tool *in situ* within a hearth feature alongside charred bones tells us about tool use, diet, and fire control; the same tool found in a ploughed field surface tells us almost nothing. A wrong answer focusing on the object's beauty or rarity reveals a \"treasure-hunter\" misconception—students miss that archaeology reconstructs *human activity*, not just collects objects.",
+     "self_check": true
+    },
+    {
+     "q": "An archaeologist finds a layer containing both microliths (tiny stone tools) and pottery sherds at a site in Central India. Using the principle of stratigraphy and typological knowledge, what is the most likely interpretation, and what further step is needed to confirm it?",
+     "a": "The co-occurrence suggests either a mixed/disturbed layer (e.g., bioturbation, later pit digging) or a transitional Mesolithic-Neolithic phase. The archaeologist must first check section drawings for intrusive pits or root channels (disturbance). If undisturbed, it may indicate local transition. The critical next step is sending associated charcoal for AMS radiocarbon dating to get absolute dates for *both* artifact types. A wrong answer that jumps to \"this proves Mesolithic people made pottery\" ignores site formation processes and the need for chronological control.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the information provided by relative dating (stratigraphy, typology) and absolute dating (radiocarbon, OSL). Why do archaeologists *always* use both together rather than relying on just one?",
+     "a": "Relative dating provides the *sequence* (Layer A is older than Layer B) and cultural phases (Handaxe phase precedes Blade phase) but no calendar dates. Absolute dating provides calendar ages (e.g., 45,000 BP) but with margins of error and potential contamination; it also cannot date non-organic material directly (e.g., stone tools). Together, stratigraphy validates the sample's context for dating, and dates calibrate the relative sequence. A student who says \"radiocarbon is more accurate so we don't need stratigraphy\" fails to understand that a date without secure context is archaeologically meaningless.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Scientific methods like DNA analysis and residue analysis have made traditional typological classification of stone tools obsolete.\" Defend your position with two specific arguments.",
+     "a": "The statement is false. Argument 1: Typology remains the primary *field* method for rapid chronological and cultural sorting during excavation—scientific results take months. Argument 2: Typology captures *technological choices* and *cultural traditions* (e.g., Levallois technique) that residue/DNA cannot reveal. Scientific methods *complement* typology by answering questions typology cannot (diet, migration, tool function). A student agreeing with the statement reveals a \"technological determinism\" error—assuming high-tech methods replace, rather than augment, foundational archaeological reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Design a research plan to investigate whether the inhabitants of a newly discovered rock shelter site in the Vindhyas were hunter-gatherers or early farmers. Specify: (a) three types of samples you would collect during excavation, (b) the scientific lab analyses for each, and (c) how you would integrate the results to reach a conclusion.",
+     "a": "(a) 1. Charcoal from hearths (for AMS C-14 dating and wood species ID). 2. Sediment samples for flotation (to recover charred seeds/phytoliths). 3. Stone tools with edge damage (for use-wear and residue analysis). (b) 1. Radiocarbon dating + anthracology (wood identification). 2. Archaeobotany: identification of wild vs. domesticated plant remains. 3. Microwear microscopy + biochemical residue analysis (lipids, starches). (c) Integration: If dates cluster in early Holocene, seeds show only wild grasses, tools show hunting wear and no sickle gloss → hunter-gatherers. If dates show Neolithic, seeds include domesticated wheat/barley, tools show sickle gloss and plant residues → early farmers. A poor answer lists methods without explaining *how* the combination resolves the specific question.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

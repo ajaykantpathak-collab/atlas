@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_19_006",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_19_006",
+   "title": "c12_geo_cbse_19_006",
+   "questions": [
+    {
+     "q": "Define range, variance, and standard deviation. State the formula for standard deviation of ungrouped data using the direct method.",
+     "a": "Range = Maximum value − Minimum value. Variance (σ²) = Σ(xᵢ − x̄)² / N. Standard deviation (σ) = √[Σ(xᵢ − x̄)² / N]. A wrong answer (e.g., forgetting to square deviations, or using N−1 instead of N for population) reveals confusion between population vs sample formulas or misunderstanding that variance uses squared units while standard deviation restores original units.",
+     "self_check": true
+    },
+    {
+     "q": "Two regions have the same mean annual temperature (25°C). Region X has standard deviation 1.2°C; Region Y has standard deviation 4.8°C. Explain what this implies about temperature reliability for crop planning in each region.",
+     "a": "Region X has low variability — temperatures are consistently near 25°C, making crop planning reliable. Region Y has high variability — temperatures swing widely, increasing risk of heat/cold stress. A wrong answer (e.g., \"both are same because mean is same\") reveals the misconception that mean alone describes a distribution, ignoring dispersion — a critical error in geographical decision-making.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the range, variance, and standard deviation for the following ungrouped data: monthly rainfall (mm) in a Karnataka district: 120, 150, 90, 180, 110, 140. Show all steps.",
+     "a": "**Step 1:** Arrange data: 90, 110, 120, 140, 150, 180.  \n**Step 2:** Range = 180 − 90 = 90 mm.  \n**Step 3:** Mean = (90+110+120+140+150+180)/6 = 790/6 = 131.67 mm.  \n**Step 4:** Deviations: -41.67, -21.67, -11.67, 8.33, 18.33, 48.33.  \n**Step 5:** Squared deviations: 1736.4, 469.6, 136.2, 69.4, 336.0, 2335.8. Sum = 5083.4.  \n**Step 6:** Variance = 5083.4 / 6 = 847.23 mm².  \n**Step 7:** Standard deviation = √847.23 = 29.11 mm.  \nA wrong answer (e.g., using N−1, or forgetting to square) shows procedural gaps in handling squared units or sample vs population distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Given a grouped frequency distribution of wheat yield (kg/ha) for 50 farms in Punjab, the assumed mean method gives Σfd = 120, Σf = 50, class interval i = 10. If assumed mean A = 4500, compute standard deviation. Explain why the shortcut method is preferred for grouped data.",
+     "a": "**Step 1:** σ = i × √[ (Σfd²/Σf) − (Σfd/Σf)² ] but we only have Σfd. Wait — need Σfd².  \n**Correction:** The shortcut formula for grouped data: σ = i × √[ (Σfu²/Σf) − (Σfu/Σf)² ] where u = (x−A)/i.  \nGiven Σfu = 120, Σf = 50, but Σfu² not provided — **question is incomplete**.  \n**Insight:** A student who blindly plugs numbers without checking required inputs reveals lack of conceptual understanding of the formula's components. The shortcut method reduces large numbers (x) to small coded values (u), minimizing arithmetic errors — especially important when midpoints are large (e.g., 4500, 4510, ...).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Standard deviation is always the best measure of dispersion for geographical data because it uses all observations.\" Provide a counterexample where range or quartile deviation (next node) would be more appropriate.",
+     "a": "**Evaluation:** False. Standard deviation is sensitive to extreme values (outliers). In a dataset of river discharge with one catastrophic flood year (e.g., 5000 m³/s vs normal 200–500), SD becomes inflated and misrepresents typical variability. **Counterexample:** For flood risk zoning, range (max-min) or quartile deviation (based on median) better captures extreme event potential without being distorted by a single outlier. A student who says \"SD is always best\" shows textbook memorization without critical geographical judgment.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-step procedure to compare rainfall variability across three meteorological subdivisions of India (e.g., Konkan, Rayalaseema, West Rajasthan) using 30-year monthly data. Justify your choice of dispersion measure.",
+     "a": "**Procedure:**  \n1. Compute mean monthly rainfall for each subdivision.  \n2. Calculate standard deviation for each (using grouped data method if data is in classes).  \n3. Compute coefficient of variation (CV = σ/x̄ × 100) to normalize for different mean magnitudes.  \n4. Rank subdivisions by CV — higher CV = higher relative variability.  \n5. Map results and correlate with agricultural cropping patterns.  \n**Justification:** CV allows comparison across regions with vastly different means (Konkan ~3000 mm, West Rajasthan ~300 mm). A poor answer uses only absolute SD, ignoring that 100 mm SD means something very different in arid vs humid zones — a classic geographical scale error.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,384 @@
+{
+ "catalog": "catalog_class10_science_ch105.json",
+ "concepts": [
+  {
+   "id": "jesc.5.1",
+   "title": "Life Processes and Diffusion Limitations",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What makes diffusion alone insufficient for large multicellular organisms?",
+     "a": "Deep inside a big body, every cell is too far from the surface, so diffusion would be too slow to supply all needs.",
+     "self_check": true
+    },
+    {
+     "q": "Why do organisms need maintenance of their bodies?",
+     "a": "Tissues wear out and break; energy and materials are needed continuously to repair and keep life processes going.",
+     "self_check": true
+    },
+    {
+     "q": "What raw materials do living things take from outside?",
+     "a": "Food (organic molecules), oxygen, water and minerals - sources of energy and building material.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.5.2",
+   "title": "Autotrophic Nutrition and Photosynthesis",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Define autotrophic nutrition.",
+     "a": "An organism builds its own food from simple inorganic substances like CO2 and water using sunlight and chlorophyll, as green plants do.",
+     "self_check": true
+    },
+    {
+     "q": "Write the overall events of photosynthesis.",
+     "a": "Chlorophyll traps light energy, water splits to release oxygen, and carbon dioxide is reduced to carbohydrate.",
+     "self_check": true
+    },
+    {
+     "q": "Why do land plants take in CO2 through stomata at night too?",
+     "a": "Stomata must open for gas exchange but opening loses water, so CO2 intake is timed and balanced against water loss.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.5.3",
+   "title": "Heterotrophic Nutrition Strategies",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is heterotrophic nutrition? Name its main types.",
+     "a": "Depending on other organisms for food: holozoic (animals), saprotrophic (fungi on dead matter) and parasitic (like cuscuta, tapeworm).",
+     "self_check": true
+    },
+    {
+     "q": "How does a parasite like cuscuta feed?",
+     "a": "It draws ready-made food from the host plant through sucking roots, lacking chlorophyll of its own.",
+     "self_check": true
+    },
+    {
+     "q": "Give one example each of a parasite and a saprotroph.",
+     "a": "Parasite: tapeworm (or cuscuta); saprotroph: bread mould or mushroom growing on decaying matter.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.5.4",
+   "title": "Human Digestion and Alimentary Canal",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the main parts of the human alimentary canal in order.",
+     "a": "Mouth, oesophagus, stomach, small intestine, large intestine and anus, with liver and pancreas adding secretions.",
+     "self_check": true
+    },
+    {
+     "q": "What happens to food in the small intestine?",
+     "a": "Bile emulsifies fats, pancreatic enzymes digest all food types, and villi absorb the digested nutrients into blood.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we chew food thoroughly?",
+     "a": "Teeth break food small, saliva mixes and its amylase starts starch digestion, easing later steps.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.5.5",
+   "title": "Cellular Respiration Pathways",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is the fate of glucose in aerobic respiration?",
+     "a": "It breaks fully into carbon dioxide and water in mitochondria, releasing a lot of energy.",
+     "self_check": true
+    },
+    {
+     "q": "Where does anaerobic respiration occur in human muscle and what forms?",
+     "a": "In muscle cells during heavy exercise when oxygen is short, glucose becomes lactic acid, causing cramps.",
+     "self_check": true
+    },
+    {
+     "q": "Why is energy release larger in aerobic respiration?",
+     "a": "Complete breakdown of glucose in the presence of oxygen releases far more energy than partial breakdown without it.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.5.5.1",
+   "title": "Energy Yield from ATP Hydrolysis",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "energy_kj",
+     "expr": "moles * 30.5",
+     "explain": "1 mol of ATP on hydrolysis releases about 30.5 kJ"
+    },
+    {
+     "step": 2,
+     "name": "energy_j",
+     "expr": "energy_kj * 1000",
+     "explain": "convert kilojoules to joules"
+    },
+    {
+     "step": 3,
+     "name": "energy_kcal",
+     "expr": "energy_j / 4184",
+     "explain": "1 food calorie (kcal) equals 4184 J"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Muscle work hydrolyses 2 mol of ATP. How much energy is released in kJ, in J, and in kcal?",
+     "vals": {
+      "moles": 2
+     },
+     "unit": "kcal",
+     "steps": null,
+     "a": "14.5793 kcal",
+     "self_check": false
+    },
+    {
+     "q": "An active cell uses 0.5 mol of ATP. Express the energy set free in kJ, J and kcal.",
+     "vals": {
+      "moles": 0.5
+     },
+     "unit": "kcal",
+     "steps": null,
+     "a": "3.64484 kcal",
+     "self_check": false
+    },
+    {
+     "q": "During a race the leg muscles spend 4 mol of ATP. Give the energy in kJ, J and kcal.",
+     "vals": {
+      "moles": 4
+     },
+     "unit": "kcal",
+     "steps": null,
+     "a": "29.1587 kcal",
+     "self_check": false
+    },
+    {
+     "q": "A bird's flight consumes 1.5 mol of ATP. Convert the released energy into kJ, J and kcal.",
+     "vals": {
+      "moles": 1.5
+     },
+     "unit": "kcal",
+     "steps": null,
+     "a": "10.9345 kcal",
+     "self_check": false
+    },
+    {
+     "q": "A seedling spends 3 mol of ATP for growth in a day. Report the energy as kJ, J and kcal.",
+     "vals": {
+      "moles": 3
+     },
+     "unit": "kcal",
+     "steps": null,
+     "a": "21.869 kcal",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.5.6",
+   "title": "Human Respiratory System and Gas Exchange",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How is oxygen carried from lungs to tissues?",
+     "a": "The respiratory pigment haemoglobin in red blood cells binds oxygen and releases it at tissues.",
+     "self_check": true
+    },
+    {
+     "q": "Why are alveoli thin-walled and rich in blood vessels?",
+     "a": "Thin walls shorten the diffusion path and rich blood supply quickly carries away oxygen, speeding gas exchange.",
+     "self_check": true
+    },
+    {
+     "q": "What mechanism moves air in and out of human lungs?",
+     "a": "The rib muscles and diaphragm change chest volume and pressure, drawing air in and pushing it out.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.5.7",
+   "title": "Human Circulatory System and Heart",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Why is the human heart called a double pump?",
+     "a": "Its right half pumps blood to the lungs and the left half pumps oxygenated blood to the whole body - two circuits in one organ.",
+     "self_check": true
+    },
+    {
+     "q": "Why do ventricles have thicker walls than atria?",
+     "a": "Ventricles must push blood to distant organs (or lungs) at higher pressure; atria only fill ventricles.",
+     "self_check": true
+    },
+    {
+     "q": "What are valves in the heart for?",
+     "a": "They stop blood from flowing backwards, keeping it moving in one direction.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.5.8",
+   "title": "Transportation in Plants",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How does water rise to the top of a tall tree?",
+     "a": "Root pressure pushes water upward and transpiration pull from leaf evaporation draws the water column up the xylem.",
+     "self_check": true
+    },
+    {
+     "q": "What does the phloem transport and in what form?",
+     "a": "Food made in leaves is carried as sucrose solution to storage and growth parts - called translocation.",
+     "self_check": true
+    },
+    {
+     "q": "Why does loss of water from leaves help the plant?",
+     "a": "It creates the suction pull that lifts water and minerals, and cools the plant.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.5.9",
+   "title": "Human Excretory System and Nephron Function",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "Name the basic filtration unit of the kidney.",
+     "a": "The nephron, a coiled tubule with a cup-shaped Bowman's capsule around a glomerulus.",
+     "self_check": true
+    },
+    {
+     "q": "What is reabsorbed in the nephron tubule?",
+     "a": "Useful substances - glucose, amino acids, most salts and much water - pass back into blood from the filtrate.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we pass only 1-2 L of urine a day though 180 L is filtered?",
+     "a": "Nearly 99% of the filtrate is reabsorbed; only the concentrated wastes leave as urine.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.5.9.1",
+   "title": "Kidney Filtration and Reabsorption Volume",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "name": "filtrate_per_hour",
+     "expr": "initial_filtrate / 24",
+     "explain": "the kidneys filter about 180 L of blood daily, so divide by 24"
+    },
+    {
+     "step": 2,
+     "name": "reabsorbed_volume",
+     "expr": "initial_filtrate - excreted_volume",
+     "explain": "almost all the filtrate is reabsorbed; only urine is excreted"
+    },
+    {
+     "step": 3,
+     "name": "reabsorbed_percent",
+     "expr": "(reabsorbed_volume / initial_filtrate) * 100",
+     "explain": "express reabsorption as a percentage"
+    }
+   ],
+   "questions": [
+    {
+     "q": "The kidneys form 180 L of filtrate per day and excrete 1.4 L of urine. How much is reabsorbed, and what per cent of the filtrate is that?",
+     "vals": {
+      "initial_filtrate": 180,
+      "excreted_volume": 1.4
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "99.2222 %",
+     "self_check": false
+    },
+    {
+     "q": "A patient's kidneys filter 180 L daily and pass 1.5 L of urine. Find the reabsorbed volume and its percentage.",
+     "vals": {
+      "initial_filtrate": 180,
+      "excreted_volume": 1.5
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "99.1667 %",
+     "self_check": false
+    },
+    {
+     "q": "If 180 L of filtrate leads to only 1.2 L of urine, how many litres are reabsorbed and what per cent is reabsorbed?",
+     "vals": {
+      "initial_filtrate": 180,
+      "excreted_volume": 1.2
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "99.3333 %",
+     "self_check": false
+    },
+    {
+     "q": "Daily filtrate is 180 L and urine output is exactly 1 L. Compute reabsorption in litres and in per cent.",
+     "vals": {
+      "initial_filtrate": 180,
+      "excreted_volume": 1.0
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "99.4444 %",
+     "self_check": false
+    },
+    {
+     "q": "With 180 L filtrate and 2 L urine in a day, what volume is reabsorbed and what per cent does that represent?",
+     "vals": {
+      "initial_filtrate": 180,
+      "excreted_volume": 2.0
+     },
+     "unit": "%",
+     "steps": null,
+     "a": "98.8889 %",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.5.10",
+   "title": "Excretion in Plants",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How do plants get rid of their wastes?",
+     "a": "Waste products diffuse into surrounding water, collect in old leaves which fall, or leave as resins and gums in old xylem.",
+     "self_check": true
+    },
+    {
+     "q": "What plant waste is stored in leaves that fall in autumn?",
+     "a": "Toxic wastes and by-products are parked in leaves and shed with them.",
+     "self_check": true
+    },
+    {
+     "q": "Name two substances excreted by plants that humans use.",
+     "a": "Resins and gums (also essential oils and rubber) - plant excretory products useful to us.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

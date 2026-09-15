@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_hist_ch1_7",
+ "concepts": [
+  {
+   "id": "enh:c9_hist_ch1_7",
+   "title": "c9_hist_ch1_7",
+   "questions": [
+    {
+     "q": "Name the two broad categories of literary sources for ancient Indian history and give one example of each with its approximate period of composition.",
+     "a": "Religious texts (e.g., Rigveda, c. 1500–1000 BCE) and secular texts (e.g., Arthashastra, c. 300 BCE–300 CE). A wrong answer listing only \"Vedas and Puranas\" reveals the student cannot distinguish religious from secular categories or conflates all Sanskrit texts as \"religious,\" missing the historiographical significance of statecraft texts like Arthashastra.",
+     "self_check": true
+    },
+    {
+     "q": "Why do historians not accept the Puranic genealogical lists (vamshanucharita) as accurate chronological records for the early Vedic period?",
+     "a": "Puranas were compiled centuries after the events they describe (final form c. 4th–10th century CE), contain mythological time cycles (yugas), and were revised by Brahminical redactors to legitimize contemporary dynasties. A student who says \"Puranas are religious so they are biased\" misses the specific mechanisms: genealogical inflation, synchronization of unrelated dynasties, and the gap between oral composition and written redaction.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 9 student finds a 16th-century Rajasthani bardic poem (khyat) claiming a Rajput king defeated a Mughal emperor in single combat. The same event in the Mughal court chronicle (Akbarnama) records a negotiated surrender. Apply the method of external criticism to evaluate which account is more reliable for reconstructing the political outcome.",
+     "a": "The Akbarnama is more reliable for political outcome because: (1) it is a contemporaneous official record with administrative purpose, (2) its author (Abu'l Fazl) had access to state archives, (3) it is corroborated by other Persian sources. The khyat, composed later under Rajput patronage, serves commemorative/heroic function. A student choosing the khyat because \"it's from the Indian side\" reveals nationalist bias overriding source-critical reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the transmission of the Rigveda (oral, with pitch accents preserved) and the Mahabharata (oral then written, multiple recensions). How do their transmission histories affect the historian's ability to recover the \"original\" historical kernel in each?",
+     "a": "The Rigveda's strict oral transmission (patha methods, guru-shishya parampara) preserved linguistic form but froze content, making it a reliable window into early Vedic society (c. 1500 BCE). The Mahabharata's fluid oral-to-written transition (multiple recensions, regional versions, Jain/Buddhist adaptations) means no single \"original\" exists; historians must reconstruct layers (e.g., the Bharata core vs. later didactic additions). A student saying \"both are oral so both are unreliable\" fails to distinguish preservation fidelity from compositional fluidity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Foreign travellers' accounts (e.g., Megasthenes' Indica, Al-Biruni's Kitab al-Hind) are more objective than indigenous literary sources because outsiders have no local bias.\"",
+     "a": "The statement is flawed. Foreign accounts carry their own biases: Greek ethnographic tropes (Megasthenes' \"seven castes\"), Islamic theological frameworks (Al-Biruni's comparison of Hindu beliefs to Islam), or commercial interests (European factory records). Objectivity is not guaranteed by outsider status; historians must cross-check foreign accounts with indigenous epigraphy, archaeology, and multiple foreign sources. A student agreeing with the statement reveals a simplistic \"insider/outsider\" binary, ignoring that all sources are situated.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a three-step source-criticism checklist a historian would apply to a newly discovered 12th-century Tamil temple inscription (stone) that quotes verses from the Tevaram hymns (oral Shaiva tradition). Explain what each step reveals.",
+     "a": "Step 1: External criticism — verify physical authenticity (paleography, stone type, find spot) to confirm it is not a modern forgery. Step 2: Internal criticism — analyze language, meter, and theological vocabulary to date the hymn layer (early Tevaram vs. later interpolation). Step 3: Contextual criticism — compare with other Chola inscriptions and Tevaram manuscripts to see if the quote reflects royal patronage patterns. A poor answer listing only \"check if it's real\" misses the layered textual analysis required for oral-derived written sources.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

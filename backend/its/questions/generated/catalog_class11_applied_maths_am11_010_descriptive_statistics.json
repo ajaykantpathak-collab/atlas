@@ -1,0 +1,485 @@
+{
+ "catalog": "catalog_class11_applied_maths_am11_010_descriptive_statistics.json",
+ "concepts": [
+  {
+   "id": "am11_010.1",
+   "title": "Organising Raw Data into Frequency Distributions",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the mean/median/mode definition",
+     "explain": "apply the mean/median/mode definition: total = sum((27, 39, 23, 18, 4)) gives 111",
+     "compute": "total = sum((27, 39, 23, 18, 4))"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 22.2",
+     "compute": "mean = total / 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 27, 39, 23, 18, 4.",
+     "a": "22.2",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 2, 5, 19, 47, 50 (already in increasing order).",
+     "a": "19",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 12, 37. A seventh value 55 is added, making 7 values. Find the median of the 7 values.",
+     "a": "37",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 7 and 48. Find the median.",
+     "a": "27.5",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 4 times, 5 occurs 3 times and 6 occurs 2 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 43, 36, 41, 58.",
+     "a": "22",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_010.2",
+   "title": "Class Mark of a Class Interval",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "In a frequency table the rows have frequencies 3, 9 and 4. Find the total frequency.",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "A pictograph uses one symbol for 10 units. If a row shows 10 symbols, what value does it represent?",
+     "a": "100",
+     "self_check": false
+    },
+    {
+     "q": "In a pictograph with key 1 symbol = 10 units, how many symbols represent 50 units?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "In a bar graph, 1 unit of bar height stands for 20 books. A bar is 2 units tall. How many books does it show?",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "A bar must show a frequency of 40 with scale 1 unit = 5. How tall is the bar in units?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "A pie chart sector represents 50 out of 200 people. Find its central angle in degrees.",
+     "a": "90",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_010.3",
+   "title": "Arithmetic Mean of Ungrouped Data",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 2, 18, 33, 30, 27.",
+     "a": "22",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 7, 16, 19, 23, 25 (already in increasing order).",
+     "a": "19",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 31, 34. A seventh value 47 is added, making 7 values. Find the median of the 7 values.",
+     "a": "34",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 10 and 50. Find the median.",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 3 times, 5 occurs 2 times and 6 occurs 2 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 5, 25, 15, 52.",
+     "a": "47",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_010.4",
+   "title": "Mean of Grouped Data by Frequency Method",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 32, 36, 6, 19, 12.",
+     "a": "21",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 4, 23, 24, 31, 40 (already in increasing order).",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 18, 24. A seventh value 46 is added, making 7 values. Find the median of the 7 values.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 18 and 41. Find the median.",
+     "a": "29.5",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 4 times, 5 occurs 3 times and 6 occurs 3 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 26, 54, 31, 26.",
+     "a": "28",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_010.5",
+   "title": "Median of Ordered Data",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 23, 18, 19, 39, 23.",
+     "a": "24.4",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 5, 15, 23, 27, 35 (already in increasing order).",
+     "a": "23",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 4, 36. A seventh value 50 is added, making 7 values. Find the median of the 7 values.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 20 and 44. Find the median.",
+     "a": "32",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 8 times, 5 occurs 2 times and 6 occurs 2 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 41, 37, 54, 34.",
+     "a": "20",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_010.6",
+   "title": "Mode as the Most Frequent Value",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the mean/median/mode definition",
+     "explain": "apply the mean/median/mode definition: total = sum((19, 26, 26, 3, 12)) gives 86",
+     "compute": "total = sum((19, 26, 26, 3, 12))"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 17.2",
+     "compute": "mean = total / 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 19, 26, 26, 3, 12.",
+     "a": "17.2",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 11, 12, 27, 32, 42 (already in increasing order).",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 14, 28. A seventh value 50 is added, making 7 values. Find the median of the 7 values.",
+     "a": "28",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 16 and 44. Find the median.",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 6 times, 5 occurs 1 times and 6 occurs 3 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 45, 47, 18, 48.",
+     "a": "30",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_010.7",
+   "title": "Mean Deviation about the Mean",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean of the numbers 27, 19, 35, 36, 8.",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "Find the median of 5, 27, 30, 39, 44 (already in increasing order).",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "Six observations sorted in order end with ... , 39, 40. A seventh value 49 is added, making 7 values. Find the median of the 7 values.",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "An even-sized data set has middle values 10 and 37. Find the median.",
+     "a": "23.5",
+     "self_check": false
+    },
+    {
+     "q": "In a data set, the value 4 occurs 4 times, 5 occurs 1 times and 6 occurs 1 times. Find the mode.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the range of the data 48, 40, 50, 48.",
+     "a": "10",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_010.8",
+   "title": "Variance as Mean Squared Deviation",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean deviation about the mean of 8, 13, 6 (two decimal places).",
+     "a": "2.67",
+     "self_check": false
+    },
+    {
+     "q": "Find the variance of 7, 7, 7, 9 (two decimal places).",
+     "a": "0.75",
+     "self_check": false
+    },
+    {
+     "q": "A data set has variance 64. Find its standard deviation.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Find the coefficient of variation (in percent) when the standard deviation is 10 and the mean is 50.",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "The first and third quartiles of a data set are 19 and 33. Find the interquartile range.",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "For 19 ordered observations, find the position of the upper quartile using 3(n + 1) / 4.",
+     "a": "15",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_010.9",
+   "title": "Standard Deviation in Data Units",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the mean deviation about the mean of 4, 15, 15 (two decimal places).",
+     "a": "4.89",
+     "self_check": false
+    },
+    {
+     "q": "Find the variance of 6, 9, 8, 3 (two decimal places).",
+     "a": "5.25",
+     "self_check": false
+    },
+    {
+     "q": "A data set has variance 4. Find its standard deviation.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Find the coefficient of variation (in percent) when the standard deviation is 5 and the mean is 80.",
+     "a": "6.25",
+     "self_check": false
+    },
+    {
+     "q": "The first and third quartiles of a data set are 16 and 49. Find the interquartile range.",
+     "a": "33",
+     "self_check": false
+    },
+    {
+     "q": "For 7 ordered observations, find the position of the upper quartile using 3(n + 1) / 4.",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_010.10",
+   "title": "Quartiles and Their Positions",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the area formula base times height",
+     "explain": "apply the area formula base times height: area = 3 * 23 gives 69",
+     "compute": "area = 3 * 23"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the area of a rectangle measuring 3 cm by 23 cm.",
+     "a": "69",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of a square of side 17 m.",
+     "a": "289",
+     "self_check": false
+    },
+    {
+     "q": "A 12 m x 14 m garden has a 8 m x 10 m flower bed inside it. Find the area of the remaining garden.",
+     "a": "88",
+     "self_check": false
+    },
+    {
+     "q": "A rectangle has area 84 sq cm and length 6 cm. Find its breadth.",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "Tiling costs Rs 20 per square metre. Find the cost of tiling a 6 m x 12 m floor.",
+     "a": "1440",
+     "self_check": false
+    },
+    {
+     "q": "How many tiles of side 3 m (square tiles) fit in a 18 m x 15 m hall?",
+     "a": "30",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_010.11",
+   "title": "Interquartile Range",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "How many lines of symmetry does a equilateral triangle have?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "What is the order of rotational symmetry of a square?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a isosceles triangle have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many lines of symmetry does a rectangle have?",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "A line segment has two endpoints; how many endpoints does a ray have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many end points does a line have (a line extends endlessly in both directions)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_010.12",
+   "title": "Coefficient of Variation",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A can finish a job in 10 days and B in 15 days. Working together, how many days will they take (two decimal places)?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A pipe fills a tank in 6 hours while a leak empties it in 8 hours. With both open, how long to fill the tank (two decimal places)?",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "A bus covers 150 km in 2 hours and 120 km in 2 hours. Find its average speed for the whole journey.",
+     "a": "67.5",
+     "self_check": false
+    },
+    {
+     "q": "12 workers build a wall in 8 days. How long would 20 workers take (inverse proportion)?",
+     "a": "4.8",
+     "self_check": false
+    },
+    {
+     "q": "A boat's downstresam speed is 13 km/h and its upstream speed is 7 km/h. Find the speed of the stream.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "A boat travels 30 km upstream at 7 km/h. How many hours does the trip take?",
+     "a": "4.28571",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

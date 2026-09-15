@@ -1,0 +1,151 @@
+{
+ "catalog": "catalog_class10_social_science_jess405",
+ "concepts": [
+  {
+   "id": "jess.405.1.1",
+   "title": "Accountable, Responsive and Legitimate Government",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Accountable, Responsive and Legitimate Government' refers to.",
+     "a": "A democratic government is judged on whether it is accountable to citizens, responsive to their needs and legitimate in the eyes of the people, since it follows procedures and consults before decisions rather than acting overnight like a dictatorship.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Accountable, Responsive and Legitimate Government'.",
+     "a": "Democracy may be slower in reaching decisions, but it builds support through deliberation, and its legitimacy rests on the people's free choice of rulers.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Accountable, Responsive and Legitimate Government' taught, and from which source text?",
+     "a": "Accountable, responsive and legitimate government (source: jess405.txt lines 113-260)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.405.2.1",
+   "title": "Economic Growth under Democracy and Dictatorship",
+   "questions": [
+    {
+     "q": "Calculate the difference in growth rates between democratic and dictatorial regimes. Use the method 'Economic Growth under Democracy and Dictatorship'. Work with: democratic_rate = 10, dictatorial_rate = 5. Carry the chain through step by step and give the final value of growth_gap.",
+     "a": "-5 per cent",
+     "self_check": false
+    },
+    {
+     "q": "How much faster did dictatorships grow than democracies between 1950 and 2000? Use the method 'Economic Growth under Democracy and Dictatorship'. Work with: democratic_rate = 18, dictatorial_rate = 18. Carry the chain through step by step and give the final value of growth_gap.",
+     "a": "0 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Economic Growth under Democracy and Dictatorship' refers to.",
+     "a": "When growth rates of regimes are compared over 1950-2000, dictatorial regimes averaged 4.42 per cent against 3.95 for democracies, so the difference is the dictatorship rate minus the democracy rate.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Economic Growth under Democracy and Dictatorship'.",
+     "a": "The gap of about half a percentage point is small and cannot prove that dictatorships deliver better development, since inequality and war also shape outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Economic Growth under Democracy and Dictatorship', in plain ASCII form.",
+     "a": "growth_gap = dictatorial_rate - democratic_rate",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.405.2.2",
+   "title": "Gap between Top and Bottom Income Shares",
+   "questions": [
+    {
+     "q": "Calculate the gap between the income shares of the richest and poorest twenty per cent. Use the method 'Gap between Top and Bottom Income Shares'. Work with: bottom20_share = 0.25, top20_share = 0.5. Carry the chain through step by step and give the final value of inequality_gap.",
+     "a": "0.25 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the inequality gap for a country from its income share table. Use the method 'Gap between Top and Bottom Income Shares'. Work with: bottom20_share = 0.3, top20_share = 0.45. Carry the chain through step by step and give the final value of inequality_gap.",
+     "a": "0.15 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Gap between Top and Bottom Income Shares' refers to.",
+     "a": "Inequality within a country can be read from the difference between the national income share of the top 20 per cent and that of the bottom 20 per cent of the people.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Gap between Top and Bottom Income Shares'.",
+     "a": "In Brazil the top fifth holds 63 per cent of income against 2.6 for the bottom fifth, while Denmark's 34.5 against 9.6 shows democracies vary widely in income fairness.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Gap between Top and Bottom Income Shares', in plain ASCII form.",
+     "a": "inequality_gap = top20_share - bottom20_share",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.405.3.1",
+   "title": "Accommodation of Social Diversity",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Accommodation of Social Diversity' refers to.",
+     "a": "Democracy handles social differences best when every community gets a chance to be heard and rule by majority means rule by any group that wins support, never rule by a single community in its own interest.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Accommodation of Social Diversity'.",
+     "a": "Democracy stays viable in deep diversity as long as no one community tries to dominate others and citizens weigh reasons rather than identities.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Accommodation of Social Diversity' taught, and from which source text?",
+     "a": "Accommodation of social diversity (source: jess405.txt lines 100-112, 640-760)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.405.4.1",
+   "title": "Dignity and Freedom of Citizens",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Dignity and Freedom of Citizens' refers to.",
+     "a": "Democracy's strongest claim is its promise of dignity and freedom: it rests on the principle of political equality, expanding recognition for all individuals including lower castes and women, even when practice falls short of expectation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Dignity and Freedom of Citizens'.",
+     "a": "Democratic struggles have spread respect for individual freedom and dignity, and democracy's merit is that conflicts over dignity can be openly fought and corrected.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Dignity and Freedom of Citizens' taught, and from which source text?",
+     "a": "Dignity and freedom of the citizens (source: jess405.txt lines 30-40, 760-860)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.405.5.1",
+   "title": "Assessing the Outcomes of Democracy",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Assessing the Outcomes of Democracy' refers to.",
+     "a": "Judging democracy means asking what we expect of it: accountable and legitimate rule, economic well being, reduced inequality, accommodation of diversity, and dignity for all, tested against its record rather than against perfection.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Assessing the Outcomes of Democracy'.",
+     "a": "Democracy's success is not measured only by economic performance but also by its ability to correct itself and keep improving, which is a constant process without a perfect endpoint.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Assessing the Outcomes of Democracy' taught, and from which source text?",
+     "a": "How do we assess democracy's outcomes (source: jess405.txt lines 1-112, 860-940)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_01_002",
+   "title": "c11_stat_cbse_01_002",
+   "questions": [
+    {
+     "q": "State the definition of statistics as given in the NCERT Class 11 textbook and list the four fundamental operations it performs on numerical data.",
+     "a": "Statistics is defined as the study of collection, analysis, interpretation, and presentation of numerical data. The four operations are: (1) Collection, (2) Analysis, (3) Interpretation, (4) Presentation. A wrong answer (e.g., \"statistics is only calculating averages\") reveals the student conflates a specific tool (measure of central tendency) with the entire discipline, ignoring the critical first step (collection) and last step (presentation/interpretation) which are examinable distinctions in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "The textbook states: \"Statistics is an indispensable tool for an economist that helps him to understand an economic problem.\" Explain in your own words why statistics is needed *before* an economic problem can be solved, using the example of poverty analysis mentioned in the text.",
+     "a": "Statistics is needed because an economic problem like poverty has multiple causes (unemployment, low productivity, backward technology). Without data on each factor, we cannot identify which cause dominates in a specific region. For example, if data shows 70% of poor households have unemployed adults but only 10% cite technology, policy should target job creation, not technology subsidies. A wrong answer (e.g., \"statistics solves poverty directly\") reveals the misconception that statistics *is* the solution rather than the *diagnostic tool* that identifies causes so policies can be targeted – a confusion explicitly warned against in the textbook (\"Statistics solves economic problems\" is marked False in Exercise 1).",
+     "self_check": true
+    },
+    {
+     "q": "A state government wants to decide the Minimum Support Price (MSP) for wheat for the next crop year. They have data on: (i) cost of cultivation per hectare for last 5 years, (ii) market prices in different mandis, (iii) farmers' income levels, (iv) global wheat prices. Identify which specific statistical application from the textbook is being used at each step: (a) calculating average cost of cultivation, (b) comparing mandi prices to find the highest, (c) estimating next year's cost using past trend, (d) presenting the final MSP as a single number instead of a 50-page report.",
+     "a": "(a) Condensing mass data into numerical measures (mean/average) – summarizes 5 years of daily cost data into one representative figure. (b) Presentation of data in precise/definite form – enables exact comparison rather than vague \"prices are high\". (c) Forecasting/prediction of future trends – uses past data to project future costs. (d) Condensing mass data for policy formulation – replaces voluminous data with a single policy variable. A wrong answer (e.g., labeling all as \"calculation\") shows inability to distinguish between *descriptive* (a,b,d) and *predictive* (c) functions, which are separate board exam topics (Functions vs. Forecasting).",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following statement from the textbook: \"Statistical methods are no substitute for common sense.\" The river-crossing story illustrates this. Construct a *new* real-life economic example (not river-crossing) where using a statistical average without common sense leads to a disastrous policy decision. Explain the statistical flaw and the common-sense correction.",
+     "a": "Example: A city planner calculates the *average* daily water consumption per household as 200 litres and designs the pipeline capacity for exactly 200 litres × number of houses. In summer, actual peak demand reaches 350 litres/household, causing city-wide shortage. Flaw: Using mean (average) ignores variation (standard deviation) and extreme values (peak demand). Common sense: Infrastructure must be designed for *maximum* expected demand (or a high percentile), not the average. A poor answer uses the same river example or identifies \"wrong formula\" instead of \"wrong choice of summary measure for the decision context\" – missing the core lesson: statistics informs, but context decides which measure to use.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Since economics deals with human behavior which is unpredictable, statistical prediction of economic variables (like GDP growth, inflation) is useless and governments should rely on expert intuition instead.\" Use the textbook's discussion on prediction and planning to justify your evaluation.",
+     "a": "The claim is false. The textbook explicitly states: \"Statistical methods help formulate appropriate economic policies that solve economic problems\" and gives the oil import example: \"one might make subjective judgement based on guess... Alternatively, one might use statistical tools to predict consumption in 2020 based on past data.\" While human behavior adds uncertainty, statistical forecasting (using time series, regression) provides *probabilistic* estimates with confidence intervals, which are objectively superior to pure intuition for large-scale planning (e.g., RBI's inflation forecasting framework). A wrong answer agreeing with the claim reveals a misunderstanding of *forecasting* as \"certain prediction\" rather than \"reducing uncertainty\" – a senior-secondary nuance where students confuse \"imperfect\" with \"useless.\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini case study (4-5 sentences) describing a specific economic problem faced by a local Indian municipality (e.g., waste management, street lighting, public transport). Explicitly show how *three* different statistical applications from this chapter would be used sequentially to address it: (1) understanding the problem, (2) formulating a policy, (3) evaluating the policy after one year.",
+     "a": "Case: A municipality faces garbage overflow. (1) *Understanding*: Collect ward-wise data on waste generation (kg/day), segregation rates, collection frequency. Use statistical analysis to find correlation: wards with <30% segregation have 3× overflow incidents. (2) *Policy formulation*: Pilot a policy in 5 wards: fine for non-segregation + extra collection van. Use past data to predict required vans (forecasting). (3) *Evaluation*: After 1 year, compare overflow incidents in pilot vs. non-pilot wards using hypothesis testing (t-test conceptually). Good answer shows sequential flow: descriptive stats → predictive modeling → inferential evaluation. Poor answer lists generic \"collect data, analyze, decide\" without naming specific statistical purposes (condensation, relationship, forecasting, hypothesis testing) from the textbook.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

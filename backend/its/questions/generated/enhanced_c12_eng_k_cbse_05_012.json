@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_05_012",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_05_012",
+   "title": "c12_eng_k_cbse_05_012",
+   "questions": [
+    {
+     "q": "What is the defining difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal question asks for information explicitly stated in the text (e.g., \"What did Xiao Ye shout on the bus?\"), while an inferential question requires the reader to deduce meaning from clues (e.g., \"Why did Tao Ying feel 'a little smug' at the temple gate?\"). A wrong answer that swaps these definitions reveals the student cannot identify the cognitive demand of the question, leading to answers that either over-quote for inferences or under-explain for literal retrieval.",
+     "self_check": true
+    },
+    {
+     "q": "In the story, the narrator states: \"Tao Ying does not come from a privileged background, and has not read very many books. But she likes to be gentle and gracious...\" Is the question \"What is Tao Ying's educational background?\" literal or inferential? Justify your classification.",
+     "a": "Literal. The answer (\"not from a privileged background, has not read very many books\") is directly stated in the text. A student who labels this inferential confuses *character insight* with *inference* — the text explicitly tells us this, so no deduction is needed. This error shows the student thinks any \"character detail\" is automatically inferential.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the literal/inferential distinction to this question: \"Why did Tao Ying decide to buy two tickets on the bus even though the conductor said Xiao Ye was one centimetre short?\" Write a 2-sentence answer that identifies the question type and provides the correct response with textual evidence.",
+     "a": "This is an inferential question because the text never directly states her motive; we must infer it from her internal monologue (\"To be able to purchase self-esteem with twenty cents is something that can only happen in childhood...\") and her desire to be a \"flawless mother.\" A literal answer would merely quote the conductor's words. A wrong answer that treats this as literal will fail to explain the *psychological reason* — the core of the question.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the temple gate episode: The guard claims Xiao Ye is over 110 cm; Tao Ying insists he is not. Later, the old woman's \"fitness scales\" measure him at 111 cm, but Tao Ying's tape at home shows 109 cm. What does this conflict *infer* about the nature of \"official measurements\" in the story? Support with two textual references.",
+     "a": "The conflict infers that official measurements are arbitrary and manipulable, not objective truths. Evidence 1: The guard's \"earthworm\" line on the wall is casually drawn, yet treated as absolute authority. Evidence 2: The temple officials later admit the line \"was not drawn accurately\" and offer compensation, confirming the standard was flawed. A student who only summarizes the plot (literal) misses the thematic inference about institutional unreliability.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student answer to \"Why did Tao Ying refuse the money and tickets from the temple officials?\": \"She refused because she didn't need money; she wanted an apology for her son.\" Is this answer sufficient for a 3-mark CBSE question? Why or why not?",
+     "a": "Insufficient. While the answer captures a valid inference, it lacks textual evidence and misses the *primary* motive stated in the text: \"That day's happiness can never be bought again\" and her request to \"explain to my son exactly what happened... tell him that his mother has not done anything wrong.\" Her refusal is about *moral vindication for her son's trust*, not just an apology. A 3-mark answer requires Point (vindication), Evidence (quoted/paraphrased lines), and Explanation (link to mother-son bond). The student's answer would score 1/3.",
+     "self_check": true
+    },
+    {
+     "q": "Create an inferential comprehension question for the episode where Tao Ying measures Xiao Ye at home (109 cm) and writes the letter. The question must require combining at least three separate textual details to answer. Provide the question only.",
+     "a": "Question: \"How do Tao Ying's actions after the temple incident — measuring Xiao Ye at night, seeking the Writer's help, and drafting the letter — collectively reveal her understanding of motherhood as performance and accountability?\" A strong answer must connect: (1) the private measurement (accountability to truth), (2) consulting the Writer (performance for an audience), (3) the letter's rhetorical strategy (crafting a narrative for justice). A weak answer lists actions without synthesizing the *dual nature* of her motherhood.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,318 @@
+# ISC Class 11 Computer Science Node Mapping
+node_mapping:
+  # ── Chapter 1: Computer Architecture ──────────────────────────────
+  "cs_c11_ch1_architecture":
+    node_id: "cs_c11_ch1_architecture"
+    problem_type_ids: ["mcq", "short_answer", "fill_blank", "diagram_label"]
+
+  "cs_c11_ch1_1_types_computers":
+    node_id: "cs_c11_ch1_1_types_computers"
+    problem_type_ids: ["mcq", "short_answer", "true_false"]
+
+  "cs_c11_ch1_2_input_output_devices":
+    node_id: "cs_c11_ch1_2_input_output_devices"
+    problem_type_ids: ["mcq", "short_answer", "match_following"]
+
+  "cs_c11_ch1_3_memory":
+    node_id: "cs_c11_ch1_3_memory"
+    problem_type_ids: ["mcq", "short_answer", "fill_blank", "diagram_label"]
+
+  "cs_c11_ch1_4_primary_memory":
+    node_id: "cs_c11_ch1_4_primary_memory"
+    problem_type_ids: ["mcq", "short_answer", "diagram_label"]
+
+  "cs_c11_ch1_5_secondary_memory":
+    node_id: "cs_c11_ch1_5_secondary_memory"
+    problem_type_ids: ["mcq", "short_answer"]
+
+  "cs_c11_ch1_6_cpu":
+    node_id: "cs_c11_ch1_6_cpu"
+    problem_type_ids: ["mcq", "short_answer", "diagram_label"]
+
+  "cs_c11_ch1_7_machine_language":
+    node_id: "cs_c11_ch1_7_machine_language"
+    problem_type_ids: ["mcq", "short_answer", "fill_blank"]
+
+  # ── Chapter 2: Number Systems ─────────────────────────────────────
+  "cs_c11_ch2_number_systems":
+    node_id: "cs_c11_ch2_number_systems"
+    problem_type_ids: ["mcq", "short_answer", "long_answer", "fill_blank"]
+
+  "cs_c11_ch2_1_number_system_types":
+    node_id: "cs_c11_ch2_1_number_system_types"
+    problem_type_ids: ["mcq", "short_answer", "true_false"]
+
+  "cs_c11_ch2_2_binary_arithmetic":
+    node_id: "cs_c11_ch2_2_binary_arithmetic"
+    problem_type_ids: ["long_answer", "binary_arithmetic", "fill_blank"]
+
+  "cs_c11_ch2_3_decimal_to_binary":
+    node_id: "cs_c11_ch2_3_decimal_to_binary"
+    problem_type_ids: ["long_answer", "binary_conversion", "short_answer"]
+
+  "cs_c11_ch2_4_binary_to_decimal":
+    node_id: "cs_c11_ch2_4_binary_to_decimal"
+    problem_type_ids: ["long_answer", "binary_conversion", "short_answer"]
+
+  "cs_c11_ch2_5_octal_hex":
+    node_id: "cs_c11_ch2_5_octal_hex"
+    problem_type_ids: ["long_answer", "base_conversion", "mcq", "fill_blank"]
+
+  "cs_c11_ch2_6_float_conversion":
+    node_id: "cs_c11_ch2_6_float_conversion"
+    problem_type_ids: ["long_answer", "float_conversion", "short_answer"]
+
+  "cs_c11_ch2_7_ascii_unicode":
+    node_id: "cs_c11_ch2_7_ascii_unicode"
+    problem_type_ids: ["mcq", "short_answer", "fill_blank"]
+
+  # ── Chapter 3: Boolean Algebra ────────────────────────────────────
+  "cs_c11_ch3_boolean":
+    node_id: "cs_c11_ch3_boolean"
+    problem_type_ids: ["mcq", "short_answer", "long_answer", "fill_blank", "true_false"]
+
+  "cs_c11_ch3_1_basics":
+    node_id: "cs_c11_ch3_1_basics"
+    problem_type_ids: ["mcq", "short_answer", "fill_blank"]
+
+  "cs_c11_ch3_2_and_or_not":
+    node_id: "cs_c11_ch3_2_and_or_not"
+    problem_type_ids: ["mcq", "boolean_logic", "fill_blank", "true_false"]
+
+  "cs_c11_ch3_3_truth_tables":
+    node_id: "cs_c11_ch3_3_truth_tables"
+    problem_type_ids: ["long_answer", "truth_table", "mcq"]
+
+  "cs_c11_ch3_4_boolean_laws":
+    node_id: "cs_c11_ch3_4_boolean_laws"
+    problem_type_ids: ["long_answer", "boolean_simplification", "short_answer"]
+
+  "cs_c11_ch3_5_karnaugh_map":
+    node_id: "cs_c11_ch3_5_karnaugh_map"
+    problem_type_ids: ["long_answer", "karnaugh_map", "boolean_simplification"]
+
+  "cs_c11_ch3_6_boolean_expr_java":
+    node_id: "cs_c11_ch3_6_boolean_expr_java"
+    problem_type_ids: ["boolean_logic", "boolean_expr_java", "short_answer", "long_answer"]
+
+  # ── Chapter 4: Logic Gates ────────────────────────────────────────
+  "cs_c11_ch4_logic_gates":
+    node_id: "cs_c11_ch4_logic_gates"
+    problem_type_ids: ["mcq", "short_answer", "long_answer", "fill_blank", "diagram_label"]
+
+  "cs_c11_ch4_1_basic_gates":
+    node_id: "cs_c11_ch4_1_basic_gates"
+    problem_type_ids: ["mcq", "boolean_logic", "diagram_label", "fill_blank"]
+
+  "cs_c11_ch4_2_and_gate":
+    node_id: "cs_c11_ch4_2_and_gate"
+    problem_type_ids: ["mcq", "truth_table", "boolean_logic", "diagram_label"]
+
+  "cs_c11_ch4_3_or_gate":
+    node_id: "cs_c11_ch4_3_or_gate"
+    problem_type_ids: ["mcq", "truth_table", "boolean_logic", "diagram_label"]
+
+  "cs_c11_ch4_4_not_gate":
+    node_id: "cs_c11_ch4_4_not_gate"
+    problem_type_ids: ["mcq", "truth_table", "boolean_logic", "diagram_label"]
+
+  "cs_c11_ch4_5_nand_nor_xor":
+    node_id: "cs_c11_ch4_5_nand_nor_xor"
+    problem_type_ids: ["mcq", "truth_table", "boolean_logic", "diagram_label"]
+
+  "cs_c11_ch4_6_gate_boolean_expr":
+    node_id: "cs_c11_ch4_6_gate_boolean_expr"
+    problem_type_ids: ["boolean_logic", "diagram_label", "long_answer"]
+
+  "cs_c11_ch4_7_implement_logic":
+    node_id: "cs_c11_ch4_7_implement_logic"
+    problem_type_ids: ["logic_circuit", "boolean_logic", "boolean_simplification", "diagram_label"]
+
+  # ── Chapter 5: Java Programming ───────────────────────────────────
+  "cs_c11_ch5_java":
+    node_id: "cs_c11_ch5_java"
+    problem_type_ids: ["mcq", "short_answer", "long_answer", "fill_blank", "true_false"]
+
+  "cs_c11_ch5_1_basics":
+    node_id: "cs_c11_ch5_1_basics"
+    problem_type_ids: ["mcq", "short_answer", "fill_blank", "true_false"]
+
+  "cs_c11_ch5_2_data_types":
+    node_id: "cs_c11_ch5_2_data_types"
+    problem_type_ids: ["mcq", "short_answer", "fill_blank"]
+
+  "cs_c11_ch5_3_operators":
+    node_id: "cs_c11_ch5_3_operators"
+    problem_type_ids: ["mcq", "short_answer", "long_answer", "fill_blank"]
+
+  "cs_c11_ch5_4_control_flow":
+    node_id: "cs_c11_ch5_4_control_flow"
+    problem_type_ids: ["long_answer", "mcq", "short_answer"]
+
+  "cs_c11_ch5_5_methods":
+    node_id: "cs_c11_ch5_5_methods"
+    problem_type_ids: ["mcq", "short_answer", "long_answer"]
+
+  "cs_c11_ch5_6_oo_concepts":
+    node_id: "cs_c11_ch5_6_oo_concepts"
+    problem_type_ids: ["mcq", "short_answer", "long_answer", "fill_blank"]
+
+  "cs_c11_ch5_7_exception_handling":
+    node_id: "cs_c11_ch5_7_exception_handling"
+    problem_type_ids: ["mcq", "short_answer", "long_answer"]
+
+  # ── Chapter 6: Arrays ─────────────────────────────────────────────
+  "cs_c11_ch6_arrays":
+    node_id: "cs_c11_ch6_arrays"
+    problem_type_ids: ["mcq", "short_answer", "long_answer", "fill_blank", "true_false"]
+
+  "cs_c11_ch6_1_1d_arrays":
+    node_id: "cs_c11_ch6_1_1d_arrays"
+    problem_type_ids: ["mcq", "short_answer", "long_answer", "fill_blank"]
+
+  "cs_c11_ch6_2_array_declaration":
+    node_id: "cs_c11_ch6_2_array_declaration"
+    problem_type_ids: ["mcq", "short_answer", "fill_blank"]
+
+  "cs_c11_ch6_3_array_traversal":
+    node_id: "cs_c11_ch6_3_array_traversal"
+    problem_type_ids: ["long_answer", "array_operations", "short_answer"]
+
+  "cs_c11_ch6_4_array_operations":
+    node_id: "cs_c11_ch6_4_array_operations"
+    problem_type_ids: ["long_answer", "array_operations", "mcq"]
+
+  "cs_c11_ch6_5_searching":
+    node_id: "cs_c11_ch6_5_searching"
+    problem_type_ids: ["long_answer", "array_searching", "short_answer"]
+
+  "cs_c11_ch6_6_sorting":
+    node_id: "cs_c11_ch6_6_sorting"
+    problem_type_ids: ["long_answer", "array_sorting", "short_answer"]
+
+  "cs_c11_ch6_7_2d_arrays":
+    node_id: "cs_c11_ch6_7_2d_arrays"
+    problem_type_ids: ["long_answer", "array_operations", "mcq", "short_answer"]
+
+  "cs_c11_ch6_8_matrix_operations":
+    node_id: "cs_c11_ch6_8_matrix_operations"
+    problem_type_ids: ["long_answer", "array_operations", "short_answer"]
+
+  # ── Chapter 7: Strings ────────────────────────────────────────────
+  "cs_c11_ch7_strings":
+    node_id: "cs_c11_ch7_strings"
+    problem_type_ids: ["mcq", "short_answer", "long_answer", "fill_blank", "true_false"]
+
+  "cs_c11_ch7_1_string_class":
+    node_id: "cs_c11_ch7_1_string_class"
+    problem_type_ids: ["mcq", "short_answer", "fill_blank"]
+
+  "cs_c11_ch7_2_string_creation":
+    node_id: "cs_c11_ch7_2_string_creation"
+    problem_type_ids: ["mcq", "short_answer", "fill_blank"]
+
+  "cs_c11_ch7_3_string_methods":
+    node_id: "cs_c11_ch7_3_string_methods"
+    problem_type_ids: ["mcq", "short_answer", "long_answer", "fill_blank"]
+
+  "cs_c11_ch7_4_string_operations":
+    node_id: "cs_c11_ch7_4_string_operations"
+    problem_type_ids: ["long_answer", "string_operations", "short_answer"]
+
+  "cs_c11_ch7_5_string_tokenizer":
+    node_id: "cs_c11_ch7_5_string_tokenizer"
+    problem_type_ids: ["short_answer", "string_operations", "long_answer"]
+
+  "cs_c11_ch7_6_string_comparison":
+    node_id: "cs_c11_ch7_6_string_comparison"
+    problem_type_ids: ["mcq", "short_answer", "long_answer", "fill_blank"]
+
+  "cs_c11_ch7_7_stringbuffer":
+    node_id: "cs_c11_ch7_7_stringbuffer"
+    problem_type_ids: ["mcq", "short_answer", "long_answer"]
+
+# ── Problem Type Definitions ────────────────────────────────────────
+problem_types:
+  - problem_type_id: "mcq"
+    name: "Multiple Choice Questions"
+    description: "Questions with one or more correct options from a list"
+
+  - problem_type_id: "short_answer"
+    name: "Short Answer"
+    description: "Concise answer in 1-2 sentences"
+
+  - problem_type_id: "long_answer"
+    name: "Long Answer"
+    description: "Detailed explanation, derivation, or program"
+
+  - problem_type_id: "fill_blank"
+    name: "Fill in the Blanks"
+    description: "Complete the statement with the correct term/value"
+
+  - problem_type_id: "true_false"
+    name: "True / False"
+    description: "Statement evaluation with justification"
+
+  - problem_type_id: "match_following"
+    name: "Match the Following"
+    description: "Pair items from two columns"
+
+  - problem_type_id: "diagram_label"
+    name: "Diagram Label"
+    description: "Label or draw diagrams (gates, architecture, memory)"
+
+  - problem_type_id: "binary_conversion"
+    name: "Binary Conversion"
+    description: "Convert decimal to binary or binary to decimal"
+
+  - problem_type_id: "base_conversion"
+    name: "Base Conversion"
+    description: "Convert between binary, octal, decimal, hexadecimal"
+
+  - problem_type_id: "binary_arithmetic"
+    name: "Binary Arithmetic"
+    description: "Perform arithmetic operations on binary numbers"
+
+  - problem_type_id: "float_conversion"
+    name: "Floating-Point Conversion"
+    description: "Convert floating-point numbers between bases"
+
+  - problem_type_id: "truth_table"
+    name: "Truth Table"
+    description: "Construct or complete truth tables for expressions"
+
+  - problem_type_id: "boolean_logic"
+    name: "Boolean Logic Evaluation"
+    description: "Evaluate or simplify Boolean expressions"
+
+  - problem_type_id: "boolean_simplification"
+    name: "Boolean Simplification"
+    description: "Simplify Boolean expressions using laws or Karnaugh maps"
+
+  - problem_type_id: "boolean_expr_java"
+    name: "Boolean Expression in Java"
+    description: "Write or evaluate Boolean expressions in Java syntax"
+
+  - problem_type_id: "karnaugh_map"
+    name: "Karnaugh Map"
+    description: "Simplify using Karnaugh maps (K-maps)"
+
+  - problem_type_id: "logic_circuit"
+    name: "Logic Circuit Design"
+    description: "Design or simplify logic gate circuits"
+
+  - problem_type_id: "array_operations"
+    name: "Array Operations"
+    description: "Write or trace Java programs using arrays"
+
+  - problem_type_id: "array_searching"
+    name: "Array Searching"
+    description: "Linear search or binary search programs on arrays"
+
+  - problem_type_id: "array_sorting"
+    name: "Array Sorting"
+    description: "Write or trace sorting algorithms (bubble, selection, insertion)"
+
+  - problem_type_id: "string_operations"
+    name: "String Operations"
+    description: "Write or trace Java String programs using methods"

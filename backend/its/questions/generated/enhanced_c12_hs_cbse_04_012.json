@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_04_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_04_012",
+   "title": "c12_hs_cbse_04_012",
+   "questions": [
+    {
+     "q": "A student selects 100% polyester fabric for summer sportswear because \"polyester is strong and durable.\" Identify the critical comfort property they have overlooked and state the minimum recommended value for that property in sportswear applications.",
+     "a": "The overlooked property is **moisture vapor transmission rate (MVTR)** or **wicking ability**. Polyester is hydrophobic and does not absorb sweat; without moisture management finishes, it traps perspiration, causing clamminess and thermal discomfort. For sportswear, minimum MVTR should be **≥ 3000 g/m²/day** (per ASTM E96) or the fabric must have durable hydrophilic finishes/wicking structures. A wrong answer reveals the student equates \"durability\" with overall suitability and ignores the physiological comfort mechanism of evaporative cooling.",
+     "self_check": true
+    },
+    {
+     "q": "Two fabrics have identical fiber composition (65% polyester / 35% cotton) and weight (180 GSM). Fabric A is a 2/2 twill weave; Fabric B is a plain weave. For a chef's jacket requiring high abrasion resistance and good drape, which fabric would you recommend and why? Explain using fabric structure principles.",
+     "a": "**Fabric A (2/2 twill)** is recommended. Twill weaves have longer floats, fewer interlacings per unit area, and higher thread density potential than plain weaves at same GSM. This gives: (1) **Better abrasion resistance**—fewer interlacings mean less fiber breakage at crossover points under friction; (2) **Superior drape**—fewer interlacings increase fabric flexibility and lower bending rigidity. Plain weave (Fabric B) has maximum interlacings, making it stiffer and more prone to yarn slippage and surface wear. A wrong answer reveals confusion between weave structure effects on mechanical vs. aesthetic properties.",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturer wants to produce children's playwear (ages 5-8) that must withstand: (a) frequent knee abrasion from crawling, (b) repeated machine washing at 60°C, (c) high sweat absorption during play. They propose: 100% cotton knit, 200 GSM, single jersey, with silicone softener finish. Evaluate this proposal against the three criteria and specify two modifications needed.",
+     "a": "**Evaluation:** (a) **Abrasion**—Single jersey has low abrasion resistance (exposed loops snag easily); cotton has moderate dry abrasion but poor wet abrasion resistance. **Fail.** (b) **Washing durability**—Cotton withstands 60°C but silicone softener washes off in 5-10 cycles; dimensional instability (shrinkage >5%) without sanforization. **Partial fail.** (c) **Sweat absorption**—Cotton excels (moisture regain 8.5%). **Pass.**  \n**Two modifications:** (1) Change to **interlock or double jersey knit** (higher abrasion resistance, dimensional stability); (2) Apply **durable water-repellent (DWR) + antimicrobial finish** instead of silicone softener, or use **cotton/polyester blend (60/40)** with hydrophobic polyester surface for abrasion and hydrophilic cotton interior for moisture management. A wrong answer reveals inability to connect fabric structure to specific failure modes.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the thermal comfort mechanisms of **wool** and **cotton** in a winter formal suit (worn indoors at 22°C, then outdoors at 5°C). Explain why wool maintains comfort across this transition while cotton fails, using the concepts of moisture sorption heat and thermal effusivity.",
+     "a": "**Wool:** Hygroscopic fiber (moisture regain ~16%) absorbs perspiration vapor indoors, releasing **sorption heat (~80-100 J/g)** which buffers temperature drop when moving outdoors. Low **thermal effusivity** (due to crimp trapping air) slows heat loss. Scales reduce cling, maintaining air gap.  \n**Cotton:** Lower regain (~8.5%) releases less sorption heat. Higher thermal effusivity (denser structure) draws heat rapidly from skin in cold. Absorbs liquid sweat but dries slowly, causing post-exercise chill.  \n**Key difference:** Wool's **exothermic sorption** during vapor absorption provides active warming; cotton lacks this buffer. A wrong answer treats both as \"natural fibers = good\" and misses the thermodynamic mechanism of phase-change heat release.",
+     "self_check": true
+    },
+    {
+     "q": "A fashion brand markets \"100% bamboo viscose\" as \"eco-friendly, antibacterial, and cooler than cotton.\" Critique this claim using fiber science: (a) Is the antibacterial property inherent to the fiber? (b) What determines \"coolness\" in fabric—fiber type or fabric structure? (c) What processing chemical concern exists for viscose?",
+     "a": "(a) **No.** Natural bamboo has antimicrobial \"bamboo kun,\" but **viscose regeneration destroys it**—the fiber is pure regenerated cellulose. Any antibacterial effect comes from post-treatments (e.g., silver nanoparticles), not the fiber itself.  \n(b) **Coolness (thermal effusivity) is dominated by fabric structure** (air permeability, thickness, surface texture), not fiber type. A tight bamboo viscose plain weave feels warmer than an open cotton mesh.  \n(c) **Carbon disulfide (CS₂)** used in xanthation step is neurotoxic; closed-loop lyocell (Tencel) avoids this.  \nA wrong answer accepts marketing claims uncritically and confuses fiber properties with fabric properties.",
+     "self_check": true
+    },
+    {
+     "q": "Design a fabric specification sheet for **monsoon rainwear** (urban commuter, 30 min walk in heavy rain, then 8 hours in AC office). Define minimum test values for: (1) Hydrostatic head, (2) MVTR, (3) Abrasion (Martindale), (4) Colorfastness to washing, (5) Drape coefficient. Justify each value.",
+     "a": "| Property | Minimum Value | Justification |\n|---|---|---|\n| **Hydrostatic head** | **≥ 10,000 mm** (ISO 811) | Withstands heavy rain + backpack strap pressure; 5,000 mm is light rain only. |\n| **MVTR** | **≥ 5,000 g/m²/day** (ASTM E96 upright cup) | Must vent sweat during 30-min walk; <3,000 causes condensation inside. |\n| **Martindale abrasion** | **≥ 15,000 cycles** (ISO 12947) | Backpack straps, seat friction daily; 10,000 is minimum for outerwear. |\n| **Colorfastness to washing** | **Grade 4-5** (ISO 105-C06) | Frequent washing; Grade 3 shows visible fading after 10 cycles. |\n| **Drape coefficient** | **0.35–0.45** (Cusick drape tester) | Balances structured look (professional) with ease of movement; <0.3 too limp, >0.5 too stiff. |\n\nA poor answer gives generic \"high/low\" without test standards or end-use justification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

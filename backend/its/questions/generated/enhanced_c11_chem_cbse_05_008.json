@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_05_008",
+   "title": "c11_chem_cbse_05_008",
+   "questions": [
+    {
+     "q": "State Graham's Law of Diffusion mathematically and define each variable with its SI unit.",
+     "a": "Graham's Law: r₁/r₂ = √(M₂/M₁) where r₁, r₂ are rates of diffusion (mol s⁻¹ or volume per time, e.g., mL s⁻¹), M₁, M₂ are molar masses (kg mol⁻¹ or g mol⁻¹). A wrong answer like r₁/r₂ = M₂/M₁ (missing square root) reveals the student memorized the inverse relationship but not the kinetic energy derivation. Writing r ∝ 1/M instead of r ∝ 1/√M shows confusion between momentum and kinetic energy proportionality.",
+     "self_check": true
+    },
+    {
+     "q": "Two gases A and B have molar masses 16 g mol⁻¹ and 64 g mol⁻¹ respectively. At the same temperature and pressure, gas A diffuses 4 times faster than gas B. Is this statement correct? Explain using kinetic molecular theory.",
+     "a": "The statement is incorrect. By Graham's Law: r_A/r_B = √(M_B/M_A) = √(64/16) = √4 = 2. Gas A diffuses only 2 times faster, not 4 times. A student answering \"yes, 4 times\" incorrectly assumes r ∝ 1/M (linear inverse) rather than r ∝ 1/√M. This reveals they haven't connected the law to equal kinetic energy at same temperature: ½m_Av_A² = ½m_Bv_B² → v_A/v_B = √(m_B/m_A).",
+     "self_check": true
+    },
+    {
+     "q": "A mixture of hydrogen (H₂, M = 2 g mol⁻¹) and oxygen (O₂, M = 32 g mol⁻¹) is allowed to effuse through a pinhole. If 100 mL of H₂ effuses in 20 seconds, what volume of O₂ will effuse in the same time under identical conditions? Show complete working.",
+     "a": "Step 1: Rate of H₂ effusion r_H₂ = 100 mL / 20 s = 5 mL s⁻¹.\nStep 2: Apply Graham's Law: r_H₂/r_O₂ = √(M_O₂/M_H₂) = √(32/2) = √16 = 4.\nStep 3: r_O₂ = r_H₂ / 4 = 5 / 4 = 1.25 mL s⁻¹.\nStep 4: Volume of O₂ in 20 s = r_O₂ × 20 = 1.25 × 20 = 25 mL.\nA wrong answer of 400 mL (using r_H₂/r_O₂ = M_O₂/M_H₂ = 16) shows missing square root. An answer of 6.25 mL (using r_O₂ = r_H₂ × 4) reveals confusion about which gas is faster.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the diffusion of NH₃ (M = 17 g mol⁻¹) and HCl (M = 36.5 g mol⁻¹) in a glass tube. Where will the white ring of NH₄Cl form? Justify using relative diffusion distances and time.",
+     "a": "NH₃ diffuses faster: r_NH₃/r_HCl = √(36.5/17) ≈ √2.147 ≈ 1.465. In same time, distance travelled d ∝ r. Let tube length = L. NH₃ travels d_NH₃, HCl travels d_HCl, with d_NH₃ + d_HCl = L and d_NH₃/d_HCl = 1.465. Solving: d_NH₃ = 1.465 d_HCl → 2.465 d_HCl = L → d_HCl ≈ 0.406L from HCl end. Ring forms 40.6% from HCl end (59.4% from NH₃ end). A student placing ring at midpoint assumes equal rates. Placing it closer to NH₃ end reverses the molar mass effect.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"At 300 K, CO₂ (M = 44 g mol⁻¹) and N₂O (M = 44 g mol⁻¹) have identical rates of diffusion because they have the same molar mass.\" Is the claim fully correct? Consider molecular structure.",
+     "a": "The claim is correct for ideal gases under Graham's Law since r ∝ 1/√M depends only on molar mass, not molecular structure. Both have M = 44 g mol⁻¹, so r_CO₂ = r_N₂O. However, a student saying \"no, CO₂ is linear and N₂O is bent so rates differ\" incorrectly applies real gas deviations (van der Waals, c11_chem_cbse_05_011) to an ideal gas law. At same T and P, ideal gas diffusion rate is purely a function of molar mass. The claim is fully correct within the ideal gas model scope.",
+     "self_check": true
+    },
+    {
+     "q": "Design an experiment using only a long glass tube, cotton plugs, concentrated HCl, concentrated NH₃, and a ruler to verify Graham's Law quantitatively. Specify measurements, calculations, and how you'd handle the \"end correction\" for tube length.",
+     "a": "Place HCl-soaked cotton at one end, NH₃-soaked cotton at other end of 100 cm tube. Measure distance x from NH₃ end to white ring. Repeat 5 times for average x̄. Calculate r_NH₃/r_HCl = x̄/(100 - x̄). Theoretical ratio = √(M_HCl/M_NH₃) = √(36.5/17) ≈ 1.465. Compare experimental vs theoretical. End correction: subtract 1-2 cm from each end where cotton occupies space; effective length L_eff = 100 - 2×(cotton depth). A poor design measures only once, ignores end correction, or uses volume instead of distance. Good answer includes multiple trials, end correction, and % error calculation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

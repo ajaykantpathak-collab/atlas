@@ -1,0 +1,239 @@
+{
+ "class": 9,
+ "subject": "maths",
+ "chapter": 6,
+ "chapter_title": "Measuring Space: Perimeter and Area",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/iemh106.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "iemh.106.6.1",
+   "title": "Perimeter of a Shape and of a Circle",
+   "section": "6.1",
+   "definition": "Perimeter is the length of the boundary of a shape, found by adding all sides or using a formula; for a circle the perimeter is the circumference, 2 pi times the radius - the constant pi being the ratio every circle keeps between circumference and diameter.",
+   "formula": "circumference = 2 * pi * radius",
+   "key_idea": "Walk the boundary: sides for polygons, 2 pi r for every circle.",
+   "textbook_ref": "iemh106.txt sections 6.1-6.2 (perimeter of a shape, perimeter of a circle)",
+   "question_patterns": [
+    "find the perimeter of the given rectangle",
+    "find the circumference of a circle of radius 7 cm",
+    "the circumference of a circle is given - find its radius",
+    "how much wire fences the given field - find the perimeter",
+    "why is pi the same for every circle - explain",
+    "compare the perimeters of the given shapes"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "take twice pi times radius",
+     "explain": "The circumference of a circle is 2 pi r.",
+     "compute": "circumference = 2 * pi * radius"}
+   ]
+  },
+  {
+   "id": "iemh.106.6.2",
+   "title": "Length of an Arc of a Circle",
+   "section": "6.4",
+   "definition": "An arc is a part of the circle's boundary, so its length is the same fraction of the circumference as its central angle is of the full turn: arc length equals angle over 360 times 2 pi r.",
+   "formula": "arc = (angle / 360) * 2 * pi * radius",
+   "key_idea": "Share of the turn times the whole boundary: that is the arc.",
+   "textbook_ref": "iemh106.txt section 6.4 (length of an arc of a circle)",
+   "question_patterns": [
+    "find the length of an arc subtending 90 degrees in a circle of radius 14 cm",
+    "the arc length is given with the radius - find the angle",
+    "what part of the circumference is the given arc",
+    "calculate the arc length for the given angle and radius",
+    "compare the arcs of two circles for the same angle",
+    "an athlete runs along an arc of the given track - find the distance"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "take the angle fraction",
+     "explain": "Divide the central angle by 360.",
+     "compute": "fraction = angle / 360"},
+    {"step": 2, "action": "scale the circumference",
+     "explain": "Multiply by 2 pi r for the arc length.",
+     "compute": "arc = fraction * 2 * pi * radius"}
+   ]
+  },
+  {
+   "id": "iemh.106.6.3",
+   "title": "Area of Rectangle, Parallelogram and Triangle",
+   "section": "6.6",
+   "definition": "Areas stack up from the rectangle: a parallelogram straightens into a rectangle of the same base and height, and a triangle fills exactly half of its wrapping parallelogram - giving base times height for the parallelogram and half of base times height for the triangle.",
+   "formula": "area = base * height / 2",
+   "key_idea": "Rectangle first, parallelogram next, triangle half: one base-height story.",
+   "textbook_ref": "iemh106.txt sections 6.6-6.8 (areas of rectangle, parallelogram, triangle)",
+   "question_patterns": [
+    "find the area of a triangle with base 12 cm and height 8 cm",
+    "find the area of the given parallelogram",
+    "the area of the triangle is given - find the missing height",
+    "compare the areas of the rectangle and the triangle on the same base",
+    "why does a triangle have half the area of its rectangle",
+    "calculate the area of the given shape from the dimensions"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "multiply base by height",
+     "explain": "This is the parallelogram area on the same base.",
+     "compute": "para_area = base * height"},
+    {"step": 2, "action": "take half",
+     "explain": "The triangle is half of the parallelogram.",
+     "compute": "area = para_area / 2"}
+   ]
+  },
+  {
+   "id": "iemh.106.6.4",
+   "title": "Perimeter Puzzles and Paradoxes",
+   "section": "6.5",
+   "definition": "Perimeter and area tell different stories: shapes with the same perimeter can hold different areas, and shapes with the same area can need different boundaries - the relay-track and rope-shape puzzles of this chapter train the habit of separating the two measures.",
+   "formula": "-",
+   "key_idea": "Boundary length and enclosed space are independent: one cannot decide the other.",
+   "textbook_ref": "iemh106.txt section 6.5 (problems, puzzles, and paradoxes on perimeter)",
+   "question_patterns": [
+    "two rectangles have the same perimeter - do they have the same area - justify",
+    "which of the given shapes encloses more area for the same perimeter",
+    "can two shapes of equal area have different perimeters - explain",
+    "solve the given perimeter puzzle from the chapter",
+    "why does a circle enclose maximum area for a given perimeter",
+    "separate the perimeter data and the area data of the given shapes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "compute both measures",
+     "explain": "Find the perimeter and the area of each shape separately."},
+    {"step": 2, "action": "compare carefully",
+     "explain": "Match perimeters, then areas - the rankings need not agree."},
+    {"step": 3, "action": "state the lesson",
+     "explain": "Perimeter and area answer different questions."}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iemh106.txt section 6.2 circumference examples",
+   "concept": "iemh.106.6.1",
+   "question_type": "compute",
+   "question_pattern": "Find the circumference of a circle of radius {radius} cm.",
+   "extracted_variables": {
+    "radius": "radius of the circle in cm"
+   },
+   "solution_template": [
+    {"step": 1, "action": "take 2 pi r",
+     "explain": "Circumference equals 2 pi times radius.",
+     "compute": "circumference = 2 * pi * radius"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iemh106.txt circumference practice",
+   "concept": "iemh.106.6.1",
+   "question_type": "compute",
+   "question_pattern": "How much ribbon wraps once around a circular ring of radius {radius} cm?",
+   "extracted_variables": {
+    "radius": "radius of the ring in cm"
+   },
+   "solution_template": [
+    {"step": 1, "action": "take 2 pi r",
+     "explain": "The ribbon length equals the circumference.",
+     "compute": "circumference = 2 * pi * radius"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "iemh106.txt section 6.4 arc examples",
+   "concept": "iemh.106.6.2",
+   "question_type": "compute",
+   "question_pattern": "Find the length of an arc that subtends {angle} degrees at the centre of a circle of radius {radius} cm.",
+   "extracted_variables": {
+    "angle": "central angle in degrees",
+    "radius": "radius in cm"
+   },
+   "solution_template": [
+    {"step": 1, "action": "take the angle fraction",
+     "explain": "Angle over 360.",
+     "compute": "fraction = angle / 360"},
+    {"step": 2, "action": "scale the circumference",
+     "explain": "Multiply by 2 pi r.",
+     "compute": "arc = fraction * 2 * pi * radius"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "iemh106.txt arc practice",
+   "concept": "iemh.106.6.2",
+   "question_type": "compute",
+   "question_pattern": "A wire bent as an arc covers {angle} degrees of a circle of radius {radius} cm. Find the wire's length.",
+   "extracted_variables": {
+    "angle": "angle of the arc in degrees",
+    "radius": "radius in cm"
+   },
+   "solution_template": [
+    {"step": 1, "action": "take the angle fraction",
+     "explain": "Fraction of the full turn.",
+     "compute": "fraction = angle / 360"},
+    {"step": 2, "action": "scale the circumference",
+     "explain": "The arc is that part of 2 pi r.",
+     "compute": "arc = fraction * 2 * pi * radius"}
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "iemh106.txt section 6.8 triangle area example",
+   "concept": "iemh.106.6.3",
+   "question_type": "compute",
+   "question_pattern": "Find the area of a triangle with base {base} cm and height {height} cm.",
+   "extracted_variables": {
+    "base": "base of the triangle in cm",
+    "height": "height of the triangle in cm"
+   },
+   "solution_template": [
+    {"step": 1, "action": "multiply base by height",
+     "explain": "The parallelogram area on the same base.",
+     "compute": "para_area = base * height"},
+    {"step": 2, "action": "take half",
+     "explain": "The triangle is half of it.",
+     "compute": "area = para_area / 2"}
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "iemh106.txt triangle area practice",
+   "concept": "iemh.106.6.3",
+   "question_type": "compute",
+   "question_pattern": "A triangular flag has base {base} cm and height {height} cm. Find its area.",
+   "extracted_variables": {
+    "base": "flag base in cm",
+    "height": "flag height in cm"
+   },
+   "solution_template": [
+    {"step": 1, "action": "multiply base by height",
+     "explain": "Half base times height is the area.",
+     "compute": "para_area = base * height"},
+    {"step": 2, "action": "take half",
+     "explain": "The half gives the triangular area.",
+     "compute": "area = para_area / 2"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex6.1",
+   "source_ref": "iemh106.txt perimeter exercises",
+   "questions": [
+     "Find the perimeters of the given shapes.",
+     "Find the circumference of the given circles.",
+     "Find the radius when the circumference is given."
+   ]
+  },
+  {
+   "id": "ex6.2",
+   "source_ref": "iemh106.txt arc and area exercises",
+   "questions": [
+     "Find the lengths of the given arcs.",
+     "Find the areas of the given parallelograms and triangles.",
+     "Solve the perimeter-area paradox puzzles."
+   ]
+  }
+ ]
+}

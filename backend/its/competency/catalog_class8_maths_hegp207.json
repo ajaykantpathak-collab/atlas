@@ -1,0 +1,457 @@
+{
+ "class": 8,
+ "subject": "maths",
+ "chapter": 7,
+ "chapter_title": "Area",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hegp207.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hegp.207.7.1",
+   "title": "Equal-Area Division of a Square",
+   "section": "7.1",
+   "definition": "A square can be split into 4 equal-area parts in endlessly many ways: start from the obvious four quarters and slide each dividing line so that what one part loses along one edge it gains along another; equal push and pull keeps every part at a quarter of the whole.",
+   "formula": "-",
+   "key_idea": "Compression on one edge balanced by expansion on another preserves equal areas.",
+   "textbook_ref": "hegp207.txt lines 2-40 (dividing a square into 4 equal parts)",
+   "question_patterns": [
+    "how many ways can a square be divided into 4 parts of equal area",
+    "draw a creative division of a square into four equal-area parts",
+    "why does shifting a dividing line keep the four areas equal",
+    "explain the compress-and-expand idea for equal-area parts",
+    "can a square be cut into 4 equal parts by curved lines - justify",
+    "verify that a given 4-part division has equal areas"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "start from the standard quarters",
+     "explain": "Two perpendicular midlines give four equal squares."
+    },
+    {
+     "step": 2,
+     "action": "shift the boundaries with equal trade",
+     "explain": "Move a line so the area one piece loses equals what the neighbour gains."
+    },
+    {
+     "step": 3,
+     "action": "check each part",
+     "explain": "Every part must still measure a quarter of the square's area."
+    }
+   ]
+  },
+  {
+   "id": "hegp.207.7.2",
+   "title": "Area of a Rectangle by Unit Squares",
+   "section": "7.1",
+   "definition": "The area of a rectangle counts the unit squares that pack inside it; a grid of so-many rows of so-many columns turns the count into a multiplication, so a rectangle of 5 cm by 3 cm holds 15 unit squares of 1 sq cm.",
+   "formula": "area = length * breadth",
+   "key_idea": "Rows times columns of unit squares is the whole idea of area.",
+   "textbook_ref": "hegp207.txt lines 30-120 (rangoli rectangles, unit square counting)",
+   "question_patterns": [
+    "find the area of a rectangle 5 cm long and 3 cm wide by counting unit squares",
+    "which of two rectangles needs more rangoli powder to colour",
+    "calculate the area of a rectangle from its length and breadth",
+    "how many 1 cm squares pack into a 4 cm by 6 cm rectangle",
+    "compare the areas of two rectangles with different dimensions",
+    "why does multiplying length and breadth count the unit squares"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the sides",
+     "explain": "Length times breadth equals the number of unit squares inside.",
+     "compute": "area = length * breadth"
+    }
+   ]
+  },
+  {
+   "id": "hegp.207.7.3",
+   "title": "Area of a Triangle",
+   "section": "7.1",
+   "definition": "A triangle sits inside a rectangle on the same base and between the same parallels, and it fills exactly half that rectangle, so its area is half the product of base and height.",
+   "formula": "area = base * height / 2",
+   "key_idea": "Drop the altitude, wrap the triangle in its rectangle, then take half.",
+   "textbook_ref": "hegp207.txt lines 200-290 (triangles, Fig 7.1, half the rectangle)",
+   "question_patterns": [
+    "find the area of a triangle with base 10 cm and height 6 cm",
+    "why is the area of a triangle half the area of the rectangle on the same base",
+    "calculate the area of triangle XDC inside the rectangle ABCD",
+    "a triangle has base 12 cm and height 5 cm - find its area",
+    "which of two triangles on the same base has greater area",
+    "find the area of a triangle given its base and height"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply base by height",
+     "explain": "This gives the area of the wrapping rectangle.",
+     "compute": "rect_area = base * height"
+    },
+    {
+     "step": 2,
+     "action": "take half",
+     "explain": "The triangle is half of that rectangle.",
+     "compute": "area = rect_area / 2"
+    }
+   ]
+  },
+  {
+   "id": "hegp.207.7.4",
+   "title": "Area of a Parallelogram",
+   "section": "7.1",
+   "definition": "A parallelogram has the same base-height area relation as a rectangle of equal base and height, because shifting the slanted sides by triangles keeps the region; its area is the base times the perpendicular height, not the slant length.",
+   "formula": "area = base * height",
+   "key_idea": "Cut a triangle off one end and paste it on the other: the slanted box straightens into a rectangle.",
+   "textbook_ref": "hegp207.txt lines 290-470 (parallelograms), 700-730 (figure it out parallelograms)",
+   "question_patterns": [
+    "find the area of a parallelogram with base 7 cm and height 4 cm",
+    "compare a rectangle and a parallelogram with the same side lengths - which has more area",
+    "why must the height be perpendicular and not the slant side",
+    "a parallelogram has base 12 cm and height 7.6 cm - find the area",
+    "calculate the missing height when the area and base of a parallelogram are known",
+    "transform a parallelogram into a rectangle by cutting and pasting - explain"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply base by perpendicular height",
+     "explain": "The straightened rectangle has these sides.",
+     "compute": "area = base * height"
+    }
+   ]
+  },
+  {
+   "id": "hegp.207.7.5",
+   "title": "Finding a Missing Side from the Area",
+   "section": "7.1",
+   "definition": "Knowing the area of a rectangle, triangle or parallelogram and one dimension recovers the other by undoing the area formula: divide the area by the known base to get the height, as when the height QN of a parallelogram of area 91.2 sq cm on a 7 cm base is sought.",
+   "formula": "height = area / base",
+   "key_idea": "Undo the multiplication: area divided by base leaves the height.",
+   "textbook_ref": "hegp207.txt lines 720-740 (Figure it Out Q3 find QN)",
+   "question_patterns": [
+    "the area of a parallelogram is 91.2 sq cm on a base of 12 cm - find the height QN",
+    "find the missing base when the area and height are given",
+    "a rectangle has area 48 sq cm and breadth 4 cm - find its length",
+    "how do you undo an area formula to get a side",
+    "a triangle of area 30 sq cm stands on a 10 cm base - find its height",
+    "check a computed height by multiplying back with the base"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide the area by the known side",
+     "explain": "Undoing the area product gives the missing perpendicular dimension.",
+     "compute": "height = area / base"
+    }
+   ]
+  },
+  {
+   "id": "hegp.207.7.6",
+   "title": "Unit Conversions of Length and Area",
+   "section": "7.1",
+   "definition": "Lengths convert linearly - 1 inch is 2.54 cm - but areas convert by the square of the length factor, so 1 square inch is 2.54 x 2.54 = 6.4516 square centimetres, and a 12.7 cm by 12.7 cm square of 161.29 sq cm equals 25 sq in.",
+   "formula": "area_in2 = area_cm2 / 6.4516",
+   "key_idea": "Square the length factor for areas: (2.54) squared gives 6.4516 sq cm per sq in.",
+   "textbook_ref": "hegp207.txt lines 1140-1160 (2.54 cm, 161.29 sq cm = 6.4516 sq in conversion work)",
+   "question_patterns": [
+    "convert 161.29 sq cm into square inches",
+    "how many square centimetres make 1 square inch",
+    "a square of side 12.7 cm has what area in square inches",
+    "convert 5 inches to centimetres and then find a 5 inch square's area in sq cm",
+    "why is the area conversion factor the square of the length factor",
+    "convert 100 sq cm to sq in using 6.4516"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the square of the length factor",
+     "explain": "2.54 cm per inch squares to 6.4516 sq cm per sq in.",
+     "compute": "factor = cm_per_in * cm_per_in"
+    },
+    {
+     "step": 2,
+     "action": "divide the area by the factor",
+     "explain": "Metric area over the factor gives the imperial area.",
+     "compute": "area_in2 = area_cm2 / factor"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hegp207.txt lines 40-90, unit square packing",
+   "concept": "hegp.207.7.2",
+   "question_type": "compute",
+   "question_pattern": "Find the area of a rectangle of length {length} cm and breadth {breadth} cm.",
+   "extracted_variables": {
+    "length": "length of the rectangle in cm",
+    "breadth": "breadth of the rectangle in cm"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply length by breadth",
+     "explain": "The product counts the packed unit squares.",
+     "compute": "area = length * breadth"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hegp207.txt Figure it Out Q1, lines 700-715",
+   "concept": "hegp.207.7.2",
+   "question_type": "compute",
+   "question_pattern": "How many 1 sq cm tiles cover a rectangle of sides {length} cm and {breadth} cm?",
+   "extracted_variables": {
+    "length": "one side in cm",
+    "breadth": "other side in cm"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the sides",
+     "explain": "Rows times columns gives the tile count.",
+     "compute": "area = length * breadth"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "hegp207.txt lines 255-270, half the rectangle",
+   "concept": "hegp.207.7.3",
+   "question_type": "compute",
+   "question_pattern": "Find the area of a triangle with base {base} cm and height {height} cm.",
+   "extracted_variables": {
+    "base": "base of the triangle in cm",
+    "height": "height of the triangle in cm"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply base by height",
+     "explain": "This is the wrapping rectangle's area.",
+     "compute": "rect_area = base * height"
+    },
+    {
+     "step": 2,
+     "action": "take half",
+     "explain": "The triangle fills half the rectangle.",
+     "compute": "area = rect_area / 2"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "hegp207.txt lines 270-290, triangle XDC",
+   "concept": "hegp.207.7.3",
+   "question_type": "compute",
+   "question_pattern": "Triangle XDC has base {base} cm and height {height} cm inside its rectangle. Find its area.",
+   "extracted_variables": {
+    "base": "triangle base in cm",
+    "height": "triangle height in cm"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply base by height",
+     "explain": "Rectangle area first.",
+     "compute": "rect_area = base * height"
+    },
+    {
+     "step": 2,
+     "action": "take half",
+     "explain": "Half the rectangle belongs to the triangle.",
+     "compute": "area = rect_area / 2"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "hegp207.txt Figure it Out Q2, lines 716-728",
+   "concept": "hegp.207.7.4",
+   "question_type": "compute",
+   "question_pattern": "Find the area of a parallelogram with base {base} cm and height {height} cm.",
+   "extracted_variables": {
+    "base": "base of the parallelogram in cm",
+    "height": "perpendicular height in cm"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply base by height",
+     "explain": "The straightened rectangle has these dimensions.",
+     "compute": "area = base * height"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "hegp207.txt lines 730-740, rectangle vs parallelogram",
+   "concept": "hegp.207.7.4",
+   "question_type": "compute",
+   "question_pattern": "A parallelogram has base {base} cm and perpendicular height {height} cm. Compute its area.",
+   "extracted_variables": {
+    "base": "base in cm",
+    "height": "perpendicular height in cm"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply base by height",
+     "explain": "Base times height is the parallelogram area.",
+     "compute": "area = base * height"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "hegp207.txt Figure it Out Q3, lines 730-740, find QN",
+   "concept": "hegp.207.7.5",
+   "question_type": "compute",
+   "question_pattern": "A parallelogram has area {area} sq cm on a base of {base} cm. Find the height.",
+   "extracted_variables": {
+    "area": "area in sq cm",
+    "base": "base in cm"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide area by base",
+     "explain": "Undoing the product leaves the height.",
+     "compute": "height = area / base"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "hegp207.txt lines 1140-1150, 12.7 cm square",
+   "concept": "hegp.207.7.6",
+   "question_type": "compute",
+   "question_pattern": "A square of side {side} cm (that is {side} / {cm_per_in} inches) - find its area in square inches given 1 sq in = 6.4516 sq cm.",
+   "extracted_variables": {
+    "side": "side of the square in cm",
+    "cm_per_in": "centimetres per inch"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find the metric area",
+     "explain": "Side times side in sq cm.",
+     "compute": "area_cm2 = side * side"
+    },
+    {
+     "step": 2,
+     "action": "divide by the squared factor",
+     "explain": "2.54 squared is 6.4516 sq cm per sq in.",
+     "compute": "area_in2 = area_cm2 / 6.4516"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "hegp207.txt lines 1150-1160, 161.29 sq cm conversion",
+   "concept": "hegp.207.7.6",
+   "question_type": "compute",
+   "question_pattern": "Convert {area_cm2} sq cm into square inches.",
+   "extracted_variables": {
+    "area_cm2": "area in square centimetres"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the length factor",
+     "explain": "2.54 cm per inch gives 6.4516 sq cm per sq in.",
+     "compute": "factor = cm_per_in * cm_per_in"
+    },
+    {
+     "step": 2,
+     "action": "divide the metric area",
+     "explain": "Area in sq cm over the factor gives sq in.",
+     "compute": "area_in2 = area_cm2 / factor"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "hegp207.txt lines 1141-1155, inch to cm length first",
+   "concept": "hegp.207.7.6",
+   "question_type": "compute",
+   "question_pattern": "How many square centimetres are in {area_in2} square inches, using 1 in = {cm_per_in} cm?",
+   "extracted_variables": {
+    "area_in2": "area in square inches",
+    "cm_per_in": "centimetres per inch"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the length factor",
+     "explain": "The area factor is the square of the length factor.",
+     "compute": "factor = cm_per_in * cm_per_in"
+    },
+    {
+     "step": 2,
+     "action": "scale the area",
+     "explain": "Multiply the imperial area by the factor.",
+     "compute": "area_cm2 = area_in2 * factor"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "hegp207.txt lines 255-290, undoing the triangle formula",
+   "concept": "hegp.207.7.5",
+   "question_type": "compute",
+   "question_pattern": "A triangle of area {area} sq cm stands on a base of {base} cm. Find its height.",
+   "extracted_variables": {
+    "area": "area of the triangle in sq cm",
+    "base": "base of the triangle in cm"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide the area by the base",
+     "explain": "Undoing half-base-height leaves the height.",
+     "compute": "height = area / base"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex7.1",
+   "source_ref": "hegp207.txt lines 2-60",
+   "questions": [
+    "How many different ways can you divide a square into 4 parts of equal area?",
+    "Which of the given rectangles needs more rangoli powder?",
+    "Explain the compress-and-expand method for keeping areas equal."
+   ]
+  },
+  {
+   "id": "ex7.2",
+   "source_ref": "hegp207.txt lines 200-470, 700-740",
+   "questions": [
+    "Which triangle has greater area: XDC or YDC on identical rectangles?",
+    "Find the areas of the given parallelograms in Figure it Out Q2.",
+    "Find QN in Figure it Out Q3.",
+    "A rectangle and a parallelogram have sides 5 cm and 4 cm - which has the greater area?"
+   ]
+  },
+  {
+   "id": "ex7.3",
+   "source_ref": "hegp207.txt lines 1140-1160",
+   "questions": [
+    "Convert 161.29 sq cm to square inches.",
+    "How many square centimetres make 1 square inch?",
+    "Verify that a 12.7 cm square equals 25 sq in."
+   ]
+  }
+ ]
+}

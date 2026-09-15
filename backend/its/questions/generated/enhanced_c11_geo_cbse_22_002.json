@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_22_002",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_22_002",
+   "title": "c11_geo_cbse_22_002",
+   "questions": [
+    {
+     "q": "Name the ancient scholar who first systematised the use of latitude and longitude as a coordinate grid for world mapping, and state the title of his seminal work.",
+     "a": "Claudius Ptolemy, *Geographia* (c. 150 CE). A wrong answer (e.g., Eratosthenes, Al-Idrisi, Mercator) reveals confusion between *measuring* Earth's circumference (Eratosthenes), *compiling* medieval world maps (Al-Idrisi), or *inventing* a navigation projection (Mercator) — all distinct from *systematising the coordinate grid* for cartography.",
+     "self_check": true
+    },
+    {
+     "q": "Why did portolan charts of the 13th–16th centuries use rhumb lines (lines of constant bearing) instead of a latitude/longitude grid, and what navigational practice did this serve?",
+     "a": "Portolan charts served Mediterranean pilots sailing by compass course; rhumb lines radiate from compass roses showing direct headings between ports, enabling dead-reckoning without celestial navigation. A wrong answer citing \"lack of latitude knowledge\" misses that Ptolemaic coordinates existed but were impractical for daily coastal piloting — the charts *chose* utility over mathematical rigour.",
+     "self_check": true
+    },
+    {
+     "q": "A 1569 Mercator world map shows Greenland larger than South America. Calculate the approximate latitude where the Mercator projection's scale factor (sec φ) reaches 2.0, and explain why this distortion made the projection indispensable for trans-oceanic navigation despite gross area exaggeration.",
+     "a": "sec φ = 2 → φ = 60° (since cos 60° = 0.5). At 60° N/S, east–west distances are doubled; Greenland (centred ~72° N) suffers extreme stretch. The projection preserves *angles* (conformality), so a constant compass bearing plots as a straight line — essential for mariners holding a steady course across oceans. A wrong answer focusing only on \"area distortion is bad\" fails to grasp that *conformality* solved the life-or-death problem of course-keeping.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Cassini family's triangulation survey of France (1683–1744) with Ptolemy's coordinate compilation: identify two fundamental methodological differences in *data acquisition* and *geometric control*.",
+     "a": "(1) Cassini used *ground-based triangulation* (measuring baselines and angles with theodolites) generating primary geometric control; Ptolemy compiled *second-hand itineraries and astronomical observations* with no unified control network. (2) Cassini's survey produced a *planimetric framework* (horizontal positions only) later extended vertically; Ptolemy's grid was *global but schematic*, lacking consistent scale. A wrong answer conflating \"both used coordinates\" misses the shift from *literary synthesis* to *field measurement*.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Modern GIS has eliminated the projection distortions that plagued Mercator and Ptolemy.\" Support your judgement with two specific technical reasons.",
+     "a": "False. (1) GIS *stores* data in geographic coordinates (lat/long on a datum) but *displays* it via a chosen projection — every screen map still distorts; the user must select an appropriate projection (e.g., UTM for local work, equal-area for thematic mapping). (2) Raster satellite imagery requires re-projection (resampling) introducing interpolation errors; vector overlay across zones demands datum transformations. A wrong answer claiming \"GIS solves distortion\" confuses *data management* with *geometric representation*.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page \"Cartographic Revolution Timeline\" for a Class 11 exhibition. For each of the five revolutions (Ptolemaic, Portolan, Mercator, Triangulation, Digital), specify: (a) the core geometric innovation, (b) the primary user community, and (c) one lasting legacy in today's mapping.",
+     "a": "Good answer includes a structured table:\n| Revolution | Core Innovation | Primary Users | Living Legacy |\n|---|---|---|---|\n| Ptolemaic | Lat/long grid + conic projection | Roman administrators, Renaissance scholars | Global coordinate standard (WGS 84) |\n| Portolan | Rhumb-line network from compass roses | Mediterranean pilots | Nautical chart symbology, ENC standards |\n| Mercator | Cylindrical conformal projection | Trans-oceanic navigators | Web Mercator (EPSG:3857) in Google Maps |\n| Triangulation | Ground control networks + theodolite chains | National states (tax, defence) | National topographic series, GPS control |\n| Digital | Layered geodatabases + on-the-fly projection | Planners, scientists, public | GIS, SDI, real-time location services |\n\nPoor answer lists dates/names without linking *innovation → user need → modern consequence*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

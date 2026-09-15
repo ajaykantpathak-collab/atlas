@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_09_002",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_09_002",
+   "title": "c11_math_cbse_09_002",
+   "questions": [
+    {
+     "q": "State the formula for the general term of an AP and identify what each symbol represents.",
+     "a": "The formula is \\(a_n = a + (n-1)d\\), where \\(a\\) is the first term, \\(d\\) is the common difference, \\(n\\) is the term number (positive integer), and \\(a_n\\) is the nth term. A wrong answer like \\(a_n = a + nd\\) reveals the student does not understand that the first term corresponds to \\(n=1\\) with zero increments of \\(d\\).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the nth term of an AP is always a linear expression in \\(n\\). What does the coefficient of \\(n\\) represent?",
+     "a": "The nth term \\(a_n = a + (n-1)d = dn + (a-d)\\) is of the form \\(pn + q\\), which is linear in \\(n\\). The coefficient of \\(n\\) is the common difference \\(d\\). If a student says the coefficient is \\(a\\) or cannot explain the linear form, they are memorising the formula without connecting it to the constant rate of change that defines an AP.",
+     "self_check": true
+    },
+    {
+     "q": "The 5th term of an AP is 22 and the 9th term is 38. Find the first term and the common difference.",
+     "a": "Using \\(a_5 = a + 4d = 22\\) and \\(a_9 = a + 8d = 38\\). Subtract: \\(4d = 16 \\Rightarrow d = 4\\). Then \\(a + 16 = 22 \\Rightarrow a = 6\\). A common error is writing \\(a_5 = a + 5d\\) (using \\(n\\) instead of \\(n-1\\)), leading to \\(d = 16/4 = 4\\) by coincidence but wrong equations. Another error is subtracting incorrectly: \\(38-22=16\\) but dividing by \\(9-5=4\\) gives correct \\(d\\) only if the formula is used correctly.",
+     "self_check": true
+    },
+    {
+     "q": "A sequence is defined by \\(a_n = 3n^2 - 2n + 1\\). Is this an AP? Justify your answer by analysing the difference between consecutive terms.",
+     "a": "Compute \\(a_{n+1} - a_n = [3(n+1)^2 - 2(n+1) + 1] - [3n^2 - 2n + 1] = 6n + 1\\). Since the difference depends on \\(n\\) (not constant), it is NOT an AP. A student who only checks the first few terms (e.g., \\(a_1=2, a_2=9, a_3=22\\); differences 7 and 13) might see they are not equal but cannot generalise. The misconception is that checking a few terms is sufficient; the algebraic proof requires showing the difference is not constant for all \\(n\\).",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Find the 10th term of the AP: 7, 12, 17, ...\" and writes: \\(a=7, d=5, a_{10} = 7 + 10 \\times 5 = 57\\). Identify the error and give the correct answer.",
+     "a": "The error is using \\(n\\) instead of \\(n-1\\) in the formula: \\(a_{10} = a + 10d\\) instead of \\(a + 9d\\). Correct calculation: \\(a_{10} = 7 + 9 \\times 5 = 52\\). This reveals the classic off-by-one misconception where students think the 10th term adds the common difference 10 times, forgetting the first term already has zero additions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (Indian context) that can be modelled by an AP where the general term formula is needed to find a specific term without listing all previous terms. Provide the problem statement and the solution.",
+     "a": "Example: \"A construction company penalises a contractor ₹2000 for the first day of delay and increases the penalty by ₹500 for each subsequent day. Find the penalty on the 15th day.\" Solution: \\(a=2000, d=500, n=15 \\Rightarrow a_{15} = 2000 + 14 \\times 500 = 9000\\). A good answer includes a clear AP context (constant increment), correct identification of \\(a\\) and \\(d\\), and correct use of \\(n-1\\). A poor answer might use simple multiplication (2000*15) or forget the initial penalty structure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

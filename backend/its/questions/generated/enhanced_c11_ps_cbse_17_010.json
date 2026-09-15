@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_17_010",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_17_010",
+   "title": "c11_ps_cbse_17_010",
+   "questions": [
+    {
+     "q": "What are the three specific constitutional provisions that form the legal basis for devolution of powers to Panchayats and Municipalities?",
+     "a": "The three core provisions are: (1) Article 243G (Panchayats) and Article 243W (Municipalities) — empowering State legislatures to devolve powers and authority; (2) Eleventh Schedule (Article 243G) listing 29 subjects for Panchayats and Twelfth Schedule (Article 243W) listing 18 subjects for Municipalities; (3) Articles 243I and 243Y — mandating State Finance Commissions to recommend financial devolution. A wrong answer (e.g., citing only the 73rd/74th Amendments generally) reveals the student cannot distinguish between the constitutional amendment act and the specific operative articles that actually enable devolution.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution use the phrase \"the Legislature of a State may, by law, endow the Panchayats with such powers and authority\" (Article 243G) instead of mandating devolution directly?",
+     "a": "The word \"may\" makes devolution discretionary for State legislatures, reflecting India's \"holding together\" federalism where States retain control over local government as a State subject (List II, Entry 5). The Constituent Assembly debated but rejected making local government a Union or Concurrent subject. A wrong answer (e.g., \"to give flexibility\" without constitutional context) shows the student misses the federalism dimension — local government is a State subject, so the Centre could not mandate devolution without violating the federal distribution of powers.",
+     "self_check": true
+    },
+    {
+     "q": "A State government passes a law transferring all 29 Eleventh Schedule subjects to Gram Panchayats but does not amend the Panchayati Raj Act to provide matching staff or budget heads. Using the 3Fs framework, diagnose which dimension of devolution is missing and explain the practical consequence.",
+     "a": "Functions are devolved (legal transfer of subjects), but Funds and Functionaries are not. Practical consequence: Panchayats become \"post offices\" — they receive schemes designed by the State but lack discretionary funds and staff to plan or implement locally relevant projects. For example, a Gram Panchayat may be \"responsible\" for primary health (Eleventh Schedule Item 23) but have no ANM, no untied funds for medicine, and no power to hire. A wrong answer focusing only on \"lack of funds\" misses the administrative dimension — without functionaries, even funds cannot be utilized effectively.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the devolution framework for Panchayats (Article 243G + Eleventh Schedule) with Municipalities (Article 243W + Twelfth Schedule). Identify two structural differences that make urban devolution more complex.",
+     "a": "Two structural differences: (1) The Twelfth Schedule has 18 subjects vs. 29 for Panchayats, but urban functions like \"urban planning\" and \"regulation of land use\" overlap heavily with State-level development authorities and parastatals (e.g., DDA, BDA), creating fragmented authority. (2) Municipalities face multiple agencies (water boards, transport corporations, police) that are State-controlled and not accountable to the elected Mayor/Council, whereas rural areas have fewer parallel bodies. A wrong answer listing only subject-count differences misses the institutional fragmentation unique to urban governance.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of State Finance Commissions (SFCs) in ensuring fiscal devolution. Use the criteria of \"predictability,\" \"adequacy,\" and \"autonomy\" in your assessment.",
+     "a": "SFCs have limited effectiveness: (1) Predictability — most States delay SFC constitution; recommendations are often accepted partially or with long lags, making budgeting impossible for local bodies. (2) Adequacy — devolution is typically 1-3% of State's own revenue, far below the 10-15% recommended by the 14th/15th Central Finance Commissions. (3) Autonomy — tied grants (CSS, State schemes) dominate; untied funds are minimal, so Panchayats cannot set local priorities. A wrong answer citing \"SFCs exist in all States\" confuses formal compliance with substantive fiscal federalism.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph \"Activity Mapping\" resolution for a Gram Panchayat taking over \"Minor Irrigation\" (Eleventh Schedule Item 11), specifying which sub-functions (planning, execution, maintenance, fee collection) remain with the State, which go to the Panchayat, and which are shared.",
+     "a": "A strong answer distinguishes: Panchayat — identification of works, beneficiary selection, execution of minor works (< 5 ha), maintenance, water user fee collection; Shared — technical approval of estimates (with Block engineers), convergence with MGNREGS; State — major dam/canal systems, groundwater regulation, inter-village disputes. A poor answer either transfers everything (ignoring technical capacity) or nothing (defeating devolution), revealing inability to operationalize the principle of subsidiarity — functions should reside at the lowest level capable of effective performance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

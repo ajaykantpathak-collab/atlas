@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_21_011",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_21_011",
+   "title": "c12_eng_k_cbse_21_011",
+   "questions": [
+    {
+     "q": "Identify the grammatical term for the sentence structure in Manjula's line: \"My speech will last exactly ten minutes. I have timed it... No, I won't read. 'Look ahead and speak!' Good... But that may take a little longer.\"",
+     "a": "The structure exemplifies **ellipsis** (omission of understood words) and **fragmented syntax** — \"No, I won't read\" omits the subject-verb \"I will\" after \"No\"; \"Good...\" stands alone as a discourse marker. A wrong answer like \"simple sentences\" misses the conversational, real-time processing quality that characterizes her unscripted moments versus her prepared speech. This reveals whether the student distinguishes between *sentence types* (declarative/interrogative) and *syntactic completeness* in dramatic dialogue.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Karnad includes Kannada terms like *prayashchitta*, *arthapoorna*, and *Namaskara* without translation in an English-language play. What grammatical function do they serve in the utterance?",
+     "a": "These are **code-switched lexical insertions** functioning as **cultural deictics** — they index Manjula's Kannada identity and resist full assimilation into English. Grammatically, they operate as **unassimilated loanwords** retaining their morphological integrity (no English pluralization, no articles) and pragmatic force (*prayashchitta* carries ritual weight \"absolution\" cannot). A wrong answer like \"they add local colour\" treats them as decorative rather than functional; it misses how code-switching here performs the play's central argument: that English cannot fully capture the \"Kannada reality\" Manjula inhabits.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of **register shift** to analyze the difference between the Announcer's opening (\"Many of you will know her as a renowned Kannada short-story writer...\") and Manjula's aside to the Image (\"Aw, shut up!\"). Provide one grammatical feature that distinguishes each register.",
+     "a": "The Announcer uses **formal public register**: passive voice (\"will be broadcast\"), complex pre-modification (\"the Literary Phenomenon of the Decade\"), and third-person reference. Manjula's aside uses **intimate informal register**: imperative verb (\"shut up\"), contraction-ready syntax, and zero politeness markers. A student who only notes \"one is formal, one is informal\" without citing grammatical evidence (passive vs. imperative, nominalization vs. verb-first) has not *applied* register analysis — they've only labeled it.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the stage direction \"(Laughs.)\" functions grammatically and pragmatically when it appears mid-utterance versus at utterance-end. Compare: \"But when you think of Indian television studios, you always imagine them cluttered. (Laughs.)\" vs. \"I have timed it... No, I won't read. (Laughs.)\"",
+     "a": "Mid-utterance \"(Laughs.)\" acts as a **parenthetical discourse marker** signaling self-awareness/irony *during* the speech act — it frames the preceding clause as performative. Utterance-final \"(Laughs.)\" functions as a **terminal prosodic cue** closing the turn with affiliative intent. Grammatically, the first interrupts the syntactic flow (anacoluthon); the second follows a complete illocutionary act. A wrong answer treats both as identical \"stage directions\" — missing how Karnad uses laughter's *position* to distinguish Manjula's calculated charm (mid-speech) from genuine release (post-speech).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Image's language is grammatically simpler than Manjula's, proving it is a lesser, artificial version of her.\" Use two specific grammatical comparisons from the text to defend or refute.",
+     "a": "The claim is **false**. The Image uses *more* interrogatives (\"Where are you going?\", \"What are you screaming for?\"), *more* elliptical imperatives (\"Aw, screw the film...\"), and *sharper* syntactic parallelism (\"Me? You.\") — features of **analytical, probing discourse**, not simplicity. Manjula's language includes more hedging (\"I think,\" \"perhaps,\" \"sort of\"), false starts, and self-correction — markers of *cognitive load* and *performance anxiety*. The Image's grammatical precision reflects its role as unflinching truth-teller. A student accepting the claim confuses *formal complexity* with *psychological depth*.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-line dialogue exchange between Manjula and the Image that uses **syntactic mirroring** (repeating the other's structure with a key lexical substitution) to reveal a new layer of their conflict. Annotate the grammatical pattern you employed.",
+     "a": "**Example:**\nMANJULA: I wrote the novel *for* her.\nIMAGE: You wrote the novel *from* her.\nMANJULA: I dedicated it *to* her.\nIMAGE: You built a career *on* her.\n\n**Pattern:** Syntactic mirroring via **preposition substitution** in identical SVO+PP frames. Each line replicates the subject-verb-object-prepositional phrase structure, swapping only the preposition (*for/from/to/on*) to shift semantic agency from love → extraction → tribute → exploitation. A poor answer would merely repeat words without structural control, missing how grammatical parallelism creates the *inescapable logic* of the Image's critique.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

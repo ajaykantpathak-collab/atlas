@@ -1,0 +1,367 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 115,
+ "chapter_title": "Body Fluids and Circulation",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/kebo115.txt",
+ "concepts": [
+  {
+   "id": "kebo.15.1",
+   "title": "Plasma and Formed Elements",
+   "section": "15.1",
+   "definition": "In brief, In brief, Blood is a specialized fluid connective tissue consisting of a liquid extracellular matrix termed plasma and suspended cellular components called formed elements.",
+   "formula": "plasma_percentage + formed_elements_percentage = 100",
+   "key_idea": "Plasma carries water, minerals, and essential proteins, while formed elements carry out gas transport, immunity, and blood clotting.",
+   "textbook_ref": "kebo115.txt lines 15-60",
+   "question_patterns": [
+    "what are the major constituents of human blood plasma and formed elements",
+    "describe the primary functions of erythrocytes leucocytes and platelets",
+    "list the essential plasma proteins and state their individual biological roles",
+    "how do formed elements differ from plasma in composition and function"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify plasma constituents",
+     "explain": "Plasma contains 90-92% water, 6-8% proteins (fibrinogen for clotting, globulins for defense, albumins for osmotic balance), and trace minerals/nutrients."
+    },
+    {
+     "step": 2,
+     "action": "identify formed elements and functions",
+     "explain": "Erythrocytes transport oxygen via hemoglobin, leucocytes mediate immune responses, and platelets participate in haemostasis."
+    }
+   ]
+  },
+  {
+   "id": "kebo.15.2",
+   "title": "ABO and Rh Blood Grouping System",
+   "section": "15.1.3",
+   "definition": "Classification system for human blood based on specific inherited surface antigens A, B, and Rh factor on red blood cells, along with plasma antibodies.",
+   "formula": "compatibility = matching_antigens_and_antibodies",
+   "key_idea": "Transfusion compatibility depends on matching RBC surface antigens to prevent immune-mediated clumping and hemolysis.",
+   "textbook_ref": "kebo115.txt lines 61-105",
+   "question_patterns": [
+    "explain ABO blood grouping based on surface antigens and antibodies",
+    "why is blood group O negative considered the universal donor",
+    "what causes erythroblastosis foetalis during mismatched pregnancies",
+    "how does Rh factor incompatibility affect maternal and fetal health"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine RBC surface antigens and plasma antibodies",
+     "explain": "Group A has A antigens and anti-B antibodies; Group B has B antigens and anti-A antibodies; Group AB has both antigens and no antibodies; Group O has no antigens and both antibodies."
+    },
+    {
+     "step": 2,
+     "action": "analyze Rh incompatibility mechanism",
+     "explain": "An Rh-ve mother carrying an Rh+ve fetus produces anti-Rh antibodies during first delivery exposure, which can cross the placenta in subsequent pregnancies to destroy fetal RBCs."
+    }
+   ]
+  },
+  {
+   "id": "kebo.15.3",
+   "title": "Mechanism of Blood Coagulation",
+   "section": "15.1.4",
+   "definition": "A multi-step enzymatic cascade reaction that converts liquid blood into an insoluble fibrin meshwork to prevent excessive blood loss upon vascular injury.",
+   "formula": "prothrombin --(thrombokinase, Ca++)--> thrombin; fibrinogen --(thrombin)--> fibrin",
+   "key_idea": "Platelets and tissue factors trigger a cascade converting inactive prothrombin into thrombin, which turns soluble fibrinogen into an insoluble fibrin clot.",
+   "textbook_ref": "kebo115.txt lines 106-125",
+   "question_patterns": [
+    "describe the biochemical steps involved in blood clot formation",
+    "what is the role of thrombokinase and calcium ions in blood coagulation",
+    "explain how fibrinogen converts into insoluble fibrin threads",
+    "what triggers the cascade process of blood clotting at an injury site"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trigger thrombokinase complex formation",
+     "explain": "Vascular damage stimulates platelets and tissues to release factors that activate an enzyme cascade forming thrombokinase."
+    },
+    {
+     "step": 2,
+     "action": "convert prothrombin to active thrombin",
+     "explain": "Thrombokinase in the presence of calcium ions converts inactive plasma prothrombin into active thrombin enzyme."
+    },
+    {
+     "step": 3,
+     "action": "polymerize fibrinogen into insoluble clot",
+     "explain": "Thrombin converts soluble plasma fibrinogen into insoluble fibrin strands that trap cellular elements to seal the injury."
+    }
+   ]
+  },
+  {
+   "id": "kebo.15.4",
+   "title": "Lymph and Tissue Fluid",
+   "section": "15.2",
+   "definition": "Fluid filtered from blood capillaries into tissue intercellular spaces that drains into the lymphatic system to return nutrients, proteins, and lymphocytes back to circulation.",
+   "formula": "interstitial_fluid = capillary_filtrate - blood_cells_and_large_proteins",
+   "key_idea": "Lymph acts as a middleman for exchange between blood and cells, carrying nutrients, hormones, absorbed fats, and defensive white blood cells.",
+   "textbook_ref": "kebo115.txt lines 126-140",
+   "question_patterns": [
+    "what is tissue fluid and how is lymph formed in the body",
+    "differentiate between blood plasma and lymph fluid",
+    "explain the function of lymph in immunity and lipid absorption",
+    "how does interstitial fluid return to the systemic venous system"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain interstitial fluid generation",
+     "explain": "Water and soluble nutrients filter out of blood capillaries into intercellular spaces, forming tissue fluid."
+    },
+    {
+     "step": 2,
+     "action": "describe lymphatic transport and function",
+     "explain": "Lymphatic vessels collect tissue fluid into lymph, which carries lymphocytes for defense and absorbs dietary fats via lacteals in villi."
+    }
+   ]
+  },
+  {
+   "id": "kebo.15.5",
+   "title": "Human Heart Structure and Nodal Conducting System",
+   "section": "15.3.1",
+   "definition": "A four-chambered myogenic muscular organ featuring an internal autoexcitable conducting network composed of SAN, AVN, AV bundle, and Purkinje fibers.",
+   "formula": "impulse_pathway: SAN -> AVN -> AV_bundle -> Purkinje_fibres",
+   "key_idea": "In brief, In brief, In brief, In brief, the sino-atrial node spontaneously fires action potentials to set the pace of rhythmic cardiac contractions.",
+   "textbook_ref": "kebo115.txt lines 160-205",
+   "question_patterns": [
+    "describe the structural organization of human heart chambers and valves",
+    "why is the sino-atrial node called the natural pacemaker of the heart",
+    "trace the pathway of electrical impulse propagation through cardiac nodal tissue",
+    "what roles do tricuspid bicuspid and semilunar valves play in blood flow"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify cardiac chambers and valves",
+     "explain": "Right and left atria and ventricles are separated by septa and guarded by tricuspid, bicuspid, and semilunar valves to prevent backflow."
+    },
+    {
+     "step": 2,
+     "action": "trace impulse generation across nodal tissue",
+     "explain": "SAN initiates autoexcitable action potentials (70-75/min) that spread via AVN, bundle of His, and Purkinje fibers to trigger ventricular contraction."
+    }
+   ]
+  },
+  {
+   "id": "kebo.15.6",
+   "title": "Cardiac Output Calculation",
+   "section": "15.3.2",
+   "definition": "The total volume of blood ejected by each ventricle per minute, same as the stroke volume multiplied by the heart rate.",
+   "formula": "cardiac_output = stroke_volume * heart_rate",
+   "key_idea": "Cardiac output measures heart performance and equals the product of volume per beat and beats per minute.",
+   "textbook_ref": "kebo115.txt lines 206-250",
+   "question_patterns": [
+    "calculate the cardiac output given stroke volume and heart rate",
+    "find the volume of blood pumped by a ventricle per minute when stroke volume is ... and heart rate is ...",
+    "what is stroke volume and how is cardiac output derived",
+    "determine cardiac output for an individual with specified beat parameters"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply stroke volume by heart rate",
+     "explain": "Cardiac output is calculated by multiplying the stroke volume by the heart rate.",
+     "compute": "cardiac_output = stroke_volume * heart_rate"
+    }
+   ]
+  },
+  {
+   "id": "kebo.15.7",
+   "title": "Duration of Cardiac Cycle",
+   "section": "15.3.2",
+   "definition": "The elapsed time for one complete sequence of atrial and ventricular both both both both both both both both both both both both both both both both both both both both both both both both systole and diastole, calculated by dividing sixty seconds by the heart rate.",
+   "formula": "cycle_duration = 60 / heart_rate",
+   "key_idea": "In brief, the total time duration of a single cardiac cycle varies in inverse proportion with the heart rate.",
+   "textbook_ref": "kebo115.txt lines 225-235",
+   "question_patterns": [
+    "calculate the time duration of one cardiac cycle",
+    "find the duration of a single heart beat when heart rate is ... beats per minute",
+    "what is the period of one complete cardiac cycle at resting heart rate",
+    "compute cardiac cycle duration in seconds from heart rate"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide 60 seconds by heart rate",
+     "explain": "Duration of a single cycle in seconds is equal to 60 divided by the heart rate in beats per minute.",
+     "compute": "cycle_duration = 60 / heart_rate"
+    }
+   ]
+  },
+  {
+   "id": "kebo.15.8",
+   "title": "Electrocardiogram (ECG)",
+   "section": "15.3.3",
+   "definition": "A standard electrical trace recording cardiac cycle depolarization and repolarization waves across P-wave, QRS complex, and T-wave segments.",
+   "formula": "ECG = P_wave + QRS_complex + T_wave",
+   "key_idea": "ECG waves represent distinct electrical events in the cardiac cycle used to evaluate heart health.",
+   "textbook_ref": "kebo115.txt lines 251-285",
+   "question_patterns": [
+    "explain the physiological significance of P wave QRS complex and T wave in ECG",
+    "how is the rate of heartbeat calculated from a standard electrocardiogram trace",
+    "what cardiac event does the QRS complex represent in an ECG signal",
+    "describe how electrical activity of the heart is recorded on an electrocardiogram"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "correlate ECG waves with cardiac events",
+     "explain": "P-wave represents atrial depolarisation; QRS complex represents ventricular depolarisation; T-wave represents ventricular repolarisation."
+    },
+    {
+     "step": 2,
+     "action": "calculate heart rate from QRS count",
+     "explain": "Counting the number of QRS complexes per unit time yields the heart rate."
+    }
+   ]
+  },
+  {
+   "id": "kebo.15.9",
+   "title": "Double Circulation and Hepatic Portal System",
+   "section": "15.4",
+   "definition": "The dual circulatory architecture comprising pulmonary circuit (heart-lungs-heart) and systemic circuit (heart-body-heart), along with specialized portal systems.",
+   "formula": "double_circulation = pulmonary_circuit + systemic_circuit",
+   "key_idea": "Double circulation ensures strict separation of both both both both both both both both both both both both both both both both both both both both both both both both oxygenated and deoxygenated blood to optimize oxygen delivery.",
+   "textbook_ref": "kebo115.txt lines 286-320",
+   "question_patterns": [
+    "explain double circulation and state its significance in birds and mammals",
+    "trace the pathway of blood in pulmonary versus systemic circulation",
+    "what is the hepatic portal system and why is it biologically important",
+    "differentiate between systemic arteries veins and portal connections"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace pulmonary circulation",
+     "explain": "Right ventricle pumps deoxygenated blood into pulmonary artery to lungs; oxygenated blood returns via pulmonary veins to left atrium."
+    },
+    {
+     "step": 2,
+     "action": "trace systemic circulation and hepatic portal route",
+     "explain": "Left ventricle pumps oxygenated blood into aorta for systemic tissues; deoxygenated blood returns via vena cava to right atrium. The hepatic portal vein carries intestinal blood directly to the liver."
+    }
+   ]
+  },
+  {
+   "id": "kebo.15.10",
+   "title": "Regulation of Cardiac Activity and Circulatory Disorders",
+   "section": "15.5",
+   "definition": "Intrinsic myogenic control of heart rhythm modulated by autonomic neural both signals and hormones, alongside pathologies affecting blood pressure and coronary perfusion.",
+   "formula": "cardiac_output_control = intrinsic_myogenic + autonomic_signals + adrenal_hormones",
+   "key_idea": "Autonomic nerves and hormones modulate cardiac output, while vascular arterial blockages produce hypertension, CAD, angina, and heart failure.",
+   "textbook_ref": "kebo115.txt lines 321-360",
+   "question_patterns": [
+    "explain how autonomic nervous system regulates heart rate and cardiac output",
+    "what is hypertension and what clinical blood pressure readings define it",
+    "distinguish between coronary artery disease angina pectoris and heart failure",
+    "why is the human heart referred to as myogenic in nature"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain cardiac regulation mechanisms",
+     "explain": "Heart beats myogenicly; sympathetic signals and adrenal medullary hormones increase heart rate and stroke volume, whereas parasympathetic signals decrease them."
+    },
+    {
+     "step": 2,
+     "action": "identify circulatory disorders",
+     "explain": "Hypertension is persistent BP >= 140/90; CAD involves arterial narrowing by lipid/calcium deposits; Angina is hypoxia-induced chest pain; Heart failure is inefficient cardiac pumping."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebo115.txt section 15.3.2",
+   "concept": "kebo.15.6",
+   "question_type": "compute",
+   "question_pattern": "Calculate the cardiac output of a healthy adult with a stroke volume of {stroke_volume} mL and a heart rate of {heart_rate} beats per minute.",
+   "extracted_variables": {
+    "stroke_volume": 70,
+    "heart_rate": 72
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply stroke volume by heart rate",
+     "explain": "Cardiac output is the product of stroke volume and heart rate per minute.",
+     "compute": "cardiac_output = stroke_volume * heart_rate"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kebo115.txt section 15.3.2",
+   "concept": "kebo.15.7",
+   "question_type": "compute",
+   "question_pattern": "Determine the time duration of a single cardiac cycle in seconds for an individual whose heart rate is {heart_rate} beats per minute.",
+   "extracted_variables": {
+    "heart_rate": 75
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide 60 seconds by heart rate",
+     "explain": "The time duration of one cardiac cycle equals 60 divided by the number of heart beats per minute.",
+     "compute": "cycle_duration = 60 / heart_rate"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex15.1",
+   "source_ref": "kebo115.txt exercises",
+   "questions": [
+    "Name the components of the formed elements in the blood and mention one major function of each of them.",
+    "What is the importance of plasma proteins?"
+   ]
+  },
+  {
+   "id": "ex15.2",
+   "source_ref": "kebo115.txt exercises",
+   "questions": [
+    "Match Column I with Column II : (a) Eosinophils - (iii) Resist Infections, (b) RBC - (v) Gas transport, (c) AB Group - (ii) Universal Recipient, (d) Platelets - (i) Coagulation, (e) Systole - (iv) Contraction of Heart.",
+    "Why do we consider blood as a connective tissue?",
+    "What is the difference between lymph and blood?"
+   ]
+  },
+  {
+   "id": "ex15.3",
+   "source_ref": "kebo115.txt exercises",
+   "questions": [
+    "What is meant by double circulation? What is its significance?",
+    "Write the differences between : (a) Blood and Lymph, (b) Open and Closed system of circulation, (c) Systole and Diastole, (d) P-wave and T-wave.",
+    "Describe the evolutionary change in the pattern of heart among the vertebrates."
+   ]
+  },
+  {
+   "id": "ex15.4",
+   "source_ref": "kebo115.txt exercises",
+   "questions": [
+    "Why do we call our heart myogenic?",
+    "Sino-atrial node is called the pacemaker of our heart. Why?",
+    "What is the significance of atrio-ventricular node and atrio-ventricular bundle in the functioning of heart?",
+    "Define a cardiac cycle and the cardiac output.",
+    "Explain heart sounds.",
+    "Draw a standard ECG and explain the different segments in it."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

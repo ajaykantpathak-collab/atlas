@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_16_006",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_16_006",
+   "title": "c11_ps_cbse_16_006",
+   "questions": [
+    {
+     "q": "Under which Article of the Constitution is the distribution of legislative powers between the Union and the States enumerated, and what are the three lists called?",
+     "a": "The distribution is enumerated in **Article 246** read with the **Seventh Schedule**. The three lists are the **Union List (List I)**, **State List (List II)**, and **Concurrent List (List III)**. A wrong answer (e.g., citing Article 245 or 248) reveals the student confuses the *extent* of legislative power (Article 245) or *residuary* power (Article 248) with the *distribution* mechanism itself.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the framers of the Constitution include a Concurrent List instead of making the division strictly exclusive (only Union and State Lists)?",
+     "a": "The Concurrent List allows both levels of government to legislate on subjects of **common interest** (e.g., criminal law, marriage, economic planning) where uniformity is desirable but local variation is also needed. It reflects the 'cooperative federalism' model. A wrong answer (e.g., \"to give the Centre more power\") reveals a misunderstanding of the *functional* rationale: the list exists for subjects requiring national standards (like contract law) while permitting state-level adaptation (like marriage rituals).",
+     "self_check": true
+    },
+    {
+     "q": "The subject \"Public Order\" is in the State List (Entry 1), while \"Deployment of Armed Forces of the Union in aid of civil power\" is in the Union List (Entry 2A). If the Centre deploys the Army in a state to maintain public order without the state's consent, which constitutional provision is being invoked, and is it a violation of the State List?",
+     "a": "This invokes **Article 355** (duty of the Union to protect States against external aggression and internal disturbance) read with **Entry 2A of the Union List** (inserted by the 42nd Amendment). It is **not** a violation of the State List because the Constitution explicitly permits Union armed forces to operate in a state in aid of civil power; the subject \"Deployment of Armed Forces...\" is a distinct Union List entry, separate from \"Public Order\". A wrong answer reveals the student thinks the lists are watertight compartments and misses the specific Union List entry that qualifies the State's exclusive domain.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Union List and State List in terms of: (a) number of subjects, (b) nature of subjects (give one example each), and (c) the implication for the federal balance.",
+     "a": "(a) Union List: 97 subjects (originally 97, now 98 after 101st Amendment/GST); State List: 66 subjects (originally 66, now 59 after GST). (b) Union: subjects of national importance requiring uniformity — e.g., **Defence (Entry 1)**. State: subjects of local interest — e.g., **Police (Entry 1)**. (c) The larger Union List and the inclusion of key economic subjects (taxes, industries, banking) in the Union/Concurrent lists creates a **unitary tilt**, making the Centre financially and legislatively dominant. A wrong answer shows the student cannot link the *quantitative* difference to the *qualitative* federal outcome (strong Centre).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Concurrent List is the primary reason for the centralisation of legislative power in India.\"",
+     "a": "The statement is **partially correct but incomplete**. The Concurrent List *does* centralise power because Article 254 gives Union laws precedence over State laws on the same subject, and Parliament can legislate on Concurrent subjects anytime. However, the **primary drivers of centralisation** are: (1) Residuary powers vested in the Union (Article 248), unlike the US/Australia where they go to States; (2) Parliament's power to legislate on State List subjects under Articles 249 (Rajya Sabha resolution), 250 (Emergency), 252 (State consent), 253 (treaties), and 356 (President's Rule). A wrong answer (agreeing wholly) shows the student overlooks the more potent centralising Articles beyond the Concurrent List.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a proposal to move **one subject** from the State List to the Concurrent List (or vice versa) to improve governance. Justify your choice using the principles of federalism (efficiency, accountability, uniformity, diversity).",
+     "a": "**Example Proposal:** Move **\"Public Health and Sanitation\" (State List Entry 6)** to the **Concurrent List**. **Justification:** Pandemics (COVID-19) showed that health emergencies require national coordination (uniform protocols, vaccine procurement, inter-state travel rules) — the **uniformity/efficiency** argument. But primary healthcare delivery needs local accountability — the **diversity/accountability** argument. A Concurrent listing allows a national framework law (like the National Health Act) while States implement locally. A poor answer would move a subject like \"Police\" to the Union List (destroying local accountability) or \"Defence\" to the State List (destroying national unity), showing no grasp of the *subsidiarity* principle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

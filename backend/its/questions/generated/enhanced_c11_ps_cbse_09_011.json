@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_09_011",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_09_011",
+   "title": "c11_ps_cbse_09_011",
+   "questions": [
+    {
+     "q": "What are the two key articles in the UN Charter that authorize the Security Council to take enforcement action under collective security?",
+     "a": "Article 39 (determination of threat to peace) and Article 42 (authorization of military enforcement). A wrong answer (e.g., citing Article 51 — self-defense) reveals confusion between collective security (centralized UN action) and inherent right of self-defense (decentralized state action).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Korean War (1950-53) is considered a unique case of successful UN collective security enforcement that has rarely been replicated.",
+     "a": "The USSR was boycotting the Security Council over China's seat, so no veto blocked Resolution 83/84 authorizing force. A wrong answer (e.g., \"UN had its own army\") reveals misunderstanding that UN has no standing force — it relies on member state contributions, and Korea worked only because great power consensus existed temporarily.",
+     "self_check": true
+    },
+    {
+     "q": "In 1990-91, Iraq invaded Kuwait. The Security Council passed Resolution 678 authorizing \"all necessary means.\" Apply the collective security framework: Why did this work when many later cases (e.g., Syria 2011+) failed?",
+     "a": "P5 consensus existed: USSR (soon Russia) cooperated with US; no vital great power interest was threatened; clear aggression (cross-border invasion) triggered Article 39. Wrong answer (\"UN army defeated Iraq\") shows failure to distinguish UN authorization from US-led coalition execution — collective security legitimized action but did not supply forces.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the UNPROFOR mission in Bosnia (1992-95) and UNAMIR in Rwanda (1994). Analyze how the *mandate design* (Chapter VI vs Chapter VII) and *rules of engagement* contributed to failure in both cases.",
+     "a": "Both operated under Chapter VI (consent-based peacekeeping) despite active genocide/war — no enforcement mandate. UNPROFOR's \"safe areas\" lacked Chapter VII teeth; UNAMIR's mandate forbade offensive action. Wrong answer (\"UN didn't care\") misses structural point: member states refused to authorize Chapter VII enforcement or provide troops for robust mandates.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Responsibility to Protect (R2P) doctrine, adopted in 2005, has strengthened UN collective security by overriding sovereignty concerns.\"",
+     "a": "R2P is a political commitment, not a legal amendment to the Charter. It has not overridden veto power: Libya 2011 (R2P invoked, regime change followed, P5 split) vs Syria 2011+ (veto blocked action). Wrong answer (\"R2P made intervention automatic\") confuses normative evolution with institutional reality — Security Council authorization remains hostage to P5 politics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a reform proposal for the UN collective security system that addresses the veto paralysis problem without requiring Charter amendment (which needs P5 consent). Justify each element.",
+     "a": "Strong answer includes: (1) Voluntary P5 code of conduct: refrain from veto on mass atrocity resolutions (France/Mexico initiative); (2) General Assembly \"Uniting for Peace\" procedural upgrades — automatic emergency special session after veto; (3) Regional organization standby forces pre-authorized by SC for rapid deployment. Weak answer proposes \"abolish veto\" — ignores Charter Article 108 (P5 consent required for amendment).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

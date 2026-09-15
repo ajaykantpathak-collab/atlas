@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_12_007",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_12_007",
+   "title": "c12_hs_cbse_12_007",
+   "questions": [
+    {
+     "q": "List the three tiers of the Panchayati Raj system in their correct hierarchical order from village to district level, and name the constitutional amendment that institutionalised this structure.",
+     "a": "Correct answer: Gram Panchayat (village) → Panchayat Samiti (block) → Zila Parishad (district); 73rd Constitutional Amendment Act, 1992. A wrong answer (e.g., reversing the order, naming 74th Amendment, or omitting a tier) reveals the student has not internalised the basic federal architecture of rural local governance — a prerequisite for knowing which body to approach for a specific programme.",
+     "self_check": true
+    },
+    {
+     "q": "A Home Science extension worker wants to introduce a community-based nutrition garden programme in a village. The worker approaches the Block Development Officer (BDO) directly, bypassing the Gram Panchayat. Explain why this is procedurally incorrect and which constitutional provision mandates the correct channel.",
+     "a": "Correct answer: The Gram Panchayat is the constitutionally mandated first tier of local self-government; the 73rd Amendment (Article 243G) devolved powers to prepare and implement plans for economic development and social justice to the Gram Panchayat. Bypassing it violates the principle of subsidiarity and the statutory requirement that Gram Sabha approve village-level plans. A wrong answer (e.g., \"BDO is the boss\" or \"Gram Panchayat has no funds\") reveals a misconception that PRIs are mere implementing arms of the block administration rather than elected self-governing institutions with planning authority.",
+     "self_check": true
+    },
+    {
+     "q": "Match each Home Science intervention to the correct PRI tier and the specific Eleventh Schedule item number that authorises it:\n(a) Training Anganwadi workers on complementary feeding\n(b) Constructing a block-level cold storage for vegetable preservation\n(c) District-wide campaign against child marriage\nTiers: Gram Panchayat / Panchayat Samiti / Zila Parishad\nEleventh Schedule items (choose from): 17 (Education), 23 (Health & Sanitation), 25 (Women & Child Development), 10 (Minor Forest Produce), 28 (Public Distribution System)",
+     "a": "Correct mapping: (a) → Gram Panchayat, Item 25; (b) → Panchayat Samiti, Item 23 (or 10 if linked to produce); (c) → Zila Parishad, Item 25. A wrong match (e.g., assigning district campaign to Gram Panchayat) reveals inability to distinguish the spatial jurisdiction and functional domain of each tier — a critical error when writing convergence proposals or answering case-based board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of Gram Sabha and Gram Panchayat in the context of a Home Science extension programme on menstrual hygiene management. Which body approves the plan, which body implements it, and why is this distinction constitutionally significant?",
+     "a": "Correct answer: Gram Sabha (all registered voters) approves the plan and prioritises it in the Gram Panchayat Development Plan (GPDP); Gram Panchayat (elected representatives) implements it through committees and functionaries. Constitutional significance: Article 243A defines Gram Sabha as the sovereign body of the village; Article 243G empowers Gram Panchayat as the executive tier. Confusing them leads to social audits being skipped, plans lacking community ownership, and extension workers treating 'community participation' as a formality rather than a constitutional mandate.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"The extension worker's job is to deliver the government scheme; the Panchayat's job is to just sign the utilisation certificate.\" Use the 73rd Amendment and the concept of 'functions, functionaries, and funds' (3Fs) to justify your evaluation.",
+     "a": "Correct critique: The statement reflects a colonial bureaucratic mindset, not the constitutional design. The 73rd Amendment intended devolution of all 3Fs: functions (29 subjects in Eleventh Schedule), functionaries (staff accountable to Panchayat), and funds (Finance Commission grants, own revenue). The extension worker is a technical facilitator; the Panchayat is the planning and decision-making authority. Signing a utilisation certificate without prior Gram Sabha approval and mid-term monitoring violates Article 243G and the principle of accountable governance. A weak answer that agrees with the statement reveals the student has not grasped the paradigm shift from 'implementation agency' to 'local government'.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page convergence framework (conceptual, not visual) for a block-level 'Adolescent Anaemia-Free Initiative' involving: ICDS (Anganwadi), Health (PHC), Education (Schools), Panchayat Samiti, and SHG Federation. Specify: (i) which PRI tier anchors it, (ii) the Eleventh Schedule items invoked, (iii) the specific role of the Home Science extension worker, (iv) the Gram Sabha's role in each village, and (v) one monitoring indicator co-owned by the Panchayat and the community.",
+     "a": "Expected framework: (i) Panchayat Samiti (block tier) anchors as it coordinates across Gram Panchayats and interfaces with block-level ICDS/Health/Education officers. (ii) Items 23 (Health), 25 (Women & Child Development), 17 (Education). (iii) Extension worker: technical lead — designs curriculum, trains ANM/AWW/teachers, develops IEC material, facilitates SHG-led peer education. (iv) Gram Sabha: ratifies village-level action plan, monitors IFA distribution, audits mid-day meal iron fortification, reports stockouts. (v) Co-owned indicator: 'Percentage of adolescent girls (10-19 years) consuming 4+ IFA tablets/month verified by both AWW register and SHG household survey'. A poor answer lists activities without anchoring tier, misses Gram Sabha's constitutional role, or treats extension worker as sole implementer.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

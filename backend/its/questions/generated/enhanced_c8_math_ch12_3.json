@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch12_3",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch12_3",
+   "title": "c8_math_ch12_3",
+   "questions": [
+    {
+     "q": "A data set has 5 values with a mean of 20. If a new value of 30 is added, what is the deviation of the new value from the old mean?",
+     "a": "The deviation is 30 − 20 = 10. A wrong answer (e.g., 30 or 50) reveals the student does not understand that deviation means difference from the mean, not the value itself or the sum.",
+     "self_check": true
+    },
+    {
+     "q": "The mean of 8 numbers is 15. One number, 10, is removed. Will the new mean be greater than, less than, or equal to 15? Explain why without calculating.",
+     "a": "The new mean will be greater than 15 because the removed value (10) is below the old mean. Removing a below-average value pulls the mean up. A wrong answer (less than or equal) reveals the student thinks removing any value lowers the mean or does not grasp the balancing point concept.",
+     "self_check": true
+    },
+    {
+     "q": "The mean of 10 test scores is 72. A new student scores 84. Find the new mean using the deviation method. Show all steps.",
+     "a": "Old mean = 72, old count = 10, new value = 84.\nStep 1: Deviation = 84 − 72 = 12.\nStep 2: New count = 10 + 1 = 11.\nStep 3: Shift = 12 / 11 ≈ 1.09.\nStep 4: New mean = 72 + 1.09 = 73.09.\nA wrong answer like 72 + 12 = 84 reveals the student forgot to divide by the new count. An answer of 72 + 12/10 = 73.2 reveals they divided by the old count instead of the new count.",
+     "self_check": true
+    },
+    {
+     "q": "Two data sets have the same mean of 50. Set A has 4 values, Set B has 20 values. The value 70 is added to both sets. Which set's mean changes more? Explain.",
+     "a": "Set A's mean changes more. Deviation = 70 − 50 = 20 for both. Shift for A = 20/5 = 4. Shift for B = 20/21 ≈ 0.95. The same deviation is shared among fewer values in Set A, causing a larger shift. A wrong answer (Set B changes more or same change) reveals the student does not connect the denominator (new count) to the magnitude of change.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If I add a value equal to the current mean, the mean does not change. If I remove a value equal to the current mean, the mean also does not change.\" Is this claim correct? Justify.",
+     "a": "The claim is correct. Adding a value equal to the mean gives deviation = 0, so shift = 0/(n+1) = 0. Removing a value equal to the mean gives deviation = 0, shift = 0/(n-1) = 0. A wrong answer (claiming the mean changes) reveals the student thinks the count change alone alters the mean, ignoring that the sum changes proportionally.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) where you know the mean of a group, then one person leaves or joins, and you need to find the new mean. Write the problem and solve it using the deviation method.",
+     "a": "Example: \"In a cricket team of 11 players, the average runs scored is 45. The captain scored 60 runs and is replaced by a new player who scored 30 runs. Find the new average.\" Solution: Old mean 45, count 11. Remove 60 (deviation +15), shift = −15/11 ≈ −1.36, intermediate mean = 43.64. Add 30 (deviation −13.64), shift = −13.64/11 ≈ −1.24, new mean ≈ 42.40. A poor answer would just recalculate total runs without using deviation, showing they cannot apply the method creatively.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

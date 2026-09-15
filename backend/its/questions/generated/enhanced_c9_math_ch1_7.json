@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch1_7",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch1_7",
+   "title": "c9_math_ch1_7",
+   "questions": [
+    {
+     "q": "State the section formula for the coordinates of a point P(x, y) that divides the line segment joining A(x₁, y₁) and B(x₂, y₂) internally in the ratio m:n.",
+     "a": "The formula is x = (mx₂ + nx₁)/(m + n) and y = (my₂ + ny₁)/(m + n). A wrong answer such as swapping m and n (e.g., x = (mx₁ + nx₂)/(m+n)) reveals that the student does not understand which ratio part multiplies which endpoint's coordinate. The weight m corresponds to the second point B, and n corresponds to the first point A.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the section formula uses a weighted average with the ratio parts swapped: the x-coordinate of the first point is multiplied by n (the second part of the ratio) and the x-coordinate of the second point is multiplied by m (the first part).",
+     "a": "Because the point P divides AB in the ratio m:n, meaning AP:PB = m:n. The distance from A to P is proportional to m, so P is closer to B when m is larger. Therefore, the coordinate of B gets the larger weight m. A student who says \"m goes with the first point\" confuses the order of the ratio with the order of the points. The ratio m:n corresponds to AP:PB, so the weight for B is m and for A is n.",
+     "self_check": true
+    },
+    {
+     "q": "Find the coordinates of the point that divides the line segment joining A(–2, 5) and B(4, –3) internally in the ratio 3:2.",
+     "a": "Step 1: Identify x₁ = –2, y₁ = 5, x₂ = 4, y₂ = –3, m = 3, n = 2.\nStep 2: Apply formula: x = (3×4 + 2×(–2))/(3+2) = (12 – 4)/5 = 8/5 = 1.6.\nStep 3: y = (3×(–3) + 2×5)/5 = (–9 + 10)/5 = 1/5 = 0.2.\nStep 4: Coordinates are (1.6, 0.2) or (8/5, 1/5).\nA wrong answer like (–0.8, 2.6) comes from swapping m and n: x = (3×(–2)+2×4)/5 = (–6+8)/5 = 2/5, y = (3×5+2×(–3))/5 = (15–6)/5 = 9/5. This shows the student multiplies the first point by m instead of n.",
+     "self_check": true
+    },
+    {
+     "q": "A point P(1, 2) divides the segment joining A(–3, 4) and B(5, –2) internally. Determine the ratio m:n in which P divides AB.",
+     "a": "Let the ratio be k:1 (or m:n). Using x-coordinate: 1 = (k×5 + 1×(–3))/(k+1) → 1(k+1) = 5k – 3 → k+1 = 5k–3 → 4k = 4 → k = 1. So ratio is 1:1. Verify with y: 2 = (k×(–2)+1×4)/(k+1) = (–2+4)/2 = 1. Wait, y gives 1, not 2. So the point (1,2) does not lie on the segment? Actually, check: A(–3,4), B(5,–2). Midpoint is (1,1). So P(1,2) is not on the segment. A student who forces a ratio from x-coordinate only and ignores y-coordinate inconsistency reveals they don't understand that both coordinates must satisfy the same ratio for a valid internal division point.",
+     "self_check": true
+    },
+    {
+     "q": "A student solved: \"Find the point dividing A(2, –1) and B(–4, 5) in ratio 2:3.\" They wrote: x = (2×2 + 3×(–4))/5 = (4 –12)/5 = –8/5, y = (2×(–1) + 3×5)/5 = (–2+15)/5 = 13/5. Is this correct? If not, identify the error.",
+     "a": "The student's answer is incorrect. They used x = (mx₁ + nx₂)/(m+n) instead of (mx₂ + nx₁)/(m+n). The correct x = (2×(–4) + 3×2)/5 = (–8+6)/5 = –2/5. The y-coordinate is also wrong: correct y = (2×5 + 3×(–1))/5 = (10–3)/5 = 7/5. The error is swapping the weights: they multiplied the first point by m and the second by n. This is the most common misconception: confusing which ratio part belongs to which endpoint.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (using Indian context like distances between cities, or a school playground) that requires using the section formula for internal division. Provide the solution.",
+     "a": "Problem: Two schools, School A at (3, 4) and School B at (11, 10), are connected by a straight road. A bus stop is to be built on this road such that it divides the distance in the ratio 2:3 from School A. Find the coordinates of the bus stop.\nSolution: x = (2×11 + 3×3)/(2+3) = (22+9)/5 = 31/5 = 6.2; y = (2×10 + 3×4)/5 = (20+12)/5 = 32/5 = 6.4. Bus stop at (6.2, 6.4).\nA poor answer would give a problem that doesn't require internal division (e.g., midpoint only) or uses external division, or solves incorrectly by swapping ratio weights.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_07_008",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_07_008",
+   "title": "c11_biotech_cbse_07_008",
+   "questions": [
+    {
+     "q": "Define the term \"charging of tRNA\" and state the enzyme responsible. What is the high-energy bond formed in the product?",
+     "a": "Charging of tRNA (aminoacylation) is the ATP-dependent attachment of a specific amino acid to its cognate tRNA at the 3' CCA end, catalyzed by aminoacyl-tRNA synthetase. The product, aminoacyl-tRNA, contains a high-energy ester bond between the amino acid's carboxyl group and the 3'-OH of the terminal adenosine. A wrong answer (e.g., \"peptide bond\" or \"phosphodiester bond\") reveals confusion between the aminoacyl-tRNA ester linkage and the peptide bond formed later on the ribosome, or between the synthetase and ribosomal peptidyl transferase activity.",
+     "self_check": true
+    },
+    {
+     "q": "A tRNA with anticodon 3'-AUG-5' recognizes the methionine codon AUG. According to the wobble hypothesis, which other codon(s) could this same tRNA potentially recognize? Explain the structural basis at the third position.",
+     "a": "The tRNA with anticodon 3'-AUG-5' (reading 5'-GUA-3' on mRNA) can recognize AUG and, due to wobble at the third position, also AUA (coding for isoleucine in standard code, but Met in mitochondria). In standard nuclear code, wobble rules allow G in anticodon position 1 (5' end) to pair with U or C in codon position 3. Here anticodon is 3'-AUG-5' (written 5'->3' is GUA), so first base of anticodon (5' end) is G, which can pair with U or C at third codon base. Thus it recognizes AUU and AUC (Ile) as well? Wait, careful: mRNA codon 5'-AUG-3', anticodon 3'-UAC-5'. Standard notation: anticodon written 5'->3' is CAU. Let's re-evaluate: Codon AUG (5'->3'). Anticodon is 3'-UAC-5' (written 5'->3' = CAU). Wobble at first base of anticodon (5' end = C). C pairs strictly with G. So no wobble for this tRNA. Better example: tRNA with anticodon 3'-GAU-5' (5'->3' = UAG) for codon AUC? Let's use a clear example: tRNA^Phe has anticodon 3'-AAG-5' (5'->3' = GAA) recognizing UUU and UUC. G at 5' end of anticodon pairs with U or C at 3' end of codon. So correct answer: A tRNA with anticodon 5'-GAA-3' (3'-AAG-5') recognizes both UUU and UUC. The structural basis is that G-U wobble pair is geometrically similar to Watson-Crick pairs, allowing non-standard hydrogen bonding at the third codon position. A wrong answer (e.g., \"it recognizes all four codons\" or \"wobble occurs at first codon position\") reveals misunderstanding of the directionality (anticodon 5' end pairs with codon 3' end) and the specific wobble rules (I, G, U at anticodon position 1).",
+     "self_check": true
+    },
+    {
+     "q": "In a prokaryotic translation initiation complex, the initiator fMet-tRNA^fMet occupies the P site. The next codon in the A site is 5'-GCU-3' (Ala). A charged tRNA^Ala with anticodon 3'-CGA-5' enters the A site. Describe the exact chemical reaction that occurs next, naming the catalyst, the bond formed, and the bond broken. What happens to the fMet-tRNA^fMet after this reaction?",
+     "a": "The peptidyl transferase center (ribozyme activity of 23S rRNA in 50S subunit) catalyzes nucleophilic attack by the α-amino group of Ala-tRNA^Ala (in A site) on the ester carbonyl carbon of fMet-tRNA^fMet (in P site). A peptide bond (amide bond) forms between fMet and Ala, and the ester bond between fMet and its tRNA is broken. The fMet (now part of dipeptidyl-tRNA) is transferred to the tRNA in the A site; the deacylated tRNA^fMet remains in the P site. A wrong answer (e.g., \"ATP hydrolysis drives peptide bond formation\" or \"protein enzyme peptidyl transferase\") reveals the misconception that peptide bond synthesis requires direct energy input or protein catalysis, ignoring that the ribosome is a ribozyme and the energy comes from the high-energy ester bond of aminoacyl-tRNA.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of the A, P, and E sites during a single elongation cycle. Why is the E site essential for maintaining translational fidelity, even though no chemical reaction occurs there?",
+     "a": "During elongation: (1) A site binds incoming aminoacyl-tRNA (codon-anticodon check). (2) P site holds peptidyl-tRNA (growing chain). (3) Peptidyl transferase transfers peptide to A-site tRNA. (4) Translocation (EF-G/GTP) moves peptidyl-tRNA to P site, deacylated tRNA to E site. (5) E site releases deacylated tRNA. The E site ensures the deacylated tRNA is held briefly, preventing premature dissociation that could cause frameshifting or allow a near-cognate tRNA to bind the A site before translocation completes. It acts as a \"proofreading checkpoint\" by stabilizing the ribosome-mRNA-tRNA complex during the ratchet-like motion. A wrong answer (e.g., \"E site is where amino acids enter\" or \"E site catalyzes peptide bond\") confuses site functions and misses the kinetic proofreading role.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher mutates the CCA sequence at the 3' end of a tRNA^Ser to CCG. The tRNA is still transcribed and folded correctly. Predict the effect on (a) aminoacylation by seryl-tRNA synthetase, (b) peptidyl transferase reaction, and (c) translocation. Justify each.",
+     "a": "(a) Aminoacylation will likely fail or be severely reduced because aminoacyl-tRNA synthetases recognize the 3' CCA end as a major identity element; the terminal A is essential for ester bond formation. (b) Even if charged artificially, peptidyl transferase cannot use it because the ribosome's P-site pocket specifically accommodates the CCA-3' end; a 3' G disrupts positioning of the ester bond in the active site. (c) Translocation requires the tRNA to move from A to P to E sites; the CCA end interacts with ribosomal RNA in all three sites. A 3' G would stall translocation. A wrong answer (e.g., \"no effect because anticodon is unchanged\") reveals the misconception that only the anticodon determines tRNA function, ignoring the conserved 3' CCA as a universal handle for ribosome interaction and amino acid attachment.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical experiment using a synthetic mRNA with a repeating dinucleotide sequence (e.g., 5'-CACACACA-3') and a cell-free translation system to deduce the amino acid sequence of the resulting polypeptide. Explain how the ribosome's reading frame is established and why only two distinct polypeptides are possible from this mRNA, not three.",
+     "a": "The mRNA 5'-CACACACA-3' can be read in three frames: Frame 1: CAC ACA CA... (His-Thr-His-Thr...); Frame 2: ACA CAC AC... (Thr-His-Thr-His...); Frame 3: CAC ACA CA... (same as Frame 1 because it's a repeating dinucleotide, period 2). Since the sequence is periodic with period 2, frames 1 and 3 are identical (both start with C). Only two unique reading frames exist. In a cell-free system without a start codon, initiation may occur at any AUG, but here there is no AUG. The ribosome may initiate at the 5' end (prokaryotic-like) or scan. The resulting polypeptides will be poly(His-Thr) and poly(Thr-His). This demonstrates that the reading frame is set by the start codon (AUG) in vivo, but in its absence, the ribosome's P-site placement determines frame. A poor answer (e.g., \"three different polypeptides\") fails to recognize the periodicity of the sequence and the definition of reading frame.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

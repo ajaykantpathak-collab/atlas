@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_22_008",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_22_008",
+   "title": "c11_geo_cbse_22_008",
+   "questions": [
+    {
+     "q": "A student claims: \"For a world map showing population density, we should use Mercator projection because it's the most common world map projection.\" Identify the fundamental error in this reasoning.",
+     "a": "The error is confusing \"common usage\" with \"appropriateness for purpose.\" Mercator is conformal (preserves shape/angles) but grossly exaggerates area at high latitudes (Greenland appears larger than India), making it unsuitable for thematic maps comparing densities which require equal-area property. A wrong answer reveals the student cannot link projection properties to map purpose and relies on familiarity rather than analytical criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a Lambert Conformal Conic projection with two standard parallels is preferred over a single standard parallel for mapping India's mainland (8°4'N to 37°6'N), and what happens to scale distortion between the standard parallels versus outside them.",
+     "a": "Two standard parallels (typically 18°N and 32°N for India) minimize scale distortion across the latitudinal extent by making the scale exact along two lines instead of one; between the parallels, scale is slightly reduced (less than 1), outside them it's exaggerated (greater than 1), balancing overall distortion. A wrong answer reveals the student doesn't understand how standard parallels control distortion distribution in conical projections or why India's ~29° latitudinal span requires two parallels.",
+     "self_check": true
+    },
+    {
+     "q": "A disaster management team needs a map of the Sundarbans delta (approx. 21°-22°N, 88°-89°E) at 1:50,000 scale to measure evacuation route distances accurately in all directions from cyclone shelters. Which projection should they choose and why? Calculate the maximum scale error if they incorrectly used a Mercator projection centered on the equator for this 1°×1° area.",
+     "a": "They should use a Transverse Mercator (or UTM Zone 45) projection because it's conformal with minimal distortion along a central meridian (87°E for this region), preserving local angles and distances in all directions from any point. Mercator at equator: scale factor = sec(latitude) = sec(21.5°) ≈ 1.075, so 7.5% distance exaggeration. A wrong answer reveals inability to match projection type (transverse cylinder) to area orientation (N-S extent) and purpose (distance measurement), or inability to calculate secant-based scale distortion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and justify the projection choices for: (a) An Indian Air Force navigation chart covering the entire Indian subcontinent (68°-98°E, 8°-38°N), (b) A thematic map of rice yield per hectare for all Indian states, (c) A polar research map of the Indian Antarctic station (Maitri, 70°S). Explain why a single projection cannot serve all three purposes.",
+     "a": "(a) Lambert Conformal Conic (conformal, two standard parallels ~18°N, 32°N) for angle-preserving navigation across E-W extent. (b) Albers Equal-Area Conic (same parallels) for accurate area comparison of state yields. (c) Polar Stereographic (azimuthal, centered on South Pole) for true directions/distances from pole in polar region. Single projection fails because no projection preserves both shape and area globally; conical suits mid-latitudes, azimuthal suits poles; conformal vs equal-area are mutually exclusive properties.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since the Survey of India uses Polyconic projection for all 1:50,000 topographical maps, it is the best projection for all large-scale mapping in India.\" Provide a reasoned critique considering modern GPS/GIS workflows.",
+     "a": "The statement is outdated. Polyconic was chosen historically for ease of compilation from trapezoidal sheets and minimal distortion along central meridian, but it is neither conformal nor equal-area. Modern GIS uses UTM (Transverse Mercator) for seamless edge-matching, GPS compatibility, and conformal property. Polyconic creates gaps/overlaps when mosaicking digitally. A wrong answer reveals ignorance of projection properties (polyconic is compromise, not conformal) and modern geospatial requirements (seamless databases, GPS integration).",
+     "self_check": true
+    },
+    {
+     "q": "Design a projection selection decision tree (flowchart logic) for a cartographer choosing a projection for any new mapping project in India. Include at least 4 decision nodes with criteria (purpose, latitudinal zone, extent orientation, scale) and terminal projection choices.",
+     "a": "Good answer: Start → Purpose? (Navigation→Conformal; Thematic→Equal-area; General→Compromise) → Latitudinal zone? (Tropical <25°→Cylindrical/Pseudocylindrical; Mid 25-65°→Conical; Polar >65°→Azimuthal) → Extent orientation? (E-W→Standard parallels E-W; N-S→Transverse cylinder) → Scale? (Large>1:250k→UTM/State Plane; Small→Continental/World projections). Terminal choices: UTM 43-46, LCC, Albers, Stereographic, Robinson, Mollweide. Poor answer reveals linear thinking without branching or missing criteria like orientation/scale.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_03_005",
+   "title": "c11_hs_cbse_03_005",
+   "questions": [
+    {
+     "q": "Define 'nutrition' as per the NCERT Class 11 textbook, listing all five physiological processes it encompasses and the three additional dimensions beyond physiology.",
+     "a": "Nutrition is the science of foods, nutrients, and other substances they contain; and of their actions within the body including ingestion, digestion, absorption, metabolism, and excretion. Beyond physiology, nutrition has social, psychological, and economic dimensions. A wrong answer listing only \"eating and digestion\" reveals the student conflates nutrition with mere food intake and misses the metabolic/excretory processes and the socio-psycho-economic scope — a Class 10-level understanding insufficient for senior secondary.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"If I eat a balanced diet, I will be healthy and fit.\" Using the WHO health definition and the textbook's distinction between health and fitness, explain why this statement is incomplete. What two additional factors does fitness require beyond nutrition?",
+     "a": "The statement is incomplete because: (1) WHO health includes mental and social well-being, which diet alone cannot guarantee (e.g., stress, relationships); (2) Fitness requires regular exercise and proper rest for physical recovery, not just nutrition. A wrong answer focusing only on \"balanced diet prevents disease\" shows the student equates health with disease absence and ignores the positive, multidimensional WHO definition and the exercise/rest pillars of fitness.",
+     "self_check": true
+    },
+    {
+     "q": "An adolescent girl consumes 2000 kcal/day entirely from rice, sugar, and oil (no pulses, vegetables, milk, or meat). She maintains normal weight. Using the five food group classification and the concept of 'invisible fat', explain why she may still develop anaemia and poor fitness within 6 months. Quantify the missing nutrient groups.",
+     "a": "Her diet includes only Food Group I (cereals) and Group V (fats/sugars) — missing Groups II (pulses: iron, protein, B-vitamins), III (milk/meat: B12, calcium, haem iron), and IV (fruits/vegetables: vitamin C for iron absorption, folate, carotenoids). Invisible fat in cereals/pulses is negligible; added oil provides energy but no micronutrients. Without vitamin C (Group IV), non-haem iron absorption from rice is <5%. Anaemia develops from combined iron + B12 + folate deficiency; fitness declines due to reduced O₂-carrying capacity and impaired mitochondrial metabolism. A wrong answer citing only \"low iron\" misses the multi-group deficiency and the absorption cofactor (vitamin C) — a reductionist error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the textbook's definition of physical fitness (\"capacity of heart, blood vessels, lungs, and muscles to function at optimal efficiency\") with the older definition (\"capacity to carry out day's activities without undue fatigue\"). Analyze why the shift occurred, linking it to the textbook's mention of the Industrial Revolution and automation. What does \"optimal efficiency\" imply that \"no undue fatigue\" did not?",
+     "a": "The older definition reflected pre-industrial life where daily chores provided sufficient activity; \"no undue fatigue\" set a low bar. Automation reduced obligatory physical work, making sedentary lives common — so \"no fatigue\" could be met by doing almost nothing. \"Optimal efficiency\" implies: (1) cardiorespiratory reserve (VO₂ max) for emergencies, (2) muscular strength/endurance/flexibility/body composition (five fitness components), (3) disease resistance and metabolic health. A wrong answer saying \"people became lazy\" misses the structural societal shift and the physiological redefinition — it's not about effort but about capacity reserve.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The five food group system ensures a balanced diet if you eat one serving from each group daily.\" Use the textbook's guidelines (cereals ≤75% kcal, variety within groups, cereal-pulse combination for vegetarians, uncooked vegetables/fruits, milk serving) to justify your evaluation. Is the claim sufficient, necessary, both, or neither?",
+     "a": "The claim is NECESSARY but NOT SUFFICIENT. One serving from each group meets the variety requirement but fails on: (1) quantity — cereals may exceed 75% kcal if servings are large; (2) quality — within-group choices matter (e.g., polished rice vs. ragi); (3) protein complementation — vegetarians need cereal-pulse combo or milk at same meal; (4) raw produce — cooking destroys vitamin C; (5) milk — ensures calcium/B12. A wrong answer calling it \"sufficient\" ignores the quantitative and combinatorial guidelines — a common oversimplification.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-day vegetarian menu for a 16-year-old girl (sedentary) that satisfies all five food group guidelines, includes a cereal-pulse combination at two meals, provides ≥1 serving raw vegetable/fruit, includes one milk serving, and keeps cereals ≤75% of total kcal. List foods with approximate weights and identify the food group for each item.",
+     "a": "Sample menu (weights approximate):\nBreakfast: Ragi dosa (60g ragi + 20g urad dal — Group I + II) + coconut chutney (20g — Group V) + 1 orange (100g — Group IV, raw) — Group I, II, IV, V\nMid-morning: Roasted chana (30g — Group II)\nLunch: Rice (80g cooked — Group I) + sambar (50g toor dal + 50g mixed veg — Group II + IV) + curd (100g — Group III) + carrot salad (50g raw — Group IV) — Group I, II, III, IV\nEvening: Milk (200ml — Group III) + 2 almonds (Group II)\nDinner: Whole wheat chapati (2 × 30g — Group I) + paneer bhurji (50g paneer — Group III) + spinach (50g cooked — Group IV) — Group I, III, IV\nCereal kcal: ~800/2000 = 40% (<75%). All 5 groups daily. Cereal-pulse at breakfast & lunch. Raw fruit & veg included. Milk at two meals. A poor answer omits raw items, misses cereal-pulse pairing, or exceeds cereal kcal — showing failure to integrate multiple guidelines simultaneously.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,210 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 7,
+ "chapter_title": "The Gupta Era: An Age of Tireless Creativity",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gees107.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gees.7.1",
+   "title": "The Gupta Dynasty and Its Realm",
+   "section": "The Guptas",
+   "definition": "From the fourth century CE the Gupta dynasty, with centres at Pataliputra and later Ujjayini, ruled much of northern India; peace, tribute and trade made their era one of tireless creativity.",
+   "formula": "",
+   "key_idea": "Stable rule freed hands and minds: when granaries and roads are safe, art and science flourish.",
+   "textbook_ref": "gees107.txt, The Guptas",
+   "question_patterns": [
+    "who founded the gupta dynasty and where did they rule",
+    "why is the gupta age called an age of creativity",
+    "which cities were important in the gupta realm",
+    "how did the guptas administer their lands",
+    "which other powers ruled india alongside the guptas",
+    "what does the map in the chapter show about the period"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  },
+  {
+   "id": "gees.7.2",
+   "title": "Kalidasa and Sanskrit Literature",
+   "section": "Literature",
+   "definition": "The Gupta era crowned Sanskrit letters: Kalidasa's plays and poems, including Raghuvamsham quoted in the chapter, set a standard of beauty and feeling that later centuries kept studying and imitating.",
+   "formula": "",
+   "key_idea": "A golden age speaks through its poets: Kalidasa's lines still teach that wisdom, not luxury, strengthens a kingdom.",
+   "textbook_ref": "gees107.txt, Literature",
+   "question_patterns": [
+    "who was kalidasa and what did he write",
+    "what does the quotation from raghuvamsham teach",
+    "name other sanskrit writers of the gupta age",
+    "why did sanskrit literature flourish under the guptas",
+    "what themes did gupta age poets love",
+    "which plays of kalidasa are famous today"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  },
+  {
+   "id": "gees.7.3",
+   "title": "Gupta Science, Mathematics and Nalanda",
+   "section": "Science and learning",
+   "definition": "Gupta India computed the solar year, explored astronomy and medicine, and carried mathematics forward towards the decimal place-value system; universities such as Nalanda drew students from far lands.",
+   "formula": "",
+   "key_idea": "The age measured the world: from eclipses to digits, Gupta learning reached far beyond its borders.",
+   "textbook_ref": "gees107.txt, Science and learning",
+   "question_patterns": [
+    "what advances in mathematics are linked to this age",
+    "who studied astronomy in the gupta period",
+    "why is nalanda counted among the great universities",
+    "what did indian mathematicians give the world",
+    "how was medicine studied in this age",
+    "why did students come to india from other lands"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  },
+  {
+   "id": "gees.7.4",
+   "title": "Gupta Art, Temples and Iron",
+   "section": "Art and architecture",
+   "definition": "The age raised the first stone temples, painted the Ajanta caves with matchless murals, and cast the rust-resistant iron pillar at Delhi, evidence of engineering skill beside artistic genius.",
+   "formula": "",
+   "key_idea": "Creativity in stone, paint and metal: Gupta art gave India forms of beauty and craft it never lost.",
+   "textbook_ref": "gees107.txt, Art and architecture",
+   "question_patterns": [
+    "describe the art of the ajanta caves",
+    "why is the iron pillar near delhi remarkable",
+    "what were the earliest stone temples like",
+    "how did gupta sculpture depict the buddha",
+    "which crafts flourished in the gupta towns",
+    "what do gupta coins and seals portray"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gees107.txt",
+   "concept": "gees.7.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why is the Gupta period called a golden age?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "gather the evidence",
+     "explain": "Peace, trade, Sanskrit classics, mathematics, astronomy, temples and painting all flowered together."
+    },
+    {
+     "step": 2,
+     "action": "weigh the claim",
+     "explain": "Creativity across so many fields at once justifies the name, though many regions outside the realm had their own genius."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gees107.txt",
+   "concept": "gees.7.2",
+   "question_type": "verify_property",
+   "question_pattern": "begin the journey into the history of the gupta dynasty.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gees107.txt, Let us explore",
+   "questions": [
+    "What does Kalidasa's Raghuvamsham say strengthens a kingdom?",
+    "Begin the journey into the history of the Gupta dynasty.",
+    "Which other kingdoms appear on the map while the Guptas ruled?",
+    "List the Gupta achievements you find most remarkable.",
+    "Mark Nalanda and Prayagraj on an outline map of India."
+   ]
+  }
+ ]
+}

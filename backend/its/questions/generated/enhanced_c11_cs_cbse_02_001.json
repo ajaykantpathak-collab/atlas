@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_02_001",
+   "title": "c11_cs_cbse_02_001",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between Boolean algebra and the arithmetic algebra you studied in earlier classes?",
+     "a": "Boolean algebra operates on binary variables (only two values: 0/1 or True/False) and logical operations (AND, OR, NOT), whereas arithmetic algebra operates on infinite real/complex numbers and arithmetic operations (+, -, ×, ÷). A wrong answer (e.g., \"Boolean algebra uses only 0 and 1 but same operations\") reveals the student confuses the *value set* with the *operations*; they may think 1+1=2 applies in Boolean algebra, not realizing 1+1=1 (OR) or 1·1=1 (AND).",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Boolean algebra is just the binary number system.\" Explain why this statement is incorrect.",
+     "a": "The binary number system is a positional notation for representing quantities (e.g., 101₂ = 5₁₀) using digits 0 and 1 with place values (powers of 2). Boolean algebra is a logical calculus where 0 and 1 represent truth values, and operations are logical (AND, OR, NOT) not arithmetic. A wrong answer indicates the student conflates *representation of numbers* with *manipulation of logical states*—a critical confusion when later learning that 1+1=1 in Boolean OR but 1+1=10 in binary addition.",
+     "self_check": true
+    },
+    {
+     "q": "Identify the binary (two-state) conditions in this scenario: \"A smartphone unlocks if the fingerprint matches OR the correct PIN is entered.\" Assign Boolean values (1/0) to each condition and the outcome.",
+     "a": "Conditions: Fingerprint match (F): 1=match, 0=no match. PIN correct (P): 1=correct, 0=incorrect. Outcome Unlock (U): 1=unlock, 0=stay locked. The logical relationship is U = F OR P. A wrong answer (e.g., assigning 1 to \"incorrect\" or using AND) shows the student cannot map natural language \"OR\" to the correct logical structure or misassigns the active-high convention.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of Boolean algebra in digital circuit design with the role of calculus in mechanical engineering. What makes Boolean algebra uniquely suited for digital systems?",
+     "a": "Calculus models continuous change (voltage, velocity); Boolean algebra models discrete, two-state switching behavior. Digital circuits use transistors as switches (ON/OFF), so their behavior is inherently discrete and logical. Boolean algebra’s two-valued logic directly mirrors the physical states of hardware. A weak answer misses the discrete vs. continuous distinction or fails to link transistor switching to 0/1 abstraction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Since modern computers use 64-bit processors, Boolean algebra is outdated and we should use 64-valued logic instead.\" Defend your position.",
+     "a": "The claim is false. A 64-bit processor processes 64 *independent* Boolean variables in parallel—each bit is still a two-state switch. Multi-valued logic (ternary, etc.) has been researched but is impractical due to noise margins, transistor design, and manufacturing variability. Boolean algebra remains the foundation because its two-state abstraction matches the physics of reliable, mass-producible semiconductor switches. A wrong evaluation suggests the student thinks \"64-bit\" means 64 voltage levels per wire, confusing data width with logic base.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new real-world scenario (different from the examples above) that involves exactly three independent binary conditions and a final decision. Describe the conditions, assign Boolean variables, and write the decision rule in plain English using AND/OR/NOT.",
+     "a": "Example: \"A washing machine starts only if (the door is locked) AND (water level is adequate) AND (the start button is pressed).\" Variables: D=door locked (1/0), W=water adequate (1/0), S=start pressed (1/0). Rule: Start = D AND W AND S. A poor answer uses non-binary conditions (e.g., \"water temperature > 30°C\"), uses vague logic (\"maybe\"), or creates a rule that cannot be expressed with only AND/OR/NOT (e.g., \"exactly two of three\"), revealing inability to abstract a situation into pure two-state logic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

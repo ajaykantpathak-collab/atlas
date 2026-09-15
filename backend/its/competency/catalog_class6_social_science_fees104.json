@@ -1,0 +1,205 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 4,
+ "chapter_title": "Timeline and Sources of History",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fees104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fees.4.1",
+   "title": "Historical Time: BCE and CE",
+   "section": "How do we measure historical time",
+   "definition": "History measures time on a shared timeline: years are counted backwards from the birth of Christ as BCE and forwards as CE, so events can be placed in order across centuries and millennia.",
+   "formula": "",
+   "key_idea": "A common timeline lets people everywhere agree on when things happened, long before clocks or calendars.",
+   "textbook_ref": "fees104.txt, How do we measure historical time",
+   "question_patterns": [
+    "how do we measure historical time",
+    "what do bce and ce stand for on a timeline",
+    "if an event is 500 bce is it earlier or later than 500 ce",
+    "what is a century and what is a millennium",
+    "why do historians need a common way of counting years",
+    "where do humans stand in the long history of the earth"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.4.2",
+   "title": "Sources of History",
+   "section": "Tapestry of the Past",
+   "definition": "Historians read the past through sources: material remains such as pottery, coins and monuments, written records such as manuscripts and inscriptions, and oral traditions passed by word of mouth.",
+   "formula": "sources = material + written + oral",
+   "key_idea": "Each source is a thread; woven together they form the tapestry of the past.",
+   "textbook_ref": "fees104.txt, Tapestry of the Past",
+   "question_patterns": [
+    "what are the different sources of history",
+    "how do coins and ornaments help us understand the past",
+    "what can manuscripts tell us about earlier times",
+    "why are oral traditions also sources of history",
+    "how do archaeologists and historians work together",
+    "which sources survive the longest, and which fade first"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.4.3",
+   "title": "Museums: Homes of the Past",
+   "section": "National Museum passage",
+   "definition": "Museums such as the National Museum in New Delhi collect and preserve objects from the past, statues, coins and ornaments, keeping them safe so that everyone can study and enjoy them.",
+   "formula": "",
+   "key_idea": "A museum is a library of things: each object on display is a source you can see and touch with your eyes.",
+   "textbook_ref": "fees104.txt, National Museum passage",
+   "question_patterns": [
+    "why are museums important for studying history",
+    "what kinds of objects are kept in museums",
+    "where is the national museum mentioned in the chapter",
+    "how do museums protect objects of the past",
+    "what can a single coin in a museum teach us",
+    "how is a museum different from a library"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.4.4",
+   "title": "The Present and the Past",
+   "section": "Opening quotation",
+   "definition": "E. H. Carr calls history an unending dialogue between the present and the past; we understand today's society only in the light of yesterday's, and each generation asks the past fresh questions.",
+   "formula": "",
+   "key_idea": "Studying the past is a conversation: present questions bring old answers to life again.",
+   "textbook_ref": "fees104.txt, Opening quotation",
+   "question_patterns": [
+    "what does e h carr mean by an unending dialogue between the present and the past",
+    "how does understanding the past help us understand the present",
+    "why does history keep being rewritten",
+    "what was your earliest memory and how does it relate to history",
+    "why do historians compare today's society with yesterday's",
+    "what questions would you ask about the past of your town"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fees104.txt",
+   "concept": "fees.4.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why is a coin a good source of history?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the object",
+     "explain": "A coin carries the mark of its ruler, its metal and its date."
+    },
+    {
+     "step": 2,
+     "action": "draw the meaning",
+     "explain": "From one small disc we learn who ruled, what they valued and how trade moved."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fees104.txt",
+   "concept": "fees.4.2",
+   "question_type": "verify_property",
+   "question_pattern": "How do BCE years count backwards?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "fix the line",
+     "explain": "On the timeline, years before Christ are counted backwards towards larger BCE numbers."
+    },
+    {
+     "step": 2,
+     "action": "place events",
+     "explain": "So 500 BCE is earlier than 200 BCE, while CE years grow forward like ordinary counting."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fees104.txt, Tapestry of the Past",
+   "questions": [
+    "What are the Big Questions of this chapter?",
+    "What does the National Museum preserve?",
+    "Why does the chapter begin with your earliest memory?",
+    "Place these on a timeline: your birth, your parents' birth, independence of India.",
+    "List three material sources you can find in your own home."
+   ]
+  }
+ ]
+}

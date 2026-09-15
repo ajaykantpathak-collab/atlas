@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_11_006",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_11_006",
+   "title": "c11_bs_cbse_11_006",
+   "questions": [
+    {
+     "q": "Define licensing and state the term used for the fee paid by the licensee to the licensor.",
+     "a": "Licensing is a contractual arrangement where the licensor grants the licensee the right to use its intellectual property (patents, trademarks, technology) in a foreign country for a fee called **royalty**. A wrong answer (e.g., \"fee is called dividend\" or \"licensing means selling the IP outright\") reveals confusion between licensing (temporary right to use) and assignment (permanent transfer of ownership), or confusion between royalty (usage-based payment) and equity returns.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why franchising is considered \"more stringent\" than licensing, using the difference in what is transferred and the degree of operational control.",
+     "a": "Franchising transfers an entire **business format** (brand, operating procedures, training, supply chain, quality standards) for services, whereas licensing typically transfers only **specific IP** (patent, trademark) for goods. The franchiser exerts **continuous operational control** through detailed manuals, audits, and standards; the licensor usually only monitors IP usage. A wrong answer focusing only on \"fee structure\" or \"duration\" misses the core distinction: franchising replicates a service delivery system, licensing permits IP use.",
+     "self_check": true
+    },
+    {
+     "q": "An Indian pharmaceutical company holds a patent for a low-cost diabetes drug. It wants to enter the Brazilian market but lacks capital for a factory. The Brazilian government mandates local production for pharma imports. Should the company choose licensing or contract manufacturing? Justify with two reasons.",
+     "a": "**Licensing** is the correct choice. Reason 1: The Brazilian government **mandates local production** — licensing allows a Brazilian licensee to manufacture locally using the Indian firm's patent, satisfying the regulation. Contract manufacturing also produces locally, but Reason 2: The Indian firm's core asset is its **patented formula (IP)** — licensing monetises IP directly via royalty; contract manufacturing only outsources production while the firm retains marketing control, which it cannot exercise without a local presence. A wrong choice of contract manufacturing ignores that the firm lacks marketing infrastructure in Brazil and needs the licensee's local market access.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the risk of \"creating a future competitor\" in licensing versus franchising. Which mode carries higher risk and why? Analyse using the concepts of knowledge transfer and market proximity.",
+     "a": "**Licensing carries higher risk** of creating a future competitor. In licensing, the licensee gains **deep technical knowledge** (manufacturing process, formulation, technology) while operating in the **same product market** as the licensor. Once the agreement ends, the licensee can launch a competing product using acquired know-how. In franchising, the franchisee learns **service delivery operations** (front-end processes, branding standards) but not core IP like secret recipes or proprietary technology — the franchiser retains the \"back-end\" competitive advantage. A wrong answer claiming franchising is riskier because of \"more outlets\" confuses market presence with competitive capability.",
+     "self_check": true
+    },
+    {
+     "q": "\"A firm should always prefer licensing over a wholly owned subsidiary because it involves zero investment and zero risk.\" Evaluate this statement. Identify three specific limitations of licensing that make this advice flawed.",
+     "a": "The statement is **flawed**. Three limitations: (1) **IP leakage risk** — trade secrets/technology can be divulged by the licensee, eroding the firm's global competitive advantage; (2) **Quality control failure** — the licensor cannot directly monitor production, risking brand reputation if the licensee cuts corners; (3) **Loss of market control** — the licensee may develop parallel distribution networks or launch a competing brand post-agreement. A wholly owned subsidiary, despite high investment, offers full control, IP protection, and strategic flexibility. A wrong evaluation focusing only on \"financial risk\" ignores strategic risks that can destroy long-term value.",
+     "self_check": true
+    },
+    {
+     "q": "Design a licensing agreement clause that protects the licensor from the licensee launching a competing product after the agreement expires. Specify the clause name, duration, geographic scope, and the key restriction.",
+     "a": "**Non-compete / Restrictive Covenant Clause**: \"For a period of **3 years** post-termination/expiry, the licensee shall not manufacture, market, or sell any product **substantially similar** to the licensed product within the **licensed territory (Brazil)** and **any country where the licensor operates**.\" A poor answer omits duration (making it unenforceable), geographic scope (too broad = void, too narrow = ineffective), or defines \"competing product\" vaguely. The clause must balance enforceability (reasonable time/area) with protection.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

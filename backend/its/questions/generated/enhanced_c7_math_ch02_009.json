@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch02_009",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch02_009",
+   "title": "c7_math_ch02_009",
+   "questions": [
+    {
+     "q": "Without calculating the exact values, state which expression is greater: $457 + 382$ or $457 + 389$? Explain your reasoning in one sentence.",
+     "a": "The second expression ($457 + 389$) is greater because it shares the same first addend ($457$), but its second addend ($389$) is larger than $382$. A student who incorrectly chooses the first expression or tries to compute both full sums does not understand how comparing corresponding parts of a sum works without full computation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why $85 \\times (42 + 19)$ must equal $(85 \\times 42) + (85 \\times 19)$ without evaluating the final product. What mathematical property guarantees this?",
+     "a": "This is guaranteed by the Distributive Property of Multiplication over Addition, which states that multiplying a sum by a number is the same as multiplying each addend by that number and then adding the products. A student who thinks they must calculate both sides to verify equality fails to recognize structural equivalence and relies solely on mechanical arithmetic.",
+     "self_check": true
+    },
+    {
+     "q": "Without computing the exact products, determine the correct comparison sign ($<$, $>$, or $=$) between $743 \\times 19$ and $743 \\times 21$. Show the structural comparison step by step.",
+     "a": "Correct Answer: $743 \\times 19 < 743 \\times 21$. \nSteps:\n1. Identify that both expressions share an identical positive factor ($743$).\n2. Compare the remaining factors: $19$ and $21$.\n3. Note that $19 < 21$.\n4. Conclude that multiplying a positive number by a smaller multiplier yields a smaller product ($743 \\times 19 < 743 \\times 21$).\nA student who multiplies out both numbers is missing the relational shortcut, and an error where they reverse the inequality sign shows a misunderstanding of how scaling a positive quantity works.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the two expressions: $A = (500 - 14) + 85$ and $B = (500 - 15) + 86$. Without computing their totals, determine which expression is larger and explain the compensating change.",
+     "a": "Correct Answer: Expression $A$ and Expression $B$ are equal ($A = B$). \nAnalysis: In moving from $A$ to $B$, the first part of the expression decreases by $1$ (from $-14$ to $-15$), but the second part increases by $1$ (from $+85$ to $+86$). These opposing changes of $-1$ and $+1$ perfectly compensate for each other, keeping the total value unchanged. A student who selects one expression as larger is likely looking at only one operation while ignoring the compensating adjustment in the other part.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the student claim: \"Since $99 \\times 45$ has smaller digits than $100 \\times 45$, the value of $99 \\times 45$ must be greater because smaller numbers pack tighter.\" Is this claim correct? Justify your reasoning by analyzing the relational structure.",
+     "a": "Correct Answer: The student's claim is false. \nJustification: We can rewrite $99 \\times 45$ as $(100 - 1) \\times 45 = (100 \\times 45) - 45$. This shows that $99 \\times 45$ is exactly $45$ less than $100 \\times 45$, making it smaller, not greater. A student who agrees with the claim has fallen for a superficial heuristic about digits and lacks structural command over multiplication as scaling.",
+     "self_check": true
+    },
+    {
+     "q": "Create a pair of unequal arithmetic expressions involving subtraction where the left expression looks larger at first glance due to larger initial numbers, but the right expression is actually larger because of the subtrahends. Explain your design.",
+     "a": "Expected Answer: Left expression: $1000 - 450$; Right expression: $990 - 420$. (Checking: $1000 - 450 = 550$, while $990 - 420 = 570$, so $1000 - 450 < 990 - 420$). \nCriteria for a good answer: The student must deliberately choose a starting number that is larger on the left, but subtract a much larger amount such that the net result flips the inequality. A poor answer uses random numbers without checking the compensatory subtraction effect.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

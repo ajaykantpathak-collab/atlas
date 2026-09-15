@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_11_007",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_11_007",
+   "title": "c11_bs_cbse_11_007",
+   "questions": [
+    {
+     "q": "Define \"Joint Venture\" and \"Wholly Owned Subsidiary\" as modes of entry into international business, and state one key difference in ownership structure between them.",
+     "a": "Joint Venture: An enterprise jointly owned by two or more independent firms (e.g., foreign investor + local firm) sharing equity, control, and risks. Wholly Owned Subsidiary: A foreign entity where the parent company holds 100% equity, established via greenfield investment or acquisition. Key difference: JV involves shared ownership (e.g., 51:49 or 50:50), while WOS involves 100% ownership by a single parent. A wrong answer (e.g., \"JV means licensing technology to a foreign firm\") reveals confusion between contractual entry modes (licensing/franchising) and equity-based entry modes (JV/WOS), indicating the student hasn't grasped the fundamental distinction between non-equity and equity modes.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Joint Ventures are always better than Wholly Owned Subsidiaries because they reduce financial burden and risk.\" Explain why this statement is an oversimplification. Identify two specific situations where a Wholly Owned Subsidiary would be preferable despite higher investment.",
+     "a": "The statement oversimplifies because it ignores trade-offs: JVs dilute control, risk technology leakage, and create potential for partner conflicts. WOS is preferable when: (1) The firm possesses proprietary technology/core competency (e.g., patented drug formulation) that must not be shared — WOS prevents leakage to a local partner who could become a competitor. (2) The host country allows 100% FDI and the firm seeks global integration/standardisation (e.g., Apple setting up own retail stores) — WOS enables unified strategy without partner disagreement. A wrong answer (e.g., \"WOS is better when you have more money\") reveals failure to analyse strategic factors beyond finance, treating entry mode choice as purely a capital availability decision rather than a multi-dimensional strategic choice.",
+     "self_check": true
+    },
+    {
+     "q": "\"AutoTech India Ltd.\" (auto components manufacturer, ₹200 cr turnover) wants to enter Brazil. Brazil allows 100% FDI in auto sector but has complex labour laws and high import tariffs on finished goods. AutoTech has proprietary metallurgy technology for lightweight pistons. They have ₹80 crore surplus for international expansion. Should they choose JV or WOS? Justify using three factors from the chapter.",
+     "a": "WOS is more suitable. Factor 1 — Technology protection: Proprietary metallurgy is a core competitive advantage; JV risks leakage to local partner (NCERT: \"foreign firms... share technology and trade secrets... running risks of such technology being disclosed\"). Factor 2 — Tariff avoidance: High import tariffs on finished goods favour local production; WOS (greenfield) allows full control over manufacturing to serve Brazilian market without tariff. Factor 3 — Capital adequacy: ₹80 crore surplus is sufficient for a greenfield auto component plant in Brazil (typical capex ₹50-100 cr), so financial burden is manageable. A wrong answer choosing JV because \"Brazil has complex labour laws\" reveals misunderstanding: local partner helps navigate regulations, but WOS can hire local legal/HR experts without surrendering equity/technology — the student overweights one factor while ignoring the critical technology protection dimension.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"Greenfield Venture\" and \"Acquisition\" routes to establishing a Wholly Owned Subsidiary. Analyse how each route differs in terms of: (a) speed to market, (b) integration risk, (c) access to existing brand/distribution, and (d) regulatory scrutiny in host country.",
+     "a": "Greenfield: (a) Slow — build from scratch (land, factory, hiring), (b) Low integration risk — no legacy culture/systems, (c) No existing brand/distribution — must build from zero, (d) Lower regulatory scrutiny — new investment usually welcomed. Acquisition: (a) Fast — immediate operations, (b) High integration risk — merging cultures, IT, processes, (c) Instant access to brand, distribution, customers, (d) Higher scrutiny — competition/antitrust review, national security concerns in sensitive sectors. A wrong answer stating \"Acquisition is always faster and better\" reveals failure to recognise integration risk as a major cause of M&A failure (70-90% fail to create value per studies), treating speed as the only metric while ignoring post-acquisition integration complexity.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"In countries with political instability, Joint Ventures are always safer than Wholly Owned Subsidiaries because the local partner absorbs political risk.\" Provide a reasoned judgment with two supporting arguments and one counter-argument.",
+     "a": "Judgment: The claim is partially valid but not universally true. Supporting arguments: (1) Local partner's political connections/knowledge can navigate regulatory hurdles, lobbying, and community relations — reducing expropriation/nationalisation risk (NCERT: \"sharing costs and/or risks with a local partner\"). (2) Host governments may view JVs more favourably as \"local participation,\" lowering discriminatory policy risk. Counter-argument: In unstable regimes, local partners may themselves be politically exposed (cronyism, corruption scandals) or may exploit the foreign partner's dependence — the foreign firm could face hold-up problems, forced technology transfer, or partner expropriation of JV assets. A wrong answer agreeing fully (\"JV always safer\") reveals binary thinking, ignoring that political risk manifests differently — JVs replace sovereign risk with partner risk, which can be equally damaging.",
+     "self_check": true
+    },
+    {
+     "q": "Create a decision framework (flowchart or checklist) that a mid-sized Indian pharmaceutical company (₹500 cr turnover, patented drug delivery technology, ₹150 cr expansion budget) should use to choose between JV and WOS for entering: (a) USA (strict IP laws, 100% FDI allowed, high labour cost), (b) Indonesia (weak IP enforcement, 75% FDI cap in pharma, growing market). Specify the decision rule for each country.",
+     "a": "Framework: Step 1 — Assess IP sensitivity: If core tech is patented & leakage risk high → favour WOS. Step 2 — Check FDI cap: If <100% → JV mandatory (Indonesia 75% cap). Step 3 — Evaluate capital adequacy: If budget ≥ greenfield cost → WOS feasible. Step 4 — Assess market knowledge need: If high → JV adds value. Decision rules: (a) USA: WOS — 100% FDI allowed, strong IP protection makes WOS safe, ₹150 cr sufficient for US facility, no local partner needed for market access. (b) Indonesia: JV mandatory — 75% FDI cap legally requires local partner; additionally, weak IP enforcement makes technology sharing risky, so structure JV with contractual safeguards (limited tech transfer, audit rights). A poor answer giving same mode for both countries reveals failure to incorporate host country policy constraints (FDI caps) as binding decision rules, treating entry mode as purely firm-driven rather than policy-constrained.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

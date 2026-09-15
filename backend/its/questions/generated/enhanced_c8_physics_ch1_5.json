@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch1_5",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch1_5",
+   "title": "c8_physics_ch1_5",
+   "questions": [
+    {
+     "q": "In an experiment to find out whether the length of a pendulum affects its time period, a student changes the length of the string and measures the time for 10 oscillations. What is the independent variable in this experiment?",
+     "a": "The independent variable is the length of the pendulum string. A wrong answer (e.g., \"time period\" or \"mass of the bob\") reveals the student confuses the variable being changed with the variable being measured or with a controlled variable, indicating they cannot distinguish cause (what the investigator manipulates) from effect (what responds).",
+     "self_check": true
+    },
+    {
+     "q": "A student says, \"In my experiment on how fertilizer amount affects plant height, the type of soil is my dependent variable because it depends on how much fertilizer I use.\" Explain why this statement is incorrect and identify what type of variable the soil type actually is.",
+     "a": "The statement is incorrect because the dependent variable is the outcome measured (plant height), not a condition kept constant. Soil type is a controlled variable — it must be the same for all plants so that only fertilizer amount affects growth. A wrong answer shows the student thinks \"dependent\" means \"related to\" rather than \"the measured response,\" revealing confusion between variable roles and everyday language meanings.",
+     "self_check": true
+    },
+    {
+     "q": "Riya wants to test if the temperature of water affects how quickly sugar dissolves. She uses 100 mL of water in each trial, adds 10 g of sugar, and stirs 20 times. She tries water at 20°C, 40°C, and 60°C and records the time until sugar disappears. List the independent variable, dependent variable, and at least three controlled variables.",
+     "a": "Independent: water temperature (20°C, 40°C, 60°C). Dependent: time for sugar to dissolve (seconds). Controlled: volume of water (100 mL), mass of sugar (10 g), number of stirs (20), type of sugar, container size, stirring method. Missing any controlled variable or mislabeling temperature as dependent reveals the student cannot systematically identify all factors that must be held constant for a fair test.",
+     "self_check": true
+    },
+    {
+     "q": "Two students design experiments to test \"Does the angle of a ramp affect the speed of a toy car at the bottom?\" Student A changes the ramp angle but also uses different cars for each angle. Student B uses the same car, same ramp surface, same release point, and only changes the angle. Compare the two experiments and explain which one can validly answer the question and why.",
+     "a": "Student B's experiment is valid because only the independent variable (ramp angle) changes; all other factors (car mass, wheels, ramp surface, release height) are controlled. Student A's experiment introduces a second changing variable (different cars), making it impossible to know if speed differences come from angle or car differences. A wrong answer shows the student does not grasp that uncontrolled variables confound cause-effect conclusions.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate claims: \"In my experiment on how light intensity affects photosynthesis rate in hydrilla, I kept the lamp distance same but changed the bulb wattage. Since I changed the bulb, the independent variable is the bulb type.\" Evaluate this claim and correct the error.",
+     "a": "The claim is incorrect. The independent variable is the factor deliberately varied to test its effect — here, light intensity (changed via bulb wattage). Bulb type is merely the method to change intensity; if the student used neutral density filters instead, the independent variable would still be light intensity. A wrong evaluation reveals the student confuses the experimental manipulation (changing bulbs) with the conceptual variable (light intensity), showing a lack of abstraction from apparatus to variable.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to investigate \"Does the amount of salt affect the boiling point of water?\" Specify the independent variable, dependent variable, and at least four controlled variables. Write a step-by-step procedure a Class 8 student could follow in a school lab.",
+     "a": "Independent: mass of salt added (e.g., 0 g, 5 g, 10 g, 15 g per 100 mL water). Dependent: boiling point of solution (°C). Controlled: volume of water (100 mL), type of salt (NaCl), heating rate (same burner setting), same beaker, same thermometer, atmospheric pressure (same day). Procedure: 1) Measure 100 mL water into beaker. 2) Add 0 g salt, heat, record boiling point. 3) Repeat with 5 g, 10 g, 15 g salt. 4) Plot boiling point vs. salt mass. A poor design omits controlled variables, uses vague amounts, or lacks repetition, showing the student cannot translate a question into a fair-test plan.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

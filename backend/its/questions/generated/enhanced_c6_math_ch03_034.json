@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch03_034",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch03_034",
+   "title": "c6_math_ch03_034",
+   "questions": [
+    {
+     "q": "What is the first step you must take when subtracting two fractions that have different denominators?",
+     "a": "The first step is to find a common denominator by converting the fractions into equivalent fractions. A student who says \"subtract the smaller denominator from the larger\" is incorrectly applying whole-number logic to fractions.",
+     "self_check": true
+    },
+    {
+     "q": "If you have 5/6 and 1/6, can you subtract them directly? Why or why not?",
+     "a": "Yes, you can subtract them directly because they already have the same denominator (the same fractional unit). A student who attempts to find a common denominator here shows they do not understand that the denominator already represents the same sized part.",
+     "self_check": true
+    },
+    {
+     "q": "Solve: 3/4 - 1/5.",
+     "a": "1. Find LCM of 4 and 5, which is 20. 2. Convert 3/4 to 15/20 and 1/5 to 4/20. 3. Subtract numerators: 15 - 4 = 11. 4. Result is 11/20. A student who gets 2/1 (or similar) is subtracting denominators, which is a major error.",
+     "self_check": true
+    },
+    {
+     "q": "Why does 2/3 - 1/3 = 1/3, but 2/3 - 1/2 is not 1/1?",
+     "a": "The first works because the unit is the same (thirds). The second fails because 2/3 and 1/2 represent different sized pieces; you must convert them to 4/6 and 3/6 to see the true difference is 1/6. A student who thinks the result is 1/1 ignores the physical meaning of the denominator.",
+     "self_check": true
+    },
+    {
+     "q": "Jaya says that to subtract 5/8 from 7/8, she must change the denominator to 16. Is she correct?",
+     "a": "No, she is not correct because the denominators are already the same. Changing them to 16 is unnecessary work that makes the calculation more prone to error; 7/8 - 5/8 = 2/8, which simplifies to 1/4.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem where you would need to subtract 1/4 from 1/2.",
+     "a": "\"If I have 1/2 kg of sugar and use 1/4 kg for a cake, how much is left?\" A poor answer would just be a string of numbers like \"What is 1/2 - 1/4?\" without a real-world context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

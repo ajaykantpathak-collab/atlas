@@ -1,0 +1,203 @@
+{
+ "catalog": "catalog_class11_biology_ch112",
+ "concepts": [
+  {
+   "id": "kebo.12.1",
+   "title": "Cellular Respiration and Substrates",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Cellular Respiration and Substrates' refers to.",
+     "a": "The biochemical process occurring within cells where chemical bonds of organic compounds are indeed oxidised to liberate energy stored as ATP.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cellular Respiration and Substrates'.",
+     "a": "Energy stored in organic nutrients is harvested through controlled enzymatic oxidation to synthesise ATP.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Cellular Respiration and Substrates', in plain ASCII form.",
+     "a": "C6H12O6 + 6O2 -> 6CO2 + 6H2O + energy",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.12.2",
+   "title": "Glycolysis (EMP Pathway)",
+   "questions": [
+    {
+     "q": "Calculate net ATP formed directly during glycolysis. Use the method 'Glycolysis (EMP Pathway)'. Work with: formed_atp = 100, glucose_molecules = 30, used_atp = 60. Carry the chain through step by step and give the final value of nadh_yield.",
+     "a": "60 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the direct ATP yield in glycolytic breakdown. Use the method 'Glycolysis (EMP Pathway)'. Work with: formed_atp = 6, glucose_molecules = 400, used_atp = 18. Carry the chain through step by step and give the final value of nadh_yield.",
+     "a": "800 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Glycolysis (EMP Pathway)' refers to.",
+     "a": "A ten-step anaerobic cytoplasmic pathway where one molecule of glucose is partially oxidised into two molecules of pyruvic acid.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Glycolysis (EMP Pathway)'.",
+     "a": "Glucose splits into two pyruvic acid molecules in the cytoplasm without consuming molecular oxygen.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Glycolysis (EMP Pathway)', in plain ASCII form.",
+     "a": "net_atp = formed_atp - used_atp",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.12.3",
+   "title": "Fermentation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Fermentation' refers to.",
+     "a": "An anaerobic metabolic breakdown of pyruvate into lactic acid or ethanol and carbon dioxide with low energy release.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Fermentation'.",
+     "a": "Incomplete oxidation under anaerobic conditions yields metabolic byproducts and regenerates NAD+.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Fermentation', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.12.4",
+   "title": "Link Reaction and Tricarboxylic Acid (TCA) Cycle",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Link Reaction and Tricarboxylic Acid (TCA) Cycle' refers to.",
+     "a": "A mitochondrial matrix pathway where acetyl-CoA condenses with oxaloacetate to undergo cyclic decarboxylation and oxidation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Link Reaction and Tricarboxylic Acid (TCA) Cycle'.",
+     "a": "Pyruvate undergoes oxidative decarboxylation to form acetyl-CoA, which fuels the cyclic generation of reduced coenzymes.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Link Reaction and Tricarboxylic Acid (TCA) Cycle', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.12.5",
+   "title": "Electron Transport System and Oxidative Phosphorylation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Electron Transport System and Oxidative Phosphorylation' refers to.",
+     "a": "A chain of inner mitochondrial membrane protein complexes that transfer electrons to oxygen while creating a proton gradient for ATP synthesis.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Electron Transport System and Oxidative Phosphorylation'.",
+     "a": "Flow of electrons through respiratory complexes drives proton pumping across the inner membrane to power ATP synthase.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Electron Transport System and Oxidative Phosphorylation', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.12.6",
+   "title": "Respiratory Balance Sheet and ATP Calculation",
+   "questions": [
+    {
+     "q": "Calculate total ATP generated given counts of NADH FADH2 and direct ATP. Use the method 'Respiratory Balance Sheet and ATP Calculation'. Work with: direct_atp = 20, fadh2 = 50, nadh = 6. Carry the chain through step by step and give the final value of total_atp.",
+     "a": "138 units",
+     "self_check": false
+    },
+    {
+     "q": "Compute the net theoretical ATP yield from full oxidation of glucose. Use the method 'Respiratory Balance Sheet and ATP Calculation'. Work with: direct_atp = 360, fadh2 = 18, nadh = 3. Carry the chain through step by step and give the final value of total_atp.",
+     "a": "405 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Respiratory Balance Sheet and ATP Calculation' refers to.",
+     "a": "A quantitative accounting of total theoretical ATP produced from complete oxidation of one glucose molecule.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Respiratory Balance Sheet and ATP Calculation'.",
+     "a": "Total theoretical yield is determined by summing direct ATP both synthesis and ATP generated from coenzyme oxidation.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Respiratory Balance Sheet and ATP Calculation', in plain ASCII form.",
+     "a": "total_atp = (nadh * 3) + (fadh2 * 2) + direct_atp",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.12.7",
+   "title": "Amphibolic Pathway",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Amphibolic Pathway' refers to.",
+     "a": "A metabolic pathway that functions in both catabolic breaking-down operations and anabolic biosynthetic construction.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Amphibolic Pathway'.",
+     "a": "Respiratory intermediates act as precursor molecules for anabolic synthesis of lipids, proteins, and carbohydrates.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Amphibolic Pathway', in plain ASCII form.",
+     "a": "concept method; no single closed formula",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "kebo.12.8",
+   "title": "Respiratory Quotient (RQ)",
+   "questions": [
+    {
+     "q": "Calculate the respiratory quotient given evolved carbon dioxide and consumed oxygen. Use the method 'Respiratory Quotient (RQ)'. Work with: volume_co2 = 360, volume_o2 = 300. Carry the chain through step by step and give the final value of rq.",
+     "a": "1.2 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the RQ value when given volumes of CO2 evolved and O2 consumed. Use the method 'Respiratory Quotient (RQ)'. Work with: volume_co2 = 50, volume_o2 = 120. Carry the chain through step by step and give the final value of rq.",
+     "a": "0.4167 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Respiratory Quotient (RQ)' refers to.",
+     "a": "The numerical ratio of the volume of carbon dioxide given out to the volume of oxygen taken in during respiration.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Respiratory Quotient (RQ)'.",
+     "a": "The ratio of CO2 produced to O2 consumed depends directly on the chemical nature of the respired substrate.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Respiratory Quotient (RQ)', in plain ASCII form.",
+     "a": "rq = volume_co2 / volume_o2",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

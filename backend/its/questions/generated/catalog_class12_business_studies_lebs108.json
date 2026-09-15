@@ -1,0 +1,183 @@
+{
+ "catalog": "catalog_class12_business_studies_lebs108",
+ "concepts": [
+  {
+   "id": "lebs.108.1.1",
+   "title": "Meaning and Features of Controlling",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Meaning and Features of Controlling' refers to.",
+     "a": "The managerial function of seeing that work actually follows the plans laid down, so that the organisation's resources are put to effective and efficient use in reaching its set goals.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Meaning and Features of Controlling'.",
+     "a": "It is goal-oriented, pervasive across all levels and all kinds of organisations, and never merely the closing act -- by exposing deviations and their causes it feeds the next round of planning and thus completes one management cycle only to restart it.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Meaning and Features of Controlling' taught, and from which source text?",
+     "a": "1.1 (source: lebs108.txt lines 54-105 (Meaning of Controlling; pervasive and primary; not the last function))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.108.2.1",
+   "title": "Importance of Controlling",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Importance of Controlling' refers to.",
+     "a": "The payoffs of a sound control system: it steers the organisation toward its goals by exposing deviations, tests whether the standards themselves are accurate, cuts wastage of resources, motivates employees who know how they will be judged, curbs dishonesty through close checking, and aligns every department behind one direction.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Importance of Controlling'.",
+     "a": "Six benefits -- goal accomplishment, judging standards, efficient resource use, motivation, order and discipline, coordination in action.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Importance of Controlling' taught, and from which source text?",
+     "a": "2.1 (source: lebs108.txt lines 106-180 (Importance i-vi; computer monitoring case))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.108.2.2",
+   "title": "Limitations of Controlling",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Limitations of Controlling' refers to.",
+     "a": "The boundaries of the function: some standards such as morale or satisfaction resist measurement in numbers, external forces like government policy and technology stay beyond its reach, employees often resent being watched, and running a control system costs money, time and effort that a small firm may not justify.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Limitations of Controlling'.",
+     "a": "Four limitations -- hard-to-quantify standards, external factors, employee resistance, and cost; the rule is that control costs must never outstrip control benefits.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Limitations of Controlling' taught, and from which source text?",
+     "a": "2.2 (source: lebs108.txt lines 181-239 (Limitations i-iv))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.108.3.1",
+   "title": "Relationship between Planning and Controlling",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Relationship between Planning and Controlling' refers to.",
+     "a": "Two inseparable twins: planning supplies the standards that controlling measures performance against, and controlling feeds back what actually happened so that future plans improve -- each is meaningless without the other.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Relationship between Planning and Controlling'.",
+     "a": "Planning prescribes while controlling evaluates; planning looks ahead and controlling looks back, yet both face both ways -- plans draw on past experience and corrective action targets future performance.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Relationship between Planning and Controlling' taught, and from which source text?",
+     "a": "3.1 (source: lebs108.txt lines 251-322 (Relationship between Planning and Controlling))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.108.4.1",
+   "title": "Steps in the Controlling Process",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Steps in the Controlling Process' refers to.",
+     "a": "Five ordered steps: set the performance standards in precise, preferably quantitative terms, measure the actual performance objectively through observation, sample checking or reports, compare it with the standards, analyse the deviations that cross the acceptable range and find their causes, and finally take corrective action or revise the standards.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Steps in the Controlling Process'.",
+     "a": "Standards may be quantitative like cost, units and time, or qualitative like goodwill; measurement works best in the same units as the standard, and comparison exposes the deviation.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Steps in the Controlling Process' taught, and from which source text?",
+     "a": "4.1 (source: lebs108.txt lines 323-618 (Controlling Process steps 1-5, standards table, sample checking))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.108.4.2",
+   "title": "Measuring Deviation from Standards",
+   "questions": [
+    {
+     "q": "Using the method 'Measuring Deviation from Standards', work with: actual_performance = 120, standard_performance = 50. Carry the chain through step by step and give the final value of percentage_deviation.",
+     "a": "140 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Measuring Deviation from Standards' and work with: actual_performance = 45, standard_performance = 5. Carry the chain through step by step and give the final value of percentage_deviation.",
+     "a": "800 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Measuring Deviation from Standards' refers to.",
+     "a": "The arithmetic heart of step three and four: the gap between what was actually achieved and what the standard demanded shows the deviation, and expressing it as a percentage of the standard tells the manager how serious it is relative to the acceptable range.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Measuring Deviation from Standards'.",
+     "a": "A positive figure means performance ran above standard, a negative one below; only deviations beyond the permissible limit, such as labour cost rising past the allowed 2 per cent, reach the manager.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Measuring Deviation from Standards', in plain ASCII form.",
+     "a": "percentage_deviation = (actual_performance - standard_performance) / standard_performance * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.108.4.3",
+   "title": "Critical Point Control and Management by Exception",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Critical Point Control and Management by Exception' refers to.",
+     "a": "Two companion principles for step four: critical point control concentrates attention on the key result areas whose failure would hurt the whole organisation, and management by exception escalates only the significant deviations that cross the permissible limit, leaving routine variance to subordinates.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Critical Point Control and Management by Exception'.",
+     "a": "Controlling everything controls nothing; a 5 per cent labour-cost rise may matter more than a 15 per cent rise in postal charges -- the advantages are saved time, focus on vital areas, easier delegation and timely action on critical problems.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Critical Point Control and Management by Exception' taught, and from which source text?",
+     "a": "4.1 (source: lebs108.txt lines 464-568 (critical point control, management by exception, advantages box))",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "lebs.108.5.1",
+   "title": "Techniques of Managerial Control",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Techniques of Managerial Control' refers to.",
+     "a": "The manager's toolkit falls in two shelves: traditional techniques -- breakeven analysis, personal observation, statistical reports and budgetary control -- and modern techniques -- ratio analysis, return on investment, management audit, PERT and CPM, responsibility accounting, and the management information system.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Techniques of Managerial Control'.",
+     "a": "Breakeven analysis finds the no-profit-no-loss point, budgetary control runs the firm against quantified plans, PERT and CPM schedule networked projects, and a management audit reviews the whole managerial apparatus rather than one post.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Techniques of Managerial Control' taught, and from which source text?",
+     "a": "5.1 (source: lebs108.txt lines 624-658 (Key terms and summary lists of traditional and modern techniques))",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

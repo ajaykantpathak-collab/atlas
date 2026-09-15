@@ -1,0 +1,467 @@
+{
+ "class": 9,
+ "subject": "science",
+ "chapter": 108,
+ "chapter_title": "Journey Inside the Atom",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/iesc108.txt",
+ "concepts": [
+  {
+   "id": "iesc.8.1",
+   "title": "Early Foundations of Atomic Theory",
+   "section": "8.1",
+   "definition": "The philosophical concept that matter is made up of minute, indivisible particles, formulated independently by ancient scholars like Kanada and Democritus, and later formalized into a scientific framework by John Dalton.",
+   "formula": "None",
+   "key_idea": "Matter is built from tiny fundamental constituents that preserve identity across transformations.",
+   "textbook_ref": "iesc108.txt lines 15-45",
+   "question_patterns": [
+    "What did ancient scholars propose regarding the divisibility of matter?",
+    "Explain the fundamental postulates of John Dalton's atomic theory.",
+    "How did early philosophical views on atoms differ from Dalton's scientific proposal?",
+    "What is the origin of the term atomos?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify_early_concepts",
+     "explain": "Kanada introduced 'parmanus' while Democritus named indivisible particles 'atomos'."
+    },
+    {
+     "step": 2,
+     "action": "summarize_dalton_theory",
+     "explain": "Dalton proposed that all matter consists of indivisible atoms based on experimental chemical laws."
+    }
+   ]
+  },
+  {
+   "id": "iesc.8.2.1",
+   "title": "Thomson's Atomic Model and Cathode Rays",
+   "section": "8.2.1",
+   "definition": "An early atomic model describing an atom as a uniform sphere of positive charge containing embedded negatively charged electrons, maintaining electrical neutrality.",
+   "formula": "net_charge = positive_charge + negative_charge = 0",
+   "key_idea": "Atoms contain subatomic electrons distributed inside a positively charged medium.",
+   "textbook_ref": "iesc108.txt lines 50-80",
+   "question_patterns": [
+    "Describe J. J. Thomson's plum pudding or watermelon model of the atom.",
+    "How were cathode rays shown to consist of negatively charged subatomic particles?",
+    "Why is Thomson's model known as the plum pudding model?",
+    "What key subatomic particle was discovered using cathode ray tubes?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe_experiment",
+     "explain": "Cathode ray experiments revealed negatively charged particles (electrons) common to all matter."
+    },
+    {
+     "step": 2,
+     "action": "explain_model_structure",
+     "explain": "Thomson envisioned electrons embedded in a positively charged sphere like seeds in a watermelon."
+    }
+   ]
+  },
+  {
+   "id": "iesc.8.2.2",
+   "title": "Rutherford's Gold Foil Experiment and Nuclear Model",
+   "section": "8.2.2",
+   "definition": "A structural model of the atom established by observing alpha-particle deflection through a thin gold foil, demonstrating a small, dense, positively charged central nucleus surrounded by orbiting electrons.",
+   "formula": "atom_diameter / nucleus_diameter = 10**5",
+   "key_idea": "In brief, In brief, Most of the volume of an atom is indeed empty space, with virtually all mass concentrated in a tiny nucleus.",
+   "textbook_ref": "iesc108.txt lines 85-135",
+   "question_patterns": [
+    "What were the key observations of Rutherford's alpha particle scattering experiment?",
+    "What conclusions did Rutherford draw from the bouncing back of a few alpha particles?",
+    "Calculate the relative size difference between an atom and its nucleus.",
+    "Why did Rutherford's planetary model fail to explain atomic stability?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "analyze_alpha_scattering",
+     "explain": "Most alpha particles passed straight, while a tiny fraction deflected at large angles or bounced back."
+    },
+    {
+     "step": 2,
+     "action": "derive_nuclear_structure",
+     "explain": "The positive charge and mass are concentrated in a tiny central nucleus, leaving most space empty."
+    }
+   ]
+  },
+  {
+   "id": "iesc.8.2.3",
+   "title": "Bohr's Postulates and Energy Levels",
+   "section": "8.2.3",
+   "definition": "An atomic model proposing that electrons move only within discrete, fixed-energy circular orbits (shells) around the nucleus without radiating energy.",
+   "formula": "None",
+   "key_idea": "In brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, In brief, Electrons orbit in quantized non-radiating energy shells designated K, L, M, N.",
+   "textbook_ref": "iesc108.txt lines 140-175",
+   "question_patterns": [
+    "How did Niels Bohr resolve the limitation of Rutherford's atomic model regarding stability?",
+    "What are discrete energy orbits or shells in Bohr's model?",
+    "Designate the energy shells corresponding to principal quantum values n = 1, 2, 3, 4.",
+    "What happens to an electron's energy as it stays in a fixed orbit?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state_bohr_postulate",
+     "explain": "Electrons revolve in discrete orbits without radiating energy, maintaining atomic stability."
+    },
+    {
+     "step": 2,
+     "action": "label_shells",
+     "explain": "Orbits are designated as K (n=1), L (n=2), M (n=3), N (n=4), increasing in energy outward."
+    }
+   ]
+  },
+  {
+   "id": "iesc.8.5",
+   "title": "Atomic Number and Charge Conservation",
+   "section": "8.5",
+   "definition": "In brief, the total count of protons contained inside the nucleus of an atom, written as Z, which dictates elemental identity and equals the electron count in a neutral atom.",
+   "formula": "atomic_number = protons = electrons",
+   "key_idea": "In brief, In brief, In brief, In brief, the atomic number uniquely defines the chemical identity and electron count of a neutral atom.",
+   "textbook_ref": "iesc108.txt lines 215-235",
+   "question_patterns": [
+    "Find the number of protons and electrons for an element with atomic number Z.",
+    "What is the relation between atomic number and the number of electrons in a neutral atom?",
+    "Calculate the proton count in an atom given its atomic number.",
+    "How does atomic number determine elemental identity?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "determine_protons",
+     "explain": "The number of protons in the nucleus is equal to the atomic number Z."
+    },
+    {
+     "step": 2,
+     "action": "determine_electrons",
+     "explain": "In a neutral atom, electron count equals proton count."
+    }
+   ]
+  },
+  {
+   "id": "iesc.8.6",
+   "title": "Mass Number and Subatomic Composition",
+   "section": "8.6",
+   "definition": "The combined count of protons and neutrons (collectively termed nucleons) present in the nucleus of an atom, written as A.",
+   "formula": "mass_number = protons + neutrons",
+   "key_idea": "Mass number reflects total heavy nuclear particles, allowing calculation of neutron count.",
+   "textbook_ref": "iesc108.txt lines 236-260",
+   "question_patterns": [
+    "Calculate the number of neutrons in an atom given its mass number and atomic number.",
+    "Find the mass number of an atom with given counts of protons and neutrons.",
+    "An atom has mass number A and atomic number Z; find its neutron count.",
+    "How many nucleons are present in an atom given its atomic parameters?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find_protons",
+     "explain": "Set proton count equal to atomic number Z.",
+     "compute": "protons = atomic_number"
+    },
+    {
+     "step": 2,
+     "action": "compute_neutrons",
+     "explain": "Subtract proton count from mass number to get neutron count.",
+     "compute": "neutrons = mass_number - protons"
+    }
+   ]
+  },
+  {
+   "id": "iesc.8.7",
+   "title": "Bohr-Bury Electron Shell Capacity",
+   "section": "8.7",
+   "definition": "In brief, In brief, the maximum permissible number of electrons that can indeed be held in a given principal energy level n, calculated using the 2n² expression.",
+   "formula": "max_electrons = 2 * (n ** 2)",
+   "key_idea": "Electron capacity grows quadratically with shell level index n.",
+   "textbook_ref": "iesc108.txt lines 265-290",
+   "question_patterns": [
+    "Calculate the maximum number of electrons that can be accommodated in shell n.",
+    "What is the maximum electron capacity of the K, L, or M shell?",
+    "Find the electron capacity of the nth energy level using the Bohr-Bury rule.",
+    "How many electrons can the 3rd orbit contain at most?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square_shell_number",
+     "explain": "Square the shell index n.",
+     "compute": "n_sq = n ** 2"
+    },
+    {
+     "step": 2,
+     "action": "calculate_capacity",
+     "explain": "Multiply squared shell index by 2 to obtain maximum capacity.",
+     "compute": "max_electrons = 2 * n_sq"
+    }
+   ]
+  },
+  {
+   "id": "iesc.8.8",
+   "title": "Valency and Octet Rule",
+   "section": "8.8",
+   "definition": "The combining capacity of an atom, determined by the number of valence electrons lost, gained, or shared to reach a stable octet (or duplet for K shell) configuration.",
+   "formula": "valency = valence_electrons (if valence_electrons <= 4) else 8 - valence_electrons",
+   "key_idea": "In brief, In brief, In brief, Atoms interact to complete their outer electron shell for maximum stability.",
+   "textbook_ref": "iesc108.txt lines 310-345",
+   "question_patterns": [
+    "Determine the valency of an element given its electronic configuration.",
+    "What are valence electrons and how do they determine an atom's valency?",
+    "Find the valency of an atom with 6 electrons in its outermost shell.",
+    "Explain why noble gases exhibit zero valency."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify_valence_electrons",
+     "explain": "Identify the number of electrons in the outermost shell."
+    },
+    {
+     "step": 2,
+     "action": "apply_octet_rule",
+     "explain": "If outer electrons <= 4, valency equals valence count; if > 4, valency equals 8 minus valence count."
+    }
+   ]
+  },
+  {
+   "id": "iesc.8.9.1a",
+   "title": "Concept and Applications of Isotopes",
+   "section": "8.9.1",
+   "definition": "Atoms of the same chemical element possessing the identical atomic number (protons) but different mass numbers because of varying neutron counts.",
+   "formula": "None",
+   "key_idea": "Isotopes share chemical properties due to identical electron arrangements but differ in physical mass.",
+   "textbook_ref": "iesc108.txt lines 350-385",
+   "question_patterns": [
+    "What are isotopes? Give examples of hydrogen isotopes.",
+    "Why do isotopes of an element display identical chemical properties?",
+    "State two practical applications of radioactive isotopes in medicine or energy.",
+    "Compare protium, deuterium, and tritium in terms of subatomic particles."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define_isotopes",
+     "explain": "Isotopes have the same Z (protons) but different A (mass numbers/neutrons)."
+    },
+    {
+     "step": 2,
+     "action": "explain_chemical_similarity",
+     "explain": "Chemical behavior depends on valence electrons, which are identical across isotopes."
+    }
+   ]
+  },
+  {
+   "id": "iesc.8.9.1b",
+   "title": "Weighted Average Atomic Mass Calculation",
+   "section": "8.9.1",
+   "definition": "In brief, In brief, In brief, In brief, the effective atomic mass of a naturally occurring element, calculated as the weighted sum of isotopic masses according to their relative percentage abundances.",
+   "formula": "avg_mass = (mass_1 * percent_1 + mass_2 * percent_2) / 100",
+   "key_idea": "Natural atomic mass reflects the relative natural presence of each constituent isotope.",
+   "textbook_ref": "iesc108.txt lines 386-420",
+   "question_patterns": [
+    "Calculate the average atomic mass of an element given the masses and abundances of two isotopes.",
+    "Find the average atomic mass of bromine given isotopic abundances 79Br (49.7%) and 81Br (50.3%).",
+    "Why is the atomic mass of chlorine written as 35.5 u?",
+    "Compute weighted atomic mass from isotopic percentage distribution."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute_first_contribution",
+     "explain": "Multiply the mass of the first isotope by its percentage abundance.",
+     "compute": "part_1 = mass_1 * percent_1"
+    },
+    {
+     "step": 2,
+     "action": "compute_second_contribution",
+     "explain": "Multiply the mass of the second isotope by its percentage abundance.",
+     "compute": "part_2 = mass_2 * percent_2"
+    },
+    {
+     "step": 3,
+     "action": "calculate_weighted_average",
+     "explain": "Add contributions and divide by 100 to obtain weighted average atomic mass.",
+     "compute": "avg_mass = (part_1 + part_2) / 100"
+    }
+   ]
+  },
+  {
+   "id": "iesc.8.9.2",
+   "title": "Concept of Isobars",
+   "section": "8.9.2",
+   "definition": "Atoms belonging to different chemical elements that share the same mass number but have different atomic numbers.",
+   "formula": "None",
+   "key_idea": "In brief, In brief, In brief, Isobars are indeed distinct elements with differing proton counts that sum to equal nuclear masses.",
+   "textbook_ref": "iesc108.txt lines 425-445",
+   "question_patterns": [
+    "What are isobars? Give an example pair.",
+    "How do isobars differ from isotopes?",
+    "Why do isobars exhibit completely different chemical properties?",
+    "Compare calcium-40 and argon-40 in terms of subatomic constituents."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define_isobars",
+     "explain": "Isobars have different Z (different elements) but equal mass numbers A."
+    },
+    {
+     "step": 2,
+     "action": "distinguish_from_isotopes",
+     "explain": "Unlike isotopes, isobars possess different chemical properties because their atomic numbers differ."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "iesc108.txt lines 245-255 (Pause and Ponder Q10)",
+   "concept": "iesc.8.6",
+   "question_type": "compute",
+   "question_pattern": "An atom with an atomic number of {atomic_number} has {mass_number} nucleons. Find out its number of electrons, protons and neutrons.",
+   "extracted_variables": {
+    "atomic_number": 26,
+    "mass_number": 56
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find_protons",
+     "explain": "Proton count is equal to the atomic number.",
+     "compute": "protons = atomic_number"
+    },
+    {
+     "step": 2,
+     "action": "compute_neutrons",
+     "explain": "Subtract proton count from total nucleons (mass number) to get neutron count.",
+     "compute": "neutrons = mass_number - protons"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "iesc108.txt lines 256-258 (Pause and Ponder Q11)",
+   "concept": "iesc.8.6",
+   "question_type": "compute",
+   "question_pattern": "The nucleus of an atom contains {atomic_number} protons. If its mass number is {mass_number}, find the number of neutrons in it.",
+   "extracted_variables": {
+    "atomic_number": 20,
+    "mass_number": 41
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find_protons",
+     "explain": "Number of protons equals atomic number.",
+     "compute": "protons = atomic_number"
+    },
+    {
+     "step": 2,
+     "action": "compute_neutrons",
+     "explain": "Subtract protons from mass number.",
+     "compute": "neutrons = mass_number - protons"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "iesc108.txt lines 410-420 (Pause and Ponder Q18)",
+   "concept": "iesc.8.9.1b",
+   "question_type": "compute",
+   "question_pattern": "If a bromine atom is available in the form of two isotopes, {mass_1}Br ({percent_1}%) and {mass_2}Br ({percent_2}%), calculate the average atomic mass of the bromine atom.",
+   "extracted_variables": {
+    "mass_1": 79,
+    "percent_1": 49.7,
+    "mass_2": 81,
+    "percent_2": 50.3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute_first_contribution",
+     "explain": "Multiply mass of first isotope by its percentage abundance.",
+     "compute": "part_1 = mass_1 * percent_1"
+    },
+    {
+     "step": 2,
+     "action": "compute_second_contribution",
+     "explain": "Multiply mass of second isotope by its percentage abundance.",
+     "compute": "part_2 = mass_2 * percent_2"
+    },
+    {
+     "step": 3,
+     "action": "calculate_weighted_average",
+     "explain": "Sum isotopic contributions and divide by 100.",
+     "compute": "avg_mass = (part_1 + part_2) / 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex108.1",
+   "source_ref": "iesc108.txt lines 480-495",
+   "questions": [
+    "Choose the correct options and explain the reason for the correct and incorrect options in the context of Ernest Rutherford's gold foil experiment."
+   ]
+  },
+  {
+   "id": "ex108.2",
+   "source_ref": "iesc108.txt lines 496-510",
+   "questions": [
+    "Which of the following statements are correct or incorrect according to Bohr's atomic model? Give a reason for each statement."
+   ]
+  },
+  {
+   "id": "ex108.3",
+   "source_ref": "iesc108.txt lines 511-525",
+   "questions": [
+    "The composition of the nuclei of three atomic species X, Y, and Z are given. Explain the relation between Y and Z, and Z and X."
+   ]
+  },
+  {
+   "id": "ex108.8",
+   "source_ref": "iesc108.txt lines 545-555",
+   "questions": [
+    "For an atom of magnesium with a mass number of 24 and atomic number 12, determine the number of (i) protons, (ii) neutrons, (iii) electrons, and illustrate the electron arrangement."
+   ]
+  },
+  {
+   "id": "ex108.11",
+   "source_ref": "iesc108.txt lines 565-570",
+   "questions": [
+    "An atom 70X has 31 electrons. How many neutrons are there in its nucleus?"
+   ]
+  },
+  {
+   "id": "ex108.12",
+   "source_ref": "iesc108.txt lines 571-575",
+   "questions": [
+    "An atom has 79 protons and a mass number of 197. Calculate (i) the number of neutrons, and (ii) the number of electrons."
+   ]
+  },
+  {
+   "id": "ex108.13",
+   "source_ref": "iesc108.txt lines 576-590",
+   "questions": [
+    "Complete the table providing atomic number, mass number, number of neutrons, protons, electrons, and element name."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

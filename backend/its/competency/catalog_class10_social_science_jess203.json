@@ -1,0 +1,529 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 203,
+ "chapter_title": "Money and Credit: Banks, Loans and Terms of Credit",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess203.txt",
+ "concepts": [
+  {
+   "id": "jess.203.1.1",
+   "title": "Money as a Medium of Exchange and Double Coincidence of Wants",
+   "section": "Money as a Medium of Exchange",
+   "definition": "Money removes the need for a double coincidence of wants by acting as an intermediate step: a seller converts goods into money and then buys whatever is desired, unlike barter where each party must want exactly what the other offers.",
+   "formula": "",
+   "key_idea": "A shoe manufacturer need not find a wheat-growing farmer who also wants shoes; selling shoes for money and buying wheat with money completes both exchanges.",
+   "textbook_ref": "jess203.txt lines 156-215, 340-362",
+   "question_patterns": [
+    "how does the use of money make it easier to exchange things",
+    "what is double coincidence of wants",
+    "explain the barter system and its limitation",
+    "why does everyone prefer to receive payments in money",
+    "how does money act as an intermediate in the exchange process",
+    "give an example of goods exchanged through barter"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "test the exchange pattern",
+     "explain": "Check whether goods are swapped directly (barter) or sold for money that then buys other goods (medium of exchange)."
+    },
+    {
+     "step": 2,
+     "action": "look for the coincidence condition",
+     "explain": "In barter, both parties must agree to sell and buy each other's commodities; money removes this requirement."
+    },
+    {
+     "step": 3,
+     "action": "verify the chain of exchanges",
+     "explain": "Confirm the two-step route: producer sells output for money, then uses money to buy inputs or food, as in shoes for money for wheat."
+    }
+   ]
+  },
+  {
+   "id": "jess.203.1.2",
+   "title": "Modern Forms of Money: Currency and Demand Deposits",
+   "section": "Modern Forms of Money",
+   "definition": "Modern money takes two linked forms: currency, meaning paper notes and coins authorised by the government and issued by the Reserve Bank of India, and demand deposits with banks that can be withdrawn on demand and paid by cheque.",
+   "formula": "",
+   "key_idea": "The rupee cannot be legally refused in settling transactions in India, and cheque payments transfer money between accounts without cash, so deposits share the essential features of money.",
+   "textbook_ref": "jess203.txt lines 279-318, 390-418",
+   "question_patterns": [
+    "why is modern currency accepted as a medium of exchange",
+    "who is authorised to issue currency notes in india",
+    "what are demand deposits and why are they called money",
+    "how is payment made through a cheque",
+    "can any individual legally refuse a payment made in rupees",
+    "how did salim pay the leather supplier without cash"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the form of money",
+     "explain": "Identify whether the money held is currency (notes and coins) or a bank deposit withdrawable on demand."
+    },
+    {
+     "step": 2,
+     "action": "verify the legal authorisation",
+     "explain": "Confirm the Reserve Bank of India issues notes on behalf of the central government and the law legalises rupee payments."
+    },
+    {
+     "step": 3,
+     "action": "trace the cheque settlement",
+     "explain": "Follow the instruction route: payer's cheque directs the bank to pay a specific amount into the payee's account, completing payment without cash."
+    }
+   ]
+  },
+  {
+   "id": "jess.203.2.1",
+   "title": "Loan Activities of Banks and the Interest Spread",
+   "section": "Loan Activities of Banks",
+   "definition": "Banks keep only a small slice of deposits as cash, lend the major portion to borrowers, and earn their main income from the difference between the higher interest charged on loans and the lower interest paid to depositors.",
+   "formula": "bank_spread = loan_interest_rate - deposit_interest_rate",
+   "key_idea": "Banks mediate between depositors with surplus funds and borrowers who need them; Indian banks hold roughly 5 per cent of deposits as cash to meet withdrawals.",
+   "textbook_ref": "jess203.txt lines 480-514",
+   "question_patterns": [
+    "how do banks earn their main source of income",
+    "what do banks do with the deposits they accept",
+    "why do banks keep only a small proportion of deposits as cash",
+    "how do banks mediate between depositors and borrowers",
+    "between which two interest rates is the difference the bank's income",
+    "what happens if all depositors demand money at the same time"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "split the deposit use",
+     "explain": "Separate the small cash reserve kept for withdrawals from the major portion extended as loans."
+    },
+    {
+     "step": 2,
+     "action": "compare the two interest rates",
+     "explain": "Confirm the loan rate charged to borrowers is higher than the deposit rate paid to depositors."
+    },
+    {
+     "step": 3,
+     "action": "verify the mediation role",
+     "explain": "Show that this difference, or spread, is the bank's main income, earned while channelling surplus funds to loan demand."
+    }
+   ]
+  },
+  {
+   "id": "jess.203.2.2",
+   "title": "Bank Cash Reserve from Deposit Percentage",
+   "section": "Loan Activities of Banks",
+   "definition": "The cash a bank holds for daily withdrawals equals its total deposits multiplied by the reserve percentage it maintains.",
+   "formula": "cash_reserve = total_deposits * reserve_percent / 100",
+   "key_idea": "Holding about 5 per cent of deposits as cash works because on any given day only some depositors come to withdraw money.",
+   "textbook_ref": "jess203.txt lines 484-496",
+   "question_patterns": [
+    "calculate the cash reserve a bank keeps from its deposits",
+    "find the amount held as cash when the reserve percentage is given",
+    "what percentage of deposits do indian banks hold as cash",
+    "compute the cash provision for withdrawals from total deposits",
+    "why can a bank manage with a small cash reserve"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the reserve percentage",
+     "explain": "Multiply total deposits by the cash reserve percentage and divide by 100",
+     "compute": "cash_reserve = total_deposits * reserve_percent / 100"
+    }
+   ]
+  },
+  {
+   "id": "jess.203.3.1",
+   "title": "Two Different Credit Situations and the Debt Trap",
+   "section": "Two Different Credit Situations",
+   "definition": "Credit helps when production and earnings rise, as with Salim's festival-season order, but pushes the borrower into a debt trap when repayment fails, as when Swapna's pest-hit groundnut crop forced her to sell part of her land.",
+   "formula": "",
+   "key_idea": "Whether credit is useful depends on the risks in the situation and whether there is support in case of loss.",
+   "textbook_ref": "jess203.txt lines 564-681",
+   "question_patterns": [
+    "compare the credit situations of salim and swapna",
+    "what is a debt trap and how does it arise",
+    "when does credit play a positive role",
+    "why did swapna have to sell part of her land",
+    "what risks decide whether credit is useful or harmful",
+    "how did salim use credit to increase his earnings"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the purpose of credit",
+     "explain": "Distinguish working capital credit that raises earnings from distress credit taken for cultivation costs or daily expenses."
+    },
+    {
+     "step": 2,
+     "action": "check the repayment outcome",
+     "explain": "See whether income from the activity covered the loan: Salim repaid and profited, while Swapna's crop failure left the debt growing."
+    },
+    {
+     "step": 3,
+     "action": "verify the trap mechanism",
+     "explain": "Confirm the spiral: fresh loans to repay old ones, then forced sale of assets such as land, marking the debt trap."
+    }
+   ]
+  },
+  {
+   "id": "jess.203.3.2",
+   "title": "Terms of Credit: Interest, Collateral and Documentation",
+   "section": "Terms of Credit",
+   "definition": "Every loan agreement fixes terms of credit: the interest rate on the principal, collateral as an asset pledged as guarantee, documentation requirements, and the mode of repayment such as monthly instalments.",
+   "formula": "",
+   "key_idea": "Megha's five lakh house loan at 12 per cent annual interest for ten years used the new house papers as collateral; borrowers always look for low interest, easy repayment and less collateral.",
+   "textbook_ref": "jess203.txt lines 682-755, 721-762",
+   "question_patterns": [
+    "what do the terms of credit include",
+    "why do lenders ask for collateral while lending",
+    "what is collateral and give its examples",
+    "what are the terms of megha's house loan",
+    "what does easy terms of credit mean for a borrower",
+    "how does the mode of repayment differ across loans"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the four terms",
+     "explain": "Check the agreement for interest rate, collateral, documentation requirement and mode of repayment."
+    },
+    {
+     "step": 2,
+     "action": "verify the collateral logic",
+     "explain": "Collateral such as land titles, bank deposits or livestock lets the lender sell the asset if the borrower fails to repay."
+    },
+    {
+     "step": 3,
+     "action": "match the loan example",
+     "explain": "Place Megha's loan details against the terms: 12 per cent annual rate, 10-year monthly instalments, house papers retained, salary documents submitted."
+    }
+   ]
+  },
+  {
+   "id": "jess.203.3.3",
+   "title": "Annual Interest from the Monthly Rate",
+   "section": "Variety of Credit Arrangements",
+   "definition": "Informal lenders in villages quote monthly rates, and the yearly burden follows by multiplying the monthly interest rate by twelve, as in the moneylender's five per cent per month equal to 60 per cent per annum.",
+   "formula": "annual_rate_percent = monthly_rate_percent * 12",
+   "key_idea": "Shyamal paid 60 per cent a year to the moneylender before shifting to a trader's three per cent per month, while Arun's bank loan costs only 8.5 per cent per annum.",
+   "textbook_ref": "jess203.txt lines 765-785",
+   "question_patterns": [
+    "convert a monthly interest rate into an annual rate",
+    "calculate the per annum rate when the per month rate is given",
+    "what is 5 per cent per month as an annual rate",
+    "compare the moneylender's and the bank's annual interest rates",
+    "find the yearly interest burden of a village loan",
+    "why is informal credit costlier than bank credit for shyamal"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "scale the rate to a year",
+     "explain": "Multiply the monthly interest rate percentage by 12 to get the annual rate percentage",
+     "compute": "annual_rate_percent = monthly_rate_percent * 12"
+    }
+   ]
+  },
+  {
+   "id": "jess.203.3.4",
+   "title": "Simple Interest on a Loan",
+   "section": "Terms of Credit",
+   "definition": "The interest payable on a loan grows with the principal, the annual interest rate and the time period, following the simple interest relation used to cost any credit arrangement.",
+   "formula": "interest = principal * rate_percent * years / 100",
+   "key_idea": "Megha's loan of Rs 5 lakh at 12 per cent per annum shows how interest adds to the repayment burden on top of the principal.",
+   "textbook_ref": "jess203.txt lines 721-747",
+   "question_patterns": [
+    "calculate the interest on a loan for the given rate and period",
+    "find the interest payable on a house loan",
+    "how much interest does a loan of principal at rate percent for years carry",
+    "compute the total interest cost of borrowing",
+    "what interest accrues on megha's loan in one year",
+    "work out the interest amount from principal rate and time"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the simple interest relation",
+     "explain": "Multiply the principal by the annual rate percent and the number of years, then divide by 100",
+     "compute": "interest = principal * rate_percent * years / 100"
+    }
+   ]
+  },
+  {
+   "id": "jess.203.4.1",
+   "title": "Formal and Informal Sources of Credit",
+   "section": "Formal Sector Credit in India",
+   "definition": "Loans come from the formal sector of banks and cooperatives or from informal lenders such as moneylenders, traders, employers, relatives and friends; the Reserve Bank of India supervises only the formal sector.",
+   "formula": "",
+   "key_idea": "Commercial banks supply 51 per cent of rural credit and moneylenders 23 per cent; informal lending charges much more, has no supervision, and can drag borrowers into debt and debt traps.",
+   "textbook_ref": "jess203.txt lines 905-1031, 959-972",
+   "question_patterns": [
+    "distinguish between formal and informal sources of credit",
+    "who supervises the functioning of formal sources of loans",
+    "why is the cost of informal loans much higher",
+    "which is the largest formal source of credit in rural india",
+    "why do banks and cooperative societies need to lend more",
+    "why can nobody stop informal lenders from using unfair means"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "classify the lender",
+     "explain": "Formal sector means banks and cooperatives; informal covers moneylenders, traders, employers, relatives and friends."
+    },
+    {
+     "step": 2,
+     "action": "check the supervision",
+     "explain": "The RBI monitors bank cash balances and lending patterns; no organisation supervises informal lenders, so they can charge whatever interest they choose."
+    },
+    {
+     "step": 3,
+     "action": "verify the cost consequence",
+     "explain": "Higher borrowing costs leave borrowers less income, can exceed earnings, and deter enterprise, which is why cheap formal credit must expand."
+    }
+   ]
+  },
+  {
+   "id": "jess.203.4.2",
+   "title": "Formal Share of Rural Household Credit",
+   "section": "Formal Sector Credit in India",
+   "definition": "The share of rural household credit supplied by the formal sector is found by adding the bank and cooperative shares, and the formal credit amount is that share of the total rural borrowing.",
+   "formula": "formal_credit = rural_credit_total * formal_share_percent / 100",
+   "key_idea": "Commercial banks (51 per cent), cooperative banks and societies (10 per cent) and other formal agencies (5 per cent) together meet about two-thirds of rural credit needs.",
+   "textbook_ref": "jess203.txt lines 937-972",
+   "question_patterns": [
+    "calculate the formal sector share of rural credit",
+    "find the credit amount supplied by banks and cooperatives together",
+    "what per cent of rural household credit comes from the formal sector",
+    "compute the money lent by the formal sector from total rural borrowing",
+    "which agencies make up the formal share of credit",
+    "is more rural credit coming from the formal or informal sector"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the formal share",
+     "explain": "Multiply the total rural credit by the combined formal sector percentage and divide by 100",
+     "compute": "formal_credit = rural_credit_total * formal_share_percent / 100"
+    }
+   ]
+  },
+  {
+   "id": "jess.203.5.1",
+   "title": "Self Help Groups and Grameen Bank",
+   "section": "Self Help Groups for the Poor",
+   "definition": "Self Help Groups pool the savings of 15 to 20 members, mostly women, lend from the pooled fund, and later qualify for bank loans in the group's name, while the Grameen Bank of Bangladesh pioneered similar group lending for the poor.",
+   "formula": "",
+   "key_idea": "SHGs let members get timely loans at reasonable interest without collateral, and help women become financially self-reliant, building blocks of rural social capital.",
+   "textbook_ref": "jess203.txt lines 1185-1290",
+   "question_patterns": [
+    "how do self help groups help borrowers overcome lack of collateral",
+    "how many members does a typical shg have",
+    "explain the working of shgs in rural areas",
+    "what is the grameen bank of bangladesh famous for",
+    "why are shgs called the building blocks of rural social capital",
+    "what kinds of loans do shg members take and for what"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the savings pool",
+     "explain": "Members of 15-20 person groups save regularly and the pooled savings fund small loans to members."
+    },
+    {
+     "step": 2,
+     "action": "check the bank linkage",
+     "explain": "After a record of timely repayment, the group becomes eligible for bank loans in its name, which it on-lends to members."
+    },
+    {
+     "step": 3,
+     "action": "verify the social outcomes",
+     "explain": "Confirm benefits: loans without collateral at fair interest, timely credit for production needs, and greater self-reliance for women members."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jess203.txt lines 721-747",
+   "concept": "jess.203.3.4",
+   "question_type": "compute_interest",
+   "question_pattern": "Megha took a house loan of {principal} rupees at an annual interest rate of {rate_percent} per cent. Calculate the interest she pays in {years} year if the loan follows simple interest.",
+   "extracted_variables": {
+    "principal": 500000,
+    "rate_percent": 12,
+    "years": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the simple interest relation",
+     "explain": "Multiply the principal by the annual rate percent and the number of years, then divide by 100",
+     "compute": "interest = principal * rate_percent * years / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jess203.txt lines 765-785",
+   "concept": "jess.203.3.4",
+   "question_type": "compute_interest",
+   "question_pattern": "A farmer borrows {principal} rupees from a moneylender charging {rate_percent} per cent per annum for {years} years. Find the interest he must repay.",
+   "extracted_variables": {
+    "principal": 20000,
+    "rate_percent": 60,
+    "years": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the simple interest relation",
+     "explain": "Multiply the principal by the annual rate percent and the number of years, then divide by 100",
+     "compute": "interest = principal * rate_percent * years / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "jess203.txt lines 484-496",
+   "concept": "jess.203.2.2",
+   "question_type": "compute_reserve",
+   "question_pattern": "A bank holds total deposits of {total_deposits} lakh rupees and keeps {reserve_percent} per cent of them as cash. Calculate the cash reserve the bank maintains.",
+   "extracted_variables": {
+    "total_deposits": 800,
+    "reserve_percent": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the reserve percentage",
+     "explain": "Multiply total deposits by the cash reserve percentage and divide by 100",
+     "compute": "cash_reserve = total_deposits * reserve_percent / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "jess203.txt lines 484-496",
+   "concept": "jess.203.2.2",
+   "question_type": "compute_reserve",
+   "question_pattern": "With deposits of {total_deposits} crore rupees, a branch keeps {reserve_percent} per cent as cash for withdrawals. Find the cash it holds.",
+   "extracted_variables": {
+    "total_deposits": 50,
+    "reserve_percent": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the reserve percentage",
+     "explain": "Multiply total deposits by the cash reserve percentage and divide by 100",
+     "compute": "cash_reserve = total_deposits * reserve_percent / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "jess203.txt lines 765-769",
+   "concept": "jess.203.3.3",
+   "question_type": "compute_rate_conversion",
+   "question_pattern": "The village moneylender charges a monthly interest rate of {monthly_rate_percent} per cent. What is the equivalent annual interest rate in per cent?",
+   "extracted_variables": {
+    "monthly_rate_percent": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "scale the rate to a year",
+     "explain": "Multiply the monthly interest rate percentage by 12 to get the annual rate percentage",
+     "compute": "annual_rate_percent = monthly_rate_percent * 12"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "jess203.txt lines 770-776",
+   "concept": "jess.203.3.3",
+   "question_type": "compute_rate_conversion",
+   "question_pattern": "An agricultural trader lends at {monthly_rate_percent} per cent per month. Calculate the per annum rate the farmer effectively pays.",
+   "extracted_variables": {
+    "monthly_rate_percent": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "scale the rate to a year",
+     "explain": "Multiply the monthly interest rate percentage by 12 to get the annual rate percentage",
+     "compute": "annual_rate_percent = monthly_rate_percent * 12"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "jess203.txt lines 937-972",
+   "concept": "jess.203.4.2",
+   "question_type": "compute_share",
+   "question_pattern": "Rural households borrowed {rural_credit_total} crore rupees in a year. Using the survey share of {formal_share_percent} per cent for the formal sector, calculate the credit supplied by banks and cooperatives together.",
+   "extracted_variables": {
+    "rural_credit_total": 9000,
+    "formal_share_percent": 66
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the formal share",
+     "explain": "Multiply the total rural credit by the combined formal sector percentage and divide by 100",
+     "compute": "formal_credit = rural_credit_total * formal_share_percent / 100"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "jess203.txt lines 937-972",
+   "concept": "jess.203.4.2",
+   "question_type": "compute_share",
+   "question_pattern": "A district's rural borrowing totals {rural_credit_total} lakh rupees and the formal sector meets {formal_share_percent} per cent of it. Find the formal sector credit of the district.",
+   "extracted_variables": {
+    "rural_credit_total": 250,
+    "formal_share_percent": 66
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the formal share",
+     "explain": "Multiply the total rural credit by the combined formal sector percentage and divide by 100",
+     "compute": "formal_credit = rural_credit_total * formal_share_percent / 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "jess203.txt lines 1290-1400",
+   "questions": [
+    "How does the use of money make it easier to exchange things?",
+    "Supposing Salim continues to get orders from traders. What would be his position after 6 years?",
+    "What are the reasons that make Swapna's situation so risky?",
+    "Why do lenders ask for collateral while lending?",
+    "Given that a large number of people in our country are poor, does it in any way affect their capacity to borrow?",
+    "List the various sources of credit in Sonpur.",
+    "Compare the terms of credit for the small farmer, the medium farmer and the landless agricultural worker in Sonpur.",
+    "Why will Arun have a higher income from cultivation compared to Shyamal?",
+    "Can everyone in Sonpur get credit at a cheap rate? Who are the people who can?",
+    "Fill the following details of Megha's housing loan."
+   ]
+  }
+ ]
+}

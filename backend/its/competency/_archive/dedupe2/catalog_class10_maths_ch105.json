@@ -1,0 +1,610 @@
+{
+ "class": 10,
+ "subject": "maths",
+ "chapter": 105,
+ "chapter_title": "Arithmetic Progressions",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jemh105.txt",
+ "concepts": [
+  {
+   "id": "jemh.5.2.1",
+   "title": "Identifying First Term and Common Difference of an AP",
+   "section": "5.2",
+   "definition": "An arithmetic progression is characterized by its starting term and a constant value added to each term to get the next. These are known as the first term and the common difference.",
+   "formula": "common_diff = term_two - term_one",
+   "key_idea": "The common difference is obtained by subtracting any term from its succeeding term.",
+   "textbook_ref": "jemh105.txt lines 100-150",
+   "question_patterns": [
+    "find the first term and common difference of the AP",
+    "what is the common difference of the sequence",
+    "calculate the first term and common difference for the progression",
+    "determine the values of a and d for the given AP"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the first term",
+     "explain": "The first term is the initial value in the sequence.",
+     "compute": "first_term = term_one"
+    },
+    {
+     "step": 2,
+     "action": "Subtract the first term from the second term",
+     "explain": "The common difference is the difference between any term and its preceding term.",
+     "compute": "common_diff = term_two - term_one"
+    }
+   ]
+  },
+  {
+   "id": "jemh.5.2.2",
+   "title": "Verifying an Arithmetic Progression",
+   "section": "5.2",
+   "definition": "A sequence of numbers forms an arithmetic progression if and only if the difference between any two consecutive terms remains constant throughout the sequence.",
+   "formula": "term_k_plus_1 - term_k = constant",
+   "key_idea": "Check if the difference between consecutive terms is uniform.",
+   "textbook_ref": "jemh105.txt lines 150-200",
+   "question_patterns": [
+    "verify if the list of numbers forms an AP",
+    "does the following sequence represent an arithmetic progression",
+    "check whether the given terms are in AP",
+    "determine if the sequence is an AP"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate the difference between the second and first term",
+     "explain": "Subtract the first term from the second term to find the initial difference."
+    },
+    {
+     "step": 2,
+     "action": "Calculate the difference between the third and second term",
+     "explain": "Subtract the second term from the third term to find the subsequent difference."
+    },
+    {
+     "step": 3,
+     "action": "Compare the differences to see if they are equal",
+     "explain": "If the differences are equal throughout, the sequence is an AP; otherwise, it is not."
+    }
+   ]
+  },
+  {
+   "id": "jemh.5.2.3",
+   "title": "Generating Terms of an AP",
+   "section": "5.2",
+   "definition": "An arithmetic progression can be constructed term-by-term by repeatedly adding the common difference to the preceding term starting from the first term.",
+   "formula": "term_n = term_prev + common_diff",
+   "key_idea": "Generate successive terms by adding the common difference to the current term.",
+   "textbook_ref": "jemh105.txt lines 120-145",
+   "question_patterns": [
+    "write the first four terms of the AP",
+    "find the next three terms of the arithmetic progression",
+    "generate the AP given the first term and common difference",
+    "calculate the first few terms of the sequence"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the first term",
+     "explain": "The first term is the initial term of the AP.",
+     "compute": "term_one = first_term"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the second term",
+     "explain": "Add the common difference to the first term.",
+     "compute": "term_two = first_term + common_diff"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the third term",
+     "explain": "Add the common difference to the second term.",
+     "compute": "term_three = term_two + common_diff"
+    },
+    {
+     "step": 4,
+     "action": "Calculate the fourth term",
+     "explain": "Add the common difference to the third term.",
+     "compute": "term_four = term_three + common_diff"
+    }
+   ]
+  },
+  {
+   "id": "jemh.5.3.1",
+   "title": "nth Term of an AP",
+   "section": "5.3",
+   "definition": "The general term or the nth term of an arithmetic progression is calculated using the first term, the common difference, and the term position.",
+   "formula": "nth_term = first_term + (term_index - 1) * common_diff",
+   "key_idea": "Directly compute any term in the sequence using its position index.",
+   "textbook_ref": "jemh105.txt lines 250-300",
+   "question_patterns": [
+    "find the 10th term of the AP",
+    "calculate the nth term of the arithmetic progression",
+    "what is the 30th term of the sequence",
+    "determine the value of the term at position n"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract 1 from the term position",
+     "explain": "Find the number of common differences to add.",
+     "compute": "index_minus_one = term_index - 1"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by the common difference",
+     "explain": "Calculate the total difference offset from the first term.",
+     "compute": "diff_term = index_minus_one * common_diff"
+    },
+    {
+     "step": 3,
+     "action": "Add the first term to get the nth term",
+     "explain": "Add the first term to the total offset.",
+     "compute": "nth_term = first_term + diff_term"
+    }
+   ]
+  },
+  {
+   "id": "jemh.5.3.2",
+   "title": "Finding the Number of Terms in an AP",
+   "section": "5.3",
+   "definition": "The total number of terms in a finite arithmetic progression can be determined if the first term, common difference, and the last term are known.",
+   "formula": "term_index = (nth_term - first_term) / common_diff + 1",
+   "key_idea": "Rearrange the general term formula to solve for the term index.",
+   "textbook_ref": "jemh105.txt lines 300-350",
+   "question_patterns": [
+    "how many terms are there in the AP",
+    "which term of the AP is equal to a given value",
+    "find the number of terms in the sequence",
+    "determine the value of n for which the term is an"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract the first term from the nth term",
+     "explain": "Find the total difference between the given term and the first term.",
+     "compute": "term_diff = nth_term - first_term"
+    },
+    {
+     "step": 2,
+     "action": "Divide the difference by the common difference",
+     "explain": "Find how many steps of common difference are between the terms.",
+     "compute": "ratio = term_diff / common_diff"
+    },
+    {
+     "step": 3,
+     "action": "Add 1 to find the number of terms",
+     "explain": "Add 1 to get the position index.",
+     "compute": "term_index = ratio + 1"
+    }
+   ]
+  },
+  {
+   "id": "jemh.5.3.3",
+   "title": "nth Term from the End of an AP",
+   "section": "5.3",
+   "definition": "The nth term from the end of a finite arithmetic progression can be found by reversing the AP, where the last term becomes the first term and the common difference changes sign.",
+   "formula": "nth_term_end = last_term - (term_index - 1) * common_diff",
+   "key_idea": "Treat the last term as the starting term and subtract the common difference successively.",
+   "textbook_ref": "jemh105.txt lines 350-400",
+   "question_patterns": [
+    "find the 11th term from the last term of the AP",
+    "calculate the nth term from the end of the sequence",
+    "what is the 20th term from the end of the progression",
+    "determine the term from the last towards the first"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract 1 from the position from the end",
+     "explain": "Find the number of steps from the end.",
+     "compute": "index_minus_one = term_index - 1"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by the common difference",
+     "explain": "Calculate the total offset to subtract from the last term.",
+     "compute": "step_diff = index_minus_one * common_diff"
+    },
+    {
+     "step": 3,
+     "action": "Subtract this value from the last term",
+     "explain": "Subtract the offset from the last term to find the term from the end.",
+     "compute": "nth_term_end = last_term - step_diff"
+    }
+   ]
+  },
+  {
+   "id": "jemh.5.4.1",
+   "title": "Sum of First n Terms of an AP",
+   "section": "5.4",
+   "definition": "The sum of the first n terms of an arithmetic progression can be computed using the first term, the common difference, and the number of terms.",
+   "formula": "sum_n = (num_terms / 2) * (2 * first_term + (num_terms - 1) * common_diff)",
+   "key_idea": "Summation formula based on the number of terms, first term, and common difference.",
+   "textbook_ref": "jemh105.txt lines 500-550",
+   "question_patterns": [
+    "find the sum of the first 22 terms of the AP",
+    "calculate the sum of the arithmetic progression",
+    "what is the sum of first n terms of the sequence",
+    "determine the sum of the AP given a, d, and n"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Double the first term",
+     "explain": "Calculate 2 times the first term.",
+     "compute": "two_a = 2 * first_term"
+    },
+    {
+     "step": 2,
+     "action": "Subtract 1 from the number of terms",
+     "explain": "Find the number of steps.",
+     "compute": "index_minus_one = num_terms - 1"
+    },
+    {
+     "step": 3,
+     "action": "Multiply by the common difference",
+     "explain": "Calculate the offset portion of the sum.",
+     "compute": "diff_term = index_minus_one * common_diff"
+    },
+    {
+     "step": 4,
+     "action": "Add the two parts",
+     "explain": "Sum the doubled first term and the offset portion.",
+     "compute": "inner_sum = two_a + diff_term"
+    },
+    {
+     "step": 5,
+     "action": "Multiply by half of the number of terms",
+     "explain": "Multiply the inner sum by num_terms / 2 to get the final sum.",
+     "compute": "sum_n = num_terms * inner_sum / 2"
+    }
+   ]
+  },
+  {
+   "id": "jemh.5.4.2",
+   "title": "Sum of First n Terms using Last Term",
+   "section": "5.4",
+   "definition": "When the first and the last terms of an arithmetic progression are known, the sum of its terms can be calculated directly without needing the common difference.",
+   "formula": "sum_n = (num_terms / 2) * (first_term + last_term)",
+   "key_idea": "The sum is the product of the number of terms and the average of the first and last terms.",
+   "textbook_ref": "jemh105.txt lines 520-560",
+   "question_patterns": [
+    "find the sum of the AP given first and last terms",
+    "calculate the sum of a finite AP with last term l",
+    "what is the sum of the sequence when first and last terms are known",
+    "determine the sum of first n terms using a and l"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add the first term and the last term",
+     "explain": "Find the sum of the extreme terms.",
+     "compute": "term_sum = first_term + last_term"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by the number of terms and divide by 2",
+     "explain": "Multiply the term sum by half of the number of terms.",
+     "compute": "sum_n = num_terms * term_sum / 2"
+    }
+   ]
+  },
+  {
+   "id": "jemh.5.4.3",
+   "title": "Finding nth Term from Sum Formula",
+   "section": "5.4",
+   "definition": "The nth term of an arithmetic progression can be obtained by subtracting the sum of the first (n-1) terms from the sum of the first n terms.",
+   "formula": "nth_term = sum_n_val - sum_prev_val",
+   "key_idea": "The difference between successive sums yields the individual term at that position.",
+   "textbook_ref": "jemh105.txt lines 550-580",
+   "question_patterns": [
+    "find the nth term if the sum of first n terms is given",
+    "calculate the tenth term from the sum formula",
+    "what is the first term and common difference given the sum expression",
+    "determine the term an from the sum of terms Sn"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the sum of first n terms",
+     "explain": "Get the value of the sum up to term n.",
+     "compute": "sum_n = sum_n_val"
+    },
+    {
+     "step": 2,
+     "action": "Identify the sum of first n-1 terms",
+     "explain": "Get the value of the sum up to term n-1.",
+     "compute": "sum_prev = sum_prev_val"
+    },
+    {
+     "step": 3,
+     "action": "Subtract the two sums to get the nth term",
+     "explain": "The difference between the two sums is the nth term.",
+     "compute": "nth_term = sum_n - sum_prev"
+    }
+   ]
+  },
+  {
+   "id": "jemh.5.4.4",
+   "title": "Arithmetic Mean",
+   "section": "5.4",
+   "definition": "If three numbers are in an arithmetic progression, the middle term is the arithmetic mean of the other two terms.",
+   "formula": "term_b = (term_a + term_c) / 2",
+   "key_idea": "The middle term is the average of the preceding and succeeding terms.",
+   "textbook_ref": "jemh105.txt lines 700-720",
+   "question_patterns": [
+    "find the arithmetic mean of two numbers",
+    "what is the middle term of three consecutive AP terms",
+    "calculate the value of b if a, b, c are in AP",
+    "determine the arithmetic mean of a and c"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum the two outer terms",
+     "explain": "Add the first and third terms.",
+     "compute": "outer_sum = term_a + term_c"
+    },
+    {
+     "step": 2,
+     "action": "Divide the sum by 2",
+     "explain": "Divide the sum of outer terms by 2 to find the arithmetic mean.",
+     "compute": "term_b = outer_sum / 2"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "Example 1",
+   "concept": "jemh.5.2.1",
+   "question_type": "compute",
+   "question_pattern": "For the AP: {term_one}, {term_two}, ... write the first term and the common difference.",
+   "extracted_variables": {
+    "term_one": "first term of the AP",
+    "term_two": "second term of the AP"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the first term",
+     "explain": "The first term is the first number in the sequence.",
+     "compute": "first_term = term_one"
+    },
+    {
+     "step": 2,
+     "action": "Calculate the common difference",
+     "explain": "Subtract the first term from the second term.",
+     "compute": "common_diff = term_two - term_one"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "Example 3",
+   "concept": "jemh.5.3.1",
+   "question_type": "compute",
+   "question_pattern": "Find the {term_index}th term of the AP: {first_term}, ... with common difference {common_diff}.",
+   "extracted_variables": {
+    "first_term": "first term of the AP",
+    "common_diff": "common difference of the AP",
+    "term_index": "term position to find"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract 1 from the term position",
+     "explain": "Find term_index - 1",
+     "compute": "index_minus_one = term_index - 1"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by the common difference",
+     "explain": "Find (term_index - 1) * common_diff",
+     "compute": "diff_term = index_minus_one * common_diff"
+    },
+    {
+     "step": 3,
+     "action": "Add the first term",
+     "explain": "Add first term to get the nth term",
+     "compute": "nth_term = first_term + diff_term"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "Example 4",
+   "concept": "jemh.5.3.2",
+   "question_type": "compute",
+   "question_pattern": "Which term of the AP: {first_term}, ... with common difference {common_diff} is {nth_term}?",
+   "extracted_variables": {
+    "first_term": "first term of the AP",
+    "common_diff": "common difference",
+    "nth_term": "value of the term"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract first term from the term value",
+     "explain": "Find nth_term - first_term",
+     "compute": "term_diff = nth_term - first_term"
+    },
+    {
+     "step": 2,
+     "action": "Divide by the common difference",
+     "explain": "Find (nth_term - first_term) / common_diff",
+     "compute": "ratio = term_diff / common_diff"
+    },
+    {
+     "step": 3,
+     "action": "Add 1 to find the term position",
+     "explain": "Add 1 to get term_index",
+     "compute": "term_index = ratio + 1"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "Example 8",
+   "concept": "jemh.5.3.3",
+   "question_type": "compute",
+   "question_pattern": "Find the {term_index}th term from the last term of the AP with last term {last_term} and common difference {common_diff}.",
+   "extracted_variables": {
+    "last_term": "last term of the AP",
+    "common_diff": "common difference of the AP",
+    "term_index": "term position from the end"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract 1 from the position from the end",
+     "explain": "Find term_index - 1",
+     "compute": "index_minus_one = term_index - 1"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by the common difference",
+     "explain": "Find (term_index - 1) * common_diff",
+     "compute": "step_diff = index_minus_one * common_diff"
+    },
+    {
+     "step": 3,
+     "action": "Subtract from the last term",
+     "explain": "Subtract step_diff from last_term",
+     "compute": "nth_term_end = last_term - step_diff"
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "Example 11",
+   "concept": "jemh.5.4.1",
+   "question_type": "compute",
+   "question_pattern": "Find the sum of the first {num_terms} terms of the AP: {first_term}, ... with common difference {common_diff}.",
+   "extracted_variables": {
+    "first_term": "first term of the AP",
+    "common_diff": "common difference of the AP",
+    "num_terms": "number of terms to sum"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Double the first term",
+     "explain": "Find 2 * first_term",
+     "compute": "two_a = 2 * first_term"
+    },
+    {
+     "step": 2,
+     "action": "Subtract 1 from num_terms",
+     "explain": "Find num_terms - 1",
+     "compute": "index_minus_one = num_terms - 1"
+    },
+    {
+     "step": 3,
+     "action": "Multiply by the common difference",
+     "explain": "Find (num_terms - 1) * common_diff",
+     "compute": "diff_term = index_minus_one * common_diff"
+    },
+    {
+     "step": 4,
+     "action": "Add the two parts",
+     "explain": "Find 2*first_term + (num_terms-1)*common_diff",
+     "compute": "inner_sum = two_a + diff_term"
+    },
+    {
+     "step": 5,
+     "action": "Multiply by half of num_terms",
+     "explain": "Find (num_terms / 2) * inner_sum",
+     "compute": "sum_n = num_terms * inner_sum / 2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "Exercise 5.1",
+   "questions": [
+    "1. In which of the following situations, does the list of numbers involved make an arithmetic progression, and why?\n(i) The taxi fare after each km when the fare is Rs 15 for the first km and Rs 8 for each additional km.\n(ii) The amount of air present in a cylinder when a vacuum pump removes 1/4 of the air remaining in the cylinder at a time.\n(iii) The cost of digging a well after every metre of digging, when it costs Rs 150 for the first metre and rises by Rs 50 for each subsequent metre.\n(iv) The amount of money in the account every year, when Rs 10000 is deposited at compound interest at 8 % per annum.",
+    "2. Write first four terms of the AP, when the first term a and the common difference d are given as follows:\n(i) a = 10, d = 10\n(ii) a = -2, d = 0\n(iii) a = 4, d = -3\n(iv) a = -1, d = 1/2\n(v) a = -1.25, d = -0.25",
+    "3. For the following APs, write the first term and the common difference:\n(i) 3, 1, -1, -3, ...\n(ii) -5, -1, 3, 7, ...\n(iii) 1/3, 5/3, 9/3, 13/3, ...\n(iv) 0.6, 1.7, 2.8, 3.9, ...",
+    "4. Which of the following are APs? If they form an AP, find the common difference d and write three more terms:\n(i) 2, 4, 8, 16, ...\n(ii) 2, 5/2, 3, 7/2, ...\n(iii) -1.2, -3.2, -5.2, -7.2, ...\n(iv) -10, -6, -2, 2, ...\n(v) 3, 3+sqrt(2), 3+2*sqrt(2), 3+3*sqrt(2), ...\n(vi) 0.2, 0.22, 0.222, 0.2222, ...\n(vii) 0, -4, -8, -12, ...\n(viii) -1/2, -1/2, -1/2, -1/2, ...\n(ix) 1, 3, 9, 27, ...\n(x) a, 2a, 3a, 4a, ...\n(xi) a, a^2, a^3, a^4, ...\n(xii) sqrt(2), sqrt(8), sqrt(18), sqrt(32), ...\n(xiii) sqrt(3), sqrt(6), sqrt(9), sqrt(12), ...\n(xiv) 1^2, 3^2, 5^2, 7^2, ...\n(xv) 1^2, 5^2, 7^2, 73, ..."
+   ]
+  },
+  {
+   "id": "ex5.2",
+   "source_ref": "Exercise 5.2",
+   "questions": [
+    "1. Fill in the blanks in the following table, given that a is the first term, d the common difference and an the nth term of the AP:\n(i) a=7, d=3, n=8, an=?\n(ii) a=-18, d=?, n=10, an=0\n(iii) a=?, d=-3, n=18, an=-5\n(iv) a=-18.9, d=2.5, n=?, an=3.6\n(v) a=3.5, d=0, n=105, an=?",
+    "2. Choose the correct choice in the following and justify:\n(i) 30th term of the AP: 10, 7, 4, ... is\n(A) 97 (B) 77 (C) -77 (D) -87\n(ii) 11th term of the AP: -3, -1/2, 2, ... is\n(A) 28 (B) 22 (C) -38 (D) -48",
+    "3. In the following APs, find the missing terms in the boxes:\n(i) 2, [ ], 26\n(ii) [ ], 13, [ ], 3\n(iii) 5, [ ], [ ], 9_1/2\n(iv) -4, [ ], [ ], [ ], [ ], 6\n(v) [ ], 38, [ ], [ ], [ ], -22",
+    "4. Which term of the AP: 3, 8, 13, 18, ... is 78?",
+    "5. Find the number of terms in each of the following APs:\n(i) 7, 13, 19, ..., 205\n(ii) 18, 15_1/2, 13, ..., -47",
+    "6. Check whether -150 is a term of the AP: 11, 8, 5, 2 ...",
+    "7. Find the 31st term of an AP whose 11th term is 38 and the 16th term is 73.",
+    "8. An AP consists of 50 terms of which 3rd term is 12 and the last term is 106. Find the 29th term.",
+    "9. If the 3rd and the 9th terms of an AP are 4 and -8 respectively, which term of this AP is zero?",
+    "10. The 17th term of an AP exceeds its 10th term by 7. Find the common difference.",
+    "11. Which term of the AP: 3, 15, 27, 39, ... will be 132 more than its 54th term?",
+    "12. Two APs have the same common difference. The difference between their 100th terms is 100, what is the difference between their 1000th terms?",
+    "13. How many three-digit numbers are divisible by 7?",
+    "14. How many multiples of 4 lie between 10 and 250?",
+    "15. For what value of n, are the nth terms of two APs: 63, 65, 67, ... and 3, 10, 17, ... equal?",
+    "16. Determine the AP whose third term is 16 and the 7th term exceeds the 5th term by 12.",
+    "17. Find the 20th term from the last term of the AP: 3, 8, 13, ..., 253.",
+    "18. The sum of the 4th and 8th terms of an AP is 24 and the sum of the 6th and 10th terms is 44. Find the first three terms of the AP.",
+    "19. Subba Rao started work in 1995 at an annual salary of Rs 5000 and received an increment of Rs 200 each year. In which year did his income reach Rs 7000?",
+    "20. Ramkali saved Rs 5 in the first week of a year and then increased her weekly savings by Rs 1.75. If in the nth week, her weekly savings become Rs 20.75, find n."
+   ]
+  },
+  {
+   "id": "ex5.3",
+   "source_ref": "Exercise 5.3",
+   "questions": [
+    "1. Find the sum of the following APs:\n(i) 2, 7, 12, ... to 10 terms.\n(ii) -37, -33, -29, ... to 12 terms.\n(iii) 0.6, 1.7, 2.8, ... to 100 terms.\n(iv) 1/15, 1/12, 1/10, ... to 11 terms.",
+    "2. Find the sums given below:\n(i) 7 + 10_1/2 + 14 + ... + 84\n(ii) 34 + 32 + 30 + ... + 10\n(iii) -5 + (-8) + (-11) + ... + (-230)",
+    "3. In an AP:\n(i) given a=5, d=3, an=50, find n and Sn.\n(ii) given a=7, a13=35, find d and S13.\n(iii) given a12=37, d=3, find a and S12.\n(iv) given a3=15, S10=125, find d and a10.\n(v) given d=5, S9=75, find a and a9.\n(vi) given a=2, d=8, Sn=90, find n and an.\n(vii) given a=8, an=62, Sn=210, find n and d.\n(viii) given an=4, d=2, Sn=-14, find n and a.\n(ix) given a=3, n=8, S=192, find d.\n(x) given l=28, S=144, and there are total 9 terms. Find a.",
+    "4. How many terms of the AP: 9, 17, 25, ... must be taken to give a sum of 636?",
+    "5. The first term of an AP is 5, the last term is 45 and the sum is 400. Find the number of terms and the common difference.",
+    "6. The first and the last terms of an AP are 17 and 350 respectively. If the common difference is 9, how many terms are there and what is their sum?",
+    "7. Find the sum of first 22 terms of an AP in which d = 7 and 22nd term is 149.",
+    "8. Find the sum of first 51 terms of an AP whose second and third terms are 14 and 18 respectively.",
+    "9. If the sum of first 7 terms of an AP is 49 and that of 17 terms is 289, find the sum of first n terms.",
+    "10. Show that a1, a2, ..., an, ... form an AP where an is defined as below:\n(i) an = 3 + 4n\n(ii) an = 9 - 5n.\nAlso find the sum of the first 15 terms in each case.",
+    "11. If the sum of the first n terms of an AP is 4n - n^2, what is the first term (that is S1)? What is the sum of first two terms? What is the second term? Similarly, find the 3rd, the 10th and the nth terms.",
+    "12. Find the sum of the first 40 positive integers divisible by 6.",
+    "13. Find the sum of the first 15 multiples of 8.",
+    "14. Find the sum of the odd numbers between 0 and 50.",
+    "15. A contract on construction job specifies a penalty for delay of completion beyond a certain date as follows: Rs 200 for the first day, Rs 250 for the second day, Rs 300 for the third day, etc., the penalty for each succeeding day being Rs 50 more than for the preceding day. How much money the contractor has to pay as penalty, if he has delayed the work by 30 days?",
+    "16. A sum of Rs 700 is to be used to give seven cash prizes to students of a school for their overall academic performance. If each prize is Rs 20 less than its preceding prize, find the value of each of the prizes.",
+    "17. In a school, students thought of planting trees in and around the school to reduce air pollution. It was decided that the number of trees, that each section of each class will plant, will be the same as the class, in which they are studying, e.g., a section of Class I will plant 1 tree, a section of Class II will plant 2 trees and so on till Class XII. There are three sections of each class. How many trees will be planted by the students?",
+    "18. A spiral is made up of successive semicircles, with centres alternately at A and B, starting with centre at A, of radii 0.5 cm, 1.0 cm, 1.5 cm, 2.0 cm, ... What is the total length of such a spiral made up of thirteen consecutive semicircles? (Take pi = 22/7)",
+    "19. 200 logs are stacked in the following manner: 20 logs in the bottom row, 19 in the next row, 18 in the row next to it and so on. In how many rows are the 200 logs placed and how many logs are in the top row?",
+    "20. In a potato race, a bucket is placed at the starting point, which is 5 m from the first potato, and the other potatoes are placed 3 m apart in a straight line. There are ten potatoes in the line. A competitor starts from the bucket, picks up the nearest potato, runs back with it, drops it in the bucket, runs back to pick up the next potato, runs to the bucket to drop it in, and she continues in the same way until all the potatoes are in the bucket. What is the total distance the competitor has to run?"
+   ]
+  },
+  {
+   "id": "ex5.4",
+   "source_ref": "Exercise 5.4 (Optional)",
+   "questions": [
+    "1. Which term of the AP: 121, 117, 113, ... is its first negative term?",
+    "2. The sum of the third and the seventh terms of an AP is 6 and their product is 8. Find the sum of first sixteen terms of the AP.",
+    "3. A ladder has rungs 25 cm apart. The rungs decrease uniformly in length from 45 cm at the bottom to 25 cm at the top. If the top and the bottom rungs are 2_1/2 m apart, what is the length of the wood required for the rungs?",
+    "4. The houses of a row are numbered consecutively from 1 to 49. Show that there is a value of x such that the sum of the numbers of the houses preceding the house numbered x is equal to the sum of the numbers of the houses following it. Find this value of x.",
+    "5. A small terrace at a football ground comprises of 15 steps each of which is 50 m long and built of solid concrete. Each step has a rise of 1/4 m and a tread of 1/2 m. Calculate the total volume of concrete required to build the terrace."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

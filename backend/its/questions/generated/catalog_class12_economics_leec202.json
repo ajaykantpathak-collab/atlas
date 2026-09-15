@@ -1,0 +1,359 @@
+{
+ "catalog": "catalog_class12_economics_leec202",
+ "concepts": [
+  {
+   "id": "leec.202.1.1",
+   "title": "Utility: Total Utility and Marginal Utility",
+   "questions": [
+    {
+     "q": "Using the method 'Utility: Total Utility and Marginal Utility', work with: total_utility_of_n_units = 500, total_utility_of_previous_units = 30. Carry the chain through step by step and give the final value of marginal_utility_of_unit_n.",
+     "a": "470 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Utility: Total Utility and Marginal Utility' and work with: total_utility_of_n_units = 240, total_utility_of_previous_units = 100. Carry the chain through step by step and give the final value of marginal_utility_of_unit_n.",
+     "a": "140 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Utility: Total Utility and Marginal Utility' refers to.",
+     "a": "Utility names a good's power to satisfy a want, and it varies with the person, place and time; total utility is the satisfaction from all units consumed while marginal utility is the change in that total when one more unit is taken.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Utility: Total Utility and Marginal Utility'.",
+     "a": "Total utility is the running satisfaction score, and marginal utility is the step it takes with each extra unit.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Utility: Total Utility and Marginal Utility', in plain ASCII form.",
+     "a": "marginal_utility_of_unit_n = total_utility_of_n_units - total_utility_of_previous_units",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.202.1.2",
+   "title": "Law of Diminishing Marginal Utility and the Demand Slope",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Law of Diminishing Marginal Utility and the Demand Slope' refers to.",
+     "a": "As consumption of a good grows, each extra unit yields less additional satisfaction, so a buyer will pay less for successive units; this shrinking marginal utility is why a consumer's demand curve slopes downward, with demand rising only when price falls.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Law of Diminishing Marginal Utility and the Demand Slope'.",
+     "a": "Declining extra satisfaction makes buyers reserve top prices for early units, giving demand its negative slope.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Law of Diminishing Marginal Utility and the Demand Slope', in plain ASCII form.",
+     "a": "willingness_to_pay falls as consumption rises (diminishing marginal utility)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.202.1.3",
+   "title": "Indifference Curve and Marginal Rate of Substitution",
+   "questions": [
+    {
+     "q": "Using the method 'Indifference Curve and Marginal Rate of Substitution', work with: quantity_of_good1_gained = 4, quantity_of_good2_sacrificed = 8. Carry the chain through step by step and give the final value of marginal_rate_of_substitution.",
+     "a": "2 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Indifference Curve and Marginal Rate of Substitution' and work with: quantity_of_good1_gained = 45, quantity_of_good2_sacrificed = 120. Carry the chain through step by step and give the final value of marginal_rate_of_substitution.",
+     "a": "2.6667 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Indifference Curve and Marginal Rate of Substitution' refers to.",
+     "a": "An indifference curve joins all bundles between which the consumer is equally satisfied; its slope at any point, the marginal rate of substitution, tells how much of one good the consumer will give up for one more unit of the other while staying equally well off, and that rate falls as the substituted good accumulates.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Indifference Curve and Marginal Rate of Substitution'.",
+     "a": "Willingness to swap falls as holdings shift, which is why indifference curves bow toward the origin.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Indifference Curve and Marginal Rate of Substitution', in plain ASCII form.",
+     "a": "marginal_rate_of_substitution = quantity_of_good2_sacrificed / quantity_of_good1_gained",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.202.1.4",
+   "title": "Properties of Indifference Curves and Monotonic Preferences",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Properties of Indifference Curves and Monotonic Preferences' refers to.",
+     "a": "Indifference curves slope downward, lie higher when bundles contain more, never cross one another, and bow away from the origin; under monotonic preferences a bundle with more of at least one good and no less of the other is always preferred, which rules out intersection.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Properties of Indifference Curves and Monotonic Preferences'.",
+     "a": "More is better, so higher curves rank above lower ones and two curves can never meet.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Properties of Indifference Curves and Monotonic Preferences', in plain ASCII form.",
+     "a": "monotonic_preference = more_of_one_good + no_less_of_other (strictly preferred)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.202.2.1",
+   "title": "Budget Set and Budget Line",
+   "questions": [
+    {
+     "q": "Using the method 'Budget Set and Budget Line', work with: price_of_good1 = 12000, price_of_good2 = 12000, quantity_of_good1 = 400, quantity_of_good2 = 12. Carry the chain through step by step and give the final value of total_cost_of_bundle.",
+     "a": "4944000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Budget Set and Budget Line' and work with: price_of_good1 = 120000, price_of_good2 = 8000, quantity_of_good1 = 18, quantity_of_good2 = 20. Carry the chain through step by step and give the final value of total_cost_of_bundle.",
+     "a": "2320000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Budget Set and Budget Line' refers to.",
+     "a": "With income M and prices p1 and p2, the consumer can afford exactly those bundles whose money cost does not exceed income - the budget set - while the bundles costing precisely all of income trace the budget line.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Budget Set and Budget Line'.",
+     "a": "A bundle is affordable when its price-tag total sits at or below income, and the full-spend bundles form a straight line.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Budget Set and Budget Line', in plain ASCII form.",
+     "a": "total_cost_of_bundle = price_of_good1 * quantity_of_good1 + price_of_good2 * quantity_of_good2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.202.2.2",
+   "title": "Intercepts and Slope of the Budget Line",
+   "questions": [
+    {
+     "q": "Find how much of good 1 the consumer gets by spending everything on it. Use the method 'Intercepts and Slope of the Budget Line'. Work with: income = 2500, price_of_good1 = 50000, price_of_good2 = 2500. Carry the chain through step by step and give the final value of rate_of_market_substitution.",
+     "a": "20 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Compute the market rate at which good 2 must be given up for good 1. Use the method 'Intercepts and Slope of the Budget Line'. Work with: income = 500, price_of_good1 = 500, price_of_good2 = 2500. Carry the chain through step by step and give the final value of rate_of_market_substitution.",
+     "a": "0.2 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Intercepts and Slope of the Budget Line' refers to.",
+     "a": "Spending all income on one good buys income over its price - the axis intercepts - and the line's slope in absolute value equals the price ratio, the rate at which the market lets one good be swapped for the other.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Intercepts and Slope of the Budget Line'.",
+     "a": "The budget line's steepness is simply how many units of good 2 the market charges for one unit of good 1.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Intercepts and Slope of the Budget Line', in plain ASCII form.",
+     "a": "rate_of_market_substitution = price_of_good1 / price_of_good2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.202.2.3",
+   "title": "Changes in the Budget Set: Income Shifts and Price Pivots",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Changes in the Budget Set: Income Shifts and Price Pivots' refers to.",
+     "a": "A change in income slides the budget line parallel - outward when income rises, inward when it falls - while a change in one price pivots the line around the other good's intercept, steepening when the price rises and flattening when it falls.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Changes in the Budget Set: Income Shifts and Price Pivots'.",
+     "a": "Income moves the whole line; one price turns it on its hinge at the unchanged intercept.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Changes in the Budget Set: Income Shifts and Price Pivots', in plain ASCII form.",
+     "a": "budget_line_position = depends_on(income, price_of_good1, price_of_good2)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.202.3.1",
+   "title": "Consumer Optimum: Tangency of Budget Line and Indifference Curve",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Consumer Optimum: Tangency of Budget Line and Indifference Curve' refers to.",
+     "a": "A rational consumer picks the affordable bundle on the highest reachable indifference curve, which occurs where the budget line just touches that curve; there the willingness to substitute (MRS) equals the market's rate of substitution (price ratio), since equality in either direction would allow a better affordable bundle.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Consumer Optimum: Tangency of Budget Line and Indifference Curve'.",
+     "a": "The best affordable bundle is the tangency point where what the consumer is willing to swap matches what the market demands.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Consumer Optimum: Tangency of Budget Line and Indifference Curve', in plain ASCII form.",
+     "a": "marginal_rate_of_substitution = price_of_good1 / price_of_good2 (at the optimum)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.202.4.1",
+   "title": "Demand, Demand Function and the Law of Demand",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Demand, Demand Function and the Law of Demand' refers to.",
+     "a": "Demand is the quantity a consumer is both willing and able to buy at given prices and income; holding other influences fixed, quantity chosen falls as the good's own price rises, and the schedule of these pairs is the demand curve with its negative slope.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Demand, Demand Function and the Law of Demand'.",
+     "a": "Price down, quantity up - other determinants held still - is the law of demand.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Demand, Demand Function and the Law of Demand', in plain ASCII form.",
+     "a": "quantity_demanded = f(own_price) with other things constant",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.202.4.2",
+   "title": "Normal, Inferior and Giffen Goods",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Normal, Inferior and Giffen Goods' refers to.",
+     "a": "For a normal good demand moves with income, for an inferior good it moves against income; a Giffen good is the rare inferior case where the income effect of a price change outweighs the substitution effect, making demand rise with its own price.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Normal, Inferior and Giffen Goods'.",
+     "a": "Income changes push demand with or against them depending on the good, and only a Giffen good breaks the law of demand.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Normal, Inferior and Giffen Goods', in plain ASCII form.",
+     "a": "demand_direction = sign_of(income_effect) versus substitution_effect (Giffen case)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.202.4.3",
+   "title": "Substitutes, Complements and Shifts versus Movements of Demand",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Substitutes, Complements and Shifts versus Movements of Demand' refers to.",
+     "a": "Related goods steer demand: a substitute's price rise pushes this good's demand up, a complement's price rise pulls it down; changes in income, related prices or tastes shift the whole demand curve, while only the good's own price causes a movement along it.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Substitutes, Complements and Shifts versus Movements of Demand'.",
+     "a": "Own price moves you along the curve; everything else moves the curve itself.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Substitutes, Complements and Shifts versus Movements of Demand', in plain ASCII form.",
+     "a": "demand_curve_position = depends_on(income, related_prices, tastes) not own_price",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.202.5.1",
+   "title": "Market Demand by Horizontal Summation",
+   "questions": [
+    {
+     "q": "Using the method 'Market Demand by Horizontal Summation', work with: demand_consumer1 = 240, demand_consumer2 = 75. Carry the chain through step by step and give the final value of market_demand_at_price.",
+     "a": "315 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Market Demand by Horizontal Summation' and work with: demand_consumer1 = 200, demand_consumer2 = 3. Carry the chain through step by step and give the final value of market_demand_at_price.",
+     "a": "203 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Market Demand by Horizontal Summation' refers to.",
+     "a": "Market demand at any price is the total of all consumers' demands at that price, obtained by adding individual demand curves sideways; with two consumers whose curves are 10 minus p and 15 minus p, the market curve is 25 minus 2p up to the price 10, then 15 minus p until 15, then zero.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Market Demand by Horizontal Summation'.",
+     "a": "Add quantities, not curves, at each price - and remember each buyer drops out above her choke price.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Market Demand by Horizontal Summation', in plain ASCII form.",
+     "a": "market_demand_at_price = demand_consumer1 + demand_consumer2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.202.6.1",
+   "title": "Price Elasticity of Demand: Computation and Classification",
+   "questions": [
+    {
+     "q": "Using the method 'Price Elasticity of Demand: Computation and Classification', work with: change_in_price = 12000, change_in_quantity = 75, initial_price = 12000, initial_quantity = 8. Carry the chain through step by step and give the final value of elasticity_of_demand.",
+     "a": "9.375 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Price Elasticity of Demand: Computation and Classification' and work with: change_in_price = 2500, change_in_quantity = 15, initial_price = 8000, initial_quantity = 4. Carry the chain through step by step and give the final value of elasticity_of_demand.",
+     "a": "12 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Price Elasticity of Demand: Computation and Classification' refers to.",
+     "a": "Price elasticity of demand measures how strongly quantity responds to price, computed as the percentage change in quantity divided by the percentage change in price; values below one in size mark inelastic demand, above one elastic, and exactly one unitary.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Price Elasticity of Demand: Computation and Classification'.",
+     "a": "Elasticity is a pure responsiveness number, quoted by size, that sorts goods into elastic, unitary and inelastic.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Price Elasticity of Demand: Computation and Classification', in plain ASCII form.",
+     "a": "elasticity_of_demand = percentage_change_in_quantity / percentage_change_in_price",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leec.202.6.2",
+   "title": "Elasticity along a Linear Demand Curve and Total Expenditure",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Elasticity along a Linear Demand Curve and Total Expenditure' refers to.",
+     "a": "On the straight-line demand curve q equals a minus bp, elasticity varies point by point - zero at the horizontal axis, one at the midpoint, infinite at the vertical axis - equal to the ratio of the lower to the upper segment; and total spending rises with price only when demand is inelastic, falls when elastic, and stays put when unitary.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Elasticity along a Linear Demand Curve and Total Expenditure'.",
+     "a": "Elasticity slides from infinity to zero along a linear demand curve, and its size decides how a price change moves spending.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Elasticity along a Linear Demand Curve and Total Expenditure', in plain ASCII form.",
+     "a": "elasticity_at_point = lower_segment / upper_segment of the demand line",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

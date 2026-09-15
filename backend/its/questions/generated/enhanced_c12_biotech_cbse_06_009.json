@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_06_009",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_06_009",
+   "title": "c12_biotech_cbse_06_009",
+   "questions": [
+    {
+     "q": "Define somatic embryogenesis and state the fundamental structural difference between a somatic embryo and an adventitious shoot formed via organogenesis.",
+     "a": "Somatic embryogenesis is the development of bipolar embryos from somatic cells without gametic fusion, passing through globular, heart, torpedo, and cotyledonary stages. The fundamental difference: somatic embryos are bipolar (have both shoot and root apical meristems) and possess a procambial connection between them, whereas adventitious shoots are unipolar (only shoot meristem) and require a separate rooting step. A wrong answer stating \"both are same\" or \"somatic embryos come from zygotes\" reveals confusion between zygotic and somatic origin, or failure to recognize bipolarity as the defining feature.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Somatic embryos develop directly from explant epidermis without callus formation in all plant species.\" Explain why this statement is incorrect and describe the two distinct pathways of somatic embryogenesis with one example each.",
+     "a": "The statement is incorrect because somatic embryogenesis occurs via two pathways: (1) Direct somatic embryogenesis — embryos form directly from explant cells without intervening callus (e.g., carrot hypocotyl, Citrus nucellus), and (2) Indirect somatic embryogenesis — embryos arise from callus or cell suspension cultures (e.g., Alfalfa, Coffee, Sandalwood). Most woody species follow the indirect pathway. A student claiming \"always direct\" or \"always indirect\" reveals oversimplification; the pathway depends on genotype, explant type, and PGR regime. This misconception leads to protocol design errors in competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-phase MS medium protocol for indirect somatic embryogenesis in carrot (Daucus carota) using leaf explant. Specify: (a) PGR composition and concentration for induction phase, (b) PGR composition for development phase, (c) Carbon source and concentration, (d) Why 2,4-D is preferred over NAA/IAA for induction.",
+     "a": "(a) Induction: MS + 2,4-D 2.0 mg/L (or 0.5–2.0 mg/L) + Kinetin 0.5 mg/L (optional), 30 g/L sucrose, 0.8% agar, pH 5.8. (b) Development: MS + 0.1 mg/L NAA or hormone-free MS + 30 g/L sucrose. (c) Sucrose 30 g/L (3%) — provides carbon and osmoticum. (d) 2,4-D is preferred because it is metabolically stable (resists auxin oxidase degradation), strongly induces embryogenic competence, and mimics the endogenous auxin peak in zygotic embryogenesis. NAA/IAA degrade rapidly, giving inconsistent induction. Wrong answers using high cytokinin in induction or retaining 2,4-D in development reveal misunderstanding of the auxin-withdrawal requirement for polarity establishment.",
+     "self_check": true
+    },
+    {
+     "q": "Compare somatic embryogenesis and organogenesis across these parameters: (i) Origin of meristems, (ii) PGR requirement pattern, (iii) Genetic fidelity risk, (iv) Suitability for synthetic seed production. Present as a table.",
+     "a": "| Parameter | Somatic Embryogenesis | Organogenesis |\n|-----------|----------------------|---------------|\n| (i) Meristem origin | Bipolar: SAM + RAM form simultaneously with vascular connection | Unipolar: SAM forms first; RAM induced later on shoots |\n| (ii) PGR pattern | High auxin (2,4-D) induction → auxin-free/low auxin development | Auxin:cytokinin ratio manipulation (high cytokinin → shoots; high auxin → roots) |\n| (iii) Genetic fidelity | Higher risk of somaclonal variation due to callus/suspension phase | Lower risk if direct organogenesis; higher if via callus |\n| (iv) Synthetic seeds | Ideal — bipolar structure allows encapsulation as \"artificial seeds\" | Not suitable — unipolar shoots lack root pole for direct sowing |\n\nA student reversing (i) or claiming organogenesis is better for synthetic seeds reveals failure to link bipolarity to encapsulation utility.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Adding 10 µM abscisic acid (ABA) during the torpedo stage improves somatic embryo maturation and germination conversion in most dicots.\" Is this universally true? Justify with two species-specific exceptions and the physiological role of ABA.",
+     "a": "The claim is NOT universally true. ABA (10–50 µM) promotes maturation (storage protein/lipid accumulation, desiccation tolerance) in many dicots (e.g., carrot, alfalfa, coffee), but: (1) In conifers (e.g., Pinus, Picea), ABA often inhibits maturation; instead, PEG-induced osmotic stress (10–15%) or cold treatment (4°C) is used. (2) In some legumes (e.g., Medicago), high ABA causes abnormal embryos; low ABA (1–5 µM) + high sucrose (6–9%) works better. Physiologically, ABA mimics late zygotic embryogenesis: induces LEA proteins, inhibits precocious germination, and synchronizes development. A student saying \"always true\" ignores genotype-specific responses — a common NEET trap.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel application scenario: You are tasked with producing 10,000 genetically identical, disease-free sandalwood (Santalum album) plantlets in 6 months using somatic embryogenesis. Outline the complete workflow from explant selection to hardening, highlighting three critical quality-control checkpoints where you would assess embryogenic competence, genetic fidelity, and conversion efficiency.",
+     "a": "Workflow: (1) Explant: Immature zygotic embryos or nodal segments from elite mother tree → surface sterilize (HgCl₂ 0.1% 5 min). (2) Induction: MS + 2,4-D 2 mg/L + BAP 0.5 mg/L, dark, 25°C, 4 weeks → callus. QC1: Histology — stain with acetocarmine; embryogenic callus = dense cytoplasmic, small cells, starch granules; non-embryogenic = vacuolated, large cells. (3) Proliferation: Transfer embryogenic callus to liquid MS + 2,4-D 1 mg/L on shaker (100 rpm) → cell suspension. (4) Development: Filter suspension, plate on MS hormone-free + 6% sucrose + 10 µM ABA, light 16/8 h. QC2: Flow cytometry (nuclear DNA content) — compare with mother plant; >5% ploidy change = discard line. (5) Maturation: 4°C for 2 weeks + desiccation (sterile filter paper, 3 days). (6) Conversion: MS + 0.1 mg/L GA₃ → germination. QC3: Conversion rate = (normal plantlets / total embryos plated) × 100; target >70%. (7) Hardening: Ex vitro in vermiculite:perlite 1:1, high humidity. A poor answer misses histological QC or uses only morphology, risking non-embryogenic lines.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

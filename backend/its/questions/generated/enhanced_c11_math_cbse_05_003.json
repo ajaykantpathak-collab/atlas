@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_05_003",
+   "title": "c11_math_cbse_05_003",
+   "questions": [
+    {
+     "q": "State the rule for adding two complex numbers \\(z_1 = a+ib\\) and \\(z_2 = c+id\\) in standard form. Write the formula for \\(z_1 + z_2\\) and \\(z_1 - z_2\\).",
+     "a": "Correct answer: \\(z_1 + z_2 = (a+c) + i(b+d)\\) and \\(z_1 - z_2 = (a-c) + i(b-d)\\). A wrong answer like \\((a+c) + (b+d)i\\) (missing parentheses) or \\((a+c) + i(b-d)\\) for addition reveals the student treats \\(i\\) as a variable that can be factored incorrectly or confuses the sign for the imaginary part. It shows they haven't internalized that addition is component-wise and the imaginary unit \\(i\\) is attached only to the coefficient \\(b\\) or \\(d\\).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \\((3+2i) + (1-4i)\\) simplifies to \\(4 - 2i\\) and not \\(4 + 6i\\) or \\(4 - 6i\\). What does the negative sign in front of \\(4i\\) actually mean?",
+     "a": "Correct explanation: The negative sign in \\(-4i\\) means the imaginary part of the second number is \\(-4\\). Adding imaginary parts: \\(2 + (-4) = -2\\). A student answering \\(4+6i\\) incorrectly adds absolute values (ignoring sign) or treats \\(-4i\\) as \"subtract 4i\" but then adds 4 to 2. A student answering \\(4-6i\\) incorrectly subtracts the imaginary parts as \\(2 - 4 = -6\\) (sign error). This reveals confusion between the sign of the imaginary coefficient and the operation of addition/subtraction.",
+     "self_check": true
+    },
+    {
+     "q": "If \\(z_1 = 5 - 3i\\) and \\(z_2 = -2 + 7i\\), compute \\(z_1 - z_2\\) and express the result in standard form \\(a+ib\\). Show all steps.",
+     "a": "Step 1: Write \\(z_1 - z_2 = (5 - 3i) - (-2 + 7i)\\).  \nStep 2: Distribute the minus sign: \\(5 - 3i + 2 - 7i\\).  \nStep 3: Group real parts: \\(5 + 2 = 7\\). Group imaginary parts: \\(-3i - 7i = -10i\\).  \nStep 4: Result: \\(7 - 10i\\).  \nA wrong answer like \\(3 + 4i\\) (subtracting real parts incorrectly: \\(5 - (-2) = 3\\)) or \\(7 + 4i\\) (sign error on imaginary part: \\(-3 - 7 = 4\\)) reveals the student struggles with integer sign rules when distributing the minus sign across the second complex number.",
+     "self_check": true
+    },
+    {
+     "q": "Given \\(z_1 = x + iy\\) and \\(z_2 = 3 - 2i\\), if \\(z_1 + z_2 = 7 + 4i\\), find the real values of \\(x\\) and \\(y\\). How does this problem differ from simply adding two known complex numbers?",
+     "a": "Step 1: \\(z_1 + z_2 = (x+3) + i(y-2) = 7 + 4i\\).  \nStep 2: Equate real parts: \\(x+3 = 7 \\Rightarrow x = 4\\).  \nStep 3: Equate imaginary parts: \\(y-2 = 4 \\Rightarrow y = 6\\).  \nThis requires solving for unknown coefficients by equating real and imaginary parts separately, using the fact that two complex numbers are equal iff their real parts are equal AND their imaginary parts are equal. A student who adds \\(x+3\\) and \\(y-2\\) without equating to 7 and 4, or who sets \\(x+3 = 4\\) and \\(y-2 = 7\\) (swapping), reveals they don't understand the definition of equality of complex numbers as a system of two real equations.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that for any complex numbers \\(z_1\\) and \\(z_2\\), \\(z_1 - z_2 = z_2 - z_1\\). Is this statement true or false? Justify your answer with a counterexample or proof.",
+     "a": "False. Subtraction of complex numbers is not commutative. Counterexample: Let \\(z_1 = 1+2i\\), \\(z_2 = 3+4i\\). Then \\(z_1 - z_2 = (1-3) + i(2-4) = -2 -2i\\), but \\(z_2 - z_1 = (3-1) + i(4-2) = 2+2i\\). They are not equal (they are additive inverses). A student answering \"true\" because \"addition is commutative\" confuses addition with subtraction. A student giving a proof using variables but missing that \\(a-c \\neq c-a\\) in general shows they don't connect the property to real number subtraction.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem in an Indian context (e.g., shopping, travel, finance) that requires adding or subtracting two complex numbers to solve. Define what the real and imaginary parts represent in your problem.",
+     "a": "Good answer example: \"Rahul has a wallet with ₹500 cash and 3 UPI coupons. His friend Priya gives him ₹200 cash but takes back 2 UPI coupons. Represent Rahul's initial holdings as \\(500 + 3i\\) and the transaction as \\(200 - 2i\\). Find his final holdings.\" (Answer: \\(700 + i\\)). A poor answer uses complex numbers for quantities that don't have two independent dimensions (e.g., \"5 apples and 3 oranges\" but then adds them as if they were same unit) or creates a problem where multiplication is needed. This reveals whether the student understands that complex numbers model two-component quantities that add component-wise.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

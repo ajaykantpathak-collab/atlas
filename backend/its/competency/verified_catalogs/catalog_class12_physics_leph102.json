@@ -1,0 +1,465 @@
+{
+ "class": 12,
+ "subject": "physics",
+ "chapter": 102,
+ "chapter_title": "Electrostatic Potential and Capacitance",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leph102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leph102.2.2.1",
+   "title": "Electrostatic Potential from Work per Unit Charge",
+   "section": "2.2",
+   "definition": "The potential at a point records how much work each coulomb of positive charge costs an outside agent to carry in from an infinite distance.",
+   "formula": "V = W / q",
+   "key_idea": "Only potential differences carry physical meaning; the zero of potential is a free choice, conventionally set at infinity.",
+   "textbook_ref": "leph102.txt sections 2.1-2.2 (potential energy, potential definition, Eq. 2.4)",
+   "question_patterns": [
+    "a test charge of 5 nanocoulomb costs 2 times 10 to the minus 6 joule to bring in; compute the potential at that point",
+    "a charge of 2 nanocoulomb needs 8 times 10 to the minus 5 joule of work to reach point P from infinity; find the potential there",
+    "how much work moves a 2 microcoulomb charge across a potential difference of 100 volt",
+    "find the potential difference if 0.05 joule shifts a 2 microcoulomb charge between two terminals",
+    "why do only potential differences matter physically while the absolute potential is arbitrary up to a constant",
+    "0.05 joule shifts a 2 microcoulomb charge between two terminals; get the potential difference and say why only differences matter"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "split the work by the charge moved",
+     "explain": "potential difference equals work done per unit charge, so divide work by the test charge",
+     "compute": "potential = work_done / test_charge"}
+   ]
+  },
+  {
+   "id": "leph102.2.3.1",
+   "title": "Potential Due to a Point Charge",
+   "section": "2.3",
+   "definition": "A point charge Q sets up around itself a potential equal to k Q over r, dropping as one over distance and carrying the sign of the source charge.",
+   "formula": "V = k * Q / r",
+   "key_idea": "Potential falls as 1/r while field falls as 1/r squared, so potential is the gentler falloff of the two.",
+   "textbook_ref": "leph102.txt section 2.3 (Eq. 2.8, Example 2.1)",
+   "question_patterns": [
+    "calculate the potential at 9 cm from a 4 times 10 to the minus 7 coulomb charge",
+    "find the potential at distance r from a point charge Q placed in vacuum",
+    "what is the electric potential 30 cm away from a 10 nanocoulomb point charge",
+    "evaluate the potential near a point source charge with the one-over-r rule",
+    "determine V at 18 cm from the centre of a small charged sphere treated as a point"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "write the Coulomb constant",
+     "explain": "the point-charge potential is k Q over r with k = 9e9 in SI units",
+     "compute": "k_const = 9.0e9"},
+    {"step": 2, "action": "multiply by charge and divide by distance",
+     "explain": "scaling the constant by the source charge and the reciprocal distance gives the potential",
+     "compute": "potential = k_const * source_charge / point_distance"}
+   ]
+  },
+  {
+   "id": "leph102.2.4.1",
+   "title": "Potential Due to a Dipole at a Far Point",
+   "section": "2.4",
+   "definition": "Far from a dipole the potential equals k p cos theta over r squared, so it falls as one over r squared, flips sign between the two axial directions, and vanishes over the whole equatorial plane.",
+   "formula": "V = k * p * cos_theta / r**2",
+   "key_idea": "Dipole potential dies one power of r faster than a point-charge potential and depends on the angle to the moment, not on r alone.",
+   "textbook_ref": "leph102.txt section 2.4 (Eqs. 2.14-2.16)",
+   "question_patterns": [
+    "calculate the far potential of a dipole with charges 2 nanocoulomb separated by 1 cm at a point 30 cm away at 60 degrees to its moment",
+    "find the potential at a distant point on the axis of a short dipole with charge q and separation 2a",
+    "what potential does a dipole of moment p give at distance r and angle theta",
+    "show that the potential in the equatorial plane of a dipole is zero and verify it numerically with cos 90 degrees",
+    "how does the dipole potential fall with distance compared with the potential of a single charge"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "build the dipole moment",
+     "explain": "the moment is charge times full separation, the product the far field actually responds to",
+     "compute": "dipole_moment = 2 * dipole_charge * half_separation"},
+    {"step": 2, "action": "scale by angle and inverse square",
+     "explain": "multiply k by the moment and cos(theta), then divide by the squared distance",
+     "compute": "potential = 9.0e9 * dipole_moment * cos_theta / (point_distance ** 2)"}
+   ]
+  },
+  {
+   "id": "leph102.2.5.1",
+   "title": "Potential of a Charge System by Superposition",
+   "section": "2.5",
+   "definition": "Potential obeys superposition as an algebraic sum: every charge contributes k q over its own distance, signs included, with no interference between terms.",
+   "formula": "V = k * q1 / r1 + k * q2 / r2 + ...",
+   "key_idea": "Because potential is a scalar, adding contributions needs no vector geometry, only careful signs and the right distances.",
+   "textbook_ref": "leph102.txt section 2.5 (Eqs. 2.17-2.18, Example 2.2)",
+   "question_patterns": [
+    "charges of 4 and -3 microcoulomb sit 20 cm apart; find the potential at the midpoint of the line joining them",
+    "two charges of 3 times 10 to the minus 8 and -2 times 10 to the minus 8 coulomb lie 15 cm apart; evaluate the potential at a point 10 cm from each",
+    "add the potentials from two point charges placed at given distances from a point",
+    "what potential does a pair of charges produce at a nearby point P",
+    "compute V at a point using the algebraic sum rule for a two-charge system"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "potential of the first charge",
+     "explain": "apply the point-charge rule to charge1 with its own distance to the field point",
+     "compute": "v_one = 9.0e9 * charge1 / distance1"},
+    {"step": 2, "action": "potential of the second charge",
+     "explain": "repeat for charge2 at its own distance, keeping its sign",
+     "compute": "v_two = 9.0e9 * charge2 / distance2"},
+    {"step": 3, "action": "add the contributions",
+     "explain": "potentials superpose as plain signed numbers, so the total is their arithmetic sum",
+     "compute": "total_potential = v_one + v_two"}
+   ]
+  },
+  {
+   "id": "leph102.2.6.1",
+   "title": "Equipotential Surfaces and the Field-Potential Link",
+   "section": "2.6",
+   "definition": "An equipotential surface joins points sharing one potential value; the field meets it at right angles and points down the steepest potential slope.",
+   "formula": "E = dV / dl",
+   "key_idea": "No work is needed to slide a charge along an equipotential, which is exactly why the field can have no component along it.",
+   "textbook_ref": "leph102.txt section 2.6 and 2.6.1 (Eqs. 2.20-2.21)",
+   "question_patterns": [
+    "why is the electric field always normal to an equipotential surface",
+    "describe the equipotential surfaces drawn around a single point charge",
+    "what shape do the equipotential surfaces take inside a uniform field along the x axis",
+    "how is the field strength related to the rate at which potential drops with distance",
+    "can two different equipotential surfaces ever touch or cross each other",
+    "in which direction does the electric field point relative to the steepest decrease of potential",
+    "the field runs down the steepest potential slope; state its size as the potential change per unit normal distance"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "apply the no-work condition on the surface",
+     "explain": "moving a test charge between points of equal potential needs zero work, so the field cannot have a tangential part"},
+    {"step": 2, "action": "conclude the perpendicularity rule",
+     "explain": "the field must therefore cross every equipotential at right angles"},
+    {"step": 3, "action": "read the field from the potential gradient",
+     "explain": "the magnitude equals the potential change per unit normal distance, directed down the slope"}
+   ]
+  },
+  {
+   "id": "leph102.2.7.1",
+   "title": "Potential Energy of Two Charges",
+   "section": "2.7",
+   "definition": "Assembling two charges at a fixed separation stores work as energy k q1 q2 over r12, positive for like charges and negative for unlike ones.",
+   "formula": "U = k * q1 * q2 / r12",
+   "key_idea": "The energy belongs to the configuration, not to the assembly route, because electrostatic work is path-independent.",
+   "textbook_ref": "leph102.txt section 2.7 (Eqs. 2.22, 2.26, Example 2.4-2.5)",
+   "question_patterns": [
+    "calculate the potential energy of two charges 7 and -2 microcoulomb kept 18 cm apart",
+    "how much work does it take to assemble two like charges at a stated separation",
+    "find the energy stored in a pair of opposite charges a given distance apart",
+    "work needed to pull two charges of known values and separation infinitely far apart",
+    "determine U for charges q1 and q2 whose gap is r12 in vacuum"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "write the Coulomb constant",
+     "explain": "the pair energy uses the same constant as the force law",
+     "compute": "k_const = 9.0e9"},
+    {"step": 2, "action": "combine charges over the gap",
+     "explain": "multiply k by both charges and divide by their separation to get the stored energy",
+     "compute": "pair_energy = k_const * charge1 * charge2 / pair_distance"}
+   ]
+  },
+  {
+   "id": "leph102.2.8.1",
+   "title": "Potential Energy of a Dipole in a Field",
+   "section": "2.8.3",
+   "definition": "A dipole of moment p tilted at angle theta inside a uniform field carries potential energy minus pE cos theta, least when aligned with the field.",
+   "formula": "U = -p * E * cos_theta",
+   "key_idea": "Alignment is the low-energy state; turning the dipole away from the field costs work that comes back as torque when released.",
+   "textbook_ref": "leph102.txt section 2.8.3 (Eqs. 2.30-2.34, Example 2.6)",
+   "question_patterns": [
+    "find the potential energy of a dipole of moment 4 times 10 to the minus 9 coulomb metre held at 30 degrees inside a 5 times 10 to the 4 field",
+    "calculate the energy of a dipole aligned at angle theta to a uniform field",
+    "at what orientation is the dipole energy minimum and what is its value there",
+    "compute minus p E cos theta with numbers for a molecule in a strong field",
+    "a molecular dipole of moment 1 times 10 to the minus 29 sits at 60 degrees inside a 1 times 10 to the 6 volt per metre field; find its energy"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "project the field on the moment",
+     "explain": "only the field component along the moment counts, so multiply pE by cos(theta) and attach the minus sign",
+     "compute": "dipole_energy = -dipole_moment * e_field * cos_theta"}
+   ]
+  },
+  {
+   "id": "leph102.2.9.1",
+   "title": "Electrostatic Properties of Conductors",
+   "section": "2.9",
+   "definition": "In the static state a conductor shows five hallmark behaviours: zero interior field, a surface field strictly perpendicular to the face, excess charge living only on the surface, one constant potential everywhere within and on the body, and complete shielding of an empty cavity.",
+   "formula": "E_surface = sigma / eps0",
+   "key_idea": "Free electrons rearrange until the interior field cancels; that single fact generates all five conductor rules including shielding.",
+   "textbook_ref": "leph102.txt section 2.9 (results 1-6, Eq. 2.35, Example 2.7)",
+   "question_patterns": [
+    "free electrons inside a metal keep drifting until which condition on the interior field is reached",
+    "where does any excess charge on a charged conductor reside in the static case",
+    "why must the field just outside a charged conductor point along the perpendicular there",
+    "a cavity in a conductor stays free of outside electrical influence; name this effect and give the outside surface field sigma over eps0",
+    "is the potential the same at every point of a charged conductor and on its surface",
+    "five hallmark static behaviours of a conductor; list them and connect each to zero interior field"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "impose the zero interior field",
+     "explain": "any residual field would drive the free electrons until it cancels, defining the static state"},
+    {"step": 2, "action": "push charge to the surface",
+     "explain": "a Gauss pillbox inside the body encloses zero flux, hence zero interior net charge"},
+    {"step": 3, "action": "set the surface field and shielding",
+     "explain": "the surface field is sigma over eps0 along the outward normal, and an empty cavity stays field-free whatever happens outside"}
+   ]
+  },
+  {
+   "id": "leph102.2.10.1",
+   "title": "Dielectrics and Polarisation",
+   "section": "2.10",
+   "definition": "A dielectric is an insulator whose molecules stretch or swing round inside a field, building bound surface charges that partially cancel the applied field within the slab.",
+   "formula": "P = eps0 * chi_e * E",
+   "key_idea": "Polar molecules already carry a moment while non-polar ones gain an induced one; both end up polarised with the field reduced, not erased as in a conductor.",
+   "textbook_ref": "leph102.txt section 2.10 (Eq. 2.37, polar and non-polar molecules)",
+   "question_patterns": [
+    "which dielectric molecules carry a permanent moment and which only gain an induced one inside a field",
+    "what happens inside a dielectric slab placed in an external field",
+    "define polarisation and electric susceptibility for a dielectric medium",
+    "why does sliding a dielectric between capacitor plates weaken the field there",
+    "what are the induced surface charges on a polarised slab and why are they called bound charge"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "sort the molecules",
+     "explain": "non-polar molecules have coinciding charge centres, polar ones keep separated centres with a permanent moment"},
+    {"step": 2, "action": "describe the polarisation mechanism",
+     "explain": "the field stretches non-polar molecules or lines up polar ones, giving a net moment per unit volume"},
+    {"step": 3, "action": "account for the induced surface charge",
+     "explain": "unaligned dipole ends pile up on the faces normal to the field, and their field opposes but does not fully cancel the applied one"}
+   ]
+  },
+  {
+   "id": "leph102.2.11.1",
+   "title": "Capacitance and Plate Charge",
+   "section": "2.11",
+   "definition": "Capacitance is the charge a capacitor stores per volt across its plates, fixed by geometry and any filling material; the stored charge follows by multiplying it by the applied voltage.",
+   "formula": "Q = C * V",
+   "key_idea": "A farad is enormous, so practical capacitors sit in the micro, nano and picofarad range; C never depends on Q or V themselves.",
+   "textbook_ref": "leph102.txt section 2.11 (Eq. 2.38, dielectric strength, Example 2.10)",
+   "question_patterns": [
+    "how much charge collects on each plate of a 12 picofarad capacitor wired to a 50 volt battery",
+    "a 100 volt supply charges a 900 picofarad capacitor; find the plate charge",
+    "calculate the charge stored when a capacitor of capacitance C is raised to potential difference V",
+    "a capacitor rated 8 picofarad is wired to 100 volt; how much charge does each plate carry",
+    "compute the charge on a capacitor from its capacitance and the applied voltage",
+    "define capacitance and give its SI unit"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "multiply capacitance by voltage",
+     "explain": "the defining ratio Q over V rearranges to give the stored charge directly",
+     "compute": "stored_charge = capacitance * voltage_diff"}
+   ]
+  },
+  {
+   "id": "leph102.2.12.1",
+   "title": "Parallel Plate Capacitor Capacitance",
+   "section": "2.12",
+   "definition": "Two wide plates a narrow gap apart hold capacitance eps0 A over d, set purely by plate area, separation and the filling medium.",
+   "formula": "C = eps0 * A / d",
+   "key_idea": "The field lives only in the gap and equals sigma over eps0, which is what turns the geometry directly into capacitance.",
+   "textbook_ref": "leph102.txt section 2.12 (Eqs. 2.39-2.45, Exercise 2.8)",
+   "question_patterns": [
+    "find the capacitance of an air-filled parallel plate capacitor with plates of 6 times 10 to the minus 3 metre squared held 3 mm apart",
+    "calculate C for two parallel plates of area A separated by distance d in vacuum",
+    "what capacitance does a plate pair of given area and gap have in air",
+    "compute the geometric capacitance of a parallel plate arrangement from its dimensions",
+    "plates of 1 metre by 1 metre spaced 1 mm apart; estimate their capacitance in farad"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "scale eps0 by area over gap",
+     "explain": "insert eps0 = 8.85e-12, multiply by the plate area and divide by the separation",
+     "compute": "capacitance = 8.85e-12 * plate_area / gap"}
+   ]
+  },
+  {
+   "id": "leph102.2.13.1",
+   "title": "Dielectric Filling and Capacitance Gain",
+   "section": "2.13",
+   "definition": "Filling the gap with a dielectric multiplies the vacuum capacitance by the dielectric constant K, because polarisation shrinks the interior field and with it the plate voltage.",
+   "formula": "C = K * C0",
+   "key_idea": "K above 1 is the capacitance growth factor; permittivity of the medium is eps0 K, and a thinner gap scales C up in the same ratio.",
+   "textbook_ref": "leph102.txt section 2.13 (Eqs. 2.46-2.54, Example 2.8, Exercise 2.5)",
+   "question_patterns": [
+    "an air capacitor of 8 picofarad has its gap halved and the space filled with material of constant 6; find the new capacitance",
+    "what happens to the capacitance when a dielectric slab of constant K fully fills the gap",
+    "calculate the new capacitance after inserting a sheet with dielectric constant 6 between the plates",
+    "express the filled capacitance through the vacuum value and K and evaluate it with numbers",
+    "a mica sheet of constant 6 as thick as the gap slides in; get the resulting capacitance"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "ratio the gap change",
+     "explain": "capacitance varies as one over the gap, so closing the gap multiplies C by old gap over new gap",
+     "compute": "geometry_factor = old_gap / new_gap"},
+    {"step": 2, "action": "apply the dielectric factor",
+     "explain": "the filled capacitance is K times the vacuum value times the geometry factor",
+     "compute": "new_capacitance = dielectric_constant * vacuum_capacitance * geometry_factor"}
+   ]
+  },
+  {
+   "id": "leph102.2.14.1",
+   "title": "Capacitors in Series",
+   "section": "2.14.1",
+   "definition": "Chaining capacitors end to end puts one shared charge on every unit while voltages add, so the reciprocals of the capacitances add and the equivalent comes out smaller than the smallest member.",
+   "formula": "1/C = 1/C1 + 1/C2",
+   "key_idea": "Series shares charge but splits voltage; the reciprocal rule converts the added drops into one equivalent capacitance.",
+   "textbook_ref": "leph102.txt section 2.14.1 (Eqs. 2.55-2.60, Example 2.9)",
+   "question_patterns": [
+    "three 9 picofarad capacitors joined in series; find the combination capacitance",
+    "two capacitors C1 and C2 connected in series; obtain the equivalent capacitance",
+    "capacitors of 2, 3 and 4 picofarad chained in series; what single capacitance can replace them",
+    "find the total capacitance when several capacitors are wired one after another",
+    "compute the equivalent of a series chain from the individual capacitances with given values"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "add the reciprocals",
+     "explain": "equal charge and added voltage drops make the reciprocals of the capacitances add",
+     "compute": "inv_total = 1 / cap1 + 1 / cap2"},
+    {"step": 2, "action": "invert the sum",
+     "explain": "the equivalent capacitance is the reciprocal of the summed reciprocals",
+     "compute": "equivalent_capacitance = 1 / inv_total"}
+   ]
+  },
+  {
+   "id": "leph102.2.14.2",
+   "title": "Capacitors in Parallel",
+   "section": "2.14.2",
+   "definition": "Wiring capacitors side by side puts the same voltage on every unit while their charges add, so the capacitances add straight to one larger equivalent.",
+   "formula": "C = C1 + C2",
+   "key_idea": "Parallel shares voltage but pools charge, giving an equivalent at least as large as the biggest branch.",
+   "textbook_ref": "leph102.txt section 2.14.2 (Eqs. 2.61-2.67, Example 2.9)",
+   "question_patterns": [
+    "capacitors of 2, 3 and 4 picofarad wired in parallel; find the total capacitance",
+    "what is the combined capacitance of a parallel bank of capacitors",
+    "three capacitors in parallel across a 100 volt supply; find the equivalent capacitance value",
+    "add up parallel capacitances to get one replacement capacitor",
+    "two capacitors of 6 and 3 picofarad in parallel; compute the equivalent"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "sum the branch capacitances",
+     "explain": "common voltage means charges C1V, C2V and so on add, so the capacitances simply add",
+     "compute": "equivalent_capacitance = cap1 + cap2"}
+   ]
+  },
+  {
+   "id": "leph102.2.15.1",
+   "title": "Energy Stored in a Capacitor",
+   "section": "2.15",
+   "definition": "Charging a capacitor pumps energy one-half C V squared into the field between its plates, recoverable in full when the capacitor discharges.",
+   "formula": "U = 0.5 * C * V**2",
+   "key_idea": "The same energy reads Q squared over 2C or one-half QV; the field view gives an energy density of one-half eps0 E squared per unit volume.",
+   "textbook_ref": "leph102.txt section 2.15 (Eqs. 2.68-2.73, Example 2.10)",
+   "question_patterns": [
+    "how much energy does a 12 picofarad capacitor charged to 50 volt store",
+    "calculate the electrostatic energy held by a 600 picofarad capacitor at 200 volt",
+    "find the energy stored in a capacitor from its capacitance and charging voltage",
+    "a 900 picofarad capacitor is charged by a 100 volt battery; compute the stored energy",
+    "the stored energy of a charged capacitor reads one-half Q V; evaluate it for a 900 picofarad unit at 100 volt"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "apply the one-half C V squared rule",
+     "explain": "charging work integrates Q dQ over C, ending at half the product of capacitance and voltage squared",
+     "compute": "stored_energy = 0.5 * capacitance * voltage_diff ** 2"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_leph102_1",
+   "source_ref": "leph102.txt Example 2.1 (potential at P, then work from infinity)",
+   "concept": "leph102.2.3.1",
+   "question_type": "potential_then_work",
+   "question_pattern": "A charge of {Q} C sits 9 cm from point P. Find the potential at P, then the work to carry {q_moved} C there from infinity.",
+   "extracted_variables": {"Q": 4e-07, "r": 0.09, "q_moved": 2e-09},
+   "solution_template": [
+    {"step": 1, "action": "write the Coulomb constant",
+     "explain": "k = 9e9 in SI units",
+     "compute": "k_const = 9.0e9"},
+    {"step": 2, "action": "point-charge potential",
+     "explain": "V equals k Q over r",
+     "compute": "potential = k_const * Q / r"},
+    {"step": 3, "action": "work from the potential",
+     "explain": "the carrying work is the moved charge times the potential at the destination",
+     "compute": "work_needed = q_moved * potential"}
+   ]
+  },
+  {
+   "id": "we_leph102_2",
+   "source_ref": "leph102.txt Exercise 2.6 data (three 9 pF capacitors in series on 120 V)",
+   "concept": "leph102.2.14.1",
+   "question_type": "series_then_drop",
+   "question_pattern": "Three capacitors of {c} F each are chained in series across a {supply} volt supply. Find the combination capacitance and the drop across one unit.",
+   "extracted_variables": {"c": 9e-12, "supply": 120.0},
+   "solution_template": [
+    {"step": 1, "action": "add the three reciprocals",
+     "explain": "series units carry the same charge, so reciprocals add",
+     "compute": "inv_total = 1 / c + 1 / c + 1 / c"},
+    {"step": 2, "action": "invert the sum",
+     "explain": "the equivalent capacitance is one over the summed reciprocals",
+     "compute": "equivalent = 1 / inv_total"},
+    {"step": 3, "action": "share the supply voltage",
+     "explain": "each unit takes the supply times the equivalent over its own capacitance",
+     "compute": "drop = supply * equivalent / c"}
+   ]
+  },
+  {
+   "id": "we_leph102_3",
+   "source_ref": "leph102.txt Exercise 2.10 data (12 pF on a 50 V battery)",
+   "concept": "leph102.2.15.1",
+   "question_type": "stored_energy",
+   "question_pattern": "A capacitor of {C} F is connected to a {V} volt battery. How much electrostatic energy does it store?",
+   "extracted_variables": {"C": 12e-12, "V": 50.0},
+   "solution_template": [
+    {"step": 1, "action": "apply the energy rule",
+     "explain": "stored energy is one-half capacitance times voltage squared",
+     "compute": "stored_energy = 0.5 * C * V ** 2"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_leph102_2_1_to_2_3",
+   "source_ref": "leph102.txt exercises 2.1-2.3",
+   "questions": [
+    "Charges of 5e-8 and -3e-8 C sit 16 cm apart; locate the point or points on the joining line where the potential is zero.",
+    "A regular hexagon of 10 cm side carries 5 microcoulomb at every corner; find the potential at its centre.",
+    "For a 2 microcoulomb and a -2 microcoulomb charge 6 cm apart, name one equipotential surface of the pair and give the field direction on it."
+   ]
+  },
+  {
+   "id": "ex_leph102_2_4_to_2_5",
+   "source_ref": "leph102.txt exercises 2.4-2.5",
+   "questions": [
+    "A 12 cm spherical conductor holds 1.6e-7 C spread evenly; give the field inside, just outside, and at 18 cm from the centre.",
+    "An air capacitor of 8 pF has its plate gap halved and the space filled with material of constant 6; what capacitance results?"
+   ]
+  },
+  {
+   "id": "ex_leph102_2_6_to_2_8",
+   "source_ref": "leph102.txt exercises 2.6-2.8",
+   "questions": [
+    "Three 9 pF capacitors in series: find the combination capacitance and the drop on each unit across a 120 volt supply.",
+    "Capacitors of 2, 3 and 4 pF in parallel: find the total capacitance and the charge on each unit across a 100 volt supply.",
+    "Plates of 6e-3 metre squared held 3 mm apart in air: find the capacitance, then the plate charge when 100 volt is applied."
+   ]
+  },
+  {
+   "id": "ex_leph102_2_9_to_2_11",
+   "source_ref": "leph102.txt exercises 2.9-2.11",
+   "questions": [
+    "A 3 mm mica sheet of constant 6 fills the gap of the exercise 2.8 capacitor; describe the outcome with the supply still connected and after it is removed.",
+    "How much electrostatic energy does a 12 pF capacitor on a 50 volt battery hold?",
+    "A 600 pF capacitor charged to 200 volt is reconnected across an identical uncharged one; how much energy disappears, and where does it go?"
+   ]
+  }
+ ]
+}

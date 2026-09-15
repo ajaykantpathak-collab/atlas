@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_geo_ch1_1",
+ "concepts": [
+  {
+   "id": "enh:c9_geo_ch1_1",
+   "title": "c9_geo_ch1_1",
+   "questions": [
+    {
+     "q": "Name the three main chemical layers of Earth's interior in order from surface to centre, and state the approximate thickness of each.",
+     "a": "Crust (5-70 km), Mantle (~2,900 km thick), Core (~3,470 km radius). A wrong answer (e.g., listing \"lithosphere, asthenosphere, mesosphere\") reveals confusion between chemical layers (crust/mantle/core) and mechanical layers (lithosphere/asthenosphere) — a common Class 9 error when students mix plate tectonics terminology with basic structure.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the continental crust is thicker but less dense than oceanic crust, and how this relates to the principle of isostasy.",
+     "a": "Continental crust (avg. 35 km, density 2.7 g/cm³) is granitic and buoyant; oceanic crust (avg. 7 km, density 3.0 g/cm³) is basaltic and denser. Isostasy means crustal blocks float on the ductile mantle like icebergs — thicker continental crust has deeper \"roots\" to maintain gravitational equilibrium. A wrong answer focusing only on rock types without mentioning buoyancy/floatation shows misunderstanding of isostasy as a dynamic equilibrium process.",
+     "self_check": true
+    },
+    {
+     "q": "An earthquake occurs at 20°N, 80°E. A seismometer at 40°N, 80°E (same longitude, 2,200 km away) records both P and S waves. Another at 60°S, 80°E (angular distance ~100°) records P-waves but NO S-waves. What does this tell you about the state of the outer core? Show your reasoning.",
+     "a": "Step 1: S-waves cannot travel through liquids. Step 2: At 100° angular distance, rays penetrate the outer core. Step 3: Absence of S-waves at 100° but presence at 20° proves the outer core is liquid. Step 4: P-waves are recorded at both because they travel through solids and liquids. Step 5: This matches the S-wave shadow zone (103°-143°). A wrong answer claiming the mantle is liquid reveals the classic misconception that \"mantle = magma\".",
+     "self_check": true
+    },
+    {
+     "q": "Compare the temperature gradient in the crust (approx. 25-30°C/km) with the mantle (approx. 0.5-1°C/km). Why is the gradient much steeper in the crust despite the mantle being hotter overall?",
+     "a": "Crust transfers heat primarily by conduction (slow, steep gradient); mantle transfers heat by convection (solid-state creep, efficient, gentle gradient). The mantle's adiabatic gradient is low because rising material expands and cools without losing heat. A wrong answer attributing the difference to \"mantle is closer to core\" ignores heat transfer mechanisms — a physics-geography integration error.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The inner core is solid because it is cooler than the outer core.\" Provide evidence for your judgment.",
+     "a": "False. Inner core (≈5,400°C) is hotter than outer core (≈4,400°C). It is solid due to immense pressure (≈3.6 million atm) raising the melting point of iron-nickel alloy above the actual temperature. Pressure effect dominates over temperature. A wrong answer accepting the statement shows confusion between temperature and phase diagrams — students must understand pressure melting point relationships.",
+     "self_check": true
+    },
+    {
+     "q": "Create a labeled cross-section diagram of Earth's interior to scale (1 cm = 1,000 km) showing all layers with their thicknesses, compositions, and physical states. Include a key explaining how seismic wave paths prove the liquid outer core.",
+     "a": "A good answer: Diagram with crust (0.005-0.07 cm), mantle (2.9 cm), outer core (2.2 cm), inner core (1.2 cm radius). Labels: Crust (granite/basalt, solid), Mantle (peridotite, solid but ductile), Outer Core (Fe-Ni, liquid), Inner Core (Fe-Ni, solid). Key shows S-wave shadow zone (103°-143°) and P-wave refraction at core-mantle boundary. A poor answer draws equal-thickness layers or labels mantle as \"magma\" — reveals lack of scale sense and the liquid mantle misconception.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

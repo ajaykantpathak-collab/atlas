@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_07_003",
+   "title": "c12_bio_cbse_07_003",
+   "questions": [
+    {
+     "q": "A student claims: \"The wing of a bird and the wing of a butterfly are homologous organs because both are used for flying.\" Is this statement correct? Explain why or why not using the precise biological definitions.",
+     "a": "Incorrect. Homologous organs share similar structural plan and embryonic origin but may perform different functions (e.g., forelimbs of human, whale, bat). Analogous organs perform similar functions but have different structural plans and embryonic origins (e.g., wings of bird vs butterfly). The student confused functional similarity with structural homology — a classic error where \"same function = homology\" overrides the correct criterion \"same origin = homology\".",
+     "self_check": true
+    },
+    {
+     "q": "In the horse evolution series (Eohippus → Mesohippus → Merychippus → Pliohippus → Equus), which two specific morphological changes correlate most directly with the shift from forest to grassland habitats? Explain the selective pressure driving each change.",
+     "a": "(1) Limb structure: reduction from 4 functional toes (Eohippus) to single toe with splint bones (Equus) — selective pressure: need for faster running on hard open ground to escape predators. (2) Teeth morphology: low-crowned brachydont teeth (browsing soft leaves) → high-crowned hypsodont teeth with cement (grazing abrasive grasses) — selective pressure: silica-rich grass wears teeth quickly; high crowns prolong functional life. Wrong answers often list \"size increase\" as primary — size change is secondary to locomotor and dietary adaptations.",
+     "self_check": true
+    },
+    {
+     "q": "A fossil is found in a sedimentary rock layer dated to 150 million years ago. It shows feather impressions, a wishbone (furcula), three-fingered forelimbs with claws, teeth in jaws, and a long bony tail. Which transitional fossil group does this most likely represent, and what two major vertebrate classes does it bridge?",
+     "a": "Archaeopteryx lithographica — bridges non-avian dinosaurs (Reptilia) and birds (Aves). Key reasoning: feathers + furcula = avian traits; teeth + clawed fingers + long bony tail = reptilian traits. Students often misidentify this as \"first bird\" rather than \"transitional form\" — it retains primitive reptilian features absent in modern birds, showing evolution is not a ladder but a branching pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the forelimb bones of a human, whale, and bat in terms of: (a) bone identity (name each bone), (b) functional adaptation, and (c) what this pattern proves about their evolutionary relationship.",
+     "a": "(a) All three share identical bone set: humerus, radius, ulna, carpals, metacarpals, phalanges — same number, same arrangement. (b) Human: manipulation (grasping); Whale: flipper for swimming (shortened, broadened); Bat: wing for flight (elongated digits supporting membrane). (c) Identical structural plan despite radically different functions = divergent evolution from a common tetrapod ancestor. Common error: listing \"similar bones\" without naming specific homologous elements (humerus/radius/ulna) — board exams require precise bone names.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Vestigial organs like the human appendix and whale pelvic bones are useless leftovers that prove evolution is wasteful and imperfect.\" Identify the logical flaw and give the correct evolutionary interpretation.",
+     "a": "Flaw: assumes vestigial = functionless. Correct interpretation: vestigial organs are reduced in size/function compared to ancestral state but may retain secondary functions (appendix: gut-associated lymphoid tissue, immune role; whale pelvis: muscle attachment for reproduction). They evidence common ancestry because they make sense only as remnants of functional structures in ancestors (herbivorous cecum in appendix case; hindlimbs in whale ancestors). \"Imperfection\" is not an argument against evolution — it's evidence of historical constraint.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple investigation using only museum specimens or photographs to distinguish whether the streamlined body shape of a shark (fish) and dolphin (mammal) is homologous or analogous. List the specific anatomical features you would compare and the expected outcome for each hypothesis.",
+     "a": "Compare: (1) Skeletal structure — shark has cartilaginous vertebral column, no limb bones; dolphin has bony vertebral column, homologous forelimb bones (humerus, radius, ulna) modified as flippers, vestigial hindlimb remnants. (2) Reproductive mode — shark: oviparous/ovoviviparous; dolphin: viviparous with placenta. (3) Respiratory system — shark: gills; dolphin: lungs. Expected: completely different underlying anatomy = analogous (convergent evolution for aquatic locomotion). Good answer specifies at least three comparison points with predicted observations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

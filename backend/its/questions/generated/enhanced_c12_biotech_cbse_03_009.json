@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_03_009",
+   "title": "c12_biotech_cbse_03_009",
+   "questions": [
+    {
+     "q": "What is the fundamental principle that allows a nucleic acid probe to detect a specific target sequence in a mixture?",
+     "a": "The fundamental principle is **complementary base pairing (hybridization)**: a single-stranded probe binds specifically to its complementary target sequence via hydrogen bonds (A-T/U, G-C) under appropriate stringency conditions. A wrong answer (e.g., \"probes bind via antibody-antigen interaction\" or \"probes are proteins that recognize DNA\") reveals confusion between nucleic acid hybridization and immunoassays (Western blotting), a common Class 12 error.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Radioactive probes (³²P) are always better than non-radioactive probes (digoxigenin) because they are more sensitive.\" Is this statement correct? Explain why or why not.",
+     "a": "The statement is **incorrect**. While ³²P probes historically offer high sensitivity (detection limit ~0.1 pg), non-radioactive probes (digoxigenin/biotin with chemiluminescence) now achieve comparable sensitivity (0.1–1 pg) without radiation hazards, shorter exposure times, and longer probe shelf-life. A wrong answer that agrees reveals a misconception that \"radioactive = superior\" and ignorance of modern non-radioactive detection systems emphasized in competitive exams (NEET/JEE).",
+     "self_check": true
+    },
+    {
+     "q": "You need to detect a 500 bp mRNA transcript in a Northern blot. You have two probe options: (A) a 2 kb full-length cDNA probe labeled with ³²P by random priming, (B) a 50-mer oligonucleotide probe complementary to the 3' UTR, end-labeled with fluorescein. Which probe would you choose for **maximum specificity** and why? Calculate the approximate Tm for probe B (assume 50% GC, [Na⁺] = 0.05 M).",
+     "a": "Choose **probe B (oligonucleotide)** for maximum specificity.  \n**Steps**:  \n1. Specificity: A 50-mer oligo targeting the unique 3' UTR minimizes cross-hybridization with related gene family members, whereas a 2 kb cDNA probe contains conserved domains that may hybridize to paralogs.  \n2. Tm calculation for oligo (50% GC, 0.05 M Na⁺): Use Wallace rule: Tm = 4°C × (G+C) + 2°C × (A+T) = 4×25 + 2×25 = 150°C? No — Wallace rule is for short oligos (<20 nt). For 50-mer, use **Tm = 81.5 + 16.6×log₁₀[Na⁺] + 41×(%GC) - 600/N** (N = length).  \n   - log₁₀(0.05) = -1.301  \n   - Tm = 81.5 + 16.6×(-1.301) + 41×(0.5) - 600/50  \n   - = 81.5 - 21.6 + 20.5 - 12 = **68.4°C**  \n3. Hybridize at Tm - 20 to -25°C (≈43–48°C) for high stringency.  \nA wrong choice of probe A with justification \"longer probe = more sensitive\" ignores specificity and shows inability to apply Tm formulas.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast **random priming** and **nick translation** for labeling a double-stranded DNA probe. Include: (i) enzyme used, (ii) labeling density, (iii) probe length after labeling, (iv) suitability for high-specificity applications.",
+     "a": "| Parameter | Random Priming | Nick Translation |\n|-----------|----------------|------------------|\n| **Enzyme** | Klenow fragment (exo⁻) | DNA Pol I (with 5'→3' exonuclease) |\n| **Mechanism** | Random hexamers anneal; Klenow extends incorporating labeled dNTPs | DNase I nicks DNA; Pol I replaces nicked strand via nick translation |\n| **Labeling density** | High (every ~100–200 nt) | Moderate (every ~50–100 nt) |\n| **Probe length** | Remains ~original fragment size (1–3 kb) | Reduced to 200–500 bp (due to DNase I) |\n| **Specificity** | Lower (long probes may contain repetitive elements) | Higher (shorter probes reduce non-specific binding) |\n**Key insight**: Nick translation yields shorter probes better for high-stringency screens; random priming gives higher specific activity. A wrong answer swapping enzymes or claiming both give same length shows lack of mechanistic understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this probe design for a Southern blot targeting a single-copy human gene: \"A 30-mer oligonucleotide with 70% GC content, 5'-end labeled with ³²P using polynucleotide kinase, hybridized at 65°C in 6× SSC.\" Identify **two critical flaws** and correct them.",
+     "a": "**Flaw 1: Length too short for Southern blot.**  \n- 30-mer Tm (70% GC, 6× SSC ≈ 0.9 M Na⁺): Tm ≈ 81.5 + 16.6×log(0.9) + 41×0.7 - 600/30 ≈ 81.5 - 0.7 + 28.7 - 20 = **89.5°C**.  \n- Hybridization at 65°C is **Tm - 24.5°C** — acceptable stringency, but 30-mers have low complexity and high risk of non-specific binding to repetitive elements in genomic DNA. Southern blots typically use **200–1000 bp probes** for single-copy genes.  \n**Flaw 2: End-labeling only gives low specific activity.**  \n- Single ³²P at 5' end → low signal per probe molecule. For genomic Southern, **internal labeling (random priming/nick translation)** incorporates multiple labels per probe, boosting sensitivity 10–100×.  \n**Corrected design**: Use a 500 bp PCR product (unique exon) labeled by random priming with α-³²P-dCTP, hybridize at 65°C in 0.5× SSC (high stringency).  \nA student missing either flaw shows inability to integrate probe length, labeling strategy, and application context.",
+     "self_check": true
+    },
+    {
+     "q": "Design a **non-radioactive probe strategy** to detect a low-abundance viral RNA (2 kb) in a Northern blot from 10 µg total RNA. Specify: (i) probe type & synthesis method, (ii) label & detection system, (iii) hybridization buffer key components, (iv) one critical control. Justify each choice.",
+     "a": "**Expected answer criteria**:  \n1. **Probe**: **Antisense RNA (riboprobe)** transcribed *in vitro* from linearized plasmid containing viral cDNA insert, using T7/SP6 RNA polymerase with **digoxigenin-UTP (DIG-UTP)** incorporation. *Why*: RNA-RNA hybrids are more stable (higher Tm) than DNA-RNA; DIG allows chemiluminescent detection with anti-DIG-AP + CSPD.  \n2. **Label/Detection**: **DIG-labeled riboprobe + anti-DIG-AP + CDP-Star/CSPD** (chemiluminescence). Sensitivity ~0.1 pg, no radioactivity, probe stable >1 year at -20°C.  \n3. **Hybridization buffer**: **50% formamide, 5× SSC, 0.1% SDS, 50 µg/mL tRNA, 1× Denhardt's, 10% dextran sulfate**. *Why*: Formamide lowers Tm (allows hybridization at 42–50°C, preserving RNA); tRNA/Denhardt's block non-specific binding; dextran sulfate increases effective probe concentration.  \n4. **Critical control**: **Sense-strand riboprobe (same vector, opposite orientation)** processed identically. *Why*: Controls for non-specific binding to RNA or membrane; any signal with sense probe indicates false positive.  \nA poor answer uses DNA probe with biotin (higher background), omits formamide (risk of RNA degradation at 68°C), or forgets sense control — revealing gaps in practical Northern blot design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

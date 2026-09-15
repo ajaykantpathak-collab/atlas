@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch03_001",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch03_001",
+   "title": "c7_physics_ch03_001",
+   "questions": [
+    {
+     "q": "What is the SI unit of temperature in scientific studies?",
+     "a": "The SI unit of temperature is Kelvin (K), though degree Celsius (°C) is commonly used in everyday life. A wrong answer like \"Joules\" reveals that the student is confusing temperature with heat energy.",
+     "self_check": true
+    },
+    {
+     "q": "Two identical iron blocks, Block A at 80°C and Block B at 40°C, are placed in contact. Why does heat flow from Block A to Block B rather than the other way around?",
+     "a": "Heat flows from Block A to Block B because heat naturally transfers from a region of higher temperature to a region of lower temperature until thermal equilibrium is reached. A wrong answer indicating that heat flows based on total size or weight reveals a confusion between heat capacity and temperature difference.",
+     "self_check": true
+    },
+    {
+     "q": "A metallic rod of mass 2 kg is heated until its temperature increases by 25°C. If the amount of thermal energy supplied is 2200 Joules, calculate the heat energy added per degree Celsius rise in temperature.",
+     "a": "Given: Heat energy ($Q$) = 2200 J, Temperature change ($\\Delta T$) = 25°C. \nStep 1: Identify the formula relating heat, mass, and temperature change, or find the ratio of heat supplied per degree rise.\nStep 2: Set up the calculation: Energy per degree rise = $\\frac{Q}{\\Delta T}$.\nStep 3: Substitute the values: $\\frac{2200 \\text{ J}}{25 \\text{ °C}}$.\nStep 4: Compute the result: $2200 \\div 25 = 88$.\nStep 5: State the final answer with units: 88 J/°C. A computational error here indicates difficulty with division or tracking ratio units.",
+     "self_check": true
+    },
+    {
+     "q": "If you mix 1 liter of boiling water at 100°C with 1 liter of tap water at 20°C, what can you predict about the final temperature of the mixture compared to mixing 5 liters of boiling water with 1 liter of tap water?",
+     "a": "The mixture with 5 liters of boiling water will have a significantly higher final temperature than the equal 1:1 volume mixture because it contains a much larger total amount of heat energy due to the greater mass/volume of hot water. A wrong answer reveals the misconception that temperature alone determines the outcome of mixing, ignoring the total quantity of matter and thermal energy.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that a large swimming pool of lukewarm water contains less heat than a boiling cup of tea because the cup of tea has a higher temperature. Evaluate this claim.",
+     "a": "The student's claim is incorrect. While the cup of tea has a higher temperature (faster average particle motion), the swimming pool contains vastly more water molecules, meaning its total internal thermal energy (heat content) is much higher than that of the small cup. A wrong answer shows the student still equates temperature directly with total heat energy without accounting for mass.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple domestic test using two identical steel spoons—one placed inside a hot bowl of dal and another left on the kitchen counter—to demonstrate the difference between heat transfer and temperature.",
+     "a": "Criteria for a good answer: The student should describe placing one spoon in hot dal where heat transfers into it, raising its temperature, and leaving the other at room temperature, explaining that touching both shows a difference in temperature caused by heat transfer from the environment or food. A poor answer fails to connect touching the spoons to thermal energy movement or temperature sensation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

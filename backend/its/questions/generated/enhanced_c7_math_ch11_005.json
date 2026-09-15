@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch11_005",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch11_005",
+   "title": "c7_math_ch11_005",
+   "questions": [
+    {
+     "q": "What is the mathematical term for the number that is left over when you divide one integer by another during the Euclidean division process?",
+     "a": "The correct answer is the \"remainder\". A student who answers \"quotient\" confuses the result of the division with what remains unconsolidated, while a student who answers \"factor\" shows a lack of vocabulary recall regarding division components.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Euclidean Division Method require us to replace the original dividend with the previous divisor, and the previous divisor with the remainder, in each successive step?",
+     "a": "The correct answer is that any common factor of two numbers also divides their remainder, meaning the HCF remains unchanged throughout these steps until the remainder becomes zero. A student who says \"to make the numbers bigger\" or \"it is just a random rule\" does not understand that the set of common divisors stays invariant during this division sequence.",
+     "self_check": true
+    },
+    {
+     "q": "Use the Euclidean Division Method to find the HCF of 135 and 225. Show the division steps clearly.",
+     "a": "The correct answer is 45. Working: Step 1: Divide 225 by 135. $225 = 135 \\times 1 + 90$ (Remainder = 90). Step 2: Divide 135 by the remainder 90. $135 = 90 \\times 1 + 45$ (Remainder = 45). Step 3: Divide 90 by the new remainder 45. $90 = 45 \\times 2 + 0$ (Remainder = 0). Since the remainder is now 0, the last non-zero divisor is 45. A student who stops at 90 has confused the divisor with the remainder.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Prime Factorisation Method (c7_math_ch11_004) and the Euclidean Division Method for finding the HCF of 1050 and 1470. Why is Euclidean division often preferred for very large numbers?",
+     "a": "The correct answer is that Euclidean division relies on quick, short divisions rather than finding all prime numbers up to the square root of the given integers, avoiding long prime factor trees. A student who claims prime factorisation is always faster does not understand how difficult it is to find prime factors of large numbers without a calculator.",
+     "self_check": true
+    },
+    {
+     "q": "A student performs the Euclidean division method for 84 and 36 as follows: $84 \\div 36 = 2$ with a remainder of 12. Next, they divide 36 by 12 and get $36 \\div 12 = 3$ with a remainder of 0. They conclude the HCF is 3. Is their conclusion correct, and if not, what is the error?",
+     "a": "The conclusion is incorrect. The student mistook the last quotient (3) for the HCF instead of identifying the last non-zero remainder (12). The correct HCF is 12 because 12 is the divisor that leaves a remainder of zero.",
+     "self_check": true
+    },
+    {
+     "q": "Create a pair of numbers greater than 100 where the Euclidean Division Method terminates in exactly two division steps. Explain your construction process.",
+     "a": "An acceptable response provides two numbers, such as 210 and 150. Construction: Work backwards by choosing a target HCF like 30, multiplying it to form a divisor and quotient, and building the steps ($150 = 30 \\times 5$, so let second number be 150, and first number $150 \\times 1 + 30 = 180$, or similar sequence). A poor answer lists random numbers without checking the exact number of steps required.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

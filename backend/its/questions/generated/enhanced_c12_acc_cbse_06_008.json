@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_06_008",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_06_008",
+   "title": "c12_acc_cbse_06_008",
+   "questions": [
+    {
+     "q": "What is the journal entry when a company purchases its own debentures from the open market at a price lower than the face value for immediate cancellation?",
+     "a": "Correct entry: Debit Debentures A/c (face value), Credit Own Debentures A/c (purchase price), Credit Profit on Cancellation of Debentures A/c (difference). Then: Debit Profit on Cancellation of Debentures A/c, Credit Capital Reserve A/c. A wrong answer (e.g., crediting Profit & Loss A/c directly) reveals the student does not distinguish between capital profit and revenue profit, a common board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why profit on cancellation of own debentures purchased from the open market is transferred to Capital Reserve and not to the Statement of Profit & Loss.",
+     "a": "Profit on cancellation arises from a capital transaction (reduction of long-term liability), not from normal operations. Capital Reserve is used for capital profits to strengthen the financial position. If a student says \"it increases net profit\", they confuse revenue and capital profits, which leads to overstatement of distributable profits.",
+     "self_check": true
+    },
+    {
+     "q": "TechGrow Ltd. has 5,000, 10% debentures of ₹100 each. It purchases 1,000 debentures at ₹95 each from the open market and cancels them immediately. Pass the journal entries.",
+     "a": "Step 1: Debit 10% Debentures A/c ₹1,00,000; Credit Own Debentures A/c ₹95,000; Credit Profit on Cancellation A/c ₹5,000.\nStep 2: Debit Profit on Cancellation A/c ₹5,000; Credit Capital Reserve A/c ₹5,000.\nA wrong answer (e.g., debiting Loss on Cancellation) shows the student cannot determine profit/loss direction when purchase price < face value.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the accounting treatment when debentures are redeemed by conversion into equity shares at par versus at a premium. What additional account is credited in the premium case?",
+     "a": "At par: Debit Debentures A/c, Credit Share Capital A/c. At premium: Debit Debentures A/c, Credit Share Capital A/c (face value), Credit Securities Premium A/c (premium amount). If a student omits Securities Premium A/c, they fail to recognize that the premium on conversion is a capital receipt, not revenue.",
+     "self_check": true
+    },
+    {
+     "q": "A company converts 2,000, 12% debentures of ₹100 each into equity shares of ₹10 each at a premium of ₹2 per share. The conversion ratio is 1 debenture = 10 shares. Evaluate whether the company gains or loses by this conversion compared to cash redemption at par.",
+     "a": "Cash redemption at par would require ₹2,00,000 cash outflow. Conversion issues 20,000 shares (2,000 × 10) at ₹12 each (₹10 face + ₹2 premium) = ₹2,40,000 nominal value, but no cash outflow. The company saves cash but dilutes equity. There is no accounting gain/loss; the debenture liability is replaced by share capital. A student who says \"company gains ₹40,000\" incorrectly treats share premium as revenue gain.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a company purchases its own debentures from the open market at a price *above* face value, cancels them, and show the journal entries. Explain the treatment of the loss.",
+     "a": "Scenario: 1,000 debentures of ₹100 each purchased at ₹105. Entries: Debit 10% Debentures A/c ₹1,00,000; Debit Loss on Cancellation A/c ₹5,000; Credit Own Debentures A/c ₹1,05,000. Then: Debit Statement of Profit & Loss A/c ₹5,000; Credit Loss on Cancellation A/c ₹5,000. A poor answer would credit Capital Reserve for the loss, showing confusion between capital and revenue losses.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

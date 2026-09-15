@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_05_002",
+   "title": "c11_bs_cbse_05_002",
+   "questions": [
+    {
+     "q": "State any two benefits of e-business for a business organisation as per NCERT.",
+     "a": "Correct answer: (1) Expands marketplace to national and international markets; (2) Gradual decline in the cost of operations. Other valid points: facilitates 'pull' supply chain management, competitive advantage, proper time management, small firms co-exist with big firms. A wrong answer like \"e-business eliminates all risks\" or \"guarantees profit\" reveals the student thinks e-business is a magic solution rather than a mode with trade-offs. It also shows confusion between benefits and features — e.g., \"online payment\" is a feature, not a benefit.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why 'low personal touch' is considered a limitation of e-business, and give one product category where this limitation is most severe.",
+     "a": "Correct answer: E-business lacks face-to-face interpersonal interaction, so customers cannot physically inspect, feel, or try products before buying. This is most severe for products requiring high personal touch like garments (need to check fit, fabric feel), toiletries (skin sensitivity testing), or jewellery (trust, tactile experience). A wrong answer like \"low personal touch means bad customer service\" confuses the limitation with service quality. The textbook specifically links it to product categories where physical pre-sampling matters — missing this shows the student hasn't connected the limitation to the 'nature of product' dimension.",
+     "self_check": true
+    },
+    {
+     "q": "A small bakery in Jaipur wants to start selling its specialised gluten-free cakes online across India. Identify two benefits and two limitations it will face, and explain how the 'incongruence between order taking and order fulfilment' specifically affects this business.",
+     "a": "Benefits: (1) Global reach — can sell to customers in Delhi, Mumbai, Bangalore without physical shops there. (2) Lower operating cost — no need for multiple retail outlets, rent, sales staff. Limitations: (1) Incongruence — orders come instantly online (seconds), but cakes are perishable, fragile, and need cold-chain logistics taking 2-3 days; customers may get impatient or receive damaged goods. (2) Low personal touch — customers cannot taste/smell before buying, crucial for food. A wrong answer that says \"fast delivery solves incongruence\" misses the point: the limitation is structural — information flows at light speed, physical goods cannot. For perishables, this gap is inherent, not fixable by just \"faster courier.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 'digital divide' limitation of e-business with the 'people resistance' limitation. How are their root causes different, and which is more likely to persist in rural India?",
+     "a": "Digital divide arises from unequal access to technology infrastructure (internet, devices) and skills (literacy, computer familiarity) — it's an external, structural barrier. People resistance arises from internal psychological factors: fear of change, job insecurity, stress of learning new systems — it's an organisational/behavioural barrier. In rural India, digital divide is more persistent because infrastructure (broadband, electricity) and digital literacy gaps are systemic and require massive public investment, whereas resistance can be managed through training and change management within a firm. A wrong answer that treats both as \"people don't know computers\" conflates access/skill gaps with attitude gaps, missing the policy vs. management distinction.",
+     "self_check": true
+    },
+    {
+     "q": "\"Most limitations of e-business are in the process of being overcome.\" Evaluate this statement from the textbook by analysing two limitations that have significantly reduced and one that remains critical.",
+     "a": "Reduced limitations: (1) Low personal touch — mitigated by AR/VR try-ons, detailed videos, easy return policies, live chat support. (2) Digital divide — reduced by cheap smartphones, 4G/5G penetration, government digital literacy programs, UPI making payments simple. Remains critical: (1) Security risks from anonymity — phishing, identity theft, data breaches, ransomware are evolving faster than defences; trust deficit persists. (2) Ethical fallouts — employee monitoring, data privacy (e.g., WhatsApp policy debates) are intensifying with AI surveillance. A wrong answer listing \"delivery speed\" as still critical ignores that logistics (Blinkit, Zepto) have drastically cut fulfilment time; the student hasn't updated their mental model with current realities.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-column table for a Class 11 student revising this topic: Column 1 = Benefit/Limitation, Column 2 = Key Keyword/Phrase (for memory), Column 3 = One-line Real-World Example (Indian context). Fill it for all 5 benefits and 6 limitations from NCERT.",
+     "a": "A good answer will produce a table with 11 rows. Example rows: Benefit | Ease of formation | \"Networked > Networthed\" | Home-based cloud kitchen starts on Swiggy with zero rent. Limitation | Digital divide | \"3Rs + Computer\" | Farmer in Bihar cannot sell on ONDC because no smartphone/internet. Poor answer: uses generic examples like \"Amazon\" for everything, or keywords like \"good/bad\" — shows rote memorisation without contextualisation. The exercise tests if the student can condense each point into a memorable hook and ground it in India-specific reality.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

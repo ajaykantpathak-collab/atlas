@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_26_006",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_26_006",
+   "title": "c11_geo_cbse_26_006",
+   "questions": [
+    {
+     "q": "Name the two experimental satellites that preceded the operational IRS series, their launch years, and the primary objective each was designed to achieve.",
+     "a": "Bhaskar-1 (launched 1979) and Bhaskar-2 (launched 1981). Bhaskar-1 carried a two-band TV camera and a microwave radiometer to conduct experimental Earth observation and oceanographic studies. Bhaskar-2 improved on this with a three-band TV camera for land applications and a two-frequency microwave radiometer for atmospheric and oceanographic data. A wrong answer (e.g., naming IRS-1A as experimental, or confusing Bhaskar with Aryabhata) reveals the student cannot distinguish experimental technology-demonstration missions from operational resource-monitoring missions — a critical distinction in India's space programme evolution.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why IRS-1A was placed in a sun-synchronous near-polar orbit at ~900 km altitude instead of a geostationary orbit at ~36,000 km, referencing at least three orbital or sensor-performance factors.",
+     "a": "Sun-synchronous orbit at 900 km provides: (1) fine spatial resolution (72.5 m and 36.25 m for LISS-I/II) because lower altitude reduces the instantaneous field of view (IFOV) footprint — geostationary sensors at 36,000 km achieve only ~1 km resolution; (2) global coverage (81° N to 81° S) with repetitive revisits (22 days for IRS-1A) enabling change detection — geostationary covers only 1/3rd of the globe fixed; (3) consistent solar illumination angle (local equator crossing time ~10:30 AM) for radiometric comparability across dates — geostationary has varying illumination. A wrong answer focusing only on \"cost\" or \"coverage\" without linking altitude to resolution physics shows the student misses the fundamental trade-off: resolution ∝ altitude, revisit ∝ orbital period, coverage ∝ inclination.",
+     "self_check": true
+    },
+    {
+     "q": "IRS-1A carried two sensors: LISS-I (spatial resolution 72.5 m, swath 148 km) and LISS-II (spatial resolution 36.25 m, swath 74 km). If a district-level agricultural planner needs to monitor individual crop fields (typical size 2–5 ha), which sensor should they choose and why? Calculate the minimum number of pixels across a 2 ha square field for each sensor to support your answer.",
+     "a": "Choose LISS-II. Step 1: 2 ha = 20,000 m². Square field side = √20,000 ≈ 141.4 m. Step 2: LISS-I pixel = 72.5 m → pixels across field = 141.4 / 72.5 ≈ 1.95 pixels (< 2 pixels — field spans barely 2 pixels, cannot resolve internal variability). Step 3: LISS-II pixel = 36.25 m → pixels across field = 141.4 / 36.25 ≈ 3.9 pixels (~4 pixels — field covers ~16 pixels, sufficient to detect within-field patterns). Step 4: LISS-II's 36.25 m resolution meets the \"minimum 3–4 pixels per object\" rule for feature identification. A wrong answer choosing LISS-I because of wider swath reveals the student confuses coverage with resolution — they don't grasp that spatial resolution determines the smallest mappable unit, not swath width.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the spectral band configuration of IRS-1A LISS-I/II (four bands: 0.45–0.52, 0.52–0.59, 0.62–0.68, 0.77–0.86 µm) with Landsat MSS (four bands: 0.5–0.6, 0.6–0.7, 0.7–0.8, 0.8–1.1 µm). Identify which vegetation-monitoring capability IRS-1A had that Landsat MSS lacked, and explain the biophysical basis.",
+     "a": "IRS-1A Band 2 (0.52–0.59 µm, green) and Band 3 (0.62–0.68 µm, red) are narrower and better positioned for chlorophyll absorption/reflectance discrimination than Landsat MSS Band 1 (0.5–0.6) and Band 2 (0.6–0.7). Crucially, IRS-1A Band 4 (0.77–0.86 µm) targets the near-infrared (NIR) plateau where healthy vegetation shows peak reflectance due to leaf mesophyll structure, while avoiding the water absorption band at 0.9 µm that contaminates Landsat MSS Band 4 (0.8–1.1 µm). This gives IRS-1A superior vegetation vigour discrimination (NDVI sensitivity). A wrong answer claiming \"both have 4 bands so they're equivalent\" reveals the student doesn't understand that band placement relative to absorption features — not just band count — determines biophysical information content.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Bhaskar-1 and Bhaskar-2 were failures because their spatial resolution (~1 km) was too coarse for practical resource mapping.\" Support your evaluation with three arguments considering programme strategy, technology demonstration, and institutional learning.",
+     "a": "The statement is flawed. Argument 1: Bhaskar satellites were technology demonstrators, not operational mappers — their objective was to validate satellite bus, launch vehicle (SLV-3), ground segment, and data reception in India, not to produce resource maps. Argument 2: Bhaskar-1's microwave radiometer (19/22 GHz) provided India's first space-based ocean surface wind and atmospheric water vapour data, pioneering microwave remote sensing later used in Oceansat. Argument 3: Institutional learning from Bhaskar (orbit determination, sensor calibration, data archiving at NRSA Hyderabad) directly enabled IRS-1A's success — without Bhaskar's \"coarse\" data, ISRO couldn't have designed LISS sensors or the Shadnagar ground station. A wrong answer agreeing with the statement reveals a \"product-only\" mindset that judges experimental missions by operational standards, missing the systems-engineering perspective essential in space programmes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 1988-era proposal for a state agricultural department to use IRS-1A data for kharif crop acreage estimation. Specify: (a) which sensor (LISS-I or LISS-II), (b) optimal acquisition window (month), (c) interpretation method (visual/digital), and (d) one limitation they must accept. Justify each choice using sensor specs and crop calendar.",
+     "a": "(a) LISS-II (36.25 m) — typical kharif fields (rice, cotton, millets) are 1–5 ha; LISS-I's 72.5 m cannot resolve field boundaries. (b) September–October — peak vegetative growth for kharif crops, maximum spectral contrast between crop types in red/NIR bands, minimal cloud cover post-monsoon. (c) Visual interpretation on FCC (False Colour Composite: Band 4→Red, Band 3→Green, Band 2→Blue) — 1988 computing infrastructure limited digital processing; FCC shows healthy kharif crops in bright red, fallow in light blue, water in dark blue. (d) Limitation: 22-day revisit cycle means cloud cover during critical growth stages may cause data gaps — no daily monitoring like geostationary. A poor proposal choosing LISS-I for \"wider coverage\" or suggesting digital classification without acknowledging 1988 hardware limits shows the student cannot match sensor capability to user context and historical constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

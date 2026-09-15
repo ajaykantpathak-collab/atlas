@@ -1,0 +1,71 @@
+{
+ "catalog": "catalog_class10_science_jesc112.json",
+ "concepts": [
+  {
+   "id": "jesc.112.12.1",
+   "title": "Magnetic Field and Field Lines",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a magnetic field?",
+     "a": "The region around a magnet where its force can be detected, shown by field lines.",
+     "self_check": true
+    },
+    {
+     "q": "How do you map the field of a bar magnet?",
+     "a": "Sprinkle iron filings or move a compass around it; the needle's direction at many points traces the field lines.",
+     "self_check": true
+    },
+    {
+     "q": "Inside a bar magnet, in which direction do field lines run?",
+     "a": "From the south pole to the north pole, completing the closed loops.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.112.12.2",
+   "title": "Magnetic Effects of Current - Solenoid and Electromagnet",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "How does a solenoid create a uniform magnetic field?",
+     "a": "Many circular turns in series add their fields, giving nearly uniform field inside the coil.",
+     "self_check": true
+    },
+    {
+     "q": "What is an electromagnet?",
+     "a": "A soft iron core inside a current-carrying solenoid; it behaves as a strong magnet only while current flows.",
+     "self_check": true
+    },
+    {
+     "q": "State one use of an electromagnet.",
+     "a": "Lifting heavy iron scrap in cranes, or in electric bells and MRI machines.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jesc.112.12.3",
+   "title": "Force on a Conductor, Electric Motor and Electromagnetic Induction",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is electromagnetic induction?",
+     "a": "Production of a current in a closed coil when the magnetic field through it changes - moving a magnet into the coil.",
+     "self_check": true
+    },
+    {
+     "q": "State Fleming's right-hand rule.",
+     "a": "With right-hand fingers at right angles: forefinger along field, thumb along motion of conductor, middle finger gives induced current direction.",
+     "self_check": true
+    },
+    {
+     "q": "On what does the induced current in a coil depend?",
+     "a": "On the rate of change of magnetic field through the coil and the number of turns.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

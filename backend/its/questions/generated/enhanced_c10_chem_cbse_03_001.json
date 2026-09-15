@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_03_001",
+   "title": "c10_chem_cbse_03_001",
+   "questions": [
+    {
+     "q": "Define metallic lustre and state the atomic-level reason for it in one sentence.",
+     "a": "Metallic lustre is the shiny appearance of metals due to the reflection of incident light by the mobile, delocalized electrons on the metal surface. A wrong answer like \"metals are shiny because they are smooth\" reveals the student is recalling a superficial observation without connecting to the electron sea model — a common Class 10 error where students describe appearance but not the electronic cause.",
+     "self_check": true
+    },
+    {
+     "q": "Why are metals generally malleable and ductile while ionic compounds like NaCl are brittle? Explain using the nature of bonding.",
+     "a": "In metals, the metallic bond is non-directional; the sea of delocalized electrons holds positive ions together, allowing layers to slide past each other without breaking bonds. In ionic compounds, electrostatic forces are directional and rigid; when layers shift, like charges align causing repulsion and fracture. A wrong answer stating \"metals are soft\" or \"ionic bonds are weak\" shows confusion between bond strength and bond directionality — a critical board exam distinction.",
+     "self_check": true
+    },
+    {
+     "q": "A student has four metal samples: sodium (Na), magnesium (Mg), tungsten (W), and mercury (Hg). Predict which sample: (a) can be cut with a knife at room temperature, (b) is liquid at room temperature, (c) has the highest melting point and is used in filaments, (d) is lightweight and used in alloys for aircraft. Justify each.",
+     "a": "(a) Sodium — alkali metal, weak metallic bonding due to only one valence electron and large atomic size. (b) Mercury — weak metallic bonding due to poor orbital overlap (relativistic effects) and filled d-subshell. (c) Tungsten — very strong metallic bonding from many unpaired d-electrons, highest melting point (3422°C). (d) Magnesium — low density (1.74 g/cm³), forms strong lightweight alloys. A wrong answer swapping Mg and W reveals inability to link bonding strength to periodic trends (group vs period) — a frequent board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the malleability of gold and iron at room temperature. Which is more malleable and why? How does heating affect the malleability of iron?",
+     "a": "Gold is more malleable than iron at room temperature because gold has a face-centered cubic (FCC) structure with more slip systems and no allotropic phase change, while iron at room temperature is body-centered cubic (BCC) with fewer slip systems. Heating iron to 912°C changes it to FCC (austenite), increasing malleability — this is why blacksmiths heat iron before hammering. A wrong answer saying \"gold is softer so more malleable\" confuses hardness with malleability; malleability depends on crystal structure and slip systems, not just hardness.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"All metals are hard, so they cannot be cut with a knife.\" Identify the error and give two counterexamples with reasoning.",
+     "a": "The statement is false. Hardness varies across metals due to differences in metallic bond strength (number of valence electrons, atomic size, crystal structure). Counterexamples: (1) Sodium (Group 1) — only one valence electron, large atomic radius, weak metallic bonding → soft, can be cut with a knife. (2) Potassium — even larger, weaker bonding. A wrong answer giving \"mercury\" as a counterexample for \"cut with a knife\" fails because mercury is liquid, not a solid that can be cut — shows lack of precision in classifying states at room temperature.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using only a hammer, a battery, a bulb, wires, and samples of iron, copper, sulfur, and graphite to distinguish metals from non-metals based on malleability and electrical conductivity. Write the procedure and expected observations in a table.",
+     "a": "Procedure: (1) Try to flatten each sample with a hammer — metals (Fe, Cu) will flatten (malleable), non-metals (S, graphite) will shatter or powder. (2) Set up a circuit: battery → bulb → wire → sample → wire → battery. Close circuit — bulb glows for Fe and Cu (conductors), not for S (insulator); graphite conducts (exception). Table: Sample | Malleability (hammer test) | Conductivity (bulb test) | Classification. A poor answer that omits the circuit diagram or fails to note graphite's anomalous conductivity shows inability to design controlled experiments — a practical skill tested in board exams.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

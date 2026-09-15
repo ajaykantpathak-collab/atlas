@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_09_002",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_09_002",
+   "title": "c12_hs_cbse_09_002",
+   "questions": [
+    {
+     "q": "State the ICMR 2020 RDA for additional energy (kcal/day) and additional protein (g/day) for a sedentary pregnant woman in the second trimester.",
+     "a": "Correct: Additional energy = 350 kcal/day; additional protein = 9.5 g/day (total protein 78 g/day). A wrong answer (e.g., 300 kcal or 23 g protein) shows the student is mixing up trimester increments or using outdated ICMR 2010 values. This error costs marks in both board short‑answer questions and NEET case‑based calculations.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the RDA for iron jumps from 29 mg/day (non‑pregnant) to 50 mg/day in the second trimester, linking it to two specific physiological changes.",
+     "a": "Correct: The 21 mg/day increment covers (1) expanded maternal red‑cell mass (blood volume ↑ 45 % → ~450 mL extra blood needing ~200 mg iron) and (2) fetal/placental iron accretion (~300 mg total). A student who only says “for the baby” misses the maternal hematological adaptation and will lose marks in board “explain” questions and NEET assertion‑reason items.",
+     "self_check": true
+    },
+    {
+     "q": "A 55 kg sedentary pregnant woman in her third trimester has a BMR of 1300 kcal/day. Using ICMR 2020 (PAL = 1.53 for sedentary, pregnancy increment = 450 kcal/day), calculate her total energy requirement. Show all steps.",
+     "a": "Steps: (1) BMR = 1300 kcal; (2) Maintenance = BMR × PAL = 1300 × 1.53 = 1989 kcal; (3) Add pregnancy increment (3rd trimester) = 450 kcal; (4) Total = 1989 + 450 = 2439 ≈ 2440 kcal/day. A wrong answer (e.g., 1300+450=1750) reveals the student forgot the PAL multiplier — a common trap in board numericals and CUET calculation questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the folic acid RDA increment (µg/day) between first and third trimesters. Why is the increment larger in the first trimester despite faster fetal growth later?",
+     "a": "ICMR 2020: Non‑pregnant = 200 µg; 1st trimester increment = +300 µg (total 500 µg); 3rd trimester increment = +100 µg (total 400 µg). The larger first‑trimester increment is for neural tube closure (days 21‑28 post‑conception), a one‑time critical window. Later growth uses stored folate. Students who think “more growth = more folate always” confuse rate of growth with critical period sensitivity — a classic NEET misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: “A pregnant woman should double her food intake because she is eating for two.” Use three distinct physiological or nutritional arguments.",
+     "a": "Critique: (1) Energy need rises only ~15‑20 % (350‑450 kcal), not 100 %; doubling leads to excessive gestational weight gain and macrosomia risk. (2) Micronutrient needs (iron, folate, calcium) rise disproportionately more than energy — nutrient‑dense foods, not just more food, are required. (3) Gastrointestinal motility slows (progesterone effect), reducing appetite; forced overeating causes reflux and discomfort. A student who agrees shows confusion between colloquial phrase and evidence‑based RDA — a frequent board essay error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one‑day vegetarian meal plan (three meals + two snacks) for a 55 kg sedentary woman in her second trimester that meets at least 90 % of RDAs for energy, protein, iron, folic acid, and calcium. List foods with approximate quantities.",
+     "a": "A good answer includes: (e.g., Breakfast: 150 g fortified cereal + 200 mL milk + 50 g banana; Mid‑morning: 30 g roasted chana + 100 g guava; Lunch: 100 g raw rice + 50 g dal + 100 g spinach sabzi + 100 g curd; Evening: 50 g peanuts + 100 g orange; Dinner: 2 rotis (60 g wheat) + 50 g paneer + 100 g methi leaves + salad). Quantities should yield ~2400 kcal, 80 g protein, 45 mg iron, 500 µg folate, 1200 mg calcium. A poor answer misses calcium‑rich foods or relies only on supplements, showing inability to translate RDA into food‑based planning — a key competency for board case studies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

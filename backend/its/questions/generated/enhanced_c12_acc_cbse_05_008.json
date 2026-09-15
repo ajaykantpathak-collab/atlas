@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_05_008",
+   "title": "c12_acc_cbse_05_008",
+   "questions": [
+    {
+     "q": "What is the maximum discount a company can allow on re-issue of forfeited shares?",
+     "a": "The maximum discount on re-issue cannot exceed the amount forfeited on those shares (i.e., the amount already received from the defaulting shareholder). If a student answers \"the discount can be up to the face value\" or \"the discount is limited to the unpaid call money\", they are confusing the forfeited amount (money received) with the unpaid amount (money not received). The forfeited amount is the credit balance in the Forfeited Shares Account, which is the only source to absorb the discount.",
+     "self_check": true
+    },
+    {
+     "q": "A company forfeited 200 shares of ₹10 each, ₹8 called up, on which the shareholder paid ₹5 per share. The shares are re-issued at ₹9 per share fully paid. Explain why the discount on re-issue is debited to Forfeited Shares Account and not to Discount on Issue of Shares Account.",
+     "a": "The discount on re-issue of forfeited shares is debited to Forfeited Shares Account because the forfeited amount represents a capital receipt (money already received from the original allottee) that can be used to absorb the loss on re-issue. Discount on Issue of Shares Account is used only for original issue at discount. If a student says \"both are the same\" or \"discount on re-issue is a revenue loss\", they misunderstand that the forfeited amount is a capital reserve specifically earmarked to cover such discounts; it is not an expense of the current period.",
+     "self_check": true
+    },
+    {
+     "q": "A company forfeited 300 shares of ₹10 each, ₹7 called up, on which ₹4 per share was paid. The shares are re-issued at ₹8 per share fully paid. Pass the journal entries for re-issue and show the amount transferred to Capital Reserve.",
+     "a": "**Step 1:** Calculate forfeited amount = 300 × ₹4 = ₹1,200 (credit balance in Forfeited Shares Account).  \n**Step 2:** On re-issue at ₹8 (discount of ₹2 on face value ₹10), discount = 300 × ₹2 = ₹600.  \n**Step 3:** Journal entries:  \nBank A/c Dr. 2,400  \nForfeited Shares A/c Dr. 600  \n To Share Capital A/c 3,000  \n(Being 300 forfeited shares re-issued at ₹8 per share fully paid)  \nForfeited Shares A/c Dr. 600  \n To Capital Reserve A/c 600  \n(Being balance of forfeited amount transferred to Capital Reserve)  \n**Step 4:** Capital Reserve = ₹1,200 – ₹600 = ₹600.  \nIf a student debits the discount to \"Discount on Issue of Shares\" or forgets to transfer the balance to Capital Reserve, they have not grasped that the forfeited account is a temporary holding account that must be cleared upon re-issue.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the accounting treatment when forfeited shares are re-issued (a) at par, (b) at a discount, and (c) at a premium. Highlight the differences in the accounts credited/debited and the final transfer to Capital Reserve.",
+     "a": "(a) At par: Bank Dr. (nominal value) → Share Capital; Forfeited Shares balance → Capital Reserve (full forfeited amount).  \n(b) At discount: Bank Dr. (issue price), Forfeited Shares Dr. (discount) → Share Capital; remaining Forfeited Shares balance → Capital Reserve.  \n(c) At premium: Bank Dr. (issue price including premium) → Share Capital + Securities Premium Reserve; Forfeited Shares balance → Capital Reserve (full forfeited amount, premium does not reduce it).  \nThe key difference: discount on re-issue reduces the forfeited amount available for Capital Reserve, while premium increases Securities Premium Reserve and leaves forfeited amount untouched. A student who thinks premium on re-issue reduces Capital Reserve or that discount is debited to Profit & Loss has not distinguished between capital and revenue treatment.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"The forfeited amount on shares re-issued at a premium should be transferred to Securities Premium Reserve because the company is receiving more than the face value.\" Provide a reasoned judgment.",
+     "a": "The statement is false. The forfeited amount arises from the original allottee's payment and is a capital receipt that belongs to the company irrespective of the re-issue price. On re-issue at a premium, the premium is credited to Securities Premium Reserve (as per Section 52 of Companies Act), but the forfeited amount is transferred to Capital Reserve. The two are separate: Securities Premium Reserve comes from the new shareholder's extra payment; Capital Reserve comes from the old shareholder's forfeited payment. A student who agrees with the statement confuses the source of the two reserves and misapplies the Companies Act provisions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a company forfeits shares for non-payment of first call, then re-issues them at a discount such that the discount exactly equals the forfeited amount. Show the journal entries and explain the resulting Capital Reserve balance.",
+     "a": "Scenario: 100 shares of ₹10 each, ₹8 called up (application ₹3, allotment ₹3, first call ₹2). Shareholder paid only application and allotment (₹6). Forfeited amount = 100 × ₹6 = ₹600. Re-issue at ₹4 per share (discount of ₹6 on face value? Wait, discount on re-issue is on nominal value. If re-issued at ₹4, discount = ₹6 per share, total discount = ₹600).  \nJournal:  \nBank Dr. 400  \nForfeited Shares Dr. 600  \n To Share Capital 1,000  \nForfeited Shares Dr. 0 (balance zero) → Capital Reserve 0.  \nCapital Reserve = ₹600 – ₹600 = ₹0.  \nA good answer must correctly compute the discount per share as the difference between face value and re-issue price, ensure it does not exceed forfeited amount per share, and show that Capital Reserve becomes zero. A poor answer might use the called-up value instead of face value for discount calculation, or forget that the discount is limited to the forfeited amount.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

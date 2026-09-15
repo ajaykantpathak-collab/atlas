@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_15_009",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_15_009",
+   "title": "c11_ps_cbse_15_009",
+   "questions": [
+    {
+     "q": "Define judicial activism and judicial restraint in one sentence each, citing the specific constitutional articles that enable judicial activism in India.",
+     "a": "Judicial activism is the court's proactive interpretation of the Constitution to protect rights and fill governance gaps, enabled by Articles 32, 226 (writ jurisdiction/PIL) and 142 (complete justice). Judicial restraint is the principle that courts should defer to legislative/executive policy choices unless a clear constitutional violation exists. A wrong answer (e.g., \"activism means judges making laws\") reveals confusion between *interpretation* and *legislation* — activism interprets existing provisions expansively; it does not create new laws from scratch.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Supreme Court's use of Article 142 in the *Vineet Narain v. Union of India* (1998) case (directing CBI reforms) is considered judicial activism, not judicial overreach.",
+     "a": "Article 142 empowers the Supreme Court to pass any order \"necessary for doing complete justice\" in a matter before it. In *Vineet Narain*, the Court used this to issue binding directions on CBI autonomy because the executive failed to act on corruption — a governance vacuum affecting fundamental rights (Article 21). This is activism because it *filled a gap* within constitutional limits, not overreach which would be creating a new investigative agency. A wrong answer (\"the Court made a new law\") misses that Article 142 is a *constitutional* power, not legislative usurpation.",
+     "self_check": true
+    },
+    {
+     "q": "The Supreme Court in *Subhash Kashinath Mahajan v. State of Maharashtra* (2018) diluted Section 18 of the SC/ST Act by mandating preliminary inquiry before arrest. Critics called this judicial overreach. Apply the activism/restraint framework to evaluate this judgment.",
+     "a": "This is **judicial overreach** (excessive activism). The Court *rewrote* a statutory provision (Section 18) that explicitly barred anticipatory bail, effectively legislating. Judicial activism interprets the Constitution to protect rights (e.g., reading \"procedure established by law\" in Article 21 as \"fair, just, reasonable procedure\" in *Maneka Gandhi*). Here, the Court substituted its policy judgment for Parliament's clear intent — violating separation of powers. A wrong answer (\"it protected Article 21\") confuses *rights protection* with *statutory amendment* — courts cannot dilute legislated safeguards for marginalized communities.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the *Kesavananda Bharati* (1973) \"basic structure\" doctrine and the *NJAC* judgment (2015) striking down the 99th Amendment. Which represents judicial restraint? Which represents activism? Justify using the distinction between *interpretation* and *policy-making*.",
+     "a": "*Kesavananda Bharati* is **judicial activism** — the Court *invented* the \"basic structure\" doctrine (nowhere in the Constitution's text) to limit Parliament's amending power under Article 368, a profound interpretive leap. *NJAC judgment* is **judicial restraint** — the Court struck down the 99th Amendment because it violated the *existing* basic structure (judicial independence), applying established doctrine rather than creating new limits. A wrong answer (reversing the two) reveals misunderstanding: activism *expands* judicial power; restraint *applies* existing limits.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Judicial activism is essential in India because the executive and legislature frequently fail to protect fundamental rights of marginalized communities.\" Use the *Vishaka Guidelines* (1997) and the *Right to Food* case (*PUCL v. Union of India*, 2001) as evidence.",
+     "a": "The argument holds **conditionally**. *Vishaka* (sexual harassment guidelines) and *Right to Food* (converting scheme benefits into legal entitlements) show activism *compelling* state action where legislative/executive vacuum existed — protecting Articles 14, 19, 21. However, activism becomes problematic when it *persistently* substitutes for governance (e.g., monitoring mid-day meals for years). The evaluation must balance: activism as a *last resort* gap-filler is defensible; activism as *parallel governance* erodes accountability. A wrong answer (\"always good\" or \"always bad\") fails the evaluative nuance — context and duration matter.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph \"Judicial Restraint Clause\" for a hypothetical constitutional amendment that would limit courts from issuing policy directives under Article 142, while preserving their power to protect fundamental rights. Explain the key distinction your clause draws.",
+     "a": "A strong clause: \"Notwithstanding Article 142, the Supreme Court shall not issue directions requiring the executive or legislature to formulate specific policies, allocate budgets, or create administrative mechanisms, unless such direction is strictly necessary to remedy a proven violation of a fundamental right and no alternative remedy exists.\" The distinction: **remedial vs. prescriptive**. Remedial orders enforce existing rights (e.g., \"release detainees illegally held\"); prescriptive orders design policy (e.g., \"create a new pollution control board\"). A poor clause (e.g., \"courts cannot make policy\") is vague — all interpretation affects policy. The key is *necessity* and *rights-violation nexus*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

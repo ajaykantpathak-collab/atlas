@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_23_002",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_23_002",
+   "title": "c11_geo_cbse_23_002",
+   "questions": [
+    {
+     "q": "What does the Representative Fraction 1:25,000 mean in terms of map distance and ground distance?",
+     "a": "1:25,000 means 1 unit (cm, mm, inch, etc.) on the map corresponds to 25,000 of the same units on the ground. A wrong answer like \"1 cm on map = 25,000 km on ground\" reveals the student confuses units or magnitude — they haven't grasped that RF requires identical units and that 25,000 cm = 0.25 km, not 25,000 km.",
+     "self_check": true
+    },
+    {
+     "q": "Why is Representative Fraction considered a \"universal\" scale method while statement scale is not?",
+     "a": "RF is universal because it is a pure ratio without units — it works equally for metric (cm, m, km) and imperial (inches, feet, miles) systems. Statement scale like \"1 cm = 1 km\" fails if the map is enlarged/reduced or if a user thinks in inches. A wrong answer focusing only on \"RF is more accurate\" shows the student misses the unit-independence concept — the core advantage of RF.",
+     "self_check": true
+    },
+    {
+     "q": "On a map with RF 1:50,000, you measure the straight-line distance between two villages as 4.8 cm. Calculate the actual ground distance in kilometres.",
+     "a": "Step 1: RF = 1:50,000 → 1 cm map = 50,000 cm ground.  \nStep 2: Map distance = 4.8 cm → Ground distance = 4.8 × 50,000 = 240,000 cm.  \nStep 3: Convert cm to km: 240,000 cm ÷ 100 = 2,400 m ÷ 1,000 = 2.4 km.  \nAnswer: 2.4 km. A wrong answer like 240 km reveals the student multiplied but forgot unit conversion (cm → km). An answer of 0.24 km reveals they divided instead of multiplied.",
+     "self_check": true
+    },
+    {
+     "q": "Two maps of the same region have RFs 1:25,000 and 1:100,000. Which map shows more detail? Explain using the concept of scale denominator.",
+     "a": "1:25,000 shows more detail because its denominator (25,000) is smaller — meaning 1 map unit represents less ground distance, so features are spread larger. 1:100,000 compresses the same area into smaller map space. A wrong answer choosing 1:100,000 reveals the misconception \"larger number = larger scale = more detail\" — confusing denominator magnitude with scale size.",
+     "self_check": true
+    },
+    {
+     "q": "A student converts statement scale \"2 cm = 1 km\" to RF as 1:50,000. Is this correct? Justify your evaluation.",
+     "a": "Yes, correct. Step 1: Make map distance 1 unit: 2 cm = 1 km → 1 cm = 0.5 km. Step 2: Convert 0.5 km to cm: 0.5 × 100,000 = 50,000 cm. Step 3: RF = 1:50,000. A wrong evaluation (saying it's incorrect) suggests the student either doesn't know how to normalize map distance to 1 unit, or mishandles km→cm conversion (1 km = 100,000 cm).",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step procedure for a surveyor to determine the RF of an old map that has no scale printed, using only a known ground distance between two identifiable points.",
+     "a": "Procedure: (1) Identify two points on map with known ground distance (e.g., from GPS or revenue records). (2) Measure map distance between them in cm. (3) Convert known ground distance to cm. (4) RF = map distance (cm) : ground distance (cm), simplified to 1 : X. (5) Verify by checking another known distance. A poor answer that skips unit conversion or doesn't simplify to 1:X shows the student treats RF as a mere fraction without standardizing numerator to 1.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

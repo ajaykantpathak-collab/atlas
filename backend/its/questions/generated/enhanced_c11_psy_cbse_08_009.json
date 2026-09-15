@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_08_009",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_08_009",
+   "title": "c11_psy_cbse_08_009",
+   "questions": [
+    {
+     "q": "Name the six basic emotions identified by Paul Ekman as having universal facial expressions across cultures.",
+     "a": "The six universal basic emotions are happiness, sadness, anger, fear, disgust, and surprise. A wrong answer (e.g., including \"jealousy\" or \"pride\") reveals the student confuses basic emotions with complex/self-conscious emotions that emerge later developmentally and lack distinct universal facial signatures.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between a \"display rule\" and a \"basic emotion\" using the example of a Japanese student who masks disappointment with a smile after receiving a low grade.",
+     "a": "A basic emotion (disappointment/sadness) is an innate, universal response with a distinct facial configuration; a display rule is a culturally learned norm dictating that negative emotions be masked in public to maintain harmony. If the student says \"the smile *is* the emotion,\" they conflate the expressed behavior with the internal state, missing the core distinction between felt and displayed emotion.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 11 student from Kerala moves to Delhi for school. In group discussions, she notices her North Indian peers maintain direct eye contact while speaking, whereas she was taught to lower her gaze as a sign of respect. Using the concept of \"gaze behavior,\" explain why this difference occurs and predict the potential misinterpretation if neither adjusts.",
+     "a": "South Asian cultures often use peripheral gaze (averted eyes) to signal deference, while many North Indian/Western contexts interpret direct gaze as attentiveness and honesty. Without mutual awareness, the Delhi peers may perceive the Kerala student as disengaged or dishonest, while she may view them as aggressive or disrespectful. A wrong answer that labels one style as \"correct\" reveals ethnocentric bias rather than understanding cultural relativity of non-verbal norms.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the emotional labeling granularity for \"anger\" in Tahitian (46 labels) versus English (1 broad label). What does this imply about the relationship between language and emotional experience, and how does it challenge the \"universal basic emotions\" view?",
+     "a": "High granularity (46 Tahitian labels) suggests the culture makes fine discriminations among anger subtypes (e.g., righteous indignation vs. petty irritation), potentially shaping perceivers to *experience* these as distinct states. This challenges strict universality by showing culture doesn't just label pre-existing categories — it may carve the emotional spectrum differently. An answer claiming \"anger is anger everywhere\" ignores linguistic relativity evidence and treats labeling as passive rather than constitutive.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the claim: \"Indian classical dance mudras are a purely cultural invention with no biological basis.\" Use evidence from the universality of facial expressions and the function of gestures in emotion communication.",
+     "a": "The claim is partially false. While specific mudras (hand gestures) are culturally codified, they often amplify universal facial/body prototypes (e.g., widened eyes + raised eyebrows for *adbhuta*/wonder mirror the universal surprise face). Gestures serve the evolutionary function of making emotions detectable at a distance. A strong critique acknowledges cultural elaboration *on* a biological substrate; a weak answer dismisses biology entirely or ignores cultural specificity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 2-minute role-play scenario for a Class 11 psychology practical that demonstrates how paralanguage (pitch, loudness, speech rate) can completely change the emotional meaning of the identical sentence \"I'm fine.\" Specify the three distinct emotions conveyed and the precise vocal parameters for each.",
+     "a": "A strong answer specifies: (1) Genuine happiness — moderate pitch, steady loudness, normal rate; (2) Suppressed anger — low pitch, high loudness, clipped/slow rate with tension; (3) Anxiety/fear — high pitch, variable loudness, rapid rate with tremors. Each must be physiologically plausible (e.g., anger lowers pitch via vocal fold tension). A poor answer uses vague terms like \"angry voice\" without acoustic parameters, showing lack of analytical decomposition of paralanguage.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

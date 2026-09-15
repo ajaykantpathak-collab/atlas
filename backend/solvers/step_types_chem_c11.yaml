@@ -1,0 +1,527 @@
+# ISC Class 11 Chemistry – Step Types
+# Each step type encodes a SINGLE pedagogical rule with explanation template
+step_types:
+  # ─── Topic 1: Basic Concepts ──────────────────────────────────────────────
+  MOL_CALC:
+    name: "Mole Calculation"
+    rule: "n = mass / M"
+    explanation: |
+      Divide the given mass by the molar mass (M) to obtain amount of substance.
+      Unit check: mass in g, M in g/mol → n in mol.
+    applies_to: ["mole_concept", "stoichiometry", "limiting_reagent"]
+
+  EMPIRICAL_FORMULA:
+    name: "Empirical Formula Determination"
+    rule: "Divide % composition by atomic mass, divide by smallest ratio, get whole numbers"
+    explanation: |
+      Convert % to grams → moles → divide by smallest mole value → get simplest whole-number ratio.
+    applies_to: ["empirical_formula", "molecular_formula"]
+
+  MOLECULAR_FORMULA:
+    name: "Molecular Formula from Empirical"
+    rule: "Molecular Formula = n × Empirical Formula, where n = molar_mass / empirical_mass"
+    explanation: |
+      Find the empirical mass from the empirical formula, divide experimental molar mass by it,
+      round to nearest integer n, multiply empirical formula subscripts by n.
+    applies_to: ["molecular_formula"]
+
+  STOICHIOMETRY_CHAIN:
+    name: "Stoichiometric Chain Calculation"
+    rule: "moles_A → (ratio) → moles_B → (×M_B) → mass_B"
+    explanation: |
+      Write balanced equation, use molar ratio to convert moles of known substance to moles
+      of unknown, then multiply by molar mass of unknown.
+    applies_to: ["stoichiometry", "limiting_reagent", "yield"]
+
+  LIMITING_REAGENT:
+    name: "Limiting Reagent Identification"
+    rule: "Reagent with fewer available moles (÷ stoichiometric coefficient) is limiting"
+    explanation: |
+      Calculate moles of each reactant. Divide each by its coefficient in the balanced equation.
+      The smallest value identifies the limiting reagent; product moles = (limiting moles) × coefficient_ratio.
+    applies_to: ["limiting_reagent", "yield"]
+
+  PERCENT_YIELD:
+    name: "Percentage Yield"
+    rule: "% yield = (actual / theoretical) × 100"
+    explanation: |
+      Theoretical yield comes from stoichiometry with the limiting reagent.
+      Percentage yield accounts for side reactions, incomplete conversion, or product loss.
+    applies_to: ["yield"]
+
+  # ─── Topic 2: Atomic Structure ─────────────────────────────────────────────
+  DEBROGLIE:
+    name: "de Broglie Wavelength"
+    rule: "λ = h / p = h / (m·v)"
+    explanation: |
+      Matter exhibits wave character. Planck's constant h = 6.626×10⁻³⁴ J·s.
+      Use electron mass 9.109×10⁻³¹ kg. Convert eV to J: 1 eV = 1.602×10⁻¹⁹ J.
+    applies_to: ["debroglie_wavelength", "atomic_structure"]
+
+  BOHR_ENERGY:
+    name: "Bohr Energy Level"
+    rule: "E_n = -13.6/n² eV (hydrogen-like atoms: -13.6·Z²/n² eV)"
+    explanation: |
+      Ground state (n=1) energy = -13.6 eV for H. Excited states have less negative energy.
+      Ionization energy = -E₁ (energy to go from n=1 to n=∞). Z² scaling for hydrogen-like ions.
+    applies_to: ["bohr_model", "ionization_energy", "atomic_structure"]
+
+  RADIATION_FREQ:
+    name: "Photon Energy from Frequency/Wavelength"
+    rule: "E = h·ν = hc/λ"
+    explanation: |
+      Energy of a photon is proportional to its frequency and inversely proportional to wavelength.
+      Use h = 6.626×10⁻³⁴ J·s, c = 3×10⁸ m/s.
+    applies_to: ["photoelectric", "atomic_structure"]
+
+  QUANTUM_NUMBERS:
+    name: "Quantum Number Enumeration"
+    rule: "n≥1, 0≤l≤n-1, -l≤m_l≤l, m_s=±½; orbitals per shell = n²"
+    explanation: |
+      Principal qn n → shell; azimuthal l → subshell; magnetic m_l → orbital orientation;
+      spin m_s → two electrons per orbital. Each orbital holds max 2 electrons.
+    applies_to: ["quantum_numbers", "electronic_configuration"]
+
+  ELECTRONIC_CONFIG:
+    name: "Electronic Configuration"
+    rule: "Aufbau order: 1s 2s 2p 3s 3p 4s 3d 4p 5s 4d 5p 6s 4f 5d 6p 7s 5f 6d; max 2e⁻/orbital; Hund's rule"
+    explanation: |
+      (n+l) rule: subshells fill in order of increasing (n+l); equal n+l → lower n first.
+      Within a subshell, fill each orbital singly before pairing (Hund's rule).
+      Write as e.g. [Ar] 3d⁵ 4s¹ for Cr (exception due to exchange energy stability).
+    applies_to: ["electronic_configuration", "atomic_structure"]
+
+  # ─── Topic 3: Classification of Elements ───────────────────────────────────
+  ATOMIC_RADII:
+    name: "Atomic Radius Trend"
+    rule: "Across period: radius ↓ (Z_eff ↑); down group: radius ↑ (n ↑); r_covalent < r_van_der_Waals"
+    explanation: |
+      Covalent radius = half the internuclear distance in a covalent molecule.
+      Metallic radius = half the internuclear distance in a metal lattice.
+      Ionic radius depends on coordination number (6-fold standard).
+    applies_to: ["atomic_radii", "periodicity"]
+
+  IONIZATION_ENTHALPY:
+    name: "Ionization Enthalpy Trend"
+    rule: "IE increases across period; IE decreases down group; anomalies at group 13 (p¹), 16 (p⁴)"
+    explanation: |
+      IE₁ is energy to remove outermost electron. IE₂ > IE₁ (higher effective nuclear charge
+      on remaining electrons). Group 13 has low IE₁ due to p¹ being shielded by full s².
+      Group 16 has lower IE₁ than group 15 due to paired electrons in p⁴.
+    applies_to: ["ionization_enthalpy", "periodicity"]
+
+  ELECTRON_GAIN_ENTHALPY:
+    name: "Electron Gain Enthalpy"
+    rule: "ΔegH = -ve (exothermic, energy released); more negative = greater electron affinity; anomalies at group 15 (half-filled)"
+    explanation: |
+      ΔegH is enthalpy change when 1 mole of gaseous atoms gains 1 mole of electrons.
+      Generally becomes more negative across a period (Z_eff ↑).
+      Group 15 has less negative ΔegH due to half-filled p³ configuration.
+    applies_to: ["electron_gain_enthalpy", "periodicity"]
+
+  ELECTRONEGATIVITY:
+    name: "Electronegativity (Pauling/Mulliken)"
+    rule: "Pauling: χ_A - χ_B ∝ √(E_d(AB) - [E_d(AA)+E_d(BB)]/2); increases across period, decreases down group"
+    explanation: |
+      Electronegativity measures ability to attract shared electrons in a bond.
+      F has highest EN (3.98 Pauling). EN difference > 1.7 → ionic character > 50%.
+    applies_to: ["electronegativity", "bond_polarity"]
+
+  # ─── Topic 4: Chemical Bonding ──────────────────────────────────────────────
+  LEWIS_STRUCTURE:
+    name: "Lewis Structure Construction"
+    rule: "Total valence e⁻ = Σ valence e⁻ of atoms - charge (if anion) + charge (if cation)"
+    explanation: |
+      Step 1: Count total valence electrons (add e⁻ for anions, remove for cations).
+      Step 2: Connect atoms with single bonds.
+      Step 3: Complete octets on outer atoms, then central atom.
+      Step 4: If central atom lacks octet, convert lone pairs to double/triple bonds.
+    applies_to: ["lewis_structure", "vsepr", "hybridization"]
+
+  VSEPR_GEOMETRY:
+    name: "VSEPR Geometry Prediction"
+    rule: "Repulsion order: LP-LP > LP-BP > BP-BP; shape determined by total electron domains"
+    explanation: |
+      Count electron domains (bonding pairs + lone pairs) around central atom.
+      Linear (2), Trigonal planar (3), Tetrahedral (4), Trigonal bipyramidal (5), Octahedral (6).
+      Lone pairs distort angles: tetrahedral 109.5° → bent ~104.5° (H₂O).
+    applies_to: ["vsepr", "molecular_shape"]
+
+  HYBRIDIZATION:
+    name: "Hybridization Determination"
+    rule: "Steric number = σ_bonds + lone_pairs on central atom; sp(n=2), sp²(n=3), sp³(n=4), sp³d(n=5), sp³d²(n=6)"
+    explanation: |
+      Steric number determines hybridization type.
+      sp (180°, linear), sp² (120°, trigonal planar), sp³ (109.5°, tetrahedral),
+      sp³d (90/120°, trigonal bipyramidal), sp³d² (90°, octahedral).
+    applies_to: ["hybridization", "bonding_theory"]
+
+  BOND_ORDER:
+    name: "Bond Order (Molecular Orbital)"
+    rule: "BO = (N_bonding - N_antibonding) / 2; BO > 0 → stable molecule"
+    explanation: |
+      Fill MOs in order of increasing energy (σ < π < σ* < π* for homonuclear diatomics).
+      Higher BO → stronger/shorter bond. BO = 0 means no stable molecule.
+    applies_to: ["molecular_orbital_theory", "bond_order", "bonding_theory"]
+
+  BOND_ENERGY:
+    name: "Bond Enthalpy (Mean)"
+    rule: "ΔH_rxn = Σ(bonds broken) - Σ(bonds formed); bond enthalpy from data table"
+    explanation: |
+      Breaking bonds requires energy (+), forming bonds releases energy (-).
+      Average bond enthalpies used when exact molecule data unavailable.
+    applies_to: ["bond_enthalpy", "thermodynamics", "hess_law"]
+
+  H_BONDING:
+    name: "Hydrogen Bonding"
+    rule: "H bonded to F, O, N → H-bond donor; F, O, N with lone pairs → acceptor"
+    explanation: |
+      H-bond is a strong dipole-dipole interaction (not covalent). Boiling point, solubility,
+      and biological structure (DNA, proteins) depend critically on H-bonding.
+      Intermolecular H-bond ↑ BP (H₂O > H₂S); intramolecular H-bond ↓ BP.
+    applies_to: ["hydrogen_bonding", "intermolecular_forces"]
+
+  # ─── Topic 5: Thermodynamics ────────────────────────────────────────────────
+  FIRST_LAW_THERMO:
+    name: "First Law of Thermodynamics"
+    rule: "ΔU = q + w; w = -PΔV (constant P); w = -nRT ln(V₂/V₁) (reversible isothermal)"
+    explanation: |
+      ΔU is a state function (depends only on initial and final states).
+      q and w are path functions. At constant V, w=0, so ΔU = q_v.
+      At constant P, ΔH = q_p = ΔU + PΔV.
+    applies_to: ["internal_energy", "enthalpy", "thermodynamics"]
+
+  ENTHALPY_STATE:
+    name: "Enthalpy as State Function"
+    rule: "ΔH = H_products - H_reactants; H = U + PV"
+    explanation: |
+      Enthalpy H = U + PV. At constant pressure: ΔH = q_p.
+      Heat of reaction types: combustion (ΔcH), formation (ΔfH), neutralization, solution.
+    applies_to: ["enthalpy", "hess_law"]
+
+  HESS_LAW:
+    name: "Hess's Law Application"
+    rule: "ΔH_total = Σ ΔH_i; reverse equation → reverse sign; multiply eq → multiply ΔH"
+    explanation: |
+      Enthalpy is a state function → path doesn't matter.
+      Manipulate given equations (reverse, multiply, add) to obtain target equation.
+      Apply same multipliers and sign changes to corresponding ΔH values.
+    applies_to: ["hess_law", "enthalpy_of_reaction"]
+
+  BOND_ENTHALPY_CALC:
+    name: "Bond Enthalpy Calculation"
+    rule: "ΔH_rxn = Σ(BE_bonds_broken) - Σ(BE_bonds_formed)"
+    explanation: |
+      Use tabulated average bond enthalpies. Each bond type counted once per molecule.
+      Sign convention: energy absorbed (+ve) for bond breaking, energy released (-ve) for bond forming.
+    applies_to: ["bond_enthalpy", "enthalpy_of_reaction"]
+
+  GIBBS_ENERGY:
+    name: "Gibbs Free Energy"
+    rule: "ΔG = ΔH - T·ΔS; ΔG < 0 → spontaneous; ΔG = 0 → equilibrium"
+    explanation: |
+      Combines enthalpy and entropy effects into one spontaneity criterion.
+      T in Kelvin (not °C). ΔH in kJ/mol, ΔS in J/(mol·K) → convert units consistently.
+    applies_to: ["gibbs_energy", "spontaneity", "thermodynamics"]
+
+  ENTROPY:
+    name: "Entropy Calculation"
+    rule: "ΔS_universe = ΔS_system + ΔS_surroundings > 0 for spontaneous process"
+    explanation: |
+      Entropy measures disorder. ΔS_surroundings = -ΔH_system/T.
+      Second law: ΔS_universe always increases for spontaneous processes.
+    applies_to: ["entropy", "spontaneity", "thermodynamics"]
+
+  # ─── Topic 6: Equilibrium ──────────────────────────────────────────────────
+  ICE_TABLE:
+    name: "ICE Table Setup"
+    rule: "I: initial moles/conc; C: change (±x); E: equilibrium = I ± C; K = [products]/[reactants]"
+    explanation: |
+      Define change using stoichiometric coefficients. For A ⇌ B + C:
+      [A] = [A]₀ - x, [B] = x, [C] = x (if start with A only).
+      Substitute equilibrium expressions into K expression and solve for x.
+    applies_to: ["equilibrium_constant", "Kc", "homogeneous_equilibrium"]
+
+  KP_KC_RELATION:
+    name: "Kp–Kc Relationship"
+    rule: "Kp = Kc(RT)^Δn_gas where Δn_gas = moles_gaseous_products - moles_gaseous_reactants"
+    explanation: |
+      R = 0.0831 L·bar/(mol·K) or 0.0821 L·atm/(mol·K).
+      Δn = 0 → Kp = Kc (no change). Use R consistent with pressure units.
+    applies_to: ["Kp", "Kc_relation", "heterogeneous_equilibrium"]
+
+  LE_CHATELIER:
+    name: "Le Chatelier's Principle"
+    rule: "System shifts to counteract imposed change (T, P, concentration)"
+    explanation: |
+      ↑[reactant] → shift right; ↑T → shift endothermic direction; ↑P → shift fewer gas moles.
+      For exothermic reaction: ΔH < 0, so heat is a product. ↑T treats heat as added product.
+    applies_to: ["le_chatelier", "equilibrium_shift"]
+
+  PH_CALC:
+    name: "pH Calculation"
+    rule: "pH = -log₁₀[H⁺]; pH + pOH = 14 (at 25°C); pOH = -log₁₀[OH⁻]"
+    explanation: |
+      For strong acid/base: complete dissociation, [H⁺] = concentration.
+      For weak acid: [H⁺] = √(Ka × c); for weak base: [OH⁻] = √(Kb × c).
+    applies_to: ["ph", "acid_base", "ionic_equilibrium", "strong_acid_base"]
+
+  BUFFER_HH:
+    name: "Henderson-Hasselbalch Buffer Equation"
+    rule: "pH = pKa + log([base]/[acid]) = pKa + log([salt]/[acid])"
+    explanation: |
+      Buffer resists pH change. Acidic buffer: weak acid + its salt (e.g., CH₃COOH/CH₃COONa).
+      Basic buffer: weak base + its salt (e.g., NH₃/NH₄Cl). Buffer capacity highest when pH ≈ pKa.
+    applies_to: ["buffer_solution", "acid_base", "ionic_equilibrium"]
+
+  HYDROLYSIS:
+    name: "Salt Hydrolysis"
+    rule: "Anion of weak acid or cation of weak base hydrolyzes; Kh = Kw/Ka = Kw/Kb; pH by Kh"
+    explanation: |
+      Salt of strong acid + strong base: neutral (pH=7).
+      Salt of weak acid + strong base: basic (pH > 7); [OH⁻] = √(Kh × c).
+      Salt of strong acid + weak base: acidic (pH < 7); [H⁺] = √(Kh × c).
+    applies_to: ["hydrolysis", "salt_solution", "ionic_equilibrium"]
+
+  SOLUBILITY_PRODUCT:
+    name: "Solubility Product (Ksp)"
+    rule: "Ksp = [M⁺]^m [X⁻]^x; Q < Ksp → unsaturated; Q = Ksp → saturated; Q > Ksp → ppt forms"
+    explanation: |
+      Ksp is equilibrium constant for saturated solution of a sparingly soluble salt.
+      For AgCl (1:1): Ksp = s². For PbCl₂ (1:2): Ksp = 4s³.
+      Common ion effect: adding shared ion reduces solubility.
+    applies_to: ["solubility_product", "Ksp", "ionic_equilibrium"]
+
+  COMMON_ION:
+    name: "Common Ion Effect"
+    rule: "Solubility ↓ when common ion added; s_new = √(Ksp/[common_ion]) for 1:1 salts"
+    explanation: |
+      Le Chatelier's principle: adding common ion shifts equilibrium left → less dissolution.
+      Used in gravimetric analysis and qualitative analysis schemes.
+    applies_to: ["common_ion_effect", "solubility_product"]
+
+  # ─── Topic 7: Redox Reactions ───────────────────────────────────────────────
+  OXIDATION_NUMBER:
+    name: "Oxidation Number Assignment"
+    rule: "Rules: free element = 0; mono-atomic ion = charge; O = -2 (except peroxides -1, OF₂ +2); H = +1 (metal hydrides -1)"
+    explanation: |
+      Sum of oxidation numbers in neutral compound = 0; in ion = charge.
+      Common exceptions: peroxides (O = -1), superoxides (O = -½), OF₂ (+2), KO₂ (-½).
+    applies_to: ["oxidation_number", "redox_reactions"]
+
+  ION_ELECTRON:
+    name: "Ion-Electron (Half-Reaction) Method"
+    rule: "Split into oxidation + reduction halves; balance atoms (O→H₂O, H→H⁺); balance charge with e⁻; combine and cancel"
+    explanation: |
+      Acidic medium: add H₂O for O, H⁺ for H.
+      Basic medium: add H₂O for O, H₂O + OH⁻ for H (or add OH⁻ to both sides after acidic balancing).
+      Equalize electron count by multiplying half-reactions before combining.
+    applies_to: ["redox_balancing", "ion_electron_method"]
+
+  REDOX_TITRATION:
+    name: "Redox Titration Calculation"
+    rule: "M₁V₁/n₁ = M₂V₂/n₂ (n = number of electrons transferred per formula unit)"
+    explanation: |
+      Equivalent factor n = change in oxidation number per formula unit.
+      For KMnO₄ in acidic medium: n = 5 (Mn⁷⁺ → Mn²⁺).
+      For K₂Cr₂O₇ in acidic medium: n = 6 (2×Cr⁶⁺ → 2×Cr³⁺).
+    applies_to: ["redox_titration", "redox_reactions"]
+
+  # ─── Topic 8: Hydrogen ──────────────────────────────────────────────────────
+  HYDRIDE_CLASSIFICATION:
+    name: "Hydride Classification"
+    rule: "Ionic (s-block), Covalent (p-block), Metallic (d-block), Interstitial (d-block)"
+    explanation: |
+      Ionic hydrides (NaH, CaH₂): H⁻, high MP, strong reducing agents.
+      Covalent hydrides: further classified as electron-deficient (B₂H₆), electron-precise (CH₄),
+      electron-rich (NH₃, H₂O). Metallic hydrides are non-stoichiometric.
+    applies_to: ["hydrides", "hydrogen_properties"]
+
+  WATER_HARDNESS:
+    name: "Water Hardness Calculation"
+    rule: "Temporary hardness (bicarbonates) → boiled; Permanent hardness (sulfates/chlorides) → Na₂CO₃, ion exchange, synthetic resin"
+    explanation: |
+      Hardness in ppm CaCO₃ equivalent. 1 ppm = 1 mg CaCO₃ per kg water.
+      Removal: boiling (temporary), addition of Na₂CO₃ (permanent), ion exchange resin
+      (Na⁺/H⁺ exchange removes Ca²⁺/Mg²⁺).
+    applies_to: ["water_hardness", "water_softening"]
+
+  # ─── Topic 9: s-Block Elements ──────────────────────────────────────────────
+  ALKALI_METAL_PROP:
+    name: "Alkali Metal Properties"
+    rule: "Atomic radius ↑, IE ↓, density ↑ (except K), melting/boiling points ↓ down group"
+    explanation: |
+      Single valence electron → readily lost → form M⁺. Compounds are ionic.
+      Li forms nitrides (Li₃N), no heavier alkali does. LiHCO₃ decomposes unlike others.
+      Diagonal relationship: Li ↔ Mg (similar radii/charge density).
+    applies_to: ["alkali_metals", "group1_properties"]
+
+  ALKALI_COMPOUNDS:
+    name: "Alkali Metal Compound Properties"
+    rule: "Na₂CO₃ (washing soda), NaHCO₃ (baking soda), NaOH (caustic soda)"
+    explanation: |
+      Na₂CO₃·10H₂O → Na₂CO₃ + 10H₂O on heating (washing soda).
+      NaHCO₃ → Na₂CO₃ + CO₂ + H₂O on heating (baking soda in baking).
+      NaOH absorbs CO₂ → Na₂CO₃ (caustic soda stored airtight).
+    applies_to: ["sodium_compounds", "group1_compounds"]
+
+  ALKALINE_EARTH_PROPS:
+    name: "Alkaline Earth Metal Properties"
+    rule: "Radius, IE, MP, BP ↓ down group; Be anomalous (small size, diagonal Mg relationship)"
+    explanation: |
+      Two valence electrons → form M²⁺. Higher IE than alkali metals (group 1).
+      Be and Mg are inert to air/water (protective oxide layer).
+      Diagonal relationship: Be ↔ Al, Mg ↔ Li (similar properties due to charge density).
+    applies_to: ["alkaline_earth", "group2_properties"]
+
+  CA_COMPOUNDS:
+    name: "Calcium Compound Properties"
+    rule: "CaO (quicklime), Ca(OH)₂ (slaked lime), CaCO₃ (limestone), CaSO₄·2H₂O (gypsum), CaSO₄·½H₂O (POP)"
+    explanation: |
+      CaO + H₂O → Ca(OH)₂ (exothermic, slaking of lime).
+      Gypsum heated 373 K → POP (Plaster of Paris); POP + H₂O → gypsum (sets hard).
+      CaCO₃ heated → CaO + CO₂ (lime kiln).
+    applies_to: ["calcium_compounds", "group2_compounds"]
+
+  # ─── Topic 10: p-Block Elements ─────────────────────────────────────────────
+  BORON_COMPOUNDS:
+    name: "Boron Compound Reactions"
+    rule: "Borax bead test: Na₂B�O₇ → B₂O₃ on heating; Boric acid is Lewis acid (B(OH)₃ + H₂O → B(OH)₄⁻ + H⁺)"
+    explanation: |
+      Borax (Na₂B₄O₇·10H₂O) → on heating gives B₂O₃ (metaboric acid).
+      Boric acid is a weak monobasic acid (accepts OH⁻, not proton donor).
+      Diborane B₂H₆ has 3-center-2-electron bonds (banana bonds).
+    applies_to: ["boron_compounds", "borax", "boric_acid", "diborane"]
+
+  CARBON_COMPOUNDS:
+    name: "Carbon Compound Properties"
+    rule: "CO: toxic, reducing agent; CO₂: greenhouse gas, acidic oxide; C allotropes: diamond (sp³), graphite (sp²), fullerenes (sp²)"
+    explanation: |
+      CO is neutral oxide, reducing agent (CuO + CO → Cu + CO₂). Poisonous (binds haemoglobin).
+      CO₂ dissolves in water: CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻.
+      Dry ice (solid CO₂) sublimes at -78.5°C.
+    applies_to: ["carbon_compounds", "co", "co2", "allotropes"]
+
+  SILICON_COMPOUNDS:
+    name: "Silicon Compound Properties"
+    rule: "Silicones: [(R₂SiO)]_n polymers; Silicates: SiO₄⁴⁻ tetrahedra linked in various ways"
+    explanation: |
+      Silicones: water-repellent, thermally stable, used in sealants, waterproofing.
+      Silicate classification: ortho (SiO₄⁴⁻), pyro (Si₂O₇⁶⁻), cyclic (Si₃O₉⁶⁻), sheet (Si₂O₅²⁻),
+      framework (SiO₂, feldspars, zeolites).
+    applies_to: ["silicones", "silicates", "group14_silicon"]
+
+  # ─── Topic 11: Organic Chemistry Basics ─────────────────────────────────────
+  GWC_FILTER:
+    name: "GWC Rule Application"
+    rule: "Only C-C and C-H count for parent chain; heteroatoms and functional groups excluded from GWC"
+    explanation: |
+      General Warning Concept (GWC): only carbon-carbon and carbon-hydrogen bonds are counted.
+      Functional groups, multiple bonds, heteroatoms do NOT count toward parent chain length.
+    applies_to: ["gwc", "organic_basics"]
+
+  HYBRIDIZATION_ORG:
+    name: "Hybridization in Organic Molecules"
+    rule: "sp³ = 4 σ bonds; sp² = 3 σ + 1 π; sp = 2 σ + 2 π; count σ bonds around each C"
+    explanation: |
+      Every single bond = 1 σ bond. Double bond = 1 σ + 1 π. Triple bond = 1 σ + 2 π.
+      Count all σ bonds to the carbon atom (C-C and C-H both contribute).
+    applies_to: ["hybridization_organic", "bonding_organic"]
+
+  HOMOLYTIC_FISSION:
+    name: "Homolytic Fission"
+    rule: "Each fragment takes one electron → free radicals (·); favoured by heat/light/peroxides"
+    explanation: |
+      Results in free radicals (neutral, electron-deficient, paramagnetic).
+      Occurs in presence of UV light or heat. Promoted by weak bonds (C-Br, C-I, O-O).
+      Typical of free radical substitution reactions (alkane halogenation).
+    applies_to: ["homolytic_fission", "free_radicals", "reaction_mechanism"]
+
+  HETEROLYTIC_FISSION:
+    name: "Heterolytic Fission"
+    rule: "Both electrons go to more electronegative atom → carbocation (+ve) and carbanion (-ve)"
+    explanation: |
+      Favoured in polar solvents and when substrates are polar.
+      Carbocations: electron-deficient (sp²), planar, electrophilic (e.g., CH₃⁺, tert-butyl⁺).
+      Carbanions: electron-rich (sp³), pyramidal, nucleophilic (e.g., CH₃⁻, CH₃COO⁻).
+    applies_to: ["heterolytic_fission", "carbocations", "carbanions", "reaction_mechanism"]
+
+  ELECTROPHILE:
+    name: "Electrophile Classification"
+    rule: "Electron-deficient species seeking electron pair; +ve charge or electron-deficient atom"
+    explanation: |
+      Types: positively charged (H⁺, NO₂⁺, R⁺), neutral but electron-deficient (BF₃, AlCl₃),
+      polarized neutral (Hδ⁺-Clδ⁻). Attacks nucleophilic centers (C=C, lone pair atoms).
+    applies_to: ["electrophiles", "electrophilic_substitution", "reaction_mechanism"]
+
+  NUCLEOPHILE:
+    name: "Nucleophile Classification"
+    rule: "Electron-rich species donating electron pair; -ve charge or lone pair on electronegative atom"
+    explanation: |
+      Types: negatively charged (OH⁻, CN⁻, NH₂⁻), neutral but with lone pair (NH₃, H₂O, ROH).
+      Nucleophilicity ∝ basicity in aprotic solvents; in protic solvents, larger anions are better
+      nucleophiles (I⁻ > Br⁻ > Cl⁻ > F⁻) due to solvation effects.
+    applies_to: ["nucleophiles", "nucleophilic_substitution", "reaction_mechanism"]
+
+  # ─── Topic 12: Hydrocarbons ─────────────────────────────────────────────────
+  IUPAC_ALKANE:
+    name: "IUPAC Naming of Alkanes"
+    rule: "Parent chain: longest C chain; suffix -ane; number from nearest substituent; alphabetical listing"
+    explanation: |
+      Identify parent: longest continuous carbon chain.
+      Number from end giving substituents lowest locants.
+      List substituents alphabetically with locants separated by commas; use di-, tri-, tetra- for multiples.
+    applies_to: ["alkanes", "nomenclature", "organic_basics"]
+
+  IUPAC_ALKENE:
+    name: "IUPAC Naming of Alkenes"
+    rule: "Locate C=C at lowest number; parent suffix -ene; E/Z for higher priority groups"
+    explanation: |
+      Number chain to give C=C lowest possible locant.
+      For 2+ double bonds: diene, triene with di-, tri- locants.
+      E/Z: higher CIP priority groups on opposite (E) or same (Z) side.
+    applies_to: ["alkenes", "nomenclature", "markovnikov"]
+
+  IUPAC_ALKYNE:
+    name: "IUPAC Naming of Alkynes"
+    rule: "Locate C≡C at lowest number; suffix -yne; alkene+alkyne → -en-yne numbering"
+    explanation: |
+      Triple bond gets priority for lower locant over alkyl substituents.
+      For compounds with both double and triple bonds, lower locant goes to double bond.
+    applies_to: ["alkynes", "nomenclature"]
+
+  ISOMERISM_STRUCTURAL:
+    name: "Structural Isomer Identification"
+    rule: "Same molecular formula, different connectivity: chain, position, functional group isomers"
+    explanation: |
+      Chain isomers: different carbon skeleton (n-butane vs isobutane).
+      Position isomers: functional group at different positions (butan-1-ol vs butan-2-ol).
+      Functional group isomers: different functional groups (butan-1-ol vs butanal).
+    applies_to: ["structural_isomerism", "isomerism"]
+
+  ISOMERISM_STEREO:
+    name: "Stereoisomer Identification"
+    rule: "Same connectivity, different spatial arrangement: geometrical (cis/trans, E/Z) and optical (enantiomers)"
+    explanation: |
+      Geometrical: restricted rotation (C=C). Cis = same side; trans = opposite side.
+      E/Z by CIP priority rules. Optical: non-superimposable mirror images.
+      Chiral center = C with 4 different substituents.
+    applies_to: ["stereoisomerism", "optical_isomerism", "geometrical_isomerism"]
+
+  MARKOVNIKOV:
+    name: "Markovnikov's Rule Application"
+    rule: "H adds to C with more H's; negative part adds to C with fewer H's; peroxide reverses (anti-Markovnikov)"
+    explanation: |
+      Based on carbocation stability (3° > 2° > 1° > methyl).
+      In presence of peroxide (ROOR): anti-Markovnikov addition via free radical mechanism.
+      For HBr only; HCl and HI don't show peroxide effect.
+    applies_to: ["markovnikov", "alkene_addition", "electrophilic_addition"]
+
+  AROMATIC_ES:
+    name: "Electrophilic Substitution in Benzene"
+    rule: "EAS mechanism: E⁺ attacks → arenium ion → deprotonation; E directs via inductive/resonance effects"
+    explanation: |
+      -OH, -NH₂, -CH₃: ortho/para directors (activating).
+      -NO₂, -COOH, -SO₃H: meta directors (deactivating).
+      Halogens: ortho/para but deactivating (inductive withdraw, resonance donate).
+    applies_to: ["electrophilic_substitution", "aromatic_compounds", "benzene"]

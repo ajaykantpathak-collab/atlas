@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_10_008",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_10_008",
+   "title": "c11_geo_cbse_10_008",
+   "questions": [
+    {
+     "q": "Define \"rainfed agriculture\" in the Indian context and state the approximate percentage of net sown area that is rainfed as per latest agricultural statistics.",
+     "a": "Rainfed agriculture refers to farming systems dependent entirely on rainfall for soil moisture, without assured artificial irrigation. As per latest data (Agricultural Statistics at a Glance), approximately 52% of India's net sown area is rainfed. A wrong answer (e.g., \"70%\" or \"30%\") reveals the student lacks updated statistical awareness critical for quantifying climate vulnerability; confusing \"rainfed\" with \"dryland\" (which implies arid regions only) shows conceptual imprecision—rainfed includes humid regions like Northeast India where rainfall is high but irrigation infrastructure is absent.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a delay in monsoon onset by 10-15 days over the core rice-growing belt (Eastern Uttar Pradesh, Bihar, West Bengal) disproportionately reduces rice yields compared to a similar delay over the cotton belt (Maharashtra, Gujarat).",
+     "a": "Rice (especially transplanted paddy) has a narrow optimal sowing/transplanting window (mid-June to early July) because it requires standing water during early vegetative growth; delayed onset forces late transplanting, pushing reproductive phase into cooler November temperatures causing spikelet sterility and yield loss. Cotton is a deep-rooted, long-duration Kharif crop (180-200 days) with greater plasticity—it can tolerate delayed sowing by utilizing residual soil moisture and extending into post-monsoon period. A wrong answer attributing it only to \"water requirement differences\" misses the critical phenology-temperature interaction: rice yield is thermo-sensitive during panicle initiation, while cotton's indeterminate growth buffers timing shifts.",
+     "self_check": true
+    },
+    {
+     "q": "A district in Vidarbha (Maharashtra) receives 900 mm annual rainfall, 85% during June-September. Its dominant soil is Vertisol (black cotton soil). Using the concept of \"length of growing period\" (LGP), calculate the maximum theoretical LGP in days if effective rainfall (rainfall > 0.5 PET) begins June 15 and ends October 15, and explain why actual cropping intensity remains 100% (single crop) despite this LGP.",
+     "a": "LGP = 123 days (June 15 to October 15 inclusive). However, Vertisols have high water holding capacity (200-250 mm/m) but very low infiltration rate when dry and swell-shrink behavior causing deep cracks. The 900 mm rainfall is concentrated in 45-50 rainy days with high intensity (>30 mm/day), causing runoff rather than profile recharge. Post-monsoon (Rabi) cropping requires stored soil moisture > 150 mm in root zone; but high evaporation (PET ~5-6 mm/day in October) depletes profile rapidly. Single cropping persists because: (1) no supplemental irrigation, (2) high risk of mid-season drought during critical flowering of any second crop, (3) traditional long-duration cotton/pigeonpea occupy full LGP. Wrong answer ignoring soil hydrology reveals inability to integrate edaphic factors with climate.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the climate-agriculture-economic transmission mechanism in two contrasting regions: (a) Punjab (irrigated, rice-wheat system) and (b) Rayalaseema (rainfed, groundnut-millet system). Analyze how a \"deficient monsoon year\" (All-India rainfall 90% of LPA) affects each region's agricultural GDP contribution and farmer income differently.",
+     "a": "Punjab: 99% irrigated via canals/tubewells; monsoon deficiency reduces reservoir recharge (Bhakra Dam) and increases groundwater extraction cost (diesel/electricity), raising cultivation cost by 8-12%. Rice-wheat yields stable due to irrigation buffer, but farmer margins compress. Agricultural GDP contribution remains steady (~3.5% of state GSDP), but input subsidy burden on state exchequer rises. Rayalaseema: 70% rainfed; 90% LPA means 20-30% rainfall deficit locally (high spatial variability). Groundnut (kharif) suffers moisture stress at pegging stage → 30-40% yield drop. No crop insurance payout triggers (threshold often >50% loss). Farmer income collapses, distress migration spikes. Agricultural GDP contribution (already low at ~15% of district GDP) contracts sharply. Wrong answer treating both regions identically misses the irrigation buffer vs. climate exposure asymmetry—the core of India's dualistic agricultural geography.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the Pradhan Mantri Fasal Bima Yojana (PMFBY) as a climate risk management tool for smallholders in Marathwada, considering: (i) basis risk from weather station density, (ii) actuarial premium vs. subsidized premium structure, (iii) claim settlement timeliness relative to next cropping cycle.",
+     "a": "PMFBY has limited effectiveness in Marathwada due to: (i) IMD weather station density ~1 per 500 km² vs. recommended 1 per 100 km² for index insurance—high basis risk means a farmer's plot may suffer drought while nearby station records adequate rain, denying claim. (ii) Actuarial premium for Kharif crops in high-risk zones is 15-20% of sum insured; farmer pays 2% (subsidized), but low enrollment (voluntary since 2020) reflects distrust. (iii) Claim settlement often exceeds 6-8 months (vs. ideal <45 days), missing Rabi sowing window—farmers cannot recycle compensation into next cycle. Structural fix: shift to satellite-based vegetation indices (NDVI) at 10m resolution (e.g., Sentinel-2) for hyper-local yield estimation, and mandate settlement before next season's credit disbursement. Wrong answer citing \"scheme exists therefore works\" ignores implementation geography.",
+     "self_check": true
+    },
+    {
+     "q": "Design a climate-resilient cropping system for a 2-hectare rainfed farm in Bundelkhand (Uttar Pradesh) with: annual rainfall 850 mm (CV 30%), Vertisol soil, groundwater depth 40 m (unviable for irrigation), and household requirement of 15 qtl foodgrain/year. Specify crop sequence, variety traits, soil moisture conservation practices, and income diversification component.",
+     "a": "Kharif: Short-duration (100-110 days) pearl millet hybrid (HHB 299) + pigeonpea (ICPL 88039, 160 days) intercropped 2:1 ratio—millet escapes terminal drought, pigeonpea deep-roots access subsoil moisture. Rabi (on residual moisture): Chickpea (JG 14, 110 days) sown in standing pigeonpea rows (relay cropping). Soil moisture: Compartmental bunding (3m x 3m), broadbed-furrow for drainage, straw mulch (2 t/ha). Income diversification: Backyard poultry (Kadaknath), agroforestry border (Moringa + Ber), and non-farm: MNREGA labor + PM-KISAN direct income support. Expected yield: Millet 18 qtl, Pigeonpea 8 qtl, Chickpea 10 qtl = 36 qtl total (food + fodder + cash). Surplus 21 qtl sold. Good answer integrates phenology matching, soil-climate adaptation, and livelihood portfolio; poor answer suggests \"drip irrigation\" (unviable at 40m depth) or \"rice\" (water mismatch).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,210 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 7,
+ "chapter_title": "Infrastructure: Engine of India's Development",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gees207.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gees2.7.1",
+   "title": "Infrastructure: The Engine of Development",
+   "section": "Introduction",
+   "definition": "Infrastructure is the vast network of tangible structures and systems a country runs on, roads, ports, power plants, telephone lines and telecom towers; it is the engine that pulls development forward.",
+   "formula": "",
+   "key_idea": "Infrastructure is the economy's skeleton: goods, power and messages move only as well as the network allows.",
+   "textbook_ref": "gees207.txt, Introduction",
+   "question_patterns": [
+    "what is physical infrastructure and why does it matter",
+    "name the major kinds of infrastructure",
+    "how does infrastructure affect quality of life",
+    "why is infrastructure called the engine of development",
+    "what happens to business when power or roads fail",
+    "which infrastructure projects changed your region"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  },
+  {
+   "id": "gees2.7.2",
+   "title": "Roads, Railways and Metro Systems",
+   "section": "Transport",
+   "definition": "Transport infrastructure carries people and goods: India's expanding network of national highways, over 68,000 km of railway tracks among the world's longest, and metro trains now running in 23 Indian cities.",
+   "formula": "",
+   "key_idea": "Distance shrinks when roads, rails and metros grow: markets widen and journeys shorten.",
+   "textbook_ref": "gees207.txt, Transport",
+   "question_patterns": [
+    "how long is india's railway network",
+    "in how many indian cities do metro trains run",
+    "how do highways change trade and travel",
+    "what are the benefits of metro rail in cities",
+    "compare road and rail transport for goods",
+    "which transport upgrade would you suggest for your town"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  },
+  {
+   "id": "gees2.7.3",
+   "title": "Energy and Digital Infrastructure",
+   "section": "Energy and telecom",
+   "definition": "Power plants and grids light homes and run factories, while telephone lines, towers and optical fibre carry voices and data; energy and digital networks together multiply what every other sector can do.",
+   "formula": "",
+   "key_idea": "Electricity and connectivity are enablers: a clinic, a school and a factory all stand still without them.",
+   "textbook_ref": "gees207.txt, Energy and telecom",
+   "question_patterns": [
+    "why is electricity called basic infrastructure",
+    "name the sources from which india generates power",
+    "how has telecom changed village life",
+    "what does digital infrastructure include",
+    "how does the internet help farmers and students",
+    "what happens to a city during a power failure"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  },
+  {
+   "id": "gees2.7.4",
+   "title": "Infrastructure and the Quality of Life",
+   "section": "Development",
+   "definition": "APJ Abdul Kalam's dream of a developed India wants the same roads, power, water and communication in village and city; the chapter's graphs of railways, ports and metro length show infrastructure raising living standards.",
+   "formula": "",
+   "key_idea": "Development is measured in access: when village and city share the same infrastructure, opportunity spreads.",
+   "textbook_ref": "gees207.txt, Development",
+   "question_patterns": [
+    "what was apj abdul kalam's vision of a developed india",
+    "how does infrastructure change life in villages",
+    "compare the railway networks of india china and the usa from the graph",
+    "why does infrastructure reduce inequality",
+    "which infrastructure upgrades does your area need",
+    "how does clean water supply change a community's health"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the facts",
+     "explain": "List the facts, dates or features the chapter gives."
+    },
+    {
+     "step": 2,
+     "action": "arrange and connect",
+     "explain": "Put them in order or in groups and link each to the next."
+    },
+    {
+     "step": 3,
+     "action": "state the meaning",
+     "explain": "Say what the connected facts add up to."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gees207.txt",
+   "concept": "gees2.7.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why does the same infrastructure in village and city mark a developed India?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall Kalam's dream",
+     "explain": "Development means equal roads, power, water and communication everywhere."
+    },
+    {
+     "step": 2,
+     "action": "draw the effect",
+     "explain": "With equal networks, a village child, patient or trader gains the same reach as one in a metro city."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gees207.txt",
+   "concept": "gees2.7.2",
+   "question_type": "verify_property",
+   "question_pattern": "compare the railway track lengths of countries from the chapter's graph.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall the idea or definition",
+     "explain": "State the idea in your own words in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "point to the chapter",
+     "explain": "Name the section, figure or example of the chapter where it appears."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a fresh example and draw one conclusion."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gees207.txt, Let us explore",
+   "questions": [
+    "What is physical infrastructure and how has it grown in India?",
+    "Compare the railway track lengths of countries from the chapter's graph.",
+    "How many cities run metro trains and why does it matter?",
+    "Think about upgrades to the infrastructure near you and propose two.",
+    "List the infrastructure your school depends on in a day."
+   ]
+  }
+ ]
+}

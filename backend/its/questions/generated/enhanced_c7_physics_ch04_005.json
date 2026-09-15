@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch04_005",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch04_005",
+   "title": "c7_physics_ch04_005",
+   "questions": [
+    {
+     "q": "A cheetah runs 100 meters in 5 seconds, and a racehorse runs 100 meters in 4 seconds. Which animal has a higher speed, and what does this mean in terms of time taken for a fixed distance?",
+     "a": "The racehorse has a higher speed because it covers the same 100-meter distance in less time (4 seconds compared to the cheetah's 5 seconds). A wrong answer often reveals the student's confusion between distance and time, mistakenly thinking the object with the larger numerical time value is faster because they associate larger numbers with \"more.\"",
+     "self_check": true
+    },
+    {
+     "q": "Two friends, Amit and Rahul, ride their bicycles along a straight path. Amit covers 500 meters in 2 minutes, and Rahul covers 500 meters in 3 minutes. Can you explain why Amit is traveling faster without converting the units to standard SI units yet?",
+     "a": "Amit is traveling faster because he covers the exact same distance (500 meters) in a shorter duration of time (2 minutes instead of 3 minutes). A wrong answer indicates that the student does not understand the inverse relationship between time taken and speed when distance is constant.",
+     "self_check": true
+    },
+    {
+     "q": "Car A travels a distance of 120 kilometers in 2 hours, and Car B travels 150 kilometers in 3 hours. Calculate the speed of both cars in km/hr and determine which car is faster.",
+     "a": "Step 1: Identify given values for Car A: Distance $d_A = 120\\text{ km}$, Time $t_A = 2\\text{ hr}$.\nStep 2: Identify given values for Car B: Distance $d_B = 150\\text{ km}$, Time $t_B = 3\\text{ hr}$.\nStep 3: Calculate Speed of Car A: $v_A = \\frac{120\\text{ km}}{2\\text{ hr}} = 60\\text{ km/hr}$.\nStep 4: Calculate Speed of Car B: $v_B = \\frac{150\\text{ km}}{3\\text{ hr}} = 50\\text{ km/hr}$.\nStep 5: Compare speeds ($60\\text{ km/hr} > 50\\text{ km/hr}$); therefore, Car A is faster.\nA wrong answer shows an error in division or mixing up distance and time values in the formula.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze a race where Runner X runs for 10 seconds and covers 60 meters, while Runner Y runs for 15 seconds and covers 90 meters. How do their speeds compare?",
+     "a": "Runner X's speed is $\\frac{60\\text{ m}}{10\\text{ s}} = 6\\text{ m/s}$. Runner Y's speed is $\\frac{90\\text{ m}}{15\\text{ s}} = 6\\text{ m/s}$. Their speeds are equal. A wrong answer suggests the student blindly looked at the total distance or total time being larger and assumed one runner must be faster without actually calculating the distance covered per unit time.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that if Train X travels twice the distance of Train Y, Train X must be moving at a faster speed regardless of the time taken. Evaluate this claim.",
+     "a": "The claim is false. Speed depends on both distance and time. If Train X covers twice the distance but takes three times longer than Train Y, its speed will actually be lower. A wrong answer reveals a failure to realize that speed is a ratio of distance to time, not distance alone.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple school-ground experiment involving three students to compare their running speeds over a 50-meter track using a digital stopwatch. What variables must you control to make a fair comparison?",
+     "a": "A good answer will state that all three students must start at the exact same starting line, run along a straight 50-meter path measured with a trundle wheel or tape, and the timekeeper must start and stop the stopwatch precisely at the start and finish signals. A poor answer fails to mention controlling the starting conditions or accurate timing methods, which invalidates the speed comparison.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

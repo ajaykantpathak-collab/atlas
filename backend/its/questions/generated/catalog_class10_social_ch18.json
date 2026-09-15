@@ -1,0 +1,235 @@
+{
+ "catalog": "catalog_class10_social_ch18",
+ "concepts": [
+  {
+   "id": "c10ss.18.1",
+   "title": "Meaning of Development",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Meaning of Development' refers to.",
+     "a": "Development is a process that brings about improvement in the well-being and living standards of people. Different people have different developmental goals, and what may be development for one may be destructive for another.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Meaning of Development'.",
+     "a": "Development means different things to different people; it is not just about income but about overall well-being.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Meaning of Development'.",
+     "a": "What is development?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.18.2",
+   "title": "Indicators of Development",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Indicators of Development' refers to.",
+     "a": "Indicators of development are measures used to compare the level of development of different countries or regions, such as per capita income, literacy rate, life expectancy and infant mortality rate.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Indicators of Development'.",
+     "a": "No single indicator captures development fully; a mix of income, health and education indicators gives a better picture.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Indicators of Development'.",
+     "a": "What are the main indicators of development?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.18.3",
+   "title": "Per Capita Income",
+   "questions": [
+    {
+     "q": "Using the method 'Per Capita Income', work with: population = 25000, total_income = 500. Carry the chain through step by step and give the final value of per_capita_income.",
+     "a": "0.02 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Per Capita Income' and work with: population = 25000, total_income = 1200. Carry the chain through step by step and give the final value of per_capita_income.",
+     "a": "0.048 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Per Capita Income' refers to.",
+     "a": "Per capita income is the average income of a country, calculated by dividing the total national income by the total population. It is a commonly used indicator for comparing the development of countries.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Per Capita Income'.",
+     "a": "Per capita income is a simple average-income measure used to compare countries, but it hides inequality and ignores non-income aspects of development.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Per Capita Income', in plain ASCII form.",
+     "a": "Per Capita Income = Total National Income / Total Population",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.18.4",
+   "title": "Human Development Index (HDI)",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Human Development Index (HDI)' refers to.",
+     "a": "The Human Development Index (HDI) is a composite index prepared by the UNDP that ranks countries based on three indicators: per capita income, life expectancy at birth and literacy rate (education).",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Human Development Index (HDI)'.",
+     "a": "HDI gives a broader measure of development than income alone by combining income, health and education.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Human Development Index (HDI)', in plain ASCII form.",
+     "a": "HDI = composite of (per capita income, life expectancy, literacy rate)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.18.5",
+   "title": "Comparison of Countries on Development",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Comparison of Countries on Development' refers to.",
+     "a": "Countries can be compared on development using indicators like per capita income, HDI, life expectancy and literacy. Different indicators may give different rankings, so multiple indicators should be used.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Comparison of Countries on Development'.",
+     "a": "Comparing countries on a single indicator can be misleading; a fair comparison uses multiple indicators.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Comparison of Countries on Development'.",
+     "a": "How can we compare the development of two countries?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.18.6",
+   "title": "Sustainability and Development",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Sustainability and Development' refers to.",
+     "a": "Sustainable development is development that meets the needs of the present generation without compromising the ability of future generations to meet their own needs.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sustainability and Development'.",
+     "a": "Development must be sustainable so that resources remain available for future generations.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Sustainability and Development'.",
+     "a": "What is sustainable development?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.18.7",
+   "title": "Public Facilities and Development",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Public Facilities and Development' refers to.",
+     "a": "Public facilities are services provided by the government, such as education, healthcare, safe drinking water and sanitation, that are essential for development and are available to all citizens regardless of income.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Public Facilities and Development'.",
+     "a": "Public facilities are crucial for development because income alone cannot buy all essential services like clean water and public health.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Public Facilities and Development'.",
+     "a": "What are public facilities?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.18.8",
+   "title": "Income and Other Goals",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Income and Other Goals' refers to.",
+     "a": "While income is an important goal, people also value non-material goals such as freedom, security, equal treatment, respect and a safe environment. Development must consider both income and these other goals.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Income and Other Goals'.",
+     "a": "People seek not only income but also security, freedom and respect; development must address all these goals.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'Income and Other Goals'.",
+     "a": "Why do people value goals other than income?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.18.9",
+   "title": "National Development",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'National Development' refers to.",
+     "a": "National development refers to the overall improvement of a country in terms of income, health, education and infrastructure. Different groups within a nation may have different ideas about what national development should prioritise.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'National Development'.",
+     "a": "National development means improving the well-being of all citizens, but different groups may define it differently.",
+     "self_check": true
+    },
+    {
+     "q": "Give one standard exam phrasing that targets 'National Development'.",
+     "a": "What is national development?",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c10ss.18.10",
+   "title": "Body Mass Index (BMI) as a Health Indicator",
+   "questions": [
+    {
+     "q": "Using the method 'Body Mass Index (BMI) as a Health Indicator', work with: height_m = 30, weight_kg = 25. Carry the chain through step by step and give the final value of bmi.",
+     "a": "0.0278 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Body Mass Index (BMI) as a Health Indicator' and work with: height_m = 20, weight_kg = 100. Carry the chain through step by step and give the final value of bmi.",
+     "a": "0.25 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Body Mass Index (BMI) as a Health Indicator' refers to.",
+     "a": "Body Mass Index (BMI) is a measure of body fat based on a person's weight and height. It is used as a health indicator to assess whether a person is undernourished, normal or overweight.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Body Mass Index (BMI) as a Health Indicator'.",
+     "a": "BMI is a simple computed indicator of nutrition and health status; values below 18.5 indicate undernourishment.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Body Mass Index (BMI) as a Health Indicator', in plain ASCII form.",
+     "a": "BMI = Weight (kg) / [Height (m)]^2",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

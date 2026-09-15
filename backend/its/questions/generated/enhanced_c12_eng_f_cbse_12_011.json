@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_f_cbse_12_011",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_f_cbse_12_011",
+   "title": "c12_eng_f_cbse_12_011",
+   "questions": [
+    {
+     "q": "Identify the part of speech and grammatical function of \"pled\" in the line \"A roadside stand that too pathetically pled.\"",
+     "a": "\"Pled\" is the past tense verb (past participle also possible) functioning as the main verb of the relative clause \"that too pathetically pled.\" The subject is \"that\" (referring to \"roadside stand\"). A wrong answer (e.g., calling it an adjective) reveals the student cannot distinguish verb forms in inverted syntax where the adverb \"pathetically\" separates the subject and verb.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the poet uses inversion in \"At having the landscape marred with the artless paint / Of signs that with N turned wrong and S turned wrong.\"",
+     "a": "The inversion (\"signs that with N turned wrong and S turned wrong\") places the prepositional phrase \"with N turned wrong\" before the verb \"turned,\" mimicking the visual disorder of the misspelled signs. It forces the reader to stumble, just as the city drivers stumble over the \"artless paint.\" A wrong answer that only defines inversion without linking to the poem's critique of urban aesthetic judgment shows superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the line \"The polished traffic passed with a mind ahead\" in standard Subject-Verb-Object order and add the implied prepositional phrase that clarifies \"ahead.\"",
+     "a": "Standard order: \"The polished traffic passed ahead with a mind [fixed] ahead.\" Steps: 1) Identify subject \"The polished traffic,\" verb \"passed,\" adverbial \"with a mind ahead.\" 2) Recognize \"ahead\" is an adverb modifying \"passed,\" but \"with a mind ahead\" is a prepositional phrase describing the traffic's attitude. 3) Reorder to SVO: Subject + Verb + Adverbial. A wrong answer that keeps \"with a mind ahead\" at the end without clarifying the double \"ahead\" misses the ellipsis of \"fixed\" or \"set.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare the syntactic structure of \"It would not be fair to say for a dole of bread\" and \"But for some of the money, the cash, whose flow supports / The flower of cities from sinking and withering faint.\" How does the shift from infinitive phrase to relative clause change the focus?",
+     "a": "The first uses an infinitive phrase (\"to say for a dole of bread\") as the true subject of \"would not be fair,\" framing the stand's motive negatively. The second uses a relative clause (\"whose flow supports...\") to modify \"the cash,\" expanding the scope from a simple handout to the systemic dependency of cities on rural money. A wrong answer that only labels clauses without contrasting their thematic weight fails to analyze.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the parenthetical insertion \"(this crossly)\" in \"Why keep your money (this crossly) and go along.\" Does it strengthen or weaken the speaker's voice?",
+     "a": "It strengthens the voice by breaking the sentence flow, mimicking the speaker's bitter interruption. The parenthesis acts like a stage direction, letting the rural speaker's sarcasm cut through the polite syntax. A wrong answer that calls it \"informal\" or \"ungrammatical\" misses its rhetorical purpose and judges by standard prose rules.",
+     "self_check": true
+    },
+    {
+     "q": "Write a four-line stanza about a street vendor, using at least two grammatical features from the poem (e.g., inversion, participial phrase, parenthetical aside, elliptical clause).",
+     "a": "Example: \"By the station gate she waits, / Her wares spread wide, (this hopefully) / Not for charity, but for the coin / That feeds the city's hungry heart.\" Uses inversion (\"By the station gate she waits\"), participial phrase (\"Her wares spread wide\"), parenthetical aside (\"(this hopefully)\"), and elliptical clause (\"Not for charity...\"). A poor answer uses only standard SVO sentences, showing inability to transfer poetic syntax.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

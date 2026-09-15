@@ -1,0 +1,205 @@
+{
+ "class": 6,
+ "subject": "english",
+ "chapter": 4,
+ "chapter_title": "Change of Heart",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fepr104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fepr.4.1",
+   "title": "Prabhat's Change of Heart",
+   "section": "Change of Heart, Let us read",
+   "definition": "Prabhat starts as a boy who plays only to win and cannot bear defeat; watching Surya lose cheerfully and still enjoy basketball teaches him that games are for joy, and he becomes a true sportsman.",
+   "formula": "old way = play only to win; new way = play to enjoy",
+   "key_idea": "A defeat taken lightly by a friend turns Prabhat's fear of losing into the joy of playing.",
+   "textbook_ref": "fepr104.txt, Change of Heart, Let us read",
+   "question_patterns": [
+    "how did prabhat change by the end of the story",
+    "why is the story called change of heart",
+    "what lesson does prabhat learn from surya",
+    "why did prabhat refuse to play games he might lose",
+    "how did prabhat cheat in the badminton match",
+    "why was prabhat unable to sleep after winning the match"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall what the main character does",
+     "explain": "Retell the central events in one or two sentences, naming the main character."
+    },
+    {
+     "step": 2,
+     "action": "trace the turn in the story",
+     "explain": "Point out the moment where the character changes or learns something."
+    },
+    {
+     "step": 3,
+     "action": "state the message",
+     "explain": "Say what the story teaches about life in one clear sentence."
+    }
+   ]
+  },
+  {
+   "id": "fepr.4.2",
+   "title": "Surya and the Sporting Spirit",
+   "section": "Change of Heart, Let us read II",
+   "definition": "Surya plays brilliantly at badminton and hopelessly at basketball with the same happy smile; his sporting spirit lies in enjoying the game for its own sake, not in the scoreboard.",
+   "formula": "",
+   "key_idea": "Enjoyment that does not depend on winning is the mark of sporting spirit, as Surya shows every day.",
+   "textbook_ref": "fepr104.txt, Change of Heart, Let us read II",
+   "question_patterns": [
+    "draw a character sketch of surya",
+    "how did surya react to losing the badminton match",
+    "what was special about the way surya played basketball",
+    "what does sporting spirit mean in this story",
+    "how was surya's attitude different from prabhat's",
+    "why did surya not feel bad about losing"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect actions and words",
+     "explain": "List what the character does and says at key points of the story."
+    },
+    {
+     "step": 2,
+     "action": "infer the trait behind each action",
+     "explain": "Match each action to a quality such as kindness, honesty or courage."
+    },
+    {
+     "step": 3,
+     "action": "support with evidence",
+     "explain": "Quote or point to the exact moment in the text that shows the trait."
+    }
+   ]
+  },
+  {
+   "id": "fepr.4.3",
+   "title": "Winning versus Enjoying the Game",
+   "section": "Change of Heart, Let us think and reflect",
+   "definition": "The story argues that a scoreboard is not needed to enjoy a game; trying to do well and enjoying every moment matter more than the result of the match.",
+   "formula": "enjoyment = effort + fun, not victory alone",
+   "key_idea": "Prabhat wins by cheating yet feels empty, which proves that victory without joy is hollow.",
+   "textbook_ref": "fepr104.txt, Change of Heart, Let us think and reflect",
+   "question_patterns": [
+    "is winning the only aim of playing a game justify",
+    "why did winning by cheating not make prabhat happy",
+    "what matters more than the scoreboard in a game",
+    "was prabhat's early approach to games healthy why or why not",
+    "why is sporting spirit important in life",
+    "how does enjoyment change the way we play"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall what the main character does",
+     "explain": "Retell the central events in one or two sentences, naming the main character."
+    },
+    {
+     "step": 2,
+     "action": "trace the turn in the story",
+     "explain": "Point out the moment where the character changes or learns something."
+    },
+    {
+     "step": 3,
+     "action": "state the message",
+     "explain": "Say what the story teaches about life in one clear sentence."
+    }
+   ]
+  },
+  {
+   "id": "fepr.4.4",
+   "title": "Word Meanings: Phenomenon, Significant and Defeat",
+   "section": "Change of Heart, Let us learn",
+   "definition": "From context, a phenomenon is someone with special qualities, significant means important, defeat means loss, and kept a close watch on means observed carefully.",
+   "formula": "",
+   "key_idea": "Words like phenomenon and significant raise the meaning of a sports story beyond the score.",
+   "textbook_ref": "fepr104.txt, Change of Heart, Let us learn",
+   "question_patterns": [
+    "what does phenomenon mean in this story",
+    "why was the last friday significant for prabhat",
+    "what is the meaning of defeat here",
+    "find the meaning of conducted and sensed",
+    "which word tells that surya had no skill in basketball",
+    "use the word opponent in your own sentence"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find the word in its line",
+     "explain": "Locate the sentence where the new word appears."
+    },
+    {
+     "step": 2,
+     "action": "use the surrounding clues",
+     "explain": "Read before and after the word to see what sense the sentence needs."
+    },
+    {
+     "step": 3,
+     "action": "replace and test",
+     "explain": "Swap in the guessed meaning; if the sentence still makes sense, the meaning is right."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fepr104.txt, Let us read II",
+   "concept": "fepr.1.1",
+   "question_type": "verify_property",
+   "question_pattern": "What did Prabhat observe about Surya in the following days?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "watch the basketball game",
+     "explain": "Surya cannot score for ten minutes yet keeps smiling and playing."
+    },
+    {
+     "step": 2,
+     "action": "draw the lesson",
+     "explain": "Prabhat sees that enjoyment never depends on the score, and this changes him."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fepr104.txt, Let us read I",
+   "concept": "fepr.1.3",
+   "question_type": "verify_property",
+   "question_pattern": "Why did Prabhat play only those games he was sure to win?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "recall his feeling",
+     "explain": "Winning felt so good that losing felt terrible to him."
+    },
+    {
+     "step": 2,
+     "action": "state the habit",
+     "explain": "To protect that feeling he avoided any game he sensed he could lose."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fepr104.txt, Let us think and reflect",
+   "questions": [
+    "How did Prabhat's fear of losing spoil his enjoyment of games at first?",
+    "Why do you think Prabhat cheated to win against Surya?",
+    "How did Surya's attitude towards games differ from Prabhat's?",
+    "Was Prabhat's approach to games healthy? Give reasons.",
+    "Explain why the title Change of Heart suits the story."
+   ]
+  }
+ ]
+}

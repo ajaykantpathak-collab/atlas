@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_06_006",
+   "title": "c12_cs_cbse_06_006",
+   "questions": [
+    {
+     "q": "What is the exact placeholder symbol used in mysql.connector parameterized queries, and does it change based on the data type of the value (e.g., string vs integer)?",
+     "a": "The placeholder is `%s` for **all** data types (strings, integers, floats, dates, etc.). mysql.connector handles type conversion internally. A wrong answer (e.g., `%d` for integers, `%f` for floats, or `?` like in sqlite3) reveals the student is confusing mysql.connector with other DB-API drivers or Python's old `%` string formatting — a dangerous habit that leads to injection vulnerabilities.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: `cursor.execute(f\\\"SELECT * FROM products WHERE price < {max_price}\\\")` where `max_price` comes from user input. They argue it's safe because `max_price` is converted to `float` before the f-string. Explain why this is **still vulnerable** to SQL injection.",
+     "a": "Even if `max_price` is cast to `float`, an attacker can supply input like `100; DROP TABLE products; --` which, after float conversion, may become `100.0` but the **original string** could be manipulated before conversion if the validation is bypassed. More fundamentally, **any** string interpolation — f-strings, `%`, `.format()` — merges data into the query text **before** the database parses it. The database then sees `SELECT * FROM products WHERE price < 100; DROP TABLE products; --` as a single statement batch. Parameterized queries avoid this by sending the query template and data over the protocol separately. A wrong answer shows the student thinks type-checking sanitizes input; it does not — only separation of code and data does.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following vulnerable code into a secure parameterized query. Assume `conn` is a valid connection and `category` is a string from user input.\n```python\ncursor = conn.cursor()\nquery = \"SELECT name, price FROM products WHERE category = '\" + category + \"'\"\ncursor.execute(query)\n```",
+     "a": "```python\ncursor = conn.cursor()\nquery = \"SELECT name, price FROM products WHERE category = %s\"\ncursor.execute(query, (category,))\n```\nSteps: (1) Replace the concatenated variable with `%s` placeholder. (2) Remove the extra single quotes around the placeholder — the driver adds them automatically for strings. (3) Pass the variable(s) as a **tuple** (note the trailing comma for single-element tuple) as the second argument to `execute()`. A wrong answer that keeps quotes (`'%s'`) or passes a list `['cat']` or forgets the comma `(category)` reveals misunderstanding of tuple syntax or placeholder quoting rules.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the **network-level interaction** between the Python client and MySQL server when using (a) string concatenation vs (b) parameterized queries. Why does (b) prevent injection even if the server receives malicious strings?",
+     "a": "(a) String concatenation: Python builds the **full SQL text** locally and sends one text packet: `SELECT * FROM users WHERE name = 'admin' --'`. The server parses and executes it as-is. (b) Parameterized query: mysql.connector uses the MySQL binary protocol (COM_STMT_PREPARE / COM_STMT_EXECUTE). It first sends the **template** `SELECT * FROM users WHERE name = ?` (server parses, compiles, stores plan). Then it sends the **data packet** containing the binary-encoded value `'admin\\' --'`. The server **binds** the value to the already-parsed plan — the value never goes through the SQL parser. Therefore, quotes, semicolons, or keywords in the data cannot alter the query structure. A wrong answer that claims \"the driver escapes quotes\" reveals the student thinks escaping (which is error-prone) is the mechanism; it is not — the protocol separation is.",
+     "self_check": true
+    },
+    {
+     "q": "A team argues: \"We validate all inputs with regex `^[a-zA-Z0-9_]+$` before putting them into f-string queries, so we don't need parameterized queries.\" Evaluate this claim. Is it a valid defense-in-depth strategy or a dangerous substitute?",
+     "a": "**Dangerous substitute.** Regex allow-listing is **defense-in-depth**, not a replacement. It fails when: (1) a new field requires characters outside the regex (e.g., email `@`, address `'`), (2) a developer forgets to apply validation on one endpoint, (3) the regex has a bug (e.g., allows Unicode homoglyphs), (4) second-order injection where validated data is stored and later used unsafely in another query. Parameterized queries are **the primary, mandatory control** because they work universally, require no per-field logic, and are enforced by the database protocol. Using validation alone is like checking the driver's license but not wearing a seatbelt — it works until it doesn't. A wrong answer that accepts regex as sufficient shows the student confuses input validation (business logic) with output encoding / query parameterization (injection prevention).",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal Python function `safe_search(conn, keyword)` that returns all rows from a `books` table where `title` contains the keyword (case-insensitive partial match). Use parameterized queries. The keyword comes from an untrusted web request. Show the exact `execute()` call.",
+     "a": "```python\ndef safe_search(conn, keyword):\n    cursor = conn.cursor()\n    # % wildcards are part of the DATA, not the query structure\n    pattern = f\"%{keyword}%\"   # safe: pattern is built in Python, not in SQL\n    query = \"SELECT * FROM books WHERE LOWER(title) LIKE LOWER(%s)\"\n    cursor.execute(query, (pattern,))\n    return cursor.fetchall()\n```\nKey points: (1) Wildcards `%` are added in Python to the **value**, not in the SQL string. (2) The placeholder `%s` appears **without quotes** in the query. (3) `LOWER()` on both sides ensures case-insensitive match in MySQL (which is case-insensitive by default for default collation, but explicit is clearer). A poor answer puts `%` inside the query string (`LIKE '%%%s%%'`) or uses string concatenation for the pattern — both break parameterization.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

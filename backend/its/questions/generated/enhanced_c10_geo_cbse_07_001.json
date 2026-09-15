@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_geo_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c10_geo_cbse_07_001",
+   "title": "c10_geo_cbse_07_001",
+   "questions": [
+    {
+     "q": "Define the term \"lifeline of national economy\" in the context of transport. Why is transport given this label?",
+     "a": "Transport is called the lifeline of national economy because it connects production areas with consumption areas, enables movement of raw materials to factories and finished goods to markets, and allows labour mobility — just as blood vessels transport nutrients in a body. A wrong answer (e.g., \"transport helps people travel\") reveals the student sees transport only as passenger movement, missing its critical role in production-trade-consumption chains that drive GDP.",
+     "self_check": true
+    },
+    {
+     "q": "India has a vast and varied physiography. Explain why a single mode of transport cannot serve the entire country efficiently. Use at least two distinct physiographic regions from Class 6 to illustrate.",
+     "a": "In the Himalayan region (c6_geography_ch01_002), steep slopes and landslides make railways difficult and costly; roadways and airways are more suitable. In the Northern Plains (c6_geography_ch01_003), flat terrain and dense population favour railways and roadways for high-volume movement. A wrong answer (e.g., \"railways are best everywhere\") shows the student ignores terrain constraints and the concept of modal suitability — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Punjab wants to send 50 tonnes of wheat to a port in Gujarat for export. The distance is ~1,200 km. Which mode of transport would be most economical and why? Calculate the approximate cost advantage if rail freight is ₹1.50/tonne-km and road freight is ₹3.00/tonne-km.",
+     "a": "Railways are most economical for bulk goods over long distances. Cost by rail = 50 tonnes × 1,200 km × ₹1.50 = ₹90,000. Cost by road = 50 × 1,200 × ₹3.00 = ₹1,80,000. Rail saves ₹90,000 (50% cheaper). A wrong answer choosing roadways reveals the student doesn't grasp the \"bulk + long distance = rail\" principle — a common error in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of pipelines and waterways in India's transport network. Why are both considered \"low-profile but high-impact\" modes? Analyse using the concepts of continuous flow, energy efficiency, and environmental cost.",
+     "a": "Pipelines transport crude oil, petroleum products, and natural gas continuously without transshipment losses — ideal for energy security. Waterways (inland and coastal) move heavy bulk cargo (coal, iron ore) at lowest fuel cost per tonne-km and minimal carbon footprint. Both are \"low-profile\" (invisible/underutilised) but \"high-impact\" (strategic for energy and heavy industry). A wrong answer focusing only on passenger transport misses their freight-specific strategic role.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Airways are a luxury mode of transport and should not be prioritised in a developing country like India.\" Provide three geographical arguments for and against, then give a reasoned judgment.",
+     "a": "Arguments against prioritisation: high cost excludes poor, high carbon footprint, limited cargo capacity. Arguments for: essential for North-East integration (c6_geography_ch01_002), disaster relief in floods/landslides, high-value perishable exports (mangoes, flowers), strategic defence. Judgment: Airways are not a luxury but a necessity for balanced regional development and emergency response — but public investment must target underserved regions, not just profitable metros. A one-sided answer reveals inability to weigh trade-offs — a competency-based question requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Design a multi-modal transport plan for moving 10,000 tonnes of iron ore from a mine in Odisha (inland) to a steel plant in Tamil Nadu (coastal), 1,500 km away. Specify modes for each leg, justify with terrain and cost, and draw a simple annotated route map.",
+     "a": "Leg 1: Mine to nearest railhead (Odisha) — road (short distance, flexibility). Leg 2: Railhead to Paradip Port (coastal Odisha) — rail (bulk, long distance, dedicated freight corridor). Leg 3: Paradip to Chennai/Tuticorin Port — coastal shipping (lowest cost for bulk over sea). Leg 4: Port to steel plant — rail/road. Annotated map must show Odisha mine, rail line, Paradip Port, sea route, Tamil Nadu ports, plant. A poor answer uses only one mode or ignores coastal shipping — missing India's 7,500 km coastline advantage (c6_geography_ch01_005).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

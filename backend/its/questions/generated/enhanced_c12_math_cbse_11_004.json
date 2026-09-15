@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_11_004",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_11_004",
+   "title": "c12_math_cbse_11_004",
+   "questions": [
+    {
+     "q": "State the vector formula for the shortest distance between two skew lines \\(\\vec{r} = \\vec{a_1} + \\lambda \\vec{b_1}\\) and \\(\\vec{r} = \\vec{a_2} + \\mu \\vec{b_2}\\). What condition must \\(\\vec{b_1} \\times \\vec{b_2}\\) satisfy for this formula to be valid?",
+     "a": "The formula is \\(d = \\frac{|(\\vec{b_1} \\times \\vec{b_2}) \\cdot (\\vec{a_2} - \\vec{a_1})|}{|\\vec{b_1} \\times \\vec{b_2}|}\\). The condition is \\(\\vec{b_1} \\times \\vec{b_2} \\neq \\vec{0}\\), i.e., the lines are not parallel. If a student writes the formula without absolute value or forgets the condition, they confuse it with the parallel lines formula or sign errors. A wrong answer like \\(d = \\frac{(\\vec{b_1} \\times \\vec{b_2}) \\cdot (\\vec{a_2} - \\vec{a_1})}{|\\vec{b_1} \\times \\vec{b_2}|}\\) (missing absolute) reveals they don't understand distance is non-negative.",
+     "self_check": true
+    },
+    {
+     "q": "Two lines are given by \\(\\frac{x-1}{2} = \\frac{y-2}{3} = \\frac{z-3}{4}\\) and \\(\\frac{x-4}{5} = \\frac{y-5}{6} = \\frac{z-6}{7}\\). Without computing the distance, explain how you would verify that these lines are skew (neither parallel nor intersecting).",
+     "a": "First, check if direction ratios are proportional: (2,3,4) and (5,6,7) are not proportional → not parallel. Second, equate parametric forms: \\(x=1+2\\lambda, y=2+3\\lambda, z=3+4\\lambda\\) and \\(x=4+5\\mu, y=5+6\\mu, z=6+7\\mu\\). Solve for \\(\\lambda, \\mu\\) from two equations; if they don't satisfy the third, lines don't intersect. A student who only checks non-parallelism and assumes skew reveals they don't know intersecting lines can also be non-parallel. They must check both conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Find the shortest distance between the lines \\(\\vec{r} = (\\hat{i} + 2\\hat{j} + 3\\hat{k}) + \\lambda(\\hat{i} - \\hat{j} + \\hat{k})\\) and \\(\\vec{r} = (2\\hat{i} - \\hat{j} - \\hat{k}) + \\mu(2\\hat{i} + \\hat{j} + 2\\hat{k})\\).",
+     "a": "Given: \\(\\vec{a_1} = \\hat{i} + 2\\hat{j} + 3\\hat{k}\\), \\(\\vec{b_1} = \\hat{i} - \\hat{j} + \\hat{k}\\); \\(\\vec{a_2} = 2\\hat{i} - \\hat{j} - \\hat{k}\\), \\(\\vec{b_2} = 2\\hat{i} + \\hat{j} + 2\\hat{k}\\).\nStep 1: \\(\\vec{b_1} \\times \\vec{b_2} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & -1 & 1 \\\\ 2 & 1 & 2 \\end{vmatrix} = \\hat{i}(-2-1) - \\hat{j}(2-2) + \\hat{k}(1+2) = -3\\hat{i} + 0\\hat{j} + 3\\hat{k}\\).\nStep 2: \\(|\\vec{b_1} \\times \\vec{b_2}| = \\sqrt{(-3)^2 + 0^2 + 3^2} = \\sqrt{18} = 3\\sqrt{2}\\).\nStep 3: \\(\\vec{a_2} - \\vec{a_1} = (2-1)\\hat{i} + (-1-2)\\hat{j} + (-1-3)\\hat{k} = \\hat{i} - 3\\hat{j} - 4\\hat{k}\\).\nStep 4: \\((\\vec{b_1} \\times \\vec{b_2}) \\cdot (\\vec{a_2} - \\vec{a_1}) = (-3)(1) + (0)(-3) + (3)(-4) = -3 -12 = -15\\).\nStep 5: \\(d = \\frac{|-15|}{3\\sqrt{2}} = \\frac{15}{3\\sqrt{2}} = \\frac{5}{\\sqrt{2}} = \\frac{5\\sqrt{2}}{2}\\) units.\nA common error: forgetting absolute value → negative distance. Another: wrong cross product (sign errors in determinant). If student gets \\(d = \\frac{5}{\\sqrt{2}}\\) but writes \\(\\frac{5\\sqrt{2}}{2}\\) as final, that's correct simplification.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the formulas for shortest distance between skew lines and parallel lines. Why does the skew lines formula have a cross product in the denominator while the parallel lines formula has a single direction vector magnitude?",
+     "a": "For skew lines, the perpendicular direction is \\(\\vec{b_1} \\times \\vec{b_2}\\) (unique direction perpendicular to both). The distance is the projection of the connecting vector onto this direction, hence denominator \\(|\\vec{b_1} \\times \\vec{b_2}|\\). For parallel lines, both lines share the same direction \\(\\vec{b}\\); the perpendicular direction is any vector perpendicular to \\(\\vec{b}\\). The distance is \\(|\\vec{b} \\times (\\vec{a_2} - \\vec{a_1})| / |\\vec{b}|\\), which simplifies to the magnitude of the component of \\(\\vec{a_2} - \\vec{a_1}\\) perpendicular to \\(\\vec{b}\\). A student who says \"both use cross product\" misses that parallel lines formula uses cross product of \\(\\vec{b}\\) with connecting vector, not \\(\\vec{b_1} \\times \\vec{b_2}\\) (which would be zero). This reveals confusion about the geometric meaning of cross product.",
+     "self_check": true
+    },
+    {
+     "q": "A student computes the shortest distance between two skew lines and gets a negative value. They argue that distance can be negative if the lines are oriented in opposite directions. Evaluate this claim and explain the error.",
+     "a": "Distance is a scalar magnitude, always non-negative. The formula includes absolute value: \\(d = \\frac{|(\\vec{b_1} \\times \\vec{b_2}) \\cdot (\\vec{a_2} - \\vec{a_1})|}{|\\vec{b_1} \\times \\vec{b_2}|}\\). The numerator without absolute value gives the signed scalar projection, which can be negative depending on the orientation of \\(\\vec{a_2} - \\vec{a_1}\\) relative to \\(\\vec{b_1} \\times \\vec{b_2}\\). The student forgot the absolute value. The error is conceptual: confusing signed projection with distance. In board exams, missing absolute value loses 1 mark. In JEE, negative distance is a trap option.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) where finding the shortest distance between two skew lines is necessary. Define the lines using coordinates of two points each, and set up the vector equations. Do not solve.",
+     "a": "Example: Two metro rail tracks in Delhi run as skew lines. Track A passes through points \\(A_1(100, 200, 0)\\) and \\(A_2(150, 250, 50)\\) (coordinates in meters). Track B passes through \\(B_1(120, 180, 10)\\) and \\(B_2(170, 230, 60)\\). Find the minimum clearance between the tracks. Vector equations: \\(\\vec{r} = \\vec{a_1} + \\lambda \\vec{b_1}\\) with \\(\\vec{a_1} = 100\\hat{i}+200\\hat{j}\\), \\(\\vec{b_1} = 50\\hat{i}+50\\hat{j}+50\\hat{k}\\); \\(\\vec{r} = \\vec{a_2} + \\mu \\vec{b_2}\\) with \\(\\vec{a_2} = 120\\hat{i}+180\\hat{j}+10\\hat{k}\\), \\(\\vec{b_2} = 50\\hat{i}+50\\hat{j}+50\\hat{k}\\). Wait, these are parallel! A good answer must ensure direction vectors are not proportional. Better: \\(A_1(0,0,0), A_2(10,0,10)\\); \\(B_1(0,10,0), B_2(10,10,10)\\)? Those are parallel. Need non-proportional: \\(A_1(0,0,0), A_2(10,0,10)\\); \\(B_1(0,10,0), B_2(0,20,10)\\). Then \\(\\vec{b_1}=(10,0,10), \\vec{b_2}=(0,10,10)\\). That works. A poor answer uses parallel lines or doesn't give 3D coordinates, showing they don't grasp skewness.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,235 @@
+{
+ "catalog": "catalog_class10_social_science_jess304",
+ "concepts": [
+  {
+   "id": "jess.304.1.1",
+   "title": "Proto-Industrialisation before Factories",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Proto-Industrialisation before Factories' refers to.",
+     "a": "Proto-industrialisation was the stage when large-scale production for an international market happened in countryside households with hand tools, not in factories, as merchants supplied rural families with raw material and collected the finished goods.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Proto-Industrialisation before Factories'.",
+     "a": "Peasants took up manufacturing in spare months because open fields and common lands were closing down, and income from such work supplemented their shrinking farm plots.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Proto-Industrialisation before Factories' taught, and from which source text?",
+     "a": "Before the Industrial Revolution (source: jess304.txt lines 69-136)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.304.1.2",
+   "title": "Cotton Boom, Inventions and the Cotton Mill",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Cotton Boom, Inventions and the Cotton Mill' refers to.",
+     "a": "Cotton led the industrial era: Britain's raw cotton imports jumped from 2.5 million pounds in 1760 to 22 million pounds in 1787 as inventions in carding, twisting, spinning and rolling raised each worker's output, and Richard Arkwright's cotton mill gathered costly machines under one roof.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Cotton Boom, Inventions and the Cotton Mill'.",
+     "a": "The mill replaced dispersed household cloth production with monitored factory work powered by water and later steam.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Cotton Boom, Inventions and the Cotton Mill' taught, and from which source text?",
+     "a": "Before the Industrial Revolution (source: jess304.txt lines 137-260)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.304.1.3",
+   "title": "Growth of Raw Cotton Imports",
+   "questions": [
+    {
+     "q": "Calculate the increase in britain's raw cotton imports between two years. Use the method 'Growth of Raw Cotton Imports'. Work with: earlier_import = 5, later_import = 40. Carry the chain through step by step and give the final value of import_increase.",
+     "a": "35 units",
+     "self_check": false
+    },
+    {
+     "q": "How many extra million pounds of cotton were imported by 1787? Use the method 'Growth of Raw Cotton Imports'. Work with: earlier_import = 80, later_import = 150. Carry the chain through step by step and give the final value of import_increase.",
+     "a": "70 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Growth of Raw Cotton Imports' refers to.",
+     "a": "The surge in Britain's cotton industry can be measured by the difference between raw cotton imported in an early year and a later year, which shows how quickly the new machines multiplied demand.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Growth of Raw Cotton Imports'.",
+     "a": "Between 1760 and 1787, imports climbed from 2.5 to 22 million pounds, so the added imports capture the scale of the cotton boom.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Growth of Raw Cotton Imports', in plain ASCII form.",
+     "a": "import_increase = later_import - earlier_import",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.304.1.4",
+   "title": "Slow Adoption of the Steam Engine",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Slow Adoption of the Steam Engine' refers to.",
+     "a": "Even the celebrated steam engine spread slowly: James Watt patented his improved engine in 1781, yet at the start of the nineteenth century England had no more than 321 steam engines, with 80 in cotton and nine in wool and the rest in mining, canals and iron works.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Slow Adoption of the Steam Engine'.",
+     "a": "Cheap labour and abundant hand skills kept manufacturers from buying costly machines, so technology's triumph was neither sudden nor universal.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Slow Adoption of the Steam Engine' taught, and from which source text?",
+     "a": "Hand Labour and Steam Power (source: jess304.txt lines 229-260, 261-340)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.304.1.5",
+   "title": "Steam Engines outside Cotton and Wool",
+   "questions": [
+    {
+     "q": "Calculate how many steam engines worked outside the textile industries. Use the method 'Steam Engines outside Cotton and Wool'. Work with: cotton_engines = 150, total_engines = 500, wool_engines = 240. Carry the chain through step by step and give the final value of other_engines.",
+     "a": "110 units",
+     "self_check": false
+    },
+    {
+     "q": "How many engines were used in mining canals and iron works? Use the method 'Steam Engines outside Cotton and Wool'. Work with: cotton_engines = 75, total_engines = 360, wool_engines = 240. Carry the chain through step by step and give the final value of other_engines.",
+     "a": "45 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Steam Engines outside Cotton and Wool' refers to.",
+     "a": "Engines not used in the cotton and wool industries went into mining, canal works and iron works, so their number equals the total engines minus those in the two textile trades.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Steam Engines outside Cotton and Wool'.",
+     "a": "Of the 321 early steam engines, subtracting 80 cotton and 9 wool engines shows over two hundred were working in mines, canals and ironworks.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Steam Engines outside Cotton and Wool', in plain ASCII form.",
+     "a": "other_engines = total_engines - cotton_engines - wool_engines",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.304.2.1",
+   "title": "Life of Workers and Resistance to Machines",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Life of Workers and Resistance to Machines' refers to.",
+     "a": "Workers streamed into towns on rumours of work, relied on kin and jobbers for jobs, and feared that machines like the Spinning Jenny of 1764 would steal their livelihood, as when colliers' wives marched in 1790 to cut up spinning engines.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Life of Workers and Resistance to Machines'.",
+     "a": "Wages rose over the century, yet work was seasonal and uncertain, and hostility to new machines showed the human cost behind industrial progress.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Life of Workers and Resistance to Machines' taught, and from which source text?",
+     "a": "Life of the Workers (source: jess304.txt lines 341-443)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.304.3.1",
+   "title": "The Age of Indian Textiles and the Gomastha System",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Age of Indian Textiles and the Gomastha System' refers to.",
+     "a": "India dominated international textile markets through networks of Armenian and Persian merchants, brokers and supply merchants, until the East India Company tightened control by appointing gomasthas, or paid supervisors, to regulate weavers and cut their ties with other buyers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Age of Indian Textiles and the Gomastha System'.",
+     "a": "Gomasthas advanced loans to weavers who had to sell only to the company at low prices, and punishments and loss of land turned many weavers into rebels or deserters.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Age of Indian Textiles and the Gomastha System' taught, and from which source text?",
+     "a": "The Age of Indian Textiles (source: jess304.txt lines 449-566)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.304.3.2",
+   "title": "Manchester Comes to India and Factories Come Up",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Manchester Comes to India and Factories Come Up' refers to.",
+     "a": "Manchester machine-made cloth flooded Indian markets through the 19th century, crushing handloom exports and pushing Indian merchants to shift capital into factories, where early cotton and jute mills came up in Bombay and Bengal.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Manchester Comes to India and Factories Come Up'.",
+     "a": "As imports surged, Indian weavers lost distant markets first and local markets next, and merchants' capital found its way into mill industries.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Manchester Comes to India and Factories Come Up' taught, and from which source text?",
+     "a": "Manchester Comes to India (source: jess304.txt lines 567-800)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.304.4.1",
+   "title": "Peculiarities of Indian Industrial Growth and the Jobber",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Peculiarities of Indian Industrial Growth and the Jobber' refers to.",
+     "a": "Indian industrialisation grew unevenly: mill industries concentrated in a few sectors and regions, factory workers were recruited through jobbers who charged for favours, and most workers came from nearby districts and kept village links.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Peculiarities of Indian Industrial Growth and the Jobber'.",
+     "a": "European managing agencies controlled much of the capital, and Indian entrepreneurs prospered where wartime demand and import gaps opened space.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Peculiarities of Indian Industrial Growth and the Jobber' taught, and from which source text?",
+     "a": "The Peculiarities of Industrial Growth (source: jess304.txt lines 803-930)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "jess.304.5.1",
+   "title": "Market for Goods: Advertising and Labels",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Market for Goods: Advertising and Labels' refers to.",
+     "a": "Manufacturers sold goods in expanding markets through labels, calendars, newspaper advertisements and images of gods, famous persons and nationalist icons, which built brand recognition among buyers who could not read.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Market for Goods: Advertising and Labels'.",
+     "a": "Figures like Lakshmi on soap packets or images of emperors and nawabs on calendars linked products to respectability, and India-made goods wore the nationalist message of swadeshi.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Market for Goods: Advertising and Labels' taught, and from which source text?",
+     "a": "Market for Goods (source: jess304.txt lines 934-1030)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

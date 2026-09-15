@@ -1,0 +1,158 @@
+{
+ "class": 11,
+ "subject": "geography",
+ "chapter": 210,
+ "chapter_title": "Water in the Atmosphere",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kegy210.txt",
+ "concepts": [
+  {
+   "id": "kegy.210.1.1",
+   "title": "Humidity, Evaporation and Relative Humidity",
+   "section": "",
+   "definition": "Water in the atmosphere exists as vapour measured by absolute and specific humidity, and relative humidity compares the actual water vapour with the saturation vapour at that temperature as a percentage, so cooling air to its dew point saturates it and condensation begins.",
+   "formula": "relative_humidity = actual_vapour / saturation_vapour * 100",
+   "key_idea": "Relative humidity of 100 per cent means the air is saturated at the dew point temperature, when excess vapour condenses on nuclei into droplets.",
+   "textbook_ref": "kegy210.txt humidity sections",
+   "question_patterns": [
+    "define relative humidity and absolute humidity",
+    "calculate the relative humidity from actual and saturation vapour",
+    "what is the dew point temperature",
+    "how does evaporation depend on temperature and wind",
+    "why does warm air hold more moisture than cold air",
+    "what are condensation nuclei"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide actual by saturation vapour",
+     "explain": "Divide the actual water vapour by the saturation vapour at the same temperature and multiply by 100 to get the relative humidity",
+     "compute": "relative_humidity = actual_vapour / saturation_vapour * 100"
+    }
+   ]
+  },
+  {
+   "id": "kegy.210.2.1",
+   "title": "Condensation, Clouds, Fog and Precipitation Types",
+   "section": "",
+   "definition": "Condensation forms dew, frost, fog, mist and clouds when saturated air cools by expansion in convection, convergence or frontal and orographic lifting, and precipitation falls as rainfall, snowfall, sleet or hail when droplets grow heavy by Bergeron or collision-coalescence processes.",
+   "formula": "",
+   "key_idea": "Clouds are classified into cirrus, cumulus, stratus and their combinations by height and form, and orographic lifting gives heavy windward rainfall with rain shadow aridity behind.",
+   "textbook_ref": "kegy210.txt condensation and precipitation sections",
+   "question_patterns": [
+    "describe the forms of condensation near the ground and in air",
+    "classify clouds by height and form",
+    "explain orographic and frontal rainfall with diagrams",
+    "what is the rain shadow effect",
+    "differentiate rainfall snowfall sleet and hail",
+    "state the conditions necessary for precipitation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  },
+  {
+   "id": "kegy.210.3.1",
+   "title": "Water Balance and the Importance of Atmospheric Moisture",
+   "section": "Water in the atmosphere",
+   "definition": "Atmospheric moisture links evaporation from oceans and lands with precipitation over land, forming the water balance that feeds rivers, lakes and groundwater, and the timing of this moisture delivery decides agriculture, water supply and flood risk.",
+   "formula": "",
+   "key_idea": "Only about one per cent of the hydrosphere is atmospheric water, yet it renews the entire land freshwater supply through continuous cycling.",
+   "textbook_ref": "kegy210.txt water balance sections",
+   "question_patterns": [
+    "explain the water balance of the earth",
+    "what share of the hydrosphere is atmospheric water",
+    "how does atmospheric moisture reach the land as fresh water",
+    "relate humidity to the water needs of crops",
+    "state the importance of precipitation timing for farmers",
+    "how does evaporation from oceans feed the continents"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the feature or process",
+     "explain": "Note the defining elements of the topic in the question."
+    },
+    {
+     "step": 2,
+     "action": "relate to the chapter details",
+     "explain": "Match the elements with the chapter's description and examples."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Summarise the answer with key terms and examples."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kegy210.txt humidity section",
+   "concept": "kegy.210.1.1",
+   "question_type": "compute_relative_humidity",
+   "question_pattern": "At a given temperature the air holds {actual_vapour} grams of vapour per cubic metre while the saturation capacity is {saturation_vapour} grams. Calculate the relative humidity.",
+   "extracted_variables": {
+    "actual_vapour": 10,
+    "saturation_vapour": 20
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide actual by saturation vapour",
+     "explain": "Divide the actual water vapour by the saturation vapour at the same temperature and multiply by 100 to get the relative humidity",
+     "compute": "relative_humidity = actual_vapour / saturation_vapour * 100"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kegy210.txt humidity section",
+   "concept": "kegy.210.1.1",
+   "question_type": "compute_relative_humidity",
+   "question_pattern": "An air sample contains {actual_vapour} grams of water vapour when saturation would need {saturation_vapour} grams. Work out the relative humidity in per cent.",
+   "extracted_variables": {
+    "actual_vapour": 6,
+    "saturation_vapour": 15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide actual by saturation vapour",
+     "explain": "Divide the actual water vapour by the saturation vapour at the same temperature and multiply by 100 to get the relative humidity",
+     "compute": "relative_humidity = actual_vapour / saturation_vapour * 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kegy210.txt exercises",
+   "questions": [
+    "Multiple choice on humidity and precipitation.",
+    "Define absolute humidity and relative humidity.",
+    "Describe the forms of condensation.",
+    "Explain the types of rainfall with diagrams.",
+    "What is the rain shadow effect? Give an Indian example."
+   ]
+  }
+ ]
+}

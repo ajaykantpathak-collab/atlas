@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_08_007",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_08_007",
+   "title": "c12_bio_cbse_08_007",
+   "questions": [
+    {
+     "q": "A patient has a tumor originating from the epithelial lining of the bronchus. What is the histological classification of this cancer, and why is it NOT classified as a sarcoma?",
+     "a": "The cancer is a carcinoma because it arises from epithelial tissue (bronchial lining). Sarcomas originate from mesenchymal connective tissues (bone, cartilage, fat, muscle). A wrong answer (e.g., calling it sarcoma) reveals the student confuses germ layer origins: carcinomas = ectoderm/endoderm derivatives (epithelia), sarcomas = mesoderm derivatives (connective tissues).",
+     "self_check": true
+    },
+    {
+     "q": "Why does a single mutation in a proto-oncogene (e.g., RAS) usually NOT cause cancer, whereas a single mutation in one allele of a tumor suppressor gene (e.g., TP53) can predispose to cancer but still requires a second hit?",
+     "a": "Proto-oncogenes are dominant at cellular level: gain-of-function mutation in one allele produces hyperactive protein that drives proliferation, but cells have redundant controls (checkpoints, tumor suppressors) that can still restrain it. Tumor suppressors are recessive at cellular level: one functional allele often produces enough protein for normal function (haplosufficiency), so the first hit creates a predisposition; the second hit (loss of heterozygosity) eliminates the remaining functional copy, removing the brake entirely. A wrong answer (e.g., \"both need two hits\") shows misunderstanding of dominance/recessiveness at the cellular phenotype level vs. organismal inheritance.",
+     "self_check": true
+    },
+    {
+     "q": "A 45-year-old construction worker with 20 years of asbestos exposure develops a malignant tumor of the pleural lining. Identify the cancer type, the carcinogen category, and explain the mechanism by which asbestos causes DNA damage despite being physically inert.",
+     "a": "Cancer type: Mesothelioma (a sarcoma, as pleura is mesothelial connective tissue). Carcinogen category: Physical carcinogen (fibrous mineral). Mechanism: Asbestos fibers are phagocytosed by macrophages but cannot be digested, causing chronic inflammation, ROS production, and frustrated phagocytosis → oxidative DNA damage and chromosomal instability. A wrong answer (e.g., calling it carcinoma or chemical carcinogen) reveals confusion between tissue classification and carcinogen classification, or ignorance of the inflammation-mediated genotoxicity of physical fibers.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the hereditary cancer syndrome retinoblastoma (RB1 gene) with sporadic retinoblastoma in terms of mutation number, age of onset, laterality, and transmission to offspring.",
+     "a": "Hereditary: Germline mutation in one RB1 allele (first hit) present in all cells → only one somatic second hit needed → early onset (infancy), often bilateral/multifocal, autosomal dominant transmission. Sporadic: Two somatic hits required in same retinal cell → later onset (toddler), usually unilateral, not transmitted. A wrong answer (e.g., \"hereditary means both hits inherited\") shows failure to grasp Knudson's two-hit model: the first hit is inherited, the second is somatic.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since HPV causes cervical cancer, vaccinating all girls against HPV will eliminate cervical cancer completely.\" Provide two biological reasons why this is an overstatement.",
+     "a": "Overstatement because: (1) HPV vaccines cover only high-risk types (16, 18, etc.) but not all oncogenic HPV types; (2) Cervical cancer can also arise from non-HPV causes (e.g., other carcinogens, rare genetic syndromes); (3) Vaccine efficacy requires administration before exposure, and coverage/compliance is never 100%. A wrong answer (e.g., \"HPV is the only cause\") reveals ignorance of multifactorial carcinogenesis and incomplete vaccine coverage.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using Ames test principle to determine if a newly synthesized food additive is mutagenic (and thus potentially carcinogenic). Specify the bacterial strain, the metabolic activation system, and the endpoint measured.",
+     "a": "Use Salmonella typhimurium his⁻ strain (cannot synthesize histidine). Expose bacteria to additive ± rat liver S9 fraction (provides mammalian metabolic activation to convert pro-mutagens to mutagens). Plate on histidine-free medium. Count revertant his⁺ colonies. Significant increase over spontaneous revertants indicates mutagenicity. A poor answer (omitting S9 fraction or using wrong strain) shows lack of understanding that many carcinogens are pro-carcinogens requiring metabolic activation, and that Ames test detects reverse mutation, not forward mutation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

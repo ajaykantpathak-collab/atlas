@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch02_010",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch02_010",
+   "title": "c7_physics_ch02_010",
+   "questions": [
+    {
+     "q": "Which of the following is a classic example of an electrical insulator commonly used to cover electrical wires? (a) Copper (b) Aluminum (c) Rubber (d) Iron",
+     "a": "The correct answer is (c) Rubber. Rubber is an insulator because it restricts the movement of electric charges, protecting us from shocks. A wrong answer shows that the student is confusing electrical conductors (metals like copper, aluminum, and iron) with insulating materials.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a plastic ruler prevent current from flowing through it even when connected across an active electric cell? (a) It contains too many free electrons (b) Its electrons are tightly bound to atoms and cannot move freely (c) It has zero resistance (d) It generates its own magnetic field",
+     "a": "The correct answer is (b). Insulators have tightly bound electrons that cannot drift through the material to form an electric current. Choosing (a) or (c) reveals a misconception that insulators facilitate or ignore current rather than actively blocking it due to high atomic bonding.",
+     "self_check": true
+    },
+    {
+     "q": "A student tests a dry wooden block in a circuit containing a 3 V battery and a small bulb. The bulb does not glow. If the resistance of dry wood is measured to be $1,000,000 \\ \\Omega$, calculate the current flowing through the wood when connected across 3 V using Ohm's Law ($I = \\frac{V}{R}$).",
+     "a": "Steps: \n1. Identify given values: Voltage $V = 3 \\text{ V}$, Resistance $R = 1,000,000 \\ \\Omega$.\n2. Write down the formula: $I = \\frac{V}{R}$.\n3. Substitute values with units: $I = \\frac{3 \\text{ V}}{1,000,000 \\ \\Omega}$.\n4. Compute and track units: $I = 0.000003 \\text{ A}$ (or $3 \\times 10^{-6} \\text{ A}$).\n5. Verify answer: The current is practically zero, which explains why the bulb does not glow. \nA wrong answer indicates confusion in dividing by large numbers of zeros or failing to convert resistance units properly.",
+     "self_check": true
+    },
+    {
+     "q": "An electrician wears thick rubber gloves while repairing a live power line. Compare what would happen if the electrician wore wet cotton gloves instead.",
+     "a": "The correct answer is that dry rubber gloves act as strong insulators and block current from passing through the electrician's body to the ground. Wet cotton gloves contain moisture and dissolved minerals that make them conductive, allowing a dangerous electric current to pass through. A wrong answer shows the student does not realize that water and impurities can turn normally safe or semi-insulating materials into conductors.",
+     "self_check": true
+    },
+    {
+     "q": "Your friend argues: \"Glass is a great insulator, so a thick glass sheet can block any amount of electricity forever, no matter how high the voltage is.\" Is this statement scientifically accurate? Evaluate why or why not.",
+     "a": "The statement is false. While glass is an excellent insulator under normal conditions, if the voltage applied across it becomes excessively high, it can experience \"dielectric breakdown,\" forcing electrons free and causing the glass to conduct electricity or shatter. A wrong answer shows a belief that insulators are infinitely resistant under all imaginable physical extremes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple school-lab experiment using a battery, a bulb, wire, and a wooden board to test whether pencil lead (graphite) behaves like an insulator or a conductor.",
+     "a": "A good response should describe setting up a series circuit with a testing gap, placing the pencil lead across the gap, and observing if the bulb glows (it does, because graphite conducts electricity, proving not all non-metals are insulators). A poor answer suggests just looking at the pencil or confusing wood with graphite.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

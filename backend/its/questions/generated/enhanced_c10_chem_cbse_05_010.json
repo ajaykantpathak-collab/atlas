@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_05_010",
+   "title": "c10_chem_cbse_05_010",
+   "questions": [
+    {
+     "q": "Define electronegativity and state its trend across Period 3 from Na to Cl.",
+     "a": "Electronegativity is the ability of a bonded atom to attract the shared electron pair; it increases from Na to Cl across Period 3. A wrong answer that says electronegativity decreases across a period reveals confusion between atomic size trend (which decreases) and electronegativity trend, or misunderstanding that greater nuclear charge increases pull on bonding electrons.",
+     "self_check": true
+    },
+    {
+     "q": "Why is Al₂O₃ amphoteric while Na₂O is basic and Cl₂O₇ is acidic? Explain using electronegativity and charge density.",
+     "a": "Al has intermediate electronegativity (1.61) and high charge density (Al³⁺ small size, +3 charge) so it polarises the O–H bond in Al(OH)₃ enough to donate H⁺ (acidic) but not so strongly that it cannot accept OH⁻ (basic). Na has low electronegativity (0.93) and low charge density (Na⁺ large, +1) so Na₂O forms strongly basic NaOH. Cl has high electronegativity (3.16) and forms covalent Cl₂O₇ which hydrolyses to strong acid HClO₄. A wrong answer that only cites \"metallic character\" without linking to electronegativity and charge density shows superficial memorisation without mechanistic understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Predict the nature of the oxide of an element X (atomic number 14) and write the balanced chemical equation for its reaction with (a) NaOH and (b) HF. Identify the products.",
+     "a": "Element X is Si (Group 14, Period 3). SiO₂ is acidic (non-metal oxide).\n(a) SiO₂ + 2NaOH → Na₂SiO₃ + H₂O (sodium silicate)\n(b) SiO₂ + 4HF → SiF₄ + 2H₂O (silicon tetrafluoride gas)\nA wrong answer writing SiO₂ + 2HCl → SiCl₄ + H₂O reveals the misconception that all acids react with acidic oxides; HF is needed because F⁻ forms strong Si–F bonds, while Cl⁻ does not. Missing the state of SiF₄ (gas) loses a mark in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the acidic strength of the hydrated oxides of Period 3 elements: Na₂O, MgO, Al₂O₃, SiO₂, P₄O₁₀, SO₂, Cl₂O₇. Arrange them in increasing order of acidic character and justify the trend using electronegativity and oxidation state.",
+     "a": "Increasing acidic character: Na₂O (strongly basic) < MgO (basic) < Al₂O₃ (amphoteric) < SiO₂ (weakly acidic) < P₄O₁₀ (acidic) < SO₂ (acidic) < Cl₂O₇ (strongly acidic). Justification: Electronegativity increases left to right, and oxidation state of the element in its highest oxide also increases (+1 to +7), both increasing polarisation of the O–H bond in the hydrated oxide, making H⁺ release easier. A wrong answer that ignores oxidation state (e.g., says SO₂ more acidic than P₄O₁₀ because S more electronegative than P) misses that P is +5 and S is +4 in these oxides; the combined effect decides acidity.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"CO is a neutral oxide because carbon has electronegativity 2.55 and oxygen 3.44, so the bond is non-polar.\" Evaluate this statement and correct it.",
+     "a": "The statement is incorrect. CO has a polar covalent bond (ΔEN = 0.89), but it is neutral because it does not react with water to form an acid or base; it is not an acidic or basic anhydride. Neutral oxides (CO, N₂O, NO) have low oxidation states and do not hydrolyse. The student confuses bond polarity with oxide nature. A wrong answer that says \"CO is acidic because C is less electronegative\" shows misunderstanding that oxide nature depends on hydrolysis behaviour, not just electronegativity difference.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory experiment to distinguish between three unlabelled solid oxides: MgO, Al₂O₃, and SO₃ (solid at low temperature). List reagents, observations, and conclusions.",
+     "a": "Reagents: dilute HCl, dilute NaOH, water, pH paper.\nProcedure:\n1. Add water to each oxide, test pH of resulting mixture.\n   - MgO: pH > 7 (basic, forms Mg(OH)₂ slightly soluble)\n   - Al₂O₃: pH ≈ 7 (insoluble, no reaction)\n   - SO₃: pH < 1 (vigorous reaction, forms H₂SO₄)\n2. For the water-insoluble residue (Al₂O₃), add HCl → dissolves (forms AlCl₃); add NaOH → dissolves (forms NaAlO₂). MgO dissolves only in HCl. SO₃ already reacted.\nConclusion: MgO basic, Al₂O₃ amphoteric, SO₃ acidic.\nA poor answer that only uses litmus paper on dry oxides fails because solid oxides don't change litmus; they must be tested in aqueous medium or with acid/base.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

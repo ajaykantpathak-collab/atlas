@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_11_008",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_11_008",
+   "title": "c11_hs_cbse_11_008",
+   "questions": [
+    {
+     "q": "Define the term 'surfactant' and write the word equation for the saponification reaction that produces soap.",
+     "a": "A surfactant is a surface-active agent that reduces the surface tension of water; it has a hydrophilic head and a hydrophobic tail. Saponification: Fat/Oil + Alkali (NaOH/KOH) → Soap (fatty acid salt) + Glycerol. A wrong answer (e.g., 'surfactant is a detergent' or missing glycerol) reveals the student cannot distinguish the general class from a specific example or recall the by-product of the reaction.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why soap forms a greyish scum when used in hard water, whereas a synthetic detergent does not.",
+     "a": "Hard water contains Ca²⁺/Mg²⁺ ions that react with soap's carboxylate head to form insoluble calcium/magnesium salts (scum), wasting soap and depositing on fabric. Synthetic detergents have sulfonate or sulfate heads that form soluble salts with these ions, so they remain effective. If a student says 'detergents don't react with hard water' without specifying soluble salts, they miss the chemical reason and confuse 'no reaction' with 'soluble reaction product'.",
+     "self_check": true
+    },
+    {
+     "q": "You have a white cotton bedsheet stained with cooking oil and your home receives hard water (high Ca²⁺). Choose between soap powder and a synthetic detergent powder. Justify your choice in three sentences.",
+     "a": "Choose synthetic detergent. In hard water, soap will precipitate as calcium stearate scum, reducing cleaning power and leaving grey deposits on the white sheet. Synthetic detergent's sulfonate groups stay soluble, maintain emulsification, and often contain builders (e.g., zeolites) that sequester hardness ions. A wrong choice (soap) or missing the builder role shows inability to apply hard-water chemistry to a real laundry decision.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the environmental impact of traditional soaps and early phosphate-based detergents versus modern phosphate-free detergents, focusing on biodegradability and eutrophication.",
+     "a": "Traditional soaps are fully biodegradable but inefficient in hard water. Early phosphate detergents resisted biodegradation and released phosphates into waterways, causing algal blooms and eutrophication. Modern phosphate-free detergents use biodegradable surfactants and alternative builders (zeolites, citrates) that minimise eutrophication. A student who claims 'all detergents are non-biodegradable' holds an outdated misconception ignoring reformulations since the 1980s.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"For delicate silk fabrics, soap is always gentler and better than detergent because it is natural.\"",
+     "a": "The statement is flawed. Silk is damaged by alkalinity; traditional soaps are alkaline (pH 9-10) due to excess alkali or hydrolysis, while modern detergents for delicates are formulated at neutral pH (6-7) with mild surfactants. 'Natural' does not guarantee fabric safety. A student agreeing reveals confusion between 'natural origin' and 'pH suitability', ignoring that silk care labels explicitly recommend neutral pH detergents.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple home experiment to demonstrate that detergent works in hard water while soap fails, using only household materials (tap water, Epsom salt, soap bar, liquid detergent, two identical glass jars, cooking oil).",
+     "a": "1. Fill two jars with 200 mL tap water. Add 1 tsp Epsom salt (MgSO₄) to each to simulate hard water. 2. Add 5 drops cooking oil to each jar. 3. Grate ~1 g soap into Jar A; add 1 mL liquid detergent to Jar B. 4. Shake both vigorously for 30 seconds. 5. Observe: Jar A shows poor emulsification, visible scum, oil separates quickly; Jar B forms stable milky emulsion (micelles) with no scum. A poor design omits the hardness control or uses unequal surfactant amounts, failing to isolate the variable.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_01_005",
+   "title": "c11_bs_cbse_01_005",
+   "questions": [
+    {
+     "q": "Name the two sub-categories of primary industries and give one example of each.",
+     "a": "The two sub-categories are extractive industries (e.g., mining, farming, fishing) and genetic industries (e.g., seed and nursery companies, cattle breeding farms, poultry farms, fish hatcheries). A wrong answer that lists 'manufacturing' or 'banking' as primary sub-categories reveals confusion between primary and secondary/tertiary activities, indicating the student cannot distinguish extraction/reproduction from processing/services.",
+     "self_check": true
+    },
+    {
+     "q": "A student says, \"A company that builds dams and bridges is a manufacturing industry because it makes things.\" Explain why this classification is incorrect and state the correct category with reasoning.",
+     "a": "Construction industries (building dams, bridges, roads) are a separate sub-category of secondary industries, distinct from manufacturing industries. Manufacturing creates form utility by processing raw materials into goods (e.g., steel from iron ore), while construction creates immovable infrastructure using engineering/architectural skills. A wrong answer that calls it manufacturing shows the student misses the distinction between producing movable goods and creating fixed assets, a common board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following activities into primary, secondary, or tertiary industry with justification: (a) A fish hatchery supplying fingerlings to farmers, (b) An oil refinery separating crude oil into petrol, diesel, and kerosene, (c) A cold storage facility storing apples for off-season sale.",
+     "a": "(a) Primary - genetic industry (breeding/reproduction of living organisms). (b) Secondary - manufacturing, specifically analytical industry (separates elements from same material). (c) Tertiary - warehousing (creates time utility, supports trade). A wrong classification of (b) as 'primary because it uses crude oil' reveals the student thinks any use of natural resources is primary, missing the processing aspect. Misclassifying (c) as secondary shows confusion between producing goods and providing storage services.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast extractive industries and genetic industries on the basis of: (i) source of output, (ii) renewability of resources, (iii) typical examples. Present in a table.",
+     "a": "| Basis | Extractive Industries | Genetic Industries |\n|-------|----------------------|-------------------|\n| Source of output | Natural deposits/environment (coal, timber, fish) | Living organisms (plants, animals) bred/reared |\n| Renewability | Mostly non-renewable (minerals) or slowly renewable (forests) | Renewable through reproduction cycles |\n| Examples | Mining, lumbering, hunting, fishing | Seed/nursery, cattle breeding, poultry, fish hatchery |\n\nA wrong answer that lists farming under extractive (it's genetic when scientifically managed) or mining under genetic reveals fundamental confusion about the definition of 'reproduction and development of living organisms' vs 'drawing products from natural sources'.",
+     "self_check": true
+    },
+    {
+     "q": "\"Tertiary industries are not real industries because they don't produce tangible goods.\" Evaluate this statement with three arguments from the NCERT framework.",
+     "a": "The statement is false. Three arguments: (1) NCERT explicitly classifies tertiary as industries providing 'support services to primary and secondary industries as well as activities relating to trade'. (2) They remove hindrances of place (transport), time (warehousing), risk (insurance), finance (banking), and information (advertising) - essential for production and exchange. (3) Banking, insurance, and transport are referred to as 'banking industry', 'insurance industry' in common parlance. A student agreeing with the statement shows a narrow 'factory-only' view of industry, ignoring the service-facility role defined in the textbook.",
+     "self_check": true
+    },
+    {
+     "q": "Create a flowchart showing the journey of cotton from farm to a retail shirt, labeling each stage with the correct industry type (primary/secondary/tertiary) and sub-type. Include at least 5 stages.",
+     "a": "Flowchart: Cotton farming (Primary - Genetic) → Ginning (Secondary - Manufacturing: Processing) → Spinning/Weaving (Secondary - Manufacturing: Processing) → Garment stitching (Secondary - Manufacturing: Assembling) → Transport to warehouse (Tertiary - Transport) → Warehousing (Tertiary - Warehousing) → Retail shop (Tertiary - Trade). A poor answer that misses sub-types (e.g., just says 'secondary' for all factory steps) or omits tertiary stages shows inability to apply the detailed classification to a real value chain.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

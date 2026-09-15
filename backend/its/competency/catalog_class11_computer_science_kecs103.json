@@ -1,0 +1,357 @@
+{
+ "class": 11,
+ "subject": "computer_science",
+ "chapter": 3,
+ "chapter_title": "Emerging Trends",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kecs103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kecs103.1",
+   "title": "Machine Learning Model Accuracy",
+   "section": "3.2.1",
+   "definition": "Machine learning is the branch of artificial intelligence where a program builds its own model from example data instead of following hand-written rules; after training, the model is scored by the share of test cases it gets right.",
+   "formula": "accuracy_pct = correct / total * 100",
+   "key_idea": "A model earns trust only when its score on unseen testing data crosses the accepted accuracy bar.",
+   "textbook_ref": "kecs103.txt, section 3.2.1",
+   "question_patterns": [
+    "A trained model answered 92 of 100 test cases correctly. Find its accuracy percentage.",
+    "Out of 250 predictions a model made, 30 were wrong. Compute the accuracy in percent.",
+    "How does machine learning differ from ordinary programming?",
+    "Why is a model tested on separate testing data after training?",
+    "A spam filter reaches 97 percent accuracy on 500 mails. How many mails did it classify correctly?",
+    "Name two everyday applications powered by machine learning."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find the correct share",
+     "explain": "Divide the correct predictions by all predictions made.",
+     "compute": "correct_share = correct / total"
+    },
+    {
+     "step": 2,
+     "action": "express as a percentage",
+     "explain": "Multiply the share by 100 to report accuracy.",
+     "compute": "accuracy_pct = correct_share * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A trained model gets 45 test cases right out of 50. What is its accuracy in percent?",
+     "a": "90 percent"
+    }
+   ]
+  },
+  {
+   "id": "kecs103.2",
+   "title": "Five Characteristics of Big Data",
+   "section": "3.3.1",
+   "definition": "Datasets too bulky or messy for ordinary database tools are called big data; they are judged on five traits: sheer volume, speed of arrival (velocity), mix of formats (variety), trustworthiness (veracity) and the useful knowledge hidden inside (value).",
+   "formula": "judge(data) on volume, velocity, variety, veracity, value",
+   "key_idea": "Volume alone is not enough; how fast data arrives, how mixed and how reliable it is decides whether it is truly big data.",
+   "textbook_ref": "kecs103.txt, section 3.3.1 and Figure 3.9",
+   "question_patterns": [
+    "List the five characteristics of big data and explain any two.",
+    "A hospital stream gains sensor readings every millisecond. Which characteristic of big data does this rate illustrate?",
+    "Photos, tweets and tables mixed in one dataset illustrate which trait of big data?",
+    "What does veracity tell us about a dataset?",
+    "Why might a huge dataset still be worthless to a business?",
+    "Why can conventional DBMS tools fail on big data?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the dataset against the five traits",
+     "explain": "Estimate its size, arrival rate, format mix and reliability, and look for hidden patterns that would repay the processing cost."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which of the five big-data traits describes the speed at which data arrives?",
+     "a": "velocity"
+    }
+   ]
+  },
+  {
+   "id": "kecs103.3",
+   "title": "Sizing Daily Big Data Generation",
+   "section": "3.3",
+   "definition": "Web users, phones and connected gadgets produce data on a colossal scale each day; expressing the daily flood in familiar storage units shows why special processing systems are needed.",
+   "formula": "exabytes_per_day = daily_bytes / 1024 ** 6",
+   "key_idea": "Roughly 2.5 quintillion bytes arise every day, which is a few exabytes and far beyond a single machine.",
+   "textbook_ref": "kecs103.txt, section 3.3 and Figure 3.8",
+   "question_patterns": [
+    "About 2.5 quintillion bytes of data appear every day. Express this figure in bytes.",
+    "Convert a daily generation of 2.5 quintillion bytes into exabytes.",
+    "One exabyte equals 1024 to the power 6 bytes. How many exabytes do 2.5 quintillion bytes make?",
+    "Why is the daily volume of Internet data described as colossal?",
+    "Estimate the data created in a week if 2.5 quintillion bytes arrive each day."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "expand quintillions into bytes",
+     "explain": "One quintillion is 10 raised to 18.",
+     "compute": "bytes_per_day = quintillions * 10 ** 18"
+    },
+    {
+     "step": 2,
+     "action": "divide by the exabyte size",
+     "explain": "An exabyte is 1024 to the power 6 bytes.",
+     "compute": "exabytes_per_day = bytes_per_day / 1024 ** 6"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "About 2.5 quintillion bytes arise worldwide each day. How many exabytes is that? (1 exabyte = 10^18 bytes.)",
+     "a": "2.5 exabytes"
+    }
+   ]
+  },
+  {
+   "id": "kecs103.4",
+   "title": "Web of Things Single Interface",
+   "section": "3.4.1",
+   "definition": "The Internet of Things links everyday gadgets so they can exchange data, while its Web of Things extension lets one browser-based interface operate them all, instead of forcing a separate app for every device.",
+   "formula": "apps_avoided = devices * apps_per_device - 1",
+   "key_idea": "Moving control onto the web collapses a pile of device-specific apps into one interface.",
+   "textbook_ref": "kecs103.txt, sections 3.4 and 3.4.1",
+   "question_patterns": [
+    "A smart home has 10 devices, each needing its own app. Moving to a Web of Things interface, how many apps are avoided?",
+    "Define the Internet of Things in your own words and give two applications.",
+    "How are IoT and WoT related to each other?",
+    "A user handles 8 gadgets, each with one dedicated app, then switches to a single web interface. How many app installations disappear?",
+    "Give two examples of household devices that can join an IoT network.",
+    "Why is one common interface more convenient than separate apps for every gadget?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the device-specific apps",
+     "explain": "Each gadget needs its own app today.",
+     "compute": "apps_needed = devices * apps_per_device"
+    },
+    {
+     "step": 2,
+     "action": "compare with the single interface",
+     "explain": "One web interface replaces the whole pile, so subtract 1.",
+     "compute": "apps_avoided = apps_needed - 1"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Four smart devices each need their own app today. Under a Web of Things interface, how many apps are needed in total?",
+     "a": "1"
+    }
+   ]
+  },
+  {
+   "id": "kecs103.5",
+   "title": "Sensors and Smart Cities",
+   "section": "3.4.2",
+   "definition": "A sensor samples the physical world, such as motion, tilt or tremors, and a smart sensor adds on-board computing so it can process readings before passing them on; city infrastructure stitches such sensors into services like quake-warning buildings and self-reporting bridges.",
+   "formula": "sense(input) -> process -> alert",
+   "key_idea": "Accelerometers detect orientation and gyroscopes add rotation detail, which is how a phone flips its display.",
+   "textbook_ref": "kecs103.txt, sections 3.4.2 and 3.4.3",
+   "question_patterns": [
+    "Which two sensors let a smartphone know it has been rotated?",
+    "How does a smart sensor differ from a plain sensor?",
+    "A smart bridge spots a loose bolt. Describe the chain from sensing to alert.",
+    "List three city services that a smart city could manage with networked sensors.",
+    "What happens inside a phone when you turn it from vertical to horizontal?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the sensing pipeline",
+     "explain": "Input arrives from the environment, built-in computing interprets it against predefined rules, and only then is a processed alert or command passed onward."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which sensor detects orientation change so a phone can rotate its display?",
+     "a": "accelerometer"
+    }
+   ]
+  },
+  {
+   "id": "kecs103.6",
+   "title": "Pay-per-use Cloud Billing",
+   "section": "3.5.1",
+   "definition": "Cloud computing rents software, platforms or raw infrastructure over the Internet, and providers bill usage the way an electricity board does: the longer or heavier you use a resource, the more you pay.",
+   "formula": "monthly_cost = hours_used * rate_per_hour",
+   "key_idea": "On-demand billing spares a new organisation from buying servers before it earns revenue.",
+   "textbook_ref": "kecs103.txt, section 3.5 and 3.5.1",
+   "question_patterns": [
+    "A startup rents cloud servers for 400 hours at 8 rupees per hour. Compute the monthly bill.",
+    "Why is cloud computing compared with paying for electricity?",
+    "A team uses a cloud machine for 120 hours in a month at 10 rupees per hour. What amount is payable?",
+    "Distinguish IaaS, PaaS and SaaS with one example of each.",
+    "How does cloud storage of data save cost and time for an organisation?",
+    "A service bills 5 rupees per hour and is used 300 hours. Find the charge, then the yearly cost if usage stays the same."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "charge the hours used",
+     "explain": "Multiply the metered hours by the hourly rate.",
+     "compute": "monthly_cost = hours_used * rate_per_hour"
+    },
+    {
+     "step": 2,
+     "action": "project the yearly cost",
+     "explain": "Repeat the same monthly spend for twelve months.",
+     "compute": "annual_cost = monthly_cost * 12"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A cloud virtual machine costs Rs 5 per hour and runs 720 hours in a month. What is the month's bill in rupees?",
+     "a": "3600"
+    }
+   ]
+  },
+  {
+   "id": "kecs103.7",
+   "title": "Grid Computing Parallel Speedup",
+   "section": "3.6",
+   "definition": "A grid welds geographically scattered computers, called nodes, into a virtual supercomputer for one large job; splitting the job evenly lets the nodes work simultaneously, so the waiting time shrinks by roughly the node count.",
+   "formula": "time_saved = task_hours - task_hours / nodes",
+   "key_idea": "Unlike cloud, which sells services, a grid pools volunteered nodes for a single application-specific goal.",
+   "textbook_ref": "kecs103.txt, section 3.6",
+   "question_patterns": [
+    "A 100-hour computation is split evenly over 10 grid nodes. How many hours does the job take, and how many are saved?",
+    "How does grid computing differ from cloud computing?",
+    "A research task of 48 hours divides across 8 nodes. Compute the parallel completion time.",
+    "What is a node in a grid, and what is a data grid used for?",
+    "Why is a grid called a virtual supercomputer?",
+    "Name the middleware-based toolkit mentioned for building grids."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "share the work equally",
+     "explain": "Divide the total job hours by the number of nodes.",
+     "compute": "subtask_hours = task_hours / nodes"
+    },
+    {
+     "step": 2,
+     "action": "measure the gain",
+     "explain": "Hours saved equal the solo time minus the parallel time.",
+     "compute": "time_saved = task_hours - subtask_hours"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A grid of 10 identical nodes splits a 100-hour job evenly. Roughly how many hours does the job take?",
+     "a": "10 hours"
+    }
+   ]
+  },
+  {
+   "id": "kecs103.8",
+   "title": "Blockchain Decentralised Ledger",
+   "section": "3.7",
+   "definition": "A blockchain keeps one shared ledger on every participating computer instead of one central database; verified transactions are packed into blocks that append to the chain, so no single member can quietly rewrite history.",
+   "formula": "new_block -> all nodes verify -> chain grows",
+   "key_idea": "The append-only design means an entry becomes final only when every node authenticates it.",
+   "textbook_ref": "kecs103.txt, section 3.7 and Figure 3.14",
+   "question_patterns": [
+    "Why is data safer in a blockchain than in a centralised database?",
+    "Explain the phrase append-only ledger used for blockchains.",
+    "A transaction is requested on a blockchain network. List the steps until it is complete.",
+    "Suggest two areas, besides digital currency, where blockchain could improve transparency.",
+    "How can blockchain make scholarship distribution accountable?",
+    "What does each participating computer hold in a blockchain system?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "follow a transaction through the chain",
+     "explain": "A request is broadcast to every node, each node checks it, and only after full agreement does the new block join the shared chain."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "In a blockchain, verified transactions are packed into what before being appended?",
+     "a": "blocks"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "kecs103.we1",
+   "title": "Accuracy of a photo-tagging model",
+   "concept_id": "kecs103.1",
+   "problem": "A face-tagging model is tried on 400 test photos and errs on 12 of them. Find its accuracy percentage.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "count the correct answers",
+     "explain": "Subtract the errors from all trials.",
+     "compute": "correct = 400 - 12"
+    },
+    {
+     "step": 2,
+     "action": "find the correct share",
+     "explain": "Divide correct trials by all trials.",
+     "compute": "correct_share = correct / 400"
+    },
+    {
+     "step": 3,
+     "action": "convert to percent",
+     "explain": "Multiply the share by 100.",
+     "compute": "accuracy_pct = correct_share * 100"
+    }
+   ],
+   "answer_note": "The model scores 97 percent accuracy on the test set."
+  },
+  {
+   "id": "kecs103.we2",
+   "title": "Cloud bill for a small startup",
+   "concept_id": "kecs103.6",
+   "problem": "A five-member startup rents a cloud virtual machine for 320 hours in a month at 6 rupees per hour, and keeps this up all year. Find the monthly and yearly cost.",
+   "steps": [
+    {
+     "step": 1,
+     "action": "bill the month",
+     "explain": "Metered hours times the hourly rate.",
+     "compute": "monthly_cost = 320 * 6"
+    },
+    {
+     "step": 2,
+     "action": "project the year",
+     "explain": "Twelve identical months.",
+     "compute": "annual_cost = monthly_cost * 12"
+    }
+   ],
+   "answer_note": "The startup pays 1920 rupees monthly and 23040 rupees yearly, with no server purchased upfront."
+  }
+ ],
+ "exercises": [
+  {
+   "id": "kecs103.ex1",
+   "source_ref": "NCERT Class 11 Computer Science, Chapter 3 Exercise (items reworded)",
+   "questions": [
+    "What do you understand by the Internet of Things? List some potential applications.",
+    "Write short notes on cloud computing and on big data with its characteristics.",
+    "Differentiate between cloud computing and grid computing with examples.",
+    "A model errs on 18 of 600 test cases. Compute its accuracy percentage.",
+    "A company wants virtual servers and on-demand storage it can combine into a platform for its own applications. Which cloud model fits: IaaS, PaaS or SaaS?",
+    "Suggest how e-textbooks, smart boards and bus-location sensors could turn a school into an IoT-enabled campus.",
+    "Five friends with a small budget want to launch a startup. Explain how cloud services help them.",
+    "How can blockchain technology bring transparency to government scholarship distribution?"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_01_002",
+   "title": "c12_math_cbse_01_002",
+   "questions": [
+    {
+     "q": "State the definition of an equivalence relation on a set A. What three properties must it satisfy?",
+     "a": "An equivalence relation on a set A is a relation R ⊆ A × A that is reflexive, symmetric, and transitive. Reflexive: (a, a) ∈ R ∀ a ∈ A. Symmetric: (a, b) ∈ R ⇒ (b, a) ∈ R ∀ a, b ∈ A. Transitive: (a, b) ∈ R and (b, c) ∈ R ⇒ (a, c) ∈ R ∀ a, b, c ∈ A. A wrong answer (e.g., missing one property or confusing symmetric with transitive) reveals the student has not internalized the precise logical structure — they may think \"equivalence\" means only \"symmetric\" or only \"reflexive and symmetric\", which is a common error that leads to incomplete verifications in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the relation R on the set of integers Z defined by (a, b) ∈ R iff a − b is a multiple of 3. Is R an equivalence relation? Explain why or why not by checking each property.",
+     "a": "Yes, R is an equivalence relation. Reflexive: a − a = 0 = 3·0, so (a, a) ∈ R. Symmetric: if a − b = 3k, then b − a = −3k = 3(−k), so (b, a) ∈ R. Transitive: if a − b = 3k and b − c = 3m, then a − c = (a − b) + (b − c) = 3(k + m), so (a, c) ∈ R. A student who says \"yes\" but cannot show the algebraic step for transitivity (e.g., just says \"it's transitive because multiples of 3 add up\") reveals a gap in writing rigorous proofs — board exams require explicit demonstration that a − c is a multiple of 3 using the given expressions.",
+     "self_check": true
+    },
+    {
+     "q": "Let A = {1, 2, 3, 4, 5, 6}. Define R = {(a, b) ∈ A × A : |a − b| is even}. Determine whether R is an equivalence relation. If yes, find the equivalence class [1] and [2].",
+     "a": "R is an equivalence relation. Reflexive: |a − a| = 0 (even) ⇒ (a, a) ∈ R. Symmetric: |a − b| = |b − a|, so if |a − b| is even then |b − a| is even. Transitive: if |a − b| and |b − c| are even, then a − b and b − c are even ⇒ (a − b) + (b − c) = a − c is even ⇒ |a − c| is even. Equivalence classes: [1] = {1, 3, 5} (all odd numbers), [2] = {2, 4, 6} (all even numbers). A wrong answer where a student claims [1] = {1, 2} or includes 2 in [1] reveals they are not using the definition |a − b| even correctly — they may be confusing \"even difference\" with \"both even\" or \"both odd\" without checking the actual condition.",
+     "self_check": true
+    },
+    {
+     "q": "Let R₁ and R₂ be two equivalence relations on the same set A. Is R₁ ∪ R₂ necessarily an equivalence relation? Is R₁ ∩ R₂ necessarily an equivalence relation? Justify your answers.",
+     "a": "R₁ ∩ R₂ is always an equivalence relation (reflexive, symmetric, transitive properties are preserved under intersection). R₁ ∪ R₂ is NOT necessarily an equivalence relation — it is reflexive and symmetric, but may fail transitivity. Counterexample: A = {1, 2, 3}, R₁ = {(1,1),(2,2),(3,3),(1,2),(2,1)}, R₂ = {(1,1),(2,2),(3,3),(2,3),(3,2)}. Then (1,2) ∈ R₁ ∪ R₂ and (2,3) ∈ R₁ ∪ R₂ but (1,3) ∉ R₁ ∪ R₂. A student who claims both are equivalence relations reveals a misunderstanding of how transitivity behaves under union — they may assume properties are preserved under all set operations, which is a classic competitive exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The relation R = {(1,2), (2,1)} on the set {1,2,3} is symmetric and transitive, so it must be reflexive by the following argument: since (1,2) and (2,1) are in R, by transitivity (1,1) must be in R. Similarly (2,2) ∈ R. And (3,3) is automatically in R because...?\" Identify the flaw in this reasoning.",
+     "a": "The flaw is that transitivity only gives (1,1) and (2,2) because we have pairs involving 1 and 2. There is NO pair involving 3 in R, so we cannot deduce (3,3) ∈ R from symmetry and transitivity alone. Reflexivity requires (a,a) ∈ R for EVERY a ∈ A, including 3. The student's argument incorrectly assumes that symmetry and transitivity imply reflexivity on the whole set — they only imply reflexivity on the subset of elements that appear in some pair of R. This is a well-known fallacy: a symmetric and transitive relation is reflexive only on its domain of definition, not necessarily on the whole set A.",
+     "self_check": true
+    },
+    {
+     "q": "Construct an equivalence relation on the set A = {1, 2, 3, 4, 5, 6} that has exactly three equivalence classes, with class sizes 1, 2, and 3. Write the relation explicitly as a set of ordered pairs.",
+     "a": "One possible partition: {1}, {2, 3}, {4, 5, 6}. The equivalence relation R consists of all pairs within each class: R = {(1,1), (2,2),(2,3),(3,2),(3,3), (4,4),(4,5),(4,6),(5,4),(5,5),(5,6),(6,4),(6,5),(6,6)}. Check: reflexive (all (a,a) present), symmetric (if (a,b) in R then (b,a) in R), transitive (within each class, all pairs are present). A student who produces a relation missing some pairs (e.g., missing (4,6) or (5,4)) reveals they do not understand that an equivalence class must contain ALL pairs between its elements — they may think only adjacent elements are related, confusing equivalence with a partial order or a graph.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_acc_cbse_08_006",
+ "concepts": [
+  {
+   "id": "enh:c11_acc_cbse_08_006",
+   "title": "c11_acc_cbse_08_006",
+   "questions": [
+    {
+     "q": "State whether the following is True or False and justify in one sentence: \"A Balance Sheet shows the financial performance of a business for the year ended March 31, 2024.\"",
+     "a": "**False.** A Balance Sheet shows the *financial position* (assets, liabilities, capital) at a specific *date* (March 31, 2024), not financial performance over a *period*. Financial performance (profit/loss) is shown by the Trading and Profit & Loss Account. A wrong answer reveals the student confuses \"position\" (snapshot) with \"performance\" (video) — a fundamental category error in accounting.",
+     "self_check": true
+    },
+    {
+     "q": "A student prepares a Balance Sheet and writes \"Sales ₹5,00,000\" on the credit side under \"Revenues.\" Another student says Sales should not appear in the Balance Sheet at all. Who is correct and why? Explain the fate of the Sales account during final accounts preparation.",
+     "a": "The second student is correct. Sales is a *revenue* account, not an asset or liability. During closing entries, the Sales account is *closed* by transferring its balance to the Trading Account (credit side). It ceases to exist as a separate ledger balance and therefore cannot appear in the Balance Sheet, which only contains *unclosed* balances (assets, liabilities, capital). A wrong answer reveals the student doesn't understand that the Balance Sheet is composed exclusively of accounts *not* transferred to Trading/P&L.",
+     "self_check": true
+    },
+    {
+     "q": "From the following Trial Balance extracts, identify which items will appear in the Balance Sheet and which will be transferred to Trading/P&L Account. Explain your classification for each:\n- Opening Stock ₹50,000\n- Closing Stock ₹40,000 (not in Trial Balance)\n- Furniture ₹1,20,000\n- Wages ₹80,000\n- Bank Loan ₹2,00,000\n- Commission Received ₹15,000",
+     "a": "**Balance Sheet items:** Furniture (Fixed Asset), Bank Loan (Long-term Liability), Closing Stock (Current Asset — brought in via adjustment entry).\n**Trading/P&L items:** Opening Stock (debit Trading A/c), Wages (debit Trading A/c — direct expense), Commission Received (credit P&L A/c — income).\n**Reasoning:** Opening Stock and Wages are expenses for the period; Commission Received is income for the period. Furniture and Bank Loan are balances carried forward. Closing Stock is an asset *created* at year-end via adjustment entry (Dr. Closing Stock, Cr. Trading A/c). A wrong answer reveals confusion between period expenses/incomes (flow) and year-end balances (stock).",
+     "self_check": true
+    },
+    {
+     "q": "Two students marshall the same Balance Sheet differently. Student A uses Order of Permanence: Land → Building → Machinery → Furniture → Debtors → Cash. Student B uses Order of Liquidity: Cash → Debtors → Furniture → Machinery → Building → Land. The teacher says both are correct. Explain *why* both are acceptable and which stakeholder (banker vs. owner) would prefer which order, with reasoning.",
+     "a": "Both orders are acceptable because marshalling is a *presentation choice*, not a measurement rule — the total assets and liabilities remain identical. **Order of Permanence** (most permanent first) helps the *owner* understand long-term asset structure and capital deployment. **Order of Liquidity** (most liquid first) helps the *banker/creditor* assess short-term repayment capacity (liquidity). A wrong answer reveals the student thinks there's only \"one correct format\" rather than understanding that financial statements serve *different user needs* — a core concept in stakeholder theory (NCERT 8.1).",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Since the Balance Sheet always balances (Assets = Liabilities + Capital), it proves the books are free from errors.\" Provide two specific examples of errors that would *not* be detected by a balancing Balance Sheet.",
+     "a": "The statement is **false**. A balancing Balance Sheet only proves *arithmetical accuracy* of the ledger (debits = credits), not *accounting accuracy*. Two undetected errors: (1) **Error of Principle** — e.g., purchasing machinery (capital expenditure) debited to Purchases Account (revenue expense). Both sides still balance, but assets are understated and expenses overstated. (2) **Compensating Errors** — e.g., Sales overcast by ₹10,000 *and* Purchases overcast by ₹10,000. Gross profit and Balance Sheet totals remain unaffected, but both revenue and expense are wrong. A wrong answer reveals the student equates \"balancing\" with \"correctness\" — a dangerous misconception for auditing.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini Balance Sheet (5 assets, 3 liabilities, capital) for a freelance graphic designer as on March 31, 2024, using *only* these account balances: Cash ₹25,000; Laptop ₹60,000; Client Advances Received ₹15,000; Outstanding Rent ₹8,000; Prepaid Insurance ₹5,000; Accounts Receivable ₹40,000; Capital (opening) ₹1,00,000; Net Profit for year ₹32,000; Drawings ₹20,000. Show marshalling in Order of Liquidity. Calculate and verify the accounting equation.",
+     "a": "**Balance Sheet as on March 31, 2024 (Order of Liquidity)**\n| Liabilities | ₹ | Assets | ₹ |\n|---|---|---|---|\n| Outstanding Rent | 8,000 | Cash | 25,000 |\n| Client Advances Received | 15,000 | Accounts Receivable | 40,000 |\n| Capital (1,00,000 + 32,000 – 20,000) | 1,12,000 | Prepaid Insurance | 5,000 |\n| | | Laptop | 60,000 |\n| **Total** | **1,35,000** | **Total** | **1,35,000** |\n**Verification:** Assets (25,000+40,000+5,000+60,000) = 1,30,000? Wait — 25k+40k+5k+60k = 1,30,000. But Liabilities+Capital = 8k+15k+112k = 1,35,000. **Mismatch!** The student must spot: Prepaid Insurance is an asset (₹5,000), but did we miss something? Recheck: Capital = 1,00,000 + 32,000 – 20,000 = 1,12,000. Total L+C = 1,35,000. Total Assets = 1,30,000. **Error in problem design** — this tests if the student blindly balances or *detects missing data*. A good answer identifies the ₹5,000 gap and suggests a missing asset (e.g., \"Software Licences ₹5,000\") or error in given figures. This reveals whether the student treats the accounting equation as a *check* or a *given*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

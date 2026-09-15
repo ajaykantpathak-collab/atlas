@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_chem_ch01_003",
+ "concepts": [
+  {
+   "id": "enh:c7_chem_ch01_003",
+   "title": "c7_chem_ch01_003",
+   "questions": [
+    {
+     "q": "What is the term used to describe the physical property of metals that allows them to be drawn into thin wires?",
+     "a": "The property is called ductility. A student who answers \"malleability\" is confusing the property of being beaten into thin sheets with the property of being drawn into wires, which are two distinct mechanical properties of metals.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a piece of copper wire bend and stretch without snapping, whereas a piece of graphite pencil lead snaps immediately when you try to pull it?",
+     "a": "Copper is a metal with strong metallic bonds that allow its atomic layers to slide past one another under tensile stress without breaking the overall structure, making it ductile. Graphite is a non-material with brittle covalent interactions that fracture under pulling forces. A wrong answer often assumes all solid objects behave the same way under tension.",
+     "self_check": true
+    },
+    {
+     "q": "An electrician needs to choose a metal for making household electrical wires. Which property—malleability or ductility—is most important for this specific task, and why?",
+     "a": "Ductility is the most important property because it allows the metal to be stretched into long, thin, flexible wires that can be easily routed through conduit pipes in walls. A student who chooses malleability fails to realize that sheets cannot be easily threaded through narrow electrical channels like thin wires can.",
+     "self_check": true
+    },
+    {
+     "q": "If a 10-gram sample of gold can be drawn into a wire that is nearly 2 kilometers long, what does this tell us about the relative ductility of gold compared to iron?",
+     "a": "Gold has an exceptionally high level of ductility compared to most other metals, allowing an extremely small mass to cover a massive linear distance. A student who says iron is more ductile confuses hardness or strength with ductility.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that since sulphur and coal can be hammered or pulled into powder, they must be extremely ductile non-metals. Evaluate this claim.",
+     "a": "The claim is scientifically incorrect because breaking into powder under force indicates brittleness, not ductility. Ductility specifically requires the material to elongate into a wire without fracturing. A wrong answer mistakes crushing or crumbling for stretching.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom observation test to prove whether an iron nail possesses ductility or brittleness.",
+     "a": "A good response would suggest pulling or drawing the iron through specialized industrial dies (or observing how iron wire is manufactured), while noting that striking it with a hammer demonstrates malleability rather than wire-drawing. A poor answer suggests pulling an iron nail with bare hands, which ignores the high tensile strength and thickness of a standard nail.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

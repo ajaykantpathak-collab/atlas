@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_06_004",
+   "title": "c11_math_cbse_06_004",
+   "questions": [
+    {
+     "q": "What is the correct graphical representation on a number line for the inequality 3x - 7 ≥ 2? Describe the circle type and arrow direction.",
+     "a": "Solve algebraically: 3x ≥ 9 → x ≥ 3. On the number line: closed circle at 3 (since ≥ includes 3), arrow pointing right (toward larger numbers). A wrong answer using an open circle reveals the student confuses ≥ with >. A wrong arrow direction reveals they don't understand which side of the boundary satisfies the inequality.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws an open circle at -2 with an arrow pointing left for the inequality -2x > 4. Is this correct? Explain why or why not by solving the inequality first.",
+     "a": "Solving: -2x > 4 → dividing by -2 reverses inequality → x < -2. The student's graph shows x < -2 (open circle at -2, arrow left), which is correct. If a student says it's incorrect because they didn't reverse the inequality sign when dividing by negative, that reveals the critical misconception: forgetting to reverse the inequality sign when multiplying/dividing by a negative number.",
+     "self_check": true
+    },
+    {
+     "q": "Graph the solution set of (5x + 3)/2 ≤ 4 on a number line. Show all algebraic steps and the final graph description.",
+     "a": "Step 1: 5x + 3 ≤ 8 (multiply both sides by 2). Step 2: 5x ≤ 5 (subtract 3). Step 3: x ≤ 1 (divide by 5). Graph: closed circle at 1, arrow pointing left. A wrong answer with open circle reveals confusion between ≤ and <. A wrong answer x ≥ 1 reveals sign reversal error when dividing by positive (no reversal needed) or algebraic mistake.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the graphical representations of 2x + 1 < 5 and 2x + 1 ≤ 5. What is the only difference between the two graphs? Why does this difference matter?",
+     "a": "Both have boundary at x = 2 (solving gives x < 2 and x ≤ 2). The only difference: first has open circle at 2, second has closed circle at 2. This matters because x = 2 satisfies the second inequality (2(2)+1=5 ≤ 5 is true) but not the first (5 < 5 is false). A student who says \"no difference\" or \"different arrow direction\" doesn't understand the meaning of strict vs non-strict inequality.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves -3x + 6 ≤ 0 and gets x ≤ 2, then draws a closed circle at 2 with arrow pointing right. Identify the error(s) and provide the correct graph.",
+     "a": "Solving: -3x ≤ -6 → dividing by -3 reverses sign → x ≥ 2. The student made two errors: (1) forgot to reverse inequality when dividing by -3, (2) drew arrow right for x ≤ 2 (should be left). Correct graph: closed circle at 2, arrow pointing right (x ≥ 2). This exposes the combined misconception of sign reversal and direction interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life situation (Indian context) that leads to a linear inequality in one variable whose graphical solution has an open circle at 15 with arrow pointing left. Write the inequality and explain the scenario.",
+     "a": "Example: \"A Metro train compartment can seat at most 50 passengers. If 35 passengers are already seated, how many more can enter?\" Inequality: 35 + x < 50 → x < 15. Open circle at 15 because exactly 15 more would make 50, but \"at most 50\" means ≤ 50, so x ≤ 15 would be closed circle. Wait — for open circle: \"A lift has a weight limit of 600 kg. 4 people averaging 70 kg each are inside. How many more 65 kg people can enter without exceeding limit?\" 4×70 + 65x < 600 → 280 + 65x < 600 → 65x < 320 → x < 4.92 → x ≤ 4 (integer). Need open circle at non-integer boundary... Better: \"Temperature in Delhi must stay below 40°C for school to remain open. Current temp is 25°C. How much can it rise?\" 25 + x < 40 → x < 15. Open circle at 15, arrow left. A poor answer uses ≤ or integer-only reasoning, missing the strict inequality context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

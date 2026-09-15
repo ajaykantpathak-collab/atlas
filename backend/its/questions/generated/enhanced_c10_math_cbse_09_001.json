@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_09_001",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_09_001",
+   "title": "c10_math_cbse_09_001",
+   "questions": [
+    {
+     "q": "Define the line of sight.",
+     "a": "The line of sight is the straight line drawn from the eye of the observer to the point being viewed (the object). A wrong answer (e.g., \"the horizontal line from the observer\") confuses the line of sight with the reference horizontal line.",
+     "self_check": true
+    },
+    {
+     "q": "Distinguish between the angle of elevation and the angle of depression.",
+     "a": "The angle of elevation is the angle between the line of sight and the horizontal when the object is above the observer's eye level. The angle of depression is the angle between the line of sight and the horizontal when the object is below the observer's eye level. A wrong answer (e.g., \"elevation is looking up, depression is looking down\") is directionally correct but omits the key detail that both are measured from the horizontal.",
+     "self_check": true
+    },
+    {
+     "q": "A student stands 20 m from a building and looks up at a window. She draws the angle from the vertical (not the horizontal). What error has she made?",
+     "a": "The angle of elevation is always measured from the horizontal, not the vertical. By measuring from the vertical, she is measuring the complement of the angle of elevation (90° minus the correct angle). This will lead to incorrect trigonometric ratios. A wrong answer (e.g., \"no error, it doesn't matter\") shows a fundamental misunderstanding of the definition.",
+     "self_check": true
+    },
+    {
+     "q": "In a diagram, an observer on a cliff looks down at a boat. The angle of depression is 30°. What is the angle of elevation of the cliff from the boat's perspective?",
+     "a": "By the alternate interior angles theorem (the horizontal lines at the observer and boat levels are parallel), the angle of elevation from the boat to the cliff top equals the angle of depression from the cliff to the boat: 30°. A wrong answer (e.g., \"150°\" or \"60°\") shows the student does not know the alternate angles property, which is essential for solving two-point problems.",
+     "self_check": true
+    },
+    {
+     "q": "In the right triangle formed by the line of sight, the horizontal distance, and the vertical height, which side is the hypotenuse?",
+     "a": "The line of sight is always the hypotenuse because it is the side opposite the right angle (the angle between the horizontal and vertical). A wrong answer (e.g., \"the horizontal distance\") shows a geometric misconception — the hypotenuse is always opposite the right angle and is the longest side.",
+     "self_check": true
+    },
+    {
+     "q": "A kite is flying at a height of 60 m. The string makes an angle of 60° with the ground. Identify the line of sight, the angle of elevation, and the known and unknown sides.",
+     "a": "Line of sight = the string from the person's hand to the kite. Angle of elevation = 60° (between the string and the ground/horizontal). Known: vertical height (opposite) = 60 m, angle = 60°. Unknown: length of string (hypotenuse). Use sin 60° = opposite/hypotenuse = 60/hypotenuse. A wrong answer (e.g., using tan instead of sin) shows the student cannot identify which sides correspond to which trigonometric ratio.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

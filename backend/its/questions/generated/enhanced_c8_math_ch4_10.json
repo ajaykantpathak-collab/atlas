@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch4_10",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch4_10",
+   "title": "c8_math_ch4_10",
+   "questions": [
+    {
+     "q": "State the property of diagonals in a parallelogram. If ABCD is a parallelogram with diagonals intersecting at O, write the two equalities that describe this property.",
+     "a": "The diagonals bisect each other: AO = OC and BO = OD. A wrong answer (e.g., saying diagonals are equal or perpendicular) reveals confusion with rectangle or rhombus properties. The student has not distinguished the specific property of a general parallelogram.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the triangles formed by one diagonal of a parallelogram are congruent. Which congruence criterion (SSS, SAS, ASA, RHS) applies and why?",
+     "a": "Diagonal AC divides parallelogram ABCD into ΔABC and ΔCDA. AB = CD, BC = DA (opposite sides equal), and AC is common. So ΔABC ≅ ΔCDA by SSS. Alternatively, using alternate interior angles (∠BAC = ∠DCA, ∠BCA = ∠DAC) and common side AC gives ASA. A wrong answer (e.g., choosing SAS without the included angle) shows the student cannot identify the correct equal parts from the parallelogram's properties.",
+     "self_check": true
+    },
+    {
+     "q": "In parallelogram PQRS, diagonals PR and QS intersect at T. If PT = 3x + 2 cm and TR = 5x - 4 cm, find the value of x and the length of diagonal PR.",
+     "a": "Since diagonals bisect each other, PT = TR. So 3x + 2 = 5x - 4 → 2x = 6 → x = 3. Then PT = 3(3)+2 = 11 cm, TR = 11 cm, so PR = 22 cm. A wrong answer (e.g., setting PT + TR = something else) reveals the student does not apply the bisection property to algebraic expressions.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If the diagonals of a quadrilateral bisect each other, the quadrilateral must be a parallelogram.\" Is this statement true? Justify your answer by comparing with the property we just learned.",
+     "a": "Yes, the statement is true. It is the converse of the property: if diagonals bisect each other, the quadrilateral is a parallelogram. This can be proved by showing the triangles formed are congruent (SAS), giving opposite sides equal. A wrong answer (saying it's false or only for special quadrilaterals) shows the student does not understand the biconditional nature of this property.",
+     "self_check": true
+    },
+    {
+     "q": "Rohan drew a quadrilateral with diagonals of lengths 10 cm and 12 cm that intersect at right angles. He says it must be a parallelogram because the diagonals bisect each other at 90°. Evaluate his reasoning.",
+     "a": "Rohan's reasoning is flawed. Diagonals intersecting at right angles does not guarantee they bisect each other; a kite has perpendicular diagonals but only one is bisected. For a parallelogram, we need both diagonals to bisect each other (the intersection point is the midpoint of both). A wrong evaluation (agreeing with Rohan) shows confusion between \"perpendicular\" and \"bisect\" properties.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (using metres or rupees) where the diagonal bisection property of a parallelogram is used to find an unknown length. Write the problem and solve it.",
+     "a": "Example: A parallelogram-shaped plot has diagonals crossing at a well. One diagonal is 40 m long. The distance from the well to one corner along the other diagonal is 15 m. Find the full length of the second diagonal. Solution: The well is the midpoint, so half of second diagonal = 15 m → full length = 30 m. A poor answer (problem doesn't use bisection or uses wrong property) shows inability to transfer the concept to a contextual situation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

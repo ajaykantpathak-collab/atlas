@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_04_011",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_04_011",
+   "title": "c12_biotech_cbse_04_011",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between rational protein design and directed evolution in terms of the initial knowledge required?",
+     "a": "Rational design requires prior knowledge of the protein's 3D structure and structure-function relationships to predict beneficial mutations, whereas directed evolution does not require structural information and instead relies on random mutagenesis followed by screening/selection for desired function. A wrong answer (e.g., \"both require 3D structure\") reveals the student conflates the two approaches and misses the key distinction: rational design is hypothesis-driven, directed evolution is empirical.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to reduce the immunogenicity of a murine monoclonal antibody for human therapy. Explain why simply replacing the murine constant regions with human constant regions (chimerization) may not be sufficient, and what additional engineering step is needed.",
+     "a": "Chimerization retains murine variable regions (VH/VL) which contain framework residues that can be immunogenic (HAMA response). The additional step is humanization: grafting only the complementarity-determining regions (CDRs) onto a human framework, followed by back-mutation of critical framework residues that support CDR conformation. A wrong answer focusing only on constant regions shows misunderstanding of antibody structure — immunogenicity arises from variable region framework, not just constant region.",
+     "self_check": true
+    },
+    {
+     "q": "Given the insulin hexamer structure (PDB: 1ZNJ), you observe that B-chain residues B24 Phe, B25 Tyr, and B26 Tyr form a hydrophobic pocket that stabilizes hexamerization. Propose a single amino acid substitution at B28 (normally Pro) that would introduce electrostatic repulsion to favor dimer/monomer formation, and justify your choice using side-chain properties.",
+     "a": "Substitute B28 Pro with Asp (B28 Pro→Asp). Aspartate introduces a negatively charged carboxylate group at physiological pH, creating charge repulsion with the adjacent B29 Lys (positively charged) and disrupting the hydrophobic packing at the dimer-dimer interface. This mimics the natural mutation in insulin lispro (B28 Lys, B29 Pro) but uses charge repulsion instead of steric reversal. A wrong answer suggesting a hydrophobic substitution (e.g., Leu) would enhance hexamerization, opposite to the goal.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the structural basis of action for insulin glargine (Lantus) and insulin lispro (Humalog). Both are engineered human insulin analogs, but glargine is long-acting while lispro is rapid-acting. Explain how their respective mutations achieve opposite pharmacokinetic effects through distinct molecular mechanisms.",
+     "a": "Insulin lispro (B28 Lys, B29 Pro) reverses the C-terminal B-chain residues, disrupting hydrophobic hexamer interface (B24-B26) via steric hindrance and charge repulsion, favoring rapid monomer/dimer dissociation → fast absorption. Insulin glargine (A21 Asn→Gly, B31 Arg, B32 Arg) adds two basic arginines at B-chain C-terminus, shifting isoelectric point from pH 5.4 to 6.7, causing precipitation at physiological pH (7.4) after subcutaneous injection → slow dissolution → prolonged action. A wrong answer claiming both act by \"changing hexamer stability\" misses the precipitation mechanism unique to glargine.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Rational design of a thermostable enzyme variant can be achieved solely by introducing proline substitutions in loop regions to reduce conformational entropy of the unfolded state.\" Is this always valid? Provide a counterexample where this strategy would fail.",
+     "a": "The statement is NOT always valid. Proline substitutions in loops can reduce unfolded-state entropy, but they may also disrupt essential loop flexibility required for catalysis or substrate binding. Counterexample: In TIM-barrel enzymes, loops at the C-terminal ends of β-strands form the active site; rigidifying these loops with proline can abolish catalytic activity despite increasing thermostability. A student who agrees without qualification fails to consider the trade-off between stability and function — a classic protein engineering pitfall.",
+     "self_check": true
+    },
+    {
+     "q": "Design a rational engineering strategy to create a human growth hormone (hGH) variant with reduced receptor dimerization propensity (to act as an antagonist) while maintaining high-affinity binding to one receptor subunit. Specify the structural data needed, the residues to target, and the validation assays.",
+     "a": "Strategy: (1) Obtain hGH-GH receptor complex structure (PDB: 3HHR). (2) Identify Site 1 (high affinity) and Site 2 (lower affinity) interfaces. Site 2 involves hGH helix 3/4 residues (e.g., Glu174, Arg178) binding to second receptor subunit. (3) Introduce charge-reversal mutations at Site 2 (e.g., E174R, R178E) to disrupt dimerization while preserving Site 1 (helix 1/2/4). (4) Validate by: SPR for 1:1 binding kinetics (Site 1), analytical ultracentrifugation for monomeric complex, and cell-based assay (Nb2-11 lymphoma proliferation) showing antagonism. A poor answer targets random residues or ignores the two-site binding mechanism.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

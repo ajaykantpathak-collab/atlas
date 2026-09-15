@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_13_007",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_13_007",
+   "title": "c11_phy_cbse_13_007",
+   "questions": [
+    {
+     "q": "A 0.5 kg mass attached to a spring (k = 200 N/m) oscillates in a fluid providing viscous damping with constant b = 2 kg/s. Write the differential equation of motion and identify whether the system is underdamped, critically damped, or overdamped.",
+     "a": "The differential equation is 0.5ẍ + 2ẋ + 200x = 0 or ẍ + 4ẋ + 400x = 0. The discriminant is b² - 4mk = 4 - 4(0.5)(200) = 4 - 400 = -396 < 0, so the system is underdamped. A wrong answer (e.g., claiming critical damping) reveals the student incorrectly computes the discriminant or confuses the condition b² = 4mk with b = 2√(mk) without squaring properly.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the motion of a damped oscillator with x(t) = A₀e^(-bt/2m) cos(ω't + φ) is NOT strictly simple harmonic motion, yet the NCERT textbook says it is \"approximately so only for time intervals much less than 2m/b\".",
+     "a": "Strict SHM requires x(t) = A cos(ωt + φ) with constant amplitude A and constant angular frequency ω. In damped SHM, the amplitude A₀e^(-bt/2m) decays exponentially with time, and the frequency ω' = √(k/m - b²/4m²) is slightly less than the natural frequency ω₀ = √(k/m). However, over short times t ≪ 2m/b (the decay time constant), the exponential factor e^(-bt/2m) ≈ 1, making amplitude nearly constant, and ω' ≈ ω₀. A wrong answer (e.g., \"it is SHM because it has cosine\") reveals confusion between functional form and the defining conditions of SHM (constant amplitude, single frequency, restoring force ∝ -x).",
+     "self_check": true
+    },
+    {
+     "q": "A damped oscillator has mass m = 0.2 kg, spring constant k = 80 N/m, and damping constant b = 0.8 kg/s. Calculate: (a) the natural angular frequency ω₀, (b) the damped angular frequency ω', (c) the time for amplitude to drop to 1/e of its initial value, and (d) the quality factor Q.",
+     "a": "(a) ω₀ = √(k/m) = √(80/0.2) = √400 = 20 rad/s.\n(b) ω' = √(ω₀² - b²/4m²) = √(400 - 0.64/(4×0.04)) = √(400 - 0.64/0.16) = √(400 - 4) = √396 ≈ 19.9 rad/s.\n(c) Amplitude decay time τ = 2m/b = 2(0.2)/0.8 = 0.5 s. Time for 1/e decay = τ = 0.5 s.\n(d) Q = ω₀m/b = 20 × 0.2 / 0.8 = 5. Alternatively Q = ω₀/γ where γ = b/m = 4 s⁻¹, so Q = 20/4 = 5.\nA wrong answer in (b) often comes from using ω' = √(k/m - b/2m) instead of b²/4m². A wrong Q often uses Q = mω₀/b without checking units (Q is dimensionless).",
+     "self_check": true
+    },
+    {
+     "q": "Two identical spring-mass systems (m = 1 kg, k = 100 N/m) are damped differently: System A has b = 5 kg/s, System B has b = 20 kg/s. Compare their damping regimes, damped frequencies, and the number of oscillations before amplitude drops to 1% of initial value.",
+     "a": "For both, ω₀ = √(100/1) = 10 rad/s, critical damping b_c = 2√(mk) = 20 kg/s.\nSystem A: b = 5 < 20 → underdamped. ω'_A = √(100 - 25/4) = √(100 - 6.25) = √93.75 ≈ 9.68 rad/s. Decay time τ = 2m/b = 2/5 = 0.4 s. Period T' ≈ 2π/9.68 ≈ 0.65 s. Amplitude drops to 1% when e^(-t/τ) = 0.01 → t = τ ln(100) ≈ 0.4 × 4.605 = 1.84 s. Number of oscillations ≈ t/T' ≈ 1.84/0.65 ≈ 2.8 cycles.\nSystem B: b = 20 = b_c → critically damped. ω' = 0 (no oscillations). Returns to equilibrium without oscillating.\nWrong comparison (e.g., saying both oscillate) reveals failure to check discriminant or misunderstanding critical damping boundary.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In damped SHM, the total energy decays as E = E₀e^(-bt/m), so the rate of energy loss dE/dt = -(b/m)E. This means the fractional energy loss per cycle is constant.\" Evaluate this claim. Is the fractional energy loss per cycle exactly constant? If not, under what approximation does it hold?",
+     "a": "The claim is approximately true only for light damping (b² ≪ 4mk). Exact energy E(t) = ½kA₀²e^(-bt/m) = E₀e^(-bt/m). Fractional loss per cycle = (E(t) - E(t+T'))/E(t) = 1 - e^(-bT'/m). Since T' = 2π/ω' depends slightly on b, the fractional loss per cycle is not strictly constant. However, for light damping ω' ≈ ω₀, T' ≈ T₀ = 2π/ω₀, so fractional loss ≈ 1 - e^(-bT₀/m) ≈ bT₀/m = 2πb/(mω₀) = 2π/Q, which is constant. A wrong evaluation (saying \"exactly constant\") reveals confusion between exact exponential decay in continuous time vs. discrete per-cycle loss, and ignoring the b-dependence of T'.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a spring-mass system and a smartphone to measure the damping constant b of a mass oscillating in air. Describe the procedure, measurements needed, and how to extract b from the data. What assumption about the damping force are you making?",
+     "a": "Procedure: (1) Hang a known mass m on a spring of known k. (2) Displace slightly and release. (3) Use smartphone accelerometer (e.g., Phyphox app) to record acceleration vs time. (4) Identify peak displacements x_n at successive maxima (or use zero-crossings for period). (5) Plot ln(x_n) vs time t_n at peaks. (6) Fit a straight line: slope = -b/2m → b = -2m × slope. (7) Verify linearity confirms viscous damping assumption. Assumption: damping force is viscous (F_d = -bv), i.e., proportional to velocity. A poor answer (e.g., \"measure time to stop\") reveals inability to design quantitative measurement and ignorance of exponential decay analysis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

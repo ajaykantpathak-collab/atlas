@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eco_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c11_eco_cbse_03_006",
+   "title": "c11_eco_cbse_03_006",
+   "questions": [
+    {
+     "q": "What was the approximate percentage devaluation of the Indian rupee against the US dollar implemented in July 1991 as part of the foreign exchange reforms?",
+     "a": "The rupee was devalued by approximately 18-20% in two steps (July 1 and July 3, 1991), moving from around ₹21.14/$ to ₹25.80/$. A wrong answer (e.g., \"5%\" or \"50%\") reveals the student confuses the 1991 crisis devaluation with either minor adjustments in the 1980s or the 1966 devaluation (57%), showing they cannot distinguish between different historical exchange rate events.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a devaluation of the rupee lead to an increase in export volumes, assuming foreign demand for Indian goods is price elastic?",
+     "a": "Devaluation lowers the foreign currency price of Indian exports (e.g., a ₹1000 shirt costs $47.6 at ₹21/$ but only $38.8 at ₹25.8/$), making them more competitive. If foreign demand is price elastic (|PED| > 1), the percentage increase in quantity demanded exceeds the percentage price fall, raising total export revenue in foreign currency. A wrong answer claiming \"exports become expensive for foreigners\" reveals the student confuses the direction: they think a weaker rupee means higher dollar prices, when actually ₹1000/$25.8 = $38.8 < $47.6.",
+     "self_check": true
+    },
+    {
+     "q": "If the pre-devaluation exchange rate was ₹21.14 per US dollar and the post-devaluation rate was ₹25.80 per US dollar, calculate the exact percentage devaluation of the rupee. Show your working.",
+     "a": "Step 1: Identify the formula: % devaluation = [(New rate - Old rate) / Old rate] × 100. Step 2: New rate = ₹25.80/$, Old rate = ₹21.14/$. Step 3: Change = 25.80 - 21.14 = ₹4.66. Step 4: % devaluation = (4.66 / 21.14) × 100 = 22.04%. Step 5: The textbook cites \"18-20%\" because the effective rate included trade-weighted basket adjustments; the bilateral USD rate moved ~22%. A wrong answer using (4.66/25.80)×100 = 18.06% reveals the student used the new rate as base — a common error in percentage change calculations.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of the 1991 devaluation on (a) an Indian importer of crude oil and (b) an Indian exporter of software services. Use the concept of rupee cost/revenue to explain why their interests diverge.",
+     "a": "(a) Crude oil importer: Pre-devaluation, 1 barrel at $20 costs ₹422.8 (20 × 21.14). Post-devaluation, same barrel costs ₹516 (20 × 25.8) — a 22% rupee cost increase, worsening their margins and raising domestic fuel prices. (b) Software exporter: A $10,000 contract earns ₹2,11,400 pre-devaluation but ₹2,58,000 post-devaluation — a 22% rupee revenue gain without changing dollar price. Their interests diverge because devaluation redistributes income from import-competing/import-dependent sectors to export-oriented sectors. A wrong answer stating \"both benefit\" ignores the asymmetric impact on domestic currency costs vs revenues.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The 1991 rupee devaluation was successful because foreign exchange reserves rose from $1.1 billion in June 1991 to $646 billion in 2023-24.\" Consider at least three factors beyond devaluation that contributed to reserve accumulation.",
+     "a": "The statement commits the post hoc fallacy. While devaluation helped, three other critical factors drove reserve growth: (1) FDI/FII inflows after liberalisation (from ~$100M in 1990-91 to $23B in 2022-23 per NCERT Table 3.1), (2) Remittances from Indian diaspora (top recipient globally, ~$100B annually recently), (3) IT/software services export boom (services exports grew from negligible to ~$200B). Devaluation was a necessary but not sufficient condition; structural reforms (nodes c11_eco_cbse_03_008, c11_eco_cbse_03_009) and global demand shifts mattered more for the long-run reserve build-up. A wrong answer attributing the entire rise to devaluation shows inability to distinguish necessary vs sufficient conditions in multi-causal economic outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple numerical example showing how the Liberalised Exchange Rate Management System (LERMS, 1992) worked with its 40:60 dual exchange rate mechanism. Assume a market rate of ₹28/$ and an official rate of ₹25/$. Calculate the effective exchange rate for an exporter earning $1000.",
+     "a": "LERMS (March 1992): 40% of export earnings surrendered at official rate (₹25/$), 60% sold at market rate (₹28/$). For $1000 export earnings: Step 1: 40% = $400 at ₹25 = ₹10,000. Step 2: 60% = $600 at ₹28 = ₹16,800. Step 3: Total rupees = ₹26,800. Step 4: Effective rate = ₹26,800 / $1000 = ₹26.8/$. This blended rate incentivised exports (better than full official rate) while giving RBI some foreign exchange at below-market rate for essential imports. A poor answer calculating simple average (₹26.5) reveals misunderstanding of the weighted surrender mechanism — the 40:60 split was on quantity, not rate averaging.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

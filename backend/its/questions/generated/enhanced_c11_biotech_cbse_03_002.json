@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_03_002",
+   "title": "c11_biotech_cbse_03_002",
+   "questions": [
+    {
+     "q": "Write the general structural formula of an α-amino acid. Label the α-carbon, the amino group, the carboxyl group, and the R-group. Why is the α-carbon chiral in all standard amino acids except glycine?",
+     "a": "Correct answer: General formula: H₂N–CH(R)–COOH. The α-carbon is the central carbon (CH) bonded to four different groups: –NH₂, –COOH, –H, and –R. In glycine, R = H, so the α-carbon has two hydrogens and is not chiral. A wrong answer (e.g., labeling the carboxyl carbon as α-carbon, or saying all amino acids are chiral) reveals confusion between the α-carbon and the carbonyl carbon, or failure to apply the definition of a chiral centre (four different substituents).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why an amino acid exists predominantly as a zwitterion (⁺H₃N–CH(R)–COO⁻) at pH 7, but not at pH 1 or pH 12. Use the typical pKa values of the α-COOH (~2) and α-NH₂ (~9.5) groups in your reasoning.",
+     "a": "Correct answer: At pH 7 (physiological pH), pH > pKa(COOH) so the carboxyl group loses a proton (–COO⁻), and pH < pKa(NH₂) so the amino group gains a proton (–NH₃⁺), giving a net neutral dipolar ion. At pH 1, both groups are protonated (–COOH and –NH₃⁺, net +1). At pH 12, both are deprotonated (–COO⁻ and –NH₂, net –1). A wrong answer (e.g., \"zwitterion forms at all pH\" or confusing which group protonates/deprotonates) reveals a lack of understanding of acid-base equilibrium and pKa logic.",
+     "self_check": true
+    },
+    {
+     "q": "Given the amino acids Alanine (Ala, R=–CH₃) and Serine (Ser, R=–CH₂OH), draw the two possible dipeptides (Ala-Ser and Ser-Ala). For each: (a) circle the peptide bond, (b) label the N-terminal and C-terminal residues, (c) write the systematic name using –yl suffixes.",
+     "a": "Correct answer: \n- Ala-Ser: N-terminal = Ala, C-terminal = Ser. Name: Alanyl-L-serine. Peptide bond between Ala carbonyl C and Ser amide N.\n- Ser-Ala: N-terminal = Ser, C-terminal = Ala. Name: Seryl-L-alanine. Peptide bond between Ser carbonyl C and Ala amide N.\nA wrong answer (e.g., linking side chains, reversing N/C terminus, omitting water loss) reveals misunderstanding of condensation directionality and peptide nomenclature rules.",
+     "self_check": true
+    },
+    {
+     "q": "Compare a typical C–N single bond (e.g., in CH₃–NH₂) with the peptide bond (–CO–NH–) in terms of: (i) bond length, (ii) bond dissociation energy, (iii) rotational freedom. Explain the electronic origin of these differences using resonance structures.",
+     "a": "Correct answer: The peptide bond is shorter (~1.32 Å vs ~1.47 Å), stronger (partial double bond), and planar with no free rotation due to resonance delocalization of the nitrogen lone pair into the carbonyl π* orbital (O=C–N ↔ ⁻O–C=N⁺). A typical C–N single bond is longer, weaker, and freely rotatable. A wrong answer (e.g., \"peptide bond rotates freely\" or \"no resonance\") reveals failure to grasp amide resonance and its conformational consequences.",
+     "self_check": true
+    },
+    {
+     "q": "A student states: \"Peptide bond formation is a hydrolysis reaction because water is produced.\" Evaluate this claim. Is the student correct? If not, provide the correct term and explain the difference.",
+     "a": "Correct answer: The student is incorrect. Peptide bond formation is a **condensation (dehydration synthesis)** reaction: two molecules join with the loss of water. Hydrolysis is the reverse: a peptide bond is broken by the *addition* of water. Confusing the two reveals a fundamental misunderstanding of reaction directionality and terminology.",
+     "self_check": true
+    },
+    {
+     "q": "Design a tripeptide (three amino acids) that has a net charge of +2 at pH 7.0. Use only the 20 standard amino acids. Write its sequence (three-letter codes), draw its full structure showing all ionizable groups in their correct protonation state at pH 7, and calculate the net charge step-by-step.",
+     "a": "Expected answer: Choose two basic (Lys, Arg, His) and one neutral (e.g., Gly) amino acid. Example: Lys-Arg-Gly. At pH 7: N-terminal α-NH₃⁺ (+1), C-terminal α-COO⁻ (–1), Lys side chain (pKa~10.5) protonated (+1), Arg side chain (pKa~12.5) protonated (+1). Net = +2. A poor answer (using acidic amino acids, miscalculating charges, or ignoring terminal groups) reveals inability to apply pKa values and charge summation to a peptide chain.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

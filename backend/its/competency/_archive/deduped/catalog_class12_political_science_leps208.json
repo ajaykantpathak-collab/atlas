@@ -1,0 +1,289 @@
+{
+ "class": 12,
+ "subject": "political_science",
+ "chapter": 8,
+ "chapter_title": "Recent Developments in Indian Politics",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leps208.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leps.208.1.1",
+   "title": "Context of the 1990s: Five Developments that Reshaped Politics",
+   "section": "Context of the 1990s",
+   "definition": "As the 1980s closed, five shifts remade Indian politics: the Congress collapse in the 1989 election from 415 seats in 1984 to 197, ending the Congress system; the rise of the Mandal issue after the National Front moved to reserve central jobs for Other Backward Classes; the turn to structural adjustment or new economic reforms, visible from 1991; the Ayodhya Ram Janmabhoomi movement's transformation of the secularism debate, culminating in the 2019 Supreme Court-backed temple construction; and Rajiv Gandhi's 1991 assassination by an LTTE-linked Sri Lankan Tamil, which brought Narasimha Rao to lead the Congress and the country.",
+   "formula": "nineties_turning_points = congress_decline_1989 + mandal_issue + new_economic_reforms + ayodhya_movement + rajiv_gandhi_assassination",
+   "key_idea": "Within two years the old one-party framework, the old economic strategy and the old secular consensus were all challenged at once.",
+   "textbook_ref": "leps208.txt Context of the 1990s (lines 41-126)",
+   "question_patterns": [
+    "which five developments shaped indian politics at the close of the 1980s",
+    "why is the 1989 election said to mark the end of the congress system",
+    "what was the mandal issue and why did it provoke protests",
+    "what is meant by the structural adjustment programme of 1991",
+    "how did the assassination of rajiv gandhi change the congress leadership",
+    "how did the ram janmabhoomi movement alter the discourse on secularism"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the electoral shift", "explain": "the 1984 landslide of 415 seats fell to 197 in 1989; the Congress returned in 1991 yet never regained its old centrality in the party system"},
+    {"step": 2, "action": "verify the Mandal and economic turns", "explain": "the 1990 OBC job reservation decision split the nation into pro and anti-Mandal camps, while the new economic policies begun under Rajiv Gandhi and made visible in 1991 continued under every later government despite criticism"},
+    {"step": 3, "action": "verify the identity and leadership shifts", "explain": "the Ayodhya movement recast secularism and ended in temple construction after the 9 November 2019 constitutional bench decision, and Rajiv Gandhi's May 1991 assassination during an election tour in Tamil Nadu led to Narasimha Rao's premiership"}
+   ]
+  },
+  {
+   "id": "leps.208.2.1",
+   "title": "Era of Coalitions and the Logic of Alliance Politics",
+   "section": "Era of Coalitions",
+   "definition": "The 1989 verdict left no majority and produced an era in which no single party won a clear Lok Sabha majority from 1989 until 2014: the National Front of V. P. Singh ruled on outside support from both the BJP and the Left Front, the United Front of 1996 swapped BJP support for Congress support, the BJP led unstable coalitions in 1998 and a full-term NDA under Vajpayee from 1999, and the UPA governed in 2004 and 2009 -- eleven coalition or minority governments in all, with regional parties holding the balance until the BJP's own majorities of 2014 and 2019.",
+   "formula": "coalition_era = national_front_1989 + united_front_1996 + nda_1999 + upa_2004",
+   "key_idea": "What the Congress once did internally as a social coalition, parties now had to do externally as electoral alliances, with state parties as kingmakers.",
+   "textbook_ref": "leps208.txt Era of Coalitions, Alliance politics (lines 138-234)",
+   "question_patterns": [
+    "why did the era of coalition governments begin after the 1989 election",
+    "who supported the national front government and on what terms",
+    "how did the united front government of 1996 differ from the national front",
+    "describe the nda governments under atal behari vajpayee",
+    "what role did regional parties play in central governments since 1989",
+    "why does the chapter call the coalitions an outcome of silent long term changes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the support flips", "explain": "in 1989 the BJP and Left kept the Congress out by backing the National Front from outside; in 1996 the Left and Congress kept the BJP out by backing the United Front, showing unstable equations"},
+    {"step": 2, "action": "verify the BJP ascent", "explain": "the BJP consolidated gains in 1991 and 1996, became the largest party in 1996 but could not win a confidence vote, then led coalitions from May 1998 and completed a full term after October 1999 under Vajpayee"},
+    {"step": 3, "action": "verify the arithmetic", "explain": "eleven governments since 1989 were all coalitions or minority regimes dependent on non-member support, until the BJP won single-party majorities in 2014 and 2019 yet still chose to run the NDA"}
+   ]
+  },
+  {
+   "id": "leps.208.3.1",
+   "title": "The Mandal Commission and the Political Rise of the OBCs",
+   "section": "Political Rise of Other Backward Classes",
+   "definition": "Communities other than SCs and STs marked by educational and social backwardness had long received reservations in the south, and Karpoori Thakur pioneered OBC quotas in Bihar; the Second Backward Classes Commission under B. P. Mandal, appointed in 1978, reported in 1980 that backward castes were badly under-represented in education and public employment and advised reserving 27 per cent of seats in educational institutions and government jobs, a recommendation the National Front implemented for central jobs in August 1990, surviving anti-Mandal agitation and the 1992 Indira Sawhney ruling.",
+   "formula": "mandal_policy = backward_caste_identification + 27_percent_reservation + indira_sawhney_upholding",
+   "key_idea": "A decade-old report, once implemented, converted caste consciousness into a durable voting bloc that every party now courts.",
+   "textbook_ref": "leps208.txt Political Rise of OBCs, The Mandal Commission box (lines 288-380)",
+   "question_patterns": [
+    "who chaired the second backward classes commission and what did it recommend",
+    "why is the commission known as the mandal commission",
+    "what precedent did karpoori thakur set in bihar",
+    "what happened when the national front implemented mandal in august 1990",
+    "what did the supreme court decide in the indira sawhney case",
+    "how did mandalisation change the party politics of the obcs"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the commission's task and findings", "explain": "appointed in 1978 to investigate educational and social backwardness, the Mandal Commission equated backward classes with backward castes, found their low presence in institutions and services, and reported in 1980"},
+    {"step": 2, "action": "verify the recommendation and implementation", "explain": "besides land reform and other measures it advised 27 per cent reservation in education and government jobs; the August 1990 decision to apply the job quota triggered violent protests across north Indian cities"},
+    {"step": 3, "action": "verify the legal and political outcome", "explain": "the Supreme Court upheld the decision in November 1992 in the Indira Sawhney case, and OBC reservation now commands support across all major parties, having made OBC identity a central axis of mobilisation"}
+   ]
+  },
+  {
+   "id": "leps.208.4.1",
+   "title": "Dalit Political Organisation: from BAMCEF to the BSP",
+   "section": "Political fallouts",
+   "definition": "Dalit politics organised itself stepwise: the Backward and Minority Communities Employees Federation of 1978, though drawn from government employees, championed political power for the bahujan of SCs, STs, OBCs and minorities; Kanshi Ram built the Dalit Shoshit Samaj Sangharsh Samiti out of it and founded the Bahujan Samaj Party in 1984 on the premise that political power is the master key to social equality, and the BSP's 1989 and 1991 breakthroughs in Uttar Pradesh marked the first national success of a mainly Dalit-voted party, later expanding to other groups and repeated stints in government.",
+   "formula": "dalit_mobilisation = bamcef_1978 + ds4 + bsp_1984_kanshi_ram",
+   "key_idea": "Treating the bahujan majority as a formidable electoral force, Kanshi Ram converted employee networks into a party that made Dalit politics central in north India.",
+   "textbook_ref": "leps208.txt Political fallouts, Kanshi Ram box (lines 402-450)",
+   "question_patterns": [
+    "trace the journey from bamcef to the bahujan samaj party",
+    "what does the term bahujan include in kanshi ram's politics",
+    "why is political power called the master key by kanshi ram",
+    "what breakthrough did the bsp achieve in 1989 and 1991",
+    "how does dalit politics relate to obc politics since the 1980s",
+    "why was the bsp envisaged as an organisation of pragmatic politics"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the organisational lineage", "explain": "BAMCEF of 1978 was more than a trade union, asserting power for the bahujan; DS4 followed and the BSP was founded in 1984 under Kanshi Ram"},
+    {"step": 2, "action": "verify the electoral rise", "explain": "beginning with Dalit support in Punjab, Haryana and Uttar Pradesh, the BSP broke through in UP in the 1989 and 1991 elections, an unprecedented success for a party of mainly Dalit voters"},
+    {"step": 3, "action": "verify the expansion", "explain": "the party has governed UP more than once and broadened beyond its Dalit base, while Dalit and OBC politics elsewhere often developed independently and in competition"}
+   ]
+  },
+  {
+   "id": "leps.208.5.1",
+   "title": "BJP's Ideology: from Gandhian Socialism to Hindutva, and the Shah Bano Case",
+   "section": "Communalism, Secularism, Democracy",
+   "definition": "Founded in 1980 by former Jana Sangh supporters after the Janata breakup, the BJP first espoused Gandhian socialism with cultural nationalism, fared poorly in 1984, and after 1986 made nationalism its ideological core and pursued Hindutva mobilisation; Hindutva, popularised by V. D. Savarkar, demands that Indians accept India as both fatherland and holy land, and the politics around it sharpened when the government's 1986 Act nullifying the Supreme Court's pro-Shah Bano maintenance ruling was attacked by the BJP as minority appeasement.",
+   "formula": "bjp_ideology_shift = gandhian_socialism_1980 + cultural_nationalism + hindutva_of_savarkar",
+   "key_idea": "A losing broad platform was exchanged for a religion-anchored nationalism, and the Shah Bano controversy supplied the first major ammunition.",
+   "textbook_ref": "leps208.txt Communalism, Secularism, Democracy, Shah Bano case (lines 469-501)",
+   "question_patterns": [
+    "how was the bjp founded and what was its initial ideology",
+    "what does hindutva mean according to savarkar",
+    "distinguish between the pitrubhu and punyabhu ideas of hindutva",
+    "what did the supreme court rule in the shah bano case",
+    "why was the muslim women act of 1986 called an appeasement by critics",
+    "how did the bjp's electoral fortunes change after 1986"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the origins", "explain": "after the Jana Sangh merged into the Janata Party and the Janata broke up, its supporters formed the BJP in 1980 with a broader Gandhian-socialist and culturally nationalist platform"},
+    {"step": 2, "action": "verify the ideological turn", "explain": "after the poor 1984 showing the party foregrounded nationalism from 1986 and adopted Savarkar's Hindutva -- India as fatherland and holy land -- as the basis of nationhood and mobilisation"},
+    {"step": 3, "action": "verify the Shah Bano fallout", "explain": "the Court granted the 62-year-old divorced woman maintenance, orthodox opinion called it interference in Muslim Personal Law, the 1986 Act reversed the ruling, women's groups and intellectuals objected, and the BJP termed it Congress appeasement of minorities"}
+   ]
+  },
+  {
+   "id": "leps.208.6.1",
+   "title": "The Ayodhya Dispute: from Locked Structure to the 2019 Verdict",
+   "section": "Ayodhya Issue",
+   "definition": "A three-dome structure built in 1528 at a site believed to be Shri Ram's birthplace, showing Hindu symbols within and without, was sealed in 1949 as court proceedings began; the Faizabad district court's 1986 order unlocking it for worship re-ignited the ownership dispute, the 1992 demolition of the structure posed what critics called a challenge to Indian democracy, and the conflict ended through legal process in the constitutional bench's 5-0 verdict of 9 November 2019, which assigned the site to the Shri Ram Janmabhoomi Teertha Kshetra Trust for a temple and directed allotment of another site to the Sunni Central Waqf Board for a mosque.",
+   "formula": "ayodhya_resolution = 1528_structure + 1992_demolition + verdict_2019_and_alternate_site",
+   "key_idea": "A five-century-old grievance travelled from seizure and sealing to agitation, demolition and finally a judicial settlement that tried to reconcile all stakeholders.",
+   "textbook_ref": "leps208.txt Ayodhya Issue, From Legal Proceedings to Amicable Acceptance (lines 502-597)",
+   "question_patterns": [
+    "trace the history of the ayodhya site from 1528 to 1949",
+    "what changed after the district court ordered the structure unlocked in 1986",
+    "why is the 1992 demolition called a challenge to indian democracy",
+    "what did the supreme court's 5-0 verdict of november 2019 decide",
+    "what site was alloted to the sunni central waqf board and why",
+    "how does the ayodhya settlement illustrate conflict resolution in a plural society"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the long history", "explain": "the 1528 three-dome structure carried visible Hindu symbols, the issue tied into national civilisational pride, gazetteers recorded repeated conflicts, and the site was sealed in 1949 when courts intervened"},
+    {"step": 2, "action": "verify the escalation", "explain": "the 1986 unlocking for worship heightened tensions over ownership, shilanyas was performed though construction stayed barred, and the 1992 demolition intensified the national debate on secularism and democracy"},
+    {"step": 3, "action": "verify the judicial close", "explain": "on archaeological and documentary evidence the constitutional bench ruled unanimously on 9 November 2019 for the trust to build the temple and for an appropriate alternate site for a mosque, an example of due process resolving a plural-society conflict"}
+   ]
+  },
+  {
+   "id": "leps.208.7.1",
+   "title": "Elections 2004-2019: UPA Years and the Return of Single-Party Majority",
+   "section": "Lok Sabha Elections (2004-2019)",
+   "definition": "The Congress joined coalition politics in earnest in 2004, defeating the NDA and forming the UPA with Left Front support that survived even the Left's July 2008 walkout over the Indo-US nuclear deal; the UPA returned in 2009 as Congress seats rose from 145 to 206 under Manmohan Singh, before the BJP under Narendra Modi -- named candidate in September 2013 -- won 282 seats in 2014, the first single-party majority in thirty years, and 303 in 2019, both times still choosing to govern as the NDA.",
+   "formula": "alliance_race_2004_2019 = upa_2004_and_2009 + bjp_majorities_2014_and_2019",
+   "key_idea": "Coalition arithmetic ruled for a quarter century, then one party's majority returned without making alliances obsolete.",
+   "textbook_ref": "leps208.txt Lok Sabha Elections 2004-2019, 17th Lok Sabha chart (lines 622-658)",
+   "question_patterns": [
+    "how did the upa come to power in 2004 and why did the left withdraw",
+    "compare the congress seat counts of 2004 and 2009",
+    "what made the 2014 election a watershed for indian politics",
+    "why did the bjp still form an nda government after winning a majority",
+    "describe the bjp's seat tallies of 2014 and 2019",
+    "what changed in the party system between the 1970s and 2019"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the UPA phase", "explain": "the 2004 win produced a Congress-led UPA backed by the Left; the Left quit in July 2008 over the Indo-US nuclear deal yet the government finished its term and expanded from 145 to 206 seats in 2009"},
+    {"step": 2, "action": "verify the BJP phase", "explain": "Narendra Modi's candidature preceded the 2014 result of 282 seats -- the first outright majority since 1984 -- and the 2019 result of 303, with NDA government retained despite the majority"},
+    {"step": 3, "action": "verify the system change", "explain": "the chapter reads these years as a dramatic change of party system from the pre-1970s Congress-centred pattern, with coalition recognition still relevant even under single-party rule"}
+   ]
+  },
+  {
+   "id": "leps.208.8.1",
+   "title": "Reading the Seat Arithmetic of the 17th Lok Sabha",
+   "section": "Party Position in 17th Lok Sabha",
+   "definition": "The chapter's chart of the 17th Lok Sabha lets us turn raw seat counts into shares: the BJP's 303 seats in a house of 543 members amount to 56 per cent, the Congress's 52 to about 10 per cent, with the DMK on 24, the Shiv Sena on 18, and the JD(U), BJD and BSP in single digits -- the arithmetic behind both majority and opposition strength.",
+   "formula": "party_seat_share = seats_won / total_seats * 100",
+   "key_idea": "A majority needs more than half the house, so converting seats to percentage shares shows at a glance how far ahead the largest party stood.",
+   "textbook_ref": "leps208.txt Party Position in 17th Lok Sabha (lines 733-760)",
+   "question_patterns": [
+    "calculate the seat share of the bjp in the 17th lok sabha",
+    "what percentage of the lok sabha did the congress hold after 2019",
+    "how many more seats than the congress did the bjp win in 2019",
+    "what seat share do the dmk and shiv sena hold in the 17th lok sabha",
+    "compare the bjp seat share of 2019 with a simple majority requirement",
+    "express the others category of the 17th lok sabha as a share of the house"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "convert a party tally into a share", "explain": "divide the seats won by the total membership of the house and scale to a percentage", "compute": "party_seat_share = seats_won / total_seats * 100"},
+    {"step": 2, "action": "measure the gap between the two national parties", "explain": "subtracting the Congress tally from the BJP tally shows the scale of the verdict", "compute": "lead = seats_won - rival_seats"},
+    {"step": 3, "action": "check the majority margin", "explain": "half the house plus one is the majority mark, so the difference between the tally and that mark shows the cushion", "compute": "majority_cushion = seats_won - (total_seats / 2 + 1)"}
+   ]
+  },
+  {
+   "id": "leps.208.9.1",
+   "title": "The Emerging Consensus among Political Parties",
+   "section": "Growing consensus",
+   "definition": "Amid fierce competition, four broad agreements bind most parties: acceptance of the new economic policies as the route to prosperity and world economic status; acceptance of the social and political claims of backward castes, including reservation in education and jobs and a share of power for OBCs; acceptance of state-level parties as full partners in national governance; and pragmatism over ideology, as when non-Hindutva NDA allies still governed a full term with the BJP -- even as popular movements push poverty, displacement, wages and livelihood onto the agenda.",
+   "formula": "post_1989_consensus = new_economic_policies + backward_caste_acceptance + state_parties_role + pragmatic_alliances",
+   "key_idea": "Competition now runs inside a shared frame: whoever governs, the economic line, social justice claims, federal parties and flexible alliances are all here to stay.",
+   "textbook_ref": "leps208.txt Growing consensus (lines 659-726)",
+   "question_patterns": [
+    "name the four elements of the growing consensus among indian parties",
+    "why do most parties now support the new economic policies",
+    "how has the acceptance of backward caste claims changed party positions",
+    "what role do state level parties play in national governance today",
+    "how did nda allies accept pragmatism over ideology",
+    "what issues are popular movements putting on the political agenda"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "verify the economic consensus", "explain": "despite opposition from movements, most parties back the new economic policies as the path to prosperity and economic power"},
+    {"step": 2, "action": "verify the social consensus", "explain": "all major parties back reservations for backward classes in education and employment and accept adequate OBC power-sharing"},
+    {"step": 3, "action": "verify the federal and pragmatic consensus", "explain": "state parties are central to national politics, and alliances form across ideological lines for power sharing while movements keep new development visions before the state"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_leps208_1",
+   "source_ref": "leps208.txt Party Position in 17th Lok Sabha chart",
+   "concept": "leps.208.8.1",
+   "question_type": "seat_share_computation",
+   "question_pattern": "In the 17th Lok Sabha of {total_seats} members the BJP won {seats_won} seats and the Congress {rival_seats}. Find each party's share of the house and the BJP's seat lead.",
+   "extracted_variables": {
+    "total_seats": 543,
+    "seats_won": 303,
+    "rival_seats": 52
+   },
+   "solution_template": [
+    {"step": 1, "action": "compute the bjp share", "explain": "seats divided by house size as a percentage reproduces the chart's 56 per cent", "compute": "bjp_share = seats_won / total_seats * 100"},
+    {"step": 2, "action": "compute the congress share", "explain": "the same arithmetic on the rival tally gives the opposition benchmark", "compute": "inc_share = rival_seats / total_seats * 100"},
+    {"step": 3, "action": "compute the lead", "explain": "the difference between the tallies measures how far the largest party outdistanced the second", "compute": "lead = seats_won - rival_seats"}
+   ]
+  },
+  {
+   "id": "we_leps208_2",
+   "source_ref": "leps208.txt Context of the 1990s (1984 and 1989 tallies)",
+   "concept": "leps.208.1.1",
+   "question_type": "seat_share_computation",
+   "question_pattern": "The Congress fell from {seats_won} Lok Sabha seats in 1984 to {rival_seats} in 1989. By how many seats did it decline, and what fraction of its 1984 tally did it retain?",
+   "extracted_variables": {
+    "seats_won": 415,
+    "rival_seats": 197
+   },
+   "solution_template": [
+    {"step": 1, "action": "compute the absolute decline", "explain": "subtract the later tally from the earlier one", "compute": "decline = seats_won - rival_seats"},
+    {"step": 2, "action": "compute the retention fraction", "explain": "the 1989 tally as a fraction of the 1984 tally shows how much of the old base survived", "compute": "retained_fraction = rival_seats / seats_won"},
+    {"step": 3, "action": "convert to a percentage", "explain": "scaling the fraction shows the party kept under half its landslide strength, the arithmetic behind the end of the Congress system", "compute": "retained_percent = retained_fraction * 100"}
+   ]
+  },
+  {
+   "id": "we_leps208_3",
+   "source_ref": "leps208.txt The Mandal Commission box (27 per cent quota)",
+   "concept": "leps.208.3.1",
+   "question_type": "conceptual",
+   "question_pattern": "A department has 1,000 central government posts. How many are covered by the Mandal recommendation and what legal test did the policy pass?",
+   "extracted_variables": {},
+   "solution_template": [
+    {"step": 1, "action": "apply the quota", "explain": "the Commission advised reserving 27 per cent of seats in educational institutions and government jobs for backward castes"},
+    {"step": 2, "action": "state the implementation story", "explain": "the National Front applied the job quota in August 1990, sparking anti-Mandal agitation in north Indian cities"},
+    {"step": 3, "action": "state the judicial outcome", "explain": "in November 1992 the Supreme Court upheld the decision in the Indira Sawhney case, and the policy now enjoys all-party support"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-practice-1",
+   "source_ref": "leps208.txt EXERCISES",
+   "questions": [
+    "which five developments define the context of the 1990s in indian politics",
+    "state the main recommendations of the mandal commission",
+    "what does hindutva mean and who popularised the term",
+    "what did the supreme court decide in the ayodhya case of 2019",
+    "name the four elements of the growing consensus among political parties"
+   ]
+  },
+  {
+   "id": "ex-practice-2",
+   "source_ref": "leps208.txt EXERCISES long answer",
+   "questions": [
+    "explain why the 1989 election is treated as a turning point in indian politics",
+    "describe the alliance politics of the national front, united front, nda and upa",
+    "how did the shah bano judgment and the 1986 act shape the secularism debate",
+    "trace the rise of the bsp from bamcef and assess kanshi ram's strategy",
+    "compare the upa years with the bjp majorities of 2014 and 2019 in terms of coalition politics"
+   ]
+  }
+ ]
+}

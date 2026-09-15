@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_04_008",
+   "title": "c12_ip_cbse_04_008",
+   "questions": [
+    {
+     "q": "What is the full form of EPR in the context of India's E-Waste Management Rules, and what is its core obligation for producers?",
+     "a": "EPR stands for Extended Producer Responsibility. Its core obligation: producers (manufacturers, importers, brand owners) are financially and physically responsible for the collection, recycling, and environmentally sound disposal of their products after end-of-life. A wrong answer (e.g., \"Electronic Product Recycling\" or \"producers only pay a tax\") reveals confusion between EPR and a simple tax/fee model — EPR requires operational take-back systems, not just monetary payment.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"E-waste is just plastic and metal — it's not dangerous like chemical waste.\" Explain why this statement is incorrect using three specific toxic substances found in e-waste and their targeted health effects.",
+     "a": "The statement is incorrect because e-waste contains concentrated hazardous substances: (1) Lead in solder/CRT glass — causes neurological damage, especially in children; (2) Mercury in switches/flat-panel displays — impairs brain/kidney function; (3) Cadmium in Ni-Cd batteries/semiconductors — causes kidney failure and bone disease (itai-itai). A wrong answer that only mentions \"pollution\" or \"heavy metals\" without naming specific substance→effect pairs shows superficial awareness, not mechanistic understanding of toxicity pathways.",
+     "self_check": true
+    },
+    {
+     "q": "Your household has generated 5 kg of mixed e-waste (old router, two feature phones, laptop battery, assorted cables). Step-by-step, describe how you would prepare and dispose of this e-waste responsibly in an Indian metro city, referencing at least one government portal.",
+     "a": "Steps: (1) Segregate: separate battery (lithium-ion) from other items — tape battery terminals to prevent short-circuit. (2) Data sanitization: factory-reset phones, wipe laptop drive (use DBAN or built-in reset). (3) Locate authorized recycler: visit cpcb.nic.in → \"E-Waste\" → \"List of Authorized Recyclers/Dismantlers\" for your state/city. (4) Contact recycler: confirm acceptance of mixed e-waste, schedule pickup or drop-off. (5) Obtain acknowledgment: request Form-6 (certificate of recycling) for records. A wrong answer that suggests \"give to kabadiwala\" or \"dump in blue bin\" reveals ignorance of formal channel requirements and data security risks.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the environmental impact of informal sector recycling (open burning, acid leaching) vs. formal sector recycling (mechanical shredding, hydrometallurgy) for a printed circuit board (PCB). Which recovers more gold per tonne, and why does the informal sector persist despite lower recovery?",
+     "a": "Formal recycling recovers >95% of gold (≈300 g/tonne PCB) via controlled hydrometallurgy; informal acid leaching recovers <30% and releases cyanide/acid effluents. Informal sector persists due to: (a) lower operational cost (no pollution controls), (b) doorstep collection convenience for households, (c) lack of awareness about authorized channels, (d) economic necessity for unskilled workers. A wrong answer claiming \"informal recovers more gold because they use strong acid\" confuses reagent strength with process control — uncontrolled acid leaching dissolves gold but fails to precipitate it efficiently, losing most to waste sludge.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this school e-waste drive plan: \"Students bring all old electronics from home; we pile them in the courtyard; a local scrap dealer offers ₹50/kg and takes everything away.\" Identify three violations of E-Waste Management Rules 2022 and propose a compliant alternative.",
+     "a": "Violations: (1) Handing e-waste to unauthorized scrap dealer (Rule 9: only authorized dismantlers/recyclers). (2) No data sanitization — risk of student data breach. (3) Open storage in courtyard — exposure to rain/heat accelerates toxin leaching. Compliant alternative: Partner with a CPCB-authorized recycler for a scheduled pickup; conduct a data-wiping workshop beforehand; store e-waste in covered, labeled bins; obtain Form-6 certificates for school records. A wrong answer focusing only on \"money lost\" misses the legal and ecological core of the violation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-week community e-waste awareness campaign for a residential society (200 flats). Include: (a) one quantitative target, (b) two behavior-change nudges, (c) one partnership with a formal entity, and (d) a metric to evaluate long-term impact.",
+     "a": "Campaign: \"E-Waste Warriors\". (a) Target: Collect 500 kg e-waste in 4 weeks (2.5 kg/flat). (b) Nudges: (i) \"Green Bin\" at each tower entrance with QR code linking to recycler pickup schedule (reduces friction); (ii) Monthly \"Zero E-Waste Home\" badge displayed on society app (social proof). (c) Partnership: MoU with CPCB-authorized recycler for monthly pickup + Form-6 issuance. (d) Long-term metric: % of flats using authorized channel in subsequent 6 months (tracked via recycler logs). A poor answer lacking specific nudges or formal partnership shows inability to translate awareness into systemic change.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_06_010",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_06_010",
+   "title": "c11_ip_cbse_06_010",
+   "questions": [
+    {
+     "q": "What is the fundamental difference in the data structure returned per row when iterating over a `csv.reader` object versus a `csv.DictReader` object, assuming the CSV file has a header row?",
+     "a": "`csv.reader` returns each row as a `list` of strings (positional access via index), while `csv.DictReader` returns each row as a `dict` (or `OrderedDict`) with keys from the header row (named access via column name). A wrong answer (e.g., \"both return lists\" or \"both return dictionaries\") reveals the student has not grasped the core design distinction: `reader` treats all rows uniformly as sequences, while `DictReader` treats the first row as metadata (fieldnames) and subsequent rows as mappings.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following code to read `data.csv` which has headers `Name,Age,City`:\n```python\nimport csv\nwith open('data.csv', 'r') as f:\n    reader = csv.DictReader(f)\n    for row in reader:\n        print(row['name'])  # lowercase 'name'\n```\nThe CSV header uses `Name` (capital N). What will happen when this code runs, and why?",
+     "a": "The code will raise a `KeyError: 'name'` because `csv.DictReader` uses the exact header strings as dictionary keys (case-sensitive). The header is `Name`, not `name`. A wrong answer (e.g., \"it prints the name correctly\" or \"it prints nothing\") reveals the student assumes dictionary keys are case-insensitive or that `DictReader` normalizes header case — it does not. This is a classic senior-secondary error: forgetting that CSV headers are raw strings and become dict keys verbatim.",
+     "self_check": true
+    },
+    {
+     "q": "Given a CSV file `sales.csv` with columns `Date,Product,Quantity,Price` and 1000 rows of data, write a code snippet using `csv.DictReader` to compute the total revenue (sum of Quantity × Price) for only the product \"Laptop\". Assume all values are numeric strings.",
+     "a": "```python\nimport csv\ntotal_revenue = 0.0\nwith open('sales.csv', 'r') as f:\n    reader = csv.DictReader(f)\n    for row in reader:\n        if row['Product'] == 'Laptop':\n            qty = int(row['Quantity'])\n            price = float(row['Price'])\n            total_revenue += qty * price\nprint(f\"Total Laptop Revenue: ₹{total_revenue:.2f}\")\n```\nA wrong answer (e.g., using `csv.reader` with hardcoded indices, forgetting type conversion, or not filtering by product) reveals inability to combine DictReader's named access with conditional logic and numeric conversion — a multi-step application skill required in board practicals.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the memory implications of these two approaches for reading a 100 MB CSV file with 1 million rows:\n(A) `rows = list(csv.reader(open('big.csv')))`\n(B) `for row in csv.reader(open('big.csv')): process(row)`\nExplain which is safer for large files and why, referencing iterator behavior.",
+     "a": "Approach (A) loads all 1 million rows into memory simultaneously as a list of lists, risking `MemoryError`. Approach (B) uses the iterator protocol: `csv.reader` yields one row at a time, so only one row occupies memory during iteration. A wrong answer (e.g., \"both are same\" or \"B is slower\") reveals confusion between eager evaluation (list) and lazy iteration (generator/iterator). This is critical for Class 11: understanding that `csv.reader` returns an iterator, not a container, and that `list()` forces full materialization.",
+     "self_check": true
+    },
+    {
+     "q": "A CSV file `marks.csv` has no header row: just three columns (RollNo, Maths, Science). A student uses `csv.DictReader(f)` without providing `fieldnames`. Evaluate whether this code will work correctly for accessing `row['Maths']`. Justify your answer.",
+     "a": "It will NOT work correctly. Without a header row and without explicit `fieldnames` parameter, `csv.DictReader` treats the first data row as headers. So if the first row is `['101', '85', '90']`, the keys become `'101'`, `'85'`, `'90'` — not `'RollNo'`, `'Maths'`, `'Science'`. Accessing `row['Maths']` raises `KeyError`. The fix: `csv.DictReader(f, fieldnames=['RollNo', 'Maths', 'Science'])`. A wrong evaluation reveals the student doesn't know `DictReader`'s default behavior of consuming the first row as fieldnames — a subtle but exam-critical edge case.",
+     "self_check": true
+    },
+    {
+     "q": "Design a CSV file scenario (describe columns and 3 sample rows) where using `csv.reader` with index-based access is MORE appropriate than `csv.DictReader`. Explain why, considering header stability, column order, and processing simplicity.",
+     "a": "Scenario: A legacy system exports `sensor_log.csv` with NO headers, fixed column order: `Timestamp, SensorID, Value, Status`. Rows:\n```\n2024-01-15 10:00:00, S1, 23.5, OK\n2024-01-15 10:00:01, S2, 45.1, WARN\n2024-01-15 10:00:02, S1, 24.0, OK\n```\n`csv.reader` is better because: (1) No headers exist — `DictReader` would misinterpret first row as keys unless `fieldnames` is manually provided; (2) Column order is guaranteed by hardware firmware; (3) Processing is simple numerical extraction (e.g., `float(row[2])`) without dictionary overhead. A poor answer (e.g., \"DictReader is always better\") reveals dogmatic thinking — the student hasn't learned to match tool to data structure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

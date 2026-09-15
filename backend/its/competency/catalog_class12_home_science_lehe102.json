@@ -1,0 +1,485 @@
+{
+ "class": 12,
+ "subject": "home_science",
+ "chapter": 2,
+ "chapter_title": "Clinical Nutrition and Dietetics",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lehe102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "drafter draft; gate-validated; review pending",
+ "concepts": [
+  {
+   "id": "lehe102.1",
+   "title": "Clinical Nutrition and Medical Nutrition Therapy",
+   "section": "Introduction and Significance",
+   "definition": "The branch of nutrition that plans food intake for people during sickness -- now widely called Medical Nutrition Therapy -- connecting what a patient eats with immunity, healing and disease control.",
+   "formula": "qualitative idea -- nutrition status plus illness decides recovery and complications",
+   "key_idea": "Adequate nourishment defends the body against infection and speeds recovery, while poor nourishment deepens existing disease.",
+   "textbook_ref": "lehe102.txt, Introduction and Significance (approx lines 93-170)",
+   "question_patterns": [
+    "what is clinical nutrition",
+    "why is clinical nutrition today called medical nutrition therapy",
+    "how does illness disturb the nutritional status of a person",
+    "state the significance of studying clinical nutrition and dietetics",
+    "how does nourishment influence recovery and the length of hospital stay",
+    "why are antioxidant nutrients such as vitamin C and vitamin E seen as protective"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the field: nutrition management of patients with established disease",
+     "explain": "it sits between food science and medicine"
+    },
+    {
+     "step": 2,
+     "action": "link status to outcome: weak intakes weaken immune defence, wound healing, organ function",
+     "explain": "support before and after illness shapes prognosis"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The branch of nutrition planning food intake during sickness is now widely called what therapy: Medical Nutrition Therapy or physiotherapy?",
+     "a": "Medical Nutrition Therapy"
+    }
+   ]
+  },
+  {
+   "id": "lehe102.2",
+   "title": "Role and Functions of the Dietitian",
+   "section": "Basic Concepts",
+   "definition": "A dietitian or medical nutrition therapist turns the doctor's diagnosis into a diet prescription, assesses each patient, supervises hospital food service and counsels the patient so the plan is actually followed.",
+   "formula": "qualitative idea -- diagnosis plus assessment gives the nutrition care plan",
+   "key_idea": "The dietitian is the nutrition member of the medical team: the physician treats the disease, the dietitian manages the diet.",
+   "textbook_ref": "lehe102.txt, Basic Concepts and dietitian responsibilities (approx lines 201-352)",
+   "question_patterns": [
+    "what are the roles performed by a dietitian",
+    "how does the dietitian work as part of the patient care team",
+    "who is a medical nutrition therapist",
+    "list the four activities that make up nutritional care during illness",
+    "why must a dietitian counsel the patient and not merely prescribe a diet",
+    "which settings beyond hospitals need the services of a dietitian"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "trace the care sequence: assess status, diagnose the nutrition problem, plan and prioritise intervention, monitor and evaluate",
+     "explain": "changes are made whenever outcomes fall short"
+    },
+    {
+     "step": 2,
+     "action": "place the dietitian on the team",
+     "explain": "physicians remain responsible for medical needs and rely on the dietitian to implement the prescription"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Who turns the doctor's diagnosis into a diet prescription: the dietitian or the pharmacist?",
+     "a": "the dietitian"
+    }
+   ]
+  },
+  {
+   "id": "lehe102.3",
+   "title": "Nutritional Assessment",
+   "section": "Basic Concepts",
+   "definition": "The evidence gathering stage that combines health, diet, medication and personal histories with anthropometric measurements and laboratory values to expose current deficiencies and future risks.",
+   "formula": "assessment = history plus body measurements plus laboratory readings, all interpreted together",
+   "key_idea": "No sound diet plan can precede a measured picture of the patient's status and needs.",
+   "textbook_ref": "lehe102.txt, Nutritional assessment (approx lines 306-332)",
+   "question_patterns": [
+    "what is nutritional assessment and why is it carried out",
+    "list the components of a nutritional assessment",
+    "name the body measurements taken while judging nutritional status",
+    "how are laboratory and physical readings used along with the diet history",
+    "which future risks can a good assessment expose"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the histories: health, diet, personal, medication",
+     "explain": "these reveal habits, allergies and drug nutrient clashes"
+    },
+    {
+     "step": 2,
+     "action": "add measurements and laboratory data, then interpret",
+     "explain": "the physician's diagnosis ties the findings together and flags deficiencies"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Combining histories, body measurements and laboratory readings to judge nutrition status is called what?",
+     "a": "nutritional assessment"
+    }
+   ]
+  },
+  {
+   "id": "lehe102.4",
+   "title": "Objectives of Diet Therapy",
+   "section": "Basic Concepts",
+   "definition": "Planning a therapeutic diet aims to speed recovery, reshape the usual diet to keep the disease in check, fix deficiencies, guard against short and long term complications, and teach the patient to adhere to the plan.",
+   "formula": "qualitative idea -- recovery plus control plus correction plus prevention plus adherence",
+   "key_idea": "A plan respects the patient's food habits, culture, occupation and pocket, or it simply will not be followed.",
+   "textbook_ref": "lehe102.txt, objectives of diet therapy (approx lines 222-240)",
+   "question_patterns": [
+    "state the objectives of diet therapy",
+    "why must a therapeutic diet fit the patient's usual food habits",
+    "how does diet therapy keep a chronic disease under control",
+    "which factors does a dietitian weigh before modifying a diet",
+    "what part does education and counselling play in diet therapy",
+    "why do surgical patients need nutrition support before and after operation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the five objectives in order",
+     "explain": "recovery, modification, correction of deficiencies, prevention of complications, counselling"
+    },
+    {
+     "step": 2,
+     "action": "add the acceptance filters: illness stress, psychological stress, food acceptance, acceptability of the modified diet",
+     "explain": "these decide whether the plan survives contact with the patient"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Diet therapy aims to speed what: recovery or advertising?",
+     "a": "recovery"
+    }
+   ]
+  },
+  {
+   "id": "lehe102.5",
+   "title": "Types of Diets and Dietary Modification",
+   "section": "Types of Diets",
+   "definition": "A regular diet covers all food groups for a healthy person; modified diets adjust consistency, energy, nutrient levels, meal spacing or the feeding route to answer a patient's medical needs.",
+   "formula": "qualitative idea -- each modification serves one medical purpose",
+   "key_idea": "Protein goes up after surgery and down in kidney failure; sodium and fluid may be capped; oxalate rich foods like spinach may be restricted.",
+   "textbook_ref": "lehe102.txt, Types of Diets (approx lines 355-377)",
+   "question_patterns": [
+    "what are the types of dietary modification a medical nutrition therapist may make",
+    "distinguish between a regular hospital diet and a modified diet",
+    "for which conditions is protein raised and for which is it lowered",
+    "why is sodium or fluid restricted in some therapeutic diets",
+    "why might the number of meals or the feeding interval be changed",
+    "give two examples of nutrient level changes used in hospital diets",
+    "why may spinach be restricted in certain diets"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the regular diet and its hospital version",
+     "explain": "hospitals trim fried fatty items, sweets and heavy spices even from normal diets"
+    },
+    {
+     "step": 2,
+     "action": "enumerate the four modification levers: consistency, energy, nutrient amounts, meal pattern or route",
+     "explain": "one or more levers are pulled to fit the diagnosis"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which diet covers all food groups for a healthy person: regular or liquid?",
+     "a": "regular"
+    }
+   ]
+  },
+  {
+   "id": "lehe102.6",
+   "title": "Consistency Changes: Liquid and Soft Diets",
+   "section": "Changes in Consistency",
+   "definition": "Diets are thinned or softened to match chewing and swallowing ability: full fluid and clear liquid regimens after surgery or for swallowing trouble, soft and mechanical soft regimens for weak digestion or denture and teething difficulties.",
+   "formula": "qualitative ladder -- clear liquid to full fluid to soft to mechanical soft to regular",
+   "key_idea": "Clear liquids follow an operation but cannot meet full nutrient needs for long; fibreless fluids absorb easily.",
+   "textbook_ref": "lehe102.txt, Changes in Consistency (approx lines 378-405)",
+   "question_patterns": [
+    "differentiate between a clear liquid diet and a full fluid diet",
+    "when is a clear liquid regimen prescribed and what limits it",
+    "which foods fit a soft diet for an invalid",
+    "what is a mechanical soft diet and who needs it",
+    "suggest diet adjustments for an elderly person with no teeth",
+    "why are fibrous and gas forming foods dropped from soft regimens",
+    "name four foods suitable for a full fluid diet"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "order the consistency levels and their users",
+     "explain": "post surgery cases start on clear soups and pulp free juices; chewing problems call for khichdi style soft meals or mashed purees"
+    },
+    {
+     "step": 2,
+     "action": "note the purpose of each level",
+     "explain": "rest to the digestive tract, easy absorption, freedom from harsh fibre and spice"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which regimen follows immediately after an operation: clear liquid or regular?",
+     "a": "clear liquid"
+    }
+   ]
+  },
+  {
+   "id": "lehe102.7",
+   "title": "Feeding Routes: Oral, Tube and Intravenous",
+   "section": "Feeding Routes",
+   "definition": "Feeding by mouth is the first choice; when chewing or swallowing fails, complete liquid feeds travel down a tube passed through the nose into the stomach, and when the gut cannot work, prepared solutions drip into a vein.",
+   "formula": "route choice -- mouth first, tube next, vein last",
+   "key_idea": "Tube feeding beats intravenous feeding whenever the gastrointestinal tract can still digest and absorb.",
+   "textbook_ref": "lehe102.txt, Feeding Routes (approx lines 406-416)",
+   "question_patterns": [
+    "name the routes used to feed a patient who cannot swallow",
+    "when is tube feeding preferred over intravenous feeding",
+    "how is intravenous feeding given to an unconscious patient",
+    "which patients need a nasogastric tube",
+    "why is oral feeding ranked the best route",
+    "what is delivered through a feeding tube"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "rank the routes and their conditions",
+     "explain": "mouth for the able, nose to stomach tube for the blocked or unconscious, vein for a non working gut"
+    },
+    {
+     "step": 2,
+     "action": "justify the preference order",
+     "explain": "a functional gut digests and absorbs complete feeds better than any drip"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which feeding route is the first choice: oral or intravenous?",
+     "a": "oral"
+    }
+   ]
+  },
+  {
+   "id": "lehe102.8",
+   "title": "Diet, Lifestyle and Chronic Disease Prevention",
+   "section": "Prevention of Chronic Diseases",
+   "definition": "Urban plates have drifted towards more fat, refined sugar and salt with less fibre, a shift that feeds obesity, diabetes, hypertension, colon cancer and heart trouble, so early diet counselling can push back the age of onset.",
+   "formula": "qualitative idea -- refined plus high fat plus high salt diets raise chronic disease risk",
+   "key_idea": "Convenience foods high in sodium and low in potassium rich fruits and vegetables, with little activity and much stress, drive blood pressure up.",
+   "textbook_ref": "lehe102.txt, Prevention of Chronic Diseases and exercise box studies (approx lines 417-471)",
+   "question_patterns": [
+    "why do we need dietary changes to prevent chronic diseases",
+    "describe the shifts seen in urban Indian diets over the past decade",
+    "how are rising sugar and fat intake linked with obesity and diabetes",
+    "which dietary pattern raises the risk of hypertension",
+    "what did the study of twenty thousand men show about weekly fish eating and sudden cardiac death",
+    "how can a clinical nutritionist help a community delay lifestyle disease",
+    "why are processed foods blamed for low fibre intakes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "map the dietary drift: more fat, sugar, salt and animal protein, less fibre and micronutrients",
+     "explain": "refined processed foods carry additives and shed beneficial constituents"
+    },
+    {
+     "step": 2,
+     "action": "connect drift to disease: obesity, colon cancer, diabetes, cardiovascular disease, hypertension",
+     "explain": "less activity and more stress multiply the effect"
+    },
+    {
+     "step": 3,
+     "action": "state the preventive role of the nutritionist",
+     "explain": "counselling in schools, colleges and clinics corrects choices before disease sets in"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Urban plates have drifted towards more fat, refined sugar and what taste enhancer: salt or bitter?",
+     "a": "salt"
+    }
+   ]
+  },
+  {
+   "id": "lehe102.9",
+   "title": "Study Risk Arithmetic",
+   "section": "Exercise box: diet and disease studies",
+   "definition": "A diet disease study that quotes a percentage fall in risk lets you compute the danger still left: take the stated percent of the baseline risk away from the baseline.",
+   "formula": "remaining_risk = baseline_risk - baseline_risk * pct_reduction / 100",
+   "key_idea": "A 52 percent fall in risk leaves 48 percent of the original risk in play.",
+   "textbook_ref": "lehe102.txt, exercise box clinical studies (approx lines 459-471)",
+   "question_patterns": [
+    "a study links weekly fish meals to a 52 percent drop in sudden death risk; if the baseline risk is 50 per 1000 men, what risk remains",
+    "if a diet lowers the risk of a condition by P percent from a baseline of R, calculate the risk that still remains",
+    "compute the reduced risk after a 52 percent fall from a starting level of 200 per 10000 people",
+    "a dietary claim promises a 25 percent reduction from a baseline risk of 80; find the new risk level",
+    "work out the risk left once the stated percentage reduction is applied to the initial level"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "size the reduction",
+     "explain": "multiply the baseline by the percentage cut and divide by one hundred",
+     "compute": "risk_cut = baseline_risk * pct_reduction / 100"
+    },
+    {
+     "step": 2,
+     "action": "subtract the cut from the baseline",
+     "explain": "whatever remains is the risk still carried after the dietary change",
+     "compute": "remaining_risk = baseline_risk - risk_cut"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "A 52 percent fall in risk leaves what percent of the original risk?",
+     "a": "48"
+    }
+   ]
+  },
+  {
+   "id": "lehe102.10",
+   "title": "Post-Harvest Wastage Share",
+   "section": "Unit Introduction: food processing",
+   "definition": "A fixed fraction of harvested fruits, vegetables and milk spoils before processing; the tonnage lost is that fraction applied to the whole harvest, which is exactly why food processing is urged upon the country.",
+   "formula": "wasted_produce = total_produce * waste_share",
+   "key_idea": "Between a fifth and a third of produce perishes, so preservation and processing convert losses into products and jobs.",
+   "textbook_ref": "lehe102.txt, unit introduction on produce wastage (approx lines 43-59)",
+   "question_patterns": [
+    "about one fifth of a 5000 tonne fruit harvest spoils before processing; compute the tonnage wasted",
+    "if a share W of total produce P is lost between farm and market, calculate the wasted quantity",
+    "find the quantity lost when one third of a 900 kg vegetable lot perishes",
+    "a cold chain failure wastes 25 percent of a 20000 kg consignment; how many kg are gone",
+    "compute the tonnage wasted when the spoilage fraction and the harvest size are stated"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the spoilage fraction to the harvest",
+     "explain": "multiply the total produce by the wasted share to get the loss",
+     "compute": "wasted_produce = total_produce * waste_share"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Between a fifth and a third of harvested produce what before processing: perishes or multiplies?",
+     "a": "perishes"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lehe102.txt exercise box, fish study finding",
+   "concept": "lehe102.9",
+   "question_type": "numeric",
+   "question_pattern": "Weekly fish eating is tied to a {pct_reduction} percent reduction in the risk of sudden death. If the baseline risk is {baseline_risk} per 1000 men, what risk remains?",
+   "extracted_variables": {
+    "pct_reduction": 52,
+    "baseline_risk": 50
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "size the reduction",
+     "explain": "50 x 52 / 100 = 26 units of risk are removed",
+     "compute": "risk_cut = baseline_risk * pct_reduction / 100"
+    },
+    {
+     "step": 2,
+     "action": "subtract from the baseline",
+     "explain": "50 - 26 = 24 per 1000 remains",
+     "compute": "remaining_risk = baseline_risk - risk_cut"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lehe102.txt unit introduction, produce wastage",
+   "concept": "lehe102.10",
+   "question_type": "numeric",
+   "question_pattern": "Roughly one fifth of a harvest of {total_produce} tonnes of fruit is wasted. Compute the tonnage lost.",
+   "extracted_variables": {
+    "total_produce": 5000,
+    "waste_share": 0.2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the wasted share",
+     "explain": "5000 x 0.2 = 1000 tonnes spoiled",
+     "compute": "wasted_produce = total_produce * waste_share"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lehe102.txt Types of Diets",
+   "concept": "lehe102.5",
+   "question_type": "short_answer",
+   "question_pattern": "A patient recovering from kidney failure needs a changed diet. Which dietary modifications may the therapist order and why?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "pick the relevant levers",
+     "explain": "lower protein to spare the kidneys, cap sodium and fluid, adjust meal pattern"
+    },
+    {
+     "step": 2,
+     "action": "justify each lever",
+     "explain": "each change answers one medical purpose set by the diagnosis"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "lehe102.txt Basic Concepts, dietitian role",
+   "concept": "lehe102.2",
+   "question_type": "short_answer",
+   "question_pattern": "Describe how a dietitian and a physician share the care of a hospitalised patient.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide the duties",
+     "explain": "the physician diagnoses and treats; the dietitian assesses status, prescribes the diet and ensures hospital food follows the restrictions"
+    },
+    {
+     "step": 2,
+     "action": "add the counselling link",
+     "explain": "dietary counselling by the dietitian keeps the plan alive after discharge"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-rv-1",
+   "source_ref": "lehe102.txt Review Questions 1-6",
+   "questions": [
+    "Why does the study of clinical nutrition and dietetics matter today?",
+    "Which dietary modifications can a medical nutrition therapist order?",
+    "Why are dietary changes needed to prevent chronic diseases and how does lifestyle enter the picture?",
+    "What roles does a dietitian perform and how does the dietitian team up with other health professionals?",
+    "How can one prepare for a career in clinical nutrition and dietetics?",
+    "How does illness or disease alter the nutritional status of a person?"
+   ]
+  },
+  {
+   "id": "ex-pr-1",
+   "source_ref": "lehe102.txt Practical 1, modification of a normal diet to soft diet",
+   "questions": [
+    "Record one full day of food intake, including beverages, for an adult under sixty using a 24 hour recall format.",
+    "Judge the recorded diet against recommended servings for each food group and note the gaps.",
+    "Convert the recorded diet into a soft diet for an elderly person who has no teeth.",
+    "Reassess the modified diet for balance and note whether it still meets the servings guide.",
+    "Discuss the modified plan with an elderly neighbour and record the comments received."
+   ]
+  }
+ ]
+}

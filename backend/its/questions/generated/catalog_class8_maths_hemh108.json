@@ -1,0 +1,214 @@
+{
+ "catalog": "catalog_class8_maths_hemh108.json",
+ "concepts": [
+  {
+   "id": "hemh.108.8.1",
+   "title": "Monomials, Binomials, Trinomials and Polynomials",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 6 + 6 gives 24",
+     "compute": "val = 3 * 6 + 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate 3x + 6 when x = 6.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 3x^2 + 7x + 5 when x = 3.",
+     "a": "53",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 6x + 5x - 3x and give the coefficient of x.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 2 x (8 + 8) equals 2 x 8 + 2 x 8. Compute it.",
+     "a": "32",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 2 + 4 x 5 (respect the order of operations).",
+     "a": "22",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (6 + 7) x 3.",
+     "a": "39",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.108.8.2",
+   "title": "Multiplying Monomials",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Evaluate 3x + 4 when x = 9.",
+     "a": "31",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 5x^2 + 8x + 5 when x = 6.",
+     "a": "233",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 5x + 8x - 6x and give the coefficient of x.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 4 x (7 + 7) equals 4 x 7 + 4 x 7. Compute it.",
+     "a": "56",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 4 + 8 x 9 (respect the order of operations).",
+     "a": "76",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (5 + 8) x 2.",
+     "a": "26",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.108.8.3",
+   "title": "Multiplying a Monomial by a Binomial",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 4 + 2 gives 14",
+     "compute": "val = 3 * 4 + 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate 3x + 2 when x = 4.",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 6x^2 + 6x + 5 when x = 3.",
+     "a": "77",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 3x + 8x - 4x and give the coefficient of x.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 4 x (6 + 3) equals 4 x 6 + 4 x 3. Compute it.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 9 + 6 x 5 (respect the order of operations).",
+     "a": "39",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (9 + 8) x 4.",
+     "a": "68",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.108.8.4",
+   "title": "Multiplying Two Binomials",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 9 + 6 gives 33",
+     "compute": "val = 3 * 9 + 6"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate 3x + 6 when x = 9.",
+     "a": "33",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 6x^2 + 4x + 5 when x = 2.",
+     "a": "37",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 4x + 4x - 5x and give the coefficient of x.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 6 x (8 + 9) equals 6 x 8 + 6 x 9. Compute it.",
+     "a": "102",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 8 + 4 x 5 (respect the order of operations).",
+     "a": "28",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (9 + 2) x 3.",
+     "a": "33",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hemh.108.8.5",
+   "title": "Standard Identities",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Use the identity (a + b)^2 = a^2 + 2ab + b^2 to find the square of 5 more than 3; report the value.",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "Using (a - b)^2 = a^2 - 2ab + b^2, evaluate 26^2 - 2 x 26 x 7 + 7^2.",
+     "a": "361",
+     "self_check": false
+    },
+    {
+     "q": "Use a^2 - b^2 = (a + b)(a - b) to compute 15 x 9 where the numbers are a + b and a - b for a = 12, b = 3.",
+     "a": "135",
+     "self_check": false
+    },
+    {
+     "q": "Expand (x + 5)(x + 4) using the identity x^2 + (a + b)x + ab and evaluate it at x = 7.",
+     "a": "132",
+     "self_check": false
+    },
+    {
+     "q": "Compute 105^2 using (100 + 5)^2 = 10000 + 2 x 100 x 5 + 5^2.",
+     "a": "11025",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 98 x 102 using a^2 - b^2 with a = 100 and b = 2.",
+     "a": "9996",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

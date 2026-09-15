@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_01_001",
+   "title": "c11_stat_cbse_01_001",
+   "questions": [
+    {
+     "q": "**REMEMBER**: State the two senses in which the term \"statistics\" is used in economics, and give one example of each sense from daily life.",
+     "a": "**Correct answer**: Plural sense = numerical data (e.g., \"The statistics of Class 11 marks show an average of 72%\"). Singular sense = statistical methods (e.g., \"Statistics helps us calculate that average\").  \n**Wrong answer reveals**: If a student gives two examples of data (e.g., \"population statistics\" and \"cricket statistics\"), they have not grasped the methodological singular sense. If they define singular sense as \"a single statistic,\" they confuse grammatical number with the disciplinary meaning.",
+     "self_check": true
+    },
+    {
+     "q": "**UNDERSTAND**: A student says, \"The statistics in this report are misleading because the sample size was too small.\" Identify whether \"statistics\" here is used in the plural or singular sense, and explain why the sample size critique applies to that sense.",
+     "a": "**Correct answer**: Plural sense (the reported numbers/data). The critique targets the *data quality* — a small sample size produces unreliable numerical facts, which is a property of the data (plural sense), not the methods themselves.  \n**Wrong answer reveals**: If the student says \"singular sense because it's about methodology,\" they miss that the complaint is about the resulting numbers, not the method definition. This shows they cannot map real-world critiques to the correct sense.",
+     "self_check": true
+    },
+    {
+     "q": "**APPLY**: Classify each statement as plural sense (P) or singular sense (S):  \n(a) \"Statistics show that literacy rate in Kerala is 94%.\"  \n(b) \"Statistics enables economists to test hypotheses about demand elasticity.\"  \n(c) \"The statistics on unemployment were revised upward last month.\"  \n(d) \"Without statistics, we cannot condense millions of income records into a single Gini coefficient.\"",
+     "a": "**Correct answer**: (a) P — presents a numerical fact. (b) S — refers to the discipline/methods. (c) P — refers to the data set that was revised. (d) S — refers to the methodological function of condensation/summarisation.  \n**Wrong answer reveals**: Misclassifying (c) as S reveals confusion between \"revising data\" (plural) and \"revising methods\" (singular). Misclassifying (d) as P reveals inability to recognise \"condensing records\" as a methodological activity.",
+     "self_check": true
+    },
+    {
+     "q": "**ANALYSE**: Compare the NCERT definition of statistics in singular sense (\"collection, analysis, interpretation and presentation of numerical data\") with the plural sense definition (\"numerical facts systematically collected\"). Explain how the *purpose* of systematic collection bridges the two senses.",
+     "a": "**Correct answer**: The plural sense defines the *output* (systematically collected numerical facts). The singular sense defines the *process* that produces that output. The phrase \"systematically collected\" in the plural definition implicitly invokes the singular sense methods — data are not just numbers; they are numbers produced by statistical methodology. The bridge is that plural-sense data only qualify as \"statistics\" when generated through singular-sense methods.  \n**Wrong answer reveals**: Treating them as unrelated definitions misses the procedural link. Saying \"plural is data, singular is method\" without connecting \"systematic collection\" shows surface-level memorisation.",
+     "self_check": true
+    },
+    {
+     "q": "**EVALUATE**: Critique this statement: \"Qualitative data like 'gender' or 'skill level' are not statistics because statistics only deals with numbers.\" Use the NCERT distinction between quantitative and qualitative data in your defence.",
+     "a": "**Correct answer**: The statement is false. NCERT explicitly states: \"In addition to quantitative data, Economics also uses qualitative data... Such qualitative information or statistics is often used in Economics... collected and stored systematically like quantitative information.\" The plural sense of statistics includes *systematically collected qualitative attributes* (e.g., gender coded as 0/1, skill levels as ordinal categories).  \n**Wrong answer reveals**: Agreeing with the statement shows the student equates \"statistics\" with \"quantitative data only,\" ignoring the textbook's explicit inclusion of qualitative data under the plural sense.",
+     "self_check": true
+    },
+    {
+     "q": "**CREATE**: Construct a real-world scenario (2-3 sentences) where the *same* word \"statistics\" appears twice — once in plural sense and once in singular sense — and the meaning shifts. Label each occurrence.",
+     "a": "**Expected answer**: Example: \"The **statistics** (plural: data) on farm suicides are alarming, so the ministry hired experts in **statistics** (singular: methods) to design a better reporting system.\"  \n**Poor answer reveals**: Using \"statistics\" twice in the same sense (e.g., \"The statistics are alarming, so we need more statistics\") shows inability to operationalise the distinction. A good answer must have a clear context shift from *numbers* to *discipline*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

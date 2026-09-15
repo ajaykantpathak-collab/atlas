@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch1_12",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch1_12",
+   "title": "c8_math_ch1_12",
+   "questions": [
+    {
+     "q": "What is the cube root of 343, and how do you know it is the cube root without using a calculator?",
+     "a": "The cube root of 343 is 7 because \\(7 \\times 7 \\times 7 = 343\\). A wrong answer like 49 (which is \\(7^2\\)) reveals the student confuses square roots with cube roots, or they might answer 3 because they think the cube root divides by 3, showing a fundamental misunderstanding of the inverse operation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \\(\\sqrt[3]{-216} = -6\\) but \\(\\sqrt{-216}\\) is not a real number. What does this tell you about the difference between square roots and cube roots of negative numbers?",
+     "a": "\\(\\sqrt[3]{-216} = -6\\) because \\((-6) \\times (-6) \\times (-6) = -216\\). A negative number multiplied three times stays negative, so the cube root of a negative is negative. A wrong answer claiming both are undefined or both are real shows the student has not grasped that odd roots preserve the sign while even roots do not exist for negatives in real numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Find the cube root of 13,824 using prime factorisation. Show all steps.",
+     "a": "Prime factorisation: \\(13,824 = 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 3 \\times 3 \\times 3 = (2^3)^3 \\times 3^3\\). Group into triplets: \\((2^3) \\times (2^3) \\times (2^3) \\times (3^3)\\). Take one factor from each triplet: \\(2 \\times 2 \\times 2 \\times 3 = 24\\). So \\(\\sqrt[3]{13,824} = 24\\). A wrong answer like 12 (missing a triplet of 2) reveals the student cannot correctly group factors into triplets or miscounts the number of factors.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that if you double a number, its cube also doubles. Use the relationship between a number and its cube to prove whether this is true or false. Give a numerical example.",
+     "a": "False. If the number is \\(n\\), its cube is \\(n^3\\). Doubling the number gives \\(2n\\), and its cube is \\((2n)^3 = 8n^3\\), which is 8 times the original cube, not 2 times. For example, \\(3^3 = 27\\); double 3 is 6, and \\(6^3 = 216 = 8 \\times 27\\). A student who says it's true is applying linear thinking to a cubic relationship, confusing multiplication by 2 with raising to the power 3.",
+     "self_check": true
+    },
+    {
+     "q": "Ravi says \\(\\sqrt[3]{8000} = 20\\) because \\(20^3 = 8000\\). Priya says \\(\\sqrt[3]{8000} = 200\\) because \\(8000 \\div 40 = 200\\). Evaluate both methods and justify which is correct.",
+     "a": "Ravi is correct. The cube root is defined as the number which when cubed gives the original number; \\(20^3 = 8000\\) verifies this. Priya's method uses division by 40, which has no mathematical basis for cube roots. A student who supports Priya confuses cube root with division or misapplies a pattern from square roots (where \\(\\sqrt{100} = 10\\) and \\(100 \\div 10 = 10\\)), showing they do not understand the inverse operation definition.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (using Indian context: rupees, metres, litres) where finding a cube root is necessary to solve it. The problem must involve a perfect cube between 1,000 and 10,000.",
+     "a": "Example: A school wants to store 4,096 litres of water in a cubical tank. What should be the side length of the tank in metres? (Note: 1 m³ = 1000 litres). Solution: Volume = 4.096 m³. Side = \\(\\sqrt[3]{4.096} = \\sqrt[3]{4096/1000} = \\sqrt[3]{4096}/\\sqrt[3]{1000} = 16/10 = 1.6\\) m. A poor answer might give a problem requiring square root or use a non-perfect cube, showing the student cannot distinguish between area (square) and volume (cube) contexts or identify perfect cubes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

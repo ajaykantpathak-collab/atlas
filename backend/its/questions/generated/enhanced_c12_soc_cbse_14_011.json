@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_14_011",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_14_011",
+   "title": "c12_soc_cbse_14_011",
+   "questions": [
+    {
+     "q": "What is the primary statutory function of the Press Council of India under the Press Council Act, 1978?",
+     "a": "The Press Council of India is a quasi-judicial body mandated to preserve press freedom and improve standards of newspapers and news agencies by inquiring into complaints against the press (ethical violations) and by the press (interference with freedom). It can warn, admonish, or censure but cannot impose fines or revoke licences. A wrong answer (e.g., \"it can cancel a newspaper's registration\" or \"it regulates TV channels\") reveals confusion between the Council's moral authority and legal enforcement powers, and ignorance of its print-only jurisdiction.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Prasar Bharati Act, 1990 was enacted and how it sought to address the problem of government control over All India Radio and Doordarshan.",
+     "a": "The Act created Prasar Bharati as an autonomous corporation to manage AIR and Doordarshan, with a Board appointed by a committee including the Vice-President and Leader of Opposition, aiming to insulate public broadcasting from day-to-day government interference. A wrong answer that merely states \"it made Doordarshan independent\" without mentioning the Board's composition, funding through Parliament (which retains leverage), or the continued tension over editorial autonomy shows superficial understanding of the structural limitations of the autonomy granted.",
+     "self_check": true
+    },
+    {
+     "q": "A newspaper publishes a paid news item disguised as an editorial during elections. The Press Council receives a complaint. Outline the steps the Council can take and the practical limitation it faces in sanctioning the newspaper.",
+     "a": "Steps: (1) Council inquires into the complaint under Section 14 of the Act; (2) if prima facie case, issues notice to the newspaper; (3) holds hearing; (4) may warn, admonish, or censure the newspaper; (5) publishes its decision in the Council's journal. Limitation: The Council lacks penal powers — it cannot impose fines, suspend publication, or cancel registration; its censure is moral, not legal. A wrong answer suggesting the Council can \"fine the newspaper\" or \"order Election Commission action\" conflates its role with statutory regulators like the ECI or a court.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the regulatory architecture for print media (Press Council) and private television news channels in India. Why does this asymmetry exist and what are its consequences for accountability?",
+     "a": "Print media has a statutory self-regulatory body (Press Council) with peer adjudication but no teeth; private TV news channels have no equivalent statutory council — they are governed by the Cable TV Networks Act (content codes) and self-regulatory bodies like NBSA (News Broadcasters Standards Authority) which are voluntary. Asymmetry exists because broadcasting uses public airwaves (spectrum scarcity argument) and was historically state-monopoly, leading to lighter touch for print. Consequence: TV news accountability relies on voluntary codes and government's licensing power, creating a chilling effect; print accountability is moral but legally toothless. A wrong answer claiming \"both are regulated by Press Council\" or \"TV is regulated by TRAI for content\" ignores the institutional gap.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the argument that \"statutory regulation of media inevitably undermines press freedom\" using the Indian experience of the Emergency (1975-77) and the Press Council's subsequent role.",
+     "a": "During Emergency, the Press Council was abolished (1975) and censorship imposed via executive order — showing state power can override any statutory body. Post-Emergency, the Council was reconstituted (1979) as a safeguard. The argument is partially valid: statutory bodies can be weakened by executive (e.g., appointments, funding). However, the Council's existence provides a formal forum for press freedom complaints that didn't exist pre-1975. The nuanced evaluation: statutory regulation is a double-edged sword; its design (appointment process, financial independence, adjudicatory powers) determines whether it protects or controls. A wrong answer that simply says \"statutory regulation is bad because of Emergency\" ignores the Council's post-Emergency role in documenting violations and advocating freedom.",
+     "self_check": true
+    },
+    {
+     "q": "Design a regulatory framework for digital news media (online portals, YouTube news channels) that balances freedom of expression with accountability for misinformation. Justify each element with reference to the Press Council and Prasar Bharati models.",
+     "a": "A good answer proposes: (1) A statutory Digital Media Council with majority working journalists and civil society (like Press Council's composition) but with limited, transparent takedown powers for demonstrably false content (unlike Press Council's toothlessness); (2) Financial independence via a levy on digital ad revenue (addressing Prasar Bharati's funding dependence); (3) Fast-track adjudication with appeal to High Court (avoiding executive censorship); (4) Exemption for small publishers (proportionality). Justification must link each element to lessons from Press Council (peer adjudication works but needs teeth) and Prasar Bharati (autonomy requires financial insulation). A poor answer replicates TV-style licensing or grants government direct blocking powers without judicial oversight.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

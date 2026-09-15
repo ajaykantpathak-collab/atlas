@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_09_001",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_09_001",
+   "title": "c11_biotech_cbse_09_001",
+   "questions": [
+    {
+     "q": "Define bioinformatics in one sentence using the three core disciplinary pillars mentioned in the NCERT textbook. Do not use the words \"computer\" or \"software\" in your definition.",
+     "a": "Bioinformatics is an interdisciplinary field that uses computational, mathematical, and statistical approaches to analyse biological information for solving biological problems. A wrong answer that says \"bioinformatics is using computers to study biology\" reveals the misconception that it is merely a tool application rather than a discipline with its own theoretical frameworks—such a student will struggle to justify why a specific statistical test (e.g., t-test vs ANOVA) is appropriate for a given dataset, which is a board-exam competency.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT textbook states that bioinformatics is \"alternatingly and interchangeably used with other terms such as 'computational biology,' 'mathematical biology,' 'quantitative biology' and 'bio-statistics,' depending on the dominating disciplinary component.\" Explain in your own words what \"dominating disciplinary component\" means, and give one example where you would call a study \"computational biology\" rather than \"bioinformatics.\"",
+     "a": "\"Dominating disciplinary component\" means the primary lens or methodology driving the research: if the core contribution is a new algorithm or computational method, it is computational biology; if the core contribution is a biological discovery enabled by existing tools, it is bioinformatics. Example: Developing a new graph-based genome assembler is computational biology; using BLAST to identify a novel antibiotic resistance gene in a clinical isolate is bioinformatics. A wrong answer that equates the terms reveals the student cannot distinguish method development from method application—a distinction tested in board exam assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher has generated 500 GB of raw RNA-seq reads from a drought-stressed wheat variety. She wants to identify differentially expressed genes. List the sequential bioinformatics workflow steps she must follow, naming the specific tool category (not brand name) for each step. Start from raw reads and end with functional interpretation.",
+     "a": "1. Quality control (QC tool: e.g., FastQC) → 2. Adapter/quality trimming (trimming tool: e.g., Trimmomatic) → 3. Alignment to reference genome (aligner: e.g., STAR/HISAT2) OR de novo assembly (assembler: e.g., Trinity) → 4. Quantification of expression (quantifier: e.g., featureCounts/Salmon) → 5. Differential expression analysis (statistical tool: e.g., DESeq2/edgeR) → 6. Functional annotation/enrichment (ontology tool: e.g., GO/KEGG enrichment). A wrong answer that skips QC or jumps straight to BLAST reveals the student thinks bioinformatics is only about database searching, not a pipeline with ordered, interdependent steps where garbage-in-garbage-out applies.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the historical trajectory of structural bioinformatics versus genome informatics. Why did structural bioinformatics precede genome informatics by several decades, and what technological shift reversed their relative prominence?",
+     "a": "Structural bioinformatics (protein 3D structures via X-ray crystallography/NMR) began in the 1960s–70s because single-protein structure determination was feasible before high-throughput sequencing existed. Genome informatics emerged only after Sanger sequencing was automated and next-generation sequencing (NGS) enabled whole-genome assays in the 2000s. The technological shift was the exponential drop in sequencing cost (from $100M per genome in 2001 to ~$600 today) coupled with massive compute/storage advances. A wrong answer that claims \"computers got faster\" without linking to specific assay technologies (microarrays → NGS) shows the student memorises timelines but cannot connect experimental capability to data-analytic demand.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement: \"Since AI tools like AlphaFold can now predict protein structures with near-experimental accuracy, experimental structure determination (X-ray crystallography, cryo-EM) will become obsolete within a decade.\" Use concepts from the NCERT section 9.5 to justify your evaluation.",
+     "a": "The statement is overconfident. NCERT 9.5 explicitly states: \"The competency of the tools being developed for analysis is still not at par with the fast pace at which the data is being produced\" and \"a successful intersection between AI and bioinformatics will require time and multi-disciplinary efforts.\" AlphaFold predicts static structures but cannot yet reliably model protein dynamics, ligand-induced conformational changes, or multi-protein complexes in cellular contexts—all of which require experimental validation. Moreover, AI models train on experimentally determined structures; without new experimental data, model improvement stalls. A wrong answer that agrees uncritically reveals the student conflates prediction with determination and ignores the iterative dependency between experiment and computation highlighted in the textbook.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal bioinformatics project for a Class 11 student to demonstrate the full cycle: biological question → data acquisition → analysis → interpretation. Specify the biological question, the public database used, the tool category (not specific software), and the expected output format. The project must be completable in 2 hours on a standard laptop.",
+     "a": "Biological question: \"Which human gene is most similar to the insulin gene of zebrafish?\" Data acquisition: Retrieve zebrafish insulin protein sequence (FASTA) from UniProt. Analysis: Homology search using BLASTp (blastp tool category) against human RefSeq protein database. Interpretation: Identify top hit, note % identity, E-value, and align conserved cysteine residues critical for disulfide bonds. Output: Screenshot of BLAST results table + annotated alignment snippet. A poor answer that suggests \"download all human genes and compare manually\" reveals the student does not grasp that bioinformatics relies on pre-indexed databases and algorithmic search, not brute-force inspection.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

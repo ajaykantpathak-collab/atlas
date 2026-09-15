@@ -1,0 +1,215 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 4,
+ "chapter_title": "The World of Metals and Non-metals",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gecu104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "gecu.4.1",
+   "title": "Properties of Metals",
+   "section": "Properties of materials",
+   "definition": "Metals share a family of properties: they shine when freshly cut or polished, can be beaten into sheets, drawn into wires, ring when struck, conduct heat and electricity well, and are heavy for their size.",
+   "formula": "",
+   "key_idea": "Lustre, malleability, ductility, sonority and conduction together identify a metal.",
+   "textbook_ref": "gecu104.txt, Properties of materials",
+   "question_patterns": [
+    "list the properties of metals",
+    "what is malleability and ductility",
+    "why do metal vessels conduct heat quickly",
+    "which property makes metals useful for wires",
+    "why do metals shine when polished",
+    "test which of your pencils' parts is metallic"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "observe the change or behaviour",
+     "explain": "Note exactly what happens in the activity."
+    },
+    {
+     "step": 2,
+     "action": "record the pattern",
+     "explain": "Write down which cases show it and which do not."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the rule your observations reveal."
+    }
+   ]
+  },
+  {
+   "id": "gecu.4.2",
+   "title": "The World of Metals and Non-metals",
+   "section": "Metals and non-metals",
+   "definition": "Materials divide into metals like iron, copper and aluminium, and non-metals like sulfur, carbon and oxygen; the ironsmith's tawa, bucket and tongs show how everyday tools are chosen from these two worlds.",
+   "formula": "",
+   "key_idea": "Two great families of elements: their contrasting properties decide what each is used for.",
+   "textbook_ref": "gecu104.txt, Metals and non-metals",
+   "question_patterns": [
+    "name five metals and five non metals",
+    "how do non metals differ from metals in appearance",
+    "which non metal is essential for life",
+    "compare metals and non metals in conduction",
+    "which non metal is used in matchsticks",
+    "sort given samples into metals and non metals"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "set the two sides",
+     "explain": "Write the two ideas or groups side by side."
+    },
+    {
+     "step": 2,
+     "action": "mark what differs",
+     "explain": "Note the points on which they differ and one point they share."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State in one line what the comparison teaches."
+    }
+   ]
+  },
+  {
+   "id": "gecu.4.3",
+   "title": "Rusting: Iron Meets Air and Water",
+   "section": "Effect of air and water on iron",
+   "definition": "A damp iron pan left outdoors turns brown and flaky: rust forms when iron meets both air and water, and the process eats the metal away, which painting and greasing try to prevent.",
+   "formula": "iron + air + water = rust",
+   "key_idea": "Rust needs two partners, oxygen and moisture: removing either protects the iron.",
+   "textbook_ref": "gecu104.txt, Effect of air and water on iron",
+   "question_patterns": [
+    "what is rust and how is it formed",
+    "why does iron rust faster in the rains",
+    "how can rusting of iron be prevented",
+    "does rusting need both air and water explain",
+    "why are iron railings painted",
+    "compare an iron nail kept dry and one kept in water for a week"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "observe the change or behaviour",
+     "explain": "Note exactly what happens in the activity."
+    },
+    {
+     "step": 2,
+     "action": "record the pattern",
+     "explain": "Write down which cases show it and which do not."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "State the rule your observations reveal."
+    }
+   ]
+  },
+  {
+   "id": "gecu.4.4",
+   "title": "Substances that Behave Differently and Uses of Non-metals",
+   "section": "Substances that behave differently",
+   "definition": "Not everything follows the metal script: sulfur is brittle and dull, graphite conducts despite being a non-metal, and non-metals stay essential, oxygen for breathing, nitrogen for plants, carbon for all life.",
+   "formula": "",
+   "key_idea": "Rules have exceptions: the misfits teach us that properties, not labels, decide behaviour.",
+   "textbook_ref": "gecu104.txt, Substances that behave differently",
+   "question_patterns": [
+    "which non metal conducts electricity",
+    "why is sulfur stored away from fire",
+    "why are non metals essential for life",
+    "is graphite a metal discuss",
+    "which gas do plants need that is a non metal",
+    "give one exception to every metal property you know"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gecu104.txt",
+   "concept": "gecu.4.1",
+   "question_type": "verify_property",
+   "question_pattern": "which items does the ironsmith make and from what material?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gecu104.txt",
+   "concept": "gecu.4.2",
+   "question_type": "verify_property",
+   "question_pattern": "how do air and water act on iron?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gecu104.txt, Let us enhance our learning",
+   "questions": [
+    "Which items does the ironsmith make and from what material?",
+    "How do air and water act on iron?",
+    "Which substances behaved differently in the demonstration activities?",
+    "Compare three metals and three non-metals in a properties table.",
+    "Design an experiment to show that air and water are both needed for rusting."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_13_014",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_13_014",
+   "title": "c12_eng_k_cbse_13_014",
+   "questions": [
+    {
+     "q": "What does the acronym PEEL stand for in the context of writing literature answers for CBSE Class 12?",
+     "a": "PEEL stands for Point, Evidence, Explanation, Link. A wrong answer (e.g., \"Paragraph, Example, Explain, Line\" or \"Point, Example, Elaborate, Leave\") reveals the student has memorised a mnemonic without understanding the function of each component — particularly that \"Evidence\" must be a direct textual reference (quote or close paraphrase) and \"Link\" must connect back to the question's key terms, not just summarise.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The poem shows tradition vs modernity because the great-grandmother loved the house but the poet left it.\" Identify the specific weakness in this answer relative to CBSE marking expectations.",
+     "a": "The answer states a valid observation but lacks textual evidence (no quotes or specific line references), uses vague pronouns (\"it\"), and offers no explanation of *how* the contrast is constructed through poetic devices. A CBSE examiner would award 1-2/6 marks — the student understands the theme (understand level) but cannot demonstrate analytical writing (apply level). The fix: insert \"For instance, the great-grandmother's 'elephant ride / Every Monday' contrasts with the poet's admission 'to grow rich / Was a difficult feat'.\"",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite the following weak opening sentence into a strong topic sentence (Point) for a paragraph on class distinction in \"Blood\": \"There are rich and poor people in the poem.\"",
+     "a": "Strong topic sentence: \"Kamala Das uses the extended metaphor of blood consistency to critique hereditary privilege and expose the hollowness of aristocratic claims in a changing social order.\" Steps: 1) Identify the core concept (class distinction via blood metaphor). 2) Name the device (extended metaphor). 3) State the poetic purpose (critique/hollowness). 4) Use precise vocabulary (\"hereditary privilege\", \"aristocratic claims\"). A weak rewrite like \"The poet talks about blood of rich and poor\" fails because it remains at plot-level description.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two evidence selections for a paragraph on the house as symbol. Which is more effective and why?\nSelection A: \"The house was crouching / On its elbows then\"\nSelection B: \"The walls are cracked and torn / And moistened by the rains\"",
+     "a": "Selection A is more effective for a *symbolism* paragraph because \"crouching / On its elbows\" personifies the house as a living, suffering entity, directly supporting an interpretation of the house as the great-grandmother's embodied legacy. Selection B is literal description — useful for setting atmosphere but not for symbolic analysis. The student who chooses B reveals a misconception: treating all textual details as equally analytical. Effective evidence selection requires matching the *type* of quote to the *analytical claim*.",
+     "self_check": true
+    },
+    {
+     "q": "A student's Link sentence reads: \"This shows the poet feels guilty.\" Evaluate this Link against the question: \"How does the poem explore the conflict between personal freedom and ancestral duty?\"",
+     "a": "The Link is inadequate — it reduces a complex thematic conflict to a single emotion (\"guilt\") and ignores the question's key terms (\"personal freedom\", \"ancestral duty\"). A strong Link would be: \"Thus, the poet's physical departure for 'other towns' enacts personal freedom, while the auditory hallucination of 'windows' whine' and 'rafters creaking' reveals ancestral duty as an inescapable psychological burden.\" The weak Link shows the student treats the final sentence as a summary rather than a thematic synthesis.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 3-sentence PEEL paragraph (Point + Evidence + Explanation + Link combined) answering: \"How does the poet use the image of the elephant ride to characterise the great-grandmother?\"",
+     "a": "The great-grandmother's elephant ride to the Siva shrine every Monday ritualises her aristocratic identity and devout tradition (Point). The specific detail \"When she was ten or eleven / Every Monday without fail\" establishes both her youthful privilege and the regularity of ritual (Evidence). The elephant — a royal vehicle — combined with the solitary journey to a Shiva temple portrays a woman whose identity was forged at the intersection of feudal power and religious orthodoxy (Explanation). This characterisation heightens the tragedy of her final years: \"a woman wearied by compromise\" in a crumbling house, making the poet's broken promise to rebuild resonate as a betrayal of that very legacy (Link). A poor answer would narrate the ride as a story event without connecting to characterisation or theme.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

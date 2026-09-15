@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_07_009",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_07_009",
+   "title": "c11_cs_cbse_07_009",
+   "questions": [
+    {
+     "q": "What is the output of the following code?\n```python\nd = {'a': 1, 'b': 2}\nd['c'] = 3\nd['a'] = 10\ndel d['b']\nprint(d)\n```",
+     "a": "Correct answer: `{'a': 10, 'c': 3}`.\nA wrong answer like `{'a': 1, 'b': 2, 'c': 3}` reveals the student thinks assignment only adds and never modifies. An answer like `{'a': 10, 'b': 2, 'c': 3}` shows they think `del` doesn't work or they forgot to delete. An answer missing `'c'` shows they don't understand that a new key is added via assignment.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between `del d['x']` and `d.pop('x')` when the key `'x'` exists in dictionary `d`. What happens in each case if `'x'` does **not** exist?",
+     "a": "Correct answer: Both remove the key-value pair. `pop()` returns the value; `del` does not. If `'x'` is missing, `del` raises `KeyError`; `pop()` also raises `KeyError` unless a default is provided as `pop('x', default)`.\nA wrong answer stating both behave identically on missing keys reveals the student hasn't tested error cases. Saying `pop()` never raises an error shows confusion with `pop(key, default)`.",
+     "self_check": true
+    },
+    {
+     "q": "Write a single line of code to add a key `'score'` with value `95` to dictionary `student` only if `'score'` is not already present. Do not use `if` statements.",
+     "a": "Correct answer: `student.setdefault('score', 95)` — but this is from the next node! At this level, the expected answer is: **You cannot do this with only the operations covered so far (assignment, del, pop) without an `if` check.** Assignment would overwrite. This question tests whether the student understands the limitation of subscript assignment.\nA student writing `student['score'] = 95` reveals they think assignment only adds. A student using `if 'score' not in student:` shows they know the workaround but missed the \"single line without if\" constraint.",
+     "self_check": true
+    },
+    {
+     "q": "Given `d = {'x': 10, 'y': 20}`, what is the result of `d.pop('z', 0)`? What does the dictionary look like after?",
+     "a": "Correct answer: Returns `0` (the default). Dictionary remains `{'x': 10, 'y': 20}` unchanged.\nA wrong answer like `KeyError` shows the student doesn't know `pop()` accepts a default second argument. An answer saying the dictionary changes shows they think `pop` inserts the default.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: `d = {}; d[1] = 'a'; d[1] = 'b'; d[2] = 'c'; del d[1]`. They claim the dictionary now has two key-value pairs. Evaluate this claim.",
+     "a": "Correct answer: The claim is **false**. The dictionary has only **one** pair: `{2: 'c'}`. Steps: `d[1]='a'` adds key 1. `d[1]='b'` **modifies** key 1 to 'b' (does not add a second pair). `d[2]='c'` adds key 2. `del d[1]` removes key 1. Only key 2 remains.\nA student agreeing reveals they think each assignment adds a new pair, not understanding that keys are unique and assignment to an existing key modifies.",
+     "self_check": true
+    },
+    {
+     "q": "Design a small dictionary-based inventory system for a stationery shop. Show code that: (1) adds 3 items with quantities, (2) updates quantity of one item after a sale, (3) removes an item that is out of stock, (4) prints the final inventory. Use only operations from this node.",
+     "a": "Expected answer:\n```python\ninv = {}\ninv['pen'] = 50      # add\ninv['notebook'] = 30 # add\ninv['eraser'] = 20   # add\ninv['pen'] = 45      # modify after selling 5\ndel inv['eraser']    # remove out of stock\nprint(inv)           # {'pen': 45, 'notebook': 30}\n```\nA poor answer uses `pop()` without using the returned value (not wrong but shows missed opportunity), or uses `update()` (outside scope), or forgets that `del` requires the key to exist.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

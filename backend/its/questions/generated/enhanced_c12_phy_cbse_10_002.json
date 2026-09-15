@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_10_002",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_10_002",
+   "title": "c12_phy_cbse_10_002",
+   "questions": [
+    {
+     "q": "State Huygens' principle in your own words and write the mathematical form of Snell's law of refraction using refractive indices n₁ and n₂.",
+     "a": "Huygens' principle: Each point on a wavefront is a source of secondary wavelets; the new wavefront is the forward envelope of these wavelets. Snell's law: n₁ sin i = n₂ sin r. A wrong answer (e.g., stating the corpuscular prediction v₁/v₂ = sin i/sin r) reveals confusion between the wave and particle models of light.",
+     "self_check": true
+    },
+    {
+     "q": "In the Huygens' construction for refraction (Fig. 10.4 of NCERT), why is the refracted wavefront CE drawn as a tangent from point C to the sphere centered at A with radius v₂t, and not as the backwave? What physical assumption justifies ignoring the backwave?",
+     "a": "The forward envelope (tangent in the direction of propagation) represents the advancing wavefront; the backwave would imply energy traveling backward, which is not observed. Huygens assumed the amplitude of secondary wavelets is maximum in the forward direction and zero backward — an ad hoc assumption later justified by rigorous wave theory (Kirchhoff's diffraction integral). A wrong answer (e.g., \"backwave is absorbed\") shows lack of understanding of the envelope construction and the directionality of wave propagation.",
+     "self_check": true
+    },
+    {
+     "q": "A plane wave of wavelength 500 nm in air (n = 1.00) enters a glass slab (n = 1.50) at an angle of incidence 30°. Calculate (a) the angle of refraction, (b) the speed of light in glass, and (c) the wavelength of light in glass. (c = 3.00 × 10⁸ m/s)",
+     "a": "(a) n₁ sin i = n₂ sin r → 1.00 × sin 30° = 1.50 × sin r → sin r = 0.5 / 1.5 = 1/3 → r = sin⁻¹(1/3) ≈ 19.47°.\n(b) v₂ = c / n₂ = (3.00 × 10⁸) / 1.50 = 2.00 × 10⁸ m/s.\n(c) λ₂ = λ₁ / n₂ = 500 nm / 1.50 = 333.3 nm.\nA wrong answer (e.g., using v₂ = c × n₂) reveals confusion about the definition of refractive index and the inverse relationship between speed and n.",
+     "self_check": true
+    },
+    {
+     "q": "The corpuscular model (Newton) predicted that light bends towards the normal when entering a denser medium because its speed increases. The wave model (Huygens) predicts the opposite. Using the Huygens' construction, explain why the wave model necessarily gives v₂ < v₁ when r < i. What experimental evidence decided between the two models?",
+     "a": "In the construction, sin i / sin r = v₁ / v₂. If r < i, then sin r < sin i, so v₁ / v₂ < 1 → v₂ < v₁. Foucault's 1850 experiment measured the speed of light in water and found it less than in air, confirming the wave model. A wrong answer (e.g., \"both models predict same bending\") misses the crucial link between geometry and speed ratio, and the historical significance of Foucault's measurement.",
+     "self_check": true
+    },
+    {
+     "q": "A student derives Snell's law as sin i / sin r = v₂ / v₁ (inverted speed ratio). Identify the exact step in the triangle comparison where the error occurs, and explain why the correct ratio is v₁ / v₂.",
+     "a": "In Fig. 10.4, triangle ABC gives sin i = BC / AC = v₁t / AC. Triangle AEC gives sin r = AE / AC = v₂t / AC. Dividing, sin i / sin r = (v₁t / AC) / (v₂t / AC) = v₁ / v₂. The student likely swapped the triangles (used sin i = AE/AC and sin r = BC/AC), confusing which side corresponds to which medium. This reveals a failure to associate the correct wavelet radius (v₁t or v₂t) with the correct angle (i in medium 1, r in medium 2).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple ripple tank experiment to verify the law of reflection using Huygens' principle. Describe the setup, what you would measure, and how you would confirm i = r from the wavefront geometry.",
+     "a": "Use a ripple tank with a straight barrier (reflector). Generate plane waves with a straight vibrator at an angle to the barrier. Use a strobe light to freeze the wave pattern. Photograph incident and reflected wavefronts. Draw the wavefronts AB (incident) and CE (reflected) and the barrier MN. Measure angles between wavefronts and barrier normal. Construct the Huygens' diagram: from B, draw BC = vt to the barrier; from A, draw a sphere of radius vt; the tangent from C gives CE. Show triangles ABC and AEC are congruent (BC = AE = vt, AC common, right angles at B and E), so i = r. A poor answer (e.g., just \"measure angles with a protractor\") misses the wavefront construction and the role of equal time vt.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_21_008",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_21_008",
+   "title": "c11_geo_cbse_21_008",
+   "questions": [
+    {
+     "q": "Name the two major ports on the east coast of India that handle the largest volume of iron ore exports, and state the primary hinterland region for each.",
+     "a": "The two major ports are Paradip (Odisha) and Visakhapatnam (Andhra Pradesh). Paradip's hinterland includes the iron ore mines of Odisha-Jharkhand belt (e.g., Barbil, Keonjhar), while Visakhapatnam serves the Bailadila range in Chhattisgarh and the Odisha mines via rail links. A wrong answer (e.g., naming Chennai or Kolkata) reveals the student confuses general cargo ports with specialised bulk mineral ports and does not understand the concept of mineral-specific hinterlands.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Suez Canal route remains the preferred choice for India-Europe trade despite the vulnerability to geopolitical disruptions, compared to the Cape of Good Hope route.",
+     "a": "The Suez Canal reduces the voyage distance between Mumbai and Rotterdam by approximately 6,000 km (saving 8-10 days), which translates to significant fuel savings and lower freight costs per container. Even with toll fees and risk premiums, the time-value of cargo (especially perishables, just-in-time manufacturing components) makes the shorter route economically superior. A wrong answer focusing only on \"shorter distance\" without quantifying the time-cost trade-off shows the student lacks the analytical skill to evaluate route economics beyond simple geography.",
+     "self_check": true
+    },
+    {
+     "q": "A container ship departs from Mundra Port (Gujarat) for Jebel Ali (UAE) carrying 8,000 TEUs. The voyage distance is 1,150 nautical miles. If the vessel averages 18 knots and port handling at each end takes 36 hours total, calculate the total voyage time in days. Then, evaluate how a 2-knot reduction in speed (slow steaming) to save fuel would affect the schedule.",
+     "a": "Step 1: Sailing time at 18 knots = 1,150 nm / 18 knots = 63.89 hours ≈ 2.66 days. Step 2: Add port handling 36 hours = 1.5 days. Total = 4.16 days. Step 3: At 16 knots, sailing time = 1,150 / 16 = 71.88 hours ≈ 3.0 days. New total = 4.5 days. Step 4: Delay = 0.34 days (8 hours). Step 5: Fuel savings ~15-20% but schedule reliability decreases. A wrong calculation (e.g., forgetting port time) reveals the student treats shipping as pure sea transit, ignoring the critical port-turnaround component that dominates logistics planning.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the hinterland connectivity challenges of Kolkata-Haldia port complex (riverine port) with those of Chennai Port (artificial harbour). How do these physical constraints shape their respective cargo profiles?",
+     "a": "Kolkata-Haldia faces draft restrictions (max 8-9 m) due to siltation in the Hooghly, requiring lighterage and limiting vessel size to Handymax; its hinterland extends deep into the Gangetic plains and landlocked Nepal/Bhutan, favouring bulk commodities (jute, tea, coal) that tolerate longer transit. Chennai, despite being artificial, maintains 16-18 m draft via dredging, accommodating Post-Panamax vessels; its hinterland is the industrialised Tamil Nadu-Bengaluru corridor, enabling high-value containerised cargo (automobiles, electronics). A student who only mentions \"Kolkata is on a river\" misses the chain: siltation → draft limit → vessel size → cargo type → economic role.",
+     "self_check": true
+    },
+    {
+     "q": "Critically assess the statement: \"The Sagarmala programme's focus on port modernisation alone will double India's merchandise exports by 2030.\" Identify at least three non-port factors that could constrain this outcome.",
+     "a": "The statement overemphasises port hardware. Three binding constraints: (1) Inland logistics cost – India's logistics cost at 14% of GDP vs global 8% erodes competitiveness even with world-class ports. (2) Trade policy & market access – tariff/non-tariff barriers in target markets (e.g., EU CBAM, US tariffs) are exogenous to port efficiency. (3) Manufacturing depth – exports require competitive upstream production; port upgrades cannot compensate for uncompetitive factor costs (land, labour, power). A student agreeing with the statement shows a \"port-centric\" bias, failing to see exports as a system where ports are necessary but not sufficient.",
+     "self_check": true
+    },
+    {
+     "q": "Design a multimodal evacuation plan for a new greenfield port at Vadhavan (Maharashtra) targeting 100 MTPA capacity by 2030. Specify the rail corridors, road linkages, and pipeline connections required, justifying each with the intended cargo profile (containers, liquid bulk, dry bulk).",
+     "a": "A strong answer includes: (1) Dedicated freight corridor (DFC) spur linking to Western DFC at Vasai for double-stack containers to NCR. (2) 6-lane expressway to NH-48 (Mumbai-Delhi) and NH-160 for hinterland trucking. (3) Crude oil pipeline to Indian Strategic Petroleum Reserve (ISPR) at Padur and refineries in Gujarat. (4) Rail link to Konkan Railway for coastal thermal coal movement. (5) Inland Container Depot (ICD) at Nashik for automotive/engineering goods. Weak answers list generic \"rail and road\" without cargo-specific justification or ignore the need for last-mile connectivity to industrial clusters.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

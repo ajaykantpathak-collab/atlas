@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_07_010",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_07_010",
+   "title": "c12_biotech_cbse_07_010",
+   "questions": [
+    {
+     "q": "Define cryopreservation and state the temperature at which plant germplasm is stored in liquid nitrogen. What is the fundamental principle that allows indefinite preservation at this temperature?",
+     "a": "Cryopreservation is the storage of plant cells, tissues, or organs at ultra-low temperature (-196°C in liquid nitrogen) where all metabolic and biochemical activities are virtually arrested, enabling indefinite preservation without genetic change. A wrong answer (e.g., stating -80°C or -150°C) reveals confusion between mechanical freezer temperatures and liquid nitrogen temperature. Stating \"metabolic activities stop completely\" instead of \"virtually arrested\" shows misunderstanding — some minimal molecular motion persists, but it's negligible for practical preservation.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"In slow-growth storage, we reduce temperature to 4°C and subculture every 3 months. In cryopreservation, we use -196°C and subculture every 2 years.\" Identify the TWO errors in this statement and explain why each is wrong.",
+     "a": "Error 1: Slow-growth storage typically uses 15-25°C (not 4°C, which is for short-term cold storage of seeds) with subculture intervals of 6-24 months (not 3 months). Error 2: Cryopreserved material does NOT require subculture — it remains in liquid nitrogen indefinitely without any subculturing. The student confuses slow-growth (periodic subculture needed) with cryopreservation (no subculture). This reveals a fundamental misunderstanding of the maintenance requirements for each method.",
+     "self_check": true
+    },
+    {
+     "q": "You have meristematic explants of a rare medicinal plant (explants = 2 mm shoot tips). Design a vitrification-based cryopreservation protocol listing: (a) Preculture medium composition and duration, (b) Loading solution composition, (c) Vitrification solution (PVS2) composition and exposure time, (d) Freezing method, (e) Thawing temperature and duration, (f) Recovery medium. Justify the role of each step.",
+     "a": "(a) Preculture: MS medium + 0.3-0.5 M sucrose, 16-24 hrs at 25°C — induces osmotic adjustment and cold acclimation. (b) Loading: 2 M glycerol + 0.4 M sucrose in MS, 20 min at 25°C — pre-dehydrates cells, reduces PVS2 toxicity. (c) PVS2: 30% glycerol + 15% ethylene glycol + 15% DMSO + 0.4 M sucrose in MS, 15-60 min at 0°C (on ice) — vitrifies cellular contents. (d) Freezing: Direct plunge into liquid nitrogen (-196°C) using aluminum foil strips or cryovials. (e) Thawing: Rapid warming in 37-40°C water bath for 90-120 seconds — prevents devitrification (ice crystal formation during warming). (f) Recovery: MS medium with 0.3 M sucrose, reduced cytokinin, dark incubation 24-48 hrs then light — allows osmotic re-equilibration and oxidative stress recovery. Missing any step (especially loading or rapid thawing) causes lethal ice crystallization.",
+     "self_check": true
+    },
+    {
+     "q": "Compare controlled-rate freezing (slow freezing) and vitrification methods of cryopreservation across FOUR parameters: (i) cooling rate, (ii) cryoprotectant concentration, (iii) equipment requirement, (iv) applicability to complex organs (e.g., shoot tips). Which method is preferred for organized tissues like meristems and why?",
+     "a": "| Parameter | Controlled-Rate Freezing | Vitrification |\n|-----------|-------------------------|---------------|\n| Cooling rate | Slow (0.5-1°C/min) to -40°C, then plunge | Ultra-rapid (direct plunge into LN) |\n| Cryoprotectant conc. | Low (0.5-2 M, e.g., 10% DMSO) | Very high (6-8 M total, e.g., PVS2) |\n| Equipment | Programmable freezer (expensive) | Simple (cryovials/foil, LN bath) |\n| Organized tissues | Poor (ice crystals damage structured tissues) | Excellent (glass formation preserves ultrastructure) |\n\nVitrification is preferred for meristems/shoot tips because high cryoprotectant concentrations and ultra-rapid cooling prevent ice nucleation in complex, organized tissues where controlled freezing causes lethal intracellular ice crystals. A wrong answer choosing controlled freezing for meristems reveals ignorance of tissue complexity effects.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Cryopreservation is superior to field gene banks in all aspects — it requires less space, no labor, no disease risk, and preserves genetic fidelity perfectly. Therefore, all crop germplasm should be moved to cryobanks immediately.\" Identify THREE valid limitations of cryopreservation that make this statement incorrect.",
+     "a": "Limitation 1: **Genotype-specific recalcitrance** — many species/genotypes (especially tropical, woody, or recalcitrant seeds) do not survive cryopreservation; protocols must be optimized per genotype, which is time-consuming and not universally successful. Limitation 2: **Somaclonal variation risk** — long-term callus/suspension cultures used for some cryopreservation protocols can accumulate genetic/epigenetic changes; even meristem cryopreservation may select for cold-tolerant subpopulations. Limitation 3: **High initial cost and technical expertise** — requires liquid nitrogen supply chain, reliable electricity, trained personnel, and protocol standardization; not feasible for resource-poor regions. The statement ignores these practical and biological constraints. A student missing genotype-specificity reveals lack of practical awareness.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel cryopreservation protocol for a hypothetical tropical orchid species with highly recalcitrant meristems that fail with standard PVS2 vitrification (excessive oxidative damage). Propose TWO modifications to the standard protocol with mechanistic justifications, and design a viability assay to compare your modified protocol against standard PVS2.",
+     "a": "Modification 1: **Add antioxidants to preculture and loading** — e.g., 0.5 mM ascorbic acid + 0.1 mM glutathione in preculture; 1 mM ascorbic acid in loading solution. Justification: Tropical orchids have high phenolic/oxidative metabolism; cryopreservation induces ROS burst; antioxidants scavenge ROS during dehydration/rehydration. Modification 2: **Use droplet-vitrification on aluminum foil strips with reduced PVS2 exposure (30 min at 0°C) + post-thaw recovery on medium with 1 µM melatonin + 50 µM salicylic acid**. Justification: Melatonin is a potent ROS scavenger and regulates stress genes; salicylic acid primes defense pathways. Viability assay: **FDA (fluorescein diacetate) staining at 24h + regrowth percentage at 4 weeks** — FDA gives immediate membrane integrity; regrowth confirms functional recovery. Compare: Modified vs Standard PVS2 using 30 meristems per treatment, 3 replicates. A poor answer would suggest generic \"change temperature\" without mechanistic link to oxidative stress.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

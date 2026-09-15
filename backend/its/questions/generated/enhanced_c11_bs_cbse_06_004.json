@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_06_004",
+   "title": "c11_bs_cbse_06_004",
+   "questions": [
+    {
+     "q": "A REMEMBER level question: List the four interest groups towards which a business enterprise has social responsibility according to NCERT Class 11 Business Studies Chapter 6, and state ONE specific responsibility towards each group.",
+     "a": "The four interest groups are: (1) Shareholders/owners — fair return on investment and safety of capital with regular, accurate, full information; (2) Workers — meaningful work, fair wages, safe working conditions, democratic right to form unions; (3) Consumers — right quality and quantity at reasonable prices, protection from adulteration and misleading advertising, right to information; (4) Government and community — respect laws, pay taxes honestly, protect natural environment, act as good citizen. A wrong answer that merges groups (e.g., \"employees and workers\" as separate) or lists generic responsibilities like \"be ethical\" without textbook-specific details reveals the student hasn't memorised the NCERT classification and is imposing their own framework.",
+     "self_check": true
+    },
+    {
+     "q": "An UNDERSTAND level question: Explain why \"providing fair wages to workers\" is classified as a social responsibility rather than merely a legal responsibility, using the distinction between legal and social responsibility from Section 6.2.",
+     "a": "Legal responsibility is fulfilled by mere compliance with law (e.g., paying minimum wage as mandated). Social responsibility is broader—it involves voluntary action for society's benefit even when not legally required. Fair wages may exceed legal minimums; they reflect the enterprise's voluntary recognition that workers deserve a dignified livelihood. The textbook states social responsibility \"involves an element of voluntary action on the part of business people for the benefit of society.\" A wrong answer that equates fair wages with minimum wage compliance shows the student hasn't grasped the voluntary, ethical dimension that distinguishes social from legal responsibility.",
+     "self_check": true
+    },
+    {
+     "q": "An APPLY level question: A pharmaceutical company prices a life-saving drug at 500% above production cost, making it unaffordable for low-income patients, while reporting record profits to shareholders. Using the four stakeholder responsibilities, identify which responsibilities are being upheld and which are violated, and explain the conflict.",
+     "a": "Upheld: Responsibility to shareholders (fair return, profit maximisation). Violated: Responsibility to consumers (right quality at reasonable prices — price gouging violates \"reasonable prices\"; right to information — if pricing rationale isn't transparent); Responsibility to government/community (acting as good citizen — exploiting vulnerable patients contradicts \"well accepted values of society\"). Conflict: The company prioritises shareholder interest (economic responsibility) over consumer welfare and community ethics. The textbook states business must \"reconcile its short-term and long range economic interests with the demands of society.\" A wrong answer that only identifies \"consumers are hurt\" without naming the specific textbook responsibilities or the shareholder-consumer tension shows superficial application.",
+     "self_check": true
+    },
+    {
+     "q": "An ANALYZE level question: Compare the responsibility towards workers (Section 6.5(ii)) with the responsibility towards shareholders (Section 6.5(i)). How does the textbook's framing of \"meaningful work\" and \"cooperation of workers\" create a relationship of interdependence rather than opposition between these two stakeholder groups?",
+     "a": "The textbook frames worker responsibility as \"providing opportunities for meaningful work\" and creating \"right kind of working conditions so that it can win the cooperation of workers.\" This positions workers as active partners whose cooperation the enterprise needs—not as costs to minimise. Shareholders get \"fair return\" and \"safety of investment,\" which depends on the enterprise's long-term viability. That viability requires worker cooperation, innovation, and productivity. Thus, fair wages and safe conditions aren't charity—they're investments in the human capital that generates shareholder returns. The textbook explicitly states: \"social interest and business interest are not contradictory... complementary to each other.\" A wrong answer that treats them as zero-sum (higher wages = lower profits) reveals the student hasn't internalised the textbook's complementary framework.",
+     "self_check": true
+    },
+    {
+     "q": "An EVALUATE level question: \"A business that focuses exclusively on shareholder returns while meeting minimum legal requirements for workers, consumers, and environment is fulfilling its social responsibility.\" Critique this statement using the textbook's definition of social responsibility (Section 6.2) and the four stakeholder responsibilities (Section 6.5).",
+     "a": "The statement is false. Section 6.2 defines social responsibility as \"obligation to take those decisions and perform those actions which are desirable in terms of the objectives and values of our society\" and explicitly states it is \"broader than legal responsibility\" involving \"an element of voluntary action... for the benefit of society.\" Meeting only legal minimums for workers/consumers/environment while maximising shareholder returns violates three of the four stakeholder responsibilities: workers deserve \"fair wage and fair deal\" (beyond legal minimum), consumers deserve \"reasonable prices\" and protection from \"misleading advertising\" (voluntary ethical standards), and community deserves environmental protection \"avoiding bad, effluent, smoky chimneys\" (voluntary stewardship). The textbook states business must \"justify its continuance by fulfilling its roles and responsibilities of society\"—all four, not just one. A wrong answer that agrees with the statement shows the student equates social responsibility with legal compliance, missing the core voluntary/ethical dimension.",
+     "self_check": true
+    },
+    {
+     "q": "A CREATE level question: Design a \"Social Responsibility Scorecard\" for a mid-sized textile manufacturing company in Tamil Nadu. Create 2 measurable indicators for each of the four stakeholder groups that go beyond legal compliance, and explain how the company would use this scorecard to balance competing interests quarterly.",
+     "a": "Sample scorecard: Shareholders — (1) Dividend payout ratio (% of net profit), (2) % of board meetings with full financial transparency disclosures. Workers — (1) % of workers earning above living wage (not minimum wage), (2) Number of worker-suggested safety improvements implemented per quarter. Consumers — (1) % of products with full ingredient/origin labelling beyond legal mandate, (2) Customer complaint resolution time (target <48 hours). Government/Community — (1) % of wastewater treated beyond PCB norms before discharge, (2) Hours of community skill-training programs conducted quarterly. Balancing mechanism: Quarterly review where if any indicator drops below threshold, management must present corrective plan before approving shareholder dividend increase. A poor answer that lists only legal compliance metrics (e.g., \"paid minimum wage,\" \"filed tax returns\") or creates indicators for only 2-3 groups reveals the student cannot operationalise the voluntary, multi-stakeholder nature of social responsibility.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

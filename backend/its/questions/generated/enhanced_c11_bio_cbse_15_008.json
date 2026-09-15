@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_15_008",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_15_008",
+   "title": "c11_bio_cbse_15_008",
+   "questions": [
+    {
+     "q": "What is the primary source of lymph in the human body, and how does it enter the lymphatic system?",
+     "a": "Lymph originates as interstitial fluid (tissue fluid) that forms when water and small water-soluble substances filter out of blood capillaries into tissue spaces. This fluid enters the lymphatic capillaries to become lymph. A wrong answer (e.g., \"lymph is secreted by lymph nodes\" or \"lymph comes directly from arteries\") reveals a misconception that lymph is actively produced by lymphatic organs rather than being a filtrate of blood plasma.",
+     "self_check": true
+    },
+    {
+     "q": "Why is lymph described as a \"colourless fluid\" despite being derived from blood, which is red?",
+     "a": "Lymph is colourless because it lacks erythrocytes (RBCs) and haemoglobin; during capillary filtration, the larger formed elements (RBCs, platelets, most proteins) are retained in the blood vessels. A wrong answer (e.g., \"lymph loses its colour in lymph nodes\") indicates confusion between filtration and cellular processing, and a lack of understanding of the size-based selectivity of capillary endothelium.",
+     "self_check": true
+    },
+    {
+     "q": "A patient has a blockage in the thoracic duct. Predict the consequences on (a) fluid balance in the left leg and (b) fat absorption from the intestine.",
+     "a": "(a) The left leg drains into the thoracic duct; blockage would cause lymph accumulation (lymphedema) in the left leg and left side of the body. (b) The thoracic duct receives chyle (fat-rich lymph) from the intestinal lacteals via the cisterna chyli; blockage would impair fat absorption, leading to malnutrition and steatorrhea. A wrong answer shows inability to integrate anatomical drainage patterns with physiological functions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the composition of lymph and blood plasma. Explain how the differences relate to their respective functions.",
+     "a": "Lymph has similar mineral distribution and water content as plasma but lower protein concentration (especially albumin) and lacks RBCs and platelets; it contains lymphocytes. These differences exist because capillary endothelium filters out large proteins and cells. Lymph's low protein content reduces oncotic pressure, facilitating fluid return; lymphocytes enable immune surveillance. A wrong answer that states \"lymph has same proteins as plasma\" misses the filtration concept and its functional significance.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The lymphatic system is a closed circulatory system parallel to the blood vascular system.\" Justify your answer.",
+     "a": "The statement is false. The lymphatic system is a one-way (open) system: it begins blindly in tissues as lymphatic capillaries, has no pump (heart), and drains into veins. Blood vascular system is closed with a pump (heart) and continuous circuit. A wrong evaluation (calling it closed) reveals confusion between \"parallel\" and \"closed\", and overlooks the structural and functional differences in fluid propulsion.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to demonstrate that lymph flows only in one direction (towards the heart) in a lymphatic vessel. Mention the principle used.",
+     "a": "Use a live frog's webbed foot (or transparent lymphatic vessel in a suitable animal model) under a microscope. Inject a tiny dye particle into a lymphatic capillary and observe its movement; it moves only towards larger vessels and ultimately towards the subclavian vein. Alternatively, compress a lymphatic vessel distal to a valve and observe that flow stops, but proximal compression does not reverse flow. Principle: presence of valves in lymphatic vessels ensures unidirectional flow. A poor answer (e.g., \"measure pressure at two points\") fails to address the valvular mechanism and direct observation of flow direction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

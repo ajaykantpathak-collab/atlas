@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_hist_ch3_2",
+ "concepts": [
+  {
+   "id": "enh:c9_hist_ch3_2",
+   "title": "c9_hist_ch3_2",
+   "questions": [
+    {
+     "q": "Name the three political assemblies mentioned in the Rigveda and state one primary function of each in the Early Vedic period.",
+     "a": "The three assemblies are Sabha, Samiti, and Vidatha. Samiti: general tribal assembly for war/peace and electing the rajan. Sabha: council of elders for judicial and administrative decisions. Vidatha: folk assembly for religious, distributive, and deliberative purposes. A wrong answer (e.g., \"Sabha elected the king\") reveals confusion between the broad-based Samiti and the selective Sabha, a common error when students memorise names without linking composition to function.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Samiti disappear from Later Vedic texts while the Sabha continues but changes character?",
+     "a": "The Samiti represented the *vis* (common tribespeople) whose direct participation became impractical as tribes settled into larger territories (*janapadas*) and the *rajan* evolved into a territorial monarch with a standing army and bureaucracy; the Sabha survived because its elder-members were co-opted as royal advisors (*ratnins*) and judicial officers in the new state apparatus. A wrong answer (e.g., \"people lost interest\") misses the structural shift from tribal polity to territorial kingship and the functional replacement of assemblies by royal officers.",
+     "self_check": true
+    },
+    {
+     "q": "A Later Vedic text describes the *rajan* performing the *Rajasuya* sacrifice with the help of *ratnins* (jewels/officers) including the *Senani*, *Suta*, and *Gramani*. Explain how this ritual scene reflects the transformation of the Early Vedic Sabha and Samiti.",
+     "a": "The *ratnins* are institutionalised royal officers replacing the collective decision-making of Samiti (military → *Senani*, charioteer/messenger → *Suta*, village head → *Gramani*) and the judicial role of Sabha elders is absorbed into the king's court. The *Rajasuya* enacts the king's supremacy over former equals; the assembly's acclamation becomes a choreographed ritual. A wrong answer that only lists *ratnins* without linking each to a lost assembly function shows inability to connect ritual symbolism to political structural change.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Vidatha of the Rigveda with the *gana-sangha* assemblies of the 6th century BCE (e.g., Vajji, Malla). Identify two similarities and two differences in composition and authority.",
+     "a": "Similarities: both involve collective deliberation beyond a single ruler; both combine religious and political acts. Differences: Vidatha is a tribal folk assembly with fluid membership in a pastoral-agrarian tribe; *gana-sangha* assemblies are oligarchic councils of *kshatriya* clan heads (*rajas*) in settled urbanised territories with defined voting procedures. Vidatha fades as monarchy rises; *gana-sanghas* persist as alternative state forms. A wrong answer equating them directly ignores 500 years of social stratification and urbanisation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the historian's claim: \"The decline of Sabha and Samiti proves that early Indian polity had no democratic tradition.\" Use evidence from the Vedic texts and the later *gana-sanghas* to support your judgement.",
+     "a": "The claim is flawed. Early Vedic assemblies were *tribal* and *consensual*, not democratic in the modern sense — they excluded women, *dasyus*, and non-kin. Their decline reflects state-formation, not loss of \"democracy.\" Moreover, *gana-sanghas* (6th c. BCE) show a distinct, sustained republican tradition among *kshatriya* clans. The evidence shows multiple political trajectories, not a single lost democracy. A wrong answer accepting the claim uncritically reveals presentist projection and ignorance of the *gana-sangha* evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline (1500 BCE – 500 BCE) showing the evolution of the three assemblies and annotate each turning point with the specific textual evidence (Rigveda, Atharvaveda, Brahmanas, Upanishads, Buddhist texts) that marks the change.",
+     "a": "A strong answer places: c.1500–1000 BCE (Rigveda) — all three active, Samiti elects rajan; c.1000–800 BCE (Atharvaveda) — Vidatha fades, Sabha gains judicial weight; c.800–600 BCE (Brahmanas) — Samiti absent, Sabha = royal court, *ratnins* appear; c.600–500 BCE (Upanishads/Buddhist texts) — *gana-sangha* assemblies emerge as new collective form. Annotations must cite specific passages (e.g., RV 10.173 for Vidatha; Aitareya Brahmana for *ratnins*; Digha Nikaya for *gana-sangha* procedure). A poor answer lists dates without textual anchors or treats the timeline as a smooth decline rather than a structural replacement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch08_092",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch08_092",
+   "title": "c6_math_ch08_092",
+   "questions": [
+    {
+     "q": "What does \"surface area\" mean in the context of a 3D box?",
+     "a": "It is the total area of all the outer faces of the object. A wrong answer like \"the space inside the box\" reveals a confusion between surface area and volume.",
+     "self_check": true
+    },
+    {
+     "q": "If you have a cuboid, why do we multiply the result of (lw + lh + wh) by 2?",
+     "a": "Because every cuboid has three pairs of identical opposite faces. Answering that it is just a \"rule\" shows the student hasn't visualized that the top matches the bottom, the front matches the back, and the sides match each other.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the surface area of a cube with a side length of 3 cm.",
+     "a": "Step 1: Identify side (s) = 3 cm. Step 2: Area of one face = 3 x 3 = 9 cm². Step 3: Multiply by 6 faces = 9 x 6 = 54 cm². A student who answers 18 cm² likely added the sides instead of squaring them.",
+     "self_check": true
+    },
+    {
+     "q": "If you double the side length of a cube, does the surface area also double?",
+     "a": "No, it increases by four times. A student answering \"yes\" is ignoring the squared relationship in the formula (6s²), where doubling the base causes the area to quadruple.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible for two different cuboids to have the same surface area?",
+     "a": "Yes, because different combinations of length, width, and height can result in the same total sum of face areas. This tests the ability to see that dimensions are variables that can be balanced.",
+     "self_check": true
+    },
+    {
+     "q": "Design a box (cuboid) that has a surface area of 52 cm².",
+     "a": "A possible answer is length=4, width=3, height=2. Calculation: 2(12+8+6) = 2(26) = 52. A poor answer uses random numbers without checking the formula; this reveals a lack of understanding that the dimensions must satisfy the equation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

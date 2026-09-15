@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_10_005",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_10_005",
+   "title": "c11_phy_cbse_10_005",
+   "questions": [
+    {
+     "q": "State the temperature at which water has its maximum density and the corresponding density value in SI units.",
+     "a": "Water has maximum density at 4°C, with a value of approximately 1000 kg/m³ (or 1 g/cm³). A wrong answer (e.g., 0°C or 100°C) reveals that the student has not internalized the anomalous peak and still assumes density increases monotonically with cooling, confusing water with typical liquids.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a lake freezes from the top surface downward rather than from the bottom up, using the concept of density variation with temperature.",
+     "a": "As a lake cools, surface water reaches 4°C first, becomes densest, and sinks. This convection continues until the entire lake is at 4°C. Further cooling makes surface water less dense (below 4°C), so it stays on top and freezes. The bottom remains at 4°C, allowing aquatic life to survive. A wrong answer indicating freezing from the bottom shows the student thinks density always increases with cooling, ignoring the density maximum at 4°C.",
+     "self_check": true
+    },
+    {
+     "q": "A 1.00 kg mass of water at 4°C is cooled to 0°C. Given the density of water at 4°C is 1000 kg/m³ and at 0°C is 999.87 kg/m³, calculate the change in volume. Express your answer in cm³.",
+     "a": "Step 1: Volume at 4°C, V₄ = m/ρ₄ = 1.00 kg / 1000 kg/m³ = 1.00 × 10⁻³ m³ = 1000 cm³.\nStep 2: Volume at 0°C, V₀ = m/ρ₀ = 1.00 kg / 999.87 kg/m³ = 1.00013 × 10⁻³ m³ = 1000.13 cm³.\nStep 3: ΔV = V₀ – V₄ = 0.13 cm³ (increase).\nThe positive ΔV confirms expansion on cooling below 4°C. A wrong sign (negative) indicates the student applied normal contraction logic. Forgetting to convert m³ to cm³ (×10⁶) is a common unit error.",
+     "self_check": true
+    },
+    {
+     "q": "The graph of density vs temperature for water shows a peak at 4°C. If you cool a sample of water from 10°C to 0°C, describe the direction of convection currents in the beaker during the two stages: (i) 10°C → 4°C, (ii) 4°C → 0°C.",
+     "a": "(i) 10°C → 4°C: Water contracts, density increases. Cooler, denser water at the top sinks; warmer water from bottom rises. Convection current is downward at the surface, upward at the center.\n(ii) 4°C → 0°C: Water expands, density decreases. Colder water (0–4°C) is less dense and stays at the top; no sinking occurs. Convection stops, and heat transfer is only by conduction. A wrong answer showing continued convection in stage (ii) means the student misses the density inversion.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since water expands on freezing, it must also expand continuously as it cools from 10°C to 0°C.\" Evaluate this statement and identify the exact temperature range where the claim fails.",
+     "a": "The claim is false. Water contracts (volume decreases) when cooled from 10°C to 4°C, reaching minimum volume at 4°C. It expands only from 4°C to 0°C and during the phase change to ice. The claim fails in the range 10°C → 4°C. A student who agrees with the claim confuses the expansion on freezing with the entire cooling process and does not know about the density maximum.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a glass flask, a narrow glass tube, water, and a thermometer to demonstrate the anomalous expansion of water between 0°C and 4°C. Describe the observations you would record.",
+     "a": "Fill the flask completely with water at ~10°C, insert the tube through a cork so water rises in the tube. Cool the flask in an ice bath. Record the water level in the tube vs temperature. Initially (10°C→4°C) the level falls (contraction). Below 4°C the level rises (expansion). The minimum level corresponds to 4°C. A poor design would not allow precise temperature measurement at the water column or would use a wide tube where level change is too small to see.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

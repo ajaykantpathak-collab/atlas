@@ -1,0 +1,251 @@
+{
+ "class": 12,
+ "subject": "history",
+ "chapter": 10,
+ "chapter_title": "Social Histories: Using the Mahabharata",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lehs103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lehs.103.1",
+   "title": "The Mahabharata as a Dynamic Text",
+   "section": "The Critical Edition of the Mahabharata",
+   "definition": "The Mahabharata, attributed to Vyasa, grew over roughly a thousand years of composition, and its critical edition - prepared over 47 years by the Bhandarkar Oriental Research Institute project - compared Sanskrit versions from across the subcontinent to reconstruct the most ancient core of about 100,000 verses.",
+   "formula": "",
+   "key_idea": "A text that kept growing shows a society that kept debating itself: the epic's variants are evidence, not noise.",
+   "textbook_ref": "lehs103.txt critical edition and composition history sections",
+   "question_patterns": [
+    "what is the critical edition of the Mahabharata",
+    "how long did the epic take its present shape",
+    "which institution prepared the critical edition and how long",
+    "why are variant versions historically valuable",
+    "name the languages and versions compared",
+    "what does the epic reveal about family and war"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the project",
+     "explain": "the critical edition compared manuscripts to recover the oldest recoverable text"
+    },
+    {
+     "step": 2,
+     "action": "note the duration",
+     "explain": "forty-seven years of scholarship produced the edition"
+    },
+    {
+     "step": 3,
+     "action": "close with method",
+     "explain": "variants map regions and eras of reception"
+    }
+   ]
+  },
+  {
+   "id": "lehs.103.2",
+   "title": "Varna and Jati in Social Order",
+   "section": "Varna and Jati",
+   "definition": "Brahmanical theory ranked society into four varnas - brahmana, kshatriya, vaishya and shudra - with duties assigned by birth, while practice showed jatis as flexible occupational communities whose hierarchies varied by region; texts like the Dharmasutras policed boundaries, and non-conforming groups were marked as untouchable.",
+   "formula": "",
+   "key_idea": "Varna was the ideal map, jati the lived terrain: the gap between them is where social history happens.",
+   "textbook_ref": "lehs103.txt varna hierarchy, jati flexibility and untouchability sections",
+   "question_patterns": [
+    "state the four varnas and their prescribed duties",
+    "how did jati differ from varna in practice",
+    "what strategies of exclusion marked untouchable groups",
+    "give examples of mobility within the jati order",
+    "how did Buddhist and Jain texts question varna claims",
+    "relate occupations to caste assignments in texts"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the theory",
+     "explain": "birth-fixed duties for four varnas claim divine origin"
+    },
+    {
+     "step": 2,
+     "action": "note the practice",
+     "explain": "regional jatis and occupational shifts cut across neat theory"
+    },
+    {
+     "step": 3,
+     "action": "close with critique",
+     "explain": "Buddhist texts mocked brahmana claims of birth purity"
+    }
+   ]
+  },
+  {
+   "id": "lehs.103.3",
+   "title": "Patriliny, Gender and Marriage",
+   "section": "Gendered Access to Wealth",
+   "definition": "Epic and dharmashastric norms idealised patriliny - descent through sons - with the Mahabharata's core story defending it; texts debated women's property (stridhana), prescribed wives' subordination to husbands, and recorded alternative systems like matriliny hints and younger brothers marrying widows among some communities.",
+   "formula": "",
+   "key_idea": "The preference for sons structured inheritance, ritual and emotion - and the texts show both enforcement and anxiety about it.",
+   "textbook_ref": "lehs103.txt patriliny, stridhana and marriage norms sections",
+   "question_patterns": [
+    "define patriliny and link it to the Mahabharata story",
+    "what was stridhana and who controlled it",
+    "how did texts prescribe the wife-husband relationship",
+    "describe the eight forms of marriage in dharmashastra",
+    "give evidence of women questioning these norms",
+    "compare endogamy and exogamy rules of the age"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the ideal",
+     "explain": "sons continued the lineage and inherited the father's estate"
+    },
+    {
+     "step": 2,
+     "action": "read the anxieties",
+     "explain": "epic plots of succession show what happened without sons"
+    },
+    {
+     "step": 3,
+     "action": "close with control",
+     "explain": "marriage rules secured endogamy and male control over wealth"
+    }
+   ]
+  },
+  {
+   "id": "lehs.103.4",
+   "title": "Beyond Varna: Kings, Workers and Others",
+   "section": "Explaining Social Differences",
+   "definition": "The chapter follows social differences into practice: kings claimed kshatriya status even when of varied origins, artisans and workers shaped urban economies, and Tamilakam's sangam texts describe society with different categories, showing that varna never exhaustively described Indian society.",
+   "formula": "",
+   "key_idea": "Wherever the sources let us look - guild inscriptions, sangam poems, palli donations - society proves more layered than the fourfold schema.",
+   "textbook_ref": "lehs103.txt beyond birth categories, kings and workers, Tamilakam sections",
+   "question_patterns": [
+    "how did actual kingship origins vary from kshatriya theory",
+    "describe the social categories of sangam literature",
+    "what do inscriptions show about artisans and workers",
+    "define the terms used for labourers in early texts",
+    "compare north Indian and Tamilakam social orders",
+    "why is varna called a normative rather than descriptive scheme"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "test theory against kings",
+     "explain": "several ruling houses rose from non-kshatriya origins"
+    },
+    {
+     "step": 2,
+     "action": "read Tamilakam",
+     "explain": "sangam poems organised society by land and clan, not four varnas"
+    },
+    {
+     "step": 3,
+     "action": "close with workers",
+     "explain": "inscriptions name artisans and labourers the varna books ignore"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_lehs103_1",
+   "source_ref": "lehs103.txt critical edition passage",
+   "concept": "lehs.103.1",
+   "question_type": "short_answer",
+   "question_pattern": "Why is the critical edition of the Mahabharata valuable to historians? Give two reasons.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "earliest core",
+     "explain": "comparing versions strips later additions to reach the oldest recoverable text"
+    },
+    {
+     "step": 2,
+     "action": "regional variants",
+     "explain": "differences show how regions and eras received and reshaped the epic"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "the edition turns a religious text into a social history archive"
+    }
+   ]
+  },
+  {
+   "id": "we_lehs103_2",
+   "source_ref": "lehs103.txt varna sections",
+   "concept": "lehs.103.2",
+   "question_type": "short_answer",
+   "question_pattern": "Show two mismatches between varna theory and social practice.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "kings of varied origin",
+     "explain": "rulers from non-kshatriya lineages still claimed royal power"
+    },
+    {
+     "step": 2,
+     "action": "occupational jatis",
+     "explain": "craft communities crossed varna lines with regional prestige differences"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "practice was regional and fluid, theory was singular and fixed"
+    }
+   ]
+  },
+  {
+   "id": "we_lehs103_3",
+   "source_ref": "lehs103.txt gender sections",
+   "concept": "lehs.103.3",
+   "question_type": "short_answer",
+   "question_pattern": "Explain the link between patriliny and the central conflict of the Mahabharata.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "succession stake",
+     "explain": "the throne passes through sons of the king"
+    },
+    {
+     "step": 2,
+     "action": "epic conflict",
+     "explain": "disputed sons and claims drive the war narrative"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "the epic dramatises and thereby defends patriliny as natural order"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_lehs103_1",
+   "source_ref": "lehs103.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "explain the Mahabharata's composition history and critical edition",
+    "describe the varna system and its critique in other texts",
+    "discuss patriliny and gender norms with textual evidence",
+    "compare social categories of Tamilakam with varna theory",
+    "explain the position of untouchable groups in early society"
+   ]
+  },
+  {
+   "id": "ex_lehs103_2",
+   "source_ref": "lehs103.txt project questions, reworded",
+   "questions": [
+    "use epic episodes to study family and war",
+    "argue whether varna was ever a full description of society",
+    "trace women's questions in early texts",
+    "assess inscriptions of guilds and workers",
+    "relate marriage rules to property transmission"
+   ]
+  }
+ ]
+}

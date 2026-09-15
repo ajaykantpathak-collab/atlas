@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_04_011",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_04_011",
+   "title": "c11_geo_cbse_04_011",
+   "questions": [
+    {
+     "q": "Name the six stages of the Wilson Cycle in correct chronological order from embryonic to terminal.",
+     "a": "Correct order: (1) Embryonic — continental rifting begins, (2) Juvenile — narrow ocean basin forms with active spreading ridge, (3) Mature — wide ocean basin with well-developed ridge and passive margins, (4) Declining — subduction initiates, ocean basin shrinks, (5) Terminal — continental collision, mountain building, (6) Suturing — final welding of continents into supercontinent. A wrong answer (e.g., placing subduction before mature stage) reveals the student confuses the sequence of ridge formation versus trench formation, not understanding that subduction requires pre-existing oceanic lithosphere to subduct.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Atlantic Ocean is currently in the mature stage while the Pacific Ocean is in the declining stage of the Wilson Cycle, referencing specific plate boundary configurations.",
+     "a": "Atlantic: bounded by passive margins on both sides (Americas vs Europe/Africa) with the Mid-Atlantic Ridge actively spreading — no subduction zones consuming Atlantic lithosphere, so basin widens. Pacific: surrounded by the \"Ring of Fire\" subduction zones (Mariana, Japan, Tonga, Peru-Chile trenches) where Pacific Plate descends beneath surrounding plates, causing net basin shrinkage despite East Pacific Rise spreading. A wrong answer (e.g., \"Atlantic has subduction zones\") reveals confusion between passive and active margins — a critical distinction for identifying Wilson Cycle stage.",
+     "self_check": true
+    },
+    {
+     "q": "Using the India-Eurasia collision as a case study, identify which Wilson Cycle stage the Himalayan orogeny represents and list three specific geological evidences from the Himalayan region that confirm this stage.",
+     "a": "Stage: Terminal (continental collision). Evidences: (1) Marine sedimentary rocks (limestone with fossils) now at >5000 m elevation on Mount Everest summit — proves Tethys Ocean floor thrust upward; (2) Main Central Thrust and Main Boundary Thrust — major south-verging thrust faults accommodating crustal shortening; (3) Double crustal thickness (~70 km) beneath Tibetan Plateau from seismic receiver functions — confirms continental crust stacking. A wrong answer citing seafloor magnetic anomalies reveals the student misidentifies the stage — magnetic anomalies are juvenile/mature stage evidence, not terminal collision.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Wilson Cycle duration for the Tethys Ocean (India-Eurasia) versus the Iapetus Ocean (Laurentia-Baltica) using geological time constraints. What does the difference imply about plate velocity variability?",
+     "a": "Tethys: opened ~200 Ma (Permian-Triassic rifting of Gondwana), closed ~50 Ma (India-Eurasia collision) — duration ~150 Myr. Iapetus: opened ~600 Ma (Rodinia breakup), closed ~420 Ma (Caledonian orogeny) — duration ~180 Myr. Difference of ~30 Myr implies plate velocities are not constant; Tethys closure accelerated by India's rapid northward drift (~15-20 cm/yr) after Deccan plume impingement, while Iapetus closure was slower. A wrong answer assuming fixed 200-300 Myr for all cycles reveals misunderstanding that Wilson Cycle periodicity varies with mantle convection patterns and plume interactions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Wilson Cycle explains why supercontinents like Pangaea form and break up, but it cannot predict the timing of the next supercontinent assembly.\" Is this assessment correct? Justify with reference to mantle convection models.",
+     "a": "The assessment is correct. Wilson Cycle describes the geometric pattern of ocean basin lifecycle but lacks predictive power for timing because: (1) Mantle convection is chaotic — plume locations, slab avalanches, and lower mantle heterogeneity cause irregular cycle lengths; (2) Supercontinent assembly depends on stochastic continental configurations — whether continents converge or bypass each other is path-dependent; (3) Numerical models (e.g., GPlates with mantle flow coupling) show supercontinent cycles range 300-700 Myr. A wrong answer claiming \"Wilson Cycle predicts next supercontinent in 250 Myr\" reveals confusion between descriptive cyclicity and deterministic prediction — a common senior secondary error from oversimplified textbook diagrams.",
+     "self_check": true
+    },
+    {
+     "q": "Design a conceptual cross-section diagram showing a complete Wilson Cycle for a hypothetical ocean basin, labeling all plate boundaries, lithospheric thickness changes, and magma generation zones at each stage. Include annotations linking to real-world examples (e.g., Red Sea = embryonic, Atlantic = mature, Himalayas = terminal).",
+     "a": "Expected diagram elements: Stage 1 (Embryonic) — continental lithosphere thinning, asthenospheric upwelling, basaltic dikes — label \"Red Sea/East African Rift\"; Stage 2 (Juvenile) — narrow oceanic crust, axial ridge, transform faults — label \"Gulf of California\"; Stage 3 (Mature) — wide ocean, abyssal plains, passive margins, thick sediment wedge — label \"Atlantic Ocean\"; Stage 4 (Declining) — subduction trench, volcanic arc, back-arc basin — label \"Western Pacific\"; Stage 5 (Terminal) — continental collision, thrust stack, foreland basin — label \"Himalaya-Tibet\"; Stage 6 (Suturing) — suture zone, ophiolite obduction, crustal root — label \"Ural Mountains\". Poor answer omits lithospheric thickness evolution or misplaces magma zones (e.g., showing arc volcanism at embryonic stage).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

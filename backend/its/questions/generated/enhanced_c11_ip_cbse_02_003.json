@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_02_003",
+   "title": "c11_ip_cbse_02_003",
+   "questions": [
+    {
+     "q": "What is the primary visual indicator that you are in Interactive Mode in IDLE?",
+     "a": "The `>>>` prompt (three greater-than signs) indicates Interactive Mode. A wrong answer like \"a blank window\" or \"a .py file tab\" reveals the student confuses the Script Mode editor window with the Interactive Shell window.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a `for` loop with an indented block works correctly in Script Mode but often causes an `IndentationError` or unexpected behavior when typed line-by-line in Interactive Mode.",
+     "a": "In Interactive Mode, each physical line is executed immediately after pressing Enter, so the interpreter expects the indented block to start on the very next line; if you press Enter after the colon without indentation, it executes an empty block. In Script Mode, the entire file is parsed at once, so indentation is checked as a structural unit. A wrong answer suggests the student thinks both modes handle multi-line constructs identically, missing the line-by-line vs. whole-file parsing difference.",
+     "self_check": true
+    },
+    {
+     "q": "You need to test the behavior of `list.append()` vs `list.extend()` with a nested list. Which mode would you choose and write the exact sequence of commands you would type in that mode to verify the difference?",
+     "a": "Choose Interactive Mode for quick testing. Commands:\n```\n>>> a = [1, 2]\n>>> a.append([3, 4])\n>>> a\n[1, 2, [3, 4]]\n>>> b = [1, 2]\n>>> b.extend([3, 4])\n>>> b\n[1, 2, 3, 4]\n```\nA wrong answer choosing Script Mode for this quick test shows inability to match mode to task; writing a full .py file for a two-line check is inefficient.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the persistence of variables between Interactive Mode and Script Mode. If you define `x = 5` in Interactive Mode, then close the shell, then reopen IDLE and type `print(x)`, what happens? Contrast with saving `x = 5` in a script, running it, then running the script again.",
+     "a": "Interactive Mode: `NameError` because the shell session ends and memory is cleared; variables do not persist across sessions. Script Mode: each run is independent — `x = 5` executes fresh every run, so `print(x)` outputs 5 each time, but `x` does not retain value between separate executions. A wrong answer claiming variables persist in Interactive Mode across restarts reveals confusion between session memory and file storage.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Script Mode is always better than Interactive Mode because it saves your code.\" Provide two specific scenarios where Interactive Mode is preferable, justifying each.",
+     "a": "Statement is false. Scenario 1: Exploring an unfamiliar library function (e.g., `help(random.randint)` or quick `dir(str)`) — Interactive gives instant feedback without file overhead. Scenario 2: Debugging a complex expression step-by-step (e.g., evaluating `3 * (4 + 5) ** 2` in parts) — Interactive allows inspecting intermediate results. A wrong answer that cannot name concrete exploratory/debugging uses shows lack of practical experience with REPL-driven development.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-workflow for a Class 11 student to discover the precedence of `**` vs unary `-` (i.e., `-2 ** 2` vs `(-2) ** 2`) using Interactive Mode, then capture the finding in a Script Mode file for future reference. Write the exact Interactive commands and the final script content.",
+     "a": "Interactive discovery:\n```\n>>> -2 ** 2\n-4\n>>> (-2) ** 2\n4\n```\nScript file `precedence_demo.py`:\n```python",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

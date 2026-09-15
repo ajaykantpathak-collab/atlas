@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_12_008",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_12_008",
+   "title": "c11_geo_cbse_12_008",
+   "questions": [
+    {
+     "q": "Name the two dominant salt compounds that accumulate in the sub-surface horizon (Bk) of Arid soils in the Thar Desert and state the process responsible for their enrichment.",
+     "a": "Calcium carbonate (CaCO₃) and gypsum (CaSO₄·2H₂O) accumulate in the Bk horizon due to **capillary rise and evaporation** exceeding precipitation, which draws dissolved salts upward where they precipitate. A wrong answer (e.g., \"sodium chloride from sea spray\" or \"leaching\") reveals confusion between coastal salinity and inland evaporative concentration, or misunderstanding the direction of water movement in arid zones.",
+     "self_check": true
+    },
+    {
+     "q": "Why do Forest/Mountain soils in the Himalayas show a well-developed O horizon but a weakly developed B horizon, whereas Arid soils show the opposite pattern?",
+     "a": "In cold, humid mountains, low temperatures slow decomposition, allowing organic matter to accumulate as a thick O horizon, while steep slopes and high rainfall cause rapid lateral removal of weathered material, preventing deep B horizon development. In deserts, negligible vegetation means almost no O horizon, but strong capillary rise and evaporation concentrate salts/carbonates in a distinct Bk horizon. A wrong answer indicates failure to link climate (temperature/moisture) and relief (slope) to horizon differentiation.",
+     "self_check": true
+    },
+    {
+     "q": "A soil sample from a field in western Rajasthan has pH 8.5, EC 4.2 dS/m, and visible white concretions at 40 cm depth. Classify the soil order (ICAR) and recommend one chemical and one physical amendment for cultivation.",
+     "a": "**Classification:** Arid soil (Typic Haplocalcids / Aridisol equivalent). **Chemical amendment:** Gypsum (CaSO₄·2H₂O) to replace exchangeable Na⁺ with Ca²⁺ and lower ESP. **Physical amendment:** Incorporation of organic manure (FYM/compost) to improve water-holding capacity and aggregate stability. Wrong classification (e.g., \"Saline soil of alluvial plain\") or suggesting only \"more irrigation\" shows inability to diagnose the specific salinity/alkalinity mechanism and texture limitation of Arid soils.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the nutrient cycling dynamics in Forest/Mountain soils of the Western Ghats versus Arid soils of the Thar. How does this affect their response to fertilizer application?",
+     "a": "Western Ghats: rapid cycling, high organic matter turnover, nutrients held in biomass and surface horizons; fertilizer response is quick but leaching losses high on steep slopes. Thar: extremely slow cycling, minimal organic matter, nutrients mostly in mineral form; fertilizer response is limited by moisture, and N volatilization losses are high due to high pH. A student who says \"both need NPK equally\" misses the contrasting biological activity and moisture regimes that govern nutrient availability.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Arid soils are inherently infertile and unsuitable for agriculture without massive external inputs.\" Support your judgment with two pieces of evidence from the Thar region.",
+     "a": "**Judgment:** Partially true but incomplete. Evidence 1: Indigenous crops (bajra, moth bean, guar) and traditional water harvesting (khadins) have sustained cultivation for centuries using only local organic inputs, proving *some* inherent productivity. Evidence 2: Post-Indira Gandhi Canal, intensive agriculture (wheat, cotton) requires massive irrigation, gypsum, and fertilizers — showing that *high-yield modern cropping* is input-dependent. A blanket \"unsuitable\" ignores traditional agro-ecological knowledge and the distinction between subsistence and commercial farming thresholds.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sustainable land-use plan for a 100-ha watershed in the Lesser Himalayas (1500–2000 m) dominated by Forest/Mountain soils. Include three specific soil-conservation measures matched to slope gradient classes.",
+     "a": "**Plan:** (1) <15% slope: Terraced cultivation with legume intercropping + contour bunds; (2) 15–30% slope: Horticulture (apple, peach) with bench terraces, grassed waterways, and mulching; (3) >30% slope: Protected forest / agroforestry (alder + cardamom) with staggered trenches and check dams. **Criteria:** Measures must reduce erosion, maintain organic carbon, and respect carrying capacity. A poor answer proposes uniform terracing everywhere or ignores the acidic pH limitation for certain crops.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

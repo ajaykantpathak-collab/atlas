@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_02_007",
+   "title": "c12_acc_cbse_02_007",
+   "questions": [
+    {
+     "q": "A firm has a General Reserve of ₹1,20,000 and a Profit & Loss Account debit balance of ₹30,000 on the date of admission of a new partner. The old partners share profits in the ratio 3:2. State the journal entries required to adjust these accumulated profits and losses.",
+     "a": "**Correct entries:**  \n1. General Reserve A/c Dr. 1,20,000  \n  To Old Partner A Capital A/c 72,000 (3/5)  \n  To Old Partner B Capital A/c 48,000 (2/5)  \n2. Old Partner A Capital A/c Dr. 18,000 (3/5)  \n  Old Partner B Capital A/c Dr. 12,000 (2/5)  \n  To Profit & Loss A/c 30,000  \n\n**Why wrong answers reveal misunderstanding:** If a student uses the *new* ratio or *sacrificing* ratio, they confuse admission with goodwill adjustment. If they credit the new partner’s capital, they violate the principle that only old partners own pre-admission reserves/losses.",
+     "self_check": true
+    },
+    {
+     "q": "Why are accumulated profits and losses distributed **only among old partners** in their **old profit sharing ratio** at the time of admission, and not in the new ratio or sacrificing ratio?",
+     "a": "**Correct explanation:** Accumulated profits (reserves) and losses belong to the period **before** the new partner’s admission. They were earned/incurred by the **old partners’ efforts**. The new partner has no claim to past profits nor responsibility for past losses. The old ratio reflects their actual sharing during the period the accumulations arose. The new ratio applies only to **future** profits. The sacrificing ratio is used for **goodwill** compensation, not for distributing reserves.\n\n**Why wrong answers reveal misunderstanding:** A student who says “distribute in new ratio” thinks the new partner gets a share of everything in the balance sheet. One who says “sacrificing ratio” confuses goodwill adjustment with reserve distribution.",
+     "self_check": true
+    },
+    {
+     "q": "X and Y are partners sharing profits 4:1. They admit Z for 1/5th share. On admission date, the Balance Sheet shows: General Reserve ₹80,000, Workmen Compensation Reserve ₹20,000 (no claim against it), and Profit & Loss A/c (Dr.) ₹15,000. Pass journal entries for adjustment of these items.",
+     "a": "**Step 1:** Identify items belonging to old partners: General Reserve, Workmen Compensation Reserve (excess), and P&L Dr. balance.  \n**Step 2:** Old ratio = 4:1. Total reserve to distribute = 80,000 + 20,000 = 1,00,000.  \n**Step 3:** X’s share = 4/5 × 1,00,000 = 80,000; Y’s share = 1/5 × 1,00,000 = 20,000.  \n**Step 4:** P&L loss share: X = 4/5 × 15,000 = 12,000; Y = 1/5 × 15,000 = 3,000.  \n**Entries:**  \nGeneral Reserve A/c Dr. 80,000  \nWorkmen Compensation Reserve A/c Dr. 20,000  \n  To X’s Capital A/c 80,000  \n  To Y’s Capital A/c 20,000  \nX’s Capital A/c Dr. 12,000  \nY’s Capital A/c Dr. 3,000  \n  To Profit & Loss A/c 15,000  \n\n**Why wrong answers reveal misunderstanding:** If a student forgets Workmen Compensation Reserve (excess) or distributes P&L loss in new ratio, they miss that **all** accumulated profits/losses — regardless of reserve name — belong to old partners in old ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the treatment of **General Reserve** at admission vs. at retirement of a partner. Are the journal entries the same? Explain with a reason.",
+     "a": "**Correct answer:** Yes, the journal entries are **identical** in both cases:  \nGeneral Reserve A/c Dr. → Old/Continuing Partners’ Capital A/cs in **old profit sharing ratio**.  \n**Reason:** In both admission and retirement, the reserve represents profits earned **before** the reconstitution event. At admission, it belongs to old partners; at retirement, it belongs to all partners including the retiring one — but still distributed in the **old ratio** (which includes the retiring partner). The principle is: *accumulated profits/losses are always distributed among partners who existed during the period they arose, in their then profit sharing ratio.*\n\n**Why wrong answers reveal misunderstanding:** A student who thinks retirement uses new/gaining ratio confuses reserve distribution with goodwill adjustment. The key is: **reserves always follow the old ratio at the moment of reconstitution.**",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: “If the new partner brings in goodwill, they are paying for the firm’s reputation built by old partners. So they should also get a share of the General Reserve because it’s also a result of past efforts.” Evaluate this argument.",
+     "a": "**Evaluation:** The argument is **incorrect**. Goodwill and General Reserve are fundamentally different:  \n- **Goodwill** is an **intangible asset** representing future earning capacity. The new partner **pays for** the right to share future profits — hence old partners are compensated via goodwill adjustment (sacrificing ratio).  \n- **General Reserve** is **accumulated past profit** already earned and retained in the business. It belongs **entirely** to the partners who earned it (old partners). The new partner does not “buy” the reserve; they only buy a share of **future** profits.  \n**Distinction:** Goodwill = payment for **future** advantage; Reserve = distribution of **past** profit. Mixing them violates the **entity concept** and **matching principle**.\n\n**Why wrong answers reveal misunderstanding:** If a student agrees, they conflate *compensation for sacrifice* (goodwill) with *ownership of past earnings* (reserves). This is a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Create a short case: A firm has three partners (A, B, C) sharing profits 5:3:2. They admit D. The Balance Sheet shows: General Reserve ₹1,50,000, Investment Fluctuation Reserve ₹40,000 (investment book value ₹2,00,000, market value ₹1,90,000), and P&L A/c (Dr.) ₹25,000. Write the **complete journal entries** for adjusting these items on admission, showing all workings.",
+     "a": "**Expected answer criteria:**  \n1. Identify Investment Fluctuation Reserve excess: Book value ₹2,00,000 – Market value ₹1,90,000 = ₹10,000 loss → Reserve after adjustment = ₹40,000 – ₹10,000 = ₹30,000 distributable.  \n2. Total distributable reserve = General Reserve ₹1,50,000 + Investment Fluctuation Reserve (net) ₹30,000 = ₹1,80,000.  \n3. Old ratio = 5:3:2 → Total 10 parts.  \n4. Distribution: A = 5/10 × 1,80,000 = 90,000; B = 3/10 × 1,80,000 = 54,000; C = 2/10 × 1,80,000 = 36,000.  \n5. P&L loss distribution: A = 5/10 × 25,000 = 12,500; B = 7,500; C = 5,000.  \n6. Journal entries:  \n General Reserve A/c Dr. 1,50,000  \n Investment Fluctuation Reserve A/c Dr. 30,000  \n  To A’s Capital A/c 90,000  \n  To B’s Capital A/c 54,000  \n  To C’s Capital A/c 36,000  \n A’s Capital A/c Dr. 12,500  \n B’s Capital A/c Dr. 7,500  \n C’s Capital A/c Dr. 5,000  \n  To Profit & Loss A/c 25,000  \n (Plus entry for investment loss if not already adjusted: Revaluation A/c Dr. 10,000 → Investment A/c 10,000)  \n\n**Why poor answers reveal misunderstanding:** Missing the investment fluctuation reserve adjustment, using new ratio, or crediting D’s capital shows lack of conceptual clarity on *what constitutes accumulated profit* and *who owns it*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

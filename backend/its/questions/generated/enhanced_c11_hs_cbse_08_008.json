@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_08_008",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_08_008",
+   "title": "c11_hs_cbse_08_008",
+   "questions": [
+    {
+     "q": "A REMEMBER level question: State the ICMR 2010 Recommended Dietary Allowance for energy (Kcal) and protein (g) for a 5-year-old child.",
+     "a": "Correct answer: Energy = 1690 Kcal, Protein = 30 g. A wrong answer (e.g., 1240 Kcal and 22 g) reveals the student has confused the 1-3 year age group values with the 4-6 year group, indicating they have not memorised the age-specific split in Table 4.",
+     "self_check": true
+    },
+    {
+     "q": "An UNDERSTAND level question: Explain why the ICMR balanced diet for preschoolers (Table 5) specifies 500 ml of milk for both 1-3 years and 4-6 years, while cereal quantity doubles from 60g to 120g.",
+     "a": "Correct answer: Milk provides high-quality protein, calcium, and vitamin B12 which are critical for bone growth and neural development; 500 ml meets the calcium RDA (400 mg) for both age groups. Cereal quantity doubles because energy needs increase sharply (1240 to 1690 Kcal) and cereals are the primary energy source. A wrong answer that says \"milk is less important for older children\" shows the student misunderstands that calcium RDA stays constant while energy needs rise, so milk quantity is maintained but cereals must increase.",
+     "self_check": true
+    },
+    {
+     "q": "An APPLY level question: A 3-year-old child's daily menu provides: Cereals 80g, Pulses 20g, Milk 400ml, Roots/tubers 30g, Green leafy vegetables 20g, Other vegetables 50g, Fruits 50g, Sugar 10g, Fats/oils 15g. Compare each food group quantity with ICMR Table 5 recommendations for 1-3 years and identify which groups are deficient and by how much.",
+     "a": "Correct answer: Deficiencies: Cereals -20g (need 60g, have 80g? Wait, 80g > 60g so cereals are adequate), Pulses -10g (need 30g, have 20g), Milk -100ml (need 500ml, have 400ml), Roots/tubers -20g (need 50g, have 30g), GLV -30g (need 50g, have 20g), Other vegetables -50g (need 100g, have 50g), Fruits -50g (need 100g, have 50g), Sugar -5g (need 15g, have 10g), Fats/oils -5g (need 20g, have 15g). Actually cereals are 80g vs 60g recommended, so cereals are excess. The student must compare each group. A wrong answer that only checks cereals and milk reveals the student cannot systematically apply the table across all nine food groups.",
+     "self_check": true
+    },
+    {
+     "q": "An ANALYZE level question: The NCERT text states \"An active preschool child's energy needs rival those of some grown up women.\" Using Table 4 (4-6 years: 1690 Kcal) and Table 7 (school-age girls 10-12 years: 2010 Kcal), analyze why this comparison is valid despite the preschooler weighing much less.",
+     "a": "Correct answer: Preschoolers have higher basal metabolic rate per kg body weight due to rapid growth (brain development, organ maturation) and high physical activity (play, motor skill development). An adult woman's energy need is for maintenance; a preschooler's is for growth + maintenance + high activity. Per kg, the preschooler's requirement is ~100-120 Kcal/kg vs adult woman's ~30-35 Kcal/kg. A wrong answer that says \"preschoolers eat less so they need less\" confuses absolute intake with metabolic intensity and ignores the growth component.",
+     "self_check": true
+    },
+    {
+     "q": "An EVALUATE level question: A parent says, \"My 4-year-old hates vegetables, so I give him fruit juice instead — it's healthy anyway.\" Critique this statement using the ICMR food group quantities (Table 5) and the concept of nutrient density.",
+     "a": "Correct answer: Fruit juice cannot replace vegetables because: (1) Table 5 specifies separate quantities for GLV (100g), other vegetables (100g), and fruits (100g) — they are distinct groups providing different micronutrient profiles (e.g., GLV for iron, folate, beta-carotene; other vegetables for fiber, vitamin C; fruits for vitamin C, potassium). (2) Juice lacks fiber, has concentrated sugars, and displaces appetite for whole foods. (3) Nutrient density: vegetables provide more micronutrients per Kcal. A wrong answer that says \"juice has vitamins so it's fine\" shows the student cannot evaluate food group substitutability and nutrient density.",
+     "self_check": true
+    },
+    {
+     "q": "A CREATE level question: Design a one-day snack plan (two snacks) for a 2-year-old that uses only traditional Indian ingredients, provides at least 200 Kcal and 5g protein per snack, and includes at least three food groups from Table 5 per snack. List ingredients with approximate quantities.",
+     "a": "Expected criteria: Each snack must combine ≥3 food groups (e.g., cereal + pulse + milk/fruit/veg). Example: Snack 1 - Ragi porridge (30g ragi + 100ml milk + 10g jaggery) ≈ 220 Kcal, 6g protein (groups: cereals, milk, sugar). Snack 2 - Moong dal chilla (20g moong dal + 10g rice flour + 20g grated carrot + 5g oil) ≈ 210 Kcal, 5.5g protein (groups: pulses, cereals, vegetables, fats). A poor answer that gives only biscuits and milk shows the student cannot create multi-group combinations using traditional foods.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

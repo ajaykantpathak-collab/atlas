@@ -1,0 +1,231 @@
+{
+  "class": 11,
+  "subject": "physics",
+  "chapter": 106,
+  "chapter_title": "Systems of Particles and Rotational Motion",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keph106.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keph106.6.2.1",
+      "title": "Centre of Mass of a Two-Body System",
+      "section": "6.2",
+      "definition": "A collection of particles behaves, as far as its overall motion goes, like one point carrying all the mass -- the centre of mass. For two particles it sits on the line joining them, weighted toward the heavier one, at a position found by averaging the coordinates with masses as weights.",
+      "formula": "com = (mass1 * position1 + mass2 * position2) / (mass1 + mass2)",
+      "key_idea": "The centre of mass is the mass-weighted average position -- heavier particles pull it closer.",
+      "textbook_ref": "keph106.txt lines 40-170 (sections 6.1, 6.2 centre of mass, two particle system, position vector of centre of mass)",
+      "question_patterns": [
+        "find the centre of mass of two particles of given masses at given positions",
+        "in class 11 rotational motion: where does the centre of mass of a two body system lie",
+        "the masses and separations are given, locate the balance point",
+        "why does the centre of mass shift toward the heavier mass",
+        "find the centre of mass for particles placed on the x-axis",
+        "what happens to the centre of mass when one mass grows without bound"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "weight each position", "explain": "Multiply each particle's position coordinate by its mass.",
+         "compute": "weighted = mass1 * position1 + mass2 * position2"},
+        {"step": 2, "action": "divide by the total mass", "explain": "Dividing the weighted sum by the combined mass places the centre of mass.",
+         "compute": "com = weighted / (mass1 + mass2)"}
+      ]
+    },
+    {
+      "id": "keph106.6.3.1",
+      "title": "Motion of the Centre of Mass",
+      "section": "6.3, 6.4",
+      "definition": "The centre of mass of an isolated system keeps moving uniformly no matter how the parts flail about, because internal forces cancel in pairs. Its velocity equals the total momentum divided by the total mass, so explosions and internal rearrangements can shift the pieces but never the centre's straight-line path.",
+      "formula": "",
+      "key_idea": "Internal forces cannot steer the centre of mass -- only external forces can.",
+      "textbook_ref": "keph106.txt lines 171-260 (sections 6.3 motion of centre of mass, 6.4 linear momentum of a system of particles, projectile fragments example)",
+      "question_patterns": [
+        "what path does the centre of mass follow when a projectile explodes mid air",
+        "in class 11 rotational motion: relate the velocity of the centre of mass to total momentum",
+        "why do internal forces leave the centre of mass motion unchanged",
+        "a dancer stretches her arms while spinning, how does her motion respond",
+        "find the total momentum from the centre of mass velocity",
+        "state the condition for uniform motion of the centre of mass"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {"step": 1, "action": "total the momentum", "explain": "Add m v over every particle to get the system's total momentum."},
+        {"step": 2, "action": "divide by the total mass", "explain": "This quotient is the velocity of the centre of mass, constant while no external force acts."},
+        {"step": 3, "action": "apply to fragments", "explain": "If a shell explodes in flight, its fragments still trace motions whose mass-weighted average follows the original parabola."}
+      ]
+    },
+    {
+      "id": "keph106.6.6.1",
+      "title": "Angular Velocity and Linear Speed",
+      "section": "6.6",
+      "definition": "A rigid body turning about a fixed axis carries every particle through the same angle in the same time -- all share one angular velocity, measured in radians per second. Each particle's linear speed is its radius times that angular velocity, which is why points farther from the axis move faster.",
+      "formula": "v_tan = radius * omega",
+      "key_idea": "One spin rate for the whole body; each point's linear speed grows with its distance from the axis.",
+      "textbook_ref": "keph106.txt lines 261-340 (section 6.6 angular velocity and its relation with linear velocity, axis of rotation, radian measure)",
+      "question_patterns": [
+        "relate the linear speed of a point to the angular velocity and radius",
+        "in class 11 rotational motion: why do all points of a rigid body share the same angular velocity",
+        "find the speed of a point at the given radius on a spinning disc",
+        "the wheel turns at the given rate, how fast does the rim move",
+        "convert revolutions per minute into radians per second",
+        "why is angular velocity called the common property of a rigid body"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "multiply radius by angular velocity", "explain": "Arc length per second equals radius times radians per second.",
+         "compute": "v_tan = radius * omega"}
+      ]
+    },
+    {
+      "id": "keph106.6.7.1",
+      "title": "Torque: the Turning Effect of Force",
+      "section": "6.7",
+      "definition": "Torque measures how effectively a force turns a body about an axis: it grows with the force and with the perpendicular distance (moment arm) from the axis to the force's line of action. Pushing a door at its edge beats pushing near the hinge because the moment arm is longer.",
+      "formula": "torque = force * moment_arm",
+      "key_idea": "Same force, longer arm, stronger twist -- torque is force times lever distance.",
+      "textbook_ref": "keph106.txt lines 341-430 (section 6.7 torque and angular momentum, moment of force, vector product definition)",
+      "question_patterns": [
+        "find the torque produced by the given force at the given moment arm",
+        "in class 11 rotational motion: why is it easier to open a door by pushing at the edge",
+        "calculate the turning effect when the force acts at a given distance from the axis",
+        "when is the torque of a force zero",
+        "state the rotational analogue of Newton's second law using torque",
+        "which factor besides the force controls the magnitude of torque"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "multiply force by moment arm", "explain": "Force times the perpendicular distance to the axis gives the torque.",
+         "compute": "torque = force * moment_arm"}
+      ]
+    },
+    {
+      "id": "keph106.6.7.2",
+      "title": "Moment of Inertia and Angular Momentum",
+      "section": "6.7, 6.12",
+      "definition": "A body's opposition to being spun depends on more than mass -- on how far that mass sits from the axis. This rotational sluggishness is the moment of inertia, and multiplying it by angular velocity gives the angular momentum, the rotational counterpart of linear momentum. When no external torque acts, this angular momentum stays constant.",
+      "formula": "ang_mom = moi * omega",
+      "key_idea": "I omega is the rotational momentum; with zero external torque it cannot change -- spin faster by pulling mass inward.",
+      "textbook_ref": "keph106.txt lines 400-560 (section 6.7 angular momentum, 6.10 to 6.12 kinematics and dynamics of rotation, conservation of angular momentum, ice skater example)",
+      "question_patterns": [
+        "find the angular momentum of a body from its moment of inertia and angular velocity",
+        "in class 11 rotational motion: state the law of conservation of angular momentum",
+        "why does a spinning skater spin faster when she folds her arms",
+        "what is the rotational analogue of mass in linear motion",
+        "compute the spin rate after the moment of inertia changes",
+        "under what condition is angular momentum conserved"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {"step": 1, "action": "multiply inertia by spin rate", "explain": "Moment of inertia times angular velocity gives the angular momentum.",
+         "compute": "ang_mom = moi * omega"}
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keph106.txt lines 40-170 (centre of mass, two particles)",
+      "concept": "keph106.6.2.1",
+      "question_type": "compute",
+      "question_pattern": "Particles of {mass1} kg at position {position1} and {mass2} kg at position {position2} lie on the x-axis; find the centre of mass.",
+      "extracted_variables": {"mass1": 1, "position1": 1, "mass2": 2, "position2": 4},
+      "solution_template": [
+        {"step": 1, "action": "weight each position", "explain": "weighted = 1 * 1 + 2 * 4 = 9.", "compute": "weighted = mass1 * position1 + mass2 * position2"},
+        {"step": 2, "action": "divide by the total mass", "explain": "com = 9 / 3 = 3 m.", "compute": "com = weighted / (mass1 + mass2)"}
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keph106.txt lines 40-170 (centre of mass, two particles)",
+      "concept": "keph106.6.2.1",
+      "question_type": "compute",
+      "question_pattern": "Equal masses of {mass1} kg sit at positions {position1} and {position2}; locate the centre of mass.",
+      "extracted_variables": {"mass1": 5, "position1": 0, "mass2": 5, "position2": 10},
+      "solution_template": [
+        {"step": 1, "action": "weight each position", "explain": "weighted = 5 * 0 + 5 * 10 = 50.", "compute": "weighted = mass1 * position1 + mass2 * position2"},
+        {"step": 2, "action": "divide by the total mass", "explain": "com = 50 / 10 = 5 m, exactly midway for equal masses.", "compute": "com = weighted / (mass1 + mass2)"}
+      ]
+    },
+    {
+      "id": "we3",
+      "source_ref": "keph106.txt lines 261-340 (angular velocity relation)",
+      "concept": "keph106.6.6.1",
+      "question_type": "compute",
+      "question_pattern": "A point sits {radius} m from the axis of a body spinning at {omega} rad/s; find its linear speed.",
+      "extracted_variables": {"radius": 0.5, "omega": 4},
+      "solution_template": [
+        {"step": 1, "action": "multiply radius by angular velocity", "explain": "v_tan = 0.5 * 4 = 2 m/s.", "compute": "v_tan = radius * omega"}
+      ]
+    },
+    {
+      "id": "we4",
+      "source_ref": "keph106.txt lines 261-340 (angular velocity relation)",
+      "concept": "keph106.6.6.1",
+      "question_type": "compute",
+      "question_pattern": "A rim at radius {radius} m turns at {omega} rad/s; compute the rim speed.",
+      "extracted_variables": {"radius": 0.2, "omega": 10},
+      "solution_template": [
+        {"step": 1, "action": "multiply radius by angular velocity", "explain": "v_tan = 0.2 * 10 = 2 m/s.", "compute": "v_tan = radius * omega"}
+      ]
+    },
+    {
+      "id": "we5",
+      "source_ref": "keph106.txt lines 341-430 (torque)",
+      "concept": "keph106.6.7.1",
+      "question_type": "compute",
+      "question_pattern": "A {force} N force acts perpendicular to a wrench {moment_arm} m from the bolt; find the torque.",
+      "extracted_variables": {"force": 10, "moment_arm": 0.5},
+      "solution_template": [
+        {"step": 1, "action": "multiply force by moment arm", "explain": "torque = 10 * 0.5 = 5 N m.", "compute": "torque = force * moment_arm"}
+      ]
+    },
+    {
+      "id": "we6",
+      "source_ref": "keph106.txt lines 341-430 (torque)",
+      "concept": "keph106.6.7.1",
+      "question_type": "compute",
+      "question_pattern": "A tangential push of {force} N acts {moment_arm} m from the axis; compute the turning moment.",
+      "extracted_variables": {"force": 5, "moment_arm": 0.2},
+      "solution_template": [
+        {"step": 1, "action": "multiply force by moment arm", "explain": "torque = 5 * 0.2 = 1 N m.", "compute": "torque = force * moment_arm"}
+      ]
+    },
+    {
+      "id": "we7",
+      "source_ref": "keph106.txt lines 400-560 (angular momentum)",
+      "concept": "keph106.6.7.2",
+      "question_type": "compute",
+      "question_pattern": "A body with moment of inertia {moi} spins at {omega} rad/s; find its angular momentum.",
+      "extracted_variables": {"moi": 2, "omega": 3},
+      "solution_template": [
+        {"step": 1, "action": "multiply inertia by spin rate", "explain": "ang_mom = 2 * 3 = 6 kg m^2/s.", "compute": "ang_mom = moi * omega"}
+      ]
+    },
+    {
+      "id": "we8",
+      "source_ref": "keph106.txt lines 400-560 (angular momentum)",
+      "concept": "keph106.6.7.2",
+      "question_type": "compute",
+      "question_pattern": "With moment of inertia {moi} and spin {omega}, compute the angular momentum of the rotor.",
+      "extracted_variables": {"moi": 0.5, "omega": 4},
+      "solution_template": [
+        {"step": 1, "action": "multiply inertia by spin rate", "explain": "ang_mom = 0.5 * 4 = 2 kg m^2/s.", "compute": "ang_mom = moi * omega"}
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keph106.txt end-of-chapter exercises, reworded",
+      "questions": [
+        "Give the location of the centre of mass of the described two-particle system.",
+        "Show that the centre of mass of two equal masses lies at the midpoint.",
+        "Find the angular speed of the given wheel in rad/s from its rpm and the linear speed of a point on the rim.",
+        "A stone of given mass tied to a string of given length is whirled; find the tension needed for the given angular velocity.",
+        "State the condition under which the angular momentum of a system is conserved and give an example.",
+        "A disc and a ring of equal mass and radius roll down an incline; which reaches the bottom first and why?",
+        "Find the torque about the given axis when the force acts at the stated angle.",
+        "The moment of inertia of a spinning body halves while angular momentum is conserved; find the new angular velocity."
+      ]
+    }
+  ]
+}

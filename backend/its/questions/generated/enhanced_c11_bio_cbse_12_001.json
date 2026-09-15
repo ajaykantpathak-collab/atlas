@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_12_001",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_12_001",
+   "title": "c11_bio_cbse_12_001",
+   "questions": [
+    {
+     "q": "Name the two subcellular sites in a plant cell where the major energy-yielding reactions of aerobic respiration occur, and name the specific process that takes place at each site.",
+     "a": "Correct answer: (1) Cytoplasm – glycolysis (glucose → 2 pyruvate + 2 ATP + 2 NADH). (2) Mitochondria – matrix hosts pyruvate oxidation and Krebs cycle; inner membrane hosts electron transport chain and oxidative phosphorylation. A wrong answer like \"mitochondria only\" reveals the student thinks all respiration occurs inside mitochondria, missing the cytoplasmic glycolysis step that is universal and anaerobic.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Plants photosynthesise during the day, so they only respire at night.\" Explain why this statement is biologically incorrect, referencing gas exchange structures.",
+     "a": "Correct explanation: Respiration occurs 24/7 in all living plant cells (roots, stems, non-green tissues) because they need ATP continuously. During the day, photosynthesis in green tissues *masks* respiration by consuming CO₂ and releasing O₂, but mitochondrial respiration still runs. Stomata (leaves) and lenticels (woody stems) allow O₂ entry and CO₂ exit for respiration at all times. A wrong answer reveals confusion between net gas exchange and the actual metabolic process.",
+     "self_check": true
+    },
+    {
+     "q": "A maize root tip cell is treated with a mitochondrial uncoupler (allows H⁺ to leak across inner membrane without ATP synthase). Predict the effect on: (a) rate of glycolysis, (b) rate of O₂ consumption, (c) ATP yield per glucose. Justify each.",
+     "a": "(a) Glycolysis rate **increases** (Pasteur effect relief: low ATP/ADP ratio stimulates phosphofructokinase). (b) O₂ consumption **increases dramatically** because ETS runs unchecked without proton gradient back-pressure. (c) ATP yield **drops to ~2 ATP** (only substrate-level from glycolysis; oxidative phosphorylation uncoupled). A wrong prediction (e.g., O₂ consumption decreases) shows misunderstanding of respiratory control and chemiosmotic coupling.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the fate of pyruvate in three scenarios: (i) yeast in anaerobic grape juice, (ii) human muscle during sprint, (iii) maize root tip in aerated soil. Tabulate the end product, NAD⁺ regeneration mechanism, and ATP yield per glucose.",
+     "a": "| Scenario | End Product | NAD⁺ Regeneration | ATP/Glucose |\n|---|---|---|---|\n| (i) Yeast (anaerobic) | Ethanol + CO₂ | Pyruvate → acetaldehyde → ethanol (alcohol dehydrogenase) | 2 |\n| (ii) Human muscle (anaerobic) | Lactate | Pyruvate → lactate (lactate dehydrogenase) | 2 |\n| (iii) Maize root (aerobic) | Acetyl-CoA → CO₂ + H₂O | NADH → ETS → O₂ (oxidative phosphorylation) | ~38 |\nA wrong table (e.g., yeast produces lactate) reveals confusion between alcoholic and lactic acid fermentation organisms.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Since fats yield more energy per gram than carbohydrates, a plant seed storing oil (e.g., groundnut) should have a higher respiratory quotient (RQ) than a starch-storing seed (e.g., wheat).\" Is the claim correct? Explain using the RQ formula.",
+     "a": "Claim is **incorrect**. RQ = CO₂ evolved / O₂ consumed. For carbohydrates (C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O), RQ = 6/6 = 1. For fats (e.g., tripalmitin C₅₁H₉₈O₆ + 72.5O₂ → 51CO₂ + 49H₂O), RQ = 51/72.5 ≈ 0.7. Fats are more reduced, requiring *more* O₂ per carbon, so RQ is **lower** despite higher energy density. A \"yes\" answer shows the student conflates energy yield with gas exchange ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using germinating seeds (moong vs. groundnut), KOH, and a respirometer to demonstrate the difference in RQ between carbohydrate and fat respiration. State the measurable observation and expected conclusion.",
+     "a": "Setup: Two respirometers with equal *dry mass* of germinating moong (starch) and groundnut (oil). KOH absorbs CO₂. Measure O₂ consumption (manometer fluid movement) over fixed time. Observation: Groundnut shows **greater O₂ consumption per unit CO₂ produced** (fluid moves more for same CO₂ absorbed). Conclusion: Fat respiration has lower RQ (~0.7) than carbohydrate (~1.0). A poor design (e.g., not using KOH, or comparing wet mass) reveals lack of understanding of RQ definition and need to isolate gas volumes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

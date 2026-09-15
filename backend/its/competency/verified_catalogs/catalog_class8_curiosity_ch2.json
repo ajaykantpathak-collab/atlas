@@ -1,0 +1,532 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 2,
+ "chapter_title": "The Invisible Living World - Beyond Our Naked Eye",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hecu102.txt",
+ "concepts": [
+  {
+   "id": "c8cu.2.1",
+   "title": "Introduction to Microorganisms",
+   "section": "2.1",
+   "definition": "Microorganisms are living things so small that they can be seen only through a microscope; they include bacteria, viruses, fungi, protozoa, and algae.",
+   "formula": "",
+   "key_idea": "Microorganisms live all around us and inside us, though they are too small to see with the naked eye.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are microorganisms?",
+    "Name four types of microorganisms.",
+    "Why are microorganisms called invisible living things?",
+    "Where do microorganisms live?",
+    "How can we see microorganisms?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define microorganisms",
+     "explain": "State that microorganisms are living things too small to see without a microscope."
+    },
+    {
+     "step": 2,
+     "action": "List the types",
+     "explain": "Name the main groups such as bacteria, viruses, fungi, protozoa, and algae."
+    },
+    {
+     "step": 3,
+     "action": "Explain where they live",
+     "explain": "Mention that they live in air, water, soil, and inside other organisms."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are microorganisms?",
+     "solution": "Microorganisms are living things so small that they can be seen only through a microscope.",
+     "answer": "Living things visible only through a microscope."
+    },
+    {
+     "question": "Name four types of microorganisms.",
+     "solution": "Four types are bacteria, viruses, fungi, and protozoa.",
+     "answer": "Bacteria, viruses, fungi, protozoa."
+    },
+    {
+     "question": "How can we see microorganisms?",
+     "solution": "We can see microorganisms using a microscope, which magnifies them many times.",
+     "answer": "By using a microscope."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why are microorganisms called invisible living things?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Where do microorganisms live?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Name one microorganism that is useful to humans.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.2.2",
+   "title": "Classification of Microorganisms",
+   "section": "2.2",
+   "definition": "Microorganisms are classified into groups such as bacteria, viruses, fungi, protozoa, and algae based on their structure, size, and way of life.",
+   "formula": "",
+   "key_idea": "Different groups of microorganisms differ in structure, size, and how they live and reproduce.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "On what basis are microorganisms classified?",
+    "How are bacteria different from viruses?",
+    "What is the difference between protozoa and algae?",
+    "Name one characteristic of fungi.",
+    "Which microorganisms have a cell wall but no nucleus?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the group",
+     "explain": "Note which group of microorganisms the question is about."
+    },
+    {
+     "step": 2,
+     "action": "State its features",
+     "explain": "Describe the structure, size, and way of life of that group."
+    },
+    {
+     "step": 3,
+     "action": "Compare if needed",
+     "explain": "Explain how it differs from another group if the question asks for a comparison."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "On what basis are microorganisms classified?",
+     "solution": "Microorganisms are classified based on their structure, size, and way of life.",
+     "answer": "Structure, size, and way of life."
+    },
+    {
+     "question": "How are bacteria different from viruses?",
+     "solution": "Bacteria are single-celled living organisms that can survive on their own, while viruses need a host cell to reproduce.",
+     "answer": "Bacteria are living single cells; viruses need a host to reproduce."
+    },
+    {
+     "question": "Name one characteristic of fungi.",
+     "solution": "Fungi are organisms that feed on dead or decaying matter and include moulds and yeast.",
+     "answer": "Fungi feed on dead or decaying matter; examples are mould and yeast."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is the difference between protozoa and algae?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Which microorganisms have a cell wall but no nucleus?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of each main group of microorganisms.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.2.3",
+   "title": "Useful Microorganisms in Food",
+   "section": "2.3",
+   "definition": "Some microorganisms such as yeast and lactobacillus are useful in making foods like bread, curd, cheese, and dosa by fermentation.",
+   "formula": "",
+   "key_idea": "Friendly microorganisms help prepare and preserve many everyday foods through fermentation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Which microorganism is used to make bread?",
+    "How is curd formed from milk?",
+    "Name one food made using yeast.",
+    "What role does lactobacillus play in curd formation?",
+    "Give one example of fermentation in food preparation."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the food",
+     "explain": "Note which food product is being prepared."
+    },
+    {
+     "step": 2,
+     "action": "Identify the microorganism",
+     "explain": "State which microorganism is involved in the process."
+    },
+    {
+     "step": 3,
+     "action": "Explain the process",
+     "explain": "Describe how the microorganism changes the food, such as by fermentation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which microorganism is used to make bread?",
+     "solution": "Yeast is used to make bread because it produces carbon dioxide gas that makes the dough rise.",
+     "answer": "Yeast makes bread rise by producing carbon dioxide."
+    },
+    {
+     "question": "How is curd formed from milk?",
+     "solution": "Lactobacillus bacteria convert the sugar in milk into lactic acid, which turns milk into curd.",
+     "answer": "Lactobacillus converts milk sugar into lactic acid to form curd."
+    },
+    {
+     "question": "Name one food made using yeast.",
+     "solution": "Dosa batter is made using yeast, which ferments the rice and lentil mixture.",
+     "answer": "Dosa is made using yeast fermentation."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What role does lactobacillus play in curd formation?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of fermentation in food preparation.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Name one food preserved using microorganisms.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.2.4",
+   "title": "Useful Microorganisms in Medicine and Environment",
+   "section": "2.4",
+   "definition": "Microorganisms are used to make medicines such as antibiotics and vaccines, and they help the environment by decomposing waste and fixing nitrogen in soil.",
+   "formula": "",
+   "key_idea": "Microorganisms protect health through medicines and keep the environment clean by decomposing waste.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Which microorganism produces antibiotics?",
+    "How do microorganisms help the environment?",
+    "What is the role of bacteria in soil fertility?",
+    "Name one medicine made using microorganisms.",
+    "How do microorganisms decompose waste?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the use",
+     "explain": "Decide whether the question is about medicine or the environment."
+    },
+    {
+     "step": 2,
+     "action": "Identify the microorganism",
+     "explain": "Name the microorganism involved, such as penicillium for penicillin."
+    },
+    {
+     "step": 3,
+     "action": "Explain the benefit",
+     "explain": "Describe how the microorganism helps, such as killing bacteria or decomposing waste."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which microorganism produces antibiotics?",
+     "solution": "The fungus penicillium produces the antibiotic penicillin, which kills harmful bacteria.",
+     "answer": "Penicillium produces penicillin."
+    },
+    {
+     "question": "How do microorganisms help the environment?",
+     "solution": "Microorganisms decompose dead plants and animals, returning nutrients to the soil.",
+     "answer": "They decompose dead matter and return nutrients to soil."
+    },
+    {
+     "question": "What is the role of bacteria in soil fertility?",
+     "solution": "Rhizobium bacteria fix nitrogen from the air into the soil, making it fertile for plants.",
+     "answer": "Rhizobium fixes nitrogen in soil to improve fertility."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name one medicine made using microorganisms.",
+     "type": "verify_property"
+    },
+    {
+     "question": "How do microorganisms decompose waste?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of bacteria improving soil.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.2.5",
+   "title": "Harmful Microorganisms and Disease",
+   "section": "2.5",
+   "definition": "Some microorganisms are harmful because they cause diseases in humans, animals, and plants; these are called pathogens.",
+   "formula": "",
+   "key_idea": "Pathogenic microorganisms enter the body and cause diseases, so hygiene and prevention are important.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are pathogens?",
+    "Name one disease caused by bacteria.",
+    "How do microorganisms cause disease?",
+    "Name one disease caused by a virus.",
+    "How can we prevent the spread of harmful microorganisms?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the pathogen",
+     "explain": "Note whether the disease is caused by a bacterium, virus, protozoan, or fungus."
+    },
+    {
+     "step": 2,
+     "action": "Explain how it spreads",
+     "explain": "Describe how the pathogen enters the body, such as through air, water, or food."
+    },
+    {
+     "step": 3,
+     "action": "State the prevention",
+     "explain": "Mention hygiene, vaccination, or clean water to prevent the disease."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are pathogens?",
+     "solution": "Pathogens are disease-causing microorganisms such as certain bacteria and viruses.",
+     "answer": "Disease-causing microorganisms."
+    },
+    {
+     "question": "Name one disease caused by bacteria.",
+     "solution": "Tuberculosis is caused by the bacterium Mycobacterium tuberculosis.",
+     "answer": "Tuberculosis is caused by bacteria."
+    },
+    {
+     "question": "Name one disease caused by a virus.",
+     "solution": "Influenza, or flu, is caused by a virus.",
+     "answer": "Flu is caused by a virus."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How do microorganisms cause disease?",
+     "type": "verify_property"
+    },
+    {
+     "question": "How can we prevent the spread of harmful microorganisms?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Name one disease caused by a protozoan.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.2.7",
+   "title": "The Nitrogen Cycle and Microorganisms",
+   "section": "2.7",
+   "definition": "The nitrogen cycle is the movement of nitrogen between the air, soil, and living things, with microorganisms playing key roles in fixing, converting, and releasing nitrogen.",
+   "formula": "",
+   "key_idea": "Microorganisms such as rhizobium and denitrifying bacteria keep nitrogen cycling between air, soil, and organisms.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the nitrogen cycle?",
+    "Which microorganism fixes nitrogen in the soil?",
+    "How do microorganisms help in the nitrogen cycle?",
+    "What is nitrogen fixation?",
+    "How does nitrogen return to the air from the soil?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the stage",
+     "explain": "Note which part of the nitrogen cycle is involved, such as fixation or denitrification."
+    },
+    {
+     "step": 2,
+     "action": "Identify the microorganism",
+     "explain": "Name the microorganism involved, such as rhizobium for fixation."
+    },
+    {
+     "step": 3,
+     "action": "Explain the role",
+     "explain": "Describe how the microorganism converts nitrogen from one form to another."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the nitrogen cycle?",
+     "solution": "The nitrogen cycle is the movement of nitrogen between the air, soil, and living things with the help of microorganisms.",
+     "answer": "Movement of nitrogen between air, soil, and living things."
+    },
+    {
+     "question": "Which microorganism fixes nitrogen in the soil?",
+     "solution": "Rhizobium bacteria, found in the roots of leguminous plants, fix nitrogen from the air into the soil.",
+     "answer": "Rhizobium fixes nitrogen in the soil."
+    },
+    {
+     "question": "How does nitrogen return to the air from the soil?",
+     "solution": "Denitrifying bacteria convert nitrates in the soil back into nitrogen gas, which returns to the air.",
+     "answer": "Denitrifying bacteria release nitrogen gas back to the air."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How do microorganisms help in the nitrogen cycle?",
+     "type": "verify_property"
+    },
+    {
+     "question": "What is nitrogen fixation?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of a plant that hosts nitrogen-fixing bacteria.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.2.9",
+   "title": "Microorganisms in Industry",
+   "section": "2.9",
+   "definition": "Microorganisms are used in industry to make products such as alcohol, vinegar, antibiotics, enzymes, and biogas through large-scale fermentation.",
+   "formula": "",
+   "key_idea": "Industries use microorganisms to produce useful products on a large scale through fermentation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Name one industrial product made using microorganisms.",
+    "How is vinegar produced industrially?",
+    "What is biogas and which microorganisms make it?",
+    "How are antibiotics produced on a large scale?",
+    "Give one example of industrial fermentation."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the product",
+     "explain": "Note which industrial product is being made, such as alcohol or vinegar."
+    },
+    {
+     "step": 2,
+     "action": "Identify the microorganism",
+     "explain": "Name the microorganism involved, such as yeast for alcohol."
+    },
+    {
+     "step": 3,
+     "action": "Explain the process",
+     "explain": "Describe how the microorganism produces the product through fermentation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Name one industrial product made using microorganisms.",
+     "solution": "Alcohol is produced industrially using yeast through fermentation.",
+     "answer": "Alcohol is made using yeast fermentation."
+    },
+    {
+     "question": "How is vinegar produced industrially?",
+     "solution": "Vinegar is produced when bacteria convert alcohol into acetic acid.",
+     "answer": "Bacteria convert alcohol into acetic acid to make vinegar."
+    },
+    {
+     "question": "What is biogas and which microorganisms make it?",
+     "solution": "Biogas is a fuel made from decaying organic matter by anaerobic bacteria, producing methane.",
+     "answer": "Biogas is methane made by anaerobic bacteria from organic waste."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How are antibiotics produced on a large scale?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of industrial fermentation.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Name one enzyme produced using microorganisms.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.2.10",
+   "title": "Counting Microorganism Colonies",
+   "section": "2.10",
+   "definition": "We can count the number of microorganism colonies or cells in a sample to compare growth under different conditions.",
+   "formula": "total colonies = colonies from plate A + colonies from plate B",
+   "key_idea": "Adding the colonies counted on different plates gives the total number of colonies observed.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "A plate has 12 bacterial colonies and another has 18. What is the total number of colonies?",
+    "Count the total colonies if three plates have 10, 15, and 20 colonies.",
+    "If one plate has 25 colonies and another has 30, what is the total?",
+    "Find the total number of colonies given plates with 8 and 14 colonies.",
+    "Two plates have 22 and 28 colonies. What is the total?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List the colony counts",
+     "explain": "Write down the number of colonies on each plate."
+    },
+    {
+     "step": 2,
+     "action": "Add the counts",
+     "explain": "Sum the colony counts from all plates to get the total."
+    },
+    {
+     "step": 3,
+     "action": "Verify the total",
+     "explain": "Check that the total equals the sum of the individual counts."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A plate has 12 bacterial colonies and another has 18. What is the total number of colonies?",
+     "solution": "Add the counts: 12 + 18 = 30.",
+     "answer": "30 colonies."
+    },
+    {
+     "question": "Count the total colonies if three plates have 10, 15, and 20 colonies.",
+     "solution": "Add the counts: 10 + 15 + 20 = 45.",
+     "answer": "45 colonies."
+    },
+    {
+     "question": "If one plate has 25 colonies and another has 30, what is the total?",
+     "solution": "Add the counts: 25 + 30 = 55.",
+     "answer": "55 colonies."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Find the total number of colonies given plates with 8 and 14 colonies.",
+     "type": "compute"
+    },
+    {
+     "question": "Two plates have 22 and 28 colonies. What is the total?",
+     "type": "compute"
+    },
+    {
+     "question": "Three plates have 5, 11, and 19 colonies. Find the total.",
+     "type": "compute"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

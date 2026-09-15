@@ -1,0 +1,3462 @@
+---
+- formula_id: "MATH_ARITH_001"
+  name: "Addition"
+  latex: "a + b = c"
+  variables:
+    - symbol: "a"
+      name: "addend"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b"
+      name: "addend"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "c"
+      name: "sum"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["numbers_defined"]
+  grade_range: ["class1", "class2", "class3", "class4", "class5", "class6", "class7", "class8", "class9", "class10", "class11", "class12"]
+  chapter: "Basic Operations"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_002"
+  name: "Subtraction"
+  latex: "a - b = c"
+  variables:
+    - symbol: "a"
+      name: "minuend"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b"
+      name: "subtrahend"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "c"
+      name: "difference"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["numbers_defined"]
+  grade_range: ["class1", "class2", "class3", "class4", "class5", "class6", "class7", "class8", "class9", "class10", "class11", "class12"]
+  chapter: "Basic Operations"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_003"
+  name: "Multiplication"
+  latex: "a \\times b = c"
+  variables:
+    - symbol: "a"
+      name: "multiplicand"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b"
+      name: "multiplier"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "c"
+      name: "product"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["numbers_defined"]
+  grade_range: ["class1", "class2", "class3", "class4", "class5", "class6", "class7", "class8", "class9", "class10", "class11", "class12"]
+  chapter: "Basic Operations"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_004"
+  name: "Division"
+  latex: "a \\div b = c \\quad \\text{or} \\quad \\frac{a}{b} = c"
+  variables:
+    - symbol: "a"
+      name: "dividend"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b"
+      name: "divisor"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "c"
+      name: "quotient"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["numbers_defined", "b_not_zero"]
+  grade_range: ["class1", "class2", "class3", "class4", "class5", "class6", "class7", "class8", "class9", "class10", "class11", "class12"]
+  chapter: "Basic Operations"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_005"
+  name: "Fraction Addition (Common Denominator)"
+  latex: "\\frac{a}{b} + \\frac{c}{d} = \\frac{ad + bc}{bd}"
+  variables:
+    - symbol: "a"
+      name: "numerator1"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b"
+      name: "denominator1"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "c"
+      name: "numerator2"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "d"
+      name: "denominator2"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["b_not_zero", "d_not_zero"]
+  grade_range: ["class6", "class7", "class8", "class9", "class10", "class11", "class12"]
+  chapter: "Fractions"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_FRAC"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_006"
+  name: "Fraction Multiplication"
+  latex: "\\frac{a}{b} \\times \\frac{c}{d} = \\frac{ac}{bd}"
+  variables:
+    - symbol: "a"
+      name: "numerator1"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b"
+      name: "denominator1"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "c"
+      name: "numerator2"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "d"
+      name: "denominator2"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["b_not_zero", "d_not_zero"]
+  grade_range: ["class6", "class7", "class8", "class9", "class10", "class11", "class12"]
+  chapter: "Fractions"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_FRAC"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_007"
+  name: "Fraction Division"
+  latex: "\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\times \\frac{d}{c} = \\frac{ad}{bc}"
+  variables:
+    - symbol: "a"
+      name: "numerator1"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b"
+      name: "denominator1"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "c"
+      name: "numerator2"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "d"
+      name: "denominator2"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["b_not_zero", "d_not_zero", "c_not_zero"]
+  grade_range: ["class6", "class7", "class8", "class9", "class10", "class11", "class12"]
+  chapter: "Fractions"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_FRAC"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_008"
+  name: "Percentage to Fraction"
+  latex: "x\\% = \\frac{x}{100}"
+  variables:
+    - symbol: "x"
+      name: "percentage"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["numbers_defined"]
+  grade_range: ["class6", "class7", "class8", "class9", "class10", "class11", "class12"]
+  chapter: "Percentage"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_PERCENT"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_009"
+  name: "Percentage Change"
+  latex: "\\% \\text{ change} = \\frac{\\text{New Value} - \\text{Old Value}}{\\text{Old Value}} \\times 100"
+  variables:
+    - symbol: "New Value"
+      name: "new_value"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "Old Value"
+      name: "old_value"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["old_value_not_zero"]
+  grade_range: ["class6", "class7", "class8", "class9", "class10", "class11", "class12"]
+  chapter: "Percentage"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_PERCENT"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_010"
+  name: "Profit/Loss Percentage"
+  latex: "\\% \\text{ Profit} = \\frac{\\text{Profit}}{\\text{Cost Price}} \\times 100, \\quad \\% \\text{ Loss} = \\frac{\\text{Loss}}{\\text{Cost Price}} \\times 100"
+  variables:
+    - symbol: "Profit"
+      name: "profit"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "Loss"
+      name: "loss"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "Cost Price"
+      name: "cost_price"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["cost_price_not_zero"]
+  grade_range: ["class6", "class7", "class8", "class9", "class10", "class11", "class12"]
+  chapter: "Percentage"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_PERCENT"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_011"
+  name: "Simple Interest"
+  latex: "SI = \\frac{P \\times R \\times T}{100}"
+  variables:
+    - symbol: "P"
+      name: "principal"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "R"
+      name: "rate_per_annum"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "T"
+      name: "time_years"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "SI"
+      name: "simple_interest"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["positive_values"]
+  grade_range: ["class6", "class7", "class8", "class9", "class10", "class11", "class12"]
+  chapter: "Percentage"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_PERCENT"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_012"
+  name: "Compound Interest"
+  latex: "A = P\\left(1 + \\frac{R}{100}\\right)^T, \\quad CI = A - P"
+  variables:
+    - symbol: "A"
+      name: "amount"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "P"
+      name: "principal"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "R"
+      name: "rate_per_annum"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "T"
+      name: "time_years"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["positive_values"]
+  grade_range: ["class6", "class7", "class8", "class9", "class10", "class11", "class12"]
+  chapter: "Percentage"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_PERCENT"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_013"
+  name: "Ratio"
+  latex: "a : b = \\frac{a}{b}"
+  variables:
+    - symbol: "a"
+      name: "antecedent"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b"
+      name: "consequent"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["b_not_zero"]
+  grade_range: ["class6", "class7", "class8", "class9", "class10", "class11", "class12"]
+  chapter: "Ratio and Proportion"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_RATIO"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_014"
+  name: "Proportion"
+  latex: "\\frac{a}{b} = \\frac{c}{d} \\implies ad = bc"
+  variables:
+    - symbol: "a"
+      name: "term1"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b"
+      name: "term2"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "c"
+      name: "term3"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "d"
+      name: "term4"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["b_not_zero", "d_not_zero"]
+  grade_range: ["class6", "class7", "class8", "class9", "class10", "class11", "class12"]
+  chapter: "Ratio and Proportion"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_RATIO"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_015"
+  name: "Direct Proportion"
+  latex: "\\frac{a}{b} = \\frac{c}{d} \\quad \\text{or} \\quad a \\propto b"
+  variables:
+    - symbol: "a"
+      name: "variable1"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b"
+      name: "variable2"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "c"
+      name: "variable3"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "d"
+      name: "variable4"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["b_not_zero", "d_not_zero"]
+  grade_range: ["class6", "class7", "class8", "class9", "class10", "class11", "class12"]
+  chapter: "Ratio and Proportion"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_RATIO"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_016"
+  name: "Inverse Proportion"
+  latex: "a \\propto \\frac{1}{b} \\implies ab = k"
+  variables:
+    - symbol: "a"
+      name: "variable1"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b"
+      name: "variable2"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "k"
+      name: "constant"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["b_not_zero"]
+  grade_range: ["class6", "class7", "class8", "class9", "class10", "class11", "class12"]
+  chapter: "Ratio and Proportion"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_RATIO"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_017"
+  name: "Decimal to Fraction"
+  latex: "0.\\overline{abc} = \\frac{abc}{999}, \\quad 0.ab\\overline{c} = \\frac{abc - ab}{900}"
+  variables:
+    - symbol: "abc"
+      name: "repeating_part"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "ab"
+      name: "non_repeating_part"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["decimal_defined"]
+  grade_range: ["class6", "class7", "class8", "class9", "class10"]
+  chapter: "Decimals"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_DECIMAL"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_018"
+  name: "Fraction to Decimal"
+  latex: "\\frac{a}{b} = a \\div b"
+  variables:
+    - symbol: "a"
+      name: "numerator"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b"
+      name: "denominator"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["b_not_zero"]
+  grade_range: ["class6", "class7", "class8", "class9", "class10"]
+  chapter: "Decimals"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_DECIMAL"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_019"
+  name: "Divisibility by 2"
+  latex: "n \\equiv 0 \\pmod{2} \\iff \\text{last digit of } n \\text{ is even}"
+  variables:
+    - symbol: "n"
+      name: "integer"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["integer_defined"]
+  grade_range: ["class6", "class7", "class8", "class9", "class10"]
+  chapter: "Number Theory"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_NUMTH"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_020"
+  name: "Divisibility by 3"
+  latex: "n \\equiv 0 \\pmod{3} \\iff \\text{sum of digits of } n \\equiv 0 \\pmod{3}"
+  variables:
+    - symbol: "n"
+      name: "integer"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["integer_defined"]
+  grade_range: ["class6", "class7", "class8", "class9", "class10"]
+  chapter: "Number Theory"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_NUMTH"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_021"
+  name: "Divisibility by 5"
+  latex: "n \\equiv 0 \\pmod{5} \\iff \\text{last digit of } n \\text{ is 0 or 5}"
+  variables:
+    - symbol: "n"
+      name: "integer"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["integer_defined"]
+  grade_range: ["class6", "class7", "class8", "class9", "class10"]
+  chapter: "Number Theory"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_NUMTH"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_022"
+  name: "Divisibility by 9"
+  latex: "n \\equiv 0 \\pmod{9} \\iff \\text{sum of digits of } n \\equiv 0 \\pmod{9}"
+  variables:
+    - symbol: "n"
+      name: "integer"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["integer_defined"]
+  grade_range: ["class6", "class7", "class8", "class9", "class10"]
+  chapter: "Number Theory"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_NUMTH"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_023"
+  name: "Divisibility by 11"
+  latex: "n \\equiv 0 \\pmod{11} \\iff \\text{alternating sum of digits} \\equiv 0 \\pmod{11}"
+  variables:
+    - symbol: "n"
+      name: "integer"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["integer_defined"]
+  grade_range: ["class6", "class7", "class8", "class9", "class10"]
+  chapter: "Number Theory"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_NUMTH"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_024"
+  name: "Highest Common Factor (GCD)"
+  latex: "\\gcd(a,b) = \\gcd(b, a \\bmod b)"
+  variables:
+    - symbol: "a"
+      name: "integer1"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+    - symbol: "b"
+      name: "integer2"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["integers_defined", "not_both_zero"]
+  grade_range: ["class6", "class7", "class8", "class9", "class10", "class11", "class12"]
+  chapter: "Number Theory"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_NUMTH"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_025"
+  name: "Least Common Multiple"
+  latex: "\\text{lcm}(a,b) = \\frac{|a \\cdot b|}{\\gcd(a,b)}"
+  variables:
+    - symbol: "a"
+      name: "integer1"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+    - symbol: "b"
+      name: "integer2"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["integers_defined", "not_both_zero"]
+  grade_range: ["class6", "class7", "class8", "class9", "class10", "class11", "class12"]
+  chapter: "Number Theory"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_NUMTH"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_026"
+  name: "Prime Factorization"
+  latex: "n = p_1^{e_1} p_2^{e_2} \\cdots p_k^{e_k}"
+  variables:
+    - symbol: "n"
+      name: "integer"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+    - symbol: "p_i"
+      name: "prime_factor"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "prime"
+    - symbol: "e_i"
+      name: "exponent"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["integer_positive"]
+  grade_range: ["class6", "class7", "class8", "class9", "class10", "class11", "class12"]
+  chapter: "Number Theory"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_NUMTH"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_027"
+  name: "Sum of First n Natural Numbers"
+  latex: "\\sum_{k=1}^{n} k = \\frac{n(n+1)}{2}"
+  variables:
+    - symbol: "n"
+      name: "number_of_terms"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["integer_positive"]
+  grade_range: ["class6", "class7", "class8", "class9", "class10", "class11", "class12"]
+  chapter: "Number Theory"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_NUMTH", "MATH_SERIES"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_028"
+  name: "Sum of Squares of First n Natural Numbers"
+  latex: "\\sum_{k=1}^{n} k^2 = \\frac{n(n+1)(2n+1)}{6}"
+  variables:
+    - symbol: "n"
+      name: "number_of_terms"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["integer_positive"]
+  grade_range: ["class9", "class10", "class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Number Theory"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_NUMTH", "MATH_SERIES"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_029"
+  name: "Sum of Cubes of First n Natural Numbers"
+  latex: "\\sum_{k=1}^{n} k^3 = \\left(\\frac{n(n+1)}{2}\\right)^2"
+  variables:
+    - symbol: "n"
+      name: "number_of_terms"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["integer_positive"]
+  grade_range: ["class9", "class10", "class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Number Theory"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_NUMTH", "MATH_SERIES"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_030"
+  name: "Modular Arithmetic - Addition"
+  latex: "(a + b) \\bmod m = ((a \\bmod m) + (b \\bmod m)) \\bmod m"
+  variables:
+    - symbol: "a"
+      name: "integer1"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+    - symbol: "b"
+      name: "integer2"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+    - symbol: "m"
+      name: "modulus"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["m_not_zero", "m_positive"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Modular Arithmetic"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_NUMTH", "MATH_MODULAR"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_031"
+  name: "Modular Arithmetic - Multiplication"
+  latex: "(a \\times b) \\bmod m = ((a \\bmod m) \\times (b \\bmod m)) \\bmod m"
+  variables:
+    - symbol: "a"
+      name: "integer1"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+    - symbol: "b"
+      name: "integer2"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+    - symbol: "m"
+      name: "modulus"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["m_not_zero", "m_positive"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Modular Arithmetic"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_NUMTH", "MATH_MODULAR"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_032"
+  name: "Modular Multiplicative Inverse"
+  latex: "a^{-1} \\bmod m \\text{ exists} \\iff \\gcd(a,m) = 1, \\quad a \\cdot a^{-1} \\equiv 1 \\pmod{m}"
+  variables:
+    - symbol: "a"
+      name: "integer"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+    - symbol: "m"
+      name: "modulus"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["m_not_zero", "m_positive", "gcd_equals_1"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Modular Arithmetic"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_NUMTH", "MATH_MODULAR"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_033"
+  name: "Fermat's Little Theorem"
+  latex: "a^{p-1} \\equiv 1 \\pmod{p} \\quad \\text{for prime } p \\text{ and } \\gcd(a,p)=1"
+  variables:
+    - symbol: "a"
+      name: "integer"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+    - symbol: "p"
+      name: "prime"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "prime"
+  preconditions: ["p_is_prime", "gcd_equals_1"]
+  grade_range: ["undergraduate", "graduate", "phd"]
+  chapter: "Number Theory"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_NUMTH", "MATH_MODULAR"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_034"
+  name: "Euler's Totient Function"
+  latex: "\\phi(n) = n \\prod_{p|n} \\left(1 - \\frac{1}{p}\\right)"
+  variables:
+    - symbol: "n"
+      name: "integer"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+    - symbol: "p"
+      name: "prime_factor"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "prime"
+  preconditions: ["integer_positive"]
+  grade_range: ["undergraduate", "graduate", "phd"]
+  chapter: "Number Theory"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_NUMTH", "MATH_EULER"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_035"
+  name: "Euler's Theorem"
+  latex: "a^{\\phi(n)} \\equiv 1 \\pmod{n} \\quad \\text{for } \\gcd(a,n)=1"
+  variables:
+    - symbol: "a"
+      name: "integer"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+    - symbol: "n"
+      name: "integer"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["gcd_equals_1"]
+  grade_range: ["undergraduate", "graduate", "phd"]
+  chapter: "Number Theory"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_NUMTH", "MATH_EULER"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_036"
+  name: "Chinese Remainder Theorem"
+  latex: "x \\equiv a_i \\pmod{n_i} \\quad \\text{has unique solution modulo } N = \\prod n_i \\text{ if } \\gcd(n_i, n_j)=1"
+  variables:
+    - symbol: "x"
+      name: "solution"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+    - symbol: "a_i"
+      name: "remainder"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+    - symbol: "n_i"
+      name: "modulus"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+    - symbol: "N"
+      name: "product_of_moduli"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["pairwise_coprime_moduli"]
+  grade_range: ["undergraduate", "graduate", "phd"]
+  chapter: "Number Theory"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_NUMTH", "MATH_CRT"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_037"
+  name: "Prime Number Theorem"
+  latex: "\\pi(x) \\sim \\frac{x}{\\ln x} \\quad \\text{as } x \\to \\infty"
+  variables:
+    - symbol: "\\pi(x)"
+      name: "prime_counting_function"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "x"
+      name: "real_number"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["x_positive"]
+  grade_range: ["graduate", "phd"]
+  chapter: "Number Theory"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_NUMTH"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_038"
+  name: "Division Algorithm"
+  latex: "a = bq + r, \\quad 0 \\leq r < |b|"
+  variables:
+    - symbol: "a"
+      name: "dividend"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+    - symbol: "b"
+      name: "divisor"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+    - symbol: "q"
+      name: "quotient"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+    - symbol: "r"
+      name: "remainder"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["b_not_zero"]
+  grade_range: ["class6", "class7", "class8", "class9", "class10", "class11", "class12"]
+  chapter: "Number Theory"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_NUMTH"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_039"
+  name: "BODMAS/PEMDAS Order of Operations"
+  latex: "\\text{Order: Brackets, Orders, Division/Multiplication, Addition/Subtraction}"
+  variables: []
+  preconditions: ["expression_defined"]
+  grade_range: ["class6", "class7", "class8", "class9", "class10", "class11", "class12"]
+  chapter: "Basic Operations"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH"]
+  related_formulas: []
+
+- formula_id: "MATH_ARITH_040"
+  name: "Fraction to Percentage"
+  latex: "\\frac{a}{b} \\times 100\\%"
+  variables:
+    - symbol: "a"
+      name: "numerator"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b"
+      name: "denominator"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["b_not_zero"]
+  grade_range: ["class6", "class7", "class8", "class9", "class10", "class11", "class12"]
+  chapter: "Percentage"
+  subject: "mathematics"
+  concept_tags: ["MATH_ARITH", "MATH_PERCENT"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_001"
+  name: "Linear Equation in One Variable"
+  latex: "ax + b = 0, \\quad x = -\\frac{b}{a}"
+  variables:
+    - symbol: "a"
+      name: "coefficient"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b"
+      name: "constant"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "x"
+      name: "variable"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["a_not_zero"]
+  grade_range: ["class7", "class8", "class9", "class10", "class11", "class12"]
+  chapter: "Linear Equations"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_LINEAR"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_002"
+  name: "System of Two Linear Equations"
+  latex: "\\begin{cases} a_1x + b_1y = c_1 \\\\ a_2x + b_2y = c_2 \\end{cases}"
+  variables:
+    - symbol: "a_1"
+      name: "coefficient1_x"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b_1"
+      name: "coefficient1_y"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "c_1"
+      name: "constant1"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "a_2"
+      name: "coefficient2_x"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b_2"
+      name: "coefficient2_y"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "c_2"
+      name: "constant2"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["determinant_not_zero"]
+  grade_range: ["class8", "class9", "class10", "class11", "class12"]
+  chapter: "Linear Equations"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_LINEAR"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_003"
+  name: "Cramer's Rule for 2x2 System"
+  latex: "x = \\frac{c_1b_2 - c_2b_1}{a_1b_2 - a_2b_1}, \\quad y = \\frac{a_1c_2 - a_2c_1}{a_1b_2 - a_2b_1}"
+  variables:
+    - symbol: "a_1"
+      name: "coefficient1_x"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b_1"
+      name: "coefficient1_y"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "c_1"
+      name: "constant1"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "a_2"
+      name: "coefficient2_x"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b_2"
+      name: "coefficient2_y"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "c_2"
+      name: "constant2"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["determinant_not_zero"]
+  grade_range: ["class10", "class11", "class12", "undergraduate"]
+  chapter: "Linear Equations"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_LINEAR", "MATH_CRAMER"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_004"
+  name: "Quadratic Formula"
+  latex: "x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}"
+  variables:
+    - symbol: "x"
+      name: "root"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "a"
+      name: "coefficient_x_squared"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b"
+      name: "coefficient_x"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "c"
+      name: "constant"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["a_not_zero"]
+  grade_range: ["class8", "class9", "class10", "class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Quadratic Equations"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_QUAD"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_005"
+  name: "Discriminant of Quadratic"
+  latex: "D = b^2 - 4ac"
+  variables:
+    - symbol: "D"
+      name: "discriminant"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "a"
+      name: "coefficient_x_squared"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b"
+      name: "coefficient_x"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "c"
+      name: "constant"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["quadratic_equation"]
+  grade_range: ["class9", "class10", "class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Quadratic Equations"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_QUAD"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_006"
+  name: "Sum and Product of Quadratic Roots (Vieta)"
+  latex: "\\alpha + \\beta = -\\frac{b}{a}, \\quad \\alpha\\beta = \\frac{c}{a}"
+  variables:
+    - symbol: "\\alpha"
+      name: "root1"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "\\beta"
+      name: "root2"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "a"
+      name: "coefficient_x_squared"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b"
+      name: "coefficient_x"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "c"
+      name: "constant"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["a_not_zero"]
+  grade_range: ["class10", "class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Quadratic Equations"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_VIETA"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_007"
+  name: "Cubic Formula (Cardano)"
+  latex: "x = \\sqrt[3]{\\frac{-q}{2} + \\sqrt{\\frac{q^2}{4} + \\frac{p^3}{27}}} + \\sqrt[3]{\\frac{-q}{2} - \\sqrt{\\frac{q^2}{4} + \\frac{p^3}{27}}}"
+  variables:
+    - symbol: "x"
+      name: "root"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "p"
+      name: "cubic_depressed"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "q"
+      name: "cubic_depressed"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["cubic_equation"]
+  grade_range: ["class11", "class12", "undergraduate", "jee_advanced"]
+  chapter: "Polynomial Equations"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_CUBIC"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_008"
+  name: "Quartic Formula (Ferrari)"
+  latex: "\\text{Solution of } ax^4 + bx^3 + cx^2 + dx + e = 0 \\text{ by Ferrari's method}"
+  variables: []
+  preconditions: ["quartic_equation", "a_not_zero"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Polynomial Equations"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_QUARTIC"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_009"
+  name: "Polynomial Remainder Theorem"
+  latex: "P(x) \\text{ divided by } (x-a) \\text{ leaves remainder } P(a)"
+  variables:
+    - symbol: "P(x)"
+      name: "polynomial"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "a"
+      name: "constant"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["polynomial_defined"]
+  grade_range: ["class9", "class10", "class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Polynomials"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_POLY"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_010"
+  name: "Factor Theorem"
+  latex: "(x-a) \\text{ is a factor of } P(x) \\iff P(a) = 0"
+  variables:
+    - symbol: "P(x)"
+      name: "polynomial"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "a"
+      name: "root"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["polynomial_defined"]
+  grade_range: ["class9", "class10", "class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Polynomials"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_POLY"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_011"
+  name: "Vieta's Formulas - Sum of Roots"
+  latex: "\\sum_{i=1}^{n} \\alpha_i = -\\frac{a_{n-1}}{a_n} \\quad \\text{for } a_nx^n + a_{n-1}x^{n-1} + \\cdots + a_0 = 0"
+  variables:
+    - symbol: "\\alpha_i"
+      name: "root_i"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "a_i"
+      name: "coefficient"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["polynomial_defined", "leading_coeff_not_zero"]
+  grade_range: ["class10", "class11", "class12", "jee_main", "jee_advanced", "undergraduate"]
+  chapter: "Polynomials"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_VIETA"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_012"
+  name: "Vieta's Formulas - Product of Roots"
+  latex: "\\prod_{i=1}^{n} \\alpha_i = (-1)^n \\frac{a_0}{a_n} \\quad \\text{for } a_nx^n + \\cdots + a_0 = 0"
+  variables:
+    - symbol: "\\alpha_i"
+      name: "root_i"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "a_0"
+      name: "constant_term"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "a_n"
+      name: "leading_coefficient"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["polynomial_defined", "leading_coeff_not_zero"]
+  grade_range: ["class10", "class11", "class12", "jee_main", "jee_advanced", "undergraduate"]
+  chapter: "Polynomials"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_VIETA"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_013"
+  name: "Arithmetic Progression - General Term"
+  latex: "a_n = a_1 + (n-1)d"
+  variables:
+    - symbol: "a_n"
+      name: "nth_term"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "a_1"
+      name: "first_term"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "d"
+      name: "common_difference"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "n"
+      name: "term_index"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["integer_positive"]
+  grade_range: ["class10", "class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Sequences and Series"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_SERIES", "MATH_AP"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_014"
+  name: "Arithmetic Progression - Sum of n Terms"
+  latex: "S_n = \\frac{n}{2}[2a_1 + (n-1)d] = \\frac{n}{2}(a_1 + a_n)"
+  variables:
+    - symbol: "S_n"
+      name: "sum_n_terms"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "n"
+      name: "number_of_terms"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+    - symbol: "a_1"
+      name: "first_term"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "d"
+      name: "common_difference"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["integer_positive"]
+  grade_range: ["class10", "class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Sequences and Series"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_SERIES", "MATH_AP"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_015"
+  name: "Geometric Progression - General Term"
+  latex: "a_n = a_1 \\cdot r^{n-1}"
+  variables:
+    - symbol: "a_n"
+      name: "nth_term"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "a_1"
+      name: "first_term"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "r"
+      name: "common_ratio"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "n"
+      name: "term_index"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["integer_positive", "r_not_zero"]
+  grade_range: ["class10", "class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Sequences and Series"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_SERIES", "MATH_GP"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_016"
+  name: "Geometric Progression - Sum of n Terms"
+  latex: "S_n = \\frac{a_1(r^n - 1)}{r - 1} \\quad (r \\neq 1)"
+  variables:
+    - symbol: "S_n"
+      name: "sum_n_terms"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "a_1"
+      name: "first_term"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "r"
+      name: "common_ratio"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "n"
+      name: "number_of_terms"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["integer_positive", "r_not_equal_1"]
+  grade_range: ["class10", "class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Sequences and Series"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_SERIES", "MATH_GP"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_017"
+  name: "Geometric Progression - Infinite Sum"
+  latex: "S_{\\infty} = \\frac{a_1}{1 - r} \\quad \\text{for } |r| < 1"
+  variables:
+    - symbol: "S_\\infty"
+      name: "infinite_sum"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "a_1"
+      name: "first_term"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "r"
+      name: "common_ratio"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["absolute_r_less_than_1"]
+  grade_range: ["class11", "class12", "jee_main", "jee_advanced", "undergraduate"]
+  chapter: "Sequences and Series"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_SERIES", "MATH_GP"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_018"
+  name: "Harmonic Progression - General Term"
+  latex: "\\frac{1}{a_n} = \\frac{1}{a_1} + (n-1)d"
+  variables:
+    - symbol: "a_n"
+      name: "nth_term"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "a_1"
+      name: "first_term"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "d"
+      name: "common_difference"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "n"
+      name: "term_index"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["a1_not_zero", "integer_positive"]
+  grade_range: ["class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Sequences and Series"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_SERIES", "MATH_HP"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_019"
+  name: "Binomial Theorem"
+  latex: "(a + b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^k"
+  variables:
+    - symbol: "a"
+      name: "term1"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b"
+      name: "term2"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "n"
+      name: "exponent"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+    - symbol: "k"
+      name: "summation_index"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["integer_non_negative"]
+  grade_range: ["class11", "class12", "jee_main", "jee_advanced", "undergraduate"]
+  chapter: "Binomial Theorem"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_BINOMIAL"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_020"
+  name: "General Term of Binomial Expansion"
+  latex: "T_{k+1} = \\binom{n}{k} a^{n-k} b^k"
+  variables:
+    - symbol: "T_{k+1}"
+      name: "kth_plus_one_term"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "\\binom{n}{k}"
+      name: "binomial_coefficient"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "a"
+      name: "base_term1"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b"
+      name: "base_term2"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["integer_non_negative"]
+  grade_range: ["class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Binomial Theorem"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_BINOMIAL"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_021"
+  name: "Binomial Coefficient"
+  latex: "\\binom{n}{k} = \\frac{n!}{k!(n-k)!}"
+  variables:
+    - symbol: "n"
+      name: "total"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+    - symbol: "k"
+      name: "selection"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["0_leq_k_leq_n"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Binomial Theorem"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_BINOMIAL", "MATH_COMB"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_022"
+  name: "Pascal's Triangle"
+  latex: "\\binom{n}{k} = \\binom{n-1}{k-1} + \\binom{n-1}{k}"
+  variables:
+    - symbol: "\\binom{n}{k}"
+      name: "binomial_coefficient"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "n"
+      name: "row"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+    - symbol: "k"
+      name: "position"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["integer_non_negative"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Binomial Theorem"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_BINOMIAL", "MATH_COMB"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_023"
+  name: "Multinomial Theorem"
+  latex: "(x_1 + x_2 + \\cdots + x_m)^n = \\sum \\frac{n!}{n_1!n_2!\\cdots n_m!} x_1^{n_1} x_2^{n_2} \\cdots x_m^{n_m}"
+  variables:
+    - symbol: "x_i"
+      name: "term_i"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "n"
+      name: "exponent"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+    - symbol: "n_i"
+      name: "exponent_i"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["n_1_plus_plus_n_m_equals_n"]
+  grade_range: ["undergraduate", "graduate", "phd"]
+  chapter: "Multinomial Theorem"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_BINOMIAL", "MATH_MULTINOMIAL"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_024"
+  name: "Permutations"
+  latex: "P(n,r) = \\frac{n!}{(n-r)!}"
+  variables:
+    - symbol: "n"
+      name: "total_items"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+    - symbol: "r"
+      name: "items_selected"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["0_leq_r_leq_n"]
+  grade_range: ["class11", "class12", "jee_main", "jee_advanced", "undergraduate"]
+  chapter: "Permutations and Combinations"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_PERM", "MATH_COMB"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_025"
+  name: "Combinations"
+  latex: "C(n,r) = \\binom{n}{r} = \\frac{n!}{r!(n-r)!}"
+  variables:
+    - symbol: "n"
+      name: "total_items"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+    - symbol: "r"
+      name: "items_selected"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["0_leq_r_leq_n"]
+  grade_range: ["class11", "class12", "jee_main", "jee_advanced", "undergraduate"]
+  chapter: "Permutations and Combinations"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_COMB"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_026"
+  name: "Circular Permutations"
+  latex: "P_{circle}(n) = (n-1)!, \\quad P_{circle}(n,r) = \\frac{(n-1)!}{(n-r)!}"
+  variables:
+    - symbol: "n"
+      name: "total_items"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+    - symbol: "r"
+      name: "items_selected"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["0_leq_r_leq_n"]
+  grade_range: ["class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Permutations and Combinations"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_PERM", "MATH_COMB"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_027"
+  name: "Permutations with Repetition"
+  latex: "P_{rep}(n,r) = n^r"
+  variables:
+    - symbol: "n"
+      name: "total_items"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+    - symbol: "r"
+      name: "positions"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["positive_integers"]
+  grade_range: ["class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Permutations and Combinations"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_PERM", "MATH_COMB"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_028"
+  name: "Permutations with Identical Items"
+  latex: "P_{ident}(n; n_1, n_2, \\ldots, n_k) = \\frac{n!}{n_1! n_2! \\cdots n_k!}"
+  variables:
+    - symbol: "n"
+      name: "total_items"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+    - symbol: "n_i"
+      name: "count_of_identical_i"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["sum_n_i_equals_n"]
+  grade_range: ["class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Permutations and Combinations"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_PERM", "MATH_COMB"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_029"
+  name: "Pigeonhole Principle"
+  latex: "\\text{If } n \\text{ items in } m \\text{ boxes and } n > m, \\text{ then } \\geq 1 \\text{ box has } \\geq 2 \\text{ items}"
+  variables:
+    - symbol: "n"
+      name: "items"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+    - symbol: "m"
+      name: "boxes"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["n_greater_than_m"]
+  grade_range: ["class11", "class12", "undergraduate", "jee_advanced"]
+  chapter: "Combinatorics"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_COMB"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_030"
+  name: "Principle of Inclusion-Exclusion (Two Sets)"
+  latex: "|A \\cup B| = |A| + |B| - |A \\cap B|"
+  variables:
+    - symbol: "A"
+      name: "set_a"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "set"
+    - symbol: "B"
+      name: "set_b"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "set"
+  preconditions: ["finite_sets"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Combinatorics"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_COMB", "MATH_SET"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_031"
+  name: "Complex Number - Standard Form"
+  latex: "z = a + bi, \\quad i = \\sqrt{-1}, \\quad i^2 = -1"
+  variables:
+    - symbol: "z"
+      name: "complex_number"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "complex"
+    - symbol: "a"
+      name: "real_part"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b"
+      name: "imaginary_part"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["complex_number_defined"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Complex Numbers"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_COMPLEX"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_032"
+  name: "Complex Number - Polar Form"
+  latex: "z = r(\\cos \\theta + i\\sin \\theta) = re^{i\\theta}, \\quad r = |z| = \\sqrt{a^2 + b^2}"
+  variables:
+    - symbol: "z"
+      name: "complex_number"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "complex"
+    - symbol: "r"
+      name: "modulus"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "\\theta"
+      name: "argument"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "angle"
+    - symbol: "a"
+      name: "real_part"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b"
+      name: "imaginary_part"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["complex_number_defined"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Complex Numbers"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_COMPLEX"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_033"
+  name: "Euler's Formula"
+  latex: "e^{i\\theta} = \\cos \\theta + i\\sin \\theta"
+  variables:
+    - symbol: "\\theta"
+      name: "angle"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "angle"
+  preconditions: ["angle_defined"]
+  grade_range: ["class12", "undergraduate", "graduate", "phd"]
+  chapter: "Complex Numbers"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_COMPLEX", "MATH_EULER"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_034"
+  name: "De Moivre's Theorem"
+  latex: "(\\cos \\theta + i\\sin \\theta)^n = \\cos(n\\theta) + i\\sin(n\\theta)"
+  variables:
+    - symbol: "\\theta"
+      name: "angle"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "angle"
+    - symbol: "n"
+      name: "integer"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["integer_defined"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Complex Numbers"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_COMPLEX", "MATH_DEMOIVRE"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_035"
+  name: "nth Roots of Unity"
+  latex: "\\omega_k = e^{2\\pi ik/n}, \\quad k = 0, 1, \\ldots, n-1, \\quad \\sum_{k=0}^{n-1} \\omega_k = 0"
+  variables:
+    - symbol: "\\omega_k"
+      name: "nth_root_of_unity"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "complex"
+    - symbol: "n"
+      name: "order"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+    - symbol: "k"
+      name: "root_index"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["n_positive_integer"]
+  grade_range: ["undergraduate", "graduate", "phd"]
+  chapter: "Complex Numbers"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_COMPLEX"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_036"
+  name: "Matrix Addition"
+  latex: "(A + B)_{ij} = A_{ij} + B_{ij}"
+  variables:
+    - symbol: "A"
+      name: "matrix_a"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "matrix"
+    - symbol: "B"
+      name: "matrix_b"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "matrix"
+  preconditions: ["same_dimensions"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Matrices"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_MATRIX"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_037"
+  name: "Matrix Multiplication"
+  latex: "(AB)_{ij} = \\sum_{k=1}^{n} A_{ik} B_{kj}"
+  variables:
+    - symbol: "A"
+      name: "matrix_a"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "matrix"
+    - symbol: "B"
+      name: "matrix_b"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "matrix"
+  preconditions: ["columns_A_equals_rows_B"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Matrices"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_MATRIX"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_038"
+  name: "Matrix Transpose"
+  latex: "(A^T)_{ij} = A_{ji}"
+  variables:
+    - symbol: "A"
+      name: "matrix"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "matrix"
+  preconditions: ["matrix_defined"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Matrices"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_MATRIX"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_039"
+  name: "Matrix Inverse (2x2)"
+  latex: "A^{-1} = \\frac{1}{ad - bc} \\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix} \\quad \\text{for } A = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}"
+  variables:
+    - symbol: "A"
+      name: "matrix"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "matrix"
+    - symbol: "a"
+      name: "element_11"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b"
+      name: "element_12"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "c"
+      name: "element_21"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "d"
+      name: "element_22"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["determinant_not_zero"]
+  grade_range: ["class12", "undergraduate", "graduate"]
+  chapter: "Matrices"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_MATRIX"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_040"
+  name: "Determinant of 2x2 Matrix"
+  latex: "\\det\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = ad - bc"
+  variables:
+    - symbol: "a"
+      name: "element_11"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b"
+      name: "element_12"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "c"
+      name: "element_21"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "d"
+      name: "element_22"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["matrix_defined"]
+  grade_range: ["class12", "undergraduate", "graduate"]
+  chapter: "Determinants"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_DET"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_041"
+  name: "Determinant of 3x3 Matrix"
+  latex: "\\det(A) = a_1(b_2c_3 - b_3c_2) - a_2(b_1c_3 - b_3c_1) + a_3(b_1c_2 - b_2c_1)"
+  variables:
+    - symbol: "a_i"
+      name: "first_row_elements"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b_i"
+      name: "second_row_elements"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "c_i"
+      name: "third_row_elements"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["matrix_3x3_defined"]
+  grade_range: ["class12", "undergraduate", "graduate"]
+  chapter: "Determinants"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_DET"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_042"
+  name: "Cramer's Rule for 3x3 System"
+  latex: "x = \\frac{\\det(A_x)}{\\det(A)}, \\quad y = \\frac{\\det(A_y)}{\\det(A)}, \\quad z = \\frac{\\det(A_z)}{\\det(A)}"
+  variables:
+    - symbol: "A_x"
+      name: "matrix_with_x_column_replaced"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "matrix"
+    - symbol: "A_y"
+      name: "matrix_with_y_column_replaced"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "matrix"
+    - symbol: "A_z"
+      name: "matrix_with_z_column_replaced"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "matrix"
+  preconditions: ["determinant_not_zero"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Determinants"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_DET", "MATH_CRAMER"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_043"
+  name: "Characteristic Polynomial"
+  latex: "p_A(\\lambda) = \\det(A - \\lambda I)"
+  variables:
+    - symbol: "p_A"
+      name: "characteristic_polynomial"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "polynomial"
+    - symbol: "A"
+      name: "matrix"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "matrix"
+    - symbol: "\\lambda"
+      name: "eigenvalue"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["matrix_square_defined"]
+  grade_range: ["undergraduate", "graduate", "phd"]
+  chapter: "Linear Algebra"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_LIN_ALG", "MATH_EIGEN"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_044"
+  name: "Eigenvalue Equation"
+  latex: "A\\mathbf{v} = \\lambda\\mathbf{v}"
+  variables:
+    - symbol: "A"
+      name: "matrix"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "matrix"
+    - symbol: "\\mathbf{v}"
+      name: "eigenvector"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "vector"
+    - symbol: "\\lambda"
+      name: "eigenvalue"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["matrix_square_defined", "eigenvector_not_zero"]
+  grade_range: ["undergraduate", "graduate", "phd"]
+  chapter: "Linear Algebra"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_LIN_ALG", "MATH_EIGEN"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_045"
+  name: "Cayley-Hamilton Theorem"
+  latex: "p_A(A) = 0, \\quad \\text{where } p_A(\\lambda) = \\det(A - \\lambda I)"
+  variables:
+    - symbol: "p_A"
+      name: "characteristic_polynomial"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "polynomial"
+    - symbol: "A"
+      name: "matrix"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "matrix"
+    - symbol: "\\lambda"
+      name: "eigenvalue"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["matrix_square_defined"]
+  grade_range: ["graduate", "phd"]
+  chapter: "Linear Algebra"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_LIN_ALG", "MATH_EIGEN"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_046"
+  name: "Dot Product (Euclidean)"
+  latex: "\\mathbf{a} \\cdot \\mathbf{b} = \\sum_{i=1}^{n} a_i b_i = |\\mathbf{a}| |\\mathbf{b}| \\cos \\theta"
+  variables:
+    - symbol: "\\mathbf{a}"
+      name: "vector_a"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "vector"
+    - symbol: "\\mathbf{b}"
+      name: "vector_b"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "vector"
+    - symbol: "\\theta"
+      name: "angle_between"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "angle"
+  preconditions: ["vectors_in_same_space"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Vectors"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_VECTOR"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_047"
+  name: "Cross Product (3D)"
+  latex: "\\mathbf{a} \\times \\mathbf{b} = \\begin{vmatrix} \\mathbf{i} & \\mathbf{j} & \\mathbf{k} \\\\ a_x & a_y & a_z \\\\ b_x & b_y & b_z \\end{vmatrix}"
+  variables:
+    - symbol: "\\mathbf{a}"
+      name: "vector_a"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "vector"
+    - symbol: "\\mathbf{b}"
+      name: "vector_b"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "vector"
+  preconditions: ["vectors_3D"]
+  grade_range: ["class12", "undergraduate", "graduate"]
+  chapter: "Vectors"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_VECTOR"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_048"
+  name: "Magnitude of Cross Product"
+  latex: "|\\mathbf{a} \\times \\mathbf{b}| = |\\mathbf{a}| |\\mathbf{b}| \\sin \\theta"
+  variables:
+    - symbol: "\\mathbf{a}"
+      name: "vector_a"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "vector"
+    - symbol: "\\mathbf{b}"
+      name: "vector_b"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "vector"
+    - symbol: "\\theta"
+      name: "angle_between"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "angle"
+  preconditions: ["vectors_3D"]
+  grade_range: ["class12", "undergraduate", "graduate"]
+  chapter: "Vectors"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_VECTOR"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_049"
+  name: "Scalar Triple Product"
+  latex: "\\mathbf{a} \\cdot (\\mathbf{b} \\times \\mathbf{c}) = \\begin{vmatrix} a_x & a_y & a_z \\\\ b_x & b_y & b_z \\\\ c_x & c_y & c_z \\end{vmatrix}"
+  variables:
+    - symbol: "\\mathbf{a}"
+      name: "vector_a"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "vector"
+    - symbol: "\\mathbf{b}"
+      name: "vector_b"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "vector"
+    - symbol: "\\mathbf{c}"
+      name: "vector_c"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "vector"
+  preconditions: ["vectors_3D"]
+  grade_range: ["class12", "undergraduate", "graduate"]
+  chapter: "Vectors"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_VECTOR"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_050"
+  name: "Vector Triple Product"
+  latex: "\\mathbf{a} \\times (\\mathbf{b} \\times \\mathbf{c}) = (\\mathbf{a} \\cdot \\mathbf{c})\\mathbf{b} - (\\mathbf{a} \\cdot \\mathbf{b})\\mathbf{c}"
+  variables:
+    - symbol: "\\mathbf{a}"
+      name: "vector_a"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "vector"
+    - symbol: "\\mathbf{b}"
+      name: "vector_b"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "vector"
+    - symbol: "\\mathbf{c}"
+      name: "vector_c"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "vector"
+  preconditions: ["vectors_3D"]
+  grade_range: ["undergraduate", "graduate"]
+  chapter: "Vectors"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_VECTOR"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_051"
+  name: "Vector Projection"
+  latex: "\\text{proj}_{\\mathbf{b}}\\mathbf{a} = \\frac{\\mathbf{a} \\cdot \\mathbf{b}}{|\\mathbf{b}|^2} \\mathbf{b}"
+  variables:
+    - symbol: "\\mathbf{a}"
+      name: "vector_a"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "vector"
+    - symbol: "\\mathbf{b}"
+      name: "vector_b"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "vector"
+  preconditions: ["b_not_zero_vector"]
+  grade_range: ["class12", "undergraduate", "graduate"]
+  chapter: "Vectors"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_VECTOR"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_052"
+  name: "Lagrange Identity"
+  latex: "|\\mathbf{a} \\times \\mathbf{b}|^2 = |\\mathbf{a}|^2 |\\mathbf{b}|^2 - (\\mathbf{a} \\cdot \\mathbf{b})^2"
+  variables:
+    - symbol: "\\mathbf{a}"
+      name: "vector_a"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "vector"
+    - symbol: "\\mathbf{b}"
+      name: "vector_b"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "vector"
+  preconditions: ["vectors_3D"]
+  grade_range: ["class12", "undergraduate", "graduate"]
+  chapter: "Vectors"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_VECTOR"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_053"
+  name: "Arithmetic Mean - Geometric Mean Inequality"
+  latex: "\\frac{a_1 + a_2 + \\cdots + a_n}{n} \\geq \\sqrt[n]{a_1 a_2 \\cdots a_n}"
+  variables:
+    - symbol: "a_i"
+      name: "positive_numbers"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "n"
+      name: "count"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["positive_numbers", "n_positive"]
+  grade_range: ["class9", "class10", "class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Inequalities"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_INEQ", "MATH_AMGM"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_054"
+  name: "Cauchy-Schwarz Inequality"
+  latex: "\\left(\\sum_{i=1}^{n} a_i b_i\\right)^2 \\leq \\left(\\sum_{i=1}^{n} a_i^2\\right) \\left(\\sum_{i=1}^{n} b_i^2\\right)"
+  variables:
+    - symbol: "a_i"
+      name: "components_a"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b_i"
+      name: "components_b"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["real_numbers"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Inequalities"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_INEQ", "MATH_CS"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_055"
+  name: "Triangle Inequality"
+  latex: "|\\mathbf{a} + \\mathbf{b}| \\leq |\\mathbf{a}| + |\\mathbf{b}|"
+  variables:
+    - symbol: "\\mathbf{a}"
+      name: "vector_or_complex"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "vector"
+    - symbol: "\\mathbf{b}"
+      name: "vector_or_complex"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "vector"
+  preconditions: ["vectors_or_complex"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Inequalities"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_INEQ"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_056"
+  name: "Jensen's Inequality (Convex Function)"
+  latex: "f\\left(\\sum_{i=1}^{n} \\lambda_i x_i\\right) \\leq \\sum_{i=1}^{n} \\lambda_i f(x_i) \\quad \\text{for convex } f, \\lambda_i \\geq 0, \\sum \\lambda_i = 1"
+  variables:
+    - symbol: "f"
+      name: "convex_function"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "function"
+    - symbol: "x_i"
+      name: "points"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "\\lambda_i"
+      name: "weights"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["convex_function", "weights_sum_to_one"]
+  grade_range: ["undergraduate", "graduate", "phd"]
+  chapter: "Inequalities"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_INEQ", "MATH_JENSEN"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_057"
+  name: "Absolute Value Inequality"
+  latex: "|x - a| < b \\iff a - b < x < a + b"
+  variables:
+    - symbol: "x"
+      name: "variable"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "a"
+      name: "center"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b"
+      name: "radius"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["b_positive"]
+  grade_range: ["class9", "class10", "class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Inequalities"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_INEQ"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_058"
+  name: "Quadratic Inequality"
+  latex: "ax^2 + bx + c \\gtrless 0"
+  variables:
+    - symbol: "a"
+      name: "coefficient_x_squared"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b"
+      name: "coefficient_x"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "c"
+      name: "constant"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["a_not_zero"]
+  grade_range: ["class9", "class10", "class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Inequalities"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_INEQ", "MATH_QUAD"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_059"
+  name: "Logarithm - Definition"
+  latex: "\\log_b a = c \\iff b^c = a"
+  variables:
+    - symbol: "b"
+      name: "base"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "a"
+      name: "argument"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "c"
+      name: "logarithm"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["a_positive", "b_positive", "b_not_1"]
+  grade_range: ["class9", "class10", "class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Logarithms"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_LOG"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_060"
+  name: "Logarithm - Product Rule"
+  latex: "\\log_b(xy) = \\log_b x + \\log_b y"
+  variables:
+    - symbol: "b"
+      name: "base"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "x"
+      name: "argument1"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "y"
+      name: "argument2"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["x_positive", "y_positive"]
+  grade_range: ["class9", "class10", "class11", "class12"]
+  chapter: "Logarithms"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_LOG"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_061"
+  name: "Logarithm - Quotient Rule"
+  latex: "\\log_b\\left(\\frac{x}{y}\\right) = \\log_b x - \\log_b y"
+  variables:
+    - symbol: "b"
+      name: "base"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "x"
+      name: "numerator"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "y"
+      name: "denominator"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["x_positive", "y_positive"]
+  grade_range: ["class9", "class10", "class11", "class12"]
+  chapter: "Logarithms"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_LOG"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_062"
+  name: "Logarithm - Power Rule"
+  latex: "\\log_b(x^n) = n \\log_b x"
+  variables:
+    - symbol: "b"
+      name: "base"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "x"
+      name: "argument"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "n"
+      name: "exponent"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["x_positive"]
+  grade_range: ["class9", "class10", "class11", "class12"]
+  chapter: "Logarithms"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_LOG"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_063"
+  name: "Logarithm - Change of Base"
+  latex: "\\log_b a = \\frac{\\log_c a}{\\log_c b}"
+  variables:
+    - symbol: "a"
+      name: "argument"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b"
+      name: "base_original"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "c"
+      name: "base_new"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["a_positive", "b_positive_not_1", "c_positive_not_1"]
+  grade_range: ["class9", "class10", "class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Logarithms"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_LOG"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_064"
+  name: "Natural Logarithm"
+  latex: "\\ln x = \\log_e x, \\quad \\frac{d}{dx}\\ln x = \\frac{1}{x}"
+  variables:
+    - symbol: "x"
+      name: "argument"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["x_positive"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Logarithms"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_LOG", "MATH_CALC"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_065"
+  name: "Linear Diophantine Equation"
+  latex: "ax + by = c \\text{ has integer solutions } \\iff \\gcd(a,b) | c"
+  variables:
+    - symbol: "a"
+      name: "coefficient_x"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+    - symbol: "b"
+      name: "coefficient_y"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+    - symbol: "c"
+      name: "constant"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["integers_defined", "not_both_zero"]
+  grade_range: ["class10", "class11", "class12", "undergraduate"]
+  chapter: "Diophantine Equations"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_DIO"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_066"
+  name: "Pythagorean Theorem"
+  latex: "a^2 + b^2 = c^2"
+  variables:
+    - symbol: "a"
+      name: "leg"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b"
+      name: "leg"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "c"
+      name: "hypotenuse"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["right_triangle"]
+  grade_range: ["class6", "class7", "class8", "class9", "class10", "class11", "class12"]
+  chapter: "Triangles"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_GEOM"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_067"
+  name: "Exponential Function"
+  latex: "e^x = \\sum_{n=0}^{\\infty} \\frac{x^n}{n!}"
+  variables:
+    - symbol: "x"
+      name: "exponent"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "n"
+      name: "summation_index"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["real_or_complex"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate", "phd"]
+  chapter: "Exponential Functions"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_EXP"]
+  related_formulas: []
+
+- formula_id: "MATH_ALG_068"
+  name: "Distance Formula"
+  latex: "d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}"
+  variables:
+    - symbol: "d"
+      name: "distance"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "x_1"
+      name: "x_coord1"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "y_1"
+      name: "y_coord1"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "x_2"
+      name: "x_coord2"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "y_2"
+      name: "y_coord2"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["coordinates_defined"]
+  grade_range: ["class9", "class10", "class11", "class12", "jee_main", "jee_advanced"]
+  chapter: "Coordinate Geometry"
+  subject: "mathematics"
+  concept_tags: ["MATH_ALG", "MATH_GEOM", "MATH_COORD"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_001"
+  name: "Limit Definition"
+  latex: "\\lim_{x \\to a} f(x) = L \\iff \\forall \\epsilon > 0, \\exists \\delta > 0 : 0 < |x-a| < \\delta \\implies |f(x) - L| < \\epsilon"
+  variables:
+    - symbol: "x"
+      name: "variable"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "a"
+      name: "limit_point"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "L"
+      name: "limit_value"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "\\epsilon"
+      name: "epsilon"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "\\delta"
+      name: "delta"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["function_defined_near_a"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate", "phd"]
+  chapter: "Limits"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_LIMIT"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_002"
+  name: "Standard Limit - sin(x)/x"
+  latex: "\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1"
+  variables:
+    - symbol: "x"
+      name: "angle_in_radians"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "angle"
+  preconditions: ["x_in_radians"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Limits"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_LIMIT"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_003"
+  name: "Standard Limit - (1 + 1/n)^n"
+  latex: "\\lim_{n \\to \\infty} \\left(1 + \\frac{1}{n}\\right)^n = e"
+  variables:
+    - symbol: "n"
+      name: "integer"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["integer_positive"]
+  grade_range: ["class11", "class12", "undergraduate"]
+  chapter: "Limits"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_LIMIT", "MATH_EULER"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_004"
+  name: "Standard Limit - (1 + x)^(1/x)"
+  latex: "\\lim_{x \\to 0} (1 + x)^{1/x} = e"
+  variables:
+    - symbol: "x"
+      name: "variable"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["x_approaching_zero"]
+  grade_range: ["class11", "class12", "undergraduate"]
+  chapter: "Limits"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_LIMIT", "MATH_EULER"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_005"
+  name: "L'Hopital's Rule"
+  latex: "\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\lim_{x \\to a} \\frac{f'(x)}{g'(x)} \\quad \\text{if } \\frac{0}{0} \\text{ or } \\frac{\\infty}{\\infty}"
+  variables:
+    - symbol: "f(x)"
+      name: "numerator_function"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "function"
+    - symbol: "g(x)"
+      name: "denominator_function"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "function"
+    - symbol: "a"
+      name: "limit_point"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["differentiable", "indeterminate_form"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Limits"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_LIMIT"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_006"
+  name: "Squeeze Theorem"
+  latex: "g(x) \\leq f(x) \\leq h(x) \\text{ and } \\lim g(x) = \\lim h(x) = L \\implies \\lim f(x) = L"
+  variables:
+    - symbol: "f(x)"
+      name: "squeezed_function"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "function"
+    - symbol: "g(x)"
+      name: "lower_bound"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "function"
+    - symbol: "h(x)"
+      name: "upper_bound"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "function"
+    - symbol: "L"
+      name: "common_limit"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["inequality_holds_near_a"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Limits"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_LIMIT"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_007"
+  name: "Power Rule of Differentiation"
+  latex: "\\frac{d}{dx}(x^n) = nx^{n-1}"
+  variables:
+    - symbol: "n"
+      name: "exponent"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["n_real_or_integer"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Differentiation"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_DIFF"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_008"
+  name: "Product Rule of Differentiation"
+  latex: "\\frac{d}{dx}[f(x)g(x)] = f'(x)g(x) + f(x)g'(x)"
+  variables:
+    - symbol: "f(x)"
+      name: "function1"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "function"
+    - symbol: "g(x)"
+      name: "function2"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "function"
+  preconditions: ["functions_differentiable"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Differentiation"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_DIFF"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_009"
+  name: "Quotient Rule of Differentiation"
+  latex: "\\frac{d}{dx}\\left[\\frac{f(x)}{g(x)}\\right] = \\frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^2}"
+  variables:
+    - symbol: "f(x)"
+      name: "numerator_function"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "function"
+    - symbol: "g(x)"
+      name: "denominator_function"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "function"
+  preconditions: ["g_not_zero", "functions_differentiable"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Differentiation"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_DIFF"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_010"
+  name: "Chain Rule of Differentiation"
+  latex: "\\frac{d}{dx}[f(g(x))] = f'(g(x)) \\cdot g'(x)"
+  variables:
+    - symbol: "f"
+      name: "outer_function"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "function"
+    - symbol: "g(x)"
+      name: "inner_function"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "function"
+  preconditions: ["composite_function_differentiable"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Differentiation"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_DIFF"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_011"
+  name: "Derivative of Sine"
+  latex: "\\frac{d}{dx}(\\sin x) = \\cos x"
+  variables:
+    - symbol: "x"
+      name: "angle_in_radians"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "angle"
+  preconditions: ["x_in_radians"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Differentiation"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_DIFF", "MATH_TRIG"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_012"
+  name: "Derivative of Cosine"
+  latex: "\\frac{d}{dx}(\\cos x) = -\\sin x"
+  variables:
+    - symbol: "x"
+      name: "angle_in_radians"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "angle"
+  preconditions: ["x_in_radians"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Differentiation"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_DIFF", "MATH_TRIG"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_013"
+  name: "Derivative of Tangent"
+  latex: "\\frac{d}{dx}(\\tan x) = \\sec^2 x"
+  variables:
+    - symbol: "x"
+      name: "angle_in_radians"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "angle"
+  preconditions: ["x_not_odd_pi_over_2"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Differentiation"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_DIFF", "MATH_TRIG"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_014"
+  name: "Derivative of Exponential"
+  latex: "\\frac{d}{dx}(e^x) = e^x"
+  variables:
+    - symbol: "x"
+      name: "exponent"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["real_or_complex"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Differentiation"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_DIFF", "MATH_EXP"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_015"
+  name: "Derivative of Natural Logarithm"
+  latex: "\\frac{d}{dx}(\\ln x) = \\frac{1}{x}"
+  variables:
+    - symbol: "x"
+      name: "argument"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["x_positive"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Differentiation"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_DIFF", "MATH_LOG"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_016"
+  name: "Derivative of Inverse Sine"
+  latex: "\\frac{d}{dx}(\\sin^{-1} x) = \\frac{1}{\\sqrt{1-x^2}}"
+  variables:
+    - symbol: "x"
+      name: "argument"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["|x|_less_than_1"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Differentiation"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_DIFF", "MATH_TRIG"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_017"
+  name: "Derivative of Inverse Tangent"
+  latex: "\\frac{d}{dx}(\\tan^{-1} x) = \\frac{1}{1+x^2}"
+  variables:
+    - symbol: "x"
+      name: "argument"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["real_number"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Differentiation"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_DIFF", "MATH_TRIG"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_018"
+  name: "Rolle's Theorem"
+  latex: "\\text{If } f \\text{ is continuous on } [a,b], \\text{ differentiable on } (a,b), \\text{ and } f(a)=f(b), \\text{ then } \\exists c \\in (a,b) : f'(c) = 0"
+  variables:
+    - symbol: "f"
+      name: "function"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "function"
+    - symbol: "a"
+      name: "left_endpoint"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b"
+      name: "right_endpoint"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "c"
+      name: "point_in_interval"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["continuous_on_closed", "differentiable_on_open", "equal_endpoints"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Applications of Derivatives"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_DIFF", "MATH_ROLLE"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_019"
+  name: "Lagrange Mean Value Theorem"
+  latex: "\\text{If } f \\text{ is continuous on } [a,b] \\text{ and differentiable on } (a,b), \\text{ then } \\exists c \\in (a,b) : f'(c) = \\frac{f(b) - f(a)}{b - a}"
+  variables:
+    - symbol: "f"
+      name: "function"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "function"
+    - symbol: "a"
+      name: "left_endpoint"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b"
+      name: "right_endpoint"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "c"
+      name: "point_in_interval"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["continuous_on_closed", "differentiable_on_open"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Applications of Derivatives"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_DIFF", "MATH_MVT"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_020"
+  name: "Taylor Series"
+  latex: "f(x) = \\sum_{n=0}^{\\infty} \\frac{f^{(n)}(a)}{n!}(x-a)^n"
+  variables:
+    - symbol: "f(x)"
+      name: "function"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "function"
+    - symbol: "a"
+      name: "expansion_point"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "n"
+      name: "order"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["infinitely_differentiable_near_a"]
+  grade_range: ["class12", "undergraduate", "graduate", "phd"]
+  chapter: "Series Expansions"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_TAYLOR", "MATH_SERIES"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_021"
+  name: "Maclaurin Series"
+  latex: "f(x) = \\sum_{n=0}^{\\infty} \\frac{f^{(n)}(0)}{n!}x^n"
+  variables:
+    - symbol: "f(x)"
+      name: "function"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "function"
+    - symbol: "n"
+      name: "order"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["infinitely_differentiable_at_0"]
+  grade_range: ["class12", "undergraduate", "graduate", "phd"]
+  chapter: "Series Expansions"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_TAYLOR", "MATH_SERIES"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_022"
+  name: "Maclaurin Series for Exponential"
+  latex: "e^x = \\sum_{n=0}^{\\infty} \\frac{x^n}{n!}"
+  variables:
+    - symbol: "x"
+      name: "exponent"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "n"
+      name: "summation_index"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["real_or_complex"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate", "phd"]
+  chapter: "Series Expansions"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_TAYLOR", "MATH_SERIES"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_023"
+  name: "Maclaurin Series for Sine"
+  latex: "\\sin x = \\sum_{n=0}^{\\infty} (-1)^n \\frac{x^{2n+1}}{(2n+1)!}"
+  variables:
+    - symbol: "x"
+      name: "angle_in_radians"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "angle"
+    - symbol: "n"
+      name: "summation_index"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["x_in_radians"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Series Expansions"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_TAYLOR", "MATH_SERIES", "MATH_TRIG"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_024"
+  name: "Maclaurin Series for Cosine"
+  latex: "\\cos x = \\sum_{n=0}^{\\infty} (-1)^n \\frac{x^{2n}}{(2n)!}"
+  variables:
+    - symbol: "x"
+      name: "angle_in_radians"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "angle"
+    - symbol: "n"
+      name: "summation_index"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["x_in_radians"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Series Expansions"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_TAYLOR", "MATH_SERIES", "MATH_TRIG"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_025"
+  name: "Maclaurin Series for ln(1+x)"
+  latex: "\\ln(1+x) = \\sum_{n=1}^{\\infty} (-1)^{n+1} \\frac{x^n}{n}, \\quad |x| < 1"
+  variables:
+    - symbol: "x"
+      name: "argument"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "n"
+      name: "summation_index"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["|x|_less_than_1"]
+  grade_range: ["class12", "undergraduate", "graduate"]
+  chapter: "Series Expansions"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_TAYLOR", "MATH_SERIES", "MATH_LOG"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_026"
+  name: "Maclaurin Series for (1+x)^n"
+  latex: "(1+x)^n = \\sum_{k=0}^{\\infty} \\binom{n}{k} x^k"
+  variables:
+    - symbol: "x"
+      name: "variable"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "n"
+      name: "exponent"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "k"
+      name: "summation_index"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "integer"
+  preconditions: ["|x|_less_than_1"]
+  grade_range: ["class12", "undergraduate", "graduate"]
+  chapter: "Series Expansions"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_TAYLOR", "MATH_SERIES", "MATH_BINOMIAL"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_027"
+  name: "Indefinite Integral - Power Rule"
+  latex: "\\int x^n dx = \\frac{x^{n+1}}{n+1} + C, \\quad n \\neq -1"
+  variables:
+    - symbol: "x"
+      name: "variable"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "n"
+      name: "exponent"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "C"
+      name: "constant_of_integration"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["n_not_equal_neg1"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Integration"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_INTEG"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_028"
+  name: "Integration by Substitution"
+  latex: "\\int f(g(x))g'(x)dx = \\int f(u)du, \\quad u = g(x)"
+  variables:
+    - symbol: "f"
+      name: "function"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "function"
+    - symbol: "g(x)"
+      name: "substitution"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "function"
+    - symbol: "u"
+      name: "new_variable"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["g_differentiable"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Integration"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_INTEG", "MATH_SUBST"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_029"
+  name: "Integration by Parts"
+  latex: "\\int u dv = uv - \\int v du"
+  variables:
+    - symbol: "u"
+      name: "function_u"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "function"
+    - symbol: "v"
+      name: "function_v"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "function"
+  preconditions: ["u_and_v_differentiable"]
+  grade_range: ["class12", "undergraduate", "graduate", "phd"]
+  chapter: "Integration"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_INTEG", "MATH_IBP"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_030"
+  name: "Definite Integral as Area"
+  latex: "\\int_{a}^{b} f(x)dx = \\lim_{n \\to \\infty} \\sum_{i=1}^{n} f(x_i^*) \\Delta x"
+  variables:
+    - symbol: "f(x)"
+      name: "function"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "function"
+    - symbol: "a"
+      name: "lower_limit"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b"
+      name: "upper_limit"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "\\Delta x"
+      name: "width"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["function_continuous_on_closed"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate", "phd"]
+  chapter: "Integration"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_INTEG", "MATH_RIEMANN"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_031"
+  name: "Fundamental Theorem of Calculus (Part 1)"
+  latex: "\\frac{d}{dx}\\int_{a}^{x} f(t)dt = f(x)"
+  variables:
+    - symbol: "f(t)"
+      name: "integrand"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "function"
+    - symbol: "a"
+      name: "lower_constant"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["f_continuous"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate", "phd"]
+  chapter: "Integration"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_INTEG", "MATH_FTC"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_032"
+  name: "Fundamental Theorem of Calculus (Part 2)"
+  latex: "\\int_{a}^{b} f(x)dx = F(b) - F(a), \\quad \\text{where } F' = f"
+  variables:
+    - symbol: "f(x)"
+      name: "integrand"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "function"
+    - symbol: "F"
+      name: "antiderivative"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "function"
+    - symbol: "a"
+      name: "lower_limit"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+    - symbol: "b"
+      name: "upper_limit"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["f_continuous"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate", "phd"]
+  chapter: "Integration"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_INTEG", "MATH_FTC"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_033"
+  name: "Standard Integral - Exponential"
+  latex: "\\int e^{ax} dx = \\frac{e^{ax}}{a} + C"
+  variables:
+    - symbol: "a"
+      name: "constant"
+      unit: ""
+      dimensional_formula: ""
+      quantity_type: "number"
+  preconditions: ["a_not_zero"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Integration"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_INTEG"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_034"
+  name: "Standard Integral - Sine"
+  latex: "\\int \\sin x dx = -\\cos x + C"
+  variables: []
+  preconditions: ["x_in_radians"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Integration"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_INTEG", "MATH_TRIG"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_035"
+  name: "Standard Integral - Cosine"
+  latex: "\\int \\cos x dx = \\sin x + C"
+  variables: []
+  preconditions: ["x_in_radians"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Integration"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_INTEG", "MATH_TRIG"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_036"
+  name: "Standard Integral - Secant Squared"
+  latex: "\\int \\sec^2 x dx = \\tan x + C"
+  variables: []
+  preconditions: ["x_not_odd_pi_over_2"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Integration"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_INTEG", "MATH_TRIG"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_037"
+  name: "Standard Integral - Tangent"
+  latex: "\\int \\tan x dx = -\\ln|\\cos x| + C"
+  variables: []
+  preconditions: ["x_not_odd_pi_over_2"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Integration"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_INTEG", "MATH_TRIG"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_038"
+  name: "Standard Integral - Secant"
+  latex: "\\int \\sec x dx = \\ln|\\sec x + \\tan x| + C"
+  variables: []
+  preconditions: ["x_not_odd_pi_over_2"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Integration"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_INTEG", "MATH_TRIG"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_039"
+  name: "Standard Integral - 1/(1+x^2)"
+  latex: "\\int \\frac{1}{1+x^2} dx = \\tan^{-1} x + C"
+  variables: []
+  preconditions: ["real_number"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Integration"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_INTEG", "MATH_TRIG"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_040"
+  name: "Standard Integral - 1/sqrt(1-x^2)"
+  latex: "\\int \\frac{1}{\\sqrt{1-x^2}} dx = \\sin^{-1} x + C"
+  variables: []
+  preconditions: ["|x|_less_than_1"]
+  grade_range: ["class11", "class12", "undergraduate", "graduate"]
+  chapter: "Integration"
+  subject: "mathematics"
+  concept_tags: ["MATH_CALC", "MATH_INTEG", "MATH_TRIG"]
+  related_formulas: []
+
+- formula_id: "MATH_CALC_041"
+  name: "Standard Integral - 1/sqrt(a^2-x^2)"
+  latex:

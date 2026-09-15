@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_bio_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c10_bio_cbse_02_006",
+   "title": "c10_bio_cbse_02_006",
+   "questions": [
+    {
+     "q": "Define thigmonasty and give one example of a plant that exhibits it.",
+     "a": "Thigmonasty is a non-directional nastic movement in response to touch or physical contact; example: Mimosa pudica (touch-me-not) leaf folding. A wrong answer (e.g., \"growth toward touch\" or \"Venus flytrap closing is tropism\") reveals the student confuses nastic movements with tropic movements or misclassifies the Venus flytrap mechanism as directional growth rather than rapid turgor-driven movement.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the leaf of Mimosa pudica fold inward when touched, but not bend toward the point of contact like a shoot bends toward light?",
+     "a": "Mimosa leaf folding is a nastic movement: the response direction (inward folding) is fixed by the location of pulvini at the base of each leaflet and petiole, not by the direction of touch. A shoot bending toward light is a tropic movement where growth occurs on the shaded side, so direction depends on stimulus direction. A wrong answer (e.g., \"because the touch is on the leaf\") shows the student does not grasp the fundamental distinction: nastic = predetermined by plant structure; tropic = determined by stimulus direction.",
+     "self_check": true
+    },
+    {
+     "q": "A student touches one leaflet of a Mimosa plant, and within 2 seconds all leaflets on that leaf fold. Explain the sequence of events from touch to folding, naming the signal type and the motor organ.",
+     "a": "Step 1: Touch stimulates mechanoreceptors on the leaflet. Step 2: An action potential (electrical signal) is generated and propagates through the vascular tissue to the pulvini (swollen bases of leaflets and petiole). Step 3: The action potential triggers efflux of K⁺ and Cl⁻ ions from pulvinus motor cells. Step 4: Water follows osmotically, turgor pressure drops in the lower half of the pulvinus (flexor side). Step 5: Loss of turgor causes the pulvinus to collapse, folding the leaflet. A wrong answer omitting action potentials or pulvini indicates the student thinks the movement is purely hydraulic without electrical signaling, or confuses pulvini with growing regions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the energy source and speed of thigmonasty in Mimosa with phototropism in a bean shoot. Which process uses ATP directly for the movement, and why is there a speed difference?",
+     "a": "Thigmonasty uses stored turgor pressure (potential energy) released by ion fluxes; the movement occurs in seconds. Phototropism uses ATP for differential cell elongation (growth), which takes hours. Thigmonasty is faster because it relies on rapid water movement driven by pre-existing osmotic gradients, while phototropism requires new cell wall synthesis and expansion. A wrong answer stating both use ATP for movement or that phototropism is faster reveals confusion between turgor-driven movement and growth-driven movement.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate claims: \"Venus flytrap closing is a tropic movement because the trap moves toward the insect.\" Evaluate this statement and correct the error.",
+     "a": "The statement is incorrect. Venus flytrap closure is a thigmonastic (nastic) movement: the trap lobes snap shut in a predetermined manner (hinge-like) regardless of where on the trigger hairs the insect touches. The direction is fixed by the trap's anatomy, not the stimulus direction. Additionally, it involves action potentials and rapid turgor changes, not differential growth. A wrong evaluation accepting the claim shows the student equates \"movement toward something\" with tropism, ignoring the definition of nastic movements.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to test whether the folding of Mimosa leaflets is transmitted electrically or chemically. List materials, procedure, and expected observations for each hypothesis.",
+     "a": "Materials: Mimosa plant, metal probe, insulated wire, battery (1.5V), scissors, water. Procedure: (1) Touch one leaflet with a metal probe connected to a wire leading to a cut petiole of another leaf (electrical transmission test). (2) Apply a drop of solution from a crushed stimulated leaf to an unstimulated leaf (chemical transmission test). Expected: If electrical, the second leaf folds when circuit completes; if chemical, the second leaf folds when solution applied. A poor design that only observes natural folding without isolating transmission mode shows the student cannot distinguish between electrical and chemical signaling pathways.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

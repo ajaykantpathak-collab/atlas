@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_civ_ch2_1",
+ "concepts": [
+  {
+   "id": "enh:c9_civ_ch2_1",
+   "title": "c9_civ_ch2_1",
+   "questions": [
+    {
+     "q": "What is the constitutional basis for universal adult franchise in India, and which article guarantees it?",
+     "a": "Article 326 of the Constitution of India provides that elections to the Lok Sabha and State Legislative Assemblies shall be on the basis of universal adult franchise, meaning every citizen aged 18 and above has the right to vote regardless of caste, religion, gender, or property. A wrong answer (e.g., citing Article 324 or 325) reveals confusion between the Election Commission's powers (Art. 324), non-discrimination in electoral rolls (Art. 325), and the substantive right to vote (Art. 326).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why elections are considered the \"primary mechanism\" for translating popular sovereignty into governmental authority in a democracy, rather than just one of many ways citizens participate.",
+     "a": "Elections are primary because they are the *only* constitutionally mandated, periodic, universal, and binding process that simultaneously authorizes government, subjects it to collective judgment, and enables its removal without violence. Other participation forms (protests, petitions, media) are supplementary – they lack the binding authority to install or remove a government. A wrong answer that equates elections with other participation forms reveals a misunderstanding of the unique *constitutional* and *institutional* role elections play in democratic theory.",
+     "self_check": true
+    },
+    {
+     "q": "In 2014, a party won 282 seats (52% of Lok Sabha) with 31% vote share. In 2019, the same party won 303 seats (56%) with 37.4% vote share. Using the concept of \"electoral legitimacy,\" analyze what these numbers suggest about the relationship between vote share, seat share, and democratic mandate in India's FPTP system.",
+     "a": "The data shows FPTP amplifies seat majorities beyond vote majorities, creating a \"manufactured majority.\" While legally legitimate (constitutionally valid), the democratic mandate is contested because nearly 2/3rds of voters chose other parties. This reveals the tension between *procedural legitimacy* (winning by rules) and *substantive legitimacy* (broad popular consent). A wrong answer focusing only on \"majority won\" misses the analytical distinction between legal validity and democratic representativeness.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of elections in ensuring *horizontal accountability* (between branches of government) versus *vertical accountability* (between government and citizens). Which does an election directly produce, and how does it indirectly affect the other?",
+     "a": "Elections directly produce vertical accountability: citizens judge and replace the executive/legislature. They indirectly affect horizontal accountability because the elected majority controls parliamentary committees and executive appointments, influencing checks-and-balances. A wrong answer claiming elections directly create horizontal accountability confuses the *source* of accountability (citizens) with its *institutional expression* (inter-branch checks).",
+     "self_check": true
+    },
+    {
+     "q": "Critique the argument: \"Since India has regular elections with high turnout, Indian democracy is fully functioning.\" Consider at least two dimensions beyond procedural regularity.",
+     "a": "The argument commits the \"electoral fallacy\" – equating procedural compliance with substantive democracy. Two missing dimensions: (1) *Quality of contest* – freedom of speech, fair media, level playing field (money power, criminal candidates); (2) *Responsiveness* – whether elected governments actually address citizen needs between elections. High turnout with coercion or misinformation doesn't equal meaningful choice. A wrong answer accepting turnout as sufficient reveals a procedural-only understanding of democracy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-paragraph constitutional amendment proposal that would strengthen the *substantive* legitimacy of Indian elections without changing the FPTP system. Justify each element.",
+     "a": "A strong proposal might include: (1) Mandating 50% vote threshold for majority via runoff if no party crosses it (addresses manufactured majorities); (2) Constitutionalizing Model Code of Conduct with statutory penalties (levels playing field); (3) State funding of recognized parties based on vote share (reduces money power). Each element targets a specific legitimacy gap. A poor proposal focuses only on administrative tweaks (e.g., \"more polling booths\") without addressing the structural link between votes, seats, and accountability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

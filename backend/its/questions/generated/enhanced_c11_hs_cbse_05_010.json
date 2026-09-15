@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_05_010",
+   "title": "c11_hs_cbse_05_010",
+   "questions": [
+    {
+     "q": "State the three main functional categories of textile finishes based on the fabric property they modify, giving one example of a finish in each category.",
+     "a": "The three categories are: (1) Appearance-changing finishes – e.g., bleaching, calendering; (2) Texture-changing finishes – e.g., starching, sanforising; (3) Behaviour-changing finishes – e.g., water-repellent, flame-retardant, anti-shrink (sanforisation). A wrong answer that lists dyeing/printing as separate categories instead of sub-types of appearance finishes reveals confusion between colour application and the broader functional classification.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a 100% polyester fabric cannot be dyed with direct dyes used for cotton, and name the dye class suitable for polyester.",
+     "a": "Polyester is hydrophobic with no polar groups for direct dyes (which rely on hydrogen bonding with cellulosic -OH groups) to attach; it requires disperse dyes that sublimate into the fibre at high temperature. A wrong answer citing \"polyester is synthetic\" without referencing hydrophobicity or dye-fibre affinity shows superficial understanding of dye-fibre chemistry.",
+     "self_check": true
+    },
+    {
+     "q": "A designer wants a floral motif with three colours on a silk sari. Recommend the most appropriate printing method and justify why roller printing would be unsuitable.",
+     "a": "Hand screen printing is most appropriate: it allows multiple colours with precise registration on delicate silk, and the low pressure avoids fabric distortion. Roller printing is unsuitable because its high-speed metal rollers exert excessive tension and heat, damaging silk's protein structure and causing dye migration. A wrong answer choosing block printing for \"traditional look\" ignores the need for fine multi-colour registration on a long sari length.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the durability and renewability of starching versus sanforisation, and explain which finish a consumer would prefer for a daily-wear cotton shirt.",
+     "a": "Starching is a renewable finish (washes out, needs reapplication) that adds stiffness and soil resistance; sanforisation is a durable mechanical pre-shrink finish (permanent, survives washing). For daily-wear cotton shirts, consumers prefer sanforisation because it eliminates shrinkage without changing hand-feel, whereas starching requires repeated effort and can cause discomfort. A wrong answer calling starching \"durable\" confuses temporary stiffening with permanent dimensional stability.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Dyeing at the fibre stage is always superior to fabric-stage dyeing because it gives better colour fastness.\" Provide two scenarios where fabric-stage dyeing is actually preferred.",
+     "a": "The statement is false. Fibre-stage dyeing gives excellent fastness but lacks flexibility: (1) For solid-colour fabrics with quick fashion turnover, fabric-stage dyeing allows rapid response to colour trends; (2) For blended fabrics (e.g., polyester/cotton), fabric-stage cross-dyeing creates unique two-tone effects impossible at fibre stage. A wrong answer agreeing with the statement ignores the commercial need for flexibility and blended-fabric effects.",
+     "self_check": true
+    },
+    {
+     "q": "Design a finishing sequence for a grey wool fabric intended for winter coats that must be water-repellent, shrink-resistant, and have a smooth lustrous surface. List the finishes in order of application with chemical/mechanical justification for the sequence.",
+     "a": "Sequence: (1) Scouring (remove grease/impurities) → (2) Milling/felting (controlled shrinkage for density) → (3) Decatising (steam setting for dimensional stability) → (4) Water-repellent finish (fluorocarbon pad-dry-cure) → (5) Calendering (heat/pressure for lustre). Justification: Wet finishes first, then heat-setting, then chemical finish last to avoid wash-off; calendering last to lock in lustre. A poor answer omits scouring or applies water-repellent before decatising, risking uneven treatment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

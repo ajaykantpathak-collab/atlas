@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_12_002",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_12_002",
+   "title": "c11_ps_cbse_12_002",
+   "questions": [
+    {
+     "q": "Which of the following offices in India are filled through DIRECT election by the people? (Select all that apply)\na) President of India\nb) Member of Lok Sabha\nc) Member of Rajya Sabha\nd) Member of State Legislative Assembly\ne) Vice-President of India",
+     "a": "Correct: (b) Member of Lok Sabha and (d) Member of State Legislative Assembly.\nA wrong answer (e.g., selecting President or Rajya Sabha) reveals the student conflates \"elected by representatives\" with \"elected by people\" and has not internalized Article 326 (direct elections to House of the People and Legislative Assemblies) versus Articles 54/80 (indirect elections for President and Council of States).",
+     "self_check": true
+    },
+    {
+     "q": "The Constitution provides for indirect election of the President (Article 54) and Rajya Sabha members (Article 80). Explain WHY the framers chose indirect election for these two offices instead of direct election by the people.",
+     "a": "Correct explanation: For the President, indirect election ensures the head of state is not a rival power centre to the Prime Minister (parliamentary system) and represents the federal union (electoral college includes State legislatures). For Rajya Sabha, indirect election by State Legislative Assemblies ensures States have a voice in the federal legislature, protecting federal balance. A wrong answer (e.g., \"to save money\" or \"because direct election is impractical\") reveals a misunderstanding of the structural logic of parliamentary federalism — the student is thinking administratively, not constitutionally.",
+     "self_check": true
+    },
+    {
+     "q": "A citizen says: \"I voted for my MLA, and my MLA voted for a Rajya Sabha member. So I indirectly elected that Rajya Sabha member.\" Is this statement constitutionally accurate? Justify your answer using the concept of the electoral chain.",
+     "a": "Yes, it is accurate. The citizen → MLA (direct election under Art. 326) → Rajya Sabha member (indirect election under Art. 80 by elected MLAs) forms a constitutionally mandated chain of representation. A wrong answer (\"No, because the citizen didn't vote directly\") reveals the student does not grasp that indirect election is a deliberate design of representative democracy, not a defect — the citizen's vote flows through the elected representative, maintaining democratic legitimacy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the accountability mechanisms for a directly elected Lok Sabha MP and an indirectly elected Rajya Sabha MP. How does the mode of election affect their responsiveness to the electorate?",
+     "a": "A Lok Sabha MP faces direct electoral accountability every 5 years — voters can remove them. A Rajya Sabha MP is accountable to the State Legislative Assembly that elected them (which itself faces voters), creating a two-step accountability chain. This makes Rajya Sabha MPs somewhat more insulated from immediate popular pressure, allowing them to focus on federal/long-term issues. A wrong answer (\"Both are equally accountable\") misses the nuanced difference in democratic linkage — the student is treating all elections as identical rather than analyzing the principal-agent chain.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"India should switch to direct election of the President to strengthen democracy.\" Provide two constitutional arguments for and two against this proposal.",
+     "a": "For: (1) Direct mandate would enhance presidential legitimacy; (2) Could check executive dominance by giving President independent popular authority. Against: (1) Violates parliamentary system's core principle — President must not rival PM (Art. 74); (2) Undermines federal character — current electoral college (MPs+MLAs) represents States; direct election would make President a national plebiscitary figure, weakening State voice. A weak answer lists only procedural points (cost, complexity) showing the student cannot engage with constitutional design trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical indirect election method for a new \"National Education Council\" that balances representation of States, teachers, and parents. Specify: (a) Who constitutes the electoral college? (b) What voting system would you use? (c) How does your design reflect federal and stakeholder representation?",
+     "a": "Good answer: (a) Electoral college = elected members of State Legislative Assemblies (federal) + representatives of teachers' associations (professional) + representatives of parent-teacher associations (stakeholder). (b) Single Transferable Vote (proportional representation) to ensure minority voices. (c) Mirrors Rajya Sabha's federal logic (State Assemblies) while adding functional representation (teachers/parents) — a creative adaptation of Art. 80/171 principles. A poor answer copies Lok Sabha direct election or proposes nomination, showing inability to apply indirect election principles to a new context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

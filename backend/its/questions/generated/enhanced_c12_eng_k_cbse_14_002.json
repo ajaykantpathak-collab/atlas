@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_k_cbse_14_002",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_k_cbse_14_002",
+   "title": "c12_eng_k_cbse_14_002",
+   "questions": [
+    {
+     "q": "What is the primary difference between 'plot' in a fictional short story and 'plot' in a non-fiction essay like those in Kaleidoscope?",
+     "a": "In fiction, plot is the causal sequence of events driven by character choices and conflicts (exposition → rising action → climax → falling action → resolution). In non-fiction, plot is the logical sequencing of ideas, evidence, and reasoning designed to prove a thesis or explore a concept. A wrong answer (e.g., \"both have climax and resolution\") reveals the student is imposing a fiction template on non-fiction, missing that non-fiction 'climax' is often the strongest argument or revelation, not a dramatic event.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"The structure of 'Chasing the Rainbow' is just chronological because the author talks about his childhood, then his career, then his current views.\" Why is this an oversimplification? Explain using the concept of 'thematic layering' in non-fiction.",
+     "a": "Chronology is the surface timeline; thematic layering is the deep structure. The author may juxtapose a childhood memory in paragraph 2 with a recent scientific discovery in paragraph 5 to show a continuity of curiosity, not because events happened in that order. The student's error is confusing *time order* with *argument order*. Non-fiction often uses chronological anecdotes as *evidence* for a thematic claim (e.g., \"curiosity is lifelong\") — the structure is thematic, not chronological.",
+     "self_check": true
+    },
+    {
+     "q": "Given this paragraph from a non-fiction essay: \"For centuries, we believed the atom was indivisible. Then Rutherford's gold-foil experiment shattered that model. Today, quantum fields suggest even 'particles' are excitations. Each paradigm shift did not just add knowledge; it changed what questions we are allowed to ask.\" Identify the structural pattern and explain its persuasive function.",
+     "a": "Pattern: **Historical progression / Paradigm shift structure** (Past belief → Disruptive evidence → Current model → Meta-commentary on epistemology). Function: It establishes intellectual humility, shows science as self-correcting, and primes the reader to accept the author's next claim (likely about the limits of current knowledge). A wrong answer (\"it's just history\") misses the meta-argument about how knowledge evolves.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the narrative structure of G.B. Shaw's \"Freedom\" (from your textbook) with a typical investigative journalism piece. How does Shaw's use of *rhetorical questions* and *direct address* (\"you,\" \"we\") alter the structural expectations of a non-fiction argument?",
+     "a": "Shaw uses a **conversational/dialectical structure**: he simulates a dialogue, anticipating objections (\"Now mark another big difference...\") and using rhetorical questions as structural signposts instead of formal headings. Investigative journalism uses an **inverted pyramid** (lead → key facts → context → details) with impersonal tone. Shaw's structure builds *complicity*; journalism's builds *authority*. The student who says \"both argue a point\" misses that structure shapes *reader relationship* — Shaw makes the reader a co-thinker; journalism makes the reader an informed citizen.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"In non-fiction, the conclusion is just a summary of main points.\" Use Krishnamurti's \"Understanding Freedom and Discipline\" (textbook) as a counter-example.",
+     "a": "Krishnamurti's conclusion (\"I will, therefore, leave you with a conundrum...\") does not summarize; it *opens* a new intellectual space. It shifts from analysis to **provocation**, handing the unresolved tension to the reader. A summary conclusion closes; a Krishnamurti-style conclusion *extends* the essay into the reader's life. The claim is false for reflective/philosophical non-fiction where the goal is transformation, not information transfer. A student who agrees with the claim has only encountered expository textbooks, not literary non-fiction.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 3-sentence \"structural abstract\" of a hypothetical non-fiction essay titled \"The Algorithm That Ate My Homework\" that uses a **problem-solution-reflection** structure. Your abstract must name the structural moves, not the content.",
+     "a": "The essay opens with a **personal narrative hook** (anecdote of a student flagged by plagiarism software) to instantiate the problem. The body deploys a **cause-effect analysis** (algorithmic bias → false positives → erosion of trust) interwoven with **expert testimony** (CS professor, ethicist) to build technical credibility. The conclusion refuses a neat policy fix, instead offering a **reflective paradox**: the more we automate fairness, the more we must cultivate human judgment — leaving the reader with an open question about institutional responsibility. A poor answer lists topics (\"talks about AI, then bias, then solutions\") without naming structural *functions* (hook, analysis, paradox).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

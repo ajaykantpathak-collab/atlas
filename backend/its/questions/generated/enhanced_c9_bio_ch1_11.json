@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch1_11",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch1_11",
+   "title": "c9_bio_ch1_11",
+   "questions": [
+    {
+     "q": "What is the name of the single membrane that surrounds the vacuole, and what is the fluid inside the vacuole called?",
+     "a": "The membrane is called the tonoplast, and the fluid inside is called cell sap. A wrong answer (e.g., \"cell membrane\" or \"vacuolar membrane\" for the tonoplast, or \"cytoplasm\" for the fluid) reveals the student has not distinguished the vacuole's specialized boundary and content from the general cell membrane and cytoplasm, indicating confusion between organelle-specific terminology and whole-cell structures.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a plant cell become turgid when placed in pure water, but an animal cell bursts under the same conditions?",
+     "a": "In a plant cell, water enters the central vacuole by osmosis, building turgor pressure that pushes the plasma membrane against the rigid cell wall; the cell wall prevents over-expansion and bursting. In an animal cell, lacking a cell wall, water enters unchecked until the plasma membrane ruptures. A wrong answer that attributes turgidity only to \"vacuole size\" or says \"animal cells have no vacuoles\" reveals the student misses the critical interplay between vacuolar osmosis and cell wall rigidity — a board-level concept linking c9_bio_ch1_3, c9_bio_ch1_4, and this node.",
+     "self_check": true
+    },
+    {
+     "q": "A student places a strip of raw potato in a concentrated salt solution for 30 minutes. The strip becomes limp. Explain the vacuole-level changes that cause this observation.",
+     "a": "Step 1: The concentrated salt solution has lower water potential (more negative) than the potato cell sap. Step 2: Water moves out of the central vacuole by osmosis into the external solution. Step 3: The vacuole shrinks, reducing turgor pressure against the cell wall. Step 4: The plasma membrane pulls away from the cell wall (plasmolysis), and the tissue loses rigidity. A wrong answer stating \"salt enters the vacuole and kills the cell\" or \"water moves into the vacuole\" reveals misunderstanding of water potential direction and the physical consequence of vacuolar volume change on tissue texture.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of vacuoles in a mature mesophyll cell of a leaf and in a human macrophage (white blood cell). Identify two structural differences that explain their functional differences.",
+     "a": "Mesophyll cell: one large permanent central vacuole bounded by tonoplast, storing ions/sugars/pigments, generating turgor for leaf rigidity and light capture. Macrophage: numerous small temporary vacuoles (phagosomes/lysosomes) formed by endocytosis, containing hydrolytic enzymes for pathogen digestion. Structural differences: (1) Plant vacuole is large, permanent, central; animal vacuoles are small, transient, peripheral. (2) Plant tonoplast maintains stable ion gradients for long-term storage; animal vacuolar membranes fuse with lysosomes for rapid enzyme delivery. A wrong answer that says \"both store water\" or \"animal cells have no vacuoles\" reveals failure to connect vacuole morphology to the organism's structural needs (rigid cell wall vs. flexible membrane).",
+     "self_check": true
+    },
+    {
+     "q": "A textbook states: \"Vacuoles in plant cells are mainly for storage of waste, while in animal cells they are for digestion.\" Evaluate this statement and correct any inaccuracies.",
+     "a": "The statement is partially incorrect. In plant cells, the central vacuole's PRIMARY role is turgor pressure generation for structural support — storage of waste, pigments, and nutrients is secondary. In animal cells, vacuoles are not primarily for digestion; lysosomes (which may fuse with endocytic vacuoles) perform digestion, while vacuoles themselves are transient compartments for transport, endocytosis, and exocytosis. A wrong evaluation that accepts the statement reveals the student memorizes \"storage\" and \"digestion\" as isolated labels without understanding the mechanical function of turgor in plants or the dynamic vesicular nature of animal vacuoles.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using onion epidermal cells and two different solutions to demonstrate that the tonoplast is selectively permeable. State the observation that would confirm selective permeability.",
+     "a": "Place one onion peel in distilled water and another in 0.5 M sucrose solution with a drop of methylene blue stain. After 10 minutes, observe under microscope. In distilled water: cells become turgid, stain remains outside vacuole (tonoplast blocks large dye molecules). In sucrose: plasmolysis occurs, but if stain enters cytoplasm but not vacuole, it confirms tonoplast restricts solute entry based on size/charge. A poor answer that only describes plasmolysis/turgidity without addressing dye exclusion reveals the student cannot design an experiment that isolates membrane permeability from osmotic effects.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

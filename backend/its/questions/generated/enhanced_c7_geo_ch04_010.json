@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch04_010",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch04_010",
+   "title": "c7_geo_ch04_010",
+   "questions": [
+    {
+     "q": "What term describes a farming plot that has been divided into very small, scattered pieces across generations among family members?",
+     "a": "The correct term is a fragmented or marginal landholding. A student who answers \"commercial farm\" or \"large estate\" fundamentally confuses subsistence smallholder agriculture with large-scale commercial farming, missing the structural reality of rural India where most farmers own less than two hectares of land.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a delay in the onset of the southwest monsoon cause an immediate financial crisis for small farmers in the Deccan Plateau?",
+     "a": "The correct answer is that the Deccan Plateau relies heavily on rain-fed (dryland) agriculture with limited irrigation canals. A delayed monsoon forces farmers to re-sow seeds multiple times, depleting their meager savings and forcing them to borrow money from informal lenders at high interest rates. A wrong answer claiming that \"all Indian farms have deep tube wells\" reveals a misunderstanding of irrigation coverage, as large parts of Peninsular India still depend entirely on seasonal rainfall.",
+     "self_check": true
+    },
+    {
+     "q": "A marginal farmer in Uttar Pradesh owns 1 hectare of land. Due to a failed monsoon, their rice crop yields 50% less than expected. If the cost of seeds, fertilizers, and diesel for pumping groundwater is ₹25,000, and the total market value of the harvested crop is only ₹18,000, calculate the net financial loss and explain the immediate risk to the farmer.",
+     "a": "Steps:\n1. Identify total input costs: ₹25,000.\n2. Identify total revenue from harvest: ₹18,000.\n3. Calculate net income: Revenue minus Costs ($18,000 - ₹25,000 = -₹7,000$).\n4. Determine immediate risk: The farmer faces a net loss of ₹7,000, meaning they cannot repay input loans, forcing them deeper into debt with local moneylenders.\nA wrong answer showing a profit reveals that the student forgot to subtract input costs from total crop revenue or misunderstood how crop failure impacts household economics.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the primary vulnerability of a farmer in the Thar Desert region versus a farmer in the lower Gangetic Plain. How do their geographical challenges differ?",
+     "a": "The correct analysis is that a farmer in the Thar Desert faces extreme water scarcity, high evaporation rates, and sandy soils, making survival dependent on drought-resistant crops and meager rainfall. In contrast, a farmer in the Gangetic Plain has fertile alluvial soil and better river access, but faces risks of severe floods during heavy monsoon spells and waterlogging. A wrong answer claiming both face the exact same agricultural challenges ignores how distinct landforms and climate zones dictate farming obstacles.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The introduction of high-yielding variety (HYV) seeds and chemical fertilizers completely solved all economic and environmental challenges for Indian farmers.\" Is this accurate? Justify your answer.",
+     "a": "The statement is false. While HYV seeds and fertilizers boosted food grain production during the Green Revolution, they created new challenges: high costs for chemical inputs, depletion of groundwater tables due to excessive pumping, and soil degradation from overuse of fertilizers, which ultimately traps poor farmers in a cycle of debt and environmental decline. A wrong answer agreeing with the statement shows an inability to distinguish between short-term food production increases and long-term ecological and economic sustainability.",
+     "self_check": true
+    },
+    {
+     "q": "Propose a comprehensive, sustainable strategy for a drought-prone district in interior Karnataka to protect farmers from monsoon failure and crippling debt.",
+     "a": "A good answer should propose a mix of water-harvesting structures (like farm ponds and check dams), shift to drought-resilient millets, drip irrigation adoption, and access to institutional credit and crop insurance. A poor answer simply suggests \"buying more chemical fertilizers and digging deeper tube wells,\" which ignores the root causes of water depletion and financial distress.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

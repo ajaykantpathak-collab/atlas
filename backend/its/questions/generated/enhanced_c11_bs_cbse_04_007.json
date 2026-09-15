@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_04_007",
+   "title": "c11_bs_cbse_04_007",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a life insurance contract and a health insurance contract regarding the principle of indemnity?",
+     "a": "Life insurance is not a contract of indemnity — the sum assured is fixed and paid on death or maturity regardless of actual financial loss. Health insurance is a contract of indemnity — the insurer reimburses only the actual medical expenses incurred up to the sum insured. A wrong answer (e.g., saying both are indemnity contracts) reveals the student has not grasped that life insurance pays a predetermined benefit while general insurance compensates actual loss.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Burglary insurance and motor vehicle theft cover are the same because both pay if something is stolen.\" Explain why this is incorrect using the concepts of subject matter and proximate cause.",
+     "a": "Burglary insurance covers household goods and property against theft, larceny, and house-breaking; the subject matter is immovable/movable property in a premises. Motor vehicle insurance covers the vehicle itself and third-party liability; theft of the vehicle is one peril under a broader policy. Proximate cause matters: in burglary, the cause must be forcible entry; in motor theft, the cause is theft of the vehicle. A wrong answer shows confusion between policy scope and the specific perils insured.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer insures his wheat crop under a crop insurance policy for ₹2 lakh. Due to drought, the yield drops and his actual financial loss is calculated at ₹1.5 lakh. The insurer settles the claim for ₹1.5 lakh. Which principle of insurance is being applied, and why would the farmer NOT receive the full ₹2 lakh even though the sum insured is higher?",
+     "a": "The principle of indemnity is applied — the insurer compensates only the actual financial loss (₹1.5 lakh), not the sum insured (₹2 lakh), to prevent the insured from profiting. If the student says the farmer gets ₹2 lakh, they confuse sum insured (maximum liability) with actual loss payable under indemnity contracts.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY) and Pradhan Mantri Suraksha Bima Yojana (PMSBY) on three parameters: (a) risk covered, (b) premium per year, (c) sum assured. Which scheme would be more relevant for a 35-year-old daily wage earner who is the sole breadwinner? Justify.",
+     "a": "PMJJBY: life cover (death any cause), ₹330/year, ₹2 lakh sum assured. PMSBY: accidental death/disability only, ₹12/year, ₹2 lakh sum assured. For a sole breadwinner, PMJJBY is more relevant because it covers death from any cause (illness, accident, etc.), while PMSBY covers only accidents. A wrong choice (PMSBY) indicates the student overlooks that illness/natural death is a higher probability risk for a breadwinner than accident-only cover.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Cattle insurance and crop insurance are identical because both are for farmers and both pay on loss.\" Use the concepts of subject matter, perils covered, and claim settlement basis.",
+     "a": "Cattle insurance covers death of specific animals (bulls, cows, buffaloes) due to accident, disease, or pregnancy; subject matter is live animals. Crop insurance covers yield loss of specified crops (rice, wheat, etc.) due to drought, flood, etc.; subject matter is agricultural produce. Claim settlement: cattle insurance pays sum insured/excess on death; crop insurance pays based on yield shortfall or weather index. They differ in subject matter, perils, and loss measurement. A poor critique treats them as generic \"farmer insurance\" ignoring these distinctions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a composite insurance package for a small dairy farmer who owns 3 buffaloes, 2 acres of wheat crop, a motorcycle for milk transport, and has a family of four. List the four specific policies you would include, the key risk each covers, and one government social security scheme the family should enroll in. Explain why each is needed.",
+     "a": "1. Cattle Insurance — covers death of buffaloes due to disease/accident. 2. Crop Insurance — covers wheat yield loss from drought/flood. 3. Motor Vehicle Insurance (Comprehensive) — covers motorcycle theft, damage, and third-party liability. 4. Family Health Insurance (Mediclaim) — covers hospitalization for family. Government scheme: PMJJBY (life cover ₹2 lakh @ ₹330/yr) for the breadwinner. A poor answer lists generic \"insurance\" without matching specific risks to specific policies or omits the government scheme.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch6_2",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch6_2",
+   "title": "c8_math_ch6_2",
+   "questions": [
+    {
+     "q": "State the algebraic rule for expanding \\((x + y) \\times z\\). Write the expanded form without using brackets.",
+     "a": "The expanded form is \\(xz + yz\\) (or \\(zx + zy\\)). A wrong answer like \\(xz + y\\) or \\(x + yz\\) reveals the student does not understand that the multiplier \\(z\\) must be applied to *both* terms inside the bracket, a classic \"incomplete distribution\" error. If they write \\((x+y)z = xyz\\), they are confusing multiplication of terms with distribution.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \\(4 \\times (5 + 3)\\) and \\(4 \\times 5 + 4 \\times 3\\) give the same result. Use the meaning of multiplication as repeated addition in your explanation.",
+     "a": "\\(4 \\times (5+3)\\) means adding \\((5+3)\\) four times: \\((5+3)+(5+3)+(5+3)+(5+3)\\). Regrouping the additions gives four 5s and four 3s, which is \\(4 \\times 5 + 4 \\times 3\\). A student who only states \"it's the distributive property\" without explaining the grouping shows rote recall without conceptual understanding. If they say the results are different, they have a fundamental misconception about the property.",
+     "self_check": true
+    },
+    {
+     "q": "Expand and simplify: \\((2p + 7q) \\times (-3r)\\). Show each step clearly.",
+     "a": "Step 1: Identify multiplier \\(c = -3r\\), terms \\(a = 2p\\), \\(b = 7q\\).\nStep 2: Apply distributive property: \\((2p) \\times (-3r) + (7q) \\times (-3r)\\).\nStep 3: Multiply coefficients and variables: \\(-6pr + (-21qr)\\).\nStep 4: Simplify signs: \\(-6pr - 21qr\\).\nA wrong answer like \\(6pr - 21qr\\) reveals a sign error in the first product (forgetting negative × positive = negative). An answer like \\(-6p - 21q\\) shows the student dropped the variable \\(r\\) during multiplication, treating it as if \\(c\\) were just \\(-3\\).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two expansions: \\((a + b) \\times c\\) and \\(a + b \\times c\\). Are they equivalent? Justify your answer with a numerical example where \\(a=2, b=3, c=4\\).",
+     "a": "They are NOT equivalent. \\((a+b) \\times c = (2+3) \\times 4 = 5 \\times 4 = 20\\). \\(a + b \\times c = 2 + 3 \\times 4 = 2 + 12 = 14\\) (order of operations: multiplication before addition). The brackets in the first expression force the addition to happen first. A student who says they are equal ignores the role of brackets and order of operations, a critical structural misunderstanding.",
+     "self_check": true
+    },
+    {
+     "q": "A student expanded \\((5x - 2y) \\times 3z\\) as \\(15xz - 2y\\). Identify the error, explain why it is wrong, and give the correct expansion.",
+     "a": "The error is incomplete distribution: the student multiplied \\(3z\\) by \\(5x\\) but forgot to multiply \\(3z\\) by \\(-2y\\). The correct expansion is \\(15xz - 6yz\\). The term \\(-2y\\) must become \\(-2y \\times 3z = -6yz\\). If the student argues \"the 3z only applies to the first term\", they fundamentally misunderstand that a multiplier outside a bracket applies to the *entire* sum/difference inside.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world word problem (using Indian context: rupees, metres, kg) that requires expanding \\((a + b) \\times c\\) to solve. Define your variables clearly and show the solution.",
+     "a": "Example: \"A fruit seller packs gift boxes. Each box contains \\(a\\) apples (₹15 each) and \\(b\\) bananas (₹5 each). He prepares \\(c = 20\\) such boxes. Write an expression for total cost and expand it.\"\nVariables: \\(a\\) = number of apples per box, \\(b\\) = number of bananas per box.\nCost per box = \\(15a + 5b\\). Total cost = \\(20 \\times (15a + 5b) = 300a + 100b\\).\nA poor answer uses only numbers (no variables) or creates a problem requiring \\((a+b)(c+d)\\), showing inability to distinguish the structure \\((sum) \\times (single\\ term)\\).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

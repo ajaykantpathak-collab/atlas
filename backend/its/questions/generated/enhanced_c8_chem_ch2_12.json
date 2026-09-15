@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_chem_ch2_12",
+ "concepts": [
+  {
+   "id": "enh:c8_chem_ch2_12",
+   "title": "c8_chem_ch2_12",
+   "questions": [
+    {
+     "q": "What term describes the direct phase change of a substance from a solid directly into a gas without forming a liquid?",
+     "a": "The correct answer is sublimation. A student who answers \"melting\" fails to recognize that melting produces a liquid state first, whereas sublimation bypasses the liquid phase entirely.",
+     "self_check": true
+    },
+    {
+     "q": "Why does solid dry ice (solid carbon dioxide, $CO_2$) disappear at room temperature without leaving a puddle of liquid on the laboratory table?",
+     "a": "Dry ice undergoes sublimation because at normal atmospheric pressure, solid $CO_2$ transitions directly into carbon dioxide gas as it absorbs heat from the surrounding air. A student who thinks it melts first misunderstands the phase behavior of carbon dioxide under standard atmospheric conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Name two substances that undergo sublimation at room temperature and explain why they do so while most solids do not.",
+     "a": "The correct answer is that ammonium chloride will sublime, turning directly into vapor and depositing on the cooler upper stem of the inverted funnel, leaving the salt behind. Working steps: 1) Identify ammonium chloride as a sublimable solid and salt as a non-sublimable solid. 2) Apply heat to the mixture. 3) Ammonium chloride absorbs thermal energy, breaking its weak intermolecular bonds to form a gas. 4) The gas hits the cool funnel walls and deposits back into solid crystals. A student who says it melts thinks ammonium chloride behaves like ice or wax.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the particle arrangement and inter-particle forces in iodine crystals ($I_2$) to explain why iodine undergoes sublimation upon gentle heating rather than melting into a liquid at standard pressure.",
+     "a": "Iodine molecules are held together in the solid crystal by weak London dispersion forces rather than strong ionic or covalent bonds throughout the lattice. When heated, a modest amount of thermal energy is sufficient to completely overcome these weak attractive forces, allowing molecules to escape directly into the gas phase. A student who believes strong chemical bonds are broken is confusing intermolecular forces with intramolecular covalent bonds.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"All substances that are solid at room temperature can undergo sublimation if heated strongly enough in an open container.\" Is this statement scientifically accurate?",
+     "a": "The statement is false because most substances (like ice or iron) melt into a liquid phase before vaporizing into a gas at standard atmospheric pressure. Sublimation only occurs readily when the vapor pressure of the solid equals atmospheric pressure below its melting point, which is unique to specific substances like iodine, camphor, and ammonium chloride. A student who agrees fails to realize that melting point and triple point pressures dictate whether a liquid phase must form.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory procedure using everyday school lab equipment to separate a solid mixture of sand and camphor. Explain how each component is recovered.",
+     "a": "To separate sand and camphor: 1) Place the mixture in an evaporating dish. 2) Cover the dish with an inverted glass funnel and plug the funnel's narrow top with a small piece of cotton. 3) Heat the bottom of the dish gently with a Bunsen burner. 4) Camphor will sublime into a gas, rise, and deposit as pure solid crystals on the cool inner walls of the funnel, while non-volatile sand remains at the bottom of the dish. 5) Allow the apparatus to cool, remove the funnel, and scrape off the pure camphor crystals. A poor answer would suggest dissolving in water without utilizing camphor's unique sublimation property.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

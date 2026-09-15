@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hin_a_cbse_15_012",
+ "concepts": [
+  {
+   "id": "enh:c12_hin_a_cbse_15_012",
+   "title": "c12_hin_a_cbse_15_012",
+   "questions": [
+    {
+     "q": "Classify each question as Literal (L) or Inferential (I): (a) \"What is the name of the protagonist's village?\" (b) \"Why does the protagonist refuse compensation?\" (c) \"How many hectares of forest were cleared?\" (d) \"What does the 'black water' symbolize?\"",
+     "a": "(a) L — directly stated in opening paragraph. (b) I — requires synthesizing character's dialogue (para 5), cultural values (para 3), and author's commentary (para 7). (c) L — specific statistic mentioned in para 4. (d) I — symbolism not explicitly defined; must connect \"black water\" (para 4) to \"death of tradition\" (para 6) and \"industrial waste\" (para 5). WRONG ANSWER REVEALS: If student marks (b) as Literal, they confuse character's stated reason (\"money cannot buy ancestors' land\") with the deeper inference about cultural identity. If they mark (d) as Literal, they mistake recurring imagery for explicit definition.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this answer to \"Why is the river described as 'weeping'?\" — \"The river is weeping because the author feels sad about pollution.\" Explain why this answer will lose marks in CBSE board exam.",
+     "a": "The answer commits the \"author = narrator\" fallacy and substitutes feeling for evidence. CBSE marking scheme requires: (1) Textual anchor — \"weeping\" appears in para 4 as \"नदी रो रही है\" linked to \"काले पानी की धार\". (2) Literary device identification — personification (मानवीकरण). (3) Thematic bridge — connects to para 7's \"विकास का राक्षस\" and para 6's \"संस्कृति का अंत\". WRONG ANSWER REVEALS: Student treats inference as emotional guesswork rather than textual reconstruction. They miss that \"weeping\" is a deliberate craft choice (covered in node 008) serving the theme (node 006), not the author's personal sentiment.",
+     "self_check": true
+    },
+    {
+     "q": "Given this inferential question: \"How does the author contrast 'development' and 'displacement' in the story?\" — Show the 3-step evidence chain using specific paragraph references from the text (don't write full answer, just the evidence map).",
+     "a": "Step 1 — Development evidence: Para 4 \"लाखों हेक्टेयर जंगल कटे\", \"बांध बने\", \"कारखाने लगे\" (literal facts). Para 7 \"विकास का पड्डा\" (author's metaphor). Step 2 — Displacement evidence: Para 5 \"गांव उजड़े\", \"पूर्वजों की जमीन छूटी\", \"नदी मरी\" (literal consequences). Para 6 \"संस्कृति बिखरी\", \"भाषा लुप्त\" (cultural erosion). Step 3 — Contrast bridge: Development = state-driven, quantified, \"progress\" vocabulary (सरकारी योजना, लाखों हेक्टेयर). Displacement = community-lived, unquantified, \"loss\" vocabulary (उजड़ा, छूटी, मरी, बिखरी). WRONG ANSWER REVEALS: If student only lists para 4 vs para 5 without the vocabulary contrast (Step 3), they describe not analyze. If they use \"I think the author hates factories\", they substitute opinion for textual pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two student answers to \"What is the significance of the title 'जहाँ कोई नहीं'?\" — Answer A: \"It means the place is empty because everyone left.\" Answer B: \"The title operates at three levels: literal (para 1: 'उपकुंड में अब कोई नहीं रहता'), metaphorical (para 6: 'संस्कृति के निशान भी नहीं'), and ironic (para 7: 'विकास के नाम पर सब कुछ है, बस मनुष्य नहीं').\" Which answer demonstrates inferential mastery? Justify using CBSE competency parameters.",
+     "a": "Answer B demonstrates mastery. CBSE competency parameters for inferential questions: (1) Multi-layered reading — literal + metaphorical + ironic. (2) Textual anchoring — each layer tied to specific paragraph. (3) Conceptual vocabulary — uses terms \"metaphorical\", \"ironic\" correctly (from node 009). (4) Thematic synthesis — connects title to central tension (development vs humanity). Answer A only accesses literal level (para 1) and misses the author's crafted irony. WRONG ANSWER REVEALS: Student treating title as label not literary device. They haven't integrated node 009 (Irony and Symbolism) with comprehension strategy.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"For inferential questions in CBSE Hindi, any reasonable interpretation supported by one quote gets full marks.\" Defend or refute with reference to marking scheme expectations.",
+     "a": "REFUTE. CBSE marking scheme (2023-24 sample) requires: (a) Minimum TWO textual anchors from different sections of the text — single quote = partial credit (1/3 marks). (b) Explicit logical connector words — \"इससे पता चलता है\", \"यह दर्शाता है\", \"इसका निहितार्थ है\". (c) Alignment with central theme — interpretation contradicting established theme (e.g., claiming author supports industrialization) gets zero even with quotes. (d) Literary terminology where applicable — \"प्रतीक\", \"व्यंग्य\", \"मानवीकरण\" expected for 3-mark questions. WRONG ANSWER REVEALS: Student misunderstands \"inferential\" as \"subjective\". They haven't learned that board exam inference is constrained textual reconstruction, not creative writing.",
+     "self_check": true
+    },
+    {
+     "q": "Create an inferential question for this text that would test a Class 12 student's ability to connect linguistic register (node 011) to thematic concern (node 006). Provide the ideal answer structure.",
+     "a": "QUESTION: \"लेखक ने आदिवासी पात्रों की बोली में 'वीर', 'जंगल', 'नदी' जैसे शब्दों को संस्कृतनिष्ठ न रखकर देशज रूप में क्यों प्रस्तुत किया है? पाठ के दो प्रसंगों के आधार पर स्पष्ट कीजिए।\" IDEAL ANSWER STRUCTURE: (1) Thesis: देशज शब्दावली आदिवासी अस्मिता और प्रकृति से अटूट संबंध को भाषाई स्तर पर स्थापित करती है। (2) Evidence 1: Para 3 — \"वीर जंगल हमार बाप हौ\" (देशज 'बाप' vs संस्कृतनिष्ठ 'पिता') — shows intimate, non-hierarchical kinship with nature. (3) Evidence 2: Para 6 — \"नदी मर गईल\" (देशज 'मर गईल' vs 'मृत हो गई') — conveys lived grief, not clinical fact. (4) Synthesis: This register choice makes 'विकास' (Sanskritised, bureaucratic) sound alien and violent against 'जंगल-नदी' (deshaj, organic) — enacting the theme linguistically. WRONG ANSWER REVEALS: If student only identifies \"local flavor\" without the register contrast (Sanskritised vs Deshaj) and thematic enactment, they treat vocabulary (node 010) as decoration not meaning-making.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

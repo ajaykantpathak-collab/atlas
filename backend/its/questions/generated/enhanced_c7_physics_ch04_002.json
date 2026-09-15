@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_physics_ch04_002",
+ "concepts": [
+  {
+   "id": "enh:c7_physics_ch04_002",
+   "title": "c7_physics_ch04_002",
+   "questions": [
+    {
+     "q": "What is the SI unit of the time period of a simple pendulum?",
+     "a": "The SI unit of the time period is the second (s). A student who answers \"metre\" or \"kilogram\" is confusing the time period with length or mass measurements. A student who answers \"hertz\" is confusing time period with frequency.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we measure the time taken for 20 oscillations instead of just 1 oscillation when finding the time period of a pendulum in a school laboratory?",
+     "a": "Measuring 20 oscillations and dividing the total time by 20 reduces the human reaction-time error significantly compared to measuring a single fast oscillation with a stopwatch. A student who thinks it is done \"to make the pendulum swing faster\" or \"because 20 is a lucky number\" misunderstands experimental accuracy and error reduction.",
+     "self_check": true
+    },
+    {
+     "q": "A simple pendulum completes 30 oscillations in 60 seconds. What is the time period of this pendulum?",
+     "a": "The time period is 2.0 s. \nSteps:\n1. Identify total time ($t$) = 60 s and total oscillations ($N$) = 30.\n2. Use formula: $T = \\frac{t}{N}$.\n3. Substitute values: $T = \\frac{60\\text{ s}}{30}$.\n4. Compute: $T = 2.0\\text{ s}$. \nA student who gets 0.5 s has inverted the formula by dividing $N$ by $t$ instead of $t$ by $N$.",
+     "self_check": true
+    },
+    {
+     "q": "If you increase the length of the string of a simple pendulum from 25 cm to 100 cm, how does it affect the time it takes for one oscillation?",
+     "a": "The time period of the pendulum increases, meaning it swings more slowly and takes more time per oscillation. A student who answers that \"the time period decreases\" or \"remains exactly the same\" does not understand how length affects the swinging rate of a pendulum.",
+     "self_check": true
+    },
+    {
+     "q": "A student measures the time for 10 oscillations of a pendulum as 15 seconds, but accidentally starts the stopwatch on the second swing instead of the first swing. How does this affect the calculated time period?",
+     "a": "The calculated time period will be slightly incorrect because the total counted oscillations do not match the actual number of cycles timed, leading to systematic error. A student who claims \"it makes no difference at all\" fails to understand the importance of synchronization between manual timing and counting cycles.",
+     "self_check": true
+    },
+    {
+     "q": "Design a quick classroom experiment using a ruler, a thread, a small stone, and your wristwatch to test if changing the weight of the bob affects its time period.",
+     "a": "To test this, tie a small stone to a thread of fixed length (e.g., 30 cm) and measure the time for 20 oscillations. Then, replace the stone with a heavier object of the exact same size, keep the thread length identical at 30 cm, and again measure the time for 20 oscillations. Compare the two time periods to conclude that mass does not alter the time period. A poor answer would suggest changing both the length and the weight at the same time, which violates the rule of keeping variables constant.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_13_002",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_13_002",
+   "title": "c12_bio_cbse_13_002",
+   "questions": [
+    {
+     "q": "Define the term 'stenothermal' and give one example each of a stenothermal animal and a stenothermal plant from Indian ecosystems.",
+     "a": "Stenothermal organisms tolerate only a narrow temperature range. Example: Snow leopard (Panthera uncia) in Himalayas (cold stenothermal); Coral reefs in Lakshadweep (warm stenothermal). A wrong answer like \"polar bear in India\" reveals the student confuses geographic distribution with physiological tolerance — polar bears are not native to India. If they cite \"cactus\" as stenothermal, they confuse water adaptation with temperature adaptation.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a fish die when placed in distilled water, but survive in pond water? Explain using the concept of osmosis and osmoregulation.",
+     "a": "Distilled water is hypotonic to fish body fluids; water enters cells by osmosis causing lysis (bursting). Pond water is isotonic/near-isotonic; no net water movement. A wrong answer like \"distilled water has no oxygen\" reveals confusion between osmotic stress and respiratory needs. If they say \"fish drink water,\" they miss that freshwater fish don't drink — they absorb water osmotically and produce dilute urine.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Punjab grows wheat (a long-day plant) and rice (a short-day plant). Predict which crop will flower earlier if both are sown in April, and explain the photoperiodic mechanism.",
+     "a": "Wheat (long-day) flowers when day length > critical length (approx. 14 hrs). In April, days lengthen toward summer solstice — wheat flowers. Rice (short-day) flowers when day length < critical length — it will not flower until days shorten post-monsoon (Sept-Oct). A wrong answer like \"rice flowers first because it's a kharif crop\" confuses agricultural practice with photoperiodic physiology. If they say \"both flower at same time,\" they don't understand critical day length as a threshold.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the thermal stratification of a deep temperate lake in summer versus a tropical lake in India (e.g., Chilika). How does this affect dissolved oxygen distribution and fish distribution?",
+     "a": "Temperate lake: distinct epilimnion (warm, oxygen-rich), thermocline (rapid temp drop), hypolimnion (cold, oxygen-poor). Tropical lake: weak or no stratification year-round; mixing occurs frequently; oxygen more uniformly distributed. Fish in temperate lakes avoid hypolimnion in summer; in tropical lakes, fish distribute more evenly. A wrong answer claiming \"tropical lakes have stronger stratification\" reverses the physics — warmer surface water reduces density difference. If they ignore oxygen, they miss the ecological consequence.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Desert plants have deep roots to access water; therefore, water is the only limiting factor for them.\" Is this correct? Justify using Liebig's Law of the Minimum.",
+     "a": "Incorrect. Liebig's Law states growth is limited by the scarcest resource, not just water. In deserts, nitrogen, phosphorus, or temperature extremes can co-limit. Deep roots access water but cannot overcome nutrient deficiency or heat-induced enzyme denaturation. A student agreeing reveals single-factor thinking. If they say \"temperature doesn't matter because desert plants are adapted,\" they confuse adaptation with elimination of limitation — adaptation shifts tolerance range, doesn't remove the factor.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to test whether light intensity or soil moisture is the primary limiting factor for seedling survival of a native tree species (e.g., Sal, Shorea robusta) in a Central Indian forest gap.",
+     "a": "Create four plots: (1) high light + high water, (2) high light + low water, (3) low light + high water, (4) low light + low water. Plant equal seedlings, measure survival/growth after 60 days. If (2) and (4) show similar low survival but (3) survives well → water limits. If (3) and (4) low but (2) survives → light limits. A poor design tests only one factor at a time (no factorial design) or uses non-native species, missing the ecological context. If they suggest \"measure photosynthesis,\" they confuse mechanism with limiting factor identification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

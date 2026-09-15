@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_07_003",
+   "title": "c11_math_cbse_07_003",
+   "questions": [
+    {
+     "q": "Write the formula for the number of permutations of n distinct objects taken r at a time, and state the condition on r.",
+     "a": "The formula is ^nP_r = n!/(n-r)! where 0 ≤ r ≤ n and n is a positive integer. A wrong answer like ^nP_r = n!/r! or ^nP_r = n!/(n+r)! reveals confusion between permutation and combination formulas or misunderstanding of the factorial subtraction in the denominator. If a student writes r ≤ n without the lower bound 0, they miss the edge case ^nP_0 = 1.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the number of permutations of 5 distinct objects taken 3 at a time is 5 × 4 × 3 = 60, and why it is NOT 5 × 5 × 5 = 125.",
+     "a": "For the first position we have 5 choices. After choosing one, it cannot be reused (no repetition), so only 4 choices remain for the second position, then 3 for the third. By the Fundamental Principle of Counting, total = 5 × 4 × 3 = 60. The product 5 × 5 × 5 = 125 would be correct only if repetition were allowed (each position independently has 5 choices). A wrong answer indicates the student confuses permutations without repetition (this node) with permutations with repetition allowed (node c11_math_cbse_07_006).",
+     "self_check": true
+    },
+    {
+     "q": "Compute ^8P_3 and ^8P_5. Are they equal? Justify your answer using the formula.",
+     "a": "^nP_3 = 8!/(8-3)! = 8!/5! = 8 × 7 × 6 = 336. ^nP_5 = 8!/(8-5)! = 8!/3! = 8 × 7 × 6 × 5 × 4 = 6720. They are NOT equal. A student who claims they are equal because \"8 choose 3 equals 8 choose 5\" is confusing permutations with combinations (^nC_r = ^nC_{n-r}). Permutations do NOT have this symmetry: ^nP_r ≠ ^nP_{n-r} generally. The error reveals misunderstanding that order matters in permutations, so choosing 3 out of 8 is fundamentally different from choosing 5 out of 8.",
+     "self_check": true
+    },
+    {
+     "q": "Given that ^nP_4 = 20 × ^nP_2, find the value of n. Show all algebraic steps.",
+     "a": "^nP_4 = n!/(n-4)! = n(n-1)(n-2)(n-3). ^nP_2 = n!/(n-2)! = n(n-1).\nEquation: n(n-1)(n-2)(n-3) = 20 × n(n-1).\nAssuming n ≠ 0,1 (since permutations require n ≥ 4), divide both sides by n(n-1):\n(n-2)(n-3) = 20 → n² - 5n + 6 = 20 → n² - 5n - 14 = 0 → (n-7)(n+2) = 0 → n = 7 or n = -2.\nSince n must be a positive integer ≥ 4, n = 7.\nA wrong answer like n = 5 (from miscalculating 20 as 5×4) or n = -2 (not rejecting negative) reveals algebraic errors or failure to check domain constraints.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"How many 3-letter words can be formed from the letters of the word 'DELHI'?\" Their working: ^5P_3 = 5!/3! = 120/6 = 20. Identify the error and give the correct answer.",
+     "a": "The error is in the denominator: ^5P_3 = 5!/(5-3)! = 5!/2! = 120/2 = 60, not 5!/3!. The student incorrectly used r! instead of (n-r)! in the denominator, likely confusing the permutation formula with the combination formula ^nC_r = n!/[r!(n-r)!]. The correct answer is 60. This misconception is extremely common: students memorize \"n!/r!\" for permutations instead of \"n!/(n-r)!\".",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) where the answer is ^7P_4. State the problem clearly and explain why it requires permutation, not combination.",
+     "a": "Problem: \"A school has 7 candidates for the posts of Head Boy, Head Girl, Sports Captain, and Cultural Captain. In how many ways can these 4 distinct posts be filled if no candidate can hold more than one post?\" \nReason: The 4 posts are distinct (order matters - Head Boy vs Sports Captain are different roles), and we are selecting 4 out of 7 candidates without repetition. This is exactly ^7P_4 = 7!/3! = 840 ways. A poor answer would describe a scenario where order doesn't matter (e.g., \"select a committee of 4 from 7\"), which would be a combination problem. The key is identifying distinct positions/roles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

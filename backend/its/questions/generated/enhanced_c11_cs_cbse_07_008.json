@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_07_008",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_07_008",
+   "title": "c11_cs_cbse_07_008",
+   "questions": [
+    {
+     "q": "What is the output of the following code snippet?\n```python\nd = {\"Physics\": 85, \"Chemistry\": 90, \"Math\": 95}\nprint(d[\"Physics\"])\nprint(d.get(\"Biology\"))\nprint(d.get(\"Biology\", \"Not Found\"))\n```",
+     "a": "Output:\n```\n85\nNone\nNot Found\n```\nA wrong answer (e.g., thinking `d.get(\"Biology\")` raises an error or prints \"Not Found\" without the default argument) reveals the student confuses bracket notation (raises KeyError) with `.get()` (returns None by default) and doesn't understand the optional second parameter of `.get()`.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following dictionary creation raises a TypeError, and how to fix it:\n```python\nd = {[\"name\", \"age\"]: \"student\"}\n```",
+     "a": "Lists are mutable and unhashable, so they cannot be used as dictionary keys. The error is `TypeError: unhashable type: 'list'`. Fix: use a tuple `(\"name\", \"age\")` or a string `\"name,age\"` as the key instead. A wrong answer (e.g., \"keys must be strings\") reveals the student doesn't know the precise rule: keys must be *immutable* (hashable), not just strings.",
+     "self_check": true
+    },
+    {
+     "q": "Given the dictionary `marks = {\"English\": 78, \"Hindi\": 82, \"Science\": 88}`, write code to safely print the marks for \"Social\" without raising an error, and if the key is missing, print \"Subject not enrolled\" instead of None.",
+     "a": "```python\nprint(marks.get(\"Social\", \"Subject not enrolled\"))\n```\nA wrong answer using `marks[\"Social\"]` (raises KeyError) or `marks.get(\"Social\")` (prints None) shows the student cannot apply the two-argument form of `.get()` for custom default messages.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the three dictionary creation methods below. Which creates an empty dictionary? Which creates a dictionary with keys 'a', 'b', 'c' all mapped to the same value 0? Which creates a dictionary from a list of tuples?\n```python\nd1 = {}\nd2 = dict.fromkeys(['a', 'b', 'c'], 0)\nd3 = dict([('x', 1), ('y', 2)])\n```",
+     "a": "- `d1 = {}` creates an empty dictionary.\n- `d2 = dict.fromkeys(['a', 'b', 'c'], 0)` creates `{'a': 0, 'b': 0, 'c': 0}`.\n- `d3 = dict([('x', 1), ('y', 2)])` creates `{'x': 1, 'y': 2}` from a list of tuples.\nA wrong answer (e.g., thinking `fromkeys` requires a tuple of tuples) reveals confusion between the `dict()` constructor (accepts iterable of key-value pairs) and `fromkeys()` (accepts iterable of keys + single value).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: `student = {\"name\": \"Aman\", \"age\": 17, \"name\": \"Aman Kumar\"}` and claims the dictionary has two \"name\" keys. Evaluate this claim and explain what actually happens.",
+     "a": "The claim is false. Dictionaries cannot have duplicate keys. The second `\"name\": \"Aman Kumar\"` overwrites the first, so the final dictionary is `{\"name\": \"Aman Kumar\", \"age\": 17}`. A wrong answer (e.g., \"it stores both values in a list\") reveals the student doesn't understand the uniqueness constraint on keys and the last-write-wins semantics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a dictionary to store the menu of a small café where each item (key) has a price (value). The menu has: \"Masala Dosa\" (₹60), \"Idli Sambar\" (₹40), \"Filter Coffee\" (₹25). Write code to create this dictionary using the `dict()` constructor with keyword arguments, then write a loop that prints each item and price in the format \"Item: ₹Price\".",
+     "a": "```python\nmenu = dict(Masala_Dosa=60, Idli_Sambar=40, Filter_Coffee=25)\nfor item, price in menu.items():\n    print(f\"{item.replace('_', ' ')}: ₹{price}\")\n```\nNote: Keyword arguments require valid identifiers (no spaces), so underscores are used and replaced during printing. A poor answer uses a list of tuples with `dict()` instead of keyword arguments, or fails to handle the space-in-key limitation, showing inability to adapt the constructor to real-world naming constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

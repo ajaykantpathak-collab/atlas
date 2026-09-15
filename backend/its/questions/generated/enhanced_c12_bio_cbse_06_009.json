@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_06_009",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_06_009",
+   "title": "c12_bio_cbse_06_009",
+   "questions": [
+    {
+     "q": "State the five primary goals of the Human Genome Project as defined at its inception in 1990.",
+     "a": "The five goals were: (1) Identify all ~20,000–25,000 human genes; (2) Determine the sequence of the 3 billion base pairs in human DNA; (3) Store this information in databases; (4) Improve data analysis tools; (5) Address ethical, legal, and social issues (ELSI). A wrong answer that omits ELSI or databases reveals the student treats HGP as purely a sequencing exercise, missing its bioinformatics and societal dimensions — a common Board exam trap where 1-mark questions ask \"Which was NOT a goal?\"",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the BAC-to-BAC (hierarchical) sequencing strategy was chosen over whole-genome shotgun sequencing for the public HGP effort, despite being slower.",
+     "a": "BAC-to-BAC used mapped bacterial artificial chromosome clones as anchors, ensuring each sequenced fragment had a known chromosomal location. This minimized misassembly in repetitive regions (centromeres, telomeres, segmental duplications) which constitute >50% of the genome. Whole-genome shotgun (used by Celera) assembles purely by sequence overlap and struggles with repeats. A wrong answer claiming \"BAC was faster\" or \"shotgun cannot handle large genomes\" shows confusion: shotgun is faster but less accurate for repeat-rich eukaryotic genomes; the public project prioritized accuracy for a reference standard.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher sequences a 150 kb human genomic region and finds it contains 4 genes, 3 pseudogenes, and 45% repetitive DNA. Using HGP-derived knowledge, predict the gene density (genes per Mb) of this region and state whether it is typical of gene-rich or gene-poor chromosomal bands.",
+     "a": "Gene density = 4 genes / 0.15 Mb = 26.7 genes/Mb. The human genome average is ~10–15 genes/Mb, but gene-rich euchromatic bands (e.g., 19p13) reach 20–30 genes/Mb while gene-poor heterochromatic bands (e.g., 13q) have <3 genes/Mb. This region is gene-rich. A wrong answer giving 4 genes/Mb (forgetting to convert kb to Mb) or calling it gene-poor reveals unit-conversion error and lack of familiarity with HGP's finding that gene distribution is highly non-uniform — a frequent NEET application question.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the HGP finding that \"less than 2% of the human genome codes for proteins\" with the earlier estimate that humans have ~100,000 genes. Explain how alternative splicing reconciles the low gene count with proteomic complexity.",
+     "a": "HGP revealed ~20,000 protein-coding genes, not 100,000. Alternative splicing allows a single gene to produce multiple mRNA isoforms by including/excluding exons. Over 90% of human multi-exon genes undergo alternative splicing, generating >100,000 distinct proteins from ~20,000 genes. A wrong answer stating \"non-coding DNA is junk\" or \"each gene makes one protein\" ignores the central HGP insight that regulatory complexity (splicing, promoters, ncRNAs) replaces gene number as the driver of complexity — a concept tested in both Board (short answer) and NEET (assertion-reason).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The Human Genome Project is complete, so we now know the function of every human gene.\" Identify two specific gaps in functional annotation that remain.",
+     "a": "The claim is false. Two major gaps: (1) ~30% of protein-coding genes still have \"unknown\" or \"predicted\" function (GO annotations: \"molecular function unknown\"); (2) Non-coding RNA genes (lncRNAs, miRNAs, circRNAs) discovered post-HGP remain largely uncharacterized functionally. The reference sequence is \"finished\" (high accuracy, few gaps), but functional annotation is ongoing (e.g., ENCODE, GTEx projects). A wrong answer saying \"we know all functions\" or \"non-coding DNA has no function\" reveals the misconception that sequence = function — a classic competitive exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a stepwise strategy to identify the causal mutation for a rare autosomal recessive disorder in a consanguineous Indian family using HGP-derived resources. Specify the databases and tools you would use at each step.",
+     "a": "Step 1: Perform whole-exome sequencing (WES) on affected siblings and parents. Step 2: Align reads to GRCh38 reference genome (NCBI/Ensembl) using BWA; call variants with GATK. Step 3: Filter for rare (gnomAD allele frequency <0.001), homozygous, protein-altering variants shared by affecteds. Step 4: Prioritize variants in genes expressed in relevant tissue (GTEx portal) and with known disease association (OMIM, ClinVar). Step 5: Validate by Sanger sequencing; assess pathogenicity via ACMG guidelines. A poor answer that skips population-frequency filtering or uses outdated hg19 coordinates shows lack of translational genomics workflow knowledge — increasingly tested in CUET/NEET PG.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

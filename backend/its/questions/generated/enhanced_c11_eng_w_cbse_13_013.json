@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_13_013",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_13_013",
+   "title": "c11_eng_w_cbse_13_013",
+   "questions": [
+    {
+     "q": "What is the specific structural division of a Petrarchan sonnet, and where does the volta (turn in thought) typically occur in this form?",
+     "a": "A Petrarchan sonnet consists of an octave (8 lines, typically ABBAABBA) followed by a sestet (6 lines, varying rhyme scheme like CDECDE or CDCDCD). The volta usually occurs at the start of the sestet (line 9). A wrong answer (e.g., \"three quatrains and a couplet\" or \"volta at the end\") reveals confusion with the Shakespearean sonnet form, indicating the student cannot distinguish the structural framework that shapes Wordsworth's argument.",
+     "self_check": true
+    },
+    {
+     "q": "In your own words, explain why the speaker says \"We have given our hearts away, a sordid boon!\" What makes this \"boon\" (gift) \"sordid\"?",
+     "a": "The \"boon\" is the modern world's material prosperity (\"getting and spending\"), which is technically a gift but is \"sordid\" (morally degrading, base) because it costs us our capacity to feel wonder and kinship with nature — we trade our spiritual vitality for trivial possessions. A wrong answer that focuses only on \"pollution\" or \"greed\" misses the psychological/spiritual transaction: the heart is *given away* voluntarily, implying complicity, not just victimhood.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"personification\" to the lines \"The Sea that bares her bosom to the moon; / The winds that will be howling at all hours.\" What specific human qualities are given to the Sea and the Winds, and how does this support the poem's theme?",
+     "a": "The Sea is given a female body (\"her bosom\") and the vulnerability of exposure (\"bares\"); the Winds are given human voice and restlessness (\"howling\") and then a peaceful, human-like sleep (\"up-gathered now like sleeping flowers\"). This personification makes nature an intimate, living presence with whom we *should* have a relationship — reinforcing the tragedy that \"we are out of tune\" with these beings. A wrong answer that merely lists \"human qualities\" without linking to the theme of alienation shows mechanical device-spotting without analytical depth.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the function of the two mythological allusions (Proteus and Triton) in the sestet. Why does Wordsworth choose *these specific figures* rather than generic \"nature spirits\"?",
+     "a": "Proteus (shape-shifting prophet) symbolizes nature's mutable, elusive truth that rewards patient observation; Triton (conch-blowing herald) symbolizes nature's communicative power and majesty. Both are *ancient, pre-Christian deities of the sea* — choosing them enacts the speaker's wish to be \"A Pagan suckled in a creed outworn.\" They represent a worldview where the divine is *immanent* in nature, not transcendent. A wrong answer that treats them as decorative \"Greek mythology references\" misses their thematic precision: they embody the *dynamic, responsive, audible* nature the speaker craves.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the speaker's final claim: \"So might I, standing on this pleasant lea, / Have glimpses that would make me less forlorn.\" Is this a genuine solution to the alienation described in the octave, or an escapist fantasy? Justify your judgment with textual evidence.",
+     "a": "It is a *conditional, imaginative* solution (\"So might I...\"), not a practical social program. The subjunctive mood (\"might,\" \"would\") and the solitary stance (\"standing on this pleasant lea\") admit its fragility. Yet, within the poem's logic, it is the *only* authentic resistance: reclaiming perceptual freedom (\"glimpses\") counters the \"sordid boon\" of commodified vision. A wrong answer that calls it \"escapist\" ignores the Romantic conviction that *imagination* is a cognitive faculty that reveals truth; a wrong answer that calls it \"fully successful\" ignores the poem's melancholy tone (\"forlorn\" persists even in the hypothetical).",
+     "self_check": true
+    },
+    {
+     "q": "Create a four-line stanza (any rhyme scheme) that expresses a modern equivalent of Wordsworth's critique — replacing \"getting and spending\" with a 21st-century obsession — and ends with a personal vow to reconnect with a specific natural element.",
+     "a": "A strong answer will: (1) name a concrete modern obsession (e.g., scrolling, streaming, hustling), (2) show its waste of human power, (3) address a specific natural element (e.g., the monsoon rain, the neem tree, the night sky), and (4) use a vow structure (\"I'll put down the phone / And listen to the monsoon's drum...\"). A poor answer will be vague (\"technology is bad\") or lack the personal, sensory vow that mirrors the poem's turn from diagnosis to individual act.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

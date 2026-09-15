@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch12_047",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch12_047",
+   "title": "c6_physics_ch12_047",
+   "questions": [
+    {
+     "q": "What is the specific angle at which the Earth’s axis is tilted?",
+     "a": "The Earth's axis is tilted at 23.5 degrees. An incorrect answer usually indicates a lack of rote knowledge, while guessing \"90 degrees\" reveals a misconception that the Earth stands upright in space.",
+     "self_check": true
+    },
+    {
+     "q": "If the Northern Hemisphere is tilted toward the Sun, why does it experience summer?",
+     "a": "It experiences summer because it receives more direct sunlight and has longer daylight hours. A wrong answer suggests the student thinks being \"closer\" to the Sun causes summer, which is a common but incorrect assumption.",
+     "self_check": true
+    },
+    {
+     "q": "If it is summer in Delhi, what season is it in a city located in the Southern Hemisphere, such as Buenos Aires?",
+     "a": "It would be winter. This requires applying the concept that when one hemisphere is tilted toward the Sun (summer), the opposite hemisphere is tilted away (winter).",
+     "self_check": true
+    },
+    {
+     "q": "How would seasons on Earth be affected if the Earth's axis were not tilted at all (0 degrees)?",
+     "a": "There would be no change in seasons; every place on Earth would receive the same amount of sunlight all year round. This analysis shows the student understands that the tilt is the *cause* of the variation.",
+     "self_check": true
+    },
+    {
+     "q": "Is the change of seasons caused by the Earth getting closer and farther from the Sun in its orbit? Explain.",
+     "a": "No, the distance to the Sun is not the primary cause of seasons; the tilt is. Students who say \"yes\" are likely confused by the elliptical shape of orbits, failing to realize the tilt is the dominant factor for seasonal change.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a torch and a ball to show why the Northern Hemisphere gets more light in June.",
+     "a": "The student should describe holding the ball (Earth) with a tilted axis and shining the torch (Sun) at it, noting that the top half stays lit longer as they rotate the ball. A poor answer would lack the mention of the tilt or the rotation/revolution aspect.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

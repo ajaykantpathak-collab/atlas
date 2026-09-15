@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_06_001",
+   "title": "c11_phy_cbse_06_001",
+   "questions": [
+    {
+     "q": "A system consists of three particles of masses 2 kg, 3 kg, and 5 kg placed at coordinates (1, 2), (3, -1), and (-2, 4) metres respectively. What are the coordinates of the centre of mass of this system?",
+     "a": "X_CM = (2×1 + 3×3 + 5×(-2)) / (2+3+5) = (2 + 9 - 10) / 10 = 0.1 m; Y_CM = (2×2 + 3×(-1) + 5×4) / 10 = (4 - 3 + 20) / 10 = 2.1 m. So CM = (0.1 m, 2.1 m). A wrong answer like (0.67, 1.67) reveals the student computed the arithmetic mean of coordinates (geometric centroid) instead of the mass-weighted average, confusing centre of mass with centroid for unequal masses.",
+     "self_check": true
+    },
+    {
+     "q": "Two particles of masses m and 2m are separated by a distance d. A student claims the centre of mass is exactly at the midpoint between them. Is this correct? Explain why or why not using the definition of centre of mass.",
+     "a": "No, the claim is incorrect. For masses m and 2m, the centre of mass lies at a distance d/3 from the 2m mass and 2d/3 from the m mass, closer to the heavier particle. The midpoint would only be correct if masses were equal (m = 2m). A student agreeing with the claim reveals the misconception that centre of mass depends only on geometry (distances) and not on mass distribution - confusing it with the geometric centroid which is mass-independent.",
+     "self_check": true
+    },
+    {
+     "q": "A uniform rod of length 1.2 m and mass 4 kg has a 2 kg mass attached at one end and a 6 kg mass attached at the other end. Find the distance of the centre of mass from the 2 kg mass end. (Treat the rod's mass as concentrated at its midpoint.)",
+     "a": "Step 1: Choose origin at the 2 kg mass end. Step 2: Positions: 2 kg at x=0; rod's 4 kg at x=0.6 m (midpoint); 6 kg at x=1.2 m. Step 3: Total mass M = 2+4+6 = 12 kg. Step 4: X_CM = (2×0 + 4×0.6 + 6×1.2) / 12 = (0 + 2.4 + 7.2) / 12 = 9.6/12 = 0.8 m. Step 5: Verify: 0.8 m is between rod's midpoint (0.6 m) and 6 kg mass (1.2 m), closer to heavier side - physically reasonable. Answer: 0.8 m from the 2 kg end. A wrong answer of 0.6 m shows the student ignored the attached masses and only used the rod's midpoint.",
+     "self_check": true
+    },
+    {
+     "q": "Four particles of equal mass m are placed at the vertices of a square of side a. Without calculation, determine the coordinates of the centre of mass if the square's centre is at the origin and sides are parallel to axes. Now, if one particle's mass is doubled to 2m, describe qualitatively how the CM shifts.",
+     "a": "With four equal masses, by symmetry the CM is at the square's centre (0,0). When one vertex mass becomes 2m (total mass = 5m), the CM shifts along the diagonal toward that vertex. The new CM lies on the line joining the origin to that vertex, at a distance a/(5√2) from the origin. A student who says \"CM remains at origin\" fails to recognize that symmetry is broken by unequal masses. A student who says \"CM moves to that vertex\" overestimates the shift - it moves toward but not all the way to the heavier mass.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves for the centre of mass of an L-shaped uniform lamina (3 kg total, three 1 kg squares) and gets (5/6, 5/6) m with origin at the inner corner. They claim \"since the lamina is uniform, the centre of mass must be at its geometric centre.\" Evaluate this claim and identify the error.",
+     "a": "The claim is false. The geometric centre (centroid) of the L-shape is not at (5/6, 5/6) - that point lies on the line y=x but the shape is not symmetric about that line in terms of area distribution. The CM of a uniform body coincides with its centroid, but the student incorrectly identified the centroid. The error is assuming \"uniform = symmetric\" - uniformity means constant density, but the centroid depends on shape geometry. The correct approach is to decompose into symmetric parts (three squares), find each part's CM (at its geometric centre), then compute the weighted average. This tests whether the student distinguishes between \"uniform density\" and \"geometric symmetry.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a metre scale, two identical coins, and a pencil to demonstrate that the centre of mass of a system shifts when mass distribution changes. Describe the procedure, what you measure, and how you locate the CM.",
+     "a": "Procedure: Balance the metre scale horizontally on the pencil tip (fulcrum) - mark the balance point (CM of scale alone, at 50 cm). Place one coin at 10 cm mark, rebalance - new balance point shifts toward the coin. Place second coin at 90 cm mark, rebalance - CM shifts back toward centre. Measure each balance point position. The CM location is where the net torque is zero (principle of moments). A poor answer would just say \"balance the scale\" without explaining how the balance point relates to CM, or would not systematically vary mass positions to show the shift. A good answer connects the experimental balance point to the formula X_CM = Σ m_i x_i / Σ m_i.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

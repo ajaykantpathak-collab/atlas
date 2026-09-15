@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_01_007",
+   "title": "c12_phy_cbse_01_007",
+   "questions": [
+    {
+     "q": "What is the SI unit of electric flux? Write the formula for the electric flux through a small planar area element \\(\\Delta\\mathbf{S}\\) placed in a uniform electric field \\(\\mathbf{E}\\).",
+     "a": "The SI unit of electric flux is \\(\\text{N·m}^2/\\text{C}\\) (equivalently \\(\\text{V·m}\\)). The formula is \\(\\Delta\\phi = \\mathbf{E}\\cdot\\Delta\\mathbf{S} = E\\,\\Delta S\\cos\\theta\\), where \\(\\theta\\) is the angle between the electric field vector and the area vector (normal to the surface). A wrong unit (e.g., \\(\\text{N/C}\\)) shows confusion between electric field and flux. Omitting \\(\\cos\\theta\\) or using the angle with the plane instead of the normal reveals a misunderstanding of the dot product.",
+     "self_check": true
+    },
+    {
+     "q": "A uniform electric field \\(\\mathbf{E} = 500\\,\\text{N/C}\\) points along the \\(+x\\)-axis. A square sheet of side \\(10\\,\\text{cm}\\) lies in the \\(yz\\)-plane. What is the electric flux through this sheet? Explain why the flux has its maximum possible magnitude for this orientation.",
+     "a": "The area vector of the \\(yz\\)-plane sheet is along \\(\\pm x\\). Taking the normal along \\(+x\\), \\(\\theta = 0^\\circ\\) and \\(\\phi = EA = 500 \\times (0.1)^2 = 5\\,\\text{N·m}^2/\\text{C}\\). If the normal is chosen along \\(-x\\), \\(\\theta = 180^\\circ\\) and \\(\\phi = -5\\,\\text{N·m}^2/\\text{C}\\). The magnitude is maximum because the area vector is parallel/anti-parallel to \\(\\mathbf{E}\\), making \\(|\\cos\\theta|=1\\). A student answering zero mistakenly thinks the field lines lie in the plane of the sheet (they actually pierce it perpendicularly).",
+     "self_check": true
+    },
+    {
+     "q": "A rectangular surface of dimensions \\(20\\,\\text{cm} \\times 30\\,\\text{cm}\\) is placed in a uniform electric field of magnitude \\(2.0 \\times 10^3\\,\\text{N/C}\\). The field lines make an angle of \\(60^\\circ\\) with the normal to the surface. Calculate the electric flux through the surface.",
+     "a": "Area \\(A = 0.20 \\times 0.30 = 0.060\\,\\text{m}^2\\). \\(\\phi = EA\\cos\\theta = (2.0\\times10^3) \\times 0.060 \\times \\cos60^\\circ = 120 \\times 0.5 = 60\\,\\text{N·m}^2/\\text{C}\\). Common errors: forgetting to convert cm to m (giving \\(6000\\)), using \\(\\sin60^\\circ\\) instead of \\(\\cos60^\\circ\\), or using the angle between the field and the plane (\\(30^\\circ\\)) instead of the normal.",
+     "self_check": true
+    },
+    {
+     "q": "A closed cylindrical surface is placed in a uniform electric field directed along its axis. The flux through the curved surface is zero. Explain why, and determine the net flux through the entire closed surface.",
+     "a": "On the curved surface, the area vector is radial (perpendicular to the axis), while \\(\\mathbf{E}\\) is axial. Hence \\(\\mathbf{E}\\cdot d\\mathbf{S} = 0\\) everywhere → flux = 0. The two end caps have equal area \\(A\\); one has outward normal parallel to \\(\\mathbf{E}\\) (\\(\\phi = +EA\\)), the other anti-parallel (\\(\\phi = -EA\\)). Net flux = \\(0 + EA - EA = 0\\). A non-zero net flux answer indicates confusion about the sign convention for closed surfaces or the fact that a uniform field through a charge-free closed surface always gives zero net flux (a preview of Gauss's law).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Electric flux is a vector quantity because it depends on the direction of the area vector.\" Evaluate this statement and correct it if necessary.",
+     "a": "The claim is false. Electric flux is a **scalar** — it is the dot product of two vectors (\\(\\mathbf{E}\\) and \\(\\Delta\\mathbf{S}\\)), and the dot product yields a scalar. Flux can be positive, negative, or zero, but it has no direction. The student confuses the vector nature of the area element with the scalar nature of the flux. This misconception often leads to errors when adding fluxes from different surface elements (they must be added algebraically, not vectorially).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration using a uniform electric field (e.g., between two parallel plates connected to a high-voltage supply) and a lightweight planar loop to show that electric flux depends on the orientation of the loop. Describe what you would observe.",
+     "a": "A good answer: Suspend a conducting loop (or a frame with a sensitive electrometer) between the plates. Rotate the loop and observe that the induced charge (or the deflection of a connected electroscope) is maximum when the loop's plane is perpendicular to the field (normal parallel to \\(\\mathbf{E}\\)) and zero when the loop's plane is parallel to the field (normal perpendicular to \\(\\mathbf{E}\\)). This demonstrates \\(\\phi \\propto \\cos\\theta\\). A poor answer might confuse electric flux with magnetic flux (which induces current when changing) or suggest measuring current in a static field.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

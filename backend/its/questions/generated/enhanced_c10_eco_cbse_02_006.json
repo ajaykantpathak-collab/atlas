@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_eco_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c10_eco_cbse_02_006",
+   "title": "c10_eco_cbse_02_006",
+   "questions": [
+    {
+     "q": "List any three government initiatives for employment generation mentioned in the NCERT Class 10 textbook (Chapter 2) other than MGNREGA.",
+     "a": "Correct answer: (1) Expanding irrigation facilities to enable multiple cropping, (2) Providing cheap credit to small farmers and entrepreneurs, (3) Building infrastructure like dams, canals, and roads, (4) Setting up industries/services in semi-rural areas, (5) Promoting tourism, regional crafts, and IT. A wrong answer that only lists \"giving jobs directly\" or \"MGNREGA\" reveals the student confuses direct wage employment with structural employment creation measures that address root causes of unemployment.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the textbook emphasise setting up industries and services in semi-rural areas rather than only in big cities? Explain the employment generation logic.",
+     "a": "Correct answer: Semi-rural industrialisation reduces rural-urban migration, utilises local raw materials and labour, creates backward-forward linkages (e.g., cold storage for farmers, transport for goods), and generates employment where the workforce actually lives. A wrong answer focusing only on \"lower costs for companies\" misses the developmental economics perspective: the goal is to transform the local employment structure, not just relocate factories.",
+     "self_check": true
+    },
+    {
+     "q": "A district has 60% workforce in agriculture but contributes only 18% to district GDP. The government sanctions a mega food park with cold storage, packaging units, and a mandi. If the food park creates 2,000 direct jobs and each direct job generates 1.5 indirect jobs in transport and services, calculate total employment generated. Identify which sector(s) these jobs belong to.",
+     "a": "Step 1: Direct jobs = 2,000 (secondary sector: food processing, packaging). Step 2: Indirect jobs = 2,000 × 1.5 = 3,000 (tertiary sector: transport, logistics, trade, maintenance). Step 3: Total jobs = 2,000 + 3,000 = 5,000. Step 4: Sectoral classification: Direct = secondary, Indirect = tertiary. A wrong answer that puts all jobs in secondary sector or ignores the multiplier reveals misunderstanding of sectoral interdependence and employment multipliers.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the employment impact of (a) building a new highway versus (b) waiving farm loans. Which creates more sustainable employment? Justify using the concepts of asset creation and productive capacity.",
+     "a": "Correct answer: Highway construction creates more sustainable employment because it builds durable infrastructure (asset) that lowers transport costs, connects markets, enables new businesses, and generates recurring jobs in logistics, tourism, and industry — a permanent increase in productive capacity. Loan waiver provides one-time relief but does not create new productive assets or recurring jobs. A wrong answer choosing loan waiver because \"it helps farmers immediately\" confuses consumption support with investment in employment-generating assets.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Promoting tourism and regional crafts creates mostly low-skilled, seasonal jobs, so the government should focus only on IT and manufacturing for quality employment.\"",
+     "a": "Correct evaluation: The statement is flawed. Tourism and crafts absorb large numbers of semi-skilled workers (including women and artisans), preserve cultural capital, and generate foreign exchange. They complement IT/manufacturing by providing employment at different skill levels. A balanced portfolio is needed because India's workforce has heterogeneous skills. A wrong answer agreeing with the statement reveals a \"modern sector bias\" — ignoring the reality that 80% of India's workforce needs jobs matching their current skill levels while upskilling happens gradually.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step government action plan for a backward district with: (i) 70% rain-fed agriculture, (ii) high seasonal migration, (iii) no all-weather road. Each step must target a different sector (primary/secondary/tertiary) and specify the initiative.",
+     "a": "Good answer example: Step 1 (Primary): Construct check dams and provide Kisan Credit Card loans for second crop → reduces seasonal unemployment. Step 2 (Secondary): Set up agro-processing cluster (cold storage, packaging) with subsidised land → creates year-round factory jobs. Step 3 (Tertiary): Build all-weather road + promote rural homestay tourism → enables transport, trade, and service jobs. Poor answer: vague steps like \"give jobs\" or \"build factories\" without linking to specific textbook initiatives or sectoral logic reveals inability to apply concepts to real-world planning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

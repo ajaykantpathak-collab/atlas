@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_05_010",
+   "title": "c12_math_cbse_05_010",
+   "questions": [
+    {
+     "q": "State the formula for \\(\\frac{dy}{dx}\\) when \\(x = f(t)\\) and \\(y = g(t)\\) are parametric equations. What condition must hold for the formula to be valid?",
+     "a": "The formula is \\(\\frac{dy}{dx} = \\frac{dy/dt}{dx/dt}\\) provided \\(\\frac{dx}{dt} \\neq 0\\). A wrong answer (e.g., writing \\(\\frac{dy}{dx} = \\frac{dx/dt}{dy/dt}\\) or forgetting the condition \\(\\frac{dx}{dt} \\neq 0\\)) reveals confusion about the chain rule direction or ignorance of the vertical tangent case where the derivative is undefined.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \\(\\frac{dy}{dx} = \\frac{dy/dt}{dx/dt}\\) is a direct consequence of the chain rule. What happens geometrically when \\(\\frac{dx}{dt} = 0\\)?",
+     "a": "By the chain rule, \\(\\frac{dy}{dt} = \\frac{dy}{dx} \\cdot \\frac{dx}{dt}\\). Rearranging gives the formula. When \\(\\frac{dx}{dt} = 0\\), the tangent is vertical (or the curve has a cusp), so \\(\\frac{dy}{dx}\\) is undefined (infinite). A wrong answer indicates the student memorized the formula without understanding its derivation or geometric meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Find \\(\\frac{dy}{dx}\\) for the parametric equations \\(x = 3t^2 - 2t\\), \\(y = 4t^3 + t\\) at \\(t = 1\\).",
+     "a": "\\(\\frac{dx}{dt} = 6t - 2\\), \\(\\frac{dy}{dt} = 12t^2 + 1\\). At \\(t = 1\\), \\(\\frac{dx}{dt} = 4\\), \\(\\frac{dy}{dt} = 13\\). So \\(\\frac{dy}{dx} = \\frac{13}{4}\\). A common error is substituting \\(t = 1\\) into \\(x\\) and \\(y\\) first, then trying to differentiate constants, which gives zero. This shows the student does not understand that the derivative is a function of the parameter \\(t\\), not a single number evaluated too early.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the process of finding \\(\\frac{dy}{dx}\\) for parametric equations versus implicit differentiation. When would you prefer parametric differentiation over implicit differentiation?",
+     "a": "Parametric differentiation uses \\(\\frac{dy/dt}{dx/dt}\\) directly without eliminating the parameter. Implicit differentiation differentiates an equation linking \\(x\\) and \\(y\\) directly. Parametric form is preferred when both \\(x\\) and \\(y\\) are given as simple functions of \\(t\\) (e.g., \\(x = a\\cos t, y = b\\sin t\\)) and eliminating \\(t\\) leads to complicated algebra (e.g., \\(\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1\\)). A poor answer confuses the two methods or cannot articulate the advantage of avoiding elimination.",
+     "self_check": true
+    },
+    {
+     "q": "A student computes \\(\\frac{dy}{dx}\\) for \\(x = t^2, y = t^3\\) as follows: \\(\\frac{dx}{dt} = 2t\\), \\(\\frac{dy}{dt} = 3t^2\\), so \\(\\frac{dy}{dx} = \\frac{3t^2}{2t} = \\frac{3t}{2}\\). Then they substitute \\(t = \\sqrt{x}\\) to get \\(\\frac{dy}{dx} = \\frac{3\\sqrt{x}}{2}\\). Is this correct? Justify.",
+     "a": "The expression \\(\\frac{dy}{dx} = \\frac{3t}{2}\\) is correct in terms of \\(t\\). Substituting \\(t = \\sqrt{x}\\) is valid only for \\(t \\ge 0\\) (since \\(x = t^2\\) implies \\(t = \\pm\\sqrt{x}\\)). The derivative in terms of \\(x\\) should be \\(\\frac{dy}{dx} = \\frac{3}{2}\\sqrt{x}\\) for \\(t>0\\) and \\(\\frac{dy}{dx} = -\\frac{3}{2}\\sqrt{x}\\) for \\(t<0\\). The student's answer ignores the negative branch, showing a lack of attention to the domain of the parameter and the non-one-to-one nature of \\(x = t^2\\).",
+     "self_check": true
+    },
+    {
+     "q": "Create a set of parametric equations \\(x = f(t), y = g(t)\\) such that \\(\\frac{dy}{dx} = t^2\\). Verify your answer.",
+     "a": "One simple choice: let \\(\\frac{dx}{dt} = 1\\) so \\(x = t\\), and \\(\\frac{dy}{dt} = t^2\\) so \\(y = \\frac{t^3}{3}\\). Then \\(\\frac{dy}{dx} = \\frac{t^2}{1} = t^2\\). A good answer shows the reverse-engineering process. A poor answer gives parametric equations that produce a different derivative or fails to verify, indicating the student cannot work backwards from the derivative to the parametric form.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

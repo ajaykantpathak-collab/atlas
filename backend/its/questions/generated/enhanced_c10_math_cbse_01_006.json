@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_01_006",
+   "title": "c10_math_cbse_01_006",
+   "questions": [
+    {
+     "q": "State the exact assumption we make at the beginning of the proof that √2 is irrational by contradiction.",
+     "a": "We assume √2 is rational, i.e., √2 = a/b where a and b are integers, b ≠ 0, and HCF(a, b) = 1 (the fraction is in lowest terms). A wrong answer (e.g., \"assume √2 = a/b\" without lowest terms) reveals the student misses the crucial condition that a and b are coprime, without which the contradiction cannot be reached.",
+     "self_check": true
+    },
+    {
+     "q": "In the proof, after we deduce a² = 2b², we conclude \"a is even\". Explain why this step is valid, referencing a specific theorem from Class 10 Real Numbers.",
+     "a": "Since a² = 2b², a² is divisible by 2. By the theorem \"If a prime p divides a² then p divides a\" (with p=2), we conclude 2 divides a, so a is even. A wrong answer (e.g., \"because a² is even\") without citing the theorem shows the student relies on a pattern rather than the rigorous prime divisibility property, which is required for full marks in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Let √2 = a/b. Then 2 = a²/b² ⇒ a² = 2b². So a² is even, therefore a is even. Let a = 2k. Then 4k² = 2b² ⇒ b² = 2k². So b is even. Contradiction. Hence √2 is irrational.\" Identify the missing step that would lose a mark in the CBSE board exam.",
+     "a": "The student did not state that a and b are coprime (HCF(a,b)=1) at the start. Without this, the fact that both are even does not contradict the assumption — they could have a common factor 2. The correct proof must begin: \"Assume √2 = a/b where a,b are integers, b≠0, and HCF(a,b)=1.\" Missing this step loses 1 mark in the 3-mark proof question.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the proof for √2 with a hypothetical proof for √4. At which step does the proof for √4 break down, and why?",
+     "a": "For √4, assume √4 = a/b in lowest terms ⇒ 4 = a²/b² ⇒ a² = 4b². Then a² is divisible by 4, but this does NOT imply a is divisible by 4 (e.g., a=2 gives a²=4). The step \"a² is even ⇒ a is even\" works for prime 2, but \"a² is divisible by 4 ⇒ a is divisible by 4\" is false. The proof breaks because 4 is not prime; the theorem used requires a prime divisor. A wrong answer indicates the student does not understand the role of primality in the theorem.",
+     "self_check": true
+    },
+    {
+     "q": "A classmate claims: \"The proof shows √2 is irrational because we found a contradiction. But what if we didn't reduce the fraction to lowest terms? Would the proof still work?\" Evaluate this claim.",
+     "a": "No, the proof would fail. If we don't assume HCF(a,b)=1, then a and b could both be even without contradiction — they would just have a common factor 2. The contradiction arises specifically because we assumed the fraction was in lowest terms (no common factors), but deduced they share factor 2. The claim reveals a misunderstanding of the logical structure: contradiction requires an explicit initial condition that is later violated.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a new proof by contradiction to show that √2 cannot be written as a fraction with an odd denominator. (Hint: Use the fact that if a² is even, a is even.)",
+     "a": "Assume √2 = a/b with b odd and HCF(a,b)=1. Then a² = 2b². Since b is odd, b² is odd, so 2b² is even but not divisible by 4 (odd × 2 = 2 mod 4). Thus a² ≡ 2 (mod 4). But squares modulo 4 are only 0 or 1 — contradiction. Hence no such representation exists. A poor answer (e.g., just repeating the standard proof) shows inability to adapt the method to a variant constraint.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

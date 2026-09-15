@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch01_005",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch01_005",
+   "title": "c7_geo_ch01_005",
+   "questions": [
+    {
+     "q": "Which three major river systems are primarily responsible for the formation and nourishment of the Northern Plains of India?",
+     "a": "The Indus, Ganga, and Brahmaputra river systems. A student who answers incorrectly—such as naming southern rivers like the Godavari or Krishna—confuses Peninsular river basins with the Himalayan river systems that specifically created the Northern Plains.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the soil in the Northern Plains is exceptionally fertile compared to the rocky soil found high up in the Himalayan mountains.",
+     "a": "As rivers flow down from the Himalayas, they erode rock and carry down fine mineral-rich particles called alluvium. When the rivers slow down upon reaching the flat plains, they spread out and deposit these nutrient-rich sediments across the land year after year. A student who thinks the fertility comes only from volcanic activity misunderstands the alluvial deposition process unique to river plains.",
+     "self_check": true
+    },
+    {
+     "q": "If a river flowing from the Himalayas drops 1,200 meters of elevation over a horizontal distance of 300 kilometers into the northern plains, what is the average drop in elevation per kilometer of horizontal distance?",
+     "a": "Steps: \n1. Identify total elevation drop = 1,200 meters.\n2. Identify total horizontal distance = 300 kilometers.\n3. Divide total elevation drop by total distance: 1,200 meters / 300 km = 4 meters per kilometer.\n4. Interpret the result: The gradient drops by an average of 4 meters for every kilometer traveled, showing a gradual flattening compared to steep mountain slopes. \nA student who multiplies instead of dividing or misinterpreting the units fails to grasp how river gradients are calculated.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the geographic relationship between the physical flatness of the Northern Plains and the density of population and transport networks found there compared to the Himalayan region.",
+     "a": "The physical flatness of the Northern Plains allows for easy construction of roads, railway tracks, and buildings, while deep alluvial soil supports intensive farming to feed large populations. In contrast, the steep slopes and rugged terrain of the Himalayas make large-scale transport networks and dense urbanization difficult and costly. A student who believes population density is higher in mountains than plains misses how landforms directly dictate human settlement patterns and infrastructure development.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim that intensive tube-well irrigation and heavy fertilizer use in the Punjab and Haryana sectors of the Northern Plains are completely sustainable practices for the long-term future.",
+     "a": "This claim is false because while these practices currently maximize crop yields, continuous heavy pumping of groundwater has caused water tables to drop drastically, and excess chemical fertilizers lead to soil degradation and water pollution. A student who argues it is sustainable purely because crop production is currently high ignores the long-term depletion of natural resources and environmental degradation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a regional land-use plan for a newly formed flood-prone tract within the Brahmaputra plain section of the Northern Plains, balancing agriculture, human habitation, and flood management.",
+     "a": "A successful plan must designate low-lying seasonal floodplains for natural wetlands and forestry to absorb excess water, restrict permanent residential housing to elevated embankments or raised ground, and allocate fertile silt-deposited lands further inland for flood-tolerant seasonal crops like paddy rice. A poor plan would place dense residential colonies directly in active river channels without drainage or flood barriers, showing a lack of understanding of river dynamics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch6_6",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch6_6",
+   "title": "c8_physics_ch6_6",
+   "questions": [
+    {
+     "q": "What are the two principal rays used to draw a ray diagram for a convex mirror, and how does each ray behave after reflection?",
+     "a": "Ray 1: Incident parallel to the principal axis; after reflection, it diverges as if coming from the principal focus (F) behind the mirror. Ray 2: Incident directed towards the centre of curvature (C) behind the mirror; after reflection, it retraces its path back along the same line. A wrong answer (e.g., saying Ray 2 passes through F after reflection) reveals confusion with concave mirror rules or misunderstanding that C and F are virtual points behind a convex mirror.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a convex mirror always form a virtual image regardless of where the object is placed in front of it?",
+     "a": "Because the reflected rays from a convex mirror always diverge (spread out) in front of the mirror; they never actually meet in front. The image is formed by extending these diverging rays backwards behind the mirror where they appear to intersect. A wrong answer (e.g., \"the image forms on the mirror surface\") reveals the student thinks reflection creates images on the mirror itself, not understanding that virtual images are formed by the apparent intersection of extended rays behind the mirror.",
+     "self_check": true
+    },
+    {
+     "q": "An object of height 4 cm is placed 20 cm in front of a convex mirror of focal length 15 cm. Using a scale of 1 cm = 5 cm, draw the ray diagram and measure the image distance and image height. (You may describe the steps and expected measurements.)",
+     "a": "Steps: 1) Draw principal axis, mirror (curved outward), mark P. 2) Scale: 1 cm = 5 cm. Focal length 15 cm → F at 3 cm behind P. C at 6 cm behind P (since R=2f). Object distance 20 cm → 4 cm in front of P. Object height 4 cm → 0.8 cm arrow. 3) Draw Ray 1 from object tip parallel to axis, reflect as if from F (extend dashed line behind). 4) Draw Ray 2 from object tip towards C behind mirror, reflect back on itself. 5) Extend both reflected rays backwards; they intersect at image tip behind mirror. Measure: image distance ≈ 1.7 cm on diagram → 8.5 cm behind mirror. Image height ≈ 0.34 cm on diagram → 1.7 cm. Image is virtual, erect, diminished. A wrong measurement (e.g., image in front of mirror) reveals incorrect ray direction or not extending rays backwards.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ray diagrams for a convex mirror and a concave mirror when the object is placed at infinity. How do the image positions and natures differ?",
+     "a": "For convex mirror: Rays from infinity are parallel; after reflection they appear to diverge from F behind the mirror → virtual image at F, erect, highly diminished. For concave mirror: Parallel rays converge at F in front of the mirror → real image at F, inverted, highly diminished. A wrong answer (e.g., both form real images at F) reveals the student does not grasp that convex mirrors cause divergence while concave mirrors cause convergence.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a ray diagram for a convex mirror with the object between P and infinity. They show the image formed between P and F, but they draw the image inverted. Evaluate this diagram and identify the error.",
+     "a": "The error is drawing the image inverted. For a convex mirror, the image is always erect (upright) because the two principal rays, when extended backwards, intersect above the principal axis if the object is above it. The student likely confused the ray behaviour with a concave mirror where images can be inverted. The correct diagram must show an erect image.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a convex mirror (like a shiny metal spoon's back), a candle, and a screen to demonstrate that a convex mirror cannot form a real image on a screen. Describe the procedure and expected observation.",
+     "a": "Procedure: Place a lit candle in front of the convex mirror (spoon back). Hold a white screen (paper) at various positions in front of the mirror (where reflected rays go) and behind the mirror. Observe if a sharp image forms on the screen. Expected: No sharp image forms on the screen at any position in front of the mirror because rays diverge. Behind the mirror, you cannot place a screen because the mirror is opaque. This proves the image is virtual. A poor answer (e.g., \"put screen behind mirror and see image\") reveals misunderstanding that virtual images cannot be captured on a screen.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

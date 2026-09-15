@@ -1,0 +1,392 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 207,
+ "chapter_title": "Life in the Deserts",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache\\gess207.txt",
+ "concepts": [
+  {
+   "id": "gess.207.1",
+   "title": "Definition and Classification of Deserts",
+   "section": "Desert Definition",
+   "definition": "Arid landmasses defined by negligible precipitation, sparse plant cover, and extreme thermal conditions, divided into hot and cold categories.",
+   "formula": "desert_type = hot_or_cold",
+   "key_idea": "Deserts are categorized as hot or cold based on prevailing ambient thermal extremes.",
+   "textbook_ref": "gess207.txt lines 10-30",
+   "question_patterns": [
+    "In Class 7 geography: what is a desert and how is it classified?",
+    "Define an arid desert region and list its key characteristics.",
+    "How are global deserts classified into hot and cold categories?",
+    "Describe the primary ecological traits that define a desert biome.",
+    "Explain why deserts experience sparse plant cover and extreme weather."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify primary physical traits of desert regions",
+     "explain": "Deserts feature minimal precipitation, scarce plant life, and extreme temperatures."
+    },
+    {
+     "step": 2,
+     "action": "Classify based on thermal regime",
+     "explain": "High ambient thermal zones form hot deserts, whereas sub-zero high-altitude regions form cold deserts."
+    }
+   ]
+  },
+  {
+   "id": "gess.207.2",
+   "title": "Sahara Desert Area Comparison",
+   "section": "The Hot Desert - Sahara",
+   "definition": "Evaluating the expanse of the world's largest hot desert relative to landmasses using arithmetic subtraction of surface areas.",
+   "formula": "area_difference = sahara_area - india_area",
+   "key_idea": "Subtract smaller geographic area from larger geographic area to quantify territorial difference.",
+   "textbook_ref": "gess207.txt lines 31-50",
+   "question_patterns": [
+    "In Class 7 geography: calculate the difference between Sahara desert area and India land area",
+    "Find how much larger Sahara desert is compared to India given their surface areas",
+    "Compute the area difference between two geographical regions with areas sahara_area and india_area",
+    "What is the surface area margin between Sahara desert and another landmass?",
+    "Calculate the excess geographical coverage of the Sahara desert over a country."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract smaller area from larger area",
+     "explain": "Find difference in surface area measured in million square kilometers.",
+     "compute": "area_difference = sahara_area - india_area"
+    }
+   ]
+  },
+  {
+   "id": "gess.207.3",
+   "title": "Sahara Desert Climate Characteristics",
+   "section": "Climate",
+   "definition": "Atmospheric condition of intense day heating and severe night cooling driven by unclouded skies and rapid thermal radiation.",
+   "formula": "diurnal_range = max_day_temp - min_night_temp",
+   "key_idea": "Cloudless skies allow massive day-night temperature swings in scorching hot deserts.",
+   "textbook_ref": "gess207.txt lines 51-75",
+   "question_patterns": [
+    "In Class 7 climate studies: describe the atmospheric features of the Sahara desert.",
+    "Why does the Sahara experience soaring day temperatures and cold nights?",
+    "Explain the diurnal temperature variation recorded in the Sahara region.",
+    "What climatic factors lead to rapid moisture evaporation in hot deserts?",
+    "Discuss the weather pattern and seasonal rainfall in the Sahara desert."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze diurnal temperature variation",
+     "explain": "Cloudless skies allow bare rocks and sand to heat up to 50 degrees Celsius by day and radiate rapidly at night."
+    },
+    {
+     "step": 2,
+     "action": "Examine humidity and precipitation",
+     "explain": "Moisture evaporates faster than precipitation accumulates, resulting in extreme aridity."
+    }
+   ]
+  },
+  {
+   "id": "gess.207.4",
+   "title": "Sahara Desert Flora, Fauna, and Oases",
+   "section": "Flora and Fauna",
+   "definition": "Survival of xerophytic vegetation like cacti alongside settlements surrounding fertile groundwater depressions known as oases.",
+   "formula": "oasis = wind_eroded_water_depression",
+   "key_idea": "Wind depressions exposing subterranean water form fertile oases for date palms and humans.",
+   "textbook_ref": "gess207.txt lines 76-100",
+   "question_patterns": [
+    "In Class 7 geography: what plants and animals thrive in the Sahara desert?",
+    "How are oases formed in hot deserts and what vegetation surrounds them?",
+    "Describe the ecological role of date palms and cacti in desert biomes.",
+    "Identify key wildlife species that inhabit the Saharan landscape.",
+    "Explain how wind erosion forms depressions that create fertile oases."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify drought-adapted plant species",
+     "explain": "Cactus, date palms, and acacia survive extreme aridity."
+    },
+    {
+     "step": 2,
+     "action": "Explain oasis formation",
+     "explain": "Wind erosion creates depressions where exposed underground water enables cultivation and settlement."
+    }
+   ]
+  },
+  {
+   "id": "gess.207.5",
+   "title": "Nomadic Communities and Modern Transformation in Sahara",
+   "section": "People",
+   "definition": "Traditional livestock herding by Bedouins and Tuaregs adapting to industrial changes brought by oil and mineral extractions.",
+   "formula": "economy_shift = pastoral_herding + extractive_industries",
+   "key_idea": "Hydrocarbon extractions and infrastructure growth are modernizing ancient nomadic ways of life.",
+   "textbook_ref": "gess207.txt lines 101-135",
+   "question_patterns": [
+    "In Class 7 social science: describe the nomadic lifestyle of Bedouins and Tuaregs.",
+    "How has the discovery of oil transformed life in the Sahara region?",
+    "What products do nomadic tribes obtain from livestock in hot deserts?",
+    "Explain the cultural shift from camel caravans to modern transportation in North Africa.",
+    "Which major minerals are extracted from the Saharan desert region?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine nomadic pastoralism",
+     "explain": "Bedouins and Tuaregs rear livestock for milk, hides, and wool while wearing heavy protective robes."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate modernization drivers",
+     "explain": "Oil discoveries in Algeria, Libya, and Egypt along with mining bring industrial jobs and urban infrastructure."
+    }
+   ]
+  },
+  {
+   "id": "gess.207.6",
+   "title": "Ladakh Geographic Altitude Range",
+   "section": "The Cold Desert - Ladakh",
+   "definition": "Determining the vertical elevation span between valley bottoms and high mountain peaks in the Himalayan cold desert.",
+   "formula": "alt_range = max_altitude - min_altitude",
+   "key_idea": "Subtract minimum relief height from maximum peak elevation to find the altitude range.",
+   "textbook_ref": "gess207.txt lines 136-160",
+   "question_patterns": [
+    "In Class 7 geography: calculate the altitude variation range in Ladakh.",
+    "Find the difference between highest and lowest elevations in Ladakh given max_altitude and min_altitude.",
+    "Compute the vertical relief span of the Ladakh cold desert region.",
+    "What is the difference between peak altitude and valley elevation in Kargil and Karakoram?",
+    "Calculate the elevation difference across the Himalayan cold desert landscape."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract lower elevation from upper elevation",
+     "explain": "The vertical range is determined by subtracting minimum valley height from peak mountain height.",
+     "compute": "alt_range = max_altitude - min_altitude"
+    }
+   ]
+  },
+  {
+   "id": "gess.207.7",
+   "title": "Ladakh Extreme Cold Desert Climate",
+   "section": "Climate",
+   "definition": "High-altitude environmental conditions causing rarefied air, extreme solar thermal intensity, and severe sub-zero winter temperatures.",
+   "formula": "precipitation = minimal_rain_shadow_level",
+   "key_idea": "Himalayan rain shadow isolation produces dry, frigid conditions with high solar radiation.",
+   "textbook_ref": "gess207.txt lines 161-190",
+   "question_patterns": [
+    "In Class 7 atmospheric studies: describe the climate of Ladakh cold desert.",
+    "Why does Ladakh experience extremely low rainfall and freezing winds?",
+    "Explain the phenomenon of simultaneous sunstroke and frostbite in cold deserts.",
+    "How does the Himalayan rain shadow effect influence Ladakh weather?",
+    "What are the seasonal temperature extremes in summer and winter in Ladakh?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze atmospheric thinness and solar radiation",
+     "explain": "Thin mountain air causes sharp temperature contrast between direct sunlight and shaded areas."
+    },
+    {
+     "step": 2,
+     "action": "Assess rain shadow precipitation deficit",
+     "explain": "Enclosure by high mountain ranges produces under 10 cm of annual rainfall."
+    }
+   ]
+  },
+  {
+   "id": "gess.207.8",
+   "title": "Ladakh Flora, Fauna, and Wildlife Adaptations",
+   "section": "Flora and Fauna",
+   "definition": "Valley orchards of poplars and fruit trees coexisting with cold-adapted livestock and endangered wild species like Chiru.",
+   "formula": "wool_yield = shahtoosh_or_pashmina",
+   "key_idea": "Thick coats and specialized wool enable fauna to survive severe high-altitude cold.",
+   "textbook_ref": "gess207.txt lines 191-220",
+   "question_patterns": [
+    "In Class 7 ecology: identify the wild animals and plant species found in Ladakh.",
+    "Why is the Chiru or Tibetan antelope hunted and why is it endangered?",
+    "What agricultural fruit trees bloom in Ladakh valleys during summer?",
+    "Describe how yaks and wild sheep are utilized by local communities in Ladakh.",
+    "Which common migratory birds and trees are characteristic of the cold desert?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Catalog cold-adapted flora and fauna",
+     "explain": "Willows, poplars, apples, and walnuts grow in valleys; yaks, wild goats, and migratory birds inhabit slopes."
+    },
+    {
+     "step": 2,
+     "action": "Identify economic and conservation traits",
+     "explain": "Yak milk yields butter and cheese; Chiru wool (shahtoosh) leads to endangerment due to overhunting."
+    }
+   ]
+  },
+  {
+   "id": "gess.207.9",
+   "title": "Ladakhi Culture, Monasteries, and Economic Activities",
+   "section": "People",
+   "definition": "Community lifestyle centered around Buddhist gompas, short summer cultivation, winter social ceremonies, and eco-tourism.",
+   "formula": "sustainable_living = resource_conservation + seasonal_activity",
+   "key_idea": "Ladakhis practice extreme resource reverence and sustain culture through monastery traditions and seasonal work.",
+   "textbook_ref": "gess207.txt lines 221-260",
+   "question_patterns": [
+    "In Class 7 social science: describe the cultural life and monasteries in Ladakh.",
+    "What are gompas and which famous Buddhist monasteries dot the Ladakhi landscape?",
+    "How do Ladakhi people adapt their activities between summer and winter seasons?",
+    "What major factors attract national and international tourists to Ladakh?",
+    "Explain how resource scarcity shapes the conservation ethos of Ladakhi society."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine cultural landmarks and seasonal work",
+     "explain": "Monasteries like Hemis, Thiksey, Shey, and Lamayuru host ceremonies; summer brings crop farming and winter brings festivals."
+    },
+    {
+     "step": 2,
+     "action": "Assess sustainable practices and tourism",
+     "explain": "Highway connections enable tourism while local traditions emphasize zero waste and environmental harmony."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "gess207.txt lines 31-45",
+   "concept": "gess.207.2",
+   "question_type": "compute",
+   "question_pattern": "Sahara desert covers an area of {sahara_area} million sq km while India covers {india_area} million sq km. Calculate how much larger Sahara desert is than India.",
+   "extracted_variables": {
+    "sahara_area": 8.54,
+    "india_area": 3.28
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract smaller area from larger area",
+     "explain": "Find difference in surface area measured in million square kilometers.",
+     "compute": "area_difference = sahara_area - india_area"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gess207.txt lines 31-45",
+   "concept": "gess.207.2",
+   "question_type": "compute",
+   "question_pattern": "Compute the difference in surface area between a desert of area {sahara_area} million sq km and a country of area {india_area} million sq km.",
+   "extracted_variables": {
+    "sahara_area": 9.1,
+    "india_area": 3.28
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract smaller area from larger area",
+     "explain": "Find difference in surface area measured in million square kilometers.",
+     "compute": "area_difference = sahara_area - india_area"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "gess207.txt lines 150-160",
+   "concept": "gess.207.6",
+   "question_type": "compute",
+   "question_pattern": "In Ladakh, the elevation ranges from {min_altitude} meters in Kargil to {max_altitude} meters in the Karakoram range. Calculate the altitude range.",
+   "extracted_variables": {
+    "max_altitude": 8000,
+    "min_altitude": 3000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract lower elevation from upper elevation",
+     "explain": "The vertical range is determined by subtracting minimum valley height from peak mountain height.",
+     "compute": "alt_range = max_altitude - min_altitude"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "gess207.txt lines 150-160",
+   "concept": "gess.207.6",
+   "question_type": "compute",
+   "question_pattern": "Calculate the difference in height between a mountain peak at {max_altitude} meters and a valley at {min_altitude} meters.",
+   "extracted_variables": {
+    "max_altitude": 7500,
+    "min_altitude": 3100
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract lower elevation from upper elevation",
+     "explain": "The vertical range is determined by subtracting minimum valley height from peak mountain height.",
+     "compute": "alt_range = max_altitude - min_altitude"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "gess207.txt lines 261-270",
+   "questions": [
+    "State clearly what deserts means in this chapter and why it matters.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about continent.",
+    "State clearly what conditions means in this chapter and why it matters.",
+    "State clearly what attracts means in this chapter and why it matters.",
+    "State clearly what clothes means in this chapter and why it matters.",
+    "Name ladakh and characterise it briefly in your own words."
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "gess207.txt lines 271-290",
+   "questions": [
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about northern.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about desert.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about christians.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about characterised.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about monastery.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about growing."
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "gess207.txt lines 291-300",
+   "questions": [
+    "Match the following: (i) Oasis -> depressions with water, (ii) Bedouins -> Sahara, (iii) Oil -> Libya, (iv) Gangri -> glacier, (v) Lamayuru -> monastery"
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "gess207.txt lines 301-305",
+   "questions": [
+    "Give reasons: There is scanty vegetation in the deserts.",
+    "Give reasons: People of the Sahara desert wear heavy robes."
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "gess207.txt lines 306-312",
+   "questions": [
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about countries.",
+    "Attempt this end-of-chapter task in your own words and support your answer with reasoning about karakoram."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

@@ -1,0 +1,574 @@
+{
+ "catalog": "catalog_class12_maths_lemh204.json",
+ "concepts": [
+  {
+   "id": "lemh.204.10.2.1",
+   "title": "Scalars, Vectors and Position Vectors",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "combine components with the vector formula",
+     "explain": "combine components with the vector formula: mag = sqrt(5 * 5 + -3 * -3 + 4 * 4) gives 7.07107",
+     "compute": "mag = sqrt(5 * 5 + -3 * -3 + 4 * 4)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the magnitude of the vector 5i + -3j + 4k (two decimal places).",
+     "a": "7.07",
+     "self_check": false
+    },
+    {
+     "q": "Find the dot product of (1, -3, -4) and (2, 4, -4).",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Vectors a = (1, -3, -4) and b = (2, 4, -4) have dot product 6. Find cos of the angle between them, dot / (|a||b|), with the magnitudes rounded inside the chain (two decimal places).",
+     "a": "0.2",
+     "self_check": false
+    },
+    {
+     "q": "Find the projection of a = (1, -3, -4) on b = (2, 0, 0).",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Find the components of the vector from P(2, -2, -3) to Q(3, 1, 1) and report the x-component.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Find the magnitude of the cross product of (1, -3, -4) and (2, 4, -4) by computing all three components first (two decimal places).",
+     "a": "30",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.204.10.2.2",
+   "title": "Magnitude of a Position Vector",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the magnitude of the vector -3i + -5j + 6k (two decimal places).",
+     "a": "8.37",
+     "self_check": false
+    },
+    {
+     "q": "Find the dot product of (-4, 5, 2) and (-1, 5, 2).",
+     "a": "33",
+     "self_check": false
+    },
+    {
+     "q": "Vectors a = (-4, 5, 2) and b = (-1, 5, 2) have dot product 33. Find cos of the angle between them, dot / (|a||b|), with the magnitudes rounded inside the chain (two decimal places).",
+     "a": "0.9",
+     "self_check": false
+    },
+    {
+     "q": "Find the projection of a = (-4, 5, 2) on b = (-1, 0, 0).",
+     "a": "-4",
+     "self_check": false
+    },
+    {
+     "q": "Find the components of the vector from P(4, 4, 0) to Q(5, 2, -1) and report the x-component.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Find the magnitude of the cross product of (-4, 5, 2) and (-1, 5, 2) by computing all three components first (two decimal places).",
+     "a": "16.16",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.204.10.3.1",
+   "title": "Types of Vectors",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "combine components with the vector formula",
+     "explain": "combine components with the vector formula: mag = sqrt(0 * 0 + -4 * -4 + 1 * 1) gives 4.12311",
+     "compute": "mag = sqrt(0 * 0 + -4 * -4 + 1 * 1)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the magnitude of the vector 0i + -4j + 1k (two decimal places).",
+     "a": "4.12",
+     "self_check": false
+    },
+    {
+     "q": "Find the dot product of (-5, 1, 5) and (-4, 0, 4).",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "Vectors a = (-5, 1, 5) and b = (-4, 0, 4) have dot product 40. Find cos of the angle between them, dot / (|a||b|), with the magnitudes rounded inside the chain (two decimal places).",
+     "a": "0.99",
+     "self_check": false
+    },
+    {
+     "q": "Find the projection of a = (-5, 1, 5) on b = (-4, 0, 0).",
+     "a": "-5",
+     "self_check": false
+    },
+    {
+     "q": "Find the components of the vector from P(-2, 4, -1) to Q(-5, -3, -5) and report the x-component.",
+     "a": "-3",
+     "self_check": false
+    },
+    {
+     "q": "Find the magnitude of the cross product of (-5, 1, 5) and (-4, 0, 4) by computing all three components first (two decimal places).",
+     "a": "5.66",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.204.10.4.1",
+   "title": "Addition of Vectors by Triangle and Parallelogram Laws",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 10 gives 80",
+     "compute": "other = 90 - 10"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 10 degrees, find the other.",
+     "a": "80",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 111 degrees, find the other.",
+     "a": "69",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 72 degrees; find the other.",
+     "a": "108",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 139 degrees and 150 degrees, find the remaining angle.",
+     "a": "71",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 58 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "122",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 62 degrees. Find its co-interior partner.",
+     "a": "118",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.204.10.5.1.1",
+   "title": "Components of a Vector Along the Coordinate Axes",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the coordinate-geometry formula",
+     "explain": "apply the coordinate-geometry formula: dx = 9 - -3 gives 12",
+     "compute": "dx = 9 - -3"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the coordinate-geometry formula: dy = 11 - -5 gives 16",
+     "compute": "dy = 11 - -5"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 20",
+     "compute": "dist = sqrt(dx * dx + dy * dy)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the distance between the points (-3, -5) and (9, 11).",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance of the point (-4, -8) from the origin.",
+     "a": "8.94",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the midpoint of the segment joining (-8, 3) and (1, 4).",
+     "a": "-3.5",
+     "self_check": false
+    },
+    {
+     "q": "Point P divides the segment joining (0, 0) and (3, 0) internally in the ratio 1 : 2. Find the x-coordinate of P.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of the triangle with vertices (3, 3), (-6, 5) and (2, 0) (two decimal places).",
+     "a": "14.5",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the centroid of the triangle with vertices (3, 5), (-1, -3) and (-4, -2).",
+     "a": "-0.666667",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.204.10.5.2.1",
+   "title": "Vector Joining Two Points",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "combine components with the vector formula",
+     "explain": "combine components with the vector formula: mag = sqrt(4 * 4 + -6 * -6 + 5 * 5) gives 8.77496",
+     "compute": "mag = sqrt(4 * 4 + -6 * -6 + 5 * 5)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the magnitude of the vector 4i + -6j + 5k (two decimal places).",
+     "a": "8.77",
+     "self_check": false
+    },
+    {
+     "q": "Find the dot product of (4, 6, 1) and (3, 5, 4).",
+     "a": "46",
+     "self_check": false
+    },
+    {
+     "q": "Vectors a = (4, 6, 1) and b = (3, 5, 4) have dot product 46. Find cos of the angle between them, dot / (|a||b|), with the magnitudes rounded inside the chain (two decimal places).",
+     "a": "0.89",
+     "self_check": false
+    },
+    {
+     "q": "Find the projection of a = (4, 6, 1) on b = (3, 0, 0).",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the components of the vector from P(1, 0, -3) to Q(-3, -2, -4) and report the x-component.",
+     "a": "-4",
+     "self_check": false
+    },
+    {
+     "q": "Find the magnitude of the cross product of (4, 6, 1) and (3, 5, 4) by computing all three components first (two decimal places).",
+     "a": "23.11",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.204.10.5.2.2",
+   "title": "Distance Between Two Points via Vector Length",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the distance between the points (1, -3) and (11, 21).",
+     "a": "26",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance of the point (-6, 5) from the origin.",
+     "a": "7.81",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the midpoint of the segment joining (8, -4) and (11, 7).",
+     "a": "9.5",
+     "self_check": false
+    },
+    {
+     "q": "Point P divides the segment joining (0, 0) and (9, 0) internally in the ratio 4 : 5. Find the x-coordinate of P.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of the triangle with vertices (2, -4), (5, 1) and (0, 0) (two decimal places).",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the centroid of the triangle with vertices (4, -2), (2, -3) and (-2, -4).",
+     "a": "1.33333",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.204.10.5.3.1",
+   "title": "Section Formula for the Division of a Segment",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the coordinate-geometry formula",
+     "explain": "apply the coordinate-geometry formula: dx = 8 - -2 gives 10",
+     "compute": "dx = 8 - -2"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the coordinate-geometry formula: dy = 16 - -8 gives 24",
+     "compute": "dy = 16 - -8"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 26",
+     "compute": "dist = sqrt(dx * dx + dy * dy)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Find the distance between the points (-2, -8) and (8, 16).",
+     "a": "26",
+     "self_check": false
+    },
+    {
+     "q": "Find the distance of the point (-6, 4) from the origin.",
+     "a": "7.21",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the midpoint of the segment joining (-3, -6) and (0, 4).",
+     "a": "-1.5",
+     "self_check": false
+    },
+    {
+     "q": "Point P divides the segment joining (0, 0) and (3, 0) internally in the ratio 1 : 2. Find the x-coordinate of P.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Find the area of the triangle with vertices (3, 3), (-6, 4) and (0, 0) (two decimal places).",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "Find the x-coordinate of the centroid of the triangle with vertices (1, 2), (0, -4) and (-2, 5).",
+     "a": "-0.333333",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.204.10.6.1.1",
+   "title": "Scalar Product and Perpendicularity",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 25 gives 65",
+     "compute": "other = 90 - 25"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 25 degrees, find the other.",
+     "a": "65",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 118 degrees, find the other.",
+     "a": "62",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 59 degrees; find the other.",
+     "a": "121",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 148 degrees and 75 degrees, find the remaining angle.",
+     "a": "137",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 37 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "143",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 41 degrees. Find its co-interior partner.",
+     "a": "139",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.204.10.6.1.2",
+   "title": "Cosine of the Angle Between Two Vectors",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 23 degrees, find the other.",
+     "a": "67",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 134 degrees, find the other.",
+     "a": "46",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 24 degrees; find the other.",
+     "a": "156",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 65 degrees and 267 degrees, find the remaining angle.",
+     "a": "28",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 67 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "113",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 32 degrees. Find its co-interior partner.",
+     "a": "148",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.204.10.6.2.1",
+   "title": "Projection of a Vector on Another Vector",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the magnitude of the vector 5i + 0j + 5k (two decimal places).",
+     "a": "7.07",
+     "self_check": false
+    },
+    {
+     "q": "Find the dot product of (-3, 6, -4) and (2, -3, 5).",
+     "a": "-44",
+     "self_check": false
+    },
+    {
+     "q": "Vectors a = (-3, 6, -4) and b = (2, -3, 5) have dot product -44. Find cos of the angle between them, dot / (|a||b|), with the magnitudes rounded inside the chain (two decimal places).",
+     "a": "-0.91",
+     "self_check": false
+    },
+    {
+     "q": "Find the projection of a = (-3, 6, -4) on b = (2, 0, 0).",
+     "a": "-3",
+     "self_check": false
+    },
+    {
+     "q": "Find the components of the vector from P(5, -1, -3) to Q(4, -1, -5) and report the x-component.",
+     "a": "-1",
+     "self_check": false
+    },
+    {
+     "q": "Find the magnitude of the cross product of (-3, 6, -4) and (2, -3, 5) by computing all three components first (two decimal places).",
+     "a": "19.54",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.204.10.6.3.1",
+   "title": "Cross Product and Vectors Perpendicular to Both",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 38 gives 52",
+     "compute": "other = 90 - 38"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Two angles are complementary. If one angle is 38 degrees, find the other.",
+     "a": "52",
+     "self_check": false
+    },
+    {
+     "q": "Two angles form a linear pair. If one angle is 122 degrees, find the other.",
+     "a": "58",
+     "self_check": false
+    },
+    {
+     "q": "Two angles on a straight line add to 180 degrees. One of them is 21 degrees; find the other.",
+     "a": "159",
+     "self_check": false
+    },
+    {
+     "q": "Angles around a point total 360 degrees. If two of them are 120 degrees and 28 degrees, find the remaining angle.",
+     "a": "212",
+     "self_check": false
+    },
+    {
+     "q": "Two lines intersect. One of the vertically opposite angle pairs is 21 degrees; the angle adjacent to it on the straight line is what?",
+     "a": "159",
+     "self_check": false
+    },
+    {
+     "q": "A transversal cuts two parallel lines. A co-interior angle on one side is 110 degrees. Find its co-interior partner.",
+     "a": "70",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lemh.204.10.6.3.2",
+   "title": "Areas of a Parallelogram and a Triangle via the Cross Product",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the area of a parallelogram with base 5 cm and height 18 cm.",
+     "a": "90",
+     "self_check": false
+    },
+    {
+     "q": "The diagonals of a rhombus are 12 cm and 28 cm. Find its area.",
+     "a": "168",
+     "self_check": false
+    },
+    {
+     "q": "The parallel sides of a trapezium are 9 cm and 24 cm and the distance between them is 14 cm. Find the area.",
+     "a": "231",
+     "self_check": false
+    },
+    {
+     "q": "A quadrilateral has diagonal 10 cm and the perpendiculars on it from opposite vertices are 6 cm and 6 cm. Find the area.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "A triangle and a parallelogram stand on the same base. The triangle's area equals the parallelogram's; the triangle has base 12 cm and height 6 cm. Find the parallelogram's height if its base is 24 cm.",
+     "a": "1.5",
+     "self_check": false
+    },
+    {
+     "q": "A rhombus-shaped field has base 6 m and height 4 m. Find its area.",
+     "a": "24",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

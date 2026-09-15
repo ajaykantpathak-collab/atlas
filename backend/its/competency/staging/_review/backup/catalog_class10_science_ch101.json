@@ -1,0 +1,400 @@
+{
+ "class": 10,
+ "subject": "science",
+ "chapter": 101,
+ "chapter_title": "Chemical Reactions and Equations",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/jesc101.txt",
+ "concepts": [
+  {
+   "id": "jesc.101.1",
+   "title": "Chemical Equation Representation",
+   "section": "1.1",
+   "definition": "A symbolic method of describing a chemical reaction using the reactants' both formulas and products involved.",
+   "formula": "Reactants -> Products",
+   "key_idea": "In brief, In brief, In brief, In brief, Reactants are indeed written on the both left and products on the right, separated by an arrow showing the reaction direction.",
+   "textbook_ref": "jesc101.txt lines 60-95",
+   "question_patterns": [
+    "how to represent a chemical reaction",
+    "what are reactants and products in an equation",
+    "write the word equation for magnesium burning",
+    "identify the LHS and RHS of a chemical equation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify reactants",
+     "explain": "List the substances that undergo change on the left side."
+    },
+    {
+     "step": 2,
+     "action": "identify products",
+     "explain": "List the new substances formed on the right side."
+    },
+    {
+     "step": 3,
+     "action": "place arrow",
+     "explain": "Draw an arrow pointing from reactants to products to indicate the transformation."
+    }
+   ]
+  },
+  {
+   "id": "jesc.101.2",
+   "title": "Balanced Chemical Equation",
+   "section": "1.1.2",
+   "definition": "An equation where the total number of atoms for each element is identical on both the both both both both both both both both both both both both both both both both both both both both both both both both reactant and product sides.",
+   "formula": "sum(atoms_reactant_i) = sum(atoms_product_i)",
+   "key_idea": "In brief, In brief, In brief, In brief, Mass is indeed conserved in a chemical reaction; atoms are neither created nor destroyed.",
+   "textbook_ref": "jesc101.txt lines 105-125",
+   "question_patterns": [
+    "why must chemical equations be balanced",
+    "balance the following skeletal equation",
+    "state the law of conservation of mass in reactions",
+    "check if the equation is balanced"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count atoms",
+     "explain": "List the number of atoms of each element on both sides of the arrow."
+    },
+    {
+     "step": 2,
+     "action": "apply coefficients",
+     "explain": "Add whole number multipliers in front of formulas to equalize atom counts."
+    },
+    {
+     "step": 3,
+     "action": "verify balance",
+     "explain": "Recount all atoms to ensure LHS equals RHS for every element."
+    }
+   ]
+  },
+  {
+   "id": "jesc.101.3",
+   "title": "Combination Reaction",
+   "section": "1.2.1",
+   "definition": "A chemical process where two or more distinct substances merge to produce a single new compound.",
+   "formula": "A + B -> AB",
+   "key_idea": "Multiple starting materials result in exactly one product.",
+   "textbook_ref": "jesc101.txt lines 215-235",
+   "question_patterns": [
+    "define a combination reaction",
+    "what happens when quick lime reacts with water",
+    "give an example of a combination reaction",
+    "identify the type of reaction: C + O2 -> CO2"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check reactants",
+     "explain": "Identify if there are two or more reactant species."
+    },
+    {
+     "step": 2,
+     "action": "check products",
+     "explain": "Confirm if only one single product species is formed."
+    }
+   ]
+  },
+  {
+   "id": "jesc.101.4",
+   "title": "Exothermic Reaction",
+   "section": "1.2.1",
+   "definition": "Reactions that release energy, typically as heat, into their surroundings during product formation.",
+   "formula": "Reactants -> Products + Heat",
+   "key_idea": "In brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, in brief, In brief, the reaction's temperature mixture increases as energy is evolved.",
+   "textbook_ref": "jesc101.txt lines 240-265",
+   "question_patterns": [
+    "what is an exothermic reaction",
+    "why is respiration considered exothermic",
+    "is the burning of natural gas exothermic",
+    "identify reactions that release heat"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "observe temperature",
+     "explain": "Check if the container or surroundings get warmer during the reaction."
+    },
+    {
+     "step": 2,
+     "action": "identify energy release",
+     "explain": "Determine if energy is listed as a product in the chemical equation."
+    }
+   ]
+  },
+  {
+   "id": "jesc.101.5",
+   "title": "Decomposition Reaction",
+   "section": "1.2.2",
+   "definition": "In brief, In brief, In brief, a reaction where a single reactant breaks down into two or more simpler products, often requiring energy.",
+   "formula": "AB -> A + B",
+   "key_idea": "One complex substance splits into multiple simpler substances.",
+   "textbook_ref": "jesc101.txt lines 270-300",
+   "question_patterns": [
+    "define a decomposition reaction",
+    "what is thermal decomposition",
+    "describe the electrolysis of water",
+    "what happens when lead nitrate is heated"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check reactants",
+     "explain": "Verify that there is only one reactant species."
+    },
+    {
+     "step": 2,
+     "action": "check products",
+     "explain": "Confirm that two or more product species are generated."
+    }
+   ]
+  },
+  {
+   "id": "jesc.101.6",
+   "title": "Displacement Reaction",
+   "section": "1.2.3",
+   "definition": "In brief, In brief, a reaction where a more reactive element takes the place of a less reactive element within its compound.",
+   "formula": "A + BC -> AC + B",
+   "key_idea": "A more active metal displaces a less active metal from its salt solution.",
+   "textbook_ref": "jesc101.txt lines 380-410",
+   "question_patterns": [
+    "what is a displacement reaction",
+    "why does iron displace copper from copper sulphate",
+    "predict the product of Zn + CuSO4",
+    "explain the change in color when iron nails are dipped in CuSO4"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compare reactivity",
+     "explain": "Determine if the free element is more reactive than the element in the compound."
+    },
+    {
+     "step": 2,
+     "action": "exchange elements",
+     "explain": "Replace the less reactive element in the compound with the more reactive one."
+    }
+   ]
+  },
+  {
+   "id": "jesc.101.7",
+   "title": "Double Displacement Reaction",
+   "section": "1.2.4",
+   "definition": "A chemical reaction where two compounds react by exchanging their ionic components to form two new compounds.",
+   "formula": "AB + CD -> AD + CB",
+   "key_idea": "In brief, In brief, In brief, In brief, Mutual exchange of ions between reactants.",
+   "textbook_ref": "jesc101.txt lines 420-445",
+   "question_patterns": [
+    "define double displacement reaction",
+    "what happens when sodium sulphate reacts with barium chloride",
+    "identify the exchange of ions in a reaction",
+    "give an example of ion exchange between two salts"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify ions",
+     "explain": "Break the reactant compounds into their constituent cations and anions."
+    },
+    {
+     "step": 2,
+     "action": "swap partners",
+     "explain": "Pair the cation of the first reactant with the anion of the second, and vice versa."
+    }
+   ]
+  },
+  {
+   "id": "jesc.101.8",
+   "title": "Precipitation Reaction",
+   "section": "1.2.4",
+   "definition": "In brief, In brief, In brief, In brief, any chemical reaction that gives the formation of an insoluble solid (precipitate) from liquid solutions.",
+   "formula": "Soluble_A + Soluble_B -> Insoluble_C(s) + Soluble_D",
+   "key_idea": "In brief, In brief, In brief, In brief, Formation of a solid that separates from the solution.",
+   "textbook_ref": "jesc101.txt lines 430-440",
+   "question_patterns": [
+    "what is a precipitate",
+    "define a precipitation reaction",
+    "identify the precipitate in the reaction of BaCl2 and Na2SO4",
+    "how is an insoluble salt formed in a reaction"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify products",
+     "explain": "Check the physical states of the products formed."
+    },
+    {
+     "step": 2,
+     "action": "locate solid",
+     "explain": "Identify the product marked with (s) or described as insoluble."
+    }
+   ]
+  },
+  {
+   "id": "jesc.101.9",
+   "title": "Redox Reactions",
+   "section": "1.2.5",
+   "definition": "Reactions involving the simultaneous transfer of oxygen or hydrogen, where one substance is oxidised and another is reduced.",
+   "formula": "Oxidation + Reduction = Redox",
+   "key_idea": "In brief, Oxidation is gaining oxygen/losing hydrogen; Reduction is losing oxygen/gaining hydrogen.",
+   "textbook_ref": "jesc101.txt lines 460-500",
+   "question_patterns": [
+    "what is a redox reaction",
+    "identify the substance oxidised and reduced",
+    "define oxidation in terms of oxygen gain",
+    "explain reduction with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "track oxygen/hydrogen",
+     "explain": "Observe which reactant gains or loses oxygen/hydrogen atoms."
+    },
+    {
+     "step": 2,
+     "action": "assign labels",
+     "explain": "Label the substance gaining oxygen as oxidised and the one losing it as reduced."
+    }
+   ]
+  },
+  {
+   "id": "jesc.101.10",
+   "title": "Corrosion",
+   "section": "1.3.1",
+   "definition": "The process by which metals are slowly eaten away by the action of air, moisture, or chemicals on their surface.",
+   "formula": "Metal + Oxygen + Moisture -> Metal Oxide/Hydroxide",
+   "key_idea": "In brief, Surface degradation of metals (e.g., rusting of iron).",
+   "textbook_ref": "jesc101.txt lines 515-535",
+   "question_patterns": [
+    "what is corrosion",
+    "why do iron articles rust",
+    "give examples of corrosion in copper and silver",
+    "how does moisture affect metal surfaces"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify metal",
+     "explain": "Determine the metal exposed to the environment."
+    },
+    {
+     "step": 2,
+     "action": "identify agents",
+     "explain": "Check for the presence of oxygen, water, or acids."
+    }
+   ]
+  },
+  {
+   "id": "jesc.101.11",
+   "title": "Rancidity",
+   "section": "1.3.2",
+   "definition": "The oxidation of fats and oils in food items, resulting in a change in both both both both both both both both both both both both both both both both both both both both both both both both smell and taste.",
+   "formula": "Fats/Oils + Oxygen -> Oxidised Products (Rancid)",
+   "key_idea": "Food spoilage due to oxidation of oily components.",
+   "textbook_ref": "jesc101.txt lines 540-555",
+   "question_patterns": [
+    "what is rancidity",
+    "why are chips bags flushed with nitrogen",
+    "how can rancidity be prevented",
+    "what happens when oil is left for a long time"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify food type",
+     "explain": "Check if the food contains fats or oils."
+    },
+    {
+     "step": 2,
+     "action": "check for oxidation",
+     "explain": "Determine if the food has been exposed to air for a long period."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "jesc101.txt Activity 1.1",
+   "concept": "jesc.101.3",
+   "question_type": "observation",
+   "question_pattern": "What is observed when a {substance} ribbon is burnt in air?",
+   "extracted_variables": {
+    "substance": "magnesium"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "identify reaction",
+     "explain": "Magnesium reacts with oxygen in the air."
+    },
+    {
+     "step": 2,
+     "action": "describe observation",
+     "explain": "It burns with a dazzling white flame and forms a white powder (magnesium oxide)."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "jesc101.txt Activity 1.9",
+   "concept": "jesc.101.6",
+   "question_type": "displacement",
+   "question_pattern": "Why does the blue color of {solution} fade when {metal} is added?",
+   "extracted_variables": {
+    "solution": "copper sulphate",
+    "metal": "iron nails"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compare reactivity",
+     "explain": "Iron is more reactive than copper."
+    },
+    {
+     "step": 2,
+     "action": "write reaction",
+     "explain": "Fe + CuSO4 -> FeSO4 + Cu. Iron displaces copper, changing the solution color."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1.1",
+   "source_ref": "jesc101.txt Exercises Q1",
+   "questions": [
+    "Which statements about the reaction 2PbO + C -> 2Pb + CO2 are incorrect?"
+   ]
+  },
+  {
+   "id": "ex1.5",
+   "source_ref": "jesc101.txt Exercises Q5",
+   "questions": [
+    "Translate and balance: Hydrogen gas combines with nitrogen to form ammonia.",
+    "Translate and balance: Hydrogen sulphide gas burns in air to give water and sulphur dioxide."
+   ]
+  },
+  {
+   "id": "ex1.10",
+   "source_ref": "jesc101.txt Exercises Q10",
+   "questions": [
+    "Why is respiration considered an exothermic reaction?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch3_8",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch3_8",
+   "title": "c9_bio_ch3_8",
+   "questions": [
+    {
+     "q": "Name the primary sex organs (gonads) in male and female vertebrates and state the type of gamete each produces.",
+     "a": "Male gonad: testis (produces sperm/male gamete). Female gonad: ovary (produces ovum/egg/female gamete). A wrong answer (e.g., \"testis produces testosterone\" or \"ovary produces estrogen\") reveals the student confuses endocrine function with primary reproductive function - they recall hormone names from adolescence lessons (c6_biology_ch06_006) but not the gametogenic role of gonads.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why sperm are produced continuously in large numbers throughout adult life in males, while ova are produced in limited numbers with a fixed reserve established before birth in females.",
+     "a": "Spermatogenesis is continuous from puberty because each meiotic division produces four functional sperm, and males need to maximize fertilization chances in competitive scenarios. Oogenesis is discontinuous - meiosis begins in fetal ovaries but arrests at prophase I until puberty, then one ovum completes meiosis per cycle; the fixed reserve reflects high energetic investment per ovum (cytoplasm, nutrients) and the certainty of internal fertilization/gestation in females. A wrong answer focusing only on \"males produce more because they can\" misses the cytological basis (equal vs unequal cytokinesis in meiosis) and evolutionary reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "A male mammal has a blockage in both vas deferentia (sperm ducts). Predict which components of semen will be absent and which will still be present, and explain the effect on fertility.",
+     "a": "Absent: sperm (produced in testes, transported via vas deferens). Present: seminal fluid from seminal vesicles, prostate fluid, bulbourethral gland secretions (these glands empty into urethra directly or via ejaculatory ducts distal to blockage). Fertility: zero - no sperm reach the female tract. This tests application of duct system anatomy and glandular contributions. A wrong answer stating \"no semen at all\" reveals confusion between sperm and seminal fluid, or ignorance of accessory gland duct connections.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the path of a sperm from production to fertilization site with the path of an ovum from production to fertilization site in a typical mammal. Identify two structural adaptations in each path that facilitate gamete transport.",
+     "a": "Sperm path: seminiferous tubules → rete testis → epididymis (maturation/storage) → vas deferens (peristalsis) → ejaculatory duct → urethra → deposited in vagina → swim through cervix → uterus → fallopian tube (site of fertilization). Adaptations: epididymal stereocilia (absorption/fluid regulation), vas deferens thick muscular wall (peristalsis). Ovum path: ovarian follicle → ovulation into peritoneal cavity → fimbriae of fallopian tube (ciliary current) → fallopian tube (ciliary beating + peristalsis) → fertilization in ampulla. Adaptations: fimbrial cilia (capture), tubal cilia + muscular wall (transport). A wrong answer placing fertilization in uterus or ignoring fimbrial capture reveals confusion with human-specific details or plant pollination analogies.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Since both sperm and ovum are haploid cells produced by meiosis, they are structurally and functionally equivalent except for size.\" Justify your evaluation with three specific differences.",
+     "a": "The statement is false. Three differences: (1) Size/cytoplasm: ovum ~100µm with abundant cytoplasm, yolk, organelles, mRNA; sperm ~50µm total (mostly tail), minimal cytoplasm. (2) Motility: sperm has flagellum for active swimming; ovum is non-motile, transported passively. (3) Chromosome content: both haploid but sperm carries either X or Y sex chromosome (determining offspring sex); ovum always carries X. (4) Metabolic activity: sperm relies on glycolysis/mitochondria in midpiece for ATP; ovum has stored nutrients for early embryonic development. A wrong answer listing only size difference misses the functional specialization for fertilization and early development.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple observational experiment using easily available materials (no microscope) to demonstrate that fertilization in birds is internal, while in most fish it is external. Describe what you would observe and how it proves the fertilization type.",
+     "a": "Observe a hen mating with a rooster (cloacal kiss) then laying eggs over days - eggs are fertilized before shell formation, developing embryo visible when candled. Compare with observing fish (e.g., aquarium zebrafish or local pond fish during monsoon breeding): female releases eggs into water, male releases milt over them - fertilization occurs in water, eggs are transparent showing cell divisions externally. Key observation: bird eggs are laid with hard shells after internal fertilization; fish eggs are soft, gelatinous, fertilized in water. A poor answer describing only \"birds lay eggs, fish lay eggs\" without linking to site of sperm-egg fusion reveals inability to distinguish ovipary from fertilization mode.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

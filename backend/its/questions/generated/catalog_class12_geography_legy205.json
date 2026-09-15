@@ -1,0 +1,53 @@
+{
+  "catalog": "catalog_class12_geography_legy205",
+  "concepts": [
+    {
+      "id": "legy.205.1",
+      "questions": [
+        {"q": "Over what per cent of India's coal reserves lie in the Damodar, Sone, Mahanadi and Godavari valleys? (give the per cent)", "a": "97"},
+        {"q": "If 97 per cent of coal lies in four valleys, what per cent lies elsewhere? (give the per cent)", "a": "3"},
+        {"q": "In which valley, famous for the Jharia field, is coal most concentrated? (one word)", "a": "Damodar"},
+        {"q": "Metallic minerals like iron and bauxite occur mainly in which plateau's old crystalline rocks? (one word)", "a": "peninsular"},
+        {"q": "How many coal-bearing valleys are named in the text? (number)", "a": "4"},
+        {"q": "Which non-metallic fuel mineral comes from the same old rocks of the peninsula? (one word)", "a": "coal"},
+        {"q": "Is India's mineral geography concentrated or evenly spread? (one word)", "a": "concentrated"}
+      ]
+    },
+    {
+      "id": "legy.205.2",
+      "questions": [
+        {"q": "Which ferrous mineral is the backbone of the steel industry? (two words)", "a": "iron ore"},
+        {"q": "Which ferrous mineral, besides iron ore, manganese and chromite, completes the list? (one word)", "a": "nickel"},
+        {"q": "Which light metal used in aircraft is a non-ferrous mineral? (one word)", "a": "bauxite"},
+        {"q": "Which non-ferrous mineral feeds the electrical industry as wiring metal? (one word)", "a": "copper"},
+        {"q": "Which soft non-metallic mineral was once vital to the electrical industry? (one word)", "a": "mica"},
+        {"q": "Which non-metallic mineral, the raw material of cement, is mined in volume? (one word)", "a": "limestone"},
+        {"q": "Ferrous minerals all contain which metal element? (one word)", "a": "iron"}
+      ]
+    },
+    {
+      "id": "legy.205.3",
+      "questions": [
+        {"q": "Coal, petroleum, natural gas and hydel power are which kind of energy sources? (one word)", "a": "conventional"},
+        {"q": "Solar, wind and tidal power are which kind of energy sources? (two words)", "a": "non-conventional"},
+        {"q": "Which conventional source fires most of India's thermal power stations? (one word)", "a": "coal"},
+        {"q": "Which non-conventional source uses photovoltaic cells? (one word)", "a": "solar"},
+        {"q": "Biogas plants convert which farm material into fuel? (one word)", "a": "dung"},
+        {"q": "Are non-conventional sources renewable or exhaustible? (one word)", "a": "renewable"},
+        {"q": "Why does India push non-conventional energy: to cut import dependence or to raise imports? (short phrase)", "a": "cut import dependence"}
+      ]
+    },
+    {
+      "id": "legy.205.4",
+      "questions": [
+        {"q": "Are minerals reproducible or non-reproducible resources? (one word)", "a": "non-reproducible"},
+        {"q": "Reprocessing used metal to save ore is called what? (one word)", "a": "recycling"},
+        {"q": "Which conservation measure substitutes scarce minerals with abundant materials? (one word)", "a": "substitution"},
+        {"q": "Planned what, with modern technology, conserves minerals in the ground? (one word)", "a": "extraction"},
+        {"q": "Which transport choice conserves energy in cities: mass transit or private cars? (two words)", "a": "mass transit"},
+        {"q": "Standards for machines and buildings that cut power use are called efficiency what? (two words)", "a": "efficiency standards"},
+        {"q": "Energy conservation reduces wastage, imports and what atmospheric problem? (one word)", "a": "pollution"}
+      ]
+    }
+  ]
+}

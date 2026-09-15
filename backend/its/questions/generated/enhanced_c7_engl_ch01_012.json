@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_engl_ch01_012",
+ "concepts": [
+  {
+   "id": "enh:c7_engl_ch01_012",
+   "title": "c7_engl_ch01_012",
+   "questions": [
+    {
+     "q": "What term describes the pattern of rhymes at the end of each line in a poem, usually represented by letters like A, B, C?",
+     "a": "The correct term is \"rhyme scheme.\" A wrong answer often confuses this with \"stanza structure\" (which refers to how lines are grouped) or \"meter\" (the rhythm of the words), showing the student hasn't mastered basic poetic terminology.",
+     "self_check": true
+    },
+    {
+     "q": "Read this four-line stanza: \n\"The morning sun begins to rise (A)\nAnd paints the waking earth with gold (B)\nBeneath the wide and open skies (A)\nA tale of hope is quickly told (B)\"\nWhat is the rhyme scheme of this stanza?",
+     "a": "The rhyme scheme is ABAB because line 1 (\"rise\") rhymes with line 3 (\"skies\") as 'A', and line 2 (\"gold\") rhymes with line 4 (\"told\") as 'B'. A student who answers AABB is confusing alternating rhyme with couplets, failing to trace the alternating pattern correctly.",
+     "self_check": true
+    },
+    {
+     "q": "If a four-line stanza has the ending words \"tree\" (line 1), \"free\" (line 2), \"night\" (line 3), and \"light\" (line 4), how should you label its rhyme scheme using letters?",
+     "a": "Steps: 1. Label the end word of line 1 (\"tree\") as A. 2. Compare line 2 end word (\"free\") to A; it rhymes, so label it A. 3. Compare line 3 end word (\"night\") to A; it does not rhyme, so give it a new letter, B. 4. Compare line 4 end word (\"light\") to line 3; it rhymes with \"night\", so label it B. Result: AABB. A wrong answer like ABAB shows the student cannot distinguish between rhyming couplets (consecutive lines) and alternating lines.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two stanzas: Stanza 1 has an AABB rhyme scheme (lines 1-2 rhyme, 3-4 rhyme), while Stanza 2 has an ABAB rhyme scheme (lines 1-3 rhyme, 2-4 rhyme). How does changing from AABB to ABAB alter the musical pacing when read aloud?",
+     "a": "An AABB scheme creates a paired, march-like rhythm with quick, definite closures every two lines, whereas ABAB creates an interwoven, flowing rhythm where the suspense is held longer before the rhyme resolves on alternate lines. A wrong answer treats both schemes as identical in sound, missing how line-interleaving affects auditory pacing and poetic mood.",
+     "self_check": true
+    },
+    {
+     "q": "A critic claims that a poem with an ABAB rhyme scheme is always more serious and emotional than a poem with an AABB rhyme scheme. Do you agree with this statement based on stanza structure principles? Explain your judgment.",
+     "a": "I disagree. While ABAB can create a flowing, lyrical mood, AABB is frequently used in both lighthearted nursery rhymes and dramatic narrative poems (like King Bruce). The emotional tone depends on word choice, imagery, and theme, not strictly whether the rhyme scheme is couplet-based or alternating. A wrong answer blindly accepts the claim without evaluating how other literary devices shape tone.",
+     "self_check": true
+    },
+    {
+     "q": "Write your own original four-line stanza about a river's journey through a village, using an ABAB rhyme scheme, and label the rhyme at the end of each line.",
+     "a": "An acceptable response must contain four lines with an alternating ABAB rhyme scheme (e.g., Line 1 ending in \"stream\" [A], Line 2 ending in \"stone\" [B], Line 3 ending in \"gleam\" [A], Line 4 ending in \"bone/alone\" [B]) describing a river. A poor answer has no clear rhyme pattern or lacks the required four-line stanza structure, showing a failure to apply structural constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_08_008",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_08_008",
+   "title": "c12_cs_cbse_08_008",
+   "questions": [
+    {
+     "q": "What are the two essential components of a node in a singly linked list?",
+     "a": "A node in a singly linked list contains (1) a data field to store the value and (2) a next pointer/reference field to store the address of the next node. A wrong answer (e.g., \"data and previous pointer\") reveals confusion with doubly linked lists or misunderstanding that singly linked lists only have forward links.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a linked list does not support direct/random access like an array, using the concept of memory layout.",
+     "a": "In an array, elements are stored in contiguous memory locations, so the address of the i-th element can be calculated as base_address + i * element_size, enabling O(1) access. In a linked list, nodes are scattered in memory; each node's address is known only by traversing from the head via next pointers, making access O(n). A wrong answer (e.g., \"linked lists are slower because of pointers\") shows lack of understanding of the contiguous vs non-contiguous memory distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python class `Node` for a singly linked list that initializes with a given data value and sets the next pointer to `None`. Then create three nodes with data 10, 20, 30 and link them in order so that `head` points to the first node.",
+     "a": "```python\nclass Node:\n    def __init__(self, data):\n        self.data = data\n        self.next = None\n\nhead = Node(10)\nsecond = Node(20)\nthird = Node(30)\nhead.next = second\nsecond.next = third\n```\nA wrong answer (e.g., forgetting to set `next = None` in `__init__`, or linking in wrong order) reveals misunderstanding of node initialization or pointer assignment.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the time complexity of inserting a new element at the beginning of a singly linked list versus at the beginning of a Python list (dynamic array). Justify your answer.",
+     "a": "Insertion at the beginning of a singly linked list is O(1): create a new node, set its `next` to current `head`, update `head` to new node. In a Python list, `insert(0, value)` is O(n) because all existing elements must be shifted right by one index. A wrong answer (e.g., \"both are O(1)\") shows ignorance of array shifting cost.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"A circular linked list is just a singly linked list where the last node's next pointer points to the first node. Therefore, it has no advantage over a singly linked list with a tail pointer.\" Evaluate this claim.",
+     "a": "The claim is false. A circular linked list allows traversal from any node to reach all nodes (useful in round-robin scheduling, multiplayer games). With only a tail pointer in a singly linked list, you can reach head in O(1) but cannot traverse backwards or cycle continuously without extra logic. A circular list naturally models cyclic processes. A wrong evaluation (agreeing with the student) shows inability to identify use-case differences.",
+     "self_check": true
+    },
+    {
+     "q": "Design a node structure for a doubly linked list that can also store the node's position index (1-based) as an extra field. Write the Python class and explain how this design helps in a specific real-world scenario (e.g., a music playlist with current track highlight).",
+     "a": "```python\nclass DLLNode:\n    def __init__(self, data, index):\n        self.data = data\n        self.index = index\n        self.prev = None\n        self.next = None\n```\nIn a music playlist, each node stores song data, its playlist position (index), and prev/next links. When the current song plays, its node's index can be displayed instantly without traversal. Updating indices on insertion/deletion requires O(n) but enables O(1) position display. A poor answer (e.g., missing prev/next, or not explaining the scenario) shows inability to extend the basic node concept to application needs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_biotech_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c12_biotech_cbse_05_005",
+   "title": "c12_biotech_cbse_05_005",
+   "questions": [
+    {
+     "q": "State the five official goals of the Human Genome Project as defined at its inception in 1990.",
+     "a": "The five goals were: (1) Identify all ~20,000–25,000 genes in human DNA, (2) Determine the sequences of the 3 billion chemical base pairs, (3) Store this information in databases, (4) Improve tools for data analysis, (5) Address ethical, legal, and social issues (ELSI). A wrong answer that omits ELSI or database storage reveals the student sees HGP as only a sequencing project, ignoring its bioinformatics and societal dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the discovery that humans have only ~20,000 protein-coding genes (far fewer than the predicted 100,000) was a major conceptual shift.",
+     "a": "The low gene count forced a paradigm shift from \"one gene → one protein\" to understanding that alternative splicing, post-translational modifications, and regulatory non-coding RNAs generate proteomic complexity from a limited gene set. A student who says \"we have fewer genes so we are less complex\" misses the point: complexity arises from regulation and combinatorics, not gene number alone.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher finds a single nucleotide polymorphism (SNP) in a non-coding region associated with Type 2 diabetes in a GWAS. Using HGP-derived resources, outline the steps to hypothesize a functional mechanism for this SNP.",
+     "a": "Step 1: Use the reference genome (HGP product) to locate the SNP's genomic coordinates. Step 2: Check ENCODE/Roadmap epigenomics data (built on HGP framework) for chromatin marks (e.g., H3K27ac) indicating enhancer activity. Step 3: Use chromatin conformation capture (Hi-C) data to see if the region loops to a promoter of a diabetes-relevant gene. Step 4: Validate by CRISPR editing the SNP in a cell line and measuring target gene expression. A wrong answer that jumps to \"the SNP changes an amino acid\" reveals confusion between coding and regulatory variants.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the hierarchical shotgun sequencing strategy used by the public HGP consortium with the whole-genome shotgun approach used by Celera Genomics. Which strategy produced a more accurate initial assembly and why?",
+     "a": "The hierarchical shotgun (clone-by-clone) approach produced a more accurate initial assembly because it used physical maps (BAC contigs) to order and orient sequences, reducing misassembly in repetitive regions. Celera's whole-genome shotgun was faster but struggled with repeats and segmental duplications. A student claiming Celera was more accurate confuses speed with assembly quality.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The Human Genome Project is complete, so we now fully understand human genetics.\" Provide three specific reasons why this is false.",
+     "a": "1) The reference genome is a mosaic of a few individuals and lacks population diversity (addressed later by 1000 Genomes, gnomAD). 2) Functional annotation of non-coding regions, structural variants, and epigenetic marks is ongoing (ENCODE, GTEx). 3) Genotype-phenotype mapping for complex traits requires integration of environment, microbiome, and epigenetics — not just DNA sequence. A student who agrees with the statement conflates \"sequencing finished\" with \"biological interpretation finished.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-year research project proposal (title, one specific aim, one methodology) that uses HGP-derived resources to address an unsolved problem in Indian population health.",
+     "a": "Example: Title: \"Population-specific pharmacogenomics of anti-tubercular drugs in tribal communities of Central India.\" Specific Aim: Identify novel loss-of-function variants in NAT2 and CYP2E1 affecting isoniazid metabolism. Methodology: Whole-genome sequencing of 500 tribal individuals → variant calling against GRCh38 (HGP reference) → imputation using Indian-specific reference panel (e.g., IndiGen) → functional validation in hepatocyte organoids. A poor proposal would use only European reference panels or ignore structural variants, showing failure to apply HGP lessons about population diversity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

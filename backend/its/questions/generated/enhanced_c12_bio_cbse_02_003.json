@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bio_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c12_bio_cbse_02_003",
+   "title": "c12_bio_cbse_02_003",
+   "questions": [
+    {
+     "q": "What is the ploidy of a microspore mother cell, a microspore, and the vegetative cell of a mature pollen grain in a typical flowering plant?",
+     "a": "Microspore mother cell: diploid (2n); microspore: haploid (n); vegetative cell: haploid (n). A wrong answer (e.g., saying microspore is diploid) reveals the student has not grasped that meiosis reduces chromosome number, or they confuse microsporogenesis with mitosis in the pollen grain later.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the tapetum (tapetal layer) become multinucleate and degenerate during microsporogenesis? What would happen if the tapetum failed to produce sporopollenin?",
+     "a": "The tapetum becomes multinucleate (via endomitosis) to increase metabolic capacity for synthesizing enzymes, nutrients, and sporopollenin. It degenerates to release these substances into the locule. Without sporopollenin, the exine wall would not form, leaving pollen grains vulnerable to desiccation, UV damage, and mechanical stress — they would likely collapse before pollination. A wrong answer (e.g., \"tapetum protects the anther\") shows confusion between structural and nutritive functions.",
+     "self_check": true
+    },
+    {
+     "q": "A student observes a transverse section of an anther and sees groups of four microspores arranged in a tetrahedral tetrad inside a microsporangium. Which meiotic division has just been completed? What will happen to these microspores next?",
+     "a": "Meiosis II has just been completed (producing four haploid microspores). Next, the callose wall around the tetrad dissolves (via callase from tapetum), releasing individual microspores. Each microspore then undergoes asymmetric mitosis (pollen mitosis I) to form a large vegetative cell and a smaller generative cell. A wrong answer (e.g., \"meiosis I just finished\") indicates the student cannot distinguish tetrad formation (end of meiosis II) from dyad formation (end of meiosis I).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the number of functional haploid products produced per mother cell in microsporogenesis versus megasporogenesis. Explain the biological significance of this difference.",
+     "a": "Microsporogenesis: one microspore mother cell → 4 functional microspores (all survive). Megasporogenesis: one megaspore mother cell → 4 megaspores, but 3 degenerate, only 1 functional megaspore survives. Significance: Males produce many pollen grains to increase chances of reaching a stigma (high dispersal risk); females invest heavily in one large, nutrient-rich megaspore/embryo sac because the ovule is protected and resources are limited. A wrong answer (e.g., \"both produce 4 functional cells\") shows failure to understand asymmetric resource allocation in gametogenesis.",
+     "self_check": true
+    },
+    {
+     "q": "In a species where pollen is shed at the 2-celled stage, the generative cell divides during pollen tube growth. In another species, pollen is shed at the 3-celled stage. Evaluate which strategy might be advantageous in (a) a wind-pollinated plant with long pollen tube growth distance, and (b) an insect-pollinated plant with short style.",
+     "a": "(a) 2-celled pollen advantageous: generative cell division occurs during tube growth, allowing time for DNA repair and reducing metabolic load during dispersal; wind-pollinated pollen often travels far and must remain viable longer. (b) 3-celled pollen advantageous: male gametes are pre-formed, enabling rapid fertilization upon landing — critical for short styles where competition is high. A wrong answer (e.g., \"3-celled is always better\") ignores trade-offs between speed and longevity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple staining experiment using acetocarmine or DAPI to distinguish between 2-celled and 3-celled pollen grains in a flower species of your choice. What would you observe in each case?",
+     "a": "Collect mature anthers, squash in acetocarmine (stains nuclei red) or DAPI (fluorescent DNA stain). Observe under microscope. 2-celled pollen: two distinct nuclei (large vegetative, small generative). 3-celled pollen: three nuclei (vegetative + two sperm nuclei). A poor answer (e.g., \"count cells\") fails because pollen grains are single cells; the distinction is nuclear, not cellular. This tests understanding that pollen mitosis is nuclear division without cytokinesis initially.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

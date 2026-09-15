@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_10_005",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_10_005",
+   "title": "c11_geo_cbse_10_005",
+   "questions": [
+    {
+     "q": "A meteorological station records the following annual data: coldest month mean temperature = 16.5°C, driest month rainfall = 45 mm, annual rainfall = 1120 mm. Using Köppen's criteria, what is the *first* (major group) and *second* (precipitation) letter code for this station?",
+     "a": "Correct answer: First letter = C (temperate/mesothermal, coldest month between -3°C and 18°C); Second letter = w (winter dry, driest month in winter < 60 mm). A wrong answer of \"A\" for the first letter reveals the student incorrectly assumes any \"hot\" Indian station is tropical, ignoring the 18°C coldest-month threshold. A wrong second letter \"s\" or \"f\" shows confusion about which season is dry — they must locate the driest month in the annual cycle first.",
+     "self_check": true
+    },
+    {
+     "q": "Two stations, Station X (15°N, 75°E) and Station Y (27°N, 88°E), both have annual rainfall ~2500 mm. Station X has a distinct dry month in January (12 mm); Station Y has no month below 100 mm. Explain why Station X is classified **Am** while Station Y is **Af**, even though both are tropical.",
+     "a": "Correct explanation: Köppen's tropical group (A) requires *all* months ≥ 18°C (both satisfy). The second letter distinguishes precipitation seasonality: **Am** (monsoon) has a short dry season but *not* enough to qualify as Aw (driest month < 60 mm but annual rainfall > 25 × (100 - % dry months) — a specific formula); **Af** (rainforest) has no dry month (all months ≥ 60 mm). Station X's January 12 mm triggers \"m\"; Station Y's year-round ≥ 100 mm yields \"f\". A student answering \"both are Am because India has monsoon\" misses the quantitative threshold — they are applying a regional generalization instead of the rule.",
+     "self_check": true
+    },
+    {
+     "q": "Given the climatic data for Station P (lat. 34°N, alt. 1600 m): Jan temp = -1.2°C, Jul temp = 18.5°C, annual precip = 980 mm, driest month (Nov) = 22 mm. Classify this station fully (three-letter code) showing each decision step.",
+     "a": "Step 1: Coldest month (Jan) = -1.2°C → between -3°C and 18°C → **First letter = D** (cold/snow climate, not C). Step 2: Driest month (Nov) = 22 mm < 60 mm → dry season exists. Check if summer-dry (s) or winter-dry (w): Nov is in winter half-year (Oct-Mar) → **Second letter = w**. Step 3: Warmest month (Jul) = 18.5°C. For D climates, third letter: **a** if warmest month ≥ 22°C, **b** if 10–22°C, **c** if 1–10°C, **d** if < 1°C. Here 18.5°C → **Third letter = b**. Final code: **Dwb** (Cold, winter-dry, warm summer). A student answering \"Cwb\" forgot the -3°C lower bound for C climates — a common error when altitude cools winters below the temperate threshold.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Köppen types **BSh** (Subtropical Steppe) and **BWh** (Subtropical Desert) as they appear in India. Using the defining formulas, explain why Jaisalmer (BWh) and Nagpur (Aw) are *not* the same type, even though both are hot and dry for much of the year.",
+     "a": "BSh vs BWh distinction: Both have first letter **B** (arid: annual precip < threshold P_th = 20 × (T_ann + 14) for 70% winter rain, etc.). Second letter **S** (steppe) vs **W** (desert) depends on whether annual precip is 50–100% of P_th (S) or < 50% (W). Third letter **h** means T_ann ≥ 18°C (subtropical). Jaisalmer: T_ann ≈ 26°C → P_th ≈ 20×(26+14)=800 mm; actual ~150 mm (< 50%) → **BWh**. Nagpur: T_ann ≈ 27°C → P_th ≈ 820 mm; actual ~1100 mm (> P_th) → *not arid at all* → first letter **A** (tropical), second **w** (winter dry) → **Aw**. A student equating \"hot and dry\" with \"desert\" misses the *quantitative aridity index* — they must compute P_th, not eyeball dryness.",
+     "self_check": true
+    },
+    {
+     "q": "A proposed hill-station development project in the Western Ghats (1200 m elevation) claims \"pleasant temperate climate year-round (Köppen Cwb)\". Critically evaluate this claim using the climatic thresholds for C and D climates, and the typical lapse rate effect on temperature.",
+     "a": "Evaluation: For **Cwb**, coldest month must be > -3°C and < 18°C, warmest month < 22°C (b), winter-dry (w). At 1200 m in Western Ghats, sea-level Jan temp ~25°C; lapse rate 6.5°C/km → Jan temp ≈ 25 - 7.8 = 17.2°C (within C range). But Jul sea-level ~27°C → 27 - 7.8 = 19.2°C (still < 22°C, so \"b\" holds). *However*, Western Ghats stations at this elevation (e.g., Mahabaleshwar) receive > 60 mm every month due to orographic rain → second letter **f**, not **w** → actual type **Cfb** or **Cfa**. The claim of \"winter-dry\" is false — the region has no dry month. A student accepting the claim without checking the *precipitation* threshold for \"w\" fails to apply the full decision tree; they only checked temperature.",
+     "self_check": true
+    },
+    {
+     "q": "Design a Köppen classification flowchart (decision tree) that a Class 11 student can use to classify *any* Indian station from raw monthly temperature and rainfall data. Your flowchart must have exactly 5 decision diamonds (yes/no questions) leading to the three-letter code. Draw it textually using indentation and arrows.",
+     "a": "Expected flowchart structure (textual):\n```\nSTART: Input 12 monthly T (°C) and P (mm)\n1. Is coldest month ≥ 18°C? → YES → Group A (Tropical)\n      → NO → Go to 2\n2. Is coldest month ≤ -3°C? → YES → Group D/E (Cold/Polar) → Go to 4\n      → NO → Group C (Temperate) → Go to 3\n3. (Group C) Is driest month in summer (Apr-Sep) < 40 mm? → YES → Second = s\n      → NO → Is driest month in winter (Oct-Mar) < 60 mm? → YES → Second = w\n      → NO → Second = f\n   Then: Is warmest month ≥ 22°C? → YES → Third = a → NO → Third = b\n   → OUTPUT C + second + third\n4. (Group D) Is driest month in summer < 40 mm? → YES → Second = s\n      → NO → Is driest month in winter < 60 mm? → YES → Second = w\n      → NO → Second = f\n   Then: Is warmest month ≥ 22°C? → YES → Third = a\n      → NO → Is warmest month ≥ 10°C? → YES → Third = b\n      → NO → Is warmest month > 0°C? → YES → Third = c → NO → Third = d\n   → OUTPUT D + second + third\n5. (Group A) Is driest month < 60 mm? → YES → Is annual P > 25×(100 - %dry)? → YES → Second = m → NO → Second = w\n      → NO → Second = f\n   Third letter always omitted for A (or use a/b/c for temp nuance)\n   → OUTPUT A + second\nEND\n```\nA poor answer omits the aridity threshold calculation for B climates or the 25×(100-%dry) formula for Am vs Aw — showing they memorized codes but not the *decision logic*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

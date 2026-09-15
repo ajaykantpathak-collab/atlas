@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_ar_cbse_05_012",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_ar_cbse_05_012",
+   "title": "c11_hin_ar_cbse_05_012",
+   "questions": [
+    {
+     "q": "Identify whether the following question is literal or inferential: \"What was the name of the headmaster in Eksgu's school?\" Explain your reasoning in one sentence.",
+     "a": "This is a literal question because the answer \"Phakeersingh\" (f=kyksd flag) is explicitly stated in the text when the narrator introduces him as \"ekLVj f=kyksd flag\". A wrong classification (calling it inferential) reveals the student cannot distinguish between directly stated facts and conclusions requiring reasoning — they likely treat any question about a character as \"deep\" rather than checking if the name appears verbatim in the text.",
+     "self_check": true
+    },
+    {
+     "q": "The text states: \"Eksgu did not answer. He sat with his head bowed.\" Based only on this sentence, what can you literally conclude, and what would be an inferential leap? Give one example of each.",
+     "a": "Literal conclusion: Eksgu remained silent and kept his head lowered. Inferential leap: Eksgu felt humiliated or angry — this is not in the sentence; it requires interpreting body language. A student who writes \"Eksgu was sad\" as a literal fact reveals the misconception that emotional states are directly observable in the text, when they are always inferences drawn from actions.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the two-step method (extract facts → connect) to answer this inferential question: \"Why does the author describe the headmaster's voice as 'thunderous' (gur-gur) when he calls Eksgu?\" Provide two textual facts you would combine.",
+     "a": "Fact 1: The headmaster shouts \"Eksgu! Bring water for the master!\" in a commanding tone (explicit dialogue). Fact 2: The headmaster treats Eksgu as a servant, not a student, shown when he says \"One day he will become a big officer of the city\" mockingly. Connecting these: The \"thunderous\" description reflects the headmaster's feudal authority and caste arrogance, not just volume. A student who only quotes the dialogue without the mocking context gives a literal answer to an inferential question — missing the social critique.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the difference between these two questions from the NCERT exercises: (1) \"Write a summary of the incident where Eksgu's mother sends him to the city school.\" (2) \"Eksgu's life moves between two worlds — the village and the city. What is the significance of this movement?\" Classify each and explain the cognitive demand difference.",
+     "a": "Question 1 is literal — it asks for a chronological retelling of explicitly narrated events (mother's decision, father's opposition, Eksgu's departure). Question 2 is inferential — \"significance\" is never stated; the student must synthesize the contrast between village caste oppression and city anonymity, Eksgu's internal conflict, and the cyclical return to village. A student who writes a plot summary for Question 2 reveals they cannot shift from \"what happened\" to \"what it means\" — they treat analysis as extended narration.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's answer to an inferential question: \"Why does Eksgu touch the teacher's feet at the end?\" Student writes: \"Because he respects the teacher. The teacher helped him study.\" Is this answer sufficient for a 3-mark board question? Justify.",
+     "a": "Insufficient. The answer states a surface-level inference (respect) but lacks textual evidence and misses the layered meaning: (1) Eksgu touches feet *after* the teacher's death — it's a ritual for the departed, not live gratitude; (2) The teacher (Shastriji) never directly taught him — Eksgu learned by overhearing; (3) The act contrasts with the headmaster's cruelty, symbolizing Eksgu's choice of dignity over caste submission. A student who gives this answer reveals they confuse \"plausible guess\" with \"textually grounded inference\" — they didn't anchor the inference in specific moments (Shastriji's \"I don't teach, you learn\" line, the final scene's funeral context).",
+     "self_check": true
+    },
+    {
+     "q": "Create an inferential question about the character of Gillo (the squirrel) that requires connecting at least three separate textual details. Write the question and list the three details a strong answer would combine.",
+     "a": "Question: \"How does Gillo's presence in the house reflect Eksgu's own position in the family and society?\" Three required details: (1) Gillo is a \"special kind of squirrel\" brought from the forest — displaced like Eksgu from village to city; (2) Gillo is fed by everyone but belongs to no one — \"not a pet of anyone\" mirrors Eksgu's liminal caste status; (3) Gillo's death goes unmourned by the adults — only Eksgu notices, paralleling how Eksgu's suffering is invisible to the caste hierarchy. A weak answer would describe Gillo's cuteness or actions without linking to Eksgu — revealing the student cannot map symbolic parallels across the narrative.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

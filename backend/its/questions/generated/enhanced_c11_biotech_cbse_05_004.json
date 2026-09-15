@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_05_004",
+   "title": "c11_biotech_cbse_05_004",
+   "questions": [
+    {
+     "q": "State the chromosome number and DNA content (C-value) of each daughter cell immediately after mitosis and cytokinesis in a human somatic cell that started G1 with 46 chromosomes and 2C DNA.",
+     "a": "Each daughter cell has 46 chromosomes (2n) and 2C DNA content. A wrong answer (e.g., 23 chromosomes or 4C DNA) reveals confusion between mitosis and meiosis, or misunderstanding that DNA content doubles in S phase but chromosome number only changes after anaphase separation of sister chromatids — the chromosome count returns to 2n after cytokinesis.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a plant root tip continues to grow longer throughout the plant's life, but a human finger does not keep growing after adulthood, even though both use mitosis.",
+     "a": "Plants retain apical meristems with perpetually active stem cells (G1/S cycling) at root/shoot tips, while human somatic cells mostly exit to G0 after development; growth plates (epiphyseal plates) ossify, halting longitudinal bone growth. A wrong answer focusing only on \"cell size\" or \"cell wall\" misses the stem cell niche concept and the role of G0 withdrawal (c11_biotech_cbse_05_002) in determinate vs. indeterminate growth.",
+     "self_check": true
+    },
+    {
+     "q": "A patient receives a skin graft from an identical twin. The graft survives without immunosuppression. Would the same graft survive if taken from the patient's own body (autograft) or an unrelated donor (allograft)? Justify using the genetic outcome of mitosis.",
+     "a": "Autograft: yes (identical genome). Identical twin graft: yes (mitosis produces genetically identical cells, so twin's cells match patient's). Allograft: no (different genome, immune rejection). A wrong answer claiming twin graft fails reveals misunderstanding that mitosis preserves genetic identity across all somatic cells of an individual — the twin's cells are mitotically derived from the same zygote, so they share the same alleles.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of mitosis in planarian regeneration (neoblast-driven) versus human liver regeneration (hepatocyte proliferation). Identify one similarity and one difference in the cellular source.",
+     "a": "Similarity: both rely on mitosis of somatic cells to restore tissue mass. Difference: planarians use pluripotent neoblasts (stem cells) that migrate and differentiate; humans use mature hepatocytes re-entering cell cycle from G0 (compensatory hyperplasia). A wrong answer stating both use stem cells ignores that human liver regeneration is primarily via dedifferentiation/proliferation of existing hepatocytes, not a distinct stem cell pool.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Mitosis alone is sufficient for wound healing in human skin.\" Consider the roles of cell migration, differentiation, and apoptosis.",
+     "a": "False. Mitosis provides new cells, but healing also requires: (1) migration of keratinocytes/fibroblasts across the wound (c11_biotech_cbse_05_006), (2) differentiation to rebuild stratified epidermis, and (3) apoptosis to remove excess cells and remodel scar tissue. A student who agrees overlooks that uncontrolled mitosis without migration/differentiation/apoptosis leads to hyperplasia or keloids, not organized repair.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment: If you could selectively inhibit cytokinesis but not karyokinesis in a plant root meristem, what would happen to chromosome number, cell size, and root growth over time?",
+     "a": "Cells would become multinucleate (multiple 2n nuclei in shared cytoplasm), cell size would increase, but root elongation would stall because new cell walls (cell plates) are not formed to partition cytoplasm and push the root cap forward. A poor answer focuses only on \"big cells\" without linking cytokinesis failure to the physical mechanism of plant growth (cell plate formation from c11_biotech_cbse_05_003) and the need for discrete cells to generate turgor-driven elongation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

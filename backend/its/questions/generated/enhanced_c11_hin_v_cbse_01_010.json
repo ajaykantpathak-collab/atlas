@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_v_cbse_01_010",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_v_cbse_01_010",
+   "title": "c11_hin_v_cbse_01_010",
+   "questions": [
+    {
+     "q": "What is the most reliable first step when encountering an unfamiliar key word in a senior secondary Hindi prose text?",
+     "a": "The most reliable first step is to locate all occurrences of the word in the chapter and examine the immediate syntactic environment (subject, verb, modifiers) of each occurrence. A wrong answer like \"look up the dictionary meaning first\" reveals the student treats vocabulary as static rather than context-dependent, missing how authors redefine terms for argumentative purposes.",
+     "self_check": true
+    },
+    {
+     "q": "The author uses \"Loj\" (sound) in the opening anecdote (\"Loj lqurs gh eSaus vuqHko fd;k\") and later in the technical discussion (\"Lojksa osQ ozQec¼ lewg\"). Explain how the semantic field of \"Loj\" expands from the first to the second usage.",
+     "a": "In the anecdote, \"Loj\" denotes a startling physical auditory sensation that triggers fear. In the technical discussion, it becomes a structured artistic element — the subtle phonetic building blocks of meter (\"ozQec¼ lewg\") that the painter internalizes. The expansion moves from subjective sensory event to objective aesthetic principle. A wrong answer that gives the same definition for both shows inability to track an author's conceptual refinement of a term.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"yrk dh yksdfiz;rk dk eq[; eeZ ;g ^xkuiu* gh gSA\" (The main basis of Yashodhara's creativity is this 'xkuiu'), use the surrounding paragraph to infer the precise contextual meaning of \"xkuiu\" and provide two distinct context clues that support your inference.",
+     "a": "\"xkuiu\" means a transformative aesthetic experience that fuses sensory modes and transcends ordinary pleasure. Clue 1: The author explicitly contrasts it with \"euq\";rk\" — \"oSls gh ^xkuiu* gks rks og laxhr gSA\" (whatever is 'xkuiu', that is art). Clue 2: It is linked to the painter's unique method where \"xhr osQ fdUgha nks 'kCnksa dk varj Lojksa osQ vkyki }kjk cM+h lqanj jhfr ls Hkjk jgrk gS\" (the difference between two words is bridged by sound intervals), showing \"xkuiu\" arises from synesthetic fusion. A wrong answer defining it as mere \"artistic feeling\" misses the technical contrast and cross-modal mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the author's use of \"rky\" (form) in \"fp=kiV laxhr dk rky izkFkfed voLFkk dk rky gksrk gS\" versus \"'kkL=kh; laxhr esa rky vius ifj\"Ñr :i esa ik;k tkrk gSA\". How do the modifiers \"izkFkfed voLFkk\" and \"ifj\"Ñr\" redefine \"rky\" for each art?",
+     "a": "For painting, \"rky\" modified by \"izkFkfed voLFkk\" (immediate state) means a simultaneous, spatially complete visual field apprehended in a single gaze. For literature, \"rky\" modified by \"ifj\"Ñr\" (defined/structured) means a pre-organized temporal sequence that the reader reconstructs progressively. The modifiers establish the author's core dichotomy: spatial immediacy vs. temporal mediation. A wrong answer that treats \"rky\" as identical in both ignores how adjectival qualification creates distinct ontological categories.",
+     "self_check": true
+    },
+    {
+     "q": "The author writes: \"fp=kiV laxhr us yksxksa osQ ^dku fcxkM+ fn,* ,slk vkjksi yxk;k tkrk jgk gSA\" (It is often alleged that painting has 'broken people's back'). Evaluate whether \"vkjksi\" (allegation) functions as a neutral report or a rhetorical device, and justify using the immediate rebuttal.",
+     "a": "\"vkjksi\" functions as a rhetorical straw man. The author immediately counters: \"ij eSa le>rk gw¡ fd fp=kiV laxhr us yksxksa osQ dku [kjkc ugha fd, gSa] myVs lqèkkj fn, gSaA\" (I understand painting has not broken backs but given relief). The word \"vkjksi\" signals a widespread misconception the author dismantles. A wrong answer calling it a neutral report misses the argumentative structure where the author stages and refutes a false view.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-sentence analytical paragraph about any Indian art form (classical dance, music, sculpture) using at least three key terms from this chapter (\"xkuiu\", \"Loj\", \"y;\", \"fp=kiV laxhr\", \"'kkL=kh; laxhr\", \"vfHkO;fDr\") in ways that demonstrate their chapter-specific meanings.",
+     "a": "A strong response: \"In Bharatanatyam, the dancer's body becomes a moving 'fp=kiV laxhr' where mudras create visual 'y;' analogous to poetic meter. The accompanying 'Loj' of mridangam and vocal syllables does not merely accompany but enters into a 'vfHkO;fDr' of the inner 'xkuiu' where rhythm and form become indistinguishable. Unlike mere decorative movement, each gesture manifests the 'xkuiu' that the chapter defines as art's true basis.\" A weak response uses the terms as labels without showing their relational, argumentative senses.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

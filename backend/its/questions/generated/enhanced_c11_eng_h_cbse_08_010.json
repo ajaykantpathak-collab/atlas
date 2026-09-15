@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_08_010",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_08_010",
+   "title": "c11_eng_h_cbse_08_010",
+   "questions": [
+    {
+     "q": "In the sentence \"The *kora* around Mount Kailash is a *circumambulation* performed by pilgrims,\" which context-clue type directly defines *circumambulation*?",
+     "a": "The apposition clue: \"*circumambulation* performed by pilgrims\" renames *kora* with a definition. A wrong answer (e.g., \"example clue\" or \"contrast clue\") reveals the student cannot distinguish between a word being defined versus a word being illustrated. They likely confuse structural patterns: apposition uses commas/dashes to equate terms, while examples use \"such as\" or \"for instance\".",
+     "self_check": true
+    },
+    {
+     "q": "The author writes: \"Unlike the *bustling* Lhasa, the *changtang* lay *desolate* under a *merciless* sun.\" Explain how the contrast clue here helps you infer the meaning of *desolate* even if you've never seen the word.",
+     "a": "The contrast marker \"Unlike\" sets up antonymic relationship: *bustling* (full of activity) vs. *desolate*. *Merciless* sun reinforces harshness. A student who answers \"desolate means empty\" without naming the contrast structure misses the analytical step examiners require. They treat vocabulary as guessing rather than evidence-based inference.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the syntactic substitution test to *acclimatize* in: \"We spent two days in Darchen to *acclimatize* before attempting the *kora*.\" Show the substitution and explain why it proves the meaning.",
+     "a": "Substitute \"adjust to altitude\": \"We spent two days in Darchen to *adjust to altitude* before attempting the *kora*.\" The sentence retains grammaticality and logical coherence because *acclimatize* is an infinitive verb of purpose following \"to\". A wrong substitution like \"rest\" fails because it ignores the causal link to \"before attempting the kora\" — resting doesn't inherently prepare for high-altitude trekking.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the cluster of altitude-related terms (*altitude sickness, headache, nausea, oxygen, diameter, pulmonary edema*) in the medical emergency passage creates a semantic field. What thematic purpose does this field serve beyond mere description?",
+     "a": "The semantic field transforms a personal health crisis into a universal human vulnerability against nature's indifference. The clinical terminology (*pulmonary edema, diameter*) contrasts with the spiritual setting, underscoring the theme: scientific rationality vs. faith. A student listing words without connecting to theme treats vocabulary as isolated items, missing the author's craft.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student claim: \"The word *solitary* in 'a *solitary* monk' just means 'alone', so the author could have used 'lonely' without changing the meaning.\" Defend or refute using connotation analysis.",
+     "a": "Refute. *Solitary* denotes \"alone by circumstance\" with neutral/positive connotations of chosen isolation for spiritual focus. *Lonely* connotes emotional distress from unwanted isolation. The monk's solitude is purposeful (kora pilgrimage); substituting *lonely* imposes a psychological state the text doesn't support. A student accepting the claim confuses denotation with connotation — a critical error in literary analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Create a sentence using *maneuver* (from \"The driver had to *maneuver* the vehicle through *treacherous* hairpin bends\") that demonstrates its precise meaning in a new context — not driving — while preserving its core sense of \"skillful strategic movement\".",
+     "a": "\"The diplomat had to *maneuver* the negotiation through *treacherous* political objections to reach an agreement.\" This preserves: (1) agent exercising skill, (2) navigating obstacles, (3) *treacherous* metaphorically extended. A poor answer like \"I maneuvered my pen across the paper\" reduces the word to mere physical movement, losing the strategic dimension essential to the author's usage.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

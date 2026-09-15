@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_02_001",
+   "title": "c12_bs_cbse_02_001",
+   "questions": [
+    {
+     "q": "State the exact NCERT definition of 'principles of management' and give one example of a managerial decision where two different principles could lead to different choices.",
+     "a": "Correct answer: \"A managerial principle is a broad and general guideline for decision-making and behaviour.\" Example: Promotion decision — seniority principle vs. merit principle. A wrong answer (e.g., \"principles are rigid rules like laws of physics\") reveals the student confuses management principles with pure science principles, missing the 'human behaviour' and 'creative application' emphasis in NCERT.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why management principles are described as 'mainly behavioural' and 'contingent'. Use a concrete situation to illustrate both characteristics together.",
+     "a": "Correct answer: 'Mainly behavioural' because principles target human actions (e.g., equity ensures fair treatment to motivate loyalty); 'contingent' because their application depends on context (e.g., centralisation degree varies with organisation size and emergency). A situation: In a startup, the founder centralises decisions (contingent on small scale), but applies equity by transparent profit-sharing (behavioural). A wrong answer treating them as synonyms or giving only technical examples (e.g., machine maintenance) shows failure to grasp the human-centric and situational core.",
+     "self_check": true
+    },
+    {
+     "q": "A factory manager introduces a new incentive scheme: workers producing above 100 units/day get ₹50/unit; those below get ₹40/unit. Identify which Taylor principle this implements and which Fayol principle it might violate if not carefully designed. Justify both.",
+     "a": "Correct answer: Implements Taylor's 'Science, not Rule of Thumb' (standard output via work-study) and 'Differential Piece Wage System' technique. Might violate Fayol's 'Equity' if the standard is unrealistic or 'Remuneration' if below-standard pay doesn't ensure reasonable living. Steps: (1) Recognise differential piece rate as Taylor's technique. (2) Link to 'Science, not Rule of Thumb' — standard set by study, not guess. (3) Check Fayol: Equity demands fairness/kindness; Remuneration demands fair wages within paying capacity. (4) If standard is unattainable, it's inequitable. A wrong answer missing the Fayol violation shows inability to cross-map principles across thinkers.",
+     "self_check": true
+    },
+    {
+     "q": "Compare 'Unity of Command' and 'Unity of Direction' using the NCERT distinction table. Then analyse a scenario where a marketing executive receives campaign instructions from both the Marketing Head and the Finance Head (who controls budget). Which principle is violated? What is the consequence on the organisation vs. the individual?",
+     "a": "Correct answer: Unity of Command = one subordinate, one superior (prevents dual subordination, affects individual). Unity of Direction = one head, one plan for same objective (prevents overlapping, affects organisation). Scenario violates Unity of Command (two bosses). Consequence: Individual confusion, delayed decisions; organisation may suffer if Finance Head's budget cuts conflict with Marketing Head's plan — but overlapping plans would violate Unity of Direction. A wrong answer swapping the 'affects individual/organisation' column shows rote memorisation without analytical distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Principles of management are outdated in modern flat organisations with empowered employees.\" Use at least three nature/significance points to defend or refute.",
+     "a": "Correct evaluation: Refute. (1) 'Flexible' and 'contingent' — principles adapt; e.g., Fayol's 'Authority & Responsibility' now means employee empowerment (Then vs. Now table). (2) 'Scientific decisions' — principles bound bias even in flat structures. (3) 'Meeting changing environment' — principles like division of work extend to core competency focus and outsourcing. (4) 'Social responsibility' — equity now covers environment, customer value. A wrong answer agreeing with the statement ignores the NCERT's explicit 'Then and Now' evolution and the significance of adaptation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini-case (4-5 sentences) of a service-sector startup (e.g., food delivery app) where three different principles of management are simultaneously applied to solve a crisis. Name each principle and show its specific role.",
+     "a": "Good answer example: \"During a festival surge, a food-delivery startup faces delayed orders. The CEO applies (1) Division of Work — creates dedicated 'surge team' for high-demand zones; (2) Scalar Chain with Gang Plank — allows delivery partners to directly alert zone heads bypassing 3 levels for real-time rerouting; (3) Initiative — rewards partners who suggest local shortcuts, reducing avg. delivery time by 15%.\" Criteria: Must name principles correctly, show distinct roles, and reflect service context. Poor answer: vague principles, no crisis, or principles not from NCERT list.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

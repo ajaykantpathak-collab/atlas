@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_11_009",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_11_009",
+   "title": "c11_math_cbse_11_009",
+   "questions": [
+    {
+     "q": "State the eccentricity formula for the hyperbola \\(\\frac{x^2}{16} - \\frac{y^2}{9} = 1\\) and write the equations of its asymptotes.",
+     "a": "Eccentricity \\(e = \\sqrt{1 + \\frac{9}{16}} = \\sqrt{\\frac{25}{16}} = \\frac{5}{4}\\). Asymptotes: \\(y = \\pm \\frac{3}{4}x\\). A wrong answer like \\(e = \\sqrt{1 - \\frac{9}{16}} = \\frac{\\sqrt{7}}{4}\\) reveals the student is using the ellipse formula. Writing asymptotes as \\(y = \\pm \\frac{4}{3}x\\) shows confusion between \\(a\\) and \\(b\\) roles.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the eccentricity of a hyperbola is always greater than 1, using the geometric definition involving focus and directrix.",
+     "a": "For a hyperbola, the focus lies outside the vertex on the transverse axis. For any point \\(P\\) on the hyperbola, the distance to the focus \\(PF\\) is greater than the perpendicular distance to the corresponding directrix \\(PM\\) because the focus is farther from the center than the directrix. Since \\(e = \\frac{PF}{PM}\\), we get \\(e > 1\\). If a student says \"because \\(b^2/a^2\\) is positive\", they are relying on algebra without geometric understanding. If they say \"ellipse has \\(e<1\\) so hyperbola has \\(e>1\\)\", they are comparing without reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Find the equation of the hyperbola with eccentricity \\(e = \\frac{13}{12}\\) and asymptotes \\(y = \\pm \\frac{5}{12}x\\), given that the transverse axis is along the x-axis.",
+     "a": "Given asymptotes \\(y = \\pm \\frac{b}{a}x = \\pm \\frac{5}{12}x\\), so \\(\\frac{b}{a} = \\frac{5}{12}\\). Let \\(a = 12k, b = 5k\\). Eccentricity \\(e = \\sqrt{1 + \\frac{b^2}{a^2}} = \\sqrt{1 + \\frac{25}{144}} = \\sqrt{\\frac{169}{144}} = \\frac{13}{12}\\). This matches given \\(e\\), so any \\(k\\) works. Standard equation: \\(\\frac{x^2}{(12k)^2} - \\frac{y^2}{(5k)^2} = 1\\). Without additional info (like a point or latus rectum), we cannot determine \\(k\\). A student who writes \\(\\frac{x^2}{144} - \\frac{y^2}{25} = 1\\) assumes \\(k=1\\) arbitrarily. A student who uses \\(e = \\frac{13}{12}\\) to get \\(b^2 = a^2(e^2-1)\\) but then ignores asymptote slope is not using both conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the asymptotes of the hyperbolas \\(\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1\\) and \\(\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = -1\\). How are their slopes related? What does this imply about their graphs?",
+     "a": "First hyperbola (horizontal transverse axis): asymptotes \\(y = \\pm \\frac{b}{a}x\\). Second hyperbola (vertical transverse axis): rewrite as \\(\\frac{y^2}{b^2} - \\frac{x^2}{a^2} = 1\\), asymptotes \\(y = \\pm \\frac{b}{a}x\\)? Wait: for \\(\\frac{y^2}{b^2} - \\frac{x^2}{a^2} = 1\\), asymptotes are \\(y = \\pm \\frac{b}{a}x\\). Actually both have the SAME asymptotes! The pair of hyperbolas are conjugate hyperbolas sharing the same asymptotes. The first opens left-right, the second opens up-down. They are reflections across the lines \\(y=x\\) if \\(a=b\\), otherwise not. A student who says slopes are reciprocals (\\(\\pm a/b\\) vs \\(\\pm b/a\\)) is confusing with the conjugate hyperbola definition where \\(a\\) and \\(b\\) swap roles in the equation but here the equation is just multiplied by \\(-1\\) so \\(a,b\\) stay same.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"For the hyperbola \\(9x^2 - 16y^2 = 144\\), the eccentricity is \\(e = \\sqrt{1 + \\frac{16}{9}} = \\frac{5}{3}\\) and asymptotes are \\(y = \\pm \\frac{4}{3}x\\).\" Evaluate this claim and correct any errors.",
+     "a": "First, rewrite in standard form: \\(\\frac{9x^2}{144} - \\frac{16y^2}{144} = 1 \\Rightarrow \\frac{x^2}{16} - \\frac{y^2}{9} = 1\\). So \\(a^2 = 16, b^2 = 9\\). Then \\(e = \\sqrt{1 + \\frac{9}{16}} = \\frac{5}{4}\\) (not \\(\\frac{5}{3}\\)). Asymptotes: \\(y = \\pm \\frac{b}{a}x = \\pm \\frac{3}{4}x\\) (not \\(\\pm \\frac{4}{3}x\\)). The student used coefficients 9 and 16 directly as \\(a^2\\) and \\(b^2\\) without dividing by 144. They also swapped \\(a\\) and \\(b\\) in the asymptote formula. This reveals two misconceptions: not converting to standard form first, and confusing which denominator belongs to \\(x^2\\) and \\(y^2\\).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem involving a hyperbolic mirror (like in a telescope) where the eccentricity and asymptote slope determine the mirror's shape. Specify what is given and what needs to be found.",
+     "a": "Example: \"A hyperbolic mirror for a Cassegrain telescope has its cross-section modeled by \\(\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1\\). The mirror's edge must follow an asymptote with slope \\(0.75\\) to direct light properly. If the distance from center to vertex is 20 cm, find the eccentricity and the focus position where the detector should be placed.\" Good answer: slope = \\(b/a = 0.75\\), \\(a = 20\\) so \\(b = 15\\). \\(e = \\sqrt{1 + (0.75)^2} = 1.25\\). Focus at \\((\\pm ae, 0) = (\\pm 25, 0)\\). A poor answer would not connect slope to \\(b/a\\), or would use ellipse formula, or would not convert slope to \\(b/a\\) ratio.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

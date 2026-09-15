@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eng_f_cbse_01_011",
+ "concepts": [
+  {
+   "id": "enh:c12_eng_f_cbse_01_011",
+   "title": "c12_eng_f_cbse_01_011",
+   "questions": [
+    {
+     "q": "Define the past perfect tense and state its primary function in a narrative already told in the simple past tense.",
+     "a": "**Correct Answer:** Past perfect tense is formed with \"had + past participle\" (e.g., \"had come\", \"had said\"). In a narrative written in simple past, its primary function is to indicate an **earlier past** — an action completed *before* another past action.  \n**What a wrong answer reveals:** If a student says \"it shows an action that happened a long time ago\" or \"it is just the past of past\", they confuse *time distance* with *time sequence*. The key is **relative order**, not absolute distance. This error leads to misidentifying simple past verbs as past perfect in the text.",
+     "self_check": true
+    },
+    {
+     "q": "In the sentence \"M. Hamel **had said** that he would question us on participles\", explain why \"had said\" is used instead of \"said\". Use the timeline of the story to justify.",
+     "a": "**Correct Answer:** The story's \"now\" is Franz arriving late at school (simple past: \"I started\", \"I passed\", \"I reached\"). M. Hamel's statement about questioning on participles happened **before** Franz started for school that morning. \"Had said\" marks this earlier past. If \"said\" were used, it would imply Hamel spoke *at the same time* as Franz's arrival, which contradicts \"especially because M. Hamel **had said**...\".  \n**What a wrong answer reveals:** A student who writes \"because it is more formal\" or \"because the story is in past tense\" misses the **sequencing logic**. They treat past perfect as a stylistic variant rather than a temporal marker. This causes errors in board questions asking \"Why has the author used past perfect here?\"",
+     "self_check": true
+    },
+    {
+     "q": "Convert the following direct speech from the text into reported speech:  \nWachter called after me, **\"Don't go so fast, bub; you'll get to your school in plenty of time!\"**  \n(Assume the reporting verb is in past tense.)",
+     "a": "**Correct Answer:**  \nWachter called after me and told me **not to go so fast**, addressing me as bub, and added that **I would get to my school in plenty of time**.  \n**Steps:**  \n1. Reporting verb \"called after me\" → past tense → backshift required.  \n2. Imperative \"Don't go\" → \"told/advised me not to go\" (negative infinitive).  \n3. Vocative \"bub\" → \"addressing me as bub\" / \"calling me bub\".  \n4. \"you'll get\" (will + bare infinitive) → \"I would get\" (would + bare infinitive).  \n5. Pronouns: \"you\" → \"I\" (reporter is Franz), \"your\" → \"my\".  \n**What a wrong answer reveals:** Common errors: (a) \"Wachter said me not to go so fast\" (wrong verb pattern: *say* cannot take indirect object), (b) \"you will get\" (no backshift of *will* → *would*), (c) missing pronoun change (\"your school\"). These show incomplete mastery of reported speech rules.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two sentences from the text:  \n(A) \"The order **has come** from Berlin to teach only German.\"  \n(B) \"The order **came** from Berlin to teach only German.\"  \nAnalyze the difference in focus and grammatical aspect. Why does the author choose (A) in the story?",
+     "a": "**Correct Answer:**  \n(A) uses **present perfect passive** (\"has come\") — focuses on the **current relevance/result** of the order: it is *now* in force, the new master comes *tomorrow*. The action is complete but its effect is alive in the present moment of the narrative.  \n(B) uses **simple past active** (\"came\") — treats the order as a **completed past event** with no necessary link to the current situation.  \nThe author chooses (A) because the story's present moment (Franz's last lesson) is *defined* by that order's ongoing force. The passive voice (\"has come\") also hides the agent (Berlin/Prussian authorities), emphasizing the school's helpless reception of the decree.  \n**What a wrong answer reveals:** A student who says \"both mean the same\" or \"passive is more formal\" fails to grasp **aspectual meaning** (perfect vs. simple) and **information structure** (passive topicalizes \"the order\"). This leads to shallow answers in \"Noticing form\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the passive construction in M. Hamel's final act: **\"Vive La France!\" was written on the blackboard by M. Hamel** (transformed from active \"M. Hamel wrote 'Vive La France!' on the blackboard\"). Which version better serves the story's climax? Justify.",
+     "a": "**Correct Answer:** The **active version** (\"M. Hamel wrote...\") is far more effective.  \n**Justification:**  \n1. **Agency:** The climax is about M. Hamel's *personal, defiant choice* to assert French identity. Active voice places him as the doer.  \n2. **Emotional weight:** \"He wrote... bearing on with all his might\" shows physical effort and emotion. Passive (\"was written by him\") distances the actor, making it sound like a routine recording.  \n3. **Focus:** The story's final image is *M. Hamel* — pale, tall, choking — leaning against the wall. Active voice keeps the camera on him.  \nPassive would be appropriate only if the *writing* mattered more than the *writer* (e.g., in a news report: \"The notice was written in French\").  \n**What a wrong answer reveals:** A student preferring passive (\"it sounds more literary/dramatic\") confuses *formality* with *narrative focus*. They miss that voice choice is a **rhetorical decision**, not a decoration.",
+     "self_check": true
+    },
+    {
+     "q": "Write a 4-sentence paragraph describing a \"last lesson\" moment from your life (e.g., last day at a tuition, last match before retirement, last family dinner before moving). Use **at least one** past perfect verb, **one** reported speech construction, and **one** passive voice construction. Underline each.",
+     "a": "**Sample Answer:**  \nI **had never imagined** that the final whistle would feel so heavy. My coach **told me that he was proud of how I had played** all season. The jersey **was handed** to me by the captain with a silent nod. We stood in a circle, **pretending** the moment wasn't ending.  \n**Criteria for a good answer:**  \n- Past perfect (\"had never imagined\", \"had played\") correctly marks earlier past relative to the narrative past (\"would feel\", \"stood\").  \n- Reported speech (\"told me that he was proud...\") shows correct backshift (is → was) and pronoun change.  \n- Passive (\"was handed\") appropriately shifts focus to the jersey/recipient, not the captain.  \n- All three are **contextually motivated**, not forced.  \n**What a poor answer reveals:** Random insertion (\"I had eaten breakfast. He said 'hi'. The ball was kicked.\") shows the student treats structures as isolated drills, not tools for meaning-making.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

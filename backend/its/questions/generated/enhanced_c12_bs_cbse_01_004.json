@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_01_004",
+   "title": "c12_bs_cbse_01_004",
+   "questions": [
+    {
+     "q": "State the five functions of management in the order they appear in the NCERT textbook. Do not explain — just list them.",
+     "a": "Planning, Organising, Staffing, Directing, Controlling.  \nA wrong answer (e.g., listing \"Coordination\" as a function, or changing the order to \"Organising, Planning...\") reveals the student is memorising without understanding the logical flow: you cannot organise without a plan, cannot staff without an organisation structure, cannot direct without staff, and cannot control without directed activity. The NCERT sequence reflects this dependency.",
+     "self_check": true
+    },
+    {
+     "q": "\"Planning and Controlling are inseparable twins.\" Explain this statement in your own words using a one-sentence example from a school setting.",
+     "a": "Planning sets the standard (e.g., \"Complete syllabus by 30 Nov\") and Controlling checks if the standard is met (e.g., \"Weekly test shows Chapter 3 unfinished, so extra class scheduled\").  \nA wrong answer that treats them as independent (e.g., \"Planning is for future, Controlling is for past\") shows the student misses the feedback loop: controlling data becomes input for the next planning cycle. Without a plan, there is no benchmark to control against; without control, a plan is just a wish.",
+     "self_check": true
+    },
+    {
+     "q": "A factory manager notices that raw material is piling up at the receiving dock while the production line waits for it. The storekeeper says \"I was told to receive all deliveries,\" and the production supervisor says \"I wasn't informed about the delivery schedule.\" Which TWO functions of management have failed, and what specific step in each function was missed?",
+     "a": "Organising failed: the authority-responsibility relationship between storekeeper and production supervisor was not defined (no reporting/communication protocol). Directing failed: communication of delivery schedule to the production supervisor was omitted.  \nA wrong answer blaming only \"poor coordination\" or only \"staffing\" shows the student cannot decompose a symptom into specific function failures. The storekeeper had authority to receive but no responsibility to inform; the supervisor had responsibility to produce but no authority to access schedule — an organising gap. The schedule existed but wasn't communicated — a directing gap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of \"Staffing\" in a labour-intensive handicraft unit (like Namchi Designer Candles) versus a capital-intensive automated bottling plant. How does the emphasis on recruitment, training, and retention differ? Give two distinct points.",
+     "a": "Handicraft unit: Staffing focuses on recruiting artisans with tacit skills, long apprenticeship-style training, and retention through social belonging (women's collective). Bottling plant: Staffing focuses on recruiting technical operators, short certification-based training, and retention through career progression and safety compliance.  \nA wrong answer giving generic points (\"both need skilled workers\") shows the student cannot contextualise the function. The nature of work (manual/artistic vs. machine/standardised) changes the staffing strategy: one values creativity and community, the other values precision and certification.",
+     "self_check": true
+    },
+    {
+     "q": "\"Directing is the heart of management because it deals with the human element.\" Evaluate this claim. Is it possible for an organisation to have excellent Planning, Organising, and Staffing but fail due to poor Directing? Justify with a real-world style scenario.",
+     "a": "Yes. Example: A tech startup has a brilliant business plan (Planning), flat agile structure (Organising), and hires top engineers from IITs (Staffing). But the founder micromanages, gives no autonomy, ignores burnout signals, and never appreciates — engineers leave in 6 months. The plan, structure, and hires were perfect; Directing failed.  \nA wrong answer saying \"No, because planning covers everything\" reveals the student conflates planning (deciding what to do) with directing (making people want to do it). Motivation, leadership, and communication are distinct from structural design.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-step mini-case (2-3 sentences) where a single managerial decision simultaneously involves Planning, Organising, and Directing. Label each step with the function it primarily demonstrates.",
+     "a": "Example: \"The Principal decides to introduce AI elective (Planning: new goal), creates a new CS-AI department reporting to VP Academics (Organising: new structure/authority), announces it in assembly with a demo by alumni to excite students (Directing: motivation/communication), and sets a target of 50 enrolments by July (Controlling: standard).\"  \nA poor answer lists four separate unrelated decisions. A good answer shows one decision cascading into multiple functions — proving they are simultaneous. The student must recognise that a single managerial act (launching a course) is not \"first plan, then organise...\" but a blended action.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

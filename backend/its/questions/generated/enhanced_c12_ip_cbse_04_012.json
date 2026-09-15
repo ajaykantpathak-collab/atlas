@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_04_012",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_04_012",
+   "title": "c12_ip_cbse_04_012",
+   "questions": [
+    {
+     "q": "What is the primary difference between e-commerce and traditional brick-and-mortar commerce in terms of transaction medium?",
+     "a": "E-commerce transactions occur electronically over the internet without physical presence of buyer and seller, while traditional commerce requires physical exchange at a store. A wrong answer (e.g., \"e-commerce only sells digital goods\") reveals confusion between the *medium* of transaction and the *type* of product sold.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"24/7 availability\" is considered a benefit of e-commerce but can also become a risk for the business operator.",
+     "a": "24/7 availability benefits customers by allowing shopping anytime, but it forces businesses to maintain always-on servers, customer support, and fraud monitoring — increasing operational costs and exposure to automated attacks (bots, credential stuffing) during off-hours. A student who only lists the benefit misses the dual-nature analysis required for board-level \"analyze\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "A customer receives an email claiming to be from their bank, asking them to click a link and enter their UPI PIN to \"verify\" a recent e-commerce transaction. Identify the specific risk and the immediate action the customer should take.",
+     "a": "Risk: Phishing attack targeting payment credentials. Action: Do not click the link; report the email to the bank’s official phishing reporting address; verify transaction directly via the bank’s app/website. A wrong answer like \"enter the PIN to check\" shows the student cannot apply phishing knowledge (from c12_ip_cbse_04_006) to an e-commerce context.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the risk of \"card-not-present fraud\" in e-commerce with \"card-present fraud\" in physical stores. Which is easier for a fraudster to execute at scale and why?",
+     "a": "Card-not-present fraud (e-commerce) is easier to scale because stolen card details can be bought in bulk on dark web markets and tested automatically across many sites via bots, without needing physical cards or POS devices. Card-present fraud requires cloning physical cards or stealing them, limiting scale. A student who says \"both are equal\" fails to analyze the automation and anonymity advantages of online fraud.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Using a reputed e-commerce platform (like Amazon or Flipkart) eliminates all risks of online transactions.\"",
+     "a": "False. Reputed platforms reduce but do not eliminate risks: they implement strong encryption, PCI-DSS compliance, and seller vetting, but risks remain from phishing (fake lookalike sites), account takeover (credential stuffing), insider data leaks, third-party seller fraud, and delivery scams. A student who agrees shows over-reliance on platform reputation and neglects user-side vigilance.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-point checklist that a first-time online shopper should follow before making a payment on a new e-commerce website.",
+     "a": "Good answer includes: (1) Verify HTTPS and padlock in URL, (2) Check for genuine reviews and seller ratings, (3) Use OTP-based payment (UPI/net banking) instead of saving card details, (4) Read return/refund and privacy policies, (5) Ensure the website domain matches the brand exactly (no misspellings). A poor answer lists generic tips like \"use antivirus\" without e-commerce-specific checks, indicating lack of applied understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

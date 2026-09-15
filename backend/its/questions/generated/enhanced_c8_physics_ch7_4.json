@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch7_4",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch7_4",
+   "title": "c8_physics_ch7_4",
+   "questions": [
+    {
+     "q": "What is the difference between a waxing crescent Moon and a waning crescent Moon in terms of the illuminated portion?",
+     "a": "A waxing crescent has the illuminated portion increasing (growing larger each night) and the bright side is on the right (in the Northern Hemisphere), while a waning crescent has the illuminated portion decreasing (shrinking each night) and the bright side is on the left. A wrong answer (e.g., confusing the sides or the direction of change) reveals the student cannot link the phase name to the direction of illumination change or the geometry of the Sun-Earth-Moon system.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Moon appear to change shape (phases) over a month? Explain using the relative positions of the Sun, Earth, and Moon.",
+     "a": "The Moon does not produce its own light; it reflects sunlight. As the Moon revolves around Earth, the angle between the Sun, Moon, and Earth changes, so we see different fractions of the Moon's sunlit hemisphere. A wrong answer (e.g., \"Earth's shadow causes phases\" or \"the Moon changes shape physically\") reveals the common misconception that phases are caused by Earth's shadow (which is actually a lunar eclipse) or that the Moon's physical shape changes.",
+     "self_check": true
+    },
+    {
+     "q": "If today is a waxing gibbous Moon, what will be the phase approximately 7 days from now? Explain your reasoning.",
+     "a": "Approximately 7 days from a waxing gibbous, the Moon will be at or near Full Moon, then begin waning gibbous. The lunar cycle is ~29.5 days; each major phase (new, crescent, quarter, gibbous, full) spans about 3.7 days. Waxing gibbous is after first quarter and before full; in 7 days it passes full and enters waning gibbous. A wrong answer (e.g., \"new moon\" or \"waning crescent\") reveals the student does not know the sequence of phases or the approximate timing between them.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the waxing and waning phases: during which period does the Moon rise later each day, and why?",
+     "a": "The Moon rises about 50 minutes later each day throughout its cycle, but the *effect* is most noticeable during waning phases because the Moon rises after sunset and gets later each night. During waxing, the Moon is already up at sunset and sets later each night. A wrong answer (e.g., \"waxing rises later\") reveals confusion between the Moon's daily delay and its visibility at sunset/sunrise, and not understanding that the Moon's orbital motion is eastward, causing it to rise later regardless of phase.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws the Moon with the left side illuminated and labels it \"waxing crescent\" (for an observer in India). Is this correct? Evaluate and correct if necessary.",
+     "a": "Incorrect. In the Northern Hemisphere (including India), a waxing crescent has the *right* side illuminated. The left side illuminated indicates a waning crescent. The student likely confused the mnemonic \"D for decreasing (waning), C for increasing (waxing)\" which works for the Southern Hemisphere but is reversed in the Northern Hemisphere. A wrong evaluation reveals the student does not apply the hemisphere-specific rule for identifying waxing/waning from the illuminated side.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple observation activity for a Class 8 student to distinguish between waxing and waning phases over two weeks without using a calendar or app.",
+     "a": "Observe the Moon at the same time each evening (e.g., 7 PM) for 14 days. Sketch the shape and note which side is lit. If the lit portion grows and the bright side is on the right, it's waxing; if it shrinks and the bright side is on the left, it's waning. A poor answer (e.g., \"look at the Moon once\" or \"check the calendar\") reveals the student does not understand that phases change gradually and require systematic observation to determine the trend.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

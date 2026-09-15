@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_geo_ch03_010",
+ "concepts": [
+  {
+   "id": "enh:c7_geo_ch03_010",
+   "title": "c7_geo_ch03_010",
+   "questions": [
+    {
+     "q": "What is the primary difference between natural climate variability and modern anthropogenic (human-caused) climate change?",
+     "a": "Natural climate variability is driven by slow geological and astronomical factors over millennia, whereas modern climate change is accelerating rapidly due to human activities like burning fossil fuels and deforestation. A wrong answer shows confusion between long-term natural cycles and the rapid, industrial-era warming caused by greenhouse gas emissions.",
+     "self_check": true
+    },
+    {
+     "q": "Why does an increase in global carbon dioxide emissions lead to the melting of Himalayan glaciers?",
+     "a": "Carbon dioxide is a greenhouse gas that traps outgoing terrestrial radiation, causing global atmospheric temperatures to rise, which directly accelerates ice melt in high-altitude mountain regions like the Himalayas. A wrong answer reveals a misconception that greenhouse gases block incoming sunlight from reaching the Earth rather than trapping heat radiated from the Earth's surface.",
+     "self_check": true
+    },
+    {
+     "q": "If average surface temperatures in Northwest India increase by 1.5°C, how does this alter local atmospheric pressure systems during the summer months?",
+     "a": "Steps: 1. Identify that higher temperatures cause air to expand and rise more rapidly. 2. Recall that rising air creates a stronger low-pressure center over the landmass. 3. Apply this to Northwest India, where intense low pressure normally draws in moisture-bearing summer winds. 4. Conclude that excessive heating can disrupt standard pressure gradients, leading to erratic monsoon winds and unexpected drought or flood cycles. A wrong answer suggests the student thinks higher temperatures create high pressure, confusing thermal dynamics with cold air sinking.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how a delay in the onset of the Southwest Monsoon by three weeks impacts Kharif crop sowing in the Northern Plains of India.",
+     "a": "A delayed monsoon means farmers cannot rely on timely rainfall for sowing water-intensive crops like paddy rice, forcing them to depend heavily on groundwater irrigation or delay their harvest, which reduces overall agricultural yield and increases economic stress. A wrong answer indicates a failure to connect atmospheric circulation patterns with agricultural timing and soil moisture requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate whether coastal mega-cities like Mumbai or Chennai are more vulnerable to sea-level rise caused by climate change compared to inland cities like Delhi.",
+     "a": "Coastal cities are significantly more vulnerable because rising sea levels, combined with storm surges and high tides, directly threaten urban infrastructure, port activities, and freshwater aquifers with saltwater intrusion, whereas inland cities face risks from extreme heat and river flooding rather than direct coastal inundation. A wrong answer shows a lack of understanding regarding how global ocean volume changes specifically affect coastal topography versus interior landforms.",
+     "self_check": true
+    },
+    {
+     "q": "Design a local community action plan for a village in Rajasthan to mitigate and adapt to worsening drought conditions driven by climate change.",
+     "a": "A successful plan must combine mitigation (such as planting drought-resistant trees to sequester carbon and reduce local heat) and adaptation (such as reviving traditional rainwater harvesting structures, adopting drip irrigation, and shifting to drought-tolerant millets). A poor answer only lists general ideas without connecting specific local geographical strategies to climate resilience.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

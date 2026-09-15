@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_06_001",
+   "title": "c12_hs_cbse_06_001",
+   "questions": [
+    {
+     "q": "Define Extension Education in one sentence and state how it differs from formal school education in terms of (a) curriculum fixity and (b) attendance compulsion.",
+     "a": "Extension Education is a non-formal, need-based educational process that empowers communities to identify and solve their own problems through voluntary participation. Unlike formal education: (a) Extension curriculum is flexible and emerges from learners' felt needs, not a pre-fixed syllabus; (b) Attendance is voluntary — learners participate because they perceive value, not due to legal compulsion. A wrong answer that describes Extension as \"teaching farmers new techniques\" reveals the misconception that Extension is top-down technology transfer rather than a participatory empowerment process.",
+     "self_check": true
+    },
+    {
+     "q": "A village-level worker says: \"My job is to teach illiterate women how to use SMAM (Sub-Mission on Agricultural Mechanisation) schemes so they get subsidies.\" Identify two philosophical violations in this statement and explain why each violates Extension principles.",
+     "a": "Two violations: (1) \"Teach illiterate women\" assumes a deficit model — Extension philosophy views learners as repositories of indigenous knowledge and experience, not empty vessels. The worker should *facilitate* women's analysis of their mechanisation needs, not \"teach\" schemes. (2) \"So they get subsidies\" makes external incentive the goal — Extension aims for *intrinsic* motivation and self-reliance; subsidies may be a tool, but behaviour change driven solely by subsidy is not sustainable empowerment. A wrong answer focusing only on \"illiterate\" as derogatory misses the deeper philosophical error: the worker positions themselves as the knower and the women as passive recipients.",
+     "self_check": true
+    },
+    {
+     "q": "Design a first-contact strategy for an Extension worker entering a tribal community that practices shifting cultivation. The community is suspicious of outsiders. Apply the principles of \"start where people are\" and \"learning by doing\" to list four specific actions the worker should take in the first month, with justification for each.",
+     "a": "1. **Participatory resource mapping with elders** — builds trust by valuing indigenous knowledge (principle: start where people are). 2. **Joint identification of one acute problem** (e.g., soil erosion on slopes) through transect walks — ensures the agenda is theirs, not imposed. 3. **Establish a small demonstration plot *with* community labour** using a modified practice (e.g., contour hedgerows) — learning by doing, not lecture. 4. **Facilitate a reflection session after first harvest** where farmers compare yield/soil loss — consolidates experiential learning. A wrong answer that begins with \"awareness camps on government schemes\" violates the principle of starting with felt needs and ignores the trust deficit.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Extension Education and Community Development using a 3x3 matrix with dimensions: (i) Primary focus, (ii) Role of external agent, (iii) Measure of success. Explain why confusing the two leads to programme failure in practice.",
+     "a": "| Dimension | Extension Education | Community Development |\n|-----------|---------------------|----------------------|\n| Primary focus | Human resource development (knowledge, skill, attitude change) | Infrastructure & service delivery (roads, water, health centres) |\n| Role of external agent | Facilitator, educator, catalyst | Planner, implementer, resource provider |\n| Measure of success | Adoption of improved practices, empowerment, self-reliance | Physical targets achieved, facilities created |\n\nConfusing them leads to failure because: building a training centre (Community Development output) does not guarantee farmers will attend or adopt practices (Extension outcome). A wrong answer that lists \"both help villagers\" misses the operational distinction — Extension builds *capacity*; Community Development builds *assets*. Programmes that deliver assets without building capacity (e.g., giving tractors without training) show low utilisation and abandonment.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this Extension objective: \"To ensure 100% adoption of drip irrigation in the command area within two years through intensive campaigns and subsidy linkage.\" Identify three flaws from an Extension philosophy perspective and rewrite the objective correctly.",
+     "a": "Three flaws: (1) \"Ensure 100% adoption\" — violates voluntary participation; adoption must be a free, informed choice, not a target. (2) \"Through intensive campaigns\" — implies top-down persuasion, not participatory learning. (3) \"Subsidy linkage\" as primary driver — creates extrinsic dependency, not intrinsic conviction. Corrected objective: \"To facilitate informed decision-making by farmers in the command area regarding drip irrigation by enabling experiential learning, economic analysis, and peer exchange, so that those who find it suitable adopt it voluntarily and sustainably.\" A wrong answer that only changes \"100%\" to \"maximum\" retains the target-driven, campaign-oriented mindset.",
+     "self_check": true
+    },
+    {
+     "q": "Create a metaphor that captures the essence of Extension Education's philosophy. Explain the metaphor by mapping its elements to: (a) the Extension worker's role, (b) the learner's agency, (c) the knowledge generation process, and (d) the outcome. Justify why your metaphor is more accurate than \"Extension worker as a bridge.\"",
+     "a": "Metaphor: **\"Extension worker as a midwife of community learning.\"** (a) Worker's role: provides skilled support, monitors progress, intervenes only when necessary — does not \"deliver\" the baby (knowledge/change). (b) Learner's agency: the mother (community) does the labour; ownership of the process and outcome is hers. (c) Knowledge generation: emerges from the interaction of the community's lived experience (pregnancy) and the worker's technical expertise (midwifery skills). (d) Outcome: a new, self-sustaining capacity (the child) that belongs to the community. \"Bridge\" is inaccurate because it implies the worker *connects* two fixed points (expert knowledge → passive receiver), suggesting knowledge transfer rather than co-creation, and ignores the transformative labour of the learner.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

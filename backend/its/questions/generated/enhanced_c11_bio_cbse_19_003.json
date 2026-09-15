@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_19_003",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_19_003",
+   "title": "c11_bio_cbse_19_003",
+   "questions": [
+    {
+     "q": "Name the two principal cell types in the Islets of Langerhans and the hormone each secretes.",
+     "a": "α-cells secrete glucagon; β-cells secrete insulin. A wrong answer (e.g., \"α-cells secrete insulin\" or naming δ-cells/F-cells) reveals confusion about islet cell nomenclature and hormone-cell mapping, indicating the student memorized \"pancreas secretes insulin\" without learning the cellular source — a gap that prevents understanding paracrine regulation within the islet.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why glucagon is described as a \"hyperglycemic hormone\" while insulin is \"hypoglycemic,\" referencing their specific actions on hepatocytes.",
+     "a": "Glucagon binds hepatocyte receptors → activates glycogen phosphorylase → glycogenolysis (glycogen → glucose-6-phosphate → free glucose released into blood) AND stimulates gluconeogenic enzymes → gluconeogenesis (amino acids/glycerol → glucose) → net glucose output raises blood glucose (hyperglycemia). Insulin binds hepatocyte/adipocyte receptors → promotes GLUT2/GLUT4 translocation → glucose uptake → activates glycogen synthase → glycogenesis (glucose → glycogen) AND inhibits glycogen phosphorylase/gluconeogenic enzymes → net glucose removal lowers blood glucose (hypoglycemia). A wrong answer stating only \"insulin lowers sugar, glucagon raises it\" without mechanistic detail shows superficial recall; the student cannot explain how the same substrate (glucose) flows in opposite directions in the same cell type.",
+     "self_check": true
+    },
+    {
+     "q": "A patient has a blood glucose of 320 mg/dL and urine tests positive for ketone bodies. Predict whether this is more likely Type 1 or Type 2 diabetes mellitus and justify using the roles of insulin and glucagon in lipid metabolism.",
+     "a": "Type 1 diabetes mellitus. Reasoning: In absolute insulin deficiency (Type 1), unopposed glucagon action on adipocytes → activates hormone-sensitive lipase → uncontrolled lipolysis → flood of free fatty acids to liver → β-oxidation → acetyl-CoA excess → ketogenesis (ketone bodies). In Type 2, residual insulin suppresses lipolysis partially, so ketosis is rare unless severe stress. A wrong answer choosing Type 2 reveals misunderstanding that insulin deficiency (not just resistance) drives ketogenesis via loss of anti-lipolytic effect; the student likely memorized \"diabetes = high sugar\" without linking insulin's role in fat storage.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the effect of insulin and glucagon on hepatic glucose-6-phosphatase activity and explain how this enzyme determines the direction of net glucose flux in the liver.",
+     "a": "Glucose-6-phosphatase (G6Pase) dephosphorylates glucose-6-phosphate (G6P) to free glucose, which can exit hepatocytes via GLUT2. Glucagon upregulates G6Pase expression (via cAMP/PKA/CREB) → favors glucose release (glycogenolysis/gluconeogenesis product exits). Insulin downregulates G6Pase transcription → G6P accumulates → channeled into glycogenesis or glycolysis → net glucose uptake. This enzyme is the \"gatekeeper\" — its activity directionally controls whether liver is a glucose producer or consumer. A wrong answer ignoring G6Pase shows the student treats liver metabolism as a black box, missing the pivotal regulatory step that explains how the same substrate pool serves opposing fates.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"In diabetes mellitus, hyperglycemia occurs because glucose cannot enter cells, so the liver correctly senses low intracellular glucose and releases more glucose via glucagon.\" Identify the flaw in this reasoning.",
+     "a": "The flaw: The liver does NOT sense \"intracellular glucose\" to regulate glucagon secretion; α-cells sense blood glucose directly (low blood glucose → glucagon release). In diabetes, blood glucose is HIGH, so α-cells should be inhibited — but in Type 1, absent insulin removes paracrine suppression of α-cells (insulin normally inhibits glucagon secretion), causing inappropriate hyperglucagonemia. The liver releases glucose not because it \"senses low glucose\" but because glucagon signaling dominates due to loss of insulin's restraining effect. A student accepting the statement confuses cellular glucose sensing (β-cell mechanism) with α-cell regulation and misses the critical insulin-glucagon paracrine cross-talk within the islet.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using isolated rat hepatocytes to demonstrate that insulin and glucagon have opposing effects on glycogen metabolism. Specify the treatments, measurable outcome, and expected result.",
+     "a": "Treatments: (1) Control (basal), (2) + Glucagon (10 nM), (3) + Insulin (100 nM), (4) + Glucagon + Insulin. Pre-load cells with ¹⁴C-glucose to label glycogen. Measure ¹⁴C-glucose released into medium (glycogenolysis) and ¹⁴C-glycogen remaining in cells (glycogen content) after 30 min. Expected: Glucagon → high ¹⁴C-glucose release, low glycogen; Insulin → low release, high glycogen; Combined → intermediate (insulin antagonizes glucagon). A poor answer measuring only \"glucose uptake\" misses that hepatocytes take up glucose via GLUT2 bidirectionally; the key is net glycogen synthesis vs. breakdown, requiring direct glycogen quantification or radiolabel flux.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

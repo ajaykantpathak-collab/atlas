@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_cs_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c12_cs_cbse_07_002",
+   "title": "c12_cs_cbse_07_002",
+   "questions": [
+    {
+     "q": "What are the only two values a Boolean variable can take?",
+     "a": "A Boolean variable can take only the values 0 (False) and 1 (True).  \n**Wrong answer analysis:** If a student says \"0, 1, and 2\" or \"any number\", they are confusing Boolean variables with algebraic variables. This reveals they haven't internalised that Boolean algebra is a **two-valued** system, not a continuous number system.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a Boolean variable cannot be assigned the value 2 or -1, whereas an algebraic variable like `x` in `x + 3 = 5` can.",
+     "a": "Boolean variables represent logical states (True/False, ON/OFF, HIGH/LOW) which are inherently binary — there is no third state. Algebraic variables represent quantities that can vary continuously over a range (integers, reals, etc.).  \n**Wrong answer analysis:** If a student says \"because Boolean algebra doesn't allow negative numbers\", they miss the core point: it's not about sign, it's about **cardinality of the value set**. The domain is exactly {0, 1}, not a subset of integers.",
+     "self_check": true
+    },
+    {
+     "q": "A water tank has a sensor that outputs 1 when the water level is above 80% and 0 otherwise. Represent this sensor output as a Boolean variable `W`. If the sensor reads 1, what is the physical condition of the tank? If it reads 0?",
+     "a": "Define `W` as a Boolean variable. `W = 1` means water level > 80% (high). `W = 0` means water level ≤ 80% (not high).  \n**Wrong answer analysis:** If a student writes `W = 80` or `W = 20`, they are treating the Boolean variable as a numeric measurement instead of a logical flag. This shows they haven't separated the **physical quantity** (water level) from its **Boolean abstraction** (above/below threshold).",
+     "self_check": true
+    },
+    {
+     "q": "Compare a Boolean variable `B` and an algebraic variable `x`. List three fundamental differences in their nature, allowed values, and typical use.",
+     "a": "1. **Domain**: `B ∈ {0, 1}`; `x ∈ ℝ` (or ℤ, ℂ, etc.).  \n2. **Interpretation**: `B` represents a truth value or binary state; `x` represents a magnitude/quantity.  \n3. **Operations**: `B` uses logical operations (AND, OR, NOT); `x` uses arithmetic operations (+, −, ×, ÷).  \n**Wrong answer analysis:** If a student only says \"Boolean is 0/1, algebraic is numbers\", they miss the operational and semantic differences. This indicates a surface-level understanding that will cause errors when they later encounter Boolean expressions like `A + A = A` (which is false in arithmetic but true in Boolean algebra under OR).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since 0 and 1 are numbers, a Boolean variable is just a special kind of integer variable that only takes 0 or 1.\" Evaluate this statement. Is it correct? Justify your answer.",
+     "a": "The statement is **incorrect**. While 0 and 1 are integers, Boolean variables obey **different algebraic laws** (e.g., `1 + 1 = 1` in Boolean OR, but `1 + 1 = 2` in integer arithmetic). The *structure* (Boolean algebra vs. ring of integers) is different.  \n**Wrong answer analysis:** If a student agrees, they conflate **representation** with **mathematical structure**. This misconception leads to errors like applying distributive law of arithmetic (`a(b+c)=ab+ac`) to Boolean algebra without checking validity (it holds for AND over OR, but not for OR over AND in the same way).",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-life scenario that requires **two** Boolean variables. Describe the meaning of each variable, list all four possible combinations of their values, and explain what each combination represents in your scenario.",
+     "a": "**Scenario:** A car's safety system monitors `SeatBelt` (1 = fastened, 0 = not fastened) and `Engine` (1 = running, 0 = off).  \nCombinations:  \n(0,0): Seatbelt off, engine off — car parked, safe.  \n(0,1): Seatbelt off, engine running — **warning!**  \n(1,0): Seatbelt on, engine off — ready to start.  \n(1,1): Seatbelt on, engine running — normal driving.  \n**Poor answer analysis:** If a student gives a scenario where the two variables are not independent (e.g., \"light on/off\" and \"brightness high/low\" where brightness implies light is on), they haven't grasped that Boolean variables can be **independently assigned** unless constrained by the system logic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

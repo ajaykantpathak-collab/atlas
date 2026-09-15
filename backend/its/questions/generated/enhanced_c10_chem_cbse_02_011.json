@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_chem_cbse_02_011",
+ "concepts": [
+  {
+   "id": "enh:c10_chem_cbse_02_011",
+   "title": "c10_chem_cbse_02_011",
+   "questions": [
+    {
+     "q": "What is the name of the industrial process used to produce sodium hydroxide from common salt, and what are the three main products formed?",
+     "a": "The process is called the chlor-alkali process. The three main products are sodium hydroxide (NaOH), chlorine gas (Cl₂), and hydrogen gas (H₂). A wrong answer (e.g., naming \"electrolysis of water\" or listing oxygen as a product) reveals the student confuses brine electrolysis with water electrolysis, or does not recall that Cl⁻ discharges preferentially over OH⁻ at the anode in concentrated brine.",
+     "self_check": true
+    },
+    {
+     "q": "During the electrolysis of concentrated aqueous NaCl, chlorine gas is produced at the anode instead of oxygen. Explain why this happens, referring to the relative positions of chloride and hydroxide ions in the electrochemical series.",
+     "a": "In concentrated brine, the high concentration of Cl⁻ ions makes their oxidation to Cl₂ (E° = +1.36 V) more favorable than the oxidation of OH⁻ to O₂ (E° = +0.40 V for OH⁻/O₂ in basic medium, but overpotential for O₂ on graphite is high). Thus, Cl⁻ discharges preferentially at the anode. A wrong answer (e.g., \"because chlorine is more reactive\" or \"oxygen is not present\") shows the student does not understand competitive electrode discharge and the role of concentration/overpotential — a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Write the balanced half-reactions at the cathode and anode, and the overall balanced equation for the chlor-alkali process. Then calculate the volume of chlorine gas at STP produced when 2 moles of electrons are passed through the cell.",
+     "a": "Cathode: 2H₂O(l) + 2e⁻ → H₂(g) + 2OH⁻(aq)  \nAnode: 2Cl⁻(aq) → Cl₂(g) + 2e⁻  \nOverall: 2NaCl(aq) + 2H₂O(l) → 2NaOH(aq) + Cl₂(g) + H₂(g)  \n2 moles of electrons produce 1 mole of Cl₂ (from anode half-reaction: 2e⁻ per Cl₂). At STP, 1 mole = 22.4 L. So volume = 22.4 L. A wrong answer (e.g., 44.8 L or using 1 mole e⁻ = 22.4 L) reveals confusion between moles of electrons and moles of gas, or incorrect stoichiometry from an unbalanced half-reaction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the chlor-alkali process with the electrolysis of dilute sulfuric acid. Identify two similarities and two differences in terms of reactants, electrodes, products, and the role of water.",
+     "a": "Similarities: (1) Both use inert electrodes (graphite/platinum). (2) Water is the source of H₂ at the cathode in both.  \nDifferences: (1) Chlor-alkali uses concentrated NaCl (brine) and produces Cl₂ at anode; dilute H₂SO₄ electrolysis produces O₂ at anode. (2) Chlor-alkali yields NaOH in solution (alkali); dilute H₂SO₄ electrolysis leaves H₂SO₄ concentration increased (acidic). A wrong answer (e.g., saying both produce O₂ at anode) shows the student cannot differentiate the anode reaction based on anion discharge preference — a key analytical skill for board case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the overall equation for the chlor-alkali process as: NaCl(aq) + H₂O(l) → NaOH(aq) + HCl(aq). Evaluate this equation. Is it correct for the industrial process? Justify your answer with two reasons.",
+     "a": "The equation is incorrect for the industrial chlor-alkali process. Reason 1: The actual products are Cl₂(g) and H₂(g), not HCl. HCl would form only if Cl₂ and H₂ combine, but they are kept separate. Reason 2: The equation is not balanced for charge or atoms (Cl and H counts mismatch). The correct overall reaction is 2NaCl + 2H₂O → 2NaOH + Cl₂ + H₂. A wrong evaluation (e.g., \"it's correct because NaCl and water react\") reveals the student confuses the net ionic reaction with the actual industrial process and ignores the gaseous products — a frequent 1-mark error in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory activity to demonstrate the chlor-alkali process using a 9V battery, two pencils (graphite electrodes), and concentrated salt solution. List the observations at each electrode and the test to confirm the identity of the gas at the anode.",
+     "a": "Setup: Dissolve 4-5 spoons of common salt in 100 mL water. Sharpen both ends of two pencils. Connect to 9V battery via wires. Immerse pencil tips in solution without touching.  \nObservations: Bubbles at both electrodes. At cathode (negative): more bubbles, gas burns with 'pop' sound (H₂). At anode (positive): fewer bubbles, gas turns moist blue litmus red then bleaches it white (Cl₂).  \nTest for Cl₂: Hold moist blue litmus paper near anode bubbles — it turns red then white. A poor answer (e.g., \"test with burning splint for both\") shows the student cannot distinguish the gases or recall the specific test for chlorine (bleaching action), which is a standard practical-based board question.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

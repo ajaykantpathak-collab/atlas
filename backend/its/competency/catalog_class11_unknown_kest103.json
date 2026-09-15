@@ -1,0 +1,178 @@
+{
+  "class": 11,
+  "subject": "economics",
+  "chapter": 103,
+  "chapter_title": "Organisation of Data",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kest103.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kest103.1.1",
+      "title": "Classification: Bringing Order to Raw Data",
+      "section": "1.1",
+      "definition": "Raw data, collected unit by unit, is a jumble. Classification arranges it into homogeneous classes on some basis -- geographical, chronological, qualitative or quantitative -- so that the mass can be comprehended and subjected to statistical treatment.",
+      "formula": "",
+      "key_idea": "Classification is sorting for sight -- one basis at a time, chaos becomes classes.",
+      "textbook_ref": "kest103.txt classification sections (classification of raw data, geographical chronological qualitative quantitative, purpose of classification)",
+      "question_patterns": [
+        "what is meant by classification of data",
+        "in class 11 organisation of data: name the bases of classification with examples",
+        "why must raw data be classified before analysis",
+        "classify a given dataset by a suitable basis",
+        "distinguish qualitative classification from quantitative classification",
+        "how does classification bring order to a mass of figures"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "choose the basis",
+          "explain": "Decide the characteristic that matters for the study -- place, time, attribute or variable."
+        },
+        {
+          "step": 2,
+          "action": "form homogeneous classes",
+          "explain": "Sort every unit into the class where it belongs, with no overlap and nothing left out."
+        },
+        {
+          "step": 3,
+          "action": "prepare for treatment",
+          "explain": "The classified data is now compact enough for tabulation and statistical analysis."
+        }
+      ]
+    },
+    {
+      "id": "kest103.1.2",
+      "title": "Variables, Frequency Distributions and Class Intervals",
+      "section": "1.2",
+      "definition": "Quantitative data is organised by variables -- characteristics that take different numerical values. A frequency distribution records how many observations fall into each value or class interval; exclusive classes count values up to the upper limit, inclusive classes include both endpoints, and class marks stand for each interval.",
+      "formula": "class_mark = (upper_limit + lower_limit) / 2",
+      "key_idea": "Count the cases per class -- the frequency distribution is the data's first portrait.",
+      "textbook_ref": "kest103.txt frequency sections (variables discrete continuous, frequency distribution, exclusive and inclusive classes, class limits class mark tally marks)",
+      "question_patterns": [
+        "define variable and distinguish discrete from continuous variables",
+        "in class 11 organisation of data: explain exclusive and inclusive class intervals",
+        "prepare a frequency distribution for the given raw data",
+        "how is the class mark of an interval calculated",
+        "convert an inclusive series into an exclusive series",
+        "what is the use of tally marks in forming a frequency table"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "add the class limits",
+          "explain": "Sum the lower and upper limits of the interval.",
+          "compute": "limit_sum = lower_limit + upper_limit"
+        },
+        {
+          "step": 2,
+          "action": "halve the sum",
+          "explain": "Half the sum of limits is the class mark representing the whole interval.",
+          "compute": "class_mark = limit_sum / 2"
+        }
+      ]
+    },
+    {
+      "id": "kest103.1.3",
+      "title": "Loss of Information and Choice of Classes",
+      "section": "1.3",
+      "definition": "Grouping buys clarity at a price: individual values disappear into intervals, so some information is lost. The statistician must therefore choose the number and width of classes with care -- enough classes to preserve the pattern, few enough to stay readable.",
+      "formula": "",
+      "key_idea": "Grouping trades detail for clarity -- the art is losing the least information for the most readability.",
+      "textbook_ref": "kest103.txt grouping sections (loss of information, number of classes, width of class intervals, adjusting classes)",
+      "question_patterns": [
+        "why does classification cause loss of information",
+        "in class 11 organisation of data: how should the number of classes be decided",
+        "what happens if class intervals are too wide or too narrow",
+        "comment on the width of classes in a given frequency distribution",
+        "adjust the given classes to make them exclusive",
+        "how does grouping help and harm statistical analysis"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "weigh the trade-off",
+          "explain": "Few broad classes are easy to read but blur the distribution's shape; many narrow classes do the reverse."
+        },
+        {
+          "step": 2,
+          "action": "match to purpose",
+          "explain": "Choose class limits that are convenient, mutually exclusive and cover the whole range."
+        },
+        {
+          "step": 3,
+          "action": "remember the cost",
+          "explain": "Individual identities vanish in grouping, so later exact calculations acknowledge approximation."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kest103.txt frequency sections",
+      "concept": "kest103.1.2",
+      "question_type": "compute",
+      "question_pattern": "Find the class mark of the interval {lower_limit} - {upper_limit}.",
+      "extracted_variables": {
+        "lower_limit": 20,
+        "upper_limit": 30
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "add the class limits",
+          "explain": "limit_sum = 20 + 30 = 50.",
+          "compute": "limit_sum = lower_limit + upper_limit"
+        },
+        {
+          "step": 2,
+          "action": "halve the sum",
+          "explain": "class_mark = 50 / 2 = 25.",
+          "compute": "class_mark = limit_sum / 2"
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kest103.txt frequency sections",
+      "concept": "kest103.1.2",
+      "question_type": "compute",
+      "question_pattern": "For the class interval {lower_limit} - {upper_limit}, compute its mid-value.",
+      "extracted_variables": {
+        "lower_limit": 10,
+        "upper_limit": 20
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "add the class limits",
+          "explain": "limit_sum = 10 + 20 = 30.",
+          "compute": "limit_sum = lower_limit + upper_limit"
+        },
+        {
+          "step": 2,
+          "action": "halve the sum",
+          "explain": "class_mark = 30 / 2 = 15.",
+          "compute": "class_mark = limit_sum / 2"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kest103.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Form a frequency distribution from the given raw data with suitable classes.",
+        "Convert an inclusive series into an exclusive series.",
+        "Distinguish discrete and continuous variables with examples.",
+        "Explain the loss of information involved in classification.",
+        "Calculate class marks for all classes of a given series.",
+        "State the bases of classification with one example each."
+      ]
+    }
+  ]
+}

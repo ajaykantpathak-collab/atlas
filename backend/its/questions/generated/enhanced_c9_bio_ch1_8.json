@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch1_8",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch1_8",
+   "title": "c9_bio_ch1_8",
+   "questions": [
+    {
+     "q": "What are the flattened membrane-bound sacs that make up the Golgi apparatus called, and how are they arranged?",
+     "a": "The flattened sacs are called **cisternae**, and they are stacked parallel to each other like a pile of pancakes, typically 3–8 cisternae per stack in animal cells. A wrong answer (e.g., \"tubules\" or \"randomly scattered sacs\") reveals the student confuses Golgi with smooth ER (tubular network) or thinks organelles lack organized internal architecture.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Golgi apparatus have a distinct cis-face and trans-face, and what would happen if a protein entered the trans-face directly instead of the cis-face?",
+     "a": "The cis-face (convex, near ER) receives vesicles from the ER; the trans-face (concave, away from ER) ships finished vesicles to destinations. Each cisterna level contains specific modification enzymes in a strict sequence (e.g., early cisternae add mannose, later cisternae add galactose/sialic acid). If a protein entered at the trans-face, it would miss sequential modifications — like sending a letter without writing the address — resulting in misfolded, non-functional proteins or mis-sorting. A wrong answer (e.g., \"faces are just structural\") shows the student misses the **ordered assembly line logic** of Golgi processing.",
+     "self_check": true
+    },
+    {
+     "q": "A pancreatic beta cell produces insulin, a protein hormone secreted into the bloodstream. Trace the complete pathway of insulin from its synthesis to secretion, naming every organelle and vesicle type involved.",
+     "a": "Step 1: Insulin mRNA translated on **ribosomes attached to rough ER** → polypeptide enters ER lumen. Step 2: Proinsulin folds, disulfide bonds form in **ER lumen**. Step 3: **COPII-coated transport vesicles** bud from ER transitional zones. Step 4: Vesicles fuse with **cis-face of Golgi**. Step 5: Proinsulin moves through **medial cisternae** — cleaved to mature insulin by proteases. Step 6: **Trans-Golgi network (TGN)** sorts insulin into **secretory granules (dense-core vesicles)**. Step 7: Granules move to plasma membrane, **exocytosis** releases insulin. A wrong pathway (e.g., skipping Golgi, or saying \"secreted directly from ER\") reveals the student doesn't grasp the **mandatory Golgi checkpoint** for all secretory proteins.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Golgi apparatus in a typical animal cell (e.g., liver cell) versus a plant cell (e.g., root tip cell). Identify two structural differences and explain the functional reason for each.",
+     "a": "Difference 1: **Animal cells** usually have **one large Golgi complex** near the nucleus; **plant cells** have **many small Golgi stacks (dictyosomes)** scattered in cytoplasm. Reason: Plant cells have a rigid cell wall and large central vacuole — a single central Golgi couldn't efficiently ship vesicles to all cortical regions for cell wall synthesis. Difference 2: **Plant Golgi** heavily produces **pectin and hemicellulose polysaccharides** for cell wall; **animal Golgi** focuses on glycoprotein/lipid secretion. Reason: Plants need constant cell wall material for growth/division; animals prioritize signaling molecules. A wrong answer (e.g., \"plant Golgi is bigger\") shows the student hasn't linked **cell architecture to organelle distribution**.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher treats cells with **brefeldin A**, a drug that blocks COPI vesicle formation, causing Golgi enzymes to relocate to the ER. Predict what happens to: (a) protein glycosylation, (b) lysosomal enzyme targeting, and (c) secretion of mucus by goblet cells. Justify each.",
+     "a": "(a) **Glycosylation becomes incomplete/aberrant** — Golgi enzymes (glycosyltransferases) normally reside in specific cisternae; if they diffuse back to ER, the ordered modification sequence is lost. (b) **Lysosomal enzymes miss mannose-6-phosphate tag** — this tag is added in *trans*-Golgi; without functional Golgi sorting, enzymes are secreted instead of reaching lysosomes → causes **I-cell disease phenotype**. (c) **Mucus secretion stops** — goblet cells rely on Golgi to package mucins into large secretory granules; without Golgi integrity, granules don't form. A wrong prediction (e.g., \"secretion increases\") reveals the student doesn't understand **Golgi as an obligatory sorting station**, not just a passive tube.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a light microscope and vital dyes to show that the Golgi apparatus is active in secreting mucus in goblet cells of the intestinal lining. List materials, steps, and expected observation.",
+     "a": "Materials: Fresh goat intestine (from butcher), 0.1% neutral red dye (accumulates in acidic vesicles), saline, slides, coverslips, light microscope. Steps: (1) Cut 2 mm intestinal piece, rinse in saline. (2) Incubate in neutral red + saline for 15 min at 37°C. (3) Rinse, mount epithelium side up. (4) Observe columnar cells — goblet cells appear as **clear cups** (mucus unstained) with **red-stained granules** near apex (Golgi-derived secretory vesicles). (5) Add 0.1% acetylcholine (stimulates secretion) — watch red granules move to apex and disappear (exocytosis). Expected: Red vesicles = active Golgi packaging; disappearance = secretion. Poor answer (e.g., \"stain nucleus\") shows the student can't connect **dye chemistry to organelle function**.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

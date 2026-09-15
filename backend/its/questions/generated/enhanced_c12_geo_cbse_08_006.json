@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_08_006",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_08_006",
+   "title": "c12_geo_cbse_08_006",
+   "questions": [
+    {
+     "q": "Name the trans-continental highway that links the Atlantic and Pacific coasts of Canada and state its approximate length.",
+     "a": "The Trans-Canada Highway links St. John’s (Newfoundland, Atlantic) to Victoria (British Columbia, Pacific) and is approximately 7,821 km long. A wrong answer (e.g., naming the Alaska Highway or giving a length of 5,000 km) reveals the student confuses national highways with trans-continental ones or lacks map-scale estimation practice.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Pan-American Highway has a 100 km gap (the Darién Gap) between Panama and Colombia, and how this affects its function as a true trans-continental route.",
+     "a": "The Darién Gap is a dense, swampy tropical rainforest with extreme biodiversity and indigenous territories; building a road would cause irreversible ecological damage and political conflict, so it remains unfinished. This gap means the Pan-American Highway is not a continuous drivable route from Alaska to Tierra del Fuego — vehicles must be shipped around it. A wrong answer citing “lack of funding” or “political disputes only” misses the dominant physical geography constraint.",
+     "self_check": true
+    },
+    {
+     "q": "On a world outline map, trace the route of the Trans-Siberian Highway from Moscow to Vladivostok and identify the major physical region it crosses that poses the greatest engineering challenge.",
+     "a": "The highway runs Moscow → Nizhny Novgorod → Yekaterinburg → Omsk → Novosibirsk → Krasnoyarsk → Irkutsk → Chita → Khabarovsk → Vladivostok. The greatest engineering challenge is the permafrost zone of eastern Siberia (especially around Yakutsk), where seasonal thawing causes ground subsidence and requires elevated or insulated roadbeds. An incorrect route (e.g., routing through Kazakhstan) or missing permafrost shows weak mental mapping of Russian geography.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the economic rationale for the Trans-Canada Highway with that of the Trans-Siberian Highway. How do their roles in national integration differ?",
+     "a": "The Trans-Canada Highway (completed 1962) was built to unite a young, east–west oriented federation by linking resource-rich western provinces (timber, minerals, grain) to eastern markets and ports, fostering national unity. The Trans-Siberian Highway (largely completed post-2000s) primarily serves resource extraction (oil, gas, diamonds) in Siberia and strategic military mobility across Russia’s vast east–west expanse. A student who says both were built “for trade” misses the distinct nation-building vs. resource-extraction drivers.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: “Highway 1 in Australia is a true trans-continental highway because it circles the entire continent.” Justify your answer with geographical evidence.",
+     "a": "The statement is misleading. Highway 1 is a 14,500 km ring road around Australia’s coastline, connecting all mainland state capitals. It is trans-continental in length but not in function: it avoids the arid interior (Outback) where population and economic activity are minimal. A true trans-continental highway would cross the continent (e.g., Darwin to Melbourne via the centre), which Highway 1 does not. A student agreeing without qualification confuses “long coastal road” with “trans-continental corridor.”",
+     "self_check": true
+    },
+    {
+     "q": "Design a proposal for a new trans-continental highway across Africa from Dakar (Senegal) to Djibouti (Djibouti). List three physical geography constraints and two economic justifications you would include in a feasibility report.",
+     "a": "Constraints: (1) Sahara Desert (extreme heat, sand dunes, water scarcity), (2) Sahel transition zone (seasonal flooding, laterite soils), (3) Ethiopian Highlands (steep gradients, landslides). Justifications: (1) Links 11 Sahelian/Saharan countries, enabling landlocked nations (Mali, Niger, Chad) to access Atlantic and Red Sea ports, (2) Aligns with African Union’s PIDA (Programme for Infrastructure Development in Africa) corridor to boost intra-African trade from 15% to 25% by 2030. A poor answer lists generic “mountains” or “deserts” without naming specific regions, or cites only “economic growth” without spatial logic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

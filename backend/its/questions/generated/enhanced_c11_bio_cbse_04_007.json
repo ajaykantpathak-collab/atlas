@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bio_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c11_bio_cbse_04_007",
+   "title": "c11_bio_cbse_04_007",
+   "questions": [
+    {
+     "q": "State the three germ layers present in Aschelminthes and name the body cavity type they possess.",
+     "a": "Correct answer: Ectoderm, mesoderm, endoderm (triploblastic); pseudocoelom (body cavity not fully lined by mesoderm, mesoderm present as scattered pouches). A wrong answer (e.g., \"diploblastic\" or \"acoelomate\") reveals the student has not grasped the triploblastic nature of all phyla from Platyhelminthes onward, or confuses pseudocoelom with the absence of a cavity (acoelomate) seen in flatworms.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the presence of a pseudocoelom in Aschelminthes is considered an evolutionary advancement over the acoelomate condition of Platyhelminthes, but not as advanced as the true coelom of Annelida.",
+     "a": "Correct answer: Pseudocoelom provides a fluid-filled hydrostatic skeleton against which muscles can act, enabling more efficient locomotion (thrashing) and allowing a longer, complete digestive tract to develop; however, the mesoderm does not line the cavity, so organs are not suspended by mesenteries, limiting organ complexity and size compared to true coelomates where mesoderm forms peritoneum and mesenteries. A wrong answer (e.g., \"pseudocoelom is same as true coelom\") shows the student misses the structural/functional distinction: mesodermal lining vs. scattered pouches, which affects organ support, circulation, and body size potential.",
+     "self_check": true
+    },
+    {
+     "q": "A cylindrical worm is found in a soil sample. It has a complete digestive system with a muscular pharynx, an excretory pore, and separate sexes. The body cavity is filled with fluid but lacks a peritoneal lining. Identify its phylum and justify using two features.",
+     "a": "Correct answer: Phylum Aschelminthes. Justification: (1) Pseudocoelom (fluid-filled cavity without peritoneal lining) distinguishes it from Annelida (true coelom) and Platyhelminthes (acoelomate). (2) Complete digestive system with muscular pharynx distinguishes it from Platyhelminthes (incomplete gut). A wrong answer (e.g., \"Annelida because it has a body cavity\") reveals the student cannot differentiate pseudocoelom from true coelom or overlooks the absence of segmentation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the excretory structures of Platyhelminthes (flame cells) and Aschelminthes (excretory tube). How does the difference relate to their body cavity type?",
+     "a": "Correct answer: Platyhelminthes (acoelomate) use flame cells (protonephridia) for osmoregulation/excretion because there is no body cavity to collect waste; Aschelminthes (pseudocoelomate) have an excretory tube (often H-shaped) opening via a pore that drains waste directly from the pseudocoelomic fluid. The pseudocoelom acts as a collection space for metabolic wastes, allowing a simpler tube system, whereas acoelomates need a network of tubules reaching every cell. A wrong answer (e.g., \"both have flame cells\") shows the student does not link excretory evolution to body cavity architecture.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"All Aschelminthes are parasitic worms causing human disease.\" Provide two counter-examples from the phylum.",
+     "a": "Correct answer: The statement is false. Aschelminthes includes free-living soil nematodes (e.g., *Caenorhabditis elegans*, a model organism) and plant parasites (e.g., *Meloidogyne* root-knot nematodes). Only some are human parasites (*Ascaris*, *Wuchereria*, *Ancylostoma*). A wrong answer (e.g., \"true, all are parasites\") reveals the student generalizes from the three textbook examples and ignores the phylum's vast ecological diversity (free-living, marine, plant-parasitic).",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple dichotomous key using only body cavity type, digestive tract completeness, and segmentation to separate Platyhelminthes, Aschelminthes, and Annelida.",
+     "a": "Expected answer: \n1a. Body cavity absent (acoelomate) → Platyhelminthes\n1b. Body cavity present → go to 2\n2a. Body cavity true coelom (mesoderm-lined), segmented → Annelida\n2b. Body cavity pseudocoelom (not mesoderm-lined), unsegmented → Aschelminthes\nA poor answer (e.g., using symmetry or cephalization) shows the student cannot prioritize the three key classificatory characters emphasized in NCERT for these phyla.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

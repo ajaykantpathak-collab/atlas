@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_v_cbse_04_012",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_v_cbse_04_012",
+   "title": "c11_hin_v_cbse_04_012",
+   "questions": [
+    {
+     "q": "Identify the question type: \"According to the text, what is the 'ukV~;'kkL=k' (Natyashastra) considered for classical dance?\" Is this literal or inferential?",
+     "a": "Literal. The text explicitly states: \"ukV~;'kkL=k esa budk 'kkL=kh; Lo:i cuk] tks dyk osQ fy, vc rd dk çkIr lcls egRoiw.kZ 'kkL=k gSA\" A wrong answer (inferential) reveals the student confuses \"explicitly stated fact\" with \"needs interpretation\" - they may think any question about importance requires inference.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the author says folk art forms are \"yksd ls tqM+h\" (connected to folk) even today, using the phrase \"thou ls tqM+h\" (connected to life) from the text.",
+     "a": "This is an UNDERSTAND question. Correct answer: Folk arts originate from daily rituals (çÑfr), agricultural cycles (R;ksgkj), and life events (tUeksRlo ls 'kknh&C;kg), so they remain embedded in community life unlike court arts which depended on patronage. A wrong answer that just quotes \"thou ls tqM+h\" without explaining the *connection* reveals the student cannot paraphrase or see the cause-effect link between origin and survival.",
+     "self_check": true
+    },
+    {
+     "q": "APPLY: A board exam asks: \"How does the text suggest that the distinction between 'classical' and 'folk' art is blurred in practice?\" Write a 2-sentence PEEL answer using textual evidence.",
+     "a": "Step 1: Identify claim - The boundary is fluid. Step 2: Find evidence - Text says: \"'kkL=kh; vkSj yksddykvksa osQ chp dHkh u •Re gksus okyk laokn gh budh rkdr gSA\" and \"vkt osQ eapksa ;k f-iQYeksa esa tks laxhr ;k u`R; feyrk gS muesa nksuksa dk feyk&tqyk :i vf/d fn•kbZ iM+rk gSA\". Step 3: Explain - Continuous interaction (laokn) and mixed presentation in modern media prove the categories aren't rigid. Step 4: Link - Thus, the text portrays them as a spectrum, not binaries. A wrong answer listing separate features of each reveals inability to synthesize evidence for a comparative inference.",
+     "self_check": true
+    },
+    {
+     "q": "ANALYZE: Compare the survival mechanisms of folk painting (fp=kdyk) and classical dance (laxhr) as described in the text. What structural difference in their transmission does the author highlight?",
+     "a": "Folk painting survives through community participation (\"le`¼ esa gh xk;k tkrk Fkk\", \"yksd #fp osQ vuqlkj\") and ritual necessity (walls/floors for festivals), making it decentralized. Classical dance survived through codified texts (\"ukV~;'kkL=k\", \"fy•k x;k vkSj ckn esa pydj ,d 'kkL=kh; ijaijk 'kq: gqbZ\") and guru-shishya parampara under royal patronage (\"jktkvksa osQ laj{k.k\"), making it institutionalized. A wrong answer that only describes themes or costumes misses the *transmission structure* (community vs. institution) which is the analytical core.",
+     "self_check": true
+    },
+    {
+     "q": "EVALUATE: \"The author claims Indian arts give 'mRlkg vkSj fo'okl' (joy and peace) because they are rooted in 'euq\"; osQ thou' (inner life).\" Do you agree this is the *primary* reason for their global appeal today? Justify using text and outside knowledge.",
+     "a": "Partially agree. Text supports: \"euq\"; osQ thou ls tqM+h gksus osQ dkj.k gh ... fojklr osQ çfr gesa mRlkg vkSj fo'okl ls Hkj nsrh gSaA\" But global appeal today also stems from aesthetic uniqueness (e.g., Madhubani's geometric patterns, Bharatanatyam's precision) and cultural exoticism - factors the text doesn't claim as primary. A wrong answer that just says \"Yes, because text says so\" reveals uncritical acceptance; a wrong answer saying \"No, it's marketing\" ignores textual evidence. Good evaluation balances textual claim with contextual limits.",
+     "self_check": true
+    },
+    {
+     "q": "CREATE: Frame one literal and one inferential question *from the perspective of a 10th-century temple sculptor* reading the section on \"laxhr dyk\" (dance), based only on information in the text.",
+     "a": "Literal: \"What were the two types of dance mentioned in the ancient tradition?\" (Text: \"ekxhZ rFkk nslh\"). Inferential: \"If dance moved from temples to courts, did the 'devotional essence' (ekxhZ) get diluted or adapted?\" (Requires inferring from \"lkeosn es xkus osQ tks funZs'k fn, x, gSa mlls ;g irk pyrk gS fd ... iwtk vkSj ea=kksPpkj osQ rjhosQ dks gh lke dgrs Fks\" vs later \"orZeku le; esa ... euq\"; osQ thou dk T+k:jh vax Fkk\"). A poor question pair would be factual recall only or unanswerable from text.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_23_009",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_23_009",
+   "title": "c11_eng_w_cbse_23_009",
+   "questions": [
+    {
+     "q": "Define verbal irony and give one example from Chandrasekhar's essay where a quoted statement means the opposite of its surface meaning in the context of the lecture.",
+     "a": "Verbal irony occurs when a speaker says one thing but means another, often the opposite. In the essay, Wordsworth's line \"We murder to dissect\" is verbally ironic in context: Chandrasekhar quotes it not to endorse the view but to expose its narrowness—the very act of quoting it in a scientific lecture turns the poet's criticism into evidence of poetry's failure to understand science. A wrong answer would simply quote the line without explaining the contextual reversal, showing the student confuses quotation with irony.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the situational irony in Darwin's confession that his scientific work caused the \"atrophy\" of his poetic taste, given Chandrasekhar's broader argument about Shelley.",
+     "a": "The situational irony lies in the outcome contradicting the expectation: one would expect a great scientist like Darwin to embody the \"mutually sustaining endeavours\" of science and poetry that Chandrasekhar (via Shelley) advocates. Instead, Darwin's specialization destroyed his aesthetic capacity. Chandrasekhar presents this as a cautionary case, not a necessary pattern—since Shelley proves the two can coexist. A wrong answer would miss the contrast between Darwin's experience and Shelley's counter-example, treating Darwin's atrophy as proof that science and poetry are incompatible.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of dramatic irony to Faraday's response to Gladstone (\"you will soon be able to tax it\"). Who possesses the knowledge that creates the irony, and what does the audience (Gladstone vs. reader) understand?",
+     "a": "Dramatic irony arises because the reader, knowing the history of electricity's commercialization, understands the prophetic truth of Faraday's witty reply, while Gladstone in the moment sees only a clever evasion. Faraday himself occupies a middle position: he knows the scientific potential but frames it as probability. The irony deepens because Chandrasekhar recounts this to illustrate how practical utility follows theoretical insight—a pattern Gladstone misses. A wrong answer would confuse this with verbal irony or miss the temporal gap between the historical moment and the reader's hindsight.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how Shelley's \"Cloud\" functions as a complex symbol in the essay. What three elements does it fuse, and how does this fusion serve Chandrasekhar's thesis?",
+     "a": "The Cloud symbolizes the fusion of (1) creative myth (personification as daughter of Earth and Water), (2) scientific monograph (accurate description of the water cycle: evaporation, condensation, precipitation), and (3) picaresque tale (adventure narrative of the cloud's journeys). This tripartite fusion embodies Chandrasekhar's thesis that the highest creativity transcends the science-poetry divide—Shelley's poem *is* the meeting point, not merely a description of it. A wrong answer would list only one or two elements or treat the Cloud as a simple metaphor for the water cycle, missing its structural role in the argument.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate Chandrasekhar's use of the phrase \"hierophants of an unapprehended inspiration\" as a symbol for poets. Does this symbol strengthen or undermine his argument for the unity of science and poetry?",
+     "a": "The symbol strengthens the argument by elevating poets to priest-like revealers of truths not yet grasped by reason—paralleling the scientist's role in unveiling natural laws. \"Unapprehended inspiration\" mirrors the scientist's intuition before formal proof. However, the religious connotation of \"hierophants\" risks mystifying poetry, potentially widening the gap Chandrasekhar seeks to bridge. A strong evaluation acknowledges both the symbolic aptness and the rhetorical risk. A weak answer would only praise the imagery without critical assessment.",
+     "self_check": true
+    },
+    {
+     "q": "Create a two-sentence \"micro-essay\" opening that uses verbal irony to introduce the science-poetry debate, modeled on Chandrasekhar's technique of quoting a critic to expose the criticism's flaw.",
+     "a": "Example: \"Critics claim poetry has no place in the laboratory—yet every great hypothesis begins as a metaphor. Perhaps the lab coat is simply a poet's disguise.\" A strong answer uses irony to invert the expected hierarchy and hints at the unity thesis. A weak answer would state the debate directly without ironic framing, showing the student cannot generate the device independently.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

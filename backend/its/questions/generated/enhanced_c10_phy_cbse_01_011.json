@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_01_011",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_01_011",
+   "title": "c10_phy_cbse_01_011",
+   "questions": [
+    {
+     "q": "A 100 W, 220 V electric bulb is connected to a 220 V supply. What is the current drawn by the bulb? State the formula used and the SI unit of the answer.",
+     "a": "Correct answer: I = P/V = 100 W / 220 V = 0.4545 A (ampere). Formula used: P = VI → I = P/V. A wrong answer (e.g., 22000 A or 0.4545 W) reveals the student either multiplied instead of divided, or confused the unit of current (ampere) with the unit of power (watt), indicating a lack of unit awareness and formula rearrangement skill.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the formula H = I²Rt (Joule's heating) and H = Pt give the same heat energy for a resistor, and under what condition this equivalence holds.",
+     "a": "Correct explanation: P = I²R (from P=VI and V=IR), so substituting into H = Pt gives H = (I²R)t = I²Rt. The equivalence holds only when the circuit is purely resistive (all electrical energy is converted to heat) and the current I is constant (DC or RMS value for AC). A wrong answer (e.g., \"they are always equal\" or \"H=Pt is for power, H=I²Rt is for heat\") reveals the student does not see the algebraic link between power formulas or misunderstands that P in H=Pt must be the power dissipated as heat in that specific resistor.",
+     "self_check": true
+    },
+    {
+     "q": "An electric iron rated 750 W, 220 V is used for 20 minutes. Calculate (a) the resistance of its heating element, (b) the energy consumed in joules, and (c) the energy consumed in kWh (units).",
+     "a": "Given: P = 750 W, V = 220 V, t = 20 min = 1200 s = 20/60 = 1/3 h.\n(a) I = P/V = 750/220 = 3.409 A. R = V/I = 220/3.409 = 64.53 Ω. (Or directly R = V²/P = 220²/750 = 48400/750 = 64.53 Ω).\n(b) H = Pt = 750 W × 1200 s = 9,00,000 J = 9 × 10⁵ J.\n(c) Energy in kWh = P(kW) × t(h) = 0.75 kW × (1/3) h = 0.25 kWh = 0.25 units.\nA wrong answer in (a) using R = V/P (giving 0.293 Ω) shows confusion between V=IR and P=VI. A wrong answer in (c) using time in seconds (0.75 × 1200 = 900 kWh) shows failure to convert units for kWh calculation.",
+     "self_check": true
+    },
+    {
+     "q": "Two heaters A (1000 W, 220 V) and B (500 W, 220 V) are connected in parallel across a 220 V supply. Which heater produces more heat per second? What is the ratio of their resistances? Explain your reasoning.",
+     "a": "Heat per second = power. Heater A (1000 W) produces more heat per second than B (500 W). In parallel, voltage across each is same (220 V). R = V²/P. So R_A = 220²/1000 = 48.4 Ω, R_B = 220²/500 = 96.8 Ω. Ratio R_A : R_B = 1 : 2. A wrong answer claiming heater B produces more heat because \"higher resistance means more heat (H=I²R)\" reveals the common misconception that H=I²R always means higher R gives more heat, ignoring that in parallel, current is not the same — voltage is same, so H = V²t/R applies, making lower resistance produce more heat.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a problem: \"A 60 W, 240 V bulb operates on 220 V supply. Find the power consumed.\" The student writes: R = V²/P = 240²/60 = 960 Ω. Then P' = V'²/R = 220²/960 = 50.4 W. Is this correct? If not, identify the error and give the correct approach.",
+     "a": "The student's method and answer (50.4 W) are correct *only if* the resistance of the bulb filament remains constant. However, the filament's resistance changes significantly with temperature (it is lower when cold). The rated resistance (960 Ω) is at the high operating temperature (when glowing at 240 V). At 220 V, the filament is cooler, so its actual resistance is lower than 960 Ω, meaning the actual power consumed will be *higher* than 50.4 W. The student's error is assuming constant resistance — a classic board exam trap. The correct approach for a rigorous answer: state the assumption \"assuming resistance remains constant\" and then compute 50.4 W, but note that in reality the power will be higher due to lower resistance at lower temperature.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a 6 V battery, a variable resistor (rheostat), an ammeter, a voltmeter, and a small immersion heater coil (known resistance) to verify the relationship H = I²Rt. Specify the measurements to take, the graph to plot, and how to calculate the heat produced independently (e.g., using water calorimetry).",
+     "a": "A good answer: Set up a series circuit with battery, rheostat, ammeter, and heater coil immersed in a known mass of water in a calorimeter. Connect voltmeter across the coil. For 5-6 different rheostat settings, record steady current I, voltage V across coil, and time t (e.g., 5 min). Measure initial and final water temperature ΔT. Calculate heat absorbed by water H_cal = mcΔT. Plot H_cal vs I²t (since R is constant, slope = R). If the graph is a straight line through origin with slope matching the coil's known resistance, H = I²Rt is verified. A poor answer (e.g., \"measure current and time, calculate I²Rt\") misses the independent calorimetry measurement, the need to vary current, and the graphical verification — showing the student treats the formula as a definition rather than an experimentally verifiable law.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

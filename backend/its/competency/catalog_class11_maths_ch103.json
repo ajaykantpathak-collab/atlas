@@ -1,0 +1,892 @@
+{
+ "class": 11,
+ "subject": "maths",
+ "chapter": 103,
+ "chapter_title": "Trigonometric Functions",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kemh101.txt",
+ "concepts": [
+  {
+   "id": "kemh.3.1",
+   "title": "Degree to Radian Conversion",
+   "section": "3.2.4",
+   "definition": "Converts an angular measurement from degrees, minutes, and seconds into the equivalent radian measure.",
+   "formula": "radian = (degrees + minutes / 60) * pi / 180",
+   "key_idea": "Multiply the degree value by pi divided by 180.",
+   "textbook_ref": "kemh103.txt lines 50-80",
+   "question_patterns": [
+    "convert degrees to radians",
+    "find the radian measure of an angle of ... degrees",
+    "what is the radian equivalent of ... degrees ... minutes",
+    "express the degree angle in radians",
+    "Explain the method of Degree to Radian Conversion."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Convert minutes to degrees",
+     "explain": "Divide the minutes by 60 to express them as a fraction of a degree, then add to the degrees.",
+     "compute": "degrees + minutes / 60"
+    },
+    {
+     "step": 2,
+     "action": "Convert to radians",
+     "explain": "Multiply the total degrees by pi and divide by 180.",
+     "compute": "decimal_degrees * pi / 180"
+    },
+    {
+     "step": 3,
+     "action": "Simplify the radian expression",
+     "explain": "Reduce the fraction by canceling common factors between the numerator and 180 to express the radian in simplest form.",
+     "compute": "decimal_degrees * pi / 180"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving degree to radian conversion.",
+     "solution": "Step 1: Convert minutes to degrees. Step 2: Convert to radians. Step 3: Simplify the radian expression. Working: degrees + minutes / 60, decimal_degrees * pi / 180, decimal_degrees * pi / 180.",
+     "answer": "Degree to Radian Conversion applied step by step gives the required result."
+    },
+    {
+     "question": "Apply degree to radian conversion to a fresh example and interpret the result.",
+     "solution": "Step 1: Convert minutes to degrees. Step 2: Convert to radians. Step 3: Simplify the radian expression. Working: degrees + minutes / 60, decimal_degrees * pi / 180, decimal_degrees * pi / 180.",
+     "answer": "The method of degree to radian conversion leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh.3.2",
+   "title": "Radian to Degree Conversion",
+   "section": "3.2.4",
+   "definition": "Converts an angular measurement from radians into degrees, minutes, and seconds.",
+   "formula": "degree = radian * 180 / pi",
+   "key_idea": "Multiply the radian value by 180 divided by pi.",
+   "textbook_ref": "kemh103.txt lines 81-110",
+   "question_patterns": [
+    "convert radians to degrees",
+    "find the degree measure of ... radians",
+    "what is the degree equivalent of ... radians",
+    "express the radian angle in degrees, minutes, and seconds",
+    "Explain the method of Radian to Degree Conversion."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate total degrees",
+     "explain": "Multiply the radian measure by 180 and divide by pi.",
+     "compute": "radian * 180 / pi"
+    },
+    {
+     "step": 2,
+     "action": "Extract integer degrees",
+     "explain": "Find the integer part of the total degrees.",
+     "compute": "total_degrees // 1"
+    },
+    {
+     "step": 3,
+     "action": "Convert remainder to minutes",
+     "explain": "Multiply the fractional part of degrees by 60 to get total minutes.",
+     "compute": "(total_degrees - degrees) * 60"
+    },
+    {
+     "step": 4,
+     "action": "Extract integer minutes",
+     "explain": "Find the integer part of the total minutes.",
+     "compute": "total_minutes // 1"
+    },
+    {
+     "step": 5,
+     "action": "Convert remainder to seconds",
+     "explain": "Multiply the fractional part of minutes by 60 to get seconds.",
+     "compute": "(total_minutes - minutes) * 60"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving radian to degree conversion.",
+     "solution": "Step 1: Calculate total degrees. Step 2: Extract integer degrees. Step 3: Convert remainder to minutes. Step 4: Extract integer minutes. Step 5: Convert remainder to seconds. Working: radian * 180 / pi, total_degrees // 1, (total_degrees - degrees) * 60, total_minutes // 1, (total_minutes - minutes) * 60.",
+     "answer": "Radian to Degree Conversion applied step by step gives the required result."
+    },
+    {
+     "question": "Apply radian to degree conversion to a fresh example and interpret the result.",
+     "solution": "Step 1: Calculate total degrees. Step 2: Extract integer degrees. Step 3: Convert remainder to minutes. Step 4: Extract integer minutes. Step 5: Convert remainder to seconds. Working: radian * 180 / pi, total_degrees // 1, (total_degrees - degrees) * 60, total_minutes // 1, (total_minutes - minutes) * 60.",
+     "answer": "The method of radian to degree conversion leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh.3.3",
+   "title": "Arc Length, Radius, and Angle Relation",
+   "section": "3.2.2",
+   "definition": "Relates the length of a circular arc to the radius of the circle and the subtended central angle in radians.",
+   "formula": "arc_length = radius * theta",
+   "key_idea": "The arc length is the product of the radius and the central angle in radians.",
+   "textbook_ref": "kemh103.txt lines 111-130",
+   "question_patterns": [
+    "find the arc length of a circle",
+    "calculate the distance moved by the tip of a hand",
+    "how far does the tip move in ... minutes",
+    "find the radius given arc length and angle",
+    "Explain the method of Arc Length, Radius, and Angle Relation."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Convert angle to radians",
+     "explain": "Multiply the degree measure by pi and divide by 180.",
+     "compute": "theta_degrees * pi / 180"
+    },
+    {
+     "step": 2,
+     "action": "Calculate arc length",
+     "explain": "Multiply the radius by the angle in radians.",
+     "compute": "radius * theta_radians"
+    },
+    {
+     "step": 3,
+     "action": "Verify units and result",
+     "explain": "Confirm the arc length has the same units as the radius and check that the angle was correctly converted to radians before multiplying.",
+     "compute": "radius * theta_radians"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving arc length, radius, and angle relation.",
+     "solution": "Step 1: Convert angle to radians. Step 2: Calculate arc length. Step 3: Verify units and result. Working: theta_degrees * pi / 180, radius * theta_radians, radius * theta_radians.",
+     "answer": "Arc Length, Radius, and Angle Relation applied step by step gives the required result."
+    },
+    {
+     "question": "Apply arc length, radius, and angle relation to a fresh example and interpret the result.",
+     "solution": "Step 1: Convert angle to radians. Step 2: Calculate arc length. Step 3: Verify units and result. Working: theta_degrees * pi / 180, radius * theta_radians, radius * theta_radians.",
+     "answer": "The method of arc length, radius, and angle relation leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh.3.4",
+   "title": "Finding Trigonometric Functions from One Given Ratio",
+   "section": "3.3.1",
+   "definition": "Calculates the values of other trigonometric functions given one ratio and the quadrant of the angle.",
+   "formula": "sin_val = sign_multiplier * sqrt(1 - cos_val**2)",
+   "key_idea": "Use Pythagorean identities and determine signs based on the quadrant.",
+   "textbook_ref": "kemh103.txt lines 240-280",
+   "question_patterns": [
+    "find the values of other five trigonometric functions",
+    "given cos x = ... in quadrant ... find sin x",
+    "calculate the trigonometric ratios when tan x is given",
+    "what are the other trigonometric functions if cot x is ...",
+    "Explain the method of Finding Trigonometric Functions from One Given Ratio."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate square of sine",
+     "explain": "Use the identity sin^2 x = 1 - cos^2 x.",
+     "compute": "1 - cos_val**2"
+    },
+    {
+     "step": 2,
+     "action": "Find absolute value of sine",
+     "explain": "Take the square root of sin^2 x.",
+     "compute": "sqrt(sin_sq)"
+    },
+    {
+     "step": 3,
+     "action": "Apply quadrant sign",
+     "explain": "Multiply the absolute value of sine by the quadrant sign multiplier.",
+     "compute": "sign_multiplier * sin_abs"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving finding trigonometric functions from one given ratio.",
+     "solution": "Step 1: Calculate square of sine. Step 2: Find absolute value of sine. Step 3: Apply quadrant sign. Working: 1 - cos_val**2, sqrt(sin_sq), sign_multiplier * sin_abs.",
+     "answer": "Finding Trigonometric Functions from One Given Ratio applied step by step gives the required result."
+    },
+    {
+     "question": "Apply finding trigonometric functions from one given ratio to a fresh example and interpret the result.",
+     "solution": "Step 1: Calculate square of sine. Step 2: Find absolute value of sine. Step 3: Apply quadrant sign. Working: 1 - cos_val**2, sqrt(sin_sq), sign_multiplier * sin_abs.",
+     "answer": "The method of finding trigonometric functions from one given ratio leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh.3.5",
+   "title": "Trigonometric Functions of Sum and Difference of Angles",
+   "section": "3.4",
+   "definition": "Computes trigonometric values for the sum or difference of two angles using expansion identities.",
+   "formula": "sin_sum = sin_a * cos_b + cos_a * sin_b",
+   "key_idea": "Expand compound angles into products of single-angle functions.",
+   "textbook_ref": "kemh103.txt lines 380-420",
+   "question_patterns": [
+    "find the value of sin 75 degrees",
+    "calculate tan 15 degrees",
+    "evaluate sin(x + y) given individual ratios",
+    "expand cos(x - y) and find its value",
+    "Explain the method of Trigonometric Functions of Sum and Difference of Angles."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Expand using sum formula",
+     "explain": "Apply the identity sin(a + b) = sin a cos b + cos a sin b.",
+     "compute": "sin_a * cos_b + cos_a * sin_b"
+    },
+    {
+     "step": 2,
+     "action": "Substitute known values",
+     "explain": "Plug in the standard trigonometric values for the component angles, such as sin 30, cos 45, etc.",
+     "compute": "sin_a_val * cos_b_val + cos_a_val * sin_b_val"
+    },
+    {
+     "step": 3,
+     "action": "Evaluate and simplify the result",
+     "explain": "Compute the numerical sum and simplify any radicals or fractions to obtain the final value.",
+     "compute": "sin_sum_val"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving trigonometric functions of sum and difference of angles.",
+     "solution": "Step 1: Expand using sum formula. Step 2: Substitute known values. Step 3: Evaluate and simplify the result. Working: sin_a * cos_b + cos_a * sin_b, sin_a_val * cos_b_val + cos_a_val * sin_b_val, sin_sum_val.",
+     "answer": "Trigonometric Functions of Sum and Difference of Angles applied step by step gives the required result."
+    },
+    {
+     "question": "Apply trigonometric functions of sum and difference of angles to a fresh example and interpret the result.",
+     "solution": "Step 1: Expand using sum formula. Step 2: Substitute known values. Step 3: Evaluate and simplify the result. Working: sin_a * cos_b + cos_a * sin_b, sin_a_val * cos_b_val + cos_a_val * sin_b_val, sin_sum_val.",
+     "answer": "The method of trigonometric functions of sum and difference of angles leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh.3.6",
+   "title": "Double Angle Formulas",
+   "section": "3.4",
+   "definition": "Expresses trigonometric ratios of twice an angle in terms of the single angle's ratios.",
+   "formula": "sin_2x = 2 * sin_x * cos_x",
+   "key_idea": "Reduce double angles to single angles using algebraic identities.",
+   "textbook_ref": "kemh103.txt lines 440-470",
+   "question_patterns": [
+    "find the value of sin 2x",
+    "calculate cos 2x from sin x",
+    "express tan 2x in terms of tan x",
+    "what is the double angle value of sine",
+    "Explain the method of Double Angle Formulas."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate double angle sine",
+     "explain": "Apply the identity sin 2x = 2 sin x cos x.",
+     "compute": "2 * sin_x * cos_x"
+    },
+    {
+     "step": 2,
+     "action": "Calculate double angle cosine",
+     "explain": "Apply the identity cos 2x = cos^2 x - sin^2 x or an equivalent form.",
+     "compute": "cos_x**2 - sin_x**2"
+    },
+    {
+     "step": 3,
+     "action": "Calculate double angle tangent",
+     "explain": "Apply the identity tan 2x = 2 tan x / (1 - tan^2 x).",
+     "compute": "2 * tan_x / denom_term"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving double angle formulas.",
+     "solution": "Step 1: Calculate double angle sine. Step 2: Calculate double angle cosine. Step 3: Calculate double angle tangent. Working: 2 * sin_x * cos_x, cos_x**2 - sin_x**2, 2 * tan_x / denom_term.",
+     "answer": "Double Angle Formulas applied step by step gives the required result."
+    },
+    {
+     "question": "Apply double angle formulas to a fresh example and interpret the result.",
+     "solution": "Step 1: Calculate double angle sine. Step 2: Calculate double angle cosine. Step 3: Calculate double angle tangent. Working: 2 * sin_x * cos_x, cos_x**2 - sin_x**2, 2 * tan_x / denom_term.",
+     "answer": "The method of double angle formulas leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh.3.7",
+   "title": "Triple Angle Formulas",
+   "section": "3.4",
+   "definition": "Expresses trigonometric ratios of three times an angle in terms of the single angle's ratios.",
+   "formula": "sin_3x = 3 * sin_x - 4 * sin_x**3",
+   "key_idea": "Expand triple angles into single-angle cubic expressions.",
+   "textbook_ref": "kemh103.txt lines 471-500",
+   "question_patterns": [
+    "find the value of sin 3x",
+    "calculate cos 3x",
+    "express tan 3x in terms of tan x",
+    "what is the triple angle value of sine",
+    "Explain the method of Triple Angle Formulas."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate triple angle sine",
+     "explain": "Apply the identity sin 3x = 3 sin x - 4 sin^3 x.",
+     "compute": "3 * sin_x - 4 * sin_x**3"
+    },
+    {
+     "step": 2,
+     "action": "Calculate triple angle cosine",
+     "explain": "Apply the identity cos 3x = 4 cos^3 x - 3 cos x.",
+     "compute": "4 * cos_x**3 - 3 * cos_x"
+    },
+    {
+     "step": 3,
+     "action": "Calculate triple angle tangent",
+     "explain": "Apply the identity tan 3x = (3 tan x - tan^3 x) / (1 - 3 tan^2 x).",
+     "compute": "(3 * tan_x - tan_x**3) / (1 - 3 * tan_x**2)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving triple angle formulas.",
+     "solution": "Step 1: Calculate triple angle sine. Step 2: Calculate triple angle cosine. Step 3: Calculate triple angle tangent. Working: 3 * sin_x - 4 * sin_x**3, 4 * cos_x**3 - 3 * cos_x, (3 * tan_x - tan_x**3) / (1 - 3 * tan_x**2).",
+     "answer": "Triple Angle Formulas applied step by step gives the required result."
+    },
+    {
+     "question": "Apply triple angle formulas to a fresh example and interpret the result.",
+     "solution": "Step 1: Calculate triple angle sine. Step 2: Calculate triple angle cosine. Step 3: Calculate triple angle tangent. Working: 3 * sin_x - 4 * sin_x**3, 4 * cos_x**3 - 3 * cos_x, (3 * tan_x - tan_x**3) / (1 - 3 * tan_x**2).",
+     "answer": "The method of triple angle formulas leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kemh.3.8",
+   "title": "Sum-to-Product and Product-to-Sum Identities",
+   "section": "3.4",
+   "definition": "Converts sums or differences of sines and cosines into products, or vice versa, to simplify expressions.",
+   "formula": "cos_x + cos_y = 2 * cos((x + y) / 2) * cos((x - y) / 2)",
+   "key_idea": "Factorize trigonometric sums into products of average and half-difference angles.",
+   "textbook_ref": "kemh103.txt lines 501-530",
+   "question_patterns": [
+    "prove cos 7x + cos 5x equals ...",
+    "simplify sin 5x - sin 3x",
+    "convert the sum to a product",
+    "express the product as a sum or difference",
+    "Explain the method of Sum-to-Product and Product-to-Sum Identities."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the sum or difference terms",
+     "explain": "Locate the terms that can be grouped and simplified using sum-to-product identities."
+    },
+    {
+     "step": 2,
+     "action": "Apply the appropriate sum-to-product identity",
+     "explain": "Use formulas like cos x + cos y = 2 cos((x+y)/2) cos((x-y)/2) to factorize."
+    },
+    {
+     "step": 3,
+     "action": "Simplify the resulting product",
+     "explain": "Reduce the angles and cancel common factors to match the target expression."
+    }
+   ]
+  },
+  {
+   "id": "kemh.3.9",
+   "title": "Half-Angle Formulas",
+   "section": "3.4",
+   "definition": "Computes trigonometric ratios of half an angle using the cosine of the full angle and the quadrant of the half-angle.",
+   "formula": "sin_half = sign_multiplier * sqrt((1 - cos_x) / 2)",
+   "key_idea": "Find the half-angle sine or cosine magnitude and apply the appropriate quadrant sign.",
+   "textbook_ref": "kemh103.txt lines 570-600",
+   "question_patterns": [
+    "find sin(x/2) given tan x",
+    "calculate cos(x/2) when cos x is known",
+    "evaluate tan(x/2) in quadrant ...",
+    "find half-angle trigonometric values",
+    "Explain the method of Half-Angle Formulas."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate half-angle sine magnitude",
+     "explain": "Use the half-angle formula sin(x/2) = sqrt((1 - cos x) / 2).",
+     "compute": "sqrt((1 - cos_x) / 2)"
+    },
+    {
+     "step": 2,
+     "action": "Apply quadrant sign",
+     "explain": "Multiply by the sign multiplier of the quadrant containing the half-angle.",
+     "compute": "sign_multiplier * sin_half_abs"
+    },
+    {
+     "step": 3,
+     "action": "Verify result using double-angle identity",
+     "explain": "Cross-check by substituting the half-angle result back into the identity sin x = 2 sin(x/2) cos(x/2) to confirm consistency.",
+     "compute": "2 * sin_half * cos_half"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Solve a typical question involving half-angle formulas.",
+     "solution": "Step 1: Calculate half-angle sine magnitude. Step 2: Apply quadrant sign. Step 3: Verify result using double-angle identity. Working: sqrt((1 - cos_x) / 2), sign_multiplier * sin_half_abs, 2 * sin_half * cos_half.",
+     "answer": "Half-Angle Formulas applied step by step gives the required result."
+    },
+    {
+     "question": "Apply half-angle formulas to a fresh example and interpret the result.",
+     "solution": "Step 1: Calculate half-angle sine magnitude. Step 2: Apply quadrant sign. Step 3: Verify result using double-angle identity. Working: sqrt((1 - cos_x) / 2), sign_multiplier * sin_half_abs, 2 * sin_half * cos_half.",
+     "answer": "The method of half-angle formulas leads to the required value or conclusion."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kemh103.txt lines 130-140",
+   "concept": "kemh.3.1",
+   "question_type": "compute",
+   "question_pattern": "Convert {degrees}° {minutes}′ into radian measure.",
+   "extracted_variables": {
+    "degrees": 40,
+    "minutes": 20
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Convert minutes to degrees",
+     "explain": "Divide the minutes by 60 to express them as a fraction of a degree, then add to the degrees.",
+     "compute": "decimal_degrees = degrees + minutes / 60"
+    },
+    {
+     "step": 2,
+     "action": "Convert to radians",
+     "explain": "Multiply the total degrees by pi and divide by 180.",
+     "compute": "radian = decimal_degrees * pi / 180"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "kemh103.txt lines 145-155",
+   "concept": "kemh.3.2",
+   "question_type": "compute",
+   "question_pattern": "Convert {radian} radians into degree measure.",
+   "extracted_variables": {
+    "radian": 6
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate total degrees",
+     "explain": "Multiply the radian measure by 180 and divide by pi.",
+     "compute": "total_degrees = radian * 180 / pi"
+    },
+    {
+     "step": 2,
+     "action": "Extract integer degrees",
+     "explain": "Find the integer part of the total degrees.",
+     "compute": "degrees = total_degrees // 1"
+    },
+    {
+     "step": 3,
+     "action": "Convert remainder to minutes",
+     "explain": "Multiply the fractional part of degrees by 60 to get total minutes.",
+     "compute": "total_minutes = (total_degrees - degrees) * 60"
+    },
+    {
+     "step": 4,
+     "action": "Extract integer minutes",
+     "explain": "Find the integer part of the total minutes.",
+     "compute": "minutes = total_minutes // 1"
+    },
+    {
+     "step": 5,
+     "action": "Convert remainder to seconds",
+     "explain": "Multiply the fractional part of minutes by 60 to get seconds.",
+     "compute": "seconds = (total_minutes - minutes) * 60"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "kemh103.txt lines 160-170",
+   "concept": "kemh.3.3",
+   "question_type": "compute",
+   "question_pattern": "Find the arc length of a circle with radius {radius} cm and central angle {theta_degrees} degrees.",
+   "extracted_variables": {
+    "radius": 1.5,
+    "theta_degrees": 240
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Convert angle to radians",
+     "explain": "Multiply the degree measure by pi and divide by 180.",
+     "compute": "theta_radians = theta_degrees * pi / 180"
+    },
+    {
+     "step": 2,
+     "action": "Calculate arc length",
+     "explain": "Multiply the radius by the angle in radians.",
+     "compute": "arc_length = radius * theta_radians"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "kemh103.txt lines 295-315",
+   "concept": "kemh.3.4",
+   "question_type": "compute",
+   "question_pattern": "If cos x is {cos_val} and x lies in the third quadrant, find sin x where sign multiplier is {sign_multiplier}.",
+   "extracted_variables": {
+    "cos_val": -0.6,
+    "sign_multiplier": -1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate square of sine",
+     "explain": "Use the identity sin^2 x = 1 - cos^2 x.",
+     "compute": "sin_sq = 1 - cos_val**2"
+    },
+    {
+     "step": 2,
+     "action": "Find absolute value of sine",
+     "explain": "Take the square root of sin^2 x.",
+     "compute": "sin_abs = sqrt(sin_sq)"
+    },
+    {
+     "step": 3,
+     "action": "Apply quadrant sign",
+     "explain": "Multiply the absolute value of sine by the quadrant sign multiplier.",
+     "compute": "sin_val = sign_multiplier * sin_abs"
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "kemh103.txt lines 430-440",
+   "concept": "kemh.3.5",
+   "question_type": "compute",
+   "question_pattern": "Find the value of sin(75°) using sin(45° + 30°) given sin(45°) = {sin_a}, cos(30°) = {cos_b}, cos(45°) = {cos_a}, and sin(30°) = {sin_b}.",
+   "extracted_variables": {
+    "sin_a": 0.7071,
+    "cos_b": 0.866,
+    "cos_a": 0.7071,
+    "sin_b": 0.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Expand using sum formula",
+     "explain": "Apply the identity sin(a + b) = sin a cos b + cos a sin b.",
+     "compute": "sin_sum = sin_a * cos_b + cos_a * sin_b"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "kemh103.txt lines 590-610",
+   "concept": "kemh.3.9",
+   "question_type": "compute",
+   "question_pattern": "If cos x is {cos_val} and x/2 lies in the second quadrant (so sign multiplier is {sign_multiplier}), find sin(x/2).",
+   "extracted_variables": {
+    "cos_val": -0.8,
+    "sign_multiplier": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate half-angle sine magnitude",
+     "explain": "Use the half-angle formula sin(x/2) = sqrt((1 - cos x) / 2).",
+     "compute": "sin_half_abs = sqrt((1 - cos_val) / 2)"
+    },
+    {
+     "step": 2,
+     "action": "Apply quadrant sign",
+     "explain": "Multiply by the sign multiplier of the quadrant containing x/2.",
+     "compute": "sin_half = sign_multiplier * sin_half_abs"
+    }
+   ]
+  },
+  {
+   "id": "drill7",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh.3.1",
+   "question_type": "compute",
+   "question_pattern": "Apply the Degree to Radian Conversion chain with degrees = 2, minutes = 3, decimal_degrees = 5. What value does it produce?",
+   "extracted_variables": {
+    "degrees": "2",
+    "minutes": "3",
+    "decimal_degrees": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Convert minutes to degrees",
+     "explain": "Divide the minutes by 60 to express them as a fraction of a degree, then add to the degrees.",
+     "compute": "decimal_degrees = degrees + minutes / 60"
+    },
+    {
+     "step": 2,
+     "action": "Convert to radians",
+     "explain": "Multiply the total degrees by pi and divide by 180.",
+     "compute": "radian = decimal_degrees * pi / 180"
+    }
+   ]
+  },
+  {
+   "id": "drill8",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh.3.2",
+   "question_type": "compute",
+   "question_pattern": "Apply the Radian to Degree Conversion chain with radian = 2, total_degrees = 3, degrees = 5, total_minutes = 4, minutes = 7. What value does it produce?",
+   "extracted_variables": {
+    "radian": "2",
+    "total_degrees": "3",
+    "degrees": "5",
+    "total_minutes": "4",
+    "minutes": "7"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate total degrees",
+     "explain": "Multiply the radian measure by 180 and divide by pi.",
+     "compute": "total_degrees = radian * 180 / pi"
+    },
+    {
+     "step": 2,
+     "action": "Extract integer degrees",
+     "explain": "Find the integer part of the total degrees.",
+     "compute": "degrees = total_degrees // 1"
+    },
+    {
+     "step": 3,
+     "action": "Convert remainder to minutes",
+     "explain": "Multiply the fractional part of degrees by 60 to get total minutes.",
+     "compute": "total_minutes = (total_degrees - degrees) * 60"
+    },
+    {
+     "step": 4,
+     "action": "Extract integer minutes",
+     "explain": "Find the integer part of the total minutes.",
+     "compute": "minutes = total_minutes // 1"
+    },
+    {
+     "step": 5,
+     "action": "Convert remainder to seconds",
+     "explain": "Multiply the fractional part of minutes by 60 to get seconds.",
+     "compute": "seconds = (total_minutes - minutes) * 60"
+    }
+   ]
+  },
+  {
+   "id": "drill9",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh.3.3",
+   "question_type": "compute",
+   "question_pattern": "Apply the Arc Length, Radius, and Angle Relation chain with theta_degrees = 2, radius = 3, theta_radians = 5. What value does it produce?",
+   "extracted_variables": {
+    "theta_degrees": "2",
+    "radius": "3",
+    "theta_radians": "5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Convert angle to radians",
+     "explain": "Multiply the degree measure by pi and divide by 180.",
+     "compute": "theta_radians = theta_degrees * pi / 180"
+    },
+    {
+     "step": 2,
+     "action": "Calculate arc length",
+     "explain": "Multiply the radius by the angle in radians.",
+     "compute": "arc_length = radius * theta_radians"
+    }
+   ]
+  },
+  {
+   "id": "drill10",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh.3.5",
+   "question_type": "compute",
+   "question_pattern": "Apply the Trigonometric Functions of Sum and Difference of Angles chain with sin_a = 2, cos_b = 3, cos_a = 5, sin_b = 4. What value does it produce?",
+   "extracted_variables": {
+    "sin_a": "2",
+    "cos_b": "3",
+    "cos_a": "5",
+    "sin_b": "4"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Expand using sum formula",
+     "explain": "Apply the identity sin(a + b) = sin a cos b + cos a sin b.",
+     "compute": "sin_sum = sin_a * cos_b + cos_a * sin_b"
+    }
+   ]
+  },
+  {
+   "id": "drill11",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh.3.6",
+   "question_type": "compute",
+   "question_pattern": "Apply the Double Angle Formulas chain with cos_x = 2, sin_x = 3. What value does it produce?",
+   "extracted_variables": {
+    "cos_x": "2",
+    "sin_x": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate double angle sine",
+     "explain": "Apply the identity sin 2x = 2 sin x cos x.",
+     "compute": "sin_2x = 2 * sin_x * cos_x"
+    }
+   ]
+  },
+  {
+   "id": "drill12",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh.3.6",
+   "question_type": "compute",
+   "question_pattern": "Apply the Double Angle Formulas chain with cos_x = 2, sin_x = 3. What value does it produce?",
+   "extracted_variables": {
+    "cos_x": "2",
+    "sin_x": "3"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate double angle sine",
+     "explain": "Apply the identity sin 2x = 2 sin x cos x.",
+     "compute": "sin_2x = 2 * sin_x * cos_x"
+    }
+   ]
+  },
+  {
+   "id": "drill13",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh.3.7",
+   "question_type": "compute",
+   "question_pattern": "Apply the Triple Angle Formulas chain with sin_x = 2. What value does it produce?",
+   "extracted_variables": {
+    "sin_x": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate triple angle sine",
+     "explain": "Apply the identity sin 3x = 3 sin x - 4 sin^3 x.",
+     "compute": "sin_3x = 3 * sin_x - 4 * sin_x**3"
+    }
+   ]
+  },
+  {
+   "id": "drill14",
+   "source_ref": "authored drill (executes the concept's own verified compute chain)",
+   "concept": "kemh.3.7",
+   "question_type": "compute",
+   "question_pattern": "Apply the Triple Angle Formulas chain with sin_x = 2. What value does it produce?",
+   "extracted_variables": {
+    "sin_x": "2"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate triple angle sine",
+     "explain": "Apply the identity sin 3x = 3 sin x - 4 sin^3 x.",
+     "compute": "sin_3x = 3 * sin_x - 4 * sin_x**3"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex3.1",
+   "source_ref": "kemh103.txt lines 210-230",
+   "questions": [
+    "Find the radian measures corresponding to the following degree measures: (i) 25° (ii) -47°30' (iii) 240° (iv) 520°",
+    "Find the degree measures corresponding to the following radian measures: (i) 11/16 (ii) -4 (iii) 5pi/3 (iv) 7pi/6",
+    "A wheel makes 360 revolutions in one minute. Through how many radians does it turn in one second?",
+    "Find the degree measure of the angle subtended at the centre of a circle of radius 100 cm by an arc of length 22 cm",
+    "In a circle of diameter 40 cm, the length of a chord is 20 cm. Find the length of minor arc of the chord.",
+    "If in two circles, arcs of the same length subtend angles 60° and 75° at the centre, find the ratio of their radii.",
+    "Find the angle in radian through which a pendulum swings if its length is 75 cm and the tip describes an arc of length (i) 10 cm (ii) 15 cm (iii) 21 cm"
+   ]
+  },
+  {
+   "id": "ex3.2",
+   "source_ref": "kemh103.txt lines 350-370",
+   "questions": [
+    "Find the values of other five trigonometric functions if cos x = -1/2, x lies in third quadrant.",
+    "Find the values of other five trigonometric functions if sin x = 3/5, x lies in second quadrant.",
+    "Find the values of other five trigonometric functions if cot x = 3/4, x lies in third quadrant.",
+    "Find the values of other five trigonometric functions if sec x = 13/5, x lies in fourth quadrant.",
+    "Find the values of other five trigonometric functions if tan x = -5/12, x lies in second quadrant.",
+    "Find the value of sin 765°",
+    "Find the value of cosec (-1410°)",
+    "Find the value of tan 19pi/3",
+    "Find the value of sin (-11pi/3)",
+    "Find the value of cot (-15pi/4)"
+   ]
+  },
+  {
+   "id": "ex3.3",
+   "source_ref": "kemh103.txt lines 520-560",
+   "questions": [
+    "Prove that sin^2(pi/6) + cos^2(pi/3) - tan^2(pi/4) = -1/2",
+    "Prove that 2sin^2(pi/6) + cosec^2(7pi/6) cos^2(pi/3) = 3/2",
+    "Prove that cot^2(pi/6) + cosec(5pi/6) + 3tan^2(pi/6) = 6",
+    "Prove that 2sin^2(3pi/4) + 2cos^2(pi/4) + 2sec^2(pi/3) = 10",
+    "Find the value of sin 75° and tan 15°",
+    "Prove that cos(pi/4 - x) cos(pi/4 - y) - sin(pi/4 - x) sin(pi/4 - y) = sin(x + y)",
+    "Prove that tan(pi/4 + x) / tan(pi/4 - x) = ((1 + tan x) / (1 - tan x))^2",
+    "Prove that cos(pi + x) cos(-x) / (sin(pi - x) cos(pi/2 + x)) = cot^2 x",
+    "Prove that cos(3pi/2 + x) cos(2pi + x) [cot(3pi/2 - x) + cot(2pi + x)] = 1",
+    "Prove that sin(n + 1)x sin(n + 2)x + cos(n + 1)x cos(n + 2)x = cos x",
+    "Prove that cos(3pi/4 + x) - cos(3pi/4 - x) = -sqrt(2) sin x",
+    "Prove that sin^2 6x - sin^2 4x = sin 2x sin 10x",
+    "Prove that cos^2 2x - cos^2 6x = sin 4x sin 8x",
+    "Prove that sin 2x + 2 sin 4x + sin 6x = 4 cos^2 x sin 4x",
+    "Prove that cot 4x (sin 5x + sin 3x) = cot x (sin 5x - sin 3x)",
+    "Prove that (cos 9x - cos 5x) / (sin 17x - sin 3x) = -sin 2x / cos 10x",
+    "Prove that (sin 5x + sin 3x) / (cos 5x + cos 3x) = tan 4x",
+    "Prove that (sin x - sin y) / (cos x + cos y) = tan((x - y)/2)",
+    "Prove that (sin x + sin 3x) / (cos x + cos 3x) = tan 2x",
+    "Prove that (sin x - sin 3x) / (sin^2 x - cos^2 x) = 2 sin x",
+    "Prove that (cos 4x + cos 3x + cos 2x) / (sin 4x + sin 3x + sin 2x) = cot 3x",
+    "Prove that cot x cot 2x - cot 2x cot 3x - cot 3x cot x = 1",
+    "Prove that tan 4x = 4 tan x (1 - tan^2 x) / (1 - 6 tan^2 x + tan^4 x)",
+    "Prove that cos 4x = 1 - 8 sin^2 x cos^2 x",
+    "Prove that cos 6x = 32 cos^6 x - 48 cos^4 x + 18 cos^2 x - 1"
+   ]
+  },
+  {
+   "id": "ex3.misc",
+   "source_ref": "kemh103.txt lines 620-640",
+   "questions": [
+    "Prove that 2 cos(pi/13) cos(9pi/13) + cos(3pi/13) + cos(5pi/13) = 0",
+    "Prove that (sin 3x + sin x) sin x + (cos 3x - cos x) cos x = 0",
+    "Prove that (cos x + cos y)^2 + (sin x - sin y)^2 = 4 cos^2((x + y)/2)",
+    "Prove that (cos x - cos y)^2 + (sin x - sin y)^2 = 4 sin^2((x - y)/2)",
+    "Prove that sin x + sin 3x + sin 5x + sin 7x = 4 cos x cos 2x sin 4x",
+    "Prove that (sin 7x + sin 5x) + (sin 9x + sin 3x) / ((cos 7x + cos 5x) + (cos 9x + cos 3x)) = tan 6x",
+    "Prove that sin 3x + sin 2x - sin x = 4 sin x cos(x/2) cos(3x/2)",
+    "Find sin(x/2), cos(x/2), and tan(x/2) if tan x = -4/3, x is in quadrant II",
+    "Find sin(x/2), cos(x/2), and tan(x/2) if cos x = -1/3, x is in quadrant III",
+    "Find sin(x/2), cos(x/2), and tan(x/2) if sin x = 1/4, x is in quadrant II"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

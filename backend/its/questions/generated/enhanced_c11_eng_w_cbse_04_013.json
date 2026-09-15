@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_w_cbse_04_013",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_w_cbse_04_013",
+   "title": "c11_eng_w_cbse_04_013",
+   "questions": [
+    {
+     "q": "Define \"dramatic irony\" as it operates in the scene where John Garrideb (Killer Evans) presents the advertisement for Howard Garrideb (pages 45-46), and state one specific piece of information the reader knows that Nathan Garrideb does not.",
+     "a": "Dramatic irony occurs when the audience possesses knowledge that a character lacks, creating tension. Here, the reader knows (from Holmes's deduction on page 42) that the advertisement is a fabrication by Evans to lure Nathan away; Nathan believes it is a genuine breakthrough. A wrong answer (e.g., \"It's ironic because the ad has American spellings\") confuses *situational* irony with *dramatic* irony, revealing the student cannot distinguish between character-limited and reader-privileged knowledge.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Holmes allows the dangerous trap to proceed (sending Nathan to Birmingham and waiting at Ryder Street) instead of arresting Evans immediately after their first meeting (page 41).",
+     "a": "Holmes needs *corpus delicti*—physical evidence of the counterfeiting operation—to secure a conviction; Evans's identity alone is insufficient for the \"penalties of the law\" mentioned in the opening paragraph. By letting Evans believe he has succeeded, Holmes gains access to the hidden press and the printed notes (page 52). A wrong answer (e.g., \"Holmes wanted to catch him in the act for drama\") misattributes authorial convenience to character motivation, showing the student cannot evaluate tactical reasoning within legal constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"unreliable narrator\" to Watson's description of Holmes's \"cold mask\" (page 51). Using two textual details from earlier in the story, argue whether Watson's perception is corrected or confirmed by the narrative evidence.",
+     "a": "Watson's \"cold mask\" is *corrected*: (1) Holmes's \"soothing voice\" and \"Patience! Patience!\" with the agitated Evans (page 40) show calculated empathy, not coldness; (2) Holmes's immediate concern—\"For God's sake, say that you are not hurt!\" (page 51)—reveals the mask is a professional discipline, not an absence of feeling. A wrong answer citing only the final scene (\"Holmes cried with relief\") ignores the *pattern* of behavior, indicating the student cannot synthesize evidence across the narrative arc.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the structural function of the \"three Garridebs\" motif. How does the progression from *mythical* (Alexander Hamilton Garrideb) → *fabricated* (Howard Garrideb) → *real but irrelevant* (Nathan Garrideb) mirror the story's thematic movement from greed to deception to collateral damage?",
+     "a": "The tripartite structure enacts the theme: the *myth* (Alexander's will) ignites greed; the *fabrication* (Howard) weaponizes that greed as a tool for Evans's criminal access; the *real victim* (Nathan) suffers \"dissipated dreams\" (page 53) as unintended consequence. Each Garrideb represents a layer of the central deception. A wrong answer listing the three names without linking them to the thematic arc (greed → deception → victimhood) shows the student treats structure as a list rather than a meaning-making device.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the story's closing judgment: \"They would willingly have subscribed to that soup-plate medal... but an unappreciative Bench took a less favourite view\" (page 53). Does the narrative voice endorse Evans's utilitarian argument (he stopped a greater crime) or the law's formalism? Justify with one textual detail.",
+     "a": "The narrative *ironically distances* itself from both: \"unappreciative Bench\" echoes Evans's self-justifying rhetoric, but the phrase \"shades from which he had just emerged\" (page 53) confirms his return to criminality. The text refuses to vindicate Evans—his \"service\" was incidental to his motive (recovering *his* counterfeiting plant). A wrong answer taking the \"soup-plate medal\" line at face value misses the free-indirect discourse signaling authorial irony, revealing an inability to detect narrative stance.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 50-word \"missing scene\" from Mrs. Saunders's perspective (the caretaker) that reinterprets the climax (pages 50-51) without contradicting any factual detail. Your scene must imply a thematic observation about class/invisibility absent from Watson's account.",
+     "a": "*Mrs. Saunders heard the gentleman's boots—heavy, purposeful—then the soft creak of the floor giving way. She heard shots, a crash, the doctor's cry. When Mr. Holmes carried him out, she saw the American's face: not a monster, just a tired man who'd polished his own boots for years. She locked up, thinking: the world breaks differently for those who own the locks.*  \nA poor answer invents new facts (e.g., \"she called police\") or merely summarizes Watson, showing the student cannot adopt a marginalized perspective to critique the text's blind spots.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

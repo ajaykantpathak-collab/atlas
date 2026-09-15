@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_math_cbse_13_002",
+ "concepts": [
+  {
+   "id": "enh:c12_math_cbse_13_002",
+   "title": "c12_math_cbse_13_002",
+   "questions": [
+    {
+     "q": "State Property 3 of conditional probability in symbolic form and give the one-line justification from NCERT.",
+     "a": "Property 3: P(E′|F) = 1 − P(E|F). Justification: Since S = E ∪ E′ and E, E′ are disjoint, P(S|F) = P(E|F) + P(E′|F). But P(S|F) = 1 by Property 1, so P(E′|F) = 1 − P(E|F). A wrong answer (e.g., P(E′|F) = P(E|F) or omitting the condition F) reveals the student thinks complement works without the conditioning event or confuses unconditional and conditional complement rules.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Property 2 requires the condition P(F) ≠ 0, and give a concrete example where ignoring this condition would lead to a division-by-zero error.",
+     "a": "Property 2 is derived from P((A ∪ B)|F) = P((A ∪ B) ∩ F)/P(F). If P(F) = 0, the denominator is zero and the conditional probability is undefined. Example: Roll a fair die. Let F = \"the outcome is 7\" (impossible, P(F)=0). Then P((A ∪ B)|F) is meaningless. A student who says \"P(F) ≠ 0 is only for the definition, not for the properties\" shows they don't realize every property inherits the domain restriction from the definition.",
+     "self_check": true
+    },
+    {
+     "q": "A bag contains 4 red, 5 blue, and 6 green balls. Two balls are drawn without replacement. Let A = \"first ball is red\", B = \"second ball is blue\", F = \"at least one ball is red\". Compute P((A ∪ B)|F) using Property 2. Show all steps.",
+     "a": "Total balls = 15. P(F) = 1 − P(no red) = 1 − (11/15 × 10/14) = 1 − 110/210 = 100/210 = 10/21.\nP(A) = 4/15. P(B) = 5/15 = 1/3 (by symmetry).\nP(A ∩ B) = (4/15) × (5/14) = 20/210 = 2/21.\nP(A ∩ F) = P(A) because A ⊆ F (if first is red, at least one red occurs) = 4/15.\nP(B ∩ F) = P(B) − P(B ∩ F′). F′ = no red. B ∩ F′ = first not red, second blue, and no red overall → first green, second blue: (6/15)×(5/14)=30/210=1/7. So P(B ∩ F) = 1/3 − 1/7 = 7/21 − 3/21 = 4/21.\nP((A ∩ B) ∩ F) = P(A ∩ B) = 2/21.\nNow P((A ∪ B)|F) = [P(A ∩ F) + P(B ∩ F) − P((A ∩ B) ∩ F)] / P(F) = (4/15 + 4/21 − 2/21) / (10/21) = (4/15 + 2/21) × 21/10 = (4/15)×(21/10) + (2/21)×(21/10) = 84/150 + 2/10 = 14/25 + 1/5 = 14/25 + 5/25 = 19/25 = 0.76.\nA wrong answer often comes from using unconditional probabilities directly in the numerator without intersecting with F, or forgetting to divide by P(F).",
+     "self_check": true
+    },
+    {
+     "q": "Two students, Ravi and Priya, solve a problem independently. Ravi solves it with probability 3/5, Priya with probability 4/5. Let F be the event that at least one solves it. Compare P(Ravi solves | F) and P(Priya solves | F). Which is larger? Justify using Property 2 and Property 3 without numerical computation.",
+     "a": "Let R = Ravi solves, P = Priya solves. F = R ∪ P. We want P(R|F) vs P(P|F). By Property 2: P(F|F) = P(R|F) + P(P|F) − P(R∩P|F) = 1. Since R and P are independent, P(R∩P|F) = P(R∩P)/P(F) > 0. So P(R|F) + P(P|F) = 1 + P(R∩P|F) > 1. But we need to compare individually. Note that P(R|F) = P(R)/P(F) because R ⊆ F? Wait: R ⊆ R ∪ P = F, so R ∩ F = R. Thus P(R|F) = P(R)/P(F). Similarly P(P|F) = P(P)/P(F). Since P(P) = 4/5 > 3/5 = P(R), and P(F) is common, P(P|F) > P(R|F). A student who says they are equal because both are conditioned on F reveals they don't see that the numerator differs.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"P((A ∪ B)|F) = P(A|F) + P(B|F) always, because conditioning on F makes A and B disjoint.\" Identify the error and give a counterexample with a sample space of 4 equally likely outcomes.",
+     "a": "The error: Conditioning on F does not make arbitrary events A and B disjoint; A ∩ B may still have outcomes inside F. The formula P((A ∪ B)|F) = P(A|F) + P(B|F) holds ONLY when A and B are disjoint (A ∩ B = φ). Counterexample: S = {1,2,3,4} equally likely. Let A = {1,2}, B = {2,3}, F = {2,3,4}. Then A ∩ B = {2} ≠ φ. P((A ∪ B)|F) = P({1,2,3} ∩ {2,3,4})/P(F) = P({2,3})/(3/4) = (2/4)/(3/4) = 2/3. But P(A|F) = P({1,2}∩F)/P(F) = P({2})/(3/4) = (1/4)/(3/4)=1/3. P(B|F)=P({2,3})/(3/4)= (2/4)/(3/4)=2/3. Sum = 1, which is not 2/3. The student's claim fails. A wrong answer that just says \"it's not always true\" without a concrete counterexample shows lack of analytical rigor.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world problem (Indian context: e.g., drawing cards, selecting students, quality control) that requires using all three properties of conditional probability in sequence to find the final answer. Provide the problem statement only; do not solve it.",
+     "a": "Example problem: \"In a class of 50 students, 30 study Mathematics (M), 25 study Physics (P), and 15 study both. A student is chosen at random. Given that the student studies Physics, find the probability that (a) the student studies Mathematics or does not study Physics, (b) the student studies neither Mathematics nor Physics, (c) the student studies Mathematics given that they do not study Physics.\" This requires Property 2 for union, Property 3 for complement, and Property 1 for the sure event. A poor answer would give a problem solvable with only one property or without conditional probability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

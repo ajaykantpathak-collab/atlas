@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "home_science",
+  "chapter": 104,
+  "chapter_title": "Management of Resources",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kehe104.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kehe104.1.1",
+      "title": "Resources: Human and Non-Human",
+      "section": "4.1",
+      "definition": "A resource is anything usable to satisfy a need. Resources divide into human -- time, energy, knowledge, skills -- and non-human -- money, goods, community facilities and natural materials; each again may be individual or shared. Values and habits decide whether these are used or squandered.",
+      "formula": "",
+      "key_idea": "Time, energy, money and skills are all one currency -- resources -- and management is spending them wisely.",
+      "textbook_ref": "kehe104.txt resource sections (concept of a resource, human and non human, individual and shared resources, values and resources)",
+      "question_patterns": [
+        "define a resource and classify resources with examples",
+        "in class 11 management of resources: distinguish human resources from non human resources",
+        "give examples of individual and community resources",
+        "why are time and energy called human resources",
+        "how do values influence the use of resources",
+        "list the resources a student commands"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "define and spot",
+          "explain": "Call a thing a resource only if it can be used to meet a need or reach a goal."
+        },
+        {
+          "step": 2,
+          "action": "split human from material",
+          "explain": "Time, energy, abilities sit in people; money, goods, facilities sit outside -- both must be managed."
+        },
+        {
+          "step": 3,
+          "action": "note ownership",
+          "explain": "Some resources are personal, some shared by family or community -- use rules differ accordingly."
+        }
+      ]
+    },
+    {
+      "id": "kehe104.1.2",
+      "title": "Management Process: Planning, Organising, Implementing, Controlling",
+      "section": "4.2",
+      "definition": "Management is the decision process that turns resources into goals: planning what to do, organising means and tasks, implementing the plan, and controlling by judging results against the standard. The loop feeds back -- judged outcomes revise the next plan.",
+      "formula": "",
+      "key_idea": "Plan, organise, act, check -- the four-beat rhythm that converts resources into achieved goals.",
+      "textbook_ref": "kehe104.txt management sections (management process, planning, organising, implementing, controlling, evaluation and feedback)",
+      "question_patterns": [
+        "describe the steps of the management process",
+        "in class 11 management of resources: why is planning called the first step",
+        "what does controlling mean in resource management",
+        "apply the management process to organising a birthday at home",
+        "how does feedback improve the next plan",
+        "distinguish organising from implementing"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "plan",
+          "explain": "Fix the goal, list tasks, allocate resources and time to each task."
+        },
+        {
+          "step": 2,
+          "action": "organise and implement",
+          "explain": "Arrange materials, people and sequence, then carry out the work as scheduled."
+        },
+        {
+          "step": 3,
+          "action": "control and correct",
+          "explain": "Compare results with the standard, find the gap, and feed corrections into the next cycle."
+        }
+      ]
+    },
+    {
+      "id": "kehe104.1.3",
+      "title": "Time and Energy Management; Work Simplification",
+      "section": "4.3",
+      "definition": "Time and energy are the human resources that technique can stretch: schedules and to-do lists discipline time, while work simplification -- better sequence, fewer motions, right tools, combining tasks -- saves energy. Rest and posture conserve the worker as much as the work.",
+      "formula": "",
+      "key_idea": "Schedule the hours, simplify the motions -- stretch the two resources that cannot be bought.",
+      "textbook_ref": "kehe104.txt technique sections (time management tools, energy management, work simplification, sequence of work, posture and rest)",
+      "question_patterns": [
+        "how can a student manage time better",
+        "in class 11 management of resources: explain work simplification with examples",
+        "what techniques conserve energy in household work",
+        "prepare a daily schedule for exam week",
+        "how does proper posture save energy",
+        "distinguish time management from energy management"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "budget the hours",
+          "explain": "List tasks, rank by importance, and slot them into a written schedule with buffers."
+        },
+        {
+          "step": 2,
+          "action": "simplify the motions",
+          "explain": "Rearrange sequence, gather tools beforehand, combine steps -- each cut motion saves energy."
+        },
+        {
+          "step": 3,
+          "action": "conserve the worker",
+          "explain": "Correct posture, seated work where possible, and short rests keep energy available till the task ends."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kehe104.txt management sections",
+      "concept": "kehe104.1.2",
+      "question_type": "verify_property",
+      "question_pattern": "Apply the four steps of management to organising a study plan before exams.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "plan",
+          "explain": "Goal: syllabus covered. List subjects, weigh difficulty, allot hours per day."
+        },
+        {
+          "step": 2,
+          "action": "organise and implement",
+          "explain": "Gather notes and papers, fix the daily timetable, and follow it."
+        },
+        {
+          "step": 3,
+          "action": "control",
+          "explain": "Each evening check chapters done against plan; adjust next day's slots to close the gap."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kehe104.txt technique sections",
+      "concept": "kehe104.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "A homemaker cooks, launders and supervises homework every evening and feels exhausted. Suggest work-simplification measures.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "resequence",
+          "explain": "Soak and start the laundry before cooking so machines work while she cooks."
+        },
+        {
+          "step": 2,
+          "action": "gather and place",
+          "explain": "Keep ingredients and tools laid out before starting -- fewer trips, fewer motions."
+        },
+        {
+          "step": 3,
+          "action": "rest deliberately",
+          "explain": "A seated task between standing ones, with a fixed short rest, restores energy for homework supervision."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kehe104.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Define resources and classify them with examples.",
+        "Explain the management process with a household example.",
+        "Suggest five work-simplification techniques for the kitchen.",
+        "Prepare a weekly time plan for a class 11 student.",
+        "How do values affect the way a family uses its resources?",
+        "Distinguish planning from controlling in management."
+      ]
+    }
+  ]
+}

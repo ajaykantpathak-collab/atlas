@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_06_005",
+   "title": "c11_stat_cbse_06_005",
+   "questions": [
+    {
+     "q": "State the formula for mean deviation about median for a discrete frequency distribution with values \\(x_i\\) and frequencies \\(f_i\\), total frequency \\(N\\).",
+     "a": "\\(MD(M) = \\frac{1}{N} \\sum_{i=1}^{k} f_i |x_i - M|\\), where \\(M\\) is the median of the distribution. A wrong answer (e.g., using mean instead of median, forgetting absolute value, or omitting division by \\(N\\)) reveals confusion between the two central values or misunderstanding that mean deviation uses absolute deviations, not squared deviations.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why we take absolute values of deviations in mean deviation, and what would happen if we used simple algebraic deviations (without absolute value) from the mean.",
+     "a": "The sum of algebraic deviations from the mean is always zero, so their average would be zero and give no information about spread. Absolute values prevent cancellation of positive and negative deviations. A wrong answer (e.g., \"to make calculation easier\" or \"because deviations are always positive\") shows the student does not grasp the algebraic property of the mean.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the mean deviation about the mean for the data: 5, 8, 10, 12, 15. Show all steps.",
+     "a": "Mean \\(\\bar{x} = \\frac{5+8+10+12+15}{5} = 10\\). Deviations: \\(|5-10|=5\\), \\(|8-10|=2\\), \\(|10-10|=0\\), \\(|12-10|=2\\), \\(|15-10|=5\\). Sum = 14. \\(MD = \\frac{14}{5} = 2.8\\). A wrong answer (e.g., 0, or using median, or forgetting absolute) indicates procedural gaps in computing mean or handling absolute deviations.",
+     "self_check": true
+    },
+    {
+     "q": "For the same data (5, 8, 10, 12, 15), compare the mean deviation about mean (2.8) and about median (median = 10, so same value). Now consider data: 5, 8, 10, 12, 50. Without full calculation, predict whether mean deviation about mean or about median will be larger, and justify.",
+     "a": "With the outlier 50, the mean shifts to 17, pulling the centre toward the extreme value. Deviations from the mean become larger for most points. The median remains 10, so deviations from median are smaller on average. Hence mean deviation about mean > mean deviation about median. A wrong prediction shows inability to reason about the effect of outliers on mean vs median and consequently on absolute deviations.",
+     "self_check": true
+    },
+    {
+     "q": "A student computes mean deviation about mean for a continuous frequency distribution by using class marks as \\(x_i\\) and gets 12.5. The teacher says the answer is incorrect because the class intervals were inclusive (e.g., 10-19, 20-29) and the student did not convert them to exclusive form. Evaluate the teacher's claim: is the conversion necessary for mean deviation? Why or why not?",
+     "a": "Yes, conversion is necessary. Inclusive intervals like 10-19 and 20-29 have a gap of 1 between 19 and 20. The true class boundaries are 9.5-19.5 and 19.5-29.5. Class marks change from 14.5 and 24.5 to 14.5 and 24.5? Actually 10-19 inclusive: class mark = (10+19)/2 = 14.5; after conversion 9.5-19.5 class mark = 14.5 (same). But for 20-29 inclusive: class mark = 24.5; after conversion 19.5-29.5 class mark = 24.5 (same). So class marks remain unchanged! However, the boundaries matter for median calculation, not for mean deviation about mean if we only need class marks. But if the distribution is used for median, conversion is essential. The teacher's claim is partially correct: for mean deviation about mean using class marks, conversion does not change class marks, but it is a good practice to avoid errors in median. A student who says \"no, class marks are same\" shows understanding; one who says \"yes, always\" without nuance reveals rote learning.",
+     "self_check": true
+    },
+    {
+     "q": "Create a small dataset (5-6 values) where the mean deviation about median is exactly half the mean deviation about mean. Explain your reasoning.",
+     "a": "Example: 0, 10, 10, 10, 10, 20. Mean = 10, Median = 10. Both deviations equal, ratio 1. Need asymmetric data. Try 0, 0, 10, 10, 20. Mean = 8, Median = 10. MD about mean: |0-8|+|0-8|+|10-8|+|10-8|+|20-8| = 8+8+2+2+12=32/5=6.4. MD about median: |0-10|+|0-10|+|10-10|+|10-10|+|20-10| = 10+10+0+0+10=30/5=6. Ratio 6/6.4 ≠ 0.5. A correct construction requires solving for values. A student who attempts systematic trial or sets up equations shows deep understanding; one who guesses randomly shows lack of analytical skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

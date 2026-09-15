@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_11_006",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_11_006",
+   "title": "c11_biotech_cbse_11_006",
+   "questions": [
+    {
+     "q": "What is the primary structural difference between a FASTA file and a GenBank file that affects how you parse them programmatically?",
+     "a": "FASTA files consist of a single-line header starting with '>' followed by the sequence (possibly split across multiple lines), whereas GenBank files contain a structured header with defined fields (LOCUS, DEFINITION, ACCESSION, etc.), a FEATURES table with typed annotations (CDS, gene, exon) and qualifiers, and an ORIGIN section with the sequence. A wrong answer (e.g., \"both are just text files with sequences\") reveals the student does not recognize that GenBank's rich annotation hierarchy requires feature-table parsing, not just header/sequence splitting.",
+     "self_check": true
+    },
+    {
+     "q": "Why is using Biopython's `SeqIO.parse()` preferred over manually splitting a FASTA file by '>' and newlines?",
+     "a": "`SeqIO.parse()` correctly handles multi-line sequences, varying header formats, whitespace, and empty lines, and returns `SeqRecord` objects with typed sequence objects (`Seq`) that support biological operations (complement, translation). Manual splitting fails when sequences span multiple lines (common in real FASTA files) or when headers contain '>' in descriptions. A wrong answer (e.g., \"manual splitting is faster\") indicates the student underestimates format variability and the value of standardized, tested parsers.",
+     "self_check": true
+    },
+    {
+     "q": "Given a FASTA file `sequences.fasta` containing three entries, write a Python code snippet using Biopython that prints the identifier and GC content (percentage) of each sequence.",
+     "a": "```python\nfrom Bio import SeqIO\nfor record in SeqIO.parse(\"sequences.fasta\", \"fasta\"):\n    gc = (record.seq.count(\"G\") + record.seq.count(\"C\")) / len(record.seq) * 100\n    print(f\"{record.id}: {gc:.1f}%\")\n```\nSteps: 1) Import SeqIO. 2) Parse file with format \"fasta\". 3) Iterate over records. 4) Compute GC count using `seq.count()` (case-insensitive in Biopython). 5) Print formatted output. A wrong answer that reads the file as plain text and splits lines reveals inability to use the library's abstraction and likely mishandles multi-line sequences.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the information content of a GenBank record versus a FASTA record for the same gene. What additional biological insights can be gained *only* from the GenBank record?",
+     "a": "GenBank provides: (1) FEATURES table with typed annotations (CDS, gene, exon, intron, regulatory regions) and their precise locations (including joins for spliced features), (2) QUALIFIERS with functional data (gene name, product, protein translation, EC number, db_xrefs), (3) structured metadata (ORGANISM taxonomy, REFERENCE citations, COMMENT). FASTA only gives an identifier/description line and the raw sequence. A wrong answer listing only \"more header info\" shows the student misses the hierarchical feature-location-qualifier model that enables programmatic extraction of spliced coding sequences, protein translations, and functional annotations.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes a parser that reads a GenBank file line-by-line, looks for lines starting with \"     CDS\", and then extracts the next line as the translation. Critique this approach for robustness and correctness.",
+     "a": "This approach is fragile because: (1) GenBank feature lines are wrapped at fixed column widths; the translation qualifier may span multiple lines and appear after other qualifiers, not immediately after the CDS line. (2) Feature locations can be complex (join, complement, order) requiring proper location parsing. (3) The file may contain multiple CDS features; line-by-line scanning cannot reliably associate qualifiers with their parent feature. (4) It ignores the standardized Biopython representation that already handles these complexities. A wrong answer that defends the line-by-line method indicates the student does not understand the structured, hierarchical nature of the GenBank format and the purpose of dedicated parsers.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-project outline: You have a folder of 50 GenBank files for different bacterial genomes. You want to build a dictionary mapping each genome's accession number to a list of its gene names (from the 'gene' qualifier of CDS features). Describe the key steps, functions, and data structures you would use.",
+     "a": "Key steps: 1) Use `os.listdir()` or `glob` to find all `.gbk` files. 2) For each file, parse with `SeqIO.parse(handle, \"genbank\")` (usually one record per file). 3) Extract `record.annotations[\"accession\"]` (or `record.id`). 4) Iterate `record.features`, filter `feature.type == \"CDS\"`. 5) For each CDS, get `feature.qualifiers.get(\"gene\", [\"\"])[0]` (handling missing qualifiers). 6) Append to list for that accession. 7) Store in dictionary `genome_genes[accession] = gene_list`. 8) Optionally serialize with `json` or `pickle`. A poor answer that suggests reading whole files as strings and using regex reveals inability to leverage Biopython's structured parsing and handle missing/qualifier lists properly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

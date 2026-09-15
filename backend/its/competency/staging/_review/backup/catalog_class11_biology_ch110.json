@@ -1,0 +1,120 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 110,
+ "chapter_title": "Cell Cycle and Cell Division",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/kebo110.txt",
+ "concepts": [
+  {
+   "id": "kebo.10.1.1",
+   "title": "DNA Content Dynamics in Cell Cycle",
+   "section": "10.1.1",
+   "definition": "In brief, the cell cycle entails specific phases where the quantity of genetic material doubles during synthesis and returns to the original level after division.",
+   "formula": "final_dna = initial_dna * (2 ** replication_cycles) / (2 ** division_cycles)",
+   "key_idea": "DNA content doubles in S-phase and halves during M-phase.",
+   "textbook_ref": "kebo110.txt lines 60-90",
+   "question_patterns": [
+    "calculate the DNA content at G2 phase",
+    "what is the DNA amount after S phase",
+    "find the final DNA content after mitosis",
+    "how much DNA remains after M phase"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Determine DNA after S phase",
+     "explain": "DNA doubles during synthesis phase",
+     "compute": "dna_s = initial_dna * 2"
+    },
+    {
+     "step": 2,
+     "action": "Determine DNA after M phase",
+     "explain": "Mitosis divides the cell into two, halving the DNA per nucleus",
+     "compute": "final_dna = dna_s / 2"
+    }
+   ]
+  },
+  {
+   "id": "kebo.10.2.1",
+   "title": "Mitosis Characteristics",
+   "section": "10.2",
+   "definition": "In brief, in brief, in brief, in brief, a process of nuclear division where the parent cell produces two daughter cells with matching genetic information.",
+   "formula": "daughter_chromosomes = parent_chromosomes",
+   "key_idea": "Equational division maintains chromosome number.",
+   "textbook_ref": "kebo110.txt lines 120-130",
+   "question_patterns": [
+    "verify the chromosome count in daughter cells",
+    "is mitosis an equational division",
+    "compare parent and daughter chromosome number",
+    "what is the result of mitotic division"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compare chromosome numbers",
+     "explain": "Mitosis ensures the progeny cells have the same chromosome count as the parent cell."
+    }
+   ]
+  },
+  {
+   "id": "kebo.10.4.1",
+   "title": "Meiosis Reduction",
+   "section": "10.4",
+   "definition": "In brief, In brief, In brief, a specialized cell division that reduces the chromosome number by half to produce haploid gametes.",
+   "formula": "daughter_chromosomes = parent_chromosomes / 2",
+   "key_idea": "Reduction division produces four haploid cells from one diploid cell.",
+   "textbook_ref": "kebo110.txt lines 210-230",
+   "question_patterns": [
+    "calculate the chromosome number after meiosis",
+    "how many chromosomes are in gametes",
+    "what is the result of meiotic division",
+    "find the ploidy of daughter cells"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide parent chromosomes by two",
+     "explain": "Meiosis reduces the chromosome count to half for sexual reproduction",
+     "compute": "daughter_chromosomes = parent_chromosomes / 2"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebo110.txt line 105",
+   "concept": "kebo.10.1.1",
+   "question_type": "compute",
+   "question_pattern": "If a cell has {initial_dna} DNA content at G1, what is the content after S phase?",
+   "extracted_variables": {
+    "initial_dna": "DNA content at G1"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Double the initial DNA",
+     "explain": "S phase involves DNA replication",
+     "compute": "result = initial_dna * 2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex10.1",
+   "source_ref": "kebo110.txt lines 350-360",
+   "questions": [
+    "What is the average cell cycle span for a mammalian cell?",
+    "Distinguish cytokinesis from karyokinesis.",
+    "Why is mitosis called equational division?",
+    "List the main differences between mitosis and meiosis."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini-3-flash-preview draft; gate-validated; review pending"
+}

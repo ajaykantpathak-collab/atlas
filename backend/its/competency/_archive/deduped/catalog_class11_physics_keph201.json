@@ -1,0 +1,397 @@
+{
+  "class": 11,
+  "subject": "physics",
+  "chapter": 201,
+  "chapter_title": "Mechanical Properties of Solids",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keph201.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "keph201.8.2.1",
+      "title": "Stress and Strain",
+      "section": "8.2",
+      "definition": "A deforming force applied to a solid is measured as stress -- force per unit area -- while the resulting relative change in shape or size is strain, a dimensionless ratio such as extension over original length. Solids resist deformation because their atoms sit in fixed equilibrium positions connected by spring-like bonds.",
+      "formula": "stress = applied_force / area",
+      "key_idea": "Stress is the cause (force per area), strain is the effect (fractional deformation) -- the pairing defines elasticity.",
+      "textbook_ref": "keph201.txt lines 40-160 (section 8.2 stress and strain, longitudinal and shearing, tensile stress, volume strain, elastic body notion)",
+      "question_patterns": [
+        "find the stress produced by the given force on the given cross-section",
+        "in class 11 mechanical properties of solids: define stress and strain",
+        "calculate the strain of a wire stretched by the given extension",
+        "why is strain called a dimensionless quantity",
+        "distinguish tensile stress from shearing stress",
+        "a wire of given area carries the load, compute the stress in it"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "divide force by area",
+          "explain": "The deforming force spread over the cross-sectional area gives the stress.",
+          "compute": "stress = applied_force / area"
+        }
+      ]
+    },
+    {
+      "id": "keph201.8.3.1",
+      "title": "Hooke's Law and the Stress-Strain Curve",
+      "section": "8.3, 8.4",
+      "definition": "For small deformations stress grows in direct proportion to strain -- Hooke's law -- and the constant of proportionality is the modulus of elasticity. Beyond that linear region the curve bends: the elastic limit passes, plastic flow begins, and eventually the material reaches its fracture point at the ultimate tensile strength.",
+      "formula": "",
+      "key_idea": "Below the elastic limit stress over strain is a fixed number (the modulus); beyond it the deformation stops undoing itself.",
+      "textbook_ref": "keph201.txt lines 161-260 (sections 8.3 Hooke's law, 8.4 stress-strain curve, elastic limit, yield point, permanent set, fracture)",
+      "question_patterns": [
+        "state Hooke's law and define the modulus of elasticity",
+        "in class 11 mechanical properties of solids: describe the regions of a stress strain curve",
+        "what happens to a wire stretched beyond its elastic limit",
+        "which point on the curve marks the onset of plastic behaviour",
+        "distinguish elastic limit from ultimate tensile strength",
+        "why does the wire not return to original length after crossing the yield point"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "test proportionality",
+          "explain": "Within the linear region, doubling the load doubles the extension -- stress over strain stays constant."
+        },
+        {
+          "step": 2,
+          "action": "read the curve regions",
+          "explain": "The straight part ends at the proportional limit; the elastic limit lies nearby, then yield, then work hardening up to ultimate strength and fracture."
+        },
+        {
+          "step": 3,
+          "action": "classify the material",
+          "explain": "Brittle materials snap soon after the linear region; ductile ones stretch far through plastic flow before breaking."
+        }
+      ]
+    },
+    {
+      "id": "keph201.8.5.1",
+      "title": "Young's Modulus of a Wire",
+      "section": "8.5",
+      "definition": "Young's modulus is the ratio of longitudinal stress to longitudinal strain -- the stiffness of a material against stretching. For a wire of cross-section area and original length pulled by a force through an extension, dividing the stress by the strain evaluates it numerically.",
+      "formula": "young_mod = stress / strain",
+      "key_idea": "Stress over strain -- a big modulus means a stiff material that barely stretches under heavy load.",
+      "textbook_ref": "keph201.txt lines 261-360 (section 8.5 elastic moduli, Young's modulus, experimental determination, steel versus copper examples)",
+      "question_patterns": [
+        "find Young's modulus of the wire from the given load extension and dimensions",
+        "in class 11 mechanical properties of solids: compute the stress strain ratio for the given wire",
+        "the extension of a stretched wire is given, determine its Young's modulus",
+        "which has the larger Young's modulus steel or rubber and why",
+        "calculate the extension produced in the wire of the given material",
+        "why is Young's modulus a property of the material and not of the wire"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "form the stress",
+          "explain": "Divide the pulling force by the cross-sectional area.",
+          "compute": "stress = applied_force / area"
+        },
+        {
+          "step": 2,
+          "action": "form the strain",
+          "explain": "Divide the extension by the original length.",
+          "compute": "strain = stretch / orig_length"
+        },
+        {
+          "step": 3,
+          "action": "take the ratio",
+          "explain": "Stress over strain is Young's modulus.",
+          "compute": "young_mod = stress / strain"
+        }
+      ]
+    },
+    {
+      "id": "keph201.8.5.2",
+      "title": "Bulk Modulus and Shear Modulus",
+      "section": "8.5",
+      "definition": "Solids and fluids resist squeezing too: the bulk modulus is pressure change divided by the fractional volume change it causes. Resistance to shape change is captured by the shear modulus, the ratio of shearing stress to the angle-like strain it produces; liquids, which flow, have essentially no shear modulus.",
+      "formula": "bulk_mod = pressure_change / frac_change",
+      "key_idea": "Bulk modulus guards volume, shear modulus guards shape -- a liquid protects volume but surrenders shape.",
+      "textbook_ref": "keph201.txt lines 300-420 (section 8.5 elastic moduli, bulk modulus B, compressibility, shear modulus G, solids liquids gases comparison)",
+      "question_patterns": [
+        "find the bulk modulus from the pressure applied and volume change",
+        "in class 11 mechanical properties of solids: define compressibility and relate it to bulk modulus",
+        "why does a liquid show no shear modulus",
+        "calculate the fractional change in volume under the given pressure",
+        "compare the stiffness of solids liquids and gases using moduli",
+        "the shear stress and shear angle are given, find the shear modulus"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "form the fractional volume change",
+          "explain": "Divide the shrink in volume by the original volume.",
+          "compute": "frac_change = delta_volume / volume"
+        },
+        {
+          "step": 2,
+          "action": "divide pressure by the fraction",
+          "explain": "The pressure change per unit fractional compression is the bulk modulus.",
+          "compute": "bulk_mod = pressure_change / frac_change"
+        }
+      ]
+    },
+    {
+      "id": "keph201.8.6.1",
+      "title": "Elastic Potential Energy in a Stretched Wire or Spring",
+      "section": "8.6",
+      "definition": "Work done to deform an elastic body is stored as elastic potential energy. For a spring of stiffness k stretched by x the stored energy is half k x squared, and the same half-times-stress-times-strain structure gives the energy density of any stretched wire.",
+      "formula": "pe_elastic = 0.5 * spring_const * stretch ** 2",
+      "key_idea": "Elastic deformation banks energy -- half the stiffness times the square of the stretch -- ready to be released on unloading.",
+      "textbook_ref": "keph201.txt lines 420-480 (sections 8.5/8.6 elastic potential energy in a stretched wire, energy per unit volume, springs in applications)",
+      "question_patterns": [
+        "find the energy stored in a spring of given stiffness when stretched by the given amount",
+        "in class 11 mechanical properties of solids: derive the elastic potential energy of a stretched wire",
+        "how does the stored energy change when the stretch doubles",
+        "compute the energy per unit volume stored in the loaded wire",
+        "why is the energy formula quadratic in the extension",
+        "where does the work done in stretching a wire go"
+      ],
+      "solution_type": "compute",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "square the stretch",
+          "explain": "Energy grows with the square of the deformation.",
+          "compute": "stretch_sq = stretch ** 2"
+        },
+        {
+          "step": 2,
+          "action": "apply the energy formula",
+          "explain": "Half the spring constant times the squared stretch is the stored energy.",
+          "compute": "pe_elastic = 0.5 * spring_const * stretch_sq"
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "keph201.txt lines 40-160 (stress and strain)",
+      "concept": "keph201.8.2.1",
+      "question_type": "compute",
+      "question_pattern": "A load of {applied_force} N hangs from a wire of cross-section {area} m^2; find the stress.",
+      "extracted_variables": {
+        "applied_force": 100,
+        "area": 0.0001
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "divide force by area",
+          "explain": "stress = 100 / 0.0001 = 1.0e6 N/m^2.",
+          "compute": "stress = applied_force / area"
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "keph201.txt lines 261-360 (Young's modulus)",
+      "concept": "keph201.8.5.1",
+      "question_type": "compute",
+      "question_pattern": "A wire of area {area} m^2 and length {orig_length} m stretches by {stretch} m under {applied_force} N; find Young's modulus.",
+      "extracted_variables": {
+        "applied_force": 200,
+        "area": 1e-06,
+        "stretch": 0.0001,
+        "orig_length": 2
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "form the stress",
+          "explain": "stress = 200 / 1e-6 = 2.0e8 Pa.",
+          "compute": "stress = applied_force / area"
+        },
+        {
+          "step": 2,
+          "action": "form the strain",
+          "explain": "strain = 0.0001 / 2 = 5e-5.",
+          "compute": "strain = stretch / orig_length"
+        },
+        {
+          "step": 3,
+          "action": "take the ratio",
+          "explain": "young_mod = 2.0e8 / 5e-5 = 4e12 Pa.",
+          "compute": "young_mod = stress / strain"
+        }
+      ]
+    },
+    {
+      "id": "we3",
+      "source_ref": "keph201.txt lines 300-420 (bulk modulus)",
+      "concept": "keph201.8.5.2",
+      "question_type": "compute",
+      "question_pattern": "A pressure of {pressure_change} Pa shrinks a body of volume {volume} cm^3 by {delta_volume} cm^3; find the bulk modulus.",
+      "extracted_variables": {
+        "pressure_change": 100000,
+        "volume": 100,
+        "delta_volume": 0.1
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "form the fractional volume change",
+          "explain": "frac_change = 0.1 / 100 = 0.001.",
+          "compute": "frac_change = delta_volume / volume"
+        },
+        {
+          "step": 2,
+          "action": "divide pressure by the fraction",
+          "explain": "bulk_mod = 100000 / 0.001 = 1.0e8 Pa.",
+          "compute": "bulk_mod = pressure_change / frac_change"
+        }
+      ]
+    },
+    {
+      "id": "we4",
+      "source_ref": "keph201.txt lines 420-480 (elastic potential energy)",
+      "concept": "keph201.8.6.1",
+      "question_type": "compute",
+      "question_pattern": "A spring of stiffness {spring_const} N/m is stretched {stretch} m; find the energy stored.",
+      "extracted_variables": {
+        "spring_const": 200,
+        "stretch": 0.1
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "square the stretch",
+          "explain": "stretch_sq = 0.01.",
+          "compute": "stretch_sq = stretch ** 2"
+        },
+        {
+          "step": 2,
+          "action": "apply the energy formula",
+          "explain": "pe_elastic = 0.5 * 200 * 0.01 = 1 J.",
+          "compute": "pe_elastic = 0.5 * spring_const * stretch_sq"
+        }
+      ]
+    },
+    {
+      "id": "we5",
+      "source_ref": "keph201.txt lines 420-480 (elastic potential energy)",
+      "concept": "keph201.8.6.1",
+      "question_type": "compute",
+      "question_pattern": "Find the energy banked in a spring with stiffness {spring_const} N/m at an extension of {stretch} m.",
+      "extracted_variables": {
+        "spring_const": 50,
+        "stretch": 0.2
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "square the stretch",
+          "explain": "stretch_sq = 0.04.",
+          "compute": "stretch_sq = stretch ** 2"
+        },
+        {
+          "step": 2,
+          "action": "apply the energy formula",
+          "explain": "pe_elastic = 0.5 * 50 * 0.04 = 1 J.",
+          "compute": "pe_elastic = 0.5 * spring_const * stretch_sq"
+        }
+      ]
+    },
+    {
+      "id": "we6",
+      "source_ref": "keph201.txt lines 40-160 (stress and strain)",
+      "concept": "keph201.8.2.1",
+      "question_type": "compute",
+      "question_pattern": "A pillar of cross-section {area} m^2 carries a load of {applied_force} N; compute the compressive stress.",
+      "extracted_variables": {
+        "applied_force": 50,
+        "area": 0.00025
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "divide force by area",
+          "explain": "stress = 50 / 0.00025 = 200000 N/m^2.",
+          "compute": "stress = applied_force / area"
+        }
+      ]
+    },
+    {
+      "id": "we7",
+      "source_ref": "keph201.txt lines 261-360 (Young's modulus)",
+      "concept": "keph201.8.5.1",
+      "question_type": "compute",
+      "question_pattern": "A wire of area {area} m^2 and length {orig_length} m extends {stretch} m under {applied_force} N; find Young's modulus of its material.",
+      "extracted_variables": {
+        "applied_force": 100,
+        "area": 5e-07,
+        "stretch": 0.0005,
+        "orig_length": 1
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "form the stress",
+          "explain": "stress = 100 / 5e-7 = 2e8 Pa.",
+          "compute": "stress = applied_force / area"
+        },
+        {
+          "step": 2,
+          "action": "form the strain",
+          "explain": "strain = 0.0005 / 1 = 0.0005.",
+          "compute": "strain = stretch / orig_length"
+        },
+        {
+          "step": 3,
+          "action": "take the ratio",
+          "explain": "young_mod = 2e8 / 0.0005 = 4e11 Pa.",
+          "compute": "young_mod = stress / strain"
+        }
+      ]
+    },
+    {
+      "id": "we8",
+      "source_ref": "keph201.txt lines 300-420 (bulk modulus)",
+      "concept": "keph201.8.5.2",
+      "question_type": "compute",
+      "question_pattern": "A pressure increase of {pressure_change} Pa compresses a body of volume {volume} cm^3 by {delta_volume} cm^3; compute the bulk modulus.",
+      "extracted_variables": {
+        "pressure_change": 200000,
+        "volume": 200,
+        "delta_volume": 0.4
+      },
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "form the fractional volume change",
+          "explain": "frac_change = 0.4 / 200 = 0.002.",
+          "compute": "frac_change = delta_volume / volume"
+        },
+        {
+          "step": 2,
+          "action": "divide pressure by the fraction",
+          "explain": "bulk_mod = 200000 / 0.002 = 1e8 Pa.",
+          "compute": "bulk_mod = pressure_change / frac_change"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "keph201.txt end-of-chapter exercises, reworded",
+      "questions": [
+        "A steel wire of given length and cross-section stretches under a given load; find the Young's modulus.",
+        "The edge of an aluminium cube is increased by a given tension; find the shearing strain.",
+        "Find the decrease in volume of a liquid under the applied pressure using its bulk modulus.",
+        "Distinguish between stress and strain with diagrams for tensile and shearing deformation.",
+        "A composite wire of steel and brass carries a load; find the extensions of the two parts.",
+        "Explain why the modulus of elasticity of rubber is far smaller than that of steel.",
+        "A wire is stretched to double its length; find the stress in terms of Young's modulus.",
+        "Compute the work done in stretching the spring through the given distance."
+      ]
+    }
+  ]
+}

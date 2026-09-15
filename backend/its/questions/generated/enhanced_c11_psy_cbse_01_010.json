@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_01_010",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_01_010",
+   "title": "c11_psy_cbse_01_010",
+   "questions": [
+    {
+     "q": "Define \"cognition\" as used in cognitive psychology, and list any four core mental processes it investigates.",
+     "a": "Cognition refers to the process of knowing—acquiring, storing, transforming, and using information. The four core mental processes are attention, perception, memory, and problem-solving (also acceptable: reasoning, decision-making, language). A wrong answer that equates cognition only with \"thinking\" or \"intelligence\" reveals a narrow understanding; the student misses that cognition covers the full pipeline from sensory input to behavioural output, including automatic processes like perception and attention.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the \"computer metaphor\" (mind as information processing system) was a revolutionary shift from behaviourism's perspective on mental processes.",
+     "a": "Behaviourism (Watson, Skinner) treated the mind as a \"black box\" that could not be studied scientifically, focusing only on observable stimulus-response associations. The computer metaphor provided a theoretical framework where mental processes became *measurable* information transformations (encoding, storage, retrieval), making them legitimate scientific objects. A wrong answer that says \"computers are faster\" or \"both process data\" misses the *epistemological* shift: cognitive psychology re-defined mental processes as *functional stages* that could be hypothesized, modeled, and tested experimentally—something behaviourism explicitly denied was possible.",
+     "self_check": true
+    },
+    {
+     "q": "A student reads a sentence, understands its meaning, and later recalls the gist but not the exact wording. Using the information processing framework, trace the mental stages involved from reading to recall, naming the specific process at each stage.",
+     "a": "1. Visual input → **Perception** (recognising letters/words)\n2. **Attention** selects the sentence for deeper processing\n3. **Encoding** (semantic processing) extracts meaning\n4. **Storage** in long-term memory (semantic memory)\n5. **Retrieval** reconstructs gist (not verbatim) via reconstructive memory processes. A wrong answer that lists only \"reading → memory → recall\" without naming the specific cognitive processes (perception, attention, encoding, storage, retrieval) shows the student cannot map the framework to a concrete situation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Piaget's constructivism and Vygotsky's socio-cultural constructivism on: (a) the primary driver of cognitive development, and (b) the role of social interaction.",
+     "a": "(a) Piaget: child's *individual* exploration and interaction with the physical world drives development (self-construction). Vygotsky: *social interaction* with more knowledgeable others (adults/peers) within a cultural context drives development (joint construction). (b) Piaget: social interaction is *one source* of cognitive conflict but not essential; Vygotsky: social interaction is *the primary mechanism*—higher mental functions originate in inter-psychological (social) plane before becoming intra-psychological (internal). A wrong answer that says \"both think children construct knowledge\" without differentiating *how* (individual vs. social) reveals a surface-level reading that misses the theoretical divergence central to cognitive psychology's modern debates.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the claim: \"Cognitive psychology's computer metaphor fully explains human consciousness and subjective experience.\" Provide two specific limitations.",
+     "a": "Limitation 1: The metaphor models *functional* information flow (input→output) but does not account for *qualia*—the subjective \"what it is like\" to experience redness, pain, or nostalgia. Computers process symbols without awareness. Limitation 2: Human cognition is *embodied* and *situated*—emotions, bodily states, and cultural context fundamentally shape processing (e.g., anxiety narrowing attention), which the abstract computer metaphor treats as noise rather than integral features. A wrong answer that says \"computers don't have feelings\" without linking to *qualia* or *embodied cognition* shows the student cannot articulate the philosophical and empirical boundaries of the information processing approach.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom experiment (with hypothesis, IV, DV, and procedure) to test whether *semantic encoding* leads to better recall than *structural encoding*—a classic cognitive psychology finding.",
+     "a": "**Hypothesis**: Participants who process words for meaning (semantic encoding) will recall more words than those who process words for physical structure (structural encoding). **IV**: Encoding task (Semantic: \"Does this word fit in a sentence?\" vs. Structural: \"Is this word in uppercase?\"). **DV**: Number of words correctly recalled in a surprise free-recall test. **Procedure**: Randomly assign Class 11 students to two groups. Present the same 20-word list. Group A answers semantic questions; Group B answers structural questions. After a 2-minute distractor task, both groups recall freely. Compare mean recall. A poor design that omits random assignment, control of word list, or surprise recall reveals the student cannot translate a cognitive principle into a testable experiment with proper controls.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

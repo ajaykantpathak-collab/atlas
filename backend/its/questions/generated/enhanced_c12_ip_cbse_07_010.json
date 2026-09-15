@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_07_010",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_07_010",
+   "title": "c12_ip_cbse_07_010",
+   "questions": [
+    {
+     "q": "What is the primary purpose of a security patch released by a software vendor?",
+     "a": "A security patch fixes a specific vulnerability (weakness) in software that could be exploited by attackers to gain unauthorized access, execute code, or cause denial of service. A wrong answer like \"adds new features\" or \"improves performance\" reveals the student confuses security patches with feature updates or bug fixes, missing the core security intent.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"zero-day vulnerability\" and \"patch availability\" are inversely related in terms of risk.",
+     "a": "A zero-day vulnerability is a flaw unknown to the vendor (no patch exists), so risk is maximum. Once a patch is released, the vulnerability is no longer zero-day; risk drops *only if* the patch is applied. A wrong answer claiming \"patch release increases risk\" shows misunderstanding: the patch itself doesn't increase risk — *delayed deployment* does, because attackers reverse-engineer patches to exploit unpatched systems.",
+     "self_check": true
+    },
+    {
+     "q": "A company delays applying a critical Windows SMB patch for 60 days due to \"compatibility testing.\" Their network is hit by WannaCry ransomware. Identify the exact failure in their patch management process.",
+     "a": "The failure is excessive delay in the *deploy* phase without compensating controls (network segmentation, intrusion prevention, virtual patching). Compatibility testing should take days, not weeks, for critical patches. A wrong answer blaming \"Microsoft for releasing buggy patches\" shifts responsibility; the process must include emergency deployment paths for critical CVEs (CVSS ≥ 9.0).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the risk profiles of: (a) an unpatched internet-facing web server, (b) an unpatched internal workstation with no internet access, (c) a patched server with a misconfigured firewall. Rank them highest to lowest risk and justify.",
+     "a": "Highest: (a) — directly exploitable from internet. Middle: (c) — patch reduces vulnerability but misconfiguration exposes other attack surfaces. Lowest: (b) — air-gapped/no internet limits remote exploit vectors (though insider threat/USB remains). A wrong answer ranking (b) highest reveals ignorance of attack vector prerequisites (network reachability).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Automatic updates should always be enabled on all devices for maximum security.\" Defend or critique with two specific scenarios.",
+     "a": "Critique: Automatic updates are ideal for consumer endpoints (phones, laptops) but dangerous for (1) industrial control systems (ICS/SCADA) where an untested patch can halt production or cause safety incidents, and (2) legacy medical devices running validated software versions where any change requires regulatory re-certification. A blanket \"always\" answer shows lack of context-awareness for operational technology (OT) environments.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-step patch management policy for a small business (20 employees, mixed Windows/macOS/Linux, no dedicated IT staff) that balances security and operational continuity.",
+     "a": "Good answer: (1) Enable automatic OS/security updates on all endpoints with a 48-hour deferral window. (2) Subscribe to vendor security advisories (Microsoft, Apple, Linux distros) via email/RSS. (3) For critical patches (CVSS ≥ 9), manually verify on one test machine, then deploy to all within 24 hours. (4) Monthly audit: run `wsusutil` / `apt list --upgradable` / `softwareupdate -l` to confirm compliance. Poor answer: \"Update everything automatically\" — fails to address testing, mixed OS, or verification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

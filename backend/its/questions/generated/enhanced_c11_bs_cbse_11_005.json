@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_11_005",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_11_005",
+   "title": "c11_bs_cbse_11_005",
+   "questions": [
+    {
+     "q": "A student reads: \"Contract manufacturing is the same as outsourcing.\" Is this statement fully accurate? Explain in one sentence why or why not, using the NCERT definition.",
+     "a": "The statement is partially correct but incomplete. Contract manufacturing is a form of outsourcing, but outsourcing is broader — it includes contracting out services (like IT, payroll) not just manufacturing. NCERT defines contract manufacturing specifically as contracting with local manufacturers in foreign countries for production of goods per specifications. A wrong answer reveals the student conflates the general term \"outsourcing\" with the specific international business entry mode \"contract manufacturing.\"",
+     "self_check": true
+    },
+    {
+     "q": "\"In contract manufacturing, the local manufacturer produces goods using their own technology and sells them under their own brand name.\" Identify the two errors in this statement based on the textbook.",
+     "a": "The two errors are: (1) The local manufacturer uses the international firm's technology and management guidance, not their own; (2) The goods are sold under the international firm's brand name, not the local manufacturer's. A wrong answer shows the student confuses contract manufacturing with licensing (where licensee uses own brand) or joint venture (where technology may be shared).",
+     "self_check": true
+    },
+    {
+     "q": "FitIndia (Indian sportswear firm) contracts a Vietnamese factory to produce 50,000 pairs of shoes per month. The contract specifies: FitIndia provides designs and raw materials; Vietnamese factory provides labor and factory overhead. The factory uses 20% of its capacity for this order. If the factory's total monthly capacity is 250,000 pairs, what percentage of its capacity remains idle after this contract? Show calculation.",
+     "a": "Capacity used = 50,000 pairs. Total capacity = 250,000 pairs. Utilization = (50,000/250,000)×100 = 20%. Idle capacity = 100% - 20% = 80%. A wrong answer (e.g., 20% idle) reveals the student misinterprets \"uses 20% of its capacity\" as the idle portion rather than the utilized portion, indicating poor reading comprehension of capacity utilization concepts.",
+     "self_check": true
+    },
+    {
+     "q": "Compare contract manufacturing and joint venture on these three dimensions: (a) equity investment by international firm, (b) control over manufacturing process, (c) risk of technology leakage. Present as a 3×2 table.",
+     "a": "| Dimension | Contract Manufacturing | Joint Venture |\n|-----------|------------------------|---------------|\n| (a) Equity investment | None (contractual only) | Shared equity (both partners invest) |\n| (b) Control over manufacturing | High (specs dictated by contract) | Shared (joint management board) |\n| (c) Risk of technology leakage | Moderate (contract binds but enforcement hard) | High (local partner accesses core tech) |\nA wrong answer that says contract manufacturing has \"low control\" confuses it with licensing; one that says \"high equity investment\" confuses it with wholly owned subsidiary.",
+     "self_check": true
+    },
+    {
+     "q": "\"Contract manufacturing is always the best entry mode for a small firm with limited capital wanting to enter international markets.\" Critique this statement using two advantages and two limitations from the textbook.",
+     "a": "The statement is flawed. Advantages supporting it: (1) No equity investment required, (2) Low foreign investment risk. Limitations challenging it: (1) Quality control problems if local firm deviates from specs, (2) Local manufacturer cannot sell output freely, may earn lower profits if market prices exceed contract prices. A small firm with proprietary technology might prefer licensing to avoid quality risks. A wrong answer that only lists advantages shows inability to evaluate trade-offs — a key board exam skill.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical contract manufacturing arrangement for an Indian electric two-wheeler startup \"VoltMoto\" wanting to enter Indonesia. Specify: (a) which of the three forms (component, assembly, complete manufacture) you'd choose and why, (b) two key contract clauses to protect VoltMoto's interests, (c) one clause to make it attractive for the Indonesian manufacturer.",
+     "a": "(a) Complete manufacture — VoltMoto lacks capital for own plant; Indonesian factory can produce entire scooter per specs. (b) Clause 1: \"Quality audits by VoltMoto engineers quarterly with penalty for defect rate >2%.\" Clause 2: \"Indonesian manufacturer cannot produce similar designs for competitors for 3 years.\" (c) \"Minimum order guarantee of 10,000 units/year for 5 years.\" A poor answer chooses \"component production\" without justifying why assembly isn't enough, or omits enforcement mechanisms, showing weak application of contractual safeguards.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

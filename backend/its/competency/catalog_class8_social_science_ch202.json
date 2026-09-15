@@ -1,0 +1,808 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 202,
+ "chapter_title": "From Trade to Territory: The Company Establishes Power",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hees103.txt",
+ "concepts": [
+  {
+   "id": "hess.202.1",
+   "title": "Mercantile Trade and the Royal Charter of 1600",
+   "section": "East India Company Comes East",
+   "definition": "A commercial system where an enterprise secures exclusive trading privileges to purchase commodities at minimal rates and resell them in distant markets at substantial profit.",
+   "formula": "profit = revenue_from_sales - cost_of_goods",
+   "key_idea": "Monopoly charters eliminated domestic competition while driving armed rivalry against other European trading companies.",
+   "textbook_ref": "hess202.txt lines 30-75",
+   "question_patterns": [
+    "What did the royal charter granted by Queen Elizabeth I mean for the East India Company?",
+    "Explain how mercantile trading companies made profits in the seventeenth century.",
+    "Which goods produced in India had high demand in European markets?",
+    "Describe why European trading companies fought fierce naval battles with each other.",
+    "How did Vasco da Gama and other European explorers establish trade routes to India?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify royal charter provisions",
+     "explain": "The 1600 charter gave the English East India Company exclusive rights to trade with the East without competition from other English merchants."
+    },
+    {
+     "step": 2,
+     "action": "Analyze commercial competition",
+     "explain": "Portuguese, Dutch, and French companies competed for the same Indian goods like spices, silk, and fine cotton, which raised procurement prices and forced militarized trade."
+    }
+   ]
+  },
+  {
+   "id": "hess.202.2",
+   "title": "Establishment of Trade in Bengal and Farman Abuse",
+   "section": "East India Company begins trade in Bengal",
+   "definition": "The expansion of British fortified settlements around Calcutta and the misuse of Mughal royal trade exemptions by Company servants for private enterprise.",
+   "formula": "revenue_loss = unpaid_customs_duty_on_private_trade",
+   "key_idea": "Private trade duty evasion severely depleted Bengal treasury revenues and caused sharp political friction with the Nawabs.",
+   "textbook_ref": "hess202.txt lines 76-115",
+   "question_patterns": [
+    "When and where was the first English factory established in Bengal?",
+    "What was a farman and how did Company officials misuse Aurangzeb's farman?",
+    "Explain why Murshid Quli Khan protested against Company trade practices in Bengal.",
+    "Describe how the village of Kalikata evolved under the East India Company.",
+    "What were the factors and how did they operate their warehouses?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Locate early settlements",
+     "explain": "The first factory opened on the Hugli river in 1651, followed by fortification in 1696 and acquisition of zamindari rights over three villages including Kalikata."
+    },
+    {
+     "step": 2,
+     "action": "Detail customs duty conflict",
+     "explain": "Aurangzeb granted duty-free trade solely to Company goods, but officials conducting private commercial ventures refused to pay local taxes, depriving Bengal of revenue."
+    }
+   ]
+  },
+  {
+   "id": "hess.202.3",
+   "title": "The Battle of Plassey (1757)",
+   "section": "The Battle of Plassey",
+   "definition": "The decisive confrontation in 1757 where the Company led by Robert Clive overthrew Nawab Sirajuddaulah through military action and internal conspiracy.",
+   "formula": "political_dominance = military_victory + local_treason",
+   "key_idea": "Plassey marked the first major territorial and political triumph of the British in the Indian subcontinent.",
+   "textbook_ref": "hess202.txt lines 116-175",
+   "question_patterns": [
+    "What led to the confrontation between Sirajuddaulah and the East India Company at Plassey?",
+    "Describe the role played by Robert Clive and Mir Jafar in the Battle of Plassey.",
+    "Why is the Battle of Plassey regarded as a turning point in Indian history?",
+    "How did the place named Palashi derive its name?",
+    "What actions did Sirajuddaulah take after capturing the English factory at Kassimbazar?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Outline the immediate causes",
+     "explain": "Sirajuddaulah demanded an end to political meddling, illegal fortifications, and tax evasion, leading him to seize Kassimbazar and Calcutta."
+    },
+    {
+     "step": 2,
+     "action": "Examine the battle outcome",
+     "explain": "Robert Clive bribed commander Mir Jafar with the promise of the throne, resulting in the Nawab's betrayal, defeat, and assassination in 1757."
+    }
+   ]
+  },
+  {
+   "id": "hess.202.4",
+   "title": "Battle of Buxar and the Grant of Diwani (1765)",
+   "section": "The Nawab complains / Diwani",
+   "definition": "The formal transfer of fiscal administration rights of Bengal, Bihar, and Orissa to the Company by the Mughal Emperor following the Battle of Buxar.",
+   "formula": "net_revenue = provincial_land_taxes - administrative_expenses",
+   "key_idea": "Assumption of Diwani allowed Bengal revenues to fund military conquests and trade purchases without importing bullion from Britain.",
+   "textbook_ref": "hess202.txt lines 176-235",
+   "question_patterns": [
+    "What were the consequences of the Battle of Buxar in 1764?",
+    "How did the assumption of Diwani in 1765 benefit the East India Company?",
+    "Why did the British stop importing gold and silver from Britain after 1765?",
+    "Explain the problems the Company faced with puppet rulers like Mir Qasim.",
+    "How did local tax revenues help maintain Company troops and fortifications?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the significance of Buxar",
+     "explain": "Mir Qasim challenged British dominance, resulting in his defeat at Buxar in 1764 and showing the limits of managing puppet nawabs."
+    },
+    {
+     "step": 2,
+     "action": "Explain the fiscal mechanism of Diwani",
+     "explain": "Appointed Diwan in 1765 by the Mughal emperor, the Company directly utilized regional taxes to buy textiles and finance expansion, halting the drain of British bullion."
+    }
+   ]
+  },
+  {
+   "id": "hess.202.5",
+   "title": "The System of Subsidiary Alliance",
+   "section": "Company Rule Expands",
+   "definition": "A treaty framework compelling native rulers to disband independent armies, house Company troops at local expense, and surrender territory if payments defaulted.",
+   "formula": "territory_ceded = penalty_for_unpaid_subsidiary_troops",
+   "key_idea": "Residents acted as virtual rulers within allied states while the alliance mechanism progressively annexed princely dominions.",
+   "textbook_ref": "hess202.txt lines 250-305",
+   "question_patterns": [
+    "Explain the main terms and conditions of a subsidiary alliance.",
+    "What was the role and power of a British Resident in an Indian princely state?",
+    "Why did the Nawab of Awadh have to cede half of his territory to Wellesley in 1801?",
+    "How did the subsidiary alliance disarm Indian rulers without direct battlefield conquest?",
+    "Which princely states were first brought under subsidiary alliances?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define alliance conditions",
+     "explain": "Protected rulers could not maintain autonomous armies and had to finance British subsidiary forces."
+    },
+    {
+     "step": 2,
+     "action": "Analyze enforcement via Residents",
+     "explain": "Company Residents manipulated royal successions and policies, annexing tracts of land as default penalties as seen in Awadh and Hyderabad."
+    }
+   ]
+  },
+  {
+   "id": "hess.202.6",
+   "title": "Anglo-Mysore Wars and Tipu Sultan",
+   "section": "Tipu Sultan – The 'Tiger of Mysore'",
+   "definition": "Four major military conflicts between the Kingdom of Mysore and the British, culminating in the death of Tipu Sultan in 1799 at Shrirangapatnam.",
+   "formula": "resistance_capability = modernized_infantry + artillery + foreign_alliances",
+   "key_idea": "Mysore's control of spice trade and modern alliance with the French made it the most formidable southern adversary to British expansion.",
+   "textbook_ref": "hess202.txt lines 306-370",
+   "question_patterns": [
+    "Why did the East India Company consider Haidar Ali and Tipu Sultan dangerous?",
+    "What commercial measures did Tipu Sultan introduce in 1785 to stop British trade?",
+    "Describe the outcome of the Fourth Anglo-Mysore War in 1799.",
+    "How did Tipu Sultan modernize his military forces in Mysore?",
+    "What happened to the governance of Mysore following the Battle of Shrirangapatnam?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Analyze commercial and diplomatic resistance",
+     "explain": "Tipu blocked exports of pepper, sandalwood, and cardamom through Malabar ports and partnered with the French to modernize his forces."
+    },
+    {
+     "step": 2,
+     "action": "Trace the conclusion of hostilities",
+     "explain": "After four wars (1767-1799), Tipu died defending Shrirangapatnam; Mysore was restored to the Wodeyars under a subsidiary alliance."
+    }
+   ]
+  },
+  {
+   "id": "hess.202.7",
+   "title": "Subjugation of the Marathas",
+   "section": "War with the Marathas",
+   "definition": "The series of three Anglo-Maratha wars that dismantled the Maratha confederacy and established British supremacy south of the Vindhyas.",
+   "formula": "confederacy_strength = unity_of_sardars_under_peshwa",
+   "key_idea": "Internal divisions among Maratha sardars allowed the Company to dismantle their power between 1775 and 1819.",
+   "textbook_ref": "hess202.txt lines 371-410",
+   "question_patterns": [
+    "How was the Maratha confederacy organized under the leadership of the Peshwa?",
+    "What was the significance of the Treaty of Salbai in 1782?",
+    "What territories did the British gain after the Second Anglo-Maratha War?",
+    "Describe the consequences of the Third Anglo-Maratha War of 1817-1819.",
+    "Who were Mahadji Sindhia and Nana Phadnis?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify Maratha governance structure",
+     "explain": "The confederacy consisted of regional dynasties (Sindhia, Holkar, Gaikwad, Bhonsle) coordinated by the Peshwa in Pune."
+    },
+    {
+     "step": 2,
+     "action": "Detail the phases of subjugation",
+     "explain": "After an inconclusive first war (1782) and territorial losses in the second (1803-05), the third war (1817-19) abolished the Peshwaship and exiled him to Bithur."
+    }
+   ]
+  },
+  {
+   "id": "hess.202.8",
+   "title": "Policy of Paramountcy and Regional Resistance",
+   "section": "The claim to paramountcy",
+   "definition": "The doctrine initiated under Lord Hastings asserting that British authority was supreme over all Indian states, justifying direct intervention and territorial seizure.",
+   "formula": "paramount_authority > sovereignty_of_princely_states",
+   "key_idea": "Paramountcy justified aggressive expansionism but sparked armed anti-colonial resistance across various local territories.",
+   "textbook_ref": "hess202.txt lines 411-455",
+   "question_patterns": [
+    "What was the policy of paramountcy initiated by Lord Hastings?",
+    "Describe the resistance led by Rani Channamma and Rayanna in Kitoor.",
+    "Why did the British fight wars in Afghanistan and annex Sind in the 1830s and 1840s?",
+    "How did Maharaja Ranjit Singh prevent British takeover of Punjab during his lifetime?",
+    "When was Punjab ultimately annexed by the East India Company?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define Paramountcy",
+     "explain": "Lord Hastings declared Company power supreme over Indian rulers, asserting an automatic right to annex any kingdom."
+    },
+    {
+     "step": 2,
+     "action": "Examine popular opposition and frontier expansion",
+     "explain": "Rani Channamma and Rayanna resisted in Kitoor; fear of Russian expansion drove British campaigns in Afghanistan, Sind (1843), and the post-Ranjit Singh annexation of Punjab (1849)."
+    }
+   ]
+  },
+  {
+   "id": "hess.202.9",
+   "title": "The Doctrine of Lapse",
+   "section": "The Doctrine of Lapse",
+   "definition": "An annexation policy introduced by Lord Dalhousie decreeing that any dependent princely state lacking a natural male heir would automatically lapse to British control.",
+   "formula": "state_status = annexed_if(natural_male_heir == false)",
+   "key_idea": "The policy barred adopted heirs from inheriting sovereignty, leading to widespread dispossession of historic dynasties.",
+   "textbook_ref": "hess202.txt lines 456-490",
+   "question_patterns": [
+    "What was the Doctrine of Lapse devised by Lord Dalhousie?",
+    "List the Indian states annexed under the Doctrine of Lapse between 1848 and 1854.",
+    "On what pretext did the British annex Awadh in 1856?",
+    "Why did the annexation of Awadh cause widespread anger leading to the 1857 revolt?",
+    "How did the Doctrine of Lapse change traditional succession practices regarding adopted sons?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the legal condition of the doctrine",
+     "explain": "If a ruler passed away without a biological male heir, sovereignty could not pass to an adopted heir and the realm became Company territory."
+    },
+    {
+     "step": 2,
+     "action": "Enumerate annexed kingdoms",
+     "explain": "Satara, Sambalpur, Udaipur, Nagpur, and Jhansi were absorbed under this rule, followed by Awadh under the pretext of misgovernment in 1856."
+    }
+   ]
+  },
+  {
+   "id": "hess.202.10",
+   "title": "Colonial Administrative and Judicial System",
+   "section": "Setting up a New Administration",
+   "definition": "The administrative framework dividing British possessions into Presidencies and establishing dual district courts (civil and criminal) under European District Collectors.",
+   "formula": "district_administration = revenue_collection + law_and_order_supervision",
+   "key_idea": "Standardized digests of Hindu and Muslim laws centralized legal authority under British judicial oversight.",
+   "textbook_ref": "hess202.txt lines 510-565",
+   "question_patterns": [
+    "How were British administrative territories divided into Presidencies?",
+    "Describe the judicial reforms introduced by Warren Hastings in 1772.",
+    "What was the difference between a diwani adalat and a faujdari adalat?",
+    "Explain the role and significance of the Collector in an Indian district.",
+    "Why were Hindu pandits and Muslim jurists asked to compile legal codes?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Outline Presidency and district governance",
+     "explain": "Territories were split into Bengal, Madras, and Bombay Presidencies under Governors, with the Collector heading district administration."
+    },
+    {
+     "step": 2,
+     "action": "Detail the judicial apparatus",
+     "explain": "Each district had a civil court (diwani adalat) and criminal court (faujdari adalat); pandits and maulvis interpreted indigenous laws for British magistrates."
+    }
+   ]
+  },
+  {
+   "id": "hess.202.11",
+   "title": "Structure and Evolution of the Sepoy Army",
+   "section": "The Company army",
+   "definition": "The transformation of the British military apparatus from traditional cavalry-dominant units to disciplined, musket-bearing infantry recruited from local peasantries.",
+   "formula": "infantry_firepower > traditional_cavalry_charges",
+   "key_idea": "European military drill created professional discipline but disregarded deep-seated caste and religious identities of sepoys.",
+   "textbook_ref": "hess202.txt lines 566-625",
+   "question_patterns": [
+    "How was the Company army different from the earlier Mughal army?",
+    "Why did the importance of cavalry decline in the nineteenth century army?",
+    "What weapons were used by infantry soldiers in the nineteenth century?",
+    "Explain how European training and uniform discipline caused discontent among sepoys.",
+    "What does the term sepoy mean and how were soldiers recruited?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Contrast armed structures",
+     "explain": "The Mughal military relied heavily on cavalry (sawars) and rural foot soldiers, whereas the Company trained professional infantry armed with muskets and matchlocks."
+    },
+    {
+     "step": 2,
+     "action": "Highlight cultural friction",
+     "explain": "Strict European drill routines and universal disciplinary rules ignored religious and caste boundaries, creating resentment among sepoys."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "hess202.txt lines 250-300",
+   "concept": "hess.202.5",
+   "question_type": "verify_property",
+   "question_pattern": "Explain how the system of subsidiary alliance helped the East India Company annex Indian territories without waging war in every instance.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Explain disarmament clause",
+     "explain": "Indian rulers entering the alliance were forbidden from maintaining their own sovereign armies and had to rely on British protection."
+    },
+    {
+     "step": 2,
+     "action": "Explain maintenance payment penalty",
+     "explain": "Rulers had to pay large sums for subsidiary troops; non-payment led to annexation of lucrative territory, as happened with Awadh and Hyderabad."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "hess202.txt lines 456-490",
+   "concept": "hess.202.9",
+   "question_type": "verify_property",
+   "question_pattern": "Explain why the Doctrine of Lapse created widespread alarm and discontent among Indian royal families.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Describe the rule on heirless rulers",
+     "explain": "Lord Dalhousie ruled that kingdoms without biological male heirs would lapse to the Company, rejecting the age-old tradition of adopted heirs."
+    },
+    {
+     "step": 2,
+     "action": "Identify affected kingdoms",
+     "explain": "Major states like Satara, Nagpur, Sambalpur, and Jhansi lost sovereignty, fueling deep grievances that exploded in the rebellion of 1857."
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.202.1",
+   "question_type": "verify_property",
+   "question_pattern": "What did the royal charter granted by Queen Elizabeth I mean for the East India Company?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify royal charter provisions",
+     "explain": "The 1600 charter gave the English East India Company exclusive rights to trade with the East without competition from other English merchants."
+    },
+    {
+     "step": 2,
+     "action": "Analyze commercial competition",
+     "explain": "Portuguese, Dutch, and French companies competed for the same Indian goods like spices, silk, and fine cotton, which raised procurement prices and forced militarized trade."
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.202.1",
+   "question_type": "verify_property",
+   "question_pattern": "Explain how mercantile trading companies made profits in the seventeenth century.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify royal charter provisions",
+     "explain": "The 1600 charter gave the English East India Company exclusive rights to trade with the East without competition from other English merchants."
+    },
+    {
+     "step": 2,
+     "action": "Analyze commercial competition",
+     "explain": "Portuguese, Dutch, and French companies competed for the same Indian goods like spices, silk, and fine cotton, which raised procurement prices and forced militarized trade."
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.202.2",
+   "question_type": "verify_property",
+   "question_pattern": "When and where was the first English factory established in Bengal?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Locate early settlements",
+     "explain": "The first factory opened on the Hugli river in 1651, followed by fortification in 1696 and acquisition of zamindari rights over three villages including Kalikata."
+    },
+    {
+     "step": 2,
+     "action": "Detail customs duty conflict",
+     "explain": "Aurangzeb granted duty-free trade solely to Company goods, but officials conducting private commercial ventures refused to pay local taxes, depriving Bengal of revenue."
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.202.2",
+   "question_type": "verify_property",
+   "question_pattern": "What was a farman and how did Company officials misuse Aurangzeb's farman?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Locate early settlements",
+     "explain": "The first factory opened on the Hugli river in 1651, followed by fortification in 1696 and acquisition of zamindari rights over three villages including Kalikata."
+    },
+    {
+     "step": 2,
+     "action": "Detail customs duty conflict",
+     "explain": "Aurangzeb granted duty-free trade solely to Company goods, but officials conducting private commercial ventures refused to pay local taxes, depriving Bengal of revenue."
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.202.3",
+   "question_type": "verify_property",
+   "question_pattern": "What led to the confrontation between Sirajuddaulah and the East India Company at Plassey?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Outline the immediate causes",
+     "explain": "Sirajuddaulah demanded an end to political meddling, illegal fortifications, and tax evasion, leading him to seize Kassimbazar and Calcutta."
+    },
+    {
+     "step": 2,
+     "action": "Examine the battle outcome",
+     "explain": "Robert Clive bribed commander Mir Jafar with the promise of the throne, resulting in the Nawab's betrayal, defeat, and assassination in 1757."
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.202.3",
+   "question_type": "verify_property",
+   "question_pattern": "Describe the role played by Robert Clive and Mir Jafar in the Battle of Plassey.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Outline the immediate causes",
+     "explain": "Sirajuddaulah demanded an end to political meddling, illegal fortifications, and tax evasion, leading him to seize Kassimbazar and Calcutta."
+    },
+    {
+     "step": 2,
+     "action": "Examine the battle outcome",
+     "explain": "Robert Clive bribed commander Mir Jafar with the promise of the throne, resulting in the Nawab's betrayal, defeat, and assassination in 1757."
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.202.4",
+   "question_type": "verify_property",
+   "question_pattern": "What were the consequences of the Battle of Buxar in 1764?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "State the significance of Buxar",
+     "explain": "Mir Qasim challenged British dominance, resulting in his defeat at Buxar in 1764 and showing the limits of managing puppet nawabs."
+    },
+    {
+     "step": 2,
+     "action": "Explain the fiscal mechanism of Diwani",
+     "explain": "Appointed Diwan in 1765 by the Mughal emperor, the Company directly utilized regional taxes to buy textiles and finance expansion, halting the drain of British bullion."
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.202.4",
+   "question_type": "verify_property",
+   "question_pattern": "How did the assumption of Diwani in 1765 benefit the East India Company?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "State the significance of Buxar",
+     "explain": "Mir Qasim challenged British dominance, resulting in his defeat at Buxar in 1764 and showing the limits of managing puppet nawabs."
+    },
+    {
+     "step": 2,
+     "action": "Explain the fiscal mechanism of Diwani",
+     "explain": "Appointed Diwan in 1765 by the Mughal emperor, the Company directly utilized regional taxes to buy textiles and finance expansion, halting the drain of British bullion."
+    }
+   ]
+  },
+  {
+   "id": "ex11",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.202.5",
+   "question_type": "verify_property",
+   "question_pattern": "Why did the Nawab of Awadh have to cede half of his territory to Wellesley in 1801?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define alliance conditions",
+     "explain": "Protected rulers could not maintain autonomous armies and had to finance British subsidiary forces."
+    },
+    {
+     "step": 2,
+     "action": "Analyze enforcement via Residents",
+     "explain": "Company Residents manipulated royal successions and policies, annexing tracts of land as default penalties as seen in Awadh and Hyderabad."
+    }
+   ]
+  },
+  {
+   "id": "ex12",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.202.6",
+   "question_type": "verify_property",
+   "question_pattern": "Why did the East India Company consider Haidar Ali and Tipu Sultan dangerous?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze commercial and diplomatic resistance",
+     "explain": "Tipu blocked exports of pepper, sandalwood, and cardamom through Malabar ports and partnered with the French to modernize his forces."
+    },
+    {
+     "step": 2,
+     "action": "Trace the conclusion of hostilities",
+     "explain": "After four wars (1767-1799), Tipu died defending Shrirangapatnam; Mysore was restored to the Wodeyars under a subsidiary alliance."
+    }
+   ]
+  },
+  {
+   "id": "ex13",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.202.6",
+   "question_type": "verify_property",
+   "question_pattern": "What commercial measures did Tipu Sultan introduce in 1785 to stop British trade?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Analyze commercial and diplomatic resistance",
+     "explain": "Tipu blocked exports of pepper, sandalwood, and cardamom through Malabar ports and partnered with the French to modernize his forces."
+    },
+    {
+     "step": 2,
+     "action": "Trace the conclusion of hostilities",
+     "explain": "After four wars (1767-1799), Tipu died defending Shrirangapatnam; Mysore was restored to the Wodeyars under a subsidiary alliance."
+    }
+   ]
+  },
+  {
+   "id": "ex14",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.202.7",
+   "question_type": "verify_property",
+   "question_pattern": "How was the Maratha confederacy organized under the leadership of the Peshwa?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify Maratha governance structure",
+     "explain": "The confederacy consisted of regional dynasties (Sindhia, Holkar, Gaikwad, Bhonsle) coordinated by the Peshwa in Pune."
+    },
+    {
+     "step": 2,
+     "action": "Detail the phases of subjugation",
+     "explain": "After an inconclusive first war (1782) and territorial losses in the second (1803-05), the third war (1817-19) abolished the Peshwaship and exiled him to Bithur."
+    }
+   ]
+  },
+  {
+   "id": "ex15",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.202.7",
+   "question_type": "verify_property",
+   "question_pattern": "What was the significance of the Treaty of Salbai in 1782?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify Maratha governance structure",
+     "explain": "The confederacy consisted of regional dynasties (Sindhia, Holkar, Gaikwad, Bhonsle) coordinated by the Peshwa in Pune."
+    },
+    {
+     "step": 2,
+     "action": "Detail the phases of subjugation",
+     "explain": "After an inconclusive first war (1782) and territorial losses in the second (1803-05), the third war (1817-19) abolished the Peshwaship and exiled him to Bithur."
+    }
+   ]
+  },
+  {
+   "id": "ex16",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.202.8",
+   "question_type": "verify_property",
+   "question_pattern": "What was the policy of paramountcy initiated by Lord Hastings?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define Paramountcy",
+     "explain": "Lord Hastings declared Company power supreme over Indian rulers, asserting an automatic right to annex any kingdom."
+    },
+    {
+     "step": 2,
+     "action": "Examine popular opposition and frontier expansion",
+     "explain": "Rani Channamma and Rayanna resisted in Kitoor; fear of Russian expansion drove British campaigns in Afghanistan, Sind (1843), and the post-Ranjit Singh annexation of Punjab (1849)."
+    }
+   ]
+  },
+  {
+   "id": "ex17",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.202.8",
+   "question_type": "verify_property",
+   "question_pattern": "Describe the resistance led by Rani Channamma and Rayanna in Kitoor.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Define Paramountcy",
+     "explain": "Lord Hastings declared Company power supreme over Indian rulers, asserting an automatic right to annex any kingdom."
+    },
+    {
+     "step": 2,
+     "action": "Examine popular opposition and frontier expansion",
+     "explain": "Rani Channamma and Rayanna resisted in Kitoor; fear of Russian expansion drove British campaigns in Afghanistan, Sind (1843), and the post-Ranjit Singh annexation of Punjab (1849)."
+    }
+   ]
+  },
+  {
+   "id": "ex18",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.202.9",
+   "question_type": "verify_property",
+   "question_pattern": "On what pretext did the British annex Awadh in 1856?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "State the legal condition of the doctrine",
+     "explain": "If a ruler passed away without a biological male heir, sovereignty could not pass to an adopted heir and the realm became Company territory."
+    },
+    {
+     "step": 2,
+     "action": "Enumerate annexed kingdoms",
+     "explain": "Satara, Sambalpur, Udaipur, Nagpur, and Jhansi were absorbed under this rule, followed by Awadh under the pretext of misgovernment in 1856."
+    }
+   ]
+  },
+  {
+   "id": "ex19",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.202.10",
+   "question_type": "verify_property",
+   "question_pattern": "How were British administrative territories divided into Presidencies?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Outline Presidency and district governance",
+     "explain": "Territories were split into Bengal, Madras, and Bombay Presidencies under Governors, with the Collector heading district administration."
+    },
+    {
+     "step": 2,
+     "action": "Detail the judicial apparatus",
+     "explain": "Each district had a civil court (diwani adalat) and criminal court (faujdari adalat); pandits and maulvis interpreted indigenous laws for British magistrates."
+    }
+   ]
+  },
+  {
+   "id": "ex20",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.202.10",
+   "question_type": "verify_property",
+   "question_pattern": "Describe the judicial reforms introduced by Warren Hastings in 1772.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Outline Presidency and district governance",
+     "explain": "Territories were split into Bengal, Madras, and Bombay Presidencies under Governors, with the Collector heading district administration."
+    },
+    {
+     "step": 2,
+     "action": "Detail the judicial apparatus",
+     "explain": "Each district had a civil court (diwani adalat) and criminal court (faujdari adalat); pandits and maulvis interpreted indigenous laws for British magistrates."
+    }
+   ]
+  },
+  {
+   "id": "ex21",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.202.11",
+   "question_type": "verify_property",
+   "question_pattern": "How was the Company army different from the earlier Mughal army?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Contrast armed structures",
+     "explain": "The Mughal military relied heavily on cavalry (sawars) and rural foot soldiers, whereas the Company trained professional infantry armed with muskets and matchlocks."
+    },
+    {
+     "step": 2,
+     "action": "Highlight cultural friction",
+     "explain": "Strict European drill routines and universal disciplinary rules ignored religious and caste boundaries, creating resentment among sepoys."
+    }
+   ]
+  },
+  {
+   "id": "ex22",
+   "source_ref": "reviewer enrichment 2026-09: authored from the concept's own definition, key idea and question patterns; not textbook-extracted",
+   "concept": "hess.202.11",
+   "question_type": "verify_property",
+   "question_pattern": "Why did the importance of cavalry decline in the nineteenth century army?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Contrast armed structures",
+     "explain": "The Mughal military relied heavily on cavalry (sawars) and rural foot soldiers, whereas the Company trained professional infantry armed with muskets and matchlocks."
+    },
+    {
+     "step": 2,
+     "action": "Highlight cultural friction",
+     "explain": "Strict European drill routines and universal disciplinary rules ignored religious and caste boundaries, creating resentment among sepoys."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "hess202.txt lines 635-645",
+   "questions": [
+    "Match the following pairs: Diwani - right to collect land revenue; Tiger of Mysore - Tipu Sultan; faujdari adalat - criminal court; Rani Channamma - led an anti-British movement in Kitoor; sipahi - sepoy."
+   ]
+  },
+  {
+   "id": "ex2.2",
+   "source_ref": "hess202.txt lines 646-655",
+   "questions": [
+    "Fill in the blanks: (a) The British conquest of Bengal began with the Battle of Plassey. (b) Haidar Ali and Tipu Sultan were the rulers of Mysore. (c) Dalhousie implemented the Doctrine of Lapse. (d) Maratha kingdoms were located mainly in the western/south-western part of India."
+   ]
+  },
+  {
+   "id": "ex2.3",
+   "source_ref": "hess202.txt lines 656-665",
+   "questions": [
+    "State whether true or false: (a) The Mughal empire became stronger in the eighteenth century. (b) The English East India Company was the only European company that traded with India. (c) Maharaja Ranjit Singh was the ruler of Punjab. (d) The British did not introduce administrative changes in the territories they conquered."
+   ]
+  },
+  {
+   "id": "ex2.4",
+   "source_ref": "hess202.txt lines 666-685",
+   "questions": [
+    "What attracted European trading companies to India?",
+    "What were the areas of conflict between the Bengal nawabs and the East India Company?",
+    "How did the assumption of Diwani benefit the East India Company?",
+    "Explain the system of 'subsidiary alliance'.",
+    "In what way was the administration of the Company different from that of Indian rulers?",
+    "Describe the changes that occurred in the composition of the Company's army."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_08_003",
+   "title": "c10_math_cbse_08_003",
+   "questions": [
+    {
+     "q": "Write the values of sin 0°, cos 0°, tan 0°, cosec 0°, sec 0°, and cot 0°.",
+     "a": "sin 0° = 0, cos 0° = 1, tan 0° = 0, cosec 0° is not defined, sec 0° = 1, cot 0° is not defined. A wrong answer (e.g., writing cosec 0° = 0 or ∞) reveals the student does not understand that \"not defined\" arises from division by zero (hypotenuse/opposite when opposite = 0) and is not a number like 0 or infinity.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why tan 90° is not defined but cot 90° = 0, using the right-triangle side-length reasoning.",
+     "a": "At 90°, the adjacent side (base) becomes 0 while the opposite side equals the hypotenuse. tan 90° = opposite/adjacent = hypotenuse/0 → division by zero → not defined. cot 90° = adjacent/opposite = 0/hypotenuse = 0. A wrong answer (e.g., saying both are not defined or both are 0) shows the student is memorising a table without understanding which side becomes zero in each ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: 2 sin 0° + 3 cos 90° − 4 tan 0° + 5 cot 90°.",
+     "a": "Substitute: sin 0° = 0, cos 90° = 0, tan 0° = 0, cot 90° = 0. Expression = 2(0) + 3(0) − 4(0) + 5(0) = 0. A wrong answer (e.g., writing \"not defined\" for the whole expression) reveals the student thinks that if any term in a sum is not defined, the whole sum is not defined, not recognising that the terms with defined values (all zero here) can be safely computed.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the behaviour of sec θ and cos θ as θ increases from 0° to 90°. What happens to their values at the endpoints?",
+     "a": "cos θ decreases from 1 to 0; sec θ = 1/cos θ increases from 1 to not defined (since 1/0 is not defined). At 0°: cos 0° = 1, sec 0° = 1. At 90°: cos 90° = 0, sec 90° not defined. A wrong answer (e.g., saying sec 90° = ∞ or sec 90° = 0) shows the student confuses \"tends to infinity\" with \"is not defined\" and does not grasp the reciprocal relationship at the boundary.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"sin 90° = 1, therefore cosec 90° = 1/1 = 1. Also cos 0° = 1, therefore sec 0° = 1/1 = 1. So all reciprocal pairs give defined values at 0° and 90°.\" Is the student correct? Justify.",
+     "a": "The student is partially correct but misses critical exceptions. The reciprocal pairs (sin, cosec) and (cos, sec) work at these endpoints because the denominator is non-zero. However, tan 0° = 0 but cot 0° = cos 0°/sin 0° = 1/0 → not defined. Similarly, tan 90° is not defined while cot 90° = 0. The student's statement \"all reciprocal pairs give defined values\" is false. This error reveals the student assumes reciprocals are always both defined, ignoring division by zero in tan/cot.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-world problem (using an Indian context like a ramp, ladder, or kite string) where the angle is either 0° or 90° and you must use trigonometric ratios to find a missing length or verify a situation. Write the problem and solve it.",
+     "a": "Example problem: \"A 5 m long ramp is placed horizontally on the ground (angle 0°). What is the vertical height of the ramp's upper end from the ground?\" Solution: sin 0° = opposite/hypotenuse = height/5 → 0 = height/5 → height = 0 m. A good answer includes a clear scenario, correct ratio choice, correct substitution of the specific angle value, and correct arithmetic. A poor answer uses the wrong ratio (e.g., cos 0°) or writes \"not defined\" for sin 0°, showing confusion about which ratio applies to height.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_phy_cbse_02_013",
+ "concepts": [
+  {
+   "id": "enh:c12_phy_cbse_02_013",
+   "title": "c12_phy_cbse_02_013",
+   "questions": [
+    {
+     "q": "State the fundamental electrostatic principle that allows a Van de Graaff generator to continuously increase the potential of a hollow spherical conductor by transferring charge to its inner surface.",
+     "a": "The principle is that in a hollow conductor, all charge resides on the outer surface. When a charged conductor is brought inside and touched to the inner surface, its charge flows completely to the outer surface, increasing the sphere's total charge and thus its potential (V = Q/4πε₀R). A wrong answer (e.g., \"charge accumulates on the inner surface\") reveals the student hasn't grasped the electrostatic shielding property of conductors (c12_phy_cbse_02_007).",
+     "self_check": true
+    },
+    {
+     "q": "Why must the belt in a Van de Graaff generator be made of an insulating material (like rubber or silk) rather than a conducting material? Explain what would happen if the belt were conducting.",
+     "a": "The belt must be insulating so that charge sprayed onto it by the lower comb (via corona discharge) remains localized on the belt's surface and is transported upward without leaking away. If the belt were conducting, the charge would immediately flow across the belt to the grounded lower roller or the frame, preventing charge transport to the upper comb. A wrong answer indicates confusion between charge transport (needs insulation) and charge collection (needs conduction at combs).",
+     "self_check": true
+    },
+    {
+     "q": "A Van de Graaff generator has a spherical terminal of radius 1.2 m. The dielectric strength of air is 3 × 10⁶ V/m. Calculate the maximum potential the sphere can reach before air breakdown occurs. Show all steps with units.",
+     "a": "**Given:** R = 1.2 m, E_breakdown = 3 × 10⁶ V/m\n**Formula:** V_max = E_breakdown × R (derived from E = V/R for a sphere)\n**Step 1:** Substitute values: V_max = (3 × 10⁶ V/m) × (1.2 m)\n**Step 2:** Compute: V_max = 3.6 × 10⁶ V = 3.6 MV\n**Step 3:** Unit check: (V/m) × m = V ✓\n**Answer:** 3.6 × 10⁶ V (3.6 million volts)\nA wrong answer (e.g., using V = kQ/R without Q) reveals the student doesn't know the direct E-V relationship for a sphere or misapplies the breakdown condition.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of the lower comb (spray comb) and the upper comb (collecting comb) in a Van de Graaff generator. How does corona discharge function differently at each comb?",
+     "a": "The lower comb (connected to a high-voltage source ~10⁴ V) uses corona discharge to *spray* charge onto the moving belt — the sharp points create a high local electric field that ionizes air, depositing charge on the belt. The upper comb (connected to the inner surface of the sphere) uses corona discharge to *collect* charge from the belt — as the charged belt passes near the sharp points, the high field ionizes air again, allowing charge to jump from belt to comb and flow to the sphere's outer surface. A wrong answer that reverses the roles or says both combs \"spray\" charge shows misunderstanding of the charge transport cycle.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The Van de Graaff generator works like a capacitor — the belt acts as a dielectric between the two combs.\" Evaluate this statement. Is it correct? Why or why not?",
+     "a": "The statement is **incorrect**. A capacitor stores energy in the electric field between two conductors separated by a dielectric. In a Van de Graaff generator, the belt is an *insulator that transports charge mechanically*, not a dielectric in a capacitor. The two combs are not capacitor plates — they are electrodes for corona discharge. The spherical terminal *is* a capacitor (with the other \"plate\" at infinity), but the belt-comb system is a charge conveyor, not a capacitor. A student who agrees reveals confusion between charge transport mechanisms and capacitive energy storage.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom demonstration (using low-voltage safe materials) that illustrates the principle \"charge resides on the outer surface of a hollow conductor\" — the core principle behind the Van de Graaff generator. List materials, procedure, and expected observation.",
+     "a": "**Materials:** Hollow metal can (e.g., empty paint can), electroscope or LED+resistor circuit, insulated rod with small metal ball, friction rod (PVC pipe + wool).\n**Procedure:** (1) Charge the small ball by rubbing PVC with wool. (2) Touch the charged ball to the *inside* bottom of the hollow can. (3) Test the *outside* of the can with the electroscope/LED. (4) Repeat touching inside — the outside charge increases each time.\n**Expected observation:** Electroscope deflects / LED glows, showing charge appears on the outer surface. After multiple touches, deflection increases.\n**Good answer criteria:** Correctly uses a hollow conductor, demonstrates charge transfer to inner surface, and verifies charge on outer surface. A poor answer uses a solid conductor or tests the inner surface, missing the key principle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

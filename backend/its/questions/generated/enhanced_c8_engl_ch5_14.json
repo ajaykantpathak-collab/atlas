@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_engl_ch5_14",
+ "concepts": [
+  {
+   "id": "enh:c8_engl_ch5_14",
+   "title": "c8_engl_ch5_14",
+   "questions": [
+    {
+     "q": "What is the difference between *assonance* and *alliteration*? Provide a brief example of each.",
+     "a": "Alliteration is the repetition of consonant sounds at the *beginning* of closely placed words (e.g., \"**f**eathered **f**riend\"). Assonance is the repetition of similar vowel sounds *inside* nearby words (e.g., \"g**o**lden r**o**ad\"). \n\n*What a wrong answer reveals:* If a student confuses the two, they are looking at words visually rather than phonetically, or they assume any sound repetition is called \"alliteration.\" They need to learn to isolate vowel sounds from consonant sounds.",
+     "self_check": true
+    },
+    {
+     "q": "Read these two lines:\nLine 1: *The heavy door swung shut with a metallic clang.*\nLine 2: *A silver sliver slips through silent space.*\n\nWhich line has a higher musical quality, and what specific sound device makes it so? Explain in your own words.",
+     "a": "Line 2 has a much higher musical quality. It uses **alliteration** (the repetition of the soft 's' sound in \"silver,\" \"sliver,\" \"slips,\" \"silent,\" and \"space\") and **consonance** (the 'l' sound in \"silver,\" \"sliver,\" \"slips\"). This repetition creates a smooth, whispering, continuous sound that mimics quiet movement, whereas Line 1 reads like flat, descriptive prose.\n\n*What a wrong answer reveals:* If a student chooses Line 1 because it has \"exciting words\" like \"metallic clang,\" they are focusing on the *literal meaning* of sound words (onomatopoeia) rather than the *structural music* created by sound devices.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the rhyme scheme and identify one sound device in this short stanza:\n*Deep in the metal dome she sings,*\n*Above the wires and the beams,*\n*She spreads her bright and golden wings,*\n*And wakes us from our heavy dreams.*",
+     "a": "**Step 1: Identify the end words of each line.**\n* Line 1 ends with \"sings.\"\n* Line 2 ends with \"beams.\"\n* Line 3 ends with \"wings.\"\n* Line 4 ends with \"dreams.\"\n\n**Step 2: Assign letters to map the rhyme scheme.**\n* \"sings\" gets letter **A**.\n* \"beams\" does not rhyme with \"sings,\" so it gets letter **B**.\n* \"wings\" rhymes perfectly with \"sings,\" so it gets letter **A**.\n* \"dreams\" rhymes perfectly with \"beams,\" so it gets letter **B**.\n* The rhyme scheme is **ABAB**.\n\n**Step 3: Identify an internal sound device.**\n* Look at Line 1: \"**m**etal **d**o**m**e she s**i**ngs\" -> The repetition of the vowel sound /i/ in \"in\" and \"sings\" (assonance), or the soft 's' sounds in \"sings\", \"spreads\", \"wings\", \"dreams\" (consonance). Also, look at Line 4: \"**h**eavy **d**reams\" / \"**w**akes us\" -> there is a soft, rhythmic flow.\n\n*What a wrong answer reveals:* A student who writes \"AABB\" is guessing based on common patterns rather than looking closely at the actual end sounds. A student who cannot find a sound device is not looking inside the lines.",
+     "self_check": true
+    },
+    {
+     "q": "How does the transition from a highly regular rhyme scheme (like ABAB) to an irregular or broken rhyme scheme (like ABCB or ABAC) change the mood and musical flow of a poem?",
+     "a": "A regular ABAB rhyme scheme creates a sense of balance, predictability, and calm, acting like a steady, comforting heartbeat. When a poet breaks this pattern (e.g., ABAC), the musical flow is disrupted. This sudden lack of expected rhyme creates tension, surprise, or unease, highlighting a shift in the poem's mood—such as a moment of danger, confusion, or freedom.\n\n*What a wrong answer reveals:* If a student says \"it just makes the poem sound bad or wrong,\" they fail to see that poets use discord and disruption *on purpose* as an artistic tool to mirror emotional states.",
+     "self_check": true
+    },
+    {
+     "q": "Read this stanza and evaluate its musicality:\n*The bird in the cage did not weep,*\n*But sang of a sky wide and deep,*\n*While the gears of the station would grind and groan,*\n*Leaving us cold and alone.*\n\nCritique how the poet uses sound devices to contrast the bird with the mechanical space station.",
+     "a": "The poet successfully uses sound devices to create a sharp contrast:\n1. **The Bird (Lines 1-2):** The rhyming words \"weep\" and \"deep\" use long, smooth vowel sounds (assonance of /ee/), creating a soft, soaring, and emotional musical quality.\n2. **The Space Station (Lines 3-4):** The poet uses harsh alliteration and consonance with \"**g**ears,\" \"**g**rind,\" and \"**g**roan.\" The hard 'g' and rough 'r' sounds are plosive and grating, mimicking the rough, cold, mechanical sounds of the machinery. \nThis structural music makes the reader *feel* the discomfort of the machine versus the beauty of the bird's song.\n\n*What a wrong answer reveals:* If the student only lists the rhyme scheme (AABB) without analyzing the *quality* of the sounds (soft vowels vs. harsh consonants), they do not understand how sound choices reinforce thematic contrasts.",
+     "self_check": true
+    },
+    {
+     "q": "Write a original four-line stanza about a bird flying in a metallic, artificial world. Use an **AABB** rhyme scheme, and incorporate **alliteration** in at least two lines to make the flight sound smooth.",
+     "a": "*Acceptable Student Response Example:*\n*The **s**wift bird **s**oars through **s**teely skies, (A)*\n*Where **f**lashing **f**ires slowly rise. (A)*\n*She beats her wings against the cold, (B)*\n*And turns the dull gray into gold. (B)*\n\n*Criteria for Success:*\n1. Must have an AABB rhyme scheme (skies/rise = A, cold/gold = B).\n2. Must have clear alliteration in at least two lines (\"**s**wift... **s**oars... **s**teely\" in Line 1; \"**f**lashing... **f**ires\" in Line 2).\n3. The content must reflect a bird in an artificial/metallic world.\n\n*What a poor answer reveals:* If the lines do not rhyme correctly (e.g., ABAB instead of AABB) or if there is no alliteration, the student is struggling to write creatively while adhering to structural constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,284 @@
+{
+ "catalog": "catalog_class11_informatics_practices_keip103",
+ "concepts": [
+  {
+   "id": "keip103.1",
+   "title": "Arithmetic Operators: Floor Division, Modulo, Exponent",
+   "questions": [
+    {
+     "q": "Find the value of 13 % 5 and 13 // 5 in Python. Use the method 'Arithmetic Operators: Floor Division, Modulo, Exponent'. Work with: dividend = 15, divisor = 80. Carry the chain through step by step and give the final value of rebuilt_value.",
+     "a": "15 units",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 5 // 2 and 2 // 5 and explain the difference in results. Use the method 'Arithmetic Operators: Floor Division, Modulo, Exponent'. Work with: dividend = 6, divisor = 8. Carry the chain through step by step and give the final value of rebuilt_value.",
+     "a": "6 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Arithmetic Operators: Floor Division, Modulo, Exponent' refers to.",
+     "a": "Beyond the four familiar operations, Python offers three special arithmetic tools: // keeps only the whole-number part of a quotient, % hands back the leftover after division, and ** raises a base to a power. For any division, quotient times divisor plus remainder always rebuilds the dividend.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Arithmetic Operators: Floor Division, Modulo, Exponent'.",
+     "a": "// drops the decimals, % keeps what // threw away, and ** repeats multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Arithmetic Operators: Floor Division, Modulo, Exponent', in plain ASCII form.",
+     "a": "remainder = dividend % divisor",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip103.2",
+   "title": "Operator Precedence Evaluation Order",
+   "questions": [
+    {
+     "q": "Evaluate (20 + 30) * 40 step by step and compare with 20 + 30 * 40. Use the method 'Operator Precedence Evaluation Order'. Work with: the fixed constants of the method. Carry the chain through step by step and give the final value of expression_result.",
+     "a": "14.75 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 15.0 / 4.0 + (8 + 3.0). Use the method 'Operator Precedence Evaluation Order'. Work with: the fixed constants of the method. Carry the chain through step by step and give the final value of expression_result.",
+     "a": "14.75 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Operator Precedence Evaluation Order' refers to.",
+     "a": "When several operators share one expression, precedence decides who acts first: parentheses beat everything, then * / // %, then + and -. Equal-precedence partners work left to right, and each step of the evaluation rewrites the expression until one number remains.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Operator Precedence Evaluation Order'.",
+     "a": "Parentheses first, then multiply/divide, then add/subtract; ties resolve left to right.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Operator Precedence Evaluation Order', in plain ASCII form.",
+     "a": "expression_result = first_part + second_part",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip103.3",
+   "title": "Augmented Assignment Operators",
+   "questions": [
+    {
+     "q": "Using the method 'Augmented Assignment Operators', work with: increment = 18, multiplier = 8, old_value = 8000. Carry the chain through step by step and give the final value of final_value.",
+     "a": "64144 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Augmented Assignment Operators' and work with: increment = 75, multiplier = 75, old_value = 80000. Carry the chain through step by step and give the final value of final_value.",
+     "a": "6005625 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Augmented Assignment Operators' refers to.",
+     "a": "Shorthand operators such as +=, -=, *=, /=, //= and **= fold an arithmetic step into the assignment itself: x += y means x is replaced by x + y. Chaining two of them applies the updates one after another to the running value.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Augmented Assignment Operators'.",
+     "a": "Each augmented operator rewrites the variable in place using its own current value.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Augmented Assignment Operators', in plain ASCII form.",
+     "a": "final_value = after_add * multiplier",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip103.4",
+   "title": "Simple Interest Amount Payable",
+   "questions": [
+    {
+     "q": "Find the simple interest on a principal of 5000 at 6 percent per annum for 2 years. Use the method 'Simple Interest Amount Payable'. Work with: principal = 120000, rate = 18, time_years = 10. Carry the chain through step by step and give the final value of amount_payable.",
+     "a": "336000 units",
+     "self_check": false
+    },
+    {
+     "q": "How much interest accrues on 2500 at 4 percent per annum in 30 months? Use the method 'Simple Interest Amount Payable'. Work with: principal = 80000, rate = 15, time_years = 50. Carry the chain through step by step and give the final value of amount_payable.",
+     "a": "680000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Simple Interest Amount Payable' refers to.",
+     "a": "When money is lent at a fixed yearly rate, the interest charged grows linearly with the principal, the rate and the time in years. The borrower returns the principal together with this interest as the amount payable.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Simple Interest Amount Payable'.",
+     "a": "Interest equals principal times rate times time divided by 100; add it back to the principal to get the payable amount.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Simple Interest Amount Payable', in plain ASCII form.",
+     "a": "amount_payable = principal + simple_interest",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip103.5",
+   "title": "range Function Loop Count and Last Value",
+   "questions": [
+    {
+     "q": "Find the output of for i in range(20,30,2): print(i). Use the method 'range Function Loop Count and Last Value'. Work with: start_value = 5000, step_value = 50000, stop_value = 20000. Carry the chain through step by step and give the final value of last_value.",
+     "a": "5000 units",
+     "self_check": false
+    },
+    {
+     "q": "How many numbers does list(range(10)) contain? Use the method 'range Function Loop Count and Last Value'. Work with: start_value = 2500, step_value = 1200, stop_value = 5000. Carry the chain through step by step and give the final value of last_value.",
+     "a": "4900 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'range Function Loop Count and Last Value' refers to.",
+     "a": "range([start], stop[, step]) produces the integers from start up to but excluding stop, spaced by step. The number of values it yields is the smallest count of steps that reaches or crosses stop, and the last printed value sits one step short of stop.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'range Function Loop Count and Last Value'.",
+     "a": "Count the iterations with an upward rounded division, then add (count - 1) steps to the start to land on the final value printed.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'range Function Loop Count and Last Value', in plain ASCII form.",
+     "a": "loop_count = (stop_value - start_value + step_value - 1) // step_value",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip103.6",
+   "title": "Nested Loop Print Count",
+   "questions": [
+    {
+     "q": "How many times is the inner print executed when the outer loop runs 3 times and the inner loop 2 times? Use the method 'Nested Loop Print Count'. Work with: inner_count = 30, outer_count = 5. Carry the chain through step by step and give the final value of grand_total.",
+     "a": "156 units",
+     "self_check": false
+    },
+    {
+     "q": "How many times does the message Out of inner loop appear in Program 3-6? Use the method 'Nested Loop Print Count'. Work with: inner_count = 24, outer_count = 5. Carry the chain through step by step and give the final value of grand_total.",
+     "a": "126 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Nested Loop Print Count' refers to.",
+     "a": "A loop placed inside another loop is called nested: for every single pass of the outer loop, the inner loop finishes all of its own passes. The total number of inner-body executions is therefore the product of the two iteration counts.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Nested Loop Print Count'.",
+     "a": "Outer pass count times inner pass count gives how many times the innermost statement runs.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Nested Loop Print Count', in plain ASCII form.",
+     "a": "total_prints = outer_steps * inner_steps",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip103.7",
+   "title": "Choosing Python Data Types",
+   "questions": [
+    {
+     "q": "Using the method 'Choosing Python Data Types', work with: int_or_float_or_str = 80. Carry the chain through step by step and give the final value of chosen_type.",
+     "a": "80 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Choosing Python Data Types' and work with: int_or_float_or_str = 240. Carry the chain through step by step and give the final value of chosen_type.",
+     "a": "240 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Choosing Python Data Types' refers to.",
+     "a": "Every value in Python carries a type: int for whole counts, float for measurements with decimals, bool for the two truth constants True and False, complex for imaginary parts, str for text, list and tuple for ordered groups, and dictionary for key-value pairs. Picking the type means matching the kind of data and the operations needed.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Choosing Python Data Types'.",
+     "a": "Counts take int, measurable quantities take float, yes/no facts take bool, and text takes str.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Choosing Python Data Types', in plain ASCII form.",
+     "a": "chosen_type = int_or_float_or_str",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip103.8",
+   "title": "Syntax, Logical and Runtime Errors",
+   "questions": [
+    {
+     "q": "Using the method 'Syntax, Logical and Runtime Errors', work with: syntax_or_logical_or_runtime = 10. Carry the chain through step by step and give the final value of error_class.",
+     "a": "10 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Syntax, Logical and Runtime Errors' and work with: syntax_or_logical_or_runtime = 12. Carry the chain through step by step and give the final value of error_class.",
+     "a": "12 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Syntax, Logical and Runtime Errors' refers to.",
+     "a": "Program mistakes come in three kinds. Syntax errors break the language rules so the interpreter refuses to run the code at all. Logical errors run silently but produce a wrong result because the method itself is flawed. Runtime errors pass the syntax check yet abort midway, for example when a denominator turns out to be zero. Locating and fixing them is called debugging.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Syntax, Logical and Runtime Errors'.",
+     "a": "Syntax stops the program before it starts, logic gives wrong answers quietly, runtime crashes mid-flight.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Syntax, Logical and Runtime Errors', in plain ASCII form.",
+     "a": "error_class = syntax_or_logical_or_runtime",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip103.9",
+   "title": "if elif else Conditional Statements",
+   "questions": [
+    {
+     "q": "Using the method 'if elif else Conditional Statements', work with: conditions_count = 50. Carry the chain through step by step and give the final value of elif_chain_checks.",
+     "a": "50 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'if elif else Conditional Statements' and work with: conditions_count = 3. Carry the chain through step by step and give the final value of elif_chain_checks.",
+     "a": "3 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'if elif else Conditional Statements' refers to.",
+     "a": "Conditional statements let one program take different paths depending on a test. A plain if runs its indented block only when the condition holds; if...else adds an alternative block for the failing case; the if...elif...else ladder checks several conditions in order and runs the first block whose test is true.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'if elif else Conditional Statements'.",
+     "a": "The ladder tests conditions top to bottom and runs only the first true block before skipping the rest.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'if elif else Conditional Statements', in plain ASCII form.",
+     "a": "elif_chain_checks = conditions_count",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

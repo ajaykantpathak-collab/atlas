@@ -1,0 +1,173 @@
+{
+ "catalog": "catalog_class6_social_science_ch303",
+ "concepts": [
+  {
+   "id": "fess.303.1.1",
+   "title": "Meaning and Functions of Government",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Meaning and Functions of Government' refers to.",
+     "a": "An organized governing body that holds the authority to make collective decisions, manage resources, maintain order, and provide public services for a country or community.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Meaning and Functions of Government'.",
+     "a": "A central authority that manages public affairs, makes rules, and protects the territory.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Meaning and Functions of Government' taught, and from which source text?",
+     "a": "What is Government? (source: fess303.txt lines 28-55)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.303.1.2",
+   "title": "Levels of Government",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Levels of Government' refers to.",
+     "a": "The hierarchical division of administrative authority into local, state, and national tiers to manage public affairs efficiently at different geographic scales.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Levels of Government'.",
+     "a": "Governance is divided into local, state, and national levels to address issues at appropriate scales.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Levels of Government' taught, and from which source text?",
+     "a": "Levels of Government (source: fess303.txt lines 56-85)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.303.1.3",
+   "title": "Laws and the Government",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Laws and the Government' refers to.",
+     "a": "The rules established by the governing authority that all citizens must follow, backed by the power of enforcement through penalties or legal actions.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Laws and the Government'.",
+     "a": "Laws are meaningless without the authority and mechanisms to enforce them.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Laws and the Government' taught, and from which source text?",
+     "a": "Laws and the Government (source: fess303.txt lines 86-115)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.303.1.4",
+   "title": "Democratic Government",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Democratic Government' refers to.",
+     "a": "A system of governance where the supreme power is vested in the people, who exercise it directly or through elected representatives.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Democratic Government'.",
+     "a": "In a democracy, the government is accountable to the people and must explain its decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Democratic Government' taught, and from which source text?",
+     "a": "Types of Government (source: fess303.txt lines 116-135)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.303.1.5",
+   "title": "Monarchy",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Monarchy' refers to.",
+     "a": "A form of government where a single ruler, such as a king or queen, holds supreme political power, often inherited, and is not accountable to the public.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Monarchy'.",
+     "a": "A monarch makes final decisions without needing to explain or defend them to the citizens.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Monarchy' taught, and from which source text?",
+     "a": "Types of Government (source: fess303.txt lines 136-155)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.303.1.6",
+   "title": "Representative Democracy",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Representative Democracy' refers to.",
+     "a": "A type of democracy where citizens elect representatives to make laws and govern the country on their behalf, rather than voting on laws directly.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Representative Democracy'.",
+     "a": "Modern democracies function through elected representatives who make decisions for the entire population.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Representative Democracy' taught, and from which source text?",
+     "a": "Democratic Governments (source: fess303.txt lines 156-175)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.303.1.7",
+   "title": "Universal Adult Franchise",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Universal Adult Franchise' refers to.",
+     "a": "The constitutional right of all adult citizens of a country to vote in elections, without discrimination based on gender, wealth, property, or education.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Universal Adult Franchise'.",
+     "a": "A government cannot claim to be democratic without granting voting rights to all adults.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Universal Adult Franchise' taught, and from which source text?",
+     "a": "Democratic Governments (source: fess303.txt lines 176-210)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.303.1.8",
+   "title": "Women's Suffrage Movement",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Women's Suffrage Movement' refers to.",
+     "a": "The organized political struggle by women, particularly active during the early 20th century, to secure the legal right to vote in public elections.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Women's Suffrage Movement'.",
+     "a": "Women and the poor had to fight intense struggles to gain equal participation in governance.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Women's Suffrage Movement' taught, and from which source text?",
+     "a": "Democratic Governments (source: fess303.txt lines 211-245)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

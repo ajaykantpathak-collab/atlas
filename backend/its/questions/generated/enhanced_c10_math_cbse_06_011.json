@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_math_cbse_06_011",
+ "concepts": [
+  {
+   "id": "enh:c10_math_cbse_06_011",
+   "title": "c10_math_cbse_06_011",
+   "questions": [
+    {
+     "q": "State the Pythagoras theorem and its converse in your own words. Use the terms 'hypotenuse', 'legs', and 'right angle' correctly.",
+     "a": "Pythagoras theorem: In a right-angled triangle, the square of the hypotenuse equals the sum of the squares of the other two sides (legs). Converse: If in a triangle the square of one side equals the sum of the squares of the other two sides, then the angle opposite the first side is a right angle. A wrong answer (e.g., swapping hypotenuse and leg, or omitting 'right angle') reveals the student has memorised the formula \\(a^2+b^2=c^2\\) without understanding which side is which, leading to errors in identifying the hypotenuse in problems.",
+     "self_check": true
+    },
+    {
+     "q": "In a right triangle, the hypotenuse is 13 cm and one leg is 5 cm. A student writes: \\(13^2 + 5^2 = x^2\\) to find the other leg. Is this correct? Explain why or why not.",
+     "a": "Incorrect. The hypotenuse is the longest side and its square equals the sum of the squares of the legs. The correct equation is \\(5^2 + x^2 = 13^2\\) or \\(x^2 = 13^2 - 5^2\\). The student's error shows they do not understand that the hypotenuse must be isolated on one side of the equation; they treat the hypotenuse as a leg, which would give a longer side than the hypotenuse — impossible in a right triangle.",
+     "self_check": true
+    },
+    {
+     "q": "A rectangular park is 60 m long and 25 m wide. Find the length of the diagonal path across the park. If a person walks along the diagonal instead of along the length and breadth, how much distance is saved?",
+     "a": "Step 1: The diagonal forms a right triangle with length and breadth as legs. Step 2: Apply \\(d^2 = 60^2 + 25^2 = 3600 + 625 = 4225\\). Step 3: \\(d = \\sqrt{4225} = 65\\) m. Step 4: Distance along edges = \\(60 + 25 = 85\\) m. Step 5: Distance saved = \\(85 - 65 = 20\\) m. A wrong answer (e.g., \\(d = 60+25=85\\) or forgetting to take square root) reveals the student cannot translate the rectangle into a right triangle or misapplies the theorem by adding sides instead of squaring.",
+     "self_check": true
+    },
+    {
+     "q": "The sides of a triangle are 7 cm, 24 cm, and 25 cm. Determine if it is a right triangle. If yes, which angle is the right angle? Justify using the converse of Pythagoras theorem.",
+     "a": "Check: \\(7^2 + 24^2 = 49 + 576 = 625\\). \\(25^2 = 625\\). Since \\(7^2 + 24^2 = 25^2\\), by the converse of Pythagoras theorem, the triangle is right-angled. The right angle is opposite the longest side (25 cm). A wrong answer (e.g., checking \\(7^2+25^2=24^2\\) or saying it's not right-angled because 7+24≠25) reveals the student does not know to test the longest side as hypotenuse or confuses the converse with the forward theorem.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves this problem: \"The hypotenuse of a right triangle is 10 cm and one leg is 6 cm. Find the other leg.\" Their working: \\(x^2 = 10^2 + 6^2 = 136\\), so \\(x = \\sqrt{136} \\approx 11.66\\) cm. Identify the error and give the correct answer.",
+     "a": "Error: The student added the squares instead of subtracting. The hypotenuse square equals sum of legs' squares, so the unknown leg square = \\(10^2 - 6^2 = 100 - 36 = 64\\). Correct answer: \\(x = 8\\) cm. The student's answer (11.66 cm) is longer than the hypotenuse (10 cm), which is impossible. This reveals the student does not understand the structural relationship: the hypotenuse is the largest side, so its square minus a leg's square gives the other leg's square.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (Indian context) that requires using the Pythagoras theorem to find a missing length. The problem must involve a right triangle that is not explicitly drawn (e.g., a situation with a tree, pole, or shadow). Write the problem statement and solve it completely.",
+     "a": "Example problem: \"A 15 m high pole is broken by a storm at a point 9 m above the ground. The top touches the ground some distance away from the base. How far from the base does the top touch?\" Solution: The broken part forms the hypotenuse of a right triangle with vertical leg 9 m and horizontal leg \\(x\\). Broken part length = \\(15 - 9 = 6\\) m. Wait: Actually the broken part is the hypotenuse? Let's re-read: The pole is broken at 9 m height, so the standing part is 9 m (vertical leg). The broken part (length 6 m) falls and touches the ground, becoming the hypotenuse? No, the broken part is the hypotenuse only if it's straight from break point to ground. But the broken part length is 6 m, and the vertical leg is 9 m. That would make hypotenuse shorter than leg, impossible. So the problem must be: The pole breaks and the top touches the ground. The standing part is vertical, the fallen part is the hypotenuse. Let the break point be at height \\(h\\). Then the fallen part length = \\(15-h\\). The distance from base to top is \\(x\\). Right triangle: vertical leg = \\(h\\), horizontal leg = \\(x\\), hypotenuse = \\(15-h\\). Need another condition. Usually such problems give the distance from base. Let's design a correct one: \"A 13 m long bamboo is broken at a height of 5 m from the ground. The top touches the ground. Find the distance from the base where the top touches.\" Solution: Standing part = 5 m (vertical leg), fallen part = 8 m (hypotenuse). Distance \\(x\\): \\(5^2 + x^2 = 8^2 \\Rightarrow x^2 = 64-25=39 \\Rightarrow x=\\sqrt{39}\\) m. A poor answer would be a problem that doesn't form a right triangle, or uses the theorem incorrectly (e.g., adding instead of subtracting), showing the student cannot model a situation geometrically.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

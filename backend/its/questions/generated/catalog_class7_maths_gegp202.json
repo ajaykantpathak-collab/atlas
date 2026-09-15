@@ -1,0 +1,169 @@
+{
+ "catalog": "catalog_class7_maths_gegp202.json",
+ "concepts": [
+  {
+   "id": "gegp2.2.1",
+   "title": "Integers: A Quick Recap",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the integer operation sign rules",
+     "explain": "apply the integer operation sign rules: total = 10 + (-8) gives 2",
+     "compute": "total = 10 + (-8)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Add the integers 10 and -8.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "A point starts at 9 on a number line and moves -1 steps (negative means left). Where does it finish?",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Multiply the integers 1 and 9.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "Divide 90 by 2.",
+     "a": "45",
+     "self_check": false
+    },
+    {
+     "q": "Find the additive inverse of -15 and return it.",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law to evaluate 7 x 4 + 7 x 8 as 7 x (4 + 8).",
+     "a": "84",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp2.2.2",
+   "title": "Adding and Subtracting Integers",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Add the integers 7 and -1.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "A point starts at 26 on a number line and moves 24 steps (negative means left). Where does it finish?",
+     "a": "50",
+     "self_check": false
+    },
+    {
+     "q": "Multiply the integers -7 and -10.",
+     "a": "70",
+     "self_check": false
+    },
+    {
+     "q": "Divide -131 by 3.",
+     "a": "-43.6667",
+     "self_check": false
+    },
+    {
+     "q": "Find the additive inverse of 0 and return it.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law to evaluate 4 x 5 + 4 x 3 as 4 x (5 + 3).",
+     "a": "32",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp2.2.3",
+   "title": "Multiplying Integers: Sign Rules",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the integer operation sign rules",
+     "explain": "apply the integer operation sign rules: total = -23 + (8) gives -15",
+     "compute": "total = -23 + (8)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Add the integers -23 and 8.",
+     "a": "-15",
+     "self_check": false
+    },
+    {
+     "q": "A point starts at 13 on a number line and moves -20 steps (negative means left). Where does it finish?",
+     "a": "-7",
+     "self_check": false
+    },
+    {
+     "q": "Multiply the integers -4 and -6.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "Divide -119 by 3.",
+     "a": "-39.6667",
+     "self_check": false
+    },
+    {
+     "q": "Find the additive inverse of -14 and return it.",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law to evaluate 6 x 8 + 6 x 6 as 6 x (8 + 6).",
+     "a": "84",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp2.2.4",
+   "title": "Division of Integers and Its Sign Law",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Add the integers -25 and 1.",
+     "a": "-24",
+     "self_check": false
+    },
+    {
+     "q": "A point starts at 29 on a number line and moves -23 steps (negative means left). Where does it finish?",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Multiply the integers 3 and -5.",
+     "a": "-15",
+     "self_check": false
+    },
+    {
+     "q": "Divide 106 by 3.",
+     "a": "35.3333",
+     "self_check": false
+    },
+    {
+     "q": "Find the additive inverse of -7 and return it.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law to evaluate 7 x 4 + 7 x 9 as 7 x (4 + 9).",
+     "a": "91",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hs_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c11_hs_cbse_06_006",
+   "title": "c11_hs_cbse_06_006",
+   "questions": [
+    {
+     "q": "List the five elements of the SMCRE model in their correct sequential order.",
+     "a": "The correct sequence is: Source → Message → Channel → Receiver → Effect (Feedback). A wrong answer (e.g., placing Channel before Message or omitting Effect) reveals the student has memorized the acronym but not the logical flow of communication from initiation to response.",
+     "self_check": true
+    },
+    {
+     "q": "In your own words, explain why the SMCRE model is described as a \"cycle\" even though it is often drawn as a linear sequence.",
+     "a": "The model is a cycle because the Effect (feedback) from the receiver often becomes a new Source for a follow-up message, restarting the process. A student who says \"it's linear because the diagram shows arrows in one direction\" misunderstands that communication is continuous and recursive, not a one-shot event.",
+     "self_check": true
+    },
+    {
+     "q": "A school principal sends a circular about a new uniform policy via email to all parents. Some parents do not check email regularly and miss the information. Using the SMCRE model, identify which element failed and propose one concrete change to fix it.",
+     "a": "The Channel element failed because the chosen medium (email) did not match the receiver group's access habits. A fix: use multiple channels (email + SMS + printed notice) to ensure reach. A wrong answer that blames the Receiver (\"parents should check email\") shows the student does not grasp that the source must adapt the channel to the receiver's reality.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of Feedback in one-way communication (e.g., a TV news broadcast) versus two-way communication (e.g., a parent-teacher meeting) using the SMCRE model.",
+     "a": "In one-way communication, the Effect element is delayed, indirect, or absent (TV ratings come weeks later), so the cycle remains open. In two-way communication, Feedback is immediate and direct (teacher answers parent's question), closing the cycle instantly. A student who says \"both have feedback\" fails to analyze the critical difference in feedback speed, quality, and its impact on message adjustment.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If the Source is highly credible, the Message will always be effective regardless of the Channel chosen.\" Use the SMCRE model to justify your position.",
+     "a": "The statement is false. The SMCRE model shows all elements are interdependent; a credible Source (e.g., a doctor) sending a health Message via an inaccessible Channel (e.g., a technical journal to villagers) will fail because the Receiver cannot receive/decode it. A student who agrees reveals a misconception that Source credibility alone guarantees communication success, ignoring channel-receiver fit.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini communication plan for a community health worker to convince rural mothers to adopt oral rehydration therapy (ORT) for diarrhoea. Specify each SMCRE element with context-appropriate choices.",
+     "a": "A strong answer includes: Source = trusted local ASHA worker; Message = simple ORS preparation steps in local dialect with visual aids; Channel = home visits + demonstrations at village meetings + folk songs; Receiver = mothers of children under 5, grouped by literacy level; Effect = follow-up home visits to check ORS preparation and child recovery. A weak answer that uses generic choices (e.g., \"Source: doctor, Channel: pamphlet\") shows inability to tailor elements to the specific socio-cultural context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

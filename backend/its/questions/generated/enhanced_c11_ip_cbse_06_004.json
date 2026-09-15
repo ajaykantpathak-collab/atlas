@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_06_004",
+   "title": "c11_ip_cbse_06_004",
+   "questions": [
+    {
+     "q": "What is the return type of `file_object.read()` when the file pointer is at the end of a non-empty text file?",
+     "a": "The return type is `str` (an empty string `''`). A wrong answer like `None` or `[]` reveals the student confuses end-of-file behaviour with `readline()` (which returns `''`) or `readlines()` (which returns `[]`), or mistakenly thinks `read` returns `None` like some other languages.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why `readlines()` might cause a `MemoryError` on a 10 GB log file while `readline()` in a loop would not, even though both read the same file.",
+     "a": "`readlines()` loads the entire file into memory as a list of strings simultaneously, requiring RAM proportional to file size. `readline()` reads one line at a time, keeping only one line in memory. A wrong answer focusing on speed or syntax shows the student doesn't grasp the memory-model difference between bulk loading and streaming.",
+     "self_check": true
+    },
+    {
+     "q": "Given a file `data.txt` with content:\n```\nApple\nBanana\nCherry\n```\nWrite the exact output of the following code snippet:\n```python\nf = open('data.txt', 'r')\nprint(f.read(6))\nprint(f.readline())\nf.close()\n```",
+     "a": "Output:\n```\nApple\nBanana\n\n```\nStep-by-step: `read(6)` reads first 6 characters `'Apple\\n'` (including newline), pointer moves after `\\n`. `readline()` then reads the next full line `'Banana\\n'`. A wrong answer like `'Apple\\nBanana\\n'` or missing the blank line reveals misunderstanding of the file pointer position after partial reads and that `readline` includes the newline.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two approaches for counting lines in a file. Which is more memory-efficient and why?\nApproach A: `len(open('huge.txt').readlines())`\nApproach B: `sum(1 for _ in open('huge.txt'))`",
+     "a": "Approach B is more memory-efficient. Approach A creates a list of all lines in memory (O(n) space). Approach B uses a generator expression that iterates line by line, keeping only one line at a time (O(1) space). A student choosing A reveals they don't recognize that `readlines()` materializes the whole list while the file object itself is an iterator.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: `content = f.read(); lines = f.readlines()` expecting `lines` to contain the file's lines. Why does `lines` end up as an empty list? How would you fix it without reopening the file?",
+     "a": "After `f.read()`, the file pointer is at EOF, so `readlines()` returns `[]`. Fix: either call `f.seek(0)` before `readlines()` to reset the pointer, or store the result of `read()` and split it: `lines = content.splitlines(keepends=True)`. A wrong fix like \"use `readline()` in a loop\" shows the student doesn't understand pointer position or that `read()` consumes the stream.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where you would deliberately choose `read()` over `readlines()` and vice versa. Specify the file size, processing need, and justify each choice in 2-3 sentences.",
+     "a": "Example: `read()` for a 50 KB configuration file `settings.ini` where you need to parse the entire content with regex to extract all key-value pairs at once — small file, random access needed. `readlines()` for a 200 MB server log `access.log` where you need to randomly access the 100th error line and its surrounding context — large but fits in RAM, random access by line index required. A poor answer gives generic \"small vs large\" without concrete processing justification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

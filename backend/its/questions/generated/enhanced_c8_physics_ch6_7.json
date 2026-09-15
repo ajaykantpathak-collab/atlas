@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch6_7",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch6_7",
+   "title": "c8_physics_ch6_7",
+   "questions": [
+    {
+     "q": "State the fundamental difference between a real image and a virtual image in terms of light rays and screen projection.",
+     "a": "A real image is formed by the actual convergence of light rays and can be obtained on a screen. A virtual image is formed by the apparent divergence of light rays (they only appear to meet when extended backwards) and cannot be obtained on a screen. A wrong answer (e.g., \"virtual images are always smaller\") reveals the student is memorizing specific cases instead of the defining ray behavior.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"The image formed by a convex mirror is virtual, so it cannot be seen by the eye.\" Explain why this statement is incorrect using the concept of how the eye perceives images.",
+     "a": "The eye's lens converges the diverging rays entering it to form a real image on the retina. Virtual images are perfectly visible; they just cannot be projected on a screen because the rays don't actually meet. A wrong answer indicates the student confuses \"cannot be projected on a screen\" with \"cannot be seen at all.\"",
+     "self_check": true
+    },
+    {
+     "q": "An object is placed 20 cm in front of a concave mirror of focal length 15 cm. Without drawing a ray diagram, determine whether the image is real or virtual. Justify your answer using the object's position relative to the focus.",
+     "a": "Given: f = 15 cm, u = 20 cm (object distance). Since object is placed beyond the focus (u > f), the reflected rays actually converge, forming a real image. Steps: 1) Identify mirror type (concave) and focal length (15 cm). 2) Identify object distance (20 cm). 3) Compare: object is beyond focus (20 > 15). 4) Apply rule: object beyond F → real, inverted image. 5) Conclusion: Real image. A wrong answer (e.g., virtual) shows the student doesn't know the critical role of the focus position.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the image formed by a concave mirror when the object is at the centre of curvature (C) versus when the object is between the pole (P) and focus (F). Analyze how the nature (real/virtual), orientation, and size change.",
+     "a": "At C: image at C, real, inverted, same size. Between P and F: image behind mirror, virtual, erect, magnified. Nature changes from real to virtual; orientation changes from inverted to erect; size changes from same to magnified. A wrong answer (e.g., both real) reveals the student hasn't internalized that crossing the focus flips the image from real to virtual.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher projects a sharp image of a distant tree onto a screen using a concave mirror. She then replaces the concave mirror with a convex lens and adjusts the screen to get a sharp image again. Evaluate: In both cases, is the image on the screen real or virtual? Why must the screen be at the focal plane for the distant tree?",
+     "a": "Both images are real because they are formed on a screen by actual convergence of rays. For a distant object (at infinity), rays arrive parallel; both concave mirror and convex lens converge parallel rays at their focal points. Hence the screen must be at the focal plane. A wrong answer (e.g., \"virtual for lens\") shows confusion between mirror/lens behavior for distant objects.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a concave mirror, a candle, and a screen to demonstrate that a real image is formed when the object is beyond the focus, but a virtual image is formed when the object is between the focus and the mirror. List the steps and expected observations.",
+     "a": "Steps: 1) Find approximate focal length by focusing sunlight on paper. 2) Place candle beyond F (e.g., at 2F), adjust screen to get sharp inverted image → real image caught on screen. 3) Move candle between F and P, try to catch image on screen → no image on screen; look into mirror → see erect magnified virtual image. 4) Record observations in table. A poor answer (e.g., only describes one position) shows inability to systematically vary object position to test the concept.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

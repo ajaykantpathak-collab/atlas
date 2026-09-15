@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_phy_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c10_phy_cbse_04_008",
+   "title": "c10_phy_cbse_04_008",
+   "questions": [
+    {
+     "q": "A student holds a lens towards the sun and obtains a sharp bright spot on a screen placed 15 cm from the lens. What type of lens is it, and what is its focal length? State the sign of the focal length as per Cartesian sign convention.",
+     "a": "The lens is convex (converging) because it forms a real focus on the screen. Focal length f = +15 cm (or +0.15 m). The sign is positive because the focus is on the side opposite to the incident light (real focus). A wrong answer (e.g., concave lens or negative focal length) reveals confusion between real/virtual focus and sign convention for converging vs diverging lenses.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a convex lens converge parallel rays while a concave lens diverges them, even though both are made of the same transparent material (e.g., glass)? Explain using the shape of the lens surfaces and refraction at each surface.",
+     "a": "A convex lens is thicker at the centre; each spherical surface refracts rays towards the normal at the first surface (air to glass) and away from the normal at the second surface (glass to air), with net bending towards the principal axis. A concave lens is thinner at the centre; the first surface bends rays away from the normal, the second bends them towards the normal, but the net effect is bending away from the axis. A wrong answer indicates the student memorises behaviour without linking to refraction at curved surfaces.",
+     "self_check": true
+    },
+    {
+     "q": "A thin convex lens has radii of curvature R₁ = +20 cm and R₂ = -20 cm (using Cartesian sign convention). Calculate its focal length. If the lens is made of glass (n = 1.5) and placed in air, verify the focal length using the lens maker's formula (for awareness only, not required for board exam). Note: For a thin lens in air, f = R/2 for each surface if symmetric? Actually, for a thin lens, the focal length is given by 1/f = (n-1)(1/R₁ - 1/R₂). Compute f.",
+     "a": "Given R₁ = +20 cm, R₂ = -20 cm, n = 1.5. Using lens maker's formula: 1/f = (1.5 - 1)[1/(+20) - 1/(-20)] = 0.5[1/20 + 1/20] = 0.5 × (2/20) = 0.5 × 0.1 = 0.05 cm⁻¹. So f = 1/0.05 = +20 cm. The positive sign confirms convex lens. A wrong answer (e.g., f = 10 cm) reveals incorrect substitution of signs for R₁ and R₂ or misunderstanding of the formula.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ray diagrams for a parallel beam incident on a convex lens and a concave lens. Identify the path of a ray passing through the optical centre in both cases. Explain why this ray passes undeviated.",
+     "a": "In both lenses, a ray through the optical centre passes undeviated because at the optical centre the two lens surfaces are parallel, so the ray undergoes equal and opposite refractions that cancel out. For a convex lens, parallel rays converge at the real focus on the other side. For a concave lens, parallel rays diverge as if from a virtual focus on the same side. A wrong answer (e.g., ray bends at optical centre) shows the student does not understand the geometry of the lens at the optical centre.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If I cover the lower half of a convex lens with black paper, the image will become half.\" Evaluate this statement. Will the image be full or half? Will its intensity change? Justify.",
+     "a": "The image will be full but dimmer (less intense). Each point on the object emits rays that pass through all parts of the lens; covering half the lens blocks some rays but the remaining rays from every object point still form the complete image. A wrong answer (image becomes half) reveals the misconception that each part of the lens forms a separate part of the image, rather than the whole image.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using a convex lens, a screen, and a distant object (e.g., a tree outside the classroom window) to determine the approximate focal length of the lens. List the steps, the measurement to be taken, and how to ensure accuracy.",
+     "a": "Steps: (1) Hold the convex lens facing the distant tree. (2) Place a screen on the other side. (3) Move the screen until a sharp, inverted image of the tree forms. (4) Measure the distance between the lens and the screen — this is the focal length (since object distance ≈ ∞, image distance ≈ f). (5) Repeat 3 times and take the average. Accuracy: ensure the tree is sufficiently far (≥ 50 m) so that incident rays are nearly parallel. A poor answer (e.g., using a nearby object) shows lack of understanding that the method requires object at infinity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

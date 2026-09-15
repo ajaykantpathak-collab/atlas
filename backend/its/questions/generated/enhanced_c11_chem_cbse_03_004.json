@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_03_004",
+   "title": "c11_chem_cbse_03_004",
+   "questions": [
+    {
+     "q": "Write the complete ground-state electronic configuration of chlorine (Z=17) using the s,p,d,f notation and identify its period, group, and block in the modern periodic table.",
+     "a": "Chlorine (Z=17): 1s²2s²2p⁶3s²3p⁵ or [Ne]3s²3p⁵. Period = 3 (highest n=3), Group = 17 (7 valence electrons: 3s²3p⁵), Block = p-block (last electron enters p-orbital). A wrong answer like 1s²2s²2p⁶3s²3p⁴3d¹ reveals confusion about the Aufbau order (3d fills after 4s, not after 3p) and misunderstanding that period corresponds to the highest n, not the filling order.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the 4th period contains 18 elements while the 3rd period contains only 8, even though both start with an s-orbital filling (4s and 3s respectively). Use the (n+l) rule in your explanation.",
+     "a": "In Period 3 (n=3), available subshells are 3s (n+l=3), 3p (n+l=4), and 3d (n+l=5). After 3s and 3p fill (8 electrons), the next available is 4s (n+l=4) which belongs to Period 4. Thus 3d (n+l=5) fills only after 4s. In Period 4, the filling sequence is 4s (n+l=4), then 3d (n+l=5), then 4p (n+l=5). Total orbitals = 1 (4s) + 5 (3d) + 3 (4p) = 9 orbitals → 18 electrons → 18 elements. A student who says \"Period 4 has d-orbitals but Period 3 doesn't\" misses the quantum mechanical reason — 3d exists but fills later due to higher (n+l) value.",
+     "self_check": true
+    },
+    {
+     "q": "An element has the outer electronic configuration (n-1)d⁵ns¹. If n=4, identify the element, write its full configuration, and explain why this configuration is an exception to the Aufbau principle.",
+     "a": "For n=4: (n-1)d⁵ns¹ = 3d⁵4s¹. This is Chromium (Z=24). Full configuration: 1s²2s²2p⁶3s²3p⁶3d⁵4s¹ or [Ar]3d⁵4s¹. Expected by Aufbau: [Ar]3d⁴4s². The exception occurs because half-filled d-subshell (d⁵) and half-filled s-orbital (s¹) provide extra stability due to symmetrical electron distribution and exchange energy. A wrong answer giving [Ar]3d⁴4s² shows rigid application of Aufbau without considering stability of half-filled subshells. A student writing 4s¹3d⁵ instead of 3d⁵4s¹ reveals confusion about writing order (by n) vs filling order.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the electronic configurations of the Group 1 elements (Li, Na, K, Rb, Cs, Fr). What pattern do you observe in their valence shell configuration? How does this pattern explain their similar chemical properties despite increasing atomic size?",
+     "a": "All Group 1 elements have valence configuration ns¹ (Li: 2s¹, Na: 3s¹, K: 4s¹, Rb: 5s¹, Cs: 6s¹, Fr: 7s¹). The pattern is constant: one electron in an s-orbital of the outermost shell. Similar properties arise because chemical behaviour is governed by valence electrons — all readily lose this single ns¹ electron to form M⁺ ions with noble gas configuration. Increasing size down the group lowers ionization energy (easier to lose electron), increasing reactivity, but the fundamental reaction type (loss of one electron) remains identical. A student citing \"same number of valence electrons\" without specifying ns¹ misses the orbital-specific nature — Group 2 also has \"2 valence electrons\" but they are ns², giving different chemistry.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the electronic configuration of Copper (Z=29) as [Ar] 3d⁹4s². Evaluate this configuration. Is it correct? If not, provide the correct configuration and justify why the actual configuration differs from the Aufbau prediction.",
+     "a": "The student's configuration [Ar]3d⁹4s² is incorrect. Correct: [Ar]3d¹⁰4s¹. Aufbau predicts 3d⁹4s², but the actual ground state has a fully-filled 3d¹⁰ subshell and half-filled 4s¹. This occurs because a completely filled d-subshell (d¹⁰) provides extra stability from maximum exchange energy and symmetrical charge distribution. The energy gap between 3d and 4s is small, so one electron from 4s promotes to 3d to achieve d¹⁰s¹. A student who says \"Aufbau is always followed\" doesn't understand that Aufbau is a guideline for building up, not a strict rule for ground states — stability of half/fully-filled subshells overrides it for Cr, Cu, Mo, Ag, Au, etc.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step method to determine the period, group, and block of any element given only its atomic number (Z), without memorizing the periodic table. Test your method on Z=114 and Z=117.",
+     "a": "Method: (1) Write electronic configuration using Aufbau/(n+l) rule. (2) Period = highest n in configuration. (3) Block = orbital type (s/p/d/f) of last added electron. (4) Group: For s-block = valence e⁻ count (1 or 2); p-block = 10 + valence e⁻ count; d-block = (n-1)d e⁻ + ns e⁻; f-block = separate (lanthanoids/actinoids). For Z=114: [Rn]5f¹⁴6d¹⁰7s²7p² → Period 7, p-block, Group 14 (10+4). For Z=117: [Rn]5f¹⁴6d¹⁰7s²7p⁵ → Period 7, p-block, Group 17 (10+7). A poor answer that just says \"look at the table\" fails to demonstrate the algorithmic connection between quantum numbers and table position. A good answer shows the configuration writing steps explicitly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

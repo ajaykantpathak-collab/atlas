@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_acc_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c12_acc_cbse_03_002",
+   "title": "c12_acc_cbse_03_002",
+   "questions": [
+    {
+     "q": "What is the correct basis for calculating the retiring partner's share of goodwill when the firm's goodwill is valued at ₹5,00,000 and the old profit-sharing ratio is 5:3:2?",
+     "a": "The retiring partner's share = Firm's goodwill × Retiring partner's old profit-sharing ratio. For example, if the retiring partner's old share is 2/10, their goodwill share = ₹5,00,000 × 2/10 = ₹1,00,000. A wrong answer (e.g., using gaining ratio or new ratio) reveals the student confuses the basis of entitlement (old ratio) with the basis of compensation (gaining ratio).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why existing goodwill appearing in the books must be written off in the old profit-sharing ratio before any further goodwill adjustment on retirement.",
+     "a": "Existing goodwill in the books represents past valuation shared by all partners in their old ratio. If not written off, the retiring partner would get double benefit: once through the existing goodwill balance and again through the new adjustment. Writing it off in the old ratio restores the capital accounts to a position where only the current goodwill valuation needs adjustment. A wrong answer (e.g., \"write off in gaining ratio\") shows the student doesn't understand that existing goodwill belongs to all partners as per their old agreement.",
+     "self_check": true
+    },
+    {
+     "q": "A firm has goodwill of ₹4,00,000 in the books. Partners A, B, C share profits 3:2:1. C retires. The firm's goodwill is revalued at ₹6,00,000. Pass the journal entries for goodwill treatment if goodwill is to be raised and written off.",
+     "a": "Step 1: Write off existing goodwill — A's Capital Dr. ₹2,00,000, B's Capital Dr. ₹1,33,333, C's Capital Dr. ₹66,667 → To Goodwill ₹4,00,000 (in 3:2:1). Step 2: Raise new goodwill at revalued amount — Goodwill A/c Dr. ₹6,00,000 → To A's Capital ₹3,00,000, B's Capital ₹2,00,000, C's Capital ₹1,00,000 (in old ratio 3:2:1). Step 3: Write off new goodwill — A's Capital Dr. ₹3,00,000, B's Capital Dr. ₹2,00,000, C's Capital Dr. ₹1,00,000 → To Goodwill ₹6,00,000 (in old ratio). Net effect: C gets ₹1,00,000 credit (their share of revalued goodwill), A and B bear the net adjustment. A wrong entry (e.g., skipping write-off of existing goodwill) reveals the student misses the two-step process required when goodwill already exists.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two methods: (i) Raising goodwill at revalued amount and writing it off, and (ii) Adjusting goodwill through capital accounts without raising a goodwill account. Which method is preferred when the partnership deed prohibits showing goodwill in the balance sheet?",
+     "a": "Method (ii) is preferred when the deed prohibits showing goodwill. In this method, we directly debit continuing partners' capital accounts in gaining ratio and credit retiring partner's capital account with their share of goodwill. No goodwill account appears in the books. Method (i) temporarily shows goodwill as an asset, violating the deed. A wrong choice indicates the student doesn't connect the accounting treatment to the partnership agreement constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"When a partner retires, the continuing partners always compensate the retiring partner for goodwill in their new profit-sharing ratio.\" Defend or critique with reasoning.",
+     "a": "Critique: The statement is false. Continuing partners compensate the retiring partner in their **gaining ratio** (new share − old share), not the new profit-sharing ratio. The gaining ratio reflects how much each continuing partner gains from the retiring partner's share. For example, if old ratio 3:2:1 and new ratio 3:2, gaining ratio = (3/5−3/6):(2/5−2/6) = 3:2. But if new ratio is 5:3, gaining ratio = (5/8−3/6):(3/8−2/6) = 1:0. Using new ratio would misallocate the burden. A wrong defence reveals the student confuses gaining ratio with new ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a retiring partner's goodwill share is ₹2,00,000, the gaining ratio is 2:1, but the continuing partners have insufficient capital balances to absorb the debit. Propose a solution consistent with partnership accounting principles.",
+     "a": "Good solution: The continuing partners' capital accounts are debited with the goodwill adjustment (₹1,33,333 and ₹66,667) even if it creates a debit balance. The debit balance represents a loan from the firm to the partner, which must be repaid by bringing in cash. Alternatively, the retiring partner's payment can be deferred until the continuing partners bring in cash. A poor answer (e.g., \"reduce goodwill share\") shows the student doesn't understand that goodwill adjustment is a non-negotiable entitlement and capital accounts can show debit balances temporarily.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

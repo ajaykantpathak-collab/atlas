@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_hist_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c12_hist_cbse_01_003",
+   "title": "c12_hist_cbse_01_003",
+   "questions": [
+    {
+     "q": "What is the standardized ratio of length : breadth : height for Harappan bricks, and at how many major sites has this ratio been confirmed?",
+     "a": "The ratio is 4:2:1 (length:breadth:height). This ratio has been confirmed at *all* major Harappan sites — Harappa, Mohenjodaro, Dholavira, Kalibangan, Lothal, Rakhigarhi, Banawali — spanning from Jammu to Gujarat. A wrong answer (e.g., 3:2:1 or “varied by site”) reveals the student misses the civilization-wide standardization that is the strongest evidence for centralized norms or shared technical codes.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Harappan builders construct buildings on massive mud-brick platforms rather than directly on the ground? Explain using evidence from Mohenjodaro.",
+     "a": "Platforms (1) protected structures from seasonal Indus floods, (2) created a level base on uneven terrain, and (3) allowed gravity-fed drainage from houses to street drains. At Mohenjodaro, the Citadel’s height comes entirely from such platforms; the Lower Town also used platforms as foundations. A wrong answer focusing only on “status display” ignores the hydraulic engineering logic — the platforms *enabled* the drainage system that defines Harappan planning.",
+     "self_check": true
+    },
+    {
+     "q": "Given a site plan showing a walled western mound (12 m high) and a larger eastern settlement with streets at right angles, how would you identify which is the Citadel and which is the Lower Town? What *one* feature would confirm the Citadel’s public (non-residential) function?",
+     "a": "The western mound is the Citadel (smaller, higher, walled); the eastern expanse is the Lower Town (larger, lower, also walled). Confirmation of public function: presence of non-residential structures — warehouse (massive brick plinths), Great Bath (watertight tank), or assembly hall — *without* domestic features (courtyards, wells, bathrooms). A student who identifies Citadel by “palace” or “king’s residence” misapplies Mesopotamian models; Harappan Citadels lack palaces.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the street grid of Mohenjodaro with that of Ur (Mesopotamia, c. 2000 BCE). Which civilization shows *stricter* orthogonality, and what does this imply about the *timing* of street-laying relative to house construction?",
+     "a": "Mohenjodaro’s grid is *more* orthogonal — streets intersect at near-perfect right angles over large sectors; Ur’s streets curve organically around temple complexes. This implies Harappan streets *with drains* were laid out *first* (primary infrastructure), then houses built along them (secondary). In Ur, houses and temples grew incrementally, then streets formed in the gaps. A student claiming “both are grids” misses the *degree* of orthogonality and its causal link to drain-first planning.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: “The uniformity of brick sizes across 1,500 km proves a single Harappan state enforced building codes.” Use archaeological evidence to support or refute.",
+     "a": "The claim overreaches. Uniform bricks *do* indicate shared technical standards (moulds, training, measurement), but could arise from: (a) a unitary state, (b) a confederation with agreed norms, (c) itinerant brick-makers spreading techniques, or (d) functional convergence (4:2:1 is optimal for bonding). No royal inscriptions, palaces, or administrative archives exist to confirm (a). A strong answer weighs *standardization* against *absence of coercive monuments* — the hallmark of Harappan “authority without visible rulers.”",
+     "self_check": true
+    },
+    {
+     "q": "Design a layout for a new Harappan settlement (5 hectares) in a semi-arid zone with seasonal flooding. Specify: (a) Citadel/Lower Town placement, (b) street orientation, (c) brick type, (d) wall circuit, (e) one public structure — justifying each with Harappan parallels.",
+     "a": "(a) Citadel on highest natural ground (west), Lower Town east — per Mohenjodaro/Dholavira. (b) Streets N-S/E-W, main drains along streets — grid first, houses later. (c) Baked bricks 4:2:1 for drains/platforms; sun-dried for superstructure — matches all sites. (d) Perimeter wall enclosing both sectors; internal wall separating Citadel — Dholavira’s multiple walled divisions. (e) Reservoir with gypsum mortar — Dholavira’s water management. A poor answer copies Mohenjodaro mechanically without adapting to *semi-arid* constraints (reservoirs > Great Bath).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

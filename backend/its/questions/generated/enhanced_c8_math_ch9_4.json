@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch9_4",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch9_4",
+   "title": "c8_math_ch9_4",
+   "questions": [
+    {
+     "q": "What is the exact length of the hypotenuse of an isosceles right triangle whose legs are each 7 cm? Write your answer using the square root symbol.",
+     "a": "The correct answer is \\(7\\sqrt{2}\\) cm. A wrong answer like 14 cm reveals the student added the legs instead of applying the area relationship. An answer of \\(7^2\\) or 49 cm shows confusion between the side length and the area of the square on the leg. An answer of \\(\\sqrt{98}\\) cm is mathematically equivalent but not simplified, indicating the student knows the Pythagorean calculation but hasn't recognized the \\(a\\sqrt{2}\\) pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul says: \"In an isosceles right triangle, the hypotenuse is twice the length of a leg because there are two equal legs.\" Explain why Rahul's reasoning is incorrect using the concept of areas of squares.",
+     "a": "Rahul is incorrectly adding the side lengths (a + a = 2a) instead of adding the areas of the squares on the legs (\\(a^2 + a^2 = 2a^2\\)). The Baudhayana-Pythagoras theorem relates areas of squares, not side lengths directly. The side of a square with area \\(2a^2\\) is \\(\\sqrt{2a^2} = a\\sqrt{2}\\), not \\(2a\\). A student who agrees with Rahul is treating the theorem as a linear sum of sides rather than a quadratic sum of areas.",
+     "self_check": true
+    },
+    {
+     "q": "A square playground has a side length of 20 m. Children run along the diagonal from one corner to the opposite corner. What is the exact distance they run? If they run this diagonal 3 times, what is the total exact distance? Express both answers in terms of \\(\\sqrt{2}\\).",
+     "a": "Step 1: The diagonal of a square is the hypotenuse of an isosceles right triangle with leg 20 m. Step 2: Using \\(h = a\\sqrt{2}\\), one diagonal = \\(20\\sqrt{2}\\) m. Step 3: Three diagonals = \\(3 \\times 20\\sqrt{2} = 60\\sqrt{2}\\) m. A wrong answer of 40 m for one diagonal shows the student used \\(2a\\). An answer of \\(20\\sqrt{2}\\) m for the total distance shows they forgot to multiply by 3. An answer of \\(28.28\\) m (approx) indicates they used a decimal approximation instead of the exact form required.",
+     "self_check": true
+    },
+    {
+     "q": "Two isosceles right triangles have legs of lengths 5 cm and 12 cm respectively. Compare the ratios of their hypotenuses to their legs. What do you notice? What does this tell you about the constant of proportionality in similar isosceles right triangles?",
+     "a": "For the first triangle: hypotenuse = \\(5\\sqrt{2}\\) cm, ratio = \\(\\frac{5\\sqrt{2}}{5} = \\sqrt{2}\\). For the second: hypotenuse = \\(12\\sqrt{2}\\) cm, ratio = \\(\\frac{12\\sqrt{2}}{12} = \\sqrt{2}\\). The ratio is exactly \\(\\sqrt{2}\\) in both cases. This shows that for all isosceles right triangles (which are all similar), the hypotenuse is always \\(\\sqrt{2}\\) times the leg. A student who computes different ratios (e.g., by approximating \\(\\sqrt{2}\\) as 1.4 and getting 1.4 vs 1.41) misses the exact invariant relationship and the concept of similarity.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves this problem: \"The hypotenuse of an isosceles right triangle is \\(10\\sqrt{2}\\) cm. Find the leg length.\" Their working: \\(h = a\\sqrt{2} \\Rightarrow 10\\sqrt{2} = a\\sqrt{2} \\Rightarrow a = 10\\) cm. Is this correct? If yes, explain why the \\(\\sqrt{2}\\) cancels. If no, find the error.",
+     "a": "Yes, the solution is correct. The equation \\(10\\sqrt{2} = a\\sqrt{2}\\) simplifies by dividing both sides by \\(\\sqrt{2}\\) (since \\(\\sqrt{2} \\neq 0\\)), giving \\(a = 10\\). The \\(\\sqrt{2}\\) cancels because it is a common non-zero factor. A student who says it's incorrect might think you cannot \"cancel\" square roots like variables, revealing a misunderstanding that \\(\\sqrt{2}\\) is just a number. A student who writes \\(a = 10\\sqrt{2}\\) has multiplied instead of divided.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (in an Indian context) that requires finding the leg length of an isosceles right triangle when the hypotenuse is given. The problem must involve a square object or area. Write the problem and solve it completely.",
+     "a": "Example problem: \"A square rangoli design has a diagonal of length \\(30\\sqrt{2}\\) cm. What is the side length of the square? If you want to put a lace border around the square, how many cm of lace do you need?\" Solution: Diagonal = side \\(\\times \\sqrt{2}\\). So side \\(\\times \\sqrt{2} = 30\\sqrt{2} \\Rightarrow\\) side = 30 cm. Perimeter = \\(4 \\times 30 = 120\\) cm of lace. A good answer shows the inverse relationship and connects to perimeter. A poor answer might only find the side and forget the lace, or set up the equation incorrectly as side = \\(30\\sqrt{2} \\times \\sqrt{2} = 60\\) cm.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

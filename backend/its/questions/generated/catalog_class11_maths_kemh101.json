@@ -1,0 +1,124 @@
+{
+ "catalog": "catalog_class11_maths_kemh101.json",
+ "concepts": [
+  {
+   "id": "kemh.101.1.1",
+   "title": "Sets and Their Representations: Roster and Set Builder Forms",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 5 gives 5",
+     "compute": "count = 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "A set has 5 elements. How many elements are in its identity relation (a, a) for every element?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "A set with 5 elements: how many pairs are in the full universal relation A x A?",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "How many pairs are in the empty relation on any set?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "A reflexive relation on a set of 4 elements must contain at least how many pairs?",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "Set A = {8}. How many elements does the singleton set A have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many elements are in the empty set (its cardinality)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.101.2.1",
+   "title": "Union, Intersection and Complement of Sets",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A set has 5 elements. How many elements are in its identity relation (a, a) for every element?",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "A set with 5 elements: how many pairs are in the full universal relation A x A?",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "How many pairs are in the empty relation on any set?",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "A reflexive relation on a set of 3 elements must contain at least how many pairs?",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Set A = {5}. How many elements does the singleton set A have?",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "How many elements are in the empty set (its cardinality)?",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kemh.101.3.1",
+   "title": "Subsets, Power Set, Intervals and Venn Diagrams",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Using the law a^m x a^n = a^(m+n), evaluate 2^4 x 2^4.",
+     "a": "256",
+     "self_check": false
+    },
+    {
+     "q": "Using a^m / a^n = a^(m-n), evaluate 5^6 / 5^1.",
+     "a": "3125",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (4^2)^2 using the power of a power law.",
+     "a": "256",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 4^2 x 3^2 using a^m x b^m = (ab)^m.",
+     "a": "144",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 6^0.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 8^(-4) and give the value as a fraction.",
+     "a": "1/4096",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

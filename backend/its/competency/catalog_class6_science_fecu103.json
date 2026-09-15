@@ -1,0 +1,215 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 3,
+ "chapter_title": "Mindful Eating: A Path to a Healthy Body",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fecu103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fecu.3.1",
+   "title": "Nutrients: Components of Food",
+   "section": "Components of food",
+   "definition": "Food supplies nutrients: carbohydrates and fats mainly give energy, while proteins build and repair the body; each meal should gather all these components in the right amounts.",
+   "formula": "food = carbohydrates + fats + proteins + vitamins + minerals + fibre + water",
+   "key_idea": "Every nutrient has a job: energy, building or regulation, and no single food supplies them all.",
+   "textbook_ref": "fecu103.txt, Components of food",
+   "question_patterns": [
+    "what are the main components of food",
+    "which nutrients give us energy",
+    "why are proteins called body building nutrients",
+    "name foods rich in carbohydrates",
+    "which foods are rich in protein",
+    "why do we need fats in our diet"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "fecu.3.2",
+   "title": "Vitamins, Minerals and Fibre",
+   "section": "Protective nutrients",
+   "definition": "Vitamins and minerals are protective nutrients needed in tiny amounts, fibre helps clear the intestine, and water carries nutrients and controls body processes; their lack causes deficiency diseases.",
+   "formula": "",
+   "key_idea": "Small doses, big effects: vitamins and minerals guard the body that energy nutrients build and fuel.",
+   "textbook_ref": "fecu103.txt, Protective nutrients",
+   "question_patterns": [
+    "why do we need vitamins and minerals",
+    "which vitamin does a lack of vitamin a cause trouble with",
+    "what is dietary fibre and where is it found",
+    "why is water counted as a food component",
+    "name a disease caused by deficiency of vitamin c",
+    "why are protective nutrients needed only in small amounts"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "fecu.3.3",
+   "title": "Testing Food for Nutrients",
+   "section": "How to test different components",
+   "definition": "Nutrients announce themselves under simple tests: iodine turns blue-black on starch, copper sulphate and caustic soda turn violet for protein, and a translucent patch on paper betrays fat.",
+   "formula": "",
+   "key_idea": "Chemical tests make the invisible visible: colour changes reveal what a food contains.",
+   "textbook_ref": "fecu103.txt, How to test different components",
+   "question_patterns": [
+    "how do we test a food item for starch",
+    "which test shows the presence of protein",
+    "how is fat detected in a food item",
+    "what colour shows starch is present",
+    "why is the transparent patch test used",
+    "design a test plan for three food items"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  },
+  {
+   "id": "fecu.3.4",
+   "title": "Mindful Eating and Deficiency Diseases",
+   "section": "Balanced diet",
+   "definition": "The subhashita's advice, eat what is wholesome, in moderation, in season, sums up mindful eating; a balanced diet rich in all components prevents deficiency diseases and keeps the body healthy.",
+   "formula": "",
+   "key_idea": "Eating right is a daily discipline: variety, moderation and season together build health.",
+   "textbook_ref": "fecu103.txt, Balanced diet",
+   "question_patterns": [
+    "what does mindful eating mean",
+    "explain hita bhuk mita bhuk ritu bhuk",
+    "what is a balanced diet",
+    "name two deficiency diseases and their causes",
+    "why should we eat food in the right season",
+    "plan a balanced meal for one day"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fecu103.txt",
+   "concept": "fecu.3.1",
+   "question_type": "verify_property",
+   "question_pattern": "what are the major components of food?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "state the idea",
+     "explain": "Say what the concept means in one or two lines."
+    },
+    {
+     "step": 2,
+     "action": "ground it in the chapter",
+     "explain": "Recall the activity or example in the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply it",
+     "explain": "Use the idea on a new example from your surroundings."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fecu103.txt",
+   "concept": "fecu.3.2",
+   "question_type": "verify_property",
+   "question_pattern": "how do we test food for starch, protein and fat?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "list the parts or steps",
+     "explain": "Write out the parts, kinds or steps involved."
+    },
+    {
+     "step": 2,
+     "action": "connect them",
+     "explain": "Say how one part leads to the next or one kind differs from the other."
+    },
+    {
+     "step": 3,
+     "action": "sum up",
+     "explain": "Give the overall picture in one sentence."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fecu103.txt, Let us enhance our learning",
+   "questions": [
+    "What are the major components of food?",
+    "How do we test food for starch, protein and fat?",
+    "What does the wise saying about healthy eating advise?",
+    "Record your food intake for one day and check its components.",
+    "Survey the midday meal of your school and name its nutrients."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_physics_ch6_8",
+ "concepts": [
+  {
+   "id": "enh:c9_physics_ch6_8",
+   "title": "c9_physics_ch6_8",
+   "questions": [
+    {
+     "q": "Define resistance and resistivity. How do they differ?",
+     "a": "Resistance (R) is the opposition a specific conductor offers to current, depending on material, length, and cross-section. Resistivity (rho) is an intrinsic property of the material, independent of shape or size. Formula: R = rho * L / A. Resistance depends on geometry; resistivity does not. A wrong answer (e.g., \"they are the same\") misses that resistance depends on the object's shape, while resistivity is a material property.",
+     "self_check": true
+    },
+    {
+     "q": "State the formula relating resistance, resistivity, length, and cross-sectional area. Define each term and its unit.",
+     "a": "R = rho * L / A, where R is resistance (ohms), rho is resistivity (ohm*meter), L is length (m), and A is cross-sectional area (m^2). A wrong answer (e.g., R = rho * A / L) inverts L and A — resistance increases with length and decreases with area, so L is in the numerator and A in the denominator.",
+     "self_check": true
+    },
+    {
+     "q": "A copper wire has resistivity 1.7e-8 ohm*m, length 10 m, and cross-sectional area 0.0001 m^2. Calculate its resistance.",
+     "a": "R = rho * L / A = 1.7e-8 * 10 / 0.0001 = 1.7e-7 / 1e-4 = 1.7e-3 = 0.0017 ohms. The resistance is 0.0017 ohms. A wrong answer (e.g., R = rho * A / L) gives a very different value — the formula must be R = rho * L / A.",
+     "self_check": true
+    },
+    {
+     "q": "If a wire's length is doubled (same material and cross-section), what happens to its resistance? If its cross-sectional area is doubled (same material and length), what happens?",
+     "a": "Length doubled: R = rho * (2L) / A = 2 * (rho * L / A) = 2R. Resistance doubles. Area doubled: R = rho * L / (2A) = (rho * L / A) / 2 = R/2. Resistance halves. Longer wire = more resistance; thicker wire = less resistance. A wrong answer (e.g., \"resistance stays the same\") misses that R depends on L and A.",
+     "self_check": true
+    },
+    {
+     "q": "Why does copper have lower resistance than iron for the same length and cross-section?",
+     "a": "Copper has lower resistivity than iron (copper: 1.7e-8 ohm*m, iron: 1.0e-7 ohm*m). Since R = rho * L / A, with the same L and A, the material with lower resistivity (copper) has lower resistance. Resistivity is the intrinsic property — copper is a better conductor because its resistivity is lower. A wrong answer (e.g., \"copper is a better conductor because it is cheaper\") confuses cost with the physical property — it is the lower resistivity, not the cost, that makes copper a better conductor.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"A thicker wire has more resistance because it has more material.\" Evaluate this statement.",
+     "a": "The statement is incorrect. A thicker wire has LESS resistance, not more. Formula: R = rho * L / A. A is in the denominator, so increasing A (thicker wire) decreases R. The thicker wire has more material, but it also has more space for current to flow, reducing opposition. Analogy: a wider pipe has less resistance to water flow than a narrow pipe. A wrong evaluation (agreeing with the student) confuses \"more material\" with \"more resistance\" — the cross-sectional area provides more paths for current, reducing resistance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

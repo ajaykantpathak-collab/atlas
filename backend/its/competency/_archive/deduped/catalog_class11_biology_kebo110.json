@@ -1,0 +1,130 @@
+{
+ "class": 11,
+ "subject": "biology",
+ "chapter": 110,
+ "chapter_title": "Cell Cycle and Cell Division",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kebo110.txt",
+ "concepts": [
+  {
+   "id": "kebo.110.1.1",
+   "title": "Cell Cycle Phases: Interphase G1 S G2 and M Phase",
+   "section": "10.1 Cell cycle",
+   "definition": "The cell cycle runs through interphase, made of G1 phase of growth, S phase of DNA replication and G2 phase of protein synthesis, followed by the M phase of mitosis, and cells that stop dividing enter the quiescent G0 phase.",
+   "formula": "",
+   "key_idea": "In a typical human cell of about 24 hours, interphase lasts more than 95 per cent of the cycle while mitosis occupies about an hour.",
+   "textbook_ref": "kebo110.txt section 10.1",
+   "question_patterns": [
+    "describe the phases of the cell cycle",
+    "what happens in the s phase of interphase",
+    "define the g0 or quiescent stage of the cell cycle",
+    "how long does a typical human cell cycle last",
+    "differentiate g1 and g2 phases",
+    "why is dna replication restricted to the s phase"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "order the phases",
+     "explain": "Arrange G1, S, G2 and M phase in sequence."
+    },
+    {
+     "step": 2,
+     "action": "state each phase's events",
+     "explain": "Note growth, DNA synthesis, preparation and division events."
+    },
+    {
+     "step": 3,
+     "action": "note the quiescent state",
+     "explain": "Explain when cells enter G0 and why."
+    }
+   ]
+  },
+  {
+   "id": "kebo.110.2.1",
+   "title": "Mitosis: Prophase, Metaphase, Anaphase and Telophase",
+   "section": "10.2 M Phase, 10.2.1 Prophase to 10.2.4 Telophase",
+   "definition": "Mitosis proceeds through prophase with chromatin condensation and spindle formation, metaphase with chromosomes aligned at the equatorial plate, anaphase with centromere splitting and chromatids moving to poles, and telophase with nuclear envelope reassembly, followed by cytokinesis.",
+   "formula": "",
+   "key_idea": "Mitosis conserves the chromosome number of the parent, so it is called equational division, and cytokinesis in plant cells happens by cell plate formation.",
+   "textbook_ref": "kebo110.txt sections 10.2, 10.2.1-10.2.4",
+   "question_patterns": [
+    "describe the stages of mitosis in order",
+    "what happens during metaphase of mitosis",
+    "why is mitosis called equational division",
+    "how does cytokinesis differ in plant and animal cells",
+    "what is the significance of the mitotic spindle",
+    "state the significance of mitosis in organisms"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "match the stage to its events",
+     "explain": "Pair condensation, alignment, separation and reassembly with their stages."
+    },
+    {
+     "step": 2,
+     "action": "check the chromosome number",
+     "explain": "Confirm that daughter cells carry the same number as the parent."
+    },
+    {
+     "step": 3,
+     "action": "note the cytokinesis pattern",
+     "explain": "State cell plate formation in plants and furrowing in animals."
+    }
+   ]
+  },
+  {
+   "id": "kebo.110.3.1",
+   "title": "Meiosis I and Meiosis II: Synapsis and Crossing Over",
+   "section": "10.3 Meiosis",
+   "definition": "Meiosis involves two successive divisions after one DNA replication: meiosis I with prophase I stages of leptotene, zygotene, pachytene, diplotene and diakinesis shows synapsis of homologous chromosomes forming bivalents and crossing over at recombination nodules, and meiosis II resembles mitosis, reducing the chromosome number to half.",
+   "formula": "",
+   "key_idea": "Crossing over during pachytene, mediated by the enzyme recombinase, creates genetic variation, and meiosis is called reductional division because the chromosome number halves.",
+   "textbook_ref": "kebo110.txt section 10.3",
+   "question_patterns": [
+    "list the substages of prophase i of meiosis",
+    "what is synapsis and when does it occur",
+    "define bivalent and tetrad in meiosis",
+    "what is crossing over and which enzyme mediates it",
+    "why is meiosis called reductional division",
+    "state the significance of meiosis in sexually reproducing organisms"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "separate the two divisions",
+     "explain": "Distinguish meiosis I events from meiosis II events."
+    },
+    {
+     "step": 2,
+     "action": "locate crossing over",
+     "explain": "Note the pachytene stage and recombination nodules."
+    },
+    {
+     "step": 3,
+     "action": "verify the outcome",
+     "explain": "Confirm four haploid cells result from one meiotic division series."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "exq1",
+   "source_ref": "kebo110.txt exercises section",
+   "questions": [
+    "What is the average cell cycle span for a mammalian cell?",
+    "Describe the events taking place during prophase of mitosis.",
+    "Distinguish cytokinesis from karyokinesis.",
+    "Describe the events taking place in prophase I of meiosis.",
+    "Why is meiosis I called reductional division while meiosis II is equational?",
+    "Name the stage of the cell cycle where DNA replication occurs.",
+    "What is the significance of crossing over?"
+   ]
+  }
+ ]
+}

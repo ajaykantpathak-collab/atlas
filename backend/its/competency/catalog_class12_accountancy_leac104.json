@@ -1,0 +1,411 @@
+{
+ "class": 12,
+ "subject": "accountancy",
+ "chapter": 4,
+ "chapter_title": "Dissolution of Partnership Firm",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leac104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leac.104.4.1",
+   "title": "Realisation Account",
+   "section": "4.4",
+   "definition": "At dissolution every asset other than cash and every external liability is pushed into one account that collects sale proceeds, settlements and wind-up costs; its final balance is the profit or loss on realisation.",
+   "formula": "realisation_result = credit_side_total - debit_side_total",
+   "key_idea": "The account exists only to measure the wind-up result, which then moves to the partners in the profit ratio.",
+   "textbook_ref": "leac104.txt section 4.4, figure 4.1 and Illustration 1 (lines 231-566)",
+   "question_patterns": [
+    "prepare the realisation account on dissolution of a firm",
+    "what is transferred to the realisation account when a firm is dissolved",
+    "how is the realisation account closed at dissolution",
+    "which items appear on each side of the realisation account",
+    "explain the purpose of the realisation account in winding up a firm"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "transfer assets at book value", "explain": "every asset except cash, bank and fictitious items goes to the debit side; provisions travel to the credit side"},
+    {"step": 2, "action": "transfer external liabilities", "explain": "creditors, bills payable, bank overdraft and similar outside claims go to the credit side"},
+    {"step": 3, "action": "record wind-up transactions", "explain": "sale proceeds and liabilities assumed by partners credit the account; payments, expenses and remuneration debit it"},
+    {"step": 4, "action": "close the balance to partners", "explain": "a credit balance is profit on realisation, a debit balance a loss, shared in the profit ratio"}
+   ]
+  },
+  {
+   "id": "leac.104.4.2",
+   "title": "Profit or Loss on Realisation",
+   "section": "4.4",
+   "definition": "The wind-up result is the excess of everything credited to the realisation account over everything debited to it; a negative figure is a realisation loss.",
+   "formula": "realisation_result = credits_total - debits_total",
+   "key_idea": "Sale proceeds and liabilities taken over push the result up; payments, expenses and remuneration push it down.",
+   "textbook_ref": "leac104.txt section 4.4, Illustrations 1-2 (lines 231-566)",
+   "question_patterns": [
+    "calculate the profit or loss on realisation of the firm",
+    "find the balance of the realisation account at dissolution",
+    "what is the net result of realising the assets and paying the liabilities",
+    "compute the profit on realisation from the account totals",
+    "determine whether the dissolution ended in realisation profit or loss"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "net the two sides of the account", "explain": "subtract the total debits from the total credits; positive means profit, negative means loss", "compute": "realisation_result = credits_total - debits_total"}
+   ]
+  },
+  {
+   "id": "leac.104.4.3",
+   "title": "Sharing the Realisation Result",
+   "section": "4.4",
+   "definition": "Whatever profit or loss the wind-up produces is split among all partners in their profit sharing ratio.",
+   "formula": "partner_share = realisation_result * profit_share_fraction",
+   "key_idea": "The realisation result follows the profit ratio exactly, gains and losses alike.",
+   "textbook_ref": "leac104.txt Illustrations 1-2, 6-7 (lines 470-538, 1602-1610)",
+   "question_patterns": [
+    "distribute the profit on realisation between the partners",
+    "calculate each partner's share of the realisation loss",
+    "how much of the realisation profit goes to each partner",
+    "divide the realisation result in the profit sharing ratio",
+    "find the amount of realisation profit credited to a partner's capital account"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "apply the profit fraction to the result", "explain": "each partner takes his ratio slice of the wind-up result", "compute": "partner_share = realisation_result * profit_share_fraction"}
+   ]
+  },
+  {
+   "id": "leac.104.4.4",
+   "title": "Assets Realised at a Stated Percent",
+   "section": "4.4.1",
+   "definition": "Assets seldom fetch book value; when realisation is quoted at a percent of book value, or at a discount of some percent, the proceeds are the book value scaled by that percent.",
+   "formula": "realised_amount = book_value * realisation_percent / 100",
+   "key_idea": "A five percent discount means realising ninety five percent of the book figure.",
+   "textbook_ref": "leac104.txt Illustrations 1, 4, 7 and 14 (lines 410-456, 1005-1013, 2921-2945)",
+   "question_patterns": [
+    "calculate the amount realised when debtors are sold at a discount of a stated percent",
+    "find the sale proceeds of an asset realised at a percent of its book value",
+    "what cash comes in from an asset sold at a quoted discount",
+    "compute the realisation of investments at a given percent of book value",
+    "determine the proceeds from assets sold less a percent discount"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "scale the book value by the realisation percent", "explain": "multiply the book value by the realisation percent over one hundred; a discount of x percent means realising (100 - x) percent", "compute": "realised_amount = book_value * realisation_percent / 100"}
+   ]
+  },
+  {
+   "id": "leac.104.4.5",
+   "title": "Asset Taken Over by a Partner",
+   "section": "4.4.1",
+   "definition": "When a partner absorbs part or all of an asset, the agreed value he pays or is debited for is the share's book value trimmed by any agreed discount.",
+   "formula": "takeover_value = book_value * portion_fraction * (1 - discount_percent / 100)",
+   "key_idea": "The partner's capital account is charged with the agreed takeover value, and the asset leaves the realisation account at book value.",
+   "textbook_ref": "leac104.txt Illustrations 4-5, Questions Q5 and Q7 (lines 1004-1072, 2647-2684)",
+   "question_patterns": [
+    "calculate the value at which a partner takes over part of the stock",
+    "find the amount debited to a partner who absorbs an asset at a discount",
+    "what is the agreed value when a partner takes over a portion of an asset less a discount",
+    "compute the takeover value of an asset portion quoted at a percent less",
+    "value the assets a partner takes over at a discount on book value"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "value the portion taken", "explain": "multiply the book value of the asset by the fraction the partner absorbs", "compute": "portion_value = book_value * portion_fraction"},
+    {"step": 2, "action": "apply the agreed discount", "explain": "multiply the portion value by one minus the discount percent over one hundred", "compute": "takeover_value = portion_value * (1 - discount_percent / 100)"}
+   ]
+  },
+  {
+   "id": "leac.104.4.6",
+   "title": "Liability Settled at a Discount",
+   "section": "4.4.1",
+   "definition": "Creditors often accept less than the booked claim; the cash paid is the liability reduced by the agreed discount percent.",
+   "formula": "payment_amount = liability_amount * (1 - discount_percent / 100)",
+   "key_idea": "Only the cash actually paid is recorded; a full settlement against an accepted asset needs no entry at all.",
+   "textbook_ref": "leac104.txt Illustrations 1, 6, 7 (lines 410-467, 1540-1610, 1744-1810)",
+   "question_patterns": [
+    "calculate the cash paid to creditors settled at a discount",
+    "find the payment made when creditors accept a percent less than the claim",
+    "how much is paid to settle a liability at a quoted discount",
+    "compute the settlement amount of creditors less a discount percent",
+    "determine the cash going out to clear bills payable at a discount"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "trim the liability by the discount", "explain": "multiply the booked liability by one minus the discount percent over one hundred", "compute": "payment_amount = liability_amount * (1 - discount_percent / 100)"}
+   ]
+  },
+  {
+   "id": "leac.104.4.7",
+   "title": "Realisation Expenses and Remuneration",
+   "section": "4.4.1",
+   "definition": "Wind-up costs paid by the firm hit the realisation account; costs paid by a partner on the firm's behalf are credited to that partner; a fixed remuneration for doing the work goes to the realisation account, and actual spending by the remunerated partner is not recorded again.",
+   "formula": "remuneration_credited = agreed_amount_for_dissolution_work",
+   "key_idea": "Whichever way expenses are arranged, only one of remuneration or actual expense ever reaches the account twice.",
+   "textbook_ref": "leac104.txt Illustration 3 (lines 624-643, 871-962)",
+   "question_patterns": [
+    "pass the journal entry for realisation expenses paid by the firm",
+    "how are realisation expenses treated when a partner pays them",
+    "what entry records remuneration to a partner for dissolution work",
+    "record the case where the partner bearing the expenses is also paid a remuneration",
+    "state the treatment of wind-up expenses borne by a partner personally"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify who pays", "explain": "firm-paid costs debit realisation and credit bank; partner-paid costs on the firm's behalf debit realisation and credit that partner's capital"},
+    {"step": 2, "action": "apply the remuneration rule", "explain": "an agreed remuneration debits realisation and credits the partner's capital; his actual expenses then need no entry"},
+    {"step": 3, "action": "handle partial bearing", "explain": "if a partner bears expenses only up to a limit, the excess actually paid is credited to his capital separately"}
+   ]
+  },
+  {
+   "id": "leac.104.3.1",
+   "title": "Order of Settlement on Dissolution",
+   "section": "4.3",
+   "definition": "Money from asset sales is applied in a fixed sequence: outside debts first, then partner loans, then partner capitals, and whatever survives is shared by the partners in the profit ratio; losses follow the reverse ladder of profits, capitals, then personal contribution.",
+   "formula": "residue_for_partners = assets_available - outside_claims - partner_loans - capital_balances",
+   "key_idea": "Outsiders always rank ahead of partners, and partner loans rank ahead of partner capital.",
+   "textbook_ref": "leac104.txt section 4.3 (lines 174-215)",
+   "question_patterns": [
+    "state the order in which claims are settled on dissolution of a firm",
+    "who gets paid first when a firm is dissolved",
+    "what is the sequence of applying assets at wind up",
+    "how are losses made good when a firm is dissolved",
+    "explain the priority of creditors, partner loans and capitals at dissolution"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "pay outside debts", "explain": "creditors, bank loans and bills payable come first, secured claims before unsecured"},
+    {"step": 2, "action": "repay partner loans", "explain": "advances by partners rank next, proportionately if money runs short"},
+    {"step": 3, "action": "return capitals", "explain": "capital balances are settled after the loans"},
+    {"step": 4, "action": "share the residue or the shortfall", "explain": "any surplus divides in the profit ratio; losses first absorb profits, then capitals, then the partners personally"}
+   ]
+  },
+  {
+   "id": "leac.104.3.2",
+   "title": "Capital Loss Borne in Capital Ratio",
+   "section": "4.3",
+   "definition": "When a partner cannot make good the debit on his capital account, the unrecoverable amount falls on the solvent partners in proportion to their capitals on the dissolution date, following the Garner versus Murray principle.",
+   "formula": "loss_share = deficiency_amount * capital_fraction",
+   "key_idea": "The insolvent partner's shortfall is a capital loss shared by capital ratio, not the profit ratio.",
+   "textbook_ref": "leac104.txt section 4.3, Garner vs Murray note (lines 220-230)",
+   "question_patterns": [
+    "calculate the capital loss borne by each solvent partner under Garner versus Murray",
+    "how is a partner's irrecoverable capital deficiency shared",
+    "find the contribution of solvent partners towards an insolvent partner's deficit",
+    "what share of the capital loss does each solvent partner bear",
+    "compute the deficiency allocation in the capital ratio at dissolution"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "apply the capital fraction to the deficiency", "explain": "each solvent partner bears the unrecoverable amount in the ratio of his capital", "compute": "loss_share = deficiency_amount * capital_fraction"}
+   ]
+  },
+  {
+   "id": "leac.104.4.8",
+   "title": "Reserves and Accumulated Profits on Dissolution",
+   "section": "4.4.1",
+   "definition": "General reserves and accumulated profits are not realised; they move straight to the partners' capital accounts in the profit sharing ratio, while fictitious assets and accumulated losses are written off against the capitals the same way.",
+   "formula": "partner_share = accumulated_amount * profit_share_fraction",
+   "key_idea": "Reserves credit the partners; fictitious items and accumulated losses debit them, both in the profit ratio.",
+   "textbook_ref": "leac104.txt section 4.4.1 entries 14-15, Illustration 1 (lines 486-538, 673-682)",
+   "question_patterns": [
+    "transfer the general reserve to the partners' capital accounts on dissolution",
+    "calculate each partner's share of the accumulated reserve when the firm dissolves",
+    "how are fictitious assets written off at dissolution",
+    "find the reserve amount credited to a partner when the firm is wound up",
+    "record the transfer of accumulated profits at the dissolution of a firm"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "apply the profit fraction to the accumulated amount", "explain": "each partner's slice of reserves or write-offs follows the profit ratio", "compute": "partner_share = accumulated_amount * profit_share_fraction"}
+   ]
+  },
+  {
+   "id": "leac.104.4.9",
+   "title": "Loan Cleared with Interest",
+   "section": "4.4.1",
+   "definition": "Where a loan is discharged together with one year's interest, the total outgo is the principal grossed up by the yearly rate.",
+   "formula": "payment_with_interest = loan_amount * (1 + interest_rate / 100)",
+   "key_idea": "Interest rides on top of the principal when the borrower clears both at once.",
+   "textbook_ref": "leac104.txt Illustration 7, item 4 (lines 1753-1797)",
+   "question_patterns": [
+    "calculate the payment clearing a loan along with one year's interest",
+    "find the total paid when a bank loan is settled with interest at a yearly rate",
+    "how much is paid to discharge a loan including the year's interest",
+    "compute the loan settlement amount with the annual interest added",
+    "determine the outgo on a loan paid off together with interest"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "gross up the principal by the rate", "explain": "multiply the loan amount by one plus the yearly rate over one hundred", "compute": "payment_with_interest = loan_amount * (1 + interest_rate / 100)"}
+   ]
+  },
+  {
+   "id": "leac.104.4.10",
+   "title": "Commission on Realising Assets",
+   "section": "4.4.1",
+   "definition": "A partner deputed to sell the assets often earns a commission quoted as a percent of the sale proceeds; the commission is the proceeds times that percent.",
+   "formula": "commission_amount = assets_sold_total * commission_rate / 100",
+   "key_idea": "The commission debits the realisation account and credits the working partner's capital.",
+   "textbook_ref": "leac104.txt Questions Q14 and Q17 (lines 2921-2945, 3045-3090)",
+   "question_patterns": [
+    "calculate the commission earned by the partner for realising the assets",
+    "find the commission at a stated percent of the assets sold",
+    "how much commission is due on the total realisation of assets",
+    "compute the partner's commission from the sale proceeds at a given rate",
+    "determine the remuneration calculated as a percent of assets realised"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {"step": 1, "action": "apply the rate to the proceeds", "explain": "multiply the total assets sold by the commission rate over one hundred", "compute": "commission_amount = assets_sold_total * commission_rate / 100"}
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "leac104.txt Illustration 1",
+   "concept": "leac.104.4.2",
+   "question_type": "numeric",
+   "question_pattern": "On dissolution, the realisation account carries credits of {credits_total} and debits of {debits_total}. Find the realisation result.",
+   "extracted_variables": {"credits_total": 117925, "debits_total": 115000},
+   "solution_template": [
+    {"step": 1, "action": "net the two sides of the account", "explain": "117925 - 115000 = 2925 profit", "compute": "realisation_result = credits_total - debits_total"}
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "leac104.txt Illustration 1",
+   "concept": "leac.104.4.3",
+   "question_type": "numeric",
+   "question_pattern": "Realisation profit is {realisation_result}; Supriya and Monika share 3:2. Find Supriya's share.",
+   "extracted_variables": {"realisation_result": 2925, "profit_share_fraction": 0.6},
+   "solution_template": [
+    {"step": 1, "action": "apply the profit fraction to the result", "explain": "2925 x 3/5 = 1755", "compute": "partner_share = realisation_result * profit_share_fraction"}
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "leac104.txt Illustration 1",
+   "concept": "leac.104.4.4",
+   "question_type": "numeric",
+   "question_pattern": "Debtors of book value {book_value} are realised at a discount of {discount_percent} percent. Find the amount realised.",
+   "extracted_variables": {"book_value": 21500, "realisation_percent": 95},
+   "solution_template": [
+    {"step": 1, "action": "scale the book value by the realisation percent", "explain": "a 5 percent discount means 95 percent realised: 21500 x 95/100 = 20425", "compute": "realised_amount = book_value * realisation_percent / 100"}
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "leac104.txt Questions Q5 item 2",
+   "concept": "leac.104.4.5",
+   "question_type": "numeric",
+   "question_pattern": "Stock is worth {book_value}; Aziz takes over {portion_fraction} of it at a discount of {discount_percent} percent. Find the takeover value.",
+   "extracted_variables": {"book_value": 160000, "portion_fraction": 0.5, "discount_percent": 20},
+   "solution_template": [
+    {"step": 1, "action": "value the portion taken", "explain": "160000 x 0.5 = 80000", "compute": "portion_value = book_value * portion_fraction"},
+    {"step": 2, "action": "apply the agreed discount", "explain": "80000 x 0.8 = 64000", "compute": "takeover_value = portion_value * (1 - discount_percent / 100)"}
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "leac104.txt Illustration 7",
+   "concept": "leac.104.4.6",
+   "question_type": "numeric",
+   "question_pattern": "Creditors of {liability_amount} are paid at a discount of {discount_percent} percent. Find the payment made.",
+   "extracted_variables": {"liability_amount": 70000, "discount_percent": 10},
+   "solution_template": [
+    {"step": 1, "action": "trim the liability by the discount", "explain": "70000 x 0.9 = 63000", "compute": "payment_amount = liability_amount * (1 - discount_percent / 100)"}
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "leac104.txt section 4.3 Garner vs Murray principle",
+   "concept": "leac.104.3.2",
+   "question_type": "numeric",
+   "question_pattern": "An insolvent partner's capital deficiency is {deficiency_amount}; the solvent partners' capitals stand at 60000 and 40000. Find the loss borne by the partner with capital 60000.",
+   "extracted_variables": {"deficiency_amount": 9000, "capital_fraction": 0.6},
+   "solution_template": [
+    {"step": 1, "action": "apply the capital fraction to the deficiency", "explain": "9000 x 60000/100000 = 5400", "compute": "loss_share = deficiency_amount * capital_fraction"}
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "leac104.txt Illustration 1",
+   "concept": "leac.104.4.8",
+   "question_type": "numeric",
+   "question_pattern": "A general reserve of {accumulated_amount} exists at dissolution; the partners share 3:2. Find Supriya's share of the reserve.",
+   "extracted_variables": {"accumulated_amount": 13500, "profit_share_fraction": 0.6},
+   "solution_template": [
+    {"step": 1, "action": "apply the profit fraction to the accumulated amount", "explain": "13500 x 3/5 = 8100", "compute": "partner_share = accumulated_amount * profit_share_fraction"}
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "leac104.txt Illustration 7 item 4",
+   "concept": "leac.104.4.9",
+   "question_type": "numeric",
+   "question_pattern": "A bank loan of {loan_amount} is paid along with one year's interest at {interest_rate} percent. Find the total payment.",
+   "extracted_variables": {"loan_amount": 60000, "interest_rate": 6},
+   "solution_template": [
+    {"step": 1, "action": "gross up the principal by the rate", "explain": "60000 x 1.06 = 63600", "compute": "payment_with_interest = loan_amount * (1 + interest_rate / 100)"}
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "leac104.txt Questions Q17",
+   "concept": "leac.104.4.10",
+   "question_type": "numeric",
+   "question_pattern": "Sanjay realises assets worth {assets_sold_total} and is entitled to {commission_rate} percent commission. Find his commission.",
+   "extracted_variables": {"assets_sold_total": 305000, "commission_rate": 6},
+   "solution_template": [
+    {"step": 1, "action": "apply the rate to the proceeds", "explain": "305000 x 6/100 = 18300", "compute": "commission_amount = assets_sold_total * commission_rate / 100"}
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-practice-1",
+   "source_ref": "leac104.txt Questions for Practice, numericals Q1-Q4",
+   "questions": [
+    "Journalise realisation expenses paid by the firm, paid by a partner, borne personally, and the case of an appointed partner with fixed remuneration",
+    "Record creditor settlements through cash plus investments, machinery above the claim, and buildings above the claim with cash back",
+    "Journalise a written-off computer taken over by a partner for 3000",
+    "Journalise unrecorded liabilities paid, stock taken over by a partner, realisation profit divided 5:7, and an unrecorded asset realised"
+   ]
+  },
+  {
+   "id": "ex-practice-2",
+   "source_ref": "leac104.txt Questions for Practice, numericals Q5-Q8",
+   "questions": [
+    "Stock of 160000: half taken by a partner at 20 percent discount, the rest sold at 30 percent profit on cost; land and building sold through a broker charging 2 percent",
+    "Plant handed to a creditor at 10 percent below book value; investments of face value 4000 realised at 50 percent",
+    "Realisation expenses of 100000, or 30000 paid by a partner, or expenses borne by the partner with a 70000 remuneration",
+    "Unrecorded items: written-off furniture sold, an old customer paying 60 percent of a written-off debt, goodwill taken over, shares written off and divided among partners"
+   ]
+  },
+  {
+   "id": "ex-practice-3",
+   "source_ref": "leac104.txt Questions for Practice, numericals Q11-Q13",
+   "questions": [
+    "Rose and Lily dissolve; assets realised 484000, creditors take 38000, unrecorded motor cycle sold for 10000, contingent electricity bill 5000 paid, bills receivable taken over (realisation profit 15600)",
+    "Shilpa, Meena and Nanda dissolve; stock partly taken over at 35000, land sold 110000, typewriter taken by a creditor (realisation profit 20940)",
+    "Surjit and Rahi dissolve; investments taken at 8000 with a loan discharged, assets realised as listed, creditors settled at 37000 (realisation loss 6600)"
+   ]
+  },
+  {
+   "id": "ex-practice-4",
+   "source_ref": "leac104.txt Questions for Practice, numericals Q14-Q17",
+   "questions": [
+    "Rita appointed to realise assets at 5 percent commission bearing expenses; investments at 85 percent of book; outstanding salary 7200 and discounted bill liability 9800 materialise (loss 115970)",
+    "Anup and Sumit equal partners dissolve; assets realised as listed, creditors accept 25500, expenses 2500 (realisation profit 6500)",
+    "Ashu and Harish dissolve; building and machinery taken over by partners, stock and investments shared in the profit ratio, creditors and overdraft discharged by partners (profit 6000)",
+    "Sanjay appointed at 6 percent commission; stock realised at 90 percent of book value; expenses 4500 (loss 61300)"
+   ]
+  },
+  {
+   "id": "ex-practice-5",
+   "source_ref": "leac104.txt Questions for Practice, numericals Q18-Q20",
+   "questions": [
+    "Gupta and Sharma dissolve; investments taken by Gupta at 36000 with his wife's loan paid, creditors settled less 3 percent, expenses 1200 (loss 36560)",
+    "Ashok, Babu and Chetan dissolve; machinery, investments and property taken over by partners at agreed values; unrecorded computer realised 9000 (profit 2400)",
+    "Tanu and Manu dissolve; Tanu pays the bank loan and takes debtors, creditors accept stock and pay 10000 to the firm, motor car taken at 60000 (loss 37600)"
+   ]
+  }
+ ]
+}

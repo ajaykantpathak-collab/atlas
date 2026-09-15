@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ip_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c11_ip_cbse_05_005",
+   "title": "c11_ip_cbse_05_005",
+   "questions": [
+    {
+     "q": "What is the output of the following code?\n```python\nx = 10\ndef show():\n    print(x)\nshow()\nprint(x)\n```",
+     "a": "Output:\n```\n10\n10\n```\nA wrong answer (e.g., thinking the second print fails) reveals the student believes global variables are not accessible inside functions unless explicitly passed, confusing Python's LEGB rule with languages like C where globals need `extern`.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the following code raises `UnboundLocalError`:\n```python\ncount = 5\ndef increment():\n    count = count + 1\n    print(count)\nincrement()\n```",
+     "a": "The assignment `count = count + 1` makes `count` a local variable for the entire function. Python then tries to read the local `count` on the right-hand side before it is assigned, causing `UnboundLocalError`. A student who says \"it should print 6\" thinks assignment does not affect scope, missing that any assignment creates a local variable unless declared `global`.",
+     "self_check": true
+    },
+    {
+     "q": "Write a function `calculate_gst(amount)` that uses a global variable `GST_RATE = 0.18` to return the GST amount for a given `amount`. Do not pass `GST_RATE` as an argument.",
+     "a": "```python\nGST_RATE = 0.18\ndef calculate_gst(amount):\n    return amount * GST_RATE\n```\nA wrong answer that defines `GST_RATE` inside the function or passes it as a parameter shows the student cannot apply the concept of reading a global variable without modification.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the memory lifetime of `temp` in these two snippets. Which `temp` exists longer and why?\n```python",
+     "a": "In Snippet A, `temp` is local: created when `func_a` is called, destroyed when it returns. In Snippet B, `temp` is global: created at module load, destroyed when program ends. Global `temp` lives longer. A student who says \"both live the same time\" confuses scope with lifetime, not realizing local variables are allocated on the call stack per invocation.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Using global variables inside functions is always bad practice because it makes debugging harder.\" Evaluate this statement in the context of a Class 11 project where a configuration constant like `MAX_STUDENTS = 40` is used by multiple functions.",
+     "a": "The statement is partially correct but overly absolute. For **constants** (values that never change), using globals like `MAX_STUDENTS` is acceptable and improves readability by avoiding magic numbers. The danger is with **mutable globals** that change state unpredictably. A student who agrees completely misses the distinction between constants and mutable state; one who disagrees entirely ignores the risk of side effects.",
+     "self_check": true
+    },
+    {
+     "q": "Create a short program that demonstrates a local variable shadowing a global variable with the same name. Print both values from inside the function and from the global scope to prove they are distinct.",
+     "a": "```python\nscore = 90  # global\ndef update_score():\n    score = 75  # local shadows global\n    print(\"Inside:\", score)  # prints 75\nupdate_score()\nprint(\"Outside:\", score)  # prints 90\n```\nA poor answer might not show both prints or might use `global` keyword, indicating the student cannot construct an example that isolates the shadowing behavior.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

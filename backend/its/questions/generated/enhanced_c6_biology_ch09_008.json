@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_biology_ch09_008",
+ "concepts": [
+  {
+   "id": "enh:c6_biology_ch09_008",
+   "title": "c6_biology_ch09_008",
+   "questions": [
+    {
+     "q": "What is the primary role of the heart in the context of oxygen transport?",
+     "a": "The heart acts as a muscular pump that contracts to move blood through the body. A student saying it \"makes air\" or \"stores oxygen\" confuses the heart's function with the lungs' function.",
+     "self_check": true
+    },
+    {
+     "q": "If oxygen enters the blood in the lungs, why is the heart needed?",
+     "a": "The heart is needed to provide the force to circulate the blood throughout the entire body to reach distant cells. A student who misses this understands the lungs but fails to see the necessity of the \"pump\" for distribution.",
+     "self_check": true
+    },
+    {
+     "q": "A red blood cell is currently in the lung. Describe its journey to a muscle cell in your leg.",
+     "a": "Step 1: The cell picks up oxygen in the lungs. Step 2: It travels to the heart. Step 3: The heart pumps it through arteries into smaller vessels. Step 4: It reaches the leg muscle cell to deliver the oxygen. If the student skips the \"pump\" step, they don't understand the circulatory mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the blood vessels to a road system. What do the vessels represent?",
+     "a": "Vessels are like roads that connect the source (lungs) to the destination (cells). A student who struggles here may not grasp that oxygen doesn't travel \"freely\" but is restricted to these specific paths.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it impossible for a cell deep inside your body to get oxygen directly from the air you breathe?",
+     "a": "Cells are too far from the lungs for oxygen to move through the body on its own; it requires the circulatory system to carry it. An incorrect answer suggests the student thinks oxygen travels like a gas through the whole body independently.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple flow chart showing the path of oxygen from the outside air to a cell.",
+     "a": "The chart should follow: Outside Air -> Lungs (lung sacs) -> Blood -> Heart -> Vessels -> Cells. A poor answer leaves out the heart or the vessels, showing a missing link in the chain.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

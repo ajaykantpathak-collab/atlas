@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_chem_ch2_3",
+ "concepts": [
+  {
+   "id": "enh:c9_chem_ch2_3",
+   "title": "c9_chem_ch2_3",
+   "questions": [
+    {
+     "q": "State the three key observations Rutherford made in the gold foil experiment using alpha particles.",
+     "a": "The three key observations: (1) Most alpha particles passed straight through the gold foil with little or no deflection. (2) A small fraction were deflected at small angles. (3) Very few (about 1 in 8000) were deflected at large angles (>90°) or even bounced straight back. A wrong answer (e.g., \"all particles bounced back\" or \"most were deflected\") reveals the student has not grasped the statistical distribution of scattering angles that proves the nucleus is tiny and dense.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Rutherford conclude that the positive charge of an atom is concentrated in a very small volume (nucleus) rather than spread uniformly as in Thomson's model?",
+     "a": "If positive charge were spread uniformly (Thomson model), the electric field would be weak everywhere and alpha particles would experience only small deflections. The observation of rare, large-angle scattering requires a concentrated positive charge creating an intense repulsive force at very close range. A wrong answer focusing only on \"most particles passed through\" misses the critical role of the few large-angle events in proving charge concentration.",
+     "self_check": true
+    },
+    {
+     "q": "In the gold foil experiment, alpha particles (He²⁺ nuclei) are fired at gold foil. If an alpha particle approaches a gold nucleus (charge +79e) head-on and stops momentarily at a distance of closest approach r₀, write the energy conservation equation relating its initial kinetic energy K to the electrostatic potential energy at r₀. (Use k = 1/(4πε₀))",
+     "a": "At the distance of closest approach, kinetic energy is zero. Initial kinetic energy K = k * (2e)(79e) / r₀ = 158 k e² / r₀. Steps: (1) Identify charges: alpha = +2e, gold nucleus = +79e. (2) At r₀, velocity = 0 so K_final = 0. (3) Apply conservation of energy: K_initial = U_final. (4) U = k q₁ q₂ / r. (5) Substitute charges. A wrong answer using only +e for alpha or forgetting the 2e charge reveals confusion about alpha particle composition (He²⁺).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the predicted alpha particle scattering patterns for Thomson's plum pudding model versus Rutherford's nuclear model. Explain why the nuclear model predicts a few particles scattering at angles > 90° while the plum pudding model does not.",
+     "a": "In Thomson's model, positive charge is diffuse; maximum deflection is small because the electric field inside a uniform sphere increases linearly with distance from center (E ∝ r) and never reaches the huge values needed for >90° scattering. In Rutherford's model, the point-like nucleus creates a 1/r² field that becomes arbitrarily strong as r → 0, allowing large momentum transfer for close encounters. A wrong answer stating both models predict similar scattering reveals failure to understand how charge distribution determines electric field strength at short distances.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Rutherford's model is perfect because it explains the gold foil experiment. The electrons orbit the nucleus like planets around the sun, so atoms are stable.\" Evaluate this statement. Identify the correct part and the major flaw using physics principles.",
+     "a": "The statement is partially correct but fatally flawed. Correct: The nuclear model successfully explains the scattering data. Flaw: Orbiting electrons are accelerating charges (centripetal acceleration); classical electromagnetism predicts they must radiate energy, spiral into the nucleus, and collapse the atom in ~10⁻¹¹ s. This instability and the inability to explain line spectra are why Rutherford's model was superseded by Bohr's quantized orbits. A wrong answer accepting the stability claim reveals ignorance of classical EM radiation from accelerating charges.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment: If you could repeat the gold foil experiment using beta particles (high-speed electrons) instead of alpha particles, how would the scattering pattern differ? Justify your prediction using charge and mass considerations.",
+     "a": "Beta particles (electrons) have charge -e and mass ~1/7300 of alpha. They would be attracted to the positive nucleus, not repelled. Light mass means large deflection even at larger impact parameters. Scattering would be more frequent and at larger angles on average, but the \"rare large-angle rebound\" signature of a dense nucleus would be absent because electrons can't \"bounce back\" from an attractive center in the same way; they'd be captured or slingshot around. A poor answer predicting similar rebound pattern reveals misunderstanding of charge sign and mass effects on trajectory in Coulomb fields.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

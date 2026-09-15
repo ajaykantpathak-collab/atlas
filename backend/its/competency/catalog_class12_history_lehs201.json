@@ -1,0 +1,283 @@
+{
+ "class": 12,
+ "subject": "history",
+ "chapter": 20,
+ "chapter_title": "Through the Eyes of Travellers",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lehs201.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lehs.201.1",
+   "title": "Al-Biruni's Kitab-ul-Hind",
+   "section": "Al-Biruni's Kitab-ul-Hind",
+   "definition": "Al-Biruni, born at Khwarizm in 973 and taken to Ghazni by Mahmud in 1017, learned Sanskrit to write the Kitab-ul-Hind, a survey of Indian religion, sciences and society written in Arabic; he named two barriers to understanding - language and religious self-centredness - and worked past them through Sanskrit texts.",
+   "formula": "",
+   "key_idea": "An outsider's method of careful textual comparison made the Kitab a benchmark of cross-cultural description.",
+   "textbook_ref": "lehs201.txt Al-Biruni biography, Kitab-ul-Hind and barriers sections",
+   "question_patterns": [
+    "who was Al-Biruni and when did he come to India",
+    "name the barriers he identified for understanding India",
+    "describe the structure of the Kitab-ul-Hind",
+    "why did Al-Biruni learn Sanskrit",
+    "what did he report about Indian religion and science",
+    "evaluate his account's reliability"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "date the traveller",
+     "explain": "born 973 at Khwarizm, arriving with Mahmud's campaigns in 1017"
+    },
+    {
+     "step": 2,
+     "action": "name the barriers",
+     "explain": "language differences and religious self-centredness blocked understanding"
+    },
+    {
+     "step": 3,
+     "action": "close with method",
+     "explain": "reading Sanskrit texts first-hand let him describe beliefs in their own terms"
+    }
+   ]
+  },
+  {
+   "id": "lehs.201.2",
+   "title": "Ibn Battuta's Rihla",
+   "section": "Ibn Battuta's Rihla",
+   "definition": "Ibn Battuta of Tangier, born in 1304, reached India in 1333 and served as qazi of Delhi under Muhammad bin Tughlaq; his Rihla describes cities, bazaars, the postal system of horse and foot runners, and Indian marvels, written on return to Morocco from memory and dictation.",
+   "formula": "",
+   "key_idea": "The Rihla prizes the surprising: communication systems, market abundance and administrative reach impressed a Moroccan accustomed to smaller scale.",
+   "textbook_ref": "lehs201.txt Ibn Battuta biography, Rihla and postal system sections",
+   "question_patterns": [
+    "who was Ibn Battuta and what office did he hold in Delhi",
+    "describe the postal system he praised",
+    "what surprised him about Indian bazaars and communications",
+    "how and where was the Rihla composed",
+    "compare his view of Delhi with Al-Biruni's approach",
+    "what does the Rihla reveal about the fourteenth century"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "date the journey",
+     "explain": "born 1304, arriving in Delhi in 1333 as qazi"
+    },
+    {
+     "step": 2,
+     "action": "praise the post",
+     "explain": "horse and foot runners carried news swiftly across the sultanate"
+    },
+    {
+     "step": 3,
+     "action": "close with memory",
+     "explain": "dictated from memory in Morocco, the Rihla mixes precision and wonder"
+    }
+   ]
+  },
+  {
+   "id": "lehs.201.3",
+   "title": "Francois Bernier's Comparison",
+   "section": "Francois Bernier",
+   "definition": "Francois Bernier, a French physician who reached India in 1656 and served at the Mughal court, wrote Travels in the Mughal Empire comparing India with Europe; he saw absence of private property in land as the root of Mughal despotism and decline, a view later labelled the theory of Oriental despotism.",
+   "formula": "",
+   "key_idea": "Bernier's comparisons told as much about European anxieties as about India: his letters shaped Enlightenment debates on property and empire.",
+   "textbook_ref": "lehs201.txt Bernier biography, property theory and comparisons sections",
+   "question_patterns": [
+    "who was Bernier and when did he write",
+    "state his theory about land ownership in the Mughal empire",
+    "what is Oriental despotism and its later career",
+    "how did Bernier compare Mughal cities with European ones",
+    "criticise Bernier's account of artisans and manufacturing",
+    "relate his views to European political debates"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "date the doctor",
+     "explain": "reached India by 1656, serving at the Mughal court"
+    },
+    {
+     "step": 2,
+     "action": "state the thesis",
+     "explain": "crown ownership of land, he claimed, bred despotism and poverty"
+    },
+    {
+     "step": 3,
+     "action": "close with critique",
+     "explain": "modern historians find his picture exaggerated though revealing"
+    }
+   ]
+  },
+  {
+   "id": "lehs.201.4",
+   "title": "Women, Slavery and Social Practice in Travellers' Accounts",
+   "section": "Women and Slavery",
+   "definition": "Travellers recorded social practices from their own angles: Bernier and others described sati and slavery, Ibn Battuta noted slave markets and women's work in cities, and all accounts need reading against their authors' purposes and audiences.",
+   "formula": "",
+   "key_idea": "Travellers' notes on women and slavery show real practices filtered through moral judgements and travel-writing conventions.",
+   "textbook_ref": "lehs201.txt sati, slavery and women's labour descriptions",
+   "question_patterns": [
+    "how did travellers describe sati and with what judgements",
+    "what does Ibn Battuta report about slavery",
+    "describe women's work recorded by travellers",
+    "why must travellers' accounts be used critically",
+    "compare travellers' views of caste and social division",
+    "what purposes shaped what travellers chose to record"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the practices",
+     "explain": "sati, slave markets and women's weaving appear in the accounts"
+    },
+    {
+     "step": 2,
+     "action": "flag the filters",
+     "explain": "authors wrote for home audiences with moral agendas"
+    },
+    {
+     "step": 3,
+     "action": "close with method",
+     "explain": "cross-checking travellers against local sources restores balance"
+    }
+   ]
+  },
+  {
+   "id": "lehs.201.5",
+   "title": "Travellers' Timeline",
+   "section": "Travellers' Timeline",
+   "definition": "The three travellers span five centuries: Al-Biruni came in 1017 aged forty-four, Ibn Battuta in 1333 aged twenty-nine, and Bernier by 1656; the differences are found by subtracting each birth year from the year of arrival.",
+   "formula": "arrival_age = arrival_year - birth_year",
+   "key_idea": "Each traveller's age at arrival equals the arrival year minus the birth year.",
+   "textbook_ref": "lehs201.txt traveller dates (973/1017, 1304/1333, 1656)",
+   "question_patterns": [
+    "compute Al-Biruni's age when he reached India",
+    "compute Ibn Battuta's age at his Indian arrival",
+    "arrange the travellers in chronological order",
+    "how many centuries separate the first and last accounts",
+    "what changed between the eleventh and seventeenth centuries",
+    "why do dates matter for reading travellers"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "record birth and arrival",
+     "explain": "Al-Biruni born 973, arrived 1017; Ibn Battuta born 1304, arrived 1333",
+     "compute": "birth_year = 973"
+    },
+    {
+     "step": 2,
+     "action": "subtract birth from arrival",
+     "explain": "the difference gives the age at arrival",
+     "compute": "arrival_age = arrival_year - birth_year"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_lehs201_1",
+   "source_ref": "lehs201.txt traveller dates",
+   "concept": "lehs.201.5",
+   "question_type": "compute",
+   "question_pattern": "Al-Biruni was born in 973 and reached India in 1017. Compute his age at arrival.",
+   "extracted_variables": {
+    "birth_year": 973,
+    "arrival_year": 1017
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "record the dates",
+     "explain": "birth 973, arrival 1017",
+     "compute": "birth_year = 973"
+    },
+    {
+     "step": 2,
+     "action": "subtract",
+     "explain": "1017 - 973 = 44 years old",
+     "compute": "arrival_age = arrival_year - birth_year"
+    }
+   ]
+  },
+  {
+   "id": "we_lehs201_2",
+   "source_ref": "lehs201.txt Ibn Battuta passages",
+   "concept": "lehs.201.2",
+   "question_type": "short_answer",
+   "question_pattern": "Describe the postal system of the Delhi sultanate as Ibn Battuta saw it.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "two systems",
+     "explain": "the uluq used horses at stages, the dawa used foot runners"
+    },
+    {
+     "step": 2,
+     "action": "speed",
+     "explain": "news and fruit travelled far faster than ordinary traffic"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "communication reach impressed him more than monuments"
+    }
+   ]
+  },
+  {
+   "id": "we_lehs201_3",
+   "source_ref": "lehs201.txt Bernier passages",
+   "concept": "lehs.201.3",
+   "question_type": "short_answer",
+   "question_pattern": "State Bernier's land ownership thesis and one modern criticism of it.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "the thesis",
+     "explain": "crown ownership of land left peasants without incentive, breeding despotism"
+    },
+    {
+     "step": 2,
+     "action": "the criticism",
+     "explain": "records show layered property rights and thriving rural exchange, contradicting stagnation"
+    },
+    {
+     "step": 3,
+     "action": "conclusion",
+     "explain": "his account reveals European debates as much as Indian realities"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_lehs201_1",
+   "source_ref": "lehs201.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "describe Al-Biruni's method and the barriers he named",
+    "explain what impressed Ibn Battuta about Delhi",
+    "state Bernier's theory of Oriental despotism and its critique",
+    "compute the travellers' ages at their Indian arrivals",
+    "compare travellers' accounts of social practices"
+   ]
+  },
+  {
+   "id": "ex_lehs201_2",
+   "source_ref": "lehs201.txt project questions, reworded",
+   "questions": [
+    "argue why outsiders' accounts need critical reading",
+    "compare the three travellers' interests and methods",
+    "trace women in travellers' descriptions",
+    "relate the Rihla to fourteenth-century communications",
+    "assess Bernier's influence on European thought"
+   ]
+  }
+ ]
+}

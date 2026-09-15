@@ -1,0 +1,638 @@
+{
+ "class": 11,
+ "subject": "economics",
+ "chapter": 8,
+ "chapter_title": "Use of Statistical Tools",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kest108.txt",
+ "concepts": [
+  {
+   "id": "c11eco.5.2",
+   "title": "Law of Diminishing Marginal Utility",
+   "section": "5.1",
+   "definition": "As a consumer consumes more units of a commodity, the marginal utility derived from each successive unit goes on decreasing.",
+   "formula": "MU_n > MU_(n+1) for successive units",
+   "key_idea": "Each additional unit gives less extra satisfaction than the previous one.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "verify that marginal utility diminishes across units",
+    "find the unit at which MU becomes zero or negative",
+    "interpret a utility schedule using the law of diminishing MU",
+    "compute total utility when MU diminishes",
+    "identify saturation point from MU data"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute marginal utilities for all units",
+     "explain": "Use MU_n = TU_n - TU_(n-1)."
+    },
+    {
+     "step": 2,
+     "action": "Check that MU decreases",
+     "explain": "Verify MU_n > MU_(n+1) for each successive unit."
+    },
+    {
+     "step": 3,
+     "action": "Identify saturation point",
+     "explain": "The saturation point is the unit where MU becomes zero."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "TU for units 1-5 is 10, 18, 24, 28, 30. Verify the law of diminishing MU and find the saturation point.",
+     "solution": "MU = 10, 8, 6, 4, 2. MU decreases each unit. Saturation not yet reached since MU > 0 for all units (MU would be 0 at unit 6 if pattern continues).",
+     "answer": "Law holds; saturation point beyond unit 5"
+    },
+    {
+     "question": "MU for 6 units is 12, 10, 8, 6, 4, 0. Find the saturation point.",
+     "solution": "MU decreases from 12 to 0. MU = 0 at unit 6, so saturation is at unit 6.",
+     "answer": "Saturation at unit 6"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "TU for units 1-6 is 20, 38, 54, 68, 80, 90. Verify diminishing MU and find saturation point.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain why MU becomes negative beyond the saturation point.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.5.3",
+   "title": "Consumer Equilibrium - Single Commodity (Utility Analysis)",
+   "section": "5.2",
+   "definition": "A consumer is in equilibrium when marginal utility of a commodity in money terms equals its price. If MU_m > P, the consumer buys more; if MU_m < P, the consumer buys less.",
+   "formula": "MU_x / P_x = MU_m, i.e. MU in money terms = Price",
+   "key_idea": "Equilibrium occurs where marginal utility per rupee spent equals marginal utility of money.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find equilibrium quantity given MU schedule and price",
+    "verify consumer equilibrium for a single commodity",
+    "determine if consumer should buy more or less given MU and price",
+    "compute marginal utility in money terms",
+    "find price at which consumer is in equilibrium"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Convert MU to money terms",
+     "explain": "Divide marginal utility of each unit by marginal utility of money to get MU in money terms.",
+     "compute": "mu_n / mu_m"
+    },
+    {
+     "step": 2,
+     "action": "Compare MU in money terms with price",
+     "explain": "Find the unit where MU in money terms equals price. If MU_money > P, buy more; if less, buy less."
+    },
+    {
+     "step": 3,
+     "action": "State equilibrium quantity",
+     "explain": "The equilibrium quantity is the last unit for which MU in money terms is at least the price.",
+     "compute": "equilibrium_unit"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "MU of good X for units 1-4 is 20, 18, 16, 14. Price is Rs 8 and MU of money is 2 utils. Find equilibrium quantity.",
+     "solution": "MU in money terms: 10, 9, 8, 7. At unit 3, MU_money = 8 = price. At unit 4, MU_money = 7 < 8. So equilibrium at 3 units.",
+     "answer": "3 units"
+    },
+    {
+     "question": "MU for units 1-3 is 50, 40, 30. Price = Rs 10, MU of money = 5. Find equilibrium.",
+     "solution": "MU in money terms: 10, 8, 6. At unit 1, MU_money = 10 = price. Equilibrium at 1 unit.",
+     "answer": "1 unit"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "MU for units 1-5 is 24, 20, 16, 12, 8. Price = Rs 4, MU of money = 4. Find equilibrium quantity.",
+     "type": "compute"
+    },
+    {
+     "question": "Given MU schedule and price, determine whether the consumer should increase or decrease consumption at a given quantity.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.5.4",
+   "title": "Consumer Equilibrium - Two Commodities (Utility Analysis)",
+   "section": "5.2",
+   "definition": "A consumer spending income on two goods is in equilibrium when the ratio of marginal utility to price is equal for both goods and income is fully spent.",
+   "formula": "MU_x / P_x = MU_y / P_y, subject to P_x*Q_x + P_y*Q_y = M",
+   "key_idea": "Equilibrium requires equal marginal utility per rupee across both goods and full use of income.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find equilibrium combination of two goods given MU schedules and prices",
+    "verify whether a given combination is equilibrium",
+    "determine which good to consume more of given MU/P ratios",
+    "compute MU per rupee for two goods",
+    "allocate income between two goods to reach equilibrium"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute MU per rupee for each unit of both goods",
+     "explain": "Calculate MU_x/P_x and MU_y/P_y for each unit."
+    },
+    {
+     "step": 2,
+     "action": "Allocate spending to equalize MU per rupee",
+     "explain": "Spend on the good with higher MU per rupee until MU per rupee is equal across goods and income is exhausted."
+    },
+    {
+     "step": 3,
+     "action": "Verify income constraint and equality",
+     "explain": "Check that P_x*Q_x + P_y*Q_y = M and MU_x/P_x = MU_y/P_y."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "MU_x for units 1-3 is 20, 18, 16; MU_y for units 1-3 is 24, 20, 16. P_x = 4, P_y = 4, income = 16. Find equilibrium.",
+     "solution": "MU_x/P_x: 5, 4.5, 4. MU_y/P_y: 6, 5, 4. Buy 1 unit Y (6), 1 unit X (5), 1 unit Y (5), 1 unit X (4.5)... Spend: 1Y(4)+1X(4)+1Y(4)+1X(4)=16. At equilibrium: 2X, 2Y. MU_x/P_x = 4.5, MU_y/P_y = 5. Need equal. Re-allocate: 2X (4.5), 2Y (5). Better: 1X(5), 2Y(5) -> 4+8=12, not full. Try 2X, 2Y = 16. MU/P: 4.5 vs 5. Closest equal allocation within budget is 2X and 2Y.",
+     "answer": "2 units of X and 2 units of Y"
+    },
+    {
+     "question": "MU_x: 40, 30, 20; MU_y: 30, 20, 10. P_x = 10, P_y = 5, income = 20. Find equilibrium.",
+     "solution": "MU_x/P_x: 4, 3, 2. MU_y/P_y: 6, 4, 2. Buy 1Y(6), 1X(4), 1Y(4) -> spend 5+10+5=20. At 1X, 2Y: MU_x/P_x=4, MU_y/P_y=4. Equal. Income = 10+10=20.",
+     "answer": "1 unit of X and 2 units of Y"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "MU_x: 50, 40, 30; MU_y: 40, 30, 20. P_x = 10, P_y = 5, income = 25. Find equilibrium combination.",
+     "type": "compute"
+    },
+    {
+     "question": "Verify whether buying 2 units of X and 1 unit of Y is equilibrium when MU_x/P_x = 3 and MU_y/P_y = 4 at that combination.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.5.5",
+   "title": "Indifference Curve Analysis",
+   "section": "5.3",
+   "definition": "An indifference curve is a curve showing different combinations of two goods that give the consumer the same level of satisfaction. Higher indifference curves represent higher satisfaction.",
+   "formula": "MRS_xy = MU_x / MU_y (slope of indifference curve)",
+   "key_idea": "All points on an indifference curve provide equal utility; the curve is convex to the origin due to diminishing MRS.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "verify that two combinations lie on the same indifference curve",
+    "compute marginal rate of substitution between two goods",
+    "determine which indifference curve gives higher satisfaction",
+    "explain why indifference curves are convex to the origin",
+    "interpret properties of indifference curves"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the two combinations of goods",
+     "explain": "Note the quantities of good X and good Y in each combination."
+    },
+    {
+     "step": 2,
+     "action": "Check equal total utility or compute MRS",
+     "explain": "Combinations on the same indifference curve yield equal total utility. MRS = |delta Y / delta X| = MU_x / MU_y."
+    },
+    {
+     "step": 3,
+     "action": "Conclude about the indifference curve",
+     "explain": "If utilities are equal, the combinations lie on the same indifference curve. Higher utility means a higher curve."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Combination A gives (4X, 4Y) with utility 40; combination B gives (6X, 2Y) with utility 40. Are they on the same indifference curve?",
+     "solution": "Both combinations give total utility of 40, so they lie on the same indifference curve.",
+     "answer": "Yes, same indifference curve"
+    },
+    {
+     "question": "At a point on an indifference curve, the consumer gives up 2 units of Y to gain 1 unit of X. Find MRS.",
+     "solution": "MRS = |delta Y / delta X| = 2/1 = 2.",
+     "answer": "MRS = 2"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain why two indifference curves cannot intersect.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Combination A (3X, 5Y) gives utility 30; combination B (5X, 3Y) gives utility 30. Do they lie on the same indifference curve?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.5.6",
+   "title": "Budget Line and Budget Set",
+   "section": "5.4",
+   "definition": "The budget line shows all combinations of two goods that a consumer can afford given prices and income. The budget set is all combinations on or below the budget line.",
+   "formula": "P_x * X + P_y * Y = M",
+   "key_idea": "The budget line is a straight line whose slope is -P_x/P_y; it shifts with changes in income or prices.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find the equation of the budget line given prices and income",
+    "compute intercepts of the budget line on both axes",
+    "find combinations affordable within a budget",
+    "determine the effect of income change on the budget line",
+    "compute slope of the budget line"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Write the budget equation",
+     "explain": "Use P_x * X + P_y * Y = M.",
+     "compute": "p_x * x + p_y * y - m"
+    },
+    {
+     "step": 2,
+     "action": "Compute intercepts",
+     "explain": "X-intercept = M / P_x (all income on X); Y-intercept = M / P_y (all income on Y)."
+    },
+    {
+     "step": 3,
+     "action": "Compute slope and verify a combination",
+     "explain": "Slope = -P_x / P_y. Check if a given combination satisfies P_x*X + P_y*Y <= M."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Income = Rs 100, P_x = Rs 5, P_y = Rs 10. Find the budget line equation and its intercepts.",
+     "solution": "5X + 10Y = 100. X-intercept = 100/5 = 20. Y-intercept = 100/10 = 10.",
+     "answer": "5X + 10Y = 100; intercepts (20, 0) and (0, 10)"
+    },
+    {
+     "question": "Income = Rs 60, P_x = Rs 4, P_y = Rs 6. Is the combination (8X, 4Y) affordable?",
+     "solution": "4*8 + 6*4 = 32 + 24 = 56 <= 60. Affordable.",
+     "answer": "Yes, affordable"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Income = Rs 120, P_x = Rs 6, P_y = Rs 4. Find the budget line equation and both intercepts.",
+     "type": "compute"
+    },
+    {
+     "question": "Income = Rs 50, P_x = Rs 5, P_y = Rs 5. Is (6X, 2Y) affordable? Justify.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.5.7",
+   "title": "Consumer Equilibrium - Indifference Curve Approach",
+   "section": "5.5",
+   "definition": "A consumer is in equilibrium at the point where the budget line is tangent to the highest attainable indifference curve. At this point, MRS equals the price ratio.",
+   "formula": "MRS_xy = P_x / P_y, subject to P_x*X + P_y*Y = M",
+   "key_idea": "Equilibrium is where the slope of the indifference curve equals the slope of the budget line and income is fully spent.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "find consumer equilibrium using indifference curve and budget line",
+    "verify that MRS equals price ratio at equilibrium",
+    "determine equilibrium combination of two goods",
+    "check tangency condition between budget line and indifference curve",
+    "compute MRS at a given combination and compare with price ratio"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute MRS at the candidate combination",
+     "explain": "MRS_xy = MU_x / MU_y at the given quantities.",
+     "compute": "mu_x / mu_y"
+    },
+    {
+     "step": 2,
+     "action": "Compute the price ratio",
+     "explain": "The slope of the budget line is P_x / P_y.",
+     "compute": "p_x / p_y"
+    },
+    {
+     "step": 3,
+     "action": "Verify tangency and budget constraint",
+     "explain": "Equilibrium holds if MRS = P_x/P_y and P_x*X + P_y*Y = M."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "At combination (4X, 6Y), MU_x = 20, MU_y = 30. P_x = 4, P_y = 6, income = 52. Is this equilibrium?",
+     "solution": "MRS = 20/30 = 0.667. Price ratio = 4/6 = 0.667. MRS = price ratio. Budget: 4*4 + 6*6 = 16+36 = 52 = M. Equilibrium holds.",
+     "answer": "Yes, equilibrium at (4X, 6Y)"
+    },
+    {
+     "question": "At (3X, 5Y), MU_x = 30, MU_y = 20. P_x = 5, P_y = 4, income = 35. Is this equilibrium?",
+     "solution": "MRS = 30/20 = 1.5. Price ratio = 5/4 = 1.25. MRS != price ratio. Not equilibrium.",
+     "answer": "No, not equilibrium"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "At (5X, 4Y), MU_x = 24, MU_y = 18. P_x = 6, P_y = 4.5, income = 48. Check equilibrium.",
+     "type": "compute"
+    },
+    {
+     "question": "Explain why the consumer is not in equilibrium if MRS > P_x/P_y.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.5.8",
+   "title": "Demand and Market Demand",
+   "section": "5.6",
+   "definition": "Demand is the quantity of a commodity that a consumer is willing and able to buy at a given price in a given time period. Market demand is the sum of individual demands of all consumers.",
+   "formula": "Market Demand = sum of individual demands Q_d = q1 + q2 + ... + qn",
+   "key_idea": "Market demand is obtained by horizontal summation of individual demand curves.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "compute market demand by summing individual demands",
+    "construct market demand schedule from individual schedules",
+    "find total quantity demanded at a given price",
+    "derive market demand curve from individual demand data",
+    "compute individual demand given market demand and others"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "List individual quantities demanded at each price",
+     "explain": "Tabulate each consumer's demand at each price level."
+    },
+    {
+     "step": 2,
+     "action": "Sum individual demands at each price",
+     "explain": "Market demand at each price is the sum of all individual demands at that price.",
+     "compute": "individual_demands_total"
+    },
+    {
+     "step": 3,
+     "action": "Construct market demand schedule",
+     "explain": "Tabulate price against the corresponding market demand."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "At price Rs 10, consumer A demands 20 units, B demands 30 units, C demands 50 units. Find market demand.",
+     "solution": "Market demand = 20 + 30 + 50 = 100 units.",
+     "answer": "100 units"
+    },
+    {
+     "question": "Individual demand schedules: A: (P=5, Q=40), (P=10, Q=30); B: (P=5, Q=20), (P=10, Q=15). Find market demand at each price.",
+     "solution": "At P=5: 40+20=60. At P=10: 30+15=45.",
+     "answer": "Market demand: (5, 60), (10, 45)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "At price Rs 8, demands of three consumers are 15, 25, 40. Find market demand.",
+     "type": "compute"
+    },
+    {
+     "question": "Two consumers have demands 30 and 20 at price Rs 6. Market demand is 50. Verify.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.5.9",
+   "title": "Determinants of Demand and Demand Function",
+   "section": "5.6",
+   "definition": "Demand for a commodity depends on its own price, prices of related goods, income of the consumer, tastes and preferences, and other factors. The demand function expresses quantity demanded as a function of these factors.",
+   "formula": "Q_d = f(P_x, P_y, P_z, Y, T, ...)",
+   "key_idea": "Own price, related goods' prices, income, and tastes all influence the quantity demanded of a commodity.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "identify factors affecting demand for a commodity",
+    "distinguish between movement along and shift of demand curve",
+    "explain effect of income change on demand",
+    "explain effect of substitute and complementary good price changes",
+    "write the demand function for a commodity"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the factor that changes",
+     "explain": "Determine whether own price, related good price, income, or tastes changed."
+    },
+    {
+     "step": 2,
+     "action": "Classify the effect",
+     "explain": "A change in own price causes movement along the demand curve; changes in other factors shift the curve."
+    },
+    {
+     "step": 3,
+     "action": "State the direction of change in demand",
+     "explain": "Normal goods: income up -> demand up. Inferior goods: income up -> demand down. Substitute price up -> demand up. Complement price up -> demand down."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "The price of tea rises. How does this affect demand for coffee (a substitute)?",
+     "solution": "As tea becomes more expensive, consumers switch to coffee, so demand for coffee increases (demand curve shifts right).",
+     "answer": "Demand for coffee increases"
+    },
+    {
+     "question": "Consumer income increases. How does demand for an inferior good change?",
+     "solution": "For an inferior good, as income rises, consumers buy less of it, so demand decreases (demand curve shifts left).",
+     "answer": "Demand decreases"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "The price of petrol rises. How does this affect demand for cars (a complement)?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Distinguish between a change in quantity demanded and a change in demand.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.5.10",
+   "title": "Demand Schedule and Demand Curve",
+   "section": "5.7",
+   "definition": "A demand schedule is a table showing quantity demanded at various prices. A demand curve is the graphical representation of the demand schedule, typically downward sloping due to the law of demand.",
+   "formula": "Q_d = a - b*P (linear demand function)",
+   "key_idea": "The law of demand states that, other things equal, quantity demanded falls when price rises, giving a downward-sloping demand curve.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "construct a demand schedule from a demand function",
+    "plot quantity demanded against price",
+    "compute quantity demanded at a given price from demand function",
+    "find price given quantity from demand function",
+    "verify inverse relationship between price and quantity demanded"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Write the demand function",
+     "explain": "Use the given linear form Q_d = a - b*P.",
+     "compute": "a - b * p"
+    },
+    {
+     "step": 2,
+     "action": "Compute quantity demanded at each price",
+     "explain": "Substitute each price value into the demand function."
+    },
+    {
+     "step": 3,
+     "action": "Verify inverse relationship",
+     "explain": "Check that as price increases, quantity demanded decreases."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Demand function is Q_d = 100 - 5P. Find quantity demanded at P = 8 and P = 12.",
+     "solution": "At P=8: Q = 100 - 40 = 60. At P=12: Q = 100 - 60 = 40.",
+     "answer": "Q = 60 at P=8; Q = 40 at P=12"
+    },
+    {
+     "question": "Demand function Q_d = 50 - 2P. Find the price at which demand is 30 units.",
+     "solution": "30 = 50 - 2P -> 2P = 20 -> P = 10.",
+     "answer": "P = Rs 10"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Demand function Q_d = 200 - 10P. Find quantity demanded at P = 5, 10, 15.",
+     "type": "compute"
+    },
+    {
+     "question": "Demand function Q_d = 80 - 4P. Find the price at which demand is 20 units.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.5.11",
+   "title": "Price Elasticity of Demand",
+   "section": "5.8",
+   "definition": "Price elasticity of demand measures the percentage change in quantity demanded in response to a percentage change in price.",
+   "formula": "Ed = (percentage change in quantity) / (percentage change in price) = (delta Q / Q) / (delta P / P)",
+   "key_idea": "Elasticity is negative for normal goods due to the inverse price-quantity relationship; its magnitude determines elasticity classification.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "compute price elasticity of demand using percentage method",
+    "classify demand as elastic, inelastic, or unitary",
+    "find percentage change in quantity given elasticity and price change",
+    "compute elasticity from demand function",
+    "compare elasticity at different points on a demand curve"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute percentage changes",
+     "explain": "Calculate percentage change in quantity and percentage change in price."
+    },
+    {
+     "step": 2,
+     "action": "Apply elasticity formula",
+     "explain": "Ed = (percentage change in quantity) / (percentage change in price).",
+     "compute": "(delta_q / q) / (delta_p / p)"
+    },
+    {
+     "step": 3,
+     "action": "Classify elasticity",
+     "explain": "|Ed| > 1 elastic, |Ed| = 1 unitary, |Ed| < 1 inelastic, |Ed| = 0 perfectly inelastic, |Ed| = infinity perfectly elastic."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Price rises from Rs 10 to Rs 12, quantity demanded falls from 50 to 40. Find Ed.",
+     "solution": "delta_Q = -10, delta_P = 2. Ed = (-10/50) / (2/10) = (-0.2) / (0.2) = -1.",
+     "answer": "Ed = -1 (unitary elastic)"
+    },
+    {
+     "question": "Price falls from Rs 20 to Rs 18, demand rises from 100 to 150. Find Ed.",
+     "solution": "delta_Q = 50, delta_P = -2. Ed = (50/100) / (-2/20) = 0.5 / (-0.1) = -5.",
+     "answer": "Ed = -5 (elastic)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Price rises from Rs 5 to Rs 6, demand falls from 80 to 70. Find Ed and classify.",
+     "type": "compute"
+    },
+    {
+     "question": "Ed = -2. Price falls by 5%. Find the percentage change in quantity demanded.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c11eco.5.12",
+   "title": "Measurement of Elasticity - Total Outlay and Geometric Methods",
+   "section": "5.8",
+   "definition": "The total outlay method measures elasticity by observing how total expenditure changes with price. The geometric method measures elasticity at a point on a linear demand curve using segment ratios.",
+   "formula": "Geometric: Ed = (lower segment) / (upper segment); Total outlay: compare change in total expenditure",
+   "key_idea": "If price and total outlay move in opposite directions, demand is elastic; same direction, inelastic; no change in outlay, unitary.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "measure elasticity using total outlay method",
+    "compute elasticity at a point on linear demand curve using geometric method",
+    "classify elasticity from total expenditure data",
+    "find elasticity using lower and upper segments of demand curve",
+    "compare total outlay and percentage methods of elasticity"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute total outlay at each price",
+     "explain": "Total outlay = Price * Quantity demanded.",
+     "compute": "p * q"
+    },
+    {
+     "step": 2,
+     "action": "Compare outlay as price changes",
+     "explain": "If outlay moves opposite to price, demand is elastic; same direction, inelastic; unchanged, unitary."
+    },
+    {
+     "step": 3,
+     "action": "Apply geometric method if needed",
+     "explain": "On a linear demand curve, Ed = (lower segment from point) / (upper segment from point).",
+     "compute": "lower_segment / upper_segment"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "At P=10, Q=20; at P=12, Q=15. Use total outlay method to classify elasticity.",
+     "solution": "Outlay1 = 10*20 = 200. Outlay2 = 12*15 = 180. Price rose, outlay fell (opposite direction). Demand is elastic.",
+     "answer": "Elastic (Ed > 1)"
+    },
+    {
+     "question": "On a linear demand curve, the point divides the curve into lower segment 4 and upper segment 6. Find Ed.",
+     "solution": "Ed = lower / upper = 4/6 = 0.67.",
+     "answer": "Ed = 0.67 (inelastic)"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "At P=8, Q=50; at P=10, Q=40. Use total outlay method to classify elasticity.",
+     "type": "compute"
+    },
+    {
+     "question": "A point on a linear demand curve divides it into lower segment 6 and upper segment 4. Find Ed.",
+     "type": "compute"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

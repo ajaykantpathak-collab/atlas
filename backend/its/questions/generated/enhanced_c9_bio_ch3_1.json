@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_bio_ch3_1",
+ "concepts": [
+  {
+   "id": "enh:c9_bio_ch3_1",
+   "title": "c9_bio_ch3_1",
+   "questions": [
+    {
+     "q": "Define asexual reproduction in one sentence using the terms 'gamete', 'fusion', and 'genetically identical'.",
+     "a": "Asexual reproduction is the production of offspring by a single parent without the formation or fusion of gametes, resulting in offspring that are genetically identical to the parent. A wrong answer (e.g., \"reproduction without seeds\" or \"reproduction in bacteria only\") reveals the student confuses asexual reproduction with specific examples or plant-only contexts, missing the universal cellular mechanism (no gamete fusion, mitotic division only).",
+     "self_check": true
+    },
+    {
+     "q": "Why are offspring produced by asexual reproduction called clones? Explain at the DNA level.",
+     "a": "Offspring are clones because only mitotic divisions occur — the parent's DNA replicates once and segregates equally into daughter cells without meiosis or gamete fusion, so no new allele combinations arise. A wrong answer (e.g., \"because they look alike\" or \"because only one parent is involved\") reveals the student relies on phenotypic similarity or parental number rather than the molecular mechanism (identical DNA copies via mitosis).",
+     "self_check": true
+    },
+    {
+     "q": "Amoeba reproduces by binary fission. Yeast reproduces by budding. Identify the key structural difference in how the parent cell divides in these two modes.",
+     "a": "In binary fission, the parent cell divides into two equal daughter cells after nuclear division (e.g., Amoeba). In budding, a small outgrowth (bud) forms on the parent, receives one nucleus, and detaches as a smaller daughter cell (e.g., yeast). A wrong answer (e.g., \"both produce two cells\" or \"budding is only in plants\") reveals the student cannot distinguish equal vs. unequal cytokinesis or confuses budding with vegetative propagation in plants.",
+     "self_check": true
+    },
+    {
+     "q": "Compare fragmentation in Spirogyra and regeneration in Planaria. Which process requires specialised cells, and why?",
+     "a": "Regeneration in Planaria requires specialised neoblast cells (pluripotent stem cells) that can differentiate into any tissue, whereas fragmentation in Spirogyra is simply mechanical breaking of filaments where each fragment already has all cell types. A wrong answer (e.g., \"both need special cells\" or \"fragmentation needs stem cells\") reveals the student conflates passive breaking with active tissue regrowth and misses the cellular basis of regeneration.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Asexual reproduction is disadvantageous for a species because it produces no genetic variation.\" Is this always true? Justify with two specific scenarios.",
+     "a": "Not always true. In stable environments (e.g., bacteria in a constant nutrient broth), asexual reproduction allows rapid, energy-efficient multiplication of a well-adapted genotype. In unstable environments (e.g., pathogen facing host immunity), lack of variation is disadvantageous. A wrong answer (e.g., \"always bad because no evolution\") reveals the student cannot contextualise evolutionary trade-offs and treats variation as universally beneficial without considering energy cost or environmental stability.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using potato tubers to demonstrate vegetative propagation (asexual) and explain how you would prove the new plant is genetically identical to the parent.",
+     "a": "Cut a potato tuber into pieces, each with at least one \"eye\" (bud). Plant in moist soil. Observe shoots emerging from eyes. To prove genetic identity: compare DNA fingerprints (RAPD/SSR markers) or enzyme profiles of parent and offspring — identical banding patterns confirm clonality. A poor answer (e.g., \"measure height\" or \"check leaf shape\") reveals the student relies on phenotype, which can be influenced by environment, rather than genotype-level evidence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

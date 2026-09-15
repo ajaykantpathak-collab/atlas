@@ -1,0 +1,205 @@
+{
+ "class": 6,
+ "subject": "social_science",
+ "chapter": 14,
+ "chapter_title": "Economic Activities Around Us",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fees114.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "fees.14.1",
+   "title": "The Three Economic Sectors",
+   "section": "Classification of economic activities",
+   "definition": "Economic activities are grouped into three sectors by what they do: the primary sector draws goods from nature, the secondary sector makes products, and the tertiary sector provides services that support both.",
+   "formula": "sectors = primary + secondary + tertiary",
+   "key_idea": "Classification brings order: grouping thousands of activities into three sectors shows how the economy fits together.",
+   "textbook_ref": "fees114.txt, Classification of economic activities",
+   "question_patterns": [
+    "how are economic activities classified into sectors",
+    "name the three economic sectors",
+    "what is the basis for grouping activities into sectors",
+    "why do we classify economic activities at all",
+    "give one example of an activity in each sector",
+    "how are the three sectors interconnected"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.14.2",
+   "title": "The Primary Sector: Gifts of Nature",
+   "section": "Primary sector",
+   "definition": "The primary sector takes what nature offers: farming, livestock rearing, fishing, forestry and mining, the first step of every product we later buy in a shop.",
+   "formula": "",
+   "key_idea": "Every economy begins in the field, the forest, the sea and the mine: nature gives the first goods.",
+   "textbook_ref": "fees114.txt, Primary sector",
+   "question_patterns": [
+    "what does the primary sector include",
+    "why is agriculture a primary activity",
+    "how is mining a primary sector activity",
+    "what raw materials come from the primary sector",
+    "which primary activities are common in your region",
+    "why is the primary sector called the base of the economy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.14.3",
+   "title": "Secondary and Tertiary Sectors",
+   "section": "Secondary and tertiary sectors",
+   "definition": "The secondary sector turns raw materials into products in factories, from pharmaceutical plants to furniture units; the tertiary sector provides services such as banking, teaching, transport, software and restaurants that support the other two.",
+   "formula": "",
+   "key_idea": "Making and serving: the secondary sector builds goods, the tertiary sector moves, sells and supports them.",
+   "textbook_ref": "fees114.txt, Secondary and tertiary sectors",
+   "question_patterns": [
+    "what does the secondary sector do with raw materials",
+    "give examples of secondary sector activities",
+    "what is the tertiary sector and what services fall in it",
+    "is software development a tertiary activity why",
+    "how many passenger vehicles were produced in india in 2022",
+    "why are teachers and bankers part of the tertiary sector"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  },
+  {
+   "id": "fees.14.4",
+   "title": "How the Sectors Depend on Each Other",
+   "section": "Interconnection",
+   "definition": "The sectors form a chain: farms grow cotton, mills weave cloth, shops and transport sell and move it; each sector buys from and sells to the others, so growth in one lifts all.",
+   "formula": "",
+   "key_idea": "No sector stands alone: the shirt on your back is a relay race from field to factory to shop.",
+   "textbook_ref": "fees114.txt, Interconnection",
+   "question_patterns": [
+    "trace a product from the primary to the tertiary sector",
+    "why does the secondary sector need the primary sector",
+    "how do services help farmers and factories",
+    "what happens to other sectors when one sector grows",
+    "give an example of interdependence among the sectors",
+    "why is the root of prosperity economic activity according to kautilya"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the idea",
+     "explain": "State the idea or definition in your own words."
+    },
+    {
+     "step": 2,
+     "action": "connect to the text",
+     "explain": "Point to the example or section of the chapter that shows it."
+    },
+    {
+     "step": 3,
+     "action": "apply or conclude",
+     "explain": "Use the idea on a fresh example and sum up what it teaches."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "fees114.txt",
+   "concept": "fees.14.1",
+   "question_type": "verify_property",
+   "question_pattern": "Why is a teacher part of the tertiary sector while a weaver is secondary?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "check the product",
+     "explain": "A weaver turns yarn into cloth, a material product; the teacher provides a service, not a thing."
+    },
+    {
+     "step": 2,
+     "action": "place them",
+     "explain": "Making puts the weaver in the secondary sector; serving puts the teacher in the tertiary sector."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "fees114.txt",
+   "concept": "fees.14.2",
+   "question_type": "verify_property",
+   "question_pattern": "How does cotton travel through all three sectors?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "begin in the field",
+     "explain": "Growing cotton is primary, a gift of the soil."
+    },
+    {
+     "step": 2,
+     "action": "follow the thread",
+     "explain": "Spinning and weaving make cloth, secondary; the shop that sells it and the truck that moves it are tertiary services."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "fees114.txt, Let us explore",
+   "questions": [
+    "What are the Big Questions of this chapter?",
+    "What does Kautilya's Arthashastra say about economic activity?",
+    "Which vehicle-production numbers does the chapter table show?",
+    "Name two more secondary sector activities besides those listed.",
+    "Classify the work of five people you know into the three sectors."
+   ]
+  }
+ ]
+}

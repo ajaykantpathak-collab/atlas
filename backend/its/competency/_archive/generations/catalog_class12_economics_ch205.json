@@ -1,0 +1,400 @@
+{
+ "class": 12,
+ "subject": "economics",
+ "chapter": 205,
+ "chapter_title": "Market Equilibrium",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/leec205.txt",
+ "concepts": [
+  {
+   "id": "leec.5.1",
+   "title": "Market Equilibrium with Fixed Number of Firms",
+   "section": "5.1.1",
+   "definition": "A state of balance in a competitive market where the total quantity demanded by buyers equals the total quantity supplied by sellers at a specific market-clearing price.",
+   "formula": "p_star = (dem_int - sup_int) / (dem_slope + sup_slope)",
+   "key_idea": "Equilibrium price and quantity are determined at the intersection of the market demand and supply curves.",
+   "textbook_ref": "leec205.txt lines 70-110",
+   "question_patterns": [
+    "Find the equilibrium price and quantity given demand curve qD = {dem_int} - {dem_slope}p and supply curve qS = {sup_int} + {sup_slope}p",
+    "Calculate the market clearing price and quantity for wheat when demand is {dem_int} - {dem_slope}p and supply is {sup_int} + {sup_slope}p",
+    "Determine the equilibrium price and output if market demand is {dem_int} - {dem_slope}p and market supply is {sup_int} + {sup_slope}p",
+    "What is the equilibrium price and quantity when qD = {dem_int} - {dem_slope}p and qS = {sup_int} + {sup_slope}p?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Equate demand and supply to solve for equilibrium price",
+     "explain": "Set qD equal to qS and solve for p_star.",
+     "compute": "p_star = (dem_int - sup_int) / (dem_slope + sup_slope)"
+    },
+    {
+     "step": 2,
+     "action": "Substitute equilibrium price into the demand equation to find equilibrium quantity",
+     "explain": "Use the solved p_star in the demand function to find the market clearing quantity.",
+     "compute": "q_star = dem_int - dem_slope * p_star"
+    }
+   ]
+  },
+  {
+   "id": "leec.5.2",
+   "title": "Excess Demand",
+   "section": "5.1.1",
+   "definition": "A market condition occurring at any price below the equilibrium level, where the quantity demanded by consumers exceeds the quantity supplied by producers.",
+   "formula": "shortage = q_dem - q_sup",
+   "key_idea": "A market shortage drives prices upward as buyers compete for limited goods.",
+   "textbook_ref": "leec205.txt lines 115-135",
+   "question_patterns": [
+    "Calculate the excess demand at price {price} when demand is {dem_int} - {dem_slope}p and supply is {sup_int} + {sup_slope}p",
+    "Find the market shortage at a price of {price} given qD = {dem_int} - {dem_slope}p and qS = {sup_int} + {sup_slope}p",
+    "How much is the excess demand if the price is set at {price} with demand {dem_int} - {dem_slope}p and supply {sup_int} + {sup_slope}p?",
+    "Determine the shortage of the commodity at price {price} when qD = {dem_int} - {dem_slope}p and qS = {sup_int} + {sup_slope}p"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate quantity demanded at the given price",
+     "explain": "Substitute the given price into the demand function.",
+     "compute": "q_dem = dem_int - dem_slope * price"
+    },
+    {
+     "step": 2,
+     "action": "Calculate quantity supplied at the given price",
+     "explain": "Substitute the given price into the supply function.",
+     "compute": "q_sup = sup_int + sup_slope * price"
+    },
+    {
+     "step": 3,
+     "action": "Compute the difference between quantity demanded and supplied",
+     "explain": "Subtract quantity supplied from quantity demanded to find the shortage.",
+     "compute": "shortage = q_dem - q_sup"
+    }
+   ]
+  },
+  {
+   "id": "leec.5.3",
+   "title": "Excess Supply",
+   "section": "5.1.1",
+   "definition": "A market condition occurring at any price above the equilibrium level, where the quantity supplied by producers exceeds the quantity demanded by consumers.",
+   "formula": "surplus = q_sup - q_dem",
+   "key_idea": "A market surplus drives prices downward as sellers lower prices to clear unsold stock.",
+   "textbook_ref": "leec205.txt lines 136-150",
+   "question_patterns": [
+    "Calculate the excess supply at price {price} when demand is {dem_int} - {dem_slope}p and supply is {sup_int} + {sup_slope}p",
+    "Find the market surplus at a price of {price} given qD = {dem_int} - {dem_slope}p and qS = {sup_int} + {sup_slope}p",
+    "How much is the excess supply if the price is set at {price} with demand {dem_int} - {dem_slope}p and supply {sup_int} + {sup_slope}p?",
+    "Determine the surplus of the commodity at price {price} when qD = {dem_int} - {dem_slope}p and qS = {sup_int} + {sup_slope}p"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate quantity demanded at the given price",
+     "explain": "Substitute the given price into the demand function.",
+     "compute": "q_dem = dem_int - dem_slope * price"
+    },
+    {
+     "step": 2,
+     "action": "Calculate quantity supplied at the given price",
+     "explain": "Substitute the given price into the supply function.",
+     "compute": "q_sup = sup_int + sup_slope * price"
+    },
+    {
+     "step": 3,
+     "action": "Compute the difference between quantity supplied and demanded",
+     "explain": "Subtract quantity demanded from quantity supplied to find the surplus.",
+     "compute": "surplus = q_sup - q_dem"
+    }
+   ]
+  },
+  {
+   "id": "leec.5.4",
+   "title": "Value of Marginal Product of Labour",
+   "section": "5.1.1",
+   "definition": "The monetary value of the additional output generated by employing an extra unit of labor, computed as the product of the output price and the marginal product of labor.",
+   "formula": "vmp_l = price * mp_l",
+   "key_idea": "Under perfect competition, the value of marginal product of labor represents the marginal revenue product of labor.",
+   "textbook_ref": "leec205.txt lines 155-190",
+   "question_patterns": [
+    "Calculate the value of marginal product of labour when price is {price} and marginal product of labour is {mp_l}",
+    "Find the VMPL if the output price is {price} and MPL is {mp_l}",
+    "What is the value of marginal product of labour given a price of {price} and marginal product of {mp_l}?",
+    "Determine the VMP_L when the market price of the good is {price} and the marginal physical product of labor is {mp_l}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply the commodity price by the marginal product of labor",
+     "explain": "VMP_L is the product of price and marginal product of labor.",
+     "compute": "vmp_l = price * mp_l"
+    }
+   ]
+  },
+  {
+   "id": "leec.5.5",
+   "title": "Optimal Wage Rate",
+   "section": "5.1.1",
+   "definition": "The profit-maximizing condition in a competitive labor market where a firm hires labor up to the point where the wage rate equals the value of the marginal product of labor.",
+   "formula": "wage = price * mp_l",
+   "key_idea": "A competitive profit-maximizing firm hires labor until the wage rate is exactly equal to the value of marginal product of labor.",
+   "textbook_ref": "leec205.txt lines 191-210",
+   "question_patterns": [
+    "Find the profit-maximizing wage rate if the price of the product is {price} and marginal product of labour is {mp_l}",
+    "Calculate the wage rate at which the firm is in equilibrium when price is {price} and MPL is {mp_l}",
+    "What is the equilibrium wage rate when output price is {price} and marginal product of labor is {mp_l}?",
+    "Determine the wage rate for a competitive firm employing labor where price is {price} and marginal product of labor is {mp_l}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Equate wage to the value of marginal product of labor",
+     "explain": "At equilibrium, the wage rate equals the product of price and marginal product of labor.",
+     "compute": "wage = price * mp_l"
+    }
+   ]
+  },
+  {
+   "id": "leec.5.6",
+   "title": "Market Equilibrium with Free Entry and Exit",
+   "section": "5.1.2",
+   "definition": "A long-run market outcome where firms can freely enter or exit the industry, forcing the equilibrium price to equal the minimum average cost, resulting in zero supernormal profits.",
+   "formula": "n_firms = q_star / q_firm",
+   "key_idea": "Free entry and exit ensures that the long-run equilibrium price is anchored at the minimum average cost of identical firms.",
+   "textbook_ref": "leec205.txt lines 250-280",
+   "question_patterns": [
+    "With free entry and exit, find the equilibrium price, quantity, and number of firms when min AC is {min_ac}, demand is {dem_int} - {dem_slope}p, and individual supply is {firm_int} + {firm_slope}p",
+    "Calculate the equilibrium number of firms under free entry and exit given min AC = {min_ac}, qD = {dem_int} - {dem_slope}p, and q_f = {firm_int} + {firm_slope}p",
+    "Determine the long-run equilibrium price, quantity, and number of active firms when min AC is {min_ac}, demand is {dem_int} - {dem_slope}p, and individual firm supply is {firm_int} + {firm_slope}p",
+    "Find the number of firms in long-run equilibrium if minimum average cost is {min_ac}, market demand is {dem_int} - {dem_slope}p, and individual firm supply is {firm_int} + {firm_slope}p"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Set equilibrium price equal to minimum average cost",
+     "explain": "Under free entry and exit, the long-run equilibrium price must equal the minimum average cost.",
+     "compute": "p_star = min_ac"
+    },
+    {
+     "step": 2,
+     "action": "Determine total market equilibrium quantity",
+     "explain": "Substitute the equilibrium price into the market demand function.",
+     "compute": "q_star = dem_int - dem_slope * p_star"
+    },
+    {
+     "step": 3,
+     "action": "Determine individual firm supply at equilibrium price",
+     "explain": "Substitute the equilibrium price into the individual firm's supply function.",
+     "compute": "q_firm = firm_int + firm_slope * p_star"
+    },
+    {
+     "step": 4,
+     "action": "Calculate the equilibrium number of firms",
+     "explain": "Divide the total market quantity by the individual firm's supply.",
+     "compute": "n_firms = q_star / q_firm"
+    }
+   ]
+  },
+  {
+   "id": "leec.5.7",
+   "title": "Price Ceiling Shortage",
+   "section": "5.2.1",
+   "definition": "The legal maximum price set by the government below the market equilibrium price, resulting in a persistent shortage where quantity demanded exceeds quantity supplied.",
+   "formula": "shortage = q_dem - q_sup",
+   "key_idea": "A price ceiling set below the equilibrium price creates a market shortage and often requires rationing.",
+   "textbook_ref": "leec205.txt lines 290-320",
+   "question_patterns": [
+    "Calculate the shortage created by a price ceiling of {p_ceiling} when demand is {dem_int} - {dem_slope}p and supply is {sup_int} + {sup_slope}p",
+    "Find the excess demand resulting from a government-imposed price ceiling of {p_ceiling} given qD = {dem_int} - {dem_slope}p and qS = {sup_int} + {sup_slope}p",
+    "Determine the market shortage under a price ceiling of {p_ceiling} with demand curve {dem_int} - {dem_slope}p and supply curve {sup_int} + {sup_slope}p",
+    "What is the magnitude of shortage when a price ceiling is set at {p_ceiling} for a market with qD = {dem_int} - {dem_slope}p and qS = {sup_int} + {sup_slope}p?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate quantity demanded at the price ceiling",
+     "explain": "Substitute the price ceiling value into the demand equation.",
+     "compute": "q_dem = dem_int - dem_slope * p_ceiling"
+    },
+    {
+     "step": 2,
+     "action": "Calculate quantity supplied at the price ceiling",
+     "explain": "Substitute the price ceiling value into the supply equation.",
+     "compute": "q_sup = sup_int + sup_slope * p_ceiling"
+    },
+    {
+     "step": 3,
+     "action": "Compute the shortage",
+     "explain": "Subtract quantity supplied from quantity demanded to find the shortage.",
+     "compute": "shortage = q_dem - q_sup"
+    }
+   ]
+  },
+  {
+   "id": "leec.5.8",
+   "title": "Price Floor Surplus",
+   "section": "5.2.2",
+   "definition": "The legal minimum price set by the government above the market equilibrium price, resulting in a persistent surplus where quantity supplied exceeds quantity demanded.",
+   "formula": "surplus = q_sup - q_dem",
+   "key_idea": "A price floor set above the equilibrium price creates a market surplus, often requiring government purchase of excess supply.",
+   "textbook_ref": "leec205.txt lines 325-350",
+   "question_patterns": [
+    "Calculate the surplus created by a price floor of {p_floor} when demand is {dem_int} - {dem_slope}p and supply is {sup_int} + {sup_slope}p",
+    "Find the excess supply resulting from a government-imposed price floor of {p_floor} given qD = {dem_int} - {dem_slope}p and qS = {sup_int} + {sup_slope}p",
+    "Determine the market surplus under a price floor of {p_floor} with demand curve {dem_int} - {dem_slope}p and supply curve {sup_int} + {sup_slope}p",
+    "What is the magnitude of surplus when a price floor is set at {p_floor} for a market with qD = {dem_int} - {dem_slope}p and qS = {sup_int} + {sup_slope}p?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate quantity demanded at the price floor",
+     "explain": "Substitute the price floor value into the demand equation.",
+     "compute": "q_dem = dem_int - dem_slope * p_floor"
+    },
+    {
+     "step": 2,
+     "action": "Calculate quantity supplied at the price floor",
+     "explain": "Substitute the price floor value into the supply equation.",
+     "compute": "q_sup = sup_int + sup_slope * p_floor"
+    },
+    {
+     "step": 3,
+     "action": "Compute the surplus",
+     "explain": "Subtract quantity demanded from quantity supplied to find the surplus.",
+     "compute": "surplus = q_sup - q_dem"
+    }
+   ]
+  },
+  {
+   "id": "leec.5.9",
+   "title": "Simultaneous Shifts of Demand and Supply",
+   "section": "5.1.1",
+   "definition": "The qualitative analysis of how concurrent changes in both market demand and market supply affect the equilibrium price and quantity depending on the direction and relative magnitude of the shifts.",
+   "formula": "None",
+   "key_idea": "When both curves shift, the effect on one equilibrium variable is unambiguous while the other depends on the relative magnitude of the shifts.",
+   "textbook_ref": "leec205.txt lines 215-245",
+   "question_patterns": [
+    "Explain the effect of a simultaneous rightward shift in both demand and supply curves on equilibrium price and quantity",
+    "What happens to equilibrium price and quantity when demand shifts leftward and supply shifts rightward?",
+    "Analyze the impact of simultaneous shifts where both demand and supply decrease",
+    "How do simultaneous shifts of demand and supply affect market equilibrium?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the direction of shift in the demand curve",
+     "explain": "Determine if demand increases (shifts rightward) or decreases (shifts leftward)."
+    },
+    {
+     "step": 2,
+     "action": "Identify the direction of shift in the supply curve",
+     "explain": "Determine if supply increases (shifts rightward) or decreases (shifts leftward)."
+    },
+    {
+     "step": 3,
+     "action": "Combine the shifts to determine the net effect on equilibrium price and quantity",
+     "explain": "Use supply-demand analysis to identify which variable changes unambiguously and which is dependent on the magnitude of shifts."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "leec205.txt lines 110-140",
+   "concept": "leec.5.1",
+   "question_type": "compute",
+   "question_pattern": "Let the market demand curve and the market supply curve for wheat be given by qD = {dem_int} - p and qS = {sup_int} + p. Find the equilibrium price and quantity.",
+   "extracted_variables": {
+    "dem_int": 200,
+    "dem_slope": 1,
+    "sup_int": 120,
+    "sup_slope": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Equate demand and supply to solve for equilibrium price",
+     "explain": "Set qD equal to qS and solve for p_star.",
+     "compute": "p_star = (dem_int - sup_int) / (dem_slope + sup_slope)"
+    },
+    {
+     "step": 2,
+     "action": "Substitute equilibrium price into the demand equation to find equilibrium quantity",
+     "explain": "Use the solved p_star in the demand function to find the market clearing quantity.",
+     "compute": "q_star = dem_int - dem_slope * p_star"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "leec205.txt lines 250-280",
+   "concept": "leec.5.6",
+   "question_type": "compute",
+   "question_pattern": "Consider a market for wheat where the demand curve is qD = {dem_int} - p and the supply curve of a single firm is q_f = {firm_int} + p for p >= {min_ac}. Under free entry and exit, calculate the equilibrium price, quantity, and number of firms.",
+   "extracted_variables": {
+    "dem_int": 200,
+    "dem_slope": 1,
+    "firm_int": 10,
+    "firm_slope": 1,
+    "min_ac": 20
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Set equilibrium price equal to minimum average cost",
+     "explain": "Under free entry and exit, the long-run equilibrium price must equal the minimum average cost.",
+     "compute": "p_star = min_ac"
+    },
+    {
+     "step": 2,
+     "action": "Determine total market equilibrium quantity",
+     "explain": "Substitute the equilibrium price into the market demand function.",
+     "compute": "q_star = dem_int - dem_slope * p_star"
+    },
+    {
+     "step": 3,
+     "action": "Determine individual firm supply at equilibrium price",
+     "explain": "Substitute the equilibrium price into the individual firm's supply function.",
+     "compute": "q_firm = firm_int + firm_slope * p_star"
+    },
+    {
+     "step": 4,
+     "action": "Calculate the equilibrium number of firms",
+     "explain": "Divide the total market quantity by the individual firm's supply.",
+     "compute": "n_firms = q_star / q_firm"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex22",
+   "source_ref": "leec205.txt lines 430-440",
+   "questions": [
+    "Suppose the demand and supply curve of commodity X in a perfectly competitive market are given by: qD = 700 - p, qS = 500 + 3p for p >= 15. Identify the reason behind the market supply being zero at any price less than Rs 15. What will be the equilibrium price for this commodity? At equilibrium, what quantity of X will be produced?"
+   ]
+  },
+  {
+   "id": "ex23",
+   "source_ref": "leec205.txt lines 441-450",
+   "questions": [
+    "Considering the same demand curve as in exercise 22, now let us allow for free entry and exit of the firms producing commodity X. Let the supply curve of a single firm be qS_f = 8 + 3p for p >= 20. (a) What is the significance of p = 20? (b) At what price will the market for X be in equilibrium? (c) Calculate the equilibrium quantity and number of firms."
+   ]
+  },
+  {
+   "id": "ex24",
+   "source_ref": "leec205.txt lines 451-460",
+   "questions": [
+    "Suppose the demand and supply curves of salt are given by: qD = 1000 - p, qS = 700 + 2p. (a) Find the equilibrium price and quantity. (b) Now suppose that the price of an input used to produce salt has increased so that the new supply curve is qS = 400 + 2p. How does the equilibrium price and quantity change? (c) Suppose the government has imposed a tax of Rs 3 per unit of sale of salt. How does it affect the equilibrium price and quantity?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

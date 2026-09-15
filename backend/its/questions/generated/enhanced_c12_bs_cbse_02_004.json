@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_02_004",
+   "title": "c12_bs_cbse_02_004",
+   "questions": [
+    {
+     "q": "State Fayol's definition of Division of Work and the exact phrase he uses to describe its intent.",
+     "a": "Correct answer: \"Work is divided into small tasks/jobs. A trained specialist who is competent is required to perform each job. Thus, division of work leads to specialisation. According to Fayol, 'The intent of division of work is to produce more and better work for the same effort. Specialisation is the most efficient way to use human effort.'\" \nA wrong answer that omits \"trained specialist\" or \"more and better work for the same effort\" reveals the student memorised a superficial version (\"work is divided\") without grasping the *efficiency* and *specialisation* core that distinguishes Fayol from mere task fragmentation.",
+     "self_check": true
+    },
+    {
+     "q": "A software company assigns each developer to handle front-end, back-end, database, and testing for a single feature. The CTO claims this follows Division of Work because \"each developer owns a complete feature.\" Explain why this violates Fayol's principle using the concept of specialisation.",
+     "a": "Correct answer: This violates Division of Work because Fayol requires each task to be performed by a *trained specialist* competent in that *specific* job. Here, developers are generalists forced to perform four distinct specialised roles (front-end, back-end, database, testing) without deep expertise in each. Specialisation means a front-end specialist does only front-end work across multiple features, becoming more efficient through repetition and focused skill development. The CTO's approach creates \"jack-of-all-trades\" inefficiency, the opposite of Fayol's \"more and better work for the same effort.\"\nA wrong answer that says \"work is divided among developers\" misses that Division of Work is about *specialised* division, not just any division. This confusion between \"division of labour\" (Smith) and \"division of work into specialised tasks\" (Fayol) is a classic Class 12 error.",
+     "self_check": true
+    },
+    {
+     "q": "In a manufacturing firm, the Production Manager instructs a machine operator to increase output speed, while the Quality Control Manager (same hierarchical level) instructs the same operator to slow down for better finish. The operator receives both orders daily. Identify the violated principle, state Fayol's exact four consequences of this violation, and propose a structural fix that maintains both speed and quality goals.",
+     "a": "Correct answer: \n1. Violated principle: Unity of Command.\n2. Fayol's four consequences: \"authority is undermined, discipline is in jeopardy, order disturbed and stability threatened.\"\n3. Structural fix: Create a single Operations Manager role above both Production and Quality, who sets integrated speed-quality targets. The operator then reports only to the Operations Manager. Alternatively, implement a standard operating procedure (SOP) with predefined speed-quality parameters so the operator follows *one* documented standard, not two live bosses.\nA wrong answer that suggests \"better communication between the two managers\" fails because Unity of Command requires *structural* single command, not coordination. Coordination is Unity of Direction (next node). This confusion between the two unity principles is the #1 board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast Division of Work (Fayol) and Functional Foremanship (Taylor) on: (a) level of application (shop floor vs. whole organisation), (b) number of bosses per worker, (c) primary goal (efficiency via specialisation vs. efficiency via planning-execution separation). Which principle would you apply first in a new startup and why?",
+     "a": "Correct answer: \n(a) Division of Work applies to the *entire organisation* (technical, commercial, financial, managerial); Functional Foremanship applies only to the *shop floor* (lowest supervisory level).\n(b) Division of Work → one boss per worker (Unity of Command); Functional Foremanship → *eight* specialist foremen per worker (explicitly violates Unity of Command).\n(c) Division of Work goal: specialisation → \"more and better work for same effort.\" Functional Foremanship goal: separate planning from execution → \"mental revolution\" via expert guidance.\n(d) In a startup: Apply Division of Work first. Startups need role clarity (marketing specialist, tech specialist, finance specialist) before they need shop-floor planning separation. Functional Foremanship requires scale (8 foremen) that a startup lacks.\nA wrong answer that says \"both are same, just different names\" reveals failure to distinguish Fayol's *administrative* (top-down, universal) from Taylor's *scientific* (shop-floor, experimental) perspective — a comparison explicitly required in NCERT and board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Unity of Command is outdated in modern matrix organisations where employees report to both a functional manager and a project manager. Fayol's principle should be discarded.\" Use Fayol's own flexibility argument and the Gang Plank concept to defend or refute.",
+     "a": "Correct answer: The statement is flawed. Fayol explicitly stated principles are *flexible* and *contingent*: \"They are flexible and can be modified by the manager when the situation so demands.\" Matrix structures modify Unity of Command by *designing* dual reporting with *clear role boundaries* (functional manager = career/admin; project manager = task/deliverable). This is not a violation but a *structured exception* — akin to Fayol's Gang Plank, which allows lateral communication *only in emergencies* without breaking the scalar chain. Discarding the principle entirely risks the very chaos Fayol warned: authority undermined, discipline jeopardised. Modern firms retain Unity of Command *within each dimension* (you have one functional boss, one project boss) — the principle evolves from \"one boss total\" to \"one boss per accountability dimension.\"\nA wrong answer that says \"Fayol is old, matrix is new, so discard\" ignores Fayol's own contingency view (Nature point vii) and misses that board exams test *application of principles to modern contexts*, not rote rejection.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-role organisational chart for a small bakery (owner, baker, sales, delivery, cleaner) that implements Division of Work and Unity of Command perfectly. Then introduce a realistic violation of Unity of Command (e.g., owner directly instructs cleaner to rearrange display) and write a one-paragraph memo from the owner to staff restoring Unity of Command *without* firing anyone or changing the chart.",
+     "a": "Correct answer: \nChart: Owner → Baker (production), Salesperson (counter), Delivery Driver (logistics), Cleaner (hygiene). Each role has specialised tasks (Division of Work) and reports *only* to Owner (Unity of Command).\nViolation: Owner tells Cleaner \"move the croissant display to the front window.\"\nRestoration memo: \"Team, effective immediately: all display and layout decisions route through the Salesperson, who owns the customer-facing space. The Cleaner's role remains hygiene and sanitation. If you see a display issue, inform the Salesperson — do not act on it directly. This ensures clear accountability and avoids conflicting instructions. — Owner\"\nA poor answer that makes the Cleaner report to the Salesperson *permanently* breaks Division of Work (cleaner doing sales tasks) and creates a new hierarchy layer. The memo must preserve *both* principles: specialised roles AND single command per role.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_05_008",
+   "title": "c12_bs_cbse_05_008",
+   "questions": [
+    {
+     "q": "Define 'span of management' and state how it influences the number of levels in an organisational structure.",
+     "a": "Span of management is the number of subordinates a superior can effectively manage. A wider span reduces the number of hierarchical levels (flatter structure), while a narrower span increases the number of levels (taller structure). A wrong answer that only defines span without linking it to levels reveals the student has memorised the definition but not understood its structural consequence — a classic board exam error where students lose the 1-mark \"impact\" part of a 2-mark question.",
+     "self_check": true
+    },
+    {
+     "q": "\"Span of management is fixed at 10 subordinates per manager for all organisations.\" Explain why this statement is incorrect using the concept of factors affecting span.",
+     "a": "The statement is incorrect because span of management is not universal; it varies based on factors such as nature of work (routine vs complex), ability of manager and subordinates, degree of decentralisation, availability of staff assistance, clarity of plans, communication effectiveness, and geographic dispersion. For example, a factory with routine assembly work may have a span of 30, while an R&D unit with complex tasks may have a span of 5. A student who agrees with the statement or cannot name at least three factors shows they treat span as a rigid rule rather than a situational decision — a common error in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturing company has 1,000 shop-floor workers performing repetitive assembly tasks. The production manager wants to minimise management layers. Recommend an appropriate span of management and justify your recommendation with two relevant factors.",
+     "a": "Recommended span: 20-30 subordinates per supervisor. Justification: (1) Nature of work is routine and standardised, requiring less frequent supervision. (2) Subordinates are likely trained for repetitive tasks, needing minimal guidance. If the student suggests a narrow span (e.g., 5-8) or cites factors like \"complex work\" or \"high decentralisation\", they misapply the factors — a typical error where students confuse manufacturing with knowledge-work contexts.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the organisational structures resulting from a span of 5 versus a span of 25 in an organisation of 1,000 employees. Analyse the implications for communication, coordination, and cost.",
+     "a": "Span 5 → tall structure: ~5 levels (1,000 → 200 → 40 → 8 → 1). Span 25 → flat structure: ~3 levels (1,000 → 40 → 1). Tall structure: longer communication chains, distortion risk, higher coordination cost, more managers (higher overhead). Flat structure: faster communication, better coordination, lower managerial cost, but risk of supervisor overload. A student who only calculates levels without analysing implications shows they can compute but not evaluate — a key differentiator for 4-6 mark board questions.",
+     "self_check": true
+    },
+    {
+     "q": "\"Decentralisation always allows a wider span of management.\" Evaluate this statement. Is it always true? Provide a counter-example if false.",
+     "a": "The statement is not always true. Decentralisation pushes decision-making down, which can widen span because subordinates need less guidance. However, if decentralisation is implemented without clear policies, competent subordinates, or effective communication systems, managers may spend more time coordinating and correcting, forcing a narrower span. Counter-example: A decentralised retail chain where store managers lack standard operating procedures — the regional manager must constantly intervene, narrowing their effective span. A student who says \"always true\" confuses delegation with effective decentralisation — a subtle but critical distinction in HOTS questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scenario (company type, work nature, employee profile) where the optimal span of management would be 3-4. Explain how each factor in your scenario pushes the span downward.",
+     "a": "Scenario: A nuclear power plant control room. (1) Nature of work: highly complex, safety-critical, non-routine — requires constant monitoring. (2) Manager ability: even experts need intense focus; cannot track many screens. (3) Subordinate ability: highly trained but tasks are interdependent; errors cascade. (4) Geographic dispersion: all in one room, but communication must be precise and immediate. (5) Decentralisation: low — strict protocols limit autonomy. (6) Staff assistance: available but specialised. Each factor demands close supervision, justifying a narrow span. A poor answer gives a generic \"complex work\" without linking multiple factors to the specific number — showing inability to synthesize factors into a coherent design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

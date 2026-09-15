@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_psy_cbse_03_007",
+ "concepts": [
+  {
+   "id": "enh:c11_psy_cbse_03_007",
+   "title": "c11_psy_cbse_03_007",
+   "questions": [
+    {
+     "q": "A student says: \"Heinz should not steal the medicine because he will go to jail if caught.\" Which Kohlberg level and stage does this reasoning represent?",
+     "a": "Pre-conventional Level, Stage 1: Obedience and Punishment Orientation. The reasoning focuses exclusively on avoiding punishment, not on the morality of the act itself. A wrong answer (e.g., \"Stage 4 because it's about law\") reveals the student confuses *reference to law* with *stage of reasoning*—Stage 4 respects law for social order, not personal fear of punishment.",
+     "self_check": true
+    },
+    {
+     "q": "Two students both say \"Heinz should steal the medicine.\" Student A says: \"Because his wife needs it and he loves her.\" Student B says: \"Because the right to life is a universal human right that supersedes property laws.\" Are they at the same moral stage? Explain why or why not.",
+     "a": "No. Student A reflects Stage 3 (Interpersonal Concordance/Good Boy-Nice Girl): reasoning based on personal relationships, love, and being a \"good husband.\" Student B reflects Stage 6 (Universal Ethical Principles): reasoning based on abstract, self-chosen ethical principles (right to life) that transcend specific laws. A wrong answer (\"Yes, both say steal\") reveals the classic error of judging stage by *decision* rather than *justification*—the core of Kohlberg's methodology.",
+     "self_check": true
+    },
+    {
+     "q": "A 14-year-old argues: \"Heinz shouldn't steal because if everyone stole whenever they felt their need was greater, society would collapse into chaos. Laws exist to maintain social order.\" Identify the stage and explain why this reasoning is more advanced than \"Heinz shouldn't steal because stealing is against the law.\"",
+     "a": "Conventional Level, Stage 4: Law and Order Orientation. The reasoning appeals to the *function* of laws in maintaining societal systems, not mere rule-following. The comparison reasoning (\"stealing is against the law\") is Stage 1 or 4 depending on elaboration—if it's \"because it's the rule,\" it's Stage 1; if it's \"because laws preserve social order,\" it's Stage 4. A wrong answer reveals inability to distinguish *authority maintenance* (Stage 1/4 surface similarity) from *systemic perspective-taking* (Stage 4 hallmark).",
+     "self_check": true
+    },
+    {
+     "q": "Compare Kohlberg's Stage 5 (Social Contract) and Stage 6 (Universal Ethical Principles) on the Heinz dilemma. Both may support stealing. What distinguishes their reasoning? Give a sample justification for each.",
+     "a": "Stage 5: \"Heinz should steal because the law protecting property rights is a social contract that can be democratically revised when it conflicts with the right to life; we should work to change the law.\" Stage 6: \"Heinz must steal because the principle of preserving human life is a universal ethical imperative that binds all rational beings, regardless of existing laws or social contracts.\" Distinction: Stage 5 grounds morality in *democratic procedures and mutable agreements*; Stage 6 grounds it in *self-chosen, universalizable principles* (Kantian categorical imperative). Wrong answers conflate \"changing laws\" with \"universal principles.\"",
+     "self_check": true
+    },
+    {
+     "q": "Critique the claim: \"Kohlberg's stages are culturally biased because his highest stage reflects Western individualistic values (autonomy, justice) rather than collectivist values (duty, harmony).\" Use specific stage characteristics in your evaluation.",
+     "a": "Valid critique supported by cross-cultural research (e.g., Snarey, 1985; Miller & Bersoff, 1992). Stage 5/6 emphasize individual rights, social contract, and universal justice—concepts central to Western liberal democracies. Collectivist cultures often prioritize Stage 3/4 reasoning: fulfilling role duties, maintaining harmony, respecting hierarchy. Kohlberg's scoring manual originally coded such reasoning as \"lower.\" However, later revisions acknowledged cultural variations in *content* while maintaining *structural* sequence. A weak answer says \"it's biased\" without specifying *which stages* reflect *which values* and *why* that matters for scoring.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new moral dilemma (not Heinz) that could discriminate between Stage 3 and Stage 4 reasoning. Write one sample response for each stage and explain the structural difference.",
+     "a": "Dilemma: \"A teacher discovers a top-performing student plagiarized an assignment. The student's scholarship depends on this grade. Should the teacher report it?\" Stage 3 response: \"The teacher shouldn't report it because the student worked hard all year and deserves compassion; reporting would ruin their future and the teacher-student relationship.\" Stage 4 response: \"The teacher must report it because academic integrity rules exist to ensure fairness for all students; making exceptions undermines the educational system's credibility.\" Structural difference: Stage 3 reasons from *interpersonal relationships and empathy*; Stage 4 reasons from *institutional role obligations and system maintenance*. Poor answers create dilemmas where both stages give identical reasoning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

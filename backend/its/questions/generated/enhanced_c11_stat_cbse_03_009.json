@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_03_009",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_03_009",
+   "title": "c11_stat_cbse_03_009",
+   "questions": [
+    {
+     "q": "Define a bivariate frequency distribution and state how it differs from a univariate frequency distribution in terms of structure and information content.",
+     "a": "A bivariate frequency distribution shows the joint frequencies of two variables in a two-way table (rows for one variable, columns for the other), while a univariate distribution shows frequencies of only one variable in a one-way table. The bivariate table reveals how the two variables co-vary — which combinations of classes occur together — whereas two separate univariate tables cannot show this relationship. A wrong answer that only mentions \"two variables\" without explaining the tabular structure or the loss of joint information in univariate tables reveals the student memorised the term but not the conceptual distinction.",
+     "self_check": true
+    },
+    {
+     "q": "In Table 3.9 of the NCERT text, the cell at the intersection of row \"64–66\" (advertisement expenditure) and column \"135–145\" (sales) contains the frequency 3. Explain in complete sentences what this specific number 3 represents in the real-world context of the 20 firms surveyed.",
+     "a": "The number 3 means exactly three firms out of the 20 surveyed had their monthly sales between ₹135 lakh and ₹145 lakh AND simultaneously had their advertisement expenditure between ₹64 thousand and ₹66 thousand. A wrong answer like \"3 firms had sales 135–145\" or \"3 firms spent 64–66 on ads\" shows the student reads marginal frequencies instead of joint frequencies — the most common misconception when first encountering two-way tables.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following raw paired data for 10 farms: (Land holding in hectares, Fertilizer use in kg) — (2, 50), (3, 60), (2, 55), (4, 80), (3, 70), (5, 90), (4, 75), (2, 45), (3, 65), (4, 85). Construct a bivariate frequency distribution using class intervals 2–3, 3–4, 4–5 for land and 45–60, 60–75, 75–90 for fertilizer (exclusive method). Show the tally marks and final frequencies.",
+     "a": "Step 1: Draw 3×3 grid with land classes as columns, fertilizer classes as rows.\nStep 2: Process each pair: (2,50) → land 2–3, fert 45–60 → tally row1 col1. (3,60) → land 3–4, fert 60–75 → row2 col2. (2,55) → row1 col1. (4,80) → land 4–5, fert 75–90 → row3 col3. (3,70) → row2 col2. (5,90) → land 5 is upper limit of 4–5? Wait, 5 falls in 5–6 but we only have up to 4–5. Actually 5 is exactly the upper limit of 4–5, so in exclusive method 5 goes to next class 5–6 which doesn't exist. This exposes a boundary issue! Correct approach: classes should cover all data. Assuming classes 2–3, 3–4, 4–5, 5–6 for land. But problem says only 3 classes. So (5,90) cannot be placed — reveals need for proper class design. For the 9 remaining pairs: Row1Col1: (2,50),(2,55),(2,45) = 3. Row2Col2: (3,60),(3,70),(3,65) = 3. Row3Col3: (4,80),(4,75),(4,85) = 3. All other cells 0. A wrong answer that forces (5,90) into 4–5 class shows misunderstanding of exclusive method boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the marginal frequency distribution of sales (obtained by summing row frequencies in a bivariate table) with the univariate frequency distribution of sales constructed directly from raw sales data. Will they always be identical? Justify your answer with reference to class interval choices.",
+     "a": "Yes, they will be identical IF and ONLY IF the class intervals used for sales in the bivariate table are exactly the same as those used in the univariate table. The marginal frequency for a sales class is the sum of all firms in that sales column across all advertising rows — which is exactly the count of firms whose sales fall in that class, regardless of advertising. However, if the bivariate table uses different class boundaries (e.g., wider/narrower classes or different starting points) for convenience of the two-way layout, the marginal distribution will differ from a separately constructed univariate distribution. A wrong answer that says \"always identical\" ignores the practical issue of class interval alignment in bivariate construction.",
+     "self_check": true
+    },
+    {
+     "q": "A student constructs a bivariate table for \"Monthly Income (₹)\" vs \"Monthly Savings (₹)\" using 5 income classes and 5 savings classes. They notice 18 out of 25 cells have zero frequency. Evaluate whether this table design is appropriate. What specific changes would you recommend and why?",
+     "a": "The table design is inappropriate — 72% empty cells indicate class intervals are too narrow or too many for the sample size, creating a sparse matrix that obscures patterns. Recommended changes: (1) Reduce to 3–4 classes per variable to increase expected cell frequencies (aim for ≥5 per cell for meaningful pattern detection). (2) Use unequal class intervals if data is concentrated in certain ranges (e.g., more income classes in the dense middle range). (3) Consider whether both variables need classification — if one variable has very low variation, keep it as raw values in a grouped frequency array. A wrong answer that says \"add more data\" misses the point: the design flaw is in class interval choice, not sample size.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic Indian scenario involving two continuous variables where a bivariate frequency distribution would be the appropriate first step before correlation analysis. Specify the variables, their units, a plausible sample size, and suggest suitable class intervals for each. Explain why a two-way table is better than two separate one-way tables for your scenario.",
+     "a": "Scenario: A study of 100 rice farmers in Punjab measuring \"Yield per hectare (quintals)\" and \"Fertilizer application per hectare (kg)\". Variables: Yield (continuous, range 20–70 q/ha), Fertilizer (continuous, range 50–250 kg/ha). Sample: 100 farmers. Class intervals: Yield — 20–30, 30–40, 40–50, 50–60, 60–70 (5 classes, width 10). Fertilizer — 50–100, 100–150, 150–200, 200–250 (4 classes, width 50). Two-way table shows joint distribution: e.g., how many high-yield farmers used low fertilizer? Separate tables cannot answer this — they'd show \"30 farmers used 100–150 kg fertilizer\" and \"25 farmers got 40–50 q/ha yield\" but not whether these are the same farmers. A poor answer would choose categorical variables (like crop type) or discrete counts, missing the continuous bivariate requirement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

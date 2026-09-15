@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_17_011",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_17_011",
+   "title": "c11_ps_cbse_17_011",
+   "questions": [
+    {
+     "q": "What is the constitutional provision that allowed Parliament to extend Part IX to Scheduled Areas with modifications, and under which Schedule are these areas notified?",
+     "a": "The constitutional provision is Article 243M(4)(b), which empowers Parliament to extend Part IX to Scheduled Areas with such exceptions and modifications as may be specified. These areas are notified under the Fifth Schedule of the Constitution. A wrong answer (e.g., citing Article 243ZC or Sixth Schedule) reveals confusion between the enabling provision for extension (243M) and the declaration of self-governance (243ZC), or between Fifth Schedule (Scheduled Areas in mainland India) and Sixth Schedule (tribal areas in North-East).",
+     "self_check": true
+    },
+    {
+     "q": "Why does PESA designate the Gram Sabha, rather than the Gram Panchayat, as the primary decision-making body in Scheduled Areas?",
+     "a": "PESA designates the Gram Sabha as the primary body because tribal societies traditionally practice direct, participatory democracy through community assemblies, not representative elected councils. The Gram Panchayat is a representative body created by the 73rd Amendment, which may not align with customary decision-making. PESA recognizes \"customary law, social and religious practices, and traditional management practices of community resources\" (Section 4(a)), making the Gram Sabha – the assembly of all adult voters – the authentic vessel of tribal self-governance. A wrong answer that equates Gram Sabha and Gram Panchayat functions misses the fundamental shift from representative to participatory democracy that PESA mandates.",
+     "self_check": true
+    },
+    {
+     "q": "A state government passes a law allowing the Forest Department to auction minor forest produce (like tendu leaves) in a Scheduled Area without Gram Sabha approval. Using PESA provisions, explain whether this state law is valid.",
+     "a": "The state law is invalid. Section 4(m)(ii) of PESA explicitly vests \"ownership of minor forest produce\" in the Gram Sabha. Section 4(k) requires that the Gram Sabha or Panchayat at the appropriate level be consulted before granting any concession for the exploitation of minor forest produce. Since PESA is a central law enacted under Article 243M(4)(b) and Article 243ZC, any state Panchayati Raj law inconsistent with PESA is void to the extent of inconsistency (doctrine of repugnancy under Article 254). A wrong answer that upholds the state law ignores the mandatory nature of PESA's modifications and the supremacy of central legislation on this concurrent subject.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of the Gram Sabha in land acquisition under the 73rd Amendment (general areas) versus under PESA (Scheduled Areas). What does this comparison reveal about the theory of decentralization in tribal contexts?",
+     "a": "Under the 73rd Amendment, the Gram Sabha has a recommendatory role in planning and may be consulted on land acquisition, but the final authority rests with the state government. Under PESA Section 4(i), the Gram Sabha's *prior consent* is mandatory for land acquisition and rehabilitation; the state government cannot proceed without it. This reveals that decentralization in tribal contexts is not merely administrative devolution but a recognition of *substantive sovereignty* over territory and resources. The comparison shows a shift from \"consultation\" to \"consent\" – a higher standard reflecting the principle of Free, Prior and Informed Consent (FPIC). A wrong answer that treats both as mere consultation fails to grasp the legal and philosophical upgrade PESA introduces.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"PESA has failed because most states have not amended their Panchayati Raj Acts to comply with it, and even where amended, bureaucratic resistance nullifies Gram Sabha powers.\" Provide two arguments supporting and two challenging this view.",
+     "a": "**Supporting arguments:** (1) Many states (e.g., Madhya Pradesh, Chhattisgarh, Odisha) took years to amend their Acts, and some amendments dilute PESA by adding bureaucratic layers (e.g., requiring Collector's approval for Gram Sabha resolutions). (2) Forest and Revenue departments often ignore Gram Sabha resolutions on minor forest produce and land acquisition, leading to litigation (e.g., *Orissa Mining Corporation vs. Ministry of Environment*). **Challenging arguments:** (1) PESA has created a legal vocabulary and judicial precedent (Supreme Court's *Samata* judgment, *Niyamgiri* verdict) that empowers tribal movements to challenge violations. (2) Where implemented genuinely (e.g., Mendha-Lekha village in Maharashtra), Gram Sabhas have exercised control over bamboo harvesting and rejected mining proposals, proving the framework works with political will. A poor evaluation treats PESA as either fully successful or completely failed, ignoring the contested, iterative nature of institutional change in deeply unequal power structures.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-page \"Gram Sabha Resolution Template\" for a Scheduled Area village to exercise its PESA power over minor forest produce. Include the mandatory legal references, the decision-making procedure, and the sign-off authorities.",
+     "a": "A good template includes: (1) Header: Village name, Scheduled Area notification number, Date, Quorum (Section 4(b): majority of members). (2) Legal basis: \"Under Section 4(m)(ii) of PESA 1996 read with Article 243ZC, the Gram Sabha of [Village] hereby resolves...\" (3) Agenda: e.g., \"Management and sale of tendu leaves for season 2024-25.\" (4) Procedure: Discussion summary, options considered, voting record (consensus or majority). (5) Decision: \"The Gram Sabha authorizes the Van Suraksha Samiti to sell tendu leaves at ₹X per standard bag to [Buyer], with 30% proceeds to Gram Sabha fund, 70% to collectors.\" (6) Signatures: Sarpanch, Secretary, and at least 10 Gram Sabha members. (7) Forwarding: Copy to Forest Range Officer, District Collector, CEO Zila Panchayat. A poor template omits the specific PESA section, quorum requirement, or the mandatory forwarding to state authorities, showing ignorance of the procedural safeguards that make the resolution legally enforceable.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

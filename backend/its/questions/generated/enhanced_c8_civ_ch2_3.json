@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_civ_ch2_3",
+ "concepts": [
+  {
+   "id": "enh:c8_civ_ch2_3",
+   "title": "c8_civ_ch2_3",
+   "questions": [
+    {
+     "q": "Which article of the Indian Constitution establishes the Parliament of India, comprising the President and the two houses?",
+     "a": "Article 79. A wrong answer shows that the student is confusing constitutional articles or guessing without recalling foundational institutional definitions. This highlights a need to review the basic structural articles of the Indian Constitution.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Indian Parliament have two separate houses—the Lok Sabha and the Rajya Sabha—instead of a single legislative chamber?",
+     "a": "A two-house (bicameral) system allows for a dual-check on legislation, ensuring that laws passed by directly elected representatives in the Lok Sabha are carefully reviewed by the Rajya Sabha to protect state interests and prevent rushed decisions. A wrong answer reveals the misconception that having two houses is just a redundant formality rather than a core federal safeguard.",
+     "self_check": true
+    },
+    {
+     "q": "If a bill proposing a nationwide uniform tax policy is introduced, which house must first approve it if it is classified as a Money Bill under the Indian Constitution?",
+     "a": "The Lok Sabha. Money Bills can only be introduced in the Lok Sabha because its members are directly elected by the citizens, giving them sole financial authority over public funds. A wrong answer indicates confusion regarding the special financial powers exclusively granted to the House of the People.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the method of election differs between a Lok Sabha MP and a Rajya Sabha MP, and explain how this difference impacts their accountability to citizens.",
+     "a": "Lok Sabha MPs are directly elected by Indian citizens through universal adult suffrage, making them directly accountable to voters in their specific constituencies every five years. In contrast, Rajya Sabha MPs are indirectly elected by the elected members of State Legislative Assemblies, giving them a tenure of six years focused on long-term federal state interests rather than immediate electoral cycles. A wrong answer shows a failure to connect election methods to political accountability.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument that the Rajya Sabha is unnecessary because its members are not directly chosen by ordinary citizens. Is this criticism justified within India's constitutional framework?",
+     "a": "This criticism is not justified. While Rajya Sabha members are not directly elected, the house serves a vital federal function by representing regional state interests, providing continuity through staggered elections, and offering a platform for experts and distinguished citizens who may not win direct popular elections to contribute to lawmaking. A wrong answer indicates an incomplete understanding of federalism and the checks-and-balances design of bicameral legislatures.",
+     "self_check": true
+    },
+    {
+     "q": "Design a short proposal for a new parliamentary committee consisting of members from both Lok Sabha and Rajya Sabha to oversee national digital safety. What strengths would drawing members from both houses bring to the committee?",
+     "a": "A strong proposal would suggest combining the direct public connect of Lok Sabha members with the analytical, state-level expertise of Rajya Sabha members. A poor answer fails to integrate the distinct strengths of both houses, treating them as interchangeable chambers rather than complementary institutions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

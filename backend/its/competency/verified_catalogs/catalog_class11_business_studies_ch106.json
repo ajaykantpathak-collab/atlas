@@ -1,0 +1,312 @@
+{
+ "class": 11,
+ "subject": "business_studies",
+ "chapter": 106,
+ "chapter_title": "Social Responsibilities of Business and Business Ethics",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\kebs106.txt",
+ "concepts": [
+  {
+   "id": "kebs106.1",
+   "title": "Concept of Social Responsibility",
+   "section": "6.2",
+   "definition": "The voluntary commitment of a business to make decisions and take actions that align with the values and expectations of society beyond mere legal compliance.",
+   "formula": "social_responsibility > legal_obligation",
+   "key_idea": "Business must balance profit-making with the welfare of the society that allows it to exist.",
+   "textbook_ref": "kebs106.txt lines 100-125",
+   "question_patterns": [
+    "What is meant by social responsibility of business?",
+    "Explain the concept of social responsibility.",
+    "How does social responsibility differ from legal responsibility?",
+    "Why should a business be socially responsible?",
+    "Explain concept of social responsibility in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify legal requirements",
+     "explain": "Determine the minimum actions required by the law of the land."
+    },
+    {
+     "step": 2,
+     "action": "identify voluntary social actions",
+     "explain": "Look for actions taken for public good that are not mandated by any statute."
+    },
+    {
+     "step": 3,
+     "action": "compare obligations",
+     "explain": "Social responsibility is broader as it includes both legal compliance and ethical voluntary initiatives."
+    }
+   ]
+  },
+  {
+   "id": "kebs106.2",
+   "title": "Corporate Social Responsibility (CSR) Spending",
+   "section": "6.3",
+   "definition": "A statutory requirement for specific Indian companies to spend a portion of their average net profits on social welfare activities as per the Companies Act 2013.",
+   "formula": "csr_budget = 0.02 * (profit_year_1 + profit_year_2 + profit_year_3) / 3",
+   "key_idea": "Mandatory 2% spending of average net profits from the preceding three years for eligible firms.",
+   "textbook_ref": "kebs106.txt lines 155-185",
+   "question_patterns": [
+    "Calculate the CSR spending for a company with profits of {p1}, {p2}, and {p3}.",
+    "What is the mandatory CSR contribution for a firm?",
+    "How much should a company spend on CSR if its average profit is {avg_p}?",
+    "Determine the CSR budget based on three-year profit data.",
+    "Explain corporate social responsibility (csr) spending in your own words."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate total profit",
+     "explain": "Sum the net profits of the company for the previous three financial years.",
+     "compute": "profit_year_1 + profit_year_2 + profit_year_3"
+    },
+    {
+     "step": 2,
+     "action": "Calculate average profit",
+     "explain": "Divide the total profit by three to find the average annual net profit.",
+     "compute": "total_profit / 3"
+    },
+    {
+     "step": 3,
+     "action": "Apply 2% rate",
+     "explain": "Multiply the average profit by 0.02 to find the required CSR expenditure.",
+     "compute": "average_profit * 0.02"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the mandatory CSR contribution for a firm?",
+     "solution": "Step 1: Calculate total profit. Step 2: Calculate average profit. Step 3: Apply 2% rate. Working: profit_year_1 + profit_year_2 + profit_year_3, total_profit / 3, average_profit * 0.02.",
+     "answer": "Corporate Social Responsibility (CSR) Spending applied step by step gives the required result."
+    },
+    {
+     "question": "How much should a company spend on CSR if its average profit is {avg_p}?",
+     "solution": "Step 1: Calculate total profit. Step 2: Calculate average profit. Step 3: Apply 2% rate. Working: profit_year_1 + profit_year_2 + profit_year_3, total_profit / 3, average_profit * 0.02.",
+     "answer": "The method of corporate social responsibility (csr) spending leads to the required value or conclusion."
+    }
+   ]
+  },
+  {
+   "id": "kebs106.3",
+   "title": "Kinds of Social Responsibility",
+   "section": "6.4",
+   "definition": "Classification of business obligations into economic, legal, ethical, and discretionary categories based on their nature and urgency.",
+   "formula": "total_responsibility = economic + legal + ethical + discretionary",
+   "key_idea": "Responsibilities range from mandatory profit-making and law-abiding to voluntary charity.",
+   "textbook_ref": "kebs106.txt lines 255-285",
+   "question_patterns": [
+    "What are the different kinds of social responsibility?",
+    "Distinguish between ethical and discretionary responsibility.",
+    "Explain economic responsibility of a business.",
+    "Identify the type of responsibility when a firm donates to flood victims.",
+    "Explain kinds of social responsibility in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify economic intent",
+     "explain": "Check if the action involves producing goods/services for profit (Economic)."
+    },
+    {
+     "step": 2,
+     "action": "check legal compliance",
+     "explain": "Check if the action is required by the laws of the land (Legal)."
+    },
+    {
+     "step": 3,
+     "action": "evaluate ethical norms",
+     "explain": "Check if the action follows social morality not written in law (Ethical)."
+    },
+    {
+     "step": 4,
+     "action": "determine voluntary nature",
+     "explain": "Check if the action is purely charitable and optional (Discretionary)."
+    }
+   ]
+  },
+  {
+   "id": "kebs106.4",
+   "title": "Responsibility Towards Interest Groups",
+   "section": "6.5",
+   "definition": "The specific obligations a business owes to different stakeholders including shareholders, workers, consumers, and the government.",
+   "formula": "stakeholder_satisfaction = sum(group_needs_met)",
+   "key_idea": "Business must serve the diverse interests of all parties affected by its operations.",
+   "textbook_ref": "kebs106.txt lines 290-330",
+   "question_patterns": [
+    "What is the responsibility of business towards consumers?",
+    "How should a business behave towards its employees?",
+    "State the obligations of an enterprise towards the government.",
+    "What do shareholders expect from a socially responsible company?",
+    "Explain responsibility towards interest groups in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the stakeholder",
+     "explain": "Determine if the group is owners, employees, customers, or the community."
+    },
+    {
+     "step": 2,
+     "action": "match obligation",
+     "explain": "Assign specific duties like fair wages for workers, quality goods for consumers, or taxes for government."
+    }
+   ]
+  },
+  {
+   "id": "kebs106.5",
+   "title": "Types of Environmental Pollution",
+   "section": "6.6.1",
+   "definition": "The contamination of natural resources through industrial activities, categorized by the medium affected: air, water, land, or noise.",
+   "formula": "pollution_impact = air_deg + water_deg + land_deg + noise_deg",
+   "key_idea": "Industrial waste and emissions degrade the quality of human life and natural resources.",
+   "textbook_ref": "kebs106.txt lines 350-395",
+   "question_patterns": [
+    "What are the main types of environmental pollution caused by business?",
+    "Explain how industrial activity leads to water pollution.",
+    "What are the effects of noise pollution from factories?",
+    "How does dumping toxic waste affect land quality?",
+    "Explain types of environmental pollution in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the pollutant source",
+     "explain": "Determine if it is smoke, chemical waste, toxic dumping, or machinery sound."
+    },
+    {
+     "step": 2,
+     "action": "classify the medium",
+     "explain": "Categorize as Air (emissions), Water (effluents), Land (solids), or Noise (decibels)."
+    }
+   ]
+  },
+  {
+   "id": "kebs106.6",
+   "title": "Business Ethics",
+   "section": "6.7",
+   "definition": "A set of socially determined moral principles and values that govern the conduct and decision-making of a business enterprise.",
+   "formula": "ethical_conduct = moral_standards + social_values",
+   "key_idea": "Doing what is right and fair for society, even when not legally required.",
+   "textbook_ref": "kebs106.txt lines 460-495",
+   "question_patterns": [
+    "Define business ethics.",
+    "Why is ethics important for a business enterprise?",
+    "Give examples of ethical business practices.",
+    "How do ethics and profits relate in the long run?",
+    "Explain business ethics in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "evaluate the action against social norms",
+     "explain": "Check if the business practice is considered 'right' or 'fair' by the community."
+    },
+    {
+     "step": 2,
+     "action": "check for integrity",
+     "explain": "Determine if the business is being honest in its dealings with customers and employees."
+    }
+   ]
+  },
+  {
+   "id": "kebs106.7",
+   "title": "Elements of Business Ethics",
+   "section": "6.7.2",
+   "definition": "The fundamental components required to implement and maintain an ethical culture within an organization.",
+   "formula": "ethics_program = commitment + code + compliance + involvement + measurement",
+   "key_idea": "Ethics must be driven by top management and integrated into every level of the firm.",
+   "textbook_ref": "kebs106.txt lines 500-540",
+   "question_patterns": [
+    "What are the basic elements of business ethics?",
+    "Explain the importance of a 'Code of Ethics'.",
+    "How can employees be involved in ethics programs?",
+    "Why is top management commitment crucial for business ethics?",
+    "Explain elements of business ethics in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check leadership commitment",
+     "explain": "Verify if the CEO and top managers openly support ethical conduct."
+    },
+    {
+     "step": 2,
+     "action": "identify the written code",
+     "explain": "Look for a formal document defining principles of conduct."
+    },
+    {
+     "step": 3,
+     "action": "verify compliance and measurement",
+     "explain": "Check for systems to monitor ethical standards and audit results."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "kebs106.txt lines 165-175",
+   "concept": "kebs106.2",
+   "question_type": "compute",
+   "question_pattern": "A company had a net profit of 10 crore in 2021, 15 crore in 2022, and 20 crore in 2023. Calculate the amount it must spend on CSR in 2024.",
+   "extracted_variables": {
+    "profit_year_1": "net profit in 2021",
+    "profit_year_2": "net profit in 2022",
+    "profit_year_3": "net profit in 2023"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate total profit",
+     "explain": "Sum of 10, 15, and 20.",
+     "compute": "total_profit = profit_year_1 + profit_year_2 + profit_year_3"
+    },
+    {
+     "step": 2,
+     "action": "Calculate average profit",
+     "explain": "Average of the three years.",
+     "compute": "average_profit = total_profit / 3"
+    },
+    {
+     "step": 3,
+     "action": "Calculate 2% CSR",
+     "explain": "Required spending amount.",
+     "compute": "csr_budget = average_profit * 0.02"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex6.1",
+   "source_ref": "kebs106.txt lines 575-585",
+   "questions": [
+    "What do you understand by social responsibility of business? How is it different from legal responsibility?",
+    "What is environment? What is environmental pollution?",
+    "What is business ethics? Mention the basic elements of business ethics.",
+    "Briefly explain (a) Air Pollution, (b) Water pollution, and (c) Land pollution.",
+    "State the meaning of Corporate Social Responsibility as per the Companies Act 2013."
+   ]
+  },
+  {
+   "id": "ex6.2",
+   "source_ref": "kebs106.txt lines 590-605",
+   "questions": [
+    "Build up arguments for and against social responsibilities.",
+    "Discuss the forces which are responsible for increasing concern of business enterprises toward social responsibility.",
+    "Why do the enterprises need to adopt pollution control measures?",
+    "Explain the various elements of business ethics."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending",
+ "source_link": "re-linked to new cache"
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_07_009",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_07_009",
+   "title": "c11_math_cbse_07_009",
+   "questions": [
+    {
+     "q": "State the permutation formula \\(^nP_r\\) and explain what each symbol represents. Give one real-life situation where this formula applies directly without modification.",
+     "a": "The formula is \\(^nP_r = \\frac{n!}{(n-r)!}\\) where \\(n\\) = total number of distinct objects available, \\(r\\) = number of objects to be arranged in order (\\(r \\leq n\\)). A direct application: \"How many 3-letter codes can be formed from 5 distinct letters {A, B, C, D, E} if no letter repeats?\" Here \\(n=5, r=3\\), answer = \\(^5P_3 = 60\\). A wrong answer (e.g., writing \\(n!\\) or \\(n^r\\)) reveals the student confuses \"arrangements of all objects\" with \"arrangements of r objects\" or confuses permutations with repetition allowed.",
+     "self_check": true
+    },
+    {
+     "q": "A problem states: \"Find the number of ways to arrange the letters of the word 'SUCCESS'.\" A student writes: \\(^7P_7 = 5040\\). Is this correct? Explain why or why not, and identify the exact concept the student missed.",
+     "a": "The student's answer is incorrect. The word \"SUCCESS\" has 7 letters but with repetitions: S appears 3 times, C appears 2 times, U and E appear once each. The correct approach uses permutations of non-distinct objects: \\(\\frac{7!}{3!2!1!1!} = 420\\). The student missed the concept that when objects are not all distinct, we must divide by the factorial of the frequency of each repeated object. This error shows the student applies the distinct-object formula blindly without checking for identical items.",
+     "self_check": true
+    },
+    {
+     "q": "In how many ways can 5 boys and 3 girls be seated in a row so that no two girls sit together? Show complete working.",
+     "a": "Step 1: Arrange the 5 boys first: \\(5! = 120\\) ways.  \nStep 2: This creates 6 gaps (before, between, after boys): \\_ B1 \\_ B2 \\_ B3 \\_ B4 \\_ B5 \\_  \nStep 3: Choose 3 out of 6 gaps for girls: \\(^6P_3 = 120\\) ways (order matters as girls are distinct).  \nStep 4: Total = \\(120 \\times 120 = 14,400\\) ways.  \nA wrong answer like \\(^8P_8 = 40320\\) (ignoring restriction) or \\(5! \\times ^6C_3 = 2400\\) (using combinations for girls) reveals the student either ignores the \"no two together\" constraint or confuses permutation/combination for placing distinct girls in chosen gaps.",
+     "self_check": true
+    },
+    {
+     "q": "Compare these two problems:  \n(A) \"Arrange 4 different books on a shelf.\"  \n(B) \"Arrange 4 different books on a circular shelf.\"  \nExplain why the answers differ and derive the relationship between linear and circular permutations for \\(n\\) distinct objects.",
+     "a": "(A) Linear: \\(4! = 24\\) ways. (B) Circular: \\((4-1)! = 6\\) ways. In circular arrangements, rotations of the same relative order are considered identical (no fixed starting point), so we fix one object's position and arrange the remaining \\(n-1\\) objects linearly: \\((n-1)!\\). The relationship: circular permutations = \\(\\frac{\\text{linear permutations}}{n}\\). A student who gives 24 for both doesn't understand that circular symmetry reduces distinct arrangements by a factor of \\(n\\).",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"How many 4-digit numbers > 3000 can be formed from digits {1,2,3,4,5} without repetition?\" Their working:  \nTotal 4-digit numbers = \\(^5P_4 = 120\\).  \nNumbers starting with 1 or 2 = \\(2 \\times ^4P_3 = 48\\).  \nAnswer = \\(120 - 48 = 72\\).  \nIs this correct? If not, find the error and give the correct answer.",
+     "a": "The student's method is correct and answer 72 is correct. Alternative direct method: First digit choices = {3,4,5} → 3 ways. Remaining 3 digits from 4 left → \\(^4P_3 = 24\\). Total = \\(3 \\times 24 = 72\\). If a student got 60 (using \\(^4P_4 = 24\\) for first digit 3 only) or 96 (wrong subtraction), they misidentified valid first digits or made arithmetic errors. This evaluates whether the student can verify a solution using complementary counting.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem on permutations that requires BOTH the \"objects together\" and \"objects separated\" techniques in the same problem. Provide the problem statement only (no solution).",
+     "a": "Sample problem: \"In how many ways can the letters of the word 'COMPUTER' be arranged so that the two vowels 'O' and 'U' are always together, but the vowels 'O' and 'E' are never together?\" A good problem must have at least 3 distinct constraint items (here: O,U together; O,E separated) forcing the student to handle grouping then separation within the group. A poor problem would have only one constraint type or contradictory constraints (e.g., \"A and B together but A and B separated\").",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

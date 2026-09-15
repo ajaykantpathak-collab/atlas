@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_math_ch09_007",
+ "concepts": [
+  {
+   "id": "enh:c7_math_ch09_007",
+   "title": "c7_math_ch09_007",
+   "questions": [
+    {
+     "q": "In $\\triangle PQR$, which side is the included side between $\\angle P$ and $\\angle Q$?",
+     "a": "The included side is side $PQ$. A student who answers $QR$ or $PR$ does not understand the definition of an \"included side,\" mistaking it for any random side rather than the specific line segment connecting the vertices of the two given angles.",
+     "self_check": true
+    },
+    {
+     "q": "If $\\triangle ABC \\cong \\triangle DEF$ by the ASA criterion, and you are given that $\\angle A = \\angle D$ and $\\angle B = \\angle E$, which side must be equal between the two triangles for ASA to apply?",
+     "a": "Side $AB$ must be equal to side $DE$. A student who says side $BC$ or $AC$ confuses the included side with other sides of the triangle, failing to recognize that the side must be common to both specified angle vertices.",
+     "self_check": true
+    },
+    {
+     "q": "In $\\triangle XYZ$ and $\\triangle RST$, you are given $\\angle X = 50^\\circ$, $\\angle Y = 60^\\circ$, and side $XY = 7\\text{ cm}$. In $\\triangle RST$, $\\angle R = 50^\\circ$, $\\angle S = 60^\\circ$, and side $RS = 7\\text{ cm}$. Are the triangles congruent, and why?",
+     "a": "Yes, $\\triangle XYZ \\cong \\triangle RST$ by the ASA Congruence Criterion because two angles ($\\angle X = \\angle R$, $\\angle Y = \\angle S$) and the included side between them ($XY = RS = 7\\text{ cm}$) are equal. A student who says no might be incorrectly looking for three equal sides or confusing the position of the side.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the condition that the side *must be included* between the two given angles essential for ASA congruence?",
+     "a": "The included side ensures that the two rays forming the angles originate from the exact same endpoints with a fixed distance, locking the vertex where they intersect. If a non-included side were used with two angles, the triangle could be scaled to different sizes while keeping the same angles (similar triangles), failing to guarantee congruence.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that if $\\angle A = \\angle P$, $\\angle B = \\angle Q$, and side $BC = QR$ in $\\triangle ABC$ and $\\triangle PQR$, the triangles are congruent by ASA. Is this correct? Evaluate their reasoning.",
+     "a": "The student's claim is incorrect. Side $BC$ is NOT the included side between $\\angle A$ and $\\angle B$; the included side is $AB$. Therefore, ASA congruence cannot be directly applied with side $BC$, as the given side must lie between the two known angles.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a word problem scenario from a real-life playground measurement task where proving two triangular flower beds are identical requires using the ASA criterion.",
+     "a": "A good answer should describe measuring a baseline path of 5 meters between two garden posts, measuring the angle each post makes with a border string, and showing that a second garden bed built with the same baseline and corner angles must be identical. A poor answer just states numbers without a real-world context or geometric justification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

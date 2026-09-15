@@ -1,0 +1,641 @@
+{
+ "class": 8,
+ "subject": "science",
+ "chapter": 13,
+ "chapter_title": "Our Home - Earth, a Unique Life-Sustaining Planet",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\hecu113.txt",
+ "concepts": [
+  {
+   "id": "c8cu.13.1",
+   "title": "Earth as a Planet -- Shape, Size and Structure",
+   "section": "13.1",
+   "definition": "The Earth is the third planet from the Sun and the only known planet that supports life. It is roughly spherical (an oblate spheroid) in shape, has a diameter of about 12,742 km and is made up of three main layers -- the crust, the mantle and the core.",
+   "formula": "Earth's structure = crust + mantle + core",
+   "key_idea": "The Earth is a nearly spherical planet with three main layers -- the crust, the mantle and the core -- and is the only known planet that supports life.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the shape of the Earth?",
+    "Name the three main layers of the Earth.",
+    "What is the diameter of the Earth?",
+    "Why is the Earth called a unique planet?",
+    "Describe the internal structure of the Earth."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the shape and size",
+     "explain": "The Earth is roughly spherical (slightly flattened at the poles) with a diameter of about 12,742 km, and is the third planet from the Sun."
+    },
+    {
+     "step": 2,
+     "action": "Identify the three main layers",
+     "explain": "The Earth is made up of three main layers -- the outer crust, the middle mantle and the inner core."
+    },
+    {
+     "step": 3,
+     "action": "Explain why the Earth is unique",
+     "explain": "The Earth is unique because it is the only known planet with the right conditions of air, water and temperature that support life."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the shape of the Earth?",
+     "solution": "The Earth is roughly spherical in shape, slightly flattened at the poles and bulging at the equator, which is called an oblate spheroid.",
+     "answer": "The Earth is nearly spherical, slightly flattened at the poles."
+    },
+    {
+     "question": "Name the three main layers of the Earth.",
+     "solution": "The three main layers of the Earth are the crust (outermost), the mantle (middle) and the core (innermost).",
+     "answer": "Crust, mantle and core."
+    },
+    {
+     "question": "Why is the Earth called a unique planet?",
+     "solution": "The Earth is called unique because it is the only known planet that has the right air, water and temperature to support life.",
+     "answer": "It is the only known planet that supports life."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the internal structure of the Earth.",
+     "type": "short_answer"
+    },
+    {
+     "question": "State the approximate diameter of the Earth.",
+     "type": "numerical"
+    },
+    {
+     "question": "Explain why the Earth is called a unique life-sustaining planet.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.13.2",
+   "title": "Atmosphere and Its Layers",
+   "section": "13.2",
+   "definition": "The atmosphere is the blanket of gases surrounding the Earth, held by gravity. It is made up mainly of nitrogen and oxygen with small amounts of other gases, and is divided into layers -- the troposphere, stratosphere, mesosphere and thermosphere -- that protect life and control the climate.",
+   "formula": "Atmosphere = troposphere + stratosphere + mesosphere + thermosphere",
+   "key_idea": "The atmosphere is the layer of gases around the Earth, divided into four main layers, that provides oxygen for breathing, traps heat to keep the Earth warm and protects life from harmful rays.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the atmosphere?",
+    "Name the layers of the atmosphere in order.",
+    "What are the main gases present in the atmosphere?",
+    "Why is the atmosphere important for life?",
+    "Which layer of the atmosphere contains the ozone layer?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the atmosphere and its gases",
+     "explain": "The atmosphere is the blanket of gases around the Earth, made up mainly of nitrogen (about 78%) and oxygen (about 21%) with small amounts of other gases."
+    },
+    {
+     "step": 2,
+     "action": "Identify the four layers",
+     "explain": "From bottom to top the layers are the troposphere (where weather occurs), the stratosphere (contains the ozone layer), the mesosphere and the thermosphere."
+    },
+    {
+     "step": 3,
+     "action": "Explain the importance of the atmosphere",
+     "explain": "The atmosphere provides oxygen for breathing, traps heat to keep the Earth warm, protects life from harmful solar rays and burns up incoming meteors."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the atmosphere?",
+     "solution": "The atmosphere is the blanket of gases surrounding the Earth, held by gravity, made up mainly of nitrogen and oxygen.",
+     "answer": "The blanket of gases surrounding the Earth."
+    },
+    {
+     "question": "Name the layers of the atmosphere in order from bottom to top.",
+     "solution": "The layers are the troposphere, stratosphere, mesosphere and thermosphere.",
+     "answer": "Troposphere, stratosphere, mesosphere, thermosphere."
+    },
+    {
+     "question": "Why is the atmosphere important for life?",
+     "solution": "The atmosphere provides oxygen for breathing, keeps the Earth warm by trapping heat and protects life from harmful rays of the Sun.",
+     "answer": "It provides oxygen, keeps the Earth warm and protects life."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State the main gases of the atmosphere with their percentages.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the role of the ozone layer in the stratosphere.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why does weather occur mainly in the troposphere?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.13.3",
+   "title": "Hydrosphere -- Water on Earth",
+   "section": "13.3",
+   "definition": "The hydrosphere is the total amount of water on the Earth, including water in all its forms -- oceans, seas, rivers, lakes, glaciers, groundwater and water vapour. About 71% of the Earth's surface is covered with water, but most of it is salty and only a small part is fresh water usable by living beings.",
+   "formula": "Hydrosphere = oceans + seas + rivers + lakes + glaciers + groundwater + water vapour",
+   "key_idea": "The hydrosphere is all the water on the Earth in its different forms; though water covers most of the Earth, only a small fraction is fresh water available for use by living beings.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the hydrosphere?",
+    "What percentage of the Earth's surface is covered by water?",
+    "Why is most of the water on the Earth not fit for drinking?",
+    "Name the different forms of water on the Earth.",
+    "Why is the hydrosphere important for life?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the hydrosphere and its forms",
+     "explain": "The hydrosphere is all the water on the Earth, including oceans, seas, rivers, lakes, glaciers, groundwater and water vapour."
+    },
+    {
+     "step": 2,
+     "action": "State the proportion of water on Earth",
+     "explain": "About 71% of the Earth's surface is covered with water, but most of it is salty water in the oceans."
+    },
+    {
+     "step": 3,
+     "action": "Explain the importance of the hydrosphere",
+     "explain": "Water is essential for all living beings for drinking and other life processes, and it also regulates the climate of the Earth."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the hydrosphere?",
+     "solution": "The hydrosphere is the total amount of water on the Earth in all its forms such as oceans, rivers, lakes, glaciers and water vapour.",
+     "answer": "All the water on the Earth in its different forms."
+    },
+    {
+     "question": "What percentage of the Earth's surface is covered by water?",
+     "solution": "About 71% of the Earth's surface is covered by water, but most of it is salty ocean water.",
+     "answer": "About 71% of the Earth's surface."
+    },
+    {
+     "question": "Why is most of the water on the Earth not fit for drinking?",
+     "solution": "Most of the water on the Earth is in the oceans and is salty, which cannot be used for drinking; only a small fraction is fresh water.",
+     "answer": "Most water is salty ocean water, so it is not fit for drinking."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the different forms of water that make up the hydrosphere.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why fresh water is scarce even though water covers most of the Earth.",
+     "type": "short_answer"
+    },
+    {
+     "question": "State the percentage of the Earth's surface covered by water.",
+     "type": "numerical"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.13.4",
+   "title": "Lithosphere -- Earth's Crust",
+   "section": "13.4",
+   "definition": "The lithosphere is the solid outer part of the Earth, consisting of the crust and the uppermost part of the mantle. It forms the continents and the ocean floors and provides the land on which living organisms live and the soil in which plants grow.",
+   "formula": "Lithosphere = crust + upper mantle",
+   "key_idea": "The lithosphere is the hard outer layer of the Earth made of the crust and the upper mantle, which forms the land and ocean floors and supports life.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the lithosphere?",
+    "What are the two main parts of the lithosphere?",
+    "Why is the lithosphere important for life?",
+    "How is soil related to the lithosphere?",
+    "Distinguish between the lithosphere and the crust."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the lithosphere",
+     "explain": "The lithosphere is the solid outer layer of the Earth, made up of the crust and the uppermost part of the mantle."
+    },
+    {
+     "step": 2,
+     "action": "Identify its two main parts",
+     "explain": "The lithosphere consists of the continental crust (land) and the oceanic crust (ocean floors), both forming the solid surface of the Earth."
+    },
+    {
+     "step": 3,
+     "action": "Explain its importance for life",
+     "explain": "The lithosphere provides the land for living beings to live on and the soil in which plants grow, and it contains minerals and rocks used by humans."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the lithosphere?",
+     "solution": "The lithosphere is the solid outer part of the Earth, consisting of the crust and the uppermost part of the mantle.",
+     "answer": "The solid outer layer of the Earth (crust and upper mantle)."
+    },
+    {
+     "question": "Why is the lithosphere important for life?",
+     "solution": "The lithosphere provides the land on which living beings live and the soil in which plants grow, and it contains useful minerals.",
+     "answer": "It provides land and soil for living beings and plants."
+    },
+    {
+     "question": "How is the lithosphere different from the crust?",
+     "solution": "The crust is only the outermost layer of the Earth, while the lithosphere includes the crust plus the uppermost part of the mantle.",
+     "answer": "The lithosphere includes the crust and the upper mantle."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define the lithosphere and name its two main parts.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how soil is formed from the lithosphere.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is the lithosphere important for plants?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.13.5",
+   "title": "Biosphere -- Life on Earth",
+   "section": "13.5",
+   "definition": "The biosphere is the narrow zone of the Earth where land, water and air interact to support life. It includes all living organisms and extends from the deep oceans to the lower atmosphere, forming the realm of life on the Earth.",
+   "formula": "Biosphere = lithosphere + hydrosphere + atmosphere (where life exists)",
+   "key_idea": "The biosphere is the part of the Earth where the lithosphere, hydrosphere and atmosphere interact and support life, containing all living organisms.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the biosphere?",
+    "How is the biosphere related to the other three spheres?",
+    "Why is the biosphere called the realm of life?",
+    "What does the biosphere include?",
+    "Why is the biosphere a narrow zone?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the biosphere",
+     "explain": "The biosphere is the narrow zone of the Earth where living organisms exist, formed by the interaction of the lithosphere, hydrosphere and atmosphere."
+    },
+    {
+     "step": 2,
+     "action": "Relate it to the other spheres",
+     "explain": "The biosphere is where the lithosphere (land), hydrosphere (water) and atmosphere (air) meet and interact, creating conditions suitable for life."
+    },
+    {
+     "step": 3,
+     "action": "Explain why it is the realm of life",
+     "explain": "Because the biosphere contains all living organisms -- plants, animals and micro-organisms -- it is called the realm of life on the Earth."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the biosphere?",
+     "solution": "The biosphere is the narrow zone of the Earth where land, water and air interact to support life, containing all living organisms.",
+     "answer": "The zone of the Earth where life exists."
+    },
+    {
+     "question": "How is the biosphere related to the lithosphere, hydrosphere and atmosphere?",
+     "solution": "The biosphere is the zone where the lithosphere, hydrosphere and atmosphere interact and together create the conditions needed for life.",
+     "answer": "It is the zone where the three spheres interact to support life."
+    },
+    {
+     "question": "Why is the biosphere called the realm of life?",
+     "solution": "The biosphere contains all living organisms -- plants, animals and microbes -- so it is called the realm of life on the Earth.",
+     "answer": "Because it contains all living organisms."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how the biosphere is formed by the other three spheres.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is the biosphere considered a narrow zone?",
+     "type": "short_answer"
+    },
+    {
+     "question": "List the types of organisms found in the biosphere.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.13.6",
+   "title": "Factors Making Earth Habitable",
+   "section": "13.6",
+   "definition": "The Earth is habitable because it has the right distance from the Sun giving a suitable temperature, a breathable atmosphere with oxygen, abundant liquid water, a protective magnetic field and an ozone layer that together create conditions for life to exist.",
+   "formula": "Habitable Earth = right temperature + oxygen + liquid water + magnetic field + ozone layer",
+   "key_idea": "The Earth supports life because it has the right temperature, a breathable atmosphere, liquid water, a protective magnetic field and an ozone layer that shields life from harmful rays.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why is the Earth the only planet known to support life?",
+    "What factors make the Earth habitable?",
+    "How does the atmosphere make the Earth suitable for life?",
+    "What is the role of the ozone layer in making Earth habitable?",
+    "Why is liquid water important for life on Earth?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the right temperature and distance",
+     "explain": "The Earth is at the right distance from the Sun, which gives it a suitable temperature for water to remain liquid and for life to survive."
+    },
+    {
+     "step": 2,
+     "action": "Identify the atmosphere and water",
+     "explain": "The Earth has a breathable atmosphere rich in oxygen and abundant liquid water, both essential for living organisms."
+    },
+    {
+     "step": 3,
+     "action": "Identify the protective features",
+     "explain": "The Earth's magnetic field protects life from harmful solar radiation and the ozone layer in the stratosphere blocks harmful ultraviolet rays from the Sun."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is the Earth the only planet known to support life?",
+     "solution": "The Earth has the right distance from the Sun for a suitable temperature, a breathable atmosphere, liquid water and protective layers like the ozone layer, which together support life.",
+     "answer": "It has the right temperature, air, water and protective layers."
+    },
+    {
+     "question": "What is the role of the ozone layer in making the Earth habitable?",
+     "solution": "The ozone layer in the stratosphere absorbs harmful ultraviolet rays of the Sun, protecting living organisms from skin damage and other harm.",
+     "answer": "It blocks harmful UV rays and protects life."
+    },
+    {
+     "question": "Why is the Earth's distance from the Sun important for life?",
+     "solution": "The right distance gives the Earth a temperature that keeps water in liquid form, which is essential for all living organisms.",
+     "answer": "It gives a temperature that keeps water liquid for life."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the main factors that make the Earth habitable.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the role of the magnetic field in protecting life on Earth.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why is liquid water essential for life?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.13.7",
+   "title": "Natural Resources of Earth",
+   "section": "13.7",
+   "definition": "Natural resources are materials and substances obtained from nature that are useful to living beings, including air, water, soil, minerals, forests, wildlife and sunlight. They are classified as renewable (can be replenished) and non-renewable (cannot be replenished) resources.",
+   "formula": "Natural resources = renewable resources + non-renewable resources",
+   "key_idea": "Natural resources are useful materials from nature such as air, water, soil, minerals and forests, divided into renewable resources that can be replaced and non-renewable resources that cannot.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are natural resources?",
+    "Distinguish between renewable and non-renewable resources.",
+    "Give two examples of renewable resources.",
+    "Give two examples of non-renewable resources.",
+    "Why should we conserve natural resources?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define natural resources",
+     "explain": "Natural resources are materials and substances obtained from nature that are useful to living beings, such as air, water, soil, minerals, forests and sunlight."
+    },
+    {
+     "step": 2,
+     "action": "Classify into renewable and non-renewable",
+     "explain": "Renewable resources like air, water, sunlight and forests can be replenished naturally, while non-renewable resources like coal, petroleum and minerals cannot be replaced once used."
+    },
+    {
+     "step": 3,
+     "action": "Explain the need for conservation",
+     "explain": "Since many resources are limited and take millions of years to form, they must be used carefully and conserved so that they last for future generations."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are natural resources? Give two examples.",
+     "solution": "Natural resources are useful materials obtained from nature, such as air, water, soil, minerals and forests.",
+     "answer": "Useful materials from nature, e.g., air and water."
+    },
+    {
+     "question": "Distinguish between renewable and non-renewable resources.",
+     "solution": "Renewable resources like sunlight and forests can be replenished naturally, while non-renewable resources like coal and petroleum cannot be replaced once used.",
+     "answer": "Renewable resources can be replaced; non-renewable cannot."
+    },
+    {
+     "question": "Why should we conserve natural resources?",
+     "solution": "Many natural resources are limited and take a long time to form, so they must be conserved to ensure they are available for future generations.",
+     "answer": "To ensure resources last for future generations."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Classify the following as renewable or non-renewable: coal, sunlight, water, petroleum.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why forests are considered renewable resources.",
+     "type": "short_answer"
+    },
+    {
+     "question": "List four natural resources used in daily life.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.13.8",
+   "title": "Environmental Challenges",
+   "section": "13.8",
+   "definition": "Environmental challenges are problems caused by human activities that harm the Earth, such as air and water pollution, deforestation, global warming, depletion of the ozone layer and loss of biodiversity, which threaten the balance of nature and the survival of living beings.",
+   "formula": "",
+   "key_idea": "Environmental challenges like pollution, deforestation, global warming and ozone depletion are caused by human activities and threaten the balance of nature and life on Earth.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the major environmental challenges facing the Earth?",
+    "What is global warming and what causes it?",
+    "How does pollution affect the environment?",
+    "What is the effect of deforestation on the environment?",
+    "How does the depletion of the ozone layer harm life?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the major challenges",
+     "explain": "The major environmental challenges are air and water pollution, deforestation, global warming, ozone depletion and loss of biodiversity."
+    },
+    {
+     "step": 2,
+     "action": "Explain the causes",
+     "explain": "These challenges are caused by human activities such as burning fossil fuels, cutting forests, releasing harmful chemicals and dumping waste."
+    },
+    {
+     "step": 3,
+     "action": "Explain the effects",
+     "explain": "These problems raise the Earth's temperature, harm living organisms, destroy habitats and upset the balance of nature, threatening life on Earth."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is global warming and what causes it?",
+     "solution": "Global warming is the rise in the Earth's average temperature caused by an increase in greenhouse gases like carbon dioxide from burning fossil fuels and deforestation.",
+     "answer": "A rise in Earth's temperature caused by greenhouse gases."
+    },
+    {
+     "question": "How does the depletion of the ozone layer harm life?",
+     "solution": "When the ozone layer is depleted, more harmful ultraviolet rays reach the Earth, causing skin diseases and harming plants and animals.",
+     "answer": "More UV rays reach Earth, harming living organisms."
+    },
+    {
+     "question": "How does pollution affect the environment?",
+     "solution": "Pollution of air, water and soil harms living organisms, reduces biodiversity and disrupts the natural balance of ecosystems.",
+     "answer": "Pollution harms organisms and disrupts ecosystems."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List three major environmental challenges and their causes.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how deforestation contributes to global warming.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Describe two effects of water pollution on living beings.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c8cu.13.9",
+   "title": "Conservation of Earth's Resources",
+   "section": "13.9",
+   "definition": "Conservation of Earth's resources means using natural resources wisely and protecting the environment through the three R's -- reduce, reuse and recycle -- along with afforestation, reducing pollution and saving water and energy, so that resources last for future generations.",
+   "formula": "Conservation = reduce + reuse + recycle",
+   "key_idea": "Conserving Earth's resources involves the three R's -- reduce, reuse and recycle -- along with saving water and energy, planting trees and reducing pollution to protect the environment for the future.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is meant by conservation of Earth's resources?",
+    "What are the three R's of conservation?",
+    "How can we conserve water in daily life?",
+    "Why is recycling important for conservation?",
+    "How does reducing pollution help conserve the Earth?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Apply the three R's",
+     "explain": "Reduce the use of resources, reuse items instead of throwing them away and recycle materials like paper, plastic and metal to reduce waste.",
+     "compute": "conservation = reduce + reuse + recycle"
+    },
+    {
+     "step": 2,
+     "action": "Conserve water and energy",
+     "explain": "Save water by avoiding wastage and fixing leaks, and save energy by switching off unused lights and using energy-efficient devices.",
+     "compute": "save_water + save_energy"
+    },
+    {
+     "step": 3,
+     "action": "Protect the environment",
+     "explain": "Plant trees, reduce pollution and avoid wasting resources so that the Earth's resources last for future generations.",
+     "compute": "afforestation + reduce_pollution"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What are the three R's of conservation?",
+     "solution": "The three R's are reduce (use less), reuse (use again) and recycle (process waste into new products), which help conserve resources.",
+     "answer": "Reduce, reuse and recycle."
+    },
+    {
+     "question": "How can we conserve water in daily life?",
+     "solution": "We can conserve water by closing taps when not in use, fixing leaks, reusing water where possible and avoiding wastage.",
+     "answer": "By closing taps, fixing leaks and avoiding wastage."
+    },
+    {
+     "question": "Why is recycling important for conservation?",
+     "solution": "Recycling turns waste materials into new products, which reduces the use of fresh resources and the amount of waste, helping conserve the Earth's resources.",
+     "answer": "Recycling reduces the use of fresh resources and waste."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the three R's of conservation with examples.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Suggest three ways to save energy at home.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how afforestation helps in conserving Earth's resources.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "exgen.c8cu.13.9.1",
+   "source_ref": "generated practice sample aligned to hecu113.txt",
+   "concept": "c8cu.13.9",
+   "question_type": "compute",
+   "question_pattern": "Calculate the conservation step by step for a case with {reduce}, {reuse}, {recycle}.",
+   "extracted_variables": {
+    "reduce": "reduce (given value)",
+    "reuse": "reuse (given value)",
+    "recycle": "recycle (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute conservation",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "conservation = reduce + reuse + recycle"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c8cu.13.9.2",
+   "source_ref": "generated practice sample aligned to hecu113.txt",
+   "concept": "c8cu.13.9",
+   "question_type": "compute",
+   "question_pattern": "Calculate the conservation step by step for a case with {reduce}, {reuse}, {recycle}.",
+   "extracted_variables": {
+    "reduce": "reduce (given value)",
+    "reuse": "reuse (given value)",
+    "recycle": "recycle (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute conservation",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "conservation = reduce + reuse + recycle"
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

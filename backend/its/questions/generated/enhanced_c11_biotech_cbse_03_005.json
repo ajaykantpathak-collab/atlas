@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_03_005",
+   "title": "c11_biotech_cbse_03_005",
+   "questions": [
+    {
+     "q": "Name the four fused rings that constitute the steroid nucleus and state the total number of carbon atoms in the parent hydrocarbon skeleton (cyclopentanoperhydrophenanthrene).",
+     "a": "The steroid nucleus consists of three cyclohexane rings (A, B, C) and one cyclopentane ring (D) fused together, forming the parent hydrocarbon cyclopentanoperhydrophenanthrene with 17 carbon atoms. A wrong answer (e.g., \"three rings\" or \"20 carbons\") reveals that the student has not memorized the systematic ring nomenclature and carbon count that is standard for naming steroid derivatives in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Cholesterol and testosterone are both steroids, so they must have identical biological functions because their four-ring cores are the same.\" Explain why this reasoning is incorrect, using the concept of functional group modification on the steroid nucleus.",
+     "a": "While cholesterol and testosterone share the cyclopentanoperhydrophenanthrene nucleus, their biological functions diverge due to different side chains and functional groups: cholesterol has a β-hydroxyl at C-3 and a flexible C-17 alkyl side chain, making it a membrane fluidity buffer and precursor; testosterone has a keto group at C-3, a Δ⁴ double bond, and a shortened C-17 side chain, enabling specific binding to androgen receptors. A wrong answer that focuses only on the shared rings shows the student thinks core structure alone dictates function, ignoring the \"lock-and-key\" specificity conferred by peripheral modifications.",
+     "self_check": true
+    },
+    {
+     "q": "Given the following fatty acid (C₁₆:₀, palmitic acid) and a monohydric alcohol (C₃₀H₆₂O, triacontanol), write the balanced chemical equation for the formation of the wax ester, identify the by-product, and calculate the molecular formula of the resulting wax.",
+     "a": "Step 1: Write structures: Palmitic acid = CH₃(CH₂)₁₄COOH (C₁₆H₃₂O₂); Triacontanol = CH₃(CH₂)₂₈CH₂OH (C₃₀H₆₂O).\nStep 2: Esterification: C₁₆H₃₂O₂ + C₃₀H₆₂O → C₄₆H₉₂O₂ + H₂O.\nStep 3: By-product is water (H₂O).\nStep 4: Wax molecular formula = C₄₆H₉₂O₂ (add carbons and hydrogens, subtract H₂O).\nA wrong answer that adds formulas without subtracting water (e.g., C₄₆H₉₄O₃) reveals the student does not apply the condensation reaction mechanism learned in triglycerides to this new lipid class.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the role of cholesterol in animal plasma membranes with the role of phytosterols (e.g., sitosterol) in plant membranes. How does the presence or absence of a C-24 ethyl group affect membrane packing?",
+     "a": "Both cholesterol and phytosterols modulate membrane fluidity by inserting between phospholipid fatty acyl chains, restricting motion at high temperatures and preventing crystallization at low temperatures. Phytosterols have an extra ethyl or methyl group at C-24 of the side chain, which increases steric bulk and alters the angle of insertion, making them slightly less efficient at ordering phospholipids than cholesterol. A wrong answer stating \"phytosterols make membranes more fluid\" without explaining the steric effect shows the student cannot analyze how a single carbon substitution changes biophysical properties.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Waxes are simply 'solid fats' because both are esters of fatty acids.\" Provide three structural and functional differences that refute this oversimplification.",
+     "a": "The statement is false. Differences: (1) Alcohol component: waxes use a single long-chain monohydric alcohol (C₂₄–C₃₄), while fats use glycerol (C₃ triol). (2) Ester count: waxes have one ester bond per molecule; triglycerides have three. (3) Function: waxes form water-repellent, high-melting-point coatings (cuticle, honeycomb); fats serve as compact energy storage in adipose tissue. A wrong answer that only mentions \"different alcohols\" misses the functional consequence of mono- vs tri-ester architecture on physical state and biological role.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical steroid derivative that could act as a membrane anchor for a protein in a thermophilic archaeon living at 80°C. Specify the modifications you would make to the cholesterol structure (ring substitutions, side chain, polar groups) and justify each choice for high-temperature stability.",
+     "a": "A strong answer proposes: (1) Saturation of all rings (no double bonds) to prevent oxidative cleavage; (2) Replacement of the C-3 β-OH with a polar head group (e.g., phosphate or sugar) that can form hydrogen bonds with the protein; (3) Branched, saturated isoprenoid side chain at C-17 (like archaeal lipids) for tighter packing; (4) Possible cyclization of ring A/B junction to 5α-configuration for planar rigidity. A poor answer merely says \"add more cholesterol\" or \"make it more hydrophobic,\" showing inability to integrate membrane biophysics with steroid chemistry.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

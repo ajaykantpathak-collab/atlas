@@ -1,0 +1,173 @@
+{
+ "catalog": "catalog_class8_social_science_ch201",
+ "concepts": [
+  {
+   "id": "hess.201.1",
+   "title": "Historical Time Spans",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Historical Time Spans' refers to.",
+     "a": "History involves analyzing transformations that happen over a duration rather than just identifying specific calendar days.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Historical Time Spans'.",
+     "a": "Historical processes often occur over long periods rather than on a single date.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Historical Time Spans' taught, and from which source text?",
+     "a": "How Important are Dates? (source: hess201.txt lines 15-45)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.201.2",
+   "title": "Selection of Historical Dates",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Selection of Historical Dates' refers to.",
+     "a": "The significance of specific dates is determined by the particular events or themes a historian chooses to emphasize.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Selection of Historical Dates'.",
+     "a": "Dates are not important on their own but become vital based on the focus of the study.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Selection of Historical Dates' taught, and from which source text?",
+     "a": "Which dates? (source: hess201.txt lines 65-85)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.201.3",
+   "title": "James Mill's Periodisation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'James Mill's Periodisation' refers to.",
+     "a": "A 19th-century classification that split Indian history into three stages based on the primary religion of the rulers.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'James Mill's Periodisation'.",
+     "a": "Dividing history based on the religion of the ruling elite.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'James Mill's Periodisation' taught, and from which source text?",
+     "a": "How do we periodise? (source: hess201.txt lines 105-125)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.201.4",
+   "title": "Modern Periodisation and its Critique",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Modern Periodisation and its Critique' refers to.",
+     "a": "A Western-influenced division of history into ancient, medieval, and modern periods, where 'modern' signifies progress and reason.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Modern Periodisation and its Critique'.",
+     "a": "Applying Western concepts of modernity to Indian history.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Modern Periodisation and its Critique' taught, and from which source text?",
+     "a": "How do we periodise? (source: hess201.txt lines 145-165)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.201.5",
+   "title": "Concept of Colonisation",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Concept of Colonisation' refers to.",
+     "a": "The political, social, and economic dominance of one country over another that results in fundamental structural changes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Concept of Colonisation'.",
+     "a": "Subjugation leading to multifaceted changes in a society.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Concept of Colonisation' taught, and from which source text?",
+     "a": "What is colonial? (source: hess201.txt lines 170-185)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.201.6",
+   "title": "Administrative Record-Keeping",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Administrative Record-Keeping' refers to.",
+     "a": "The British practice of documenting every policy and decision to facilitate study, debate, and governance.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Administrative Record-Keeping'.",
+     "a": "Official documentation as a tool for effective administration.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Administrative Record-Keeping' taught, and from which source text?",
+     "a": "Administration produces records (source: hess201.txt lines 195-220)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.201.7",
+   "title": "Colonial Surveys and Mapping",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Colonial Surveys and Mapping' refers to.",
+     "a": "Systematic efforts by the colonial state to gather geographical, botanical, and demographic data to better manage the territory.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Colonial Surveys and Mapping'.",
+     "a": "Gathering detailed information about a country to administer it effectively.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Colonial Surveys and Mapping' taught, and from which source text?",
+     "a": "Surveys become important (source: hess201.txt lines 240-260)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "hess.201.8",
+   "title": "Limitations of Official Records",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Limitations of Official Records' refers to.",
+     "a": "Official documents primarily reflect the viewpoints and interests of the ruling authorities, often omitting the experiences of common people.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Limitations of Official Records'.",
+     "a": "Official records provide a one-sided view of history.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Limitations of Official Records' taught, and from which source text?",
+     "a": "What official records do not tell (source: hess201.txt lines 265-290)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_physics_ch5_9",
+ "concepts": [
+  {
+   "id": "enh:c8_physics_ch5_9",
+   "title": "c8_physics_ch5_9",
+   "questions": [
+    {
+     "q": "What is the main difference between evaporation and distillation in terms of what is collected at the end of the process?",
+     "a": "In evaporation, only the solid solute is collected as residue; the solvent vaporizes into the air and is lost. In distillation, the solvent vapor is condensed and collected as a liquid (distillate), while the non-volatile solute remains in the flask. A wrong answer (e.g., \"both collect the solvent\") reveals the student confuses the apparatus: they may not realize distillation requires a condenser to capture the vapor.",
+     "self_check": true
+    },
+    {
+     "q": "Why can we separate a mixture of acetone (boiling point 56°C) and water (boiling point 100°C) by simple distillation, but not a mixture of salt and water by the same method to recover both?",
+     "a": "Acetone and water are both volatile liquids with different boiling points; heating to 56°C vaporizes acetone, which condenses in the condenser, leaving water behind. Salt is non-volatile (does not vaporize at 100°C), so heating saltwater only vaporizes water; the salt stays in the flask. To recover both salt and water, we must use distillation (collect water) — evaporation would lose the water. A wrong answer indicates the student thinks all solutes vaporize or doesn't distinguish volatile vs. non-volatile solutes.",
+     "self_check": true
+    },
+    {
+     "q": "A student has 250 mL of a copper sulphate solution with a concentration of 16 g per 100 mL. She heats it to complete evaporation. Calculate the mass of copper sulphate crystals she will obtain.",
+     "a": "Step 1: Identify given: volume = 250 mL, concentration = 16 g/100 mL. Step 2: Convert concentration to g/mL: 16 g / 100 mL = 0.16 g/mL. Step 3: Mass of solute = concentration × volume = 0.16 g/mL × 250 mL = 40 g. Step 4: Units: g/mL × mL = g. Step 5: Check: 250 mL is 2.5 times 100 mL, so mass = 2.5 × 16 g = 40 g. Reasonable. A wrong answer (e.g., 4000 g) reveals unit conversion error (forgetting to divide by 100).",
+     "self_check": true
+    },
+    {
+     "q": "During distillation of a mixture of ethanol (b.p. 78°C) and water (b.p. 100°C), the thermometer reading stays constant at 78°C for several minutes, then rises to 100°C. Explain what is happening at the molecular level during the constant-temperature period.",
+     "a": "At 78°C, ethanol molecules have enough kinetic energy to overcome intermolecular forces and vaporize. The temperature remains constant because all heat energy supplied is used as latent heat of vaporization for ethanol, not to increase kinetic energy. Only after all ethanol has vaporized does the temperature rise to boil water. A wrong answer (e.g., \"temperature stops rising because heating stops\") shows confusion between heat and temperature, and lack of understanding of latent heat (covered in Class 7 heat chapter).",
+     "self_check": true
+    },
+    {
+     "q": "A student wants to separate a mixture of sand and saltwater. He proposes: \"First filter to remove sand, then distill the filtrate to get pure water and salt.\" Evaluate this plan. Is it correct? If not, what is the error?",
+     "a": "The plan is partially correct but inefficient. Filtration correctly removes insoluble sand. However, distilling the saltwater filtrate will recover pure water as distillate and leave salt in the flask — this works. But if the goal is only to get salt, evaporation is simpler and uses less energy. The error is using distillation when evaporation suffices for salt recovery. A wrong evaluation (e.g., \"distillation won't work because salt vaporizes\") reveals misconception about volatility of ionic compounds.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using household items to demonstrate distillation of ink (coloured water) to obtain clear water. List materials, steps, and how you will prove the distillate is pure water.",
+     "a": "Materials: Pressure cooker (as flask with lid), copper tube (condenser) coiled and placed in a bowl of cold water, glass cup (receiver), blue ink, stove. Steps: 1. Put ink in cooker. 2. Attach tube to steam vent. 3. Coil tube in cold water bath. 4. Heat cooker. 5. Collect liquid in cup. Proof: Distillate is colourless (ink dye non-volatile), boils at 100°C, leaves no residue on evaporation. A poor answer uses no condenser (just evaporation) or doesn't test purity, showing lack of understanding of condensation requirement.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,534 @@
+{
+ "class": 10,
+ "subject": "social_science",
+ "chapter": 2,
+ "chapter_title": "Nationalism in India",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jess302.txt",
+ "concepts": [
+  {
+   "id": "c10ss.2.1",
+   "title": "The First World War and Nationalism in India",
+   "section": "The First World War, Khilafat and Non-Cooperation",
+   "definition": "The First World War (1914-1918) created a new economic and political situation in India: increased taxes, forced recruitment, high prices and food shortages caused widespread anger, while the war weakened the myth of British invincibility and strengthened the demand for self-government.",
+   "formula": "",
+   "key_idea": "The hardships of the First World War -- rising prices, forced recruitment and famines -- turned ordinary Indians against British rule and created the conditions for a mass nationalist movement.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did the First World War create a new economic and political situation in India?",
+    "Explain the impact of forced recruitment during the First World War on the Indian people.",
+    "Why did prices rise sharply during the war years in India?",
+    "How did the war weaken the myth of British invincibility?",
+    "Discuss the role of wartime hardships in strengthening the nationalist movement."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the wartime burdens",
+     "explain": "List the taxes, forced recruitment, price rise and food shortages imposed during 1914-1918."
+    },
+    {
+     "step": 2,
+     "action": "Compute the price increase",
+     "explain": "Calculate the percentage increase in prices between 1914 and 1918 using the given index values.",
+     "compute": "price_increase_pct = ((price_1918 - price_1914) / price_1914) * 100"
+    },
+    {
+     "step": 3,
+     "action": "Interpret the result",
+     "explain": "Relate the computed price rise to the widespread anger that fuelled the nationalist movement."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did the First World War create a new economic situation in India?",
+     "solution": "The war created a new economic and political situation: it led to a huge increase in defence expenditure, financed by war loans and increasing taxes such as customs duties and income tax. Prices doubled between 1913 and 1918, and forced recruitment in rural areas caused widespread anger.",
+     "answer": "The war raised taxes, doubled prices and caused forced recruitment, creating widespread anger."
+    },
+    {
+     "question": "Calculate the percentage rise in prices if the price index rose from 100 in 1913 to 200 in 1918.",
+     "solution": "Price in 1913 = 100; Price in 1918 = 200. Percentage rise = ((200 - 100) / 100) x 100 = 100%.",
+     "answer": "Prices rose by 100% between 1913 and 1918."
+    },
+    {
+     "question": "How did the war weaken the myth of British invincibility?",
+     "solution": "During the war, Indian soldiers were sent to fight in Europe and the Middle East. The war's hardships and the eventual weakening of British authority showed that the British could be challenged, encouraging nationalist leaders to demand self-government.",
+     "answer": "The war exposed British vulnerability and encouraged demands for self-government."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain how wartime taxes affected the Indian population.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why was forced recruitment resented by the rural population?",
+     "type": "short_answer"
+    },
+    {
+     "question": "If the price index rose from 100 in 1913 to 220 in 1918, calculate the percentage rise in prices.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.2.2",
+   "title": "The Khilafat and Non-Cooperation Movement",
+   "section": "The First World War, Khilafat and Non-Cooperation",
+   "definition": "The Non-Cooperation Movement (1920-1922), launched by Gandhi, aimed to achieve swaraj through peaceful non-cooperation with the British; it was combined with the Khilafat Movement led by the Ali brothers to unite Hindus and Muslims against British rule after the harsh Treaty of Sevres imposed on Turkey.",
+   "formula": "",
+   "key_idea": "By joining the Non-Cooperation Movement with the Khilafat cause, Gandhi sought to unite Hindus and Muslims in a single mass movement against British rule, using peaceful methods of boycott and non-cooperation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What were the main aims of the Non-Cooperation Movement?",
+    "Explain the origins of the Khilafat Movement.",
+    "How did Gandhi try to unite Hindus and Muslims through these movements?",
+    "Describe the methods of non-cooperation adopted by the people.",
+    "Why was the Non-Cooperation Movement withdrawn in 1922?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the two movements and their causes",
+     "explain": "Note that the Non-Cooperation Movement (1920) aimed at swaraj and the Khilafat Movement defended the authority of the Turkish Sultan after World War I."
+    },
+    {
+     "step": 2,
+     "action": "Verify the methods of struggle",
+     "explain": "Check that the movement used renunciation of titles, boycott of schools, courts and foreign goods, and peaceful picketing."
+    },
+    {
+     "step": 3,
+     "action": "Relate to unity and withdrawal",
+     "explain": "Confirm that Gandhi joined the two movements to unite Hindus and Muslims, but withdrew Non-Cooperation after the violent Chauri Chaura incident in 1922."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What was the Khilafat Movement?",
+     "solution": "The Khilafat Movement was organised by the Ali brothers -- Muhammad Ali and Shaukat Ali -- in 1919 to defend the Ottoman Emperor's authority as the Khalifa, the spiritual head of the Islamic world, after Turkey's defeat in World War I and the harsh Treaty of Sevres.",
+     "answer": "It defended the Turkish Sultan's authority as Khalifa after World War I."
+    },
+    {
+     "question": "Why did Gandhi combine the Non-Cooperation Movement with the Khilafat Movement?",
+     "solution": "Gandhi saw the Khilafat issue as an opportunity to bring Muslims into the nationalist movement. By combining Non-Cooperation with Khilafat, he hoped to unite Hindus and Muslims in a common struggle against British rule.",
+     "answer": "To unite Hindus and Muslims in a common anti-British struggle."
+    },
+    {
+     "question": "Why was the Non-Cooperation Movement called off in 1922?",
+     "solution": "In February 1922, a peaceful demonstration in Chauri Chaura, Gorakhpur, turned violent and the police station was set on fire, killing twenty-two policemen. Gandhi, who believed in non-violence, immediately called off the movement.",
+     "answer": "It was withdrawn after the violent Chauri Chaura incident in 1922."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the methods of non-cooperation used during the movement.",
+     "type": "recall"
+    },
+    {
+     "question": "Explain the significance of the Chauri Chaura incident.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How did the boycott of foreign goods affect the movement?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.2.3",
+   "title": "The Civil Disobedience Movement",
+   "section": "Towards Civil Disobedience",
+   "definition": "The Civil Disobedience Movement (1930-1934), led by Gandhi, was a mass struggle in which people broke colonial laws -- especially the salt law -- by producing salt, refusing taxes and picketing liquor shops; it differed from Non-Cooperation by refusing to obey unjust laws while continuing to remain peaceful.",
+   "formula": "",
+   "key_idea": "Civil disobedience went a step beyond non-cooperation: instead of merely withdrawing cooperation, people openly broke colonial laws they considered unjust, beginning with the salt law at Dandi.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is civil disobedience and how did it differ from non-cooperation?",
+    "Describe the main features of the Civil Disobedience Movement.",
+    "Why did Gandhi choose salt as the symbol of civil disobedience?",
+    "How did different social groups participate in the Civil Disobedience Movement?",
+    "Explain the significance of the Gandhi-Irwin Pact of 1931."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the nature of the movement",
+     "explain": "Note that civil disobedience meant openly breaking colonial laws considered unjust, beginning with the salt law at Dandi on 6 April 1930."
+    },
+    {
+     "step": 2,
+     "action": "Verify the methods and participants",
+     "explain": "Check that people made salt, refused to pay taxes, picketed liquor and foreign cloth shops, and that peasants, workers, women and business classes joined."
+    },
+    {
+     "step": 3,
+     "action": "Relate to the outcome",
+     "explain": "Confirm that the movement forced the British to negotiate the Gandhi-Irwin Pact (1931) and agree to the Round Table Conference, though it was eventually suppressed."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did the Civil Disobedience Movement differ from the Non-Cooperation Movement?",
+     "solution": "In Non-Cooperation (1920-22) people withdrew cooperation from the British by boycotting schools, courts and goods. In Civil Disobedience (1930-34) people went further by openly breaking colonial laws, beginning with the salt law, while remaining non-violent.",
+     "answer": "Civil disobedience openly broke unjust laws; non-cooperation merely withdrew cooperation."
+    },
+    {
+     "question": "Why did Gandhi choose salt as the symbol of the Civil Disobedience Movement?",
+     "solution": "Salt was consumed by the rich and the poor alike, and the British held a monopoly over its production and charged tax on it. Gandhi saw salt as a powerful symbol that could unite all Indians against an unjust law, making it the ideal starting point for civil disobedience.",
+     "answer": "Salt was a universal necessity and its tax affected all Indians, making it a unifying symbol."
+    },
+    {
+     "question": "What was the Gandhi-Irwin Pact of 1931?",
+     "solution": "After widespread civil disobedience, the Viceroy Lord Irwin agreed to a pact with Gandhi in March 1931, by which Gandhi called off the movement and agreed to attend the Second Round Table Conference in London, while the government agreed to release political prisoners.",
+     "answer": "Gandhi called off the movement; the government released prisoners and Gandhi attended the Round Table Conference."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning of civil disobedience.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Describe how different social groups participated in the Civil Disobedience Movement.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why was salt chosen as the symbol of protest?",
+     "type": "recall"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.2.4",
+   "title": "The Salt March (Dandi March)",
+   "section": "Towards Civil Disobedience - The Salt March",
+   "definition": "The Salt March of 1930 was a 240-mile march led by Gandhi from Sabarmati Ashram to the coastal village of Dandi, where he broke the British salt law by making salt from sea water on 6 April 1930, marking the beginning of the Civil Disobedience Movement.",
+   "formula": "",
+   "key_idea": "The Salt March turned the simple act of making salt into a powerful symbol of defiance that drew tens of thousands of ordinary Indians into the nationalist struggle.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Describe the route and significance of the Salt March.",
+    "Why did Gandhi choose to break the salt law specifically?",
+    "How did the Salt March inspire people across India?",
+    "What happened at Dandi on 6 April 1930?",
+    "Explain the impact of the Salt March on the Civil Disobedience Movement."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the march details",
+     "explain": "Note the start (Sabarmati Ashram, 12 March 1930), the distance (240 miles) and the destination (Dandi).",
+     "compute": "distance_miles = 240"
+    },
+    {
+     "step": 2,
+     "action": "Compute the duration of the march",
+     "explain": "Calculate the number of days from 12 March 1930 to 6 April 1930."
+    },
+    {
+     "step": 3,
+     "action": "Interpret the result",
+     "explain": "Relate the 24-day, 240-mile march to its impact in mobilising people across India."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Describe the Salt March of 1930.",
+     "solution": "Gandhi started the march from Sabarmati Ashram on 12 March 1930, accompanied by 78 trusted volunteers. They walked 240 miles to the coastal village of Dandi. On 6 April 1930, Gandhi reached Dandi and ceremonially broke the salt law by boiling sea water to make salt, marking the beginning of the Civil Disobedience Movement.",
+     "answer": "Gandhi marched 240 miles from Sabarmati to Dandi and broke the salt law on 6 April 1930."
+    },
+    {
+     "question": "Calculate the average distance covered per day during the Salt March if Gandhi walked 240 miles in 24 days.",
+     "solution": "Distance = 240 miles; Days = 24. Average per day = 240 / 24 = 10 miles per day.",
+     "answer": "Gandhi covered an average of 10 miles per day."
+    },
+    {
+     "question": "How did the Salt March inspire people across India?",
+     "solution": "The Salt March drew worldwide attention. People in different parts of India broke the salt law, manufactured salt and demonstrated in front of government salt factories. As the movement spread, foreign cloth was boycotted and liquor shops were picketed, drawing tens of thousands into the struggle.",
+     "answer": "It inspired nationwide salt law breaking, boycotts and picketing."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the route of the Salt March.",
+     "type": "recall"
+    },
+    {
+     "question": "Explain why the salt law was considered unjust.",
+     "type": "short_answer"
+    },
+    {
+     "question": "If the march covered 240 miles in 24 days, calculate the average distance walked per day.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.2.5",
+   "title": "The Quit India Movement",
+   "section": "Towards Civil Disobedience - Quit India",
+   "definition": "The Quit India Movement was launched by Gandhi in August 1942, demanding an immediate end to British rule; after the arrest of the Congress leaders, the movement became a mass uprising with strikes, demonstrations and attacks on government property, though it was eventually suppressed by the British.",
+   "formula": "",
+   "key_idea": "The Quit India Movement of 1942 marked the final mass struggle of the nationalist movement, demonstrating that the Indian people were no longer willing to accept British rule and demanding immediate independence.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "When and why was the Quit India Movement launched?",
+    "What was Gandhi's slogan during the Quit India Movement?",
+    "Describe the nature of the Quit India Movement after the arrest of Congress leaders.",
+    "How did the British government respond to the Quit India Movement?",
+    "Explain the significance of the Quit India Movement in the freedom struggle."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the context and launch",
+     "explain": "Note that the movement was launched in August 1942 after the failure of the Cripps Mission, with Gandhi's slogan 'Do or Die'."
+    },
+    {
+     "step": 2,
+     "action": "Verify the mass character",
+     "explain": "Check that after the arrest of leaders, the movement became a spontaneous mass uprising with strikes, demonstrations and attacks on government property."
+    },
+    {
+     "step": 3,
+     "action": "Relate to the outcome",
+     "explain": "Confirm that although the British suppressed the movement, it demonstrated the depth of nationalist feeling and made independence inevitable."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "When and why was the Quit India Movement launched?",
+     "solution": "The Quit India Movement was launched by the All India Congress Committee in Bombay in August 1942, after the failure of the Cripps Mission. The demand was for an immediate end to British rule, as the Congress was unwilling to support the war effort without a commitment to independence.",
+     "answer": "It was launched in August 1942 to demand immediate end to British rule."
+    },
+    {
+     "question": "What was Gandhi's slogan during the Quit India Movement?",
+     "solution": "Gandhi raised the slogan 'Do or Die' (Karenge ya Marenge) in his speech at the Gowalia Tank Maidan in Bombay on 8 August 1942, calling on the people to give their all for the freedom of India.",
+     "answer": "Gandhi's slogan was 'Do or Die'."
+    },
+    {
+     "question": "How did the British respond to the Quit India Movement?",
+     "solution": "The British government responded with severe repression. The Congress was banned, its leaders were arrested, and the movement was crushed by military force. Yet the movement demonstrated the depth of nationalist feeling and showed that British rule could not continue for long.",
+     "answer": "The British banned the Congress, arrested leaders and crushed the movement by force."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the significance of the slogan 'Do or Die'.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Describe the nature of the Quit India Movement after the arrest of leaders.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why did the Cripps Mission fail?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.2.6",
+   "title": "The Role of Mahatma Gandhi",
+   "section": "The Sense of Collective Belonging - Role of Gandhi",
+   "definition": "Mahatma Gandhi transformed the Indian nationalist movement from an elite constitutional agitation into a mass struggle by introducing the methods of satyagraha (truth-force) and non-violent civil disobedience, uniting diverse groups under the common goal of swaraj.",
+   "formula": "",
+   "key_idea": "Gandhi's unique contribution was to make nationalism a mass movement by combining non-violence with active resistance, and by identifying with the everyday concerns of peasants, workers and ordinary people.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is satyagraha and how did Gandhi use it?",
+    "Explain Gandhi's method of non-violent resistance.",
+    "How did Gandhi transform the nationalist movement into a mass movement?",
+    "Describe the role of Gandhi in the Champaran, Kheda and Ahmedabad struggles.",
+    "Why was Gandhi's method effective against British rule?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify Gandhi's methods",
+     "explain": "Note that Gandhi used satyagraha -- non-violent resistance based on the power of truth -- and civil disobedience as his main methods."
+    },
+    {
+     "step": 2,
+     "action": "Verify the mass appeal",
+     "explain": "Check that Gandhi identified with the poor, wore simple clothes, spoke in local languages and took up everyday grievances, drawing peasants, workers and women into the movement."
+    },
+    {
+     "step": 3,
+     "action": "Relate to the nationalist outcome",
+     "explain": "Confirm that these methods transformed nationalism from an elite movement into a mass struggle for swaraj, weakening British moral authority."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is satyagraha?",
+     "solution": "Satyagraha, according to Gandhi, is the power of truth and the search for truth. Gandhi believed that if the cause was true and the struggle was against injustice, physical force was not necessary to fight the oppressor. A satyagrahi could win the battle through non-violence without seeking revenge or being aggressive.",
+     "answer": "Satyagraha is non-violent resistance based on the power of truth."
+    },
+    {
+     "question": "How did Gandhi transform the nationalist movement into a mass movement?",
+     "solution": "Gandhi broadened the movement by taking up the grievances of ordinary people -- peasants in Champaran and Kheda, workers in Ahmedabad -- and by using simple language, simple clothes and non-violent methods that ordinary people could understand and join.",
+     "answer": "He took up everyday grievances and used simple, non-violent methods that drew in the masses."
+    },
+    {
+     "question": "Describe Gandhi's early struggles in India (Champaran, Kheda and Ahmedabad).",
+     "solution": "In 1917 Gandhi travelled to Champaran in Bihar to inspire peasants to struggle against the oppressive indigo plantation system. In 1917 he organised a satyagraha in Kheda, Gujarat, to support peasants affected by crop failure and plague. In 1918 he went to Ahmedabad to support cotton mill workers in their struggle for better wages.",
+     "answer": "Gandhi led satyagrahas at Champaran (1917), Kheda (1917) and Ahmedabad (1918)."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning of satyagraha.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How did Gandhi's simple lifestyle help the nationalist movement?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Describe Gandhi's role in the Champaran struggle.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.2.7",
+   "title": "Participation of Different Social Groups",
+   "section": "Towards Civil Disobedience - Different Groups",
+   "definition": "Different social groups participated in the nationalist movement for different reasons: peasants against high rents and taxes, plantation workers for freedom of movement, business classes against colonial restrictions, and women for the first time in large numbers, each giving the movement its mass character.",
+   "formula": "",
+   "key_idea": "The nationalist movement drew its strength from the participation of diverse groups -- peasants, workers, business classes and women -- each joining for reasons linked to their own social and economic grievances.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why did peasants join the Civil Disobedience Movement?",
+    "Explain why plantation workers joined the nationalist movement.",
+    "How did the business classes support the nationalist movement?",
+    "Describe the participation of women in the Civil Disobedience Movement.",
+    "Why did the participation of different groups give the movement its mass character?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the groups and their motives",
+     "explain": "Note that peasants sought lower taxes and rents, plantation workers sought freedom of movement, business classes opposed colonial trade restrictions, and women joined in large numbers for the first time."
+    },
+    {
+     "step": 2,
+     "action": "Verify the forms of participation",
+     "explain": "Check that peasants attacked landlords, workers deserted plantations, business classes funded the movement, and women picketed shops and marched."
+    },
+    {
+     "step": 3,
+     "action": "Relate to the mass character",
+     "explain": "Confirm that the diverse motives and forms of participation gave the movement its truly mass and nationwide character."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why did peasants join the Civil Disobedience Movement?",
+     "solution": "Peasants joined because they were oppressed by high rents and taxes imposed by landlords and the colonial state. They hoped that the movement would lead to a reduction in taxes and the redistribution of land, so they attacked landlords and refused to pay rent.",
+     "answer": "Peasants joined to protest high rents and taxes and to seek land reform."
+    },
+    {
+     "question": "Why did plantation workers join the nationalist movement?",
+     "solution": "For plantation workers in Assam, freedom meant the right to move freely and retain a link with the village from which they had been recruited. Under the Inland Emigration Act of 1859 they were rarely permitted to leave the tea garden, so they joined the movement hoping to escape this restriction.",
+     "answer": "They joined to gain freedom of movement and the right to return to their villages."
+    },
+    {
+     "question": "How did the business classes support the nationalist movement?",
+     "solution": "The business classes -- merchants and industrialists -- opposed colonial policies that restricted business. They formed the Federation of the Indian Chamber of Commerce and Industries (FICCI) and gave financial help to the movement, hoping that swaraj would protect their interests.",
+     "answer": "They opposed colonial restrictions and funded the movement through FICCI."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the role of women in the Civil Disobedience Movement.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why did the business classes oppose colonial policies?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name the organisation formed by Indian business classes to support the movement.",
+     "type": "recall"
+    }
+   ]
+  },
+  {
+   "id": "c10ss.2.8",
+   "title": "The Sense of Collective Belonging and the Impact of Nationalism",
+   "section": "The Sense of Collective Belonging",
+   "definition": "The sense of collective belonging that united Indians in the nationalist struggle was built through cultural symbols like Bharat Mata, the singing of Vande Mataram, the folklore revival, the reinterpretation of history and the design of the tricolour flag, which together created a shared national identity.",
+   "formula": "",
+   "key_idea": "Nationalism in India was not only a political struggle but also a cultural process in which symbols, songs, history and images created a shared sense of belonging among diverse people.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How did the image of Bharat Mata contribute to a sense of collective belonging?",
+    "Explain the role of Vande Mataram in creating national identity.",
+    "How did the revival of Indian folklore strengthen nationalism?",
+    "Describe the contribution of the reinterpretation of history to nationalist feeling.",
+    "How did the tricolour flag symbolise the idea of collective belonging?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the cultural symbols",
+     "explain": "Note the image of Bharat Mata, the song Vande Mataram, folklore, the reinterpretation of history and the tricolour flag as key symbols of national identity."
+    },
+    {
+     "step": 2,
+     "action": "Verify the unifying effect",
+     "explain": "Check that each symbol cut across regional, religious and caste divisions and gave diverse people a common identity as Indians."
+    },
+    {
+     "step": 3,
+     "action": "Relate to the nationalist outcome",
+     "explain": "Confirm that this cultural process of collective belonging sustained the political struggle and gave the movement its enduring mass character."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How did the image of Bharat Mata contribute to a sense of collective belonging?",
+     "solution": "The image of Bharat Mata, first created by Abanindranath Tagore, portrayed India as a divine mother figure. This image, widely circulated through paintings and prints, helped people across regions imagine the nation as a single entity and feel a shared devotion to it.",
+     "answer": "Bharat Mata gave a visual form to the nation and inspired shared devotion."
+    },
+    {
+     "question": "Explain the role of Vande Mataram in creating national identity.",
+     "solution": "The song Vande Mataram, written by Bankim Chandra Chattopadhyay in the 1870s, was sung during the Swadeshi movement and later became the national song. Its widespread singing created a common emotional bond among Indians and a sense of belonging to one nation.",
+     "answer": "Vande Mataram created a shared emotional bond and a common national identity."
+    },
+    {
+     "question": "How did the revival of folklore strengthen nationalism?",
+     "solution": "Nationalists like Natesa Sastri of Madras toured the region to collect folk tales and published a four-volume collection of Tamil folk tales, The Folklore of Southern India. They believed folklore was national literature that revealed the true identity of the people and helped build national pride.",
+     "answer": "Folklore revival revealed the people's identity and built national pride."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Describe the contribution of the tricolour flag to the sense of collective belonging.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How did the reinterpretation of history strengthen nationalist feeling?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Who created the first image of Bharat Mata?",
+     "type": "recall"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

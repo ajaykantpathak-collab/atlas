@@ -1,0 +1,655 @@
+{
+ "class": 12,
+ "subject": "sociology",
+ "chapter": 8,
+ "chapter_title": "Social Movements",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lesy208.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lesy208.1",
+   "title": "Features of a Social Movement",
+   "section": "8.1 Features of a Social Movement",
+   "definition": "A social movement is collective action kept up over time, usually pressing the state to alter a policy or practice, and it needs organisation - leaders, a structure for deciding - plus shared objectives and an ideology about the change wanted or resisted. Spontaneous, disorganised protest does not qualify. Because change threatens entrenched interests, counter movements rise in defence of the status quo, as when defenders of sati formed the dharma sabha against raja rammohun roy's campaign.",
+   "formula": "social_movement = sustained_collective_action + organisation + shared_ideology + protest_modes",
+   "key_idea": "Beyond protest, activists hold meetings to build consensus and run campaigns that lobby government and the media; their repertoires range from candle-lit processions, black cloth and street theatre to gandhi's ahimsa, satyagraha, the charkha, picketing and the salt defiance.",
+   "textbook_ref": "lesy208.txt, section 8.1 (features, counter movements, modes of protest, box 8.2 satyagraha repertoire; social change vs movements passage)",
+   "question_patterns": [
+    "what features distinguish a social movement from a spontaneous protest",
+    "what is a counter movement - illustrate with the response to the campaign against sati",
+    "which novel modes of protest did gandhi adopt in the freedom movement",
+    "distinguish social change in general from a social movement with the help of sanskritisation and the 19th century reformers",
+    "name the activities other than protest through which social movements pursue their agenda",
+    "why is a social movement - from the campaign against sati to reservation debates - bound to meet counter movements"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the defining features",
+     "explain": "collective action sustained over time, directed often at the state, marked by organisation, leadership and structure, and held together by shared objectives and ideology - features that may themselves change during the movement's life"
+    },
+    {
+     "step": 2,
+     "action": "check the counter movement logic",
+     "explain": "change threatens entrenched interests and values, so resistance follows - dharma sabha against sati reform, boycotts of widow remarriage supporters, withdrawal of upper caste children from schools, counter movements against reservation extensions"
+    },
+    {
+     "step": 3,
+     "action": "check the change versus movement distinction",
+     "explain": "social change is continuous, the sum of countless actions across time and space; a movement aims at specific goals through long deliberate effort - sanskritisation and westernisation are changes, the reformers' campaigns were movements"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Collective action kept up over time with organisation and shared ideology is called a social what?",
+     "a": "movement"
+    }
+   ]
+  },
+  {
+   "id": "lesy208.2",
+   "title": "Chartism and the Winning of Voting Rights",
+   "section": "8.1 Features of a Social Movement (Box 8.1)",
+   "definition": "The right to vote was itself a movement's prize. In england, chartism campaigned for parliamentary representation: over 1.25 million people signed the people's charter in 1839 asking for universal male suffrage, the ballot and the right to stand for office without property, and 3.25 million signed in 1842. Only in 1918 did all men over 21 and some categories of women gain the vote in britain, and the suffragettes who demanded votes for all adult women were bitterly opposed and violently crushed.",
+   "formula": "signature_multiple = signatures_1842 / signatures_1839",
+   "key_idea": "Universal adult franchise in the indian constitution thus ended a long exclusion - colonial subjects could not choose their rulers, and even in britain voting had been confined to property-owning men.",
+   "textbook_ref": "lesy208.txt, box 8.1 the right to vote (chartism 1839: 1.25 million signatures; 1842: 3.25 million; 1918 british franchise; suffragettes)",
+   "question_patterns": [
+    "the people's charter collected over 1.25 million signatures in 1839 and 3.25 million in 1842 - how many times did the signature count grow",
+    "calculate the growth multiple of chartist signatures between the 1839 and 1842 petitions",
+    "a chartism-style petition gathers 0.4 million names and later collects 1.6 million - find its signature growth multiple",
+    "by how many million did the chartist signatures rise between 1839 and 1842",
+    "what three demands did the people's charter place before parliament",
+    "which british law change of 1918 extended the franchise, and to whom"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find the rise in signatures",
+     "explain": "subtracting the 1839 count from the 1842 count gives the added signatures",
+     "compute": "signature_increase = signatures_1842 - signatures_1839"
+    },
+    {
+     "step": 2,
+     "action": "express the growth as a multiple",
+     "explain": "dividing the 1842 total by the 1839 total shows how many times the support multiplied",
+     "compute": "signature_multiple = signatures_1842 / signatures_1839"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Over 1.25 million people signed the People's Charter in which year: 1839 or 1939?",
+     "a": "1839"
+    }
+   ]
+  },
+  {
+   "id": "lesy208.3",
+   "title": "Why Sociology Studies Social Movements",
+   "section": "8.2 Sociology and Social Movements",
+   "definition": "Sociology was born looking at upheaval: the french revolution toppled a monarchy in the name of liberty, equality and fraternity, while england's industrial revolution filled cities with poor labourers whose food riots alarmed elites. Durkheim's work on the division of labour, religious life and even suicide mirrors this anxiety about order - he saw movements as forces of disorder. Scholars drawing on karl marx, like the historian e. p. thompson, answered that the crowd had a moral economy: its own shared sense of right and wrong, with real reasons of deprivation behind the protest.",
+   "formula": "debate = durkheim_social_order + thompson_moral_economy",
+   "key_idea": "Where elites read the mob as anarchic hooligans, thompson showed the crowd's actions followed a shared understanding of right and wrong - protest was the only channel open against deprivation.",
+   "textbook_ref": "lesy208.txt, section 8.2 (french revolution, industrial revolution food riots, durkheim, e p thompson moral economy)",
+   "question_patterns": [
+    "why has sociology been interested in social movements from the beginning",
+    "how did durkheim's worry about order - amid food riots and industrial upheaval - shape his view of movements as disorder",
+    "what does e p thompson mean by the moral economy of the crowd",
+    "why did poor labourers and artisans in industrial england take to public protest",
+    "which two revolutions - the french overthrow of monarchy and england's industrial upheaval - set the backdrop for the sociology of movements",
+    "how did elites perceive the protests of workers and artisans in nineteenth century england"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the historical backdrop",
+     "explain": "the french revolution violently culminated movements against monarchy; britain's industrial revolution uprooted workers whose food riots were suppressed and read by elites as threats to the established order"
+    },
+    {
+     "step": 2,
+     "action": "check durkheim's position",
+     "explain": "his writings on the division of labour, religious life and suicide reflect worry about how social structures enable integration - movements appeared as forces of disorder"
+    },
+    {
+     "step": 3,
+     "action": "check the marxist revision",
+     "explain": "thompson showed the crowd and mob were not anarchic hooligans but people with a moral economy - a shared understanding of right and wrong - protesting deprivation because no other route existed"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which revolution toppled a monarchy in the name of liberty, equality and fraternity: the French or the Industrial?",
+     "a": "the French Revolution"
+    }
+   ]
+  },
+  {
+   "id": "lesy208.4",
+   "title": "Types of Movements: Redemptive, Reformist, Revolutionary",
+   "section": "8.3 Types of Social Movements",
+   "definition": "Movements come in three broad kinds. Redemptive or transformatory movements seek a change in the personal consciousness and actions of members - narayana guru leading kerala's ezhava community to reform its practices. Reformist movements press for gradual, incremental changes in existing arrangements - the 1960s reorganisation of indian states on language and the right to information campaign. Revolutionary movements try to remake social relations entirely, often by seizing state power - the bolshevik revolution in russia and the naxalite movement against oppressive landlords and officials.",
+   "formula": "typology = redemptive + reformist + revolutionary",
+   "key_idea": "Most real movements mix all three strands, and their orientation can shift - a phase of mass mobilisation may settle into institutionalised social movement organisations, and labels depend on the speaker: 1857 was a mutiny to the british, the first war of independence to nationalists.",
+   "textbook_ref": "lesy208.txt, section 8.3 (three types; narayana guru; states reorganisation and rti; bolshevik and naxalite; 1857 interpretation; social movement organisations)",
+   "question_patterns": [
+    "distinguish redemptive, reformist and revolutionary movements with one example of each",
+    "why is the movement led by narayana guru among the ezhavas called redemptive",
+    "which two indian campaigns illustrate reformist movements",
+    "what makes the naxalite movement revolutionary in the chapter's typology",
+    "how did british rulers and indian nationalists interpret 1857 differently",
+    "what do social scientists mean by a movement becoming a social movement organisation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the redemptive type",
+     "explain": "aims at changing personal consciousness and actions of individual members - narayana guru's leadership of the ezhava community in kerala"
+    },
+    {
+     "step": 2,
+     "action": "check the reformist and revolutionary types",
+     "explain": "reformist change is gradual and incremental - linguistic reorganisation of states in the 1960s, the rti campaign; revolutionary change captures state power - the bolshevik revolution, the naxalite movement"
+    },
+    {
+     "step": 3,
+     "action": "check the mixed and shifting character",
+     "explain": "most movements blend redemptive, reformist and revolutionary elements, may start revolutionary and turn reformist, and often institutionalise into social movement organisations; classification is always interpretation"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which movement type seeks a change in members' personal consciousness: redemptive or reformist?",
+     "a": "redemptive"
+    }
+   ]
+  },
+  {
+   "id": "lesy208.5",
+   "title": "Old versus New Social Movements",
+   "section": "8.3 Types of Social Movements",
+   "definition": "Old movements - working class struggles for wages, welfare and schooling, socialist movements building new states - put the reorganisation of power at their centre and worked through political parties, like the congress leading india's national movement. New movements shift to quality-of-life concerns such as a clean environment and to identity politics, uniting people across class lines - urban feminists and poor peasant women in the women's movement - and often run international networks against global hazards, with alliances like the world social forum.",
+   "formula": "old_vs_new = class_parties + power_reorganisation + quality_of_life + identity_politics",
+   "key_idea": "Rajni kothari ties india's 1970s surge of movements to disgust with parliamentary democracy - elites had captured state institutions, so the excluded pressed the state from outside through non-party formations, the wider civil society.",
+   "textbook_ref": "lesy208.txt, section 8.3 (old vs new movements; rajni kothari; civil society; world social forum; box 8.4 seattle wto protests)",
+   "question_patterns": [
+    "how do new social movements that fill the world social forum differ from old class-based party politics",
+    "what explains rajni kothari's account of the surge of social movements in 1970s india",
+    "what does the term civil society cover, from trade unions and parties to ngo women's groups and tribal activists",
+    "why are many new movements - from environmental risk to global health fears - international in scope, as the seattle wto protests showed",
+    "how does the women's movement show that new movements unite participants across class boundaries",
+    "what role does the world social forum play in alliances between old and new movements"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the old movement profile",
+     "explain": "working class and socialist movements wrested wages, conditions, security, schooling from the state, kept power reorganisation central and functioned inside party frames - congress in india, the communist party in china"
+    },
+    {
+     "step": 2,
+     "action": "check the new movement profile",
+     "explain": "quality-of-life issues like clean environment, identity politics and cultural anxieties, organisation beyond class lines, participants united across classes - women's movement, regional statehood movements"
+    },
+    {
+     "step": 3,
+     "action": "check the kothari thesis and the convergence",
+     "explain": "elite capture of state institutions made party representation ineffective for the poor, breeding non-party formations; globally, old and new movements now ally in the world social forum against globalisation's hazards"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "New movements centre on quality of life and identity rather than what: class and power reorganisation, or fashion?",
+     "a": "class and power"
+    }
+   ]
+  },
+  {
+   "id": "lesy208.6",
+   "title": "Ecological Movements and the Chipko Movement",
+   "section": "8.4 Ecological Movements",
+   "definition": "The development model that devours natural resources and displaces people - big dams drowning homes, industries pushing farmers off land, pollution spreading - has bred ecological movements. Chipko in the himalayan foothills, described by ramachandra guha in unquiet woods, saw villagers, many of them women, hug oak and rhododendron trees to stop contractors felling them: subsistence needs of firewood and fodder set against government timber revenue, with floods and landslides proving the ecological cost.",
+   "formula": "chipko = livelihood_defence + ecological_sustainability + hill_representation",
+   "key_idea": "For the villagers the red and green issues were inseparable - survival depended on the forest, the forest mattered in itself as ecological wealth, and the distant plains government seemed indifferent; after 2014 the namami gange mission and swachh bharat abhiyan took up ecological repair.",
+   "textbook_ref": "lesy208.txt, section 8.4 (chipko, guha's unquiet woods, subsistence vs profit; box 8.3: 1970 alaknanda flood, dgss, gaura devi at reni)",
+   "question_patterns": [
+    "what did villagers do in the chipko movement to prevent trees being felled",
+    "whose account of chipko does the chapter cite, and which forests were at stake",
+    "how does chipko pit the economy of subsistence against the economy of profit",
+    "what do the red and green issues of the chipko movement refer to",
+    "describe the 1970 alaknanda valley flood damage that marked a turning point in the region's ecological history",
+    "who was gaura devi and what happened when contractors' men reached reni forest"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the movement's three interlocked concerns",
+     "explain": "economy - villagers' firewood, fodder and daily needs against timber revenue; ecology - deforestation causing floods and landslides; representation - hill villagers' resentment of a distant plains government"
+    },
+    {
+     "step": 2,
+     "action": "check the flood turning point",
+     "explain": "the unusually heavy 1970 monsoon flooded the alaknanda valley - 100 square kilometres inundated, 6 metal bridges and 10 kilometres of motor roads, 24 buses washed away, 366 houses collapsed, 500 acres of paddy destroyed - and villages below felled forests suffered worst"
+    },
+    {
+     "step": 3,
+     "action": "check the reni episode",
+     "explain": "the dashauli gram swaraj sangh of chamoli backed the villagers; when contractors' men from joshimath slipped towards reni forest, a girl alerted gaura devi of the mahila mandal, who mobilised the housewives; abused and threatened, the women refused to budge and the men retired"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which movement saw villagers hug trees to stop contractors felling them: Chipko or Narmada?",
+     "a": "Chipko"
+    }
+   ]
+  },
+  {
+   "id": "lesy208.7",
+   "title": "Peasant Movements and Agrarian Struggles",
+   "section": "8.5 Class Based Movements - Peasant Movements",
+   "definition": "Agrarian struggle runs from pre-colonial days: the movements between 1858 and 1914 stayed localised around particular grievances - the bengal revolt of 1859-62 against indigo plantations, the deccan riots of 1857 against moneylenders. Gandhi linked some to the independence struggle through the champaran satyagraha of 1917-18 against indigo and the bardoli satyagraha of 1928, a non-tax campaign inside non-cooperation. Organisation arrived between 1920 and 1940 with the bihar provincial kisan sabha of 1929 and the all india kisan sabha of 1936, and at independence came the two classical cases - tebhaga and telangana.",
+   "formula": "peasant_struggles = indigo_revolt + satyagrahas + kisan_sabhas + tebhaga + telangana",
+   "key_idea": "The tebhaga movement of 1946-47 was bengal sharecroppers, backed by the kisan sabha and the cpi, demanding two thirds of the produce instead of the customary half; telangana of 1946-51 fought feudal conditions in hyderabad state under cpi leadership.",
+   "textbook_ref": "lesy208.txt, section 8.5 peasant movements (bengal revolt, deccan riots, champaran, bardoli, kisan sabhas 1929/1936, tebhaga 1946-47, telangana 1946-51)",
+   "question_patterns": [
+    "which two colonial-era agrarian revolts does the chapter name from the period 1857 to 1862",
+    "how did gandhi connect peasant grievances to the independence movement through champaran and bardoli",
+    "which organisations did peasants form between 1920 and 1940 and in which years",
+    "what was the tebhaga movement's central demand and who supported it",
+    "against what conditions was the telangana movement directed and who led it",
+    "why were the movements of 1858 to 1914 described as localised and disjointed"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the early struggles",
+     "explain": "bengal revolt of 1859-62 against the indigo plantation system; deccan riots of 1857 against moneylenders; 1920s protests against british and local rulers' forest policies"
+    },
+    {
+     "step": 2,
+     "action": "check the gandhian link and the sabhas",
+     "explain": "champaran satyagraha 1917-18 against indigo plantations; bardoli satyagraha 1928 in surat district as a non-tax campaign within non-cooperation; bihar provincial kisan sabha 1929, all india kisan sabha 1936 demanding freedom from exploitation"
+    },
+    {
+     "step": 3,
+     "action": "check the classical pair at independence",
+     "explain": "tebhaga 1946-47 - bengal sharecroppers wanting two thirds of the produce, backed by the kisan sabha and cpi; telangana 1946-51 - against feudal conditions in the princely state of hyderabad, led by the cpi"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Which satyagraha of 1917-18 fought indigo plantations: Champaran or Bardoli?",
+     "a": "Champaran"
+    }
+   ]
+  },
+  {
+   "id": "lesy208.8",
+   "title": "Tebhaga Sharecropper Share Arithmetic",
+   "section": "8.5 Class Based Movements - Peasant Movements",
+   "definition": "The tebhaga struggle of bengal's sharecroppers targeted the division of the crop: they demanded two thirds of the produce instead of the customary half share. The arithmetical heart of the demand is the percentage by which the claimed share exceeds the old one - a gain of a sixth of the crop, which relative to the old half share is a one-third improvement in the sharecropper's take.",
+   "formula": "gain_percent = share_gain * 100 / customary_share",
+   "key_idea": "Raising a share from one half to two thirds adds one sixth of the crop, and one sixth measured against one half is a thirty-three and a third percent gain for the tiller.",
+   "textbook_ref": "lesy208.txt, section 8.5 (tebhaga movement 1946-47: two thirds share of produce instead of the customary half)",
+   "question_patterns": [
+    "tebhaga sharecroppers demanded two thirds of the produce instead of the customary half - by what percent does the new share exceed the old",
+    "calculate the percentage gain when a bengal sharecropper's share rises from one half to two thirds, as tebhaga demanded",
+    "a settlement raises a tenant's share from 45 to 60 percent - find the gain percent over the old share",
+    "by what percent does a three fifths share exceed the customary half share",
+    "the customary share is 50 percent and the demanded share is 66.67 percent - compute the percentage increase in the tiller's share"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "find the absolute gain in share",
+     "explain": "subtracting the customary half from the demanded two thirds gives the extra slice of crop",
+     "compute": "share_gain = demanded_share - customary_share"
+    },
+    {
+     "step": 2,
+     "action": "express the gain against the old share",
+     "explain": "the extra slice as a percentage of the customary share measures the tiller's improvement",
+     "compute": "gain_percent = share_gain * 100 / customary_share"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Raising the sharecropper's share from one half to two thirds adds what fraction of the crop: one sixth or one half?",
+     "a": "one sixth"
+    }
+   ]
+  },
+  {
+   "id": "lesy208.9",
+   "title": "New Farmers' Movements",
+   "section": "8.5 Class Based Movements - Peasant Movements",
+   "definition": "From the 1970s in punjab and tamil nadu arose a different kind of rural agitation: regionally organised, non-party, and composed of farmers rather than peasants - market-involved people who are commodity producers and purchasers at once. Its ideology ran anti-state and anti-urban, centring on price and related issues - procurement, remunerative prices, input costs, taxation, refusal to repay loans - and its methods were novel: blocking roads and railways and keeping politicians and bureaucrats out of villages.",
+   "formula": "new_farmers = market_involved + non_party + price_demands + novel_agitation",
+   "key_idea": "Having broadened their agenda to environment and women's issues, the farmers' movements are read as india's part of the worldwide new social movements - which is why distinguishing them from peasant movements is a standard exam task.",
+   "textbook_ref": "lesy208.txt, section 8.5 new farmer's movements (1970s punjab and tamil nadu; price and related issues; road and rail blockades)",
+   "question_patterns": [
+    "distinguish between peasant movements and the new farmers' movements",
+    "where and when did the new farmers' movements of punjab and tamil nadu begin",
+    "what does it mean to say farmers are market-involved while peasants were not",
+    "list the price and related issues around which the farmers' movements mobilised",
+    "which novel methods of agitation did the new farmers' movements use",
+    "why can the farmers' movements, with their broadened agenda of environment and women's issues, join the worldwide new social movements"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the social base and form",
+     "explain": "beginning in the 1970s in punjab and tamil nadu, regionally organised and non-party, drawing in farmers - market-involved as producers and purchasers - rather than peasants"
+    },
+    {
+     "step": 2,
+     "action": "check the ideology and demands",
+     "explain": "strongly anti-state and anti-urban; focused on price procurement, remunerative prices, prices of agricultural inputs, taxation and non-repayment of loans"
+    },
+    {
+     "step": 3,
+     "action": "check the methods and evolution",
+     "explain": "blocking roads and railways, refusing entry to politicians and bureaucrats; agendas later broadened to environment and women's issues, linking the movements to the global new social movements"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "New farmers' movement members are market-involved what: commodity producers or subsistence peasants?",
+     "a": "commodity producers"
+    }
+   ]
+  },
+  {
+   "id": "lesy208.10",
+   "title": "Workers' Movements: Unions and the Wage Demand",
+   "section": "8.5 Class Based Movements - Workers' Movements",
+   "definition": "Factories rose in india from the early 1860s in the port towns of calcutta and bombay, later madras, with assam tea plantations dating to 1839, and colonial labour stayed cheap and unregulated. War-time misery brought waves of strikes - about 30 recorded in the bombay textile mills of september-october 1917 alone, jute workers out in calcutta, binny's mills struck in madras, and ahmedabad textile workers stopped work for a 50 percent wage rise. The first trade union came in april 1918 from b p wadia, gandhi founded the textile labour association the same year, the aituc formed in 1920, the congress answered with intuc in may 1947, and the 1974 railway strike marked the acutest state-union confrontation.",
+   "formula": "raised_wage = daily_wage * (100 + rise_pct) / 100",
+   "key_idea": "Union unity fractured along party lines after the 1947 aituc split - communists, moderates like m joshi and v v giri, and nationalists like lala lajpat rai had shared the aituc - and regional parties added their own unions from the late 1960s amid the 1966-67 recession's unrest.",
+   "textbook_ref": "lesy208.txt, section 8.5 workers' movements (30 strikes 1917; ahmedabad 50 percent demand; wadia 1918; tla; aituc 1920; intuc 1947; 1974 railway strike)",
+   "question_patterns": [
+    "ahmedabad textile workers struck work for a 50 percent wage increase - if the daily wage was rs 2, what daily wage were they demanding",
+    "calculate the new daily wage when a mill hand earning rs 4 wins the 50 percent rise sought by the ahmedabad textile strikers of 1918",
+    "a worker earns rs 5 a day and gets a 50 percent increase - what does the raised wage come to",
+    "how many strikes hit the bombay textile mills in september and october 1917 as war-time prices bit",
+    "who founded india's first trade union in madras in april 1918, and which union did gandhi start the same year",
+    "which union did the congress form in may 1947 and why did the aituc split matter"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "turn the demanded rise into a multiplier",
+     "explain": "adding the 50 percent demand to the base 100 gives the scale factor for the new wage",
+     "compute": "rise_scale = 100 + rise_pct"
+    },
+    {
+     "step": 2,
+     "action": "apply the multiplier to the old wage",
+     "explain": "multiplying the daily wage by the scale and dividing by 100 yields the demanded wage",
+     "compute": "raised_wage = daily_wage * rise_scale / 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "India's factories rose from the early 1860s in which port towns: Calcutta and Bombay, or Delhi and Kanpur?",
+     "a": "Calcutta and Bombay"
+    }
+   ]
+  },
+  {
+   "id": "lesy208.11",
+   "title": "The Dalit Movement: A Struggle to Be Touched",
+   "section": "8.6 Caste Based Movements - The Dalit Movement",
+   "definition": "Dalit movements cannot be reduced to economic exploitation or political oppression alone; at bottom they are a fight to be acknowledged as fully human - for self-confidence, a space of self-determination, and an end to the stigma that untouchability carries, a struggle to be touched. The word dalit, current in marathi, hindi and gujarati for the poor and oppressed, was revived in the early 1970s by neo-buddhist followers of babasaheb ambedkar, and it denies by its very use the ideas of pollution, karma and justified hierarchy.",
+   "formula": "dalit_struggle = recognition + self_dignity + end_of_untouchability",
+   "key_idea": "No single unified movement exists - the satnami chamars of chhattisgarh, the adi dharma in punjab, the mahar movement, the jatavas of agra and the anti-brahman movement of the south all assert a dalit identity - and sociologists find reformative, redemptive and revolutionary strands mixed in them.",
+   "textbook_ref": "lesy208.txt, section 8.6 dalit movement (word dalit, neo-buddhist 1970s, shah 2001, named movements; box 8.7 classification, dalit literature)",
+   "question_patterns": [
+    "why is the dalit movement called a struggle to be touched",
+    "who first used the word dalit in its new context - the neo-buddhist followers of which leader, in which decade",
+    "name the dalit movements from the satnamis of chhattisgarh to the mahars of maharashtra and the adi dharma of punjab",
+    "what common quest for equality and self-dignity, against untouchability's stigma, runs through all dalit movements",
+    "how does dalit literature differ from the social imageries of mainstream society",
+    "why do sociologists classify dalit movements as reformative, redemptive and revolutionary all at once"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the word and its denial",
+     "explain": "dalit means the poor and oppressed, those broken and ground down deliberately; the word itself rejects pollution, karma and justified caste hierarchy, first used in the new context by neo-buddhist ambedkarites in the early 1970s"
+    },
+    {
+     "step": 2,
+     "action": "check the spread of movements",
+     "explain": "satnami movement of the chamars in the chhattisgarh plains, adi dharma movement in punjab, mahar movement in maharashtra, mobilisation among the jatavas of agra, anti-brahman movement in south india - all asserting a dalit identity in the common quest for equality, self-dignity and the end of untouchability"
+    },
+    {
+     "step": 3,
+     "action": "check the typological mix and the literature",
+     "explain": "the anti-caste line from jotiba phule through the 1920s non-brahmin movements to ambedkar carried revolutionary, redemptive and reformist traits at once; the post-ambedkar movement overall reads as reformist, while dalit writers insist on their own imageries rooted in lived experience"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The Dalit movement is at bottom a struggle to be what: touched or taxed?",
+     "a": "touched"
+    }
+   ]
+  },
+  {
+   "id": "lesy208.12",
+   "title": "Backward Classes Movements and the Year Gaps",
+   "section": "8.6 Caste Based Movements - Backward Class Castes Movements",
+   "definition": "Backward castes became political entities in colonial and post-colonial times because the colonial state distributed patronage by caste, making it sensible to mobilise as caste - similarly placed groups united in a horizontal stretch, and caste shed its ritual content, becoming secularised for politics. The label backward classes spread from madras presidency (from 1872) to mysore (from 1918) and bombay presidency (from 1925), and by 1954 some 88 organisations were counted working for the backward classes.",
+   "formula": "year_gap = later_year - earlier_year",
+   "key_idea": "From the 1920s organisations such as the united provinces hindu backward classes league, the all-india backward classes federation and the all india backward classes league sprang up around the caste issue.",
+   "textbook_ref": "lesy208.txt, section 8.6 backward class castes movements (1872 madras, 1918 mysore, 1925 bombay, 88 organisations by 1954, horizontal stretch)",
+   "question_patterns": [
+    "madras presidency used the term backward classes from 1872 and mysore from 1918 - how many years later did mysore follow",
+    "calculate the gap in years between mysore's adoption of the term in 1918 and bombay presidency's in 1925",
+    "a province adopts a backward-classes style label in 1900 and a second follows in 1955, as madras preceded mysore and bombay - find the year gap",
+    "how many years separate the first use of the backward classes term in madras from its use in bombay presidency",
+    "what does the chapter mean by the horizontal stretch of similarly placed caste groups",
+    "how many organisations were counted working for the backward classes in 1954, after the federation era of the 1920s leagues"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the two adoption years",
+     "explain": "the later presidency's year minus the earlier presidency's year gives the spread of the term",
+     "compute": "year_gap = later_year - earlier_year"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The label backward classes spread from Madras presidency from which year: 1872 or 1972?",
+     "a": "1872"
+    }
+   ]
+  },
+  {
+   "id": "lesy208.13",
+   "title": "Tribal Movements: Jharkhand and the North East",
+   "section": "8.7 The Tribal Movements",
+   "definition": "Tribal movements cluster in middle india's tribal belt - santhals, hos, oraons and mundas of chota nagpur and the santhal parganas, the region that became jharkhand. The statehood demand rested on a century of resistance: birsa munda's uprising against the british made him an enduring icon, missionaries spread literacy that let adivasis write their own history and build a shared jharkhandi identity, and an educated adivasi leadership lobbied for a separate state - achieved in 2000 when jharkhand was carved out of south bihar.",
+   "formula": "tribal_movement = birsa_munda_legacy + adiwasi_identity + anti_dikus_agitation",
+   "key_idea": "Adivasis united in hatred of dikus - migrant traders and moneylenders who grabbed the wealth of a mineral-rich region while adivasi lands were alienated - and agitated over land acquisition, stalled surveys, loan and rent collection, and the nationalisation of forest produce; in the north east, secessionism has given way to autonomy within the constitution.",
+   "textbook_ref": "lesy208.txt, section 8.7 tribal movements (jharkhand, birsa munda, dikus, four agitation issues; north east, nongbri 2003)",
+   "question_patterns": [
+    "which communities - santhals, hos, oraons and mundas - inhabited the tribal belt of middle india",
+    "what role did birsa munda play in the jharkhand movement",
+    "how did literacy and writing help create a shared jharkhandi identity",
+    "who were the dikus and why did adivasis resent them",
+    "list the issues against which the jharkhand movement's leaders agitated",
+    "how has the trend of tribal movements in the north east changed from secessionism to autonomy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the jharkhand story",
+     "explain": "birsa munda led a major anti-british uprising and became the movement's icon; christian missionaries spread literacy in south bihar, literate adivasis documented customs and myths, and a middle-class adivasi leadership formulated the separate-state demand fulfilled in 2000"
+    },
+    {
+     "step": 2,
+     "action": "check the dikus grievance",
+     "explain": "migrant traders and moneylenders settled in the region and grabbed its wealth; mining and industrial benefits went to them while adivasi lands were alienated, feeding a shared sense of injustice"
+    },
+    {
+     "step": 3,
+     "action": "check the agitation issues and the north east",
+     "explain": "land acquisition for irrigation projects and firing ranges, held-up survey and settlement operations, collection of loans, rent and cooperative dues, and boycotted nationalisation of forest produce; in the north east, tribes wary of assam's machinery moved from secessionism to seeking autonomy within the constitution, with alienation from forest lands binding tribal movements everywhere"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Whose uprising made him the icon of the Jharkhand movement: Birsa Munda or Sidhu?",
+     "a": "Birsa Munda"
+    }
+   ]
+  },
+  {
+   "id": "lesy208.14",
+   "title": "The Women's Movement",
+   "section": "8.8 The Women's Movement",
+   "definition": "Women's organised politics grew from the 19th century reform debates into national bodies - the women's india association of 1917, the national council for women in india of 1925 and the all india women's conference of 1926 - which first kept welfare apart from politics and then embraced national freedom. Whether this was already a movement is debated, but it had organisations, ideology, leadership and a public aim, and it made the women's question impossible to ignore; women also fought alongside men in tebhaga, the telangana armed struggle and the warli revolt against bondage.",
+   "formula": "women_movement = early_organisations + agrarian_participation + second_phase_campaigns",
+   "key_idea": "After a post-1947 lull explained by nation-building duties and partition's trauma, the movement renewed in the mid-1970s, taking up violence against women, dowry, sexual harassment, land rights and employment - and arguing for a gender-just society that frees men as much as women.",
+   "textbook_ref": "lesy208.txt, section 8.8 the women's movement (wia 1917, ncwi 1925, aiwc 1926; tebhaga, telangana, warli; mid-1970s renewal; beti bachao beti padhao)",
+   "question_patterns": [
+    "name the three early national women's bodies - the women's india association, the all india women's conference and the national council for women in india - with their founding years",
+    "how did the aiwc's initial stance on politics change over time",
+    "in which agrarian and tribal struggles did women participate alongside men",
+    "what explains the lull in the women's movement after 1947 - nation building duties or the trauma of partition",
+    "which new issues marked the renewal of the women's movement in the mid-1970s",
+    "what two factors does the chapter say a gender-just society rests on, and which government programme works towards it"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the organisational timeline",
+     "explain": "wia founded 1917, ncwi 1925, aiwc 1926; the aiwc began treating women's welfare and politics as mutually exclusive but soon argued that indians could not be free while india was enslaved"
+    },
+    {
+     "step": 2,
+     "action": "check the forgotten participation and the lull",
+     "explain": "women joined the tebhaga movement in bengal, the telangana armed struggle against the nizam's rule and the warli tribal revolt in maharashtra; after 1947 many activists moved into nation building and partition's trauma deepened the quiet"
+    },
+    {
+     "step": 3,
+     "action": "check the second phase and the gender-just idea",
+     "explain": "from the mid-1970s the movement took on violence against women, dowry and sexual harassment alongside land rights and employment, won changes like both parents' names on school forms, and now argues that a gender-just society - built on educated women with many roles and a better balance in the ratio of women to men - frees men too, with beti bachao beti padhao as a state effort"
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "The Women's India Association was founded in which year: 1917 or 1971?",
+     "a": "1917"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "lesy208.we1",
+   "source_ref": "lesy208.txt box 8.1, chartism",
+   "concept": "lesy208.2",
+   "question_type": "compute",
+   "question_pattern": "The people's charter gathered over 1.25 million signatures in 1839 and 3.25 million in 1842. How many times did the signature count grow between the two petitions?",
+   "extracted_variables": {
+    "signatures_1839": 1.25,
+    "signatures_1842": 3.25
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find the rise in signatures",
+     "explain": "3.25 - 1.25 = 2 million additional signatures",
+     "compute": "signature_increase = signatures_1842 - signatures_1839"
+    },
+    {
+     "step": 2,
+     "action": "express the growth as a multiple",
+     "explain": "3.25 / 1.25 = 2.6, so support grew 2.6 times in three years",
+     "compute": "signature_multiple = signatures_1842 / signatures_1839"
+    }
+   ]
+  },
+  {
+   "id": "lesy208.we2",
+   "source_ref": "lesy208.txt section 8.5, tebhaga movement",
+   "concept": "lesy208.8",
+   "question_type": "compute",
+   "question_pattern": "The tebhaga sharecroppers demanded two thirds of the produce instead of the customary half. By what percent does the demanded share exceed the customary share?",
+   "extracted_variables": {
+    "demanded_share": 66.6667,
+    "customary_share": 50
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "find the absolute gain in share",
+     "explain": "66.6667 - 50 = 16.6667 percentage points of extra crop",
+     "compute": "share_gain = demanded_share - customary_share"
+    },
+    {
+     "step": 2,
+     "action": "express the gain against the old share",
+     "explain": "16.6667 out of 50 is a 33.33 percent improvement - exactly a third more for the sharecropper",
+     "compute": "gain_percent = share_gain * 100 / customary_share"
+    }
+   ]
+  },
+  {
+   "id": "lesy208.we3",
+   "source_ref": "lesy208.txt section 8.5, workers' movements",
+   "concept": "lesy208.10",
+   "question_type": "compute",
+   "question_pattern": "Textile workers in ahmedabad struck work demanding an increase in wages by 50 per cent. If a worker's daily wage was rs 2, what daily wage were the strikers demanding?",
+   "extracted_variables": {
+    "daily_wage": 2,
+    "rise_pct": 50
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "turn the demanded rise into a multiplier",
+     "explain": "100 + 50 = 150 is the scale of the demanded wage relative to the old",
+     "compute": "rise_scale = 100 + rise_pct"
+    },
+    {
+     "step": 2,
+     "action": "apply the multiplier to the old wage",
+     "explain": "2 times 150 divided by 100 = rs 3 per day",
+     "compute": "raised_wage = daily_wage * rise_scale / 100"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lesy208.ex1",
+   "source_ref": "lesy208.txt chapter-end Questions 1-5",
+   "questions": [
+    "Imagine a society where there has been no social movement. Discuss. You can also describe how you imagine such a society to be.",
+    "Write short notes on: Women's Movement; Tribal Movements",
+    "In India it is difficult to make a clear distinction between the old and new social movements. Discuss.",
+    "Environmental movements often also contain economic and identity issues. Discuss.",
+    "Distinguish between peasant and New Farmer's movements."
+   ]
+  }
+ ]
+}

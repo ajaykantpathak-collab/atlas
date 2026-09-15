@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_geo_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c12_geo_cbse_06_005",
+   "title": "c12_geo_cbse_06_005",
+   "questions": [
+    {
+     "q": "According to the Micro, Small and Medium Enterprises Development (MSMED) Act 2006, what is the investment threshold in plant and machinery that classifies a manufacturing enterprise as a large-scale industry in India?",
+     "a": "The MSMED Act 2006 defines a medium enterprise as having investment in plant and machinery between ₹10 crore and ₹50 crore. Any manufacturing enterprise with investment **exceeding ₹50 crore** in plant and machinery is classified as a large-scale industry. A wrong answer (e.g., ₹10 crore) reveals confusion between the upper limit of medium enterprises and the starting threshold for large-scale industries, a common error in board exam definitions.",
+     "self_check": true
+    },
+    {
+     "q": "Why do large-scale industries typically locate near raw material sources OR major transport hubs, whereas small-scale industries can operate in dispersed locations? Explain using the concept of transport cost per unit of output.",
+     "a": "Large-scale industries process bulky, weight-losing raw materials (e.g., iron ore, limestone) in huge volumes; transporting these over long distances makes per-unit transport cost prohibitive. Small-scale industries use lighter, less bulky inputs and produce higher value-to-weight goods, so transport cost is a smaller fraction of total cost. A wrong answer focusing only on \"availability of land\" misses the core geographical principle of **weight-loss minimization** (Weber's least-cost theory) that drives large-scale industrial location.",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturing unit in Pune employs 120 workers, has ₹75 crore invested in plant and machinery, produces 50,000 units/month of automotive components using CNC machines, and supplies to two major OEMs. Classify this unit as household, small-scale, or large-scale. Justify using three quantitative criteria.",
+     "a": "**Large-scale industry.**  \nStep 1: Labour = 120 workers (>100 threshold for large-scale in many state industrial policies).  \nStep 2: Capital = ₹75 crore (>₹50 crore MSMED upper limit for medium enterprises).  \nStep 3: Technology = CNC machines indicate advanced mechanisation, not simple tools.  \nStep 4: Output volume = 50,000 units/month implies mass production.  \nA wrong classification as \"small-scale\" shows the student is using only one criterion (e.g., workforce <500) and ignoring the capital threshold that legally defines the category.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the backward and forward linkages of a large-scale integrated steel plant (like Tata Steel Jamshedpur) with a small-scale steel re-rolling mill. How does this difference affect regional economic development?",
+     "a": "An integrated steel plant creates **backward linkages** to iron ore mines, coal washeries, machinery manufacturers, and refractory brick units, and **forward linkages** to automotive, construction, shipbuilding, and appliance industries — often spawning an entire industrial complex (e.g., Jamshedpur, Bokaro). A re-rolling mill only buys semi-finished steel and sells finished bars, with minimal linkages. A weak answer that says \"both create jobs\" misses the **multiplier effect** and **agglomeration economies** that are central to large-scale industry's role in regional development (Hirschman's unbalanced growth theory).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Large-scale industries are always more environmentally sustainable than small-scale industries because they can afford advanced pollution control technology.\" Provide two arguments for and two against, using Indian examples.",
+     "a": "**For:** (1) Large plants like NTPC's supercritical thermal units install flue-gas desulphurisation (FGD) and electrostatic precipitators (ESP) that small units cannot afford. (2) Integrated steel plants (SAIL) recycle slag and waste heat, achieving near-zero discharge.  \n**Against:** (1) Scale effect: a single large plant's total emissions (e.g., Sterlite Copper, Tuticorin) can exceed hundreds of small units combined, creating localised pollution hotspots. (2) Large industries often bypass norms via political influence; small clusters (e.g., Tirupur dyeing) face stricter community pressure.  \nA one-sided answer reveals failure to apply **critical evaluation** — a key competency for board case-study questions and UPSC geography.",
+     "self_check": true
+    },
+    {
+     "q": "Design a locational decision matrix for a new large-scale automobile manufacturing plant in India. Choose four geographical factors, assign weights (sum = 100), and justify the top two locations from: (a) Sanand (Gujarat), (b) Sri City (Andhra Pradesh), (c) Oragadam (Tamil Nadu).",
+     "a": "**Matrix (example):**  \n| Factor | Weight | Sanand | Sri City | Oragadam |  \n|---|---|---|---|---|  \n| Proximity to steel/auto component cluster | 30 | 9 | 7 | 8 |  \n| Port access for export | 25 | 8 (Mundra) | 9 (Krishnapatnam) | 8 (Chennai) |  \n| Skilled labour availability | 25 | 7 | 6 | 9 (Chennai ecosystem) |  \n| State incentives / single-window clearance | 20 | 9 | 8 | 7 |  \n**Top two:** Sanand (score 8.35) and Oragadam (8.05).  \nA poor answer lists factors without weights or uses generic factors (e.g., \"water\") not specific to auto industry, showing inability to **apply locational theory to real-world site selection**.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

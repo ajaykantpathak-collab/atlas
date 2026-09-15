@@ -1,0 +1,455 @@
+{
+ "class": 12,
+ "subject": "accountancy",
+ "chapter": 102,
+ "chapter_title": "Admission of a Partner",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/leac102.txt",
+ "concepts": [
+  {
+   "id": "leac.2.3.1",
+   "title": "New Profit Sharing Ratio",
+   "section": "2.3",
+   "definition": "The ratio in which all partners, including the new one, will share future profits of the firm.",
+   "formula": "new_share = old_share - share_sacrificed",
+   "key_idea": "Old partners sacrifice a portion of their profit share to accommodate the incoming partner.",
+   "textbook_ref": "leac102.txt lines 135-185",
+   "question_patterns": [
+    "calculate the new profit sharing ratio",
+    "what will be the new profit sharing ratio",
+    "find the new ratio of all partners",
+    "determine the new profit sharing ratio"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate sacrifice",
+     "explain": "Determine how much each old partner gives up.",
+     "compute": "sacrifice = old_share * sacrifice_fraction"
+    },
+    {
+     "step": 2,
+     "action": "Calculate new share",
+     "explain": "Subtract sacrifice from old share.",
+     "compute": "new_share = old_share - sacrifice"
+    }
+   ]
+  },
+  {
+   "id": "leac.2.4.1",
+   "title": "Sacrificing Ratio",
+   "section": "2.4",
+   "definition": "The specific ratio in which existing partners surrender a portion of their profit share to the incoming partner.",
+   "formula": "sacrificing_ratio = old_share - new_share",
+   "key_idea": "Compensation for loss of future profit share.",
+   "textbook_ref": "leac102.txt lines 215-265",
+   "question_patterns": [
+    "calculate the sacrificing ratio",
+    "find the sacrifice made by old partners",
+    "what is the sacrificing ratio",
+    "determine the ratio of sacrifice"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract new share from old share",
+     "explain": "The difference represents the sacrifice.",
+     "compute": "sacrifice = old_share - new_share"
+    }
+   ]
+  },
+  {
+   "id": "leac.2.5.4.1",
+   "title": "Goodwill - Average Profits Method",
+   "section": "2.5.4.1",
+   "definition": "Valuing goodwill based on the average of past profits multiplied by an agreed number of years of expected future benefit.",
+   "formula": "goodwill = average_profit * years_purchase",
+   "key_idea": "Past performance predicts future excess earnings.",
+   "textbook_ref": "leac102.txt lines 340-380",
+   "question_patterns": [
+    "calculate goodwill using average profits method",
+    "find the value of goodwill based on average profits",
+    "what is the goodwill value",
+    "compute goodwill"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate average profit",
+     "explain": "Sum of profits divided by number of years.",
+     "compute": "avg = sum_profits / num_years"
+    },
+    {
+     "step": 2,
+     "action": "Calculate goodwill",
+     "explain": "Multiply average profit by purchase years.",
+     "compute": "goodwill = avg * years_purchase"
+    }
+   ]
+  },
+  {
+   "id": "leac.2.5.4.2",
+   "title": "Goodwill - Super Profits Method",
+   "section": "2.5.4.2",
+   "definition": "Valuing goodwill based on the excess of actual average profits over normal profits expected on capital employed.",
+   "formula": "goodwill = super_profit * years_purchase",
+   "key_idea": "Goodwill represents earnings above the industry standard.",
+   "textbook_ref": "leac102.txt lines 430-470",
+   "question_patterns": [
+    "calculate goodwill using super profits method",
+    "find super profit and goodwill",
+    "determine goodwill value",
+    "how much is the goodwill"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate normal profit",
+     "explain": "Capital employed times normal rate of return.",
+     "compute": "normal = capital * rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "Calculate super profit",
+     "explain": "Average profit minus normal profit.",
+     "compute": "super = avg_profit - normal"
+    },
+    {
+     "step": 3,
+     "action": "Calculate goodwill",
+     "explain": "Super profit times years purchase.",
+     "compute": "goodwill = super * years_purchase"
+    }
+   ]
+  },
+  {
+   "id": "leac.2.5.4.3",
+   "title": "Goodwill - Capitalisation Method",
+   "section": "2.5.4.3",
+   "definition": "Determining goodwill by calculating the capital required to earn the average profit at the normal rate of return and subtracting the actual net assets.",
+   "formula": "goodwill = (average_profit * 100 / normal_rate) - net_assets",
+   "key_idea": "Goodwill is the excess of capitalised value over actual net assets.",
+   "textbook_ref": "leac102.txt lines 480-520",
+   "question_patterns": [
+    "calculate goodwill by capitalisation method",
+    "find goodwill using capitalisation of average profits",
+    "what is the goodwill value via capitalisation",
+    "compute goodwill capitalisation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Capitalise average profit",
+     "explain": "Average profit divided by normal rate.",
+     "compute": "cap_val = avg_profit * 100 / rate"
+    },
+    {
+     "step": 2,
+     "action": "Calculate goodwill",
+     "explain": "Capitalised value minus net assets.",
+     "compute": "goodwill = cap_val - net_assets"
+    }
+   ]
+  },
+  {
+   "id": "leac.2.9.1",
+   "title": "Change in Profit Sharing Ratio",
+   "section": "2.9",
+   "definition": "A situation where existing partners modify their mutual profit distribution agreement without any partner entering or leaving the firm.",
+   "formula": "net_effect = sum(gains) - sum(sacrifices)",
+   "key_idea": "Reconstitution of the firm where some partners gain share at the expense of others.",
+   "textbook_ref": "leac102.txt lines 1-15",
+   "question_patterns": [
+    "what happens when partners change their profit sharing ratio",
+    "explain the impact of change in profit sharing ratio among existing partners",
+    "how is goodwill treated when profit sharing ratio changes",
+    "identify adjustments needed for change in PSR"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate old and new shares",
+     "explain": "Identify the existing ratio and the newly agreed ratio for all partners."
+    },
+    {
+     "step": 2,
+     "action": "Determine sacrifice or gain",
+     "explain": "Subtract the new share from the old share for each partner."
+    },
+    {
+     "step": 3,
+     "action": "Adjust goodwill and reserves",
+     "explain": "Debit gaining partners and credit sacrificing partners for their respective share of goodwill and accumulated profits."
+    }
+   ]
+  },
+  {
+   "id": "leac.2.9.2",
+   "title": "Sacrificing Ratio",
+   "section": "2.9",
+   "definition": "The ratio in which existing partners surrender a portion of their profit share in favor of other partners or a new partner.",
+   "formula": "sacrificing_ratio = old_share - new_share",
+   "key_idea": "The decrease in a partner's profit share due to firm reconstitution.",
+   "textbook_ref": "leac102.txt lines 90-105",
+   "question_patterns": [
+    "calculate the sacrificing ratio",
+    "find the share sacrificed by partner",
+    "determine the ratio of sacrifice between old partners",
+    "how much share did the partner lose"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify shares",
+     "explain": "Note the old_share and new_share of the partner.",
+     "compute": "sacrifice = old_share - new_share"
+    }
+   ]
+  },
+  {
+   "id": "leac.2.9.3",
+   "title": "Gaining Ratio",
+   "section": "2.9",
+   "definition": "The ratio representing the increase in profit share acquired by specific partners from other partners during reconstitution.",
+   "formula": "gaining_ratio = new_share - old_share",
+   "key_idea": "The increase in a partner's profit share resulting from a change in the sharing agreement.",
+   "textbook_ref": "leac102.txt lines 10-15",
+   "question_patterns": [
+    "calculate the gaining ratio",
+    "find the share gained by the partner",
+    "who is the gaining partner in this ratio change",
+    "determine the gain of existing partners"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify shares",
+     "explain": "Note the new_share and old_share of the partner.",
+     "compute": "gain = new_share - old_share"
+    }
+   ]
+  },
+  {
+   "id": "leac.2.9.4",
+   "title": "Goodwill Valuation - Average Profit Method",
+   "section": "Illustration 29",
+   "definition": "A method to estimate goodwill by multiplying the average of past years' profits by a fixed number of years of purchase.",
+   "formula": "goodwill = (total_profits / number_of_years) * years_of_purchase",
+   "key_idea": "Valuing the firm's reputation based on its historical earning capacity.",
+   "textbook_ref": "leac102.txt lines 125-135",
+   "question_patterns": [
+    "calculate goodwill at years purchase of average profits",
+    "find the value of goodwill using average profit method",
+    "compute goodwill based on last five years profits",
+    "what is the firm's goodwill if average profit is ..."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sum the profits",
+     "explain": "Add all the profits provided for the given years.",
+     "compute": "total_profit = sum_profits"
+    },
+    {
+     "step": 2,
+     "action": "Calculate average profit",
+     "explain": "Divide total profit by the number of years.",
+     "compute": "avg_profit = total_profit / count_years"
+    },
+    {
+     "step": 3,
+     "action": "Multiply by purchase years",
+     "explain": "Multiply the average profit by the number of years of purchase.",
+     "compute": "goodwill = avg_profit * purchase_years"
+    }
+   ]
+  },
+  {
+   "id": "leac.2.9.5",
+   "title": "Revaluation of Assets and Liabilities",
+   "section": "2.9",
+   "definition": "The process of adjusting the book values of assets and liabilities to reflect their current market values at the time of firm reconstitution.",
+   "formula": "revaluation_profit = (increase_in_assets + decrease_in_liabilities) - (decrease_in_assets + increase_in_liabilities)",
+   "key_idea": "Ensuring that gains or losses from value changes prior to reconstitution are shared in the old ratio.",
+   "textbook_ref": "leac102.txt lines 145-160",
+   "question_patterns": [
+    "prepare revaluation account",
+    "calculate profit or loss on revaluation",
+    "how are assets revalued at the time of change in PSR",
+    "pass journal entries for increase in asset value"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate net appreciation",
+     "explain": "Find the total increase in asset values.",
+     "compute": "total_up = sum_appreciation"
+    },
+    {
+     "step": 2,
+     "action": "Calculate net depreciation",
+     "explain": "Find the total decrease in asset values and increase in liabilities.",
+     "compute": "total_down = sum_depreciation + sum_liab_increase"
+    },
+    {
+     "step": 3,
+     "action": "Determine revaluation profit",
+     "explain": "Subtract total decreases from total increases.",
+     "compute": "rev_profit = total_up - total_down"
+    }
+   ]
+  },
+  {
+   "id": "leac.2.9.6",
+   "title": "Treatment of Accumulated Reserves",
+   "section": "2.9",
+   "definition": "The transfer of undistributed profits or general reserves to the partners' capital accounts in their old profit-sharing ratio.",
+   "formula": "partner_share = total_reserve * (partner_old_numerator / old_denominator)",
+   "key_idea": "Distributing past earnings to partners before the profit-sharing ratio changes.",
+   "textbook_ref": "leac102.txt lines 165-175",
+   "question_patterns": [
+    "how to treat general reserve on change in PSR",
+    "distribute accumulated profits among partners",
+    "pass entry for transfer of reserve fund",
+    "calculate partner's share in general reserve"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify total reserves",
+     "explain": "Locate the balance of reserves or accumulated profits in the balance sheet.",
+     "compute": "total_res = reserve_amount"
+    },
+    {
+     "step": 2,
+     "action": "Allocate to partner",
+     "explain": "Multiply total reserves by the partner's old profit share.",
+     "compute": "p_share = total_res * old_ratio_fraction"
+    }
+   ]
+  },
+  {
+   "id": "leac.2.9.7",
+   "title": "New Profit Sharing Ratio - Remaining Share Method",
+   "section": "Numerical Questions",
+   "definition": "Calculating the new ratio by deducting the new partner's share from the total (1) and distributing the remainder among old partners.",
+   "formula": "new_share = remaining_share * old_ratio_fraction",
+   "key_idea": "Determining future profit distribution when a new partner is admitted for a fixed share.",
+   "textbook_ref": "leac102.txt lines 240-245",
+   "question_patterns": [
+    "calculate new profit sharing ratio on admission",
+    "find the new ratio if C is admitted for 1/6 share",
+    "determine the new PSR of all partners"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Calculate remaining share",
+     "explain": "Subtract the new partner's share from the total share of 1.",
+     "compute": "rem_share = 1 - new_partner_share"
+    },
+    {
+     "step": 2,
+     "action": "Calculate old partners' new shares",
+     "explain": "Multiply the remaining share by each old partner's individual old ratio.",
+     "compute": "p_new_share = rem_share * p_old_ratio"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "leac102.txt lines 150-165",
+   "concept": "leac.2.3.1",
+   "question_type": "Ratio Calculation",
+   "question_pattern": "Anil and Vishal are partners sharing profits in the ratio of {old_ratio}. They admitted Sumit as a new partner for {new_share} share. Calculate new profit sharing ratio.",
+   "extracted_variables": {
+    "old_ratio": "3:2",
+    "new_share": "1/5"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Find remaining share",
+     "explain": "Total share minus new partner share.",
+     "compute": "rem = 1 - 0.2"
+    },
+    {
+     "step": 2,
+     "action": "Calculate new shares",
+     "explain": "Old ratio applied to remaining share.",
+     "compute": "anil = 0.6 * rem; vishal = 0.4 * rem"
+    }
+   ]
+  },
+  {
+   "id": "p2_ex1",
+   "source_ref": "leac102.txt Illustration 29",
+   "concept": "leac.2.9.4",
+   "question_type": "compute",
+   "question_pattern": "The goodwill of the firm be valued at {years} years purchase of the average net profits of last five years which were {p1}, {p2}, {p3}, {p4} and {p5}. Calculate Goodwill.",
+   "extracted_variables": {
+    "years": "4.5",
+    "p1": "14000",
+    "p2": "17000",
+    "p3": "20000",
+    "p4": "22000",
+    "p5": "27000"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Calculate total profit",
+     "explain": "Sum of profits for 5 years.",
+     "compute": "total_profit = 14000 + 17000 + 20000 + 22000 + 27000"
+    },
+    {
+     "step": 2,
+     "action": "Calculate average profit",
+     "explain": "Total profit divided by 5.",
+     "compute": "avg_profit = total_profit / 5"
+    },
+    {
+     "step": 3,
+     "action": "Calculate goodwill",
+     "explain": "Average profit multiplied by 4.5 years purchase.",
+     "compute": "goodwill = avg_profit * 4.5"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex2.1",
+   "source_ref": "leac102.txt lines 310-325",
+   "questions": [
+    "A and B are partners sharing profits in the ratio of 3:1. They admit C for 1/4 share. Calculate the new profit sharing ratio.",
+    "X and Y share profits in 3:2. Z is admitted for 1/5 share. Calculate new ratio if Z acquires 3/20 from X and 1/20 from Y."
+   ]
+  },
+  {
+   "id": "p2_ex10.1",
+   "source_ref": "leac102.txt Numerical Questions",
+   "questions": [
+    "A and B were partners in a firm sharing profits and losses in the ratio of 3:2. They admit C into the partnership with 1/6 share in the profits. Calculate the new profit sharing ratio?",
+    "A,B,C were partners in a firm sharing profits in 3:2:1 ratio. They admitted D for 10% profits. Calculate the new profit sharing ratio?",
+    "X and Y are partners sharing profits in 5:3 ratio admitted Z for 1/10 share which he acquired equally for X and Y. Calculate new profit sharing ratio?",
+    "Compute the value of goodwill on the basis of four years’ purchase of the average profits based on the last five years? The profits for the last five years were as follows: 2015: 40,000; 2016: 50,000; 2017: 60,000; 2018: 50,000; 2019: 60,000."
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

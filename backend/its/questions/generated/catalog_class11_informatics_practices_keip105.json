@@ -1,0 +1,222 @@
+{
+ "catalog": "catalog_class11_informatics_practices_keip105",
+ "concepts": [
+  {
+   "id": "keip105.1",
+   "title": "Measures of Central Tendency: Mean",
+   "questions": [
+    {
+     "q": "Find the mean height of the class with readings 90, 102, 110, 115, 85, 90, 100, 110, 110 cm. Use the method 'Measures of Central Tendency: Mean'. Work with: observation_count = 45, reading_eight = 8, reading_five = 80, reading_four = 3, reading_nine = 80, reading_one = 300, reading_seven = 50, reading_six = 100, reading_three = 240, reading_two = 400. Carry the chain through step by step and give the final value of mean_value.",
+     "a": "28.0222 units",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the average temperature of the week from 34, 34, 27, 28, 27, 34, 34 degrees. Use the method 'Measures of Central Tendency: Mean'. Work with: observation_count = 3, reading_eight = 20, reading_five = 240, reading_four = 200, reading_nine = 60, reading_one = 8, reading_seven = 400, reading_six = 50, reading_three = 6, reading_two = 25. Carry the chain through step by step and give the final value of mean_value.",
+     "a": "336.3333 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Measures of Central Tendency: Mean' refers to.",
+     "a": "The mean is the plain average of a numeric column: pool every observation, add them, and share the total equally among the count of values. One unusually large or small reading (an outlier) drags the mean toward itself, so such readings are often dropped first.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Measures of Central Tendency: Mean'.",
+     "a": "Add all the readings once, divide once by how many there are; beware outliers before trusting the result.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Measures of Central Tendency: Mean', in plain ASCII form.",
+     "a": "mean_value = data_total / observation_count",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip105.2",
+   "title": "Median of Sorted Data",
+   "questions": [
+    {
+     "q": "Find the median height of the sorted data 85, 90, 90, 100, 102, 110, 110, 110, 115. Use the method 'Median of Sorted Data'. Work with: left_mid_value = 80000, observation_count = 400, right_mid_value = 120000. Carry the chain through step by step and give the final value of median_even.",
+     "a": "100000 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the median temperature of the week 34, 34, 27, 28, 27, 34, 34. Use the method 'Median of Sorted Data'. Work with: left_mid_value = 8000, observation_count = 80, right_mid_value = 20000. Carry the chain through step by step and give the final value of median_even.",
+     "a": "14000 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Median of Sorted Data' refers to.",
+     "a": "The median is the midpoint of the data once the values are arranged in order: with an odd count it is simply the value at the central position, and with an even count it is the average of the two values straddling the middle. Unlike the mean, it ignores how extreme the end values are.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Median of Sorted Data'.",
+     "a": "Sort first; for n values the middle seat is (n + 1) // 2 when n is odd, and the pair around it is averaged when n is even.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Median of Sorted Data', in plain ASCII form.",
+     "a": "median_even = (left_mid_value + right_mid_value) / 2",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip105.3",
+   "title": "Mode and Frequency Share",
+   "questions": [
+    {
+     "q": "Using the method 'Mode and Frequency Share', work with: freq_one = 50, freq_three = 120, freq_two = 300, total_observations = 30. Carry the chain through step by step and give the final value of mode_share.",
+     "a": "1000 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Mode and Frequency Share' and work with: freq_one = 30, freq_three = 200, freq_two = 150, total_observations = 30. Carry the chain through step by step and give the final value of mode_share.",
+     "a": "666.6667 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Mode and Frequency Share' refers to.",
+     "a": "The mode is the value that shows up most often in the data, judged purely by how frequently each distinct value occurs. A set where every value appears once has no mode, and several values tying at the top give multiple modes; the mode works for non-numeric labels too.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Mode and Frequency Share'.",
+     "a": "Count how often each value appears; the winner is the mode, and its count over the total tells how dominant it is.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Mode and Frequency Share', in plain ASCII form.",
+     "a": "mode_share = highest_frequency / total_observations * 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip105.4",
+   "title": "Range as Maximum minus Minimum",
+   "questions": [
+    {
+     "q": "Find the range of the heights when the minimum is 85 cm and the maximum is 115 cm. Use the method 'Range as Maximum minus Minimum'. Work with: reading_five = 24, reading_four = 60, reading_one = 12, reading_three = 20, reading_two = 240. Carry the chain through step by step and give the final value of value_range.",
+     "a": "228 units",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the temperature range of the week from 34, 34, 27, 28, 27, 34, 34. Use the method 'Range as Maximum minus Minimum'. Work with: reading_five = 6, reading_four = 20, reading_one = 10, reading_three = 360, reading_two = 40. Carry the chain through step by step and give the final value of value_range.",
+     "a": "354 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Range as Maximum minus Minimum' refers to.",
+     "a": "The range is the simplest spread measure for numeric data: subtract the smallest reading from the largest. It depends only on the two extremes, so a single outlier inflates it dramatically.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Range as Maximum minus Minimum'.",
+     "a": "Largest value minus smallest value; cheap to compute but hostage to the extremes.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Range as Maximum minus Minimum', in plain ASCII form.",
+     "a": "value_range = tallest_value - shortest_value",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip105.5",
+   "title": "Standard Deviation of a Data Set",
+   "questions": [
+    {
+     "q": "Compute the standard deviation when the sum of squared deviations is 938 for 9 height readings. Use the method 'Standard Deviation of a Data Set'. Work with: observation_count = 15, squared_deviation_sum = 80. Carry the chain through step by step and give the final value of standard_deviation.",
+     "a": "2.3094 units",
+     "self_check": false
+    },
+    {
+     "q": "Find the variance and standard deviation for squared deviation total 76.86 over 7 temperature readings. Use the method 'Standard Deviation of a Data Set'. Work with: observation_count = 5, squared_deviation_sum = 15. Carry the chain through step by step and give the final value of standard_deviation.",
+     "a": "1.7321 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Standard Deviation of a Data Set' refers to.",
+     "a": "Standard deviation measures how far the readings stray from their mean on average: take each value's gap from the mean, square the gaps, average them, and take the positive square root. A small result means tightly packed data, a large one means wide scatter, and unlike the range it uses every reading.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Standard Deviation of a Data Set'.",
+     "a": "Square the gaps from the mean, average them, then root the average; every value contributes, not just the extremes.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Standard Deviation of a Data Set', in plain ASCII form.",
+     "a": "standard_deviation = sqrt(squared_deviation_sum / observation_count)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip105.6",
+   "title": "Structured, Unstructured Data and Metadata",
+   "questions": [
+    {
+     "q": "Using the method 'Structured, Unstructured Data and Metadata', work with: unstructured_content = 15. Carry the chain through step by step and give the final value of metadata_describes.",
+     "a": "15 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Structured, Unstructured Data and Metadata' and work with: unstructured_content = 12. Carry the chain through step by step and give the final value of metadata_describes.",
+     "a": "12 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Structured, Unstructured Data and Metadata' refers to.",
+     "a": "Data that fits a fixed row-and-column arrangement, with each column an attribute and each row one observation, is structured. Newspaper pages, emails and multimedia files have no such fixed shape and are unstructured; they are described indirectly through metadata, which is descriptive data about data such as an image's size, type and resolution.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Structured, Unstructured Data and Metadata'.",
+     "a": "Tables hold structured data with named attributes; everything shapeless needs metadata to describe it.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Structured, Unstructured Data and Metadata', in plain ASCII form.",
+     "a": "metadata_describes = unstructured_content",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "keip105.7",
+   "title": "Data Processing Cycle: Input to Output",
+   "questions": [
+    {
+     "q": "Using the method 'Data Processing Cycle: Input to Output', work with: processed_raw_data = 50. Carry the chain through step by step and give the final value of output_information.",
+     "a": "50 units",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Data Processing Cycle: Input to Output' and work with: processed_raw_data = 20. Carry the chain through step by step and give the final value of output_information.",
+     "a": "20 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Data Processing Cycle: Input to Output' refers to.",
+     "a": "Raw facts become usable conclusions only through the data processing cycle: collect and enter the raw data, store it, classify and update it, process it, and finally present reports or results as output. An ATM withdrawal, an online admit card or a train ticket all follow this input-process-output path.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Data Processing Cycle: Input to Output'.",
+     "a": "Data in, operations applied, information out; storage and retrieval support every stage.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Data Processing Cycle: Input to Output', in plain ASCII form.",
+     "a": "output_information = processed_raw_data",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 8,
+ "chapter_title": "Cultural Currents: 13th to 17th Centuries",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/hees209.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "hees.209.8.1",
+   "title": "Cultural Currents between India, Persia, Central and East Asia",
+   "section": "8",
+   "definition": "Between the thirteenth and seventeenth centuries a web of trade, pilgrimage and conquest carried people, books and ideas across Persia, Central Asia, East Asia and India, so art, language and belief flowed along the routes that merchants and travellers opened.",
+   "formula": "-",
+   "key_idea": "Trade routes were culture routes: goods travelled with ideas, art and faith.",
+   "textbook_ref": "hees209.txt lines 60-90 (Persia, Central Asia, East Asia links)",
+   "question_patterns": [
+    "how did cultural exchange happen between India and its neighbours",
+    "which regions did India trade and share culture with in the medieval period",
+    "how did travellers spread ideas across Asia",
+    "name the routes that connected India to Persia and Central Asia",
+    "what role did merchants play in cultural exchange",
+    "give an example of an artistic influence that entered India from outside"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "map the connections",
+     "explain": "Land and sea routes tied India to Persia, Central Asia and East Asia."},
+    {"step": 2, "action": "follow the carriers",
+     "explain": "Merchants, pilgrims, scholars and soldiers carried culture along the routes."},
+    {"step": 3, "action": "see the blending",
+     "explain": "Languages, foods, dress, music and ideas mixed on both sides."}
+   ]
+  },
+  {
+   "id": "hees.209.8.2",
+   "title": "Sufi and Bhakti Currents",
+   "section": "8",
+   "definition": "Two devotional movements swept this age: Sufi saints of the Islamic tradition, like the Indo-Persian Sufi poet Amir Khusrau who blended Indian and Persian song, and the Bhakti saints who preached loving devotion in local tongues, both carrying religion to the common people.",
+   "formula": "-",
+   "key_idea": "Sufi and Bhakti saints took faith out of the clergy's hands and into people's languages.",
+   "textbook_ref": "hees209.txt lines 330-420 (continuation and evolution, Amir Khusrau, Indian Persian and Arabic singing)",
+   "question_patterns": [
+    "who was Amir Khusrau and why is he remembered",
+    "what are the main teachings of the Sufi saints",
+    "how did the Bhakti movement reach ordinary people",
+    "compare the Bhakti and Sufi movements",
+    "how did Indian, Persian and Arabic singing traditions blend",
+    "why did saints compose in local languages"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "meet the saints",
+     "explain": "Sufi khanqahs and Bhakti gatherings drew crowds beyond temples and mosques."},
+    {"step": 2, "action": "note the language turn",
+     "explain": "Poetry and song in Hindavi and regional tongues replaced distant classical forms."},
+    {"step": 3, "action": "hear the fusion",
+     "explain": "Khusrau's music wove Indian and Persian strands into a shared culture."}
+   ]
+  },
+  {
+   "id": "hees.209.8.3",
+   "title": "Variations in Role and Status: Women and Social Groups",
+   "section": "8",
+   "definition": "Status in medieval society varied by region, caste and gender: women's roles ranged from royal regents and poet-saints to weavers working in household workshops, and social groups rose or fell as new professions and sects opened different paths.",
+   "formula": "-",
+   "key_idea": "Medieval society was layered and mobile - gender, caste and occupation shaped each life differently.",
+   "textbook_ref": "hees209.txt lines 520-540 (variations in their role and status)",
+   "question_patterns": [
+    "how did the status of women vary in medieval society",
+    "name women saints or rulers of this period",
+    "how did new professions change the social order",
+    "compare the lives of artisans and nobles in the period",
+    "why did social status differ from region to region",
+    "give examples of social mobility in medieval India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "compare across regions",
+     "explain": "Customs differed by kingdom, caste and community."},
+    {"step": 2, "action": "note the exceptions",
+     "explain": "Saints, queens and traders show women and lower groups shaping public life."},
+    {"step": 3, "action": "see the change",
+     "explain": "New sects and professions offered routes around old hierarchies."}
+   ]
+  },
+  {
+   "id": "hees.209.8.4",
+   "title": "Education and Knowledge Traditions",
+   "section": "8",
+   "definition": "Learning flourished in maktabs, madrasas, pathshalas and temple schools: mathematics, astronomy, medicine, music and craft knowledge were taught and exchanged, with manuscripts moving across Asia to keep India part of the medieval world of learning.",
+   "formula": "-",
+   "key_idea": "Schools of many faiths and craft guilds of many skills kept knowledge alive and travelling.",
+   "textbook_ref": "hees209.txt lines 640-700 (education and knowledge traditions)",
+   "question_patterns": [
+    "where did students study in medieval India",
+    "what subjects were taught in madrasas and pathshalas",
+    "how did knowledge travel between India and other lands",
+    "name the centres of learning of the medieval period",
+    "what role did manuscripts play in education",
+    "compare the education of this period with today's schooling"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "list the schools",
+     "explain": "Maktabs, madrasas, pathshalas and temple centres taught different communities."},
+    {"step": 2, "action": "list the subjects",
+     "explain": "Religion, language, mathematics, astronomy and medicine shared the syllabus."},
+    {"step": 3, "action": "follow the exchange",
+     "explain": "Copied manuscripts and travelling scholars moved learning across borders."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex8.1",
+   "source_ref": "hees209.txt cultural exchange sections",
+   "questions": [
+     "How did India exchange culture with Persia and Central Asia?",
+     "Describe the contribution of Amir Khusrau to music and poetry.",
+     "Compare the Bhakti and Sufi movements."
+   ]
+  },
+  {
+   "id": "ex8.2",
+   "source_ref": "hees209.txt society and education sections",
+   "questions": [
+     "How did the role and status of women vary in medieval society?",
+     "Describe the knowledge traditions of the 13th to 17th centuries."
+   ]
+  }
+ ]
+}

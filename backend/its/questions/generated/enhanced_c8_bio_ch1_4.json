@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_bio_ch1_4",
+ "concepts": [
+  {
+   "id": "enh:c8_bio_ch1_4",
+   "title": "c8_bio_ch1_4",
+   "questions": [
+    {
+     "q": "What is the primary function of the cell membrane in a living cell?",
+     "a": "The cell membrane acts as a selective barrier that regulates the entry and exit of materials such as water, nutrients, and waste products. A wrong answer often confuses the cell membrane with the rigid cell wall found only in plants, failing to recognize that all cells possess a flexible membrane for selective transport.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the cytoplasm considered essential for a cell's survival, rather than just being empty space inside the cell?",
+     "a": "The cytoplasm is a jelly-like fluid matrix that suspends cell organelles and provides the medium where vital biochemical reactions and metabolic processes take place. A wrong answer views cytoplasm as mere passive filler, overlooking its active role in transporting materials and supporting cellular chemistry.",
+     "self_check": true
+    },
+    {
+     "q": "If a cell's nucleus is damaged or removed, what immediate consequence will the cell face regarding its daily operations?",
+     "a": "Steps: 1. Identify the nucleus as the control center containing genetic material (DNA). 2. Recognize that DNA provides the instructions for synthesizing proteins and managing all cellular activities. 3. Deduce that without a nucleus, the cell loses its ability to direct chemical reactions, repair itself, or reproduce. 4. Conclude that the cell will eventually die. A wrong answer assumes the cytoplasm or cell membrane can take over control functions, ignoring the role of genetic instructions.",
+     "self_check": true
+    },
+    {
+     "q": "How do the cell membrane and cytoplasm work together to maintain the internal environment of a cell during nutrient absorption?",
+     "a": "The cell membrane selectively permits essential nutrients to pass from the outside environment into the interior, where they enter the cytoplasm. Once inside the cytoplasm, these nutrients are distributed and utilized in metabolic reactions. A wrong answer assumes nutrients just float anywhere without selective regulation by the membrane or proper distribution through the cytoplasmic fluid.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The nucleus is the powerhouse of the cell that generates energy for all metabolic activities.\" Is this statement biologically accurate?",
+     "a": "This statement is scientifically inaccurate because generating energy (cellular respiration) is primarily the function of mitochondria suspended in the cytoplasm, whereas the nucleus stores genetic information and controls cellular activities. A wrong answer confuses the control center (nucleus) with energy production organelles (mitochondria), missing the distinct division of labor within the cell.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple mental model or analogy comparing a school building to a cell, specifically mapping out the roles of the cell membrane, cytoplasm, and nucleus.",
+     "a": "A good response maps the school's boundary wall/gatekeeper to the cell membrane (controlling entry and exit), the classrooms and hallways where daily learning activities happen to the cytoplasm (where processes occur), and the principal's office or main office containing school records and instructions to the nucleus (controlling all operations). A poor response confuses these roles, such as placing the control center at the boundary or treating classrooms as barriers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

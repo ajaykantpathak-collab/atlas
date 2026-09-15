@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_bs_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c12_bs_cbse_05_010",
+   "title": "c12_bs_cbse_05_010",
+   "questions": [
+    {
+     "q": "Define decentralisation in one sentence using the exact phrase \"systematic delegation\" and mention what is retained at the centre.",
+     "a": "Correct answer: \"Decentralisation is the systematic delegation of authority to the lowest levels except that which can be exercised at central points.\" A wrong answer that says \"decentralisation means giving all power to lower levels\" reveals the misconception that decentralisation equals complete abdication of top-level control, ignoring the strategic retention clause.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why decentralisation is described as a \"philosophy\" rather than just a technique like delegation.",
+     "a": "Correct answer: Delegation is a compulsory act of assigning tasks; decentralisation is a voluntary policy choice reflecting a belief that people are competent and deserve autonomy. A wrong answer that equates the two misses the evaluative dimension — decentralisation implies a cultural shift toward trust and empowerment, not merely task distribution.",
+     "self_check": true
+    },
+    {
+     "q": "A manufacturing firm lets regional sales managers decide discount rates up to 10% but requires head-office approval for any discount above 10%. Identify whether this is delegation or decentralisation, and justify using the \"scope\" criterion.",
+     "a": "Correct answer: This is decentralisation because the authority to grant discounts is extended systematically to a lower level (regional managers) across the organisation, not just a one-off superior-subordinate transfer. A wrong answer calling it delegation ignores the organisation-wide, policy-driven nature and the breadth of scope (all regional managers, not one subordinate).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of centralisation vs decentralisation on (a) speed of decision-making in a crisis, (b) development of managerial talent, and (c) risk of sub-unit goals overriding organisational goals. Use a table.",
+     "a": "Correct answer: (a) Decentralisation → faster (no long chain); Centralisation → slower. (b) Decentralisation → high (hands-on experience); Centralisation → low (limited exposure). (c) Decentralisation → higher risk (silo mentality); Centralisation → lower risk (tight alignment). A wrong answer that claims centralisation develops talent faster reveals confusion about experiential learning — talent grows by making decisions, not by following orders.",
+     "self_check": true
+    },
+    {
+     "q": "\"Decentralisation always leads to better control because each division becomes a profit centre.\" Evaluate this statement. Is it fully true, partially true, or false? Give two reasons.",
+     "a": "Correct answer: Partially true. Decentralisation enables better control *if* robust performance measurement systems (ROI, balanced scorecard) are installed; otherwise it can lead to loss of control as divisions pursue local optima. A wrong answer saying \"fully true\" ignores the NCERT caution that decentralisation \"can lead to organisational disintegration if departments operate on their own guidelines contrary to organisational interest.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a decentralisation policy for a 500-employee IT services company with three verticals (Banking, Healthcare, Retail). Specify: (i) three decisions retained at corporate level, (ii) three decisions delegated to vertical heads, (iii) one mechanism to prevent siloisation.",
+     "a": "Expected answer: (i) Corporate: M&A strategy, capital allocation >₹5 cr, brand architecture. (ii) Vertical heads: Hiring within budget, technology stack choice, client pricing within bands. (iii) Mechanism: Quarterly cross-vertical review chaired by CEO with shared KPIs (e.g., 20% of bonus tied to company-wide NPS). A poor answer that keeps all pricing at corporate level shows failure to push \"decisions nearest to points of action.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

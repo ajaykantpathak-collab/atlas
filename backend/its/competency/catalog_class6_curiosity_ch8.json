@@ -1,0 +1,523 @@
+{
+ "class": 6,
+ "subject": "science",
+ "chapter": 8,
+ "chapter_title": "A Journey through States of Water",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fecu108.txt",
+ "concepts": [
+  {
+   "id": "c6cu.8.1",
+   "title": "Three States of Water -- Solid, Liquid and Gas",
+   "section": "8.1",
+   "definition": "Water exists in three states -- solid (ice), liquid (water) and gas (water vapour); the state depends on temperature.",
+   "formula": "",
+   "key_idea": "The same substance, water, can exist as a solid, liquid or gas depending on its temperature.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the three states of water?",
+    "Give an example of water in each of its three states.",
+    "How does water change from one state to another?",
+    "What is water vapour?",
+    "Why is ice called the solid state of water?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the solid state",
+     "explain": "Below 0 C water freezes into ice, which has a fixed shape and volume."
+    },
+    {
+     "step": 2,
+     "action": "Identify the liquid state",
+     "explain": "Between 0 C and 100 C water flows as a liquid with a fixed volume but no fixed shape."
+    },
+    {
+     "step": 3,
+     "action": "Identify the gaseous state",
+     "explain": "Above 100 C (or by evaporation) water becomes water vapour, which has neither a fixed shape nor a fixed volume."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Name the three states of water and give one example of each from daily life.",
+     "solution": "Solid -- ice in the freezer; Liquid -- water in a glass; Gas -- water vapour in the air.",
+     "answer": "Solid: ice, Liquid: water, Gas: water vapour.",
+     "_n": 1
+    },
+    {
+     "question": "When water is heated, it changes from liquid to gas. What is this gaseous state called and what property does it have?",
+     "solution": "The gaseous state of water is called water vapour. It has neither a fixed shape nor a fixed volume and spreads to fill any container.",
+     "answer": "Water vapour -- no fixed shape or volume.",
+     "_n": 2
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List the three states of water with one example each.",
+     "type": "short_answer"
+    },
+    {
+     "question": "What determines the state of water?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Which state of water has neither a fixed shape nor a fixed volume?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.8.2",
+   "title": "Melting and Freezing",
+   "section": "8.2",
+   "definition": "Melting is the process in which a solid turns into a liquid on heating; freezing is the reverse process in which a liquid turns into a solid on cooling.",
+   "formula": "melting_point_of_ice = 0 C",
+   "key_idea": "Melting and freezing occur at the same temperature (0 C for water) but in opposite directions of heat flow.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is melting?",
+    "What is freezing?",
+    "At what temperature does ice melt?",
+    "Why does ice cream melt when kept outside the freezer?",
+    "How are melting and freezing related?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the process and direction of heat flow",
+     "explain": "Melting requires heating (heat absorbed); freezing requires cooling (heat removed)."
+    },
+    {
+     "step": 2,
+     "action": "Note the temperature at which the change occurs",
+     "explain": "For water, both melting and freezing occur at 0 C under normal pressure."
+    },
+    {
+     "step": 3,
+     "action": "State the final state of water",
+     "explain": "After melting, ice becomes liquid water; after freezing, liquid water becomes solid ice."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "An ice cube is left on a table at room temperature. What happens and at what temperature does the change begin?",
+     "solution": "The ice cube absorbs heat from the surroundings and melts into water. Melting of ice begins at 0 C.",
+     "answer": "Ice melts into water at 0 C."
+    },
+    {
+     "question": "Water is placed in a freezer at -5 C. What change occurs?",
+     "solution": "The water loses heat and freezes into ice at 0 C and remains solid below that.",
+     "answer": "Water freezes into ice at 0 C."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define melting and freezing.",
+     "type": "short_answer"
+    },
+    {
+     "question": "At what temperature does ice melt?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why does a puddle of water turn into ice on a cold winter night?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.8.3",
+   "title": "Evaporation and Condensation",
+   "section": "8.3",
+   "definition": "Evaporation is the process by which a liquid changes into vapour at temperatures below its boiling point; condensation is the reverse process in which vapour changes into liquid on cooling.",
+   "formula": "",
+   "key_idea": "Evaporation and condensation are opposite processes that transfer water between the liquid and gaseous states.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is evaporation?",
+    "What is condensation?",
+    "Why do wet clothes dry when hung outside?",
+    "Why do water droplets appear on the outside of a cold glass?",
+    "How are evaporation and condensation related?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify evaporation",
+     "explain": "Liquid water absorbs energy and turns into water vapour at the surface, even below the boiling point."
+    },
+    {
+     "step": 2,
+     "action": "Identify condensation",
+     "explain": "Water vapour loses energy on contact with a cold surface and turns back into liquid droplets."
+    },
+    {
+     "step": 3,
+     "action": "Relate the two processes",
+     "explain": "Evaporation and condensation are opposite changes of state; together they drive the movement of water between air and liquid surfaces."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why do water droplets appear on the outer surface of a glass filled with cold water?",
+     "solution": "Water vapour in the air condenses on the cold outer surface of the glass, forming liquid droplets.",
+     "answer": "Condensation of water vapour on the cold surface forms droplets."
+    },
+    {
+     "question": "Why do wet clothes dry faster on a sunny day?",
+     "solution": "Heat from the sun increases the rate of evaporation of water from the clothes, so they dry faster.",
+     "answer": "Sunlight speeds up evaporation, drying clothes faster."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define evaporation and condensation with examples.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why do wet clothes dry on a clothesline?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why droplets form on a cold steel tumbler.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.8.4",
+   "title": "The Water Cycle",
+   "section": "8.4",
+   "definition": "The water cycle is the continuous movement of water by evaporation, condensation, precipitation and flow back to water bodies, driven by the Sun's energy.",
+   "formula": "",
+   "key_idea": "Water constantly circulates between the Earth's surface and the atmosphere, changing states as it moves.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the water cycle?",
+    "Name the main processes involved in the water cycle.",
+    "What is the role of the Sun in the water cycle?",
+    "How does rain form?",
+    "Explain the water cycle in your own words."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify evaporation stage",
+     "explain": "Heat from the Sun causes water from oceans, rivers and lakes to evaporate into water vapour."
+    },
+    {
+     "step": 2,
+     "action": "Identify condensation and cloud formation",
+     "explain": "Rising water vapour cools at high altitudes and condenses to form clouds."
+    },
+    {
+     "step": 3,
+     "action": "Identify precipitation and return",
+     "explain": "When droplets in clouds become heavy, they fall as rain or snow, and the water flows back to water bodies."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Describe the water cycle in brief.",
+     "solution": "The Sun heats water bodies causing evaporation. The vapour rises, cools and condenses into clouds. When the droplets become heavy, they fall as rain. The rainwater flows back to rivers and seas, completing the cycle.",
+     "answer": "Evaporation -> condensation -> precipitation -> flow back to seas."
+    },
+    {
+     "question": "What would happen to the water cycle if the Sun's energy were removed?",
+     "solution": "Without the Sun there would be no evaporation, so no clouds or rain would form and the water cycle would stop, leaving water frozen or still on land and in seas.",
+     "answer": "The water cycle would stop because evaporation depends on the Sun's energy."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is the water cycle?",
+     "type": "short_answer"
+    },
+    {
+     "question": "What role does the Sun play in the water cycle?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Name the four main stages of the water cycle.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.8.5",
+   "title": "Boiling Point of Water",
+   "section": "8.5",
+   "definition": "The boiling point of water is the temperature at which liquid water changes rapidly into vapour throughout the liquid; at normal pressure it is 100 C.",
+   "formula": "boiling_point_of_water = 100 C",
+   "key_idea": "Boiling is a rapid form of evaporation that occurs throughout the liquid at a fixed temperature for a given pressure.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the boiling point of water?",
+    "How does boiling differ from evaporation?",
+    "What happens to the temperature of water while it is boiling?",
+    "Why does water boil at a lower temperature on a mountain?",
+    "What is observed when water boils?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Heat the water and monitor the temperature",
+     "explain": "As water is heated, its temperature rises until it reaches 100 C at normal pressure."
+    },
+    {
+     "step": 2,
+     "action": "Identify the boiling point",
+     "explain": "At 100 C bubbles of vapour form throughout the liquid and rise to the surface."
+    },
+    {
+     "step": 3,
+     "action": "Note that temperature stays constant during boiling",
+     "explain": "Even with continued heating, the temperature remains at 100 C until all the water has turned to vapour."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Water is heated in a kettle. At what temperature will it start boiling at sea level?",
+     "solution": "At sea level (normal atmospheric pressure), water boils at 100 C.",
+     "answer": "100 C"
+    },
+    {
+     "question": "While water is boiling, the heating is continued. Does the temperature of the water keep rising?",
+     "solution": "No. During boiling the temperature stays constant at 100 C until all the water has changed into vapour.",
+     "answer": "No, the temperature remains constant at 100 C during boiling."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is the boiling point of water at normal pressure?",
+     "type": "short_answer"
+    },
+    {
+     "question": "How is boiling different from evaporation?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Does the temperature of water change while it is boiling? Explain.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.8.6",
+   "title": "Factors Affecting Evaporation",
+   "section": "8.6",
+   "definition": "The rate of evaporation increases with higher temperature, larger surface area, lower humidity and stronger wind.",
+   "formula": "rate_of_evaporation proportional to (temperature * surface_area * wind_speed) / humidity",
+   "key_idea": "Evaporation is faster when it is hot, dry, windy and when the exposed surface area is large.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What factors affect the rate of evaporation?",
+    "Why do clothes dry faster on a windy day?",
+    "How does surface area affect evaporation?",
+    "Why does a saucer of water dry faster than a glass of the same amount of water?",
+    "How does humidity affect evaporation?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine temperature and surface area",
+     "explain": "Higher temperature and a larger exposed surface area both increase the rate of evaporation."
+    },
+    {
+     "step": 2,
+     "action": "Examine wind and humidity",
+     "explain": "More wind removes vapour quickly, speeding up evaporation; high humidity slows it down because the air is already full of vapour."
+    },
+    {
+     "step": 3,
+     "action": "Combine the factors",
+     "explain": "Evaporation is fastest on a hot, dry, windy day with a large surface area exposed, and slowest on a cold, humid, still day with a small surface area."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Two identical wet cloths are spread to dry -- one on a hot windy day and one on a cold humid day. Which dries faster and why?",
+     "solution": "The cloth on the hot windy day dries faster because high temperature and wind both increase the rate of evaporation, while cold and humidity slow it down.",
+     "answer": "The cloth on the hot, windy day dries faster."
+    },
+    {
+     "question": "Why does water in a saucer evaporate faster than the same amount in a narrow glass?",
+     "solution": "The saucer has a larger surface area exposed to air, so more water molecules escape per unit time, increasing evaporation.",
+     "answer": "Larger surface area in the saucer increases evaporation."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List four factors that affect the rate of evaporation.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why do clothes dry faster on a windy day?",
+     "type": "short_answer"
+    },
+    {
+     "question": "How does humidity affect the rate of evaporation?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.8.7",
+   "title": "Dew and Frost",
+   "section": "8.7",
+   "definition": "Dew is formed when water vapour condenses into liquid droplets on cold surfaces at night; frost is formed when the same vapour freezes directly into tiny ice crystals when the temperature falls below 0 C.",
+   "formula": "dew: condensation above 0 C; frost: deposition below 0 C",
+   "key_idea": "Dew and frost both form from water vapour at night, but frost forms only when the temperature drops below freezing.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is dew and how is it formed?",
+    "What is frost?",
+    "How does frost differ from dew?",
+    "Why are dew drops seen on grass early in the morning?",
+    "Under what condition does frost form instead of dew?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify night cooling of surfaces",
+     "explain": "At night, grass and other surfaces cool down by radiating heat."
+    },
+    {
+     "step": 2,
+     "action": "Determine if condensation forms dew",
+     "explain": "If the surface temperature is above 0 C, water vapour condenses into liquid droplets called dew."
+    },
+    {
+     "step": 3,
+     "action": "Determine if freezing forms frost",
+     "explain": "If the surface temperature falls below 0 C, the water vapour freezes directly into tiny ice crystals called frost."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "On a winter morning, tiny ice crystals are seen on the grass but the weather is dry. What are they and how did they form?",
+     "solution": "They are frost. The night temperature fell below 0 C, so water vapour in the air froze directly into ice crystals on the cold grass.",
+     "answer": "Frost -- formed by freezing of water vapour below 0 C."
+    },
+    {
+     "question": "Why do we sometimes see water droplets on leaves early in the morning even when it has not rained?",
+     "solution": "These are dew drops. Water vapour in the air condensed on the cold leaf surfaces during the night.",
+     "answer": "Dew -- formed by condensation of water vapour on cold surfaces."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is dew? How is it different from rain?",
+     "type": "short_answer"
+    },
+    {
+     "question": "How does frost form?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Under what temperature condition does frost form instead of dew?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c6cu.8.8",
+   "title": "Humidity",
+   "section": "8.8",
+   "definition": "Humidity is the amount of water vapour present in the air; high humidity means the air holds a lot of vapour and slows down evaporation.",
+   "formula": "",
+   "key_idea": "Humidity measures how much water vapour the air contains and affects how fast water evaporates.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is humidity?",
+    "How does humidity affect evaporation?",
+    "Why do we feel uncomfortable on a humid day?",
+    "Why do clothes take longer to dry on a humid day?",
+    "What is the difference between high and low humidity?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define humidity",
+     "explain": "Humidity is the quantity of water vapour present in the air at a given time."
+    },
+    {
+     "step": 2,
+     "action": "Relate humidity to evaporation",
+     "explain": "When humidity is high, the air already holds much vapour, so evaporation is slow; when humidity is low, evaporation is fast."
+    },
+    {
+     "step": 3,
+     "action": "Explain the effect on comfort and drying",
+     "explain": "High humidity makes sweat evaporate slowly, so we feel sticky and uncomfortable, and wet clothes take longer to dry."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why do clothes take a very long time to dry during the rainy season?",
+     "solution": "During the rainy season the humidity is high, so the air is already full of water vapour and the rate of evaporation from the wet clothes is very low.",
+     "answer": "High humidity slows evaporation, so clothes dry slowly."
+    },
+    {
+     "question": "On a dry summer day the humidity is low. How will this affect the drying of wet clothes?",
+     "solution": "Low humidity means the air can hold more water vapour, so evaporation from the wet clothes is fast and they dry quickly.",
+     "answer": "Low humidity speeds up evaporation, so clothes dry quickly."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define humidity.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why do we feel sticky and uncomfortable on a humid day?",
+     "type": "short_answer"
+    },
+    {
+     "question": "How does humidity affect the rate of evaporation?",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "fecu108.txt",
+   "concept": "c6cu.8.1",
+   "question_type": "short_answer",
+   "question_pattern": "Name the three states of water and give one example of each from daily life.",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Solid -- ice in the",
+     "explain": "Solid -- ice in the freezer; Liquid -- water in a glass; Gas -- water vapour in the air."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "fecu108.txt",
+   "concept": "c6cu.8.1",
+   "question_type": "short_answer",
+   "question_pattern": "When water is heated, it changes from liquid to gas. What is this gaseous state called and what property does it have?",
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "The gaseous state of water",
+     "explain": "The gaseous state of water is called water vapour. It has neither a fixed shape nor a fixed volume and spreads to fill any container."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache"
+}

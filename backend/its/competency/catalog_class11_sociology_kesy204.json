@@ -1,0 +1,240 @@
+{
+ "class": 11,
+ "subject": "sociology",
+ "chapter": 204,
+ "chapter_title": "Introducing Western Sociologists",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kesy204.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kesy204.1.1",
+   "title": "The Age of Revolution and the Birth of Sociology",
+   "section": "1.1",
+   "definition": "Sociology emerged in the nineteenth century as the child of revolution: the French Revolution upheaval in politics and the industrial transformation of work and city life posed problems no old framework could answer. The first sociologists set out to make sense of this new society -- its division of labour, its rationality, its classes and its despair.",
+   "formula": "",
+   "key_idea": "Sociology was born to explain the modern world at the moment the old order broke apart.",
+   "textbook_ref": "kesy204.txt lines 15-130 (introduction, sociology as child of the age of revolution, french revolution, industrial revolution and capitalism, enlightenment)",
+   "question_patterns": [
+    "why is sociology called the child of the age of revolution",
+    "in class 11 introducing western sociologists: how did industrialisation create sociology's first questions",
+    "what problems of modern society interested the founders",
+    "connect the enlightenment with the birth of sociology",
+    "what does the term modernity mean in sociology",
+    "why were the founding thinkers European"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "date the birth",
+     "explain": "Nineteenth-century Europe saw political revolution, industrial capitalism and urban upheaval -- a society unlike anything before."
+    },
+    {
+     "step": 2,
+     "action": "list the puzzles",
+     "explain": "Factory discipline, class conflict, urban anonymity and scientific worldview demanded new concepts and methods."
+    },
+    {
+     "step": 3,
+     "action": "name the answer",
+     "explain": "Sociology arose to analyse this modernity, and its founding thinkers each took a different slice of it."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Sociology emerged as the child of revolution in which century?",
+     "a": "the nineteenth century"
+    }
+   ]
+  },
+  {
+   "id": "kesy204.1.2",
+   "title": "Karl Marx: Classes, Capital and Conflict",
+   "section": "1.2",
+   "definition": "Marx read history as the history of class struggle. Under capitalism the two central classes are the bourgeoisie, owners of the means of production, and the proletariat, sellers of labour power. Surplus value extracted from workers drives accumulation and alienation -- workers estranged from their product, their work and themselves -- until, Marx predicted, the system's contradictions transform it.",
+   "formula": "",
+   "key_idea": "Who owns production decides who rules -- class struggle is the motor of history and alienation its human cost.",
+   "textbook_ref": "kesy204.txt lines 130-280 (karl marx, class struggle, bourgeoisie and proletariat, surplus value, alienation, materialist conception of history)",
+   "question_patterns": [
+    "explain marx's idea of class struggle as the motor of history",
+    "in class 11 introducing western sociologists: what are surplus value and exploitation",
+    "describe the two main classes of capitalist society",
+    "what does alienation of labour mean",
+    "how does the materialist view of history differ from idealism",
+    "why did marx think capitalism carries the seeds of its own transformation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify the classes",
+     "explain": "Follow ownership: those who own factories and land (bourgeoisie) confront those who own only their labour (proletariat)."
+    },
+    {
+     "step": 2,
+     "action": "follow the extraction",
+     "explain": "Workers produce more value than they are paid; the surplus accrues to owners -- the mechanism of exploitation."
+    },
+    {
+     "step": 3,
+     "action": "follow the human cost",
+     "explain": "Assembly-line work estranges workers from product, process and fellow workers -- alienation -- while class conflict drives historical change."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Marx read history as the history of what?",
+     "a": "class struggle"
+    }
+   ]
+  },
+  {
+   "id": "kesy204.1.3",
+   "title": "Emile Durkheim: Social Facts, Solidarity and Suicide",
+   "section": "1.3",
+   "definition": "Durkheim insisted society is a reality of its own: social facts -- norms, institutions, currents of opinion -- exist outside individuals and constrain them, and must be explained by other social facts. He traced the shift from mechanical solidarity (likeness-based, in simple societies) to organic solidarity (interdependence-based, in complex ones) and used suicide rates to show even the most personal act follows social currents.",
+   "formula": "",
+   "key_idea": "Society is a thing with its own forces -- even suicide rates follow social facts, not private moods.",
+   "textbook_ref": "kesy204.txt lines 280-420 (emile durkheim, social facts, mechanical and organic solidarity, division of labour, suicide as social, anomie)",
+   "question_patterns": [
+    "what are social facts and how should they be studied",
+    "in class 11 introducing western sociologists: distinguish mechanical and organic solidarity",
+    "how does durkheim explain suicide as a social phenomenon",
+    "what is anomie and when does it arise",
+    "why did durkheim treat the division of labour as moral as well as economic",
+    "how does durkheim differ from marx on what holds society together"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define the discipline's object",
+     "explain": "Social facts are collective ways of acting and thinking external to individuals and coercive upon them."
+    },
+    {
+     "step": 2,
+     "action": "trace the solidarity shift",
+     "explain": "Small homogeneous societies cohere by likeness (mechanical); large differentiated ones cohere by mutual dependence (organic)."
+    },
+    {
+     "step": 3,
+     "action": "apply to suicide",
+     "explain": "Suicide rates vary with integration and regulation -- egoistic, altruistic and anomic types -- proving even intimate acts carry social causes."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Norms and institutions existing outside individuals and constraining them are called social what?",
+     "a": "facts"
+    }
+   ]
+  },
+  {
+   "id": "kesy204.1.4",
+   "title": "Max Weber: Rationalisation, Bureaucracy and the Protestant Ethic",
+   "section": "1.4",
+   "definition": "Weber saw modernity as rationalisation -- the relentless organisation of life around efficiency, calculation and rules. Its purest instrument is bureaucracy, hierarchy of offices with written rules and impersonal operation. Against materialism he argued ideas matter too: the Protestant ethic's inner-worldly discipline, he claimed, helped birth the spirit of capitalism.",
+   "formula": "",
+   "key_idea": "Modernity is the triumph of calculation -- bureaucratic rules everywhere, and even capitalism has a religious biography.",
+   "textbook_ref": "kesy204.txt lines 420-560 (max weber, rationalisation, bureaucracy, protestant ethic and spirit of capitalism, ideal types, understanding social action)",
+   "question_patterns": [
+    "what does weber mean by rationalisation of society",
+    "in class 11 introducing western sociologists: describe the features of bureaucracy according to weber",
+    "how does the protestant ethic relate to the spirit of capitalism",
+    "why did weber fear the iron cage of rationality",
+    "distinguish weber's approach from marx's on the origin of capitalism",
+    "what are ideal types and why does weber use them"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "name the master trend",
+     "explain": "Modernity replaces tradition and sentiment with calculated, rule-governed efficiency -- rationalisation in every sphere."
+    },
+    {
+     "step": 2,
+     "action": "study its machine",
+     "explain": "Bureaucracy -- offices, hierarchies, files, impersonality -- is rationalisation's most powerful embodiment, efficient yet entangling like an iron cage."
+    },
+    {
+     "step": 3,
+     "action": "add the ideas channel",
+     "explain": "Weber's Protestant ethic study showed religiously rooted discipline and calling could feed capitalist accumulation -- ideas share causal work with economics."
+    }
+   ],
+   "worked_examples": [
+    {
+     "q": "Weber saw modernity as the relentless organisation of life around efficiency and rules, called what?",
+     "a": "rationalisation"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "kesy204.txt lines 130-280 (marx)",
+   "concept": "kesy204.1.2",
+   "question_type": "verify_property",
+   "question_pattern": "A garment worker stitches shirts all day in a factory but cannot afford one. Explain this case using surplus value and alienation.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the surplus value lens",
+     "explain": "The value she adds in a day far exceeds her wage; the difference is surplus, taken by the owner -- the exploitation mechanism."
+    },
+    {
+     "step": 2,
+     "action": "apply the alienation lens",
+     "explain": "Repeating one stitch-sequence, owning neither product nor process, she is estranged from the work and its fruit -- unable to buy the shirt she makes."
+    },
+    {
+     "step": 3,
+     "action": "connect to class",
+     "explain": "Her situation is not personal bad luck but her structural position in the class relation Marx analysed."
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "kesy204.txt lines 280-420 (durkheim)",
+   "concept": "kesy204.1.3",
+   "question_type": "verify_property",
+   "question_pattern": "Suicide rates are found to be higher among uprooted migrants in a big city than among settled villagers. Interpret the finding using Durkheim's concepts.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "treat the rate as social",
+     "explain": "Durkheim begins with the pattern in rates, not individual motives -- a social fact to be explained socially."
+    },
+    {
+     "step": 2,
+     "action": "apply integration and regulation",
+     "explain": "Migrants lack the dense ties and shared norms of village life -- weak integration and uncertain regulation mark egoistic and anomic types."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "The gap in rates reflects differing social currents, confirming Durkheim's claim that even suicide follows society."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "kesy204.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "Why did sociology emerge in the nineteenth century? Relate it to the revolutions of the age.",
+    "Explain Marx's concepts of class struggle, surplus value and alienation.",
+    "What are social facts? How does Durkheim study suicide as a social fact?",
+    "Distinguish mechanical and organic solidarity.",
+    "Describe Weber's account of rationalisation and bureaucracy.",
+    "Compare Marx and Weber on the rise of capitalism."
+   ]
+  }
+ ]
+}

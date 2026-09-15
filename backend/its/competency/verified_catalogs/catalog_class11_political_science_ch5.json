@@ -1,0 +1,522 @@
+{
+ "class": "11",
+ "subject": "political_science",
+ "chapter": 5,
+ "chapter_title": "Legislature",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\keps205.txt",
+ "concepts": [
+  {
+   "id": "c11ps.5.1",
+   "title": "Meaning and Need for Legislature",
+   "section": "Meaning and Need for Legislature",
+   "definition": "The legislature is the law-making organ of government that debates, passes, amends, and repeals laws and also exercises control over the executive through financial and other means.",
+   "formula": "",
+   "key_idea": "The legislature is the representative body that makes laws, controls finances, and holds the executive accountable, making it central to democratic government.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the legislature and why is it needed?",
+    "Explain the main functions of the legislature.",
+    "Why is the legislature considered the first organ of government?",
+    "How does the legislature control the executive?",
+    "What is the role of the legislature in a democracy?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the legislature as the law-making organ",
+     "explain": "The legislature is the body of representatives empowered to make, amend, and repeal laws for the country."
+    },
+    {
+     "step": 2,
+     "action": "Identify its core functions",
+     "explain": "The legislature makes laws, approves budgets and taxes, discusses public policy, and holds the executive accountable through questions and motions."
+    },
+    {
+     "step": 3,
+     "action": "Explain why a legislature is needed in a democracy",
+     "explain": "Because law-making and control over public money must rest with elected representatives, a legislature is essential for democratic legitimacy and accountability."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is the legislature called the first organ of government?",
+     "solution": "Step 1: The legislature makes the laws that the executive implements and the judiciary interprets. Step 2: Without laws made by the legislature, the other organs would have nothing to execute or interpret. Step 3: Hence the legislature is called the first organ of government.",
+     "answer": "Because it makes the laws that the executive and judiciary act upon, making it the starting point of governance"
+    },
+    {
+     "question": "How does the legislature exercise control over the executive?",
+     "solution": "Step 1: The legislature can question ministers, move motions, and pass no-confidence motions. Step 2: It approves the budget, so the executive cannot spend money without legislative sanction. Step 3: Thus the legislature keeps the executive accountable.",
+     "answer": "Through questions, motions, budget approval, and no-confidence motions"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning and need for a legislature in a democratic government.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State any two functions of the legislature.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.5.2",
+   "title": "Types of Legislature: Unicameral and Bicameral",
+   "section": "Types of Legislature",
+   "definition": "A unicameral legislature has a single house or chamber, while a bicameral legislature has two houses -- usually a lower house and an upper house -- that share law-making power.",
+   "formula": "",
+   "key_idea": "Bicameralism provides a second look at legislation and representation for diverse units, while unicameralism is simpler and faster; the choice depends on the size and federal character of the country.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Distinguish between unicameral and bicameral legislature.",
+    "Why does India have a bicameral legislature?",
+    "What are the advantages of a bicameral legislature?",
+    "When is a unicameral legislature preferred?",
+    "Explain the rationale for having two houses in a federal country."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define unicameral and bicameral legislatures",
+     "explain": "A unicameral legislature has one house; a bicameral legislature has two houses, a lower house and an upper house."
+    },
+    {
+     "step": 2,
+     "action": "Explain the rationale for each type",
+     "explain": "Unicameralism is simple, quick, and economical; bicameralism allows a second look at bills and gives representation to states or regions in a federal system."
+    },
+    {
+     "step": 3,
+     "action": "Relate the choice to the nature of the country",
+     "explain": "Large federal countries like India adopt bicameralism to represent diverse units, while small unitary states may prefer unicameralism for efficiency."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why does India have a bicameral legislature at the Union level?",
+     "solution": "Step 1: India is a large federal country with diverse states. Step 2: A second house (Rajya Sabha) gives representation to the states in law-making. Step 3: Therefore India adopted a bicameral legislature.",
+     "answer": "To give representation to states and provide a second look at legislation in a federal country"
+    },
+    {
+     "question": "What is the main advantage of a unicameral legislature?",
+     "solution": "Step 1: A unicameral legislature has only one house. Step 2: Bills are passed without the delay of a second house. Step 3: Hence it is simpler, faster, and less expensive.",
+     "answer": "It is simpler, faster, and more economical as it avoids the delay of a second house"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Distinguish between unicameral and bicameral legislatures and explain why India adopted bicameralism.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State one advantage each of unicameral and bicameral legislatures.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.5.3",
+   "title": "Parliament of India: Lok Sabha",
+   "section": "Parliament of India: Lok Sabha",
+   "definition": "The Lok Sabha or House of the People is the directly elected lower house of India's Parliament, currently consisting of 543 members chosen by direct election from territorial constituencies under the first-past-the-post system.",
+   "formula": "total_members = elected_members + nominated_members",
+   "key_idea": "The Lok Sabha is the popular house directly elected by the people, with a maximum strength of 552 members, a term of five years, and the power to make laws and control the executive through collective responsibility.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the composition of the Lok Sabha?",
+    "How are members of the Lok Sabha elected?",
+    "What is the maximum strength of the Lok Sabha?",
+    "Explain the term of the Lok Sabha.",
+    "Why is the Lok Sabha called the popular house?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the elected members from territorial constituencies",
+     "explain": "Members are directly elected from single-member constituencies under the first-past-the-post system.",
+     "compute": "543"
+    },
+    {
+     "step": 2,
+     "action": "Add the nominated members if applicable",
+     "explain": "Up to two Anglo-Indian members could be nominated earlier; the current strength is based on elected members.",
+     "compute": "0"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the total strength of the Lok Sabha",
+     "explain": "The total strength is the sum of elected and nominated members, not exceeding the constitutional maximum of 552.",
+     "compute": "elected_members + nominated_members"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "If the Lok Sabha has 543 elected members and no nominated members, what is its total strength?",
+     "solution": "Step 1: Elected members = 543. Step 2: Nominated members = 0. Step 3: Total strength = 543 + 0 = 543.",
+     "answer": "Total strength = 543 members"
+    },
+    {
+     "question": "The constitutional maximum strength of the Lok Sabha is 552. If 543 members are elected, how many members can be nominated?",
+     "solution": "Step 1: Maximum strength = 552. Step 2: Elected members = 543. Step 3: Nominable members = 552 - 543 = 9.",
+     "answer": "Up to 9 members can be nominated"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the composition, election, and term of the Lok Sabha.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is the Lok Sabha called the popular house of Parliament?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.5.4",
+   "title": "Parliament of India: Rajya Sabha",
+   "section": "Parliament of India: Rajya Sabha",
+   "definition": "The Rajya Sabha or Council of States is the upper house of India's Parliament, a permanent body of 245 members elected indirectly by the elected members of State Legislative Assemblies, representing the states and union territories.",
+   "formula": "total_members = state_representatives + union_territory_representatives + nominated_members",
+   "key_idea": "The Rajya Sabha is a permanent house that cannot be dissolved, with members serving six-year terms with one-third retiring every two years, representing the federal principle by giving states an equal voice in legislation.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the composition of the Rajya Sabha?",
+    "How are members of the Rajya Sabha elected?",
+    "Why is the Rajya Sabha called a permanent house?",
+    "Explain the federal character of the Rajya Sabha.",
+    "What is the term of a Rajya Sabha member?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Count the representatives elected by state legislative assemblies",
+     "explain": "Members are elected by the elected members of State Legislative Assemblies using proportional representation with single transferable vote.",
+     "compute": "233"
+    },
+    {
+     "step": 2,
+     "action": "Count the representatives from union territories and nominated members",
+     "explain": "Union territory representatives are chosen by indirect election, and up to 12 members are nominated by the President for their expertise.",
+     "compute": "12"
+    },
+    {
+     "step": 3,
+     "action": "Calculate the total strength of the Rajya Sabha",
+     "explain": "The total strength is the sum of state, union territory, and nominated members, currently 245.",
+     "compute": "state_representatives + union_territory_representatives + nominated_members"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "If the Rajya Sabha has 233 state representatives and 12 nominated members, what is its total strength?",
+     "solution": "Step 1: State representatives = 233. Step 2: Nominated members = 12. Step 3: Total strength = 233 + 12 = 245.",
+     "answer": "Total strength = 245 members"
+    },
+    {
+     "question": "One-third of the Rajya Sabha members retire every two years. If the total strength is 245, approximately how many members retire every two years?",
+     "solution": "Step 1: Total strength = 245. Step 2: One-third retire every two years. Step 3: Members retiring = 245 / 3 = approximately 82 members.",
+     "answer": "Approximately 82 members retire every two years"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the composition, election, and federal character of the Rajya Sabha.",
+     "type": "long_answer"
+    },
+    {
+     "question": "Why is the Rajya Sabha called a permanent house?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.5.5",
+   "title": "Law-Making Process in Parliament",
+   "section": "Law-Making Process",
+   "definition": "The law-making process is the procedure by which a bill passes through three readings in each house of Parliament, is examined by committees, and receives the President's assent to become an Act.",
+   "formula": "",
+   "key_idea": "A bill must pass through first reading (introduction), second reading (detailed scrutiny and discussion), and third reading (voting) in both houses before receiving the President's assent to become law.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the different stages of the law-making process in Parliament.",
+    "What is the difference between a money bill and an ordinary bill?",
+    "How does a bill become an Act in India?",
+    "What happens at the first, second, and third readings of a bill?",
+    "What role does the President play in the law-making process?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Trace the introduction and first reading of the bill",
+     "explain": "The bill is introduced in either house; the first reading involves only the reading of the title and publication in the gazette."
+    },
+    {
+     "step": 2,
+     "action": "Explain the second reading and committee scrutiny",
+     "explain": "The second reading involves general discussion, committee examination, and clause-by-clause consideration, where the bill is debated in detail."
+    },
+    {
+     "step": 3,
+     "action": "Describe the third reading and the President's assent",
+     "explain": "At the third reading the bill is voted upon as a whole; after passing both houses it goes to the President, whose assent makes it an Act of Parliament."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the difference between an ordinary bill and a money bill in terms of passage?",
+     "solution": "Step 1: An ordinary bill can be introduced in either house and must pass both houses. Step 2: A money bill can only be introduced in the Lok Sabha and the Rajya Sabha can only suggest amendments within 14 days. Step 3: Thus a money bill has a more restricted role for the Rajya Sabha.",
+     "answer": "A money bill originates only in the Lok Sabha and the Rajya Sabha has limited power to delay it for 14 days, while an ordinary bill must pass both houses equally"
+    },
+    {
+     "question": "At which reading is a bill discussed in detail clause by clause?",
+     "solution": "Step 1: The first reading is only the introduction. Step 2: The second reading involves general discussion and clause-by-clause consideration. Step 3: Therefore detailed discussion happens at the second reading.",
+     "answer": "At the second reading of the bill"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the various stages through which an ordinary bill passes before becoming an Act.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is the role of the President's assent in the law-making process?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.5.6",
+   "title": "Parliamentary Committees",
+   "section": "Parliamentary Committees",
+   "definition": "Parliamentary committees are small groups of members appointed or elected by Parliament to examine bills, budgets, and government policies in detail and report back to the house, enabling detailed scrutiny that the full house cannot perform.",
+   "formula": "",
+   "key_idea": "Parliamentary committees do the detailed work of examining bills, budgets, and government accounts, allowing Parliament to scrutinize legislation and expenditure efficiently.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are parliamentary committees and why are they important?",
+    "Explain the role of the Public Accounts Committee.",
+    "What is the difference between standing and ad hoc committees?",
+    "How do parliamentary committees help in the legislative process?",
+    "What is the function of the Estimates Committee?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define parliamentary committees",
+     "explain": "Parliamentary committees are subsets of members tasked with examining specific matters in detail on behalf of Parliament."
+    },
+    {
+     "step": 2,
+     "action": "Classify the types of committees",
+     "explain": "Standing committees are permanent (e.g., Public Accounts Committee, Estimates Committee), while ad hoc committees are temporary and created for specific tasks."
+    },
+    {
+     "step": 3,
+     "action": "Explain their contribution to legislative scrutiny",
+     "explain": "Committees examine bills, budgets, and government accounts in detail, submit reports, and enable the full house to make informed decisions."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is the role of the Public Accounts Committee?",
+     "solution": "Step 1: The Public Accounts Committee examines the accounts of government expenditure. Step 2: It checks whether the money spent was within the sanctions of Parliament. Step 3: Thus it ensures financial accountability of the executive.",
+     "answer": "It examines government expenditure and ensures that money was spent as authorized by Parliament"
+    },
+    {
+     "question": "Why are parliamentary committees necessary when the full house can discuss bills?",
+     "solution": "Step 1: The full house has limited time to discuss every bill in detail. Step 2: A small committee can examine bills clause by clause and consult experts. Step 3: Hence committees enable thorough scrutiny that the full house cannot provide.",
+     "answer": "Because they allow detailed, expert-level scrutiny of bills and budgets that the full house cannot perform due to time constraints"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the role and types of parliamentary committees in the working of Parliament.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State one function of the Estimates Committee.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.5.7",
+   "title": "Role of the Opposition",
+   "section": "Role of the Opposition",
+   "definition": "The opposition in Parliament consists of the party or parties that are not part of the government; their role is to criticise government policies, offer alternative policies, and hold the government accountable to the legislature and the public.",
+   "formula": "",
+   "key_idea": "A strong opposition is essential to democracy because it scrutinises the government, exposes its shortcomings, provides alternative policies, and ensures that the ruling party remains responsive and accountable.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is the role of the opposition in Parliament?",
+    "Why is a strong opposition important in a democracy?",
+    "How does the opposition hold the government accountable?",
+    "What is the function of the Leader of the Opposition?",
+    "Explain the relationship between the ruling party and the opposition in Parliament."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the opposition in Parliament",
+     "explain": "The opposition consists of parties or members not forming the government; they lost the election or do not support the ruling coalition."
+    },
+    {
+     "step": 2,
+     "action": "Explain the functions of the opposition",
+     "explain": "The opposition criticises government policies, moves amendments, raises questions, exposes shortcomings, and presents alternative policies."
+    },
+    {
+     "step": 3,
+     "action": "Explain why a strong opposition is necessary",
+     "explain": "A strong opposition ensures accountability, prevents the ruling party from becoming authoritarian, and gives voters a real alternative, which is essential for a healthy democracy."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is the opposition called the 'government in waiting'?",
+     "solution": "Step 1: The opposition presents alternative policies to the government's. Step 2: If the ruling party loses majority or an election, the opposition can form the government. Step 3: Hence the opposition is described as a government in waiting.",
+     "answer": "Because it offers alternative policies and can form the government if the ruling party loses its majority"
+    },
+    {
+     "question": "How does the opposition contribute to the accountability of the government?",
+     "solution": "Step 1: The opposition asks questions and moves motions in Parliament. Step 2: It criticises policies and exposes failures of the government. Step 3: This forces the government to justify its actions and remain accountable.",
+     "answer": "By questioning, criticising, and exposing government failures, it forces the government to justify its actions"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the role and importance of the opposition in a parliamentary democracy.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State two ways in which the opposition holds the government accountable.",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.5.8",
+   "title": "Legislative-Executive Relations",
+   "section": "Legislative-Executive Relations",
+   "definition": "Legislative-executive relations refer to the constitutional relationship between the legislature and the executive, in which the executive is drawn from and collectively responsible to the legislature, especially the lower house, in a parliamentary system.",
+   "formula": "",
+   "key_idea": "In India's parliamentary system, the executive is part of and accountable to the legislature; the Council of Ministers is collectively responsible to the Lok Sabha, linking the two organs closely.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Explain the relationship between the legislature and the executive in India.",
+    "What is meant by collective responsibility of the executive to the legislature?",
+    "How does the legislature control the executive in a parliamentary system?",
+    "Why is the executive a part of the legislature in India?",
+    "What happens when the government loses a no-confidence motion in the Lok Sabha?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the constitutional basis of the relationship",
+     "explain": "In a parliamentary system, the executive is drawn from the legislature and the Council of Ministers is collectively responsible to the Lok Sabha."
+    },
+    {
+     "step": 2,
+     "action": "Explain the mechanisms of legislative control",
+     "explain": "The legislature controls the executive through questions, motions, budget approval, and the power to pass a no-confidence motion."
+    },
+    {
+     "step": 3,
+     "action": "Describe the consequence of losing the legislature's confidence",
+     "explain": "If the government loses a no-confidence motion in the Lok Sabha, the Council of Ministers must resign, showing the executive's dependence on legislative support."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is the executive considered a part of the legislature in India?",
+     "solution": "Step 1: Ministers are members of either the Lok Sabha or the Rajya Sabha. Step 2: The Council of Ministers is drawn from Parliament. Step 3: Hence the executive is a part of the legislature.",
+     "answer": "Because ministers are members of Parliament and the Council of Ministers is drawn from the legislature"
+    },
+    {
+     "question": "What is the significance of collective responsibility of the executive to the Lok Sabha?",
+     "solution": "Step 1: Collective responsibility means the entire Council of Ministers stands or falls together. Step 2: If the Lok Sabha passes a no-confidence motion, the whole Council must resign. Step 3: This ensures the executive remains accountable to the legislature.",
+     "answer": "It ensures the entire Council of Ministers is accountable to the Lok Sabha and must resign if it loses a no-confidence motion"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the legislative-executive relations in India's parliamentary system.",
+     "type": "long_answer"
+    },
+    {
+     "question": "What is meant by collective responsibility of the Council of Ministers?",
+     "type": "short_answer"
+    }
+   ]
+  },
+  {
+   "id": "c11ps.5.9",
+   "title": "Parliamentary Privileges",
+   "section": "Parliamentary Privileges",
+   "definition": "Parliamentary privileges are special rights, immunities, and exemptions enjoyed by Parliament, its members, and committees, which are necessary for the proper functioning and dignity of the legislature.",
+   "formula": "",
+   "key_idea": "Parliamentary privileges allow members to speak freely in the house, protect them from legal action for speeches and votes, and empower Parliament to punish for breach of privilege, ensuring independent functioning of the legislature.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are parliamentary privileges?",
+    "Why are parliamentary privileges necessary?",
+    "What is the difference between individual and collective privileges?",
+    "Explain the freedom of speech enjoyed by members of Parliament.",
+    "What is meant by breach of privilege?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define parliamentary privileges",
+     "explain": "Parliamentary privileges are special rights and immunities enjoyed by Parliament and its members to enable them to function independently and effectively."
+    },
+    {
+     "step": 2,
+     "action": "Distinguish individual and collective privileges",
+     "explain": "Individual privileges include freedom of speech in the house and freedom from arrest in civil cases; collective privileges include the right to publish debates and to exclude strangers."
+    },
+    {
+     "step": 3,
+     "action": "Explain the purpose and breach of privilege",
+     "explain": "Privileges ensure that members can speak and vote without fear; any violation of these rights constitutes a breach of privilege, which Parliament can punish."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why do members of Parliament enjoy freedom of speech inside the house?",
+     "solution": "Step 1: Members must be able to debate issues freely without fear of legal action. Step 2: Freedom of speech in the house is a parliamentary privilege under Article 105. Step 3: This ensures independent and fearless functioning of Parliament.",
+     "answer": "To enable fearless debate, members cannot be questioned in any court for what they say in the house under Article 105"
+    },
+    {
+     "question": "What is a breach of privilege?",
+     "solution": "Step 1: Parliamentary privileges protect the functioning and dignity of Parliament. Step 2: Any act that violates these privileges obstructs the work of Parliament. Step 3: Such a violation is a breach of privilege and can be punished by Parliament.",
+     "answer": "Any act that violates or obstructs the privileges of Parliament or its members, punishable by the house"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Explain the meaning, types, and importance of parliamentary privileges.",
+     "type": "long_answer"
+    },
+    {
+     "question": "State two individual privileges enjoyed by members of Parliament.",
+     "type": "short_answer"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)"
+}

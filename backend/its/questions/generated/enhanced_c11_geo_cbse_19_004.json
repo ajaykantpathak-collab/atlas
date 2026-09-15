@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_19_004",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_19_004",
+   "title": "c11_geo_cbse_19_004",
+   "questions": [
+    {
+     "q": "Name the three major geological formations in India that host economically viable limestone deposits and state the dominant geological period for each.",
+     "a": "The three major limestone-hosting formations are: (1) Vindhyan Supergroup (Proterozoic, 1600–1000 Ma) — extensive across Madhya Pradesh, Uttar Pradesh, Rajasthan; (2) Cuddapah Supergroup (Proterozoic, 1600–1100 Ma) — Andhra Pradesh, Telangana, Karnataka; (3) Bijawar Group (Proterozoic) — Madhya Pradesh, Uttar Pradesh. A wrong answer (e.g., naming Gondwana or Deccan Traps) reveals the student confuses sedimentary limestone basins with coal-bearing Gondwana basins or volcanic Deccan basalts, indicating they have not linked limestone to shallow marine carbonate platforms of the Proterozoic.",
+     "self_check": true
+    },
+    {
+     "q": "Why does high-quality sheet mica occur almost exclusively in pegmatite veins cutting Archaean gneisses of the Chota Nagpur Plateau, and not in the younger sedimentary basins where limestone is found?",
+     "a": "Sheet mica (muscovite) requires extremely slow crystallisation from volatile-rich, water-saturated granitic melts in the final stages of magma solidification — conditions met only in pegmatite veins intruding high-grade metamorphic gneisses. Limestone forms by chemical/biochemical precipitation in shallow marine basins. A student who answers \"both are metamorphic\" or \"mica is sedimentary\" fails to distinguish igneous-hydrothermal origin of mica from sedimentary origin of limestone, a fundamental Class 11 error in mineral genesis classification.",
+     "self_check": true
+    },
+    {
+     "q": "Using the production data below, calculate the percentage share of the top three limestone-producing states and explain why this concentration matters for India's cement industry.\nMadhya Pradesh: 28%, Rajasthan: 20%, Andhra Pradesh: 13%, Gujarat: 11%, Chhattisgarh: 9%, Others: 19%",
+     "a": "Top three share = 28% + 20% + 13% = 61%. This concentration means over 60% of cement raw material comes from just three states, creating high transport costs for cement plants in deficit regions (e.g., Punjab, West Bengal) and driving the clustering of cement factories near Vindhyan limestone belts (Satna, Katni, Chanderia). A wrong calculation or failure to link concentration to industrial location reveals inability to connect mineral geography to economic geography — a core Class 11 competency.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the regional economic impact of mica mining in Koderma (Jharkhand) versus limestone mining in Satna (Madhya Pradesh). Which generates more sustainable livelihood diversification and why?",
+     "a": "Limestone mining in Satna supports large-scale cement plants, ancillary industries, and urban infrastructure, creating diverse formal employment (engineers, technicians, logistics, construction). Mica mining in Koderma remains largely artisanal, informal, and export-oriented with minimal value addition locally; it generates seasonal, low-wage labour with high occupational health risks (silicosis). A student who claims \"both create equal jobs\" misses the structural difference: limestone feeds a capital-intensive, forward-linked manufacturing chain; mica feeds a labour-intensive, extractive export chain — a key distinction in resource-based regional development.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India should ban mica exports to conserve this non-renewable resource for domestic strategic industries.\" Consider geological scarcity, industrial substitutability, and foreign exchange.",
+     "a": "A ban is not justified: (1) India holds ~60% of global sheet mica reserves (Koderma, Gudur, Ajmer) — no immediate scarcity; (2) synthetic mica and substitutes (polyimide films, fibreglass) already replace natural mica in most electrical applications, reducing strategic indispensability; (3) Mica exports earn ~₹300–400 crore annually, supporting artisanal miners' livelihoods. Better policy: regulate illegal mining, enforce environmental clearance, promote domestic value addition (mica paper, capacitors). A student advocating blanket ban ignores substitutability and livelihood dimensions — a simplistic conservation view.",
+     "self_check": true
+    },
+    {
+     "q": "Design a map annotation exercise for a Class 11 student to show the geological control on mica and limestone distribution. Specify the base map layers, symbols, and three analytical questions the completed map should answer.",
+     "a": "Base layers: (1) Outline map of India with state boundaries; (2) Geological provinces (Archaean gneisses, Proterozoic basins, Gondwana, Deccan Traps); (3) Major river systems. Symbols: █ Red triangle = mica pegmatite belt (Koderma, Gudur, Ajmer); ■ Blue square = limestone cement-grade deposits (Satna, Chanderia, Kadapa, Wadi). Analytical questions: (a) Why do mica symbols align only with Archaean crystalline complexes? (b) Why do limestone symbols cluster along Vindhyan/Cuddapah basin margins? (c) Which major industrial corridor (Delhi-Mumbai, Chennai-Bengaluru, Kolkata-Mumbai) benefits most from this distribution? A poor map uses only state boundaries without geological layers, failing to reveal the causal link between tectonic history and mineral location.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

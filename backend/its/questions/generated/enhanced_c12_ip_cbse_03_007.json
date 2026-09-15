@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ip_cbse_03_007",
+ "concepts": [
+  {
+   "id": "enh:c12_ip_cbse_03_007",
+   "title": "c12_ip_cbse_03_007",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between how a MAC address and an IP address are assigned to a device?",
+     "a": "A MAC address is permanently assigned by the hardware manufacturer during production and burned into the NIC's ROM (though software can override it). An IP address is logically assigned by a network administrator (statically) or a DHCP server (dynamically) each time the device joins a network. A wrong answer — e.g., \"both are assigned by the ISP\" or \"both are configured by the user\" — reveals confusion between hardware-level identity and network-level identity, a common error in board exams where students conflate \"address\" as a single concept.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a data packet traveling from a student's laptop in a school LAN to a website server on the internet needs BOTH a MAC address and an IP address. Use the terms \"Layer 2\" and \"Layer 3\" in your explanation.",
+     "a": "The IP address (Layer 3) identifies the ultimate source and destination across the entire internet — it remains constant from the laptop to the web server. The MAC address (Layer 2) changes at every router hop because it only identifies the immediate next device on the local link (laptop → school switch → school router → ISP router → …). A wrong answer like \"MAC is used for internet, IP for LAN\" or \"only IP is needed because routers use IP\" shows the student hasn't grasped the hop-by-hop nature of Layer 2 forwarding versus end-to-end Layer 3 routing.",
+     "self_check": true
+    },
+    {
+     "q": "A student's laptop (MAC: AA:BB:CC:DD:EE:FF, IP: 192.168.1.50) sends a packet to a printer (MAC: 11:22:33:44:55:66, IP: 192.168.1.100) on the same Wi-Fi network. The packet passes through a wireless access point (which operates at Layer 2). What are the source and destination MAC addresses in the frame when it leaves the laptop, and what are they when the AP forwards it to the printer?",
+     "a": "Leaving laptop: src MAC = AA:BB:CC:DD:EE:FF, dst MAC = 11:22:33:44:55:66 (printer's MAC, obtained via ARP). AP forwards unchanged: src MAC = AA:BB:CC:DD:EE:FF, dst MAC = 11:22:33:44:55:66. A common wrong answer changes the source MAC to the AP's MAC — this reveals the misconception that Layer 2 devices (switches/APs) modify MAC addresses like routers modify IP TTL. In reality, transparent bridges/APs do not alter MAC addresses; only routers (Layer 3) strip and replace the Layer 2 frame.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the scope of uniqueness for MAC addresses vs IPv4 addresses. Why can two devices on different LANs have the same MAC address (in theory) but not the same public IP address?",
+     "a": "MAC addresses must be unique only within a single broadcast domain (LAN) because Layer 2 frames never cross routers. IPv4 public addresses must be globally unique because they are used for routing across the entire internet. Two devices on separate LANs *could* theoretically have the same MAC (though manufacturers avoid this via OUI allocation) because they never directly communicate at Layer 2. A wrong answer stating \"MAC addresses are globally unique like IPs\" or \"IPs only need to be unique in a LAN\" shows failure to understand the hierarchical scope of addressing — a key concept for subnetting and NAT questions in competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "A network administrator claims: \"Since IPv6 has 128-bit addresses, we no longer need MAC addresses — the interface identifier in IPv6 (EUI-64) can serve as the Layer 2 address.\" Evaluate this claim. Is it correct? Why or why not?",
+     "a": "The claim is incorrect. IPv6's interface identifier (derived from MAC via EUI-64 or randomly generated for privacy) is still a Layer 3 concept — it identifies the interface *within the IP layer*. Layer 2 protocols (Ethernet, Wi-Fi) still require their own framing with MAC addresses for hop-by-hop delivery on the physical medium. Even on an IPv6-only network, Ethernet frames carry MAC addresses. A wrong answer accepting the claim reveals a fundamental confusion between addressing at different layers — a trap in JEE-style questions that test layered architecture understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world analogy (different from the postal example) that explains the relationship between MAC address, IP address, and ARP. Your analogy must include: a permanent identifier, a changeable routing identifier, and a lookup mechanism. Write it as a 3-4 sentence scenario.",
+     "a": "Example: In a corporate office, every employee has a permanent employee ID badge (MAC) that never changes. The company assigns temporary desk numbers (IP) that change when employees hot-desk. When you want to deliver a memo to \"Desk 42,\" you first check the directory (ARP) to find which employee ID sits at Desk 42 today, then hand the memo to the internal mail cart (Layer 2) addressed to that employee's badge. A poor analogy that omits the lookup step (ARP) or makes both identifiers permanent shows the student hasn't internalized the dynamic mapping between logical and physical addresses.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

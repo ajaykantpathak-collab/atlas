@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_09_008",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_09_008",
+   "title": "c11_bs_cbse_09_008",
+   "questions": [
+    {
+     "q": "State any four bases on which entrepreneurs can be classified.",
+     "a": "Correct answer: Entrepreneurs can be classified on the basis of (1) type of business activity (industrial, trading, agricultural, service), (2) motivation (pure, induced, motivated, spontaneous), (3) use of technology (technical, non-technical), (4) ownership (private, public, joint), (5) gender (men, women), (6) area (urban, rural), (7) scale (small, medium, large), and (8) attitude towards innovation (innovative, imitative, Fabian, drone). A wrong answer that lists only one or two bases, or confuses classification bases with characteristics of entrepreneurship (like risk-taking, innovation), reveals that the student has memorised a list without understanding the multiple dimensions used for categorisation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between an 'innovative entrepreneur' and an 'imitative entrepreneur' with one example each from the Indian context.",
+     "a": "Correct answer: An innovative entrepreneur introduces new products, new methods of production, discovers new markets, or reorganises the enterprise (e.g., Byju Raveendran introducing app-based learning in India). An imitative entrepreneur copies or adopts innovations made by others, often adapting them to local conditions (e.g., a local entrepreneur starting a food delivery app modelled after Zomato/Swiggy in a tier-2 city). A wrong answer that says imitative entrepreneurs are 'not creative' or 'just copy blindly' reveals a misconception that imitation requires no adaptation or entrepreneurial effort, ignoring that imitative entrepreneurs play a vital role in diffusing innovation.",
+     "self_check": true
+    },
+    {
+     "q": "Ramesh, a mechanical engineer, started a small unit manufacturing customised CNC machine parts for automotive companies. He invested ₹50 lakh in plant and machinery. Classify Ramesh as an entrepreneur on the bases of (a) technology, (b) scale, and (c) type of business activity. Justify each classification.",
+     "a": "Correct answer: (a) Technical entrepreneur – because he uses advanced technology (CNC machines) and his core competency is technical. (b) Small-scale entrepreneur – because investment in plant and machinery is ₹50 lakh, which falls under the micro enterprise category (≤₹1 crore) as per MSMED Act, 2006. (c) Industrial entrepreneur – because he is engaged in manufacturing (production of machine parts). A wrong answer that classifies him as a 'trading entrepreneur' or 'large-scale' shows the student cannot apply the MSME investment thresholds or distinguish manufacturing from trading.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast 'Fabian entrepreneurs' and 'Drone entrepreneurs' in terms of their attitude towards change and risk. Why might a drone entrepreneur eventually exit the market?",
+     "a": "Correct answer: Fabian entrepreneurs are cautious and sceptical about change; they adopt innovations only when it becomes absolutely necessary for survival, but they do not actively resist. Drone entrepreneurs stubbornly refuse to adopt any change even when it leads to losses; they stick to traditional methods and products. A drone entrepreneur may exit the market because their refusal to innovate makes them uncompetitive, leading to declining sales, losses, and eventual closure. A wrong answer that treats both as 'resistant to change' without distinguishing the degree of resistance or the eventual outcome shows superficial understanding of the innovation-adoption spectrum.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Women entrepreneurs in rural India face a unique set of challenges that are not fully captured by classifying them only under 'gender' and 'area' bases.\" Provide two specific challenges to support your evaluation.",
+     "a": "Correct answer: The statement is valid. Classification by gender and area alone overlooks intersectional challenges: (1) Limited access to formal credit due to lack of collateral (land/house often in male relative's name) and low financial literacy, which is not faced by urban women entrepreneurs to the same extent. (2) Socio-cultural barriers like restricted mobility, family opposition, and lack of networking opportunities in rural settings, which are less pronounced for urban women or rural men. A wrong answer that lists generic problems like 'lack of finance' without linking to the rural-gender intersection shows the student cannot analyse how multiple classification bases interact to create unique disadvantage.",
+     "self_check": true
+    },
+    {
+     "q": "Create a profile of a hypothetical entrepreneur who fits the following combination: 'Spontaneous, Technical, Small-scale, Rural, Woman, Innovative'. Describe her venture in 3-4 sentences, ensuring each classification base is reflected.",
+     "a": "Expected answer: Meera, a 28-year-old agricultural science graduate from a village in Maharashtra, spontaneously decided to start a venture after seeing farmers struggle with pest attacks. She used her technical knowledge to develop a low-cost, IoT-based pest monitoring device (technical, innovative) and set up a small assembly unit with an investment of ₹30 lakh (small-scale) in her village (rural). As a woman entrepreneur, she now employs five local women to assemble and service the devices. A poor answer would describe a venture that contradicts one or more bases (e.g., a trading business, or located in a city) or fails to explicitly link each trait to the description, indicating the student cannot synthesise multiple classification dimensions into a coherent profile.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

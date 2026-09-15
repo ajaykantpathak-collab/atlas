@@ -1,0 +1,422 @@
+{
+ "class": 8,
+ "subject": "social_science",
+ "chapter": 307,
+ "chapter_title": "Public Facilities",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache/hess307.txt",
+ "concepts": [
+  {
+   "id": "hess.307.1",
+   "title": "Inequality in Urban Water Supply",
+   "section": "Water and the People of Chennai",
+   "definition": "Disparity in urban domestic water availability across different socio-economic neighborhoods and social strata.",
+   "formula": "water_availability = municipal_supply + private_coping_sources",
+   "key_idea": "Affluent residential areas get regular water supply while impoverished colonies face severe shortages.",
+   "textbook_ref": "hess307.txt lines 45-80",
+   "question_patterns": [
+    "in Class 8 Civics public facilities: why is water availability unequal across Chennai neighborhoods",
+    "how do different socio-economic classes cope with municipal water shortage",
+    "examine the variations in daily water supply between Anna Nagar and Saidapet",
+    "describe how private borewells and water tankers fill urban supply deficits",
+    "explain the impact of municipal water shortfalls on low income slum dwellers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the water allocation across different urban localities",
+     "explain": "Municipal supply favors affluent residential zones over poor settlements."
+    },
+    {
+     "step": 2,
+     "action": "Examine private coping mechanisms available to different income groups",
+     "explain": "Wealthier households purchase bottled water and private tankers while poor residents wait long hours for communal taps."
+    }
+   ]
+  },
+  {
+   "id": "hess.307.2",
+   "title": "Right to Water as a Fundamental Right",
+   "section": "Water as Part of the Fundamental Right to Life",
+   "definition": "The legal principle establishing universal access to safe, affordable, and sufficient drinking water under Article 21.",
+   "formula": "right_to_water = article_21_right_to_life",
+   "key_idea": "Clean drinking water is an integral component of the Right to Life guaranteed by the Constitution.",
+   "textbook_ref": "hess307.txt lines 85-115",
+   "question_patterns": [
+    "in Class 8 Civics: how is the right to water linked to Article 21",
+    "what did the High Court rule in the 2007 Mahbubnagar drinking water contamination case",
+    "explain the concept of universal access to safe drinking water",
+    "why is safe drinking water essential for preventing water-borne diseases",
+    "discuss judicial interpretations of fundamental rights regarding public water access"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Locate constitutional provisions protecting basic survival needs",
+     "explain": "Article 21 guarantees the Right to Life which encompasses safe water access."
+    },
+    {
+     "step": 2,
+     "action": "Analyze court directives enforcing state provision of safe drinking water",
+     "explain": "Judicial decisions mandate that authorities supply adequate clean water to affected communities."
+    }
+   ]
+  },
+  {
+   "id": "hess.307.3",
+   "title": "Characteristics of Public Facilities",
+   "section": "Public Facilities",
+   "definition": "Essential goods and services provided collectively whose benefits are shared simultaneously by many citizens.",
+   "formula": "public_facility_benefit = shared_community_utility",
+   "key_idea": "Once constructed, a public facility serves multiple individuals across a community.",
+   "textbook_ref": "hess307.txt lines 116-145",
+   "question_patterns": [
+    "what are public facilities and what is their primary characteristic",
+    "in Class 8 Civics public facilities: list key examples of public amenities",
+    "explain how a village school or electricity grid benefits an entire area",
+    "why are public transport and healthcare classified as public facilities",
+    "how does shared utility distinguish public facilities from private goods"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify essential shared services in society",
+     "explain": "Facilities like electricity, schools, and sanitation serve collective public needs."
+    },
+    {
+     "step": 2,
+     "action": "Verify shared benefit property",
+     "explain": "A single public facility provides utility to numerous citizens simultaneously."
+    }
+   ]
+  },
+  {
+   "id": "hess.307.4",
+   "title": "Government Role and Market Limitations in Public Facilities",
+   "section": "The Government's Role",
+   "definition": "The duty of the state to supply essential services because private market forces operate primarily for profit.",
+   "formula": "state_duty = basic_needs_provision - profit_motive",
+   "key_idea": "Private firms avoid unprofitable public services, making state provision essential for equal access.",
+   "textbook_ref": "hess307.txt lines 146-185",
+   "question_patterns": [
+    "why must the government bear primary responsibility for providing public facilities",
+    "in Class 8 Civics: why are private companies reluctant to invest in public sanitation",
+    "how does the profit motive restrict private delivery of basic amenities",
+    "what happens when private entities supply essential services at high prices",
+    "evaluate why market forces fail to ensure equitable public facility distribution"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Contrast private market profit objectives with public needs",
+     "explain": "Private businesses require financial profit which non-excludable public goods do not yield."
+    },
+    {
+     "step": 2,
+     "action": "Establish state constitutional mandate",
+     "explain": "The government must ensure affordable basic amenities for all citizens regardless of income."
+    }
+   ]
+  },
+  {
+   "id": "hess.307.5",
+   "title": "Calculation of Daily Household Water Requirement",
+   "section": "Where does the government get money for public facilities?",
+   "definition": "The total volume of clean water needed daily by a family based on recommended per capita urban supply norms.",
+   "formula": "total_water_needed = household_members * daily_norm_per_person",
+   "key_idea": "Multiplying family size by standard per-person daily allocation determines total domestic water demand.",
+   "textbook_ref": "hess307.txt lines 186-220",
+   "question_patterns": [
+    "in Class 8 Civics public facilities: calculate the daily water requirement for a family of given size",
+    "find the total daily household water demand using urban per capita norms",
+    "what is the total water volume required per day for a household of several members",
+    "how much water does a family need daily if standard supply norm per person is known",
+    "compute total daily domestic water requirement for a specified family size"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply household size by daily per capita norm",
+     "explain": "Total daily household requirement is the product of family size and individual daily norm.",
+     "compute": "total_water_needed = household_members * daily_norm_per_person"
+    }
+   ]
+  },
+  {
+   "id": "hess.307.6",
+   "title": "Calculation of Water Supply Deficit",
+   "section": "In Search of Alternatives",
+   "definition": "The difference between the standard per capita daily water allocation prescribed by urban authorities and the actual volume supplied to a resident.",
+   "formula": "water_deficit = urban_standard_norm - actual_daily_supply",
+   "key_idea": "Subtracting actual supply from the Urban Water Commission benchmark yields the daily shortfall.",
+   "textbook_ref": "hess307.txt lines 255-285",
+   "question_patterns": [
+    "in Class 8 Social Science: compute the daily water deficit per person in slum areas",
+    "calculate the difference between standard urban water norm and actual daily supply",
+    "find the daily per capita water shortfall for a resident getting less than the standard norm",
+    "how much is the daily per person water deficit when actual supply falls below the benchmark",
+    "determine the per capita water shortage in an urban settlement"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract actual daily per capita supply from urban water benchmark norm",
+     "explain": "Deficit is the difference between standard allocation and actual volume received.",
+     "compute": "water_deficit = urban_standard_norm - actual_daily_supply"
+    }
+   ]
+  },
+  {
+   "id": "hess.307.7",
+   "title": "Commercialization of Water and Rural Groundwater Exploitation",
+   "section": "Water Supply to Chennai: Is it Available to All?",
+   "definition": "The extraction of groundwater from agricultural villages by private vendors to supply urban commercial markets.",
+   "formula": "groundwater_depletion = private_commercial_extraction",
+   "key_idea": "Transporting rural groundwater to cities lowers water tables and deprives villagers of drinking water.",
+   "textbook_ref": "hess307.txt lines 221-254",
+   "question_patterns": [
+    "how does private water trading affect agricultural communities near cities",
+    "in Class 8 Civics: examine the consequences of groundwater extraction in villages surrounding Chennai",
+    "why do private tankers buy water from farmers and what impact does it have",
+    "describe how commercial water markets lead to severe groundwater depletion",
+    "discuss the ethical and legal issues of extracting rural drinking water for urban use"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify commercial contracts between water dealers and agricultural landowners",
+     "explain": "Private vendors pay advances to farmers to extract groundwater from rural agricultural plots."
+    },
+    {
+     "step": 2,
+     "action": "Analyze environmental and social impacts on local villagers",
+     "explain": "Continuous pumping causes steep groundwater drops and deprives rural populations of drinking water."
+    }
+   ]
+  },
+  {
+   "id": "hess.307.8",
+   "title": "Alternative Models of Public Water Management",
+   "section": "In Search of Alternatives",
+   "definition": "Public sector reforms and community participatory frameworks that deliver universal affordable water without full privatization.",
+   "formula": "public_water_success = municipal_accountability + public_participation",
+   "key_idea": "Public water management can achieve universal coverage through transparent governance and progressive tariffs.",
+   "textbook_ref": "hess307.txt lines 286-330",
+   "question_patterns": [
+    "how did the public water department in Porto Alegre achieve lower infant mortality",
+    "in Class 8 Civics: what lessons can be learned from municipal water management in Porto Alegre",
+    "why did private water management lead to public protests and riots in Bolivia",
+    "examine successful government water department initiatives in Indian cities like Mumbai and Chennai",
+    "explain why water supply remains predominantly a state responsibility globally"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Examine participatory budgeting and municipal water governance in Porto Alegre",
+     "explain": "Direct public input in project prioritization ensures affordable water for low income residents."
+    },
+    {
+     "step": 2,
+     "action": "Compare public efficiency with failed privatization experiments in Bolivia",
+     "explain": "Excessive private price hikes caused riots while municipal reforms maintained public control and affordability."
+    }
+   ]
+  },
+  {
+   "id": "hess.307.9",
+   "title": "Calculation of Access Gap Between Public Facilities",
+   "section": "Extending Sanitation Facilities",
+   "definition": "The numerical percentage gap between population coverage of safe drinking water and access to sanitation facilities.",
+   "formula": "access_gap = water_access_percent - sanitation_access_percent",
+   "key_idea": "Subtracting sanitation coverage percentage from water access percentage measures the disparity in basic public health provisions.",
+   "textbook_ref": "hess307.txt lines 331-360",
+   "question_patterns": [
+    "in Class 8 Civics public facilities: calculate the access gap percentage between water and sanitation coverage",
+    "find the difference in coverage percentages between drinking water access and toilet facilities",
+    "compute the sanitation deficit percentage relative to drinking water availability",
+    "how much does sanitation coverage lag behind water supply coverage in percentage terms",
+    "determine the access gap between two public health facility indicators"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Subtract sanitation access percentage from safe drinking water access percentage",
+     "explain": "The difference quantifies how much sanitation coverage falls behind water supply coverage.",
+     "compute": "access_gap = water_access_percent - sanitation_access_percent"
+    }
+   ]
+  },
+  {
+   "id": "hess.307.10",
+   "title": "Universal Access and Equity in Basic Needs",
+   "section": "Conclusion",
+   "definition": "The guarantee that essential facilities are physically available and financially affordable to every citizen.",
+   "formula": "universal_access = physical_availability + financial_affordability",
+   "key_idea": "Equitable distribution of public facilities requires meeting basic survival needs of all citizens without discrimination.",
+   "textbook_ref": "hess307.txt lines 361-390",
+   "question_patterns": [
+    "what is meant by universal access to basic needs in Class 8 Civics",
+    "explain how physical availability and affordability define universal access",
+    "why is equitable distribution of public facilities crucial for social justice",
+    "how does the Indian Constitution frame basic amenities as fundamental rights",
+    "discuss the gap between ideal constitutional guarantees and actual public facility delivery"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define twin criteria of universal access",
+     "explain": "Facilities must be physically reachable and priced affordably for all households."
+    },
+    {
+     "step": 2,
+     "action": "Assess constitutional principles of equity and basic rights",
+     "explain": "The state must bridge regional and socio-economic gaps to ensure a dignified life for every citizen."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex307.5.1",
+   "source_ref": "hess307.txt lines 186-220",
+   "concept": "hess.307.5",
+   "question_type": "compute",
+   "question_pattern": "In Class 8 Civics public facilities, if a family has {household_members} members and the urban water standard norm is {daily_norm_per_person} litres per person daily, calculate the total daily water requirement for the household.",
+   "extracted_variables": {
+    "household_members": 5,
+    "daily_norm_per_person": 135
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply household size by daily per capita norm",
+     "explain": "Total daily household requirement is the product of family size and individual daily norm.",
+     "compute": "total_water_needed = household_members * daily_norm_per_person"
+    }
+   ]
+  },
+  {
+   "id": "ex307.5.2",
+   "source_ref": "hess307.txt lines 186-220",
+   "concept": "hess.307.5",
+   "question_type": "compute",
+   "question_pattern": "Determine the daily household water demand for a family of {household_members} persons when the official per capita norm is {daily_norm_per_person} litres per day.",
+   "extracted_variables": {
+    "household_members": 4,
+    "daily_norm_per_person": 135
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Multiply household size by daily per capita norm",
+     "explain": "Total daily household requirement is the product of family size and individual daily norm.",
+     "compute": "total_water_needed = household_members * daily_norm_per_person"
+    }
+   ]
+  },
+  {
+   "id": "ex307.6.1",
+   "source_ref": "hess307.txt lines 255-285",
+   "concept": "hess.307.6",
+   "question_type": "compute",
+   "question_pattern": "In Class 8 Social Science, given an urban benchmark of {urban_standard_norm} litres per person daily and a slum supply of {actual_daily_supply} litres per person, compute the daily water deficit per person.",
+   "extracted_variables": {
+    "urban_standard_norm": 135,
+    "actual_daily_supply": 20
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract actual daily per capita supply from urban water benchmark norm",
+     "explain": "Deficit is the difference between standard allocation and actual volume received.",
+     "compute": "water_deficit = urban_standard_norm - actual_daily_supply"
+    }
+   ]
+  },
+  {
+   "id": "ex307.6.2",
+   "source_ref": "hess307.txt lines 255-285",
+   "concept": "hess.307.6",
+   "question_type": "compute",
+   "question_pattern": "Calculate the per capita daily shortage when standard urban norm is {urban_standard_norm} litres but actual municipal delivery is only {actual_daily_supply} litres.",
+   "extracted_variables": {
+    "urban_standard_norm": 135,
+    "actual_daily_supply": 60
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract actual daily per capita supply from urban water benchmark norm",
+     "explain": "Deficit is the difference between standard allocation and actual volume received.",
+     "compute": "water_deficit = urban_standard_norm - actual_daily_supply"
+    }
+   ]
+  },
+  {
+   "id": "ex307.9.1",
+   "source_ref": "hess307.txt lines 331-360",
+   "concept": "hess.307.9",
+   "question_type": "compute",
+   "question_pattern": "According to census figures in Class 8 Civics, {water_access_percent} percent households had drinking water access while {sanitation_access_percent} percent had sanitation access. Calculate the coverage gap percentage.",
+   "extracted_variables": {
+    "water_access_percent": 87,
+    "sanitation_access_percent": 53
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract sanitation access percentage from safe drinking water access percentage",
+     "explain": "The difference quantifies how much sanitation coverage falls behind water supply coverage.",
+     "compute": "access_gap = water_access_percent - sanitation_access_percent"
+    }
+   ]
+  },
+  {
+   "id": "ex307.9.2",
+   "source_ref": "hess307.txt lines 331-360",
+   "concept": "hess.307.9",
+   "question_type": "compute",
+   "question_pattern": "Find the percentage difference between safe water access at {water_access_percent} percent and toilet facility coverage at {sanitation_access_percent} percent in a region.",
+   "extracted_variables": {
+    "water_access_percent": 90,
+    "sanitation_access_percent": 60
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Subtract sanitation access percentage from safe drinking water access percentage",
+     "explain": "The difference quantifies how much sanitation coverage falls behind water supply coverage.",
+     "compute": "access_gap = water_access_percent - sanitation_access_percent"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex7.1",
+   "source_ref": "hess307.txt lines 391-415",
+   "questions": [
+    "Why do you think there are so few cases of private water supply in the world?",
+    "Do you think water in Chennai is available to and affordable by all? Discuss.",
+    "How is the sale of water by farmers to water dealers in Chennai affecting the local people? Do you think local people can object to such exploitation of ground water? Can the government do anything in this regard?",
+    "Why are most of the private hospitals and private schools located in major cities and not in towns or rural areas?",
+    "Do you think the distribution of public facilities in our country is adequate and fair? Give an example of your own to explain.",
+    "Take some of the public facilities in your area, such as water, electricity, etc. Is there scope to improve these? What in your opinion should be done?",
+    "Are the above public facilities shared equally by all the people in your area? Elaborate.",
+    "Data on some of the public facilities are collected as part of the Census. Discuss with your teacher when and how the Census is conducted.",
+    "Private educational institutions are coming up in our country in a big way while government ones are becoming relatively less important. What do you think would be the impact of this?"
+   ]
+  }
+ ],
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "gemini flash draft; gate-validated; review pending"
+}

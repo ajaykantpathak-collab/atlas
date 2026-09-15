@@ -1,0 +1,234 @@
+{
+ "catalog": "catalog_class8_maths_hemh101.json",
+ "concepts": [
+  {
+   "id": "hemh.101.1.1",
+   "family": "rational_ops",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "num = 3 * 7 + 6 * 6",
+      "den = 6 * 7",
+      "val = num / den"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "inv = -8 / 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "inv = 7 / 8"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mid = (6 / 2 + 10 / 2) / 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "dist = abs(8 / 3 - 3 / 3)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "std = (14 / 16) / (2 / 2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "num = 3 * 7 + 6 * 6",
+    "den = 6 * 7",
+    "val = num / den"
+   ]
+  },
+  {
+   "id": "hemh.101.1.2",
+   "family": "rational_ops",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "num = 5 * 9 + 3 * 3",
+      "den = 3 * 9",
+      "val = num / den"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "inv = -5 / 4"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "inv = 3 / 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mid = (4 / 2 + 8 / 2) / 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "dist = abs(18 / 3 - 15 / 3)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "std = (8 / 18) / (2 / 2)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hemh.101.1.3",
+   "family": "rational_ops",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "num = 4 * 7 + 5 * 3",
+      "den = 3 * 7",
+      "val = num / den"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "inv = -6 / 4"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "inv = 4 / 5"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mid = (4 / 2 + 8 / 2) / 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "dist = abs(14 / 3 - 5 / 3)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "std = (27 / 6) / (3 / 3)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hemh.101.1.4",
+   "family": "rational_ops",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "num = 6 * 8 + 2 * 4",
+      "den = 4 * 8",
+      "val = num / den"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "inv = -1 / 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "inv = 2 / 9"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mid = (8 / 2 + 12 / 2) / 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "dist = abs(16 / 3 - 8 / 3)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "std = (9 / 12) / (3 / 3)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  },
+  {
+   "id": "hemh.101.1.5",
+   "family": "rational_ops",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "num = 7 * 9 + 1 * 2",
+      "den = 2 * 9",
+      "val = num / den"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "inv = -9 / 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "inv = 7 / 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mid = (2 / 2 + 6 / 2) / 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "dist = abs(8 / 3 - 3 / 3)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "std = (30 / 40) / (5 / 5)"
+     ]
+    }
+   ],
+   "steps_chain": []
+  }
+ ]
+}

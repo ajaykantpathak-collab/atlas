@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_bs_cbse_10_002",
+ "concepts": [
+  {
+   "id": "enh:c11_bs_cbse_10_002",
+   "title": "c11_bs_cbse_10_002",
+   "questions": [
+    {
+     "q": "Define wholesale trade and state the primary distinction between a wholesaler and a retailer in terms of the end-user they serve.",
+     "a": "Wholesale trade is the purchase and sale of goods in large quantities for resale or intermediate use, not for final consumption. A wholesaler sells to retailers, industrial, institutional, or commercial users, while a retailer sells directly to ultimate consumers. A wrong answer (e.g., \"wholesalers sell to consumers\") reveals confusion about the distribution channel hierarchy and the concept of \"intermediate use\" vs. \"final consumption.\"",
+     "self_check": true
+    },
+    {
+     "q": "Explain how a wholesaler \"facilitates large-scale production\" for a manufacturer. Why is this service critical for industries with high fixed costs (e.g., automobile parts or FMCG)?",
+     "a": "Wholesalers collect small, scattered orders from numerous retailers, pool them, and place large bulk orders with manufacturers. This allows manufacturers to produce in large batches, spreading fixed costs (machinery, plant) over more units, lowering per-unit cost (economies of scale). A wrong answer focusing only on \"buying in bulk\" without linking to pooled retailer orders and economies of scale shows superficial understanding of the production-distribution linkage.",
+     "self_check": true
+    },
+    {
+     "q": "A wholesaler purchases 5,000 units of a seasonal product (e.g., woolen blankets) from a manufacturer in August, stores them in a temperature-controlled warehouse, and sells 500 units per month to retailers from October to January. Identify THREE distinct wholesale functions being performed here and explain the risk each mitigates for the manufacturer and retailer respectively.",
+     "a": "Functions: (1) **Storage/warehousing** — mitigates manufacturer's risk of spoilage/fire and retailer's risk of stockouts; (2) **Risk-bearing (price fluctuation, obsolescence)** — wholesaler bears loss if demand falls or prices drop; (3) **Breaking bulk** — enables retailers to buy small lots matching monthly demand. Missing any function or misattributing risk (e.g., saying retailer bears storage risk) indicates inability to decompose real-world operations into textbook functions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"financial assistance\" provided by wholesalers to manufacturers with the \"grant of credit\" to retailers. How do these two services differ in their impact on the working capital cycle of each party?",
+     "a": "To manufacturers: wholesalers often pay **cash upfront** or advance money for bulk orders, reducing the manufacturer's receivables cycle and freeing capital for production. To retailers: wholesalers extend **trade credit** (e.g., 30-60 days), allowing retailers to sell goods before paying, reducing their working capital needs. The direction of cash flow is opposite: manufacturer receives cash early; retailer pays cash later. Confusing the two (e.g., saying wholesalers give credit to manufacturers) shows lack of clarity on cash flow direction in the supply chain.",
+     "self_check": true
+    },
+    {
+     "q": "\"Wholesalers are unnecessary middlemen who only increase prices; manufacturers should sell directly to retailers.\" Evaluate this statement using at least four services of wholesalers from the NCERT text. Conclude whether elimination is feasible for a small-scale FMCG manufacturer.",
+     "a": "The statement is **largely incorrect** for most small/medium manufacturers. Four counter-services: (1) **Risk-bearing** — manufacturer avoids storage, price, theft risks; (2) **Marketing function** — wholesaler handles distribution to hundreds of retailers, saving manufacturer's sales force cost; (3) **Market information** — wholesaler provides real-time consumer trends; (4) **Production continuity** — manufacturer produces steadily while wholesaler manages seasonal demand. For a small FMCG maker, direct distribution would require massive logistics investment. Only large firms (e.g., HUL, ITC) can bypass wholesalers. A one-sided answer ignoring the \"risk/cost trade-off\" shows inability to evaluate channel design decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical wholesale business model for distributing **artisanal organic spices** from 50 small farmers in Kerala to 200 boutique retailers across Indian metros. Specify which three wholesale functions you would prioritize and justify each with a unique challenge of this supply chain (perishability, fragmentation, quality variation).",
+     "a": "Prioritized functions: (1) **Grading & standardisation** — farmers produce variable quality; wholesaler sorts into uniform grades for retailer trust; (2) **Cold storage/warehousing** — spices lose aroma; temperature-controlled storage preserves quality (time utility); (3) **Collection of scattered orders & distribution** — 200 retailers order small, diverse SKUs; wholesaler consolidates and delivers efficiently (place utility). A generic answer listing functions without linking to specific supply chain challenges (perishability, fragmentation) fails to demonstrate applied synthesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

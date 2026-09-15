@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_math_ch10_109",
+ "concepts": [
+  {
+   "id": "enh:c6_math_ch10_109",
+   "title": "c6_math_ch10_109",
+   "questions": [
+    {
+     "q": "What do we call a line that divides an object into two identical mirror images?",
+     "a": "This is called a line of symmetry. A wrong answer here suggests the student is confusing \"symmetry\" with \"balance\" or \"similarity\" without understanding the specific geometric requirement of reflection.",
+     "self_check": true
+    },
+    {
+     "q": "If a sunflower looks the same after being rotated by 90 degrees, does it possess symmetry? Explain why or why not.",
+     "a": "Yes, it possesses rotational symmetry because it repeats its appearance before a full 360-degree turn. A wrong answer suggests the student thinks symmetry *only* means a mirror line (reflection), ignoring that repetition through rotation also counts.",
+     "self_check": true
+    },
+    {
+     "q": "A starfish has five arms arranged around a center. If you rotate it, how many times will it look identical to its starting position before completing a full circle?",
+     "a": "It will look identical 5 times (including the final 360-degree position). A student might incorrectly guess 4 or 6, revealing they haven't counted the \"arms\" as the repeating units of the pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the symmetry of a cloud to that of a butterfly. Why is one considered symmetrical and the other not?",
+     "a": "A butterfly has a definite, repeating pattern (reflectional), whereas a cloud has no fixed, repeating structure. If a student says both are \"random,\" they have failed to identify the concept of a \"definite pattern\" as the core of symmetry.",
+     "self_check": true
+    },
+    {
+     "q": "Is it possible for a natural object to have rotational symmetry but NO line of symmetry? Give an example.",
+     "a": "Yes, an example is a pinwheel-like flower or a spiral shell. A student might argue \"no\" because they are stuck on the idea that symmetry must be a \"mirror fold,\" failing to distinguish between reflection and rotation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple leaf or flower pattern that has exactly two lines of symmetry. How would you draw it?",
+     "a": "The student should describe a cross-like or oval-like shape where you can fold it vertically and horizontally. An answer that draws a circle (infinite lines) or a triangle (3 lines) shows they haven't grasped the specific constraint of \"exactly two.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

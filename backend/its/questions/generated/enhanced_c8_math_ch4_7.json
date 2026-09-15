@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_math_ch4_7",
+ "concepts": [
+  {
+   "id": "enh:c8_math_ch4_7",
+   "title": "c8_math_ch4_7",
+   "questions": [
+    {
+     "q": "State the definition of a rhombus in your own words. How is it different from a general parallelogram?",
+     "a": "A rhombus is a quadrilateral with all four sides equal in length. A general parallelogram only requires opposite sides to be equal and parallel, not all four sides. A wrong answer (e.g., \"a rhombus has four right angles\") reveals confusion with a square or rectangle, showing the student does not distinguish the defining property of equal sides.",
+     "self_check": true
+    },
+    {
+     "q": "In a rhombus ABCD, diagonal AC is drawn. Explain why triangle ABC is isosceles. What does this imply about the base angles of triangle ABC?",
+     "a": "In rhombus ABCD, AB = BC (all sides equal). Triangle ABC has AB = BC, so it is isosceles with base AC. Therefore, base angles ∠BAC and ∠BCA are equal. This means diagonal AC bisects ∠A and ∠C. A wrong answer (e.g., \"triangle ABC is equilateral\") reveals the student assumes all sides of the triangle are equal, confusing the rhombus side with the diagonal length.",
+     "self_check": true
+    },
+    {
+     "q": "The perimeter of a rhombus is 60 cm. Find the length of each side. If one diagonal is 18 cm, can you find the other diagonal? Explain.",
+     "a": "Perimeter = 4 × side = 60 cm → side = 15 cm. Knowing one diagonal (18 cm) is not enough to find the other diagonal uniquely without additional information (like an angle or area). The diagonals of a rhombus are perpendicular bisectors, so half-diagonals and side form a right triangle: (d1/2)² + (d2/2)² = side². With d1=18, half is 9. Then 9² + (d2/2)² = 15² → 81 + (d2/2)² = 225 → (d2/2)² = 144 → d2/2 = 12 → d2 = 24 cm. A wrong answer (e.g., \"cannot be found\") reveals the student does not connect the perpendicular diagonals property to the Pythagorean theorem.",
+     "self_check": true
+    },
+    {
+     "q": "A quadrilateral has diagonals that are perpendicular bisectors of each other. Is it necessarily a rhombus? Justify your answer. What additional condition would guarantee it is a square?",
+     "a": "Yes, if diagonals are perpendicular bisectors, the quadrilateral is a rhombus. Proof: The four triangles formed by the diagonals are congruent by SAS (half-diagonals equal, included angle 90°), so all four sides are equal. To guarantee a square, we need an additional condition: either all angles are 90° (i.e., one angle is 90°) or the diagonals are equal in length. A wrong answer (e.g., \"it could be a kite\") reveals the student does not realize perpendicular bisecting diagonals force all sides equal, which is the definition of a rhombus (a kite's diagonals are perpendicular but only one is bisected).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Every rhombus is a square, but not every square is a rhombus.\" Evaluate this statement and correct it if necessary.",
+     "a": "The statement is incorrect. The correct relationship: Every square is a rhombus (since a square has all sides equal), but not every rhombus is a square (a rhombus does not require right angles). A square is a special rhombus with all angles 90°. A wrong answer (agreeing with the student) reveals a fundamental misunderstanding of the hierarchy: square ⊂ rhombus ⊂ parallelogram ⊂ quadrilateral.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (Indian context) where identifying a rhombus and using its properties helps solve it. Include at least two properties in your problem.",
+     "a": "Example: \"A farmer has a rhombus-shaped field with side 50 m. He wants to fence it and also divide it into two equal triangular plots by building a wall along one diagonal. If fencing costs ₹20/m and wall costs ₹150/m, find total cost. (Use diagonal = 60 m).\" Solution uses perimeter (4×50) for fencing and diagonal length for wall. A poor answer (e.g., a rectangle problem) reveals the student cannot design a scenario that specifically requires rhombus properties (equal sides, diagonal bisecting area).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

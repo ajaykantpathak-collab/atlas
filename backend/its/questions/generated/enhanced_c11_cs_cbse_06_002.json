@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_06_002",
+   "title": "c11_cs_cbse_06_002",
+   "questions": [
+    {
+     "q": "What is the output of the following code snippet?\n```python\ntext = \"PYTHON\"\nprint(text[3])\n```",
+     "a": "Output: `H`.  \n**Wrong answer analysis**: If a student answers `T` or `O`, they are using 1-based indexing (thinking 3rd character is `T`) or miscounting. If they answer `IndexError`, they think valid indices are 1-6. This reveals the core misconception that Python uses human-style 1-based counting instead of zero-based indexing.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why `word = \"EXAM\"; print(word[4])` raises an `IndexError` but `print(word[3])` prints `M`. Use the term \"valid index range\" in your explanation.",
+     "a": "`len(\"EXAM\")` is 4, so valid indices are 0,1,2,3. Index 4 is equal to length, hence out of range → `IndexError`. Index 3 is the last valid index (4-1) and returns the last character `M`.  \n**Wrong answer analysis**: If a student says \"index 4 is the 4th character\", they haven't internalised zero-based indexing. If they say \"strings are 1-indexed in Python\", they are confusing with other languages like MATLAB or R. This tests whether they can articulate the boundary condition `0 <= index < len(string)`.",
+     "self_check": true
+    },
+    {
+     "q": "Given `code = \"XI_CBSE_CS\"`, write a single expression using `len()` and indexing that extracts the last character `S` without hardcoding the index number 10.",
+     "a": "`code[len(code)-1]` or `code[-1]` (though negative indexing is next node, `len()-1` is the expected answer here).  \nSteps: 1) `len(code)` returns 11. 2) Valid indices 0-10. 3) Last index = 11-1 = 10. 4) `code[10]` is `S`.  \n**Wrong answer analysis**: If a student writes `code[10]` directly, they hardcoded — fails if string changes. If they write `code[len(code)]`, they get `IndexError` — off-by-one error. This tests ability to generalise the last-index formula.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two string creations: `s1 = 'It\\'s Python'` and `s2 = \"It's Python\"`. Are they identical? Justify your answer by explaining how Python handles quotes inside strings.",
+     "a": "Yes, both represent the identical string `It's Python` (length 10). In `s1`, single quotes delimit the string, so the internal apostrophe must be escaped as `\\'`. In `s2`, double quotes delimit, so the apostrophe is a normal character. Python stores the same character sequence.  \n**Wrong answer analysis**: If a student says they are different because \"one uses escape sequence\", they confuse representation with stored value. If they say `s1` has a backslash in it, they don't understand escape sequences are processed at parse time. This tests understanding of string literal syntax vs. string value.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `msg = \"Hello\"; msg[0] = \"J\"` to change the first character to `J`. Python raises `TypeError: 'str' object does not support item assignment`. Evaluate whether this error is due to indexing syntax or string immutability. Defend your answer.",
+     "a": "The error is due to **string immutability**, not indexing syntax. The indexing `msg[0]` is perfectly valid for *access* (reading). The `TypeError` occurs because strings cannot be modified in place — no index assignment is allowed. This is a design feature of Python strings.  \n**Wrong answer analysis**: If a student says \"indexing doesn't work for assignment\", they misunderstand — indexing works for reading; the object type forbids writing. If they say \"you need to use a list\", they're jumping to a workaround without diagnosing the root cause. This tests ability to distinguish between syntax validity and object mutability.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new string `secret` of length 6 such that `secret[0] == 'P'`, `secret[2] == 'T'`, `secret[5] == 'N'`, and all other characters are lowercase vowels. Write the string literal and verify each condition with indexing expressions.",
+     "a": "Example: `secret = \"PaTeIoN\"` (indices: 0=P, 1=a, 2=T, 3=e, 4=I, 5=N — wait, length 7). Correct length 6: `secret = \"PaTeOn\"` (0=P, 1=a, 2=T, 3=e, 4=O, 5=n) — but last must be `N`. So `secret = \"PaTeIN\"` (0=P, 1=a, 2=T, 3=e, 4=I, 5=N). Verification: `secret[0]=='P'`, `secret[2]=='T'`, `secret[5]=='N'` all `True`.  \n**Poor answer analysis**: If a student gives length 7, they miscount indices. If they use uppercase vowels, they missed \"lowercase\". If they can't write verification expressions, they don't grasp indexing as an accessor. This tests synthesis: constructing a string meeting multiple index constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

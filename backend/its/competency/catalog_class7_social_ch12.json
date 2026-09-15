@@ -1,0 +1,602 @@
+{
+ "class": 7,
+ "subject": "social_science",
+ "chapter": 12,
+ "chapter_title": "Understanding Markets",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\gees112.txt",
+ "concepts": [
+  {
+   "id": "c7ss.12.1",
+   "title": "Meaning and Types of Markets",
+   "section": "Meaning and Types of Markets",
+   "definition": "A market is a place or arrangement where buyers and sellers interact to exchange goods and services; markets can be local, national, or international.",
+   "formula": "",
+   "key_idea": "Markets vary by area covered -- local markets serve a small area, national markets cover a country, and international markets span countries.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is a market and what happens there",
+    "distinguish between local national and international markets",
+    "give an example of a local market",
+    "what is meant by a national market",
+    "explain the meaning of an international market"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define a market",
+     "explain": "A market is any setup where buyers and sellers come together to exchange goods and services."
+    },
+    {
+     "step": 2,
+     "action": "describe local and national markets",
+     "explain": "Local markets operate in a small area like a village or town, while national markets cover an entire country."
+    },
+    {
+     "step": 3,
+     "action": "describe international markets",
+     "explain": "International markets involve buyers and sellers across different countries, often trading through imports and exports."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Classify each market as local, national, or international: a village haat, the Indian textile market, online trade between India and the USA.",
+     "solution": "A village haat is local, the Indian textile market is national, and trade between India and the USA is international.",
+     "answer": "Local, national, international respectively."
+    },
+    {
+     "question": "Why is a vegetable market in a town called a local market?",
+     "solution": "It serves buyers and sellers in a small nearby area, so it is local.",
+     "answer": "It serves a small nearby area, so it is a local market."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define a market.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Give one example each of a local, national, and international market.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the difference between national and international markets.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.12.2",
+   "title": "Weekly Markets and Shops",
+   "section": "Weekly Markets",
+   "definition": "Weekly markets are temporary markets held on a fixed day each week where small traders sell goods at relatively low prices, while permanent shops operate daily.",
+   "formula": "",
+   "key_idea": "Weekly markets are cheap and convenient for low-income buyers because many sellers gather in one place on a fixed day.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is a weekly market and how does it function",
+    "why are goods cheaper in weekly markets",
+    "how do weekly markets benefit small traders",
+    "compare weekly markets with permanent shops",
+    "why do people prefer to buy from weekly markets"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe the weekly market setup",
+     "explain": "Traders set up temporary stalls on a fixed day each week and sell a variety of goods in one place."
+    },
+    {
+     "step": 2,
+     "action": "explain why prices are low",
+     "explain": "Traders do not pay high rent or permanent electricity costs, so they can sell goods at lower prices."
+    },
+    {
+     "step": 3,
+     "action": "compare with permanent shops",
+     "explain": "Permanent shops run daily, offer a fixed location and wider range, but often charge higher prices due to higher costs."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why are vegetables often cheaper in a weekly market than in a permanent shop?",
+     "solution": "Weekly market traders pay no permanent rent and have lower costs, so they charge less.",
+     "answer": "Lower overhead costs let weekly market traders sell at lower prices."
+    },
+    {
+     "question": "State one advantage of a permanent shop over a weekly market.",
+     "solution": "A permanent shop is open daily and has a fixed location, so buyers can visit anytime.",
+     "answer": "Permanent shops are open daily at a fixed location."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is a weekly market?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why are goods cheaper in weekly markets?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Compare weekly markets and permanent shops in terms of cost and convenience.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.12.3",
+   "title": "Shopping Complexes and Malls",
+   "section": "Shopping Complexes and Malls",
+   "definition": "Shopping complexes and malls are large permanent markets that house many branded and unbranded shops offering a wide range of goods and services under one roof.",
+   "formula": "",
+   "key_idea": "Malls provide variety, branded goods, and entertainment but usually have higher prices than weekly markets.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is a shopping complex or mall",
+    "how are malls different from weekly markets",
+    "why do branded goods in malls cost more",
+    "what kinds of shops are found in a mall",
+    "explain the advantages and disadvantages of shopping in malls"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe the mall setup",
+     "explain": "Malls are large buildings with many permanent shops selling branded and unbranded goods, food, and entertainment."
+    },
+    {
+     "step": 2,
+     "action": "explain higher prices",
+     "explain": "Malls charge high rent and offer branded goods and services, so prices are usually higher."
+    },
+    {
+     "step": 3,
+     "action": "compare with weekly markets",
+     "explain": "Unlike cheap weekly markets, malls offer comfort, variety, and branded products but at higher cost."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why does a branded shirt in a mall cost more than a similar shirt in a weekly market?",
+     "solution": "Malls have high rent, branding, and service costs that raise the price.",
+     "answer": "Higher rent, branding, and service costs raise the price in malls."
+    },
+    {
+     "question": "Name two types of outlets commonly found in a shopping mall.",
+     "solution": "Malls usually have branded clothing stores and food courts.",
+     "answer": "Branded clothing stores and food courts."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is a shopping mall?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Why are goods in malls more expensive than in weekly markets?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Discuss the advantages and disadvantages of shopping in malls.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.12.4",
+   "title": "Role of Sellers and Buyers",
+   "section": "Sellers and Buyers in Markets",
+   "definition": "Sellers supply goods and services to earn profit while buyers demand goods to satisfy their needs; their interaction determines what is sold and at what price.",
+   "formula": "",
+   "key_idea": "The market is driven by sellers seeking profit and buyers seeking goods at reasonable prices.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is the role of sellers in a market",
+    "what is the role of buyers in a market",
+    "how do sellers and buyers interact in a market",
+    "why do sellers try to attract buyers",
+    "how does the relationship between buyers and sellers affect prices"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "describe the role of sellers",
+     "explain": "Sellers bring goods to the market, set prices to earn profit, and compete to attract buyers."
+    },
+    {
+     "step": 2,
+     "action": "describe the role of buyers",
+     "explain": "Buyers demand goods, compare prices and quality, and choose where to buy."
+    },
+    {
+     "step": 3,
+     "action": "explain their interaction",
+     "explain": "The bargaining and choices of buyers and sellers together influence the quantity sold and the price."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why does a seller advertise his products?",
+     "solution": "Advertising attracts more buyers and increases sales and profit.",
+     "answer": "To attract buyers and increase sales."
+    },
+    {
+     "question": "How does a buyer influence the market?",
+     "solution": "By choosing where and what to buy, the buyer affects demand and pushes sellers to offer better prices.",
+     "answer": "Buyer choices affect demand and encourage competitive prices."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "State the main role of sellers in a market.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How do buyers influence market prices?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how the interaction of buyers and sellers affects a market.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.12.5",
+   "title": "Supply and Demand Basics",
+   "section": "Supply and Demand",
+   "definition": "Supply is the quantity of a good that sellers offer, and demand is the quantity buyers want; their balance affects price and availability.",
+   "formula": "",
+   "key_idea": "When demand rises with limited supply, prices tend to rise; when supply exceeds demand, prices tend to fall.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is meant by supply and demand in a market",
+    "how does an increase in demand affect price",
+    "what happens to price when supply increases",
+    "explain the relationship between supply demand and price",
+    "give an example of how demand affects the price of a good"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define supply and demand",
+     "explain": "Supply is the amount sellers offer; demand is the amount buyers want at a given price."
+    },
+    {
+     "step": 2,
+     "action": "explain effect of demand on price",
+     "explain": "When demand rises and supply stays the same, buyers compete and prices tend to rise."
+    },
+    {
+     "step": 3,
+     "action": "explain effect of supply on price",
+     "explain": "When supply rises and demand stays the same, sellers compete and prices tend to fall."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "During a festival the demand for sweets rises but supply is limited. What happens to the price?",
+     "solution": "Higher demand with limited supply pushes the price up.",
+     "answer": "The price of sweets rises."
+    },
+    {
+     "question": "A good harvest increases the supply of onions. What is the likely effect on price?",
+     "solution": "More supply with the same demand tends to lower the price.",
+     "answer": "The price of onions is likely to fall."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define supply and demand.",
+     "type": "short_answer"
+    },
+    {
+     "question": "How does an increase in demand affect price?",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain with an example how supply and demand influence price.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.12.6",
+   "title": "Price Determination in Markets",
+   "section": "Price Determination",
+   "definition": "The market price of a good is determined by the balance between supply and demand, and can be computed from total cost and quantity.",
+   "formula": "price = total_cost / quantity",
+   "key_idea": "Price per unit is found by dividing the total cost by the number of units, and market forces of supply and demand adjust this price.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate the price per unit given total cost and quantity",
+    "find the unit price of a good from total cost and number of units",
+    "compute the selling price per item",
+    "determine the price of one unit from total value and quantity",
+    "how is the per unit price calculated from total cost"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "identify total cost and quantity",
+     "explain": "Note the total cost of the goods and the number of units sold or bought."
+    },
+    {
+     "step": 2,
+     "action": "divide total cost by quantity",
+     "explain": "Divide the total cost by the number of units to get the price per unit.",
+     "compute": "price = total_cost / quantity"
+    },
+    {
+     "step": 3,
+     "action": "round and state the unit price",
+     "explain": "Round the result to a suitable precision and state it as the price per unit."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A seller sells 5 kg of apples for a total of 400 rupees. Find the price per kg.",
+     "solution": "price = total_cost / quantity = 400 / 5 = 80 rupees per kg.",
+     "answer": "80 rupees per kg"
+    },
+    {
+     "question": "The total cost of 8 notebooks is 240 rupees. Compute the price of one notebook.",
+     "solution": "price = 240 / 8 = 30 rupees per notebook.",
+     "answer": "30 rupees per notebook"
+    },
+    {
+     "question": "A trader sells 10 litres of milk for 550 rupees. Find the price per litre.",
+     "solution": "price = 550 / 10 = 55 rupees per litre.",
+     "answer": "55 rupees per litre"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the price per kg if 6 kg of rice cost 300 rupees.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the price of one pen if 12 pens cost 180 rupees.",
+     "type": "compute"
+    },
+    {
+     "question": "Compute the price per litre if 20 litres of oil cost 1000 rupees.",
+     "type": "compute"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.12.7",
+   "title": "Role of Markets in the Economy",
+   "section": "Role of Markets in Economy",
+   "definition": "Markets connect producers and consumers, enable distribution of goods, create employment, and contribute to the income and growth of an economy.",
+   "formula": "",
+   "key_idea": "Markets are essential for distributing goods and services and for generating income and employment in the economy.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "explain the role of markets in the economy",
+    "how do markets help in the distribution of goods",
+    "how do markets create employment",
+    "why are markets important for producers and consumers",
+    "how do markets contribute to economic growth"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "explain distribution function",
+     "explain": "Markets move goods from producers to consumers across regions."
+    },
+    {
+     "step": 2,
+     "action": "explain employment and income",
+     "explain": "Markets create jobs for traders, transport workers, and shopkeepers and generate income."
+    },
+    {
+     "step": 3,
+     "action": "explain link to growth",
+     "explain": "By enabling trade and specialization, markets support production and economic growth."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does a market help a farmer who grows vegetables?",
+     "solution": "The market lets the farmer sell produce to consumers and earn income.",
+     "answer": "Markets help farmers sell goods and earn income."
+    },
+    {
+     "question": "Name two types of employment created by markets.",
+     "solution": "Markets create jobs for shopkeepers and transport workers.",
+     "answer": "Shopkeepers and transport workers."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "How do markets help in the distribution of goods?",
+     "type": "short_answer"
+    },
+    {
+     "question": "State two ways markets create employment.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the role of markets in economic growth.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.12.8",
+   "title": "Consumer Awareness in Markets",
+   "section": "Consumer Awareness",
+   "definition": "Consumer awareness is the knowledge and rights that help buyers make informed choices, check quality and price, and seek redress against unfair trade practices.",
+   "formula": "",
+   "key_idea": "Aware consumers compare price and quality, keep bills, and use rights like the right to information and redressal.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "what is consumer awareness and why is it important",
+    "list the rights of a consumer in a market",
+    "how can a consumer avoid being cheated in a market",
+    "why should a consumer keep a bill or receipt",
+    "what steps can a buyer take against unfair trade practices"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "define consumer awareness",
+     "explain": "It is the understanding of rights and duties that helps buyers make safe and informed choices."
+    },
+    {
+     "step": 2,
+     "action": "list consumer rights",
+     "explain": "Consumers have the right to information, right to choose, right to safety, and right to seek redressal."
+    },
+    {
+     "step": 3,
+     "action": "explain protective steps",
+     "explain": "Buyers should compare prices, check quality, keep bills, and complain against defective goods or unfair charges."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A buyer finds a product with no expiry date. Which consumer right is violated?",
+     "solution": "The right to information is violated because the buyer cannot check the expiry date.",
+     "answer": "Right to information."
+    },
+    {
+     "question": "Why should a consumer keep the bill after buying a product?",
+     "solution": "The bill is proof of purchase and is needed to claim a refund or replacement.",
+     "answer": "The bill serves as proof for refund or redressal."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Define consumer awareness.",
+     "type": "short_answer"
+    },
+    {
+     "question": "List any three rights of a consumer.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how a consumer can protect himself from unfair trade practices.",
+     "type": "long_answer"
+    }
+   ]
+  },
+  {
+   "id": "c7ss.12.9",
+   "title": "Computing Total Expenditure in Markets",
+   "section": "Expenditure in Markets",
+   "definition": "Total expenditure is the sum of money spent by a buyer on a set of goods purchased at given unit prices and quantities.",
+   "formula": "total_expenditure = sum(price_i x quantity_i)",
+   "key_idea": "Multiply the price of each item by its quantity and add them to find the total money spent in a market.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "calculate the total expenditure on a list of market purchases",
+    "find the total money spent buying goods at given prices and quantities",
+    "compute the total bill for items bought in a market",
+    "determine the total cost of a shopping list",
+    "add up the expenditure on different goods using unit prices"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply price by quantity for each item",
+     "explain": "For each item, multiply its unit price by the quantity bought."
+    },
+    {
+     "step": 2,
+     "action": "sum the cost of all items",
+     "explain": "Add the cost of each item to get the total expenditure."
+    },
+    {
+     "step": 3,
+     "action": "state the total expenditure",
+     "explain": "Express the final amount as the total money spent in the market."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A buyer purchases 2 kg rice at 50 rupees per kg and 1 kg sugar at 45 rupees. Find the total expenditure.",
+     "solution": "Rice = 2 x 50 = 100; sugar = 1 x 45 = 45; total = 100 + 45 = 145 rupees.",
+     "answer": "145 rupees"
+    },
+    {
+     "question": "Find the total bill for 3 notebooks at 30 rupees each and 2 pens at 15 rupees each.",
+     "solution": "Notebooks = 3 x 30 = 90; pens = 2 x 15 = 30; total = 90 + 30 = 120 rupees.",
+     "answer": "120 rupees"
+    },
+    {
+     "question": "Compute the total expenditure on 4 litres of milk at 60 rupees per litre and 2 kg wheat at 40 rupees per kg.",
+     "solution": "Milk = 4 x 60 = 240; wheat = 2 x 40 = 80; total = 240 + 80 = 320 rupees.",
+     "answer": "320 rupees"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Calculate the total expenditure on 5 kg apples at 80 rupees per kg and 2 kg grapes at 60 rupees per kg.",
+     "type": "compute"
+    },
+    {
+     "question": "Find the total bill for 4 pens at 20 rupees each and 3 notebooks at 25 rupees each.",
+     "type": "compute"
+    },
+    {
+     "question": "Compute the total expenditure on 6 litres of oil at 120 rupees per litre and 3 kg rice at 50 rupees per kg.",
+     "type": "compute"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "exgen.c7ss.12.6.1",
+   "source_ref": "generated practice sample aligned to gees112.txt",
+   "concept": "c7ss.12.6",
+   "question_type": "compute",
+   "question_pattern": "Calculate the price step by step for a case with {total_cost}, {quantity}.",
+   "extracted_variables": {
+    "total_cost": "total cost (given value)",
+    "quantity": "quantity (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute price",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "price = total_cost / quantity"
+    }
+   ]
+  },
+  {
+   "id": "exgen.c7ss.12.6.2",
+   "source_ref": "generated practice sample aligned to gees112.txt",
+   "concept": "c7ss.12.6",
+   "question_type": "compute",
+   "question_pattern": "Calculate the price step by step for a case with {total_cost}, {quantity}.",
+   "extracted_variables": {
+    "total_cost": "total cost (given value)",
+    "quantity": "quantity (given value)"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute price",
+     "explain": "Apply the stated relation to the given figures.",
+     "compute": "price = total_cost / quantity"
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "re-linked to new cache"
+}

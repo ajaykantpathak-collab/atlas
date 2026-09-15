@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_10_001",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_10_001",
+   "title": "c11_geo_cbse_10_001",
+   "questions": [
+    {
+     "q": "A REMEMBER level question: State the approximate latitudinal extent of mainland India and name the parallel that divides the country into tropical and subtropical zones.",
+     "a": "Mainland India extends from 8°4'N to 37°6'N latitude. The Tropic of Cancer (23°30'N) divides India into tropical zone (south of it) and subtropical/temperate zone (north of it). A wrong answer (e.g., \"Equator divides India\" or \"30°N is the dividing line\") reveals the student hasn't internalized India's specific latitudinal position — a Class 6/7 fact (c6_geography_ch01_001, c7_geo_ch01_001) that becomes the baseline for insolation calculations in Class 11.",
+     "self_check": true
+    },
+    {
+     "q": "An UNDERSTAND level question: Explain why Leh (34°N, 3500m) has a mean January temperature of -8°C while Srinagar (34°N, 1585m) records -1°C, despite nearly identical latitudes.",
+     "a": "The 1915m altitude difference creates ~12.4°C temperature gap via environmental lapse rate (6.5°C/km × 1.915km ≈ 12.4°C). Leh's higher elevation places it in a different thermal regime — this is altitude overriding latitude. A wrong answer attributing the difference to \"latitude\" or \"distance from sea\" shows the student treats factors in isolation and cannot apply the quantitative lapse rate concept, a critical Class 11 skill beyond Class 7's qualitative \"temperature decreases with height\" (c7_geo_ch02_003).",
+     "self_check": true
+    },
+    {
+     "q": "An APPLY level question: Using the environmental lapse rate of 6.5°C per 1000m, calculate the expected temperature at Ooty (2240m) if the sea-level temperature at same latitude (11°N) is 32°C. Compare with actual mean maximum of 20°C and explain the 5.4°C discrepancy.",
+     "a": "Step 1: Altitude difference = 2240m = 2.24km. Step 2: Expected drop = 6.5°C/km × 2.24km = 14.56°C. Step 3: Expected temperature = 32°C - 14.56°C = 17.44°C. Step 4: Actual is 20°C — discrepancy of +2.56°C (not 5.4°C; student must recalculate). Step 5: Discrepancy arises because lapse rate is an average; local factors (vegetation, slope aspect, valley inversion) modify it. A wrong calculation (e.g., using 1°C/100m or forgetting to convert meters to km) reveals inability to handle units — a common Board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "An ANALYZE level question: Compare the annual temperature range of Chennai (13°N, coastal) = 8°C, Hyderabad (17°N, 500m, 600km inland) = 16°C, and Delhi (28°N, 216m, 1000km inland) = 22°C. Identify the dominant factor controlling range at each station and explain why Hyderabad's range is double Chennai's despite only 4° latitude difference.",
+     "a": "Chennai: maritime moderation dominates (small range). Hyderabad: continentality dominates — 600km from sea allows land to heat/cool rapidly; altitude (500m) slightly reduces range vs sea-level interior. Delhi: extreme continentality + subtropical latitude (high summer insolation, winter continental cooling). Hyderabad's range doubles Chennai's primarily due to **distance from sea**, not latitude — the 4° latitudinal difference contributes <2°C range change. Wrong answer blaming \"latitude\" shows failure to isolate variables — a key analytical skill for Board case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "An EVALUATE level question: A student claims \"Altitude is the most important factor controlling India's climate because the Himalayas create the maximum temperature contrast.\" Critique this statement using evidence from at least three Indian stations.",
+     "a": "The claim is **partially correct but incomplete**. Evidence: (1) Leh vs Jaisalmer — altitude creates 30°C+ difference, supporting the claim. (2) Mumbai vs Nagpur — same altitude (near sea-level), 10°C range difference due to continentality, refuting \"most important.\" (3) Thiruvananthapuram (8°N) vs Srinagar (34°N) — latitude creates 25°C+ annual mean difference at sea-level. Conclusion: No single factor dominates universally; their **relative importance varies spatially**. Altitude dominates in Himalayas, continentality in interior plains, latitude in peninsular gradient. A student agreeing wholly reveals \"single-factor bias\" — a senior secondary error where they seek one universal controller instead of understanding factor interaction.",
+     "self_check": true
+    },
+    {
+     "q": "A CREATE level question: Design a climate-data investigation for your school's geography lab: select three Indian stations (one coastal, one interior plain, one hill station) at similar latitudes (~20-25°N). Specify the data tables you'd need, the calculations you'd perform, and the conclusion format to demonstrate factor interaction.",
+     "a": "Good answer: Stations — Mumbai (coastal, 19°N), Nagpur (interior, 21°N), Pachmarhi (hill, 22°N, 1067m). Data needed: monthly max/min temperatures for 30 years. Calculations: (1) Annual range for each; (2) Lapse-rate expected temp for Pachmarhi from Nagpur; (3) Continentality index (range/latitude factor). Conclusion format: Table showing observed vs expected temperatures, % variance explained by altitude vs distance. Poor answer: Just lists stations without calculation plan or uses stations at widely different latitudes (e.g., including Shimla) — reveals inability to control variables, a fundamental geographical research skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

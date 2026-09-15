@@ -1,0 +1,99 @@
+{
+ "catalog": "catalog_class12_political_science_leps106",
+ "concepts": [
+  {
+   "id": "leps.106.1",
+   "title": "Environment as a Political Question",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Environment as a Political Question' refers to.",
+     "a": "Environmental concerns entered world politics as the effects of industrial growth - ozone depletion, global warming, resource depletion - crossed borders; since northern states industrialised first, questions of responsibility and equity divide rich and developing countries.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Environment as a Political Question'.",
+     "a": "The core clash is distributive: who bears the cost of saving a commons damaged mostly by the industrialised North?",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Environment as a Political Question' taught, and from which source text?",
+     "a": "Environmental Concerns in Global Politics (source: leps106.txt environmental concerns and North-South divides sections)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.106.2",
+   "title": "Global Commons and Conferences",
+   "questions": [
+    {
+     "q": "Compute the years between the Rio summit and the Kyoto protocol. Use the method 'Global Commons and Conferences'. Work with: kyoto_year = 2600, rio_year = 1992. Carry the chain through step by step and give the final value of rio_to_kyoto.",
+     "a": "608 units",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate the effectiveness of summit diplomacy. Use the method 'Global Commons and Conferences'. Work with: kyoto_year = 2600, rio_year = 1992. Carry the chain through step by step and give the final value of rio_to_kyoto.",
+     "a": "608 units",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Global Commons and Conferences' refers to.",
+     "a": "The global commons - earth's atmosphere, Antarctica, ocean floor and outer space - lie outside national jurisdiction; the Antarctic Treaty of 1959 reserved the continent for peaceful science, and conferences from Stockholm 1972 to Rio 1992 and Kyoto 1997 built the regime of environmental agreements.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Global Commons and Conferences'.",
+     "a": "The Kyoto protocol followed the Rio earth summit by the difference of 1997 and 1992.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Global Commons and Conferences', in plain ASCII form.",
+     "a": "rio_to_kyoto = kyoto_year - rio_year",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.106.3",
+   "title": "Indigenous Peoples and Resource Rights",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Indigenous Peoples and Resource Rights' refers to.",
+     "a": "Indigenous peoples - whose homelands cross borders and whose cultures predate modern states - seek recognition of land and resource rights; their movements highlight how states and corporations appropriate forests, minerals and knowledge, and the UN declared an international day and decade for them.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Indigenous Peoples and Resource Rights'.",
+     "a": "Indigenous claims turn environment into justice: protecting cultures means protecting the ecosystems they manage.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Indigenous Peoples and Resource Rights' taught, and from which source text?",
+     "a": "Indigenous Peoples and their Rights (source: leps106.txt indigenous peoples' definition, voices and rights sections)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "leps.106.4",
+   "title": "Resource Geopolitics: Oil and Water",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Resource Geopolitics: Oil and Water' refers to.",
+     "a": "Resources shape world politics: oil concentrates power in West Asia and the control of supply lines, and water - river basins like the Jordan, Tigris-Euphrates and the Indus - generates disputes where upstream and downstream states meet; competition for natural resources remains a driver of conflict.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Resource Geopolitics: Oil and Water'.",
+     "a": "Whoever commands pipelines, straits and river heads commands leverage: resource geography is power geography.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Resource Geopolitics: Oil and Water' taught, and from which source text?",
+     "a": "Resource Geopolitics (source: leps106.txt oil politics, water disputes and regional competition sections)",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

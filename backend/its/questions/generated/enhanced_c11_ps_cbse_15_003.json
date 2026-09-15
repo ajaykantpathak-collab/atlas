@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_ps_cbse_15_003",
+ "concepts": [
+  {
+   "id": "enh:c11_ps_cbse_15_003",
+   "title": "c11_ps_cbse_15_003",
+   "questions": [
+    {
+     "q": "Name the constitutional part and article range that establishes the Supreme Court of India.",
+     "a": "The Supreme Court is established under Part V (The Union), Articles 124 to 147 of the Constitution. A wrong answer (e.g., citing Part VI or Articles 214–231) reveals the student confuses the Union-level judiciary with the State-level High Courts, indicating they have not distinguished the constitutional placement of the two tiers.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Constitution create a single integrated judiciary instead of separate federal and state court systems like in the USA?",
+     "a": "India adopted a single integrated judiciary to ensure uniformity in the interpretation of central and state laws, maintain national legal unity, and avoid conflicting judgments on constitutional matters — unlike the US dual system where federal and state courts operate independently. A wrong answer suggesting \"administrative convenience\" or \"cost-saving\" shows the student misses the constitutional design principle of unified judicial supremacy in a holding-together federation.",
+     "self_check": true
+    },
+    {
+     "q": "A district judge in Uttar Pradesh delivers a judgment on a property dispute. The losing party wants to appeal. Trace the exact appellate path available, naming each court tier and the constitutional basis for the appeal.",
+     "a": "Appeal lies first to the Allahabad High Court (Article 225 — High Court's appellate jurisdiction over subordinate courts), then to the Supreme Court under Article 133 (civil appeals) or Article 134 (criminal appeals) if a substantial question of law or constitutional interpretation is involved. A wrong path (e.g., direct appeal to Supreme Court or skipping High Court) reveals the student does not grasp the mandatory hierarchical appellate structure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the constitutional status of a High Court judge and a district judge regarding appointment, tenure, and removal. What does this comparison reveal about judicial independence at different tiers?",
+     "a": "High Court judges are appointed by the President in consultation with the Chief Justice of India and the Governor (Article 217), hold office until age 62, and can be removed only by impeachment (Article 124(4) applied via Article 218). District judges are appointed by the Governor in consultation with the High Court (Article 233), serve under state service rules, and can be removed by the Governor on the High Court's recommendation. This shows High Court judges enjoy greater constitutional protection, reflecting their role as constitutional courts, while subordinate courts are part of the state judicial service — a common misconception is that all judges have identical independence guarantees.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Supreme Court controls the High Courts administratively.\" Is this correct? Justify using constitutional provisions.",
+     "a": "The statement is incorrect. The Supreme Court has only judicial appellate and supervisory jurisdiction over High Courts (Articles 132–136, 141), not administrative control. High Courts are constituted under Article 214 and exercise superintendence over all subordinate courts in the state (Article 227). Administrative control of High Courts lies with the Chief Justice of that High Court and the state executive (Governor) for certain matters. A student who agrees confuses judicial hierarchy with administrative hierarchy — a critical error for understanding judicial federalism.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph constitutional provision (in your own words) that would establish a new intermediate appellate tier between High Courts and the Supreme Court, specifying its composition, jurisdiction, and relationship to existing tiers.",
+     "a": "A good answer will: (1) name the new tier (e.g., \"Zonal Courts of Appeal\"), (2) specify composition (e.g., 3 judges per zone appointed by President after CJI consultation), (3) define jurisdiction (e.g., mandatory first appeal from High Courts in civil/criminal matters involving substantial questions of law), (4) clarify it binds High Courts but is bound by Supreme Court under Article 141, and (5) note amendment required to Articles 132–136. A poor answer that merely copies the US Circuit Court model without adapting to India's integrated structure reveals inability to apply constitutional design principles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

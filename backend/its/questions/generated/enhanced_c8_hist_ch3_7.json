@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_hist_ch3_7",
+ "concepts": [
+  {
+   "id": "enh:c8_hist_ch3_7",
+   "title": "c8_hist_ch3_7",
+   "questions": [
+    {
+     "q": "Which three Indian leaders formed the triple alliance against the English East India Company at the Battle of Buxar in 1764?",
+     "a": "The three leaders were Mir Qasim (deposed Nawab of Bengal), Shuja-ud-Daula (Nawab of Awadh), and Shah Alam II (Mughal Emperor). \n*Misunderstanding Analysis:* If a student lists Mir Jafar or Siraj-ud-Daulah, they are confusing the actors of the Battle of Plassey (1757) with those of the Battle of Buxar (1764). Siraj-ud-Daulah died in 1757, and Mir Jafar was reinstated by the British as a puppet ruler after Mir Qasim fled.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Mir Qasim's decision to abolish all internal customs duties across Bengal anger the East India Company, even though it applied equally to Indian and European merchants?",
+     "a": "The British had previously enjoyed a unfair trade advantage because their trade passes (*dastaks*) exempted them from internal taxes while Indian merchants paid heavy duties. By abolishing duties for everyone, Mir Qasim removed the British private traders' unfair competitive advantage and reduced Company influence, making Indian goods equal in price.\n*Misunderstanding Analysis:* If a student answers that Mir Qasim raised taxes on the British, they misunderstand the conflict. The British were outraged not by increased taxes on themselves, but by the loss of their monopoly advantage when local Indian traders were given equal tax-free status.",
+     "self_check": true
+    },
+    {
+     "q": "A historian argues: \"The Battle of Plassey (1757) made the British kingmakers, but the Battle of Buxar (1764) made them masters.\" Based on your knowledge of the political outcomes, apply this distinction to explain why Buxar was historically more significant.",
+     "a": "Plassey only installed a puppet ruler (Mir Jafar) who still technically held sovereign administrative power. In contrast, victory at Buxar defeated not just Bengal's ruler, but Awadh and the reigning Mughal Emperor himself. The resulting Treaty of Allahabad granted the British direct, legal authority to collect revenue (*Diwani*) independently of the local Nawab, shifting them from political influencers to legal rulers.\n*Misunderstanding Analysis:* If a student states that Plassey was more important because it happened first or had more casualties, they are failing to apply criteria of structural political change vs. chronological sequence.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the Dual System of Government (*Nizamat* vs. *Diwani*) introduced in Bengal after 1765. How did this arrangement separate authority from responsibility for the people of Bengal?",
+     "a": "The Treaty of Allahabad divided power into *Diwani* (revenue collection and civil justice, controlled directly by the British East India Company) and *Nizamat* (police and military administration, left to the puppet Nawab). This separated authority from responsibility because the Company held all financial power without any obligation to maintain law, order, or public welfare, while the Nawab had full responsibility for governance but zero revenue to pay for administrative services.\n*Misunderstanding Analysis:* If a student claims the Dual System meant the British and Nawab ruled jointly as equal partners, they fail to analyze the structural imbalance created by dividing revenue rights from administrative duties.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the economic impact of granting the *Diwani* rights on the flow of wealth between Britain and India after 1765.",
+     "a": "Before 1765, the East India Company had to import bullion (gold and silver) from Britain to purchase Indian silk and spices. After acquiring *Diwani* rights, the Company used revenues extracted directly from Indian peasants to buy Indian products, ship them to Europe, and retain the profit. This effectively turned Indian tax money into capital used to purchase Indian goods, initiating a massive drain of wealth without any net economic return to India.\n*Misunderstanding Analysis:* If a student asserts that *Diwani* helped Bengal's economy by modernizing tax collection, they fail to evaluate the systemic economic extraction and drain of wealth caused by foreign commercial sovereignty.",
+     "self_check": true
+    },
+    {
+     "q": "Imagine you are an economic advisor to the Mughal Emperor Shah Alam II in 1765. Formulate a short argument advising him on the long-term dangers of signing over the *Diwani* rights of Bengal, Bihar, and Orissa to a foreign trading corporation.",
+     "a": "A strong answer would point out that surrendering land revenue (*Diwani*) destroys the economic foundation of imperial sovereignty, renders the Emperor financially dependent on an annual pension controlled by foreigners, and enables a private trading company to fund a standing mercenary army using Indian tax revenues to conquer remaining imperial territories.\n*Misunderstanding Analysis:* A weak answer would focus only on personal safety or short-term lump sums (like the 26 lakh rupee pension) without recognizing how surrendering revenue collection surrenders actual state power.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

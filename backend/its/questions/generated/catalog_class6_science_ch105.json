@@ -1,0 +1,225 @@
+{
+ "catalog": "catalog_class6_science_ch105.json",
+ "concepts": [
+  {
+   "id": "fesc.105.1",
+   "title": "Handpicking",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is handpicking? When is it used?",
+     "a": "Picking out unwanted substances by hand, used when impurities are few and large, like pebbles in rice.",
+     "self_check": true
+    },
+    {
+     "q": "Give two examples where handpicking works.",
+     "a": "Removing stones from pulses and pebbles from rice.",
+     "self_check": true
+    },
+    {
+     "q": "Why can handpicking not clean flour?",
+     "a": "The impurities in flour are too small and too many to pick by hand - sieving works better.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.105.2",
+   "title": "Threshing",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is threshing?",
+     "a": "Separating grain from the stalks by beating, as farmers do after harvest.",
+     "self_check": true
+    },
+    {
+     "q": "How is threshing done on a large scale?",
+     "a": "With machines called threshers that beat the stalks and separate grain quickly.",
+     "self_check": true
+    },
+    {
+     "q": "Name the substance separated from stalks by threshing.",
+     "a": "The grain (like wheat or paddy seeds).",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.105.3",
+   "title": "Winnowing",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is winnowing?",
+     "a": "Blowing air on a mixture so the lighter husk blows away and heavier grain falls near.",
+     "self_check": true
+    },
+    {
+     "q": "Which property lets winnowing separate husk from grain?",
+     "a": "Difference in weight - husk is light, grain is heavy.",
+     "self_check": true
+    },
+    {
+     "q": "Name the tool used for winnowing.",
+     "a": "A winnowing basket (soop), tilted against the wind.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.105.4",
+   "title": "Sieving",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is sieving?",
+     "a": "Passing a mixture through a sieve so fine particles fall through and big ones stay behind.",
+     "self_check": true
+    },
+    {
+     "q": "Where is sieving used at home and at construction sites?",
+     "a": "At home for flour (removing bran); at sites to remove pebbles from sand.",
+     "self_check": true
+    },
+    {
+     "q": "When does sieving fail to separate a mixture?",
+     "a": "When both components are of the same size, or when one is dissolved - other methods are needed.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.105.5",
+   "title": "Sedimentation",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is sedimentation?",
+     "a": "Letting an insoluble heavy substance settle at the bottom of a liquid.",
+     "self_check": true
+    },
+    {
+     "q": "How does stirring help sedimentation?",
+     "a": "Stirring in water helps mud loosen and then settle faster at the bottom.",
+     "self_check": true
+    },
+    {
+     "q": "Give one example of sedimentation at home.",
+     "a": "Muddy water in a bucket settling clear at the top after some hours.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.105.6",
+   "title": "Decantation",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is decantation?",
+     "a": "Pouring off the clear liquid after the heavy particles have settled.",
+     "self_check": true
+    },
+    {
+     "q": "How do oil and water separate by decantation?",
+     "a": "Oil floats on water; the lower water layer is poured out carefully.",
+     "self_check": true
+    },
+    {
+     "q": "Name one use of decantation.",
+     "a": "Pouring clear water from settled mud, or separating water after washing rice.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.105.7",
+   "title": "Filtration",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is filtration?",
+     "a": "Passing a mixture through a filter (paper, cloth) that holds insoluble solids and lets the liquid pass.",
+     "self_check": true
+    },
+    {
+     "q": "Name the liquid that passes through the filter.",
+     "a": "The filtrate - like clear tea after removing leaves.",
+     "self_check": true
+    },
+    {
+     "q": "Give one household and one laboratory use of filtration.",
+     "a": "Home: filtering tea with a strainer. Lab: filter paper separating chalk from water.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.105.8",
+   "title": "Evaporation",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What happens during evaporation?",
+     "a": "A liquid turns into vapour leaving the dissolved solid behind - salt from sea water.",
+     "self_check": true
+    },
+    {
+     "q": "How is common salt obtained from sea water?",
+     "a": "Sea water is spread in shallow beds; the sun evaporates water leaving salt.",
+     "self_check": true
+    },
+    {
+     "q": "Why does evaporation recover only the solid, not the liquid?",
+     "a": "The liquid escapes as vapour into air; only the dissolved solid remains.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.105.9",
+   "title": "Condensation",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is condensation?",
+     "a": "A vapour cooling back into liquid, as water drops on a cold glass or lid.",
+     "self_check": true
+    },
+    {
+     "q": "How can we recover the liquid lost in evaporation?",
+     "a": "Condense the vapour on a cold surface - as in making potable water by distillation.",
+     "self_check": true
+    },
+    {
+     "q": "Give two examples of condensation from daily life.",
+     "a": "Dew on morning grass and water drops on a mirror after a hot bath.",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fesc.105.10",
+   "title": "Saturated Solution",
+   "solution_type": "verify_property",
+   "questions": [
+    {
+     "q": "What is a saturated solution?",
+     "a": "One that has dissolved all the solute it can at that temperature - no more dissolves.",
+     "self_check": true
+    },
+    {
+     "q": "How can a saturated sugar solution dissolve more sugar?",
+     "a": "Warm it - solubility rises with temperature.",
+     "self_check": true
+    },
+    {
+     "q": "What happens on cooling a hot saturated solution?",
+     "a": "Extra solute separates out as crystals.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

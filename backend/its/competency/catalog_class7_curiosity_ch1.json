@@ -1,0 +1,519 @@
+{
+ "class": 7,
+ "subject": "science",
+ "chapter": 1,
+ "chapter_title": "The Ever-Evolving World of Science",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/gecu101.txt",
+ "concepts": [
+  {
+   "id": "c7cu.1.1",
+   "title": "Science as a Process of Inquiry",
+   "section": "1.1",
+   "definition": "Science is a continuous process of asking questions, observing carefully, and seeking evidence to understand the natural world.",
+   "formula": "",
+   "key_idea": "Science is not just a collection of facts; it is an ongoing process of inquiry driven by curiosity.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What is science as a process of inquiry?",
+    "How is science more than just a collection of facts?",
+    "Why is asking questions important in science?",
+    "Give one example of scientific inquiry in daily life.",
+    "How does curiosity drive the process of science?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the question",
+     "explain": "Recognise a natural phenomenon or event that needs explanation."
+    },
+    {
+     "step": 2,
+     "action": "Seek evidence",
+     "explain": "Make careful observations and gather information to answer the question."
+    },
+    {
+     "step": 3,
+     "action": "Build understanding",
+     "explain": "Use the evidence to form an explanation that can be tested and improved."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What is science as a process of inquiry?",
+     "solution": "Science is a continuous process of asking questions, observing, and seeking evidence to understand the world.",
+     "answer": "Science is a continuous process of asking questions, observing, and seeking evidence."
+    },
+    {
+     "question": "How is science more than just a collection of facts?",
+     "solution": "Science is a way of finding answers through inquiry, not merely a list of facts to memorise.",
+     "answer": "Science is a way of finding answers through inquiry, not just a list of facts."
+    },
+    {
+     "question": "Give one example of scientific inquiry in daily life.",
+     "solution": "Asking why food spoils and then observing that it spoils faster in warm, damp conditions is an example of inquiry.",
+     "answer": "Asking why food spoils and observing that it spoils faster when warm and damp."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why is asking questions important in science?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of curiosity leading to a scientific question.",
+     "type": "verify_property"
+    },
+    {
+     "question": "How does evidence help in the process of inquiry?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.1.2",
+   "title": "Evolution of Scientific Knowledge",
+   "section": "1.2",
+   "definition": "Scientific knowledge grows and changes over time as new observations, tools, and experiments improve our understanding.",
+   "formula": "",
+   "key_idea": "Scientific ideas are not fixed; they evolve as new evidence is discovered.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How does scientific knowledge change over time?",
+    "Why is scientific knowledge not fixed?",
+    "Give one example of a scientific idea that changed.",
+    "How do new tools help science evolve?",
+    "Why do scientists revise their theories?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the old idea",
+     "explain": "Note the earlier understanding or theory about a phenomenon."
+    },
+    {
+     "step": 2,
+     "action": "Find new evidence",
+     "explain": "Look for new observations or experiments that challenge the old idea."
+    },
+    {
+     "step": 3,
+     "action": "Explain the change",
+     "explain": "Describe how the new evidence led to a revised or new understanding."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does scientific knowledge change over time?",
+     "solution": "As new observations and tools appear, scientists revise their ideas to match the new evidence.",
+     "answer": "New observations and tools lead scientists to revise their ideas."
+    },
+    {
+     "question": "Give one example of a scientific idea that changed.",
+     "solution": "People once thought the Earth was flat, but explorations and evidence showed it is round.",
+     "answer": "The idea that the Earth is flat changed to the Earth being round."
+    },
+    {
+     "question": "How do new tools help science evolve?",
+     "solution": "The microscope let scientists see cells, which led to the cell theory and a new understanding of life.",
+     "answer": "The microscope revealed cells, leading to the cell theory."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why is scientific knowledge not fixed?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of a theory that was revised.",
+     "type": "verify_property"
+    },
+    {
+     "question": "How does new evidence affect old ideas?",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.1.3",
+   "title": "Science and Experiments",
+   "section": "1.3",
+   "definition": "The scientific method is a structured process of observation, hypothesis, experiment, analysis, and conclusion used to answer questions reliably.",
+   "formula": "",
+   "key_idea": "The scientific method turns curiosity into reliable answers through a step-by-step process.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "What are the steps of the scientific method?",
+    "What is a hypothesis?",
+    "How does an experiment test a hypothesis?",
+    "Why is a conclusion important in the scientific method?",
+    "Give one example of using the scientific method."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Observe and ask",
+     "explain": "Notice something interesting and form a clear question about it."
+    },
+    {
+     "step": 2,
+     "action": "Hypothesise and experiment",
+     "explain": "Make a testable guess called a hypothesis and test it with a fair experiment."
+    },
+    {
+     "step": 3,
+     "action": "Analyse and conclude",
+     "explain": "Study the results and decide whether they support the hypothesis or not."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "List the main steps of the scientific method in order.",
+     "solution": "The steps are observation, hypothesis, experiment, analysis, and conclusion.",
+     "answer": "Observation, hypothesis, experiment, analysis, conclusion."
+    },
+    {
+     "question": "A student sees ice melting faster on a metal plate than on a plastic one. State a hypothesis they could test.",
+     "solution": "A possible hypothesis is: metal transfers heat faster than plastic, so ice melts quicker on metal.",
+     "answer": "Metal transfers heat faster than plastic, melting ice quicker."
+    },
+    {
+     "question": "Why is a conclusion needed after an experiment?",
+     "solution": "A conclusion tells us whether the results support the hypothesis, so we know what we learned.",
+     "answer": "A conclusion tells us whether the hypothesis is supported by the results."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is a hypothesis?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Why must an experiment be fair?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Write the steps of the scientific method in order.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.1.4",
+   "title": "Role of Observation and Experimentation",
+   "section": "1.4",
+   "definition": "Observation is carefully noting what happens, and experimentation is testing ideas under controlled conditions to gather reliable evidence.",
+   "formula": "",
+   "key_idea": "Careful observation and fair experiments are the foundations of trustworthy scientific knowledge.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Why is observation important in science?",
+    "What is the role of experimentation in science?",
+    "How does a fair experiment help?",
+    "Give one example of observation leading to a discovery.",
+    "Why must experiments be repeated?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Observe carefully",
+     "explain": "Use senses and tools to note what happens in detail."
+    },
+    {
+     "step": 2,
+     "action": "Design a fair experiment",
+     "explain": "Change only one variable at a time and keep other conditions the same."
+    },
+    {
+     "step": 3,
+     "action": "Record and repeat",
+     "explain": "Write down the results and repeat the experiment to check reliability."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Why is observation important in science?",
+     "solution": "Observation provides the facts and patterns that scientists use to build explanations.",
+     "answer": "Observation provides the facts and patterns for explanations."
+    },
+    {
+     "question": "Give one example of observation leading to a discovery.",
+     "solution": "Alexander Fleming observed mould killing bacteria, which led to the discovery of penicillin.",
+     "answer": "Fleming observed mould killing bacteria, leading to penicillin."
+    },
+    {
+     "question": "Why must experiments be repeated?",
+     "solution": "Repeating an experiment checks that the results are reliable and not due to chance.",
+     "answer": "Repeating checks that results are reliable and not due to chance."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What is the role of experimentation in science?",
+     "type": "verify_property"
+    },
+    {
+     "question": "How does a fair experiment help?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of careful observation in daily life.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.1.5",
+   "title": "Science and Society",
+   "section": "1.5",
+   "definition": "Science influences society by improving health, agriculture, transport, and communication, while society guides the problems science chooses to solve.",
+   "formula": "",
+   "key_idea": "Science and society shape each other; scientific progress improves lives and society sets new questions.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "How does science affect society?",
+    "Give one example of science improving health.",
+    "How does society influence science?",
+    "Why is science important for agriculture?",
+    "Name one way science improves communication."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the social need",
+     "explain": "Find a problem in society such as disease, food shortage, or poor transport."
+    },
+    {
+     "step": 2,
+     "action": "Find the scientific solution",
+     "explain": "Determine which scientific idea or invention addresses that need."
+    },
+    {
+     "step": 3,
+     "action": "Explain the benefit",
+     "explain": "Describe how the solution improves people's lives."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "How does science affect society?",
+     "solution": "Science improves health, food, transport, and communication, making life safer and easier.",
+     "answer": "Science improves health, food, transport, and communication."
+    },
+    {
+     "question": "Give one example of science improving health.",
+     "solution": "Vaccines, developed through science, prevent diseases and save millions of lives.",
+     "answer": "Vaccines prevent diseases and save lives."
+    },
+    {
+     "question": "How does society influence science?",
+     "solution": "Society's needs, such as clean energy, guide scientists to study and solve those problems.",
+     "answer": "Society's needs guide the problems scientists choose to solve."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Why is science important for agriculture?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Name one way science improves communication.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of a social need guiding science.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.1.6",
+   "title": "Famous Scientists and Their Contributions",
+   "section": "1.6",
+   "definition": "Scientists such as Newton, Darwin, Curie, and Kalam made important discoveries that advanced our understanding of nature and improved technology.",
+   "formula": "",
+   "key_idea": "Individual scientists have made key contributions that shaped modern science.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Name one famous scientist and their contribution.",
+    "What did Marie Curie discover?",
+    "How did Newton contribute to science?",
+    "What was A.P.J. Abdul Kalam known for?",
+    "Give one example of a scientist whose work changed the world."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the scientist",
+     "explain": "Note the name of the scientist and their field of work."
+    },
+    {
+     "step": 2,
+     "action": "State the contribution",
+     "explain": "Describe the discovery or invention they are known for."
+    },
+    {
+     "step": 3,
+     "action": "Explain the impact",
+     "explain": "Show how their work changed science or society."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "What did Marie Curie discover?",
+     "solution": "Marie Curie discovered the elements radium and polonium and studied radioactivity.",
+     "answer": "Radium, polonium, and radioactivity."
+    },
+    {
+     "question": "How did Newton contribute to science?",
+     "solution": "Newton discovered the laws of motion and gravitation, explaining how objects move.",
+     "answer": "Laws of motion and gravitation."
+    },
+    {
+     "question": "What was A.P.J. Abdul Kalam known for?",
+     "solution": "A.P.J. Abdul Kalam was known for his work on India's space and missile programmes and inspiring young scientists.",
+     "answer": "India's space and missile programmes and inspiring youth."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "Name one famous scientist and their contribution.",
+     "type": "verify_property"
+    },
+    {
+     "question": "What did Charles Darwin contribute to science?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Give one example of a scientist whose work changed the world.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c7cu.1.7",
+   "title": "Branches of Science",
+   "section": "1.7",
+   "definition": "Science is divided into branches such as physics, chemistry, biology, and earth science, each studying a different part of nature.",
+   "formula": "",
+   "key_idea": "Different branches of science study different aspects of the natural world.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Name three branches of science.",
+    "What does biology study?",
+    "What does physics study?",
+    "Which branch of science studies living things?",
+    "Give one example of a question chemistry tries to answer."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the topic",
+     "explain": "Decide what the question is about, such as living things, forces, or chemicals."
+    },
+    {
+     "step": 2,
+     "action": "Match to a branch",
+     "explain": "Find which branch of science studies that topic."
+    },
+    {
+     "step": 3,
+     "action": "Explain with an example",
+     "explain": "Give an example that shows what that branch studies."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Name three branches of science.",
+     "solution": "Three branches are physics, chemistry, and biology.",
+     "answer": "Physics, chemistry, biology."
+    },
+    {
+     "question": "Which branch of science studies living things?",
+     "solution": "Biology studies living things such as plants and animals.",
+     "answer": "Biology."
+    },
+    {
+     "question": "What does physics study?",
+     "solution": "Physics studies forces, energy, light, and motion.",
+     "answer": "Forces, energy, light, and motion."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "What does chemistry study?",
+     "type": "verify_property"
+    },
+    {
+     "question": "Name one branch of science and what it studies.",
+     "type": "verify_property"
+    },
+    {
+     "question": "Which branch studies the Earth and its rocks?",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "reviewer-added",
+   "concept": "c7cu.1.1",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain science as a process of inquiry with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the question",
+     "explain": "Recognise a natural phenomenon or event that needs explanation."
+    },
+    {
+     "step": 2,
+     "action": "Seek evidence",
+     "explain": "Make careful observations and gather information to answer the question."
+    },
+    {
+     "step": 3,
+     "action": "Build understanding",
+     "explain": "Use the evidence to form an explanation that can be tested and improved."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "reviewer-added",
+   "concept": "c7cu.1.2",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain evolution of scientific knowledge with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the old idea",
+     "explain": "Note the earlier understanding or theory about a phenomenon."
+    },
+    {
+     "step": 2,
+     "action": "Find new evidence",
+     "explain": "Look for new observations or experiments that challenge the old idea."
+    },
+    {
+     "step": 3,
+     "action": "Explain the change",
+     "explain": "Describe how the new evidence led to a revised or new understanding."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "title-matched (new syllabus)",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)"
+}

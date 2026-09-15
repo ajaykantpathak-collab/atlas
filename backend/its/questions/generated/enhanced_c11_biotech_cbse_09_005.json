@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_09_005",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_09_005",
+   "title": "c11_biotech_cbse_09_005",
+   "questions": [
+    {
+     "q": "What is the mandatory first character of a FASTA header line, and what two pieces of information must follow it according to NCBI convention?",
+     "a": "The first character must be '>' (greater-than). It must be followed by a unique identifier (accession/accession.version) and a free-text description (gene name, organism). A wrong answer (e.g., '@' or missing accession) reveals confusion with FASTQ format or ignorance of NCBI's minimal submission requirements.",
+     "self_check": true
+    },
+    {
+     "q": "A GenBank file shows \"LOCUS       NM_007294  5592 bp  mRNA  linear  HUM 15-FEB-2024\". Explain the meaning of each token after LOCUS and why \"mRNA\" appears instead of \"DNA\".",
+     "a": "Tokens: locus-name (NM_007294), length (5592 bp), molecule-type (mRNA), topology (linear), division-code (HUM), modification-date. \"mRNA\" indicates the sequence is a spliced transcript (cDNA), not genomic DNA with introns. A wrong answer (e.g., \"mRNA means mitochondrial RNA\") shows failure to connect molecule-type to the FEATURES table where source=genomic vs. cDNA is declared.",
+     "self_check": true
+    },
+    {
+     "q": "Given the GenBank FEATURES line: \"CDS             join(79..337,456..612)\", write the exact FASTA header and the first 12 nucleotides of the translated protein sequence assuming standard genetic code and the genomic sequence provided in the ORIGIN section (you may describe the steps without actual sequence).",
+     "a": "Steps: 1) Extract exon1 (79-337) and exon2 (456-612) from ORIGIN. 2) Concatenate in 5'→3' order. 3) Translate in frame 1. 4) FASTA header: >accession.version gene=BRCA1 CDS=join(79..337,456..612) [organism=Homo sapiens]. 5) First 12 aa from translation. Wrong answer (ignoring join, or translating genomic DNA with introns) reveals inability to parse feature locations — a classic board-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the information content of a FASTA file versus a GenBank file for the same RefSeq mRNA. Which three biological annotations are completely absent in FASTA but present in GenBank, and why does their absence make FASTA insufficient for genome-browser loading?",
+     "a": "Absent in FASTA: 1) Exon-intron structure (FEATURES CDS/exon with join), 2) Source organism taxonomy (SOURCE/ORGANISM with db_xref), 3) Publication references (REFERENCE with PubMed IDs). Genome browsers need exon coordinates to draw gene models; FASTA lacks coordinate system entirely. Wrong answer (e.g., \"FASTA has no quality scores\") confuses FASTA with FASTQ.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since FASTA is simpler, we should always convert GenBank to FASTA and discard the original.\" Evaluate this statement for (a) variant calling, (b) phylogenetic analysis, (c) CRISPR guide-RNA design.",
+     "a": "(a) Variant calling requires genomic coordinates (VCF needs CHROM, POS) — lost in FASTA. (b) Phylogeny of coding sequences can use FASTA CDS, but genomic alignment needs introns/UTRs from GenBank. (c) CRISPR design needs PAM context and exon boundaries — only in GenBank FEATURES. Discarding GenBank is irreversible data loss. Wrong answer treats formats as interchangeable containers rather than purpose-specific representations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal valid GenBank entry (show all mandatory fields) for a synthetic 150-bp plasmid insert named \"pSyn_GFP\" with one CDS (ATG...TAA) and no introns. Use invented but syntactically correct accession, version, and today's date.",
+     "a": "Must include: LOCUS, DEFINITION, ACCESSION, VERSION, KEYWORDS, SOURCE, ORGANISM, REFERENCE (at least one with AUTHORS, TITLE, JOURNAL), FEATURES (source 1..150, CDS 1..150 with /codon_start=1, /transl_table=1, /product=\"GFP\", /translation=\"M...K\"), ORIGIN (150 bp in 10-column blocks), // terminator. Missing any field (e.g., no REFERENCE or no //) makes it invalid for GenBank submission. Poor answer omits VERSION or uses spaces instead of fixed columns.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

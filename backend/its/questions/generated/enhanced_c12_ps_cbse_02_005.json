@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_ps_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c12_ps_cbse_02_005",
+   "title": "c12_ps_cbse_02_005",
+   "questions": [
+    {
+     "q": "Define \"shock therapy\" in the context of post-communist transition and name the international institutions most associated with its design and financing.",
+     "a": "Shock therapy is a rapid, simultaneous transition package — price liberalization, mass privatization, fiscal stabilization, trade liberalization, and legal/institutional reform — implemented in early 1990s post-communist states. The IMF and World Bank (with advisors like Jeffrey Sachs) designed and financed these programs. A wrong answer (e.g., \"gradual reform like China\" or \"only privatization\") reveals confusion between shock therapy and gradualism, or reduction of a multi-component strategy to a single element.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Poland's \"Balcerowicz Plan\" (1990) achieve earlier growth recovery than Russia's shock therapy (1992), despite both following IMF prescriptions?",
+     "a": "Poland had stronger pre-transition institutional legacies (Solidarity's social capital, prior reform attempts), credible political consensus, faster legal framework for property rights, and earlier EU accession anchoring. Russia faced weaker state capacity, asset-stripping privatization (loans-for-shares), oligarch capture, and no external anchor. A wrong answer attributing difference solely to \"better leadership\" or \"luck\" misses the institutional and political economy dimensions that competitive exams test.",
+     "self_check": true
+    },
+    {
+     "q": "A post-communist country adopts shock therapy: prices are freed, state firms privatized via vouchers, subsidies cut, currency made convertible. Within 18 months, industrial output falls 40%, poverty triples, and a few insiders acquire major assets. Using the concept of \"institutional vacuum,\" explain why this outcome was structurally likely, not accidental.",
+     "a": "When central planning collapses, no market institutions exist: no property rights enforcement, no competition law, no banking regulation, no bankruptcy framework. Voucher privatization without these allows insiders (managers, nomenklatura) to convert political power into economic assets. Simultaneous liberalization destroys state-firm demand before private demand emerges. A wrong answer blaming \"corruption\" alone ignores that shock therapy deliberately dismantled the old institutional order before building the new one — a design choice, not an implementation failure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the political consequences of shock therapy in Poland (1990s) and Russia (1990s) on democratic consolidation. Which case better supports the argument that economic pain undermines democratic legitimacy?",
+     "a": "Russia: output collapse >50%, hyperinflation wiped savings, oligarchs captured media/politics, Yeltsin's 1993 shelling of parliament, 1996 election manipulation — democracy became associated with chaos/poverty, enabling Putin's authoritarian consolidation. Poland: shorter recession, earlier growth (1992), Solidarity provided social buffer, EU prospect anchored reforms — democracy survived despite pain. Russia better supports the argument; a wrong answer claiming \"both consolidated democracy\" ignores Russia's democratic backsliding rooted in 1990s transition trauma.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the claim: \"China's gradualism proved superior to shock therapy because it avoided output collapse and poverty spikes.\" What evidence complicates this binary judgment?",
+     "a": "China's gradualism (dual-track pricing, township-village enterprises, SEZs) avoided collapse but delayed SOE restructuring, created massive bad loans, entrenched state-sector privilege, and postponed political reform — Tiananmen (1989) showed the regime's refusal to democratize. Shock therapy countries (Poland, Czechia, Baltics) achieved deeper institutional integration with EU, stronger property rights, and democratic accountability. A wrong answer declaring one \"better\" misses that transition paths reflect initial conditions (agrarian vs. industrialized, political opening vs. closure) and involve trade-offs between speed, equity, and institutional depth.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"socially buffered shock therapy\" package for a hypothetical post-communist state in 1992 that retains rapid liberalization but mitigates the three most damaging social outcomes observed in Russia. Specify one policy instrument per outcome.",
+     "a": "1) Poverty spike → Universal basic cash transfer funded by progressive wealth tax on privatization gains (targets oligarch capture, maintains demand). 2) Healthcare/education collapse → Ring-fenced social expenditure in constitution, financed by resource-export windfall tax (prevents fiscal austerity from gutting human capital). 3) Asset stripping → Phased privatization: strategic sectors (energy, defense) remain state-owned with independent boards; competitive auctions for others with foreign-strategic-investor requirements (prevents insider deals). A poor answer lists generic \"safety nets\" without linking each instrument to a specific shock-therapy mechanism (voucher privatization, subsidy removal, fiscal squeeze).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

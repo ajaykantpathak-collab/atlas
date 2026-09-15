@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_soc_cbse_08_006",
+ "concepts": [
+  {
+   "id": "enh:c11_soc_cbse_08_006",
+   "title": "c11_soc_cbse_08_006",
+   "questions": [
+    {
+     "q": "Define \"environmental vulnerability\" in sociological terms and explain how it differs from a purely physical or geographical understanding of environmental risk.",
+     "a": "Environmental vulnerability in sociology refers to the socially structured susceptibility of specific groups to environmental harm, shaped by their position in hierarchies of class, caste, gender, and power — not merely by physical exposure. A wrong answer that defines it only as \"living in a flood-prone area\" reveals the misconception that vulnerability is a natural given rather than a product of unequal social relations that determine who can afford safe housing, who has political voice to demand infrastructure, and who bears the costs of environmental decisions made by others.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT text describes richer farmers in Kutch investing in deep bore tubewells while poorer villagers' earthen wells run dry. A student argues: \"This is just the free market working — those who can afford technology get water.\" Explain why this reasoning reflects a misunderstanding of the sociological analysis in the chapter.",
+     "a": "The student's reasoning ignores that groundwater is a common-pool resource, not a private commodity; deep borewells by the wealthy deplete the shared aquifer, making water inaccessible to shallow wells of the poor — a process of \"competitive depletion\" enabled by unequal capital access. The sociological analysis shows that property relations and state policy (subsidised electricity for pumps, lack of regulation) privilege large farmers, turning a collective resource into private gain for a few. A wrong answer that treats this as mere market efficiency misses how social power shapes resource rules to legitimise unequal outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"double burden\" to analyse the situation of women in rural households facing water scarcity. Use the NCERT example of women gathering fuel and fetching water but not controlling these resources.",
+     "a": "Women face a double burden: (1) they are primarily responsible for securing water and fuel (reproductive labour), so scarcity increases their labour time and physical strain; (2) they lack decision-making power over water allocation, irrigation investments, or land rights that could mitigate scarcity. When wells dry up, women walk farther, wait longer, and negotiate with powerful well-owners — yet their needs are invisible in panchayat water committees dominated by men. A wrong answer that only mentions \"women work harder\" misses the structural powerlessness that prevents them from changing the rules of resource access.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Bhopal gas tragedy and the Kutch water crisis as instances of environmental injustice. Identify two similarities and two differences in how social inequality shaped vulnerability in each case.",
+     "a": "Similarities: (1) In both, powerful actors (Union Carbide + state government; large farmers + state irrigation policy) made decisions that externalised risks onto the poor; (2) Institutional failures (ignored safety warnings; unregulated groundwater extraction) reflected political capture by elites. Differences: (1) Bhopal was an acute industrial disaster with immediate mass casualties, while Kutch is a chronic, slow-onset depletion; (2) Bhopal vulnerability was shaped by residential proximity to a hazardous plant (workers and urban poor), while Kutch vulnerability is shaped by agrarian class structure and landholding size. A wrong answer that lists only \"poor people suffered\" fails to analyse the distinct mechanisms — industrial siting vs. resource competition — through which inequality operates.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Protecting biodiversity through wildlife sanctuaries serves the universal public interest.\" Use the sociological perspective from the chapter to critique this claim.",
+     "a": "The claim is sociologically flawed because \"public interest\" is not universal but contested: sanctuaries often displace forest-dwelling communities (tribals, pastoralists) who lose access to livelihood resources (fuel, fodder, minor forest produce), while urban elites and tourists gain recreational and aesthetic benefits. The Forest Department's revenue-oriented management (e.g., bamboo for paper mills) may align with corporate interests, not local subsistence. A wrong answer that agrees uncritically ignores how conservation policies can reproduce social inequality by privileging certain environmental values (wilderness, tourism) over others (subsistence, cultural rights) — exactly the \"hotly contested arena\" the textbook describes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sociological research question to investigate how urban slum evictions for \"green infrastructure\" (e.g., riverfront parks, metro depots) redistribute environmental benefits and burdens across class lines in an Indian city. Specify the key variables you would measure.",
+     "a": "Research question: \"How do state-led urban greening projects in [city name] reconfigure access to environmental amenities (clean air, green space, flood protection) and environmental hazards (pollution, heat, displacement) for evicted slum dwellers versus beneficiary middle-class residents?\" Key variables: (1) pre- and post-eviction distance to green space and air quality levels; (2) compensation/rehabilitation adequacy (housing quality, tenure security, livelihood access); (3) property value changes in beneficiary areas; (4) participation of affected communities in project planning. A poor answer would propose a purely technical environmental impact assessment without centering social power and distributional justice.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_cs_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c11_cs_cbse_06_005",
+   "title": "c11_cs_cbse_06_005",
+   "questions": [
+    {
+     "q": "What is the return value of `'Hello World'.find('world')` and why does it return that value?",
+     "a": "The return value is `-1` because `find()` is case-sensitive and the substring `'world'` (lowercase w) does not exist in `'Hello World'` (which has uppercase W). A wrong answer of `6` reveals the student thinks `find()` is case-insensitive; an answer of `None` or an error reveals confusion with `index()` which raises an exception when not found.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what happens to the original string `s = 'Python'` after executing `s.upper()` and why the value of `s` remains `'Python'`.",
+     "a": "The original string `s` remains `'Python'` because strings are immutable in Python; `upper()` returns a new string `'PYTHON'` but does not modify `s`. A wrong answer claiming `s` becomes `'PYTHON'` reveals the misconception that string methods mutate the original object, which is a fundamental error about string immutability.",
+     "self_check": true
+    },
+    {
+     "q": "Write a Python expression using `replace()` that changes the string `'2024-01-15'` into `'2024/01/15'` and explain why you do not need the optional `count` parameter.",
+     "a": "`'2024-01-15'.replace('-', '/')` returns `'2024/01/15'`. The `count` parameter is omitted because we want to replace *all* occurrences of `'-'`; the default behavior replaces every occurrence. A wrong answer using `replace('-', '/', 1)` would only replace the first hyphen, yielding `'2024/01-15'`, showing the student misunderstands the default `count` behavior.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the outputs of `'Banana'.find('na')` and `'Banana'.find('na', 3)`. What does the second argument do, and how does it affect the search?",
+     "a": "`'Banana'.find('na')` returns `2` (first occurrence at index 2), while `'Banana'.find('na', 3)` returns `4` (first occurrence at or after index 3). The second argument `start` specifies the index from which to begin the search. A wrong answer giving the same index for both reveals the student does not understand the `start` parameter; an answer of `-1` for the second reveals they think `start` is the length to search.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes `password = 'Secret123'; password.lower(); if password == 'secret123': print('Match')`. The condition never prints 'Match'. Evaluate the code and justify why the comparison fails.",
+     "a": "The comparison fails because `password.lower()` returns a new string `'secret123'` but does not modify `password`; `password` remains `'Secret123'`. The correct code should be `password = password.lower()`. A wrong answer that says `lower()` doesn't work on numbers reveals confusion about `lower()` affecting only alphabetic characters; the real issue is ignoring the return value.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new string processing task that requires using at least three of the four methods (`upper`, `lower`, `find`, `replace`) in sequence to solve a realistic problem. Describe the task and write the Python code.",
+     "a": "Task: Sanitize a user-entered email by converting to lowercase, checking if it contains `'@'` (using `find`), and replacing any spaces with empty string. Code: `email = ' User@Example.Com '; email = email.strip().lower(); if email.find('@') != -1: email = email.replace(' ', ''); print(email)`. A poor answer uses only one method or applies them in an order that doesn't make sense (e.g., replacing after checking for `@` but before lowercasing), showing lack of synthesis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,354 @@
+{
+ "catalog": "catalog_class7_maths_ch104.json",
+ "concepts": [
+  {
+   "id": "gegp.104.1",
+   "title": "Concept of Letter-Numbers (Variables)",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Evaluate 3x + 9 when x = 5.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 4x^2 + 8x + 5 when x = 5.",
+     "a": "145",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 3x + 6x - 6x and give the coefficient of x.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 3 x (8 + 4) equals 3 x 8 + 3 x 4. Compute it.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 4 + 2 x 9 (respect the order of operations).",
+     "a": "22",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (7 + 7) x 9.",
+     "a": "126",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.104.2",
+   "title": "Translating Phrases to Algebraic Expressions",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Evaluate 3x + 3 when x = 9.",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 5x^2 + 8x + 5 when x = 3.",
+     "a": "74",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 3x + 9x - 7x and give the coefficient of x.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 2 x (6 + 2) equals 2 x 6 + 2 x 2. Compute it.",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 6 + 6 x 5 (respect the order of operations).",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (5 + 2) x 2.",
+     "a": "14",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.104.3",
+   "title": "Evaluating Algebraic Expressions",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Evaluate 3x + 2 when x = 6.",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 2x^2 + 5x + 5 when x = 6.",
+     "a": "107",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 9x + 3x - 7x and give the coefficient of x.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 6 x (9 + 3) equals 6 x 9 + 6 x 3. Compute it.",
+     "a": "72",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 3 + 4 x 6 (respect the order of operations).",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (6 + 6) x 2.",
+     "a": "24",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.104.4",
+   "title": "Omission of Multiplication Symbol",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 6 + 5 gives 23",
+     "compute": "val = 3 * 6 + 5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate 3x + 5 when x = 6.",
+     "a": "23",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 4x^2 + 4x + 5 when x = 2.",
+     "a": "29",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 8x + 3x - 9x and give the coefficient of x.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 7 x (3 + 5) equals 7 x 3 + 7 x 5. Compute it.",
+     "a": "56",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 2 + 4 x 8 (respect the order of operations).",
+     "a": "34",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (3 + 8) x 3.",
+     "a": "33",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.104.5",
+   "title": "Perimeter of Regular Polygons as Expressions",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A rectangular park is 24 m long and 22 m wide. Find its perimeter.",
+     "a": "92",
+     "self_check": false
+    },
+    {
+     "q": "Find the perimeter of a square with side 32 cm.",
+     "a": "128",
+     "self_check": false
+    },
+    {
+     "q": "Find the perimeter of a triangle with sides 5 cm, 3 cm and 13 cm.",
+     "a": "21",
+     "self_check": false
+    },
+    {
+     "q": "An equilateral triangle has each side 23 cm. What is its perimeter?",
+     "a": "69",
+     "self_check": false
+    },
+    {
+     "q": "A regular polygon has 5 sides, each 9 cm long. Find its perimeter.",
+     "a": "45",
+     "self_check": false
+    },
+    {
+     "q": "A jogger runs 10 rounds around a square field of side 21 m. How many metres does she cover?",
+     "a": "840",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.104.6",
+   "title": "Like and Unlike Terms",
+   "converted_to_compute": true,
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 8 + 2 gives 26",
+     "compute": "val = 3 * 8 + 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Evaluate 3x + 2 when x = 8.",
+     "a": "26",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 2x^2 + 4x + 5 when x = 5.",
+     "a": "75",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 8x + 4x - 5x and give the coefficient of x.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 4 x (2 + 5) equals 4 x 2 + 4 x 5. Compute it.",
+     "a": "28",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 6 + 6 x 9 (respect the order of operations).",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (5 + 6) x 7.",
+     "a": "77",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.104.7",
+   "title": "Simplification by Combining Like Terms",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Evaluate 3x + 5 when x = 7.",
+     "a": "26",
+     "self_check": false
+    },
+    {
+     "q": "Find the value of 5x^2 + 7x + 5 when x = 3.",
+     "a": "71",
+     "self_check": false
+    },
+    {
+     "q": "Simplify 3x + 7x - 4x and give the coefficient of x.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "Use the distributive law: 2 x (9 + 9) equals 2 x 9 + 2 x 9. Compute it.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate 4 + 4 x 2 (respect the order of operations).",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "Evaluate (5 + 5) x 3.",
+     "a": "30",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.104.8",
+   "title": "Perimeter of a Rectangle as an Expression",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "A rectangular park is 23 m long and 35 m wide. Find its perimeter.",
+     "a": "116",
+     "self_check": false
+    },
+    {
+     "q": "Find the perimeter of a square with side 23 cm.",
+     "a": "92",
+     "self_check": false
+    },
+    {
+     "q": "Find the perimeter of a triangle with sides 18 cm, 9 cm and 9 cm.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "An equilateral triangle has each side 20 cm. What is its perimeter?",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "A regular polygon has 9 sides, each 8 cm long. Find its perimeter.",
+     "a": "72",
+     "self_check": false
+    },
+    {
+     "q": "A jogger runs 3 rounds around a square field of side 10 m. How many metres does she cover?",
+     "a": "120",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gegp.104.9",
+   "title": "Generalizing Patterns (nth Term)",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Find the 10th term of the AP with first term 2 and common difference 9.",
+     "a": "83",
+     "self_check": false
+    },
+    {
+     "q": "Find the sum of the first 6 terms of the AP 5, 8, 11, ... .",
+     "a": "75",
+     "self_check": false
+    },
+    {
+     "q": "An AP has first term 4 and last term 52 with 9 terms. Find its sum.",
+     "a": "252",
+     "self_check": false
+    },
+    {
+     "q": "The first two terms of a sequence are 2 and 9. Find the common difference.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "How many terms are in the AP 8, 12, 16, ... up to and including 64?",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "The 4th term of an AP is 17 and the 3th term is 13. Find the common difference d = (a_m - a_k) / (m - k).",
+     "a": "4",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_physics_ch07_019",
+ "concepts": [
+  {
+   "id": "enh:c6_physics_ch07_019",
+   "title": "c6_physics_ch07_019",
+   "questions": [
+    {
+     "q": "In which direction does heat always flow between two objects of different temperatures?",
+     "a": "Heat always flows from the hotter object to the cooler object. A student who says it flows from \"cold to hot\" is confusing the sensation of feeling cold (losing heat) with the actual movement of energy.",
+     "self_check": true
+    },
+    {
+     "q": "If you hold an ice cube in your hand, why does your hand feel cold?",
+     "a": "Your hand feels cold because heat is flowing out of your hand and into the ice cube. A student who says \"the cold moves into my hand\" is misinterpreting the direction of energy transfer; cold is simply the absence of heat.",
+     "self_check": true
+    },
+    {
+     "q": "A metal rod is held over a candle flame. After a few minutes, the other end becomes hot. What is this mode of heat transfer called?",
+     "a": "This is called conduction. If the student answers \"convection,\" they are likely confusing how solids transfer heat versus how liquids/gases move heat via currents.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the way a room is warmed by a heater (convection) and the way the Sun warms the Earth (radiation). Why is there a difference?",
+     "a": "The heater warms the air, which moves in currents (convection), whereas the Sun’s heat travels through space where there is no air (radiation). A student struggling here might not realize that radiation does not require a medium to travel, while convection requires air or liquid to circulate.",
+     "self_check": true
+    },
+    {
+     "q": "Why is it impossible for heat to spontaneously flow from a cold block of ice to a hot cup of coffee?",
+     "a": "This violates the fundamental rule of physics that energy flows from higher intensity (hot) to lower intensity (cold). Claiming it could flow the other way suggests a misunderstanding of the nature of energy equilibrium.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment to prove that heat flows through metal faster than through wood.",
+     "a": "A good answer involves placing a metal spoon and a wooden spoon of the same size into a mug of hot water and touching the handles after two minutes. A poor answer fails to control variables (e.g., using different sized spoons) or doesn't mention the \"hot water\" source.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

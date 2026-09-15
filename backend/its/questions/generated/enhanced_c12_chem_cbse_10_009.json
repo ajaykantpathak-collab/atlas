@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_chem_cbse_10_009",
+ "concepts": [
+  {
+   "id": "enh:c12_chem_cbse_10_009",
+   "title": "c12_chem_cbse_10_009",
+   "questions": [
+    {
+     "q": "List the four fat-soluble vitamins and the nine water-soluble vitamins by their letter designations (e.g., Vitamin A, Vitamin B1, etc.) as per NCERT classification.",
+     "a": "Fat-soluble: Vitamin A, Vitamin D, Vitamin E, Vitamin K. Water-soluble: Vitamin B1 (Thiamine), Vitamin B2 (Riboflavin), Vitamin B6 (Pyridoxine), Vitamin B12 (Cobalamin), Vitamin C (Ascorbic acid), plus other B-complex vitamins (B3 Niacin, B5 Pantothenic acid, B7 Biotin, B9 Folate) — NCERT Table 10.3 explicitly lists B1, B2, B6, B12, C as water-soluble; the remaining B vitamins are also water-soluble though not all named in the table. A wrong answer that omits any of the four fat-soluble vitamins or misclassifies Vitamin C as fat-soluble reveals confusion about the solubility basis of classification — the student likely memorized a list without understanding the chemical property (polarity/hydrophobicity) that drives it.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since Vitamin B12 is water-soluble, it cannot be stored in the body at all, so we must eat it every single day.\" Evaluate this statement using NCERT knowledge.",
+     "a": "The statement is partially incorrect. NCERT states: \"Water soluble vitamins must be supplied regularly in diet because they are readily excreted in urine and cannot be stored (except vitamin B12) in our body.\" Vitamin B12 is uniquely stored in the liver in significant amounts (several years' supply), so daily intake is not strictly required — deficiency develops over years, not days. A student who says \"no storage at all\" has missed the explicit exception in the textbook; this reveals a pattern of overlooking qualifying phrases (\"except...\") in scientific statements, a common error in board exams where precise wording matters.",
+     "self_check": true
+    },
+    {
+     "q": "A patient presents with bleeding gums, poor wound healing, and pinpoint hemorrhages under the skin. Which vitamin deficiency is most likely? Name the vitamin's chemical name and give two rich dietary sources from the Indian context.",
+     "a": "Vitamin C (Ascorbic acid) deficiency → Scurvy. Rich Indian sources: Amla (Indian gooseberry) — one of the highest natural sources (~600 mg/100g), and citrus fruits like orange, sweet lime (mosambi), lemon; also green leafy vegetables (spinach, coriander), guava, tomato. A wrong answer naming Vitamin K (bleeding due to clotting defect) confuses the mechanism: Vitamin K deficiency causes prolonged clotting time (coagulation factor synthesis impaired), not spontaneous capillary fragility and gum bleeding. This tests ability to distinguish deficiency syndromes — a frequent board exam differentiator.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the toxicity risk of Vitamin A (fat-soluble) vs Vitamin C (water-soluble) when consumed in large doses over weeks. Explain the biochemical basis for the difference in terms of absorption, transport, and excretion.",
+     "a": "Vitamin A (retinol) accumulates in liver stellate cells because it is absorbed via chylomicrons, transported in lymph, and stored in adipose/liver — excess leads to hypervitaminosis A (nausea, headache, liver damage, teratogenicity). Vitamin C is absorbed by sodium-dependent vitamin C transporters (SVCT1/2) in intestine, circulates freely in plasma, and is filtered by kidneys; excess is rapidly excreted in urine (renal threshold ~1.4 mg/dL), so toxicity is rare (only GI upset at >2 g/day). A student who says \"both are equally toxic\" or \"water-soluble vitamins are never toxic\" fails to apply the solubility-storage-excretion principle; this is a classic NEET trap question testing conceptual application beyond rote memorization.",
+     "self_check": true
+    },
+    {
+     "q": "A NEET practice question states: \"Vitamin D is synthesized in the skin from cholesterol upon UV-B exposure. Therefore, it is not a vitamin by the strict definition.\" Judge this assertion. Is Vitamin D correctly classified as a vitamin? Justify.",
+     "a": "The assertion is flawed. By strict definition, a vitamin is an organic compound required in the diet because it cannot be synthesized in adequate amounts by the organism. Vitamin D *can* be synthesized in skin (7-dehydrocholesterol → previtamin D3 → cholecalciferol) but only with sufficient UV-B sunlight; in modern indoor lifestyles, high latitudes, winter, or with sunscreen/dark skin, endogenous synthesis is insufficient, making dietary intake essential. Hence it retains vitamin status. NCERT lists it as a vitamin (Table 10.3). A student who agrees with the assertion confuses \"can be synthesized sometimes\" with \"can be synthesized in adequate amounts under all conditions\" — a nuance tested in competitive exams to check depth of understanding definitions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple kitchen experiment to demonstrate that Vitamin C (ascorbic acid) is a reducing agent, using only iodine solution (from a first-aid kit), lemon juice, and water. Write the observation and the balanced redox equation.",
+     "a": "Experiment: Add 2-3 drops of brown iodine solution (I₂ in KI) to 5 mL water → brown color persists. Add 1 mL fresh lemon juice to another 5 mL water with 2-3 drops iodine → brown color disappears (becomes colorless). Observation: Vitamin C reduces I₂ to I⁻ (colorless), itself oxidizing to dehydroascorbic acid. Balanced equation: C₆H₈O₆ + I₂ → C₆H₆O₆ + 2H⁺ + 2I⁻. A poor answer that writes no equation or says \"iodine reacts with acid\" misses the redox nature — Vitamin C acts as electron donor (reducing agent), a key biochemical function (antioxidant). This tests ability to connect chemical property (reducing power) to biological role.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_biotech_cbse_03_007",
+ "concepts": [
+  {
+   "id": "enh:c11_biotech_cbse_03_007",
+   "title": "c11_biotech_cbse_03_007",
+   "questions": [
+    {
+     "q": "Name the three major types of RNA and state one primary function for each in a eukaryotic cell.",
+     "a": "mRNA — carries genetic code from DNA to ribosome for protein synthesis; rRNA — structural and catalytic core of ribosomes; tRNA — adaptor molecule that brings specific amino acids to ribosome during translation. A wrong answer (e.g., \"rRNA carries genetic code\" or \"tRNA makes ribosomes\") reveals confusion between information-carrying vs structural vs adaptor roles, indicating the student memorised names without linking each to its distinct biochemical job.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since RNA is single-stranded, it cannot form stable secondary structures like DNA's double helix.\" Explain why this statement is incorrect using specific examples from tRNA and rRNA.",
+     "a": "RNA's single-stranded nature allows intramolecular base pairing (A-U, G-C) creating stable secondary structures: tRNA folds into a clover-leaf with four double-helical stems (acceptor, D, anticodon, TΨC) stabilised by hydrogen bonds and modified bases; rRNA forms extensive double-helical domains in ribosomal subunits. A wrong answer reveals the misconception that \"single-stranded = unstructured,\" ignoring that RNA's 2'-OH enables A-form helices and tertiary interactions critical for catalysis and recognition.",
+     "self_check": true
+    },
+    {
+     "q": "A eukaryotic mRNA has the sequence 5'-GCC AUG GCU UAA-3' (where AUG = start, UAA = stop). Write the anticodon sequence of the tRNA that would deliver the second amino acid, and explain why the anticodon is written 3'→5' relative to the mRNA codon.",
+     "a": "Second codon = GCU (Ala). Anticodon = 3'-CGA-5' (complementary, antiparallel). Written 3'→5' because tRNA anticodon loop reads mRNA 5'→3' in antiparallel orientation; base pairing requires opposite directionality. A wrong answer (e.g., 5'-AGC-3' or 5'-CGA-3') reveals failure to apply antiparallel base-pairing rules or confusion between codon/anticodon directionality conventions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the rRNA composition of prokaryotic (70S) and eukaryotic (80S) ribosomes. Why can't sedimentation coefficients (S values) of subunits be added arithmetically (e.g., 30S + 50S ≠ 80S)?",
+     "a": "Prokaryotic: 30S subunit (16S rRNA) + 50S subunit (23S + 5S rRNA) = 70S. Eukaryotic: 40S subunit (18S rRNA) + 60S subunit (28S + 5.8S + 5S rRNA) = 80S. S values reflect sedimentation rate (mass, shape, hydration), not mass alone; subunits associate non-additively due to conformational changes and RNA-protein interactions altering frictional coefficient. A wrong answer (e.g., \"30+50=80\") reveals treating S as molecular weight rather than hydrodynamic property.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The 5' cap (7-methylguanosine) and poly-A tail on eukaryotic mRNA are functionally redundant — removing either one has the same effect on translation efficiency.\" Defend or refute with mechanistic reasoning.",
+     "a": "Refute. 5' cap (m⁷GpppN) binds eIF4E for ribosome recruitment and protects from 5'→3' exonucleases. Poly-A tail binds PABP which interacts with eIF4G to circularise mRNA, enhancing ribosome recycling and protecting 3' end. Distinct mechanisms: cap = initiation/5' protection; tail = circularisation/3' protection/recycling. Removing cap blocks initiation; removing tail reduces translation efficiency and mRNA half-life differently. A wrong answer reveals treating modifications as generic \"stability tags\" rather than distinct functional modules.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical tRNA variant that could decode two different codons for the same amino acid (e.g., both GCU and GCC for alanine) without wobble at the third position. Describe the structural modification needed in the anticodon loop and explain why natural tRNAs don't use this strategy.",
+     "a": "Modify anticodon to 3'-CGI-5' where I (inosine) at wobble position pairs with U, C, or A — but this still uses wobble. To avoid wobble entirely, engineer a flexible anticodon loop with two alternative conformations or a bifurcated anticodon stem — but this would destabilise tRNA structure, reduce fidelity, and require complex ribosomal proofreading. Natural tRNAs use wobble (I, G, U at position 34) because it balances codon coverage with structural economy and accuracy. A poor answer proposes chemically implausible modifications or ignores the evolutionary trade-off between versatility and fidelity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

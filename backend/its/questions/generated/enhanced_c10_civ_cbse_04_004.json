@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_civ_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c10_civ_cbse_04_004",
+   "title": "c10_civ_cbse_04_004",
+   "questions": [
+    {
+     "q": "What is the minimum number of states in which a party must secure 6% of valid votes to be eligible for recognition as a National Party under the first criterion of the Election Symbols Order, 1968?",
+     "a": "Four states. A wrong answer (e.g., \"two states\" or \"three states\") reveals the student has confused the National Party threshold with the State Party threshold (which operates within a single state) or misremembered the exact number. This is a direct recall error that costs 1 mark in board exams where precise numbers are tested.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Election Commission of India uses both vote-share percentage and seat-count thresholds (instead of just one) to recognise a party as a National Party.",
+     "a": "Vote-share measures popular support breadth, while seat-count measures ability to convert votes into legislative representation under the First-Past-The-Post system. Using both prevents a party with scattered but shallow support (high votes, few seats) or a party with concentrated pockets (few votes, some seats) from gaining national status. A wrong answer focusing only on \"popularity\" shows the student doesn't understand how FPTP distorts vote-to-seat conversion — a core concept from Class 9 Elections (c9_civ_ch2_1).",
+     "self_check": true
+    },
+    {
+     "q": "The Aam Aadmi Party (AAP) secured 6%+ votes in Delhi, Punjab, Goa, and Gujarat in the 2022-2024 election cycle and won 4 Lok Sabha seats in 2024. Using the ECI criteria, determine whether AAP qualifies as a National Party. Show your reasoning step by step.",
+     "a": "Yes, AAP qualifies under the first criterion: (1) 6%+ valid votes in at least four states (Delhi, Punjab, Goa, Gujarat) — satisfied; (2) at least 4 Lok Sabha seats from any state(s) — satisfied with 4 seats in 2024. A wrong answer (e.g., \"No, because it didn't win seats in four states\") reveals the student incorrectly believes seats must be won in the same four states where vote threshold was met, or doesn't know the 4-seat requirement is aggregate, not per-state.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the recognition criteria for a National Party and a State Party. Identify two structural differences that reflect India's federal character.",
+     "a": "First, National Party criteria require multi-state presence (4+ states for vote-share, 3+ states for seat distribution), while State Party criteria are confined to a single state — this mirrors the Union-State division of powers. Second, National Party thresholds are absolute (4 Lok Sabha seats, 2% of 543 seats), whereas State Party thresholds are relative to the state's size (e.g., 3% of state assembly seats or 1 LS seat per 25 seats) — this accommodates asymmetry in state populations. A wrong answer listing only vote percentages shows the student misses the federal design logic.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The current ECI recognition criteria favour established national parties and make it nearly impossible for new regional parties to achieve National Party status.\" Support your judgment with two specific arguments.",
+     "a": "The statement is partially valid. Argument 1: The 6% vote threshold in four states demands massive resources and organisational reach across linguistically diverse regions, which new parties lack. Argument 2: The 2% Lok Sabha seat criterion (11 seats from 3+ states) is extremely high for a new entrant under FPTP, where vote-share doesn't linearly translate to seats. Counter-point: The \"recognised as State Party in 4 states\" pathway offers an alternative route that some newer parties (like AAP) have used. A poor answer gives only generic \"it's hard\" without citing specific thresholds or the alternative pathway.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical political party's electoral performance across three states (State A: 50 seats, State B: 30 seats, State C: 20 seats in Lok Sabha) that would qualify it as a National Party under the SECOND criterion (2% Lok Sabha seats from 3+ states) but NOT under the first criterion. Specify vote percentages and seats won in each state.",
+     "a": "Example: Party wins 11 Lok Sabha seats total: 5 from State A (10% votes), 4 from State B (8% votes), 2 from State C (5% votes). Vote-share is below 6% in State C, so first criterion fails (needs 6% in 4+ states). But 11 seats = 2.02% of 543, from 3 states — second criterion satisfied. A poor answer fails to ensure vote-share <6% in at least one state or miscalculates 2% of 543 (10.86 → 11 seats). This tests precise arithmetic application of the formula.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

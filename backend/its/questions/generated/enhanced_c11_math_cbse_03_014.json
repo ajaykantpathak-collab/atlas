@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_math_cbse_03_014",
+ "concepts": [
+  {
+   "id": "enh:c11_math_cbse_03_014",
+   "title": "c11_math_cbse_03_014",
+   "questions": [
+    {
+     "q": "State the general solution for \\(\\cos x = \\frac{1}{2}\\) and explain why we use \\(\\pm\\) in the formula \\(x = 2n\\pi \\pm y\\) but not in \\(\\sin x = \\sin y\\).",
+     "a": "The general solution is \\(x = 2n\\pi \\pm \\frac{\\pi}{3}, n \\in \\mathbb{Z}\\). The \\(\\pm\\) appears in cosine because \\(\\cos(\\theta) = \\cos(-\\theta)\\) (even function), giving two distinct families of solutions per period symmetric about \\(0\\). For sine, \\(\\sin(\\pi - \\theta) = \\sin \\theta\\), which is captured by the \\((-1)^n\\) term in \\(x = n\\pi + (-1)^n y\\). A wrong answer (e.g., writing \\(x = n\\pi \\pm \\frac{\\pi}{3}\\)) reveals confusion between the periodicity of sine (\\(2\\pi\\)) and cosine (\\(2\\pi\\)) and the symmetry of their graphs.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves \\(2\\sin^2 x - 3\\sin x + 1 = 0\\) and writes \\(\\sin x = 1\\) or \\(\\sin x = \\frac{1}{2}\\). They then give the general solution as \\(x = n\\pi + (-1)^n \\frac{\\pi}{2}\\) and \\(x = n\\pi + (-1)^n \\frac{\\pi}{6}\\). Is this complete? If not, what is missing?",
+     "a": "The solution is incomplete. For \\(\\sin x = 1\\), the principal solution is \\(x = \\frac{\\pi}{2}\\) only (not \\(\\frac{\\pi}{2}\\) and \\(\\frac{5\\pi}{2}\\) within \\([0, 2\\pi)\\)). The general solution \\(x = n\\pi + (-1)^n \\frac{\\pi}{2}\\) is correct. For \\(\\sin x = \\frac{1}{2}\\), principal solutions are \\(\\frac{\\pi}{6}\\) and \\(\\frac{5\\pi}{6}\\). The formula \\(x = n\\pi + (-1)^n \\frac{\\pi}{6}\\) generates both families correctly. However, the student must explicitly state the principal solutions first. A wrong answer that writes \\(x = 2n\\pi + \\frac{\\pi}{6}\\) or \\(x = 2n\\pi + \\frac{5\\pi}{6}\\) separately reveals misunderstanding that the single formula \\(x = n\\pi + (-1)^n y\\) already encodes both families.",
+     "self_check": true
+    },
+    {
+     "q": "Find the principal solutions of \\(\\tan 2x = -\\sqrt{3}\\) in the interval \\([0, 2\\pi)\\).",
+     "a": "Step 1: Let \\(2x = \\theta\\). Solve \\(\\tan \\theta = -\\sqrt{3}\\). Step 2: Principal solutions for \\(\\tan \\theta = -\\sqrt{3}\\) are \\(\\theta = \\pi - \\frac{\\pi}{3} = \\frac{2\\pi}{3}\\) and \\(\\theta = 2\\pi - \\frac{\\pi}{3} = \\frac{5\\pi}{3}\\) (since tangent is negative in QII and QIV). Step 3: Since \\(x = \\theta/2\\), we get \\(x = \\frac{\\pi}{3}\\) and \\(x = \\frac{5\\pi}{6}\\). Step 4: Check if adding period \\(\\pi\\) to \\(\\theta\\) gives more \\(\\theta\\) in \\([0, 4\\pi)\\) (because \\(2x \\in [0, 4\\pi)\\)). \\(\\theta = \\frac{2\\pi}{3} + \\pi = \\frac{5\\pi}{3}\\) (already have), \\(\\frac{5\\pi}{3} + \\pi = \\frac{8\\pi}{3} > 4\\pi\\). So only two principal solutions for \\(x\\): \\(\\frac{\\pi}{3}, \\frac{5\\pi}{6}\\). A wrong answer giving four solutions (e.g., \\(\\frac{\\pi}{3}, \\frac{2\\pi}{3}, \\frac{4\\pi}{3}, \\frac{5\\pi}{3}\\)) reveals forgetting that the period of \\(\\tan 2x\\) is \\(\\frac{\\pi}{2}\\), not \\(\\pi\\), or incorrectly doubling the interval.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the solution sets of \\(\\sin x = \\frac{1}{2}\\) and \\(\\sin 2x = \\frac{1}{2}\\). How does the coefficient of \\(x\\) affect the general solution structure?",
+     "a": "For \\(\\sin x = \\frac{1}{2}\\), general solution is \\(x = n\\pi + (-1)^n \\frac{\\pi}{6}\\). For \\(\\sin 2x = \\frac{1}{2}\\), let \\(2x = \\theta\\), then \\(\\theta = n\\pi + (-1)^n \\frac{\\pi}{6}\\), so \\(x = \\frac{n\\pi}{2} + (-1)^n \\frac{\\pi}{12}\\). The coefficient \\(2\\) halves the period (from \\(2\\pi\\) to \\(\\pi\\) for the function \\(\\sin 2x\\)), which means the solution set becomes denser: the step between consecutive solutions is \\(\\pi/2\\) instead of \\(\\pi\\). A wrong answer that writes \\(x = n\\pi + (-1)^n \\frac{\\pi}{12}\\) reveals failure to divide the period parameter \\(n\\) by the coefficient, treating the argument as \\(x\\) instead of \\(2x\\).",
+     "self_check": true
+    },
+    {
+     "q": "A student solves \\(2\\cos^2 x - 5\\cos x + 2 = 0\\) and gets \\(\\cos x = 2\\) or \\(\\cos x = \\frac{1}{2}\\). They discard \\(\\cos x = 2\\) and write the general solution as \\(x = 2n\\pi \\pm \\frac{\\pi}{3}\\). Evaluate if this is fully correct.",
+     "a": "The solution is correct in discarding \\(\\cos x = 2\\) because range of cosine is \\([-1, 1]\\). The general solution \\(x = 2n\\pi \\pm \\frac{\\pi}{3}\\) is correct for \\(\\cos x = \\frac{1}{2}\\). However, the student should explicitly state the principal solutions as \\(\\frac{\\pi}{3}\\) and \\(\\frac{5\\pi}{3}\\) (or \\(-\\frac{\\pi}{3}\\)) before writing the general formula. A wrong answer that keeps \\(\\cos x = 2\\) and writes \\(x = \\cos^{-1}(2)\\) reveals ignorance of the range of cosine. A wrong answer writing \\(x = n\\pi \\pm \\frac{\\pi}{3}\\) reveals confusion between the period of cosine (\\(2\\pi\\)) and tangent (\\(\\pi\\)).",
+     "self_check": true
+    },
+    {
+     "q": "Create a trigonometric equation of the form \\(a\\sin x + b\\cos x = c\\) that has exactly two principal solutions in \\([0, 2\\pi)\\), and explain how you chose \\(a, b, c\\) to ensure this.",
+     "a": "Example: \\(\\sin x + \\cos x = 1\\). Here \\(a=1, b=1, c=1\\). The auxiliary angle method: \\(\\sqrt{2}\\sin(x + \\frac{\\pi}{4}) = 1 \\Rightarrow \\sin(x + \\frac{\\pi}{4}) = \\frac{1}{\\sqrt{2}}\\). Principal solutions for \\(x + \\frac{\\pi}{4}\\) are \\(\\frac{\\pi}{4}\\) and \\(\\frac{3\\pi}{4}\\), giving \\(x = 0\\) and \\(x = \\frac{\\pi}{2}\\). Both lie in \\([0, 2\\pi)\\). The condition for exactly two principal solutions is that the equation \\(\\sin(x+\\alpha) = \\frac{c}{\\sqrt{a^2+b^2}}\\) has exactly two solutions in the shifted interval, which happens when \\(\\left|\\frac{c}{\\sqrt{a^2+b^2}}\\right| < 1\\) and the interval length is \\(2\\pi\\) (always two solutions for sine unless the value is \\(\\pm 1\\)). A poor answer that gives an equation with no solution (e.g., \\(\\sin x + \\cos x = 2\\)) or infinitely many (not possible for finite interval) reveals lack of understanding of the range of \\(a\\sin x + b\\cos x\\).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

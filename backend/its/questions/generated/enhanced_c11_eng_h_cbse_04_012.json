@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_eng_h_cbse_04_012",
+ "concepts": [
+  {
+   "id": "enh:c11_eng_h_cbse_04_012",
+   "title": "c11_eng_h_cbse_04_012",
+   "questions": [
+    {
+     "q": "What is the primary difference between a literal comprehension question and an inferential comprehension question?",
+     "a": "A literal comprehension question has its answer explicitly stated in the text, while an inferential comprehension question requires the reader to deduce the answer by combining textual clues with reasoning. A wrong answer (e.g., \"literal questions are easy, inferential are hard\") reveals the student confuses difficulty level with the cognitive process, missing that inferential answers must be evidence-based, not speculative.",
+     "self_check": true
+    },
+    {
+     "q": "In the prose \"The Ailing Planet,\" the author writes: \"The earth's vital signs reveal a patient in declining health.\" If a question asks, \"What does the author imply by comparing the earth to a patient?\", is this literal or inferential? Explain.",
+     "a": "This is an inferential question because the text does not directly state the implication of the metaphor; the reader must interpret the comparison by linking \"vital signs,\" \"declining health,\" and \"patient\" to understand the author's concern for the planet's condition. A wrong answer (e.g., \"literal, because the words are in the text\") shows the student mistakes the presence of keywords for explicit meaning, overlooking the need to interpret figurative language.",
+     "self_check": true
+    },
+    {
+     "q": "Given the line from the poem \"Childhood\": \"They talked of love and preached of love, But did not act so lovingly,\" formulate a literal question and an inferential question based on this stanza.",
+     "a": "Literal: \"What did the adults talk about and preach?\" (Answer: love). Inferential: \"What does the contrast between the adults' words and actions suggest about their character?\" (Answer: hypocrisy). A wrong answer (e.g., inferential question: \"Why did the adults not act lovingly?\") reveals the student asks for speculation beyond the text rather than an inference supported by the given lines.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the evidence needed for a literal answer versus an inferential answer using an example from \"The Ailing Planet.\" How does the number and type of textual references differ?",
+     "a": "A literal answer requires a single direct quote or paraphrase (e.g., \"The Green Movement started nearly twenty-five years ago\" for \"When did the Green Movement start?\"). An inferential answer requires synthesizing multiple pieces of evidence (e.g., to answer \"Why is the Green Movement described as revolutionary?\", one must combine: the shift from mechanistic to holistic view, the comparison to Copernicus, and the idea of earth as a living organism). A wrong answer that treats both as needing one quote shows the student does not grasp the synthetic nature of inference.",
+     "self_check": true
+    },
+    {
+     "q": "A student answers the inferential question \"Why does the author say 'development is the best contraceptive'?\" with \"Because the author wants to control population.\" Evaluate this answer: is it a valid inference? What is missing?",
+     "a": "The answer is an incomplete inference because it states the author's intent without textual support. A valid inference would link the preceding lines: \"Fertility falls as incomes rise, education spreads, and health improves\" to explain the causal relationship the author presents. The student's answer misses the evidence chain, revealing a misconception that inference equals personal opinion rather than text-based reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Create an inferential question based on the last stanza of \"Childhood\" (\"Where did my childhood go? / It went to some forgotten place, / That's hidden in an infant's face, / That's all I know.\") and provide a model answer with two textual supports.",
+     "a": "Question: \"What does the poet suggest about the nature of childhood in the final stanza?\" Model answer: The poet suggests childhood is a universal, cyclical state that recedes into memory and reappears in the next generation. Support 1: \"forgotten place\" implies it is lost to the adult mind. Support 2: \"hidden in an infant's face\" implies it resides anew in children. A poor answer (e.g., \"Childhood goes away forever\") ignores the cyclical inference from \"infant's face,\" showing failure to integrate both images.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

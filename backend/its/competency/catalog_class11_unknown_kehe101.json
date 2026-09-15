@@ -1,0 +1,181 @@
+{
+  "class": 11,
+  "subject": "home_science",
+  "chapter": 101,
+  "chapter_title": "Introduction: Evolution of Human Ecology and Family Sciences",
+  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kehe101.txt",
+  "license": "NCERT-derived; author-first rendered",
+  "concepts": [
+    {
+      "id": "kehe101.1.1",
+      "title": "The Discipline and Its Name",
+      "section": "1.1",
+      "definition": "Human Ecology and Family Sciences studies the individual and the family within their total ecology -- home, community, resources and environment. The name itself signals the discipline's evolution from narrow household arts to a science of interdependence between people and their surroundings.",
+      "formula": "",
+      "key_idea": "The subject studies people not alone but nested in family, community and environment -- an ecology of daily life.",
+      "textbook_ref": "kehe101.txt opening (title of the subject HEFS, evolution of the discipline, relevance to quality of life)",
+      "question_patterns": [
+        "what does the name human ecology and family sciences signify",
+        "in class 11 introduction to hefs: how has the discipline evolved over time",
+        "why is the subject called an ecological study of human life",
+        "distinguish the older home science from the present discipline",
+        "what fields of study come together in hefs",
+        "explain the relevance of the discipline to quality of life"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "unpack the name",
+          "explain": "Human ecology places individuals in their surroundings; family sciences centre the primary institution of living."
+        },
+        {
+          "step": 2,
+          "action": "trace the evolution",
+          "explain": "The discipline widened from domestic skills to interlinked sciences -- food, fabric, resources, human development and communication."
+        },
+        {
+          "step": 3,
+          "action": "state the aim",
+          "explain": "All of it targets quality of life for individuals, families and communities."
+        }
+      ]
+    },
+    {
+      "id": "kehe101.1.2",
+      "title": "Concerns of the Discipline: Adolescence, Family and Resources",
+      "section": "1.2",
+      "definition": "The course is organised around life stages and living concerns: understanding oneself in adolescence, food and health, management of resources, fabrics and apparel, media and communication, and the growth of family, community and society through childhood into adulthood.",
+      "formula": "",
+      "key_idea": "From self to family to society -- the discipline walks the learner through life's stages and material world.",
+      "textbook_ref": "kehe101.txt overview of units (unit i adolescence, unit ii family community society, unit iii childhood, unit iv adulthood)",
+      "question_patterns": [
+        "what are the major areas of study in hefs",
+        "in class 11 introduction: why does the course begin with adolescence",
+        "list the concerns addressed under resources and fabrics",
+        "how do the units move from self to society",
+        "why is childhood studied after adolescence in this course",
+        "relate the unit themes to daily family life"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "map the self units",
+          "explain": "Unit I turns the lens on adolescence -- identity, food, health and resources for the learner's own stage."
+        },
+        {
+          "step": 2,
+          "action": "map the family units",
+          "explain": "Units II to IV widen outward: family and community, childhood, then adulthood and its responsibilities."
+        },
+        {
+          "step": 3,
+          "action": "map the material strand",
+          "explain": "Fabrics, apparel, care of fabrics and communication technology run through as living-skill concerns."
+        }
+      ]
+    },
+    {
+      "id": "kehe101.1.3",
+      "title": "Relevance to Quality of Life and Careers",
+      "section": "1.3",
+      "definition": "The discipline matters because its questions are everyone's questions -- eating well, dressing suitably, spending wisely, growing healthy children and maintaining relationships. Its knowledge opens careers in nutrition, counselling, textiles, resource management and community work, serving both self and society.",
+      "formula": "",
+      "key_idea": "A subject of everyday life -- and therefore a springboard to professions that serve everyday life.",
+      "textbook_ref": "kehe101.txt relevance sections (careers, application to daily living, quality of life, professional opportunities)",
+      "question_patterns": [
+        "how does hefs improve quality of life",
+        "in class 11 introduction: what career opportunities arise from this discipline",
+        "relate any three concerns of hefs to your own life",
+        "why is the discipline relevant to both individuals and communities",
+        "what professional fields grow out of the study of hefs",
+        "justify hefs as a subject for all students not only girls"
+      ],
+      "solution_type": "verify_property",
+      "solution_steps": [
+        {
+          "step": 1,
+          "action": "connect to daily living",
+          "explain": "Each unit answers a routine human task -- feeding, clothing, managing, relating -- so learning applies immediately."
+        },
+        {
+          "step": 2,
+          "action": "connect to livelihood",
+          "explain": "Dietetics, counselling, textile design, resource management and extension work grow directly from the units."
+        },
+        {
+          "step": 3,
+          "action": "connect to society",
+          "explain": "Better-informed individuals build healthier families and communities -- the discipline's social payoff."
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "id": "we1",
+      "source_ref": "kehe101.txt opening (discipline evolution)",
+      "concept": "kehe101.1.1",
+      "question_type": "verify_property",
+      "question_pattern": "A relative says this subject is only about cooking and stitching. Use the meaning of human ecology and family sciences to correct the impression.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "cite the wider name",
+          "explain": "The title names an ecology -- interactions of people with food, fabrics, resources, media and each other."
+        },
+        {
+          "step": 2,
+          "action": "cite the sciences",
+          "explain": "It draws on nutrition, human development, resource management and communication -- sciences, not chores."
+        },
+        {
+          "step": 3,
+          "action": "conclude",
+          "explain": "Cooking and stitching survive only as small applied corners of a much larger discipline."
+        }
+      ]
+    },
+    {
+      "id": "we2",
+      "source_ref": "kehe101.txt relevance sections",
+      "concept": "kehe101.1.3",
+      "question_type": "verify_property",
+      "question_pattern": "Match three concerns of the discipline (food, fabrics, resources) to one career each.",
+      "extracted_variables": {},
+      "solution_template": [
+        {
+          "step": 1,
+          "action": "match food",
+          "explain": "Food and nutrition lead to dietetics, clinical nutrition and food industry roles."
+        },
+        {
+          "step": 2,
+          "action": "match fabrics",
+          "explain": "Fabrics and apparel lead to textile design, quality control and merchandising."
+        },
+        {
+          "step": 3,
+          "action": "match resources",
+          "explain": "Resource management leads to financial counselling, consumer affairs and extension work."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex1",
+      "source_ref": "kehe101.txt end-of-chapter questions, reworded",
+      "questions": [
+        "Explain the meaning of the title Human Ecology and Family Sciences.",
+        "Trace briefly the evolution of the discipline.",
+        "List the main units of the course and their central themes.",
+        "How does the discipline contribute to quality of life?",
+        "Name three careers that grow out of this field of study.",
+        "Why is this subject relevant to every student?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+ "class": 10,
+ "subject": "science",
+ "chapter": 7,
+ "chapter_title": "How do Organisms Reproduce?",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/jesc107.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "jesc.107.7.1",
+   "title": "Asexual Reproduction Modes",
+   "section": "7.1",
+   "definition": "Asexual reproduction creates offspring from a single parent without gametes: bacteria and amoeba divide by fission, yeast buds, hydra fragments, spores spread by fungi like Rhizopus, and plants multiply through stems, roots and leaves in vegetative propagation.",
+   "formula": "-",
+   "key_idea": "One parent, exact copies: fission, budding, spores and vegetative propagation cover the modes.",
+   "textbook_ref": "jesc107.txt section 7.1 (asexual reproduction modes)",
+   "question_patterns": [
+    "describe binary fission in amoeba with a diagram",
+    "how does budding occur in yeast - explain with the process",
+    "what is fragmentation - give an organism that reproduces this way",
+    "explain spore formation in Rhizopus with the conditions helping it",
+    "name the vegetative parts used to propagate the given plants",
+    "why do offspring of asexual reproduction look identical to the parent"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "identify the parent count",
+     "explain": "One parent only, no gametes involved."},
+    {"step": 2, "action": "name the mode",
+     "explain": "Fission, budding, fragmentation, spore formation or vegetative propagation."},
+    {"step": 3, "action": "note the offspring",
+     "explain": "Genetically identical copies inherit the parent's exact characters."}
+   ]
+  },
+  {
+   "id": "jesc.107.7.2",
+   "title": "Sexual Reproduction in Flowering Plants",
+   "section": "7.2",
+   "definition": "Flowers carry the reproductive parts: the stamen's anther makes pollen with male gametes, the pistil's ovary holds ovules with female gametes; pollination delivers pollen to the stigma, the pollen tube carries the gamete to the ovule, fertilisation forms the zygote, and the ovule matures into the seed inside the fruit.",
+   "formula": "-",
+   "key_idea": "Pollen to stigma to ovule: fertilisation turns a flower into fruit and seed.",
+   "textbook_ref": "jesc107.txt section 7.2 (sexual reproduction in flowering plants)",
+   "question_patterns": [
+    "draw a labelled diagram of a flower showing its reproductive parts",
+    "define pollination and differentiate self and cross pollination",
+    "describe the process of fertilisation in a flower step by step",
+    "what changes occur in the flower after fertilisation - list them",
+    "differentiate the male and female gametes of a flower",
+    "why are petals and sepals called accessory parts - explain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "name the reproductive whorls",
+     "explain": "Stamen bears pollen; pistil carries the ovule."},
+    {"step": 2, "action": "follow the pollen tube",
+     "explain": "Pollen germinates on the stigma and its tube reaches the ovule."},
+    {"step": 3, "action": "trace the seed",
+     "explain": "Zygote becomes embryo; ovule becomes seed; ovary becomes fruit."}
+   ]
+  },
+  {
+   "id": "jesc.107.7.3",
+   "title": "Human Reproductive System and Reproductive Health",
+   "section": "7.3",
+   "definition": "In humans, the male system delivers sperm through testes and ducts, the female system prepares eggs, receives sperm and nurtures the embryo in the uterus; puberty brings body changes, and reproductive health needs awareness of contraception methods and safe practices against sexually transmitted diseases.",
+   "formula": "-",
+   "key_idea": "Testes make sperm, ovaries make eggs, uterus nurtures - and health knowledge protects it all.",
+   "textbook_ref": "jesc107.txt sections 7.3 (human reproductive system, reproductive health)",
+   "question_patterns": [
+    "draw and label the human male and female reproductive systems",
+    "what is the role of the testes and scrotum in sperm production",
+    "describe the changes that occur during puberty in boys and girls",
+    "name the common methods of contraception and how each works",
+    "what are sexually transmitted diseases - how can they be prevented",
+    "explain the menstrual cycle briefly with its purpose"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {"step": 1, "action": "label the systems",
+     "explain": "Male parts make and deliver sperm; female parts make eggs and nurture embryos."},
+    {"step": 2, "action": "follow fertilisation",
+     "explain": "Sperm meets egg; the zygote implants in the uterus and grows."},
+    {"step": 3, "action": "protect the health",
+     "explain": "Contraception and safe practices guard reproductive health."}
+   ]
+  }
+ ],
+ "worked_examples": [],
+ "exercises": [
+  {
+   "id": "ex7.1",
+   "source_ref": "jesc107.txt exercises",
+   "questions": [
+     "Compare asexual and sexual reproduction with examples.",
+     "Draw the longitudinal section of a flower and label the parts.",
+     "Explain the methods of contraception discussed in the chapter."
+   ]
+  }
+ ]
+}

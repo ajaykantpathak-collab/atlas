@@ -1,0 +1,604 @@
+{
+ "class": "6",
+ "subject": "social_science",
+ "chapter": 10,
+ "chapter_title": "Grassroots Democracy -- Part 1: Governance",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/fees110.txt",
+ "concepts": [
+  {
+   "id": "c6ss.10.1",
+   "title": "Meaning of Governance",
+   "section": "Understanding Governance",
+   "definition": "Governance is the process by which a group, society, or country is directed, controlled, and managed to ensure order and welfare.",
+   "formula": "",
+   "key_idea": "Governance involves making decisions, implementing rules, and providing services so that society functions smoothly and fairly.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define governance in your own words.",
+    "List three functions of governance in a society.",
+    "Explain why governance is necessary for a community.",
+    "Give an example of governance in a school setting.",
+    "How does governance ensure order in society?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the decision-making and rule-enforcing process described.",
+     "explain": "Governance involves directing and managing a group through rules and decisions."
+    },
+    {
+     "step": 2,
+     "action": "Check whether the process ensures order and welfare.",
+     "explain": "Effective governance maintains order and provides for people's needs."
+    },
+    {
+     "step": 3,
+     "action": "Conclude whether the situation is an example of governance.",
+     "explain": "If rules are made and services provided for collective welfare, it is governance."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A village panchayat decides to build a drainage system and collects funds for it. Is this governance? Explain.",
+     "solution": "The panchayat is making decisions and providing a service for collective welfare, which is governance.",
+     "answer": "Yes, this is an example of governance."
+    },
+    {
+     "question": "A person cleans their own house without any collective decision. Is this governance? Why?",
+     "solution": "This is a personal action without collective decision-making, so it is not governance.",
+     "answer": "No, it is not governance."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List two functions of governance in a village.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why rules are important in governance.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Determine whether a school managing its timetable and rules is an example of governance. Justify.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.10.2",
+   "title": "Levels of Government: Local, State, and National",
+   "section": "Levels of Government",
+   "definition": "Government in India functions at three levels: local (village, town, city), state, and national, each handling matters within its area.",
+   "formula": "",
+   "key_idea": "Local government handles nearby issues, state government manages state-wide matters, and the national government deals with the whole country.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Name the three levels of government in India.",
+    "Give two examples of issues handled by the local government.",
+    "Which level of government deals with the defence of the country? Why?",
+    "Explain the difference between state and national government with one example each.",
+    "Why is local government important for citizens?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the issue or area described in the situation.",
+     "explain": "Determine whether the matter is local, state-wide, or national."
+    },
+    {
+     "step": 2,
+     "action": "Match the issue to the correct level of government.",
+     "explain": "Local issues go to local government, state issues to state government, and country-wide issues to national government."
+    },
+    {
+     "step": 3,
+     "action": "Conclude which level of government handles the issue.",
+     "explain": "The correct level is the one whose area covers the issue."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Which level of government is responsible for maintaining a village pond?",
+     "solution": "A village pond is a local matter, so it is handled by the local government (panchayat).",
+     "answer": "Local government"
+    },
+    {
+     "question": "Which level of government manages relations with other countries?",
+     "solution": "Relations with other countries concern the entire nation, so they are handled by the national government.",
+     "answer": "National government"
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List two functions of the state government.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Give one example each of a local and a national issue.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Determine which level of government handles police services in a state. Justify.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.10.3",
+   "title": "Democratic Governance",
+   "section": "Democracy",
+   "definition": "Democratic governance is a system in which people choose their representatives through elections and the government acts according to the will of the people.",
+   "formula": "",
+   "key_idea": "In a democracy, power lies with the people, who elect representatives to make decisions and govern on their behalf.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define democratic governance.",
+    "List two features of a democratic government.",
+    "Explain how people's will is expressed in a democracy.",
+    "Why are elections important in democratic governance?",
+    "Give one example of democratic governance in action."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify whether the people choose their representatives.",
+     "explain": "Democracy requires that representatives be elected by the people."
+    },
+    {
+     "step": 2,
+     "action": "Check whether the government acts on the will of the people.",
+     "explain": "In democratic governance, decisions reflect the people's wishes."
+    },
+    {
+     "step": 3,
+     "action": "Conclude whether the system is democratic governance.",
+     "explain": "If representatives are elected and govern by the people's will, it is democratic governance."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A city elects a mayor through voting by residents. Is this democratic governance? Explain.",
+     "solution": "The mayor is chosen by the people through elections, which is a feature of democratic governance.",
+     "answer": "Yes, this is democratic governance."
+    },
+    {
+     "question": "A ruler makes all decisions without any election. Is this democratic governance? Why?",
+     "solution": "Since there are no elections and the people do not choose their leader, it is not democratic governance.",
+     "answer": "No, it is not democratic governance."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List two features that make a government democratic.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why the will of the people is central to democracy.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Determine whether a student council elected by classmates is an example of democratic governance. Justify.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.10.4",
+   "title": "Participation in Governance",
+   "section": "Citizen Participation",
+   "definition": "Participation in governance means citizens take part in decision-making, elections, public meetings, and community activities that shape how they are governed.",
+   "formula": "",
+   "key_idea": "When citizens vote, attend gram sabhas, give feedback, or join campaigns, they actively contribute to how their society is governed.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define participation in governance with one example.",
+    "List three ways citizens can participate in governance.",
+    "Explain the role of public meetings in citizen participation.",
+    "How does voting reflect participation in governance?",
+    "Why is citizen participation important for democracy?"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the action taken by the citizen.",
+     "explain": "Look for voting, attending meetings, or giving feedback."
+    },
+    {
+     "step": 2,
+     "action": "Check whether the action influences decision-making.",
+     "explain": "Participation must affect how decisions are made or implemented."
+    },
+    {
+     "step": 3,
+     "action": "Conclude whether the action is participation in governance.",
+     "explain": "If the citizen's action shapes governance, it is participation."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A citizen votes in the panchayat election and attends the gram sabha. Is this participation in governance? Explain.",
+     "solution": "Voting and attending the gram sabha directly influence local decisions, showing participation.",
+     "answer": "Yes, this is participation in governance."
+    },
+    {
+     "question": "A person ignores elections and never attends public meetings. Is this participation? Why?",
+     "solution": "Since the person takes no part in decision-making, it is not participation.",
+     "answer": "No, it is not participation."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List two ways a student can participate in school governance.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how a gram sabha supports participation.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Determine whether writing a suggestion to the local council is participation in governance. Justify.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.10.5",
+   "title": "Elections and Voting",
+   "section": "Elections",
+   "definition": "Elections are the process by which people choose their representatives by voting, and voting is the act of expressing one's choice for a candidate.",
+   "formula": "",
+   "key_idea": "Through elections and voting, citizens select leaders who will make decisions and govern on their behalf in a democracy.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define elections and voting.",
+    "List three steps involved in conducting an election.",
+    "Explain why voting is both a right and a responsibility.",
+    "How do elections ensure that people choose their representatives?",
+    "Describe what a voter does on election day."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify whether the process involves choosing representatives.",
+     "explain": "Elections are about selecting leaders through voting."
+    },
+    {
+     "step": 2,
+     "action": "Check whether citizens express their choice through votes.",
+     "explain": "Voting is the mechanism by which choices are recorded."
+    },
+    {
+     "step": 3,
+     "action": "Conclude whether the situation is an election process.",
+     "explain": "If representatives are chosen through voting, it is an election."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Citizens go to a polling booth and press a button to choose their representative. What process is this?",
+     "solution": "Citizens are expressing their choice to select a representative, which is an election through voting.",
+     "answer": "This is an election and voting process."
+    },
+    {
+     "question": "A leader is chosen without any voting, by a small group. Is this an election in the democratic sense? Why?",
+     "solution": "Since the people do not vote to choose the leader, it is not a democratic election.",
+     "answer": "No, it is not a democratic election."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List two reasons why voting is important.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain the role of a voter in an election.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Determine whether a class electing its monitor through secret ballot is an election. Justify.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.10.6",
+   "title": "Role of Citizens in Democracy",
+   "section": "Citizens in Democracy",
+   "definition": "Citizens in a democracy play an active role by voting, paying taxes, following laws, and holding representatives accountable for their actions.",
+   "formula": "",
+   "key_idea": "A democracy works well when citizens are informed, participate in governance, and fulfil their duties towards society.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "List three roles of citizens in a democracy.",
+    "Explain how citizens can hold their representatives accountable.",
+    "Why is paying taxes considered a duty of citizens?",
+    "Describe how an informed citizen strengthens democracy.",
+    "Give an example of a citizen fulfilling a democratic duty."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the action taken by the citizen.",
+     "explain": "Actions include voting, paying taxes, following laws, or questioning representatives."
+    },
+    {
+     "step": 2,
+     "action": "Check whether the action supports democratic functioning.",
+     "explain": "A citizen's role strengthens democracy when it upholds law and participation."
+    },
+    {
+     "step": 3,
+     "action": "Conclude whether the action is a proper democratic role.",
+     "explain": "If the action supports governance and accountability, it is a citizen's role in democracy."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A citizen pays taxes, follows traffic rules, and votes in elections. Is this a proper democratic role? Explain.",
+     "solution": "The citizen is fulfilling duties that support governance and participation, which is a proper democratic role.",
+     "answer": "Yes, this is a proper democratic role."
+    },
+    {
+     "question": "A citizen breaks laws and avoids voting. Is this fulfilling a democratic role? Why?",
+     "solution": "Breaking laws and not voting weaken democracy, so this is not a proper democratic role.",
+     "answer": "No, it is not a proper democratic role."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List two duties of a citizen in a democracy.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how an informed citizen helps democracy.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Determine whether a citizen who reports a broken streetlight to the municipality is playing a democratic role. Justify.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.10.7",
+   "title": "Rights and Responsibilities of Citizens",
+   "section": "Rights and Responsibilities",
+   "definition": "Rights are freedoms and entitlements guaranteed to citizens, while responsibilities are duties citizens must perform to support society and democracy.",
+   "formula": "",
+   "key_idea": "Citizens enjoy rights such as education and equality, and in turn hold responsibilities like obeying laws and respecting others' rights.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define rights and responsibilities with one example each.",
+    "List two rights and two responsibilities of Indian citizens.",
+    "Explain why rights and responsibilities go together.",
+    "How does the right to education come with a responsibility?",
+    "Describe what happens if citizens ignore their responsibilities."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify whether the given item is a freedom or a duty.",
+     "explain": "Rights are freedoms; responsibilities are duties."
+    },
+    {
+     "step": 2,
+     "action": "Check whether the item is guaranteed to or required of citizens.",
+     "explain": "Rights are entitlements; responsibilities are obligations."
+    },
+    {
+     "step": 3,
+     "action": "Conclude whether the item is a right or a responsibility.",
+     "explain": "If it is an entitlement, it is a right; if it is a duty, it is a responsibility."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A child has the freedom to attend school, and parents ensure the child goes. Identify the right and the responsibility.",
+     "solution": "Attending school is a right of the child, and ensuring attendance is a responsibility of the parents.",
+     "answer": "Right: education; Responsibility: ensuring attendance."
+    },
+    {
+     "question": "A citizen demands clean streets but throws garbage on the road. Is this balancing rights and responsibilities? Why?",
+     "solution": "Demanding clean streets is a right, but littering ignores the responsibility to keep public places clean.",
+     "answer": "No, the citizen is not balancing rights with responsibilities."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List two rights guaranteed to Indian citizens.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why responsibilities must accompany rights.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Determine whether respecting the national flag is a right or a responsibility. Justify.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.10.8",
+   "title": "Importance of Democratic Governance",
+   "section": "Importance of Democracy",
+   "definition": "Democratic governance is important because it gives people a voice, ensures equality, protects freedoms, and makes the government accountable to citizens.",
+   "formula": "",
+   "key_idea": "Democracy allows every citizen to participate, treats people equally, and ensures that leaders answer to the people who elected them.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "List three reasons why democratic governance is important.",
+    "How does democracy protect the freedom of citizens?",
+    "Explain how democracy ensures equality.",
+    "Why is accountability of leaders important in a democracy?",
+    "Describe one benefit of living under democratic governance."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the benefit described in the situation.",
+     "explain": "Benefits include voice, equality, freedom, or accountability."
+    },
+    {
+     "step": 2,
+     "action": "Check whether the benefit arises from democratic governance.",
+     "explain": "Democratic governance is the source of these benefits."
+    },
+    {
+     "step": 3,
+     "action": "Conclude whether the situation shows the importance of democracy.",
+     "explain": "If the benefit stems from people's participation and rights, it shows the importance of democracy."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A government is removed through elections after citizens vote it out for poor performance. What does this show?",
+     "solution": "The ability to remove a non-performing government through elections shows accountability, a key importance of democracy.",
+     "answer": "It shows the importance of democratic accountability."
+    },
+    {
+     "question": "A system where only one group is allowed to speak and others are silenced. Does this show the importance of democracy? Why?",
+     "solution": "Silencing groups denies voice and equality, so it does not reflect democratic governance.",
+     "answer": "No, it does not show the importance of democracy."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List two ways democracy ensures equality.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain why accountability of leaders matters.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Determine whether a system allowing all adults to vote shows the importance of democratic governance. Justify.",
+     "type": "verify_property"
+    }
+   ]
+  },
+  {
+   "id": "c6ss.10.9",
+   "title": "Grassroots Democracy and Local Self-Government",
+   "section": "Grassroots Democracy",
+   "definition": "Grassroots democracy means giving people power at the local level through institutions like gram panchayats and municipalities to manage their own affairs.",
+   "formula": "",
+   "key_idea": "Local self-government bodies, such as panchayats in villages and municipalities in towns, allow citizens to govern matters close to their daily lives.",
+   "textbook_ref": "",
+   "question_patterns": [
+    "Define grassroots democracy.",
+    "Name two local self-government bodies in India.",
+    "Explain the role of a gram panchayat in a village.",
+    "How does grassroots democracy help ordinary citizens?",
+    "List three functions of a municipality in a town."
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the local body described in the situation.",
+     "explain": "Local bodies include gram panchayats and municipalities."
+    },
+    {
+     "step": 2,
+     "action": "Check whether the body allows local people to manage their own affairs.",
+     "explain": "Grassroots democracy means people govern local matters themselves."
+    },
+    {
+     "step": 3,
+     "action": "Conclude whether the situation is an example of grassroots democracy.",
+     "explain": "If a local body empowers citizens to manage local affairs, it is grassroots democracy."
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "A gram panchayat decides to build a community well using local funds. What does this represent?",
+     "solution": "The panchayat, a local body, is managing a village matter with local involvement, which is grassroots democracy.",
+     "answer": "It represents grassroots democracy."
+    },
+    {
+     "question": "All village decisions are made by a distant office with no local input. Is this grassroots democracy? Why?",
+     "solution": "Since local people have no role in decision-making, it is not grassroots democracy.",
+     "answer": "No, it is not grassroots democracy."
+    }
+   ],
+   "exercises": [
+    {
+     "question": "List two functions of a gram panchayat.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Explain how grassroots democracy benefits villagers.",
+     "type": "short_answer"
+    },
+    {
+     "question": "Determine whether a municipality organising a public consultation on a park is an example of grassroots democracy. Justify.",
+     "type": "verify_property"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "reviewer-added",
+   "concept": "c6ss.10.1",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain meaning of governance with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the decision-making and rule-enforcing process described.",
+     "explain": "Governance involves directing and managing a group through rules and decisions."
+    },
+    {
+     "step": 2,
+     "action": "Check whether the process ensures order and welfare.",
+     "explain": "Effective governance maintains order and provides for people's needs."
+    },
+    {
+     "step": 3,
+     "action": "Conclude whether the situation is an example of governance.",
+     "explain": "If rules are made and services provided for collective welfare, it is governance."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "reviewer-added",
+   "concept": "c6ss.10.2",
+   "question_type": "method_explanation",
+   "question_pattern": "Explain levels of government: local, state, and national with a concrete example from daily life.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the issue or area described in the situation.",
+     "explain": "Determine whether the matter is local, state-wide, or national."
+    },
+    {
+     "step": 2,
+     "action": "Match the issue to the correct level of government.",
+     "explain": "Local issues go to local government, state issues to state government, and country-wide issues to national government."
+    },
+    {
+     "step": 3,
+     "action": "Conclude which level of government handles the issue.",
+     "explain": "The correct level is the one whose area covers the issue."
+    }
+   ]
+  }
+ ],
+ "exercises": [],
+ "source_link": "new-syllabus book not in text_cache",
+ "provenance": "gemini flash draft; gate-validated; reviewed+fixed 2026-09-10 (positions 324-404)"
+}

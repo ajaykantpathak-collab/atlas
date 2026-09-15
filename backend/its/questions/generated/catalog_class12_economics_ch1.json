@@ -1,0 +1,254 @@
+{
+ "catalog": "catalog_class12_economics_ch1",
+ "concepts": [
+  {
+   "id": "c12eco.1.1",
+   "title": "Circular Flow of Income",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Circular Flow of Income' refers to.",
+     "a": "The circular flow of income illustrates the continuous flow of goods, services and factor payments between firms and households in an economy.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Circular Flow of Income'.",
+     "a": "Production generates income, income generates expenditure, and expenditure generates production in a circular manner.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Circular Flow of Income' taught, and from which source text?",
+     "a": "Introduction",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12eco.1.2",
+   "title": "GDP, GNP and NNP",
+   "questions": [
+    {
+     "q": "Using the method 'GDP, GNP and NNP', work with: depreciation = 500, gross_domestic_output = 360, nfia = 400. Carry the chain through step by step and give the final value of nnp.",
+     "a": "260 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'GDP, GNP and NNP' and work with: depreciation = 500, gross_domestic_output = 100, nfia = 400. Carry the chain through step by step and give the final value of nnp.",
+     "a": "0 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'GDP, GNP and NNP' refers to.",
+     "a": "GDP is the market value of final goods and services produced within the domestic territory in a year. GNP is GDP plus net factor income from abroad. NNP is GNP minus depreciation.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'GDP, GNP and NNP'.",
+     "a": "Domestic vs national aggregates differ by net factor income from abroad; gross vs net differ by depreciation.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'GDP, GNP and NNP', in plain ASCII form.",
+     "a": "GNP = GDP + NFIA; NNP = GNP - Depreciation",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12eco.1.3",
+   "title": "Domestic vs National Income Aggregates",
+   "questions": [
+    {
+     "q": "Using the method 'Domestic vs National Income Aggregates', work with: factor_income_from_abroad = 120000, factor_income_to_abroad = 50000, gdp = 12000. Carry the chain through step by step and give the final value of national_income.",
+     "a": "82000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Domestic vs National Income Aggregates' and work with: factor_income_from_abroad = 20000, factor_income_to_abroad = 5000, gdp = 5000. Carry the chain through step by step and give the final value of national_income.",
+     "a": "20000 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Domestic vs National Income Aggregates' refers to.",
+     "a": "Domestic aggregates measure income generated within the geographical territory; national aggregates include net factor income from abroad.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Domestic vs National Income Aggregates'.",
+     "a": "The bridge between domestic and national aggregates is net factor income from abroad (NFIA).",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Domestic vs National Income Aggregates', in plain ASCII form.",
+     "a": "National = Domestic + NFIA",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12eco.1.4",
+   "title": "Nominal GDP and Real GDP",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Nominal GDP and Real GDP' refers to.",
+     "a": "Nominal GDP is measured at current prices; real GDP is measured at constant base-year prices, removing the effect of price changes.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Nominal GDP and Real GDP'.",
+     "a": "Real GDP reflects true changes in physical output by holding prices constant.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Nominal GDP and Real GDP', in plain ASCII form.",
+     "a": "Real GDP = Nominal GDP / GDP deflator x 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12eco.1.5",
+   "title": "GDP Deflator",
+   "questions": [
+    {
+     "q": "Using the method 'GDP Deflator', work with: constant_price_gdp = 500, current_price_gdp = 8000. Carry the chain through step by step and give the final value of gdp_deflator.",
+     "a": "1600 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'GDP Deflator' and work with: constant_price_gdp = 8000, current_price_gdp = 20000. Carry the chain through step by step and give the final value of gdp_deflator.",
+     "a": "250 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'GDP Deflator' refers to.",
+     "a": "The GDP deflator is the ratio of nominal GDP to real GDP multiplied by 100; it measures the overall price level of all goods and services in GDP.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'GDP Deflator'.",
+     "a": "The deflator reflects price changes between the current year and the base year.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'GDP Deflator', in plain ASCII form.",
+     "a": "GDP Deflator = (Nominal GDP / Real GDP) x 100",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12eco.1.6",
+   "title": "Measurement of National Income: Value Added Method",
+   "questions": [
+    {
+     "q": "Using the method 'Measurement of National Income: Value Added Method', work with: intermediate_consumption = 8, p = 3, q = 4. Carry the chain through step by step and give the final value of gdp.",
+     "a": "4 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Measurement of National Income: Value Added Method' and work with: intermediate_consumption = 50, p = 360, q = 15. Carry the chain through step by step and give the final value of gdp.",
+     "a": "5350 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Measurement of National Income: Value Added Method' refers to.",
+     "a": "The value added method estimates national income by summing the value added by each producing unit in the economy.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Measurement of National Income: Value Added Method'.",
+     "a": "Value added avoids double counting by excluding the value of intermediate goods.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Measurement of National Income: Value Added Method', in plain ASCII form.",
+     "a": "Value Added = Value of Output - Intermediate Consumption; GDP = sum of value added",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12eco.1.7",
+   "title": "Measurement of National Income: Income Method",
+   "questions": [
+    {
+     "q": "Using the method 'Measurement of National Income: Income Method', work with: i = 200, nfia = 60, p = 6, r = 12, w = 240. Carry the chain through step by step and give the final value of national_income.",
+     "a": "518 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Measurement of National Income: Income Method' and work with: i = 75, nfia = 15, p = 200, r = 5, w = 24. Carry the chain through step by step and give the final value of national_income.",
+     "a": "319 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Measurement of National Income: Income Method' refers to.",
+     "a": "The income method sums all factor incomes (wages, rent, interest and profit) paid to residents to estimate national income.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Measurement of National Income: Income Method'.",
+     "a": "National income is the sum of factor incomes earned by residents.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Measurement of National Income: Income Method', in plain ASCII form.",
+     "a": "NDPfc = Wages + Rent + Interest + Profit; NNPfc = NDPfc + NFIA",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12eco.1.8",
+   "title": "Measurement of National Income: Expenditure Method",
+   "questions": [
+    {
+     "q": "Using the method 'Measurement of National Income: Expenditure Method', work with: c = 8, depreciation = 2500, g = 3, gdp_mp = 8000, i = 3, m = 150, nfia = 20, nit = 24, x = 150. Carry the chain through step by step and give the final value of nnpfc.",
+     "a": "5496 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Take the relation taught for 'Measurement of National Income: Expenditure Method' and work with: c = 45, depreciation = 8000, g = 10, gdp_mp = 80000, i = 12, m = 12, nfia = 6, nit = 300, x = 100. Carry the chain through step by step and give the final value of nnpfc.",
+     "a": "71706 rupees",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Measurement of National Income: Expenditure Method' refers to.",
+     "a": "The expenditure method estimates GDP by summing final consumption expenditure, investment expenditure and net exports.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Measurement of National Income: Expenditure Method'.",
+     "a": "National income is obtained by aggregating final expenditures on goods and services.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Measurement of National Income: Expenditure Method', in plain ASCII form.",
+     "a": "GDP = C + I + G + (X - M)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "c12eco.1.9",
+   "title": "GDP and Welfare",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'GDP and Welfare' refers to.",
+     "a": "GDP is often used as an indicator of welfare, but higher GDP does not always mean higher welfare due to distribution, composition and non-monetary factors.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'GDP and Welfare'.",
+     "a": "GDP growth is necessary but not sufficient for welfare improvement.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'GDP and Welfare' taught, and from which source text?",
+     "a": "GDP and Welfare",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

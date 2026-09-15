@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_stat_cbse_02_010",
+ "concepts": [
+  {
+   "id": "enh:c11_stat_cbse_02_010",
+   "title": "c11_stat_cbse_02_010",
+   "questions": [
+    {
+     "q": "State the fundamental difference between sampling error and non-sampling error that determines whether increasing the sample size can reduce the error.",
+     "a": "Sampling error arises solely from using a subset (sample) instead of the whole population and decreases as sample size increases; non-sampling error arises from flaws in the data collection process (measurement, recording, coverage, non-response) and persists even in a complete census, so increasing sample size does not reduce it. A wrong answer (e.g., \"both decrease with larger samples\") reveals the student has not grasped that non-sampling errors are systematic process errors, not random sampling variability.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to estimate the average yield of wheat per hectare in Punjab. She selects 100 farms using simple random sampling. During the survey, 15 farmers refuse to participate, 5 enumerators consistently record yield in quintals instead of kg, and the sampling frame excludes tenant farmers who cultivate leased land. Classify each issue as sampling bias, non-response error, or data acquisition error.",
+     "a": "Excluding tenant farmers from the sampling frame = sampling bias (some population members have zero chance of selection). 15 farmers refusing = non-response error (sample observations missing, may not be representative). Enumerators recording in wrong units = data acquisition error (incorrect recording/measurement). A wrong classification (e.g., calling unit error \"sampling bias\") reveals confusion between error sources: sampling bias is about WHO is selected, non-response is about WHO responds, data acquisition is about HOW data is recorded.",
+     "self_check": true
+    },
+    {
+     "q": "In a national health survey, the questionnaire asks: \"How many times did you visit a doctor in the last year?\" Respondents tend to round their answers to the nearest 5 (e.g., saying 10 instead of 8). The survey uses a sample of 50,000 households. If the sample size is doubled to 100,000, will the rounding error decrease? Explain why or why not.",
+     "a": "No, the rounding error will not decrease. Rounding is a data acquisition error (measurement error) caused by respondent memory limitations and questionnaire design — it is systematic and affects every respondent similarly regardless of sample size. Doubling the sample only reduces sampling error (random variability), not this systematic bias. A student who answers \"yes\" misunderstands that non-sampling errors are properties of the measurement process, not sample size.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of non-sampling errors in a census versus a sample survey of the same population. Which is more vulnerable to non-sampling errors and why? Consider both the magnitude of error and the ability to detect it.",
+     "a": "A census is MORE vulnerable to non-sampling errors in absolute terms because: (1) it involves more enumerators, increasing inconsistency in measurement and recording; (2) supervision and training quality dilute with larger field force; (3) data processing volume increases entry/tabulation errors; (4) non-response is harder to follow up at scale. However, a sample survey's estimates may be MORE biased if non-sampling errors correlate with the sampling design (e.g., non-response concentrated in certain strata). The key insight: census eliminates sampling error but amplifies non-sampling error sources — this is why NSSO uses sample surveys despite having census capability.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since non-sampling errors cannot be reduced by increasing sample size, we should always use a census to avoid sampling error entirely.\" Evaluate this argument using the concepts of total survey error and resource constraints.",
+     "a": "The argument is flawed because: (1) Total Survey Error = Sampling Error + Non-Sampling Error. A census sets sampling error to zero but typically increases non-sampling error due to larger operational scale (more enumerators, less supervision per unit, greater processing burden). (2) With fixed resources, a well-designed sample survey with intensive training, supervision, and follow-up can yield lower TOTAL error than a poorly executed census. (3) Timeliness: census takes years; sample gives timely data for policy. The student ignores the trade-off between error types and resource allocation — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-question mini-questionnaire to collect data on \"monthly household expenditure on vegetables\" that MINIMIZES all three types of non-sampling errors. For each question, explain which error type it addresses and how.",
+     "a": "Good answer includes:\nQ1: \"Does your household purchase vegetables regularly? (Yes/No)\" — screens eligibility, reduces coverage error (sampling bias) by identifying in-scope units.\nQ2: \"In the last 30 days, how much did your household spend on vegetables? (Record exact amount in rupees: ₹____)\" — uses reference period and exact amount, reduces recall error and rounding (data acquisition error).\nQ3: \"Who in the household usually purchases vegetables? (Name: ____)\" — identifies best respondent, reduces proxy-response error (data acquisition).\nQ4: \"May we verify this with your purchase receipts or digital payment history? (Yes/No)\" — enables validation, reduces recording error and social desirability bias (data acquisition/non-response).\nEach question targets a specific error mechanism. A poor answer lists generic questions without linking to error types.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

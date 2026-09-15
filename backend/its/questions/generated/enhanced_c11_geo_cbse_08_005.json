@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_geo_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c11_geo_cbse_08_005",
+   "title": "c11_geo_cbse_08_005",
+   "questions": [
+    {
+     "q": "Name the four major physiographic divisions of India in order from north to south and state the approximate latitudinal range each occupies.",
+     "a": "The four divisions north to south: (1) Himalayan Mountain System (~30°N–37°N), (2) Indo-Gangetic-Brahmaputra Plains (~23°N–30°N), (3) Peninsular Plateau (~8°N–23°N), (4) Coastal Plains and Islands (~8°N–23°N along coasts). A wrong answer—such as placing the Thar Desert as a separate division or reversing the plateau and plains—reveals the student memorised a list without understanding the structural geology that orders these units latitudinally.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Peninsular Plateau is geologically older and more stable than the Himalayan region, and how this difference affects their present-day landforms.",
+     "a": "The Peninsular Plateau is part of the ancient Gondwana landmass (Precambrian shield) composed of hard crystalline rocks that have undergone prolonged denudation, resulting in relict mountains, broad valleys, and stable cratons. The Himalayas are young fold mountains (Tertiary period) formed by ongoing convergence of the Indian and Eurasian plates, characterised by high relief, deep gorges, and seismic activity. A student who attributes the plateau's stability to \"less rain\" or \"no earthquakes\" confuses climate with geological history and misses the plate-tectonic control.",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of India, mark the following: (a) the approximate boundary between the Himalayan foreland basin and the Peninsular Plateau, (b) the Malwa Plateau, (c) the Konkan Coast, (d) the Eight Degree Channel. Identify which physiographic division each feature belongs to.",
+     "a": "(a) The Himalayan foreland basin–Peninsular Plateau boundary runs roughly along the Yamuna–Ganga divide near Delhi, then follows the northern edge of the Vindhya–Satpura ranges—this is the junction of Division 2 and Division 3. (b) Malwa Plateau: Peninsular Plateau (Central Highlands). (c) Konkan Coast: Western Coastal Plain (Division 4). (d) Eight Degree Channel: Lakshadweep Islands (Division 4, maritime). A student who places the Malwa Plateau in the Himalayas or the Eight Degree Channel in the Bay of Bengal has not internalised the spatial hierarchy of divisions and sub-divisions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the strategic implications of India's land frontiers in the northwest (Pakistan, Afghanistan) versus the northeast (Myanmar, Bangladesh) for connectivity to Central Asia and Southeast Asia respectively.",
+     "a": "The northwest frontier (Khyber Pass, Bolan Pass) historically linked India to Central Asia and the Silk Road, but modern geopolitics and terrain (Hindu Kush, Pamirs) limit overland access; connectivity now depends on Iran's Chabahar port and the International North–South Transport Corridor. The northeast frontier (Diphu Pass, Moreh) offers direct land routes to Myanmar and via Bangladesh to Southeast Asia, enabling India's Act East Policy, but rugged terrain (Arakan Yoma, Patkai Hills) and cross-border insurgency constrain infrastructure. A student who treats both frontiers as equally \"open\" or \"closed\" misses the asymmetry created by great-power politics and physical geography combined.",
+     "self_check": true
+    },
+    {
+     "q": "Assess the claim: \"India's peninsular location in the Indian Ocean is its greatest strategic asset.\" Provide two supporting arguments and one limitation.",
+     "a": "Supporting: (1) The peninsula projects 1,600 km into the Indian Ocean, giving India a 7,517 km coastline and Exclusive Economic Zone of 2.37 million km², enabling dominance over Sea Lines of Communication (SLOCs) through the Strait of Hormuz, Malacca Strait, and Suez Canal approaches. (2) The Andaman and Nicobar Islands command the Six Degree and Ten Degree Channels, overseeing the Malacca Strait's western entry. Limitation: The same peninsular exposure creates a vast maritime boundary requiring disproportionate naval resources for surveillance, and the Lakshadweep and Andaman chains are vulnerable to disruption of supply lines in conflict. A student who only lists advantages without a limitation shows uncritical acceptance of \"strategic location\" as an unqualified benefit.",
+     "self_check": true
+    },
+    {
+     "q": "Design a schematic map annotation for a Class 11 board answer showing how India's physical setting creates three distinct climatic zones. Use standard symbols and label the controlling physiographic feature for each zone.",
+     "a": "A strong answer includes: (1) Himalayan barrier (↑ symbol) blocking cold Central Asian winds → Subtropical zone in plains; (2) Western Ghats (↑↑ windward side) forcing orographic rainfall → Tropical Monsoon zone on Malabar Coast; (3) Rain-shadow east of Western Ghats (↓ leeward) + distance from sea → Semi-arid zone on Deccan Plateau. Each zone labelled with the controlling feature (mountain barrier, windward slope, rain shadow). A poor answer draws climate zones without linking them to specific physiographic controls, treating climate as independent of physical setting.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

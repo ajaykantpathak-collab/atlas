@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_phy_cbse_14_006",
+ "concepts": [
+  {
+   "id": "enh:c11_phy_cbse_14_006",
+   "title": "c11_phy_cbse_14_006",
+   "questions": [
+    {
+     "q": "Two coherent sources emit waves of wavelength 500 nm. At a point P, the path difference between the waves is 250 nm. What is the phase difference at P, and what type of interference occurs?",
+     "a": "Phase difference φ = 2π(Δx/λ) = 2π(250/500) = π rad. Since φ = π (odd multiple of π), destructive interference occurs. A wrong answer (e.g., φ = π/2 or claiming constructive interference) reveals the student cannot convert path difference to phase difference using φ = 2πΔx/λ, or does not know that destructive interference requires φ = (2n+1)π.",
+     "self_check": true
+    },
+    {
+     "q": "Two waves of equal amplitude a interfere. The resultant amplitude is a√2. What is the phase difference between the waves? Explain why the resultant wave has the same frequency as the individual waves.",
+     "a": "Resultant amplitude A = 2a cos(φ/2) = a√2 → cos(φ/2) = 1/√2 → φ/2 = π/4 → φ = π/2 (or 90°). The resultant wave has the same frequency because superposition of two waves of same frequency ω produces a wave with the same ω — the time-dependent factor cos(ωt - kx + φ/2) remains unchanged; only amplitude and phase are modified. A wrong answer (e.g., φ = π/4 or claiming frequency changes) reveals confusion between amplitude modulation and frequency, or inability to manipulate the cosine equation.",
+     "self_check": true
+    },
+    {
+     "q": "Two speakers separated by 2.0 m emit coherent sound waves of frequency 340 Hz. A student walks parallel to the line joining the speakers at a distance of 10 m. If the speed of sound is 340 m/s, calculate the distance between consecutive points of maximum intensity (constructive interference) that the student hears.",
+     "a": "Step 1: Wavelength λ = v/f = 340/340 = 1.0 m. Step 2: For constructive interference, path difference Δx = nλ. Step 3: At large distance D = 10 m compared to source separation d = 2.0 m, fringe width (distance between consecutive maxima) β = λD/d = (1.0 × 10)/2.0 = 5.0 m. Step 4: Verify: Δx changes by λ when student moves by β, giving consecutive maxima. Answer: 5.0 m. A wrong answer (e.g., using β = λd/D or forgetting D >> d approximation) reveals confusion with double-slit formula orientation or inability to apply small-angle approximation.",
+     "self_check": true
+    },
+    {
+     "q": "Two coherent waves of amplitudes 3 mm and 4 mm interfere with a phase difference of π/2. The resultant amplitude is 5 mm. A student claims this is always true for any two waves with these amplitudes. Evaluate this claim and explain the condition under which it holds.",
+     "a": "The claim is false. Resultant amplitude A = √(a₁² + a₂² + 2a₁a₂ cos φ). For a₁ = 3, a₂ = 4, φ = π/2: A = √(9 + 16 + 0) = 5 mm. This holds ONLY when φ = π/2 (or 90°). If φ = 0, A = 7 mm (constructive); if φ = π, A = 1 mm (destructive). The student's error reveals a misconception that fixed amplitudes always give fixed resultant amplitude, ignoring the critical role of phase difference.",
+     "self_check": true
+    },
+    {
+     "q": "In a double-slit experiment with sound waves, a student replaces the two slits with two speakers driven by the same amplifier. The interference pattern on a screen disappears when the amplifier's volume is turned up very high. The student concludes that interference only occurs at low intensities. Identify the flaw in this reasoning and state the actual requirement for observable interference.",
+     "a": "The flaw: interference is a linear phenomenon independent of amplitude/intensity. Turning up volume increases amplitude but does not destroy coherence. The pattern disappears because at high volumes, non-linear effects (air saturation, speaker distortion) or reflections from walls create additional incoherent waves that wash out the pattern. Actual requirement: sources must be coherent (constant phase difference) and have comparable amplitudes. The student's error reveals confusion between linearity of superposition and non-linear medium effects at high intensity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple experiment using two tuning forks of slightly different frequencies (e.g., 256 Hz and 260 Hz) to demonstrate that interference requires constant phase difference. Describe what you would observe and how it proves the requirement.",
+     "a": "Strike both forks simultaneously and hold them near each other. Observe beats — periodic waxing and waning of intensity at 4 Hz. This occurs because the phase difference φ = (ω₁ - ω₂)t changes continuously with time, causing the interference to alternate between constructive and destructive. If the forks had identical frequencies (constant φ), a steady interference pattern (fixed loud/soft regions in space) would be observed. The beats demonstrate that time-varying phase difference prevents stable interference. A poor answer (e.g., just describing beats without linking to phase difference variability) reveals inability to connect the mathematical condition (constant φ) to the physical observation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

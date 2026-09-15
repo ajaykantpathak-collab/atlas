@@ -1,0 +1,214 @@
+{
+ "catalog": "catalog_class6_social_science_ch307",
+ "concepts": [
+  {
+   "id": "fess.307.1",
+   "title": "Municipal Corporation and Municipal Council",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Municipal Corporation and Municipal Council' refers to.",
+     "a": "Local governing bodies in urban areas responsible for public services, called Municipal Corporations in large cities and Municipal Councils in smaller towns.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Municipal Corporation and Municipal Council'.",
+     "a": "Urban local bodies are named based on the population and size of the urban area they govern.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Municipal Corporation and Municipal Council' taught, and from which source text?",
+     "a": "Urban Administration (source: fess307.txt lines 40-60)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.307.2",
+   "title": "The Ward Councillor",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'The Ward Councillor' refers to.",
+     "a": "An elected representative of a specific city ward who participates in decision-making and represents local citizen interests.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'The Ward Councillor'.",
+     "a": "Elected ward representatives form committees to debate and decide on issues affecting the city.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'The Ward Councillor' taught, and from which source text?",
+     "a": "The Ward Councillor and Administrative Staff (source: fess307.txt lines 65-90)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.307.3",
+   "title": "Commissioner and Administrative Staff",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Commissioner and Administrative Staff' refers to.",
+     "a": "Appointed government officials led by the Commissioner who implement the decisions made by the elected councillors.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Commissioner and Administrative Staff'.",
+     "a": "Elected councillors make policy decisions, while appointed administrative staff execute them.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Commissioner and Administrative Staff' taught, and from which source text?",
+     "a": "The Ward Councillor and Administrative Staff (source: fess307.txt lines 91-110)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.307.4",
+   "title": "Municipal Budgeting and Decision Making",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Municipal Budgeting and Decision Making' refers to.",
+     "a": "The process where Ward Councillors meet to prepare a budget and allocate funds according to the demands of different wards.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Municipal Budgeting and Decision Making'.",
+     "a": "Financial planning in a city is done through democratic budgeting by elected representatives.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Municipal Budgeting and Decision Making' taught, and from which source text?",
+     "a": "The Ward Councillor and Administrative Staff (source: fess307.txt lines 105-125)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.307.5",
+   "title": "Municipal Revenue Estimation",
+   "questions": [
+    {
+     "q": "Calculate the total revenue of a Municipal Corporation if its property tax collection is property_tax at percentage percent. Use the method 'Municipal Revenue Estimation'. Work with: percentage = 20, property_tax = 12. Carry the chain through step by step and give the final value of total_revenue.",
+     "a": "60 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Find the total municipal earnings when property tax is property_tax and accounts for percentage percent of the total. Use the method 'Municipal Revenue Estimation'. Work with: percentage = 15, property_tax = 8. Carry the chain through step by step and give the final value of total_revenue.",
+     "a": "53.3333 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Municipal Revenue Estimation' refers to.",
+     "a": "Calculating the total revenue of a Municipal Corporation based on the property tax collection and its percentage contribution.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Municipal Revenue Estimation'.",
+     "a": "Property taxes contribute a specific percentage (typically 25 to 30 percent) of a municipality's total earnings.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Municipal Revenue Estimation', in plain ASCII form.",
+     "a": "total_revenue = (property_tax * 100) / percentage",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.307.6",
+   "title": "Community Protest and Citizen Action",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Community Protest and Citizen Action' refers to.",
+     "a": "The democratic action taken by citizens, such as petitions and peaceful protests, to demand accountability and services from local authorities.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Community Protest and Citizen Action'.",
+     "a": "Citizens can organize, sign petitions, and approach elected representatives to resolve local civic issues.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Community Protest and Citizen Action' taught, and from which source text?",
+     "a": "A Community Protest (source: fess307.txt lines 170-220)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.307.7",
+   "title": "Sub-Contracting in Urban Administration",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Sub-Contracting in Urban Administration' refers to.",
+     "a": "The practice of hiring private contractors by municipalities to collect and process garbage, replacing government workers with temporary contract labor.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Sub-Contracting in Urban Administration'.",
+     "a": "Sub-contracting reduces municipal costs but often leads to lower wages and unsafe working conditions for temporary workers.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Sub-Contracting in Urban Administration' taught, and from which source text?",
+     "a": "What has changed since Khala retired? (source: fess307.txt lines 221-245)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.307.8",
+   "title": "Public Health and Sanitation Management",
+   "questions": [
+    {
+     "q": "Explain in your own words what 'Public Health and Sanitation Management' refers to.",
+     "a": "The critical responsibility of municipalities to maintain cleanliness and waste disposal to prevent the outbreak of deadly diseases.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Public Health and Sanitation Management'.",
+     "a": "Poor sanitation can lead to severe epidemics like the plague, forcing administrative reforms and strict cleanliness drives.",
+     "self_check": true
+    },
+    {
+     "q": "Under which section is 'Public Health and Sanitation Management' taught, and from which source text?",
+     "a": "The city of Surat had a plague scare in 1994 (source: fess307.txt lines 260-285)",
+     "self_check": true
+    }
+   ]
+  },
+  {
+   "id": "fess.307.9",
+   "title": "Property Tax Share Percentage",
+   "questions": [
+    {
+     "q": "Calculate the percentage share of property tax when the municipal corporation collects property_tax out of a total of total_revenue. Use the method 'Property Tax Share Percentage'. Work with: property_tax = 20, total_revenue = 8000. Carry the chain through step by step and give the final value of percentage.",
+     "a": "0.25 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Find the proportion of property tax in the total budget of total_revenue if the property tax collected is property_tax. Use the method 'Property Tax Share Percentage'. Work with: property_tax = 12, total_revenue = 50000. Carry the chain through step by step and give the final value of percentage.",
+     "a": "0.024 per cent",
+     "self_check": false
+    },
+    {
+     "q": "Explain in your own words what 'Property Tax Share Percentage' refers to.",
+     "a": "Determining the percentage share of property tax in the total municipal revenue.",
+     "self_check": true
+    },
+    {
+     "q": "State the single key point to remember about 'Property Tax Share Percentage'.",
+     "a": "Calculating the proportion of a city's total earnings that comes directly from property taxes.",
+     "self_check": true
+    },
+    {
+     "q": "Write the standard relation used for 'Property Tax Share Percentage', in plain ASCII form.",
+     "a": "percentage = (property_tax * 100) / total_revenue",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}
